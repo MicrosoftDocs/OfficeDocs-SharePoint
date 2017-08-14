@@ -1,0 +1,798 @@
+<!-- ---------------------------------------------------------------------
+//
+//  Copyright 1998 Microsoft Corporation.  All Rights Reserved.
+//
+//  File:         tooltip.htc
+//
+//  Description:  This behavior allows web authors to add tooltips to any
+//                element on the page. Any HTML can be included in the 
+//                tooltip, including images and CSS formatting. Web authors
+//                can also control the placement and duration of the tooltip.
+//
+//-------------------------------------------------------------------- -->
+
+<PROPERTY NAME="avoidMouse" />
+<PROPERTY NAME="element"    />
+<PROPERTY NAME="delay"      />
+<PROPERTY NAME="duration"   />
+
+<METHOD   NAME="HideTip"    />
+<METHOD   NAME="ShowTip"    />
+
+<EVENT    NAME="onshow"  ID="show"   />
+<EVENT    NAME="onhide"  ID="hide"   />
+<EVENT    NAME="onerror" ID="error"  />
+
+<ATTACH   EVENT="ondocumentready" HANDLER="DoInit" />
+
+
+<SCRIPT LANGUAGE="jscript">
+
+
+//+----------------------------------------------------------------------------
+//
+//  Global Variables
+//
+//-----------------------------------------------------------------------------
+
+var bShowing;       // Tracks if the tooltip is showing
+
+var bOverTip;       // Tracks if the mouse is over the tooltip
+
+var iOffsetX;       // Tracks the left position to show the tooltip
+
+var iOffsetY;       // Tracks the top position to show the tooltip
+
+var oCurrTip;       // Tracks the element that is left to move over the tooltip
+
+var iOffsetW;       // Tracks the width of the tooltip
+
+var iOffsetH;       // Tracks the height of the tooltip
+
+var oTipElem;       // Tracks the element property when AttachEvent is called.
+                    //      This allows DetachEvent to undo the attached events
+                    //      If the element property is changed at runtime.
+
+var bFixedLocation; //Tracks is a pop-up will be in a fixed location (upper-left corner)
+
+//+----------------------------------------------------------------------------
+//
+//  Function:       DoInit
+//
+//  Description:    Calls functions to initialize behavior.  Attaches events
+//                  that are not attached using the <ATTACH> element to prevent
+//                  firing the events until the defaults are set and the
+//                  behavior is initialized.
+//
+//  Arguments:      none
+//
+//  Returns:        nothing
+//
+//-----------------------------------------------------------------------------
+
+function DoInit()
+{
+    SetDefaults();
+    AttachElement();
+    
+    attachEvent("onmouseover", DoMouseOverTip);
+    attachEvent("onmouseout", DoMouseOutTip);    
+    attachEvent("onpropertychange", DoPropChangeTip);
+}
+
+
+//+----------------------------------------------------------------------------
+//
+//  Function:       SetDefaults
+//
+//  Description:    Called during the initialization of the behavior.  Sets
+//                  the required settings for CSS properties and defaults for
+//                  regular CSS properties (the NormalDefault() function), and
+//                  attribute/properties.
+//
+//  Arguments:      none
+//
+//  Returns:        nothing
+//
+//-----------------------------------------------------------------------------
+
+function SetDefaults()
+{
+    //  CSS hard-coded defaults (required settings)
+    style.position = "absolute";
+    style.visibility = "hidden";
+
+    //  CSS Property Defaults   
+    NormalDefault('fontSize',        '12',              '8pt');
+    NormalDefault('fontFamily',      'Times New Roman', 'Arial');
+    NormalDefault('padding',         '0px',             '5 2 5 2');
+    NormalDefault('backgroundColor', 'transparent',     '#d2d2d2');
+    NormalDefault('borderStyle',     'none',            'solid');
+    NormalDefault('borderWidth',     'medium',          '1px');
+    NormalDefault('borderColor',     '#000000',         'black');
+    NormalDefault('color',           '#000000',         'black');
+    NormalDefault("filter",          "",                "progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#D2D2D2', EndColorStr='#F2F2F2')");
+    
+    //style.width = GetWidth();     // Set the width by calling GetWidth()
+    //style.height = GetHeight();   // Set the height by calling GetHeight()
+    
+    style.width = 350;    // Set the width by calling GetWidth()
+    style.height = 10;   // Set the height by calling GetHeight()
+    
+    style.display = "none";
+    style.visibility = "visible";
+    
+    
+    iOffsetW = parseInt(style.width);
+    iOffsetH = parseInt(style.height);
+
+    if(element.element == 'roleInfoSpan')
+    {
+        style.width = 200;
+        style.listStyle = "none";
+
+    }
+
+    //  Attribute | Property Defaults
+    if (avoidMouse == null)     avoidMouse  = false;
+    if (delay == null)          delay       = 0;
+    if (duration == null)       duration    = 10;
+}
+
+
+//+----------------------------------------------------------------------------
+//
+//  Function:       NormalDefault
+//
+//  Description:    Sets the defaults for CSS properties by checking the
+//                  currentStyle and style of the object against the Internet Explorer
+//                  default.
+//
+//  Arguments:      sCSSName - the CSS name of the property
+//                  sIEDefault - the Internet Explorer standard default of the property
+//                  sDefault - the desired default of the property
+//
+//  Returns:        nothing
+//
+//-----------------------------------------------------------------------------
+
+function NormalDefault(sCSSName, sIEDefault, sDefault)
+{
+    if (currentStyle[sCSSName] == sIEDefault 
+        && (style[sCSSName] == "" || style[sCSSName] == null))
+    {
+        style[sCSSName] = sDefault;
+    }
+}
+
+
+//+----------------------------------------------------------------------------
+//
+//  Function:       DoPropChangeTip
+//
+//  Description:    If the element
+//
+//  Arguments:      none
+//
+//  Returns:        nothing
+//
+//-----------------------------------------------------------------------------
+
+function DoPropChangeTip()
+{
+    var propertyName = window.event.propertyName;
+
+    if (propertyName == "element")
+    {
+        DetachElement();
+        AttachElement();
+    }
+}
+
+
+//+----------------------------------------------------------------------------
+//
+//  Function:       DoPropChangeElem
+//
+//  Description:    If the ALT or TITLE property of the element the tooltip is
+//                  attached to are changed, this function prevents that change
+//                  and fires the error event.
+//
+//  Arguments:      none
+//
+//  Returns:        nothing
+//
+//-----------------------------------------------------------------------------
+
+function DoPropChangeElem()
+{
+    var propertyName = window.event.propertyName.toLowerCase();
+    var srcElement = window.event.srcElement;
+
+    if (propertyName == "title" || propertyName == "alt")
+    {
+        //  Detach the propertychange event while the next steps are performed
+        srcElement.detachEvent("onpropertychange", DoPropChangeElem);
+        
+        //  Set ALT and TITLE to empty string
+        srcElement.title = "";
+        //srcElement.alt = "";
+        
+        //  Reattach the propertychange event.
+        srcElement.attachEvent("onpropertychange", DoPropChangeElem);
+    }
+}
+
+
+//+----------------------------------------------------------------------------
+//
+//  Function:       GetHeight
+//
+//  Description:    This function helps set the height of the tooltip, either
+//                  by grabbing the explicit value set on the page or by using
+//                  the getBoundingClientRect() method.
+//
+//  Arguments:      none
+//
+//  Returns:        currentStyle.height if currentStyle.height is not equal to
+//                      "auto" (which would likely signal it was not set by the
+//                      html page).
+//                  iHeight if currentStyle.height is equal to "auto".  iHeight
+//                      is a value based on the getBoundingClientRect() method on
+//                      the tooltip object.       
+//
+//-----------------------------------------------------------------------------
+
+function GetHeight()
+{
+    if (currentStyle.height != "auto") return currentStyle.height;
+    
+    else
+    {
+        var oHeight = getBoundingClientRect();
+        var iHeight = oHeight.bottom - oHeight.top;
+
+        return iHeight;
+    }
+}
+
+
+//+----------------------------------------------------------------------------
+//
+//  Function:       GetWidth
+//
+//  Description:    This function helps set the width of the tooltip, either
+//                  by grabbing the explicit value set on the page or by using
+//                  the getBoundingClientRect() method.
+//
+//  Arguments:      none
+//
+//  Returns:        currentStyle.width if currentStyle.width is not equal to
+//                      "auto" (which would likely signal it was not set by the
+//                      html page).
+//                  iWidth if currentStyle.width is equal to "auto".  iWidth is
+//                      a value based on the getBoundingClientRect() method on
+//                      the tooltip object.
+//
+//-----------------------------------------------------------------------------
+
+function GetWidth()
+{
+    if (currentStyle.width != "auto") return currentStyle.width;
+
+    else
+    {
+        var oWidth = getBoundingClientRect();
+        var iWidth = oWidth.right - oWidth.left;
+        
+        return iWidth;
+    }
+}
+
+
+//+----------------------------------------------------------------------------
+//
+//  Function:       DetachElement
+//
+//  Description:    Un-Attaches the events attached by AttachEvent().  This
+//                  function is called when the element property of the tooltip
+//                  is changed, so that the old element no longer calls the
+//                  tooltip.
+//
+//  Arguments:      none
+//
+//  Returns:        nothing
+//
+//-----------------------------------------------------------------------------
+
+function DetachElement()
+{
+    oDetach = eval('window.document.all["' + oTipElem + '"]');
+    
+    if (oDetach.length != null && oDetach.length > 1)
+    {
+        for (i=0; i<oDetach.length; i++)
+        {
+            oDetach(i).detachEvent("onmouseover", DoMouseOverElem);
+            oDetach(i).detachEvent("onclick", DoMouseClickElem);
+            oDetach(i).detachEvent("onmouseout", DoMouseOutElem);
+            oDetach(i).detachEvent("onpropertychange", DoPropChangeElem);
+            oAttach(i).detachEvent("onkeypress", DoKeyPressElem);
+        }
+    }
+    
+    else
+    {
+        oDetach.detachEvent("onmouseover", DoMouseOverElem);
+        oDetach.detachEvent("onclick", DoMouseClickElem);
+        oDetach.detachEvent("onmouseout", DoMouseOutElem);
+        oDetach.detachEvent("onpropertychange", DoPropChangeElem);
+        oAttach.detachEvent("onkeypress", DoKeyPressElem);
+    }
+}
+
+
+//+----------------------------------------------------------------------------
+//
+//  Function:       AttachElement
+//
+//  Description:    Attaches onmouseover, onmouseout, and onproperty change
+//                  to the element the tooltip is assigned to (via the element
+//                  property).  If the element is a collection, the members
+//                  of the collection are enumerated.  If the element does
+//                  not exist, an error is returned.
+//
+//  Arguments:      none
+//
+//  Returns:        false if the element does not exist
+//
+//-----------------------------------------------------------------------------
+
+function AttachElement()
+{
+    //
+    //  Set a variable equal to the object represented by the ID specified
+    //  in the tooltip element.
+    //
+    var oAttach = eval('window.document.all["' + element.element + '"]');
+
+    //  If the element does not exist, return an error
+    if (oAttach == null)
+    {
+        return false;
+    }
+    
+    //
+    //  If the element is a collection (more than one element with the same
+    //  ID), the events are attached to each member of the collection.
+    //
+    else if (oAttach.length != null && oAttach.length > 1)
+    {
+        for (i=0; i<oAttach.length; i++)
+        {
+            oAttach(i).attachEvent("onmouseover", DoMouseOverElem);
+            oAttach(i).attachEvent("onclick", DoMouseClickElem);
+            oAttach(i).attachEvent("onmouseout", DoMouseOutElem);
+            oAttach(i).title = "";
+            //if (oAttach(i).tagName.toLowerCase() == "img") oAttach(i).alt = "";
+            oAttach(i).attachEvent("onpropertychange", DoPropChangeElem);
+            oAttach(i).attachEvent("onkeypress", DoKeyPressElem);
+        }
+    }
+    
+    //  Otherwise, the events are attached to the single element.
+    else
+    {
+        oAttach.attachEvent("onmouseover", DoMouseOverElem);
+        oAttach.attachEvent("onclick", DoMouseClickElem);
+        oAttach.attachEvent("onmouseout", DoMouseOutElem);
+        oAttach.title = "";
+        //if (oAttach.tagName.toLowerCase() == "img") oAttach.alt = "";
+        oAttach.attachEvent("onpropertychange", DoPropChangeElem);
+        oAttach.attachEvent("onkeypress", DoKeyPressElem);
+    }
+    
+    //  Set the variable to track the element's ID
+    oTipElem = element.element;
+}
+
+
+//+----------------------------------------------------------------------------
+//
+//  Function:       ShowTip
+//
+//  Description:    Method to show tooltip.
+//
+//  Arguments:      none
+//
+//  Returns:        false if bShowing is false (this prevents the ShowTip from
+//                      repeatedly being called by mousing over the element
+//                      and the tooltip).
+//
+//-----------------------------------------------------------------------------
+
+function ShowTip()
+{
+    if (!bShowing) return false;
+    
+    var oBody = window.document.all["mainSection"];
+    
+    //  Make the tooltip visible
+    style.display = "block";
+    
+    //  Set the position of the tooltip
+    if(bFixedLocation)
+    {
+        style.left = iOffsetX + oBody.scrollLeft;
+        style.top = iOffsetY + oBody.scrollTop;
+    }
+    else
+    {
+        style.left = iOffsetX;
+        style.top = iOffsetY;
+        
+        //Check to see if the tool-tip will appear off the bottom of the screen
+        //and move it up if it will.
+        if((iOffsetY + clientHeight) > (oBody.offsetHeight + oBody.scrollTop))
+            style.top = iOffsetY - clientHeight;
+    }
+    
+    //  Fire the onshow event
+    show.fire();
+    
+    childNodes[0].focus();
+    
+    //  Start the timer to turn off the tooltip (call HideTip())
+    setTimeout(uniqueID + ".HideTip()", duration * 1000);
+}
+
+
+//+----------------------------------------------------------------------------
+//
+//  Function:       HideTip
+//
+//  Description:    Method to hide tooltip.
+//
+//  Arguments:      none
+//
+//  Returns:        false if the user has moved from the element to the tooltip
+//                      and the avoidMouse property is set to false.
+//
+//-----------------------------------------------------------------------------
+
+function HideTip()
+{
+    if (bOverTip && (avoidMouse == "false" || avoidMouse == false)) return false;
+
+    bShowing = false;
+    
+    //  Hide the tooltip
+    style.display = "none";
+    
+    //  Fire the onhide event
+    hide.fire();
+}
+
+
+//+----------------------------------------------------------------------------
+//
+//  Function:       DoMouseOverElem
+//
+//  Description:    Calls the ShowTip() methods after the delay period (set by
+//                  the delay property) has expired.
+//
+//  Arguments:      none
+//
+//  Returns:        false if the mouse is returning from the tooltip
+//
+//-----------------------------------------------------------------------------
+
+function DoMouseOverElem()
+{
+    //  If the mouse is coming back from the tooltip, return
+    if (window.event.fromElement == element) return false;
+
+    if(element.element == 'roleInfoSpan')
+    {
+        var oBody = window.document.all["mainSection"];
+
+        var infoRole = window.document.all["roleInfo"];
+        if(infoRole == null)
+            return false;
+        element.innerHTML = infoRole.innerHTML;
+        
+	//Updated for v1.7.4 (bug 2951)
+        //Base the position of the tooltip on the width of the window
+	  iOffsetX = oBody.scrollWidth - 200;
+          iOffsetY = oBody.scrollTop;
+
+    }
+    else
+        return false;
+        
+    
+    //  Set tracking variable
+    bShowing = true;
+    
+    //  Call ShowTip() after delay
+    if (delay != -1) setTimeout(uniqueID + ".ShowTip()", delay);
+
+}
+
+
+//+----------------------------------------------------------------------------
+//
+//  Function:       DoMouseClickElem
+//
+//  Description:    Retrieves the appropriate data and Calls the ShowTip()
+//                  method when a tool tip item is clicked on.
+//
+//  Arguments:      none
+//
+//  Returns:        false if the mouse is returning from the tooltip
+//
+//-----------------------------------------------------------------------------
+
+function DoMouseClickElem()
+{   
+    //  If the mouse is coming back from the tooltip, return
+    if (window.event.fromElement == element) return false;
+    
+    if(element.element == 'parameterToolTip')
+        element.innerText = "";
+
+    if((element.innerText == "") || (element.innerText == null))
+    {
+        if(element.element == 'parameterToolTip')
+        {
+            var DLs = window.document.all.tags("dl");
+            var found = false;
+            
+            if(DLs == null)
+                return false;
+            
+            for(var i = 0; i < DLs.length; i++)
+            {
+                if(DLs[i].paramName != null)
+                {
+                    if(DLs[i].paramName == window.event.srcElement.innerHTML)
+                    {
+                        element.innerHTML = DLs[i].outerHTML;
+                        found = true;
+                    }
+                }
+            }
+            if(!found)
+                return false;
+        }
+        else if(element.element == 'languageFilterToolTip')
+        {
+            var languageFilterSection = window.document.all["languageSpan"];
+            if(languageFilterSection == null)
+                return false;
+            element.innerHTML = languageFilterSection.innerHTML;
+        }
+        else if(element.element == 'languageFilterToolTip1')
+        {
+            var languageFilterSection = window.document.all["languageSpan1"];
+            if(languageFilterSection == null)
+                return false;
+            element.innerHTML = languageFilterSection.innerHTML;
+        }
+        else if(element.element == 'membersOptionsFilterToolTip')
+        {
+            var membersOptionsFilterSection = window.document.all["membersOptionsSpan"];
+            if(membersOptionsFilterSection == null)
+                return false;
+            element.innerHTML = membersOptionsFilterSection.innerHTML;
+        }
+        else
+        {
+            return false;
+        }
+    }
+    else if(element.element =='roleInfoSpan')
+    {
+        return false;
+    }
+    
+    if((element.element == 'languageFilterToolTip') || (element.element == 'membersOptionsFilterToolTip'))
+    {
+        iOffsetX = 0;
+        iOffsetY = window.event.srcElement.parentElement.offsetTop;
+        bFixedLocation = true;
+    }
+    else
+    {
+        iOffsetX = window.event.srcElement.offsetLeft;
+        iOffsetY = Calculate_offsetTop(window.event.srcElement);
+        bfixedLocation = false;
+    }
+    
+    //  Set tracking variable
+    bShowing = true;
+    
+    if(element.element == 'membersOptionsFilterToolTip')
+        set_protectedCheckbox();
+    
+    //  Call ShowTip() after delay
+    if (delay != -1) setTimeout(uniqueID + ".ShowTip()", delay);
+}
+
+
+//+----------------------------------------------------------------------------
+//
+//  Function:       Calculate_offsetTop
+//
+//  Description:    Calulates the combined offsetTop(s) from the souce element
+//                  upto the DIV tag.  This will provide the location of an
+//                  element on a page.
+//
+//  Arguments:      element
+//
+//  Returns:        integer of the combined offsetTop(s).
+//
+//-----------------------------------------------------------------------------
+function Calculate_offsetTop(e)
+{
+    if(e.tagName != 'DIV')
+        return e.offsetTop + Calculate_offsetTop(e.offsetParent);
+    else
+        return e.offsetTop;
+}
+
+
+//+----------------------------------------------------------------------------
+//
+//  Function:       set_protectedCheckbox()
+//
+//  Description:    Set the value of the protectedCheckbox based on the value of
+//                  the 'protectedCheckbox' variable in script.js
+//
+//-----------------------------------------------------------------------------
+function set_protectedCheckbox()
+{
+    if(element.element == 'membersOptionsFilterToolTip')
+    {   
+        var inputCollection = element.getElementsByTagName("input");
+        if(inputCollection != null)
+        {
+            for(var x = 0; x < inputCollection.length; x++)
+            {
+                if(inputCollection[x].id == 'protectedCheckbox')
+                {
+                    if(protectedMembers != null)
+                    {
+                        if(protectedMembers == 'on')
+                            inputCollection[x].checked = true;
+                        else
+                            inputCollection[x].checked = false;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//+----------------------------------------------------------------------------
+//
+//  Function:       DoKeyPressElem
+//
+//  Description:    Calls the DoMouseClickElem() method if the ENTER key
+//                  was used.
+//
+//  Arguments:      none
+//
+//  Returns:        nothing
+//
+//-----------------------------------------------------------------------------
+
+function DoKeyPressElem()
+{
+    if(window.event.keyCode == 13)
+        DoMouseClickElem();
+}
+
+//+----------------------------------------------------------------------------
+//
+//  Function:       DoMouseOutElem
+//
+//  Description:    Calls the HideTip() method after a 200ms delay (currently
+//                  hard-coded).
+//
+//  Arguments:      none
+//
+//  Returns:        nothing
+//
+//-----------------------------------------------------------------------------
+
+function DoMouseOutElem()
+{
+    //  Call HideTip after a 200ms delay
+    setTimeout(uniqueID + ".HideTip()", 500);
+}
+
+
+//+----------------------------------------------------------------------------
+//
+//  Function:       DoMouseOverTip
+//
+//  Description:    Sets the variable to track if the mouse is over the tooltip
+//                  itself.  This assists in the process of allowing the user
+//                  to mouse over the tooltip itself, in the case where it
+//                  contains links, etc.  Note, this function is not called if
+//                  the avoidMouse property is set to true.
+//
+//  Arguments:      none
+//
+//  Returns:        nothing
+//
+//-----------------------------------------------------------------------------
+
+function DoMouseOverTip()
+{
+    oCurrTip = window.event.fromElement;    
+    bOverTip = true;
+}
+
+
+//+----------------------------------------------------------------------------
+//
+//  Function:       DoMouseOutTip
+//
+//  Description:    This function occurs on the mouseout event of the tooltip.
+//                  When the user mouses out of the tooltip, the HideTip()
+//                  method is called. As in the DoMouseOverTip() function above,
+//                  this function is not called if the avoidMouse Property is 
+//                  set to true.
+//
+//  Arguments:      none
+//
+//  Returns:        false if the srcElement is inside of the tooltip
+//                  false if the mouse is returning to the tip element
+//
+//-----------------------------------------------------------------------------
+
+function DoMouseOutTip()
+{
+    //
+    //  If the element causing the mouseout is inside the tooltip container,
+    //  don't hide the tooltip
+    //
+    if (element.contains(window.event.toElement)) return false;
+    
+    //  If the mouse is returning to the tip element, don't hide the tooltip
+    if (window.event.toElement == oCurrTip)
+    {
+        bOverTip = false;
+        oCurrTip = null;
+        return false;
+    }
+
+    bOverTip = false;
+    HideTip();
+}
+
+
+//+----------------------------------------------------------------------------
+//
+//  Function:       ReturnError
+//
+//  Description:    Fires the error event, along with a descriptive text
+//                  message.
+//
+//  Arguments:      sMsg - descriptive text message
+//
+//  Returns:        nothing 
+//
+//-----------------------------------------------------------------------------
+
+function ReturnError(sMsg)
+{
+    var oEvent = createEventObject();
+    oEvent.setAttribute("error", sMsg);
+    error.fire(oEvent);
+}
+
+
+</SCRIPT>

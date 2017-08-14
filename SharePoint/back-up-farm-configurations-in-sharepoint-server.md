@@ -1,0 +1,120 @@
+---
+title: Back up farm configurations in SharePoint Server
+ms.prod: SHAREPOINT
+ms.assetid: a6d383c0-3817-4acd-afa9-ad7a9b7e6b5a
+---
+
+
+# Back up farm configurations in SharePoint Server
+ **We are in the process of combining the SharePoint Server 2013 and SharePoint Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of SharePoint an article applies to.** * **Applies to:** SharePoint Foundation 2013, SharePoint Server 2013, SharePoint Server 2016*  * **Topic Last Modified:** 2017-07-26* **Summary:** Learn how to back up farm configurations in SharePoint Server 2016 and SharePoint Server 2013.You can back up a farm configuration by using the SharePoint Central Administration website or Microsoft PowerShell. The backup tool that you use depends on the kind of environment that you have deployed, your backup schedule requirements, and service level agreements that you have with your organization.
+## Before you begin
+<a name="begin"> </a>
+
+We recommend that you regularly back up the complete farm by backing up both the configuration and content. However, you might want to perform configuration-only backups in test or development environments. Similarly, if you are using SQL Server tools to back up the databases for the farm, you will want to back up the configuration. Regularly backing up the farm reduces the possibility of data losses that can occur from hardware failures, power outages, or other problems. It helps make sure that all the farm data and configurations are available for recovery. For more information about what to back up, see  [Plan for backup and recovery in SharePoint Server](html/plan-for-backup-and-recovery-in-sharepoint-server.md).For information about which tool to use for backups, see  [Overview of backup and recovery in SharePoint Server](html/overview-of-backup-and-recovery-in-sharepoint-server.md).Before you begin this operation, review the following information:
+- You must create a folder on the local computer or the network in which to store the backups. For better performance, we recommend that you back up to the local computer and then move the backup files to a network folder. For more information about how to create a backup folder, see  [Prepare to back up and restore farms in SharePoint Server](html/prepare-to-back-up-and-restore-farms-in-sharepoint-server.md).
+    
+  
+- Backing up the farm configuration will not back up the information that you need to restore service applications. If you want to restore a service application, you must perform a configuration and content backup of the farm. For more information about how to back up service applications, see  [Back up service applications in SharePoint Server](html/back-up-service-applications-in-sharepoint-server.md).
+    
+  
+- You cannot use either SQL Server tools or Data Protection Manager to back up the farm configuration.
+    
+  
+
+## Use PowerShell to back up a SharePoint farm configuration
+<a name="begin"> </a>
+
+You can use PowerShell to back up the configuration from any configuration database on the current farm, on another farm, or from a configuration database that is not associated with any farm. You can back up a farm configuration manually or as part of a script that can be run at scheduled intervals. **To back up the configuration from any configuration database by using PowerShell**
+1. Verify that you have the following memberships:
+    
+  - **securityadmin** fixed server role on the SQL Server instance.
+    
+  
+  - **db_owner** fixed database role on all databases that are to be updated.
+    
+  
+  - Administrators group on the server on which you are running the PowerShell cmdlets.
+    
+  
+
+    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server Products cmdlets.
+    
+    > [!NOTE:]
+      
+2. Start the SharePoint Management Shell.
+    
+  
+3. At the PowerShell command prompt, type the following command:
+    
+  ```
+  
+Backup-SPConfigurationDatabase -Directory <BackupFolder>  -DatabaseServer <DatabaseServerName>  -DatabaseName <DatabaseName>  -DatabaseCredentials <WindowsPowerShellCredentialObject>  [-Verbose]
+  ```
+
+
+    
+    
+    Where:
+    
+  -  *<BackupFolder>*  is the path to the folder that has the correct backup files.
+    
+  
+  -  *<DatabaseServerName>*  is the name of the database server for the farm that you are backing up.
+    
+  
+  -  *<DatabaseName>*  is the name of the farm configuration database.
+    
+  
+  - If you are not logged on with an account with **db_backupoperator** fixed database role on the database server where the configuration database is stored, you must specify the value forDatabaseCredentials parameter.
+    
+  
+For more information, see **Backup-SPConfigurationDatabase**.
+> [!NOTE:]
+
+  
+    
+    
+
+
+## Use Central Administration to back up a SharePoint farm configuration
+<a name="proc2"> </a>
+
+You can use Central Administration to back up the configuration of the farm that Central Administration is running on. To back up the configuration of a remote farm, you must use the Central Administration Web site that is running on the remote farm. You cannot use Central Administration to back up an unattached configuration database. **To back up a farm configuration by using Central Administration**
+1. Verify that the user account performing this procedure is a member of the Farm Administrators group.
+    
+  
+2. On the Central Administration home page, in the **Backup and Restore** section, click **Perform a backup**.
+    
+  
+3. On the Perform a Backup — Step 1 of 2: Select Component to Back Up page, select the farm from the list of components, and then click **Next**.
+    
+    > [!NOTE:]
+      
+4. On the Start Backup — Step 2 of 2: Select Backup Options page, in the ** Backup Type** section, select **Full**.
+    
+  
+5. In the **Backup Only Configuration Settings** section, select the **Backup only configuration settings** option.
+    
+  
+6. In the **Backup File Location** section, type the Universal Naming Convention (UNC) path of the backup folder, and then click **Start Backup**.
+    
+  
+7. You can view the general status of all backup jobs at the top of the Backup and Restore Job Status page in the **Readiness** section. You can view the status for the current backup job in the lower part of the page in the **Backup** section. The status page updates every 30 seconds automatically. You can manually refresh the status details by clicking **Refresh**. Backup and recovery are Timer service jobs. Therefore, it may take several seconds for the backup to start.
+    
+    If you receive any errors, you can review them in the **Failure Message** column of the Backup and Restore Job Status page. You can also find more details in the Spbackup.log file at the UNC path that you specified in step 5.
+    
+  
+
+# See also
+
+#### 
+
+ [Restore farm configurations in SharePoint Server](html/restore-farm-configurations-in-sharepoint-server.md)
+  
+    
+    
+
+  
+    
+    
+

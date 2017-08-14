@@ -1,0 +1,329 @@
+---
+title: Configure cloud hybrid search - roadmap
+ms.prod: SHAREPOINT
+ms.assetid: 0bba350d-ec33-43db-a873-930559c78dee
+---
+
+
+# Configure cloud hybrid search - roadmap
+ **We are in the process of combining the SharePoint Server 2013 and SharePoint Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of SharePoint an article applies to.** * **Applies to:** Office 365, SharePoint Online, SharePoint Server 2013, SharePoint Server 2016*  * **Topic Last Modified:** 2017-07-21* Learn how to configure  [cloud hybrid search](https://support.office.com/article/af830951-8ddf-48b2-8340-179c1cc4d291) for SharePoint Server by setting up a cloud Search service application in your SharePoint Server environment and connecting it to your search index in Office 365.This article describes how you set up cloud hybrid search in an environment with SharePoint Server and SharePoint OnlineSharePoint Online for Office 365 for enterprises. With the cloud hybrid search solution, you add crawled metadata from all your content, including on-premises content, to your search index in Office 365. When users search in Office 365, they get search results from both on-premises and from Office 365 content.
+> [!NOTE:]
+
+  
+    
+    
+
+
+## Before you start
+
+To complete the configuration steps you’ll need these items:
+- The  [Hardware and software requirements for SharePoint Server 2016](html/hardware-and-software-requirements-for-sharepoint-server-2016.md) that’s needed in a SharePoint Server hybrid environment.
+    
+  
+- A server or virtual machine for cloud hybrid search that has:
+    
+  - Minimum 100 GB storage, 16 GB RAM, and four 1.8 GHz CPUs.
+    
+  
+  - SharePoint Server installed.
+    
+  
+  - Is a member of a Windows Server Active Directory domain.
+    
+  
+- (SharePoint Server 2013 only) You must have at least  [Service Pack 1 and the January 2016 public update installed](https://technet.microsoft.com/library/mt715807.aspx).
+    
+  
+- The  [Accounts needed for hybrid configuration and testing](html/accounts-needed-for-hybrid-configuration-and-testing.md) that are needed in a SharePoint Server hybrid environment, a search account for cloud hybrid search in SharePoint Server, and a managed account for default content access in SharePoint Server. Ensure that the account has at least read access to the content to crawl.
+    
+  
+- Your company's or organization’s SharePoint Online portal URL, such as https://<yourtenantname>.sharepoint.com
+    
+  
+- The **CreateCloudSSA.ps1** and **Onboard-CloudHybridSearch.ps1** Microsoft PowerShell scripts, find them in the [Microsoft Download Center](https://go.microsoft.com/fwlink/?LinkId=717902).
+    
+  
+- The  [search architecture plan](https://support.office.com/article/33926857-302c-424f-ba78-03286cf5ac30#Plan_search_architecture) you made for cloud hybrid search.
+    
+  
+
+## Follow these steps:
+
+If you already completed step 1 when you configured a different hybrid solution, skip that step and go to the next.
+### 
+
+Step  <br/> Description  <br/> **1.  [Configure Office 365 for SharePoint hybrid](https://technet.microsoft.com/EN-US/library/mt125509.aspx)** <br/> Configure your Office 365 tenant for a hybrid environment, including registering your domain, configuring UPN suffixes, and synchronizing your on-premises user accounts with Office 365.  <br/> **2.  [Create a cloud Search service application in SharePoint Server 2016](#BKMK_CreateCloudSSA)** <br/> Use the **CreateCloudSSA.ps1** PowerShellscript to create the cloud Search service application (cloud SSA) on the search farm that’s running SharePoint Server. <br/> **3.  [Set up search architecture in SharePoint Server 2016 for cloud hybrid search](#BKMK_SetupSearchArch) (Optional)** <br/> If you planned a search architecture that’s different from the default one, set up the planned search architecture.  <br/> **4.  [Connect your cloud Search service application to your Office 365 tenant](#BKMK_ConnectCloudSSAToO365)** <br/> Use the **Onboard-CloudHybridSearch.ps1** PowerShell script to onboard your cloud SSA and Office 365 tenant to cloud hybrid search. The script sets up the cloud SSA to interact with the Office 365 tenant and also sets up server-to-server authentication. <br/> **5.  [Create a content source to crawl for cloud hybrid search](#BKMK_CreateOnPremContentSource)** <br/> We recommend adding a small file share first, you can add more on-premises content later.  <br/> **6.  [Set up a separate Search Center to validate hybrid search results in Office 365](#BKMK_SetupValidationSearchCenter)** <br/> Keep the original search experience unchanged by setting up a separate Search Center in Office 365 for validation and tuning of the new search experience.  <br/> **7.  [Start a full crawl of on-premises content for cloud hybrid search](#BKMK_StartFullCrawl)** <br/> When the crawl completes, your on-premises content shows up in the search results in your validation Search Center in Office 365 and in Office Delve.  <br/> **8.  [Verify that cloud hybrid search works](#BKMK_VerifyCloudHybridSearch)** <br/> Go to your Search Center in SharePoint Online in Office 365 and enter this query: "IsExternalContent:true". The results you get should show content from the on-premises content source that you've crawled.  <br/> **9.  [Tune cloud hybrid search](#BKMK_TuneCloudHybridSearch)** <br/> Set up and tune the search experiences you’ve planned for your users.  <br/> **10. Remove the validation Search Center and expose all users to hybrid search results.** <br/> Set your Search Center and any site search in Office 365 to use the default result source and set up the default result source with the search experiences that you’ve tuned. Your on-premises content shows up in the search results in your Search Center in Office 365, site search in Office 365, and in Office Delve.  <br/> 
+## Create a cloud Search service application in SharePoint Server 2016
+<a name="BKMK_CreateCloudSSA"> </a>
+
+The cloud SSA lets you crawl and add metadata from on-premises content to the search index in Office 365. Each search farm can have only one cloud SSA, but can have multiple SSAs in combination with the cloud SSA. You can’t convert an existing SSA to a cloud SSA.You can create a cloud SSA in the SharePoint Central Administration website, just like an SSA. Here we describe how to create a cloud SSA by running the CreateCloudSSA.ps1 PowerShell script from the Microsoft Download Center. This script installs the cloud SSA and the default search architecture for cloud hybrid search.
+> [!NOTE:]
+
+  
+    
+    
+
+On the search server in SharePoint Server, follow these steps:
+1. Run the **CreateCloudSSA.ps1** PowerShell script.
+    
+  
+2. When prompted, type:
+    
+1. The host name of the search server in SharePoint Server.
+    
+  
+2. The Search service account in this format: domain\\username.
+    
+  
+3. A name of your choice for the cloud SSA.
+    
+  
+4. The name of the database server in SharePoint Server
+    
+  
+3. Verify that you see the message that the cloud SSA was successfully created.
+    
+  
+
+## Can I make my own Windows PowerShell script for creating a cloud SSA?
+
+If you want to make your own PowerShellscript for creating a cloud SSA, first study the **CreateCloudSSA.ps1** PowerShell script we’ve provided. Notice that the difference between creating a cloud SSA and an SSA is the value of the property **CloudIndex**. You set **CloudIndex**: **true** when you create a cloud SSA (you can’t change this value later). When **CloudIndex** is true, crawled metadata **is not** added to the on-premises search index. However, this doesn’t mean that the metadata is added to the Office 365 search index, you have to onboard the cloud SSA to cloud hybrid search for that to happen (see [Connect your cloud Search service application to your Office 365 tenant](#BKMK_ConnectCloudSSAToO365)). Ensure that your PowerShell script:
+- Tests that the Search service account is a managed account, and makes it a managed account if it isn’t.
+    
+  
+- Includes -CloudIndex $true as an argument when it uses the New-SPEnterpriseSearchServiceApplication PowerShell cmdlet.
+    
+  
+
+## Set up search architecture in SharePoint Server 2016 for cloud hybrid search
+<a name="BKMK_SetupSearchArch"> </a>
+
+If you planned to use the default search architecture that you get when creating a cloud SSA, you can skip this step.Otherwise, ensure that you have prepared the servers you need for your planned search architecture for cloud hybrid search, and follow the  [guidance](https://technet.microsoft.com/en-us/library/jj862356.aspx) for setting up your [planned search architecture](https://support.office.com/article/33926857-302c-424f-ba78-03286cf5ac30#Plan_search_architecture). This guidance is applicable also for cloud hybrid search.
+## Connect your cloud Search service application to your Office 365 tenant
+<a name="BKMK_ConnectCloudSSAToO365"> </a>
+
+This section guides you how to onboard your cloud SSA and Office 365 tenant to cloud hybrid search and covers:
+- **Connecting your cloud SSA and your Office 365 tenant** - When your cloud SSA and your Office 365 tenant are correctly connected, the cloud hybrid search solution is ready to add crawled metadata from on-premises content to the search index in Office 365. When you’ve onboarded your cloud SSA, check to see that your cloud SSA has the value 1 for the property **IsHybrid**. You check by running this PowerShell command: $ssa.GetProperty("CloudIndex").
+    
+  
+- **Configuring server-to-server authentication** - Server-to-server authentication allows servers to access and request resources from one another on behalf of users.
+    
+  
+On the search server in SharePoint Server follow these steps:
+1. Ensure that the date and time of the server is synchronized with the other servers in the SharePoint Server farm.
+    
+  
+2. Download and install the  [Microsoft Online Services Sign-In Assistant for IT Professionals RTW](https://go.microsoft.com/fwlink/?LinkID=286152) from the Microsoft Download Center.
+    
+  
+3. Download version 1.1.166.0 or newer of the  [Azure Active Directory Module for Windows PowerShell](http://connect.microsoft.com/site1164/Downloads/DownloadDetails.aspx?DownloadID=59185). Click **Run** to run the installer package.
+    
+  
+4. Download the **OnBoard-CloudHybridSearch.ps1** PowerShell script from the [Microsoft Download Center](https://go.microsoft.com/fwlink/?LinkId=717902).
+    
+  
+5. If your environment is Office 365 Business, Office 365 Enterprise, Office 365 Education, Office 365 operated by 21Vianet, Office 365 Germany, or Office 365 US Government Defense, open an elevated PowerShell prompt, and run the **OnBoard-CloudHybridSearch.ps1** PowerShell script as follows:
+    
+  ```
+  
+Import-Module MSOnline
+  ```
+
+
+  ```
+  
+.\\OnBoard-CloudHybridSearch.ps1 -PortalUrl <SPOTenantPortalUrl> -CloudSsaId <CloudSSANameCreatd>
+  ```
+
+
+    **SPOTenantPortalUrl** is the URL of your company's or organization’s SharePoint Online portal, and ** CloudSsaID** is the name of the cloud SSA that you created earlier.
+    
+  
+6. If your environment is Office 365 US Government Communication, open an elevated PowerShell prompt, and run the **OnBoard-CloudHybridSearch.ps1** PowerShell script as follows:
+    
+  ```
+  
+Import-Module MSOnline
+  ```
+
+
+  ```
+  
+.\\OnBoard-CloudHybridSearch.ps1 -PortalUrl <SPOTenantPortalUrl> -CloudSsaId <CloudSSANameCreatd> -IsPortalForUSGovernment $true
+  ```
+
+
+    **SPOTenantPortalUrl** is the URL of your company's or organization’s SharePoint Online portal, and ** CloudSsaID** is the name of the cloud SSA that you created earlier.
+    
+  
+7. When prompted, type the global admin credentials for your Office 365 tenant.
+    
+  
+
+## Create a content source to crawl for cloud hybrid search
+<a name="BKMK_CreateOnPremContentSource"> </a>
+
+We recommend that you start with a small on-premises content source, for example a small file share, to test. You can add more on-premises content sources later.
+1. Verify that the user account that is performing this procedure is an administrator for the cloud SSA.
+    
+  
+2. On the home page of Central Administration, in the **Application Management** section, click **Manage service applications**.
+    
+  
+3. On the Manage Service Applications page, click the cloud SSA.
+    
+  
+4. On the Search Administration Page, in the **Crawling** section, click ** Content Sources**.
+    
+  
+5. On the Manage Content Sources page, click **New Content Source**.
+    
+  
+6. On the Add Content Source page, in the **Name** section, in the **Name** box, type a name for the new content source.
+    
+  
+7. In the **Content Source Type** section, select the type of content that you want to crawl.
+    
+  
+8. In the **Start Addresses** section, in the **Type start addresses below (one per line)** box, type the URLs from which the crawler should begin crawling.
+    
+  
+9. In the **Crawl Settings** section, select the crawling behavior that you want.
+    
+  
+10. In the **Crawl Schedules** section, to specify a schedule for full crawls, select a defined schedule from the **Full Crawl** list. A full crawl crawls all content that is specified by the content source, regardless of whether the content has changed. To define a full crawl schedule, click **Create schedule**.
+    
+  
+11. To specify a schedule for incremental crawls, select a defined schedule from the **Incremental Crawl list**. An incremental crawl crawls content that is specified by the content source that has changed since the last crawl. To define a schedule, click **Create schedule**. You can change a defined schedule by clicking **Edit schedule**.
+    
+  
+12. To set the priority of this content source, in the **Content Source Priority** section, on the **Priority** list, select **Normal** or **High**.
+    
+  
+13. Click **OK**.
+    
+  
+
+## Set up a separate Search Center to validate hybrid search results in Office 365
+<a name="BKMK_SetupValidationSearchCenter"> </a>
+
+After you’ve set up cloud hybrid search and completed a full crawl of your on-premises content, your Search Center in Office 365 will automatically show both on-premises and online search results. Before starting the full crawl, we recommend that you set up a separate Search Center to show the on-premises and online search results. This way you can keep the existing Search Center unchanged while you validate and tune the new search experience in the separate Search Center.Follow these steps to set up a separate Search Center in Office 365:
+1.  [Create a result source](https://support.office.com/en-au/article/Manage-result-sources-fd8d6ac6-c5d0-454d-80a9-51580902b25d) that retrieves search results from the search index of this tenant, but limits search results to Office 365 content by using a **Query Transform**. Change the default query transform to "(?(searchTerms) NOT IsExternalContent:true)". This works because content that has the managed property *IsExternalContent*  set to true (see [About the IsExternalContent managed property](#BKMK_IsExternalContent)) in the SharePoint Online search schema, is on-premises content.
+    
+  
+2. Modify the Search Results Web Part in your Office 365 Search Center to use the result source that you just created. Your users get the original search experience in this Search Center.
+    
+  
+3. Create a second Office 365 Search Center that uses the default result source. This Search Center has hybrid search results when you’ve run a full crawl. Validate and tune your new search experience in this Search Center.
+    
+  
+4. Set up access so only testers and administrators have access to the second Office 365 Search Center.
+    
+  
+Here’s an example of a validation environment:
+  
+    
+    
+![The illustration shows how content enters the Office 365 index from both a SharePoint Server content farm and from Office 365. The standard search center in Office 365 only retrieves Office 365 results from the search index, while the validation search ce](images/)
+  
+    
+    
+
+  
+    
+    
+
+  
+    
+    
+
+1. On-premises content. During crawl, content is added to the Office 365 index.
+    
+  
+2. Office 365 content. During crawl, content is added to the Office 365 index.
+    
+  
+3. Default (or existing) Office 365 Search Center. This Search Center uses the custom result source that limits search results to only Office 365 content.
+    
+  
+4. Second Office 365 Search Center, where you validate and tune how hybrid search results are shown. This Search Center uses the default result source and shows search results from both on-premises and Office 365 content.
+    
+  
+
+## About the IsExternalContent managed property
+<a name="BKMK_IsExternalContent"> </a>
+
+An important part in this environment is the custom result source you use in the default or existing Office 365 Search Center. This result source keeps the search experience unchanged while you validate and tune how hybrid search results are displayed. An important piece in this custom result source is the  *IsExternalContent*  managed property in the SharePoint Online search schema. Before you set up cloud hybrid search, this managed property is empty. But, after you’ve set up cloud hybrid search and crawled your on-premises content, this property is set to true for all on-premises content. You limit search results to show only Office 365 content with *NOT IsExternalContent:true*  .
+## Start a full crawl of on-premises content for cloud hybrid search
+<a name="BKMK_StartFullCrawl"> </a>
+
+Start a full crawl of the content source. See  [Start, pause, resume, or stop a crawl in SharePoint Server 2013](https://technet.microsoft.com/en-us/library/jj219814%28v=office.15%29.aspx) or follow these steps:
+1. Verify that the user account that is performing this procedure is an administrator for the Cloud Search service application.
+    
+  
+2. On the home page of the SharePoint Central Administration website, in the **Application Management** section, click **Manage service applications**.
+    
+  
+3. On the Manage Service Applications page, click the cloud Search service application.
+    
+  
+4. On the Search Administration page, in the **Crawling** section, click **Content Sources**.
+    
+  
+5. On the Manage Content Sources page, in the list of content sources, point to the name of the content source that you want to crawl, click the arrow and then click **Start Full Crawl**. The value in the **Status** column changes to **Crawling Full** for the selected content source.
+    
+  
+
+## Verify that cloud hybrid search works
+<a name="BKMK_VerifyCloudHybridSearch"> </a>
+
+After the full crawl completes, verify that your on-premises content shows up in the search results in your validation Search Center in Office 365.
+1. Log in to Office 365 with your work or school account. Make sure that:
+    
+  - You have access to the validation Search Center.
+    
+  
+  - You have access to the content in the content source that you have crawled. If you performed step 1 of this roadmap, you should have access.
+    
+  
+  - Your organization hasn’t assigned user access rights to the on-premises content by using one of the default security groups in Windows Server Active Directory (AD), for example the Domain Users security group, see  [Plan cloud hybrid search for SharePoint](https://support.office.com/article/33926857-302c-424f-ba78-03286cf5ac30).
+    
+  
+2. Search for **IsExternalContent:1** in the validation Search Center.
+    
+  
+3. Verify that your on-premises content shows up in the search results.
+    
+  
+
+## Tune cloud hybrid search
+<a name="BKMK_TuneCloudHybridSearch"> </a>
+
+After you’ve set up cloud hybrid search and verified that you get search results from on-premises content in your validation Search Center in Office 365, set up the search experiences that you planned.You might find this guidance useful:
+- With cloud hybrid search you manage the search schema in SharePoint Online in Office 365, just as you would in an Office 365 environment. Learn how in  [Manage the Search Center in SharePoint Online](https://support.office.com/en-gb/article/Manage-the-Search-Center-in-SharePoint-Online-174d36e0-2f85-461a-ad9a-8b3f434a4213?ui=en-US&amp;rs=en-GB&amp;ad=GB).
+    
+  
+- You manage how search results are displayed from the search schema in SharePoint Online, see  [Manage the Search Center in SharePoint Online](https://support.office.com/en-us/article/Manage-the-Search-Center-in-SharePoint-Online-174D36E0-2F85-461A-AD9A-8B3F434A4213?ui=en-US&amp;rs=en-US&amp;ad=US). If you’ve set up site search in SharePoint Server to get search results the Office 365, you also manage how these results are displayed from the search schema in SharePoint Online.
+    
+  
+-  [Enable previews of on-premises search results in cloud hybrid search](html/enable-previews-of-on-premises-search-results-in-cloud-hybrid-search.md).
+    
+  
+-  [Show results from Office 365 in on-premises SharePoint with cloud hybrid search](html/show-results-from-office-365-in-on-premises-sharepoint-with-cloud-hybrid-search.md).
+    
+  
+- To publish your SharePoint Server site and make it accessible for your users, follow the best practices in Plan for Internet, intranet, and extranet publishing sites in SharePoint Server
+    
+  
+- To open a link from a search result that comes from on-premises content, users have to either be connected to the on-premises intranet via a Virtual Private Network (VPN) connection or be logged on to where the content is stored. Alternatively, you enable users to open such links by  [installing a reverse proxy device](https://technet.microsoft.com/EN-US/library/dn607304.aspx) for SharePoint Server.
+    
+  
+After setting up and validating the planned search experiences, you might want to clear your search index in Office 365 for metadata from the on-premises content you’ve used during this work. This works differently from what you might be familiar with from SharePoint Server.In the SharePoint Central Administration website you can use the option "Index reset" for an SSA to remove all content from the search index. This option does not work for cloud hybrid search because there is no direct communication between the cloud SSA in SharePoint Server and the search index in Office 365. If you only want to remove some on-premises metadata, remove that on-premises content source, or create a crawl rule that doesn’t crawl the URL of a file. If you need to remove all metadata from on-premises content from the search index in Office 365, open a ticket with  [Microsoft Support](https://support.microsoft.com/en-us/assistedsupportproducts).
+## Related Topics
+<a name="BKMK_TuneCloudHybridSearch"> </a>
+
+ [Learn about cloud hybrid search for SharePoint](https://support.office.com/article/af830951-8ddf-48b2-8340-179c1cc4d291)
+  
+    
+    
+ [Plan cloud hybrid search for SharePoint](https://support.office.com/article/33926857-302c-424f-ba78-03286cf5ac30)

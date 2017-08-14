@@ -1,0 +1,79 @@
+---
+title: View all site collections in SharePoint Server
+ms.prod: SHAREPOINT
+ms.assetid: 37277bfe-4e25-4050-9f99-aac16b47d079
+---
+
+
+# View all site collections in SharePoint Server
+ **We are in the process of combining the SharePoint Server 2013 and SharePoint Server 2016 content into a single content set. We appreciate your patience while we reorganize things. See the Applies To tag at the top of each article to find out which version of SharePoint an article applies to.** * **Applies to:** SharePoint Foundation 2013, SharePoint Server 2013, SharePoint Server 2016*  * **Topic Last Modified:** 2017-07-26* **Summary: ** How to see the list of site collections in SharePoint Server 2016 and SharePoint 2013.A site collection is a group of websites that have the same owner and share administrative settings, for example, permissions, and quotas. Site collections are created within a web application. When you create a site collection, a top-level site is automatically created in the site collection. You can then create one or more subsites below the top-level site. The entire structure of the top-level site and all its subsites is called a site collection.
+## View the site collections in a web application
+
+Use the following procedures to view all the site collections in a web application. **To view all site collections by using Central Administration**
+1. Verify that you have the following administrative credentials:
+    
+  - To view all site collections, you must be a member of the Farm Administrators group on the computer that is running the SharePoint Central Administration website.
+    
+  
+2. Open Central Administration. On the **Application Management** page, in the **Site Collections** section, click **View all site collections**.
+    
+    The **Site Collection List** page lists all the site collections in the web application.
+    
+  
+3. To display more information about a site collection, in the **URL** column, click the site collection.
+    
+    The following information about the site collection appears in a table on the right side of the page.
+    
+  - **URL** of the site collection.
+    
+  
+  - **Title**, current name of site collection.
+    
+  
+  - **Description**, current description for the site collection.
+    
+  
+  - **Primary administrator** for the site collection.
+    
+  
+  - **Email address** for the primary administrator of the site collection.
+    
+  
+  - **Database name**, the content database that is used by the site collection.
+    
+  
+4. If you want to change the selected web application, click the **Web Application** box, and then click **Change Web Application**. Use the **Select Web Application** page to select another web application.
+    
+  
+ **To view all site collections by using Windows PowerShell**
+1. Verify that you meet the following minimum requirements: See **Add-SPShellAdmin**.
+    
+  
+2. Open **SharePoint Management Shell**.
+    
+  
+3. At the PowerShell command prompt, type the following command, and then press ENTER:
+    
+  ```
+  
+Get-SPWebApplication -Limit All | Get-SPSite | Format-Table -Property URL,ContentDatabase
+  ```
+
+
+    This command displays the URLs of all the web applications in a server farm and the site collections in each web application.
+    
+  
+For more information, see  [Get-SPWebApplication](https://technet.microsoft.com/en-us/library/ff607562%28v=office.16%29.aspx) and [Get-SPSite](https://technet.microsoft.com/en-us/library/ff607950%28v=office.16%29.aspx). We recommend that you use Windows PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions.
+# See also
+
+#### 
+
+ [Manage site collections and global settings in the SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=845346)
+  
+    
+    
+
+  
+    
+    
+
