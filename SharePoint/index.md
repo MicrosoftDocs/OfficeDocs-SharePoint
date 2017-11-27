@@ -34,25 +34,6 @@ description: SharePoint documentation
                                 </a>
                             </li>
                             <li>
-                                <a href="https://docs.microsoft.com/en-us/sharepoint/dev/">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/media/hubs/sharepoint/sharepoint-developer.svg" alt="" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>SharePoint Developer</h3>
-                                                    <p>Build apps with the SharePoint Framework, build SharePoint add-ins, and find additional developer resources.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
                                 <a href="https://docs.microsoft.com/en-us/powershell/sharepoint/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
@@ -70,8 +51,26 @@ description: SharePoint documentation
                                         </div>
                                     </div>
                                 </a>
-                            </li>
-
+                            </li>                            
+                            <li>
+                                <a href="https://docs.microsoft.com/en-us/sharepoint/dev/">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="https://docs.microsoft.com/media/hubs/sharepoint/sharepoint-developer.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>SharePoint Developer</h3>
+                                                    <p>Build apps with the SharePoint Framework, build SharePoint add-ins, and find additional developer resources.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>                            
                         </ul>
                     </li>
                 </ul>
