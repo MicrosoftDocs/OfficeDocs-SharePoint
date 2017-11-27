@@ -21,7 +21,7 @@ description: SharePoint documentation
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/media/hubs/sharepoint/hub_sharePoint.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/media/hubs/sharepoint/SharePointServer.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -52,6 +52,26 @@ description: SharePoint documentation
                                     </div>
                                 </a>
                             </li>
+                            <li>
+                                <a href="https://docs.microsoft.com/en-us/powershell/sharepoint/">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="https://docs.microsoft.com/media/hubs/sharepoint/PowerShellReference.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>PowerShell Reference for SharePoint</h3>
+                                                    <p>Learn about the PowerShell cmdlets you need to manage SharePoint Server or SharePoint Online.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+
                         </ul>
                     </li>
                 </ul>
