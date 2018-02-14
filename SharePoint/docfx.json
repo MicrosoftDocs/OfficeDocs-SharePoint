@@ -4,8 +4,42 @@
       {
         "files": [
           "**/*.md",
-          "**/*.yml"
+          "**/**.yml"
         ],
+        "src": "SharePointServer",
+        "dest": ".",
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ]
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/**.yml"
+        ],
+        "src": "SharePointOnline",
+        "dest": ".",
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ]
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/**.yml"
+        ],
+        "src": "Hub",
+        "dest": ".",
         "exclude": [
           "**/obj/**",
           "**/includes/**",
@@ -34,7 +68,7 @@
     "globalMetadata": {
       "breadcrumb_path": "/sharepoint/breadcrumb/toc.json",
       "extendBreadcrumb": "true",
-      "searchScope": ["SharePointServer"]
+      "searchScope": ["SharePoint Server"]
     },
     "fileMetadata": {},
     "template": [],
