@@ -3,5 +3,7 @@ obj/
 _site/
 .optemp/
 _themes*/
+.vs/
+common/
 
 .openpublishing.buildcore.ps1
