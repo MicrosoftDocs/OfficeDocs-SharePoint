@@ -68,7 +68,10 @@
     "globalMetadata": {
       "breadcrumb_path": "/sharepoint/breadcrumb/toc.json",
       "extendBreadcrumb": "true",
-      "searchScope": ["SharePoint Server"]
+      "searchScope": ["SharePoint Server"],
+      "feedback_system": "GitHub",
+      "feedback_github_repo": "MicrosoftDocs/OfficeDocs-SharePoint",
+      "feedback_product_url": "https://sharepoint.uservoice.com/" 
     },
     "fileMetadata": {},
     "template": [],
