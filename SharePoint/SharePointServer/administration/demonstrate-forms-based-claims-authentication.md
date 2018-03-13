@@ -1,0 +1,43 @@
+---
+title: "Test Lab Guide Demonstrate forms-based claims authentication for SharePoint Server 2013"
+ms.author: kirks
+author: Techwriter40
+manager: pamgreen
+ms.date: 7/10/2017
+ms.audience: ITPro
+ms.topic: article
+ms.prod: office-online-server
+localization_priority: Normal
+ms.assetid: 78df8a76-0dbc-403b-b54d-9572fc918531
+description: "Summary: Learn how to configure and demonstrate form-based authentication for SharePoint Server 2013 based on the Test Lab Guide: Configure SharePoint Server 2013 in a three-tier farm."
+---
+
+# Test Lab Guide: Demonstrate forms-based claims authentication for SharePoint Server 2013
+
+ **Summary:** Learn how to configure and demonstrate form-based authentication for SharePoint Server 2013 based on the [Test Lab Guide: Configure SharePoint Server 2013 in a three-tier farm](configure-sharepoint-server-2013-in-a-three-tier-farm.md). 
+  
+This document is the [Test Lab Guide](https://go.microsoft.com/fwlink/p/?LinkId=202817) version of the configuration described in [Configure forms-based authentication for a claims-based web application in SharePoint Server](http://technet.microsoft.com/library/fd1391bb-c787-4742-b007-bf57e18dad66%28Office.14%29.aspx). 
+  
+This document contains instructions for the following: 
+  
+1. Setting up the SharePoint Server 2013 three-tier farm test lab.
+    
+2. Configuring forms-based authentication.
+    
+3. Demonstrating forms-based authentication.
+    
+**Watch the demonstrate forms-based claims authentication for SharePoint Server 2013 test lab guide overview video**
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/e86a4119-b9c7-4d84-a3b3-bf9e97bdc30b?autoplay=false]
+## Download the test lab guide
+
+[Test Lab Guide: Demonstrate Forms-based Authentication with SharePoint Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=265275)
+  
+## See also
+
+#### Other Resources
+
+[Configure forms-based authentication for a claims-based web application in SharePoint Server](http://technet.microsoft.com/library/fd1391bb-c787-4742-b007-bf57e18dad66%28Office.14%29.aspx)
+  
+[Test Lab Guides](https://go.microsoft.com/fwlink/p/?LinkId=202817)
+

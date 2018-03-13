@@ -1,0 +1,64 @@
+---
+title: "Manage a paused Search service application in SharePoint Server"
+ms.author: tlarsen
+author: tlarsen
+manager: pamgreen
+ms.date: 3/7/2018
+ms.audience: ITPro
+ms.topic: article
+ms.prod: office-online-server
+localization_priority: Normal
+ms.collection: IT_Sharepoint_Server_Top
+ms.assetid: 18b1dbaf-d8e1-416b-b2fb-fe6cd0a369f1
+description: "Summary: Learn why the Search service application is paused and what you can do to resume it in SharePoint Server 2016 and SharePoint Server 2013."
+---
+
+# Manage a paused Search service application in SharePoint Server
+
+ **Summary:** Learn why the Search service application is paused and what you can do to resume it in SharePoint Server 2016 and SharePoint Server 2013. 
+  
+Most operations that require the Search service application to be paused have to complete before the Search service application automatically resumes.
+  
+We'll show you how you can find out if and why the Search service application is paused. There are many reasons why the Search service application can be paused -- we'll list only the most common situations.
+  
+ **To manage a paused search service application**
+  
+1. Verify that the user account that is performing this procedure is a member of the Farm Administrators group.
+    
+2. Start a SharePoint Management Shell on one of the servers in the farm.
+    
+3. At the Microsoft PowerShell command prompt, type the following command(s) to find out if the Search service application is paused.
+    
+  ```
+  $ssa.IsPaused() -ne 0
+  ```
+
+    If this command returns **False**, the Search service application is running.
+    
+    If this command returns **True**, the Search service application is paused. Go to step 4 to find out why, and what action you should take.
+    
+4. At the Microsoft PowerShell command prompt, type the following command(s) until you find the reason why the Search service application is paused.
+    
+|**Command**|**If the command returns True, the Search service application is paused for this reason:**|**Action**|
+|:-----|:-----|:-----|
+| `($ssa.IsPaused() -band 0x01) -ne 0` <br/> |A change in the number of crawl components or crawl databases is in progress.  <br/> |Wait until the topology change completes.  <br/> |
+| `($ssa.IsPaused() -band 0x02) -ne 0` <br/> |A backup or restore procedure is in progress.  <br/> |Wait until the backup or restore completes. After the procedure completes, run the command  `$ssa.ForceResume(0x02)` to verify. For more information, see [Restore Search service applications in SharePoint Server](../administration/restore-a-search-service-application.md).  <br/> |
+| `($ssa.IsPaused() -band 0x04) -ne 0` <br/> |A backup of the Volume Shadow Copy Service (VSS) is in progress.  <br/> |Wait until the backup completes. After the VSS backup completes, run the command  `$ssa.ForceResume(0x02)` to verify.  <br/> |
+| `($ssa.IsPaused() -band 0x08) -ne 0` <br/> |One or more servers in the search topology that host query components are offline.  <br/> |Wait until the servers are available again.  <br/> |
+| `($ssa.IsPaused() -band 0x20) -ne 0` <br/> |One or more crawl databases in the search topology are being rebalanced.  <br/> |Wait until the operation completes.  <br/> |
+| `($ssa.IsPaused() -band 0x40) -ne 0` <br/> |One or more link databases in the search topology are being rebalanced.  <br/> |Wait until the operation completes.  <br/> |
+| `($ssa.IsPaused() -band 0x80) -ne 0` <br/> |An administrator has manually paused the Search service application.  <br/> |If you know the reason, you can resume the Search service application. Run the command  `$ssa.resume()` to resume the Search service application.  <br/> If you don't know the reason, find out why someone has manually paused the Search service application.  <br/> |
+| `($ssa.IsPaused() -band 0x100) -ne 0` <br/> |The search index is being deleted.  <br/> |Wait until the search index is deleted.  <br/> |
+| `($ssa.IsPaused() -band 0x200) -ne 0` <br/> |The search index is being repartitioned.  <br/> |Wait until the operation completes. For more information, see [Manage the index component in SharePoint Server](manage-the-index-component.md).  <br/> |
+   
+After you've waited until the operation completes, at the Microsoft PowerShell command prompt, type the following command to make sure that the Search service application is running:
+  
+```
+$ssa.IsPaused() -ne 0
+```
+
+If this command returns **False**, the Search service application is running.
+  
+If this command returns **True**, the Search service application is paused. Re-run the commands from step 4 to find out why.
+  
+
