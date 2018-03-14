@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 7/7/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 4692ebba-90eb-4d72-ac12-e90c4d4ee7ae
 description: "Summary: How to install Business Connectivity Services (BCS) to access an on-premises SQL Server external data source, surface external data in SharePoint Server and SharePoint Foundation lists, and take external data offline in Outlook."

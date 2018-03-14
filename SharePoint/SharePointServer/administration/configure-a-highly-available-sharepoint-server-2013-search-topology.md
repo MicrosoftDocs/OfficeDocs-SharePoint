@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 12/29/2016
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 716b294b-3e99-4862-aede-5a686d8b5b6c
 description: "Summary: Learn how to configure search for high availability by using the computers in the Configure SharePoint Server 2013 in a three-tier farm test lab."

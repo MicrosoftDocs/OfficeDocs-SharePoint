@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 3/1/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 4de4007d-a45f-419d-9512-824421e14380
 description: "Summary: Learn how to use information management policies in SharePoint Server."

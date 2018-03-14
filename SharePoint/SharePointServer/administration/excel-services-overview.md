@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 6/23/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: fe776cf2-17a4-4bb6-95ea-66288f243a93
 description: "Summary: Excel Services is a business intelligence tool in SharePoint Server 2013 that allows you to share data-connected workbooks across an organization."

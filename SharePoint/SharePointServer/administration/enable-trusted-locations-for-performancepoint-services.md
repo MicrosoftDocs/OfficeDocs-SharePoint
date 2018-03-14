@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 7/6/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 7eea752e-5bdc-48b1-99cb-05e6c3669c4a
 description: "Summary: Learn how to limit PerformancePoint Services features that use trusted locations by allowing only designated sites, lists or document libraries rather than the entire site collection."

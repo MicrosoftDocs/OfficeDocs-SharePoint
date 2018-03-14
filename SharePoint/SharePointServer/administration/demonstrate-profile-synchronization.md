@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 7/10/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: c16d9881-f356-45ba-b928-a8f6858840a6
 description: "Summary: Learn how to configure and demonstrate user profile synchronization based on the Test Lab Guide: Configure SharePoint Server 2013 in a three-tier farm."

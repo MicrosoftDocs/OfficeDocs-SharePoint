@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 7/7/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: c3802be8-9c57-4b25-9666-c07b485aabf0
 description: "Summary: Use the EffectiveUserName option in Excel Services or PerformancePoint Services for per-user authentication with Analysis Services data sources."

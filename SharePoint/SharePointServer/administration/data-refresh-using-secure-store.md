@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 7/6/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: c8209ecc-59e4-4568-a7e6-782a6b0ab02f
 description: "Summary: Learn to configure scheduled data refresh in Power Pivot for SharePoint by using Secure Store."

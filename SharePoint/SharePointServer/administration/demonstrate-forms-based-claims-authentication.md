@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 7/10/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 78df8a76-0dbc-403b-b54d-9572fc918531
 description: "Summary: Learn how to configure and demonstrate form-based authentication for SharePoint Server 2013 based on the Test Lab Guide: Configure SharePoint Server 2013 in a three-tier farm."

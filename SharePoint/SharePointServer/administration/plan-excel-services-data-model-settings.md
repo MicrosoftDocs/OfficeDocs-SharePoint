@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 6/23/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 40f1d080-3523-444f-a389-0f37a40ae44a
 description: "Summary: Specify an instance of Analysis Services to be used with interactive data models in Excel Services."

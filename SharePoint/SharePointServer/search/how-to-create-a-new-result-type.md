@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 3/7/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: cc3686d1-e786-478b-aa0c-68796c02e198
 description: "Summary: Learn how to create a new result type in SharePoint Server."

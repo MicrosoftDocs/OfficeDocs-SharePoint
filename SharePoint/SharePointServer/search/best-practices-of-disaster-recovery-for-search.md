@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 1/3/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 9fae000c-26ad-400b-bd94-c9245d049f43
 description: "Learn how to implement best practice disaster recovery for search in a SharePoint Server 2016 or SharePoint Server 2013 farm."

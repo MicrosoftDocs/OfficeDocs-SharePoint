@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 7/31/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 0d32d946-52d0-4913-bfdb-d3c1193cfc4a
 description: "Summary: Use a toggle switch to determine whether to show the SharePoint Newsfeed link or Yammer on the top navigation bar in SharePoint 2013 with Service Pack 1 (SP1)."

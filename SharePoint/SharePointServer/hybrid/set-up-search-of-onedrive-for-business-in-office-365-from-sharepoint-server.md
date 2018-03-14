@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 12/5/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: f0565d7f-3efd-46c5-9a73-e307bc2df669
 description: "Summary: Provide an easy way for users of on-premises SharePoint Server to search for documents that are in OneDrive for Business in Office 365."

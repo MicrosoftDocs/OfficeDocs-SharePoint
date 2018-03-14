@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 3/12/2018
 ms.audience: ITPro
 ms.topic: concetpual
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: d7abd498-7bc4-44fe-a086-d9b1c5a340d2
 description: "Summary: Learn how to plan document library use, access, and workflow in SharePoint Server."

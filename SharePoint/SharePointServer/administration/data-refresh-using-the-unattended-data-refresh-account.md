@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 7/6/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 3fdbc40b-8562-4bec-be89-113a64e19911
 description: "Summary: Learn to configure scheduled data refresh in Power Pivot for SharePoint by using the unattended data refresh account."

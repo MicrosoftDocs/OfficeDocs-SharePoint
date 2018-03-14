@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 3/1/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection:
 - IT_Sharepoint_Server
@@ -72,9 +72,9 @@ The steps to add a database and to attach a database are very similar. For more 
   - Specify the authentication method for the database, and supply an account name and password if you are using SQL authentication.
     
     > [!NOTE]
-    > 
+    > The account name and password must already exist as a SQL Server login. We recommend that you use Windows authentication instead of SQL authentication because, by default, SQL authentication sends a nonencrypted password to the computer that is running SQL Server. If you use SQL authentication, the SQL account requires the same SQL permissions as the SharePoint farm service account. 
   
-The account name and password must already exist as a SQL Server login. We recommend that you use Windows authentication instead of SQL authentication because, by default, SQL authentication sends a nonencrypted password to the computer that is running SQL Server. If you use SQL authentication, the SQL account requires the same SQL permissions as the SharePoint farm service account. 
+
   
   - Click **OK**.
     

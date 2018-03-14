@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 3/7/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 45ad90e6-c2e1-497a-9d4e-e7ac32ae09a5
 description: "Summary: Learn how search results are displayed in SharePoint Server 2016 and SharePoint Server 2013."

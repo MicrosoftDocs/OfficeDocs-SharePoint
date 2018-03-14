@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 2/28/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 144e5f6e-0c9c-4f01-9b1f-26190d527e85
 description: "Summary: Learn how to synchronize user and group profile information by using the SharePoint Server 2013 profile synchronization method."

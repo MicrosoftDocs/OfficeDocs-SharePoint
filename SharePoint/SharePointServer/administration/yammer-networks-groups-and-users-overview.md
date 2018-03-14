@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 3/9/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 85ba39ff-5dd3-4a88-98c2-5ec9d6928d2e
 description: "Summary: Learn about the roles of networks, groups, and users in Yammer."

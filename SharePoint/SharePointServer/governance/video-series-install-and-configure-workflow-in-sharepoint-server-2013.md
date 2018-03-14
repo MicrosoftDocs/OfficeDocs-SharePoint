@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 3/8/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: f37b3b61-2b26-4635-a04a-a8a744e8c3ef
 description: "Summary: Videos that demonstrate the installation and configuration of workflow in SharePoint Server."

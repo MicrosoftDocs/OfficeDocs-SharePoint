@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 6/20/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: b291ea58-cfda-48ec-92d7-5180cb7e9469
 description: "Summary: Plan and prepare to configure inbound connectivity from Office 365 to SharePoint Server hybrid environment."

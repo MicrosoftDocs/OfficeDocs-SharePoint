@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 6/23/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 3a080c72-df1f-43a2-8aee-a3ffd0c43ad2
 description: "Summary: Plan Excel Services trusted file location parameters, including session, workbook, calculation, memory, and external data settings."

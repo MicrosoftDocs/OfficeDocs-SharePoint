@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 3/8/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: de173e89-b6d8-4d9e-8516-865c2735bfff
 description: "Summary: Walks through the steps required to keep workflow up to date in SharePoint Server."

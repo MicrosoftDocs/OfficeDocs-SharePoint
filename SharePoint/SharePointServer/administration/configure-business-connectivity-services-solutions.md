@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 7/7/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: f255d39a-8231-42e7-957d-c4855b9ab529
 description: "Summary: Find links to steps that will help you install and configure SharePoint Server Business Connectivity Services (BCS). Choose from on-premises, cloud-only, and hybrid BCS solutions."

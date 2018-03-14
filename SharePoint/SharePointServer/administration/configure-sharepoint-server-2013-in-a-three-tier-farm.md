@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 7/10/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 5c23f9ea-d019-4750-abdf-0633bffa84f4
 description: "Summary: Learn how to install and configure SharePoint Server 2013 on multiple servers with Microsoft SQL Server 2012 by using the computers in the Base Configuration test lab."

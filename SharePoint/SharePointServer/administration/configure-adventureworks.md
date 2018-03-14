@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 7/7/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 5e44cf6c-2271-4ff1-af7f-4e73849ffdf6
 description: "Summary: Configure the AdventureWorks sample data for use with Excel, Excel Services in SharePoint Server 2013, and PerformancePoint Services business intelligence scenarios."

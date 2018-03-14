@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 1/11/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: b6fe805f-6b10-4f90-84cd-10852fa5b6f5
 description: "Use the Identity Mapping feature of the SharePoint Migration Assessment Tool to assist in your Identity Migration."

@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 3/7/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 7d2cbe64-5888-415e-81be-98b6921929de
 description: "Summary: Learn how to disable co-authoring functionality in SharePoint Server by using Group Policy or by using PowerShell."

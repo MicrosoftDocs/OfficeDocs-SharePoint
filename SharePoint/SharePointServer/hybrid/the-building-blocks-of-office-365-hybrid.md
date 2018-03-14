@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 10/2/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: bbb62edb-def7-45dd-931c-78746c3d9fa5
 description: "Summary: Watch this video to learn about the major pieces of an Office 365 hybrid deployment."

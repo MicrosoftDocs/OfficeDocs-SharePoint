@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 7/26/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 29631b03-598b-49d0-83e5-bac61cfc643b
 description: "Summary: Learn how to set up a Search Center in SharePoint Server 2016 and SharePoint Server 2013."

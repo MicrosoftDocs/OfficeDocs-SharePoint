@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 7/20/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 59f3af85-89f9-43ba-b364-28a810cae42e
 description: "Summary: Learn how to specify how often SharePoint Server 2013 stores a version of a document that is being edited."

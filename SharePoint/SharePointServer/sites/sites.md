@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 3/12/2018
 ms.audience: ITPro
 ms.topic: hub-page
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: b35afb63-94d0-4f32-912e-4e64c555ffdf
 description: "Summary: Learn about planning, creating, and managing sites and site collections in SharePoint Server 2016 and SharePoint 2013."

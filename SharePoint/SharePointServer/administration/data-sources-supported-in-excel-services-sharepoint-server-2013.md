@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 6/23/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: db4bea29-65fb-4c48-828a-f96502fed697
 description: "Summary: Learn about different kinds of data sources that you can use in Excel and Excel Services."

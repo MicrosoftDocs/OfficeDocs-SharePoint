@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 3/12/2018
 ms.audience: ITPro
 ms.topic: hub-page
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: f39ef086-a317-44ba-b6db-3ee2f460c9fb
 description: "Learn about planning, configuring and deploying search in SharePoint Server 2013 and SharePoint Server 2016."

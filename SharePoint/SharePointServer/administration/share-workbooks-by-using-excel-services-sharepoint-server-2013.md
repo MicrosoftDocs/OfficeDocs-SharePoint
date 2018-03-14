@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 7/7/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 7acd8bf3-5bb5-4ae6-afa2-7af3c5cefa85
 description: "Summary: Excel Services in SharePoint Server 2013 enables you to share Excel content with other people using SharePoint Server 2013. You can share an entire workbook, or choose to display only part of a workbook."

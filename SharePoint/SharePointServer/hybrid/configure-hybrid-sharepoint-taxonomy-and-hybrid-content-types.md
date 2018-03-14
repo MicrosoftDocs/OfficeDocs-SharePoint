@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 1/23/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_SharePoint_Hybrid_Top
 ms.custom: Strat_SP_gtc

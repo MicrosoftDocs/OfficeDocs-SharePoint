@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 3/1/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 185da9e8-9ed1-4bf1-bfb5-2a5a874f2a19
 description: "Summary: Learn how to collect information about document users to plan your SharePoint Server 2013 document management solution."

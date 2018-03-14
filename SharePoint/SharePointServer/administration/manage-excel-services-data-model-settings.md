@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 7/6/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: e1fb66ca-d0ee-4935-b8dc-a87abf98e216
 description: "Summary: Configure instances of SQL Server 2012 Analysis Services for Data Model functionality in Excel Services."

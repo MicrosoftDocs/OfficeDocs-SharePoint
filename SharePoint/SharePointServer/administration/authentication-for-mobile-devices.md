@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 7/20/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: ad6a501d-5d8c-4b87-af69-7f655b8c3d1e
 description: "This article contains information about the supported authentication types for select devices in SharePoint Server 2013."

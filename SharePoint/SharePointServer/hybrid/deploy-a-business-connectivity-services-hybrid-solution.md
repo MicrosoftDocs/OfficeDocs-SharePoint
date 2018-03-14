@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 6/22/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 3f7cf424-3340-4010-ad3b-6aef0cd74428
 description: "Summary: Learn how to configure the Business Connectivity Services (BCS) hybrid scenario to access on-premises data through SharePoint Online."

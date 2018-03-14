@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 3/7/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 552fcfbd-efd6-457e-924d-1d3bacea37dd
 description: "Summary: Learn how to change the order in which search results are displayed in SharePoint Server."

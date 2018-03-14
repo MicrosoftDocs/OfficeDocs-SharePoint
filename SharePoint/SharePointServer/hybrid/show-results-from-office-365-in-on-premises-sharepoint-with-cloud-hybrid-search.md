@@ -6,7 +6,7 @@ manager: arnek
 ms.date: 7/21/2017
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection:
 - Ent_O365_Hybrid

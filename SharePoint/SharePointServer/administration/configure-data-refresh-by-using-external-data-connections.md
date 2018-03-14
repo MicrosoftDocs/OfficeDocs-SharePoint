@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 7/6/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 067783ba-e22f-41a8-9a1b-38a89c3a30c2
 description: "Summary: Configure Visio Services to refresh data using an external Office Data Connection (ODC) file and a Secure Store Service target application."

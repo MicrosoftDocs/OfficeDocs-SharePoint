@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 7/7/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 9d89800f-7ebb-4454-9e0a-779ba1737d04
 description: "You can connect a Visio diagram to the data in a SharePoint list and maintain that connection when you publish the diagram to SharePoint Server 2013 or SharePoint Server 2016."

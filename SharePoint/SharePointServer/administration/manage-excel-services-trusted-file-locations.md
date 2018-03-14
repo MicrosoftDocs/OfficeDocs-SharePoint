@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 7/6/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 9ed8159f-9501-4ef3-8c84-5d775a1e6223
 description: "Summary: Add, configure, or delete an Excel Services trusted file location in SharePoint Server 2013."

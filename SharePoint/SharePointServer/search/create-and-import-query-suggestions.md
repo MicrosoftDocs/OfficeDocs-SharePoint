@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 9/5/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 59be233e-be37-4639-b7b4-9059f5bb59ba
 description: "Summary: Learn how to import query suggestions in SharePoint Server 2016 and SharePoint Server 2013."

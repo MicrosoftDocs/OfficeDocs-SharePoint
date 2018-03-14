@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 7/6/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 9cea4a3d-c196-4d9e-942d-2677a6c15c13
 description: "Summary: Learn how to configure Power Pivot for SharePoint Server 2013."

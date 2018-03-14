@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 7/20/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 0fe9d4a1-faf9-4941-a45a-b54f47a5dea5
 

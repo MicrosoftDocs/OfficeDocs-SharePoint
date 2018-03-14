@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 3/7/2018
 ms.audience: ITPro
 ms.topic: reference
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 3824d521-ee4f-408e-b3fd-51da34e20538
 description: "Summary: These articles explain the updated product servicing policies of SharePoint Server 2016 and SharePoint Server 2013."

@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 3/1/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 1b4765ef-3d28-4082-bb37-5d84e9996c44
 description: "Summary: Learn about records management and the records management planning process in SharePoint Server."

@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 3/2/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: f3fae102-5b20-4c9f-9707-ab76c68be937
 description: "Summary: Learn ways that users can turn active documents into records in the Records Center site in SharePoint Server."

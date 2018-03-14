@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 7/10/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 6cd7e6d2-092d-47f0-aed0-97bf2c09369a
 description: "Summary: Learn how to configure and demonstrate Security Assertion Markup Language (SAML)-based claims authentication with Active Directory Federation Services (AD FS) 2.0 and SharePoint Server 2013 based on the Test Lab Guide: Configure SharePoint Server 2013 in a three-tier farm."

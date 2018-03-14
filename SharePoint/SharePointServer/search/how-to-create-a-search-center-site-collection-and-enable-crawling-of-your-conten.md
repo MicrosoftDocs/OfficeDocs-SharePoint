@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 3/7/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: ef585c89-f18c-41a6-b8fa-5a73be4930aa
 description: "Summary: Learn how to create a Search Center Site Collection and enable crawling of your content in SharePoint Server."

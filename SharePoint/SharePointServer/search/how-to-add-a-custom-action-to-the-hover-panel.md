@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 3/7/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: b5d9b1b8-14cd-4f9b-956a-fa8a0808c9f6
 description: "Summary: Learn how to add a custom action to the hover panel in SharePoint Server."

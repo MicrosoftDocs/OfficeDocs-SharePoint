@@ -6,7 +6,7 @@ manager: arnek
 ms.date: 3/9/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: c24cffe8-fa32-43e4-95ed-42118ef9643d
 description: "Summary: Configure a SharePoint hybrid environment so that user searches from the SharePoint Online Search Center display results from both the SharePoint Online and SharePoint Server search indexes."

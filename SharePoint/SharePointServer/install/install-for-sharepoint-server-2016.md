@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 9/17/2016
 ms.audience: ITPro
 ms.topic: hub-page
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Critical
 ms.collection:
 - IT_Sharepoint_Server

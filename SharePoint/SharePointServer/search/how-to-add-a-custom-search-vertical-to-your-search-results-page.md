@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 3/7/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 8f5ab43a-d45c-4143-8229-34ed0c20584d
 description: "Summary: Learn how to add a custom search vertical to your results page in SharePoint Server."

@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 7/6/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 0d74b6bb-0355-4d18-b5fb-def0aca566d9
 description: "Summary: Edit Excel Services settings for security, load balancing, memory, cache, and external data by using the SharePoint Central Administration website."

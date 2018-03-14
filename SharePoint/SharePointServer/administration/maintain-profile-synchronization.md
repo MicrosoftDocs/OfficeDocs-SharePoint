@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 8/2/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 26f02074-af0b-4548-ab68-9d46dd05b8ff
 description: "Summary: Learn how to maintain User Profile synchronization settings in SharePoint Server 2013 after you configure User Profile synchronization."

@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 1/22/2018
 ms.audience: End User
 ms.topic: get-started-article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection:
 - IT_SharePoint_Hybrid

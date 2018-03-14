@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 3/1/2018
 ms.audience: ITPro
 ms.topic: concetpual
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 7af845bc-f245-459f-871d-0ee06c64a184
 description: "Summary: Learn how to integrate content types and workflows into your SharePoint Server document management solution."

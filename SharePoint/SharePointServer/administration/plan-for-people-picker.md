@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 8/1/2017
 ms.audience: ITPro
 ms.topic: interactive-tutorial
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 2093c146-c880-48c6-9526-24cdf80969ba
 description: "Summary: Learn how to plan for the People Picker web control in SharePoint Server 2013."

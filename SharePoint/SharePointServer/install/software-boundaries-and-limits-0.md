@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 1/8/2018
 ms.audience: ITPro
 ms.topic: interactive-tutorial
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection:
 - IT_Sharepoint_Server

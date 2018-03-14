@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 6/23/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: cbb210e8-2969-4fd5-a82d-08ad1996c5b4
 description: "Summary: Use Excel Services trusted data connection libraries to manage and secure data connections for Excel Services in SharePoint Server 2013."

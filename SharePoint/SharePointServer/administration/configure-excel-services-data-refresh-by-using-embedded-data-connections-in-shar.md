@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 7/14/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 2be5291e-b6cc-4730-bc58-78b14ea1984b
 description: "Summary: Configure Excel Services in SharePoint Server 2013 to use a Secure Store target application for external data refresh."
