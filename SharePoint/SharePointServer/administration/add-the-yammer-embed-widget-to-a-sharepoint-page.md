@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 7/31/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 48fa0391-b996-4a46-8744-4b1777db3d2f
 description: "Summary: Learn how to use the Yammer Embed widget to include Yammer feeds on SharePoint pages."

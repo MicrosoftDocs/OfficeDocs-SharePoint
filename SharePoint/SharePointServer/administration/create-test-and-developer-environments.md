@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 3/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 76b11fdc-8516-4841-8013-5907928f7ed5
 description: "Learn how to create virtual test environments for SharePoint Server."

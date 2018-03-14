@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 7/6/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 4e26b32c-f5f8-40b7-a240-bad147c33402
 description: "Summary: Add, configure, or delete trusted data connection libraries in Excel Services in SharePoint Server 2013."

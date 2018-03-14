@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 7/14/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: a2ef35c4-6b29-4ad1-8652-48a019838ea0
 description: "Summary: Deploy Excel Services to your SharePoint Server 2013 farm by creating an Excel Services service application by using Central Administration."

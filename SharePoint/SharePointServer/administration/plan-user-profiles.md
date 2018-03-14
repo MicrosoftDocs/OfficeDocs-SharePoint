@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 8/1/2017
 ms.audience: ITPro
 ms.topic: interactive-tutorial
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 3e61c238-cc09-4369-b8d3-f1150c1ae89b
 

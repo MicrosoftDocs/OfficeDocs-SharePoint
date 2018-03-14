@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 3/1/2018
 ms.audience: ITPro
 ms.topic: concetpual
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 809fe3d9-6121-4e2e-8556-c48a39756365
 description: "Summary: Learn about the elements of a document management solution and the document management planning process in SharePoint Server."

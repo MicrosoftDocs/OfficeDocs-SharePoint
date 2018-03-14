@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 8/1/2017
 ms.audience: ITPro
 ms.topic: interactive-tutorial
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 8198232e-8d49-46fa-b9f0-17b1d5ee6b62
 description: "Summary: Learn about the User Profile service architecture and how SharePoint Server uses it to enable features such as audiences and My Sites."

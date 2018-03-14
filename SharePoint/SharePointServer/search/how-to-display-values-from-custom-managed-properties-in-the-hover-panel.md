@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 3/7/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: f4581a3b-696b-4573-98c5-26d2cdfee526
 description: "Summary: Learn how to display values from custom managed properties in the hover panel in SharePoint Server."

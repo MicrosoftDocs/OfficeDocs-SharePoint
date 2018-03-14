@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 6/22/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 48a1c449-7bf6-4f12-a5f3-1933caadf713
 description: "Summary: How to validate the Business Connectivity Services (BCS) hybrid solution is working."

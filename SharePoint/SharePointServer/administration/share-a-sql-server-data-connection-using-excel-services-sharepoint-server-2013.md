@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 7/7/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 9188225f-8281-4b4a-8414-d39ffac9d371
 description: "Summary: Learn how to use Excel to create and share connections to SQL Server data that people can use to create data models, reports, scorecards, and dashboards."

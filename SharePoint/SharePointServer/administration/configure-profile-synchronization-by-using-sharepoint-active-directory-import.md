@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 2/28/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 73ceb46e-d3aa-45bd-ac3e-77f58a9ab34d
 description: "Summary: Learn how to import user profiles from Active Directory to SharePoint Server 2013 and SharePoint Server 2016 by using the Active Directory import tool for user profiles."

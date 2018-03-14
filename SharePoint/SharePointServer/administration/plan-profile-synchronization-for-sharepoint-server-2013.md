@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 2/27/2018
 ms.audience: ITPro
 ms.topic: interactive-tutorial
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 8451dde9-bbd1-4285-bc24-71bd795fb912
 description: "Summary: Learn how to implement profile synchronization in SharePoint Server 2013."

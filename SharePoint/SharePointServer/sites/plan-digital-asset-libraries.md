@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 7/13/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: d8635abe-1b1b-42db-95ff-ab9341d957e2
 description: "Summary: Learn how to plan storage and performance, permissions and security, metadata and search, Web Parts, views and filters, and client support."

@@ -6,7 +6,7 @@ manager: arnek
 ms.date: 10/4/2017
 ms.audience: ITPro
 ms.topic: concetpual
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_SharePoint_Hybrid_Top
 ms.custom: Strat_SP_gtc

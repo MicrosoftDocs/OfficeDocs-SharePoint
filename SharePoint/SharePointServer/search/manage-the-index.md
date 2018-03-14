@@ -5,7 +5,7 @@ author: tlarsen
 ms.date: 3/6/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 626fc816-cd0e-44e1-8ea7-0d0b536b379b

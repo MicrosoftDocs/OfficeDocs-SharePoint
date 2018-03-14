@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 7/26/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 71322660-64f2-4d34-9b63-a39fc9548dfc
 description: "Summary: Learn how to plan to use refiners on a search results page in SharePoint Server 2016 or SharePoint Server 2013."

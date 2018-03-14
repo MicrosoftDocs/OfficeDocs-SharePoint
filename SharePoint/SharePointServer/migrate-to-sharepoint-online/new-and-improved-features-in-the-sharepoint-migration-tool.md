@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 2/13/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: f3f3e548-196f-44b9-b630-645d781bc096
 description: "Learn about the new features and updates to existing features in SharePoint Migration Tool, Version 0.2.78.0."

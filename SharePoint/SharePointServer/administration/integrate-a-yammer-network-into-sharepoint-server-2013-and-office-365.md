@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 3/8/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 2b98f39e-649f-4b00-b025-0775ac996268
 description: "Summary: Learn how to integrate a Yammer network together with your SharePoint Server 2013 environment and your Office 365 tenant."

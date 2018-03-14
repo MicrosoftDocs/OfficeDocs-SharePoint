@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 91274b73-f7be-4066-a4ab-ec30af30016e
 description: "Summary: Learn how to configure inbound connectivity for SharePoint hybrid."

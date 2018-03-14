@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 7/6/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 7c82bdf9-453f-4ee9-a2e6-20adf05ad59c
 description: "Summary: Secure Store can be used to store encrypted credentials for use in refreshing data-connected Visio diagrams in Visio Services."

@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 7/7/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 5dee7e15-3b81-40c5-978e-c10357bb7a3d
 description: "Summary: Use Secure Store in SharePoint Server 2013 or SharePoint Server 2016 to store SQL Server credentials."

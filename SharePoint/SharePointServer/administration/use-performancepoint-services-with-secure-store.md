@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 7/6/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 1d93093a-4da3-40c0-b0fd-f2567a32d2e9
 description: "Summary: Learn about the options available for using the Secure Store Service with PerformancePoint Services to connect to and refresh data from external data sources."

@@ -9,7 +9,7 @@ ms.topic: article
 f1_keywords:
 - DiscoverySearchSyntaxTips
 - WSSEndUser_DiscoverySearchSyntaxTips
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server
 ms.assetid: c9b29461-20f6-4ae6-84ac-ce9bed3ceabb

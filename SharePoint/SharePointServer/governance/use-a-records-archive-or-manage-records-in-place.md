@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 3/1/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 30f4e254-0b00-49bb-84af-3ece619ad0e4
 description: "Summary: Decide which records management approach to choose in SharePoint Server."

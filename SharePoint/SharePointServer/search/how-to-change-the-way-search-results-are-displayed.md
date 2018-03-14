@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 7/24/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 240ded25-3e64-4be4-84f3-346fda89827f
 description: "Summary: Learn how to change the way search results are displayed in SharePoint Server."

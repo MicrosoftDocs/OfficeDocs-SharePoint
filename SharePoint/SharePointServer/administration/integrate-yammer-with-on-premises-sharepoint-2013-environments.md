@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 3/9/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 555e6de4-eece-440c-857b-9601c65df4fe
 description: "Summary: Learn how to add Yammer functionality to a SharePoint environment and how to replace SharePoint Newsfeeds with Yammer."

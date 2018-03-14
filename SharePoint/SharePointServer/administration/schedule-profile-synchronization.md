@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 8/1/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 53038195-cb59-4779-9bdb-ba0b1cad6f07
 description: "Summary: Learn how to schedule profile synchronization in SharePoint Server 2013 and SharePoint Server 2016."

@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 2/22/2018
 ms.audience: ITPro
 ms.topic: hub-page
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: dd0f0dae-d328-4b5f-bd6b-0310bb341fd7
 description: "Use the following articles to manage your SharePoint Server environment."

@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 3/8/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 58901f1a-dbc9-46ca-8b51-e683ea5f2ce3
 description: "Summary: Learn how to integrate a single, active Yammer network together with your SharePoint Server 2013 environment."

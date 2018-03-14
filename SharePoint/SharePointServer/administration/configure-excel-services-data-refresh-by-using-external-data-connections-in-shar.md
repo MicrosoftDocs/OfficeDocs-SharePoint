@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 7/14/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 0853bed9-1084-413b-bf91-427dc643a5e5
 description: "Summary: Configure Excel Services in SharePoint Server 2013 data refresh by using Secure Store and an external Office Data Connection (ODC) file."

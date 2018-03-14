@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 2/28/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 3cfb2148-9d1a-4022-a55a-a6d2963bef0e
 description: "Summary: Learn how to create, edit, and delete user profile properties in SharePoint Server 2013 and SharePoint Server 2016."

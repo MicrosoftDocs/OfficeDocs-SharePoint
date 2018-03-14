@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 2/27/2018
 ms.audience: ITPro
 ms.topic: interactive-tutorial
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: e283aaec-e962-46b4-92e4-b8a825521641
 description: "Summary: Learn about profile synchronization, also known asprofile sync,in SharePoint Server 2016."

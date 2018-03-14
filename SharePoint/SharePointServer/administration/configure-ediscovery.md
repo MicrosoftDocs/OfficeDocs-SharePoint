@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 8/14/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: b987b833-1ba4-43bb-8c35-6bb56f986572
 description: "Summary: Learn how to configure eDiscovery for SharePoint Server 2013 based on the Test Lab Guide: Configure SharePoint Server 2013 in a three-tier farm."

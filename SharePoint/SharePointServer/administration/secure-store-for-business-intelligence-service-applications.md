@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 7/6/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: a19e8cb8-4b41-492b-b33c-bc490f911f1d
 description: "Summary: Learn how Secure Store works with Excel Services, PerformancePoint Services, and Visio Services to refresh data on SharePoint Server."

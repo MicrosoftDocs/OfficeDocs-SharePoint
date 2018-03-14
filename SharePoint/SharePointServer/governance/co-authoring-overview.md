@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 3/7/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: f6accc60-23b8-4242-b12d-e118270251cf
 description: "Summary: Provides information about co-authoring and the permissions and software versions that are required for co-authoring in SharePoint 2013 and SharePoint Online."

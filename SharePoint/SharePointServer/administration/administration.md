@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 2/14/2018
 ms.audience: ITPro
 ms.topic: hub-page
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection:
 - IT_Sharepoint_Server
@@ -19,9 +19,6 @@ description: "Summary: The articles in this section help you operate and maintai
 
  **Summary:** The articles in this section help you operate and maintain servers, server farms, sites, and solutions in a SharePoint Server 2016 and a SharePoint Server 2013 environment. 
   
-The following articles provide information about operating and maintaining SharePoint Server.
-  
- The following areas are included in this section: 
   
 ## Articles about operations and maintenance in SharePoint Server
 

@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 7/26/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: f8578d9f-2826-4d21-873e-607c53b5c040
 description: "Summary: Learn how item display templates and hit highlighting work in SharePoint Server 2016 and SharePoint Server 2013."

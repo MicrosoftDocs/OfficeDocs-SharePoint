@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 6/20/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: d845819f-0cbf-4595-bb14-19414acbd79b
 description: "Summary: Plan to configure a SharePoint hybrid environment so that user searches from a Search Center display hybrid federated results."

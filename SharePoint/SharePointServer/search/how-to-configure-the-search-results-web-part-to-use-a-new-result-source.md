@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 3/7/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 104cd271-d4d5-4784-9278-5590b5ee2647
 description: "Summary: Learn how to configure the Search Results Web Part to use a new result source in SharePoint Server."

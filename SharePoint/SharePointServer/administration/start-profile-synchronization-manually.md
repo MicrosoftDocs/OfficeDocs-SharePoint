@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 8/1/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 6cdcb2e3-8a77-4219-ba08-cc1d0ae8944f
 description: "Summary: Learn how to start profile synchronization manually in SharePoint Server 2013 or SharePoint Server 2016."

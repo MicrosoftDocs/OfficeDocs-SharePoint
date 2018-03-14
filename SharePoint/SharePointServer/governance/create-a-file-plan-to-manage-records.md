@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 3/2/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 037fb582-6448-4baf-85d4-6e6221f21655
 description: "Summary: Learn how to create a file plan to identify what information that you will keep as records."

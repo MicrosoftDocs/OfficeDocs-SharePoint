@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 9/8/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 6710f7e9-889d-4644-bfab-26f63b76ceaf
 description: "Summary: Learn about the default managed properties, their settings and the default mapping between crawled and managed properties."

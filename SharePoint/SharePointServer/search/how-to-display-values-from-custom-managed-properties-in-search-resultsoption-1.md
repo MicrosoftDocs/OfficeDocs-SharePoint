@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 3/7/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 383d6e18-d108-45b3-afb2-194fc3de2206
 description: "Summary: Learn one option for displaying values from custom managed properties in SharePoint Server."

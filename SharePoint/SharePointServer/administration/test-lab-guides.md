@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 7/7/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: adbb853e-d8ef-48bb-9ca1-55612809c680
 description: "Summary: Find the set of Test Lab Guides (TLGs) for SharePoint 2013 to gain valuable hands-on experience before planning and deployment."
