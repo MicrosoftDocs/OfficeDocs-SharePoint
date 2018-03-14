@@ -15,7 +15,7 @@ description: SharePoint documentation
                         <a href="#home-all"></a>
                         <ul id="home-all" class="cardsC">
                             <li>
-                                <a href="https://technet.microsoft.com/en-us/library/cc303422(v=office.16).aspx">
+                                <a href="[SharePoint Server](../SharePointServer/sharepoint-server.md)">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
