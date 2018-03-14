@@ -71,7 +71,7 @@ description: SharePoint documentation
                                     </div>
                                 </a>
                             </li>                            
-                           <li>
+                            <li>
                                 <a href="https://support.office.com/sharepoint">
                                     <div class="cardSize">
                                         <div class="cardPadding">
@@ -89,7 +89,8 @@ description: SharePoint documentation
                                         </div>
                                     </div>
                                 </a>
-                            </li>                                   </ul>
+                            </li>                
+                        </ul>
                     </li>
                 </ul>
             </li>
