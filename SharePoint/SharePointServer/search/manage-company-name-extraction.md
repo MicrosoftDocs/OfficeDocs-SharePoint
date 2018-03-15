@@ -31,15 +31,6 @@ There is a prepopulated dictionary for company name extraction which includes a 
   
 This article explains how to maintain these lists. It does not cover how to enable a managed property to use company extraction. For more information on how to enable company extraction on a managed property, see [Manage the search schema in SharePoint Server](manage-the-search-schema.md). 
   
-In this article:
-  
-- [Open the Term Store Management Tool](manage-company-name-extraction.md#CE_Open_TS)
-    
-- [Exclude company names](manage-company-name-extraction.md#CE_Exclude)
-    
-- [Include company names](manage-company-name-extraction.md#CE_Include)
-    
-- [Edit terms](manage-company-name-extraction.md#CE_Edit)
     
 ## Open the Term Store Management Tool
 <a name="CE_Open_TS"> </a>

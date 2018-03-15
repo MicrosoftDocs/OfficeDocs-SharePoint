@@ -24,15 +24,6 @@ When a Search service application is created, a content source named "Local Shar
 > [!CAUTION]
 > Changing a content source requires a full crawl for that content source. 
   
-In this article:
-  
-- [Before you begin](#begin)
-    
-- [To create a content source](#proc2)
-    
-- [To edit a content source](#proc3)
-    
-- [To delete a content source](add-edit-or-delete-a-content-source.md#proc4)
     
 ## Before you begin
 <a name="begin"> </a>

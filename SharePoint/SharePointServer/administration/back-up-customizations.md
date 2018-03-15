@@ -21,23 +21,6 @@ description: "Summary: Learn how to back up customizations that are made to Shar
   
 You can back up customizations that are made to SharePoint Server sites by using the SharePoint Central Administration website or Microsoft PowerShell. Which backup tool you use depends on what kind of environment you have deployed, what your backup schedule requires, and what service level agreements you have made with your organization. 
   
-In this article: 
-  
-- [Before you begin](#begin)
-    
-- [Back up solution packages in SharePoint Server](#proc1)
-    
-- [Backing up sandboxed solutions in SharePoint Server](#SandboxedSolutions)
-    
-- [Back up authored site elements in SharePoint Server](#AuthoredSite)
-    
-- [Back up workflows in SharePoint Server](#Workflows)
-    
-- [Back up changes to the Web.config file in SharePoint Server](#WebConfig)
-    
-- [Back up third-party products in SharePoint Server](#ThirdParty)
-    
-- [Back up developed customizations that are not packaged as solutions in SharePoint Server](#DevelopedCustomizations)
     
 ## Before you begin
 <a name="begin"> </a>

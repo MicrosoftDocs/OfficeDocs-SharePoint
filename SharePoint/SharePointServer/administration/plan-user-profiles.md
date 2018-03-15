@@ -35,15 +35,6 @@ A user profile is a collection of properties that describes a single user, and a
     
 User profiles are also [used in server-to-server authentication](../security-for-sharepoint-server/server-to-server-authentication-and-user-profiles.md) which allows for servers to access and request resources from one another on behalf of users. 
   
-In this article:
-  
-- [Overview of user profiles](plan-user-profiles.md#sectiona)
-    
-- [About user profile properties](plan-user-profiles.md#section2)
-    
-- [About property policies](plan-user-profiles.md#Section3)
-    
-- [Planning user profiles](plan-user-profiles.md#PlanningProfiles)
     
 ## Overview of user profiles
 <a name="sectiona"> </a>

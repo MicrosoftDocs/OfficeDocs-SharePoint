@@ -26,13 +26,6 @@ Before you implement RBS, we highly recommend that you evaluate its potential co
 > [!NOTE]
 > Unless otherwise specified, the information in this article is specific to RBS using the FILESTREAM provider. For guidance specific to another provider, contact the provider manufacturer. 
   
-In this article:
-  
-- [Introduction to RBS](#Section2)
-    
-- [RBS providers](#providers)
-    
-- [Using RBS together with SharePoint Server](#Section3)
     
 ## Introduction to RBS
 <a name="Section2"> </a>

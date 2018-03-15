@@ -20,15 +20,6 @@ This article tells you how to set up Forefront Threat Management Gateway (TMG) 2
   
 For complete information about Forefront Threat Management Gateway (TMG) 2010, see [Forefront Threat Management Gateway (TMG) 2010](https://technet.microsoft.com/en-us/library/ff355324.aspx).
   
-In this article:
-  
-- [Before you begin](configure-forefront-tmg-for-a-hybrid-environment.md#byb)
-    
-- [Install TMG 2010](configure-forefront-tmg-for-a-hybrid-environment.md#install)
-    
-- [Import the Secure Channel SSL certificate](configure-forefront-tmg-for-a-hybrid-environment.md#cert)
-    
-- [Configure TMG 2010](configure-forefront-tmg-for-a-hybrid-environment.md#config)
     
 ## Before you begin
 <a name="byb"> </a>

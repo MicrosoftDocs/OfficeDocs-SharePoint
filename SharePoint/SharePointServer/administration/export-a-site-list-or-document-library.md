@@ -21,13 +21,6 @@ description: "Summary: Learn how to export a site, list, or document library in 
   
 You can export a site, list, or document library in SharePoint Server by using the SharePoint Central Administration website or Microsoft PowerShell. The backup tool that you use depends on the kind of environment that you have deployed, your backup schedule requirements, and service level agreements that you have made with your organization. 
   
-In this article:
-  
-- [Before you begin](#begin)
-    
-- [Use PowerShell to export a site, list, or document library in SharePoint Server](#proc1)
-    
-- [Use Central Administration to export a site, list, or document library in SharePoint Server](#proc2)
     
 ## Before you begin
 <a name="begin"> </a>

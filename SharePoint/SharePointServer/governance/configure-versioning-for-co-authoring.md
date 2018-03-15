@@ -20,11 +20,6 @@ Document library versioning is the method by which successive iterations of a do
   
 Before you configure versioning for co-authoring, review [Overview of co-authoring in SharePoint Server](co-authoring-overview.md).
   
-In this article:
-  
-- [Configure versioning for co-authoring in SharePoint Server 2013](configure-versioning-for-co-authoring.md#bkmk_vers)
-    
-- [Configure Require Check Out in SharePoint Server 2013](configure-versioning-for-co-authoring.md#bkmk_req_co)
     
 ## Configure versioning for co-authoring in SharePoint Server 2013
 <a name="bkmk_vers"> </a>

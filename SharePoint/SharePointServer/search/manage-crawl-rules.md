@@ -31,15 +31,6 @@ You can use the asterisk (*) as a wildcard character in crawl rules. For example
   
 The order of crawl rules is important, because the first rule that matches a particular set of content is the one that is applied. 
   
-In this article:
-  
-- [To create or edit a crawl rule](#proc1)
-    
-- [To test a crawl rule on a URL](#proc2)
-    
-- [To delete a crawl rule](#proc3)
-    
-- [To reorder crawl rules](manage-crawl-rules.md#procedure4)
     
 ## To create or edit a crawl rule
 <a name="proc1"> </a>

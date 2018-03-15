@@ -28,17 +28,6 @@ On a publishing site collection that uses variations, site owners can choose to 
     
 This article describes how to do both steps by using either the SharePoint Central Administration website or Microsoft PowerShell.
   
-In this article:
-  
-- [Before you begin](turn-on-automated-document-translation.md#begin)
-    
-- [Supported file name extensions and maximum file sizes](turn-on-automated-document-translation.md#supported)
-    
-- [Step 1: Create a Machine Translation service application](turn-on-automated-document-translation.md#step1)
-    
-- [Step 2: Configure the Machine Translation Service](turn-on-automated-document-translation.md#step2)
-    
-- [Additional steps](turn-on-automated-document-translation.md#more)
     
 ## Before you begin
 <a name="begin"> </a>

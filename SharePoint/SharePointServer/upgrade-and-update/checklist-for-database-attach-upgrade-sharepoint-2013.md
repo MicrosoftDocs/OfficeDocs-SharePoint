@@ -22,13 +22,6 @@ description: "Summary: Use this checklist as you upgrade from SharePoint 2010 Pr
   
 This checklist helps you confirm that you follow all the steps that you must follow as you prepare for upgrade, perform the upgrade, and perform post-upgrade steps. This checklist applies only to upgrade of the content and service application databases. It does not apply to upgrade of My Sites or other site collections. For more information, see [Upgrade a site collection to SharePoint 2013](upgrade-a-site-collection-to-sharepoint-2013.md).
   
-In this article:
-  
-- [Prepare for upgrade](#Prepare)
-    
-- [Complete the database attach upgrade](#During)
-    
-- [Complete post-upgrade steps](#PostUpgrade)
     
 Some steps include notes about how long that step might take. These rough estimates only give you a relative idea of the duration of the step. To discover how much time each step will take for your environment, we recommend that you perform trial upgrades in a test environment. For more information, see [Use a trial upgrade to SharePoint 2013 to find potential issues](use-a-trial-upgrade-to-sharepoint-2013-to-find-potential-issues.md).
   

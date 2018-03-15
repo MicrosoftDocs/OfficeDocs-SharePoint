@@ -19,17 +19,6 @@ description: "Summary: Learn how to remove a server from a SharePoint Server 201
 
  **Summary:** Learn how to remove a server from a SharePoint Server 2016 farm. 
   
-In this article: 
-  
-- [Removing a server from a SharePoint farm](remove-a-server-from-a-farm-in-sharepoint-server-2016.md#removewebappserver)
-    
-- [Remove a server from a SharePoint farm by using Windows PowerShell](remove-a-server-from-a-farm-in-sharepoint-server-2016.md#RemoveByPowerShell)
-    
-- [Remove a server from a SharePoint farm by using the PSConfig.exe command-line tool](remove-a-server-from-a-farm-in-sharepoint-server-2016.md#RemovePSConfig)
-    
-- [Remove a server from a SharePoint farm by using Control Panel](remove-a-server-from-a-farm-in-sharepoint-server-2016.md#removewebappCP)
-    
-- [Remove a server from a SharePoint farm by using Central Administration](remove-a-server-from-a-farm-in-sharepoint-server-2016.md#RemoveAnyServer)
     
 ## Removing a server from a SharePoint farm
 <a name="removewebappserver"> </a>

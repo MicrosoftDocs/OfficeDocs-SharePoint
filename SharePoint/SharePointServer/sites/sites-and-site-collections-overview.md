@@ -36,11 +36,6 @@ The following guidelines show the relationship between SharePoint Server sites a
     
 - A site can't exist outside of a site collection and can only exist in one site collection but a site collection can host many sites.
     
-In this article:
-  
-- [Overview of SharePoint site collections](sites-and-site-collections-overview.md#section1)
-    
-- [Overview of SharePoint sites](sites-and-site-collections-overview.md#section2)
     
 ## Overview of SharePoint site collections
 <a name="section1"> </a>

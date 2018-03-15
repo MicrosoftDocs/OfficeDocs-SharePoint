@@ -30,11 +30,6 @@ When you delete a service application, you have the option of also deleting the 
   
 To ensure that the service application is available for potential future use, consider backing up the service application before you delete it. For more information, see [Back up service applications in SharePoint Server](back-up-a-service-application.md) and [Restore service applications in SharePoint Server](restore-a-service-application.md).
   
-In this article:
-  
-- [To delete a service application by using Central Administration](delete-a-service-application.md#ProcCA)
-    
-- [To delete a service application by using Microsoft PowerShell](#ProcWPS)
     
 ### To delete a service application by using Central Administration
 

@@ -21,23 +21,6 @@ description: "Summary: Learn about the automatic password changes and how to dep
   
 To simplify password management, the automatic password change feature enables you to update and deploy passwords without having to perform manual password update tasks across multiple accounts, services, and web applications. You can configure the automatic password change feature to determine whether a password is about to expire and reset the password using a long, cryptographically-strong random string. To implement the automatic password change feature, you have to configure managed accounts.
   
-In this article:
-  
-- [Configure managed accounts](automatic-password-change-planning.md#configure)
-    
-- [Reset passwords automatically on a schedule](automatic-password-change-planning.md#Reset)
-    
-- [Detect password expiration](automatic-password-change-planning.md#Detect)
-    
-- [Reset the account password immediately](automatic-password-change-planning.md#ResetImmediately)
-    
-- [Synchronize SharePoint Foundation account passwords with Active Directory Domain Services](automatic-password-change-planning.md#Synchronize)
-    
-- [Reset all passwords immediately](automatic-password-change-planning.md#ResetAllPwd)
-    
-- [Credential change process](automatic-password-change-planning.md#Credentials)
-    
-- [Service impact when you change passwords](automatic-password-change-planning.md#ServiceImpact)
     
 ## Configure managed accounts
 <a name="configure"> </a>

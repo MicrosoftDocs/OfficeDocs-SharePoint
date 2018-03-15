@@ -33,13 +33,6 @@ By changing the properties and query in the Search Results Web Part you can you 
     
 - Change the display template.
     
-In this article:
-  
-- [Before you begin](configure-properties-of-the-search-results-web-part.md#begin)
-    
-- [Configure properties of the Search Results Web Part](configure-properties-of-the-search-results-web-part.md#BKMK_ConfigureProperties)
-    
-- [To disable stemming in a Search Results Web Part](configure-properties-of-the-search-results-web-part.md#BKMK_DisableStemming)
     
 ## Before you begin
 <a name="begin"> </a>

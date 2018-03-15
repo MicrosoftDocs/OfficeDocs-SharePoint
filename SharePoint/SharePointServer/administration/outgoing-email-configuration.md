@@ -25,21 +25,6 @@ To configure outgoing email for a specific web application, first configure the 
   
 You can also configure outgoing email for a specific web application by using Microsoft PowerShell. For more information, see the "Configure the settings for a specific web application" section in [SharePoint Server 2016 outgoing email configuration settings](https://social.technet.microsoft.com/wiki/contents/articles/34167.sharepoint-2016-outgoing-email-configuration-settings.aspx#Configure_using_the_PowerShell).
   
-In this article:
-  
-- [Before you begin](outgoing-email-configuration.md#begin)
-    
-- [To install the SMTP service](#section1)
-    
-- [To install IIS 6.0 Management tools](#section2)
-    
-- [To configure the SMTP service](#section3)
-    
-- [To set the SMTP service to start automatically](#section4)
-    
-- [To configure outgoing email for a farm by using Central Administration](#section5)
-    
-- [To configure outgoing email for a specific web application by using Central Administration](#section7)
     
 ## Before you begin
 <a name="begin"> </a>

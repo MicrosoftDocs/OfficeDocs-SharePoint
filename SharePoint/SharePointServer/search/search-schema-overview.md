@@ -21,17 +21,6 @@ The search index is the center of search. What is in your search index determine
   
 This article describes how content is collected in and retrieved from the search index by using the search schema. The search schema contains crawled properties, crawled property categories, the crawled to managed property mapping and the managed property settings. Managed property settings define what you can search for and how, for example if you can refine or query on a property. 
   
-In this article:
-  
-- [Crawling and crawled properties](search-schema-overview.md#crawl_cps)
-    
-- [Managed properties and property mapping](search-schema-overview.md#mps_map)
-    
-- [The search schema](search-schema-overview.md#search_schema)
-    
-- [The search index](search-schema-overview.md#search_index)
-    
-- [Managed property settings overview](search-schema-overview.md#MP_Overview)
     
 ## Crawling and crawled properties
 <a name="crawl_cps"> </a>

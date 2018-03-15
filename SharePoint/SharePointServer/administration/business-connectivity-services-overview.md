@@ -29,13 +29,6 @@ This article introduces you to Microsoft Business Connectivity Services. After y
     
 This article is your starting place for using Business Connectivity Services to create data integration solutions in SharePoint Server and Office 2016. You have to understand the concepts in this article before you can move on to planning, developing, and installing Business Connectivity Services data integration solutions. The examples in this article are used throughout the remainder of the Business Connectivity Services documentation.
   
-In this article:
-  
-- [What is Business Connectivity Services?](business-connectivity-services-overview.md#section1)
-    
-- [How does Business Connectivity Services work?](business-connectivity-services-overview.md#section2)
-    
-- [What does a Business Connectivity Services solution look like?](business-connectivity-services-overview.md#section3)
     
 ## What is Business Connectivity Services?
 <a name="section1"> </a>

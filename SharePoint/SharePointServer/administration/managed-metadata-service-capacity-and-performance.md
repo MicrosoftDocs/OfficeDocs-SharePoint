@@ -31,17 +31,6 @@ For a typical SharePoint Server 2013 deployment with similar characteristics as 
   
 For deployments that contain significantly more items than compared to the dataset we provide in our tests, we'll attempt to provide guidance through the results of tests where we change one of the variables and keep the other components of our test dataset constant. Users with larger deployments should consider these results and size their SharePoint Server 2013 farms accordingly.
   
-In this article:
-  
-- [Introduction](#intro)
-    
-- [Test dataset](#Tdata)
-    
-- [Test scenarios](#TS)
-    
-- [Test topology](#TTop)
-    
-- [Test results](#TR)
     
 For general information about capacity management and how to plan for SharePoint Server 2013, see [Capacity management and sizing for SharePoint Server 2013](capacity-management-and-sizing-for-sharepoint-server-2013.md).
   

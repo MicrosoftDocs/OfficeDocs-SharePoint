@@ -23,19 +23,6 @@ User profiles and groups are used by SharePoint Server 2013 through server-to-se
 > [!IMPORTANT]
 > This article applies to only SharePoint Server 2013. 
   
-In this article:
-  
-- [Before you begin](configure-profile-synchronization.md#begin)
-    
-- [Phase 0: Configure the farm](configure-profile-synchronization.md#Phase0)
-    
-- [Phase 1: Start the User Profile synchronization service](configure-profile-synchronization.md#Phase1)
-    
-- [Phase 2: Configure connections and import data from directory services](configure-profile-synchronization.md#Phase2)
-    
-- [Phase 3: Configure connections and import data from business systems](configure-profile-synchronization.md#Phase3)
-    
-- [Phase 4: Configure connections and export data to directory services](configure-profile-synchronization.md#Phase4)
     
 ## Before you begin
 <a name="begin"> </a>

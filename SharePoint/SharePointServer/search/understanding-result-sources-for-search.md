@@ -17,19 +17,7 @@ description: "Summary: Use a result source in SharePoint Server 2016 and SharePo
 
  **Summary:** Use a result source in SharePoint Server 2016 and SharePoint Server 2013 to specify a provider to get search results from, and optionally to narrow a search to a subset of those results. 
   
-This article provides a brief overview of result sources in SharePoint Server. In this article:
-  
-- [What is a result source?](#BKMK_What)
-    
-- [Available result sources](#BKMK_Result_sources_available)
-    
-- [Result source protocols and URLs](#BKMK_What_protocols_and_locations)
-    
-- [Who can create result sources?](#BKMK_Who)
-    
-- [Specifying a result source to use for a query](#BKMK_When)
-    
-- [Narrowing search results by using a query transform](#BKMK_How-does_query_transform_affect_query)
+This article provides a brief overview of result sources in SharePoint Server. 
     
 ## What is a result source?
 <a name="BKMK_What"> </a>

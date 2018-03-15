@@ -22,11 +22,6 @@ Use a thesaurus file to specify synonyms for a single word or multiple words tha
 > [!NOTE]
 > You can only deploy one thesaurus per SharePoint Server farm. 
   
-In this article:
-  
-- [Create a thesaurus](#proc1)
-    
-- [Deploy a thesaurus](#proc2)
     
 ## Create a thesaurus
 <a name="proc1"> </a>

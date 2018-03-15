@@ -23,11 +23,6 @@ The search system automatically creates suggestions for a query when users have 
   
 When you follow the steps in this article to manually add phrases that should or shouldn't be used as query suggestions, the query suggestions apply to **all** result sources and **all** site collections. 
   
-In this article:
-  
-- [Add phrases that should always or never be used as query suggestions ](manage-query-suggestions.md#proc3)
-    
-- [Switch query suggestions on or off](manage-query-suggestions.md#proc2)
     
 ## Add phrases that should always or never be used as query suggestions
 <a name="proc3"> </a>

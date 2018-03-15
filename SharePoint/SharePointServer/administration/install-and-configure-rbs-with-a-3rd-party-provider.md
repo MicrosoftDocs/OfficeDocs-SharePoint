@@ -26,17 +26,6 @@ SharePoint Server uses the RBS feature to store BLOBs outside the content databa
   
 Do not directly access BLOBs when you are using third-party providers. Always access these BLOBs by using SharePoint Server. 
   
-In this article:
-  
-- [Before you begin](#begin)
-    
-- [Install the RBS client library on each front-end or application server](#proc1)
-    
-- [Install the third-party provider](#proc2)
-    
-- [Enable RBS for each content database](#proc3)
-    
-- [Test the RBS installation](#testRBS)
     
 ## Before you begin
 <a name="begin"> </a>

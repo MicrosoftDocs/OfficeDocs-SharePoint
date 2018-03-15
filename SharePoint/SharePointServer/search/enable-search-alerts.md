@@ -19,11 +19,6 @@ description: "Summary: Learn how to enable or disable search alerts."
   
 Search alerts allow end-users to receive e-mail notification when specified search query results are changed or updated. Search alerts should be enabled when you want allow end-users to create alerts for search queries. Search alerts may be configured on the search query page when a search query is completed and results are displayed. Search alerts are created and configured per-user and are only configurable and viewable by the user who creates them. Search alerts are enabled by default. Use this procedure to enable or disable search alerts.
   
-In this article:
-  
-- [Before you begin](#begin)
-    
-- [To enable or disable search alerts](#proc1)
     
 ## Before you begin
 <a name="begin"> </a>

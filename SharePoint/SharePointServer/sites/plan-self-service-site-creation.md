@@ -24,13 +24,6 @@ Organizations have two ways to create site collections in their web applications
 > [!NOTE]
 > My Sites and the policies feature are not available in SharePoint Foundation 2013 and Self-Service Site Creation is disabled by default. 
   
-In this article:
-  
-- [Determine who can create sites and a method for site creation](#section1)
-    
-- [Plan for Self-Service Site Creation](#section2)
-    
-- [Plan for custom site creation processes](#section3)
     
 ## Determine who can create sites and a method for site creation
 <a name="section1"> </a>

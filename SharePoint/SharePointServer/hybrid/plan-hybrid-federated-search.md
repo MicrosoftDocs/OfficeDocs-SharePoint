@@ -18,15 +18,6 @@ description: "Summary: Plan to configure a SharePoint hybrid environment so that
   
 A SharePoint hybrid environment enables you to provide hybrid solutions that integrate functionality and data access between services and features of SharePoint Online in Office 365 and SharePoint Server. With SharePoint hybrid federated search, user searches from a Search Center display hybrid results—that is, results from both the SharePoint Server 2013 and SharePoint Online search indexes.
   
-In this article:
-  
-- [Options for displaying hybrid federated search solutions](plan-hybrid-federated-search.md#BKMK_AvailableSolutions)
-    
-- [Choosing an option for displaying hybrid federated search](plan-hybrid-federated-search.md#BKMK_ChoosingSolution)
-    
-- [Prerequisites for hybrid federated search](plan-hybrid-federated-search.md#BKMK_Prereqs)
-    
-- [Planning considerations for hybrid federated search](plan-hybrid-federated-search.md#BKMK_PlanningConsiderations)
     
 ## Options for displaying hybrid federated search solutions
 <a name="BKMK_AvailableSolutions"> </a>

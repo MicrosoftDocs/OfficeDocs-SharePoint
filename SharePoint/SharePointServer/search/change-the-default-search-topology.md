@@ -21,13 +21,6 @@ This article explains how to create and activate search components in a new sear
   
 If there are items in the SharePoint Server search index, follow the procedures in [Manage search components in SharePoint Server](manage-search-components.md) and [Manage the index component in SharePoint Server](manage-the-index-component.md).
   
-In this article:
-  
-- [Before you begin](#begin)
-    
-- [Overview: changing a search topology without content in the search index](#Topology_OverviewDefault)
-    
-- [Example: Change from the default search topology to a small enterprise search topology](#Topology_ExampleDefaultSmall)
     
 ## Before you begin
 <a name="begin"> </a>

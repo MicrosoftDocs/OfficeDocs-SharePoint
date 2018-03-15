@@ -19,23 +19,6 @@ description: "Summary: Learn to create and tag catalog content in authoring site
   
 Before you configure cross-site publishing, make sure that you understand the concepts and terminology in [Plan for cross-site publishing in SharePoint Server](plan-for-cross-site-publishing.md).
   
-In this article:
-  
-- [Before you begin](configure-cross-site-publishing.md#BKMK_Accessibility)
-    
-- [Create site collections for cross-site publishing ](configure-cross-site-publishing.md#BKMK_Create_site_collections)
-    
-- [Activate the Cross-Site Collection Publishing feature](configure-cross-site-publishing.md#BKMK_Activate)
-    
-- [Create and manage term sets for tagging content on authoring sites](configure-cross-site-publishing.md#BKMK_CreateTermSet)
-    
-- [Create catalog content by using SharePoint lists](configure-cross-site-publishing.md#BKMK_Create_catalog_content_lists)
-    
-- [Share a library or list as a catalog](configure-cross-site-publishing.md#BKMK_Share_library_list_as_catalog)
-    
-- [Make a term set available to other site collections](configure-cross-site-publishing.md#BKMK_Make_term_set_available)
-    
-- [Configure search for cross-site publishing](configure-cross-site-publishing.md#BKMK_Configure_search)
     
 ## Before you begin
 <a name="BKMK_Accessibility"> </a>

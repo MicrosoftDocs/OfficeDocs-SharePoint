@@ -18,15 +18,6 @@ description: "Summary: Learn about the Document Set feature in SharePoint Server
   
 This article describes Documents Sets and provides guidance on how you can integrate them with your SharePoint Server document management solution.
   
-In this article:
-  
-- [Plan document sets in SharePoint Server 2013](http://technet.microsoft.com/library/41f29775-f3f6-4eb7-ab2f-56f9fe331f8a%28Office.14%29.aspx#bkmk_about_ds)
-    
-- [Plan document sets in SharePoint Server 2013](http://technet.microsoft.com/library/41f29775-f3f6-4eb7-ab2f-56f9fe331f8a%28Office.14%29.aspx#bkmk_admin_ds)
-    
-- [Plan document sets in SharePoint Server 2013](http://technet.microsoft.com/library/41f29775-f3f6-4eb7-ab2f-56f9fe331f8a%28Office.14%29.aspx#bkmk_plan_docsets)
-    
-- [Plan document sets in SharePoint Server 2013](http://technet.microsoft.com/library/41f29775-f3f6-4eb7-ab2f-56f9fe331f8a%28Office.14%29.aspx#worksheets)
     
 ## About Document Sets
 <a name="bkmk_about_ds"> </a>

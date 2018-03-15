@@ -23,21 +23,6 @@ This article describes how to create custom usage event types, and how to add co
   
 You can view the statistics for all usage event types in Popularity Trends and Most Popular Items reports. For more information, see [View usage reports in SharePoint Server](view-usage-reports.md).
   
-In this article:
-  
-- [Create a custom usage event type](configure-recommendations-and-usage-event-types.md#BKMK_CreateCustomUsageEventType)
-    
-- [Record a custom usage event](configure-recommendations-and-usage-event-types.md#BKMK_RecordCustomUsageEvent)
-    
-- [Record a default usage event](configure-recommendations-and-usage-event-types.md#BKMK_RecordDefaultUsageEvent)
-    
-- [Change the level of importance of a usage event type](configure-recommendations-and-usage-event-types.md#BKMK_ChangeImportanceLevel)
-    
-- [Change the Recent time period for a usage event type](configure-recommendations-and-usage-event-types.md#BKMK_ChangeRecentTimePeriod)
-    
-- [Enable and disable the logging of usage events of anonymous users](configure-recommendations-and-usage-event-types.md#BKMK_LoggingAnonymousUsers)
-    
-- [Get SiteId GUID and WebId GUID for a site](configure-recommendations-and-usage-event-types.md#BKMK_GetGUID)
     
 ## Create a custom usage event type
 <a name="BKMK_CreateCustomUsageEventType"> </a>

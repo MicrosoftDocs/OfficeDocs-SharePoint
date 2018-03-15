@@ -97,13 +97,6 @@ The Search Service application databases require the following steps:
     
 8. Point the Search service application to the moved or renamed databases.
     
-In this article:
-  
-- [General steps to move or rename service application databases by using SQL Server](#General) by using SQL Server 
-    
-- [Steps to move or rename the Business Data Connectivity Service and User Profile Service application databases](#BdcUps)
-    
-- [Steps to move or rename the Search Service application databases](#Search)
     
 ## General steps to move or rename service application databases by using SQL Server
 <a name="General"> </a>

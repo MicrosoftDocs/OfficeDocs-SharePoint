@@ -19,13 +19,6 @@ description: "Summary: Learn about how compliance, eDiscovery, and large-scale d
   
 Compliance feature sets, such as in-place holds and querying and exporting data under preservation, effect the processing and storage requirements in SharePoint Server 2013 when used.
   
-In this article:
-  
-- [Storage requirements for in-place holds](#StorReq)
-    
-- [Effect of eDiscovery queries and export on other Search queries](#eDisc)
-    
-- [Effect of Export](#export)
     
 ## Storage requirements for in-place holds
 <a name="StorReq"> </a>

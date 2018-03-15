@@ -20,23 +20,6 @@ The SharePoint Server 2013 asset library is a special kind of document library. 
   
 For information about how to manage digital assets, see [Overview of managing digital assets in SharePoint Server 2013](managing-digital-assets-overview.md).
   
-In this article:
-  
-> [Asset library overview](plan-digital-asset-libraries.md#Section1)
-    
-> [Plan for asset libraries](plan-digital-asset-libraries.md#Section2)
-    
-> [Plan for permissions and security](plan-digital-asset-libraries.md#Section3)
-    
-> [Plan for storage and performance](plan-digital-asset-libraries.md#Section4)
-    
-> [Plan for metadata and Search](plan-digital-asset-libraries.md#Section5)
-    
-> [Plan for video thumbnails](plan-digital-asset-libraries.md#thumbnail)
-    
-> [Plan for Web Parts and web pages](plan-digital-asset-libraries.md#Section6)
-    
-> [Plan for client support](plan-digital-asset-libraries.md#Section7)
     
 ## Asset library overview
 <a name="Section1"> </a>

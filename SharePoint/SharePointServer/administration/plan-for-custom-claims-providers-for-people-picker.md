@@ -26,15 +26,6 @@ When you create a custom claims provider, you can control what information is di
   
 Before reading this article, you should understand the concepts described in [Plan for user authentication methods in SharePoint Server](../security-for-sharepoint-server/plan-user-authentication.md) and [The Role of Claims](https://technet.microsoft.com/en-us/library/ee913589.aspx). For additional information about claims-based authentication, see [SharePoint Claims-Based Identity](https://technet.microsoft.com/en-us/library/ee535242.aspx)and [A Guide to Claims-based Identity and Access Control](https://technet.microsoft.com/en-us/library/ff423674.aspx).
   
-In this article:
-  
-- [Architecture](#architecture)
-    
-- [Example custom claims provider configuration](#deploying)
-    
-- [Using custom claims on more than one farm](#multifarm)
-    
-- [Planning considerations for custom claims providers](#planning)
     
 ## Architecture
 <a name="architecture"> </a>

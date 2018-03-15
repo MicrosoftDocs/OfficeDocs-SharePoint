@@ -21,11 +21,6 @@ description: "Summary: Learn how to attach and restore a read-only content datab
   
 You can attach and restore a read-only content database in SharePoint Server by using PowerShell.
   
-In this article:
-  
-- [Before you begin](#begin)
-    
-- [Using PowerShell to attach and restore a read-only content database](#proc1)
     
 ## Before you begin
 <a name="begin"> </a>

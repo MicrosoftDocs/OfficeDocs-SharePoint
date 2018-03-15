@@ -21,17 +21,6 @@ You create and maintain the custom entity extractor file in a system external to
   
 To use custom entities as refiners, you first create a custom entity extraction dictionary and deploy it. Then, you configure a managed property to use a custom entity extractor and run a full crawl. After that, you can configure the Refinement Web Part on the search results page to use the custom entity as a refiner. 
   
-In this article:
-  
-- [Before you begin](#begin)
-    
-- [Create a custom entity extraction dictionary](#proc1)
-    
-- [Deploy a custom entity extraction dictionary](#proc2)
-    
-- [Configure a managed property for custom entity extraction](#proc3)
-    
-- [Configure a refiner in the Web Part](create-and-deploy-custom-entity-extractors.md#proc4)
     
 ## Before you begin
 <a name="begin"> </a>

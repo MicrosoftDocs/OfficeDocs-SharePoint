@@ -23,11 +23,6 @@ The Kerberos protocol supports an authentication method that uses tickets that a
   
 Before establishing a network connection to a network service, the client computer presents its TGT to the KDC and requests a service ticket. Based on the previously issued TGT, which confirms that the client computer was authenticated, the KDC issues a service ticket to the client computer. The client computer then submits the service ticket to the network service. The service ticket must also contain an acceptable Service Principal Name (SPN) that identifies the service. To enable Kerberos authentication, the client and server computers must already have a trusted connection to the KDC. The client and server computers must also be able to access AD DS.
   
-In this article: 
-  
-- [Kerberos authentication and SharePoint Server](#section1)
-    
-- [Kerberos authentication and claims-based authentication](#section2)
     
 ## Kerberos authentication and SharePoint Server
 <a name="section1"> </a>

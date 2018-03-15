@@ -28,17 +28,6 @@ This article provides the required information and detailed procedures to create
 > [!NOTE]
 > The steps in this article also apply to both SharePoint Foundation 2013 and SharePoint Server 2013. With both of these products these steps are to deploy a new SharePoint farm and don't cover upgrading from SQL Server 2008 R2 to SQL Server 2012. 
   
-In this article:
-  
-- [Process overview](#overview)
-    
-- [Before you begin](#begin)
-    
-- [Detailed steps to configure an Always On Availability Group for SharePoint ](configure-an-alwayson-availability-group.md#SPscenario)
-    
-- [Use failover tests to validate the Always On installation](configure-an-alwayson-availability-group.md#Testfailover)
-    
-- [Monitor the Always On environment](configure-an-alwayson-availability-group.md#Monitor)
     
 ## Process overview
 <a name="overview"> </a>

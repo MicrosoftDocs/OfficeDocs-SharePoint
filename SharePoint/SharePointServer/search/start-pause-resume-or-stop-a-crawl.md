@@ -23,13 +23,6 @@ When you perform a full crawl for a content source, all content specified by the
     
 - The content source is of type **SharePoint Sites** and **Enable Continuous Crawls** is selected in the **Crawl Schedules** section on the Add/Edit Content Source page for the content source. Continuous crawl is a new crawl schedule option in SharePoint Server that applies only to content sources of type **SharePoint Sites**.
     
-In this article:
-  
-- [Before you begin](#begin)
-    
-- [Start, pause, resume, or stop a crawl for a content source](#proc1)
-    
-- [Disable continuous crawls](#proc2)
     
 ## Before you begin
 <a name="begin"> </a>

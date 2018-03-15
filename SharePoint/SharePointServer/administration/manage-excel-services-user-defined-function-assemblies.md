@@ -27,13 +27,6 @@ Before you begin this operation, review the following information about prerequi
     
 - You must be a member of the Farm Administrators group or an Excel Services service application administrator to perform the procedures in this article.
     
-In this article:
-  
-- [Register a user-defined function assembly](#proc1)
-    
-- [Edit user-defined function assembly details](#proc2)
-    
-- [Unregister a user-defined function assembly](#proc3)
     
 ## Register a user-defined function assembly
 <a name="proc1"> </a>

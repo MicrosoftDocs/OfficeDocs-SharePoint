@@ -29,19 +29,6 @@ If you want to transfer all **Master Page Gallery** files, use the **Design Mana
   
 This article describes how to use the **Site Settings** page to export and import customized search configuration settings for site collections, and sites. 
   
-In this article:
-  
-- [Before you begin](export-and-import-customized-search-configuration-settings.md#begin)
-    
-- [Export customized search configuration settings from a site collection](export-and-import-customized-search-configuration-settings.md#proc2)
-    
-- [Export customized search configuration settings from a site](export-and-import-customized-search-configuration-settings.md#proc3)
-    
-- [Import customized search configuration settings to a site collection](export-and-import-customized-search-configuration-settings.md#proc5)
-    
-- [Import customized search configuration settings to a site](export-and-import-customized-search-configuration-settings.md#proc6)
-    
-- [Overview of customized search configuration settings that can be exported and imported](export-and-import-customized-search-configuration-settings.md#BKMK_2)
     
 ## Before you begin
 <a name="begin"> </a>

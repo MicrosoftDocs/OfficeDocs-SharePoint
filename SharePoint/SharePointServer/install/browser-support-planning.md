@@ -23,17 +23,6 @@ SharePoint 2013 supports several commonly used web browsers, such as ![Internet 
   
 As you plan your deployment of SharePoint 2013, we recommend that you review the browsers used in your organization to guarantee optimal performance with SharePoint 2013.
   
-In this article:
-  
-- [Key planning phase of browser support](#section2)
-    
-- [Browser support matrix](#supportmatrix)
-    
-- [Browser details](#browserdetail)
-    
-- [ActiveX controls](#activex)
-    
-- [Mobile browser support](#mobile)
     
 ## Key planning phase of browser support
 <a name="section2"> </a>

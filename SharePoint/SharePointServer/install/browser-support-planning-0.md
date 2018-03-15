@@ -23,17 +23,6 @@ SharePoint Server 2016 supports several commonly used web browsers, such as ![In
   
 As you plan your deployment of SharePoint Server 2016, we recommend that you review the browsers used in your organization to guarantee optimal performance with SharePoint Server 2016.
   
-In this article:
-  
-- [Key planning phase of browser support](#section2)
-    
-- [Browser support levels in SharePoint Server 2016](#supportmatrix)
-    
-- [Browser details](#browserdetail)
-    
-- [Using ActiveX controls in Sharepoint Server 2016](#activex)
-    
-- [Mobile browser support](#mobile)
     
 ## Key planning phase of browser support
 <a name="section2"> </a>

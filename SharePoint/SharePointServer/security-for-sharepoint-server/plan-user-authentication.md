@@ -21,21 +21,6 @@ description: "Summary: Plan how to use various user authentication methods to cr
   
 Learn the user authentication types and methods that are supported by SharePoint Server and how to determine which ones to use for web applications and zones.
   
-In this article:
-  
-- [Introduction](#intro)
-    
-- [Claims-based authentication](#cba)
-    
-- [Supported authentication types and methods](#suppauth)
-    
-- [Plan for Windows authentication](#planwin)
-    
-- [Plan for forms-based authentication](#planfba)
-    
-- [Plan for SAML token-based authentication](#plansaml)
-    
-- [Planning zones for web applications](#planzone)
     
 ## Introduction
 <a name="intro"> </a>

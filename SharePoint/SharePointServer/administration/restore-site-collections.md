@@ -21,11 +21,6 @@ description: "Summary: Learn how to restore a single site collection in SharePoi
   
 You can only restore a site collection in SharePoint Server by using PowerShell.
   
-In this article:
-  
-- [Using PowerShell to restore a site collection in SharePoint Server](#proc1)
-    
-  - [To restore a site collection by using Windows PowerShell](#PS)
     
 ## Using PowerShell to restore a site collection in SharePoint Server
 <a name="proc1"> </a>

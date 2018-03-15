@@ -21,21 +21,6 @@ You can add query transforms to a Web Part, add query rules that transform queri
   
 SharePoint Server contains a number of predesigned search experiences, or search verticals, such as "Videos", "People" and "Conversations". These all contain predefined query transforms to optimize the search experience. You can also design your own search experiences that include your own query transforms, for instance for "Music" or "Pictures".
   
-In this article:
-  
-- [Understanding query transforms and query variables ](plan-to-transform-queries-and-order-results.md#Query_vars_temp)
-    
-- [Using the Query Builder to write and test query transforms](plan-to-transform-queries-and-order-results.md#Trans_Query_Builder)
-    
-- [Transforming queries for a Web Part](plan-to-transform-queries-and-order-results.md#Trans_Web_Part)
-    
-- [Transforming queries with query rules](plan-to-transform-queries-and-order-results.md#Trans_Query_Rules)
-    
-- [Transforming queries in result sources](plan-to-transform-queries-and-order-results.md#Trans_Result_Sources)
-    
-- [Changing the way results are shown by using result types](plan-to-transform-queries-and-order-results.md#ResultTypesQuery)
-    
-- [How the search system processes a query](plan-to-transform-queries-and-order-results.md#HowQueryProc)
     
 ## Understanding query transforms and query variables
 <a name="Query_vars_temp"> </a>

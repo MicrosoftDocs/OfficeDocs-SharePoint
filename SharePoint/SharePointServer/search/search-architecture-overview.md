@@ -21,29 +21,6 @@ The search architecture contains search components and databases. How you struct
   
 For information about search topologies for different use cases: see the technical diagrams [Enterprise search architectures for SharePoint Server 2016](https://www.microsoft.com/en-us/download/54292) and [Internet sites search architectures for SharePoint Server 2016](https://www.microsoft.com/en-us/download/details.aspx?id=54296).
   
-In this article:
-  
-- [Overview of search components and search databases](search-architecture-overview.md#OverviewSearchComponents)
-    
-- [About the crawl component](search-architecture-overview.md#CrawlComponent)
-    
-- [About the content processing component](search-architecture-overview.md#ContentProcComponent)
-    
-- [About the analytics processing component](search-architecture-overview.md#AnalyticsProcComp)
-    
-- [About the index component](search-architecture-overview.md#IndexComp)
-    
-- [About the query processing component](search-architecture-overview.md#QueryProcComp)
-    
-- [About the search administration component](search-architecture-overview.md#SearchAdminComp)
-    
-- [About the crawl database](search-architecture-overview.md#CrawlDB)
-    
-- [About the link database](search-architecture-overview.md#LinkDB)
-    
-- [About the analytics reporting database](search-architecture-overview.md#AnalyticsDB)
-    
-- [About the search administration database](search-architecture-overview.md#AdminDB)
     
 ## Overview of search components and search databases
 <a name="OverviewSearchComponents"> </a>

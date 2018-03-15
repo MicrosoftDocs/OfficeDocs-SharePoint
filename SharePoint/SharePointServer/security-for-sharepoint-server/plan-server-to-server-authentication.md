@@ -30,11 +30,6 @@ To provide the requested resources from another server that can perform server-t
     
 Note that the server-to-server authentication protocol in SharePoint Server is separate from user authentication and is not used as a sign-in authentication protocol by SharePoint users. The server-to-server authentication protocol, which uses the [Open Authorization (OAuth) 2.0 protocol](https://go.microsoft.com/fwlink/p/?LinkID=214783), does not add to the set of user sign-on protocols, such as WS-Federation. There are no new user authentication protocols in SharePoint Server. The server-to-server authentication protocol does not appear in the list of identity providers. 
   
-In this article:
-  
-- [Introduction](#intro)
-    
-- [Identify the set of trust relationships](#trust)
     
 For information about how to plan for the User Profile application service for server-to-server authentication, see [Server-to-server authentication and user profiles in SharePoint Server](server-to-server-authentication-and-user-profiles.md).
   

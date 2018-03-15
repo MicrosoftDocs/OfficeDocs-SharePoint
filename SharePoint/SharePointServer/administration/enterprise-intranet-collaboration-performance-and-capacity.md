@@ -27,17 +27,6 @@ This article contains guidance on performance and capacity planning for an enter
     
 Use the information in this article to understand the characteristics of the scenario under both normal and peak loads, and how performance trends change when farm servers are scaled out. This article can also help you estimate an appropriate starting point for your planned architecture, and the factors that are important to consider when you plan for the resources your farm will need to maintain acceptable levels of performance under peak load.
   
-In this article:
-  
-- [Introduction to this environment](enterprise-intranet-collaboration-performance-and-capacity.md#Intro)
-    
-- [Glossary](enterprise-intranet-collaboration-performance-and-capacity.md#Glossary)
-    
-- [Overview](enterprise-intranet-collaboration-performance-and-capacity.md#Overview)
-    
-- [Specifications](enterprise-intranet-collaboration-performance-and-capacity.md#Specs)
-    
-- [Results and analysis](enterprise-intranet-collaboration-performance-and-capacity.md#Results)
     
 ## Introduction to this environment
 <a name="Intro"> </a>

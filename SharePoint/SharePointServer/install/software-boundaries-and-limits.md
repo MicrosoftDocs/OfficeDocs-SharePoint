@@ -34,69 +34,6 @@ This article describes software boundaries and limits of SharePoint Server 2013.
 > [!NOTE]
 > The capacity planning information in this document provides guidelines for you to use in your planning. It is based on testing performed at Microsoft, on live properties. However, your results are likely to vary based on the equipment you use and the features and functionality that you implement for your sites. 
   
-In this article:
-  
-- [Overview of boundaries and limits](#Overview)
-    
-  - [Boundaries, thresholds and supported limits](#Boundaries)
-    
-  - [How limits are established](#LimitsEstablished)
-    
-- [Limits and boundaries](#Limits)
-    
-  - [Limits by hierarchy](#hierarchy)
-    
-  - [Web application limits](#WebApplication)
-    
-  - [Web server and application server limits](#WebserverAppServer)
-    
-  - [Content database limits](#ContentDB)
-    
-  - [Site collection limits](#SiteCollection)
-    
-  - [List and library limits](#ListLibrary)
-    
-  - [Column limits](#Column)
-    
-  - [Page limits](#Page)
-    
-  - [Limits by feature](#LimitsbyFeature)
-    
-  - [Search limits](#Search)
-    
-  - [User Profile Service limits](#UPA)
-    
-  - [Content deployment limits](#ContentDeployment)
-    
-  - [Blog limits](#Blog)
-    
-  - [Business Connectivity Services limits](#BCS)
-    
-  - [Workflow limits](#Workflow)
-    
-  - [Managed Metadata term store (database) limits](#termstore)
-    
-  - [Visio Services limits](#Visio)
-    
-  - [SharePoint Web Analytics service limits](#WebAnalytics)
-    
-  - [PerformancePoint Services limits](#PPS)
-    
-  - [Word Automation Services limits](#WAS)
-    
-  - [](software-boundaries-and-limits-0.md#Excel)
-    
-  - [Machine Translation Service limits](software-boundaries-and-limits-0.md#machine)
-    
-  - [Office Web Application Service limits](#OfficeWebApps)
-    
-  - [Project Server limits](#Project)
-    
-  - [SharePoint Apps limits](#SpApps)
-    
-  - [Distributed cache service limits](software-boundaries-and-limits-0.md#Velocity)
-    
-  - [Miscellaneous limits](software-boundaries-and-limits-0.md#misc)
     
 ## Overview of boundaries and limits
 <a name="Overview"> </a>

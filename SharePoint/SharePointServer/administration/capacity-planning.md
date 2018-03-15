@@ -26,17 +26,6 @@ Before you read this article, you should read [Capacity management and sizing ov
   
 In this article, we describe the steps you should take to undertake effective capacity management for your environment. Each step requires certain information for successful execution, and has a set of deliverables that you will use in the subsequent step. For each step, these requirements and deliverables are outlined in tables.
   
-In this article:
-  
-- [Step 1: Model](capacity-planning.md#step1)
-    
-- [Step 2: Design](capacity-planning.md#step2)
-    
-- [Step 3: Pilot, Test and Optimize](capacity-planning.md#step3)
-    
-- [Step 4: Deploy](capacity-planning.md#step4)
-    
-- [Step 5: Monitor and Maintain](capacity-planning.md#step5)
     
 ## Step 1: Model
 <a name="step1"> </a>

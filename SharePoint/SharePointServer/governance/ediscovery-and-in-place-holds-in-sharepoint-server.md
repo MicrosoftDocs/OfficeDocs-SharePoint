@@ -19,15 +19,6 @@ description: "Summary: Learn about eDiscovery across SharePoint Server 2016 and 
   
 Electronic discovery, or eDiscovery, is the process of identifying and delivering electronic information that can be used as evidence. The eDiscovery Center, is a type of site collection that serves as a portal for managing eDiscovery cases. From this central location you can discover content in the SharePoint farm, in Exchange Server 2013 or Exchange Server 2016, on file shares, and in other SharePoint farms. You can apply a hold to SharePoint and Exchange content that you discover. The hold ensures that a copy of the content is preserved, while still allowing users to work with their content. When you have identified the specific items that you will have to deliver, you can export them in an industry-standard format.
   
-In this article:
-  
-- [Managing an eDiscovery case](ediscovery-and-in-place-holds-in-sharepoint-server.md#managing-a-case)
-    
-- [How eDiscovery works in SharePoint products](ediscovery-and-in-place-holds-in-sharepoint-server.md#how-it-works)
-    
-- [In-place holds](ediscovery-and-in-place-holds-in-sharepoint-server.md#in-place-holds)
-    
-- [Integration with Exchange](ediscovery-and-in-place-holds-in-sharepoint-server.md#exchange-integration)
     
 ## Managing an eDiscovery case
 <a name="managing-a-case"> </a>

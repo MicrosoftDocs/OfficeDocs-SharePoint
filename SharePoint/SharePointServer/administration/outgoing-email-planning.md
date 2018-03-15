@@ -19,11 +19,6 @@ description: "Summary: Learn how to configure outgoing email to relay email aler
   
 Outgoing email is the foundation on which site administrators can implement several email notification features. These features help end users track changes and updates to individual site collections and allow site administrators to deliver status messages.
   
-In this article:
-  
-- [About outgoing email](#section1)
-    
-- [Key planning phases of outgoing email](#section2)
     
 ## About outgoing email
 <a name="section1"> </a>

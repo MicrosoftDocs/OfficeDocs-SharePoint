@@ -21,19 +21,6 @@ description: "Summary: Deploy Excel Services to your SharePoint Server 2013 farm
   
 Excel Services is enabled by creating an Excel Services Application service application in Central Administration. This article walks you through the steps of deploying Excel Services in your SharePoint Server 2013 farm.
   
-In this article:
-  
-- [Before you begin](#begin)
-    
-- [Video demonstration](http://technet.microsoft.com/library/9cb81758-9d0b-4970-9ca0-a75eedf6093b.aspx#VideoDemonstration)
-    
-- [Configure the application pool account](#proc1)
-    
-- [Start the Excel Calculation Services service](#proc2)
-    
-- [Create an Excel Services service application](#proc3)
-    
-- [Additional steps](#more)
     
 ## Before you begin
 <a name="begin"> </a>
