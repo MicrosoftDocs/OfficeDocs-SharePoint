@@ -24,23 +24,6 @@ When you install SQL Server, the default settings help to provide a safe databas
 > [!IMPORTANT]
 > The security steps in this topic are fully tested by the SharePoint team. There are other ways to help secure SQL Server in a SharePoint Server farm. For more information, see [Securing SQL Server](https://go.microsoft.com/fwlink/?linkid=865827) and [Securing SharePoint: Harden SQL Server in SharePoint Environments](https://blogs.technet.com/b/rycampbe/archive/2013/10/14/securing-sharepoint-harden-sql-server-in-sharepoint-environments.aspx). 
   
-In this article:
-  
-- [Before you begin](#begin)
-    
-- [Configuring a SQL Server instance to listen on a non-default port](#proc1)
-    
-  - [To configure a SQL Server instance to listen on a non-default port](#nondef)
-    
-- [Blocking default SQL Server listening ports](#proc2)
-    
-- [Configuring Windows Firewall to open manually assigned ports](#proc3)
-    
-  - [To configure Windows Firewall to open manually assigned ports](#openports)
-    
-- [Configuring SQL Server client aliases](#proc4)
-    
-  - [To configure a SQL Server client alias](#clientalias)
     
 ## Before you begin
 <a name="begin"> </a>

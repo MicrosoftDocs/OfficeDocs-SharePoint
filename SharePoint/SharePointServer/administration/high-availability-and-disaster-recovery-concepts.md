@@ -23,13 +23,6 @@ High availability and disaster recovery is the highest priority when you create 
   
 To design and implement an effective strategy that maintains efficient and uninterrupted operations, you should understand the basic concepts of high availability and disaster recovery. These concepts are also important to evaluate and pick the best technical solutions for your SharePoint environment.
   
-In this article:
-  
-- [Introduction to business continuity management](high-availability-and-disaster-recovery-concepts.md#IntroBCM)
-    
-- [Describing high availability](high-availability-and-disaster-recovery-concepts.md#DescHA)
-    
-- [Quantifying downtime](high-availability-and-disaster-recovery-concepts.md#QuantDT)
     
 ## Introduction to business continuity management
 <a name="IntroBCM"> </a>

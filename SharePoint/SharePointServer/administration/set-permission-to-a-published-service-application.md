@@ -21,11 +21,6 @@ description: "Summary: Learn how to configure permissions to the Application Dis
   
 In SharePoint Server, you must establish a relationship between the publishing farm and the consuming farm by giving the consuming farm permission to the Application Discovery and Load Balancing Service Application on the publishing farm. After doing this, the consuming farm can be given permission to other service applications.
   
-In this article:
-  
-- [Set permission to the Application Discovery and Load Balancing Service Application and any other service application for a consuming farm by using PowerShell](#section1)
-    
-- [Set permission to the Application Discovery and Load Balancing Service Application and any other published service application for a consuming farm by using Central Administration](#section2)
     
 Before you begin this operation, review [Share service applications across farms in SharePoint Server](share-service-applications-across-farms.md) for information about prerequisites. 
   

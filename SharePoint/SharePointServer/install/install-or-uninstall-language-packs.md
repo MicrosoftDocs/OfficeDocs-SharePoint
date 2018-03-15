@@ -28,15 +28,6 @@ Word breakers and stemmers enable you to search efficiently and effectively acro
 > [!IMPORTANT]
 > If you are uninstalling SharePoint 2013, you must uninstall all language packs before you uninstall SharePoint 2013. 
   
-In this article:
-  
-- [About language IDs and language packs](install-or-uninstall-language-packs-0.md#section1)
-    
-- [Downloading language packs](install-or-uninstall-language-packs-0.md#section2)
-    
-- [Installing language packs on the SharePoint servers](install-or-uninstall-language-packs-0.md#section4)
-    
-- [Uninstalling language packs](install-or-uninstall-language-packs-0.md#section5)
     
 ## About language IDs and language packs
 <a name="section1"> </a>

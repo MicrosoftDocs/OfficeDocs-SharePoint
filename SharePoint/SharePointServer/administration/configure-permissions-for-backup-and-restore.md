@@ -21,15 +21,6 @@ description: "Summary: Learn how to configure permissions for backup and restore
   
 You can configure backup and restore permissions for SharePoint Server by using the SharePoint Central Administration website or Microsoft PowerShell. The backup tool that you use depends on the kind of environment that you have deployed, your backup schedule requirements, and service level agreements that you have made with your organization.
   
-In this article:
-  
-- [Before you begin](#begin)
-    
-- [Permissions for the SharePoint Timer service and SQL Server account in SharePoint Server](#proc1)
-    
-- [Group memberships required to run backup and restore operations in Central Administration](#proc2)
-    
-- [Setting permissions to run SharePoint backup and restore operations by using PowerShell](#proc3)
     
 ## Before you begin
 <a name="begin"> </a>

@@ -29,23 +29,6 @@ To run the PowerShell cmdlets in this article, verify that you have the followin
 > [!IMPORTANT]
 > This article applies to only SharePoint Server 2013. 
   
-In this article:
-  
-- [Rename users or change user domains](maintain-profile-synchronization.md#acctName)
-    
-- [Exclude users whose accounts are disabled](maintain-profile-synchronization.md#disabledUsers)
-    
-- [Remove obsolete users and groups](maintain-profile-synchronization.md#RemoveObsUsers)
-    
-- [Maintain profile schema changes](maintain-profile-synchronization.md#schemaChanges)
-    
-- [Rename a server that is running the User Profile synchronization service](maintain-profile-synchronization.md#RenameServer)
-    
-- [Move the User Profile Synchronization service to a new server](maintain-profile-synchronization.md#moveService)
-    
-- [Restrict User Profile synchronization communication to a specific domain controller](maintain-profile-synchronization.md#restrictComm)
-    
-- [Adjust User Profile synchronization time-outs](maintain-profile-synchronization.md#timeouts)
     
 ## Rename users or change user domains
 <a name="acctName"> </a>

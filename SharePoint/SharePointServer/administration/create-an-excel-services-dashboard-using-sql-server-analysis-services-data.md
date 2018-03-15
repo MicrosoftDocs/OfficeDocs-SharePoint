@@ -24,23 +24,6 @@ This article describes, step by step, how to use Excel 2016 to create a basic sa
   
 This article also describes how to publish the dashboard to SharePoint Server 2013 where others can view and use it. By following the steps in this article, you'll learn how to create and arrange different reports in a worksheet and connect a filter to those reports.
   
-In this article:
-  
-- [Before you begin](#begin)
-    
-- [Plan the dashboard](create-an-excel-services-dashboard-using-sql-server-analysis-services-data.md#part1)
-    
-- [Create the dashboard](create-an-excel-services-dashboard-using-sql-server-analysis-services-data.md#part2)
-    
-  - [Part 1: Create a data connection](create-an-excel-services-dashboard-using-sql-server-analysis-services-data.md#part2a)
-    
-  - [Part 2: Create reports](create-an-excel-services-dashboard-using-sql-server-analysis-services-data.md#part2b)
-    
-  - [Part 3: Create a filter](create-an-excel-services-dashboard-using-sql-server-analysis-services-data.md#part2c)
-    
-- [Publish the dashboard](create-an-excel-services-dashboard-using-sql-server-analysis-services-data.md#part3)
-    
-- [Use the dashboard](create-an-excel-services-dashboard-using-sql-server-analysis-services-data.md#part4)
     
 ## Before you begin
 <a name="begin"> </a>

@@ -25,23 +25,6 @@ Before you set up My Sites, ensure that you understand the concepts and terminol
   
 We recommend that you perform all of the procedures in the order listed for best results, although not all of them are required.
   
-In this article:
-  
-- [Prerequisites](configure-my-sites.md#prereq)
-    
-- [Create a My Site host site collection](configure-my-sites.md#mysitehost)
-    
-- [Add a wildcard inclusion managed path to the web application](configure-my-sites.md#wildcardpath)
-    
-- [Connect the web application to service applications](configure-my-sites.md#connectapps)
-    
-- [Enable self-service site creation for the web application](configure-my-sites.md#enableselfsvc)
-    
-- [Configure My Site settings for the User Profile service application](configure-my-sites.md#configsettings)
-    
-- [Enable the User Profile Service Application - Activity Feed Job](configure-my-sites.md#timerjobs)
-    
-- [Next steps](configure-my-sites.md#nextsteps)
     
 ## Prerequisites
 <a name="prereq"> </a>

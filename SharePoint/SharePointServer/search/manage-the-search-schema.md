@@ -26,25 +26,6 @@ You decide which crawled metadata to index by mapping the crawled property to a 
 > [!IMPORTANT]
 > The steps in this article apply to SharePoint Server and use the Central Administration, unless specified otherwise. 
   
-In this article:
-  
-- [Before you begin](#begin)
-    
-- [To view crawled properties and managed properties](#proc1)
-    
-- [To add a managed property](#proc2)
-    
-- [To edit a managed property](#proc3)
-    
-- [To delete a managed property](manage-the-search-schema.md#proc4)
-    
-- [To map a crawled property to a managed property](manage-the-search-schema.md#proc5)
-    
-- [To view or edit crawled property categories](manage-the-search-schema.md#proc6)
-    
-- [Add a managed property using tenant administration or site collection administration](manage-the-search-schema.md#proc7)
-    
-- [Search schema changes that require content to be reindexed](manage-the-search-schema.md#Schema_Reindex_Table)
     
 ## Before you begin
 <a name="begin"> </a>

@@ -19,31 +19,6 @@ description: "Summary: Plan to crawl or federate for search in SharePoint Server
   
 Before users can perform searches in SharePoint Server, you must crawl or federate the content that you want them to be able to search. When you crawl content, the Search service builds a search index that users can run queries (search requests) against. You can also configure the Search system to display search results from an external provider (such as Bing) alongside the results from the local search index. The process of getting search results from an external provider and displaying the results locally is called federation.
   
-In this article:
-  
-- [Plan content sources](plan-crawling-and-federation.md#Section2)
-    
-  - [Plan to crawl different kinds of content](plan-crawling-and-federation.md#Section3)
-    
-  - [Crawl content on different schedules](plan-crawling-and-federation.md#Section5)
-    
-  - [Reasons to do a full crawl](plan-crawling-and-federation.md#Plan_full_crawl)
-    
-  - [Limit or increase the quantity of content that is crawled](plan-crawling-and-federation.md#Section6)
-    
-  - [Plan connectors](plan-crawling-and-federation.md#Section4)
-    
-  - [Plan crawl rules to optimize crawls](plan-crawling-and-federation.md#Section7)
-    
-  - [Plan crawler authentication](plan-crawling-and-federation.md#PlanCrawlerAuth)
-    
-- [Plan content processing](plan-crawling-and-federation.md#Section8)
-    
-  - [Include or exclude file types ](plan-crawling-and-federation.md#Section9)
-    
-  - [Plan to use (custom) entity extractors](plan-crawling-and-federation.md#Section11)
-    
-- [About result sources and federation](plan-crawling-and-federation.md#Section12)
     
 ## Plan content sources
 <a name="Section2"> </a>

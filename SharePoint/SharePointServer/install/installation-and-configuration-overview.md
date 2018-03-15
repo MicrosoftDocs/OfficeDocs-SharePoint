@@ -23,15 +23,6 @@ Although SharePoint products farms vary in complexity and size, a combination of
   
 For a visual representation of the information in this article, see the SharePoint 2013 Products Deployment model in the [Technical diagrams for SharePoint Server](../technical-reference/technical-diagrams.md) topic. Related technical diagrams include " **Topologies for SharePoint 2013** and **Services in** SharePoint Server 2013". 
   
-In this article:
-  
-- [Concepts](installation-and-configuration-overview.md#Concepts)
-    
-- [Physical architecture](installation-and-configuration-overview.md#Physical)
-    
-- [Installation and configuration](installation-and-configuration-overview.md#Installation)
-    
-- [Deployment stages](installation-and-configuration-overview.md#DeploymentStages)
     
 ## Concepts
 <a name="Concepts"> </a>

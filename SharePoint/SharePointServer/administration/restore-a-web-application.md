@@ -21,21 +21,6 @@ description: "Summary: Learn how to restore a web application in SharePoint Serv
   
 You can restore a web application in SharePoint Server by using the SharePoint Central Administration website, Microsoft PowerShell, or SQL Server tools. Which backup tool you use depends on what kind of environment you have deployed, what your backup schedule requires, and what service level agreements you have made with your organization. 
   
-In this article:
-  
-- [Before you begin](#begin)
-    
-- [Using PowerShell to restore a web application in SharePoint Server](#proc1)
-    
-- [Using Central Administration to restore a web application in SharePoint Server](#proc2)
-    
-- [Using SQL Server tools to restore databases associated with a web application in SharePoint Server](#proc3)
-    
-- [Additional steps to restore a web application that uses forms-based authentication in SharePoint Server](#Forms)
-    
-- [Additional steps to remove duplicate claims providers after restoring a web application that uses claims-based authentication in SharePoint Server](#Claims)
-    
-- [Additional steps to re-configure object cache user accounts in SharePoint Server](#cache)
     
 ## Before you begin
 <a name="begin"> </a>

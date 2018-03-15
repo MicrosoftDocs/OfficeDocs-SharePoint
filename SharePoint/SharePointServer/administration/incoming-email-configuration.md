@@ -21,19 +21,6 @@ This article describes how to configure incoming email for SharePoint Server. Th
   
 When incoming email is enabled, SharePoint sites can receive and store email messages and attachments in lists and libraries. This article describes two scenarios, one basic and one advanced. The basic scenario applies to a single-server farm environment and is recommended if you want to use default settings. The advanced scenario applies to a single-server farm or a multiple-server farm and contains several advanced options from which to choose. For more information, see [Plan incoming email for a SharePoint Server farm](incoming-email-planning.md).
   
-In this article:
-  
-- [Before you begin](#begin)
-    
-- [Install and configure the SMTP service](#section2)
-    
-- [Configure incoming email in a basic scenario](#section3)
-    
-- [Configure incoming email in an advanced scenario](#section4)
-    
-- [Prepare your environment for incoming email in an advanced scenario](#section5)
-    
-- [Are attachments missing from email messages that are sent to a SharePoint document library?](#section6)
     
 ## Before you begin
 <a name="begin"> </a>

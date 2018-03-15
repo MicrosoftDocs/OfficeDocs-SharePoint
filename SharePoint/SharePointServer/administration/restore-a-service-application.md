@@ -21,15 +21,6 @@ description: "Summary: Learn how to restore a service application in SharePoint 
   
 You can restore a service application in SharePoint Server by using the SharePoint Central Administration website or Microsoft PowerShell. Which backup tool you use depends on what kind of environment you have deployed, what your backup schedule requires, and what service level agreements you have made with your organization. 
   
-In this article:
-  
-- [Before you begin](#begin)
-    
-- [Use PowerShell to restore a service application in SharePoint Server](#proc1)
-    
-- [Use Central Administration to restore a service application in SharePoint Server](#proc2)
-    
-- [Use SQL Server tools to restore the databases associated with a service application in SharePoint Server](#proc3)
     
 ## Before you begin
 <a name="begin"> </a>

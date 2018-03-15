@@ -24,17 +24,6 @@ This article describes SharePoint administrative and services account permission
 > [!IMPORTANT]
 > Do not use service account names that contain the symbol $. 
   
-In this article:
-  
-- [About account permissions and security settings in SharePoint Server 2016](#Section1)
-    
-- [SharePoint administrative accounts](#Section2)
-    
-- [SharePoint service application accounts](#Section3)
-    
-- [SharePoint database roles](#Section4)
-    
-- [Group permissions](#Section5)
     
 ## About account permissions and security settings in SharePoint Server 2016
 <a name="Section1"> </a>

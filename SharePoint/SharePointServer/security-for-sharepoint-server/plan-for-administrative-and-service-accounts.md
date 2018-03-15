@@ -25,15 +25,6 @@ To install SharePoint Server, you have to have appropriate administrative and se
 > [!IMPORTANT]
 > Do not use service account names that contain the symbol $. 
   
-In this article:
-  
-- [About administrative and service accounts](#Section1)
-    
-- [Single server standard requirements](#Section2)
-    
-- [Server farm requirements](#Section3)
-    
-- [Technical reference: Account requirements by scenario](plan-for-administrative-and-service-accounts.md#Section7)
     
 Use this article along with [Initial deployment administrative and service accounts in SharePoint Server](../install/initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
   

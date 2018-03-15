@@ -24,23 +24,6 @@ Faceted navigation is the process of browsing for content by filtering on refine
 > [!IMPORTANT]
 > You can apply faceted navigation only to publishing sites that use [Overview of managed navigation in SharePoint Server](overview-of-managed-navigation.md), and for lists or libraries that have been [Share a library or list as a catalog](configure-cross-site-publishing.md#BKMK_Share_library_list_as_catalog). 
   
-In this article:
-  
-- [Before you begin](configure-refiners-and-faceted-navigation.md#BKMK_Before)
-    
-- [Map a crawled property to a refinable managed property in SharePoint site collection administration](configure-refiners-and-faceted-navigation.md#BKMK_MapCPtoRefinableMP)
-    
-- [Enable automatically created managed properties as refiners in SharePoint Central Administration](configure-refiners-and-faceted-navigation.md#BKMK_EnableInCA)
-    
-- [Enable a term set for faceted navigation](configure-refiners-and-faceted-navigation.md#BKMK_EnableATermSetForFacetedNavigation)
-    
-- [Add refiners to a term set](configure-refiners-and-faceted-navigation.md#BKMK_AddRefinersToATermSet)
-    
-- [Set intervals for refiner values](configure-refiners-and-faceted-navigation.md#BKMK_SetIntervalsForRefinerValues)
-    
-- [Add JavaScript to a page to display refiners in the correct format ](configure-refiners-and-faceted-navigation.md#BKMK_AddJavaScript)
-    
-- [Reference tables](configure-refiners-and-faceted-navigation.md#BKMK_RefTables)
     
 ## Before you begin
 <a name="BKMK_Before"> </a>

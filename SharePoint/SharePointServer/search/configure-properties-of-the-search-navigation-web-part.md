@@ -27,15 +27,6 @@ By changing properties on the Search Navigation Web Part you can do the followin
     
 The search vertical properties, such as display name and links, are configured on the Search Settings page for the corresponding site.
   
-In this article:
-  
-- [Before you begin](configure-properties-of-the-search-navigation-web-part.md#begin)
-    
-- [Configure the properties of the Search Navigation Web Part](configure-properties-of-the-search-navigation-web-part.md#BKMK_ConfigureSearchNavigation)
-    
-- [Change the properties of a search vertical in the Search Navigation Web Part](configure-properties-of-the-search-navigation-web-part.md#BKMK_ChangeProperties)
-    
-- [Add a search vertical to the Search Navigation Web Part](configure-properties-of-the-search-navigation-web-part.md#BKMK_AddSearchVertial)
     
 ## Before you begin
 <a name="begin"> </a>

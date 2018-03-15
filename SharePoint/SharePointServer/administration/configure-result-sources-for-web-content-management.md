@@ -18,13 +18,6 @@ description: "Result sources limit searches to certain content or to a subset of
 
 Result sources limit searches to certain content or to a subset of search results. SharePoint Server provides 16 pre-defined result sources. The pre-configured default result source is **Local SharePoint Results**. You can specify a different result source as the default. In addition to the pre-configured result sources, SharePoint Server automatically creates a result source when you connect a publishing site to a catalog, and adds it to the result sources in the publishing site. This result source limits search results to the URL of the catalog. For more information about result sources, see "Plan result sources and query rules" in [Plan search for cross-site publishing sites in SharePoint Server 2016](plan-search-for-sharepoint-cross-site-publishing-sites.md). 
   
-In this article:
-  
-- [Before you begin](configure-result-sources-for-web-content-management.md#BKMK_Before)
-    
-- [Create a result source](configure-result-sources-for-web-content-management.md#BKMK_CreateResutlSource)
-    
-- [Set a result source as default](configure-result-sources-for-web-content-management.md#BKMK_Default)
     
 ## Before you begin
 <a name="BKMK_Before"> </a>

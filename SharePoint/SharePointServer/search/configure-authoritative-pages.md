@@ -23,9 +23,6 @@ An administrator provides a small set of authoritative pages. An example of an a
   
 An administrator with specific knowledge of an area can influence the relative importance of pages by specifying additional authoritative and non-authoritative pages. An example of non-authoritative pages could be URLs of sites that contain outdated information that are kept for record-keeping 
   
-In this article:
-  
-- [Specify pages as authoritative or non-authoritative](configure-authoritative-pages.md#BKMK_SpecifyWebPagesAsAuthoritative)
     
 ## Specify pages as authoritative or non-authoritative
 <a name="BKMK_SpecifyWebPagesAsAuthoritative"> </a>

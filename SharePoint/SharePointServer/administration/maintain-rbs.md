@@ -21,13 +21,6 @@ description: "Summary: Learn how to perform maintenance tasks that are associate
   
 You perform most of the maintenance tasks associated with RBS in SharePoint Server by using the RBS Maintainer, which is a tool in SQL Server. The RBS Maintainer performs periodic garbage collection and other maintenance tasks for a SharePoint Server RBS deployment. You can schedule these tasks for each database that uses RBS by using Windows Task Scheduler or SQL Server Agent. You must provision the RBS Maintainer by using command-line parameters or through an XML file. In the case of mirrored or replicated databases, you can run the RBS Maintainer against any single instance.
   
-In this article:
-  
-- [Configure RBS Garbage collection](#proc1)
-    
-- [RBS and BLOB store consistency checks](#proc2)
-    
-- [Running the RBS Maintainer](#proc3)
     
 ## Configure RBS Garbage collection
 <a name="proc1"> </a>

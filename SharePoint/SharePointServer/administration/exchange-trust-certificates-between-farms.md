@@ -36,13 +36,6 @@ The instructions here assume the following criteria:
     
 - If User Account Control (UAC) is turned on, you must run the PowerShell commands with elevated privileges.
     
-In this article:
-  
-- [Exporting and copying certificates](exchange-trust-certificates-between-farms.md#Section2)
-    
-- [Managing trust certificates by using PowerShell](exchange-trust-certificates-between-farms.md#Section2a)
-    
-- [Managing trust certificates by using Central Administration](exchange-trust-certificates-between-farms.md#Section4)
     
 Before you begin this operation, review [Share service applications across farms in SharePoint Server](share-service-applications-across-farms.md) for information about prerequisites. 
   

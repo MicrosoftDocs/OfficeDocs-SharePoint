@@ -27,21 +27,6 @@ To perform management and operational tasks on the Distributed Cache service in 
 > [!IMPORTANT]
 > Do not use service account names that contain the symbol $. 
   
-In this article: 
-  
-- [Start and stop the Distributed Cache service](manage-the-distributed-cache-service.md#startstopcache)
-    
-- [Change the memory allocation of the Distributed Cache service](manage-the-distributed-cache-service.md#memory)
-    
-- [Add or remove a server in a Distributed Cache cluster](manage-the-distributed-cache-service.md#addremove)
-    
-- [Perform a graceful shutdown of the Distributed Cache service by using a PowerShell script](manage-the-distributed-cache-service.md#graceful)
-    
-- [Change the service account](manage-the-distributed-cache-service.md#changesvcacct)
-    
-- [Fine-tune the Distributed Cache service by using a PowerShell script](#finetune)
-    
-- [Repair a cache host](manage-the-distributed-cache-service.md#repair)
     
 ## Start and stop the Distributed Cache service
 <a name="startstopcache"> </a>

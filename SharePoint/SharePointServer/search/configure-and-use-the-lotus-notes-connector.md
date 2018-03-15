@@ -17,29 +17,6 @@ description: "Summary: Learn about the administrative roles, required software, 
 
  **Summary:** Learn about the administrative roles, required software, user accounts, and processes that are required to install and operate the Lotus Notes Client and the Lotus Notes Connector to work with SharePoint Server 2016 and SharePoint Server 2013 search. 
   
-In this article:
-  
-- [Before you begin](#begin)
-    
-- [Prerequisites](configure-and-use-the-lotus-notes-connector.md#LN_Prereqs)
-    
-- [Install the Lotus Notes client application](configure-and-use-the-lotus-notes-connector.md#LN_Install_LN_Client)
-    
-- [Grant permissions on the data folder](configure-and-use-the-lotus-notes-connector.md#LN_GrantPerm)
-    
-- [Configure the Lotus Notes client application](configure-and-use-the-lotus-notes-connector.md#LN_ConfigClient)
-    
-- [Verify access to the Lotus Domino database that you want to crawl](configure-and-use-the-lotus-notes-connector.md#LN_VerifyAccess)
-    
-- [Configure security mappings](configure-and-use-the-lotus-notes-connector.md#LN_ConfigSecMap)
-    
-- [Restart the server that hosts the crawl component](configure-and-use-the-lotus-notes-connector.md#LN_RestartCrawl)
-    
-- [Register Lotus Notes with the server that hosts the crawl component](configure-and-use-the-lotus-notes-connector.md#LN_RegisterLN)
-    
-- [Provision the Lotus Notes Connector](configure-and-use-the-lotus-notes-connector.md#LN_ProvisionLN)
-    
-- [Restart the OSearch15 service](configure-and-use-the-lotus-notes-connector.md#LN_RestartSearch)
     
 ## Before you begin
 <a name="begin"> </a>

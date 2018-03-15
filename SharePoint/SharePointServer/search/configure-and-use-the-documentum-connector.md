@@ -35,25 +35,6 @@ The Indexing Connector for Documentum:
     
 - Supports file and folder exclusion for crawling. 
     
-In this article:
-  
-- [Before you begin](#begin)
-    
-- [Overview](configure-and-use-the-documentum-connector.md#DCTM_Overview)
-    
-- [Prepare the SharePoint servers that host a crawl component](configure-and-use-the-documentum-connector.md#DCTM_PrepareCrawlServer)
-    
-- [Install and register the Indexing Connector for Documentum](configure-and-use-the-documentum-connector.md#DCTM_InstallCon)
-    
-- [Configure the Indexing Connector for Documentum](configure-and-use-the-documentum-connector.md#DCTM_ConfigureConn)
-    
-- [Create the Documentum crawled properties category](configure-and-use-the-documentum-connector.md#BKMK_CrawledPropertiesCategory)
-    
-- [Create a crawl rule for Documentum](configure-and-use-the-documentum-connector.md#DCTM_Crawl_rule)
-    
-- [Create a Documentum content source](configure-and-use-the-documentum-connector.md#DCTM_Content_source)
-    
-- [Using the SPEnterpriseSearchDCTMConnectorConfig cmdlet](configure-and-use-the-documentum-connector.md#DCTM_cmdlet)
     
 ## Before you begin
 <a name="begin"> </a>

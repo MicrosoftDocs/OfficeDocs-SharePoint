@@ -20,13 +20,6 @@ The **Manage Profile Service** page of a User Profile service application in Sha
   
 You can supplement default user profile properties with additional properties to track key information that is not otherwise available. Key business needs might encourage you to create new properties that associate users with important business processes. For example, a sales department can create a specific sales role property to share with a particular audience or audiences. Custom user profile properties can be edited to better suit business needs or they can be deleted when no longer needed.
   
-In this article:
-  
-- [Add a user profile property](add-edit-or-delete-custom-properties-for-a-user-profile.md#create)
-    
-- [Edit a user profile property](add-edit-or-delete-custom-properties-for-a-user-profile.md#edit)
-    
-- [Delete a user profile property](add-edit-or-delete-custom-properties-for-a-user-profile.md#delete)
     
 ## Add a user profile property
 <a name="create"> </a>

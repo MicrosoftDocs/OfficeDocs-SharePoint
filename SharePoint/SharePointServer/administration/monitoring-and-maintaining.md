@@ -30,11 +30,6 @@ The information in this section is intended to help administrators manually conf
     
 Before you read this article, you should read [Capacity management and sizing overview for SharePoint Server 2013](http://technet.microsoft.com/library/45dc078f-de39-425c-a94f-1de78b68052e%28Office.14%29.aspx).
   
-In this article:
-  
-- [Configuring monitoring](#configuring)
-    
-- [Removing bottlenecks](#removing)
     
 ## Configuring monitoring
 <a name="configuring"> </a>

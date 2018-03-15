@@ -25,13 +25,6 @@ Trusted data providers are data providers from which Excel Services accesses dat
     
 - Excel Services contains entries for common data providers. Add additional data providers as needed.
     
-In this article:
-  
-- [Add a trusted data provider](#proc1)
-    
-- [Configure a trusted data provider](#proc2)
-    
-- [Delete a trusted data provider](#proc3)
     
 ## Add a trusted data provider
 <a name="proc1"> </a>

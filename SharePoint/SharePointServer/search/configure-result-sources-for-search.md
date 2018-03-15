@@ -19,11 +19,6 @@ description: "Summary: Learn how to create and manage result sources in .SharePo
   
 Result sources limit searches to certain content or to a subset of search results. SharePoint Server provides 16 pre-defined result sources. The pre-configured default result source is **Local SharePoint Results**. You can specify a different result source as the default. For more information, see [Understanding result sources for search in SharePoint Server](understanding-result-sources-for-search.md).
   
-In this article:
-  
-- [Create a result source](#BKMK_CreateResutlSource)
-    
-- [Set a result source as default](#BKMK_Default)
     
 ## Create a result source
 <a name="BKMK_CreateResutlSource"> </a>

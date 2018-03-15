@@ -24,11 +24,6 @@ This article describes the default timer jobs for SharePoint Server 2016. A time
 > [!NOTE]
 > Classic timer jobs are not available in SharePoint Online. The timer jobs in this article are only available on SharePoint Server 2016 and SharePoint 2013. 
   
-In this article:
-  
-- [Manage timer jobs](#ManageJobs)
-    
-- [Default timer jobs](#DefaultJobs)
     
 ## Manage timer jobs
 <a name="ManageJobs"> </a>

@@ -21,19 +21,6 @@ description: "Summary: Learn how to install SharePoint 2013 to create a server f
   
 A three-tier farm configuration consists of two front-end web servers, an application server, and a database server. The deployment sequence and configurations that are described in this article are based on recommended best practices. While the farm configuration is not complex, it provides a fundamental infrastructure to implement a SharePoint 2013 solution on similar — or more complex farms.
   
-In this article: 
-  
-- [Overview](install-sharepoint-server-2016-across-multiple-servers.md#Overview)
-    
-- [Prepare the farm servers](install-sharepoint-server-2016-across-multiple-servers.md#PrepareServers)
-    
-- [Install SharePoint Server 2016 on the farm servers](install-sharepoint-server-2016-across-multiple-servers.md#InstallSP)
-    
-- [Create and configure the farm](install-sharepoint-server-2016-across-multiple-servers.md#CreateConfigure)
-    
-- [Add SharePoint servers to the farm](install-sharepoint-server-2016-across-multiple-servers.md#AddWeb)
-    
-- [Post-installation steps](install-sharepoint-server-2016-across-multiple-servers.md#section4)
     
 ## Overview
 <a name="Overview"> </a>

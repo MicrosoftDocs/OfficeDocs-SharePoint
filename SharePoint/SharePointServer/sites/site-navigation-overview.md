@@ -23,13 +23,6 @@ Site navigation are the sets of controls and links in your site collections, sit
   
 SharePoint Server has many features that use search technology to provide site owners with ways to display content dynamically on web pages. For more information about search-driven sites, see [Plan for cross-site publishing in SharePoint Server](../administration/plan-for-cross-site-publishing.md).
   
-In this article:
-  
-- [Navigation controls overview](#section1)
-    
-- [Common Navigation Controls](#section2)
-    
-- [Navigation Web Parts](#section4)
     
 ## Navigation controls overview
 <a name="section1"> </a>

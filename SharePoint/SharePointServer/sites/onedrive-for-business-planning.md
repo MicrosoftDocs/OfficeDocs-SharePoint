@@ -21,19 +21,6 @@ description: "Summary: Learn about things you need to consider when planning to 
 
  **Summary:** Learn about things you need to consider when planning to setup OneDrive for Business in a SharePoint Server 2016 or a SharePoint Server 2013 on-premises environment. 
   
-In this article:
-  
-- [OneDrive for Business - Office 365 or SharePoint Server ](onedrive-for-business-planning.md#section1)
-    
-- [Setting up OneDrive for Business](onedrive-for-business-planning.md#section2)
-    
-- [Using the OneDrive for Business sync client](onedrive-for-business-planning.md#section3)
-    
-- [Data security](onedrive-for-business-planning.md#section4)
-    
-- [Moving to a hybrid environment](onedrive-for-business-planning.md#section5)
-    
-- [Upgrading from OneDrive for Business in SharePoint Server](onedrive-for-business-planning.md#section6)
     
 ## OneDrive for Business - Office 365 or SharePoint Server
 <a name="section1"> </a>

@@ -33,17 +33,6 @@ The following illustration shows how content is stored in an authoring site coll
     
 This article describes the use and benefits of cross-site publishing, describes the authoring and publishing site collections, and describes how the search system crawls and indexes content and metadata. Finally, this article discusses important limitations of cross-site publishing. After you read this article, make sure that you read the next article, [Plan the logical architecture for cross-site publishing in SharePoint Server](plan-the-logical-architecture-for-cross-site-publishing.md). For information about other publishing methods, and how to decide whether to use cross-site publishing, see [Overview of publishing to Internet, intranet, and extranet sites in SharePoint Server](overview-of-publishing-to-internet-intranet-and-extranet-sites.md) and [Plan for Internet, intranet, and extranet publishing sites in SharePoint Server](plan-for-internet-intranet-and-extranet-publishing-sites.md).
   
-In this article:
-  
-- [Use and benefits of SharePoint cross-site publishing](overview-of-cross-site-publishing.md#BKMK_UseBenefits)
-    
-- [Authoring site collections for SharePoint cross-site publishing](overview-of-cross-site-publishing.md#BKMK_AuthoringSites)
-    
-- [Publishing site collections for SharePoint cross-site publishing](overview-of-cross-site-publishing.md#BKMK_PublishingSites)
-    
-- [Search for SharePoint cross-site publishing](overview-of-cross-site-publishing.md#BKMK_Search)
-    
-- [Limitations of SharePoint cross-site publishing](overview-of-cross-site-publishing.md#BKMK_Limitations)
     
 ## Use and benefits of SharePoint cross-site publishing
 <a name="BKMK_UseBenefits"> </a>

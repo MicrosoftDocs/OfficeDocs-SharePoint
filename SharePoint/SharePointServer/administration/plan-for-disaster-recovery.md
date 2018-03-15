@@ -22,13 +22,6 @@ description: "Summary: Understand the disaster recovery options and supported te
   
 We define disaster recovery as the ability to recover from a situation in which the primary data center that hosts a SharePoint Server farm is unable to continue to operate. Regardless of the nature of event and its cause, the data center outage is significant enough to set into motion the actions defined in your organization's disaster recovery plan. This means putting a fully operational farm into production using computer resources that are located in a data center that is not affected by the event.
   
-In this article:
-  
-- [Introduction](plan-for-disaster-recovery.md#Intro)
-    
-- [Standby data center recovery options](plan-for-disaster-recovery.md#Standby)
-    
-- [System requirements for recovery](plan-for-disaster-recovery.md#SysRequire)
     
 SharePoint Server 2016 and SQL Server 2014 with Service Pack 1 (SP1) or SQL Server 2016, and SharePoint 2013 and SQL Server 2008 R2 with Service Pack 1 (SP1) or SQL Server 2012 provide configuration and content recovery options that can meet the Recovery Time Objective (RTO) and Recovery Point Objective (RPO) that are required for your business if there is a disaster. For more information about these and other disaster recovery concepts, see [High availability and disaster recovery concepts in SharePoint Server](high-availability-and-disaster-recovery-concepts.md).
   

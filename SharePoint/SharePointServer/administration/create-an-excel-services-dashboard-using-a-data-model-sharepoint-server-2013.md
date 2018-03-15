@@ -25,23 +25,6 @@ This article describes, step by step, how to create a Data Model, how to create 
   
 This article also covers different display options that you can use when you publish a workbook. By following the steps in this article, you'll learn how to create and configure reports in a worksheet and connect a slicer to those reports.
   
-In this article:
-  
-- [Before you begin](create-an-excel-services-dashboard-using-a-data-model-sharepoint-server-2013.md#begin)
-    
-- [Plan the dashboard](create-an-excel-services-dashboard-using-a-data-model-sharepoint-server-2013.md#part1)
-    
-- [Create the dashboard](create-an-excel-services-dashboard-using-a-data-model-sharepoint-server-2013.md#part2)
-    
-  - [Part 1: Create a Data Model](create-an-excel-services-dashboard-using-a-data-model-sharepoint-server-2013.md#part2a)
-    
-  - [Part 2: Create reports](create-an-excel-services-dashboard-using-a-data-model-sharepoint-server-2013.md#part2b)
-    
-  - [Part 3: Create a filter](create-an-excel-services-dashboard-using-a-data-model-sharepoint-server-2013.md#part2c)
-    
-- [Publish the dashboard](create-an-excel-services-dashboard-using-a-data-model-sharepoint-server-2013.md#part3)
-    
-- [Use the dashboard](create-an-excel-services-dashboard-using-a-data-model-sharepoint-server-2013.md#part4)
     
 ## Before you begin
 <a name="begin"> </a>

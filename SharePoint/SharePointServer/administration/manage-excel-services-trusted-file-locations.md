@@ -25,13 +25,6 @@ To perform these procedures, you must be member of the Farm Administrators group
 > [!IMPORTANT]
 > The steps in this article apply to SharePoint Server 2013 Enterprise. 
   
-In this article:
-  
-- [Add a trusted file location](#proc1)
-    
-- [Configure a trusted file location](#proc2)
-    
-- [Delete a trusted file location](#proc3)
     
 ## Add a trusted file location
 <a name="proc1"> </a>

@@ -26,13 +26,6 @@ Every SharePoint Server site belongs to only one site collection and a site coll
 
 ![Diagram of a site collection](../media/DiagramOfSiteCollection.gif)
   
-In this article:
-  
-- [Sites and site collections planning principles](plan-sites-and-site-collections.md#section1)
-    
-- [Methods of site and site collection organization](plan-sites-and-site-collections.md#section2)
-    
-- [Inventory your farm](plan-sites-and-site-collections.md#section3)
     
 ## Sites and site collections planning principles
 <a name="section1"> </a>

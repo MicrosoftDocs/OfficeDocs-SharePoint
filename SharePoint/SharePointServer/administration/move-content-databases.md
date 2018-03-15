@@ -26,13 +26,6 @@ This article describes how to move content databases between servers that are ru
   
 You can move content databases by using the SharePoint Central Administration website or Microsoft PowerShell, and SQL Server tools. Which tool that you use depends on what kind of environment you have deployed, what your schedule requires, and what service level agreements that you have made with your organization.
   
-In this article:
-  
-- [Before you begin](#begin)
-    
-- [Moving content databases by using Central Administration](#proc1)
-    
-- [Moving content databases by using PowerShell](#proc2)
     
 ## Before you begin
 <a name="begin"> </a>

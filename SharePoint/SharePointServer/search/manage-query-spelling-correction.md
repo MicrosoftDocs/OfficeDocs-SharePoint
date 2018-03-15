@@ -26,15 +26,6 @@ These query spelling suggestions are based on the closest matches in the default
   
 For more information about linguistic search features for different languages see [Linguistic search features in SharePoint Server](../technical-reference/linguistic-search-features.md).
   
-In this article:
-  
-- [Open the Term Store Management Tool](manage-query-spelling-correction.md#QS_OpenTS)
-    
-- [Exclude terms from query spelling corrections](manage-query-spelling-correction.md#QS_Exclude)
-    
-- [Include terms in query spelling corrections](manage-query-spelling-correction.md#QS_Include)
-    
-- [Edit terms](manage-query-spelling-correction.md#QS_Edit)
     
 ## Open the Term Store Management Tool
 <a name="QS_OpenTS"> </a>

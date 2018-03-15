@@ -19,13 +19,6 @@ description: "Summary: Learn how to help secure a SharePoint mobile infrastructu
   
 This article provides security guidance and recommendations to help ensure that access to SharePoint Server 2013 and specific data in SharePoint is not compromised on a mobile device. This article also details the supported authentication types for select devices, and authentication specifics for the SharePoint Newsfeed App. 
   
-In this article:
-  
-- [Security for mobile devices](mobile-security-and-authentication.md#section1)
-    
-- [Authentication for mobile devices](mobile-security-and-authentication.md#section2)
-    
-- [Authentication for the SharePoint Newsfeed App](mobile-security-and-authentication.md#News)
     
 ## Security for mobile devices
 <a name="section1"> </a>

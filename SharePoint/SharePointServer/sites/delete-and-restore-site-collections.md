@@ -38,15 +38,6 @@ When you delete a site collection, you are deleting the hierarchy of sites that 
   
 If the site collection is associated with a Project Server service application, you must remove the association and delete the Project Web App before you delete the site collection. You can remove the site collection association with the Project Server service application from service application settings page in the SharePoint Central Administration website.
   
-In this article:
-  
-> [Before you begin](#begin)
-    
-> [Delete a site collection by using Central Administration](#section1)
-    
-> [Delete a site collection by using Microsoft PowerShell](#section2)
-    
-> [Restore a site collection by using Microsoft PowerShell](#section3)
     
 ## Before you begin
 <a name="begin"> </a>

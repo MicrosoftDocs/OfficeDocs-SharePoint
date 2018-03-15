@@ -19,21 +19,6 @@ description: "Summary: Learn guidelines for how to plan video content types and 
   
 SharePoint Server 2013 supports the video content type and the video player page, where you can use the Rich Media Web Part to play videos. This article contains test data to help you optimize the video playing experience for users in a SharePoint Server 2013 environment.
   
-In this article:
-  
-- [Introduction](#Intro)
-    
-- [Video storage locations](#StorLoc)
-    
-- [Size the BLOB cache to ensure smooth video streaming experiences](#BLOB)
-    
-- [Dataset and test scenarios](#DataSet)
-    
-  - [Test lab results](#testresults)
-    
-  - [Effect of IIS Bit Rate Throttling](#IIS)
-    
-  - [Using videos that are stored external to SharePoint Server 2013](#videos)
     
 Videos are known as digital assets or rich media in SharePoint Server 2013. SharePoint Server 2013 provides an asset library to store videos so that users can visit a central location to view them. For more information, see [Overview of managing digital assets in SharePoint Server 2013](../sites/managing-digital-assets-overview.md).
   

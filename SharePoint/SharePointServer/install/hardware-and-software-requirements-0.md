@@ -22,25 +22,6 @@ description: "Summary: Lists the minimum hardware and software requirements to i
 > [!IMPORTANT]
 > If you contact Microsoft Customer Support Services about a production system that does not meet the minimum hardware specifications described in this document, support will be limited until the system is upgraded to the minimum requirements. 
   
-In this article:
-  
-- [Overview](hardware-and-software-requirements-0.md#section1)
-    
-- [Hardware and software requirements for other SharePoint 2013 capabilities](hardware-and-software-requirements-0.md#reqOtherCap)
-    
-- [Hardware requirements—location of physical servers](hardware-and-software-requirements-0.md#hwLocServers)
-    
-- [Hardware requirements—web servers, application servers, and single server installations](hardware-and-software-requirements-0.md#hwforwebserver)
-    
-- [Hardware requirements—database servers](hardware-and-software-requirements-0.md#section3)
-    
-- [Software requirements](hardware-and-software-requirements-0.md#section4)
-    
-- [Optional software](hardware-and-software-requirements-0.md#OptionalSoftware)
-    
-- [Links to applicable software](hardware-and-software-requirements-0.md#section5)
-    
-- [Prerequisite installer operations and command-line options](hardware-and-software-requirements-0.md#section7)
     
 > [!IMPORTANT]
 > Some of the hardware requirement values in this article are based on test results from SharePoint 2010 Products and still apply to SharePoint 2013. This article will be updated with appropriate values and republished when new data becomes available. Hardware requirement values obtained from SharePoint 2010 Products that are listed in this article do not apply to search in SharePoint 2013. > This article links to SharePoint 2010 Products guidance where that guidance is still valid. The SharePoint 2010 Products guidance is not applicable for search in SharePoint 2013 because the search architecture has changed significantly. > The hardware and software requirements in this article refer to physical and virtual servers in a SharePoint farm. 

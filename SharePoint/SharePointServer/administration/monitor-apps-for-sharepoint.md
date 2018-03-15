@@ -24,25 +24,6 @@ You must be a member of the Farm Administrators group or the site Owners group t
 > [!IMPORTANT]
 >  The **Monitor Apps** page requires the following search analytics and usage file import timer jobs to be active: >  ECM analytics timer job name: Usage Analytics timer job for Search Service >  Usage DB timer job name: Microsoft SharePoint Foundation Usage Data Import >  These are automatically activated when you configure Search in your environment. 
   
-In this article:
-  
-- [Before you begin](#begin)
-    
-- [Selecting apps to monitor in Central Administration](#proc1)
-    
-  - [To add an app to the monitor apps list](#AddApp)
-    
-  - [To remove an app from the monitor apps list](#RemoveApp)
-    
-- [Monitoring app details in Central Administration](#proc2)
-    
-  - [To view the app usage details in Monitored Apps](#AppDetails)
-    
-  - [To view the app error details in Monitored Apps](#AppErrors)
-    
-- [Monitoring app details in a SharePoint site](#proc3)
-    
-  - [To view the app usage details in a SharePoint site](#sitedetails)
     
 ## Selecting apps to monitor in Central Administration
 <a name="proc1"> </a>

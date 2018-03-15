@@ -21,13 +21,6 @@ description: "Summary: Learn about how to configure the automatic password chang
   
 Automatic password change enables SharePoint Server to automatically generate long, encrypted passwords on a schedule that you can determine. 
   
-In this article:
-  
-- [Configure managed accounts](#section1)
-    
-- [Configure automatic password change settings](#section2)
-    
-- [Troubleshooting automatic password change](#section3)
     
 ## Configure managed accounts
 <a name="section1"> </a>

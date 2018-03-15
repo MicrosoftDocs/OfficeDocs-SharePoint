@@ -31,13 +31,6 @@ SharePoint Server includes cache performance monitors that let you verify that t
   
 For more information, see [Cache settings operations in SharePoint Server](cache-settings-operations.md).
   
-In this article:
-  
-- [Configure BLOB cache settings](cache-settings-configuration-for-a-web-application.md#BLOB)
-    
-- [Configure cache profile settings](cache-settings-configuration-for-a-web-application.md#output)
-    
-- [Configure object cache settings](cache-settings-configuration-for-a-web-application.md#object)
     
 ## Configure BLOB cache settings
 <a name="BLOB"> </a>

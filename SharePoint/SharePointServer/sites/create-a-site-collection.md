@@ -21,13 +21,6 @@ description: "Summary: How to create a SharePoint Server 2016 or SharePoint 2013
   
 A site collection is a grouping of websites under a common top-level site that have the same owner and share administration settings, for example, permissions. When you create a site collection, a top-level site is automatically created in the site collection. You can then create one or more subsites below the top-level site.
   
-In this article:
-  
-- [Before you begin](#begin)
-    
-- [Create a site collection by using Central Administration](#section1)
-    
-- [Create a site collection by using Microsoft PowerShell](#section2)
     
 ## Before you begin
 <a name="begin"> </a>

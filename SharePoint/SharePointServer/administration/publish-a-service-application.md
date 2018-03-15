@@ -21,11 +21,6 @@ description: "Summary: Learn how to publish a service application in SharePoint 
   
 In SharePoint Server, some service applications can be published across farms and thereby be made available over remote connections.
   
-In this article:
-  
-- [To publish a service application by using Central Administration](#ProcCA)
-    
-- [To publish a service application by using Windows PowerShell](#ProcWPS)
     
 Before you begin this operation, review [Share service applications across farms in SharePoint Server](share-service-applications-across-farms.md) for information about prerequisites. 
   

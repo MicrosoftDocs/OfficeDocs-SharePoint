@@ -23,21 +23,6 @@ In SharePoint Server, a My Site is a personal site for a user in an organization
   
 This article contains information about My Sites architecture, related services, and other considerations when planning to deploy My Sites.
   
-In this article:
-  
-- [My Sites architecture](#mysitesarch)
-    
-- [Related service applications](#relsvcapps)
-    
-- [Planning for jobs and schedules](#jobs)
-    
-- [Planning for geographically distributed deployments](#geodist)
-    
-- [Planning for the multilingual user interface](#mui)
-    
-- [Planning for storage requirements](#storage)
-    
-- [Planning for file types](#files)
     
 ## My Sites architecture
 <a name="mysitesarch"> </a>

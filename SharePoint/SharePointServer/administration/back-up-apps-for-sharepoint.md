@@ -35,17 +35,6 @@ If you have to eventually restore the databases, you have to restore the same ve
   
 You can back up an apps for SharePoint environment by using the SharePoint Central Administration website, Microsoft PowerShell, or SQL Server tools.
   
-In this article:
-  
-- [Back up content databases](#proc1)
-    
-- [Back up the configuration database](#proc2)
-    
-- [Back up the Secure Store Service application database](#proc3)
-    
-- [Back up the App Management service application database](#proc4)
-    
-- [Back up a site collection](#proc5)
     
 ## Back up content databases
 <a name="proc1"> </a>

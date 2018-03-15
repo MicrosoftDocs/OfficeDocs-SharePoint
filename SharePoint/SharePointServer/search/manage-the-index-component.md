@@ -27,19 +27,6 @@ You divide the search index into discrete portions called **index partitions**. 
   
 To achieve **fault tolerance** for the SharePoint Server search index, you add an index replica of an existing index partition to the search topology. Each index replica contains the same information. 
   
-In this article:
-  
-- [Before you begin](manage-the-index-component.md#Search_Index_Before)
-    
-- [Add an index replica to an existing index partition](manage-the-index-component.md#Search_Index_Repl)
-    
-- [Add a new index partition](manage-the-index-component.md#Search_Index_Part)
-    
-- [Cancel the repartitioning process](manage-the-index-component.md#Search_Index_Cancel)
-    
-- [Remove an index component](manage-the-index-component.md#Search_Index_Remove)
-    
-- [Move an index component](manage-the-index-component.md#Index_Comp_Move)
     
 ## Before you begin
 <a name="Search_Index_Before"> </a>

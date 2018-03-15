@@ -21,13 +21,6 @@ description: "Summary: Learn how to implement best practices before you back up 
   
 Best practices for backup and restore help make sure that backup and restore operations in SharePoint Server are successful and that the environment is protected against data loss or continuity gaps.
   
-In this article:
-  
-- [Performance best practices for SharePoint backup and restore operations](#section_perf)
-    
-- [Quality assurance best practices to back up a SharePoint farm](#section_QA)
-    
-- [Procedural best practices to back up and restore SharePoint Server](#section_PROC)
     
 ## Performance best practices for SharePoint backup and restore operations
 <a name="section_perf"> </a>

@@ -25,21 +25,6 @@ However, if site collections do not grow to their expected capacity, it might be
   
 You can move site collections between databases in a SharePoint Server farm by using Microsoft PowerShell. You can also move site collections by using Backup and Restore procedures. For information about how to do this, see [Back up site collections in SharePoint Server](back-up-site-collections.md) and [Restore site collections in SharePoint Server](restore-site-collections.md).
   
-In this article:
-  
-- [Before you begin](#begin)
-    
-- [Determining the size of the source site collection](#Section2)
-    
-  - [To determine the size of the site collection by using Microsoft PowerShell](#proc1)
-    
-  - [To archive and trim audit data by using Microsoft PowerShell](#proc2)
-    
-- [Moving site collections between content databases](#Section3)
-    
-- [To move a single site collection by using Microsoft PowerShell](#proc3)
-    
-- [To move multiple site collections by using Microsoft PowerShell](#proc4)
     
 ## Before you begin
 <a name="begin"> </a>

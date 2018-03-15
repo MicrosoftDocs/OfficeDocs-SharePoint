@@ -29,13 +29,6 @@ To show content from a library or list that is shared as a catalog, you must con
     
 - A result source is created for the catalog.
     
-In this article:
-  
-- [Before you begin](connect-a-publishing-site-to-a-catalog.md#BKMK_Before)
-    
-- [Connect a publishing site to a catalog](connect-a-publishing-site-to-a-catalog.md#BKMK_Connect)
-    
-- [Disconnect a publishing site from a catalog](connect-a-publishing-site-to-a-catalog.md#BKMK_Disconnect)
     
 ## Before you begin
 <a name="BKMK_Before"> </a>

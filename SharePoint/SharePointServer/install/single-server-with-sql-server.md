@@ -21,15 +21,6 @@ description: "Summary: Learn how to install SharePoint 2013 on a single server."
   
 A single server installation consists of one server that runs both SQL Server and SharePoint 2013. You can install and configure SharePoint 2013 on a single server if you are hosting only a few sites for a limited number of users or if you want to create a trial or development environment. This configuration is also useful if you want to configure a farm to meet your needs first, and then add servers to the farm at a later stage.
   
-In this article:
-  
-- [Overview](install-sharepoint-server-2016-on-one-server.md#section1)
-    
-- [Before you install SharePoint 2013 on a single server](single-server-with-sql-server.md#section2)
-    
-- [Install SharePoint 2013](single-server-with-a-built-in-database.md#section3)
-    
-- [Post-installation steps](install-sharepoint-server-2016-on-one-server.md#section4)
     
 > [!IMPORTANT]
 > The steps in this article apply to SharePoint Foundation 2013 and SharePoint Server 2013. 

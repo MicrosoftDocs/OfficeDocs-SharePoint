@@ -22,11 +22,6 @@ description: "Summary: Learn how to plan to implement microblog features, the Ne
   
 In SharePoint Server, microblog functionality enables users to have short, public conversations about topics they are interested in. The Newsfeed and the Distributed Cache service support this microblog functionality in SharePoint Server. .
   
-In this article:
-  
-- [Plan for the feeds](plan-for-feeds-and-the-distributed-cache-service.md#planfeeds)
-    
-- [Plan for the Distributed Cache service](plan-for-feeds-and-the-distributed-cache-service.md#plandc)
     
 ## Plan for the feeds
 <a name="planfeeds"> </a>

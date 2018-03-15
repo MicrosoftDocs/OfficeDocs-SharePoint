@@ -24,17 +24,6 @@ Microsoft provides many tools that help you monitor the overall health status of
   
 You also need to plan how many people you want to monitor the SharePoint Server environment. Then create a response plan to cover actions that you should take when a problem occurs.
   
-In this article:
-  
-- [Overview of monitoring tools](#section1)
-    
-- [Identify monitoring scenarios](#section2)
-    
-- [Determine daily, weekly, and monthly monitoring items](#section3)
-    
-- [Plan monitoring personnel](#section4)
-    
-- [Create a response plan](#section5)
     
 ## Overview of monitoring tools
 <a name="section1"> </a>

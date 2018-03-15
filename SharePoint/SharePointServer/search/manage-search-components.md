@@ -33,23 +33,6 @@ The procedures in this article apply to the following search components:
     
 For information about procedures to manage the index component, see [Manage the index component in SharePoint Server](manage-the-index-component.md).
   
-In this article:
-  
-- [Before you begin](#begin)
-    
-- [Start a search service instance on a server](manage-search-components.md#Search_Comp_SSI)
-    
-- [Retrieve the active search topology](manage-search-components.md#Search_Comp_Retrieve)
-    
-- [Clone the active search topology](manage-search-components.md#Search_Comp_Clone)
-    
-- [Add a search component](manage-search-components.md#Search_Comp_Add)
-    
-- [Remove a search component](manage-search-components.md#Search_Comp_Remove)
-    
-- [Move a search component](manage-search-components.md#Search_Comp_Move)
-    
-- [Activate a search topology](manage-search-components.md#Search_Comp_Activate)
     
 ## Before you begin
 <a name="begin"> </a>

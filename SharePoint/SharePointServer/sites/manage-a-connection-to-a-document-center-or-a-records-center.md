@@ -24,13 +24,6 @@ A connection is a path used for sending documents to a document center or a reco
   
 Connections are created by a farm administrator in SharePoint Server. The farm administrator configures the connection to copy content, to move content, or to move the content and leave a link in the source site collection. 
   
-In this article:
-  
-- [Create a connection](#section1)
-    
-- [Modify a connection](#section2)
-    
-- [Delete a connection](#section3)
     
 > [!NOTE]
 > The destination document or record center must already exist before you perform the procedures for this task. You also need the URL of the destination document or record center for the procedures in this article. 

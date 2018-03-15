@@ -24,25 +24,6 @@ SharePoint Server 2013 supports several versions of SQL Server. Depending on the
   
 The minimum requirements for a database server in SharePoint Server 2013 are SQL Server 2008 R2 with Service Pack 1 (SP1) or SQL Server 2012, or SQL Server 2014 64-bit versions. Note that to use the business intelligence (BI) tools in SharePoint Server 2013 you must install SQL Server 2012 with Service Pack 1 (SP1) or SQL Server 2014, 64-bit version. For more information, see [Hardware and software requirements for SharePoint Server 2016](../install/hardware-and-software-requirements.md) and [Software requirements for business intelligence in SharePoint Server](software-requirements-for-business-intelligence.md).
   
-In this article:
-  
-- [SharePoint Server 2013 and the SQL Server database engine](#sec1)
-    
-- [Working with the SQL Server databases that support SharePoint Server 2013](#sec2)
-    
-- [SQL Server 2008 R2 with Service Pack 1 (SP1)](#sqlserverr2)
-    
-  - [SQL Server Reporting Services in SharePoint Integrated Mode](#RSint)
-    
-- [SQL Server 2012 and SQL Server 2014](#sec4)
-    
-  - [High Availability Solutions](#HA)
-    
-  - [Reporting Services SharePoint mode](#RSsp)
-    
-  - [Business intelligence features](#BI)
-    
-  - [Power Pivot for SharePoint 2013](#PP)
     
 ## SharePoint Server 2013 and the SQL Server database engine
 <a name="sec1"> </a>

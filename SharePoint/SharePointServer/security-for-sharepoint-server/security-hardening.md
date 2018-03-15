@@ -19,11 +19,6 @@ description: "Summary: Learn about security hardening for SharePoint Server 2013
 
  **Summary:** Learn about security hardening for SharePoint Server 2013 and SharePoint Server 2016 and database server roles, including specific hardening requirements for ports, protocols, and services. 
   
-In this article:
-  
-- [Secure server snapshots](#ServerSnapshots)
-    
-- [Specific port, protocol, and service guidance](#PortProtocolService)
     
 ## Secure server snapshots
 <a name="ServerSnapshots"> </a>

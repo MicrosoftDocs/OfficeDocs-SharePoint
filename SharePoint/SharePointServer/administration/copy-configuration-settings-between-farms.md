@@ -21,15 +21,6 @@ description: "Summary: Learn how to copy configuration settings from one SharePo
   
 You can copy configuration settings between SharePoint Server farms by using Microsoft PowerShell. 
   
-In this article:
-  
-- [Before you begin](#begin)
-    
-- [Backup and restore a farm without content databases to copy configuration settings in SharePoint Server](#proc1)
-    
-  - [To back up and restore a farm without content databases by using Windows PowerShell](#PS)
-    
-- [Back up and recover configuration settings only](#proc2)
     
 ## Before you begin
 <a name="begin"> </a>

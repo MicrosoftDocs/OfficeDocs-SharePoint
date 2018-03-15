@@ -19,17 +19,6 @@ description: "Summary: Learn about usage reports, query health reports, crawl he
   
 You can access and analyze several query and crawl health reports, logs and usage reports from the Search service application in the SharePoint ServerCentral Administration to monitor the health of the search system.
   
-In this article:
-  
-- [Before you begin](#begin)
-    
-- [Query health reports](#proc1)
-    
-- [Crawl health reports](#proc2)
-    
-- [Crawl log](#proc3)
-    
-- [Usage reports](view-search-diagnostics.md#Proc4)
     
 ## Before you begin
 <a name="begin"> </a>

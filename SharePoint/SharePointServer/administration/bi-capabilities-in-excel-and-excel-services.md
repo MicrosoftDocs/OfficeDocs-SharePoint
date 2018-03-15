@@ -22,13 +22,6 @@ Excel offers certain business intelligence capabilities that make it easier than
 > [!IMPORTANT]
 > The information in this article applies to on-premises deployments of SharePoint Server 2013. If you're looking for information about business intelligence in Office 365, see [Business intelligence capabilities in Excel, SharePoint Online, and Power BI for Office 365](http://technet.microsoft.com/library/3f0c52a7-eae0-41a2-beaf-524fa3687d76.aspx). 
   
-In this article:
-  
-- [Business intelligence capabilities in Excel 2013 ](bi-capabilities-in-excel-and-excel-services.md#part1)
-    
-- [Business intelligence capabilities supported in Excel Services in SharePoint Server](bi-capabilities-in-excel-and-excel-services.md#part2)
-    
-- [Business intelligence capabilities supported in Office Web Apps Server 2013 and SharePoint Server 2013](bi-capabilities-in-excel-and-excel-services.md#part3)
     
 ## Business intelligence capabilities in Excel 2013
 <a name="part1"> </a>

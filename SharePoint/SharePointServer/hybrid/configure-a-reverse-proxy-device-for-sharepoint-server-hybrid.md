@@ -21,13 +21,6 @@ description: "Summary: Learn about supported reverse proxy devices for SharePoin
   
 This topic provides an overview of the role of reverse proxy devices in a SharePoint Server hybrid deployment and links to device-specific configuration guidance.
   
-In this article:
-  
-- [The role of a reverse proxy in a SharePoint Server hybrid deployment](configure-a-reverse-proxy-device-for-sharepoint-server-hybrid.md#role)
-    
-- [General reverse proxy requirements](configure-a-reverse-proxy-device-for-sharepoint-server-hybrid.md#requirements)
-    
-- [Supported reverse proxy devices](configure-a-reverse-proxy-device-for-sharepoint-server-hybrid.md#devices)
     
 ## The role of a reverse proxy in a SharePoint Server hybrid deployment
 <a name="role"> </a>

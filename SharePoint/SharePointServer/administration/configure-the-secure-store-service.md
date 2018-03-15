@@ -21,19 +21,6 @@ description: "Summary: Configure storage of authorization credentials in Secure 
   
 This article describes how to configure the Secure Store Service on a SharePoint Server farm. Secure Store has important planning considerations associated with it. Be sure to read [Plan the Secure Store Service in SharePoint Server](http://technet.microsoft.com/library/e1196de0-1eb9-4c50-aeca-93e0eba7be0d%28Office.14%29.aspx) before you begin the procedures in this article. 
   
-In this article:
-  
-- [Configure Secure Store in SharePoint Server](#section1)
-    
-- [Work with Secure Store encryption keys](#section2)
-    
-- [Store credentials in Secure Store](#section3)
-    
-- [Create a target application](#CreateTargetApp)
-    
-- [Set credentials for a Secure Store target application](#section4)
-    
-- [Enable the Secure Store audit log](#section5)
     
 ## Configure Secure Store in SharePoint Server
 <a name="section1"> </a>

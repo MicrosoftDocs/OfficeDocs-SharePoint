@@ -21,15 +21,6 @@ description: "Summary: Learn how to restore a SharePoint Server 2016 and SharePo
   
 You can restore a SharePoint Server farm by using the SharePoint Central Administration website, Microsoft PowerShell, or SQL Server tools. The backup tool that you use depends on the kind of environment that you have deployed, the backup schedule, and service level agreements that you have made with your organization.
   
-In this article:
-  
-- [Before you begin](#begin)
-    
-- [Using PowerShell to restore a farm in SharePoint](#proc1)
-    
-- [Using Central Administration to restore a farm](#proc2)
-    
-- [Using SQL Server tools to restore a farm](#proc3)
     
 ## Before you begin
 <a name="begin"> </a>

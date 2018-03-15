@@ -21,13 +21,6 @@ description: "Summary: Learn how to back up a single site collection in SharePoi
   
 You can back up a site collection in SharePoint Server by using the SharePoint Central Administration website or Microsoft PowerShell. 
   
-In this article:
-  
-- [Before you begin](#begin)
-    
-- [Use PowerShell to back up a site collection in SharePoint Server](#proc1)
-    
-- [Use Central Administration to back up a site collection in SharePoint Server](#proc2)
     
 ## Before you begin
 <a name="begin"> </a>

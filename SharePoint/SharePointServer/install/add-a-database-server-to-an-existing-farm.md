@@ -21,19 +21,6 @@ description: "Summary: Learn how to add a new database server to an existing Sha
   
 You can add more database servers at any time to respond to business or operations requirements. Because a database server contains the farm content, which can consist of diverse types of data and can have a fast growing document collection, the size of the farm databases can grow quickly. Storage capacity is often the key reason to add more database servers. Other reasons can include adding new features, improving performance and high availability.
   
-In this article:
-  
-- [Before you begin](#begin)
-    
-- [Prepare the new database server](#proc1)
-    
-  - [To provision the database server](#provDB)
-    
-- [Configure and use the new database server](#proc2)
-    
-  - [To create a new web application](#newwebapp)
-    
-  - [To move a site collection by using Windows PowerShell](#PS)
     
 ## Before you begin
 <a name="begin"> </a>

@@ -22,17 +22,6 @@ description: "Summary: Learn about supported high availability and disaster reco
   
 This article describes the supported high availability and disaster recovery options for SharePoint Server databases. For detailed information about these databases, such as size and supported backup and recovery tools, see [Database types and descriptions in SharePoint Server](../technical-reference/database-types-and-descriptions.md). 
   
-In this article:
-  
-- [Introduction](supported-high-availability-and-disaster-recovery-options-for-sharepoint-databas.md#Intro)
-    
-- [SharePoint Server system databases](supported-high-availability-and-disaster-recovery-options-for-sharepoint-databas.md#SystemDBs)
-    
-- [SharePoint Server 2016 service application databases](supported-high-availability-and-disaster-recovery-options-for-sharepoint-databas.md#SAppDBsSPALL)
-    
-- [SQL Server System databases](supported-high-availability-and-disaster-recovery-options-for-sharepoint-databas.md#SQLSysDbs)
-    
-- [SQL Server Reporting Services databases](supported-high-availability-and-disaster-recovery-options-for-sharepoint-databas.md#SQLRSDbs)
     
 ## Introduction
 <a name="Intro"> </a>

@@ -16,11 +16,6 @@ description: "This article contains information about the supported authenticati
 
 This article contains information about the supported authentication types for select devices in SharePoint Server 2013.
   
-In this article:
-  
-- [Plan for mobile device security](authentication-for-mobile-devices.md#PlanMobileDeviceSecurity)
-    
-- [Authentication for mobile devices](authentication-for-mobile-devices.md#AuthenticationMobileDevices)
     
 ## Plan for mobile device security
 <a name="PlanMobileDeviceSecurity"> </a>

@@ -19,15 +19,6 @@ description: "Summary: Learn how to determine the number and types of computers 
   
 Enterprises often use SharePoint Server 2013 to publish content that anonymous users access on an Internet site or that authenticated users access on an intranet site. This article contains capacity and performance data to help plan the number of computers to use and the types of computers that are required to publish content and manage web content in SharePoint Server 2013.
   
-In this article:
-  
-- [Introduction](#intro)
-    
-- [Prerequisite information](#prereq)
-    
-- [Cross-site publishing using managed navigation](#crosssite)
-    
-- [Author-in-place publishing](#author)
     
 SharePoint publishing includes different types of publishing sites and associated methods that are available for each site. The publishing features of SharePoint Server 2013 are intended to help create branded Internet, intranet, and extranet sites. For more information about SharePoint Server 2013 publishing, see [Overview of publishing to Internet, intranet, and extranet sites in SharePoint Server](overview-of-publishing-to-internet-intranet-and-extranet-sites.md).
   

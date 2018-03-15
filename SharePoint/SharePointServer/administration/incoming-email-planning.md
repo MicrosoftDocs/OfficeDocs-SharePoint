@@ -19,13 +19,6 @@ description: "Summary: Learn how to configure incoming email for SharePoint Serv
   
 The incoming email feature of SharePoint Server enables SharePoint sites to receive and store email messages and attachments in lists and libraries. This article helps administrators understand the choices they need to make before deploying the incoming email feature.
   
-In this article:
-  
-- [About incoming email](#section1)
-    
-- [Key decisions for planning incoming email](#section2)
-    
-- [Configuration options and settings modes](#section3)
     
 ## About incoming email
 <a name="section1"> </a>
