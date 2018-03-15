@@ -20,7 +20,7 @@ description: "Summary: Performance and capacity planning is the process of mappi
   
 ![Small icon representing Microsoft Project](../media/ProjectIconSmall.png) Relevant performance and capacity planning articles for Project Server 2016 are available in the Project Server document library at [Plan for performance and capacity (Project Server 2013)](http://technet.microsoft.com/library/5f5110f0-2a72-4509-97a4-6896838bed1e.aspx).
   
-## TechNet articles about performance and capacity management
+## Articles about performance and capacity management
 
 The following articles about performance and capacity management are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
   

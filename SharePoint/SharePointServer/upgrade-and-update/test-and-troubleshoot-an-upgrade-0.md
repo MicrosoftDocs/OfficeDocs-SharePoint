@@ -22,7 +22,7 @@ description: "Summary: Find resources about how to test and troubleshoot an upgr
   
 Before you upgrade from SharePoint 2010 Products to SharePoint 2013, you should take time to test an upgrade process and understand the issues that you might face in an actual upgrade. After you perform a test upgrade, or after you upgrade your actual databases, you might find issues that have to be addressed. After you address issues, you can restart the upgrade to try again.
   
-The following downloadable resources, articles on TechNet, video recordings, and related resources provide information about how to test and troubleshoot upgrade.
+The following downloadable resources, articles, video recordings, and related resources provide information about how to test and troubleshoot upgrade.
   
 ## Downloadable resources about how to test and troubleshoot upgrade
 
@@ -32,9 +32,8 @@ Download the following content for information about how to test and troubleshoo
 |:-----|:-----|:-----|
 |![Architecture icon](../media/mod_icon_architectureDiagrams_S.png)|[SharePoint 2013 Products Preview - Test Your Upgrade Process model](https://go.microsoft.com/fwlink/?LinkId=252098) <br/> |See a visual display of information about how to test the upgrade process.  <br/> |
    
-## TechNet articles about how to test and troubleshoot upgrade
+## Articles about how to test and troubleshoot upgrade
 
-The following articles about how to test and troubleshoot upgrade are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
   
 |**        ![Building blocks](../media/mod_icon_buildingblock_M.png)          Content**|**Description**|
 |:-----|:-----|

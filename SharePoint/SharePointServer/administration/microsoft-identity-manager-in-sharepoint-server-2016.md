@@ -21,7 +21,7 @@ description: "Summary:Learn about the Microsoft Identity Manager (MIM) in ShareP
   
 When it comes to User Profile synchronization there are more options in SharePoint Server 2016 than previous versions. The articles in this section provide information on MIM and how to use it in SharePoint Server 2016. 
   
-## TechNet articles relating to MIM in SharePoint Server 2016
+## Articles relating to MIM in SharePoint Server 2016
 
 |**Content**|**Description**|
 |:-----|:-----|

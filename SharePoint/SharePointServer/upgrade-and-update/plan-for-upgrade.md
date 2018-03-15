@@ -24,11 +24,8 @@ In order to have a successful upgrade to SharePoint 2013, you must plan for the 
   
 To understand how the upgrade process works, see the articles in [Get started with upgrades to SharePoint 2013](get-started-with-upgrade-0.md).
   
-The following downloadable resources, articles on TechNet, video recordings, and related resources provide information about how to plan for upgrade.
+The following downloadable resources, articles, video recordings, and related resources provide information about how to plan for upgrade.
   
-## TechNet articles about how to plan for upgrade
-
-The following articles about how to plan for upgrade are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
   
 |**        ![Building blocks](../media/mod_icon_buildingblock_M.png)          Content**|**Description**|
 |:-----|:-----|

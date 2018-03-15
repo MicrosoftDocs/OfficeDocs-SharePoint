@@ -19,11 +19,8 @@ description: "Summary: Learn how to manage the databases that are associated wit
 
  **Summary:** Learn how to manage the databases that are associated with SharePoint Server 2016 and SharePoint 2013. 
   
-The following articles on TechNet and related resources provide information about database management with SharePoint Server.
+The following articles and related resources provide information about database management with SharePoint Server.
   
-## TechNet articles about database management
-
-The following articles about database management are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
   
 |**Content**|**Description**|
 |:-----|:-----|

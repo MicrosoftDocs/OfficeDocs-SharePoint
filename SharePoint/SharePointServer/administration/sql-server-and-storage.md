@@ -20,11 +20,8 @@ description: "Summary: Learn how to plan for SQL Server and storage configuratio
 
  **Summary:** Learn how to plan for SQL Server and storage configuration for SharePoint Server 2016 and SharePoint Server 2013. 
   
-The following articles on TechNet provide information about SQL Server and storage configuration for SharePoint Server.
+The following articles provide information about SQL Server and storage configuration for SharePoint Server.
   
-## TechNet articles about SQL Server and storage configuration for SharePoint Server 2016
-
-These articles will be updated on a continuing basis as new information becomes available and as users provide feedback.
   
 |**        ![Building blocks](../media/mod_icon_buildingblock_M.png)          Content**|**Description**|
 |:-----|:-----|

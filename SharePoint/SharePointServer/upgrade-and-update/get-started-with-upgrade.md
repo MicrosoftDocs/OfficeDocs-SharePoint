@@ -21,11 +21,8 @@ description: "Summary: Complete your SharePoint upgrade. Find information on upg
   
 The first step in any upgrade process is to learn about the process itself so that you can plan and prepare appropriately. These articles help you understand how the SharePoint upgrade process works. These articles also include overviews of how to upgrade service applications.
   
-The following downloadable resources, articles on TechNet, video recordings, and related resources provide information about understanding the upgrade for SharePoint Server 2016.
+The following downloadable resources, articles, video recordings, and related resources provide information about understanding the upgrade for SharePoint Server 2016.
   
-## TechNet articles about understanding the SharePoint upgrade
-
-The following articles about understanding upgrade are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
   
 ||**Content**|**Description**|
 |:-----|:-----|:-----|

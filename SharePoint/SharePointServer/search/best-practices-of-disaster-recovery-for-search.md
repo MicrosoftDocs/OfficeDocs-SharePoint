@@ -188,7 +188,7 @@ With all these things considered, it is worth investigating the expected RPO and
   
 ### Service application backup and restore
 
-The following information is a brief summary of the key points contained in the Search Backup and Restore articles on TechNet:
+The following information is a brief summary of the key points contained in the Search Backup and Restore articles:
   
 - [Back up Search service applications in SharePoint Server](../administration/back-up-a-search-service-application.md)
     

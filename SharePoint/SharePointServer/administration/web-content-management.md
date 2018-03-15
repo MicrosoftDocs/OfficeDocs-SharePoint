@@ -10,16 +10,13 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: a2db324b-bcbe-40b4-8fa1-66f16cc89890
-description: "Summary: Use these TechNet articles and related resources to learn how to plan publishing sites by using SharePoint Server features."
+description: "Summary: Use these articles and related resources to learn how to plan publishing sites by using SharePoint Server features."
 ---
 
 # Web content management in SharePoint Server
 
- **Summary:** Use these TechNet articles and related resources to learn how to plan publishing sites by using SharePoint Server features. 
+ **Summary:** Use these articles and related resources to learn how to plan publishing sites by using SharePoint Server features. 
   
-## Articles about web content management planning
-
-The following articles about web content management planning are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
   
 |**Content**|**Description**|
 |:-----|:-----|

@@ -27,8 +27,6 @@ To enable communication in SharePoint Server is a critical component for creatin
     
 To make the most effective use of the communications features, planning should include understanding the software requirements and maintenance considerations.
   
-## TechNet articles about email integration planning
-
 The following articles about planning email integration in SharePoint Server are available in this section.
   
 |**Content**|**Description**|

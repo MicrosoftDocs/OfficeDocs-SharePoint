@@ -17,7 +17,7 @@ description: "Summary: Learn about permissions, accounts, security settings, and
 
  **Summary:** Learn about permissions, accounts, security settings, and what you have to do to prepare your environment for SharePoint Server 2013. 
   
-The following downloadable resources, articles on TechNet, video recordings, and related resources provide information about how to prepare for SharePoint Server installation and initial configuration.
+The following downloadable resources, articles, video recordings, and related resources provide information about how to prepare for SharePoint Server installation and initial configuration.
   
 |**        ![Building blocks](../media/mod_icon_buildingblock_M.png)                 **|**Content**|**Description**|
 |:-----|:-----|:-----|

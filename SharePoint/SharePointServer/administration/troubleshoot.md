@@ -20,9 +20,6 @@ description: "Summary: Find quick access to information about how to resolve iss
   
 We encourage you to give us your feedback. Your comments, suggestions, and troubleshooting tips can be incorporated into future versions of this content. You can send your feedback to us at [ITSPDOCS@microsoft.com](mailto:ITSPDOCS@microsoft.com).
   
-## TechNet articles about troubleshooting SharePoint Server
-
-The following articles about how to troubleshoot SharePoint Server are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
   
 |**![Building blocks](../media/mod_icon_buildingblock_M.png)        **|**Content**|**Description**|
 |:-----|:-----|:-----|

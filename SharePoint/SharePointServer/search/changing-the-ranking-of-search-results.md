@@ -34,7 +34,7 @@ To change the ranking of search results, you need:
 
 Whether you're working with an Enterprise Search Center on premises, with SharePoint Online, or with a cross-site publishing solution, your search results will be ranked. In most cases, this default search result ranking should be just fine.
   
-But, sometimes, you may want to influence the ranking of search results to make results even more relevant to your end-users. We recently published a set of articles on TechNet and MSDN that explain how you can change the ranking of search results and that will help you understand how search result ranking works in SharePoint Server. (See references later in this article.)
+But, sometimes, you may want to influence the ranking of search results to make results even more relevant to your end-users. We recently published a set of  articles that explain how you can change the ranking of search results and that will help you understand how search result ranking works in SharePoint Server. (See references later in this article.)
   
 ## How are search results ranked?
 

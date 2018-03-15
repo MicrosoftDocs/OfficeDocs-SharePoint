@@ -19,11 +19,8 @@ description: "Summary: Find resources to help you perform the steps to upgrade d
 
  **Summary:** Find resources to help you perform the steps to upgrade databases from SharePoint Server 2013 with Service Pack 1 (SP1) to SharePoint Server 2016. 
   
-The following articles on TechNet provide information about upgrading databases to SharePoint Server 2016.
+The following articles provide information about upgrading databases to SharePoint Server 2016.
   
-## TechNet articles about upgrading databases
-
-The following articles about how to upgrade databases are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
   
 ||**Content**|**Description**|
 |:-----|:-----|:-----|

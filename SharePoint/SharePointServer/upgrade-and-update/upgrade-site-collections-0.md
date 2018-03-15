@@ -20,7 +20,7 @@ description: "Summary: Find out how to upgrade a site collection to SharePoint 2
 
  **Summary:** Find out how to upgrade a site collection to SharePoint 2013. 
   
-The following downloadable resources, articles on TechNet, video recordings, and related resources provide information about upgrading site collections to SharePoint 2013.
+The following downloadable resources, articles, video recordings, and related resources provide information about upgrading site collections to SharePoint 2013.
   
 ## Downloadable resources how to upgrade site collections
 
@@ -30,9 +30,8 @@ Download the following content for information about how to upgrade site collect
 |:-----|:-----|:-----|
 |![Architecture icon](../media/mod_icon_architectureDiagrams_S.png)|[SharePoint 2013 Products Preview - Upgrade Process model](https://go.microsoft.com/fwlink/?LinkId=255047) <br/> |Describes the steps in the process for a database-attach upgrade.  <br/> |
    
-## TechNet articles about how to upgrade site collections
+## Articles about how to upgrade site collections
 
-The following articles about how to upgrade site collections are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
   
 |**        ![Building blocks](../media/mod_icon_buildingblock_M.png)          Content**|**Description**|
 |:-----|:-----|

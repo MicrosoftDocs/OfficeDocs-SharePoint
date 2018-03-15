@@ -21,7 +21,6 @@ description: "Summary: Learn how to manage and share service applications across
   
 SharePoint Server includes a set of service applications that you can use to share services across web applications. In some cases, you can also share service applications across farms. You can manage service applications by using the SharePoint Central Administration website or by using Windows PowerShell 3.0. 
   
-## TechNet articles about SharePoint Server service applications
 
 Read the following articles about managing and sharing SharePoint Server service applications.
   

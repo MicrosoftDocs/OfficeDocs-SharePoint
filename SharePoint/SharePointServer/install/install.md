@@ -21,9 +21,8 @@ description: "Summary: Deployment articles help you install and configure ShareP
   
 The following articles include information about how to prepare for installation, step-by-step installation instructions, post-installation configuration steps, and upgrade information. Two sections are listed, one for SharePoint Server 2016 which describes MinRole and its configuration, and the other is SharePoint Server 2013.
   
-## TechNet articles about SharePoint Server 2016 installation and configuration
+## Articles about SharePoint Server 2016 installation and configuration
 
-The following articles about how to install and configure SharePoint Server 2016 are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
   
 |**Content**|**Description**|
 |:-----|:-----|
@@ -38,9 +37,8 @@ The following articles about how to install and configure SharePoint Server 2016
 |[SharePoint Server 2016 in Microsoft Azure](../administration/sharepoint-server-2016-in-microsoft-azure.md) <br/> |Learn about why Microsoft Azure is the best place to host your SharePoint Server 2016 farms in the cloud.  <br/> |
 |[Microsoft Identity Manager in SharePoint Server 2016](../administration/microsoft-identity-manager-in-sharepoint-server-2016.md) <br/> |Learn about the Microsoft Identity Manager (MIM) in SharePoint Server 2016 and the features it provides to you as an external identity manager.  <br/> |
    
-## TechNet articles about SharePoint Server 2013 installation and configuration
+## Articles about SharePoint Server 2013 installation and configuration
 
-The following articles about how to install and configure SharePoint Server 2013 are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
   
 |**Content**|**Description**|
 |:-----|:-----|

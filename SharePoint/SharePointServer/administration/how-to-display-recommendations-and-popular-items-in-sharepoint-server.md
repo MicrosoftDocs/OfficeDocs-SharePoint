@@ -17,7 +17,7 @@ description: "Summary: Learn how to display recommendations and popular items on
 
  **Summary:** Learn how to display recommendations and popular items on a SharePoint Server site. 
   
-This series of TechNet articles explains how to use the Usage analytics feature that was introduced in SharePoint Server to display "smart content" on your website. By "smart content" we mean content such as recommendations and popular items.
+This series of articles explains how to use the Usage analytics feature that was introduced in SharePoint Server to display "smart content" on your website. By "smart content" we mean content such as recommendations and popular items.
   
 -  *Recommendations*  are based on how other visitors have interacted with your website. For example, on a product page, you can display "People who viewed this product also viewed  *\<other products\>*  ." 
     
