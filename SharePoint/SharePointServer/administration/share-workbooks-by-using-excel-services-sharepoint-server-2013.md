@@ -137,7 +137,7 @@ After you have specified browser view options for a workbook, the next step is t
 ### Publish a workbook
 <a name="part2c"> </a>
 
-When you publish a workbook you add it to a SharePoint library, such as a Document library in a Business Intelligence Center site. The location that you use must be specified as a trusted location for Excel Services. For more information, see [Excel Services in SharePoint Server 2013](excel-services.md).
+When you publish a workbook you add it to a SharePoint library, such as a Document library in a Business Intelligence Center site. The location that you use must be specified as a trusted location for Excel Services.
   
  **To publish a workbook to a SharePoint library**
   

@@ -75,8 +75,8 @@ For all installation scenarios, you must have sufficient hard disk space for the
   
 |**Installation Scenario**|**Deployment type and scale**|**RAM**|**Processor**|**Hard disk space**|
 |:-----|:-----|:-----|:-----|:-----|
-|Single server with a built-in database or single server that uses SQL Server  <br/> |Development or evaluation installation of SharePoint Server 2013 or SharePoint Foundation 2013 with the minimum recommended services for development environments. For information, see [](hardware-and-software-requirements.md#MinimumRecDev).  <br/> |8 GB  <br/> |64-bit, 4 cores  <br/> |80 GB for system drive  <br/> |
-|Single server with a built-in database or single server that uses SQL Server  <br/> |Development or evaluation installation of SharePoint Server 2013 or SharePoint Foundation 2013 running Visual Studio 2012 and the minimum recommended services for development environments. For information, see [](hardware-and-software-requirements.md#MinimumRecDev).  <br/> |10 GB  <br/> |64-bit, 4 cores  <br/> |80 GB for system drive  <br/> |
+|Single server with a built-in database or single server that uses SQL Server  <br/> |Development or evaluation installation of SharePoint Server 2013 or SharePoint Foundation 2013 with the minimum recommended services for development environments. For information, see [Minimum recommended services for development environments](hardware-and-software-requirements.md#MinimumRecDev).  <br/> |8 GB  <br/> |64-bit, 4 cores  <br/> |80 GB for system drive  <br/> |
+|Single server with a built-in database or single server that uses SQL Server  <br/> |Development or evaluation installation of SharePoint Server 2013 or SharePoint Foundation 2013 running Visual Studio 2012 and the minimum recommended services for development environments. For information, see [Minimum recommended services for development environments](hardware-and-software-requirements.md#MinimumRecDev).  <br/> |10 GB  <br/> |64-bit, 4 cores  <br/> |80 GB for system drive  <br/> |
 |Single server with a built-in database or single server that uses SQL Server  <br/> |Development or evaluation installation of SharePoint Server 2013 running all available services.  <br/> |24 GB  <br/> |64-bit, 4 cores  <br/> |80 GB for system drive  <br/> |
 |Web server or application server in a three-tier farm  <br/> |Pilot, user acceptance test, or production deployment of SharePoint Server 2013 or SharePoint Foundation 2013.  <br/> |12 GB  <br/> |64-bit, 4 cores  <br/> |80 GB for system drive  <br/> |
    
@@ -263,7 +263,7 @@ The following are the minimum SharePoint 2013 services and service applications 
 ## Optional software
 <a name="OptionalSoftware"> </a>
 
-The optional software in this section is supported but is not required to install or use SharePoint 2013. This software might be required by capabilities such as business intelligence. For more information about system requirements for other capabilities, see [](hardware-and-software-requirements.md#reqOtherCap).
+The optional software in this section is supported but is not required to install or use SharePoint 2013. This software might be required by capabilities such as business intelligence. For more information about system requirements for other capabilities, see [Hardware and software requirements for other SharePoint 2013 capabilities](hardware-and-software-requirements.md#reqOtherCap).
   
 |**Environment**|**Optional software**|
 |:-----|:-----|
