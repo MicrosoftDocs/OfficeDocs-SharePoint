@@ -71,6 +71,25 @@ description: SharePoint documentation
                                     </div>
                                 </a>
                             </li>                            
+                            <li>
+                                <a href="https://support.office.com/sharepoint">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="https://docs.microsoft.com/en-us/Office/media/Office-help-support-training.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>End users</h3>
+                                                    <p>Find help, training, and technical support for SharePoint users on support.office.com.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>                
                         </ul>
                     </li>
                 </ul>
