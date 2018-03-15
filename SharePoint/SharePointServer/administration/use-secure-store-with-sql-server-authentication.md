@@ -297,7 +297,6 @@ Once you have published the diagram to a SharePoint document library, you can re
   
 [Overview of Excel Services in SharePoint Server 2013](excel-services-overview.md)
   
-[Excel Services in SharePoint Server 2013](excel-services.md)
 #### Other Resources
 
 [Plan the Secure Store Service in SharePoint Server](http://technet.microsoft.com/library/e1196de0-1eb9-4c50-aeca-93e0eba7be0d%28Office.14%29.aspx)

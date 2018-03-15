@@ -292,9 +292,6 @@ You have now completed setup and the initial configuration of SharePoint Server 
     If you decide to use an existing managed account — that is, an account of which SharePoint Server 2016 is aware — make sure that you click that option before you continue.
     
 6. In the **Services** section, review the services that you want to use in the farm, and then click **Next**.
-    
-    > [!NOTE]
-    > For more information, see [Configure services and service applications in SharePoint Server](configure-services-and-service-applications.md). 
   
 7. On the **Create Site Collection** page, do the following: 
     

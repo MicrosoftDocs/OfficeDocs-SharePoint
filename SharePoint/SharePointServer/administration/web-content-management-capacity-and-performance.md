@@ -572,8 +572,6 @@ The following graph shows the summary of these results:
   
 [Configure web content management solutions in SharePoint Server](configure-web-content-management-solutions.md)
   
-[Administer web content management in SharePoint Server](web-content-management-administration.md)
-  
 [Configure cache settings for a web application in SharePoint Server](cache-settings-configuration-for-a-web-application.md)
   
 [Plan for caching and performance in SharePoint Server](caching-and-performance-planning.md)

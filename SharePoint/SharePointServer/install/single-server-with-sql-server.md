@@ -300,7 +300,7 @@ You have now completed setup and the initial configuration of SharePoint 2013. Y
 6. In the **Services** section, review the services that you want to use in the farm, and then click **Next**.
     
     > [!NOTE]
-    > For more information, see [Configure services and service applications in SharePoint Server](configure-services-and-service-applications.md). If you are using Office Online, see [Office Web Apps (SharePoint 2013)](http://technet.microsoft.com/library/8a58e6c2-9a0e-4355-ae41-4df25e5e6eee.aspx). 
+    > If you are using Office Online, see [Office Web Apps (SharePoint 2013)](http://technet.microsoft.com/library/8a58e6c2-9a0e-4355-ae41-4df25e5e6eee.aspx). 
   
 7. On the **Create Site Collection** page, do the following: 
     

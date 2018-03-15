@@ -156,5 +156,5 @@ You cannot back up the complete web application by using SQL Server tools. Howev
   
 [Plan for backup and recovery in SharePoint Server](backup-and-recovery-planning.md)
   
-[Backup and restore in SharePoint Server](backup-and-restore.md)
+
 

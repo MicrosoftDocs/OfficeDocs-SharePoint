@@ -89,10 +89,5 @@ Office clients are configured to reduce server impact by reducing the frequency 
 ## See also
 <a name="bkmk_perf"> </a>
 
-#### Concepts
-
-[Co-authoring administration in SharePoint Server](co-authoring-administration.md)
-#### Other Resources
-
 [Plan document versioning, content approval, and check-out controls in SharePointServer](versioning-content-approval-and-check-out-planning.md)
 

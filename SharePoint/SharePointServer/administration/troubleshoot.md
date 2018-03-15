@@ -29,7 +29,3 @@ We encourage you to give us your feedback. Your comments, suggestions, and troub
    
 ## See also
 
-#### Concepts
-
-[Monitoring and Reporting in SharePoint Server](health-monitoring-and-reporting.md)
-

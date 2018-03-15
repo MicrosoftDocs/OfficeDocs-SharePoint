@@ -43,13 +43,12 @@ Some SharePoint Server 2016 service applications have specific instructions for 
 |Secure Store  <br/> |[Configure the Secure Store Service in SharePoint Server](configure-the-secure-store-service.md) <br/> |
 |Visio Graphics Service  <br/> |[Configure Visio Services](configure-visio-services.md) <br/> |
    
-Some SharePoint 2013 service applications have specific instructions for their creation, configuration, and management. The following table lists articles that describe how to create, configure, and manage specific service applications.
+Some SharePoint service applications have specific instructions for their creation, configuration, and management. The following table lists articles that describe how to create, configure, and manage specific service applications.
   
 |**Service application**|**Article**|
 |:-----|:-----|
-|Access Services  <br/> |[Administer Access Services in SharePoint Server 2013](access-services-administration.md) <br/> |
-|Excel Services  <br/> |[Excel Services in SharePoint Server 2013](excel-services.md) <br/> |
-|PerformancePoint  <br/> |[PerformancePoint Services administration](performancepoint-services-administration.md) <br/> |
+|Access Services  <br/> |[Overview of Access Services in SharePoint Server 2013](overview-of-access-services-in-sharepoint-server-2013.md) <br/> |
+|PerformancePoint  <br/> |[Configure PerformancePoint Services](configure-performancepoint-services.md) <br/> |
 |Search Service  <br/> |[Administer search in SharePoint Server](../search/search-administration.md) <br/> |
 |Secure Store  <br/> |[Configure the Secure Store Service in SharePoint Server](configure-the-secure-store-service.md) <br/> |
 |State Service  <br/> |[Manage the State Service](http://technet.microsoft.com/library/5765c57c-372b-4974-a60a-2277996550aa.aspx) <br/> |
@@ -58,7 +57,4 @@ Some SharePoint 2013 service applications have specific instructions for their c
    
 ## See also
 
-#### Concepts
-
-[About service applications and services in SharePoint Server](about-service-applications-and-services.md)
 

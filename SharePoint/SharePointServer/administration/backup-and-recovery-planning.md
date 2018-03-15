@@ -252,7 +252,7 @@ For example, in an environment that has databases that are managed by DBAs, the 
     
 - All restore operations are performed through SharePoint Server. The choice of which restore system to use is determined by the kind of backup that is available and the object being restored.
     
-Other tools should be part of your business continuity strategy. Consider how you will use recycle bins and versioning in site collections throughout the environment. For more information, see [Plan for high availability and disaster recovery for SharePoint Server](high-availability-and-disaster-recovery-planning.md).
+Other tools should be part of your business continuity strategy. Consider how you will use recycle bins and versioning in site collections throughout the environment. For more information, see [Plan for high availability and disaster recovery for SharePoint Server](high-availability-and-disaster-recovery-concepts.md).
   
 ## Plan for performance when designing your SharePoint backup and recovery strategy
 <a name="PlanEnhancedPerformance"> </a>

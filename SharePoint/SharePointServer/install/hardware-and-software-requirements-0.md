@@ -44,7 +44,6 @@ If you plan to use capabilities that are offered through SharePoint 2013 or thro
     
   - [Configure Exchange for SharePoint eDiscovery Center](https://technet.microsoft.com/en-us/library/jj218665%28v=exchg.150%29)
     
-- [Software requirements for business intelligence in SharePoint Server](../administration/software-requirements-for-business-intelligence.md)
     
 - Hardware requirements for search in UNRESOLVED_TOKEN_VAL(SharePoint Server 2013):
     

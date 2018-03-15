@@ -35,9 +35,6 @@ The following articles provide information about how to create and delete site c
    
 ## See also
 
-#### Concepts
-
 [Administration of SharePoint Server](../administration/administration.md)
   
-[Fundamental site planning in SharePoint Server](fundamental-site-planning.md)
 

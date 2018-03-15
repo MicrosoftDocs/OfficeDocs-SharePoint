@@ -34,7 +34,4 @@ Included in this section:
     
 ## See also
 
-#### Concepts
-
-[Monitoring and Reporting in SharePoint Server](health-monitoring-and-reporting.md)
 

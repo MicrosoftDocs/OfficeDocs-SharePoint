@@ -50,7 +50,6 @@ Questions to ask when you design a site or solution:
   
 |**Question**|**More information**|
 |:-----|:-----|
-|How will the site or solution be structured and divided into a set of site collections and sites?  <br/> |[Fundamental site planning in SharePoint Server](fundamental-site-planning.md) <br/> |
 |How will data be presented?  <br/> |[Plan for business intelligence in SharePoint 2013](http://technet.microsoft.com/library/1ebc3f86-cf9e-4ba7-8e76-5cd27d5e101a%28Office.14%29.aspx) <br/> |
 |How will site users navigate?  <br/> |[Overview of site navigation in SharePoint Server](../sites/site-navigation-overview.md) <br/> |
 |How will search be configured and optimized?  <br/> |[Overview of search architecture in SharePoint Server](../search/search-architecture-overview.md) <br/> |
@@ -93,12 +92,11 @@ Govern your information by using tools for information management, including:
 |Use workflows and approvals for Document Centers and site pages—wherever official documentation is stored.  <br/> |[Plan content types and workflows in SharePoint 2013](http://technet.microsoft.com/library/63bb092a-00fe-45ff-a4b8-d8be998d1a3c%28Office.14%29.aspx) <br/> |
 |Use approval for published websites to control pages.  <br/> |[Plan for Internet, intranet, and extranet publishing sites in SharePoint Server](../administration/plan-for-internet-intranet-and-extranet-publishing-sites.md) and [Plan content types and workflows in SharePoint 2013](http://technet.microsoft.com/library/63bb092a-00fe-45ff-a4b8-d8be998d1a3c%28Office.14%29.aspx) <br/> |
 |Use version history and version control to maintain a history and master document.  <br/> |[Plan document versioning, content approval, and check-out controls in SharePoint 2013](http://technet.microsoft.com/library/428b488e-2807-4ef0-b942-91cb09d8921c%28Office.14%29.aspx) <br/> |
-|Use content types with auditing and expiration for document libraries to manage document life cycle.  <br/> |[Plan document management in SharePoint Server](document-management-planning.md) <br/> |
 |Manage libraries by using the Content Organizer.  <br/> |[Configure the Content Organizer to route documents](http://go.microsoft.com/fwlink/?LinkId=330815) <br/> |
 |Use site policies to manage site collection life cycles.  <br/> |[Overview of site policies in SharePoint Server](../sites/site-policy-overview.md) <br/> |
 |Use Information Rights Management and auditing to secure and audit important corporate assets and any sites that contain sensitive information.  <br/> |[Apply Information Rights Management to a list or library](http://go.microsoft.com/fwlink/?LinkID=330818) and [Configure audit settings for a site collection](http://go.microsoft.com/fwlink/?LinkId=330817) <br/> |
    
-Determine the rules or policies that you need for the following types of items: pages, lists, [documents](document-management-planning.md), [records](records-management-in-sharepoint-server.md), rich [assets](../sites/managing-digital-assets-overview.md), blogs and wikis, [feeds](http://technet.microsoft.com/library/9f928134-dec3-4750-8b99-1191716334b4%28Office.14%29.aspx), anonymous comments, anonymous access, [terms and term sets](http://technet.microsoft.com/library/7f8f6beb-aaa6-4277-b522-d28a5b746087%28Office.14%29.aspx), and external data ([Business Connectivity Services](../administration/business-connectivity-services-overview.md)).
+Determine the rules or policies that you need for the following types of items: pages, lists, documents, [records](records-management-in-sharepoint-server.md), rich [assets](../sites/managing-digital-assets-overview.md), blogs and wikis, [feeds](http://technet.microsoft.com/library/9f928134-dec3-4750-8b99-1191716334b4%28Office.14%29.aspx), anonymous comments, anonymous access, [terms and term sets](http://technet.microsoft.com/library/7f8f6beb-aaa6-4277-b522-d28a5b746087%28Office.14%29.aspx), and external data ([Business Connectivity Services](../administration/business-connectivity-services-overview.md)).
   
 As a good information management practice, consider the balance among the following factors:
   
@@ -135,12 +133,10 @@ The following table presents resources that are available to help information ar
 |Metadata  <br/> |[Plan managed metadata (OLD)](http://technet.microsoft.com/library/522699b0-8a89-46ef-9c40-d4c222a863b8%28Office.14%29.aspx) <br/> |
 |Search  <br/> |[Plan search in SharePoint Server](../search/search-planning.md) <br/> |
 |Content expiration  <br/> |[Plan for information management policy in SharePoint Server](information-management-policy-planning.md) <br/> |
-|Records management  <br/> |[Plan records management in SharePoint Server](records-management-planning.md) <br/> |
-|eDiscovery  <br/> |[Plan eDiscovery in SharePoint Server](ediscovery-planning.md) <br/> |
 |Publishing and managing pages  <br/> |[Plan for Internet, intranet, and extranet publishing sites in SharePoint Server](../administration/plan-for-internet-intranet-and-extranet-publishing-sites.md) <br/> |
 |Templates  <br/> |[Site Types: WebTemplates and Site Definitions](http://go.microsoft.com/fwlink/p/?LinkID=119099) <br/> |
 |Content approval  <br/> |[Plan document versioning, content approval, and check-out controls in SharePoint 2013](http://technet.microsoft.com/library/428b488e-2807-4ef0-b942-91cb09d8921c%28Office.14%29.aspx) <br/> [Plan content approval and scheduling](http://go.microsoft.com/fwlink/?LinkId=403884) <br/> |
 |Information management policies  <br/> |[Plan for information management policy in SharePoint Server](information-management-policy-planning.md) <br/> |
-|Social computing  <br/> |[Plan for My Sites and OneDrive for Business in SharePoint Server](my-sites-and-onedrive-for-business-planning.md) <br/> [Plan for My Sites in SharePoint Server](../install/my-sites-planning.md) <br/> [Plan for OneDrive for Business in SharePoint Server](../sites/onedrive-for-business-planning.md) <br/> |
+|Social computing  <br/> |[Plan for My Sites in SharePoint Server](../install/my-sites-planning.md) <br/> [Plan for OneDrive for Business in SharePoint Server](../sites/onedrive-for-business-planning.md) <br/> |
    
 

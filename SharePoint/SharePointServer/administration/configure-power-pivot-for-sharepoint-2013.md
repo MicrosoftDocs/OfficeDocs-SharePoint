@@ -26,7 +26,7 @@ In this scenario, we'll take a look at how to set up Power Pivot for SharePoint 
 
 Before getting started, make sure you have:
   
-- [Configured Excel Services](excel-services.md) in your SharePoint Server farm. 
+- [Configured Excel Services](configure-excel-services.md) in your SharePoint Server farm. 
     
 - [Configured a data model server](manage-excel-services-data-model-settings.md) in Excel Services. You'll need an instance of [Analysis Services 2012 SP1 configured in Power Pivot mode](https://msdn.microsoft.com/en-us/library/jj219067.aspx) in order to do this. 
     

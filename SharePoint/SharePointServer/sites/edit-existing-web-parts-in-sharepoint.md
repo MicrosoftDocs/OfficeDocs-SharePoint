@@ -60,9 +60,7 @@ The procedure for editing a SharePoint Server web part involves editing the page
 ## See also
 
 #### Concepts
-
-[Administer sites and site collections in SharePoint Server](site-and-site-collection-administration.md)
-  
+ 
 [Configure and deploy web parts in SharePoint Server](configure-and-deploy-web-parts.md)
   
 [Configure properties of the Search Box Web Part in SharePoint Server](../search/configure-properties-of-the-search-box-web-part.md)

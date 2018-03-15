@@ -148,7 +148,4 @@ If you want to back up the complete farm, you must use either PowerShell or Cent
 ## See also
 <a name="proc3"> </a>
 
-#### Concepts
-
-[Backup and restore in SharePoint Server](backup-and-restore.md)
 
