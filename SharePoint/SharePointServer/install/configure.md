@@ -34,6 +34,6 @@ After you install SharePoint Server, you must configure several additional setti
 |[Configure email integration for a SharePoint Server farm](../administration/configure-email-integration.md) <br/> |Learn how to set up incoming and outgoing email in SharePoint Server.  <br/> |
 |[Turn on automated document translation in SharePoint Server](../administration/turn-on-automated-document-translation.md) <br/> |Learn how to create and configure Machine Translation Service for SharePoint Server.  <br/> |
 |[Configure Business Connectivity Services solutions for SharePoint Server](../administration/configure-business-connectivity-services-solutions.md) <br/> |Learn how to install and configure SharePoint Server Business Connectivity Services (BCS).  <br/> |
-|[Configure workflow in SharePoint Server](configure-workflow-in-sharepoint-server.md) <br/> |Learn how to install and configure the SharePoint 2013 Workflow platform in SharePoint Server 2013.  <br/> |
+
    
 

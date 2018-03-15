@@ -183,7 +183,7 @@ The following illustration shows the steps to follow to restore and upgrade the 
     
 7. Upgrade the ContentTypeHub1 site collection to 2013 mode.
     
-    For information, see [](upgrade-a-site-collection.md#UpgradeSite).
+    For information, see [Upgrade a site](upgrade-a-site-collection.md#UpgradeSite).
     
 8. Upgrade the content database that contains the duplicate content type hub (ContentTypeHub2 in the old farm) and name it ContentTypeHub3. Leave the ContentTypeHub3 in 2010 mode.
     

@@ -36,7 +36,7 @@ This article describes the prerequisites that are required to deploy a SharePoin
 
 The default STS certificate in the SharePoint farm is used by the hybrid picker to establish the token signing trust when configuring hybrid workloads. Using the inbuilt STS certificate is the recommended approach when configuring hybrid workloads. If however, you intend to use a publicly signed certificate instead of the inbuilt STS one then you must replace the inbuilt certificate with your own following the provided guidance.
   
-For more information, see [](plan-server-to-server-authentication-0.md#ReplaceSTS).
+For more information, see [Replace the STS certificate](plan-server-to-server-authentication-0.md#ReplaceSTS).
   
 ## Inbound connectivity requirements
 <a name="CertReq"> </a>
