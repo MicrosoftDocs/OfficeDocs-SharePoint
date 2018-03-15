@@ -370,5 +370,5 @@ You can use import to recover content that you backed up from a database that is
 
 [Plan for backup and recovery in SharePoint Server](backup-and-recovery-planning.md)
   
-[Backup and restore in SharePoint Server](backup-and-restore.md)
+
 

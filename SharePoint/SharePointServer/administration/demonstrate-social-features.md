@@ -16,7 +16,6 @@ description: "Summary: Learn how to configure and demonstrate the new social fea
 
  **Summary:** Learn how to configure and demonstrate the new social features of SharePoint Server 2013 based on the [Test Lab Guide: Configure SharePoint Server 2013 in a three-tier farm](configure-sharepoint-server-2013-in-a-three-tier-farm.md).
   
-This document is the [Test Lab Guide](https://go.microsoft.com/fwlink/p/?LinkId=202817) version of the procedures that are described in [Configure My Sites and OneDrive for Business in SharePoint Server](configure-my-sites-and-onedrive-for-business.md). 
   
 This document contains instructions for the following: 
   
@@ -37,11 +36,6 @@ This document contains instructions for the following:
 [Test Lab Guide: Demonstrate Social Features for SharePoint Server 2013](https://go.microsoft.com/fwlink/?LinkId=264982)
   
 ## See also
-
-#### Concepts
-
-[Configure My Sites and OneDrive for Business in SharePoint Server](configure-my-sites-and-onedrive-for-business.md)
-#### Other Resources
 
 [Test Lab Guides](https://go.microsoft.com/fwlink/p/?LinkId=202817)
 

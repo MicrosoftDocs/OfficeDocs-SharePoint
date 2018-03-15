@@ -58,8 +58,6 @@ The following articles about managing web parts in SharePoint Server are availab
 
 #### Concepts
 
-[Administer sites and site collections in SharePoint Server](site-and-site-collection-administration.md)
-  
 [Configure and deploy web parts in SharePoint Server](configure-and-deploy-web-parts.md)
   
 [Edit existing web parts in SharePoint Server](edit-existing-web-parts-in-sharepoint.md)

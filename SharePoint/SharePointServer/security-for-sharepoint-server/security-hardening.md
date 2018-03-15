@@ -148,7 +148,7 @@ The following table lists features that can be configured to access data that re
 |**Feature**|**Description**|
 |:-----|:-----|
 |Content crawling  <br/> |You can configure crawl rules to crawl data that resides on external resources, including Web sites, file shares, Exchange public folders, and business data applications. When crawling external data sources, the crawl role communicates directly with these external resources.  <br/> For more information, see [Manage crawling in SharePoint Server](../search/manage-crawling.md).  <br/> |
-|Business Data Connectivity connections  <br/> |Web servers and application servers communicate directly with computers that are configured for Business Data Connectivity connections.  <br/> For more information, see [Business Connectivity Services in SharePoint Server](business-connectivity-services.md).  <br/> |
+|Business Data Connectivity connections  <br/> |Web servers and application servers communicate directly with computers that are configured for Business Data Connectivity connections.  <br/>  |
    
 ### Service requirements for e-mail integration
 <a name="Email"> </a>

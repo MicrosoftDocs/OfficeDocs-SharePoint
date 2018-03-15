@@ -22,7 +22,7 @@ SharePoint Server 2013 supports several versions of SQL Server. Depending on the
 > [!NOTE]
 > SharePoint Foundation 2013 does not support BI features, which require SharePoint Server 2013. 
   
-The minimum requirements for a database server in SharePoint Server 2013 are SQL Server 2008 R2 with Service Pack 1 (SP1) or SQL Server 2012, or SQL Server 2014 64-bit versions. Note that to use the business intelligence (BI) tools in SharePoint Server 2013 you must install SQL Server 2012 with Service Pack 1 (SP1) or SQL Server 2014, 64-bit version. For more information, see [Hardware and software requirements for SharePoint Server 2016](../install/hardware-and-software-requirements.md) and [Software requirements for business intelligence in SharePoint Server](software-requirements-for-business-intelligence.md).
+The minimum requirements for a database server in SharePoint Server 2013 are SQL Server 2008 R2 with Service Pack 1 (SP1) or SQL Server 2012, or SQL Server 2014 64-bit versions. Note that to use the business intelligence (BI) tools in SharePoint Server 2013 you must install SQL Server 2012 with Service Pack 1 (SP1) or SQL Server 2014, 64-bit version. For more information, see [Hardware and software requirements for SharePoint Server 2016](../install/hardware-and-software-requirements.md).
   
     
 ## SharePoint Server 2013 and the SQL Server database engine
@@ -144,7 +144,7 @@ To configure Power Pivot for SharePoint you can use the SharePoint Central Admin
 |Power Pivot for SharePoint 2013 Configuration Tool  <br/> |Evaluates an existing installation and determines what needs to be configured in the SharePoint farm and Power Pivot for SharePoint and then configures everything required.  <br/> |
 |Microsoft PowerShell cmdlets  <br/> |Provides cmdlets that you can use to build PowerShell script files (.ps1) and automate the configuration process for Power Pivot for SharePoint.  <br/> |
    
-The Power Pivot for SharePoint 2013 add-in enables PowerPivot Gallery, Schedule Data Refresh, and the PowerPivot Management Dashboard in Central Administration. For more information, see [PowerPivot for SharePoint (SSAS)](https://technet.microsoft.com/en-us/library/ee210692.aspx) and [Software requirements for Power Pivot for SharePoint Server 2016](software-requirements-for-business-intelligence.md#section1).
+The Power Pivot for SharePoint 2013 add-in enables PowerPivot Gallery, Schedule Data Refresh, and the PowerPivot Management Dashboard in Central Administration. For more information, see [PowerPivot for SharePoint (SSAS)](https://technet.microsoft.com/en-us/library/ee210692.aspx).
   
 ## See also
 <a name="sec4"> </a>

@@ -361,7 +361,6 @@ One or more of the following might be the cause:
 
 [Plan for monitoring in SharePoint Server](../administration/monitoring-planning.md)
   
-[Monitoring and Reporting in SharePoint Server](health-monitoring-and-reporting.md)
 #### Other Resources
 
 [System Center Monitoring Pack for SharePoint Foundation](http://go.microsoft.com/fwlink/p/?LinkId=272567)

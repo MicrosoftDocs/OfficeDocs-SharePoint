@@ -248,7 +248,7 @@ To create and configure the farm, you run the SharePoint Products Configuration 
     
     The choice that you make here is a matter of personal preference. The Farm Configuration Wizard will configure some services automatically when you run it. However, if you configure services manually, you have greater flexibility in designing your logical architecture.
     
-    For information about how to use the wizard to configure services, see [Configure services and service applications in SharePoint Server](configure-services-and-service-applications.md). If you are using Microsoft Office Online, see [Office Web Apps overview (Installed on SharePoint 2013)](http://technet.microsoft.com/library/8480064e-14a4-4b46-ad6b-0c836b192af2.aspx).
+    If you are using Microsoft Office Online, see [Office Web Apps overview (Installed on SharePoint 2013)](http://technet.microsoft.com/library/8480064e-14a4-4b46-ad6b-0c836b192af2.aspx).
     
     > [!IMPORTANT]
     > If you are using a DBA-created database, you cannot use the Farm Configuration Wizard, you must use SharePoint Products Configuration Wizard. 

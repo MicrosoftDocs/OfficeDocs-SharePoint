@@ -86,7 +86,7 @@ For information about monitoring and performance counters for SharePoint Server 
     
 For information about how to use the health monitoring tools built into the Central Administration interface, see the following article:
   
-- [Monitoring and Reporting in SharePoint Server](health-monitoring-and-reporting.md)
+- [Monitoring and Reporting in SharePoint Server](monitoring-overview.md)
     
  *I have deployed SharePoint Server 2013, and I am experiencing performance issues. How do I troubleshoot and optimize my environment?* 
   
@@ -124,8 +124,6 @@ For information about the general concepts behind capacity management and links 
   
 - [Performance planning in SharePoint Server 2013](../administration/performance-planning-in-sharepoint-server-2013.md)
     
-- [Plan logical architectures for SharePoint Server](logical-architecture-planning.md)
-    
 For additional information about capacity management, see the following companion articles to this overview article:
   
 - [Capacity planning for SharePoint Server 2013](../administration/capacity-planning.md)
@@ -156,7 +154,7 @@ For more information about how to virtualize SharePoint Server 2013-based server
     
 For more information about high availability and disaster recovery, see the following article:
   
-- [Plan for high availability and disaster recovery for SharePoint Server](high-availability-and-disaster-recovery-planning.md)
+- [Plan for high availability and disaster recovery for SharePoint Server](high-availability-and-disaster-recovery-concepts.md)
     
 ## Four fundamentals of performance
 <a name="fundamentals"> </a>

@@ -83,7 +83,7 @@ If you enable Self-Service Site Creation, you should consider the following:
     
 Because Self-Service Site Creation creates new top-level websites on an existing web application, any new sites automatically conform to the web application's default quota settings, unused website notification settings, and other administrative policies.
   
-You can configure Self-Service Site Creation in a variety of ways to meet your needs. For example, if you have a web application dedicated to My Sites, you can enable Self-Service Site Creation but select to hide the **new site** link so that no one can use it to create new sites or site collections. You can also create a custom form that users utilize to create a site or site collection. For more information, see [Configure My Sites and OneDrive for Business in SharePoint Server](configure-my-sites-and-onedrive-for-business.md).
+You can configure Self-Service Site Creation in a variety of ways to meet your needs. For example, if you have a web application dedicated to My Sites, you can enable Self-Service Site Creation but select to hide the **new site** link so that no one can use it to create new sites or site collections. You can also create a custom form that users utilize to create a site or site collection.
   
 ## Plan for custom site creation processes
 <a name="section3"> </a>
@@ -91,11 +91,5 @@ You can configure Self-Service Site Creation in a variety of ways to meet your n
 You can also create your own process for site creation by using a custom form to request a site that integrates with a back-end billing system to charge a customer's credit card or a corporate cost center. If you have a complicated system or process that you want to include as part of site creation, you should create a custom application to call the site creation interface and perform any other tasks that you require. However, if you simply want to add a few custom fields to the site creation page (for example, to track which department in your company is requesting a particular site), you should consider using Self-Service Site Creation and customize the sign-up page to include the information that you need. You can customize the scsignup.aspx page in the site definition to include the metadata that you need without having to develop an entire application.
   
 ## See also
-<a name="section3"> </a>
 
-#### Concepts
-
-[Fundamental site planning in SharePoint Server](fundamental-site-planning.md)
   
-[Administer sites and site collections in SharePoint Server](site-and-site-collection-administration.md)
-

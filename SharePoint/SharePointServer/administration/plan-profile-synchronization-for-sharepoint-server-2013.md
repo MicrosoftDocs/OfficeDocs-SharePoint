@@ -278,9 +278,7 @@ To download the connection planning worksheet, the external content type plannin
 <a name="worksheets"> </a>
 
 #### Concepts
-
-[Plan for My Sites and OneDrive for Business in SharePoint Server](my-sites-and-onedrive-for-business-planning.md)
-  
+ 
 [Overview of profile synchronization in SharePoint Server 2013](profile-synchronization-in-sharepoint-server-2013.md)
   
 [Plan user profiles in SharePoint Server](plan-user-profiles.md)

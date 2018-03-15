@@ -30,8 +30,6 @@ This article takes you through the steps required to do the first two steps: rem
   
 For information about how to install and add the Yammer feed on your sites, see [Get and install the Yammer app onto SharePoint Server 2013 sites](get-and-install-the-yammer-app-onto-sharepoint-server-2013-sites.md).
   
-> [!NOTE]
-> SharePoint supports the accessibility features of common browsers to help you administer deployments and access sites. For more information, see [Accessibility for SharePoint 2013](94ad4316-1077-400a-b17e-a2085a5a7312.md). 
   
 ## Which SharePoint Server 2013 enterprise social features are removed?
 

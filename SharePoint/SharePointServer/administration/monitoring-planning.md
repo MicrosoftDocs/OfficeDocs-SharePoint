@@ -203,8 +203,6 @@ The following table shows some factors that you should consider when you develop
 
 #### Concepts
 
-[Monitoring and Reporting in SharePoint Server](health-monitoring-and-reporting.md)
-  
 [Overview of monitoring in SharePoint Server](monitoring-overview.md)
   
 [Monitor apps for SharePoint for SharePoint Server](monitor-apps-for-sharepoint.md)

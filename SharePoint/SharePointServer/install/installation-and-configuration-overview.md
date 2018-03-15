@@ -39,8 +39,6 @@ The logical result of SharePoint Server 2013's flexibility and richness can be a
     
 - Site: One or more related Web pages and other items (such as lists, libraries, and documents) that are hosted inside a site collection.
     
-For more information about these and other architectural components, see [Plan logical architectures for SharePoint Server](logical-architecture-planning.md).
-  
 In addition to understanding the elements of a SharePoint Server 2013 environment and how they have to be configured for your solution, you must consider the following additional factors: physical architecture, installation and configuration, and the various stages of deployment.
   
 ## Physical architecture
@@ -109,8 +107,7 @@ In this phase, you get your servers ready to host the product. This includes the
     
   - [Plan security hardening for SharePoint Server](../security-for-sharepoint-server/security-hardening.md)
     
-  - [Plan authentication in SharePoint Server](plan-authentication.md)
-    
+  
 - Domain controller: The required farm accounts have to be configured for the domain and directory synchronization must be configured. 
     
     > [!IMPORTANT]
@@ -137,7 +134,7 @@ In this phase, you install the product and configure each server to support its 
 
 In this phase, you prepare the farm to host your site content by completing the following tasks:
   
-- Configure services. For more information, see [Configure services and service applications in SharePoint Server](configure-services-and-service-applications.md)
+- Configure services.
     
 - Configure global settings. For more information, see [Configure SharePoint Server](configure.md)
     

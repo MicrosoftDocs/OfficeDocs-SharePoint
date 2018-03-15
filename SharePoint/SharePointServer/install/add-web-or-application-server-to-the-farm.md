@@ -160,7 +160,7 @@ You add the new server to the farm by using one of the following procedures:
 10. On the server that hosts Central Administration, click **Manage servers in this farm** to verify that the new server is part of the farm. 
     
     > [!NOTE]
-    > You can also verify a successful server addition or troubleshoot a failed addition by examining the log files. These files are located on the drive on which SharePoint 2013 is installed, in the %COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\15\LOGS folder. For more information, see [Monitoring and Reporting in SharePoint Server](health-monitoring-and-reporting.md). 
+    > You can also verify a successful server addition or troubleshoot a failed addition by examining the log files. These files are located on the drive on which SharePoint 2013 is installed, in the %COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\15\LOGS folder. For more information, see [Monitoring and Reporting in SharePoint Server](monitoring-overview.md). 
   
 11. On the **Servers in Farm** page, click the name of the new server. Use the list of available services on the **Services on Server** page to start the services that you want to run on the new server. 
     
@@ -234,13 +234,13 @@ You add the new server to the farm by using one of the following procedures:
   ```
 
     > [!NOTE]
-    > You can also verify a successful server addition or troubleshoot a failed addition by examining the log files. These files are located on the drive on which SharePoint 2013 is installed, in the %COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\15\LOGS folder. For more information, see [Monitoring and Reporting in SharePoint Server](health-monitoring-and-reporting.md). 
+    > You can also verify a successful server addition or troubleshoot a failed addition by examining the log files. These files are located on the drive on which SharePoint 2013 is installed, in the %COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\15\LOGS folder. For more information, see [Monitoring and Reporting in SharePoint Server](monitoring-overview.md). 
   
 10. Configure SharePoint 2013 so that the new server can accommodate the role for which it was intended. For more information, see [Configure the new server](#configure).
     
 ## Configure the new server
 <a name="configure"> </a>
 
-The new server has no real functionality in the farm until you configure the services that are required to support the role that you planned for the new server. For more information, see [Configure services and service applications in SharePoint Server](configure-services-and-service-applications.md).
+The new server has no real functionality in the farm until you configure the services that are required to support the role that you planned for the new server. 
   
 

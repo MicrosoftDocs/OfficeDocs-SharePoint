@@ -145,9 +145,6 @@ Procedures in this task:
 
 ## See also
 
-#### Concepts
-
 [Overview of co-authoring in SharePoint Server](co-authoring-overview.md)
   
-[Co-authoring administration in SharePoint Server](co-authoring-administration.md)
 

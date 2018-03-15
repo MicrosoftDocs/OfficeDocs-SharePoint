@@ -76,10 +76,5 @@ The following articles about People Picker and custom claims providers are avail
 ## See also
 <a name="links"> </a>
 
-#### Concepts
-
-[Plan authentication in SharePoint Server](plan-authentication.md)
-#### Other Resources
-
 [Configure People Picker in SharePoint Server](http://technet.microsoft.com/library/8ad598cc-1f86-4c59-af28-78f66e49fe11%28Office.14%29.aspx)
 

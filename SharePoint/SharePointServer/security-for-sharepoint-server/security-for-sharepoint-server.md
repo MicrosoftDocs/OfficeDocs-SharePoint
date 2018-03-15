@@ -23,13 +23,10 @@ The following article provides information about authentication planning in Shar
   
 ||**Content**|**Description**|
 |:-----|:-----|:-----|
-|![Building blocks](../media/mod_icon_buildingblock_M.png)|[Plan authentication in SharePoint Server](plan-authentication.md) <br/> |Learn about authentication planning and how it works in SharePoint Server 2016 and SharePoint 2013.  <br/> |
 |![Building blocks](../media/mod_icon_buildingblock_M.png)|[Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocol support in SharePoint Server](secure-sockets-layer-ssl-and-transport-layer-security-tls-protocol-support-in-sh.md) <br/> |Describes the versions of the Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocols that SharePoint Server 2016 supports.  <br/> |
-|![Building blocks](../media/mod_icon_buildingblock_M.png)|[Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocol support in SharePoint 2013](secure-sockets-layer-ssl-and-transport-layer-security-tls-protocol-support-in-sh-0.md) <br/> |Describes the versions of the Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocols that SharePoint 2013 supports.  <br/> |
 |![Building blocks](../media/mod_icon_buildingblock_M.png)|[Enable TLS 1.1 and TLS 1.2 support in SharePoint Server 2016](enable-tls-1-1-and-tls-1-2-support-in-sharepoint-server-2016.md) <br/> |Describes how to enable Transport Layer Security (TLS) protocol versions 1.1 and 1.2 in a SharePoint Server 2016 environment. SharePoint Server 2016 fully supports TLS 1.1 and TLS 1.2.  <br/> |
 |![Building blocks](../media/mod_icon_buildingblock_M.png)|[Enable TLS and SSL support in SharePoint 2013](enable-tls-and-ssl-support-in-sharepoint-2013.md) <br/> |Describes how to enable Transport Layer Security (TLS) protocol versions 1.1 and 1.2 in a SharePoint 2013 environment. SharePoint 2013 fully supports TLS 1.1 and TLS 1.2.  <br/> |
 |![Building blocks](../media/mod_icon_buildingblock_M.png)|[Plan security hardening for SharePoint Server](security-hardening.md) <br/> |Learn about security hardening requirements for SharePoint Server 2013 and SharePoint Server 2016.  <br/> |
-|![Building blocks](../media/mod_icon_buildingblock_M.png)|[Security planning for SharePoint Server](security-planning.md) <br/> |Describes how to plan SharePoint Server 2013 and SharePoint Server 2016 security for server farms.  <br/> |
 |![Building blocks](../media/mod_icon_buildingblock_M.png)|[Federal Information Processing Standard security standards and SharePoint Server](federal-information-processing-standard-security-standards.md) <br/> |Learn about SharePoint Server 2016 and SharePoint Server 2013 support for Federal Information Processing Standard (FIPS).  <br/> |
    
 

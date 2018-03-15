@@ -252,9 +252,7 @@ The following illustration shows a stretched farm.
 <a name="BckResOpts"> </a>
 
 Your high availability strategy must include the appropriate backup and restore operations to make sure that the SharePoint farm is resilient. When an incident, such as a media failure or user error occurs, you must be able to restore the affected part of the farm environment or farm data in a timely manner. An effective backup and restore solution should enable you to meet the Recovery Time Objectives (RTO) and Recovery Point Objectives (RPO) that you define.
-  
-For more information, see [Backup and restore in SharePoint Server](backup-and-restore.md).
-  
+   
 ## See also
 <a name="BckResOpts"> </a>
 

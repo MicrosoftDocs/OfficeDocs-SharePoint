@@ -47,7 +47,5 @@ Use the following procedure to update the user permissions for a web application
 
 [Administration of SharePoint Server](administration.md)
   
-[Plan authentication in SharePoint Server](plan-authentication.md)
-  
 [Manage permission policies for a web application in SharePoint Server](manage-permission-policies-for-a-web-application.md)
 
