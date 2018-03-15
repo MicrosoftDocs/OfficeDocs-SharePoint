@@ -6,10 +6,9 @@ manager: pamgreen
 ms.date: 3/1/2018
 ms.audience: ITPro
 ms.topic: article
-keywords:
-- 653716010
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
+robots: noindex
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
