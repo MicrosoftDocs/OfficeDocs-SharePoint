@@ -43,7 +43,6 @@ Every time a branch office user requests a cached file from SharePoint Server 20
   
 For more information about BranchCache, see the following resources: 
   
-- [BranchCache](https://go.microsoft.com/fwlink/p/?LinkId=149834) Resource Center on TechNet 
     
 - [BranchCache Overview](https://technet.microsoft.com/library/hh831696.aspx) for Windows 8 and Windows Server 2012 
     

@@ -20,11 +20,8 @@ description: "Summary: Learn how to prepare for, download, install, and then con
 
  **Summary:** Learn how to prepare for, download, install, and then configure software updates and patches for SharePoint 2013. 
   
-Microsoft periodically releases software updates for SharePoint 2013. The following articles on TechNet and related resources provide information about the software update process for SharePoint 2013.
+Microsoft periodically releases software updates for SharePoint 2013. The following articles and related resources provide information about the software update process for SharePoint 2013.
   
-## TechNet articles about software updates for SharePoint 2013
-
-The following articles about software updates for SharePoint 2013 are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
   
 |**        ![Building blocks](../media/mod_icon_buildingblock_M.png)                 **|**Content**|**Description**|
 |:-----|:-----|:-----|

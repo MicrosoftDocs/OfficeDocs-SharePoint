@@ -17,7 +17,7 @@ description: "Summary: Create a well-designed plan to install and configure sear
 
  **Summary:** Create a well-designed plan to install and configure search in SharePoint Server 2016 or SharePoint Server 2013. 
   
-The following articles on TechNet provide information about the planning you need to do to deploy search in SharePoint Server.
+The following articles provide information about the planning you need to do to deploy search in SharePoint Server.
   
 ## Articles about planning search
 

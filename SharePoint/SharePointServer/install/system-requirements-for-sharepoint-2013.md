@@ -21,11 +21,8 @@ description: "Summary: Introduces articles that describe hardware, software, and
   
 Before you install SharePoint 2013, you must make sure that you have installed all required hardware and software. To effectively plan your deployment, you must understand the level of support that is provided for the web browsers that you will be using in your environment and how support for IP versions 4 and 6 is implemented in SharePoint 2013. You must also understand the URL and path length restrictions in SharePoint 2013. 
   
-The following articles on TechNet help you prepare for the installation of SharePoint 2013 by providing information about the prerequisites that you must have in order to run SharePoint 2013.
+The following articles help you prepare for the installation of SharePoint 2013 by providing information about the prerequisites that you must have in order to run SharePoint 2013.
   
-## TechNet articles about SharePoint 2013 system requirements
-
-The following articles about SharePoint 2013 are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
   
 ||**Content**|**Description**|
 |:-----|:-----|:-----|

@@ -22,11 +22,8 @@ description: "Summary: This article introduces topics that describe hardware, so
   
 Before you install SharePoint Server 2016, you must make sure that you have installed all required hardware and software. To effectively plan your deployment, you must understand the level of support that is provided for the web browsers that you will be using in your environment and how support for IP versions 4 and 6 is implemented in SharePoint Server 2016. You must also understand the URL and path length restrictions in SharePoint Server 2016.
   
-The following articles on TechNet help you prepare for the installation of SharePoint Server 2016 by providing information about the prerequisites that you must have in order to run SharePoint Server 2016.
+The following articles help you prepare for the installation of SharePoint Server 2016 by providing information about the prerequisites that you must have in order to run SharePoint Server 2016.
   
-## TechNet articles about SharePoint Server 2016 system requirements
-
-You can view the following articles about SharePoint Server 2016 online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
   
 ||**Content**|**Description**|
 |:-----|:-----|:-----|

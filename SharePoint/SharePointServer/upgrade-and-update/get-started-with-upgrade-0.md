@@ -21,7 +21,7 @@ description: "Summary: Find resources to help you understand how to upgrade data
   
 The first step in any upgrade process is to learn about the process itself so that you can plan and prepare appropriately. These articles help you understand how the process of upgrading from SharePoint 2010 Products to SharePoint 2013 works. These articles also include overviews of how to upgrade service applications.
   
-The following downloadable resources, articles on TechNet, video recordings, and related resources provide information about understanding upgrade for SharePoint 2013.
+The following downloadable resources, articles, video recordings, and related resources provide information about understanding upgrade for SharePoint 2013.
   
 ## Downloadable resources about upgrade to SharePoint 2013
 
@@ -31,9 +31,8 @@ Download the following content for information about upgrade.
 |:-----|:-----|:-----|
 |![Architecture icon](../media/mod_icon_architectureDiagrams_S.png)|[SharePoint 2013 Products Preview - Upgrade Process model](https://go.microsoft.com/fwlink/?LinkId=255047) <br/> |Describes the steps in the process for a database attach upgrade  <br/> |
    
-## TechNet articles about understanding upgrade
+## Articles about understanding upgrade
 
-The following articles about understanding upgrade are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
   
 ||**Content**|**Description**|
 |:-----|:-----|:-----|

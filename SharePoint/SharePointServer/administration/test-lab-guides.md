@@ -16,11 +16,8 @@ description: "Summary: Find the set of Test Lab Guides (TLGs) for SharePoint 201
 
  **Summary:** Find the set of Test Lab Guides (TLGs) for SharePoint 2013 to gain valuable hands-on experience before planning and deployment. 
   
-The following articles on TechNet and related resources provide information about TLGs for SharePoint 2013. 
+The following articles and related resources provide information about TLGs for SharePoint 2013. 
   
-## TechNet articles about TLGs for SharePoint 2013
-
-The following articles about the set of TLGs for SharePoint 2013 are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
   
 ||**Content**|**Description**|
 |:-----|:-----|:-----|

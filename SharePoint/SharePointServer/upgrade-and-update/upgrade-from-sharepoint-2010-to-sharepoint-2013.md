@@ -20,7 +20,7 @@ description: "Summary: Learn how to plan, prepare, and perform an upgrade to Sha
 
  **Summary: ** Learn how to plan, prepare, and perform an upgrade to SharePoint 2013. 
   
-The following downloadable resources, articles on TechNet, video recordings, and related resources provide information about performing an upgrade to SharePoint 2013.
+The following downloadable resources, articles, video recordings, and related resources provide information about performing an upgrade to SharePoint 2013.
   
 ## Downloadable resources about upgrade
 
@@ -32,9 +32,8 @@ Download the following content for information about upgrade.
 |![Architecture icon](../media/mod_icon_architectureDiagrams_S.png)|[SharePoint 2013 - Test Your Upgrade Process model](https://go.microsoft.com/fwlink/?LinkId=252098) <br/> |See a visual display of information about how to test the upgrade process.  <br/> |
 |![Downloads](../media/mod_icon_download_M.png)|[SharePoint 2013 Upgrade Worksheet](https://go.microsoft.com/fwlink/?LinkId=252097) <br/> |Use this worksheet to record information about your environment while you test upgrade.  <br/> |
    
-## TechNet articles about upgrade
+## Articles about upgrade
 
-The following articles about upgrade are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
   
 |**        ![Building blocks](../media/mod_icon_buildingblock_M.png)          Content**|**Description**|
 |:-----|:-----|

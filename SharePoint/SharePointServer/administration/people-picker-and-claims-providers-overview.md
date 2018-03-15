@@ -22,15 +22,6 @@ description: "Summary: Get an overview of People Picker and links to topics abou
   
 People Picker is a web control that is used to find and select users, groups, and claims to grant permission to items such as lists, libraries, or sites in SharePoint Server 2013. For web applications that use claims-based authentication, the People Picker control uses claims providers to list, resolve, search, and determine the "friendly" display of users, groups, and claims. A claims provider in SharePoint Server 2013 issues claims, which SharePoint Server 2013 then packages into security tokens for users. Although People Picker is used by site, list, and library owners to assign permissions to sites and content in SharePoint Server 2013, its behavior is heavily dependent on how authentication is configured for the whole web application. It is important to plan for People Picker and claims providers when you plan authentication methods for your SharePoint Server 2013 solution.
   
-In this article:
-  
-- [People Picker architecture](#architecture)
-    
-- [About the People Picker control](#about)
-    
-- [People Picker and authentication](#auth)
-    
-- [TechNet articles about People Picker and custom claims providers](#links)
     
 ## People Picker architecture
 <a name="architecture"> </a>
@@ -72,7 +63,7 @@ When classic mode authentication (also known as Windows classic authentication) 
   
 For more information about classic mode authentication, see [Plan for user authentication methods in SharePoint Server](../security-for-sharepoint-server/plan-user-authentication.md). For information about how to create a web application that uses classic mode authentication, see [Create web applications that use classic mode authentication in SharePoint Server](http://technet.microsoft.com/library/57c6d1ee-e2b7-4b48-9865-354fe8cc8fe2%28Office.14%29.aspx).
   
-## TechNet articles about People Picker and custom claims providers
+## Articles about People Picker and custom claims providers
 <a name="links"> </a>
 
 The following articles about People Picker and custom claims providers are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.

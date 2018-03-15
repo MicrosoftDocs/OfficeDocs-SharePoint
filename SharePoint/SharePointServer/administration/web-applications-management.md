@@ -17,7 +17,7 @@ description: "Summary: Learn how to manage web applications in a SharePoint Serv
 
  **Summary:** Learn how to manage web applications in a SharePoint Server 2016 or SharePoint Server 2013 farm. 
   
-The following articles on TechNet describe how to create and manage web applications in a SharePoint Server farm. These articles are written for farm administrators who will operate SharePoint Server. The articles also describe how to manage permissions and permission policies for a web application.
+The following articles describe how to create and manage web applications in a SharePoint Server farm. These articles are written for farm administrators who will operate SharePoint Server. The articles also describe how to manage permissions and permission policies for a web application.
   
 ||**Content**|**Description**|
 |:-----|:-----|:-----|

@@ -20,7 +20,7 @@ description: "Summary: Technical reference articles provide information about Po
 
  **Summary:** Technical reference articles provide information about PowerShell for SharePoint Server 2016 and SharePoint Server 2013 plus other useful reference information about general settings, security, and tools. 
   
-The following articles on TechNet provide information about reference content for SharePoint Server.
+The following articles provide information about reference content for SharePoint Server.
   
 ## TechNet technical reference articles about SharePoint Server
 

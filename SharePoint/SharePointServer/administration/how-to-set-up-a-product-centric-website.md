@@ -17,7 +17,7 @@ description: "Summary: Learn how set up a product-centric website in SharePoint 
 
  **Summary:** Learn how set up a product-centric website in SharePoint Server. 
   
-This series of TechNet articles explains how to use SharePoint Server to set up a website based on product catalog data. Throughout this series, we'll use data from a fictitious company called "Contoso" to show how it all comes together. Contoso is a manufacturer and retailer of technology products and home appliances, and they want to set up a product-centric website to present their catalog to potential customers.
+This series of articles explains how to use SharePoint Server to set up a website based on product catalog data. Throughout this series, we'll use data from a fictitious company called "Contoso" to show how it all comes together. Contoso is a manufacturer and retailer of technology products and home appliances, and they want to set up a product-centric website to present their catalog to potential customers.
   
 To give you an idea of the goals for the Contoso website, here are some screen shots of what our Contoso website will be like when we're done.
   

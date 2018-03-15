@@ -21,9 +21,6 @@ description: "Summary: The articles in this section contain restore solutions fo
   
 The following articles provide information about how to restore SharePoint Server 2016 data. These articles are written to meet the requirements of information technology (IT) professionals who are responsible for the planning, design, deployment, and operations of backup and recovery solutions. These solutions might be in enterprise, corporate, or branch office environments. The IT professionals who are responsible for backup and recovery solutions are expected to have an understanding of the technical details that are contained in this section.
   
-## TechNet articles about restore
-
-The following articles about restore solutions for SharePoint Server are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
   
 |**Content**|**Description**|
 |:-----|:-----|

@@ -22,11 +22,8 @@ description: "Summary: Introduces articles that describe how to install SharePoi
   
 Testing and implementing SharePoint 2013 solutions at different stages of the deployment life cycle requires deployments in various topologies.
   
-The following articles on TechNet provide information about how to deploy SharePoint 2013 on one or more servers to create different topologies that you can use for testing and implementing SharePoint 2013 solutions at different stages of the deployment life cycle.
+The following articles provide information about how to deploy SharePoint 2013 on one or more servers to create different topologies that you can use for testing and implementing SharePoint 2013 solutions at different stages of the deployment life cycle.
   
-## TechNet articles about how to install and configure SharePoint 2013
-
-The following articles about how to install and configure SharePoint 2013 are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
   
 |**        ![Building blocks](../media/mod_icon_buildingblock_M.png)          Content**|**Description**|
 |:-----|:-----|

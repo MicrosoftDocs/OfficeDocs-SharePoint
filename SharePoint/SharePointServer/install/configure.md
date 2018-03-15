@@ -21,9 +21,6 @@ description: "Summary: Lists articles that describe how to configure settings (s
   
 After you install SharePoint Server, you must configure several additional settings to enable key features in your farm. The articles in this section provide steps for configuring these settings.
   
-## TechNet articles about how to configure settings for the server farm
-
-The following articles about how to configure settings for the server farm are available to view online. 
   
 |**Content**|**Description**|
 |:-----|:-----|
