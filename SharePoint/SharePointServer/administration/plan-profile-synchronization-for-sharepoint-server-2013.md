@@ -54,7 +54,7 @@ Finally, you'll answer more straightforward questions such as whether you'll syn
 Each property in a user's profile can come from an external system. There are two types of external systems: directory services and business systems. Throughout this article, the phrase business system is used to mean an external system that is not a directory service. SAP, Siebel, SQL Server, and custom applications are all examples of business systems. 
   
 > [!NOTE]
-> For a list of supported directory services, see [Profile synchronization overview](profile-synchronization-in-sharepoint-server-2013.md#supported). 
+> For a list of supported directory services, see [Profile synchronization overview](profile-synchronization-in-sharepoint-server-2013.md). 
   
 In SharePoint Server 2013, a synchronization connection is a way to obtain user profile information from an external system. To import profiles from one of the supported directory services, you create a synchronization connection to the directory service. To import additional profile properties from a business system, you create an external content type to bring the data from the business system into SharePoint Server 2013, and then create a synchronization connection to the external content type. The following sections explain how to collect the information that you will need about each synchronization connection. 
   
