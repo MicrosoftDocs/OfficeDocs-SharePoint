@@ -1,0 +1,40 @@
+---
+title: "Configure monitoring in SharePoint Server 2016"
+ms.author: jhendr
+author: JoanneHendrickson
+manager: pamgreen
+ms.date: 9/17/2016
+ms.audience: ITPro
+ms.topic: article
+ms.prod: sharepoint-server-itpro
+localization_priority: Normal
+ms.collection: IT_Sharepoint_Server_Top
+ms.assetid: 274c4c7a-e635-4bc9-85b3-9737620f9909
+description: "Summary: Learn more about SharePoint diagnostic logging, SharePoint Health Analyzer timer jobs and rules, and usage and health data."
+---
+
+# Configure monitoring in SharePoint Server 2016
+
+ **Summary:** Learn more about SharePoint diagnostic logging, SharePoint Health Analyzer timer jobs and rules, and usage and health data. 
+  
+> [!NOTE]
+> It may be necessary to configure your monitoring settings after your intial SharePoint deployment or upgrade. SharePoint Server 2016 
+  
+## Configure monitoring
+
+Included in this section:
+  
+- [Configure diagnostic logging in SharePoint Server](configure-diagnostic-logging.md)
+    
+- [Configure SharePoint Health Analyzer timer jobs in SharePoint Server 2016](configure-sharepoint-health-analyzer-timer-jobs.md)
+    
+- [Configure usage and health data collection in SharePoint Server](configure-usage-and-health-data-collection.md)
+    
+- [Configure SharePoint Health Analyzer rules in SharePoint Server](configure-sharepoint-health-analyzer-rules.md)
+    
+## See also
+
+#### Concepts
+
+[Monitoring and Reporting in SharePoint Server](health-monitoring-and-reporting.md)
+
