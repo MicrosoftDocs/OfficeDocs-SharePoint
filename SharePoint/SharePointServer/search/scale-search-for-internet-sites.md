@@ -21,11 +21,6 @@ This article lists the minimum hardware requirements for virtual machines and ph
   
 This article also provides basic guidance on the scaling of search topologies to improve performance and availability.
   
-In this article:
-  
-- [Hardware requirements for search topologies for Internet sites](scale-search-for-internet-sites.md#HW_FIS)
-    
-- [Performance considerations for a medium Internet sites topology](scale-search-for-internet-sites.md#Scale_FIS)
     
 ## Introduction
 

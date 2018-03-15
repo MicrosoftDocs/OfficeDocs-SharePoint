@@ -27,17 +27,6 @@ This article describes guidance about performance and capacity planning for a di
     
 Use the information in this article to understand the characteristics of the scenario under both normal and peak loads, and how performance trends change when farm servers are scaled out. This article can also help you estimate an appropriate starting point for your planned architecture, and understand things to consider when you develop a plan to maintain acceptable levels of performance under peak load.
   
-In this article:
-  
-- [Introduction](#intro)
-    
-- [Glossary](#glossary)
-    
-- [Overview](#overview)
-    
-- [Specifications](#specs)
-    
-- [Results and analysis](#results)
     
 ## Introduction
 <a name="intro"> </a>

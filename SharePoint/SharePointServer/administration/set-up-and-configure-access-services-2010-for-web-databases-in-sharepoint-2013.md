@@ -21,15 +21,6 @@ Access Services 2010 is a service application that allows users to modify and pu
   
 The Access client is not required to use the published web database. However, the Access client is required to make any changes to the database structure. 
   
-In this article:
-  
-- [Set up SQL Server Reporting Services](set-up-and-configure-access-services-2010-for-web-databases-in-sharepoint-2013.md#section1)
-    
-- [Start Access Database Service 2010](set-up-and-configure-access-services-2010-for-web-databases-in-sharepoint-2013.md#section2)
-    
-- [Create an Access Services 2010 service application](set-up-and-configure-access-services-2010-for-web-databases-in-sharepoint-2013.md#section3)
-    
-- [Configure Access Services 2010 settings](set-up-and-configure-access-services-2010-for-web-databases-in-sharepoint-2013.md#section4)
     
 ## Set up SQL Server Reporting Services
 <a name="section1"> </a>

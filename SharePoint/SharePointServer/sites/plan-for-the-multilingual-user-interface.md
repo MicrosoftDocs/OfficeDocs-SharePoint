@@ -23,21 +23,6 @@ The multilingual user interface (MUI) feature enables users to display the user 
   
 For information about how to plan for multilingual sites, see [Plan for multilingual sites in SharePoint Server](plan-for-multilingual-sites.md).
   
-In this article:
-  
-- [How the multilingual user interface works](#MUIWorks)
-    
-- [Use and benefits of the multilingual user interface feature](#MUIBene)
-    
-- [What is supported by the multilingual user interface](#supported)
-    
-- [Managing application content](#appcontent)
-    
-- [Using the multilingual user interface with managed metadata](#UseMUI)
-    
-- [Limitations of the multilingual user interface](#MUILimits)
-    
-- [Plan to use the multilingual user interface](#PlanMUI)
     
 ## How the multilingual user interface works
 <a name="MUIWorks"> </a>

@@ -23,15 +23,6 @@ You can quickly publish a SharePoint site by deploying SharePoint 2013 on a sing
   
 This article contains required information and procedures to install and configure SharePoint 2013 with a built-in database on a single server.
   
-In this article:
-  
-- [Install SharePoint 2013 on a single server with a built-in database](http://technet.microsoft.com/library/bd99c3a9-0333-4c1c-9793-a145769e48e6%28Office.14%29.aspx#section1)
-    
-- [Install SharePoint 2013 on a single server with a built-in database](http://technet.microsoft.com/library/bd99c3a9-0333-4c1c-9793-a145769e48e6%28Office.14%29.aspx#section2)
-    
-- [Install SharePoint 2013 on a single server with a built-in database](http://technet.microsoft.com/library/bd99c3a9-0333-4c1c-9793-a145769e48e6%28Office.14%29.aspx#section3)
-    
-- [Install SharePoint 2013 on a single server with a built-in database](http://technet.microsoft.com/library/bd99c3a9-0333-4c1c-9793-a145769e48e6%28Office.14%29.aspx#section4)
     
 > [!IMPORTANT]
 > The steps in this article apply to SharePoint Foundation 2013 and SharePoint Server 2013. The procedures in this topic install Microsoft SQL Server 2008 R2 SP1 Express Edition. However, User Profile synchronization does not work with the Express Edition. If you intend to use User Profile synchronization withSharePoint Server 2013, you must choose a different installation scenario. 

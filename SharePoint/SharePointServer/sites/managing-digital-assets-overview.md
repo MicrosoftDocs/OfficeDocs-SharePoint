@@ -22,15 +22,6 @@ For more information about how to plan a solution for managing digital assets, s
   
 Increasing numbers of office workers create or reuse images and other rich media assets as part of their daily tasks. Often, however, no centralized repository exists at the departmental or enterprise level that is optimized for storing these assets. A centralized repository lets users easily discover and reuse rich media assets that others have already created. The asset library in SharePoint Server 2013 can save an organization time and other resources by providing a specialized repository for storing and managing digital assets. Users no longer have to look for assets in multiple locations over the network, or re-create assets from scratch. By using a centralized repository for managing digital assets, the organization also exerts tighter control over brand-sensitive content and can make sure that only approved assets for products are made available to the appropriate users.
   
-In this article:
-  
-- [About managing digital assets](managing-digital-assets-overview.md#Section1)
-    
-- [Users of an asset library](managing-digital-assets-overview.md#Section2)
-    
-- [Managing digital assets in SharePoint Server 2013](managing-digital-assets-overview.md#Section3)
-    
-- [Scenarios for using the asset library](managing-digital-assets-overview.md#Section4)
     
 ## About managing digital assets
 <a name="Section1"> </a>

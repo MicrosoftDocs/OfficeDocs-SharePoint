@@ -21,13 +21,6 @@ description: "Summary: Learn how to restore configuration information (such as a
   
 You can restore a farm configuration in SharePoint Server by using the SharePoint Central Administration website or Microsoft PowerShell. Which backup tool you use depends on what kind of environment you have deployed, what your backup schedule requires, and what service level agreements you have made with your organization.
   
-In this article:
-  
-- [Before you begin](#begin)
-    
-- [Using PowerShell to restore a farm's configuration in SharePoint](#proc1)
-    
-- [Using Central Administration to restore a farm's configuration in SharePoint](#proc2)
     
 ## Before you begin
 <a name="begin"> </a>

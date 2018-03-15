@@ -34,17 +34,6 @@ To provide the requested resources from an app for SharePoint, the server that r
     
 Note that app authentication in SharePoint Server is separate from user authentication and is not used as a sign-in authentication protocol by SharePoint users. App authentication uses the [Open Authorization (OAuth) 2.0 protocol](https://go.microsoft.com/fwlink/p/?LinkID=214783) and does not add to the set of user authentication or sign-on protocols, such as WS-Federation. There are no new user authentication protocols in SharePoint Server. App authentication and OAuth do not appear in the list of identity providers. 
   
-In this article:
-  
-- [Introduction](#intro)
-    
-- [Identify the set of trust relationships](#trust)
-    
-- [Choose user authentication methods for on-premises apps](#onprem)
-    
-- [Provide incoming access from external applications hosted on the Internet](#Inbound)
-    
-- [Address User Profile application service considerations](#UP)
     
 ## Introduction
 <a name="intro"> </a>

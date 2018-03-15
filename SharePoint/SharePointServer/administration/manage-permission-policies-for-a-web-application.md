@@ -27,11 +27,6 @@ There are default policy levels of Full Control, Full Read, Deny Write, and Deny
   
 The procedures in this article cover how to set up and use permission policy levels and assign users to them. You need to be a member of the Farm Administrators group to follow these procedures.
   
-In this article:
-  
-- [Create, edit, or delete a custom permission policy level](manage-permission-policies-for-a-web-application.md#section3)
-    
-- [Add users to or remove users from a permission policy level](manage-permission-policies-for-a-web-application.md#section1)
     
 ## Create, edit, or delete a custom permission policy level
 <a name="section3"> </a>

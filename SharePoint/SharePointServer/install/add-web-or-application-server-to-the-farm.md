@@ -21,17 +21,6 @@ description: "Summary: Learn how to add a server to an existing SharePoint 2013 
   
 The procedures in this article apply to a SharePoint 2013 farm that consists of at least two tiers. This article does not describe how to convert a single-server deployment to a multiple-server farm.
   
-In this article:
-  
-- [Before you add a server to a SharePoint farm](add-a-server-to-a-sharepoint-server-2016-farm.md#begin)
-    
-- [Install prerequisite software](add-a-server-to-a-sharepoint-server-2016-farm.md#prereq)
-    
-- [Install the SharePoint software ](add-a-server-to-a-sharepoint-server-2016-farm.md#installSP)
-    
-- [Add the new SharePoint server to the farm](add-a-server-to-a-sharepoint-server-2016-farm.md#addserver)
-    
-- [](add-a-server-to-a-sharepoint-server-2016-farm.md#configure)
     
 ## Before you add a web or application server to a SharePoint farm
 <a name="begin"> </a>

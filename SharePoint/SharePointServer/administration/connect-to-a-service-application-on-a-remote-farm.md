@@ -23,11 +23,6 @@ In SharePoint Server, you can publish some service applications to make them ava
   
 You can connect to a service application that has been shared by another farm if you know the address of the farm's discovery service or the address of the service application. Be aware that you can only connect to a service application on a remote farm if the farm administrator for the remote farm has published the service application.
   
-In this article:
-  
-- [To connect to a service application on a remote farm by using Central Administration](#ProcCA)
-    
-- [To connect to a service application on a remote farm by using Windows PowerShell](#ProcWPS)
     
 Before you begin this operation, review [Share service applications across farms in SharePoint Server](share-service-applications-across-farms.md) for information about prerequisites. 
   

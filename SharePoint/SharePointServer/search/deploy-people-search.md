@@ -27,15 +27,6 @@ When a user enters a search query in the search box and then clicks one of the s
   
 This article describes the prerequisites that you must complete to make people search possible, and addresses other considerations related to making people search work.
   
-In this article:
-  
-- [People search prerequisites](#BKMK_Prereqs)
-    
-- [Set up people search](#BKMK_SetUp)
-    
-- [Add data for people search](#BKMK_Populate)
-    
-- [Crawl the profile store](#BKMK_CrawlProfileStore)
     
 > [!NOTE]
 > **Regarding accessibility:**SharePoint supports the accessibility features of common browsers to help you administer deployments and access sites. For more information, see [Accessibility for SharePoint 2013](94ad4316-1077-400a-b17e-a2085a5a7312.md). 

@@ -19,15 +19,6 @@ description: "Summary: Learn how the Analytics Processing Component analyzes con
   
 To help identify and surface the content that users consider to be the most useful and relevant, the **Analytics Processing Component** in SharePoint Server analyzes both the content itself, and also the way that users interact with it. The results from the analysis are added to the items in the search index so that search relevance improves automatically over time. Also, the results are used in reports that help search administrators see which manual steps they can take to improve the search system. 
   
-In this article:
-  
-- [The analytics architecture](overview-of-analytics-processing.md#BKMK_TheAnalyticsArchitechture)
-    
-- [The different types of analyses](overview-of-analytics-processing.md#BKMK_TheDifferentType)
-    
-- [The usage events used by Usage analytics](overview-of-analytics-processing.md#BKMK_TheDefaultUsageEvents)
-    
-- [Reports based on analytics processing](overview-of-analytics-processing.md#BKMK_Reporting)
     
 ## The analytics architecture
 <a name="BKMK_TheAnalyticsArchitechture"> </a>

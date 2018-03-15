@@ -19,35 +19,6 @@ Learn about best practices for crawling in SharePoint Server 2016 and SharePoint
   
 The Search system crawls content to build a search index that users can run search queries against. This article contains suggestions as to how to manage crawls most effectively.
   
-In this article:
-  
-- [Use the default content access account to crawl most content](#BKMK_UseDefault)
-    
-- [Use content sources effectively](#BKMK_UseContentSources)
-    
-- [Crawl user profiles before you crawl SharePoint Server sites](#BKMK_CrawlUserProfiles)
-    
-- [Use continuous crawls to help ensure that search results are fresh](#BKMK_UseContinuousCrawls)
-    
-- [Use crawl rules to exclude irrelevant content from being crawled](#BKMK_UseCrawlRules)
-    
-- [Crawl the default zone of SharePoint Server web applications](#BKMK_CrawlDefaultZone)
-    
-- [Reduce the effect of crawling on SharePoint Server crawl targets](#BKMK_ReduceEffect)
-    
-- [Use Active Directory groups instead of individual users for permissions](#BKMK_UseADGroups)
-    
-- [Add a second crawl component to provide fault tolerance](#BKMK_AddSecond)
-    
-- [Manage environment resources to improve crawl performance](#BKMK_ManageEnvironment)
-    
-- [Make sure no crawls are active before you change the search topology](#BKMK_MakeSureNoCrawls)
-    
-- [Remove crawl components from a crawl host before you remove the host from a farm](#BKMK_RemoveCrawlComponents)
-    
-- [Test crawl and query functionality after you change the crawl configuration or apply updates](#BKMK_TestCrawl)
-    
-- [Use the crawl log and crawl-health reports to diagnose problems](#BKMK_UseCrawlLog)
     
 ## Use the default content access account to crawl most content
 <a name="BKMK_UseDefault"> </a>

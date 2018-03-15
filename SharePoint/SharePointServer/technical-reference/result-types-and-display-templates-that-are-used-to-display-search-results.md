@@ -19,15 +19,6 @@ description: "Summary: Learn about the default result types and display template
   
 SharePoint Server includes many default search features that do a great job in helping users find what they're looking for. But you might want your search results to look a certain way, for example, display information that's specific to your company or business. To customize how search results look and what information they contain, you can create new result types and display templates or change existing ones. This article does not describe how you can do this, but gives an overview of the default result types and display templates that are used to display search results.
   
-In this article:
-  
-- [About result types](result-types-and-display-templates-that-are-used-to-display-search-results.md#BKMK_AboutSearchResults)
-    
-- [How result types and display templates are connected](result-types-and-display-templates-that-are-used-to-display-search-results.md#BKMK_Association)
-    
-- [Common display templates that are used by all result types](result-types-and-display-templates-that-are-used-to-display-search-results.md#BKMK_Common)
-    
-- [Display template that is used for promoted results](result-types-and-display-templates-that-are-used-to-display-search-results.md#BKMK_BestBets)
     
 ## About result types
 <a name="BKMK_AboutSearchResults"> </a>

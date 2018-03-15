@@ -17,15 +17,6 @@ description: "Summary: Learn to configure diagnostic logging in SharePoint Serve
 
  **Summary:** Learn to configure diagnostic logging in SharePoint Server 2013 and SharePoint Server 2016 from the SharePoint Central Administration website or by using Windows PowerShell. 
   
-In this article:
-  
-- [Before you begin](#begin)
-    
-- [Diagnostic logging setting best practices](#section1)
-    
-- [Configure diagnostic logging by using Central Administration](#section2)
-    
-- [Configure diagnostic logging by using Windows PowerShell](#section3)
     
 ## Prerequisites
 

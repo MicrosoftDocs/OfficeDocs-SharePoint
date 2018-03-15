@@ -18,13 +18,6 @@ description: "Summary: Learn about the User Profile service architecture and how
   
 The User Profile service stores information about users in a central location. It enables My Sites, social computing features such as social tagging and newsfeeds, and creating and distributing profiles across multiple sites and farms. It is also required by most [SharePoint hybrid scenarios](../hybrid/hybrid.md).
   
-In this article:
-  
-- [The User Profile service application](user-profile-service-overview.md#benefit)
-    
-- [User profile databases](user-profile-service-overview.md#architecture)
-    
-- [Related service applications](user-profile-service-overview.md#related)
     
 ## The User Profile service application
 <a name="benefit"> </a>

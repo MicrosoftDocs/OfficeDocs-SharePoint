@@ -23,15 +23,6 @@ SharePoint Server and SharePoint Online have features that enable you to support
   
 For information about how to create multilingual sites, see [Choose the languages you want to make available for a site's user interface](https://go.microsoft.com/fwlink/p/?LinkId=307131) and [Create a multi-language website](https://go.microsoft.com/fwlink/p/?LinkId=307132). 
   
-In this article:
-  
-- [About SharePoint multilingual sites](plan-for-multilingual-sites.md#BKMK_About)
-    
-- [Determine language and locale requirements](plan-for-multilingual-sites.md#BKMK_langreq)
-    
-- [Determine language pack requirements](plan-for-multilingual-sites.md#BKMK_langpack)
-    
-- [Decide whether to use site variations](plan-for-multilingual-sites.md#BKMK_variations)
     
     > [!IMPORTANT]
     > This section does not apply to SharePoint Foundation 2013. 

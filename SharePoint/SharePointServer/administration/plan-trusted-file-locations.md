@@ -18,21 +18,6 @@ description: "Summary: Plan Excel Services trusted file location parameters, inc
   
 This article describes trusted file locations for Excel Services.
   
-In this article:
-  
-- [Introduction to Trusted File Locations for Excel Services](#introduction)
-    
-- [Workbook location settings for Excel Services](#location)
-    
-- [Session management settings for Excel Services](#sessionmanagement)
-    
-- [Workbook and image size settings for Excel Services](#imagesize)
-    
-- [Calculation behavior settings for Excel Services](#calculation)
-    
-- [External Data settings for Excel Services](#externaldata)
-    
-- [User-defined functions settings for Excel Services](#userdefinedfunctions)
     
 ## Introduction to Trusted File Locations for Excel Services
 <a name="introduction"> </a>

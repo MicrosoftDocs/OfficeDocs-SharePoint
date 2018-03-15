@@ -21,15 +21,6 @@ description: "Summary: Learn how to add a content database to your SharePoint Se
   
 You can add a content database to a SharePoint Server farm by using the SharePoint Central Administration website or Microsoft PowerShell. The tool that you use depends on the kind of environment that you have deployed, your schedule requirements, and service level agreements that you have made with your organization.
   
-In this article:
-  
-- [Before you begin](#begin)
-    
-- [Adding a content database to a SharePoint Server web application](#proc1)
-    
-  - [To add a content database to a web application by using Central Administration](#CA)
-    
-  - [To add a content database to a web application by using Windows PowerShell](#PS)
     
 ## Before you begin
 <a name="begin"> </a>

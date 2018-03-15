@@ -21,19 +21,6 @@ Without using any custom code, Search service application administrators, site c
   
 You can configure query rules for one or more result sources, and you can specify the time period during which the query rule is active. 
   
-In this article:
-  
-- [Creating query rules at different levels in a SharePoint Server farm](manage-query-rules.md#BKMK_CreateRuleLevels)
-    
-- [Create a query rule](manage-query-rules.md#BKMK_AddQueryRule)
-    
-- [Create and display a result block](manage-query-rules.md#BKMK_CreateAndDisplayResultBlock)
-    
-- [Change ranked search results](manage-query-rules.md#BKMK_ChangeRankedSearchResults)
-    
-- [Make a query rule inactive](manage-query-rules.md#BKMK_MakeInactive)
-    
-- [Rank query rules](manage-query-rules.md#BKMK_Rank)
     
 ## Creating query rules at different levels in a SharePoint Server farm
 <a name="BKMK_CreateRuleLevels"> </a>

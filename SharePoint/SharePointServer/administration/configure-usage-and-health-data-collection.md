@@ -19,17 +19,6 @@ description: "Summary: Learn how to configure usage and health data collection i
   
 SharePoint Server writes usage and health data to the logging folder and to the logging database. You can use the SharePoint Central Administration website to configure health data collection settings.
   
-In this article:
-  
-- [Before you begin](#begin)
-    
-- [Configure usage and health data collection by using Central Administration](#section1)
-    
-- [Configure usage data collection by using Windows PowerShell](#section2)
-    
-- [Configure usage data collection for events by using Windows PowerShell](#section3)
-    
-- [Log usage data in a different logging database by using Windows PowerShell](#section4)
     
 ## Before you begin
 <a name="begin"> </a>

@@ -21,11 +21,6 @@ SharePoint Health Analyzer uses timer jobs to collect health data and then write
   
 On that page, you can also configure usage data collection, event selection, and usage data collection settings. For more information, see [Configure usage and health data collection in SharePoint Server](configure-usage-and-health-data-collection.md).
   
-In this article:
-  
-- [Use Central Administration to configure health data collection timer jobs](#section1)
-    
-- [Use Windows PowerShell to configure health data collection timer jobs](#section2)
     
 ## Use Central Administration to configure health data collection timer jobs
 <a name="section1"> </a>

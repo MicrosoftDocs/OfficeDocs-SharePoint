@@ -24,17 +24,6 @@ SharePoint Server includes a set of web parts that users can add to pages after 
   
 SharePoint Server uses some of the configuration management settings that are provided by the Microsoft .NET Framework. Some of these settings are stored in XML configuration files and they provide a broad range of settings that server administrators use to manage the Web application and its environment. For more information about ASP.NET configuration files, see [Machine.Config and Web.Config Explained](https://go.microsoft.com/fwlink/p/?LinkId=103450) in "Securing Your ASP.NET Application and Web Services". 
   
-In this article:
-  
-- [Configuration options](#BKMK_ConfigurationOptions)
-    
-- [Setting security attributes](#BKMK_SettingSecurity)
-    
-- [Safe Controls list](#BKMK_SafeControls)
-    
-- [Deploy and configure a web part ](#BKMK_DeployConfigure)
-    
-- [Add a component to the Web Part Gallery ](#BKMK_AddWebGallery)
     
 ## Configuration options
 <a name="BKMK_ConfigurationOptions"> </a>

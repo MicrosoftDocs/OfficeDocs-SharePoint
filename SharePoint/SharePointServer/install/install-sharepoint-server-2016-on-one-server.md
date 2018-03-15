@@ -25,15 +25,6 @@ description: "Summary: Learn how to install SharePoint Server 2016 on a single s
 > [!NOTE]
 > In previous versions of SharePoint, a single server installation automatically installed SQL Server Express. In SharePoint Server 2016, a single server installation contains only SharePoint. SQL Server can be installed on the same server or on a separate server; both scenarios are supported. For better performance we recommend installing SQL Server on a separate server. 
   
-In this article:
-  
-- [Overview](install-sharepoint-server-2016-on-one-server.md#section1)
-    
-- [Before you install SharePoint Server 2016 on a single server](install-sharepoint-server-2016-on-one-server.md#section2)
-    
-- [Install SharePoint Server 2016 on a single server](install-sharepoint-server-2016-on-one-server.md#section3)
-    
-- [Post-installation steps](install-sharepoint-server-2016-on-one-server.md#section4)
     
 ## Overview
 <a name="section1"> </a>

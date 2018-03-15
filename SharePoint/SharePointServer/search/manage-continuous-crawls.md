@@ -29,17 +29,6 @@ A continuous crawl does not process or retry items that return errors more than 
   
 You can set incremental crawl times on the  _Search_Service_Application_Name_: Add/Edit Content Source page, but you can change the frequency interval for continuous crawls only by using Microsoft PowerShell.
   
-In this article:
-  
-- [To enable continuous crawls for an existing content source](#proc1)
-    
-- [To enable continuous crawls for a new content source](#Enable_for_new)
-    
-- [To disable continuous crawls for a content source](#proc2)
-    
-- [To disable continuous crawls for all content sources](#Disable_for_all)
-    
-- [To change the continuous crawl interval](#Change_interval)
     
 ## To enable continuous crawls for an existing content source
 <a name="proc1"> </a>

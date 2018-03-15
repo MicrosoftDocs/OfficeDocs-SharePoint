@@ -24,21 +24,6 @@ You control how much data a site collection can hold and the quantity of resourc
 > [!NOTE]
 > When you apply a quota template to a site collection, the storage limit applies to the site collection as a whole. In other words, the storage limit applies to the sum of the content sizes for the top-level site and all subsites within the site collection. If versioning is enabled, the versions in a site and the content in the Recycle Bins count toward storage limits. You can also specify a percentage of storage limits for the second-stage Recycle Bin. 
   
-In this article:
-  
-- [Before you begin](#begin)
-    
-- [Create a quota template](#Section1)
-    
-- [Edit a quota template](#Section2)
-    
-- [Delete a quota template](#Section3)
-    
-- [Change the settings of a quota template](#Section4)
-    
-- [Change the quota template for a site collection](#Section5)
-    
-- [Change the storage limits for a site collection](#Section6)
     
 ## Before you begin
 <a name="begin"> </a>

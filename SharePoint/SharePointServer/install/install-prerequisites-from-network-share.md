@@ -24,17 +24,6 @@ Installing prerequisites from an offline location is typically required when the
 > [!NOTE]
 > The Microsoft SharePoint Products Preparation Tool is a user interface built on PrerequisiteInstaller.exe. The Microsoft SharePoint Products Preparation Tool accepts no user input. 
   
-In this article:
-  
-- [Installer switches and arguments](install-prerequisites-from-network-share.md#switcharg)
-    
-- [Download and combine the SharePoint Server prerequisites on a file share](install-prerequisites-from-network-share.md#download)
-    
-- [Install the SharePoint Server prerequisites at the command prompt](install-prerequisites-from-network-share.md#Installcmd)
-    
-- [Install the SharePoint Server prerequisites by using an arguments file](install-prerequisites-from-network-share.md#install)
-    
-- [Known issues](install-prerequisites-from-network-share.md#issues)
     
 ## Installer switches and arguments
 <a name="switcharg"> </a>

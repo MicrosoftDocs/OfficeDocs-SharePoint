@@ -18,21 +18,6 @@ description: "Summary: Learn about the SharePoint mobility features, services, a
   
 SharePoint Server 2013 offers new, optimized viewing experiences across different mobile platforms. Additionally, there are several features that are available to help improve both worker productivity and usability on the device. This article is intended for IT professionals to help understand the SharePoint Server 2013 mobile features that are available to your organization.
   
-In this article:
-  
-- [Mobile browser experience](mobile-devices-overview.md#MBE)
-    
-- [Device channels](mobile-devices-overview.md#imc)
-    
-- [Office Web Apps](mobile-devices-overview.md#owa)
-    
-- [Location](mobile-devices-overview.md#Location)
-    
-- [Push notifications](mobile-devices-overview.md#PN)
-    
-- [Business intelligence content](mobile-devices-overview.md#BIC)
-    
-- [Subscribe to mobile alerts](mobile-devices-overview.md#SMS)
     
 > [!IMPORTANT]
 > For more information about supported mobile browsers with SharePoint Server 2013, see [Mobile device browsers supported in SharePoint 2013](supported-mobile-device-browsers.md). 

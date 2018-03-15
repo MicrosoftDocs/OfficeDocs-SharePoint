@@ -25,23 +25,6 @@ This article describes, step by step, how to use Excel 2016 to create a basic da
   
 Our example dashboard uses data that is imported into Excel using an OData data feed. This makes it possible to publish the workbook to a library in SharePoint Server 2013. By following the steps in this article, you'll learn how to import data into Excel, use that data to create reports in a worksheet, and connect filters to those reports.
   
-In this article:
-  
-- [Before you begin](create-an-excel-services-dashboard-using-an-odata-data-feed.md#begin)
-    
-- [Plan the dashboard](create-an-excel-services-dashboard-using-an-odata-data-feed.md#part1)
-    
-- [Create the dashboard](create-an-excel-services-dashboard-using-an-odata-data-feed.md#part2)
-    
-  - [Part 1: Get data into Excel](create-an-excel-services-dashboard-using-an-odata-data-feed.md#part2a)
-    
-  - [Part 2: Create reports](create-an-excel-services-dashboard-using-an-odata-data-feed.md#part2b)
-    
-  - [Part 3: Add filters](create-an-excel-services-dashboard-using-an-odata-data-feed.md#part2c)
-    
-- [Publish the dashboard](create-an-excel-services-dashboard-using-an-odata-data-feed.md#part3)
-    
-- [Use the dashboard](create-an-excel-services-dashboard-using-an-odata-data-feed.md#part4)
     
 ## Before you begin
 <a name="begin"> </a>

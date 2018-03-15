@@ -19,7 +19,6 @@ description: "Summary: Learn to view and filter log events by using Windows Powe
   
 You can troubleshoot problems in the farm by using data from the Unified Logging Service (ULS) logs in SharePoint Server . The ULS logs can collect data at varying levels depending on the logging settings. Use PowerShell to filter the data, display it in various ways, and output the data to a data grid with which you can filter, sort, group, and export data to Excel 2016.
   
-In this article:
   
 ## View and filter log events by using Windows PowerShell
 <a name="section1"> </a>

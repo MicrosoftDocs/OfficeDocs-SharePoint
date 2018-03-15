@@ -31,23 +31,6 @@ In SharePoint Server, a binary large object (BLOB) is a file, such as a Microsof
   
 For more information about RBS including information about RBS providers, we highly recommend that you see [Overview of RBS in SharePoint Server](rbs-overview.md).
   
-In this article:
-  
-- [Limitations of RBS](#limitations)
-    
-- [Optimal use of RBS](#optimal)
-    
-- [Least effective use of RBS](#least_optimal)
-    
-- [Implications of using RBS in different scenarios](#scenarios)
-    
-- [Benefits and costs of using RBS](#benefits)
-    
-- [Benefits and costs of using RBS with the FILESTREAM provider](#benefit_filestream)
-    
-- [Implications of using RBS over the IT life cycle](#lifecycle)
-    
-- [Evaluate provider options](#EvalProv)
     
 ## Limitations of RBS
 <a name="limitations"> </a>

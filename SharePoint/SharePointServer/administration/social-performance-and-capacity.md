@@ -35,17 +35,6 @@ Use the information in this article to understand the following concepts:
     
 - Important factors to consider when you plan for the resources your farm will need to maintain acceptable levels of performance under peak load
     
-In this article:
-  
-- [Introduction to this environment](#intro)
-    
-- [Glossary](#glossary)
-    
-- [Overview](#overview)
-    
-- [Specifications](#specs)
-    
-- [Results and analysis](#results)
     
 ## Introduction to this environment
 <a name="intro"> </a>

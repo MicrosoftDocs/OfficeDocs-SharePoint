@@ -26,21 +26,6 @@ Unless otherwise specified, the information in this article is specific to RBS u
 > [!TIP]
 > This solution uses the FILESTREAM RBS provider that is included with SQL Server 2014, Service Pack 1 SP1, SP2, SQL Server 2016, SQL Server 2016 SP1, and SQL Server 2008. If you want to install and configure RBS using a different provider, use the procedure in [Install and configure RBS with a 3rd party provider for SharePoint Server](install-and-configure-rbs-with-a-3rd-party-provider.md). 
   
-In this article:
-  
-- [Before you begin](#begin)
-    
-- [Enable FILESTREAM on the database server](#enable)
-    
-- [Provision a BLOB store for each content database](#provision)
-    
-- [Install the RBS client library on SQL Server and each Front-end or Application server](#library)
-    
-- [Enable RBS for each content database](#enableRBS)
-    
-- [Assign db_owner permissions to the web application](#dbOwnPerm)
-    
-- [Test the RBS installation](#testRBS)
     
 ## Before you begin
 <a name="begin"> </a>

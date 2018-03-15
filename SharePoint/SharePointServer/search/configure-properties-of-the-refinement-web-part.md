@@ -31,13 +31,6 @@ Before you begin these procedures, verify the following:
     
 - You have done a full crawl of the content source that contains the managed properties that are enabled as refiners as described in [Start, pause, resume, or stop a crawl in SharePoint Server](start-pause-resume-or-stop-a-crawl.md).
     
-In this article:
-  
-- [Configure properties of the Refinement Web Part](configure-properties-of-the-refinement-web-part.md#BKMK_Configure)
-    
-- [Change the refiner display name](configure-properties-of-the-refinement-web-part.md#BKMK_DisplayName)
-    
-- [Add refiner counts to the Refinement Web Part](configure-properties-of-the-refinement-web-part.md#BKMK_AddRefinerCounts)
     
 ## Configure properties of the Refinement Web Part
 <a name="BKMK_Configure"> </a>

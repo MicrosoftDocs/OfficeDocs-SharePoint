@@ -43,17 +43,6 @@ The following diagram shows the seven phases that the complete SharePoint Server
   
 ![Disaster recovery solution roadmap](../media/Azure_DRroadmap_logshipping.png)
   
-In this article:
-  
-- [Using log shipping for disaster recovery](#Use)
-    
-- [Performance considerations](#Perf)
-    
-- [Prerequisites for configuring log shipping](#Prereq)
-    
-- [Log shipping infrastructure](#Infra)
-    
-- [Steps required to configure and validate log shipping](#Config)
     
 ## Using log shipping for disaster recovery
 <a name="Use"> </a>

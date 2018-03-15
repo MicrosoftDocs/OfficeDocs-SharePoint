@@ -21,17 +21,6 @@ description: "Summary: Learn how to back up Search service applications in Share
   
 You can back up a Search service application in a farm by using the SharePoint Central Administration website, Microsoft PowerShell, or SQL Server tools. Which backup tool you use depends on what kind of environment you have deployed, what your backup schedule requires, and what service level agreements you have made with your organization.
   
-In this article:
-  
-- [Before you begin](#begin)
-    
-- [Back up a thesaurus file](#back_up_thesaurus_files)
-    
-- [Use PowerShell to back up search in SharePoint Server](#proc1)
-    
-- [Use Central Administration to back up search in SharePoint Server](#proc2)
-    
-- [Use SQL Server tools to back up search](#proc3)
     
 ## Before you begin
 <a name="begin"> </a>

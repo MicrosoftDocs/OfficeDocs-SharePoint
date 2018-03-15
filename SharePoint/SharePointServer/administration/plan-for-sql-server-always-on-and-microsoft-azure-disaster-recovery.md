@@ -42,25 +42,6 @@ The solution in this article applies to the following:
     
  **Acknowledgments:** This SharePoint Server disaster recovery solution is the result of the design, testing, and writing done by Tejinder Rai (MCS). This solution combines Microsoft best practices with hands-on, real world customer experiences. David Williams and Matthew Robertshaw also made significant contributions to this article by their work with SQL Server failover automation and recovery testing. 
   
-In this article:
-  
-> [Introduction to hybrid disaster recovery for SharePoint Server](#intro)
-    
-> [Disaster recovery solution description and architecture](#DRsol)
-    
-> [What you need for this SharePoint Server disaster recovery solution](#need)
-    
-> [Mandatory configuration requirements for both farms](#configreqs)
-    
-> [Understand database requirements: SQL Server Always On and SharePoint Server](#understand)
-    
-> [Build out the test farms in six phases](#phases)
-    
-> [Test farm failover and recovery](#failover)
-    
-> [Conclusion](#end)
-    
-> [Appendix](#App)
     
 ## Introduction to hybrid disaster recovery for SharePoint Server
 <a name="intro"> </a>

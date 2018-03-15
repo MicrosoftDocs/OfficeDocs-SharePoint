@@ -24,15 +24,6 @@ You can restore the User Profile Service application by using the SharePoint Cen
 > [!IMPORTANT]
 > The steps in this article apply to SharePoint Server 2016. 
   
-In this article:
-  
-- [Before you begin](#begin)
-    
-- [Using PowerShell to restore the User Profile service application in SharePoint Server](#proc1)
-    
-- [Using Central Administration to restore a User Profile service application in SharePoint Server](#proc2)
-    
-- [Using SQL Server tools to restore the databases associated with the User Profile service application in SharePoint Server](#proc3)
     
 ## Before you begin
 <a name="begin"> </a>

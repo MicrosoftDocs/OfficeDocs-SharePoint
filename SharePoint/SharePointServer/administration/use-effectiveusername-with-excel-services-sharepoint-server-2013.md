@@ -19,19 +19,6 @@ description: "Summary: Use the Analysis Services EffectiveUserName feature to re
 > [!IMPORTANT]
 > This scenario applies only to Excel Services with an Analysis Services data source on SharePoint Server 2013 Enterprise. 
   
-In this article:
-  
-- [Scenario overview](use-effectiveusername-with-excel-services-sharepoint-server-2013.md#overview)
-    
-- [Before you begin](use-effectiveusername-with-excel-services-sharepoint-server-2013.md#begin)
-    
-- [Configure Excel Services Global Settings](use-effectiveusername-with-excel-services-sharepoint-server-2013.md#ConfigureGlobalSettings)
-    
-- [Configure Analysis Services access](use-effectiveusername-with-excel-services-sharepoint-server-2013.md#ConfigureASAccess)
-    
-- [Configure OLAP cube access](use-effectiveusername-with-excel-services-sharepoint-server-2013.md#ConfigureOLAP)
-    
-- [Create and publish a report](use-effectiveusername-with-excel-services-sharepoint-server-2013.md#CreateAndPublish)
     
 ## Scenario overview
 <a name="overview"> </a>

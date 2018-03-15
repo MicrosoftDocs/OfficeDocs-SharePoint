@@ -23,11 +23,6 @@ You can restore content from an unattached content database in SharePoint Server
   
 You can restore or copy content, such as sites, site collections, lists, or document libraries, from a content database without having to attach the content database to the farm.
   
-In this article:
-  
-- [Using PowerShell to recover content from an unattached content database in SharePoint Server](#proc1)
-    
-- [Using Central Administration to recover content from an unattached content database in SharePoint Server](#proc2)
     
 ## Using PowerShell to recover content from an unattached content database in SharePoint Server
 <a name="proc1"> </a>

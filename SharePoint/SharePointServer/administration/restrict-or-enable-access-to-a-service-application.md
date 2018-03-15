@@ -25,13 +25,6 @@ By default, all service applications on the local farm are available to all web 
   
 If you restrict access to a service application and you later decide that you want to make it available to the whole farm, you can remove the restriction. 
   
-In this article:
-  
-- [Restrict access to a service application](restrict-or-enable-access-to-a-service-application.md#Section2)
-    
-- [Restore farm-wide access to a service application](restrict-or-enable-access-to-a-service-application.md#Section3)
-    
-- [Microsoft PowerShell code examples](restrict-or-enable-access-to-a-service-application.md#SectionEX)
     
 ## Restrict access to a service application
 <a name="Section2"> </a>

@@ -20,35 +20,6 @@ description: "Summary: Learn how to configure the different Web Parts that use s
   
 Web Parts that use search technology to show content in a publishing environment (referred to in this article as Search Web Parts) show content that was crawled and added to the search index, as described in "Understanding how content is added to and managed in the search index" in [Overview of cross-site publishing in SharePoint Server](overview-of-cross-site-publishing.md). These Web Parts have queries defined in them, and when users browse to a page that contains a Web Part that uses search technology, the Web Part issues the query automatically. The query result is then displayed in the Web Part. You can modify the query in the search Web Part to fit your content needs. 
   
-In this article:
-  
-- [Before you begin](configure-search-web-parts.md#BKMK_AvailableOOTRefiners)
-    
-- [Add a Content Search Web Part to a page](configure-search-web-parts.md#BKMK_AddContentWP)
-    
-- [Configure the query for a Content Search Web Part](configure-search-web-parts.md#BKMK_ConfigureWP)
-    
-- [Configure the display templates for the Content Search Web Part](configure-search-web-parts.md#BKMK_ConfigureDisplayTemplates)
-    
-- [Add a Refinement Web Part to a page](configure-search-web-parts.md#BKMK_AddRefinementPanel)
-    
-- [Configure the Refinement Web Part](configure-search-web-parts.md#BKMK_ConfigureRPWP)
-    
-- [Display refiner counts in a Refinement Web Part](configure-search-web-parts.md#BKMK_DisplayRefinerCounts)
-    
-- [Change the refiner display name](configure-search-web-parts.md#BKMK_ChangeDisplayName)
-    
-- [Configure the display templates for the Refinement Web Part](configure-search-web-parts.md#BKMK_ConfigureRefinementDisplayTemplates)
-    
-- [Add a Taxonomy Refinement Panel Web Part to a page](configure-search-web-parts.md#BKMK_AddTaxonomyRefinementPanel)
-    
-- [Configure the Taxonomy Refinement Panel Web Part](configure-search-web-parts.md#BKMK_ConfigureTaxonomyRefinementPanelWP)
-    
-- [Add a Recommended Items Web Part to a page](configure-search-web-parts.md#BKMK_AddRecs)
-    
-- [Configure the Recommended Items Web Part](configure-search-web-parts.md#BKMK_ConfigureRecs)
-    
-- [Configure the display templates for the Recommended Items Web Part](configure-search-web-parts.md#BKMK_ConfigureRecsDisplayTemplates)
     
 ## Before you begin
 <a name="BKMK_AvailableOOTRefiners"> </a>

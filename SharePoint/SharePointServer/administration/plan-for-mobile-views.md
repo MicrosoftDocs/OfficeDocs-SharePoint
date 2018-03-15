@@ -21,15 +21,6 @@ In SharePoint Server 2013, there are new, optimized mobile browser experiences a
   
 Before proceeding, we recommend that you read [Overview of mobile devices and SharePoint Server 2013](mobile-devices-overview.md). It provides additional details on understanding mobile views, including the browser redirection process and the compat.browser file that is associated with mobile view redirection. For information about which mobile browsers are supported in SharePoint Server 2013, see [Mobile device browsers supported in SharePoint 2013](supported-mobile-device-browsers.md).
   
-In this article:
-  
-- [Mobile browser experiences](plan-for-mobile-views.md#section1)
-    
-- [Device inventory and site planning for mobile devices](plan-for-mobile-views.md#section2)
-    
-- [Choose a mobile browser experience](plan-for-mobile-views.md#section3)
-    
-- [Next steps](plan-for-mobile-views.md#section4)
     
 ## Mobile browser experiences
 <a name="section1"> </a>

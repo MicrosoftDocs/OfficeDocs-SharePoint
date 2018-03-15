@@ -19,17 +19,6 @@ description: "Summary: Learn how to organize SharePoint Server 2016 and SharePoi
   
 These best practices for organizing SharePoint Server content and applying useful metadata will help make sure that the right content is included in the search index and that the right content is returned in search results. 
   
-In this article:
-  
-- [Keep your most important content in SharePoint](best-practices-for-organizing-content-for-search.md#Keep_content_in_SP)
-    
-- [Organize content in hierarchies and use natural language](best-practices-for-organizing-content-for-search.md#Organize_hierarchies)
-    
-- [Encourage users to enter rich and consistent metadata for their sites and content](best-practices-for-organizing-content-for-search.md#Encourage_metadata)
-    
-- [Managing multilingual content](best-practices-for-organizing-content-for-search.md#Multillingual_content)
-    
-- [Specify authoritative pages](best-practices-for-organizing-content-for-search.md#Rel_Auth)
     
 ## Keep your most important content in SharePoint
 <a name="Keep_content_in_SP"> </a>

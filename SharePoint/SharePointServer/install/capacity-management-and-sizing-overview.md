@@ -28,23 +28,6 @@ Capacity management is an ongoing process, because no implementation remains sta
   
 Capacity Planning is only one part of the capacity management cycle. It is the initial set of activities that brings the design architect to the point where there is an initial architecture that the architect believes will best serve the SharePoint Server 2013 deployment. The capacity management model includes additional steps to help you validate and tune the initial architecture, and provides a feedback loop for re-planning and optimizing the production environment until it can support design goals with optimal choices of hardware, topology, and configuration. 
   
-In this article:
-  
-- [Glossary](#glossary)
-    
-- [Who should read capacity management articles?](#who_should_read)
-    
-- [Four fundamentals of performance](#fundamentals)
-    
-- [Capacity management versus capacity planning](#versus)
-    
-- [Oversizing versus undersizing](#over_vs_under)
-    
-- [Software limits and boundaries](#limits)
-    
-- [SharePoint Server 2013 deployment key differentiators](#differentiators)
-    
-- [Reference architectures](#reference)
     
 ## Glossary
 <a name="glossary"> </a>

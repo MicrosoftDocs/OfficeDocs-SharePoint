@@ -21,13 +21,6 @@ description: "Summary: Learn how to import a site, list, or document library in 
   
 You can import a site, list, or document library in SharePoint Server by using PowerShell.
   
-In this article:
-  
-- [Before you begin](#begin)
-    
-- [Importing a site, list, or document library in SharePoint Server](#proc1)
-    
-  - [To import a site, list or document library by using Windows PowerShell](#PS)
     
 ## Before you begin
 <a name="begin"> </a>

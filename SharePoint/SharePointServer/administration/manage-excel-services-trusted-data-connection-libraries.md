@@ -23,13 +23,6 @@ Trusted data connection libraries are SharePoint Server 2013 data connection lib
   
 To perform the procedures in this article, you must be member of the Farm Administrators group or an Administrator for the Excel Services service application that you are configuring.
   
-In this article:
-  
-- [Add a trusted data connection library](#proc1)
-    
-- [Configure a trusted data connection library](#proc2)
-    
-- [Delete a trusted data connection library](#proc3)
     
 ## Add a trusted data connection library
 <a name="proc1"> </a>

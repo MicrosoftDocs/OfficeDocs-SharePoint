@@ -19,19 +19,6 @@ description: "Summary: Learn howSharePoint Server 2016 and SharePoint Server 201
   
 The search engine calculates the relevance rank, that is to say, the order in which the search results for a query appear. The ranking model is at the core of this calculation. In most cases, you can influence relevance by using the available SharePoint Server ranking models in combination with query rules without having to consider customizing any ranking models. 
   
-In this article:
-  
-- [What is a ranking model?](overview-of-search-result-ranking.md#Ranking_Models)
-    
-- [How does a search result get a rank?](overview-of-search-result-ranking.md#Ranking_SearchResults)
-    
-- [How can I influence the rank of a search result?](overview-of-search-result-ranking.md#Ranking_InfluenceIntro)
-    
-- [Influence the ranking of search results with query rules](overview-of-search-result-ranking.md#Ranking_QueryRules)
-    
-- [Influence the ranking of search results by using the search schema](overview-of-search-result-ranking.md#Ranking_Schema)
-    
-- [Influence the ranking of search results by using a custom ranking model](overview-of-search-result-ranking.md#Ranking_CustomModel)
     
 ## What is a ranking model?
 <a name="Ranking_Models"> </a>

@@ -34,13 +34,6 @@ In this scenario, you will learn how to:
     
 - Validate and troubleshoot the BCS hybrid scenario.
     
-In this article:
-  
-- [What these procedures help you deploy](deploy-a-business-connectivity-services-hybrid-solution.md#section2)
-    
-- [How to use these procedures](deploy-a-business-connectivity-services-hybrid-solution.md#section3)
-    
-- [Roadmap of the procedures](deploy-a-business-connectivity-services-hybrid-solution.md#section4)
     
 ## What these procedures help you deploy
 <a name="section2"> </a>

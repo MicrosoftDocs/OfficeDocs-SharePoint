@@ -25,11 +25,6 @@ When you reset the search index in SharePoint Server, all content is immediately
 > [!NOTE]
 > If your SharePoint environment is hybrid and uses [cloud hybrid search](https://support.office.com/en-us/article/Learn-about-cloud-hybrid-search-for-SharePoint-af830951-8ddf-48b2-8340-179c1cc4d291?ui=en-US&amp;rs=en-US&amp;ad=US), you index your on-premises content in your search index in Office 365. See [Learn about cloud hybrid search for SharePoint](https://support.office.com/en-us/article/Learn-about-cloud-hybrid-search-for-SharePoint-af830951-8ddf-48b2-8340-179c1cc4d291?ui=en-US&amp;rs=en-US&amp;ad=US) for guidance on deleting metadata of on-premises items from the search index in Office 365. 
   
-In this article:
-  
-- [Before you begin](#begin)
-    
-- [Reset the search index](#proc1)
     
 ## Before you begin
 <a name="begin"> </a>

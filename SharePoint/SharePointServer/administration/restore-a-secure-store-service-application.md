@@ -21,13 +21,6 @@ description: "Summary: Learn how to restore the Secure Store Service application
   
 You can restore the Secure Store service application by using the SharePoint Central Administration website or PowerShell. The restore tool that you use depends on the kind of environment that you have deployed, your schedule requirements, and service level agreements that you have made with your organization.
   
-In this article:
-  
-- [Before you begin](#begin)
-    
-- [Using Central Administration to restore the Secure Store Service in SharePoint Server](#proc1)
-    
-- [Using PowerShell to restore the Secure Store Service in SharePoint Server](#proc2)
     
 ## Before you begin
 <a name="begin"> </a>

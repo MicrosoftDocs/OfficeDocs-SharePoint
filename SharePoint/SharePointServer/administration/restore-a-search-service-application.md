@@ -21,17 +21,6 @@ description: "Summary: Learn how to restore the Search service application in Sh
   
 You can restore SharePoint Server search by using the SharePoint Central Administration website, Microsoft PowerShell, or SQL Server tools. The restore tool that you use depends on the kind of environment that you have deployed, your schedule requirements, and service level agreements that you have made with your organization. 
   
-In this article:
-  
-- [Before you begin](#begin)
-    
-- [Restore a thesaurus file](#restore_thesaurus_files)
-    
-- [Use PowerShell to restore a SharePoint Search service application](#proc1)
-    
-- [Use Central Administration to restore a SharePoint Search service application](#proc2)
-    
-- [Use SQL Server tools to restore the databases for a Search service application](#proc3)
     
 ## Before you begin
 <a name="begin"> </a>

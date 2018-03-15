@@ -21,17 +21,6 @@ Microsoft Business Connectivity Services solutions integrate external data deepl
   
 This article takes you through five questions that you must answer before you can design your Business Connectivity Services solution. Be sure to collect all this information and communicate it to all the key stakeholders to review and approve. When you do this, you will help ensure that everyone involved has the same understanding of the needs of the project and how the solution will work.
   
-In this article:
-  
-- [Where is the data?](plan-a-business-connectivity-services-solution.md#section1)
-    
-- [How is the data surfaced?](plan-a-business-connectivity-services-solution.md#section2)
-    
-- [How is the data secured?](plan-a-business-connectivity-services-solution.md#section3)
-    
-- [How will the data be consumed?](plan-a-business-connectivity-services-solution.md#section4)
-    
-- [How will you assign permissions to the solution?](plan-a-business-connectivity-services-solution.md#section5)
     
 ## Where is the data?
 <a name="section1"> </a>

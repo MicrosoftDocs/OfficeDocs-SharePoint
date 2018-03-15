@@ -51,13 +51,6 @@ To stop including content from a file type, in the search index:
     
 When the full crawl finishes, the search index will exclude content from files of the type that you disabled.
   
-In this article:
-  
-- [Add or remove file name extensions from the Manage File Types page](add-or-remove-a-file-type-from-the-search-index.md#proc1)
-    
-- [View information about file formats that can be parsed](add-or-remove-a-file-type-from-the-search-index.md#ViewInformationFileFormats)
-    
-- [Enable or disable parsing of a file format](add-or-remove-a-file-type-from-the-search-index.md#EnbleParsing)
     
 ## Add or remove file name extensions from the Manage File Types page
 <a name="proc1"> </a>

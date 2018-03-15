@@ -42,23 +42,6 @@ SharePoint Server 2016 supports the following:
 > [!NOTE]
 > If you want to use Microsoft SQL Server Power Pivot for SharePoint or Microsoft Power View for SharePoint for BI solutions you must install the Power Pivot or Power View add-ins for SQL Server 2016 RTM. The SQL Server 2014 (SP1) Power Pivot for SharePoint and Power View for SharePoint BI solutions do not work with SharePoint Server 2016. 
   
-In this article:
-  
-- [SharePoint Server 2016 and the SQL Server database engine](#sec1)
-    
-- [Working with the SQL Server databases that support SharePoint Server 2016](#sec2)
-    
-- [SQL Server 2014 with Service Pack 1 (SP1)](#sec4)
-    
-  - [High Availability Solutions](#HA)
-    
-  - [Reporting Services SharePoint mode](#RSsp)
-    
-- [SQL Server 2016](#sec5)
-    
-  - [Power Pivot for SharePoint](#PP)
-    
-  - [Power View for SharePoint](#PV)
     
 ## SharePoint Server 2016 and the SQL Server database engine
 <a name="sec1"> </a>

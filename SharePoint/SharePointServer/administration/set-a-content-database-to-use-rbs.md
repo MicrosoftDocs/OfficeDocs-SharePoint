@@ -21,11 +21,6 @@ description: "Summary: Learn how to set a SharePoint Server 2016 and SharePoint 
   
 This article describes how to set a content database to use Remote BLOB Storage (RBS) that uses the FILESTREAM provider. If you are using a third-party provider, these instructions might not apply. For more information, contact the manufacturer of the provider. These instructions assume that you have already installed RBS for use with SharePoint Server. To install and configure RBS, see [Install and configure RBS with FILESTREAM in a SharePoint Server farm](install-and-configure-rbs.md). 
   
-In this article:
-  
-- [Before you begin](#begin)
-    
-- [Set a content database to use RBS](#proc1)
     
 ## Before you begin
 <a name="begin"> </a>

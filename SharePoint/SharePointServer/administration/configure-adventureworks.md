@@ -21,19 +21,6 @@ The AdventureWorks sample data set provides a sample database, data warehouse, a
 > [!IMPORTANT]
 > This scenario applies only to SharePoint Server 2013 Enterprise. 
   
-In this article:
-  
-- [Scenario overview](configure-adventureworks.md#overview)
-    
-- [Before you begin](configure-adventureworks.md#begin)
-    
-- [Video demonstration](configure-adventureworks.md#VideoDemonstration)
-    
-- [Install the AdventureWorks sample data](configure-adventureworks.md#InstallAdventureWorks)
-    
-- [Create a Business Intelligence Center](configure-adventureworks.md#CreateABICenter)
-    
-- [Scenarios that use this configuration](configure-adventureworks.md#Scenarios)
     
 ## Scenario overview
 <a name="overview"> </a>

@@ -39,13 +39,6 @@ These are the recommended sub steps you should follow for pre-production:
     
 Before you read this article, you should read [Capacity management and sizing overview for SharePoint Server 2013](http://technet.microsoft.com/library/45dc078f-de39-425c-a94f-1de78b68052e%28Office.14%29.aspx).
   
-In this article:
-  
-- [Create a Test Plan](performance-testing.md#createplan)
-    
-- [Create the Test Environment](performance-testing.md#createenvironment)
-    
-- [Create Tests and Tools](performance-testing.md#createtests)
     
 ## Create a Test Plan
 <a name="createplan"> </a>

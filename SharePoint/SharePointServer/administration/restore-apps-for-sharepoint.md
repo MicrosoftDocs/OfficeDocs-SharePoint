@@ -31,21 +31,6 @@ The app for SharePoint content and packages are stored in the SharePoint Server 
     
 - App Management service application
     
-In this article:
-  
-- [Before you begin](#begin)
-    
-- [Restore content databases](#proc1)
-    
-- [Restore the configuration database](#proc2)
-    
-- [Restore the Secure Store Service application database](#proc3)
-    
-- [Restore the App Management service application database](#proc4)
-    
-- [Restore a site collection](#proc5)
-    
-- [Restore apps for SharePoint to a new farm](#more)
     
 ## Before you begin
 <a name="begin"> </a>

@@ -23,23 +23,6 @@ You can configure query rules for one or more result sources, and you can specif
   
 For more information about query rules, see [Plan result sources and query rules](plan-search-for-sharepoint-cross-site-publishing-sites.md#BKMK_PlanResultSourcesAndQueryRules) in [Plan search for cross-site publishing sites in SharePoint Server 2016](plan-search-for-sharepoint-cross-site-publishing-sites.md).
   
-In this article:
-  
-- [Before you begin](create-query-rules-for-web-content-management.md#BKMK_Before)
-    
-- [Creating query rules at different levels in a SharePoint Server farm](create-query-rules-for-web-content-management.md#BKMK_CreateRuleLevels)
-    
-- [Create a query rule](create-query-rules-for-web-content-management.md#BKMK_AddQueryRule)
-    
-- [Create and display a result block](create-query-rules-for-web-content-management.md#BKMK_CreateAndDisplayResultBlock)
-    
-- [Change ranked search results](create-query-rules-for-web-content-management.md#BKMK_ChangeRankedSearchResults)
-    
-- [Make a query rule inactive](create-query-rules-for-web-content-management.md#BKMK_MakeInactive)
-    
-- [Display promoted results in a Content Search Web Part](create-query-rules-for-web-content-management.md#BKMK_DisplayPromotedResults)
-    
-- [Rank query rules](create-query-rules-for-web-content-management.md#BKMK_Rank)
     
 ## Before you begin
 <a name="BKMK_Before"> </a>

@@ -17,13 +17,6 @@ description: "Summary: Learn about the naming conventions for automatically crea
 
  **Summary:** Learn about the naming conventions for automatically created crawled properties and managed properties. 
   
-In this article:
-  
-- [How site columns become managed properties](automatically-created-managed-properties-in-sharepoint.md#BKMK_FromSiteColumnsToManagedProperties)
-    
-- [Special characters and non-supported characters](automatically-created-managed-properties-in-sharepoint.md#BKMK_SpecialCharacters)
-    
-- [Default site columns for the Product Catalog content type](automatically-created-managed-properties-in-sharepoint.md#BKMK_DefaultSiteColumns)
     
 ## How site columns become managed properties
 <a name="BKMK_FromSiteColumnsToManagedProperties"> </a>

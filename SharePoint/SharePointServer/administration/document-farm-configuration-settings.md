@@ -23,13 +23,6 @@ You can document your farm configuration settings in SharePoint Server by using 
   
 Documenting configuration settings is important both so that you can create scripted deployments for your environment and so that you can quickly re-create a set of configurations if a failure were to occur.
   
-In this article:
-  
-- [Using PowerShell to document farm configuration settings in SharePoint Server](#proc1)
-    
-  - [To document SharePoint Server configuration settings by using Microsoft PowerShell](#PS)
-    
-- [Example of using a cmdlet in SharePoint Server](#proc2)
     
 ## Using PowerShell to document farm configuration settings in SharePoint Server
 <a name="proc1"> </a>

@@ -37,15 +37,6 @@ The database sizes listed in this article are based on the following ranges.
 |Large  <br/> |Up to 1 terabyte  <br/> |
 |Extra-large  <br/> |More than 1 terabyte  <br/> |
    
-In this article:
-  
-- [SharePoint Server system databases](#Sec1)
-    
-- [SharePoint Server service application databases](#Sec2)
-    
-- [SQL Server system databases](#Sec3)
-    
-- [SQL Server Reporting Services databases](#Sec4)
     
 For a graphical overview of the databases that support SharePoint Server 2016, see [Quick reference guide: SharePoint Server 2016 databases](https://doc.co/qrafhS). You can also download this SharePoint Server 2016 database poster, as either a [PDF](http://download.microsoft.com/download/D/5/D/D5DC1121-8BC5-4953-834F-1B5BB03EB691/DBrefguideSPS2016_tabloid.pdf) or [Visio](http://download.microsoft.com/download/D/5/D/D5DC1121-8BC5-4953-834F-1B5BB03EB691/DBrefguideSPS2016_tabloid.vsdx) file. 
   

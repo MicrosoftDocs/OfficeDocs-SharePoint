@@ -19,15 +19,6 @@ description: "Summary: Learn how to add a server to an existing SharePoint Serve
 
  **Summary:** Learn how to add a server to an existing SharePoint Server 2016 farm. 
   
-In this article:
-  
-- [Before you add a server to a SharePoint farm](add-a-server-to-a-sharepoint-server-2016-farm.md#begin)
-    
-- [Install prerequisite software](add-a-server-to-a-sharepoint-server-2016-farm.md#prereq)
-    
-- [Install the SharePoint software ](add-a-server-to-a-sharepoint-server-2016-farm.md#installSP)
-    
-- [Add the new SharePoint server to the farm](add-a-server-to-a-sharepoint-server-2016-farm.md#addserver)
     
 ## Before you add a server to a SharePoint farm
 <a name="begin"> </a>

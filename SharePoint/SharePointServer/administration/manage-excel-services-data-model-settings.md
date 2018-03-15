@@ -27,13 +27,6 @@ Before you begin this operation, review the following information about prerequi
     
 - The instance of SQL Server 2012 Analysis Services that you plan to use must be installed in SQL Server PowerPivot for SharePoint mode.
     
-In this article:
-  
-- [Register an Analysis Services server](#proc1)
-    
-- [Edit Analysis Services server details](#proc2)
-    
-- [Unregister an Analysis Services server](#proc3)
     
 ## Register an Analysis Services server
 <a name="proc1"> </a>

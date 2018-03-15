@@ -28,13 +28,6 @@ Before reading this article, you should understand the concepts described in the
     
 - [SharePoint Claims-Based Identity](https://go.microsoft.com/fwlink/p/?LinkID=196647)
     
-In this article:
-  
-- [People Picker and claims providers](#claimproviders)
-    
-- [Using People Picker with multiple forests or domains](#forests)
-    
-- [Planning considerations for People Picker](#planning)
     
 ## People Picker and claims providers
 <a name="claimproviders"> </a>

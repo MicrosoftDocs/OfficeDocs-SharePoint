@@ -21,25 +21,6 @@ description: "Summary: Learn how to restore customizations that are made to Shar
   
 You can restore any customizations that are made to SharePoint Server by using Central Administration or PowerShell. The restore tool that you use depends on the kind of environment that you have deployed, your schedule requirements, and what service level agreements that you have made with your organization.
   
-In this article:
-  
-- [Before you begin](#begin)
-    
-- [Restoring solution packages in SharePoint Server](#proc1)
-    
-  - [To restore a trusted solution by using Central Administration](#CA)
-    
-  - [To restore a trusted solution by using Windows PowerShell](#PS)
-    
-- [Restoring a sandboxed solution](#proc2)
-    
-- [Restoring authored site elements in SharePoint Server](#proc3)
-    
-- [Restoring workflows in SharePoint Server](#proc4)
-    
-- [Restoring changes to the Web.config file in SharePoint Server](#proc5)
-    
-- [Restoring developed customizations that are not packaged as solutions in SharePoint Server](#proc7)
     
 ## Before you begin
 <a name="begin"> </a>

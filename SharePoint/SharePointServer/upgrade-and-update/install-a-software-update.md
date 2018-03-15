@@ -20,19 +20,6 @@ description: "Summary: Install a software update to perform a build-to-build upg
 
  **Summary:** Install a software update to perform a build-to-build upgrade on servers running SharePoint Server 2016. 
   
-In this article:
-  
-- [Before you begin](install-a-software-update.md#begin)
-    
-- [Determine the update strategy](install-a-software-update.md#verifystrategy)
-    
-- [Monitor installation progress](install-a-software-update.md#monitorprogress)
-    
-- [Initial state](install-a-software-update.md#InitialState)
-    
-- [Use the in-place method with backward compatibility](install-a-software-update.md#inplacewithbackcompatibility)
-    
-- [Install a software update on servers that host Search components](#updatesearchcomp)
     
 ## Before you begin
 <a name="begin"> </a>

@@ -21,17 +21,6 @@ description: "Summary: Learn how to attach and detach content databases to your 
   
 You can attach or detach SharePoint Server content databases by using the SharePoint Central Administration website or Microsoft PowerShell
   
-In this article:
-  
-- [Before you begin](#begin)
-    
-- [Attaching and detaching content databases](#proc1)
-    
-  - [To attach a content database by using Central Administration](#CA)
-    
-  - [To detach a content database by using Central Administration](#detachCA)
-    
-  - [To attach or detach a content database by using Microsoft PowerShell](#PS)
     
 ## Before you begin
 <a name="begin"> </a>

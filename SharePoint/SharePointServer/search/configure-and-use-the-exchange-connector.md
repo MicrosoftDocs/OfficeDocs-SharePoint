@@ -17,13 +17,6 @@ description: "Summary: Learn how to create a crawl rule and add a content source
 
  **Summary:** Learn how to create a crawl rule and add a content source to crawl Exchange Server public folders. 
   
-In this article:
-  
-- [Before you begin](#begin)
-    
-- [Create a crawl rule](#proc1)
-    
-- [Add a content source for Exchange Server public folders](#proc2)
     
 ## Before you begin
 <a name="begin"> </a>

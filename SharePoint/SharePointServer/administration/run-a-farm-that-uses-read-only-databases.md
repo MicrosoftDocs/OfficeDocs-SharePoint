@@ -21,25 +21,6 @@ description: "Summary: Learn how to run a read-only SharePoint Server 2016 and S
   
 You can use Microsoft PowerShell or SQL Server tools to set your SharePoint Server databases to read-only. The tool that you use depends on the kind of environment that you have deployed, your schedule requirements, and service level agreements that you have made with your organization.
   
-In this article:
-  
-- [Before you begin](#begin)
-    
-- [Prepare users for the read-only experience](#proc1)
-    
-  - [Sites that use read-only content databases](#sites)
-    
-  - [Farms that use read-only service application databases](#farms)
-    
-- [Set content databases to read-only](#proc2)
-    
-  - [To determine which content database is associated with a site collection by using Microsoft PowerShell](#PS)
-    
-  - [To set content databases to read-only by using SQL Server](#SQL)
-    
-- [Set service application databases to read-only](#proc3)
-    
-  - [To set service application databases to read-only by using SQL Server](#setsrvc)
     
 ## Before you begin
 <a name="begin"> </a>

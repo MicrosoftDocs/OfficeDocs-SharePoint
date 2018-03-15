@@ -23,11 +23,6 @@ The concept of least-privileged administration is to assign users the minimum pe
   
 We recommend that you deploy SharePoint Server with least-privileged administration even though implementing least-privileged administration can result in increased operational costs because additional resources might be required to maintain this level of administration. Moreover, the ability to troubleshoot security problems can also be made more complex.
   
-In this article:
-  
-- [Introduction](plan-for-least-privileged-administration.md#Introduction)
-    
-- [Least-privileged environment for accounts and services](plan-for-least-privileged-administration.md#AcctServices)
     
 ## Introduction
 <a name="Introduction"> </a>
