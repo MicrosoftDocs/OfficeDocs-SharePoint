@@ -8,7 +8,11 @@ ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
-ms.collection: IT_Sharepoint_Server_Top
+ms.collection:
+- Ent_O365_Hybrid
+- IT_Sharepoint_Server
+- IT_SharePoint_Hybrid_Top
+- IT_Sharepoint_Server_Top
 ms.custom: Strat_SP_gtc
 ms.assetid: 4ab7d5bc-abd7-40df-a3db-4306044af01f
 description: "Summary: Overview and introductory articles on SharePoint Server hybrid to help you decide which hybrid solution you should use for your business."

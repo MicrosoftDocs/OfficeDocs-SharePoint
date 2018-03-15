@@ -8,7 +8,10 @@ ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
-ms.collection: IT_SharePoint_Hybrid_Top
+ms.collection:
+- Ent_O365_Hybrid
+- IT_Sharepoint_Server
+- IT_SharePoint_Hybrid_Top
 ms.custom: Strat_SP_gtc
 ms.assetid: 50c7ba0d-67bb-4e0a-a173-ab2c5756fadf
 description: "The extensible hybrid app launcher helps users to have a more seamless experience when navigating between SharePoint Server and Office 365."

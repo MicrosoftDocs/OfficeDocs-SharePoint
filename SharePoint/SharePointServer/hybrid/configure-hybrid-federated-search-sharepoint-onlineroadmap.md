@@ -7,8 +7,11 @@ ms.date: 6/21/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
+ms.collection:
+- Ent_O365_Hybrid
+- IT_Sharepoint_Server
+- IT_SharePoint_Hybrid_Top
 localization_priority: Normal
-ms.collection: IT_SharePoint_Hybrid_Top
 ms.custom: Strat_SP_gtc
 ms.assetid: f6d49e94-ad29-456d-8cd9-f940154d5a0e
 description: "Summary: Learn how to configure hybrid federated search from SharePoint Server to SharePoint Online."

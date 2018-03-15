@@ -707,7 +707,6 @@
 #### [Claims authentication does not validate user](../administration/claims-authentication-does-not-validate-user.md)
 #### [Troubleshoot common fine-grained permissions issues](../administration/troubleshoot-common-fine-grained-permissions-issues.md)
 #### [SharePoint site inaccessible](../administration/sharepoint-site-inaccessible.md)
-### [Deactivated controls in SharePoint Designer 2013](../administration/deactivated-controls-in-sharepoint-designer-2013.md)
 ## [Technical reference](../technical-reference/technical-reference.md)
 ### [System Center Operations Manager knowledge articles](../technical-reference/system-center-operations-manager-knowledge-articles.md)
 #### [Access Services in SharePoint Server](../technical-reference/access-services-in-sharepoint-server.md)
