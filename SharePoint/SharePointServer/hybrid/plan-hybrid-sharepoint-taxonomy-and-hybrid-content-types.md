@@ -8,7 +8,10 @@ ms.audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
-ms.collection: IT_SharePoint_Hybrid_Top
+ms.collection:
+- Ent_O365_Hybrid
+- IT_Sharepoint_Server
+- IT_SharePoint_Hybrid_Top
 ms.custom: Strat_SP_gtc
 ms.assetid: f14dddb4-ee1a-4471-95bc-2ce41613442a
 description: "SharePoint hybrid taxonomy enables you to have a single taxonomy that spans SharePoint Server and SharePoint Online. This gives you a single, consistent taxonomy no matter where your sites are located."

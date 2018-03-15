@@ -7,6 +7,10 @@ ms.date: 6/22/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
+ms.collection:
+- Ent_O365_Hybrid
+- IT_Sharepoint_Server
+- IT_SharePoint_Hybrid_Top
 localization_priority: Normal
 ms.assetid: b95b4ecc-f31b-4bbc-9b3d-a9f111dac8a1
 description: "Summary: Learn how to configure Windows Server 2012 R2 with Web Application Proxy (WA-P) as a reverse proxy device in a SharePoint hybrid environment."

@@ -8,6 +8,10 @@ ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
+ms.collection:
+- Ent_O365_Hybrid
+- IT_Sharepoint_Server
+- IT_SharePoint_Hybrid_Top
 ms.assetid: 3b4c9519-b68c-4247-8b58-674537f0c5fe
 description: "Summary: Learn how to prepare the on-premises account and security group to control access to an OData endpoint for the Business Connectivity Services (BCS) hybrid scenario."
 ---

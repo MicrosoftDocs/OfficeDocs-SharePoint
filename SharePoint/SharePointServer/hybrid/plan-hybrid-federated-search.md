@@ -8,6 +8,10 @@ ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
+ms.collection:
+- Ent_O365_Hybrid
+- IT_Sharepoint_Server
+- IT_SharePoint_Hybrid_Top
 ms.assetid: d845819f-0cbf-4595-bb14-19414acbd79b
 description: "Summary: Plan to configure a SharePoint hybrid environment so that user searches from a Search Center display hybrid federated results."
 ---

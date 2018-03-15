@@ -7,6 +7,10 @@ ms.date: 6/22/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
+ms.collection:
+- Ent_O365_Hybrid
+- IT_Sharepoint_Server
+- IT_SharePoint_Hybrid_Top
 localization_priority: Normal
 ms.assetid: d7173fc7-65cd-4201-8095-7ad805f50c95
 description: "Summary: Learn how to manually extract a Business Data Connectivity model, import the model into SharePoint Online, and manually create an external list to surface the on-premises data."
