@@ -133,9 +133,9 @@ After you install the prerequisites, follow these steps to install SharePoint 20
 
 You add the new server to the farm by using one of the following procedures:
   
-- [To add a server by using the SharePoint Products Configuration Wizard](add-a-server-to-a-sharepoint-server-2016-farm.md#addserverconfigwiz)
+- [To add a server by using the SharePoint Products Configuration Wizard](add-a-server-to-a-sharepoint-server-2016-farm.md)
     
-- [To add a server by using Windows PowerShell](add-a-server-to-a-sharepoint-server-2016-farm.md#addserverpowershell)
+- [To add a server by using Windows PowerShell](add-a-server-to-a-sharepoint-server-2016-farm.md)
     
  **To add a new SharePoint 2013 server to the farm by using the SharePoint Products Configuration Wizard**
   
@@ -164,7 +164,7 @@ You add the new server to the farm by using one of the following procedures:
   
 11. On the **Servers in Farm** page, click the name of the new server. Use the list of available services on the **Services on Server** page to start the services that you want to run on the new server. 
     
-12. Configure SharePoint 2013 so that the new server can accommodate the role for which it was intended. For more information, see [Add a server to a SharePoint Server 2016 farm](add-a-server-to-a-sharepoint-server-2016-farm.md#configure).
+12. Configure SharePoint 2013 so that the new server can accommodate the role for which it was intended. For more information, see [Add a server to a SharePoint Server 2016 farm](add-a-server-to-a-sharepoint-server-2016-farm.md).
     
  **To add a new SharePoint 2013 server to the farm by using PowerShell**
   

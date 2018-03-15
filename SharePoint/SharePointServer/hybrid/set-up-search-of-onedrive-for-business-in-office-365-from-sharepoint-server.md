@@ -74,7 +74,7 @@ Before you perform the procedures in this article, make sure that you do each of
     
 2. [Configure server-to-server authentication from SharePoint Server to SharePoint Online](configure-server-to-server-authentication.md)
     
-    For additional information about synchronizing users and passwords, see [Ways to synchronize users and passwords](configure-hybrid-onedrive-for-business.md#Licenses) in [Configure hybrid OneDrive for Business](configure-hybrid-onedrive-for-business.md).
+    For additional information about synchronizing users and passwords, see [Ways to synchronize users and passwords](configure-hybrid-onedrive-for-business.md) in [Configure hybrid OneDrive for Business](configure-hybrid-onedrive-for-business.md).
     
 - Create an enterprise Search Center in your SharePoint Server deployment if one does not already exist. For more information, see [Create a Search Center site in SharePoint Server](../search/create-a-search-center-site.md).
     
