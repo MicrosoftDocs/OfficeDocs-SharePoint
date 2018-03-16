@@ -1,7 +1,7 @@
 ---
 title: "SharePoint Updates"
-ms.author: v-sharos
-author: v-sharos
+ms.author: kirks
+author: Techwriter40
 manager: pamgreen
 ms.date: 2/13/2018
 ms.audience: ITPro
