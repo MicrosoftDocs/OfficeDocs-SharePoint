@@ -200,7 +200,7 @@ The query text means the following:
     
   - The colon : means "contains."
     
-  - #91eb9f0d-3e5a-41a8-8487-78dfe234ca7c is the GUID of the current category. In this example the current category is  *Cameras*  . 
+  - 91eb9f0d-3e5a-41a8-8487-78dfe234ca7c is the GUID of the current category. In this example the current category is  *Cameras*  . 
     
   - **(IsDocument:"True" OR contentclass:"STS_ListItem")** narrows the search result down to only documents or list items. 
     
