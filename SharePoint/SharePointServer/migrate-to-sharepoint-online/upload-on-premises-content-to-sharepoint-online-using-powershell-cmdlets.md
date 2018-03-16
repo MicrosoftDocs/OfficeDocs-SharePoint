@@ -231,7 +231,21 @@ If you're using the temporary Azure storage created by  *Invoke-SPOMigrationEncr
 The following is a sample script you can use that includes the complete steps from determining your locations and credentials to submitting your package data to create a new migration job.
   
 ```
-
+$userName = "admin@contoso.onmicrosoft.com"
+  
+$sourceFiles = "d:\data\documents"
+  
+$packagePath = "d:\data\documentPackage"
+  
+$spoPackagePath = "d:\data\documentPackageForSPO"
+  
+$targetWebUrl = "https://contoso.sharepoint.com/sites/finance"
+  
+$targetLibrary = "Documents"
+  
+$cred = Get-Credential $userName
+  
+New-SPOMigrationPackage -SourceFilesPath $sourceFiles -OutputPackagePath $packagePath -TargetWebUrl $targetWebUrl -TargetDocumentLibraryPath $targetLibrary -IgnoreHidden -ReplaceInvalidCharacters
 ```
 
 $userName = "admin@contoso.onmicrosoft.com"

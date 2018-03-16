@@ -52,8 +52,6 @@ Before you read this article, read the following articles to make sure that you 
   
 - [Capacity management and sizing for SharePoint Server 2013](capacity-management-and-sizing-for-sharepoint-server-2013.md)
     
-- 
-    
 - [Estimate performance and capacity requirements for enterprise intranet collaboration environments (SharePoint Server 2013)](enterprise-intranet-collaboration-performance-and-capacity.md)
     
 ## Glossary
