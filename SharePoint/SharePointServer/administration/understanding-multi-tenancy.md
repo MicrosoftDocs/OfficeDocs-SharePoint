@@ -25,11 +25,6 @@ This article describes the components and services related to multi-tenancy in S
 > [!NOTE]
 > OneDrive for Business with Yammer integration doesn't work for multi-tenancy or partitioned service applications for on-premises deployments. 
   
-## Before you begin
-<a name="begin"> </a>
-
-SharePoint supports the accessibility features of common browsers to help you administer deployments and access sites. For more information, see [Accessibility for SharePoint 2013](94ad4316-1077-400a-b17e-a2085a5a7312). 
-  
 ## Introduction to multi-tenancy in SharePoint Server 2013
 <a name="begin"> </a>
 
@@ -53,7 +48,7 @@ Host-named site collections enable you to assign a unique DNS name to site colle
   
 Host Named Site Collections are fundamentally the only way to scale for multi-tenancy environments, and provide ultimate flexibility with respect to the URL namespace used. If using path-based sites with multi-tenancy the software boundary for managed paths will be reached extremely quickly.
   
-For additional information about how to plan for host-named site collections for SharePoint Server 2013, see [Host-named site collection architecture and deployment (SharePoint 2013)](host-named-site-collection-architecture-and-deployment).
+For additional information about how to plan for host-named site collections for SharePoint Server 2013, see [Host-named site collection architecture and deployment (SharePoint 2013)](host-named-site-collection-architecture-and-deployment.md).
   
 #### Service groups (proxy groups)
 
@@ -75,7 +70,7 @@ Some proxies might include settings that can be changed. For example, if a web a
 
 A service application is a logical representation of a given service, and its security and management configuration which defines its operational behavior. Examples include Managed Metadata and User Profiles. Different service applications are implemented in different ways and this will influence the design of multi-tenant solutions.
   
-To determine the list of service applications that is available in SharePoint Server 2013 and their availability across SharePoint editions with multi-tenancy feature, see the **Services and Functionalities** section in [General guidance for hosters in SharePoint Server 2013](general-guidance-for-hosters-in-sharepoint-server-2013)
+To determine the list of service applications that is available in SharePoint Server 2013 and their availability across SharePoint editions with multi-tenancy feature, see the **Services and Functionalities** section in [General guidance for hosters in SharePoint Server 2013](general-guidance-for-hosters-in-sharepoint-server-2013.md)
   
 #### Feature packs and licensing
 
@@ -532,7 +527,7 @@ This section presents a deployment example which makes use of a single hosting w
   
 #### DNS configuration
 
-Because host-named site collections will be used for a multi-tenant SharePoint environment, you must configure your DNS (that is, create appropriate DNS records, etc.) accordingly based on your plan. For additional guidance about how to plan host-named site collections for SharePoint Server 2013, see [Host-named site collection architecture and deployment (SharePoint 2013)](host-named-site-collection-architecture-and-deployment).
+Because host-named site collections will be used for a multi-tenant SharePoint environment, you must configure your DNS (that is, create appropriate DNS records, etc.) accordingly based on your plan. For additional guidance about how to plan host-named site collections for SharePoint Server 2013, see [Host-named site collection architecture and deployment (SharePoint 2013)](host-named-site-collection-architecture-and-deployment.md).
   
 If you also plan to support apps for SharePoint, you must also configure DNS to support your environment. For additional information about how to configure an apps environment for SharePoint Server 2013, see [Configure an environment for apps for SharePoint Server](https://support.office.com/article/bf94ede1-79cc-4016-99f3-a1eef244fdf3).
   
@@ -1528,5 +1523,5 @@ function RemoveSiteSubTenantProperty([string]$url, [string]$theKey)
 
 #### Concepts
 
-[General guidance for hosters in SharePoint Server 2013](general-guidance-for-hosters-in-sharepoint-server-2013)
+[General guidance for hosters in SharePoint Server 2013](general-guidance-for-hosters-in-sharepoint-server-2013.md)
 

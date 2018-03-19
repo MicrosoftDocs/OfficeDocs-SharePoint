@@ -81,7 +81,7 @@ The web site is now configured to use digest authentication.
 
 #### Concepts
 
-[Configure Basic authentication for a claims-based Web application](configure-basic-authentication-for-a-claims-based-web-application)
+[Configure Basic authentication for a claims-based Web application](configure-basic-authentication-for-a-claims-based-web-application.md)
 #### Other Resources
 
 [Plan for user authentication methods in SharePoint Server](https://support.office.com/article/40117fda-70a0-4e3d-8cd3-0def768da16c)

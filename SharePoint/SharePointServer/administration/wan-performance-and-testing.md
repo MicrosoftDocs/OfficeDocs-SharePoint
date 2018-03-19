@@ -201,5 +201,5 @@ Fabrikam is an example of a world-wide company that succeeds with a central data
 
 #### Concepts
 
-[Global architectures for SharePoint 2013](global-architectures)
+[Global architectures for SharePoint 2013](global-architectures.md)
 

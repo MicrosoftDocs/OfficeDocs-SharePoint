@@ -22,7 +22,7 @@ description: "Summary: Configure the SharePoint servers to host a high-availabil
   
 In this phase of deploying an intranet-only SharePoint Server 2016 farm in Azure infrastructure services, you create the SharePoint Server 2016 servers and configure their roles with the SharePoint Configuration Wizard.
   
-You must complete this phase before moving on to [SharePoint Intranet Farm in Azure Phase 5: Create the availability group and add the SharePoint databases](sharepoint-intranet-farm-in-azure-phase-5-create-the-availability-group-and-add). See [Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](https://support.office.com/article/af7cf3e7-94b1-4a5d-8cb9-80c5a0b397f2) for all of the phases. 
+You must complete this phase before moving on to [SharePoint Intranet Farm in Azure Phase 5: Create the availability group and add the SharePoint databases](sharepoint-intranet-farm-in-azure-phase-5-create-the-availability-group-and-add.md). See [Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](https://support.office.com/article/af7cf3e7-94b1-4a5d-8cb9-80c5a0b397f2) for all of the phases. 
   
 ## Create the SharePoint server virtual machines in Azure
 
@@ -48,7 +48,7 @@ Use the following blocks of PowerShell commands to create the components in Azur
     
 - Table A, for your availability sets
     
-Recall that you defined Table M in [SharePoint Intranet Farm in Azure Phase 2: Configure domain controllers](sharepoint-intranet-farm-in-azure-phase-2-configure-domain-controllers) and Tables R, V, S, I, and A in [SharePoint Intranet Farm in Azure Phase 1: Configure Azure](sharepoint-intranet-farm-in-azure-phase-1-configure-azure).
+Recall that you defined Table M in [SharePoint Intranet Farm in Azure Phase 2: Configure domain controllers](sharepoint-intranet-farm-in-azure-phase-2-configure-domain-controllers.md) and Tables R, V, S, I, and A in [SharePoint Intranet Farm in Azure Phase 1: Configure Azure](sharepoint-intranet-farm-in-azure-phase-1-configure-azure.md).
   
 First, you configure internal load balancing so that Azure distributes the client traffic evenly among the two front end and distributed caching servers.
   
@@ -214,7 +214,7 @@ Do the following for each of the SharePoint servers:
 
     Note that you must supply domain account credentials after running the **Add-Computer** command. 
     
-3. After the virtual machine restarts, create a Remote Desktop connection using the <your domain>\sp_farm_db account credentials four times, once for each SharePoint server. You created these credentials in [SharePoint Intranet Farm in Azure Phase 2: Configure domain controllers](sharepoint-intranet-farm-in-azure-phase-2-configure-domain-controllers).
+3. After the virtual machine restarts, create a Remote Desktop connection using the <your domain>\sp_farm_db account credentials four times, once for each SharePoint server. You created these credentials in [SharePoint Intranet Farm in Azure Phase 2: Configure domain controllers](sharepoint-intranet-farm-in-azure-phase-2-configure-domain-controllers.md).
     
 > [!NOTE]
 > The SharePoint servers are created from the SharePoint Server 2016 Trial image. You need to convert the installation to use a Retail or Volume License key for either the Standard or Enterprise edition of SharePoint Server 2016. For more information, see [SharePoint 2016 Licensing](https://products.office.com/en-us/sharepoint/sharepoint-licensing-overview). 
@@ -377,7 +377,7 @@ Here is the configuration that results from the successful completion of this ph
   
 ## Next step
 
-Use [SharePoint Intranet Farm in Azure Phase 5: Create the availability group and add the SharePoint databases](sharepoint-intranet-farm-in-azure-phase-5-create-the-availability-group-and-add) to continue configuring this workload. 
+Use [SharePoint Intranet Farm in Azure Phase 5: Create the availability group and add the SharePoint databases](sharepoint-intranet-farm-in-azure-phase-5-create-the-availability-group-and-add.md) to continue configuring this workload. 
   
 ## See also
 
