@@ -44,7 +44,7 @@ The design samples illustrate sites for a fictitious company named Fabrikam, Inc
 
 Host-named site collections in SharePoint Server provide URL management and scalability of sites within a single web application. The two versions of the Corporate Portal design sample show implementations that are based on the use of the traditional path-based site collections or host-named site collections. Both of these design samples utilize claims-based authentication with a single zone. These samples are discussed in greater detail later in this article.
   
-We recommend using the design based on host-named site collections unless requirements dictate that path-based sites with alternate access mapping are necessary (see [Host-named site collection architecture and deployment (SharePoint 2013)](host-named-site-collection-architecture-and-deployment), for more information). This design is recommended because it is the same architecture that the Office 365 environment uses. Consequently this is the most heavily tested configuration. New features, including the App model and Request Management, are optimized for this configuration, and it is the most reliable configuration going forward.
+We recommend using the design based on host-named site collections unless requirements dictate that path-based sites with alternate access mapping are necessary (see [Host-named site collection architecture and deployment (SharePoint 2013)](host-named-site-collection-architecture-and-deployment.md), for more information). This design is recommended because it is the same architecture that the Office 365 environment uses. Consequently this is the most heavily tested configuration. New features, including the App model and Request Management, are optimized for this configuration, and it is the most reliable configuration going forward.
   
 ### Extranet with Dedicated Zones for Authentication
 
@@ -396,7 +396,7 @@ Although we recommend host-named site collections for most architectures, you sh
     
 - You plan to use different application pools for the additional security that these provide or you need to use multiple proxy groups.
     
-For more information about host-named site collections, including a comparison with path-based site collections, see [Host-named site collection architecture and deployment (SharePoint 2013)](host-named-site-collection-architecture-and-deployment).
+For more information about host-named site collections, including a comparison with path-based site collections, see [Host-named site collection architecture and deployment (SharePoint 2013)](host-named-site-collection-architecture-and-deployment.md).
   
 ### 
 

@@ -164,7 +164,7 @@ It is important to understand the distinction between Host headers in IIS and Ho
 When using Host named site collections, SharePoint is responsible for resolving the correct site for the address based upon the incoming request passed through IIS. In most cases, applying a host header binding at the IIS web site level makes it impossible to access host-named site collections through the IIS web site. This is because IIS will not respond to requests for host names that differ from the host header binding. 
   
 > [!IMPORTANT]
-> If an existing web application has a host header binding set, IIS will not return pages from the host-named site collection until you remove the binding from IIS. For more information, see [Update a web application URL and IIS bindings for SharePoint 2013](update-a-web-application-url-and-iis-bindings). 
+> If an existing web application has a host header binding set, IIS will not return pages from the host-named site collection until you remove the binding from IIS. For more information, see [Update a web application URL and IIS bindings for SharePoint 2013](update-a-web-application-url-and-iis-bindings.md). 
   
 ### Mix host-named site collections and path-based site collections in the same web application
 <a name="section1f"> </a>

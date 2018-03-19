@@ -94,5 +94,5 @@ By default, the following Web Parts are marked as safe for editing and can be ad
 
 #### Concepts
 
-[User permissions and permission levels in SharePoint 2013](user-permissions-and-permission-levels)
+[User permissions and permission levels in SharePoint 2013](user-permissions-and-permission-levels.md)
 

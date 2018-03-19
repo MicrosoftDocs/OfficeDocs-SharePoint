@@ -57,7 +57,7 @@ If the default groups do not map to the exact user groups in your organization, 
   
 Besides the above SharePoint groups, there are also administrator groups for higher-level administration tasks. They are Windows administrators, SharePoint farm administrators, and site collection administrators.
   
-For more information, see [Choose administrators and owners for the administration hierarchy in SharePoint 2013](choose-administrators-and-owners-for-the-administration-hierarchy-in-sharepoint).
+For more information, see [Choose administrators and owners for the administration hierarchy in SharePoint 2013](choose-administrators-and-owners-for-the-administration-hierarchy-in-sharepoint.md).
   
 ## Review available permission levels
 <a name="section2"> </a>
@@ -83,7 +83,7 @@ By default, the following permission levels are available:
     
 - **Full Control ** Includes all permissions. 
     
-For more information about permissions that are included in the default permission levels, see [User permissions and permission levels in SharePoint 2013](user-permissions-and-permission-levels).
+For more information about permissions that are included in the default permission levels, see [User permissions and permission levels in SharePoint 2013](user-permissions-and-permission-levels.md).
   
 The following additional permission levels are provided with the publishing template by default:
   
