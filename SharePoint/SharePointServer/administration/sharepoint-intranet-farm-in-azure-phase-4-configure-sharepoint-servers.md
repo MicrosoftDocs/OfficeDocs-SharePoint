@@ -214,7 +214,7 @@ Do the following for each of the SharePoint servers:
 
     Note that you must supply domain account credentials after running the **Add-Computer** command. 
     
-3. After the virtual machine restarts, create a Remote Desktop connection using the <your domain>\sp_farm_db account credentials four times, once for each SharePoint server. You created these credentials in [SharePoint Intranet Farm in Azure Phase 2: Configure domain controllers](sharepoint-intranet-farm-in-azure-phase-2-configure-domain-controllers).
+3. After the virtual machine restarts, create a Remote Desktop connection using the <your domain>\sp_farm_db account credentials four times, once for each SharePoint server. You created these credentials in [SharePoint Intranet Farm in Azure Phase 2: Configure domain controllers](sharepoint-intranet-farm-in-azure-phase-2-configure-domain-controllers.md).
     
 > [!NOTE]
 > The SharePoint servers are created from the SharePoint Server 2016 Trial image. You need to convert the installation to use a Retail or Volume License key for either the Standard or Enterprise edition of SharePoint Server 2016. For more information, see [SharePoint 2016 Licensing](https://products.office.com/en-us/sharepoint/sharepoint-licensing-overview). 

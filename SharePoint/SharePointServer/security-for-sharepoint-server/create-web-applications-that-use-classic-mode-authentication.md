@@ -45,8 +45,7 @@ Before you perform this procedure, confirm the following:
 - If you use Secure Sockets Layer (SSL), you must associate the SSL certificate with the web application's IIS website after the IIS website is created. SSL is required by default for web applications that are used in server-to-server authentication and app authentication scenarios. 
     
 - You understand host-named site collections.
-    
-    For more information, see [Host-named site collections planning](host-named-site-collection-architecture-and-deployment.md).
+
     
 ## Create a web application that uses classic mode authentication with PowerShell
 <a name="begin"> </a>
