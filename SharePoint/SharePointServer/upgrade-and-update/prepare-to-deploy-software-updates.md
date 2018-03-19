@@ -177,5 +177,5 @@ In server farm deployments, all web servers must have the same software update v
 
 [Deploy software updates for SharePoint 2013](https://support.office.com/article/848b8f29-1deb-4ee8-92d3-8e3090ec83b0)
   
-[Install a software update](install-a-software-update)
+[Install a software update](install-a-software-update.md)
 

@@ -41,7 +41,7 @@ To understand how to implement software updates in SharePoint 2013, it is import
 |**Cumulative Update (CU)** <br/> |A CU is a rollup update that contains all previous critical on-demand hotfixes to date. Additionally, a CU contains fixes for issues that meet the hotfix acceptance criteria. These criteria may include the availability of a workaround, the effect on the customer, the reproducibility of the problem, the complexity of the code that must be changed, or other reasons.  <br/> ||
 |**patch** <br/> |A compiled, executable installer file that contains updates to one or more products. Examples of packages are the executable (.exe) files that you download to install a service pack, cumulative update (CU), or hotfix. Packages are also known as MSI files.  <br/> ||
 |**software update** <br/> |A software update is any update, update rollup, service pack, feature pack, critical update, security update, or hotfix that is used to improve or to fix a software product that is released by Microsoft Corporation.  <br/> ||
-|**upgrade** <br/> |Process by which you change an environment to use a newer version of software. You can upgrade to a minor release, such as an update or patch, or to a major release. An upgrade to a minor release is called a build-to-build upgrade. An upgrade to a major release is called a version-to-version upgrade.  <br/> |In SharePoint 2013, for build-to-build upgrades, you can use either in-place or database-attach methods. For version-to-version upgrade, only database-attach is supported. For more information about version-to-version upgrade, see [Overview of the upgrade process from SharePoint 2010 to SharePoint 2013](https://support.office.com/article/1ee4bc3c-f53c-472d-baf7-2c4ac9975643). For an overview of the steps for in-place and database-attach upgrade for build-to-build upgrades, see [Install a software update (SharePoint 2013)](install-a-software-update) <br/> |
+|**upgrade** <br/> |Process by which you change an environment to use a newer version of software. You can upgrade to a minor release, such as an update or patch, or to a major release. An upgrade to a minor release is called a build-to-build upgrade. An upgrade to a major release is called a version-to-version upgrade.  <br/> |In SharePoint 2013, for build-to-build upgrades, you can use either in-place or database-attach methods. For version-to-version upgrade, only database-attach is supported. For more information about version-to-version upgrade, see [Overview of the upgrade process from SharePoint 2010 to SharePoint 2013](https://support.office.com/article/1ee4bc3c-f53c-472d-baf7-2c4ac9975643). For an overview of the steps for in-place and database-attach upgrade for build-to-build upgrades, see [Install a software update (SharePoint 2013)](install-a-software-update.md) <br/> |
    
 For a complete list of terminology about software updates, see [Description of the standard terminology that is used to describe Microsoft software updates](https://go.microsoft.com/fwlink/p/?LinkID=142308).
   
@@ -137,7 +137,7 @@ Determine the strategy that you want to use to update the farm. Depending on you
     
 - Database-attach
     
-For more information about the update strategy to use, see [Install a software update (SharePoint 2013)](install-a-software-update)
+For more information about the update strategy to use, see [Install a software update (SharePoint 2013)](install-a-software-update.md)
   
 #### Downtime reduction
 

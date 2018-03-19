@@ -21,7 +21,7 @@ description: "Summary: Learn how to configure alternate access mappings in Share
   
 Each web application can be associated with a collection of mappings between internal and public URLs. Both internal and public URLs consist of the protocol and domain portions of the full URL (for example, https://www.fabrikam.com). A public URL is what users type to access the SharePoint site, and that URL is what appears in the links on the pages. Internal URLs are in the URL requests that are sent to the SharePoint site. Many internal URLs can be associated with a single public URL in multi-server farms (for example, when a load balancer routes requests to specific IP addresses to various servers in the load-balancing cluster).
   
-Each web application supports five collections of mappings per URL. The five collections correspond to five zones (default, intranet, extranet, Internet, and custom). When the web application receives a request for an internal URL in a particular zone, links on the pages returned to the user have the public URL for that zone. For more information, see [Plan alternate access mappings for SharePoint 2013](plan-alternate-access-mappings).
+Each web application supports five collections of mappings per URL. The five collections correspond to five zones (default, intranet, extranet, Internet, and custom). When the web application receives a request for an internal URL in a particular zone, links on the pages returned to the user have the public URL for that zone. For more information, see [Plan alternate access mappings for SharePoint 2013](plan-alternate-access-mappings.md).
   
 ## Manage alternate access mappings
 
