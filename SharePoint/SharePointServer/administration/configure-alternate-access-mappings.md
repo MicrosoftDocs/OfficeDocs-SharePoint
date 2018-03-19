@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 8/17/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection:
 - IT_Sharepoint_Server
@@ -21,7 +21,7 @@ description: "Summary: Learn how to configure alternate access mappings in Share
   
 Each web application can be associated with a collection of mappings between internal and public URLs. Both internal and public URLs consist of the protocol and domain portions of the full URL (for example, https://www.fabrikam.com). A public URL is what users type to access the SharePoint site, and that URL is what appears in the links on the pages. Internal URLs are in the URL requests that are sent to the SharePoint site. Many internal URLs can be associated with a single public URL in multi-server farms (for example, when a load balancer routes requests to specific IP addresses to various servers in the load-balancing cluster).
   
-Each web application supports five collections of mappings per URL. The five collections correspond to five zones (default, intranet, extranet, Internet, and custom). When the web application receives a request for an internal URL in a particular zone, links on the pages returned to the user have the public URL for that zone. For more information, see [Plan alternate access mappings for SharePoint 2013](plan-alternate-access-mappings.md).
+Each web application supports five collections of mappings per URL. The five collections correspond to five zones (default, intranet, extranet, Internet, and custom). When the web application receives a request for an internal URL in a particular zone, links on the pages returned to the user have the public URL for that zone. For more information, see [Plan alternate access mappings for SharePoint 2013](plan-alternate-access-mappings).
   
 ## Manage alternate access mappings
 
@@ -29,7 +29,7 @@ Each web application supports five collections of mappings per URL. The five col
     
 2. On the **System Settings** page, in the **Farm Management** section, click **Configure alternate access mappings**.
     
-For information about how to perform this procedure using a Microsoft PowerShell cmdlet, see [New-SPAlternateUrl](https://support.office.com/article/450f057d-1cb8-4680-b28d-0db4d1b7e09c.aspx).
+For information about how to perform this procedure using a Microsoft PowerShell cmdlet, see [New-SPAlternateUrl](https://technet.microsoft.com/library/450f057d-1cb8-4680-b28d-0db4d1b7e09c.aspx).
   
 ## Add an internal URL
 
@@ -64,7 +64,7 @@ For information about how to perform this procedure using a Microsoft PowerShell
     
 5. Click **Delete** to delete the internal URL. 
     
-For information about how to perform this procedure using a Microsoft PowerShell cmdlet, see [Remove-SPAlternateUrl](https://support.office.com/article/25af02dd-ae9f-4ec0-a099-3c6cd38f2187.aspx).
+For information about how to perform this procedure using a Microsoft PowerShell cmdlet, see [Remove-SPAlternateUrl](https://technet.microsoft.com/library/25af02dd-ae9f-4ec0-a099-3c6cd38f2187.aspx).
   
 ## Edit public URLs
 

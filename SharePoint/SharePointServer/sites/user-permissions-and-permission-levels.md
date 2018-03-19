@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 8/17/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: ff13b917-5236-48e6-89d5-8c78e61a72a8
 description: "Summary: Learn about the default permission levels and user permissions in SharePoint 2013 and SharePoint Server 2016."
@@ -24,7 +24,7 @@ Default permission levels are predefined sets of permissions that you can assign
 Default permission levels are made up of a set of permissions that enable users to perform a collection of related tasks. SharePoint Server includes seven permission levels. You can customize the permissions contained within five of these permission levels. You cannot customize the permissions within the Limited Access and Full Control permission levels.
   
 > [!NOTE]
-> Although you cannot directly edit the Limited Access and Full Control permission levels, you can make individual permissions unavailable for the entire web application, which removes those permissions from the Limited Access and Full Control permission levels. For more information, see [Manage permissions for a web application in SharePoint Server](https://support.office.com/article/28a53440-2adc-4957-84bd-99ed97f0c430). 
+> Although you cannot directly edit the Limited Access and Full Control permission levels, you can make individual permissions unavailable for the entire web application, which removes those permissions from the Limited Access and Full Control permission levels. For more information, see [Manage permissions for a web application in SharePoint Server](https://technet.microsoft.com/library/28a53440-2adc-4957-84bd-99ed97f0c430). 
   
 The following table lists the default permission levels for team sites in SharePoint Server.
   
@@ -106,5 +106,5 @@ Permissions are categorized as list permissions, site permissions, and personal 
 
 #### Other Resources
 
-[Manage permissions for a web application in SharePoint Server](https://support.office.com/article/28a53440-2adc-4957-84bd-99ed97f0c430)
+[Manage permissions for a web application in SharePoint Server](https://technet.microsoft.com/library/28a53440-2adc-4957-84bd-99ed97f0c430)
 

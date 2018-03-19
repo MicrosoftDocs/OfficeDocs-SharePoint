@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 2/22/2018
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection:
 - IT_Sharepoint_Server
@@ -26,9 +26,9 @@ Administrators update SharePoint 2013 to deploy or update assemblies that provid
 
 Before you begin the software update process, review the following information about permissions, hardware requirements, and software requirements.
   
-- [Account permissions and security settings in SharePoint 2013](https://support.office.com/article/1c52404b-9221-4486-a74b-f7e1330c21df)
+- [Account permissions and security settings in SharePoint 2013](https://technet.microsoft.com/library/1c52404b-9221-4486-a74b-f7e1330c21df)
     
-- [Hardware and software requirements for SharePoint 2013](https://support.office.com/article/a88d3f72-7ac3-4f08-b302-c4ca0a796268)
+- [Hardware and software requirements for SharePoint 2013](https://technet.microsoft.com/library/a88d3f72-7ac3-4f08-b302-c4ca0a796268)
     
 ## Terminology
 <a name="terms"> </a>
@@ -41,7 +41,7 @@ To understand how to implement software updates in SharePoint 2013, it is import
 |**Cumulative Update (CU)** <br/> |A CU is a rollup update that contains all previous critical on-demand hotfixes to date. Additionally, a CU contains fixes for issues that meet the hotfix acceptance criteria. These criteria may include the availability of a workaround, the effect on the customer, the reproducibility of the problem, the complexity of the code that must be changed, or other reasons.  <br/> ||
 |**patch** <br/> |A compiled, executable installer file that contains updates to one or more products. Examples of packages are the executable (.exe) files that you download to install a service pack, cumulative update (CU), or hotfix. Packages are also known as MSI files.  <br/> ||
 |**software update** <br/> |A software update is any update, update rollup, service pack, feature pack, critical update, security update, or hotfix that is used to improve or to fix a software product that is released by Microsoft Corporation.  <br/> ||
-|**upgrade** <br/> |Process by which you change an environment to use a newer version of software. You can upgrade to a minor release, such as an update or patch, or to a major release. An upgrade to a minor release is called a build-to-build upgrade. An upgrade to a major release is called a version-to-version upgrade.  <br/> |In SharePoint 2013, for build-to-build upgrades, you can use either in-place or database-attach methods. For version-to-version upgrade, only database-attach is supported. For more information about version-to-version upgrade, see [Overview of the upgrade process from SharePoint 2010 to SharePoint 2013](https://support.office.com/article/1ee4bc3c-f53c-472d-baf7-2c4ac9975643). For an overview of the steps for in-place and database-attach upgrade for build-to-build upgrades, see [Install a software update (SharePoint 2013)](install-a-software-update.md) <br/> |
+|**upgrade** <br/> |Process by which you change an environment to use a newer version of software. You can upgrade to a minor release, such as an update or patch, or to a major release. An upgrade to a minor release is called a build-to-build upgrade. An upgrade to a major release is called a version-to-version upgrade.  <br/> |In SharePoint 2013, for build-to-build upgrades, you can use either in-place or database-attach methods. For version-to-version upgrade, only database-attach is supported. For more information about version-to-version upgrade, see [Overview of the upgrade process from SharePoint 2010 to SharePoint 2013](https://technet.microsoft.com/library/1ee4bc3c-f53c-472d-baf7-2c4ac9975643). For an overview of the steps for in-place and database-attach upgrade for build-to-build upgrades, see [Install a software update (SharePoint 2013)](install-a-software-update) <br/> |
    
 For a complete list of terminology about software updates, see [Description of the standard terminology that is used to describe Microsoft software updates](https://go.microsoft.com/fwlink/p/?LinkID=142308).
   
@@ -127,7 +127,7 @@ During this phase of the cycle, you learn about requirements to install the upda
   
 #### Requirements and prerequisites
 
-First, ensure that the system can be provisioned as a farm server. For more information, see [Hardware and software requirements for SharePoint 2013](https://support.office.com/article/a88d3f72-7ac3-4f08-b302-c4ca0a796268). Ensure that any server that you plan to update is running the same version of the operating system as the other farm servers. This includes updates, service packs, and security hotfixes.
+First, ensure that the system can be provisioned as a farm server. For more information, see [Hardware and software requirements for SharePoint 2013](https://technet.microsoft.com/library/a88d3f72-7ac3-4f08-b302-c4ca0a796268). Ensure that any server that you plan to update is running the same version of the operating system as the other farm servers. This includes updates, service packs, and security hotfixes.
   
 #### Update strategy
 
@@ -137,7 +137,7 @@ Determine the strategy that you want to use to update the farm. Depending on you
     
 - Database-attach
     
-For more information about the update strategy to use, see [Install a software update (SharePoint 2013)](install-a-software-update.md)
+For more information about the update strategy to use, see [Install a software update (SharePoint 2013)](install-a-software-update)
   
 #### Downtime reduction
 
@@ -180,11 +180,11 @@ During the Learn phase of the update cycle, you should have determined an update
 - A rollback process if there is a major problem
     
 > [!TIP]
-> Clean up the farm environment before you deploy the update. The benefits of a cleanup are improved update installation performance and the elimination of potential issues during and after the software update. For more information, see [Clean up an environment before an upgrade to SharePoint 2013](https://support.office.com/article/bad0e5f7-44e1-40c7-8450-4c7069d4984b). 
+> Clean up the farm environment before you deploy the update. The benefits of a cleanup are improved update installation performance and the elimination of potential issues during and after the software update. For more information, see [Clean up an environment before an upgrade to SharePoint 2013](https://technet.microsoft.com/library/bad0e5f7-44e1-40c7-8450-4c7069d4984b). 
   
 The two final requirements for the update strategy are a communication plan and an update schedule.
   
-It is important to communicate with site owners and users about what to expect during an upgrade. An administrator should inform users about downtime and the risk that the upgrade may take longer than expected or that some sites may need some rework after upgrade. For more information, see [Create a communication plan for the upgrade to SharePoint 2013](https://support.office.com/article/6633015d-3938-4d83-b814-f3af85101f49).
+It is important to communicate with site owners and users about what to expect during an upgrade. An administrator should inform users about downtime and the risk that the upgrade may take longer than expected or that some sites may need some rework after upgrade. For more information, see [Create a communication plan for the upgrade to SharePoint 2013](https://technet.microsoft.com/library/6633015d-3938-4d83-b814-f3af85101f49).
   
 Create a benchmark schedule for update operations that contains the start times of operations that are related to the update deployment. At a minimum, the plan should include the following operations:
   
@@ -214,7 +214,7 @@ Ensure that farm items are ready for the update. Farm items are ready if they ar
     
 ### Test
 
-The rigor, thoroughness, and detail of your tests determine the success or failure of the software update deployment. In a production computer environment, there are no safe shortcuts, and there are consequences from insufficient testing. For more information, see [Use a trial upgrade to SharePoint 2013 to find potential issues](https://support.office.com/article/87e7fcf5-2759-4c4f-9248-15103e9b9f64).
+The rigor, thoroughness, and detail of your tests determine the success or failure of the software update deployment. In a production computer environment, there are no safe shortcuts, and there are consequences from insufficient testing. For more information, see [Use a trial upgrade to SharePoint 2013 to find potential issues](https://technet.microsoft.com/library/87e7fcf5-2759-4c4f-9248-15103e9b9f64).
   
 #### Build a test farm
 
@@ -249,7 +249,7 @@ Use solutions whenever possible so that you can deploy individual files or compo
   
 #### Reduce downtime
 
-Reduce downtime by using techniques such as read-only databases and update parallelism. For more information, see the "How to minimize downtime during upgrade" section in [Determine strategy for upgrade to SharePoint 2013](https://support.office.com/article/cfc19211-c895-4992-8b46-5a5c73c015fe).
+Reduce downtime by using techniques such as read-only databases and update parallelism. For more information, see the "How to minimize downtime during upgrade" section in [Determine strategy for upgrade to SharePoint 2013](https://technet.microsoft.com/library/cfc19211-c895-4992-8b46-5a5c73c015fe).
   
 #### Monitor progress
 
@@ -281,7 +281,7 @@ You can start to validate the success of the update during the implementation ph
   
 #### Logged event failures
 
-Review the event logs to discover issues that occurred during the deployment. Resolve these issues and then resume or restart the update as appropriate. For more information about event log files, see [Configure diagnostic logging in SharePoint Server](https://support.office.com/article/faab1eb4-5848-4970-b13f-ba6df14272fe).
+Review the event logs to discover issues that occurred during the deployment. Resolve these issues and then resume or restart the update as appropriate. For more information about event log files, see [Configure diagnostic logging in SharePoint Server](https://technet.microsoft.com/library/faab1eb4-5848-4970-b13f-ba6df14272fe).
   
 #### User interface or experience issues
 

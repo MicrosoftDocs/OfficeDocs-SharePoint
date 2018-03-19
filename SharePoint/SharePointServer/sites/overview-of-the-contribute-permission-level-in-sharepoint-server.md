@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 8/17/2017
 ms.audience: ITPro
 ms.topic: concetpual
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection:
 - IT_Sharepoint_Server
@@ -94,5 +94,5 @@ By default, the following Web Parts are marked as safe for editing and can be ad
 
 #### Concepts
 
-[User permissions and permission levels in SharePoint 2013](user-permissions-and-permission-levels.md)
+[User permissions and permission levels in SharePoint 2013](user-permissions-and-permission-levels)
 

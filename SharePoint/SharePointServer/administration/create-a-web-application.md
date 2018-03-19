@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 2/28/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection:
 - IT_Sharepoint_Server
@@ -28,10 +28,10 @@ A SharePoint Server web application is composed of an Internet Information Servi
   
 |**        ![Building blocks](../media/mod_icon_buildingblock_M.png)                 **|**Content**|**Description**|
 |:-----|:-----|:-----|
-||[Create web applications that use classic mode authentication in SharePoint 2013](create-web-applications-that-use-classic-mode-authentication.md) <br/> |Explains how to create a web application that uses classic mode (Windows-classic) authentication in SharePoint Server.  <br/> |
-||[Create claims-based web applications in SharePoint 2013](create-claims-based-web-applications.md) <br/> |Illustrates how to create SharePoint Server web applications that use claims-based authentication or classic-mode authentication.  <br/> |
-||[Configure Basic authentication for a claims-based Web application](configure-basic-authentication-for-a-claims-based-web-application.md) <br/> |Explains how to configure basic authentication for a web application that uses claims-based authentication in SharePoint Server.  <br/> |
-||[Configure Digest authentication for a claims-based Web application](configure-digest-authentication-for-a-claims-based-web-application.md) <br/> |Explains how to configure digest authentication for a web application that uses claims-based authentication in SharePoint Server.  <br/> |
-||[Edit general settings on a web application in SharePoint 2013](edit-general-settings-on-a-web-application.md) <br/> |Illustrates how to change general settings for a SharePoint Server web application in Central Administration.  <br/> |
+||[Create web applications that use classic mode authentication in SharePoint 2013](create-web-applications-that-use-classic-mode-authentication) <br/> |Explains how to create a web application that uses classic mode (Windows-classic) authentication in SharePoint Server.  <br/> |
+||[Create claims-based web applications in SharePoint 2013](create-claims-based-web-applications) <br/> |Illustrates how to create SharePoint Server web applications that use claims-based authentication or classic-mode authentication.  <br/> |
+||[Configure Basic authentication for a claims-based Web application](configure-basic-authentication-for-a-claims-based-web-application) <br/> |Explains how to configure basic authentication for a web application that uses claims-based authentication in SharePoint Server.  <br/> |
+||[Configure Digest authentication for a claims-based Web application](configure-digest-authentication-for-a-claims-based-web-application) <br/> |Explains how to configure digest authentication for a web application that uses claims-based authentication in SharePoint Server.  <br/> |
+||[Edit general settings on a web application in SharePoint 2013](edit-general-settings-on-a-web-application) <br/> |Illustrates how to change general settings for a SharePoint Server web application in Central Administration.  <br/> |
    
 

@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 2/28/2018
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection:
 - IT_Sharepoint_Server
@@ -45,7 +45,7 @@ Use the IIS Manager console to configure IIS to enable basic authentication for 
     
 - Extranet
     
-The Default zone is the zone that is first created when a web application is created. The other zones are created by extending a web application. For more information, see [Extend claims-based web applications in SharePoint](https://support.office.com/article/265ace67-3115-4987-ab2d-80c55e452d4b).
+The Default zone is the zone that is first created when a web application is created. The other zones are created by extending a web application. For more information, see [Extend claims-based web applications in SharePoint](https://technet.microsoft.com/library/265ace67-3115-4987-ab2d-80c55e452d4b).
   
  **To configure IIS to enable basic authentication**
   
@@ -71,7 +71,7 @@ The Default zone is the zone that is first created when a web application is cre
     
 The web site is now configured to use basic authentication.
   
-You can also configure basic authentication when you create a web application in SharePoint Server Central Administration by selecting **Basic authentication (password is sent in clear text)** in the **Claims Authentication Types** section of the **Create New Web Application** dialog box. For more information, see [Create a web application that uses Windows-claims authentication](create-claims-based-web-applications.md). 
+You can also configure basic authentication when you create a web application in SharePoint Server Central Administration by selecting **Basic authentication (password is sent in clear text)** in the **Claims Authentication Types** section of the **Create New Web Application** dialog box. For more information, see [Create a web application that uses Windows-claims authentication](create-claims-based-web-applications). 
   
 > [!SECURITY NOTE]
 > In the **Claims Authentication Types** section of the **Create New Web Application** dialog box, you can select **Integrated Windows authentication**, **Basic authentication (password is sent in clear text)**, or both. If you select both, SharePoint Server will offer both authentication types to the client web browser. The client web browser then determines the type of authentication to use. If you only select **Basic authentication (password is sent in clear text)**, make sure that you enable SSL for this web application. 
@@ -81,10 +81,10 @@ You can also configure basic authentication when you create a web application in
 
 #### Concepts
 
-[Configure Digest authentication for a claims-based Web application](configure-digest-authentication-for-a-claims-based-web-application.md)
+[Configure Digest authentication for a claims-based Web application](configure-digest-authentication-for-a-claims-based-web-application)
 #### Other Resources
 
-[Plan for user authentication methods in SharePoint Server](https://support.office.com/article/40117fda-70a0-4e3d-8cd3-0def768da16c)
+[Plan for user authentication methods in SharePoint Server](https://technet.microsoft.com/library/40117fda-70a0-4e3d-8cd3-0def768da16c)
   
-[Extend claims-based web applications in SharePoint](https://support.office.com/article/265ace67-3115-4987-ab2d-80c55e452d4b)
+[Extend claims-based web applications in SharePoint](https://technet.microsoft.com/library/265ace67-3115-4987-ab2d-80c55e452d4b)
 

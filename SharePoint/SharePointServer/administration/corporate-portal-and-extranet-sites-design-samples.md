@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 8/21/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection:
 - IT_Sharepoint_Server
@@ -44,7 +44,7 @@ The design samples illustrate sites for a fictitious company named Fabrikam, Inc
 
 Host-named site collections in SharePoint Server provide URL management and scalability of sites within a single web application. The two versions of the Corporate Portal design sample show implementations that are based on the use of the traditional path-based site collections or host-named site collections. Both of these design samples utilize claims-based authentication with a single zone. These samples are discussed in greater detail later in this article.
   
-We recommend using the design based on host-named site collections unless requirements dictate that path-based sites with alternate access mapping are necessary (see [Host-named site collection architecture and deployment (SharePoint 2013)](host-named-site-collection-architecture-and-deployment.md), for more information). This design is recommended because it is the same architecture that the Office 365 environment uses. Consequently this is the most heavily tested configuration. New features, including the App model and Request Management, are optimized for this configuration, and it is the most reliable configuration going forward.
+We recommend using the design based on host-named site collections unless requirements dictate that path-based sites with alternate access mapping are necessary (see [Host-named site collection architecture and deployment (SharePoint 2013)](host-named-site-collection-architecture-and-deployment), for more information). This design is recommended because it is the same architecture that the Office 365 environment uses. Consequently this is the most heavily tested configuration. New features, including the App model and Request Management, are optimized for this configuration, and it is the most reliable configuration going forward.
   
 ### Extranet with Dedicated Zones for Authentication
 
@@ -167,7 +167,7 @@ Each server farm in the design sample is composed of six servers with the follow
     
 - Two database servers with SQL Server installed and configured to support SQL Server clustering, mirroring, or AlwaysOn. AlwaysOn requires SQL Server 2012.
     
-The concept of front-end and application server is different in SharePoint Server 2016, see [Overview of MinRole Server Roles in SharePoint Server 2016](https://support.office.com/article/a590d614-7488-4b03-8c8f-d45dd48ca726)
+The concept of front-end and application server is different in SharePoint Server 2016, see [Overview of MinRole Server Roles in SharePoint Server 2016](https://technet.microsoft.com/library/a590d614-7488-4b03-8c8f-d45dd48ca726)
   
 The design sample illustrates the logical architecture of SharePoint Server by showing that the following:
   
@@ -175,7 +175,7 @@ The design sample illustrates the logical architecture of SharePoint Server by s
     
 - The Central Administration site is installed on an application server to protect it from direct user access. 
     
-In reality, the number of server computers and the topology of the server farm are important to the logical architecture only to increase capacity and improve performance. You can design the logical architecture independent of the server farm topology. The process of planning performance and capacity helps you plan the size the server farm to meet performance and capacity goals. For more information, see [Performance planning in SharePoint Server 2013](https://support.office.com/article/8dd52916-f77d-4444-b593-1f7d6f330e5f).
+In reality, the number of server computers and the topology of the server farm are important to the logical architecture only to increase capacity and improve performance. You can design the logical architecture independent of the server farm topology. The process of planning performance and capacity helps you plan the size the server farm to meet performance and capacity goals. For more information, see [Performance planning in SharePoint Server 2013](https://technet.microsoft.com/library/8dd52916-f77d-4444-b593-1f7d6f330e5f).
   
 ## Users, zones, and authentication
 <a name="section4"> </a>
@@ -396,7 +396,7 @@ Although we recommend host-named site collections for most architectures, you sh
     
 - You plan to use different application pools for the additional security that these provide or you need to use multiple proxy groups.
     
-For more information about host-named site collections, including a comparison with path-based site collections, see [Host-named site collection architecture and deployment (SharePoint 2013)](host-named-site-collection-architecture-and-deployment.md).
+For more information about host-named site collections, including a comparison with path-based site collections, see [Host-named site collection architecture and deployment (SharePoint 2013)](host-named-site-collection-architecture-and-deployment).
   
 ### 
 
@@ -686,7 +686,7 @@ After a client browser receives the load-balanced IP address, the client browser
 In environments that have multiple domains, enter CNAME records for DNS in the domains that the sites do not reside in. For example, if the Fabrikam network environment includes a second domain named europe.fabrikam.com, CNAME records are entered for these sites in the Europe domain. For the Team Sites intranet site (http://teams), a CNAME record named teams is added to the europe.fabrikam.com domain that points to teams.fabrikam.com. Then, when a client computer's DNS suffix is appended to DNS lookup requests, a request for http://teams from the Europe domain will issue a DNS lookup of teams.europe.fabrikam.com, and will be directed by the CNAME record to teams.fabrikam.com.
   
 > [!NOTE]
-> There is a known issue with some clients that use Kerberos authentication and resolving CNAME records. For more information, see [Kerberos configuration known issues (SharePoint Server 2010)](https://support.office.com/article/ce320af4-baf1-4c52-a26e-8c6577e54453.aspx). 
+> There is a known issue with some clients that use Kerberos authentication and resolving CNAME records. For more information, see [Kerberos configuration known issues (SharePoint Server 2010)](https://technet.microsoft.com/library/ce320af4-baf1-4c52-a26e-8c6577e54453.aspx). 
   
 ## Zone policies
 <a name="section13"> </a>

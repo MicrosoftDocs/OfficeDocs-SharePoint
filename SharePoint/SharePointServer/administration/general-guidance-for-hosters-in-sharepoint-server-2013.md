@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 9/6/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection:
 - IT_Sharepoint_Server
@@ -21,7 +21,7 @@ description: "Summary: Administrator guidance for multi-tenant hosts in SharePoi
   
 This article describes general guidance and concepts related to multi-tenancy in SharePoint Server 2013 
   
-For information about architectural, security, operational, and management guidance to help service providers in gaining an understanding of multi-tenancy in SharePoint Server 2013, see [Understanding Multi-Tenancy in Microsoft SharePoint Server 2013](understanding-multi-tenancy.md).
+For information about architectural, security, operational, and management guidance to help service providers in gaining an understanding of multi-tenancy in SharePoint Server 2013, see [Understanding Multi-Tenancy in Microsoft SharePoint Server 2013](understanding-multi-tenancy).
   
 ## Main Characteristics of Multi-Tenancy and Considerations
 
@@ -127,7 +127,7 @@ Depending upon authentication requirements, custom code may be required. When us
 > [!NOTE]
 > The previous considerations are valid for both single-tenant per farm and multi-tenant per farm. 
   
-For additional information about SAML authentication and FBA authentication in SharePoint Server 2013, see [Configure SAML-based claims authentication with AD FS in SharePoint Server](https://support.office.com/article/cb9ade1e-a3a1-4d99-a100-0b451f8272ea) and [Configure forms-based authentication for a claims-based web application in SharePoint Server](https://support.office.com/article/fd1391bb-c787-4742-b007-bf57e18dad66).
+For additional information about SAML authentication and FBA authentication in SharePoint Server 2013, see [Configure SAML-based claims authentication with AD FS in SharePoint Server](https://technet.microsoft.com/library/cb9ade1e-a3a1-4d99-a100-0b451f8272ea) and [Configure forms-based authentication for a claims-based web application in SharePoint Server](https://technet.microsoft.com/library/fd1391bb-c787-4742-b007-bf57e18dad66).
   
 #### The Tenant Administrator Experience
 
