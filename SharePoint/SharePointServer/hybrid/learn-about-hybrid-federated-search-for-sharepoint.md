@@ -8,7 +8,10 @@ ms.audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
-ms.collection: IT_SharePoint_Hybrid_Top
+ms.collection:
+- Ent_O365_Hybrid
+- IT_Sharepoint_Server
+- IT_SharePoint_Hybrid_Top
 ms.custom: Strat_SP_gtc
 ms.assetid: 27312a69-cd8d-4260-bf53-363a83e6e4ae
 description: "With the hybrid federated search solution, you use both your index in SharePoint Server and your index in Office 365 Both SharePoint Server and SharePoint Online Search services can query the search index in the other environment and return federated results. When users search from a Search Center, the search results come from both your search index in SharePoint Server and your search index in Office 365."

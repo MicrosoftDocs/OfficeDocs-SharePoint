@@ -337,8 +337,5 @@ In addition to the options that are provided in these articles and in this paper
 - [Back up and restore a search service application in SharePoint 2013 using VSS](http://go.microsoft.com/fwlink/?LinkID=506745&amp;clcid=0x409). .
     
 ## Related Topics
-<a name="Addresources"> </a>
-
-[Plan for high availability and disaster recovery for SharePoint Server](high-availability-and-disaster-recovery-planning.md)
   
 

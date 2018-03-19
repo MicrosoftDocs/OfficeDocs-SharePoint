@@ -1,9 +1,9 @@
 ---
 title: "SharePoint Updates"
-ms.author: v-sharos
-author: v-sharos
+ms.author: kirks
+author: Techwriter40
 manager: pamgreen
-ms.date: 2/13/2018
+ms.date: 3/15/2018
 ms.audience: ITPro
 ms.topic: reference
 ms.prod: sharepoint-server-itpro
@@ -13,12 +13,12 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 
-description: "Find and manage updates for SharePoint Server 2016, SharePoint 2013, and SharePoint 2010 in one place. Use the links on this page to get more information about updates and then download the updates."
+description: "Find and manage updates for SharePoint Server 2016, SharePoint 2013, and SharePoint 2010 in one place. Use the links on this page to get more information about updates, and then download the updates."
 ---
 
 # SharePoint Updates
 
-Find and manage updates for SharePoint Server 2016, SharePoint 2013, and SharePoint 2010 in one place. Use the links on this page to get more information about updates and then download the updates.
+Find and manage updates for SharePoint Server 2016, SharePoint 2013, and SharePoint 2010 in one place. Use the links on this page to get more information about updates, and then download the updates.
   
 Software updates include any update, update rollup, service pack, feature pack, critical update, security update, or hotfix. See [KB 824684](https://support.microsoft.com/kb/824684) for a description of the standard terminology used to describe Microsoft software updates. For the latest updates for other Office Products, see [Office Updates](http://technet.microsoft.com/library/564f1df0-0f10-427e-af8e-2c8fb7fdd382.aspx), [Software updates overview for SharePoint Server 2013](https://technet.microsoft.com/en-us/library/ff806329%28v=office.15%29), [Prepare to deploy software updates for SharePoint Server 2013](https://technet.microsoft.com/en-us/library/ff806331%28v=office.15%29), and [Install a software update](https://technet.microsoft.com/en-us/library/ff806338%28v=office.15%29.aspx). For the latest SharePoint Online and Office 365 updates, see the [Office 365 Roadmap](https://go.microsoft.com/fwlink/p/?linkid=529454).
   
@@ -51,6 +51,7 @@ Workflow Management with SharePoint
 
 |**Package Name**|**KB Number**|**Release Date**|
 |:-----|:-----|:-----|
+|SharePoint Server 2016  <br/> SharePoint Server 2016 MUI/language patch  <br/> |[KB 4018293](https://support.microsoft.com/en-us/help/4018293) <br/> [KB 4011687](https://support.microsoft.com/en-us/help/4011687) <br/> |March 2018  <br/> |
 |SharePoint Server 2016  <br/> |[KB 4011680](https://support.microsoft.com/help/4011680) <br/> |February 2018  <br/> |
 |SharePoint Server 2016  <br/> ﻿SharePoint Server 2016 MUI/language patch  <br/> |[KB 4011642](https://support.microsoft.com/help/4011642) <br/> [﻿KB 4011645](https://support.microsoft.com/help/4011645) <br/> |January 2018  <br/> |
 |SharePoint Server 2016  <br/> SharePoint Server 2016 MUI/language patch  <br/> |[KB 4011576](https://support.microsoft.com/help/4011576) <br/> [KB 4011578](https://support.microsoft.com/help/4011578) <br/> |December 2017  <br/> |
@@ -88,6 +89,7 @@ The following packages are provided for cumulative updates:
     
 |**Package Name**|**KB Number**|**Release Date**|
 |:-----|:-----|:-----|
+|SharePoint Foundation 2013  <br/> SharePoint Server 2013  <br/> |[KB 4018299](https://support.microsoft.com/en-us/help/4018299) <br/> [KB 4018302](https://support.microsoft.com/en-us/help/4018302) <br/> |March 2018  <br/> |
 |SharePoint Foundation 2013  <br/> SharePoint Server 2013  <br/> |[KB 4011693](https://support.microsoft.com/help/4011693) <br/> [﻿KB 4011696](https://support.microsoft.com/help/4011696) <br/> |February 2018  <br/> |
 |SharePoint Foundation 2013  <br/> ﻿SharePoint Server 2013  <br/> |[KB 4011649](https://support.microsoft.com/help/4011649) <br/> [﻿KB 4011652](https://support.microsoft.com/help/4011652) <br/> |January 2018  <br/> |
 |SharePoint Foundation 2013  <br/> SharePoint Server 2013  <br/> |[KB 4011588](https://support.microsoft.com/help/4011588) <br/> [KB 4011593](https://support.microsoft.com/help/4011593) <br/> |December 2017  <br/> |
@@ -140,6 +142,7 @@ The following packages are provided for cumulative updates:
 
 |**Package Name**|**KB Number**|**Release Date**|
 |:-----|:-----|:-----|
+|SharePoint Server 2010  <br/> |[KB 4011710](https://support.microsoft.com/en-us/help/4011710) <br/> |March 2018  <br/> |
 |SharePoint Foundation 2010  <br/> SharePoint Server 2010  <br/> |[KB 3141547](https://support.microsoft.com/help/3141547) <br/> [﻿KB 4011616](https://support.microsoft.com/help/4011616) <br/> |January 2018  <br/> |
 |SharePoint Server 2010  <br/> |[KB 4011272](https://support.microsoft.com/help/4011272) <br/> |November 2017  <br/> |
 |SharePoint Server 2010  <br/> |[KB 4011195](https://support.microsoft.com/help/4011195) <br/> |October 2017  <br/> |

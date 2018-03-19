@@ -8,7 +8,10 @@ ms.audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
-ms.collection: IT_SharePoint_Hybrid_Top
+ms.collection:
+- Ent_O365_Hybrid
+- IT_Sharepoint_Server
+- IT_SharePoint_Hybrid_Top
 ms.custom: Strat_SP_gtc
 ms.assetid: 53566956-a4c7-478a-b23b-e389b7de2eaa
 description: "With the cloud hybrid search solution for SharePoint, you index all your crawled content, including on-premises content, in your search index in Office 365. When users query your search index in Office 365, they get search results from both on-premises and Office 365 content."

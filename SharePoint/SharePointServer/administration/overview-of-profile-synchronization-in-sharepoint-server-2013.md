@@ -132,8 +132,6 @@ You can also import data directly from Active Directory Domain Services (AD DS).
 ## Related Topics
 <a name="supported"> </a>
 
-[Plan for My Sites and OneDrive for Business in SharePoint Server](my-sites-and-onedrive-for-business-planning.md)
-  
 [Plan profile synchronization for SharePoint Server 2013](plan-profile-synchronization-for-sharepoint-server-2013.md)
   
 [Plan user profiles in SharePoint Server](plan-user-profiles.md)

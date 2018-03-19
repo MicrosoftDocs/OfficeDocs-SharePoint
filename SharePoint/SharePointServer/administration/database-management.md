@@ -38,7 +38,6 @@ The following articles and related resources provide information about database 
 
 #### Concepts
 
-[Backup and restore in SharePoint Server](backup-and-restore.md)
   
 [Overview of backup and recovery in SharePoint Server](backup-and-recovery-overview.md)
   

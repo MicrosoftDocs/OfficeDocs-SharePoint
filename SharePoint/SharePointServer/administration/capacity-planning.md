@@ -317,7 +317,7 @@ See [Monitoring and maintaining SharePoint Server 2013](monitoring-and-maintaini
   
 For more information about health monitoring and troubleshooting using the health monitoring tools built into the SharePoint Server 2013 Central Admin interface, read the following:
   
-[Monitoring and Reporting in SharePoint Server](health-monitoring-and-reporting.md)
+[Monitoring and Reporting in SharePoint Server](monitoring-overview.md)
   
 [Solving problems and troubleshooting](https://technet.microsoft.com/en-us/library/ee748639%28office.14%29.aspx) (https://technet.microsoft.com/en-us/library/ee748639(office.14).aspx) 
   
@@ -331,9 +331,7 @@ For more information about health monitoring and troubleshooting using the healt
 [Monitoring and maintaining SharePoint Server 2013](monitoring-and-maintaining.md)
   
 [Software boundaries and limits for SharePoint Server 2016](../install/software-boundaries-and-limits-0.md)
-  
-[Monitoring and Reporting in SharePoint Server](health-monitoring-and-reporting.md)
-  
+    
 [Performance and capacity test results and recommendations (SharePoint Server 2013)](performance-and-capacity-test-results-and-recommendations-for-sharepoint-2013.md)
 #### Other Resources
 

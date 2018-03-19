@@ -54,7 +54,7 @@ Refer to the following table in step 3.
     
 ### To view all site collections by using Microsoft PowerShell
 
-1. Verify that you meet the following minimum requirements: See [Add-SPShellAdmin](add-spshelladmin.md).
+1. Verify that you meet the following minimum requirements: See [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/add-spshelladmin).
     
 2. Open **SharePoint Management Shell**.
     

@@ -23,8 +23,6 @@ The Yammerapp for SharePoint lets you embed Yammer feeds into on-premises ShareP
   
 Before you get started, make sure you have configured one of the [Yammer social scenarios](social-scenarios-with-yammer-and-sharepoint-server-2013.md) in SharePoint Server 2013. 
   
-> [!NOTE]
-> SharePoint supports the accessibility features of common browsers to help you administer deployments and access sites. For more information, see [Accessibility for SharePoint 2013](94ad4316-1077-400a-b17e-a2085a5a7312.md). 
   
 ## Get the Yammer app from the SharePoint Store
 <a name="proc1"> </a>

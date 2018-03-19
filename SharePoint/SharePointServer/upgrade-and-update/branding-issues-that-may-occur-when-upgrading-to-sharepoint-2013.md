@@ -35,7 +35,7 @@ When you upgrade your site collection to SharePoint 2013, these types of customi
   
 Changes to the default SharePoint styles, themes, and master pages were necessary to create a faster and more fluid user interface, and to make subsequent upgrades more predictable.
   
-For this reason, if your site collection contains custom branding, we recommend that, before you upgrade, you first create an evaluation site collection where you can test and re-create your custom branding in a SharePoint 2013 environment. For more information about an evaluation site collection, see [](upgrade-a-site-collection.md#PreviewSite).
+For this reason, if your site collection contains custom branding, we recommend that, before you upgrade, you first create an evaluation site collection where you can test and re-create your custom branding in a SharePoint 2013 environment. For more information about an evaluation site collection, see [Upgrade a site collection](upgrade-a-site-collection.md).
   
 The following sections list branding issues that may occur when you upgrade to SharePoint 2013.
   

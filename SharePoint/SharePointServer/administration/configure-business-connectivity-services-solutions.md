@@ -65,9 +65,4 @@ The procedures in [Make an External List from a SQL Azure table with Business Co
 The procedures in [Deploy a Business Connectivity Services hybrid solution in SharePoint](../hybrid/deploy-a-business-connectivity-services-hybrid-solution.md) shows you how to publish on-premises data to an external list or app for SharePoint in SharePoint Online. 
   
 ## See also
-<a name="sectionhybrid"> </a>
-
-#### Concepts
-
-[Business Connectivity Services in SharePoint Server](business-connectivity-services.md)
 

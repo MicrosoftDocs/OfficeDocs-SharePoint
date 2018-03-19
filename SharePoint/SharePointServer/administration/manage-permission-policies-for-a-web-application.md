@@ -190,8 +190,6 @@ Use the following procedure to delete a user from a permission policy level.
 #### Concepts
 
 [Administration of SharePoint Server](administration.md)
-  
-[Plan authentication in SharePoint Server](plan-authentication.md)
-  
+    
 [Manage permissions for a web application in SharePoint Server](manage-permissions-for-a-web-application.md)
 

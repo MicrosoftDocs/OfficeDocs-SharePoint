@@ -48,7 +48,7 @@ Use this procedure when you want to make a user a primary or secondary site coll
     
 ### To add a primary or secondary site collection administrator by using Microsoft PowerShell
 
-1. Verify that you meet the following minimum requirements: See [Add-SPShellAdmin](add-spshelladmin.md).
+1. Verify that you meet the following minimum requirements: See [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/add-spshelladmin).
     
 2. Open the SharePoint Management Shell.
     

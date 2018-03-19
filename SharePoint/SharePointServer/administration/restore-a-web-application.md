@@ -197,5 +197,5 @@ If you configured object cache user accounts for the web application, the restor
   
 [Plan for backup and recovery in SharePoint Server](backup-and-recovery-planning.md)
   
-[Backup and restore in SharePoint Server](backup-and-restore.md)
+
 

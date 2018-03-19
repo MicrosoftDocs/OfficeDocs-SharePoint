@@ -123,7 +123,7 @@ The chosen disaster recovery approach depends on your Recovery Time Objective (R
 After failing-over to the secondary datacenter, you need to use the five different databases listed in Step 1 to regenerate the Access Services app infrastructure on the disaster recovery farm.
   
 > [!NOTE]
-> This article only deals with the five database types listed in the table above. To successfully recover a full SharePoint Server farm after a data center failover, additional steps are needed and the reader is directed to review the steps in [Plan for high availability and disaster recovery for SharePoint Server](high-availability-and-disaster-recovery-planning.md). 
+> This article only deals with the five database types listed in the table above. To successfully recover a full SharePoint Server farm after a data center failover, additional steps are needed and the reader is directed to review the steps in [Plan for high availability and disaster recovery for SharePoint Server](high-availability-and-disaster-recovery-concepts.md). 
   
 For the test environment we discuss in this article, that means the following databases are recovered from the Primary SQL Server SQL01 to the Secondary SQL Server SQL02 in the DR site.
   
@@ -241,7 +241,4 @@ The key elements are : Ensure both server farms are setup with matching Authenti
   
 ## See also
 
-#### Concepts
-
-[Plan for high availability and disaster recovery for SharePoint Server](high-availability-and-disaster-recovery-planning.md)
 

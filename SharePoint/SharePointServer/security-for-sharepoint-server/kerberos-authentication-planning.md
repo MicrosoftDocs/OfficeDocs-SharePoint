@@ -104,7 +104,6 @@ For more information about Kerberos authentication, see the following resources:
     
 - [Windows Identity Foundation home page](https://go.microsoft.com/fwlink/p/?LinkId=198943)
     
-- [Plan authentication in SharePoint Server](plan-authentication.md)
     
 When you create a SharePoint Server web application by using Central Administration, you must select one or more claims-based authentication types. When you create a SharePoint Server web application by using the **New-SPWebApplication** Microsoft PowerShell cmdlet, you can specify either claims authentication and claims authentication types or classic mode authentication. Claims authentication is recommended for all SharePoint Server web applications. By using claims authentication, all supported authentication types are available for your web applications and you can take advantage of server-to-server authentication and app authentication. For more information, see [What's new in authentication for SharePoint Server 2013](http://technet.microsoft.com/library/d4f4d7c7-916f-40b3-a5d8-bf290353bcf7%28Office.14%29.aspx).
   

@@ -40,7 +40,7 @@ Before starting, read the following information about permissions and software r
     
 - To create a Business Intelligence Center, you must be a farm administrator on the SharePoint Server 2013 farm.
     
-The subsequent articles make use of Excel Services and PerformancePoint Services. It is assumed that these are configured on your farm. For information about deploying Excel Services, see [Overview of Excel Services in SharePoint Server 2013](excel-services-overview.md) and [Configure Excel Services in SharePoint Server 2013](http://technet.microsoft.com/library/9cb81758-9d0b-4970-9ca0-a75eedf6093b.aspx). For information about deploying PerformancePoint Services, see [PerformancePoint Services administration](performancepoint-services-administration.md).
+The subsequent articles make use of Excel Services and PerformancePoint Services. It is assumed that these are configured on your farm. For information about deploying Excel Services, see [Overview of Excel Services in SharePoint Server 2013](excel-services-overview.md) and [Configure Excel Services in SharePoint Server 2013](http://technet.microsoft.com/library/9cb81758-9d0b-4970-9ca0-a75eedf6093b.aspx). 
   
 When using Excel Services or PerformancePoint Services, user access can be provided using Windows Authentication with Kerberos delegation, the Secure Store Service, or, with OLAP data sources, the EffectiveUserName feature. It is assumed that one or more of these options are configured on your farm. For information about configuring Secure Store, see [Plan the Secure Store Service in SharePoint Server](http://technet.microsoft.com/library/e1196de0-1eb9-4c50-aeca-93e0eba7be0d%28Office.14%29.aspx) and [Configure the Secure Store Service in SharePoint Server](configure-the-secure-store-service.md). For information about configuring the EffectiveUserName feature for OLAP data sources, see [Use Analysis Services EffectiveUserName in SharePoint Server](use-analysis-services-effectiveusername-in-sharepoint-server.md).
   
@@ -138,7 +138,7 @@ The following requirements must be met before you can deploy the sample OLAP cub
   
 - The account running the Analysis Services service must have a login on the SQL Server database engine.
     
-If you have not deployed the AdventureWorksDW2012 database, do so now using the procedures under [Business Connectivity Service](business-connectivity-service.md) before proceeding with the procedures in this section. 
+If you have not deployed the AdventureWorksDW2012 database, do so now before proceeding with the procedures in this section. 
   
 If you have not deployed the SQL Server Data Tools, use the following procedure to deploy them.
   

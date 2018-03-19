@@ -30,7 +30,7 @@ Here's an overview of the cloud hybrid search solution. The light grey lines rep
   
 Follow these steps:
   
-1. [Verify that cloud hybrid search works](0bba350d-ec33-43db-a873-930559c78dee.md#BKMK_VerifyCloudHybridSearch).
+1. Verify that cloud hybrid search works.
     
 2. [In the cloud search farm, create a result source that defines how to get search results from the search index in Office 365](http://technet.microsoft.com/library/e475ae86-b7b0-4b3a-9bc5-15456fc33a00.aspx#BKMK_Create_result_source_for_O365_index).
     

@@ -74,7 +74,6 @@ The following table lists the business intelligence features available in Excel 
 
 #### Concepts
 
-[Excel Services in SharePoint Server 2013](excel-services.md)
   
 [Business intelligence capabilities in Excel Service (SharePoint Server 2013)](bi-capabilities-in-excel-and-excel-services.md)
 

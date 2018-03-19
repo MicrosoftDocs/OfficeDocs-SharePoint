@@ -57,7 +57,7 @@ The SMTP service is a component of Internet Information Services (IIS); however,
   
 After determining which SMTP server to use, the SMTP server must be configured to allow anonymous access and to allow email messages to be relayed. Additionally, the SMTP server must have Internet access if you want the ability to send messages to external email addresses.
   
-For more information about installing, configuring, and managing the SMTP service, see [](outgoing-email-configuration.md#section3) . 
+For more information about installing, configuring, and managing the SMTP service, see [Outgoing email configuration](outgoing-email-configuration.md) . 
   
 > [!NOTE]
 > Only a member of the Farm Administrators group can configure an SMTP server. The user must also be a member of the local Administrators group on the server. 

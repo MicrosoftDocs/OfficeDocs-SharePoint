@@ -7,6 +7,10 @@ ms.date: 12/5/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
+ms.collection:
+- Ent_O365_Hybrid
+- IT_Sharepoint_Server
+- IT_SharePoint_Hybrid_Top
 localization_priority: Normal
 ms.assetid: f0565d7f-3efd-46c5-9a73-e307bc2df669
 description: "Summary: Provide an easy way for users of on-premises SharePoint Server to search for documents that are in OneDrive for Business in Office 365."
@@ -70,7 +74,7 @@ Before you perform the procedures in this article, make sure that you do each of
     
 2. [Configure server-to-server authentication from SharePoint Server to SharePoint Online](configure-server-to-server-authentication.md)
     
-    For additional information about synchronizing users and passwords, see "Ways to synchronize users and passwords" under [](configure-hybrid-onedrive-for-business.md#Licenses) in [Configure hybrid OneDrive for Business](configure-hybrid-onedrive-for-business.md).
+    For additional information about synchronizing users and passwords, see [Ways to synchronize users and passwords](configure-hybrid-onedrive-for-business.md) in [Configure hybrid OneDrive for Business](configure-hybrid-onedrive-for-business.md).
     
 - Create an enterprise Search Center in your SharePoint Server deployment if one does not already exist. For more information, see [Create a Search Center site in SharePoint Server](../search/create-a-search-center-site.md).
     

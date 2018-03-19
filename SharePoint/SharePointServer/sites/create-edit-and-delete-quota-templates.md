@@ -160,7 +160,7 @@ If a site collection is close to exceeding its storage limits and you want to in
     
 ### To change the quota template for a site collection by using Microsoft PowerShell
 
-1. Verify that you meet the following minimum requirements: See [Add-SPShellAdmin](add-spshelladmin.md).
+1. Verify that you meet the following minimum requirements: See [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/add-spshelladmin).
     
 2. Open the SharePoint Management Shell.
     
@@ -211,7 +211,7 @@ Use these procedures to change the storage limits for a site collection.
     
 ### To change the storage limits for a site collection by using PowerShell
 
-1. Verify that you meet the following minimum requirements: See [Add-SPShellAdmin](add-spshelladmin.md).
+1. Verify that you meet the following minimum requirements: See [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/add-spshelladmin).
     
 2. Open the SharePoint Management Shell.
     
