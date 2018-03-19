@@ -530,7 +530,7 @@ This section presents a deployment example which makes use of a single hosting w
   
 #### DNS configuration
 
-Because host-named site collections will be used for a multi-tenant SharePoint environment, you must configure your DNS (that is, create appropriate DNS records, etc.) accordingly based on your plan. For additional guidance about how to plan host-named site collections for SharePoint Server 2013, see [Host-named site collection architecture and deployment (SharePoint 2013)](host-named-site-collection-architecture-and-deployment).
+Because host-named site collections will be used for a multi-tenant SharePoint environment, you must configure your DNS (that is, create appropriate DNS records, etc.) accordingly based on your plan. For additional guidance about how to plan host-named site collections for SharePoint Server 2013, see [Host-named site collection architecture and deployment (SharePoint 2013)](host-named-site-collection-architecture-and-deployment.md).
   
 If you also plan to support apps for SharePoint, you must also configure DNS to support your environment. For additional information about how to configure an apps environment for SharePoint Server 2013, see [Configure an environment for apps for SharePoint Server](https://technet.microsoft.com/library/bf94ede1-79cc-4016-99f3-a1eef244fdf3).
   
