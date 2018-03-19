@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 8/18/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection:
 - IT_Sharepoint_Server
@@ -51,7 +51,7 @@ This recommended configuration in the diagram includes the following elements:
     
   - Team sites (http://teams.contoso.com) with subsites for Team 1, Team 2, and Team 3.
     
-  - My Sites with site URLs in the following format: webapp.contoso.com http://my.contoso.com/personal/\<site_name\>.
+  - My Sites with site URLs in the following format: webapp.contoso.comhttp://my.contoso.com/personal/\<site_name\>.
     
 The number of sites within the web application and the URLs for sites are not important for this example.
   
@@ -150,7 +150,7 @@ Although we recommend host-named site collections for most architectures, you sh
     
 - You plan to use different application pools for the additional security that these provide or you need to use multiple proxy groups. 
     
-    In these cases, you can use host-named site collections. However, the additional configuration that is required to map URLs for host-named site collections across multiple web applications greatly outweigh the benefits of using host-named site collections. For more information, see [Use multiple web applications with host-named site collections](host-named-site-collection-architecture-and-deployment.md#section4). For more information about creating path-based site collections, see [Create a site collection in SharePoint Server](https://support.office.com/article/a5c66813-3523-40d1-99d8-86e8359b6c73).
+    In these cases, you can use host-named site collections. However, the additional configuration that is required to map URLs for host-named site collections across multiple web applications greatly outweigh the benefits of using host-named site collections. For more information, see [Use multiple web applications with host-named site collections](host-named-site-collection-architecture-and-deployment.md#section4). For more information about creating path-based site collections, see [Create a site collection in SharePoint Server](https://technet.microsoft.com/library/a5c66813-3523-40d1-99d8-86e8359b6c73).
     
 ### Use host headers and host-named site collections
 <a name="section1e"> </a>
@@ -164,7 +164,7 @@ It is important to understand the distinction between Host headers in IIS and Ho
 When using Host named site collections, SharePoint is responsible for resolving the correct site for the address based upon the incoming request passed through IIS. In most cases, applying a host header binding at the IIS web site level makes it impossible to access host-named site collections through the IIS web site. This is because IIS will not respond to requests for host names that differ from the host header binding. 
   
 > [!IMPORTANT]
-> If an existing web application has a host header binding set, IIS will not return pages from the host-named site collection until you remove the binding from IIS. For more information, see [Update a web application URL and IIS bindings for SharePoint 2013](update-a-web-application-url-and-iis-bindings.md). 
+> If an existing web application has a host header binding set, IIS will not return pages from the host-named site collection until you remove the binding from IIS. For more information, see [Update a web application URL and IIS bindings for SharePoint 2013](update-a-web-application-url-and-iis-bindings). 
   
 ### Mix host-named site collections and path-based site collections in the same web application
 <a name="section1f"> </a>
@@ -196,7 +196,7 @@ If you do not intend to configure two or more IIS websites that share the same p
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](https://support.office.com/article/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](https://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
   
 2. Open the **SharePoint Management Shell**.
     
@@ -242,7 +242,7 @@ You can create a host-named site collection by using the Microsoft PowerShell Ne
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](https://support.office.com/article/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](https://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
   
 2. Open the **SharePoint Management Shell**.
     
@@ -258,7 +258,7 @@ This creates a host-named site collection that has the URL, http://webapp.contos
 ### Use managed paths with host-named site collections
 <a name="section2d"> </a>
 
-You can implement managed paths with host-named site collections. Hosters can provide multiple site collections to the same customer with each site collection sharing the customer's unique host name but differentiated by the URL path after the host name. Managed paths for host-named site collections are limited to 20 per farm. For more information, see [Software boundaries and limits for SharePoint Server 2016](https://support.office.com/article/6a13cd9f-4b44-40d6-85aa-c70a8e5c34fe#WebApplication).
+You can implement managed paths with host-named site collections. Hosters can provide multiple site collections to the same customer with each site collection sharing the customer's unique host name but differentiated by the URL path after the host name. Managed paths for host-named site collections are limited to 20 per farm. For more information, see [Software boundaries and limits for SharePoint Server 2016](https://technet.microsoft.com/library/6a13cd9f-4b44-40d6-85aa-c70a8e5c34fe#WebApplication).
   
 Managed paths for host-named site collections behave differently from managed paths for path-based site collections. Managed paths for host-named site collections are available to all host-named site collections within the farm regardless of the web application that the host-named site collection is in. In contrast, managed paths for path-based site collections only apply to sites within the same web application. Managed paths for path-based site collections do not apply to path-based site collections in other web applications. Managed paths for one type of site collection do not apply to the other type of site collection.
   
@@ -505,11 +505,11 @@ Get-WebBinding -Name 'webapp' -HostHeader 'webapp.contoso.com' | Remove-WebBindi
 
 #### Other Resources
 
-[Get-SPSiteUrl](https://support.office.com/article/c04ee745-fb05-4bef-a7df-807d2c6df977.aspx)
+[Get-SPSiteUrl](https://technet.microsoft.com/library/c04ee745-fb05-4bef-a7df-807d2c6df977.aspx)
   
-[Set-SPSiteUrl](https://support.office.com/article/67e66f44-2522-4f00-aae5-5eb2db1aa90f.aspx)
+[Set-SPSiteUrl](https://technet.microsoft.com/library/67e66f44-2522-4f00-aae5-5eb2db1aa90f.aspx)
   
-[Remove-SPSiteUrl](https://support.office.com/article/f5724e3c-3027-4194-9ecf-217ce9bc2882.aspx)
+[Remove-SPSiteUrl](https://technet.microsoft.com/library/f5724e3c-3027-4194-9ecf-217ce9bc2882.aspx)
   
-[Plan logical architectures for SharePoint Server](https://support.office.com/article/bc5991d1-c187-495c-8057-3bf2c5653aff)
+[Plan logical architectures for SharePoint Server](https://technet.microsoft.com/library/bc5991d1-c187-495c-8057-3bf2c5653aff)
 

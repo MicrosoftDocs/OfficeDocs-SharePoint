@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 7/7/2017
 ms.audience: ITPro
 ms.topic: concetpual
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection:
 - IT_Sharepoint_Server
@@ -89,5 +89,5 @@ The Secure Store Service is a claims-aware service. It can accept security token
 
 #### Other Resources
 
-[Configure the Secure Store Service in SharePoint Server](https://support.office.com/article/29c0bc76-d835-401b-a2fb-abb069e84125)
+[Configure the Secure Store Service in SharePoint Server](https://technet.microsoft.com/library/29c0bc76-d835-401b-a2fb-abb069e84125)
 

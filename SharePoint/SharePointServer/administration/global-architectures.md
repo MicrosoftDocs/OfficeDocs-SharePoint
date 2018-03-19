@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 9/5/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection:
 - IT_Sharepoint_Server
@@ -93,7 +93,7 @@ Several client tools can greatly improve the user experience over WAN connection
 
 Office Online Server is an Office server product that delivers browser-based versions of Word, PowerPoint, Excel, and OneNote. Office Online Server greatly improves performance in WAN environments because users don't upload or download files. A single Office Online Server farm can support users who access Office files through SharePoint Server 2016, Skype for Business Server 2015, and Exchange Server 2013. Office Online Server works well in environments that have high-latency connections, or low bandwidth connections, or both. It might not work well in environments that have intermittent connections. 
   
-A Office Online Server farm is typically located in the same datacenter as the SharePoint Server 2016 farm, although this is not a requirement. Locating a Office Online Server farm in a remote datacenter where SharePoint sites are not located will not improve performance. For more information, see [Office Web Apps Server overview](https://support.office.com/article/4b199a88-387f-4121-820d-7af580e2a3e8.aspx).
+A Office Online Server farm is typically located in the same datacenter as the SharePoint Server 2016 farm, although this is not a requirement. Locating a Office Online Server farm in a remote datacenter where SharePoint sites are not located will not improve performance. For more information, see [Office Web Apps Server overview](https://technet.microsoft.com/library/4b199a88-387f-4121-820d-7af580e2a3e8.aspx).
   
 ### OneDrive for Business
 

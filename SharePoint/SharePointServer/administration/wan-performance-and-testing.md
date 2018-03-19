@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection:
 - IT_Sharepoint_Server
@@ -201,5 +201,5 @@ Fabrikam is an example of a world-wide company that succeeds with a central data
 
 #### Concepts
 
-[Global architectures for SharePoint 2013](global-architectures.md)
+[Global architectures for SharePoint 2013](global-architectures)
 

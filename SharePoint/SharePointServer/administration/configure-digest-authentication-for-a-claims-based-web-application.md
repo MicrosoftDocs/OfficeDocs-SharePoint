@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 8/21/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection:
 - IT_Sharepoint_Server
@@ -54,7 +54,7 @@ Use IIS Manager console to configure IIS to enable digest authentication for one
     
 - Extranet
     
-The Default zone is the zone that is first created when a web application is created. The other zones are created by extending a web application. For more information, see [Extend claims-based web applications in SharePoint](https://support.office.com/article/265ace67-3115-4987-ab2d-80c55e452d4b).
+The Default zone is the zone that is first created when a web application is created. The other zones are created by extending a web application. For more information, see [Extend claims-based web applications in SharePoint](https://technet.microsoft.com/library/265ace67-3115-4987-ab2d-80c55e452d4b).
   
  **To configure IIS to enable digest authentication**
   
@@ -81,10 +81,10 @@ The web site is now configured to use digest authentication.
 
 #### Concepts
 
-[Configure Basic authentication for a claims-based Web application](configure-basic-authentication-for-a-claims-based-web-application.md)
+[Configure Basic authentication for a claims-based Web application](configure-basic-authentication-for-a-claims-based-web-application)
 #### Other Resources
 
-[Plan for user authentication methods in SharePoint Server](https://support.office.com/article/40117fda-70a0-4e3d-8cd3-0def768da16c)
+[Plan for user authentication methods in SharePoint Server](https://technet.microsoft.com/library/40117fda-70a0-4e3d-8cd3-0def768da16c)
   
-[Extend claims-based web applications in SharePoint](https://support.office.com/article/265ace67-3115-4987-ab2d-80c55e452d4b)
+[Extend claims-based web applications in SharePoint](https://technet.microsoft.com/library/265ace67-3115-4987-ab2d-80c55e452d4b)
 

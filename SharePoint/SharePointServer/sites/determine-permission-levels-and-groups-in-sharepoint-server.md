@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 8/17/2017
 ms.audience: ITPro
 ms.topic: concetpual
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection:
 - IT_Sharepoint_Server
@@ -57,7 +57,7 @@ If the default groups do not map to the exact user groups in your organization, 
   
 Besides the above SharePoint groups, there are also administrator groups for higher-level administration tasks. They are Windows administrators, SharePoint farm administrators, and site collection administrators.
   
-For more information, see [Choose administrators and owners for the administration hierarchy in SharePoint 2013](choose-administrators-and-owners-for-the-administration-hierarchy-in-sharepoint.md).
+For more information, see [Choose administrators and owners for the administration hierarchy in SharePoint 2013](choose-administrators-and-owners-for-the-administration-hierarchy-in-sharepoint).
   
 ## Review available permission levels
 <a name="section2"> </a>
@@ -83,7 +83,7 @@ By default, the following permission levels are available:
     
 - **Full Control ** Includes all permissions. 
     
-For more information about permissions that are included in the default permission levels, see [User permissions and permission levels in SharePoint 2013](user-permissions-and-permission-levels.md).
+For more information about permissions that are included in the default permission levels, see [User permissions and permission levels in SharePoint 2013](user-permissions-and-permission-levels).
   
 The following additional permission levels are provided with the publishing template by default:
   
@@ -123,7 +123,7 @@ You should customize the default permission levels if either of the following si
 - A default permission level includes a permission that the users do not have to have.
     
     > [!NOTE]
-    > Do not customize the default permission levels if your organization has security or other concerns about a specific permission that is part of the permission level. If you want to make that permission unavailable for all users assigned to the permission level or levels that include that permission, turn off the permission for all Web applications in your server farm, instead of change all of the permission levels To manage permissions for a web application, see [Manage permissions for a web application in SharePoint Server](https://support.office.com/article/28a53440-2adc-4957-84bd-99ed97f0c430). 
+    > Do not customize the default permission levels if your organization has security or other concerns about a specific permission that is part of the permission level. If you want to make that permission unavailable for all users assigned to the permission level or levels that include that permission, turn off the permission for all Web applications in your server farm, instead of change all of the permission levels To manage permissions for a web application, see [Manage permissions for a web application in SharePoint Server](https://technet.microsoft.com/library/28a53440-2adc-4957-84bd-99ed97f0c430). 
   
 If you must make several changes to a permission level, create a custom permission level that includes all of the permissions that you need.
   

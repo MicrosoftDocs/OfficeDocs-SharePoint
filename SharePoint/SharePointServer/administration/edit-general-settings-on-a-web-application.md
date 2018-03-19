@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 2/28/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection:
 - IT_Sharepoint_Server
@@ -96,10 +96,10 @@ Use the procedure described in this section to edit a SharePoint Server web appl
 
 #### Concepts
 
-[Create claims-based web applications in SharePoint 2013](create-claims-based-web-applications.md)
+[Create claims-based web applications in SharePoint 2013](create-claims-based-web-applications)
   
-[Create a Web application that uses classic mode authentication in SharePoint 2013](create-web-applications-that-use-classic-mode-authentication.md)
+[Create a Web application that uses classic mode authentication in SharePoint 2013](create-web-applications-that-use-classic-mode-authentication)
 #### Other Resources
 
-[Extend claims-based web applications in SharePoint](https://support.office.com/article/265ace67-3115-4987-ab2d-80c55e452d4b)
+[Extend claims-based web applications in SharePoint](https://technet.microsoft.com/library/265ace67-3115-4987-ab2d-80c55e452d4b)
 

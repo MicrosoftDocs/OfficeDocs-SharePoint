@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 9/20/2017
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection:
 - IT_Sharepoint_Server
@@ -22,7 +22,7 @@ description: "Summary: Configure the SharePoint servers to host a high-availabil
   
 In this phase of deploying an intranet-only SharePoint Server 2016 farm in Azure infrastructure services, you create the SharePoint Server 2016 servers and configure their roles with the SharePoint Configuration Wizard.
   
-You must complete this phase before moving on to [SharePoint Intranet Farm in Azure Phase 5: Create the availability group and add the SharePoint databases](sharepoint-intranet-farm-in-azure-phase-5-create-the-availability-group-and-add.md). See [Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](https://support.office.com/article/af7cf3e7-94b1-4a5d-8cb9-80c5a0b397f2) for all of the phases. 
+You must complete this phase before moving on to [SharePoint Intranet Farm in Azure Phase 5: Create the availability group and add the SharePoint databases](sharepoint-intranet-farm-in-azure-phase-5-create-the-availability-group-and-add). See [Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](https://technet.microsoft.com/library/af7cf3e7-94b1-4a5d-8cb9-80c5a0b397f2) for all of the phases. 
   
 ## Create the SharePoint server virtual machines in Azure
 
@@ -48,7 +48,7 @@ Use the following blocks of PowerShell commands to create the components in Azur
     
 - Table A, for your availability sets
     
-Recall that you defined Table M in [SharePoint Intranet Farm in Azure Phase 2: Configure domain controllers](sharepoint-intranet-farm-in-azure-phase-2-configure-domain-controllers.md) and Tables R, V, S, I, and A in [SharePoint Intranet Farm in Azure Phase 1: Configure Azure](sharepoint-intranet-farm-in-azure-phase-1-configure-azure.md).
+Recall that you defined Table M in [SharePoint Intranet Farm in Azure Phase 2: Configure domain controllers](sharepoint-intranet-farm-in-azure-phase-2-configure-domain-controllers) and Tables R, V, S, I, and A in [SharePoint Intranet Farm in Azure Phase 1: Configure Azure](sharepoint-intranet-farm-in-azure-phase-1-configure-azure).
   
 First, you configure internal load balancing so that Azure distributes the client traffic evenly among the two front end and distributed caching servers.
   
@@ -214,7 +214,7 @@ Do the following for each of the SharePoint servers:
 
     Note that you must supply domain account credentials after running the **Add-Computer** command. 
     
-3. After the virtual machine restarts, create a Remote Desktop connection using the <your domain>\sp_farm_db account credentials four times, once for each SharePoint server. You created these credentials in [SharePoint Intranet Farm in Azure Phase 2: Configure domain controllers](sharepoint-intranet-farm-in-azure-phase-2-configure-domain-controllers.md).
+3. After the virtual machine restarts, create a Remote Desktop connection using the <your domain>\sp_farm_db account credentials four times, once for each SharePoint server. You created these credentials in [SharePoint Intranet Farm in Azure Phase 2: Configure domain controllers](sharepoint-intranet-farm-in-azure-phase-2-configure-domain-controllers).
     
 > [!NOTE]
 > The SharePoint servers are created from the SharePoint Server 2016 Trial image. You need to convert the installation to use a Retail or Volume License key for either the Standard or Enterprise edition of SharePoint Server 2016. For more information, see [SharePoint 2016 Licensing](https://products.office.com/en-us/sharepoint/sharepoint-licensing-overview). 
@@ -377,17 +377,17 @@ Here is the configuration that results from the successful completion of this ph
   
 ## Next step
 
-Use [SharePoint Intranet Farm in Azure Phase 5: Create the availability group and add the SharePoint databases](sharepoint-intranet-farm-in-azure-phase-5-create-the-availability-group-and-add.md) to continue configuring this workload. 
+Use [SharePoint Intranet Farm in Azure Phase 5: Create the availability group and add the SharePoint databases](sharepoint-intranet-farm-in-azure-phase-5-create-the-availability-group-and-add) to continue configuring this workload. 
   
 ## See also
 
 #### Other Resources
 
-[Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](https://support.office.com/article/af7cf3e7-94b1-4a5d-8cb9-80c5a0b397f2)
+[Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](https://technet.microsoft.com/library/af7cf3e7-94b1-4a5d-8cb9-80c5a0b397f2)
   
-[SharePoint Server 2016 in Microsoft Azure](https://support.office.com/article/8da53a30-27f2-4297-95c2-54eff999e863)
+[SharePoint Server 2016 in Microsoft Azure](https://technet.microsoft.com/library/8da53a30-27f2-4297-95c2-54eff999e863)
   
-[Designing a SharePoint Server 2016 farm in Azure](https://support.office.com/article/f27522ca-6f78-4b97-b169-77066e965727)
+[Designing a SharePoint Server 2016 farm in Azure](https://technet.microsoft.com/library/f27522ca-6f78-4b97-b169-77066e965727)
   
-[Install SharePoint Server](https://support.office.com/article/8a911115-de8a-4cf3-9701-f5ba78fa8bfc)
+[Install SharePoint Server](https://technet.microsoft.com/library/8a911115-de8a-4cf3-9701-f5ba78fa8bfc)
 

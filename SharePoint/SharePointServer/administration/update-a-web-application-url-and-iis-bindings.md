@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 8/10/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection:
 - IT_Sharepoint_Server
@@ -35,7 +35,7 @@ To update the URL or IIS bindings of a web application, unextend and reextend th
   
 We do not recommend reusing the same IIS website for your HTTP and SSL hosting. Instead, extend a dedicated HTTP and a dedicated SSL website, with each assigned to its own alternate access mapping zone and URLs.
   
-For more information about alternate access mappings, see [Plan alternate access mappings for SharePoint 2013](plan-alternate-access-mappings.md).
+For more information about alternate access mappings, see [Plan alternate access mappings for SharePoint 2013](plan-alternate-access-mappings).
   
 Alternate access mapping collections correspond to the following authentication zones:
   
@@ -103,25 +103,25 @@ If the new IIS bindings use SSL, apply an SSL certificate to the new IIS website
   
 ### Apply an authentication method
 
-When you reextend your web application, the default SharePoint Server authentication method for the zone is Integrated Windows authentication. If you want to use an authentication method other than Integrated Windows, explicitly apply the authentication method you want to use. For more information about authentication methods, see [Plan for user authentication methods in SharePoint Server](https://support.office.com/article/40117fda-70a0-4e3d-8cd3-0def768da16c).
+When you reextend your web application, the default SharePoint Server authentication method for the zone is Integrated Windows authentication. If you want to use an authentication method other than Integrated Windows, explicitly apply the authentication method you want to use. For more information about authentication methods, see [Plan for user authentication methods in SharePoint Server](https://technet.microsoft.com/library/40117fda-70a0-4e3d-8cd3-0def768da16c).
   
-For more information about how to configure authentication for SharePoint Server 2016, see [Configure authentication infrastructure in SharePoint Server](https://support.office.com/article/ea302275-c4ea-48fa-b073-632ddc9cc7ee).
+For more information about how to configure authentication for SharePoint Server 2016, see [Configure authentication infrastructure in SharePoint Server](https://technet.microsoft.com/library/ea302275-c4ea-48fa-b073-632ddc9cc7ee).
   
 ### Verify the Search start addresses and My Site settings
 
-Verify that the SharePoint Server Search start addresses are correct for your content sources. If the SharePoint Server Search start addresses are incorrect, update them. Also, verify that your My Site settings, including Personal Search Center, Personal Site Provider, and default RSS feed, are correct. If your My Site settings are incorrect, update them. For more information about how to configure My Site settings, see [Configure My Sites in SharePoint Server](https://support.office.com/article/e6600dfa-7f96-4c6f-a1be-b7ad348ac30f).
+Verify that the SharePoint Server Search start addresses are correct for your content sources. If the SharePoint Server Search start addresses are incorrect, update them. Also, verify that your My Site settings, including Personal Search Center, Personal Site Provider, and default RSS feed, are correct. If your My Site settings are incorrect, update them. For more information about how to configure My Site settings, see [Configure My Sites in SharePoint Server](https://technet.microsoft.com/library/e6600dfa-7f96-4c6f-a1be-b7ad348ac30f).
   
-For more information about Search start addresses, see [Plan crawling and federation in SharePoint Server](https://support.office.com/article/4356bad9-de1d-4e81-b049-17248b4a86c1).
+For more information about Search start addresses, see [Plan crawling and federation in SharePoint Server](https://technet.microsoft.com/library/4356bad9-de1d-4e81-b049-17248b4a86c1).
   
 ### Verify the trusted file locations
 
-If Excel Services in SharePoint Server 2013 is part of your deployment, verify that your trusted file locations are configured correctly. If your trusted file locations are configured incorrectly, update them. For more information about trusted file locations, see [Configure Excel Services in SharePoint Server 2013](https://support.office.com/article/9cb81758-9d0b-4970-9ca0-a75eedf6093b.aspx).
+If Excel Services in SharePoint Server 2013 is part of your deployment, verify that your trusted file locations are configured correctly. If your trusted file locations are configured incorrectly, update them. For more information about trusted file locations, see [Configure Excel Services in SharePoint Server 2013](https://technet.microsoft.com/library/9cb81758-9d0b-4970-9ca0-a75eedf6093b.aspx).
   
 > [!NOTE]
 > Excel Services in SharePoint Server 2013 is only available in SharePoint Server 2013. 
   
 ### Redeploy solutions
 
-When you remove SharePoint Server from an IIS website, if you are removing the last (or only) website that is associated with the web application, any web application solutions you have deployed will also be removed. If you need these solutions, redeploy them. For additional information about how to manage solutions, see [Install and manage solutions for SharePoint Server](https://support.office.com/article/be4ca20f-520e-4fd7-9c42-140af800cbc8)
+When you remove SharePoint Server from an IIS website, if you are removing the last (or only) website that is associated with the web application, any web application solutions you have deployed will also be removed. If you need these solutions, redeploy them. For additional information about how to manage solutions, see [Install and manage solutions for SharePoint Server](https://technet.microsoft.com/library/be4ca20f-520e-4fd7-9c42-140af800cbc8)
   
 
