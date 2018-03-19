@@ -22,7 +22,7 @@ description: "Summary: Configure the SQL Server infrastructure to host a high-av
   
 In this phase of deploying an intranet-only SharePoint Server 2016 farm in Azure infrastructure services, you create and configure the two SQL Server virtual machines and the cluster majority node, and then combine them into a Windows Server cluster.
   
-You must complete this phase before moving on to [SharePoint Intranet Farm in Azure Phase 4: Configure SharePoint servers](sharepoint-intranet-farm-in-azure-phase-4-configure-sharepoint-servers). See [Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](https://technet.microsoft.com/library/af7cf3e7-94b1-4a5d-8cb9-80c5a0b397f2) for all of the phases. 
+You must complete this phase before moving on to [SharePoint Intranet Farm in Azure Phase 4: Configure SharePoint servers](sharepoint-intranet-farm-in-azure-phase-4-configure-sharepoint-servers.md). See [Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](https://technet.microsoft.com/library/af7cf3e7-94b1-4a5d-8cb9-80c5a0b397f2) for all of the phases. 
   
 > [!NOTE]
 > These instructions use a SQL Server image in the Azure image gallery and you are charged ongoing costs for the use of the SQL Server license. It is also possible to create virtual machines in Azure and install your own SQL Server licenses, but you must have Software Assurance and License Mobility to use your SQL Server license on a virtual machine, including an Azure virtual machine. 
@@ -45,7 +45,7 @@ Use the following blocks of PowerShell commands to create the components in Azur
     
 - Table A, for your availability sets
     
-Recall that you defined Table M in [SharePoint Intranet Farm in Azure Phase 2: Configure domain controllers](sharepoint-intranet-farm-in-azure-phase-2-configure-domain-controllers) and Tables R, V, S, I, and A in [SharePoint Intranet Farm in Azure Phase 1: Configure Azure](sharepoint-intranet-farm-in-azure-phase-1-configure-azure).
+Recall that you defined Table M in [SharePoint Intranet Farm in Azure Phase 2: Configure domain controllers](sharepoint-intranet-farm-in-azure-phase-2-configure-domain-controllers.md) and Tables R, V, S, I, and A in [SharePoint Intranet Farm in Azure Phase 1: Configure Azure](sharepoint-intranet-farm-in-azure-phase-1-configure-azure.md).
   
 > [!NOTE]
 > The following command sets use the latest version of Azure PowerShell. See [Get started with Azure PowerShell cmdlets](https://docs.microsoft.com/powershell/azureps-cmdlets-docs/). 
@@ -373,7 +373,7 @@ Here is the configuration resulting from the successful completion of this phase
   
 ## Next step
 
-Use [SharePoint Intranet Farm in Azure Phase 4: Configure SharePoint servers](sharepoint-intranet-farm-in-azure-phase-4-configure-sharepoint-servers) to continue configuring this workload. 
+Use [SharePoint Intranet Farm in Azure Phase 4: Configure SharePoint servers](sharepoint-intranet-farm-in-azure-phase-4-configure-sharepoint-servers.md) to continue configuring this workload. 
   
 ## See also
 

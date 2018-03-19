@@ -48,7 +48,7 @@ You should understand the following concepts before designing your permissions p
   
 - **Permissions** Permissions grant a user the ability to perform specific actions. For example, the View Items permission allows a user to view items in a list or folder, but not to add or remove items. Permissions can be granted to individual users at site or site content levels. 
     
-    For information about available permissions, see [User permissions and permission levels (SharePoint Server 2010)](user-permissions-and-permission-levels).
+    For information about available permissions, see [User permissions and permission levels (SharePoint Server 2010)](user-permissions-and-permission-levels.md).
     
 - **Fine-grained permissions** Fine-grained permissions are unique permissions on securable objects that are at a lower level in a site hierarchy, such as permissions on a list or library, folder, or item or document. Fine-grained permissions allow for greater granularity and customization of user permissions in a site collection. 
     
@@ -56,7 +56,7 @@ You should understand the following concepts before designing your permissions p
     
     Permission levels are defined at the site collection level and can be customized by any user or group whose permission level includes the Manage Permissions permission. For more information about how to customize permission levels, see [Configure custom permissions in SharePoint Server](https://technet.microsoft.com/library/c5dd8b7e-202d-4d33-8535-5c03f88ea1ff).
     
-    The default permission levels are Limited Access, Read, Contribute, Design, and Full Control. For information about default permission levels and the permissions included in each level, see [User permissions and permission levels (SharePoint Server 2010)](user-permissions-and-permission-levels).
+    The default permission levels are Limited Access, Read, Contribute, Design, and Full Control. For information about default permission levels and the permissions included in each level, see [User permissions and permission levels (SharePoint Server 2010)](user-permissions-and-permission-levels.md).
     
 - **SharePoint group** A SharePoint group is a group of users who are defined at site collection level for easy administration of permissions. Each SharePoint group is assigned a default permission level. For example, the default SharePoint groups are Owners, Visitors, and Members, with Full Control, Read, and Contribute as their default permission levels respectively. Anyone with Full Control permission can create custom groups. 
     

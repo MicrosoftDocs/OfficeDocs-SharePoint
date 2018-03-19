@@ -35,7 +35,7 @@ To update the URL or IIS bindings of a web application, unextend and reextend th
   
 We do not recommend reusing the same IIS website for your HTTP and SSL hosting. Instead, extend a dedicated HTTP and a dedicated SSL website, with each assigned to its own alternate access mapping zone and URLs.
   
-For more information about alternate access mappings, see [Plan alternate access mappings for SharePoint 2013](plan-alternate-access-mappings).
+For more information about alternate access mappings, see [Plan alternate access mappings for SharePoint 2013](plan-alternate-access-mappings.md).
   
 Alternate access mapping collections correspond to the following authentication zones:
   

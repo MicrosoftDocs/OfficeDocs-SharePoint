@@ -253,5 +253,5 @@ Use the procedure in this section to create a new classic-mode SharePoint Server
 
 #### Concepts
 
-[Create a Web application that uses classic mode authentication in SharePoint 2013](create-web-applications-that-use-classic-mode-authentication)
+[Create a Web application that uses classic mode authentication in SharePoint 2013](create-web-applications-that-use-classic-mode-authentication.md)
 

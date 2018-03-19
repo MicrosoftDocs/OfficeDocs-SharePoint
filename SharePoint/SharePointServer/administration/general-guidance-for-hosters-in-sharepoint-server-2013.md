@@ -21,7 +21,7 @@ description: "Summary: Administrator guidance for multi-tenant hosts in SharePoi
   
 This article describes general guidance and concepts related to multi-tenancy in SharePoint Server 2013 
   
-For information about architectural, security, operational, and management guidance to help service providers in gaining an understanding of multi-tenancy in SharePoint Server 2013, see [Understanding Multi-Tenancy in Microsoft SharePoint Server 2013](understanding-multi-tenancy).
+For information about architectural, security, operational, and management guidance to help service providers in gaining an understanding of multi-tenancy in SharePoint Server 2013, see [Understanding Multi-Tenancy in Microsoft SharePoint Server 2013](understanding-multi-tenancy.md).
   
 ## Main Characteristics of Multi-Tenancy and Considerations
 
