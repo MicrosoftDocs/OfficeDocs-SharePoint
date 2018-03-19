@@ -81,7 +81,7 @@ You can also configure basic authentication when you create a web application in
 
 #### Concepts
 
-[Configure Digest authentication for a claims-based Web application](configure-digest-authentication-for-a-claims-based-web-application)
+[Configure Digest authentication for a claims-based Web application](configure-digest-authentication-for-a-claims-based-web-application.md)
 #### Other Resources
 
 [Plan for user authentication methods in SharePoint Server](https://technet.microsoft.com/library/40117fda-70a0-4e3d-8cd3-0def768da16c)
