@@ -4,8 +4,9 @@ ms.author: kirks
 author: Techwriter40
 manager: pamgreen
 ms.date: 3/1/2018
+layout: LandingPage
 ms.audience: ITPro
-ms.topic: hub-page
+ms.topic: landing-page
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection:
