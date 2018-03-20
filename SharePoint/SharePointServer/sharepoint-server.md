@@ -65,7 +65,7 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server in their ent
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_multi-connect.svg" alt="Hybrid" />
+                            <img src="media/icon-hybrid.svg" alt="Hybrid" />
                         </div>
                     </div>
                     <div class="cardText">
