@@ -17,17 +17,192 @@ description: "Summary: Explore these links to find out more about how to impleme
 
 # SharePoint Server
 
- **Summary:** Explore these links to find out more about how to implement SharePoint Server. 
   
-SharePoint Server is a collaboration environment that organizations of all sizes can use to increase the efficiency of business processes. 
+This guide helps IT Pros plan, deploy, and manage SharePoint Server in their enterprise environments. 
   
-SharePoint Server sites provide environments that administrators can configure to provide personalized access to documents and other information. Search features enable users to find content efficiently regardless of the physical location of data.
-  
-## SharePoint Server resources for IT pros
+<ul class="panelContent cardsFTitle">
+    <li>
+        <a href="/getting-started.md">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/media/common/i_get-started.svg" alt="Get started" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Get started</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="/migrate-to-sharepoint-online/index.md">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/media/common/i_upgrade.svg" alt="Migrate" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Migration</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="/hybrid/hybrid.md">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/media/common/i_multi-connect.svg" alt="Hybrid" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Hybrid</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://techcommunity.microsoft.com/t5/SharePoint-Blog/bg-p/SPBlog">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/media/common/i_benefits.svg" alt="Community" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Community</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+</ul>
+
+---
+
+<h2></h2>
+<ul class="panelContent cardsW">
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Learn about SharePoint</h3>
+                        <p><a href="https://products.office.com/en-us/sharepoint/collaboration">What is SharePoint?</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Before you start</h3>
+                        <p><a href="/install/hardware-and-software-requirements.md">Hardware and software requirements</a></p>
+                        <p><a href="/install//prerequisites.md">Prerequisites</a></p>
+                        <p><a href="/security-for-sharepoint-server/security-for-sharepoint-server.md">Security</a></p>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Install</h3>
+                            <p>**SharePoint Server 2016**</p>
+                            <ul>
+                               <li> 
+                                    <p>Large scale farms</p>
+                                </li>
+                               <li> 
+                                    <p>Small scale farms</p>
+                                </li>
+                            </ul>
+                                    <p>**SharePoint Server 2013**</p>
+                            <ul>
+                               <li> 
+                                    <p>Large scale farms</p>
+                                </li>
+                               <li> 
+                                    <p>Small scale farms</p>
+                                </li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Upgrade and update</h3>
+                        <p>**SharePoint Server 2016**</p>
+                            <ul>
+                               <li> 
+                        <p>Upgrade to a new version of SharePoint</p>
+                                </li>
+                               <li> 
+                        <p>Apply updates to your existing version</p>
+                                </li>
+                            </ul>
+                        <p>**SharePoint Server 2013**</p>
+                            <ul>
+                               <li> 
+                        <p>Upgrade to a new version of SharePoint</p>
+                                </li>
+                               <li> 
+                        <p>Apply updates to your existing version</p>
+                                </li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Run your environment</h3>
+                        <p>Sites administration</p>
+                        <p>[Server administration](administration/administration.md)</p>
+                        <p>Governance</p>
+                        <p>[Hybrid](hybrid/hybrid.md)</p>
+               </div>
+                </div>
+            </div>
+        </div> 
+    </li>
+</ul>  
+
 
 |||
 |:-----|:-----|
-|![Building blocks](media/mod_icon_buildingblock_M.png)|**Documentation** <br/>  The following articles describe how to plan for, deploy, and use all the features of SharePoint Server.  <br/> [What's new](what-s-new/what-s-new.md) <br/> [Security for SharePoint Server](security-for-sharepoint-server/security-for-sharepoint-server.md) <br/> [Install SharePoint Server](install/install.md) <br/> [Hybrid for SharePoint Server](hybrid/hybrid.md) <br/> [Administration of SharePoint Server](administration/administration.md) <br/> [Technical reference for SharePoint Server](technical-reference/technical-reference.md) <br/>  Related content:  <br/> [Project Server](https://docs.microsoft.com/en-us/Project/project-server-2013-and-2016) <br/> [Office Online Server](https://docs.microsoft.com/en-us/officeonlineserver/office-online-server) <br/> |
 |![email](media/mod_icon_email_blue.png)|**Provide Feedback** <br/> To suggest content or request more documentation (or report an error), please contact us at [itspdocs@microsoft.com](mailto: itspdocs@microsoft.com).  <br/> |
    
 
