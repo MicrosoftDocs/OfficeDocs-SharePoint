@@ -201,8 +201,4 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server in their ent
 </ul>  
 
 
-|||
-|:-----|:-----|
-|![email](media/mod_icon_email_blue.png)|**Provide Feedback** <br/> To suggest content or request more documentation (or report an error), please contact us at [itspdocs@microsoft.com](mailto: itspdocs@microsoft.com).  <br/> |
-   
 
