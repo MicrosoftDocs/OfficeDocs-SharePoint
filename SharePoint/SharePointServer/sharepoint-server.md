@@ -98,7 +98,6 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server in their ent
 
 ---
 
-<h2></h2>
 <ul class="panelContent cardsW">
     <li>
         <div class="cardSize">
@@ -125,6 +124,21 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server in their ent
                 </div>
             </div>
         </div>
+    </li>
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Run your environment</h3>
+                        <p>Sites administration</p>
+                        <p>[Server administration](administration/administration.md)</p>
+                        <p>Governance</p>
+                        <p>[Hybrid](hybrid/hybrid.md)</p>
+               </div>
+                </div>
+            </div>
+        </div> 
     </li>
     <li>
         <div class="cardSize">
@@ -183,21 +197,6 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server in their ent
                 </div>
             </div>
         </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Run your environment</h3>
-                        <p>Sites administration</p>
-                        <p>[Server administration](administration/administration.md)</p>
-                        <p>Governance</p>
-                        <p>[Hybrid](hybrid/hybrid.md)</p>
-               </div>
-                </div>
-            </div>
-        </div> 
     </li>
 </ul>  
 
