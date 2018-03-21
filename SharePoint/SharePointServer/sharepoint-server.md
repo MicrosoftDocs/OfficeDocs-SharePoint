@@ -23,7 +23,7 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server in their ent
   
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="/getting-started.md">
+        <a href="/sharepoint/getting-started">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -41,7 +41,7 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server in their ent
         </a>
     </li>
     <li>
-        <a href="/migrate-to-sharepoint-online/index.md">
+        <a href="/Sharepoint/migrate-to-sharepoint-online">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -59,7 +59,7 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server in their ent
         </a>
     </li>
     <li>
-        <a href="Sharepoint/hybrid/hybrid.md">
+        <a href="/Sharepoint/hybrid/hybrid">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -117,9 +117,9 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server in their ent
                 <div class="card">
                     <div class="cardText">
                         <h3>Before you start</h3>
-                        <p><a href="/install/hardware-and-software-requirements.md">Hardware and software requirements</a></p>
-                        <p><a href="/install//prerequisites.md">Prerequisites</a></p>
-                        <p><a href="/security-for-sharepoint-server/security-for-sharepoint-server.md">Security</a></p>
+                        <p><a href="/sharepoint/install/hardware-and-software-requirements">Hardware and software requirements</a></p>
+                        <p><a href="/sharepoint/install/prerequisites">Prerequisites</a></p>
+                        <p><a href="/sharepoint/security-for-sharepoint-server/security-for-sharepoint-server">Security</a></p>
                      </div>
                 </div>
             </div>
@@ -132,9 +132,9 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server in their ent
                     <div class="cardText">
                         <h3>Run your environment</h3>
                         <p>Sites administration</p>
-                        <p>[Server administration](administration/administration.md)</p>
+                        <p>[Server administration](../sharepoint/administration/administration)</p>
                         <p>Governance</p>
-                        <p>[Hybrid](hybrid/hybrid.md)</p>
+                        <p>[Hybrid](../SharePoint/hybrid/hybrid)</p>
                </div>
                 </div>
             </div>
