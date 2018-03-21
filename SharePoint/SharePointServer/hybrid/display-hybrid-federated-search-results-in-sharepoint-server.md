@@ -18,9 +18,9 @@ description: "Summary: Configure a SharePoint hybrid environment so that user se
 
 # Display hybrid federated search results in SharePoint Server
 
- **Summary:**Configure a SharePoint hybrid environment so that user searches from the SharePoint Server Search Center display results from both the SharePoint Server and SharePoint Online search indexes.
+ **Summary:** Configure a SharePoint hybrid environment so that user searches from the SharePoint Server Search Center display results from both the SharePoint Server and SharePoint Online search indexes.
   
- **This article is part of a roadmap of procedures for configuring SharePoint hybrid solutions. Be sure you're [following a roadmap](configuration-roadmaps.md) when you do the procedures in this article. **
+ **This article is part of a roadmap of procedures for configuring SharePoint hybrid solutions. Be sure you're [following a roadmap](configuration-roadmaps.md) when you do the procedures in this article.**
   
 This article describes how to configure a SharePoint hybrid environment so that searches from the SharePoint Server enterprise Search Center display hybrid results—that is, results from both search indexes (SharePoint Server and SharePoint Online). This configuration is called outbound hybrid search. 
   
