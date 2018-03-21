@@ -31,19 +31,19 @@ To configure an on-premises SharePoint Server content farm to return results fro
     
   - Specifies the address of any root site collection in the SharePoint Server farm that will receive the search queries.
     
-    For more information, see [Configure result sources for search in SharePoint Server](configure-result-sources-for-search.md).
-    
-    > [!NOTE]
-    > After you create the result source, you expose the search results that it provides by using it in a Web Part or a query-rule action. In this way, users of the farm that is sending search queries can see results from the farm that is receiving the queries. For more information, see [Understanding result sources for search in SharePoint Server](understanding-result-sources-for-search.md). 
+  For more information, see [Configure result sources for search in SharePoint Server](configure-result-sources-for-search.md).
+  
+  > [!NOTE]
+  > After you create the result source, you expose the search results that it provides by using it in a Web Part or a query-rule action. In this way, users of the farm that is sending search queries can see results from the farm that is receiving the queries. For more information, see [Understanding result sources for search in SharePoint Server](understanding-result-sources-for-search.md). 
   
 This article describes how to perform the first procedure in the list above: how to configure the farm that receives search queries to trust the farm that sends the queries.
   
 For brevity in this article, the following terms are used:
   
-|||
-|:-----|:-----|
-|**SendingFarm** <br/> |An on-premises SharePoint Server farm that has a search service that sends search queries to ReceivingFarm.  <br/> |
-|**ReceivingFarm** <br/> |An on-premises SharePoint Server content farm that has a search index that receives search queries from SendingFarm. In this article, it is assumed that ReceivingFarm has at least one web application that hosts content.  <br/> |
+|                   |                                                                                                                                                                                                                             |
+| :---------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **SendingFarm**   | An on-premises SharePoint Server farm that has a search service that sends search queries to ReceivingFarm.                                                                                                                 |
+| **ReceivingFarm** | An on-premises SharePoint Server content farm that has a search index that receives search queries from SendingFarm. In this article, it is assumed that ReceivingFarm has at least one web application that hosts content. |
    
 In order for SendingFarm to be able to get search results from the search index in ReceivingFarm, the farms must have the following characteristics:
   
@@ -52,11 +52,14 @@ In order for SendingFarm to be able to get search results from the search index 
 - User profiles in the two farms are synchronized. For more information, see [Server-to-server authentication and user profiles in SharePoint Server](../security-for-sharepoint-server/server-to-server-authentication-and-user-profiles.md).
     
 > [!NOTE]
->  Because SharePoint Server runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server supports the accessibility features of supported browsers. For more information, see the following resources: > [Plan browser support](https://go.microsoft.com/fwlink/p/?LinkId=246502)> [Accessibility for SharePoint 2013](http://technet.microsoft.com/library/94ad4316-1077-400a-b17e-a2085a5a7312%28Office.14%29.aspx)> [Accessibility features in SharePoint 2013](https://go.microsoft.com/fwlink/p/?LinkId=246501)> [Keyboard shortcuts](https://go.microsoft.com/fwlink/p/?LinkID=246504)> [Touch](https://go.microsoft.com/fwlink/p/?LinkId=246506)
-  
-## 
+>  Because SharePoint Server runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server supports the accessibility features of supported browsers. For more information, see the following resources: 
+>-  [Plan browser support](https://go.microsoft.com/fwlink/p/?LinkId=246502)
+>-  [Accessibility for SharePoint 2013](http://technet.microsoft.com/library/94ad4316-1077-400a-b17e-a2085a5a7312%28Office.14%29.aspx)
+>-  [Accessibility features in SharePoint 2013](https://go.microsoft.com/fwlink/p/?LinkId=246501)
+>-  [Keyboard shortcuts](https://go.microsoft.com/fwlink/p/?LinkID=246504)
+>-  [Touch](https://go.microsoft.com/fwlink/p/?LinkId=246506)
 
- **To configure ReceivingFarm to trust SendingFarm**
+**To configure ReceivingFarm to trust SendingFarm**
   
 1. Verify that the account that performs this procedure is a member of the following groups:
     
@@ -74,9 +77,9 @@ In order for SendingFarm to be able to get search results from the search index 
     
   - For Windows Server 2012:
     
-  - In the SharePoint Server environment, on the **Start** page, click **SharePoint Management Shell**.
+    - In the SharePoint Server environment, on the **Start** page, click **SharePoint Management Shell**.
     
-  - If **SharePoint Management Shell** is not on the **Start** page, right-click **Computer**, click **All apps**, and then click SharePoint Management Shell.
+    - If **SharePoint Management Shell** is not on the **Start** page, right-click **Computer**, click **All apps**, and then click SharePoint Management Shell.
     
     For more information about how to interact with Windows Server 2012, see [Common Management Tasks and Navigation in Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkId=276950).
     
@@ -133,14 +136,12 @@ In order for SendingFarm to be able to get search results from the search index 
     
 ## See also
 
-#### Concepts
 
 [Authentication overview for SharePoint Server](../security-for-sharepoint-server/authentication-overview.md)
   
 [Plan for server-to-server authentication in SharePoint Server](../security-for-sharepoint-server/plan-server-to-server-authentication.md)
   
 [Plan for server-to-server authentication in SharePoint Server](../security-for-sharepoint-server/plan-server-to-server-authentication.md)
-#### Other Resources
 
 [Configure server-to-server authentication in SharePoint Server](http://technet.microsoft.com/library/1aa67101-2441-4a1d-b594-9d5144620d67%28Office.14%29.aspx)
   
