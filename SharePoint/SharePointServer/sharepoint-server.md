@@ -134,7 +134,7 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server in their ent
                         <p>Sites administration</p>
                         <p>[Server administration](administration/administration.md)</p>
                         <p>Governance</p>
-                        <p>[Hybrid](hybrid/hybrid.md)</p>
+                        <p>[Hybrid](href="SharePoint/hybrid/hybrid")</p>
                </div>
                 </div>
             </div>
