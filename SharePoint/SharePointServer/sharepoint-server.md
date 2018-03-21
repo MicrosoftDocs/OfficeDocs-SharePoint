@@ -132,9 +132,9 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server in their ent
                     <div class="cardText">
                         <h3>Run your environment</h3>
                         <p>Sites administration</p>
-                        <p>[Server administration](href="/sharepoint/administration/administration)</p>
+                        <p>[Server administration](../sharepoint/administration/administration)</p>
                         <p>Governance</p>
-                        <p>[Hybrid](href="/SharePoint/hybrid/hybrid")</p>
+                        <p>[Hybrid](../SharePoint/hybrid/hybrid)</p>
                </div>
                 </div>
             </div>
