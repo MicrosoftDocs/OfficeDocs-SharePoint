@@ -19,10 +19,8 @@ description: "Summary: Specify a proxy server to send requests to crawl content 
   
 A farm administrator or Search service application administrator can specify proxy server settings for sending HTTP requests to crawl content or query federated content repositories. A proxy server is a computer that functions as an intermediary to forward a client request to another server and return the results to the client. Using a proxy server can help increase intranet security and can help improve response times for client search requests. 
   
-## 
-<a name="section1"> </a>
 
- **To configure proxy server settings for crawling and federation**
+**To configure proxy server settings for crawling and federation**
   
 1. Verify that the user account that is performing this procedure is a farm administrator or a Search service application administrator.
     
@@ -42,22 +40,20 @@ A farm administrator or Search service application administrator can specify pro
     
   - Select **Use the proxy server specified** if you want to use a proxy server for crawling or federation, and then do the following: 
     
-  - In the **Address** box, type the URL of the proxy server. 
+    - In the **Address** box, type the URL of the proxy server. 
     
-  - In the **Port** box, if the proxy server is not using the default port, type the port number that the proxy server is using. 
+    - In the **Port** box, if the proxy server is not using the default port, type the port number that the proxy server is using. 
     
-  - Select the **Bypass proxy server for local (intranet) addresses** check box if you do not want the crawler to use the proxy server when crawling within the intranet. 
+    - Select the **Bypass proxy server for local (intranet) addresses** check box if you do not want the crawler to use the proxy server when crawling within the intranet. 
     
-  - In the **Do not use proxy server for addresses beginning with** box, type the appropriate addresses. Separate the addresses by using semicolons. 
+    - In the **Do not use proxy server for addresses beginning with** box, type the appropriate addresses. Separate the addresses by using semicolons. 
     
-  - Select the **Use these proxy settings for access to federated sites** check box if you want the search system to use the proxy server when it queries external content repositories. 
+    - Select the **Use these proxy settings for access to federated sites** check box if you want the search system to use the proxy server when it queries external content repositories. 
     
 6. In the **Search Proxy Setting** dialog box, click **OK**.
     
 ## See also
 <a name="section1"> </a>
-
-#### Concepts
 
 [Manage crawling in SharePoint Server](manage-crawling.md)
   

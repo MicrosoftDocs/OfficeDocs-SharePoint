@@ -85,13 +85,13 @@ To deploy the custom entity extraction dictionary, you must import it into Share
     
     Depending on which type of dictionary you are importing, enter one of the following:
     
-  - Microsoft.UserDictionaries.EntityExtraction.Custom.Word. *n*  [where  *n*  = 1,2,3,4 or 5] 
+    - Microsoft.UserDictionaries.EntityExtraction.Custom.Word. *n*  [where  *n*  = 1,2,3,4 or 5] 
     
-  - Microsoft.UserDictionaries.EntityExtraction.Custom.ExactWord.1
+    - Microsoft.UserDictionaries.EntityExtraction.Custom.ExactWord.1
     
-  - Microsoft.UserDictionaries.EntityExtraction.Custom.WordPart. *n*  [where  *n*  = 1,2,3,4 or 5] 
+    - Microsoft.UserDictionaries.EntityExtraction.Custom.WordPart. *n*  [where  *n*  = 1,2,3,4 or 5] 
     
-  - Microsoft.UserDictionaries.EntityExtraction.Custom.ExactWordPart.1
+    - Microsoft.UserDictionaries.EntityExtraction.Custom.ExactWordPart.1
     
 ## Configure a managed property for custom entity extraction
 <a name="proc3"> </a>
@@ -148,17 +148,16 @@ The following table shows what type of custom extraction dictionaries you can cr
   
 ****
 
-|**Custom entity extractor / custom entity extractor dictionary**|**Description**|**Example**|**Dictionary name to use in Windows PowerShell**|**Managed property that will contain the extracted entity**|
-|:-----|:-----|:-----|:-----|:-----|
-|Word Extraction  <br/> |Case-insensitive, dictionary entries matching tokenized content, maximum 5 dictionaries.  <br/> |The entry "anchor" matches "anchor" and "Anchor," but not "anchorage"  <br/> |Microsoft.UserDictionaries.EntityExtraction.Custom.Word.n  <br/> [where n = 1,2,3,4 or 5]  <br/> |WordCustomRefiner1  <br/> WordCustomRefiner2  <br/> WordCustomRefiner3  <br/> WordCustomRefiner4  <br/> WordCustomRefiner5  <br/> |
-|Word Part Extraction  <br/> |Case-insensitive, dictionary entries matching un-tokenized content, maximum 5 dictionaries.  <br/> |The entry "anchor" matches "anchor," "Anchor" and "anchorage"  <br/> |Microsoft.UserDictionaries.EntityExtraction.Custom.WordPart.n  <br/> [where n = 1,2,3,4 or 5]  <br/> |WordPartCustomRefiner1  <br/> WordPartCustomRefiner2  <br/> WordPartCustomRefiner3  <br/> WordPartCustomRefiner4  <br/> WordPartCustomRefiner5  <br/> |
-|Word Exact Extraction  <br/> |Case-sensitive, dictionary entries matching tokenized content, maximum 1 dictionary.  <br/> |The entry "anchor" matches "anchor," but not "Anchor" or "Anchorage"  <br/> |Microsoft.UserDictionaries.EntityExtraction.Custom.ExactWord.1  <br/> |WordExactCustomRefiner  <br/> |
-|Word Part Exact Extraction  <br/> |Case-sensitive, dictionary entries matching un-tokenized content, maximum 1 dictionary.  <br/> |The entry "anchor" matches "anchor" and "anchorage," but not "Anchor"  <br/> |Microsoft.UserDictionaries.EntityExtraction.Custom.ExactWordPart.1  <br/> |WordPartExactCustomRefiner  <br/> |
+| **Custom entity extractor / custom entity extractor dictionary** |                                       **Description**                                       |                              **Example**                              |                     **Dictionary name to use in Windows PowerShell**                     |                                **Managed property that will contain the extracted entity**                                 |
+| :--------------------------------------------------------------- | :------------------------------------------------------------------------------------------ | :-------------------------------------------------------------------- | :--------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------- |
+| Word Extraction                                                  | Case-insensitive, dictionary entries matching tokenized content, maximum 5 dictionaries.    | The entry "anchor" matches "anchor" and "Anchor," but not "anchorage" | Microsoft.UserDictionaries.EntityExtraction.Custom.Word.n   [where n = 1,2,3,4 or 5]     | WordCustomRefiner1   WordCustomRefiner2   WordCustomRefiner3   WordCustomRefiner4   WordCustomRefiner5                     |
+| Word Part Extraction                                             | Case-insensitive, dictionary entries matching un-tokenized content, maximum 5 dictionaries. | The entry "anchor" matches "anchor," "Anchor" and "anchorage"         | Microsoft.UserDictionaries.EntityExtraction.Custom.WordPart.n   [where n = 1,2,3,4 or 5] | WordPartCustomRefiner1   WordPartCustomRefiner2   WordPartCustomRefiner3   WordPartCustomRefiner4   WordPartCustomRefiner5 |
+| Word Exact Extraction                                            | Case-sensitive, dictionary entries matching tokenized content, maximum 1 dictionary.        | The entry "anchor" matches "anchor," but not "Anchor" or "Anchorage"  | Microsoft.UserDictionaries.EntityExtraction.Custom.ExactWord.1                           | WordExactCustomRefiner                                                                                                     |
+| Word Part Exact Extraction                                       | Case-sensitive, dictionary entries matching un-tokenized content, maximum 1 dictionary.     | The entry "anchor" matches "anchor" and "anchorage," but not "Anchor" | Microsoft.UserDictionaries.EntityExtraction.Custom.ExactWordPart.1                       | WordPartExactCustomRefiner                                                                                                 |
    
 ## See also
 <a name="CustomDictionaryTypes"> </a>
 
-#### Other Resources
 
 [Import-SPEnterpriseSearchCustomExtractionDictionary](http://technet.microsoft.com/library/5d6287c5-d439-4233-9ddb-9ee19f2d2112.aspx)
 

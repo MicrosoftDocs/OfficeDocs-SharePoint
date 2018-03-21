@@ -144,11 +144,11 @@ However, if you crawl a zone of a web application other than the default zone, t
   
 For example, assume that you have the following AAMs for a web application named WebApp1:
   
-|**Default**|**Public URL**|**Authentication provider**|
-|:-----|:-----|:-----|
-|Default  <br/> |https://contoso  <br/> |Windows authentication: NTLM  <br/> |
-|Extranet  <br/> |https://fabrikam  <br/> |Forms-based authentication  <br/> |
-|Intranet  <br/> |http://fabrikam  <br/> |Windows authentication: NTLM  <br/> |
+| **Default** |  **Public URL**  | **Authentication provider**  |
+| :---------- | :--------------- | :--------------------------- |
+| Default     | https://contoso  | Windows authentication: NTLM |
+| Extranet    | https://fabrikam | Forms-based authentication   |
+| Intranet    | http://fabrikam  | Windows authentication: NTLM |
    
 Now, say that you crawl the default zone, https://contoso. When users perform queries from https://contoso/searchresults.aspx, URLs of results from WebApp1 will all be relative to https://contoso, and therefore will be of the form https://contoso/ _path_/ _result_.aspx.
   
@@ -206,12 +206,12 @@ For more information, see the following articles:
 
 As the crawler crawls content, downloads the content to the crawl server (the server that hosts the crawl component), and feeds the content to content processing components, several factors can adversely affect performance. To improve crawl performance, you can do the following:
   
-|**To address this potential performance bottleneck**|**Implement this solution**|
-|:-----|:-----|
-|Slow response time from crawled servers  <br/> |Provide more CPU and RAM and faster disk I/O  <br/> |
-|Low network bandwidth  <br/> |Install one or two one-gigabit-per-second network adapters on each crawl server  <br/> |
-|Content processing  <br/> |Provide more content processing components, and more CPU resources for each content processing component  <br/> |
-|Slow processing by the index components  <br/> |Add I/O resources for servers that host index components  <br/> |
+| **To address this potential performance bottleneck** |                                       **Implement this solution**                                        |
+| :--------------------------------------------------- | :------------------------------------------------------------------------------------------------------- |
+| Slow response time from crawled servers              | Provide more CPU and RAM and faster disk I/O                                                             |
+| Low network bandwidth                                | Install one or two one-gigabit-per-second network adapters on each crawl server                          |
+| Content processing                                   | Provide more content processing components, and more CPU resources for each content processing component |
+| Slow processing by the index components              | Add I/O resources for servers that host index components                                                 |
    
 For more information, see the following resources:
   

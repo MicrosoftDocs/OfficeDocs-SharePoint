@@ -43,7 +43,7 @@ People search has the following prerequisites:
     
   - [Phase 1: Start the User Profile synchronization service](../administration/configure-profile-synchronization.md#Phase1)
     
-    For more information, see [Overview of profile synchronization in SharePoint Server 2013](../administration/profile-synchronization-in-sharepoint-server-2013.md) and [Plan profile synchronization for SharePoint Server 2013](../administration/plan-profile-synchronization-for-sharepoint-server-2013.md).
+  For more information, see [Overview of profile synchronization in SharePoint Server 2013](../administration/profile-synchronization-in-sharepoint-server-2013.md) and [Plan profile synchronization for SharePoint Server 2013](../administration/plan-profile-synchronization-for-sharepoint-server-2013.md).
     
 ## Set up people search
 <a name="BKMK_SetUp"> </a>
@@ -68,15 +68,15 @@ When you configure My Sites, the default content access account for search is au
     
   - For Windows Server 2008 R2:
     
-  - Click **Start**, click **SharePoint 2016**, and then click **SharePoint 2016 Central Administration**.
+    - Click **Start**, click **SharePoint 2016**, and then click **SharePoint 2016 Central Administration**.
     
   - For Windows Server 2012:
     
-  - On the **Start** screen, click **SharePoint 2016 Central Administration**.
+    - On the **Start** screen, click **SharePoint 2016 Central Administration**.
     
-    If **SharePoint 2016 Central Administration** is not on the **Start** screen: 
+      If **SharePoint 2016 Central Administration** is not on the **Start** screen: 
     
-  - Right-click **Computer**, click **All apps**, and then click **SharePoint 2016 Central Administration**.
+    - Right-click **Computer**, click **All apps**, and then click **SharePoint 2016 Central Administration**.
     
     For more information about how to interact with Windows Server 2012, see [Common Management Tasks and Navigation in Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkId=276950).
     
@@ -180,9 +180,9 @@ Use the following procedure to remove the URL of the profile store from the prec
     
   - Select **Enable Continuous Crawls** or **Enable Incremental Crawls**.
     
-    A continuous crawl automatically provides maximum freshness for the content source without an incremental crawl schedule. For more information, see [Manage continuous crawls in SharePoint Server](manage-continuous-crawls.md).
+      A continuous crawl automatically provides maximum freshness for the content source without an incremental crawl schedule. For more information, see [Manage continuous crawls in SharePoint Server](manage-continuous-crawls.md).
     
-    If you select **Enable Incremental Crawls**, create an incremental crawl schedule.
+      If you select **Enable Incremental Crawls**, create an incremental crawl schedule.
     
   - Optionally create a schedule for full crawls.
     
@@ -257,8 +257,6 @@ For information about how to view the status of a crawl, see [Start, pause, resu
   
 ## See also
 <a name="BKMK_CrawlProfileStore"> </a>
-
-#### Concepts
 
 [Administer the User Profile service in SharePoint Server](../administration/user-profile-service-administration.md)
   

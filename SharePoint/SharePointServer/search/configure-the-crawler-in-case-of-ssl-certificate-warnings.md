@@ -33,9 +33,7 @@ However, if you are only crawling internal sites, you might expect SSL warnings 
   
 Use the following procedure to specify whether the crawler will crawl sites in the event of SSL certificate warnings. The setting applies to all content sources in all Search service applications in a farm. After you change this setting, you must re-crawl all affected sites so that the appropriate content is in the search index.
   
-## 
-
- **To configure the crawler for SSL certificate warnings**
+**To configure the crawler for SSL certificate warnings**
   
 1. Verify that the user account that is performing this procedure is a member of the Farm Administrators Group.
     

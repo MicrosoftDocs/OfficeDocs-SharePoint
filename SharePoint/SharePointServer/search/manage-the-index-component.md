@@ -68,7 +68,7 @@ You add an index replica to the search topology to achieve fault tolerance for a
     
   -  _\<Server name\>_ specifies the server on which you want to add an index component. The input must be a valid GUID, in the form  `12345678-90ab-cdef-1234-567890bcdefgh`; a valid name of a server (for example, **myserver1** ); or an instance of a valid **SearchServiceInstance** object. 
     
-    For example:
+  For example:
     
   ```
   $hostA = Get-SPEnterpriseSearchServiceInstance -Identity "myserver1"
@@ -104,7 +104,7 @@ You add an index replica to the search topology to achieve fault tolerance for a
     
   -  _\<Index partition number\>_ is the number of the existing index partition that you are creating a replica of. For example, to create an index replica of index partition 0, choose "0" as the parameter value. 
     
-    For example:
+  For example:
     
   ```
   New-SPEnterpriseSearchIndexComponent -SearchTopology $clone -SearchServiceInstance $hostA -IndexPartition 0
@@ -169,7 +169,7 @@ Before you add a new index partition to the search topology and start repartitio
     
   -  _\<Server name\>_ specifies the server on which you want to add an index component. The input must be a valid GUID, in the form  `12345678-90ab-cdef-1234-567890bcdefgh`; a valid name of a server (for example, **myserver1** ); or an instance of a valid **SearchServiceInstance** object. 
     
-    For example:
+  For example:
     
   ```
   $hostC = Get-SPEnterpriseSearchServiceInstance -Identity "myserver3"
@@ -209,7 +209,7 @@ Before you add a new index partition to the search topology and start repartitio
     
   -  _\<Index partition number\>_ is the number of the index partition that you are creating. By default, you have one index partition, which is called index partition 0. If you want to create a new index partition, enter the IndexPartition parameter value 1, followed by 2, then 3 and so forth. 
     
-    For example, if you have an existing index partition 0 with index replicas on Host A and Host B, and you want to add a new index partition with index replicas on Host C and Host D:
+  For example, if you have an existing index partition 0 with index replicas on Host A and Host B, and you want to add a new index partition with index replicas on Host C and Host D:
     
   ```
   New-SPEnterpriseSearchIndexComponent -SearchTopology $clone -SearchServiceInstance $hostC -IndexPartition 1
@@ -257,9 +257,9 @@ Before you add a new index partition to the search topology and start repartitio
   Get-SPEnterpriseSearchStatus -SearchApplication $ssa -Text
   ```
 
-    The command returns a list of index components and their properties. Make a note of the names of the primary index component(s). These are the index components that have the property **Primary: True**. 
-    
-    For example, the output could look like this. In this example, IndexComponent2 is the primary index component:
+  The command returns a list of index components and their properties. Make a note of the names of the primary index component(s). These are the index components that have the property **Primary: True**. 
+  
+  For example, the output could look like this. In this example, IndexComponent2 is the primary index component:
     
   ```
   Name      : IndexComponent1
@@ -341,9 +341,9 @@ Before you add a new index partition to the search topology and start repartitio
   
   - To restart the SharePoint Search Host Controller, open a command prompt window on each of the servers that host index components for existing index partitions.
     
-  - To stop the SharePoint Search Host Controller, type this command: **net stop spsearchhostcontroller**
+    - To stop the SharePoint Search Host Controller, type this command: **net stop spsearchhostcontroller**
     
-  - To restart the SharePoint Search Host Controller, type this command: **net start spsearchhostcontroller**
+    - To restart the SharePoint Search Host Controller, type this command: **net start spsearchhostcontroller**
     
 15. Resume the Search service application. At the Windows PowerShell command prompt, type the following command(s):
     
@@ -354,7 +354,7 @@ Before you add a new index partition to the search topology and start repartitio
 ## Cancel the repartitioning process
 <a name="Search_Index_Cancel"> </a>
 
-If you, for any reason, have to cancel an ongoing repartitioning process, use the following procedure.
+If you have to cancel an ongoing repartitioning process, use the following procedure.
   
  **To cancel the repartitioning process**
   

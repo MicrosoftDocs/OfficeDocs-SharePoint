@@ -98,10 +98,7 @@ You can edit the names of terms in the Query Spelling Exclusions and Query Spell
 ## See also
 <a name="QS_Edit"> </a>
 
-#### Concepts
-
 [Linguistic search features in SharePoint Server](../technical-reference/linguistic-search-features.md)
-#### Other Resources
 
 [Set-SPEnterpriseSearchQuerySpellingCorrection](http://technet.microsoft.com/library/0c0d069e-d7a8-4341-901a-922188a17705.aspx)
   

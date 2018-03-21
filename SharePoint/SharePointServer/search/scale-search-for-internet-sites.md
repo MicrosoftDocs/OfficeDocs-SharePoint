@@ -48,21 +48,21 @@ Each server must have sufficient disk space for the base installation of the Win
   
 **Application servers and Web servers hosting search components**
 
-|**Search component on the physical server**|**RAM**|**Hard disk**|**Processor**|
-|:-----|:-----|:-----|:-----|
-|Index component  <br/> |48 GB for each server in the farm that hosts an index component, a query processing component and the Web front end.  <br/> |500 GB additional disk space, preferably a separate disk volume/partition.  <br/> |**All components:** <br/> 64-bit, 4 cores minimum, 8 cores recommended.  <br/> |
-|Analytics processing component  <br/> |24 GB for each server in the farm that hosts an analytics processing component, a crawl component, a content processing component and/or a search administration component.  <br/> |300 GB additional disk space, preferably a separate disk volume/partition.  <br/> |
-|Crawl component  <br/> Content processing component  <br/> |See the requirements listed for the analytics processing component.  <br/> |80 GB for system drive.  <br/> |
-|Query processing component  <br/> |See the requirements listed for the index component.  <br/> |
-|Search administration component  <br/> |See the requirements listed for the analytics processing component.  <br/> |
+| **Search component on the physical server**  |                                                                                   **RAM**                                                                                   |                               **Hard disk**                                |                          **Processor**                           |
+| :------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------- | :--------------------------------------------------------------- |
+| Index component                              | 48 GB for each server in the farm that hosts an index component, a query processing component and the Web front end.                                                        | 500 GB additional disk space, preferably a separate disk volume/partition. | **All components:**64-bit, 4 cores minimum, 8 cores recommended. |
+| Analytics processing component               | 24 GB for each server in the farm that hosts an analytics processing component, a crawl component, a content processing component and/or a search administration component. | 300 GB additional disk space, preferably a separate disk volume/partition. |                                                                  |
+| Crawl component Content processing component | See the requirements listed for the analytics processing component.                                                                                                         | 80 GB for system drive.                                                    |                                                                  |
+| Query processing component                   | See the requirements listed for the index component.                                                                                                                        |                                                                            |                                                                  |
+| Search administration component              | See the requirements listed for the analytics processing component.                                                                                                         |                                                                            |                                                                  |
    
 **Database servers hosting search databases**
 
-|**Component**|**Minimum requirements**|
-|:-----|:-----|
-|Processor  <br/> |64-bit, 4 cores for small topologies.  <br/> 64-bit, 8 cores for medium topologies.  <br/> |
-|RAM  <br/> |8 GB for small topologies.  <br/> 16 GB for medium topologies.  <br/> |
-|Hard disk  <br/> |80 GB for system drive.  <br/> Hard disk space depends on the amount of content.  <br/> |
+| **Component** |                              **Minimum requirements**                               |
+| :------------ | :---------------------------------------------------------------------------------- |
+| Processor     | 64-bit, 4 cores for small topologies.  <br/> 64-bit, 8 cores for medium topologies. |
+| RAM           | 8 GB for small topologies.  <br/> 16 GB for medium topologies.                      |
+| Hard disk     | 80 GB for system drive.  <br/> Hard disk space depends on the amount of content.    |
    
 ## Performance considerations for a medium Internet sites topology
 <a name="Scale_FIS"> </a>
@@ -71,17 +71,15 @@ A medium Internet sites (FIS) topology is optimized for a corpus size of 3,400,0
   
 **Performance considerations**
 
-|**What to consider**|**Why this is important**|
-|:-----|:-----|
-|Cache  <br/> |The query and its results are cached with Windows Server AppFabric, in key-value pairs: the query being the key and the results being the value. For each query, there is an approximate 50% cache ratio. This means that if you have a usage pattern of 200 queries per second, about 100 queries are sent to the search index and the other 100 queries are cached. The results from the cache have lower query latency than those that you retrieve from the search index. For example, results for front-page queries that are often run are likely to be cached.  <br/> |
-|Continuous crawl  <br/> |We recommend that you enable continuous crawl with an interval of one minute, instead of the default interval of 15 minutes. You can only enable continuous crawl on SharePoint content sources.  <br/> |
-|Anonymous access  <br/> |With anonymous access, users do not have to use credentials to log on to a SharePoint Internet site. Anonymous queries are cached, so they are cheaper because of lower query latency. You must enable anonymous access in two locations: on the web front-end and on the site.  <br/> |
-|Query latency  <br/> |Query latency is influenced by caching, anonymous access and by other factors such as the number and complexity of query rules that are applied and triggered. Also, consider the disks on which the search index is stored; a disk that has multiple spindles can improve the access speed of the disk and reduce query latency.  <br/> |
+| **What to consider** |                                                                                                                                                                                                                                                                       **Why this is important**                                                                                                                                                                                                                                                                       |
+| :------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Cache                | The query and its results are cached with Windows Server AppFabric, in key-value pairs: the query being the key and the results being the value. For each query, there is an approximate 50% cache ratio. This means that if you have a usage pattern of 200 queries per second, about 100 queries are sent to the search index and the other 100 queries are cached. The results from the cache have lower query latency than those that you retrieve from the search index. For example, results for front-page queries that are often run are likely to be cached. |
+| Continuous crawl     | We recommend that you enable continuous crawl with an interval of one minute, instead of the default interval of 15 minutes. You can only enable continuous crawl on SharePoint content sources.                                                                                                                                                                                                                                                                                                                                                                      |
+| Anonymous access     | With anonymous access, users do not have to use credentials to log on to a SharePoint Internet site. Anonymous queries are cached, so they are cheaper because of lower query latency. You must enable anonymous access in two locations: on the web front-end and on the site.                                                                                                                                                                                                                                                                                       |
+| Query latency        | Query latency is influenced by caching, anonymous access and by other factors such as the number and complexity of query rules that are applied and triggered. Also, consider the disks on which the search index is stored; a disk that has multiple spindles can improve the access speed of the disk and reduce query latency.                                                                                                                                                                                                                                     |
    
 ## See also
 <a name="Scale_FIS"> </a>
-
-#### Concepts
 
 [Manage the search topology in SharePoint Server](manage-the-search-topology.md)
   

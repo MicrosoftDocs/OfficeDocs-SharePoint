@@ -15,7 +15,7 @@ description: "Summary: Learn howSharePoint Server 2016 and SharePoint Server 201
 
 # Overview of search result ranking in SharePoint Server
 
- **Summary:** Learn howSharePoint Server 2016 and SharePoint Server 2013 use ranking models to calculate the relevance rank of search results and how you can influence the order of search results by using query rules, the search schema and ranking models. 
+ **Summary:** Learn how SharePoint Server 2016 and SharePoint Server 2013 use ranking models to calculate the relevance rank of search results and how you can influence the order of search results by using query rules, the search schema and ranking models. 
   
 The search engine calculates the relevance rank, that is to say, the order in which the search results for a query appear. The ranking model is at the core of this calculation. In most cases, you can influence relevance by using the available SharePoint Server ranking models in combination with query rules without having to consider customizing any ranking models. 
   
@@ -43,24 +43,24 @@ SharePoint Server provides the following types of ranking models:
     
 The following table lists the available ranking models in SharePoint Server.
   
-|**Ranking model type**|**Ranking model name**|**Description**|
-|:-----|:-----|:-----|
-|General purpose  <br/> |Default Search Model  <br/> |Default ranking model for the Search service application. This ranking model ranks most search results, such as the search results for queries on the result source "Local SharePoint Results". This model is used for the search verticals **Everything**, **Videos** and **Conversations**.  <br/> |
-|General purpose  <br/> |Search Ranking Model with Two Linear Stages  <br/> |This ranking model is a copy of the Default Search Model with the exception that stage two is a linear stage instead of a neural net stage. We recommend that you use a copy of this model as the base model if you want to create a custom ranking model.  <br/> |
-|General purpose  <br/> |O15 MainResultsDefaultRankingModel  <br/> |Ranking model that was used as the default ranking model for the Search service application before the SharePoint Server 2013 cumulative update of August 2013. The cumulative update introduces some improvements to the Default Search Model. This ranking model was added for backward compatibility.  <br/> |
-|General purpose  <br/> |O14 Default Search Model  <br/> |Ranking model that was used as the default ranking model for the Search service application in SharePoint Server 2010 and Search Server 2010. This ranking model was added for backward compatibility.  <br/> |
-|General purpose  <br/> |Search Model With Boosted Minspan  <br/> |Ranking model that puts a higher weight on proximity features than the Default Search Model. Proximity features in the ranking model look at each of the query terms and determine how close to one another these query terms occur in the items. Proximity is only considered in the managed properties **Body** and **Title**.  <br/> |
-|General purpose  <br/> |Search Model Without Minspan  <br/> |Default Search Model without proximity features.  <br/> |
-|People search  <br/> |People Search application ranking model  <br/> |Default ranking model for people search. This ranking model ranks search results for people. People search is based on user profile information from My Sites that are kept in the User Profile service application.  <br/> |
-|People search  <br/> |People Search expertise ranking model  <br/> |Ranking model for people search that puts a higher weight on expertise. Expertise is calculated based on how few levels the person is from the top position within an organization.  <br/> |
-|People search  <br/> |People Search expertise social distance ranking model  <br/> |Ranking model for people search based on expertise with a higher weight on social distance. Social distance is the relationship, as defined by their position in the organization, between the user who typed the query and the people who are listed in the search results.  <br/> |
-|People search  <br/> |People Search name ranking model  <br/> |Ranking model for people name search.  <br/> |
-|People search  <br/> |People Search name social distance ranking model  <br/> |Ranking model for people name search that puts a higher weight on social distance.  <br/> |
-|People search  <br/> |People Search social distance model  <br/> |Ranking model for people search that puts a higher weight on social distance.  <br/> |
-|Special purpose  <br/> |Catalog ranking model  <br/> |Ranking model for internet facing websites. This ranking model ranks search results for websites that use cross-site publishing and that have a product catalog associated with the SharePoint Server site collection.  <br/> |
-|Special purpose  <br/> |Popularity ranking model  <br/> |Ranking model for popularity based search. This ranking model ranks SharePoint Server content based on the number of times an item that is stored in SharePoint Server has been accessed.  <br/> |
-|Special purpose  <br/> |Recommender ranking model  <br/> |Ranking model to rank recommendations. Recommendations are based on item-to-item relationships collected from an analysis of how users have interacted with items on a site or with search results.  <br/> |
-|Special purpose  <br/> |Site suggestion ranking model  <br/> |Ranking model for social suggestions. Items that other users have clicked will get a higher ranking.  <br/> |
+| **Ranking model type** |                **Ranking model name**                 |                                                                                                                                                         **Description**                                                                                                                                                          |
+| :--------------------- | :---------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| General purpose        | Default Search Model                                  | Default ranking model for the Search service application. This ranking model ranks most search results, such as the search results for queries on the result source "Local SharePoint Results". This model is used for the search verticals **Everything**, **Videos** and **Conversations**.                                    |
+| General purpose        | Search Ranking Model with Two Linear Stages           | This ranking model is a copy of the Default Search Model with the exception that stage two is a linear stage instead of a neural net stage. We recommend that you use a copy of this model as the base model if you want to create a custom ranking model.                                                                       |
+| General purpose        | O15 MainResultsDefaultRankingModel                    | Ranking model that was used as the default ranking model for the Search service application before the SharePoint Server 2013 cumulative update of August 2013. The cumulative update introduces some improvements to the Default Search Model. This ranking model was added for backward compatibility.                         |
+| General purpose        | O14 Default Search Model                              | Ranking model that was used as the default ranking model for the Search service application in SharePoint Server 2010 and Search Server 2010. This ranking model was added for backward compatibility.                                                                                                                           |
+| General purpose        | Search Model With Boosted Minspan                     | Ranking model that puts a higher weight on proximity features than the Default Search Model. Proximity features in the ranking model look at each of the query terms and determine how close to one another these query terms occur in the items. Proximity is only considered in the managed properties **Body** and **Title**. |
+| General purpose        | Search Model Without Minspan                          | Default Search Model without proximity features.                                                                                                                                                                                                                                                                                 |
+| People search          | People Search application ranking model               | Default ranking model for people search. This ranking model ranks search results for people. People search is based on user profile information from My Sites that are kept in the User Profile service application.                                                                                                             |
+| People search          | People Search expertise ranking model                 | Ranking model for people search that puts a higher weight on expertise. Expertise is calculated based on how few levels the person is from the top position within an organization.                                                                                                                                              |
+| People search          | People Search expertise social distance ranking model | Ranking model for people search based on expertise with a higher weight on social distance. Social distance is the relationship, as defined by their position in the organization, between the user who typed the query and the people who are listed in the search results.                                                     |
+| People search          | People Search name ranking model                      | Ranking model for people name search.                                                                                                                                                                                                                                                                                            |
+| People search          | People Search name social distance ranking model      | Ranking model for people name search that puts a higher weight on social distance.                                                                                                                                                                                                                                               |
+| People search          | People Search social distance model                   | Ranking model for people search that puts a higher weight on social distance.                                                                                                                                                                                                                                                    |
+| Special purpose        | Catalog ranking model                                 | Ranking model for internet facing websites. This ranking model ranks search results for websites that use cross-site publishing and that have a product catalog associated with the SharePoint Server site collection.                                                                                                           |
+| Special purpose        | Popularity ranking model                              | Ranking model for popularity based search. This ranking model ranks SharePoint Server content based on the number of times an item that is stored in SharePoint Server has been accessed.                                                                                                                                        |
+| Special purpose        | Recommender ranking model                             | Ranking model to rank recommendations. Recommendations are based on item-to-item relationships collected from an analysis of how users have interacted with items on a site or with search results.                                                                                                                              |
+| Special purpose        | Site suggestion ranking model                         | Ranking model for social suggestions. Items that other users have clicked will get a higher ranking.                                                                                                                                                                                                                             |
    
 ## How does a search result get a rank?
 <a name="Ranking_SearchResults"> </a>
@@ -73,13 +73,13 @@ Each ranking model has several ranking features. The relative weight of these ra
   
 Ranking models use information from the search index, as explained in the following table.
   
-|**Information about a search index item**|**Description**|
-|:-----|:-----|
-|Content  <br/> |These are the words contained in the items. For items that are text based, such as documents, this is typically most of the text. For other types of items, such as videos, there is little or no content.  <br/> |
-|Metadata  <br/> |The metadata associated with items such as title, author, URL and creation date. Metadata is automatically extracted from most types of items.  <br/> |
-|Web graph data  <br/> |This is information such as authority (from authoritative pages settings) and anchor text (from the hyperlinks associated with the item, and items linking to the item).  <br/> |
-|File type  <br/> |Some file types can be considered more important for ranking than others. For example, Word and PowerPoint results are typically more important than Excel results.  <br/> |
-|Interaction  <br/> |Information about the number of times a search result is clicked, and which queries led to a result being clicked.  <br/> |
+| **Information about a search index item** |                                                                                              **Description**                                                                                               |
+| :---------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Content                                   | These are the words contained in the items. For items that are text based, such as documents, this is typically most of the text. For other types of items, such as videos, there is little or no content. |
+| Metadata                                  | The metadata associated with items such as title, author, URL and creation date. Metadata is automatically extracted from most types of items.                                                             |
+| Web graph data                            | This is information such as authority (from authoritative pages settings) and anchor text (from the hyperlinks associated with the item, and items linking to the item).                                   |
+| File type                                 | Some file types can be considered more important for ranking than others. For example, Word and PowerPoint results are typically more important than Excel results.                                        |
+| Interaction                               | Information about the number of times a search result is clicked, and which queries led to a result being clicked.                                                                                         |
    
 ## How can I influence the rank of a search result?
 <a name="Ranking_InfluenceIntro"> </a>
@@ -94,13 +94,13 @@ You can influence the ranking of search results in the following ways:
     
   - Change the rank by changing the query.
     
-  - Change the sorting of the ranked results based on managed properties.
+    - Change the sorting of the ranked results based on managed properties.
     
-  - Dynamically promote or demote particular results.
+    - Dynamically promote or demote particular results.
     
-  - Change the ranking model when someone runs a certain query.
+    - Change the ranking model when someone runs a certain query.
     
-    See the section [Influence the ranking of search results with query rules](overview-of-search-result-ranking.md#Ranking_QueryRules) for more information. 
+  See the section [Influence the ranking of search results with query rules](overview-of-search-result-ranking.md#Ranking_QueryRules) for more information. 
     
 - **Search schema: configure the context of a managed property.**
     
@@ -141,24 +141,26 @@ You can specify the following query rule actions for a query rule:
     
   - **Dynamic ordering: promote or demote search results.**
     
-    You can dynamically change the ranking of search results. You can specify when you want to change the ranking of the search results for a query, and by how much, when a certain condition applies. The following table shows the conditions that you can set.
+    You can dynamically change the ranking of search results. You can specify when you want to change the ranking of the search results for a query, and by how much, when a certain condition applies. The table below shows the conditions that you can set.
     
-|**Change ranking when:**|**Description**|
-|:-----|:-----|
-|Result contains keyword  <br/> |Matches if the result contains the keywords anywhere in its contents, including meta-data.  <br/> |
-|Title contains keyword  <br/> |Matches if the result title contains the specified keywords or phrases.  <br/> |
-|Title matches keyword  <br/> |Matches if the result title exactly matches the specified keywords or phrases.  <br/> |
-|URL starts with  <br/> |Matches if the result URL starts with the specified URL.  <br/> |
-|URL exactly matches  <br/> |Matches if the result URL exactly matches the specified URL.  <br/> |
-|Content type is  <br/> |Matches if the result is of the content type that you specify.  <br/> |
-|File extension matches  <br/> |Matches if the result has the specified file extension.  <br/> |
-|Result has the tag  <br/> |Matches if the result has the specified taxonomy tag as part of its meta-data.  <br/> |
-|Manual condition  <br/> |Add any restriction using standard query syntax.  <br/> |
-   
+
+ 
   - **Change the ranking model.**
     
     You can change which ranking model is used when a query rule fires.
     
+| **Change ranking when:** |                                      **Description**                                       |
+| :----------------------- | :----------------------------------------------------------------------------------------- |
+| Result contains keyword  | Matches if the result contains the keywords anywhere in its contents, including meta-data. |
+| Title contains keyword   | Matches if the result title contains the specified keywords or phrases.                    |
+| Title matches keyword    | Matches if the result title exactly matches the specified keywords or phrases.             |
+| URL starts with          | Matches if the result URL starts with the specified URL.                                   |
+| URL exactly matches      | Matches if the result URL exactly matches the specified URL.                               |
+| Content type is          | Matches if the result is of the content type that you specify.                             |
+| File extension matches   | Matches if the result has the specified file extension.                                    |
+| Result has the tag       | Matches if the result has the specified taxonomy tag as part of its meta-data.             |
+| Manual condition         | Add any restriction using standard query syntax.                                           |
+
 For more information, see [Plan to transform queries and order results in SharePoint Server](plan-to-transform-queries-and-order-results.md) and [Manage query rules in SharePoint Server](manage-query-rules.md).
   
 ## Influence the ranking of search results by using the search schema
@@ -172,13 +174,13 @@ A full-text index contains all the text from the searchable managed properties t
   
 By default, new managed properties are mapped to context 0, which means that they are returned in the search results but are not considered by any of the ranking models. If you want a new managed property to be considered by the default search ranking model, you should map it to the default full-text index and to one of the contexts shown in the table below. There are more contexts in the default full-text index, but you should only use the contexts mentioned in the following table. Each ranking model considers the contexts differently; the table only shows how the Default Search Model considers contexts in the default full-text index.
   
-|**Context**|**Example of a managed property in this context**|**Relative contribution weight to ranking (Default Search Model and default full-text index)**|
-|:-----|:-----|:-----|
-|0  <br/> |-  <br/> |Used only for recall, not for ranking.  <br/> |
-|1  <br/> |**Title** <br/> |0.3610  <br/> |
-|2  <br/> |**Filename** <br/> |0.1512  <br/> |
-|5  <br/> |**Author** <br/> |0.1581  <br/> |
-|7  <br/> |**Body** <br/> |0.0194  <br/> |
+| **Context** | **Example of a managed property in this context** | **Relative contribution weight to ranking (Default Search Model and default full-text index)** |
+| :---------- | :------------------------------------------------ | :--------------------------------------------------------------------------------------------- |
+| 0           | -                                                 | Used only for recall, not for ranking.                                                         |
+| 1           | **Title**                                         | 0.3610                                                                                         |
+| 2           | **Filename**                                      | 0.1512                                                                                         |
+| 5           | **Author**                                        | 0.1581                                                                                         |
+| 7           | **Body**                                          | 0.0194                                                                                         |
    
 For example, you create a new managed property of the type **string** that contains about ten words or less. You consider this new managed property to be about as important as the existing managed property **Title**. In that case, you should map the new managed property to context 1. 
   
@@ -215,12 +217,10 @@ You can read more about how to create, deploy and use a custom ranking model in 
 ## See also
 <a name="Ranking_CustomModel"> </a>
 
-#### Concepts
 
 [Plan to transform queries and order results in SharePoint Server](plan-to-transform-queries-and-order-results.md)
   
 [Overview of the search schema in SharePoint Server](search-schema-overview.md)
-#### Other Resources
-
+  
 [Create a custom ranking model by using the Ranking Model Tuning App](https://office.microsoft.com/en-us/office365-sharepoint-online-enterprise-help/create-a-custom-ranking-model-by-using-the-ranking-model-tuning-app-HA104104860.aspx?CTT=1)
 
