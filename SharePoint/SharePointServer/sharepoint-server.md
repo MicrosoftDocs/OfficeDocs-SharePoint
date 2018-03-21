@@ -59,7 +59,7 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server in their ent
         </a>
     </li>
     <li>
-        <a href="/hybrid/hybrid.md">
+        <a href="Sharepoint/hybrid/hybrid.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
