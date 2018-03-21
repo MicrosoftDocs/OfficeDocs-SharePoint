@@ -21,9 +21,7 @@ By default, when the crawler attempts to connect to a content repository, it wai
   
 If the crawler does not connect or get a response within the time specified, it tries to connect again. If the crawler does not connect on the second attempt within the time specified, it does not crawl the repository during that crawl.
   
-## 
-
- **To configure time-out settings for crawler connections**
+**To configure time-out settings for crawler connections**
   
 1. Verify that the user account that is performing this procedure is a farm administrator.
     
@@ -44,8 +42,6 @@ If the crawler does not connect or get a response within the time specified, it 
   - Click **OK**.
     
 ## See also
-
-#### Concepts
 
 [Manage crawling in SharePoint Server](manage-crawling.md)
 
