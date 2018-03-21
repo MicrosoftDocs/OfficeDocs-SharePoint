@@ -114,7 +114,7 @@ You export content from a case when you are ready to deliver it to an authority 
 
 When you close a case, in-place holds will be released for all of its sources, and you will no longer be able to put sources on hold for this case.
   
-1. Click **Settings**![Office 365 Settings button](media/a9a59c0f-2e67-4cbf-9438-af273b0d552b.png), and then click **Case Closure**.
+1. Click **Settings**![Office 365 Settings button](/Sharepoint/media/a9a59c0f-2e67-4cbf-9438-af273b0d552b.png), and then click **Case Closure**.
     
 2. Click **Close this case**.
     
