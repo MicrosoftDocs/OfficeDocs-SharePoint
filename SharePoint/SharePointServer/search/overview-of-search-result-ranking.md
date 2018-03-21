@@ -141,7 +141,13 @@ You can specify the following query rule actions for a query rule:
     
   - **Dynamic ordering: promote or demote search results.**
     
-    You can dynamically change the ranking of search results. You can specify when you want to change the ranking of the search results for a query, and by how much, when a certain condition applies. The following table shows the conditions that you can set.
+    You can dynamically change the ranking of search results. You can specify when you want to change the ranking of the search results for a query, and by how much, when a certain condition applies. The table below shows the conditions that you can set.
+    
+
+ 
+  - **Change the ranking model.**
+    
+    You can change which ranking model is used when a query rule fires.
     
 | **Change ranking when:** |                                      **Description**                                       |
 | :----------------------- | :----------------------------------------------------------------------------------------- |
@@ -154,11 +160,7 @@ You can specify the following query rule actions for a query rule:
 | File extension matches   | Matches if the result has the specified file extension.                                    |
 | Result has the tag       | Matches if the result has the specified taxonomy tag as part of its meta-data.             |
 | Manual condition         | Add any restriction using standard query syntax.                                           |
- 
-    - **Change the ranking model.**
-    
-      You can change which ranking model is used when a query rule fires.
-    
+
 For more information, see [Plan to transform queries and order results in SharePoint Server](plan-to-transform-queries-and-order-results.md) and [Manage query rules in SharePoint Server](manage-query-rules.md).
   
 ## Influence the ranking of search results by using the search schema
