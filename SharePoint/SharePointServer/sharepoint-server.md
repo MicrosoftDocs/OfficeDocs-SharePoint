@@ -146,7 +146,7 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server in their ent
                 <div class="card">
                     <div class="cardText">
                         <h3>Install</h3>
-                            <p>**SharePoint Server 2016**</p>
+                            <p>SharePoint Server 2016</p>
                             <ul>
                                <li> 
                                     <p>Large scale farms</p>
@@ -155,7 +155,7 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server in their ent
                                     <p>Small scale farms</p>
                                 </li>
                             </ul>
-                                    <p>**SharePoint Server 2013**</p>
+                                    <p>SharePoint Server 2013</p>
                             <ul>
                                <li> 
                                     <p>Large scale farms</p>
@@ -175,7 +175,7 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server in their ent
                 <div class="card">
                     <div class="cardText">
                         <h3>Upgrade and update</h3>
-                        <p>**SharePoint Server 2016**</p>
+                        <p>SharePoint Server 2016</p>
                             <ul>
                                <li> 
                         <p>Upgrade to a new version of SharePoint</p>
@@ -184,7 +184,7 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server in their ent
                         <p>Apply updates to your existing version</p>
                                 </li>
                             </ul>
-                        <p>**SharePoint Server 2013**</p>
+                        <p>SharePoint Server 2013</p>
                             <ul>
                                <li> 
                         <p>Upgrade to a new version of SharePoint</p>
