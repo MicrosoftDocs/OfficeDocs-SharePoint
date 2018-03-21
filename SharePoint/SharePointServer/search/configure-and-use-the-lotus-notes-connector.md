@@ -60,12 +60,12 @@ The following software is required:
     
 The following table shows combinations of versions of the Lotus Notes Domino server and Lotus Notes client that the Lotus Notes Connector works with.
   
-|||||
-|:-----|:-----|:-----|:-----|
-|This server version  <br/> |With client 6.x  <br/> |With client 7.x  <br/> |With client 8.x  <br/> |
-|Server 6.x  <br/> |YES  <br/> |NO  <br/> |NO  <br/> |
-|Server 7.x  <br/> |NO  <br/> |YES  <br/> |YES  <br/> |
-|Server 8.x  <br/> |NO  <br/> |NO  <br/> |YES  <br/> |
+|                     |                 |                 |                 |
+| :------------------ | :-------------- | :-------------- | :-------------- |
+| This server version | With client 6.x | With client 7.x | With client 8.x |
+| Server 6.x          | YES             | NO              | NO              |
+| Server 7.x          | NO              | YES             | YES             |
+| Server 8.x          | NO              | NO              | YES             |
    
 ### User accounts required to crawl Lotus Domino databases
 <a name="LN_UserAcc"> </a>
@@ -77,10 +77,10 @@ A Domino administrator must grant a Lotus Notes user ID (which represents a Domi
   
 The following table summarizes the user accounts that are required to crawl Lotus Domino databases. 
   
-|**Required account**|**Comment**|**Example**|
-|:-----|:-----|:-----|
-|Windows domain user account  <br/> |The user account that is assigned to the OSearch15 service must also be a member of the Administrators group on the server that hosts the crawl component.  <br/> |Contoso\User1, where Contoso is the domain name and User1 is the name of the Windows domain user account.  <br/> |
-|Lotus Notes user ID  <br/> |The Lotus Notes user ID must be granted at least Reader access on the Lotus Domino databases and on the individual documents that you want to crawl. The Domino certificate also contains this Lotus Notes user ID.  <br/> |User2  <br/> **NOTE:** The name of this account and its password do not have to match the Windows domain user account.  <br/> |
+|    **Required account**     |                                                                                                     **Comment**                                                                                                     |                                                         **Example**                                                         |
+| :-------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------- |
+| Windows domain user account | The user account that is assigned to the OSearch15 service must also be a member of the Administrators group on the server that hosts the crawl component.                                                          | Contoso\User1, where Contoso is the domain name and User1 is the name of the Windows domain user account.                   |
+| Lotus Notes user ID         | The Lotus Notes user ID must be granted at least Reader access on the Lotus Domino databases and on the individual documents that you want to crawl. The Domino certificate also contains this Lotus Notes user ID. | User2  <br/><br/> **NOTE:** The name of this account and its password do not have to match the Windows domain user account. |
    
 More information about this mappings table is provided later in this article, see [Configure security mappings](configure-and-use-the-lotus-notes-connector.md#LN_ConfigSecMap).
   
@@ -122,11 +122,11 @@ Follow this procedure to install the Lotus Notes client application on the serve
     
 ### Features and sub-features required by the Lotus Notes connector
 
-|**Feature**|**Subfeature**|
-|:-----|:-----|
-|Notes Client  <br/> |Client Help Files  <br/> |
-||Domino Enterprise Connection Services (DECS)  <br/> |
-|Domino Designer  <br/> |Designer Help  <br/> |
+|   **Feature**   |                **Subfeature**                |
+| :-------------- | :------------------------------------------- |
+| Notes Client    | Client Help Files                            |
+|                 | Domino Enterprise Connection Services (DECS) |
+| Domino Designer | Designer Help                                |
    
 ## Grant permissions on the data folder
 <a name="LN_GrantPerm"> </a>
@@ -219,13 +219,13 @@ Follow this procedure to verify that the certificate that you installed has acce
 
 Use the information in the following table to help you create the mappings database. 
   
-|**Item**|**Description**|
-|:-----|:-----|
-|Mappings database name  <br/> |Name of the Lotus Domino database that maps Lotus Notes user IDs to Windows domain user accounts.  <br/> |
-|Lotus Notes field name  <br/> |Name of the field in the Lotus Domino database file that stores Lotus Notes user IDs.  <br/> |
-|Windows user field name  <br/> |Name of the field in the Lotus Domino database file that stores Windows user names.  <br/> |
-|Form name  <br/> |Name of the form that stores the **Lotus Notes field name** and **Windows user field name** fields.  <br/> |
-|View name  <br/> |Name of the view for the form that stores the Lotus Notes user IDs to Windows user name mappings.  <br/> **NOTE:** This name is case-sensitive.  <br/> |
+|        **Item**         |                                                                   **Description**                                                                    |
+| :---------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Mappings database name  | Name of the Lotus Domino database that maps Lotus Notes user IDs to Windows domain user accounts.                                                    |
+| Lotus Notes field name  | Name of the field in the Lotus Domino database file that stores Lotus Notes user IDs.                                                                |
+| Windows user field name | Name of the field in the Lotus Domino database file that stores Windows user names.                                                                  |
+| Form name               | Name of the form that stores the **Lotus Notes field name** and **Windows user field name** fields.                                                  |
+| View name               | Name of the view for the form that stores the Lotus Notes user IDs to Windows user name mappings.  <br/><br/> **NOTE:** This name is case-sensitive. |
    
 ### Create the mappings database
 

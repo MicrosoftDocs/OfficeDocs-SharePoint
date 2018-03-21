@@ -88,12 +88,12 @@ The following steps provide a high-level overview of the tasks that are involved
 
 [Configure the Indexing Connector for Documentum](configure-and-use-the-documentum-connector.md#DCTM_ConfigureConn) on each SharePoint server in the farm that hosts a crawl component by using the Indexing Connector for Documentum PowerShell cmdlet. Choose one of the following configurations: 
   
-|**Configuration**|**ACL Translation**|**Description**|**See this section**|
-|:-----|:-----|:-----|:-----|
-|Support crawling EMC Documentum Trusted Content Services (TCS) content or regular Documentum content with automatic user mapping.  <br/> |Claims  <br/> |You enable automatic user mapping by configuring a separate Security Trimmer Sync Service and pre- and post-trimmers.  <br/> |[Configure the Indexing Connector for Documentum to support TCS and automatic user mapping](configure-and-use-the-documentum-connector.md#DCTM_Configure_TCS) <br/> |
-|Support crawling Documentum content and use a manually created user mapping table.  <br/> |UserMappingTable  <br/> |You manually create a user mapping table in SQL Server to specify how the Documentum users are mapped to Active Directory Domain Services (AD DS) or Active Directory service users. You configure the connector by specifying in which database you have created the user mapping table by using Microsoft PowerShell.  <br/> |[Configure the Indexing Connector for Documentum using a user mapping table](configure-and-use-the-documentum-connector.md#DCTM_UserMapping) <br/> |
-|Support crawling Documentum content when Documentum and Windows user accounts are the same.  <br/> |SameAccountName  <br/> |The Indexing Connector for Documentum assumes that Documentum and SharePoint users share the same account, such as a shared account in Active Directory. Once an account is found that is not valid, the Indexing Connector for Documentum discards the account permission.  <br/> |[Using the SPEnterpriseSearchDCTMConnectorConfig cmdlet](configure-and-use-the-documentum-connector.md#DCTM_cmdlet) <br/> |
-|Support crawling Documentum content without security trimming the search results.  <br/> |NoSecurity  <br/> |All users will be able to see all Documentum search results. This can be useful if you have a public Documentum repository that everyone can access, for example.  <br/> |[Using the SPEnterpriseSearchDCTMConnectorConfig cmdlet](configure-and-use-the-documentum-connector.md#DCTM_cmdlet) <br/> |
+|                                                         **Configuration**                                                         | **ACL Translation** |                                                                                                                                                     **Description**                                                                                                                                                     |                                                                     **See this section**                                                                      |
+| :-------------------------------------------------------------------------------------------------------------------------------- | :------------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Support crawling EMC Documentum Trusted Content Services (TCS) content or regular Documentum content with automatic user mapping. | Claims              | You enable automatic user mapping by configuring a separate Security Trimmer Sync Service and pre- and post-trimmers.                                                                                                                                                                                                   | [Configure the Indexing Connector for Documentum to support TCS and automatic user mapping](configure-and-use-the-documentum-connector.md#DCTM_Configure_TCS) |
+| Support crawling Documentum content and use a manually created user mapping table.                                                | UserMappingTable    | You manually create a user mapping table in SQL Server to specify how the Documentum users are mapped to Active Directory Domain Services (AD DS) or Active Directory service users. You configure the connector by specifying in which database you have created the user mapping table by using Microsoft PowerShell. | [Configure the Indexing Connector for Documentum using a user mapping table](configure-and-use-the-documentum-connector.md#DCTM_UserMapping)                  |
+| Support crawling Documentum content when Documentum and Windows user accounts are the same.                                       | SameAccountName     | The Indexing Connector for Documentum assumes that Documentum and SharePoint users share the same account, such as a shared account in Active Directory. Once an account is found that is not valid, the Indexing Connector for Documentum discards the account permission.                                             | [Using the SPEnterpriseSearchDCTMConnectorConfig cmdlet](configure-and-use-the-documentum-connector.md#DCTM_cmdlet)                                           |
+| Support crawling Documentum content without security trimming the search results.                                                 | NoSecurity          | All users will be able to see all Documentum search results. This can be useful if you have a public Documentum repository that everyone can access, for example.                                                                                                                                                       | [Using the SPEnterpriseSearchDCTMConnectorConfig cmdlet](configure-and-use-the-documentum-connector.md#DCTM_cmdlet)                                           |
    
 ### 4. Configure a Documentum crawl rule and content source in the Search service application by using Central Administration
 
@@ -263,39 +263,39 @@ The Security Trimmer Sync Service maps Documentum users to AD users by looking a
     
 ### To set up the Security Trimming Sync Service
 
-1. Open the file Microsoft.Office.Server.Search.Connector.Documentum.TrimmerSync.exe.config. This file is stored in the folder where you have installed the Indexing Connector for Documentum connector. The default location is  `%CommonProgramFiles%\Microsoft Shared\Web Server Extensions\15\CONFIG\SearchConnectors\Documentum`.
+1. Open the file Microsoft.Office.Server.Search.Connector.Documentum.TrimmerSync.exe.config. This file is stored in the folder where you have installed the Indexing Connector for Documentum connector. The default location is  `%CommonProgramFiles%\Microsoft Shared\Web Server Extensions\15\CONFIG\SearchConnectors\Documentum`
     
 2. Using the same information that you provided when you configured the Indexing Connector for Documentum, edit the configuration file as follows.
     
   - In the **Emc.Documentum** section, in the **ModuleInfo** element, do the following: 
     
-  - In the **host** attribute, type the host name of the Documentum server. 
+    - In the **host** attribute, type the host name of the Documentum server. 
     
-  - In the **port** attribute, type the port number of the Documentum server. 
+    - In the **port** attribute, type the port number of the Documentum server. 
     
   - In the **Data Source: Documentum Settings** section, in the **Repositories** element, do the following: 
     
-  - In the **repository id** attribute, type the Documentum repository id. 
+    - In the **repository id** attribute, type the Documentum repository id. 
     
-  - In the **name** attribute, type the name of the Documentum repository. 
+    - In the **name** attribute, type the name of the Documentum repository. 
     
-  - In the **login** attribute, type the Documentum login name. Use the same login name as the Documentum content access account. This should be a user who has elevated user permissions on the Documentum Content Server. For more information, see [Determine which Documentum content access account to use](configure-and-use-the-documentum-connector.md#DCTM_ContentAccess).
+    - In the **login** attribute, type the Documentum login name. Use the same login name as the Documentum content access account. This should be a user who has elevated user permissions on the Documentum Content Server. For more information, see [Determine which Documentum content access account to use](configure-and-use-the-documentum-connector.md#DCTM_ContentAccess).
     
-  - In the **dfs** attribute, type the location of the Documentum Foundation Services (DFS) by providing the URI for the DFS. 
+    - In the **dfs** attribute, type the location of the Documentum Foundation Services (DFS) by providing the URI for the DFS. 
     
   - (Optional) If your Documentum connection requires SSL/HTTPS, you have to change the security mode. 
     
-  - In the **Data Source: Documentum Settings** section, subsection **Documentum**, in the **basicHttpBinding** element, set the security mode attribute from  _None_ to  _Transport_ for the following bindings: 
+    - In the **Data Source: Documentum Settings** section, subsection **Documentum**, in the **basicHttpBinding** element, set the security mode attribute from  _None_ to  _Transport_ for the following bindings: 
     
-  - **DfsAgentService**
+      - **DfsAgentService**
     
-  - **DfsContextRegistryService**
+      - **DfsContextRegistryService**
     
-  - **DfsDefaultService**
+      - **DfsDefaultService**
     
-  - In the **Data Source: Documentum Settings** section, subsection **Documentum**, in the **netNamedPipeBinding** element, set the security mode attribute from  _None_ to  _Transport_ for the following bindings: 
+    - In the **Data Source: Documentum Settings** section, subsection **Documentum**, in the **netNamedPipeBinding** element, set the security mode attribute from  _None_ to  _Transport_ for the following bindings: 
     
-  - **localNamedPipeBinding**
+      - **localNamedPipeBinding**
     
 3. Save and close the file. 
     
@@ -303,13 +303,13 @@ The Security Trimmer Sync Service maps Documentum users to AD users by looking a
     
   - Locate the following DFS Productivity Layer .NET assemblies and verify that the version number is **6.7.2000.36** for all files. When extracted to the default path, these files are located in the  `%local%\emc-dfs-sdk-6.7\emc-dfs-sdk-6.7\lib\dotnet` directory. 
     
-  - Emc.Documentum.FS.DataModel.Core.dll
+    - Emc.Documentum.FS.DataModel.Core.dll
     
-  - Emc.Documentum.FS.DataModel.Shared.dll
+    - Emc.Documentum.FS.DataModel.Shared.dll
     
-  - Emc.Documentum.FS.runtime.dll
+    - Emc.Documentum.FS.runtime.dll
     
-  - Emc.Documentum.FS.Services.Core.dll
+    - Emc.Documentum.FS.Services.Core.dll
     
   - On the server that hosts the Security Trimming Sync Service, log on with an account that is a member of the Administrators group on that server and deploy the DFS Productivity Layer .NET assemblies to the global assembly cache  `%windir%\assembly`.
     
@@ -344,9 +344,9 @@ The Security Trimmer Sync Service maps Documentum users to AD users by looking a
     
   - Run the command **Microsoft.Office.Server.Search.Connector.Documentum.TrimmerSync.exe -d** to write the Security Trimming Sync Service memory to a text file. 
     
-  - Verify that the Security Trimming Sync Service connects to the Documentum server. Read the file DCTMSecuritySync.log that is located in the directory  `<Microsoft Office Server path>\15.0\Data\Office Server\Applications\Search\Nodes`. 
+  - Verify that the Security Trimming Sync Service connects to the Documentum server. Read the file DCTMSecuritySync.log that is located in the directory  `<Microsoft Office Server path>\15.0\Data\Office Server\Applications\Search\Nodes` 
     
-  - Verify that the membership information from the Documentum server is written to the file DCTMSecuritySync_Dump.txt that is located in the directory  `<Microsoft Office Server path>\15.0\Data\Office Server\Applications\Search\Nodes`.
+  - Verify that the membership information from the Documentum server is written to the file DCTMSecuritySync_Dump.txt that is located in the directory  `<Microsoft Office Server path>\15.0\Data\Office Server\Applications\Search\Nodes`
     
 Before you can add the pre- and post- security trimmers, you must add one simple crawl rule for Documentum. Later, you can further specify or expand the crawl rules. 
   
@@ -413,12 +413,12 @@ The following procedures explain how to manually create a user mapping table tha
 
 First, create a user mapping table in SQL Server 2008 or a later version. The user mapping table must have the following format: 
   
-|**Column name**|**SQL datatype**|**Description**|
-|:-----|:-----|:-----|
-|DCTMCredentialDomain  <br/> |nvarchar(255) NOT NULL  <br/> |Domain name of a Documentum account. Populate this column when the account comes from the local computer or an LDAP system. The  *User Source*  property of the Documentum account should equal  *None*  or  *LDAP*  . Otherwise, leave the column empty.  <br/> |
-|DCTMCredentialRepository  <br/> |nvarchar (32) NOT NULL  <br/> |Repository name of a Documentum account. Populate this column when the account comes from a Documentum repository.  <br/> |
-|DCTMCredentialLoginName  <br/> |nvarchar (80) NOT NULL  <br/> |Login name of the Documentum account.  <br/> |
-|NTCredential  <br/> |nvarchar (255) NOT NULL  <br/> |Windows domain user account that searches Documentum contents in SharePoint Server 2016.  <br/> |
+|     **Column name**      |    **SQL datatype**     |                                                                                                                      **Description**                                                                                                                      |
+| :----------------------- | :---------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| DCTMCredentialDomain     | nvarchar(255) NOT NULL  | Domain name of a Documentum account. Populate this column when the account comes from the local computer or an LDAP system. The  *User Source*  property of the Documentum account should equal  *None*  or  *LDAP*  . Otherwise, leave the column empty. |
+| DCTMCredentialRepository | nvarchar (32) NOT NULL  | Repository name of a Documentum account. Populate this column when the account comes from a Documentum repository.                                                                                                                                        |
+| DCTMCredentialLoginName  | nvarchar (80) NOT NULL  | Login name of the Documentum account.                                                                                                                                                                                                                     |
+| NTCredential             | nvarchar (255) NOT NULL | Windows domain user account that searches Documentum contents in SharePoint Server 2016.                                                                                                                                                                  |
    
 Use the following script to create a user mapping table:
   
@@ -443,12 +443,12 @@ Example:
   
 A Documentum repository user Dan Park has a logon that is linked to the Finance repository. Dan's Windows domain user account is Contoso\dpark. In this case, the user mapping table entry for Dan should be:
   
-|||
-|:-----|:-----|
-|DCTMCredentialDomain  <br/> |''  <br/> |
-|DCTMCredentialRepository  <br/> |Finance  <br/> |
-|DCTMCredentialLogonName  <br/> |dpark  <br/> |
-|NTCredential  <br/> |Contoso\dpark  <br/> |
+|                          |               |
+| :----------------------- | :------------ |
+| DCTMCredentialDomain     | ''            |
+| DCTMCredentialRepository | Finance       |
+| DCTMCredentialLogonName  | dpark         |
+| NTCredential             | Contoso\dpark |
    
 > [!NOTE]
 > If any cells have no value assigned, they cannot be **null** or empty. You must assign the following empty string value:  `''`. > For each Documentum group there must be a Windows NT group in the user mapping table and they must both contain the same user information. 
@@ -536,7 +536,9 @@ Before a crawl, you must create at least one crawl rule to authenticate the craw
 7. Click **OK** to add the crawl rule. 
     
     > [!NOTE]
-    >  You can create multiple crawl rules for Documentum to include or exclude Documentum content. >  You can use different crawl rules to specify different content access accounts for different Documentum content. For example, you have two repositories and two content access accounts for each repository. The Documentum content access account specified in a crawl rule will only be applied to Documentum content covered by the path in that crawl rule. If you use the Security Trimming Sync Service, you must set up this service for each Documentum server. 
+    >  You can create multiple crawl rules for Documentum to include or exclude Documentum content. 
+    > 
+    >  You can use different crawl rules to specify different content access accounts for different Documentum content. For example, you have two repositories and two content access accounts for each repository. The Documentum content access account specified in a crawl rule will only be applied to Documentum content covered by the path in that crawl rule. If you use the Security Trimming Sync Service, you must set up this service for each Documentum server. 
   
 ## Create a Documentum content source
 <a name="DCTM_Content_source"> </a>
@@ -580,12 +582,12 @@ SharePoint Server supports scalable architecture for performance scale-out. You 
 
 The format to refer to a Documentum object that you use for the path (when you set up a crawl rule) and the start address (when you set up a content source) is defined in the following table:
   
-|**Type of Documentum object**|**Syntax for the path or the start address**|
-|:-----|:-----|
-|Repository  <br/> |dctm://\<clientapphostname\>/\<repository name\>  <br/> |
-|Cabinet  <br/> |dctm://\<clientapphostname\>/\<repository name\>/\<cabinet name\>  <br/> |
-|Folder  <br/> |dctm://\<clientapphostname\>/\<repository name\>/\<cabinet name\>/\<folder name\>  <br/> |
-|Document  <br/> |dctm://\<clientapphostname\>/\<repository name\>/\<cabinet name\>/\<folder name\>/…/\<folder name\>?DocSysID=\<r_object_id\> (where r_object_id is the object id of that document)  <br/> |
+| **Type of Documentum object** |                                                                       **Syntax for the path or the start address**                                                                        |
+| :---------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Repository               | dctm://\<clientapphostname\>/\<repository name\>                                                                                                                                     |
+| Cabinet                  | dctm://\<clientapphostname\>/\<repository name\>/\<cabinet name\>                                                                                                                    |
+| Folder                   | dctm://\<clientapphostname\>/\<repository name\>/\<cabinet name\>/\<folder name\>                                                                                                    |
+| Document                 | dctm://\<clientapphostname\>/\<repository name\>/\<cabinet name\>/\<folder name\>/…/\<folder name\>?DocSysID=\<r_object_id\> (where r_object_id is the object id of that document)  |
    
  *\<clientapphostname\>*  is the host name of your Documentum client application such as Webtop or DA. The  *\<clientapphostname\>*  configured here must be the same as the one that is used in the content source.  *\<repository name\>*  ,  *\<cabinet name\>*  , and  *\<folder name\>*  are case-sensitive. 
   
@@ -602,19 +604,16 @@ The Set-SPEnterpriseSearchDCTMConnectorConfig cmdlet accepts three parameter set
   
 The following table shows which parameters are mandatory and which are optional. For parameter descriptions and examples, see [Set-SPEnterpriseSearchDCTMConnectorConfig](http://technet.microsoft.com/library/639f678a-00bd-4866-a6a0-f178e2761ea8.aspx).
   
-|**Action**|**Mandatory parameters**|**Optional parameters**|
-|:-----|:-----|:-----|
-|Configure shared repository settings  <br/> |Shared  <br/> |DFSURL, UserMappingTableSQLServer, UserMappingTableSQLInstance, UserMappingTableDBName, UserMappingTableName, ACLTranslation, UnmappedAccount, DisplayURLPatternForDocument, DisplayURLPatternForContainer.  <br/> |
-|Configure settings for a specific repository  <br/> |Repository, RepositoryName  <br/> |DFSWebServiceURL, IndexAllVersions, ACLTranslation, UnmappedAccount, DisplayURLPatternForDocument, DisplayURLPatternForContainer.  <br/> |
-|Remove a repository from configuration  <br/> |Remove, RepositoryName  <br/> ||
+|                  **Action**                  |  **Mandatory parameters**  |                                                                                           **Optional parameters**                                                                                           |
+| :------------------------------------------- | :------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Configure shared repository settings         | Shared                     | DFSURL, UserMappingTableSQLServer, UserMappingTableSQLInstance, UserMappingTableDBName, UserMappingTableName, ACLTranslation, UnmappedAccount, DisplayURLPatternForDocument, DisplayURLPatternForContainer. |
+| Configure settings for a specific repository | Repository, RepositoryName | DFSWebServiceURL, IndexAllVersions, ACLTranslation, UnmappedAccount, DisplayURLPatternForDocument, DisplayURLPatternForContainer.                                                                           |
+| Remove a repository from configuration       | Remove, RepositoryName     |                                                                                                                                                                                                             |
    
 ## See also
 <a name="DCTM_cmdlet"> </a>
 
-#### Concepts
-
 [Supported and unsupported Documentum object types and properties in SharePoint Server](../technical-reference/supported-and-unsupported-documentum-object-types-and-properties.md)
-#### Other Resources
 
 [Set-SPEnterpriseSearchDCTMConnectorConfig](http://technet.microsoft.com/library/639f678a-00bd-4866-a6a0-f178e2761ea8.aspx)
 
