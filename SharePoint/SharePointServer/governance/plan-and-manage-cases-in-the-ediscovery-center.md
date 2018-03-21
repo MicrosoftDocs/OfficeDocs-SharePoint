@@ -54,7 +54,7 @@ If you anticipate managing multiple cases in your eDiscovery Center, consider wh
     
 - Close case
     
-[Electronic Discovery, or eDiscovery, is the discovery of content in electronic format for litigation or investigation. This typically requires identifying content spread across laptops, email servers, file servers, and many other sources. The eDiscovery Center is a SharePoint site collection used to perform electronic discovery actions. In an eDiscovery Center, you can create cases, which are SharePoint sites that allow you to identify, hold, search, and export content from SharePoint sites, and searchable file shares.Once you add content sources or queries to an eDiscovery case, changing the regional settings for the site is not supported.In order for content to be discovered, it must be crawled by search. For more information about the default file types that are crawled, see the article Default crawled file name extensions and parsed file types in SharePoint Server 2013https://technet.microsoft.com/en-us/library/jj219530.aspx.](plan-and-manage-cases-in-the-ediscovery-center.md#__top)
+
   
 ## Create a case
 <a name="__toc329025355"> </a>
@@ -100,7 +100,6 @@ If you anticipate managing multiple cases in your eDiscovery Center, consider wh
     
 For more information, see [Add content to a case and place sources on hold in the eDiscovery Center](https://support.office.com/article/54d70de9-1ec2-4325-84f3-aeb588554479).
   
-[Electronic Discovery, or eDiscovery, is the discovery of content in electronic format for litigation or investigation. This typically requires identifying content spread across laptops, email servers, file servers, and many other sources. The eDiscovery Center is a SharePoint site collection used to perform electronic discovery actions. In an eDiscovery Center, you can create cases, which are SharePoint sites that allow you to identify, hold, search, and export content from SharePoint sites, and searchable file shares.Once you add content sources or queries to an eDiscovery case, changing the regional settings for the site is not supported.In order for content to be discovered, it must be crawled by search. For more information about the default file types that are crawled, see the article Default crawled file name extensions and parsed file types in SharePoint Server 2013https://technet.microsoft.com/en-us/library/jj219530.aspx.](plan-and-manage-cases-in-the-ediscovery-center.md#__top)
   
 ## Run queries and export content
 <a name="__toc329025357"> </a>
@@ -109,14 +108,13 @@ Once you have defined your sources, and placed them on hold if necessary, you ca
   
 You export content from a case when you are ready to deliver it to an authority or want to work on it with another legal program. The content is exported in a format that is compatible with the Electronic Discovery Reference Model standard. 
   
-[Electronic Discovery, or eDiscovery, is the discovery of content in electronic format for litigation or investigation. This typically requires identifying content spread across laptops, email servers, file servers, and many other sources. The eDiscovery Center is a SharePoint site collection used to perform electronic discovery actions. In an eDiscovery Center, you can create cases, which are SharePoint sites that allow you to identify, hold, search, and export content from SharePoint sites, and searchable file shares.Once you add content sources or queries to an eDiscovery case, changing the regional settings for the site is not supported.In order for content to be discovered, it must be crawled by search. For more information about the default file types that are crawled, see the article Default crawled file name extensions and parsed file types in SharePoint Server 2013https://technet.microsoft.com/en-us/library/jj219530.aspx.](plan-and-manage-cases-in-the-ediscovery-center.md#__top)
   
 ## Close cases
 <a name="__toc329025357"> </a>
 
 When you close a case, in-place holds will be released for all of its sources, and you will no longer be able to put sources on hold for this case.
   
-1. Click **Settings**![Office 365 Settings button](media/a9a59c0f-2e67-4cbf-9438-af273b0d552b.png), and then click **Case Closure**.
+1. Click **Settings**![Office 365 Settings button](/Sharepoint/media/a9a59c0f-2e67-4cbf-9438-af273b0d552b.png), and then click **Case Closure**.
     
 2. Click **Close this case**.
     
@@ -139,6 +137,5 @@ For more information about eDiscovery cases, see the following articles:
   
 [Export content and create reports in the eDiscovery Center](https://support.office.com/article/7b2ea190-5f9b-4876-86e5-4440354c381a)
   
-[Electronic Discovery, or eDiscovery, is the discovery of content in electronic format for litigation or investigation. This typically requires identifying content spread across laptops, email servers, file servers, and many other sources. The eDiscovery Center is a SharePoint site collection used to perform electronic discovery actions. In an eDiscovery Center, you can create cases, which are SharePoint sites that allow you to identify, hold, search, and export content from SharePoint sites, and searchable file shares.Once you add content sources or queries to an eDiscovery case, changing the regional settings for the site is not supported.In order for content to be discovered, it must be crawled by search. For more information about the default file types that are crawled, see the article Default crawled file name extensions and parsed file types in SharePoint Server 2013https://technet.microsoft.com/en-us/library/jj219530.aspx.](plan-and-manage-cases-in-the-ediscovery-center.md#__top)
-  
+
 
