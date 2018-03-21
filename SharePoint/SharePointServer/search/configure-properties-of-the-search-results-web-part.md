@@ -77,9 +77,9 @@ By changing the properties and query in the Search Results Web Part you can you 
     
       - People (peopleresults.aspx): **Local People Results (System)**
     
-     - Conversations (conversationresults.aspx): **Conversations (System)**
+      - Conversations (conversationresults.aspx): **Conversations (System)**
     
-     - Videos (videoresults.aspx): **Local Video Results (System)**
+      - Videos (videoresults.aspx): **Local Video Results (System)**
     
     - **Keyword filter**
     
@@ -129,9 +129,9 @@ By changing the properties and query in the Search Results Web Part you can you 
     
         Search results will be limited to content that is tagged with the term of the current page (displayed as the last part of the friendly URL), and content that is tagged with sub-terms of the current page. This option is only meaningful for sites that use managed navigation.
     
-     - **Restrict on this tag**
+      - **Restrict on this tag**
     
-       Search results will be limited to content that is tagged with the tag that you type inside the box. 
+        Search results will be limited to content that is tagged with the tag that you type inside the box. 
     
     **Note:** When you switch to from Quick Mode to Advanced Mode, the result source that you selected from **Select a query** is replaced by a different result source. This result source could affect the search results. Therefore, make sure that you check the search results that are displayed in the **SEARCH RESULT PREVIEW** section, and add query configuration in the **Query text** field if you need to. 
     
