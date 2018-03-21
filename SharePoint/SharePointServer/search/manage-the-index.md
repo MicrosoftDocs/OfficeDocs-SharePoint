@@ -18,7 +18,7 @@ description: "Summary:Learn how to manage collection of content in the search in
   
 The following articles describe how you can manage the search index .
   
-## Articles about managing search relevance
+## Articles about managing the search index
 
 The following articles about managing the search index in SharePoint Server 2016 are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
   

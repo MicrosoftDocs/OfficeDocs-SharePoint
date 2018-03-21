@@ -287,7 +287,7 @@ SharePoint Server provides the following reports about crawl health:
     
   - SQL Time
     
-    You can filter this report by:
+  You can filter this report by:
     
   - Start date/time
     
@@ -367,7 +367,7 @@ SharePoint Server provides the following reports about crawl health:
     
   - Timer
     
-   You can filter this report by:
+  You can filter this report by:
     
   - Machine
     

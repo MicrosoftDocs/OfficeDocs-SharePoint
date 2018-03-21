@@ -162,37 +162,37 @@ If the import fails, remove the condition that caused the failure and reimport t
 
 If managed properties or aliases contain any of the listed characters, the import of the customized search schema that contains these properties will fail.
   
-| **Character** |       **Name**        |      |
-| :------------ | :-------------------- | ---- |
-|               | space                 |      |
-| :             | colon                 |      |
-| ;             | semicolon             |      |
-| ,             | comma                 |      |
-| (             | opening parenthesis   |      |
-| )             | closing parenthesis   |      |
-| [             | opening bracket       |      |
-| ]             | closing bracket       |      |
-| {             | opening brace         |      |
-| }             | closing brace         |      |
-| %             | percent               |      |
-| $             | dollar sign           |      |
-| _             | underscore            |      |
-| +             | plus sign             |      |
-| !             | exclamation point     |      |
-| \*            | asterisk              |      |
-| =             | equal sign            |      |
-| &amp;         | ampersand             |      |
-| ?             | question mark         |      |
-| @             | at sign               |      |
-| #             | number sign           |      |
-| \             | backslash             |      |
-| ~             | tilde                 |      |
-| \<            | opening angle bracket |      |
-| \>            | closing angle bracket |      |
-|               |                       | pipe |
-| `             | grave accent          |      |
-| ^             | caret                 |      |
-| \'            | escape sequence       |      |
-| \"            | escape sequence       |      |
+| **Character** |       **Name**        |
+| :------------ | :-------------------- |
+|               | space                 |
+| :             | colon                 |
+| ;             | semicolon             |
+| ,             | comma                 |
+| (             | opening parenthesis   |
+| )             | closing parenthesis   |
+| [             | opening bracket       |
+| ]             | closing bracket       |
+| {             | opening brace         |
+| }             | closing brace         |
+| %             | percent               |
+| $             | dollar sign           |
+| _             | underscore            |
+| +             | plus sign             |
+| !             | exclamation point     |
+| \*            | asterisk              |
+| =             | equal sign            |
+| &amp;         | ampersand             |
+| ?             | question mark         |
+| @             | at sign               |
+| #             | number sign           |
+| \             | backslash             |
+| ~             | tilde                 |
+| \<            | opening angle bracket |
+| \>            | closing angle bracket |
+| \|            | pipe                  |
+| `             | grave accent          |
+| ^             | caret                 |
+| \'            | escape sequence       |
+| \"            | escape sequence       |
    
 
