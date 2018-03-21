@@ -67,71 +67,71 @@ By changing the properties and query in the Search Results Web Part you can you 
     
   - To define your query by using Keyword Query Language (KQL), select options as described in the following list:
     
-  - **Select a query**
+    - **Select a query**
     
-    Select a result source to specify which content should be searched.
+      Select a result source to specify which content should be searched.
     
-    By default, the following result sources are set for the different search vertical pages:
+      By default, the following result sources are set for the different search vertical pages:
     
-  - Everything (results.aspx): **Local SharePoint Results (System)**
+      - Everything (results.aspx): **Local SharePoint Results (System)**
     
-  - People (peopleresults.aspx): **Local People Results (System)**
+      - People (peopleresults.aspx): **Local People Results (System)**
     
-  - Conversations (conversationresults.aspx): **Conversations (System)**
+     - Conversations (conversationresults.aspx): **Conversations (System)**
     
-  - Videos (videoresults.aspx): **Local Video Results (System)**
+     - Videos (videoresults.aspx): **Local Video Results (System)**
     
-  - **Keyword filter**
+    - **Keyword filter**
     
-    You can use keyword filters to add query variables to your query. For a list of available query variables,see [Query variables in SharePoint Server](../technical-reference/query-variables.md). 
+      You can use keyword filters to add query variables to your query. For a list of available query variables,see [Query variables in SharePoint Server](../technical-reference/query-variables.md). 
     
-    You can select pre-defined query variables from the drop-down list, and then add them to the query by clicking **Add keyword filter**.
+      You can select pre-defined query variables from the drop-down list, and then add them to the query by clicking **Add keyword filter**.
     
-  - **Property filter**
+    - **Property filter**
     
-    You can use property filters to query the content of managed properties that are set to  *queryable*  in the search schema. 
+      You can use property filters to query the content of managed properties that are set to  *queryable*  in the search schema. 
     
-    You can select managed properties from the **Property filter** drop-down list. Click **Add property filter** to add the filter to the query. 
+      You can select managed properties from the **Property filter** drop-down list. Click **Add property filter** to add the filter to the query. 
     
-  - **Query text**
+    - **Query text**
     
-    By default, the query variable {searchboxquery} is defined for this field. You can change the query text by using KQL. For more information about KQL, see [Keyword Query Language (KQL) syntax reference](https://msdn.microsoft.com/en-us/library/ee558911%28v=office.15%29.aspx). Alternatively you can use the **Keyword filter** and **Property filter** lists to build the query. 
+      By default, the query variable {searchboxquery} is defined for this field. You can change the query text by using KQL. For more information about KQL, see [Keyword Query Language (KQL) syntax reference](https://msdn.microsoft.com/en-us/library/ee558911%28v=office.15%29.aspx). Alternatively you can use the **Keyword filter** and **Property filter** lists to build the query. 
     
-    The keyword query can consist of free-text keywords, property filters, or operators. Use braces to enclose query variables. The query variables will be replaced with an actual value when the query is run.
+      The keyword query can consist of free-text keywords, property filters, or operators. Use braces to enclose query variables. The query variables will be replaced with an actual value when the query is run.
     
-    Keyword queries have a maximum length of 2,048 characters.
+      Keyword queries have a maximum length of 2,048 characters.
     
   - To define your query by using pre-defined variables, click **Switch to Quick Mode**. Select options as described in the following list:
     
-  - **Select a query**
+    - **Select a query**
     
-    Select a result source to specify which content should be searched. If you have shared a document library or list as catalog, the catalog result source will be displayed in this drop-down list.
+      Select a result source to specify which content should be searched. If you have shared a document library or list as catalog, the catalog result source will be displayed in this drop-down list.
     
-  - **Restrict by app**
+    - **Restrict by app**
     
-    Select an option from the list to restrict results to a specific site, library, list, or URL.
+      Select an option from the list to restrict results to a specific site, library, list, or URL.
     
-  - **Restrict by tag**
+    - **Restrict by tag**
     
-    You can limit results to content that is tagged with a term from a term set.
+      You can limit results to content that is tagged with a term from a term set.
     
-    Select one of the following options:
+      Select one of the following options:
     
-  - **Don't restrict by any tag**
+      - **Don't restrict by any tag**
     
-    Search results will not be limited based on tags (default).
+        Search results will not be limited based on tags (default).
     
-  - **Restrict by navigation term of current page**
+      - **Restrict by navigation term of current page**
     
-    Search results will be limited to content that is tagged with the term of the current page. The current tag is displayed as the last part of the friendly URL. This option is only meaningful for sites that use managed navigation.
+        Search results will be limited to content that is tagged with the term of the current page. The current tag is displayed as the last part of the friendly URL. This option is only meaningful for sites that use managed navigation.
     
-  - **Restrict by current and child navigation**
+      - **Restrict by current and child navigation**
     
-    Search results will be limited to content that is tagged with the term of the current page (displayed as the last part of the friendly URL), and content that is tagged with sub-terms of the current page. This option is only meaningful for sites that use managed navigation.
+        Search results will be limited to content that is tagged with the term of the current page (displayed as the last part of the friendly URL), and content that is tagged with sub-terms of the current page. This option is only meaningful for sites that use managed navigation.
     
-  - **Restrict on this tag**
+     - **Restrict on this tag**
     
-    Search results will be limited to content that is tagged with the tag that you type inside the box. 
+       Search results will be limited to content that is tagged with the tag that you type inside the box. 
     
     **Note:** When you switch to from Quick Mode to Advanced Mode, the result source that you selected from **Select a query** is replaced by a different result source. This result source could affect the search results. Therefore, make sure that you check the search results that are displayed in the **SEARCH RESULT PREVIEW** section, and add query configuration in the **Query text** field if you need to. 
     
@@ -143,19 +143,19 @@ By changing the properties and query in the Search Results Web Part you can you 
     
     In the **Sort by** drop-down list: 
     
-1. Select a managed property from the list of managed properties that are set as sortable in the search schema, and then select **Descending** or **Ascending**. To add more sorting levels, click **Add sort level**.
+  1. Select a managed property from the list of managed properties that are set as sortable in the search schema, and then select **Descending** or **Ascending**. To add more sorting levels, click **Add sort level**.
     
-    > [!NOTE]
-    > Sorting of search results is case sensitive. 
+      > [!NOTE]
+      > Sorting of search results is case sensitive. 
   
-    > [!IMPORTANT]
-    > If your result source contains sorting, you should not specify sorting in the Search Results Web Part. This is because the sorting in the result source overrides the sorting that you specify in the Search Results Web Part. 
+      > [!IMPORTANT]
+      > If your result source contains sorting, you should not specify sorting in the Search Results Web Part. This is because the sorting in the result source overrides the sorting that you specify in the Search Results Web Part. 
   
-2. Select **Rank** to sort by relevance rank. You can then specify which ranking model to use or specify dynamic ordering rules. 
+  2. Select **Rank** to sort by relevance rank. You can then specify which ranking model to use or specify dynamic ordering rules. 
     
-  - (Optional) Select which ranking model to use for sorting in the **Ranking Model** list. 
+      - (Optional) Select which ranking model to use for sorting in the **Ranking Model** list. 
     
-  - Under **Dynamic ordering**, you can specify additional ranking by adding rules that will change the order of results when certain conditions apply. Click **Add dynamic ordering rule**, and then specify conditional rules.
+      - Under **Dynamic ordering**, you can specify additional ranking by adding rules that will change the order of results when certain conditions apply. Click **Add dynamic ordering rule**, and then specify conditional rules.
     
 8. On the **SETTINGS** tab, specify the settings that are listed in the following list. 
     
@@ -177,7 +177,7 @@ By changing the properties and query in the Search Results Web Part you can you 
     
      Shows the final query that will be run by the Search Results Web Part. It is based on the original query template where dynamic variables are substituted with current values. Other changes to the query may be made as part of a query rule. 
     
-    Click **Show more** to display additional information. 
+  Click **Show more** to display additional information. 
     
   - **Query template**
     
@@ -195,11 +195,11 @@ By changing the properties and query in the Search Results Web Part you can you 
     
     Shows which query rules are applied to the query.
     
-    The **Query template variables** section shows the query variables that will be applied to the query, and the values of the variables that apply to the current page. You can type other values to test the effect they will have on the query. Click the **Test Query** button to preview the search results. 
+  The **Query template variables** section shows the query variables that will be applied to the query, and the values of the variables that apply to the current page. You can type other values to test the effect they will have on the query. Click the **Test Query** button to preview the search results. 
     
-    You can also test how the query works for different user segment terms. Click **Add user segment term** to add terms to be added to the query. 
+  You can also test how the query works for different user segment terms. Click **Add user segment term** to add terms to be added to the query. 
     
-    Click the **Test query** button to preview the search results. 
+  Click the **Test query** button to preview the search results. 
     
   - Query text
     
@@ -288,14 +288,11 @@ Stemming means that nouns and adjectives in a query are expanded to different po
 ## See also
 <a name="BKMK_DisableStemming"> </a>
 
-#### Concepts
-
 [Query variables in SharePoint Server](../technical-reference/query-variables.md)
   
 [Configure result sources for search in SharePoint Server](configure-result-sources-for-search.md)
   
 [Plan to transform queries and order results in SharePoint Server](plan-to-transform-queries-and-order-results.md)
-#### Other Resources
 
 [Blog series: How to change the way search results are displayed in SharePoint Server 2013](https://blogs.technet.com/b/tothesharepoint/archive/2013/09/03/how-to-change-the-way-search-results-are-displayed-in-sharepoint-server-2013.aspx)
 

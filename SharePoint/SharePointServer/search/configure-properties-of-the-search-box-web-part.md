@@ -32,16 +32,11 @@ By default, the Search Box Web Part is used on the home page for the Search Cent
 
 > [!NOTE]
 > Because SharePoint Server runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server supports the accessibility features of supported browsers. For more information, see the following resources: 
-  
-- [Plan browser support](https://go.microsoft.com/fwlink/p/?LinkId=246502)
-    
-- [Accessibility for SharePoint 2013](http://technet.microsoft.com/library/94ad4316-1077-400a-b17e-a2085a5a7312%28Office.14%29.aspx)
-    
-- [Accessibility features in SharePoint 2013 Products](https://go.microsoft.com/fwlink/p/?LinkId=246501)
-    
-- [Keyboard shortcuts](https://go.microsoft.com/fwlink/p/?LinkID=246504)
-    
-- [Touch](https://go.microsoft.com/fwlink/p/?LinkId=246506)
+>- [Plan browser support](https://go.microsoft.com/fwlink/p/?LinkId=246502)
+>- [Accessibility for SharePoint 2013](http://technet.microsoft.com/library/94ad4316-1077-400a-b17e-a2085a5a7312%28Office.14%29.aspx)
+>- [Accessibility features in SharePoint 2013 Products](https://go.microsoft.com/fwlink/p/?LinkId=246501)
+>- [Keyboard shortcuts](https://go.microsoft.com/fwlink/p/?LinkID=246504)
+>- [Touch](https://go.microsoft.com/fwlink/p/?LinkId=246506)
     
 ## Configure properties of the Search Box Web Part
 <a name="begin"> </a>
@@ -60,10 +55,10 @@ By default, the Search Box Web Part is used on the home page for the Search Cent
     
   - To override the settings that are defined on the Search Settings page, clear the **Use this site's Search Settings** check box, and then do the following: 
     
-  - To display search results in a Web Part on the page, in the section **Send queries to other Web Parts on this page**, select a Web Part.
+    - To display search results in a Web Part on the page, in the section **Send queries to other Web Parts on this page**, select a Web Part.
     
-    > [!NOTE]
-    > If there are no other Web Parts on a page, search results will be sent to the search results page as specified on the Search Settings page. 
+      > [!NOTE]
+      > If there are no other Web Parts on a page, search results will be sent to the search results page as specified on the Search Settings page. 
   
   - To send queries to a custom search results page, select **Send queries to a custom results page URL**, and then type the URL of the custom search results page.
     
@@ -76,13 +71,13 @@ By default, the Search Box Web Part is used on the home page for the Search Cent
     
   - To specify additional properties for query suggestions, change the values in the following fields:
     
-  - **Number of query suggestions:** How many query suggestions to display. 
+    - **Number of query suggestions:** How many query suggestions to display. 
     
-  - **Minimum number of characters:** How many characters the user must type before query suggestions are displayed. 
+    - **Minimum number of characters:** How many characters the user must type before query suggestions are displayed. 
     
-  - **Suggestions delay (in milliseconds):** How many milliseconds elapse before query suggestions are displayed. 
+    - **Suggestions delay (in milliseconds):** How many milliseconds elapse before query suggestions are displayed. 
     
-  - **Number of personal favorites:** How many query suggestions are displayed to the user under the text **Are you looking for these again?** in the search results. These suggestions are based on search results that the user has clicked previously. To disable personal favorite results, clear the **Show personal favorite results** check box. 
+    - **Number of personal favorites:** How many query suggestions are displayed to the user under the text **Are you looking for these again?** in the search results. These suggestions are based on search results that the user has clicked previously. To disable personal favorite results, clear the **Show personal favorite results** check box. 
     
   - To turn on people name suggestions, select **Show people name suggestions**.
     
@@ -98,8 +93,6 @@ By default, the Search Box Web Part is used on the home page for the Search Cent
     
 ## See also
 <a name="begin"> </a>
-
-#### Other Resources
 
 [How to change the text that is displayed in the Search Box Web Part in SharePoint Server 2013](https://blogs.technet.com/b/tothesharepoint/archive/2013/09/19/how-to-change-the-text-that-is-displayed-in-the-search-box-web-part-in-sharepoint-server-2013.aspx)
 
