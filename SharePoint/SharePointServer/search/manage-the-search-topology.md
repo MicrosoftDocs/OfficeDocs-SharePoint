@@ -29,11 +29,11 @@ For example farm architectures and search topologies for internet sites, see the
 
 The following articles about managing the search topology in SharePoint Server are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
   
-|**Content**|**Description**|
-|:-----|:-----|
-|[Change the default search topology in SharePoint Server](change-the-default-search-topology.md) <br/> |Learn how to change from the default search topology with an empty search index to a new search topology using Windows PowerShell.  <br/> |
-|[Manage search components in SharePoint Server](manage-search-components.md) <br/> |Learn how to use Microsoft PowerShell to manage search components in an existing search topology that has content in the search index. Use these procedures to scale out or scale down the search topology of the Search service application.  <br/> |
-|[Manage the index component in SharePoint Server](manage-the-index-component.md) <br/> |Learn how and when to use Microsoft PowerShell to scale out the search index by adding an index component to create an additional index replica or index partition.  <br/> |
-|[Manage a paused Search service application in SharePoint Server](manage-a-paused-search-service-application.md) <br/> |Learn why the Search service application is paused and what you can do to resume it.  <br/> |
+|                                                   **Content**                                                    |                                                                                                                **Description**                                                                                                                |
+| :--------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Change the default search topology in SharePoint Server](change-the-default-search-topology.md)                 | Learn how to change from the default search topology with an empty search index to a new search topology using Windows PowerShell.                                                                                                            |
+| [Manage search components in SharePoint Server](manage-search-components.md)                                     | Learn how to use Microsoft PowerShell to manage search components in an existing search topology that has content in the search index. Use these procedures to scale out or scale down the search topology of the Search service application. |
+| [Manage the index component in SharePoint Server](manage-the-index-component.md)                                 | Learn how and when to use Microsoft PowerShell to scale out the search index by adding an index component to create an additional index replica or index partition.                                                                           |
+| [Manage a paused Search service application in SharePoint Server](manage-a-paused-search-service-application.md) | Learn why the Search service application is paused and what you can do to resume it.                                                                                                                                                          |
    
 

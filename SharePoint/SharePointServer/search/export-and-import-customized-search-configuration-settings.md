@@ -43,16 +43,11 @@ Before you begin this operation, review the information in [Overview of customiz
     
 > [!NOTE]
 > Because SharePoint Server runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server supports the accessibility features of supported browsers. For more information, see the following resources: 
-  
-- [Plan browser support](https://go.microsoft.com/fwlink/p/?LinkId=246502)
-    
-- [Accessibility for SharePoint 2013](http://technet.microsoft.com/library/94ad4316-1077-400a-b17e-a2085a5a7312%28Office.14%29.aspx)
-    
-- [Accessibility features in SharePoint 2013 Products](https://go.microsoft.com/fwlink/p/?LinkId=246501)
-    
-- [Keyboard shortcuts](https://go.microsoft.com/fwlink/p/?LinkID=246504)
-    
-- [Touch](https://go.microsoft.com/fwlink/p/?LinkId=246506)
+>- [Plan browser support](https://go.microsoft.com/fwlink/p/?LinkId=246502)
+>- [Accessibility for SharePoint 2013](http://technet.microsoft.com/library/94ad4316-1077-400a-b17e-a2085a5a7312%28Office.14%29.aspx)
+>- [Accessibility features in SharePoint 2013 Products](https://go.microsoft.com/fwlink/p/?LinkId=246501)
+>- [Keyboard shortcuts](https://go.microsoft.com/fwlink/p/?LinkID=246504)
+>- [Touch](https://go.microsoft.com/fwlink/p/?LinkId=246506)
     
 ## Export customized search configuration settings from a site collection
 <a name="proc2"> </a>
@@ -131,13 +126,13 @@ When you import a search configuration file, SharePoint Server creates and enabl
   
 This table shows the settings that you can export and import. For each setting, the table indicates any dependencies on other customized search configuration settings. If the customized search configuration settings depend on a customized search configuration setting at a different level, for example, if a site query rule depends on a result source at site collection level, you must export and import settings at all of the relevant levels.
   
-|**Customized search configuration setting**|**Dependency on other customized search configuration settings**|
-|:-----|:-----|
-|Query rules. These include result blocks, promoted results, and user segments.  <br/> |Result sources, result types, search schema, ranking model  <br/> |
-|Result sources  <br/> |Search schema  <br/> |
-|Result types  <br/> |Search schema, result sources, display templates  <br/> |
-|Search schema  <br/> |None  <br/> |
-|Ranking model  <br/> |Search schema  <br/> |
+|                  **Customized search configuration setting**                   | **Dependency on other customized search configuration settings** |
+| :----------------------------------------------------------------------------- | :--------------------------------------------------------------- |
+| Query rules. These include result blocks, promoted results, and user segments. | Result sources, result types, search schema, ranking model       |
+| Result sources                                                                 | Search schema                                                    |
+| Result types                                                                   | Search schema, result sources, display templates                 |
+| Search schema                                                                  | None                                                             |
+| Ranking model                                                                  | Search schema                                                    |
    
 ### Conditions that may cause the import to fail
 
@@ -167,37 +162,37 @@ If the import fails, remove the condition that caused the failure and reimport t
 
 If managed properties or aliases contain any of the listed characters, the import of the customized search schema that contains these properties will fail.
   
-|**Character**|**Name**|
-|:-----|:-----|
-||space  <br/> |
-|:  <br/> |colon  <br/> |
-|;  <br/> |semicolon  <br/> |
-|,  <br/> |comma  <br/> |
-|(  <br/> |opening parenthesis  <br/> |
-|)  <br/> |closing parenthesis  <br/> |
-|[  <br/> |opening bracket  <br/> |
-|]  <br/> |closing bracket  <br/> |
-|{  <br/> |opening brace  <br/> |
-|}  <br/> |closing brace  <br/> |
-|%  <br/> |percent  <br/> |
-|$  <br/> |dollar sign  <br/> |
-|_  <br/> |underscore  <br/> |
-|+  <br/> |plus sign  <br/> |
-|!  <br/> |exclamation point  <br/> |
-|\*  <br/> |asterisk  <br/> |
-|=  <br/> |equal sign  <br/> |
-|&amp;  <br/> |ampersand  <br/> |
-|?  <br/> |question mark  <br/> |
-|@  <br/> |at sign  <br/> |
-|#  <br/> |number sign  <br/> |
-|\  <br/> |backslash  <br/> |
-|~  <br/> |tilde  <br/> |
-|\<  <br/> |opening angle bracket  <br/> |
-|\>  <br/> |closing angle bracket  <br/> |
-||  <br/> |pipe  <br/> |
-|`  <br/> |grave accent  <br/> |
-|^  <br/> |caret  <br/> |
-|\'  <br/> |escape sequence  <br/> |
-|\"  <br/> |escape sequence  <br/> |
+| **Character** |       **Name**        |      |
+| :------------ | :-------------------- | ---- |
+|               | space                 |      |
+| :             | colon                 |      |
+| ;             | semicolon             |      |
+| ,             | comma                 |      |
+| (             | opening parenthesis   |      |
+| )             | closing parenthesis   |      |
+| [             | opening bracket       |      |
+| ]             | closing bracket       |      |
+| {             | opening brace         |      |
+| }             | closing brace         |      |
+| %             | percent               |      |
+| $             | dollar sign           |      |
+| _             | underscore            |      |
+| +             | plus sign             |      |
+| !             | exclamation point     |      |
+| \*            | asterisk              |      |
+| =             | equal sign            |      |
+| &amp;         | ampersand             |      |
+| ?             | question mark         |      |
+| @             | at sign               |      |
+| #             | number sign           |      |
+| \             | backslash             |      |
+| ~             | tilde                 |      |
+| \<            | opening angle bracket |      |
+| \>            | closing angle bracket |      |
+|               |                       | pipe |
+| `             | grave accent          |      |
+| ^             | caret                 |      |
+| \'            | escape sequence       |      |
+| \"            | escape sequence       |      |
    
 

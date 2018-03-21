@@ -74,7 +74,7 @@ Before you add search components to a new server, you must first start a search 
     
   -  _\<Server name\>_ specifies the server on which you want to add an index component. The input must be a valid GUID, in the form  `12345678-90ab-cdef-1234-567890bcdefgh`; a valid name of a server (for example, **myserver1** ); or an instance of a valid **SearchServiceInstance** object. 
     
-    For example:
+  For example:
     
   ```
   $hostA = Get-SPEnterpriseSearchServiceInstance -Identity "myserver1"
@@ -126,7 +126,7 @@ To view the active search topology of the Search service application, you have t
   $active
   ```
 
-The command returns information about the active topology, for example: TopologyId : 2d7bb046-1ad4-43a9-9984-754c4551a3ec CreationDate : 1/25/2016 3:06:00 AM State : Active ComponentCount : 6
+The command returns information about the active topology, for example: `TopologyId : 2d7bb046-1ad4-43a9-9984-754c4551a3ec CreationDate : 1/25/2016 3:06:00 AM State : Active ComponentCount : 6`
   
 ## Retrieve a list of search components
 <a name="proc2"> </a>
@@ -216,7 +216,7 @@ You cannot change the active search topology directly. This procedure assumes th
     
   -  _$\<host n\>_ is the PowerShell object reference to the running search service instance on the server that you want to add the search component to. See [Start a search service instance on a server](manage-search-components.md#Search_Comp_SSI).
     
-    For example, the following command adds a content processing component to the clone topology on the server identified by the search service instance reference $hostA.
+  For example, the following command adds a content processing component to the clone topology on the server identified by the search service instance reference $hostA.
     
   ```
   New-SPEnterpriseSearchContentProcessingComponent -SearchTopology $clone -SearchServiceInstance $hostA

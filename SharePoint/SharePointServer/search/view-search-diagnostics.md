@@ -52,7 +52,7 @@ SharePoint Server provides the following reports about query performance:
     
   - Result page (search results page), which only shows if verbose logging is enabled.
     
-    By default, the graph displays data for all result pages in the Search service application.
+  By default, the graph displays data for all result pages in the Search service application.
     
 - Overall (Overall Query Latency)
     
@@ -64,7 +64,7 @@ SharePoint Server provides the following reports about query performance:
     
   - Backend. This is the time it takes to transform the query, perform index look up, process results (such as removing duplicates), and return results to the object model.
     
-    You can filter this report by:
+  You can filter this report by:
     
   - Start date/time
     
@@ -94,9 +94,9 @@ SharePoint Server provides the following reports about query performance:
     
   - Other
     
-    The graph includes an overlay of query rate during the specified time interval.
+  The graph includes an overlay of query rate during the specified time interval.
     
-    You can filter this report by:
+  You can filter this report by:
     
   - Start date/time
     
@@ -158,9 +158,9 @@ SharePoint Server provides the following reports about query performance:
     
   - Other
     
-    The graph includes an overlay of query rate during the specified time interval.
+  The graph includes an overlay of query rate during the specified time interval.
     
-    You can filter this report by:
+  You can filter this report by:
     
   - Start date/time
     
@@ -190,9 +190,9 @@ SharePoint Server provides the following reports about query performance:
     
   - Other
     
-    The graph includes an overlay of query rate during the specified time interval.
+  The graph includes an overlay of query rate during the specified time interval.
     
-    You can filter this report by:
+  You can filter this report by:
     
   - Start date/time
     
@@ -212,7 +212,7 @@ SharePoint Server provides the following reports about query performance:
     
   - Result page (search results page), which only shows if verbose logging is enabled.
     
-    The graph includes an overlay of the index lookup time for the specified time interval in the past. Index lookup time is the average amount of time during a given minute that it took the index engine to return results. The index lookup time applies only to queries for which the index engine returned results.
+  The graph includes an overlay of the index lookup time for the specified time interval in the past. Index lookup time is the average amount of time during a given minute that it took the index engine to return results. The index lookup time applies only to queries for which the index engine returned results.
     
  **To view query health reports**
   
@@ -253,7 +253,7 @@ SharePoint Server provides the following reports about crawl health:
     
   - Errors (crawl errors)
     
-    You can filter this report by: 
+  You can filter this report by: 
     
   - Start date/time
     
@@ -275,9 +275,9 @@ SharePoint Server provides the following reports about crawl health:
     
   - Waiting to Commit (SQL)
     
-    You can filter this report by machine only. 
+  You can filter this report by machine only. 
     
-    For a specified time interval, also shows a graph and a summary of the crawl latency; the amount of time in milliseconds that each content item is in each of the following subsystems in the feeding pipeline:
+  For a specified time interval, also shows a graph and a summary of the crawl latency; the amount of time in milliseconds that each content item is in each of the following subsystems in the feeding pipeline:
     
   - Crawler
     
@@ -305,7 +305,7 @@ SharePoint Server provides the following reports about crawl health:
     
   - Transactions queued. This is the number of crawled URLs that arequeued to be processed in the crawl pipeline.
     
-    You can filter this report by start date/time and end date/time.
+  You can filter this report by start date/time and end date/time.
     
 - Crawl Freshness
     
@@ -331,7 +331,7 @@ SharePoint Server provides the following reports about crawl health:
     
   - Content processing activity
     
-    The graph shows the amount of time that was spent in various content processing activities, such as:
+  The graph shows the amount of time that was spent in various content processing activities, such as:
     
   - Linguistics processing
     
@@ -341,7 +341,7 @@ SharePoint Server provides the following reports about crawl health:
     
   - Indexing
     
-    You can filter this report by:
+  You can filter this report by:
     
   - Start date/time 
     
@@ -367,7 +367,7 @@ SharePoint Server provides the following reports about crawl health:
     
   - Timer
     
-    You can filter this report by:
+   You can filter this report by:
     
   - Machine
     
@@ -393,7 +393,7 @@ SharePoint Server provides the following reports about crawl health:
     
   - SQL Time
     
-    You can filter this report by:
+  You can filter this report by:
     
   - Content sources
     
@@ -436,29 +436,29 @@ The following table shows the different views that you can select to see the sta
   
 **Overview of crawl log views**
 
-|**View**|**Description**|
-|:-----|:-----|
-|Content Source  <br/> |Summarizes items crawled per content source. Shows successes, warnings, errors, top-level errors, and deleted items. The data in this view represents the current status of items that are already present in the index per content source.  <br/> You can also see the average time that it took to complete a crawl of a content source for the last crawl, for the last 24 hours, for the last 7 days and for the last 30 days. You can view the developments of the crawl duration, and see whether a particular content source is getting smaller or larger in size.  <br/> |
-|Host Name  <br/> |Summarizes items crawled per host. Shows successes, warnings, errors, deleted items, top-level errors, and the total number of crawled items. The data in this view represents the current status of items that are already present in the index per host.  <br/> |
-|Crawl History  <br/> | Summarizes crawl transactions that were completed during a crawl. There can be multiple crawl transactions per item in a single crawl, so the number of transactions can be larger than the total number of items. This view shows data for these crawls:  <br/> **Full**. Crawls all items in a content source.  <br/> **Incremental**. Crawls items that have changed since the last full or incremental crawl. This kind of crawl only runs if it is scheduled.  <br/> **Delete**. If start addresses are removed from a content source, a delete crawl removes items associated with the deleted start address from the index before a full or incremental crawl runs. This kind of crawl cannot be scheduled.  <br/> **Continuous**. Crawls items in a SharePoint content source on a very frequent interval.  <br/>  The Search Administration database provides the data for this view. You can filter the results by content source.  <br/>  This view also shows the crawl rate and the repository latency.  <br/> |
-|Error Breakdown  <br/> |Provides summaries of errors per content source or per host name. The MSSCrawlURLReport table in the crawl database provides the data for this view. You can filter by content source or by host.  <br/> Note that the filter drop-down box only shows content sources that contain errors. If there is an error on an item that does not appear in the index, the error is not listed in this view.  <br/> |
-|Databases  <br/> |Lets you view the state of the crawl databases used by this Search service application.  <br/> |
-|URL View  <br/> |Lets you search the crawl logs by content source, URL, or host name, and view details of all items in the index. The MSSCrawlURLReport table in the crawl database provides the data for this view. You can filter the results by setting the **Status**, **Message**, **Start Time**, and **End Time** fields.  <br/> Note that the URL View only shows the Display URL. If items have the same Display URL (for example for a folder or views) but different Access URLs, the same Display URL displays several times in the URL View. You can query the Crawl database directly to see which items have the same Display URL.  <br/> |
+|        **View**        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       **Description**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| :--------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Content Source   | Summarizes items crawled per content source. Shows successes, warnings, errors, top-level errors, and deleted items. The data in this view represents the current status of items that are already present in the index per content source.  <br/><br/> You can also see the average time that it took to complete a crawl of a content source for the last crawl, for the last 24 hours, for the last 7 days and for the last 30 days. You can view the developments of the crawl duration, and see whether a particular content source is getting smaller or larger in size.                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Host Name        | Summarizes items crawled per host. Shows successes, warnings, errors, deleted items, top-level errors, and the total number of crawled items. The data in this view represents the current status of items that are already present in the index per host.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Crawl History    | Summarizes crawl transactions that were completed during a crawl. There can be multiple crawl transactions per item in a single crawl, so the number of transactions can be larger than the total number of items. This view shows data for these crawls:  <br/><br/>**Full**. Crawls all items in a content source.  <br/><br/> **Incremental**. Crawls items that have changed since the last full or incremental crawl. This kind of crawl only runs if it is scheduled.  <br/><br/>**Delete**. If start addresses are removed from a content source, a delete crawl removes items associated with the deleted start address from the index before a full or incremental crawl runs. This kind of crawl cannot be scheduled.  <br/><br/> **Continuous**. Crawls items in a SharePoint content source on a very frequent interval. <br/><br/>  The Search Administration database provides the data for this view. You can filter the results by content source.  <br/><br/>  This view also shows the crawl rate and the repository latency.  |
+| Error Breakdown  | Provides summaries of errors per content source or per host name. The MSSCrawlURLReport table in the crawl database provides the data for this view. You can filter by content source or by host.   <br/><br/>Note that the filter drop-down box only shows content sources that contain errors. If there is an error on an item that does not appear in the index, the error is not listed in this view.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Databases        | Lets you view the state of the crawl databases used by this Search service application.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| URL View         | Lets you search the crawl logs by content source, URL, or host name, and view details of all items in the index. The MSSCrawlURLReport table in the crawl database provides the data for this view. You can filter the results by setting the **Status**, **Message**, **Start Time**, and **End Time** fields. <br/><br/>Note that the URL View only shows the Display URL. If items have the same Display URL (for example for a folder or views) but different Access URLs, the same Display URL displays several times in the URL View. You can query the Crawl database directly to see which items have the same Display URL.  <br/>                                                                                                                                                                                                                                                                                                                                                                                     |
    
 The following table shows which additional columns are available in the Content Source, Host Name and Crawl History views. These columns show information about crawled items.
   
 **Overview of additional columns in the Content Source, Host Name and Crawl History views**
 
-|**Item**|**Description**|
-|:-----|:-----|
-|Successes  <br/> |Items were successfully crawled and searchable.  <br/> |
-|Warnings  <br/> |Items might not have been successfully crawled and might not be searchable.  <br/> |
-|Errors  <br/> |Items were not successfully crawled and might not be searchable.  <br/> |
-|Top Level Errors  <br/> |Errors in top-level documents, including start addresses, virtual servers, and content databases. Every top-level error is counted as an error, but not all errors are counted as top-level errors. Because the **Errors** column includes the count from the **Top Level Errors** column, top-level-errors are not counted again in the Host Name view.  <br/> |
-|Deletes  <br/> |Items that were removed from the index and are no longer searchable.  <br/> |
-|Not Modified  <br/> |Items were not changed between crawls. This column only shows in the Crawl History view.  <br/> |
-|Security Update  <br/> |The security settings of items were crawled because they were changed. This column only shows in the Crawl History view.  <br/> |
-|Security Errors  <br/> |The security update of items caused an error. This column only shows in the Crawl History view.  <br/> |
+|     **Item**     |                                                                                                                                                                     **Description**                                                                                                                                                                      |
+| :--------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Successes        | Items were successfully crawled and searchable.                                                                                                                                                                                                                                                                                                          |
+| Warnings         | Items might not have been successfully crawled and might not be searchable.                                                                                                                                                                                                                                                                              |
+| Errors           | Items were not successfully crawled and might not be searchable.                                                                                                                                                                                                                                                                                         |
+| Top Level Errors | Errors in top-level documents, including start addresses, virtual servers, and content databases. Every top-level error is counted as an error, but not all errors are counted as top-level errors. Because the **Errors** column includes the count from the **Top Level Errors** column, top-level-errors are not counted again in the Host Name view. |
+| Deletes          | Items that were removed from the index and are no longer searchable.                                                                                                                                                                                                                                                                                     |
+| Not Modified     | Items were not changed between crawls. This column only shows in the Crawl History view.                                                                                                                                                                                                                                                                 |
+| Security Update  | The security settings of items were crawled because they were changed. This column only shows in the Crawl History view.                                                                                                                                                                                                                                 |
+| Security Errors  | The security update of items caused an error. This column only shows in the Crawl History view.                                                                                                                                                                                                                                                          |
    
 ## Usage reports
 <a name="Proc4"> </a>
@@ -481,16 +481,16 @@ The following table shows the different usage reports and search reports that yo
   
 **Overview of usage report or search report**
 
-|**Usage report or search report**|**Description**|
-|:-----|:-----|
-|Number of Queries  <br/> |This report shows the number of search queries performed. Use this report to identify search query volume trends and to determine times of high and low search activity.  <br/> |
-|Top Queries by Day  <br/> |This report shows the most popular search queries. Use this report to understand what types of information visitors are seeking.  <br/> |
-|Top Queries by Month  <br/> |This report shows the most popular search queries. Use this report to understand what types of information visitors are seeking.  <br/> |
-|Abandoned Queries by Day  <br/> |This report shows popular search queries that received low click-through. Use this report to identify search queries that might create user dissatisfaction and to improve the discoverability of content. Then, consider using query rules to improve the query's results.  <br/> |
-|Abandoned Queries by Month  <br/> |This report shows popular search queries that received low click-through. Use this report to identify search queries that might create user dissatisfaction and to improve the discoverability of content. Then, consider using query rules to improve the query's results.  <br/> |
-|No Result Queries by Day  <br/> |This report shows popular search queries that returned no results. Use this report to identify search queries that might create user dissatisfaction and to improve the discoverability of content. Then, consider using query rules to improve the query's results.  <br/> |
-|No Result Queries by Month  <br/> |This report shows popular search queries that returned no results. Use this report to identify search queries that might create user dissatisfaction and to improve the discoverability of content. Then, consider using query rules to improve the query's results.  <br/> |
-|Query Rule Usage by Day  <br/> |This report shows how often query rules trigger, how many dictionary terms they use, and how often users click their promoted results. Use this report to see how useful your query rules and promoted results are to users.  <br/> |
-|Query Rule Usage by Month  <br/> |This report shows how often query rules trigger, how many dictionary terms they use, and how often users click their promoted results. Use this report to see how useful your query rules and promoted results are to users.  <br/> |
+| **Usage report or search report** |                                                                                                                               **Description**                                                                                                                               |
+| :-------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Number of Queries                 | This report shows the number of search queries performed. Use this report to identify search query volume trends and to determine times of high and low search activity.                                                                                                    |
+| Top Queries by Day                | This report shows the most popular search queries. Use this report to understand what types of information visitors are seeking.                                                                                                                                            |
+| Top Queries by Month              | This report shows the most popular search queries. Use this report to understand what types of information visitors are seeking.                                                                                                                                            |
+| Abandoned Queries by Day          | This report shows popular search queries that received low click-through. Use this report to identify search queries that might create user dissatisfaction and to improve the discoverability of content. Then, consider using query rules to improve the query's results. |
+| Abandoned Queries by Month        | This report shows popular search queries that received low click-through. Use this report to identify search queries that might create user dissatisfaction and to improve the discoverability of content. Then, consider using query rules to improve the query's results. |
+| No Result Queries by Day          | This report shows popular search queries that returned no results. Use this report to identify search queries that might create user dissatisfaction and to improve the discoverability of content. Then, consider using query rules to improve the query's results.        |
+| No Result Queries by Month        | This report shows popular search queries that returned no results. Use this report to identify search queries that might create user dissatisfaction and to improve the discoverability of content. Then, consider using query rules to improve the query's results.        |
+| Query Rule Usage by Day           | This report shows how often query rules trigger, how many dictionary terms they use, and how often users click their promoted results. Use this report to see how useful your query rules and promoted results are to users.                                                |
+| Query Rule Usage by Month         | This report shows how often query rules trigger, how many dictionary terms they use, and how often users click their promoted results. Use this report to see how useful your query rules and promoted results are to users.                                                |
    
 
