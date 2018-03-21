@@ -34,9 +34,9 @@ It is important to know what content to crawl and include in the search index, b
 
 By organizing SharePoint content in **natural hierarchies**, you not only make it is easier for users to understand where they can find and file their content, but you also make it easier for the search system to rank the content and return search results that better match the user's intent. 
   
-|**Flat structure**|**Structure with hierarchy**|
-|:-----|:-----|
-|http://Europe  <br/> http://Asia  <br/> |http://sales  <br/> http://sales/Europe  <br/> http://sales/Asia  <br/> |
+|           **Flat structure**            |                   **Structure with hierarchy**                   |
+| :-------------------------------------- | :--------------------------------------------------------------- |
+| http://Europe  <br/> http://Asia  <br/> | http://sales  <br/> http://sales/Europe  <br/> http://sales/Asia |
    
 URLs and other metadata of files, such as file names, are analyzed linguistically by the search system. If you use natural language for URLs and for metadata, the search system can more easily understand what information is in the site or file and give it an appropriate ranking in the results. It is much easier for the search system (and users) to understand a URL and file name like http://sales/Europe/presentations/phones.ppt than it is to make sense of http://slseur/p_phones.ppt. 
   
