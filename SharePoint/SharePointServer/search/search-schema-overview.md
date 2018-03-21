@@ -129,8 +129,6 @@ The search schema can be edited in Central Administration, Site Collection Admin
 ## See also
 <a name="MP_Overview"> </a>
 
-#### Concepts
-
 [Manage the search schema in SharePoint Server](manage-the-search-schema.md)
   
 [Overview of crawled and managed properties in SharePoint Server](../technical-reference/crawled-and-managed-properties-overview.md)

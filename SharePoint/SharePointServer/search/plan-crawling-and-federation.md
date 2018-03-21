@@ -267,7 +267,6 @@ To use federation in SharePoint Server, you select one of the following protocol
 ## See also
 <a name="Section12"> </a>
 
-#### Concepts
 
 [Understanding result sources for search in SharePoint Server](understanding-result-sources-for-search.md)
   
@@ -278,7 +277,6 @@ To use federation in SharePoint Server, you select one of the following protocol
 [Default connectors in SharePoint Server](../technical-reference/default-connectors.md)
   
 [Default crawled file name extensions and parsed file types in SharePoint Server](../technical-reference/default-crawled-file-name-extensions-and-parsed-file-types.md)
-#### Other Resources
-
+  
 [Search connector framework in SharePoint 2013](https://msdn.microsoft.com/library/office/ee556429%28v=office.15%29)
 

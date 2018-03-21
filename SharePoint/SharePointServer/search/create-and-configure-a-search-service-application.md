@@ -55,11 +55,11 @@ When you deploy and configure a Search service application, you perform the foll
 
 The following table lists the accounts that are required when a Search service application is created.
   
-|**Account**|**Description**|**Notes**|
-|:-----|:-----|:-----|
-|Search service  <br/> | Windows user credentials for the SharePoint Server Search service, which is a Windows service  <br/> |This setting applies to all Search service applications in the farm. You can change this account at any time by clicking **Configure service accounts** in the **Security** section on the Central Administration home page.  <br/> |
-| Search Admin Web Service application pool  <br/>  Search Query and Site Settings Web Service application pool  <br/> |Windows user credentials  <br/> |For each of these accounts, you can use the same credentials that you specified for the Search service. Or, you can assign different credentials to each account according to the principle of least-privilege administration.  <br/> |
-|Default content access  <br/> | Windows user credentials for the Search service application to use to access content when crawling  <br/> |We recommend that you specify a separate account for the default content access account according to the principle of least-privilege administration.  <br/> |
+|                                               **Account**                                                |                                          **Description**                                           |                                                                                                           **Notes**                                                                                                            |
+| :------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Search service                                                                                           | Windows user credentials for the SharePoint Server Search service, which is a Windows service      | This setting applies to all Search service applications in the farm. You can change this account at any time by clicking **Configure service accounts** in the **Security** section on the Central Administration home page.   |
+| Search Admin Web Service application pool  <br/><br/>  Search Query and Site Settings Web Service application pool | Windows user credentials                                                                           | For each of these accounts, you can use the same credentials that you specified for the Search service. Or, you can assign different credentials to each account according to the principle of least-privilege administration. |
+| Default content access                                                                                   | Windows user credentials for the Search service application to use to access content when crawling | We recommend that you specify a separate account for the default content access account according to the principle of least-privilege administration.                                                                          |
    
 The accounts that you use for the Search service, the Search Admin Web Service application pool, and the Search Query and Site Settings Web Service application pool must be registered as managed accounts in SharePoint Server 2016 so that they are available when you create the Search service application. Use the following procedure to register each of these accounts as a managed account.
   
@@ -107,15 +107,15 @@ Use the following procedure to create a Search service application or a cloud Se
     
   - In the **Application Pool for Search Admin Web Service** section, do the following: 
     
-  - Select the **Create new application pool** option, and then specify a name for the application pool in the **Application pool name** text box. 
+    - Select the **Create new application pool** option, and then specify a name for the application pool in the **Application pool name** text box. 
     
-  - In the **Select a security account for this application pool** section, select the **Configurable** option, and then from the list select the account that you registered to run the application pool for the Search Admin Web Service. 
+    - In the **Select a security account for this application pool** section, select the **Configurable** option, and then from the list select the account that you registered to run the application pool for the Search Admin Web Service. 
     
   - In the **Application Pool for Search Query and Site Settings Web Service** section, do the following: 
     
-  - Choose the **Create new application pool** option, and then specify a name for the application pool in the **Application pool name** text box. 
+    - Choose the **Create new application pool** option, and then specify a name for the application pool in the **Application pool name** text box. 
     
-  - In the **Select a security account for this application pool** section, select the **Configurable** option, and then from the list select the account that you registered to run the application pool for the Search Query and Site Settings Web Service. 
+    - In the **Select a security account for this application pool** section, select the **Configurable** option, and then from the list select the account that you registered to run the application pool for the Search Query and Site Settings Web Service. 
     
 5. Click **OK**.
     
@@ -195,8 +195,6 @@ When you create a Search service application, the SharePoint Server Search servi
     
 ## See also
 <a name="begin"> </a>
-
-#### Concepts
 
 [Create a Search Center site in SharePoint Server](create-a-search-center-site.md)
 
