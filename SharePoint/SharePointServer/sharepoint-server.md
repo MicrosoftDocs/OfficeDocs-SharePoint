@@ -169,10 +169,10 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server in their ent
                 <div class="card">
                     <div class="cardText">
                         <h3>Manage your environment</h3>
-                        <p>a href="/sharepoint/sites/sites">Sites Administration</a></p>
-                        <p>a href="/sharepoint/administration/server-management">Server Management</a></p>
-                        <p>a href="/sharepoint/administration/backup-and-recovery-overview">Backup and recovery</a></p>
-                        <p>a href="/sharepoint/administration/monitoring-overview">Monitor your environment</a></p>
+                        <p><a href="/sharepoint/sites/sites">Sites Administration</a></p>
+                        <p><a href="/sharepoint/administration/server-management">Server Management</a></p>
+                        <p><a href="/sharepoint/administration/backup-and-recovery-overview">Backup and recovery</a></p>
+                        <p><a href="/sharepoint/administration/monitoring-overview">Monitor your environment</a></p>
                </div>
                 </div>
             </div>
@@ -184,13 +184,10 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server in their ent
                 <div class="card">
                     <div class="cardText">
                         <h3>Install</h3>
-                            <p>a href="/SharePoint/install/install-sharepoint-server-2016-across-multiple-servers">SharePoint Server 2016 - large scale farms</a></p>
-                            <p>a href="/SharePoint/install/install-sharepoint-server-2016-on-one-server">SharePoint Server 2016 - small scale farms</a></p>
-                            <p>a href="/SharePoint/install/multiple-servers-for-a-three-tier-farm">SharePoint Server 2013 - large scale farms</a></p>
-                            <p>a href="/SharePoint/install/single-server-with-sql-server">SharePoint Server 2013 - small scale farms</a></p>
-
-                                </li>
-                            </ul>
+                            <p><a href="/SharePoint/install/install-sharepoint-server-2016-across-multiple-servers">SharePoint Server 2016 - large scale farms</a></p>
+                            <p><a href="/SharePoint/install/install-sharepoint-server-2016-on-one-server">SharePoint Server 2016 - small scale farms</a></p>
+                            <p><a href="/SharePoint/install/multiple-servers-for-a-three-tier-farm">SharePoint Server 2013 - large scale farms</a></p>
+                            <p><a href="/SharePoint/install/single-server-with-sql-server">SharePoint Server 2013 - small scale farms</a></p>
                     </div>
                 </div>
             </div>
@@ -202,10 +199,10 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server in their ent
                 <div class="card">
                     <div class="cardText">
                         <h3>Upgrade and update</h3>
-                            <p>a href="/SharePoint/upgrade-and-update/upgrade-to-sharepoint-server-2016">Upgrade to SharePoint 2016</a></p>
-                            <p>a href="/SharePoint/upgrade-and-update/deploy-updates-for-sharepoint-server-2016">Apply updates to SharePoint 2016</a></p>
-                            <p>a href="/SharePoint/upgrade-and-update/upgrade-from-sharepoint-2010-to-sharepoint-2013">Upgrade to SharePoint 2013</a></p>
-                            <p>a href="/SharePoint/upgrade-and-update/deploy-software-updates-for-sharepoint-2013">Apply updates to SharePoint 2013</a></p>
+                            <p><a href="/SharePoint/upgrade-and-update/upgrade-to-sharepoint-server-2016">Upgrade to SharePoint 2016</a></p>
+                            <p><a href="/SharePoint/upgrade-and-update/deploy-updates-for-sharepoint-server-2016">Apply updates to SharePoint 2016</a></p>
+                            <p><a href="/SharePoint/upgrade-and-update/upgrade-from-sharepoint-2010-to-sharepoint-2013">Upgrade to SharePoint 2013</a></p>
+                            <p><a href="/SharePoint/upgrade-and-update/deploy-software-updates-for-sharepoint-2013">Apply updates to SharePoint 2013</a></p>
                     </div>
                 </div>
             </div>
@@ -217,7 +214,7 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server in their ent
                 <div class="card">
                     <div class="cardText">
                         <h3>Legacy content</h3>
-                            <p>a href="https://support.office.com/en-us/article/sharepoint-server-2007-end-of-support-roadmap-ba124775-d5c0-4d68-b88d-8458ad4c3717">SharePoint Server 2007 end of support roadmap</a></p>
+                            <p><a href="https://support.office.com/en-us/article/sharepoint-server-2007-end-of-support-roadmap-ba124775-d5c0-4d68-b88d-8458ad4c3717">SharePoint Server 2007 end of support roadmap</a></p>
                             <p>SharePoint Server 2010</p>
                             <p>SharePoint SErver 2007</p>
                     </div>
