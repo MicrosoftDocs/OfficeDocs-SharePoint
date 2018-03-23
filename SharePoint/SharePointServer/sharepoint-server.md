@@ -19,7 +19,7 @@ description: "Summary: Explore these links to find out more about how to impleme
 # SharePoint Server
 
   
-This guide helps IT Pros plan, deploy, and manage SharePoint Server in their enterprise environments. 
+This guide helps IT Pros plan, deploy, and manage SharePoint Server 2016 and 2013 in their enterprise environments. 
   
 <ul class="panelContent cardsFTitle">
     <li>
@@ -185,11 +185,11 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server in their ent
                     <div class="cardText">
                         <h3>Install</h3>
                             <p>SharePoint Server 2016
-                            <a href="/SharePoint/install/install-sharepoint-server-2016-across-multiple-servers">Large scale farms</a></p>
-                            <p><a href="/SharePoint/install/install-sharepoint-server-2016-on-one-server">Small scale farms</a></p>
+                            <p> - <a href="/SharePoint/install/install-sharepoint-server-2016-across-multiple-servers">Large scale farms</a></p>
+                            <p> - <a href="/SharePoint/install/install-sharepoint-server-2016-on-one-server">Small scale farms</a></p>
                             <p>SharePoint Server 2013
-                            <p><a href="/SharePoint/install/multiple-servers-for-a-three-tier-farm">Large scale farms</a></p>
-                            <p><a href="/SharePoint/install/single-server-with-sql-server">Small scale farms</a></p>
+                            <p> - <a href="/SharePoint/install/multiple-servers-for-a-three-tier-farm">Large scale farms</a></p>
+                            <p> - <a href="/SharePoint/install/single-server-with-sql-server">Small scale farms</a></p>
                     </div>
                 </div>
             </div>
