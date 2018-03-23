@@ -228,7 +228,7 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server in their ent
                 <div class="card">
                     <div class="cardText">
                         <h3>Legacy content</h3>
-                            <p>SharePoint Server End of life</p>
+                            <p>SharePoint Server End of life content</p>
                             <p>SharePoint Server 2010</p>
                             <p>SharePoint SErver 2007</p>
                     </div>
