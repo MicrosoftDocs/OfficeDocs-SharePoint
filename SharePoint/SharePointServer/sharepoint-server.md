@@ -188,9 +188,6 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server in their ent
                             <p><a href="/SharePoint/install/install-sharepoint-server-2016-on-one-server">SharePoint Server 2016 - small scale farms</a></p>
                             <p><a href="/SharePoint/install/multiple-servers-for-a-three-tier-farm">SharePoint Server 2013 - large scale farms</a></p>
                             <p><a href="/SharePoint/install/single-server-with-sql-server">SharePoint Server 2013 - small scale farms</a></p>
-
-                                </li>
-                            </ul>
                     </div>
                 </div>
             </div>
