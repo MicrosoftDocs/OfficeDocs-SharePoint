@@ -77,13 +77,49 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server in their ent
         </a>
     </li>
     <li>
-        <a href="https://techcommunity.microsoft.com/t5/SharePoint-Blog/bg-p/SPBlog">
+        <a href="https://techcommunity.microsoft.com/t5/SharePoint/ct-p/SharePoint">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
                             <img src="https://docs.microsoft.com/en-us/media/common/i_benefits.svg" alt="Community" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Community</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://sharepoint.uservoice.com/">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/media/common/i_feedback.svg" alt="Product feedback" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Community</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://support.office.com/sharepoint">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/media/common/i_learn-about.svg" alt="Community" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -106,6 +142,8 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server in their ent
                     <div class="cardText">
                         <h3>Learn about SharePoint</h3>
                         <p><a href="https://products.office.com/en-us/sharepoint/collaboration">What is SharePoint?</a></p>
+                        <p>Bill Baer video</p>
+                        <p><a href="https://blogs.office.com/en-us/sharepoint/">SharePoint blog</a></p>
                     </div>
                 </div>
             </div>
@@ -130,11 +168,17 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server in their ent
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Run your environment</h3>
+                        <h3>Manage your environment</h3>
                         <p>Sites administration</p>
+<<<<<<< HEAD
+                        <p>[Server administration](administration/administration.md)</p>
+                        <p>[Backup and restore](/administration/backup.md)</p>
+                        <p>Monitor the health of your environment</p>
+=======
                         <p>[Server administration](/sharepoint/administration/administration)</p>
                         <p>Governance</p>
                         <p>[Hybrid](/SharePoint/hybrid/hybrid)</p>
+>>>>>>> master
                </div>
                 </div>
             </div>
@@ -175,6 +219,27 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server in their ent
                 <div class="card">
                     <div class="cardText">
                         <h3>Upgrade and update</h3>
+<<<<<<< HEAD
+                            <p>Upgrade to SharePoint 2016</p>
+                            <p>Apply updates to 2016</p>
+                            <p>Upgrade to SharePoint 2013</p>
+                            <p>Apply updates to 2013</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Legacy content</h3>
+                            <p>End of life</p>
+                            <p>Previous versions</p>
+                            <p>2010</p>
+                            <p>2007</p>
+=======
                         <p>SharePoint Server 2016</p>
                             <ul>
                                <li> 
@@ -193,6 +258,7 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server in their ent
                         <p>Apply updates to your existing version</p>
                                 </li>
                             </ul>
+>>>>>>> master
                     </div>
                 </div>
             </div>
