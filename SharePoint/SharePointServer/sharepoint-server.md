@@ -184,10 +184,12 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server in their ent
                 <div class="card">
                     <div class="cardText">
                         <h3>Install</h3>
-                            <p><a href="/SharePoint/install/install-sharepoint-server-2016-across-multiple-servers">SharePoint Server 2016 - large scale farms</a></p>
-                            <p><a href="/SharePoint/install/install-sharepoint-server-2016-on-one-server">SharePoint Server 2016 - small scale farms</a></p>
-                            <p><a href="/SharePoint/install/multiple-servers-for-a-three-tier-farm">SharePoint Server 2013 - large scale farms</a></p>
-                            <p><a href="/SharePoint/install/single-server-with-sql-server">SharePoint Server 2013 - small scale farms</a></p>
+                            <p>SharePoint Server 2016
+                            <a href="/SharePoint/install/install-sharepoint-server-2016-across-multiple-servers">Large scale farms</a></p>
+                            <p><a href="/SharePoint/install/install-sharepoint-server-2016-on-one-server">Small scale farms</a></p>
+                            <p>SharePoint Server 2013
+                            <p><a href="/SharePoint/install/multiple-servers-for-a-three-tier-farm">Large scale farms</a></p>
+                            <p><a href="/SharePoint/install/single-server-with-sql-server">Small scale farms</a></p>
                     </div>
                 </div>
             </div>
