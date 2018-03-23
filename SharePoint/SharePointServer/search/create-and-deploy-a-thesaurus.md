@@ -38,12 +38,12 @@ The matching between the thesaurus keys and query terms is not case sensitive. W
   
 1. Create a .csv file with the columns **Key**, **Synonym** and **Language**. Make sure you use a comma as the column separator. If the file contains non-ASCII characters such as diacritics, you must encode it in UTF-8. Save the file to a location that is accessible from the server from which you will run the Microsoft PowerShell cmdlet to deploy the thesaurus. 
     
-1. In the **Key** column, enter the term (single or multiple words) that you want to trigger a synonym for when the term occurs in a query. Make sure there are no leading or trailing spaces around the terms. 
+  - In the **Key** column, enter the term (single or multiple words) that you want to trigger a synonym for when the term occurs in a query. Make sure there are no leading or trailing spaces around the terms. 
     
-2. In the **Synonym** column, enter the synonym (single or multiple words) that you want to add to the query if the term specified in the **Key** column occurs in a query. Synonyms consisting of multiple words will be added as phrases to the query. 
-    
-3. In the optional **Language** column, enter the abbreviation for the language for which the synonym should apply. See the table in [Linguistic search features in SharePoint Server](../technical-reference/linguistic-search-features.md) for an overview of available languages and their code. If you leave this column empty, the query is expanded with the synonym regardless of the query language. Make sure there are no leading or trailing spaces around the language codes. 
-    
+  - In the **Synonym** column, enter the synonym (single or multiple words) that you want to add to the query if the term specified in the **Key** column occurs in a query. Synonyms consisting of multiple words will be added as phrases to the query. 
+   
+  - In the optional **Language** column, enter the abbreviation for the language for which the synonym should apply. See the table in [Linguistic search features in SharePoint Server](../technical-reference/linguistic-search-features.md) for an overview of available languages and their code. If you leave this column empty, the query is expanded with the synonym regardless of the query language. Make sure there are no leading or trailing spaces around the language codes.
+  
 A thesaurus is commonly used to expand acronyms. But you can also use a thesaurus to automatically include variations of a search term into the query for specific terminology used in your organization. An example thesaurus file input could look like this: Key,Synonym,Language IE,Internet Explorer Internet Explorer,IE UN,United Nations,en UN,Vereinte Nationen,de BAM,billing and account management billing and account management,billing and accounts
   
 ## Deploy a thesaurus
@@ -75,10 +75,7 @@ You create and maintain the thesaurus file in a file external to SharePoint Serv
 ## See also
 <a name="proc2"> </a>
 
-#### Concepts
-
 [Linguistic search features in SharePoint Server](../technical-reference/linguistic-search-features.md)
-#### Other Resources
 
 [Import-SPEnterpriseSearchThesaurus](http://technet.microsoft.com/library/eb1fdf2f-324d-4023-b534-93664b45d17d.aspx)
 

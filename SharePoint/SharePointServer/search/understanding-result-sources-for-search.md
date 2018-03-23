@@ -42,12 +42,12 @@ The following table shows the result sources that are used by the four search ex
   
 **Search experiences and corresponding result sources**
 
-|**This search experience**|**Uses this preconfigured result source**|
-|:-----|:-----|
-|Everything  <br/> |Local SharePoint Results  <br/> |
-|People  <br/> |Local People Results  <br/> |
-|Conversations  <br/> |Conversations  <br/> |
-|Videos  <br/> |Local Video Results  <br/> |
+| **This search experience** | **Uses this preconfigured result source** |
+| :------------------------- | :---------------------------------------- |
+| Everything                 | Local SharePoint Results                  |
+| People                     | Local People Results                      |
+| Conversations              | Conversations                             |
+| Videos                     | Local Video Results                       |
    
 ## Available result sources
 <a name="BKMK_Result_sources_available"> </a>
@@ -56,23 +56,23 @@ SharePoint Server provides 16 pre-configured result sources, which are available
   
 **Pre-configured result sources**
 
-|**This result source**|**Specifies these items in the local SharePoint index**|
-|:-----|:-----|
-|Conversations  <br/> |Discussions in microblogs, newsfeed posts, and community sites  <br/> |
-|Documents  <br/> |Microsoft Office documents and PDF documents  <br/> |
-|Items matching a content type  <br/> |Items that match a content type that the incoming query specifies  <br/> |
-|Items matching a tag  <br/> |Documents or list items that match a managed metadata term that the incoming query specifies  <br/> |
-|Items related to current user  <br/> |Documents or list items that are related to the user in a way that the query template specifies  <br/> |
-|Local People Results  <br/> |People items from the profile database of the User Profile service application  <br/> |
-|Local Reports and Data Results  <br/> |Excel, Office Data Connection (ODC), or Report Definition Language (RDL) items, or items in a report library  <br/> |
-|Local SharePoint Results  <br/> |All items from the local SharePoint search index except People items  <br/> |
-|Local Video Results  <br/> |Videos  <br/> |
-|Pages  <br/> ||
-|Pictures  <br/> |Photos and images  <br/> |
-|Popular  <br/> |Documents and list items sorted by view count  <br/> |
-|Recently changed items  <br/> |Documents and list items sorted by Modified date  <br/> |
-|Recommendations  <br/> |Documents and list items that you recommend for the incoming query  <br/> |
-|Wiki  <br/> |SharePoint wiki pages  <br/> |
+|     **This result source**     |                           **Specifies these items in the local SharePoint index**                            |
+| :----------------------------- | :----------------------------------------------------------------------------------------------------------- |
+| Conversations                  | Discussions in microblogs, newsfeed posts, and community sites                                               |
+| Documents                      | Microsoft Office documents and PDF documents                                                                 |
+| Items matching a content type  | Items that match a content type that the incoming query specifies                                            |
+| Items matching a tag           | Documents or list items that match a managed metadata term that the incoming query specifies                 |
+| Items related to current user  | Documents or list items that are related to the user in a way that the query template specifies              |
+| Local People Results           | People items from the profile database of the User Profile service application                               |
+| Local Reports and Data Results | Excel, Office Data Connection (ODC), or Report Definition Language (RDL) items, or items in a report library |
+| Local SharePoint Results       | All items from the local SharePoint search index except People items                                         |
+| Local Video Results            | Videos                                                                                                       |
+| Pages                          |                                                                                                              |
+| Pictures                       | Photos and images                                                                                            |
+| Popular                        | Documents and list items sorted by view count                                                                |
+| Recently changed items         | Documents and list items sorted by Modified date                                                             |
+| Recommendations                | Documents and list items that you recommend for the incoming query                                           |
+| Wiki                           | SharePoint wiki pages                                                                                        |
    
 From the Manage Result Sources page, you can create other result sources in either of the following two ways:
   
@@ -87,22 +87,22 @@ A result source specifies one of four protocols to use to get search results, as
   
 **Result source protocols**
 
-|**A result source that specifies this protocol**|**Gets search results from this search provider**|
-|:-----|:-----|
-|Local SharePoint  <br/> |The search index of the local Search service  <br/> |
-|Remote SharePoint  <br/> |The search index of a Search service hosted in another farm  <br/> |
-|OpenSearch 1.0/1.1  <br/> |An external search provider (such as a remote search engine or feed) that uses the OpenSearch protocol to provide search results  <br/> |
-|Exchange  <br/> |Exchange Web Services  <br/> |
+| **A result source that specifies this protocol** |                                        **Gets search results from this search provider**                                         |
+| :----------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------- |
+| Local SharePoint                                 | The search index of the local Search service                                                                                     |
+| Remote SharePoint                                | The search index of a Search service hosted in another farm                                                                      |
+| OpenSearch 1.0/1.1                               | An external search provider (such as a remote search engine or feed) that uses the OpenSearch protocol to provide search results |
+| Exchange                                         | Exchange Web Services                                                                                                            |
    
 A result source that uses a protocol other than "Local SharePoint" must also specify a URL from which to get search results, as shown in the following table.
   
 **Result source URLs**
 
-|**A result source that uses this protocol**|**Must specify this URL**|
-|:-----|:-----|
-|Remote SharePoint  <br/> |The address of the root site collection of the remote SharePoint Server farm  <br/> |
-|OpenSearch 1.0/1.1  <br/> |The URL of the RSS feed of a search provider that uses the OpenSearch protocol  <br/> |
-|Exchange  <br/> |An Exchange Web Services URL  <br/> |
+| **A result source that uses this protocol** |                           **Must specify this URL**                            |
+| :------------------------------------------ | :----------------------------------------------------------------------------- |
+| Remote SharePoint                           | The address of the root site collection of the remote SharePoint Server farm   |
+| OpenSearch 1.0/1.1                          | The URL of the RSS feed of a search provider that uses the OpenSearch protocol |
+| Exchange                                    | An Exchange Web Services URL                                                   |
    
 ## Who can create result sources?
 <a name="BKMK_Who"> </a>
@@ -144,13 +144,10 @@ For more information, see [Building search queries in SharePoint 2013 (https://m
 ## See also
 <a name="BKMK_How-does_query_transform_affect_query"> </a>
 
-#### Concepts
-
 [Query variables in SharePoint Server](../technical-reference/query-variables.md)
   
 [Default connectors in SharePoint Server](../technical-reference/default-connectors.md)
-#### Other Resources
-
+  
 [Transforming queries in result sources](plan-to-transform-queries-and-order-results.md#Trans_Result_Sources)
   
 [About result sources and federation](plan-crawling-and-federation.md#Section12)

@@ -25,8 +25,6 @@ The password of the default content access account has two additional dependenci
     
 - If you want to change the password of the default content access account in SharePoint Server, you must first change the password in AD DS. This is because the credentials that you enter for the default content access account in SharePoint Server are checked against those in AD DS. If you enter a new password for the default content access account before the account password is changed in AD DS, an error will result and the password of the default content access account will not be changed.
     
-## 
-
 The following procedure changes the user name and password for the default content access account. You can specify a different account for crawling particular URLs by using a crawl rule. If you specify a different account in a crawl rule and you want to change the password of that account, you must change the crawl rule. For more information, see [Manage crawl rules in SharePoint Server](manage-crawl-rules.md).
   
  **To change the default content access account**
@@ -48,8 +46,6 @@ The following procedure changes the user name and password for the default conte
 7. In the **Password** text box and in the **Confirm Password** text box, type the new password, and then click **OK**.
     
 ## See also
-
-#### Concepts
 
 [Create and configure a Search service application in SharePoint Server 2016](create-and-configure-a-search-service-application.md)
   

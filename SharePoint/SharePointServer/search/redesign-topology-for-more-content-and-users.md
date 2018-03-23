@@ -53,12 +53,12 @@ Estimate how much you expect the number of searchable items to grow over the nex
 
 It's not always easy to assess how big or small to make your search architecture. The size of your search architecture depends on the volume of your content, the crawl rate, the query throughput, and the level of high availability that you require. There are sample search architectures that were tested by Microsoft that we advise using as a basis for your own farm. Compare your current search architecture with the sample search architectures and determine which sample best represents your current search architecture. Then consider which sample search architecture to scale to. The sample search architecture that you choose depends on how much content has to be searchable:
   
-|**Volume of content (SharePoint 2016)**|**Sample search architecture**|**Volume of content (SharePoint 2013)**|
-|:-----|:-----|:-----|
-|0-20 million items  <br/> |Small search farm  <br/> |0-10 million items  <br/> |
-|0-80 million items  <br/> |Medium search farm  <br/> |0-40 million items  <br/> |
-|0-200 million items  <br/> |Large search farm  <br/> |0-100 million items  <br/> |
-|0-500 million items  <br/> |Extra large search farm  <br/> |Not supported  <br/> |
+| **Volume of content (SharePoint 2016)** | **Sample search architecture** | **Volume of content (SharePoint 2013)** |
+| :-------------------------------------- | :----------------------------- | :-------------------------------------- |
+| 0-20 million items                      | Small search farm              | 0-10 million items                      |
+| 0-80 million items                      | Medium search farm             | 0-40 million items                      |
+| 0-200 million items                     | Large search farm              | 0-100 million items                     |
+| 0-500 million items                     | Extra large search farm        | Not supported                           |
    
 Although these sample search architectures use virtual machines, you can use both physical servers and virtual machines according to the strategy of the overall SharePoint Server solution of your search architecture.
   
@@ -135,7 +135,7 @@ Each search component and search database requires a minimum amount of hardware 
   
 For example, when hosting virtual machines on Windows Server 2008 R2 Service Pack 1 (SP1), you can't use more than four CPU cores per virtual machine. With Windows Server 2012 or newer, you use eight or more CPU cores per virtual machine. Then you can scale out with more CPU cores for each virtual machine instead of scaling up with more virtual machines. Set up servers or virtual machines that host the same search components, with the same hardware resources. Let's use the index component as an example. When you host index partitions on virtual machines, the virtual machine with the weakest performance determines the performance of the overall search architecture.
   
-General storage resources
+**General storage resources**
   
 Make sure that each host server has enough disk space for the base installation of the Windows Server operating system and for the SharePoint Server program files. The host server also needs free hard disk space for diagnostics such as logging, debugging, and creating memory dumps, for daily operations, and for the page file. Normally, 80 GB of disk space is enough for the Windows Server operating system and for the SharePoint Server program files.
   
@@ -148,11 +148,11 @@ The minimum storage that the analytics reporting database requires can vary. Thi
 
 This table shows the minimum amount of hardware resources that each application server or database server needs.
   
-|**Server**|**On host**|**Storage**|**RAM**|**Processor<sup>1</sup>**|**Network bandwidth**|
-|:-----|:-----|:-----|:-----|:-----|:-----|
-|Application server that has query processing and index components.  <br/> |A, B  <br/> |500 GB<sup>2,3</sup> <br/> |32 GB<sup>2,3</sup> <br/> |1.8 GHz 8x CPU cores<sup>2,3</sup> <br/> |1 Gbps  <br/> |
-|Application server that has crawl, search administration, analytics and content processing components.  <br/> |A, B  <br/> |200 GB  <br/> |8 GB  <br/> |1.8 GHz 4x CPU cores  <br/> |1 Gbps  <br/> |
-|Database server that has all search databases.  <br/> |C, D  <br/> |100 GB  <br/> |16 GB  <br/> |1.8 GHz 4x CPU cores  <br/> |1 Gbps  <br/> |
+|                                               **Server**                                               | **On host** |     **Storage**      |       **RAM**       |     **Processor<sup>1</sup>**      | **Network bandwidth** |
+| :----------------------------------------------------------------------------------------------------- | :---------- | :------------------- | :------------------ | :--------------------------------- | :-------------------- |
+| Application server that has query processing and index components.                                     | A, B        | 500 GB<sup>2,3</sup> | 32 GB<sup>2,3</sup> | 1.8 GHz 8x CPU cores<sup>2,3</sup> | 1 Gbps                |
+| Application server that has crawl, search administration, analytics and content processing components. | A, B        | 200 GB               | 8 GB                | 1.8 GHz 4x CPU cores               | 1 Gbps                |
+| Database server that has all search databases.                                                         | C, D        | 100 GB               | 16 GB               | 1.8 GHz 4x CPU cores               | 1 Gbps                |
    
 <sup>1</sup>The number of CPU cores is specified here, not the number of CPU threads.
   
@@ -165,13 +165,13 @@ This table shows the minimum amount of hardware resources that each application 
 
 This table shows the minimum amount of hardware resources that each application server or database server needs.
   
-|**Server**|**On host**|**Storage**|**RAM**|**Processor<sup>1</sup>**|**Network bandwidth**|
-|:-----|:-----|:-----|:-----|:-----|:-----|
-|Application server that has query processing and index components.  <br/> |A, B, C, D  <br/> |500 GB<sup>2,3</sup> <br/> |32 GB<sup>2,3</sup> <br/> |1.8 GHz 8x CPU cores<sup>2,3</sup> <br/> |1 Gbps  <br/> |
-|Application server that has an index component.  <br/> |A, B, C, D  <br/> |500 GB<sup>2,3</sup> <br/> |32 GB<sup>2,3</sup> <br/> |1.8 GHz 8x CPU cores<sup>2,3</sup> <br/> |1 Gbps  <br/> |
-|Application server that has analytics and content processing components.  <br/> |E, F  <br/> |300 GB  <br/> |8 GB  <br/> |1.8 GHz 4x CPU cores  <br/> |1 Gbps  <br/> |
-|Application server that has crawl, search administration, and content processing components.  <br/> |E, F  <br/> |100 GB  <br/> |8 GB  <br/> |1.8 GHz 4x CPU cores  <br/> |1 Gbps  <br/> |
-|Database server that has all search databases.  <br/> |G, H  <br/> |400 GB  <br/> |16 GB  <br/> |1.8 GHz 4x CPU cores  <br/> |1 Gbps  <br/> |
+|                                          **Server**                                          | **On host** |     **Storage**      |       **RAM**       |     **Processor<sup>1</sup>**      | **Network bandwidth** |
+| :------------------------------------------------------------------------------------------- | :---------- | :------------------- | :------------------ | :--------------------------------- | :-------------------- |
+| Application server that has query processing and index components.                           | A, B, C, D  | 500 GB<sup>2,3</sup> | 32 GB<sup>2,3</sup> | 1.8 GHz 8x CPU cores<sup>2,3</sup> | 1 Gbps                |
+| Application server that has an index component.                                              | A, B, C, D  | 500 GB<sup>2,3</sup> | 32 GB<sup>2,3</sup> | 1.8 GHz 8x CPU cores<sup>2,3</sup> | 1 Gbps                |
+| Application server that has analytics and content processing components.                     | E, F        | 300 GB               | 8 GB                | 1.8 GHz 4x CPU cores               | 1 Gbps                |
+| Application server that has crawl, search administration, and content processing components. | E, F        | 100 GB               | 8 GB                | 1.8 GHz 4x CPU cores               | 1 Gbps                |
+| Database server that has all search databases.                                               | G, H        | 400 GB               | 16 GB               | 1.8 GHz 4x CPU cores               | 1 Gbps                |
    
 <sup>1</sup>The number of CPU cores is specified here, not the number of CPU threads.
   
@@ -184,13 +184,13 @@ This table shows the minimum amount of hardware resources that each application 
 
 This table shows the minimum amount of hardware resources that each application server or database server needs.
   
-|**Server**|**On host**|**Storage**|**RAM**|**Processor<sup>1</sup>**|**Network bandwidth**|
-|:-----|:-----|:-----|:-----|:-----|:-----|
-|Application server that has query processing and index components.  <br/> |A, B, C, D, E, G, H  <br/> |500 GB<sup>2,3</sup> <br/> |32 GB<sup>2,3</sup> <br/> |1.8 GHz 8x CPU cores<sup>2,3</sup> <br/> |1 Gbps  <br/> |
-|Application server that has an index component.  <br/> |A, B, C, D, E, F, G, H, I, J  <br/> |500 GB<sup>2,3</sup> <br/> |32 GB<sup>2,3</sup> <br/> |1.8 GHz 8x CPU cores<sup>2,3</sup> <br/> |1 Gbps  <br/> |
-|Application servers that have analytics and content processing components  <br/> |K, L, M, N  <br/> |300 GB  <br/> |8 GB  <br/> |1.8 GHz 4x CPU cores  <br/> |1 Gbps  <br/> |
-|Application servers that have crawl and search administration components  <br/> |K, L  <br/> |100 GB  <br/> |8 GB  <br/> |1.8 GHz 4x CPU cores  <br/> |1 Gbps  <br/> |
-|Database server that have search databases  <br/> |O, P, Q, R  <br/> |500 GB  <br/> |16 GB  <br/> |1.8 GHz 4x CPU cores  <br/> |1 Gbps  <br/> |
+|                                **Server**                                 |         **On host**          |     **Storage**      |       **RAM**       |     **Processor<sup>1</sup>**      | **Network bandwidth** |
+| :------------------------------------------------------------------------ | :--------------------------- | :------------------- | :------------------ | :--------------------------------- | :-------------------- |
+| Application server that has query processing and index components.        | A, B, C, D, E, G, H          | 500 GB<sup>2,3</sup> | 32 GB<sup>2,3</sup> | 1.8 GHz 8x CPU cores<sup>2,3</sup> | 1 Gbps                |
+| Application server that has an index component.                           | A, B, C, D, E, F, G, H, I, J | 500 GB<sup>2,3</sup> | 32 GB<sup>2,3</sup> | 1.8 GHz 8x CPU cores<sup>2,3</sup> | 1 Gbps                |
+| Application servers that have analytics and content processing components | K, L, M, N                   | 300 GB               | 8 GB                | 1.8 GHz 4x CPU cores               | 1 Gbps                |
+| Application servers that have crawl and search administration components  | K, L                         | 100 GB               | 8 GB                | 1.8 GHz 4x CPU cores               | 1 Gbps                |
+| Database server that have search databases                                | O, P, Q, R                   | 500 GB               | 16 GB               | 1.8 GHz 4x CPU cores               | 1 Gbps                |
    
 <sup>2</sup>With SharePoint Server 2013 the minimum amount of resources needed are 500 GB RAM, 16 GB RAM, and four CPU cores. 
   
@@ -201,13 +201,13 @@ This table shows the minimum amount of hardware resources that each application 
 
 This table shows the minimum amount of hardware resources that each application server or database server needs. You can only build this sample farm with SharePoint Server 2016.
   
-|**Server**|**On host**|**Storage**|**RAM**|**Processor<sup>1</sup>**|**Network bandwidth**|
-|:-----|:-----|:-----|:-----|:-----|:-----|
-|Application server that has index components.  <br/> |A-X  <br/> |500 GB  <br/> |32 GB  <br/> |1.8 GHz 8x CPU cores  <br/> |1 Gbps  <br/> |
-|Application server that has query processing and index components.  <br/> |Y, Z  <br/> |500 GB  <br/> |32 GB  <br/> |1.8 GHz 8x CPU cores  <br/> |1 Gbps  <br/> |
-|Application servers that have crawl, search administration, or content processing components  <br/> |AA-AF  <br/> |100 GB  <br/> |8 GB  <br/> |1.8 GHz 4x CPU cores  <br/> |1 Gbps  <br/> |
-|Application servers that have analytics processing components  <br/> |AG, AH  <br/> |800 GB  <br/> |8 GB  <br/> |1.8 GHz 4x CPU cores  <br/> |1 Gbps  <br/> |
-|Database servers that have search databases  <br/> |AI-AL  <br/> |500 GB  <br/> |16 GB  <br/> |1.8 GHz 4x CPU cores  <br/> |1 Gbps  <br/> |
+|                                          **Server**                                          | **On host** | **Storage** | **RAM** | **Processor<sup>1</sup>** | **Network bandwidth** |
+| :------------------------------------------------------------------------------------------- | :---------- | :---------- | :------ | :------------------------ | :-------------------- |
+| Application server that has index components.                                                | A-X         | 500 GB      | 32 GB   | 1.8 GHz 8x CPU cores      | 1 Gbps                |
+| Application server that has query processing and index components.                           | Y, Z        | 500 GB      | 32 GB   | 1.8 GHz 8x CPU cores      | 1 Gbps                |
+| Application servers that have crawl, search administration, or content processing components | AA-AF       | 100 GB      | 8 GB    | 1.8 GHz 4x CPU cores      | 1 Gbps                |
+| Application servers that have analytics processing components                                | AG, AH      | 800 GB      | 8 GB    | 1.8 GHz 4x CPU cores      | 1 Gbps                |
+| Database servers that have search databases                                                  | AI-AL       | 500 GB      | 16 GB   | 1.8 GHz 4x CPU cores      | 1 Gbps                |
    
 <sup>1</sup>The number of CPU cores is specified here, not the number of CPU threads.
   
@@ -235,21 +235,21 @@ If you deploy shared storage like SAN/NAS, the peak disk load of one search comp
 #### Search component IOPS requirements
 <a name="BKMK_SearchCompIOPS"> </a>
 
-|**Component name**|**Component details**|**IOPS requirements**|**Use of separate storage volume/partition**|
-|:-----|:-----|:-----|:-----|
-|Index component  <br/> |Uses storage when merging the index and when handling and responding to queries.  <br/> | 300 IOPS for 64 KB random reads.  <br/>  100 IOPS for 256 KB random writes.  <br/>  200 MB/s for sequential reads.  <br/>  200 MB/s for sequential writes.  <br/> |Yes  <br/> |
-|Analytics component  <br/> |Analyzes data locally, in bulk processing.  <br/> |No  <br/> |Yes  <br/> |
-|Crawl component  <br/> |Stores downloaded content locally, before it sends it to a content processing component. Storage is limited by network bandwidth.  <br/> |No  <br/> |Yes  <br/> |
+| **Component name**  |                                                       **Component details**                                                       |                                                                       **IOPS requirements**                                                                       | **Use of separate storage volume/partition** |
+| :------------------ | :-------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------- |
+| Index component     | Uses storage when merging the index and when handling and responding to queries.                                                  | 300 IOPS for 64 KB random reads.  <br/>  100 IOPS for 256 KB random writes.  <br/>  200 MB/s for sequential reads.  <br/>  200 MB/s for sequential writes.  <br/> | Yes                                          |
+| Analytics component | Analyzes data locally, in bulk processing.                                                                                        | No                                                                                                                                                                | Yes                                          |
+| Crawl component     | Stores downloaded content locally, before it sends it to a content processing component. Storage is limited by network bandwidth. | No                                                                                                                                                                | Yes                                          |
    
 #### Search database IOPS requirements
 <a name="BKMK_SearchDBIOPS"> </a>
 
-|**Database name**|**IOPS requirements**|**Typical load on I/O subsystem.**|
-|:-----|:-----|:-----|
-|Crawl database  <br/> |Medium to high IOPS  <br/> |10 IOPS per 1 document per second (DPS) crawl rate.  <br/> |
-|Link database  <br/> |Medium IOPS  <br/> |10 IOPS per 1 million items in the search index.  <br/> |
-|Search administration database  <br/> |Low IOPS  <br/> |Not applicable.  <br/> |
-|Analytics reporting database  <br/> |Medium IOPS  <br/> |Not applicable.  <br/> |
+|       **Database name**        | **IOPS requirements** |         **Typical load on I/O subsystem.**          |
+| :----------------------------- | :-------------------- | :-------------------------------------------------- |
+| Crawl database                 | Medium to high IOPS   | 10 IOPS per 1 document per second (DPS) crawl rate. |
+| Link database                  | Medium IOPS           | 10 IOPS per 1 million items in the search index.    |
+| Search administration database | Low IOPS              | Not applicable.                                     |
+| Analytics reporting database   | Medium IOPS           | Not applicable.                                     |
    
 #### Choose how your search architecture supports high availability
 <a name="BKMK_HiAvail"> </a>

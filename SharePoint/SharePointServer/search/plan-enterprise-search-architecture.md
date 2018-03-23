@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 9/8/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.prod:  sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 2b2c3b2a-49f3-4c96-9efd-0d557f0332db
@@ -55,12 +55,12 @@ For example, if you're starting out with 12,000 indexed items, and you expect th
 
 It's not always easy to assess how big or small to make your search architecture. The size of your search architecture depends on the volume of your content, the crawl rate, the query throughput, and the level of high availability that you require. There are sample search architectures that we advise using as a basis to plan your own farm. The sample search architecture that you choose depends on how much content has to be searchable:
   
-|**Volume of content (SharePoint 2016)**|**Sample search architecture**|**Volume of content (SharePoint 2013)**|
-|:-----|:-----|:-----|
-|0-20 million items  <br/> |Small search farm  <br/> |0-10 million items  <br/> |
-|0-80 million items  <br/> |Medium search farm  <br/> |0-40 million items  <br/> |
-|0-200 million items  <br/> |Large search farm  <br/> |0-100 million items  <br/> |
-|0-500 million items  <br/> |Extra large search farm  <br/> |Not supported  <br/> |
+| **Volume of content (SharePoint 2016)** | **Sample search architecture** | **Volume of content (SharePoint 2013)** |
+| :-------------------------------------- | :----------------------------- | :-------------------------------------- |
+| 0-20 million items                      | Small search farm              | 0-10 million items                      |
+| 0-80 million items                      | Medium search farm             | 0-40 million items                      |
+| 0-200 million items                     | Large search farm              | 0-100 million items                     |
+| 0-500 million items                     | Extra large search farm        | Not supported                           |
    
 Although these sample search architectures use virtual machines, you can use both physical servers and virtual machines according to the strategy of the overall SharePoint Server solution of your search architecture.
   
@@ -117,9 +117,9 @@ Now that you've determined the volume of your content and chosen a sample search
     
   - [Choose storage](plan-enterprise-search-architecture.md#BKMK_ChooseStoragePerf)
     
-  - [Search component IOPS requirements](plan-enterprise-search-architecture.md#BKMK_SearchCompIOPS)
+    - [Search component IOPS requirements](plan-enterprise-search-architecture.md#BKMK_SearchCompIOPS)
     
-  - [Search database IOPS requirements](plan-enterprise-search-architecture.md#BKMK_SearchDBIOPS)
+    - [Search database IOPS requirements](plan-enterprise-search-architecture.md#BKMK_SearchDBIOPS)
     
 - [Choose how your search architecture supports high availability](plan-enterprise-search-architecture.md#BKMK_HiAvail)
     
@@ -153,11 +153,11 @@ The minimum storage that the analytics reporting database requires can vary. Thi
 
 This table shows the minimum amount of hardware resources that each application server or database server needs.
   
-|**Server**|**On host**|**Storage**|**RAM**|**Processor<sup>1</sup>**|**Network bandwidth**|
-|:-----|:-----|:-----|:-----|:-----|:-----|
-|Application server that has query processing and index components.  <br/> |A, B  <br/> |500 GB<sup>2,3</sup> <br/> |32 GB<sup>2,3</sup> <br/> |1.8 GHz 8x CPU cores<sup>2,3</sup> <br/> |1 Gbps  <br/> |
-|Application server that has crawl, search administration, analytics and content processing components.  <br/> |A, B  <br/> |200 GB  <br/> |8 GB  <br/> |1.8 GHz 4x CPU cores  <br/> |1 Gbps  <br/> |
-|Database server that has all search databases.  <br/> |C, D  <br/> |100 GB  <br/> |16 GB  <br/> |1.8 GHz 4x CPU cores  <br/> |1 Gbps  <br/> |
+|                                               **Server**                                               | **On host** |     **Storage**      |       **RAM**       |     **Processor<sup>1</sup>**      | **Network bandwidth** |
+| :----------------------------------------------------------------------------------------------------- | :---------- | :------------------- | :------------------ | :--------------------------------- | :-------------------- |
+| Application server that has query processing and index components.                                     | A, B        | 500 GB<sup>2,3</sup> | 32 GB<sup>2,3</sup> | 1.8 GHz 8x CPU cores<sup>2,3</sup> | 1 Gbps                |
+| Application server that has crawl, search administration, analytics and content processing components. | A, B        | 200 GB               | 8 GB                | 1.8 GHz 4x CPU cores               | 1 Gbps                |
+| Database server that has all search databases.                                                         | C, D        | 100 GB               | 16 GB               | 1.8 GHz 4x CPU cores               | 1 Gbps                |
    
 <sup>1</sup>The number of CPU cores is specified here, not the number of CPU threads.
   
@@ -170,13 +170,13 @@ This table shows the minimum amount of hardware resources that each application 
 
 This table shows the minimum amount of hardware resources that each application server or database server needs.
   
-|**Server**|**On host**|**Storage**|**RAM**|**Processor<sup>1</sup>**|**Network bandwidth**|
-|:-----|:-----|:-----|:-----|:-----|:-----|
-|Application server that has query processing and index components.  <br/> |A, B, C, D  <br/> |500 GB<sup>2,3</sup> <br/> |32 GB<sup>2,3</sup> <br/> |1.8 GHz 8x CPU cores<sup>2,3</sup> <br/> |1 Gbps  <br/> |
-|Application server that has an index component.  <br/> |A, B, C, D  <br/> |500 GB<sup>2,3</sup> <br/> |32 GB<sup>2,3</sup> <br/> |1.8 GHz 8x CPU cores<sup>2,3</sup> <br/> |1 Gbps  <br/> |
-|Application server that has analytics and content processing components.  <br/> |E, F  <br/> |300 GB  <br/> |8 GB  <br/> |1.8 GHz 4x CPU cores  <br/> |1 Gbps  <br/> |
-|Application server that has crawl, search administration, and content processing components.  <br/> |E, F  <br/> |100 GB  <br/> |8 GB  <br/> |1.8 GHz 4x CPU cores  <br/> |1 Gbps  <br/> |
-|Database server that has all search databases.  <br/> |G, H  <br/> |400 GB  <br/> |16 GB  <br/> |1.8 GHz 4x CPU cores  <br/> |1 Gbps  <br/> |
+|                                          **Server**                                          | **On host** |     **Storage**      |       **RAM**       |     **Processor<sup>1</sup>**      | **Network bandwidth** |
+| :------------------------------------------------------------------------------------------- | :---------- | :------------------- | :------------------ | :--------------------------------- | :-------------------- |
+| Application server that has query processing and index components.                           | A, B, C, D  | 500 GB<sup>2,3</sup> | 32 GB<sup>2,3</sup> | 1.8 GHz 8x CPU cores<sup>2,3</sup> | 1 Gbps                |
+| Application server that has an index component.                                              | A, B, C, D  | 500 GB<sup>2,3</sup> | 32 GB<sup>2,3</sup> | 1.8 GHz 8x CPU cores<sup>2,3</sup> | 1 Gbps                |
+| Application server that has analytics and content processing components.                     | E, F        | 300 GB               | 8 GB                | 1.8 GHz 4x CPU cores               | 1 Gbps                |
+| Application server that has crawl, search administration, and content processing components. | E, F        | 100 GB               | 8 GB                | 1.8 GHz 4x CPU cores               | 1 Gbps                |
+| Database server that has all search databases.                                               | G, H        | 400 GB               | 16 GB               | 1.8 GHz 4x CPU cores               | 1 Gbps                |
    
 <sup>1</sup>The number of CPU cores is specified here, not the number of CPU threads.
   
@@ -189,13 +189,13 @@ This table shows the minimum amount of hardware resources that each application 
 
 This table shows the minimum amount of hardware resources that each application server or database server needs.
   
-|**Server**|**On host**|**Storage**|**RAM**|**Processor<sup>1</sup>**|**Network bandwidth**|
-|:-----|:-----|:-----|:-----|:-----|:-----|
-|Application server that has query processing and index components.  <br/> |A, B, C, D, E, G, H  <br/> |500 GB<sup>2, 3</sup> <br/> |32 GB<sup>2, 3</sup> <br/> |1.8 GHz 8x CPU cores<sup>2, 3</sup> <br/> |1 Gbps  <br/> |
-|Application server that has an index component.  <br/> |A, B, C, D, E, F, G, H, I, J  <br/> |500 GB<sup>2, 3</sup> <br/> |32 GB<sup>2, 3</sup> <br/> |1.8 GHz 8x CPU cores<sup>2, 3</sup> <br/> |1 Gbps  <br/> |
-|Application servers that have analytics and content processing components  <br/> |K, L, M, N  <br/> |300 GB  <br/> |8 GB  <br/> |1.8 GHz 4x CPU cores  <br/> |1 Gbps  <br/> |
-|Application servers that have crawl and search administration components  <br/> |K, L  <br/> |100 GB  <br/> |8 GB  <br/> |1.8 GHz 4x CPU cores  <br/> |1 Gbps  <br/> |
-|Database server that have search databases  <br/> |O, P, Q, R  <br/> |500 GB  <br/> |16 GB  <br/> |1.8 GHz 4x CPU cores  <br/> |1 Gbps  <br/> |
+|                                **Server**                                 |         **On host**          |      **Storage**      |       **RAM**        |      **Processor<sup>1</sup>**      | **Network bandwidth** |
+| :------------------------------------------------------------------------ | :--------------------------- | :-------------------- | :------------------- | :---------------------------------- | :-------------------- |
+| Application server that has query processing and index components.        | A, B, C, D, E, G, H          | 500 GB<sup>2, 3</sup> | 32 GB<sup>2, 3</sup> | 1.8 GHz 8x CPU cores<sup>2, 3</sup> | 1 Gbps                |
+| Application server that has an index component.                           | A, B, C, D, E, F, G, H, I, J | 500 GB<sup>2, 3</sup> | 32 GB<sup>2, 3</sup> | 1.8 GHz 8x CPU cores<sup>2, 3</sup> | 1 Gbps                |
+| Application servers that have analytics and content processing components | K, L, M, N                   | 300 GB                | 8 GB                 | 1.8 GHz 4x CPU cores                | 1 Gbps                |
+| Application servers that have crawl and search administration components  | K, L                         | 100 GB                | 8 GB                 | 1.8 GHz 4x CPU cores                | 1 Gbps                |
+| Database server that have search databases                                | O, P, Q, R                   | 500 GB                | 16 GB                | 1.8 GHz 4x CPU cores                | 1 Gbps                |
    
 <sup>1</sup>The number of CPU cores is specified here, not the number of CPU threads.
   
@@ -208,13 +208,13 @@ This table shows the minimum amount of hardware resources that each application 
 
 This table shows the minimum amount of hardware resources that each application server or database server needs. You can only build this sample farm with SharePoint Server 2016.
   
-|**Server**|**On host**|**Storage**|**RAM**|**Processor<sup>1</sup>**|**Network bandwidth**|
-|:-----|:-----|:-----|:-----|:-----|:-----|
-|Application server that has index components.  <br/> |A-X  <br/> |500 GB  <br/> |32 GB  <br/> |1.8 GHz 8x CPU cores  <br/> |1 Gbps  <br/> |
-|Application server that has query processing and index components.  <br/> |Y, Z  <br/> |500 GB  <br/> |32 GB  <br/> |1.8 GHz 8x CPU cores  <br/> |1 Gbps  <br/> |
-|Application servers that have crawl, search administration, or content processing components  <br/> |AA-AF  <br/> |100 GB  <br/> |8 GB  <br/> |1.8 GHz 4x CPU cores  <br/> |1 Gbps  <br/> |
-|Application servers that have analytics processing components  <br/> |AG, AH  <br/> |800 GB  <br/> |8 GB  <br/> |1.8 GHz 4x CPU cores  <br/> |1 Gbps  <br/> |
-|Database servers that have search databases  <br/> |AI-AL  <br/> |500 GB  <br/> |16 GB  <br/> |1.8 GHz 4x CPU cores  <br/> |1 Gbps  <br/> |
+|                                          **Server**                                          | **On host** | **Storage** | **RAM** | **Processor<sup>1</sup>** | **Network bandwidth** |
+| :------------------------------------------------------------------------------------------- | :---------- | :---------- | :------ | :------------------------ | :-------------------- |
+| Application server that has index components.                                                | A-X         | 500 GB      | 32 GB   | 1.8 GHz 8x CPU cores      | 1 Gbps                |
+| Application server that has query processing and index components.                           | Y, Z        | 500 GB      | 32 GB   | 1.8 GHz 8x CPU cores      | 1 Gbps                |
+| Application servers that have crawl, search administration, or content processing components | AA-AF       | 100 GB      | 8 GB    | 1.8 GHz 4x CPU cores      | 1 Gbps                |
+| Application servers that have analytics processing components                                | AG, AH      | 800 GB      | 8 GB    | 1.8 GHz 4x CPU cores      | 1 Gbps                |
+| Database servers that have search databases                                                  | AI-AL       | 500 GB      | 16 GB   | 1.8 GHz 4x CPU cores      | 1 Gbps                |
    
 <sup>1</sup>The number of CPU cores is specified here, not the number of CPU threads.
   
@@ -242,21 +242,21 @@ If you deploy shared storage like SAN/NAS, the peak disk load of one search comp
 #### Search component IOPS requirements
 <a name="BKMK_SearchCompIOPS"> </a>
 
-|**Component name**|**Component details**|**IOPS requirements**|**Use of separate storage volume/partition**|
-|:-----|:-----|:-----|:-----|
-|Index component  <br/> |Uses storage when merging the index and when handling and responding to queries.  <br/> | 300 IOPS for 64 KB random reads.  <br/>  100 IOPS for 256 KB random writes.  <br/>  200 MB/s for sequential reads.  <br/>  200 MB/s for sequential writes.  <br/> |Yes  <br/> |
-|Analytics component  <br/> |Analyzes data locally, in bulk processing.  <br/> |No  <br/> |Yes  <br/> |
-|Crawl component  <br/> |Stores downloaded content locally, before it sends it to a content processing component. Storage is limited by network bandwidth.  <br/> |No  <br/> |Yes  <br/> |
+| **Component name**  |                                                       **Component details**                                                       |                                                                   **IOPS requirements**                                                                    | **Use of separate storage volume/partition** |
+| :------------------ | :-------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------- |
+| Index component     | Uses storage when merging the index and when handling and responding to queries.                                                  | 300 IOPS for 64 KB random reads.  <br/>  100 IOPS for 256 KB random writes.  <br/>  200 MB/s for sequential reads.  <br/>  200 MB/s for sequential writes. | Yes                                          |
+| Analytics component | Analyzes data locally, in bulk processing.                                                                                        | No                                                                                                                                                         | Yes                                          |
+| Crawl component     | Stores downloaded content locally, before it sends it to a content processing component. Storage is limited by network bandwidth. | No                                                                                                                                                         | Yes                                          |
    
 #### Search database IOPS requirements
 <a name="BKMK_SearchDBIOPS"> </a>
 
-|**Database name**|**IOPS requirements**|**Typical load on I/O subsystem.**|
-|:-----|:-----|:-----|
-|Crawl database  <br/> |Medium to high IOPS  <br/> |10 IOPS per 1 document per second (DPS) crawl rate.  <br/> |
-|Link database  <br/> |Medium IOPS  <br/> |10 IOPS per 1 million items in the search index.  <br/> |
-|Search administration database  <br/> |Low IOPS  <br/> |Not applicable.  <br/> |
-|Analytics reporting database  <br/> |Medium IOPS  <br/> |Not applicable.  <br/> |
+|       **Database name**        | **IOPS requirements** |         **Typical load on I/O subsystem.**          |
+| :----------------------------- | :-------------------- | :-------------------------------------------------- |
+| Crawl database                 | Medium to high IOPS   | 10 IOPS per 1 document per second (DPS) crawl rate. |
+| Link database                  | Medium IOPS           | 10 IOPS per 1 million items in the search index.    |
+| Search administration database | Low IOPS              | Not applicable.                                     |
+| Analytics reporting database   | Medium IOPS           | Not applicable.                                     |
    
 ### Choose how your search architecture supports high availability
 <a name="BKMK_HiAvail"> </a>
@@ -322,12 +322,12 @@ It's a good idea to measure:
     
 The table below shows the SQLIO commands that you should use to run each test. All the commands assume that the "testfile" exists in the current directory. Each test runs for 300 seconds.
   
-|**Test number**|**Scope**|**Command**|
-|:-----|:-----|:-----|
-|1  <br/> |64 KB read [IOPS]  <br/> | `sqlio.exe -kR -t4 -o25 -b64 -frandom -s300 testfile` <br/> |
-|2  <br/> |256 KB write [IOPS]  <br/> | `sqlio.exe -kW -t4 -o25 -b256 -frandom -s300 testfile` <br/> |
-|3  <br/> |100 MB read [MB/s]  <br/> | `sqlio.exe -kR -t1 -o1 -b100000 -frandom -s300 testfile` <br/> |
-|4  <br/> |100 MB write [MB/s]  <br/> | `sqlio.exe -kW -t1 -o1 -b100000 -frandom -s300 testfile` <br/> |
+| **Test number** |      **Scope**      |                       **Command**                        |
+| :-------------- | :------------------ | :------------------------------------------------------- |
+| 1               | 64 KB read [IOPS]   | `sqlio.exe -kR -t4 -o25 -b64 -frandom -s300 testfile`    |
+| 2               | 256 KB write [IOPS] | `sqlio.exe -kW -t4 -o25 -b256 -frandom -s300 testfile`   |
+| 3               | 100 MB read [MB/s]  | `sqlio.exe -kR -t1 -o1 -b100000 -frandom -s300 testfile` |
+| 4               | 100 MB write [MB/s] | `sqlio.exe -kW -t1 -o1 -b100000 -frandom -s300 testfile` |
    
 #### Example results for local disk storage
 <a name="BKMK_ExampleDiskResults"> </a>
@@ -338,17 +338,17 @@ The disk controller and the spindles of the disk strongly influence these result
   
 If you test on empty disks, you'll get elevated results because the test file will be in the most optimal tracks across all spindles (short stroking). This can increase performance by up to two or three times. You'll get unrealistically high results if you test a hard disk that optimizes away accesses on uninitialized storage space, or storage containing all zeros, for example dynamic VHD/VHDX files. In this case, use a very large test file that contains real data, rather than generating a synthetic test file using SQLIO commands.
   
-|||||||
-|:-----|:-----|:-----|:-----|:-----|:-----|
-|Disk layout  <br/> |Test 1  <br/> |Test 2  <br/> |Test 3  <br/> |Test 4  <br/> ||
-|Recommended minimum IOPS during ordinary operations  <br/> |300  <br/> |100  <br/> |200  <br/> |200  <br/> ||
-|4x 1 TB 7200 RPM NLSAS in RAID5 on Dell H710 RAID controller (64kB stripe size, 64kB block size)  <br/> |1181  <br/> |206  <br/> |284  <br/> |296  <br/> ||
-|8x 1TB 7200 RPM NLSAS in RAID5 on Dell H710 RAID controller (64kB stripe size, 64kB block size)  <br/> |2082  <br/> |337  <br/> |610  <br/> |645  <br/> ||
-|16x 1TB 7200 RPM NLSAS in RAID5 on Dell H710 RAID controller (64kB stripe size, 64kB block size)  <br/> |3763  <br/> |595  <br/> |1173  <br/> |1181  <br/> ||
-|16x 1TB 7200 RPM NLSAS in RAID50 (2x8) on Dell H710 RAID controller (64kB stripe size, 64kB block size)  <br/> |3613  <br/> |545  <br/> |1139  <br/> |1164  <br/> ||
-|16x 1TB 7200 RPM NLSAS in RAID10 on Dell H710 RAID controller (256kB stripe size, 64kB block size)  <br/> |4030  <br/> |1146  <br/> |970  <br/> |775  <br/> ||
-|4x SmartStorage Optimus 800GB SSDs in RAID5 on Dell H710 RAID controller (64kB stripe size, 64kB block size)  <br/> |32385  <br/> |3781  <br/> |1714  <br/> |1319  <br/> ||
-|4x SmartStorage Optimus 800GB SSDs in RAID0 on Dell H710 RAID controller (256kB stripe size, 64kB block size)  <br/> |31747  <br/> |7149  <br/> |1643  <br/> |1798  <br/> ||
+|                                                                                                               |        |        |        |        |      |
+| :------------------------------------------------------------------------------------------------------------ | :----- | :----- | :----- | :----- | :--- |
+| Disk layout                                                                                                   | Test 1 | Test 2 | Test 3 | Test 4 |      |
+| Recommended minimum IOPS during ordinary operations                                                           | 300    | 100    | 200    | 200    |      |
+| 4x 1 TB 7200 RPM NLSAS in RAID5 on Dell H710 RAID controller (64kB stripe size, 64kB block size)              | 1181   | 206    | 284    | 296    |      |
+| 8x 1TB 7200 RPM NLSAS in RAID5 on Dell H710 RAID controller (64kB stripe size, 64kB block size)               | 2082   | 337    | 610    | 645    |      |
+| 16x 1TB 7200 RPM NLSAS in RAID5 on Dell H710 RAID controller (64kB stripe size, 64kB block size)              | 3763   | 595    | 1173   | 1181   |      |
+| 16x 1TB 7200 RPM NLSAS in RAID50 (2x8) on Dell H710 RAID controller (64kB stripe size, 64kB block size)       | 3613   | 545    | 1139   | 1164   |      |
+| 16x 1TB 7200 RPM NLSAS in RAID10 on Dell H710 RAID controller (256kB stripe size, 64kB block size)            | 4030   | 1146   | 970    | 775    |      |
+| 4x SmartStorage Optimus 800GB SSDs in RAID5 on Dell H710 RAID controller (64kB stripe size, 64kB block size)  | 32385  | 3781   | 1714   | 1319   |      |
+| 4x SmartStorage Optimus 800GB SSDs in RAID0 on Dell H710 RAID controller (256kB stripe size, 64kB block size) | 31747  | 7149   | 1643   | 1798   |      ||
    
 ### Test the search performance
 <a name="BKMK_TestSearchPerf"> </a>

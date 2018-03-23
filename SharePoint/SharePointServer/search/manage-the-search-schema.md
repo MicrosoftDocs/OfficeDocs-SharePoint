@@ -102,8 +102,8 @@ Before you begin this operation, review the following information about prerequi
     
   - Complete Matching
     
-    > [!IMPORTANT]
-    > If you want to be able to use this managed property as a refiner, you must select both Refinable and Queryable. 
+  > [!IMPORTANT]
+  > If you want to be able to use this managed property as a refiner, you must select both Refinable and Queryable. 
   
 9. In the **Mappings to crawled properties** section, click **Add a mapping**.
     
@@ -203,8 +203,8 @@ You have to perform a full crawl of the content source that includes the crawled
     
   - To **edit** a category, point to the crawled property category that you want to edit, click the arrow, and then click **Edit category**.
     
-    > [!CAUTION]
-    > If you edit a crawled property category, your changes apply to all of the crawled properties within the category. Changing a crawled property category can influence performance and how items are saved in the search index. You also have to reindex the content. 
+  > [!CAUTION]
+  > If you edit a crawled property category, your changes apply to all of the crawled properties within the category. Changing a crawled property category can influence performance and how items are saved in the search index. You also have to reindex the content. 
   
 ## Add a managed property using tenant administration or site collection administration
 <a name="proc7"> </a>
@@ -300,17 +300,17 @@ The full reindex of the list or library will be performed during the next schedu
 
 The following table provides an overview of the default unused managed properties that you can reuse and rename using an Alias.
   
-|**Managed property type**|**Count**|**Managed property characteristics**|**Managed property name range**|
-|:-----|:-----|:-----|:-----|
-|Date  <br/> |10  <br/> |Queryable  <br/> |Date00 to Date09  <br/> |
-|Date  <br/> |20  <br/> |Multivalued, Queryable, Refinable, Sortable, Retrievable  <br/> |RefinableDate00 to RefinableDate19  <br/> |
-|Decimal  <br/> |10  <br/> |Queryable  <br/> |Decimal00 to Decimal09  <br/> |
-|Decimal  <br/> |10  <br/> |Multivalued, Queryable, Refinable, Sortable, Retrievable  <br/> |RefinableDecimal00 to RefinableDecimal09  <br/> |
-|Double  <br/> |10  <br/> |Queryable  <br/> |Double00 to Double09  <br/> |
-|Double  <br/> |10  <br/> |Multivalued, Queryable, Refinable, Sortable, Retrievable  <br/> |RefinableDouble00 to RefinableDouble09  <br/> |
-|Integer  <br/> |50  <br/> |Queryable  <br/> |Int00 to Int49  <br/> |
-|Integer  <br/> |50  <br/> |Multivalued, Queryable, Refinable, Sortable, Retrievable  <br/> |RefinableInt00 to RefinableInt49  <br/> |
-|String  <br/> |100  <br/> |Multivalued, Queryable, Refinable, Sortable, Retrievable  <br/> |RefinableString00 to RefinableString99  <br/> |
+| **Managed property type** | **Count** |           **Managed property characteristics**           |     **Managed property name range**      |
+| :------------------------ | :-------- | :------------------------------------------------------- | :--------------------------------------- |
+| Date                      | 10        | Queryable                                                | Date00 to Date09                         |
+| Date                      | 20        | Multivalued, Queryable, Refinable, Sortable, Retrievable | RefinableDate00 to RefinableDate19       |
+| Decimal                   | 10        | Queryable                                                | Decimal00 to Decimal09                   |
+| Decimal                   | 10        | Multivalued, Queryable, Refinable, Sortable, Retrievable | RefinableDecimal00 to RefinableDecimal09 |
+| Double                    | 10        | Queryable                                                | Double00 to Double09                     |
+| Double                    | 10        | Multivalued, Queryable, Refinable, Sortable, Retrievable | RefinableDouble00 to RefinableDouble09   |
+| Integer                   | 50        | Queryable                                                | Int00 to Int49                           |
+| Integer                   | 50        | Multivalued, Queryable, Refinable, Sortable, Retrievable | RefinableInt00 to RefinableInt49         |
+| String                    | 100       | Multivalued, Queryable, Refinable, Sortable, Retrievable | RefinableString00 to RefinableString99   |
    
  **How to use an Alias: an example**
   
@@ -325,22 +325,22 @@ Say that you want to create a managed property that contains employee numbers, a
 ## Search schema changes that require content to be reindexed
 <a name="Schema_Reindex_Table"> </a>
 
-|**Managed property setting**|**Action**|**Requires a full crawl to reindex**|
-|:-----|:-----|:-----|
-|Mapping a crawled to a managed property  <br/> |Add/Delete mapping  <br/> |Yes  <br/> |
-|Token normalization  <br/> |Enable/Disable  <br/> |Yes  <br/> |
-|Complete matching  <br/> |Enable/Disable  <br/> |Yes  <br/> |
-|Company name extraction  <br/> |Enable/Disable  <br/> |Yes  <br/> |
-|Custom entity extraction  <br/> |Enable/Disable  <br/> |Yes  <br/> |
-|Searchable  <br/> |Enable/Disable  <br/> |Yes  <br/> |
-|Queryable  <br/> |Enable  <br/> |Yes  <br/> |
-|Queryable  <br/> |Disable  <br/> |No  <br/> |
-|Retrievable  <br/> |Enable  <br/> |Yes  <br/> |
-|Retrievable  <br/> |Disable  <br/> |No  <br/> |
-|Refinable  <br/> |Enable (if not already Sortable)  <br/> |Yes  <br/> |
-|Refinable  <br/> |Disable  <br/> |No  <br/> |
-|Sortable  <br/> |Enable (if not already Refinable)  <br/> |Yes  <br/> |
-|Sortable  <br/> |Disable  <br/> |No  <br/> |
-|Alias  <br/> |Add/Delete  <br/> |No  <br/> |
+|      **Managed property setting**       |            **Action**             | **Requires a full crawl to reindex** |
+| :-------------------------------------- | :-------------------------------- | :----------------------------------- |
+| Mapping a crawled to a managed property | Add/Delete mapping                | Yes                                  |
+| Token normalization                     | Enable/Disable                    | Yes                                  |
+| Complete matching                       | Enable/Disable                    | Yes                                  |
+| Company name extraction                 | Enable/Disable                    | Yes                                  |
+| Custom entity extraction                | Enable/Disable                    | Yes                                  |
+| Searchable                              | Enable/Disable                    | Yes                                  |
+| Queryable                               | Enable                            | Yes                                  |
+| Queryable                               | Disable                           | No                                   |
+| Retrievable                             | Enable                            | Yes                                  |
+| Retrievable                             | Disable                           | No                                   |
+| Refinable                               | Enable (if not already Sortable)  | Yes                                  |
+| Refinable                               | Disable                           | No                                   |
+| Sortable                                | Enable (if not already Refinable) | Yes                                  |
+| Sortable                                | Disable                           | No                                   |
+| Alias                                   | Add/Delete                        | No                                   |
    
 

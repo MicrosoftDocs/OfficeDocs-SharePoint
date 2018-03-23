@@ -33,7 +33,6 @@ You could also customize the default **Excel Item** display template for this pu
     
 - [Display template reference in SharePoint Server](../technical-reference/display-template-reference-in-sharepoint-server.md)
     
-## 
 
 > [!NOTE]
 > Because SharePoint Server runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server supports the accessibility features of supported browsers. For more information, see the following resources: 
@@ -54,15 +53,15 @@ You could also customize the default **Excel Item** display template for this pu
     
   - If you want to create a result type for a site collection:
     
-  - Ensure that you are an administrator for the site collection. 
+    - Ensure that you are an administrator for the site collection. 
     
-  - In the site collection, go to **Settings** > **Site settings**, and then in the **Site Collection Administration** section, click **Search Result Types**.
+    - In the site collection, go to **Settings** > **Site settings**, and then in the **Site Collection Administration** section, click **Search Result Types**.
     
   - If you want to create a result type for a site:
     
-  - Ensure that you are a site owner for the site. 
+    - Ensure that you are a site owner for the site. 
     
-  - On the site, go to **Settings** > **Site settings**, and then in the **Search** section, click **Result Types**.
+    - On the site, go to **Settings** > **Site settings**, and then in the **Search** section, click **Result Types**.
     
 2. To create a result type, do one of the following on the Manage Result Types page:
     

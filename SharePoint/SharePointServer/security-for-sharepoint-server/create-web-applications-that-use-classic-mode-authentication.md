@@ -24,7 +24,7 @@ In SharePoint Server, claims-based authentication is the default and preferred m
 > [!IMPORTANT]
 > Office Online can be used only by SharePoint Server web applications that use claims-based authentication. Office Online rendering and editing will not work on SharePoint Server web applications that use classic mode authentication. If you migrate SharePoint 2010 web applications that use classic mode authentication to SharePoint Server 2016, you must migrate them to claims-based authentication to allow them to work with Office Online. For more information, see [Use Office Web Apps with SharePoint 2013](https://technet.microsoft.com/library/8a58e6c2-9a0e-4355-ae41-4df25e5e6eee.aspx). 
   
-To use Windows claims-based authentication instead (recommended), see [Create a web application that uses Windows-claims authentication](create-claims-based-web-applications). To convert a web application that uses classic mode to use claims-based authentication, see [Migrate from classic-mode to claims-based authentication in SharePoint Server](https://technet.microsoft.com/library/e3e3d0b8-8ba0-4495-8650-e2e9dfb5fa6a).
+To use Windows claims-based authentication instead (recommended), see [Create a web application that uses Windows-claims authentication](create-claims-based-web-applications.md). To convert a web application that uses classic mode to use claims-based authentication, see [Migrate from classic-mode to claims-based authentication in SharePoint Server](https://technet.microsoft.com/library/e3e3d0b8-8ba0-4495-8650-e2e9dfb5fa6a).
   
 > [!IMPORTANT]
 > The steps in this article apply to both SharePoint Foundation 2013 and SharePoint Server. 
@@ -45,8 +45,7 @@ Before you perform this procedure, confirm the following:
 - If you use Secure Sockets Layer (SSL), you must associate the SSL certificate with the web application's IIS website after the IIS website is created. SSL is required by default for web applications that are used in server-to-server authentication and app authentication scenarios. 
     
 - You understand host-named site collections.
-    
-    For more information, see [Host-named site collections planning](host-named-site-collection-architecture-and-deployment).
+
     
 ## Create a web application that uses classic mode authentication with PowerShell
 <a name="begin"> </a>
@@ -109,7 +108,7 @@ After you successfully create the web application, when you open the Central Adm
 
 #### Concepts
 
-[Create a Web application that uses Windows-claims authentication)](create-claims-based-web-applications)
+[Create a Web application that uses Windows-claims authentication)](create-claims-based-web-applications.md)
 #### Other Resources
 
 [Plan for user authentication methods in SharePoint Server](https://technet.microsoft.com/library/40117fda-70a0-4e3d-8cd3-0def768da16c)

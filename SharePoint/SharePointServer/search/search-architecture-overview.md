@@ -29,23 +29,23 @@ The following tables show an overview of all the available search components and
   
 **Search components**
 
-|**Search component name**|**Description**|
-|:-----|:-----|
-|Crawl component  <br/> |Crawls content sources to collect crawled properties and metadata from crawled items and sends this information to the content processing component.  <br/> |
-|Content processing component  <br/> |Transforms the crawled items and sends them to the index component. This component also maps crawled properties to managed properties.  <br/> |
-|Analytics processing component  <br/> |Carries out search analytics and usage analytics.  <br/> |
-|Index component  <br/> |Receives the processed items from the content processing component and writes them to the search index. This component also handles incoming queries, retrieves information from the search index and sends back the result set to the query processing component.  <br/> |
-|Query processing component  <br/> |Analyzes incoming queries. This helps optimize precision, recall and relevance. The queries are sent to the index component, which returns a set of search results for the query.  <br/> |
-|Search administration component  <br/> |Runs the system processes for search, and adds and initializes new instances of search components.  <br/> |
+|    **Search component name**    |                                                                                                                          **Description**                                                                                                                           |
+| :------------------------------ | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Crawl component                 | Crawls content sources to collect crawled properties and metadata from crawled items and sends this information to the content processing component.                                                                                                               |
+| Content processing component    | Transforms the crawled items and sends them to the index component. This component also maps crawled properties to managed properties.                                                                                                                             |
+| Analytics processing component  | Carries out search analytics and usage analytics.                                                                                                                                                                                                                  |
+| Index component                 | Receives the processed items from the content processing component and writes them to the search index. This component also handles incoming queries, retrieves information from the search index and sends back the result set to the query processing component. |
+| Query processing component      | Analyzes incoming queries. This helps optimize precision, recall and relevance. The queries are sent to the index component, which returns a set of search results for the query.                                                                                  |
+| Search administration component | Runs the system processes for search, and adds and initializes new instances of search components.                                                                                                                                                                 |
    
 **Search databases**
 
-|**Search database name**|**Description**|
-|:-----|:-----|
-|Crawl database  <br/> |Stores tracking information and historical information about crawled items such as documents and URLs. It also stores information such as the last crawl time, the last crawl ID and the type of update (add, update, delete) during the last crawl.  <br/> |
-|Link database  <br/> |Stores unprocessed information that is extracted by the content processing component and information about search clicks. The analytics processing component analyzes this information.  <br/> |
-|Analytics reporting database  <br/> |Stores the results of usage analysis.  <br/> |
-|Search administration database  <br/> |Stores search configuration data.  <br/> |
+|    **Search database name**    |                                                                                                                   **Description**                                                                                                                    |
+| :----------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Crawl database                 | Stores tracking information and historical information about crawled items such as documents and URLs. It also stores information such as the last crawl time, the last crawl ID and the type of update (add, update, delete) during the last crawl. |
+| Link database                  | Stores unprocessed information that is extracted by the content processing component and information about search clicks. The analytics processing component analyzes this information.                                                              |
+| Analytics reporting database   | Stores the results of usage analysis.                                                                                                                                                                                                                |
+| Search administration database | Stores search configuration data.                                                                                                                                                                                                                    |
    
 ## About the crawl component
 <a name="CrawlComponent"> </a>
@@ -123,8 +123,6 @@ The search administration database stores search configuration data, such as the
   
 ## See also
 <a name="AdminDB"> </a>
-
-#### Concepts
 
 [Manage the search topology in SharePoint Server](manage-the-search-topology.md)
 

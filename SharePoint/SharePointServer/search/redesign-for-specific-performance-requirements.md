@@ -88,12 +88,12 @@ In the following sections we have guidelines for you on which search components 
 
 When the amount of indexed items increases while the indexed items change at the same rate as before, increase the capacity of your search topology by scaling out these search components and databases:
   
-|**Search component or database**|**Guideline**|
-|:-----|:-----|
-|Index component  <br/> |Use one index partition for each 20 million<sup>1</sup> indexed items.  <br/> Each partition contains one or more replicas of the partition. All partitions must have the same number of replicas. An index component represents one index replica. So, if you want two replicas of the index then you'll need twice as many index components as index partitions.  <br/> For example, a redundant index with 80 million<sup>2</sup> items requires four partitions. Eight index components represent the four partitions when using two replicas for each partition.  <br/> |
-|Crawl database  <br/> |Use one crawl database for each 20 million items in the content corpus. For example, an index with 100 million items requires five crawl databases.  <br/> If the increased amount of indexed items implies a higher crawl rate, you also need more IOPS resources to serve the crawl databases. If your crawl rate is one document per second then the crawl database needs about 10 IOPS.  <br/> |
-|Link database  <br/> |Use one link database for each 60 million items in the content corpus. For example, an index with 100 million items requires two link databases.  <br/> If the added content implies a higher crawl rate, you might need more IOPS resources to serve the link databases.  <br/> |
-|Analytics reporting database  <br/> |How many analytics reporting databases you need, depends on how the search environment uses analytics, and how often. In general, add an analytics reporting database when the analytics performance starts decreasing. For example, when the nightly update of the database starts to take more time. This might happen when the database reaches a size of 250 GB, or 20 million rows in total, or when the number of views per day reaches 500,000 unique items.  <br/> |
+| **Search component or database** |                                                                                                                                                                                                                                                                             **Guideline**                                                                                                                                                                                                                                                                             |
+| :------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Index component                  | Use one index partition for each 20 million<sup>1</sup> indexed items.  <br/> Each partition contains one or more replicas of the partition. All partitions must have the same number of replicas. An index component represents one index replica. So, if you want two replicas of the index then you'll need twice as many index components as index partitions.  <br/> For example, a redundant index with 80 million<sup>2</sup> items requires four partitions. Eight index components represent the four partitions when using two replicas for each partition. |
+| Crawl database                   | Use one crawl database for each 20 million items in the content corpus. For example, an index with 100 million items requires five crawl databases.  <br/> If the increased amount of indexed items implies a higher crawl rate, you also need more IOPS resources to serve the crawl databases. If your crawl rate is one document per second then the crawl database needs about 10 IOPS.                                                                                                                                                                           |
+| Link database                    | Use one link database for each 60 million items in the content corpus. For example, an index with 100 million items requires two link databases.  <br/> If the added content implies a higher crawl rate, you might need more IOPS resources to serve the link databases.                                                                                                                                                                                                                                                                                             |
+| Analytics reporting database     | How many analytics reporting databases you need, depends on how the search environment uses analytics, and how often. In general, add an analytics reporting database when the analytics performance starts decreasing. For example, when the nightly update of the database starts to take more time. This might happen when the database reaches a size of 250 GB, or 20 million rows in total, or when the number of views per day reaches 500,000 unique items.                                                                                                   |
    
 <sup>1</sup>10 million items with SharePoint Server 2013, or with SharePoint Server 2016 running with less resources than 500 GB RAM, 32 GB RAM, and eight CPU cores.
   
@@ -128,13 +128,13 @@ Here's what to do:
     
 3. Follow the guidelines to increase the ingestion speed in these time periods.
     
-|**Guideline**|
-|:-----|
-|[Improve freshness for a specific content source](redesign-for-specific-performance-requirements.md#BKMK_ImproveContentSourceFreshness) <br/> |
-|[Increase processing resources for crawling](redesign-for-specific-performance-requirements.md#BKMK_ProcessingCrawl) <br/> |
-|[Increase processing resources for the crawl database](redesign-for-specific-performance-requirements.md#BKMK_ProcessingCrawlDB) <br/> |
-|[Increase processing and memory resources for content processing](redesign-for-specific-performance-requirements.md#BKMK_ProcessingCPC) <br/> |
-|[Increase the number of index partitions](redesign-for-specific-performance-requirements.md#BKMK_Partitions) <br/> |
+|                                                              **Guideline**                                                              |
+| :-------------------------------------------------------------------------------------------------------------------------------------- |
+| [Improve freshness for a specific content source](redesign-for-specific-performance-requirements.md#BKMK_ImproveContentSourceFreshness) |
+| [Increase processing resources for crawling](redesign-for-specific-performance-requirements.md#BKMK_ProcessingCrawl)                    |
+| [Increase processing resources for the crawl database](redesign-for-specific-performance-requirements.md#BKMK_ProcessingCrawlDB)        |
+| [Increase processing and memory resources for content processing](redesign-for-specific-performance-requirements.md#BKMK_ProcessingCPC) |
+| [Increase the number of index partitions](redesign-for-specific-performance-requirements.md#BKMK_Partitions)                            |
    
 #### Improve freshness for a specific content source
 <a name="BKMK_ImproveContentSourceFreshness"> </a>
@@ -180,10 +180,10 @@ If you add more partitions on a running installation, the index repartitions its
 
 How many queries search can serve per second is known as query throughput. Query throughput depends on the time search uses to process a query and any time the query waits because a processing resource isn't available. The sum of the processing and waiting time is known as query latency. Reducing query latency increases query throughput. To reduce query latency, follow one or both of these guidelines:
   
-|**Guideline**|
-|:-----|
-|[Reduce the processing time for queries](redesign-for-specific-performance-requirements.md#BKMK_ProcessingTime) <br/> |
-|[Reduce the waiting time for queries](redesign-for-specific-performance-requirements.md#BKMK_WaitingTime) <br/> |
+|                                                  **Guideline**                                                  |
+| :-------------------------------------------------------------------------------------------------------------- |
+| [Reduce the processing time for queries](redesign-for-specific-performance-requirements.md#BKMK_ProcessingTime) |
+| [Reduce the waiting time for queries](redesign-for-specific-performance-requirements.md#BKMK_WaitingTime)       |
    
 #### Reduce the processing time for queries
 <a name="BKMK_ProcessingTime"> </a>
@@ -235,11 +235,11 @@ Your search architecture supports high availability when you host redundant sear
   
 Follow these guidelines:
   
-|**Guidelines**|
-|:-----|
-|[Make the index redundant](redesign-for-specific-performance-requirements.md#BKMK_RedundantIndex) <br/> |
-|[Make crawling, content processing, query processing, analytics processing, and search administration redundant](redesign-for-specific-performance-requirements.md#BKMK_RedundantRest) <br/> |
-|[Make search databases redundant](redesign-for-specific-performance-requirements.md#BKMK_RedundantDB) <br/> |
+|                                                                                     **Guidelines**                                                                                     |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Make the index redundant](redesign-for-specific-performance-requirements.md#BKMK_RedundantIndex)                                                                                      |
+| [Make crawling, content processing, query processing, analytics processing, and search administration redundant](redesign-for-specific-performance-requirements.md#BKMK_RedundantRest) |
+| [Make search databases redundant](redesign-for-specific-performance-requirements.md#BKMK_RedundantDB)                                                                                  |
    
 #### Make the index redundant
 <a name="BKMK_RedundantIndex"> </a>
@@ -348,10 +348,10 @@ The minimum storage that the analytics reporting database requires can vary. Thi
 
 These are the minimum resources a server or virtual machine must have to host one index component, or to host one index component and one query processing component:
   
-|||||
-|:-----|:-----|:-----|:-----|
-|**Storage** <br/> |**Memory** <br/> |**Processor** <br/> |**Network bandwidth** <br/> |
-|500 GB for the index<sup>1</sup> <br/> |32 GB<sup>1</sup> <br/> |64-bit, 8 cores minimum<sup>1</sup>, <sup>2</sup>.  <br/> |2 Gbps  <br/> |
+|                                  |                   |                                                    |                       |
+| :------------------------------- | :---------------- | :------------------------------------------------- | :-------------------- |
+| **Storage**                      | **Memory**        | **Processor**                                      | **Network bandwidth** |
+| 500 GB for the index<sup>1</sup> | 32 GB<sup>1</sup> | 64-bit, 8 cores minimum<sup>1</sup>, <sup>2</sup>. | 2 Gbps                |
    
 <sup>1</sup>With SharePoint Server 2013 the minimum amount of resources are 500 GB storage,16 GB RAM, and four CPU cores. 
   
@@ -362,10 +362,10 @@ These are the minimum resources a server or virtual machine must have to host on
 
 These are the minimum resources a server or virtual machine must have to host one analytics processing component:
   
-|||||
-|:-----|:-----|:-----|:-----|
-|**Storage** <br/> |**Memory** <br/> |**Processor** <br/> |**Network bandwidth** <br/> |
-|300 GB for local processing of analytics  <br/> |8 GB  <br/> |64-bit, 4 cores minimum, but 8 cores recommended.  <br/> |2 Gbps  <br/> |
+|                                          |            |                                                   |                       |
+| :--------------------------------------- | :--------- | :------------------------------------------------ | :-------------------- |
+| **Storage**                              | **Memory** | **Processor**                                     | **Network bandwidth** |
+| 300 GB for local processing of analytics | 8 GB       | 64-bit, 4 cores minimum, but 8 cores recommended. | 2 Gbps                |
    
 If the server hosts one analytics processing component and one or more bulk processing components, increase memory to 16 GB.
   
@@ -374,10 +374,10 @@ If the server hosts one analytics processing component and one or more bulk proc
 
 These are the minimum resources a server or virtual machine must have to host one of these components:
   
-|||||
-|:-----|:-----|:-----|:-----|
-|**Storage** <br/> |**Memory** <br/> |**Processor** <br/> |**Network bandwidth** <br/> |
-|Not required  <br/> |8 GB  <br/> |64-bit, 4 cores minimum, but 8 cores recommended.  <br/> |2 Gbps  <br/> |
+|              |            |                                                   |                       |
+| :----------- | :--------- | :------------------------------------------------ | :-------------------- |
+| **Storage**  | **Memory** | **Processor**                                     | **Network bandwidth** |
+| Not required | 8 GB       | 64-bit, 4 cores minimum, but 8 cores recommended. | 2 Gbps                |
    
 If the server hosts two or more of these components, increase memory to 16 GB. 
   
@@ -388,10 +388,10 @@ The query processing component requires good network bandwidth. It's the number 
 
 These are the minimum resources a server or virtual machine must have to host one or more search databases:
   
-|||||
-|:-----|:-----|:-----|:-----|
-|**Storage** <br/> |**Memory** <br/> |**Processor** <br/> |**Network bandwidth** <br/> |
-|The storage that the analytics reporting database requires varies with how the search environment uses analytics, and how often. Use the current amount of storage for the analytics reporting database as a guideline.  <br/> |8 GB for small deployments.  <br/> 16 GB for medium deployments  <br/> |64-bit, 4 cores.  <br/> |2 Gbps  <br/> |
+|                                                                                                                                                                                                                         |                                                                 |                  |                       |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------- | :--------------- | :-------------------- |
+| **Storage**                                                                                                                                                                                                             | **Memory**                                                      | **Processor**    | **Network bandwidth** |
+| The storage that the analytics reporting database requires varies with how the search environment uses analytics, and how often. Use the current amount of storage for the analytics reporting database as a guideline. | 8 GB for small deployments.  <br/> <br/> 16 GB for medium deployments | 64-bit, 4 cores. | 2 Gbps                |
    
 ### Plan storage performance
 <a name="BKMK_Storage_performance"> </a>
@@ -417,21 +417,21 @@ If you deploy shared storage like SAN/NAS, the peak disk load of one search comp
 #### Search component IOPS requirements
 <a name="BKMK_SearchCompIOPS"> </a>
 
-|**Component name**|**Component details**|**IOPS requirements**|**Use of separate storage volume/partition**|
-|:-----|:-----|:-----|:-----|
-|Index component  <br/> |Uses storage when merging the index and when handling and responding to queries.  <br/> | 300 IOPS for 64 KB random reads.  <br/>  100 IOPS for 256 KB random writes.  <br/>  200 MB/s for sequential reads.  <br/>  200 MB/s for sequential writes.  <br/> |Yes  <br/> |
-|Analytics component  <br/> |Analyzes data locally, in bulk processing.  <br/> |No  <br/> |Yes  <br/> |
-|Crawl component  <br/> |Stores downloaded content locally, before it sends it to a content processing component. Storage is limited by network bandwidth.  <br/> |No  <br/> |Yes  <br/> |
+| **Component name**  |                                                       **Component details**                                                       |                                                                   **IOPS requirements**                                                                    | **Use of separate storage volume/partition** |
+| :------------------ | :-------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------- |
+| Index component     | Uses storage when merging the index and when handling and responding to queries.                                                  | 300 IOPS for 64 KB random reads.  <br/>  100 IOPS for 256 KB random writes.  <br/>  200 MB/s for sequential reads.  <br/>  200 MB/s for sequential writes. | Yes                                          |
+| Analytics component | Analyzes data locally, in bulk processing.                                                                                        | No                                                                                                                                                         | Yes                                          |
+| Crawl component     | Stores downloaded content locally, before it sends it to a content processing component. Storage is limited by network bandwidth. | No                                                                                                                                                         | Yes                                          |
    
 #### Search database IOPS requirements
 <a name="BKMK_SearchDBIOPS"> </a>
 
-|**Database name**|**IOPS requirements**|**Typical load on I/O subsystem.**|
-|:-----|:-----|:-----|
-|Crawl database  <br/> |Medium to high IOPS  <br/> |10 IOPS per 1 document per second (DPS) crawl rate.  <br/> |
-|Link database  <br/> |Medium IOPS  <br/> |10 IOPS per 1 million items in the search index.  <br/> |
-|Search administration database  <br/> |Low IOPS  <br/> |Not applicable.  <br/> |
-|Analytics reporting database  <br/> |Medium IOPS  <br/> |Not applicable.  <br/> |
+|       **Database name**        | **IOPS requirements** |         **Typical load on I/O subsystem.**          |
+| :----------------------------- | :-------------------- | :-------------------------------------------------- |
+| Crawl database                 | Medium to high IOPS   | 10 IOPS per 1 document per second (DPS) crawl rate. |
+| Link database                  | Medium IOPS           | 10 IOPS per 1 million items in the search index.    |
+| Search administration database | Low IOPS              | Not applicable.                                     |
+| Analytics reporting database   | Medium IOPS           | Not applicable.                                     |
    
 ### Choose how your search architecture supports high availability
 <a name="BKMK_HiAvail"> </a>

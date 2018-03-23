@@ -28,9 +28,9 @@ Before you begin the software update process, review the following information a
     
 - [Hardware and software requirements for SharePoint 2013](https://technet.microsoft.com/library/a88d3f72-7ac3-4f08-b302-c4ca0a796268)
     
-- [Software updates overview for SharePoint 2013](software-updates-overview-for-sharepoint-server-2013)
+- [Software updates overview for SharePoint 2013](software-updates-overview-for-sharepoint-server-2013.md)
     
-- [Prepare to deploy software updates for SharePoint 2013](prepare-to-deploy-software-updates)
+- [Prepare to deploy software updates for SharePoint 2013](prepare-to-deploy-software-updates.md)
     
 To perform the procedures in this article, you must have the following memberships and roles:
   
@@ -52,14 +52,14 @@ Do not start the update if any of the preceding conditions are not satisfied. Re
   
 SharePoint 2013 can handle certain upgrade failures after the patching phase finishes. However, if the build-to-build upgrade fails, you might have to restore from a backup. Therefore, make sure that you perform a full backup before you start the update process. After the restore is complete, you can resume the update. Completed tasks do not run again. For more information, see the following resources:
   
-- [Prepare to deploy software updates for SharePoint 2013](https://technet.microsoft.com/library/54e9cd93-a771-49ff-8b94-dc30b7dc2169#backupfarm) in [Prepare to deploy software updates for SharePoint 2013](prepare-to-deploy-software-updates)
+- [Prepare to deploy software updates for SharePoint 2013](https://technet.microsoft.com/library/54e9cd93-a771-49ff-8b94-dc30b7dc2169#backupfarm) in [Prepare to deploy software updates for SharePoint 2013](prepare-to-deploy-software-updates.md)
     
 - [Test and troubleshoot an upgrade to SharePoint 2013](https://technet.microsoft.com/library/5a4c7509-4b3a-436d-973c-f91dab781a88)
     
 ## Determine the update strategy
 <a name="verifystrategy"> </a>
 
-Before you start to deploy a software update, verify that the update strategy that you plan to use is optimal for your SharePoint 2013 environment. There are several factors, such as downtime reduction, cost, and complexity that determine the strategy to use to deploy a software update. Use the flowchart in the [Prepare to deploy software updates for SharePoint 2013](https://technet.microsoft.com/library/54e9cd93-a771-49ff-8b94-dc30b7dc2169#updateapproach) section of [Prepare to deploy software updates (SharePoint 2013)](prepare-to-deploy-software-updates) to determine the update strategy that you want to use: in-place, database-attach, or a combination. For more information about how the database-attach process works, see the diagrams in [Overview of the upgrade process from SharePoint 2010 to SharePoint 2013](https://technet.microsoft.com/library/1ee4bc3c-f53c-472d-baf7-2c4ac9975643).
+Before you start to deploy a software update, verify that the update strategy that you plan to use is optimal for your SharePoint 2013 environment. There are several factors, such as downtime reduction, cost, and complexity that determine the strategy to use to deploy a software update. Use the flowchart in the [Prepare to deploy software updates for SharePoint 2013](https://technet.microsoft.com/library/54e9cd93-a771-49ff-8b94-dc30b7dc2169#updateapproach) section of [Prepare to deploy software updates (SharePoint 2013)](prepare-to-deploy-software-updates.md) to determine the update strategy that you want to use: in-place, database-attach, or a combination. For more information about how the database-attach process works, see the diagrams in [Overview of the upgrade process from SharePoint 2010 to SharePoint 2013](https://technet.microsoft.com/library/1ee4bc3c-f53c-472d-baf7-2c4ac9975643).
   
 > [!NOTE]
 > Certain links in this article go to content that is about version-to-version upgrade rather than build-to-build upgrade. However, the general process is similar for the two types of upgrade. For example, the database upgrade phase is essentially the same for build-to-build upgrade and version-to-version upgrade. 

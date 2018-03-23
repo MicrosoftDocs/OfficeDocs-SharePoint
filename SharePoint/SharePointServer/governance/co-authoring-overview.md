@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: f6accc60-23b8-4242-b12d-e118270251cf
-description: "Summary: Provides information about co-authoring and the permissions and software versions that are required for co-authoring in SharePoint 2013 and SharePoint Online."
+description: "Summary: Provides information about co-authoring and the permissions and software versions that are required for co-authoring in SharePoint Server and SharePoint Online."
 ---
 
 # Overview of co-authoring in SharePoint Server
 
- **Summary:** Provides information about co-authoring and the permissions and software versions that are required for co-authoring in SharePoint 2013 and SharePoint Online. 
+ **Summary:** Provides information about co-authoring and the permissions and software versions that are required for co-authoring in SharePoint Server and SharePoint Online. 
   
  **Audience**: IT Professionals
   
@@ -25,7 +25,7 @@ Office provides co-authoring functionality for Word, PowerPoint, OneNote, and Vi
 > [!IMPORTANT]
 > This article is for IT Professionals. It applies to planning for co-authoring in an organization. > **Are you looking for help with co-authoring?** You may be looking for [Document collaboration and co-authoring](https://go.microsoft.com/fwlink/p/?LinkId=275815), which will help you understand and use the co-authoring and versioning features of SharePoint Server. 
   
-## Co-authoring functionality in SharePoint Server 2013 and SharePoint Online
+## Co-authoring functionality in SharePoint Server and SharePoint Online
 <a name="bkmk_ca_in_sp"> </a>
 
 In traditional collaboration, documents are shared via email attachments. Tracking versions and edits from multiple authors is difficult and time-consuming for users. Email systems have to contend with storing multiple copies of the same document, not to mention increased network traffic as documents are sent repeatedly.

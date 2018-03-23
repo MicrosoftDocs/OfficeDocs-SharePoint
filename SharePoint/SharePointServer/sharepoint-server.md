@@ -23,7 +23,7 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server in their ent
   
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="/getting-started.md">
+        <a href="/sharepoint/getting-started">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -41,7 +41,7 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server in their ent
         </a>
     </li>
     <li>
-        <a href="/migrate-to-sharepoint-online/index.md">
+        <a href="/Sharepoint/migrate-to-sharepoint-online">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -59,7 +59,7 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server in their ent
         </a>
     </li>
     <li>
-        <a href="/hybrid/hybrid.md">
+        <a href="/Sharepoint/hybrid/hybrid">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -155,9 +155,9 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server in their ent
                 <div class="card">
                     <div class="cardText">
                         <h3>Before you start</h3>
-                        <p><a href="/install/hardware-and-software-requirements.md">Hardware and software requirements</a></p>
-                        <p><a href="/install//prerequisites.md">Prerequisites</a></p>
-                        <p><a href="/security-for-sharepoint-server/security-for-sharepoint-server.md">Security</a></p>
+                        <p><a href="/sharepoint/install/hardware-and-software-requirements">Hardware and software requirements</a></p>
+                        <p><a href="/sharepoint/install/prerequisites">Prerequisites</a></p>
+                        <p><a href="/sharepoint/security-for-sharepoint-server/security-for-sharepoint-server">Security</a></p>
                      </div>
                 </div>
             </div>
@@ -170,9 +170,15 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server in their ent
                     <div class="cardText">
                         <h3>Manage your environment</h3>
                         <p>Sites administration</p>
+<<<<<<< HEAD
                         <p>[Server administration](administration/administration.md)</p>
                         <p>[Backup and restore](/administration/backup.md)</p>
                         <p>Monitor the health of your environment</p>
+=======
+                        <p>[Server administration](/sharepoint/administration/administration)</p>
+                        <p>Governance</p>
+                        <p>[Hybrid](/SharePoint/hybrid/hybrid)</p>
+>>>>>>> master
                </div>
                 </div>
             </div>
@@ -184,7 +190,7 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server in their ent
                 <div class="card">
                     <div class="cardText">
                         <h3>Install</h3>
-                            <p>**SharePoint Server 2016**</p>
+                            <p>SharePoint Server 2016</p>
                             <ul>
                                <li> 
                                     <p>Large scale farms</p>
@@ -193,7 +199,7 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server in their ent
                                     <p>Small scale farms</p>
                                 </li>
                             </ul>
-                                    <p>**SharePoint Server 2013**</p>
+                                    <p>SharePoint Server 2013</p>
                             <ul>
                                <li> 
                                     <p>Large scale farms</p>
@@ -213,6 +219,7 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server in their ent
                 <div class="card">
                     <div class="cardText">
                         <h3>Upgrade and update</h3>
+<<<<<<< HEAD
                             <p>Upgrade to SharePoint 2016</p>
                             <p>Apply updates to 2016</p>
                             <p>Upgrade to SharePoint 2013</p>
@@ -232,6 +239,26 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server in their ent
                             <p>Previous versions</p>
                             <p>2010</p>
                             <p>2007</p>
+=======
+                        <p>SharePoint Server 2016</p>
+                            <ul>
+                               <li> 
+                        <p>Upgrade to a new version of SharePoint</p>
+                                </li>
+                               <li> 
+                        <p>Apply updates to your existing version</p>
+                                </li>
+                            </ul>
+                        <p>SharePoint Server 2013</p>
+                            <ul>
+                               <li> 
+                        <p>Upgrade to a new version of SharePoint</p>
+                                </li>
+                               <li> 
+                        <p>Apply updates to your existing version</p>
+                                </li>
+                            </ul>
+>>>>>>> master
                     </div>
                 </div>
             </div>

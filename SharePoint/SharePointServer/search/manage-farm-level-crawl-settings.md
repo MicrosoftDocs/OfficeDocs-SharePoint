@@ -33,7 +33,5 @@ You can perform the following procedures to configure certain crawl settings at 
     
 ## See also
 
-#### Concepts
-
 [Manage crawling in SharePoint Server](manage-crawling.md)
 

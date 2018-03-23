@@ -61,9 +61,9 @@ You can follow the same procedures using different variables if you want to scal
   
 **Target search topology**
 
-|**Virtual machine A (on physical application server X)  <br/> myserver1.example.com**|**Virtual machine B (on physical application server X)  <br/> myserver2.example.com**|**Virtual machine C (on physical application server Y)  <br/> myserver3.example.com**|**Virtual machine D (on physical application server Y)  <br/> myserver4.example.com**|
-|:-----|:-----|:-----|:-----|
-|Admin component 1  <br/> Crawl component 1  <br/> Content processing component 1  <br/> Analytics processing component 1  <br/> |Query processing component 1  <br/> Index component 1 (that belongs to index partition 0)  <br/> |Admin component 2  <br/> Crawl component 2  <br/> Content processing component 2  <br/> Analytics processing component 2  <br/> |Query processing component 2  <br/> Index component 2 (that belongs to index partition 0)  <br/> |
+|             **Virtual machine A (on physical application server X)   myserver1.example.com**              |   **Virtual machine B (on physical application server X)   myserver2.example.com**   |             **Virtual machine C (on physical application server Y)   myserver3.example.com**              |   **Virtual machine D (on physical application server Y)   myserver4.example.com**   |
+| :-------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------- |
+| Admin component 1   <br/><br/>Crawl component 1   <br/><br/>Content processing component 1   <br/><br/>Analytics processing component 1 | Query processing component 1   <br/><br/>Index component 1 (that belongs to index partition 0) | Admin component 2   <br/><br/>Crawl component 2   <br/><br/>Content processing component 2   <br/><br/>Analytics processing component 2 | Query processing component 2   <br/><br/>Index component 2 (that belongs to index partition 0) |
    
 1. Ensure that no crawls have been started and that the search index is empty on the server that hosts Central Administration.
     
