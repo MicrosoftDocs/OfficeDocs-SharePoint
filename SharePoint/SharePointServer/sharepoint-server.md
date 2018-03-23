@@ -59,7 +59,7 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server in their ent
         </a>
     </li>
     <li>
-        <a href="/Sharepoint/hybrid/hybrid">
+        <a href="/SharePoint/hybrid/hybrid">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -101,11 +101,11 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server in their ent
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_feedback.svg" alt="Product feedback" />
+                            <img src="https://docs.microsoft.com/en-us/media/common/i_feedback.svg" alt="Feedback" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Community</h3>
+                        <h3>Product feedback</h3>
                     </div>
                 </div>
             </div>
@@ -119,11 +119,11 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server in their ent
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_learn-about.svg" alt="Community" />
+                            <img src="https://docs.microsoft.com/en-us/media/common/i_learn-about.svg" alt="Learn about" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Community</h3>
+                        <h3>End user content</h3>
                     </div>
                 </div>
             </div>
@@ -170,15 +170,9 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server in their ent
                     <div class="cardText">
                         <h3>Manage your environment</h3>
                         <p>Sites administration</p>
-<<<<<<< HEAD
                         <p>[Server administration](administration/administration.md)</p>
                         <p>[Backup and restore](/administration/backup.md)</p>
                         <p>Monitor the health of your environment</p>
-=======
-                        <p>[Server administration](/sharepoint/administration/administration)</p>
-                        <p>Governance</p>
-                        <p>[Hybrid](/SharePoint/hybrid/hybrid)</p>
->>>>>>> master
                </div>
                 </div>
             </div>
@@ -219,7 +213,6 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server in their ent
                 <div class="card">
                     <div class="cardText">
                         <h3>Upgrade and update</h3>
-<<<<<<< HEAD
                             <p>Upgrade to SharePoint 2016</p>
                             <p>Apply updates to 2016</p>
                             <p>Upgrade to SharePoint 2013</p>
@@ -239,26 +232,6 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server in their ent
                             <p>Previous versions</p>
                             <p>2010</p>
                             <p>2007</p>
-=======
-                        <p>SharePoint Server 2016</p>
-                            <ul>
-                               <li> 
-                        <p>Upgrade to a new version of SharePoint</p>
-                                </li>
-                               <li> 
-                        <p>Apply updates to your existing version</p>
-                                </li>
-                            </ul>
-                        <p>SharePoint Server 2013</p>
-                            <ul>
-                               <li> 
-                        <p>Upgrade to a new version of SharePoint</p>
-                                </li>
-                               <li> 
-                        <p>Apply updates to your existing version</p>
-                                </li>
-                            </ul>
->>>>>>> master
                     </div>
                 </div>
             </div>
