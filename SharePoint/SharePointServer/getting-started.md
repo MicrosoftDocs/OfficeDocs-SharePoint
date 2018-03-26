@@ -32,7 +32,7 @@ If you are new to SharePoint Server, make a plan as to what you want to do and w
 |A large enterprise and want to install SharePoint Server 2016?  <br/> |[Install SharePoint Server 2016 on the farm servers](install/install-sharepoint-server-2016-across-multiple-servers.md#InstallSP) <br/> |
 |A smaller division or smaller company that will deploy a small SharePoint 2016 farm?  <br/> |[Install SharePoint Server 2016 on one server](install/install-sharepoint-server-2016-on-one-server.md) <br/> |
 
-## I already have SharePoint installed
+## I have SharePoint Server installed
 
 Do you already have SharePoint Server installed and want to upgrade to a new version? Or apply the new feature packs or updates?
 
