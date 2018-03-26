@@ -217,7 +217,8 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server 2016 and 201
                     <div class="cardText">
                         <h3>Legacy content</h3>
                             <p><a href="https://support.office.com/en-us/article/sharepoint-server-2007-end-of-support-roadmap-ba124775-d5c0-4d68-b88d-8458ad4c3717">SharePoint Server 2007 end of support roadmap</a></p>
-                            <p><a href="https://technet.microsoft.com/en-us/library/ee428287(v=office.14).aspx">SharePoint Server 2010</a></p>
+                            <p><a href="https://support.office.com/en-us/article/upgrading-from-sharepoint-2010-985a357f-6db7-401f-bf7a-1bafdf1f312c">Upgrading from Server 2010 and end of support</a></p>
+        <p><a href="https://technet.microsoft.com/en-us/library/ee428287(v=office.14).aspx">SharePoint Server 2010</a></p>
                             <p><a href="https://technet.microsoft.com/en-us/library/cc303422(v=office.12).aspx">SharePoint Server 2007</a></p>
                     </div>
                 </div>
