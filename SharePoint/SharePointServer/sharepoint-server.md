@@ -142,7 +142,7 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server 2016 and 201
                     <div class="cardText">
                         <h3>Learn about SharePoint</h3>
                         <p><a href="https://products.office.com/en-us/sharepoint/collaboration">What is SharePoint?</a></p>
-                        <p><a href="https://channel9.msdn.com/Events/Ignite/Microsoft-Ignite-Orlando-2017/BRK2422">Discover SharePoint Server 2016 Feature Pack 2 and Beyond</a></p>
+                        <p><a href="https://channel9.msdn.com/Events/Ignite/Microsoft-Ignite-Orlando-2017/BRK2422">Discover SharePoint Server 2016: Feature Pack 2 & Beyond</a></p>
                         <p><a href="https://blogs.office.com/en-us/sharepoint/">SharePoint blog</a></p>
                     </div>
                 </div>
