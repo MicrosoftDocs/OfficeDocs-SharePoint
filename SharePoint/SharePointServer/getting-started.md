@@ -24,7 +24,7 @@ To learn more, go to <a href="https://products.office.com/en-us/sharepoint/colla
   
 ## Where do I start?
 
-If you are new to SharePoint Server, make a plan as to what you want to do and where you are going. If you have never deployed SharePoint, consider how large an installation you need. Do you have a large enterprise environment with hundreds or more licenses?  Or do you have smaller deployment?
+If you are new to SharePoint Server, make a plan as to what you want to do and where you are going. If you have never deployed SharePoint, consider how large an installation you need. Do you have a large enterprise environment with hundreds or more licenses?  Or do you have smaller deployment in mind?
   
 |**Are you...**|**Consider**|
 |:-----|:-----|
