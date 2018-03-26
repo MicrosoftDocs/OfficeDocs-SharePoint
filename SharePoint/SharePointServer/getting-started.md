@@ -22,11 +22,11 @@ Sharing common resources and applications on portals. Tell your story with beaut
   
 ## Where do I start?
 
-If you are new to SharePoint Server, make a plan as to what you want to do and where you are going. If you have never deployed SharePoint, consider how large an installation you need. 
+If you are new to SharePoint Server, make a plan as to what you want to do and where you are going. If you have never deployed SharePoint, consider how large an installation you need. Is your plan to deploy SharePoint in a large enterprise environment with hundreds or thousands of users?  Or are you 
   
 |**Are you...**|**Consider**|
 |:-----|:-----|
-|A large enterprise and want to install SharePoint Server 2016?  <br/> |[Install SharePoint Server 2016 on the farm servers](install/install-sharepoint-server-2016-across-multiple-servers.md#InstallSP) <br/> |
+|A large enterprise with hundreds of users or more and want to install SharePoint Server 2016?  <br/> |[Install SharePoint Server 2016 on the farm servers](install/install-sharepoint-server-2016-across-multiple-servers.md#InstallSP) <br/> |
 |A smaller division or smaller company that will deploy a small SharePoint 2016 farm?  <br/> |[Install SharePoint Server 2016 on one server](install/install-sharepoint-server-2016-on-one-server.md) <br/> |
    
 
