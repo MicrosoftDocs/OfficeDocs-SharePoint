@@ -64,25 +64,25 @@ Here are the steps to add a custom action to the hover panel:
   '<Current item property name>':<Managed property name>'
   ```
 
-    In our Search Center scenario, we added the custom property we wanted to use to the  *TechNet content*  display template. 
+   In our Search Center scenario, we added the custom property we wanted to use to the  *TechNet content*  display template. 
     
-     ![Added MP](../media/OTCSP_AddedMP.png)
+   ![Added MP](../media/OTCSP_AddedMP.png)
   
-3.     > [!NOTE]
-    > You don't have do this step if you are using SharePoint Online. 
+3. > [!NOTE]
+    >You don't have do this step if you are using SharePoint Online. 
   
     Go to **Site settings** --> **Search Result Types**. Notice that a **Property Sync** alert is displayed. 
     
-     ![Property Sync Alert](../media/OTCSP_PropertySyncAlert.png)
+      ![Property Sync Alert](../media/OTCSP_PropertySyncAlert.png)
   
-    This alert is displayed because we have added a new managed property to an item display template (what we did in step 2). To update the result types with the newly added managed properties, choose **Update**. 
+   This alert is displayed because we have added a new managed property to an item display template (what we did in step 2). To update the result types with the newly added managed properties, choose **Update**. 
     
-     ![Updated MPs](../media/OTCSP_UpdateMPs.png)
+    ![Updated MPs](../media/OTCSP_UpdateMPs.png)
   
-    > [!IMPORTANT]
+   > [!IMPORTANT]
     > If you don't do the update, the newly added managed properties won't display in your hover panel. 
   
-4. Open the  *Item_Common_HoverPanel_Actions*  display template. See how the default actions are created, and use JavaScript and HTML to add your custom action. 
+4. Open the  *Item_Common_HoverPanel_Actions*  display template. See how the default actions are created, and use JavaScript and HTML to add your custom action.
     
     In our Search Center scenario, we looked at how the OPEN action ( _#= editHmtl =#_ ) is created. Based on that, we created a new action: _#= viewHtml =#_. The following screen shot shows what we did.
     

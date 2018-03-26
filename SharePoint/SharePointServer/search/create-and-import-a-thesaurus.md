@@ -84,13 +84,12 @@ Now that we've created our thesaurus, the next task is to import it to SharePoin
   
 ## How to import a thesaurus
 <a name="BKMK_HowToImportAThesarus"> </a>
-
 > [!NOTE]
 > To import a thesaurus, you must be a **Search service application administrator**. 
   
 1. On the server where SharePoint Server is installed, open a **SharePoint Management Shell**. 
     
-     ![SP Shell](../media/OTCSP_SPShell.png)
+    ![SP Shell](../media/OTCSP_SPShell.png)
   
 2. At the command prompt, enter the following command:
     
@@ -99,11 +98,11 @@ Now that we've created our thesaurus, the next task is to import it to SharePoin
   Import-SPEnterpriseSearchThesaurus -SearchApplication $searchApp -Filename <Path>
   ```
 
-    where  `<Path>` is the UNC path of the thesaurus file. 
+where  `<Path>` is the UNC path of the thesaurus file. 
     
-     ![Run Script](../media/OTCSP_RunScript.png)
+   ![Run Script](../media/OTCSP_RunScript.png)
   
-    That's it!
+ That's it!
     
 > [!IMPORTANT]
 > When you import a thesaurus, the existing thesaurus will be overwritten. If you want to add new phrases to our thesaurus, you should add them to the thesaurus file we have already imported. You can't export a thesaurus file. Therefore, you should maintain our thesaurus file in an external system, for example on a file share. 

@@ -104,12 +104,12 @@ Here's what you should do:
     In our Search Center scenario, this was  *TechNet content*  . 
     
 2. In the item display template, in the **ManagedPropertyMapping** tag, use the following syntax to add the custom managed properties that you want to display: 
-    
+
   ```
   '<Current item property name>':<Managed property name>'
   ```
 
-    In our Search Center scenario, we wanted the values from the managed properties  *ContentSummaryOWSMTXT*  and  *owstaxIdTechnicalSubject*  to be displayed in the search result. To make the file easier to maintain, we named the current item properties the same as the managed properties. 
+ In our Search Center scenario, we wanted the values from the managed properties  *ContentSummaryOWSMTXT*  and  *owstaxIdTechnicalSubject*  to be displayed in the search result. To make the file easier to maintain, we named the current item properties the same as the managed properties. 
     
      ![Add MPs](../media/OTCSP_AddMPs.png)
   
@@ -119,18 +119,18 @@ Here's what you should do:
   _#= ctx.CurrentItem.<Current item property name> =#
   ```
 
-    In our Search Center scenario, we added the following to the item display template:
+ In our Search Center scenario, we added the following to the item display template:
     
   ```
   <div>_#= ctx.CurrentItem. ContentSummaryOWSMTXT =#_</div>
   <div>_#= ctx.CurrentItem. owstaxIdTechnicalSubject =#></div>
   ```
 
-     ![Display Two New MPs](../media/OTCSP_DisplayTwoNewMPs.png)
+    ![Display Two New MPs](../media/OTCSP_DisplayTwoNewMPs.png)
   
 4. Save the item display template.
     
-5.     > [!NOTE]
+   > [!NOTE]
     > You don't have to do this step if you are using SharePoint Online. Go to **Site settings** --> **Search Result Types**. Notice that a **Property Sync** alert is displayed. 
   
      ![Property Sync Alert](../media/OTCSP_PropertySyncAlert.png)

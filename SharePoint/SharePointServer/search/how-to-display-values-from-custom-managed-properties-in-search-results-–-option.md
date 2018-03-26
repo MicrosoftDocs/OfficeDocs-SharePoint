@@ -103,14 +103,14 @@ Next, you have to do some configuration on the **Search Results Web Part**. Here
 9. In the item display template, in the **ManagedPropertyMapping** tag, use the following syntax to add the custom managed properties that you want to display: 
     
   ```
-  '<Current item property name>':<Managed property name>'
+'<Current item property name>':<Managed property name>'
   ```
 
-    In our Search Center scenario, we wanted the values from the managed properties  *ContentSummaryOWSMTXT*  and  *owstaxIdTechnicalSubject*  to be displayed in the search result. To make the file easier to maintain, we named the current item properties the same as the managed properties. 
+   In our Search Center scenario, we wanted the values from the managed properties  *ContentSummaryOWSMTXT*  and  *owstaxIdTechnicalSubject*  to be displayed in the search result. To make the file easier to maintain, we named the current item properties the same as the managed properties. 
     
-     ![Add MPs](../media/OTCSP_AddMPs.png)
+   ![Add MPs](../media/OTCSP_AddMPs.png)
   
-    Next, you have to create variables in the item display template that will be used and rendered by the  *Item_Common_Item_Body*  display template. Here's what you should do: 
+  Next, you have to create variables in the item display template that will be used and rendered by the  *Item_Common_Item_Body*  display template. Here's what you should do: 
     
 10. Because you have no guarantee that the values of your custom properties will contain any of the entered query words, that is, hit highlighting won't be used, you have to create variables that guarantee that that the value of your custom properties will be displayed regardless of hit highlighting.
     
@@ -127,8 +127,7 @@ Next, you have to do some configuration on the **Search Results Web Part**. Here
      ![Summary Variable](../media/OTCSP_SummaryVariable.png)
   
 13. Save the item display template.
-    
-14.     > [!NOTE]
+    > [!NOTE]
     > You don't have to do this step if you are using SharePoint Online. Go to **Site settings** --> **Search Result Types**. Notice that a **Property Sync** alert is displayed. 
   
      ![Property Sync Alert](../media/OTCSP_PropertySyncAlert.png)
