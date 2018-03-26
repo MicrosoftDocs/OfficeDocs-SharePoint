@@ -34,9 +34,10 @@ If you are new to SharePoint Server, make a plan as to what you want to do and w
 
 ## I have SharePoint Server installed
 
-Do you already have SharePoint Server installed and want to upgrade to a new version? Or apply the new feature packs or updates?
+Do you already have SharePoint Server installed and want to upgrade to a new version? Or apply the new feature packs or updates? 
 
-|**What do you want to do? **|**Consider**|
+
+|**What do you need to do?**|**Consider**|
 |:-----|:-----|
 |I have SharePoint Server 2013 installed and want to upgrade to SharePoint 2016  <br/> |[Upgrade to SharePoint Server 2016](/upgrade-and-update/upgrade-to-sharepoint-server-2016.md) <br/> |
 |I have SharePoint Server 2010 installed and want to upgrade to SharePoint 2013  <br/> |[Upgrade from SharePoint 2010 to SharePoint 2013](upgrade-and-update/upgrade-from-sharepoint-2010-to-sharepoint-2013.md) <br/> |
