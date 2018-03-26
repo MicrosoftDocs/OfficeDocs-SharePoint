@@ -22,7 +22,7 @@ Sharing common resources and applications on portals. Tell your story with beaut
   
 ## Where do I start?
 
-If you are new to SharePoint Server, Before you start, make a plan as to what you want to do and where you are going. If you have never deployed SharePoint, consider how large an installation you need. 
+If you are new to SharePoint Server, make a plan as to what you want to do and where you are going. If you have never deployed SharePoint, consider how large an installation you need. 
   
 |**Are you...**|**Consider**|
 |:-----|:-----|
