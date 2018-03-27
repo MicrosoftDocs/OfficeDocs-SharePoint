@@ -23,11 +23,11 @@ description: "Summary: Learn how to prepare for, download, install, and then con
 Microsoft periodically releases software updates for SharePoint 2013. The following articles and related resources provide information about the software update process for SharePoint 2013.
   
   
-|**        ![Building blocks](../media/mod_icon_buildingblock_M.png)                 **|**Content**|**Description**|
-|:-----|:-----|:-----|
-||[Software updates overview for SharePoint Server 2013](http://technet.microsoft.com/library/476d6a49-7263-4460-8e4c-28102fec1442%28Office.14%29.aspx) <br/> |Provides an overview of the software update process for SharePoint 2013.  <br/> |
-||[Prepare to deploy software updates for SharePoint 2013](http://technet.microsoft.com/library/54e9cd93-a771-49ff-8b94-dc30b7dc2169%28Office.14%29.aspx) <br/> |Helps you determine which approach to use to update the servers or server farms in your environment, and lists the steps that you must take before you can start to install the update.  <br/> |
-||[Install a software update for SharePoint Server 2013](http://technet.microsoft.com/library/72addaae-efe5-40bb-8c86-294e10266878%28Office.14%29.aspx) <br/> |Learn how to install a software update on servers in a SharePoint farm.  <br/> |
-||[Update Workflow in SharePoint Server](../governance/update-workflow-in-sharepoint-server.md) <br/> |Learn the steps required to keep workflow up to date in SharePoint Server 2013.  <br/> |
+|**Content**|**Description**|
+|:-----|:-----|
+|[Software updates overview for SharePoint Server 2013](software-updates-overview-for-sharepoint-server-2013.md) <br/> |Provides an overview of the software update process for SharePoint 2013.  <br/> |
+|[Prepare to deploy software updates for SharePoint 2013](prepare-to-deploy-software-updates.md) <br/> |Helps you determine which approach to use to update the servers or server farms in your environment, and lists the steps that you must take before you can start to install the update.  <br/> |
+|[Install a software update for SharePoint Server 2013](install-a-software-update.md) <br/> |Learn how to install a software update on servers in a SharePoint farm.  <br/> |
+|[Update Workflow in SharePoint Server](../governance/update-workflow-in-sharepoint-server.md) <br/> |Learn the steps required to keep workflow up to date in SharePoint Server 2013.  <br/> |
    
 
