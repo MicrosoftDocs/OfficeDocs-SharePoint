@@ -16,7 +16,7 @@ ms.assetid: aa637ca9-d27b-463c-8691-a457e0988bf8
 description: "Summary: Learn about permissions, accounts, security settings, and what you have to do to prepare your environment for SharePoint Server 2016."
 ---
 
-# Prerequisites for SharePoint Server
+# Prerequisites for SharePoint Server 2016
 
  **Summary:** Learn about permissions, accounts, security settings, and what you have to do to prepare your environment for SharePoint Server 2016. 
   
