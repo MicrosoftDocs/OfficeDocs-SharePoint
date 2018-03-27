@@ -79,7 +79,6 @@ Column limits are updated in SharePoint Server 2013. For more information, see [
 
 [Estimate capacity and performance for compliance and eDiscovery for SharePoint Server 2013](compliance-and-ediscovery-capacity-and-performance.md)
   
-[Plan for eDiscovery in SharePoint Server](../governance/plan-for-ediscovery.md)
   
 [Configure eDiscovery in SharePoint Server](../governance/configure-ediscovery-0.md)
 
