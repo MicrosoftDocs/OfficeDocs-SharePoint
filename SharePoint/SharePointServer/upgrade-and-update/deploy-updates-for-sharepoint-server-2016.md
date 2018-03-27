@@ -24,9 +24,9 @@ Microsoft periodically releases software updates for SharePoint Server 2016. The
   
 ## Articles about software updates for SharePoint Server 2016
 
-|**        ![Building blocks](../media/mod_icon_buildingblock_M.png)                 **|**Content**|**Description**|
+|**Content**|**Description**|
 |:-----|:-----|:-----|
-||[Software updates overview for SharePoint Server 2016](software-updates-overview.md) <br/> |Provides an overview of the software update process for SharePoint Server 2016.  <br/> |
-||[Install a software update for SharePoint Server 2016](install-a-software-update.md) <br/> |Learn how to install a software update on servers in a SharePoint farm.  <br/> |
+|[Software updates overview for SharePoint Server 2016](software-updates-overview.md) <br/> |Provides an overview of the software update process for SharePoint Server 2016.  <br/> |
+|[Install a software update for SharePoint Server 2016](install-a-software-update.md) <br/> |Learn how to install a software update on servers in a SharePoint farm.  <br/> |
    
 
