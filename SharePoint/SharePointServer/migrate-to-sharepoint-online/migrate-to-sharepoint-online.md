@@ -24,7 +24,8 @@ A component of your Office 365 enterprise subscription, SharePoint Online (SPO) 
   
 ## Planning your move to SharePoint online
 
-The strategy you select to move your data depends on a number of factors including the amount of data and the size. Taking an inventory and assessment of your data, deciding what you need and what isn't necessary, is key to a successful migration.  Before deciding on a migration strategy, perform an analysis of your current environment. What data do you want or need to move? Where is the content currently stored? should focus on those SharePoint workloads and content that you plan to move to SharePoint Online.
+The method you select to move your data depends on a number of factors including the amount of data and the size. What data do you want or need to move? Where is the content currently stored? Taking the time to plan your migration, including taking an inventory and assessment of your data, is key to a successful migration.  
+
 
 ### Microsoft FastTrack ###
 
