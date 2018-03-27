@@ -148,9 +148,9 @@ As the site collection admin, you have to follow these steps on each team site t
 
 To hide the user interface controls that provide the SharePoint Server 2013 social features, you'll create a custom cascading style sheet (CSS) file and add it to a Master Page. This removes SharePoint Server 2013 social features and replaces them with equivalent Yammer features. First, you create a custom CSS file and upload it to the Style Library for your My Site. Then, based on the type of Master Page your site uses, you reference the CSS file in your Master Page by using one of the following methods described in this article:
   
-- [Register the CSS file for a custom Master Page](hide-sharepoint-server-2013-social-features.md#CustomMasterPage)
+- Register the CSS file for a custom Master Page
     
-- [Register the CSS file for an out-of-box Master Page](hide-sharepoint-server-2013-social-features.md#OOBMasterPage)
+- Register the CSS file for an out-of-box Master Page
     
 > [!NOTE]
 > To register the CSS file for a custom Master Page, you have to have Contribute permission on the My Site host site. To register the CSS file for an out-of-box Master Page, you have to be a farm admin to install the required custom delegate control, and you also need Site Owner permissions on the My Site to enable the control for that site. 
@@ -207,7 +207,7 @@ After you complete these steps, the following changes are applied to the SharePo
     
 10. Choose **OK**.
     
-If your My Site uses a custom Master Page, follow the steps in [Register the CSS file for a custom Master Page](hide-sharepoint-server-2013-social-features.md#CustomMasterPage). If your My Site uses an out-of-box Master Page, follow the steps in [Register the CSS file for an out-of-box Master Page](hide-sharepoint-server-2013-social-features.md#OOBMasterPage).
+If your My Site uses a custom Master Page, follow the steps in _Register the CSS file for a custom Master Page_. If your My Site uses an out-of-box Master Page, follow the steps in _Register the CSS file for an out-of-box Master Page_.
   
  **Register the CSS file for a custom Master Page**
   

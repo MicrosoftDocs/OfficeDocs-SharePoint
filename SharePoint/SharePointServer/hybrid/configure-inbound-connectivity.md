@@ -90,13 +90,13 @@ You have to complete the steps in the [Add your domain to Office 365](https://go
 
 This section tells you how to configure the SharePoint Server farm for use in an inbound hybrid solution. We've organized the steps for this section into the following phases. For the most reliable outcome, complete the procedures in the order shown.
   
-- [Configure a site collection strategy](configure-inbound-connectivity.md#configsitecoll)
+- Configure a site collection strategy
     
-- [Assign a UPN domain suffix](configure-inbound-connectivity.md#assignupn)
+- Assign a UPN domain suffix
     
-- [Synchronize user profiles](configure-inbound-connectivity.md#syncuserprofiles)
+- Synchronize user profiles
     
-- [Configure OAuth over HTTP (if it's required)](configure-inbound-connectivity.md#configOauth)
+- Configure OAuth over HTTP (if it's required)
     
 > [!NOTE]
 > The procedures in this section assume that you have an existing SharePoint Server farm that you intend to use for hybrid functionality. 
@@ -240,7 +240,7 @@ The reverse proxy device must be able to resolve the internal URL of the host-na
 |:-----|:-----|
 |![Edit icon](../media/mod_icon_edit_m.png)|The External URL is recorded in the **External URL** row of Table 3 of the worksheet. |
    
-You have finished configuring the site collection strategy by using a host-named site collection for hybrid. Now, skip ahead to [Assign a UPN domain suffix](configure-inbound-connectivity.md#assignupn).
+You have finished configuring the site collection strategy by using a host-named site collection for hybrid. Now, skip ahead to _Assign a UPN domain suffix_.
   
 #### Configure a site collection strategy by using a path-based web application without AAM
 <a name="pathbasedwoaam"> </a>
@@ -313,7 +313,7 @@ The reverse proxy device must be able to resolve the internal URL of the host-na
 |:-----|:-----|
 |![Edit icon](../media/mod_icon_edit_m.png)|The External URL is recorded in the **External URL** row of Table 3 of the worksheet. |
    
-You have finished configuring the site collection strategy by using a path-based site collection without AAM for hybrid. Now, skip ahead to [Assign a UPN domain suffix](configure-inbound-connectivity.md#assignupn).
+You have finished configuring the site collection strategy by using a path-based site collection without AAM for hybrid. Now, skip ahead to _Assign a UPN domain suffix_.
   
 #### Configure a site collection strategy by using a path-based web application with AAM
 <a name="pathbasedwaam"> </a>
@@ -330,7 +330,7 @@ If you want to use a path-based web application with Alternate Access Mapping (A
     
 5. Create a CNAME record.
     
-If you've already configured a different name mapping type, go to [Assign a UPN domain suffix](configure-inbound-connectivity.md#assignupn).
+If you've already configured a different name mapping type, go to _Assign a UPN domain suffix_.
   
 The following video demonstrates how a site collection strategy works with a path-based web application with AAM.
   

@@ -87,7 +87,7 @@ The steps to add a database and to attach a database are very similar. For more 
     
     After detaching the content database in Central Administration, the content database still exists in SQL Server. If you want to permanently remove the content database, you must do so by using a SQL Server procedure.
     
-### To attach or detach a content database by using PowerShell
+### <a name="PS"></a>To attach or detach a content database by using PowerShell
 
 1. Verify that you have the following memberships:
     

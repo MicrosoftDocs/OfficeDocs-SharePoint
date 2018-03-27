@@ -137,12 +137,12 @@ For more information, see [Backup-SPFarm](http://technet.microsoft.com/library/c
 ### Backing up sandboxed solutions in SharePoint Server
 <a name="SandboxedSolutions"> </a>
 
-You cannot back up only sandboxed solutions. Instead, you must back up the farm, Web application, or content database with which the sandboxed solution is associated. For more information about these methods of backing up, see [Related Topics](#Related).
+You cannot back up only sandboxed solutions. Instead, you must back up the farm, Web application, or content database with which the sandboxed solution is associated.
   
 ## Back up authored site elements in SharePoint Server
 <a name="AuthoredSite"> </a>
 
-You cannot back up only authored site elements. Instead, you must back up the farm, Web application, or content database with which the authored site element is associated. For more information about these methods of backing up, see [Related Topics](#Related).
+You cannot back up only authored site elements. Instead, you must back up the farm, Web application, or content database with which the authored site element is associated.
   
 ## Back up workflows in SharePoint Server
 <a name="Workflows"> </a>

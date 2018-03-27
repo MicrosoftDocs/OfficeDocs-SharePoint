@@ -253,7 +253,7 @@ See the table [Search schema changes that require content to be reindexed](manag
     
 10. Click **OK**.
     
-### To create a managed property by renaming an existing one
+### <a name="Schema_Tenant_SiteColl_Alias"></a>To create a managed property by renaming an existing one
 
 1. Verify that the user account that is performing this procedure is an administrator for the tenant or for the site collection.
     
