@@ -78,7 +78,7 @@ Before you start using the SharePoint Migration Tool, note where your data is lo
     
 ## Using the SharePoint Migration tool
 
-If you don't have it yet, [download the SharePoint Migration Tool](http://technet.microsoft.com/library/https://hrcppestorageprod.blob.core.windows.net/migrationtool/default.md.aspx).
+If you don't have it yet, [download the SharePoint Migration Tool](http://spmtreleasescus.blob.core.windows.net/install/default.htm).
   
  **Migrating data files from SharePoint Server document libraries**
   
@@ -251,7 +251,7 @@ Advanced settings should only be changed or managed by your IT professional. The
 |Azure Active Directory lookup  <br/> |By default, this is set to **On**. If no User mapping file is provided by the user, then Azure Active Directory is used as the default for user mapping.  <br/> |
 |Preserve user permissions  <br/> |By default, this is set to **On**. If set to **Off**, no permissions will be preserved.  <br/> |
 |User mapping file  <br/> |By default,  *Azure AD lookup*  is used to map users when submitting migration jobs. If you wish to use your own mapping file, select the file to be used by clicking **Choose file**. If you choose to use a custom user mapping file and you want to preserve user permissions, turn off  *Azure Active Directory lookup*  . By doing so, if a user isn't found in the mapping file, the tool won't look it up in AAD.  <br/> |
-|SharePoint Migration Tool work folder  <br/> |By default, a temp folder will be created. If you wish to specify a specific working folder, enter the name here.  <br/> |
+|SharePoint Migration Tool work folder  <br/> |By default, a temp folder will be created. If you wish to specify a specific working folder, enter the name here.   <br/> **Note:** By default, the working folder is *%appdata%\Microsoft\MigrationTool* . Please make sure that your working folder has a minimum of 150 GB of free space. It may need more depending on the size of the data you plan to migrate. <br/> |
 |Use custom Azure storage  <br/> |If you wish to use your own Azure storage, set this value to **On**.  <br/> If you choose to turn on, additional fields will display to enter your account and key, and settings to select if you want to enable or disable encryption, and whether temporary files are deleted when migration is complete.  <br/> **Note: ** This feature is supported only for  *General Purpose storage accounts*  as General Purpose accounts support Azure blobs and queues. This feature is not available for Blob Storage accounts.  <br/> |
    
 ## Related Topics
