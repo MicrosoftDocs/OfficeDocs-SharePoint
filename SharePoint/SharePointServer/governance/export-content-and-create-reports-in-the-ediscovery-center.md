@@ -55,8 +55,6 @@ When you first export content or create a report, the eDiscovery Download Manage
 10. If you are exporting content for the first time on a computer, you will be prompted to install the Discovery Download Manager. Click **Yes**.
     
 11. When you are finished exporting, click **Close**.
-    
-[You export content from a case when you are ready to deliver it to an authority or want to work on it with another legal program. You can also create reports to identify the contents of and any search indexing issues with the export. The export includes a load file based on the Electronic Discovery Reference Model standard.Before you export content, the case should already have content sources, such as Web sites, and queries. Also, the computer you use to export content has to meet the following system requirements:32- or 64-bit version of Windows 7 and later versionsMicrosoft .NET Framework 4.5One of the following supported browsers:Internet Explorer 10 and later versionsMozilla Firefox or Google Chrome, with the ClickOnce add-in installedWhen you first export content or create a report, the eDiscovery Download Manager is installed, which exports the SharePoint content and reports to the your local computer. When downloading an eDiscovery export, users must log into SharePoint with the same account that they are logged into on their client machine. If you receive a warning asking whether or not to run the Download Manager, accept the warning and continue.](export-content-and-create-reports-in-the-ediscovery-center.md#__top)
   
 ## Create reports about exported content
 <a name="__toc331583110"> </a>
@@ -96,8 +94,6 @@ In Microsoft Excel, you can examine the contents further by sorting and filterin
     > [!NOTE]
     > If you don't select the **Include items that are encrypted or have an unrecognized format** option when you export search results or just download the reports, the index error reports are downloaded but they don't have any entries. This doesn't mean there aren't any indexing errors. It just means that unindexed items weren't included in the request to download the reports. 
   
-11. [You export content from a case when you are ready to deliver it to an authority or want to work on it with another legal program. You can also create reports to identify the contents of and any search indexing issues with the export. The export includes a load file based on the Electronic Discovery Reference Model standard.Before you export content, the case should already have content sources, such as Web sites, and queries. Also, the computer you use to export content has to meet the following system requirements:32- or 64-bit version of Windows 7 and later versionsMicrosoft .NET Framework 4.5One of the following supported browsers:Internet Explorer 10 and later versionsMozilla Firefox or Google Chrome, with the ClickOnce add-in installedWhen you first export content or create a report, the eDiscovery Download Manager is installed, which exports the SharePoint content and reports to the your local computer. When downloading an eDiscovery export, users must log into SharePoint with the same account that they are logged into on their client machine. If you receive a warning asking whether or not to run the Download Manager, accept the warning and continue.](export-content-and-create-reports-in-the-ediscovery-center.md#__top)
-  
 ## Find more information about eDiscovery
 <a name="__toc331583110"> </a>
 
@@ -117,6 +113,6 @@ For more information about eDiscovery cases, see the following articles:
   
 [Create and run queries in the eDiscovery Center](create-and-run-queries-in-the-ediscovery-center.md)
   
-[You export content from a case when you are ready to deliver it to an authority or want to work on it with another legal program. You can also create reports to identify the contents of and any search indexing issues with the export. The export includes a load file based on the Electronic Discovery Reference Model standard.Before you export content, the case should already have content sources, such as Web sites, and queries. Also, the computer you use to export content has to meet the following system requirements:32- or 64-bit version of Windows 7 and later versionsMicrosoft .NET Framework 4.5One of the following supported browsers:Internet Explorer 10 and later versionsMozilla Firefox or Google Chrome, with the ClickOnce add-in installedWhen you first export content or create a report, the eDiscovery Download Manager is installed, which exports the SharePoint content and reports to the your local computer. When downloading an eDiscovery export, users must log into SharePoint with the same account that they are logged into on their client machine. If you receive a warning asking whether or not to run the Download Manager, accept the warning and continue.](export-content-and-create-reports-in-the-ediscovery-center.md#__top)
+
   
 

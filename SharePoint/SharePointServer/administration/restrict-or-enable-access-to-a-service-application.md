@@ -235,7 +235,7 @@ You can restore farm-wide access to a service application by adding the local fa
   
 
     
-### To retrieve the local farm ID by using PowerShell
+### <a name="ProcWPSGetFID"></a>To retrieve the local farm ID by using PowerShell
 
 1. This procedure starts after step 4 of the [To start a Microsoft PowerShell session ](#ProcInitWPS) procedure. 
     
@@ -254,9 +254,9 @@ You can restore farm-wide access to a service application by adding the local fa
   $principal = New-SPClaimsPrincipal -ClaimType "http://schemas.microsoft.com/sharepoint/2009/08/claims/farmid" -ClaimProvider $claimProvider -ClaimValue $farmid
   ```
 
-### To restore local farm-wide access to a service application by using Central Administration
+### <a name="ProcCARestore"></a>To restore local farm-wide access to a service application by using Central Administration
 
-1. Perform steps 1 through 3 of the procedure [To grant and remove permissions for service accounts to access a service application by using Central Administration](#ProcCAGrant).
+1. Perform steps 1 through 3 of the procedure [To grant and remove permissions for service accounts to access a service application by using Central Administration](#Section2CA).
     
 2. In the **Connection Permissions** dialog box, copy the local farm ID that you retrieved in the previous procedure, and then click **Add**. 
     

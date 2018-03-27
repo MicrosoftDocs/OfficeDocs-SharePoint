@@ -101,7 +101,7 @@ You add the new server to the farm by using one of the following procedures:
   
 - [To add a server by using the SharePoint Products Configuration Wizard](add-a-server-to-a-sharepoint-server-2016-farm.md)
     
-- [To add a new SharePoint Server 2016 server to the farm by using the PSConfig.exe command-line tool](add-a-server-to-a-sharepoint-server-2016-farm.md#psconfig)
+- [To add a new SharePoint Server 2016 server to the farm by using the PSConfig.exe command-line tool](#psconfig)
     
 - [To add a server by using Windows PowerShell](add-a-server-to-a-sharepoint-server-2016-farm.md)
     
@@ -146,8 +146,8 @@ You add the new server to the farm by using one of the following procedures:
     > [!NOTE]
     > This step should only apply if the Custom role is used. 
   
- **To add a new SharePoint Server 2016 server to the farm by using the PSConfig.exe command-line tool**
-  
+ <a name="psconfig"></a>**To add a new SharePoint Server 2016 server to the farm by using the PSConfig.exe command-line tool**
+
 1. To create a farm by using the PSConfig.exe command-line tool, use the following syntax:
     
   ```
