@@ -28,14 +28,14 @@ The following downloadable resources, articles, video recordings, and related re
 
 Download the following content for information about how to test and troubleshoot upgrade.
   
-||**Content**|**Description**|
+|**Content**|**Description**|
 |:-----|:-----|:-----|
-|![Architecture icon](../media/mod_icon_architectureDiagrams_S.png)|[SharePoint 2013 Products Preview - Test Your Upgrade Process model](https://go.microsoft.com/fwlink/?LinkId=252098) <br/> |See a visual display of information about how to test the upgrade process.  <br/> |
+|[SharePoint 2013 Products Preview - Test Your Upgrade Process model](https://go.microsoft.com/fwlink/?LinkId=252098) <br/> |See a visual display of information about how to test the upgrade process.  <br/> |
    
 ## Articles about how to test and troubleshoot upgrade
 
   
-|**        ![Building blocks](../media/mod_icon_buildingblock_M.png)          Content**|**Description**|
+|**Content**|**Description**|
 |:-----|:-----|
 |[Use a trial upgrade to SharePoint 2013 to find potential issues](http://technet.microsoft.com/library/2b5d3825-adba-4185-84f2-ef59e8110fac%28Office.14%29.aspx) <br/> |Find out how to plan for success by testing upgrade by using your actual data in either a physical or virtual environment.  <br/> |
 |[Troubleshoot database upgrade issues in SharePoint 2013](http://technet.microsoft.com/library/8c676788-f2bc-412b-b14e-6e13bee3e130%28Office.14%29.aspx) <br/> |Follow these recommendations to troubleshoot any issues that occur during database-attach upgrade. You can also look up common issues and discover how to address them.  <br/> |

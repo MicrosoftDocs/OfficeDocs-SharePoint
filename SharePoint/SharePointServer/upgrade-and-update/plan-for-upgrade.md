@@ -27,7 +27,7 @@ To understand how the upgrade process works, see the articles in [Get started wi
 The following downloadable resources, articles, video recordings, and related resources provide information about how to plan for upgrade.
   
   
-|**        ![Building blocks](../media/mod_icon_buildingblock_M.png)          Content**|**Description**|
+|**Content**|**Description**|
 |:-----|:-----|
 |[Determine strategy for upgrade to SharePoint 2013](http://technet.microsoft.com/library/f11e6c4f-dc2a-4d17-a2c8-9455792b4b9b%28Office.14%29.aspx) <br/> |Understand how to minimize downtime and plan for special cases during an upgrade to SharePoint 2013.  <br/> |
 |[Create a plan for current customizations during upgrade to SharePoint 2013](http://technet.microsoft.com/library/be1de0da-addb-4e6a-852c-0e68072d7f95%28Office.14%29.aspx) <br/> |Learn how to identify and evaluate the customizations in your environment, and determine whether you will upgrade them, and how.  <br/> |

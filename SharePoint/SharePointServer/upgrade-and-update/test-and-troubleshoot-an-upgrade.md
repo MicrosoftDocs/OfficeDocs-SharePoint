@@ -25,7 +25,7 @@ Before you upgrade from SharePoint Server 2013 with Service Pack 1 (SP1) to Shar
 The following articles provide information about how to test and troubleshoot upgrade.
   
   
-|**        ![Building blocks](../media/mod_icon_buildingblock_M.png)          Content**|**Description**|
+|**Content**|**Description**|
 |:-----|:-----|
 |[Troubleshoot site collection upgrade issues in SharePoint Server 2016](troubleshoot-site-collection-upgrade-issues.md) <br/> |Follow these recommendations to troubleshoot any issues that occur during a site collection upgrade. You can also look up common issues and discover how to address them.  <br/> |
    
