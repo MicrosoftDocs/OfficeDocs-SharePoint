@@ -50,11 +50,7 @@ After you grant permissions to a service account and remove the local farm ID fr
 > [!CAUTION]
 > If you remove the local farm ID from a service application and do not assign any other service account to that service application, the service application becomes unavailable to all web applications. 
   
-In this section:
-  
-- [Restrict access to a service application by using Central Administration](#Section2CA)
-    
-- [Restrict access to a service application by using Microsoft PowerShell](#Section2WPS)
+
     
 ### Restrict access to a service application by using Central Administration
 <a name="Section2CA"> </a>
@@ -67,11 +63,7 @@ To restrict access to a service application by using the SharePoint Central Admi
     
 3. Remove the local farm ID from the service application.
     
-Procedures in this section:
-  
-- [To retrieve a web application service account by using Central Administration ](#ProcCAGetWeb)
-    
-- [To grant and remove permissions for service accounts to access a service application by using Central Administration](#ProcCAGrant)
+
     
 ### To retrieve a web application service account by using Central Administration
 <a name="Section2CA"> </a>
@@ -134,17 +126,7 @@ After you have started PowerShell, the remaining steps to restrict access to a s
     
 8. Display and review updated permissions
     
-In this section:
-  
-- [To start a Microsoft PowerShell session ](#ProcInitWPS)
-    
-- [To retrieve the local farm ID by using Microsoft PowerShell ](#ProcWPSGetFID)
-    
-- [To retrieve a web application service account and create a new claims principal by using Microsoft PowerShell ](#ProcWPSGetWeb)
-    
-- [To retrieve the security object of the service application](#ProcWPSGetSO)
-    
-- [To update the service application security object by using the preferred permissions](#ProcWPSUpdateSO)
+
     
 ### To start a Microsoft PowerShell session
 <a name="Section2WPS"> </a>
@@ -251,13 +233,7 @@ You can add or remove any service account to a service application by using thes
 
 You can restore farm-wide access to a service application by adding the local farm ID to the service application. You can do this by using Central Administration or by using PowerShell commands. However, you must use PowerShell to obtain the local farm ID.
   
-In this section:
-  
-- [To retrieve the local farm ID by using Windows Powershell ](#ProcWPSGetFID)
-    
-- [To restore local farm-wide access to a service application by using Central Administration](#ProcCARestore)
-    
-- [To restore local farm-wide access to a service application by using Microsoft Powershell](#ProcWPSRestore)
+
     
 ### To retrieve the local farm ID by using PowerShell
 
