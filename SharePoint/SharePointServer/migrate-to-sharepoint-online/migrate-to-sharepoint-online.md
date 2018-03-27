@@ -32,7 +32,7 @@ The method you select to move your data depends on a number of factors including
 
   Go here to download: <a href="https://www.microsoft.com/en-us/download/details.aspx?id=53598">SharePoint Migration Assessment Tool</a>.
 
-
+## Microsoft FastTrack services 
 Microsoft FastTrack services can help you get started with your migration to the cloud. To learn more, go to <a href="https://fasttrack.microsoft.com/about"> Microsoft FastTrack.</a> 
 
   
