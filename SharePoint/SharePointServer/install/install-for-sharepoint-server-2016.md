@@ -24,7 +24,7 @@ Testing and implementing SharePoint Server 2016 solutions at different stages of
   
 The following articles provide information about how to deploy SharePoint Server 2016 on one or more servers to create different topologies that you can use for testing and implementing SharePoint Server 2016 solutions at different stages of the deployment life cycle.
   
-|**        ![Building blocks](../media/mod_icon_buildingblock_M.png)          Content**|**Description**|
+|**Content**|**Description**|
 |:-----|:-----|
 |[Install SharePoint Server 2016 on one server](install-sharepoint-server-2016-on-one-server.md) <br/> |Describes how to install SharePoint Server 2016 on a single server.  <br/> |
 |[Install SharePoint Server 2016 across multiple servers](install-sharepoint-server-2016-across-multiple-servers.md) <br/> |Describes how to install SharePoint Server 2016 on multiple servers.  <br/> |

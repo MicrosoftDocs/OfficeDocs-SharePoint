@@ -25,7 +25,7 @@ Testing and implementing SharePoint 2013 solutions at different stages of the de
 The following articles provide information about how to deploy SharePoint 2013 on one or more servers to create different topologies that you can use for testing and implementing SharePoint 2013 solutions at different stages of the deployment life cycle.
   
   
-|**        ![Building blocks](../media/mod_icon_buildingblock_M.png)          Content**|**Description**|
+|**Content**|**Description**|
 |:-----|:-----|
 |[Install SharePoint 2013 on a single server with a built-in database](single-server-with-a-built-in-database.md) <br/> |Explains how to install SharePoint 2013 on a single server. This deployment uses SQL Server Express and is typically used for evaluating SharePoint 2013.  <br/> |
 |[Install SharePoint 2013 on a single server with SQL Server](single-server-with-sql-server.md) <br/> |Describes how to install SharePoint 2013 on a single server. This deployment uses SQL Server and can easily be scaled out to create two- and three-tier farm topologies.  <br/> |
