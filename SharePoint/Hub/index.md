@@ -82,7 +82,7 @@ description: SharePoint documentation
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>SharePoint Online administration</h3>
+                                                    <h3>SharePoint Online</h3>
                                                     <p>Find resources for managing SharePoint Online in your Office 365 environment.</p>
                                                 </div>
                                             </div>
