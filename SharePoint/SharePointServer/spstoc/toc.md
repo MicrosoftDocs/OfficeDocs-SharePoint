@@ -354,7 +354,6 @@
 ### [Create a user mapping file for data content migration](../migrate-to-sharepoint-online/create-a-user-mapping-file-for-data-content-migration.md)
 ### [How the SharePoint Migration Tool works](../migrate-to-sharepoint-online/how-the-sharepoint-migration-tool-works.md)
 ### [SharePoint Online provided Azure containers and queues for SPO Migration API](../migrate-to-sharepoint-online/sharepoint-online-provided-azure-containers-and-queues-for-spo-migration-api.md)
-### [Using the SharePoint Migration Tool Reports](../migrate-to-sharepoint-online/using-the-sharepoint-migration-tool-reports.md)
 ### [SharePoint Online and OneDrive Migration Speed](../migrate-to-sharepoint-online/sharepoint-online-and-onedrive-migration-speed.md)
 ### [Upload on-premises content to SharePoint Online using PowerShell cmdlets](../migrate-to-sharepoint-online/upload-on-premises-content-to-sharepoint-online-using-powershell-cmdlets.md)
 ### [Overview of the SharePoint Migration Assessment Tool](../migrate-to-sharepoint-online/overview-of-the-sharepoint-migration-assessment-tool.md)
