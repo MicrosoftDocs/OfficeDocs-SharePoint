@@ -49,18 +49,18 @@ Do you already have SharePoint Server installed and want to upgrade to a new ver
 
 |**What do you need to do?**|**Consider**|
 |:-----|:-----|
-|I have SharePoint Server 2013 installed and want to upgrade to SharePoint 2016  <br/> |[Upgrade to SharePoint Server 2016](/upgrade-and-update/upgrade-to-sharepoint-server-2016.md) <br/> |
+|I have SharePoint Server 2013 installed and want to upgrade to SharePoint 2016  <br/> |[Upgrade to SharePoint Server 2016](upgrade-and-update/upgrade-to-sharepoint-server-2016.md) <br/> |
 |I have SharePoint Server 2010 installed and want to upgrade to SharePoint 2013  <br/> |[Upgrade from SharePoint 2010 to SharePoint 2013](upgrade-and-update/upgrade-from-sharepoint-2010-to-sharepoint-2013.md) <br/> |
 |How do I apply updates to SharePoint Server 2013?  <br/> |[Deploy software updates for SharePoint 2013](upgrade-and-update/deploy-software-updates-for-sharepoint-2013.md) <br/> |
-|How do I apply updates to SharePoint Server 2016?  <br/> |[Deploy software updates for SharePoint Server 2016](/upgrade-and-update/deploy-updates-for-sharepoint-server-2016.md) <br/> |
+|How do I apply updates to SharePoint Server 2016?  <br/> |[Deploy software updates for SharePoint Server 2016](upgrade-and-update/deploy-updates-for-sharepoint-server-2016.md) <br/> |
 
 ## I have SharePoint Server and want to move to the cloud
 
-Perhaps you already have SharePoint Server and are considering moving to the cloud. Maybe your plans for migrating your content to the cloud is only for specific areas, or will be a gradual move. Learn about setting up your hybrid environment and find out the different ways to migrate your content.  
+Perhaps you already have SharePoint Server and are considering moving to the cloud. Maybe your plans for migrating to the cloud are only for specific areas, or will be a gradual move. Learn about setting up your hybrid environment and find out the different ways to migrate your content.  
 
 |**Are you wanting to...**|**Consider**|
 |:-----|:-----|
-|Do you need to decide which hybrid solution you should use for your business?  <br/> |[Explore SharePoint Server hybrid](hybrid/explore-sharepoint-server-hybrid.md) <br/> |
+|Decide which hybrid solution you should use for your business?  <br/> |[Explore SharePoint Server hybrid](hybrid/explore-sharepoint-server-hybrid.md) <br/> |
 |Find out how you can move your data from on-premises to SharePoint Online? <br/> |[Migrate to SharePoint Online](migrate-to-sharepoint-online/migrate-to-sharepoint-online.md) <br/> |
    
 
