@@ -72,6 +72,25 @@ description: SharePoint documentation
                                 </a>
                             </li>                            
                             <li>
+                                <a href="https://support.office.com/article/79eb0420-8cbd-4bcb-a90b-ddc7d3ab4b3a">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="https://docs.microsoft.com/en-us/Office/media/sharepoint-online-admin.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>SharePoint Online administration</h3>
+                                                    <p>Find resources for managing SharePoint Online in your Office 365 environment.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>                
+                            <li>
                                 <a href="https://support.office.com/sharepoint">
                                     <div class="cardSize">
                                         <div class="cardPadding">
