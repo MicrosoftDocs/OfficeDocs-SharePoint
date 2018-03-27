@@ -20,21 +20,19 @@ There are different options available to migrate content to SharePoint Online, d
   
 ## What is SharePoint Online?
 
-SharePoint Online is a cloud based collaboration platform that lets you and your organization store, organize, and share data and easily communicate with each other. 
+A component of your Office 365 enterprise subscription, SharePoint Online (SPO) is a cloud based collaboration platform that lets you and your organization store, organize, and share data and easily communicate with each other. With SPO, you can share common resources and applications on portals, search to discover information and expertise across your organization, and stay in the know with personalized news in SharePoint home and the SharePoint mobile apps.
   
 ## Planning your move to SharePoint online
 
-The strategy you select to move your data depends on the amount of data and the size. 
-  
-## Make an assessment of your content
+The strategy you select to move your data depends on a number of factors including the amount of data and the size. Taking an inventory and assessment of your data, deciding what you need and what isn't necessary, is key to a successful migration.  Before deciding on a migration strategy, perform an analysis of your current environment. What data do you want or need to move? Where is the content currently stored? should focus on those SharePoint workloads and content that you plan to move to SharePoint Online.
+
+### Microsoft FastTrack ###
+
+Microsoft FastTrack services can help you get started with your migration to the cloud. To learn more, go to <a href="https://fasttrack.microsoft.com/about"> Microsoft FastTrack.</a> 
 
 Before deciding on a migration strategy, perform an analysis of your current environment. What data do you want or need to move? Where is the content currently stored? should focus on those SharePoint workloads and content that you plan to move to SharePoint Online.
   
-As an outcome of the analysis you should have a clear understanding on the content and the customizations you have in your On-Premises environment.
-  
-You should then create a content and customization roadmap that covers what content and customizations that will be moved to SharePoint Online and how they will be moved.
-  
-For each customization you will need to decide if you want to provide that functionality in your SharePoint Online environment. As the next step you will need to validate if the customizations can be implemented as sandboxed solutions.
+
   
 ## Ways to move your data
 
@@ -44,8 +42,3 @@ For each customization you will need to decide if you want to provide that funct
 |OneDrive sync client  <br/> |After installing the OneDrive Sync client, you can drag and drop files to a folder on the computer and the content will automatically sync with either OneDrive or SharePoint Online.  <br/> |
 |Manual upload  <br/> |Uploading files one at a time from the SharePoint Online tenant.  <br/> |
    
-## Validation of your content in SharePoint Online
-
-Once your migration has completed, the important of validating that you content is accurate, and consistent with what you had before. What should you look for? 
-  
-
