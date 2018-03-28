@@ -1,0 +1,30 @@
+---
+title: "The building blocks of Office 365 hybrid"
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: pamgreen
+ms.date: 10/2/2017
+ms.audience: ITPro
+ms.topic: article
+ms.prod: sharepoint-server-itpro
+localization_priority: Normal
+ms.collection:
+- Ent_O365_Hybrid
+- IT_Sharepoint_Server
+- IT_SharePoint_Hybrid_Top
+ms.assetid: bbb62edb-def7-45dd-931c-78746c3d9fa5
+description: "Summary: Watch this video to learn about the major pieces of an Office 365 hybrid deployment."
+---
+
+# The building blocks of Office 365 hybrid
+
+ **Summary:** Watch this video to learn about the major pieces of an Office 365 hybrid deployment. 
+  
+This chalk talk video covers the major pieces of Office 365 hybrid deployments. This includes identity management, and a look at SharePoint, Exchange, and Skype for Business hybrid.
+  
+If you're considering deploying an Office 365 hybrid solution, watch this video to learn more about how all the pieces fit together.
+  
+**Video: The building blocks of SharePoint hybrid**
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/49bc73aa-b5ab-497a-a54e-b70ddd7a4ace?autoplay=false]
+

@@ -1,0 +1,35 @@
+---
+title: "Hybrid for SharePoint Server"
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: pamgreen
+ms.date: 6/20/2017
+ms.audience: ITPro
+ms.topic: hub-page
+ms.prod: sharepoint-server-itpro
+localization_priority: Normal
+ms.collection:
+- Ent_O365_Hybrid
+- IT_Sharepoint_Server
+- IT_Sharepoint_Server_Top
+ms.assetid: f26ad022-5c99-4a27-a093-52cc9ee71296
+description: "Summary: Learn about SharePoint Server hybrid environments and the hybrid solutions available for SharePoint Server and SharePoint Online."
+---
+
+# Hybrid for SharePoint Server
+
+ **Summary:** Learn about SharePoint Server hybrid environments and the hybrid solutions available for SharePoint Server and SharePoint Online. 
+  
+With SharePoint Server hybrid, productivity services in SharePoint Online can be integrated with on-premises SharePoint Server to provide unified functionality and access to data. For enterprises that want to gradually move their existing on-premises SharePoint Server services to the cloud, SharePoint Server hybrid provides a staged migration path by extending high-impact SharePoint Server workloads to SharePoint Online.
+  
+A SharePoint Server hybrid environment enables trusted communications between SharePoint Online and SharePoint Server. When you have established this trust framework, you can configure integrated functionality between services and features such as Search, Follow, and user profiles.
+  
+To get started exploring hybrid, see the following articles:
+  
+- [SharePoint hybrid sites and search](https://go.microsoft.com/fwlink/p/?LinkID=746868)
+    
+- [Extranet for Partners with Office 365](https://go.microsoft.com/fwlink/p/?LinkID=746943)
+    
+For detailed hybrid configuration information, see [SharePoint Server 2016 hybrid configuration roadmaps](configuration-roadmaps.md).
+  
+
