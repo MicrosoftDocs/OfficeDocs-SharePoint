@@ -79,7 +79,7 @@ Sandboxed solutions are solution packages that site collection administrators ca
   
 We recommend that you keep a backup of the original .wsp file and the source code used to build the .wsp file for both trusted solutions and sandboxed solutions. 
   
- **To back up trusted solutions by using Central Administration**
+ ### To back up trusted solutions by using Central Administration
   
 1. Verify that the user account that is performing this procedure is a member of the Farm Administrators group.
     
@@ -102,7 +102,7 @@ We recommend that you keep a backup of the original .wsp file and the source cod
     
     If you receive any errors, review the **Failure Message** column of the **Backup and Restore Job Status** page. You can also find more details in the Spbackup.log file at the UNC path that you specified in step 4. 
     
- **To back up trusted solutions by using PowerShell**
+ ### To back up trusted solutions by using PowerShell
   
 1. Verify that you have the following memberships:
     
