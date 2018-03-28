@@ -17,7 +17,7 @@ description: ""
 # Introducing the SharePoint Migration Tool
 
 > [!NOTE]
-> To download the tool, go here: [ SharePoint Migration Tool ](http://technet.microsoft.com/library/http://spmtreleasescus.blob.core.windows.net/install/default.md.aspx)
+> To download the tool, go here: [ SharePoint Migration Tool ](http://spmtreleasescus.blob.core.windows.net/install/default.htm)
   
 ## 
 
