@@ -1,9 +1,9 @@
 {
   "docsets_to_publish": [
     {
-      "docset_name": "OfficeDocs-SharePoint",
-      "build_source_folder": "SharePoint",
-      "build_output_subfolder": "OfficeDocs-SharePoint",
+      "docset_name": "OfficeDocs-OneDrive",
+      "build_source_folder": "OneDriveForBusiness",
+      "build_output_subfolder": "OfficeDocs-OneDrive",
       "locale": "en-us",
       "monikers": [],
       "moniker_ranges": [],
@@ -18,13 +18,13 @@
       "version": 0
     },
     {
-      "docset_name": "OfficeDocs-OneDrive",
-      "build_source_folder": "OneDriveForBusiness",
-      "build_output_subfolder": "OfficeDocs-OneDrive",
+      "docset_name": "OfficeDocs-SharePoint",
+      "build_source_folder": "SharePoint",
+      "build_output_subfolder": "OfficeDocs-SharePoint",
       "locale": "en-us",
       "monikers": [],
       "moniker_ranges": [],
-      "open_to_public_contributors": false,
+      "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
