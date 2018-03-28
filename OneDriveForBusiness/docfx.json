@@ -19,7 +19,9 @@
       {
         "files": [
           "**/*.png",
-          "**/*.jpg"
+          "**/*.jpg",
+          "**/*.gif",
+          "**/*.svg"
         ],
         "exclude": [
           "**/obj/**",
@@ -29,7 +31,11 @@
     ],
     "overwrite": [],
     "externalReference": [],
-    "globalMetadata": {},
+    "globalMetadata": {
+      "feedback_system": "GitHub",
+      "feedback_github_repo": "MicrosoftDocs/OfficeDocs-SharePoint",
+      "feedback_product_url": "https://onedrive.uservoice.com" 
+    },
     "fileMetadata": {},
     "template": [],
     "dest": "OfficeDocs-OneDrive"
