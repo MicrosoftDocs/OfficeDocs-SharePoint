@@ -591,9 +591,9 @@ Update DNS to provide the following redirections:
     
 - To the recovery farm for the application domain.
     
- **Failover step 6**
+**Failover step 6**
   
- **Validate the recovery**
+**Validate the recovery**
   
 Run Test Cases in your environment to ensure that the recovery is as expected.
   
@@ -603,9 +603,9 @@ After you validate the recovery:
     
 - Schedule a full backup of the recovery farm.
     
- **Failover step 7**
+**Failover step 7**
   
- **Send out notifications**
+**Send out notifications**
   
 Notify the appropriate business stakeholders once the recovery validation is complete.
   
