@@ -235,8 +235,11 @@ To update AD DS with the My Site Host URL, you must run a script on an Exchange 
   [PS] C:\>  c:\SetMySiteHostURLInAD.ps1      -get
   ```
 
-    > [!NOTE]
-    > Optionally, you can remove a My Site Host URL by entering the command **[PS] C:\\> c:\SetMySiteHostURLInAD.ps1 -remove**. 
+  Optionally, you can remove a My Site Host URL by entering the command:
+    
+  ```
+  [PS] C:\>  c:\SetMySiteHostURLInAD.ps1  -remove
+  ``` 
   
 Once you have configured the My Site Host URL, you can also verify the value in SharePoint Central Administration Web site. From **Application Management**, go to **Manage service applications**, to **User Profile Service Application** (or other chosen name for User Profile Service Application), to **My Site Settings**, and finally to **Setup My Sites**. On the **My Site Settings** page, you will see that the **My Site Host URL in Active Directory** field is populated with your entry. 
   
