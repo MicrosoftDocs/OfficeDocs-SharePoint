@@ -167,7 +167,7 @@ To prepare the environment, complete the following tasks:
     
 - Enable Always On.
     
-#### Install SQL Server 2014 (SP1)
+### Install SQL Server 2014 (SP1)
 
 Use the following procedure to install SQL Server 2014 (SP1).
   
@@ -181,7 +181,7 @@ Use the following procedure to install SQL Server 2014 (SP1).
     
     For more information, see [Quick-Start Installation of SQL Server 2014](http://go.microsoft.com/fwlink/?LinkID=723753&amp;clcid=0x409) and [Installing SQL Server 2014 Step by Step Tutorial](http://go.microsoft.com/fwlink/?LinkID=724036&amp;clcid=0x409).
     
-#### Install SQL Server 2016
+### Install SQL Server 2016
 
 Use the following procedure to install SQL Server 2016.
   
@@ -195,7 +195,7 @@ Use the following procedure to install SQL Server 2016.
     
     For more information, see [SQL Server Failover Cluster Installation](https://go.microsoft.com/fwlink/?linkid=858195).
     
-#### Install SQL Server 2012
+### Install SQL Server 2012
 
  **To install SQL Server 2012**
   
@@ -207,7 +207,7 @@ Use the following procedure to install SQL Server 2016.
     
     For more information, see [Installation for SQL Server 2012](https://go.microsoft.com/fwlink/p/?LinkId=245717).
     
-#### Enable Always On
+### Enable Always On
 
 You must enable Always On for each database server in the cluster.
   
@@ -270,7 +270,7 @@ If there are no user databases on the instance of the connected server, which is
     
 7. In the **Back Up Database** dialog box, click **OK** to accept all the default settings and create the back up. 
     
-#### About replicas and data synchronization
+### About replicas and data synchronization
 
 You should be familiar with the following information about replicas and data synchronization before creating and configuring the availability groups for your SharePoint farm.
   
@@ -322,7 +322,7 @@ For each database in the availability group, the **Start Data Synchronization** 
     
     This step puts the secondary database in the ONLINE state and starts data synchronization for this database.
     
- **Login replication**
+**Login replication**
   
 SharePoint logins that are created by using the same approach as in previous releases of SQL Server are not replicated in an availability group. This occurs because login information is stored in the MasterDB database, which is not replicated. Although the farm accounts are created when replicas are synchronized, login information is not available after a failover.
   
@@ -333,7 +333,7 @@ SQL Server 2012 introduced the concept of Users with Passwords for Contained Dat
 > [!IMPORTANT]
 > If you create a new SharePoint login to use for an existing availability group, make sure to add the login to the contained database so it is replicated to each server that is hosting a SQL Server instance for the availability group. For example, if you create another application pool for a Web App and give it a new identity (an application pool account that you have not used), then you need to add that account as a login. 
   
-#### Create and configure the availability group
+### Create and configure the availability group
 
 Use the following procedure to create an availability group on the primary replica, which is SP-SRV1 in our example. 
   
@@ -466,13 +466,13 @@ Test availability group failover by using either the planned manual failover or 
     
 - [Perform a Forced Manual Failover of an Availability Group (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkId=262796)
     
- **SQL Server 2014 (SP1)**
+**SQL Server 2014 (SP1)**
   
 - [Perform a Planned Manual Failover of an Availability Group (SQL Server)](http://go.microsoft.com/fwlink/?LinkID=724067&amp;clcid=0x409)
     
 - [Perform a Forced Manual Failover of an Availability Group (SQL Server)](http://go.microsoft.com/fwlink/?LinkID=724068&amp;clcid=0x409)
     
- **SQL Server 2016**
+**SQL Server 2016**
   
 - [Perform a Planned Manual Failover of an Availability Group (SQL Server)](https://msdn.microsoft.com/en-us/library/hh231018%28v=sql.130%29.aspx)
     
@@ -498,19 +498,19 @@ The following new performance objects are available to monitor an Always On envi
     
 - [SQLServer:Availability Replica](https://go.microsoft.com/fwlink/p/?LinkId=245746)
     
- **SQL Server 2014 (SP1)**
+**SQL Server 2014 (SP1)**
   
 - [SQL Server, Database Replica](http://go.microsoft.com/fwlink/?LinkID=724069&amp;clcid=0x409)
     
 - [SQL Server, Availability Replica](http://go.microsoft.com/fwlink/?LinkID=724070&amp;clcid=0x409)
     
- **SQL Server 2016**
+**SQL Server 2016**
   
 - [SQL Server, Database Replica](https://go.microsoft.com/fwlink/?linkid=858216)
     
 - [SQL Server, Availability Replica](https://go.microsoft.com/fwlink/?linkid=858218)
     
- **Health and capacity**
+**Health and capacity**
   
 For general health monitoring you can use the Availability Groups Dashboard to obtain the health of the availability groups in the system. For more information, see [AlwaysOn Policies for Operational Issues with AlwaysOn Availability Groups (SQL Server)](http://go.microsoft.com/fwlink/?LinkID=724071&amp;clcid=0x409) for SQL Server 2014 (SP1) and [Always On Policies for Operational Issues - Always On Availability](https://docs.microsoft.com/en-us/sql/database-engine/availability-groups/windows/always-on-policies-for-operational-issues-always-on-availability) for SQL Server 2016. For more information about SQL Server 2012, see the following: 
   
