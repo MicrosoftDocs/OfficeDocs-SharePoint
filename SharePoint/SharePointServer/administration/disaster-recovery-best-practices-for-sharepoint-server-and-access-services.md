@@ -217,7 +217,7 @@ The process has three key steps:
   
 1. Use the script in [How to transfer logins and passwords between instances of SQL Server](https://support.microsoft.com/en-us/kb/918992) to generate two new stored procedures in the primary Access Services Database Server Master Database. 
     
-2. Execute the Stored Procedure to generate a TSQL script that can be copied to the target secondary server, for example: —
+2. Execute the Stored Procedure to generate a TSQL script that can be copied to the target secondary server, for example:
     
   ```
   Login: db_ _dbo
@@ -225,7 +225,7 @@ The process has three key steps:
   CREATE LOGIN [db_63eb8501_29b0_401a_becd_9931ae72ea3d_custom] WITH PASSWORD = ***********  HASHED, SID = 0x8B68A3A203D6D14E88F13B504420BD7E, DEFAULT_DATABASE = [master], CHECK_POLICY = OFF, CHECK_EXPIRATION = OFF
   ```
 
-3. Execute the TSQL on the target secondary database server to generate the logins
+3. Execute the TSQL on the target secondary database server to generate the logins.
     
 After completing these actions, the Secondary Disaster Recovery Farm will be able to render the Access Services Apps from the Primary farm after failover.
   
