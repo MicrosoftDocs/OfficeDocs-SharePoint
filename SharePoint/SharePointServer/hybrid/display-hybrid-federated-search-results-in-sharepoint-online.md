@@ -1,7 +1,7 @@
 ---
 title: "Display hybrid federated search results in SharePoint Online"
 ms.author: tlarsen
-author: tlarsen
+author: tklarsen
 manager: arnek
 ms.date: 3/9/2018
 ms.audience: ITPro

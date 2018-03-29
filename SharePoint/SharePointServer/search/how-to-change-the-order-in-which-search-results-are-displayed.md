@@ -1,7 +1,7 @@
 ---
 title: "How to change the order in which search results are displayed in SharePoint Server"
 ms.author: tlarsen
-author: tlarsen
+author: tklarsen
 manager: pamgreen
 ms.date: 3/7/2018
 ms.audience: ITPro

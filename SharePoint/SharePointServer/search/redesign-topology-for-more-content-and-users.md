@@ -1,7 +1,7 @@
 ---
 title: "Redesign enterprise search topology for more content and users in SharePoint 2016"
 ms.author: tlarsen
-author: tlarsen
+author: tklarsen
 manager: pamgreen
 ms.date: 9/8/2017
 ms.audience: ITPro

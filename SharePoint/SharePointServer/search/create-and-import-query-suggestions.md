@@ -1,7 +1,7 @@
 ---
 title: "Create and import query suggestions in SharePoint Server"
 ms.author: tlarsen
-author: tlarsen
+author: tklarsen
 manager: pamgreen
 ms.date: 9/5/2017
 ms.audience: ITPro
