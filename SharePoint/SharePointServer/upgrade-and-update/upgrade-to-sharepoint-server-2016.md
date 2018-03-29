@@ -18,7 +18,7 @@ description: "Summary: Learn how to plan, prepare, and perform an upgrade to Sha
 
 # Upgrade to SharePoint Server 2016
 
- **Summary: ** Learn how to plan, prepare, and perform an upgrade to SharePoint Server 2016. 
+ **Summary:** Learn how to plan, prepare, and perform an upgrade to SharePoint Server 2016. 
   
 The following articles provide information about performing an upgrade to SharePoint Server 2016.
   
