@@ -135,7 +135,7 @@ The following table describes the supported high availability and disaster recov
 
 |**Category**|**Description**|
 |:-----|:-----|
-|Default database name when it is installed with the SharePoint Products Configuration Wizard  <br/> |**2016:** PerformancePoint Service Application _\<GUID\>  <br/> **2013:** PerformancePoint Service _\<GUID\>  <br/> |
+|Default database name when it is installed with the SharePoint Products Configuration Wizard  <br/> |**2016:** PerformancePoint Service Application_\<GUID\>  <br/> **2013:** PerformancePoint Service_\<GUID\>  <br/> |
 |Purpose  <br/> |Stores temporary objects and saved user comments and settings.  <br/> |
 |Supports SQL Server 2014 (SP1) and SQL Server 2016 RTM synchronous mirroring in a farm for availability  <br/> Supports SQL Server 2008 R2 and SQL Server 2012 synchronous mirroring in a farm for availability  <br/> |Yes  <br/> |
 |Supports SQL Server AlwaysOn Availability Group with synchronous-commit for availability  <br/> |Yes  <br/> |
