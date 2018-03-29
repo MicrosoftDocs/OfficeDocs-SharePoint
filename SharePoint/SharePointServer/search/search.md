@@ -1,7 +1,7 @@
 ---
 title: "Search"
 ms.author: tlarsen
-author: tlarsen
+author: tklarsen
 manager: pamgreen
 ms.date: 3/12/2018
 ms.audience: ITPro

@@ -1,7 +1,7 @@
 ---
 title: "Show results from Office 365 in on-premises SharePoint with cloud hybrid search"
 ms.author: tlarsen
-author: tlarsen
+author: tklarsen
 manager: arnek
 ms.date: 7/21/2017
 ms.audience: ITPro
