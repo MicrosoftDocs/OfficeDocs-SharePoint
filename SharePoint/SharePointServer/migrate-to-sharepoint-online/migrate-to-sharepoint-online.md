@@ -40,7 +40,7 @@ Microsoft FastTrack services can help you get started with your migration to the
 
 |**Method**|**Description**|
 |:-----|:-----|
-|SharePoint Migration Tool  <br/> |The SharePoint Migration Tool (SPMT) can easily migrate your files from SharePoint on-premises document libraries, lists or regular files shares. <br/><br/>To download the tool, go here: <a href="http://spmtreleasescus.blob.core.windows.net/install/default.htm">SharePoint Migration Tool</a>.  <br/> |
+|SharePoint Migration Tool  <br/> |The SharePoint Migration Tool (SPMT) can easily migrate your files from SharePoint on-premises document libraries, lists or regular files shares. <br/><br/>To download the tool, go here: <a href="http://spmtreleasescus.blob.core.windows.net/install/default.htm">SharePoint Migration Tool</a>  <br/> |
 |OneDrive sync client  <br/> |After installing the OneDrive Sync client, you can drag and drop files to a folder on the computer and the content will automatically sync with either OneDrive or SharePoint Online.  <br/> |
 |Manual upload  <br/> |Uploading files one at a time from the SharePoint Online tenant.  <br/> |
    
