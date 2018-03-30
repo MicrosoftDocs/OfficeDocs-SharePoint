@@ -22,7 +22,7 @@ When you run the BackupMonitoringSettings.ps1 Microsoft PowerShell script on a S
 Administrators can run the scripts before, during, and after changes to the farm, such as farm topology, major security changes, applying software updates, or running a performance test. The scripts alter the monitoring settings so that all of the necessary monitoring data are collected during the event without flooding the Logging database during normal operation.
   
 > [!NOTE]
-> You must download the PowerShell scripts to back up, restore, or modify the farm monitoring settings. The scripts are available on the TechNet Library at [Scripted Monitoring Configuration - BackupMonitoringSettings](https://go.microsoft.com/fwlink/p/?LinkID=299269) and [Scripted Monitoring Configuration - AlterMonitoringSettings](https://go.microsoft.com/fwlink/p/?LinkID=299270). The **BackupMonitoringSettings.ps1** PowerShell script creates the backup Profile from which you can create other Profiles. 
+> You must download the PowerShell scripts to back up, restore, or modify the farm monitoring settings. The scripts are available on the TechNet Gallery at [Scripted Monitoring Configuration - BackupMonitoringSettings](https://go.microsoft.com/fwlink/p/?LinkID=299269) and [Scripted Monitoring Configuration - AlterMonitoringSettings](https://go.microsoft.com/fwlink/p/?LinkID=299270). The **BackupMonitoringSettings.ps1** PowerShell script creates the backup Profile from which you can create other Profiles. 
   
 You can create one or more Profiles to adjust the level of monitoring during different phases of the SharePoint lifecycle. You can also use a custom Profile to configure monitoring on several farms at once.
   
@@ -101,6 +101,8 @@ When you run the **BackupMonitoringSettings.ps1** PowerShell script, you create 
 |ScriptErrorReportingRequireAuth  <br/> |Boolean  <br/> |Specifies whether script error reporting requires authentication.  <br/> |
 |ScriptErrorReportingDelay  <br/> |Integer  <br/> |Specifies the time in minutes between script error reports. The value must be a valid integer between 0 and 1440. The value is specified in minutes. The default value is 30.  <br/> |
    
+Use the following table for the UsageServices settings.
+
 **The elements of the UsageServices settings**
 
 |**Name**|**Value Type**|**Notes**|
@@ -111,6 +113,8 @@ When you run the **BackupMonitoringSettings.ps1** PowerShell script, you create 
 |UsageLogMaxFileSizeKB  <br/> |Integer  <br/> |Specifies the maximum size of a single usage file that is applied to all the usage providers. The minimum value is 512 kilobytes (KB) and the maximum value is 65536 KB.  <br/> |
 |UsageLogCutTime  <br/> |Integer  <br/> |Specifies the time in minutes of usage data that is collected per usage log file. The default time is 5 minutes. The value must be an integer in the range of 1 to 1440.  <br/> |
    
+Use the following table for the UsageDefinition settings.
+
 **The elements of the UsageDefinition settings**
 
 |**Name**|**Value Type**|**Notes**|
@@ -121,6 +125,8 @@ When you run the **BackupMonitoringSettings.ps1** PowerShell script, you create 
 |DaysToKeepUsageFiles  <br/> |Integer  <br/> |Specifies the number of days to retain usage files. The value must be less than or equal to value of the **DaysRetained** parameter.  <br/> |
 |Enabled  <br/> |Boolean  <br/> |Enables or disables the specified usage provider.  <br/> |
    
+Use the following table for the LogLevel settings.
+
 **The elements of the LogLevel settings**
 
 |**Name**|**Value Type**|**Notes**|
@@ -130,6 +136,8 @@ When you run the **BackupMonitoringSettings.ps1** PowerShell script, you create 
 |EventSeverity  <br/> |String:[None | ErrorCritical |Error | Warning |Information | Verbose]  <br/> |Specifies the category level to be set. The category level is any one of the following values:[None | ErrorCritical |Error | Warning |Information | Verbose]  <br/> |
 |TraceSeverity  <br/> |String:[None | Unexpected |Monitorable | High |Medium | Verbose | VerboseX]  <br/> |Specifies trace throttle to set the specified categories to. The trace log files are text files that are written to the trace log path that is defined on the Diagnostic Logging Settings page on the the SharePoint Central Administration website. The type must be any one of the following values::[None | Unexpected |Monitorable | High |Medium | Verbose | VerboseX]  <br/> |
    
+Use the following table for the TimerJob settings.
+
 **The elements of the TimerJob settings**
 
 |**Name**|**Value Type**|**Notes**|
@@ -138,6 +146,8 @@ When you run the **BackupMonitoringSettings.ps1** PowerShell script, you create 
 |Schedule  <br/> |String  <br/> |Specifies the schedule for running the timer job. The type must be a valid SharePoint Timer service (SPTimer) schedule in the form of any one of the following schedules: Every 5 minutes between 0 and 59, Hourly between 0 and 59, Daily at 15:00:00, Weekly between Fri 22:00:00 and Sun 06:00:00, Monthly at 15 15:00:00, and Yearly at Jan 1 15:00:00  <br/> |
 |Enabled  <br/> |Boolean  <br/> |Enables or disables the timer job.  <br/> |
    
+Use the following table for the HealthAnalyzerRule settings.
+
 **The elements of the HealthAnalyzerRule settings**
 
 |**Name**|**Value Type**|**Notes**|
