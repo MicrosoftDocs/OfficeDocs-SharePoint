@@ -38,17 +38,14 @@ You can assign or remove service application administrators by using the SharePo
     
 5. To add an administrator:
     
-    1) In the first text box on the page, type the user accounts or groups that you want to add. You can click the **People** icon to validate a name. You can click the **Address book** icon to search for users to add. You can add multiple administrators into the text box. 
-  
-2) After you have added the administrators, click **OK**.
+ - In the first text box on the page, type the user accounts or groups that you want to add. You can click the **People** icon to validate a name. You can click the **Address book** icon to search for users to add. You can add multiple administrators into the text box.
+ - After you have added the administrators, click **OK**.
     
 6. To remove an administrator:
     
-    1) In the second text box on the page, select the administrator whom you want to remove. Note that this step does not remove the user from the system—it merely revokes the user's administrative permissions to the selected service application.
-  
-2) Click **Remove**.
-  
-3) After you have finished removing administrators, click **OK**.
+  - In the second text box on the page, select the administrator whom you want to remove. Note that this step does not remove the user from the system—it merely revokes the user's administrative permissions to the selected service application.
+  - Click **Remove**.
+  - After you have finished removing administrators, click **OK**.
     
 ## To assign or remove administrators to a service application by using PowerShell
 
