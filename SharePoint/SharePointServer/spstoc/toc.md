@@ -493,14 +493,14 @@
 #### [Turn on automated document translation](../administration/turn-on-automated-document-translation.md)
 #### [Manage the Distributed Cache service](../administration/manage-the-distributed-cache-service.md)
 ##### [Plan for feeds and the Distributed Cache service](../administration/plan-for-feeds-and-the-distributed-cache-service.md)
-#### [General guidance for hosters in SharePoint Server 2013](../administration/general-guidance-for-hosters-in-sharepoint-server-2013.md
-#### [Understanding multi-tenancy in SharePoint Server 2013](../administration/understanding-multi-tenancy.md
-#### [Plan service deployment in SharePoint Server](../administration/service-deployment-planning.md
-#### [SharePoint Server design samples: Corporate portal and extranet sites](../administration/corporate-portal-and-extranet-sites-design-samples.md
-#### [Host-named site collection architecture and deployment in SharePoint Server](../administration/host-named-site-collection-architecture-and-deployment.md
-#### [Update a web application URL and IIS bindings for SharePoint Server](../administration/update-a-web-application-url-and-iis-bindings.md
-#### [Plan alternate access mappings for SharePoint Server](../administration/plan-alternate-access-mappings.md
-##### [Configure alternate access mappings for SharePoint Server](../administration/configure-alternate-access-mappings.md
+#### [General guidance for hosters in SharePoint Server 2013](../administration/general-guidance-for-hosters-in-sharepoint-server-2013.md)
+#### [Understanding multi-tenancy in SharePoint Server 2013](../administration/understanding-multi-tenancy.md)
+#### [Plan service deployment in SharePoint Server](../administration/service-deployment-planning.md)
+#### [SharePoint Server design samples: Corporate portal and extranet sites](../administration/corporate-portal-and-extranet-sites-design-samples.md)
+#### [Host-named site collection architecture and deployment in SharePoint Server](../administration/host-named-site-collection-architecture-and-deployment.md)
+#### [Update a web application URL and IIS bindings for SharePoint Server](../administration/update-a-web-application-url-and-iis-bindings.md)
+#### [Plan alternate access mappings for SharePoint Server](../administration/plan-alternate-access-mappings.md)
+##### [Configure alternate access mappings for SharePoint Server](../administration/configure-alternate-access-mappings.md)
 
 ### [Install and manage apps for SharePoint Server](../administration/install-and-manage-apps-for-sharepoint-server.md)
 #### [Plan for apps for SharePoint](../administration/plan-for-apps-for-sharepoint.md)
@@ -640,7 +640,7 @@
 ##### [Create an Excel Services dashboard using SQL Server Analysis Services data](../administration/create-an-excel-services-dashboard-using-sql-server-analysis-services-data.md)
 ##### [Create an Excel Services dashboard using a Data Model (SharePoint Server 2013)](../administration/create-an-excel-services-dashboard-using-a-data-model-sharepoint-server-2013.md)
 #### [Configure PerformancePoint Services](../administration/configure-performancepoint-services.md)
-#####[PerformancePoint Services in SharePoint Server 2016 overview](../administration/performancepoint-services-overview.md)
+##### [PerformancePoint Services in SharePoint Server 2016 overview](../administration/performancepoint-services-overview.md)
 ##### [Enable trusted locations for PerformancePoint Services](../administration/enable-trusted-locations-for-performancepoint-services.md)
 ##### [PerformancePoint Services application settings](../administration/performancepoint-services-application-settings.md)
 #### [Overview of Visio Services in SharePoint Server](../administration/visio-services-overview.md)
