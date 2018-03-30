@@ -320,7 +320,7 @@ Delegating **Create all Child Objects** and **Delete all Child Objects** control
     
 7. Click **OK** three times to close the **Permissions**, **Properties** dialog boxes, and Active Directory Users and Computers. 
     
-After you add these permissions, you must restart IIS_1st_NoVer for the farm.
+After you add these permissions, you must restart IIS for the farm.
   
 ### Configure DNS Manager
 <a name="ConfigureDNSManager"> </a>
