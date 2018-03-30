@@ -60,7 +60,10 @@ You can optimize the object cache for a web application by specifying the size o
 The anonymous search results cache is primarily used by publishing sites that allow access to anonymous users. It saves search results from anonymous users and reuses them for later queries that are the same as the original query. This improves performance on site pages that use the Content Search Web Part.
   
 > [!NOTE]
-> There is a known issue in which Content Search Web Part and the Catalog-Item Reuse Web Part do not use the anonymous search results cache on category pages. This issue is resolved in the SharePoint Server 2013 cumulative update for March 2013. For more information, see Microsoft Knowledge Base article 2767999: [Description of the SharePoint Server 2013 update: March 12, 2013](http://go.microsoft.com/fwlink/p/?LinkId=286308). > If you have category pages that you created before the cumulative update was installed, you must re-create the category pages. Save the layouts and any customizations on the original category pages that you want to keep. Disconnect and then reconnect to the catalog, and then copy the customizations to the new category pages. 
+> There is a known issue in which Content Search Web Part and the Catalog-Item Reuse Web Part do not use the anonymous search results cache on category pages. This issue is resolved in the SharePoint Server 2013 cumulative update for March 2013. For more information, see Microsoft Knowledge Base article 2767999: [Description of the SharePoint Server 2013 update: March 12, 2013](http://go.microsoft.com/fwlink/p/?LinkId=286308).
+
+>  [!NOTE]
+>  If you have category pages that you created before the cumulative update was installed, you must re-create the category pages. Save the layouts and any customizations on the original category pages that you want to keep. Disconnect and then reconnect to the catalog, and then copy the customizations to the new category pages.
   
 ## Articles about cache settings
 
