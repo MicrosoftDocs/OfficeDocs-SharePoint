@@ -25,7 +25,7 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleD
   
  **Cause:** Many activities can create unused space in the database. These activities include running the Windows PowerShell [Move-SPSite](http://technet.microsoft.com/library/e3bf1b34-78b9-4643-b0dd-24444e3cffc5.aspx) command, and deleting documents, document libraries, lists, list items, and sites. 
   
- ** Resolution: Ignore this event, or shrink the database if you have to. **
+ **Resolution: Ignore this event, or shrink the database if you have to.**
   
 - Normally you can safely ignore this event. You shrink a database only if it proves absolutely necessary — for example, when you have performed an operation that removes a very large quantity of data from a database, and the free space is not expected to be used again. You can shrink the database by using the DBCC ShrinkDatabase command or SQL Server Management Studio. For more information, see [DBCC SHRINKDATABASE (Transact-SQL)](https://go.microsoft.com/fwlink/p/?LinkID=110852) (https://go.microsoft.com/fwlink/p/?LinkID=110852) and [Shrink a Database](http://go.microsoft.com/fwlink/?LinkID=760771&amp;clcid=0x409) (http://go.microsoft.com/fwlink/p/?LinkID=224904). 
     

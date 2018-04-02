@@ -30,6 +30,9 @@ The minimum requirements for a database server in a SharePoint Server 2016 farm 
     
 > [!NOTE]
 > SQL Server Express is not supported with SharePoint Server 2016. 
+
+> [!NOTE]
+> SQL Server 2017 on Linux is not supported with SharePoint Server 2016.
   
 Depending on the installed version, you can use specific features of SQL Server, such as reporting and business intelligence (BI). For more information, see [Hardware and software requirements for SharePoint Server 2016](../install/hardware-and-software-requirements.md).
   
