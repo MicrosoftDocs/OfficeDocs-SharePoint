@@ -42,7 +42,7 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleT
     
 6. On the Edit Timer Job page, specify the schedule that you want, and then click **Enable**.
     
- **Resolution: Enable the timer job by using Microsoft PowerShell**
+**Resolution: Enable the timer job by using Microsoft PowerShell**
   
 1. Verify that you have the following memberships:
     
