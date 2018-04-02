@@ -32,7 +32,7 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleE
     > [!IMPORTANT]
     > You cannot run the SQL Server Agent service on an instance of SQL Server Express. 
   
- **Resolution: Start the SQL Server Agent service**
+**Resolution: Start the SQL Server Agent service**
   
 1. Verify that the user account that is performing this procedure is a member of the Administrators group on the database server that is hosting the ASP.NET Session State database.
     
