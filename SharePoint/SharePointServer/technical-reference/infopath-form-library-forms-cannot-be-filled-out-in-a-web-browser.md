@@ -32,7 +32,7 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleI
     
 - The following Windows PowerShell command has been run:  `Set-SPInfoPathFormsService -AllowUserFormBrowserRendering $false`.
     
- **Resolution: Enable browser rendering of user forms by using Central Administration**
+**Resolution: Enable browser rendering of user forms by using Central Administration**
   
 1. Verify that the user account that is performing this procedure is a member of the Farm Administrators SharePoint group. 
     
@@ -46,7 +46,7 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleI
     
 6. Click **OK** at the bottom of the page. 
     
- **Resolution: Enable browser rendering of user forms by using Microsoft PowerShell**
+**Resolution: Enable browser rendering of user forms by using Microsoft PowerShell**
   
 1. Verify that you have the following memberships:
     
