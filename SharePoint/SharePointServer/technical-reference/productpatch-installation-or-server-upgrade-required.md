@@ -29,7 +29,7 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleP
   
 - Check if there are any pending updates and restart all the servers. 
     
-    **Install updates on the server.**
+**Install updates on the server.**
     
 1. Log on to one server.
     
@@ -41,6 +41,6 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleP
     
     For more information, see [Deploy software updates for SharePoint Server 2016](../upgrade-and-update/deploy-updates-for-sharepoint-server-2016.md).
     
-- If a previous upgrade attempt has failed, you must resolve upgrade issues before attempting upgrade again. You can use the SharePoint Central Administration website to find information about current and previous upgrade attempts and determine issues that may be preventing upgrade from succeeding. To do this in Central Administration, in the **Upgrade and Migration** section, click **Check upgrade status**.
+If a previous upgrade attempt has failed, you must resolve upgrade issues before attempting upgrade again. You can use the SharePoint Central Administration website to find information about current and previous upgrade attempts and determine issues that may be preventing upgrade from succeeding. To do this in Central Administration, in the **Upgrade and Migration** section, click **Check upgrade status**.
     
 
