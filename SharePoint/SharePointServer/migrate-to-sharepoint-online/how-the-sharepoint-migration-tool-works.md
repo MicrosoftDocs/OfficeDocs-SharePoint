@@ -38,6 +38,8 @@ The following describes what is happening as you use the SharePoint Migration To
 - **UPLOAD:** In the upload stage, the content package is uploaded to Azure with the manifest. Before a migration job can be accepted from a SPO provided Azure container, the data is encrypted at rest using the AES CBC 256 standard. The files are encrypted along with the manifest files. 
     
 - **IMPORT:** During the import phase, the key is provided to SPO SAS. Only Azure and SPO are interacting to fetch and migrate the content into the destination. This process is a timer job based, but does not prevent other jobs from being queued up. During the import, a report is created in the working folder and live updates are made. After the migration job is completed, the log is stored in the Azure container and a final report is created. A log is stored in each Manifest Container. 
+
+- **SESSION AND RESUME:** While the migration is being performed the tool save some information of its session in the users hidden list on their mysite. That information will be used later when the tool is reopened to allow to resume any previous migration session. It is possible to remove that information if the user requires more space in their mysite. this will only remove the session from the resume option in the tool and wont affect previous imports. 
     
 ## Encryption and security
 

@@ -17,7 +17,7 @@ description: ""
 # Introducing the SharePoint Migration Tool
 
 > [!NOTE]
-> To download the tool, go here: [ SharePoint Migration Tool ](http://technet.microsoft.com/library/http://spmtreleasescus.blob.core.windows.net/install/default.md.aspx)
+> To download the tool, go here: [ SharePoint Migration Tool ](http://spmtreleasescus.blob.core.windows.net/install/default.htm)
   
 ## 
 
@@ -39,7 +39,7 @@ You can download and install the SharePoint Migration Tool using Internet Explor
 > [!IMPORTANT]
 > If you are using the Chrome browser, you need to install the **ClickOnce for Google Chrome** plug-in  *before*  installing the SharePoint Migration Tool. > To download and install the plug-in: Using Chrome, go to this site and then click **Add to Chrome**: [ClickOnce for Google Chrome plug-in](https://chrome.google.com/webstore/detail/clickonce-for-google-chro/kekahkplibinaibelipdcikofmedafmb?utm_source=chrome-app-launcher-info-dialog)
   
-1. To download the tool, go to [SharePoint Migration Tool](http://spmtreleasescus.blob.core.windows.net/install/default.md).
+1. To download the tool, go to [SharePoint Migration Tool](http://spmtreleasescus.blob.core.windows.net/install/default.htm).
     
 2. Click **Install**.
     

@@ -1,7 +1,7 @@
 ---
 title: "Manage the search schema in SharePoint Server"
 ms.author: tlarsen
-author: tlarsen
+author: tklarsen
 manager: pamgreen
 ms.date: 3/8/2018
 ms.audience: ITPro

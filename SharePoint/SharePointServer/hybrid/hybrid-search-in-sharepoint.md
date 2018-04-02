@@ -1,7 +1,7 @@
 ---
 title: "Hybrid search in SharePoint"
 ms.author: tlarsen
-author: tlarsen
+author: tklarsen
 manager: arnek
 ms.date: 10/4/2017
 ms.audience: ITPro

@@ -87,7 +87,7 @@ Referring to the topology in the previous illustration, note the following:
     
 - The primary database server (labeled 1) and Rack 2 (labeled 2), that contains two of the virtualization host computers, are identified as fault domains to show how your farm and infrastructure can be viewed as a collection of fault domains. This shows how you can do an in-depth analysis of your environment to develop an overall strategy and cost benefit analysis.
     
- **Other farm roles and services**
+**Other farm roles and services**
   
 Our example does not include all the roles, services, and service applications that might be running in a specific SharePoint farm. You cannot use a generic approach to high availability for everything in a SharePoint farm. Some important exclusions to using a standard approach to high availability are as follows: 
   
@@ -120,7 +120,7 @@ Because the SharePoint platform and its application workloads depend on the avai
     
 - SQL Server high-availability database mirroring
     
- **About AlwaysOn Failover Cluster Instances and AlwaysOn Availability Groups**
+**About AlwaysOn Failover Cluster Instances and AlwaysOn Availability Groups**
   
 A failover cluster requires shared disk storage between two computers. In a two node configuration, the computers are configured as active/passive which provides a fully redundant instance of the primary node. The passive node is only brought online when the primary node fails. The shared disk is only presented to one computer at a time. This configuration typically requires the most additional hardware. In SQL Server 2014 (SP1) and SQL Server 2012, this type of cluster configuration is an AlwaysOn Failover Cluster Instance, and it is a specific way to install SQL Server. Because of the configuration requirements, you cannot take a standard SQL Server installation and easily change it to a Failover Cluster Instance.
   

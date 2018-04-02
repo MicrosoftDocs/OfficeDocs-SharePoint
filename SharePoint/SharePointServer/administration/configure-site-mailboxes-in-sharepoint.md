@@ -15,7 +15,7 @@ description: "Summary: Configure Exchange Server, SharePoint Server 2016 and Sha
 
 # Configure site mailboxes in SharePoint Server
 
- **Summary:** Configure Exchange Server, SharePoint Server 2016 and SharePoint Server 2013for team email by using the Site Mailboxes feature. 
+ **Summary:** Configure Exchange Server, SharePoint Server 2016 and SharePoint Server 2013 for team email by using the Site Mailboxes feature. 
   
 This article describes how to configure Site Mailboxes in SharePoint Server and Exchange Server. The Site Mailboxes feature provides SharePoint Server users with team email on a site. Site Mailboxes also provides links to SharePoint document libraries in Microsoft Outlook, enabling users to share files and email messages with other members of a team that are working on a joint project. 
   
@@ -37,8 +37,14 @@ Before you begin this operation, review the following information about prerequi
     
 - Secure Sockets Layer (SSL) configured for the Default Zone is a requirement for web applications that are deployed in scenarios that support server-to-server authentication and app authentication. This is such a scenario. As a prerequisite for configuring Site Mailboxes, the computer that is running SharePoint Server must have SSL configured. For more information, see [Create claims-based web applications in SharePoint Server](http://technet.microsoft.com/library/83496762-172a-44a4-bf57-1d7ea8008d7d%28Office.14%29.aspx) and follow the steps for creating an SSL site collection and server certificate. 
     
-    > [!NOTE]
-    >  You may need to import the Exchange Server SSL certificate from Exchange Server to SharePoint Server, and from SharePoint Server to Exchange Server. This is only necessary if the certificate is not trusted for the API endpoints (such as a Self-SSL Certificate in a lab environment). >  To import an untrusted SSL certificate to a new server: >  Open Internet Explorer and navigate to Outlook Web App (if the deployment is on SharePoint Server) or the SSL SharePoint site (if the deployment is on Exchange Server): https://\<ExServerName\>/owa or https://\<SP_FQDN\>. >  Accept to trust the certificate by clicking **Continue to website**. >  Click **Certificate Error** info in Internet Explorer next to the Address bar, and then click **View Certificates**. >  Select **Install Certificate** and then select **Place all certificates in the following store**. >  Select the checkbox to show physical stores. >  Install the certificate to Trusted Root Certification Authorities \> Local Computer. 
+Note that you may need to import the Exchange Server SSL certificate from Exchange Server to SharePoint Server, and from SharePoint Server to Exchange Server. This is only necessary if the certificate is not trusted for the API endpoints (such as a Self-SSL Certificate in a lab environment). 
+To import an untrusted SSL certificate to a new server: 
+- Open Internet Explorer and navigate to Outlook Web App (if the deployment is on SharePoint Server) or the SSL SharePoint site (if the deployment is on Exchange Server): https://\<ExServerName\>/owa or https://\<SP_FQDN\>. 
+- Accept to trust the certificate by clicking **Continue to website**. 
+- Click **Certificate Error** info in Internet Explorer next to the Address bar, and then click **View Certificates**. 
+- Select **Install Certificate** and then select **Place all certificates in the following store**. 
+- Select the checkbox to show physical stores. 
+- Install the certificate to Trusted Root Certification Authorities > Local Computer. 
   
 - In order to perform these procedures, you must be a member of the SharePoint and Exchange Server administrator groups and have an operational Exchange Server with end-user mailboxes.
     

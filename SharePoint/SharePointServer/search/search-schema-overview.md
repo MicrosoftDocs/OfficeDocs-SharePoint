@@ -1,7 +1,7 @@
 ---
 title: "Overview of the search schema in SharePoint Server"
 ms.author: tlarsen
-author: tlarsen
+author: tklarsen
 manager: pamgreen
 ms.date: 3/9/2018
 ms.audience: ITPro

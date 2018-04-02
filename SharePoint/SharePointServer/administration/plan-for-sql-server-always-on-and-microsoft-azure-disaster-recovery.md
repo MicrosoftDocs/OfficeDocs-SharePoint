@@ -22,7 +22,7 @@ Use SQL Server 2014 and SQL Server 2016 Always On Availability Groups and Micros
   
 The solution in this article applies to the following:
   
- **SharePoint Server 2013**
+**SharePoint Server 2013**
   
 - Microsoft Azure
     
@@ -30,7 +30,7 @@ The solution in this article applies to the following:
     
 - Windows Server 2012 R2 Datacenter
     
- **SharePoint Server 2016 Enterprise**
+**SharePoint Server 2016 Enterprise**
   
 - SQL Server 2014 with Service Pack 1 (SP1)
     
@@ -40,7 +40,7 @@ The solution in this article applies to the following:
     
 - Windows Server 2016 Datacenter edition
     
- **Acknowledgments:** This SharePoint Server disaster recovery solution is the result of the design, testing, and writing done by Tejinder Rai (MCS). This solution combines Microsoft best practices with hands-on, real world customer experiences. David Williams and Matthew Robertshaw also made significant contributions to this article by their work with SQL Server failover automation and recovery testing. 
+**Acknowledgments:** This SharePoint Server disaster recovery solution is the result of the design, testing, and writing done by Tejinder Rai (MCS). This solution combines Microsoft best practices with hands-on, real world customer experiences. David Williams and Matthew Robertshaw also made significant contributions to this article by their work with SQL Server failover automation and recovery testing. 
   
     
 ## Introduction to hybrid disaster recovery for SharePoint Server
@@ -591,9 +591,9 @@ Update DNS to provide the following redirections:
     
 - To the recovery farm for the application domain.
     
- **Failover step 6**
+**Failover step 6**
   
- **Validate the recovery**
+**Validate the recovery**
   
 Run Test Cases in your environment to ensure that the recovery is as expected.
   
@@ -603,9 +603,9 @@ After you validate the recovery:
     
 - Schedule a full backup of the recovery farm.
     
- **Failover step 7**
+**Failover step 7**
   
- **Send out notifications**
+**Send out notifications**
   
 Notify the appropriate business stakeholders once the recovery validation is complete.
   

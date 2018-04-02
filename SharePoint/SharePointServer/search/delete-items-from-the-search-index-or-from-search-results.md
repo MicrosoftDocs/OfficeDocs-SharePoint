@@ -1,7 +1,7 @@
 ---
 title: "Delete items from the search index or from search results in SharePoint Server"
 ms.author: tlarsen
-author: tlarsen
+author: tklarsen
 manager: pamgreen
 ms.date: 3/7/2018
 ms.audience: ITPro

@@ -1,7 +1,7 @@
 ---
 title: "Plan cloud hybrid search for SharePoint"
 ms.author: tlarsen
-author: tlarsen
+author: tklarsen
 manager: arnek
 ms.date: 12/5/2017
 ms.audience: ITPro

@@ -16,9 +16,9 @@ ms.assetid: c33f0214-4201-4807-9e8f-574d8fd05849
 
 ## What is SharePoint?
 
-SharePoint is a powerful collaboration tool that lets you share and manage content, knowledge, and applications to empower teamwork. 
+SharePoint is a powerful collaboration platform that lets you share and manage content, knowledge, and applications to empower teamwork. 
   
-SharePoint Server can be used on-premises or with an Office 365 enterprise subscription to take advantage of all the latest features. Share common resources and applications on portals. Use search to discover information and expertise across your organization. And stay in the know with personalized news in SharePoint home and the SharePoint mobile apps.
+SharePoint Server can be used on-premises or with an Office 365 enterprise subscription to take advantage of all the latest features. Share common resources and applications on sites. Use search to discover information and expertise across your organization. And stay in the know with personalized news in SharePoint home and the SharePoint mobile apps.
 
 To learn more, go to <a href="https://products.office.com/en-us/sharepoint/collaboration">Learn about SharePoint. </a>
   
@@ -30,8 +30,8 @@ Depending on your version, system requirements and prerequisites could vary.
 
 |**Are you deploying...**|**Read**|
 |:-----|:-----|
-|SharePoint Server 2016<br/>|[Hardware and software requirements](install/hardware-and-software-requirements.md)<br/>[Prerequisites](/install/prerequisites-0.md)<br/>|Hardware and software requirements
-|SharePoint Server 2013 <br/>|[Hardware and software requirements](/install/hardware-and-software-requirements.md)<br/>[Prerequisites](install/prerequisites.md)<br/>|
+|SharePoint Server 2016<br/>|[2016 Hardware and software requirements](install/hardware-and-software-requirements.md)<br/>[2016 Prerequisites](install/prerequisites-0.md)<br/>|Hardware and software requirements
+|SharePoint Server 2013 <br/>|[2013 Hardware and software requirements](install/hardware-and-software-requirements.md)<br/>[2013 Prerequisites](install/prerequisites.md)<br/>|
 
 
 ## How large is your company?  

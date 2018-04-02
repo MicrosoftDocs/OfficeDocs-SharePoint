@@ -1,7 +1,7 @@
 ---
 title: "Manage the Search Center in SharePoint Server"
 ms.author: tlarsen
-author: tlarsen
+author: tklarsen
 manager: pamgreen
 ms.date: 7/24/2017
 ms.audience: ITPro

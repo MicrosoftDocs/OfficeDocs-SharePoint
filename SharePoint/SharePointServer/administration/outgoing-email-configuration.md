@@ -143,7 +143,7 @@ You can configure outgoing email for a farm by using the SharePoint Central Admi
     
 5. In the **From address** box, type the email address as you want it to be displayed to email recipients. 
     
-6. In the ** Reply-to address ** box, type the email address to which you want email recipients to reply. 
+6. In the **Reply-to address** box, type the email address to which you want email recipients to reply. 
     
 7. In the **Use TLS connection encryption** box, select **Yes** or **No** in the drop-down box. 
     

@@ -1,7 +1,7 @@
 ---
 title: "Best practices for organizing content for search in SharePoint Server"
 ms.author: tlarsen
-author: tlarsen
+author: tklarsen
 manager: pamgreen
 ms.date: 9/4/2017
 ms.audience: ITPro

@@ -54,8 +54,9 @@ By default, the disk-based BLOB cache is off and must be enabled on the front-en
     
 6. In the web.config Notepad file, find the following line:  `<BlobCache location="C:\BlobCache\14" path="\.(gif|jpg|jpeg|jpe|jfif|bmp|dib|tif|tiff|themedbmp|themedcss|themedgif|themedjpg|themedpng|ico|png|wdp|hdp|css|js|asf|avi|flv|m4v|mov|mp3|mp4|mpeg|mpg|rm|rmvb|wma|wmv|ogg|ogv|oga|webm|xap)$" maxSize="10" enabled="false" />`
     
-    > [!NOTE]
-    >  `﻿The default max size for an image when using Image Renditions is 40 mega pixels. Should you want to modify this value you will need to add the imageRenditionMaxSourcePixels parameter. For example:`>  `<BlobCache location="C:\BlobCache\14" path="\.(gif|jpg|jpeg|jpe|jfif|bmp|dib|tif|tiff|themedbmp|themedcss|themedgif|themedjpg|themedpng|ico|png|wdp|hdp|css|js|asf|avi|flv|m4v|mov|mp3|mp4|mpeg|mpg|rm|rmvb|wma|wmv|ogg|ogv|oga|webm|xap)$" maxSize="10" imageRenditionMaxSourcePixels="100000000" enabled="true" />`>  `﻿This will set the max image size for Image Renditions to work at around 100 mega pixels.`
+   The default max size for an image when using Image Renditions is 40 mega pixels. Should you want to modify this value you will need to add the imageRenditionMaxSourcePixels parameter. For example:
+   `<BlobCache location="C:\BlobCache\14" path="\.(gif|jpg|jpeg|jpe|jfif|bmp|dib|tif|tiff|themedbmp|themedcss|themedgif|themedjpg|themedpng|ico|png|wdp|hdp|css|js|asf|avi|flv|m4v|mov|mp3|mp4|mpeg|mpg|rm|rmvb|wma|wmv|ogg|ogv|oga|webm|xap)$" maxSize="10" imageRenditionMaxSourcePixels="100000000" enabled="true" />`
+   This will set the max image size for Image Renditions to work at around 100 mega pixels.
   
 7. In this line, change the  `location` attribute to specify a directory that has enough space to accommodate the cache size. 
     
