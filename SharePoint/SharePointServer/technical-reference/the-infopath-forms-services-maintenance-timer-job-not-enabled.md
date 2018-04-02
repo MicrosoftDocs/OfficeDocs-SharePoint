@@ -41,7 +41,7 @@ The InfoPath Forms Services Maintenance timer job is used by InfoPath Forms Serv
     
 6. Click **Enable**.
     
- **Resolution: Enable the timer job by using PowerShell**
+**Resolution: Enable the timer job by using PowerShell**
   
 1. Verify that you have the following memberships:
     
