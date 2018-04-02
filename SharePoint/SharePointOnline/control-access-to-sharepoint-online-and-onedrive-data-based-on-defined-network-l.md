@@ -2,6 +2,7 @@
 title: "Control access to SharePoint Online and OneDrive data based on defined network locations"
 ms.author: kaarins
 author: kaarins
+manager: pamgreen
 ms.date: 8/25/2017
 ms.audience: Admin
 ms.topic: article

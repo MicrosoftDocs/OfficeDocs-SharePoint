@@ -2,6 +2,7 @@
 title: "Get started with the new SharePoint admin center (preview)"
 ms.author: kaarins
 author: kaarins
+manager: pamgreen
 ms.date: 2/5/2018
 ms.audience: Admin
 ms.topic: overview

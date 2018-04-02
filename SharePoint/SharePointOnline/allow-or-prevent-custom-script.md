@@ -2,7 +2,7 @@
 title: "Allow or prevent custom script"
 ms.author: kaarins
 author: kaarins
-manager: scotv
+manager: pamgreen
 ms.date: 7/6/2017
 ms.audience: Admin
 ms.topic: article

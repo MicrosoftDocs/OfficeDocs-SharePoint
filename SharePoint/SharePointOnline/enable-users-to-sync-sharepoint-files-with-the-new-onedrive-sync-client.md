@@ -2,6 +2,7 @@
 title: "Enable users to sync SharePoint files with the new OneDrive sync client"
 ms.author: kaarins
 author: kaarins
+manager: pamgreen
 ms.date: 2/28/2018
 ms.audience: Admin
 ms.topic: article

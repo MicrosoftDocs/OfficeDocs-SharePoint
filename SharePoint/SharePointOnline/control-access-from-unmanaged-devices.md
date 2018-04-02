@@ -2,7 +2,8 @@
 title: "Control access from unmanaged devices"
 ms.author: kaarins
 author: kaarins
-ms.date: 1/5/2018
+manager: pamgreen
+ms.date: 3/30/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
@@ -14,7 +15,7 @@ description: "Learn how to limit web access to SharePoint and OneDrive, or block
 
 # Control access from unmanaged devices
 
- *Last updated: January 2018* 
+ *Last updated: March 2018* 
   
 > [!NOTE]
 > Some functionality is introduced gradually to organizations that have set up the [Set up the Standard or Targeted release options in Office 365](https://support.office.com/article/3b3adfa4-1777-4ff0-b606-fb8732101f47). This means that you may not yet see this feature or it may look different than what is described in this article. 
@@ -70,7 +71,7 @@ If you go to the Azure AD admin center and click **Conditional access**, you can
      ![The limited access setting on the access control page](media/1ac2b9f4-32eb-4f21-85f1-e971c50f8b23.png)
   
     > [!NOTE]
-    >  It can take 5-10 minutes for the policies to take effect. They won't take effect for users who are already signed in from unmanaged devices. >  By default, the policy allows users to edit files in the browser, copy and paste file contents out of the browser window, and download files that can't be previewed in the browser (like .zip and .exe). To block this, use the PowerShell cdmlet. 
+    >  It can take 5-10 minutes for the policies to take effect. They won't take effect for users who are already signed in from unmanaged devices. >  By default, the policy allows users to edit files in the browser, copy and paste file contents out of the browser window, and download files that can't be previewed in the browser (like .zip and .exe). To change this, see [Advanced configurations](control-access-from-unmanaged-devices.md#advanced). 
   
 If you go to the Azure AD admin center and click **Conditional access**, you can see that two policies were created by the SharePoint admin center. By default, the policy applies to all users. To apply it to only specific security groups, make changes under **Users and groups**. Be careful not to create multiple conditional access polices in the Azure AD admin center that conflict with each other. You can disable the policies created by the SharePoint admin center and then manually create the conditional access policies you need.
   
@@ -83,11 +84,11 @@ If you go to the Azure AD admin center and click **Conditional access**, you can
 2. Run  `Set-SPOTenant -ConditionalAccessPolicy AllowLimitedAccess`.
     
 > [!NOTE]
->  By default, the policy allows users to edit files in the browser and copy file contents out of the browser window. To block this, specify  `-AllowEditing $false`. >  Some file types like .zip and .exe can't be previewed in a browser. By default, the policy allows users to download these files. To block downloading of these types of files, specify  `-AllowDownloadingNonWebViewableFile $false`. >  For more info about managing SharePoint Online using PowerShell, see [Introduction to the SharePoint Online Management Shell](https://technet.microsoft.com/en-us/library/fp161388.aspx). 
+>  By default, the policy allows users to edit files in the browser and copy file contents out of the browser window. See [Advanced configurations](control-access-from-unmanaged-devices.md#advanced) to change this. >  Some file types like .zip and .exe can't be previewed in a browser. By default, the policy allows users to download these files. See [Advanced configurations](control-access-from-unmanaged-devices.md#advanced) to change this. >  For more info about managing SharePoint Online using PowerShell, see [Introduction to the SharePoint Online Management Shell](https://technet.microsoft.com/en-us/library/fp161388.aspx). 
   
-## Limit access to specific SharePoint site collections or OneDrive accounts
+## Block or limit access to specific SharePoint site collections or OneDrive accounts
 
-To limit access to specific sites, you must set the tenant-level policy to "Allow full access from desktop apps, mobile apps, and the web." Then follow these steps to manually create a policy in the Azure AD admin center and run PowerShell cmdlets.
+To block or limit access to specific sites, you must set the organization-wide policy to "Allow full access from desktop apps, mobile apps, and the web." Then follow these steps to manually create a policy in the Azure AD admin center and run PowerShell cmdlets.
   
 1. In the Azure AD admin center, select **Conditional access**, and then click **Add**.
     
@@ -105,11 +106,33 @@ To limit access to specific sites, you must set the tenant-level policy to "Allo
   
 7. In the [SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251), connect to the SharePoint admin center with your admin account by running  `Connect-SPOService`. For info about running this cmdlet, see [Connect-SPOService](https://technet.microsoft.com/en-us/library/fp161392.aspx).
     
-8. Run  `Set-SPOSite -Identity https://<SharePoint online URL>/sites/<name of site collection or OneDrive account> -ConditionalAccessPolicy AllowLimitedAccess`.
+8. To block access, run  `Set-SPOSite -Identity https://<SharePoint online URL>/sites/<name of site collection or OneDrive account> -ConditionalAccessPolicy BlockAccess`.
+    
+    To limit access, run  `Set-SPOSite -Identity https://<SharePoint online URL>/sites/<name of site collection or OneDrive account> -ConditionalAccessPolicy AllowLimitedAccess`.
     
 > [!NOTE]
->  The site collection-level setting must be at least as restrictive as the tenant-level setting. >  By default, the policy allows users to edit files in the browser. To block this, specify  `-AllowEditing $false`. >  Some file types like .zip and .exe can't be previewed in a browser. By default, the policy allows users to download these files. To block downloading of these types of files, specify  `-AllowDownloadingNonWebViewableFile $false`. 
+>  The site collection-level setting must be at least as restrictive as the organization-wide setting. >  By default, the limited access policy allows users to edit files in the browser, and allows users to download files that can't be previewed in a browser (like .zip and .exe). See [Advanced configurations](control-access-from-unmanaged-devices.md#advanced) to change this. 
   
 For more info about managing SharePoint Online using PowerShell, see [Introduction to the SharePoint Online Management Shell](https://technet.microsoft.com/en-us/library/fp161388.aspx).
+  
+## Advanced configurations
+<a name="advanced"> </a>
+
+The following parameters can be used with  `-ConditionalAccessPolicy AllowLimitedAccess` for both the organization-wide setting and the site-level setting. 
+  
+-  `-AllowEditing $false` Prevents users from editing files in the browser and copying and pasting file contents out of the browser window. 
+    
+-  `-LimitedAccessFileType -OfficeOnlineFilesOnly` Allows users to preview only Office files in the browser. 
+    
+-  `-LimitedAccessFileType -WebPreviewableFiles` Allows users to preview other file types in the browser, such as PDF files and images. 
+    
+-  `-LimitedAccessFileType -OtherFiles` Allows users to download files that can't be previewed, such as .zip and .exe. 
+    
+External users will be affected when you use conditional access policies to block or limit access from unmanaged devices. To exempt all external users from the policies, run the following cmdlet.
+  
+ `Set-SPOTenant -ApplyAppEnforcedRestrictionsToAdHocRecipients $false`
+  
+> [!NOTE]
+> Anonymous access links (shareable links that don't require sign-in) are not affected by these policies. Anyone who has an anonymous access link to an item will be able to download the item. For all site collections where you enable conditional access policies, you should disable anonymous access links. 
   
 

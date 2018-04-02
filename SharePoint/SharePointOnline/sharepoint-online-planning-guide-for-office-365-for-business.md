@@ -2,7 +2,7 @@
 title: "SharePoint Online Planning Guide for Office 365 for business"
 ms.author: kaarins
 author: kaarins
-manager: scotv
+manager: pamgreen
 ms.date: 10/27/2017
 ms.audience: Admin
 ms.topic: conceptual

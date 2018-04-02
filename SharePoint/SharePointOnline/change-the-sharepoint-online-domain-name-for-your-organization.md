@@ -2,7 +2,7 @@
 title: "Change the SharePoint Online domain name for your organization"
 ms.author: kaarins
 author: kaarins
-manager: scotv
+manager: pamgreen
 ms.date: 2/21/2018
 ms.audience: Admin
 ms.topic: troubleshooting

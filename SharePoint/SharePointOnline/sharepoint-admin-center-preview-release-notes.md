@@ -2,6 +2,7 @@
 title: "SharePoint admin center (preview) release notes"
 ms.author: kaarins
 author: kaarins
+manager: pamgreen
 ms.date: 3/22/2018
 ms.audience: ITPro
 ms.topic: article

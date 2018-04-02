@@ -2,7 +2,7 @@
 title: "Hide the OneDrive and SharePoint app tiles"
 ms.author: kaarins
 author: kaarins
-manager: scotv
+manager: pamgreen
 ms.date: 5/12/2017
 ms.audience: Admin
 ms.topic: article
