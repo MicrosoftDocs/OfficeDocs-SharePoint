@@ -67,7 +67,7 @@ There are two types of terms:
     
 - **Enterprise keywords** An enterprise keyword is a word or phrase that a user adds to items on a SharePoint site. The collection of enterprise keywords is known as the Keywords set. Typically, users can add any word or phrase to an item as a keyword. This means that you can use enterprise keywords for folksonomy-style tagging. Sometimes, Term Store administrators move enterprise keywords into a specific managed term set. When they are part of a managed term set, keywords become available in the context of that term set. 
     
-To learn more about how to create and manage terms, see [Create and manage terms in a term set](create-and-manage-terms-in-a-term-set).
+To learn more about how to create and manage terms, see [Create and manage terms in a term set](create-and-manage-terms-in-a-term-set.md).
   
 ### Group
 <a name="__migbm_4"> </a>
