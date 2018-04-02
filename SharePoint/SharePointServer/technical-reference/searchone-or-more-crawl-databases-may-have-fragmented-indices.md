@@ -29,13 +29,13 @@ We recommend that you run the crawl database rule under the following circumstan
     
 - If significant performance degradation is determined to be caused by crawl database fragmentation. This should be a rare occurrence because crawl databases will usually have some level of fragmentation.
     
- **Symptoms:** One or more of the following symptoms might appear: 
+**Symptoms:** One or more of the following symptoms might appear: 
   
 - Crawl rate may decrease as more time is spent writing crawl history to the crawl database.
     
 - The crawl database defragmentation health rule is run and attempts to correct the fragmentation. Note: when this rule is correcting the fragmentation, the crawl rate is affected. Crawl rate may decrease as more time is spent writing metadata to the property database.
     
- **Cause:** Fragmentation exists when indexes have pages in which the logical ordering, based on the key value, does not match the physical ordering inside the data file. All leaf pages of an index contain pointers to the next and the previous pages in the index. This forms a doubly linked list of all index/data pages. Ideally, the physical order of the pages in the data file should match the logical ordering. Overall disk throughput is increased when the physical ordering matches the logical ordering of the data. 
+**Cause:** Fragmentation exists when indexes have pages in which the logical ordering, based on the key value, does not match the physical ordering inside the data file. All leaf pages of an index contain pointers to the next and the previous pages in the index. This forms a doubly linked list of all index/data pages. Ideally, the physical order of the pages in the data file should match the logical ordering. Overall disk throughput is increased when the physical ordering matches the logical ordering of the data. 
   
 For more information about database fragmentation, including how to manually detect and repair fragmented indexes, see the SQL Server documentation.
   
