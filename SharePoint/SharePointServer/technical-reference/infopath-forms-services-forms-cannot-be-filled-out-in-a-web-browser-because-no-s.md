@@ -37,7 +37,7 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleI
     
 5. In the **Configure Service Application Associations** dialog box, ensure that the **State Service** check box is selected, and then click **OK**.
     
- **Create a new State Service application by using Microsoft PowerShell**
+**Create a new State Service application by using Microsoft PowerShell**
   
 1. Verify that you have the following memberships:
     
