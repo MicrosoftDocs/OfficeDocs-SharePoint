@@ -54,7 +54,7 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleT
     
 5. On the **Services on Server** page, verify that the Distributed Cache service is listed and the status is **Started**.
     
- **Resolution: Remove the cache host from the cache cluster by using Windows PowerShell.**
+**Resolution: Remove the cache host from the cache cluster by using Windows PowerShell.**
   
 1. Verify that you have the following memberships:
     
