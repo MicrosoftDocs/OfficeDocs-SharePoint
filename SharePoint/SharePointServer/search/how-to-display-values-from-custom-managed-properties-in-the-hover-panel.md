@@ -106,12 +106,11 @@ To display custom properties in the hover panel, here's what you should do:
   ```
   '<Current item property name>':<Managed property name>'
   ```
-
-    In our Search Center scenario, we added four managed properties to the  *TechNet content*  item display template. 
+  In our Search Center scenario, we added four managed properties to the  *TechNet content*  item display template. 
     
      ![Added MPs](../media/OTCSP_AddedMPs.png)
   
-3.     > [!NOTE]
+3. > [!NOTE]
     > You do  *not*  have to do this step if you are using SharePoint Online. 
   
     Go to **Site settings** --> **Search Result Types**. Notice that a **Property Sync** alert is displayed. 
