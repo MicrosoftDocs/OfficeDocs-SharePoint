@@ -23,7 +23,7 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleV
   
  **Summary:** User Profile Service Application or User Profile service proxy timer jobs are not available and might have been deleted. 
   
- **Cause: A required timer job for the User Profile service or the User Profile service proxy is missing.**
+ **Cause:** A required timer job for the User Profile service or the User Profile service proxy is missing.
   
  **Resolution: Edit the rule definition so that the configuration is automatically repaired.**
   
