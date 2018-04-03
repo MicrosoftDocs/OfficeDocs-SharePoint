@@ -49,7 +49,7 @@ The SharePoint Timer service (SPTimerv4) is based on the Gregorian calendar for 
 
 The following table lists the default timer jobs for SharePoint 2013.
   
-|****Timer job****|****Description****|****Default schedule****|
+|**Timer job**|**Description**|**Default schedule**|
 |:-----|:-----|:-----|
 |Access Services monitor  <br/> |Monitors the connectivity of Access Services on SharePoint Online and SQL Azure.  <br/> |5 minutes  <br/> |
 |Analytics Event Store Retention  <br/> |Periodically cleans up the Event Store and the Reporting Database. All data older than 14 days is removed from the Event Store whereas all data older than 3 years is removed from the Reporting Database.  <br/> |Weekly  <br/> |
