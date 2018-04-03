@@ -35,7 +35,7 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleT
     
 4. On the Manage the Visio Graphics Service page, click **Global Settings**.
     
-5. Ensure that the settings have the values that are listed in the following table. If they do not, type the value in the corresponding text box.
+5. Ensure that the settings have the values that are listed in the following table. If they do not, type the value in the corresponding text box and click **OK**.
     
 |**Setting**|**Value**|
 |:-----|:-----|
@@ -45,6 +45,5 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleT
 |**Maximum Recalc Duration** <br/> |\<= 60 (Seconds)  <br/> |
 |**Maximum Cache Size** <br/> |\>= 5120 (Megabytes)  <br/> |
    
-6. Click **OK**.
     
 
