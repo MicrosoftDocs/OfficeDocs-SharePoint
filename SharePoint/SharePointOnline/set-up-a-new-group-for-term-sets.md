@@ -3,7 +3,7 @@ title: "Set up a new group for term sets"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 6/30/2015
+ms.date: 4/5/2018
 ms.audience: End User
 ms.topic: article
 ms.prod: office-online-server
@@ -40,8 +40,6 @@ To set up a new group for term sets, follow these steps
 > [!NOTE]
 >  To delete a group, point to the group, select the arrow that appears, and then select **Delete Group**. Only empty groups can be deleted. 
   
-[Top of Page](set-up-a-new-group-for-term-sets.md#__top)
-  
 ## Open the Term Store management tool
 <a name="__toc327965089"> </a>
 
@@ -64,7 +62,5 @@ To open the Term Store management tool, select the SharePoint environment that y
 3. On the **Site Settings** page, in the **Site Administration** group, select **Term store management**.
     
 After you open the Term Store management tool, you can create a group for term sets.
-  
-[Top of Page](set-up-a-new-group-for-term-sets.md#__top)
   
 

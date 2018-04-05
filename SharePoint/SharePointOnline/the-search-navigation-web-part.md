@@ -3,7 +3,7 @@ title: "Change settings for the Search Navigation Web Part"
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
-ms.date: 4/17/2015
+ms.date: 4/5/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
@@ -52,8 +52,6 @@ Here's how you can change the set-up of the Search Navigation Web Part. You can 
     
 5. Click **OK**.
     
-[The Search Navigation Web Parts shows links that let users move quickly between the different search pages, known as search verticals. Search verticals are predesigned to give users different search experiences depending on what they are looking for. For example, if users click the People link, they are taken to the people search vertical, which is a search page specifically set up to display people information. By default, the Search Navigation Web Part is set up to show links to the search verticals Everything, People, Conversations and Videos. The Search Navigation Web Part uses search results from the Search Results Web Part so that when users click a search vertical link, the search results are filtered and displayed according to how the search vertical is set up. As a SharePoint Online administrator, you can change how the Search Navigation Web Part is set up by specifying a different Web Part to get the results from, change how many links to show, and change the appearance and layout of the Web Part. You make these changes by editing the properties in the Web Part tool pane.To make other changes, such as changing display names for the links, or change their order, go to the Search Settings for the corresponding site. Here, you can also add a link to a new search vertical to be shown in the Web Part. ](the-search-navigation-web-part.md#__top)
-  
 ## Change the display name or the URL of a search vertical
 <a name="__toc347912379"> </a>
 
@@ -74,8 +72,6 @@ Here's how you can change the set-up of the Search Navigation Web Part. You can 
   
 5. Click **OK**.
     
-[The Search Navigation Web Parts shows links that let users move quickly between the different search pages, known as search verticals. Search verticals are predesigned to give users different search experiences depending on what they are looking for. For example, if users click the People link, they are taken to the people search vertical, which is a search page specifically set up to display people information. By default, the Search Navigation Web Part is set up to show links to the search verticals Everything, People, Conversations and Videos. The Search Navigation Web Part uses search results from the Search Results Web Part so that when users click a search vertical link, the search results are filtered and displayed according to how the search vertical is set up. As a SharePoint Online administrator, you can change how the Search Navigation Web Part is set up by specifying a different Web Part to get the results from, change how many links to show, and change the appearance and layout of the Web Part. You make these changes by editing the properties in the Web Part tool pane.To make other changes, such as changing display names for the links, or change their order, go to the Search Settings for the corresponding site. Here, you can also add a link to a new search vertical to be shown in the Web Part. ](the-search-navigation-web-part.md#__top)
-  
 ## Change the order of the search vertical links
 <a name="__toc347912380"> </a>
 
@@ -89,8 +85,6 @@ Here's how you can change the set-up of the Search Navigation Web Part. You can 
     
 5. Click **OK**.
     
-[The Search Navigation Web Parts shows links that let users move quickly between the different search pages, known as search verticals. Search verticals are predesigned to give users different search experiences depending on what they are looking for. For example, if users click the People link, they are taken to the people search vertical, which is a search page specifically set up to display people information. By default, the Search Navigation Web Part is set up to show links to the search verticals Everything, People, Conversations and Videos. The Search Navigation Web Part uses search results from the Search Results Web Part so that when users click a search vertical link, the search results are filtered and displayed according to how the search vertical is set up. As a SharePoint Online administrator, you can change how the Search Navigation Web Part is set up by specifying a different Web Part to get the results from, change how many links to show, and change the appearance and layout of the Web Part. You make these changes by editing the properties in the Web Part tool pane.To make other changes, such as changing display names for the links, or change their order, go to the Search Settings for the corresponding site. Here, you can also add a link to a new search vertical to be shown in the Web Part. ](the-search-navigation-web-part.md#__top)
-  
 ## Add a search vertical to the Search Navigation Web Part
 <a name="__toc347912381"> </a>
 
@@ -116,8 +110,6 @@ Here's how you can add a link to the new search vertical page in the Web Part:
     
 6. Click **OK**.
     
-[The Search Navigation Web Parts shows links that let users move quickly between the different search pages, known as search verticals. Search verticals are predesigned to give users different search experiences depending on what they are looking for. For example, if users click the People link, they are taken to the people search vertical, which is a search page specifically set up to display people information. By default, the Search Navigation Web Part is set up to show links to the search verticals Everything, People, Conversations and Videos. The Search Navigation Web Part uses search results from the Search Results Web Part so that when users click a search vertical link, the search results are filtered and displayed according to how the search vertical is set up. As a SharePoint Online administrator, you can change how the Search Navigation Web Part is set up by specifying a different Web Part to get the results from, change how many links to show, and change the appearance and layout of the Web Part. You make these changes by editing the properties in the Web Part tool pane.To make other changes, such as changing display names for the links, or change their order, go to the Search Settings for the corresponding site. Here, you can also add a link to a new search vertical to be shown in the Web Part. ](the-search-navigation-web-part.md#__top)
-  
 See also: 
   
 - [Manage the Search Center in SharePoint Online](manage-the-search-center)

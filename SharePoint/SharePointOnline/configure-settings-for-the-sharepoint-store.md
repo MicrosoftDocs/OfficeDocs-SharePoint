@@ -3,7 +3,7 @@ title: "Configure settings for the SharePoint Store"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 10/2/2017
+ms.date: 4/3/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -41,8 +41,6 @@ Even if you choose not to allow users to buy apps from the SharePoint Store, the
     
   - Select **No** if you do not want users to be able to get third-party apps. 
     
-[The SharePoint Store is an Internet-based service that offers apps for Office, SharePoint, Exchange, Access, and Project. Site users can access the SharePoint Store directly from a SharePoint Online site in order to browse for and buy third-party apps. If a SharePoint Online environment has been configured to prevent users from getting apps from the SharePoint Store, users can still browse for and request apps. These requests are added to the App Requests list in the App Catalog.For more information about the SharePoint Store, see Office Store and SharePoint Store Terms of Usehttps://support.office.com/article/64c7f343-16b5-40bb-b39f-66c9d1c4d405.For more information about how to buy apps, see Buy an app from the SharePoint Storehttps://support.office.com/article/dd98e50e-d3db-4ecb-9bb7-82b189822d43.](configure-settings-for-the-sharepoint-store.md#__top)
-  
 ## View or manage app requests
 <a name="__top"> </a>
 
@@ -72,8 +70,6 @@ When users request an app, they are requesting that an admin buys that app on th
     
 Site users who request apps can view their requests by going to **Settings** > **Add an app** > **Your Requests**.
   
-[The SharePoint Store is an Internet-based service that offers apps for Office, SharePoint, Exchange, Access, and Project. Site users can access the SharePoint Store directly from a SharePoint Online site in order to browse for and buy third-party apps. If a SharePoint Online environment has been configured to prevent users from getting apps from the SharePoint Store, users can still browse for and request apps. These requests are added to the App Requests list in the App Catalog.For more information about the SharePoint Store, see Office Store and SharePoint Store Terms of Usehttps://support.office.com/article/64c7f343-16b5-40bb-b39f-66c9d1c4d405.For more information about how to buy apps, see Buy an app from the SharePoint Storehttps://support.office.com/article/dd98e50e-d3db-4ecb-9bb7-82b189822d43.](configure-settings-for-the-sharepoint-store.md#__top)
-  
 ## Specify whether to allow apps for Office to start in documents
 <a name="__top"> </a>
 
@@ -93,6 +89,4 @@ Documents stored on sites may contain apps for Office from several sources. You 
     
   - Select **No** if you do not want to allow apps for Office to start when documents are opened in the browser. 
     
-[The SharePoint Store is an Internet-based service that offers apps for Office, SharePoint, Exchange, Access, and Project. Site users can access the SharePoint Store directly from a SharePoint Online site in order to browse for and buy third-party apps. If a SharePoint Online environment has been configured to prevent users from getting apps from the SharePoint Store, users can still browse for and request apps. These requests are added to the App Requests list in the App Catalog.For more information about the SharePoint Store, see Office Store and SharePoint Store Terms of Usehttps://support.office.com/article/64c7f343-16b5-40bb-b39f-66c9d1c4d405.For more information about how to buy apps, see Buy an app from the SharePoint Storehttps://support.office.com/article/dd98e50e-d3db-4ecb-9bb7-82b189822d43.](configure-settings-for-the-sharepoint-store.md#__top)
-  
 

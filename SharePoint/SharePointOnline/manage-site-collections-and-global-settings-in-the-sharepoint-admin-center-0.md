@@ -3,7 +3,7 @@ title: "Manage site collections and global settings in the SharePoint admin cent
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 3/23/2018
+ms.date: 4/3/2018
 ms.audience: Admin
 ms.topic: conceptual
 ms.prod: office-online-server
@@ -29,17 +29,6 @@ Here's an overview of important details you should consider when planning how to
 > [!NOTE]
 > The SharePoint Online Public Website information in this article only applies if your organization purchased Office 365 prior to March 9, 2015. 
   
-## In this article
-<a name="__top"> </a>
-
-> [Plan the site collections you need to create](manage-site-collections-and-global-settings-in-the-sharepoint-admin-center-0.md#__toc346712635)
-    
-> [Manage permissions and help secure content](manage-site-collections-and-global-settings-in-the-sharepoint-admin-center-0.md#__toc349652816)
-    
-> [Enable personal sites and social features ](manage-site-collections-and-global-settings-in-the-sharepoint-admin-center-0.md#__plan_for_personal)
-    
-> [Evaluate business needs to help plan feature configuration](manage-site-collections-and-global-settings-in-the-sharepoint-admin-center-0.md#__toc349652818)
-    
 ## Plan the site collections you need to create
 <a name="__toc346712635"> </a>
 
@@ -58,8 +47,6 @@ How you decide to organize site collections depends on the size of your organiza
 | How much storage do we need for each site collection?  <br/>  When your organization purchases the SharePoint Online service, it is allocated a pool of storage based on the number of user licenses it purchased and the type of Office 365 plan it purchased. The total amount of storage is pooled so that you can determine how much storage to give to each site collection (minimum 50 MB).  <br/>  When you assign storage to a new site collection, you will be able to see the total amount of storage allocated to your organization and how much of the total organization storage remains to be allocated to new site collections. After you set an amount of storage for a site collection you can always increase it later, if necessary. You can monitor how much storage is being used by each site collection, and to be notified by an alert when a site collection is nearing its storage allocation limit.  <br/>  If you notice that your organization is running low on remaining storage, there are three things you can do:  <br/>  Reduce the amount of content on your SharePoint Online sites  <br/>  Delete one or more site collections  <br/>  Buy more storage from Microsoft or your provider  <br/>  It's important to monitor how much space is being used and to set guidelines and policies with your site collection administrators and site owners as to any file size limitations you might want to set in your organization.  <br/>  For more information, see [Manage site collection storage limits](https://support.office.com/article/77389c2c-8e7e-4b16-ab97-1c7103784b08).  <br/> | How many site collections do you think you'll need overall?  <br/>  How much storage comes with your subscription?  <br/>  Do specific site collections have larger storage requirements than others, based on the type or volume of content they will store?  <br/>  Will you enable site users to create their own team sites within a specific site collection? For more information about enabling site creation, see [Manage site creation in SharePoint Online](manage-site-creation-in-sharepoint-online).  <br/> |
 |Do we need multi-language support?  <br/> The Multilingual User Interface (MUI) feature allows users to view sites or Web pages in a language other than the default set on the site or site collection. The MUI feature is not a translation tool; it just changes the display language for certain default interface elements.  <br/> MUI changes the user interface for individual users only; it does not affect how the site is displayed to other users. Also, any site content that was created in the site's default language will still be displayed in the default language.  <br/> MUI is enabled by default. However, if MUI is to be used on a site collection, then it also needs to be enabled by the site collection administrator. **You and your site owners need to decide in advance what default language to use for your site collections and sites, because once the language is specified it cannot be changed**. After you create a site collection, it is important to verify that the locale and regional settings on the site are accurate. For example, when you create French sites, the locale will always be set to France even if you are located in Canada. Therefore, no matter what language you choose, it is a good idea to verify that both the regional and locale setting are accurate for your location.  <br/> For more information about multilingual sites see [Introduction to multilingual features](https://support.office.com/article/53411469-53e3-4570-95e2-3651f166174f).  <br/> | Do any site collections need to be created in specific languages?  <br/> |
    
-[Top of Page](manage-site-collections-and-global-settings-in-the-sharepoint-admin-center)
-  
 ### Plan to keep site collections manageable
 
 Governance is the set of policies, roles, responsibilities, and processes that control how your organization cooperates to achieve business goals. These goals center on the service you provide and the management of intellectual property your employees create. As you plan your site collections you should also build a plan for how to govern them. 
@@ -81,8 +68,6 @@ When you think about how to structure and govern your site collections, consider
 <a name="metadata"> </a>
 
 As the SharePoint admin, you will also be able to restore deleted site collections. The recycle bin allows you to restore deleted site collections, as long as they have not been in the recycle bin longer than 90 days. After 90 days in the recycle bin, a site collection is automatically permanently deleted. The recycle bin gives you time to make sure that the site collection does not contain data your organization needs. For more information, see [Restore a deleted site collection](restore-a-deleted-site-collection).
-  
-[Top of Page](manage-site-collections-and-global-settings-in-the-sharepoint-admin-center)
   
 ## Manage permissions and help secure content
 <a name="__toc349652816"> </a>
@@ -107,8 +92,6 @@ There are three administrative roles in the SharePoint Online service administra
 When creating a site collection in SharePoint Online, a global admin or SharePoint admin designates a primary site collection admin. It's a good safeguard to designate one or more site collection admins as backups, just as it's a good practice to have a secondary global admin available inside Office 365.
   
 For more information, see [Manage administrators for a site collection](manage-administrators-for-a-site-collection).
-  
-[Top of Page](manage-site-collections-and-global-settings-in-the-sharepoint-admin-center)
   
 ### Allow external users access to your internal sites
 <a name="__plan_for_user"> </a>
@@ -136,11 +119,6 @@ You can configure external sharing at two levels within the SharePoint admin cen
 2. **You can turn external sharing on or off for individual site collections.** This provides you with the ability to secure content on specific site collections that you do not want to be shared. You can also specify which level of sharing you want to allow in a site collection (sharing with authenticated users, or sharing with both authenticated users and anonymous users through guest links). 
     
 For more information about enabling and managing external sharing, see [Manage external sharing for your SharePoint online environment](manage-external-sharing). 
-  
-### 
-<a name="__protect_content_with"> </a>
-
-[Top of Page](manage-site-collections-and-global-settings-in-the-sharepoint-admin-center)
   
 ## Enable personal sites and social features
 <a name="__plan_for_personal"> </a>
@@ -179,8 +157,6 @@ When planning user profiles, you might start by evaluating your organization's c
   
 For more information about managing user profiles, see [Manage user profiles in SharePoint Online](manage-user-profiles-in-the-sharepoint-admin-center). 
   
-[Top of Page](manage-site-collections-and-global-settings-in-the-sharepoint-admin-center)
-  
 ### Display personalized content to users with audience targeting
 <a name="__display_personalized_content"> </a>
 
@@ -195,8 +171,6 @@ When planning audiences, the goal should be to find the smallest possible set of
 SharePoint Online audiences differ from SharePoint permissions. If you want to disable a person's access to a particular site, document library, or document, then you can do that by configuring permissions. For more information about planning for this, see [Plan your permissions strategy](https://support.office.com/article/c6183e49-9287-4689-999e-0d3f817a41a3).
   
 For more information about managing audiences, see [Manage SharePoint Online audiences](https://support.office.com/article/1806ec78-1d4e-4620-8a89-89d6a38c9c33). 
-  
-[Top of Page](manage-site-collections-and-global-settings-in-the-sharepoint-admin-center)
   
 ### Set up personal sites for users
 <a name="__set_up_personal"> </a>
@@ -219,8 +193,6 @@ To effectively plan for My Sites, a SharePoint Online admin should determine wha
   
 Site collection administrators or site owners can determine whether the **Site Feed** feature, available on Team Sites, will be turned on for a site. Turning this feature on will create a  *site-specific*  Newsfeed and Microfeed that can be read on the site, or followed from a My Site. 
   
-[Top of Page](manage-site-collections-and-global-settings-in-the-sharepoint-admin-center)
-  
 The following table provides guidance for permissions for social features:
   
 |**Permission**|**Guidance**|
@@ -241,8 +213,6 @@ My Site features that require special consideration include the following:
     
 For more information about managing My Sites, see [Set up My Sites in the SharePoint admin center](https://support.office.com/article/ec8c588e-28fd-4724-a8cb-85426869ce8a) and [Manage personal and social features](https://support.office.com/article/4c5d7f20-b398-4f25-b2fa-b95bf5b81cd5). 
   
-[Top of Page](manage-site-collections-and-global-settings-in-the-sharepoint-admin-center)
-  
 ## Evaluate business needs to help plan feature configuration
 <a name="__toc349652818"> </a>
 
@@ -256,6 +226,4 @@ There are a number of features that can be configured or managed globally from t
 |You need to configure Search for your SharePoint Online environment.  <br/> |[SharePoint Online search administration overview](manage-search-the-admin-center) <br/> |
 |You want to create an eDiscovery Center for managing content that may be part of eDiscovery requests in investigations, audits, or legal cases.  <br/> | An eDiscovery Center is a site collection and must be created in the SharePoint admin center. The eDiscovery Center template is located on the Enterprise tab of the new site collection dialog box. Each new case becomes a site in the eDiscovery Center site collection.  <br/> [Plan and manage cases in the eDiscovery Center](https://support.office.com/article/d955aeb8-0d48-4291-a8e2-f3b84f17943f) <br/> |
    
-[Top of Page](manage-site-collections-and-global-settings-in-the-sharepoint-admin-center)
-  
 

@@ -3,7 +3,7 @@ title: "Manage user profiles in the SharePoint admin center"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 1/19/2018
+ms.date: 4/5/2018
 ms.audience: Admin
 ms.topic: article
 f1_keywords:
@@ -22,17 +22,6 @@ This article is for global admins and SharePoint admins in Office 365. If you're
 If you're not an admin, see [View and update your profile in Office Delve](https://support.office.com/article/4e84343b-eedf-45a1-aeb9-8627ccca14ba) for info about changing your profile. 
   
 Most organizations don't need to change any user profile settings in the SharePoint admin center. For the organizations that do need to work with user profile settings, this article describes the most common tasks.
-  
-## In this article
-<a name="__top"> </a>
-
-[Create and edit custom user properties](manage-user-profiles-in-the-sharepoint-admin-center.md#customuserproperties)
-  
-[Add and remove admins on a OneDrive account](manage-user-profiles-in-the-sharepoint-admin-center.md#addremoveadmins)
-  
-[Manage audiences](manage-user-profiles-in-the-sharepoint-admin-center.md#manageaudiences)
-  
-[Disable OneDrive creation for some users](manage-user-profiles-in-the-sharepoint-admin-center.md#disableonedrivecreation)
   
 ## Create and edit custom user properties
 <a name="customuserproperties"> </a>

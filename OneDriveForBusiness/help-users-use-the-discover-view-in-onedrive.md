@@ -3,7 +3,7 @@ title: "Help users use the Discover view in OneDrive"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 12/1/2017
+ms.date: 4/5/2018
 ms.audience: Admin
 ms.topic: overview
 ms.prod: office-online-server
@@ -22,18 +22,6 @@ The Discover view is powered by Office Delve, and both have a dependency on the 
   
 As an admin, you can make sure that you allow your organization to access the Office Graph, and that you have set up other Office 365 services that the Discover view uses, for instance SharePoint Online and Delve. You can also help people get started with the Discover view, and address questions that users might have.
   
-In this article:
-  
-- [What you need to get the Discover view](help-users-use-the-discover-view-in-onedrive.md#WhatUNeed)
-    
-- [Introducing the Discover view in your organization](help-users-use-the-discover-view-in-onedrive.md#IntroDisView)
-    
-- [Help users troubleshoot the Discover view](help-users-use-the-discover-view-in-onedrive.md#HelpTS)
-    
-- [About the Office Graph](help-users-use-the-discover-view-in-onedrive.md#AboutOG)
-    
-- [Additional resources](help-users-use-the-discover-view-in-onedrive.md#AddRes)
-    
 ## What you need to get the Discover view
 <a name="WhatUNeed"> </a>
 

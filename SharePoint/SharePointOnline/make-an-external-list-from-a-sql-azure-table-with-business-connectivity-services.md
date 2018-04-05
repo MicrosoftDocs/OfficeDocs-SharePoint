@@ -3,7 +3,7 @@ title: "Make an External List from a SQL Azure table with Business Connectivity 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 1/5/2017
+ms.date: 4/5/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -22,31 +22,6 @@ For more information about how to use BCS to use external data, see [Introductio
   
 SQL Azure databases are cloud-based relational databases that are created by using SQL Server technology. To learn how to get started with these databases, see [Getting Started with Microsoft Azure SQL Database Using the Microsoft Azure Platform Management Portal](https://social.technet.microsoft.com/wiki/contents/articles/1884.getting-started-with-windows-azure-sql-database-using-the-windows-azure-platform-management-portal.aspx)
   
-## In this article
-<a name="__top"> </a>
-
-> [Overview of steps in the process](make-an-external-list-from-a-sql-azure-table-with-business-connectivity-services.md#__toc350352764)
-    
-> [How BCS and Secure Store work together](make-an-external-list-from-a-sql-azure-table-with-business-connectivity-services.md#__toc350352765)
-    
-> [Step 1: Set permissions on the BCS Metadata store](make-an-external-list-from-a-sql-azure-table-with-business-connectivity-services.md#__toc350352766)
-    
-> [Step 2: Create a Secure Store credentials mapping](make-an-external-list-from-a-sql-azure-table-with-business-connectivity-services.md#__toc350352767)
-    
-> [Create the Secure Store Target Application](make-an-external-list-from-a-sql-azure-table-with-business-connectivity-services.md#__toc350352768)
-    
-> [Store credentials for the Target Application](make-an-external-list-from-a-sql-azure-table-with-business-connectivity-services.md#__toc350352769)
-    
-> [Step 3: Create the External Content Type](make-an-external-list-from-a-sql-azure-table-with-business-connectivity-services.md#__toc350352770)
-    
-> [Step 4: Create an External List ](make-an-external-list-from-a-sql-azure-table-with-business-connectivity-services.md#__toc350352771)
-    
-> [Create an External List by using SharePoint Online](make-an-external-list-from-a-sql-azure-table-with-business-connectivity-services.md#__toc350352772)
-    
-> [Create an External List by Using SharePoint Designer 2010](make-an-external-list-from-a-sql-azure-table-with-business-connectivity-services.md#__toc350352773)
-    
-> [Step 5: Grant permissions to manage the ECT](make-an-external-list-from-a-sql-azure-table-with-business-connectivity-services.md#__toc350352774)
-    
 ## Overview of steps in the process
 <a name="__toc350352764"> </a>
 
@@ -62,8 +37,6 @@ The following table lists the steps and the required software for that step.
 |Step 4: Create an External List  <br/> |SharePoint admin center (SharePoint Online)  <br/> |
 |Step 5: Grant permissions to manage your ECT  <br/> |SharePoint admin center (SharePoint Online)  <br/> |
    
-[As a SharePoint Online Administrator, you can use services in SharePoint Online to access data from a Microsoft SQL Azure database. Because SQL Azure is a cloud-based relational database technology, this means the connection works completely in the cloud. This article describes how to use SharePoint technologies to access data from a SQL Azure database without having to write code.To use data from a SQL Azure database, you have to create an External List by using Business Connectivity Services (BCS) and Secure Store. BCS connects SharePoint solutions to external data, and Secure Store enables user authentication for the data. By using an External List, you can display the contents of a table from SQL Azure in SharePoint Online. Users can read, edit, and update the data, all in SharePoint Online. For more information about how to use BCS to use external data, see Introduction to external datahttps://support.office.com/article/676e60e7-d99f-463f-a173-65e9d63538c0.SQL Azure databases are cloud-based relational databases that are created by using SQL Server technology. To learn how to get started with these databases, see Getting Started with Microsoft Azure SQL Database Using the Microsoft Azure Platform Management Portalhttps://social.technet.microsoft.com/wiki/contents/articles/1884.getting-started-with-windows-azure-sql-database-using-the-windows-azure-platform-management-portal.aspx](make-an-external-list-from-a-sql-azure-table-with-business-connectivity-services.md#__top)
-  
 ## How BCS and Secure Store work together
 <a name="__toc350352765"> </a>
 
@@ -92,8 +65,6 @@ The following list describes the steps in the connectivity process. Each step in
     
 4. The SharePoint Online site displays the external list in the user's browser. The user can then perform all the configured operations on the data source for which the user has permissions.
     
-[As a SharePoint Online Administrator, you can use services in SharePoint Online to access data from a Microsoft SQL Azure database. Because SQL Azure is a cloud-based relational database technology, this means the connection works completely in the cloud. This article describes how to use SharePoint technologies to access data from a SQL Azure database without having to write code.To use data from a SQL Azure database, you have to create an External List by using Business Connectivity Services (BCS) and Secure Store. BCS connects SharePoint solutions to external data, and Secure Store enables user authentication for the data. By using an External List, you can display the contents of a table from SQL Azure in SharePoint Online. Users can read, edit, and update the data, all in SharePoint Online. For more information about how to use BCS to use external data, see Introduction to external datahttps://support.office.com/article/676e60e7-d99f-463f-a173-65e9d63538c0.SQL Azure databases are cloud-based relational databases that are created by using SQL Server technology. To learn how to get started with these databases, see Getting Started with Microsoft Azure SQL Database Using the Microsoft Azure Platform Management Portalhttps://social.technet.microsoft.com/wiki/contents/articles/1884.getting-started-with-windows-azure-sql-database-using-the-windows-azure-platform-management-portal.aspx](make-an-external-list-from-a-sql-azure-table-with-business-connectivity-services.md#__top)
-  
 ## Step 1: Set permissions on the BCS Metadata store
 <a name="__toc350352766"> </a>
 
@@ -157,8 +128,6 @@ After you create the Target Application, you are ready to enter the credentials 
     >  Keep a secure record of this information. After you set these credentials, an administrator cannot retrieve them. 
   
     ![Screenshot that shows the Credential Fields dialog that you use when you create a Secure Store Target Application. It shows the default values, Windows User Name and Windows Password.](media/37a315d6-63db-428b-9766-e3e94904be06.png)
-  
-[As a SharePoint Online Administrator, you can use services in SharePoint Online to access data from a Microsoft SQL Azure database. Because SQL Azure is a cloud-based relational database technology, this means the connection works completely in the cloud. This article describes how to use SharePoint technologies to access data from a SQL Azure database without having to write code.To use data from a SQL Azure database, you have to create an External List by using Business Connectivity Services (BCS) and Secure Store. BCS connects SharePoint solutions to external data, and Secure Store enables user authentication for the data. By using an External List, you can display the contents of a table from SQL Azure in SharePoint Online. Users can read, edit, and update the data, all in SharePoint Online. For more information about how to use BCS to use external data, see Introduction to external datahttps://support.office.com/article/676e60e7-d99f-463f-a173-65e9d63538c0.SQL Azure databases are cloud-based relational databases that are created by using SQL Server technology. To learn how to get started with these databases, see Getting Started with Microsoft Azure SQL Database Using the Microsoft Azure Platform Management Portalhttps://social.technet.microsoft.com/wiki/contents/articles/1884.getting-started-with-windows-azure-sql-database-using-the-windows-azure-platform-management-portal.aspx](make-an-external-list-from-a-sql-azure-table-with-business-connectivity-services.md#__top)
   
 ## Step 3: Create the External Content Type
 <a name="__toc350352770"> </a>
@@ -256,8 +225,6 @@ You can create an External List by using SharePoint Designer, or by adding an Ex
     
 7. Click **Create**,
     
-[As a SharePoint Online Administrator, you can use services in SharePoint Online to access data from a Microsoft SQL Azure database. Because SQL Azure is a cloud-based relational database technology, this means the connection works completely in the cloud. This article describes how to use SharePoint technologies to access data from a SQL Azure database without having to write code.To use data from a SQL Azure database, you have to create an External List by using Business Connectivity Services (BCS) and Secure Store. BCS connects SharePoint solutions to external data, and Secure Store enables user authentication for the data. By using an External List, you can display the contents of a table from SQL Azure in SharePoint Online. Users can read, edit, and update the data, all in SharePoint Online. For more information about how to use BCS to use external data, see Introduction to external datahttps://support.office.com/article/676e60e7-d99f-463f-a173-65e9d63538c0.SQL Azure databases are cloud-based relational databases that are created by using SQL Server technology. To learn how to get started with these databases, see Getting Started with Microsoft Azure SQL Database Using the Microsoft Azure Platform Management Portalhttps://social.technet.microsoft.com/wiki/contents/articles/1884.getting-started-with-windows-azure-sql-database-using-the-windows-azure-platform-management-portal.aspx](make-an-external-list-from-a-sql-azure-table-with-business-connectivity-services.md#__top)
-  
 ### Create an External List by Using SharePoint Designer 2010
 <a name="__toc350352773"> </a>
 
@@ -302,7 +269,5 @@ To finish setting up the External List, you have to grant permissions to the peo
     
     > [!NOTE]
     >  If you want to add a group that can use the External Lists, you must also give the group **Execute** rights. That enables users in the group to run a query to the external source, and view the results in SharePoint. 
-  
-[As a SharePoint Online Administrator, you can use services in SharePoint Online to access data from a Microsoft SQL Azure database. Because SQL Azure is a cloud-based relational database technology, this means the connection works completely in the cloud. This article describes how to use SharePoint technologies to access data from a SQL Azure database without having to write code.To use data from a SQL Azure database, you have to create an External List by using Business Connectivity Services (BCS) and Secure Store. BCS connects SharePoint solutions to external data, and Secure Store enables user authentication for the data. By using an External List, you can display the contents of a table from SQL Azure in SharePoint Online. Users can read, edit, and update the data, all in SharePoint Online. For more information about how to use BCS to use external data, see Introduction to external datahttps://support.office.com/article/676e60e7-d99f-463f-a173-65e9d63538c0.SQL Azure databases are cloud-based relational databases that are created by using SQL Server technology. To learn how to get started with these databases, see Getting Started with Microsoft Azure SQL Database Using the Microsoft Azure Platform Management Portalhttps://social.technet.microsoft.com/wiki/contents/articles/1884.getting-started-with-windows-azure-sql-database-using-the-windows-azure-platform-management-portal.aspx](make-an-external-list-from-a-sql-azure-table-with-business-connectivity-services.md#__top)
   
 

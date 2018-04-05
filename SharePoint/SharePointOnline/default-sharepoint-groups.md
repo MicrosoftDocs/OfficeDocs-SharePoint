@@ -3,7 +3,7 @@ title: "Default SharePoint Groups"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 3/9/2018
+ms.date: 4/5/2018
 ms.audience: Admin
 ms.topic: reference
 ms.prod: office-online-server
@@ -25,21 +25,6 @@ Here are links to information on understanding and setting SharePoint permission
 - [Edit and manage permissions for a SharePoint list or library](https://support.office.com/article/02D770F3-59EB-4910-A608-5F84CC297782)
     
 - [How to create and edit Permission Levels](https://support.office.com/article/53c86040-07fa-4ea7-bc55-34ee96b437fe)
-    
-## In this article
-<a name="__top"> </a>
-
-> [Permission levels for default SharePoint groups ](default-sharepoint-groups.md#__toc352237424)
-    
-> [Suggested uses for SharePoint groups](default-sharepoint-groups.md#__toc352237425)
-    
-> [Special SharePoint Groups](default-sharepoint-groups.md#__toc352237426)
-    
-> [Company Administrator and Everyone except external users groups for Office 365 users](default-sharepoint-groups.md#__toc339377366)
-    
-> [Site collection administrators](default-sharepoint-groups.md#__toc352237428)
-    
-> [SharePoint online administrators](default-sharepoint-groups.md#__toc352237429)
     
 ## Permission levels for default SharePoint groups
 <a name="__toc352237424"> </a>
@@ -145,7 +130,5 @@ The SharePoint online administrator can do any of the following tasks:
 - Assign primary and secondary site collection owners to any site collection in their venue.
     
 If you are using SharePoint on-premises, you do not have a SharePoint Online Administrator, or SharePoint Online Administrator site, after a standard SharePoint installation.
-  
-[The default SharePoint groups are created automatically when you create a site collection. The default groups use SharePoint's default permission levels - sometimes called SharePoint roles - to grant users rights and access. The permission levels that these groups have represent common levels of access that users have to have. They are a good place to start when you add users to a SharePoint site. Administrators can create additional groups to align more closely with specific business needs. Deciding how to design and populate your SharePoint security groups is an important decision that affects security for your site and site content. Here are links to information on understanding and setting SharePoint permissions.Understanding permission levels in SharePointhttps://support.office.com/article/87ecbb0e-6550-491a-8826-c075e4859848Edit and manage permissions for a SharePoint list or libraryhttps://support.office.com/article/02D770F3-59EB-4910-A608-5F84CC297782How to create and edit Permission Levelshttps://support.office.com/article/53c86040-07fa-4ea7-bc55-34ee96b437fe](default-sharepoint-groups.md#__top)
   
 

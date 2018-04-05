@@ -3,7 +3,7 @@ title: "Manage search dictionaries"
 ms.author: arnek
 author: arnek
 manager: arnek
-ms.date: 1/25/2017
+ms.date: 4/5/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
@@ -16,23 +16,6 @@ description: "Learn how to manage search dictionaries. You can use search dictio
 
 Learn how to manage search dictionaries. You can use search dictionaries to include or exclude company names to be extracted from the contents of your indexed documents, or you can include or exclude words for query spelling correction.
   
-## In this article
-<a name="__top"> </a>
-
-- [Manage company name extraction](manage-search-dictionaries.md#__toc342653321)
-    
-- [Include company names](manage-search-dictionaries.md#__toc342653322)
-    
-- [Exclude company names](manage-search-dictionaries.md#__toc342653323)
-    
-- [Manage query spelling correction](manage-search-dictionaries.md#__toc342653324)
-    
-- [Include a term in query spelling corrections](manage-search-dictionaries.md#__toc342653325)
-    
-- [Exclude a term from query spelling corrections](manage-search-dictionaries.md#__toc342653326)
-    
-- [Edit query spelling corrections or company names](manage-search-dictionaries.md#__toc342653327)
-    
 ## Manage company name extraction
 <a name="__toc342653321"> </a>
 
@@ -43,8 +26,6 @@ For company name extraction to work, that is, for a company name to be pulled fr
 - The name of the company that you want to extract is in the prepopulated company name dictionary or in the **Company Inclusions** list. 
     
 Once you have done this, you can then use the managed property **companies** to create refiners based on the extracted company name in the **Refinement Web** **Part**, on the search results page. 
-  
-[Learn how to manage search dictionaries. You can use search dictionaries to include or exclude company names to be extracted from the contents of your indexed documents, or you can include or exclude words for query spelling correction.](manage-search-dictionaries.md#__top)
   
 ## Include company names
 <a name="__toc342653322"> </a>
@@ -65,8 +46,6 @@ Once you have done this, you can then use the managed property **companies** to 
     
 8. Click anywhere on the page to add the term to the **Company Inclusions** list. 
     
-[Learn how to manage search dictionaries. You can use search dictionaries to include or exclude company names to be extracted from the contents of your indexed documents, or you can include or exclude words for query spelling correction.](manage-search-dictionaries.md#__top)
-  
 ## Exclude company names
 <a name="__toc342653323"> </a>
 
@@ -86,16 +65,12 @@ Once you have done this, you can then use the managed property **companies** to 
     
 8. Click anywhere on the page to add the term to the **Company Exclusions** list. 
     
-[Learn how to manage search dictionaries. You can use search dictionaries to include or exclude company names to be extracted from the contents of your indexed documents, or you can include or exclude words for query spelling correction.](manage-search-dictionaries.md#__top)
-  
 ## Manage query spelling correction
 <a name="__toc342653324"> </a>
 
 If you or another user enters a word in a search query that appears to be misspelled, the search results page helps you out by displaying query spelling corrections. These are important words in your indexed documents. This is also known as "Did you mean?".
   
 For example, if you enter a query that contains the word "ampitheater", the query spelling correction would show "amphitheater" if this term is available in many places in your indexed documents. You can add terms such as the one just shown to the **Query Spelling Inclusions** list, or to the **Query Spelling Exclusions** list to influence how you want query spelling corrections to be applied or not. It takes up to 10 minutes for any changes to the **Query Spelling Inclusions** or the **Query Spelling Exclusions** list to take effect. 
-  
-[Learn how to manage search dictionaries. You can use search dictionaries to include or exclude company names to be extracted from the contents of your indexed documents, or you can include or exclude words for query spelling correction.](manage-search-dictionaries.md#__top)
   
 ## Include a term in query spelling corrections
 <a name="__toc342653325"> </a>
@@ -116,8 +91,6 @@ For example, if you enter a query that contains the word "ampitheater", the quer
     
 8. Click anywhere on the page to add the term to the **Query Spelling Inclusions.**
     
-[Learn how to manage search dictionaries. You can use search dictionaries to include or exclude company names to be extracted from the contents of your indexed documents, or you can include or exclude words for query spelling correction.](manage-search-dictionaries.md#__top)
-  
 ## Exclude a term from query spelling corrections
 <a name="__toc342653326"> </a>
 
@@ -137,8 +110,6 @@ For example, if you enter a query that contains the word "ampitheater", the quer
     
 8. Click anywhere on the page to add the term to the **Query Spelling Exclusions** list. 
     
-[Learn how to manage search dictionaries. You can use search dictionaries to include or exclude company names to be extracted from the contents of your indexed documents, or you can include or exclude words for query spelling correction.](manage-search-dictionaries.md#__top)
-  
 ## Edit query spelling corrections or company names
 <a name="__toc342653327"> </a>
 
@@ -160,6 +131,4 @@ For example, if you enter a query that contains the word "ampitheater", the quer
     
 9. Click anywhere on the page to save the edited term.
     
-[Learn how to manage search dictionaries. You can use search dictionaries to include or exclude company names to be extracted from the contents of your indexed documents, or you can include or exclude words for query spelling correction.](manage-search-dictionaries.md#__top)
-  
 

@@ -3,7 +3,7 @@ title: "Change how search results look by using result types and display templat
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
-ms.date: 12/30/2016
+ms.date: 4/5/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
@@ -24,13 +24,6 @@ For example, there's a display template for PowerPoint files and another display
 
 ![Shows different display templates depending on result type](media/29d9c7d2-82d3-483d-9aa9-e298c6b6b0b0.png)
   
-## In this article
-<a name="__top"> </a>
-
-> [Types of display templates used in the Search Results Web Part](result-types-disp-templates.md#__toc358893940)
-    
-> [How display templates show information about search results](result-types-disp-templates.md#__toc358885097)
-    
 ## Types of display templates used in the Search Results Web Part
 <a name="__toc358893940"> </a>
 
@@ -45,8 +38,6 @@ An  *Item display template*  defines how each result is displayed. It defines th
 ![Display template types for search results](media/b780c116-22b4-4138-9da9-a9026f32f8c5.png)
   
 The  *Hover panel display template*  typically shows a preview of the item or document when the users hover over the search result. The hover panel display template also contains actions such as **Edit** or **Send**, and other information about the search result. 
-  
-[To help users quickly distinguish between different types of results when they search for something in SharePoint, we use result types and display templates. Important information is shown directly in the search results, so that users don't have to click on each result to see if they've found what they're looking for. By default, the Search Results Web Part in your Search Center is set up to use different display templates according to the result type of the search result. Manage result typeshttps://support.office.com/article/ceccf561-e82c-495c-bf3e-b3f006ae9c8c define when to use which display template, and the display template defines what information to show in the search results. For example, there's a display template for PowerPoint files and another display template for Word documents. A result type says that if the search term is found in a PowerPoint file, then use the PowerPoint display template when showing that result. The users can see right away that this result is a PowerPoint file, and they can also see other information that helps them see whether this result is what they're looking for. When users hover over the result, they'll see a preview of the PowerPoint in the hover panel, together with more details about it. The hover panel also lets users perform actions, such as Edit or Send. The same way, the result type for Word documents uses a Word display template to show information.Results look different based on result type and display template. This picture shows item display templates for Word, PowerPoint and Excel on the left side, and a hover panel display template for PowerPoint on the right side.](result-types-disp-templates.md#__top)
   
 ## How display templates show information about search results
 <a name="__toc358885097"> </a>
@@ -63,6 +54,4 @@ You can create your own display templates that show information that's important
     
 - For a full list of available display templates, see **Display templates for the Search Results Web Part** in [Display template reference in SharePoint Server 2013](https://technet.microsoft.com/en-us/library/jj944947.aspx).
     
-[To help users quickly distinguish between different types of results when they search for something in SharePoint, we use result types and display templates. Important information is shown directly in the search results, so that users don't have to click on each result to see if they've found what they're looking for. By default, the Search Results Web Part in your Search Center is set up to use different display templates according to the result type of the search result. Manage result typeshttps://support.office.com/article/ceccf561-e82c-495c-bf3e-b3f006ae9c8c define when to use which display template, and the display template defines what information to show in the search results. For example, there's a display template for PowerPoint files and another display template for Word documents. A result type says that if the search term is found in a PowerPoint file, then use the PowerPoint display template when showing that result. The users can see right away that this result is a PowerPoint file, and they can also see other information that helps them see whether this result is what they're looking for. When users hover over the result, they'll see a preview of the PowerPoint in the hover panel, together with more details about it. The hover panel also lets users perform actions, such as Edit or Send. The same way, the result type for Word documents uses a Word display template to show information.Results look different based on result type and display template. This picture shows item display templates for Word, PowerPoint and Excel on the left side, and a hover panel display template for PowerPoint on the right side.](result-types-disp-templates.md#__top)
-  
 

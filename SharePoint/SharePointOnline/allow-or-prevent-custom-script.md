@@ -3,7 +3,7 @@ title: "Allow or prevent custom script"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 7/6/2017
+ms.date: 4/3/2018
 ms.audience: Admin
 ms.topic: article
 f1_keywords:
@@ -113,7 +113,5 @@ Before you prevent custom script on sites where you previously allowed it, we re
 ![Error message displayed when scripting is disabled on a site or site collection](media/1c7666a0-9538-484f-a691-6e424c5db71a.png)
   
 Communicating the change in advance can reduce user frustration and support calls.
-  
-[Last updated: July 2017Allowing custom script is a way to let users change the look, feel, and behavior of sites and pages to meet organizational objectives or individual needs. If you allow custom script, all users who have "Add and Customize Pages" permission to a site or page can add any script they want. (By default, users who create sites are site owners and therefore have this permission. For more info about SharePoint permission levels, see Understanding permission levels in SharePointhttps://support.office.com/article/87ecbb0e-6550-491a-8826-c075e4859848.) For simple ways to change the look and feel of a site, see Change the look of your SharePoint sitehttps://support.office.com/article/06bbadc3-6b04-4a60-9d14-894f6a170818. By default, script is allowed on sites that admins create. It is not allowed on OneDrive, on sites users create themselves, and on the root site for your organization. You'll probably want to limit the amount of script you allow for security reasons. For more info about the security implications of custom script, see Security considerations of allowing custom script.IMPORTANT: If SharePoint Online was set up for your organization before 2015, your custom script settings might still be set to "Not Configured" even though in the SharePoint admin center they appear to be set to prevent users from running custom script. In this case, users won't be able to copy items between SharePoint sites and between OneDrive and SharePoint. On the settings page of the SharePoint admin center, click OK to accept the custom script settings as they appear and enable cross-site copying. (For more info about copying items between OneDrive and SharePoint, see Copy files and folders between OneDrive for Business and SharePoint siteshttps://support.office.com/article/67a6323e-7fd4-4254-99a8-35613492a82f.) ](allow-or-prevent-custom-script.md#__top)
   
 

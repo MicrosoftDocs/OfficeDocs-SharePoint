@@ -3,7 +3,7 @@ title: "Plan customizations, solutions, and apps for SharePoint Online"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 1/4/2018
+ms.date: 4/5/2018
 ms.audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -48,8 +48,6 @@ SharePoint Online customizations range from non-technical changes you can apply 
     
   - **Custom apps** Your organization can also develop its own apps for SharePoint Online and make them available to users through the App Catalog site. If you know how to build a web application, then you know how to build an app for SharePoint. You can use any language, such as HTML, JavaScript, PHP, or .NET, and your favorite web development tools, including Microsoft Visual Studio, and ["Napa" Office 365 Development Tools](http://msdn.microsoft.com/en-us/library/jj220041%28v=office.15%29.aspx). For more information, see [Get started developing apps for SharePoint](https://msdn.microsoft.com/en-us/library/jj163980.aspx).
     
-[Top of Page](plan-customizations-solutions-and-apps-for-sharepoint-online.md#__top)
-  
 ## Can I still develop sandboxed solutions?
 <a name="sandboxed"> </a>
 
@@ -61,16 +59,12 @@ With the introduction of the cloud app model (CAM) and apps for SharePoint, ther
   
 You can perform all types of site branding using apps for SharePoint to provision site branding throughout the enterprise and manage branding at scale: a pattern known as [remote provisioning](https://blogs.msdn.com/b/vesku/archive/2013/08/23/site-provisioning-techniques-and-remote-provisioning-in-sharepoint-2013.aspx). While SharePoint developers have historically used the SharePoint feature framework, site templates, web templates, and site definitions to provision sites and site collections, the remote provisioning pattern shows you how to create custom [apps for SharePoint](https://msdn.microsoft.com/en-US/office/dn448479) that provision site branding and perform other site provisioning tasks. 
   
-[Top of Page](plan-customizations-solutions-and-apps-for-sharepoint-online.md#__top)
-  
 ## Why Apps?
 <a name="sandboxed"> </a>
 
 Apps for SharePoint offer several advantages over sandboxed solutions. Apps provide users with a way to extend SharePoint sites without creating additional operational burden for admins. Apps are also easy for end users to discover and add. Apps for SharePoint Online are architected for the cloud, so they better integrate with the respective cloud-based resources in smoother and more flexible ways than sandboxed solutions.
   
 For more technical guidance about when you should opt to develop custom apps instead of sandboxed solutions, see [Apps for SharePoint compared with SharePoint solutions](http://msdn.microsoft.com/en-us/library/jj163114%28v=office.15%29.aspx). See also [Get started developing apps for SharePoint](https://msdn.microsoft.com/en-us/library/jj163980.aspx), the [SharePoint solution packs](https://www.microsoft.com/en-us/download/details.aspx?id=42030), and the [SharePoint Patterns and Practices on Github](https://github.com/OfficeDev/PnP).
-  
-[Top of Page](plan-customizations-solutions-and-apps-for-sharepoint-online.md#__top)
   
 ## Examples of common SharePoint Online customizations
 <a name="__toc349226255"> </a>
@@ -102,24 +96,18 @@ It is a good practice to first start with browser-based customizations before us
 > [!NOTE]
 > If possible, try to customize your site using custom CSS elements and themes rather than custom master pages. Custom master pages will block upgrade to the latest user interface experience when upgrades are rolled out to customers. This may introduce unexpected costs for your organization at upgrade time. 
   
-[Top of Page](plan-customizations-solutions-and-apps-for-sharepoint-online.md#__top)
-  
  **I want to customize the appearance of information on sites**
   
 |**First, try browser-based options:**|**Then, try no-code solutions:**|**Then, consider custom code solutions:**|
 |:-----|:-----|:-----|
 | Customize individual pages on the site:  <br/>  Add and edit text, images, video, and other objects  <br/>  Add and customize Web Parts  <br/>  Add and customize new lists and libraries  <br/>  Create custom views and forms for lists and libraries  <br/>  Create and edit content and publishing pages  <br/>  Enable or disable features  <br/> | Add third-party apps for SharePoint to integrate information into sites. See [Buy an app from the SharePoint Store](https://support.office.com/article/dd98e50e-d3db-4ecb-9bb7-82b189822d43).  <br/>  Create SharePoint apps with Access 2013. For more info, see [Create an Access app](https://support.office.com/article/25f3ab3e-510d-44b0-accf-b976c0813e71).  <br/>  Use SharePoint Designer to:  <br/>  Add text, images, scripts, and Web Parts to pages  <br/>  Create and customize site and Web Part pages  <br/>  Add custom actions  <br/>  Add Custom navigation  <br/>  Use Microsoft InfoPath 2013 to:  <br/>  Add text, images, and links to list and workflow forms  <br/>  Add custom data connections and functionality to list and workflow forms  <br/>  For more information about working with InfoPath, see [Find content about InfoPath 2010 and 2013](https://support.office.com/article/a7bdd91d-02b4-4596-a22a-2bad4de69835).  <br/>  Use supported Microsoft Office applications to:  <br/>  Publish workbooks with data, charts, and visualizations using Excel 2013 and Excel Services  <br/>  Publish data visualizations with Visio 2013 and Visio Services  <br/> | Use the Script Editor Web Part to add JavaScript code to site pages.  <br/>  Develop apps for SharePoint that feature App Parts designed to display information  <br/>  Use Visual Studio to:  <br/>  Create custom site pages  <br/>  Create custom Web Parts  <br/> |
    
-[Top of Page](plan-customizations-solutions-and-apps-for-sharepoint-online.md#__top)
-  
  **I want to display content from different data sources**
   
 |**First, try browser-based options:**|**Then, try no-code solutions:**|**Then, consider custom code solutions:**|
 |:-----|:-----|:-----|
 | Add Web Parts that retrieve content from external sites or data sources  <br/>  Customize list views and forms from various data sources  <br/> | Use Excel 2013 and Excel Services to display and visualize data from a wide variety of data sources.  <br/>  Use Access 2013 to quickly create sophisticated database-like no-code solutions with SQL Server as the backend database.  <br/>  Add third-party apps for SharePoint to integrate information into sites. See [Buy an app from the SharePoint Store](https://support.office.com/article/dd98e50e-d3db-4ecb-9bb7-82b189822d43).  <br/>  Configure Business Connectivity Services and to connect to data sources such as SQL Azure databases or Windows Communication Foundation web services.  <br/>  Use InfoPath 2013 to display data from lists and form libraries with:  <br/>  Custom list forms  <br/>  Custom form library forms  <br/>  Custom form-based applications  <br/>  For more information about working with InfoPath, see [Find content about InfoPath 2010 and 2013](https://support.office.com/article/a7bdd91d-02b4-4596-a22a-2bad4de69835).  <br/> | Develop custom apps for SharePoint to integrate and display information.  <br/>  Use Visual Studio to:  <br/>  Create custom list definitions  <br/>  Create custom site pages  <br/>  Create custom Web Parts  <br/>  Create custom dialog box or ribbon controls  <br/> |
    
-[Top of Page](plan-customizations-solutions-and-apps-for-sharepoint-online.md#__top)
-  
 ## Making solutions or apps available to users
 <a name="__toc349226256"> </a>
 
@@ -135,8 +123,6 @@ After you finish developing a solution or a custom app, you may need a way to ma
     
 - Custom solutions can be made available as well; however, if users are selectively using sandboxed solutions it will be difficult to ensure those sites are refreshed with updated solutions after the SharePoint Online update process affects the site.
     
-[Top of Page](plan-customizations-solutions-and-apps-for-sharepoint-online.md#__top)
-  
 ## Exploring partner solutions and services
 <a name="__toc349226257"> </a>
 

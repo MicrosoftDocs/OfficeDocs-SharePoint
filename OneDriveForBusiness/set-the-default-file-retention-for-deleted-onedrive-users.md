@@ -6,6 +6,8 @@ manager: pamgreen
 ms.date: 10/12/2017
 ms.audience: Admin
 ms.topic: article
+f1_keywords:
+- O365E_ODACStorage
 ms.prod: office-online-server
 localization_priority: Normal
 ms.collection: Strat_OD_admin

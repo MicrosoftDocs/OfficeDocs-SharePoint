@@ -3,7 +3,7 @@ title: "Manage query client types"
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
-ms.date: 5/16/2014
+ms.date: 4/5/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
@@ -47,8 +47,6 @@ Note: You can change the name of a client type that has been created for your te
   
 1. Click **OK**.
     
-[Learn how query client types decide in which order queries are performed. A query client type is how a client performing a query tells the system what type of client it is. For example, a client might tell us it is UI, or an automated query. Query throttling monitors the use of resources and protects the search system. Administrators can use client-type information for throttling, to make sure lower-priority clients like automated queries don't squeeze out higher-priority clients like UI. Query client types are also used for things like logging, reports, and determining relevance.The client sets the client type as a label in the query. The administrator configures the valid client types (though some are default and mandatory), and the client chooses one for each query. You can't turn query throttling on or off.](query-throttling.md#__top)
-  
 ## Prioritize a client query type
 <a name="__top"> </a>
 
@@ -71,6 +69,4 @@ You can use throttling tiers to prioritize query processing. When the resource l
   
 1. Click **OK**.
     
-[Learn how query client types decide in which order queries are performed. A query client type is how a client performing a query tells the system what type of client it is. For example, a client might tell us it is UI, or an automated query. Query throttling monitors the use of resources and protects the search system. Administrators can use client-type information for throttling, to make sure lower-priority clients like automated queries don't squeeze out higher-priority clients like UI. Query client types are also used for things like logging, reports, and determining relevance.The client sets the client type as a label in the query. The administrator configures the valid client types (though some are default and mandatory), and the client chooses one for each query. You can't turn query throttling on or off.](query-throttling.md#__top)
-  
 

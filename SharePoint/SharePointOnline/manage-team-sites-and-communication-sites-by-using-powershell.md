@@ -3,7 +3,7 @@ title: "Manage team sites and communication sites by using PowerShell"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 8/15/2017
+ms.date: 4/3/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
@@ -16,9 +16,7 @@ description: "Learn how to use PowerShell to manage communication sites as well 
 
 This article describes how global admins and SharePoint Online admins can use Microsoft PowerShell cmdlets to manage communication sites as well as team sites that are part of Office 365 groups. These new site types can't be managed in the SharePoint admin center. For info about using the SharePoint Online Management Shell, see [Introduction to the SharePoint Online Management Shell](https://technet.microsoft.com/en-us/library/fp161388.aspx). 
   
-## 
-
-### Manage external sharing
+## Manage external sharing
 <a name="BKMK_GroupSiteCollections"> </a>
 
 By default, communication sites and team sites that are part of an Office 365 group have the sharing setting set to **Allow external users who accept sharing invitations and sign in as authenticated users**. To change this setting, you can use the Set-SPOSite PowerShell cmdlet.
@@ -41,7 +39,7 @@ Example:
 
 For detailed information about these cmdlets and their parameters in PowerShell, see [Set-SPOSite](https://technet.microsoft.com/en-us/library/fp161394.aspx) and [Get-SPOSite](https://technet.microsoft.com/en-us/library/fp161380.aspx).
   
-### Specify site storage (quota)
+## Specify site storage (quota)
 <a name="BKMK_GroupSiteCollections"> </a>
 
 To specify the storage allocated to a communication site or a team site that's part of an Office 365 group, use the Get-SPOSite cmdlet. The following example gets and sets the storage quota for a site in the Contoso domain.
@@ -69,7 +67,7 @@ To verify that the set action worked, run the Get-SPOSite cmdlet again and make 
   
 For detailed information about these cmdlets and their parameters in PowerShell, see [Set-SPOSite](https://technet.microsoft.com/en-us/library/fp161394.aspx) and [Get-SPOSite](https://technet.microsoft.com/en-us/library/fp161380.aspx).
   
-### Get the list of site collections
+## Get the list of site collections
 <a name="BKMK_GroupSiteCollections"> </a>
 
 To get a list of all communication sites and team sites that are part of an Office 365 group in your organization, use the Get-SPOSite cmdlet. 

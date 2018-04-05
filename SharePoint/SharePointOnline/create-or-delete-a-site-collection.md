@@ -3,7 +3,7 @@ title: "Create or delete a site collection"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 3/1/2018
+ms.date: 4/3/2018
 ms.audience: Admin
 ms.topic: article
 f1_keywords:
@@ -14,7 +14,6 @@ ms.service: o365-administration
 localization_priority: Priority
 ms.collection: Strat_SP_admin
 ms.assetid: 3a3d7ab9-5d21-41f1-b4bd-5200071dd539
-
 description: "Learn how to create and delete SharePoint Online site collections in the SharePoint admin center."
 ---
 
@@ -116,13 +115,6 @@ For sites that have an Office 365 group, delete the group to delete the site:
     
 4. Select **Delete**.
     
-## 
-<a name="__toc323551190"> </a>
-
-||
-|:-----|
-|![The short icon for LinkedIn Learning.](media/7e5cb7c8-dc66-4c9a-a16d-a30f10a970bd.png) **New to Office 365?**         Discover free video courses for [Office 365 admins and IT pros](68cc9b95-0bdc-491e-a81f-ee70b3ec63c5), brought to you by LinkedIn Learning. |
-   
 ## See also
 <a name="__toc323551190"> </a>
 

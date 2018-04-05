@@ -3,7 +3,7 @@ title: "Change settings for the Refinement Web Part"
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
-ms.date: 5/16/2014
+ms.date: 4/5/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
@@ -64,8 +64,6 @@ As a SharePoint Online administrator, you can change how the Refinement Web Part
   
 8. Click **OK**.
     
-[The Refinement Web Part filters search results into categories called refiners. Users can click these refiners to narrow search results to find what they're looking for more easily. By default, the Refinement Web Part is used on all default search vertical pages, which are the search results pages for Everything, People, Conversations, and Videos.As a SharePoint Online administrator, you can change how the Refinement Web Part is set up. You can:Filter search results from a different Search Results Web Part.Specify which refiners to show. Any managed properties that you want to use as refiners must be set to refinable and queryable in the search schema. Also, the content source that contains the managed properties must have been crawled before the properties can be used as refiners.Change the display template for a refiner.Change display names for refiners.Add counts to refiners.](the-refinement-web-part.md#__top)
-  
 ## Change the display name for a refiner
 <a name="__change_the_display"> </a>
 
@@ -95,8 +93,6 @@ For example, add this line to change the display name for the managed property *
 
 1. Save the file.
     
-[The Refinement Web Part filters search results into categories called refiners. Users can click these refiners to narrow search results to find what they're looking for more easily. By default, the Refinement Web Part is used on all default search vertical pages, which are the search results pages for Everything, People, Conversations, and Videos.As a SharePoint Online administrator, you can change how the Refinement Web Part is set up. You can:Filter search results from a different Search Results Web Part.Specify which refiners to show. Any managed properties that you want to use as refiners must be set to refinable and queryable in the search schema. Also, the content source that contains the managed properties must have been crawled before the properties can be used as refiners.Change the display template for a refiner.Change display names for refiners.Add counts to refiners.](the-refinement-web-part.md#__top)
-  
 ## Add refiner counts
 <a name="__toc348362490"> </a>
 
@@ -116,8 +112,6 @@ By default, the Refinement Web Part doesn't show refiner counts — that is, the
     
 7. Save the file.
     
-[The Refinement Web Part filters search results into categories called refiners. Users can click these refiners to narrow search results to find what they're looking for more easily. By default, the Refinement Web Part is used on all default search vertical pages, which are the search results pages for Everything, People, Conversations, and Videos.As a SharePoint Online administrator, you can change how the Refinement Web Part is set up. You can:Filter search results from a different Search Results Web Part.Specify which refiners to show. Any managed properties that you want to use as refiners must be set to refinable and queryable in the search schema. Also, the content source that contains the managed properties must have been crawled before the properties can be used as refiners.Change the display template for a refiner.Change display names for refiners.Add counts to refiners.](the-refinement-web-part.md#__top)
-  
 See also: 
   
 - [Manage the Search Center in SharePoint Online](manage-the-search-center)

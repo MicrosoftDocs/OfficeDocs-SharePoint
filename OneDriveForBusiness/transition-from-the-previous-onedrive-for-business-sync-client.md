@@ -3,14 +3,13 @@ title: "Transition from the previous OneDrive for Business sync client"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 1/19/2018
+ms.date: 4/3/2018
 ms.audience: Admin
 ms.topic: get-started-article
 ms.prod: office-online-server
 localization_priority: Priority
 ms.collection: Strat_OD_sync
 ms.assetid: 4100df3a-0c96-464f-b0a8-c20de34da6fa
-
 description: "Learn how to upgrade your users to the new OneDrive sync client (OneDrive.exe)."
 ---
 
@@ -25,10 +24,10 @@ If you're not an IT admin, see [Sync files with the new OneDrive sync client in 
 > [!IMPORTANT]
 >  The new OneDrive sync client for Windows now supports syncing IRM-protected SharePoint document libraries and OneDrive locations. To create a seamless IRM sync experience for your end users, deploy the latest [Rights Management Service (RMS) client](https://aka.ms/odirm) to your users' computers. >  If your organization never used the previous OneDrive for Business sync client, or had fewer than 250 licensed Office 365 users in June 2016, your users must use the new OneDrive sync client to sync OneDrive for Business and SharePoint Online files. >  The new OneDrive sync client supports Windows 10, Windows 8.1, Windows 8, and Windows 7. It doesn't yet support syncing on-premises instances of OneDrive for Business or SharePoint Server (when your organization doesn't subscribe to an Office 365 business plan). 
   
-||
-|:-----|
-|**If you're ready now, [download the latest version of the new OneDrive sync client that's fully released to production](https://go.microsoft.com/fwlink/p/?linkid=844652).** To learn about other versions that are rolling out to different rings, see [New OneDrive sync client release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0).  <br/> Installation and setup guides for users are available for syncing [Sync files with the new OneDrive sync client in Windows](https://support.office.com/article/615391c4-2bd3-4aae-a42a-858262e42a49), [Get started with the new OneDrive sync client on Mac OS X](https://support.office.com/article/d11b9f29-00bb-4172-be39-997da46f913f), and [Sync SharePoint files with the new OneDrive sync client](https://support.office.com/article/6de9ede8-5b6e-4503-80b2-6190f3354a88).  <br/> |
-   
+ **If you're ready now, [download the latest version of the new OneDrive sync client that's fully released to production](https://go.microsoft.com/fwlink/p/?linkid=844652).** To learn about other versions that are rolling out to different rings, see [New OneDrive sync client release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0).
+  
+Installation and setup guides for users are available for syncing [Sync files with the new OneDrive sync client in Windows](https://support.office.com/article/615391c4-2bd3-4aae-a42a-858262e42a49), [Get started with the new OneDrive sync client on Mac OS X](https://support.office.com/article/d11b9f29-00bb-4172-be39-997da46f913f), and [Sync SharePoint files with the new OneDrive sync client](https://support.office.com/article/6de9ede8-5b6e-4503-80b2-6190f3354a88).
+  
 ## Overview
 
 When users who are syncing files with the previous OneDrive for Business sync client (Groove.exe) sign in to the new OneDrive sync client (OneDrive.exe), the following things happen:
@@ -56,11 +55,11 @@ The following library types are not yet supported by the new OneDrive sync clien
 |Office 2016 MSI  <br/> |16.0.4432.1\*  <br/> |
 |Office 2013 MSI/C2R  <br/> |15.0.4859.1\*  <br/> |
    
-    > [!NOTE]
-    > If Office 2010 is installed on a computer, the SharePoint Workspace component must be removed. Before starting OneDrive Setup, either [Uninstall Office 2016, Office 2013, or Office 365 from a PC](https://support.office.com/article/9dd49b83-264a-477a-8fcc-2fdf5dbf61d8#OfficeVersion=2010) or [Install or remove individual Office 2010 programs and components](https://support.office.com/article/aeb80df5-326c-4afc-8064-bd195f560753). 
-  
 2. Make sure users have version 17.3.6743.1212 or higher of the new OneDrive sync client installed. For info about deploying the OneDrive sync client, see [Deploy the new OneDrive sync client in an enterprise environment](deploy-the-new-onedrive-sync-client).
     
+> [!NOTE]
+> If Office 2010 is installed on a computer, the SharePoint Workspace component must be removed. Before starting OneDrive Setup, either [Uninstall Office 2016, Office 2013, or Office 365 from a PC](https://support.office.com/article/9dd49b83-264a-477a-8fcc-2fdf5dbf61d8#OfficeVersion=2010) or [Install or remove individual Office 2010 programs and components](https://support.office.com/article/aeb80df5-326c-4afc-8064-bd195f560753). 
+  
 ## Configure takeover
 
 1. In the SharePoint admin center, [Enable users to sync SharePoint files with the new OneDrive sync client](https://support.office.com/article/22e1f635-fb89-49e0-a176-edab26f69614). If the options aren't available, the new OneDrive sync client is already set up to sync OneDrive for Business and SharePoint Online files.
@@ -106,12 +105,5 @@ See the following article for more info about the new OneDrive sync client.
 |[Sync SharePoint files with the new OneDrive sync client](https://support.office.com/article/6de9ede8-5b6e-4503-80b2-6190f3354a88) <br/> |Use the OneDrive sync client to sync SharePoint Online files.  <br/> |
 |[Use Group Policy to control OneDrive sync client settings](use-group-policy-to-control-onedrive-sync-client-settings) <br/> |Configure the OneDrive sync client using Group Policy.  <br/> |
 |[Restrictions and limitations when you use the new OneDrive sync client to sync OneDrive for Business libraries](https://go.microsoft.com/fwlink/?LinkId=717734) <br/> |Knowledge base article with info about file size limits and file name restrictions.  <br/> |
-   
-## For admins and IT pros
-<a name="step6"> </a>
-
-||
-|:-----|
-|![The short icon for LinkedIn Learning.](media/7e5cb7c8-dc66-4c9a-a16d-a30f10a970bd.png) **New to Office 365?**         Discover free video courses for [Office 365 admins and IT pros](68cc9b95-0bdc-491e-a81f-ee70b3ec63c5), brought to you by LinkedIn Learning. |
    
 

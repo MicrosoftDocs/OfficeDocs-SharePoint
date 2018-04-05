@@ -3,7 +3,7 @@ title: "Required URLs and ports for OneDrive"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 5/6/2016
+ms.date: 4/3/2018
 ms.audience: Admin
 ms.topic: reference
 ms.prod: office-online-server
@@ -19,10 +19,8 @@ description: "Learn the FQDNs and ports to include in your allow lists to let us
 > [!IMPORTANT]
 > Filtering internet traffic requires advanced networking knowledge and isn't suitable for all customers. 
   
-||
-|:-----|
-|**If you are looking for a listing of endpoints used by OneDrive for Business in Office 365, see [Office 365 URLs and IP address ranges](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2).**|
-   
+ **If you are looking for a listing of endpoints used by OneDrive for Business in Office 365, see [Office 365 URLs and IP address ranges](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2).**
+  
 ## Supported hosts and ports for OneDrive
 
 To use OneDrive, the following endpoints need to be accessible to client computers. 

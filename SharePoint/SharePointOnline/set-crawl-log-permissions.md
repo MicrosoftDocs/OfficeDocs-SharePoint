@@ -3,7 +3,7 @@ title: "Crawl log permissions"
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
-ms.date: 6/6/2017
+ms.date: 4/5/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
@@ -35,6 +35,4 @@ A typical use case is in eDiscovery, where you can grant a security group permis
     
 7. Click **OK**.
     
-[As a SharePoint Online administrator, you can grant users read access to crawl log information for the tenant. The crawl log tracks information about the status of crawled content. A typical use case is in eDiscovery, where you can grant a security group permission to view the crawl log information for the tenant. The users in the security group can view the crawl log data via the eDiscovery portal to check whether crawled content was successfully added to the search index, or whether indexing failed because of an error.](set-crawl-log-permissions.md#__top)
-  
 

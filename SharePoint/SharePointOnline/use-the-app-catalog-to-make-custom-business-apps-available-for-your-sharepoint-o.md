@@ -3,7 +3,7 @@ title: "Use the App Catalog to make custom business apps available for your Shar
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 1/5/2018
+ms.date: 4/5/2018
 ms.audience: Admin
 ms.topic: article
 f1_keywords:
@@ -48,8 +48,6 @@ Even if you don't plan to make internal custom apps available, you will not be a
     
      ![Create App Catalog dialog box](media/0ee3e6a9-b293-4de4-a648-782d8f2f717e.PNG)
   
-[As a SharePoint Online admin, you can create an App Catalog site to make internally developed custom apps available for users to install when they browse apps under the From Your Organization filter on the Site Contents page. Site owners can then add these apps to customize sites with specific functionality or to display information. After an App Catalog site has been created, you can use it to upload any custom apps that your organization has developed. Uploading custom apps isn't much more complicated than uploading a document to a library and setting some properties. You can use the App Catalog site to do things like install custom or third-party apps on sites for users (also called app deployment). You can also manage app requests from users.For more information about your options for developing custom apps for SharePoint Online, see: Build apps for SharePointhttps://go.microsoft.com/fwlink/p/?LinkID=789301 and Apps for SharePoint compared with SharePoint solutionshttps://go.microsoft.com/fwlink/p/?LinkID=265569. ](use-the-app-catalog-to-make-custom-business-apps-available-for-your-sharepoint-o.md#__top)
-  
 ## Step 2: Add custom apps to the App Catalog site
 <a name="__add_custom_apps"> </a>
 
@@ -82,8 +80,6 @@ To get to the App Catalog site once it's been created, follow steps 1 through 4 
     
 > [!NOTE]
 >  If you want to make third-party apps available for users to find and install, you simply need to buy a site license for them. When you buy a site license for a third-party app from the SharePoint store, the apps will automatically display under **Apps You Can Add**. 
-  
-[As a SharePoint Online admin, you can create an App Catalog site to make internally developed custom apps available for users to install when they browse apps under the From Your Organization filter on the Site Contents page. Site owners can then add these apps to customize sites with specific functionality or to display information. After an App Catalog site has been created, you can use it to upload any custom apps that your organization has developed. Uploading custom apps isn't much more complicated than uploading a document to a library and setting some properties. You can use the App Catalog site to do things like install custom or third-party apps on sites for users (also called app deployment). You can also manage app requests from users.For more information about your options for developing custom apps for SharePoint Online, see: Build apps for SharePointhttps://go.microsoft.com/fwlink/p/?LinkID=789301 and Apps for SharePoint compared with SharePoint solutionshttps://go.microsoft.com/fwlink/p/?LinkID=265569. ](use-the-app-catalog-to-make-custom-business-apps-available-for-your-sharepoint-o.md#__top)
   
 ## Step 3 (optional): Install an app for users
 <a name="__toc347303050"> </a>
@@ -124,8 +120,6 @@ However, if you want to make the app available for use without requiring users t
     
 10. If you are prompted to Trust the app, select **Trust It**.
     
-[As a SharePoint Online admin, you can create an App Catalog site to make internally developed custom apps available for users to install when they browse apps under the From Your Organization filter on the Site Contents page. Site owners can then add these apps to customize sites with specific functionality or to display information. After an App Catalog site has been created, you can use it to upload any custom apps that your organization has developed. Uploading custom apps isn't much more complicated than uploading a document to a library and setting some properties. You can use the App Catalog site to do things like install custom or third-party apps on sites for users (also called app deployment). You can also manage app requests from users.For more information about your options for developing custom apps for SharePoint Online, see: Build apps for SharePointhttps://go.microsoft.com/fwlink/p/?LinkID=789301 and Apps for SharePoint compared with SharePoint solutionshttps://go.microsoft.com/fwlink/p/?LinkID=265569. ](use-the-app-catalog-to-make-custom-business-apps-available-for-your-sharepoint-o.md#__top)
-  
  **Deploy a custom app**
   
 If you upload a custom app to the App Catalog, it is automatically available for users to install when they browse apps under **From Your Organization**. If you want you want the app to be available for use without the need for site users to install it, you can deploy it.
@@ -157,8 +151,6 @@ If you upload a custom app to the App Catalog, it is automatically available for
     > [!NOTE]
     >  It may take up to 30 minutes for an app to deploy. >  If you deploy an app that adds commands to the item callout for document libraries or lists, then those commands are visible to users. However, if you deploy an app that features custom ribbon controls or an App Part, additional steps may be required to make the user interface commands for the app appear. 
   
-[As a SharePoint Online admin, you can create an App Catalog site to make internally developed custom apps available for users to install when they browse apps under the From Your Organization filter on the Site Contents page. Site owners can then add these apps to customize sites with specific functionality or to display information. After an App Catalog site has been created, you can use it to upload any custom apps that your organization has developed. Uploading custom apps isn't much more complicated than uploading a document to a library and setting some properties. You can use the App Catalog site to do things like install custom or third-party apps on sites for users (also called app deployment). You can also manage app requests from users.For more information about your options for developing custom apps for SharePoint Online, see: Build apps for SharePointhttps://go.microsoft.com/fwlink/p/?LinkID=789301 and Apps for SharePoint compared with SharePoint solutionshttps://go.microsoft.com/fwlink/p/?LinkID=265569. ](use-the-app-catalog-to-make-custom-business-apps-available-for-your-sharepoint-o.md#__top)
-  
 ## Remove an app from the App Catalog
 <a name="__toc347303053"> </a>
 
@@ -170,17 +162,16 @@ If you no longer want a specific app to be available for users to install, you c
     
 3. In the dialog box, click **OK** to confirm that you want to send the item to the site Recycle Bin. 
     
-[As a SharePoint Online admin, you can create an App Catalog site to make internally developed custom apps available for users to install when they browse apps under the From Your Organization filter on the Site Contents page. Site owners can then add these apps to customize sites with specific functionality or to display information. After an App Catalog site has been created, you can use it to upload any custom apps that your organization has developed. Uploading custom apps isn't much more complicated than uploading a document to a library and setting some properties. You can use the App Catalog site to do things like install custom or third-party apps on sites for users (also called app deployment). You can also manage app requests from users.For more information about your options for developing custom apps for SharePoint Online, see: Build apps for SharePointhttps://go.microsoft.com/fwlink/p/?LinkID=789301 and Apps for SharePoint compared with SharePoint solutionshttps://go.microsoft.com/fwlink/p/?LinkID=265569. ](use-the-app-catalog-to-make-custom-business-apps-available-for-your-sharepoint-o.md#__top)
-  
-## Resources
-<a name="__toc347303054"> </a>
+## See also
+<a name="__toc347303053"> </a>
 
-- [Configure settings for the SharePoint Store](configure-settings-for-the-sharepoint-store)
-    
-- [Manage app licenses for a SharePoint Online environment](manage-app-licenses-for-a-sharepoint-online-environment)
-    
-- [Monitor apps for your SharePoint Online environment](monitor-apps-for-your-sharepoint-online-environment)
-    
-- [Add an app to a site](https://support.office.com/article/ef9c0dbd-7fe1-4715-a1b0-fe3bc81317cb)
-    
+#### Other Resources
+
+[Configure settings for the SharePoint Store](configure-settings-for-the-sharepoint-store)
+  
+[Manage app licenses for a SharePoint Online environment](manage-app-licenses-for-a-sharepoint-online-environment)
+  
+[Monitor apps for your SharePoint Online environment](monitor-apps-for-your-sharepoint-online-environment)
+  
+[Add an app to a site](https://support.office.com/article/ef9c0dbd-7fe1-4715-a1b0-fe3bc81317cb)
 

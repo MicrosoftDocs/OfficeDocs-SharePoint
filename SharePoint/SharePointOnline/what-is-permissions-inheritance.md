@@ -3,7 +3,7 @@ title: "What is permissions inheritance?"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 2/9/2018
+ms.date: 4/5/2018
 ms.audience: Admin
 ms.topic: reference
 ms.prod: office-online-server
@@ -18,19 +18,6 @@ Permissions inheritance means that the permission settings of an element in a si
   
 By default, SharePoint sites inherit permissions from a parent site. This means that when you assign a user to the Members group, the user's permissions automatically cascade down through all the sites, lists, libraries, folders and items that inherit the permission level.
   
-## In this article
-<a name="__top"> </a>
-
-> [What is a parent in SharePoint permissions?](what-is-permissions-inheritance.md#__toc340139789)
-    
-> [More about permissions inheritance](what-is-permissions-inheritance.md#__toc340139790)
-    
-> [A scenario that uses default behavior](what-is-permissions-inheritance.md#__toc340139791)
-    
-> [A scenario that restricts access to a site and its children](what-is-permissions-inheritance.md#__toc340139792)
-    
-> [A scenario that shares access for a library and its documents](what-is-permissions-inheritance.md#__toc340139793)
-    
 ## What is a parent in SharePoint permissions?
 <a name="__toc340139789"> </a>
 
@@ -41,8 +28,6 @@ The site collection root is not the only parent on a site. Every securable objec
 By default, permissions are inherited from parent to child. That is, if you do not change the permission structure, then a list item inherits permissions (through its parent list) from the top-level site in the collection. However, even if you break inheritance for a list, that list is still a parent for its own list items. The list items for the list inherit the permissions that the list has, and if you change the permissions for the list, the list items inherit the changes.
   
 When you first break this chain of inheritance from parent to child, the child starts with a copy of the parent's permissions. Then, you edit these permissions to make them the way that you want. You can add permissions, remove permissions, create special groups, and so on. None of the changes affect the original parent. And, if you decide that breaking inheritance was the wrong decision, you can resume inheriting permissions at any time.
-  
-[Permissions inheritance means that the permission settings of an element in a site collection are passed on to the children of that element. In this way, sites inherit permissions from the root site of the site collection, libraries inherit from the site that contains the library, and so on. Permission inheritance enables you to make a permission assignment once, and have that permission apply to all sites, lists, libraries, folders and items that inherit permissions. This behavior can reduce complexity and the amount of time Administrators and Site Owners spend on security management.By default, SharePoint sites inherit permissions from a parent site. This means that when you assign a user to the Members group, the user's permissions automatically cascade down through all the sites, lists, libraries, folders and items that inherit the permission level.](what-is-permissions-inheritance.md#__top)
   
 ## More about permissions inheritance
 <a name="__toc340139790"> </a>
@@ -75,8 +60,6 @@ In the following illustration, the www.Litware.com/Bestsellers breaks inheritanc
   
 For ease of maintenance, we recommend that you use a similar method to restrict access. That is, organize your site so that sensitive material is in the same place. If you organize the site this way, you only have to break inheritance one time, for that specific site or library. This is much less overhead. It requires much less work than creating separate permission structures in many locations for individual subsites and libraries.
   
-[Permissions inheritance means that the permission settings of an element in a site collection are passed on to the children of that element. In this way, sites inherit permissions from the root site of the site collection, libraries inherit from the site that contains the library, and so on. Permission inheritance enables you to make a permission assignment once, and have that permission apply to all sites, lists, libraries, folders and items that inherit permissions. This behavior can reduce complexity and the amount of time Administrators and Site Owners spend on security management.By default, SharePoint sites inherit permissions from a parent site. This means that when you assign a user to the Members group, the user's permissions automatically cascade down through all the sites, lists, libraries, folders and items that inherit the permission level.](what-is-permissions-inheritance.md#__top)
-  
 ### A scenario that shares access for a library and its documents
 <a name="__toc340139793"> </a>
 
@@ -85,7 +68,5 @@ In this scenario, suppose that Jane is an editor in your Local Books division. J
 Jane has a simple solution - she can just share the document together with the author by clicking a command on the ribbon. SharePoint automatically handles all the details of permissions and access, by breaking inheritance on the document itself. Now, the local author can browse the site to the document location and access the document, but can't view or access any other information on the site.
   
 For more information about inviting an external user to use information on your site, see [Share SharePoint files or folders in Office 365](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c).
-  
-[Permissions inheritance means that the permission settings of an element in a site collection are passed on to the children of that element. In this way, sites inherit permissions from the root site of the site collection, libraries inherit from the site that contains the library, and so on. Permission inheritance enables you to make a permission assignment once, and have that permission apply to all sites, lists, libraries, folders and items that inherit permissions. This behavior can reduce complexity and the amount of time Administrators and Site Owners spend on security management.By default, SharePoint sites inherit permissions from a parent site. This means that when you assign a user to the Members group, the user's permissions automatically cascade down through all the sites, lists, libraries, folders and items that inherit the permission level.](what-is-permissions-inheritance.md#__top)
   
 

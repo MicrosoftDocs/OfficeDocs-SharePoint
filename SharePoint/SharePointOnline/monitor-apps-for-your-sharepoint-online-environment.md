@@ -3,7 +3,7 @@ title: "Monitor apps for your SharePoint Online environment"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 11/6/2014
+ms.date: 4/5/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
@@ -53,6 +53,4 @@ Select View Errors on the ribbon. You can use the Correlation ID to find the err
     
 - App usage and error detail information is processed by different timer jobs that are pre-configured to run at set times for SharePoint Online. These timer jobs pick up events for the previous day. For this reason, the data visible on the Monitor Apps page may be delayed for up to 29 hours.
     
-[As a SharePoint Online admin, you can monitor information such as app usage and error information for the apps that are in use in your SharePoint Online environment. Before you can monitor information about an app, you need to add it to the list of apps you want to monitor.](monitor-apps-for-your-sharepoint-online-environment.md#__top)
-  
 

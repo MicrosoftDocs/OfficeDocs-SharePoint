@@ -3,7 +3,7 @@ title: "Create a community portal"
 ms.author: clake
 author: spowriter
 manager: pamgreen
-ms.date: 5/16/2014
+ms.date: 4/3/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -88,6 +88,4 @@ Here are the basic steps for creating a community. For more information, see [Cr
     
 3. Click **OK**. It might take a few minutes before your new community site collection appears in the URL list. 
     
-[A community portal is a directory that lists all community sites available on your company intranet. Through the community portal users can search for, discover, follow, visit, and participate in communities of interest. ](create-a-community-portal.md#__top)
-  
 

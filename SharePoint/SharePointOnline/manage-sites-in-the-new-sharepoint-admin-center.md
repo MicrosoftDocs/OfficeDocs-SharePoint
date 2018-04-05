@@ -3,7 +3,7 @@ title: "Manage sites in the new SharePoint admin center"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 2/11/2018
+ms.date: 4/3/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
@@ -22,26 +22,6 @@ The Site management page of the new SharePoint admin center (preview) lets you v
 > The Site management page lists the root website for each site collection. Subsites aren't included in the list. 
   
 To manage sites in the new SharePoint admin center, go to the current SharePoint admin center, click "Try the new SharePoint admin center preview" in the upper right, and then select **Site management**. For info about the new SharePoint admin center, see [Get started with the new SharePoint admin center](get-started-with-the-new-sharepoint-admin-center-preview).
-  
-## In this article
-
-[Create a site](manage-sites-in-the-new-sharepoint-admin-center.md#createsite)
-  
-[Delete a site](manage-sites-in-the-new-sharepoint-admin-center.md#deletesite)
-  
-[Add or remove admins](manage-sites-in-the-new-sharepoint-admin-center.md#addremoveadmins)
-  
-[Email admins](manage-sites-in-the-new-sharepoint-admin-center.md#emailadmins)
-  
-[View site details](manage-sites-in-the-new-sharepoint-admin-center.md#viewsitedetails)
-  
-[Sort and filter the site list](manage-sites-in-the-new-sharepoint-admin-center.md#sortfilter)
-  
-[Export to Excel](manage-sites-in-the-new-sharepoint-admin-center.md#export)
-  
-[Go to a site](manage-sites-in-the-new-sharepoint-admin-center.md#gotosite)
-  
-[Customize columns](manage-sites-in-the-new-sharepoint-admin-center.md#customizecolumns)
   
 ## Create a site
 <a name="createsite"> </a>

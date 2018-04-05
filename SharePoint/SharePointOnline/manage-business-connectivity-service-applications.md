@@ -3,7 +3,7 @@ title: "Manage Business Connectivity Service Applications"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 12/30/2016
+ms.date: 4/5/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -18,35 +18,6 @@ In SharePoint Online, you can create Business Connectivity Services (BCS) connec
   
 SharePoint Online uses BCS together with Secure Store Services to access and retrieve data such as BDC Models from external data systems. To learn more about BCS, see [SharePoint Online planning guide for Office 365](sharepoint-online-planning-guide-for-office-365-for-business).
   
-## In this article
-<a name="__top"> </a>
-
-> [Manage BCS permissions](manage-business-connectivity-service-applications.md#__toc338059706)
-    
-> [Object permissions](manage-business-connectivity-service-applications.md#__toc338059707)
-    
-> [Metadata Store Permissions](manage-business-connectivity-service-applications.md#__toc338059708)
-    
-> [Import or export a Business Data Connectivity (BDC) Model](manage-business-connectivity-service-applications.md#__toc338059709)
-    
-> [Import a BDC Model](manage-business-connectivity-service-applications.md#__toc338059710)
-    
-> [Export a BDC Model](manage-business-connectivity-service-applications.md#__toc338059711)
-    
-> [Add actions to external content types](manage-business-connectivity-service-applications.md#__toc338059712)
-    
-> [View external data and external data settings](manage-business-connectivity-service-applications.md#__toc338059713)
-    
-> [External Content Types view](manage-business-connectivity-service-applications.md#__toc338059714)
-    
-> [External Systems view](manage-business-connectivity-service-applications.md#__toc338059715)
-    
-> [View property settings](manage-business-connectivity-service-applications.md#__migbm_0)
-    
-> [Configure property settings](manage-business-connectivity-service-applications.md#__migbm_1)
-    
-> [BDC Model view](manage-business-connectivity-service-applications.md#__toc338059716)
-    
 ## Manage BCS permissions
 <a name="__toc338059706"> </a>
 
@@ -95,8 +66,6 @@ The following table describes the permissions and their associated access levels
 |Selectable in clients  <br/> |Allows the user or group to create external lists for any ECTs, and to view the ECTs in the external item picker.  <br/> |
 |Set permissions  <br/> |Allows the user, group, or claim to set permissions on the Metadata Store.  <br/> At least one user or group must have this permission on every BCS connection so that permissions management can occur. With this permission, a user can grant **Edit** permissions to the Metadata Store. This setting should be reserved for highly privileged users  <br/> |
    
-[In SharePoint Online, you can create Business Connectivity Services (BCS) connections to data sources, such as SQL Azure databases or Windows Communication Foundation (WCF) web services, that are outside the SharePoint site. Once you've created these connections, you can manage or edit BCS information on the SharePoint admin center site. You can log on to the SharePoint admin center site directly, or log on to the Office 365 admin center and then move to the SharePoint admin center.SharePoint Online uses BCS together with Secure Store Services to access and retrieve data such as BDC Models from external data systems. To learn more about BCS, see SharePoint Online planning guide for Office 365.](manage-business-connectivity-service-applications.md#__top)
-  
 ### Metadata Store Permissions
 <a name="__toc338059708"> </a>
 
@@ -131,8 +100,6 @@ To set Metadata Store permissions, follow these steps.
    
 8. To propagate permissions to all items in the Metadata Store, select **Propagate permissions to all BDC Models, External Systems and External content types in the BDC Metadata Store**. If you select this option, you'll replace all existing permissions (including object permissions) that you may have set anywhere else in your selected BCS Application.
     
-[In SharePoint Online, you can create Business Connectivity Services (BCS) connections to data sources, such as SQL Azure databases or Windows Communication Foundation (WCF) web services, that are outside the SharePoint site. Once you've created these connections, you can manage or edit BCS information on the SharePoint admin center site. You can log on to the SharePoint admin center site directly, or log on to the Office 365 admin center and then move to the SharePoint admin center.SharePoint Online uses BCS together with Secure Store Services to access and retrieve data such as BDC Models from external data systems. To learn more about BCS, see SharePoint Online planning guide for Office 365.](manage-business-connectivity-service-applications.md#__top)
-  
 ## Import or export a Business Data Connectivity (BDC) Model
 <a name="__toc338059709"> </a>
 
@@ -146,8 +113,6 @@ You can import or export two types of model files:
   
 > [!NOTE]
 >  You can create a BDC Model using XML code. If you do so, it's important to know that you cannot use the authentication modes **RevertToSelf** and **PassThrough** with SharePoint Online. Although you might be able to import a BDC Model that was written in XML, the connection will not be usable. 
-  
-[In SharePoint Online, you can create Business Connectivity Services (BCS) connections to data sources, such as SQL Azure databases or Windows Communication Foundation (WCF) web services, that are outside the SharePoint site. Once you've created these connections, you can manage or edit BCS information on the SharePoint admin center site. You can log on to the SharePoint admin center site directly, or log on to the Office 365 admin center and then move to the SharePoint admin center.SharePoint Online uses BCS together with Secure Store Services to access and retrieve data such as BDC Models from external data systems. To learn more about BCS, see SharePoint Online planning guide for Office 365.](manage-business-connectivity-service-applications.md#__top)
   
 ### Import a BDC Model
 <a name="__toc338059710"> </a>
@@ -186,8 +151,6 @@ To import a BDC Model, follow these steps:
     
 13. Select **Import**.
     
-[In SharePoint Online, you can create Business Connectivity Services (BCS) connections to data sources, such as SQL Azure databases or Windows Communication Foundation (WCF) web services, that are outside the SharePoint site. Once you've created these connections, you can manage or edit BCS information on the SharePoint admin center site. You can log on to the SharePoint admin center site directly, or log on to the Office 365 admin center and then move to the SharePoint admin center.SharePoint Online uses BCS together with Secure Store Services to access and retrieve data such as BDC Models from external data systems. To learn more about BCS, see SharePoint Online planning guide for Office 365.](manage-business-connectivity-service-applications.md#__top)
-  
 ### Export a BDC Model
 <a name="__toc338059711"> </a>
 
@@ -224,8 +187,6 @@ To export a BDC Model or Resource file, follow these steps:
 10. If you saved a file of resource settings for later use, type the name of the file to export in the **Use Custom Environment Settings** field. 
     
 11. Select **Export** to start a dialog that enables you to save a *.bdcm file to your local drive. You can open the *.bdcm file in a text editor. 
-    
-    [In SharePoint Online, you can create Business Connectivity Services (BCS) connections to data sources, such as SQL Azure databases or Windows Communication Foundation (WCF) web services, that are outside the SharePoint site. Once you've created these connections, you can manage or edit BCS information on the SharePoint admin center site. You can log on to the SharePoint admin center site directly, or log on to the Office 365 admin center and then move to the SharePoint admin center.SharePoint Online uses BCS together with Secure Store Services to access and retrieve data such as BDC Models from external data systems. To learn more about BCS, see SharePoint Online planning guide for Office 365.](manage-business-connectivity-service-applications.md#__top)
     
 ## Add actions to external content types
 <a name="__toc338059712"> </a>
@@ -272,8 +233,6 @@ To add an action to an ECT, follow these steps.
     > [!IMPORTANT]
     >  Parameters can contain personally identifying information such as names and Social Security numbers. When you design an action, be careful not to use fields that display personally identifying information. 
   
-[In SharePoint Online, you can create Business Connectivity Services (BCS) connections to data sources, such as SQL Azure databases or Windows Communication Foundation (WCF) web services, that are outside the SharePoint site. Once you've created these connections, you can manage or edit BCS information on the SharePoint admin center site. You can log on to the SharePoint admin center site directly, or log on to the Office 365 admin center and then move to the SharePoint admin center.SharePoint Online uses BCS together with Secure Store Services to access and retrieve data such as BDC Models from external data systems. To learn more about BCS, see SharePoint Online planning guide for Office 365.](manage-business-connectivity-service-applications.md#__top)
-  
 ## View external data and external data settings
 <a name="__toc338059713"> </a>
 
@@ -305,8 +264,6 @@ By default, the BCS connection uses the **External Content Types** view. This vi
 ![A screenshot of the Ribbon in standard BCS External Content Type View.](media/f5e0e67e-6f89-4b7f-9b51-fe39b6584a46.png)
   
 For most processes in BCS, this view is sufficient. However, if there are many ECTs, this view can be difficult to navigate.
-  
-[In SharePoint Online, you can create Business Connectivity Services (BCS) connections to data sources, such as SQL Azure databases or Windows Communication Foundation (WCF) web services, that are outside the SharePoint site. Once you've created these connections, you can manage or edit BCS information on the SharePoint admin center site. You can log on to the SharePoint admin center site directly, or log on to the Office 365 admin center and then move to the SharePoint admin center.SharePoint Online uses BCS together with Secure Store Services to access and retrieve data such as BDC Models from external data systems. To learn more about BCS, see SharePoint Online planning guide for Office 365.](manage-business-connectivity-service-applications.md#__top)
   
 ### External Systems view
 <a name="__toc338059715"> </a>
@@ -361,8 +318,6 @@ If you point to an External System Name, you can open a shortcut menu that inclu
     
 - Secure Store Implementation. 
     
-[In SharePoint Online, you can create Business Connectivity Services (BCS) connections to data sources, such as SQL Azure databases or Windows Communication Foundation (WCF) web services, that are outside the SharePoint site. Once you've created these connections, you can manage or edit BCS information on the SharePoint admin center site. You can log on to the SharePoint admin center site directly, or log on to the Office 365 admin center and then move to the SharePoint admin center.SharePoint Online uses BCS together with Secure Store Services to access and retrieve data such as BDC Models from external data systems. To learn more about BCS, see SharePoint Online planning guide for Office 365.](manage-business-connectivity-service-applications.md#__top)
-  
 ### BDC Model view
 <a name="__toc338059716"> </a>
 
@@ -381,7 +336,5 @@ If you want to see all the ECTs for a BDC Model, you just select the name of the
 This display can closely mirror the layout of the data source connected via an ECT, and give better insight into the structure of the underlying data.
   
 Also, the page displays any Associations, Actions, or Filters for this ECT at the bottom of the page.
-  
-[In SharePoint Online, you can create Business Connectivity Services (BCS) connections to data sources, such as SQL Azure databases or Windows Communication Foundation (WCF) web services, that are outside the SharePoint site. Once you've created these connections, you can manage or edit BCS information on the SharePoint admin center site. You can log on to the SharePoint admin center site directly, or log on to the Office 365 admin center and then move to the SharePoint admin center.SharePoint Online uses BCS together with Secure Store Services to access and retrieve data such as BDC Models from external data systems. To learn more about BCS, see SharePoint Online planning guide for Office 365.](manage-business-connectivity-service-applications.md#__top)
   
 

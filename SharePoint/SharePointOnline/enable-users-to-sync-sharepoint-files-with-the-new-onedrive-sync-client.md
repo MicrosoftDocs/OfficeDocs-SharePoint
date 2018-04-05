@@ -3,7 +3,7 @@ title: "Enable users to sync SharePoint files with the new OneDrive sync client"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 2/28/2018
+ms.date: 4/3/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
@@ -19,8 +19,6 @@ description: "Learn how to enable users in your organization to sync SharePoint 
   
 This article is for IT administrators in large organizations who want to enable users in their organizations to sync SharePoint Online team sites with the new OneDrive sync client. Smaller organizations and organizations that are new to Office 365 are already set up to sync OneDrive and SharePoint files with the new OneDrive sync client.
   
-## 
-
 When you enable this feature, users will be able to sync the files in a SharePoint Online team site to their PCs and Macs using the OneDrive sync client (OneDrive.exe). As part of this, they will be able to:
   
 - Browse to a SharePoint Online site or shared folder and click "Sync" to sync all contents in the document library or only selected folders that are important to them.
@@ -35,7 +33,7 @@ When you enable this feature, users will be able to sync the files in a SharePoi
     
 - Automatically transition from the existing OneDrive for Business sync client (Groove.exe)
     
-### Test the feature before you enable it for your organization
+## Test the feature before you enable it for your organization
 <a name="TestFeature"> </a>
 
 Follow these steps if you want to preview the syncing of SharePoint Online files before enabling the feature for your entire organization.
@@ -82,7 +80,7 @@ This preview automatically takes over syncing the libraries that are synced usin
   
 6. Restart the sync client and log in again if prompted.
     
-### Deploy and configure the OneDrive sync client
+## Deploy and configure the OneDrive sync client
 <a name="TestFeature"> </a>
 
 To enable users in your organization to sync SharePoint Online team sites with the OneDrive sync client, you first need to deploy the OneDrive sync client to your organization.
@@ -91,7 +89,7 @@ See [Deploy the new OneDrive sync client in an enterprise environment](https://s
   
 See [Configure the new OneDrive sync client on macOS](https://support.office.com/article/eadddc4e-edc0-4982-9f50-2aef5038c307)
   
-### Set SharePoint to sync with the OneDrive sync client
+## Set SharePoint to sync with the OneDrive sync client
 <a name="admincenter"> </a>
 
 1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4) as a global admin or SharePoint admin. 
@@ -120,6 +118,7 @@ See [Configure the new OneDrive sync client on macOS](https://support.office.com
     These changes take several hours to propagate. To check that they've propagated, go to a SharePoint Online site and click **Sync**. In the browser dialog box that confirms the request to open a program, the "Program" should appear as "Microsoft OneDrive" and the "Address" should start with "odopen://"
     
 ## Related Topics
+<a name="admincenter"> </a>
 
 [Sync SharePoint files with the new OneDrive sync client](https://support.office.com/article/6de9ede8-5b6e-4503-80b2-6190f3354a88)
   

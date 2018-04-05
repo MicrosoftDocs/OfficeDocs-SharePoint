@@ -3,7 +3,7 @@ title: "Build a SharePoint publishing site"
 ms.author: loreenl
 author: LoreenLa
 manager: pamgreen
-ms.date: 6/1/2017
+ms.date: 4/3/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -22,8 +22,6 @@ Publishing sites have unique features that streamline the authoring, approving, 
 >  The Enterprise Wiki is also a publishing site but is less structured and is intended for easy authoring when formal content management processes are not required. 
   
 This article explains how to create a publishing site collection and publishing sub-sites, including the publishing site with workflow.
-  
-[A SharePoint publishing site is a site that's built using a publishing site template. It's a site where authoring and publishing are more structured and where content management processes are enforced. Publishing sites are typically used to create enterprise intranets, communication portals, and public websites.Publishing sites have unique features that streamline the authoring, approving, and publishing processes. These features are enabled automatically when you create a publishing site and include page layouts, column types, web parts, lists, and libraries. The Enterprise Wiki is also a publishing site but is less structured and is intended for easy authoring when formal content management processes are not required.This article explains how to create a publishing site collection and publishing sub-sites, including the publishing site with workflow.Top of Page](build-a-sharepoint-publishing-site.md#__top)
   
 ## Create a publishing portal
 <a name="__top"> </a>
@@ -78,8 +76,6 @@ To get started, click the site collection link you just created, and in the site
   
 ![New Home page from Site Collection](media/eb45a6e4-edae-4b7d-8c57-0283a01e3361.PNG)
   
-[A SharePoint publishing site is a site that's built using a publishing site template. It's a site where authoring and publishing are more structured and where content management processes are enforced. Publishing sites are typically used to create enterprise intranets, communication portals, and public websites.Publishing sites have unique features that streamline the authoring, approving, and publishing processes. These features are enabled automatically when you create a publishing site and include page layouts, column types, web parts, lists, and libraries. The Enterprise Wiki is also a publishing site but is less structured and is intended for easy authoring when formal content management processes are not required.This article explains how to create a publishing site collection and publishing sub-sites, including the publishing site with workflow.A SharePoint publishing site is a site that's built using a publishing site template. It's a site where authoring and publishing are more structured and where content management processes are enforced. Publishing sites are typically used to create enterprise intranets, communication portals, and public websites.Publishing sites have unique features that streamline the authoring, approving, and publishing processes. These features are enabled automatically when you create a publishing site and include page layouts, column types, web parts, lists, and libraries. The Enterprise Wiki is also a publishing site but is less structured and is intended for easy authoring when formal content management processes are not required.This article explains how to create a publishing site collection and publishing sub-sites, including the publishing site with workflow.Top of Page](build-a-sharepoint-publishing-site.md#__top)
-  
 ## Create a publishing sub-site
 <a name="__top"> </a>
 
@@ -109,8 +105,6 @@ A publishing sub-site is a site that sits below the publishing site collection (
     
 10. Click **Create**.
     
-[A SharePoint publishing site is a site that's built using a publishing site template. It's a site where authoring and publishing are more structured and where content management processes are enforced. Publishing sites are typically used to create enterprise intranets, communication portals, and public websites.Publishing sites have unique features that streamline the authoring, approving, and publishing processes. These features are enabled automatically when you create a publishing site and include page layouts, column types, web parts, lists, and libraries. The Enterprise Wiki is also a publishing site but is less structured and is intended for easy authoring when formal content management processes are not required.This article explains how to create a publishing site collection and publishing sub-sites, including the publishing site with workflow.A SharePoint publishing site is a site that's built using a publishing site template. It's a site where authoring and publishing are more structured and where content management processes are enforced. Publishing sites are typically used to create enterprise intranets, communication portals, and public websites.Publishing sites have unique features that streamline the authoring, approving, and publishing processes. These features are enabled automatically when you create a publishing site and include page layouts, column types, web parts, lists, and libraries. The Enterprise Wiki is also a publishing site but is less structured and is intended for easy authoring when formal content management processes are not required.This article explains how to create a publishing site collection and publishing sub-sites, including the publishing site with workflow.Top of Page](build-a-sharepoint-publishing-site.md#__top)
-  
 ## Create a publishing sub-site with approval workflow
 <a name="__top"> </a>
 

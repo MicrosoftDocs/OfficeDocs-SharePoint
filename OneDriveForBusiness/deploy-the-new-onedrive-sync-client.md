@@ -3,14 +3,13 @@ title: "Deploy the new OneDrive sync client in an enterprise environment"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 3/31/2018
+ms.date: 4/3/2018
 ms.audience: Admin
 ms.topic: get-started-article
 ms.prod: office-online-server
 localization_priority: Priority
 ms.collection: Strat_OD_admin
 ms.assetid: 3f3a511c-30c6-404a-98bf-76f95c519668
-
 description: "Learn how to deploy the OneDrive sync client to your Office 365 organization."
 ---
 
@@ -20,22 +19,6 @@ description: "Learn how to deploy the OneDrive sync client to your Office 365 or
   
 This article is for IT administrators planning to deploy the new OneDrive sync client to their OneDrive for Business users in work or school environments. To install the OneDrive sync client for yourself, [download it](https://go.microsoft.com/fwlink/?linkid=844652) and read the [Sync files with the new OneDrive sync client in Windows](https://support.office.com/article/615391c4-2bd3-4aae-a42a-858262e42a49).
   
-In this article:
-  
-- [Software requirements](deploy-the-new-onedrive-sync-client.md#Requirements)
-    
-- [Planning](deploy-the-new-onedrive-sync-client.md#perform)
-    
-- [Overview of the deployment process](deploy-the-new-onedrive-sync-client.md#Overview)
-    
-- [Step 1: Install OneDrive.exe](deploy-the-new-onedrive-sync-client.md#step2)
-    
-- [Step 2: Help users sign in](deploy-the-new-onedrive-sync-client.md#step3)
-    
-- [Step 3: Set your update ring (Optional)](deploy-the-new-onedrive-sync-client.md#cad)
-    
-- [See Also](deploy-the-new-onedrive-sync-client.md#seealso)
-    
 ## Software requirements
 <a name="Requirements"> </a>
 
@@ -149,13 +132,6 @@ To delay updates to the OneDrive sync client, and control their deployment to yo
   
 To set the update ring using Group Policy, enable the **Delay updating OneDrive.exe until the second release wave** setting. For more information about this setting, see [Use Group Policy to control OneDrive sync client settings](use-group-policy-to-control-onedrive-sync-client-settings).
   
-## 
-<a name="cad"> </a>
-
-||
-|:-----|
-|![The short icon for LinkedIn Learning.](media/7e5cb7c8-dc66-4c9a-a16d-a30f10a970bd.png) **New to Office 365?**         Discover free video courses for [Office 365 admins and IT pros](68cc9b95-0bdc-491e-a81f-ee70b3ec63c5), brought to you by LinkedIn Learning. |
-   
 ## See Also
 <a name="seealso"> </a>
 

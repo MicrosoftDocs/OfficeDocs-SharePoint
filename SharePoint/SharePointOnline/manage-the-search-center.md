@@ -3,7 +3,7 @@ title: "Manage the Search Center in SharePoint Online"
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
-ms.date: 5/16/2014
+ms.date: 4/5/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
@@ -49,6 +49,4 @@ For information about how to customize the Search Center Web Parts, see the foll
     
 - [Change settings for the Refinement Web Part](the-refinement-web-part)
     
-[A Search Center is where users enter search queries and view the search results. In SharePoint Online, a Search Center site is automatically available at \<host_name\>/search/. You'll have a default search home page and a default search results page. In addition, there are several pages known as search verticals. Search verticals are customized for searching specific content, such as People, Conversations, and Videos. Search verticals display search results that are filtered and formatted for a specific content type or class.](manage-the-search-center.md#__top)
-  
 

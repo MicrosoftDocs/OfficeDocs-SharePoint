@@ -3,7 +3,7 @@ title: "Change settings for the Search Box Web Part"
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
-ms.date: 4/17/2015
+ms.date: 4/5/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
@@ -60,8 +60,6 @@ As a SharePoint Online administrator, you can change settings in the Search Box 
   
 4. Click **OK**.
     
-[The Search Box Web Part shows a text box where users can enter words or phrases to search for information. By default, the Search Box Web Part is used on the home page for the Search Center (default.aspx), and all default search results pages (Everything, People, Conversations, and Videos).As a SharePoint Online administrator, you can change settings in the Search Box Web Part. You can:Change where the search results should be displayed — for example, show results in a custom Search Results Web Part or a custom search results page.Turn off query suggestions and people suggestions. Show links to a search preference page and an advanced search page.Change the display template that is used for the Web Part. ](the-search-box-web-part.md#__top)
-  
 ## Change settings for query suggestions, people suggestions, and personal favorites results
 <a name="__toc349558306"> </a>
 
@@ -89,8 +87,6 @@ As a SharePoint Online administrator, you can turn off or on query suggestions, 
     
 4. Click **OK**.
     
-[The Search Box Web Part shows a text box where users can enter words or phrases to search for information. By default, the Search Box Web Part is used on the home page for the Search Center (default.aspx), and all default search results pages (Everything, People, Conversations, and Videos).As a SharePoint Online administrator, you can change settings in the Search Box Web Part. You can:Change where the search results should be displayed — for example, show results in a custom Search Results Web Part or a custom search results page.Turn off query suggestions and people suggestions. Show links to a search preference page and an advanced search page.Change the display template that is used for the Web Part. ](the-search-box-web-part.md#__top)
-  
 ## Show links or change the display template
 <a name="__toc349558307"> </a>
 
@@ -110,8 +106,6 @@ As a SharePoint Online administrator, you can turn off or on query suggestions, 
     
 4. Click **OK**.
     
-[The Search Box Web Part shows a text box where users can enter words or phrases to search for information. By default, the Search Box Web Part is used on the home page for the Search Center (default.aspx), and all default search results pages (Everything, People, Conversations, and Videos).As a SharePoint Online administrator, you can change settings in the Search Box Web Part. You can:Change where the search results should be displayed — for example, show results in a custom Search Results Web Part or a custom search results page.Turn off query suggestions and people suggestions. Show links to a search preference page and an advanced search page.Change the display template that is used for the Web Part. ](the-search-box-web-part.md#__top)
-  
 See also: 
   
 - [Manage the Search Center in SharePoint Online](manage-the-search-center)

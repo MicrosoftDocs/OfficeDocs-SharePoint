@@ -3,7 +3,7 @@ title: "Manage external sharing for your SharePoint Online environment"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 1/29/2018
+ms.date: 4/3/2018
 ms.audience: Admin
 ms.topic: article
 f1_keywords:
@@ -17,7 +17,6 @@ localization_priority: Priority
 ms.collection: Strat_OD_share
 ms.custom: Adm_O365
 ms.assetid: c8a462eb-0723-4b0b-8d0a-70feafe4be85
-
 description: "Learn about the external sharing options in SharePoint Online."
 ---
 
@@ -105,12 +104,6 @@ If you have business partners or vendors with whom you need to collaborate or sh
   
 SharePoint Online extranet sites are very easy to set up and much easier and less expensive to maintain than on-premises extranet sites. For details, see [Use Office 365 SharePoint Online as a business-to-business (B2B) extranet solution](use-office-365-sharepoint-online-as-a-business-to-business-b2b-extranet-solution).
   
-## 
-
-||
-|:-----|
-|![The short icon for LinkedIn Learning.](media/7e5cb7c8-dc66-4c9a-a16d-a30f10a970bd.png) **New to Office 365?**         Discover free video courses for [Office 365 admins and IT pros](68cc9b95-0bdc-491e-a81f-ee70b3ec63c5), brought to you by LinkedIn Learning. |
-   
 ## Related Topics
 
 [Manage sharing with external users in Office 365 Small Business](https://support.office.com/article/2951a85f-c970-4375-aa4f-6b0d7035fe35)
