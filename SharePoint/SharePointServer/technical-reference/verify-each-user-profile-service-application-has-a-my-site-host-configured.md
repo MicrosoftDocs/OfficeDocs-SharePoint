@@ -31,7 +31,7 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleV
   
 - For information about setting up a My Site site collection, see [Configure My Sites in SharePoint Server](../install/configure-my-sites.md).
     
- **Resolution: Associate the My Site host with a User Profile Service service application by using Microsoft PowerShell**
+**Resolution: Associate the My Site host with a User Profile Service service application by using Microsoft PowerShell**
   
 1. Verify that you have the following memberships:
     

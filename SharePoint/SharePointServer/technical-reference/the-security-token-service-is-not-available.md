@@ -41,7 +41,7 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleT
     
 7. In the **Application Pools** list, right-click **SecurityTokenServiceApplicationPool**, and then click **Start**. If the application pool is started already, click **Stop** and then, in the **Action** pane, click **Start** to restart it. 
     
- **Resolution: Install the missing assemblies into the global assembly cache (GAC) manually.**
+**Resolution: Install the missing assemblies into the global assembly cache (GAC) manually.**
   
 1. Check the event logs and ULS logs on all servers to find out which assemblies of the custom claims provider are missing.
     

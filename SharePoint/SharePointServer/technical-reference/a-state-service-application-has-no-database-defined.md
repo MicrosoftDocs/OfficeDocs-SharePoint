@@ -29,7 +29,7 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleA
     
 - The farm administrator never created or associated a database with the State Service service application.
     
- **Resolution: Create a new database or use an existing database for the State Service service application by using Microsoft PowerShell**
+**Resolution: Create a new database or use an existing database for the State Service service application by using Microsoft PowerShell**
   
 1. Verify that you have the following memberships:
     
