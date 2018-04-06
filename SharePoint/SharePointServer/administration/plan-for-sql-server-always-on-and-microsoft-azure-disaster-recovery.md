@@ -281,7 +281,7 @@ The tables in this section summarize the supported high availability and disaste
 |**State Service** <br/> |Yes  <br/> |No  <br/> |
 |**WSS Content X** <br/> |Yes  <br/> |Yes  <br/> |
    
-The following table lists the SharePoint application service databases.
+The following table lists the SharePoint service application databases.
 
 |**Database name**|**High Availability (Synchronous Support)**|**Disaster Recovery (Asynchronous Support)**|
 |:-----|:-----|:-----|
