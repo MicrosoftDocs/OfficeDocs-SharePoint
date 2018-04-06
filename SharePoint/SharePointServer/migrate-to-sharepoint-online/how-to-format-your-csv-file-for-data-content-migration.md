@@ -1,5 +1,5 @@
 ---
-title: "How to format your CSV file for data content migration"
+title: "How to format your CSV for data content migration"
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
@@ -11,13 +11,13 @@ localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.custom: Strat_SP_gtc
 ms.assetid: 9183b289-f1cf-4c69-8240-8bfcdf3809bb
-description: ""
+description: "How to format your CSV for data content migration"
 ---
 
-# How to format your CSV file for data content migration
+# How to format your CSV for data content migration
 
-> [!IMPORTANT]
-> This article discusses a beta release of the Microsoft product, SharePoint Migration Tool. The information in this article is provided as-is and is subject to change without notice. 
+> [IMPORTANT]
+> A portion of this article discusses a beta release of the Microsoft product, SharePoint Migration Tool. The information in this article is provided as-is and is subject to change without notice. 
   
 ## Using a comma separated value (CSV) file for data content migration
 
@@ -83,5 +83,3 @@ The following table explain the values needed in each column in your CSV file.
 |Target Web  <br/> | *Required*  . Enter the SharePoint Online site URL where the files are to be migrated.  <br/> |
 |Target DocLib  <br/> | *Required*  . Enter the name of the document library with the SharePoint Online site where the files are to be migrated.  <br/> |
 |Target SubFolder  <br/> | *Optional*  . Enter the name of the subfolder in the document library. If this column is left empty then the files will be moved to the root level.  <br/> |
-   
-

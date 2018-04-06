@@ -36,7 +36,7 @@ This video shows a walkthrough of configuring hybrid OneDrive for Business.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/a65546fb-4981-4a66-a9b6-0659382b5efb?autoplay=false]
 > [!NOTE]
-> The SharePoint Migration Tool demonstrated in the video is currently in preview. It is only supported for SharePoint Server 2013. [Download the SharePoint Migration Tool](https://hrcppestorageprod.blob.core.windows.net/migrationtool/default.md). 
+> The SharePoint Migration Tool demonstrated in the video is currently in preview. It is only supported for SharePoint Server 2013. [Download the SharePoint Migration Tool]((http://spmtreleasescus.blob.core.windows.net/install/default.htm). 
   
 ## Configure user permissions
 
