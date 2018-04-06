@@ -117,7 +117,7 @@ The first procedure explains how to set permission to the Application Discovery 
 3. At the PowerShell command prompt, type the following command:
     
   ```
-  Get-SPServiceApplication -Name <ServiceApplicationName>.Id
+  Get-SPServiceApplication .Id
   ```
 
   ```
@@ -142,7 +142,6 @@ The first procedure explains how to set permission to the Application Discovery 
 
     Where:
     
-     _\<ServiceApplicationName\>_ is the name of the service application for which you want to find the ID. If the service application name contains spaces, enclose the value in double-quotation marks. 
     
      _\<Consumingfarmid\>_ is the GUID value of the consuming farm. This is the ID of the consuming farm that you need in Step 5 of the Central Administration section. 
     
