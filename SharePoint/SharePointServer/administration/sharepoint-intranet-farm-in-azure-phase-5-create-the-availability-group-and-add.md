@@ -3,7 +3,7 @@ title: "SharePoint Intranet Farm in Azure Phase 5 Create the availability group 
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 5/30/2017
+ms.date: 04/06/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
@@ -36,13 +36,13 @@ Once the databases have been both backed up and restored, they can be added to t
   
 Make the backup files (.bak) accessible from the secondary SQL Server virtual machine with these steps:
   
-1. Connect to the primary SQL Server virtual machine with the <your domain> **\sp_farm_db** account credentials. 
+1. Connect to the primary SQL Server virtual machine with the \<your domain>**\sp_farm_db** account credentials. 
     
 2. Open File Explorer and navigate to the **H:** disk. 
     
 3. Right-click the **Backup** folder, click **Share with**, and then click **Specific people**.
     
-4. In the **File sharing** dialog, type <your domain name> **\sqlservice**, and then click **Add**.
+4. In the **File sharing** dialog, type \<your domain name>**\sqlservice**, and then click **Add**.
     
 5. Click the **Permission Level** column for the **sqlservice** account name, and then click **Read/Write**.
     
@@ -80,9 +80,9 @@ The following procedures must be repeated for every database that needs to be ad
     
 6. In the **Destination** section, click **Remove to remove the default file path for the backup file**.
     
-7. Click **Add.** In **File name**, type **\\**<machineName> **\backup**<databaseName> **.bak**, where machineName is the name of the primary SQL Server computer and databaseName is the name of the database. Click **OK**, and then click **OK** again after the message about the successful backup. 
+7. Click **Add.** In **File name**, type **\\**\<machineName>**\backup**\<databaseName> **.bak**, where machineName is the name of the primary SQL Server computer and databaseName is the name of the database. Click **OK**, and then click **OK** again after the message about the successful backup. 
     
-8. In the left pane, right-click <databaseName>, point to **Tasks**, and then click **Back Up**.
+8. In the left pane, right-click \<databaseName>, point to **Tasks**, and then click **Back Up**.
     
 9. In **Backup type**, select **Transaction Log**, and then click **OK** twice. 
     
@@ -90,7 +90,7 @@ Keep the Remote Desktop session to the first SQL Server virtual machine open.
   
  **To restore a database**
   
-1. Connect to the secondary SQL Server virtual machine with the <your domain> **\sp_farm_db** account credentials. 
+1. Connect to the secondary SQL Server virtual machine with the \<your domain>**\sp_farm_db** account credentials. 
     
 2. From the secondary SQL Server virtual machines, click **Start**, type **SQL Studio**, and then click **SQL Server Management Studio**.
     
@@ -102,7 +102,7 @@ Keep the Remote Desktop session to the first SQL Server virtual machine open.
     
 6. In **Select backup devices**, click **Add**.
     
-7. In **Backup file location,** type **\**<machine name> **\backup**, press Enter, select <databaseName> **.bak**, and then click **OK** twice. You should now see the full backup and the log backup in the **Backup sets to restore** section. 
+7. In **Backup file location,** type **\\**\<machine name>**\backup**, press Enter, select \<databaseName>**.bak**, and then click **OK** twice. You should now see the full backup and the log backup in the **Backup sets to restore** section. 
     
 8. Under **Select a page**, click **Options**. In the **Restore options** section, in **Recovery state**, select **RESTORE WITH NORECOVERY**, and then click **OK**.
     
@@ -197,7 +197,7 @@ The Availability Group listener is an IP address and DNS name that the SQL Serve
     
 6. Set the cluster parameters with these steps:
     
-  - Connect to one of the SQL Server virtual machines with the <domain name> **\sp_farm_db** account credentials. 
+  - Connect to one of the SQL Server virtual machines with the \<domain name>**\sp_farm_db** account credentials. 
     
   - Open an administrator-level PowerShell command prompt, specify the variable values, and then run these commands:
     
@@ -211,7 +211,7 @@ The Availability Group listener is an IP address and DNS name that the SQL Serve
   
   ```
 
-    > [!TIP]
+ > [!TIP]
     > For a text file that contains all of the PowerShell commands in this article, see the [SharePoint Server 2016 High Availability Farm in Azure Deployment Kit](https://gallery.technet.microsoft.com/SharePoint-Server-2016-3d3d9071). 
   
 Use these steps to configure the listener port:
@@ -236,13 +236,13 @@ Use these steps to test the connection to the listener:
   sqlmd -S <listenerName> -E
   ```
 
-    If the listener is using a port other than the default port (1433), specify the port in the connection string. For example, the following sqlcmd command connects to a listener at port 1435: 
+  If the listener is using a port other than the default port (1433), specify the port in the connection string. For example, the following sqlcmd command connects to a listener at port 1435: 
     
   ```
   sqlcmd -S <listenerName>,1435 -E
   ```
 
-    The sqlcmd connection automatically connects to whichever instance of SQL Server hosts the primary replica. 
+  The sqlcmd connection automatically connects to whichever instance of SQL Server hosts the primary replica. 
     
 You use the health dashboard to check the AlwaysOn Availability Group for successful operation with these steps:
   
@@ -271,7 +271,7 @@ Use these steps to update the SharePoint database connection strings:
   
   ```
 
-    The display of the **Get-Spdatabase** command shows the database name and the server property value from the connection string. 
+  The display of the **Get-Spdatabase** command shows the database name and the server property value from the connection string. 
     
 3. For each database in an availability group having a server property that matches a SQL node in the cluster, you must update this property value to match the load balancer DNS name with PowerShell. This example is for the SharePoint_Config Database.
     

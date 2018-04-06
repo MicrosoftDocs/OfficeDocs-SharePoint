@@ -3,7 +3,7 @@ title: "Intranet SharePoint Server 2016 in Azure dev/test environment"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 10/6/2017
+ms.date: 04/05/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
@@ -155,7 +155,7 @@ Next, configure SQL1 to use the F: drive for new databases and for accounts and 
     
 5. In **Database default locations**, set the following values:
     
-  - For **Data**, set the path to **f:\Data\**.
+  - For **Data**, set the path to **f:\Data**.
     
   - For **Log**, set the path to **f:\Log**.
     
@@ -253,7 +253,7 @@ After the SharePoint virtual machine restarts, reconnect to it using the CORP\Us
   
 Next, create a new, single-server SharePoint farm on SP1.
   
-1. From the Start screen, type ** SharePoint **, and then click **SharePoint 2016 Products Configuration Wizard**.
+1. From the Start screen, type **SharePoint**, and then click **SharePoint 2016 Products Configuration Wizard**.
     
 2. On the **Welcome to SharePoint Products** page, click **Next**.
     
@@ -265,7 +265,7 @@ Next, create a new, single-server SharePoint farm on SP1.
     
   - In **Database server**, type **SQL1**.
     
-  - In **Username**, type ** CORP\sp_farm_db **. 
+  - In **Username**, type **CORP\sp_farm_db**. 
     
   - In **Password**, type the sp_farm_db account password.
     
@@ -321,12 +321,6 @@ When you are ready to deploy a production-ready, high availability SharePoint Se
   
 ## See also
 
-#### Concepts
-
-[SharePoint Server 2016 dev/test environment in Azure](sharepoint-server-2016-dev-test-environment-in-azure.md)
-#### Other Resources
-
-[SharePoint Server 2016 in Microsoft Azure](sharepoint-server-2016-in-microsoft-azure.md)
-  
-[Designing a SharePoint Server 2016 farm in Azure](designing-a-sharepoint-server-2016-farm-in-azure.md)
-
+- [SharePoint Server 2016 dev/test environment in Azure](sharepoint-server-2016-dev-test-environment-in-azure.md)
+- [SharePoint Server 2016 in Microsoft Azure](sharepoint-server-2016-in-microsoft-azure.md)
+- [Designing a SharePoint Server 2016 farm in Azure](designing-a-sharepoint-server-2016-farm-in-azure.md)
