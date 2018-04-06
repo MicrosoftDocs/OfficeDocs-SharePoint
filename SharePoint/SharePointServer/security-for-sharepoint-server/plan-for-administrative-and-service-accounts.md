@@ -100,6 +100,7 @@ For more information about service application endpoints, see [Using Service End
 
 **Note**: Excel Services used with workbooks to refresh data. It is required when workbook connections specify "None" for authentication, or when any credentials that are notWindows credentials are used to refresh data. PerformancePoint serivce used for authenticating with data sources. Visio service used with documents to refresh data. It is required when connecting to data sources that are external to SharePoint Server, such as SQL Server.
    
+
 |**Account**|**Service**|**Purpose**|**Requirements**|
 |:-----|:-----|:-----|:-----|
 |Default Content Access  <br/> |
@@ -109,6 +110,7 @@ For more information about service application endpoints, see [Using Service End
 |SharePoint Server Search  <br/> |X  <br/> ||
    
 **Note**: The default account for crawling content. A Search service application administrator can create crawl rules to specify other accounts to crawl specific content.  Must have Read Access to the content being crawled.  Full Read permissions must be granted explicitly to content that is outside the local farm.  Full Read permissions are automatically configured for content databases in the local farm.
+
 
 |**Account**|**Service**|**Purpose**|**Requirements**|
 |:-----|:-----|:-----|:-----|
