@@ -29,7 +29,7 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleC
   
 - You can add more RAM to the server to increase the memory. To identify the failing server: in the SharePoint Central Administration website, in the **Monitoring** section, click **Review problems and solutions**, and then find the name of the server in the **Failing Servers** list. If there are multiple failing servers in a server farm, you must repeat this resolution on each failing server. 
     
- **Resolution: Increase the memory allocation of the distributed cache**
+**Resolution: Increase the memory allocation of the distributed cache**
   
 1. Verify that you have the following memberships:
     

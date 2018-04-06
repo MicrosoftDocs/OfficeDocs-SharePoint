@@ -45,6 +45,5 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleT
 |**Maximum Recalc Duration** <br/> |\<= 60 (Seconds)  <br/> |
 |**Maximum Cache Size** <br/> |\>= 5120 (Megabytes)  <br/> |
    
-6. Click **OK**.
     
 

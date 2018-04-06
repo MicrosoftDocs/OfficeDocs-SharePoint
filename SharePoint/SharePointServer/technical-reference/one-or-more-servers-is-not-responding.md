@@ -36,14 +36,14 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleO
 3. In the **Services** list, make sure the status of **SharePoint Timer Service** is **Started**. If not, right-click **SharePoint Timer Service**, and click **Start**.
     
     Alternatively, you can start the SharePoint 2010 Timer service by doing the following on each server that does not respond:
+
+    - Verify that the user account that is performing this procedure is a member of the Administrators group on the local computer.
+
+    - Open the Command Prompt window, type the following command, and then press ENTER:
+
+    - `net start SPTimerV4`
     
-1. Verify that the user account that is performing this procedure is a member of the Administrators group on the local computer.
-    
-2. Open the Command Prompt window, type the following command, and then press ENTER: 
-  
- `net start SPTimerV4`
-    
-- If the server was intentionally removed from the farm, follow these steps to remove the record of the server from the SharePoint topology in Central Administration.
+**If the server was intentionally removed from the farm, follow these steps to remove the record of the server from the SharePoint topology in Central Administration.**
     
 1. Verify that the user account that is performing this procedure is a member of the Farm Administrators group.
     

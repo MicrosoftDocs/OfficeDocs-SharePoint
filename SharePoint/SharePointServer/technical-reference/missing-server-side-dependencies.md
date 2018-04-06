@@ -20,8 +20,6 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleM
  **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "Missing server side dependencies" in SharePoint Server 2016 and SharePoint 2013. 
   
  **Rule Name:** Missing server side dependencies. 
-  
-## 
 
  **Summary:** When you first deploy SharePoint Server 2016 this rule can generate false errors. To resolve this, update to the [August 2016 PU release](https://www.microsoft.com/en-us/download/details.aspx?id=53399).
   

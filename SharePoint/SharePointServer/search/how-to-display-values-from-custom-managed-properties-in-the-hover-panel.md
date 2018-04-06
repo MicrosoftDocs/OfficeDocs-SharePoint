@@ -1,4 +1,4 @@
----
+   ---
 title: "How to display values from custom managed properties in the hover panel in SharePoint Server"
 ms.author: tlarsen
 author: tklarsen
@@ -14,7 +14,7 @@ description: "Summary: Learn how to display values from custom managed propertie
 
 # How to display values from custom managed properties in the hover panel in SharePoint Server
 
- **Summary:** Learn how to display values from custom managed properties in the hover panel in SharePoint Server. 
+ **Summary:** Learn how to display values from custom managed properties in the hover panel in SharePoint Server.    
   
 In [How to display values from custom managed properties in search results - option 2 in SharePoint Server](how-to-display-values-from-custom-managed-properties-in-search-results-–-option.md) we showed you how to display values from custom managed properties with hit highlighting, and get automatically improved relevancy based on end-user click behavior. In this article, you'll learn: 
   
@@ -106,12 +106,11 @@ To display custom properties in the hover panel, here's what you should do:
   ```
   '<Current item property name>':<Managed property name>'
   ```
-
-    In our Search Center scenario, we added four managed properties to the  *TechNet content*  item display template. 
+  In our Search Center scenario, we added four managed properties to the  *TechNet content*  item display template. 
     
      ![Added MPs](../media/OTCSP_AddedMPs.png)
   
-3.     > [!NOTE]
+3. > [!NOTE]
     > You do  *not*  have to do this step if you are using SharePoint Online. 
   
     Go to **Site settings** --> **Search Result Types**. Notice that a **Property Sync** alert is displayed. 

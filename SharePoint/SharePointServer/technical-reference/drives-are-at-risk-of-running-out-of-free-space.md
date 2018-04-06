@@ -31,7 +31,7 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleD
     
 2. On Server Manager, click **Tools**, and then click **Disk Cleanup**.
     
- **Resolution: Decrease the number of days to store log files**
+**Resolution: Decrease the number of days to store log files**
   
 1. Verify that the user account that is performing this procedure is a member of the Farm Administrators group.
     

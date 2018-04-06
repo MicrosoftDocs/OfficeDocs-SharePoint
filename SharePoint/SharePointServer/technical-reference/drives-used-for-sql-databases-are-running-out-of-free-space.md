@@ -25,7 +25,7 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleD
   
  **Cause:** The databases have large files that may exceed the available free space. 
   
- ** Resolution: Free disk space on the database server computer. **
+ **Resolution: Free disk space on the database server computer.**
   
 1. Verify that the user account that is performing the following step is a member of the Administrators group on the local database server computer.
     
@@ -35,7 +35,7 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleD
     
 4. If the event persists, move some large files to another disk drive to free up space.
     
- **Resolution: Decrease the number of days to store log files.**
+**Resolution: Decrease the number of days to store log files.**
   
 1. Verify that the user account that is performing this procedure is a member of the Farm Administrators group. 
     

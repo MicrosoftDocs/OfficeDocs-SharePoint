@@ -20,8 +20,6 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleD
  **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "Distributed cache service is unexpectedly configured on server(s)" in SharePoint Server 2016. 
   
  **Rule Name:** Distributed cache service is unexpectedly configured on server(s). 
-  
-## 
 
  **Summary:** The distributed cache service instance should not be configured for the failing servers. Remove the distributed cache service instances from the failing servers. 
   

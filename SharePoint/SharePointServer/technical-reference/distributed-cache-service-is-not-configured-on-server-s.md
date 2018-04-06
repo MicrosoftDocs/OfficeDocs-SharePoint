@@ -20,8 +20,6 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleD
  **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "Distributed cache service is not configured on server(s)" in SharePoint Server 2016. 
   
  **Rule Name:** Distributed cache service is not configured on server(s). 
-  
-## 
 
  **Summary:** The distributed cache service should be configured for the failing servers. Register the distributed cache host on the failing servers, and then start the service instances. 
   
