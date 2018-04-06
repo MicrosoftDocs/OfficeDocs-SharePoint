@@ -51,6 +51,7 @@ Workflow Management with SharePoint
 
 |**Package Name**|**KB Number**|**Release Date**|
 |:-----|:-----|:-----|
+|SharePoint Server 2016  <br/> SharePoint Server 2016 MUI/language patch  <br/> |[KB 4018336](https://support.microsoft.com/en-us/help/4018336) <br/> [KB 4018340](https://support.microsoft.com/en-us/help/4018340) <br/> |April 2018  <br/> |
 |SharePoint Server 2016  <br/> SharePoint Server 2016 MUI/language patch  <br/> |[KB 4018293](https://support.microsoft.com/en-us/help/4018293) <br/> [KB 4011687](https://support.microsoft.com/en-us/help/4011687) <br/> |March 2018  <br/> |
 |SharePoint Server 2016  <br/> |[KB 4011680](https://support.microsoft.com/help/4011680) <br/> |February 2018  <br/> |
 |SharePoint Server 2016  <br/> ﻿SharePoint Server 2016 MUI/language patch  <br/> |[KB 4011642](https://support.microsoft.com/help/4011642) <br/> [﻿KB 4011645](https://support.microsoft.com/help/4011645) <br/> |January 2018  <br/> |
@@ -89,6 +90,7 @@ The following packages are provided for cumulative updates:
     
 |**Package Name**|**KB Number**|**Release Date**|
 |:-----|:-----|:-----|
+|SharePoint Foundation 2013  <br/> SharePoint Server 2013  <br/> |[KB 4018345](https://support.microsoft.com/en-us/help/4018345) <br/> [KB 4018345](https://support.microsoft.com/en-us/help/4018345) <br/> |April 2018  <br/> |
 |SharePoint Foundation 2013  <br/> SharePoint Server 2013  <br/> |[KB 4018299](https://support.microsoft.com/en-us/help/4018299) <br/> [KB 4018302](https://support.microsoft.com/en-us/help/4018302) <br/> |March 2018  <br/> |
 |SharePoint Foundation 2013  <br/> SharePoint Server 2013  <br/> |[KB 4011693](https://support.microsoft.com/help/4011693) <br/> [﻿KB 4011696](https://support.microsoft.com/help/4011696) <br/> |February 2018  <br/> |
 |SharePoint Foundation 2013  <br/> ﻿SharePoint Server 2013  <br/> |[KB 4011649](https://support.microsoft.com/help/4011649) <br/> [﻿KB 4011652](https://support.microsoft.com/help/4011652) <br/> |January 2018  <br/> |
@@ -142,6 +144,7 @@ The following packages are provided for cumulative updates:
 
 |**Package Name**|**KB Number**|**Release Date**|
 |:-----|:-----|:-----|
+|SharePoint Server 2010  <br/> |[KB 4018361](https://support.microsoft.com/en-us/help/4018361) <br/> |April 2018  <br/> |
 |SharePoint Server 2010  <br/> |[KB 4011710](https://support.microsoft.com/en-us/help/4011710) <br/> |March 2018  <br/> |
 |SharePoint Foundation 2010  <br/> SharePoint Server 2010  <br/> |[KB 3141547](https://support.microsoft.com/help/3141547) <br/> [﻿KB 4011616](https://support.microsoft.com/help/4011616) <br/> |January 2018  <br/> |
 |SharePoint Server 2010  <br/> |[KB 4011272](https://support.microsoft.com/help/4011272) <br/> |November 2017  <br/> |
