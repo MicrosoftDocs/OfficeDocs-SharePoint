@@ -30,8 +30,8 @@ Migration speed can be impacted by a number of factors. Understanding these will
   
 A key benefit of using the Migration API is that it leverages Azure storage and uses channels that prevent it from being throttled. This allows you to more effectively plan your migration timeline. 
 
-> [**IMPORTANT**]
-> For best performance and greater data throughput, schedule your migrations during nights and weekend rather than daytime "peak" hours. 
+> **IMPORTANT:**
+> For best performance and greater data throughput, schedule your migrations during "off-peak" night and weekend hours rather than daytime "peak" hours. 
   
 -  *Source computer:*  Having source data spread across several computers prevents you from running into capacity limits such as DISK IO that will restrict the speed of your migration. This can be accomplished by increasing the number of client VMs, you increase the speed of moving content out of your source location. 
     
