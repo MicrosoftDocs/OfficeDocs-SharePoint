@@ -150,7 +150,7 @@ And now the hover panel was starting to look really good.
   
 ![Final Hover Panel](../media/OTCSP_FinalHoverPanel.png)
   
-But to make the hover panel even more helpful, we wanted to add an action to the bottom of the hover panel. will show how to do this this. x
+But to make the hover panel even more helpful, we wanted to add an action to the bottom of the hover panel. will show how to do this this.
   
 ### Next article in this series
 
