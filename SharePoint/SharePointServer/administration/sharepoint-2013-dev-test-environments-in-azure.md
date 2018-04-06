@@ -3,7 +3,7 @@ title: "SharePoint 2013 dev/test environments in Azure"
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
-ms.date: 9/27/2017
+ms.date: 04/06/2018
 ms.audience: ITPro
 ms.topic: hub-page
 ms.prod: sharepoint-server-itpro
@@ -47,7 +47,7 @@ To create the basic (three-server) SharePoint farm with the Azure portal:
   
 1. Sign in to the Azure portal at [https://portal.azure.com/](https://portal.azure.com/).
     
-2. Click **New**, and then click **See all** next to **Marketplace**.
+2. Click **All services**, and then click **Marketplace** in the **General** list of services.
     
 3. In the search box, type **SharePoint 2013**, and then click **SharePoint 2013 non-HA Farm**.
     
@@ -61,7 +61,7 @@ To create the high-availability (nine-server) SharePoint farm with the Azure por
   
 1. Sign in to the Azure portal at [https://portal.azure.com/](https://portal.azure.com/).
     
-2. Click **New**, and then click **See all** next to **Marketplace**.
+2. Click **All services**, and then click **Marketplace** in the **General** list of services.
     
 3. In the search box, type **SharePoint 2013**, and then click **SharePoint 2013 HA Farm**.
     
@@ -113,7 +113,7 @@ Ensure that the download was successful with this command.
 dir $myFolder
 ```
 
-Modify the **azuredeploy. parameters.json** file as needed for your basic SharePoint 2013 farm. You can use Visual Studio or the free [Sublime Text editor](https://www.sublimetext.com/). For example, you can specify:
+Modify the **azuredeploy.parameters.json** file as needed for your basic SharePoint 2013 farm. You can use Visual Studio Code or the free [Sublime Text editor](https://www.sublimetext.com/). For example, you can specify:
   
 - The Windows Server AD domain administrator account name (adminUsername).
     
@@ -207,15 +207,15 @@ Next, determine the following values, for which you may be prompted when you exe
     
 - sharePointFarmPassphrasePassword
     
-- spDNSPrefix: ______________________________
+- spDNSPrefix: ![](../media/TableLine.png)
     
     This value is the DNS label for the SharePoint server's public IP address, which hosts the first site collection and the Central Administration site.
     
-- sppublicIPAddressName: ____________________
+- sppublicIPAddressName: ![](../media/TableLine.png)
     
     The DNS host name for the public IP address of the ARM resource.
     
-- storageAccountNamePrefix: _____________________
+- storageAccountNamePrefix: ![](../media/TableLine.png)
     
     The name must be between 3 and 24 characters in length and use numbers and lower-case letters only. Example: contosotestsp2013farm.
     
@@ -265,7 +265,7 @@ Ensure that the download was successful with this command.
 dir $myFolder
 ```
 
-Modify the **azuredeploy. parameters.json** file as needed for your high-availability SharePoint 2013 farm. You can use Visual Studio or the free [Sublime Text editor](https://www.sublimetext.com/). For example, you can specify:
+Modify the **azuredeploy.parameters.json** file as needed for your high-availability SharePoint 2013 farm. You can use Visual Studio Code or the free [Sublime Text editor](https://www.sublimetext.com/). For example, you can specify:
   
 - The Windows Server AD domain administrator account name (adminUsername).
     
@@ -363,15 +363,15 @@ Next, determine the following values, for which you may be prompted when you exe
     
 - sharePointFarmPassphrasePassword
     
-- spDNSPrefix: ______________________________
+- spDNSPrefix: ![](../media/TableLine.png)
     
     This value is the DNS label for the SharePoint server's public IP address, which hosts the first site collection and the Central Administration site.
     
-- sppublicIPAddressName: ____________________
+- sppublicIPAddressName: ![](../media/TableLine.png)
     
     The DNS host name for the public IP address of the ARM resource.
     
-- storageAccountNamePrefix: _____________________
+- storageAccountNamePrefix: ![](../media/TableLine.png)
     
     The name must be between 3 and 24 characters in length and  *use numbers and lower-case letters only*  . Example: contosotestsp2013farm. 
     
@@ -410,12 +410,8 @@ See the instructions in [SharePoint Server 2016 dev/test environment in Azure](h
 ![The single-server SharePoint 2016 farm in Azure.](../media/8cf51483-ecef-4ba4-a9fc-952716ff8132.png)
   
 ## See also
-<a name="powershell"> </a>
-
-#### Concepts
 
 [Technical diagrams for SharePoint Server](../technical-reference/technical-diagrams.md)
-#### Other Resources
 
 [SharePoint Server 2016 dev/test environment in Azure](https://technet.microsoft.com/library/mt723354%28v=office.16%29.aspx)
 

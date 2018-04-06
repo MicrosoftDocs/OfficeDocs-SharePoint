@@ -3,7 +3,7 @@ title: "SharePoint Intranet Farm in Azure Phase 2 Configure domain controllers"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 10/19/2017
+ms.date: 04/06/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
@@ -33,15 +33,15 @@ First, you need to fill out the **Virtual machine name** column of Table M and m
   
 |**Item**|**Virtual machine name**|**Gallery image**|**Minimum size**|**Storage type**|
 |:-----|:-----|:-----|:-----|:-----|
-|1.  <br/> |______________ (first domain controller, example DC1)  <br/> |Windows Server 2016 Datacenter  <br/> |Standard_D2  <br/> |StandardLRS  <br/> |
-|2.  <br/> |______________ (second domain controller, example DC2)  <br/> |Windows Server 2016 Datacenter  <br/> |Standard_D2  <br/> |StandardLRS  <br/> |
-|3.  <br/> |______________ (first SQL Server computer, example SQL1)  <br/> |Microsoft SQL Server 2016 Enterprise - Windows Server 2016  <br/> |Standard_DS4  <br/> |PremiumLRS  <br/> |
-|4.  <br/> |______________ (second SQL Server computer, example SQL2)  <br/> |Microsoft SQL Server 2016 Enterprise - Windows Server 2016  <br/> |Standard_DS4  <br/> |PremiumLRS  <br/> |
-|5.  <br/> |______________ (majority node witness for the cluster, example MN1)  <br/> |Windows Server 2016 Datacenter  <br/> |Standard_D2  <br/> |StandardLRS  <br/> |
-|6.  <br/> |______________ (first SharePoint application and search server, example APP1)  <br/> |Microsoft SharePoint Server 2016 Trial - Windows Server 2012 R2  <br/> |Standard_DS4  <br/> |PremiumLRS  <br/> |
-|7.  <br/> |______________ (second SharePoint application and search server, example APP2)  <br/> |Microsoft SharePoint Server 2016 Trial - Windows Server 2012 R2  <br/> |Standard_DS4  <br/> |PremiumLRS  <br/> |
-|8.  <br/> |______________ (first SharePoint front end and distributed cache server, example WEB1)  <br/> |Microsoft SharePoint Server 2016 Trial - Windows Server 2012 R2  <br/> |Standard_DS4  <br/> |PremiumLRS  <br/> |
-|9.  <br/> |______________ (second SharePoint front end and distributed cache server, example WEB2)  <br/> |Microsoft SharePoint Server 2016 Trial - Windows Server 2012 R2  <br/> |Standard_DS4  <br/> |PremiumLRS  <br/> |
+|1.  <br/> |![](../media/TableLine.png) (first domain controller, example DC1)  <br/> |Windows Server 2016 Datacenter  <br/> |Standard_D2  <br/> |StandardLRS  <br/> |
+|2.  <br/> |![](../media/TableLine.png) (second domain controller, example DC2)  <br/> |Windows Server 2016 Datacenter  <br/> |Standard_D2  <br/> |StandardLRS  <br/> |
+|3.  <br/> |![](../media/TableLine.png) (first SQL Server computer, example SQL1)  <br/> |Microsoft SQL Server 2016 Enterprise - Windows Server 2016  <br/> |Standard_DS4  <br/> |PremiumLRS  <br/> |
+|4.  <br/> |![](../media/TableLine.png) (second SQL Server computer, example SQL2)  <br/> |Microsoft SQL Server 2016 Enterprise - Windows Server 2016  <br/> |Standard_DS4  <br/> |PremiumLRS  <br/> |
+|5.  <br/> |![](../media/TableLine.png) (majority node witness for the cluster, example MN1)  <br/> |Windows Server 2016 Datacenter  <br/> |Standard_D2  <br/> |StandardLRS  <br/> |
+|6.  <br/> |![](../media/TableLine.png) (first SharePoint application and search server, example APP1)  <br/> |Microsoft SharePoint Server 2016 Trial - Windows Server 2012 R2  <br/> |Standard_DS4  <br/> |PremiumLRS  <br/> |
+|7.  <br/> |![](../media/TableLine.png) (second SharePoint application and search server, example APP2)  <br/> |Microsoft SharePoint Server 2016 Trial - Windows Server 2012 R2  <br/> |Standard_DS4  <br/> |PremiumLRS  <br/> |
+|8.  <br/> |![](../media/TableLine.png) (first SharePoint front end and distributed cache server, example WEB1)  <br/> |Microsoft SharePoint Server 2016 Trial - Windows Server 2012 R2  <br/> |Standard_DS4  <br/> |PremiumLRS  <br/> |
+|9.  <br/> |![](../media/TableLine.png) (second SharePoint front end and distributed cache server, example WEB2)  <br/> |Microsoft SharePoint Server 2016 Trial - Windows Server 2012 R2  <br/> |Standard_DS4  <br/> |PremiumLRS  <br/> |
    
  **Table M - Virtual machines for the SharePoint Server 2016 intranet farm in Azure**
   
