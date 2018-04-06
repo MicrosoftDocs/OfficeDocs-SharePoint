@@ -73,16 +73,13 @@ For more information about service application endpoints, see [Using Service End
 |User Profile Service  <br/> |X  <br/> ||
 |Visio Graphics Service  <br/> |X  <br/> ||
 |Word Automation services  <br/> |X  <br/> ||
-   
-|This account is used as the identity for the service application endpoint application pool. Unless there are specific isolation requirements, the application pool can be used to host multiple service application endpoints.  <br/> ||
-|Service Application Endpoint  <br/> |
-
-|**Service name**|**In SharePoint Server**|**In SharePoint Foundation**|
-|:-----|:-----|:-----|
 |Excel Services  <br/> |X  <br/> ||
 |Managed Metadata Service  <br/> |X  <br/> ||
 |PerformancePoint Service  <br/> |X  <br/> ||
 |Search Service  <br/> |X  <br/> ||
+ 
+**Note**: This account is used as the identity for the service application endpoint application pool. Unless there are specific isolation requirements, the application pool can be used to host multiple service application endpoints. 
+
    
 |This account is used as the identity for the service endpoint application pool. Unless there are specific isolation requirements, the application pool can be used to host multiple service application endpoints.  <br/> |Must be a domain user account.  <br/> |
 |Service Application Endpoint  <br/> |
