@@ -3,7 +3,7 @@ title: "SharePoint Intranet Farm in Azure Phase 4 Configure SharePoint servers"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 9/20/2017
+ms.date: 04/06/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
@@ -211,10 +211,9 @@ Do the following for each of the SharePoint servers:
   Restart-Computer
   
   ```
-
-    Note that you must supply domain account credentials after running the **Add-Computer** command. 
+   Note that you must supply domain account credentials after running the **Add-Computer** command. 
     
-3. After the virtual machine restarts, create a Remote Desktop connection using the <your domain>\sp_farm_db account credentials four times, once for each SharePoint server. You created these credentials in [SharePoint Intranet Farm in Azure Phase 2: Configure domain controllers](sharepoint-intranet-farm-in-azure-phase-2-configure-domain-controllers.md).
+3. After the virtual machine restarts, create a Remote Desktop connection using the \<your domain>\sp_farm_db account credentials four times, once for each SharePoint server. You created these credentials in [SharePoint Intranet Farm in Azure Phase 2: Configure domain controllers](sharepoint-intranet-farm-in-azure-phase-2-configure-domain-controllers.md).
     
 > [!NOTE]
 > The SharePoint servers are created from the SharePoint Server 2016 Trial image. You need to convert the installation to use a Retail or Volume License key for either the Standard or Enterprise edition of SharePoint Server 2016. For more information, see [SharePoint 2016 Licensing](https://products.office.com/en-us/sharepoint/sharepoint-licensing-overview). 
@@ -269,7 +268,7 @@ Use these steps to configure the first SharePoint application and search server 
     
   - In **Database server**, type the name of your first SQL server virtual machine.
     
-  - In **Username**, type <your domain> **\sp_farm_db**.
+  - In **Username**, type \<your domain>**\sp_farm_db**.
     
   - In **Password**, type the sp_farm_db account password.
     
@@ -299,7 +298,7 @@ Use these steps to configure the first SharePoint application and search server 
     
 18. On the **This completes the Farm Configuration Wizard** page, click **Finish**. The SharePoint Central Administration web page displays.
     
-19. Open a new tab in Internet Explorer, type **http://**<name of the first SharePoint application server>/ in the Address bar, and then press Enter. You should see the default team site.
+19. Open a new tab in Internet Explorer, type **http://**\<name of the first SharePoint application server>/ in the Address bar, and then press Enter. You should see the default team site.
     
 Perform the following procedure on the second SharePoint application and search server (Table M - Item 7):
   
