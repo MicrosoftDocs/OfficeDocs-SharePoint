@@ -2,7 +2,7 @@
   
 
 # [OneDrive](onedrive.md)
-## [sync](onedrive.md)
+## Sync
 ### [Deploy the new OneDrive sync client](deploy-the-new-onedrive-sync-client.md)
 ### [Configure the new OneDrive sync client on macOS](configure-the-new-onedrive-sync-client-on-macos.md)
 ### [Network utilization planning for the OneDrive sync client](network-utilization-planning-for-the-onedrive-sync-client.md)
