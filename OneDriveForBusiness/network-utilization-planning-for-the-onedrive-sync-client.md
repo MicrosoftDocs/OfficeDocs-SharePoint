@@ -119,7 +119,7 @@ For info about these policies, see:
   
 [Set the maximum download throughput that OneDrive.exe uses](use-group-policy-to-control-onedrive-sync-client-settings.md#SetMaxDownloadTput)
   
-[Set the maximum percentage of upload throughput for OneDrive.exe](use-group-policy-to-control-onedrive-sync-client-settings.md#MaxBandwidth)
+[Set the maximum percentage of upload bandwidth that OneDrive.exe uses](use-group-policy-to-control-onedrive-sync-client-settings.md#MaxBandwidth)
   
 ## Related Topics
 <a name="ControlSyncThroughput"> </a>
