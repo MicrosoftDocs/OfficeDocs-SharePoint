@@ -54,6 +54,8 @@ When you first launch the SharePoint Migration Tool (SPMT), you will be prompted
 ## What happens to the permissions on a file when it is migrated?
 
 The location of your on-premises data, and whether you have synchronized your Active Directory accounts to Azure Active Directory (AAD), can affect the permission settings on your files after they have been migrated to SharePoint Online.
+
+See [Understanding Permissions and the SharePoint Migration Tool](..//migrate-to-sharepoint-online/understanding-permissions-when-migrating.md) for a complete explanation of permission settings.
   
 > [!NOTE]
 > Certain settings can affect how permissions on your files will be handled. See the [Advanced Settings](how-to-use-the-sharepoint-migration-tool.md#BKMK_Settings_1_1) section below, specifically the  *Azure Active Directory lookup*  ,  *Preserve permissions*  , and  *User Mapping file*  settings. 
