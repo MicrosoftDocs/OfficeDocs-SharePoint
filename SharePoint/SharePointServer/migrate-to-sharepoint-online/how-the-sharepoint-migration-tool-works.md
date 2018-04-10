@@ -23,13 +23,34 @@ It is available to all Office 365 users.
 > [!NOTE]
 > The SharePoint Migration tool is available to all Office 365 users, with the exception of users of Office 365 operated by 21Vianet in China. 
   
-Click here to download: [SharePoint Migration Tool](http://spmtreleasescus.blob.core.windows.net/install/default.md)
+>[!NOTE]
+> The new V2 beta release is now available for download. 
+>To install the new V2 beta release, download it here: [SharePoint Migration Tool V2 Beta release](http://http://spmtreleasescus.blob.core.windows.net/betainstall/default.htm) 
+
+
+>[!NOTE]
+>To install the current release download here: [SharePoint Migration Tool Version 1.1.90.1](http://spmtreleasescus.blob.core.windows.net/install/default.htm)
   
 ## How the SharePoint Migration Tool works
 
 The following describes what is happening as you use the SharePoint Migration Tool. Authentication to the destination tenant occurs first, after which you are prompted for your sources and destination SPO site collections where you want the files migrated. After you submit your migration jobs by clicking **Migrate**, the scanning, packaging, uploading and importing steps are performed in parallel across all the files submitted for migration.
   
 - **AUTHENTICATION:** After opening the tool, the first thing you must do is authenticate to the destination -- the tenant where you will be migrating your files. Providing your username and password to the tenant associates the migration jobs you submit to this account. This allows your to resume your migration from another computer if needed by logging in with the same credentials. This account should be a site collection administrator of the destination you want to migrate to. 
+
+**Note:**  Version 2, currently in beta, supports the following authentication methods:
+
+- NTLM
+- Kerberos
+- Forms
+- ADFS
+- Multi-factor authentication
+- SAML based claims
+- Client certificate authentication
+
+**Important Note:**  If the on-perm server is configured to support multiple authentication methods including the Windows authentication, then Windows authentication will not be supported. 
+If this describes your environment, use other authentication methods instead of Windows authentication. 
+
+
     
 - **SCAN**: After you click **Migrate**, a scan is performed on every file. A scan is always performed, even if you elect to not migrate your files (see Advanced Settings). The scan verifies that there is access to the data source and write access to the SharePoint Online destination. It also scans the file for known potential issues.
     

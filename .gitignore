@@ -7,3 +7,4 @@ _themes*/
 common/
 
 .openpublishing.buildcore.ps1
+*.txt
