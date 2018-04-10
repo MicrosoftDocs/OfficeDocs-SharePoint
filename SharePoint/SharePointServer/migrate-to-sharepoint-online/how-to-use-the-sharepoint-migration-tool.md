@@ -83,7 +83,7 @@ Before you start using the SharePoint Migration Tool (SPMT), note where your dat
 
 If you don't have it yet, you have two options:  To install the current release download here: [SharePoint Migration Tool Version 1.1.90.1](http://spmtreleasescus.blob.core.windows.net/install/default.htm)
 
-If you wish to install the new V2 beta release, download it here:  [SharePoint Migration Tool V2 Beta release](http://http://spmtreleasescus.blob.core.windows.net/betainstall/default.htm)
+If you wish to install the new V2 beta release, download it here:  [SharePoint Migration Tool V2 Beta release](http://spmtreleasescus.blob.core.windows.net/betainstall/default.htm)
   
  **Migrating data files from SharePoint Server document libraries**
   
