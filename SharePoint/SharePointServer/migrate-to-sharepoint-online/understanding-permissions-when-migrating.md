@@ -3,7 +3,7 @@ title: "Understanding permissions when migrating"
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
-ms.date: 4/6/2018
+ms.date: 4/10/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: sharepoint-server-itpro
