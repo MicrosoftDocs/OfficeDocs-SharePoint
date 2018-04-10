@@ -3,7 +3,7 @@ title: "How the SharePoint Migration Tool works"
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
-ms.date: 1/10/2018
+ms.date: 4/10/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
