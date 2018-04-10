@@ -90,7 +90,7 @@ The following packages are provided for cumulative updates:
     
 |**Package Name**|**KB Number**|**Release Date**|
 |:-----|:-----|:-----|
-|SharePoint Foundation 2013  <br/> SharePoint Server 2013  <br/> |[KB 4018345](https://support.microsoft.com/en-us/help/4018345) <br/> [KB 4018345](https://support.microsoft.com/en-us/help/4018345) <br/> |April 2018  <br/> |
+|SharePoint Foundation 2013  <br/> SharePoint Server 2013  <br/> |[KB 4018345](https://support.microsoft.com/en-us/help/4018345) <br/> [KB 4018348](https://support.microsoft.com/en-us/help/4018348) <br/> |April 2018  <br/> |
 |SharePoint Foundation 2013  <br/> SharePoint Server 2013  <br/> |[KB 4018299](https://support.microsoft.com/en-us/help/4018299) <br/> [KB 4018302](https://support.microsoft.com/en-us/help/4018302) <br/> |March 2018  <br/> |
 |SharePoint Foundation 2013  <br/> SharePoint Server 2013  <br/> |[KB 4011693](https://support.microsoft.com/help/4011693) <br/> [﻿KB 4011696](https://support.microsoft.com/help/4011696) <br/> |February 2018  <br/> |
 |SharePoint Foundation 2013  <br/> ﻿SharePoint Server 2013  <br/> |[KB 4011649](https://support.microsoft.com/help/4011649) <br/> [﻿KB 4011652](https://support.microsoft.com/help/4011652) <br/> |January 2018  <br/> |
