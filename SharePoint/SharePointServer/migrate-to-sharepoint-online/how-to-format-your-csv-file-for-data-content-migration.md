@@ -1,5 +1,5 @@
 ---
-title: "How to format your CSV or Json file for data content migration"
+title: "How to format your CSV for data content migration"
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
@@ -14,7 +14,7 @@ ms.assetid:
 description: "How to format your CSV or Json file for data content migration"
 ---
 
-# How to format your CSV or Json file for data content migration
+# How to format your CSV for data content migration
 
 > [IMPORTANT]
 > A portion of this article discusses a beta release of the Microsoft product, SharePoint Migration Tool. The information in this article is provided as-is and is subject to change without notice. 
