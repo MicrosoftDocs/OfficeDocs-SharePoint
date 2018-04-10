@@ -16,7 +16,6 @@ description: ""
 
 # Introducing the SharePoint Migration Tool
 
-April 10, 2018 
 >[!NOTE]
 > The new V2 beta release is now available for download. 
 >To install the new V2 beta release, download it here: [SharePoint Migration Tool V2 Beta release](http://spmtreleasescus.blob.core.windows.net/betainstall/default.htm). 
