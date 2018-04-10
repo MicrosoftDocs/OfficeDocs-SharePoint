@@ -86,7 +86,7 @@ The following table explain the values needed in each column in your CSV file.
 
 ## Using a JSON file for data content migration
 
-> [IMPORTANT]
+> [!IMPORTANT]
 > The support of the use of a JSON file for data migration is in beta release of the Microsoft product, SharePoint Migration Tool. The information that follows is as-is and is subject to change without notice. 
 
 
