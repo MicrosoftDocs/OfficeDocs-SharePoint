@@ -3,7 +3,7 @@ title: "New and improved features in the SharePoint Migration Tool"
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
-ms.date: 2/13/2018
+ms.date: 4/10/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -20,15 +20,15 @@ Learn about the new features and updates to existing features in SharePoint Migr
 April 10, 2018 
 >[!NOTE]
 > The new V2 beta release is now available for download. 
->To install the new V2 beta release, download it here: [SharePoint Migration Tool V2 Beta release](http://http://spmtreleasescus.blob.core.windows.net/betainstall/default.htm). 
+>To install the new V2 beta release, download it here: [SharePoint Migration Tool V2 Beta release](http://spmtreleasescus.blob.core.windows.net/betainstall/default.htm)
 
 
 >[!NOTE]
->To install the current release download here: [SharePoint Migration Tool Version 1.1.90.1](http://spmtreleasescus.blob.core.windows.net/install/default.htm).
+>To install the current release download here: [SharePoint Migration Tool Version 1.1.90.1](http://spmtreleasescus.blob.core.windows.net/install/default.htm)
   
 ## New features
 
-The following features have been added to this update.
+The following features have been added to LSharePoint Migration Tool, Version 1.1.901.
   
 |**Feature**|**Description**|
 |:-----|:-----|
