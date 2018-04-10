@@ -12,12 +12,19 @@ ms.assetid: f3f3e548-196f-44b9-b630-645d781bc096
 description: "Learn about the new features and updates to existing features in SharePoint Migration Tool, Version 0.2.78.0."
 ---
 
-# New and improved features in the SharePoint Migration Tool
+# Release Notes:  New and improved features in the SharePoint Migration Tool
 
-Learn about the new features and updates to existing features in SharePoint Migration Tool, Version 0.2.78.0.
+Learn about the new features and updates to existing features in SharePoint Migration Tool, Version 1.1.901.
   
-> [!NOTE]
-> To download the SharePoint Migration Tool, go here: [ SharePoint Migration Tool ](http://technet.microsoft.com/library/http://spmtreleasescus.blob.core.windows.net/install/default.md.aspx)
+
+April 10, 2018 
+>[!NOTE]
+> The new V2 beta release is now available for download. 
+>To install the new V2 beta release, download it here: [SharePoint Migration Tool V2 Beta release](http://http://spmtreleasescus.blob.core.windows.net/betainstall/default.htm). 
+
+
+>[!NOTE]
+>To install the current release download here: [SharePoint Migration Tool Version 1.1.90.1](http://spmtreleasescus.blob.core.windows.net/install/default.htm).
   
 ## New features
 
@@ -44,7 +51,9 @@ In addition to a number of minor fixes, here are the primary improvements made i
 
 #### Other Resources
 
-[Download the SharePoint Migration Tool](http://spmtreleasescus.blob.core.windows.net/install/default.md)
+[Download SharePoint Migration Tool V2 Beta release](http://http://spmtreleasescus.blob.core.windows.net/betainstall/default.htm)
+
+[Download SharePoint Migration Tool Version 1.1.90.1](http://spmtreleasescus.blob.core.windows.net/install/default.htm)
   
 [How to use the SharePoint Migration Tool](how-to-use-the-sharepoint-migration-tool.md)
 
