@@ -17,14 +17,17 @@ description: "The SharePoint Migration Tool is a tool that migrates your files f
 
 # How to use the SharePoint Migration Tool
 
-The SharePoint Migration Tool is a tool that migrates your files from SharePoint on-premises document libraries or regular file shares and easily moves them to your SharePoint Online tenant. It is available to all Office 365 users.
+The SharePoint Migration Tool (SPMT) is a tool that migrates your files from SharePoint on-premises document libraries or regular file shares and easily moves them to your SharePoint Online tenant. It is available to all Office 365 users.
   
+> [**Note**]
+> A portion of this article discusses features currently in beta release of the Microsoft product, SharePoint Migration Tool. Beta features are noted.  The information in this article is provided as-is and is subject to change without notice. 
+
 > [!NOTE]
 > Currently the **SharePoint Migration Tool** is not available for users of Office 365 operated by 21Vianet in China. 
   
 ## Before you begin
 
-When you first launch the SharePoint Migration Tool, you will be prompted for your Office 365 username and password. The Office 365 credentials you provide will be where the files will be migrated.
+When you first launch the SharePoint Migration Tool (SPMT), you will be prompted for your Office 365 username and password. The Office 365 credentials you provide will be where the files will be migrated.
   
 ### Recommended requirements for best performance
 
@@ -67,7 +70,7 @@ The location of your on-premises data, and whether you have synchronized your Ac
    
 ## Where is your data currently located?
 
-Before you start using the SharePoint Migration Tool, note where your data is located and where you want those files. You will be prompted for the current location of your data files and the location of the SharePoint Online site collection where you want them moved. The SharePoint Migration Tool lets you select from two sources from which to migrate your data: from an on-premises SharePoint Server 2013 site or from a local file share or network path.
+Before you start using the SharePoint Migration Tool (SPMT), note where your data is located and where you want those files. You will be prompted for the current location of your data files and the location of the SharePoint Online site collection where you want them moved. The SharePoint Migration Tool lets you select from two sources from which to migrate your data: from an on-premises SharePoint Server 2013 site or from a local file share or network path.
   
 - **SharePoint on-premises:** If you select the SharePoint on-premises option, you will be asked to enter the name of the SharePoint Server site where your files are located and prompted for your credentials for that site. You will indicate what document library you wish to migrate. 
     
@@ -78,7 +81,9 @@ Before you start using the SharePoint Migration Tool, note where your data is lo
     
 ## Using the SharePoint Migration tool
 
-If you don't have it yet, [download the SharePoint Migration Tool](http://spmtreleasescus.blob.core.windows.net/install/default.htm).
+If you don't have it yet, you have two options:  To install the current release download here: [SharePoint Migration Tool Version 1.1.90.1](http://spmtreleasescus.blob.core.windows.net/install/default.htm)
+
+If you wish to install the new V2 beta release, download it here:  [SharePoint Migration Tool V2 Beta release](http://http://spmtreleasescus.blob.core.windows.net/betainstall/default.htm)
   
  **Migrating data files from SharePoint Server document libraries**
   
@@ -99,6 +104,18 @@ If you don't have it yet, [download the SharePoint Migration Tool](http://spmtre
     
     > [!NOTE]
     > If you have already signed in to that site once while using this tool, you won't be prompted again for the same site. 
+
+    **Note:**  SPMT Version 2, currently in beta, supports the following authentication methods:
+
+    - NTLM
+    - Kerberos
+    - Forms
+    - ADFS
+    - Multi-factor authentication
+    - SAML based claims
+    - Client certificate authentication
+
+        **Important Note:**  If the on-perm server is configured to support multiple authentication methods including the Windows authentication, then Windows authentication will not be supported. If this describes your environment, use other authentication methods instead of Windows authentication. 
   
 7. Choose the document library where your files are located. The drop-down list will contain all your possible choices.
     

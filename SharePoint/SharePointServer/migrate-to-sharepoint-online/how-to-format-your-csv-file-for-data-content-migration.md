@@ -10,8 +10,8 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.custom: Strat_SP_gtc
-ms.assetid: 9183b289-f1cf-4c69-8240-8bfcdf3809bb
-description: ""
+ms.assetid: 
+description: "How to format your CSV or Json file for data content migration"
 ---
 
 # How to format your CSV or Json file for data content migration
@@ -91,6 +91,8 @@ The following table explain the values needed in each column in your CSV file.
 
 
 The following example shows the Json format used in migrating your data.
+
+As with the CSV files, the minimum required values are Source, Source DocLib, Target Web and Target DocLib.  
 
 ```json
 
