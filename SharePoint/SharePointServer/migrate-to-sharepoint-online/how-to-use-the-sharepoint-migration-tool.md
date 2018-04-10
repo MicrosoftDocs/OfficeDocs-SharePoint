@@ -22,6 +22,14 @@ The SharePoint Migration Tool (SPMT) is a tool that migrates your files from Sha
 > [!Note]
 > A portion of this article discusses features currently in beta release of the Microsoft product, SharePoint Migration Tool. Beta features are noted in the context of the text. The information in this article is provided as-is and is subject to change without notice. 
 
+>[!NOTE]
+> The new V2 beta release is now available for download. 
+>To install the new V2 beta release, download it here: [SharePoint Migration Tool V2 Beta release](http://spmtreleasescus.blob.core.windows.net/betainstall/default.htm). 
+
+
+>[!NOTE]
+>To install the current release download here: [SharePoint Migration Tool Version 1](http://spmtreleasescus.blob.core.windows.net/install/default.htm).
+
 > [!NOTE]
 > Currently the **SharePoint Migration Tool** is not available for users of Office 365 operated by 21Vianet in China. 
   
