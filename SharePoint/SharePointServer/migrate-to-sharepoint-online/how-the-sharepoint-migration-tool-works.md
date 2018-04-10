@@ -25,7 +25,7 @@ It is available to all Office 365 users.
   
 >[!NOTE]
 > The new V2 beta release is now available for download. 
->To install the new V2 beta release, download it here: [SharePoint Migration Tool V2 Beta release](http://http://spmtreleasescus.blob.core.windows.net/betainstall/default.htm) 
+>To install the new V2 beta release, download it here: [SharePoint Migration Tool V2 Beta release](http://spmtreleasescus.blob.core.windows.net/betainstall/default.htm) 
 
 
 >[!NOTE]
