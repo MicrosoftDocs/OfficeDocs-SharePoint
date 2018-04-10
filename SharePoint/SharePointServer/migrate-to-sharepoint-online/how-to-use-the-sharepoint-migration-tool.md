@@ -3,7 +3,7 @@ title: "How to use the SharePoint Migration Tool"
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
-ms.date: 3/5/2018
+ms.date: 4/10/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -19,8 +19,8 @@ description: "The SharePoint Migration Tool is a tool that migrates your files f
 
 The SharePoint Migration Tool (SPMT) is a tool that migrates your files from SharePoint on-premises document libraries or regular file shares and easily moves them to your SharePoint Online tenant. It is available to all Office 365 users.
   
-> [**Note**]
-> A portion of this article discusses features currently in beta release of the Microsoft product, SharePoint Migration Tool. Beta features are noted.  The information in this article is provided as-is and is subject to change without notice. 
+> [!Note]
+> A portion of this article discusses features currently in beta release of the Microsoft product, SharePoint Migration Tool. Beta features are noted in the context of the text. The information in this article is provided as-is and is subject to change without notice. 
 
 > [!NOTE]
 > Currently the **SharePoint Migration Tool** is not available for users of Office 365 operated by 21Vianet in China. 
@@ -150,32 +150,33 @@ If you wish to install the new V2 beta release, download it here:  [SharePoint M
     
 9. When you have finished selecting your sources, click **Migrate**.
     
-## Bulk migration using a CSV file
+## Bulk migration using a JSON or CSV file
 
-If you have many sources to migrate, you can use a CSV file to do a bulk migration. Create a comma-delimited file CSV file that includes the following the following 6 columns. Each field is separated by a comma. If the value within a column contains a comma, surround it double quotations.
+If you have many sources to migrate, you can use either a JSON or CSV file to do a bulk migration.
+
+>[!Note]
+>The use of JSON files for bulk import are only supported in the V2 Beta release.
   
-For more information on how to create a CSV file for data content migration, see [How to format your CSV file for data content migration](how-to-format-your-csv-file-for-data-content-migration.md).
+For more information on how to create a JSON or CSV file for data content migration, see [How to format your JSON or CSV file for data content migration](how-to-format-your-csv-file-for-data-content-migration.md).
   
- **To use a CSV file for bulk migration**
+ **To use a JSON or CSV file for bulk migration**
   
 1. Open the SharePoint Migration Tool, and then click **Next**.
     
 2. Enter your Office 365 username and password, and then click **Sign in**.
     
-3. Select **Choose a source and destination**.
-    
-4. Select **Use a CSV file for bulk migration**. Enter the location of your CSV file, or click **Choose File** to locate it. Click **Add**.
+3. Select **JSON or CSV file for bulk migration**. Enter the location of your file, or click **Choose File** to locate it. Click **Add**.
     
     > [!NOTE]
     > If you are migrating files from an on-premises SharePoint Server, you will be prompted for your username and password for that site unless you provided those credentials in previous steps. 
   
     > [!NOTE]
-    > Any errors in your CSV file will be detected on a line-by-line basis. The error will indicate which line or lines contains the errors. You will not be able to proceed until you correct the errors in your CSV file. 
+    > Any errors in your file it will be detected on a line-by-line basis. The error will indicate which line or lines contains the errors. You will not be able to proceed until you correct the errors in your file. 
   
     > [!IMPORTANT]
     > Proxy connections are not supported. Using Proxy connections will yield errors such as "SharePoint login fail" or "cannot load document library". 
   
-5. If your CSV file is successfully added without errors, the job will be added to your list of sources and destinations.
+5. If your JSON or CSV file is successfully added without errors, the job will be added to your list of sources and destinations.
     
 6. If you want to select another set of data files to migrate, click **Choose a source and destination**.
     
@@ -280,7 +281,7 @@ Advanced settings should only be changed or managed by your IT professional. The
   
 [How the SharePoint Migration Tool works](how-the-sharepoint-migration-tool-works.md)
   
-[How to format your CSV file for data content migration](how-to-format-your-csv-file-for-data-content-migration.md)
+[How to format your JSON or CSV file for data content migration](how-to-format-your-csv-file-for-data-content-migration.md)
   
 [Create a user mapping file for data content migration](create-a-user-mapping-file-for-data-content-migration.md)
   

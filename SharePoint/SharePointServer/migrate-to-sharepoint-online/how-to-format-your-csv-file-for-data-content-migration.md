@@ -3,7 +3,7 @@ title: "How to format your CSV for data content migration"
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
-ms.date: 12/18/2017
+ms.date: 4/10/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -11,10 +11,10 @@ localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.custom: Strat_SP_gtc
 ms.assetid: 
-description: "How to format your CSV or Json file for data content migration"
+description: "How to format your JSON or CSV file for data content migration"
 ---
 
-# How to format your CSV for data content migration
+# How to format your JSON or CSV for data content migration
 
 > [IMPORTANT]
 > A portion of this article discusses a beta release of the Microsoft product, SharePoint Migration Tool. The information in this article is provided as-is and is subject to change without notice.  To download the beta version:  [SharePoint Migration Tool Beta 2 release](http://spmtreleasescus.blob.core.windows.net/betainstall/default.htm)
@@ -71,7 +71,7 @@ The following example uses Excel to create the CSV file.
     
 3. Close and save as a Comma delimited (\*.csv) file.
     
-## Column definitions
+### Column definitions
 
 The following table explain the values needed in each column in your CSV file.
   
@@ -84,13 +84,13 @@ The following table explain the values needed in each column in your CSV file.
 |Target DocLib  <br/> | *Required*  . Enter the name of the document library with the SharePoint Online site where the files are to be migrated.  <br/> |
 |Target SubFolder  <br/> | *Optional*  . Enter the name of the subfolder in the document library. If this column is left empty then the files will be moved to the root level.  <br/> |
 
-## Using a Json file for data content migration
+## Using a JSON file for data content migration
 
 > [IMPORTANT]
-> The support of the use of a Json file for data migration is in beta release of the Microsoft product, SharePoint Migration Tool. The information that follows is as-is and is subject to change without notice. 
+> The support of the use of a JSON file for data migration is in beta release of the Microsoft product, SharePoint Migration Tool. The information that follows is as-is and is subject to change without notice. 
 
 
-The following example shows the Json format used in migrating your data.
+The following example shows the JSON format used in migrating your data.
 
 As with the CSV files, the minimum required values are Source, Source DocLib, Target Web and Target DocLib.  
 
