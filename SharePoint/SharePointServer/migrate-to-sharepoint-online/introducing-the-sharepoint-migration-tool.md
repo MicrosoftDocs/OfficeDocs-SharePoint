@@ -19,7 +19,7 @@ description: ""
 April 10, 2018 
 >[!NOTE]
 > The new V2 beta release is now available for download. 
->To install the new V2 beta release, download it here: [SharePoint Migration Tool V2 Beta release](http://http://spmtreleasescus.blob.core.windows.net/betainstall/default.htm). 
+>To install the new V2 beta release, download it here: [SharePoint Migration Tool V2 Beta release](http://spmtreleasescus.blob.core.windows.net/betainstall/default.htm). 
 
 
 >[!NOTE]
@@ -45,7 +45,7 @@ You can download and install the SharePoint Migration Tool using Internet Explor
 > [!IMPORTANT]
 > If you are using the Chrome browser, you need to install the **ClickOnce for Google Chrome** plug-in  *before*  installing the SharePoint Migration Tool. > To download and install the plug-in: Using Chrome, go to this site and then click **Add to Chrome**: [ClickOnce for Google Chrome plug-in](https://chrome.google.com/webstore/detail/clickonce-for-google-chro/kekahkplibinaibelipdcikofmedafmb?utm_source=chrome-app-launcher-info-dialog)
   
-1. To download the tool, go to either [SharePoint Migration Tool Version 1](http://spmtreleasescus.blob.core.windows.net/install/default.htm) for the current release or [SharePoint Migration Tool V2 Beta release](http://http://spmtreleasescus.blob.core.windows.net/betainstall/default.htm) for the newly released V2 beta version.
+1. To download the tool, go to either [SharePoint Migration Tool Version 1](http://spmtreleasescus.blob.core.windows.net/install/default.htm) for the current release or [SharePoint Migration Tool V2 Beta release](http://spmtreleasescus.blob.core.windows.net/betainstall/default.htm) for the newly released V2 beta version.
     
 2. Click **Install**.
     
