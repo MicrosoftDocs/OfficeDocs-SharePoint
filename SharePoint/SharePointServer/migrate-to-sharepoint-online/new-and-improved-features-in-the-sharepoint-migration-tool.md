@@ -16,8 +16,6 @@ description: "Learn about the new features and updates to existing features in S
 
 Learn about the new features and updates to existing features in SharePoint Migration Tool, Version 1.1.901.
   
-
-April 10, 2018 
 >[!NOTE]
 > The new V2 beta release is now available for download. 
 >To install the new V2 beta release, download it here: [SharePoint Migration Tool V2 Beta release](http://spmtreleasescus.blob.core.windows.net/betainstall/default.htm)
@@ -28,7 +26,7 @@ April 10, 2018
   
 ## New features
 
-The following features have been added to LSharePoint Migration Tool, Version 1.1.901.
+The following features have been added to SharePoint Migration Tool, Version 1.1.901.
   
 |**Feature**|**Description**|
 |:-----|:-----|
