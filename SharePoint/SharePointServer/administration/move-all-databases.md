@@ -219,23 +219,23 @@ The following procedures provide methods to connect to the new SQL Server instan
     
   - The **db_owner** fixed database role 
     
-3. Start the SQL Server Configuration Manager.
+3. Start the SQL Server Client Network Utility (cliconfg.exe). This utility is typically located in the C:\Windows\System32 and C:\Windows\SysWOW64 folders.
     
-4. Expand **SQL Server Native Client Configuration**, right-click **Aliases**, and then click **New Alias**.
+4. On the **General** tab, verify that TCP/IP is enabled.
     
-5. In the **Alias Name** box, enter the name of the new alias, which you are creating. 
+5. On the **Alias** tab, click **Add**. The Add Network Library Configuration window appears. 
     
-6. In the **Port Number** box, enter the number of the port the new alias will use to connect to SQL Server. 
+6. In the **Server alias** box, enter the name of the current instance of SQL Server. 
     
-7. In the **Protocol** box, click the drop-down arrow and select **TCP/IP**. This is the protocol the new alias will use to connect to the SQL Server.
+7. In the **Network libraries** area, click **TCP/IP**.
     
-8. In the **Server** box, enter the name of the current instance of SQL Server. 
+8. In the **Connection parameters** area, in the **Server name** box, enter the new name of the SQL Server and instance to associate with the alias, and then click **OK**. This is the name of hte new server that is hosting the SharePoint Server databases. 
     
-9. Repeat steps 3 through 8 on all servers in the farm that connect to the new instance of SQL Server. For more information, see [Create or Delete a Server Alias for Use by a Client (SQL Server Configuration Manager](http://go.microsoft.com/fwlink/p/?LinkID=717391&amp;clcid=0x409)
+9. Repeat steps 3 through 8 on all servers in the farm that connect to the new instance of SQL Server.
     
 10. Optional. If your environment relies on System Center 2012 - Data Protection Manager (DPM) or a third-party application that uses the Volume Shadow Copy Service framework for backup and recovery, you must install the SQL Server connectivity components on each web server or application server by running SQL Server setup. For more information, see [Install SQL Server 2014 from the Installation Wizard (Setup)](http://go.microsoft.com/fwlink/p/?LinkID=717350&amp;clcid=0x409) and [Windows Server Installation and Upgrade](https://docs.microsoft.com/en-us/windows-server/get-started/installation-and-upgrade).
     
-You can use these Microsoft PowerShell cmdlets to deploy, manage, and remove availability groups in SQL Server with SharePoint Server :
+You can use these Microsoft PowerShell cmdlets to deploy, manage, and remove availability groups in SQL Server with SharePoint Server:
   
 - **Add-DatabaseToAvailabilityGroup**
     
