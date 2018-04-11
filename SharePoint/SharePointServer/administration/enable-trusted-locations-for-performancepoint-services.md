@@ -34,7 +34,7 @@ You can specify locations in SharePoint Server where dashboard content and data 
 > [!CAUTION]
 > The default for a trusted data source and trusted content locations is to trust all. 
   
- **To add a trusted data source location**
+ <a name="proc1"></a>**To add a trusted data source location**
   
 1. On the SharePoint Central Administration website, select **Manage Service Applications**.
     

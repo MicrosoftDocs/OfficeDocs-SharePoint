@@ -1,7 +1,7 @@
 ---
 title: "Configure and use the Documentum connector in SharePoint Server"
 ms.author: tlarsen
-author: tlarsen
+author: tklarsen
 manager: pamgreen
 ms.date: 3/8/2018
 ms.audience: ITPro
@@ -106,7 +106,7 @@ The following steps provide a high-level overview of the tasks that are involved
 ## Prepare the SharePoint servers that host a crawl component
 <a name="DCTM_PrepareCrawlServer"> </a>
 
-### Decide which Documentum content access account to use for crawling
+### <a name="DCTM_ContentAccess"></a>Decide which Documentum content access account to use for crawling
 
 1. You have to specify the Documentum content access account and the password later in the configuration procedure when you set up crawl rules. The Indexing Connector for Documentum uses the content access account to retrieve content from the Documentum repository. This account must have the following minimum permissions:
     
@@ -114,7 +114,7 @@ The following steps provide a high-level overview of the tasks that are involved
     
   - Browse permission to cabinets, folders, and records (documents with only metadata) that you want to crawl.
     
-### Set the DFS Productivity Layer .NET assemblies
+### <a name="DCTM_Assemblies"></a>Set the DFS Productivity Layer .NET assemblies
 
 1. Locate the following DFS Productivity Layer .NET assemblies and verify that the version number is **6.7.2000.36** for all files. When extracted to the default path, these files are located in the  `%local%\emc-dfs-sdk-6.7\emc-dfs-sdk-6.7\lib\dotnet` directory. 
     
@@ -135,7 +135,7 @@ The following procedure explains how to edit the machine.config file on each Sha
   
 The WCF settings that you are about to set in [Edit the machine.config file](configure-and-use-the-documentum-connector.md#DCTM_machineconfig) allow a maximum of 30 megabytes (MB) per Documentum content object (the document file plus its metadata) transferred. The administrator can increase  *maxReceivedMessageSize*  in  *DfsDefaultService*  binding for larger content. 
   
-### Edit the machine.config file
+### <a name="DCTM_machineconfig"></a>Edit the machine.config file
 
 1. On each server that hosts a crawl component, open the machine.config file. This file is located in the directory  `%windir%\Microsoft.NET\Framework64\v4.0.30319\Config`.
     
@@ -188,7 +188,7 @@ The WCF settings that you are about to set in [Edit the machine.config file](con
 ## Install and register the Indexing Connector for Documentum
 <a name="DCTM_InstallCon"> </a>
 
-### Install the Indexing Connector for Documentum
+### <a name="DCTM_Deployconn"></a>Install the Indexing Connector for Documentum
 
 1. Download the Indexing Connector for Documentum from the [Microsoft Download Center](https://go.microsoft.com/?linkid=9826867).
     
@@ -279,7 +279,7 @@ The Security Trimmer Sync Service maps Documentum users to AD users by looking a
     
     - In the **name** attribute, type the name of the Documentum repository. 
     
-    - In the **login** attribute, type the Documentum login name. Use the same login name as the Documentum content access account. This should be a user who has elevated user permissions on the Documentum Content Server. For more information, see [Determine which Documentum content access account to use](configure-and-use-the-documentum-connector.md#DCTM_ContentAccess).
+    - In the **login** attribute, type the Documentum login name. Use the same login name as the Documentum content access account. This should be a user who has elevated user permissions on the Documentum Content Server.
     
     - In the **dfs** attribute, type the location of the Documentum Foundation Services (DFS) by providing the URI for the DFS. 
     
@@ -529,7 +529,7 @@ Before a crawl, you must create at least one crawl rule to authenticate the craw
     
   - In **Crawl Configuration** section, select **Include all items in this path**, and then select **Crawl complex URLs (URLs that contain a question mark - ?)**.
     
-  - In the **Specify Authentication** section, select **Specify a different content access account**, and then type the Documentum content access account and password in the boxes. See [Determine which Documentum content access account to use](configure-and-use-the-documentum-connector.md#DCTM_ContentAccess) earlier in this article. 
+  - In the **Specify Authentication** section, select **Specify a different content access account**, and then type the Documentum content access account and password in the boxes. See _Determine which Documentum content access account to use_  earlier in this article. 
     
   - Make sure that the **Do not allow Basic Authentication** check box is cleared. 
     

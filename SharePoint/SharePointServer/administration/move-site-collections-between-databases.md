@@ -85,7 +85,7 @@ Regardless of the reason for moving a site collection, you should always begin t
   
 For more information, see [Get-SPSiteAdministration](http://technet.microsoft.com/library/a05769b1-7559-4af4-8524-5cbcc1bd4f25.aspx).
   
- **To archive and trim audit data by using PowerShell**
+ <a name="proc2"></a>**To archive and trim audit data by using PowerShell**
   
 1. Verify that you have the following memberships:
     

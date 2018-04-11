@@ -1,7 +1,7 @@
 ---
 title: "Display hybrid federated search results in SharePoint Server"
 ms.author: tlarsen
-author: tlarsen
+author: tklarsen
 manager: arnek
 ms.date: 3/9/2018
 ms.audience: ITPro
@@ -18,9 +18,9 @@ description: "Summary: Configure a SharePoint hybrid environment so that user se
 
 # Display hybrid federated search results in SharePoint Server
 
- **Summary:**Configure a SharePoint hybrid environment so that user searches from the SharePoint Server Search Center display results from both the SharePoint Server and SharePoint Online search indexes.
+ **Summary:** Configure a SharePoint hybrid environment so that user searches from the SharePoint Server Search Center display results from both the SharePoint Server and SharePoint Online search indexes.
   
- **This article is part of a roadmap of procedures for configuring SharePoint hybrid solutions. Be sure you're [following a roadmap](configuration-roadmaps.md) when you do the procedures in this article. **
+ **This article is part of a roadmap of procedures for configuring SharePoint hybrid solutions. Be sure you're [following a roadmap](configuration-roadmaps.md) when you do the procedures in this article.**
   
 This article describes how to configure a SharePoint hybrid environment so that searches from the SharePoint Server enterprise Search Center display hybrid results—that is, results from both search indexes (SharePoint Server and SharePoint Online). This configuration is called outbound hybrid search. 
   
@@ -108,59 +108,64 @@ For more information about query rules, see [Plan to transform queries and order
     
 5. On the  _Search_service_application_name_: Manage Query Rules page, do the following:
     
-  - Under the text **For what context do you want to configure rules?**, in the **Select a Result Source** drop-down list, select a result source for which you want this query rule to be applicable. For testing, we recommend that you select the **Local SharePoint Results** result source here. If you do so, then by default the query rule will be applicable when a user performs a query in the **Everything** search vertical in the enterprise Search Center, because that vertical uses the **Local SharePoint Results** result source by default. After you select a result source from the drop-down list, all existing query rules that apply to that result source appear on the page. (On the  _Search_service_application_name_: Add Query Rule page, in the **Context** section, you will be able to add or remove result sources for which you want the rule to be applicable.) 
+   - Under the text **For what context do you want to configure rules?**, in the **Select a Result Source** drop-down list, select a result source for which you want this query rule to be applicable. <br/><br/>For testing, we recommend that you select the **Local SharePoint Results** result source here. If you do so, then by default the query rule will be applicable when a user performs a query in the **Everything** search vertical in the enterprise Search Center, because that vertical uses the **Local SharePoint Results** result source by default.<br/><br/> After you select a result source from the drop-down list, all existing query rules that apply to that result source appear on the page. (On the  _Search_service_application_name_: Add Query Rule page, in the **Context** section, you will be able to add or remove result sources for which you want the rule to be applicable.) 
     
      ![Context section on Manage Query Rules page in SharePoint Server 2013](../media/QueryRuleInSPO_SelectResultSource.gif)
   
-  - (Optional) Under the text **For what context do you want to configure rules?**, in the **User Segments** drop-down list, select a user segment for which you want this query rule to be applicable. User segments are based on terms that describe users in the term store of a Managed Metadata service application. (On the Add Query Rule page, in the **Context** section, you will be able to add or remove user segments for which you want the rule to be applicable.) 
+   - (Optional) Under the text **For what context do you want to configure rules?**, in the **User Segments** drop-down list, select a user segment for which you want this query rule to be applicable. User segments are based on terms that describe users in the term store of a Managed Metadata service application. (On the Add Query Rule page, in the **Context** section, you will be able to add or remove user segments for which you want the rule to be applicable.) 
     
-  - (Optional) Under the text **For what context do you want to configure rules?**, in the **Topic Categories** drop-down list, select a topic category for which you want this query rule to be applicable. Topic categories are based on terms for categories in the term store of a Managed Metadata service application. (On the Add Query Rule page, in the **Context** section, you will be able to add or remove categories for which you want the rule to be applicable.) 
+   - (Optional) Under the text **For what context do you want to configure rules?**, in the **Topic Categories** drop-down list, select a topic category for which you want this query rule to be applicable. Topic categories are based on terms for categories in the term store of a Managed Metadata service application. (On the Add Query Rule page, in the **Context** section, you will be able to add or remove categories for which you want the rule to be applicable.) 
     
-  - Click **New Query Rule**.
+   - Click **New Query Rule**.
     
 6. On the  _Search_service_application_name_: **Add Query Rule** page, do the following: 
     
-  - In the **General Information** section, in the **Rule Name** text box, type a name for the new query rule—for example, Show results from SharePoint Online.
+    - In the **General Information** section, in the **Rule Name** text box, type a name for the new query rule—for example, Show results from SharePoint Online.
     
-  - If the **Context** section is collapsed, click the arrow next to **Context** to expand it. 
+    - If the **Context** section is collapsed, click the arrow next to **Context** to expand it. 
     
-     ![Context section on Add Query Rule page in SharePoint Server 2013](../media/QueryRuleInSPO_Context.gif)
+        ![Context section on Add Query Rule page in SharePoint Server 2013](../media/QueryRuleInSPO_Context.gif)
   
-  - In the **Context** section, under **Query is performed on these sources**, select **All sources** if you want this query rule to be applicable for queries that users submit against any result source, or select **One of these sources**, and then optionally click **Add Source** to add other result sources for which you want the query rule to be applicable. The result source that you selected on the  _Search_service_application_name_: **Add Query Rule** page (for example, **Local SharePoint Results**—see step 5 of this procedure) will be shown under **One of these sources**. When you select **One of these sources**, this query rule will be applicable only when a user submits a query against one of the result sources in this list. Therefore, make sure that the result source appears for which you want this query rule to be applicable—for example, **Local SharePoint Results**.
+    - In the **Context** section, under **Query is performed on these sources**, select **All sources** if you want this query rule to be applicable for queries that users submit against any result source, or select **One of these sources**, and then optionally click **Add Source** to add other result sources for which you want the query rule to be applicable. 
     
-  - (Optional) Under **Query is performed from these categories**, specify the topic categories (based on terms for topic categories in the term store of a Managed Metadata service application) to perform the query from.
+    - (Optional) Under **Query is performed from these categories**, specify the topic categories (based on terms for topic categories in the term store of a Managed Metadata service application) to perform the query from.
     
-  - (Optional) Under **Query is performed by these user segments**, specify user segments (based on terms that describe users in the term store of a Managed Metadata service application) to which you want the query rule to apply.
+    - (Optional) Under **Query is performed by these user segments**, specify user segments (based on terms that describe users in the term store of a Managed Metadata service application) to which you want the query rule to apply.
     
-  - In the **Query Conditions** section, specify conditions to control when the rule will fire, or click **Remove Condition** if you want the rule to fire for any query text. For testing, we recommend that you click **Remove Condition** so that the rule will fire for any query text. 
+    - In the **Query Conditions** section, specify conditions to control when the rule will fire, or click **Remove Condition** if you want the rule to fire for any query text. For testing, we recommend that you click **Remove Condition** so that the rule will fire for any query text. 
     
-     ![Query Conditions section on Add Query Rule page in SharePoint Server 2013](../media/QueryRuleInSPO_QueryConditions.gif)
+       ![Query Conditions section on Add Query Rule page in SharePoint Server 2013](../media/QueryRuleInSPO_QueryConditions.gif)
   
-  - In the **Actions** section, under **Result Blocks**, click **Add Result Block**.
+    - In the **Actions** section, under **Result Blocks**, click **Add Result Block**.
     
-     ![Screen shot of Add Result Block dialog box in SharePoint Server 2013](../media/AddResultBlockDialogBox.gif)
+       ![Screen shot of Add Result Block dialog box in SharePoint Server 2013](../media/AddResultBlockDialogBox.gif)
   
-  - (Optional) In the **Block Title** section, in the **Title** text box, change the title to the text that you want to display above the result block on the search results page, such as Results for "{subjectTerms}" from SharePoint Online.
+    - (Optional) In the **Block Title** section, in the **Title** text box, change the title to the text that you want to display above the result block on the search results page, such as Results for "{subjectTerms}" from SharePoint Online.
     
-  - In the **Query** section, enter the query you want to run. Either type it in the **Configure Query** text box, or launch the Query Builder to get help configuring the query. If you are not familiar with transforming queries in SharePoint Server, we recommend that you keep the default query here, namely **{subjectTerms}**. For more information see [Plan to transform queries and order results in SharePoint Server](../search/plan-to-transform-queries-and-order-results.md) and [Query variables in SharePoint Server](../technical-reference/query-variables.md).
+    - In the **Que ry** section, enter the query you want to run. Either type it in the **Configure Query** text box, or launch the Query Builder to get help configuring the query. If you are not familiar with transforming queries in SharePoint Server, we recommend that you keep the default query here, namely **{subjectTerms}**. For more information see [Plan to transform queries and order results in SharePoint Server](../search/plan-to-transform-queries-and-order-results.md) and [Query variables in SharePoint Server](../technical-reference/query-variables.md).
     
-  - In the **Query** section, in the **Search this Source** drop-down list, select the name of the result source that you created in the previous procedure in this article ( [Step 1: Create a result source that defines how to get search results from SharePoint Online](display-hybrid-federated-search-results-in-sharepoint-server.md#section1))—for example, Get results from SharePoint Online.
+    - In the **Query** section, in the **Search this Source** drop-down list, select the name of the result source that you created in the previous procedure in this article ( [Step 1: Create a result source that defines how to get search results from SharePoint Online](display-hybrid-federated-search-results-in-sharepoint-server.md#section1))—for example, Get results from SharePoint Online.
     
-  - In the **Query** section, in the **Items** drop-down list, select the number of search results from SharePoint Online that you want to show in this result block on the search results page. For example, select **3** to display three results from SharePoint Online in this result block. 
+    - In the **Query** section, in the **Items** drop-down list, select the number of search results from SharePoint Online that you want to show in this result block on the search results page. <br/> For example, select **3** to display three results from SharePoint Online in this result block. 
     
-  - If you want to display a **Show More** link at the bottom of the result block, expand the **Settings** section and select **More link goes to the following URL**, and type the URL for the link to a page that displays more results from the SharePoint Online search index. For example, to specify the main search results page as the page that displays more results, typically you can type a URL of the following form (followed by "?k={subjectTerms}" to signify the user's search query): http:// _domain_name_.com/sites/ _Search_Center_name_/pages/results.aspx?k={subjectTerms}. When end users click **Show More**, they will see more results for the result block.
+    - If you want to display a **Show More** link at the bottom of the result block, expand the **Settings** section and select **More link goes to the following URL**, and type the URL for the link to a page that displays more results from the SharePoint Online search index. <br/><br/>For example, to specify the main search results page as the page that displays more results, typically you can type a URL of the following form (followed by "?k={subjectTerms}" to signify the user's search query): http:// _domain_name_.com/sites/ _Search_Center_name_/pages/results.aspx?k={subjectTerms}. <br/><br/>When end users click **Show More**, they will see more results for the result block.
     
-  - Specify the placement of the block of results from SharePoint Online relative to the results from SharePoint Server. Select **This block is always shown above core results** to display the result block at or near the top of the first page of search results. In this case, core results are the results from the SharePoint Server search index. This option is useful for testing, or when most of the relevant content is located in the remote search index in the hybrid environment. If you select this option for more than one result block, you can configure the order in which the result blocks are displayed by ranking the associated query rules. Select **This block is ranked within core results (may not show)** to display the result block such that it is ranked by relevance compared to the core results, in which case the result block might not appear on the first page of search results. This is the default setting and is typically the more appropriate choice in a production environment. As with individual results, the rank of the result block might be different when users perform the same query later. For example, if users click search results in the result block, the result block will be ranked higher in the search results over time. Otherwise, the result block will be ranked lower over time. 
+    - Specify the placement of the block of results from SharePoint Online relative to the results from SharePoint Server.
+      - Select **This block is always shown above core results** to display the result block at or near the top of the first page of search results. In this case, core results are the results from the SharePoint Server search index. This option is useful for testing, or when most of the relevant content is located in the remote search index in the hybrid environment. If you select this option for more than one result block, you can configure the order in which the result blocks are displayed by ranking the associated query rules.
+      - Select **This block is ranked within core results (may not show)** to display the result block such that it is ranked by relevance compared to the core results, in which case the result block might not appear on the first page of search results. <br/>This is the default setting and is typically the more appropriate choice in a production environment. As with individual results, the rank of the result block might be different when users perform the same query later. For example, if users click search results in the result block, the result block will be ranked higher in the search results over time. Otherwise, the result block will be ranked lower over time. 
     
-  - (Optional) Specify a different URL for the group display template in the **Group Display Template URL** text box. 
+    - (Optional) Specify a different URL for the group display template in the **Group Display Template URL** text box. 
     
-  - (Optional) Specify an item display template in the **Item Display Template** text box, 
+    - (Optional) Specify an item display template in the **Item Display Template** text box, 
     
-  - Skip the **Routing** section. 
+    - Skip the **Routing** section. 
     
-  - Click **OK** to add the result block. 
+    - Click **OK** to add the result block. 
     
-7. (Optional) Specify when the query rule shall be active. In the **Publishing** section, use the **Start Date**, **End Date**, **Review Date**, and **Contact** fields. The start date and end date specify when the query rule will be active. If you specify a start date without an end date, the rule will always be active after the start date. If you specify an end date without a start date, the rule will always be active until the end date. If you do not specify a start date or an end date, the rule will always be active. 
+7. (Optional) Specify when the query rule shall be active. In the **Publishing** section, use the **Start Date**, **End Date**, **Review Date**, and **Contact** fields. The start date and end date specify when the query rule will be active. 
+    - If you specify a start date without an end date, the rule will always be active after the start date.
+    - If you specify an end date without a start date, the rule will always be active until the end date.
+    - If you do not specify a start date or an end date, the rule will always be active.
     
 8. Activate the query rule by selecting **Is Active** in the **Publishing** section. When a query rule is active, it fires whenever the query conditions are met. 
     
@@ -187,25 +192,23 @@ To validate your configuration for displaying search results from both SharePoin
     
 3. In the enterprise Search Center, do the following:
     
-  - Click a search vertical that uses a result source that you specified in step 6c of the second procedure in this article ([Step 2: Create a query rule to turn on hybrid search results in SharePoint Server 2013](display-hybrid-federated-search-results-in-sharepoint-server.md#section2)).
+    - Click a search vertical that uses a result source that you specified in step 6c of the second procedure in this article ([Step 2: Create a query rule to turn on hybrid search results in SharePoint Server 2013](display-hybrid-federated-search-results-in-sharepoint-server.md#section2)).
     
-  - In the search box, type a test query, such as the name of your company.
+    - In the search box, type a test query, such as the name of your company.<br/>Make sure that the test query should yield search results from the SharePoint Server search index and the SharePoint Online search index.
     
-    Make sure that the test query should yield search results from the SharePoint Server search index and the SharePoint Online search index.
-    
-  - Click the search icon, or press Enter.
+    - Click the search icon, or press Enter.
     
 4. On the search results page, you should see results from the SharePoint Server search index and a result block of results from the SharePoint Online search index.
     
 5. If you do not see results from both search indexes, do the following:
     
-  - Verify that the search system in SharePoint Server has crawled the local content. For information about how to view the crawl log, see [Crawl log](../search/view-search-diagnostics.md#proc3) in [View search diagnostics in SharePoint Server](../search/view-search-diagnostics.md)
+    - Verify that the search system in SharePoint Server has crawled the local content. For information about how to view the crawl log, see [Crawl log](../search/view-search-diagnostics.md#proc3) in [View search diagnostics in SharePoint Server](../search/view-search-diagnostics.md)
     
-  - Verify that you have configured the hybrid SharePoint environment as described in first [SharePoint Server 2016 hybrid configuration roadmaps](configuration-roadmaps.md) and then [Configure server-to-server authentication from SharePoint Server to SharePoint Online](configure-server-to-server-authentication.md).
+    - Verify that you have configured the hybrid SharePoint environment as described in first [SharePoint Server 2016 hybrid configuration roadmaps](configuration-roadmaps.md) and then [Configure server-to-server authentication from SharePoint Server to SharePoint Online](configure-server-to-server-authentication.md).
     
-  - Verify that you have configured Search features and functionality as described in this article.
+    - Verify that you have configured Search features and functionality as described in this article.
     
-  - Correct any errors or omissions, and try a search again.
+    - Correct any errors or omissions, and try a search again.
     
 6. If you still do not see search results from both search indexes, check the SharePoint Unified Logging Service (ULS) logs, also called the SharePoint trace logs.
     

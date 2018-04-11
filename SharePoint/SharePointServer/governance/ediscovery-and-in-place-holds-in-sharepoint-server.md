@@ -85,7 +85,7 @@ SharePoint Server 2013 introduced the concept of an in-place hold. When you appl
 An in-place hold is applied at the level of a site. When a hold is placed on a SharePoint site, a preservation hold library is created, if one doesn't already exist. The preservation hold library is only visible to site collection administrators so most users can't view it. The search crawler also has special permissions to crawl content in the preservation hold library.
   
 > [!NOTE]
-> There is one case in which a user can view the preservation hold library. Users who are granted permissions at the web application level can view all content in all site collections within the web application. For more information about permissions and eDiscovery, see [Plan for eDiscovery in SharePoint Server](plan-for-ediscovery.md). 
+> There is one case in which a user can view the preservation hold library. Users who are granted permissions at the web application level can view all content in all site collections within the web application. 
   
 If a user attempts to modify or delete content in a site that's on hold, SharePoint first checks whether the content has been modified since the hold was applied. If this is the first modification since the hold was applied, SharePoint copies the content to the preservation hold library, and then allows the user to modify or delete the original content. Note that any content in the site can be copied to the preservation hold library, even if the content doesn't match the filter of the eDiscovery set that initiated the hold.
   
@@ -120,10 +120,3 @@ You can manage the discovery process for Exchange Server 2013 and Exchange Serve
     
 To discover content in Exchange mailboxes, you must first configure a trust relationship between SharePoint and Exchange. You must also grant specific Exchange permissions to the users of the eDiscovery Center. For more information about these tasks, see [Configure eDiscovery in SharePoint Server](configure-ediscovery-0.md).
   
-## See also
-<a name="exchange-integration"> </a>
-
-#### Concepts
-
-[Plan for eDiscovery in SharePoint Server](plan-for-ediscovery.md)
-

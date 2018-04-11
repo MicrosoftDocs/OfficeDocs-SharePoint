@@ -1,7 +1,7 @@
 ---
 title: "How to change the order in which search results are displayed in SharePoint Server"
 ms.author: tlarsen
-author: tlarsen
+author: tklarsen
 manager: pamgreen
 ms.date: 3/7/2018
 ms.audience: ITPro
@@ -133,13 +133,13 @@ To save space, we'll only show you how to create a query rule as a Site collecti
   
     Now, before we move on, let's analyze what we entered:
     
-  - **ContentType** is the managed property that represents the site column Content Type. [How to display values from custom managed properties in search results - option 1 in SharePoint Server](how-to-display-values-from-custom-managed-properties-in-search-resultsoption-1.md) explains how to find managed property names. 
+    - **ContentType** is the managed property that represents the site column Content Type. [How to display values from custom managed properties in search results - option 1 in SharePoint Server](how-to-display-values-from-custom-managed-properties-in-search-resultsoption-1.md) explains how to find managed property names. 
     
-  - The colon : means "contains".
+    - The colon : means "contains".
     
-  - **Art** is the managed property value. 
+    - **Art** is the managed property value. 
     
-  - **Demote to bottom** is the action that should be taken. 
+    - **Demote to bottom** is the action that should be taken. 
     
     Put it together, and it matches the definition we specified:  *When list items are of Content Type "Art", display these at the end of the search results list*  . 
     

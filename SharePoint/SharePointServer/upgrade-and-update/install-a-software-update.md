@@ -24,9 +24,9 @@ description: "Summary: Install a software update to perform a build-to-build upg
 
 Before you begin the software update process, review the following information about permissions, hardware requirements, software requirements, and update processes.
   
-- [Account permissions and security settings in SharePoint 2013](https://technet.microsoft.com/library/1c52404b-9221-4486-a74b-f7e1330c21df)
+- [Account permissions and security settings in SharePoint 2013](../install/account-permissions-and-security-settings-in-sharepoint-2013.md)
     
-- [Hardware and software requirements for SharePoint 2013](https://technet.microsoft.com/library/a88d3f72-7ac3-4f08-b302-c4ca0a796268)
+- [Hardware and software requirements for SharePoint 2013](../install/hardware-and-software-requirements-0.md)
     
 - [Software updates overview for SharePoint 2013](software-updates-overview-for-sharepoint-server-2013.md)
     

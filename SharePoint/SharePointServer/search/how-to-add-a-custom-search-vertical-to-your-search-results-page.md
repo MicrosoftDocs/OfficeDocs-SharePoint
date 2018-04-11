@@ -1,7 +1,7 @@
 ---
 title: "How to add a custom search vertical to your search results page in SharePoint Server"
 ms.author: tlarsen
-author: tlarsen
+author: tklarsen
 manager: pamgreen
 ms.date: 3/7/2018
 ms.audience: ITPro

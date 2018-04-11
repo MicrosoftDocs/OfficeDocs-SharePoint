@@ -269,7 +269,7 @@ The State Service database stores temporary state information data. You can use 
     
   - Moving a database by using SQL Server Management Studio and Windows
     
-#### To add a new database to the State Service service application and remove an old database by using PowerShell
+#### <a name="NewDB"></a>To add a new database to the State Service service application and remove an old database by using PowerShell
 
 1. Use an account with these memberships:
     
@@ -302,7 +302,7 @@ The State Service database stores temporary state information data. You can use 
     
   -  _\<OldDatabaseName\>_ is the name of the old database that you want to disassociate with the State service and detach from SQL Server. 
     
-#### To point the State Service service application to a moved database by using PowerShell
+#### <a name="PS"></a>To point the State Service service application to a moved database by using PowerShell
 
 1. Start the SharePoint Management Shell.
     
@@ -565,7 +565,7 @@ In some environments, you must coordinate the rename and move procedures with th
 
     Where  _\<SearchServiceApplicationName\>_ is the name of the Search service application associated with the database move. 
     
-### To change the read-only mode for Search service application databases
+### <a name="ReadOnly"></a>To change the read-only mode for Search service application databases
 
 1. Use an account that is a member of the **db_owner** fixed database role for the content database. 
     

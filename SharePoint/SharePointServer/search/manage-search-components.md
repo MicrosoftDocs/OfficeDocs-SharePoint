@@ -1,7 +1,7 @@
 ---
 title: "Manage search components in SharePoint Server"
 ms.author: tlarsen
-author: tlarsen
+author: tklarsen
 manager: pamgreen
 ms.date: 9/8/2017
 ms.audience: ITPro

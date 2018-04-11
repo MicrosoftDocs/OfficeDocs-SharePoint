@@ -146,7 +146,7 @@ You can also use the **Automatic** settings mode in an advanced scenario. In the
   
 Several of these steps mention prerequisite procedures that are documented in [Prepare your environment for incoming email in an advanced scenario](#section5) later in this article. 
   
- **To configure incoming email in an advanced scenario**
+ <a name="ToConfigureEmailAdvanced"></a>**To configure incoming email in an advanced scenario**
   
 1. Make sure the user account that is performing this procedure is a member of the Administrators group on the server that is running the SharePoint Central Administration website.
     
@@ -206,7 +206,7 @@ Several of these steps mention prerequisite procedures that are documented in [P
     
     It is useful to have a dedicated email drop folder if the default email drop folder is full or almost full. The default location of the drop folder is C:\inetpub\mailroot\drop. You can configure a different location if you want but this drop folder must be the same on all SharePoint Servers.
     
-    Ensure that the logon account for the SharePoint Timer service has Modify permissions on the email drop folder. For more information, see [To configure e-mail drop folder permissions for the logon account for the SharePoint Timer service](#ToConfigDropFolderPerms) later in this article. 
+    Ensure that the logon account for the SharePoint Timer service has Modify permissions on the email drop folder.  
     
 9. In the **Safe E-Mail Servers** section, select whether you want to accept email from all email servers or from specific email servers. 
     
@@ -327,7 +327,7 @@ After you add these permissions, you must restart IIS for the farm.
 
 If you are using Exchange Server and are routing email internally in your organization, you must create a host (A) resource record in DNS Manager to associate DNS domain names of computers (or hosts) to their IP addresses. Your organization might already have a configured DNS Manager and an A resource record. If not, then use the following procedure.
   
- **To create an A resource record for a subdomain**
+ **<a name="AResourceSubdomain"></a>To create an A resource record for a subdomain**
   
 1. Make sure the user account that is performing this procedure is a member of the Administrators group on the local computer.
     
@@ -339,7 +339,7 @@ If you are using Exchange Server and are routing email internally in your organi
     
 5. In the **Fully qualified domain name (FQDN)** text box, type the FQDN for the server that is running SharePoint Server. This is typically in the format  _subdomain.domain.com_.
     
-6. Ensure that the domains that are listed under the SMTP server in IIS match the FQDN of the server that receives email. If they do not match, you must create a local domain. For instructions, see [To create a local domain](incoming-email-configuration.md#CreateALocalDomain) later in this article. 
+6. Ensure that the domains that are listed under the SMTP server in IIS match the FQDN of the server that receives email. If they do not match, you must create a local domain. For instructions, see [To create a local domain](#CreateALocalDomain) later in this article. 
     
 7. In the **IP address** text box, type the IP address to which you want the FQDN to resolve. 
     
@@ -351,7 +351,7 @@ If you are using Exchange Server and are routing email internally in your organi
     
 If you use the **E-mail server display address** option andif the email address to which you are sending email messages is not the same as your server name, you must create a local domain. 
   
- **To create a local domain**
+ **<a name="CreateALocalDomain"></a>To create a local domain**
   
 1. Open Server Manager, click **Tools**, and then select **Internet Information Services (IIS) 6.0 Manager**.
     
@@ -361,7 +361,7 @@ If you use the **E-mail server display address** option andif the email address 
     
 4. In the **Domain Name** area, in the **Name** box, type the address of the mail that is to be received by this domain. 
     
-    This address must be the same as the one that you specified in step 4 in [To create an A resource record for a subdomain](incoming-email-configuration.md#AResourceSubdomain), and in step 6b in [To configure incoming email in an advanced scenario](incoming-email-configuration.md#ToConfigureEmailAdvanced).
+    This address must be the same as the one that you specified in step 4 in [To create an A resource record for a subdomain](#AResourceSubdomain), and in step 6b in [To configure incoming email in an advanced scenario](#ToConfigureEmailAdvanced).
     
 5. Click **Finish**.
     

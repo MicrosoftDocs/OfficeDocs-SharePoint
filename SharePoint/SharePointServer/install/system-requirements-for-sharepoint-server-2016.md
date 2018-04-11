@@ -28,7 +28,6 @@ The following articles help you prepare for the installation of SharePoint Serve
 ||**Content**|**Description**|
 |:-----|:-----|:-----|
 |![Building blocks](../media/mod_icon_buildingblock_M.png)           <br/> |[Hardware and software requirements for SharePoint Server 2016](hardware-and-software-requirements.md) <br/> |Describes the hardware and software requirements that you must meet to successfully install SharePoint Server 2016.  <br/> |
-||||
 |![Checklist icon (not checked)](../media/mod_icon_checklist_.png)           <br/> |[Plan browser support in SharePoint Server 2016](browser-support-planning-0.md) <br/> |Describes levels of support for web browsers to use with SharePoint Server 2016.  <br/> |
    
 

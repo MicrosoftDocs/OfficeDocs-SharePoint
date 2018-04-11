@@ -1,7 +1,7 @@
 ---
 title: "Edit general settings on a web application in SharePoint Server"
 ms.author: tlarsen
-author: tlarsen
+author: tklarsen
 manager: pamgreen
 ms.date: 2/28/2018
 ms.audience: ITPro

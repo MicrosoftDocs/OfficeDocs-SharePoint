@@ -262,7 +262,5 @@ Some actions — for example, doing search schema management to enable refiners 
 #### Concepts
 
 [Automatically created managed properties in SharePoint Server](../technical-reference/automatically-created-managed-properties-in-sharepoint.md)
-#### Other Resources
 
-[http://blogs.technet.com/b/tothesharepoint/archive/2013/02/14/how-to-set-up-a-product-centric-web-site-in-sharepoint-2013.aspx](Blog series: How to set up a product-centric website in SharePoint Server 2013)
 

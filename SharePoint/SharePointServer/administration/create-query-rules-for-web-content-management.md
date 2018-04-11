@@ -148,7 +148,7 @@ Result blocks are automatically displayed in the Search Results Web Part. To dis
   
 When you configure the query condition for a result block, you can use query variables. Query variables are placeholders for values that you don't know when you specify the query. However, when the query is run, this information is known and can be used when the system sends the query to the index. Examples are {User.Name}, which represents the display name of the user who typed the query, or {searchBoxQuery}, which represents the query that a user typed in a search box. When you use Query Builder to configure the query, a list of query variables is shown. (See step 3 in the following procedure.)
   
- **To create a result block**
+ <a name="BKMK_ToCreateAResultBlock"></a>**To create a result block**
   
 1. In step 8 of the previous procedure, on the **Add Query Rule** page, in the **Actions** section, click **Add Result Block**.
     
@@ -198,7 +198,7 @@ When you configure the query condition for a result block, you can use query var
     
     The result block will only display the number of search results that you specified in the previous step. However, you can add a **SHOW MORE** link at the bottom of the result block that will show all search results for the result block. To add a **SHOW MORE** link, select **"More" link goes to the following URL**, and then type a URL. You can use query variables in this URL — for example,  *http://www.\<site\>/search/results.aspx?k={subjectTerms}*  . 
     
-7. In the **Routing** section, in the field under **Label for routing to a Content Search Web Part**, type a label for routing the result block to a Content Search Web Part, or select an existing label. You will use this label in the following procedure, [To configure a Content Search Web Part to display a result block](create-query-rules-for-web-content-management.md#BKMK_ConfigureContentSearchWP).
+7. In the **Routing** section, in the field under **Label for routing to a Content Search Web Part**, type a label for routing the result block to a Content Search Web Part, or select an existing label. You will use this label in the following procedure.
     
 8. Click **OK**.
     

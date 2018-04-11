@@ -10,14 +10,14 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 0f95a1e6-7044-487e-8681-b1d717caabb3
-description: "Summary: Learn how to add a managed path for a web application in SharePoint Server 2013 and SharePoint Server 2016."
+description: "Learn how to add a managed path for a web application in SharePoint Server 2013 and SharePoint Server 2016."
 ---
 
 # Define managed paths in SharePoint Server
 
  **Summary:** Learn how to add a managed path for a web application in SharePoint Server 2013 and SharePoint Server 2016. 
   
-You can specify the paths in the URL namespace of a web application to use for site collections. This is know as a managed path. You can specify that one or more site collections exist at a specified path.
+You can specify the paths in the URL namespace of a web application to use for site collections. This is known as a managed path. You can specify that one or more site collections exist at a specified path.
   
 There are two types of managed paths that you can create:
   
@@ -84,9 +84,9 @@ Use the procedures that are described here to add or delete managed paths for a 
 
 #### Other Resources
 
-[New-SPManagedPath](http://technet.microsoft.com/library/5d30deac-e368-4137-89b5-a20c0785b2a4.aspx)
+[New-SPManagedPath](https://docs.microsoft.com/powershell/module/sharepoint-server/New-SPManagedPath)
   
-[Get-SPManagedPath](http://technet.microsoft.com/library/e0355fdc-1518-4008-a7cf-10d30d960c5f.aspx)
+[Get-SPManagedPath](https://docs.microsoft.com/powershell/module/sharepoint-server/Get-SPManagedPath)
   
-[Remove-SPManagedPath](http://technet.microsoft.com/library/6b6daf4a-4102-4583-9da7-9f0433d87b19.aspx)
+[Remove-SPManagedPath](https://docs.microsoft.com/powershell/module/sharepoint-server/Remove-SPManagedPath)
 
