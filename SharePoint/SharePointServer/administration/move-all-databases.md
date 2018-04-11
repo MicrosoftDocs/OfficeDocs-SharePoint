@@ -229,7 +229,7 @@ The following procedures provide methods to connect to the new SQL Server instan
     
 7. In the **Network libraries** area, click **TCP/IP**.
     
-8. In the **Connection parameters** area, in the **Server name** box, enter the new name of the SQL Server and instance to associate with the alias, and then click **OK**. This is the name of hte new server that is hosting the SharePoint Server databases. 
+8. In the **Connection parameters** area, in the **Server name** box, enter the new server name and instance to associate with the alias, and then click **OK**. This is the name of the new server that is hosting the SharePoint Server databases. 
     
 9. Repeat steps 3 through 8 on all servers in the farm that connect to the new instance of SQL Server.
     
