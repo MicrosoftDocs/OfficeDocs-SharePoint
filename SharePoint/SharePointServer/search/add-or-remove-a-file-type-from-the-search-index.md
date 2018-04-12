@@ -1,7 +1,7 @@
 ---
 title: "Add or remove a file type from the search index in SharePoint Server"
 ms.author: tlarsen
-author: tlarsen
+author: tklarsen
 manager: pamgreen
 ms.date: 3/7/2018
 ms.audience: ITPro

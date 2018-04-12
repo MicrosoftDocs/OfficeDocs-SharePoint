@@ -347,14 +347,16 @@
 ##### [Video series: Install and configure Workflow in SharePoint Server 2013](../governance/video-series-install-and-configure-workflow-in-sharepoint-server-2013.md)
 ##### [Update Workflow in SharePoint Server](../governance/update-workflow-in-sharepoint-server.md)
 ## [Migrate  to SharePoint Online](../migrate-to-sharepoint-online/migrate-to-sharepoint-online.md)
-### [New and improved features in the SharePoint Migration Tool](../migrate-to-sharepoint-online/new-and-improved-features-in-the-sharepoint-migration-tool.md)
+### [SharePoint Migration Tool Release Notes](../migrate-to-sharepoint-online/new-and-improved-features-in-the-sharepoint-migration-tool.md)
 ### [Introducing the SharePoint Migration Tool](../migrate-to-sharepoint-online/introducing-the-sharepoint-migration-tool.md)
 ### [How to use the SharePoint Migration Tool](../migrate-to-sharepoint-online/how-to-use-the-sharepoint-migration-tool.md)
-### [How to format your CSV file for data content migration](../migrate-to-sharepoint-online/how-to-format-your-csv-file-for-data-content-migration.md)
+### [Understanding permissions and the SharePoint Migration Tool](../migrate-to-sharepoint-online/understanding-permissions-when-migrating.md)
+### [SharePoint List Templates supported by the SharePoint Migration Tool ](../migrate-to-sharepoint-online/sharepoint-migration-supported-list-templates.md)
+### [How to format your JSON or CSV file for data content migration](../migrate-to-sharepoint-online/how-to-format-your-csv-file-for-data-content-migration.md)
 ### [Create a user mapping file for data content migration](../migrate-to-sharepoint-online/create-a-user-mapping-file-for-data-content-migration.md)
 ### [How the SharePoint Migration Tool works](../migrate-to-sharepoint-online/how-the-sharepoint-migration-tool-works.md)
-### [SharePoint Online provided Azure containers and queues for SPO Migration API](../migrate-to-sharepoint-online/sharepoint-online-provided-azure-containers-and-queues-for-spo-migration-api.md)
 ### [Using the SharePoint Migration Tool Reports](../migrate-to-sharepoint-online/using-the-sharepoint-migration-tool-reports.md)
+### [SharePoint Online provided Azure containers and queues for SPO Migration API](../migrate-to-sharepoint-online/sharepoint-online-provided-azure-containers-and-queues-for-spo-migration-api.md)
 ### [SharePoint Online and OneDrive Migration Speed](../migrate-to-sharepoint-online/sharepoint-online-and-onedrive-migration-speed.md)
 ### [Upload on-premises content to SharePoint Online using PowerShell cmdlets](../migrate-to-sharepoint-online/upload-on-premises-content-to-sharepoint-online-using-powershell-cmdlets.md)
 ### [Overview of the SharePoint Migration Assessment Tool](../migrate-to-sharepoint-online/overview-of-the-sharepoint-migration-assessment-tool.md)
@@ -494,14 +496,14 @@
 #### [Turn on automated document translation](../administration/turn-on-automated-document-translation.md)
 #### [Manage the Distributed Cache service](../administration/manage-the-distributed-cache-service.md)
 ##### [Plan for feeds and the Distributed Cache service](../administration/plan-for-feeds-and-the-distributed-cache-service.md)
-#### [General guidance for hosters in SharePoint Server 2013](../administration/general-guidance-for-hosters-in-sharepoint-server-2013.md
-#### [Understanding multi-tenancy in SharePoint Server 2013](../administration/understanding-multi-tenancy.md
-#### [Plan service deployment in SharePoint Server](../administration/service-deployment-planning.md
-#### [SharePoint Server design samples: Corporate portal and extranet sites](../administration/corporate-portal-and-extranet-sites-design-samples.md
-#### [Host-named site collection architecture and deployment in SharePoint Server](../administration/host-named-site-collection-architecture-and-deployment.md
-#### [Update a web application URL and IIS bindings for SharePoint Server](../administration/update-a-web-application-url-and-iis-bindings.md
-#### [Plan alternate access mappings for SharePoint Server](../administration/plan-alternate-access-mappings.md
-##### [Configure alternate access mappings for SharePoint Server](../administration/configure-alternate-access-mappings.md
+#### [General guidance for hosters in SharePoint Server 2013](../administration/general-guidance-for-hosters-in-sharepoint-server-2013.md)
+#### [Understanding multi-tenancy in SharePoint Server 2013](../administration/understanding-multi-tenancy.md)
+#### [Plan service deployment in SharePoint Server](../administration/service-deployment-planning.md)
+#### [SharePoint Server design samples: Corporate portal and extranet sites](../administration/corporate-portal-and-extranet-sites-design-samples.md)
+#### [Host-named site collection architecture and deployment in SharePoint Server](../administration/host-named-site-collection-architecture-and-deployment.md)
+#### [Update a web application URL and IIS bindings for SharePoint Server](../administration/update-a-web-application-url-and-iis-bindings.md)
+#### [Plan alternate access mappings for SharePoint Server](../administration/plan-alternate-access-mappings.md)
+##### [Configure alternate access mappings for SharePoint Server](../administration/configure-alternate-access-mappings.md)
 
 ### [Install and manage apps for SharePoint Server](../administration/install-and-manage-apps-for-sharepoint-server.md)
 #### [Plan for apps for SharePoint](../administration/plan-for-apps-for-sharepoint.md)
@@ -641,7 +643,7 @@
 ##### [Create an Excel Services dashboard using SQL Server Analysis Services data](../administration/create-an-excel-services-dashboard-using-sql-server-analysis-services-data.md)
 ##### [Create an Excel Services dashboard using a Data Model (SharePoint Server 2013)](../administration/create-an-excel-services-dashboard-using-a-data-model-sharepoint-server-2013.md)
 #### [Configure PerformancePoint Services](../administration/configure-performancepoint-services.md)
-#####[PerformancePoint Services in SharePoint Server 2016 overview](../administration/performancepoint-services-overview.md)
+##### [PerformancePoint Services in SharePoint Server 2016 overview](../administration/performancepoint-services-overview.md)
 ##### [Enable trusted locations for PerformancePoint Services](../administration/enable-trusted-locations-for-performancepoint-services.md)
 ##### [PerformancePoint Services application settings](../administration/performancepoint-services-application-settings.md)
 #### [Overview of Visio Services in SharePoint Server](../administration/visio-services-overview.md)

@@ -3,7 +3,7 @@ title: "SharePoint Intranet Farm in Azure Phase 3 Configure SQL Server Infrastru
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 9/20/2017
+ms.date: 04/06/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
@@ -303,7 +303,7 @@ Due to current non-RFC-compliant behavior by DHCP in Azure, creation of a WSFC c
     
 5. On the **Select Servers** page, type the name of the primary SQL Server machine, click **Add**, and then click **Next**.
     
-6. On the **Validation Warning** page, click ** No, I do not require support from Microsoft for this cluster, and therefore do not want to run the validation tests. When I click Next, continue creating the cluster **, and then click **Next**.
+6. On the **Validation Warning** page, click **No, I do not require support from Microsoft for this cluster, and therefore do not want to run the validation tests. When I click Next, continue creating the cluster**, and then click **Next**.
     
 7. On the **Access Point for Administering the Cluster** page, in the **Cluster Name** text box, type the name for your cluster, and then click **Next**.
     
@@ -359,7 +359,7 @@ Use these steps to enable AlwaysOn Availability Groups on SQL Server:
     
 5. In **SQL Server (MSSQLSERVER) Properties**, click the **AlwaysOn High Availability** tab, select **Enable AlwaysOn Availability Groups**, click **Apply**, and then click **OK** when prompted. Do not close the properties window yet. 
     
-6. Click **Log On** tab, ensure the **This Account** radio button is selected, then type <your domain> **\sqlservice** in **Account Name**. Type the sqlservice account password in **Password** and **Confirm password**, and then click **OK**.
+6. Click **Log On** tab, ensure the **This Account** radio button is selected, then type \<your domain>**\sqlservice** in **Account Name**. Type the sqlservice account password in **Password** and **Confirm password**, and then click **OK**.
     
 7. In the message window, click **Yes** to restart the SQL Server service. 
     

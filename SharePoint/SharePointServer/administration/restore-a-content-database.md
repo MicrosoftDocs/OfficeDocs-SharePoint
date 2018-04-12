@@ -38,7 +38,7 @@ Before you begin this operation, review the following information about how to r
 
 You can use PowerShell to restore a content database.
   
- **To restore a content database by using PowerShell**
+### To restore a content database by using PowerShell
   
 1. Verify that you have the following memberships:
     
@@ -83,7 +83,7 @@ For more information, see [Restore-SPFarm](http://technet.microsoft.com/library/
 
 You can use Central Administration to restore a farm or components of a farm.
   
- **To restore a content database by using Central Administration**
+### To restore a content database by using Central Administration
   
 1. Verify that the user account that is performing this procedure is a member of the Farm Administrators SharePoint group.
     
@@ -122,7 +122,7 @@ You can use SQL Server tools to restore a content database by following these st
     
 4. Restore all transaction log backups that occurred after the most recent full or differential database backup.
     
- **To restore a content database by using SQL Server tools**
+### To restore a content database by using SQL Server tools
   
 1. Verify that the user account performing this procedure is a member of the **sysadmin** fixed server role. 
     

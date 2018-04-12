@@ -26,16 +26,16 @@ The following downloadable resources, articles, video recordings, and related re
 
 Download the following content for information about upgrade.
   
-||**Content**|**Description**|
+|**Content**|**Description**|
 |:-----|:-----|:-----|
-|![Architecture icon](../media/mod_icon_architectureDiagrams_S.png)|[SharePoint 2013 - Upgrade Process model](https://go.microsoft.com/fwlink/?LinkId=255047) <br/> |Describes the steps in the process for a database-attach upgrade.  <br/> |
-|![Architecture icon](../media/mod_icon_architectureDiagrams_S.png)|[SharePoint 2013 - Test Your Upgrade Process model](https://go.microsoft.com/fwlink/?LinkId=252098) <br/> |See a visual display of information about how to test the upgrade process.  <br/> |
-|![Downloads](../media/mod_icon_download_M.png)|[SharePoint 2013 Upgrade Worksheet](https://go.microsoft.com/fwlink/?LinkId=252097) <br/> |Use this worksheet to record information about your environment while you test upgrade.  <br/> |
+|[SharePoint 2013 - Upgrade Process model](https://go.microsoft.com/fwlink/?LinkId=255047) <br/> |Describes the steps in the process for a database-attach upgrade.  <br/> |
+|[SharePoint 2013 - Test Your Upgrade Process model](https://go.microsoft.com/fwlink/?LinkId=252098) <br/> |See a visual display of information about how to test the upgrade process.  <br/> |
+|[SharePoint 2013 Upgrade Worksheet](https://go.microsoft.com/fwlink/?LinkId=252097) <br/> |Use this worksheet to record information about your environment while you test upgrade.  <br/> |
    
 ## Articles about upgrade
 
   
-|**        ![Building blocks](../media/mod_icon_buildingblock_M.png)          Content**|**Description**|
+|**Content**|**Description**|
 |:-----|:-----|
 |[Get started with upgrades to SharePoint 2013](get-started-with-upgrade-0.md) <br/> |Find resources to help you understand how to upgrade databases and site collections from SharePoint 2010 Products to SharePoint 2013.  <br/> |
 |[Plan for upgrade to SharePoint 2013](http://technet.microsoft.com/library/83079d8c-c64d-40b8-80c6-bab3c8bd44f6%28Office.14%29.aspx) <br/> |Find resources about how to plan to upgrade from SharePoint 2010 Products to SharePoint 2013.  <br/> |

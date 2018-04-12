@@ -264,11 +264,11 @@ $cred = Get-Credential $userName
   
 New-SPOMigrationPackage -SourceFilesPath $sourceFiles -OutputPackagePath $packagePath -TargetWebUrl $targetWebUrl -TargetDocumentLibraryPath $targetLibrary -IgnoreHidden -ReplaceInvalidCharacters
   
-# Convert package to a targeted one by looking up data in target site collection
+## Convert package to a targeted one by looking up data in target site collection
   
 $finalPackages = ConvertTo-SPOMigrationTargetedPackage -SourceFilesPath $sourceFiles -SourcePackagePath $packagePath -OutputPackagePath $spoPackagePath -TargetWebUrl $targetWebUrl -TargetDocumentLibraryPath $targetLibrary -Credentials $cred
   
-# Submit package data to create new migration job
+## Submit package data to create new migration job
   
 $job = Invoke-SPOMigrationEncryptUploadSubmit -SourceFilesPath $sourceFiles -SourcePackagePath $spoPackagePath -Credentials $cred -TargetWebUrl $targetWebUrl
   

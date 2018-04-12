@@ -26,14 +26,14 @@ The following downloadable resources, articles, video recordings, and related re
 
 Download the following content for information about how to upgrade site collections.
   
-||**Content**|**Description**|
+|**Content**|**Description**|
 |:-----|:-----|:-----|
-|![Architecture icon](../media/mod_icon_architectureDiagrams_S.png)|[SharePoint 2013 Products Preview - Upgrade Process model](https://go.microsoft.com/fwlink/?LinkId=255047) <br/> |Describes the steps in the process for a database-attach upgrade.  <br/> |
+|[SharePoint 2013 Products Preview - Upgrade Process model](https://go.microsoft.com/fwlink/?LinkId=255047) <br/> |Describes the steps in the process for a database-attach upgrade.  <br/> |
    
 ## Articles about how to upgrade site collections
 
   
-|**        ![Building blocks](../media/mod_icon_buildingblock_M.png)          Content**|**Description**|
+|**Content**|**Description**|
 |:-----|:-----|
 |[Run site collection health checks in SharePoint 2013](run-site-collection-health-checks-in-sharepoint-2013.md) <br/> |Run the site collection health checks to verify your site is running well. Check each site before you upgrade to SharePoint 2013.  <br/> |
 |[Upgrade a site collection to SharePoint 2013](upgrade-a-site-collection-to-sharepoint-2013.md) <br/> |Site collection administrators can preview a copy of their sites in SharePoint 2013 mode, and then upgrade their sites.  <br/> |

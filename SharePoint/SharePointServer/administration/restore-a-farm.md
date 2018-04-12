@@ -25,7 +25,7 @@ You can restore a SharePoint Server farm by using the SharePoint Central Adminis
 ## Before you begin
 <a name="begin"> </a>
 
-Farm-level recovery is usually performed only after a failure that involves the complete farm, or where partial recovery of part of the farm is not possible. If you only have to restore part of the farm, a specific database, a service application, a list, or document library, or a specific document, use another recovery method. For more information about alternate forms of recovery, see [Related content](#Related).
+Farm-level recovery is usually performed only after a failure that involves the complete farm, or where partial recovery of part of the farm is not possible. If you only have to restore part of the farm, a specific database, a service application, a list, or document library, or a specific document, use another recovery method. For more information about alternate forms of recovery, see [Related content](#Proc3).
   
  Farm recovery is usually performed for any of the following reasons: 
   

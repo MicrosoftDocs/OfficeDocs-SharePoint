@@ -1,7 +1,7 @@
 ---
 title: "Overview of search architecture in SharePoint Server"
 ms.author: tlarsen
-author: tlarsen
+author: tklarsen
 manager: pamgreen
 ms.date: 3/2/2018
 ms.audience: ITPro

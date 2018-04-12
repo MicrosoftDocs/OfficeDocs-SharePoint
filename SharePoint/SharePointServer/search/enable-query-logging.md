@@ -1,7 +1,7 @@
 ---
 title: "Enable query logging in SharePoint Server"
 ms.author: tlarsen
-author: tlarsen
+author: tklarsen
 manager: pamgreen
 ms.date: 9/11/2017
 ms.audience: ITPro

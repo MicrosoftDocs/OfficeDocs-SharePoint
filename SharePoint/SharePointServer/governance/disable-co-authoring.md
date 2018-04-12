@@ -32,11 +32,11 @@ There are three ways to disable co-authoring:
     
 Procedures in this task:
   
-- [To disable co-authoring by using Group Policy](#bkmk_dis_ca_gp)
+- To disable co-authoring by using Group Policy
     
-- [To disable co-authoring for Word documents and PowerPoint presentations at the web service level by using Windows PowerShell](#bkmk_dis_ca_ps)
+- To disable co-authoring for Word documents and PowerPoint presentations at the web service level by using Windows PowerShell
     
-- [To disable co-authoring for Word documents and PowerPoint presentations at the web application level by using Windows PowerShell](#bkmk_dis_wa_ps)
+- To disable co-authoring for Word documents and PowerPoint presentations at the web application level by using Windows PowerShell
     
  **To disable co-authoring by using Group Policy**
   

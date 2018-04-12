@@ -389,7 +389,7 @@ The output that's expected is a description of the farm's trusted token issuer, 
 ## Validation and next steps
 <a name="next"> </a>
 
- After finishing the tasks in this topic and its validation steps, you should check your SSO and Directory Synchronization setup by using the validation steps in [Validate your SSO configuration](configure-server-to-server-authentication.md#validatesso).
+ After finishing the tasks in this topic and its validation steps, you should check your SSO and Directory Synchronization setup.
   
 So that you have a history of the steps you've taken, you should capture the entire contents of the PowerShell buffer into a file. This will be crucial if you need to reference your configuration history to troubleshoot, or for any other reasons. This will also help you pick up where you left off if the configuration spans multiple days or involves multiple people.
   
@@ -397,8 +397,6 @@ After you have completed and validated the configuration tasks in this topic, co
   
 ## See also
 <a name="next"> </a>
-
-#### Concepts
 
 [Hybrid for SharePoint Server](hybrid.md)
   

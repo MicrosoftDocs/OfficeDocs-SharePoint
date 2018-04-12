@@ -36,7 +36,7 @@ When a catalog is crawled, SharePoint Server automatically creates managed prope
   
 1. Use the procedure that is described in [Map a crawled property to a refinable managed property in SharePoint site collection administration](configure-refiners-and-faceted-navigation.md#BKMK_MapCPtoRefinableMP). This procedure can be performed by site collection administrators. We recommend that you use this procedure for all data types. 
     
-2. Create a managed property, add the type code to the property name, and then enable it as a refiner. This procedure can only be performed by an administrator of the Search service application. For more information, see [To create a managed property, add type code to the name, and enable it as a refiner](configure-refiners-and-faceted-navigation.md#BKMK_CreateNewAddTypeCode).
+2. Create a managed property, add the type code to the property name, and then enable it as a refiner. This procedure can only be performed by an administrator of the Search service application. 
     
 3. Add JavaScript to the page where the refiners are displayed. For more information, see [Add JavaScript to a page to display refiners in the correct format ](configure-refiners-and-faceted-navigation.md#BKMK_AddJavaScript).
     

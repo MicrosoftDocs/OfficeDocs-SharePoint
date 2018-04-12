@@ -3,7 +3,7 @@ title: "SharePoint Server 2016 in Microsoft Azure"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 2/13/2017
+ms.date: 04/06/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
@@ -51,7 +51,7 @@ Here are some of the benefits:
 
 To get your hands on SharePoint Server 2016 farm in Azure infrastructure services, see these dev/test environments:
   
-- To create a single-server farm running in Azure for demonstration, evaluation, or application testing, see [Single-server SharePoint Server 2016 farm in Azure](https://technet.microsoft.com/library/mt723354%28v=office.16%29.aspx).
+- To create a single-server farm running in Azure for demonstration, evaluation, or application testing, see [Single-server SharePoint Server 2016 farm in Azure](sharepoint-server-2016-dev-test-environment-in-azure.md).
     
      ![The completed SharePoint 2016 dev/test farm in Azure infrastructure services](../media/42778e43-80a3-4600-81de-ef1aaecd698f.png)
   
@@ -70,8 +70,6 @@ See [Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Grou
 ![Phase 4 of the SharePoint Server 2016 highly-available farm in Azure with SharePoint servers](../media/8f421518-773f-4b4d-8084-005d8a50c38e.png)
   
 ## See also
-
-#### Concepts
 
 [SharePoint Server](../sharepoint-server.md)
   
