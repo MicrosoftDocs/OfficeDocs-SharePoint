@@ -258,7 +258,7 @@ The Distributed Cache service setting for **MaxConnectionsToServer** is often tu
     > [!NOTE]
     > You can use a different file name, but you must save the file as an ANSI-encoded text file with the extension .ps1. 
   
- **SharePoint Server 2016 PowerShell script**
+  **SharePoint Server 2016 PowerShell script**
   ```
   Add-PSSnapin Microsoft.Sharepoint.Powershell -ea 0
 
