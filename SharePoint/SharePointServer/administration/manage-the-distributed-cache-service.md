@@ -259,7 +259,7 @@ The Distributed Cache service setting for **MaxConnectionsToServer** is often tu
     > You can use a different file name, but you must save the file as an ANSI-encoded text file with the extension .ps1. 
   
  **SharePoint Server 2016 PowerShell script**
-  ```
+```
 Add-PSSnapin Microsoft.Sharepoint.Powershell -ea 0
 
 #DistributedLogonTokenCache
@@ -367,9 +367,11 @@ $DHSC.requestTimeout = "3000"
 $DHSC.channelOpenTimeOut = "3000"
 Set-SPDistributedCacheClientSetting -ContainerType DistributedHealthScoreCache $DHSC 
   
-  ```
- **SharePoint Server 2013 PowerShell script**
-  ```
+```
+
+**SharePoint Server 2013 PowerShell script**
+
+```
 Add-PSSnapin Microsoft.Sharepoint.Powershell -ea 0
 
 #DistributedLogonTokenCache
@@ -442,7 +444,7 @@ $DSTAC.requestTimeout = "3000"
 $DSTAC.channelOpenTimeOut = "3000"
 Set-SPDistributedCacheClientSetting -ContainerType DistributedServerToAppServerAccessTokenCache $DSTAC
  
-  ```
+```
 3. Open the SharePoint Management Shell
     
 4. Change to the directory to which you saved the file.
