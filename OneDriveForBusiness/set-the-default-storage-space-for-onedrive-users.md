@@ -9,6 +9,9 @@ ms.topic: article
 ms.prod: office-online-server
 localization_priority: Normal
 ms.collection: Strat_OD_admin
+search.appverid:
+- ODB160
+- ODB150
 ms.assetid: cec51d07-d7e0-42a3-b794-9c00ad0f0083
 description: "Learn how to change the default storage space for OneDrive users in the OneDrive admin center. "
 ---

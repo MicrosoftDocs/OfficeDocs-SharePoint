@@ -8,6 +8,7 @@ ms.audience: Admin
 ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
+search.appverid: ODC160
 ms.assetid: ce15d2cc-52ef-42cd-b738-d9c6f9b03f3a
 description: "Learn the FQDNs and ports to include in your allow lists to let users use the consumer version of OneDrive."
 ---

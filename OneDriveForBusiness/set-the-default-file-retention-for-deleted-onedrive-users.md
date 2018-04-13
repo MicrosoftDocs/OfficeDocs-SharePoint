@@ -11,6 +11,9 @@ f1_keywords:
 ms.prod: office-online-server
 localization_priority: Normal
 ms.collection: Strat_OD_admin
+search.appverid:
+- ODB160
+- ODB150
 ms.assetid: fa1641ea-9f03-4f34-a826-dbd8697e76fe
 description: "Learn how to specify how long the files of deleted users are preserved using the OneDrive admin center. "
 ---

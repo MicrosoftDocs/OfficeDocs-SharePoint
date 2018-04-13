@@ -8,6 +8,12 @@ ms.audience: Admin
 ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
+search.appverid:
+- ODB160
+- MOE150
+- MED150
+- MBS150
+- ODB150
 ms.assetid: effbf250-57c8-436d-9e0f-edd017a896b7
 description: "Learn how to help users get the most out of the Discover view in OneDrive for Business. "
 ---

@@ -3,19 +3,20 @@ title: "Azure Active Directory conditional access with the OneDrive sync client 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 3/22/2018
+ms.date: 4/11/2018
 ms.audience: Admin
 ms.topic: get-started-article
 ms.prod: office-online-server
 localization_priority: Normal
+search.appverid:
+- ODB160
+- ODB150
 ms.assetid: 028d73d7-4b86-4ee0-8fb7-9a209434b04e
 description: "Learn how to enable conditional access in the new OneDrive sync client."
 ---
 
 # Azure Active Directory conditional access with the OneDrive sync client on Windows
 
- *Last updated: September 2017* 
-  
 Conditional access control capabilities in Azure Active Directory offer simple ways for you to secure resources in the cloud. The new OneDrive sync client works with the conditional access control policies to ensure syncing is only done with compliant devices. For example, you might require sync to be available only on domain-joined devices or devices that meet compliance as defined by the Mobile Device Management system (like Intune).
   
 For information about how conditional access works, see:
@@ -72,7 +73,7 @@ Please let us know if you run into any problems while using this release.
     
 ## Related Topics
 
-[Deploy the new OneDrive sync client](deploy-the-new-onedrive-sync-client)
+[Deploy the new OneDrive sync client](deploy-the-sync-client-for-windows)
   
 [Sync files with the new OneDrive sync client in Windows](https://support.office.com/article/615391c4-2bd3-4aae-a42a-858262e42a49)
   

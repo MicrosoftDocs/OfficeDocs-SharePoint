@@ -8,6 +8,9 @@ ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
 localization_priority: Normal
+search.appverid:
+- ODB160
+- ODB150
 ms.assetid: 7448173d-a38c-48cf-acbb-09ac1b6237d4
 description: "Learn how to change your users' OneDrive for Business storage space using PowerShell."
 ---

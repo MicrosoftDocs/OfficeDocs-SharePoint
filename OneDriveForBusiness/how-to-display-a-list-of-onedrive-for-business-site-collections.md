@@ -8,6 +8,12 @@ ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
 localization_priority: Normal
+search.appverid:
+- SPO160
+- ODB160
+- ODB150
+- GOB150
+- GOB160
 ms.assetid: 8e200cb2-c768-49cb-88ec-53493e8ad80a
 description: "Learn how to use PowerShell to display a list of every OneDrive in your organization."
 ---

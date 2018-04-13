@@ -3,12 +3,15 @@ title: "Control access to features in the OneDrive and SharePoint mobile apps"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 8/10/2017
+ms.date: 4/11/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
 localization_priority: Normal
 ms.collection: Strat_OD_admin
+search.appverid:
+- ODB160
+- ODB150
 ms.assetid: d25713bb-5cf8-4874-9b5b-e8bee3b94f13
 description: "Learn how to create a mobile application management policy for the OneDrive and SharePoint mobile apps in the OneDrive admin center. "
 ---
@@ -60,7 +63,7 @@ Go to the Device access page of the [OneDrive admin center](https://admin.onedri
   
 [Configure and deploy mobile application management policies in the Microsoft Intune console](https://docs.microsoft.com/en-us/intune/deploy-use/configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console)
   
-[Control access from personal devices](control-access-based-on-network-location-or-app)
+[Control access based on network location or app](control-access-based-on-network-location-or-app)
   
 [OneDrive admin center](https://support.office.com/article/b5665060-530f-40a3-b34a-9e935169b2e0)
   

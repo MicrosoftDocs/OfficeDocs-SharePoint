@@ -1,0 +1,54 @@
+---
+title: "Turn on external sharing notifications for OneDrive for Business"
+ms.author: kaarins
+author: kaarins
+manager: pamgreen
+ms.date: 4/11/2018
+ms.audience: Admin
+ms.topic: article
+ms.prod: office-online-server
+localization_priority: Normal
+ms.collection: Strat_OD_admin
+search.appverid:
+- ODB160
+- MOE150
+- MED150
+- MBS150
+- ODB150
+ms.assetid: b640c693-f170-4227-b8c1-b0a7e0fa876b
+description: "Make sure OneDrive owners in your organization are emailed when their files and folders are shared externally."
+---
+
+# Turn on external sharing notifications for OneDrive for Business
+
+To help your OneDrive users monitor and control which external users have access to their files, make sure external sharing notifications are turned on. File and folder owners will be emailed when:
+  
+- Another user invites external users to shared files
+    
+- An external user accepts an invitation to access their files
+    
+If external sharing is enabled in your organization, these notifications are enabled by default.
+  
+> [!NOTE]
+> Office 365 admins can use [Search the audit log in the Office 365 Security &amp; Compliance Center](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c) to monitor content that is shared externally. 
+  
+## Turn on external sharing notifications
+
+1. Open the [OneDrive admin center](https://admin.onedrive.com/?v=NotificationSettings) and click the **Notifications** tab. 
+    
+     ![The Notifications tab of the OneDrive admin center](media/1ac4d2c3-e8b8-45f1-a638-a4c7e72d3a1d.png)
+  
+2. Under **Email OneDrive owners when**, make sure the following check boxes are selected: 
+    
+  - **Other users invite additional users to shared files**
+    
+  - **External users accept invitations to access files**
+    
+## See also
+
+#### Other Resources
+
+[OneDrive admin center](https://support.office.com/article/b5665060-530f-40a3-b34a-9e935169b2e0)
+  
+[OneDrive for Business - Admin Help](https://support.office.com/article/3e21f8f0-e0a1-43be-aa3e-8c0236bf11bb)
+
