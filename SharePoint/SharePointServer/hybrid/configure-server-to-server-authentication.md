@@ -144,11 +144,7 @@ To install the online service management tools and configure the PowerShell wind
     
     For additional information, see [Microsoft Online Services Sign-In Assistant for IT Professionals RTW](https://go.microsoft.com/fwlink/?LinkId=392322) (https://go.microsoft.com/fwlink/?LinkId=392322). 
     
-2. Install the Azure Active Directory Module for Windows PowerShell:
-    
-    [Azure Active Directory Module for Windows PowerShell (64 bit version)](https://go.microsoft.com/fwlink/p/?linkid=236297) (https://go.microsoft.com/fwlink/p/?linkid=236297) 
-    
-    For additional information about Azure Active Directory Module for Windows PowerShell, see [Manage Azure Active Directory by using Windows PowerShell](https://aka.ms/aadposh) (https://aka.ms/aadposh). 
+2. Install the [latest version of the Azure Active Directory Module for Windows PowerShell](https://social.technet.microsoft.com/wiki/contents/articles/28552.microsoft-azure-active-directory-powershell-module-version-release-history.aspx)
     
 3. Install the SharePoint Online Management Shell:
     

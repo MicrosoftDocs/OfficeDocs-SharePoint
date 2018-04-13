@@ -3,7 +3,7 @@ title: "How to use the SharePoint Migration Tool"
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
-ms.date: 3/5/2018
+ms.date: 4/10/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -17,14 +17,25 @@ description: "The SharePoint Migration Tool is a tool that migrates your files f
 
 # How to use the SharePoint Migration Tool
 
-The SharePoint Migration Tool is a tool that migrates your files from SharePoint on-premises document libraries or regular file shares and easily moves them to your SharePoint Online tenant. It is available to all Office 365 users.
+The SharePoint Migration Tool (SPMT) is a tool that migrates your files from SharePoint on-premises document libraries or regular file shares and easily moves them to your SharePoint Online tenant. It is available to all Office 365 users.
   
+> [!Note]
+> A portion of this article discusses features currently in beta release of the Microsoft product, SharePoint Migration Tool. Beta features are noted in the context of the text. The information in this article is provided as-is and is subject to change without notice. 
+
+>[!NOTE]
+> The new V2 beta release is now available for download. 
+>To install the new V2 beta release, download it here: [SharePoint Migration Tool V2 Beta release](http://spmtreleasescus.blob.core.windows.net/betainstall/default.htm). 
+
+
+>[!NOTE]
+>To install the current release download here: [SharePoint Migration Tool Version 1](http://spmtreleasescus.blob.core.windows.net/install/default.htm).
+
 > [!NOTE]
 > Currently the **SharePoint Migration Tool** is not available for users of Office 365 operated by 21Vianet in China. 
   
 ## Before you begin
 
-When you first launch the SharePoint Migration Tool, you will be prompted for your Office 365 username and password. The Office 365 credentials you provide will be where the files will be migrated.
+When you first launch the SharePoint Migration Tool (SPMT), you will be prompted for your Office 365 username and password. The Office 365 credentials you provide will be where the files will be migrated.
   
 ### Recommended requirements for best performance
 
@@ -51,6 +62,8 @@ When you first launch the SharePoint Migration Tool, you will be prompted for yo
 ## What happens to the permissions on a file when it is migrated?
 
 The location of your on-premises data, and whether you have synchronized your Active Directory accounts to Azure Active Directory (AAD), can affect the permission settings on your files after they have been migrated to SharePoint Online.
+
+See [Understanding Permissions and the SharePoint Migration Tool](..//migrate-to-sharepoint-online/understanding-permissions-when-migrating.md) for a complete explanation of permission settings.
   
 > [!NOTE]
 > Certain settings can affect how permissions on your files will be handled. See the [Advanced Settings](how-to-use-the-sharepoint-migration-tool.md#BKMK_Settings_1_1) section below, specifically the  *Azure Active Directory lookup*  ,  *Preserve permissions*  , and  *User Mapping file*  settings. 
@@ -67,7 +80,7 @@ The location of your on-premises data, and whether you have synchronized your Ac
    
 ## Where is your data currently located?
 
-Before you start using the SharePoint Migration Tool, note where your data is located and where you want those files. You will be prompted for the current location of your data files and the location of the SharePoint Online site collection where you want them moved. The SharePoint Migration Tool lets you select from two sources from which to migrate your data: from an on-premises SharePoint Server 2013 site or from a local file share or network path.
+Before you start using the SharePoint Migration Tool (SPMT), note where your data is located and where you want those files. You will be prompted for the current location of your data files and the location of the SharePoint Online site collection where you want them moved. The SharePoint Migration Tool lets you select from two sources from which to migrate your data: from an on-premises SharePoint Server 2013 site or from a local file share or network path.
   
 - **SharePoint on-premises:** If you select the SharePoint on-premises option, you will be asked to enter the name of the SharePoint Server site where your files are located and prompted for your credentials for that site. You will indicate what document library you wish to migrate. 
     
@@ -78,7 +91,9 @@ Before you start using the SharePoint Migration Tool, note where your data is lo
     
 ## Using the SharePoint Migration tool
 
-If you don't have it yet, [download the SharePoint Migration Tool](http://spmtreleasescus.blob.core.windows.net/install/default.htm).
+If you don't have it yet, you have two options:  To install the current release download here: [SharePoint Migration Tool Version 1.1.90.1](http://spmtreleasescus.blob.core.windows.net/install/default.htm)
+
+If you wish to install the new V2 beta release, download it here:  [SharePoint Migration Tool V2 Beta release](http://spmtreleasescus.blob.core.windows.net/betainstall/default.htm)
   
  **Migrating data files from SharePoint Server document libraries**
   
@@ -99,6 +114,18 @@ If you don't have it yet, [download the SharePoint Migration Tool](http://spmtre
     
     > [!NOTE]
     > If you have already signed in to that site once while using this tool, you won't be prompted again for the same site. 
+
+    **Note:**  SPMT Version 2, currently in beta, supports the following authentication methods:
+
+    - NTLM
+    - Kerberos
+    - Forms
+    - ADFS
+    - Multi-factor authentication
+    - SAML based claims
+    - Client certificate authentication
+
+        **Important Note:**  If the on-perm server is configured to support multiple authentication methods including the Windows authentication, then Windows authentication will not be supported. If this describes your environment, use other authentication methods instead of Windows authentication. 
   
 7. Choose the document library where your files are located. The drop-down list will contain all your possible choices.
     
@@ -131,32 +158,33 @@ If you don't have it yet, [download the SharePoint Migration Tool](http://spmtre
     
 9. When you have finished selecting your sources, click **Migrate**.
     
-## Bulk migration using a CSV file
+## Bulk migration using a JSON or CSV file
 
-If you have many sources to migrate, you can use a CSV file to do a bulk migration. Create a comma-delimited file CSV file that includes the following the following 6 columns. Each field is separated by a comma. If the value within a column contains a comma, surround it double quotations.
+If you have many sources to migrate, you can use either a JSON or CSV file to do a bulk migration.
+
+>[!Note]
+>The use of JSON files for bulk import are only supported in the V2 Beta release.
   
-For more information on how to create a CSV file for data content migration, see [How to format your CSV file for data content migration](how-to-format-your-csv-file-for-data-content-migration.md).
+For more information on how to create a JSON or CSV file for data content migration, see [How to format your JSON or CSV file for data content migration](how-to-format-your-csv-file-for-data-content-migration.md).
   
- **To use a CSV file for bulk migration**
+ **To use a JSON or CSV file for bulk migration**
   
 1. Open the SharePoint Migration Tool, and then click **Next**.
     
 2. Enter your Office 365 username and password, and then click **Sign in**.
     
-3. Select **Choose a source and destination**.
-    
-4. Select **Use a CSV file for bulk migration**. Enter the location of your CSV file, or click **Choose File** to locate it. Click **Add**.
+3. Select **JSON or CSV file for bulk migration**. Enter the location of your file, or click **Choose File** to locate it. Click **Add**.
     
     > [!NOTE]
     > If you are migrating files from an on-premises SharePoint Server, you will be prompted for your username and password for that site unless you provided those credentials in previous steps. 
   
     > [!NOTE]
-    > Any errors in your CSV file will be detected on a line-by-line basis. The error will indicate which line or lines contains the errors. You will not be able to proceed until you correct the errors in your CSV file. 
+    > Any errors in your file it will be detected on a line-by-line basis. The error will indicate which line or lines contains the errors. You will not be able to proceed until you correct the errors in your file. 
   
     > [!IMPORTANT]
     > Proxy connections are not supported. Using Proxy connections will yield errors such as "SharePoint login fail" or "cannot load document library". 
   
-5. If your CSV file is successfully added without errors, the job will be added to your list of sources and destinations.
+5. If your JSON or CSV file is successfully added without errors, the job will be added to your list of sources and destinations.
     
 6. If you want to select another set of data files to migrate, click **Choose a source and destination**.
     
@@ -261,7 +289,7 @@ Advanced settings should only be changed or managed by your IT professional. The
   
 [How the SharePoint Migration Tool works](how-the-sharepoint-migration-tool-works.md)
   
-[How to format your CSV file for data content migration](how-to-format-your-csv-file-for-data-content-migration.md)
+[How to format your JSON or CSV file for data content migration](how-to-format-your-csv-file-for-data-content-migration.md)
   
 [Create a user mapping file for data content migration](create-a-user-mapping-file-for-data-content-migration.md)
   

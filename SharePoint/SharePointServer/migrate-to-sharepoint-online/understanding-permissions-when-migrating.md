@@ -3,7 +3,7 @@ title: "Understanding permissions when migrating"
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
-ms.date: 4/6/2018
+ms.date: 4/10/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: sharepoint-server-itpro
@@ -16,7 +16,7 @@ description: "Understanding how permissions work when migrating data from on-pre
 
 The SharePoint Migration Tool permission control is effected by various conditions.  The following table lists all the conditions and the corresponding results.
 
-|**Source**|***Preserve user permissions* set to ON**|**Migrating to Target library root folder or sub folder?**|**Target library permission before migration**|**Target library permission after migration**|**Note**|
+|**Source**|***Preserve user permissions* set to ON**|**Are you migrating to the Target library root folder or sub folder?**|**Target library permission before migration**|**Target library permission after migration**|**Note**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |File share|No|Root folder|Inherited|Inherited|Role assignments of the target library and existing files won't be changed| migrated files have Inherited permission (Inherited role assignments from target library)|
 |File share|No|Root folder|Unique|Unique|Role assignments of the target library and existing files won't be changed| migrated files have Inherited permission (Inherited role assignments from target library)|
@@ -34,10 +34,10 @@ The SharePoint Migration Tool permission control is effected by various conditio
 |list/Document library |Yes|Root folder|Unique|Unique|Same as File share migration with same condition|
 |Document library |Yes|Sub folder|Inherited|Inherited|Same as File share migration with same condition|
 |Document library |Yes|Sub folder|Unique|Unique|Same as File share migration with same condition|
-|Site/web|No|NA|Inherited|Inherited|Role assignment of target site/web will be unchanged|
-|Site/web|No|NA|Unique|Unique|Role assignment of target site/web will be unchanged|
-|Site/web|Yes|NA|Inherited |Unique|Role assignment of target site/web **will be replaced** by those in the source site/web|
-|Site/web(A) with subsite B  (both migrated with SPMT)|Yes|NA|Subsite B or sub web Inherited from main site A|Subsite(B/web inherited from the new SPO main site A”|Site A is migrated as described for normal site migration|
-|Site/web|Yes|NA|Unique|Unique|Role assignment of source site/web will be added as new role assignments to the target site/web|
+|Site/Web|No|NA|Inherited|Inherited|Role assignment of target site/web will be unchanged|
+|Site/Web|No|NA|Unique|Unique|Role assignment of target site/web will be unchanged|
+|Site/Web|Yes|NA|Inherited |Unique|Role assignment of target site/web **will be replaced** by those in the source site/web|
+|Site/Web(A) with Subsite B  (both migrated with SPMT)|Yes|NA|Subsite B or sub web inherited from main Site A|Subsite B/web unique from the new SPO main site A|Site A is migrated as described for normal site migration.  Subsite B becomes unique and role assignment **will be replaced** by those in the source Subsite B|
+|Site/Web|Yes|NA|Unique|Unique|Role assignment of source site/web will be added as new role assignments to the target site/web|
 
 
