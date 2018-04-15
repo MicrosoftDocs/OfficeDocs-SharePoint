@@ -101,7 +101,7 @@ Use this procedure to reconfigure the memory allocation of the cache size of the
     
   ```
   Use-CacheCluster
-  Get-AFCacheHostConfiguration -ComputerName ComputerName -CachePort "22233"
+  Get-AFCacheHostConfiguration -ComputerName $Env:ComputerName -CachePort "22233"
   
   ```
 
