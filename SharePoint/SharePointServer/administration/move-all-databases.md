@@ -207,7 +207,10 @@ The version of the existing SharePoint Server and Windows Server must also suppo
     
 2. On the destination database server, attach the databases to the new instance. For more information, see [Attach a Database](http://go.microsoft.com/fwlink/p/?LinkID=717343) and [sp_attach_db (Transact-SQL)](http://go.microsoft.com/fwlink/p/?LinkID=717344).
     
-The following procedures provide methods to connect to the new SQL Server instance or update the database connections. Use the procedure that works best for your SharePoint Server farm environment. 
+The following procedures provide methods to connect to the new SQL Server instance or update the database connections. Use the procedure that works best for your SharePoint Server farm environment.
+
+> [!IMPORTANT]
+> If you're using SharePoint Server and SQL Server AlwaysOn Availability Groups, you must point to the AG Listner.
   
 ### To point the web application to the new database server by setting up SQL Server connection aliases
 
@@ -219,7 +222,7 @@ The following procedures provide methods to connect to the new SQL Server instan
     
   - The **db_owner** fixed database role 
     
-3. Start the SQL Server Client Network Utility (cliconfg.exe). This utility is typically located in the C:\Windows\System32 and C:\Windows\SysWOW64 folders.
+3. Start the SQL Server Client Network Utility (cliconfg.exe). This utility is typically located in the C:\Windows\SysWOW64 folder.
     
 4. On the **General** tab, verify that TCP/IP is enabled.
     
