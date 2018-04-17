@@ -45,7 +45,7 @@ If you plan to use capabilities that are offered through SharePoint 2013 or thro
   - [Configure Exchange for SharePoint eDiscovery Center](https://technet.microsoft.com/en-us/library/jj218665%28v=exchg.150%29)
     
     
-- Hardware requirements for search in UNRESOLVED_TOKEN_VAL(SharePoint Server 2013):
+- Hardware requirements for search in SharePoint Server 2013:
     
   - [Step 3: Which hardware requirements should I be aware of?](../search/plan-enterprise-search-architecture.md#BKMK_AssignHW)
     
@@ -153,7 +153,7 @@ Minimum requirements for a single server with built-in database:
 - The 64-bit edition of Windows Server 2008 R2 Service Pack 1 (SP1) Standard, Enterprise, or Datacenter or the 64-bit edition of Windows Server 2012 R2 Standard or Datacenter
     
     > [!NOTE]
-    > Windows Server 2012 R2 is only supported on a UNRESOLVED_TOKEN_VAL(SharePoint Server 2013) Service Pack 1 environment. For additional information about Windows Server 2012 R2 support, see [SharePoint 2013 SP1 support in Windows Server 2012 R2](https://support.microsoft.com/kb/2891274/en-us). 
+    > Windows Server 2012 R2 is only supported on a SharePoint Server 2013 Service Pack 1 environment. For additional information about Windows Server 2012 R2 support, see [SharePoint 2013 SP1 support in Windows Server 2012 R2](https://support.microsoft.com/kb/2891274/en-us). 
   
 - The SharePoint parsing process crashes in Windows Server 2008 R2 (KB 2554876)
     
@@ -201,7 +201,7 @@ Minimum requirements for front-end web servers and application servers in a farm
 - The 64-bit edition of Windows Server 2008 R2 Service Pack 1 (SP1) Standard, Enterprise, or Datacenter or the 64-bit edition of Windows Server 2012 R2 Standard or Datacenter.
     
     > [!NOTE]
-    > Windows Server 2012 R2 is only supported on a UNRESOLVED_TOKEN_VAL(SharePoint Server 2013) Service Pack 1 environment. For additional information about Windows Server 2012 R2 support, see [SharePoint 2013 SP1 support in Windows Server 2012 R2](https://support.microsoft.com/kb/2891274/en-us). 
+    > Windows Server 2012 R2 is only supported on a SharePoint Server 2013 Service Pack 1 environment. For additional information about Windows Server 2012 R2 support, see [SharePoint 2013 SP1 support in Windows Server 2012 R2](https://support.microsoft.com/kb/2891274/en-us). 
   
 - The SharePoint parsing process crashes in Windows Server 2008 R2 (KB 2554876) 
     
@@ -258,7 +258,7 @@ The following are the minimum SharePoint 2013 services and service applications 
     
 - Secure Store Service
     
-- User Profile service application (UNRESOLVED_TOKEN_VAL(SharePoint Server 2013) only)
+- User Profile service application (SharePoint Server 2013 only)
     
 ## Optional software
 <a name="OptionalSoftware"> </a>
