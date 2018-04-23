@@ -1,4 +1,6 @@
 ﻿
+  
+
 # [SharePoint Online](sharepoint-online.md)
 ## [SharePoint Online Planning Guide for Office 365 for business](sharepoint-online-planning-guide-for-office-365-for-business.md)
 ## [Manage site collections and global settings in the SharePoint admin center](manage-site-collections-and-global-settings-in-the-sharepoint-admin-center.md)
@@ -26,14 +28,14 @@
 ### [Enable users to sync SharePoint files with the new OneDrive sync client](enable-users-to-sync-sharepoint-files-with-the-new-onedrive-sync-client.md)
 ### [Learn more about the Sync button update on SharePoint sites](learn-more-about-the-sync-button-update-on-sharepoint-sites.md)
 ### [Enable users to sync IRM-protected files with the OneDrive sync client](enable-users-to-sync-irm-protected-files-with-the-onedrive-sync-client.md)
-## [sharing-and-permissions](.md)
+## [sharing-and-permissions]()
 ### [Default SharePoint Groups](default-sharepoint-groups.md)
 ### [Manage external sharing](manage-external-sharing.md)
 ### [What is permissions inheritance?](what-is-permissions-inheritance.md)
 ### [Change the default link type when users get links for sharing](change-the-default-link-type-when-users-get-links-for-sharing.md)
 ### [What's new in sharing in targeted release](what-s-new-in-sharing-in-targeted-release.md)
 ### [Turn external sharing on or off for SharePoint Online](turn-external-sharing-on-or-off-for-sharepoint-online.md)
-## [Security]()
+## [security]()
 ### [Control access to SharePoint Online and OneDrive data based on defined network locations](control-access-to-sharepoint-online-and-onedrive-data-based-on-defined-network-l.md)
 ### [Control access from unmanaged devices](control-access-from-unmanaged-devices.md)
 ### [SharePoint Online authentication](sharepoint-online-authentication.md)
