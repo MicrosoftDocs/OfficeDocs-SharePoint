@@ -8,6 +8,7 @@ ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
 localization_priority: Normal
+search.appverid: SPO160
 ms.assetid: 187b73a8-02b5-4aa2-9db6-3b62cf2b8cd9
 description: "As a SharePoint Online administrator, you can specify where searches should go by specifying the URL of your Search Center."
 ---

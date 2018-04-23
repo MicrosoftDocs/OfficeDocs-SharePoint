@@ -3,7 +3,7 @@ title: "Manage external sharing for your SharePoint Online environment"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 4/3/2018
+ms.date: 4/18/2018
 ms.audience: Admin
 ms.topic: article
 f1_keywords:
@@ -16,6 +16,16 @@ ms.service: o365-administration
 localization_priority: Priority
 ms.collection: Strat_OD_share
 ms.custom: Adm_O365
+search.appverid:
+- SPO160
+- MOE150
+- MED150
+- MBS150
+- GSS150
+- GSA150
+- BSA160
+- BCS160
+- GSP150
 ms.assetid: c8a462eb-0723-4b0b-8d0a-70feafe4be85
 description: "Learn about the external sharing options in SharePoint Online."
 ---
@@ -104,14 +114,13 @@ If you have business partners or vendors with whom you need to collaborate or sh
   
 SharePoint Online extranet sites are very easy to set up and much easier and less expensive to maintain than on-premises extranet sites. For details, see [Use Office 365 SharePoint Online as a business-to-business (B2B) extranet solution](use-office-365-sharepoint-online-as-a-business-to-business-b2b-extranet-solution).
   
-## Related Topics
+## See also
 
-[Manage sharing with external users in Office 365 Small Business](https://support.office.com/article/2951a85f-c970-4375-aa4f-6b0d7035fe35)
+#### Other Resources
+
+[Coaching your guest users through the External Sharing Experience](https://techcommunity.microsoft.com/t5/SharePoint-Support-Blog/Coaching-your-guest-users-through-the-External-Sharing/ba-p/182739)
   
 [Set up and manage access requests](https://support.office.com/article/94b26e0b-2822-49d4-929a-8455698654b3)
   
 [Searching for site content shared with external users](https://go.microsoft.com/fwlink/?LinkId=620778)
-  
-[Plan your permissions strategy](https://support.office.com/article/c6183e49-9287-4689-999e-0d3f817a41a3)
-  
 

@@ -1,5 +1,5 @@
 ---
-title: "Turn on external sharing notifications for OneDrive for Business"
+title: "Turn on external sharing notifications for OneDrive"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
@@ -19,7 +19,7 @@ ms.assetid: b640c693-f170-4227-b8c1-b0a7e0fa876b
 description: "Make sure OneDrive owners in your organization are emailed when their files and folders are shared externally."
 ---
 
-# Turn on external sharing notifications for OneDrive for Business
+# Turn on external sharing notifications for OneDrive
 
 To help your OneDrive users monitor and control which external users have access to their files, make sure external sharing notifications are turned on. File and folder owners will be emailed when:
   

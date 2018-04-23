@@ -8,6 +8,7 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
+search.appverid: SPO160
 ms.assetid: cefcab58-d2ce-4823-91fe-ccdc59da64e9
 description: "This article explains how the SharePoint Online admin can manage app licenses and do things like assign licenses, buy more licenses, recover licneses, or add license managers."
 ---

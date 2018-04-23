@@ -8,6 +8,11 @@ ms.audience: Admin
 ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
+search.appverid:
+- SPO160
+- GSA150
+- BSA160
+- GSP150
 ms.assetid: 88c69842-7eba-4372-953f-e4cff5818b88
 description: "The Preview Features setting in the SharePoint admin center lets you enable or disable integration with other services. The setting is enabled by default."
 ---

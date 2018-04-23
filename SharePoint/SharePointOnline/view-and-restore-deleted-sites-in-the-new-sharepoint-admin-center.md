@@ -8,6 +8,9 @@ ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
 localization_priority: Normal
+search.appverid:
+- SPO160
+- BSA160
 ms.assetid: 3bde21ee-fb76-431a-98f6-24f97b58f233
 description: "Learn about viewing and restoring sites on the Recycle bin page of the new SharePoint admin center."
 ---

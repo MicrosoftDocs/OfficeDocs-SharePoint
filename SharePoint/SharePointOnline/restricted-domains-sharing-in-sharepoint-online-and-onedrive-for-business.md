@@ -3,7 +3,7 @@ title: "Restricted domains sharing in SharePoint Online and OneDrive for Busines
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 2/14/2018
+ms.date: 4/12/2018
 ms.audience: End User
 ms.topic: article
 ms.prod: office-online-server
@@ -11,6 +11,11 @@ localization_priority: Normal
 ms.collection:
 - Ent_O365_Hybrid
 - Strat_OD_share
+search.appverid:
+- ODB160
+- MOE150
+- FRP150
+- ODB150
 ms.assetid: 5d7589cd-0997-4a00-a2ba-2320ec49c4e9
 description: "Manage external access to your Office 365 tenant for OneDrive for Business and SharePoint Online Extranet B2B (Business-to-Business) sites by using the Allow List or Deny List feature to restrict access to specific email domains.  "
 ---
@@ -39,7 +44,7 @@ Tenant-level settings affect all SharePoint Online site collections, including t
     
 6. From the drop-down list, choose either **Don't allow sharing with users from these blocked domains** to deny access to targeted domains or **Allow sharing only with users from these domains** to limit access to only to the domains you list. 
     
-7. List the domains (maximum of 120) in the box provided, using the format  *domain.com.*  . If listing more than one domain, separate each domain with a space or a carriage return. 
+7. List the domains (maximum of 1000) in the box provided, using the format  *domain.com.*  . If listing more than one domain, separate each domain with a space or a carriage return. 
     
     ![Additional settings for limiting external sharing in Office 365 SPO](media/11e789b2-8aca-46b5-ad4f-d7310e02a80b.png)
   

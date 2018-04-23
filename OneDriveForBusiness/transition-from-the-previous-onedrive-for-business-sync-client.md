@@ -49,7 +49,7 @@ The following library types are not yet supported by the new OneDrive sync clien
     
 ## Prerequisites
 
-1. Make sure users have the following versions of Office or higher installed. For info about deploying Office, see [Choose how to deploy Office 365 ProPlus](https://support.office.com/article/e471ef30-2a09-4767-a172-aa74e1dc4686). Make sure you don't install the previous OneDrive for Business sync client. For info, see [Changes to the previous OneDrive sync client (Groove.exe) in Office 2016 Click-to-Run](changes-to-the-previous-onedrive-sync-client-groove-exe-in-office-2016-click-to).
+1. Make sure users have the following versions of Office or higher installed. For info about deploying Office, see [Choose how to deploy Office 365 ProPlus](https://support.office.com/article/e471ef30-2a09-4767-a172-aa74e1dc4686). Make sure you don't install the previous OneDrive for Business sync client. For info, see [Changes to the previous OneDrive sync client (Groove.exe) in Office 2016 Click-to-Run](exclude-or-uninstall-groove-exe-when-using-office-click-to-run).
     
 |||
 |:-----|:-----|
@@ -67,7 +67,7 @@ The following library types are not yet supported by the new OneDrive sync clien
 
 1. In the SharePoint admin center, [Enable users to sync SharePoint files with the new OneDrive sync client](https://support.office.com/article/22e1f635-fb89-49e0-a176-edab26f69614). If the options aren't available, the new OneDrive sync client is already set up to sync OneDrive for Business and SharePoint Online files.
     
-2. If you're running Windows 10, you can use silent account configuration to sign in users. For info, see [Silently configure OneDrive using Windows 10 or domain credentials](control-sync-client-settings-using-group-policy.md#SilentConfig).
+2. If you're running Windows 10, you can use silent account configuration to sign in users. For info, see [Silently configure OneDrive using Windows 10 or domain credentials](use-group-policy-to-control-sync-client-settings.md#SilentConfig).
     
 ## Run the takeover command
 
@@ -106,7 +106,7 @@ For more information, see [Get-SPOTenantSyncClientRestriction](https://go.micros
   
 [Get started with the new OneDrive sync client on Mac OS X](https://support.office.com/article/d11b9f29-00bb-4172-be39-997da46f913f)
   
-[Use Group Policy to control OneDrive sync client settings](control-sync-client-settings-using-group-policy)
+[Use Group Policy to control OneDrive sync client settings](use-group-policy-to-control-sync-client-settings)
   
 [Restrictions and limitations when you use the new OneDrive sync client to sync OneDrive for Business libraries](https://go.microsoft.com/fwlink/?LinkId=717734)
 

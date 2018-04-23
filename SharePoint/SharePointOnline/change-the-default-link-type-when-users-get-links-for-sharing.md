@@ -11,6 +11,11 @@ f1_keywords:
 - WSSCentralAdmin_SharingLinkTypeLearnMore
 ms.prod: office-online-server
 localization_priority: Normal
+search.appverid:
+- SPO160
+- GSA150
+- BSA160
+- GSP150
 ms.assetid: 81b763af-f301-4226-8842-8d13bd07face
 description: "When a user wants to share a document or folder, they can get a link to it to send to others."
 ---

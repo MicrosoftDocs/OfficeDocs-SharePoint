@@ -8,6 +8,12 @@ ms.audience: Admin
 ms.topic: troubleshooting
 ms.service: o365-administration
 localization_priority: Priority
+search.appverid:
+- SPO160
+- MOE150
+- MED150
+- MBS150
+- BCS160
 ms.assetid: 576325ad-8c40-4fe8-8a63-68c3b7d536cf
 description: "Learn what you need to do to switch to a new domain name for SharePoint Online"
 ---

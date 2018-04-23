@@ -3,12 +3,17 @@ title: "Control access to SharePoint Online and OneDrive data based on defined n
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 8/25/2017
+ms.date: 4/19/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
 localization_priority: Normal
 ms.collection: Strat_SP_admin
+search.appverid:
+- SPO160
+- GSA150
+- BSA160
+- GSP150
 ms.assetid: b5a5f1f1-1174-4c6b-91d0-9273a6b6971f
 description: "Learn how to restrict access to SharePoint and OneDrive from untrusted networks."
 ---
@@ -37,21 +42,27 @@ Here are some important considerations for setting a location-based policy:
 > [!NOTE]
 > It can take up to 15 minutes for these settings to take effect. 
   
-1. In the SharePoint admin center, click **device access**.
+1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4) as a global admin or SharePoint admin. 
     
-2. Under **Control access based on network location**, select **Only allow access from specific IP address locations**
+2. Select the app launcher icon ![The icon that looks like a waffle and represents a button click that will reveal multiple application tiles for selection.](media/3b8a317e-13ba-4bd4-864e-1ccd47af39ee.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
-3. Enter the IP address, address range, or multiple addresses separated by commas in the **Allowed IP addresses** box. 
+3. In the left pane, choose **Admin centers** > **SharePoint**.
+    
+4. In the left pane, click **device access**.
+    
+5. Under **Control access based on network location**, select **Only allow access from specific IP address locations**
+    
+6. Enter the IP address, address range, or multiple addresses separated by commas in the **Allowed IP addresses** box. 
     
 ![Control access option in SharePoint admin center](media/2c11f07c-ec95-4aa6-b221-4cfaba31034e.png)
   
 ## Set a location-based policy using Windows PowerShell
 
-As a SharePoint Online global administrator, you may prefer to set a trusted network boundary using the [SharePoint Online Management Shell](https://www.microsoft.com/en-us/download/details.aspx?id=35588).
-  
-1. Use [Connect-SPOService](https://technet.microsoft.com/en-us/library/fp161392.aspx) to connect to the SharePoint Online Admin Center. 
+1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
     
-2.  Use [Set-SPOTenant](https://technet.microsoft.com/en-us/library/fp161390.aspx) to specify your allowed IP addresses, as in this example (replace the example IP address "131.102.0.0/16" with your own): 
+2. Connect to SharePoint Online as a global admin or SharePoint admin in Office 365. To learn how, see [Getting started with SharePoint Online Management Shell](https://go.microsoft.com/fwlink/?linkid=869066).
+    
+3.  Run [Set-SPOTenant](https://go.microsoft.com/fwlink/?linkid=872571) to specify your allowed IP addresses, as in this example (replace the example IP address "131.102.0.0/16" with your own): 
     
   ```
   Set-SPOTenant -IPAddressAllowList "131.102.0.0/16"
@@ -60,7 +71,7 @@ As a SharePoint Online global administrator, you may prefer to set a trusted net
     > [!IMPORTANT]
     >  Use IPv4 or IPv6 formats ony. >  Verify that there are no overlapping IP address ranges. >  Double check the IP range(s) before enabling this policy to ensure you do not lock yourself out. 
   
-3. Enforce the allowable IP ranges you just set as in this example:
+4. Enforce the allowable IP ranges you just set as in this example:
     
   ```
   Set-SPOTenant -IPAddressEnforcement $true

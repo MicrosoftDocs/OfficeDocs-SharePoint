@@ -3,7 +3,7 @@ title: "Set the default file retention for deleted OneDrive users"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 10/12/2017
+ms.date: 4/17/2018
 ms.audience: Admin
 ms.topic: article
 f1_keywords:
@@ -41,6 +41,8 @@ If a user's Office 365 account is deleted, their OneDrive for Business files are
 [Remove a former employee from Office 365](https://support.office.com/article/44d96212-4d90-4027-9aa9-a95eddb367d1)
   
 [Set up OneDrive to alert managers and delegate access automatically when users leave your organization](http://go.microsoft.com/fwlink/p/?LinkId=798417&amp;clcid=0x409)
+  
+[Overview of retention policies](https://support.office.com/article/5e377752-700d-4870-9b6d-12bfc12d2423#how)
   
 [OneDrive admin center](https://support.office.com/article/b5665060-530f-40a3-b34a-9e935169b2e0)
 

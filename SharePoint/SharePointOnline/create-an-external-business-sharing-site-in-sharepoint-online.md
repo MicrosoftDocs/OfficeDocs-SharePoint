@@ -11,6 +11,10 @@ localization_priority: Normal
 ms.collection:
 - Ent_O365_Hybrid
 - Strat_OD_share
+search.appverid:
+- SPO160
+- MOE150
+- BSA160
 ms.assetid: c40d4670-7f6c-4719-9c6f-8dee36220a48
 description: "Do you have a need to share and collaborate with a business partner outside of your company? With SharePoint Online you can quickly and easily create an extranet site. An extranet site is a site where anyone you choose outside of your company can have secure access to content you wish to share or collaborate on. The content is kept in one place and can be accessed anywhere using any device."
 ---

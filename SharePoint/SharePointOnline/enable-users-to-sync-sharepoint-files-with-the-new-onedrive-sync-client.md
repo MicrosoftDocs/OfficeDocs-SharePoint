@@ -9,6 +9,12 @@ ms.topic: article
 ms.prod: office-online-server
 localization_priority: Normal
 ms.collection: Strat_OD_admin
+search.appverid:
+- SPO160
+- ODB160
+- SPB160
+- ODB150
+- BSA160
 ms.assetid: 22e1f635-fb89-49e0-a176-edab26f69614
 description: "Learn how to enable users in your organization to sync SharePoint Online files with the new OneDrive sync client."
 ---
@@ -85,9 +91,9 @@ This preview automatically takes over syncing the libraries that are synced usin
 
 To enable users in your organization to sync SharePoint Online team sites with the OneDrive sync client, you first need to deploy the OneDrive sync client to your organization.
   
-See [Deploy the new OneDrive sync client in an enterprise environment](https://support.office.com/article/3f3a511c-30c6-404a-98bf-76f95c519668)
+See [Deploy the new OneDrive sync client for Windows](https://support.office.com/article/3f3a511c-30c6-404a-98bf-76f95c519668)
   
-See [Configure the new OneDrive sync client on macOS](https://support.office.com/article/eadddc4e-edc0-4982-9f50-2aef5038c307)
+See [Deploy and configure the new OneDrive sync client for Mac](https://support.office.com/article/eadddc4e-edc0-4982-9f50-2aef5038c307)
   
 ## Set SharePoint to sync with the OneDrive sync client
 <a name="admincenter"> </a>

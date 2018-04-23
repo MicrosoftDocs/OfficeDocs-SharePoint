@@ -9,6 +9,11 @@ ms.topic: article
 ms.prod: office-online-server
 localization_priority: Normal
 ms.collection: Strat_SP_modern
+search.appverid:
+- SPO160
+- GSA150
+- BSA160
+- GSP150
 ms.assetid: e72844a3-0171-47c9-befb-e98b23e2dcf9
 description: "Learn how to manage your user's self-service site creation."
 ---

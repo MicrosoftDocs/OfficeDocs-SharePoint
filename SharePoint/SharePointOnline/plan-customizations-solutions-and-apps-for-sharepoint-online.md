@@ -8,6 +8,7 @@ ms.audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
 localization_priority: Normal
+search.appverid: SPO160
 ms.assetid: b7898ebf-69b7-4196-81e3-b04e1a4e7d67
 description: "This article describes the range of customizations you can apply to SharePoint Online for Office 365 Enterprise sites. These customizations move from browser-based configuration to developer-created apps and solutions. It also helps you identify the types of customization most appropriate to your needs."
 ---

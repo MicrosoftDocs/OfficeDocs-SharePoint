@@ -8,6 +8,7 @@ ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
 localization_priority: Normal
+search.appverid: SPO160
 ms.assetid: 8b1f8b6b-09c6-41c9-b1ca-88cbeee86ba2
 description: "Learn how to use PowerShell to disable the hub site feature on a site"
 ---

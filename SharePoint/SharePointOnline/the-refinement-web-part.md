@@ -8,6 +8,7 @@ ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
 localization_priority: Normal
+search.appverid: SPO160
 ms.assetid: fc0a2cb2-4947-4df8-ace2-3486ad8318b3
 description: "Learn how to customize refiners on search results pages by changing settings in the Refinement Web Part. The Refinement Web Part filters search results into categories called refiners."
 ---

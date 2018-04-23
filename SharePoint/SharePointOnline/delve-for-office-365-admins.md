@@ -8,6 +8,10 @@ ms.audience: Admin
 ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
+search.appverid:
+- MOE150
+- DEL150
+- FRP150
 ms.assetid: 54f87a42-15a4-44b4-9df0-d36287d9531b
 description: "The more you and your colleagues use Office 365 to work together, by viewing, editing and sharing each other's documents, the more useful Delve will be for all of you. Learn more about how you as an admin can help users get the most out of Delve."
 ---
@@ -198,7 +202,7 @@ There are a few things you should check if one or more users in your organizatio
     
   - Microsoft Office 365 Business Premium plus SharePoint Online (Plan 1 or Plan 2)
     
-    For more information on how to manage licenses, see [Assign or remove licenses for Office 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
+    For more information on how to manage licenses, see [Assign licenses to users in Office 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
     
 ### Users see incorrect colleagues in Delve
 <a name="BKMK_DelveIncorrectColleague"> </a>
@@ -335,7 +339,7 @@ Admins
     
 - [Manage your Office 365 Video portal](https://support.office.com/article/c059465b-eba9-44e1-b8c7-8ff7793ff5da)
     
-- [Yammer admin center](https://support.office.com/article/e1464355-1f97-49ac-b2aa-dd320b179dbe)
+- [Yammer - Admin Help](https://support.office.com/article/e1464355-1f97-49ac-b2aa-dd320b179dbe)
     
 - [Office 365 Plan Options](https://technet.microsoft.com/library/office-365-plan-options.aspx)
     

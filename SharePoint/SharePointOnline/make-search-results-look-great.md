@@ -8,6 +8,7 @@ ms.audience: Admin
 ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
+search.appverid: SPO160
 ms.assetid: ae5186e7-ba4a-485b-95c3-a69be0377f12
 description: "Presenting the search results the right way makes content easier to find. Learn how you can use the search web parts in SharePoint Online to help users find what they're looking for."
 ---

@@ -11,6 +11,9 @@ f1_keywords:
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: Strat_SP_admin
+search.appverid:
+- SPO160
+- BSA160
 ms.assetid: 0b6ab336-8b83-423f-a06b-bcc52861cba0
 description: "Learn how SharePoint admins can use the SharePoint App Catalog site to make custom business apps that can be deployed for site users to install. sites."
 ---

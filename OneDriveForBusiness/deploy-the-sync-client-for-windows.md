@@ -1,9 +1,9 @@
 ---
-title: "Deploy the new OneDrive sync client in an enterprise environment"
+title: "Deploy the new OneDrive sync client for Windows"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 4/9/2018
+ms.date: 4/13/2018
 ms.audience: Admin
 ms.topic: get-started-article
 ms.prod: office-online-server
@@ -20,7 +20,7 @@ ms.assetid: 3f3a511c-30c6-404a-98bf-76f95c519668
 description: "Learn how to deploy the OneDrive sync client to your Office 365 organization."
 ---
 
-# Deploy the new OneDrive sync client in an enterprise environment
+# Deploy the new OneDrive sync client for Windows
 
 This article is for IT administrators planning to deploy the new OneDrive sync client to their OneDrive for Business users in work or school environments. To install the OneDrive sync client for yourself, [download it](https://go.microsoft.com/fwlink/?linkid=844652) and read the [Sync files with the new OneDrive sync client in Windows](https://support.office.com/article/615391c4-2bd3-4aae-a42a-858262e42a49).
   
@@ -44,7 +44,7 @@ The OneDrive sync client doesn't yet support on-premises instances of OneDrive f
 ## Planning
 <a name="perform"> </a>
 
-For info about estimating the network bandwidth users will need for syncing, see [Network utilization planning for the OneDrive sync client](network-utilization-planning). If your users have Windows 10 Fall Creators Update or later, we recommend using [Learn about OneDrive Files On-Demand](https://support.office.com/article/0e6860d3-d9f3-4971-b321-7092438fb38e), so you can deploy to a large number of users at once without causing network performance issues. Make sure you communicate the rollout to your users to set their expectations and give them guidelines and resources for working with OneDrive. 
+For info about estimating the network bandwidth users will need for syncing, see [Network utilization planning for the OneDrive sync client](network-utilization-planning). If your users have Windows 10 Fall Creators Update or later, we recommend using [Learn about OneDrive Files On-Demand](https://support.office.com/article/0e6860d3-d9f3-4971-b321-7092438fb38e), so you can deploy to a large number of users at once without causing network performance issues. Make sure you communicate the rollout to your users to set their expectations and give them guidelines and resources for working with OneDrive.
   
 ## Overview of the deployment process
 <a name="Overview"> </a>
@@ -71,7 +71,7 @@ If the computers in your organization are running Windows 10, they already have 
   
 ### Deploy any administrative settings
 
-To set registry keys on computers in your domain, install OneDrive and copy the OneDrive.admx and OneDrive.adml files from %localappdata%\Microsoft\OneDrive\BuildNumber\adm\ to your Group Policy central store. For more info, see [Use Group Policy to control OneDrive sync client settings](control-sync-client-settings-using-group-policy).
+To set registry keys on computers in your domain, install OneDrive and copy the OneDrive.admx and OneDrive.adml files from %localappdata%\Microsoft\OneDrive\BuildNumber\adm\ to your Group Policy central store. For more info, see [Use Group Policy to control OneDrive sync client settings](use-group-policy-to-control-sync-client-settings).
   
 ### Use System Center Configuration Manager to deploy the OneDrive sync client
 
@@ -135,7 +135,7 @@ odopen://sync/?siteId=SiteID_HERE&amp;webId=WebID_HERE&amp;listId=ListID_HERE&am
 
 To delay updates to the OneDrive sync client, and control their deployment to your users, you can switch from the Production update ring to the Enterprise update ring. For more information about the update rings and how the sync client checks for updates, see [The OneDrive sync client update process](the-sync-client-update-process).
   
-To set the update ring using Group Policy, enable the **Delay updating OneDrive.exe until the second release wave** setting. For more information about this setting, see [Use Group Policy to control OneDrive sync client settings](control-sync-client-settings-using-group-policy).
+To set the update ring using Group Policy, enable the **Delay updating OneDrive.exe until the second release wave** setting. For more information about this setting, see [Use Group Policy to control OneDrive sync client settings](use-group-policy-to-control-sync-client-settings).
   
 ## See Also
 <a name="seealso"> </a>

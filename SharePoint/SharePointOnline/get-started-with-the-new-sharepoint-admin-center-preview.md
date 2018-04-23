@@ -3,29 +3,31 @@ title: "Get started with the new SharePoint admin center (preview)"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 2/5/2018
+ms.date: 4/19/2018
 ms.audience: Admin
 ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.collection: Strat_SP_admin
+search.appverid:
+- SPO160
+- BSA160
 ms.assetid: 0bb250bb-1d3c-43f8-b751-b322522ccf33
 description: "Learn about the cards on the Home page of the new SharePoint admin center (preview)"
 ---
 
 # Get started with the new SharePoint admin center (preview)
 
-If your organization is signed up for Targeted release, you can preview the new SharePoint admin center. For info about joining the Targeted release program, see [Set up the Standard or Targeted release options in Office 365](https://support.office.com/article/3b3adfa4-1777-4ff0-b606-fb8732101f47).
+As a global or SharePoint admin in Office 365, you can try the new SharePoint admin center (preview). To access it, go to the current SharePoint admin center and click **Try the new SharePoint admin center preview** in the upper right. 
   
 ![The home page of the new admin center](media/e7096ec4-1902-4e6c-af0b-13c461a0bbe0.png)
   
-To access the new SharePoint admin center (preview):
+> [!NOTE]
+> Some functionality is introduced gradually to organizations that have opted in to the [Set up the Standard or Targeted release options in Office 365](https://support.office.com/article/3b3adfa4-1777-4ff0-b606-fb8732101f47). This means that you may not yet see this feature or it may look different than what is described in the help articles. 
   
-- Go to the current SharePoint admin center and click **Try the new SharePoint admin center preview** in the upper right. 
-    
 ## Schedule for releasing the new SharePoint admin center
 
-It may take several weeks for us to roll out the new SharePoint admin center (preview) to all organizations in the Targeted release program. When we finish this, we'll begin rolling it out to production. This process may again take several weeks. We'll be adding many new features over this time.
+The new SharePoint admin center (preview) is now rolling out worldwide to customers who have selected the standard release option. This process may take a few weeks. 
   
 The classic SharePoint admin center will continue to be the default for several months. You'll need to switch back to it to perform some tasks. You'll be able to continue using the classic SharePoint admin center for at least a year before we begin retiring it.
   

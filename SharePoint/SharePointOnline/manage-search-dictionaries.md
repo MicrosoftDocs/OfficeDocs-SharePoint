@@ -1,13 +1,14 @@
 ---
 title: "Manage search dictionaries"
-ms.author: arnek
-author: arnek
-manager: arnek
+ms.author: tlarsen
+author: tklarsen
+manager: pamgreen
 ms.date: 4/5/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
 localization_priority: Normal
+search.appverid: SPO160
 ms.assetid: 2d0ee673-02f1-4b52-9159-f743b5123460
 description: "Learn how to manage search dictionaries. You can use search dictionaries to include or exclude company names to be extracted from the contents of your indexed documents, or you can include or exclude words for query spelling correction."
 ---

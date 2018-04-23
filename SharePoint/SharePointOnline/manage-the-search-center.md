@@ -8,6 +8,7 @@ ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
 localization_priority: Normal
+search.appverid: SPO160
 ms.assetid: 174d36e0-2f85-461a-ad9a-8b3f434a4213
 description: "Learn how to customize the Search Center pages to improve the end user's search experience. Learn about search verticals (Everything, People, Videos, and Conversations) and the predefined Web Parts (Search Box Web Part, Search Results Web Part, Search Navigation Web Part, and Refinement Web Part.)"
 ---

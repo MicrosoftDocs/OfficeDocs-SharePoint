@@ -8,6 +8,7 @@ ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
 localization_priority: Normal
+search.appverid: SPO160
 ms.assetid: 81daca87-ef0c-4602-af89-9a749dbef377
 description: "This article explains how the SharePoint Online admin can monitor thigns like app usage and error information for the apps that are in use in a SharePoint Online environment."
 ---

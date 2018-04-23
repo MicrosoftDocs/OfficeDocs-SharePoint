@@ -8,6 +8,7 @@ ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
 localization_priority: Normal
+search.appverid: SPO160
 ms.assetid: 1915c232-3a41-440a-b5be-b1cdf364b607
 description: "Learn how to customize the Search Box Web Part."
 ---

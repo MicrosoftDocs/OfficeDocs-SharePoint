@@ -8,6 +8,7 @@ ms.audience: Admin
 ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
+search.appverid: SPO160
 ms.assetid: 16fb530a-ed64-4fea-ab15-adf4b5fe96e9
 description: "The content must be crawled and added to the search index for your users to find what they're searching for in SharePoint Online."
 ---

@@ -3,7 +3,7 @@ title: "Allow or prevent custom script"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 4/3/2018
+ms.date: 4/17/2018
 ms.audience: Admin
 ms.topic: article
 f1_keywords:
@@ -12,15 +12,18 @@ f1_keywords:
 ms.prod: office-online-server
 localization_priority: Normal
 ms.collection: Strat_SP_admin
+search.appverid:
+- SPO160
+- ODB160
+- ODB150
+- BSA160
 ms.assetid: 1f2c515f-5d7e-448a-9fd7-835da935584f
 description: "Learn how to change the custom script setting for SharePoint Online site collections in your organization."
 ---
 
 # Allow or prevent custom script
 
- *Last updated: July 2017* 
-  
-Allowing custom script is a way to let users change the look, feel, and behavior of sites and pages to meet organizational objectives or individual needs. If you allow custom script, all users who have "Add and Customize Pages" permission to a site or page can add any script they want. (By default, users who create sites are site owners and therefore have this permission. For more info about SharePoint permission levels, see [Understanding permission levels in SharePoint](https://support.office.com/article/87ecbb0e-6550-491a-8826-c075e4859848).) 
+As a global or SharePoint admin in Office 365, you can allow custom script as a way of letting users change the look, feel, and behavior of sites and pages to meet organizational objectives or individual needs. If you allow custom script, all users who have "Add and Customize Pages" permission to a site or page can add any script they want. (By default, users who create sites are site owners and therefore have this permission. For more info about SharePoint permission levels, see [Understanding permission levels in SharePoint](https://support.office.com/article/87ecbb0e-6550-491a-8826-c075e4859848).) 
   
 > [!NOTE]
 > For simple ways to change the look and feel of a site, see [Change the look of your SharePoint site](https://support.office.com/article/06bbadc3-6b04-4a60-9d14-894f6a170818). 
@@ -64,7 +67,7 @@ In the SharePoint admin center, you can choose to allow users to run custom scri
 > [!CAUTION]
 > Before you allow custom script on sites in your organization, make sure you understand the [security implications](security-considerations-of-allowing-custom-script). 
   
-To allow custom script on a particular site collection immediately, use the following Microsoft PowerShell command (learn more about the [SharePoint Online Management Shell](introduction-to-the-sharepoint-online-management-shell)):
+To allow custom script on a particular site collection immediately, use the following Microsoft PowerShell command (learn more about the [Introduction to the SharePoint Online Management Shell](https://support.office.com/article/c16941c3-19b4-4710-8056-34c034493429)):
   
  `Set-SPOsite <SiteURL> -DenyAddAndCustomizePages 0`
   

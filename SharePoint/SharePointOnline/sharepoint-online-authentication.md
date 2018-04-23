@@ -10,6 +10,14 @@ ms.service: o365-administration
 localization_priority: Normal
 ms.collection: Ent_O365
 ms.custom: Adm_O365
+search.appverid:
+- MET150
+- SPO160
+- MOE150
+- MED150
+- MBS150
+- BSA160
+- BCS160
 ms.assetid: 77965e8d-48ad-47bd-a656-57f17d6d1cc7
 description: "Explains how SharePoint Online authentication works with sessions and cookies."
 ---

@@ -8,6 +8,9 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
+search.appverid:
+- MET150
+- SPO160
 ms.assetid: f724dec2-ce28-4b76-9235-31728dce64b5
 description: "Learn how to configure a Secure Store Target Application, including application IDs and credentials for the external data source."
 ---

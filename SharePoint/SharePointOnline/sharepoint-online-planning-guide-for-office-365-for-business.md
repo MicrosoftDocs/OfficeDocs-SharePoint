@@ -9,6 +9,9 @@ ms.topic: conceptual
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: Strat_SP_admin
+search.appverid:
+- SPO160
+- MOE150
 ms.assetid: d5089cdf-3fd2-4230-acbd-20ecda2f9bb8
 
 description: "Learn about the five steps for planning your SharePoint Online environment."
@@ -39,7 +42,7 @@ Here are some articles that provide key information you may want to refer to dur
 |Information about what SharePoint Online features are available in different Office 365 plans, or information about how different SharePoint Online plans compare to the on-premises version SharePoint Server 2013.  <br/> |[SharePoint Online Service Descriptions](https://technet.microsoft.com/en-us/library/jj819267.aspx) <br/> |
 |SharePoint Online video training  <br/> |[SharePoint training](https://support.office.com/article/cb8ef501-84db-4427-ac77-ec2009fb8e23) <br/> |
 |Information about storage quotas, number of supported site collections, number of supported users.  <br/> |[SharePoint Online Limits](https://go.microsoft.com/fwlink/p/?LinkID=856113) <br/> |
-|Information about using the SharePoint Online Management Shell to perform administrative tasks from the command line.  <br/> |[Introduction to the SharePoint Online Management Shell](introduction-to-the-sharepoint-online-management-shell) <br/> |
+|Information about using the SharePoint Online Management Shell to perform administrative tasks from the command line.  <br/> |[Introduction to the SharePoint Online Management Shell](https://support.office.com/article/c16941c3-19b4-4710-8056-34c034493429) <br/> |
 |Information about integrating an on-premises deployment of SharePoint Server 2013 with SharePoint Online.  <br/> |[Hybrid for SharePoint Server 2013](https://technet.microsoft.com/en-us/library/jj838715.aspx) <br/> |
 |Get help with admin tasks for SharePoint sites  <br/> |[SharePoint Online - Admin Help](https://support.office.com/article/79eb0420-8cbd-4bcb-a90b-ddc7d3ab4b3a) <br/> |
 |Where to find partners who provide solutions or services for Office 365.  <br/> |[Microsoft Partner Center](https://partnercenter.microsoft.com/en-us/pcv/search) <br/> |

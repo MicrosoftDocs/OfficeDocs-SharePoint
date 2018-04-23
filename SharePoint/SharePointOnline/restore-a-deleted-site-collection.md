@@ -8,6 +8,7 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
+search.appverid: SPO160
 ms.assetid: 91c18651-c017-47d1-9c27-3a22f325d6f1
 description: "Learn how to get back a deleted site collection in SharePoint Online for Enterprises."
 ---

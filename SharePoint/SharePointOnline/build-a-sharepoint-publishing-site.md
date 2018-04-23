@@ -8,6 +8,9 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
+search.appverid:
+- SPO160
+- OSU150
 ms.assetid: 60b4402c-894a-452c-9df9-d6546d5172b6
 description: "Learn how to add a site collection to create a publishing portal to publish content with or without approval workflow. "
 ---

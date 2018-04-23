@@ -3,88 +3,96 @@ title: "Manage team sites and communication sites by using PowerShell"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 4/3/2018
+ms.date: 4/17/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
 localization_priority: Normal
+search.appverid: SPO160
 ms.assetid: 52ecc2ab-88c3-486e-b8ff-ef6a968ccd87
 description: "Learn how to use PowerShell to manage communication sites as well as team sites that are part of an Office 365 group."
 ---
 
 # Manage team sites and communication sites by using PowerShell
 
-This article describes how global admins and SharePoint Online admins can use Microsoft PowerShell cmdlets to manage communication sites as well as team sites that are part of Office 365 groups. These new site types can't be managed in the SharePoint admin center. For info about using the SharePoint Online Management Shell, see [Introduction to the SharePoint Online Management Shell](https://technet.microsoft.com/en-us/library/fp161388.aspx). 
+This article describes how global admins and SharePoint admins in Office 365 can use Microsoft PowerShell cmdlets to manage communication sites as well as team sites that belong to Office 365 groups. These new site types can't be managed in the classic SharePoint admin center. 
   
 ## Manage external sharing
 <a name="BKMK_GroupSiteCollections"> </a>
 
-By default, communication sites and team sites that are part of an Office 365 group have the sharing setting set to **Allow external users who accept sharing invitations and sign in as authenticated users**. To change this setting, you can use the Set-SPOSite PowerShell cmdlet.
+By default, team sites that belong to Office 365 groups and communication sites and have the same sharing setting as your organization-wide setting, unless the organization-wide setting allows anonymous access links. In this case, the external sharing setting for these new site types is "Allow external users who accept sharing invitations and sign in as authenticated users." Follow these steps to change the external sharing setting for a site.
   
-Example:
+1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
+    
+2. Connect to SharePoint Online as a global admin or SharePoint admin in Office 365. To learn how, see [Getting started with SharePoint Online Management Shell](https://go.microsoft.com/fwlink/?linkid=869066).
+    
+3. Run the following command:
+    
+  ```
+  Set-SPOSite -Identity <site URL> -SharingCapability <sharing level>
+  ```
+
+    (Where  _\<site URL\>_ is the URL of the site and  _\<sharing level\>_ is Disabled, ExternalUserSharingOnly, or ExternalUserAndGuestSharing.) For example,  `Set-SPOSite -Identity https://contoso.sharepoint.com/sites/site1 -SharingCapability ExternalUserSharingOnly`. This cmdlet is executed immediately.
+    
+To view the existing sharing setting, run the following command.
   
 ```
-Set-SPOSite -Identity https://contoso.sharepoint.com/sites/site1 -SharingCapability ExternalUserSharingOnly 
+(Get-SPOSite -Identity <site URL>).SharingCapability
 ```
 
-This example updates the external sharing capability of the site collection "https://contoso.sharepoint.com/sites/site1" to allow sharing with authenticated external users. This cmdlet is executed immediately.
+For detailed information about these cmdlets and their parameters in PowerShell, see [Set-SPOSite](https://go.microsoft.com/fwlink/?linkid=872325) and [Get-SPOSite](https://go.microsoft.com/fwlink/?linkid=872326).
   
-To view the existing sharing setting, use the Get-SPOSite PowerShell cmdlet.
-  
-Example:
-  
-```
-(Get-SPOSite -Identity https://contoso.sharepoint.com/sites/site1).SharingCapability
-```
-
-For detailed information about these cmdlets and their parameters in PowerShell, see [Set-SPOSite](https://technet.microsoft.com/en-us/library/fp161394.aspx) and [Get-SPOSite](https://technet.microsoft.com/en-us/library/fp161380.aspx).
-  
-## Specify site storage (quota)
+## Specify site storage space (quota)
 <a name="BKMK_GroupSiteCollections"> </a>
 
-To specify the storage allocated to a communication site or a team site that's part of an Office 365 group, use the Get-SPOSite cmdlet. The following example gets and sets the storage quota for a site in the Contoso domain.
+If you manage site collection storage limits manually, you can use PowerShell to specify the storage space for a communication site or a team site that belongs to an Office 365 group. [Learn more about managing site collection storage limits](manage-site-collection-storage-limits)
   
-1. Run this command to get storage space details for the site:
+1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
+    
+2. Connect to SharePoint Online as a global admin or SharePoint admin in Office 365. To learn how, see [Getting started with SharePoint Online Management Shell](https://go.microsoft.com/fwlink/?linkid=869066).
+    
+3. Run this command to check the current storage limit for the site:
     
   ```
-  Get-SPOSite -Identity https://contoso.sharepoint.com/sites/<name> -detailed |fl
+  Get-SPOSite -Identity <site URL> -detailed |fl
   ```
 
-    (Where \<name\> is the name of the group or site)
+    (Where \<site URL\> is the URL of the group or site.) The command will return "StorageQuota" in megabytes, for example 1048576 for 1 TB or 5242880 for 5 TB.
     
-2. Run this command to set the storage space for the site:
+4. Run this command to set the storage space for the site:
     
-    > [!NOTE]
-    > Before you can use the Set-SPOSite command, your site collection storage management must be set to **Manual**. To learn how to change this setting, see [Manage site collection storage limits](https://support.office.com/article/77389c2c-8e7e-4b16-ab97-1c7103784b08). 
-  
   ```
-  Set-SPOSite -Identity https://contoso.sharepoint.com/sites/<name> -StorageQuota 3000 -StorageQuotaWarningLevel 2000
+  Set-SPOSite -<site URL> -StorageQuota <limit> -StorageQuotaWarningLevel <warning>
   ```
 
-    (Where \<name\> is the name of the group or site)
+    (Where \<site URL\> is the name of the group or site, \<limit\> is the storage limit in megabytes, and \<warning\> is the storage warning level in megabytes.)
     
-To verify that the set action worked, run the Get-SPOSite cmdlet again and make sure the storage space was updated. If you changed the site collection storage management setting, you can change it back to Automatic after setting the storage space for the site.
+To verify that the set action worked, run the Get-SPOSite cmdlet again and make sure the storage space was updated. 
   
-For detailed information about these cmdlets and their parameters in PowerShell, see [Set-SPOSite](https://technet.microsoft.com/en-us/library/fp161394.aspx) and [Get-SPOSite](https://technet.microsoft.com/en-us/library/fp161380.aspx).
+For detailed information about these cmdlets and their parameters in PowerShell, see [Set-SPOSite](https://go.microsoft.com/fwlink/?linkid=872325) and [Get-SPOSite](https://go.microsoft.com/fwlink/?linkid=872326).
   
 ## Get the list of site collections
 <a name="BKMK_GroupSiteCollections"> </a>
 
-To get a list of all communication sites and team sites that are part of an Office 365 group in your organization, use the Get-SPOSite cmdlet. 
+Follow these steps to get a list of all communication sites in your organization, or all team sites that belong to Office 365 groups. 
   
-1. Run this command to get a list of team sites that have Office 365 groups:
+1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
+    
+2. Connect to SharePoint Online as a global admin or SharePoint admin in Office 365. To learn how, see [Getting started with SharePoint Online Management Shell](https://go.microsoft.com/fwlink/?linkid=869066).
+    
+3. Run this command to get a list of communication sites:
+    
+  ```
+  Get-SPOSite -Template SITEPAGEPUBLISHING#0 
+  ```
+
+    Or run this command to get a list of team sites that belong to Office 365 groups:
     
   ```
   Get-SPOSite -Template GROUP#0 -Includepersonalsite:$false
   
   ```
 
-    Or this command to get a list of communication sites:
-    
-  ```
-  Get-SPOSite -Template SITEPAGEPUBLISHING#0 
-  ```
-
-For detailed information about this cmdlet and its parameters in PowerShell, see [Get-SPOSite](https://technet.microsoft.com/en-us/library/fp161380.aspx).
+For detailed information about this cmdlet and its parameters in PowerShell, see [Get-SPOSite](https://go.microsoft.com/fwlink/?linkid=872326).
   
 

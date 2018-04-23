@@ -8,6 +8,16 @@ ms.audience: Admin
 ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
+search.appverid:
+- WSU150
+- SPS150
+- SPO160
+- SPS150
+- OSU150
+- GSS150
+- GSA150
+- BSA160
+- GSP150
 ms.assetid: 06bb1ed1-d150-42f4-9600-fb261d4b590c
 description: "What is permissions inheritance in SharePoint and SharePoint Online and why do we use it; what is a parent; permissions recommendations that can save time."
 ---

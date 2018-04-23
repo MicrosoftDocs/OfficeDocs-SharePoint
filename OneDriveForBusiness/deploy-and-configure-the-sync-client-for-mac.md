@@ -1,5 +1,5 @@
 ---
-title: "Configure the new OneDrive sync client on macOS"
+title: "Deploy and configure the new OneDrive sync client for Mac"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
@@ -17,7 +17,7 @@ ms.assetid: eadddc4e-edc0-4982-9f50-2aef5038c307
 description: "Learn how to change settings when deploying or managing the OneDrive sync client on macOS."
 ---
 
-# Configure the new OneDrive sync client on macOS
+# Deploy and configure the new OneDrive sync client for Mac
 
 This article is for IT administrators managing OneDrive for Business settings in work or school environments. If you're not an IT administrator, read [Get started with the new OneDrive sync client on Mac OS X](https://support.office.com/article/d11b9f29-00bb-4172-be39-997da46f913f).
   

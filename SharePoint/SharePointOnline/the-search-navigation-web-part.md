@@ -8,6 +8,7 @@ ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
 localization_priority: Normal
+search.appverid: SPO160
 ms.assetid: 7c1a7462-d3d8-4a14-92f4-981b0ade9963
 description: "Learn how to customize the Search Navigation Web Part. The Search Navigation Web Part on search results pages contains links that let users move quickly between search verticals."
 ---

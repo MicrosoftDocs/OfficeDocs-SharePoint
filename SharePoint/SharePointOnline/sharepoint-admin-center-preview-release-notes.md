@@ -3,18 +3,22 @@ title: "SharePoint admin center (preview) release notes"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 3/22/2018
-ms.audience: ITPro
-ms.topic: article
+ms.date: 4/16/2018
+ms.audience: Admin
+ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
+ms.collection: Strat_SP_admin
+search.appverid:
+- SPO160
+- BSA160
 ms.assetid: 317eed2b-d266-4c4c-9a37-1aceed9db567
-description: "We're continuously adding new features to the new SharePoint admin center (preview) and fixing issues we learn about. Here's a summary of what's included in this release, and what's coming up. As a Targeted Release customer, you can help us improve the admin center by sending us your suggestions and reporting bugs you encounter. In the lower-right corner of the admin center, click the Feedback button."
+description: "We're continuously adding new features to the new SharePoint admin center (preview) and fixing issues we learn about. Here's a summary of what's included in this release, and what's coming up. You can help us improve the admin center by sending us your suggestions and reporting bugs you encounter. In the lower-right corner of the admin center, click the Feedback button."
 ---
 
 # SharePoint admin center (preview) release notes
 
-We're continuously adding new features to the new SharePoint admin center (preview) and fixing issues we learn about. Here's a summary of what's included in this release, and what's coming up. As a Targeted Release customer, you can help us improve the admin center by sending us your suggestions and reporting bugs you encounter. In the lower-right corner of the admin center, click the **Feedback** button. 
+We're continuously adding new features to the new SharePoint admin center (preview) and fixing issues we learn about. Here's a summary of what's included in this release, and what's coming up. You can help us improve the admin center by sending us your suggestions and reporting bugs you encounter. In the lower-right corner of the admin center, click the **Feedback** button. 
   
 > [!NOTE]
 > The new SharePoint admin center (preview) is supported in Microsoft Edge, Internet Explorer, Chrome, Firefox, and Safari. 
@@ -37,7 +41,7 @@ We're continuously adding new features to the new SharePoint admin center (previ
     
 - The ability to create sites (including sites that belong to Office 365 groups and communication sites) using the same experience available to users
     
-- Extensive site info and insights such as site name, template, file and sharing info, and date created and modified 
+- Extensive site info and insights such as site name, template, file and sharing info, and date created and modified
     
 - The ability to sort, filter, and customize columns, as well as search by all text fields
     
@@ -75,7 +79,7 @@ Here's a short list of some of the larger features we're working on. Use the Fee
     
 - More batch operations
     
-- The ability to specify the primary admin when creating communication sites and sites that belong to an Office 365 group 
+- The ability to specify the primary admin when creating communication sites and sites that belong to an Office 365 group
     
 - The ability to view and update Office 365 group owners, and delete sites that belong to an Office 365 group
     

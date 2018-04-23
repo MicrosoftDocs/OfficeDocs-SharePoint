@@ -8,6 +8,9 @@ ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
 localization_priority: Normal
+search.appverid:
+- SPS150
+- SPO160
 ms.assetid: 0d335bc4-e7a0-46bc-ba40-da34e414174f
 description: "Learn how query client types decide in which order queries are performed."
 ---

@@ -8,6 +8,9 @@ ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
 localization_priority: Normal
+search.appverid:
+- ODB160
+- ODB150
 ms.assetid: 6778d4de-b5f8-423c-af43-a1b2449e9b99
 description: "Enable users in your organization to syinc IRM-protected locations using the new OneDrive sync client (OneDrive.exe)."
 ---

@@ -8,6 +8,7 @@ ms.audience: Admin
 ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
+search.appverid: SPO160
 ms.assetid: 581ea83b-5cb8-4603-80c1-e86eb59909c1
 description: "See if the crawler has added content to the search index, and if your users are finding what they're looking for in SharePoint Online."
 ---

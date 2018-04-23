@@ -8,6 +8,7 @@ ms.audience: Admin
 ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
+search.appverid: SPO160
 ms.assetid: 02b36b7c-c1e1-4d73-9a92-5658389ed4b6
 description: "All search results are not relevant to everyone all the time. Learn how you can help users find exactly the results they're looking for in SharePoint Online."
 ---

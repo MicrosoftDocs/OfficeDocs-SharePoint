@@ -37,7 +37,7 @@ However, as the slowest ring, the Enterprise ring receives performance improveme
 > [!NOTE]
 > Microsoft reserves the right to bypass the 60-day grace period for critical updates. 
   
-To learn how to set the Enterprise ring for the Windows sync client using Group Policy, see [Delay updating OneDrive.exe until the second release wave](control-sync-client-settings-using-group-policy.md#EnableEnterpriseUpdate). To learn how to set it for the Mac sync client, see [Configure the new OneDrive sync client on macOS](deploy-and-configure-the-sync-client-for-mac). For info about the Office 365 update process, see [Overview of update channels for Office 365 ProPlus](https://support.office.com/article/9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4). For info about the Windows 10 update process, see [Build deployment rings for Windows 10 updates](https://go.microsoft.com/fwlink/?linkid=860294).
+To learn how to set the Enterprise ring for the Windows sync client using Group Policy, see [Delay updating OneDrive.exe until the second release wave](use-group-policy-to-control-sync-client-settings.md#EnableEnterpriseUpdate). To learn how to set it for the Mac sync client, see [Configure the new OneDrive sync client on macOS](deploy-and-configure-the-sync-client-for-mac). For info about the Office 365 update process, see [Overview of update channels for Office 365 ProPlus](https://support.office.com/article/9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4). For info about the Windows 10 update process, see [Build deployment rings for Windows 10 updates](https://go.microsoft.com/fwlink/?linkid=860294).
   
 ## How the sync client checks for and applies updates
 

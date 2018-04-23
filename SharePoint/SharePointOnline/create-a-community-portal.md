@@ -8,6 +8,9 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
+search.appverid:
+- SPO160
+- OSU150
 ms.assetid: e08d0f50-05dc-4888-aa27-60ccf8f32ded
 description: "A community portal is a directory that lists all community sites available on your company intranet. Through the community portal users can search for, discover, follow, visit, and participate in communities of interest."
 ---

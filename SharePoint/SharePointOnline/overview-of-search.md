@@ -8,6 +8,7 @@ ms.audience: Admin
 ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
+search.appverid: SPO160
 ms.assetid: 479cfd6b-900b-46aa-b497-c13787771d3f
 description: "Learn how you can customize the search experience in SharePoint Online to help users find the information they're looking for."
 ---

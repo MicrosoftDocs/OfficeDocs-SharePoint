@@ -9,6 +9,11 @@ ms.topic: get-started-article
 ms.prod: office-online-server
 localization_priority: Normal
 ms.collection: Strat_OD_sync
+search.appverid:
+- MET150
+- SPO160
+- BSA160
+- GSP150
 ms.assetid: 9762aef3-d17f-4486-aae3-9c20bb979cbf
 description: "We're updating the Sync button in SharePoint Online sites libraries and Office 365 Groups to point to the new OneDrive sync client (onedrive.exe), instead of the old OneDrive for Business sync client (groove.exe) that it points to today. We're also simplifying the sync settings in the OneDrive admin center."
 ---
@@ -73,6 +78,6 @@ In particular, to opt out, a tenant would run the command:
   
 Set-SPOTenantSyncClientRestriction -GrooveBlockOption "OptOut" 
   
-For information about using PowerShell, see [Introduction to the SharePoint Online Management Shell](introduction-to-the-sharepoint-online-management-shell).
+For information about using PowerShell, see [Introduction to the SharePoint Online Management Shell](https://support.office.com/article/c16941c3-19b4-4710-8056-34c034493429).
   
 

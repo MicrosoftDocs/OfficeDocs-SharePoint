@@ -3,7 +3,7 @@ title: "Configure InfoPath Forms Services"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 4/3/2018
+ms.date: 4/20/2018
 ms.audience: Admin
 ms.topic: article
 f1_keywords:
@@ -11,6 +11,9 @@ f1_keywords:
 - SPOTACfgInfoPathWebSrvcPrx
 ms.service: o365-administration
 localization_priority: Normal
+search.appverid:
+- SPO160
+- BSA160
 ms.assetid: a8609546-c0d7-4956-81b6-08e93eb4b290
 description: "How to configure Infopath setting in SharePoint Online for Enterprises. Including form render settings and exempt user agents."
 ---
@@ -25,18 +28,16 @@ InfoPath Forms Services in SharePoint Online lets you deploy your organization's
 ## Overview
 <a name="__toc336423362"> </a>
 
-This article discusses settings that apply only to user form templates, which are form templates that are not deployed by a developer through sandboxed solutions. User form templates don't require Full Trust, and they don't contain code or other business logic.
+This article discusses settings that apply only to user form templates, which are form templates that are not deployed by a developer. User form templates don't require Full Trust, and they don't contain code or other business logic.
   
 Form designers can publish user form templates to a list or a form library in a SharePoint Online site collection. Because user form templates can be deployed by many users, a server can potentially host thousands of user form templates. In large numbers, even form templates that contain no business logic can put a heavy load on the server.
-  
-[Top of Page](configure-infopath-forms-services.md#__top)
   
 ## Configure browser-enabled user form templates
 <a name="__toc336423363"> </a>
 
 When form templates are published to a server that is running InfoPath Forms Services, the designer of the form template can choose to make the form template browser-enabled. This allows a user to fill out the form in a web browser.
   
-As an Administrator, you can configure the following template settings for browser-enabled user form templates:
+As an administrator, you can configure the following template settings for browser-enabled user form templates:
   
 - **Enable or disable publishing of browser-enabled form templates.** If you disable publishing, form designers can publish only form templates that are not browser-enabled. In this case, all browser-compatible features are disabled in the form template. 
     
@@ -46,11 +47,15 @@ By default, browser-enabled user form templates can be published and rendered.
   
 To configure browser-enabled user form templates
   
-1. Verify that the user account that is performing this procedure is a member of the Site Collection Administrators SharePoint group.
+1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4) as a global admin or SharePoint admin. 
     
-2. On the **SharePoint admin center** page, click **InfoPath**.
+2. Select the app launcher icon ![The icon that looks like a waffle and represents a button click that will reveal multiple application tiles for selection.](media/3b8a317e-13ba-4bd4-864e-1ccd47af39ee.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
-3. In the **User Browser-enabled Form Templates** section, specify how you want user form templates to be processed by InfoPath Forms Services by completing the following steps: 
+3. In the left pane, choose **Admin centers** > **SharePoint**.
+    
+4. In the left pane, click **infopath**.
+    
+5. In the **User Browser-enabled Form Templates** section, specify how you want user form templates to be processed by InfoPath Forms Services by completing the following steps: 
     
     > [!NOTE]
     > These settings apply only to form templates published to form libraries. Workflow form templates and list forms are not affected. 
@@ -65,27 +70,27 @@ To configure browser-enabled user form templates
     > [!NOTE]
     > If this option is not selected, users can still publish browser-compatible form templates to form libraries, but these form templates cannot be filled out in a web browser. 
   
-4. Click **OK**.
+6. Click **OK**.
     
-[Top of Page](configure-infopath-forms-services.md#__top)
-  
 ## Configure exempt user agents
 <a name="__toc336423364"> </a>
 
 To make indexing InfoPath forms faster and easier, you can specify which user agents to exempt from receiving an entire webpage to index. This means that when a user agent you've specified as exempt encounters an InfoPath form, the form will be returned as an XML file (which looks like a hierarchical text file) instead of an entire webpage. You can use the procedure below to select this option and populate the agent list.
   
-1. Verify that the user account that is performing this procedure is a member of the Site Collection Administrators SharePoint group.
+1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4) as a global admin or SharePoint admin. 
     
-2. On the **SharePoint admin center** page, click **InfoPath**.
+2. Select the app launcher icon ![The icon that looks like a waffle and represents a button click that will reveal multiple application tiles for selection.](media/3b8a317e-13ba-4bd4-864e-1ccd47af39ee.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
-3. In the **Exempt User Agents** section, select the **Customize the list of exempt user agents** check box, and then do one of the following: 
+3. In the left pane, choose **Admin centers** > **SharePoint**.
     
-4. To add a user agent to the exempt list, type a name in the **Name** box, and then click **Add**.
+4. In the left pane, click **infopath**.
     
-5. To remove a user agent from the list, select the name, and then click **Remove**.
+5. In the **Exempt User Agents** section, select the **Customize the list of exempt user agents** check box, and then do one of the following: 
     
-6. Click **OK**.
+6. To add a user agent to the exempt list, type a name in the **Name** box, and then click **Add**.
     
-[Top of Page](configure-infopath-forms-services.md#__top)
-  
+7. To remove a user agent from the list, select the name, and then click **Remove**.
+    
+8. Click **OK**.
+    
 
