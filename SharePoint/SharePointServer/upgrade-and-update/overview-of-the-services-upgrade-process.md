@@ -17,7 +17,7 @@ description: "Summary: Create a plan to upgrade data for service applications wh
 
 # Services upgrade overview for SharePoint Server 2016
 
- **Summary: ** Create a plan to upgrade data for service applications when you upgrade from SharePoint Server 2013 to SharePoint Server 2016. 
+ **Summary:** Create a plan to upgrade data for service applications when you upgrade from SharePoint Server 2013 to SharePoint Server 2016. 
   
 The upgrade process for SharePoint Server 2016 uses the database attach upgrade method. When you move your databases to a new farm and upgrade the content, you must create your services infrastructure in the new farm, and configure the services appropriately for your new farm and new version. The following service applications have databases that can be upgraded when you upgrade from SharePoint Server 2013 to SharePoint Server 2016:
   

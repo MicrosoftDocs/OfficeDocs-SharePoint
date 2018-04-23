@@ -1,7 +1,7 @@
 ---
 title: "Configure and use the Lotus Notes connector for SharePoint Server"
-ms.author: stevhord
-author: bentoncity
+ms.author: tlarsen
+author: tklarsen
 manager: pamgreen
 ms.date: 3/7/2018
 ms.audience: ITPro

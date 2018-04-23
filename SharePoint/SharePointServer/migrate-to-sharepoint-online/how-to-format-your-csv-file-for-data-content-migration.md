@@ -16,7 +16,7 @@ description: "How to format your JSON or CSV file for data content migration"
 
 # How to format your JSON or CSV for data content migration
 
-> [IMPORTANT]
+> [!IMPORTANT]
 > A portion of this article discusses a beta release of the Microsoft product, SharePoint Migration Tool. The information in this article is provided as-is and is subject to change without notice.  To download the beta version:  [SharePoint Migration Tool Beta 2 release](http://spmtreleasescus.blob.core.windows.net/betainstall/default.htm)
   
 ## Using a comma separated value (CSV) file for data content migration

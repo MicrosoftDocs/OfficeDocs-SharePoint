@@ -34,9 +34,7 @@ SharePoint Server 2016 introduces a new site collection upgrade experience. Ther
     
 - Manually triggered by using PowerShell.
     
- **Content databases upgrade**-
-  
-To upgrade the databases run the [Mount-SPContentDatabase](http://technet.microsoft.com/library/20d1bc07-805c-44d3-a278-e2793370e237.aspx) cmdlet. After the databases have been upgraded the site collections are automatically upgraded during database upgrade process by default. 
+ **Content databases upgrade**-  To upgrade the databases run the [Mount-SPContentDatabase](http://technet.microsoft.com/library/20d1bc07-805c-44d3-a278-e2793370e237.aspx) cmdlet. After the databases have been upgraded the site collections are automatically upgraded during database upgrade process by default. 
   
 > [!NOTE]
 > This is the default behavior and recommended method to upgrade databases. 
