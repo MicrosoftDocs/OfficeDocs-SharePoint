@@ -210,7 +210,7 @@ The version of the existing SharePoint Server and Windows Server must also suppo
 The following procedures provide methods to connect to the new SQL Server instance or update the database connections. Use the procedure that works best for your SharePoint Server farm environment.
 
 > [!IMPORTANT]
-> If you're using SharePoint Server and SQL Server AlwaysOn Availability Groups before moving the databases, you should point to the AG Listner. If you are moving from a single-server to an AlwayOn Availability Group then you should use the cliconfg.exe.
+> If you're using SharePoint Server and SQL Server AlwaysOn Availability Groups before moving the databases, you should point to the AG Listner. If you're moving from a single-server farm to an AlwayOn Availability Group then you should use the cliconfg.exe.
   
 ### To point the web application to the new database server by setting up SQL Server connection aliases
 
