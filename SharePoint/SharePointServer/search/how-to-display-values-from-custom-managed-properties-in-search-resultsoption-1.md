@@ -180,6 +180,6 @@ In the next article, we'll explain how you can keep this reference, display cust
   
 ### Next article in this series
 
-[How to display values from custom managed properties in search results - option 2 in SharePoint Server](how-to-display-values-from-custom-managed-properties-in-search-results-–-option.md)
+[How to display values from custom managed properties in search results - option 2 in SharePoint Server](how-to-display-values-from-custom-managed-properties-in-search-resultsoption-2.md)
   
 

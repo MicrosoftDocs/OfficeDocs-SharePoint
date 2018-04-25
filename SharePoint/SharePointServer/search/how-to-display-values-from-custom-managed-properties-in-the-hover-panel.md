@@ -16,7 +16,7 @@ description: "Summary: Learn how to display values from custom managed propertie
 
  **Summary:** Learn how to display values from custom managed properties in the hover panel in SharePoint Server.    
   
-In [How to display values from custom managed properties in search results - option 2 in SharePoint Server](how-to-display-values-from-custom-managed-properties-in-search-results-–-option.md) we showed you how to display values from custom managed properties with hit highlighting, and get automatically improved relevancy based on end-user click behavior. In this article, you'll learn: 
+In [How to display values from custom managed properties in search results - option 2 in SharePoint Server](how-to-display-values-from-custom-managed-properties-in-search-resultsoption-2.md) we showed you how to display values from custom managed properties with hit highlighting, and get automatically improved relevancy based on end-user click behavior. In this article, you'll learn: 
   
 - [How to decide which hover panel display template to modify](how-to-display-values-from-custom-managed-properties-in-the-hover-panel.md#BKMK_HowtoDecidewhichHoverPanelDisplayTemplatetoModify)
     
