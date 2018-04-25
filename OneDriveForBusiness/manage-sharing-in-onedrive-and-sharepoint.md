@@ -96,8 +96,7 @@ By default, users are allowed to share files in OneDrive and SharePoint with any
 1. Open the [OneDrive admin center](https://admin.onedrive.com/?v=SharingSettings), and click the **Sharing** tab. 
     
 2. Under ** Other settings **, select or clear **Display to owners the names of people who viewed their files**.
-    
-     ![Sharing settings in the OneDrive admin center](media/97907910-18c6-4c1b-8c1e-9d0d06d13c74.png)
+    ![Sharing settings in the OneDrive admin center](media/97907910-18c6-4c1b-8c1e-9d0d06d13c74.png)
   
     This setting lets you control whether the owner of a shared file can see the people who only view (and don't edit) the file in OneDrive file access statistics. File access statistics appear on a card when users hover over a file name or thumbnail in OneDrive. The statistics include the number of views on the file, the number of people who viewed it, and the list of people who viewed it.
     

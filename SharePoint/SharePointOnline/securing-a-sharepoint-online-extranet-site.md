@@ -20,7 +20,7 @@ description: "Learn how to configure SharePoint Online Admin Managed Partner Use
 
 Depending on your business needs, there are different approaches you can take to secure and restrict access to your SharePoint Online B2B extranet site. In SharePoint Online, you can control how and if invitations are sent to external users. These settings can be set at the tenant level, globally controlling all sites. Some settings can also be set at the individual site collection level, allowing you tailor the settings based on the unique requirements for your partner relationship while keeping control on sites intended for internal corporate use only.
   
-For information about how to configure the sharing settings discussed in this article, see [Manage external sharing for your SharePoint Online environment](manage-external-sharing).
+For information about how to configure the sharing settings discussed in this article, see [Manage external sharing for your SharePoint Online environment](manage-external-sharing.md).
   
 > [!IMPORTANT]
 > Any tenant-level sharing settings that you configure also affect OneDrive for Business. 
@@ -58,7 +58,7 @@ Options 4 and 5 use domain filtering:
     
 - **Deny list** - Allows sharing invitations to be sent to any domain except those listed. 
     
-To set up domain filtering, see [Restricted Domains Sharing in Office 365 SharePoint Online and OneDrive for Business](restricted-domains-sharing-in-sharepoint-online-and-onedrive-for-business).
+To set up domain filtering, see [Restricted Domains Sharing in Office 365 SharePoint Online and OneDrive for Business](restricted-domains-sharing-in-sharepoint-online-and-onedrive-for-business.md).
   
 ## Controlling who can add users to a site
 
@@ -75,11 +75,11 @@ To configure this option, on the **Sharing** tab at the site collection level, s
 
 #### Other Resources
 
-[Onboarding to SharePoint Hybrid Extranet Sites](planning-sharepoint-online-business-to-business-b2b-extranet-sites)
+[Onboarding to SharePoint Hybrid Extranet Sites](planning-sharepoint-online-business-to-business-b2b-extranet-sites.md)
   
-[Extranet for Partners with Office 365](use-office-365-sharepoint-online-as-a-business-to-business-b2b-extranet-solution)
+[Extranet for Partners with Office 365](use-office-365-sharepoint-online-as-a-business-to-business-b2b-extranet-solution.md)
   
-[Restricted Domains Sharing in O365 SharePoint Online and OneDrive for Business](restricted-domains-sharing-in-sharepoint-online-and-onedrive-for-business)
+[Restricted Domains Sharing in O365 SharePoint Online and OneDrive for Business](restricted-domains-sharing-in-sharepoint-online-and-onedrive-for-business.md)
   
 [Set-SPOSite](https://go.microsoft.com/fwlink/p/?LinkId=624162)
   

@@ -19,7 +19,7 @@ description: "Learn how easy it is to create a group for a collection of terms i
 
 # Set up a new group for term sets
 
-In the Term Store Management Tool, a group is a set of term sets that all share common security requirements. Only users who are designated as Contributors to a specific group can manage term sets that belong to the group or create new term sets within it. Organizations should create unique groups for term sets that will have unique access or security needs. For information about how to create a term set, see [Set up a new term set](set-up-a-new-term-set). 
+In the Term Store Management Tool, a group is a set of term sets that all share common security requirements. Only users who are designated as Contributors to a specific group can manage term sets that belong to the group or create new term sets within it. Organizations should create unique groups for term sets that will have unique access or security needs. For information about how to create a term set, see [Set up a new term set](set-up-a-new-term-set.md). 
   
 > [!IMPORTANT]
 >  To create a new term set group, you must be a Term Store Administrator 
@@ -52,9 +52,9 @@ To open the Term Store management tool, select the SharePoint environment that y
   
  **In SharePoint Online**
   
-1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4) with your SharePoint Online admin account. 
+1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4.md) with your SharePoint Online admin account. 
     
-2. Go to the [SharePoint admin center](about-the-admin-center).
+2. Go to the [SharePoint admin center](about-the-admin-center.md).
     
 3. Select **Term Store**.
     

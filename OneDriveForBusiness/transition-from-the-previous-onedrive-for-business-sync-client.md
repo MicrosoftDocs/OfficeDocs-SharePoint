@@ -49,7 +49,7 @@ The following library types are not yet supported by the new OneDrive sync clien
     
 ## Prerequisites
 
-1. Make sure users have the following versions of Office or higher installed. For info about deploying Office, see [Choose how to deploy Office 365 ProPlus](https://support.office.com/article/e471ef30-2a09-4767-a172-aa74e1dc4686). Make sure you don't install the previous OneDrive for Business sync client. For info, see [Changes to the previous OneDrive sync client (Groove.exe) in Office 2016 Click-to-Run](exclude-or-uninstall-groove-exe-when-using-office-click-to-run).
+1. Make sure users have the following versions of Office or higher installed. For info about deploying Office, see [Choose how to deploy Office 365 ProPlus](https://support.office.com/article/e471ef30-2a09-4767-a172-aa74e1dc4686). Make sure you don't install the previous OneDrive for Business sync client. For info, see [Changes to the previous OneDrive sync client (Groove.exe) in Office 2016 Click-to-Run](exclude-or-uninstall-groove-exe-when-using-office-click-to-run.md).
     
 |||
 |:-----|:-----|
@@ -58,7 +58,7 @@ The following library types are not yet supported by the new OneDrive sync clien
 |Office 2016 MSI  <br/> |16.0.4432.1\*  <br/> |
 |Office 2013 MSI/C2R  <br/> |15.0.4859.1\*  <br/> |
    
-2. Make sure users have version 17.3.6743.1212 or higher of the new OneDrive sync client installed. For info about deploying the new OneDrive sync client, see [Deploy the new OneDrive sync client in an enterprise environment](deploy-the-sync-client-for-windows).
+2. Make sure users have version 17.3.6743.1212 or higher of the new OneDrive sync client installed. For info about deploying the new OneDrive sync client, see [Deploy the new OneDrive sync client in an enterprise environment](deploy-the-sync-client-for-windows.md).
     
 > [!NOTE]
 > If Office 2010 is installed on a computer, the SharePoint Workspace component must be removed. Before starting OneDrive Setup, either [Uninstall Office 2016, Office 2013, or Office 365 from a PC](https://support.office.com/article/9dd49b83-264a-477a-8fcc-2fdf5dbf61d8#OfficeVersion=2010) or [Install or remove individual Office 2010 programs and components](https://support.office.com/article/aeb80df5-326c-4afc-8064-bd195f560753). 
@@ -100,13 +100,13 @@ For more information, see [Get-SPOTenantSyncClientRestriction](https://go.micros
 
 #### Other Resources
 
-[Deploy the new OneDrive sync client in an enterprise environment](deploy-the-sync-client-for-windows)
+[Deploy the new OneDrive sync client in an enterprise environment](deploy-the-sync-client-for-windows.md)
   
 [Sync files with the new OneDrive sync client in Windows](https://support.office.com/article/615391c4-2bd3-4aae-a42a-858262e42a49)
   
 [Get started with the new OneDrive sync client on Mac OS X](https://support.office.com/article/d11b9f29-00bb-4172-be39-997da46f913f)
   
-[Use Group Policy to control OneDrive sync client settings](use-group-policy-to-control-sync-client-settings)
+[Use Group Policy to control OneDrive sync client settings](use-group-policy-to-control-sync-client-settings.md)
   
 [Restrictions and limitations when you use the new OneDrive sync client to sync OneDrive for Business libraries](https://go.microsoft.com/fwlink/?LinkId=717734)
 

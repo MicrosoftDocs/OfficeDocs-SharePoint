@@ -21,7 +21,7 @@ Learn how you can customize the search experience in SharePoint Online to help u
 
 Below are the **four main areas** where you can customize the search experience and make sure that search is performing the way you want. 
   
-Many of the search features are available on the [search administration page](manage-search-the-admin-center) in the SharePoint admin center. The high-level overview of [How search works](overview-of-search.md#howsearchworks) can also help you understand where and how you can impact the search experience in SharePoint Online. 
+Many of the search features are available on the [search administration page](manage-search-the-admin-center.md) in the SharePoint admin center. The high-level overview of [How search works](overview-of-search.md#howsearchworks) can also help you understand where and how you can impact the search experience in SharePoint Online. 
   
 ![Line](media/ee907d18-39a7-437c-9852-073694f74c84.png)
   
@@ -31,7 +31,7 @@ Many of the search features are available on the [search administration page](ma
   
 The content must be crawled and added to the search index for your users to find what they're looking for when they search in SharePoint Online.
   
-See how you can make content searchable, and how you can crawl content to get it into the search index. Also, see how you can help users search for content across Office 365 and on-premises SharePoint Server at the same time. [Learn more](make-sure-content-can-be-found).
+See how you can make content searchable, and how you can crawl content to get it into the search index. Also, see how you can help users search for content across Office 365 and on-premises SharePoint Server at the same time. [Learn more](make-sure-content-can-be-found.md).
   
 ![Line](media/ee907d18-39a7-437c-9852-073694f74c84.png)
   
@@ -41,7 +41,7 @@ See how you can make content searchable, and how you can crawl content to get it
   
 Presenting the search results the right way makes content easier to find.
   
-See how you can manage the Search Center in SharePoint Online, and how you can use the different search Web Parts to help each user find what they're looking for. [Learn more](make-search-results-look-great).
+See how you can manage the Search Center in SharePoint Online, and how you can use the different search Web Parts to help each user find what they're looking for. [Learn more](make-search-results-look-great.md).
   
 ![Line](media/ee907d18-39a7-437c-9852-073694f74c84.png)
   
@@ -51,7 +51,7 @@ See how you can manage the Search Center in SharePoint Online, and how you can u
   
 All search results are not relevant to everyone all the time.
   
-See how you can show each user exactly the results they're looking for. [Learn more](show-relevant-search-results).
+See how you can show each user exactly the results they're looking for. [Learn more](show-relevant-search-results.md).
   
 ![Line](media/ee907d18-39a7-437c-9852-073694f74c84.png)
   
@@ -59,7 +59,7 @@ See how you can show each user exactly the results they're looking for. [Learn m
   
  **Check logs, limits and reports.**
   
-See how you can check if the crawler has added content to the search index, and if your users are finding what they're looking for. Look up the limits for search, for example how many entries you can have in a custom search dictionary. [Learn more](check-logs-limits-and-reports).
+See how you can check if the crawler has added content to the search index, and if your users are finding what they're looking for. Look up the limits for search, for example how many entries you can have in a custom search dictionary. [Learn more](check-logs-limits-and-reports.md).
   
 ## How search works
 <a name="howsearchworks"> </a>

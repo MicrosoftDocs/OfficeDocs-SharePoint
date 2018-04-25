@@ -26,7 +26,7 @@ From the admin center, you can also add users to an app, or delegate management 
   
 1. [Where to sign in to Office 365 for business](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4) with your SharePoint Online admin username and password. 
     
-2. Go to the [SharePoint admin center](about-the-admin-center).
+2. Go to the [SharePoint admin center](about-the-admin-center.md).
     
 3. Select **Apps** on the left, and then select **Manage Licenses**. 
     

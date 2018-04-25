@@ -37,11 +37,11 @@ Industry verticals where business-to-business (B2B) collaboration is key to thei
 
  Key features offered in SharePoint Online collaboration include: 
   
-- **Allow users to Invite new partner users:** In certain site collections, admins can optionally allow users to invite new partner users. In this model, an email invite is sent to the partner user and the user must redeem that invite to access the resource. See [Manage external sharing for your SharePoint Online environment](manage-external-sharing) for details. 
+- **Allow users to Invite new partner users:** In certain site collections, admins can optionally allow users to invite new partner users. In this model, an email invite is sent to the partner user and the user must redeem that invite to access the resource. See [Manage external sharing for your SharePoint Online environment](manage-external-sharing.md) for details. 
     
 - **Sharing by site owners only:** Ability to have site collections where only site owners can bring in or share with new users. Site members, who are typically external partner users, can see only the existing site members in the site. This helps in governing what partners can see and with whom they can share documents. 
     
-- **Restricted domains sharing:** Admins can control the list of partner domains that their employees can share with outside the organization. Either an allow list of email domains or a deny list of email domains can be configured. See [Restricted Domains Sharing in O365 SharePoint Online and OneDrive for Business](restricted-domains-sharing-in-sharepoint-online-and-onedrive-for-business) more details. 
+- **Restricted domains sharing:** Admins can control the list of partner domains that their employees can share with outside the organization. Either an allow list of email domains or a deny list of email domains can be configured. See [Restricted Domains Sharing in O365 SharePoint Online and OneDrive for Business](restricted-domains-sharing-in-sharepoint-online-and-onedrive-for-business.md) more details. 
     
 - **Auditing &amp; Reporting:** Activities of the business partner users are audited and reports can be viewed in Office 365 Activity Reports. 
     
@@ -78,9 +78,9 @@ Industry verticals where business-to-business (B2B) collaboration is key to thei
 
 To get started setting up a SharePoint Online extranet site:
   
-1. Read [Planning SharePoint Online business-to-business (B2B) extranet sites](planning-sharepoint-online-business-to-business-b2b-extranet-sites) to learn about the different guest invitation models. 
+1. Read [Planning SharePoint Online business-to-business (B2B) extranet sites](planning-sharepoint-online-business-to-business-b2b-extranet-sites.md) to learn about the different guest invitation models. 
     
-2. Read [Securing a SharePoint Online extranet site](securing-a-sharepoint-online-extranet-site) to learn about the options for restricting your extranet site to only the users you want. 
+2. Read [Securing a SharePoint Online extranet site](securing-a-sharepoint-online-extranet-site.md) to learn about the options for restricting your extranet site to only the users you want. 
     
 3. Deploy your extranet by using [standard SharePoint Online sharing options](manage-external-sharing.md) or by [importing external users into Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
     

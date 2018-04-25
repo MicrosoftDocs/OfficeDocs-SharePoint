@@ -109,11 +109,11 @@ As a SharePoint Online administrator, you can turn off or on query suggestions, 
     
 See also: 
   
-- [Manage the Search Center in SharePoint Online](manage-the-search-center)
+- [Manage the Search Center in SharePoint Online](manage-the-search-center.md)
     
-- [Change settings for the Search Navigation Web Part](the-search-navigation-web-part)
+- [Change settings for the Search Navigation Web Part](the-search-navigation-web-part.md)
     
-- [Change settings for the Refinement Web Part](the-refinement-web-part)
+- [Change settings for the Refinement Web Part](the-refinement-web-part.md)
     
 - [Change settings for the Search Results Web Part](https://support.office.com/article/40ff85b3-bc5e-4230-b1dd-f088188e487e)
     

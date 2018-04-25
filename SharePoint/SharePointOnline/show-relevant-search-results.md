@@ -43,7 +43,7 @@ A result type specifies one or more conditions to compare search results against
   
  **Manage search dictionaries**
   
-You can use search dictionaries to include or exclude words for query spelling correction, and you can include or exclude company names to be extracted from the content of indexed documents. [Learn more](manage-search-dictionaries).
+You can use search dictionaries to include or exclude words for query spelling correction, and you can include or exclude company names to be extracted from the content of indexed documents. [Learn more](manage-search-dictionaries.md).
   
  **Manage authoritative pages**
   

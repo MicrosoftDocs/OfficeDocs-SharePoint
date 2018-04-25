@@ -24,7 +24,7 @@ The Site management page of the new SharePoint admin center (preview) lets you v
 > [!NOTE]
 > The Site management page lists the root website for each site collection. Subsites aren't included in the list. > Some functionality is introduced gradually to organizations that have opted in to the [Set up the Standard or Targeted release options in Office 365](https://support.office.com/article/3b3adfa4-1777-4ff0-b606-fb8732101f47). This means that you may not yet see this feature or it may look different than what is described in this article. 
   
-To manage sites in the new SharePoint admin center, go to the current SharePoint admin center, click "Try the new SharePoint admin center preview" in the upper right, and then select **Site management**. For info about the new SharePoint admin center, see [Get started with the new SharePoint admin center](get-started-with-the-new-sharepoint-admin-center-preview).
+To manage sites in the new SharePoint admin center, go to the current SharePoint admin center, click "Try the new SharePoint admin center preview" in the upper right, and then select **Site management**. For info about the new SharePoint admin center, see [Get started with the new SharePoint admin center](get-started-with-the-new-sharepoint-admin-center-preview.md).
   
 ## Create a site
 <a name="createsite"> </a>
@@ -46,7 +46,7 @@ On the Site management page, you can delete the communication sites you created,
     
 2. Click **Delete**, and then click **Delete** to confirm. 
     
-You can recover deleted sites for 93 days by going to the Recycle bin. For more info, see [View and restore deleted sites](view-and-restore-deleted-sites-in-the-new-sharepoint-admin-center).
+You can recover deleted sites for 93 days by going to the Recycle bin. For more info, see [View and restore deleted sites](view-and-restore-deleted-sites-in-the-new-sharepoint-admin-center.md).
   
 ## Add or remove admins
 <a name="addremoveadmins"> </a>

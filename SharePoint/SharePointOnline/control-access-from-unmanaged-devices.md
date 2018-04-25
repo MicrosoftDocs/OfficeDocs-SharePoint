@@ -34,7 +34,7 @@ Blocking access helps provide security but comes at the cost of usability and pr
   
 ## Block access to SharePoint and OneDrive content using the SharePoint admin center
 
-1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4) as a global admin or SharePoint admin. 
+1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4.md) as a global admin or SharePoint admin. 
     
 2. Select the app launcher icon ![The icon that looks like a waffle and represents a button click that will reveal multiple application tiles for selection.](media/3b8a317e-13ba-4bd4-864e-1ccd47af39ee.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
@@ -45,8 +45,7 @@ Blocking access helps provide security but comes at the cost of usability and pr
 5. Select **Block Access**.
     
 6. Click **OK**.
-    
-     ![The block access setting on the access control page](media/ea0ee472-6fde-4d2d-bc7b-9d3b9eee0d96.PNG)
+    ![The block access setting on the access control page](media/ea0ee472-6fde-4d2d-bc7b-9d3b9eee0d96.PNG)
   
     > [!NOTE]
     > It can take 5-10 minutes for the policy to take effect. It won't take effect for users who are already signed in from unmanaged devices. 
@@ -57,7 +56,7 @@ If you go to the Azure AD admin center and click **Conditional access**, you can
   
 ## Limit access to SharePoint and OneDrive content using the SharePoint admin center
 
-1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4) as a global admin or SharePoint admin. 
+1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4.md) as a global admin or SharePoint admin. 
     
 2. Select the app launcher icon ![The icon that looks like a waffle and represents a button click that will reveal multiple application tiles for selection.](media/3b8a317e-13ba-4bd4-864e-1ccd47af39ee.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
@@ -68,8 +67,7 @@ If you go to the Azure AD admin center and click **Conditional access**, you can
 5. Select **Allow limited, web-only access**.
     
 6. Click **OK**.
-    
-     ![The limited access setting on the access control page](media/1ac2b9f4-32eb-4f21-85f1-e971c50f8b23.png)
+    ![The limited access setting on the access control page](media/1ac2b9f4-32eb-4f21-85f1-e971c50f8b23.png)
   
     > [!NOTE]
     > It can take 5-10 minutes for the policies to take effect. They won't take effect for users who are already signed in from unmanaged devices. > By default, this policy allows users to view and edit files in their web browser. To change this, see [Advanced configurations](control-access-from-unmanaged-devices.md#advanced). 
@@ -104,8 +102,7 @@ To block or limit access to specific sites, you must set the organization-wide p
 5. Under **Session**, select **Use app enforced restrictions**. This tells Azure to use the settings you'll specify in SharePoint.
     
 6. Enable the policy and save it.
-    
-     ![Creating a policy in the Azure AD admin center to use app-enforced restrictions](media/c6467cd8-612d-4f8e-98bf-4913b35f49f1.png)
+    ![Creating a policy in the Azure AD admin center to use app-enforced restrictions](media/c6467cd8-612d-4f8e-98bf-4913b35f49f1.png)
   
 7. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
     

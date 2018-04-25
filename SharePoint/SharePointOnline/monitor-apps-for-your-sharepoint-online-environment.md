@@ -20,9 +20,9 @@ As a SharePoint Online admin, you can monitor information such as app usage and 
 ## Select apps to monitor
 <a name="__top"> </a>
 
-1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4) with your SharePoint Online admin account. 
+1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4.md) with your SharePoint Online admin account. 
     
-2. Go to the [SharePoint admin center](about-the-admin-center).
+2. Go to the [SharePoint admin center](about-the-admin-center.md).
     
 3. Select **Apps** on the left, and then select **Monitor Apps**.
     
@@ -33,9 +33,9 @@ As a SharePoint Online admin, you can monitor information such as app usage and 
 ## View app details or errors
 <a name="__top"> </a>
 
-1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4) with your SharePoint Online admin account. 
+1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4.md) with your SharePoint Online admin account. 
     
-2. Go to the [SharePoint admin center](about-the-admin-center).
+2. Go to the [SharePoint admin center](about-the-admin-center.md).
     
 3. Select **Apps** on the left, and then select **Monitor Apps**.
     

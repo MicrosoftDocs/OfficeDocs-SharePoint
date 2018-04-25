@@ -33,9 +33,9 @@ The publishing portal is the top level of the site collection. You must enable p
   
 To set up a publishing portal
   
-1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4) with your work or school account. 
+1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4.md) with your work or school account. 
     
-2. Go to the [ Office 365 admin center ](about-the-admin-center).
+2. Go to the [ Office 365 admin center ](about-the-admin-center.md).
     
 3. Choose **Resources** > **Sites**. Then choose **Add a site**.
     
@@ -53,14 +53,12 @@ To set up a publishing portal
   - In Template Selection, in the **Select a language** dropdown, choose a language for the site collection. It is important to select the appropriate language for the site collection because once it's chosen, it cannot be changed. You can enable the SharePoint multiple language interface on your sites, but the primary language for the site collection will remain the same. 
     
   - In Template Selection, in the **Select a template** section, choose **Publishing** > **Publishing Portal**, or **Enterprise** > **Publishing Portal** depending on your version of SharePoint. 
-    
-     ![New Site collection dialog top half with Publishing Portal highlighted](media/d71bca0b-edc9-4443-be70-0c86d57d358b.PNG)
+    ![New Site collection dialog top half with Publishing Portal highlighted](media/d71bca0b-edc9-4443-be70-0c86d57d358b.PNG)
   
   - In Time Zone, select the standard time zone appropriate for the location of the site collection.
     
   - In Administrator, type the user name of your site collection administrator. You can also use the **Check names** or **Browse** buttons to find a user to make site collection administrator. 
-    
-     ![New site collection dialog with timezone and quotas section.](media/c152f5f2-b4d6-45e9-a253-b1010f813e28.PNG)
+    ![New site collection dialog with timezone and quotas section.](media/c152f5f2-b4d6-45e9-a253-b1010f813e28.PNG)
   
   - In Storage Quota, type the number of MB to allocate to this site collection. Check the MB available value to make sure you don't exceed the MB available.
     
@@ -152,8 +150,7 @@ If you want to add publishing features to an existing site, follow these steps. 
 2. On the Site Settings page, under **Site Collection Administration**, click **Site collection features**.
     
 3. On the Site Collection Features page, next to **SharePoint Server Publishing Infrastructure**, click **Activate**.
-    
-     ![activate the publishing infrastructure feature](media/70d79be9-374d-4913-9b3d-4d7848850f4d.jpg)
+    ![activate the publishing infrastructure feature](media/70d79be9-374d-4913-9b3d-4d7848850f4d.jpg)
   
 ### Additional resources
 

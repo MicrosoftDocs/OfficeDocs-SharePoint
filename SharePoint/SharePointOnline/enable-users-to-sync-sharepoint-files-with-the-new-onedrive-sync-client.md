@@ -98,7 +98,7 @@ See [Deploy and configure the new OneDrive sync client for Mac](https://support.
 ## Set SharePoint to sync with the OneDrive sync client
 <a name="admincenter"> </a>
 
-1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4) as a global admin or SharePoint admin. 
+1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4.md) as a global admin or SharePoint admin. 
     
 2. Select the app launcher icon ![The icon that looks like a waffle and represents a button click that will reveal multiple application tiles for selection.](media/3b8a317e-13ba-4bd4-864e-1ccd47af39ee.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
@@ -107,14 +107,12 @@ See [Deploy and configure the new OneDrive sync client for Mac](https://support.
 4. In the left pane, click **settings**.
     
 5. Make sure "OneDrive Sync Button" is set to "Show the Sync button."
-    
-     ![Admin settings for OneDrive sync button](media/66be619a-fec1-4719-a819-7e3fa6e222f1.PNG)
+    ![Admin settings for OneDrive sync button](media/66be619a-fec1-4719-a819-7e3fa6e222f1.PNG)
   
     To sync SharePoint files with the new client, you must also sync OneDrive files with the new client.
     
 6. For "Sync Client for SharePoint," select **Start the new client**.
-    
-     ![Admin setting for OneDrive sync client](media/894772b5-3e43-4a60-9887-99aca47a261c.PNG)
+    ![Admin setting for OneDrive sync client](media/894772b5-3e43-4a60-9887-99aca47a261c.PNG)
   
     > [!NOTE]
     > If you don't see the "Sync Client for SharePoint" setting on the Settings page, your organization is already set up to use the new OneDrive sync client. When users sign in to the OneDrive sync client (OneDrive.exe), it will automatically take over syncing the site libraries that the previous new OneDrive sync client sync client (Groove.exe) was syncing. For information about how this works, and about the types of libraries that will continue syncing with the previous sync client, see [Transition from the previous OneDrive for Business sync client](https://support.office.com/article/4100df3a-0c96-464f-b0a8-c20de34da6fa). 

@@ -34,23 +34,20 @@ If you want to change the admins for a communication site or a site that belongs
   
 To add or remove site collection admins on classic sites, use the SharePoint admin center:
   
-1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4) as a global admin or SharePoint admin. 
+1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4.md) as a global admin or SharePoint admin. 
     
 2. Select the app launcher icon ![The icon that looks like a waffle and represents a button click that will reveal multiple application tiles for selection.](media/3b8a317e-13ba-4bd4-864e-1ccd47af39ee.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
 3. In the left pane, choose **Admin centers** > **SharePoint**.
     
 4. Point to the site collection for which you want to change the administrators, and then select the check box in front of it. 
-    
-     ![SPO Selecting a collection from within the site collection list](media/6e5db026-befa-46b7-9e05-77c022919c88.PNG)
+    ![SPO Selecting a collection from within the site collection list](media/6e5db026-befa-46b7-9e05-77c022919c88.PNG)
   
 5. Click **Owners**, and then click **Manage Administrators**.
-    
-     ![SPO Site administrator owners button with Manage Administrators highlighted.](media/45326c50-d66f-44e7-b5f3-65ff85ca18f7.PNG)
+    ![SPO Site administrator owners button with Manage Administrators highlighted.](media/45326c50-d66f-44e7-b5f3-65ff85ca18f7.PNG)
   
 6. Change the name in the **Primary Site Collection Administrator** box, or add or remove names in the **Site Collection Administrators** box. 
-    
-     ![Site administrator dialog box.](media/488ca762-cbe2-458c-8e21-7f640471a565.PNG)
+    ![Site administrator dialog box.](media/488ca762-cbe2-458c-8e21-7f640471a565.PNG)
   
 7. Click **Check Names**![Check Names button](media/bfa3e094-27e7-4ded-b5b9-de97518f6375.png) to verify that the user names are valid. 
     

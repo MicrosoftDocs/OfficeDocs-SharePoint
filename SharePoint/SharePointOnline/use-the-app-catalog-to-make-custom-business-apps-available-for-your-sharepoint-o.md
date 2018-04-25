@@ -33,7 +33,7 @@ The first step is to create the App Catalog site collection if it hasn't already
   
 Even if you don't plan to make internal custom apps available, you will not be able to do things like change the purchase settings for the SharePoint Store until you create an App Catalog site collection. You can have only one App Catalog site collection per SharePoint Online tenant, and only have to create it once. 
   
-1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4) as a global admin or SharePoint admin. 
+1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4.md) as a global admin or SharePoint admin. 
     
 2. Select the app launcher icon ![The icon that looks like a waffle and represents a button click that will reveal multiple application tiles for selection.](media/3b8a317e-13ba-4bd4-864e-1ccd47af39ee.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
@@ -44,12 +44,10 @@ Even if you don't plan to make internal custom apps available, you will not be a
 4. Select **apps** in the left pane, and then select **App Catalog**.
     
 5. If the App Catalog site doesn't open, select **Create a new app catalog site**, and then select **OK**.
-    
-     ![App catalog site dialog with Create a new app catalog site selected.](media/a7b6b416-5e02-43a8-a15a-f996b95dcc8f.PNG)
+    ![App catalog site dialog with Create a new app catalog site selected.](media/a7b6b416-5e02-43a8-a15a-f996b95dcc8f.PNG)
   
 6. On the Create App Catalog Site Collection page, enter the required information, and then select **OK**.
-    
-     ![Create App Catalog dialog box](media/0ee3e6a9-b293-4de4-a648-782d8f2f717e.PNG)
+    ![Create App Catalog dialog box](media/0ee3e6a9-b293-4de4-a648-782d8f2f717e.PNG)
   
 ## Step 2: Add custom apps to the App Catalog site
 <a name="__add_custom_apps"> </a>
@@ -59,19 +57,16 @@ To get to the App Catalog site once it's been created, follow steps 1 through 4 
 ![Screenshot of the home page of an App Catalog site.](media/e20ffd32-5162-49a0-a635-8486e0083afd.jpg)
   
 1. On the home page of the App Catalog site, select the tile labeled either **Distribute apps for SharePoint** or **Distribute apps for Office**, depending on which type of app you are uploading.
-    
-     ![The Getting started with your app catalog tiles with Distribute Apps for SharePoint highlighted.](media/2bbcbc6b-4d92-4da1-958d-4b8d4d37d8ee.PNG)
+    ![The Getting started with your app catalog tiles with Distribute Apps for SharePoint highlighted.](media/2bbcbc6b-4d92-4da1-958d-4b8d4d37d8ee.PNG)
   
 2. Select **New** and browse to the app you want upload, or drag the app into the library. 
-    
-     ![SPO App catalog SharePoint with New button highlighted](media/ef9d8d34-290c-4397-9422-836871c7de08.png)
+    ![SPO App catalog SharePoint with New button highlighted](media/ef9d8d34-290c-4397-9422-836871c7de08.png)
   
     > [!NOTE]
     > Depending on the functionality that the app provides, the developer can set a flag that allows you to make the app available to all sites in the organization. If the app builds something (for example, it creates a new list), you can't make it available to all sites and will need to deploy it as described in the next section under "Deploy a custom app." We always recommend testing solutions before deploying them more broadly. If the "Do you trust" dialog box appears when you upload the app, and you want to make the app available to all sites in your organization, select **Make this solution available to all sites in the organization**, and then click **Deploy**. 
   
 3. To help site owners identify and use the app, right-click it, and then click **Properties**. 
-    
-     ![Apps for SharePoint apps catalog with app selected](media/2113dcee-8f47-4f96-afb7-6978d4cf22d6.PNG)
+    ![Apps for SharePoint apps catalog with app selected](media/2113dcee-8f47-4f96-afb7-6978d4cf22d6.PNG)
   
 4. In the properties dialog form, you can change the **Name** for the app and enter optional information like a description, images, category, publisher, and support URL. Follow the instructions on the screen for details like image size. 
     
@@ -104,8 +99,7 @@ However, if you want to make the app available for use without requiring users t
 2. On the App Catalog site, click **Settings**![Office 365 Settings button](media/a9a59c0f-2e67-4cbf-9438-af273b0d552b.png) and then click **Add an app**.
     
 3. Select the app you want to add, and select **Trust It** when prompted. 
-    
-     ![Do you trust App dialog box with Trust it selected](media/f2c1e382-b174-49be-80d6-5ec90c5c7efc.PNG)
+    ![Do you trust App dialog box with Trust it selected](media/f2c1e382-b174-49be-80d6-5ec90c5c7efc.PNG)
   
 4. On the Site Contents page, find the app you want to deploy.
     
@@ -132,8 +126,7 @@ If you upload a custom app to the App Catalog, it is automatically available for
 2. After you have uploaded the app, you then must add it as an app to the App Catalog site so that it appears on the Site Contents page for the App Catalog itself. On the App Catalog site, go to **Settings**![Office 365 Settings button](media/a9a59c0f-2e67-4cbf-9438-af273b0d552b.png) and then click **Add an app**.
     
 3. Select the app you want to add, and click **Trust It** when prompted. 
-    
-     ![Trust it button with trust it highlighted](media/e52bc10c-51ed-4dfe-91df-abbc4a3d7831.PNG)
+    ![Trust it button with trust it highlighted](media/e52bc10c-51ed-4dfe-91df-abbc4a3d7831.PNG)
   
 4. On the Site Contents page, find the app you want to deploy.
     
@@ -170,11 +163,11 @@ If you no longer want a specific app to be available for users to install, you c
 
 #### Other Resources
 
-[Configure settings for the SharePoint Store](configure-settings-for-the-sharepoint-store)
+[Configure settings for the SharePoint Store](configure-settings-for-the-sharepoint-store.md)
   
-[Manage app licenses for a SharePoint Online environment](manage-app-licenses-for-a-sharepoint-online-environment)
+[Manage app licenses for a SharePoint Online environment](manage-app-licenses-for-a-sharepoint-online-environment.md)
   
-[Monitor apps for your SharePoint Online environment](monitor-apps-for-your-sharepoint-online-environment)
+[Monitor apps for your SharePoint Online environment](monitor-apps-for-your-sharepoint-online-environment.md)
   
 [Add an app to a site](https://support.office.com/article/ef9c0dbd-7fe1-4715-a1b0-fe3bc81317cb)
 

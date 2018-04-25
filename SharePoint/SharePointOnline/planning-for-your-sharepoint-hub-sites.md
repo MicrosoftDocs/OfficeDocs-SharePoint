@@ -142,7 +142,7 @@ Hub sites provide two primary organizational experiences that you should think a
     
 ### Membership
 
-A site becomes a member of a hub family by [Associate a SharePoint site with a hub site](https://support.office.com/article/ae0009fd-af04-4d3d-917d-88edb43efc05). When creating a hub site, an admin should [allow only certain site owners to associate sites with the hub](create-a-hub-site-in-sharepoint-online). 
+A site becomes a member of a hub family by [Associate a SharePoint site with a hub site](https://support.office.com/article/ae0009fd-af04-4d3d-917d-88edb43efc05). When creating a hub site, an admin should [allow only certain site owners to associate sites with the hub](create-a-hub-site-in-sharepoint-online.md). 
   
 By default, a site owner of an individual site can associate with a hub. Only the owner of the hub site can determine how content and activity from the hub members will appear on the hub site pages and how the sites will appear in hub navigation.
   

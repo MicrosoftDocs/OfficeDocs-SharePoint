@@ -49,7 +49,7 @@ The following are known issues with this release:
     
 - Conditional access for macOS is in preview.
     
-- This release will not automatically take over sync from the previous OneDrive for Business sync client (Groove.exe). If you are already syncing with Groove.exe, it will continue to sync after you set up the OneDrive sync client. (We are working on a fix for this issue.) For instructions, see [Transition from the previous OneDrive for Business sync client](transition-from-the-previous-onedrive-for-business-sync-client).
+- This release will not automatically take over sync from the previous OneDrive for Business sync client (Groove.exe). If you are already syncing with Groove.exe, it will continue to sync after you set up the OneDrive sync client. (We are working on a fix for this issue.) For instructions, see [Transition from the previous OneDrive for Business sync client](transition-from-the-previous-onedrive-for-business-sync-client.md).
     
 - In some cases, the user may be prompted for credentials twice. We are working on a fix for this issue.
     
@@ -73,7 +73,7 @@ Please let us know if you run into any problems while using this release.
     
 ## Related Topics
 
-[Deploy the new OneDrive sync client](deploy-the-sync-client-for-windows)
+[Deploy the new OneDrive sync client](deploy-the-sync-client-for-windows.md)
   
 [Sync files with the new OneDrive sync client in Windows](https://support.office.com/article/615391c4-2bd3-4aae-a42a-858262e42a49)
   

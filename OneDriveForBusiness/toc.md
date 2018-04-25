@@ -1,4 +1,6 @@
 ﻿
+  
+
 # [OneDrive](onedrive.md)
 ## [Sync]()
 ### [Deploy the sync client for Windows](deploy-the-sync-client-for-windows.md)
@@ -26,4 +28,6 @@
 ### [Set the default file retention for deleted OneDrive users](set-the-default-file-retention-for-deleted-onedrive-users.md)
 ### [Create a list of all OneDrive locations](create-a-list-of-all-onedrive-locations.md)
 ### [Help users use the Discover view](help-users-use-the-discover-view.md)
+### [Restore a deleted OneDrive](restore-a-deleted-onedrive.md)
+### [OneDrive retention and deletion](onedrive-retention-and-deletion.md)
 

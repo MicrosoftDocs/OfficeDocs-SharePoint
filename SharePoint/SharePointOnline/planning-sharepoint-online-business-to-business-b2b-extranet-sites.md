@@ -30,7 +30,7 @@ To help plan for your extranet site, we'll go over the following in tasks in thi
     
 - Create a lifecycle plan for your guest users and what to do with the content and users accounts when you complete the collaboration for which you're creating the site.
     
-When you complete this article, read [Securing a SharePoint Online extranet site](securing-a-sharepoint-online-extranet-site).
+When you complete this article, read [Securing a SharePoint Online extranet site](securing-a-sharepoint-online-extranet-site.md).
   
 ## Choosing how to invite partner users
 
@@ -42,11 +42,11 @@ One key aspect of using an extranet site is managing the external business partn
     
 - **Admin-managed partner users model** - In an admin-managed partner users model, the Office 365 you pre-populate your tenant's directory with the guest users who you'll be inviting to your site. This can be done by [importing users from other Office 365 or Azure AD tenants](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
     
-See [Securing a SharePoint Online extranet site](securing-a-sharepoint-online-extranet-site) for details on how these options relate to site sharing and which settings to choose. 
+See [Securing a SharePoint Online extranet site](securing-a-sharepoint-online-extranet-site.md) for details on how these options relate to site sharing and which settings to choose. 
   
 ## Assigning licenses to partner users
 
-Guest user accounts have limited capabilities in SharePoint Online. See [Manage external sharing for your SharePoint Online environment](manage-external-sharing) for details on those features and what additional capabilities can be provided. If you determine that your partner users need additional functionality, such as the ability to create team sites, you can [assign SharePoint Online licenses to these user accounts](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
+Guest user accounts have limited capabilities in SharePoint Online. See [Manage external sharing for your SharePoint Online environment](manage-external-sharing.md) for details on those features and what additional capabilities can be provided. If you determine that your partner users need additional functionality, such as the ability to create team sites, you can [assign SharePoint Online licenses to these user accounts](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
   
 > [!NOTE]
 > Assigning an Exchange Online license to guest partner users is not supported. 
@@ -85,7 +85,7 @@ When a contract with a business partner ends, it is important that you remove an
 
 #### Other Resources
 
-[Manage external sharing for your SharePoint Online environment](manage-external-sharing)
+[Manage external sharing for your SharePoint Online environment](manage-external-sharing.md)
   
 [Azure Active Directory B2B collaboration](https://azure.microsoft.com/en-us/documentation/articles/active-directory-b2b-collaboration-overview/?rnd=1)
   

@@ -34,6 +34,6 @@ You can sort and filter sites in the recycle bin the same way you sort and filte
     
 2. Click **Restore**.
     
-For more info about the new SharePoint admin center, see [Get started with the new SharePoint admin center](get-started-with-the-new-sharepoint-admin-center-preview).
+For more info about the new SharePoint admin center, see [Get started with the new SharePoint admin center](get-started-with-the-new-sharepoint-admin-center-preview.md).
   
 

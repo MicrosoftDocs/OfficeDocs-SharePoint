@@ -24,7 +24,7 @@ If your organization uses the cloud identity model, your Office 365 user account
 ## Add a property for a user profile
 <a name="__top"> </a>
 
-1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4) as a global admin or SharePoint admin. 
+1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4.md) as a global admin or SharePoint admin. 
     
 2. Select the app launcher icon ![The icon that looks like a waffle and represents a button click that will reveal multiple application tiles for selection.](media/3b8a317e-13ba-4bd4-864e-1ccd47af39ee.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
@@ -39,8 +39,7 @@ If your organization uses the cloud identity model, your Office 365 user account
 6. Select **New Property**.
     
 7. In the **Name** box, enter a unique name for the property. 
-    
-     ![Property settings under User Profile in Admin](media/b18946ee-7db7-4587-9f0b-2ea1d892415f.png)
+    ![Property settings under User Profile in Admin](media/b18946ee-7db7-4587-9f0b-2ea1d892415f.png)
   
 8. In the **Display Name** box, enter the profile property name that will be displayed to all users. (This name doesn't have to be unique.) 
     
@@ -51,7 +50,7 @@ If your organization uses the cloud identity model, your Office 365 user account
   
 10. If you selected binary, HTML, or string, use the **Length** box to enter the maximum number of characters allowed for property values. 
     
-11. If you selected string and want to associate the profile property with a [managed metadata term set](introduction-to-managed-metadata), select **Configure a Term Set to be used for this property**. Then select a term set from the list. 
+11. If you selected string and want to associate the profile property with a [managed metadata term set](introduction-to-managed-metadata.md), select **Configure a Term Set to be used for this property**. Then select a term set from the list. 
     
 12. Make sure **Default User Profile Subtype** is selected so the default user profile subtype is associated with this user profile property. 
     

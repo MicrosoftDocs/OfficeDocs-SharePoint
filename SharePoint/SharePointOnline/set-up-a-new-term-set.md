@@ -64,7 +64,7 @@ To set up a new term set, follow these steps.
     
 9. Select **Save** to save your property updates. 
     
-To learn how to add a term to the new term set, see [Create and manage terms in a term set](create-and-manage-terms-in-a-term-set).
+To learn how to add a term to the new term set, see [Create and manage terms in a term set](create-and-manage-terms-in-a-term-set.md).
   
 ## Open the Term Store management tool
 <a name="__open_the_term"> </a>
@@ -73,9 +73,9 @@ To open the Term Store management tool, select the SharePoint environment that y
   
 - In SharePoint Online
     
-1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4) with your work or school account. 
+1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4.md) with your work or school account. 
     
-2. Go to the [SharePoint admin center](about-the-admin-center).
+2. Go to the [SharePoint admin center](about-the-admin-center.md).
     
 3. Select **Term Store**.
   

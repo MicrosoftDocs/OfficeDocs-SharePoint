@@ -34,7 +34,7 @@ description: "Learn about the external sharing options in SharePoint Online."
 
 If your organization performs work that involves sharing documents or collaborating directly with vendors, clients, or customers, then you can use the external sharing features of SharePoint Online to share content with people outside your organization. Or, if this is not the case, you may want to limit the use of external sharing in your organization. In this article, we look at the SharePoint Online sharing options and how to plan for them.
   
-(If you want to get straight to setting up sharing, see [Turn external sharing on or off for SharePoint Online](turn-external-sharing-on-or-off-for-sharepoint-online). If you're trying to share a file or folder, see [Share OneDrive files and folders](https://support.office.com/article/9fcc2f7d-de0c-4cec-93b0-a82024800c07) or [Share SharePoint files or folders in Office 365](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c).)
+(If you want to get straight to setting up sharing, see [Turn external sharing on or off for SharePoint Online](turn-external-sharing-on-or-off-for-sharepoint-online.md). If you're trying to share a file or folder, see [Share OneDrive files and folders](https://support.office.com/article/9fcc2f7d-de0c-4cec-93b0-a82024800c07) or [Share SharePoint files or folders in Office 365](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c).)
   
 Planning for external sharing should be included as part of your overall permissions planning for SharePoint Online.
   
@@ -112,7 +112,7 @@ Anonymous users are not added to the user list in Office 365. You can discontinu
 
 If you have business partners or vendors with whom you need to collaborate or share documents, consider setting up a SharePoint Online extranet site. An extranet site is a dedicate site collection that you use for business-to-business collaboration with a particular partner or vendor. You can lock this site down so that only site owners can invite external users and only external users from specific domains can be invited.
   
-SharePoint Online extranet sites are very easy to set up and much easier and less expensive to maintain than on-premises extranet sites. For details, see [Use Office 365 SharePoint Online as a business-to-business (B2B) extranet solution](use-office-365-sharepoint-online-as-a-business-to-business-b2b-extranet-solution).
+SharePoint Online extranet sites are very easy to set up and much easier and less expensive to maintain than on-premises extranet sites. For details, see [Use Office 365 SharePoint Online as a business-to-business (B2B) extranet solution](use-office-365-sharepoint-online-as-a-business-to-business-b2b-extranet-solution.md).
   
 ## See also
 

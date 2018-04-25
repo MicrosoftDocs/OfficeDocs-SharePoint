@@ -73,6 +73,6 @@ In the Service health section of the home page, you can see whether the SharePoi
   
 ## See Also
 
-[Manage sites in the new SharePoint admin center](manage-sites-in-the-new-sharepoint-admin-center)
+[Manage sites in the new SharePoint admin center](manage-sites-in-the-new-sharepoint-admin-center.md)
   
 

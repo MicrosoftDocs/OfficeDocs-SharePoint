@@ -56,6 +56,6 @@ If you're a global or SharePoint admin in Office 365, you can convert any existi
     
 ## See Also
 
-[Remove a hub site](remove-a-hub-site)
+[Remove a hub site](remove-a-hub-site.md)
   
 

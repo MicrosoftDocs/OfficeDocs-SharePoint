@@ -48,8 +48,7 @@ Go to the Device access page of the [OneDrive admin center](https://admin.onedri
  **To manage features in the OneDrive and SharePoint mobile apps**
   
 1. In the **Mobile application management** section, turn on the **Deploy this policy** setting. 
-    
-     ![Manage the OneDrive and SharePoint mobile apps in the OneDrive admin center](media/7a555916-f97a-45f7-874b-ebd08de7022d.png)
+    ![Manage the OneDrive and SharePoint mobile apps in the OneDrive admin center](media/7a555916-f97a-45f7-874b-ebd08de7022d.png)
   
 2. Select the check boxes for the features you want to enable.
     
@@ -63,7 +62,7 @@ Go to the Device access page of the [OneDrive admin center](https://admin.onedri
   
 [Configure and deploy mobile application management policies in the Microsoft Intune console](https://docs.microsoft.com/en-us/intune/deploy-use/configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console)
   
-[Control access based on network location or app](control-access-based-on-network-location-or-app)
+[Control access based on network location or app](control-access-based-on-network-location-or-app.md)
   
 [OneDrive admin center](https://support.office.com/article/b5665060-530f-40a3-b34a-9e935169b2e0)
   

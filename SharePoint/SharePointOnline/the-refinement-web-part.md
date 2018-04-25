@@ -115,11 +115,11 @@ By default, the Refinement Web Part doesn't show refiner counts — that is, the
     
 See also: 
   
-- [Manage the Search Center in SharePoint Online](manage-the-search-center)
+- [Manage the Search Center in SharePoint Online](manage-the-search-center.md)
     
-- [Change settings for the Search Box Web Part](the-search-box-web-part)
+- [Change settings for the Search Box Web Part](the-search-box-web-part.md)
     
-- [Change settings for the Search Navigation Web Part](the-search-navigation-web-part)
+- [Change settings for the Search Navigation Web Part](the-search-navigation-web-part.md)
     
 - [Change settings for the Search Results Web Part](https://support.office.com/article/40ff85b3-bc5e-4230-b1dd-f088188e487e)
     

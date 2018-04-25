@@ -42,12 +42,12 @@ By default, the Web Parts on the search result pages are set up the same way. Th
   
 For information about how to customize the Search Center Web Parts, see the following articles:
   
-- [Change settings for the Search Box Web Part](the-search-box-web-part)
+- [Change settings for the Search Box Web Part](the-search-box-web-part.md)
     
 - [Change settings for the Search Results Web Part](https://support.office.com/article/40ff85b3-bc5e-4230-b1dd-f088188e487e)
     
-- [Change settings for the Search Navigation Web Part](the-search-navigation-web-part)
+- [Change settings for the Search Navigation Web Part](the-search-navigation-web-part.md)
     
-- [Change settings for the Refinement Web Part](the-refinement-web-part)
+- [Change settings for the Refinement Web Part](the-refinement-web-part.md)
     
 

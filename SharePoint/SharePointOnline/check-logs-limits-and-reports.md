@@ -23,11 +23,11 @@ This article describes how you can use search reports in the SharePoint admin ce
   
  **Query throttling**
   
-In SharePoint Online, you can't turn query throttling on or off, but you can use client-type information to make sure lower-priority clients like automated queries don't squeeze out higher-priority clients like UI. [Learn more](query-throttling).
+In SharePoint Online, you can't turn query throttling on or off, but you can use client-type information to make sure lower-priority clients like automated queries don't squeeze out higher-priority clients like UI. [Learn more](query-throttling.md).
   
  **Set crawl log permissions**
   
-Use the crawl log to see if crawled content was successfully added to the search index, if it was excluded because of a crawl rule, or if indexing failed because of an error. [Learn more](set-crawl-log-permissions).
+Use the crawl log to see if crawled content was successfully added to the search index, if it was excluded because of a crawl rule, or if indexing failed because of an error. [Learn more](set-crawl-log-permissions.md).
   
  **Search limits**
   

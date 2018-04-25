@@ -32,7 +32,7 @@ Tenant-level settings affect all SharePoint Online site collections, including t
   
  **To restrict domains in external sharing in SharePoint Online and OneDrive for Business at the tenant level**
   
-1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4) as a global admin or SharePoint admin. 
+1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4.md) as a global admin or SharePoint admin. 
     
 2. Select the app launcher icon ![The icon that looks like a waffle and represents a button click that will reveal multiple application tiles for selection.](media/3b8a317e-13ba-4bd4-864e-1ccd47af39ee.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
@@ -65,7 +65,7 @@ You can also use restricted domains at the site collection level. Note the follo
     
  **To restrict domains in external sharing in SharePoint Online at the site collection level**
   
-1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4) as a global admin or SharePoint admin. 
+1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4.md) as a global admin or SharePoint admin. 
     
 2. Select the app launcher icon ![The icon that looks like a waffle and represents a button click that will reveal multiple application tiles for selection.](media/3b8a317e-13ba-4bd4-864e-1ccd47af39ee.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
@@ -94,26 +94,23 @@ You can also use restricted domains at the site collection level. Note the follo
 After you have configured the restricted domains sharing feature, here's what you'll see when you share a document:
   
 - **Sharing content with email domains that are not allowed.** If you attempt to share content with an external user whose email address domain violates your restricted domains settings, an error message will display and sharing will not be allowed: 
-    
-     ![If a user attempts to share a document to an email address that is retricted, they willl receive this error.](media/fb280460-388d-4596-9938-6b69101d11fb.png)
+    ![If a user attempts to share a document to an email address that is retricted, they willl receive this error.](media/fb280460-388d-4596-9938-6b69101d11fb.png)
   
 - **Sharing OneDrive for Business files to email domains that are not allowed.** If you try to share a OneDrive for Business file with an external user whose email domain is not allowed as a result of your restricted domains configuration, an error message will display and sharing will not be allowed: 
-    
-     ![Users receive this error when attempting to share a OneDrive document to a restricted domain address.](media/992f367d-1caa-4019-8fd8-af84c172319c.png)
+    ![Users receive this error when attempting to share a OneDrive document to a restricted domain address.](media/992f367d-1caa-4019-8fd8-af84c172319c.png)
   
 - **Sharing content with email domains that are allowed.** If your end user is attempting to share content with an external user who has an email address domain that is allowed, they will be able to successfully share the content with that external user. A tool tip lets you know that the user is outside of their organization. 
-    
-     ![Sucessfully sharing content with restricted users.](media/4e5ff064-a1d4-4a7d-bc7b-0541312e9383.png)
+    ![Sucessfully sharing content with restricted users.](media/4e5ff064-a1d4-4a7d-bc7b-0541312e9383.png)
   
 ## User auditing and lifecycle management
 
-As with any extranet sharing scenario it's important to consider the lifecycle of your guest users, how to audit their activity, and eventually how to archive the site. See [Planning SharePoint Online business-to-business (B2B) extranet sites](planning-sharepoint-online-business-to-business-b2b-extranet-sites) for more information. 
+As with any extranet sharing scenario it's important to consider the lifecycle of your guest users, how to audit their activity, and eventually how to archive the site. See [Planning SharePoint Online business-to-business (B2B) extranet sites](planning-sharepoint-online-business-to-business-b2b-extranet-sites.md) for more information. 
   
 ## Related Topics
 
-[Manage external sharing for your SharePoint Online environment](manage-external-sharing)
+[Manage external sharing for your SharePoint Online environment](manage-external-sharing.md)
   
-[Extranet for Partners with Office 365](use-office-365-sharepoint-online-as-a-business-to-business-b2b-extranet-solution)
+[Extranet for Partners with Office 365](use-office-365-sharepoint-online-as-a-business-to-business-b2b-extranet-solution.md)
   
 [Set-SPOTenant](https://technet.microsoft.com/en-us/library/fp161390.aspx)
   

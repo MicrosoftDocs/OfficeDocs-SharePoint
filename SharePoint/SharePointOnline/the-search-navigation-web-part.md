@@ -113,11 +113,11 @@ Here's how you can add a link to the new search vertical page in the Web Part:
     
 See also: 
   
-- [Manage the Search Center in SharePoint Online](manage-the-search-center)
+- [Manage the Search Center in SharePoint Online](manage-the-search-center.md)
     
-- [Change settings for the Search Box Web Part](the-search-box-web-part)
+- [Change settings for the Search Box Web Part](the-search-box-web-part.md)
     
-- [Change settings for the Refinement Web Part](the-refinement-web-part)
+- [Change settings for the Refinement Web Part](the-refinement-web-part.md)
     
 - [Change settings for the Search Results Web Part](https://support.office.com/article/40ff85b3-bc5e-4230-b1dd-f088188e487e)
     

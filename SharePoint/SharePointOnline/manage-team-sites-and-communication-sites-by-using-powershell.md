@@ -45,7 +45,7 @@ For detailed information about these cmdlets and their parameters in PowerShell,
 ## Specify site storage space (quota)
 <a name="BKMK_GroupSiteCollections"> </a>
 
-If you manage site collection storage limits manually, you can use PowerShell to specify the storage space for a communication site or a team site that belongs to an Office 365 group. [Learn more about managing site collection storage limits](manage-site-collection-storage-limits)
+If you manage site collection storage limits manually, you can use PowerShell to specify the storage space for a communication site or a team site that belongs to an Office 365 group. [Learn more about managing site collection storage limits](manage-site-collection-storage-limits.md)
   
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
     

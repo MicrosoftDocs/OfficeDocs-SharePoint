@@ -30,7 +30,7 @@ By default, your SharePoint storage is available in a central pool from which al
   
  **Manage storage limits automatically**
   
-1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4) as a global admin or SharePoint admin. 
+1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4.md) as a global admin or SharePoint admin. 
     
 2. Select the app launcher icon ![The icon that looks like a waffle and represents a button click that will reveal multiple application tiles for selection.](media/3b8a317e-13ba-4bd4-864e-1ccd47af39ee.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
@@ -39,8 +39,7 @@ By default, your SharePoint storage is available in a central pool from which al
 4. Select **settings**.
     
 5. In **Site Collection Storage Management**, select **Automatic**.
-    
-     ![Office 365 SharePoint Online Settings Screen with Site Collection Managment highlighted](media/049686cf-1b12-4298-84a9-dc653c9d16d4.png)
+    ![Office 365 SharePoint Online Settings Screen with Site Collection Managment highlighted](media/049686cf-1b12-4298-84a9-dc653c9d16d4.png)
   
 6. Click **OK**.
     
@@ -54,7 +53,7 @@ If you prefer to fine tune the storage space allocated to each site collection, 
   
  **Manage storage limits manually**
   
-1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4) as a global admin or SharePoint admin. 
+1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4.md) as a global admin or SharePoint admin. 
     
 2. Select the app launcher icon ![The icon that looks like a waffle and represents a button click that will reveal multiple application tiles for selection.](media/3b8a317e-13ba-4bd4-864e-1ccd47af39ee.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
@@ -68,7 +67,7 @@ If you prefer to fine tune the storage space allocated to each site collection, 
     
  **Set the storage limit**
   
-1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4) as a global admin or SharePoint admin. 
+1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4.md) as a global admin or SharePoint admin. 
     
 2. Select the app launcher icon ![The icon that looks like a waffle and represents a button click that will reveal multiple application tiles for selection.](media/3b8a317e-13ba-4bd4-864e-1ccd47af39ee.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
@@ -77,14 +76,12 @@ If you prefer to fine tune the storage space allocated to each site collection, 
 4. On the **Site Collections** tab choose one or more site collections from the list. 
     
 5.  Select **Storage Quota**. If the storage quota button is not enabled, select the site collection you want to set a quota on from the list below. 
-    
-     ![Site Collections tab with Storage Quota button highlighted](media/f6d12897-34a2-47a6-be55-1851570da156.png)
+    ![Site Collections tab with Storage Quota button highlighted](media/f6d12897-34a2-47a6-be55-1851570da156.png)
   
 6. In **Limit storage quota for each site collection**, enter the maximum number of gigabytes (GB) to be allocated to the site collection.
     
 7. Check the box to send email to the site collection administrators when the site collections approaches the storage limit. Enter a number from 1 to 100 for the percentage of the limit to reach before an email alert is triggered. 
-    
-     ![Set storage quota dialog box](media/5420f620-0227-431b-8f8c-c949db6ebf09.png)
+    ![Set storage quota dialog box](media/5420f620-0227-431b-8f8c-c949db6ebf09.png)
   
     > [!TIP]
     > You may need to update the email alert percentage based on the new converted storage metrics. 
@@ -144,7 +141,7 @@ Previously, SharePoint storage was calculated in megabytes (MB). Now it's calcul
   
 ||
 |:-----|
-|![The short icon for LinkedIn Learning.](media/7e5cb7c8-dc66-4c9a-a16d-a30f10a970bd.png) **New to Office 365?**         Discover free video courses for [Office 365 admins and IT pros](68cc9b95-0bdc-491e-a81f-ee70b3ec63c5), brought to you by LinkedIn Learning. |
+|![The short icon for LinkedIn Learning.](media/7e5cb7c8-dc66-4c9a-a16d-a30f10a970bd.png) **New to Office 365?**         Discover free video courses for [Office 365 admins and IT pros](68cc9b95-0bdc-491e-a81f-ee70b3ec63c5.md), brought to you by LinkedIn Learning. |
    
 ## See also
 <a name="storagecalculation"> </a>

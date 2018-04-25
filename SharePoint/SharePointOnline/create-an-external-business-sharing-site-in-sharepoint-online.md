@@ -32,6 +32,7 @@ This video shows some of the options for configuring an extranet site in SharePo
 ****
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/30f3ddd4-aceb-441d-a7e5-6af9d9d3277c?autoplay=false]
+  
 ## Set SharePoint Online sharing settings
 
 Before you create a site for external sharing, there are some SharePoint Online sharing settings to configure.

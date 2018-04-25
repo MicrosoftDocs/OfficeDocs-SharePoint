@@ -73,14 +73,14 @@ There are two types of terms:
     
 - **Enterprise keywords** An enterprise keyword is a word or phrase that a user adds to items on a SharePoint site. The collection of enterprise keywords is known as the Keywords set. Typically, users can add any word or phrase to an item as a keyword. This means that you can use enterprise keywords for folksonomy-style tagging. Sometimes, Term Store administrators move enterprise keywords into a specific managed term set. When they are part of a managed term set, keywords become available in the context of that term set. 
     
-To learn more about how to create and manage terms, see [Create and manage terms in a term set](create-and-manage-terms-in-a-term-set).
+To learn more about how to create and manage terms, see [Create and manage terms in a term set](create-and-manage-terms-in-a-term-set.md).
   
 ### Group
 <a name="__migbm_4"> </a>
 
 In SharePoint products, group is a security term. With respect to managed metadata, a group is a set of term sets that all share common security requirements. Only users who have contributor permissions for a specific group can manage term sets that belong to the group or create new term sets within it. Organizations should create groups for term sets that will have unique access or security needs.
   
-To learn more about how to create a group for term sets, see [Set up a new group for term sets](set-up-a-new-group-for-term-sets).
+To learn more about how to create a group for term sets, see [Set up a new group for term sets](set-up-a-new-group-for-term-sets.md).
   
 ### Term Store Management Tool
 <a name="__migbm_5"> </a>
@@ -211,15 +211,14 @@ If your organization wants to use managed term sets to implement formal taxonomi
 1. Click Settings![Office 365 Settings button](media/a9a59c0f-2e67-4cbf-9438-af273b0d552b.png), and then click **Site Settings**.
     
 2. Click **Term store management** under **Site Administration**.
-    
-     ![The Term Store Management Tool dialog box.](media/ba6c6939-f19a-4808-9156-499b05af5380.PNG)
+    ![The Term Store Management Tool dialog box.](media/ba6c6939-f19a-4808-9156-499b05af5380.PNG)
   
 ### Managing terms, term sets, and groups
 <a name="__toc262648181"> </a>
 
 The Term Store Management Tool provides a tree control that you can use to perform most tasks. Your user role for this tool determines the tasks that you can perform. To work in the Term Store Management Tool, you must be a Farm Administrator or a Term Store Administrator. Or, you can be a designated Group Manager or Contributor for term sets. 
   
-For more information, see [Create and manage groups and term sets](set-up-a-new-group-for-term-sets).
+For more information, see [Create and manage groups and term sets](set-up-a-new-group-for-term-sets.md).
   
 To take actions on an item in the hierarchy, follow these steps.
   

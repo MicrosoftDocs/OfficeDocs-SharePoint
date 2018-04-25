@@ -35,8 +35,7 @@ This article is for IT admins managing the OneDrive sync client in a Windows Ser
 2. Browse to **%localappdata%\Microsoft\OneDrive\ *BuildNumber*  \adm\ **, to the subfolder for your language as necessary. 
     
     (Where  *BuildNumber*  is the number displayed in sync client settings on the About tab.) 
-    
-     ![The ADM folder in the OneDrive installation directory](media/85e0fe3f-84eb-4a29-877f-c706dda4d075.png)
+    ![The ADM folder in the OneDrive installation directory](media/85e0fe3f-84eb-4a29-877f-c706dda4d075.png)
   
 3. Copy the .adml and .admx files and paste them in your domain's Central Store, \\ *domain*  \sysvol\domain\Policies\PolicyDefinition, (where  *domain*  is your domain name, such as corp.contoso.com), in the corresponding language folder. 
     
@@ -143,7 +142,7 @@ The above registry key sets the upload throughput percentage to 50%, using the h
   
 The lower the percentage you set, the longer it will take the sync client to upload files. We recommend a value of 50% or higher. The default maximum percentage is 99%. If you enable this setting, users will not be able to change the upload rate by opening sync client settings and clicking the Network tab.
   
-For info about estimating the network bandwidth you need for the sync client and controlling sync throughput, see [Network utilization planning for the OneDrive sync client](network-utilization-planning).
+For info about estimating the network bandwidth you need for the sync client and controlling sync throughput, see [Network utilization planning for the OneDrive sync client](network-utilization-planning.md).
   
 ### Silently configure OneDrive using Windows 10 or domain credentials
 <a name="SilentConfig"> </a>
@@ -234,7 +233,7 @@ If you enable this setting, users cannot change the location of their "OneDrive 
   
 If you disable this setting, users can change the location of their sync folder during the Welcome to OneDrive wizard.
   
-For more info about using this policy as part of redirecting Windows known folders (such as the Documents folder) to OneDrive, see [Redirect known folders to OneDrive for Business](redirect-windows-known-folders).
+For more info about using this policy as part of redirecting Windows known folders (such as the Documents folder) to OneDrive, see [Redirect known folders to OneDrive for Business](redirect-windows-known-folders.md).
   
 ### Prevent users from synchronizing personal OneDrive accounts
 <a name="DisablePersonalSync"> </a>
@@ -262,7 +261,7 @@ Enabling this policy sets the following registry key value to a number from 50 t
   
 The above registry key sets the upload throughput rate limit to 50KB/sec, using the hexadecimal value for 50, which is 00000032.
   
-For info about estimating the network bandwidth you need for the sync client and controlling sync throughput, see [Network utilization planning for the OneDrive sync client](network-utilization-planning).
+For info about estimating the network bandwidth you need for the sync client and controlling sync throughput, see [Network utilization planning for the OneDrive sync client](network-utilization-planning.md).
   
 ### Coauthoring and in-app sharing for Office files
 <a name="EnableAllOcsiClients"> </a>
@@ -288,7 +287,7 @@ If you enable this setting, OneDrive sync clients in your domain (including thos
   
 If you disable this setting, OneDrive sync clients will be updated as soon as updates are available during the first ring.
   
-For more info about the update rings and how the sync client checks for updates, see [The OneDrive sync client update process](the-sync-client-update-process).
+For more info about the update rings and how the sync client checks for updates, see [The OneDrive sync client update process](the-sync-client-update-process.md).
   
 ### Users can choose how to handle Office files in conflict
 <a name="EnableHoldTheFile"> </a>
@@ -335,17 +334,17 @@ Enabling this policy sets the following registry key value to a number from 50 t
   
 The above registry key sets the download throughput rate limit to 50KB/sec, using the hexadecimal value for 50, which is 00000032.
   
-For info about estimating the network bandwidth you need for the sync client and controlling sync throughput, see [Network utilization planning for the OneDrive sync client](network-utilization-planning).
+For info about estimating the network bandwidth you need for the sync client and controlling sync throughput, see [Network utilization planning for the OneDrive sync client](network-utilization-planning.md).
   
 ## Related Topics
 <a name="Glob"> </a>
 
-[Deploy the new OneDrive sync client in an enterprise environment ](deploy-the-sync-client-for-windows)
+[Deploy the new OneDrive sync client in an enterprise environment ](deploy-the-sync-client-for-windows.md)
   
-[Prevent users from installing the sync client](prevent-users-from-installing-the-sync-client)
+[Prevent users from installing the sync client](prevent-users-from-installing-the-sync-client.md)
   
-[Allow syncing only on computers joined to specific domains ](allow-syncing-only-on-computers-joined-to-specific-domains)
+[Allow syncing only on computers joined to specific domains ](allow-syncing-only-on-computers-joined-to-specific-domains.md)
   
-[Block syncing of specific file types ](block-syncing-of-specific-file-types)
+[Block syncing of specific file types ](block-syncing-of-specific-file-types.md)
   
 

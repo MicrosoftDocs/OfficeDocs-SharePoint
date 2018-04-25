@@ -58,9 +58,9 @@ If you want to receive new functionality in Delve before it's made available in 
   
  **To opt in to the Targeted release program:**
   
-1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4) with your work or school account. 
+1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4.md) with your work or school account. 
     
-2. Go to the [ Office 365 admin center ](about-the-admin-center).
+2. Go to the [ Office 365 admin center ](about-the-admin-center.md).
     
 3. Go to **Settings** > **Organization profile**.
     
@@ -80,9 +80,9 @@ You control access to the Office Graph from the SharePoint admin center.
   
 If you don't allow access to the Office Graph, you disable the functionality in Office 365 that is powered by the Office Graph, such as Delve. If you disable access to Delve, you also affect the relevance of the content displayed elsewhere in Office 365, for example in SharePoint Home and the **Discover** view in OneDrive for Business. See [What is the effect of allowing or not allowing access to the Office Graph?](delve-for-office-365-admins.md#BKMK_EffectOfficegraphOnOff) for more information. 
   
-1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4) with your work or school account. 
+1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4.md) with your work or school account. 
     
-2. Go to the [SharePoint admin center](about-the-admin-center).
+2. Go to the [SharePoint admin center](about-the-admin-center.md).
     
 3. Choose **Settings**.
     
@@ -151,9 +151,9 @@ There are a few things you should check if one or more users in your organizatio
     
  **Check that you allow your organization to access the Office Graph**
   
-1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4) with your work or school account. 
+1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4.md) with your work or school account. 
     
-2. Go to the [SharePoint admin center](about-the-admin-center).
+2. Go to the [SharePoint admin center](about-the-admin-center.md).
     
 3. Go to **Settings** > **Office Graph** and make sure that you've selected **Allow access to the Office Graph**. 
     
@@ -162,9 +162,9 @@ There are a few things you should check if one or more users in your organizatio
   
  **Check that you're using an Office 365 plan that supports Delve**
   
-1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4) with your work or school account. 
+1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4.md) with your work or school account. 
     
-2. Go to the [ Office 365 admin center ](about-the-admin-center).
+2. Go to the [ Office 365 admin center ](about-the-admin-center.md).
     
 3. Go to **Billing** > **Subscriptions**.
     
@@ -182,9 +182,9 @@ There are a few things you should check if one or more users in your organizatio
     
  **Check that you've assigned the correct user licenses**
   
-1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4) with your work or school account. 
+1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4.md) with your work or school account. 
     
-2. Go to the [ Office 365 admin center ](about-the-admin-center).
+2. Go to the [ Office 365 admin center ](about-the-admin-center.md).
     
 3. Go to **Users** > **Active Users**.
     
@@ -327,9 +327,9 @@ End users
     
 Admins
   
-- [SharePoint Online Planning Guide for Office 365 for business](sharepoint-online-planning-guide-for-office-365-for-business)
+- [SharePoint Online Planning Guide for Office 365 for business](sharepoint-online-planning-guide-for-office-365-for-business.md)
     
-- [Manage SharePoint Online user profiles from the SharePoint admin center](manage-user-profiles-in-the-sharepoint-admin-center)
+- [Manage SharePoint Online user profiles from the SharePoint admin center](manage-user-profiles-in-the-sharepoint-admin-center.md)
     
 - [Office 365 integration with on-premises environments](https://support.office.com/article/263faf8d-aa21-428b-aed3-2021837a4b65)
     

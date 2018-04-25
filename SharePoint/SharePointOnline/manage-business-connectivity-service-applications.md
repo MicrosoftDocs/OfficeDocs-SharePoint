@@ -17,7 +17,7 @@ description: "In SharePoint Online, you can create Business Connectivity Service
 
 In SharePoint Online, you can create Business Connectivity Services (BCS) connections to data sources, such as SQL Azure databases or Windows Communication Foundation (WCF) web services, that are outside the SharePoint site. Once you've created these connections, you can manage or edit BCS information on the SharePoint admin center site. You can log on to the SharePoint admin center site directly, or log on to the Office 365 admin center and then move to the SharePoint admin center.
   
-SharePoint Online uses BCS together with Secure Store Services to access and retrieve data such as BDC Models from external data systems. To learn more about BCS, see [SharePoint Online planning guide for Office 365](sharepoint-online-planning-guide-for-office-365-for-business).
+SharePoint Online uses BCS together with Secure Store Services to access and retrieve data such as BDC Models from external data systems. To learn more about BCS, see [SharePoint Online planning guide for Office 365](sharepoint-online-planning-guide-for-office-365-for-business.md).
   
 ## Manage BCS permissions
 <a name="__toc338059706"> </a>
@@ -40,9 +40,9 @@ Object permissions apply only to a specific External System, BDC Model, or Exter
   
 To set object permissions for an object, follow these steps.
   
-1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4) with your SharePoint Online admin account. 
+1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4.md) with your SharePoint Online admin account. 
     
-2. Go to the [SharePoint admin center](about-the-admin-center).
+2. Go to the [SharePoint admin center](about-the-admin-center.md).
     
 3. Select **bcs**.
     
@@ -78,9 +78,9 @@ Metadata Store permissions apply to many objects, such as BDC Models, ECTs, and 
   
 To set Metadata Store permissions, follow these steps.
   
-1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4) with your SharePoint Online admin account. 
+1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4.md) with your SharePoint Online admin account. 
     
-2. Go to the [SharePoint admin center](about-the-admin-center).
+2. Go to the [SharePoint admin center](about-the-admin-center.md).
     
 3. Select **bcs**.
     
@@ -124,9 +124,9 @@ Imported permissions for a BDC Model are added to the store of existing permissi
   
 To import a BDC Model, follow these steps:
   
-1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4) with your SharePoint Online admin account. 
+1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4.md) with your SharePoint Online admin account. 
     
-2. Go to the [SharePoint admin center](about-the-admin-center).
+2. Go to the [SharePoint admin center](about-the-admin-center.md).
     
 3. Select **bcs**.
     
@@ -159,9 +159,9 @@ You can export a BDC Model and then read its contents to determine differences b
   
 To export a BDC Model or Resource file, follow these steps:
   
-1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4) with your SharePoint Online admin account. 
+1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4.md) with your SharePoint Online admin account. 
     
-2. Go to the [SharePoint admin center](about-the-admin-center).
+2. Go to the [SharePoint admin center](about-the-admin-center.md).
     
 3. Select **bcs**.
     
@@ -201,9 +201,9 @@ Actions can specify parameters that are based on one or more fields in an ECT. F
   
 To add an action to an ECT, follow these steps.
   
-1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4) with your SharePoint Online admin account. 
+1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4.md) with your SharePoint Online admin account. 
     
-2. Go to the [SharePoint admin center](about-the-admin-center).
+2. Go to the [SharePoint admin center](about-the-admin-center.md).
     
 3. Select **bcs**.
     

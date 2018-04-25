@@ -29,7 +29,7 @@ Choose one of the tabs below to configure sharing in SharePoint Online.
 
 Turning external sharing on at the tenant level means that site collections can then be enabled for sharing. In turn, sites and documents in a site collection that is enabled for sharing can be enabled for sharing.
   
-1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4) as a global admin or SharePoint admin. 
+1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4.md) as a global admin or SharePoint admin. 
     
 2. Select the app launcher icon ![The icon that looks like a waffle and represents a button click that will reveal multiple application tiles for selection.](media/3b8a317e-13ba-4bd4-864e-1ccd47af39ee.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
@@ -38,8 +38,7 @@ Turning external sharing on at the tenant level means that site collections can 
 4. In the left pane, click **sharing**.
     
 5. Select one of the following:
-    
-     ![Tenant external sharing page](media/11d21d51-a5c8-41aa-a6bb-22484a389cd4.png)
+    ![Tenant external sharing page](media/11d21d51-a5c8-41aa-a6bb-22484a389cd4.png)
   
 ### Which option to select...
 
@@ -58,7 +57,7 @@ To better manage the type of links users share, you can set the default type of 
   
 ![Default link type dialog box](media/4dc58d77-dccd-474f-b0fb-8ff8b3f1c088.png)
   
-The most permissive types of links, of course, are Anonymous Access links which grant access to anyone who has the link. Internal links can be used only by users within your organization, and Direct links are accessible only by users who already have permission to access the document or folder. For more information, see [Change the default link type when users get links for sharing](change-the-default-link-type-when-users-get-links-for-sharing).
+The most permissive types of links, of course, are Anonymous Access links which grant access to anyone who has the link. Internal links can be used only by users within your organization, and Direct links are accessible only by users who already have permission to access the document or folder. For more information, see [Change the default link type when users get links for sharing](change-the-default-link-type-when-users-get-links-for-sharing.md).
   
  **Additional settings**
   
@@ -66,7 +65,7 @@ When you choose to allow users to share outside your organization, you have some
   
 ![Additional settings for sharing](media/04c2257b-3af1-4902-8946-e7e251481da3.png)
   
- **Limit external sharing using domains**: You can allow or restrict access to specific domains. For more information, see [Restricted Domains Sharing in Office 365 SharePoint Online and OneDrive for Business](restricted-domains-sharing-in-sharepoint-online-and-onedrive-for-business).
+ **Limit external sharing using domains**: You can allow or restrict access to specific domains. For more information, see [Restricted Domains Sharing in Office 365 SharePoint Online and OneDrive for Business](restricted-domains-sharing-in-sharepoint-online-and-onedrive-for-business.md).
   
  **Prevent external users from sharing files, folders, and sites they don't own**: External users cannot share anything they don't own with anyone else. 
   
@@ -90,7 +89,7 @@ To help your OneDrive for Business users monitor and control which external user
 
 You must be a SharePoint Online admin to configure external sharing for individual site collections. Site collection administrators are not allowed to change external sharing configurations.
   
-1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4) as a global admin or SharePoint admin. 
+1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4.md) as a global admin or SharePoint admin. 
     
 2. Select the app launcher icon ![The icon that looks like a waffle and represents a button click that will reveal multiple application tiles for selection.](media/3b8a317e-13ba-4bd4-864e-1ccd47af39ee.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     

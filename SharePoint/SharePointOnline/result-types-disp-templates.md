@@ -28,7 +28,7 @@ For example, there's a display template for PowerPoint files and another display
 ## Types of display templates used in the Search Results Web Part
 <a name="__toc358893940"> </a>
 
-The default [Search Center](manage-the-search-center) on your site consists of different Web Parts: a Search Box Web Part, a Search Results Web Part, a Search Navigation Web Part, and a Refinement Web Part. The actual search results are shown in the **Search Results Web Part**, All these Web Parts can also be added to any of your site's pages. 
+The default [Search Center](manage-the-search-center.md) on your site consists of different Web Parts: a Search Box Web Part, a Search Results Web Part, a Search Navigation Web Part, and a Refinement Web Part. The actual search results are shown in the **Search Results Web Part**, All these Web Parts can also be added to any of your site's pages. 
   
 For the Search Results Web Part, there are three main types of display templates you should know about, Control display templates, Item result templates, and Hover panel templates.
   
@@ -51,7 +51,7 @@ You can create your own display templates that show information that's important
   
 - For more information about managed properties, see [Manage the search schema in SharePoint Online](https://support.office.com/article/d4fab46d-ba41-4c03-9d4c-32b5b33198b6).
     
-- - For information about the Search Center and how to set it up, see [Manage the Search Center in SharePoint Online](manage-the-search-center).
+- - For information about the Search Center and how to set it up, see [Manage the Search Center in SharePoint Online](manage-the-search-center.md).
     
 - For a full list of available display templates, see **Display templates for the Search Results Web Part** in [Display template reference in SharePoint Server 2013](https://technet.microsoft.com/en-us/library/jj944947.aspx).
     
