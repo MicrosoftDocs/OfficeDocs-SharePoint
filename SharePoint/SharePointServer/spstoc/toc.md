@@ -249,7 +249,7 @@
 ##### [Understanding how item display templates and hit highlighting work](../search/understanding-how-item-display-templates-and-hit-highlighting-work.md)
 ##### [How to create a new result type](../search/how-to-create-a-new-result-type.md)
 ##### [How to display values from custom managed properties in search results - option 1](../search/how-to-display-values-from-custom-managed-properties-in-search-resultsoption-1.md)
-##### [How to display values from custom managed properties in search results – option 2](../search/how-to-display-values-from-custom-managed-properties-in-search-results-–-option.md)
+##### [How to display values from custom managed properties in search results – option 2](../search/how-to-display-values-from-custom-managed-properties-in-search-resultsoption-2.md)
 ##### [How to display values from custom managed properties in the hover panel](../search/how-to-display-values-from-custom-managed-properties-in-the-hover-panel.md)
 ##### [How to add a custom action to the hover panel](../search/how-to-add-a-custom-action-to-the-hover-panel.md)
 ##### [How to change the text that is displayed in the Search Box Web Part](../search/how-to-change-the-text-that-is-displayed-in-the-search-box-web-part.md)
