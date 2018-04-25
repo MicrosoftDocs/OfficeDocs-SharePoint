@@ -18,9 +18,9 @@ description: "Summary: Learn a second option for displaying values from custom m
   
 In [How to display values from custom managed properties in search results - option 1 in SharePoint Server](how-to-display-values-from-custom-managed-properties-in-search-resultsoption-1.md) we showed a simple method to add a custom icon and values from two custom managed properties to your search results. In this topic, we'll look at a somewhat fuller method for changing the way search results are displayed that includes if statements and hit highlighting. In this article, you'll learn: 
   
-- [Strategy for killing three birds with one stone - search results version](how-to-display-values-from-custom-managed-properties-in-search-results-–-option.md#BKMK_StrategyforKillingThreeBirdsWithOneStoneSearchResultsVersion)
+- [Strategy for killing three birds with one stone - search results version](how-to-display-values-from-custom-managed-properties-in-search-resultsoption-2.md#BKMK_StrategyforKillingThreeBirdsWithOneStoneSearchResultsVersion)
     
-- [How to display values from custom managed properties with hit highlighting, and get automatically improved relevancy](how-to-display-values-from-custom-managed-properties-in-search-results-–-option.md#BKMK_HowtoDisplayValuesfromCustomManagedPropertieswithHitHighlightingandGetAutomaticallyImprovedRelevancy)
+- [How to display values from custom managed properties with hit highlighting, and get automatically improved relevancy](how-to-display-values-from-custom-managed-properties-in-search-resultsoption-2.md#BKMK_HowtoDisplayValuesfromCustomManagedPropertieswithHitHighlightingandGetAutomaticallyImprovedRelevancy)
     
 ## Strategy for killing three birds with one stone - search results version
 <a name="BKMK_StrategyforKillingThreeBirdsWithOneStoneSearchResultsVersion"> </a>
