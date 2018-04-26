@@ -7,12 +7,13 @@ ms.date: 12/5/2017
 ms.audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server
 - IT_SharePoint_Hybrid_Top
-ms.custom: Strat_SP_gtc
+- Strat_SP_gtc
+ms.custom: 
 ms.assetid: dc7d1bd3-8ca0-412a-b7e5-f357afa84299
 description: "Setting up cloud hybrid search for SharePoint requires careful planning. This article helps you design a highly reliable, secure and scalable cloud hybrid search solution."
 ---

@@ -7,9 +7,11 @@ ms.date: 3/7/2018
 ms.audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
-ms.collection: IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_server
+localization_priority: Priority
+ms.collection: 
+- IT_Sharepoint_Server_Top
+- Strat_SP_server
+ms.custom: 
 ms.assetid: 9fc3a696-b2cb-435c-8199-7048953ec609
 description: "Summary: Learn about planning your SharePoint farm deployment using MinRole . MinRole helps administrators select the right server role when provisioning SharePoint Server 2016."
 ---

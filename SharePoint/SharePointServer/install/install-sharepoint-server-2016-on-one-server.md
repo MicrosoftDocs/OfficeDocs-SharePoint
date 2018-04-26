@@ -11,7 +11,8 @@ localization_priority: Priority
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_server
+- Strat_SP_server
+ms.custom: 
 ms.assetid: 356d3a0b-fc26-455c-9afb-6d2ffdceef84
 description: "Summary: Learn how to install SharePoint Server 2016 on a single server."
 ---

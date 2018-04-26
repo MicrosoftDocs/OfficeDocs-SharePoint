@@ -7,13 +7,13 @@ ms.date: 04/05/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - Ent_O365
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-ms.custom:
 - Strat_O365_Enterprise
+ms.custom:
 - Ent_TLGs
 ms.assetid: 7fda5f6e-ffbc-40af-9e5d-62f055a9c9b0
 description: "Summary: Create an intranet SharePoint Server 2016 farm running in Microsoft Azure as a dev/test environment."

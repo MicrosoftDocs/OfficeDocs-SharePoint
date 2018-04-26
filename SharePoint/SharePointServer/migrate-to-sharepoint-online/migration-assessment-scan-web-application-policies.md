@@ -7,11 +7,12 @@ ms.date: 7/5/2017
 ms.audience: Admin
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_gtc
+- Strat_SP_gtc
+ms.custom:
 ms.assetid: d538651b-75e4-4221-9ea1-c2d0be1e0589
 description: "Learn how to fix issues with Web Application policies during migration."
 ---

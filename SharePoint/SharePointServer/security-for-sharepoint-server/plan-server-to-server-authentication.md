@@ -7,11 +7,12 @@ ms.date: 3/2/2018
 ms.audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_server
+- Strat_SP_server
+ms.custom: 
 ms.assetid: 2ce4b90f-5eb0-4d5d-8ddb-3cf00952de4e
 description: "Summary: Learn how to plan for server-to-server authentication in SharePoint Server 2013 and SharePoint Server 2016."
 ---
