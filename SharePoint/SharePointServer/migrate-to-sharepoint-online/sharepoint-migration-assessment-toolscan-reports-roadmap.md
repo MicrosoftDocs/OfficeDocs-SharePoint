@@ -7,11 +7,12 @@ ms.date: 12/6/2017
 ms.audience: Admin
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_gtc
+- Strat_SP_gtc
+ms.custom:
 ms.assetid: 5bf2619b-14fd-421c-8b84-869743f1eca2
 description: "Learn more about preparing your data for migration."
 ---

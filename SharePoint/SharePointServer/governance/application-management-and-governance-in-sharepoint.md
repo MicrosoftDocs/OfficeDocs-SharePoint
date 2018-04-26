@@ -7,11 +7,12 @@ ms.date: 3/1/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_gtc
+- Strat_SP_gtc
+ms.custom: 
 ms.assetid: f8efdfaf-8ef6-445c-9fb9-8845667e478b
 description: "Summary: Learn how to govern applications for SharePoint by creating a customization policy and understanding the app model, branding, and life-cycle management."
 ---

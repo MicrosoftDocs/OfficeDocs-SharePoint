@@ -7,11 +7,12 @@ ms.date: 1/26/2018
 ms.audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_server
+- Strat_SP_server
+ms.custom: 
 ms.assetid: a3b78815-c1a0-47e0-97a3-d255f9efc96d
 description: "Summary: Learn about the SharePoint Server 2016 relationship with SQL Server and how you can interact with the databases."
 ---

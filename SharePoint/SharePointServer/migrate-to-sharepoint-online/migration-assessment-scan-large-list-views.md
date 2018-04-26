@@ -7,11 +7,12 @@ ms.date: 9/13/2017
 ms.audience: Admin
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_gtc
+- Strat_SP_gtc
+ms.custom:
 ms.assetid: e94a941a-b171-41fc-8685-f2fd74bf8487
 description: "Learn how to mitigate issues with Large List Views during migration."
 ---

@@ -7,11 +7,12 @@ ms.date: 9/20/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_gtc
+- Strat_SP_gtc
+ms.custom:
 ms.assetid: 5c3bd96b-4b2c-4c65-8950-ae19c9ec7429
 
 ---

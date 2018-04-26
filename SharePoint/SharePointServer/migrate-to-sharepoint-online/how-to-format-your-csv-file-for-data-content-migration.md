@@ -1,5 +1,5 @@
 ---
-title: "How to format your CSV for data content migration"
+title: "How to format your CSV or JSon file for data content migration"
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
@@ -7,9 +7,11 @@ ms.date: 4/10/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
-ms.collection: IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_gtc
+localization_priority: Priority
+ms.collection: 
+- IT_Sharepoint_Server_Top
+- Strat_SP_gtc
+ms.custom: 
 ms.assetid: 
 description: "How to format your JSON or CSV file for data content migration"
 ---
@@ -95,122 +97,61 @@ The following example shows the JSON format used in migrating your data.
 As with the CSV files, the minimum required values are Source, Source DocLib, Target Web and Target DocLib.  
 
 ```json
-
 {
-    "Tasks": [ 
-        {   #File share migration task definition# 
-            "SourcePath": "C:\\MigrationTests\\testfiles", 
-            "TargetPath": "https://contoso.sharepoint.com/sites/targetSiteCollection/",
-            "TargetList": "DocLibraryName", 
-            "TargetListRelativePath": "DocLibrary/Name_subfolder" ,
-            "Settings": { 
-#Settings not specified default back to the workflow level setting
-#Settings in here are specific to that task. Global settings must be applied through the tool. 
-                "OnlyScan": true, 
-                "EnableIncremental":  true, 
-                "SupportFileVersionHistory": true, 
-                "FileVersion": 2, 
-                "MigrateHiddenFiles": true, 
-                "SkipEmptyfolder": true, 
-                "DateCreatedFilter": "MM/DD/YYYY", 
-                "DateModifiedFilter": "MM/DD/YYYY, 
-                "FileExtensionsFilter": [mp4, avi, mkv], 
-                "FileExtensionFilterIn": true, 
-                "NeedAADLookup": true, 
-                "PreservePermission": true,
-                "UserMapping": "c:\\folder\\file.csv", 
-                "FallbackSiteOwner": "sibourda@Microsoft.com", 
-                "SiteOwner": "sibourda@Microsoft.com", 
-                "DeleteTempAfterMigration": true,
-                "MigrateDependency": true
-            } 
-        }, 
-        {   #Single OnPrem list migration task definition# 
-            "SourcePath": "https://sharepoint2013.com/sites/sourceSite/", 
-            "TargetPath": "https://contoso.sharepoint.com/sites/targetSite/",
-            "Items": [
-                 "Lists": [
-                    {
-  "SourceList": "ListA",
-                        "SourceListRelativePath": "subfolder1",
-                        "TargetList": "TargetListA",
-                        "TargetListRelativePath": "targetSubFolder2"
-                    }
-                ],
-    "SubSites":[]
-            ], 
-        },
-        {    #Multiple OnPrem lists and subsites migration task definition# 
-          "SourcePath": "https://sharepoint2013.com/sites/sourceSite/", 
-          "TargetPath": "https://contoso.sharepoint.com/sites/targetSite/",
-#Task level SourcePath and TargetPath should be absolute URL. 
-          "Items": [
-                "Lists": [
-                    {
-                        "SourceList": "ListA",
-                        "SourceListRelativePath": "subfolder1",
-                        "TargetList": "TargetListA",
-                        "TargetListRelativePath": "targetSubFolder2"
-                    },
-                    {
-                        "SourceListTitle": "ListB",
-                        "SourceListRelativePath": "subfolder3/subfolder4",
-                        "TargetList": "TargetListB",
-                        "TargetListRelativePath": "targetSubFolder5"
-                    }],
-                "SubSites": [
-                    {
-                        "SourceSubSitePath": "https://sharepoint2013.com/sites/sourceSite/subSite1",
- #SourceSubSitePath can be relative or absolute URL. 
-                        "TargetSubSitePath": "sites/targetSite/subSite2",
-#TargeSubSitePath is relative. 
-                        "Lists":[
-                            ...
-                        ],
-                    },
-                    {
-                        "SourceSubSitePath": "https://sharepoint2013.com/sites/sourceSite/subSite3",
-                        "TargetSubSitePath": "sites/targetSite/subSite4",
-                        "Lists": [
-                            {
-                                "SourceListTitle": "ListE",
-                                "SourceListRelativePath": "subfolder1",
-                                "TargetListTitle": "TargetListE",
-                                "TargetListRelativePath": "targetSubFolder2"
-                            }
-                        ],
-                   }
-                ],
-#"SubSites" can also have subsites defined
-#No "SubSites" definition or "SubSites": null means migrate all subsites
-#Empty array("SubSites":[]) or invalid name ex "Subsites":[N] means do not migrate subsite
-                "Workflows": [
-                    "WorkflowA",
-                    "WorkflowB"
-                ],
-#No  definition means migrate all 
-# Empty array[] or invalid name ex [N] means do not migrate This object type
-                "ContentTypes": [
-                    "ContentTypeA",
-                    "ContentTypeB"
-                ],
-#No definition means migrate all 
-# Empty array[] or invalid name ex [N] means do not migrate This object type
-                "Fields": [
-                    "FieldNameA",
-                    "FieldNameB"
-                ]
-#No  definition means migrate all 
-# Empty array[] or invalid name ex [N] means do not migrate This object type
-            }
-        }, 
-        {    #Whole site migration task definition# 
-          "SourcePath": "https://sharepoint2013.com/sites/sourceSite/", 
-          "TargetPath": "https://contoso.sharepoint.com/sites/targetSite/",
-#If the Target Site does not exist we will attempt to create it unless invalid. 
-        }
-} 
-
+  "Tasks": [
+    {
+      "SourcePath": "D:\\MigTest",
+      "TargetPath": "https://a830edad9050849387E18042320.sharepoint.com",
+      "TargetList": "Documents",
+      "TargetListRelativePath": "subfolder"
+    },
+    {
+      "SourcePath": "http://EXHB-1873",
+      "TargetPath": "https://a830edad9050849387E18042320.sharepoint.com",
+      "Items": {
+        "Lists": [
+          {
+            "SourceList": "versionList",
+            "TargetList": "NewVersionList"
+          }
+        ],
+        "SubSites": []
+      }
+    },
+    {
+      "SourcePath": "http://EXHB-1873",
+      "TargetPath": "https://a830edad9050849387E18042320.sharepoint.com",
+      "Items": {
+        "Lists": [
+          {
+            "SourceList": "listVersion2",
+            "TargetList": "ListVersion2"
+          },
+          {
+            "SourceList": "listVersion3",
+            "TargetList": "ListVersion3"
+          }
+        ],
+        "SubSites": [
+          {
+            "SourceSubSitePath": "subSite",
+            "TargetSubSitePath": "targetSubSite",
+            "Lists": [
+              {
+                "SourceList": "testSubListB",
+                "TargetList": "TargetSubList"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "SourcePath": "http://EXHB-1873/subsite2",
+      "TargetPath": "https://a830edad9050849387E18042320.sharepoint.com/targetSubSite2"
+    }
+  ]
+}
 ```
    
 

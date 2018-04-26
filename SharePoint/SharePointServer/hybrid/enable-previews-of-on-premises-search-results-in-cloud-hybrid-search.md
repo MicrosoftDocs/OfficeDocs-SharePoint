@@ -7,13 +7,14 @@ ms.date: 3/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - Ent_O365_Hybrid
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_gtc
+- Strat_SP_gtc
+ms.custom: 
 ms.assetid: ccd99adc-b00a-4a0b-8609-a51ebe19c982
 description: "Learn how to enable display of previews of on-premises search results in a Search Center in Office 365 for cloud hybrid search."
 ---

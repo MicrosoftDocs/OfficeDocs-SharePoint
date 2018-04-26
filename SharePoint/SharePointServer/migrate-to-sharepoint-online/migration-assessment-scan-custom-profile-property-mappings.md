@@ -7,11 +7,12 @@ ms.date: 7/5/2017
 ms.audience: Admin
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_gtc
+- Strat_SP_gtc
+ms.custom:
 ms.assetid: 5a94494c-dfb1-4849-bcee-afa95f1828c2
 description: "Learn how to mitigate issues with Custom Profile Property mappings during migration."
 ---

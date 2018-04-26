@@ -7,11 +7,12 @@ ms.date: 3/9/2018
 ms.audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_server
+- Strat_SP_server
+ms.custom: 
 ms.assetid: a96075c6-d315-40a8-a739-49b91c61978f
 description: "Summary: Learn how to plan and configure the storage and database tier for SQL Server in SharePoint Server 2016 and SharePoint Server 2013."
 ---

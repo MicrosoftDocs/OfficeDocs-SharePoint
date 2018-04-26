@@ -7,9 +7,11 @@ ms.date: 4/10/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
-ms.collection: IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_gtc
+localization_priority: Priority
+ms.collection: 
+- IT_Sharepoint_Server_Top
+- Strat_SP_gtc
+ms.custom: 
 ms.assetid: 5b22e9e3-9548-442e-bf21-bd753b72bffa
 description: "The SharePoint Migration Tool provides a wizard-like experience, prompting you for information to simplify migrating your data from your on-premises SharePoint Server document libraries and local file shares to SharePoint Online (SPO). You do not have to be a global administrator to run the tool, only have write access to the site collection to where you are migrating the data."
 ---
@@ -36,7 +38,7 @@ It is available to all Office 365 users.
 The following describes what is happening as you use the SharePoint Migration Tool. Authentication to the destination tenant occurs first, after which you are prompted for your sources and destination SPO site collections where you want the files migrated. After you submit your migration jobs by clicking **Migrate**, the scanning, packaging, uploading and importing steps are performed in parallel across all the files submitted for migration.
   
 **AUTHENTICATION:** After opening the tool, the first thing you must do is authenticate to the destination -- the tenant where you will be migrating your files. Providing your username and password to the tenant associates the migration jobs you submit to this account. This allows your to resume your migration from another computer if needed by logging in with the same credentials. This account should be a site collection administrator of the destination you want to migrate to.
-**Note:**  SPMT Version 2, currently in beta release, supports the following authentication methods:
+**Note:**  SharePoint Migration Tool V2, currently in beta release, supports the following authentication methods:
 
  - NTLM
 - Kerberos

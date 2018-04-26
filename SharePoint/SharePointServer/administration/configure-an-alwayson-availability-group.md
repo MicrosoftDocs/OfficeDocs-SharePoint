@@ -7,11 +7,12 @@ ms.date: 3/10/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - IT_Sharepoint_Server_Top
 - IT_Sharepoint16
-ms.custom: Strat_SP_server
+- Strat_SP_server
+ms.custom: 
 ms.assetid: 18fedf59-f293-4c15-953e-c42ec66fa13f
 description: "Summary: Learn how to create and configure a SQL Server Always On Availability Group for a SharePoint Server 2016 and SharePoint 2013 farm."
 ---

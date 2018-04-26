@@ -11,7 +11,8 @@ localization_priority: Critical
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_server
+- Strat_SP_server
+ms.custom: 
 ms.assetid: 4982a861-ad5c-43e4-a49f-958afd4370aa
 description: "Summary: Learn how to install SharePoint Server 2016 to create a SharePoint server farm."
 ---

@@ -7,11 +7,12 @@ ms.date: 3/10/2018
 ms.audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_server
+- Strat_SP_server
+ms.custom: 
 ms.assetid: 94a0dfe4-66e8-4503-9cc6-cfb438f4fbc8
 description: "Summary: Learn about supported high availability and disaster recovery options for each SharePoint Server 2016 and SharePoint 2013 system and service application database."
 ---

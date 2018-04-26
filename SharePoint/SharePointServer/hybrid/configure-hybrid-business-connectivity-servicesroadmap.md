@@ -11,8 +11,9 @@ ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server
 - IT_SharePoint_Hybrid_Top
-localization_priority: Normal
-ms.custom: Strat_SP_gtc
+- Strat_SP_gtc
+localization_priority: Priority
+ms.custom: 
 ms.assetid: 405d8d1a-2952-4f51-9527-c2c305b76a29
 description: "Summary: Learn how to configure hybrid Business Connectivity Services between SharePoint Server and SharePoint Online."
 ---
