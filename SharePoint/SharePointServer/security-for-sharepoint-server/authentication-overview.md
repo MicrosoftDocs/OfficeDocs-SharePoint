@@ -7,11 +7,12 @@ ms.date: 6/21/2017
 ms.audience: ITPro
 ms.topic: overview
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_server
+- Strat_SP_server
+ms.custom: 
 ms.assetid: 403e75f3-9e53-4d5b-a476-365e6e4bc92e
 description: "Summary: Learn about how user authentication, app authentication, and server-to-server authentication work in SharePoint Server 2013 and SharePoint Server 2016 ."
 ---

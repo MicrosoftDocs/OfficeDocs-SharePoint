@@ -7,11 +7,12 @@ ms.date: 5/17/2017
 ms.audience: Admin
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_gtc
+- Strat_SP_gtc
+ms.custom:
 ms.assetid: b4f41860-3db9-4e30-8b5d-9748aa7d95a8
 description: "Learn how to mitigate issues with Customized Profile pages during migration."
 ---

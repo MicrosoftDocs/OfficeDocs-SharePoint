@@ -7,9 +7,11 @@ ms.date: 4/10/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
-ms.collection: IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_gtc
+localization_priority: Priority
+ms.collection: 
+- IT_Sharepoint_Server_Top
+- Strat_SP_gtc
+ms.custom: 
 ms.assetid: 65462df1-42fe-40cf-88f7-e39f82f5130f
 
 description: "The SharePoint Migration Tool is a tool that migrates your files from SharePoint on-premises document libraries or regular file shares and easily moves them to your SharePoint Online tenant. It is available to all Office 365 users."

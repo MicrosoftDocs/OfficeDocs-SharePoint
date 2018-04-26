@@ -7,9 +7,11 @@ ms.date: 4/10/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
-ms.collection: IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_gtc
+localization_priority: Priority
+ms.collection: 
+- IT_Sharepoint_Server_Top
+- Strat_SP_gtc
+ms.custom: 
 ms.assetid: 5b22e9e3-9548-442e-bf21-bd753b72bffa
 description: "The SharePoint Migration Tool provides a wizard-like experience, prompting you for information to simplify migrating your data from your on-premises SharePoint Server document libraries and local file shares to SharePoint Online (SPO). You do not have to be a global administrator to run the tool, only have write access to the site collection to where you are migrating the data."
 ---

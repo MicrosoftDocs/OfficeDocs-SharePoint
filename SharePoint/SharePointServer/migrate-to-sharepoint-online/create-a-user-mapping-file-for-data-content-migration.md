@@ -7,9 +7,11 @@ ms.date: 1/11/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
-ms.collection: IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_gtc
+localization_priority: Priority
+ms.collection: 
+- IT_Sharepoint_Server_Top
+- Strat_SP_gtc
+ms.custom: 
 ms.assetid: 28c42985-1fd6-49d6-b9c5-b7f35e83efa1
 description: "This article describes how to create a user mapping file for data content migration while using the SharePoint Online Migration Tool."
 ---

@@ -8,10 +8,11 @@ ms.audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
-ms.collection: IT_Sharepoint_Server_Top
+ms.collection: 
+- IT_Sharepoint_Server_Top
+- Strat_SP_mobile
 ms.custom:
 - spMobile
-- Strat_SP_mobile
 ms.assetid: 7b24439f-640a-412d-a35b-33007966bb58
 description: "The SharePoint mobile app makes using your SharePoint sites from a phone and tablet easier than ever. Learn how to troubleshoot common issues when working with the SharePoint mobile app."
 ---
