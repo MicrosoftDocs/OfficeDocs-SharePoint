@@ -7,12 +7,12 @@ ms.date: 04/05/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-ms.custom:
 - Strat_O365_Enterprise
+ms.custom:
 - Ent_TLGs
 ms.assetid: 056e74ea-9428-45f8-abed-1040d8e413dd
 description: "Summary: Create a single-server SharePoint 2016 dev/test farm in Microsoft Azure infrastructure services."

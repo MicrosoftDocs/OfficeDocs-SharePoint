@@ -7,11 +7,12 @@ ms.date: 10/3/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_server
+- Strat_SP_server
+ms.custom: 
 ms.assetid: 4d7a8038-4b27-4bd8-a855-585db4e924a8
 description: "Summary: Learn about the process of upgrading databases, service applications, My Sites, and site collections to SharePoint Server 2016."
 ---

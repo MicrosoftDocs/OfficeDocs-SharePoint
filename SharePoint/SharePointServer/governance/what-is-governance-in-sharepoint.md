@@ -7,11 +7,12 @@ ms.date: 3/1/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_gtc
+- Strat_SP_gtc
+ms.custom: 
 ms.assetid: df399658-84ac-4ca6-aaf4-378eef361cbb
 description: "Summary: Learn about governance as an essential part of a successful SharePoint deployment and the various components of an organizational governance plan."
 ---

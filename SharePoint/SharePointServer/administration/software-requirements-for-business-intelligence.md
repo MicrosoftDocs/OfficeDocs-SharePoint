@@ -7,9 +7,11 @@ ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
-ms.collection: IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_server
+localization_priority: Priority
+ms.collection: 
+- IT_Sharepoint_Server_Top
+- Strat_SP_server
+ms.custom: 
 ms.assetid: 6824b3bf-9046-4d43-b266-de463d0007e5
 description: "Summary: Learn about the minimum software requirements to run business intelligence features in SharePoint Server 2016 and SharePoint Server 2013."
 ---

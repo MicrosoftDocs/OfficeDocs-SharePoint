@@ -7,11 +7,12 @@ ms.date: 9/12/2017
 ms.audience: Admin
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_gtc
+- Strat_SP_gtc
+ms.custom:
 ms.assetid: 359d684a-65bf-4345-8b98-b169a2474ed2
 description: "Learn how to mitigate issues with large Excel files during migration."
 ---

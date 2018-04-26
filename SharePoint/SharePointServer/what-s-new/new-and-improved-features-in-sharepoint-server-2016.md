@@ -7,11 +7,12 @@ ms.date: 3/8/2018
 ms.audience: ITPro
 ms.topic: overview
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_server
+- Strat_SP_server
+ms.custom: 
 ms.assetid: e81557fb-5046-4a67-8ec8-fdfda648af68
 description: "Learn about the new features and updates to existing features in SharePoint Server 2016."
 ---

@@ -7,11 +7,12 @@ ms.date: 3/1/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_gtc
+- Strat_SP_gtc
+ms.custom: 
 ms.assetid: 7c75dc80-6910-4c10-a9a0-d821bedd602d
 description: "Summary: Learn about key factors in governing a SharePoint 2013 service and what to include in a service-level agreement."
 ---

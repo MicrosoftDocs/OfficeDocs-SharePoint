@@ -7,11 +7,12 @@ ms.date: 9/12/2017
 ms.audience: Admin
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_gtc
+- Strat_SP_gtc
+ms.custom:
 ms.assetid: ba57470a-7ef8-43ee-8ff6-8a428f6e55b9
 description: "Learn how to mitigate issues with InfoPath during migration."
 ---

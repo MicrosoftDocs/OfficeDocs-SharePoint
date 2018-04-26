@@ -7,9 +7,10 @@ ms.date: 4/11/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
-ms.custom: Strat_SP_gtc
+- Strat_SP_gtc
+ms.custom: 
 ms.assetid: 
 description: "SharePoint Migration Tool table of supported list templates for migration."
 ---

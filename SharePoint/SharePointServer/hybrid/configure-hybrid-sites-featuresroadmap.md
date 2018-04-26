@@ -7,13 +7,14 @@ ms.date: 11/3/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - Ent_O365_Hybrid
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_gtc
+- Strat_SP_gtc
+ms.custom: 
 ms.assetid: 4bd426f4-105c-41cf-a4b8-815db62191ce
 description: "Summary: Learn how to configure hybrid sites features for SharePoint hybrid with Office 365."
 ---
