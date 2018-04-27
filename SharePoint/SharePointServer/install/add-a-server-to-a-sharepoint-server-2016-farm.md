@@ -49,13 +49,13 @@ Before you start to install prerequisite software, you have to complete the foll
     
 - An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
     
-    > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+> [!NOTE]
+> If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
   
 - Document the location of the SharePoint Server 2016 binary and log files on the existing farm servers. We recommend that the location of these files on the new server map to the locations used on the other servers in the farm.
     
-    > [!IMPORTANT]
-    > If you change the location of the trace log to a non-system drive, change the location on all the servers in the farm. Existing or new servers cannot log data if the location does not exist. In addition, you will be unable to add new servers unless the path that you specify exists on the new server. You cannot use a network share for logging purposes. 
+> [!IMPORTANT]
+> If you change the location of the trace log to a non-system drive, change the location on all the servers in the farm. Existing or new servers cannot log data if the location does not exist. In addition, you will be unable to add new servers unless the path that you specify exists on the new server. You cannot use a network share for logging purposes. 
   
 ## Install prerequisite software
 <a name="prereq"> </a>
@@ -87,8 +87,8 @@ After you install the prerequisites, follow these steps to install SharePoint Se
     
 5. Accept the default file location where SharePoint Server 2016 will be installed or change the installation path in order to suit your requirements.
     
-    > [!TIP]
-    > As a best practice, we recommend that you install SharePoint Server 2016 on a drive that does not contain the operating system. 
+> [!TIP]
+> As a best practice, we recommend that you install SharePoint Server 2016 on a drive that does not contain the operating system. 
   
 6. Click **Install Now**.
     
@@ -131,20 +131,20 @@ You add the new server to the farm by using one of the following procedures:
     
 9. On the **Specify Server Role** page, choose the appropriate role, and then click **Next**.
     
-    > [!NOTE]
-    > The concept of server roles has changed for SharePoint Server 2016. You can't add a server to a farm if the farm currently contains a server assigned to the "Single Server Farm" role. > For additional information about MinRole, see [Overview of MinRole Server Roles in SharePoint Server 2016](overview-of-minrole-server-roles-in-sharepoint-server-2016.md). 
+> [!NOTE]
+> The concept of server roles has changed for SharePoint Server 2016. You can't add a server to a farm if the farm currently contains a server assigned to the "Single Server Farm" role. > For additional information about MinRole, see [Overview of MinRole Server Roles in SharePoint Server 2016](overview-of-minrole-server-roles-in-sharepoint-server-2016.md). 
   
 10. On the **Completing the SharePoint Products Configuration Wizard** page, click **Next**.
     
 11. On the server that hosts Central Administration, click **Manage servers in this farm** to verify that the new server is part of the farm. 
     
-    > [!NOTE]
-    > You can also verify a successful server addition or troubleshoot a failed addition by examining the log files. These files are located on the drive on which SharePoint Server 2016 is installed, in the %COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\LOGS folder. 
+> [!NOTE]
+> You can also verify a successful server addition or troubleshoot a failed addition by examining the log files. These files are located on the drive on which SharePoint Server 2016 is installed, in the %COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\LOGS folder. 
   
 12. On the **Servers in Farm** page, click the name of the new server. Use the list of available services on the **Services on Server** page to start the services that you want to run on the new server. 
     
-    > [!NOTE]
-    > This step should only apply if the Custom role is used. 
+> [!NOTE]
+> This step should only apply if the Custom role is used. 
   
  <a name="psconfig"></a>**To add a new SharePoint Server 2016 server to the farm by using the PSConfig.exe command-line tool**
 
@@ -154,13 +154,16 @@ You add the new server to the farm by using one of the following procedures:
   psconfig.exe -cmd configdb -connect -server <SqlServerName> -database <ConfigDbName> -user <DOMAIN\FarmServiceAccount> -password <FarmServiceAccountPassword> -passphrase <FarmPassphrase> -admincontentdatabase <AdminContentDbName> -localserverrole <ServerRole> -cmd helpcollections -installall -cmd secureresources -cmd services -install -cmd installfeatures -cmd adminvs -provision -port <PortNumber> -windowsauthprovider onlyusentlm -cmd applicationcontent -install
   ```
 
-    Where \<ServerRole\> can be any of the following values: WebFrontEnd, Application, DistributedCache, Search, or Custom.
+Where \<ServerRole\> can be any of the following values: WebFrontEnd, Application, DistributedCache, Search, or Custom.
     
-    > [!NOTE]
-    > The SingleServerFarm cannot be used unless the SharePoint farm as zero servers in it. 
+> [!NOTE]
+> The SingleServerFarm cannot be used unless the SharePoint farm as zero servers in it. 
+    
+> [!NOTE]
+> If Feature Pack 2 has been applied, additional \<ServerRole>\ options are available: ApplicationWithSearch, WebFrontEndWithDistributedCache.
   
-    > [!NOTE]
-    > The  `PSConfig.exe -cmd Services -Provision` syntax is deprecated, but not removed yet. Do not use the **Provision** parameter when you create or join a farm. Using this parameter will lead to failures. 
+> [!NOTE]
+> The  `PSConfig.exe -cmd Services -Provision` syntax is deprecated, but not removed yet. Do not use the **Provision** parameter when you create or join a farm. Using this parameter will lead to failures. 
   
  **To add a new SharePoint Server 2016 server to the farm by using PowerShell**
   
@@ -174,8 +177,8 @@ You add the new server to the farm by using one of the following procedures:
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
     
-    > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+> [!NOTE]
+> If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
   
 2. Start the SharePoint 2016 Management Shell.
     
@@ -203,8 +206,11 @@ You add the new server to the farm by using one of the following procedures:
     
     Where \<ServerRole\> can be any of the following values: WebFrontEnd, Application, DistributedCache, Search, or Custom. 
     
-    > [!NOTE]
-    > The concept of server roles has changed for SharePoint Server 2016. You can't add a server to a farm if the farm currently contains a server assigned to the "Single Server Farm" role. > For additional information about MinRole, see [Overview of MinRole Server Roles in SharePoint Server 2016](overview-of-minrole-server-roles-in-sharepoint-server-2016.md). 
+> [!NOTE]
+> If Feature Pack 2 has been applied, additional \<ServerRole>\ options are available: ApplicationWithSearch, WebFrontEndWithDistributedCache.
+    
+> [!NOTE]
+> The concept of server roles has changed for SharePoint Server 2016. You can't add a server to a farm if the farm currently contains a server assigned to the "Single Server Farm" role. > For additional information about MinRole, see [Overview of MinRole Server Roles in SharePoint Server 2016](overview-of-minrole-server-roles-in-sharepoint-server-2016.md). 
   
 4. At the PowerShell command prompt, type the following command to install the Help File Collections:
     
@@ -236,8 +242,8 @@ You add the new server to the farm by using one of the following procedures:
   New-SPCentralAdministration -Port <PortNumber> -WindowsAuthProvider NTLM
   ```
 
-    > [!NOTE]
-    > If the SharePoint Central Administration website is already provisioned on an existing server in the farm, you can skip this step. 
+> [!NOTE]
+> If the SharePoint Central Administration website is already provisioned on an existing server in the farm, you can skip this step. 
   
 9. At the PowerShell command prompt, type the following command to install application content:
     
@@ -251,7 +257,7 @@ You add the new server to the farm by using one of the following procedures:
   Get-SPServer
   ```
 
-    > [!NOTE]
-    > You can also verify a successful server addition or troubleshoot a failed addition by examining the log files. These files are located on the drive on which SharePoint Server 2016 is installed, in the %COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\LOGS folder. 
+> [!NOTE]
+> You can also verify a successful server addition or troubleshoot a failed addition by examining the log files. These files are located on the drive on which SharePoint Server 2016 is installed, in the %COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\LOGS folder. 
   
 
