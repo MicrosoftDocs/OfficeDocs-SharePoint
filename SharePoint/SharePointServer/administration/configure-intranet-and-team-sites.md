@@ -14,7 +14,7 @@ description: "Summary: Learn how to configure intranet and team sites based on t
 
 # Test Lab Guide: Configure intranet and team sites for SharePoint Server 2013
 
- **Summary: ** Learn how to configure intranet and team sites based on the [Test Lab Guide: Configure SharePoint Server 2013 in a three-tier farm](configure-sharepoint-server-2013-in-a-three-tier-farm.md).
+ **Summary:** Learn how to configure intranet and team sites based on the [Test Lab Guide: Configure SharePoint Server 2013 in a three-tier farm](configure-sharepoint-server-2013-in-a-three-tier-farm.md).
   
 This document explains how to set up multiple web applications, site collections, subsites, and pages for intranet departments and teams.
   
