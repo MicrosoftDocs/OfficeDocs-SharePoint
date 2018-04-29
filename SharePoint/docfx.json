@@ -74,7 +74,9 @@
       "feedback_github_repo": "MicrosoftDocs/OfficeDocs-SharePoint",
       "feedback_product_url": "https://sharepoint.uservoice.com/" 
     },
-    "fileMetadata": {},
+    "fileMetadata": {
+        "feedback_product_url": { 
+            "SharePointServer/search/*.md": "https://sharepoint.uservoice.com/forums/330321-sharepoint-search" }},
     "template": [],
     "dest": "OfficeDocs-SharePoint"
   }
