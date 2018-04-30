@@ -23,7 +23,10 @@ To perform management and operational tasks on the Distributed Cache service in 
   
 > [!IMPORTANT]
 > The Distributed Cache service can end up in a nonfunctioning or unrecoverable state if you do not follow the procedures that are listed in this article. In extreme scenarios, you might have to rebuild the server farm. The Distributed Cache depends on Windows Server AppFabric as a prerequisite. Do not administer the **AppFabric Caching Service** from the **Services** window in **Administrative Tools** in **Control Panel**. Do not use the applications in the folder named **AppFabric for Windows Server** on the **Start** menu. 
-  
+
+> [!IMPORTANT]
+> Adding security for AppFabric with SharePoint distributed cache is not supported.
+  
 > [!IMPORTANT]
 > Do not use service account names that contain the symbol $. 
   
