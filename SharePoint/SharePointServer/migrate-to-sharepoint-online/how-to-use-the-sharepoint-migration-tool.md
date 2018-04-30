@@ -7,9 +7,11 @@ ms.date: 4/10/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
-ms.collection: IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_gtc
+localization_priority: Priority
+ms.collection: 
+- IT_Sharepoint_Server_Top
+- Strat_SP_gtc
+ms.custom: 
 ms.assetid: 65462df1-42fe-40cf-88f7-e39f82f5130f
 
 description: "The SharePoint Migration Tool is a tool that migrates your files from SharePoint on-premises document libraries or regular file shares and easily moves them to your SharePoint Online tenant. It is available to all Office 365 users."
@@ -275,10 +277,10 @@ Advanced settings should only be changed or managed by your IT professional. The
 |Do not migrate files modified before  <br/> |If you choose to limit what files are migration based on  *modified date,*  set your values in this section. This may be to limit the number of files migrated or to adhere to overall company governance policy regarding file retention.  <br/> |
 |Do not migrate files with these extensions  <br/> |To prevent certain file types from migrating, list each extension, separating it with a vertical bar. For example, mp4|avi|mkv. Do not include the leading **"."** before the extension name.  <br/> |
 |Do not migrate files and folders with invalid characters  <br/> |By default, the setting is set to **Off**. This is the recommended setting. The tool will attempt to move all the files without filtering on characters. If any file can't be accepted into SPO, a failure message will be generated for that file.  <br/> If set to **On**, the tool will skip any potential special characters. While this can improve performance when the source potentially contains a high number of files containing invalid characters, it also has drawbacks. To prevent malicious activities, source packages that generate more than 100 errors to the destination server will be blocked. As a result, all valid files in that package would also be blocked.  <br/> |
-|Migrate OneNote folder as OneNote notebook <br/>|By default, this is set to **Off**. When set to **Off**, OneNote folders will not migrate over as a notebook.<br/>|
+|Migrate OneNote folder as OneNote notebook <br/>|By default, this is set to **Off**. When set to **Off**, OneNote folders will not migrate over as a notebook.  At this time the ability to migrate notebooks on SharePoint on-premises is disabled.<br/>|
 |Azure Active Directory lookup  <br/> |By default, this is set to **On**. If no User mapping file is provided by the user, then Azure Active Directory is used as the default for user mapping.  <br/> |
 |Preserve user permissions  <br/> |By default, this is set to **On**. If set to **Off**, no permissions will be preserved.  <br/> |
-|Skip list with audience targeting enabled <br/>|By default, this is set to **On**.  When set to **On**, SharePoint on-premises lists with audience targeting enabled will be skipped and not migrated.<br/>|
+|Skip list with audience targeting enabled <br/>|By default, this is set to **On**.  When set to **On**, SharePoint on-premises lists with audience targeting enabled will be paused and the user will be prompted for confirmation before continuing.<br/>|
 |User mapping file  <br/> |By default,  *Azure AD lookup*  is used to map users when submitting migration jobs. If you wish to use your own mapping file, select the file to be used by clicking **Choose file**. If you choose to use a custom user mapping file and you want to preserve user permissions, turn off  *Azure Active Directory lookup*. By doing so, if a user isn't found in the mapping file, the tool won't look it up in AAD.  <br/> |
 |SharePoint Migration Tool work folder  <br/> |By default, a temp folder will be created. If you wish to specify a specific working folder, enter the name here.   <br/> **Note:** By default, the working folder is *%appdata%\Microsoft\MigrationTool* . Please make sure that your working folder has a minimum of 150 GB of free space. It may need more depending on the size of the data you plan to migrate. <br/> |
 |Use custom Azure storage  <br/> |If you wish to use your own Azure storage, set this value to **On**.  <br/> If you choose to turn on, additional fields will display to enter your account and key, and settings to select if you want to enable or disable encryption, and whether temporary files are deleted when migration is complete.  <br/> **Note: ** This feature is supported only for  *General Purpose storage accounts*  as General Purpose accounts support Azure blobs and queues. This feature is not available for Blob Storage accounts.  <br/> |

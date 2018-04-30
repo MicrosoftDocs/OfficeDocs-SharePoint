@@ -14,7 +14,7 @@ description: "Moving to SharePoint Online?"
 
 # Migrate to SharePoint Online
 
-Moving to SharePoint Online?
+Moving to SharePoint Online or OneDrive for Business?
   
 There are different options available to migrate content to SharePoint Online, depending on the size and quantity of files you need to move. 
   

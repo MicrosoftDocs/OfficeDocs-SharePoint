@@ -7,11 +7,12 @@ ms.date: 3/7/2018
 ms.audience: ITPro
 ms.topic: interactive-tutorial
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_server
+- Strat_SP_server
+ms.custom: 
 ms.assetid: 4d88c402-24f2-449b-86a6-6e7afcfec0cd
 description: "Summary: Find out the minimum hardware and software requirements you need to install and run SharePoint Server 2016."
 ---

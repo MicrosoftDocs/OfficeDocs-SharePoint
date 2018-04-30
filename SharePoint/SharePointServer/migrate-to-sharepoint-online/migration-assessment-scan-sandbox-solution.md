@@ -7,11 +7,12 @@ ms.date: 9/13/2017
 ms.audience: Admin
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_gtc
+- Strat_SP_gtc
+ms.custom:
 ms.assetid: 411c5512-e99c-4010-8a25-113515851cd7
 description: "Learn how to mitigate issues with Sandbox solutions during migration."
 ---

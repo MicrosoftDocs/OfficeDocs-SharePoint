@@ -7,13 +7,13 @@ ms.date: 04/06/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 - IT_Sharepoint16
-ms.custom:
 - Strat_O365_Enterprise
+ms.custom:
 - Ent_Solutions
 ms.assetid: 8da53a30-27f2-4297-95c2-54eff999e863
 description: "Summary: Find out why Microsoft Azure is the best place to host your SharePoint Server 2016 farms in the cloud."

@@ -7,13 +7,14 @@ ms.date: 6/21/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 - Ent_O365_Hybrid
-ms.custom: Strat_SP_gtc
+- Strat_SP_gtc
+ms.custom: 
 ms.assetid: 9cd888dc-9104-422e-8d8a-d795f0b1c0d0
 description: "Summary: Learn how to build a server-to server trust between SharePoint Server and SharePoint Online."
 ---

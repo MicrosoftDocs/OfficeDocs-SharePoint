@@ -7,11 +7,12 @@ ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_server
+- Strat_SP_server
+ms.custom: 
 ms.assetid: 04812402-43d6-4605-960c-1dd5ec65bef1
 description: "Summary: Learn how to combine farm architecture and technology to create a highly available environment in a single SharePoint Server 2016 and SharePoint 2013 farm."
 ---

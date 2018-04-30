@@ -7,12 +7,13 @@ ms.date: 10/9/2017
 ms.audience: ITPro
 ms.topic: reference
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server
 - IT_SharePoint_Hybrid_Top
-ms.custom: Strat_SP_gtc
+- Strat_SP_gtc
+ms.custom: 
 ms.assetid: 67eac5ad-42bd-4c08-9c1f-b4c93fec60e8
 description: "SharePoint Server offers a variety of hybrid scenarios to help connect you on-premises SharePoint environment to Office 365. Since these features have been released over time, they may require a minimum Public Update (PU) in order to work. This article is a reference for which updates are required for each hybrid feature."
 ---

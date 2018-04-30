@@ -7,11 +7,12 @@ ms.date: 7/5/2017
 ms.audience: Admin
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_gtc
+- Strat_SP_gtc
+ms.custom:
 ms.assetid: 8c63518d-4977-4bea-a376-09ec71b7ff56
 description: "Learn how to mitigate issues with Secure Store during migration."
 ---

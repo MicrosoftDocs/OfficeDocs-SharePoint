@@ -7,11 +7,12 @@ ms.date: 1/26/2017
 ms.audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_server
+- Strat_SP_server
+ms.custom: 
 ms.assetid: a590d614-7488-4b03-8c8f-d45dd48ca726
 description: "Learn about the new MinRole farm topology and its benefits in SharePoint Server 2016."
 ---

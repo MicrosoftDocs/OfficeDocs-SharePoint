@@ -7,13 +7,14 @@ ms.date: 11/23/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - IT_OneDriveAdmin
 - IT_OneDriveAdmin_Top
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_gtc
+- Strat_SP_gtc
+ms.custom: 
 ms.assetid: 21cfb6a0-fa4c-44c6-9a39-0f45e85e371f
 description: "This article explains the factors that influence migration speed at each phase while using the SharePoint Online Migration API ."
 ---
