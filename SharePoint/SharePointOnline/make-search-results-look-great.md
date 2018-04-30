@@ -27,7 +27,7 @@ Choose where searches should go by specifying the URL of your default Search Cen
   
  **Specify the Search Center URL for a site or site collection**
   
-For each site collection or site, you can specify the URL of the Search Center where you want the search results from the site to be displayed. [Specify search settings for a site collection or a site](https://support.office.com/article/99da1d77-f42b-4f56-b48a-24e87f336e91).
+For each site collection or site, you can specify the URL of the Search Center where you want the search results from the site to be displayed. [Learn more](override-default-search-center.md).
   
  **The Search Box Web Part**
   
@@ -51,6 +51,6 @@ When visitors browse to a page that contains a Content Search Web Part, the Web 
   
  **Use result types and display types to change how search results look**
   
-To help users quickly distinguish between different types of results you can use  *[Manage result types](https://support.office.com/article/ceccf561-e82c-495c-bf3e-b3f006ae9c8c)*  and  *display templates*  to show important information directly in the search results. Users don't have to click on each result to see if they've found what they're looking for. [Learn more](result-types-disp-templates.md).
+To help users quickly distinguish between different types of results you can use  *[result types](manage-result-types.md)*  and  *display templates*  to show important information directly in the search results. Users don't have to click on each result to see if they've found what they're looking for. [Learn more](result-types-disp-templates.md).
   
 

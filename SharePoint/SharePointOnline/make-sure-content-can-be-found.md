@@ -21,13 +21,13 @@ The content must be crawled and added to the search index for your users to find
   
 When users search on a site, results can come from many places such as columns, libraries, and pages. A site owner can change search settings to decide whether or not content should appear in search results. 
   
-Users only see search results for content they have access to. Setting the right permissions for content ensure that people can see the right documents and sites in the search results. [Enable content on a site to be searchable](https://support.office.com/article/2a420d01-4706-4d23-980e-c4c877113670).
+Users only see search results for content they have access to. Setting the right permissions for content ensure that people can see the right documents and sites in the search results. [Learn more](make-site-content-searchable.md).
   
  **Crawl site content**
   
 In SharePoint Online, content is automatically crawled based on a defined crawl schedule. The crawler picks up content that has changed since the last crawl and updates the index. 
   
-In some cases, you may want to manually request crawling and full re-indexing of a site, a document library, or a list. [Manually request crawling and re-indexing of a site, a library or a list](https://support.office.com/article/9afa977d-39de-4321-b4ca-8c7c7e6d264e).
+In some cases, you may want to manually request crawling and full re-indexing of a site, a document library, or a list. [Learn more](crawl-site-content.md).
   
  **Search across on-premises and online content**
   
@@ -35,6 +35,6 @@ Hybrid search lets your users search for files and documents across SharePoint S
   
  **Remove search results temporarily**
   
-You can **temporarily** remove documents, pages and sites from search results with immediate effect. [Remove search results](https://support.office.com/article/b8177720-ff41-478e-bbe7-72183b97824f).
+You can **temporarily** remove documents, pages and sites from search results with immediate effect. [Learn more](remove-search-results.md).
   
 

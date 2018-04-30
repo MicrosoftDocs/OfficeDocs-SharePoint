@@ -35,22 +35,22 @@ The changes you make from the search administration page are valid for the whole
 
 |**Choose this option:**|**To do this:**|
 |:-----|:-----|
-|[Manage the search schema in SharePoint Online](https://support.office.com/article/d4fab46d-ba41-4c03-9d4c-32b5b33198b6) <br/> |Learn how to create a customized search experience by changing the search schema. In the search schema, you can view, create, or change managed properties, and map crawled properties to managed properties.  <br/> |
+|[Manage the search schema](manage-the-search-schema.md) <br/> |Learn how to create a customized search experience by changing the search schema. In the search schema, you can view, create, or change managed properties, and map crawled properties to managed properties.  <br/> |
 |[Manage search dictionaries](manage-search-dictionaries.md) <br/> |Learn how to manage search dictionaries. You can use search dictionaries to include or exclude company names to be extracted from the content of your indexed documents, or you can include or exclude words for query spelling correction.  <br/> |
-|[Manage authoritative pages](https://support.office.com/article/68429de6-7c7b-455c-a90a-2afaa3444647) <br/> |Influence the pages or documents that should appear at the top of your list of search results by identifying high-quality pages, also known as authoritative pages.  <br/> |
-|[Customize query suggestions in SharePoint search](https://support.office.com/article/9ef0f859-3b92-41e9-b393-cb43d6094c7b) <br/> |Learn how to add phrases that you want the system to suggest to users as they search for an item, and how to add phrases that you don't want the system to suggest to users. Also, learn how to turn this feature on or off.  <br/> |
-|[Manage result sources](https://support.office.com/article/fd8d6ac6-c5d0-454d-80a9-51580902b25d) <br/> |Result sources limit searches to certain content or to a subset of search results. Learn how to create your own result sources, or change the predefined result sources.  <br/> |
-|[Manage query rules](https://support.office.com/article/53556bb4-3625-490b-aa89-1223e3d4ce3f) <br/> |Improve search results by creating and managing query rules. Query rules can help searches respond to the intent of users.  <br/> |
+|[Manage authoritative pages](manage-authoritative-pages.md) <br/> |Influence the pages or documents that should appear at the top of your list of search results by identifying high-quality pages, also known as authoritative pages.  <br/> |
+|[Manage query suggestion settings](manage-query-suggestions.md) <br/> |Learn how to add phrases that you want the system to suggest to users as they search for an item, and how to add phrases that you don't want the system to suggest to users. Also, learn how to turn this feature on or off.  <br/> |
+|[Manage result sources](manage-result-sources.md) <br/> |Result sources limit searches to certain content or to a subset of search results. Learn how to create your own result sources, or change the predefined result sources.  <br/> |
+|[Manage query rules](manage-query-rules.md) <br/> |Improve search results by creating and managing query rules. Query rules can help searches respond to the intent of users.  <br/> |
 |[Manage query client types](query-throttling.md) <br/> |Learn how query client types decide in which order queries are performed.  <br/> |
-|[Remove search results](https://support.office.com/article/b8177720-ff41-478e-bbe7-72183b97824f) <br/> |Learn how you can temporarily remove items from the search results with immediate effect. These items can be documents, pages, or sites that you don't want users to see when they search.  <br/> |
-|[View search usage reports](https://support.office.com/article/2cd8f257-c29b-423d-8265-d44e6214d095) <br/> |View usage reports and search reports and see how often your users search, what their top queries are, and which queries they're having trouble getting answers for.  <br/> |
+|[Remove search results](remove-search-results.md) <br/> |Learn how you can temporarily remove items from the search results with immediate effect. These items can be documents, pages, or sites that you don't want users to see when they search.  <br/> |
+|[View usage and search reports](view-search-usage-reports.md) <br/> |View usage reports and search reports and see how often your users search, what their top queries are, and which queries they're having trouble getting answers for.  <br/> |
 |[Manage Search Center settings](specify-default-search-center.md) <br/> |Choose where searches should go by specifying the URL of your Search Center.  <br/> |
-|[Export and import customized search configuration settings](https://support.office.com/article/b136a278-d302-4dc4-84b9-80287c59afdf) <br/> |Learn how to export and import customized search configuration settings between tenants, site collections, and sites.  <br/> |
+|[Import and export customized search configuration settings](export-import-search-settings.md) <br/> |Learn how to export and import customized search configuration settings between tenants, site collections, and sites.  <br/> |
 |[Manage crawl log permissions](set-crawl-log-permissions.md) <br/> |Learn how to grant users or groups read access to crawl log information for the tenant. A typical use case is in eDiscovery, where users may need to check whether crawled content was in fact added to the search index.  <br/> |
    
 > [!NOTE]
 > Thesaurus isn't available in SharePoint Online. 
   
-See also: [Search limits for SharePoint Online](https://support.office.com/article/7c06e9ed-98b6-4304-a900-14773a8fa32f)
+See also: [Search limits for SharePoint Online](search-limits.md)
   
 

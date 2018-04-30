@@ -282,7 +282,7 @@ Any document that a user can view or edit in Office 365, can also appear in Delv
   
 - Check the permission settings for the documents, sites and libraries and make sure that only the intended users have access to the content.
     
-- If you want to prevent specific documents from appearing in Delve, follow the steps in [Manage the search schema in SharePoint Online](https://support.office.com/article/d4fab46d-ba41-4c03-9d4c-32b5b33198b6#BKMK_HideFromDelveSteps). You can keep storing the documents in Office 365, and people can still find them through search - they just won't show up in Delve.
+- If you want to prevent specific documents from appearing in Delve, follow the steps in [Hide documents from Delve](manage-the-search-schema.md#BKMK_HideFromDelveSteps). You can keep storing the documents in Office 365, and people can still find them through search - they just won't show up in Delve.
     
 ## About the Office Graph
 <a name="BKMK_AboutOfficeGraph"> </a>

@@ -17,7 +17,7 @@ description: "Learn how result types and display templates help users quickly di
 
 To help users quickly distinguish between different types of results when they search for something in SharePoint, we use  *result types*  and  *display templates*  . Important information is shown directly in the search results, so that users don't have to click on each result to see if they've found what they're looking for. 
   
-By default, the Search Results Web Part in your Search Center is set up to use different display templates according to the result type of the search result. [Manage result types](https://support.office.com/article/ceccf561-e82c-495c-bf3e-b3f006ae9c8c) define when to use which display template, and the  *display template*  defines what information to show in the search results. 
+By default, the Search Results Web Part in your Search Center is set up to use different display templates according to the result type of the search result. [Result types](manage-result-types.md) define when to use which display template, and the  *display template*  defines what information to show in the search results. 
   
 For example, there's a display template for PowerPoint files and another display template for Word documents. A result type says that if the search term is found in a PowerPoint file, then use the PowerPoint display template when showing that result. The users can see right away that this result is a PowerPoint file, and they can also see other information that helps them see whether this result is what they're looking for. When users hover over the result, they'll see a preview of the PowerPoint in the hover panel, together with more details about it. The hover panel also lets users perform  *actions,*  such as **Edit** or **Send**. The same way, the result type for Word documents uses a Word display template to show information.
   
@@ -49,7 +49,7 @@ The search results contain information that'll help users identify whether the r
   
 You can create your own display templates that show information that's important to your users, for specific types of results.
   
-- For more information about managed properties, see [Manage the search schema in SharePoint Online](https://support.office.com/article/d4fab46d-ba41-4c03-9d4c-32b5b33198b6).
+- For more information about managed properties, see [Manage the search schema in SharePoint Online](manage-the-search-schema.md).
     
 - - For information about the Search Center and how to set it up, see [Manage the Search Center in SharePoint Online](manage-the-search-center.md).
     

@@ -19,7 +19,7 @@ See if the crawler has added content to the search index, and if your users are 
   
  **View search usage reports**
   
-This article describes how you can use search reports in the SharePoint admin center to find answers to questions about how search is being used in your tenant. You can for example see the number of queries and the top queries. [View search usage reports](https://support.office.com/article/2cd8f257-c29b-423d-8265-d44e6214d095).
+This article describes how you can use search reports in the SharePoint admin center to find answers to questions about how search is being used in your tenant. You can for example see the number of queries and the top queries. [Learn more](view-search-usage-reports.md).
   
  **Query throttling**
   
@@ -31,6 +31,6 @@ Use the crawl log to see if crawled content was successfully added to the search
   
  **Search limits**
   
-Look up the limits to SharePoint Online search. For example, there are limits to the number of entries you can have in a custom search dictionary and the number of results that can be returned for a query. [Search limits for SharePoint Online](https://support.office.com/article/7c06e9ed-98b6-4304-a900-14773a8fa32f).
+Look up the limits to SharePoint Online search. For example, there are limits to the number of entries you can have in a custom search dictionary and the number of results that can be returned for a query. [Learn more](search-limits.md).
   
 
