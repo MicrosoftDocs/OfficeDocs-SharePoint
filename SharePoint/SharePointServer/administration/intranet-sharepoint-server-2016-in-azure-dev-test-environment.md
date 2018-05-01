@@ -3,7 +3,7 @@ title: "Intranet SharePoint Server 2016 in Azure dev/test environment"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/05/2018
+ms.date: 04/30/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
@@ -86,7 +86,7 @@ Get-AzureRmSubscription -SubscriptionName $subscrName | Select-AzureRmSubscripti
 # Get the Azure location
 $sa=Get-AzureRMStorageaccount | where {$_.ResourceGroupName -eq $rgName}
 # Create an availability set for SQL Server virtual machines
-New-AzureRMAvailabilitySet -Name sqlAvailabilitySet -ResourceGroupName $rgName -Location $locName
+New-AzureRMAvailabilitySet -ResourceGroupName $rgName -Name sqlAvailabilitySet -Location $locName -Sku Aligned  -PlatformUpdateDomainCount 5 -PlatformFaultDomainCount 2
 # Create the SQL Server virtual machine
 $vmName="SQL1"
 $vmSize="Standard_D3_V2"
@@ -207,7 +207,7 @@ Get-AzureRmSubscription -SubscriptionName $subscrName | Select-AzureRmSubscripti
 $locName=(Get-AzureRmResourceGroup -Name $rgName).Location
 $saName=(Get-AzureRMStorageaccount | Where {$_.ResourceGroupName -eq $rgName}).StorageAccountName
 # Create an availability set for SharePoint virtual machines
-New-AzureRMAvailabilitySet -Name spAvailabilitySet -ResourceGroupName $rgName -Location $locName
+New-AzureRMAvailabilitySet -ResourceGroupName $rgName -Name spAvailabilitySet -Location $locName -Sku Aligned  -PlatformUpdateDomainCount 5 -PlatformFaultDomainCount 2
 # Create the SharePoint virtual machine
 $vmName="SP1"
 $vmSize="Standard_D3_V2"

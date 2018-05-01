@@ -3,7 +3,7 @@ title: "SharePoint Intranet Farm in Azure Phase 1 Configure Azure"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/06/2018
+ms.date: 04/30/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
@@ -282,20 +282,19 @@ You will need these names when you create the virtual machines in phases 2, 3, a
 Create your availability sets with these Azure PowerShell commands.
   
 ```
-$locName="<the Azure location of your resource groups>"
+$locName="<the Azure location of your resource group>"
 $rgName="<Table R - Item 1 - Resource group name column>"
 $avName="<Table A - Item 1 - Availability set name column>"
-New-AzureRMAvailabilitySet -Name $avName -ResourceGroupName $rgName -Location $locName
+New-AzureRMAvailabilitySet -ResourceGroupName $rgName -Name $avName -Location $locName -Sku Aligned  -PlatformUpdateDomainCount 5 -PlatformFaultDomainCount 2
 $rgName="<Table R - Item 2 - Resource group name column>"
 $avName="<Table A - Item 2 - Availability set name column>"
-New-AzureRMAvailabilitySet -Name $avName -ResourceGroupName $rgName -Location $locName
+New-AzureRMAvailabilitySet -ResourceGroupName $rgName -Name $avName -Location $locName -Sku Aligned  -PlatformUpdateDomainCount 5 -PlatformFaultDomainCount 2
 $rgName="<Table R - Item 3 - Resource group name column>"
 $avName="<Table A - Item 3 - Availability set name column>"
-New-AzureRMAvailabilitySet -Name $avName -ResourceGroupName $rgName -Location $locName
+New-AzureRMAvailabilitySet -ResourceGroupName $rgName -Name $avName -Location $locName -Sku Aligned  -PlatformUpdateDomainCount 5 -PlatformFaultDomainCount 2
 $rgName="<Table R - Item 4 - Resource group name column>"
 $avName="<Table A - Item 4 - Availability set name column>"
-New-AzureRMAvailabilitySet -Name $avName -ResourceGroupName $rgName -Location $locName
-
+New-AzureRMAvailabilitySet -ResourceGroupName $rgName -Name $avName -Location $locName -Sku Aligned  -PlatformUpdateDomainCount 5 -PlatformFaultDomainCount 2
 ```
 
 This is the configuration resulting from the successful completion of this phase.
