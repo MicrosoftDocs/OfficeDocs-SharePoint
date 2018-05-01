@@ -42,7 +42,7 @@ In Office 365, identity is managed by Azure Active Directory. For info about thi
 
 In some cases, you might want to transfer ownership of a OneDrive account to a different user, or give a user full control over another user's OneDrive.
   
-1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4.md) as a global admin or SharePoint admin. 
+1. Sign in to Office 365 as a global admin or SharePoint admin.
     
 2. Select the app launcher icon ![The icon that looks like a waffle and represents a button click that will reveal multiple application tiles for selection.](media/3b8a317e-13ba-4bd4-864e-1ccd47af39ee.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
@@ -75,7 +75,7 @@ For example, you can display a navigational link to only people in a particular 
   
 To add, edit, or delete and audience or an audience rule, go to the Manage Audiences page:
   
-1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4.md) as a global admin or SharePoint admin. 
+1. Sign in to Office 365 as a global admin or SharePoint admin.
     
 2. Select the app launcher icon ![The icon that looks like a waffle and represents a button click that will reveal multiple application tiles for selection.](media/3b8a317e-13ba-4bd4-864e-1ccd47af39ee.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
@@ -99,7 +99,7 @@ Audiences compile approximately weekly, and you can only view audience members a
 
 If some users are licensed to use OneDrive, but you don't want them to create a OneDrive (perhaps for regulatory reasons), you can prevent them from doing so. Note that if a user already created a OneDrive, changing the following setting won't delete it. 
   
-1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4.md) as a global admin or SharePoint admin. 
+1. Sign in to Office 365 as a global admin or SharePoint admin.
     
 2. Select the app launcher icon ![The icon that looks like a waffle and represents a button click that will reveal multiple application tiles for selection.](media/3b8a317e-13ba-4bd4-864e-1ccd47af39ee.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     

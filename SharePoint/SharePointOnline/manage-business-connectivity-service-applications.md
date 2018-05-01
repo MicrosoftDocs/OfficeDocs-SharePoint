@@ -3,7 +3,7 @@ title: "Manage Business Connectivity Service Applications"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -40,9 +40,9 @@ Object permissions apply only to a specific External System, BDC Model, or Exter
   
 To set object permissions for an object, follow these steps.
   
-1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4.md) with your SharePoint Online admin account. 
+1. Sign in to Office 365 with your SharePoint Online admin account.
     
-2. Go to the [SharePoint admin center](about-the-admin-center.md).
+2. Go to the SharePoint admin center.
     
 3. Select **bcs**.
     
@@ -78,9 +78,9 @@ Metadata Store permissions apply to many objects, such as BDC Models, ECTs, and 
   
 To set Metadata Store permissions, follow these steps.
   
-1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4.md) with your SharePoint Online admin account. 
+1. Sign in to Office 365 with your SharePoint Online admin account.
     
-2. Go to the [SharePoint admin center](about-the-admin-center.md).
+2. Go to the SharePoint admin center.
     
 3. Select **bcs**.
     
@@ -124,9 +124,9 @@ Imported permissions for a BDC Model are added to the store of existing permissi
   
 To import a BDC Model, follow these steps:
   
-1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4.md) with your SharePoint Online admin account. 
+1. Sign in to Office 365 with your SharePoint Online admin account.
     
-2. Go to the [SharePoint admin center](about-the-admin-center.md).
+2. Go to the SharePoint admin center.
     
 3. Select **bcs**.
     
@@ -159,9 +159,9 @@ You can export a BDC Model and then read its contents to determine differences b
   
 To export a BDC Model or Resource file, follow these steps:
   
-1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4.md) with your SharePoint Online admin account. 
+1. Sign in to Office 365 with your SharePoint Online admin account.
     
-2. Go to the [SharePoint admin center](about-the-admin-center.md).
+2. Go to the SharePoint admin center.
     
 3. Select **bcs**.
     
@@ -201,9 +201,9 @@ Actions can specify parameters that are based on one or more fields in an ECT. F
   
 To add an action to an ECT, follow these steps.
   
-1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4.md) with your SharePoint Online admin account. 
+1. Sign in to Office 365 with your SharePoint Online admin account.
     
-2. Go to the [SharePoint admin center](about-the-admin-center.md).
+2. Go to the SharePoint admin center.
     
 3. Select **bcs**.
     
