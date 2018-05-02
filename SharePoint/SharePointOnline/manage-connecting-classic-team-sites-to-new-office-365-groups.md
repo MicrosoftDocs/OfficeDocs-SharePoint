@@ -2,7 +2,7 @@
 title: "Manage connecting classic team sites to new Office 365 groups"
 ms.author: kaarins
 author: kaarins
-ms.date: 4/30/2018
+ms.date: 5/1/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
@@ -38,7 +38,7 @@ When this setting is on, and the site collection administrator for a classic tea
     
 - (Admin) Connect sites to new Office 365 groups using the CSOM API: [CreateGroupForSite method](https://go.microsoft.com/fwlink/?linkid=872613)
     
-- [SharePoint modernization scanner](https://go.microsoft.com/fwlink/?linkid=873066)
+- [SharePoint modernization scanner tool](https://go.microsoft.com/fwlink/?linkid=873066)
     
 > [!NOTE]
 > If your organization has set up OneDrive and SharePoint Multi-Geo, site collection administrators can connect a site to a new Office 365 group only if the site's location matches the user's preferred data location. 

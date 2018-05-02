@@ -1,7 +1,7 @@
 ---
 title: "Planning for your SharePoint hub sites"
-ms.author: v-sharos
-author: v-sharos
+ms.author: kaarins
+author: kaarins
 ms.date: 4/9/2018
 ms.audience: Admin
 ms.topic: article

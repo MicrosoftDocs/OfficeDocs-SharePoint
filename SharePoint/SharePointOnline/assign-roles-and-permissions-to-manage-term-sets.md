@@ -3,7 +3,7 @@ title: "Assign roles and permissions to manage term sets"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 7/25/2014
+ms.date: 5/1/2018
 ms.audience: End User
 ms.topic: article
 ms.prod: office-online-server
@@ -20,8 +20,6 @@ description: "Learn about the roles for managing metadata term sets on a SharePo
 # Assign roles and permissions to manage term sets
 
 To be able to create or change a term in the Term Store management tool, you must have one of three specific roles: Term Store Administrator, Group Manager, or Contributor. 
-  
-![Term Store Administrators text box of the SharePoint Administration Center. In this box, you can type the name of the person you want to add as an administrator.](media/6b180bd5-9a3c-436d-a950-1ad6a728b310.jpg)
   
 A Term Store Administrator can do these tasks:
   
@@ -42,8 +40,6 @@ To add a Term Store Administrator:
     
 2. In the tree view pane on the left, select the taxonomy.
     
-![Taxonomy tree in the Term Store management tool, showing the name of the taxonomy and the child folders.](media/1912bec7-31c8-4914-80ee-b3b39770f804.jpg)
-  
 1. In the **General** tab of the properties pane, in the **Term Store Administrators** box, type the names of the people who you want to add. You can also click the **Browse** button to find and add users. 
     
 2. When you finish adding the names of people who you want to be Term Store Administrators, click **Save**.

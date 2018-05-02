@@ -3,7 +3,7 @@ title: "Office Delve for Office 365 admins"
 ms.author: gretel
 author: gretel
 manager: arnek
-ms.date: 3/9/2018
+ms.date: 5/1/2018
 ms.audience: Admin
 ms.topic: overview
 ms.prod: office-online-server
@@ -26,22 +26,6 @@ Delve is powered by the Office Graph and shows users the most relevant content b
   
 As an admin, you can make sure that you allow your organization to access the Office Graph, and that you have set up other Office 365 services that Delve uses, for instance SharePoint Online and OneDrive for Business. You can also help people get started with Delve, and address questions that users might have.
   
-In this article:
-  
-> [What you need to get Delve](delve-for-office-365-admins.md#BKMK_PrereqsDelve)
-    
-> [Get new Delve features quicker](delve-for-office-365-admins.md#BKMK_DelveFirstRelease)
-    
-> [Control access to the Office Graph](delve-for-office-365-admins.md#BKMK_DelveOnOff)
-    
-> [Introducing Delve in your organization ](delve-for-office-365-admins.md#BKMK_DelveIntroduce)
-    
-> [Help users troubleshoot Delve](delve-for-office-365-admins.md#BKMK_DelveTroubleshoot)
-    
-> [About the Office Graph](delve-for-office-365-admins.md#BKMK_AboutOfficeGraph)
-    
-> [Additional resources](delve-for-office-365-admins.md#BKMK_DelveAdditionalResources)
-    
 ## What you need to get Delve
 <a name="BKMK_PrereqsDelve"> </a>
 
@@ -58,9 +42,9 @@ If you want to receive new functionality in Delve before it's made available in 
   
  **To opt in to the Targeted release program:**
   
-1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4.md) with your work or school account. 
+1. Sign in to Office 365 as a global admin or SharePoint admin.
     
-2. Go to the [ Office 365 admin center ](about-the-admin-center.md).
+2. Select the app launcher icon ![The icon that looks like a waffle and represents a button click that will reveal multiple application tiles for selection.](media/3b8a317e-13ba-4bd4-864e-1ccd47af39ee.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
 3. Go to **Settings** > **Organization profile**.
     
@@ -80,7 +64,7 @@ You control access to the Office Graph from the SharePoint admin center.
   
 If you don't allow access to the Office Graph, you disable the functionality in Office 365 that is powered by the Office Graph, such as Delve. If you disable access to Delve, you also affect the relevance of the content displayed elsewhere in Office 365, for example in SharePoint Home and the **Discover** view in OneDrive for Business. See [What is the effect of allowing or not allowing access to the Office Graph?](delve-for-office-365-admins.md#BKMK_EffectOfficegraphOnOff) for more information. 
   
-1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4.md) with your work or school account. 
+1. Sign in to Office 365 as a global admin or SharePoint admin.
     
 2. Go to the [SharePoint admin center](about-the-admin-center.md).
     
@@ -151,7 +135,7 @@ There are a few things you should check if one or more users in your organizatio
     
  **Check that you allow your organization to access the Office Graph**
   
-1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4.md) with your work or school account. 
+1. Sign in to Office 365 as a global admin or SharePoint admin.
     
 2. Go to the [SharePoint admin center](about-the-admin-center.md).
     
@@ -162,9 +146,9 @@ There are a few things you should check if one or more users in your organizatio
   
  **Check that you're using an Office 365 plan that supports Delve**
   
-1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4.md) with your work or school account. 
+1. Sign in to Office 365 as a global admin or SharePoint admin.
     
-2. Go to the [ Office 365 admin center ](about-the-admin-center.md).
+2. Select the app launcher icon ![The icon that looks like a waffle and represents a button click that will reveal multiple application tiles for selection.](media/3b8a317e-13ba-4bd4-864e-1ccd47af39ee.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
 3. Go to **Billing** > **Subscriptions**.
     
@@ -182,9 +166,9 @@ There are a few things you should check if one or more users in your organizatio
     
  **Check that you've assigned the correct user licenses**
   
-1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4.md) with your work or school account. 
+1. Sign in to Office 365 as a global admin or SharePoint admin.
     
-2. Go to the [ Office 365 admin center ](about-the-admin-center.md).
+2. Select the app launcher icon ![The icon that looks like a waffle and represents a button click that will reveal multiple application tiles for selection.](media/3b8a317e-13ba-4bd4-864e-1ccd47af39ee.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
 3. Go to **Users** > **Active Users**.
     

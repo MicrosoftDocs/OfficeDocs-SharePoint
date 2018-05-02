@@ -3,7 +3,7 @@ title: "Control access from unmanaged devices"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 4/19/2018
+ms.date: 4/30/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
@@ -120,13 +120,15 @@ To block or limit access to specific sites, you must set the organization-wide p
 
 The following parameters can be used with  `-ConditionalAccessPolicy AllowLimitedAccess` for both the organization-wide setting and the site-level setting: 
   
- ** `-AllowEditing $false`** Prevents users from editing files in the browser and copying and pasting file contents out of the browser window. 
+ ** `-AllowEditing $false`** Prevents users from editing Office files in the browser and copying and pasting Office file contents out of the browser window. 
   
  ** `-LimitedAccessFileType -OfficeOnlineFilesOnly`** Allows users to preview only Office files in the browser. This option increases security but may be a barrier to user productivity. 
   
  ** `-LimitedAccessFileType -WebPreviewableFiles`** (default) Allows users to preview Office files and other file types (such as PDF files and images) in the browser. Note that the contents of file types other than Office files are handled in the browser. This option optimizes for user productivity but offers less security for files that aren't Office files. 
   
  ** `-LimitedAccessFileType -OtherFiles`** Allows users to download files that can't be previewed, such as .zip and .exe. This option offers less security. 
+  
+The AllowDownlownloadingNonWebViewableFiles parameter has been discontinued. Please use LimitedAccessFileType instead.
   
 External users will be affected when you use conditional access policies to block or limit access from unmanaged devices. If users have shared items with specific people (who must enter a verification code sent to their email address), you can exempt them from this policy by running the following cmdlet.
   
