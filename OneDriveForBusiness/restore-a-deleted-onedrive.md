@@ -3,76 +3,70 @@ title: "Restore a deleted OneDrive"
 ms.author: v-thehay
 author: SteyerTHaynie
 manager: scotv
-ms.date: 4/24/2018
-ms.audience: ITPro
+ms.date: 5/2/2018
+ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
 localization_priority: Normal
+search.appverid: ODB160
 ms.assetid: e487f40d-5321-46a8-9504-92b600b65cb9
-description: "If a work or school account is deleted from the Office 365 admin center, or is removed through Active Directory synchronization, their OneDrive site is marked for deletion. After a 93 day retention period, their site is moved to their recycle bin."
+description: "Learn how to restore a deleted user's OneDrive when the deleted user no longer appears in the Office 365 admin center."
 ---
 
 # Restore a deleted OneDrive
 
-If a work or school account is deleted from the Office 365 admin center, or is removed through Active Directory synchronization, their OneDrive site is marked for deletion. After a 93 day retention period, their site is moved to their recycle bin.
+When you delete a user in the Office 365 admin center (or when a user is removed through Active Directory synchronization), the user's OneDrive will be retained for the number of days you specify in the OneDrive admin center. (For info, see [Set the default file retention for deleted OneDrive users](set-the-default-file-retention-for-deleted-onedrive-users.md).) The default is 30 days. During this time, shared content can still be accessed by other users. At the end of the time, the OneDrive will be in a deleted state for 93 days and can only be restored by a global or SharePoint admin.
   
-## Why can't I restore a OneDrive for Business site through Admin UI?
+## Restore a deleted OneDrive when the deleted user no longer appears in the Office 365 admin center
 
-The user's recycle bin is not visible to Administrators, and it is not possible to restore or recover deleted OneDrive sites through the Admin UI.
+If the user was deleted within 30 days, you can restore the user and all their data from the Office 365 admin center. To learn how, see [Restore a user in Office 365](https://support.office.com/article/2c261e42-5dd1-48b0-845f-2a016d29cfc1). If you deleted the user more than 30 days ago, the user will no longer appear in the Office 365 admin center, and you'll need to use PowerShell to restore the OneDrive. 
   
-> [!NOTE]
-> OneDrive sites remain in the recycle bin for 93 days before being permanently deleted. 
-  
-### Recovery process
+1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
+    
+2. Connect to SharePoint Online as a global admin or SharePoint admin in Office 365. To learn how, see [Getting started with SharePoint Online Management Shell](https://go.microsoft.com/fwlink/?linkid=869066).
+    
+3. Determine if the OneDrive is available for restore
+    
+  - If you know the URL of the OneDrive, run the following command: 
+    
+  ```
+  Get-SPODeletedSite -Identity <URL>
+  ```
 
-Admins should use PowerShell to confirm that the OneDrive site is in the recycle bin and is available to be restored.
-  
-> [!NOTE]
-> To perform the steps that follow, you will need to have the SharePoint Management Shell installed. 
-  
-1. Open PowerShell
+  - If you don't know the URL of the deleted OneDrive, run the following command:
     
-2. Connect to the service:
-    
-  - **Connect-SPOService -Url** \<https://yourdomain-admin.sharepoint.com\> 
-    
-  - Sign in with administrator credentials
-    
-3. Determine if the site is available for restore
-    
-  - If you know the URL of the deletedsite, use the following command:
-    
-    **Get-SPODeletedSite -Identity \<ODBSiteUrl\>**
-    
-  - If you do not know the URL of the deleted site, use the following command:
-    
-    **Get-SPODeletedSite -IncludeOnlyPersonalSite | FT url**
-    
-  - If the site appears in the results, it is in the recycle bin and available to be restored.
-    
-4. Once the site is located, restore the site to an active state:
-    
-    **Restore-SPODeletedSite -Identity \<ODBSiteURL\>**
-    
-5. Assign an owner to the site to access the needed data:
-    
-    **Set-SPOUser -Site** \<ODBSiteURL\> -LoginName \<UPNofDesiredAdmin\> -IsSiteCollectionAdmin $True 
-    
-### Action after data recovery
+  ```
+  Get-SPODeletedSite -IncludeOnlyPersonalSite | FT url
+  ```
 
-Once you have obtained the data from the restored site, we recommend that you delete the site to prevent an orphaned site from remaining in your tenant.
-  
-> [!NOTE]
-> This deletion is permanent, and the site will not be available to be restored again. 
-  
-Delete the site using this cmdlet:
-  
- **Remove-SPOSite -Identity \<ODBSiteURL\>**
-  
-### More information
+  - If the OneDrive appears in the results, it can be restored.
+    
+4. Restore the OneDrive to an active state:
+    
+  ```
+  Restore-SPODeletedSite -Identity <URL>
+  ```
 
-Read more about [OneDrive retention and deletion](onedrive-retention-and-deletion.md)
+5. Assign a site collection administrator to the OneDrive to access the needed data:
+    
+  ```
+  Set-SPOUser -Site <URL> -LoginName <UPNofDesiredAdmin> -IsSiteCollectionAdmin $True
+  ```
+
+## Permanently delete a OneDrive
+
+After you recover the data you need from the OneDrive, we recommend that you permanently delete the OneDrive by running the following command:
   
-See also [Restore a deleted site collection](https://support.office.com/article/91c18651-c017-47d1-9c27-3a22f325d6f1).
+```
+Remove-SPOSite -Identity <URL>
+```
+
+> [!CAUTION]
+> When you permanently delete a OneDrive, you will not be able to restore it. 
   
+## See also
+
+#### Other Resources
+
+[OneDrive retention and deletion](onedrive-retention-and-deletion.md)
 

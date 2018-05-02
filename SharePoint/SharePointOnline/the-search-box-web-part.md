@@ -115,6 +115,6 @@ See also:
     
 - [Change settings for the Refinement Web Part](the-refinement-web-part.md)
     
-- [Change settings for the Search Results Web Part](https://support.office.com/article/40ff85b3-bc5e-4230-b1dd-f088188e487e)
+- [Change settings for the Search Results Web Part](the-search-results-web-part.md)
     
 

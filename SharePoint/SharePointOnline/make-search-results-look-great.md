@@ -35,7 +35,7 @@ The Search Box Web Part shows a text box where users can enter words or phrases 
   
  **The Search Results Web Part**
   
-The Search Results Web Part shows the search results of a query that was entered in a Search Box Web Part. [Change settings for the Search Results Web Part](https://support.office.com/article/40ff85b3-bc5e-4230-b1dd-f088188e487e)
+The Search Results Web Part shows the search results of a query that was entered in a Search Box Web Part. [Learn more](the-search-results-web-part.md)
   
  **The Search Navigation Web Part**
   
@@ -43,11 +43,11 @@ The Search Navigation Web Part lets users move quickly between search verticals,
   
  **The Refinement Web Part**
   
-The Refinement Web Part filters search results into categories called refiners. The refiners help users drill into the search results to find what they're looking for. [About configuring the Refinement Web Part](https://support.office.com/article/7cef67e8-b992-4659-b21a-ba534eea102e).
+The Refinement Web Part filters search results into categories called refiners. The refiners help users drill into the search results to find what they're looking for. [Learn more](about-configuring-the-refinement-web-part.md).
   
  **The Content Search Web Part**
   
-When visitors browse to a page that contains a Content Search Web Part, the Web Part automatically issues a query. The search results are displayed within the Web Part. [Configure a Content Search Web Part in SharePoint](https://support.office.com/article/0dc16de1-dbe4-462b-babb-bf8338c36c9a).
+When visitors browse to a page that contains a Content Search Web Part, the Web Part automatically issues a query. The search results are displayed within the Web Part. [Learn more](the-content-search-web-part.md).
   
  **Use result types and display types to change how search results look**
   

@@ -44,7 +44,7 @@ For information about how to customize the Search Center Web Parts, see the foll
   
 - [Change settings for the Search Box Web Part](the-search-box-web-part.md)
     
-- [Change settings for the Search Results Web Part](https://support.office.com/article/40ff85b3-bc5e-4230-b1dd-f088188e487e)
+- [Change settings for the Search Results Web Part](the-search-results-web-part.md)
     
 - [Change settings for the Search Navigation Web Part](the-search-navigation-web-part.md)
     

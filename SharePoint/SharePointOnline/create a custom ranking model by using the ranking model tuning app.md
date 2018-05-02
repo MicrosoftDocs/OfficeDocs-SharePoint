@@ -277,7 +277,7 @@ When you publish your ranking model, you'll get a GUID that identifies the ranki
   
 - [Manage query rules](manage-query-rules.md)
     
-- [Change settings for the Search Results Web Part](https://support.office.com/article/40ff85b3-bc5e-4230-b1dd-f088188e487e)
+- [Change settings for the Search Results Web Part](the-search-results-web-part.md)
     
 - [Manage the search schema in SharePoint Online](manage-the-search-schema.md)
     

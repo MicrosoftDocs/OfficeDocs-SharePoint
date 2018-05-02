@@ -73,7 +73,7 @@ You can create your own result sources, or use the predefined result sources. Af
     
 1. Leave the default query transform ( **searchTerms**) as is. The query will be unchanged since the previous transform.
     
-2. Type a different query transform in the box. See [Understanding query transforms](https://support.office.com/article/b31631a5-0c1f-436e-8061-fd807bb96ae1).
+2. Type a different query transform in the box. See [Learn more about query transforms](understanding-query-transforms.md).
     
 3. Click **Launch Query Builder** to build your own query: 
     
@@ -138,8 +138,8 @@ The default result source is **Local SharePoint Results**, but you can choose to
   
 See also: 
   
-- [Understanding result sources](https://support.office.com/article/3fb2c8c4-ecbd-4210-abf7-1f0df59a370b)
+- [Understanding result sources](understanding-result-sources.md)
     
-- [Understanding query transforms](https://support.office.com/article/b31631a5-0c1f-436e-8061-fd807bb96ae1)
+- [Understanding query transforms](understanding-query-transforms.md)
     
 

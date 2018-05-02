@@ -3,7 +3,7 @@ title: "Office Delve for Office 365 admins"
 ms.author: gretel
 author: gretel
 manager: arnek
-ms.date: 5/1/2018
+ms.date: 5/2/2018
 ms.audience: Admin
 ms.topic: overview
 ms.prod: office-online-server
@@ -66,7 +66,7 @@ If you don't allow access to the Office Graph, you disable the functionality in 
   
 1. Sign in to Office 365 as a global admin or SharePoint admin.
     
-2. Go to the [SharePoint admin center](about-the-admin-center.md).
+2. Select the app launcher icon ![The icon that looks like a waffle and represents a button click that will reveal multiple application tiles for selection.](media/3b8a317e-13ba-4bd4-864e-1ccd47af39ee.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
 3. Choose **Settings**.
     
@@ -137,7 +137,7 @@ There are a few things you should check if one or more users in your organizatio
   
 1. Sign in to Office 365 as a global admin or SharePoint admin.
     
-2. Go to the [SharePoint admin center](about-the-admin-center.md).
+2. Select the app launcher icon ![The icon that looks like a waffle and represents a button click that will reveal multiple application tiles for selection.](media/3b8a317e-13ba-4bd4-864e-1ccd47af39ee.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
 3. Go to **Settings** > **Office Graph** and make sure that you've selected **Allow access to the Office Graph**. 
     

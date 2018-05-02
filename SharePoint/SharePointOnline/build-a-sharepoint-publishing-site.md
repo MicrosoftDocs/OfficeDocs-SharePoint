@@ -3,7 +3,7 @@ title: "Build a SharePoint publishing site"
 ms.author: loreenl
 author: LoreenLa
 manager: pamgreen
-ms.date: 4/3/2018
+ms.date: 5/2/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -33,9 +33,9 @@ The publishing portal is the top level of the site collection. You must enable p
   
 To set up a publishing portal
   
-1. [Sign in to Office 365](e9eb7d51-5430-4929-91ab-6157c5a050b4.md) with your work or school account. 
+1. Sign in to Office 365 as a global admin or SharePoint admin.
     
-2. Go to the [ Office 365 admin center ](about-the-admin-center.md).
+2. Select the app launcher icon ![The icon that looks like a waffle and represents a button click that will reveal multiple application tiles for selection.](media/3b8a317e-13ba-4bd4-864e-1ccd47af39ee.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
 3. Choose **Resources** > **Sites**. Then choose **Add a site**.
     

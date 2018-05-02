@@ -3,7 +3,7 @@ title: "Manage app licenses for a SharePoint Online environment"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 4/5/2018
+ms.date: 5/2/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -26,7 +26,7 @@ From the admin center, you can also add users to an app, or delegate management 
   
 1. [Where to sign in to Office 365 for business](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4) with your SharePoint Online admin username and password. 
     
-2. Go to the [SharePoint admin center](about-the-admin-center.md).
+2. Select the app launcher icon ![The icon that looks like a waffle and represents a button click that will reveal multiple application tiles for selection.](media/3b8a317e-13ba-4bd4-864e-1ccd47af39ee.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
 3. Select **Apps** on the left, and then select **Manage Licenses**. 
     

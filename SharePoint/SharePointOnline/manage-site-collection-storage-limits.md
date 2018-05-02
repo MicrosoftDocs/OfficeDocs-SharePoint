@@ -3,7 +3,7 @@ title: "Manage site collection storage limits"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 4/19/2018
+ms.date: 5/2/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -15,7 +15,6 @@ search.appverid:
 - BSA160
 - GSP150
 ms.assetid: 77389c2c-8e7e-4b16-ab97-1c7103784b08
-
 description: "Learn how to use the SharePoint admin center to manage storage and resource usage quotas for your site collections."
 ---
 
@@ -139,10 +138,6 @@ You can use the following PowerShell script to monitor your site collections. Th
 
 Previously, SharePoint storage was calculated in megabytes (MB). Now it's calculated in gigabytes (GB) using only full integers. If you previously set your storage quota in MB, it will be converted to GB (1024 MB=1 GB) and rounded down to the nearest integer. So a value of 5000 MB becomes 4 GB. A minimum of 1 GB can be set per site collection. If you set your SharePoint storage quota by using PowerShell, that value will be rounded up to the nearest integer GB to prevent a value of less than one GB turning into 0 GB.
   
-||
-|:-----|
-|![The short icon for LinkedIn Learning.](media/7e5cb7c8-dc66-4c9a-a16d-a30f10a970bd.png) **New to Office 365?**         Discover free video courses for [Office 365 admins and IT pros](68cc9b95-0bdc-491e-a81f-ee70b3ec63c5.md), brought to you by LinkedIn Learning. |
-   
 ## See also
 <a name="storagecalculation"> </a>
 
