@@ -25,9 +25,9 @@ An admin can delete these lists by using [PowerShell Script](https://docs.micros
     `DeleteODBLists -siteUrl $ODBSite`
 
 The script will permanently delete the hidden lists containing these settings. 
-
-    > [!IMPORTANT]
-    > Do not run this script on OneDrive for Business accounts for active users that are still in the organization. 
+  
+> [!IMPORTANT]
+> Do not run this script on OneDrive for Business accounts for active users that are still in the organization. 
 
 ```powershell
 #DeleteODBLists
@@ -180,5 +180,4 @@ foreach ($list in $listsToDelete)
 {
     deleteList -listTitle $list["listTitle"] -listTemplateId $list["listTemplateId"]
 }
-
 ```

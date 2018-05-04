@@ -53,7 +53,6 @@ The script creates following CSV files (if the corresponding lists are found). T
 Copy the contents below and paste them into a text file. Save the file as **ExportODBLists.ps1**. The script can export all fields from the target lists using the `exportAllFields` parameter. The script can be modified to export all lists and to handle other sites as well.
 
 ```powershell
-
 #ExportODBLists
 #Exports  ODB experience settings, stored in several SharePoint Lists
 
@@ -306,6 +305,4 @@ foreach ($list in $listsToExport)
          exportList -listTitle $list["listTitle"] -listFields $list["listFields"] -exportFile $filepath
      }
 } 
-
-
 ```
