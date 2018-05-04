@@ -29,6 +29,9 @@ The script will permanently delete the hidden lists containing these settings.
 > [!IMPORTANT]
 > Do not run this script on OneDrive for Business accounts for active users that are still in the organization. 
 
+## DeleteODBLists script
+Copy the contents below and paste them into a text file. Save the file as DeleteODBLists.ps1.
+
 ```powershell
 #DeleteODBLists
 #Deletes ODB experience settings, stored in several SharePoint Lists
