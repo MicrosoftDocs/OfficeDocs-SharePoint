@@ -120,7 +120,7 @@ This option will the SPO Identity Mapping tool to your tenant's Enterprise Appli
   
  **Option 2:** Run the assessment tool as a user with Azure Tenant Admin rights. 
   
-It is possibly for a user with Azure tenant admin rights to run the tool and only provide consent for themselves.
+It is possible for a user with Azure tenant admin rights to run the tool and only provide consent for themselves.
   
 1. Download the assessment tool from here: [SharePoint Migration Assessment Tool](https://www.microsoft.com/en-us/download/details.aspx?id=53598)
     
