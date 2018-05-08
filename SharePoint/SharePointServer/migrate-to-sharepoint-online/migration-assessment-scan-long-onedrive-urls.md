@@ -36,7 +36,7 @@ The directory name of the file would be:
 - Personal/contoso_bobsmith/Documents/Folder1/Folder2
     
 > [!NOTE]
-> There is a 256-character limit on the directory path to a file in SharePoint. 
+> There is a 400-character limit on the directory path to a file in SharePoint. 
   
 After the migration, the file path will look like the following.
   
@@ -44,7 +44,7 @@ After the migration, the file path will look like the following.
     
 Notice the URL is now 4 characters longer than it was before. Depending on how the UPNs are formed at your company, the change in length may be larger.
   
-If the previous file in the source environment was 255 characters, the length after migration would be 259 characters, which is over the limit that the database supports. **This would result in content that fails to migrate.**
+If the previous file in the source environment was 255 characters, the length after migration would be 259 characters. 
   
 We have identified 4 different locations in which failures are likely to occur due to long URLs. As a result, we have 4 different reports concerning long URLs. The Scan Result Reports section covers each report along with the remediation that needs to occur.
   
@@ -67,7 +67,7 @@ Validate that your content has been migrated.
 
 This scan results in 4 output files. Each file is for a specific long URL issue that will result in migration failures. **LongODBUrl-AllDocs-detail.csv** There are two limitations related to the length of the path to a given file: 
   
-- The server relative path to the folder containing the file has a maximum of 256 characters. Using the following example file:
+- The server relative path to the folder containing the file has a maximum of 400 characters. Using the following example file:
     
     https://OneDrive.contoto.com/Personal/contoso_bobsmith/Documents/Folder1/Folder2/ProjectA.docx
     
@@ -75,7 +75,7 @@ This scan results in 4 output files. Each file is for a specific long URL issue 
     
     After the migration, the file path will look like the following. Notice the URL is now longer than it was before: Personal/bobsmith_contoso_com/Documents/Folder1/Folder2
     
-- The server relative path to a file or folder has a total maximum of 260 characters. Using the following example file:
+- The server relative path to a file or folder has a total maximum of 400 characters. Using the following example file:
     
     https://OneDrive.contoto.com/Personal/contoso_bobsmith/Documents/Folder1/Folder2/ProjectA.docx
     
