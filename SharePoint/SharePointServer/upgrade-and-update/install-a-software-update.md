@@ -104,7 +104,7 @@ The following illustration shows the steps that are required to install the upda
     
 3. Run the update executable file to install the update on the application server that hosts Central Administration (APP-1).
     
-4. Run the update executable file to install the update on all other application servers that host Search components (APP-2). To do this, perform the procedure [Install a software update for SharePoint Server 2016](https://technet.microsoft.com/library/761ffca8-ae92-405e-b8c1-9aada2fcbd86#UpdateSearchDuringDowntime) which appears later in this article, and then return to the next step in this procedure. Do not run the SharePoint Products Configuration Wizard on these servers at this time. 
+4. Run the update executable file to install the update on all other application servers that host Search components (APP-2). To do this, perform the procedure [Host Search components](#HostSearch) which appears later in this article, and then return to the next step in this procedure. Do not run the SharePoint Products Configuration Wizard on these servers at this time. 
     
 5. Review the upgrade log files to verify that all the application servers were updated successfully.
     
@@ -331,7 +331,7 @@ Use the preceding illustration as a guide to follow the recommended steps in the
     You are finished installing the update and using this article.
     
 ## Install a software update on servers that host Search components
-<a name="updatesearchcomp"> </a>
+<a name="HostSearch"> </a>
 
 Perform the procedures in this section only when they are pointed to from other procedures in this article. This includes the following procedures which are in this section:
   
