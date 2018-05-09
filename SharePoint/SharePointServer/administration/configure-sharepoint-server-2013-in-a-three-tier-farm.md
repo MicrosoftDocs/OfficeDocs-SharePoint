@@ -14,7 +14,7 @@ description: "Summary: Learn how to install and configure SharePoint Server 2013
 
 # Test Lab Guide: Configure SharePoint Server 2013 in a three-tier farm
 
- **Summary: ** Learn how to install and configure SharePoint Server 2013 on multiple servers with Microsoft SQL Server 2012 by using the computers in the Base Configuration test lab. 
+ **Summary:** Learn how to install and configure SharePoint Server 2013 on multiple servers with Microsoft SQL Server 2012 by using the computers in the Base Configuration test lab. 
   
 This document is the [Test Lab Guide](https://go.microsoft.com/fwlink/p/?LinkId=202817) version of the procedures that are described in [Install SharePoint Server 2016 across multiple servers](../install/install-sharepoint-server-2016-across-multiple-servers.md).
   

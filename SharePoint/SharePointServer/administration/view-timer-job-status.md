@@ -86,4 +86,6 @@ For more information, see [Get-SPTimerJob](http://technet.microsoft.com/library/
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
   
+> [!NOTE]
+> Please be aware that Get-SPTimerJob commandlet will show you logs in GMT time zone whereas SharePoint Central Administration will show all events in local time.
 
