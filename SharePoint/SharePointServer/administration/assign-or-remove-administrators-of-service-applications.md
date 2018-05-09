@@ -19,7 +19,7 @@ description: "Summary: Learn how to assign or remove service administrators to a
 
  **Summary:** Learn how to assign or remove service administrators to a service application in SharePoint Server 2016 and SharePoint 2013. 
   
-An administrator of a SharePoint Server service application can assign additional administrators to that service application. These users are granted security-trimmed access to the SharePoint Central Administration Web site and can manage settings related to the service application. An administrator of a SharePoint Server service application can also remove administrators from a service application.
+An administrator of a SharePoint Server service application must be a member of the farm Administrators group to assign or remove additional administrators to that service application. Service application administrators are granted security-trimmed access to the SharePoint Central Administration Web site and can manage settings related to the service application but must be a member of the farm Administrators group to add and remove other service application administrators.
   
 > [!NOTE]
 > By default, members of the Farm Administrators group have permissions to manage all service applications. 
