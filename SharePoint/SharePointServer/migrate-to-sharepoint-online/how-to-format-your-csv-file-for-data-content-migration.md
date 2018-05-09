@@ -3,7 +3,7 @@ title: "How to format your CSV or JSon file for data content migration"
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
-ms.date: 4/10/2017
+ms.date: 5/9/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
