@@ -22,7 +22,9 @@
       {
         "files": [
           "**/*.png",
-          "**/*.jpg"
+          "**/*.jpg",
+          "**/*.gif",
+          "**/*.svg"
         ],
         "exclude": [
           "**/obj/**",
@@ -35,8 +37,12 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "/sharepointmigration/breadcrumb/toc.json",
-      "extendBreadcrumb": true
+      "breadcrumb_path": "/sharepoint/breadcrumb/toc.json",
+      "extendBreadcrumb": "true",
+      "searchScope": ["SharePoint Migration"],
+      "feedback_system": "GitHub",
+      "feedback_github_repo": "MicrosoftDocs/OfficeDocs-SharePoint",
+      "feedback_product_url": "https://sharepoint.uservoice.com/" 
     },
     "fileMetadata": {},
     "template": [],

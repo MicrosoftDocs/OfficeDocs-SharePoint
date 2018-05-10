@@ -3,7 +3,7 @@ title: "SharePoint Migration Tool supported SharePoint List templates"
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
-ms.date: 4/11/2018
+ms.date: 5/9/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -19,8 +19,6 @@ description: "SharePoint Migration Tool table of supported list templates for mi
 
 The following table details SharePoint List templates and which ones are supported by the SharePoint Migration Tool (SPMT). 
 
->[!**Note**]
->This article discusses a beta release of the Microsoft product, SharePoint Migration Tool. The information in this article is provided as-is and is subject to change without notice. 
 
 
 |**List template ID**|**Name**|**Description**|**Supported by SPMT**|

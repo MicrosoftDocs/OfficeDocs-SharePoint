@@ -3,7 +3,7 @@ title: "Introducing the SharePoint Migration Tool"
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
-ms.date: 4/10/2018
+ms.date: 5/9/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -18,19 +18,19 @@ description: ""
 
 # Introducing the SharePoint Migration Tool
 
->[!NOTE]
-> The new V2 beta release is now available for download. 
->To install the new V2 beta release, download it here: [SharePoint Migration Tool V2 Beta release](http://spmtreleasescus.blob.core.windows.net/betainstall/default.htm). 
 
 
 >[!NOTE]
->To install the current release download here: [SharePoint Migration Tool Version 1](http://spmtreleasescus.blob.core.windows.net/install/default.htm).
+>The Version 2 is now publicly available for download here: [SharePoint Migration Tool Version 2](http://spmtreleasescus.blob.core.windows.net/install/default.htm).  For more information on this release:  [SharePoint Migration Tool new features](https://blogs.technet.microsoft.com/wbaer/2018/04/11/sharepoint-migration-tool-beta-adds-early-preview-capabilities)
+
+>[!NOTE]
+>The new V2 beta release is available for download here: [SharePoint Migration Tool Beta 2](http://spmtreleasescus.blob.core.windows.net/betainstall/default.htm).
   
 ## 
 
 
   
-The SharePoint Migration Tool lets you migrate your files from SharePoint on-premises document libraries or your on-premises file shares and easily move them to either SharePoint or OneDrive in Office 365. It is available to Office 365 users.
+The SharePoint Migration Tool lets you migrate lists or files from your SharePoint on-premises document libraries or from your on-premises file shares and easily move them to either SharePoint or OneDrive in Office 365. It is available to Office 365 users.
   
 > [!NOTE]
 >  Currently the **SharePoint Migration Tool** is not available for users of Office 365 operated by 21Vianet in China. 
@@ -46,7 +46,7 @@ You can download and install the SharePoint Migration Tool using Internet Explor
 > [!IMPORTANT]
 > If you are using the Chrome browser, you need to install the **ClickOnce for Google Chrome** plug-in  *before*  installing the SharePoint Migration Tool. > To download and install the plug-in: Using Chrome, go to this site and then click **Add to Chrome**: [ClickOnce for Google Chrome plug-in](https://chrome.google.com/webstore/detail/clickonce-for-google-chro/kekahkplibinaibelipdcikofmedafmb?utm_source=chrome-app-launcher-info-dialog)
   
-1. To download the tool, go to either [SharePoint Migration Tool Version 1](http://spmtreleasescus.blob.core.windows.net/install/default.htm) for the current release or [SharePoint Migration Tool V2 Beta release](http://spmtreleasescus.blob.core.windows.net/betainstall/default.htm) for the newly released V2 beta version.
+1. To download the tool, go to [SharePoint Migration Tool Version 2](http://spmtreleasescus.blob.core.windows.net/install/default.htm).
     
 2. Click **Install**.
     
