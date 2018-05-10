@@ -15,10 +15,19 @@ description: "Learn about deleting OneDrive for Business experience settings."
 
 The recommended way to delete all OneDrive for Business experience settings and information is to remove the user's OneDrive for Business site, after reassigning any retained files to other users.
 
-An admin can delete these lists by using [PowerShell Script](https://docs.microsoft.com/en-us/powershell/scripting/powershell-scripting?view=powershell-6) and [SharePoint Client-Side Object Model (CSOM)](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/complete-basic-operations-using-sharepoint-client-library-code) commands. A script to export these lists is included in this article. You can adapt this script to meet the your needs. For example, you can extract the information for user1@contoso.com as follows:
+An admin can delete these lists by using [PowerShell Script](https://docs.microsoft.com/en-us/powershell/scripting/powershell-scripting?view=powershell-6) and [SharePoint Client-Side Object Model (CSOM)](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/complete-basic-operations-using-sharepoint-client-library-code) commands. All of the needed CSOM assemblies are included in the SharePointPnPPowerShellOnline Microsoft PowerShell module.
+
+You can adapt the script included in this article to meet the your needs. For example, you can extract the information for user1@contoso.com as follows:
 
 1.	Assign yourself permissions to the user's OneDrive for Business account. This can be done in the Office 365 admin center as described here.
-2.	Run the DeleteODBLists PowerShell script (from Appendix B); for example:
+
+2.  Install the required Microsoft PowerShell modules:
+
+    `Install-Module SharePointPnPPowerShellOnline`
+
+    `Install-Module CredentialManager`
+
+3.	Run the DeleteODBLists PowerShell script (from Appendix B); for example:
 
     `$ODBSite = "https://contoso-my.sharepoint.com/personal/user1_contoso_com"`
 
@@ -32,12 +41,15 @@ The script will permanently delete the hidden lists containing these settings.
 ## DeleteODBLists script
 Copy the contents below and paste them into a text file. Save the file as DeleteODBLists.ps1.
 
+> [!NOTE]
+> If you see an error about an assembly not being loaded, double-check the path to the latest version of the SharePointPnPPowerShellOnline PowerShell Module as defined in the Add-Type Path parameters.
+
 ```powershell
 #DeleteODBLists
 #Deletes ODB experience settings, stored in several SharePoint Lists
 param([string]$siteUrl, [bool]$useStoredCreds=$true)
-Add-Type -Path "C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\16\ISAPI\Microsoft.SharePoint.Client.dll"
-Add-Type -Path "C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\16\ISAPI\Microsoft.SharePoint.Client.Runtime.dll"
+Add-Type -Path "C:\Program Files\WindowsPowerShell\Modules\SharePointPnPPowerShellOnline\2.26.1805.0\Microsoft.SharePoint.Client.dll"
+Add-Type -Path "C:\Program Files\WindowsPowerShell\Modules\SharePointPnPPowerShellOnline\2.26.1805.0\Microsoft.SharePoint.Client.Runtime.dll"
 
 if (!$siteUrl)
 {

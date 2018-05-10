@@ -24,10 +24,19 @@ A user's OneDrive for Business experience stores information to help the user fi
 |Newsfeed|A list of user activities, including followed content, mentions, and profile changes. Users can access it using in-product experiences.|From a user's OneDrive for Business account, they can select the Settings gear icon, select Site Settings, and then select Newsfeed. <br>Newsfeed settings can be managed as part of the user profile experience, that was previously described.|
 |Access requests|A list of requested access to content.|From a user's OneDrive for Business account, they can select the Settings gear icon, select **Site Settings**, and then select **Access Requests and Invitations**|
 
-An admin can export these lists by using [PowerShell Script](https://docs.microsoft.com/en-us/powershell/scripting/powershell-scripting?view=powershell-6) and [SharePoint Client-Side Object Model (CSOM)](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/complete-basic-operations-using-sharepoint-client-library-code) commands in this article. This is a sample script and can be adapted to meet your organization’s needs. For example, an admin can extract the information for user1@contoso.com by using the following procedure.
+An admin can export these lists by using [PowerShell Script](https://docs.microsoft.com/en-us/powershell/scripting/powershell-scripting?view=powershell-6) and [SharePoint Client-Side Object Model (CSOM)](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/complete-basic-operations-using-sharepoint-client-library-code) commands in this article. All of the needed CSOM assemblies are included in the SharePointPnPPowerShellOnline Microsoft PowerShell module.
+
+This is a sample script and can be adapted to meet your organization’s needs. For example, an admin can extract the information for user1@contoso.com by using the following procedure.
 
 1.	Assign yourself admin permissions to the user's OneDrive for Business account. This can be done [in the Office 365 admin center](https://support.office.com/article/a6f7f9ad-e3f5-43de-ade5-e5a0d7531604).
-2.	Run the ExportODBLists PowerShell script below (or a customize version of the script):
+
+2.  Install the required Microsoft PowerShell modules:
+
+    `Install-Module SharePointPnPPowerShellOnline`
+
+    `Install-Module CredentialManager`
+
+3.	Run the ExportODBLists PowerShell script below (or a customize version of the script):
 
     `$ODBSite = "https://contoso-my.sharepoint.com/personal/user1_contoso_com"`
 
@@ -52,13 +61,16 @@ The script creates following CSV files (if the corresponding lists are found). T
 
 Copy the contents below and paste them into a text file. Save the file as **ExportODBLists.ps1**. The script can export all fields from the target lists using the `exportAllFields` parameter. The script can be modified to export all lists and to handle other sites as well.
 
+> [!NOTE]
+> If you see an error about an assembly not being loaded, double-check the path to the latest version of the SharePointPnPPowerShellOnline PowerShell Module as defined in the Add-Type Path parameters.
+
 ```powershell
 #ExportODBLists
 #Exports  ODB experience settings, stored in several SharePoint Lists
 
 param([string]$siteUrl, [bool]$exportAllFields=$false, [bool]$useStoredCreds=$true, [string]$exportFolder)
-Add-Type -Path "C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\16\ISAPI\Microsoft.SharePoint.Client.dll"
-Add-Type -Path "C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\16\ISAPI\Microsoft.SharePoint.Client.Runtime.dll"
+Add-Type -Path "C:\Program Files\WindowsPowerShell\Modules\SharePointPnPPowerShellOnline\2.26.1805.0\Microsoft.SharePoint.Client.dll"
+Add-Type -Path "C:\Program Files\WindowsPowerShell\Modules\SharePointPnPPowerShellOnline\2.26.1805.0\Microsoft.SharePoint.Client.Runtime.dll"
 
 if (!$siteUrl)
 {
