@@ -194,11 +194,11 @@ After you click **Migrate**, the progress of your migration jobs will be display
   
 1. Click the down arrow directly below the migration job.
     
-2. Click **View Task Report**. A folder opens containing three different reports:
+2. Click **View Task Report**. A folder opens containing different reports:
     
-  - FilesReport.csv
+  - ItemReport.csv
     
-  - FilesSummary.csv
+  - ItemSummary.csv
     
   - ScanSummary.csv
     
