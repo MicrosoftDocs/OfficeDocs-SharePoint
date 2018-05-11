@@ -120,7 +120,7 @@ description: SharePoint documentation
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Migrate from File shares or SharePoint Server to SharePoint Online and OneDrive for Busineses.</h3>
+                                                    <h3>Migrate to SharePoint Online.</h3>
                                                     <p>Move your data to the cloud. Migrate data from either your on-premises file shares or SharePoint Server to SharePoint Online.</p>
                                                 </div>
                                             </div>
