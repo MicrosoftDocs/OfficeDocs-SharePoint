@@ -41,7 +41,7 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server 2016 and 201
         </a>
     </li>
     <li>
-        <a href="/Sharepoint/migrate-to-sharepoint-online">
+        <a href="https://docs.microsoft.com/sharepointmigration/migrate-to-sharepoint-online">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
