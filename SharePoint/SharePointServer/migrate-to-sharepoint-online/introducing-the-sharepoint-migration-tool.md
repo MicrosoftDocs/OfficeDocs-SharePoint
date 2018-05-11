@@ -23,8 +23,6 @@ description: ""
 >[!NOTE]
 >The Version 2 is now publicly available for download here: [SharePoint Migration Tool Version 2](http://spmtreleasescus.blob.core.windows.net/install/default.htm).  For more information on this release:  [SharePoint Migration Tool new features](https://blogs.technet.microsoft.com/wbaer/2018/04/11/sharepoint-migration-tool-beta-adds-early-preview-capabilities)
 
->[!NOTE]
->The new V2 beta release is available for download here: [SharePoint Migration Tool Beta 2](http://spmtreleasescus.blob.core.windows.net/betainstall/default.htm).
   
 ## 
 
