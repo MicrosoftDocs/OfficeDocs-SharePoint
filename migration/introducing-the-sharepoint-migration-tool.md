@@ -35,7 +35,7 @@ The SharePoint Migration Tool lets you migrate lists or files from your SharePoi
   
 Designed to be used for migrations ranging from the smallest set of files to a large scale enterprise migration, the SharePoint Migration Tool will let you bring your information to the cloud and take advantage of the latest collaboration, intelligence, and security solutions with Office 365.
   
-![SharePoint Migration Tool](../media/a2a20032-f3ea-4248-8dd3-d3f079488503.png)
+![SharePoint Migration Tool](media/a2a20032-f3ea-4248-8dd3-d3f079488503.png)
   
 ## Download and Install the SharePoint Migration Tool
 

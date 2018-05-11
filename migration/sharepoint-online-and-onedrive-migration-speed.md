@@ -75,7 +75,7 @@ There will still be a limit to how many jobs can be run against the same site co
   
 ## Applying best practices to the four steps of migration
 
-![Four steps for a migration](../media/44e0b6fb-c272-4587-857b-43840395e099.png)
+![Four steps for a migration](media/44e0b6fb-c272-4587-857b-43840395e099.png)
   
 > [!NOTE]
 > Steps 2, 3 and 4 are normally performed by using either the [SharePoint Online SPO Migration PowerShell](http://go.microsoft.com/fwlink/?LinkID=619850&amp;clcid=0x409) commands or a 3rd party migration tool. It is important to perform Step 1 to know what tool will fit best your need. 

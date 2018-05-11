@@ -23,7 +23,7 @@ Use the Identity Mapping feature of the SharePoint Migration Assessment Tool to 
 
 Identity Migration is the process of mapping identities from the current-state Dedicated SharePoint environment to the target-state Azure AD.
   
-![Identity Mappping](../media/acd1e636-0644-4848-bc2c-480b9cb29100.png)
+![Identity Mappping](media/acd1e636-0644-4848-bc2c-480b9cb29100.png)
   
 Since the synchronization of users and groups from AD to Azure AD is new to many customers, it is imperative that you assign appropriate resources, perform internal planning, and execute all Identity Migration-related tasks in unison with your overall Dedicated vNext migration plan. 
   
@@ -85,7 +85,7 @@ When prompted, enter Azure AD credentials. If needed the logon prompt will ask f
   
 If your logon fails or you are unable to provide consent, you will see the following failure: 
   
-![MigrationScanAssessmentTool-error-consent](../media/df8a03a9-229d-4463-83a3-a23e04c97221.png)
+![MigrationScanAssessmentTool-error-consent](media/df8a03a9-229d-4463-83a3-a23e04c97221.png)
   
 If you say no at the prompt, the tool will exit without performing any identity mapping scans. 
   
@@ -116,7 +116,7 @@ This option will the SPO Identity Mapping tool to your tenant's Enterprise Appli
     
 5. The SMAT.exe application will indicate the application was successfully registered. A SharePoint admin is now able to run the identity mapping process. 
     
-     ![Identity Mapping at the command prompt](../media/c4f6fd7c-ff7c-4207-bb4f-549a350c2341.png)
+     ![Identity Mapping at the command prompt](media/c4f6fd7c-ff7c-4207-bb4f-549a350c2341.png)
   
  **Option 2:** Run the assessment tool as a user with Azure Tenant Admin rights. 
   

@@ -254,7 +254,7 @@ When this setting is on, an incremental check of the SharePoint Online target en
     
 5. After a task completes, click **Yes** when you see the following prompt: 
     
-    ![Incremental migration save prompt](../media/b365559d-fb07-467f-b59d-a0fd9ef360ed.png)
+    ![Incremental migration save prompt](media/b365559d-fb07-467f-b59d-a0fd9ef360ed.png)
   
 ## Advanced Settings
 <a name="BKMK_Settings"> </a>
