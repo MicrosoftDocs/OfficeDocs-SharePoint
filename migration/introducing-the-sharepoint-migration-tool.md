@@ -21,9 +21,12 @@ description: ""
 
 
 >[!NOTE]
->The Version 2 is now publicly available for download here: [SharePoint Migration Tool Version 2](http://spmtreleasescus.blob.core.windows.net/install/default.htm).  For more information on this release:  [SharePoint Migration Tool new features.](https://blogs.technet.microsoft.com/wbaer/2018/04/11/sharepoint-migration-tool-beta-adds-early-preview-capabilities)
+>The Version 2 is now publicly available for download here: [SharePoint Migration Tool Version 2](http://spmtreleasescus.blob.core.windows.net/install/default.htm).  For more information on this release:  [SharePoint Migration Tool new features](https://blogs.technet.microsoft.com/wbaer/2018/04/11/sharepoint-migration-tool-beta-adds-early-preview-capabilities)
 
   
+## 
+
+
   
 The SharePoint Migration Tool lets you migrate lists or files from your SharePoint on-premises document libraries or from your on-premises file shares and easily move them to either SharePoint or OneDrive in Office 365. It is available to Office 365 users.
   
@@ -32,7 +35,7 @@ The SharePoint Migration Tool lets you migrate lists or files from your SharePoi
   
 Designed to be used for migrations ranging from the smallest set of files to a large scale enterprise migration, the SharePoint Migration Tool will let you bring your information to the cloud and take advantage of the latest collaboration, intelligence, and security solutions with Office 365.
   
-![SharePoint Migration Tool](../media/a2a20032-f3ea-4248-8dd3-d3f079488503.png)
+![SharePoint Migration Tool](media/a2a20032-f3ea-4248-8dd3-d3f079488503.png)
   
 ## Download and Install the SharePoint Migration Tool
 
