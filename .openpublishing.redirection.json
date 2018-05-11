@@ -16,8 +16,13 @@
       "redirect_document_id": true
    }, 
    {
-      "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/how-to-use-the-sharepoint-migration-tool.md",
-      "redirect_url": "https://docs.microsoft.com/sharepointmigration/how-to-use-the-sharepoint-migration-tool",
+    "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/how-to-use-the-sharepoint-migration-tool.md",
+    "redirect_url": "https://docs.microsoft.com/sharepointmigration/how-to-use-the-sharepoint-migration-tool",
+    "redirect_document_id": true
+   }, 
+   {
+      "source_path": "sharepoint/migrate-to-sharepoint-online.md",
+      "redirect_url": "https://docs.microsoft.com/sharepointmigration/migrate-to-sharepoint-online",
       "redirect_document_id": true
    }, 
    {
