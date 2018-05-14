@@ -62,7 +62,7 @@ The script creates following CSV files (if the corresponding lists are found). T
 Copy the contents below and paste them into a text file. Save the file as **ExportODBLists.ps1**. The script can export all fields from the target lists using the `exportAllFields` parameter. The script can be modified to export all lists and to handle other sites as well.
 
 > [!NOTE]
-> If you see an error about an assembly not being loaded, double-check the path to the latest version of the SharePointPnPPowerShellOnline PowerShell Module as defined in the Add-Type Path parameters.
+> If you see an error about an assembly not being loaded, double-check the path to the latest version of the SharePointPnPPowerShellOnline PowerShell Module as defined in the Add-Type Path parameters. The path may be different on your computer or you may be using a different version of the module (the module version is part of the path).
 
 ```powershell
 #ExportODBLists

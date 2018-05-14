@@ -42,7 +42,7 @@ The script will permanently delete the hidden lists containing these settings.
 Copy the contents below and paste them into a text file. Save the file as DeleteODBLists.ps1.
 
 > [!NOTE]
-> If you see an error about an assembly not being loaded, double-check the path to the latest version of the SharePointPnPPowerShellOnline PowerShell Module as defined in the Add-Type Path parameters.
+> If you see an error about an assembly not being loaded, double-check the path to the latest version of the SharePointPnPPowerShellOnline PowerShell Module as defined in the Add-Type Path parameters. The path may be different on your computer or you may be using a different version of the module (the module version is part of the path).
 
 ```powershell
 #DeleteODBLists
