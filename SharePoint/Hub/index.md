@@ -110,7 +110,7 @@ description: SharePoint documentation
                                 </a>
                             </li>                
                             <li>
-                                <a href="/sharepoint/migrate-to-sharepoint-online">
+                                <a href="/sharepointmigration/migrate-to-sharepoint-online">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -120,8 +120,8 @@ description: SharePoint documentation
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Migrate from SharePoint Server to SharePoint Online</h3>
-                                                    <p>Move your data to the cloud. Migrate data from SharePoint Server to SharePoint Online.</p>
+                                                    <h3>Migrate to SharePoint Online</h3>
+                                                    <p>Move your data to the cloud. Migrate data from either your on-premises file shares or SharePoint Server to SharePoint Online.</p>
                                                 </div>
                                             </div>
                                         </div>

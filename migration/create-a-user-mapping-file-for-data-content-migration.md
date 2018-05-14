@@ -33,7 +33,7 @@ When migrating your data from either a local file share or an on-premises ShareP
   
 Here's an example of the format for the CSV file.
   
-![User mapping file for data content migration](../media/7ff2f07d-7e67-4834-974b-34651cc5e79f.jpg)
+![User mapping file for data content migration](media/7ff2f07d-7e67-4834-974b-34651cc5e79f.jpg)
   
 > [!IMPORTANT]
 > Do not include a header row in your CSV file. 
@@ -60,7 +60,7 @@ After you create your own user mapping file, upload it to the SharePoint Online 
   
 1. Start the SharePoint Migration tool. Click **Next**. Enter your Office 365 username and password and then click **Sign in.**
     
-2. Click the settings gear ![Settings for SPO Migration tool](../media/bcec6d42-d9c4-4164-a8a3-456ca0eb6847.jpg) . 
+2. Click the settings gear ![Settings for SPO Migration tool](media/bcec6d42-d9c4-4164-a8a3-456ca0eb6847.jpg) . 
     
 3. In the User mapping box, click **Choose file** and select your user mapping file. 
     

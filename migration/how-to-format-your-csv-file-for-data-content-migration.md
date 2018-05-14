@@ -29,7 +29,7 @@ There are six columns needed in your CSV file -- the first three are your source
   
 Here's an example of the format for the CSV file. The first row show files that are being migrated from a local file share. The second row shows files that are being migrated from an on-premises SharePoint Server site.
   
-![SPO Migration Tool sample format when using a CSV file](../media/73fadfad-77ad-4d3a-b738-bc7063bc2659.jpg)
+![SPO Migration Tool sample format when using a CSV file](media/73fadfad-77ad-4d3a-b738-bc7063bc2659.jpg)
   
 This example shows how it would appear in a .txt file.
   

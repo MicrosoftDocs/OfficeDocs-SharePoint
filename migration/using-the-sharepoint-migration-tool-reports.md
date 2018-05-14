@@ -26,7 +26,7 @@ These reports can be viewed while the migration is taking place or after the job
   
 1. After the migration has begun, click **View task report**.
     
-     ![View the task report for SharePoint Migration Tool job run.](../media/d7126223-885a-48bf-af93-583821c5aaec.jpg)
+     ![View the task report for SharePoint Migration Tool job run.](media/d7126223-885a-48bf-af93-583821c5aaec.jpg)
   
 2. A file folder will open listing the task level reports that have been generated for that specific task.
     
@@ -34,7 +34,7 @@ These reports can be viewed while the migration is taking place or after the job
   
 1. After migration completes, click **Open Report**.
     
-    ![View the task report for SharePoint Migration Tool job run.](../media/d7126223-885a-48bf-af93-583821c5aaec.jpg)
+    ![View the task report for SharePoint Migration Tool job run.](media/d7126223-885a-48bf-af93-583821c5aaec.jpg)
   
 2. A folder with the summary reports opens.
     

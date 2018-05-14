@@ -59,7 +59,7 @@ When you first launch the SharePoint Migration Tool (SPMT), you will be prompted
 
 The location of your on-premises data, and whether you have synchronized your Active Directory accounts to Azure Active Directory (AAD), can affect the permission settings on your files after they have been migrated to SharePoint Online.
 
-See [Understanding Permissions and the SharePoint Migration Tool](..//migrate-to-sharepoint-online/understanding-permissions-when-migrating.md) for a complete explanation of permission settings.
+See [Understanding Permissions and the SharePoint Migration Tool](understanding-permissions-when-migrating.md) for a complete explanation of permission settings.
   
 > [!NOTE]
 > Certain settings can affect how permissions on your files will be handled. See the [Advanced Settings](how-to-use-the-sharepoint-migration-tool.md#BKMK_Settings_1_1) section below, specifically the  *Azure Active Directory lookup*  ,  *Preserve permissions*  , and  *User Mapping file*  settings. 
@@ -194,11 +194,11 @@ After you click **Migrate**, the progress of your migration jobs will be display
   
 1. Click the down arrow directly below the migration job.
     
-2. Click **View Task Report**. A folder opens containing three different reports:
+2. Click **View Task Report**. A folder opens containing different reports:
     
-  - FilesReport.csv
+  - ItemReport.csv
     
-  - FilesSummary.csv
+  - ItemSummary.csv
     
   - ScanSummary.csv
     
@@ -254,7 +254,7 @@ When this setting is on, an incremental check of the SharePoint Online target en
     
 5. After a task completes, click **Yes** when you see the following prompt: 
     
-    ![Incremental migration save prompt](../media/b365559d-fb07-467f-b59d-a0fd9ef360ed.png)
+    ![Incremental migration save prompt](media/b365559d-fb07-467f-b59d-a0fd9ef360ed.png)
   
 ## Advanced Settings
 <a name="BKMK_Settings"> </a>
