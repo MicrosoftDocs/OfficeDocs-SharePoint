@@ -17,7 +17,7 @@ description: "Summary: Learn about the MIM Synchronization service that is used 
 
 # Overview of Microsoft Identity Manager Synchronization Service in SharePoint Server 2016
 
- ** Summary: ** Learn about the MIM Synchronization service that is used in a SharePoint Server 2016 farm. 
+ **Summary:** Learn about the MIM Synchronization service that is used in a SharePoint Server 2016 farm. 
   
 > [!IMPORTANT]
 > This article is only intended to introduce basic concepts and value of the Microsoft Identity Manager (MIM) Synchronization Service. > If you are planning to fully deploy and maintain a MIM Server, it is strongly recommended that you work with a consultant or a MIM specialist. 
