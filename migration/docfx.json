@@ -37,7 +37,7 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "/sharepoint/breadcrumb/toc.json",
+      "breadcrumb_path": "/sharepointmigration/breadcrumb/toc.json",
       "extendBreadcrumb": "true",
       "searchScope": ["SharePoint Migration"],
       "feedback_system": "GitHub",
