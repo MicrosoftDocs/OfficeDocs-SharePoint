@@ -3,7 +3,7 @@ title: "Introducing the SharePoint Migration Tool"
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -31,7 +31,7 @@ description: ""
 The SharePoint Migration Tool lets you migrate lists or files from your SharePoint on-premises document libraries or from your on-premises file shares and easily move them to either SharePoint or OneDrive in Office 365. It is available to Office 365 users.
   
 > [!NOTE]
->  Currently the **SharePoint Migration Tool** is not available for users of Office 365 operated by 21Vianet in China. 
+>  Currently the **SharePoint Migration Tool** is not available for users of Office 365 operated by 21Vianet in China or for users of Office 365 Germany.
   
 Designed to be used for migrations ranging from the smallest set of files to a large scale enterprise migration, the SharePoint Migration Tool will let you bring your information to the cloud and take advantage of the latest collaboration, intelligence, and security solutions with Office 365.
   
