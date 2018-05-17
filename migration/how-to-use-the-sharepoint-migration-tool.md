@@ -3,7 +3,7 @@ title: "How to use the SharePoint Migration Tool"
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
-ms.date: 4/10/2018
+ms.date: 5/17/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -27,7 +27,7 @@ The SharePoint Migration Tool (SPMT) is a tool that migrates your files from Sha
 >To install the current release download here: [SharePoint Migration Tool Version 2](http://spmtreleasescus.blob.core.windows.net/install/default.htm).
 
 > [!NOTE]
-> Currently the **SharePoint Migration Tool** is not available for users of Office 365 operated by 21Vianet in China. 
+> Currently the **SharePoint Migration Tool** is not available for users of Office 365 operated by 21Vianet in China or for users of Office 365 Germany. 
   
 ## Before you begin
 
