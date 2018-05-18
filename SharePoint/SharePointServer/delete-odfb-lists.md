@@ -27,7 +27,7 @@ You can adapt the script included in this article to meet the your needs. For ex
 
     `Install-Module CredentialManager`
 
-3.	Run the DeleteODBLists PowerShell script (from Appendix B); for example:
+3.	Run the DeleteODBLists PowerShell script below (or a customized version of the script); for example:
 
     `$ODBSite = "https://contoso-my.sharepoint.com/personal/user1_contoso_com"`
 
