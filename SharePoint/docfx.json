@@ -66,6 +66,7 @@
     ],
     "overwrite": [],
     "externalReference": [],
+    "markdownEngineName": "markdig",    
     "globalMetadata": {
       "breadcrumb_path": "/sharepoint/breadcrumb/toc.json",
       "extendBreadcrumb": "true",
