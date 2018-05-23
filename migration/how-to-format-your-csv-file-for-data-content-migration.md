@@ -3,7 +3,7 @@ title: "How to format your CSV or JSon file for data content migration"
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
-ms.date: 4/10/2017
+ms.date: 5/9/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -18,8 +18,6 @@ description: "How to format your JSON or CSV file for data content migration"
 
 # How to format your JSON or CSV for data content migration
 
-> [!IMPORTANT]
-> A portion of this article discusses a beta release of the Microsoft product, SharePoint Migration Tool. The information in this article is provided as-is and is subject to change without notice.  To download the beta version:  [SharePoint Migration Tool Beta 2 release](http://spmtreleasescus.blob.core.windows.net/betainstall/default.htm)
   
 ## Using a comma separated value (CSV) file for data content migration
 
@@ -31,7 +29,7 @@ There are six columns needed in your CSV file -- the first three are your source
   
 Here's an example of the format for the CSV file. The first row show files that are being migrated from a local file share. The second row shows files that are being migrated from an on-premises SharePoint Server site.
   
-![SPO Migration Tool sample format when using a CSV file](../media/73fadfad-77ad-4d3a-b738-bc7063bc2659.jpg)
+![SPO Migration Tool sample format when using a CSV file](media/73fadfad-77ad-4d3a-b738-bc7063bc2659.jpg)
   
 This example shows how it would appear in a .txt file.
   

@@ -3,7 +3,7 @@ title: "How to use the SharePoint Migration Tool"
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
-ms.date: 4/10/2018
+ms.date: 5/17/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -21,19 +21,13 @@ description: "The SharePoint Migration Tool is a tool that migrates your files f
 
 The SharePoint Migration Tool (SPMT) is a tool that migrates your files from SharePoint on-premises document libraries or regular file shares and easily moves them to your SharePoint Online tenant. It is available to all Office 365 users.
   
-> [!Note]
-> A portion of this article discusses features currently in beta release of the Microsoft product, SharePoint Migration Tool. Beta features are noted in the context of the text. The information in this article is provided as-is and is subject to change without notice. 
-
->[!NOTE]
-> The new V2 beta release is now available for download. 
->To install the new V2 beta release, download it here: [SharePoint Migration Tool V2 Beta release](http://spmtreleasescus.blob.core.windows.net/betainstall/default.htm). 
 
 
 >[!NOTE]
->To install the current release download here: [SharePoint Migration Tool Version 1](http://spmtreleasescus.blob.core.windows.net/install/default.htm).
+>To install the current release download here: [SharePoint Migration Tool Version 2](http://spmtreleasescus.blob.core.windows.net/install/default.htm).
 
 > [!NOTE]
-> Currently the **SharePoint Migration Tool** is not available for users of Office 365 operated by 21Vianet in China. 
+> Currently the **SharePoint Migration Tool** is not available for users of Office 365 operated by 21Vianet in China or for users of Office 365 Germany. 
   
 ## Before you begin
 
@@ -65,7 +59,7 @@ When you first launch the SharePoint Migration Tool (SPMT), you will be prompted
 
 The location of your on-premises data, and whether you have synchronized your Active Directory accounts to Azure Active Directory (AAD), can affect the permission settings on your files after they have been migrated to SharePoint Online.
 
-See [Understanding Permissions and the SharePoint Migration Tool](..//migrate-to-sharepoint-online/understanding-permissions-when-migrating.md) for a complete explanation of permission settings.
+See [Understanding Permissions and the SharePoint Migration Tool](understanding-permissions-when-migrating.md) for a complete explanation of permission settings.
   
 > [!NOTE]
 > Certain settings can affect how permissions on your files will be handled. See the [Advanced Settings](how-to-use-the-sharepoint-migration-tool.md#BKMK_Settings_1_1) section below, specifically the  *Azure Active Directory lookup*  ,  *Preserve permissions*  , and  *User Mapping file*  settings. 
@@ -200,11 +194,11 @@ After you click **Migrate**, the progress of your migration jobs will be display
   
 1. Click the down arrow directly below the migration job.
     
-2. Click **View Task Report**. A folder opens containing three different reports:
+2. Click **View Task Report**. A folder opens containing different reports:
     
-  - FilesReport.csv
+  - ItemReport.csv
     
-  - FilesSummary.csv
+  - ItemSummary.csv
     
   - ScanSummary.csv
     
@@ -260,7 +254,7 @@ When this setting is on, an incremental check of the SharePoint Online target en
     
 5. After a task completes, click **Yes** when you see the following prompt: 
     
-    ![Incremental migration save prompt](../media/b365559d-fb07-467f-b59d-a0fd9ef360ed.png)
+    ![Incremental migration save prompt](media/b365559d-fb07-467f-b59d-a0fd9ef360ed.png)
   
 ## Advanced Settings
 <a name="BKMK_Settings"> </a>
