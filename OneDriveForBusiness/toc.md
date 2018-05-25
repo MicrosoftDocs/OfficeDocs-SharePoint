@@ -21,7 +21,7 @@
 ### [Control access based on network location or app](control-access-based-on-network-location-or-app.md)
 ### [Control access to features in the OneDrive and SharePoint mobile apps](control-access-to-features-in-the-onedrive-and-sharepoint-mobile-apps.md)
 ### [Required URLs ports](required-urls-ports.md)
-## [manage-users-and-storage](.md)
+## [Manage users and storage]()
 ### [Pre-provision accounts](pre-provision-accounts.md)
 ### [Set default storage space](set-default-storage-space.md)
 ### [Change user storage](change-user-storage.md)
