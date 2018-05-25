@@ -3,7 +3,7 @@ title: "Restore a deleted OneDrive"
 ms.author: v-thehay
 author: SteyerTHaynie
 manager: scotv
-ms.date: 5/2/2018
+ms.date: 5/15/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
@@ -15,7 +15,7 @@ description: "Learn how to restore a deleted user's OneDrive when the deleted us
 
 # Restore a deleted OneDrive
 
-When you delete a user in the Office 365 admin center (or when a user is removed through Active Directory synchronization), the user's OneDrive will be retained for the number of days you specify in the OneDrive admin center. (For info, see [Set the default file retention for deleted OneDrive users](set-the-default-file-retention-for-deleted-onedrive-users.md).) The default is 30 days. During this time, shared content can still be accessed by other users. At the end of the time, the OneDrive will be in a deleted state for 93 days and can only be restored by a global or SharePoint admin.
+When you delete a user in the Office 365 admin center (or when a user is removed through Active Directory synchronization), the user's OneDrive will be retained for the number of days you specify in the OneDrive admin center. (For info, see [Set the default file retention for deleted OneDrive users](set-retention.md).) The default is 30 days. During this time, shared content can still be accessed by other users. At the end of the time, the OneDrive will be in a deleted state for 93 days and can only be restored by a global or SharePoint admin.
   
 ## Restore a deleted OneDrive when the deleted user no longer appears in the Office 365 admin center
 
@@ -53,6 +53,8 @@ If the user was deleted within 30 days, you can restore the user and all their d
   Set-SPOUser -Site <URL> -LoginName <UPNofDesiredAdmin> -IsSiteCollectionAdmin $True
   ```
 
+For more info about these cmdlets, see [Get-SPODeletedSite](https://go.microsoft.com/fwlink/?linkid=874326) and [Restore-SPODeletedSite](https://go.microsoft.com/fwlink/?linkid=874327).
+  
 ## Permanently delete a OneDrive
 
 After you recover the data you need from the OneDrive, we recommend that you permanently delete the OneDrive by running the following command:
@@ -68,5 +70,5 @@ Remove-SPOSite -Identity <URL>
 
 #### Other Resources
 
-[OneDrive retention and deletion](onedrive-retention-and-deletion.md)
+[OneDrive retention and deletion](retentiondeletion.md)
 

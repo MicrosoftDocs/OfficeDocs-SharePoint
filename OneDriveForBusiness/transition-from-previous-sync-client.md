@@ -3,7 +3,7 @@ title: "Transition from the previous OneDrive for Business sync client"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 4/9/2018
+ms.date: 5/21/2018
 ms.audience: Admin
 ms.topic: get-started-article
 ms.prod: office-online-server
@@ -58,16 +58,16 @@ The following library types are not yet supported by the new OneDrive sync clien
 |Office 2016 MSI  <br/> |16.0.4432.1\*  <br/> |
 |Office 2013 MSI/C2R  <br/> |15.0.4859.1\*  <br/> |
    
-2. Make sure users have version 17.3.6743.1212 or higher of the new OneDrive sync client installed. For info about deploying the new OneDrive sync client, see [Deploy the new OneDrive sync client in an enterprise environment](deploy-the-sync-client-for-windows.md).
+2. Make sure users have version 17.3.6743.1212 or higher of the new OneDrive sync client installed. For info about deploying the new OneDrive sync client, see [Deploy the new OneDrive sync client in an enterprise environment](deploy-sync-clientwindows.md).
     
 > [!NOTE]
-> If Office 2010 is installed on a computer, the SharePoint Workspace component must be removed. Before starting OneDrive Setup, either [Uninstall Office 2016, Office 2013, or Office 365 from a PC](https://support.office.com/article/9dd49b83-264a-477a-8fcc-2fdf5dbf61d8#OfficeVersion=2010) or [Install or remove individual Office 2010 programs and components](https://support.office.com/article/aeb80df5-326c-4afc-8064-bd195f560753). 
+> If any users have Office 2010 installed, we strongly recommend removing the SharePoint Workspace component. If users previously set up SharePoint Workspace (even if they're no longer using it), it will cause problems syncing team sites. Before starting OneDrive Setup, either [Uninstall Office 2016, Office 2013, or Office 365 from a PC](https://support.office.com/article/9dd49b83-264a-477a-8fcc-2fdf5dbf61d8#OfficeVersion=2010) or modify the installation. To do this by running Setup, first create the following XML file. >  `<Configuration Product="ProPlus"> <Display Level="none" CompletionNotice="no" SuppressModal="yes" NoCancel="yes" AcceptEula="yes" /> <Logging Type="standard" Path="C:\Windows\temp\" Template="MicrosoftSharePointWorkspaceSetup(*).txt" /> <Setting Id="SETUP_REBOOT" Value="Never" /> <OptionState Id="GrooveFiles" State="absent" Children="force" /> </Configuration>`> Then run Setup: > Setup.exe /modify ProPlus /config RemoveSharepointDesigner.xml > For more info, see [Setup command-line options for Office 2010](https://go.microsoft.com/fwlink/?linkid=874123) and [Config.xml file in Office 2010](https://go.microsoft.com/fwlink/?linkid=874124). 
   
 ## Configure takeover
 
 1. In the SharePoint admin center, [Enable users to sync SharePoint files with the new OneDrive sync client](https://support.office.com/article/22e1f635-fb89-49e0-a176-edab26f69614). If the options aren't available, the new OneDrive sync client is already set up to sync OneDrive for Business and SharePoint Online files.
     
-2. If you're running Windows 10, you can use silent account configuration to sign in users. For info, see [Silently configure OneDrive using Windows 10 or domain credentials](use-group-policy-to-control-sync-client-settings.md#SilentConfig).
+2. If you're running Windows 10, you can use silent account configuration to sign in users. For info, see [Silently configure OneDrive using Windows 10 or domain credentials](use-group-policy.md#SilentConfig).
     
 ## Run the takeover command
 
@@ -94,19 +94,19 @@ To prevent users from using the previous OneDrive for Business sync client to sy
 Set-SPOTenantSyncClientRestriction [-GrooveBlockOption <String> "OptOut"|"HardOptIn"|"SoftOptIn"] 
 ```
 
-For more information, see [Get-SPOTenantSyncClientRestriction](https://go.microsoft.com/fwlink/p/?linkid=855909). For information about using PowerShell, see [Introduction to the SharePoint Online Management Shell](https://support.office.com/article/c16941c3-19b4-4710-8056-34c034493429).
+For more information, see [Get-SPOTenantSyncClientRestriction](https://go.microsoft.com/fwlink/p/?linkid=855909). For information about using PowerShell, see [Introduction to the SharePoint Online Management Shell](https://go.microsoft.com/fwlink/?linkid=869066).
   
 ## See also
 
 #### Other Resources
 
-[Deploy the new OneDrive sync client in an enterprise environment](deploy-the-sync-client-for-windows.md)
+[Deploy the new OneDrive sync client in an enterprise environment](deploy-sync-clientwindows.md)
   
 [Sync files with the new OneDrive sync client in Windows](https://support.office.com/article/615391c4-2bd3-4aae-a42a-858262e42a49)
   
 [Get started with the new OneDrive sync client on Mac OS X](https://support.office.com/article/d11b9f29-00bb-4172-be39-997da46f913f)
   
-[Use Group Policy to control OneDrive sync client settings](use-group-policy-to-control-sync-client-settings.md)
+[Use Group Policy to control OneDrive sync client settings](use-group-policy.md)
   
 [Restrictions and limitations when you use the new OneDrive sync client to sync OneDrive for Business libraries](https://go.microsoft.com/fwlink/?LinkId=717734)
 

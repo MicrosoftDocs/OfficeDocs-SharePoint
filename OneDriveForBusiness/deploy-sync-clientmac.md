@@ -67,6 +67,6 @@ You can also configure the OneDrive Standalone sync client to receive delayed up
    
 |**Setting**|**Description**|**Parameters**|**Example Plist Entry**|
 |:-----|:-----|:-----|:-----|
-|Tier  <br/> |Defines the update ring for the computer  <br/> |UpdateRing (String): This parameter has two different values.  <br/> Production - The default update ring for OneDrive updates.  <br/> Enterprise - This update ring receives updates after they have rolled out through the Production ring. It also lets you control the deployment of updates. For more info about the update rings and how the sync client checks for updates, see [The OneDrive sync client update process](the-sync-client-update-process.md).  <br/> |\<key\>Tier\</key\>  <br/> \<string\>(UpdateRing)\</string\>  <br/> |
+|Tier  <br/> |Defines the update ring for the computer  <br/> |UpdateRing (String): This parameter has two different values.  <br/> Production - The default update ring for OneDrive updates.  <br/> Enterprise - This update ring receives updates after they have rolled out through the Production ring. It also lets you control the deployment of updates. For more info about the update rings and how the sync client checks for updates, see [The OneDrive sync client update process](sync-client-update-process.md).  <br/> |\<key\>Tier\</key\>  <br/> \<string\>(UpdateRing)\</string\>  <br/> |
    
 

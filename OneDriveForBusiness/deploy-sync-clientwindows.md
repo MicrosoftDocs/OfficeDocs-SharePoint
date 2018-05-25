@@ -37,7 +37,7 @@ The OneDrive sync client (OneDrive.exe) is supported on:
     
 - Windows 7
     
-- macOS - for info about deploying the OneDrive sync client on macOS, see [Configure the new OneDrive sync client on macOS](deploy-and-configure-the-sync-client-for-mac.md)
+- macOS - for info about deploying the OneDrive sync client on macOS, see [Configure the new OneDrive sync client on macOS](deploy-sync-clientmac.md)
     
 The OneDrive sync client doesn't yet support on-premises instances of OneDrive for Business (when your organization doesn't subscribe to Office 365). For more information about the restrictions and limitations of the OneDrive sync client, see [Restrictions and limitations when you sync files and folders using the new OneDrive sync client](http://go.microsoft.com/fwlink/p/?LinkId=717734).
   
@@ -58,7 +58,7 @@ There are three steps in the process:
 3. Set your update ring (optional).
     
 > [!IMPORTANT]
-> If your users are currently using the OneDrive for Business sync client (Groove.exe), and you want to move them to the OneDrive sync client, see [Transition from the previous OneDrive for Business sync client](transition-from-the-previous-onedrive-for-business-sync-client.md) before proceeding. 
+> If your users are currently using the OneDrive for Business sync client (Groove.exe), and you want to move them to the OneDrive sync client, see [Transition from the previous OneDrive for Business sync client](transition-from-previous-sync-client.md) before proceeding. 
   
 ## Step 1: Install OneDrive.exe
 <a name="step2"> </a>
@@ -71,7 +71,7 @@ If the computers in your organization are running Windows 10, they already have 
   
 ### Deploy any administrative settings
 
-To set registry keys on computers in your domain, install OneDrive and copy the OneDrive.admx and OneDrive.adml files from %localappdata%\Microsoft\OneDrive\BuildNumber\adm\ to your Group Policy central store. For more info, see [Use Group Policy to control OneDrive sync client settings](use-group-policy-to-control-sync-client-settings.md).
+To set registry keys on computers in your domain, install OneDrive and copy the OneDrive.admx and OneDrive.adml files from %localappdata%\Microsoft\OneDrive\BuildNumber\adm\ to your Group Policy central store. For more info, see [Use Group Policy to control OneDrive sync client settings](use-group-policy.md).
   
 ### Use System Center Configuration Manager to deploy the OneDrive sync client
 
@@ -133,9 +133,9 @@ odopen://sync/?siteId=SiteID_HERE&amp;webId=WebID_HERE&amp;listId=ListID_HERE&am
 ## Step 3: Set your update ring (Optional)
 <a name="cad"> </a>
 
-To delay updates to the OneDrive sync client, and control their deployment to your users, you can switch from the Production update ring to the Enterprise update ring. For more information about the update rings and how the sync client checks for updates, see [The OneDrive sync client update process](the-sync-client-update-process.md).
+To delay updates to the OneDrive sync client, and control their deployment to your users, you can switch from the Production update ring to the Enterprise update ring. For more information about the update rings and how the sync client checks for updates, see [The OneDrive sync client update process](sync-client-update-process.md).
   
-To set the update ring using Group Policy, enable the **Delay updating OneDrive.exe until the second release wave** setting. For more information about this setting, see [Use Group Policy to control OneDrive sync client settings](use-group-policy-to-control-sync-client-settings.md).
+To set the update ring using Group Policy, enable the **Delay updating OneDrive.exe until the second release wave** setting. For more information about this setting, see [Use Group Policy to control OneDrive sync client settings](use-group-policy.md).
   
 ## See Also
 <a name="seealso"> </a>

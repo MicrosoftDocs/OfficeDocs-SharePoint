@@ -3,7 +3,7 @@ title: "Pre-provision OneDrive for users in your organization"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 4/20/2018
+ms.date: 5/21/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
@@ -141,7 +141,7 @@ This article describes how to pre-provision OneDrive for your users by using Pow
 To verify that OneDrive has been created for your users, see [How to display a list of OneDrive for Business site collections](create-a-list-of-all-onedrive-locations.md).
   
 > [!NOTE]
-> If you are pre-provisioning OneDrive for many users, note that it might take some time for the OneDrive locations to be created. 
+> If you are pre-provisioning OneDrive for many users, it might take some time for the OneDrive locations to be created. 
   
 ## Related Topics
 

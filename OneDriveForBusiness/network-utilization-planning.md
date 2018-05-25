@@ -3,7 +3,7 @@ title: "Network utilization planning for the OneDrive sync client"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 11/14/2017
+ms.date: 5/21/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: office-online-server
@@ -65,12 +65,9 @@ Below you can see and contrast the patterns of network utilization in cases of c
 
 After the initial sync is complete, the network usage will decrease and then level out. 
   
-Notes:
+> [!NOTE]
+>  Network usage varies depending on file types most frequently synced. When users change Office files, only the changes are uploaded or downloaded and not the whole file. For other types of files, the whole file is uploaded or downloaded. >  You should expect traffic to be higher during regular work hours when users are online and working on files. > 
   
-- Network usage varies depending on file types most frequently synced. When users change Office files, only the changes are uploaded or downloaded and not the whole file. For other types of files, the whole file is uploaded or downloaded.
-    
-- You should expect traffic to be higher during regular work hours when users are online and working on files.
-    
 ## Control sync throughput
 <a name="ControlSyncThroughput"> </a>
 
@@ -120,11 +117,11 @@ You can also use policies included with the OneDrive sync client to control netw
   
 For info about these policies, see:
   
-[Set the maximum upload throughput that OneDrive.exe uses](use-group-policy-to-control-sync-client-settings.md#SetMaxUploadTput)
+[Set the maximum upload bandwidth that OneDrive.exe uses](use-group-policy.md#SetMaxUploadTput)
   
-[Set the maximum download throughput that OneDrive.exe uses](use-group-policy-to-control-sync-client-settings.md#SetMaxDownloadTput)
+[Set the maximum download bandwidth that OneDrive.exe uses](use-group-policy.md#SetMaxDownloadTput)
   
-[Set the maximum percentage of upload bandwidth that OneDrive.exe uses](use-group-policy-to-control-sync-client-settings.md#MaxBandwidth)
+[Set the maximum percentage of upload bandwidth that OneDrive.exe uses](use-group-policy.md#MaxBandwidth)
   
 ## Related Topics
 <a name="ControlSyncThroughput"> </a>

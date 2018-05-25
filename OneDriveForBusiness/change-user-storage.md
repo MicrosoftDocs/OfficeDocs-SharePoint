@@ -20,7 +20,7 @@ description: "Learn how to change a user's OneDrive for Business storage space b
 As a global or SharePoint admin in Office 365, you can set the OneDrive storage space for a specific user by using Microsoft PowerShell.
   
 > [!NOTE]
-> For info about setting the default storage space, see [Set the default storage space for OneDrive users](set-the-default-storage-space-for-onedrive-users.md). For info about the storage available for your Office 365 plan, see the [OneDrive for Business service description](https://go.microsoft.com/fwlink/?linkid=826071). 
+> For info about setting the default storage space, see [Set the default storage space for OneDrive users](set-default-storage-space.md). For info about the storage available for your Office 365 plan, see the [OneDrive for Business service description](https://go.microsoft.com/fwlink/?linkid=826071). 
   
 ## Change the storage space for a specific user's OneDrive
 

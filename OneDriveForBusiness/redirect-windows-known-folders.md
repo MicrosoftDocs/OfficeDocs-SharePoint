@@ -3,7 +3,7 @@ title: "Redirect Windows known folders to OneDrive"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 4/9/2018
+ms.date: 5/21/2018
 ms.audience: Admin
 ms.topic: get-started-article
 ms.prod: office-online-server
@@ -52,7 +52,7 @@ There are a number of things to consider in determining if redirecting known fol
     
 - If your users' Documents folders contain items with a very high frequency of updates - such as databases, web servers, or Outlook OST files - we recommend not redirecting these folders to OneDrive. While such files should continue to function normally, the high frequency of sync activity due to constantly changing files may cause network and performance issues.
     
-If you're already redirecting known folders to a different location - for example, a network share - or if you have already deployed the new OneDrive sync client, then there are some additional planning considerations:
+If you're already redirecting known folders to a different location--for example, a network share--or if you have already deployed the new OneDrive sync client, then there are some additional planning considerations:
   
 - If known folders are currently redirected to a network share or other location, you will need to migrate the data from that location to OneDrive after you redirect the known folders to OneDrive.
     
@@ -66,7 +66,7 @@ If you're already redirecting known folders to a different location - for exampl
 
 The procedures in this article require a particular existing configuration to exist in order to work. Check these prerequisites before you get started:
   
-- Make sure you installed the [OneDrive for Business Group Policy objects](use-group-policy-to-control-sync-client-settings.md) on your domain. 
+- Make sure you installed the [OneDrive for Business Group Policy objects](use-group-policy.md) on your domain. 
     
 - Make sure any existing OneDrive users in your organization are syncing their files to the default sync location (%userprofile%\OneDrive -  _\<TenantName\>_). Users who are syncing files to a different location will not have their known folders redirected to OneDrive.
     

@@ -1,6 +1,4 @@
 ﻿
-  
-
 # [SharePoint Online](sharepoint-online.md)
 ## [Introduction](introduction.md)
 ### [Planning guide](planning-guide.md)

@@ -3,7 +3,7 @@ title: "Block syncing of specific file types"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 4/9/2018
+ms.date: 5/21/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
@@ -29,8 +29,11 @@ You can prevent users from syncing specific file types when they sync their OneD
     
 3. Click **Edit**.
     
-4. Type the file name extensions you want to block, for example: **exe** or **mp3**. IMPORTANT: Do not include the periods with the extensions, or any other punctuation, spaces, or special characters. 
+4. Type the file name extensions you want to block, for example: **exe** or **mp3**. 
     
+    > [!IMPORTANT]
+    > Do not include the periods with the extensions, or any other punctuation, spaces, or special characters. 
+  
 5. Click **Save** on the Sync page. 
     
 ## Related Topics

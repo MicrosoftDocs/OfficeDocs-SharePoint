@@ -1,5 +1,5 @@
 ---
-title: "Set the default file retention for deleted OneDrive users"
+title: "Set the OneDrive retention for deleted users"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
@@ -7,7 +7,7 @@ ms.date: 4/17/2018
 ms.audience: Admin
 ms.topic: article
 f1_keywords:
-- O365E_ODACStorage
+- 'O365E_ODACStorage'
 ms.prod: office-online-server
 localization_priority: Normal
 ms.collection: Strat_OD_admin
@@ -18,7 +18,7 @@ ms.assetid: fa1641ea-9f03-4f34-a826-dbd8697e76fe
 description: "Learn how to specify how long the files of deleted users are preserved using the OneDrive admin center. "
 ---
 
-# Set the default file retention for deleted OneDrive users
+# Set the OneDrive retention for deleted users
 
 If a user's Office 365 account is deleted, their OneDrive for Business files are preserved for a period of time that you can specify.
   

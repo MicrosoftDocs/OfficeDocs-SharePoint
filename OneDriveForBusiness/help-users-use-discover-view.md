@@ -65,11 +65,11 @@ You can point users to the Discover view help article: [Are my documents safe in
 
 Use the information in this section to help troubleshoot issues in the Discover view.
   
-- [Users don't see user pictures in the Discover view](help-users-use-the-discover-view.md#Nopics)
+- [Users don't see user pictures in the Discover view](help-users-use-discover-view.md#Nopics)
     
-- [Users see very little or no content in their Discover view](help-users-use-the-discover-view.md#NoCont)
+- [Users see very little or no content in their Discover view](help-users-use-discover-view.md#NoCont)
     
-- [Users are concerned that private or sensitive documents are available in the Discover view](help-users-use-the-discover-view.md#UsersConcern)
+- [Users are concerned that private or sensitive documents are available in the Discover view](help-users-use-discover-view.md#UsersConcern)
     
 ### Users don't see user pictures in the Discover view
 <a name="Nopics"> </a>
