@@ -570,7 +570,7 @@ The following table lists limits and recommended guidelines for services and fea
 |Number of Exchange sources (mailboxes) per EDiscovery case  <br/> |1,500  <br/> |Boundary  <br/> |The maximum number of Exchange sources (mailboxes) per EDiscovery case is 1,500.  <br/> |
 |Maximum size of EDiscovery Query  <br/> |16K characters or 500 keywords  <br/> |Boundary  <br/> |The size of an EDiscovery query is limited to 500 keywords or 16,000 characters, whichever is reached first.  <br/> |
    
-## See Also
+## Related topics
 <a name="Limits"> </a>
 
 [Hardware and software requirements for SharePoint 2013](hardware-and-software-requirements-0.md)
