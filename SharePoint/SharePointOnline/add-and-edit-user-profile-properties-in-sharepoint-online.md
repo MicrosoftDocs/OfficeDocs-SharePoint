@@ -3,14 +3,13 @@ title: "Add and edit user profile properties in SharePoint Online"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 12/19/2017
+ms.date: 5/21/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 search.appverid:
 - SPO160
-- GSA150
 - BSA160
 - GSP150
 ms.assetid: 85091402-737f-4bb9-99a7-bc5f194502a8
@@ -65,7 +64,7 @@ If your organization uses the cloud identity model, your Office 365 user account
 17. In the **Search Settings** section, select **Alias** if the property is the equivalent of a user's name. For example, you might do this if you create a property for a "Stage name" and want searches for all documents by John Kane to return the same results as searches for the user's real name. Select the **Indexed** if you want searches to return all the user profiles matching that property. For example, if you have a property for "University," a search for that value would return all alumni from that university. 
     
     > [!NOTE]
-    >  The **Alias** check box is available only if you set the **Default Privacy Setting** "Everyone." 
+    >  The **Alias** check box is available only if you set the **Default Privacy Setting** > **Everyone**. 
   
 18. Click **OK**.
     

@@ -7,8 +7,8 @@ ms.date: 4/20/2018
 ms.audience: Admin
 ms.topic: article
 f1_keywords:
-- SPOTACfgInfoPathSrvc
-- SPOTACfgInfoPathWebSrvcPrx
+- 'SPOTACfgInfoPathWebSrvcPrx'
+- 'SPOTACfgInfoPathSrvc'
 ms.service: o365-administration
 localization_priority: Normal
 search.appverid:

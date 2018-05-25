@@ -18,14 +18,14 @@ description: "Configure the Content Search Web Part to cache search results for 
 
 # Make pages load faster with caching in the Content Search Web Part
 
-[The Content Search Web Part](the-content-search-web-part.md) (CSWP) offers a lot of flexibility for configuring the query it contains. However, if you configure the Web Part to use a very complex query, or if you have many CSWPs on a page, the page can take longer time to load. To make the page load faster, you can configure the CSWP to cache search results for users who belong to the same AD security groups. Because it's faster to look up search results in the cache than in the search index, the page loads faster. 
+[Configure a Content Search Web Part in SharePoint](https://support.office.com/article/0dc16de1-dbe4-462b-babb-bf8338c36c9a) (CSWP) offers a lot of flexibility for configuring the query it contains. However, if you configure the Web Part to use a very complex query, or if you have many CSWPs on a page, the page can take longer time to load. To make the page load faster, you can configure the CSWP to cache search results for users who belong to the same AD security groups. Because it's faster to look up search results in the cache than in the search index, the page loads faster. 
   
 When you have configured a CSWP to use caching, it will first look in the cache for existing search results that match the query and the AD security group. If it doesn't find any search results in the cache, it will look in the search index. 
   
 We recommend that you use caching only in CSWPs that are on pages that have more than 10 page loads per 15 minutes, for example on popular home pages or on category pages that are starting points for navigating to more detailed catalog pages.
   
 > [!TIP]
-> See [Tips on how to configure the Content Search Web Part to reduce page load time ](the-content-search-web-part.md#BKMK_Tips) for other things you can do to make pages load faster. 
+> See [Configure a Content Search Web Part in SharePoint](https://support.office.com/article/0dc16de1-dbe4-462b-babb-bf8338c36c9a#BKMK_Tips) for other things you can do to make pages load faster. 
   
 In this article:
   

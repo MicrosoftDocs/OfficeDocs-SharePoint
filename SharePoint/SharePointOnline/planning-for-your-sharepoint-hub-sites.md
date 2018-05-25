@@ -2,7 +2,7 @@
 title: "Planning for your SharePoint hub sites"
 ms.author: kaarins
 author: kaarins
-ms.date: 5/1/2018
+ms.date: 5/22/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server

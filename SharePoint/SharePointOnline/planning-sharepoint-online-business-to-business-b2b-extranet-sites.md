@@ -46,7 +46,7 @@ See [Securing a SharePoint Online extranet site](securing-a-sharepoint-online-ex
   
 ## Assigning licenses to partner users
 
-Guest user accounts have limited capabilities in SharePoint Online. See [Manage external sharing for your SharePoint Online environment](manage-external-sharing.md) for details on those features and what additional capabilities can be provided. If you determine that your partner users need additional functionality, such as the ability to create team sites, you can [assign SharePoint Online licenses to these user accounts](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
+Guest user accounts have limited capabilities in SharePoint Online. See [Manage external sharing for your SharePoint Online environment](external-sharing-overview.md) for details on those features and what additional capabilities can be provided. If you determine that your partner users need additional functionality, such as the ability to create team sites, you can [assign SharePoint Online licenses to these user accounts](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
   
 > [!NOTE]
 > Assigning an Exchange Online license to guest partner users is not supported. 
@@ -85,7 +85,7 @@ When a contract with a business partner ends, it is important that you remove an
 
 #### Other Resources
 
-[Manage external sharing for your SharePoint Online environment](manage-external-sharing.md)
+[Manage external sharing for your SharePoint Online environment](external-sharing-overview.md)
   
 [Azure Active Directory B2B collaboration](https://azure.microsoft.com/en-us/documentation/articles/active-directory-b2b-collaboration-overview/?rnd=1)
   

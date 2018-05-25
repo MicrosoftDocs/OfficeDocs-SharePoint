@@ -3,7 +3,7 @@ title: "Manage site collection storage limits"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 5/2/2018
+ms.date: 5/22/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -11,7 +11,6 @@ localization_priority: Normal
 ms.collection: Strat_SP_admin
 search.appverid:
 - SPO160
-- GSS150
 - BSA160
 - GSP150
 ms.assetid: 77389c2c-8e7e-4b16-ab97-1c7103784b08
@@ -38,6 +37,7 @@ By default, your SharePoint storage is available in a central pool from which al
 4. Select **settings**.
     
 5. In **Site Collection Storage Management**, select **Automatic**.
+    
     ![Office 365 SharePoint Online Settings Screen with Site Collection Managment highlighted](media/049686cf-1b12-4298-84a9-dc653c9d16d4.png)
   
 6. Click **OK**.
@@ -75,6 +75,7 @@ If you prefer to fine tune the storage space allocated to each site collection, 
 4. On the **Site Collections** tab choose one or more site collections from the list. 
     
 5.  Select **Storage Quota**. If the storage quota button is not enabled, select the site collection you want to set a quota on from the list below. 
+    
     ![Site Collections tab with Storage Quota button highlighted](media/f6d12897-34a2-47a6-be55-1851570da156.png)
   
 6. In **Limit storage quota for each site collection**, enter the maximum number of gigabytes (GB) to be allocated to the site collection.

@@ -3,18 +3,17 @@ title: "Manage user profiles in the SharePoint admin center"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 4/5/2018
+ms.date: 5/22/2018
 ms.audience: Admin
 ms.topic: article
 f1_keywords:
-- SPOTAMgUserProfiles
-- ViewUserProfiles
+- 'ViewUserProfiles'
+- 'SPOTAMgUserProfiles'
 ms.service: o365-administration
 localization_priority: Normal
 search.appverid:
 - SPO160
 - MOE150
-- GSA150
 - BSA160
 - GSP150
 ms.assetid: 494bec9c-6654-41f0-920f-f7f937ea9723
@@ -51,6 +50,7 @@ In some cases, you might want to transfer ownership of a OneDrive account to a d
 4. Click **user profiles** in the left pane. 
     
 5. Under **People**, click **Manage User Profiles**.
+    
     ![The Manage User Profiles link on the user profiles page](media/de423783-b0dd-4742-a937-c634936f0dca.PNG)
   
 6. Enter the user's name and select **Find**.
@@ -58,6 +58,7 @@ In some cases, you might want to transfer ownership of a OneDrive account to a d
 7. Right-click the user, and then click **Manage site collection owners**.
     
 8. Add and remove admins for the OneDrive account, and then click **OK**.
+    
     ![Manage the owners of a OneDrive](media/120f7c8c-262f-4a41-a484-e830c662f534.PNG)
   
 For info about automatically transferring ownership of OneDrive to a user's manager when the user account is marked for deletion, see [Set up access delegation](http://go.microsoft.com/fwlink/p/?LinkId=798417&amp;clcid=0x409).
@@ -84,12 +85,15 @@ To add, edit, or delete and audience or an audience rule, go to the Manage Audie
 4. Click **user profiles** in the left pane. 
     
 5. Under **People**, click **Manage Audiences**.
+    
     ![The Manage Audiences link on the user profiles page](media/5d94f074-ce73-4b11-a415-027e1b65b547.PNG)
   
     Creating a new audience:
+    
     ![Creating a new audience](media/8396cb6b-5426-40e0-9024-126bca6e8cc9.PNG)
   
     Creating a new rule for the audience:
+    
     ![Creating rules for a new audience](media/deafdd2d-4770-4344-87af-9dd1c1e6d7c4.PNG)
   
 Audiences compile approximately weekly, and you can only view audience members after the audience compiles. The user profiles page shows the number of audiences, the number of uncompiled audiences, and the compilation status and time.
@@ -108,9 +112,11 @@ If some users are licensed to use OneDrive, but you don't want them to create a 
 4. Click **user profiles** in the left pane. 
     
 5. Under **People**, click **Manage User Permissions**.
+    
     ![The Manage User Permissions link on the user profiles page](media/946e0564-2e7d-40a6-8603-cc3534a557be.PNG)
   
 6. By default, everyone except external users are allowed to create a OneDrive. Remove that group and add specific groups to allow only a subset of licensed users to create a OneDrive.
+    
     ![The permissions dialog box for controlling who can create a OneDrive](media/a23b4ec4-7862-4fd4-895a-983fed62c24d.PNG)
   
 7. Click **OK**.

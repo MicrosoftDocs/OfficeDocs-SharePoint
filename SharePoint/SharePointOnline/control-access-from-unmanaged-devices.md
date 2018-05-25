@@ -3,7 +3,7 @@ title: "Control access from unmanaged devices"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 4/30/2018
+ms.date: 5/4/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
@@ -30,7 +30,7 @@ As a SharePoint or global admin in Office 365, you can block or limit access to 
 Blocking access helps provide security but comes at the cost of usability and productivity. Limiting access allows users to remain productive while addressing the risk of accidental data loss on unmanaged devices. When you limit access, users on managed devices will have full access (unless they use one of the browser and operating system combinations listed below). Users on unmanaged devices will have browser-only access with no ability to download, print, or sync files. They also won't be able to access content through apps, including the Microsoft Office desktop apps. When you limit access, you can choose to allow or block editing files in the browser.
   
 > [!NOTE]
-> Blocking or limiting access on unmanaged devices relies on Azure AD conditional access policies. To learn more about them and the subscriptions they require, see [Conditional access in Azure Active Directory](https://go.microsoft.com/fwlink/?linkid=857717). > If you limit access on unmanaged devices, users on managed devices who have the following browser and operating system combinations will also have limited access: > Chrome, Firefox, or any other browser besides Microsoft Edge and Microsoft Internet Explorer on Windows 10 or Windows Server 2016 > Firefox in Windows 8.1, Windows 7, Windows Server 2012 R2, Windows Server 2012, or Windows Server 2008 R2 
+> Blocking or limiting access on unmanaged devices relies on Azure AD conditional access policies. [https://azure.microsoft.com/pricing/details/active-directory/](Learn about Azure AD licensing.md) For an overview of conditional access in Azure AD, see [Conditional access in Azure Active Directory](https://go.microsoft.com/fwlink/?linkid=857717). For info about recommended SharePoint access policies, see [Policy recommendations for securing SharePoint sites and files](https://go.microsoft.com/fwlink/?linkid=871728). > If you limit access on unmanaged devices, users on managed devices who have the following browser and operating system combinations will also have limited access: > Chrome, Firefox, or any other browser besides Microsoft Edge and Microsoft Internet Explorer on Windows 10 or Windows Server 2016 > Firefox in Windows 8.1, Windows 7, Windows Server 2012 R2, Windows Server 2012, or Windows Server 2008 R2 
   
 ## Block access to SharePoint and OneDrive content using the SharePoint admin center
 
@@ -145,9 +145,10 @@ Blocking access and blocking download may impact the user experience in some app
 > [!NOTE]
 > Apps that run in "app-only" mode in the service, like antivirus apps and search crawlers, are exempted from the policy. 
   
-## See Also
+## See also
 <a name="advanced"> </a>
 
-[Policy recommendations for securing SharePoint sites and files](https://go.microsoft.com/fwlink/?linkid=871728)
-  
+#### Other Resources
+
+[Control access to SharePoint Online and OneDrive data based on defined network locations](control-access-based-on-network-location.md)
 

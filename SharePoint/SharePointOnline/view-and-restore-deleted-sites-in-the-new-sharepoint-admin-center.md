@@ -3,7 +3,7 @@ title: "View and restore deleted sites in the new SharePoint admin center"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 2/21/2018
+ms.date: 5/22/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server

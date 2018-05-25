@@ -3,7 +3,7 @@ title: "SharePoint Online authentication"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 4/3/2018
+ms.date: 5/21/2018
 ms.audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -34,7 +34,7 @@ The Federation Authentication (FedAuth) cookie is for each top level site in Sha
   
 ## Session and persistent cookies
 
-By default, all SharePoint Online cookies are **session** cookies. These cookies are not saved to the browser's cookie cache and instead are deleted whenever the browser is closed. Azure AD provides a "Keep Me Signed In" button during login that passes a signal to Office 365 to enable **persistent** cookies. These cookies are saved to the browser's cache and will persist even if the browser is closed or the computer is restarted. 
+By default, all SharePoint Online cookies are **session** cookies. These cookies are not saved to the browser's cookie cache and instead are deleted whenever the browser is closed. Azure AD provides a **Keep Me Signed In** button during login that passes a signal to Office 365 to enable **persistent** cookies. These cookies are saved to the browser's cache and will persist even if the browser is closed or the computer is restarted. 
   
 Persistent cookies have a huge impact on the sign-in experience by reducing the number of authentication prompts users see. Persistent cookies are also required for some SharePoint Online features, such as **Open with Explorer** and **Mapped Drives**. 
   

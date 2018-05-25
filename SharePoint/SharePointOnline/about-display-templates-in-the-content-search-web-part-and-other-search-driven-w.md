@@ -43,6 +43,6 @@ By default, display templates have a set of property mappings in them that were 
     
 For more information, see:
   
-- [About search criteria for the Content Search Web Part and other search-driven Web Parts](about-search-criteria-for-the-content-search-web-part-and-other-search-driven-we.md)
+- [About search criteria for the Content Search Web Part and other search-driven Web Parts](https://support.office.com/article/9937e459-2b94-4a04-8c06-90696a7d94a8)
     
 

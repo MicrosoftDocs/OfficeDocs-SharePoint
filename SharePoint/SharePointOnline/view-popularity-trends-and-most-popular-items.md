@@ -3,14 +3,14 @@ title: "View Popularity Trends and Most Popular Items"
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
-ms.date: 5/16/2014
+ms.date: 5/16/2018
 ms.audience: End User
 ms.topic: article
 ms.prod: office-online-server
 localization_priority: Normal
 search.appverid: SPO160
 ms.assetid: a522cc35-4e63-49da-9968-85c588878932
-description: "To identify usage trends and find out at what times activity is high or low, you can view Popularity Trends reports for a View Popularity Trends for a site or a View Popularity Trends for a site collection. The reports show historical usage information, such as number of views (hits) and unique users per day or month. Popularity Trends for View Popularity Trends for a page or item in a library in a library show how many views the page or item has had recently."
+description: "Learn how to view popularity trends for an item, page, site, or site collection."
 ---
 
 # View Popularity Trends and Most Popular Items
@@ -30,8 +30,6 @@ You can also view the [View the Most Popular Items in a library](view-popularity
     
 4. Click Open to open the report in Excel.
     
-[To identify usage trends and find out at what times activity is high or low, you can view Popularity Trends reports for a View Popularity Trends for a site or a View Popularity Trends for a site collection. The reports show historical usage information, such as number of views (hits) and unique users per day or month. Popularity Trends for View Popularity Trends for a page or item in a library in a library show how many views the page or item has had recently.You can also view the View the Most Popular Items in a library in a library. You'll see which items have the most views, either recently or ever (from the first time the item became available.)](view-popularity-trends-and-most-popular-items.md#__top)
-  
 ## View Popularity Trends for a site collection
 <a name="__view_popularity_trends_2"> </a>
 
@@ -44,8 +42,6 @@ You can also view the [View the Most Popular Items in a library](view-popularity
 4. Click Open to open the report in Excel.
     
 You can also view other reports for the site collection, see [View usage and search reports](view-search-usage-reports.md).
-  
-[To identify usage trends and find out at what times activity is high or low, you can view Popularity Trends reports for a View Popularity Trends for a site or a View Popularity Trends for a site collection. The reports show historical usage information, such as number of views (hits) and unique users per day or month. Popularity Trends for View Popularity Trends for a page or item in a library in a library show how many views the page or item has had recently.You can also view the View the Most Popular Items in a library in a library. You'll see which items have the most views, either recently or ever (from the first time the item became available.)](view-popularity-trends-and-most-popular-items.md#__top)
   
 ## View Popularity Trends for a page or item in a library
 <a name="__view_popularity_trends"> </a>
@@ -66,8 +62,6 @@ You can also see popularity trends for a page or item from the **Most Popular It
   
 Or, you can go to an individual page and select the **PAGE** tab > **Popularity Trends**.
   
-[To identify usage trends and find out at what times activity is high or low, you can view Popularity Trends reports for a View Popularity Trends for a site or a View Popularity Trends for a site collection. The reports show historical usage information, such as number of views (hits) and unique users per day or month. Popularity Trends for View Popularity Trends for a page or item in a library in a library show how many views the page or item has had recently.You can also view the View the Most Popular Items in a library in a library. You'll see which items have the most views, either recently or ever (from the first time the item became available.)](view-popularity-trends-and-most-popular-items.md#__top)
-  
 ## View the Most Popular Items in a library
 <a name="__view_the_most"> </a>
 
@@ -83,13 +77,9 @@ You can sort the list by **Recent** (views the last 14 days), or **Ever** (views
   
 To see more details for each item, click the **Popularity Trends** link under each item URL. 
   
-[To identify usage trends and find out at what times activity is high or low, you can view Popularity Trends reports for a View Popularity Trends for a site or a View Popularity Trends for a site collection. The reports show historical usage information, such as number of views (hits) and unique users per day or month. Popularity Trends for View Popularity Trends for a page or item in a library in a library show how many views the page or item has had recently.You can also view the View the Most Popular Items in a library in a library. You'll see which items have the most views, either recently or ever (from the first time the item became available.)](view-popularity-trends-and-most-popular-items.md#__top)
-  
 ## View Usage and Search reports for all sites
 <a name="__view_the_most"> </a>
 
 If you're a SharePoint Online administrator, you can view usage and search reports for the whole tenant. See [View usage and search reports](view-search-usage-reports.md).
-  
-[To identify usage trends and find out at what times activity is high or low, you can view Popularity Trends reports for a View Popularity Trends for a site or a View Popularity Trends for a site collection. The reports show historical usage information, such as number of views (hits) and unique users per day or month. Popularity Trends for View Popularity Trends for a page or item in a library in a library show how many views the page or item has had recently.You can also view the View the Most Popular Items in a library in a library. You'll see which items have the most views, either recently or ever (from the first time the item became available.)](view-popularity-trends-and-most-popular-items.md#__top)
   
 

@@ -3,12 +3,12 @@ title: "Allow or prevent custom script"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 4/17/2018
+ms.date: 5/21/2018
 ms.audience: Admin
 ms.topic: article
 f1_keywords:
-- O365E_NoScript
-- O365M_NoScript
+- 'O365M_NoScript'
+- 'O365E_NoScript'
 ms.prod: office-online-server
 localization_priority: Normal
 ms.collection: Strat_SP_admin
@@ -30,12 +30,13 @@ As a global or SharePoint admin in Office 365, you can allow custom script as a 
   
 By default, script is allowed on sites that admins create. It is not allowed on OneDrive, on sites users create themselves, and on the root site for your organization. You'll probably want to limit the amount of script you allow for security reasons. For more info about the security implications of custom script, see [Security considerations of allowing custom script](security-considerations-of-allowing-custom-script.md).
   
-IMPORTANT: If SharePoint Online was set up for your organization before 2015, your custom script settings might still be set to "Not Configured" even though in the SharePoint admin center they appear to be set to prevent users from running custom script. In this case, users won't be able to copy items between SharePoint sites and between OneDrive and SharePoint. On the settings page of the SharePoint admin center, click **OK** to accept the custom script settings as they appear and enable cross-site copying. (For more info about copying items between OneDrive and SharePoint, see [Copy files and folders between OneDrive for Business and SharePoint sites](https://support.office.com/article/67a6323e-7fd4-4254-99a8-35613492a82f).) 
+> [!IMPORTANT]
+> If SharePoint Online was set up for your organization before 2015, your custom script settings might still be set to "Not Configured" even though in the SharePoint admin center they appear to be set to prevent users from running custom script. In this case, users won't be able to copy items between SharePoint sites and between OneDrive and SharePoint. On the settings page of the SharePoint admin center, click **OK** to accept the custom script settings as they appear and enable cross-site copying. For more info about copying items between OneDrive and SharePoint, see [Copy files and folders between OneDrive for Business and SharePoint sites](https://support.office.com/article/67a6323e-7fd4-4254-99a8-35613492a82f). 
   
 ## To allow custom script on OneDrive or user-created sites
 <a name="__top"> </a>
 
-In the SharePoint admin center, you can choose to allow users to run custom script on OneDrive (referred to as "personal sites") or on all user-created sites. For info about letting users create their own sites, see [Manage site creation in SharePoint Online](manage-site-creation-in-sharepoint-online.md).
+In the SharePoint admin center, you can choose to allow users to run custom script on OneDrive (referred to as "personal sites") or on all user-created sites. For info about letting users create their own sites, see [Manage site creation in SharePoint Online](manage-site-creation.md).
   
 > [!CAUTION]
 > Before you allow custom script on sites in your organization, make sure you understand the [security implications](security-considerations-of-allowing-custom-script.md). 
@@ -57,7 +58,7 @@ In the SharePoint admin center, you can choose to allow users to run custom scri
     ![Custom script section of settings page in SharePoint admin center](media/a96d5c23-6389-4343-81cb-7f055617f6e8.png)
   
     > [!NOTE]
-    > Because self-service site creation points to your organization's root site collection by default, changing the Custom Script setting allows custom script on your organization's root site collection. For info about changing where sites are created, see [Manage site creation in SharePoint Online](manage-site-creation-in-sharepoint-online.md). 
+    > Because self-service site creation points to your organization's root site collection by default, changing the Custom Script setting allows custom script on your organization's root site collection. For info about changing where sites are created, see [Manage site creation in SharePoint Online](manage-site-creation.md). 
   
 6. Click **OK**. It can take up to 24 hours for the change to take effect.
     
@@ -67,11 +68,11 @@ In the SharePoint admin center, you can choose to allow users to run custom scri
 > [!CAUTION]
 > Before you allow custom script on sites in your organization, make sure you understand the [security implications](security-considerations-of-allowing-custom-script.md). 
   
-To allow custom script on a particular site collection immediately, use the following Microsoft PowerShell command (learn more about the [Introduction to the SharePoint Online Management Shell](https://support.office.com/article/c16941c3-19b4-4710-8056-34c034493429)):
+To allow custom script on a particular site collection immediately, use the following Microsoft PowerShell command (learn more about the [Introduction to the SharePoint Online Management Shell](https://go.microsoft.com/fwlink/?linkid=869066)):
   
  `Set-SPOsite <SiteURL> -DenyAddAndCustomizePages 0`
   
-If you change this setting for a user's OneDrive or a user-created site, it will be overriden by the Custom Script setting in the admin center within 24 hours.
+If you change this setting for a user's OneDrive or a user-created site, it will be overridden by the Custom Script setting in the admin center within 24 hours.
   
 ## Features affected when custom script is blocked
 <a name="__top"> </a>

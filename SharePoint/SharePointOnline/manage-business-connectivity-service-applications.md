@@ -17,7 +17,7 @@ description: "In SharePoint Online, you can create Business Connectivity Service
 
 In SharePoint Online, you can create Business Connectivity Services (BCS) connections to data sources, such as SQL Azure databases or Windows Communication Foundation (WCF) web services, that are outside the SharePoint site. Once you've created these connections, you can manage or edit BCS information on the SharePoint admin center site. You can log on to the SharePoint admin center site directly, or log on to the Office 365 admin center and then move to the SharePoint admin center.
   
-SharePoint Online uses BCS together with Secure Store Services to access and retrieve data such as BDC Models from external data systems. To learn more about BCS, see [SharePoint Online planning guide for Office 365](sharepoint-online-planning-guide-for-office-365-for-business.md).
+SharePoint Online uses BCS together with Secure Store Services to access and retrieve data such as BDC Models from external data systems. To learn more about BCS, see [SharePoint Online planning guide for Office 365](introduction.md).
   
 ## Manage BCS permissions
 <a name="__toc338059706"> </a>

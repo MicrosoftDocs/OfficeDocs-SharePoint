@@ -31,7 +31,7 @@ Query spelling suggestions are words that appear below the search box as a user 
   
  **Using query transforms**
   
-You can configure a query transform to replace properties of a query, such as the result source that the query will use to get search results, or the sort order that it will use when it displays search results. [Learn more](understanding-query-transforms.md).
+You can configure a query transform to replace properties of a query, such as the result source that the query will use to get search results, or the sort order that it will use when it displays search results. [Understanding query transforms](https://support.office.com/article/b31631a5-0c1f-436e-8061-fd807bb96ae1).
   
  **Manage result sources**
   
@@ -54,7 +54,7 @@ You can influence the pages or documents that should appear at the top of your l
 > [!IMPORTANT]
 >  Creating a custom ranking model is a complicated process. Only expert users should create custom ranking models. 
   
-In most cases, the ranking models in SharePoint Online provide good search result ranking, and you can also influence the ranking of search results with query rules. If you have a relevance need that the standard ranking models don't provide, you can create a custom ranking model. [Create a custom ranking model by using the Ranking Model Tuning App](https://support.office.com/article/345be622-2f63-450c-bd65-869ce830b7c1).
+In most cases, the ranking models in SharePoint Online provide good search result ranking, and you can also influence the ranking of search results with query rules. If you have a relevance need that the standard ranking models don't provide, you can create a custom ranking model. [Learn more](create-a-custom-ranking-model.md).
   
  **Export and import search settings**
   

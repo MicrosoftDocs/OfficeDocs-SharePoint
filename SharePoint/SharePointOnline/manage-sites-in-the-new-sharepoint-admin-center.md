@@ -3,7 +3,7 @@ title: "Manage sites in the new SharePoint admin center"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 4/19/2018
+ms.date: 5/22/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
@@ -35,7 +35,7 @@ You as a SharePoint or global admin in your organization can create new sites fr
     
 2. Select to create a team site (which will create an Office 365 group), a communication site, or a classic site. For info about the new site templates, see [Create a team site in SharePoint Online](https://support.office.com/article/ef10c1e7-15f3-42a3-98aa-b5972711777d) and [Create a communication site in SharePoint Online](https://support.office.com/article/7fb44b20-a72f-4d2c-9173-fc8f59ba50eb). 
     
-![Create a communication site, team site, or classic site from the admin center](media/c4c5173f-ca83-426f-a940-cb2869a3a64b.png)
+    ![Create a communication site, team site, or classic site from the admin center](media/c4c5173f-ca83-426f-a940-cb2869a3a64b.png)
   
 ## Delete a site
 <a name="deletesite"> </a>
@@ -57,7 +57,7 @@ For all sites except those managed by Office 365 group owners, you can change th
     
 2. Under **Properties**, click **Change primary admin** or **Add or remove admins**. 
     
-![Change the primary admin or add or remove other admins in the details pane](media/690948e4-109e-4398-b9ca-963c92e21450.PNG)
+    ![Change the primary admin or add or remove other admins in the details pane](media/690948e4-109e-4398-b9ca-963c92e21450.PNG)
   
 ## Email admins
 <a name="emailadmins"> </a>
@@ -66,17 +66,14 @@ On the Site management page, you can email the primary admins of the sites you s
   
 1. In the left column, click to select one or more sites. 
     
-    Notes: 
-    
-  - You can email the primary admins for all sites except those that belong to an Office 365 group. If you want to email several owners at one time, sort or filter columns to exclude sites that belong to an Office 365 group before you make your selection.
-    
-  - Users who are the primary admin for more than one site will receive an email for each site.
-    
+    > [!NOTE]
+    >  You can email the primary admins for all sites except those that belong to an Office 365 group. If you want to email several owners at one time, sort or filter columns to exclude sites that belong to an Office 365 group before you make your selection. >  Users who are the primary admin for more than one site will receive an email for each site. 
+  
 2. Click **Email admins**. 
     
 3. Enter a subject and add a message, and then click **Send**. 
     
-![Email admins dialog box](media/28ecaf36-9e47-4757-8c12-8bbbc0c33daf.PNG)
+    ![Email admins dialog box](media/28ecaf36-9e47-4757-8c12-8bbbc0c33daf.PNG)
   
 ## Change the external sharing setting for the site
 <a name="changesitesharing"> </a>
@@ -111,7 +108,8 @@ Site insights in the details pane:
     
 - The amount of storage used
     
-Note: All these insights are available as columns in the site management list. For info about adding a column that doesn't appear, see [Customize columns](manage-sites-in-the-new-sharepoint-admin-center.md#customizecolumns).
+> [!NOTE]
+> All these insights are available as columns in the site management list. For info about adding a column that doesn't appear, see [Customize columns](manage-sites-in-the-new-sharepoint-admin-center.md#customizecolumns). 
   
 ![Site properties in the details pane](media/addeb5ec-cfc7-4d0c-a789-7eeeabdea67c.PNG)
   
@@ -138,11 +136,11 @@ Sorting and filtering the site list is just like sorting and filtering other lis
   
 1. Click the arrow next to the column header.
     
-2. Select how you want to arrange the items. The options vary depending on the column. For example, you might have options to sort alphabetically, in numeric order, or chronologically. 
+2. Select how you want to arrange the items. The options vary depending on the column. For example, you might have options to sort alphabetically, in numeric order, or chronologically.
     
-    If the column allows filtering, you'll see a "Filter by" option. Select the value or values that you want to show. Your selections will appear with a check mark beside them. To remove a selection, click that value again. To clear all filters on the column, select **Clear filters**. 
+    If the column allows filtering, you'll see a "Filter by" option. Select the value or values that you want to show. Your selections will appear with a check mark beside them. To remove a selection, click that value again. To clear all filters on the column, select **Clear filters**.
     
-![Filter options for the Template column](media/0d188752-2bce-4d69-9cf4-a16ab87a2892.PNG)
+    ![Filter options for the Template column](media/0d188752-2bce-4d69-9cf4-a16ab87a2892.PNG)
   
 ## Search for a site
 <a name="search"> </a>
@@ -166,7 +164,7 @@ To export your list of all sites as a .csv file that you can work with in Excel,
     
 3. Rearrange the columns by pointing to a column and clicking the up or down arrow to move the column up or down. 
     
-![Show, hide, and rearrange columns on the Site management page](media/d713dbd8-2ac7-428c-a5b9-b5bd673ce674.PNG)
+    ![Show, hide, and rearrange columns on the Site management page](media/d713dbd8-2ac7-428c-a5b9-b5bd673ce674.PNG)
   
 ## Switch views and create custom views
 <a name="views"> </a>

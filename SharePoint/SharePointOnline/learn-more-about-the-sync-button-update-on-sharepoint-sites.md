@@ -3,7 +3,7 @@ title: "Learn more about the Sync button update on SharePoint sites"
 ms.author: matteva
 author: matteva
 manager: pamgreen
-ms.date: 8/14/2017
+ms.date: 5/3/2018
 ms.audience: Admin
 ms.topic: get-started-article
 ms.prod: office-online-server
@@ -22,8 +22,6 @@ description: "We're updating the Sync button in SharePoint Online sites librarie
 
 We're updating the Sync button in SharePoint Online sites libraries and Office 365 Groups to point to the new OneDrive sync client (onedrive.exe), instead of the old OneDrive for Business sync client (groove.exe) that it points to today. We're also simplifying the sync settings in the OneDrive admin center.
   
-## 
-
 This update will result in the following changes:
   
 - The Sync button in SharePoint Online site libraries, Office 365 Groups, and shared OneDrive for Business site libraries will open the OneDrive sync client instead of the old OneDrive for Business sync client. 
@@ -78,6 +76,6 @@ In particular, to opt out, a tenant would run the command:
   
 Set-SPOTenantSyncClientRestriction -GrooveBlockOption "OptOut" 
   
-For information about using PowerShell, see [Introduction to the SharePoint Online Management Shell](https://support.office.com/article/c16941c3-19b4-4710-8056-34c034493429).
+For information about using PowerShell, see [Introduction to the SharePoint Online Management Shell](https://go.microsoft.com/fwlink/?linkid=869066).
   
 

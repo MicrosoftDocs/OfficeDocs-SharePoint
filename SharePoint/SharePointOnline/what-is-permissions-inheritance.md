@@ -3,19 +3,15 @@ title: "What is permissions inheritance?"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 4/5/2018
+ms.date: 5/22/2018
 ms.audience: Admin
 ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 search.appverid:
 - WSU150
-- SPS150
 - SPO160
-- SPS150
 - OSU150
-- GSS150
-- GSA150
 - BSA160
 - GSP150
 ms.assetid: 06bb1ed1-d150-42f4-9600-fb261d4b590c
@@ -67,6 +63,8 @@ You might want to do this to restrict access to the separated site and its child
 For example, suppose that your company, Litware, supports active promotional opportunities and deals for bestsellers. Because the deals that the company offers are secret, only certain people in the company can access the information about the bestseller authors and deals. So, the administrators decide to separate the Bestsellers site, and break inheritance. 
   
 In the following illustration, the www.Litware.com/Bestsellers breaks inheritance from the parent site, www.litware.com. The site owners for the Best Sellers site change the permissions for the site, removing some groups and creating others. The subsites of the Bestsellers site, Authors and Deals, now inherit permissions only from the Bestsellers subsite. Only the groups and users for Bestsellers can access the lists and libraries that contain sensitive information. 
+  
+![Permissions inheritance broken illustration.](media/c24d5911-5972-43ec-8dc6-4acbc3b62317.png)
   
 For ease of maintenance, we recommend that you use a similar method to restrict access. That is, organize your site so that sensitive material is in the same place. If you organize the site this way, you only have to break inheritance one time, for that specific site or library. This is much less overhead. It requires much less work than creating separate permission structures in many locations for individual subsites and libraries.
   

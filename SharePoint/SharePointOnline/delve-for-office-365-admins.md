@@ -20,8 +20,6 @@ description: "The more you and your colleagues use Office 365 to work together, 
 
 The more you and your colleagues use Office 365 to work together, by viewing, editing and sharing each other's documents, the more useful Delve will be for all of you. Learn more about how you as an admin can help users get the most out of Delve. 
   
-## 
-
 Delve is powered by the Office Graph and shows users the most relevant content based on who they work with and what they're working on. The information in Delve is tailored to each user. Delve doesn't change permissions and users will only see what they already have access to. 
   
 As an admin, you can make sure that you allow your organization to access the Office Graph, and that you have set up other Office 365 services that Delve uses, for instance SharePoint Online and OneDrive for Business. You can also help people get started with Delve, and address questions that users might have.
@@ -311,7 +309,7 @@ End users
     
 Admins
   
-- [SharePoint Online Planning Guide for Office 365 for business](sharepoint-online-planning-guide-for-office-365-for-business.md)
+- [SharePoint Online Planning Guide for Office 365 for business](introduction.md)
     
 - [Manage SharePoint Online user profiles from the SharePoint admin center](manage-user-profiles-in-the-sharepoint-admin-center.md)
     

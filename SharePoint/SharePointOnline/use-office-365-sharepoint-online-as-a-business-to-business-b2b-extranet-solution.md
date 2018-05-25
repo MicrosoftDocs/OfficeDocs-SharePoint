@@ -3,7 +3,7 @@ title: "Use Office 365 SharePoint Online as a business-to-business (B2B) extrane
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 4/24/2017
+ms.date: 5/22/2018
 ms.audience: ITPro
 ms.topic: overview
 ms.service: o365-administration
@@ -12,7 +12,6 @@ ms.collection: Ent_O365_Hybrid
 search.appverid:
 - SPO160
 - MOE150
-- GSA150
 - BSA160
 - GSP150
 ms.assetid: 7b087413-165a-4e94-8871-4393e0b9c037
@@ -37,7 +36,7 @@ Industry verticals where business-to-business (B2B) collaboration is key to thei
 
  Key features offered in SharePoint Online collaboration include: 
   
-- **Allow users to Invite new partner users:** In certain site collections, admins can optionally allow users to invite new partner users. In this model, an email invite is sent to the partner user and the user must redeem that invite to access the resource. See [Manage external sharing for your SharePoint Online environment](manage-external-sharing.md) for details. 
+- **Allow users to Invite new partner users:** In certain site collections, admins can optionally allow users to invite new partner users. In this model, an email invite is sent to the partner user and the user must redeem that invite to access the resource. See [Manage external sharing for your SharePoint Online environment](external-sharing-overview.md) for details. 
     
 - **Sharing by site owners only:** Ability to have site collections where only site owners can bring in or share with new users. Site members, who are typically external partner users, can see only the existing site members in the site. This helps in governing what partners can see and with whom they can share documents. 
     
@@ -82,6 +81,6 @@ To get started setting up a SharePoint Online extranet site:
     
 2. Read [Securing a SharePoint Online extranet site](securing-a-sharepoint-online-extranet-site.md) to learn about the options for restricting your extranet site to only the users you want. 
     
-3. Deploy your extranet by using [standard SharePoint Online sharing options](manage-external-sharing.md) or by [importing external users into Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
+3. Deploy your extranet by using [standard SharePoint Online sharing options](external-sharing-overview.md) or by [importing external users into Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
     
 

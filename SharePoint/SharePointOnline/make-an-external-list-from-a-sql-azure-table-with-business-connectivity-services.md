@@ -3,7 +3,7 @@ title: "Make an External List from a SQL Azure table with Business Connectivity 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 4/5/2018
+ms.date: 5/22/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -52,9 +52,11 @@ In SharePoint Online, BCS enables you to access an external data source by using
 To make this possible, a SharePoint Online admin defines an External Content Type (ECT) in SharePoint Designer or in Visual Studio. Then, someone with appropriate permissions creates an External List on a SharePoint Online site by referencing the ECT. Users who have appropriate permission can view or update the list. 
   
 > [!NOTE]
-> SharePoint Online doesn't support offline use of external lists **.**
+>  SharePoint Online doesn't support offline use of external lists. 
   
 This illustration shows how the connections between the different elements occur:
+  
+![Diagram that shows the connectivity between a user, SharePoint Online, and an external data source in SQL Azure](media/4201a500-2932-4e53-867c-c911df2c729a.png)
   
 The following list describes the steps in the connectivity process. Each step in this list corresponds to a number in the previous diagram.
   
@@ -119,7 +121,7 @@ To create a Secure Store Target Application, follow these steps.
 
 After you create the Target Application, you are ready to enter the credentials that Secure Store uses to access the external data. To set the credentials, follow these steps
   
-1. In the SharePoint admin center, click **secure store**
+1. In the SharePoint admin center, click **secure store**.
     
 2. Click the arrow next to the new Target Application and then select **Set Credentials**. 
     

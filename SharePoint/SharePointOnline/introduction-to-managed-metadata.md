@@ -3,17 +3,12 @@ title: "Introduction to managed metadata"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 4/7/2016
+ms.date: 5/22/2018
 ms.audience: End User
 ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
-search.appverid:
-- SPS150
-- SPO160
-- SPS150
-- OSU150
-- OSU160
+search.appverid: SPO160
 ms.assetid: a180fa28-6405-4679-9ec3-81d2028c4efc
 description: "Learn about managed metadata to enable enhanced search and navigation, creating terms that become document attributes and let users progressively refine search parameters."
 ---
@@ -211,6 +206,7 @@ If your organization wants to use managed term sets to implement formal taxonomi
 1. Click Settings![Office 365 Settings button](media/a9a59c0f-2e67-4cbf-9438-af273b0d552b.png), and then click **Site Settings**.
     
 2. Click **Term store management** under **Site Administration**.
+    
     ![The Term Store Management Tool dialog box.](media/ba6c6939-f19a-4808-9156-499b05af5380.PNG)
   
 ### Managing terms, term sets, and groups

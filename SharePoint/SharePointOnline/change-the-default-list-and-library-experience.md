@@ -2,14 +2,13 @@
 title: "Change the default list and library experience"
 ms.author: kaarins
 author: kaarins
-ms.date: 4/26/2018
+ms.date: 5/21/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: office-online-server
 localization_priority: Normal
 search.appverid:
 - SPO160
-- GSA150
 - BSA160
 - GSP150
 ms.assetid: a0d90eaf-5755-4b8d-96ee-9e25bdf9114e
@@ -43,7 +42,7 @@ For information about how library and list owners can switch the list and librar
 
  **Check for customizations that affect lists or library pages**
   
-One reason you may want to change the default experience at the site and site collection level is because you have customizations that affect list or library pages and represent business-critical functionality. If you want to check for these kinds of customizations to help you determine which sites and site collections you want to change the default for, you must use a Windows PowerShell script with a CSOM (Client-side object model) wrapper. The following script detects customactions that deploy custom scripts.
+One reason you may want to change the default experience at the site and site collection level is because you have customizations that affect list or library pages and represent business-critical functionality. If you want to check for these kinds of customizations to help you determine which sites and site collections you want to change the default for, you must use a Windows PowerShell script with a CSOM (Client-side object model) wrapper. The following script detects custom actions that deploy custom scripts.
   
 1. Verify that you meet the following minimum requirements:
     

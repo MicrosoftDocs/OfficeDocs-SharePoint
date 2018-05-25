@@ -17,8 +17,6 @@ description: "Learn how you can customize the search experience in SharePoint On
 
 Learn how you can customize the search experience in SharePoint Online to help users find the information they're looking for.
   
-## 
-
 Below are the **four main areas** where you can customize the search experience and make sure that search is performing the way you want. 
   
 Many of the search features are available on the [search administration page](manage-search-the-admin-center.md) in the SharePoint admin center. The high-level overview of [How search works](overview-of-search.md#howsearchworks) can also help you understand where and how you can impact the search experience in SharePoint Online. 

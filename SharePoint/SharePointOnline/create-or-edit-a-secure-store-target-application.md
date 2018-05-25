@@ -3,7 +3,7 @@ title: "Create or edit a Secure Store Target Application"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 4/5/2018
+ms.date: 5/21/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -43,25 +43,25 @@ Another benefit of the Secure Store Service is that it eliminates authentication
     
 3. In the **Manage Target Applications** group on the ribbon, click **New**.
     
-![Screenshot of the SharePoint Online Administration Center page for configuring a SecureStore Target Application.](media/c3ba43ae-b8df-4b63-b187-9ce1bd6cb42f.jpg)
+    ![Screenshot of the SharePoint Online Administration Center page for configuring a SecureStore Target Application.](media/c3ba43ae-b8df-4b63-b187-9ce1bd6cb42f.jpg)
   
-1. In the **Target Application Settings** section, enter values for the following fields: 
+4. In the **Target Application Settings** section, enter values for the following fields: 
     
-2. **Target Application ID**. You might find it useful to assign a meaningful name. For example, if you are connecting to source that contains employee data, you might enter EmployeeTargetApp. 
+5. **Target Application ID**. You might find it useful to assign a meaningful name. For example, if you are connecting to source that contains employee data, you might enter EmployeeTargetApp. 
     
-3. Display Name. This field should be a user-friendly name for the Target Application. For example, you might use Employee Data.
+6. Display Name. This field should be a user-friendly name for the Target Application. For example, you might use Employee Data.
     
-4. **Contact E-mail** Enter a valid email address for people to use when they have questions. 
+7. **Contact E-mail** Enter a valid email address for people to use when they have questions. 
     
-5. **Target Application Type**. By default, SharePoint Online uses type **Group Restricted**. 
+8. **Target Application Type**. By default, SharePoint Online uses type **Group Restricted**. 
     
-6. In the **Credential Fields** section, enter the **Field Names** and **Field Types** for the credentials that are required to access data in the Target Application. These fields determine how you will map identity in the Secure Store Service. By default, the Credential Fields list the Windows User Name and Windows Password with matching Field Types (User Name and Password), and specifies that the password is masked. 
+9. In the **Credential Fields** section, enter the **Field Names** and **Field Types** for the credentials that are required to access data in the Target Application. These fields determine how you will map identity in the Secure Store Service. By default, the Credential Fields list the Windows User Name and Windows Password with matching Field Types (User Name and Password), and specifies that the password is masked. 
     
-7. In the **Target Application Administrators** section, enter a list of users, or use the Browse button to search for the name of a group. This section usually contains the account of the SharePoint Online Administrator, or a global Administrator. 
+10. In the **Target Application Administrators** section, enter a list of users, or use the Browse button to search for the name of a group. This section usually contains the account of the SharePoint Online Administrator, or a global Administrator. 
     
-8. In the **Members** section, enter a list of users or SharePoint Online groups of users who need to access the target application. Or, you can use the Browse button to search for the name of a group that you want to map to the Target Application. 
+11. In the **Members** section, enter a list of users or SharePoint Online groups of users who need to access the target application. Or, you can use the Browse button to search for the name of a group that you want to map to the Target Application. 
     
-9. Click **OK** to accept this configuration and return to the Secure Storage Service page. The new Target Application appears on the page. 
+12. Click **OK** to accept this configuration and return to the Secure Storage Service page. The new Target Application appears on the page. 
     
 ## Edit settings for a Target Application
 <a name="__toc346879712"> </a>
@@ -74,10 +74,10 @@ Another benefit of the Secure Store Service is that it eliminates authentication
     
 4. On the ribbon, click **Edit**.
     
-> [!NOTE]
->  Some fields on the Edit page are not available. These elements cannot be edited. After you create a Target Application, you can't change the **Target Application ID**, **Target Application Type**, or **Credentials Fields**. 
+    > [!NOTE]
+    >  Some fields on the Edit page are not available. These elements cannot be edited. After you create a Target Application, you can't change the **Target Application ID**, **Target Application Type**, or **Credentials Fields**. 
   
-1. Select any of the following to edit the contents:
+5. Select any of the following to edit the contents:
     
   - Display Name
     
@@ -87,7 +87,7 @@ Another benefit of the Secure Store Service is that it eliminates authentication
     
   - Members
     
-1. Click **OK**.
+6. Click **OK**.
     
 ## Set credentials for a Target Application
 <a name="__toc346879713"> </a>

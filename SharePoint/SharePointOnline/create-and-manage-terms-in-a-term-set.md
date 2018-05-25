@@ -8,13 +8,7 @@ ms.audience: End User
 ms.topic: article
 ms.prod: office-online-server
 localization_priority: Normal
-search.appverid:
-- OSU140
-- SPS150
-- SPO160
-- SPS150
-- OSU150
-- OSU160
+search.appverid: SPO160
 ms.assetid: 549070a7-41c2-4210-9e9c-5fad22bd8748
 description: "Learn how to use SharePoint's Term Store management tool to create and edit terms in a term store for managed metadata"
 ---

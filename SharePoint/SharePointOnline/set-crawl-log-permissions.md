@@ -10,7 +10,6 @@ ms.prod: office-online-server
 localization_priority: Normal
 search.appverid:
 - SPO160
-- GSA150
 - BSA160
 - GSP150
 ms.assetid: b3a165dc-d2ad-42d3-8a41-d3fb64d0ad86

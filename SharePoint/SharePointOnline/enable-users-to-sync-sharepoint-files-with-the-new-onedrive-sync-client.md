@@ -3,7 +3,7 @@ title: "Enable users to sync SharePoint files with the new OneDrive sync client"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 4/3/2018
+ms.date: 5/22/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
@@ -21,13 +21,11 @@ description: "Learn how to enable users in your organization to sync SharePoint 
 
 # Enable users to sync SharePoint files with the new OneDrive sync client
 
- *Last updated: October 2017* 
-  
 This article is for IT administrators in large organizations who want to enable users in their organizations to sync SharePoint Online team sites with the new OneDrive sync client. Smaller organizations and organizations that are new to Office 365 are already set up to sync OneDrive and SharePoint files with the new OneDrive sync client.
   
 When you enable this feature, users will be able to sync the files in a SharePoint Online team site to their PCs and Macs using the OneDrive sync client (OneDrive.exe). As part of this, they will be able to:
   
-- Browse to a SharePoint Online site or shared folder and click "Sync" to sync all contents in the document library or only selected folders that are important to them.
+- Browse to a SharePoint Online site or shared folder and click **Sync** to sync all contents in the document library or only selected folders that are important to them. 
     
 - Change the folders they sync directly from their PC or Mac.
     
@@ -44,7 +42,8 @@ When you enable this feature, users will be able to sync the files in a SharePoi
 
 Follow these steps if you want to preview the syncing of SharePoint Online files before enabling the feature for your entire organization.
   
-IMPORTANT: You only need to follow these steps to set registry keys on computers you want to use to preview the functionality. When you're ready to enable SharePoint sync for your organization, you can remove these registry keys and follow the steps under [Set SharePoint to sync with the OneDrive sync client](enable-users-to-sync-sharepoint-files-with-the-new-onedrive-sync-client.md#admincenter).
+> [!IMPORTANT]
+> You only need to follow these steps to set registry keys on computers you want to use to preview the functionality. When you're ready to enable SharePoint sync for your organization, you can remove these registry keys and follow the steps under [Set SharePoint to sync with the OneDrive sync client](enable-users-to-sync-sharepoint-files-with-the-new-onedrive-sync-client.md#admincenter). 
   
  **Test SharePoint Online sync for Windows**
   

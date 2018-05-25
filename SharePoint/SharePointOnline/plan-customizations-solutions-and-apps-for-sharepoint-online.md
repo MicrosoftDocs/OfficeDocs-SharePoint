@@ -116,9 +116,9 @@ After you finish developing a solution or a custom app, you may need a way to ma
   
 - If your solution is a customized list or a specialized site or page, you can share a link to that page or site with users.
     
-- If you have developed a custom SharePoint or Office app, you can make it available by uploading it to the App Catalog site. For more information about making custom apps available, see [Use the App Catalog to make custom business apps available for your SharePoint Online environment](use-the-app-catalog-to-make-custom-business-apps-available-for-your-sharepoint-o.md).
+- If you have developed a custom SharePoint or Office app, you can make it available by uploading it to the App Catalog site. For more information about making custom apps available, see [Use the App Catalog to make custom business apps available for your SharePoint Online environment](use-app-catalog.md).
     
-- If you add a third-party app from the SharePoint Store, you can make it available to all users across the site collections in your SharePoint Online environment by acquiring licenses for all users in your organization. Or, you can acquire licenses for only those who need to use it, and assign those licenses to the designated users. For more information, see [Buy an app from the SharePoint Store](https://support.office.com/article/dd98e50e-d3db-4ecb-9bb7-82b189822d43) and [Manage app licenses for a SharePoint Online environment](manage-app-licenses-for-a-sharepoint-online-environment.md).
+- If you add a third-party app from the SharePoint Store, you can make it available to all users across the site collections in your SharePoint Online environment by acquiring licenses for all users in your organization. Or, you can acquire licenses for only those who need to use it, and assign those licenses to the designated users. For more information, see [Buy an app from the SharePoint Store](https://support.office.com/article/dd98e50e-d3db-4ecb-9bb7-82b189822d43) and [Manage app licenses for a SharePoint Online environment](manage-app-licenses.md).
     
 - If you want to change the settings for whether or not site users can acquire apps from the SharePoint Store, see [Configure settings for the SharePoint Store](configure-settings-for-the-sharepoint-store.md).
     
@@ -133,6 +133,6 @@ For more technical guidance about when you should opt to develop custom apps ins
   
 [Top of Page](plan-customizations-solutions-and-apps-for-sharepoint-online.md#__top)
   
-Return to [SharePoint Online Planning Guide for Office 365 for business](sharepoint-online-planning-guide-for-office-365-for-business.md).
+Return to [SharePoint Online Planning Guide for Office 365 for business](introduction.md).
   
 
