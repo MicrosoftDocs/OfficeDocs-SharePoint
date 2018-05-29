@@ -101,6 +101,6 @@ The final step is the migration of data from Azure to SharePoint Online. This ac
   
 ## Related Topics
 
-[How to: Avoid getting throttled or blocked in SharePoint Online](http://go.microsoft.com/fwlink/?LinkID=619858&amp;clcid=0x409)
+[Avoid getting throttled or blocked in SharePoint Online](http://go.microsoft.com/fwlink/?LinkID=619858&amp;clcid=0x409)
   
 
