@@ -267,6 +267,7 @@
    }, 
    { "source_path": "sharepoint/administration/get-and-install-the-yammer-app-onto-sharepoint-server-2013-sites.md",
     "redirect_url": "https://docs.microsoft.com/en-us/sharepoint/administration/add-the-yammer-embed-widget-to-a-sharepoint-page",
-    "redirect_document_id": true}
+    "redirect_document_id": true
+   }
   ] 
   }
