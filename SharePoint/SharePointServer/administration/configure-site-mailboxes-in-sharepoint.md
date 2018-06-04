@@ -66,7 +66,7 @@ The first step in configuring Site Mailboxes is to install the Exchange Server W
 3. Run the following command:
     
   ```
-  msiexec /I EwsManagedApi.msi addlocal="ExchangeWebServicesApi_Feature,ExchangeWebServicesApi_Gac"
+  msiexec /I EwsManagedApi.msi addlocal="ExchangeWebServicesApi_Feature"
   ```
 
 4. Reset IIS from the command line by typing IISReset.

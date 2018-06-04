@@ -3,6 +3,7 @@
     "content": [
       {
         "files": [
+          "**/*.md",
           "**/*.md"
         ],
         "exclude": [
@@ -32,6 +33,9 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
+      "breadcrumb_path": "/onedriveforbusiness/breadcrumb/toc.json",
+      "extendBreadcrumb": "true",
+      "searchScope": ["OneDrive for Business"],
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/OfficeDocs-SharePoint",
       "feedback_product_url": "https://onedrive.uservoice.com" 

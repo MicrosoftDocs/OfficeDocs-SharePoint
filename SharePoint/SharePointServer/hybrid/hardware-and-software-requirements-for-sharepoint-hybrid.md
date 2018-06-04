@@ -55,7 +55,7 @@ For each of these hybrid solutions, the requirements in the following sections a
 
 Inbound connectivity requires the following:
   
-- A reverse proxy device. For more information, see [OBSOLETE Hardware and software requirements for a one-way inbound and two-way hybrid topology in SharePoint Server 2013](http://technet.microsoft.com/library/f6b221a8-97bd-48f3-8db1-b5c5357728fb%28Office.14%29.aspx#RPDreqs) later in this article. 
+- [A reverse proxy device](configure-a-reverse-proxy-device-for-sharepoint-server-hybrid.md). The reverse proxy device provides a secure endpoint for inbound traffic using SSL encryption and client certificate authentication.
     
 - An Internet domain (such as https://adventureworks.com) and the permission to create or edit DNS records for that domain.
     
@@ -76,12 +76,7 @@ If you'll configure your primary web application to use SSL (which is the web ap
   
 If this web application already exists and is configured for SSL, you're ready to go. Otherwise you have to either obtain or create one for this purpose. For production environments, this certificate should be issued by a public certification authority (CA). For test and development environments, it can be a self-signed certificate.
   
-For more information, see [Plan SSL certificates](plan-connectivity-from-office-365-to-sharepoint-server.md#certificates) and the [SharePoint 2013 Hybrid Topology: Certificate, Authentication, and Authorization](https://go.microsoft.com/fwlink/?LinkId=392320) poster. 
-  
-#### Reverse proxy device requirements
-<a name="RPDreqs"> </a>
-
-The reverse proxy device provides a secure endpoint for inbound traffic using SSL encryption and client certificate authentication.
+For more information, see [Plan SSL certificates](plan-connectivity-from-office-365-to-sharepoint-server.md#certificates). 
   
 #### Supported reverse proxy devices
 
@@ -90,8 +85,8 @@ The following table lists the currently supported reverse proxy devices for Shar
 |**Supported reverse proxy devices**|**Configuration article**|**More information**|
 |:-----|:-----|:-----|
 |Windows Server 2012 R2 with Web Application Proxy (WA-P)  <br/> |[Configure Web Application Proxy for a hybrid environment](configure-web-application-proxy-for-a-hybrid-environment.md) <br/> |Web Application Proxy (WA-P) is a Remote Access service in Windows Server 2012 R2 that publishes web applications that users can interact with from many devices.  <br/> > [!IMPORTANT]> To use Web Application Proxy as a reverse proxy device in a hybrid SharePoint Server environment, you must also deploy AD FS in Windows Server 2012 R2. Earlier versions of Windows don't support Web Application Proxy           |
-|Forefront Threat Management Gateway (TMG) 2010  <br/> |[Configure Forefront TMG for a hybrid environment](configure-forefront-tmg-for-a-hybrid-environment.md) <br/> |Forefront TMG 2010 is a comprehensive, secure, web gateway solution that provides secure reverse proxy functionality.  <br/> > [!NOTE]> Forefront TMG 2010 is no longer sold by Microsoft but will be supported through 4/14/2020. For more information, see [Microsoft Support Lifecycle information for Forefront TMG 2010](http://go.microsoft.com/fwlink/p/?LinkID=784960&amp;clcid=0x409).           |
-|F5 BIG-IP  <br/> |[Enabling SharePoint 2013 Hybrid Search with the BIG-IP](http://go.microsoft.com/fwlink/?LinkId=402977) <br/> |This is external content that's managed by F5 Networks.  <br/> |
+|Forefront Threat Management Gateway (TMG) 2010  <br/> |[Configure Forefront TMG for a hybrid environment](configure-forefront-tmg-for-a-hybrid-environment.md) <br/> |Forefront TMG 2010 is a comprehensive, secure, web gateway solution that provides secure reverse proxy functionality.  <br/> Note that Forefront TMG 2010 is no longer sold by Microsoft but will be supported through 4/14/2020. For more information, see [Microsoft Support Lifecycle information for Forefront TMG 2010](http://go.microsoft.com/fwlink/p/?LinkID=784960&amp;clcid=0x409).           |
+|F5 BIG-IP  <br/> |[Enabling SharePoint 2013 Hybrid Search with the BIG-IP](https://devcentral.f5.com/articles/enabling-sharepoint-2013-hybrid-search-with-the-big-ip) <br/> |This is external content that's managed by F5 Networks.  <br/> |
    
 #### General reverse proxy requirements
 
