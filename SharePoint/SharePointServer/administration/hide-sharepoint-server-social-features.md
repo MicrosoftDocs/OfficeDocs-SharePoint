@@ -3,7 +3,7 @@ title: "Hide SharePoint Server social features"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 5/31/18
+ms.date: 6/5/18
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -324,5 +324,5 @@ The SharePoint Server 2013 Content Publishing team thanks Vidya Srinivasan and B
 
 #### Concepts
 
-[Integrate Yammer with on-premises SharePoint Server environments](integrate-yammer-with-on-premises-sharepoint-2013-environments.md)
+[Integrate Yammer with on-premises SharePoint Server environments](integrate-yammer-with-on-premises-sharepoint-environments.md)
 
