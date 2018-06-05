@@ -38,22 +38,24 @@ How you collect the feed info depends on the feed type you select.
 ### Collect group feed information from Yammer
 
 There are two options:
-    - **Get the entire widget from the group page in Yammer**
-    Because a group feed is the most commonly used type of feed, you can get the widget from each Yammer group page. The code in the widget uses default settings for the embedded Yammer feed. 
-       1. Go to the group in Yammer, and under **Access Options** at the bottom of the left panel, select **Embed this feed in your site**. 
-       2. Copy the code. 
 
-   - **Get the group feed id to use with the Yammer Embed Configuration Tool**
-      1. Using Yammer in a web browser, go to the group.
-      2. Copy the feed ID from the URL. For example, in this URL, https://www.yammer.com/contoso.com/#/threads/inGroup?type=in_group&feedId=1170863, copy 1170863.
+- **Get the entire widget from the group page in Yammer**
+
+    Note: This code uses default settings for the embedded Yammer feed. 
+    1. Go to the group in Yammer, and under **Access Options** at the bottom of the left panel, select **Embed this feed in your site**. 
+    2. Copy the code. 
+
+- **Get the group feed id to use with the Yammer Embed Configuration Tool**
+    1. Using Yammer in a web browser, go to the group.
+    2. Copy the feed ID from the URL. For example, in this URL, https://www.yammer.com/contoso.com/#/threads/inGroup?type=in_group&feedId=1170863, copy 1170863.
 
 ### Collect topic feed information from Yammer
-1. Using Yammer in a web browser, search for the topic by entering #topic_name in the Search box. For example, if looking for all conversations tagged with the EmployeeVolunteering tag, search for #EmployeeVolunteering.
+1. Using Yammer in a web browser, search for the topic by entering #*topic_name* in the Search box. For example, if looking for all conversations tagged with the EmployeeVolunteering tag, search for #EmployeeVolunteering.
 2. Select the topic, look at the URL, and copy the topic id. For example, in this URL,  https://www.yammer.com/contoso.com/topics/2084748#/Threads/AboutTopic?type=about_topic&feedId=2084748, copy 2084748.
 
 ### Collect user feed information from Yammer 
 1. Using Yammer in a web browser, click the icon or name of the person from anywhere in Yammer. 
-3. Copy the user ID from the URL. For example, for the following URL, https://www.yammer.com/contoso.com/#/users/1906364, copy  1906364.
+3. Copy the user ID from the URL. For example, in this URL, https://www.yammer.com/contoso.com/#/users/1906364, copy  1906364.
 
 ##Step 2. Generate the widget code using the Yammer Embed configuration tool
 
@@ -66,15 +68,17 @@ There are two options:
 
     - **Custom prompt text**: The prompt that users will see when a group or My Feed type is selected. If left blank, the default "What are you working on?" will be displayed.
 
-    - **Feed type**: Select one of the following:* Group: the feed for one group
+    - **Feed type**: Select one of the following:
 
-            - **My Feed**: The user's home feed
+        - **Group**: the feed for one group
 
-            - **Topic**: all convversations tagged with one topic
+        - **My Feed**: The user's home feed
 
-            - **User**: all conversations that include messages from thee specified user
+        - **Topic**: all convversations tagged with one topic
 
-            - **Open Graph**: links. For more information, see  [Embed](https://go.microsoft.com/fwlink/p/?LinkId=507501) in the [Yammer Developer Center](https://go.microsoft.com/fwlink/p/?LinkId=507502). 
+        - **User**: all conversations that include messages from thee specified user
+
+        - **Open Graph**: links. For more information, see  [Embed](https://go.microsoft.com/fwlink/p/?LinkId=507501) in the [Yammer Developer Center](https://go.microsoft.com/fwlink/p/?LinkId=507502). 
 
     - **Feed ID**: The ID you identified in Step 2 above for the specific Yammer group, topic, or user. This should be left blank if you select **My Feed** as the feed type.
 
