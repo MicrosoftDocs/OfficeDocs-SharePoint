@@ -9,25 +9,25 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 48fa0391-b996-4a46-8744-4b1777db3d2f
-description: "Summary: Learn how to use the Yammer Embed widget to include Yammer feeds on SharePoint pages."
+description: "Learn how to use the Yammer Embed widget to include Yammer feeds on SharePoint pages."
 ---
 
 # Add a Yammer feed to a SharePoint page
 
- **Summary:** Use the Yammer Embed widget to include Yammer feeds on SharePoint pages. 
+ **Summary:** Learn how to use the Yammer Embed widget to include Yammer feeds on SharePoint pages. 
   
-You can choose the type of Yammer feed to include in a SharePoint page:
-- Group: the feed for one group
-- Topic: all conversations tagged with one topic
-- User: all conversations that include messages from the specified user
-- My feed: The user's home feed
-- Open graph: links
+You can choose the type of Yammer feed to include:
+- Group: The feed for one group.
+- Topic: All conversations tagged with one topic.
+- User: All conversations that include messages from the specified user
+- My Feed: The user's home feed
+You can also use the Yammer Embed widget to put Yammer **Like** and **Follow** buttons on a SharePoint page.
 
 You can also select options including the size of the box displaying the feed, and whether the background is dark or light.
 
 There are three steps to the process:
 - Step 1: Collect the identifying information for the group, topic, or user from Yammer.
-- Step 2: Generate the code for the widget using the Yammer Embed configuration tool.
+- Step 2: Generate the code to embed using the Yammer Embed configuration tool.
 - Step 3: Embed the code in a Script Editor Web Part on the SharePoint page. You'll need a 400 pixel or wider web part.
 
 When the Yammer widget is embedded in a SharePoint page, the specified feed is displayed if the user is signed in. If the user is not signed in, they will be prompted to sign in.
@@ -55,45 +55,57 @@ There are two options:
 
 ### Collect user feed information from Yammer 
 1. Using Yammer in a web browser, click the icon or name of the person from anywhere in Yammer. 
-3. Copy the user ID from the URL. For example, in this URL, https://www.yammer.com/contoso.com/#/users/1906364, copy  1906364.
+3. Copy the user ID from the URL. For example, in this URL, https://www.yammer.com/contoso.com/#/users/1906364, copy 1906364.
 
 ##Step 2. Generate the widget code using the Yammer Embed configuration tool
 
 1. Go to the Yammer Embed configuration tool, at [https://www.yammer.com/widget/configure] (https://go.microsoft.com/fwlink/p/?LinkId=507500). 
-2. Select the options:
+2. Select the **Behavior** options:
     
     - **Network permalink**: Your domain name for Yammer, such as Contoso.com, or Contoso.onmicrosoft.com.
    
-    - **Default group_id**: 
+    - **Default group_id**: This is only needed for user and topic feeds. It specifies which group should be the default for new posts from the embedded feet.
 
-    - **Custom prompt text**: The prompt that users will see when a group or My Feed type is selected. If left blank, the default "What are you working on?" will be displayed.
+    - **Custom prompt text**: The prompt that users will see when a group or My Feed type is selected. If left blank, the default "What are you working on?" prompt will be displayed.
 
     - **Feed type**: Select one of the following:
 
-        - **Group**: the feed for one group
+        - **Group**: The feed for one group.
 
         - **My Feed**: The user's home feed
 
-        - **Topic**: all convversations tagged with one topic
+        - **Topic**: All convversations tagged with one topic.
 
-        - **User**: all conversations that include messages from thee specified user
+        - **User**: All conversations that include messages from thee specified user.
 
-        - **Open Graph**: links. For more information, see  [Embed](https://go.microsoft.com/fwlink/p/?LinkId=507501) in the [Yammer Developer Center](https://go.microsoft.com/fwlink/p/?LinkId=507502). 
+        - **Open Graph**: Use this to embed a **Like** or **Follow** button on the page. For more information, see  [Embed](https://go.microsoft.com/fwlink/p/?LinkId=507501) in the [Yammer Developer Center](https://go.microsoft.com/fwlink/p/?LinkId=507502). 
 
     - **Feed ID**: The ID you identified in Step 2 above for the specific Yammer group, topic, or user. This should be left blank if you select **My Feed** as the feed type.
 
-    - **Default to canonical** If you have external networks, and a user switches to one from Yammer embedded on a SharePoint page, if this is checked, when the user returns to the SharePoint page, they will start by seeing their home network. If this is unchecked, the user will go directly to the external network.
+    - **Default to canonical** Only use this option if you have external networks. If a user switches to an external network from a Yammer feed embedded on a SharePoint page, if this option is checked, when the user returns to the SharePoint page, they will start by seeing their home network. If this is unchecked, the user will go directly to the external network.
 
-    - **Use SSO**: Configure redirection to your identity provider. The domain listed in the **Network permalink** field must be configured for federation in Office 365.
+    - **Use SSO**: Configure redirection to your identity provider. The domain listed in the **Network permalink** field must be configured for federation in Office 365. For more information about this option, see [Embed](https://go.microsoft.com/fwlink/p/?LinkId=507501) in the [Yammer Developer Center](https://go.microsoft.com/fwlink/p/?LinkId=507502).
 
-    - **Appearance**
-        - **Show header?** and **Show footer** and **Hide network in header"**: These options only apply to some types of feeds. The preview will show you whether they apply to the feed type you have selected.
+3. Select the **Appearance** options.
+    The header and footer options only apply to some types of feeds. The preview will show you whether they apply to the feed type you have selected.
+        - **Show header**:  Displays a header on the page. The content of the header depends on the **Hide network in header** setting.
+        - **Show footer**: Displays a footer showing the person's name and a **log out** link.
+        - **Hide network in header**: If selected, the header includes **Yammer conversations". If not selected, the header shows the company name 
 
-        - **Theme**: In some browsers, you have an option for a light or dark background for the embedded Yammer conversations.
+    - **Theme** : Use a light or dark background for the embedded Yammer conversations. This does not work in all browsers.
+    - 
+4. If you selected an Open Graph feed, select the **OpenGraph settings** options.
+    For more information about these options, see see [Embed](https://go.microsoft.com/fwlink/p/?LinkId=507501) in the [Yammer Developer Center](https://go.microsoft.com/fwlink/p/?LinkId=507502).
+    - **OpenGraphURL**
+    - **OpenGraph type** 
+    - **Show review**
+    - **Fetch metadata**
+    - **Mark as "private"**
+    - **Ignore canonical url**
 
-3. Click **Apply**. You'll see a preview of what will be embedded.
+5. Click **Apply**. You'll see a preview of what will be embedded.
 
-4. Copy the code shown under **Example code**.
+6. Copy the code shown under **Example code**.
 
   ![Screenshot of the Yammer Embed configuration tool](../media/yammer-embed-preview.png)
   
@@ -109,5 +121,5 @@ For more information about how to use the Yammer Embed widget, including how to 
 
 #### Concepts
 
-[Integrate Yammer with on-premises SharePoint Server environments](integrate-yammer-with-on-premises-sharepoint-2013-environments.md)
+[Integrate Yammer with on-premises SharePoint Server environments](integrate-yammer-with-on-premises-sharepoint-server-environments.md)
 
