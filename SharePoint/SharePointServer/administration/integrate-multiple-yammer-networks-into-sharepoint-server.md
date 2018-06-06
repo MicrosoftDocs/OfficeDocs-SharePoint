@@ -37,7 +37,7 @@ For example, say Contoso.com is an international company with subsidiaries in lo
 > [!CAUTION]
 > When you do a network merge, the data in all subsidiary networks is permanently deleted. 
   
-For more information about administering Yammer Enterprise, see [Yammer admin center](https://go.microsoft.com/fwlink/p/?LinkId=524338).
+For more information about administering Yammer Enterprise, see [Yammer - Admin help](https://go.microsoft.com/fwlink/p/?LinkId=524338).
   
 ## Step 1: Merge multiple Yammer networks
 
@@ -58,9 +58,9 @@ Office 365 uses Azure Active Directory for identity management, and Yammer Enter
   
 For more information, see [Plan for directory synchronization for Office 365](https://go.microsoft.com/fwlink/?linkid=875044) and [Integrate your on-premises directories with Azure Active Directory](https://go.microsoft.com/fwlink/p/?LinkId=869669).
   
-## Step 3: Disable default SharePoint Server 2013 social features
+## Step 3: Disable default SharePoint Server social features
 
-After you set up directory synchronization, [disable the default SharePoint Server 2013 social features](hide-sharepoint-server-2013-social-features.md).
+After you set up directory synchronization, [disable the default SharePoint Server social features](hide-sharepoint-server-social-features.md).
   
 ## Step 4: Use Yammer Embed
 

@@ -28,7 +28,8 @@ The user account that is performing this procedure must be a member of the Farm 
 
 3. On the **Yammer Configuration** page, choose **Activate Yammer**. 
      ![Yammer Configuration page in Central Admin](../media/Yammer_IntegrationinCentralAdmin.GIF) 
-    After a few minutes, the **Activate Yammer** button goes away.
+   
+     After a few minutes, the **Activate Yammer** button goes away.
 
 4. Verify that Yammer is selected by clicking the Office 365 icon. You should see the Yammer tile rather than the Newsfeed tile.
      ![Office 365 navigation showing the Yammer tile](../media/Yammer_Tile SharePoint.PNG)

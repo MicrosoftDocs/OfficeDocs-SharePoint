@@ -87,7 +87,7 @@ When you follow the steps in this article, the following enterprise social featu
 ## Remove Web Parts from Team Sites in SharePoint Server 2016
 Each site admin must apply the following steps to their site.
 
-1. From any site in SharePoint Server 2016 that has a Newsfeed web part, select **Edit". 
+1. From any site in SharePoint Server 2016 that has a Newsfeed web part, select **Edit**. 
 
 2. Move the pointer over the **Site Feed** Web Part, and select the box that appears on the right side of the Web Part.
 

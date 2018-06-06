@@ -19,11 +19,11 @@ description: "Learn how to use the Yammer Embed widget to include Yammer feeds o
 You can choose the type of Yammer feed to include.
 | Type           |Description            | Example     |
 |:--------------:|:----------------------|:-------------|
-|Group           |The feed for one group | On a team intranet page|
+|Group           |The feed for one group | On a team intranet page.|
 |Topic           |All conversations tagged with one topic| On an benefits page on an intranet, show all conversations tagged with #EmployeeDiscount.|
-|User            |All conversations that include messages from the specified user|On a directory page for the user|
-|My Feed         |The user's home feed   | On a   |
-|OpenGraph       |Conversations about a specific file or other OpenGraph object|Feedback page on a proposal     | 
+|User            |All conversations that include messages from the specified user|On a directory page for the user.|
+|My Feed         |The user's home feed   | On a user's My site or home page.   |
+|Open Graph       |Conversations about a specific file or other OpenGraph object|Collecting feedback page on a proposal.     | 
 
 You can also use the Yammer Embed widget to put Yammer **Like** and **Follow** buttons on a SharePoint page.
 
@@ -100,8 +100,8 @@ There are two options:
     - 
 4. If you selected an Open Graph feed, select the **OpenGraph settings** options.
     - **OpenGraphURL**
-    - **OpenGraph type** 
-    - **Show review**
+    - **OpenGraph type** Select Page, Audio, Department, Document, File, Folder, Image, Person, Place, Project, Team, or Video. 
+    - **Show preview**
     - **Fetch metadata**
     - **Mark as "private"**
     - **Ignore canonical url**

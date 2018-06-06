@@ -25,9 +25,9 @@ This section provides links to common scenarios and the specific steps you need 
 > [!NOTE]
 > If your SharePoint Server environment is hosted in a cloud environment, like Microsoft Azure Infrastructure as a Service (IaaS), the guidance in these articles also applies. 
   
-## Scenarios for Yammer and SharePoint Server 2013
+## Scenarios for Yammer and SharePoint Server
 
-Read these articles for common scenarios on integrating Yammer and SharePoint Server 2013.
+Read these articles for common scenarios on integrating Yammer and SharePoint Server.
   
 |Scenario icon**                   ![Scenario icon](../media/mod_icon_scenarios_M.png)                 **|**Content**|**Description**|
 |:-----|:-----|:-----|
