@@ -106,21 +106,17 @@ The first procedure explains how to set permission to the Application Discovery 
     
   ```
   $sa = Get-SPServiceApplication -Name '<Service Application DisplayName>'
-  $security=Get-SPServiceApplication $sa| Get-SPServiceApplicationSecurity
+  $security=Get-SPServiceApplication $sa | Get-SPServiceApplicationSecurity
   $claimprovider=(Get-SPClaimProvider System).ClaimProvider
   $principal=New-SPClaimsPrincipal -ClaimType "http://schemas.microsoft.com/sharepoint/2009/08/claims/farmid" -ClaimProvider $claimprovider -ClaimValue <consumingfarmid>
   Grant-SPObjectSecurity -Identity $security -Principal $principal -Rights <NamedAccessRights>
-  Set-SPServiceApplicationSecurity <GUID> -ObjectSecurity $security
+  Set-SPServiceApplicationSecurity $sa -ObjectSecurity $security
   ```
 
-    Where:
-    
-    
-     _\<Consumingfarmid\>_ is the GUID value of the consuming farm. This is the ID of the consuming farm that you need in Step 5 of the Central Administration section. 
-    
-     _\<GUID\>_ is the ID of the published service application. 
-    
-     _\<NamedAccessRights\>_ is the name of the access right from the Get-SPServiceApplicationSecurity \<GUID\>.NamedAccessRights. 
+Where:
+* \<Service Application DisplayName\> is the DisplayName value of the published Service Application from `Get-SPServiceApplication`.
+* \<Consumingfarmid\> is the GUID value of the consuming farm. This is the ID of the consuming farm that you need in Step 5 of the Central Administration section. 
+* \<NamedAccessRights\> is the name of the access right from `(Get-SPServiceApplicationSecurity $sa).NamedAccessRights`. 
     
     For more information, see the following:
     
