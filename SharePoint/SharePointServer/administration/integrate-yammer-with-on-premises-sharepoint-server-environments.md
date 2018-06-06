@@ -12,21 +12,23 @@ ms.assetid: 555e6de4-eece-440c-857b-9601c65df4fe
 description: "Summary: Learn how to add Yammer functionality to a SharePoint Server environment and how to replace SharePoint Newsfeeds with Yammer."
 ---
 
-# Integrate Yammer with on-premises SharePoint environments
+# Integrate Yammer with on-premises SharePoint Server environments
 
  **Summary:** Learn how to add Yammer functionality to a SharePoint environment and how to replace SharePoint Newsfeeds with Yammer. 
   
-Yammer comes in two varieties: Yammer Basic and Yammer Enterprise. Yammer Basic is free and available to all users. It lets employees collaborate with other members of their organization. Yammer Enterprise is a premium version that extends an organization's basic Yammer network. It's available as part of many SharePoint Online and Office 365 plans. (See [Office 365 plans](https://go.microsoft.com/fwlink/p/?LinkId=394054).) Yammer Enterprise provides additional tools and resources to help organizations set up the best possible enterprise social network. Find out more about Yammer at [About Yammer](https://go.microsoft.com/fwlink/p/?LinkId=331310).
+Yammer comes in two varieties: Yammer Basic and Yammer Enterprise. 
+- Yammer Basic is free and available to all users. It lets employees collaborate with other members of their organization.
+-  Yammer Enterprise is a premium version that extends an organization's basic Yammer network and is integrated with Office 365. It's available as part of many SharePoint Online and Office 365 plans, and is the recommended version for integration. (See [Office 365 plans](https://go.microsoft.com/fwlink/p/?LinkId=394054).) 
   
-Although SharePoint Server 2013 provides basic enterprise social features, Yammer provides a richer enterprise social experience. You can add Yammer functionality to SharePoint sites by adding it to the navigation bar to embed a Yammer feed in a site. For more information about Yammer features and SharePoint Server 2013, see [Work like a network! Enterprise social and the future of work](https://go.microsoft.com/fwlink/p/?LinkId=394052).
+Although SharePoint Server provides basic enterprise social features, Yammer provides a richer enterprise social experience. You can add Yammer functionality to SharePoint sites by adding it to the navigation bar, and embedding a Yammer feed into SharePoint pages. 
   
 ## Yammer networks, groups, and users
 
-Before you integrate Yammer into your SharePoint Server 2013 environment, you should learn about Yammer networks, groups, and users, and how they combine to create a foundation for providing you with a rich Yammer experience within SharePoint.
+Before you integrate Yammer into your SharePoint Server  environment, you should learn about Yammer networks, groups, and users, and how they combine to create a foundation for providing you with a rich Yammer experience within SharePoint.
   
 For more information, see [Yammer networks, groups, and users overview](yammer-networks-groups-and-users-overview.md).
   
-## Use Yammer with SharePoint Server 2013
+## Use Yammer Enterprise with SharePoint Server 
 
 You can choose whether to use the social features in SharePoint or Yammer. If you want to take advantage of the power of Yammer with SharePoint, you can use any of the following methods:
   
@@ -40,13 +42,15 @@ For more information, see [Plan for directory synchronization for Office 365](ht
   
 ### User interface integration
 
-To take advantage of the features that are provided by Yammer, you should integrate the Yammer experience into SharePoint, and replace the default SharePoint Server 2013 enterprise social features. This is where users can take advantage of Yammer to drive increased collaboration and innovation across their organization.
+To take advantage of the features that are provided by Yammer, you should integrate the Yammer experience into SharePoint, and replace the default SharePoint Server enterprise social features. This is where users can take advantage of Yammer to drive increased collaboration and innovation across their organization.
   
 To take advantage of the power of Yammer with SharePoint, you can use any of the following methods:
   
-#### Add Yammer to the navigation bar for SharePoint 2013
+#### Add Yammer to the navigation for SharePoint 
 
-You can replace the Newsfeed link with a Yammer link on the top navigation bar for SharePoint. This functionality is included in Service Pack 1 (SP1) for SharePoint Server 2013.
+In SharePoint 2016, you can add a Yammer tile to the 
+
+In SharePoint 2013 Service Pack 1 (SP1) for SharePoint Server 2013, you can replace the Newsfeed link with a Yammer link on the top navigation bar.
   
 ![SharePoint navigation bar with Yammer](../media/Yammerinonpremnavbar.gif)
   
