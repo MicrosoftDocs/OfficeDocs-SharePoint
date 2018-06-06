@@ -61,21 +61,9 @@ The first procedure explains how to set permission to the Application Discovery 
     
   ```
   $security=Get-SPTopologyServiceApplication | Get-SPServiceApplicationSecurity
-  ```
-
-  ```
   $claimprovider=(Get-SPClaimProvider System).ClaimProvider
-  ```
-
-  ```
   $principal=New-SPClaimsPrincipal -ClaimType "http://schemas.microsoft.com/sharepoint/2009/08/claims/farmid" -ClaimProvider $claimprovider -ClaimValue <consumingfarmid>
-  ```
-
-  ```
   Grant-SPObjectSecurity -Identity $security -Principal $principal -Rights "Full Control"
-  ```
-
-  ```
   Get-SPTopologyServiceApplication | Set-SPServiceApplicationSecurity -ObjectSecurity $security
   ```
 
@@ -117,26 +105,11 @@ The first procedure explains how to set permission to the Application Discovery 
 3. At the PowerShell command prompt, type the following command:
     
   ```
-  Get-SPServiceApplication .Id
-  ```
-
-  ```
-  $security=Get-SPServiceApplication <GUID>| Get-SPServiceApplicationSecurity
-  ```
-
-  ```
+  $sa = Get-SPServiceApplication -Name '<Service Application DisplayName>'
+  $security=Get-SPServiceApplication $sa| Get-SPServiceApplicationSecurity
   $claimprovider=(Get-SPClaimProvider System).ClaimProvider
-  ```
-
-  ```
   $principal=New-SPClaimsPrincipal -ClaimType "http://schemas.microsoft.com/sharepoint/2009/08/claims/farmid" -ClaimProvider $claimprovider -ClaimValue <consumingfarmid>
-  ```
-
-  ```
   Grant-SPObjectSecurity -Identity $security -Principal $principal -Rights <NamedAccessRights>
-  ```
-
-  ```
   Set-SPServiceApplicationSecurity <GUID> -ObjectSecurity $security
   ```
 
