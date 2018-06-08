@@ -27,7 +27,7 @@ This article describes the prerequisites that are required to deploy a SharePoin
 
 - An operational, on-premises Active Directory Directory Services (AD DS) domain.
     
-- An operational SharePoint Server farm. For more information, see [Hardware and software requirements for SharePoint Server 2016](../install/hardware-and-software-requirements.md).
+- An operational SharePoint Server farm. Services must be running on the local farm - farms with federated services are not supported. For more information about setting up a farm, see [Install SharePoint Server](../install/install.md).
     
 - A [properly configured Office 365 tenant](configure-office-365-for-sharepoint-hybrid.md) that is provisioned with SharePoint Online with one of the following subscription plans: E1 supports [Display hybrid federated search results in SharePoint Server](display-hybrid-federated-search-results-in-sharepoint-server.md) only, E3, or E4. 
     
