@@ -689,7 +689,7 @@
 ##### [Integrate multiple Yammer networks into SharePoint Server](../administration/integrate-multiple-yammer-networks-into-sharepoint-server.md)
 ##### [Integrate a Yammer network into SharePoint Server with social features](../administration/integrate-a-yammer-network-into-sharepoint-server-with-social-features.md)
 ##### [Integrate a Yammer network into SharePoint Server and Office 365](../administration/integrate-a-yammer-network-into-sharepoint-server-and-office-365.md)
-#### [Add Yammer to the navigation bar for SharePoint Server](../administration/add-yammer-to-the-navigation-bar-for-sharepoint-server.md)
+#### [Add Yammer to the SharePoint Server navigation](../administration/add-yammer-to-the-navigation-bar-for-sharepoint-server.md)
 #### [Hide SharePoint Server default social features](../administration/hide-sharepoint-server-social-features.md)
 #### [Add the Yammer Embed widget to a SharePoint page](../administration/add-the-yammer-embed-widget-to-a-sharepoint-page.md)
 ### [Troubleshoot](../administration/troubleshoot.md)

@@ -1,5 +1,5 @@
 ---
-title: "Add Yammer to the navigation bar for SharePoint Server"
+title: "Add Yammer to the SharePoint Server navigation"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
@@ -12,7 +12,7 @@ ms.assetid: 0d32d946-52d0-4913-bfdb-d3c1193cfc4a
 description: "Summary: Use a toggle switch to determine whether to show the SharePoint Newsfeed or Yammer in SharePoint Server navigation."
 ---
 
-# Add Yammer to the navigation for SharePoint Server
+# Add Yammer to the SharePoint Server navigation
 
  **Summary:** Use a toggle switch to determine whether to show the SharePoint Newsfeed link or Yammer on the navigation bar in SharePoint Server. 
 
