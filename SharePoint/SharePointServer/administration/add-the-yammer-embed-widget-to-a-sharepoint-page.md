@@ -20,12 +20,10 @@ You can choose the type of Yammer feed to include.
 | Type           |Description            | Example     |
 |:--------------:|:----------------------|:-------------|
 |Group           |The feed for one group | On a team intranet page.|
-|Topic           |All conversations tagged with one topic| On an benefits page on an intranet, show all conversations tagged with #EmployeeDiscount.|
-|User            |All conversations that include messages from the specified user|On a directory page for the user.|
-|My Feed         |The user's home feed   | On a user's My site or home page.   |
-|Open Graph       |Conversations about a specific file or other OpenGraph object|Collecting feedback page on a proposal.     | 
-
-You can also use the Yammer Embed widget to put Yammer **Like** and **Follow** buttons on a SharePoint page.
+|Topic|All conversations tagged with one topic| On an benefits page on an intranet, show all conversations tagged with #EmployeeDiscount.|
+|User|All conversations that include messages from the specified user|On a directory page for the user.|
+|My Feed|The user's home feed|On a user's My site or home page.|
+|Open Graph|Connect a specific file or other OpenGraph object to Yammer|Collecting feedback page on a proposal.| 
 
 For each feed type, you can select options including the size of the box displaying the feed, and whether the background is dark or light.
 
@@ -82,7 +80,7 @@ There are two options:
 
         - **User**: All conversations that include messages from the specified user.
 
-        - **Open Graph**: Use this to show all conversations about a specific object such as a file or folder or image. It can also be used to embed a **Like** or **Follow** button on the page. For information about inserting these buttoons, see  [Embed](https://go.microsoft.com/fwlink/p/?LinkId=507501) in the [Yammer Developer Center](https://go.microsoft.com/fwlink/p/?LinkId=507502). 
+        - **Open Graph**: Use this to show all conversations about a specific OpenGraph object such as a file or folder or image. It can also be used to embed a **Like** or **Follow** button on the page. For information about inserting these buttons, see  [Embed](https://go.microsoft.com/fwlink/p/?LinkId=507501) in the [Yammer Developer Center](https://go.microsoft.com/fwlink/p/?LinkId=507502). 
 
     - **Feed ID**: The ID you identified in Step 2 above for the specific Yammer group, topic, or user. This should be left blank if you select **My Feed** as the feed type.
 
@@ -95,12 +93,11 @@ There are two options:
         - **Show header**:  Displays a header on the page. The content of the header depends on the **Hide network in header** setting.
         - **Show footer**: Displays a footer showing the person's name and a **log out** link.
         - **Hide network in header**: If selected, the header includes **Yammer conversations". If not selected, the header shows the company name 
+        - **Theme** : Use a light or dark background for the embedded Yammer conversations. This does not work in all browsers.
 
-    - **Theme** : Use a light or dark background for the embedded Yammer conversations. This does not work in all browsers.
-    - 
 4. If you selected an Open Graph feed, select the **OpenGraph settings** options.
-    - **OpenGraphURL**
-    - **OpenGraph type** Select Page, Audio, Department, Document, File, Folder, Image, Person, Place, Project, Team, or Video. 
+    - **OpenGraphURL**  The URL you want to connect to Yammer.
+    - **OpenGraph type** The type of object: **Page**, **Audio**, **Department**, **Document**, **File**, **Folder**, **mage**, **Person**, **Place**, **Project**, **Team**, or **Video**. 
     - **Show preview**
     - **Fetch metadata**
     - **Mark as "private"**
