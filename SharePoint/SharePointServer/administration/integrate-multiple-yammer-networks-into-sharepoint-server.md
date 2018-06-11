@@ -70,7 +70,7 @@ After you disable the default SharePoint Server social features, you should [use
 
 #### Concepts
 
-[Integrate Yammer with on-premises SharePoint Server environments](integrate-yammer-with-on-premises-sharepoint-environments.md)
+[Integrate Yammer with on-premises SharePoint Server environments](integrate-yammer-with-on-premises-sharepoint-server-environments.md)
   
 [Social scenarios with Yammer and SharePoint Server](social-scenarios-with-yammer-and-sharepoint-server.md)
 #### Other Resources

@@ -118,7 +118,7 @@ There are two options:
 
 ## See also
 
-[Yammer integration in the SharePoint Add-in model](../dev/solution-guidance/yammer-integration-sharepoint-add-in)
+[Yammer integration in the SharePoint Add-in model](../dev/solution-guidance/yammer-integration-sharepoint-add-in.md)
 
 #### Concepts
 

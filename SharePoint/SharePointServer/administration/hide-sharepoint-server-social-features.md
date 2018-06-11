@@ -340,5 +340,5 @@ The SharePoint Server 2013 Content Publishing team thanks Vidya Srinivasan and B
 
 #### Concepts
 
-[Integrate Yammer with on-premises SharePoint Server environments](integrate-yammer-with-on-premises-sharepoint-environments.md)
+[Integrate Yammer with on-premises SharePoint Server environments](integrate-yammer-with-on-premises-sharepoint-server-environments.md)
 
