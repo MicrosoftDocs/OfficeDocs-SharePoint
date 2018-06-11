@@ -3,7 +3,7 @@ title: "Hide SharePoint Server social features"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 6/5/18
+ms.date: 6/11/18
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -82,7 +82,7 @@ When you follow the steps in this article, the following enterprise social featu
     > [!IMPORTANT]
     > When the changes in this article are deployed, users can continue to use and fill in fields in the **Newsfeed Settings** page. But the information is no longer shown on My Site. However, information in the **Basic Information** and **Contact Information** pages are still shown on My Site. 
   
-##Remove Newsfeed Web Parts in SharePoint Server 2016
+##SharePoint Server 2016
 Remove Newsfeed Web Parts in team sites and My Sites.
 
 ###Remove Newsfeed Web Parts from Team Sites in SharePoint Server 2016
@@ -111,8 +111,8 @@ If you have configured My Site for SharePoint Server 2016, you need to remove th
     
 4. Repeat steps 2-4 for the **Followed Counts** and **Trending Hashtags** Web Parts. 
 
-## Remove Newsfeed Web Parts in SharePoint Server 2013
-Remove Newsfeed Web Parts in team sites and My Sites.
+## SharePoint Server 2013
+Remove Newsfeed Web Parts in team sites and My Sites, and hide user interface controls that provide social features.
 
 ### Remove Newsfeed Web Parts from Team Sites in SharePoint Server 2013
 <a name="proc2"> </a>
