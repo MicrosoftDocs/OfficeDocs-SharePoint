@@ -17,7 +17,7 @@ description: "Summary: Learn about common scenarios for integrating Yammer with 
 
  **Summary:** Learn about common scenarios for integrating Yammer with SharePoint Server. 
   
-This section provides links to common scenarios and the specific steps you need to take to integrate your SharePoint Server 2016 or SharePoint Server 2013 environment that uses the cloud-based Yammer service. Depending on your current environment and the state of your Yammer deployment, the steps will vary.
+This article provides links to common scenarios and the specific steps you need to take to integrate your SharePoint Server 2016 or SharePoint Server 2013 environment with the cloud-based Yammer service. Depending on your current environment and the state of your Yammer deployment, the steps will vary.
   
 We recommend that you reserve some time to complete all of the steps for the scenario that you choose to implement, and, if applicable, get the IT help you need. 
   
