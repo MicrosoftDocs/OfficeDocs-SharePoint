@@ -3,7 +3,7 @@ title: "Add Yammer to the navigation bar for SharePoint Server"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 6/5/2018
+ms.date: 6/11/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -32,7 +32,7 @@ The user account that is performing this procedure must be a member of the Farm 
      After a few minutes, the **Activate Yammer** button goes away.
 
 4. Verify that Yammer is selected by clicking the Office 365 icon. You should see the Yammer tile rather than the Newsfeed tile.
-     ![Office 365 navigation showing the Yammer tile](../media/Yammer_Tile SharePoint.PNG)
+    ![SharePoint navigation showing the Yammer tile](../media/yammer-tile-sharepoint.png)
 
 ##In SharePoint Server 2013 running Service Pack 1 for SharePoint Server 2013, change the link on the top navigation bar
 

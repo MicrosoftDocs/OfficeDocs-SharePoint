@@ -3,7 +3,7 @@ title: "Integrate a Yammer network into SharePoint Server and Office 365"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 6/5/2018
+ms.date: 6/11/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -22,7 +22,7 @@ This scenario describes the prerequisites and recommended steps to integrate a Y
 
 For this scenario, we assume that:
   
-- You have SharePoint Server 2016, or SharePoint Server 2013 SP1 or later installed.
+- You have SharePoint Server 2016 or SharePoint Server 2013 SP1 or later installed.
     
 - You have an existing Office 365 tenant and a Yammer network.
     

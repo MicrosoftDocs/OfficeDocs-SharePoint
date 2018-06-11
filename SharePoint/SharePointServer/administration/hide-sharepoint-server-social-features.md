@@ -82,9 +82,10 @@ When you follow the steps in this article, the following enterprise social featu
     > [!IMPORTANT]
     > When the changes in this article are deployed, users can continue to use and fill in fields in the **Newsfeed Settings** page. But the information is no longer shown on My Site. However, information in the **Basic Information** and **Contact Information** pages are still shown on My Site. 
   
-##Change settings in SharePoint Server 2016
+##Remove Newsfeed Web Parts in SharePoint Server 2016
+Remove Newsfeed Web Parts in team sites and My Sites.
 
-## Remove Web Parts from Team Sites in SharePoint Server 2016
+###Remove Newsfeed Web Parts from Team Sites in SharePoint Server 2016
 Each site admin must apply the following steps to their site.
 
 1. From any site in SharePoint Server 2016 that has a Newsfeed web part, select **Edit**. 
@@ -99,8 +100,40 @@ Each site admin must apply the following steps to their site.
     
 6. Check that the Team Site does not show the removed Web Parts.
 
-## Change settings in SharePoint Server 2013
-### Remove Web Parts from My Sites in SharePoint Server 2013
+###Remove Newsfeed Web Parts from My Sites in SharePoint Server 2016
+
+If you have configured My Site for SharePoint Server 2016, you need to remove the Newseed web part from each My Site. A My Site host admin has to apply the following steps to each server in the server farm.
+1. Move the pointer over the **Newsfeed** Web Part, and select the box that appears on the right side of the Web Part. 
+    
+2. On the ribbon, choose the **Web Part** tab, and then choose **Delete**.
+    
+3. Choose **OK**.
+    
+4. Repeat steps 2-4 for the **Followed Counts** and **Trending Hashtags** Web Parts. 
+
+## Remove Newsfeed Web Parts in SharePoint Server 2013
+Remove Newsfeed Web Parts in team sites and My Sites.
+
+### Remove Newsfeed Web Parts from Team Sites in SharePoint Server 2013
+<a name="proc2"> </a>
+
+As the site collection admin, you have to follow these steps on each team site that you want to remove the site feed from.
+  
+1. Browse to the team site from which you want to remove the site feed, choose **Settings**, and then choose **Edit Page**.
+    
+2. Hover over the **Site Feed** Web Part, and select the box that appears to the right of the Web Part. 
+    
+3. On the ribbon, choose the **Web Part** tab, and then choose **Delete**.
+    
+4. Choose **OK**.
+    
+5. On the ribbon, choose **Save**.
+    
+6. Check that the team site no longer shows the **Site Feed** Web Part. 
+    
+     ![Team sites home page with Newsfeed removed](../media/TeamsiteshomepagewithNewsfeedremoved.GIF)
+
+### Remove Newsfeed Web Parts from My Sites in SharePoint Server 2013
 <a name="proc1"> </a>
 
 A My Site host admin has to apply the following steps to each web server in the server farm.
@@ -142,24 +175,7 @@ A My Site host admin has to apply the following steps to each web server in the 
     
      ![The "About Me" page with Newsfeed removed](../media/AboutMepagewithNewsfeedremoved.GIF)
   
-### Remove Newsfeed Web Parts from Team Sites in SharePoint Server 2013
-<a name="proc2"> </a>
 
-As the site collection admin, you have to follow these steps on each team site that you want to remove the site feed from.
-  
-1. Browse to the team site from which you want to remove the site feed, choose **Settings**, and then choose **Edit Page**.
-    
-2. Hover over the **Site Feed** Web Part, and select the box that appears to the right of the Web Part. 
-    
-3. On the ribbon, choose the **Web Part** tab, and then choose **Delete**.
-    
-4. Choose **OK**.
-    
-5. On the ribbon, choose **Save**.
-    
-6. Check that the team site no longer shows the **Site Feed** Web Part. 
-    
-     ![Team sites home page with Newsfeed removed](../media/TeamsiteshomepagewithNewsfeedremoved.GIF)
   
 ### Hide user interface controls that provide social features in SharePoint Server 2013
 <a name="proc3"> </a>
@@ -309,10 +325,10 @@ If your My Site uses a custom Master Page, follow the steps in _Register the CSS
   
 24. Browse to the **Newsfeed** page to check that the controls are no longer shown on the page. 
     
-### Additional steps
+## Additional steps
 <a name="more"> </a>
 
-To finish the integration of Yammer into your on-premises SharePoint Server 2013 environment, you have to install the Yammer Embed widget for SharePoint. For more information, see [Add the Yammer Embed widget to a SharePoint page](add-the-yammer-embed-widget-to-a-sharepoint-page.md).
+To finish the integration of Yammer into your on-premises SharePoint Server environment, you have to install the Yammer Embed widget for SharePoint. For more information, see [Add the Yammer Embed widget to a SharePoint page](add-the-yammer-embed-widget-to-a-sharepoint-page.md).
   
 ## Acknowledgements
 <a name="more"> </a>

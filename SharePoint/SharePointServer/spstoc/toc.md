@@ -683,7 +683,7 @@
 ###### [SharePoint Intranet Farm in Azure Phase 5: Create the availability group and add the SharePoint databases](../administration/sharepoint-intranet-farm-in-azure-phase-5-create-the-availability-group-and-add.md)
 ### [Integrate Yammer with on-premises SharePoint Server](../administration/integrate-yammer-with-on-premises-sharepoint-server-environments.md)
 #### [Yammer networks, groups, and users overview](../administration/yammer-networks-groups-and-users-overview.md)
-#### [Social scenarios with Yammer and SharePoint Server](../administration/social-scenarios-with-yammer-and-sharepoint-server-2013.md)
+#### [Social scenarios with Yammer and SharePoint Server](../administration/social-scenarios-with-yammer-and-sharepoint-server.md)
 ##### [Integrate a new Yammer network into SharePoint Server](../administration/integrate-a-new-yammer-network-into-sharepoint-server.md)
 ##### [Integrate a single Yammer network into SharePoint Server](../administration/integrate-a-single-yammer-network-into-sharepoint-server.md)
 ##### [Integrate multiple Yammer networks into SharePoint Server](../administration/integrate-multiple-yammer-networks-into-sharepoint-server.md)

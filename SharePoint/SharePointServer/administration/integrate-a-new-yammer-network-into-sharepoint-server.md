@@ -3,7 +3,7 @@ title: "Integrate a new Yammer network into SharePoint Server"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 6/5/2018
+ms.date: 6/11/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -51,12 +51,6 @@ For more information, see [Plan for directory synchronization for Office 365](ht
 ## Step 4: Disable default SharePoint Server social features
 
 After you set up directory synchronization, [disable the default SharePoint Server social features](hide-sharepoint-server-social-features.md).
-  
-If your organization wants to upgrade and migrate to SharePoint Server, see the following articles:
-  
-- [Overview of the upgrade process to SharePoint Server 2013](../upgrade-and-update/overview-of-the-upgrade-process.md)
-    
-- [Upgrade to SharePoint Server 2016](../upgrade-and-update/upgrade-to-sharepoint-server-2016.md)
     
 ## Step 5: Use Yammer Embed
 

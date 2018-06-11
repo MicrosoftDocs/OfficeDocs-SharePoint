@@ -3,7 +3,7 @@ title: "Add the Yammer Embed widget to a SharePoint page"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 6/5/18
+ms.date: 6/11/18
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro

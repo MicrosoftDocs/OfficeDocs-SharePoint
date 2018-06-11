@@ -3,7 +3,7 @@ title: "Integrate multiple Yammer networks into SharePoint Server"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 6/5/2018
+ms.date: 6/11/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
