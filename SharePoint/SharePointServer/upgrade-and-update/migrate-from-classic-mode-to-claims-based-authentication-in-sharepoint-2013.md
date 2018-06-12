@@ -100,12 +100,12 @@ After you complete the previous procedures, you might experience one or more of 
   
  **To migrate a claims-based SharePoint 2010 Products web application to SharePoint 2013**
   
-1. In SharePoint 2013, create a claims-based web application. For more information, see [Create claims-based web applications in SharePoint Server](http://technet.microsoft.com/library/83496762-172a-44a4-bf57-1d7ea8008d7d%28Office.14%29.aspx).
+1. In SharePoint 2013, create a claims-based web application. For more information, see [Create claims-based web applications in SharePoint Server](https://docs.microsoft.com/en-us/SharePoint/security-for-sharepoint-server/create-claims-based-web-applications).
     
 2. Attach the two existing SharePoint 2010 Products content databases to the newly created SharePoint 2013 claims-based web application. For more information, see [Attach or detach content databases in SharePoint Server](../administration/attach-or-detach-content-databases.md).
     
     > [!NOTE]
-    > When you attach the SharePoint 2010 Products content databases to the SharePoint 2013 claims-based web application, the databases will be upgraded to the SharePoint 2013 database format. You have to verify that the content databases work correctly after you attach them. 
+    > When you attach the SharePoint 2010 Products content databases to the SharePoint 2013 claims-based web application, the databases will be upgraded to the SharePoint 2013 database format but will not be claims-enabled.
   
 ## Convert SharePoint 2010 Products classic-mode web applications to SharePoint 2013 claims-based web applications
 <a name="section1"> </a>
@@ -133,31 +133,32 @@ In SharePoint 2013, complete the following procedure to convert an existing Shar
   
 2. In the SharePoint 2013 environment, on the **Start** menu, click **All Programs**.
     
-3. Click **SharePoint 2016**.
+3. Click **SharePoint 2013**.
     
-4. Click **SharePoint 2016 Management Shell**.
+4. Click **SharePoint 2013 Management Shell**.
     
 5. Change to the directory where you saved the file.
     
 6. At the PowerShell command prompt, type the following command:
     
   ```
-  New-SPWebApplication -name "ClassicAuthApp" -Port 100 -ApplicationPool "ClassicAuthAppPool" -ApplicationPoolAccount (Get-SPManagedAccount "<domainname>\<user>")
+  $ap = New-SPAuthenticationProvider -UseWindowsIntegratedAuthentication -DisableKerberos
+  New-SPWebApplication -name "ClaimsWebApp" -Port 80 -ApplicationPool "ClaimsAuthAppPool" -ApplicationPoolAccount (Get-SPManagedAccount "<domainname>\<user>") -AuthenticationMethod NTLM -AuthenticationProvider $ap
   ```
 
     Where:
     
   -  _\<domainname\>_\ _\<user\>_ is the domain to which the server belongs and the name of the user account. 
     
-7. Attach the two existing SharePoint 2010 Products content databases to the new SharePoint 2013 classic-mode web application. For more information, see [Attach or detach content databases in SharePoint Server](../administration/attach-or-detach-content-databases.md).
+7. Attach the two existing SharePoint 2010 Products content databases to the new SharePoint 2013 claims-mode web application. For more information, see [Attach or detach content databases in SharePoint Server](../administration/attach-or-detach-content-databases.md).
     
     > [!NOTE]
-    > When you attach the SharePoint 2010 Products content databases to the SharePoint 2013 classic-mode web application, the databases are upgraded to the SharePoint 2013 database format. You have to verify that the content databases work correctly after you have attached them. 
+    > When you attach the SharePoint 2010 Products content databases to the SharePoint 2013 claims-mode web application, the databases are upgraded to the SharePoint 2013 database format. You have to verify that the content databases work correctly after you have attached them. 
   
 8. From the PowerShell command prompt, type the following:
     
   ```
-  Convert-SPWebApplication -Identity <yourWebAppUrl> -To Claims -RetainPermissions [ -Force]
+  Convert-SPWebApplication -Identity <yourWebAppUrl> -From Legacy -To Claims -RetainPermissions [-Force]
   ```
 
     Where:
@@ -165,17 +166,17 @@ In SharePoint 2013, complete the following procedure to convert an existing Shar
   -  _\<yourWebAppUrl\>_ is the URL of the web application. 
     
     > [!NOTE]
-    > **Convert-SPWebApplication** converts the web application to claims-based authentication. You have to verify that the users can access the web application after you have converted it. 
+    > **Convert-SPWebApplication** converts the content databases to claims-based authentication. You have to verify that the users can access the web application after you have converted the content databases. 
   
-9. If necessary, attach a third SharePoint 2010 Products content database to the new SharePoint 2013 classic-mode web application, and verify that the content database working correctly after you have attached it.
+9. If necessary, attach a third SharePoint 2010 Products content database to the new SharePoint 2013 claims-mode web application, and verify that the content database working correctly after you have attached it.
     
 10. From the PowerShell command prompt, type the following:
     
   ```
-  Convert-SPWebApplication -Identity yourWebAppUrl -To Claims -RetainPermissions [ -Force]
+  Convert-SPWebApplication -Identity <yourWebAppUrl> -From Legacy -To Claims -RetainPermissions [-Force]
   ```
 
-Verify that users can access the web application after you have converted it to claims-based authentication.For more information, see New-SPWebApplication, Get-SPManagedAccount, and Convert-SPWebApplication.
+Verify that users can access the web application after you have converted the content databases to claims-based authentication. For more information, see New-SPWebApplication, Get-SPManagedAccount, and Convert-SPWebApplication.
   
 ## Convert SharePoint 2013 classic-mode web applications to claims-based web applications
 <a name="section1"> </a>
@@ -232,7 +233,7 @@ In SharePoint 2013, complete the following procedures to first create a classic-
 - From the PowerShell command prompt, type the following:
     
   ```
-  Convert-SPWebApplication -Identity "http:// <servername>:port" -To Claims -RetainPermissions [-Force]
+  Convert-SPWebApplication -Identity "http:// <servername>:port" -From Legacy -To Claims -RetainPermissions [-Force]
   ```
 
     Where:
