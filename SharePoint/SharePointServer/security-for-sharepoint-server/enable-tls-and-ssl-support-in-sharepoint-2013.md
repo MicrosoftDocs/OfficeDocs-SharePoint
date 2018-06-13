@@ -19,7 +19,7 @@ description: "Summary: This article describes how to enable Transport Layer Secu
 
  **Summary:** This article describes how to enable Transport Layer Security (TLS) protocol versions 1.1 and 1.2 in a SharePoint 2013 environment. 
   
-TLS protocol version 1.1 and 1.2 support is not enabled by default in SharePoint Server 2016. To enable support, you'll have to install updates and change configuration settings  *once*  in each of the following locations: 
+TLS protocol version 1.1 and 1.2 support is not enabled by default in SharePoint Server 2013. To enable support, you'll have to install updates and change configuration settings  *once*  in each of the following locations: 
   
 1. SharePoint servers in your SharePoint farm
     
@@ -48,7 +48,7 @@ Follow these steps to update your SharePoint server.
 |[1.4 - Install SQL Server 2008 R2 Native Client update for TLS 1.2 support](http://technet.microsoft.com/library/6eb922f2-8022-4fb8-968a-d1b3959e53b6.aspx#InstallSQL) <br/> |Required  <br/> |Required  <br/> |Required  <br/> |
 |[1.5 - Install .NET Framework 4.6 or higher](http://technet.microsoft.com/library/6eb922f2-8022-4fb8-968a-d1b3959e53b6.aspx#InstallNET46) <br/> |Required  <br/> |Required  <br/> |Required  <br/> |
 |[1.6 - Enable strong cryptography in .NET Framework 4.6 or higher](http://technet.microsoft.com/library/6eb922f2-8022-4fb8-968a-d1b3959e53b6.aspx#CryptoNet45) <br/> |Required  <br/> |Required  <br/> |Required  <br/> |
-|The following ﻿steps are **recommended**. Although not directly required by SharePoint Server 2016, they may be necessary for other software ﻿that integrates with SharePoint Server 2016.  <br/> |
+|The following ﻿steps are **recommended**. Although not directly required by SharePoint Server 2013, they may be necessary for other software ﻿that integrates with SharePoint Server 2013.  <br/> |
 |[1.7 - Install .NET Framework 3.5 update for TLS 1.1 and TLS 1.2 support](http://technet.microsoft.com/library/6eb922f2-8022-4fb8-968a-d1b3959e53b6.aspx#InstallFrame46) <br/> |Recommended  <br/> |Recommended  <br/> |Recommended  <br/> |
 |[1.8 - Enable strong cryptography in .NET Framework 3.5](http://technet.microsoft.com/library/6eb922f2-8022-4fb8-968a-d1b3959e53b6.aspx#EnableCryptoFrame35) <br/> |Recommended  <br/> |Recommended  <br/> |Recommended  <br/> |
 |The following ﻿step is **optional**. You may choose to run this step based on your organization's security and compliance requirements.  <br/> |
@@ -613,7 +613,7 @@ Follow these steps to update your client computers that access your SharePoint s
 |[3.3 - Enable TLS 1.1 and TLS 1.2 support in Internet Explorer](http://technet.microsoft.com/library/6eb922f2-8022-4fb8-968a-d1b3959e53b6.aspx#enableIE2013) <br/> |Required  <br/> |N/A  <br/> |N/A  <br/> |
 |[3.4 - Enable strong cryptography in .NET Framework 4.5 or higher](http://technet.microsoft.com/library/6eb922f2-8022-4fb8-968a-d1b3959e53b6.aspx#enablestrongcrypto4.5) <br/> |Required  <br/> |Required  <br/> |Required  <br/> |
 |[3.5 - Install .NET Framework 3.5 update for TLS 1.1 and TLS 1.2 support](http://technet.microsoft.com/library/6eb922f2-8022-4fb8-968a-d1b3959e53b6.aspx#NETFramework3.5x) <br/> |Required  <br/> |Required  <br/> |Required  <br/> |
-|The following ﻿step is **recommended**. Although not directly required by SharePoint Server 2016, they provide better security by restricting the use of weak encryption algorithms.  <br/> |
+|The following ﻿step is **recommended**. Although not directly required by SharePoint Server 2013, they provide better security by restricting the use of weak encryption algorithms.  <br/> |
 |[3.6 - Enable strong cryptography in .NET Framework 3.5](http://technet.microsoft.com/library/6eb922f2-8022-4fb8-968a-d1b3959e53b6.aspx#Enablecrypto3.5x) <br/> |Recommended  <br/> |Recommended  <br/> |Recommended  <br/> |
 |The following ﻿step is **optional**. You may choose to run this step based on your organization's security and compliance requirements.  <br/> |
 |[3.7 - Disable earlier versions of SSL and TLS in Windows Schannel](http://technet.microsoft.com/library/6eb922f2-8022-4fb8-968a-d1b3959e53b6.aspx#DisableSSL_TLS) <br/> |Optional  <br/> |Optional  <br/> |Optional  <br/> |
