@@ -170,18 +170,29 @@ You may decide that your organization has specific business needs that require y
  
 ## User Adoption
 Develop a plan to prepare your users for the upcoming change. Consideration factors to include in your plan: 
-•	Evangelize the move. Underscore the benefits, the collaborative capabilities, and the reasons for making the move.
-•	End user training.  Provide training to your users on the features in OneDrive and SharePoint Online.
-•	Train your helpdesk.  Before the cutover, train your helpdesk in key features and common user questions.
-•	Prepare for any possible downtime the migration may incur.  
+- **Evangelize the move.** Underscore the benefits, the collaborative capabilities, and the reasons for making the move.
+- **End user training.**  Provide training to your users on the features in OneDrive and SharePoint Online.
+- **Train your helpdesk.**  Before the cutover, train your helpdesk in key features and common user questions.
+- **Prepare for any possible downtime** the migration may incur.
+  
  Develop a plan for sending communications to your user base, providing clear statements of timing, expectations and impact to the individual. Consideration factors:
-•	The migration timeline and how it will impact them. Include any end user calls to action. 
-•	Assure them that if they have content already in OneDrive or SharePoint, that their content is safe and won’t be overwritten. 
-•	Let them know whether individuals can opt-out of the migration process
-Adoption related resources
-•	Microsoft 365 adoption guide: outlining methodology and resources for implementing proven adoption success factors
-•	Posters, email templates: customizable templates to generate internal awareness and excitement
-•	OneDrive and SharePoint video training
-•	OneDrive and SharePoint Quick start training guides: get up and running quickly with the basic info you need to be productive right away 
-Make the Switch! 
-The following articles will help your users “make the switch” from Box to OneDrive. The topics show how you used to do common tasks in Box and how you do the same in OneDrive. 
+
+- The migration timeline and how it will impact them. Include any end user calls to action. 
+- Assure them that if they have content already in OneDrive or SharePoint, that their content is safe and won’t be overwritten. 
+- Let them know whether individuals can opt-out of the migration process
+
+### Adoption related resources
+- Microsoft 365 adoption guide: outlining methodology and resources for implementing proven adoption success factors
+- Posters, email templates: customizable templates to generate internal awareness and excitement
+- OneDrive and SharePoint video training
+- OneDrive and SharePoint Quick start training guides: get up and running quickly with the basic info you need to be productive right away 
+
+### Make the Switch! 
+The following articles will help your users “make the switch” from Box to OneDrive. The topics show how you used to do common tasks in Box and how you do the same in OneDrive.
+
+- Switch to OneDrive from Box 
+- Open with OneDrive
+- Store with OneDrive
+- Work together with OneDrive
+- Learn more about OneDrive
+
