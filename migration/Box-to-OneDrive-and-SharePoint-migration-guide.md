@@ -23,6 +23,7 @@ Most migrations fall into regular phases as described below.  Proven success fac
 
 
 INSERT GRAPHIC
+
 |**Migration Planning**|**Assess and remediate**|**Prepare you OneDrive and SharePoint environment**|**Migrate**|**User onboarding**|
 |:-----|:-----|:-----|:-----|:-----|
 |What goes where|Analyze Box admin reports|Pre-provision Office 365 and users|Review migration offerings|Send regular emails to users|
