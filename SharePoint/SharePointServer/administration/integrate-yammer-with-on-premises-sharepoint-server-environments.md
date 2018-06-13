@@ -16,10 +16,8 @@ description: "Summary: Learn how to add Yammer functionality to a SharePoint Ser
 
  **Summary:** Learn how to add Yammer functionality to a SharePoint environment and how to replace SharePoint Newsfeeds with Yammer. 
  
-Although SharePoint Server provides basic enterprise social features, Yammer provides a richer enterprise social experience to drive increased collaboration and innovation across your organization. You can add Yammer functionality to SharePoint sites by adding it to the navigation bar, replacing SharePoint Server social features with Yammer, and embedding a Yammer feed into SharePoint pages. 
+Although SharePoint Server provides basic enterprise social features, Yammer Enterprise provides a richer enterprise social experience to drive increased collaboration and innovation across your organization. You can add Yammer functionality to SharePoint sites by adding it to the navigation bar, replacing SharePoint Server social features with Yammer, and embedding a Yammer feed into SharePoint pages. 
 
-Yammer comes in two varieties: Yammer Basic and Yammer Enterprise. Yammer Basic is free and available to all users. It lets employees collaborate with other members of their organization. Yammer Enterprise is a premium version that extends an organization's basic Yammer network and is integrated with Office 365. It's available as part of many SharePoint Online and Office 365 plans, and is the recommended version for integration. (See [Office 365 plans](https://go.microsoft.com/fwlink/p/?LinkId=394054).)   
-  
 Before you integrate Yammer into your SharePoint Server  environment, you should learn about:
 - Yammer networks, groups, and users, and how they combine to create a foundation for providing you with a rich Yammer experience within SharePoint. For more information, see [Yammer networks, groups, and users overview](yammer-networks-groups-and-users-overview.md).
 - Directory synchronization and enforcing Office 365 identity in Yammer. By using directory synchronization, your organization can use existing on-premises user accounts. Your organization can also significantly reduce operational costs and give its employees safer and easier access to Yammer. 
