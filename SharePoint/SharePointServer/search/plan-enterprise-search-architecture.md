@@ -21,11 +21,11 @@ Before you set up your enterprise search architecture, there are quite a few thi
   
 Are you familiar with the components of the search system in SharePoint Server, and how they interact? By reading [Overview of search architecture in SharePoint Server](search-architecture-overview.md) and [Search architectures for SharePoint Server 2016](https://download.microsoft.com/download/2/0/8/2081E053-4E56-4B87-87A4-9380D042B95D/SP_2016_Search_Architecture_Model.pdf) (or [Search architectures for SharePoint Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=258643)) before you get going, you'll become familiar with search architecture, search components, search databases, and the search topology. When planning a search architecture, here are some suggestions about what to consider:
   
-1. [Step 1: How much content do I have?](plan-enterprise-search-architecture.md#BKMK_Step1)
+-  [Step 1: How much content do I have?](plan-enterprise-search-architecture.md#BKMK_Step1)
     
-2. [Step 2: What size search architecture for how much content?](plan-enterprise-search-architecture.md#BKMK_Step2)
+- [Step 2: What size search architecture for how much content?](plan-enterprise-search-architecture.md#BKMK_Step2)
     
-3. [Step 3: Which hardware requirements should I be aware of?](plan-enterprise-search-architecture.md#BKMK_AssignHW)
+- [Step 3: Which hardware requirements should I be aware of?](plan-enterprise-search-architecture.md#BKMK_AssignHW)
     
   - [Choose to run the servers physically or virtually](plan-enterprise-search-architecture.md#BKMK_ChoosePhysicalVirtual)
     
@@ -35,7 +35,7 @@ Are you familiar with the components of the search system in SharePoint Server, 
     
   - [Choose how your search architecture supports high availability](plan-enterprise-search-architecture.md#BKMK_HiAvail)
     
-4. [Step 4: How to check that my search architecture performs well?](plan-enterprise-search-architecture.md#BKMK_ConfirmTestPerf)
+- [Step 4: How to check that my search architecture performs well?](plan-enterprise-search-architecture.md#BKMK_ConfirmTestPerf)
     
   - [Test the storage I/O subsystem](plan-enterprise-search-architecture.md#BKMK_TestIOSystem)
     
@@ -161,9 +161,9 @@ This table shows the minimum amount of hardware resources that each application 
    
 <sup>1</sup>The number of CPU cores is specified here, not the number of CPU threads.
   
-<sup>2</sup>With SharePoint Server 2013 the minimum amount of resources needed are 500 GB RAM, 16 GB RAM, and four CPU cores. 
+<sup>2</sup>With SharePoint Server 2013 the minimum amount of resources needed are 500 GB storage, 16 GB RAM, and four CPU cores. 
   
-<sup>3</sup>With SharePoint Server 2016 you can also use 500 GB storage, 16 GB RAM, and four CPU cores, but then each index component can only hold 10 million items and the search farm only supports the same volume of content as a SharePoint Server 2013 search farm. 
+<sup>3</sup>With SharePoint Server 2016 you can also use 300 GB storage, 16 GB RAM, and four CPU cores, but then each index component can only hold 10 million items and the search farm only supports the same volume of content as a SharePoint Server 2013 search farm. 
   
 #### Minimum hardware resources for the medium search farm
 <a name="BKMK_MinHWMedium"> </a>
@@ -180,7 +180,7 @@ This table shows the minimum amount of hardware resources that each application 
    
 <sup>1</sup>The number of CPU cores is specified here, not the number of CPU threads.
   
-<sup>2</sup>With SharePoint Server 2013 the minimum amount of resources needed are 500 GB RAM, 16 GB RAM, and four CPU cores. 
+<sup>2</sup>With SharePoint Server 2013 the minimum amount of resources needed are 500 GB storage, 16 GB RAM, and four CPU cores. 
   
 <sup>3</sup>With SharePoint Server 2016 you can also use 500 GB storage, 16 GB RAM, and four CPU cores, but then each index component can only hold 10 million items and the search farm only supports the same volume of content as a SharePoint Server 2013 search farm. 
   
@@ -199,9 +199,9 @@ This table shows the minimum amount of hardware resources that each application 
    
 <sup>1</sup>The number of CPU cores is specified here, not the number of CPU threads.
   
-<sup>2</sup>With SharePoint Server 2013 the minimum amount of resources needed are 500 GB RAM, 16 GB RAM, and four CPU cores. 
+<sup>2</sup>With SharePoint Server 2013 the minimum amount of resources needed are 500 GB storage, 16 GB RAM, and four CPU cores. 
   
-<sup>3</sup>With SharePoint Server 2016 you can also use 500 GB storage, 16 GB RAM, and four CPU cores, but then each index component can only hold 10 million items and the search farm only supports the same volume of content as a SharePoint Server 2013 search farm. 
+<sup>3</sup>With SharePoint Server 2016 you can also use 300 GB storage, 16 GB RAM, and four CPU cores, but then each index component can only hold 10 million items and the search farm only supports the same volume of content as a SharePoint Server 2013 search farm. 
   
 #### Minimum hardware resources for the extra large search farm
 <a name="BKMK_MinHWExtraLarge"> </a>
