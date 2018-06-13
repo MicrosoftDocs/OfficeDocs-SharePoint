@@ -149,20 +149,39 @@ Below is a typical migration process that follows Microsoft’s best practices g
 2.	Perform the pilot migration. This should use an incremental migration method, in which migration happens in the background with no user impact, followed by a cutover event in which users Box accounts are disabled and they are directed to use the target OneDrive and SharePoint environment. This method is preferred as it reduces user impact.<br><br>
 3.	Understand the data from the pilot migration to determine the remainder of your migration schedule and make any changes. For example, you may update your user communication template to address a question you received from a pilot user.<br><br>
 4.	Perform the remainder of the migration. This should also follow an incremental migration method, just like the pilot. Microsoft recommends a single cutover event for all users to switch to OneDrive and disable their Box accounts. This approach helps to eliminate any confusion resulting from users having to collaborate using both Box and OneDrive and SharePoint at the same time.<br><br>
-!Note: Box has rate limiting in effect, which may impact the scheduling of your migration. Work with your migration provider to understand how these limits affect your migration.
+>[!NOTE]
+>Box has rate limiting in effect, which may impact the scheduling of your migration. Work with your migration provider to understand how these limits affect your migration.
 
 
-### Microsoft migration Best Practices
+### Migration offerings
+Currently, there are a variety of migration offerings available to you. They include:
 
-•	Define your migration plan with your vendor.  We recommend that you have completed your assessment and remediation of your content before you migrate; not after.  
-•	We recommend that you choose an incremental migration plan with a single cutover day.
-•	Convert existing Box groups to security groups.
-•	Schedule users with dependencies in the same batch. Shared content is only migrated if it’s owned by the Box account currently being migrated. 
-•	Build time into the schedule for User Acceptance testing
-•	Be aware of your Box plan and any restrictions you may encounter regarding the number of actions you can perform in any given month. Box has different throttling limits based on your contract ( see Box pricing plans ).  
-o	Starter: 25K Actions/Month
-o	Business: 50K Actions/Month
-o	Enterprise: 100K Actions/Month
-•	Migration speed can be impacted by many factors. Understanding these will help you plan and maximize the efficiency of your migration as you work with your migration vendor.  For more info see:  SharePoint Online and OneDrive Migration Speed 
+**Microsoft FastTrack**
 
+FastTrack is a Microsoft service included in your subscription cost that provides you with a set of best practices, tools, resources, and experts committed to making your experience with the Microsoft Cloud a great one. OneDrive onboarding guidance, migration benefits, and adoption guidance are included in the benefit offering. 
+
+Onboarding guidance includes: help to discover what’s possible, creating a plan for success, and onboarding new users and capabilities at a flexible pace. The Data Migration benefit covers guidance on migrating content from file share, Box, or Google Drive source environments. 
+
+This guidance covers enablement of both OneDrive for Business and the source environment. FastTrack will also perform specific data migration activities on behalf of the customer for those with 500 or more licenses. See more details in the provided FastTrack Center Benefit Overview. Interested in getting started? Visit FastTrack.Microsoft.Com, review resources, and submit a Request for Assistance.
+
+**Migration service providers**
+
+You may decide that your organization has specific business needs that require you to use third-party services or applications to help you execute your migration. Explore the professional services and applications available from partners in the Microsoft Partner Center. There you can find experts to help you in your enterprise content migration to Office 365.  For more information see: Microsoft Partner Center. 
  
+## User Adoption
+Develop a plan to prepare your users for the upcoming change. Consideration factors to include in your plan: 
+•	Evangelize the move. Underscore the benefits, the collaborative capabilities, and the reasons for making the move.
+•	End user training.  Provide training to your users on the features in OneDrive and SharePoint Online.
+•	Train your helpdesk.  Before the cutover, train your helpdesk in key features and common user questions.
+•	Prepare for any possible downtime the migration may incur.  
+ Develop a plan for sending communications to your user base, providing clear statements of timing, expectations and impact to the individual. Consideration factors:
+•	The migration timeline and how it will impact them. Include any end user calls to action. 
+•	Assure them that if they have content already in OneDrive or SharePoint, that their content is safe and won’t be overwritten. 
+•	Let them know whether individuals can opt-out of the migration process
+Adoption related resources
+•	Microsoft 365 adoption guide: outlining methodology and resources for implementing proven adoption success factors
+•	Posters, email templates: customizable templates to generate internal awareness and excitement
+•	OneDrive and SharePoint video training
+•	OneDrive and SharePoint Quick start training guides: get up and running quickly with the basic info you need to be productive right away 
+Make the Switch! 
+The following articles will help your users “make the switch” from Box to OneDrive. The topics show how you used to do common tasks in Box and how you do the same in OneDrive. 
