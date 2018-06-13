@@ -14,9 +14,9 @@ description: "Summary: Use a toggle switch to determine whether to show the Shar
 
 # Add Yammer to the SharePoint Server navigation
 
- **Summary:** Use a toggle switch to determine whether to show the SharePoint Newsfeed link or Yammer on the navigation bar in SharePoint Server. 
+ **Summary:** Show the Yammer tile or the SharePoint Newsfeed link in SharePoint Server navigattion. 
 
-You can choose whether users see a link to Newsfeed or Yammer in the site navigation by using a simple toggle switch.
+You can choose whether users see a link to Yammer or Newsfeed in the site navigation.
 
 The user account that is performing this procedure must be a member of the Farm Administrators group.
 
@@ -24,21 +24,23 @@ The user account that is performing this procedure must be a member of the Farm 
 
 1. Start the SharePoint Central Administration tool.
 
-2. In the **Office 365** section, Choose **Configure Yammer**.
+2. In the **Office 365** section, choose **Configure Yammer**.
 
-3. On the **Yammer Configuration** page, choose **Activate Yammer**. 
+3. On the **Yammer Configuration** page, choose **Activate Yammer**.
+
      ![Yammer Configuration page in Central Admin](../media/yammer-spserver-config.png) 
    
      After a few minutes, the **Activate Yammer** button goes away.
 
 4. Verify that Yammer is selected by clicking the Office 365 icon. You should see the Yammer tile rather than the Newsfeed tile.
+
      ![SharePoint navigation showing the Yammer tile](../media/yammer-tile-sharepoint.png)
 
 ##In SharePoint Server 2013 running Service Pack 1 for SharePoint Server 2013, change the link on the top navigation bar
 
 1. Verify that the user account that is performing this procedure is a member of the Farm Administrators group. 
     
-2. On the Central Administration website, choose **Office 365** > **Configure Yammer**.
+2. On the Central Administration website, in the **Office 365** section, choose **Configure Yammer**.
 
 3. On the **Configure Yammer** page, select **Activate Yammer**. 
      

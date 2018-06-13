@@ -22,7 +22,7 @@ This scenario describes the prerequisites and recommended steps to integrate a s
 
 For this scenario, we assume that:
   
-- You have SharePoint Server 2016, or SharePoint Server 2013 SP1 or later installed.
+- You have SharePoint Server 2016 or SharePoint Server 2013 SP1 or later installed.
     
 - You don't use the SharePoint Server Newsfeed social feature.
     
@@ -57,7 +57,7 @@ For more information, see [Plan for directory synchronization for Office 365](ht
   
 ## Step 2: Disable default SharePoint Server social features
 
-After you set up directory synchronization, [disable the default SharePoint Server 2013 social features](hide-sharepoint-server-social-features.md).
+After you set up directory synchronization, [disable the default SharePoint Server social features](hide-sharepoint-server-social-features.md).
   
 ## Step 3: Use Yammer Embed
 

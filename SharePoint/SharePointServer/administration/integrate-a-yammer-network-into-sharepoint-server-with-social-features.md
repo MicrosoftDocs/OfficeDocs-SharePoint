@@ -34,7 +34,7 @@ Many organizations already use social features in their SharePoint Server instal
   
 A common problem in SharePoint Server 2013 installations is that social features don't work across multiple farms. When you move to a single Yammer network, you eliminate this problem.
   
-Many customers have active SharePoint Communities based on the Community Site Collection template. After you deploy SharePoint Server 2013 SP1), the Community Site Collection template is still available to use. A Community Site resembles a Yammer Group. We recommend that you have the users in these sites start conversations in new Yammer Groups. By using a Yammer Group, a community can share information, ask questions, and seek answers to problems.
+Many customers have active SharePoint Communities based on the Community Site Collection template. After you deploy SharePoint Server 2013 SP1, the Community Site Collection template is still available to use. A Community Site resembles a Yammer Group. We recommend that you have the users in these sites start conversations in new Yammer Groups. By using a Yammer Group, a community can share information, ask questions, and seek answers to problems.
   
 > [!IMPORTANT]
 > There are no tools or processes available to help you move content from a Community Site to a Yammer Group. Going forward, you can keep the data in a Community Site and put a link on the SharePoint Community Site that points to the Yammer group where future discussions will occur. 

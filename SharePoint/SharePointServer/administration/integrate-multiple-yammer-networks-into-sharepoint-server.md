@@ -50,7 +50,7 @@ When you are ready to merge networks:
 - Inform users in the parent network that new users are joining, and encourage current users to welcome the new ones.
     
 > [!NOTE]
->  Consider exporting data before the merge, particularly if your organization adheres to specific data retention policies. You must be a Verified Administrator in Yammer (Enterprise feature only) to perform a data export. >  Yammer does not support any tool or support process to migrate data from one network to the other. 
+>  Consider exporting data before the merge, particularly if your organization adheres to specific data retention policies. You must be a Verified Administrator in Yammer (Enterprise feature only) to perform a data export. Yammer does not support any tool or support process to migrate data from one network to the other. 
   
 ## Step 2: Set up directory synchronization
 

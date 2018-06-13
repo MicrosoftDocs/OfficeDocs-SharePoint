@@ -22,7 +22,7 @@ This scenario describes the prerequisites and recommended steps to integrate a n
 
 For this scenario, we assume that:
   
-- You have SharePoint Server 2016, or SharePoint Server 2013 SP1 or later installed.
+- You have SharePoint Server 2016 or SharePoint Server 2013 SP1 or later installed.
     
 - You don't use the SharePoint Server Newsfeed social feature.
     
@@ -38,7 +38,7 @@ Yammer Enterprise is included in many Office 365 plans, which means that you mig
 
 We recommend that you create one single, central Yammer network. This makes collaboration among all employees easier, and you can invite users from other domains to the primary domain as guests. A single network provides centralized administration, which guarantees consistency across things like policy implementation and management, feature rollout, and scheduled maintenance. If all employees are in one location or are dispersed but share a common email address, use a single Yammer network.
   
-When you set up your network, [Enforce Office 365 identity for Yammer users](https://go.microsoft.com/fwlink/?linkid=875042).
+When you set up your network, [enforce Office 365 identity for Yammer users](https://go.microsoft.com/fwlink/?linkid=875042).
   
 For information about how users are managed in Yammer Enterprise, see [Manage Yammer users across their life cycle from Office 365](https://go.microsoft.com/fwlink/?linkid=875043).
   
@@ -54,7 +54,7 @@ After you set up directory synchronization, [disable the default SharePoint Serv
     
 ## Step 5: Use Yammer Embed
 
-After you disable the default SharePoint Server 2013 social features, you should [use the Yammer embed widget](add-the-yammer-embed-widget-to-a-sharepoint-page.md) to include Yammer feeds on SharePoint pages. 
+After you disable the default SharePoint Server social features, you should [use the Yammer embed widget](add-the-yammer-embed-widget-to-a-sharepoint-page.md) to include Yammer feeds on SharePoint pages. 
   
 ## See also
 

@@ -40,7 +40,7 @@ For instructions, see [Add Yammer to the navigation bar for SharePoint Server](a
   
 ## Use Yammer instead of SharePoint Newsfeed features
 
-To take advantage of the features that are provided by Yammer, it's a good idea to replace the default SharePoint Server 2013 enterprise social features with equivalent Yammer features. You can remove the SharePoint Server social web parts from My Sites and team sites, and you can hide the user interface controls that provide social functionality.
+To take advantage of the features that are provided by Yammer, it's a good idea to replace the default SharePoint Server enterprise social features with equivalent Yammer features. You can remove the SharePoint Server social web parts from My Sites and team sites, and you can hide the user interface controls that provide social functionality.
   
 ![Yammer home feed on a My Site page](../media/Yammerhomefeed.gif)
   
@@ -62,7 +62,8 @@ For more information, see [Social scenarios with Yammer and SharePoint Server](s
 
 #### Other Resources
 
-[Yammer Customer Success Center](https://go.microsoft.com/fwlink/p/?LinkID=331300)
-  
 [Yammer - Admin Help](https://go.microsoft.com/fwlink/?linkid=525575)
+
+[Yammer Customer Success Center](https://go.microsoft.com/fwlink/p/?LinkID=331300)
+
 
