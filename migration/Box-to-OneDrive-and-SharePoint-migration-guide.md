@@ -88,12 +88,10 @@ The following table maps your current Box sharing experience with OneDrive or Sh
 
 |**Box**|**OneDrive or SharePoint Online**|
 |:-----|:-----|
-|Folders or file with only one owner, but more than one contributor|As the owner, content should be migrated to the user's OneDrive folder. Any user who has access to a user's folder will have that folder automatically appear in their **Shared with Me** list.|
+|Folders or file with only one owner, but more than one contributor|As the owner, content should be migrated to the user's OneDrive folder.<br><br>Any user who has access to a user's folder will have that folder automatically appear in their **Shared with Me** list.|
 |Only one owner, but shared with a Box group|As the owner, content will be migrated to the user's OneDrive folder. <br><br>The Box group should be converted to a security group.  <br><br>Email should then be sent to the new security group, where each user can accept the invitation link. Content will then appear in those users **Shared with Me** list.|
 |Folders or file with multiple owners (co-admin in Box)|Content should be migrated to the appropriate SharePoint team site.<br><br>Any user who has access to the team site and follows the team site, will have the team site appear on the left side of their OneDrive view.| 
-|Box folders with contributors who are external to your organization|For prescriptive guidance see the specific ‘External Permission Best Practice’ sub-section. 
-Note: Any content that is shared with a user from another company’s Box instance won’t be migrated.  If the user still wants to retain that content – their Box account will need to remain active. 
-
+|Box folders with contributors who are external to your organization|For prescriptive guidance see the specific External Permission Best Practice section in this document. <br><br>**Note:**  Any content that is shared with a user from another company’s Box instance won’t be migrated.  If the user still wants to retain that content – their Box account will need to remain active.|
 |**Shared with** Box end user experience|Only content that has been explicitly shared with a user will appear in their **Shared with Me** view in OneDrive. <br><br>For content stored in SharePoint: any user who has access to the team site and follows the team site, will have the team site appear on the left side of their OneDrive view.|
 
 ## External permission Best Practices
