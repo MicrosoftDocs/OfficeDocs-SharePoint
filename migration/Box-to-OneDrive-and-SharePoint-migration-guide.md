@@ -17,39 +17,51 @@ ms.assetid:
 ---
 
 # Box to OneDrive and SharePoint Online Migration Guide
-The purpose of this guide is to assist you in preparing for your Box to Office 365 migration.  
+The purpose of this guide is to assist you in preparing for your Box to OneDrive and SharePoint migration.
+
 Most migrations fall into regular phases as described below.  Proven success factors for migration include planning, assessing and remediating, preparing your target environment, migrating and onboarding your users. 
 
+
 INSERT GRAPHIC
+|**Migration Planning**|**Assess and remediate**|**Prepare you OneDrive and SharePoint environment**|**Migrate**|**User onboarding**|
+|:-----|:-----|:-----|:-----|:-----|
+|What goes where|Analyze Box admin reports|Pre-provision Office 365 and users|Review migration offerings|Send regular emails to users|
+|Understanding permissions vs Sharing|Assess key areas||Microsoft FastTrack services|Provide training|
+|What to expect before and after|Remediate issues||Migration service providers|Let uesrs know how they are impacted|
+|Migration and network performance considerations||||Provide documentation for making the switch|
+|Change management and communications|
 
 ## Planning
 Before beginning your migration, it is important that you plan your outcome by performing an assessment of your current source environment. What you discover will influence your overall strategy and timing, including:
-- The design of the target OneDrive and SharePoint Online environment and the mapping between source and target systems. 
-- The amount of content you eventually migrate. Determine if content is redundant, out of date, or still relevant.
+- The design of the target OneDrive and SharePoint environment and the mapping between source and target systems. 
+- The amount of content you migrate. Determine if content is redundant, out of date, or still relevant.
+
 
 ## What content goes where
 Consider how you use the content in your Box accounts today and plan how to transition to the improved Office 365 collaborative experience. 
 
-Let’s first review the benefits that OneDrive and SharePoint provides to understand how each area can best serve your needs. 
+Let’s first review the benefits that OneDrive and SharePoint provide to understand how each can best serve your needs. 
 
-- **OneDrive** is a place where you can store files from your computer into the cloud, and access them from any device, or share them with others. As part of Office 365, OneDrive lets you update and share your files from anywhere and work on Office documents with others at the same time.
-- **SharePoint Online team site**  is a place that users can collaborate on files, documents, and ideas. It is set up to facilitate two-way communication between team members and offers a full range of features to help a team communicate and collaborate.
+- **OneDrive** is personal online storage space in the cloud.  Use it to store and protect your work files while accessing them across multiple devices with ease.  OneDrive files are private by default, but you do have the ability to share files and folders inside and outside your organization.
+
+- A **SharePoint team site** is a place that users can collaborate on files, documents, and ideas. It is set up to facilitate two-way communication between team members and offers a full range of features to help a team communicate and collaborate.
+
+Storing your content in OneDrive and SharePoint allows you to easily share files inside and outside your organization and collaborate on Office documents together in real time with the latest Office desktop, web, and mobile apps.
+
+Additionally, you can use OneDrive on the web, mobile or desktop sync client on PC and Mac to access all your files in Office 365.
 
 Knowing the capabilities of OneDrive and SharePoint, look at the following table to help you determine what content goes where:
 
-|**Ask...**|**OneDrive**|**SharePoint Online site**|
+
+|**Ask...**|**OneDrive**|**SharePoint**|
 |:-----|:-----|:-----|
-|Does the file belong to me alone?|X||
+|Does the file belong to me alone, even though I might share it with others?|X||
 |Is this a file you want to keep private for the time being?|X||
-|Is this a file you want to share with a very limited set of people?|X|X|
-|Does this file/content belong to a larger group, such as Sales or HR?|X|
-|Is there a policy on any of the content|X|
-|Does this content need to be managed by a workflow?|X|
-|Do you need to manage metadata on this content?|X|
-|Will this file need to be shared with someone outside of your company?|X|X|
-|Is there a group of like content that needs to be shared outside your company?|X|
-|Do you have governance policies that control this content?|X|
-|Do you want to leverage the collaborating features in Office 365?|X|X|
+|Does this file/content belong to a larger group, such as project team, department, or division?||X|
+|Does this content need to be managed by a workflow?||X|
+|Do you need to manage metadata on this content?||X|
+|Is this a set of like content that regularly needs to be shared outside your organization?||X|
+|Do you have governance policies (records management, etc) that control this content?||X|
 
 ## Permissions and sharing
 
@@ -71,7 +83,7 @@ Permissions for both services are defined by assigned roles.  The following tabl
 |Previewer|None|
 |Uploader|None|
 
-**Sharing** is an explicit action a user takes to invite another user to collaborate on content. Sharing content implicitly gives that user permission to edit the content as well. Only content that has been explicitly shared with a user (or a group to which they belong) will appear in their *Shared with Me* view in OneDrive.
+**Sharing** is an explicit action a user takes to invite another user to collaborate on content. Sharing content implicitly gives that user permission to edit the content as well. Only content that has been explicitly shared with a user (or a group to which they belong) will appear in their **Shared with Me** view in OneDrive.
 The following table maps your current Box sharing experience with OneDrive or SharePoint.
 
 |**Box**|**OneDrive or SharePoint Online**|
