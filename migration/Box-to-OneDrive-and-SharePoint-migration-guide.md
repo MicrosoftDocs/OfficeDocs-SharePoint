@@ -21,8 +21,7 @@ The purpose of this guide is to assist you in preparing for your Box to OneDrive
 
 Most migrations fall into regular phases as described below.  Proven success factors for migration include planning, assessing and remediating, preparing your target environment, migrating and onboarding your users. 
 
-
-INSERT GRAPHIC
+Insert graphic
 
 |**Migration Planning**|**Assess and remediate**|**Prepare you OneDrive and SharePoint environment**|**Migrate**|**User onboarding**|
 |:-----|:-----|:-----|:-----|:-----|
