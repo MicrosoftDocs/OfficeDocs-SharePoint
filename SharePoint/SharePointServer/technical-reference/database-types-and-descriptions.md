@@ -82,12 +82,12 @@ The configuration database also contains specific data for SharePoint Server far
 |Recommended scaling method  <br/> |Must scale-up because only one configuration database is supported per farm. (Significant growth is unlikely.)  <br/> |
 |Associated health rules  <br/> |None  <br/> |
 |Supported backup tools  <br/> |SharePoint Server backup and restore, SQL Server, and System Center Data Protection Manager. Backing up and restoring the configuration databases is special because of the transaction log. For more information, see [Additional notes](#notes).  <br/> |
-|Default recovery model  <br/> |Full. We recommend that you switch the configuration database to the simple recovery model to restrict growth of the log file.  <br/> |
+|Default recovery model  <br/> |Full. We recommend that you keep the configuration database on the full recovery model and take backups to truncate the log files.  <br/> |
    
 #### Additional notes
 <a name="notes"> </a>
 
- **Transaction log files**. We recommend that you back up the transaction log for the configuration database regularly to force truncation. If you are mirroring your system, then change the database to run in Full recovery mode. For more information, see [The Transaction Log (SQL Server)](http://go.microsoft.com/fwlink/p/?LinkID=715518&amp;clcid=0x409).
+ **Transaction log files**. We recommend that you back up the transaction log for the configuration database regularly to force truncation. If you are mirroring your system, you should also keep the database running in full recovery mode. For more information, see [The Transaction Log (SQL Server)](http://go.microsoft.com/fwlink/p/?LinkID=715518&amp;clcid=0x409).
   
  **Backup and Restore**. The configuration database is backed up when you perform a SharePoint farm configuration and content backup. Note that some configuration settings from the database are exported and stored as XML file. When a farm is restored, the configuration database is not restored. Instead, the saved configuration settings are imported. The configuration database can be successfully backed up and restored by using SQL Server or other tools if the SharePoint farm is first taken offline.
   
