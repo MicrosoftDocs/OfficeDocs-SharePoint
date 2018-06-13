@@ -87,7 +87,7 @@ Permissions for both services are defined by assigned roles.  The following tabl
 **Sharing** is an explicit action a user takes to invite another user to collaborate on content. Sharing content implicitly gives that user permission to edit the content as well. Only content that has been explicitly shared with a user (or a group to which they belong) will appear in their **Shared with Me** view in OneDrive.
 The following table maps your current Box sharing experience with OneDrive or SharePoint.
 
-|**Box**|**OneDrive or SharePoint Online**|
+|**Box**|**OneDrive and SharePoint**|
 |:-----|:-----|
 |Folders or file with only one owner, but more than one contributor|As the owner, content should be migrated to the user's OneDrive folder.<br><br>Any user who has access to a user's folder will have that folder automatically appear in their **Shared with Me** list.|
 |Only one owner, but shared with a Box group|As the owner, content will be migrated to the user's OneDrive folder. <br><br>The Box group should be converted to a security group.  <br><br>Email should then be sent to the new security group, where each user can accept the invitation link. Content will then appear in those users **Shared with Me** list.|
@@ -105,41 +105,22 @@ We’ve touched on Microsoft’s recommendation to not migrate external sharing 
 - If SharePoint<br>
 - Where possible, leverage the collaboration and security benefits of grouping external partner specific content per SharePoint Team site. Read more details in the business to business extranet solution article.  <br> If content cannot be grouped as such, then externally reshare on the file or folder level in the target SharePoint Team site. 
 
-## Change management and communications plan
 
-### Change management
-
-Develop a plan to prepare your users for the upcoming change. Include in your plan: 
-•	Evangelize the move. Underscore the benefits, the collaborative capabilities, and the reasons for making the move.
-•	End user training.  Provide training to your users on the features in OneDrive and SharePoint Online.
-•	Train your helpdesk.  Before the cutover, train your helpdesk in key features and common user questions.
-•	Prepare for any possible downtime the migration may incur.  
-
-### Communication plan
-
-Develop a plan for sending communications to your user base, providing clear statements of timing, expectations and impact to the individual.  See the Onboarding your users section below for messaging suggestions.
 
 
 ## Prepare your OneDrive and SharePoint Online environment
 
 Before migrating your Box content, you must pre-provision your users in OneDrive and SharePoint Online For guidance on pre-provisioning see: 
 - Prepare to provision users through directory synchronization to Office 365
-- Pre-provision OneDrive for users in your organization .
-
-### Admin settings and policies
-After provisioning your users, plan how you want to what your SharePoint sites and OneDrive accounts to be configured.  This includes your mobile device settings and access, default sharing settings, and site ownership. 
-
-In addition
-- Set permissions so a 3rd party tool can migrate
-- Change default settings to allow special characters (those not enabled by default)
-- For your migration it is necessary to have connectivity between corpnet and Office 365.
-- Configure the firewall and proxy for SharePoint Online and OneDrive access: Office 365 URLs and IP address ranges. 
+- Pre-provision OneDrive for users in your organization.
+- •	Configure the firewall and proxy for SharePoint and OneDrive access: Office 365 URLs and IP address ranges. 
 
 
 ## Assess and remediate your content
-Before beginning your migration, it is important that you perform an analysis of your current environment.  Only you know your data and how and who uses it.  Think about how and what Box features you use in production. 
+Before beginning your migration, it is important that you perform an analysis of your current environment.  Only you know your data and how and who uses it.  Think about how and what Box features you use in production.
+ 
+The following are recommended assessments.  All can be performed using Box’s Folders and Files admin report. Run this report and use its results to perform these assessments. Remediate your content on the source before beginning your migration to save time and effort later.
 
-The following are recommended assessments can all be performed using Box’s Folders and Files admin report. Run this report and use its results to perform these assessments. Remediate your content on the source before beginning your migration to save time and effort later.
 
 ### File Extensions
 #### Assess
