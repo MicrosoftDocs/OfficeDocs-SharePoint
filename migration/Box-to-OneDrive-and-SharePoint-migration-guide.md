@@ -83,6 +83,7 @@ Permissions for both services are defined by assigned roles.  The following tabl
 |Previewer|None|
 |Uploader|None|
 
+
 **Sharing** is an explicit action a user takes to invite another user to collaborate on content. Sharing content implicitly gives that user permission to edit the content as well. Only content that has been explicitly shared with a user (or a group to which they belong) will appear in their **Shared with Me** view in OneDrive.
 The following table maps your current Box sharing experience with OneDrive or SharePoint.
 
