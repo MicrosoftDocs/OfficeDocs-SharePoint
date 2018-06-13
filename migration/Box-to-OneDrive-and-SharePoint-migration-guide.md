@@ -123,29 +123,34 @@ The following are recommended assessments.  All can be performed using Box’s F
 
 
 ### File Extensions
-#### Assess
-Find all files in the Folders and Files report whose Path ends in one of the extensions defined here: Types of files that cannot be added to a list or library.
-#### Remediate
-Turn scripting capability on in OD/SP as described here: Allow or prevent custom script. Make sure you understand why these files are blocked by default as described here: Security considerations of allowing custom script.
-### File and Folder Name Characters
-#### Assess
-Find all items in the Folders and Files report whose name contains any of the characters detailed here: Restrictions and limitations when you sync SharePoint libraries to your computer through OneDrive.
-#### Remediate
-Work with your migration vendor to substitute these characters in all file and folder names.
-Note that the # and % characters are supported but not enabled by default. Follow these steps to enable them: New support for # and % in SharePoint Online and OneDrive .
-### File and Folder Path Length
-#### Assess
-Find all items in the Folders and Files report whose Path exceeds the file path length described here: SharePoint Online limits. 
-#### Remediate
-Work with your migration vendor to reorganize your file and folder structure such that it does not exceed this limit. Splitting large drives that serve several scenarios into multiple smaller, more focused drives may help here.
+|**Assess**|**Remediate**|
+|:-----|:-----|
+|Find all files in the Folders and Files report whose Path ends in one of the extensions defined here: Types of files that cannot be added to a list or library.|Turn scripting capability on in OD/SP as described here: Allow or prevent custom script. Make sure you understand why these files are blocked by default as described here: Security considerations of allowing custom script.|
 
+### File and Folder Name Characters
+|**Assess**|**Remediate**|
+|:-----|:-----|
+|Find all items in the Folders and Files report whose name contains any of the characters detailed here: Restrictions and limitations when you sync SharePoint libraries to your computer through OneDrive.|Work with your migration vendor to substitute these characters in all file and folder names.<br><br>**Note:** The # and % characters are supported but not enabled by default. Follow these steps to enable them: New support for # and % in SharePoint Online and OneDrive.|
+
+### File and Folder Path Length
+|**Assess**|**Remediate**|
+|:-----|:-----|
+|Find all items in the *Folders and Files* report whose Path exceeds the file path length described here: SharePoint Online limits.|Work with your migration vendor to reorganize your file and folder structure such that it does not exceed this limit. Splitting large drives that serve several scenarios into multiple smaller, more focused drives may help here.|
+
+### Large drives and complex sharing
+|**Assess**|**Remediate**|
+|:-----|:-----|
+|Scan for any drives that have a very large amount of content, or many different unique sharing permissions – this is usually a sign that the drive should be broken down into smaller, more focused sites. <br><br>Specifically, any drive that has more than 50,000 documents shared with different users must be broken up. Use Box’s Folders and Files report and Shared Links report to identify such drives.|Identify sets of content within these drives that are conceptually similar (same project area, all shared with the same users, etc). Move these sets of content out and into new drives before starting migration.|
 ## Migrate
 
-### Migration offerings
-Currently, there are a variety of migration offerings available to you. They include
-- Microsoft FastTrack Benefit
-- 3rd Party vendors
-- API’s
+### Migration process
+Below is a typical migration process that follows Microsoft’s best practices guidance.
+1.	Select a small set of users for a pilot migration. The goal of the pilot is to validate the process, including performance, user communication, and to get a sample of user feedback.<br><br>
+2.	Perform the pilot migration. This should use an incremental migration method, in which migration happens in the background with no user impact, followed by a cutover event in which users Box accounts are disabled and they are directed to use the target OneDrive and SharePoint environment. This method is preferred as it reduces user impact.<br><br>
+3.	Understand the data from the pilot migration to determine the remainder of your migration schedule and make any changes. For example, you may update your user communication template to address a question you received from a pilot user.<br><br>
+4.	Perform the remainder of the migration. This should also follow an incremental migration method, just like the pilot. Microsoft recommends a single cutover event for all users to switch to OneDrive and disable their Box accounts. This approach helps to eliminate any confusion resulting from users having to collaborate using both Box and OneDrive and SharePoint at the same time.<br><br>
+!Note: Box has rate limiting in effect, which may impact the scheduling of your migration. Work with your migration provider to understand how these limits affect your migration.
+
 
 ### Microsoft migration Best Practices
 
