@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 0d32d946-52d0-4913-bfdb-d3c1193cfc4a
-description: "Summary: Use a toggle switch to determine whether to show the SharePoint Newsfeed or Yammer in SharePoint Server navigation."
+description: "Summary: Show the Yammer tile or the SharePoint Newsfeed link in SharePoint Server navigation."
 ---
 
 # Add Yammer to the SharePoint Server navigation
 
- **Summary:** Show the Yammer tile or the SharePoint Newsfeed link in SharePoint Server navigattion. 
+ **Summary:** Show the Yammer tile or the SharePoint Newsfeed link in SharePoint Server navigation. 
 
 You can choose whether users see a link to Yammer or Newsfeed in the site navigation.
 
