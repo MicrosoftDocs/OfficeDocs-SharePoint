@@ -97,13 +97,16 @@ The following table maps your current Box sharing experience with OneDrive or Sh
 
 ## External permission Best Practices
 
-We’ve touched on Microsoft’s recommendation to not migrate external sharing permissions. However many organizations have a hard requirement to retain external permissions on their content. This sub-section overviews Microsoft’s best practices as follows: 
-- Audit external permissions on the Box content source
+Microsoft’s recommendation is to not handle external sharing during the act of migration. Rather, assess existing external sharing content and then reshare post migration per the following guidelines: 
+ 
+- Audit external permissions on the Box content source using the Collaborations report (generated through the Box Admin Console)
 - Determine whether that content is worthy to remain externally shared
-- If so, determine whether that content is suited for OneDrive or SharePoint based on the What content goes where above guidance
-- - If OneDrive – reshare files externally with the appropriate external users after the migration  
-- If SharePoint<br>
-- Where possible, leverage the collaboration and security benefits of grouping external partner specific content per SharePoint Team site. Read more details in the business to business extranet solution article.  <br> If content cannot be grouped as such, then externally reshare on the file or folder level in the target SharePoint Team site. 
+- If you decide the content is to remain externally shared, determine whether that content is suited for OneDrive or SharePoint based on the What content goes where above guidance
+- For **OneDrive**: reshare files externally with the appropriate external users after the migration  
+- For **SharePoint**:<br> 
+    Where possible, leverage the collaboration and security benefits of grouping external partner specific content in a dedicated SharePoint team site. Read more details in the business to business extranet solution article.<br>
+    If content cannot be grouped as such, then externally reshare on the file or folder level in the target SharePoint team site. 
+
 
 
 
@@ -111,21 +114,21 @@ We’ve touched on Microsoft’s recommendation to not migrate external sharing 
 ## Prepare your OneDrive and SharePoint Online environment
 
 Before migrating your Box content, you must pre-provision your users in OneDrive and SharePoint Online For guidance on pre-provisioning see: 
-- Prepare to provision users through directory synchronization to Office 365
-- Pre-provision OneDrive for users in your organization.
-- •	Configure the firewall and proxy for SharePoint and OneDrive access: Office 365 URLs and IP address ranges. 
+- [Prepare to provision users through directory synchronization to Office 365](https://support.office.com/en-us/article/prepare-to-provision-users-through-directory-synchronization-to-office-365-01920974-9e6f-4331-a370-13aea4e82b3e)
+- [Pre-provision OneDrive for users in your organization](https://support.office.com/en-us/article/Pre-provision-OneDrive-for-users-in-your-organization-ceef6623-f54f-404d-8ee3-3ce1e338db07)
+- Configure the firewall and proxy for SharePoint and OneDrive access: [Office 365 URLs and IP address ranges](https://support.office.com/en-us/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&rs=en-001&ad=US) 
 
 
 ## Assess and remediate your content
 Before beginning your migration, it is important that you perform an analysis of your current environment.  Only you know your data and how and who uses it.  Think about how and what Box features you use in production.
  
-The following are recommended assessments.  All can be performed using Box’s Folders and Files admin report. Run this report and use its results to perform these assessments. Remediate your content on the source before beginning your migration to save time and effort later.
+All of following recommended assessments can be performed using Box’s Folders and Files admin report. Run this report and use its results to perform these assessments. Remediate your content on the source before beginning your migration to save time and effort later.
 
 | |**Assess**|**Remediate**|
 |:-----|:-----|:-----|
-|**File extensions**|Find all files in the Folders and Files report whose Path ends in one of the extensions defined here: Types of files that cannot be added to a list or library.|Turn scripting capability on in OD/SP as described here: Allow or prevent custom script. Make sure you understand why these files are blocked by default as described here: Security considerations of allowing custom script.|
-|**File and folder name characters**|Find all items in the Folders and Files report whose name contains any of the characters detailed here: Restrictions and limitations when you sync SharePoint libraries to your computer through OneDrive.|Work with your migration vendor to substitute these characters in all file and folder names.<br><br>**Note:** The # and % characters are supported but not enabled by default. Follow these steps to enable them: New support for # and % in SharePoint Online and OneDrive.|
-|**File and Folder Path Length**|Find all items in the *Folders and Files* report whose Path exceeds the file path length described here: SharePoint Online limits.|Work with your migration vendor to reorganize your file and folder structure such that it does not exceed this limit. Splitting large drives that serve several scenarios into multiple smaller, more focused drives may help here.|
+|**File extensions**|Find all files in the Folders and Files report whose Path ends in one of the extensions defined here: [Types of files that cannot be added to a list or library](https://support.office.com/en-us/article/Types-of-files-that-cannot-be-added-to-a-list-or-library-30BE234D-E551-4C2A-8DE8-F8546FFBF5B3)|Turn scripting capability on in OD/SP as described here: [Allow or prevent custom script](https://support.office.com/en-us/article/allow-or-prevent-custom-script-1f2c515f-5d7e-448a-9fd7-835da935584f?ui=en-US&rs=en-001&ad=US). Make sure you understand why these files are blocked by default as described here: [Security considerations of allowing custom script](https://support.office.com/en-us/article/security-considerations-of-allowing-custom-script-b0420ab0-aff2-4bbc-bf5e-03de9719627c)|
+|**File and folder name characters**|Find all items in the Folders and Files report whose name contains any of the characters detailed here: [Restrictions and limitations when you sync SharePoint libraries to your computer through OneDrive](https://support.microsoft.com/en-us/help/2933738/restrictions-and-limitations-when-you-sync-sharepoint-libraries-to-you)|Work with your migration vendor to substitute these characters in all file and folder names.<br><br>**Note:** The # and % characters are supported but not enabled by default. Follow these steps to enable them: [New support for # and % in SharePoint Online and OneDrive](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/New-support-for-and-in-SharePoint-Online-and-OneDrive-for/ba-p/60357)|
+|**File and Folder Path Length**|Find all items in the *Folders and Files* report whose Path exceeds the file path length described here: [SharePoint Online limits](https://support.office.com/en-us/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498)|Work with your migration vendor to reorganize your file and folder structure such that it does not exceed this limit. Splitting large drives that serve several scenarios into multiple smaller, more focused drives may help here.|
 |**Large drives and complex sharing**|Scan for any drives that have a very large amount of content, or many different unique sharing permissions – this is usually a sign that the drive should be broken down into smaller, more focused sites. <br><br>Specifically, any drive that has more than 50,000 documents shared with different users must be broken up. Use Box’s Folders and Files report and Shared Links report to identify such drives.|Identify sets of content within these drives that are conceptually similar (same project area, all shared with the same users, etc). Move these sets of content out and into new drives before starting migration.|
 ## Migrate
 
@@ -146,13 +149,13 @@ Currently, there are a variety of migration offerings available to you. They inc
 
 FastTrack is a Microsoft service included in your subscription cost that provides you with a set of best practices, tools, resources, and experts committed to making your experience with the Microsoft Cloud a great one. OneDrive onboarding guidance, migration benefits, and adoption guidance are included in the benefit offering. 
 
-Onboarding guidance includes: help to discover what’s possible, creating a plan for success, and onboarding new users and capabilities at a flexible pace. The Data Migration benefit covers guidance on migrating content from file share, Box, or Google Drive source environments. 
+Onboarding guidance includes: help to discover what’s possible, creating a plan for success, and onboarding new users and capabilities at a flexible pace. The [Data Migration](https://technet.microsoft.com/library/mt651702.aspx) benefit covers guidance on migrating content from file share, Box, or Google Drive source environments. 
 
-This guidance covers enablement of both OneDrive for Business and the source environment. FastTrack will also perform specific data migration activities on behalf of the customer for those with 500 or more licenses. See more details in the provided FastTrack Center Benefit Overview. Interested in getting started? Visit FastTrack.Microsoft.Com, review resources, and submit a Request for Assistance.
+This guidance covers enablement of both OneDrive for Business and the source environment. FastTrack will also perform specific data migration activities on behalf of the customer for those with 500 or more licenses. See more details in the provided [FastTrack Center Benefit Overview](https://technet.microsoft.com/library/mt651702.aspx). Interested in getting started? Visit [FastTrack.Microsoft.Com](https://fasttrack.microsoft.com/), review resources, and submit a Request for Assistance.
 
 **Migration service providers**
 
-You may decide that your organization has specific business needs that require you to use third-party services or applications to help you execute your migration. Explore the professional services and applications available from partners in the Microsoft Partner Center. There you can find experts to help you in your enterprise content migration to Office 365.  For more information see: Microsoft Partner Center. 
+You may decide that your organization has specific business needs that require you to use third-party services or applications to help you execute your migration. Explore the professional services and applications available from partners in the Microsoft Partner Center. There you can find experts to help you in your enterprise content migration to Office 365.  For more information see: [Microsoft Partner Center](https://partnercenter.microsoft.com/en-us/partner/home). 
  
 ## User Adoption
 Develop a plan to prepare your users for the upcoming change. Consideration factors to include in your plan: 
@@ -168,17 +171,17 @@ Develop a plan to prepare your users for the upcoming change. Consideration fact
 - Let them know whether individuals can opt-out of the migration process
 
 ### Adoption related resources
-- Microsoft 365 adoption guide: outlining methodology and resources for implementing proven adoption success factors
-- Posters, email templates: customizable templates to generate internal awareness and excitement
-- OneDrive and SharePoint video training
-- OneDrive and SharePoint Quick start training guides: get up and running quickly with the basic info you need to be productive right away 
+- [Microsoft 365 adoption guide](https://devfasttrackv4storage.blob.core.windows.net/marketing/en-us/resources/Microsoft%20365%20User%20Adoption%20Guide.pdf): Outlining methodology and resources for implementing proven adoption success factors
+- [Posters, email templates](https://fasttrack.microsoft.com/microsoft365/resourcehub): customizable templates to generate internal awareness and excitement
+- [OneDrive](https://support.office.com/en-us/article/onedrive-video-training-1f608184-b7e6-43ca-8753-2ff679203132?ocmsassetID=1f608184-b7e6-43ca-8753-2ff679203132&ui=en-US&rs=en-US&ad=US) and [SharePoint](https://support.office.com/en-us/article/sharepoint-online-video-training-cb8ef501-84db-4427-ac77-ec2009fb8e23?ui=en-US&rs=en-US&ad=US) video training
+- [OneDrive](https://support.office.com/en-us/article/upload-files-to-onedrive-for-business-a1397e56-61ec-4ed2-9dac-727bf8ac3357?ui=en-US&rs=en-US&ad=US) and [SharePoint](https://support.office.com/en-us/article/sign-in-to-sharepoint-online-324a89ec-e77b-4475-b64a-13a0c14c45ec?ui=en-US&rs=en-US&ad=US) Quick start training guides: get up and running quickly with the basic info you need to be productive right away 
 
 ### Make the Switch! 
 The following articles will help your users “make the switch” from Box to OneDrive. The topics show how you used to do common tasks in Box and how you do the same in OneDrive.
 
-- Switch to OneDrive from Box 
-- Open with OneDrive
-- Store with OneDrive
-- Work together with OneDrive
-- Learn more about OneDrive
+- [Switch to OneDrive from Box](https://support.office.com/en-us/article/Switch-to-OneDrive-from-Box-b7f3c899-edb7-44ab-bc3f-0a37e9f1a7fa)
+- [Open with OneDrive](https://support.office.com/en-us/article/open-with-onedrive-c24d1cef-dddb-43b9-929b-45b571b84990?ui=en-US&rs=en-US&ad=US)
+- [Store with OneDrive](https://support.office.com/en-us/article/store-with-onedrive-7be433cd-d95b-46d8-9e8e-a1e32ecc4724?ui=en-US&rs=en-US&ad=US)
+- [Work together with OneDrive](https://support.office.com/en-us/article/work-together-with-onedrive-626cff9f-9a56-472b-a77d-b019d97eec8d?ui=en-US&rs=en-US&ad=US)
+- [Learn more about OneDrive](https://support.office.com/en-us/article/learn-more-about-onedrive-38acc14b-fd86-466e-b802-baece8107c86?ui=en-US&rs=en-US&ad=US)
 
