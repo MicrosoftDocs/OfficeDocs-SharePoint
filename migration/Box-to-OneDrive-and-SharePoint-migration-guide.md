@@ -27,7 +27,7 @@ Most migrations fall into regular phases as described below.  Proven success fac
 
 |**Migration Planning**|**Assess and remediate**|**Prepare your OneDrive and SharePoint environment**|**Migrate**|**User onboarding**|
 |:-----|:-----|:-----|:-----|:-----|
-|What goes where|Analyze Box admin reports|Pre-provision Office 365 and users|Review migration offerings|Send regular emails to users|
+|What content goes where|Analyze Box admin reports|Pre-provision Office 365 and users|Review migration offerings|Send regular emails to users|
 |Understanding permissions vs Sharing|Assess key areas||Microsoft FastTrack services|Provide training|
 |What to expect before and after|Remediate issues||Migration service providers|Let uesrs know how they are impacted|
 |Migration and network performance considerations||||Provide documentation for making the switch|
