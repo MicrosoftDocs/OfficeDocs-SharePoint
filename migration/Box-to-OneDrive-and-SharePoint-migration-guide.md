@@ -106,7 +106,7 @@ Microsoft’s recommendation is to not handle external sharing during the act of
 - If you decide the content is to remain externally shared, determine whether that content is suited for OneDrive or SharePoint based on the What content goes where above guidance
 - For **OneDrive**: reshare files externally with the appropriate external users after the migration  
 - For **SharePoint**:<br> 
-    - Where possible, leverage the collaboration and security benefits of grouping external partner specific content in a dedicated SharePoint team site. Read more details in the business to business extranet solution article.<br>
+    - Where possible, leverage the collaboration and security benefits of grouping external partner specific content in a dedicated SharePoint team site. Read more details in [Use Office 365 SharePoint Online as a business-to-business (B2B) extranet solution](https://support.office.com/en-us/article/Use-Office-365-SharePoint-Online-as-a-business-to-business-B2B-extranet-solution-7b087413-165a-4e94-8871-4393e0b9c037).<br>
     - If content cannot be grouped as such, then externally reshare on the file or folder level in the target SharePoint team site. 
 
 
