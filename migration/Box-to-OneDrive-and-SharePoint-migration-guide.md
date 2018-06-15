@@ -23,7 +23,7 @@ This guide will help you prepare to migrate from Box to OneDrive and SharePoint 
 
 Most migrations fall into regular phases as described below.  Proven success factors for migration include planning, assessing and remediating, preparing your target environment, migrating and onboarding your users. 
 
-![SharePoint Migration Tool](media/migration-process.png)
+![SharePoint Migration Tool](media/MigrationChevronsoption-01.jpg)
 
 |**Migration Planning**|**Assess and remediate**|**Prepare your OneDrive and SharePoint environment**|**Migrate**|**User onboarding**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -49,7 +49,7 @@ Storing your content in OneDrive and SharePoint allows you to easily share files
 Additionally, you can use OneDrive on the web, mobile or desktop sync client on PC and Mac to access all your files in Office 365.
 
 Knowing the capabilities of OneDrive and SharePoint, look at the following table to help you determine what content goes where:
-
+![SharePoint Migration Tool](media/DecisionTree-Process-flow.jpg)
 
 |**Ask...**|**OneDrive**|**SharePoint**|
 |:-----|:-----|:-----|
