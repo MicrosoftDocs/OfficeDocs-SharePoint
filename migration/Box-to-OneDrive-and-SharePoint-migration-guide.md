@@ -3,7 +3,7 @@ title: "Box to OneDrive and SharePoint Migration Guide"
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
-ms.date: 6/15/2018
+ms.date: 6/18/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -23,7 +23,7 @@ This guide will help you prepare to migrate from Box to OneDrive and SharePoint 
 
 Most migrations fall into regular phases as described below.  Proven success factors for migration include planning, assessing and remediating, preparing your target environment, migrating and onboarding your users. 
 
-![SharePoint Migration Tool](media/MigrationChevronsoption-01.jpg)
+![SharePoint Migration Tool](media/Migration-process.png)
 
 |**Migration Planning**|**Assess and remediate**|**Prepare your OneDrive and SharePoint environment**|**Migrate**|**User onboarding**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -44,12 +44,14 @@ Let’s first review the benefits that OneDrive and SharePoint provide to unders
 
 - A **SharePoint team site** is a place that users can collaborate on files, documents, and ideas. It is set up to facilitate two-way communication between team members and offers a full range of features to help a team communicate and collaborate.
 
+![SharePoint Migration Tool](media/Migration-WhatGoesWhere-Box-to-ODSP.png)
+
 Storing your content in OneDrive and SharePoint allows you to easily share files inside and outside your organization and collaborate on Office documents together in real time with the latest Office desktop, web, and mobile apps.
 
 Additionally, you can use OneDrive on the web, mobile or desktop sync client on PC and Mac to access all your files in Office 365.
 
 Knowing the capabilities of OneDrive and SharePoint, look at the following table to help you determine what content goes where:
-![SharePoint Migration Tool](media/DecisionTree-Process-flow.jpg)
+![SharePoint Migration Tool](media/Migration-DecisionTree-Process-flow.png)
 
 |**Ask...**|**OneDrive**|**SharePoint**|
 |:-----|:-----|:-----|
