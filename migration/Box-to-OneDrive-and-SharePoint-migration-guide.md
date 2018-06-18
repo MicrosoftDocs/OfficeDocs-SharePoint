@@ -44,7 +44,7 @@ Let’s first review the benefits that OneDrive and SharePoint provide to unders
 
 - A **SharePoint team site** is a place that users can collaborate on files, documents, and ideas. It is set up to facilitate two-way communication between team members and offers a full range of features to help a team communicate and collaborate.
 
-![SharePoint Migration Tool](media/Migration-WhatGoesWhere-Box-to-ODSP.png)
+![SharePoint Migration Tool](media/Migration-WhatGoesWhere-Box-to-ODSP-520px.png)
 
 Storing your content in OneDrive and SharePoint allows you to easily share files inside and outside your organization and collaborate on Office documents together in real time with the latest Office desktop, web, and mobile apps.
 
