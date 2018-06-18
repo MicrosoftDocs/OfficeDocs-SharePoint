@@ -51,7 +51,7 @@ Storing your content in OneDrive and SharePoint allows you to easily share files
 Additionally, you can use OneDrive on the web, mobile or desktop sync client on PC and Mac to access all your files in Office 365.
 
 Knowing the capabilities of OneDrive and SharePoint, look at the following table to help you determine what content goes where:<br><br>
-![SharePoint Migration Tool](media/3-Conceptual-art-decisiontree-process-flow-520.png)
+![SharePoint Migration Tool](media/Migration-Decisiontree-process-flow-520.png)
 
 |**Ask...**|**OneDrive**|**SharePoint**|
 |:-----|:-----|:-----|
