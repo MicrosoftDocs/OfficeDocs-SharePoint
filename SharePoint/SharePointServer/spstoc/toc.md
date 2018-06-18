@@ -2,7 +2,7 @@
   
 
 # [SharePoint Server](../sharepoint-server.md)
-## [SharePoint Updates](OfficeUpdates/sharepoint-updates?toc=/sharepoint/spstoc/toc.json)
+## [SharePoint Updates](/OfficeUpdates/sharepoint-updates?toc=/sharepoint/toc.json)
 ## [Accessibility guidelines](../accessibility-guidelines.md)
 ## [What's new](../what-s-new/what-s-new.md)
 ### [New and improved features in SharePoint Server 2016](../what-s-new/new-and-improved-features-in-sharepoint-server-2016.md)
