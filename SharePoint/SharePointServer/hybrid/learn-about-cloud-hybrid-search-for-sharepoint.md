@@ -32,13 +32,13 @@ It's the metadata for the content that's indexed, and this metadata is encrypted
   
 Learn more:
   
-[Learn about cloud hybrid search for SharePoint](http://technet.microsoft.com/library/af830951-8ddf-48b2-8340-179c1cc4d291%28Office.14%29.aspx#BKMK_Benefits)
+[What are the benefits](#BKMK_Benefits)
   
-[Learn about cloud hybrid search for SharePoint](http://technet.microsoft.com/library/af830951-8ddf-48b2-8340-179c1cc4d291%28Office.14%29.aspx#BKMK_SearchExperiences)
+[Which search experiences can you iffer with cloud hybrid search?](#BKMK_SearchExperiences)
   
-[Learn about cloud hybrid search for SharePoint](http://technet.microsoft.com/library/af830951-8ddf-48b2-8340-179c1cc4d291%28Office.14%29.aspx#BKMK_WhereManage)
+[Where do you manage cloud hybrid search?](#BKMK_WhereManage)
   
-[Learn about cloud hybrid search for SharePoint](http://technet.microsoft.com/library/af830951-8ddf-48b2-8340-179c1cc4d291%28Office.14%29.aspx#BKMK_HowWork)
+[How does cloud hybrid search work?](#BKMK_HowWork)
   
 ## What are the benefits?
 <a name="BKMK_Benefits"> </a>
