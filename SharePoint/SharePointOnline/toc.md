@@ -30,7 +30,7 @@
 ## [Sync]()
 ### [Let users use new OneDrive sync client](let-users-use-new-onedrive-sync-client.md)
 ### [Let users sync IRM-protected files](let-users-sync-irm-protected-files.md)
-## [sharing-and-permissions](.md)
+## [Sharing and permissions]()
 ### [External sharing overview](external-sharing-overview.md)
 ### [Turn external sharing on or off](turn-external-sharing-on-or-off.md)
 ### [What is permissions inheritance?](what-is-permissions-inheritance.md)
