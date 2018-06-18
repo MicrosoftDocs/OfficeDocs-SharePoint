@@ -96,7 +96,7 @@ Every node in the SharePoint Server 2016 farm has the patches installed, and all
     Return to the WFE that is out of load-balanced rotation (SPWeb02), open the SharePoint 2016 Management Shell, and run this PSCONFIG command:
     
   ```
-  PSCONFIG.exe -cmd upgrade -inplace b2b -wait -cmd applicationcontent -install -cmd installfeatures -cmd secrureresources -cmd services -install
+  PSCONFIG.exe -cmd upgrade -inplace b2b -wait -cmd applicationcontent -install -cmd installfeatures -cmd secureresources -cmd services -install
   ```
 
     After the command completes, return this WFE (SPWeb02) to the load balancer. This server is fully patched and upgraded.
