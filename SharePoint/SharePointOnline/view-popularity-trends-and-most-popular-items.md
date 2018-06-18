@@ -22,7 +22,7 @@ You can also view the [View the Most Popular Items in a library](view-popularity
 ## View Popularity Trends for a site
 <a name="__view_popularity_trends_1"> </a>
 
-1. On the site, click **Settings** > **Site Settings**.
+1. On the site, click **Settings** \> **Site Settings**.
     
 2. Under **Site Administration**, click **Popularity Trends**.
     
@@ -33,7 +33,7 @@ You can also view the [View the Most Popular Items in a library](view-popularity
 ## View Popularity Trends for a site collection
 <a name="__view_popularity_trends_2"> </a>
 
-1. In the site collection, click **Settings** > **Site Settings**.
+1. In the site collection, click **Settings** \> **Site Settings**.
     
 2. Under **Site Collection Administration**, click **Popularity and Search Reports**.
     
@@ -60,7 +60,7 @@ You can also view other reports for the site collection, see [View usage and sea
     
 You can also see popularity trends for a page or item from the **Most Popular Items** view. 
   
-Or, you can go to an individual page and select the **PAGE** tab > **Popularity Trends**.
+Or, you can go to an individual page and select the **PAGE** tab \> **Popularity Trends**.
   
 ## View the Most Popular Items in a library
 <a name="__view_the_most"> </a>

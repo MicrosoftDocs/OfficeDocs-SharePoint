@@ -49,7 +49,7 @@ The following library types are not yet supported by the new OneDrive sync clien
     
 ## Prerequisites
 
-1. Make sure users have the following versions of Office or higher installed. For info about deploying Office, see [Choose how to deploy Office 365 ProPlus](https://support.office.com/article/e471ef30-2a09-4767-a172-aa74e1dc4686). Make sure you don't install the previous OneDrive for Business sync client. For info, see [Changes to the previous OneDrive sync client (Groove.exe) in Office 2016 Click-to-Run](exclude-or-uninstall-groove-exe-when-using-office-click-to-run.md).
+1. Make sure users have the following versions of Office or higher installed. For info about deploying Office, see [Choose how to deploy Office 365 ProPlus](https://support.office.com/article/e471ef30-2a09-4767-a172-aa74e1dc4686). Make sure you don't install the previous OneDrive for Business sync client. For info, see [Changes to the previous OneDrive sync client (Groove.exe) in Office 2016 Click-to-Run](exclude-or-uninstall-previous-sync-client.md).
     
 |||
 |:-----|:-----|
@@ -58,14 +58,14 @@ The following library types are not yet supported by the new OneDrive sync clien
 |Office 2016 MSI  <br/> |16.0.4432.1\*  <br/> |
 |Office 2013 MSI/C2R  <br/> |15.0.4859.1\*  <br/> |
    
-2. Make sure users have version 17.3.6743.1212 or higher of the new OneDrive sync client installed. For info about deploying the new OneDrive sync client, see [Deploy the new OneDrive sync client in an enterprise environment](deploy-sync-clientwindows.md).
+2. Make sure users have version 17.3.6743.1212 or higher of the new OneDrive sync client installed. For info about deploying the new OneDrive sync client, see [Deploy the new OneDrive sync client in an enterprise environment](deploy-sync-client-for-windows.md).
     
 > [!NOTE]
-> If any users have Office 2010 installed, we strongly recommend removing the SharePoint Workspace component. If users previously set up SharePoint Workspace (even if they're no longer using it), it will cause problems syncing team sites. Before starting OneDrive Setup, either [Uninstall Office 2016, Office 2013, or Office 365 from a PC](https://support.office.com/article/9dd49b83-264a-477a-8fcc-2fdf5dbf61d8#OfficeVersion=2010) or modify the installation. To do this by running Setup, first create the following XML file. >  `<Configuration Product="ProPlus"> <Display Level="none" CompletionNotice="no" SuppressModal="yes" NoCancel="yes" AcceptEula="yes" /> <Logging Type="standard" Path="C:\Windows\temp\" Template="MicrosoftSharePointWorkspaceSetup(*).txt" /> <Setting Id="SETUP_REBOOT" Value="Never" /> <OptionState Id="GrooveFiles" State="absent" Children="force" /> </Configuration>`> Then run Setup: > Setup.exe /modify ProPlus /config RemoveSharepointDesigner.xml > For more info, see [Setup command-line options for Office 2010](https://go.microsoft.com/fwlink/?linkid=874123) and [Config.xml file in Office 2010](https://go.microsoft.com/fwlink/?linkid=874124). 
+> If any users have Office 2010 installed, we strongly recommend removing the SharePoint Workspace component. If users previously set up SharePoint Workspace (even if they're no longer using it), it will cause problems syncing team sites. Before starting OneDrive Setup, either [Uninstall Office from a PC](https://support.office.com/article/9dd49b83-264a-477a-8fcc-2fdf5dbf61d8#OfficeVersion=2010) or modify the installation. To do this by running Setup, first create the following XML file. >  `<Configuration Product="ProPlus"> <Display Level="none" CompletionNotice="no" SuppressModal="yes" NoCancel="yes" AcceptEula="yes" /> <Logging Type="standard" Path="C:\Windows\temp\" Template="MicrosoftSharePointWorkspaceSetup(*).txt" /> <Setting Id="SETUP_REBOOT" Value="Never" /> <OptionState Id="GrooveFiles" State="absent" Children="force" /> </Configuration>`> Then run Setup: > Setup.exe /modify ProPlus /config RemoveSharepointDesigner.xml > For more info, see [Setup command-line options for Office 2010](https://go.microsoft.com/fwlink/?linkid=874123) and [Config.xml file in Office 2010](https://go.microsoft.com/fwlink/?linkid=874124). 
   
 ## Configure takeover
 
-1. In the SharePoint admin center, [Enable users to sync SharePoint files with the new OneDrive sync client](https://support.office.com/article/22e1f635-fb89-49e0-a176-edab26f69614). If the options aren't available, the new OneDrive sync client is already set up to sync OneDrive for Business and SharePoint Online files.
+1. In the SharePoint admin center, [Let users sync SharePoint files with the new OneDrive sync client](https://support.office.com/article/22e1f635-fb89-49e0-a176-edab26f69614). If the options aren't available, the new OneDrive sync client is already set up to sync OneDrive for Business and SharePoint Online files.
     
 2. If you're running Windows 10, you can use silent account configuration to sign in users. For info, see [Silently configure OneDrive using Windows 10 or domain credentials](use-group-policy.md#SilentConfig).
     
@@ -100,7 +100,7 @@ For more information, see [Get-SPOTenantSyncClientRestriction](https://go.micros
 
 #### Other Resources
 
-[Deploy the new OneDrive sync client in an enterprise environment](deploy-sync-clientwindows.md)
+[Deploy the new OneDrive sync client in an enterprise environment](deploy-sync-client-for-windows.md)
   
 [Sync files with the new OneDrive sync client in Windows](https://support.office.com/article/615391c4-2bd3-4aae-a42a-858262e42a49)
   

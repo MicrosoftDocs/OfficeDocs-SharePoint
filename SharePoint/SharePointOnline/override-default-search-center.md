@@ -21,7 +21,7 @@ You can specify where searches should go by specifying the URL of your Search Ce
   
 When you create an Enterprise Search Center site collection SharePoint creates a default search home page and a default search results page. In addition, several pages known as search verticals are also created. Search verticals are customized for searching specific content, such as People, Conversations, and Videos, and they display search results that are filtered and formatted for a specific content type or class. 
   
-For more on creating and customizing a search center for your site, see [Manage the Search Center in SharePoint Online](manage-the-search-center.md).
+For more on creating and customizing a search center for your site, see [Manage the Search Center in SharePoint Online](manage-search-center.md).
   
 You can change which search results page queries are sent to. By default, queries are sent to the same search results page as the parent, but you can override this for a site collection or a site. 
   
@@ -78,7 +78,7 @@ Make sure that the search vertical you want as a default is the first option in 
     
   - Add a search vertical
     
-    See the article [Change settings for the Search Navigation Web Part](the-search-navigation-web-part.md) for steps. 
+    See the article [Change settings for the Search Navigation Web Part](search-navigation-web-part.md) for steps. 
     
 5. Click **OK**.
     

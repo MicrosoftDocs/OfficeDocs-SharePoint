@@ -3,7 +3,7 @@ title: "Help users use the Discover view in OneDrive"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 4/5/2018
+ms.date: 6/7/2018
 ms.audience: Admin
 ms.topic: overview
 ms.prod: office-online-server
@@ -35,7 +35,7 @@ Discover view functionality is available to Office 365 users in OneDrive for Bus
   
 - Office 365 Enterprise (E1, E3, and E4)
     
-- Office 365 Education (E1, E3 and E4)
+- Office 365 Education
     
 - Office 365 Government (E1, E3 and E4)
     
@@ -93,7 +93,7 @@ If users don't have any recently modified or viewed content in these content sou
     
 - Check the permission settings on the SharePoint Online sites and site collections to make sure that the user has access to the correct sites and their content.
     
-- Check that the user is in the Active Directory and that he or she is a member of the correct Active Directory groups. To verify, go to **Office 365 admin center** > **Users** > **Active Users**.
+- Check that the user is in the Active Directory and that he or she is a member of the correct Active Directory groups. To verify, go to **Office 365 admin center** \> **Users** \> **Active Users**.
     
 - As an admin, you can allow your organization to access the Office Graph. This makes sure the Discover view shows the most relevant content to users. See [Control access to the Office Graph](https://support.office.com/article/54f87a42-15a4-44b4-9df0-d36287d9531b#BKMK_DelveOnOff) for more information. 
     

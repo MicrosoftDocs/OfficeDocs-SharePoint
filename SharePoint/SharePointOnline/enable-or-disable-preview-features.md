@@ -42,7 +42,7 @@ When you use Power BI, your data is sent to the Power BI service. If you have im
     
 2. Select the app launcher icon ![The icon that looks like a waffle and represents a button click that will reveal multiple application tiles for selection.](media/3b8a317e-13ba-4bd4-864e-1ccd47af39ee.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
-3. In the left pane, choose **Admin centers** > **SharePoint**.
+3. In the left pane, choose **Admin centers** \> **SharePoint**.
     
 4. Select **settings**.
     

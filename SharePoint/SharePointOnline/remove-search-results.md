@@ -22,7 +22,7 @@ As a SharePoint Online administrator, you can temporarily remove items from sear
   
 1. Sign in to the Office 365 Admin Center as a search administrator.
     
-2. Choose **Admin** > **SharePoint**. You're now in the SharePoint admin center.
+2. Choose **Admin** \> **SharePoint**. You're now in the SharePoint admin center.
     
 3. Choose **search**.
     

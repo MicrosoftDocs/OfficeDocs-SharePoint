@@ -3,7 +3,7 @@ title: "Turn external sharing on or off for SharePoint Online"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 5/22/2018
+ms.date: 6/5/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
@@ -33,7 +33,7 @@ Turning external sharing on at the tenant level means that site collections can 
     
 2. Select the app launcher icon ![The icon that looks like a waffle and represents a button click that will reveal multiple application tiles for selection.](media/3b8a317e-13ba-4bd4-864e-1ccd47af39ee.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
-3. In the left pane, choose **Admin centers** > **SharePoint**.
+3. In the left pane, choose **Admin centers** \> **SharePoint**.
     
 4. In the left pane, click **sharing**.
     
@@ -66,7 +66,7 @@ When you choose to allow users to share outside your organization, you have some
   
 ![Additional settings for sharing](media/04c2257b-3af1-4902-8946-e7e251481da3.png)
   
- **Limit external sharing using domains**: You can allow or restrict access to specific domains. For more information, see [Restricted Domains Sharing in Office 365 SharePoint Online and OneDrive for Business](restricted-domains-sharing-in-sharepoint-online-and-onedrive-for-business.md).
+ **Limit external sharing using domains**: You can allow or restrict access to specific domains. For more information, see [Restricted Domains Sharing in Office 365 SharePoint Online and OneDrive for Business](restricted-domains-sharing.md).
   
  **Prevent external users from sharing files, folders, and sites they don't own**: External users cannot share anything they don't own with anyone else. 
   
@@ -90,110 +90,34 @@ To help your OneDrive for Business users monitor and control which external user
 
 You must be a SharePoint Online admin to configure external sharing for individual site collections. Site collection administrators are not allowed to change external sharing configurations.
   
+Note that this procedure applies to both classic sites and Office 365 Group-connected sites.
+  
 1. Sign in to Office 365 as a global admin or SharePoint admin.
     
 2. Select the app launcher icon ![The icon that looks like a waffle and represents a button click that will reveal multiple application tiles for selection.](media/3b8a317e-13ba-4bd4-864e-1ccd47af39ee.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
-3. In the left pane, choose **Admin centers** > **SharePoint**.
+3. In the left pane, choose **Admin centers** \> **SharePoint**.
     
-4. In the left pane, click **site collections**.
+4. Click **Try the preview** to open the new SharePoint admin center. 
     
-5. Check the box next to those site collections whose sharing settings you want to turn on or off.
+5. In the left pane, click **Site management**.
     
-6. In the ribbon, click **Sharing**.
+6. Locate the site that you want to update, and click the site name.
     
-    ![ribbon from SharePoint Online admin center with Sharing button highlighted](media/57524795-9b50-41f9-b1a8-06627edf22b9.png)
-  
-7. Do one of the following:
+7. In the right pane, under **Sharing status**, click **Change**.
     
-    ![Options for sharing with external users](media/c482135b-96cf-430c-8d06-5f893e70af77.png)
-  
+8. Select your option (see the following table) and click **Save**.
+    
 ### Which option to select...
 
 |**Select this option:**|**If you want to:**|
 |:-----|:-----|
-|Don't allow sharing outside your organization  <br/> |Prevent all users on all sites from sharing sites or sharing content on sites with external users. Users will not be able to share sites or content with external users, even if those users are already in your directory.  <br/> |
-|Allow sharing only with the external users that already exist in your organization's directory  <br/> |Allow sharing only for external users who are already in your directory. These users may exist in your directory because they previously accepted sharing invitations or because they were [manually imported](https://support.office.com/article/1a377d8f-4175-4c8f-ab09-7f1ed4b35404). (You can tell an external user because they have **#EXT#** in their user name.)  <br/> |
-|Allow external users who accept sharing invitations and sign in as authenticated users  <br/> | Require external users who have received invitations to view sites or content to sign-in with a Microsoft account before they can access the content.  <br/>  Site owners or others with full control permission can share sites with external users.  <br/>  Site owners or others with full control permissions on a site can share documents with external users by requiring sign-in.  <br/>  All external users will be required to sign in before they can view content.  <br/>  Invitations to view content can be redeemed only once. After an invitation has been accepted, it cannot be shared or used by others to gain access.  <br/> |
-|Allow both external users who accept sharing invitations and guest links  <br/> | Allow site users to share sites with people who sign in as authenticated users, but you also want to allow site users to share documents through the use of anonymous guest links, which do not require invited recipients to sign in.  <br/>  Site owners or others with full control permissions can share sites with external users.  <br/>  All external users will be required to sign in before they can view content on a site that has been shared.  <br/>  When sharing documents, site owners or others with full control permissions can opt to require sign-in or send an anonymous guest link.  <br/>  When users share a document, they can grant external users either view or edit permissions to the document.  <br/>  External users who receive anonymous guest links can view or edit that content without signing in.  <br/>  Anonymous guest links could potentially be forwarded or shared with other people, who might also be able to view or edit the content without signing in.  <br/> |
+|Only people in current organization  <br/> |Prevent all users on all sites from sharing sites or sharing content on sites with external users. Users will not be able to share sites or content with external users, even if those users are already in your directory.  <br/> |
+|Existing external users  <br/> |Allow sharing only for external users who are already in your directory. These users may exist in your directory because they previously accepted sharing invitations or because they were [manually imported](https://support.office.com/article/1a377d8f-4175-4c8f-ab09-7f1ed4b35404). (You can tell an external user because they have **#EXT#** in their user name.)  <br/> |
+|New and existing external users  <br/> | Require external users who have received invitations to view sites or content to sign-in with a Microsoft account before they can access the content.  <br/>  Site owners or others with full control permission can share sites with external users.  <br/>  Site owners or others with full control permissions on a site can share documents with external users by requiring sign-in.  <br/>  All external users will be required to sign in before they can view content.  <br/>  Invitations to view content can be redeemed only once. After an invitation has been accepted, it cannot be shared or used by others to gain access.  <br/> |
+|Anyone  <br/> | Allow site users to share sites with people who sign in as authenticated users, but you also want to allow site users to share documents through the use of anonymous guest links, which do not require invited recipients to sign in.  <br/>  Site owners or others with full control permissions can share sites with external users.  <br/>  All external users will be required to sign in before they can view content on a site that has been shared.  <br/>  When sharing documents, site owners or others with full control permissions can opt to require sign-in or send an anonymous guest link.  <br/>  When users share a document, they can grant external users either view or edit permissions to the document.  <br/>  External users who receive anonymous guest links can view or edit that content without signing in.  <br/>  Anonymous guest links could potentially be forwarded or shared with other people, who might also be able to view or edit the content without signing in.  <br/> |
    
 > [!NOTE]
 >  If you change the external sharing settings for the My Site site collection, these changes will also apply to any existing or newly created personal sites (formerly called My Sites). >  You might have site content shared with an Office 365 group that has guest members, and the group settings prevent guest members from accessing group resources. In this case, even if you turn on external sharing for the site collection, guests of the group may not be able to access site content. To enable or disable Office 365 Group guest member access, see [Manage guest access to Office 365 Groups](https://support.office.com/article/7c713d74-a144-4eab-92e7-d50df526ff96). >  If external sharing is turned off globally in the SharePoint Online Admin center, any shared links will stop working. If the feature is later reactivated, these links will resume working. It is also possible to disable individual links that have been shared if you want to permanently revoke access to a specific document. 
-  
-## Manage external sharing for Office 365 Group site collections
-<a name="BKMK_GroupSiteCollections"> </a>
-
-By default, all SharePoint site collections that are part of an Office 365 Group have the same sharing setting as your organization-wide setting, unless your organization-wide setting allows anonymous access links. In this case, the sharing setting for these sites is set to **Allow external users who accept sharing invitations and sign in as authenticated users**. To change this setting, you can use Microsoft PowerShell. 
-  
-- [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
-    
-- Connect to SharePoint Online as a global admin or SharePoint admin in Office 365. To learn how, see [Getting started with SharePoint Online Management Shell](https://go.microsoft.com/fwlink/?linkid=869066).
-    
-- Run the following command:
-    
-  ```
-  Set-SPOSite -Identity https://contoso.sharepoint.com/sites/site1 -SharingCapability SharingOption
-  ```
-
-For  *SharingOption*  , use one of the following parameters: 
-  
-|**Parameter**|**Description**|
-|:-----|:-----|
-|Disabled  <br/> |Don't allow sharing outside your organization.  <br/> |
-|ExistingExternalUserSharingOnly  <br/> |Allow sharing only with the external users that already exist in your organization's directory.  <br/> |
-|ExternalUserSharingOnly  <br/> |Allow external users who accept sharing invitations and sign in as authenticated users.  <br/> |
-|ExternalUserAndGuestSharing  <br/> |Allow sharing with all external users, and by using anonymous access links.  <br/> |
-   
-For info about this cmdlet, see [Set-SPOSite](https://go.microsoft.com/fwlink/?linkid=872325). To view the existing sharing setting, use the [Get-SPOSite](https://go.microsoft.com/fwlink/?linkid=872326) cmdlet. 
-  
-Example:
-  
-```
-(Get-SPOSite -Identity https://contoso.sharepoint.com/sites/site1).SharingCapability
-```
-
- **Updating the sharing setting for all sites in a tenant**
-  
-You can use the following script to update the sharing setting for all of your sites:
-  
-```
-$userCredential = Get-Credential
-```
-
-```
-Connect-SPOService -Url https://TenantName -admin.sharepoint.com -Credential $userCredential
-```
-
-```
-$sites = Get-sposite -template GROUP#0 -includepersonalsite:$false
-```
-
-```
-Foreach($site in $sites)
-```
-
-```
-{
-```
-
-```
-Set-SPOSite -Identity $site.Url -SharingCapability SharingOption
-```
-
-```
-}
-```
-
-```
-Write-Host("External Sharing Capability updated for all sites.")
-```
-
-Variables:
-  
--  *TenantName*  - The name of your Office 365 tenant. 
-    
--  *SharingOption*  - The sharing option that you want to use, from the table above. 
-    
-Enter your SharePoint Online administrator credentials when prompted.
   
 

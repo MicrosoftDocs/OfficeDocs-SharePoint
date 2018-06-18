@@ -19,7 +19,7 @@ All search results are not relevant to everyone all the time. Learn how you can 
   
  **Manage the search schema**
   
-The search schema controls what you can search for, how you can search it, and how the results get presented on your search websites. In the search schema, you can view, create, or change managed properties, and map crawled properties to managed properties. [Learn more](manage-the-search-schema.md).
+The search schema controls what you can search for, how you can search it, and how the results get presented on your search websites. In the search schema, you can view, create, or change managed properties, and map crawled properties to managed properties. [Learn more](manage-search-schema.md).
   
  **Manage query rules**
   
@@ -54,10 +54,10 @@ You can influence the pages or documents that should appear at the top of your l
 > [!IMPORTANT]
 >  Creating a custom ranking model is a complicated process. Only expert users should create custom ranking models. 
   
-In most cases, the ranking models in SharePoint Online provide good search result ranking, and you can also influence the ranking of search results with query rules. If you have a relevance need that the standard ranking models don't provide, you can create a custom ranking model. [Learn more](create-a-custom-ranking-model.md).
+In most cases, the ranking models in SharePoint Online provide good search result ranking, and you can also influence the ranking of search results with query rules. If you have a relevance need that the standard ranking models don't provide, you can create a custom ranking model. [Learn more](create-custom-ranking-model.md).
   
  **Export and import search settings**
   
-You can export and import customized search configuration settings between tenants, site collections, and sites. The settings include all customized query rules, result sources, result types, ranking models and site search settings. [Learn more](export-import-search-settings.md).
+You can export and import customized search configuration settings between tenants, site collections, and sites. The settings include all customized query rules, result sources, result types, ranking models and site search settings. [Learn more](export-and-import-search-settings.md).
   
 

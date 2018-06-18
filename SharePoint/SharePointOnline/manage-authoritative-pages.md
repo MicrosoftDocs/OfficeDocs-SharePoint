@@ -26,7 +26,7 @@ In the same way, you can also add non-authoritative pages. A typical example of 
 
 1. Sign in to the Office 365 Admin Center.
     
-2. Choose **Admin** > **SharePoint**. You're now in the SharePoint admin center.
+2. Choose **Admin** \> **SharePoint**. You're now in the SharePoint admin center.
     
 3. Choose **search**. 
     

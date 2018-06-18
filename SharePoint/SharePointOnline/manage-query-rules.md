@@ -48,7 +48,7 @@ You can create query rules at different levels: for the whole tenant, for a site
     
 1. Sign in to the Office 365 Admin Center.
     
-2. Choose **Admin** > **SharePoint**. You're now in the SharePoint admin center.
+2. Choose **Admin** \> **SharePoint**. You're now in the SharePoint admin center.
     
 3. Click **search**, and then on the search administration page, click **Manage Query Rules**.
     
@@ -182,7 +182,7 @@ When you configure a query condition for a result block, you use  *query variabl
     
 4. Click to expand the **Settings** section. 
     
-The result block only displays the number of search results that you specified in the previous step. However, you can add a **Show more** link at the bottom of the result block that'll show all search results for the result block. To add a **Show more** link, select **"More" link goes to the following URL**, and then type a URL. You can use query variables in this URL — for example, http://www.<site>/search/results.aspx?k={subjectTerms}.
+The result block only displays the number of search results that you specified in the previous step. However, you can add a **Show more** link at the bottom of the result block that'll show all search results for the result block. To add a **Show more** link, select **"More" link goes to the following URL**, and then type a URL. You can use query variables in this URL — for example, http://www.\<site\>/search/results.aspx?k={subjectTerms}.
   
 1. Click **OK**.
     

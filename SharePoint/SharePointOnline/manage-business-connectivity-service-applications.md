@@ -134,7 +134,7 @@ To import a BDC Model, follow these steps:
     
 5. On the ribbon, select **Import**.
     
-6. In the **BDC Model** section, enter the name of the BDC Model File. The Model name must not include any special characters, such as ~ " # % &amp; * : < > ? \ { | } or the character 0x7f. You can also select **Browse** to locate the *.bdcm file for a BDC Model. 
+6. In the **BDC Model** section, enter the name of the BDC Model File. The Model name must not include any special characters, such as ~ " # % &amp; \* : \< \> ? \ { | } or the character 0x7f. You can also select **Browse** to locate the \*.bdcm file for a BDC Model. 
     
     ![Screenshot of the BCS Model view.](media/c8001567-489d-4c81-86a6-ed48d59903c4.png)
   
@@ -187,7 +187,7 @@ To export a BDC Model or Resource file, follow these steps:
     
 10. If you saved a file of resource settings for later use, type the name of the file to export in the **Use Custom Environment Settings** field. 
     
-11. Select **Export** to start a dialog that enables you to save a *.bdcm file to your local drive. You can open the *.bdcm file in a text editor. 
+11. Select **Export** to start a dialog that enables you to save a \*.bdcm file to your local drive. You can open the \*.bdcm file in a text editor. 
     
 ## Add actions to external content types
 <a name="__toc338059712"> </a>

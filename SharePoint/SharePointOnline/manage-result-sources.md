@@ -38,7 +38,7 @@ You can create your own result sources, or use the predefined result sources. Af
     
 1. Sign in to the Office 365 Admin Center.
     
-2. Choose **Admin** > **SharePoint**. You're now in the SharePoint admin center.
+2. Choose **Admin** \> **SharePoint**. You're now in the SharePoint admin center.
     
 3. Click **search**, and then on the search administration page, click **Manage Result Sources**.
     
@@ -120,7 +120,7 @@ The default result source is **Local SharePoint Results**, but you can choose to
     
 1. Sign in to the Office 365 Admin Center.
     
-2. Choose **Admin** > **SharePoint**. You're now in the SharePoint admin center.
+2. Choose **Admin** \> **SharePoint**. You're now in the SharePoint admin center.
     
 3. Click **search**, and then on the search administration page, click **Manage Result Sources**.
     

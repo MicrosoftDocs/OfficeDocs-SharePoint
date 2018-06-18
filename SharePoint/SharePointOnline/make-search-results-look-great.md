@@ -19,7 +19,7 @@ Presenting the search results the right way makes content easier to find. Learn 
   
  **Manage the Search Center**
   
-A Search Center is a site where users can enter search queries and view search results. [Learn more](manage-the-search-center.md).
+A Search Center is a site where users can enter search queries and view search results. [Learn more](manage-search-center.md).
   
  **Specify the default Search Center URL**
   
@@ -31,7 +31,7 @@ For each site collection or site, you can specify the URL of the Search Center w
   
  **The Search Box Web Part**
   
-The Search Box Web Part shows a text box where users can enter words or phrases to search for information. [Learn more](the-search-box-web-part.md).
+The Search Box Web Part shows a text box where users can enter words or phrases to search for information. [Learn more](search-box-web-part.md).
   
  **The Search Results Web Part**
   
@@ -39,7 +39,7 @@ The Search Results Web Part shows the search results of a query that was entered
   
  **The Search Navigation Web Part**
   
-The Search Navigation Web Part lets users move quickly between search verticals, for example between **People** and **Videos**. [Learn more](the-search-navigation-web-part.md).
+The Search Navigation Web Part lets users move quickly between search verticals, for example between **People** and **Videos**. [Learn more](search-navigation-web-part.md).
   
  **The Refinement Web Part**
   
@@ -51,6 +51,6 @@ When visitors browse to a page that contains a Content Search Web Part, the Web 
   
  **Use result types and display types to change how search results look**
   
-To help users quickly distinguish between different types of results you can use  *[result types](manage-result-types.md)*  and  *display templates*  to show important information directly in the search results. Users don't have to click on each result to see if they've found what they're looking for. [Learn more](result-types-disp-templates.md).
+To help users quickly distinguish between different types of results you can use  *[result types](manage-result-types.md)*  and  *display templates*  to show important information directly in the search results. Users don't have to click on each result to see if they've found what they're looking for. [Learn more](use-result-types-and-display-templates.md).
   
 

@@ -3,7 +3,7 @@ title: "Turn on external sharing notifications for OneDrive"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 4/11/2018
+ms.date: 6/12/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
@@ -30,7 +30,7 @@ To help your OneDrive users monitor and control which external users have access
 If external sharing is enabled in your organization, these notifications are enabled by default.
   
 > [!NOTE]
-> Office 365 admins can use [Search the audit log in the Office 365 Security &amp; Compliance Center](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c) to monitor content that is shared externally. 
+> Office 365 admins can use [Search the audit log in the Office 365 Security and Compliance Center](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c) to monitor content that is shared externally. 
   
 ## Turn on external sharing notifications
 
@@ -43,6 +43,9 @@ If external sharing is enabled in your organization, these notifications are ena
     
   - **External users accept invitations to access files**
     
+    > [!NOTE]
+    > This setting no longer works for the new sharing experience that appears in most places. This setting will be removed. 
+  
 ## See also
 
 #### Other Resources

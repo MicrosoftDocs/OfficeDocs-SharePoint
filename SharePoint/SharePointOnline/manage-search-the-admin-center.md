@@ -26,7 +26,7 @@ The changes you make from the search administration page are valid for the whole
     
 2. Select the app launcher icon ![The icon that looks like a waffle and represents a button click that will reveal multiple application tiles for selection.](media/3b8a317e-13ba-4bd4-864e-1ccd47af39ee.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
-3. In the left pane, choose **Admin centers** > **SharePoint**.
+3. In the left pane, choose **Admin centers** \> **SharePoint**.
     
 4. Choose **search** in the left pane. 
     
@@ -35,7 +35,7 @@ The changes you make from the search administration page are valid for the whole
 
 |**Choose this option:**|**To do this:**|
 |:-----|:-----|
-|[Manage the search schema](manage-the-search-schema.md) <br/> |Learn how to create a customized search experience by changing the search schema. In the search schema, you can view, create, or change managed properties, and map crawled properties to managed properties.  <br/> |
+|[Manage the search schema](manage-search-schema.md) <br/> |Learn how to create a customized search experience by changing the search schema. In the search schema, you can view, create, or change managed properties, and map crawled properties to managed properties.  <br/> |
 |[Manage search dictionaries](manage-search-dictionaries.md) <br/> |Learn how to manage search dictionaries. You can use search dictionaries to include or exclude company names to be extracted from the content of your indexed documents, or you can include or exclude words for query spelling correction.  <br/> |
 |[Manage authoritative pages](manage-authoritative-pages.md) <br/> |Influence the pages or documents that should appear at the top of your list of search results by identifying high-quality pages, also known as authoritative pages.  <br/> |
 |[Manage query suggestion settings](manage-query-suggestions.md) <br/> |Learn how to add phrases that you want the system to suggest to users as they search for an item, and how to add phrases that you don't want the system to suggest to users. Also, learn how to turn this feature on or off.  <br/> |
@@ -45,7 +45,7 @@ The changes you make from the search administration page are valid for the whole
 |[Remove search results](remove-search-results.md) <br/> |Learn how you can temporarily remove items from the search results with immediate effect. These items can be documents, pages, or sites that you don't want users to see when they search.  <br/> |
 |[View usage and search reports](view-search-usage-reports.md) <br/> |View usage reports and search reports and see how often your users search, what their top queries are, and which queries they're having trouble getting answers for.  <br/> |
 |[Manage Search Center settings](specify-default-search-center.md) <br/> |Choose where searches should go by specifying the URL of your Search Center.  <br/> |
-|[Import and export customized search configuration settings](export-import-search-settings.md) <br/> |Learn how to export and import customized search configuration settings between tenants, site collections, and sites.  <br/> |
+|[Import and export customized search configuration settings](export-and-import-search-settings.md) <br/> |Learn how to export and import customized search configuration settings between tenants, site collections, and sites.  <br/> |
 |[Manage crawl log permissions](set-crawl-log-permissions.md) <br/> |Learn how to grant users or groups read access to crawl log information for the tenant. A typical use case is in eDiscovery, where users may need to check whether crawled content was in fact added to the search index.  <br/> |
    
 > [!NOTE]

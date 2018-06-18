@@ -6,6 +6,13 @@ manager: pamgreen
 ms.date: 2/21/2018
 ms.audience: Admin
 ms.topic: troubleshooting
+f1_keywords:
+- 'SPOTADNS'
+- 'O365M_DomainsWizAdd_SPOUseMultiServices'
+- 'O365M_DomainsProp_SPO'
+- 'O365E_DomainsWizAdd_SPOUseMultiServices'
+- 'O365E_DomainsProp_SPO'
+- 'O365E_DomainsMain_PublicWebsite'
 ms.service: o365-administration
 localization_priority: Priority
 search.appverid:

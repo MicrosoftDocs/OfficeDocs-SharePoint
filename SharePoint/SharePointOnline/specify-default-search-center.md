@@ -22,7 +22,7 @@ As a SharePoint Online administrator, you can specify where searches should go b
 
 1. Sign in to the Office 365 Admin Center.
     
-2. Choose **Admin** > **SharePoint**. You're now in the SharePoint admin center.
+2. Choose **Admin** \> **SharePoint**. You're now in the SharePoint admin center.
     
 3. Choose **search**. 
     

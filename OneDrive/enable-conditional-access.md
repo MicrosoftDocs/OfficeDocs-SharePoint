@@ -73,7 +73,7 @@ Please let us know if you run into any problems while using this release.
     
 ## Related Topics
 
-[Deploy the new OneDrive sync client](deploy-sync-clientwindows.md)
+[Deploy the new OneDrive sync client](deploy-sync-client-for-windows.md)
   
 [Sync files with the new OneDrive sync client in Windows](https://support.office.com/article/615391c4-2bd3-4aae-a42a-858262e42a49)
   

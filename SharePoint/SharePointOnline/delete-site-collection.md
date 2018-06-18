@@ -32,7 +32,7 @@ You should notify the site collection owners and subsite owners before you delet
     
 2. Select the app launcher icon ![The icon that looks like a waffle and represents a button click that will reveal multiple application tiles for selection.](media/3b8a317e-13ba-4bd4-864e-1ccd47af39ee.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
-3. In the left pane, choose **Admin centers** > **SharePoint**.
+3. In the left pane, choose **Admin centers** \> **SharePoint**.
     
 4. Select the check box next to the site collection or multiple site collections that you want to delete.
     
@@ -45,7 +45,7 @@ You should notify the site collection owners and subsite owners before you delet
     ![Delete Site Collection dialog box](media/9f0418d4-04a4-406a-9f61-9aac79ae28f8.PNG)
   
 > [!NOTE]
-> To delete a communication site, use the new SharePoint admin center preview. For info, see [Manage sites in the new SharePoint admin center](manage-sites-in-the-new-sharepoint-admin-center.md). 
+> To delete a communication site, use the new SharePoint admin center preview. For info, see [Manage sites in the new SharePoint admin center](manage-sites-in-new-admin-center.md). 
   
 ## Delete team sites that belong to Office 365 groups
 <a name="__toc323551190"> </a>
@@ -54,7 +54,7 @@ To delete a group-connected team site, you need to delete the group.
   
 1. Sign in to Office 365 as a global admin or SharePoint admin.
     
-2. In the left pane, choose **Groups** > **Groups**.
+2. In the left pane, choose **Groups** \> **Groups**.
     
 3. Select the check box next to the group you want to delete.
     

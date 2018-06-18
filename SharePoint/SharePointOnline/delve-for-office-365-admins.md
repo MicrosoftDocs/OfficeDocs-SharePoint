@@ -3,7 +3,7 @@ title: "Office Delve for Office 365 admins"
 ms.author: gretel
 author: gretel
 manager: arnek
-ms.date: 5/2/2018
+ms.date: 6/7/2018
 ms.audience: Admin
 ms.topic: overview
 ms.prod: office-online-server
@@ -44,7 +44,7 @@ If you want to receive new functionality in Delve before it's made available in 
     
 2. Select the app launcher icon ![The icon that looks like a waffle and represents a button click that will reveal multiple application tiles for selection.](media/3b8a317e-13ba-4bd4-864e-1ccd47af39ee.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
-3. Go to **Settings** > **Organization profile**.
+3. Go to **Settings** \> **Organization profile**.
     
 4. Next to **Release preferences**, click **Edit**. 
     
@@ -137,7 +137,7 @@ There are a few things you should check if one or more users in your organizatio
     
 2. Select the app launcher icon ![The icon that looks like a waffle and represents a button click that will reveal multiple application tiles for selection.](media/3b8a317e-13ba-4bd4-864e-1ccd47af39ee.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
-3. Go to **Settings** > **Office Graph** and make sure that you've selected **Allow access to the Office Graph**. 
+3. Go to **Settings** \> **Office Graph** and make sure that you've selected **Allow access to the Office Graph**. 
     
     > [!NOTE]
     > If you have a SharePoint Online standalone service (SharePoint Online Plan 1 or SharePoint Online Plan 2) you'll see the Office Graph setting in the SharePoint admin center. However, users won't be able to use Delve or see Delve in the app launcher, because Delve is not available for standalone services yet. 
@@ -148,13 +148,13 @@ There are a few things you should check if one or more users in your organizatio
     
 2. Select the app launcher icon ![The icon that looks like a waffle and represents a button click that will reveal multiple application tiles for selection.](media/3b8a317e-13ba-4bd4-864e-1ccd47af39ee.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
-3. Go to **Billing** > **Subscriptions**.
+3. Go to **Billing** \> **Subscriptions**.
     
 4. Verify that you have one of the following subscriptions: 
     
   - Office 365 Enterprise (E1, E3, or E4)
     
-  - Office 365 Education (E1, E3 or E4) 
+  - Office 365 Education
     
   - Office 365 Government (E1, E3 or E4)
     
@@ -168,7 +168,7 @@ There are a few things you should check if one or more users in your organizatio
     
 2. Select the app launcher icon ![The icon that looks like a waffle and represents a button click that will reveal multiple application tiles for selection.](media/3b8a317e-13ba-4bd4-864e-1ccd47af39ee.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
-3. Go to **Users** > **Active Users**.
+3. Go to **Users** \> **Active Users**.
     
 4. Check the box in front of the name of the user who you want to check the licenses for.
     
@@ -236,9 +236,9 @@ If users don't have any recently modified or viewed content in these content sou
     
 - Check the permission settings on the SharePoint Online sites and site collections to make sure that the user has access to the correct sites and their content.
     
-- Check that the user is in the Active Directory and that he or she is a member of the correct Active Directory groups. To verify, go to **Office 365 admin center** > **Users** > **Active Users**. 
+- Check that the user is in the Active Directory and that he or she is a member of the correct Active Directory groups. To verify, go to **Office 365 admin center** \> **Users** \> **Active Users**. 
     
-- Make sure that the user allows Delve to show documents. To verify, have the user go to **Office 365** > **Delve** > ** Feature settings ** and make sure that **Documents in Delve** isn't turned off. 
+- Make sure that the user allows Delve to show documents. To verify, have the user go to **Office 365** \> **Delve** \> ** Feature settings ** and make sure that **Documents in Delve** isn't turned off. 
     
 - Make sure that you've assigned users a license to access to the Office 365 services that you've activated.
     
@@ -264,7 +264,7 @@ Any document that a user can view or edit in Office 365, can also appear in Delv
   
 - Check the permission settings for the documents, sites and libraries and make sure that only the intended users have access to the content.
     
-- If you want to prevent specific documents from appearing in Delve, follow the steps in [Hide documents from Delve](manage-the-search-schema.md#BKMK_HideFromDelveSteps). You can keep storing the documents in Office 365, and people can still find them through search - they just won't show up in Delve.
+- If you want to prevent specific documents from appearing in Delve, follow the steps in [Hide documents from Delve](manage-search-schema.md#BKMK_HideFromDelveSteps). You can keep storing the documents in Office 365, and people can still find them through search - they just won't show up in Delve.
     
 ## About the Office Graph
 <a name="BKMK_AboutOfficeGraph"> </a>
@@ -311,7 +311,7 @@ Admins
   
 - [SharePoint Online Planning Guide for Office 365 for business](introduction.md)
     
-- [Manage SharePoint Online user profiles from the SharePoint admin center](manage-user-profiles-in-the-sharepoint-admin-center.md)
+- [Manage SharePoint Online user profiles from the SharePoint admin center](manage-user-profiles.md)
     
 - [Office 365 integration with on-premises environments](https://support.office.com/article/263faf8d-aa21-428b-aed3-2021837a4b65)
     

@@ -68,7 +68,7 @@ As a site owner, you can choose whether or not the content on your site can appe
 > [!NOTE]
 > To change this setting, you must have the Manage Permissions permission level. This permission level is included in the " *Site Name*  " Owner group. 
   
-1. On the site, click **Settings** > **Site Settings**.
+1. On the site, click **Settings** \> **Site Settings**.
     
 2. Under **Search**, click **Search and offline availability**.
     
@@ -116,7 +116,7 @@ You have the option of ignoring this setting to display all content in search re
 > [!NOTE]
 > To change this setting, you must have the Manage Permissions permission level. This permission level is included in the " *Site Name*  " Owner group. 
   
-1. On the site, click **Settings** > **Site Settings**.
+1. On the site, click **Settings** \> **Site Settings**.
     
 2. Under **Search**, click **Search and offline availability**.
     

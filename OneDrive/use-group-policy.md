@@ -3,7 +3,7 @@ title: "Use Group Policy to control OneDrive sync client settings"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 5/21/2018
+ms.date: 5/30/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
@@ -68,7 +68,7 @@ The following Computer Configuration policies are available:
     
 - [Silently configure OneDrive using Windows 10 or domain credentials](use-group-policy.md#SilentConfig)
     
-- [(Preview) Configure the maximum OneDrive size for downloading all files automatically](use-group-policy.md#MaxOneDriveSize)
+- [Configure the maximum OneDrive size for downloading all files automatically](use-group-policy.md#MaxOneDriveSize)
     
 > [!NOTE]
 > "SharePoint on-premises server URL" and "SharePoint prioritization setting for hybrid customers that use SharePoint Online (SPO) and SharePoint on-premises server" are included in the .adml file and will be in preview soon. 
@@ -76,7 +76,7 @@ The following Computer Configuration policies are available:
 ### Allow syncing OneDrive accounts for only specific organizations
 <a name="TenantAllowList"> </a>
 
-This policy lets you allow users to sync OneDrive accounts for only some organizations by specifying a list of allowed tenant IDs. If you enable this setting, users will get an error if they attempt to add an account from an organization not on the list. If a user has already the account, the files will stop syncing. 
+This policy lets you allow users to sync OneDrive accounts for only some organizations by specifying a list of allowed tenant IDs. If you enable this setting, users will get an error if they attempt to add an account from an organization not on the list. If a user has already the account, the files will stop syncing.
   
 In the **Options** box, click **Show** to enter the tenant ID. 
   
@@ -93,7 +93,7 @@ This setting will take priority over the policy "Block syncing OneDrive accounts
 ### Block syncing OneDrive accounts for specific organizations
 <a name="TenantBlockList"> </a>
 
-This policy lets you block users from uploading files to another organization by specifying a list of blocked tenant IDs. If you enable this setting, users will get an error if they attempt to add an account from an organization that is blocked. If a user has already added the account, the files will stop syncing. 
+This policy lets you block users from uploading files to another organization by specifying a list of blocked tenant IDs. If you enable this setting, users will get an error if they attempt to add an account from an organization that is blocked. If a user has already added the account, the files will stop syncing.
   
 In the **Options** box, click **Show** to enter the tenant ID. 
   
@@ -163,7 +163,7 @@ For info about estimating the network bandwidth you need for the sync client and
 ### Silently configure OneDrive using Windows 10 or domain credentials
 <a name="SilentConfig"> </a>
 
-Important: if you enable this setting, ADAL must be enabled or the account configuration will fail. Download and open [EnableADAL.reg](https://aka.ms/EnableADAL) to enable ADAL and restart the sync client. 
+Important: ADAL is now enabled automatically when use this policy or the registry key so you don't have to download and enable it separately.
   
 This policy lets you configure the OneDrive sync client silently using the primary Windows account on Windows 10, and domain credentials on Windows 7 and later.
   
@@ -179,10 +179,10 @@ This policy can be used with DiskSpaceCheckThresholdMB as well as DefaultRootDir
   
 Please let us know if you have feedback on this feature or encounter any issues. Right-click the OneDrive icon in the notification area and click "Report a problem." Please tag any feedback with "SilentConfig" so that your feedback will be sent directly to engineers working on this feature.
   
-### (Preview) Configure the maximum OneDrive size for downloading all files automatically
+### Configure the maximum OneDrive size for downloading all files automatically
 <a name="MaxOneDriveSize"> </a>
 
-This setting is used in conjunction with SilentAccountConfig. Any user who has a OneDrive that's larger than the specified threshold (in MB) will be prompted to choose the folders they would like to sync before the OneDrive sync client (OneDrive.exe) downloads the files. 
+This setting is used in conjunction with SilentAccountConfig. Any user who has a OneDrive that's larger than the specified threshold (in MB) will be prompted to choose the folders they would like to sync before the OneDrive sync client (OneDrive.exe) downloads the files.
   
 In the **Options** box, click **Show** to enter the tenant ID and the maximum size in MB (from 0 to 4294967295). 
   
@@ -375,11 +375,11 @@ Enabling this policy sets the following registry key value to 1.
 ## Related Topics
 <a name="Glob"> </a>
 
-[Deploy the new OneDrive sync client in an enterprise environment ](deploy-sync-clientwindows.md)
+[Deploy the new OneDrive sync client in an enterprise environment ](deploy-sync-client-for-windows.md)
   
 [Prevent users from installing the sync client](prevent-installation.md)
   
-[Allow syncing only on computers joined to specific domains ](allow-syncing-only-on-computers-joined-to-specific-domains.md)
+[Allow syncing only on computers joined to specific domains ](allow-syncing-only-on-specific-domains.md)
   
 [Block syncing of specific file types ](block-file-types.md)
   

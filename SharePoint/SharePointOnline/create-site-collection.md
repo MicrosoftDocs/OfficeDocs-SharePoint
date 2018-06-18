@@ -7,9 +7,11 @@ ms.date: 5/18/2018
 ms.audience: Admin
 ms.topic: article
 f1_keywords:
+- 'TellMe_Admin'
 - 'O365P_SitesMgmtModern'
 - 'O365M_SitesMgmtModern'
 - 'O365E_SitesMgmtModern'
+- 'How To'
 ms.service: o365-administration
 localization_priority: Priority
 ms.collection: Strat_SP_admin
@@ -27,7 +29,7 @@ description: "Learn how to create and delete SharePoint Online site collections 
 This article shows how Office 365 global admins and SharePoint admins can create classic SharePoint Online site collections in the classic SharePoint admin center.
   
 > [!NOTE]
-> For info about creating new team sites that are connected to Office 365 groups and communication sites in the new SharePoint admin center preview, see [Manage sites in the new SharePoint admin center](manage-sites-in-the-new-sharepoint-admin-center.md). 
+> For info about creating new team sites that are connected to Office 365 groups and communication sites in the new SharePoint admin center preview, see [Manage sites in the new SharePoint admin center](manage-sites-in-new-admin-center.md). 
   
 ## Create a classic site collection
 <a name="__toc323551189_1"> </a>
@@ -45,7 +47,7 @@ SharePoint Online has several templates for classic site collections. For exampl
     ![Office 365 admin center create site collection](media/3026fd12-9d34-4948-a149-fcc8de7b7d83.png)
   
     > [!NOTE]
-    > If you don't see the options above, select **Admin centers** > **SharePoint** and then select **New** > **Private Site Collection**.![Site Collection page with New selected](media/cf178205-b5bb-4152-a4c8-87d3099fc6ca.PNG)
+    > If you don't see the options above, select **Admin centers** \> **SharePoint** and then select **New** \> **Private Site Collection**.![Site Collection page with New selected](media/cf178205-b5bb-4152-a4c8-87d3099fc6ca.PNG)
   
 5. Fill out the new site collection properties:
     ![New Site Collection dialog box (top half)](media/1f30a4a6-27b7-42cd-97b0-bcef2e515902.PNG)

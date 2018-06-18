@@ -17,7 +17,7 @@ description: "Create and use result types to customize how results are displayed
 
 As a site collection administrator or site owner, you can create and use result types to customize how results are displayed for particular types of documents. 
   
-You use a result type to specify a [display template](result-types-disp-templates.md) that the search system should use for a particular type of document or search result. As documents aren't all the same, search results shouldn't be either. By using result types and display templates, it's much easier for users to find the results they are looking for. 
+You use a result type to specify a [display template](use-result-types-and-display-templates.md) that the search system should use for a particular type of document or search result. As documents aren't all the same, search results shouldn't be either. By using result types and display templates, it's much easier for users to find the results they are looking for. 
   
 A result type specifies one or more conditions to compare search results against, such as the type or the result source of the search result, and an action to take if a search result meets those conditions. The action specifies the display template to use for the search result. 
   
@@ -25,7 +25,7 @@ For example, a preconfigured result type named **Person** specifies that if a se
   
 Another example is to have a result type that fires if the **ContentType** property **contains** *Sales Report*  , and then have a specific display template for sales reports. Users will identify the search result as a sales report right away. 
   
-See [Change how search results look by using result types and display templates](result-types-disp-templates.md) for more information. 
+See [Change how search results look by using result types and display templates](use-result-types-and-display-templates.md) for more information. 
   
 There are many preconfigured result types to choose from, and you can also create new custom result types. You can configure result types at site collection level and at site level.
   

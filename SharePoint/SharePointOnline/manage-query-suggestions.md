@@ -30,13 +30,13 @@ Query suggestions are turned on by default. To turn them off, go to **Search Sug
 
 1. Sign in to the Office 365 Admin Center as a search administrator.
     
-2. Choose **Admin** > **SharePoint** > **search** > **Query Suggestion Settings** **.**
+2. Choose **Admin** \> **SharePoint** \> **search** \> **Query Suggestion Settings** **.**
     
 3. Open a text editor of your choice, and enter a list of terms that you want the system to always suggest to users. Only add one term per line to the text file, and don't mix languages in the text file.
     
 4. Save the text file to a location that's accessible from SharePoint Online.
     
-5. To import a list of query suggestions to SharePoint search, go to **Always suggest phrases** > **Import from text file**. When you import query suggestions, any existing ones will be overwritten.
+5. To import a list of query suggestions to SharePoint search, go to **Always suggest phrases** \> **Import from text file**. When you import query suggestions, any existing ones will be overwritten.
     
 6. Browse to the file that you want to import.
     

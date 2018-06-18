@@ -33,7 +33,7 @@ Note: You can change the name of a client type that has been created for your te
   
 1. Sign in to the Office 365 Admin Center as a search administrator.
     
-2. Choose **Admin** > **SharePoint**. You're now in the SharePoint admin center.
+2. Choose **Admin** \> **SharePoint**. You're now in the SharePoint admin center.
     
 3. Choose **search**.
     
@@ -57,7 +57,7 @@ You can use throttling tiers to prioritize query processing. When the resource l
   
 1. Sign in to the Office 365 Admin Center as a search administrator.
     
-2. Choose **Admin** > **SharePoint**. You're now in the SharePoint admin center.
+2. Choose **Admin** \> **SharePoint**. You're now in the SharePoint admin center.
     
 3. Choose **search**.
     

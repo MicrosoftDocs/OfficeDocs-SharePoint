@@ -39,7 +39,7 @@ Even if you don't plan to make internal custom apps available, you will not be a
     
     ![The Office 365 app launcher with the Admin app highlighted](media/4eea9dbc-591b-48be-9916-322d41c6525b.png)
   
-3. In the left pane, choose **Admin centers** > **SharePoint**.
+3. In the left pane, choose **Admin centers** \> **SharePoint**.
     
 4. Select **apps** in the left pane, and then select **App Catalog**.
     
@@ -170,7 +170,7 @@ If you no longer want a specific app to be available for users to install, you c
 
 #### Other Resources
 
-[Configure settings for the SharePoint Store](configure-settings-for-the-sharepoint-store.md)
+[Configure settings for the SharePoint Store](configure-sharepoint-store-settings.md)
   
 [Manage app licenses for a SharePoint Online environment](manage-app-licenses.md)
   
