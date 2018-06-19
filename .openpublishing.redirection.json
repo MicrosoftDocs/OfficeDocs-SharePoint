@@ -2,7 +2,7 @@
   "redirections": [ 
     {
         "source_path": "sharepoint/sharepointserver/sharepoint-updates.md",
-        "redirect_url": "https://docs.microsoft.com/sharepoint/sharepoint-updates",
+        "redirect_url": "https://docs.microsoft.com/officeupdates/sharepoint-updates",
         "redirect_document_id": true
      }, 
      {
