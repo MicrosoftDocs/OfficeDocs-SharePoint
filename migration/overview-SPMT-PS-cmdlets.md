@@ -28,29 +28,7 @@ The PowerShell cmdlets provide the same functionalities as [SharePoint Migration
 > [!NOTE]
 > Currently these PowerShell cmdlets are not available for users of Office 365 operated by 21Vianet in China or for users of Office 365 Germany. 
   
-### Recommended requirements for best performance
 
-|**Recommendation**||
-|:-----|:-----|
-|CPU |64-bit Quad core processor or better|
-|RAM|16 GB|
-|Local Storage|Solid state disk: 150 GB free space|
-|Network card|1 Gbps|
-|Operating system|Windows Server 2016 Standard or Datacenter<br>Windows Server 2012 R2<br>Windows 10 client<br/>.NET Framework 4.6.2|
-|Microsoft Visual C++ 2015 Redistributable|Required for OneNote migration.|
-  <br/> 
-
-### Minimum requirements (expect slow performance)
-
-|**Minimum requirement**||
-|:-----|:-----|
-|CPU  <br/> |64-bit 1.4 GHz 2-core processor or better  <br/> |
-|RAM  <br/> |8 GB  <br/> |
-|Local Storage  <br/> |Hard disk: 150 GB free space  <br/> |
-|Network card  <br/> |High-speed Internet connection  <br/> |
-|Operating system  <br/> |Windows Server 2008 R2<br>Windows 7<br>Windows 8 or 8.1<br/> .NET Framework 4.6.2  <br/> |
-|Microsoft Visual C++ 2015 Redistributable  <br/> |Required for OneNote migration.|  <br/> 
- 
  
 ### Before you begin
 
@@ -61,16 +39,14 @@ The PowerShell cmdlets provide the same functionalities as [SharePoint Migration
     
 - Install the SharePoint Online Management Shell and set up your working directory.Install from here: [SharePoint Migration Tool PowerShell Shell](http://LINK).
     
-- Open **SharePoint Migration shell** and select **Run as Administrator**.
+- When you open the **SharePoint Migration shell**, select **Run as Administrator**.
     
 <br><br>
   
 ### Create and initialize a migration session
 <a name="Step1CreateInitialize"> </a>
 
-- **Register-SPMigration**
- 
-This cmdlet creates a SPMT migration session and initialization. The initialization includes configuring migration settings at the session level and connecting to SPO. If no specific setting parameters are defined, default settings will be used. 
+- **Register-SPMigration**<br> This cmdlet creates a SPMT migration session and initialization. The initialization includes configuring migration settings at the session level and connecting to SPO. If no specific setting parameters are defined, default settings will be used. 
 After a session is registered, the Administrator can add a migration task to the SPMT session and to start migration.
 
   
