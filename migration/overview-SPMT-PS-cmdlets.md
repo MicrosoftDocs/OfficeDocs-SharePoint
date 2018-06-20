@@ -28,7 +28,29 @@ The PowerShell cmdlets provide the same functionalities as [SharePoint Migration
 > [!NOTE]
 > Currently these PowerShell cmdlets are not available for users of Office 365 operated by 21Vianet in China or for users of Office 365 Germany. 
   
+### Recommended requirements for best performance
 
+|**Recommendation**||
+|:-----|:-----|
+|CPU |64-bit Quad core processor or better|
+|RAM|16 GB|
+|Local Storage|Solid state disk: 150 GB free space|
+|Network card|1 Gbps|
+|Operating system|Windows Server 2016 Standard or Datacenter<br>Windows Server 2012 R2<br>Windows 10 client<br/>.NET Framework 4.6.2|
+|Microsoft Visual C++ 2015 Redistributable|Required for OneNote migration.|
+  <br/> 
+
+### Minimum requirements (expect slow performance)
+
+|**Minimum requirement**||
+|:-----|:-----|
+|CPU  <br/> |64-bit 1.4 GHz 2-core processor or better  <br/> |
+|RAM  <br/> |8 GB  <br/> |
+|Local Storage  <br/> |Hard disk: 150 GB free space  <br/> |
+|Network card  <br/> |High-speed Internet connection  <br/> |
+|Operating system  <br/> |Windows Server 2008 R2<br>Windows 7<br>Windows 8 or 8.1<br/> .NET Framework 4.6.2  <br/> |
+|Microsoft Visual C++ 2015 Redistributable  <br/> |Required for OneNote migration.|  <br/> 
+ 
  
 ### Before you begin
 
