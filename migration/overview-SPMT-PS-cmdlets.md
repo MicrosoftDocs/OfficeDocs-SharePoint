@@ -30,7 +30,7 @@ The PowerShell cmdlets provide the same functionalities as [SharePoint Migration
   
 ### Recommended requirements for best performance
 
-|**Recommendation**||
+|**Description**|**Recommendation**|
 |:-----|:-----|
 |CPU|64-bit Quad core processor or better|
 |RAM|16 GB|
@@ -42,7 +42,7 @@ The PowerShell cmdlets provide the same functionalities as [SharePoint Migration
 
 ### Minimum requirements (expect slow performance)
 
-|**Minimum requirement**||
+|**Description**|**Minimum requirement**|
 |:-----|:-----|
 |CPU  <br/> |64-bit 1.4 GHz 2-core processor or better  <br/> |
 |RAM  <br/> |8 GB  <br/> |
