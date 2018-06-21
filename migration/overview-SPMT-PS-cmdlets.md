@@ -29,11 +29,13 @@ The PowerShell cmdlets provide the same functionalities as [SharePoint Migration
 > Currently these PowerShell cmdlets are not available for users of Office 365 operated by 21Vianet in China or for users of Office 365 Germany. 
   
 ### Recommended requirements for best performance
-For best performance:
+
 
 |**Description**|**Recommendation**|
 |:-----|:-----|
 |CPU|64-bit Quad core processor or better|
+|RAM|16 GB|
+|Local Storage|Hard disk: 150 GB free space|
 
 
 
