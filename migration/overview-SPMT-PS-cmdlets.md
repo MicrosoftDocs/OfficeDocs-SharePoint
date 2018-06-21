@@ -74,36 +74,36 @@ After a session is registered, the Administrator can add a migration task to the
 
   
 ### Add a migration task
-- **Add-SPMTTask**<br>
+- **[Add-SPMTTask](https://docs.microsoft.com/en-us/powershell/module/spmt/Add-SPMTTask.md)**<br>
 Use this cmdlet to add a new migration task to the registered migration session. Currently there are three differnt types of tasks allowed:  File share task, SharePoint task and a JSON defined task.  Note:  Duplicate tasks are not allowed.
   
  
   
 ### Remove a task
-- **Remove-SPMTTask**<br>
+- **[Remove-SPMTTask](https://docs.microsoft.com/en-us/powershell/module/spmt/Remove-SPMTTask.md)**<br>
 Use this cmdlet to remove an existing migration task from the registered migration.
 
 
   
 ### Start your migration
-- **Start-SPMTMigration**<br>
+- **[Start-SPMTMigration](https://docs.microsoft.com/en-us/powershell/module/spmt/Start-SPMTTask.md)**<br>
 This cmdlet will start the registered SPMT migration.
  
 ### Return object of current session
-- **Get-SPMTMigration**<br>
+- **[Get-SPMTMigration](https://docs.microsoft.com/en-us/powershell/module/spmt/Get-SPMTMigration.md)**<br>
 Return object of current session. It includes information regarding to current tasks and current settings. 
 
 ### Stop your current migration session
-- **Stop-SPMTMigration**<br>
+- **[Stop-SPMTMigration](https://docs.microsoft.com/en-us/powershell/module/spmt/Stop-SPMTMigration.md)**<br>
 This cmdlet will cancel the current migration session. 
 
 
 ### Show your migration status details
-- **Show-SPMTMigration**<br>
+- **[Show-SPMTMigration](https://docs.microsoft.com/en-us/powershell/module/spmt/Show-SPMTMigration.md)**<br>
 If you start the migration in *NoShow* mode, running the **Show-SPMTMigration** cmdlet will display the task ID, data source location, target location and migration status in the console. Pressing Ctrl+C will return to *NoShow* mode.  
 
 ### Remove the migration session
-- **Unregister-SPMTMigration**<br>
+- **[Unregister-SPMTMigration](https://docs.microsoft.com/en-us/powershell/module/spmt/Unregister-SPMTMigration.md)**<br>
 Use this cmdlet to delete the migration session. 
 
 ## Sample Scenarios
