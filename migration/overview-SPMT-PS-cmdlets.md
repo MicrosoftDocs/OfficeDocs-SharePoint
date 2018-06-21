@@ -34,12 +34,8 @@ For best performance:
 |**Description**|**Recommendation**|
 |:-----|:-----|
 |CPU|64-bit Quad core processor or better|
-|RAM|16 GB|
-|Local Storage|Solid state disk: 50 GB free space|
-|Network card| Gbps|
-|Operating system|Windows Server 2016 Standard or Datacenter<bR>Windows Server 2012 R2<br>Windows 10 client<br>.NET Framework 4.6.2|
-|Microsoft Visual C++ 2015 Redistributable|Required for OneNote migration|
-<br>
+
+
 
 ### Minimum requirements (expect slow performance)
 
