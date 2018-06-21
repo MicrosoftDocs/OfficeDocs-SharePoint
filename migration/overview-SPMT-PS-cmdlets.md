@@ -69,7 +69,7 @@ The PowerShell cmdlets provide the same functionalities as [SharePoint Migration
 ### Create and initialize a migration session
 <a name="Step1CreateInitialize"> </a>
 
-- **Register-SPMigration**<br> This cmdlet creates a SPMT migration session and initialization. The initialization includes configuring migration settings at the session level and connecting to SPO. If no specific setting parameters are defined, default settings will be used. 
+- **[Register-SPMigration](https://docs.microsoft.com/en-us/powershell/module/spmt/Register-SPMigration.md)**<br> This cmdlet creates a SPMT migration session and initialization. The initialization includes configuring migration settings at the session level and connecting to SPO. If no specific setting parameters are defined, default settings will be used. 
 After a session is registered, the Administrator can add a migration task to the SPMT session and to start migration.
 
   
