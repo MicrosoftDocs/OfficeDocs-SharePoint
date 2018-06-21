@@ -44,7 +44,7 @@ Below are the key best practices we recommend migration vendors follow.
  
 We allow 300 calls every 5 minutes for handling small migrations and site management that customers expect to complete interactively. 
  
-**Retry value**.  Use the retry value in the http header of the 429 message and do not exponential back-off. 
+**Retry value**:<br>Use the retry value in the http header of the 429 message and do not exponential back-off. 
  
 **429:**<br>Do not handle 429 as an error condition displayed to the user.  When 429 does occur, handle it as a background task retry and do not prompt users to contact support.
 
