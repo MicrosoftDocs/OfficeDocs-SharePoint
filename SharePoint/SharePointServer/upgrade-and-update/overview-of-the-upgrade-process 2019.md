@@ -40,7 +40,7 @@ Before you attach and upgrade the content databases, review the following inform
     
 **Figure: The sequence of upgrade stages**
 
-![Stages in upgrade process for SharePoint 2019](../media/SP15Upgrade_UpgradeStages.png)
+![Stages in upgrade process for SharePoint 2019](../media/SP2019UpgradeStages.png)
   
 This article helps you understand the upgrade sequence so that you can plan an upgrade project. To get detailed steps for an upgrade, see [Upgrade databases from SharePoint 2016 to SharePoint Server 2019](upgrade-databases.md) and [Upgrade site collections to SharePoint Server 2019](upgrade-site-collections.md).
   
@@ -55,7 +55,7 @@ The first stage in the upgrade process creates the new SharePoint Server 2019 fa
     
    **Figure: Create new farm, set old farm to read-only**
 
-     ![Create new farm, set old farm to read-only](../media/SP15Upgrade_CreateFarm.png)
+     ![Create new farm, set old farm to read-only](../media/CreateFarmSP2019.png)
   
 ## Copy the SharePoint Server 2016 databases
 <a name="CopyDatabases"> </a>
