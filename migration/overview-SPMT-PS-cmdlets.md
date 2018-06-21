@@ -36,6 +36,8 @@ The PowerShell cmdlets provide the same functionalities as [SharePoint Migration
 |CPU|64-bit Quad core processor or better|
 |RAM|16 GB|
 |Local Storage|Hard disk: 150 GB free space|
+|Operating system|Windows Server 2016 Standard or Datacenter<br>Windows Server 2012 R2<br>Windows 10 client<br>.Net Framework 4.6.2|
+|Microsoft Visual C++ 2015 Redistributable|Required for OneNote migration|
 
 
 
