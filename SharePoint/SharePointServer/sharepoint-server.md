@@ -29,7 +29,7 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server 2016 and 201
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_get-started.svg" alt="Get started" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-blue.svg" alt="Get started" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -47,7 +47,7 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server 2016 and 201
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_upgrade.svg" alt="Migrate" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/migration-blue.svg" alt="Migrate" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -65,7 +65,7 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server 2016 and 201
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="media/icon-hybrid.svg" alt="Hybrid" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/hybrid-blue.svg" alt="Hybrid" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -83,7 +83,7 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server 2016 and 201
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_benefits.svg" alt="Community" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/globe-internet.svg" alt="Community" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -101,7 +101,7 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server 2016 and 201
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_feedback.svg" alt="Feedback" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/chat.svg" alt="Feedback" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -119,7 +119,7 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server 2016 and 201
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_learn-about.svg" alt="Learn about" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/users-people.svg" alt="Learn about" />
                         </div>
                     </div>
                     <div class="cardText">
