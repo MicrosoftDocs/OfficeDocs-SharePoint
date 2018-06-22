@@ -1,5 +1,5 @@
 ---
-title: "Running Migrations into OneDrive and SharePoint in Office 365: Handling Throttling "
+title: "Running Migrations into OneDrive and SharePoint Online: Handling Throttling "
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
@@ -14,7 +14,7 @@ ms.custom:
 ms.assetid: 
 description: "Migration is critical for SPO and is prioritized alongside service availability."
 --- 
-# Running Migrations into OneDrive and SharePoint in Office 365: Handling Throttling 
+# Running Migrations into OneDrive and SharePoint Online: Throttling 
 
 This document is intended for ISVs migrating content into OneDrive and SharePoint only. 
 
@@ -36,15 +36,15 @@ Overall throughput over the duration of a day still aligns with our public docum
  
 Below are the key best practices we recommend migration vendors follow.  
 
-**Interactive flag:**<br>Include an *interactive flag* in your user agent string for interactive calls (such as user login, launch jobs, etc.).  For example: 
-*ISV|VendorName|AppName/Version|Interactive* <br>
+**Interactive flag:**<br>Include an *interactive flag* in your user agent string for interactive calls such as user login, launch jobs, etc. For example:<br>
+    *ISV|VendorName|AppName/Version|Interactive* <br>
 
 > [!NOTE]
 >  Once you have implemented Interactive flag for the system to pick that cue, it may not be instantaneous; allow a few days for it take effect. 
  
 We allow 300 calls every 5 minutes for handling small migrations and site management that customers expect to complete interactively. 
  
-**Retry value**.  Use the retry value in the http header of the 429 message and do not exponential back-off. 
+**Retry value**:<br>Use the retry value in the http header of the 429 message and do not exponential back-off. 
  
 **429:**<br>Do not handle 429 as an error condition displayed to the user.  When 429 does occur, handle it as a background task retry and do not prompt users to contact support.
 
