@@ -1,5 +1,5 @@
 ---
-title: "Running Migrations into OneDrive and SharePoint in Office 365: Handling Throttling "
+title: "Running Migrations into OneDrive and SharePoint Online: Handling Throttling "
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
@@ -14,7 +14,7 @@ ms.custom:
 ms.assetid: 
 description: "Migration is critical for SPO and is prioritized alongside service availability."
 --- 
-# Running Migrations into OneDrive and SharePoint in Office 365: Handling Throttling 
+# Running Migrations into OneDrive and SharePoint Online: Throttling 
 
 This document is intended for ISVs migrating content into OneDrive and SharePoint only. 
 
@@ -36,8 +36,8 @@ Overall throughput over the duration of a day still aligns with our public docum
  
 Below are the key best practices we recommend migration vendors follow.  
 
-**Interactive flag:**<br>Include an *interactive flag* in your user agent string for interactive calls (such as user login, launch jobs, etc.).  For example: 
-*ISV|VendorName|AppName/Version|Interactive* <br>
+**Interactive flag:**<br>Include an *interactive flag* in your user agent string for interactive calls such as user login, launch jobs, etc. For example:<br>
+    *ISV|VendorName|AppName/Version|Interactive* <br>
 
 > [!NOTE]
 >  Once you have implemented Interactive flag for the system to pick that cue, it may not be instantaneous; allow a few days for it take effect. 
