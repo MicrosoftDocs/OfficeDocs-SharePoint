@@ -26,7 +26,7 @@ To upgrade from Microsoft SharePoint Server 2016 to SharePoint Server 2019, you 
 SharePoint Server 2019 supports an upgrade from a RTM version of SharePoint Server 2016.
   
 > [!NOTE]
->  All database must be upgraded to version 16.0.4351.1000 or higher, otherwise upgrade to SharePoint Server 2019 will be blocked. 
+>  All databases must be upgraded to version 16.0.4351.1000 or higher, otherwise upgrade to SharePoint Server 2019 will be blocked. 
   
 After you've configured a new SharePoint Server 2019 environment, you can copy the content and service application databases from the SharePoint Server 2016 to the SharePoint Server 2019 environment. You use a backup and restore process to copy the database. You can also choose to set the databases to read-only in the SharePoint Server 2016 environment so that users can continue to access their information, but not change it.
   
@@ -40,7 +40,7 @@ Before you attach and upgrade the content databases, review the following inform
     
 **Figure: The sequence of upgrade stages**
 
-![Stages in upgrade process for SharePoint 2019](../media/SP15Upgrade_UpgradeStages.png)
+![Stages in upgrade process for SharePoint 2019](../media/SP2019UpgradeStages.png)
   
 This article helps you understand the upgrade sequence so that you can plan an upgrade project. To get detailed steps for an upgrade, see [Upgrade databases from SharePoint 2016 to SharePoint Server 2019](upgrade-databases.md) and [Upgrade site collections to SharePoint Server 2019](upgrade-site-collections.md).
   
@@ -55,7 +55,7 @@ The first stage in the upgrade process creates the new SharePoint Server 2019 fa
     
    **Figure: Create new farm, set old farm to read-only**
 
-     ![Create new farm, set old farm to read-only](../media/SP15Upgrade_CreateFarm.png)
+     ![Create new farm, set old farm to read-only](../media/CreateFarmSP2019.png)
   
 ## Copy the SharePoint Server 2016 databases
 <a name="CopyDatabases"> </a>
@@ -68,7 +68,7 @@ The second stage in the upgrade process copies the databases to the new environm
     
    **Figure: Use SQL Server tools to copy databases**
 
-     ![Use SQL Server tools to copy databases](../media/SP15Upgrade_CopyDatabases.png)
+     ![Use SQL Server tools to copy databases](../media/CopyDatabases_SP2019.png)
   
 ## Upgrade SharePoint Server 2016 databases and service applications
 <a name="Databases"> </a>
@@ -95,19 +95,19 @@ The third stage in the upgrade process upgrades the databases and service applic
     
    **Figure: Create web applications for upgrade**
 
-     ![Create Web applications for upgrade](../media/SP15Upgrade_CreateWebApplications.png)
+     ![Create Web applications for upgrade](../media/CreateWebApplications_SP2019.png)
   
 3. A server farm administrator installs all server-side customizations.
     
    **Figure: Copy customizations to the new farm**
 
-     ![Copy customizations to new farm](../media/SP15Upgrade_CopyCustomizations.png)
+     ![Copy customizations to new farm](../media/InstallCustomizations_SP2019.png)
   
 4. A server farm administrator then attaches the content databases to the new farm and upgrades the content databases for those web applications.
     
    **Figure: Upgrade the databases by using Windows PowerShell**
 
-     ![Upgrade the databases with Windows PowerShell](../media/SP15Upgrade_UpgradeContentDatabases.png)
+     ![Upgrade the databases with Windows PowerShell](../media/UpgradeContentDatabases_SP2019.png)
   
 5. A server farm administrator confirms that the upgrade is successful.
     
