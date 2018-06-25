@@ -157,11 +157,11 @@ On the application server that hosts the SharePoint ServerCentral Administration
     
 2. Download and install the [Microsoft Online Services Sign-In Assistant for IT Professionals RTW](https://go.microsoft.com/fwlink/?LinkID=286152) from the Microsoft Download Center. 
     
-3. Download version 1.1.166.0 or newer of the [Azure Active Directory Module for Windows PowerShell](http://connect.microsoft.com/site1164/Downloads/DownloadDetails.aspx?DownloadID=59185). Click **Run** to run the installer package. 
+3. Download and install the latest version of the [Azure Active Directory Module for Windows PowerShell](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.powershellgallery.com%2Fpackages%2FMSOnline&data=04%7C01%7Ctlarsen%40microsoft.com%7Cda1c06a8b0b04c23703a08d5d5eb8b35%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636650132445189261%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwifQ%3D%3D%7C-1&sdata=v9kNypO4tKJ%2Bi84QU8JwP%2FKDTrw3o903mTQer%2B8fbu4%3D&reserved=0). 
     
 4. Download the **OnBoard-CloudHybridSearch.ps1** PowerShell script from the [Microsoft Download Center](https://go.microsoft.com/fwlink/?LinkId=717902).
     
-5. If your environment is Office 365 Business, Office 365 Enterprise, Office 365 Education, Office 365 operated by 21Vianet, Office 365 Germany, or Office 365 US Government Defense, open an elevated PowerShell prompt, and run the **OnBoard-CloudHybridSearch.ps1** UNRESOLVED_TOKEN_VAL( PowerShell_2nd_NoVer) script as follows: 
+5. If your environment is Office 365 Business, Office 365 Enterprise, Office 365 Education, Office 365 operated by 21Vianet, Office 365 Germany, or Office 365 US Government Defense, open an elevated PowerShell prompt, and run the **OnBoard-CloudHybridSearch.ps1** PowerShell script as follows: 
     
   ```
   Import-Module MSOnline
