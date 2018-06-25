@@ -41,7 +41,7 @@ In addition to a number of minor fixes, here are the primary improvements made i
 |:-----|:-----|
 |Stability  <br/> |General improvements have been made to remove some errors in tool.  <br/> |
 |Permissions settings<br/> |Separate settings are now available to set file share permissions and the SharePoint on-premises permissions. <br/> |
-|Changes to migrating multiple versions <br/> |The checked-in version(s) will migrate but will filter out any the checked-out version. <br/> |
+|Changes to migrating multiple versions <br/> |Checked-in version(s) of a file will migrate but any the checked-out version will not. <br/> |
 
 ### SPMT V1.1.90.1
 
