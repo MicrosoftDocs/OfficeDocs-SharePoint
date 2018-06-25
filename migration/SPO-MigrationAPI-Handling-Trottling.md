@@ -36,13 +36,14 @@ Overall throughput over the duration of a day still aligns with our public docum
  
 Below are the key best practices we recommend migration vendors follow.  
 
-**Interactive flag:**<br>Include an *interactive flag* in your user agent string for interactive calls such as user login, launch jobs, etc. For example:<br>
-    *ISV|VendorName|AppName/Version|Interactive* <br>
+**Interactive flag:**<br>Include an *interactive flag* in your user agent string for interactive calls such as user login, launch jobs, etc. For example:   *ISV|VendorName|AppName/Version|Interactive* <br>
+
+We allow 300 calls every 5 minutes for handling small migrations and site management that customers expect to complete interactively. 
 
 > [!NOTE]
->  Once you have implemented Interactive flag for the system to pick that cue, it may not be instantaneous; allow a few days for it take effect. 
+>  Once you have implemented Interactive flag for the system to pick that cue, it may not be instantaneous; allow a few days for it to take effect. 
  
-We allow 300 calls every 5 minutes for handling small migrations and site management that customers expect to complete interactively. 
+
  
 **Retry value**:<br>Use the retry value in the http header of the 429 message and do not exponential back-off. 
  
