@@ -14,24 +14,24 @@ description: "Learn about the new features and updates to existing features in S
 
 # Release Notes:  New and improved features in the SharePoint Migration Tool
 
-## Learn about the new features and updates to existing features in SharePoint Migration Tool, Version 1.1.901.
+Learn about the new features and updates to existing features in SharePoint Migration Tool.
   
 >[!NOTE]
 >To install the current release download here: [SharePoint Migration Tool](http://spmtreleasescus.blob.core.windows.net/install/default.htm)
   
-## SPMT V 2.1.100.0
+### SPMT V2.1.100.0
 
 **New features**
 
-The following features were added to SharePoint Migration Tool, Version 1.1.901.
-  
+The following features were added to SharePoint Migration Tool, Version 2.1.100.0
+
 |**Feature**|**Description**|
 |:-----|:-----|
-|Powershell migration solution <br/> |All features of the SharePoint Migration Tool (SPMT) can now be done by using PowerShell cmdlets.<br>
+|Powershell migration solution* <br/> |All features of the SharePoint Migration Tool (SPMT) can now be done by using PowerShell cmdlets.<br>
 |Settings<br/> |Improved labels and text descriptions for settings.  <br/> |
 
 >[!Note]
->The PowerShell feature is currently in open Beta test.
+>*The PowerShell feature is currently in open Beta test.
    
 **Improvements**
 
@@ -43,7 +43,7 @@ In addition to a number of minor fixes, here are the primary improvements made i
 |Permissions settings<br/> |Separate settings are now available to set file share permissions and the SharePoint on-premises permissions. <br/> |
 |Changes to migrating multiple versions <br/> |The checked-in version(s) will migrate but will filter out any the checked-out version. <br/> |
 
-## SPMT V1.1.90.1
+### SPMT V1.1.90.1
 
 **New features**
 
