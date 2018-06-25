@@ -3,7 +3,7 @@ title: "Plan outgoing email for a SharePoint Server farm"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 9/7/2017
+ms.date: 06/22/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
