@@ -56,7 +56,7 @@ The PowerShell cmdlets provide the same functionalities as [SharePoint Migration
 ### Before you begin
 
 
-- Provision your Office 365 with either your existing active directory or one of the other options for adding accounts to Office 365. See See [Office 365 integration with on-premises environments](http://go.microsoft.com/fwlink/?LinkID=616610&amp;clcid=0x409) and [Add users to Office 365 for business](http://go.microsoft.com/fwlink/?LinkID=616611&amp;clcid=0x409) for more information. 
+- Provision your Office 365 with either your existing active directory or one of the other options for adding accounts to Office 365. See [Office 365 integration with on-premises environments](http://go.microsoft.com/fwlink/?LinkID=616610&amp;clcid=0x409) and [Add users to Office 365 for business](http://go.microsoft.com/fwlink/?LinkID=616611&amp;clcid=0x409) for more information. 
     
 <br><br>
   
@@ -89,7 +89,7 @@ Return object of current session. It includes information regarding to current t
 
 ### Stop your current migration session
 - **[Stop-SPMTMigration](https://docs.microsoft.com/en-us/powershell/module/spmt/Stop-SPMTMigration.md)**<br>
-This cmdlet will cancel the current migration session. 
+This cmdlet will cancel the current migration. 
 
 
 ### Show your migration status details
@@ -105,24 +105,25 @@ Use this cmdlet to delete the migration session.
 Example 1: IT admin adds a SharePoint on-prem task and starts migration in the background.<br>
 
 ```powershell
-$Global:UserID = “abcdefgh123456789E180XXXX”
-$Global:SPOUrl = “https://$Global:UserID.sharepoint.com”
-$Global:UserName = “admin@$Global:UserID.onmicrosoft.com”
-$Global:PassWord = ConvertTo-SecureString -String “Cl@!ms!2” -AsPlainText -Force
-$Global:AssemblyDirectory = $pwd.Path
-$Global:SPOCredential = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $Global:UserName, $Global:YourPassword
+#Define SPO target# 
+$Global:SPOUrl = “https://contoso.sharepoint.com”
+$Global:UserName = “admin@contoso.onmicrosoft.com”
+$Global:SPOPassWord = ConvertTo-SecureString -String “YourSPOPassword” -AsPlainText -Force
+$Global:SPOCredential = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $Global:UserName, $Global:SPOPassword
+$Global:TargetListName = "YourTargetListName"
+#Define On-prem SharePoint 2013 data source# 
 $Global:SourceSiteUrl = "http://Yoursite"
 $Global:OnPremUserName = "Yourcomputer\administrator"
-$Global:OnPremPassword = ConvertTo-SecureString -String "YourPassword" -AsPlainText -Force 
+$Global:OnPremPassword = ConvertTo-SecureString -String "YourOnPremPassword" -AsPlainText -Force 
 $Global:SPCredential = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $Global:OnPremUserName, $Global:OnPremPassword
-$Global:SourceListName = "Doc1"
-$Global:TargetListName = "TestDoc"
-
-
-Import-Module $Global:AssemblyDirectory\SPMTPowershell.dll
-$StartTime = [DateTime]::UtcNow
+$Global:SourceListName = "YourSourceListName"
+#Import SPMT Migration Module# 
+Import-Module Microsoft.SharePoint.MigrationTool.PowerShell
+#Register the SPMT session with SPO credentials# 
 Register-SPMTMigration -Credentials $Global:SPOCredential
+#Add one on-prem migration task to migration session#
 Add-SPMTTask -SharePointSourceCredential $Global:SPCredential -SharePointSourceSiteUrl $Global:SourceSiteUrl -SourceList $Global:SourceListName -TargetSiteUrl $Global:SPOUrl -TargetList $Global:TargetListName
+#Start Migration in the background# 
 Start-SPMTMigration -NoShow
 ```
 Example 2: IT admin wants to bring the migration from the background “NoShow mode” to the foreground, run below the cmdlet, so he can see the migration progress in the console.<br>
