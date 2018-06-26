@@ -88,7 +88,7 @@ This cmdlet will start the registered SPMT migration.
 Return the object of the current session. This includes the status of current tasks and current session level settings. Current task status includes:
      - Count of scanned files
      - Count of migrated files
-    -  Any migration error messages.
+    -  Any migration error messages
 
 
 ### Stop your current migration
