@@ -20,7 +20,7 @@ description: "New Powershell cmdlets let you migrate to SharePoint Online."
 
 # PowerShell Cmdlets for SPO Migration 
 
-This article is about the new PowerShell cmdlets based on the SharePoint Migration Tool (SPMT) migration engine. They can be used to move files from file shares, SharePoint 2013 on-premises document libraries and list items to Office 365.
+This article is about the new PowerShell cmdlets based on the SharePoint Migration Tool (SPMT) migration engine. They can be used to move files from SharePoint 2013 on-premises document libraries and list items, and file shares to Office 365.
 
 The PowerShell cmdlets provide the same functionalities as [SharePoint Migration Tool V2](introducing-the-sharepoint-migration-tool.md) .
 
@@ -63,13 +63,13 @@ The PowerShell cmdlets provide the same functionalities as [SharePoint Migration
 ### Create and initialize a migration session
 <a name="Step1CreateInitialize"> </a>
 
-- **[Register-SPMTMigration](https://docs.microsoft.com/en-us/powershell/module/spmt/Register-SPMigration.md)**<br> This cmdlet creates a SPMT migration session and initialization. The initialization includes configuring migration settings at the session level and connecting to SPO. If no specific setting parameters are defined, default settings will be used. 
-After a session is registered, the Administrator can add a migration task to the SPMT session and start migration.
+- **[Register-SPMTMigration](https://docs.microsoft.com/en-us/powershell/module/spmt/Register-SPMigration.md)**<br> This cmdlet creates and then initializes a migration session. The initialization configures migration settings at the session level. If no specific setting parameters are defined, default settings will be used. 
+After a session is registered, you can add a task to the session and start migration.
 
   
 ### Add a migration task
 - **[Add-SPMTTask](https://docs.microsoft.com/en-us/powershell/module/spmt/Add-SPMTTask.md)**<br>
-Use this cmdlet to add a new migration task to the registered migration session. Currently there are three different types of tasks allowed:  File share task, SharePoint task and a JSON defined task.  Note:  Duplicate tasks are not allowed.
+Use this cmdlet to add a new migration task to the registered migration session. Currently there are three different types of tasks allowed:  File share task, SharePoint task and JSON defined task.  Note:  Duplicate tasks are not allowed.
   
  
   
@@ -83,16 +83,20 @@ Use this cmdlet to remove an existing migration task from the registered migrati
 - **[Start-SPMTMigration](https://docs.microsoft.com/en-us/powershell/module/spmt/Start-SPMTTask.md)**<br>
 This cmdlet will start the registered SPMT migration.
  
-### Return object of current session
+### Return the object of current session
 - **[Get-SPMTMigration](https://docs.microsoft.com/en-us/powershell/module/spmt/Get-SPMTMigration.md)**<br>
-Return object of current session. It includes information regarding to current tasks and current settings. 
+Return the object of the current session. This includes the status of current tasks and current session level settings. Current task status includes:
+     - Count of scanned files
+     - Count of migrated files
+    -  Any migration error messages.
 
-### Stop your current migration session
+
+### Stop your current migration
 - **[Stop-SPMTMigration](https://docs.microsoft.com/en-us/powershell/module/spmt/Stop-SPMTMigration.md)**<br>
 This cmdlet will cancel the current migration. 
 
 
-### Show your migration status details
+### Show your migration status details in the console
 - **[Show-SPMTMigration](https://docs.microsoft.com/en-us/powershell/module/spmt/Show-SPMTMigration.md)**<br>
 If you start the migration in *NoShow* mode, running the **Show-SPMTMigration** cmdlet will display the task ID, data source location, target location and migration status in the console. Pressing Ctrl+C will return to *NoShow* mode.  
 
@@ -105,26 +109,38 @@ Use this cmdlet to delete the migration session.
 Example 1: IT admin adds a SharePoint on-prem task and starts migration in the background.<br>
 
 ```powershell
-#Define SPO target# 
+#Define SharePoint 2013 data source#
+$Global:SourceSiteUrl = "http://YourOnPremSite/"
+$Global:OnPremUserName = "Yourcomputer\administrator"
+$Global:OnPremPassword = ConvertTo-SecureString -String "OnPremPassword" -AsPlainText -Force 
+$Global:SPCredential = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $Global:OnPremUserName, $Global:OnPremPassword
+$Global:SourceListName = "SourceListName"
+
+
+#Define SPO target#
 $Global:SPOUrl = “https://contoso.sharepoint.com”
 $Global:UserName = “admin@contoso.onmicrosoft.com”
-$Global:SPOPassWord = ConvertTo-SecureString -String “YourSPOPassword” -AsPlainText -Force
-$Global:SPOCredential = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $Global:UserName, $Global:SPOPassword
-$Global:TargetListName = "YourTargetListName"
-#Define On-prem SharePoint 2013 data source# 
-$Global:SourceSiteUrl = "http://Yoursite"
-$Global:OnPremUserName = "Yourcomputer\administrator"
-$Global:OnPremPassword = ConvertTo-SecureString -String "YourOnPremPassword" -AsPlainText -Force 
-$Global:SPCredential = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $Global:OnPremUserName, $Global:OnPremPassword
-$Global:SourceListName = "YourSourceListName"
-#Import SPMT Migration Module# 
+$Global:PassWord = ConvertTo-SecureString -String "YourSPOPassword" -AsPlainText -Force
+$Global:SPOCredential = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $Global:UserName, $Global:PassWord
+$Global:TargetListName = "TargetListName"
+
+#Define File Share data source#
+$Global:FileshareSource = "YourFileShareDataSource"
+
+#Import SPMT Migration Module#
 Import-Module Microsoft.SharePoint.MigrationTool.PowerShell
-#Register the SPMT session with SPO credentials# 
-Register-SPMTMigration -Credentials $Global:SPOCredential
-#Add one on-prem migration task to migration session#
-Add-SPMTTask -SharePointSourceCredential $Global:SPCredential -SharePointSourceSiteUrl $Global:SourceSiteUrl -SourceList $Global:SourceListName -TargetSiteUrl $Global:SPOUrl -TargetList $Global:TargetListName
-#Start Migration in the background# 
-Start-SPMTMigration -NoShow
+
+#Register the SPMT session with SPO credentials#
+Register-SPMTMigration -SPOCredential $Global:SPOCredential -Force 
+
+#Add two tasks into the session. One is SharePoint migration task, and another is File Share migration task.#
+Add-SPMTTask -SharePointSourceCredential $Global:SPCredential -SharePointSourceSiteUrl $Global:SourceSiteUrl  -TargetSiteUrl $Global:SPOUrl -MigrateAll 
+Add-SPMTTask -FileShareSource $Global:FileshareSource -TargetSiteUrl $Global:SPOUrl -TargetList $Global:TargetListName
+
+#Start Migration in the console. #
+Start-SPMTMigration
+
+
 ```
 Example 2: IT admin wants to bring the migration from the background “NoShow mode” to the foreground, run below the cmdlet, so he can see the migration progress in the console.<br>
 ```powershell
