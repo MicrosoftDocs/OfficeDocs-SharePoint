@@ -240,7 +240,7 @@ You can configure outgoing email for a specific web application by using the Cen
 
 ```powershell
 ```
-$WebApp = Get-SPWebApplication -Identity <web application URL>
+$WebApp = Get-SPWebApplication -Identity &lt;web application URL&gt;
 
 $SmtpServer = "mail.example.com"
 $SmtpServerPort = 587
