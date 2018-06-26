@@ -31,7 +31,14 @@ The following features were added to SharePoint Migration Tool, Version 2.1.100.
 |Settings<br/> |Improved labels and text descriptions for settings.  <br/> |
 
 >[!Note]
->*The PowerShell feature is currently in open Beta test.
+>To use the SPMT 2.1 PowerShell feature(Open Beta):   
+1. Open SPMT v2.1.100.0. The PowerShell dlls will be copied to      *%userprofile%\Documents\WindowsPowerShell\Modules*.<br>
+2. Run the following:<br>
+```powershell
+Import-Module Microsoft.SharePoint.MigrationTool.PowerShell
+```
+<br>To learn more, see [SharePoint Migration Tool PowerShell Reference](https://docs.microsoft.com/en-us/powershell/module/spmt)
+
    
 **Improvements**
 
