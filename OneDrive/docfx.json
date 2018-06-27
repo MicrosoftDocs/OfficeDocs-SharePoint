@@ -43,6 +43,7 @@
     },
     "fileMetadata": {},
     "template": [],
-    "dest": "OfficeDocs-OneDrive"
+    "dest": "OfficeDocs-OneDrive",
+    "markdownEngineName": "markdig"    
   }
 }
