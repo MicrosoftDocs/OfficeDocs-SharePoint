@@ -16,13 +16,11 @@ description: "Learn about the new features and updates to existing features in S
 
 Learn about the new features and updates to existing features in SharePoint Migration Tool.
   
-
->[!NOTE]
->The new V2 beta release is now available for download. To install the new V2 beta release, download it here: [SharePoint Migration Tool V2 Beta release](https://spmtreleasescus.blob.core.windows.net/install/default.htm)
-
 >[!NOTE]
 >To install the current release download here: [SharePoint Migration Tool](http://spmtreleasescus.blob.core.windows.net/install/default.htm)
   
+
+
 ### SPMT V1.1.90.1
 
 **New features**
