@@ -24,7 +24,7 @@ This article is about the new PowerShell cmdlets based on the SharePoint Migrati
 
 The PowerShell cmdlets provide the same functionalities as [SharePoint Migration Tool V2](introducing-the-sharepoint-migration-tool.md) .
 
- 
+
 > [!NOTE]
 > Currently these PowerShell cmdlets are not available for users of Office 365 operated by 21Vianet in China or for users of Office 365 Germany. 
   
@@ -38,7 +38,6 @@ The PowerShell cmdlets provide the same functionalities as [SharePoint Migration
 |Local Storage|Hard disk: 150 GB free space|
 |Operating system|Windows Server 2016 Standard or Datacenter<br>Windows Server 2012 R2<br>Windows 10 client<br>.Net Framework 4.6.2|
 |Microsoft Visual C++ 2015 Redistributable|Required for OneNote migration|
-
 
 
 ### Minimum requirements (expect slow performance)
