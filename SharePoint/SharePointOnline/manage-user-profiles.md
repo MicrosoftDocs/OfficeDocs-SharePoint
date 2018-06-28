@@ -59,7 +59,7 @@ In some cases, you might want to transfer ownership of a OneDrive account to a d
     
 8. Add and remove admins for the OneDrive account, and then click **OK**.
     
-    ![Manage the owners of a OneDrive](media/120f7c8c-262f-4a41-a484-e830c662f534.PNG)
+    ![Manage the owners of a OneDrive](media/120f7c8c-262f-4a41-a484-e830c662f534.png)
   
 For info about automatically transferring ownership of OneDrive to a user's manager when the user account is marked for deletion, see [Set up access delegation](http://go.microsoft.com/fwlink/p/?LinkId=798417&amp;clcid=0x409).
   
@@ -117,7 +117,7 @@ If some users are licensed to use OneDrive, but you don't want them to create a 
   
 6. By default, everyone except external users are allowed to create a OneDrive. Remove that group and add specific groups to allow only a subset of licensed users to create a OneDrive.
     
-    ![The permissions dialog box for controlling who can create a OneDrive](media/a23b4ec4-7862-4fd4-895a-983fed62c24d.PNG)
+    ![The permissions dialog box for controlling who can create a OneDrive](media/a23b4ec4-7862-4fd4-895a-983fed62c24d.png)
   
 7. Click **OK**.
     

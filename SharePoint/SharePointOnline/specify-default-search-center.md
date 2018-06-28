@@ -3,7 +3,7 @@ title: "Search Center settings"
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
-ms.date: 5/16/2014
+ms.date: 6/20/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server

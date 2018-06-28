@@ -3,7 +3,7 @@ title: "Turn on external sharing notifications for OneDrive"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 6/12/2018
+ms.date: 6/21/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
@@ -35,6 +35,7 @@ If external sharing is enabled in your organization, these notifications are ena
 ## Turn on external sharing notifications
 
 1. Open the [OneDrive admin center](https://admin.onedrive.com/?v=NotificationSettings) and click the **Notifications** tab. 
+    
     ![The Notifications tab of the OneDrive admin center](media/1ac4d2c3-e8b8-45f1-a638-a4c7e72d3a1d.png)
   
 2. Under **Email OneDrive owners when**, make sure the following check boxes are selected: 
@@ -47,8 +48,6 @@ If external sharing is enabled in your organization, these notifications are ena
     > This setting no longer works for the new sharing experience that appears in most places. This setting will be removed. 
   
 ## See also
-
-#### Other Resources
 
 [OneDrive admin center](https://support.office.com/article/b5665060-530f-40a3-b34a-9e935169b2e0)
   

@@ -3,7 +3,7 @@ title: "SharePoint Online search administration overview"
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
-ms.date: 8/11/2017
+ms.date: 6/21/2018
 ms.audience: Admin
 ms.topic: overview
 ms.prod: office-online-server
@@ -51,6 +51,8 @@ The changes you make from the search administration page are valid for the whole
 > [!NOTE]
 > Thesaurus isn't available in SharePoint Online. 
   
-See also: [Search limits for SharePoint Online](search-limits.md)
-  
+## See also
+<a name="__top"> </a>
+
+[Search limits for SharePoint Online](search-limits.md)
 

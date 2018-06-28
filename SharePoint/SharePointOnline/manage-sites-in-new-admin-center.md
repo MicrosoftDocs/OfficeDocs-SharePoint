@@ -3,7 +3,7 @@ title: "Manage sites in the new SharePoint admin center"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 6/1/2018
+ms.date: 6/20/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server

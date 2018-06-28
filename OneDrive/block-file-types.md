@@ -3,7 +3,7 @@ title: "Block syncing of specific file types"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 5/21/2018
+ms.date: 6/21/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
@@ -23,6 +23,7 @@ You can prevent users from syncing specific file types when they sync their OneD
  **To block syncing of specific file types**
   
 1. Open the [OneDrive admin center](https://admin.onedrive.com/?v=SyncSettings), and click **Sync** in the left pane. 
+    
     ![The Sync tab of the OneDrive admin center](media/1c3bf6d6-7b82-4c73-9df7-c8551a0c2922.png)
   
 2. Select the **Block syncing of specific file types** check box. 
@@ -36,8 +37,7 @@ You can prevent users from syncing specific file types when they sync their OneD
   
 5. Click **Save** on the Sync page. 
     
-## Related Topics
+## See also
 
 [OneDrive admin center](https://support.office.com/article/b5665060-530f-40a3-b34a-9e935169b2e0)
-  
 

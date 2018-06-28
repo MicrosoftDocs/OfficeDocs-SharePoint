@@ -3,7 +3,7 @@ title: "Manage site creation in SharePoint Online"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 11/7/2017
+ms.date: 6/20/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
@@ -36,8 +36,8 @@ Some functionality is introduced gradually to organizations that have signed up 
 5. Under **Site Creation**, select to show or hide the Create site command.
     
 6. If you select **Show the Create site command to users who have permission to create sites**, specify the type of site that users can create.
-  
-![Site creation settings](media/df009314-836b-4ed1-b656-c5c6dd07f1a5.png)
+    
+    ![Site creation settings](media/df009314-836b-4ed1-b656-c5c6dd07f1a5.png)
   
     > [!NOTE]
     > To allow only a select set of users to create groups, use the PowerShell cmdlet  `GroupCreationAllowedGroupId`. For info about this cmdlet, see [Azure Active Directory cmdlets for configuring group settings](https://azure.microsoft.com/documentation/articles/active-directory-accessmanagement-groups-settings-cmdlets/). 

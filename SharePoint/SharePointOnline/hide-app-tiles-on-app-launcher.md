@@ -3,7 +3,7 @@ title: "Hide the OneDrive and SharePoint app tiles"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 6/7/2018
+ms.date: 6/20/2018
 ms.audience: Admin
 ms.topic: article
 f1_keywords:
@@ -43,6 +43,7 @@ By default, the OneDrive and SharePoint app tiles appear in the app launcher and
 4. Choose **settings** on the left. 
     
 5. In **Show or Hide Options**, choose the tile you want to hide.
+    
     ![SPO SharePoint Settings Show/hide options section](media/516f0f56-c44e-465e-8ec5-ba56fbbe2b3b.PNG)
   
     > [!NOTE]
@@ -52,8 +53,6 @@ By default, the OneDrive and SharePoint app tiles appear in the app launcher and
     
 ## See also
 <a name="__top"> </a>
-
-#### Other Resources
 
 [Customize the navigation on your SharePoint site](https://support.office.com/article/3CD61AE7-A9ED-4E1E-BF6D-4655F0BF25CA#ID0EAACAAA=Online)
   

@@ -3,7 +3,7 @@ title: "Manage authoritative pages"
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
-ms.date: 5/16/2014
+ms.date: 6/20/2018
 ms.audience: End User
 ms.topic: article
 ms.prod: office-online-server
@@ -45,13 +45,9 @@ In the same way, you can also add non-authoritative pages. A typical example of 
   
 9. Click **OK**.
     
-[As a SharePoint Online administrator, you can influence the pages or documents that should appear at the top of your list of search results by identifying high-quality pages, also known as authoritative pages. Authoritative pages link to the most relevant information. A typical example of an authoritative page could be the home page of your company portal.If you have specific knowledge of an area, you can influence the relative importance of pages by adding more levels of authoritative pages (second-level and third-level). In the same way, you can also add non-authoritative pages. A typical example of a non-authoritative page could be the URL of a site that contains outdated information.](manage-authoritative-pages.md#__top)
-  
 ## How results are ranked
 <a name="__top"> </a>
 
 Search uses the list of authoritative pages to calculate the ranking of results. Static rank determines the relative importance of a page. Static rank is calculated as the smallest number of clicks that it would take a user to navigate from an authoritative page to a document. The closer a document is to the most authoritative page, the higher the static rank of the page is.
-  
-[As a SharePoint Online administrator, you can influence the pages or documents that should appear at the top of your list of search results by identifying high-quality pages, also known as authoritative pages. Authoritative pages link to the most relevant information. A typical example of an authoritative page could be the home page of your company portal.If you have specific knowledge of an area, you can influence the relative importance of pages by adding more levels of authoritative pages (second-level and third-level). In the same way, you can also add non-authoritative pages. A typical example of a non-authoritative page could be the URL of a site that contains outdated information.](manage-authoritative-pages.md#__top)
   
 

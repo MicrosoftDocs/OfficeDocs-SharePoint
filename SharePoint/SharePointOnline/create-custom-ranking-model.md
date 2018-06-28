@@ -3,7 +3,7 @@ title: "Create a custom ranking model by using the Ranking Model Tuning App"
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
-ms.date: 12/30/2016
+ms.date: 6/19/2018
 ms.audience: End User
 ms.topic: article
 ms.prod: office-online-server
@@ -31,7 +31,7 @@ If the standard SharePoint 2013 ranking models don't satisfy the relevance requi
     
 > [Get the app for SharePoint Server 2013](create-custom-ranking-model.md#__toc369771595)
     
-> [Create a custom ranking model - main steps](create-custom-ranking-model.md#__toc369771596)
+> [Create a custom ranking model-main steps](create-custom-ranking-model.md#__toc369771596)
     
 > [Step 1: Copy an existing ranking model and give it a name](create-custom-ranking-model.md#__step_1__copy)
     
@@ -88,13 +88,13 @@ Learn more about ranking and ranking models:
 <a name="__toc369771595"> </a>
 
 > [!IMPORTANT]
->  We recommend that you install the SharePoint Server 2013 cumulative update that will be published in March 2014. If you use the **Search Ranking Model with Two Linear Stages**(added in the August 2013 cumulative update)as the base model for your custom ranking model, it will be easier to re-tune and customize your ranking model. 
+>  We recommend that you install the SharePoint Server 2013 cumulative update that will be published in March 2014. If you use the **Search Ranking Model with Two Linear Stages** (added in the August 2013 cumulative update) as the base model for your custom ranking model, it will be easier to re-tune and customize your ranking model. 
   
 - Install the app and prepare the SharePoint farm to allow apps by using the same standard processes as for all SharePoint Server 2013 apps: [Install and manage apps for SharePoint](https://technet.microsoft.com/en-us/library/fp161232.aspx).
     
 - To use the app, you must be a Search service application administrator.
     
-## Create a custom ranking model - main steps
+## Create a custom ranking model-main steps
 <a name="__toc369771596"> </a>
 
 - Click the app icon ![Ranking Model Tuning App](media/95e80cec-079b-4dc0-8892-debf93bb9933.png) to go to the starting page of the app. 
@@ -139,13 +139,11 @@ You can add one or more judgment sets to your ranking model. A judgment set typi
     
 |**Option**|**Description**|
 |:-----|:-----|
-|Import judged queries  <br/> |If you already have a set of queries and labels for documents returned for the queries, you can import them. Choose the file to upload, and then click **Import queries**.  <br/> The import file must be of type XML with the following schema:  <br/> ```<QuerySet Name="testRM - JudgementSet"><Query QueryString="query1" ><Judgements><Document Url="docUrl1" Label="Excellent" /><Document Url="docUrl2" Label="Good" /><Document Url="docUrl3" Label="Fair" /><Document Url="docUrl4" Label="Bad" /></Judgements></Query></QuerySet>```You can use four labels to indicate how desirable a result is for a query: **Excellent**, **Good**, **Fair**, and **Bad**.  <br/> |
+|Import judged queries  <br/> |If you already have a set of queries and labels for documents returned for the queries, you can import them. Choose the file to upload, and then click **Import queries**.  <br/> The import file must be of type XML with the following schema:  <br/> ```  <QuerySet Name="testRM - JudgementSet"><Query QueryString="query1" ><Judgements><Document Url="docUrl1" Label="Excellent" /><Document Url="docUrl2" Label="Good" /><Document Url="docUrl3" Label="Fair" /><Document Url="docUrl4" Label="Bad" /></Judgements></Query></QuerySet>```You can use four labels to indicate how desirable a result is for a query: **Excellent**, **Good**, **Fair**, and **Bad**.  <br/> |
 |Add sampled queries  <br/> |If search has been active on the site, you can have the app pick a random set of queries from the existing query logs. The app will choose the queries that are more popular.  <br/> Specify the number of queries to sample in the box, and click **Add queries**.  <br/> |
 |Add queries manually  <br/> |Type queries directly in the app, one query per line, and then click **Add queries**.  <br/> You can add all queries this way, or you can manually add more queries to an existing set of queries.  <br/> |
    
-1. If you imported judged queries with labels, click **Done** to save the judgment set. 
-  
-If you added queries from the query log or manually, you can start judging the queries, see step 3.
+2. If you imported judged queries with labels, click **Done** to save the judgment set. If you added queries from the query log or manually, you can start judging the queries, see step 3. 
     
 To ensure that the relevance metrics are reliable indicators for how good the ranking model is for a particular site, make sure that:
   
@@ -207,7 +205,7 @@ When you copy an existing ranking model, the new ranking model contains the same
 |Sortable property with a specific value  <br/> |Also called bucketed static rank feature. Choose a managed property, and enter the default value for the property.  <br/> **Having value**:This number is the specific bucket that is being tuned.  <br/> |
 |Ranking feature from the base model  <br/> |Use this option to tune the weight of existing features. Choose between existing rank features.  <br/> |
    
-1. Click **Add feature**. Repeat steps to add more features to customize. The selected rank features are shown on the **Edit ranking model** page. 
+3. Click **Add feature**. Repeat steps to add more features to customize. The selected rank features are shown on the **Edit ranking model** page. 
     
 You can also remove features from the model.
   
@@ -240,7 +238,7 @@ With manual tuning, you can set or change weights of individual rank features. A
 ## Step 5: Evaluate the changes
 <a name="__step_5__evaluate"> </a>
 
-The app lets you evaluate how a custom ranking model changes relevance. This is especially useful for queries that you consider  *i*  *mportant*  . 
+The app lets you evaluate how a custom ranking model changes relevance. This is especially useful for queries that you consider  *important*  . 
   
 > [!IMPORTANT]
 >  When you create a custom ranking model, this influences all the queries using that ranking model. Test the effect of the custom ranking model on many queries. 
@@ -267,9 +265,7 @@ The new ranking model is by default available for the site where you added the a
     
   - Current site collection
     
-  - **All site collections**
-  
-(For SharePoint Online: the whole tenant. For on-premises: the whole Search Service Application.)
+  - **All site collections** (For SharePoint Online: the whole tenant. For on-premises: the whole Search Service Application.) 
     
 3. Click **Publish**.
     

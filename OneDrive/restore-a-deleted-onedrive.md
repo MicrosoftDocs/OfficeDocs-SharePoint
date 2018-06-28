@@ -68,7 +68,5 @@ Remove-SPOSite -Identity <URL>
   
 ## See also
 
-#### Other Resources
-
 [OneDrive retention and deletion](retention-and-deletion.md)
 

@@ -3,7 +3,7 @@ title: "External sharing overview"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 4/18/2018
+ms.date: 6/22/2018
 ms.audience: Admin
 ms.topic: article
 f1_keywords:
@@ -96,7 +96,9 @@ You can discontinue sharing with an authenticated external user by removing thei
   
  **Sharing files and folders with authenticated external users**
   
-When you share a file or folder with an authenticated external user, an email is sent to them which contains a link to the site or document. Each time they access the file or folder using the link, they are sent a time-sensitive code via email that they can use to verify their identity. They must enter the code to access the file or folder.
+When you share a file or folder with an external user who has their own Office 365 email address (a work or school account), they get a link to the file and can log in to access the file or folder using their work or school account. These external users are added as guests to your Office 365 directory when they accept the sharing invitation.
+  
+When you share a file or folder with an authenticated external user who does not have a work or school account, an email is sent to them which contains a link to the site or document. Each time they access the file or folder using the link, they are sent a time-sensitive code via email that they can use to verify their identity. They must enter the code to access the file or folder.
   
 You can [discontinue sharing with an authenticated external user](https://support.office.com/article/0a36470f-d7fe-40a0-bd74-0ac6c1e13323) by deleting the sharing link that was sent to them. 
   
@@ -113,8 +115,6 @@ If you have business partners or vendors with whom you need to collaborate or sh
 SharePoint Online extranet sites are very easy to set up and much easier and less expensive to maintain than on-premises extranet sites. For details, see [Use Office 365 SharePoint Online as a business-to-business (B2B) extranet solution](create-a-b2b-extranet.md).
   
 ## See also
-
-#### Other Resources
 
 [Coaching your guest users through the External Sharing Experience](https://techcommunity.microsoft.com/t5/SharePoint-Support-Blog/Coaching-your-guest-users-through-the-External-Sharing/ba-p/182739)
   

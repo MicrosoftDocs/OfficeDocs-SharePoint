@@ -3,7 +3,7 @@ title: "Make pages load faster with caching in the Content Search Web Part"
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
-ms.date: 6/1/2017
+ms.date: 6/20/2018
 ms.audience: End User
 ms.topic: article
 ms.service: o365-administration
@@ -65,17 +65,11 @@ In this article:
 
 Before you change all your Content Search Web Parts (CSWP) to use caching, you should consider the characteristics of the page where the CSWPs are used:
   
-- **What type of page is the CSWP on?**
-  
-Caching works great in CSWPs that are on home pages or pages that many users have as a starting point when they browse for information. CSWPs on category pages that are starting points for navigating to more detailed catalog pages, can also benefit from caching.
+- **What type of page is the CSWP on?** Caching works great in CSWPs that are on home pages or pages that many users have as a starting point when they browse for information. CSWPs on category pages that are starting points for navigating to more detailed catalog pages, can also benefit from caching. 
     
-- **How many page loads does the page have?**
-  
-We recommend that you use caching only in CSWPs that are on pages with more than 10 page loads per 15 minutes.
+- **How many page loads does the page have?** We recommend that you use caching only in CSWPs that are on pages with more than 10 page loads per 15 minutes. 
     
-- **Is the CSWP configured to show different results to different users?**
-  
-If the CSWP query involves too many user groups, the search result combinations can overload the cache, and the page load time will not be reduced, or may even increase.
+- **Is the CSWP configured to show different results to different users?** If the CSWP query involves too many user groups, the search result combinations can overload the cache, and the page load time will not be reduced, or may even increase. 
     
 The example below shows an intranet page with four CSWPs. On average, the page has 38 page loads per 15 minutes. These page characteristics suggest that the page can load faster if you configure some of the CSWPs to use caching. 
   
@@ -114,7 +108,7 @@ First, let's look at how search results are displayed in a Content Search Web Pa
     
 5. A second user goes to the same page, and steps 2 - 4 are repeated.
     
-![How results are displayed in a CSWP without the Caching feature](media/f08b097f-b121-410a-aed2-2ee933ffa0e1.png)
+    ![How results are displayed in a CSWP without the Caching feature](media/f08b097f-b121-410a-aed2-2ee933ffa0e1.png)
   
 Now let's look at how results are displayed in a Content Search Web Part (CSWP) **with** caching: 
   
@@ -136,7 +130,7 @@ Now let's look at how results are displayed in a Content Search Web Part (CSWP) 
     
 9. The search result is served from the cache to the CSWP where the users sees the result. 
     
-![How results are displayed in a CSWP with the Caching feature](media/16ca3509-7bbd-44f9-87d1-a3a82cd4cab1.png)
+    ![How results are displayed in a CSWP with the Caching feature](media/16ca3509-7bbd-44f9-87d1-a3a82cd4cab1.png)
   
 Because it's quicker to look up search results in the cache than in the search index, the page loads faster. 
   

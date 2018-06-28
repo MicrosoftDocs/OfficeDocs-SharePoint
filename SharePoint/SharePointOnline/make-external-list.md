@@ -3,7 +3,7 @@ title: "Make an External List from a SQL Azure table with Business Connectivity 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 5/22/2018
+ms.date: 6/25/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,7 +21,7 @@ To use data from a SQL Azure database, you have to create an External List by us
   
 For more information about how to use BCS to use external data, see [Introduction to external data](https://support.office.com/article/676e60e7-d99f-463f-a173-65e9d63538c0).
   
-SQL Azure databases are cloud-based relational databases that are created by using SQL Server technology. To learn how to get started with these databases, see [Getting Started with Microsoft Azure SQL Database Using the Microsoft Azure Platform Management Portal](https://social.technet.microsoft.com/wiki/contents/articles/1884.getting-started-with-windows-azure-sql-database-using-the-windows-azure-platform-management-portal.aspx)
+SQL Azure databases are cloud-based relational databases that are created by using SQL Server technology. To learn how to get started with these databases, see [Getting Started with Microsoft Azure SQL Database Using the Microsoft Azure Platform Management Portal](https://go.microsoft.com/fwlink/?linkid=2003465)
   
 ## Overview of steps in the process
 <a name="__toc350352764"> </a>
@@ -71,7 +71,7 @@ The following list describes the steps in the connectivity process. Each step in
 ## Step 1: Set permissions on the BCS Metadata store
 <a name="__toc350352766"> </a>
 
-To do this step, follow the procedure in [Set permissions on the BCS Metadata Store for a Business Connectivity Services on-premises solution in SharePoint 2013](https://technet.microsoft.com/en-us/library/jj683106.aspx).
+To do this step, follow the procedure in [Set permissions on the BCS Metadata Store for a Business Connectivity Services on-premises solution in SharePoint 2013](https://go.microsoft.com/fwlink/?linkid=2003556).
   
 When you finish the steps in that procedure, return to this page and start Step 2: Create a Secure Store credentials mapping.
   
@@ -106,7 +106,7 @@ To create a Secure Store Target Application, follow these steps.
     
 5. In **Credential Fields** section, enter the field names that you want to use for the user name and password of the external data system. By default, the Secure Store uses the **Windows User Name** and **Windows Password**. We recommend that you accept these values. You cannot edit these Field Types after you finish creating the application.
     
-    ![Screenshot of the Credential Fields section of the Secure Store Target Application properties page. These fields allow you to specify the logon credentials for the target](media/404c21d4-8677-474c-ad01-5cdd8af06cbf.jpg)
+    ![Screenshot of the Credential Fields section of the Secure Store Target Application properties page. These fields allow you to specify the logon credentials for the target](media/404c21d4-8677-474c-ad01-5cdd8af06cbf.png)
   
 6. In the **Target Application Administrators** section, in the **Target Application Administrators** field, enter the name of a group or a list of users who can edit this Target Application. You can also search for the name of a group in Microsoft Online Directory Server. Typically, this section usually contains the name of the SharePoint Online admin, or a global administrator. 
     
@@ -154,7 +154,9 @@ To create an ECT, follow these steps.
     
 5. In the **External Content Type Information** section of the page, change the **Name** and **Display Name**. Make certain that the **Name** is descriptive. The **Display Name** is a friendly name for the ECT. 
     
-6. Select the hyperlink **Click here to discover external data sources and define operations** to open the Operation Designer page. ![Screenshot of the External Content Type Information panel, and the link Click here to discover external data sources and define operations, which is used to make a BCS connection.](media/9b6c66c9-9e95-40aa-8b99-459ec16070fd.png)
+6. Select the hyperlink **Click here to discover external data sources and define operations** to open the Operation Designer page. 
+    
+    ![Screenshot of the External Content Type Information panel, and the link Click here to discover external data sources and define operations, which is used to make a BCS connection.](media/9b6c66c9-9e95-40aa-8b99-459ec16070fd.png)
   
 7. Click **Add Connection** to open the **External Data Source Type Selection** dialog box. 
     
@@ -200,7 +202,7 @@ To create an ECT, follow these steps.
     ![Screenshot 2 of the All Operations dialog in SharePoint Designer. This page shows warnings that explain settings for key properties on the list.](media/02428447-b2d2-4714-b585-71e195660ad8.png)
   
     > [!NOTE]
-    >  For more information about how to define filters in external content types, see [How to: Define filters for External Item Picker controls](https://msdn.microsoft.com/en-us/library/ff798274%28v=office.14%29.aspx) . 
+    >  For more information about how to define filters in external content types, see [How to: Define filters for External Item Picker controls](https://go.microsoft.com/fwlink/?linkid=2003559) . 
   
 12. Select **Finish** to accept the operations properties that you configured. SharePoint Designer displays the operations as a list of ECT Operations. 
     
@@ -266,7 +268,7 @@ To finish setting up the External List, you have to grant permissions to the peo
     > [!NOTE]
     >  Make sure that at least one user or group has **Set Permissions** rights. If you don't assign someone this right, you might create an unmanageable BCS connection. 
   
-    ![Screenshot of the SetObject Permissions dialog box in SharePoint Online. Use this dialog to set permissions for a specified External Content Type.](media/5e760b77-b0cc-4be9-870e-217e902d9245.jpg)
+    ![Screenshot of the SetObject Permissions dialog box in SharePoint Online. Use this dialog to set permissions for a specified External Content Type.](media/5e760b77-b0cc-4be9-870e-217e902d9245.png)
   
 5. Select **Propagate permissions to all methods of this external content type**. Doing this overwrites any existing permissions. 
     

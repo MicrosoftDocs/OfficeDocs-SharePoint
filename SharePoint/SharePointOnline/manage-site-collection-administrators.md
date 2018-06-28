@@ -3,7 +3,7 @@ title: "Manage site collection administrators"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 4/17/2018
+ms.date: 6/20/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -40,12 +40,15 @@ To add or remove site collection admins on classic sites, use the SharePoint adm
 3. In the left pane, choose **Admin centers** \> **SharePoint**.
     
 4. Point to the site collection for which you want to change the administrators, and then select the check box in front of it. 
+    
     ![SPO Selecting a collection from within the site collection list](media/6e5db026-befa-46b7-9e05-77c022919c88.PNG)
   
 5. Click **Owners**, and then click **Manage Administrators**.
-    ![SPO Site administrator owners button with Manage Administrators highlighted.](media/45326c50-d66f-44e7-b5f3-65ff85ca18f7.PNG)
+    
+    ![SPO Site administrator owners button with Manage Administrators highlighted.](media/45326c50-d66f-44e7-b5f3-65ff85ca18f7.png)
   
 6. Change the name in the **Primary Site Collection Administrator** box, or add or remove names in the **Site Collection Administrators** box. 
+    
     ![Site administrator dialog box.](media/488ca762-cbe2-458c-8e21-7f640471a565.PNG)
   
 7. Click **Check Names**![Check Names button](media/bfa3e094-27e7-4ded-b5b9-de97518f6375.png) to verify that the user names are valid. 

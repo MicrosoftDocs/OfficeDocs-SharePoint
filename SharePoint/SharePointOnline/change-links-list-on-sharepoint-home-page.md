@@ -3,7 +3,7 @@ title: "Change the Links list on the SharePoint home page"
 ms.author: clake
 author: spowriter
 manager: pamgreen
-ms.date: 5/21/2018
+ms.date: 6/21/2018
 ms.audience: Admin
 ms.topic: article
 f1_keywords:
@@ -47,6 +47,7 @@ You'll see the **Links** list on the left side of the page.
 ## Add a link
 
 1. Click **Edit** at the top of the list. 
+    
     ![Featured links with Edit selected](media/65008327-fb4d-4229-93a5-9b69e8d77660.png)
   
     > [!NOTE]
@@ -71,12 +72,14 @@ You'll see the **Links** list on the left side of the page.
 ## Edit a link
 
 1. Click **Edit** at the top of the list. 
+    
     ![Featured list with edit selected](media/966fd31e-c5f5-4d5f-beac-742b10dcdc41.png)
   
     > [!NOTE]
     > If you do not see **Edit**, you don't have permissions to change the **Links** list. Contact your administrator. 
   
 2. Click the link you want to change.
+    
     ![Editing a featured link](media/c319922b-6d0c-45a2-8493-7fb4276256fb.png)
   
 3. Fill in the **Text to display** and **Address** in the **Edit link** dialog box. 
@@ -94,6 +97,7 @@ You'll see the **Links** list on the left side of the page.
 ## Change the order of links
 
 1. Click **Edit** at the top of the list. 
+    
     ![Featured list with edit selected](media/966fd31e-c5f5-4d5f-beac-742b10dcdc41.png)
   
     > [!NOTE]
@@ -106,12 +110,13 @@ You'll see the **Links** list on the left side of the page.
 ## Delete a link
 
 1. Click **Edit** at the top of the list. 
+    
     ![Featured list with edit selected](media/966fd31e-c5f5-4d5f-beac-742b10dcdc41.png)
   
     > [!NOTE]
     > If you do not see **Edit**, you don't have permissions to change the **Links** list. Contact your administrator. 
   
-2. Click **X**.
+2. Click **X**. 
     
     ![Featured links with Delete highlighted](media/10a93009-9929-4102-b3b4-04aa318277ce.png)
   

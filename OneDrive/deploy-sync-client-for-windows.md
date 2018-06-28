@@ -3,7 +3,7 @@ title: "Deploy the new OneDrive sync client for Windows"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 4/13/2018
+ms.date: 6/21/2018
 ms.audience: Admin
 ms.topic: get-started-article
 ms.prod: office-online-server
@@ -137,9 +137,8 @@ To delay updates to the OneDrive sync client, and control their deployment to yo
   
 To set the update ring using Group Policy, enable the **Delay updating OneDrive.exe until the second release wave** setting. For more information about this setting, see [Use Group Policy to control OneDrive sync client settings](use-group-policy.md).
   
-## See Also
-<a name="seealso"> </a>
+## See also
+<a name="cad"> </a>
 
 [Restrictions and limitations when you sync files and folders using the new OneDrive sync client](https://go.microsoft.com/fwlink/?LinkId=717734)
-  
 

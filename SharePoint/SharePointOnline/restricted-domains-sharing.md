@@ -3,7 +3,7 @@ title: "Restricted domains sharing in SharePoint Online and OneDrive for Busines
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 4/12/2018
+ms.date: 6/25/2018
 ms.audience: End User
 ms.topic: article
 ms.prod: office-online-server
@@ -51,7 +51,7 @@ Tenant-level settings affect all SharePoint Online site collections, including t
     > [!NOTE]
     > Wildcards are not supported for domain entries. 
   
-You can also configure the tenant-level setting by using the [Set-SPOTenant](https://technet.microsoft.com/library/fp161390.aspx) Windows PowerShell cmdlet. 
+You can also configure the tenant-level setting by using the [Set-SPOTenant](https://go.microsoft.com/fwlink/?linkid=2003900) Windows PowerShell cmdlet. 
   
 You can also use restricted domains at the site collection level. Note the following considerations:
   
@@ -61,7 +61,7 @@ You can also use restricted domains at the site collection level. Note the follo
     
 - If a tenant-level deny list is configured, then you can configure either an allow list or a deny list at the site collection level.
     
-- For individual OneDrive for Business site collections, you can only configure this setting by using the [Set-SPOSite](https://technet.microsoft.com/library/fp161394.aspx) Windows PowerShell cmdlet. 
+- For individual OneDrive for Business site collections, you can only configure this setting by using the [Set-SPOSite](https://go.microsoft.com/fwlink/?linkid=2003901) Windows PowerShell cmdlet. 
     
  **To restrict domains in external sharing in SharePoint Online at the site collection level**
   
@@ -81,37 +81,35 @@ You can also use restricted domains at the site collection level. Note the follo
     
 8. List the domains (maximum of 60) in the box provided, using the format  *domain.com.*  . If listing more than one domain, separate each domain with a space or a carriage return. 
     
-    ![Screenshot of the restricted domain portion of the site collection settings dialog box.](media/ac25e447-9aba-482d-b1dc-a2f9a3721555.png)
-  
     > [!NOTE]
     > Wildcards are not supported for domain entries. 
   
 > [!NOTE]
-> To configure the site collection setting for site collections that do not appear in this list (such as Group-connected sites or individual OneDrive for Business site collections), you must use the [Set-SPOSite](https://technet.microsoft.com/library/fp161394.aspx)Windows PowerShell cmdlet. 
+> To configure the site collection setting for site collections that do not appear in this list (such as Group-connected sites or individual OneDrive for Business site collections), you must use the [Set-SPOSite](https://go.microsoft.com/fwlink/?linkid=2003901)Windows PowerShell cmdlet. 
   
 ## Sharing experience
 
 After you have configured the restricted domains sharing feature, here's what you'll see when you share a document:
   
 - **Sharing content with email domains that are not allowed.** If you attempt to share content with an external user whose email address domain violates your restricted domains settings, an error message will display and sharing will not be allowed: 
-    ![If a user attempts to share a document to an email address that is retricted, they willl receive this error.](media/fb280460-388d-4596-9938-6b69101d11fb.png)
-  
+    
 - **Sharing OneDrive for Business files to email domains that are not allowed.** If you try to share a OneDrive for Business file with an external user whose email domain is not allowed as a result of your restricted domains configuration, an error message will display and sharing will not be allowed: 
+    
     ![Users receive this error when attempting to share a OneDrive document to a restricted domain address.](media/992f367d-1caa-4019-8fd8-af84c172319c.png)
   
 - **Sharing content with email domains that are allowed.** If your end user is attempting to share content with an external user who has an email address domain that is allowed, they will be able to successfully share the content with that external user. A tool tip lets you know that the user is outside of their organization. 
+    
     ![Sucessfully sharing content with restricted users.](media/4e5ff064-a1d4-4a7d-bc7b-0541312e9383.png)
   
 ## User auditing and lifecycle management
 
 As with any extranet sharing scenario it's important to consider the lifecycle of your guest users, how to audit their activity, and eventually how to archive the site. See [Planning SharePoint Online business-to-business (B2B) extranet sites](plan-b2b-extranet-sites.md) for more information. 
   
-## Related Topics
+## See also
 
 [Manage external sharing for your SharePoint Online environment](external-sharing-overview.md)
   
 [Extranet for Partners with Office 365](create-a-b2b-extranet.md)
   
-[Set-SPOTenant](https://technet.microsoft.com/en-us/library/fp161390.aspx)
-  
+[Set-SPOTenant](https://go.microsoft.com/fwlink/?linkid=2003900)
 

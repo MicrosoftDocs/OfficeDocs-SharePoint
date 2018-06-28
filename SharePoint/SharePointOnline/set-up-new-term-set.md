@@ -19,7 +19,7 @@ description: "Learn how to create a new term set for managed metadata in SharePo
 
 To set up a new term set, you must access the Term Store management tool, and then use the tool to specify the term set properties.
   
-![In the Term Store tool, you can select elements in the navigation pane to open a menu](media/cbfd78f1-e540-4233-97dd-def5c5d46ab8.jpg)
+![In the Term Store tool, you can select elements in the navigation pane to open a menu](media/cbfd78f1-e540-4233-97dd-def5c5d46ab8.png)
   
 > [!IMPORTANT]
 >  To add a term set in the Term Store management tool, you must be a Group Manager or a Term Store Administrator. 

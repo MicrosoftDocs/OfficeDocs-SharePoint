@@ -3,7 +3,7 @@ title: "Change settings for the Search Box Web Part"
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
-ms.date: 4/5/2018
+ms.date: 6/19/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
@@ -80,7 +80,7 @@ As a SharePoint Online administrator, you can turn off or on query suggestions, 
     
   - To change how many characters the user must type before query suggestions are shown, edit the number in the **Minimum number of characters** box. 
     
-  - To change how many milliseconds elapse before query suggestions are shown, edit the number in the Su **ggestions delay (in milliseconds)** box. 
+  - To change how many milliseconds elapse before query suggestions are shown, edit the number in the **Suggestions delay (in milliseconds)** box. 
     
   - To change how many query suggestions are shown under the text **Are you looking for these again?** in the search results, change the value for **Number of personal favorites**: Personal favorite results are based on search results that the user has clicked before. To disable personal favorite results, clear **Show personal favorite results**. 
     
@@ -107,14 +107,14 @@ As a SharePoint Online administrator, you can turn off or on query suggestions, 
     
 4. Click **OK**.
     
-See also: 
+## See also
+<a name="__toc349558307"> </a>
+
+[Manage the Search Center in SharePoint Online](manage-search-center.md)
   
-- [Manage the Search Center in SharePoint Online](manage-search-center.md)
-    
-- [Change settings for the Search Navigation Web Part](search-navigation-web-part.md)
-    
-- [Change settings for the Refinement Web Part](refinement-web-part.md)
-    
-- [Change settings for the Search Results Web Part](https://support.office.com/article/40ff85b3-bc5e-4230-b1dd-f088188e487e)
-    
+[Change settings for the Search Navigation Web Part](search-navigation-web-part.md)
+  
+[Change settings for the Refinement Web Part](refinement-web-part.md)
+  
+[Change settings for the Search Results Web Part](https://support.office.com/article/40ff85b3-bc5e-4230-b1dd-f088188e487e)
 

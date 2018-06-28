@@ -3,7 +3,7 @@ title: "Enable content on a site to be searchable"
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
-ms.date: 4/19/2018
+ms.date: 6/20/2018
 ms.audience: End User
 ms.topic: article
 ms.prod: office-online-server
@@ -45,8 +45,6 @@ Site owners and site collection administrators can choose whether or not content
   
 Similarly, if a site owner or site collection administrator prevents list or library content from appearing in search results, then excluding columns wouldn't have any effect. It's important to know what settings are inherited from higher levels in order to plan search effectively
   
-[Top of Page](make-site-content-searchable.md#__top)
-  
 ## Understand search settings and permissions
 <a name="__toc356211700"> </a>
 
@@ -57,8 +55,6 @@ For example, let's say Joe is working on a Request for Proposal (RFP) in Microso
 Permissions can be applied to lists, sites, views, and Web Parts. Also, permissions can be dependent on other permissions. All of this can affect what the user sees in search results. Therefore, before adding any content to your site, you may want to familiarize yourself with SharePoint's permissions model, the permissions model of your site or organization, or to plan what the permissions model will be for your site.
   
 See also: [Default SharePoint Groups in SharePoint Online](default-sharepoint-groups.md)
-  
-[Top of Page](make-site-content-searchable.md#__top)
   
 ## Show content on a site in search results
 <a name="__toc356211701"> </a>
@@ -76,8 +72,6 @@ As a site owner, you can choose whether or not the content on your site can appe
     
 To prevent the content from appearing in search results, select **No**.
   
-[Top of Page](make-site-content-searchable.md#__top)
-  
 ## Show content from lists or libraries in search results
 <a name="__toc356211702"> </a>
 
@@ -88,7 +82,7 @@ As a site owner, you can decide whether items in lists and libraries on your sit
   
 1. On the site, find and click the list or library you want to customize.
     
-2. Click **Settings** ** \> ** **Site Settings** **.**
+2. Click **Settings** \> **Site Settings**.
     
 3. Under **Site Administration**, click **Site Libraries and lists**.
     
@@ -99,8 +93,6 @@ As a site owner, you can decide whether items in lists and libraries on your sit
 6. In the **Search** section, under **Allow items from this document library to appear in search results**, select **Yes** to include all of the items in the list or library in search result. 
     
 To prevent items from the list or library to appear in search results, select **No**.
-  
-[Top of Page](make-site-content-searchable.md#__top)
   
 ## Show contents of ASPX pages in search results
 <a name="__toc356211703"> </a>
@@ -128,8 +120,6 @@ You have the option of ignoring this setting to display all content in search re
 |Always index all Web Parts on this site  <br/> |Show content of all ASPX pages on the site in search results regardless of permissions.  <br/> |
 |Never index any Web Parts on this site  <br/> |Hide content of all ASPX pages on the site from search results regardless of permissions.  <br/> |
    
-[Top of Page](make-site-content-searchable.md#__top)
-  
 ## Exclude content in columns from search results
 <a name="__toc356211704"> </a>
 
@@ -138,7 +128,7 @@ As a site owner you can control whether the content in specific columns in lists
 > [!NOTE]
 > To change this setting, you must have the Manage Permissions permission level. This permission level is included in the  *"Site Name"*  Owner group. 
   
-1. On the site that contains the list or library, click **Settings** ** \> ** **Site Settings**.
+1. On the site that contains the list or library, click **Settings** \> **Site Settings**.
     
 2. Under **Search**, click **Searchable columns**.
     
@@ -147,15 +137,11 @@ As a site owner you can control whether the content in specific columns in lists
 > [!NOTE]
 > Columns that appear are those that belong to the current site. 
   
-[Top of Page](make-site-content-searchable.md#__top)
-  
 ## Crawl and re-index a site
 <a name="__toc356211705"> </a>
 
 When people search for content on your SharePoint sites, what's in your search index decides what they'll find. The search index contains information from all documents and pages on your site In SharePoint Online, content is automatically crawled based on a defined crawl schedule. The crawler picks up content that has changed since the last crawl and updates the index.
   
 In some cases, you may want to specifically request a full re-indexing of a site. See [Manually request crawling and re-indexing of a site](crawl-site-content.md) for more information. 
-  
-[Top of Page](make-site-content-searchable.md#__top)
   
 

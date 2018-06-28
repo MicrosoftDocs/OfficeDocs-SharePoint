@@ -3,7 +3,7 @@ title: "Specify search settings for a site collection or a site"
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
-ms.date: 6/1/2017
+ms.date: 6/21/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
@@ -39,11 +39,9 @@ You can also configure search navigation for a site. With search navigation, use
     
 3. To change which search result page queries are sent to, in the section **Which search results page should queries be sent to?**, clear **Use the same results page settings as my parent**, and then select one of the following: 
     
-  - **Send queries to a custom results page URL**. 
-  
-Enter the URL. Custom URLs can be relative or absolute, and can also include special tokens, such as {SearchCenterURL}. 
-  
-Example: /SearchCenter/Pages/results.aspx or http://server/sites/SearchCenter/Pages/results.aspx.
+  - **Send queries to a custom results page URL**. Enter the URL. Custom URLs can be relative or absolute, and can also include special tokens, such as {SearchCenterURL}. 
+    
+    Example: /SearchCenter/Pages/results.aspx or http://server/sites/SearchCenter/Pages/results.aspx.
     
   - **Turn on the drop-down menu inside the search box, and use the first Search Navigation node as the destination results page**. If you choose this option, users can choose search vertical in the search box when they enter a query. 
     
@@ -63,12 +61,10 @@ By default, a site has the same search settings as the site collection that the 
   - **Send queries to a custom results page URL**. 
   
 Enter the URL. Custom URLs can be relative or absolute, and can also include special tokens, such as {SearchCenterURL}. 
-  
-Example: /SearchCenter/Pages/results.aspx or http://server/sites/SearchCenter/Pages/results.aspx.
     
-  - **Turn on the drop-down menu inside the search box, and use the first Search Navigation node as the destination results page**. 
-  
-Make sure that the search vertical you want as a default is the first option in the **Configure Search Navigation** section. 
+    Example: /SearchCenter/Pages/results.aspx or http://server/sites/SearchCenter/Pages/results.aspx.
+    
+  - **Turn on the drop-down menu inside the search box, and use the first Search Navigation node as the destination results page**. Make sure that the search vertical you want as a default is the first option in the **Configure Search Navigation** section. 
     
 4. To configure search navigation, edit settings in the **Configure Search Navigation** section as required. You can, for example: 
     

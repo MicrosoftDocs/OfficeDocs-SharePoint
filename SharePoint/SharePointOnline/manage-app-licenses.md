@@ -52,8 +52,6 @@ In the License Managers section, select add manager. Type the name(s) of the peo
 ## See also
 <a name="__top"> </a>
 
-#### Other Resources
-
 [Add an app to a site](https://support.office.com/article/ef9c0dbd-7fe1-4715-a1b0-fe3bc81317cb)
   
 [Buy an app from the SharePoint Store](https://support.office.com/article/dd98e50e-d3db-4ecb-9bb7-82b189822d43)

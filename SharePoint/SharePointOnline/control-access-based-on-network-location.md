@@ -3,7 +3,7 @@ title: "Control access to SharePoint Online and OneDrive data based on network l
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 6/5/2018
+ms.date: 6/19/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
@@ -53,7 +53,7 @@ Here are some important considerations for setting a location-based policy:
     
 6. Enter the IP address, address range, or multiple addresses separated by commas in the **Allowed IP addresses** box. 
     
-![Control access option in SharePoint admin center](media/2c11f07c-ec95-4aa6-b221-4cfaba31034e.png)
+    ![Control access option in SharePoint admin center](media/2c11f07c-ec95-4aa6-b221-4cfaba31034e.png)
   
 ## Set a location-based policy using Windows PowerShell
 

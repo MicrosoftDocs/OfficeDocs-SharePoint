@@ -42,6 +42,7 @@
 ### [Control access based on network location](control-access-based-on-network-location.md)
 ### [SharePoint Online authentication](sharepoint-online-authentication.md)
 ### [Safeguarding your data](safeguarding-your-data.md)
+### [Sign out inactive users](sign-out-inactive-users.md)
 ## [Overview of search](overview-of-search.md)
 ### [Manage search: the admin center](manage-search-the-admin-center.md)
 ### [Make sure content can be found](make-sure-content-can-be-found.md)

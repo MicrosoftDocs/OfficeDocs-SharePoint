@@ -2,13 +2,14 @@
 title: "Silently deploy and configure the OneDrive sync client in your enterprise"
 ms.author: kaarins
 author: kaarins
-ms.date: 5/30/2018
+ms.date: 6/25/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: office-online-server
 localization_priority: Normal
+search.appverid: ODB160
 ms.assetid: 64aa1f56-d7f6-4500-a408-1fde8fe6db36
-description: "This article is for IT admins who would like to silently deploy and configure the new OneDrive sync client (OneDrive.exe) to managed Windows computers in their enterprise. This feature works for computers that are joined to Azure Active Directory (Azure AD)."
+description: "Learn how IT admins can enable silent account configuration when deploying the OneDrive sync client in an enterprise."
 ---
 
 # Silently deploy and configure the OneDrive sync client in your enterprise
@@ -17,7 +18,7 @@ This article is for IT admins who would like to silently deploy and configure th
   
 ## Overview
 
-If you enable this feature, OneDrive.exe will attempt to sign in to the work or school account on the device that's joined to Azure AD. It will check the available disk space before syncing, and if it is large, OneDrive will prompt the user to choose folders to sync. You can [configure the size threshold by using Group Policy](use-group-policy.md#MaxOneDriveSize). 
+If you enable this feature, OneDrive.exe will attempt to sign in to the work or school account on the device that's joined to Azure AD. Before if begins syncing, it will check the available disk space. If syncing the user's entire OneDrive would cause the available space to drop below 1 GB or if the size exceeds the threshold you set, OneDrive will prompt the user to choose folders to sync. [Learn how to set the size threshold by using Group Policy](use-group-policy.md#MaxOneDriveSize). 
   
 If you enable this setting and the user is syncing files with the previous OneDrive for Business sync client (Groove.exe), the new sync client (OneDrive.exe) will attempt to take over syncing and import the user's sync settings. 
   
@@ -46,12 +47,20 @@ If you have an on-premises environment that uses Active Directory, you can enabl
   
 ## Enable silent configuration
 
-1. Use Group Policy to enable silent configuration.  For info, see [Silently configure OneDrive using Windows 10 or domain credentials](use-group-policy.md#SilentConfig).
+Using Group Policy:
+  
+1. Enable silent configuration. For info, see [Silently configure OneDrive using Windows 10 or domain credentials](use-group-policy.md#SilentConfig).
     
-2. Use Group Policy to specify the maximum OneDrive size that will download automatically in silent configuration. For info, see [Configure the maximum OneDrive size for downloading all files automatically](use-group-policy.md#MaxOneDriveSize).
+2. Optionally, specify the maximum OneDrive size that will download automatically in silent configuration. For info, see [Configure the maximum OneDrive size for downloading all files automatically](use-group-policy.md#MaxOneDriveSize). Note that if you enable Files ON-Demand, OneDrive will ignore the maximum size value.
     
-3. Optionally, use Group Policy to set the default location for the OneDrive folder. For info, see [Set the default location for the OneDrive folder](use-group-policy.md#DefaultRootDir).
+3. Optionally, set the default location for the OneDrive folder. For info, see [Set the default location for the OneDrive folder](use-group-policy.md#DefaultRootDir).
     
+> [!TIP]
+> To test single sign-on, run OneDrive setup using the /silent parameter and enter your user name. Setup should not prompt for credentials. 
+  
+> [!NOTE]
+> Silent configuration won't work on devices for which you've required multi-factor authentication. 
+  
 ## Send feedback
 <a name="sendfeedback"> </a>
 

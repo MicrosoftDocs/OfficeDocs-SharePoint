@@ -3,7 +3,7 @@ title: "Manually request crawling and re-indexing of a site, a library or a list
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
-ms.date: 5/16/2014
+ms.date: 6/20/2018
 ms.audience: End User
 ms.topic: article
 ms.prod: office-online-server
@@ -62,7 +62,5 @@ You can also choose to only re-index a document library or a list. When you have
 Learn more about search and crawled and managed properties in [Manage the search schema in SharePoint Online](manage-search-schema.md).
   
 See also: [Enable content on a site to be searchable](make-site-content-searchable.md)
-  
-[In SharePoint Online, content is automatically crawled based on a defined crawl schedule. The crawler picks up content that has changed since the last crawl and updates the index. In some cases, you may want to manually request crawling and full re-indexing of a site, a document library, or a list. ](crawl-site-content.md#__top)
   
 

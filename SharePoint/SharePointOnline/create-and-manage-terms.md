@@ -20,7 +20,7 @@ You can use the Term Store management tool to create terms in a term set, or man
 > [!IMPORTANT]
 >  To create and manage terms in the Term Store management tool, you must be a Contributor, a Group Manager, or a Term Store Administrator. 
   
-![You can select a group name in the Term Store tool to open a menu that lets you add terms to a term set](media/f5f2bdaa-0bd1-441b-81a2-e732de310d97.jpg)
+![You can select a group name in the Term Store tool to open a menu that lets you add terms to a term set](media/f5f2bdaa-0bd1-441b-81a2-e732de310d97.png)
   
 To create a term in a term set, follow these steps
   

@@ -3,7 +3,7 @@ title: "Use Group Policy to control OneDrive sync client settings"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 5/30/2018
+ms.date: 6/28/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
@@ -33,11 +33,16 @@ This article is for IT admins managing the new OneDrive sync client in a Windows
 2. Browse to **%localappdata%\Microsoft\OneDrive\ *BuildNumber*  \adm\ **, to the subfolder for your language as necessary. 
     
     (Where  *BuildNumber*  is the number displayed in sync client settings on the About tab.) 
+    
     ![The ADM folder in the OneDrive installation directory](media/85e0fe3f-84eb-4a29-877f-c706dda4d075.png)
   
 3. Copy the .adml and .admx files and paste them in your domain's Central Store, \\ *domain*  \sysvol\domain\Policies\PolicyDefinition, (where  *domain*  is your domain name, such as corp.contoso.com), in the corresponding language folder. 
     
-4. Configure settings from the domain controller or on a Windows computer by running the [Remote Server Administration Tools](https://go.microsoft.com/fwlink/?linkid=871794). For info about applying policies to different parts of your organization, see [Link Group Policy objects to Active Directory containers](https://go.microsoft.com/fwlink/?linkid=871796).
+4. Configure settings from the domain controller or on a Windows computer by running the [Remote Server Administration Tools](https://go.microsoft.com/fwlink/?linkid=871794). 
+    
+5. Link the Group Policy objects to an Active Directory container (site, domain, or organizational unit). For info, see [Link Group Policy objects to Active Directory containers](https://go.microsoft.com/fwlink/?linkid=871796).
+    
+6. Use security filtering to narrow the scope of a policy. By default, a policy is applied to all user and computer objects within the container to which it's linked, but you can use security filtering to narrow the scope of the policy's application to a subset of users or computers. For info, see [Filtering the scope of a GPO](https://go.microsoft.com/fwlink/?linkid=2004146).
     
 The OneDrive Group Policy objects work by setting registry keys on the computers in your domain.
   
@@ -69,6 +74,16 @@ The following Computer Configuration policies are available:
 - [Silently configure OneDrive using Windows 10 or domain credentials](use-group-policy.md#SilentConfig)
     
 - [Configure the maximum OneDrive size for downloading all files automatically](use-group-policy.md#MaxOneDriveSize)
+    
+The following Known Folder Move policies are rolling out. If you don't see them yet, you should soon.
+  
+- [Prompt users to move Windows known folders to OneDrive](use-group-policy.md#OptInWithWizard)
+    
+- [Silently redirect Windows known folders to OneDrive](use-group-policy.md#OptInNoWizard)
+    
+- [Prevent users from redirecting their Windows known folders to their PC](use-group-policy.md#OptInNoWizardToast)
+    
+- [Prevent users from moving their Windows known folders to OneDrive](use-group-policy.md#BlockKFM)
     
 > [!NOTE]
 > "SharePoint on-premises server URL" and "SharePoint prioritization setting for hybrid customers that use SharePoint Online (SPO) and SharePoint on-premises server" are included in the .adml file and will be in preview soon. 
@@ -191,6 +206,75 @@ Enabling this policy sets the following registry key.
 [HKLM\SOFTWARE\Policies\Microsoft\OneDrive\DiskSpaceCheckThresholdMB]"1111-2222-3333-4444"=dword:0005000
   
 (where "1111-2222-3333-4444" is the [tenant ID](https://support.office.com/article/6891b561-a52d-4ade-9f39-b492285e2c9b) and 0005000 sets a threshold of 5000 MB) 
+  
+### Prompt users to move Windows known folders to OneDrive
+<a name="OptInWithWizard"> </a>
+
+This setting displays the "Set up protection of important folders" window that prompts users to move their Documents, Pictures, and Desktop folders to OneDrive.
+  
+![OneDrive folder protection start panel](media/ebf0a858-d89f-47f0-8f78-4192a95944f0.png)
+  
+If you enable this setting and provide your tenant ID, users who are syncing their OneDrive will see the "Set up protection of important folders" window when they're signed in. If they close the window, a reminder notification will appear in the activity center until they move all three known folders. If a user has already redirected their known folders to a different OneDrive account, they will be prompted to direct the folders to the account for your organization (leaving existing files behind).
+  
+If you disable or do not configure this setting, the "Set up protection of important folders" window won't appear automatically for your users. 
+  
+Enabling this policy sets the following registry key:
+  
+[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMOptInWithWizard"="1111-2222-3333-4444"
+  
+(where "1111-2222-3333-4444" is the [tenant ID](https://support.office.com/article/6891b561-a52d-4ade-9f39-b492285e2c9b))
+  
+### Silently redirect Windows known folders to OneDrive
+<a name="OptInNoWizard"> </a>
+
+This setting lets you redirect your users' Documents, Pictures, and Desktop folders to OneDrive without user interaction. This policy works when all known folders are empty, and on folders redirected to a different OneDrive account. We recommend using this policy together with "Prompt users to move Windows known folders to OneDrive."
+  
+When you enable this policy, future releases will no longer check for empty known folders. Instead, known folders will be redirected and content within them will be moved.
+  
+If you enable this setting and provide your tenant ID, you can choose whether to display a notification to users after their folders have been redirected.
+  
+![Onedrive protection message](media/d28dbca8-f51a-43b2-b069-c483a53c6d0b.png)
+  
+If you disable or do not configure this setting, your users' known folders will not be silently redirected to OneDrive. 
+  
+Enabling this policy sets the following registry keys:
+  
+[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMSilentOptIn"="1111-2222-3333-4444"
+  
+(where "1111-2222-3333-4444" is the [tenant ID](https://support.office.com/article/6891b561-a52d-4ade-9f39-b492285e2c9b))
+  
+[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMSilentOptInWithNotification
+  
+Setting this value to 1 displays a notification after successful redirection.
+  
+### Prevent users from redirecting their Windows known folders to their PC
+<a name="OptInNoWizardToast"> </a>
+
+This setting forces users to keep their Documents, Pictures, and Desktop folders directed to OneDrive.
+  
+If you enable this setting, the "Stop protecting" button in the "Set up protection of important folders" window will be disabled and users will receive an error if they try to stop syncing a known folder.
+  
+If you disable or do not configure this setting, users can choose to redirect their known folders back to their PC.
+  
+Enabling this policy sets the following registry key:
+  
+[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMBlockOptOut"="dword:00000001"
+  
+### Prevent users from moving their Windows known folders to OneDrive
+<a name="BlockKFM"> </a>
+
+This setting prevents users from moving their Documents, Pictures, and Desktop folders to any OneDrive for Business account.
+  
+> [!NOTE]
+> Moving known folders to personal OneDrive accounts is already blocked on domain-joined PCs. 
+  
+If you enable this setting, users won't be prompted with the "Set up protection of important folders" window, and the "Start protection" command will be disabled. If the user has already moved their known folders, the files in those folders will remain in OneDrive. This policy will not take effect if you've enabled "Prompt users to move Windows known folders to OneDrive" or "Silently redirect Windows known folders to OneDrive."
+  
+If you disable or do not configure this setting, users can choose to move their known folders.
+  
+Enabling this policy sets the following registry key value to 1.
+  
+[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMBlockOptIn"="dword:00000001"
   
 ## User Configuration policies
 <a name="Glob"> </a>
@@ -372,7 +456,7 @@ Enabling this policy sets the following registry key value to 1.
   
 [HKCU\SOFTWARE\Policies\Microsoft\OneDrive] "DisableTutorial"="dword:00000001"
   
-## Related Topics
+## See also
 <a name="Glob"> </a>
 
 [Deploy the new OneDrive sync client in an enterprise environment ](deploy-sync-client-for-windows.md)
@@ -382,5 +466,4 @@ Enabling this policy sets the following registry key value to 1.
 [Allow syncing only on computers joined to specific domains ](allow-syncing-only-on-specific-domains.md)
   
 [Block syncing of specific file types ](block-file-types.md)
-  
 

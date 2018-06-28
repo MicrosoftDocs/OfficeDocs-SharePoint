@@ -3,7 +3,7 @@ title: "Get started with the new SharePoint admin center"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 6/1/2018
+ms.date: 6/20/2018
 ms.audience: Admin
 ms.topic: overview
 ms.prod: office-online-server
@@ -33,7 +33,8 @@ To switch back to the classic SharePoint admin center:
   
 - In the lower left of the new SharePoint admin center, click **Go to the classic SharePoint admin center**.
     
-Important: If a setting exists in both the new and classic SharePoint admin centers, and possibly other admin centers such as the OneDrive and Office 365 admin centers, when you change it in one place, the other admin centers will reflect the change. If you have multiple admins in your organization, make sure you communicate the changes you're making.
+> [!IMPORTANT]
+> If a setting exists in both the new and classic SharePoint admin centers, and possibly other admin centers such as the OneDrive and Office 365 admin centers, when you change it in one place, the other admin centers will reflect the change. If you have multiple admins in your organization, make sure you communicate the changes you're making. 
   
 Help us improve the new SharePoint admin center! Tell us what you like or don't like, send a suggestion, or file a bug. To send us feedback, click **Feedback** in the lower-right corner. 
   
@@ -47,15 +48,11 @@ On the Home page, you can see at a glance:
     
 ![The reports on the Home page](media/72b36579-70e8-4731-9e28-4f64cf577826.PNG)
   
-Tips:
+> [!TIP]
+>  To filter a report, click an item in the legend. For example, on the Files by activity type chart, click "Viewed or edited." >  To see values for a specific day, point to that day on the report. >  To see more details about a report, click **Details** to open the report in the Office 365 admin center. Here, you can see tables of activity by site or users, change the reporting period, pivot the report, export the report data into a .csv file that you can open in Excel, and more. For more info about the SharePoint reports in the Office 365 admin center, see [Office 365 Reports in the Admin Center - SharePoint activity](https://support.office.com/article/a91c958f-1279-499d-9959-12f0de08dc8f) and [Office 365 Reports in the Admin Center - SharePoint site usage](https://support.office.com/article/4ecfb843-e5d5-464d-8bf6-7ed512a9b213). 
   
-- To filter a report, click an item in the legend. For example, on the Files by activity type chart, click "Viewed or edited."
-    
-- To see values for a specific day, point to that day on the report.
-    
-- To see more details about a report, click **Details** to open the report in the Office 365 admin center. Here, you can see tables of activity by site or users, change the reporting period, pivot the report, export the report data into a .csv file that you can open in Excel, and more. For more info about the SharePoint reports in the Office 365 admin center, see [Office 365 Reports in the Admin Center - SharePoint activity](https://support.office.com/article/a91c958f-1279-499d-9959-12f0de08dc8f) and [Office 365 Reports in the Admin Center - SharePoint site usage](https://support.office.com/article/4ecfb843-e5d5-464d-8bf6-7ed512a9b213).
-    
-Note: Reports typically don't include activity from the last 24 to 48 hours.
+> [!NOTE]
+> Reports typically don't include activity from the last 24 to 48 hours. 
   
 ## View Message center posts
 
@@ -69,8 +66,7 @@ In the Service health section of the home page, you can see whether the SharePoi
   
 ![The Service health card on the Home page](media/0336aab6-aecb-494c-9cd2-f279f452cc79.PNG)
   
-## See Also
+## See also
 
 [Manage sites in the new SharePoint admin center](manage-sites-in-new-admin-center.md)
-  
 

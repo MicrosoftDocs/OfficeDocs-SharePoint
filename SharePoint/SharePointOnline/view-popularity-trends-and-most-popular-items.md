@@ -3,7 +3,7 @@ title: "View Popularity Trends and Most Popular Items"
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
-ms.date: 5/16/2018
+ms.date: 6/21/2018
 ms.audience: End User
 ms.topic: article
 ms.prod: office-online-server
@@ -54,9 +54,9 @@ You can also view other reports for the site collection, see [View usage and sea
     
 4. On the ribbon, click **Popularity Trends**.
     
-![Popularity Trends](media/2159c806-08de-4dc2-b46a-9eb5f031d969.png)
+    ![Popularity Trends](media/2159c806-08de-4dc2-b46a-9eb5f031d969.png)
   
-1. Click Open to open the **Usage Details** report in Excel. There's one tab in the report for each item you selected. 
+5. Click Open to open the **Usage Details** report in Excel. There's one tab in the report for each item you selected. 
     
 You can also see popularity trends for a page or item from the **Most Popular Items** view. 
   
@@ -70,8 +70,8 @@ Or, you can go to an individual page and select the **PAGE** tab \> **Popularity
 2. Click the **LIBRARY** tab. 
     
 3. On the ribbon, click **Most Popular Items**. 
-  
-![Most Popular Items](media/34eef023-69d2-42f6-a749-0fa503811cba.png)
+    
+    ![Most Popular Items](media/34eef023-69d2-42f6-a749-0fa503811cba.png)
   
 You can sort the list by **Recent** (views the last 14 days), or **Ever** (views from the first time the item became available). 
   

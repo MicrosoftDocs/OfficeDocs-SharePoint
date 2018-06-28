@@ -3,7 +3,7 @@ title: "Add and edit user profile properties in SharePoint Online"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 5/21/2018
+ms.date: 6/19/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -38,6 +38,7 @@ If your organization uses the cloud identity model, your Office 365 user account
 6. Select **New Property**.
     
 7. In the **Name** box, enter a unique name for the property. 
+    
     ![Property settings under User Profile in Admin](media/b18946ee-7db7-4587-9f0b-2ea1d892415f.png)
   
 8. In the **Display Name** box, enter the profile property name that will be displayed to all users. (This name doesn't have to be unique.) 

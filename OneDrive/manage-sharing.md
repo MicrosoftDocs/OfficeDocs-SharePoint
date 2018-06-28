@@ -3,7 +3,7 @@ title: "Manage sharing in OneDrive and SharePoint"
 ms.author: kaarins
 author: kaarins
 manager: scotv
-ms.date: 5/21/2018
+ms.date: 6/21/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
@@ -108,9 +108,8 @@ By default, users are allowed to share files in OneDrive and SharePoint with any
   
 3. Click **Save**.
     
-## See Also
+## See also
 <a name="showfileviewers"> </a>
 
 [OneDrive admin center](https://support.office.com/article/b5665060-530f-40a3-b34a-9e935169b2e0)
-  
 

@@ -3,7 +3,7 @@ title: "Set the default storage space for OneDrive users"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 4/27/2018
+ms.date: 6/21/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
@@ -26,6 +26,7 @@ The default storage space for each user's OneDrive user is 1 TB. Depending on yo
 ## Set the default OneDrive storage space in the OneDrive admin center
 
 1. Open the [OneDrive admin center](https://admin.onedrive.com/?v=StorageSettings) and click **Storage** in the left pane. 
+    
     ![The Storage tab of the OneDrive admin center](media/15942b88-2f71-4c85-87ec-eb14b88f8f93.png)
   
 2. Enter the default storage amount (in GB) in the **Default storage** box, and then click **Save**.
@@ -68,8 +69,6 @@ This storage space setting applies to all new and existing users for whom you ha
   ```
 
 ## See also
-
-#### Other Resources
 
 [OneDrive admin center](https://support.office.com/article/b5665060-530f-40a3-b34a-9e935169b2e0)
   

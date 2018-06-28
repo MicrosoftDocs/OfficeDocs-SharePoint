@@ -3,7 +3,7 @@ title: "Control access from unmanaged devices"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 5/4/2018
+ms.date: 6/21/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
@@ -45,6 +45,7 @@ Blocking access helps provide security but comes at the cost of usability and pr
 5. Select **Block Access**.
     
 6. Click **OK**.
+    
     ![The block access setting on the access control page](media/ea0ee472-6fde-4d2d-bc7b-9d3b9eee0d96.PNG)
   
     > [!NOTE]
@@ -67,6 +68,7 @@ If you go to the Azure AD admin center and click **Conditional access**, you can
 5. Select **Allow limited, web-only access**.
     
 6. Click **OK**.
+    
     ![The limited access setting on the access control page](media/1ac2b9f4-32eb-4f21-85f1-e971c50f8b23.png)
   
     > [!NOTE]
@@ -102,6 +104,7 @@ To block or limit access to specific sites, you must set the organization-wide p
 5. Under **Session**, select **Use app enforced restrictions**. This tells Azure to use the settings you'll specify in SharePoint.
     
 6. Enable the policy and save it.
+    
     ![Creating a policy in the Azure AD admin center to use app-enforced restrictions](media/c6467cd8-612d-4f8e-98bf-4913b35f49f1.png)
   
 7. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
@@ -147,8 +150,6 @@ Blocking access and blocking download may impact the user experience in some app
   
 ## See also
 <a name="advanced"> </a>
-
-#### Other Resources
 
 [Control access to SharePoint Online and OneDrive data based on defined network locations](control-access-based-on-network-location.md)
 

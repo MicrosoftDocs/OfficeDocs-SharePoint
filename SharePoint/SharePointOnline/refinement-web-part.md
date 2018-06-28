@@ -3,7 +3,7 @@ title: "Change settings for the Refinement Web Part"
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
-ms.date: 4/5/2018
+ms.date: 6/19/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
@@ -24,7 +24,7 @@ As a SharePoint Online administrator, you can change how the Refinement Web Part
 - Filter search results from a different Search Results Web Part.
     
 - Specify which refiners to show.
-  
+    
     > [!NOTE]
     >  Any managed properties that you want to use as refiners must be set to refinable and queryable in the search schema. Also, the content source that contains the managed properties must have been crawled before the properties can be used as refiners. 
   
@@ -68,7 +68,7 @@ As a SharePoint Online administrator, you can change how the Refinement Web Part
 ## Change the display name for a refiner
 <a name="__change_the_display"> </a>
 
-By default, the name of the managed property will be used as a display name for the refiner. In many cases, the managed property name is hard to understand — for example, **RefinableString00** or **ColorOWSTEXT**. You can fix this by changing the name of the refiner in a JavaScript file.
+By default, the name of the managed property will be used as a display name for the refiner. In many cases, the managed property name is hard to understand—for example, **RefinableString00** or **ColorOWSTEXT**. You can fix this by changing the name of the refiner in a JavaScript file.
   
 1. On the page that contains the Refinement Web Part, on the **Settings** menu, click **Site Settings**.
     
@@ -84,15 +84,15 @@ By default, the name of the managed property will be used as a display name for 
     
 7. Add one line for each managed property that you want to change the display name for. Use this syntax: 
     
- `"rf_RefinementTitle_ManagedPropertyName": "Sample Refinement Title for ManagedPropertyName"`
-  
-For example, add this line to change the display name for the managed property **RefinableInt00** to **Price**: 
-  
-```
-"rf_RefinementTitle_RefinableInt00": "Price".
-```
+     `"rf_RefinementTitle_ManagedPropertyName": "Sample Refinement Title for ManagedPropertyName"`
+    
+    For example, add this line to change the display name for the managed property **RefinableInt00** to **Price**: 
+    
+  ```
+  "rf_RefinementTitle_RefinableInt00": "Price".
+  ```
 
-1. Save the file.
+8. Save the file.
     
 ## Add refiner counts
 <a name="__toc348362490"> </a>
@@ -113,14 +113,14 @@ By default, the Refinement Web Part doesn't show refiner counts — that is, the
     
 7. Save the file.
     
-See also: 
+## See also
+<a name="__toc348362490"> </a>
+
+[Manage the Search Center in SharePoint Online](manage-search-center.md)
   
-- [Manage the Search Center in SharePoint Online](manage-search-center.md)
-    
-- [Change settings for the Search Box Web Part](search-box-web-part.md)
-    
-- [Change settings for the Search Navigation Web Part](search-navigation-web-part.md)
-    
-- [Change settings for the Search Results Web Part](https://support.office.com/article/40ff85b3-bc5e-4230-b1dd-f088188e487e)
-    
+[Change settings for the Search Box Web Part](search-box-web-part.md)
+  
+[Change settings for the Search Navigation Web Part](search-navigation-web-part.md)
+  
+[Change settings for the Search Results Web Part](https://support.office.com/article/40ff85b3-bc5e-4230-b1dd-f088188e487e)
 

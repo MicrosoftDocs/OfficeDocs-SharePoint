@@ -3,7 +3,7 @@ title: "Manage result sources"
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
-ms.date: 3/8/2017
+ms.date: 6/20/2018
 ms.audience: End User
 ms.topic: article
 ms.prod: office-online-server
@@ -34,7 +34,7 @@ You can create your own result sources, or use the predefined result sources. Af
 
 1. Go to the **Manage Result Sources** page for the tenant, for a site collection, or a site: 
     
-> For the **tenant**: 
+  - For the **tenant**: 
     
 1. Sign in to the Office 365 Admin Center.
     
@@ -42,11 +42,11 @@ You can create your own result sources, or use the predefined result sources. Af
     
 3. Click **search**, and then on the search administration page, click **Manage Result Sources**.
     
-> For a **site collection**: 
+  - For a **site collection**: 
     
     In your site collection, go to **Settings**, click **Site settings** and then under **Site Collection Administration**, click **Search Result Sources**.
     
-> For a **site**: 
+  - For a **site**: 
     
     On your site, go to **Settings**, click **Site settings**, and then under **Search**, click **Result Sources**.
     
@@ -107,8 +107,6 @@ You can create your own result sources, or use the predefined result sources. Af
     
 8. Click **Save**.
     
-[Result sources limit searches to certain content or to a subset of search results. You can also use result sources to send queries to external providers such as Bing. A SharePoint Online administrator can manage result sources for all site collections and sites in that instance of SharePoint Online (tenant). A site collection administrator or a site owner can manage result sources for a site collection or a site, respectively. You can create your own result sources, or use the predefined result sources. After you create a result source, you configure Search Web Parts and query-rule actions to use it. ](manage-result-sources.md#__top)
-  
 ## Set a result source as default
 <a name="__toc342634788"> </a>
 
@@ -116,7 +114,7 @@ The default result source is **Local SharePoint Results**, but you can choose to
   
 1. Go to the **Manage Result Sources** page for the tenant, for a site collection, or a site: 
     
-> For the **tenant**: 
+  - For the **tenant**: 
     
 1. Sign in to the Office 365 Admin Center.
     
@@ -124,22 +122,20 @@ The default result source is **Local SharePoint Results**, but you can choose to
     
 3. Click **search**, and then on the search administration page, click **Manage Result Sources**.
     
-> For a **site collection**: 
+  - For a **site collection**: 
     
     In your site collection, go to **Settings**, click **Site settings** and then under **Site Collection Administration**, click **Search Result Sources**.
     
-> For a **site**: 
+  - For a **site**: 
     
     On your site, go to **Settings**, click **Site settings**, and then under **Search**, click **Result Sources**.
     
 2. On the **Manage Result Sources** page, point to the result source that you want to set as the default, click the arrow that appears, and then click **Set as Default**.
     
-[Result sources limit searches to certain content or to a subset of search results. You can also use result sources to send queries to external providers such as Bing. A SharePoint Online administrator can manage result sources for all site collections and sites in that instance of SharePoint Online (tenant). A site collection administrator or a site owner can manage result sources for a site collection or a site, respectively. You can create your own result sources, or use the predefined result sources. After you create a result source, you configure Search Web Parts and query-rule actions to use it. ](manage-result-sources.md#__top)
+## See also
+<a name="__toc342634788"> </a>
+
+[Understanding result sources](https://support.office.com/article/3fb2c8c4-ecbd-4210-abf7-1f0df59a370b)
   
-See also: 
-  
-- [Understanding result sources](https://support.office.com/article/3fb2c8c4-ecbd-4210-abf7-1f0df59a370b)
-    
-- [Understanding query transforms](https://support.office.com/article/b31631a5-0c1f-436e-8061-fd807bb96ae1)
-    
+[Understanding query transforms](https://support.office.com/article/b31631a5-0c1f-436e-8061-fd807bb96ae1)
 

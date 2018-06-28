@@ -22,7 +22,7 @@ In the Term Store Management Tool, a group is a set of term sets that all share 
 > [!IMPORTANT]
 >  To create a new term set group, you must be a Term Store Administrator 
   
-![Screen shot of navigation pane in Term Store management tool, showing the New Group menu item selected](media/e4e5afaf-0b6b-4606-b0c8-8b0f56b663c0.jpg)
+![Screen shot of navigation pane in Term Store management tool, showing the New Group menu item selected](media/e4e5afaf-0b6b-4606-b0c8-8b0f56b663c0.png)
   
 To set up a new group for term sets, follow these steps
   

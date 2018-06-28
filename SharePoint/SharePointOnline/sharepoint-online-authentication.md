@@ -3,7 +3,7 @@ title: "SharePoint Online authentication"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 5/21/2018
+ms.date: 6/21/2018
 ms.audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration

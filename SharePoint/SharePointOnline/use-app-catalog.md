@@ -168,8 +168,6 @@ If you no longer want a specific app to be available for users to install, you c
 ## See also
 <a name="__toc347303053"> </a>
 
-#### Other Resources
-
 [Configure settings for the SharePoint Store](configure-sharepoint-store-settings.md)
   
 [Manage app licenses for a SharePoint Online environment](manage-app-licenses.md)

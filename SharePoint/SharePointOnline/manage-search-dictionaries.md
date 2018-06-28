@@ -3,7 +3,7 @@ title: "Manage search dictionaries"
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen
-ms.date: 4/5/2018
+ms.date: 6/20/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
@@ -39,9 +39,9 @@ Once you have done this, you can then use the managed property **companies** to 
     
 4. Choose **Manage Search Dictionaries**. You're now in the **term store**.
     
-5. On the **Site Settings: Term Store Management Tool** page, click the arrow to expand the **Search Dictionarie** **s** menu. 
+5. On the **Site Settings: Term Store Management Tool** page, click the arrow to expand the **Search Dictionaries** menu. 
     
-6. Click **Company Inclusions** **,** click the arrow and then click **Create Term**.
+6. Click **Company Inclusions**, click the arrow and then click **Create Term**.
     
 7. Type the name of the company that you want to include in the box that appears.
     

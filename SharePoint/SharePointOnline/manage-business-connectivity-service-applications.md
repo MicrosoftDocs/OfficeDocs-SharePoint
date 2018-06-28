@@ -3,7 +3,7 @@ title: "Manage Business Connectivity Service Applications"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 4/30/2018
+ms.date: 6/20/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -51,14 +51,14 @@ To set object permissions for an object, follow these steps.
 5. Select the check box next to the name of the ECT or external system that you want to manage. 
     
 6. On the ribbon, select **Set Object Permissions**.
-  
-![A screenshot of the Set Object Permissions dialog for Business Connectivity Services in SharePoint Online.](media/6af13f29-5126-470e-b2b9-a59d0ad569ca.png)
+    
+    ![A screenshot of the Set Object Permissions dialog for Business Connectivity Services in SharePoint Online.](media/6af13f29-5126-470e-b2b9-a59d0ad569ca.png)
   
 7. Enter a user account or group name in the text box, and then select **Add**. You can also select **Browse** to look for the name that you want. 
     
 8. Select the name of the account or group for which you want to set access to the ECT or external system. You can set permissions for only one account at a time. If you have multiple accounts or groups, you have to set levels of access for each account separately, by selecting them one at a time. 
-  
-The following table describes the permissions and their associated access levels.
+    
+    The following table describes the permissions and their associated access levels.
     
 |**Permission**|**Notes**|
 |:-----|:-----|
@@ -225,11 +225,11 @@ To add an action to an ECT, follow these steps.
 |Yes  <br/> |Starts the action in a new browser window (preserves the page context).  <br/> |
 |No  <br/> |Starts the action in the same browser window.  <br/> |
    
-1. In the **URL Parameters** field, specify any parameters that are required by the URL. Notice that these are numbered in the interface starting at 0. 
+9. In the **URL Parameters** field, specify any parameters that are required by the URL. Notice that these are numbered in the interface starting at 0. 
     
-2. Decide if you want to use an **Icon** or not. This field also allows you to use Standard icons. 
+10. Decide if you want to use an **Icon** or not. This field also allows you to use Standard icons. 
     
-3. If you want the action to be the default action, select the Default Action check box.
+11. If you want the action to be the default action, select the Default Action check box.
     
     > [!IMPORTANT]
     >  Parameters can contain personally identifying information such as names and Social Security numbers. When you design an action, be careful not to use fields that display personally identifying information. 
@@ -244,8 +244,6 @@ The three view options are BDC Models, External Systems, and External Content Ty
 ![Screenshot of view selection for BCS data catalog views.](media/7a895c1b-bff6-4e85-898b-52d800d817d3.jpg)
   
 For more information about how you can use these views to help manage BCS, see the sections that follow.
-  
-[In SharePoint Online, you can create Business Connectivity Services (BCS) connections to data sources, such as SQL Azure databases or Windows Communication Foundation (WCF) web services, that are outside the SharePoint site. Once you've created these connections, you can manage or edit BCS information on the SharePoint admin center site. You can log on to the SharePoint admin center site directly, or log on to the Office 365 admin center and then move to the SharePoint admin center.SharePoint Online uses BCS together with Secure Store Services to access and retrieve data such as BDC Models from external data systems. To learn more about BCS, see SharePoint Online planning guide for Office 365.](manage-business-connectivity-service-applications.md#__top)
   
 ### External Content Types view
 <a name="__toc338059714"> </a>

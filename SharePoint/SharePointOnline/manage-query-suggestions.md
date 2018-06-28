@@ -3,7 +3,7 @@ title: "Customize query suggestions in SharePoint search"
 ms.author: arnek
 author: arnek
 manager: arnek
-ms.date: 5/16/2014
+ms.date: 6/20/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
@@ -23,14 +23,14 @@ You can also manually create your own lists of query suggestions and import them
   
 To create query suggestions for multiple languages, you'll need to create a separate file for each language. The language determines how the query suggestions are processed internally in the search system. All manual query suggestions are always displayed for **all** languages. Add each phrase as a separate line in the text file that you create, and save the file in UTF-8 encoding. 
   
-Query suggestions are turned on by default. To turn them off, go to **Search Suggestions**and uncheck **Show search suggestions**.
+Query suggestions are turned on by default. To turn them off, go to **Search Suggestions** and uncheck **Show search suggestions**.
   
 ## To create query suggestions in SharePoint search
 <a name="__toc343004643"> </a>
 
 1. Sign in to the Office 365 Admin Center as a search administrator.
     
-2. Choose **Admin** \> **SharePoint** \> **search** \> **Query Suggestion Settings** **.**
+2. Choose **Admin** \> **SharePoint** \> **search** \> **Query Suggestion Settings**.
     
 3. Open a text editor of your choice, and enter a list of terms that you want the system to always suggest to users. Only add one term per line to the text file, and don't mix languages in the text file.
     
@@ -44,8 +44,6 @@ Query suggestions are turned on by default. To turn them off, go to **Search Sug
     
 8. Choose **Save Settings**.
     
-[Query spelling suggestions are words that appear below the search box as a user types a query. SharePoint automatically creates a query suggestion when you've clicked a search result for a query at least six times. For example, if you've entered the query word "coffee" and then clicked a search result six times, "coffee" automatically becomes a query suggestion. Automatic query suggestions are generated daily for each result source and each site collection, so the query suggestions can be different for different result sources and site collections.You can also manually create your own lists of query suggestions and import them to SharePoint. Manual query suggestions apply to all result sources and to all site collections.To create query suggestions for multiple languages, you'll need to create a separate file for each language. The language determines how the query suggestions are processed internally in the search system. All manual query suggestions are always displayed for all languages. Add each phrase as a separate line in the text file that you create, and save the file in UTF-8 encoding.Query suggestions are turned on by default. To turn them off, go to Search Suggestionsand uncheck Show search suggestions.](manage-query-suggestions.md#__top)
-  
 ### Related tasks
 
 You can edit a list of query suggestions that you've manually created. To edit a list that you've already imported in to SharePoint, choose **Export to text file**, update the text file with your changes, and then re-import it. After you've uploaded your query suggestions file, it might take a few hours until your query suggestions are displayed. You can check that they're working properly by entering a phrase from your list of query suggestions in the search box. The query suggestion should appear below the search box.
@@ -53,7 +51,5 @@ You can edit a list of query suggestions that you've manually created. To edit a
 To get rid of a list of query terms, you have to overwrite it. Do this by importing an empty text file. 
   
 You can also prevent terms from appearing in the search box. To do this, create a text file with the query terms that you never want users to see below the search box, and then import it to **Never suggest phrases**.
-  
-[Query spelling suggestions are words that appear below the search box as a user types a query. SharePoint automatically creates a query suggestion when you've clicked a search result for a query at least six times. For example, if you've entered the query word "coffee" and then clicked a search result six times, "coffee" automatically becomes a query suggestion. Automatic query suggestions are generated daily for each result source and each site collection, so the query suggestions can be different for different result sources and site collections.You can also manually create your own lists of query suggestions and import them to SharePoint. Manual query suggestions apply to all result sources and to all site collections.To create query suggestions for multiple languages, you'll need to create a separate file for each language. The language determines how the query suggestions are processed internally in the search system. All manual query suggestions are always displayed for all languages. Add each phrase as a separate line in the text file that you create, and save the file in UTF-8 encoding.Query suggestions are turned on by default. To turn them off, go to Search Suggestionsand uncheck Show search suggestions.](manage-query-suggestions.md#__top)
   
 

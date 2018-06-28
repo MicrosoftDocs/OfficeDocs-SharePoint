@@ -3,7 +3,7 @@ title: "Enable conditional access support in the OneDrive sync client for Window
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 5/21/2018
+ms.date: 6/21/2018
 ms.audience: Admin
 ms.topic: get-started-article
 ms.prod: office-online-server
@@ -71,10 +71,9 @@ Please let us know if you run into any problems while using this release.
     
 3. Type a brief description of your issue, and then click **OK**. You will receive an email notification with a support ticket number to track your issue.
     
-## Related Topics
+## See also
 
 [Deploy the new OneDrive sync client](deploy-sync-client-for-windows.md)
   
 [Sync files with the new OneDrive sync client in Windows](https://support.office.com/article/615391c4-2bd3-4aae-a42a-858262e42a49)
-  
 

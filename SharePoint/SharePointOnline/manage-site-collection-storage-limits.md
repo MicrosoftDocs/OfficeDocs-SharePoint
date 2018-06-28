@@ -3,7 +3,7 @@ title: "Manage site collection storage limits"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 5/22/2018
+ms.date: 6/20/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -81,6 +81,7 @@ If you prefer to fine tune the storage space allocated to each site collection, 
 6. In **Limit storage quota for each site collection**, enter the maximum number of gigabytes (GB) to be allocated to the site collection.
     
 7. Check the box to send email to the site collection administrators when the site collections approaches the storage limit. Enter a number from 1 to 100 for the percentage of the limit to reach before an email alert is triggered. 
+    
     ![Set storage quota dialog box](media/5420f620-0227-431b-8f8c-c949db6ebf09.png)
   
     > [!TIP]
@@ -141,8 +142,6 @@ Previously, SharePoint storage was calculated in megabytes (MB). Now it's calcul
   
 ## See also
 <a name="storagecalculation"> </a>
-
-#### Other Resources
 
 [SharePoint Online Limits](https://go.microsoft.com/fwlink/p/?LinkID=856113)
 

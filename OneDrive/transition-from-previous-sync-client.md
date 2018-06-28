@@ -98,8 +98,6 @@ For more information, see [Get-SPOTenantSyncClientRestriction](https://go.micros
   
 ## See also
 
-#### Other Resources
-
 [Deploy the new OneDrive sync client in an enterprise environment](deploy-sync-client-for-windows.md)
   
 [Sync files with the new OneDrive sync client in Windows](https://support.office.com/article/615391c4-2bd3-4aae-a42a-858262e42a49)

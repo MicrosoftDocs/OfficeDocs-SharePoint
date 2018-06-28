@@ -3,7 +3,7 @@ title: "Planning SharePoint Online business-to-business (B2B) extranet sites"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 4/24/2017
+ms.date: 6/25/2018
 ms.audience: Admin
 ms.topic: conceptual
 ms.prod: office-online-server
@@ -40,7 +40,7 @@ One key aspect of using an extranet site is managing the external business partn
     
 - **Site-owner-initiated guest invitation model** - If you want more control than the default sharing model over who can invite new users to a site, you can configure the site to only allow site owners to invite new users. This prevents ad-hoc invitations from being sent out by site users. 
     
-- **Admin-managed partner users model** - In an admin-managed partner users model, the Office 365 you pre-populate your tenant's directory with the guest users who you'll be inviting to your site. This can be done by [importing users from other Office 365 or Azure AD tenants](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
+- **Admin-managed partner users model** - In an admin-managed partner users model, the Office 365 you pre-populate your tenant's directory with the guest users who you'll be inviting to your site. This can be done by [importing users from other Office 365 or Azure AD tenants](https://go.microsoft.com/fwlink/?linkid=2003563).
     
 See [Securing a SharePoint Online extranet site](secure-extranet-site.md) for details on how these options relate to site sharing and which settings to choose. 
   
@@ -83,13 +83,11 @@ When a contract with a business partner ends, it is important that you remove an
 ## See also
 <a name="LifeCycle"> </a>
 
-#### Other Resources
-
 [Manage external sharing for your SharePoint Online environment](external-sharing-overview.md)
   
-[Azure Active Directory B2B collaboration](https://azure.microsoft.com/en-us/documentation/articles/active-directory-b2b-collaboration-overview/?rnd=1)
+[Azure Active Directory B2B collaboration](https://go.microsoft.com/fwlink/?linkid=2003564)
   
-[Organizational relationships in Exchange Server](https://technet.microsoft.com/en-us/library/jj657445%28v=exchg.150%29.aspx)
+[Organizational relationships in Exchange Server](https://go.microsoft.com/fwlink/?linkid=2003469)
   
 [Allow users to contact external Skype for Business users](https://support.office.com/article/b414873a-0059-4cd5-aea1-e5d0857dbc94)
 

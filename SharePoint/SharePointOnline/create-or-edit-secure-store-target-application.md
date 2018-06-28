@@ -3,7 +3,7 @@ title: "Create or edit a Secure Store Target Application"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 5/21/2018
+ms.date: 6/22/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -43,7 +43,7 @@ Another benefit of the Secure Store Service is that it eliminates authentication
     
 3. In the **Manage Target Applications** group on the ribbon, click **New**.
     
-    ![Screenshot of the SharePoint Online Administration Center page for configuring a SecureStore Target Application.](media/c3ba43ae-b8df-4b63-b187-9ce1bd6cb42f.jpg)
+    ![Screenshot of the SharePoint Online Administration Center page for configuring a SecureStore Target Application.](media/c3ba43ae-b8df-4b63-b187-9ce1bd6cb42f.png)
   
 4. In the **Target Application Settings** section, enter values for the following fields: 
     
@@ -100,7 +100,7 @@ Another benefit of the Secure Store Service is that it eliminates authentication
     
 4. In the **Credentials** group on the ribbon, click **Set**. This opens the **Set Credentials for Secure Store Target Application (Group)** dialog box. When you set credentials, you map a Target Application Group to a single set of credentials for an external data system. 
     
-    ![Screenshot of the "Set credentials for a Secure Store Target Application" dialog. You can use this dialog to set the logon credentials for an external data source](media/ca3584ac-34d5-431d-a803-a6888b3a451d.jpg)
+    ![Screenshot of the "Set credentials for a Secure Store Target Application" dialog. You can use this dialog to set the logon credentials for an external data source](media/ca3584ac-34d5-431d-a803-a6888b3a451d.png)
   
 5. In the **Set Credentials for Secure Store Target Application (Group)** dialog box, enter the credential values that you want. The credential fields that you enter apply to the external data system. 
     

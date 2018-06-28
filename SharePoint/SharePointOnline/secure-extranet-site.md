@@ -3,7 +3,7 @@ title: "Securing a SharePoint Online extranet site"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 11/10/2017
+ms.date: 6/25/2018
 ms.audience: End User
 ms.topic: article
 ms.prod: office-online-server
@@ -73,8 +73,6 @@ To configure this option, on the **Sharing** tab at the site collection level, s
   
 ## See also
 
-#### Other Resources
-
 [Onboarding to SharePoint Hybrid Extranet Sites](plan-b2b-extranet-sites.md)
   
 [Extranet for Partners with Office 365](create-a-b2b-extranet.md)
@@ -83,5 +81,5 @@ To configure this option, on the **Sharing** tab at the site collection level, s
   
 [Set-SPOSite](https://go.microsoft.com/fwlink/p/?LinkId=624162)
   
-[Set-SPOTenant](https://technet.microsoft.com/en-us/library/fp161390.aspx)
+[Set-SPOTenant](https://go.microsoft.com/fwlink/?linkid=2003900)
 

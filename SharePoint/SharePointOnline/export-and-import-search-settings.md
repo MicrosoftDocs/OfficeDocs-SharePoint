@@ -3,7 +3,7 @@ title: "Export and import customized search configuration settings"
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
-ms.date: 5/16/2014
+ms.date: 6/20/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
@@ -79,8 +79,6 @@ The managed property names and aliases of a search schema must be unique for a s
   
 If the import fails, remove the condition that caused the failure and reimport the search configuration file. For example, if the Notes column states that there is already a query rule with the same name as the query rule that you are trying to import, then you should remove that query rule either from the target or from the import file, and then reimport the file. See [Invalid characters in managed property names or aliases](export-and-import-search-settings.md#__invalid_characters_in) later in this article. 
   
-[As a SharePoint Online administrator, you can export and import customized search configuration settings between tenants, site collections, and sites. The settings that you export and import include all customized query rules, result sources, result types, ranking models and site search settings. It's also possible to export customized search configuration settings from a Search service application and import the settings to tenants, site collections, or sites. You can't export the default configuration settings. ](export-and-import-search-settings.md#__top)
-  
 ## Export customized search configuration settings from a tenant
 <a name="__toc351540659"> </a>
 
@@ -94,8 +92,6 @@ If the import fails, remove the condition that caused the failure and reimport t
     
 5. In the dialog box, click **Save**.
     
-[As a SharePoint Online administrator, you can export and import customized search configuration settings between tenants, site collections, and sites. The settings that you export and import include all customized query rules, result sources, result types, ranking models and site search settings. It's also possible to export customized search configuration settings from a Search service application and import the settings to tenants, site collections, or sites. You can't export the default configuration settings. ](export-and-import-search-settings.md#__top)
-  
 ## Export customized search configuration settings from a site
 <a name="__toc351540660"> </a>
 
@@ -105,8 +101,6 @@ If the import fails, remove the condition that caused the failure and reimport t
     
 3. In the dialog box, click **Save**.
     
-[As a SharePoint Online administrator, you can export and import customized search configuration settings between tenants, site collections, and sites. The settings that you export and import include all customized query rules, result sources, result types, ranking models and site search settings. It's also possible to export customized search configuration settings from a Search service application and import the settings to tenants, site collections, or sites. You can't export the default configuration settings. ](export-and-import-search-settings.md#__top)
-  
 ## Export customized search configuration settings from a site collection
 <a name="__toc351540661"> </a>
 
@@ -116,8 +110,6 @@ If the import fails, remove the condition that caused the failure and reimport t
     
 3. In the dialog box, click **Save**.
     
-[As a SharePoint Online administrator, you can export and import customized search configuration settings between tenants, site collections, and sites. The settings that you export and import include all customized query rules, result sources, result types, ranking models and site search settings. It's also possible to export customized search configuration settings from a Search service application and import the settings to tenants, site collections, or sites. You can't export the default configuration settings. ](export-and-import-search-settings.md#__top)
-  
 ## Import customized search configuration settings to a tenant
 <a name="__toc351540662"> </a>
 
@@ -139,8 +131,6 @@ If the import fails, remove the condition that caused the failure and reimport t
     
 8. The **Scope** column shows that the settings you imported are at the right level, that is, at the level you meant to import the file to. For example, if you imported your settings at the site collection level instead of at the site level, you'd see this information in the **Scope** column. The **Scope** column shows at which level the search configuration settings were enabled. The levels are: tenant (Tenant), site collection (SPSite), or site level (SPWeb). 
     
-[As a SharePoint Online administrator, you can export and import customized search configuration settings between tenants, site collections, and sites. The settings that you export and import include all customized query rules, result sources, result types, ranking models and site search settings. It's also possible to export customized search configuration settings from a Search service application and import the settings to tenants, site collections, or sites. You can't export the default configuration settings. ](export-and-import-search-settings.md#__top)
-  
 ## Import customized search configuration settings to a site
 <a name="__toc351540663"> </a>
 
@@ -160,8 +150,6 @@ If the import fails, remove the condition that caused the failure and reimport t
     
 7. The **Scope** column shows that the settings you imported are at the right level, that is, at the level you meant to import the file to. For example, if you imported your settings at the site collection level instead of at the site level, you'd see this information in the **Scope** column. The **Scope** column shows at which level the search configuration settings were enabled. The levels are: tenant (Tenant), site collection (SPSite), or site level (SPWeb). 
     
-[As a SharePoint Online administrator, you can export and import customized search configuration settings between tenants, site collections, and sites. The settings that you export and import include all customized query rules, result sources, result types, ranking models and site search settings. It's also possible to export customized search configuration settings from a Search service application and import the settings to tenants, site collections, or sites. You can't export the default configuration settings. ](export-and-import-search-settings.md#__top)
-  
 ## Import customized search configuration settings to a site collection
 <a name="__toc351540664"> </a>
 
@@ -181,8 +169,6 @@ If the import fails, remove the condition that caused the failure and reimport t
     
 7. The **Scope** column shows that the settings you imported are at the right level, that is, at the level you meant to import the file to. For example, if you imported your settings at the site collection level instead of at the site level, you'd see this information in the **Scope** column. The **Scope** column shows at which level the search configuration settings were enabled. The levels are: tenant (Tenant), site collection (SPSite), or site level (SPWeb). 
     
-[As a SharePoint Online administrator, you can export and import customized search configuration settings between tenants, site collections, and sites. The settings that you export and import include all customized query rules, result sources, result types, ranking models and site search settings. It's also possible to export customized search configuration settings from a Search service application and import the settings to tenants, site collections, or sites. You can't export the default configuration settings. ](export-and-import-search-settings.md#__top)
-  
 ## Invalid characters causing your import to fail
 <a name="__toc351540665"> </a>
 
@@ -221,6 +207,4 @@ If managed properties or aliases contain any of the listed characters, the impor
 |\'  <br/> |escape sequence  <br/> |
 |\"  <br/> |escape sequence  <br/> |
    
-[As a SharePoint Online administrator, you can export and import customized search configuration settings between tenants, site collections, and sites. The settings that you export and import include all customized query rules, result sources, result types, ranking models and site search settings. It's also possible to export customized search configuration settings from a Search service application and import the settings to tenants, site collections, or sites. You can't export the default configuration settings. ](export-and-import-search-settings.md#__top)
-  
 

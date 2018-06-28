@@ -3,7 +3,7 @@ title: "Network utilization planning for the OneDrive sync client"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 5/21/2018
+ms.date: 6/21/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: office-online-server
@@ -123,9 +123,8 @@ For info about these policies, see:
   
 [Set the maximum percentage of upload bandwidth that OneDrive.exe uses](use-group-policy.md#MaxBandwidth)
   
-## Related Topics
+## See also
 <a name="ControlSyncThroughput"> </a>
 
 [Network planning and performance tuning for Office 365](https://support.office.com/article/e5f1228c-da3c-4654-bf16-d163daee8848)
-  
 

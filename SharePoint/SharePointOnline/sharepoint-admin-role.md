@@ -56,8 +56,6 @@ Here are some of the key tasks users can do when they are assigned to the ShareP
 ## See also
 <a name="BK_KeyTasks"> </a>
 
-#### Other Resources
-
 [About Office 365 admin roles](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)
   
 [Assign admin roles in Office 365 for business](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)

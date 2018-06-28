@@ -3,7 +3,7 @@ title: "Create a site collection"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 5/18/2018
+ms.date: 6/19/2018
 ms.audience: Admin
 ms.topic: article
 f1_keywords:
@@ -41,15 +41,18 @@ SharePoint Online has several templates for classic site collections. For exampl
 2. Select the app launcher icon ![The icon that looks like a waffle and represents a button click that will reveal multiple application tiles for selection.](media/3b8a317e-13ba-4bd4-864e-1ccd47af39ee.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
 3. In the left pane, select **Resources**, and then select **Sites**.
+    
     ![Office 365 admin sites](media/d7757cbe-6531-492f-8547-e055b71d0abf.png)
   
 4. Select **Add a site**.
+    
     ![Office 365 admin center create site collection](media/3026fd12-9d34-4948-a149-fcc8de7b7d83.png)
   
     > [!NOTE]
-    > If you don't see the options above, select **Admin centers** \> **SharePoint** and then select **New** \> **Private Site Collection**.![Site Collection page with New selected](media/cf178205-b5bb-4152-a4c8-87d3099fc6ca.PNG)
+    > If you don't see the options above, select **Admin centers** \> **SharePoint** and then select **New** \> **Private Site Collection**. > ![Site Collection page with New selected](media/cf178205-b5bb-4152-a4c8-87d3099fc6ca.PNG)
   
 5. Fill out the new site collection properties:
+    
     ![New Site Collection dialog box (top half)](media/1f30a4a6-27b7-42cd-97b0-bcef2e515902.PNG)
   
   - In the **Title** box, enter a name for the site collection. 
@@ -80,8 +83,6 @@ SharePoint Online has several templates for classic site collections. For exampl
     
 ## See also
 <a name="__toc323551189_1"> </a>
-
-#### Other Resources
 
 [Enable or disable site collection features](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04)
   

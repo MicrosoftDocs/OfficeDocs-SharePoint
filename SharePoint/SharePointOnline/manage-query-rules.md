@@ -3,7 +3,7 @@ title: "Manage query rules"
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
-ms.date: 12/30/2016
+ms.date: 6/20/2018
 ms.audience: End User
 ms.topic: article
 ms.prod: office-online-server
@@ -74,7 +74,7 @@ You can create query rules at different levels: for the whole tenant, for a site
     
   - To apply the query rule to one or more specific result sources, select **One of these sources**. By default, the result source that you specified earlier is selected. To add a result source to the query rule, click **Add Source**, select a result source in the dialog box, and then click **Save**.
     
-7. To restrict the query rule to categories —for example, that a query rule should fire only when a term from your managed navigation term set is included in the query, do as follows: 
+7. To restrict the query rule to categories—for example, that a query rule should fire only when a term from your managed navigation term set is included in the query, do as follows: 
     
   - To restrict the query rule to a category, click **Add category**. In the **Import from term store** dialog box, select a term which, when you include it in a query, will cause the query rule to fire, and then click **Save**.
     
@@ -103,12 +103,12 @@ You can create query rules at different levels: for the whole tenant, for a site
 |Result Type Commonly Clicked  <br/> |The query rule fires if other users frequently clicked a particular result type after typing the same query.  <br/> |In the **Commonly clicked results match result type** list, select a result type.  <br/> |You selected **SharePoint MicroBlog Post** in the list. If users frequently click a microblog post in search results, consider configuring the most recent microblog post as the first promoted result, and the next most recent microblog post as the second promoted result (in the **Actions** section).  <br/> |
 |Advanced Query Text Match  <br/> |You want to use a phrase or a dictionary entry that causes the query rule to fire, and then define more detailed conditions for when the query rule fires.  <br/> | Enter the phrase or term that causes the query rule to fire by doing one of the following:  <br/>  Select **Query contains one of these phrases**, and type one or more phrases.  <br/>  Select **Query contains an entry in this dictionary**, and then click **Import from term store**. In the dialog box, select a term from a term set, and then click **Save**.  <br/>  Then, add more conditions by checking off options in the lists.  <br/> |You selected **Query contains one of these phrases**, and then chose **Start of query matches, but not entire query**. The query rule fires only if the phrase is at the beginning of a query, not if it's at the end.  <br/> |
    
-To add more conditions, click **Add Alternate Condition**.
+    To add more conditions, click **Add Alternate Condition**.
+    
+    > [!NOTE]
+    >  The rule fires when any condition is true. 
   
-> [!NOTE]
->  The rule fires when any condition is true. 
-  
-1. In the **Actions** section, specify the action to take when the query rule fires. Specify one of the following: 
+9. In the **Actions** section, specify the action to take when the query rule fires. Specify one of the following: 
     
   - To promote individual results so that they appear towards the top of search results, click **Add Promoted Result** (in SharePoint 2010 Products this was called Best Bets). 
     
@@ -124,12 +124,10 @@ To add more conditions, click **Add Alternate Condition**.
     
   - To change ranked search results, click **Change ranked results by changing the query**. For more information, see [Change ranked search results by changing the query](manage-query-rules.md#__toc343764780) a bit further down. 
     
-2. To make the query rule active during a particular time period, click **Publishing**, and then specify the period.
+10. To make the query rule active during a particular time period, click **Publishing**, and then specify the period.
     
-3. Click **Save**.
+11. Click **Save**.
     
-[As a SharePoint Online administrator, you can improve search results by creating and managing query rules. Query rules help searches respond to the intent of users. In a query rule, you specify conditions and associated actions. When a query meets the conditions in a query rule, the search system performs the actions specified in the rule to improve the relevance of the search results. This could be by narrowing results or changing the order in which results are displayed. For example, a query rule condition could be that a term in a query matches a particular term in a SharePoint term set, or that a query is frequently performed on a particular result source in a search system, such as videos. When the query rule condition is met, an associated action could be to show a specific item at the top of the search results. Say you have an intranet site where all company events are maintained in a library, and you want to promote a first-aid seminar. To do this, you create a query rule that boosts the first-aid seminar to the top of the search results when someone searches for "seminar" or "event."You can configure query rules for one or more result sources, and you can specify a time period for when the query rule is active. See also: Understanding query ruleshttps://support.office.com/article/8ca2588d-9dc7-45aa-90a4-428d4d695d07](manage-query-rules.md#__top)
-  
 ## Create and display a result block
 <a name="__toc343764779"> </a>
 
@@ -153,7 +151,7 @@ When you configure a query condition for a result block, you use  *query variabl
 |Keyword filter  <br/> |Use keyword filters to add query variables to your query. See [Query variables in SharePoint Server 2013](https://technet.microsoft.com/en-us/library/jj683123) for a list of available query variables.  <br/> Select predefined query variables from the list, and then add them to the query by clicking **Add keyword filter**.  <br/> |
 |Property filter  <br/> |Use property filters to query the content of managed properties that are set to queryable in the search schema.  <br/> Select managed properties from the **Property filter** list. Click **Add property filter** to add the filter to the query.  <br/> > [!NOTE]> Custom managed properties are not shown in the **Property filter** list. To add a custom managed property to your query, in the ** Query text ** box, enter the name of your custom managed property followed by the query condition, for example  *MyCustomColorProperty:Green*           |
    
-- On the **SORTING** tab, specify how you want your search results within your result block to be sorted. 
+  - On the **SORTING** tab, specify how you want your search results within your result block to be sorted. 
     
     In the **Sort results** section, in the **Sort by** list: 
     
@@ -165,7 +163,7 @@ When you configure a query condition for a result block, you use  *query variabl
     
   - In the **Dynamic ordering** section, to specify more ranking by adding rules that'll change the order of search results when certain conditions apply, click **Add dynamic ordering rule**, and then specify conditional rules.
     
-- On the **TEST** tab, you can preview the query that's sent. 
+  - On the **TEST** tab, you can preview the query that's sent. 
     
 |**Option**|**Description**|
 |:-----|:-----|
@@ -174,20 +172,18 @@ When you configure a query condition for a result block, you use  *query variabl
 |**Query template** <br/> |Shows the content of the query template that's applied to the query.  <br/> |
 |**Query template variables** <br/> |Shows the query variables that'll be applied to the query, and the values of the variables that apply to the current page. You can type other values to test the effect they'll have on the query. Click the **Test Query** button to preview the search results.  <br/> |
    
-1. Click **OK** to close the **build your query** dialog box. 
+5. Click **OK** to close the **build your query** dialog box. 
     
-2. In the **Query** section, in the **Search this Source** list, select the result source that you want the result block to be applied to. 
+6. In the **Query** section, in the **Search this Source** list, select the result source that you want the result block to be applied to. 
     
-3. In the **Items** drop-down list, select how many results to show in the result block. 
+7. In the **Items** drop-down list, select how many results to show in the result block. 
     
-4. Click to expand the **Settings** section. 
+8. Click to expand the **Settings** section. 
     
-The result block only displays the number of search results that you specified in the previous step. However, you can add a **Show more** link at the bottom of the result block that'll show all search results for the result block. To add a **Show more** link, select **"More" link goes to the following URL**, and then type a URL. You can use query variables in this URL — for example, http://www.\<site\>/search/results.aspx?k={subjectTerms}.
-  
-1. Click **OK**.
+    The result block only displays the number of search results that you specified in the previous step. However, you can add a **Show more** link at the bottom of the result block that'll show all search results for the result block. To add a **Show more** link, select **"More" link goes to the following URL**, and then type a URL. You can use query variables in this URL—for example, http://www.\<site\>/search/results.aspx?k={subjectTerms}.
     
-[As a SharePoint Online administrator, you can improve search results by creating and managing query rules. Query rules help searches respond to the intent of users. In a query rule, you specify conditions and associated actions. When a query meets the conditions in a query rule, the search system performs the actions specified in the rule to improve the relevance of the search results. This could be by narrowing results or changing the order in which results are displayed. For example, a query rule condition could be that a term in a query matches a particular term in a SharePoint term set, or that a query is frequently performed on a particular result source in a search system, such as videos. When the query rule condition is met, an associated action could be to show a specific item at the top of the search results. Say you have an intranet site where all company events are maintained in a library, and you want to promote a first-aid seminar. To do this, you create a query rule that boosts the first-aid seminar to the top of the search results when someone searches for "seminar" or "event."You can configure query rules for one or more result sources, and you can specify a time period for when the query rule is active. See also: Understanding query ruleshttps://support.office.com/article/8ca2588d-9dc7-45aa-90a4-428d4d695d07](manage-query-rules.md#__top)
-  
+9. Click **OK**.
+    
 ## Change ranked search results by changing the query
 <a name="__toc343764780"> </a>
 
@@ -205,9 +201,9 @@ The ranking model calculates a ranking order of search results. You can change t
 |Keyword filter  <br/> |Use keyword filters to add query variables to your query. See [Query variables in SharePoint Server 2013](https://technet.microsoft.com/en-us/library/jj683123) for a list of available query variables.  <br/> Select predefined query variables from the list, and then add them to the query by clicking **Add keyword filter**.  <br/> |
 |Property filter  <br/> |Use property filters to query the content of managed properties that are set to queryable in the search schema.  <br/> Select managed properties from the **Property filter** drop-down list. Click **Add property filter** to add the filter to the query.  <br/> |
    
-- On the **SORTING** tab, specify how you want your search results to be sorted: 
-  
-In the **Sort by** drop-down list: 
+3. On the **SORTING** tab, specify how you want your search results to be sorted: 
+    
+    In the **Sort by** drop-down list: 
     
   - To sort by managed properties that are set as sortable in the search schema, select a managed property from the list, and then select **Descending** or **Ascending**. To add more sorting levels, click **Add sort level**.
     
@@ -217,7 +213,7 @@ In the **Sort by** drop-down list:
     
   - In the **Dynamic ordering** section, to specify additional ranking by adding rules that'll change the order of search results when certain conditions apply, click **Add dynamic ordering rule**, and then specify conditional rules.
     
-- On the **TEST** tab, you can preview the query that's sent. 
+  - On the **TEST** tab, you can preview the query that's sent. 
     
 |**Option**|**Description**|
 |:-----|:-----|
@@ -226,12 +222,10 @@ In the **Sort by** drop-down list:
 |**Query template** <br/> |Shows the content of the query template that's applied to the query.  <br/> |
 |**Query template variables** <br/> |Shows the query variables that'll be applied to the query, and the values of the variables that apply to the current page. You can type other values to test the effect they'll have on the query. Click the **Test Query** button to preview the search results.  <br/> |
    
-1. Click **OK** to close the **Build Your Query** dialog box. 
+4. Click **OK** to close the **Build Your Query** dialog box. 
     
-2. Click **Save**.
+5. Click **Save**.
     
-[As a SharePoint Online administrator, you can improve search results by creating and managing query rules. Query rules help searches respond to the intent of users. In a query rule, you specify conditions and associated actions. When a query meets the conditions in a query rule, the search system performs the actions specified in the rule to improve the relevance of the search results. This could be by narrowing results or changing the order in which results are displayed. For example, a query rule condition could be that a term in a query matches a particular term in a SharePoint term set, or that a query is frequently performed on a particular result source in a search system, such as videos. When the query rule condition is met, an associated action could be to show a specific item at the top of the search results. Say you have an intranet site where all company events are maintained in a library, and you want to promote a first-aid seminar. To do this, you create a query rule that boosts the first-aid seminar to the top of the search results when someone searches for "seminar" or "event."You can configure query rules for one or more result sources, and you can specify a time period for when the query rule is active. See also: Understanding query ruleshttps://support.office.com/article/8ca2588d-9dc7-45aa-90a4-428d4d695d07](manage-query-rules.md#__top)
-  
 ## Make a query rule inactive on a site
 <a name="__toc343764781"> </a>
 
@@ -245,8 +239,6 @@ Query rules that are created at the tenant level are inherited by site collectio
     
 4. In the **Name** column, point to the query rule that you want to make inactive, click the arrow that appears, and then click **Make Inactive**.
     
-[As a SharePoint Online administrator, you can improve search results by creating and managing query rules. Query rules help searches respond to the intent of users. In a query rule, you specify conditions and associated actions. When a query meets the conditions in a query rule, the search system performs the actions specified in the rule to improve the relevance of the search results. This could be by narrowing results or changing the order in which results are displayed. For example, a query rule condition could be that a term in a query matches a particular term in a SharePoint term set, or that a query is frequently performed on a particular result source in a search system, such as videos. When the query rule condition is met, an associated action could be to show a specific item at the top of the search results. Say you have an intranet site where all company events are maintained in a library, and you want to promote a first-aid seminar. To do this, you create a query rule that boosts the first-aid seminar to the top of the search results when someone searches for "seminar" or "event."You can configure query rules for one or more result sources, and you can specify a time period for when the query rule is active. See also: Understanding query ruleshttps://support.office.com/article/8ca2588d-9dc7-45aa-90a4-428d4d695d07](manage-query-rules.md#__top)
-  
 ## Rank query rules for a site collection
 <a name="__toc343764782"> </a>
 
@@ -277,6 +269,4 @@ When multiple query rules are active for a tenant, a site collection, or a site,
     
 2. To prevent query rules that are ranked lowest in the group from firing, go to the row for the group's query rule that should fire last, and then in the **Actions** column, in the **Continue/Stop** list, select **Stop**.
     
-[As a SharePoint Online administrator, you can improve search results by creating and managing query rules. Query rules help searches respond to the intent of users. In a query rule, you specify conditions and associated actions. When a query meets the conditions in a query rule, the search system performs the actions specified in the rule to improve the relevance of the search results. This could be by narrowing results or changing the order in which results are displayed. For example, a query rule condition could be that a term in a query matches a particular term in a SharePoint term set, or that a query is frequently performed on a particular result source in a search system, such as videos. When the query rule condition is met, an associated action could be to show a specific item at the top of the search results. Say you have an intranet site where all company events are maintained in a library, and you want to promote a first-aid seminar. To do this, you create a query rule that boosts the first-aid seminar to the top of the search results when someone searches for "seminar" or "event."You can configure query rules for one or more result sources, and you can specify a time period for when the query rule is active. See also: Understanding query ruleshttps://support.office.com/article/8ca2588d-9dc7-45aa-90a4-428d4d695d07](manage-query-rules.md#__top)
-  
 

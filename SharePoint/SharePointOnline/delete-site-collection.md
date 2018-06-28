@@ -63,7 +63,5 @@ To delete a group-connected team site, you need to delete the group.
 ## See also
 <a name="__toc323551190"> </a>
 
-#### Other Resources
-
 [Restore deleted items from the site collection recycle bin ](https://support.office.com/article/5fa924ee-16d7-487b-9a0a-021b9062d14b)
 

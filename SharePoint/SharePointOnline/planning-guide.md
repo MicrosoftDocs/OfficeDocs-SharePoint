@@ -3,7 +3,7 @@ title: "SharePoint Online planning guide"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 5/22/2018
+ms.date: 6/25/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -92,7 +92,7 @@ For information about how users can share content, see [Share SharePoint files o
 ### Protect content with Information Rights Management (IRM)
 <a name="__protect_content_with"> </a>
 
-SharePoint Online IRM uses Microsoft Azure Active Directory Rights Management Services (RMS), an information protection technology in Office 365. Information Rights Management (IRM) protection can be applied to files in SharePoint lists and libraries. To learn more, read [What is Microsoft Azure Active Directory Rights Management?](https://docs.microsoft.com/en-us/information-protection/understand-explore/what-is-azure-rms)
+SharePoint Online IRM uses Microsoft Azure Active Directory Rights Management Services (RMS), an information protection technology in Office 365. Information Rights Management (IRM) protection can be applied to files in SharePoint lists and libraries. To learn more, read [What is Microsoft Azure Active Directory Rights Management?](https://go.microsoft.com/fwlink/?linkid=2003562)
   
 When IRM has been enabled for a list or library, files are encrypted so that only authorized people can view them or take specific actions on them. Each rights-managed file also contains an issuance license that imposes restrictions on the people who view the file. Typical restrictions include making a file read-only, disabling the copying of text, preventing people from saving a local copy, and preventing people from printing the file. Client programs that can read IRM-supported file types use the issuance license within the rights-managed file to enforce these restrictions. This is how a rights-managed file retains its protection even after it is downloaded.
   

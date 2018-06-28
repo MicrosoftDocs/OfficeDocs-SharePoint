@@ -40,7 +40,7 @@ A folksonomy is an informal classification system. It is evolves gradually as we
   
 If you have ever seen a tag cloud on a website, then you have seen a visualization of a folksonomy. The following figure shows a tag cloud on a SharePoint site. 
   
-![Tag cloud](media/d3a39ddb-b808-4531-9632-243c980e5ee3.jpg)
+![Tag cloud](media/d3a39ddb-b808-4531-9632-243c980e5ee3.png)
   
 A folksonomy-based approach to metadata can be useful. It creates a way to share the knowledge and expertise of site users. By using a folksonomy, content classification can evolve together with changing business needs and user interests.
   
@@ -139,7 +139,7 @@ SharePoint products enable organizations to combine the advantages of formal, ma
   
 The following diagram shows how different requirements might use different levels of scope and control.
   
-![Flexible managed metadata configurations](media/d1eb14a8-2ebe-4955-bb0c-ce3b5ffe6190.jpg)
+![Flexible managed metadata configurations](media/d1eb14a8-2ebe-4955-bb0c-ce3b5ffe6190.png)
   
 ## Benefits of managed metadata
 <a name="__toc262648168"> </a>
@@ -158,7 +158,7 @@ When the same terms are used consistently across sites, it is easier to build ro
 
 When the content across sites in an organization has consistent metadata, it is easier to find business information and data by using search. Search features such as the refinement panel, which displays on the left-hand side of the search results page, enable users to filter search results based on metadata.
   
-![The refinement panel displays metadata that can be used to filter search results.](media/a59edf28-c158-4ee3-8b6c-404546049bb8.jpg)
+![The refinement panel displays metadata that can be used to filter search results.](media/a59edf28-c158-4ee3-8b6c-404546049bb8.png)
   
 ### Metadata navigation for lists and libraries
 <a name="__migbm_11"> </a>
@@ -207,7 +207,7 @@ If your organization wants to use managed term sets to implement formal taxonomi
     
 2. Click **Term store management** under **Site Administration**.
     
-    ![The Term Store Management Tool dialog box.](media/ba6c6939-f19a-4808-9156-499b05af5380.PNG)
+    ![The Term Store Management Tool dialog box.](media/ba6c6939-f19a-4808-9156-499b05af5380.png)
   
 ### Managing terms, term sets, and groups
 <a name="__toc262648181"> </a>
@@ -224,13 +224,13 @@ To take actions on an item in the hierarchy, follow these steps.
     
 For example, if you are a Term Store Administrator or a Group Manager you can create, import, or delete term sets in a group. Term set contributors can create new term sets.
   
-![Term Store Management tool has level-appropriate menus at each level of hierarchy](media/5f52c05c-8f5d-4786-8c51-8691e4d7911f.jpg)
+![Term Store Management tool has level-appropriate menus at each level of hierarchy](media/5f52c05c-8f5d-4786-8c51-8691e4d7911f.png)
   
 ### Properties for terms and term sets
 <a name="__toc325103946"> </a>
 
 At each level of the hierarchy, you can configure specific properties for a group, term set, or term by using the properties pane in the Term Store Management Tool. For example, if you are configuring a term set, you can specify information such as Name, Description, Owner, Contact, and Stakeholders in pane available on the **General** tab. You can also specify whether you want a term set to be open or closed to new submissions from users. Or, you can choose the **Intended Use** tab, and specify whether the term set should be available for tagging or site navigation. 
   
-![Term Store properties let you configure settings such as tagging](media/d2dc3643-9d66-4e74-8609-c12663436157.jpg)
+![Term Store properties let you configure settings such as tagging](media/d2dc3643-9d66-4e74-8609-c12663436157.png)
   
 

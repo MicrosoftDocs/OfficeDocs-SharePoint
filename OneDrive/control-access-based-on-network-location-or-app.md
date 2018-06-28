@@ -3,7 +3,7 @@ title: "Control access based on network location or app"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 6/1/2017
+ms.date: 6/21/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
@@ -47,8 +47,6 @@ Some third-party apps and versions of Office prior to Office 2013 don't use mode
 2. Click **Save**.
     
 ## See also
-
-#### Other Resources
 
 [Manage OneDrive for Business mobile access](control-access-to-mobile-app-features.md)
   

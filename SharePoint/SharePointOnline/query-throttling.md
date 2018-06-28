@@ -3,7 +3,7 @@ title: "Manage query client types"
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
-ms.date: 4/5/2018
+ms.date: 6/20/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
@@ -29,7 +29,8 @@ The client sets the client type as a label in the query. The administrator confi
 ## Add a query client type
 <a name="__top"> </a>
 
-Note: You can change the name of a client type that has been created for your tenant only.
+> [!NOTE]
+> You can change the name of a client type that has been created for your tenant only. 
   
 1. Sign in to the Office 365 Admin Center as a search administrator.
     
@@ -45,10 +46,10 @@ Note: You can change the name of a client type that has been created for your te
     
 7. Choose **Top**, **Middle** or **Bottom** from the **Throttling Tier** list. 
     
-> [!NOTE]
->  Lower priority queries are throttled first. The search system processes queries from top tier to bottom tier. 
+    > [!NOTE]
+    >  Lower priority queries are throttled first. The search system processes queries from top tier to bottom tier. 
   
-1. Click **OK**.
+8. Click **OK**.
     
 ## Prioritize a client query type
 <a name="__top"> </a>
@@ -67,9 +68,9 @@ You can use throttling tiers to prioritize query processing. When the resource l
     
 6. Choose **Top**, **Middle** or **Bottom** from the **Throttling Tier** list. 
     
-> [!NOTE]
->  Lower priority queries are throttled first. The search system processes queries from top tier to bottom tier. 
+    > [!NOTE]
+    >  Lower priority queries are throttled first. The search system processes queries from top tier to bottom tier. 
   
-1. Click **OK**.
+7. Click **OK**.
     
 

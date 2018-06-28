@@ -3,7 +3,7 @@ title: "Let users sync SharePoint files with the new OneDrive sync client"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 5/22/2018
+ms.date: 6/20/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
@@ -106,11 +106,13 @@ See [Deploy and configure the new OneDrive sync client for Mac](https://support.
 4. In the left pane, click **settings**.
     
 5. Make sure "OneDrive Sync Button" is set to "Show the Sync button."
+    
     ![Admin settings for OneDrive sync button](media/66be619a-fec1-4719-a819-7e3fa6e222f1.PNG)
   
     To sync SharePoint files with the new client, you must also sync OneDrive files with the new client.
     
 6. For "Sync Client for SharePoint," select **Start the new client**.
+    
     ![Admin setting for OneDrive sync client](media/894772b5-3e43-4a60-9887-99aca47a261c.PNG)
   
     > [!NOTE]
@@ -120,9 +122,8 @@ See [Deploy and configure the new OneDrive sync client for Mac](https://support.
     
     These changes take several hours to propagate. To check that they've propagated, go to a SharePoint Online site and click **Sync**. In the browser dialog box that confirms the request to open a program, the "Program" should appear as "Microsoft OneDrive" and the "Address" should start with "odopen://"
     
-## Related Topics
+## See also
 <a name="admincenter"> </a>
 
 [Sync SharePoint files with the new OneDrive sync client](https://support.office.com/article/6de9ede8-5b6e-4503-80b2-6190f3354a88)
-  
 

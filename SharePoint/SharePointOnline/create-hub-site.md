@@ -3,7 +3,7 @@ title: "Create a hub site in SharePoint Online"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 6/2/2018
+ms.date: 6/19/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
@@ -38,12 +38,9 @@ If you're a global or SharePoint admin in Office 365, you can convert any existi
     
 5. When prompted with **Principals[0]**, provide the group created in step 3, or the UPN of an individual user. You can enter additional principals, one per line. Once you are finished assigning permissions, press Enter. If you want all site owners in the organization to be able to associate their sites with the hub, press Enter at the first prompt.﻿ 
     
-    Note: To restrict permission to associate sites to the hub after creation, run the following command:
-    
-    Grant-SPOHubSiteRights -Identity -Principals GroupEmail -Rights Join
-    
-    (Where Identity is the URL of the site and GroupEmail is the email address of the mail-enabled security group.) 
-    
+    > [!NOTE]
+    > To restrict permission to associate sites to the hub after creation, run the following command: >  `Grant-SPOHubSiteRights -Identity -Principals GroupEmail -Rights Join`> (Where  *Identity*  is the URL of the site and  *GroupEmail*  is the email address of the mail-enabled security group.) 
+  
 6. Notify the hub site owners that their site has been converted to a hub site.
     
 ## More info
@@ -54,8 +51,7 @@ If you're a global or SharePoint admin in Office 365, you can convert any existi
     
 - For info about how site owners can customize hub sites, see [Set up your SharePoint hub site](https://support.office.com/article/e2daed64-658c-4462-aeaf-7d1a92eba098).
     
-## See Also
+## See also
 
 [Remove a hub site](remove-hub-site.md)
-  
 
