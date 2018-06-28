@@ -1,9 +1,9 @@
 ---
-title: "Planning for a MinRole server deployment in SharePoint Server 2016"
+title: "Planning for a MinRole server deployment in SharePoint Server 2016 and 2019"
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
-ms.date: 3/7/2018
+ms.date: 7/24/2018
 ms.audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
@@ -13,14 +13,14 @@ ms.collection:
 - Strat_SP_server
 ms.custom: 
 ms.assetid: 9fc3a696-b2cb-435c-8199-7048953ec609
-description: "Summary: Learn about planning your SharePoint farm deployment using MinRole . MinRole helps administrators select the right server role when provisioning SharePoint Server 2016."
+description: "Summary: Learn about planning your SharePoint farm deployment using MinRole . MinRole helps administrators select the right server role when provisioning SharePoint Server 2016 and 2019."
 ---
 
-# Planning for a MinRole server deployment in SharePoint Server 2016
+# Planning for a MinRole server deployment in SharePoint Server 2016 and 2019
 
- **Summary:** Learn about planning your SharePoint farm deployment using **MinRole**. MinRole helps administrators select the right server role when provisioning SharePoint Server 2016. 
+ **Summary:** Learn about planning your SharePoint farm deployment using **MinRole**. MinRole helps administrators select the right server role when provisioning SharePoint Server 2016 and 2019. 
   
-## Server roles in SharePoint Server 2016
+## Server roles in SharePoint Server 2016 and 2019
 
 There are eight pre-defined server roles in 3 categories﻿ you can choose from in SharePoint Server 2016. Read more about the roles and their descriptions in the following tables:
   
@@ -95,7 +95,7 @@ Refer to the table below for the list of recommended MinRole content farm topolo
 
 Use the following methods to create a new farm or join servers to an existing farm with MinRole:
   
-- SharePoint 2016 Products Configuration Wizard (PSConfigUI.exe)
+- SharePoint Products Configuration Wizard (PSConfigUI.exe)
     
 - PSConfig.exe command line tool
     
@@ -123,9 +123,9 @@ The **ServerRoleOptional** parameter configures the farm not to require a server
   
 You can deploy your servers in a farm in any order you want. Any server role can be the first server in your farm.
   
-#### SharePoint 2016 Products Configuration Wizard
+#### SharePoint Products Configuration Wizard
 
-When you create a new farm or join a server to an existing farm by using the SharePoint 2016 Products Configuration Wizard, a new form is displayed in the wizard. This form provides a description of each server role, and you can use it to select the role of this server. The server role radio button will be disabled for roles that are not available in this farm.
+When you create a new farm or join a server to an existing farm by using the SharePoint Products Configuration Wizard, a new form is displayed in the wizard. This form provides a description of each server role, and you can use it to select the role of this server. The server role radio button will be disabled for roles that are not available in this farm.
   
 ![Displays PSConfig dialog box with shared roles](../media/dea8528b-e903-4cc9-a698-25d203a91229.png)
   
@@ -135,11 +135,11 @@ The first server in the farm will host the SharePoint Central Administration web
   
 - From the SharePoint Central Administration website, go to the **Services on Server** page. 
     
-- The **New-SPCentralAdministration** and **Remove-SPCentralAdministration** Windows PowerShell cmdlets. 
+- The **New-SPCentralAdministration** and **Remove-SPCentralAdministration**  PowerShell cmdlets. 
     
 - The **psconfig.exe -cmd adminvs** command. 
     
-- The **SharePoint 2016 Products Configuration Wizard** user interface. 
+- The **SharePoint Products Configuration Wizard** user interface. 
     
 The state of Central Administration will not affect whether a server is considered compliant with MinRole.
   
@@ -163,12 +163,12 @@ The farm administrator should configure Search to crawl web applications using t
   
 ### Converting Single-Server Farm into a multiple server farm
 
-You can convert a single-server farm into a multiple-server farm. To do this, use the role conversion feature. For additional information about how to change a server role, see [Role conversion using MinRole in SharePoint Server 2016](../administration/role-conversion-using-minrole-in-sharepoint-server-2016.md).
+You can convert a single-server farm into a multiple-server farm. To do this, use the role conversion feature. For additional information about how to change a server role, see [Role conversion using MinRole in SharePoint Server 2016 and 2019](../administration/role-conversion-using-minrole-in-sharepoint-server-2016.md).
   
 ## Opting out of MinRole
 <a name="opt"> </a>
 
-SharePoint Server 2016 supports the backward compatible behavior of previous SharePoint releases with the Custom server role. SharePoint farm administrators can directly manage service instances on individual servers assigned to the Custom role. MinRole won't attempt to manage servers assigned to the Custom role. You can assign zero, some, or all servers in a farm to the Custom role.
+SharePoint Server 2016 and 2019 supports the backward compatible behavior of previous SharePoint releases with the Custom server role. SharePoint farm administrators can directly manage service instances on individual servers assigned to the Custom role. MinRole won't attempt to manage servers assigned to the Custom role. You can assign zero, some, or all servers in a farm to the Custom role.
   
 If you have existing deployment scripts that you do not want to modify to support MinRole, you can specify the **ServerRoleOptional** parameter when you create a new SharePoint farm by using the PSConfig.exe command-line tool or PowerShell. This parameter configures the farm to not require a server role to be specified. If no server role is specified, the server defaults to the Custom role. 
   
@@ -179,10 +179,11 @@ If you have existing deployment scripts that you do not want to modify to suppor
 
 [SharePoint Server 2016 zero downtime patching steps](../upgrade-and-update/sharepoint-server-2016-zero-downtime-patching-steps.md)
   
-[Overview of MinRole Server Roles in SharePoint Server 2016](overview-of-minrole-server-roles-in-sharepoint-server-2016.md)
+[Overview of MinRole Server Roles in SharePoint Server 2016 and 2019
+](overview-of-minrole-server-roles-in-sharepoint-server-2016.md)
   
-[Description of MinRole and associated services in SharePoint Server 2016](../administration/description-of-minrole-and-associated-services-in-sharepoint-server-2016.md)
+[Description of MinRole and associated services in SharePoint Server 2016 and 2019](../administration/description-of-minrole-and-associated-services-in-sharepoint-server-2016.md)
 #### Other Resources
 
-[Managing a MinRole Server Farm in SharePoint Server 2016](../administration/managing-a-minrole-server-farm-in-sharepoint-server-2016.md)
+[Managing a MinRole Server Farm in SharePoint Server 2016 and 2019](../administration/managing-a-minrole-server-farm-in-sharepoint-server-2016.md)
 

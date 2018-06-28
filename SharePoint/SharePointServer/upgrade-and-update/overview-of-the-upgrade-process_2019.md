@@ -42,7 +42,7 @@ Before you attach and upgrade the content databases, review the following inform
 
 ![Stages in upgrade process for SharePoint 2019](../media/SP2019UpgradeStages.png)
   
-This article helps you understand the upgrade sequence so that you can plan an upgrade project. To get detailed steps for an upgrade, see [Upgrade databases from SharePoint 2016 to SharePoint Server 2019](upgrade-databases.md) and [Upgrade site collections to SharePoint Server 2019](upgrade-site-collections.md).
+This article helps you understand the upgrade sequence so that you can plan an upgrade project. To get detailed steps for an upgrade, see [Upgrade databases from SharePoint 2016 to SharePoint Server 2019](upgrade-databases.md) and [Upgrade site collections to SharePoint Server 2019](upgrade-site-collections_2019.md).
   
 ## Create the SharePoint Server 2019 farm
 <a name="CreateFarm"> </a>
@@ -105,9 +105,9 @@ The third stage in the upgrade process upgrades the databases and service applic
   
 4. A server farm administrator then attaches the content databases to the new farm and upgrades the content databases for those web applications.
     
-   **Figure: Upgrade the databases by using Windows PowerShell**
+   **Figure: Upgrade the databases by using Microsoft PowerShell**
 
-     ![Upgrade the databases with Windows PowerShell](../media/UpgradeContentDatabases_SP2019.png)
+     ![Upgrade the databases with Microsoft PowerShell](../media/UpgradeContentDatabases_SP2019.png)
   
 5. A server farm administrator confirms that the upgrade is successful.
     
@@ -137,14 +137,14 @@ A server farm administrator upgrades the My Site host and then individual users 
 4. All My Sites have been upgraded.
     
 > [!NOTE]
-> A server farm administrator can choose to force an upgrade of My Sites without waiting for users to upgrade them. For details and steps, read [Upgrade site collections to SharePoint Server 2019](upgrade-site-collections.md). 
+> A server farm administrator can choose to force an upgrade of My Sites without waiting for users to upgrade them. For details and steps, read [Upgrade site collections to SharePoint Server 2019](upgrade-site-collections_2019.md). 
   
 ### Upgrade other SharePoint Server 2016 site collections
 <a name="SiteCollections"> </a>
 
-For information about how to upgrade a site collection, see [Upgrade site collections to SharePoint Server 2019](upgrade-site-collections.md).
+For information about how to upgrade a site collection, see [Upgrade site collections to SharePoint Server 2019](upgrade-site-collections_2019.md).
   
 > [!NOTE]
-> A server farm administrator can also force specific site collections to be upgraded without waiting for the site owners to upgrade them. For details and steps, read [Upgrade site collections to SharePoint Server 2019](upgrade-site-collections.md). 
+> A server farm administrator can also force specific site collections to be upgraded without waiting for the site owners to upgrade them. For details and steps, read [Upgrade site collections to SharePoint Server 2019](upgrade-site-collections_2019.md). 
   
 
