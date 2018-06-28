@@ -2,7 +2,7 @@
   
 
 # [OneDrive](onedrive.md)
-## [get-started](.md)
+## [Get started]()
 ### [Enterprise deployment]()
 ## [Sync]()
 ### [Prevent installation](prevent-installation.md)
