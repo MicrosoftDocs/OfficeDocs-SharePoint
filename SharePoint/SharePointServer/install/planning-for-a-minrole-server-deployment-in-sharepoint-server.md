@@ -13,16 +13,16 @@ ms.collection:
 - Strat_SP_server
 ms.custom: 
 ms.assetid: 9fc3a696-b2cb-435c-8199-7048953ec609
-description: "Summary: Learn about planning your SharePoint farm deployment using MinRole . MinRole helps administrators select the right server role when provisioning SharePoint Server 2016 and 2019."
+description: "Summary: Learn about planning your SharePoint farm deployment using MinRole . MinRole helps administrators select the right server role when provisioning SharePoint Servers 2016 and 2019."
 ---
 
-# Planning for a MinRole server deployment in SharePoint Server 2016 and 2019
+# Planning for a MinRole server deployment in SharePoint Servers 2016 and 2019
 
- **Summary:** Learn about planning your SharePoint farm deployment using **MinRole**. MinRole helps administrators select the right server role when provisioning SharePoint Server 2016 and 2019. 
+ **Summary:** Learn about planning your SharePoint farm deployment using **MinRole**. MinRole helps administrators select the right server role when provisioning SharePoint Servers 2016 and 2019. 
   
-## Server roles in SharePoint Server 2016 and 2019
+## Server roles in SharePoint Servers 2016 and 2019
 
-There are eight pre-defined server roles in 3 categories﻿ you can choose from in SharePoint Server 2016. Read more about the roles and their descriptions in the following tables:
+There are eight pre-defined server roles in 3 categories﻿ you can choose from in SharePoint Servers 2016 and 2019. Read more about the roles and their descriptions in the following tables:
   
  **Dedicated Roles:** Dedicated roles are optimized for performance and scalability and are typically used in large scale farms. They can also be used in medium scale farms with shared roles. 
   
@@ -30,9 +30,9 @@ There are eight pre-defined server roles in 3 categories﻿ you can choose from 
 |:-----|:-----|:-----|
 |**Server Role** <br/> |**Description** <br/> |**Notes** <br/> |
 |Front-end  <br/> |Service applications, services, and components that serve user requests belong on a Front-end server. These servers are optimized for high performance.  <br/> |The Application server and the Front-end server roles host a similar set of services. However, each role serves a different purpose. The Front-end role is performance-sensitive and optimized for serving user traffic by running service instances appropriate for user requests on the local server. It's normal for the Front-end server role to ﻿run service instances that would have been hosted on the Application server role in previous versions.  <br/> |
-|Application  <br/> |Service applications, services, and components that serve back-end requests, such as search crawl requests, belong on an Application server. These servers are optimized for high throughput.  <br/> |The use of the term "Application server" in SharePoint Server 2016 has a different meaning from the common use of the term in previous versions. In previous versions of SharePoint, the Application server typically hosted service application endpoints that Front-end servers would call while serving user requests. In SharePoint Server 2016, the Application server role runs background ﻿tasks such as Timer jobs, and can be the target for search crawl requests.  <br/> |
+|Application  <br/> |Service applications, services, and components that serve back-end requests, such as search crawl requests, belong on an Application server. These servers are optimized for high throughput.  <br/> |The use of the term "Application server" in SharePoint Server 2016 has a different meaning from the common use of the term in previous versions. In previous versions of SharePoint, the Application server typically hosted service application endpoints that Front-end servers would call while serving user requests. In SharePoint Servers 2016 and 2019, the Application server role runs background ﻿tasks such as Timer jobs, and can be the target for search crawl requests.  <br/> |
 |Distributed Cache  <br/> |Service applications, services, and components that are required for a distributed cache belong on a Distributed Cache server.  <br/> |Distributed Cache doesn't support High Availability the way that other services do. While you can have multiple Distributed Cache servers in your SharePoint farm to help distribute the load, the data cached on each Distributed Cache server is not replicated to the other Distributed Cache servers. If a Distributed Cache server unexpectedly goes down, the data cached in that server will be lost.  <br/> |
-|Search  <br/> |Service applications, services, and components that are required for search belong on a Search server.  <br/> |Once a server is assigned to the Search role, it must then be configured in Search topology management. For more information about Search topology, see [Manage the search topology in SharePoint Server 2016](https://technet.microsoft.com/library/a2420e0a-bc3d-4a07-b7b9-f44c7a74ade1%28v=office.16%29.aspx) .  <br/> |
+|Search  <br/> |Service applications, services, and components that are required for search belong on a Search server.  <br/> |Once a server is assigned to the Search role, it must then be configured in Search topology management. For more information about Search topology, see [Manage the search topology in SharePoint Server](https://docs.microsoft.com/en-us/SharePoint/search/manage-the-search-topology) .  <br/> |
    
  **Shared Roles:** Shared roles are optimized for fewer servers in a farm by combining dedicated roles together. They can also be used in medium scale farms with dedicated roles. Shared roles may require higher available system resources because they are running more services. 
   
@@ -127,7 +127,11 @@ You can deploy your servers in a farm in any order you want. Any server role can
 
 When you create a new farm or join a server to an existing farm by using the SharePoint Products Configuration Wizard, a new form is displayed in the wizard. This form provides a description of each server role, and you can use it to select the role of this server. The server role radio button will be disabled for roles that are not available in this farm.
   
-![Displays PSConfig dialog box with shared roles](../media/dea8528b-e903-4cc9-a698-25d203a91229.png)
+![Displays PSConfig dialog box with shared roles in SharePoint Server 2016](../media/dea8528b-e903-4cc9-a698-25d203a91229.png)
+
+![Displays PSConfig dialog box with shared roles in SharePoint Server 2019](../media/PSConfig MinRole_2019.png)
+
+
   
 ### Deploying the SharePoint Central Administration website
 
