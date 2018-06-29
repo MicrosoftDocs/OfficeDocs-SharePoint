@@ -55,10 +55,10 @@ The custom tile feature is not enabled by default. To enable the feature, do the
   ```
 
     > [!NOTE]
-    > If the feature is not available, then you'll need to run the command: 
+    > If the feature is not available, then ensure your SharePoint farm is patched with at least Feature Pack 1 which means your patch version should be at 16.0.4456.1004 or later. You can check this by running:
   
   ```
-  Install-SPFeature -Path <path to CustomTiles>
+(Get-SPFarm).BuildVersion
   ```
 
 6. To enable the feature, at the PowerShell command prompt, type the following command:
