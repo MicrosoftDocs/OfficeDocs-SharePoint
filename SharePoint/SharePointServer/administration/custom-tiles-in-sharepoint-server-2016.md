@@ -136,7 +136,7 @@ From a PowerShell command prompt, type the follow commands:
 ```
 $web = get-spweb "http://web_app"
 $list = $web.Lists["Custom Tiles"]
-$list .hidden = $false
+$list.hidden = $false
 $list.update()
 ```
 
