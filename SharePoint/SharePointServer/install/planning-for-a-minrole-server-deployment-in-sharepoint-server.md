@@ -129,15 +129,15 @@ When you create a new farm or join a server to an existing farm by using the Sha
   
 ![Displays PSConfig dialog box with shared roles in SharePoint Server 2016](../media/dea8528b-e903-4cc9-a698-25d203a91229.png)
 
-![Displays PSConfig dialog box with shared roles in SharePoint Server 2019](../media/PSConfig MinRole_2019.png)
+![Displays PSConfig dialog box with shared roles in SharePoint Server 2019](../media/PSConfigMinRole_2019.png)
 
 
   
-### Deploying the SharePoint Central Administration website
+### Deploying the SharePoint Central Administration web site
 
-The first server in the farm will host the SharePoint Central Administration website by default. Additional servers will not host the Central Administration web site by default. You can start or stop Central Administration on individual servers in the farm regardless of their server role by using any one of these steps:
+The first server in the farm will host the SharePoint Central Administration web site by default. Additional servers will not host the Central Administration web site by default. You can start or stop Central Administration on individual servers in the farm regardless of their server role by using any one of these steps:
   
-- From the SharePoint Central Administration website, go to the **Services on Server** page. 
+- From the SharePoint Central Administration web site, go to the **Services on Server** page. 
     
 - The **New-SPCentralAdministration** and **Remove-SPCentralAdministration**  PowerShell cmdlets. 
     
@@ -167,12 +167,12 @@ The farm administrator should configure Search to crawl web applications using t
   
 ### Converting Single-Server Farm into a multiple server farm
 
-You can convert a single-server farm into a multiple-server farm. To do this, use the role conversion feature. For additional information about how to change a server role, see [Role conversion using MinRole in SharePoint Server 2016 and 2019](../administration/role-conversion-using-minrole-in-sharepoint-server-2016.md).
+You can convert a single-server farm into a multiple-server farm. To do this, use the role conversion feature. For additional information about how to change a server role, see [Role conversion using MinRole in SharePoint Servers 2016 and 2019](../administration/role-conversion-using-minrole-in-sharepoint-server-2016.md).
   
 ## Opting out of MinRole
 <a name="opt"> </a>
 
-SharePoint Server 2016 and 2019 supports the backward compatible behavior of previous SharePoint releases with the Custom server role. SharePoint farm administrators can directly manage service instances on individual servers assigned to the Custom role. MinRole won't attempt to manage servers assigned to the Custom role. You can assign zero, some, or all servers in a farm to the Custom role.
+SharePoint Servers 2016 and 2019 supports the backward compatible behavior of previous SharePoint releases with the Custom server role. SharePoint farm administrators can directly manage service instances on individual servers assigned to the Custom role. MinRole won't attempt to manage servers assigned to the Custom role. You can assign zero, some, or all servers in a farm to the Custom role.
   
 If you have existing deployment scripts that you do not want to modify to support MinRole, you can specify the **ServerRoleOptional** parameter when you create a new SharePoint farm by using the PSConfig.exe command-line tool or PowerShell. This parameter configures the farm to not require a server role to be specified. If no server role is specified, the server defaults to the Custom role. 
   
@@ -186,8 +186,8 @@ If you have existing deployment scripts that you do not want to modify to suppor
 [Overview of MinRole Server Roles in SharePoint Server 2016 and 2019
 ](overview-of-minrole-server-roles-in-sharepoint-server-2016.md)
   
-[Description of MinRole and associated services in SharePoint Server 2016 and 2019](../administration/description-of-minrole-and-associated-services-in-sharepoint-server-2016.md)
+[Description of MinRole and associated services in SharePoint Servers 2016 and 2019](../administration/description-of-minrole-and-associated-services-in-sharepoint-server-2016.md)
 #### Other Resources
 
-[Managing a MinRole Server Farm in SharePoint Server 2016 and 2019](../administration/managing-a-minrole-server-farm-in-sharepoint-server-2016.md)
+[Managing a MinRole Server Farm in SharePoint Servers 2016 and 2019](../administration/managing-a-minrole-server-farm-in-sharepoint-server-2016.md)
 
