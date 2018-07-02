@@ -82,7 +82,7 @@ Specifically, the following service application databases can be upgraded:
 |Secure Store  <br/> |Secure_Store_Service_DB_\<GUID\>  <br/> |
 |User Profile: Profile and Social databases  <br/> |User Profile Service Application_ProfileDB_\<GUID\>  <br/> User Profile Service Application_SocialDB_\<GUID\>  <br/> User Profile Service Application_SyncDB_\<GUID\>  <br/> |
    
-The steps to upgrade these service application databases are included in [Upgrade service applications to SharePoint Server 2019](https://technet.microsoft.com/en-us/library/jj839719%28v=office.16%29.aspx).
+The steps to upgrade these service application databases are included in [Upgrade service applications to SharePoint Server 2019](upgrade-service-applications-to-sharepoint-server-2019.md).
   
 ## Considerations for specific services
 <a name="Considerations"> </a>
@@ -102,7 +102,7 @@ The following services in SharePoint Server 2016 also require additional steps t
 
 #### Concepts
 
-[Overview of the upgrade process to SharePoint Server 2016](overview-of-the-upgrade-process.md)
+[Overview of the upgrade process to SharePoint Server 2019](overview-of-the-upgrade-process_2019.md)
   
-[Upgrade content databases to SharePoint Server 2016](upgrade-content-databases.md)
+[Upgrade content databases to SharePoint Server 2019](upgrade-content-databases_2019.md)
 

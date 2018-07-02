@@ -29,14 +29,14 @@ When you upgrade from SharePoint Server 2016 to SharePoint Server 2019, you must
 |||
 |:-----|:-----|
 |![123 steps](../media/mod_icon_howTo_numeric_M.png)|This is the first phase in the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019. The process includes the following phases that must be completed in order:  <li/> Create the SharePoint Server 2019 farm for a database attach upgrade  (this phase). <li/> Copy databases to the new farm for upgrade to SharePoint Server 2019. <li/>Upgrade service applications to SharePoint Server 2019. <li/>Upgrade content databases to SharePoint Server 2019.
-For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server 2019](overview-of-the-upgrade-process 2019.md) .<br/> |
+<br/>For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server 2019](overview-of-the-upgrade-process_2019.md). |
    
 ## Before you begin
 <a name="begin"> </a>
 
 Before you create the SharePoint Server 2019 farm, review the following information and take any recommended actions.
   
-- Make sure that the hardware and software that you are using meets the requirements in [Hardware and software requirements for SharePoint Server 2019](../install/hardware-and-software-requirements.md).
+- Make sure that the hardware and software that you are using meets the requirements in [Hardware and software requirements for SharePoint Server 2019](../install/hardware-and-software-requirements-2019.md).
     
 - Make sure that you have appropriately planned your logical and physical architecture to support the features and functionality that you want in the SharePoint Server 2016 farm. 
     

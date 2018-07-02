@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 55b99d80-3fa7-49f0-bdf4-adb5aa959019
-description: "Summary: Learn about the permissions and security settings to use with a deployment of SharePoint Server 2016."
+description: "Summary: Learn about the permissions and security settings to use with a deployment of SharePoint Servers 2016 and 2019."
 ---
 
-# Account permissions and security settings in SharePoint Server 2016
+# Account permissions and security settings in SharePoint Servers 2016 and 2019
 
- **Summary:** Learn about the permissions and security settings to use with a deployment of SharePoint Server 2016. 
+ **Summary:** Learn about the permissions and security settings to use with a deployment of SharePoint Servers 2016 and 2019. 
   
 This article describes SharePoint administrative and services account permissions for the following areas: Microsoft SQL Server, the file system, file shares, and registry entries.
   
@@ -25,7 +25,7 @@ This article describes SharePoint administrative and services account permission
 > Do not use service account names that contain the symbol $. 
   
     
-## About account permissions and security settings in SharePoint Server 2016
+## About account permissions and security settings in SharePoint Servers 2016 and 2019
 <a name="Section1"> </a>
 
 The SharePoint Products Configuration Wizard (Psconfig) and the Farm Configuration Wizard, both of which are run during a complete installation, configure many of the SharePoint baseline account permissions and security settings.

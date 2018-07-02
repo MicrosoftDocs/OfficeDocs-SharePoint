@@ -143,6 +143,8 @@ The Microsoft SharePoint Products Preparation Tool installs the following prereq
 - Windows Server AppFabric 1.1
     
 - Cumulative Update Package 7 for Microsoft AppFabric 1.1 for Windows Server (KB 3092423)
+
+- Visual C++ Redistributable Package for Visual Studio 2012
     
 - Visual C++ Redistributable Package for Visual Studio 2017
     
@@ -207,6 +209,8 @@ In scenarios where installing prerequisites directly from the Internet is not po
 - [Windows Server AppFabric 1.1](https://go.microsoft.com/fwlink/p/?LinkId=618412)
     
 - [Cumulative Update Package 7 for AppFabric 1.1 for Windows Server](https://support.microsoft.com/en-us/kb/3092423)
+
+- [Visual C++ Redistributable Package for Visual Studio 2012](https://go.microsoft.com/fwlink/?LinkId=627156)
     
 - [Visual C++ Redistributable Package for Visual Studio 2017](https://visualstudio.microsoft.com/downloads/)
     

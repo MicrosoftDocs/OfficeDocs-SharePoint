@@ -1,23 +1,23 @@
 ---
-title: "Managing a MinRole Server Farm in SharePoint Server 2016"
+title: "Managing a MinRole Server Farm in SharePoint Servers 2016 and 2019"
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
-ms.date: 2/27/2018
+ms.date: 7/24/2018
 ms.audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 883fac19-3048-4ef0-b473-10b3b05493b6
-description: "Learn how to manage your MinRole farm deployment in SharePoint Server 2016."
+description: "Learn how to manage your MinRole farm deployment in SharePoint Servers 2016 and 2019."
 ---
 
-# Managing a MinRole Server Farm in SharePoint Server 2016
+# Managing a MinRole Server Farm in SharePoint Servers 2016 and 2019
 
-Learn how to manage your MinRole farm deployment in SharePoint Server 2016.
+Learn how to manage your MinRole farm deployment in SharePoint Servers 2016 and 2019.
   
- **MinRole** is a new farm topology based on a set of predefined server roles introduced in SharePoint Server 2016. When configuring your SharePoint farm, you now select the role of a server when you create a new farm or join a server to an existing farm. SharePoint will automatically configure the services on each server based on the server's role. SharePoint Server 2016 has been optimized for the MinRole farm topology. 
+ **MinRole** is a new farm topology based on a set of predefined server roles introduced in SharePoint Server 2016. When configuring your SharePoint farm, you now select the role of a server when you create a new farm or join a server to an existing farm. SharePoint will automatically configure the services on each server based on the server's role. SharePoint Servers 2016 and 2019 has been optimized for the MinRole farm topology. 
   
 ## MinRole administration
 
@@ -45,7 +45,7 @@ The **Compliant** column displays whether the server configuration is in complia
 
 This is a new page in the System Settings category of Central Administration. It displays the state of each service in the farm. This page has three column of interest: **Auto Provision**, **Action**, and **Compliant**. 
   
-![Displays services in a SharePoint Server 2016 farm](../media/90e10233-ba14-4bc4-8213-b8866a7ae2b1.PNG)
+![Displays services in a SharePoint Servers 2016 and 2019 farm](../media/90e10233-ba14-4bc4-8213-b8866a7ae2b1.PNG)
   
 The **Auto Provision** column displays whether the service is enabled in the farm. If the value **Yes** is displayed, service instances for this service will be started on the appropriate MinRole-managed servers in the farm. If the value **No** is displayed, service instances for this service will be stopped on the appropriate MinRole-managed servers in the farm. 
   
@@ -69,7 +69,7 @@ The **Compliant** column displays whether the service is in compliance on every 
 
 This page displays all of the service instances on a server. Some things have changed as highlighted in red in the following diagram.
   
-![Displays services on servers in SharePoint Server 2016](../media/65dd3268-93e8-47ea-9486-7c500b8af90c.PNG)
+![Displays services on servers in SharePoint Servers 2016 and 2019](../media/65dd3268-93e8-47ea-9486-7c500b8af90c.PNG)
   
 In previous releases of SharePoint, this page was accessible only to members of the local Administrators group on the Central Administration server. In SharePoint Server 2016, all members of the SharePoint Farm Administrators group have access to this page.
   
@@ -95,18 +95,18 @@ New PowerShell cmdlets have been introduced to manage the services in the farm.
 ||||
 |:-----|:-----|:-----|
 |**Cmdlet name** <br/> |**Description** <br/> |**Syntax example** <br/> |
-|Get-SPService  <br/> |The [Get-SPService](http://technet.microsoft.com/library/9b11a95b-afb6-4496-adcc-cc4d3365d2bd.aspx) cmdlet gets a service in the farm.  <br/> | *Get-SPService -Identity "Microsoft SharePoint Foundation Sandboxed Code Service"*  <br/> |
-|Start-SPService  <br/> |The [Start-SPService](http://technet.microsoft.com/library/2bbfaed0-2e17-468c-9da9-07bcfb64df67.aspx) cmdlet enables a service in the farm. Service instances for this service will be started on the appropriate MinRole-managed servers in the farm.  <br/> | *Start-SPService -Identity "Microsoft SharePoint Foundation Sandboxed Code Service"*  <br/> |
-|Stop-SPService  <br/> |The [Stop-SPService](http://technet.microsoft.com/library/1a2c95e0-4d7a-4c30-870a-d90bdf05d542.aspx) cmdlet disables a service in the farm. Service instances for this service will be stopped on the appropriate MinRole-managed servers in the farm.  <br/> | *Stop-SPService -Identity "Microsoft SharePoint Foundation Sandboxed Code Service"*  <br/> |
+|Get-SPService  <br/> |The [Get-SPService](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Get-SPService?view=sharepoint-ps) cmdlet gets a service in the farm.  <br/> | *Get-SPService -Identity "Microsoft SharePoint Foundation Sandboxed Code Service"*  <br/> |
+|Start-SPService  <br/> |The [Start-SPService](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Start-SPService?view=sharepoint-ps) cmdlet enables a service in the farm. Service instances for this service will be started on the appropriate MinRole-managed servers in the farm.  <br/> | *Start-SPService -Identity "Microsoft SharePoint Foundation Sandboxed Code Service"*  <br/> |
+|Stop-SPService  <br/> |The [Stop-SPService](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Stop-SPService?view=sharepoint-ps) cmdlet disables a service in the farm. Service instances for this service will be stopped on the appropriate MinRole-managed servers in the farm.  <br/> | *Stop-SPService -Identity "Microsoft SharePoint Foundation Sandboxed Code Service"*  <br/> |
    
 > [!NOTE]
-> An optional **IncludeCustomServerRole** parameter has been added to the **Start-SPService** and **Stop-SPService** Windows PowerShell cmdlets in the November 2016 Public Update for SharePoint Server 2016 (Feature Pack 1). If specified, it will also create a timer job that starts or stops service instances on servers that are assigned to the Custom server role. This is a one-time timer job. MinRole will make no further attempts to manage the service instances on servers assigned to the Custom server role. > Services that have associated service applications cannot be started or stopped by using the [Start-SPService](http://technet.microsoft.com/library/2bbfaed0-2e17-468c-9da9-07bcfb64df67.aspx) and [Stop-SPService](http://technet.microsoft.com/library/1a2c95e0-4d7a-4c30-870a-d90bdf05d542.aspx) cmdlets. These services can be started or stopped by creating or deleting their associated service applications. If you use the [Start-SPService](http://technet.microsoft.com/library/2bbfaed0-2e17-468c-9da9-07bcfb64df67.aspx) or [Stop-SPService](http://technet.microsoft.com/library/1a2c95e0-4d7a-4c30-870a-d90bdf05d542.aspx) cmdlets with services that have associated service applications, an error message will be shown indicating that the associated service applications should be created or deleted instead. 
+> An optional **IncludeCustomServerRole** parameter has been added to the **Start-SPService** and **Stop-SPService** Windows PowerShell cmdlets in the November 2016 Public Update for SharePoint Server 2016 (Feature Pack 1). If specified, it will also create a timer job that starts or stops service instances on servers that are assigned to the Custom server role. This is a one-time timer job. MinRole will make no further attempts to manage the service instances on servers assigned to the Custom server role. > Services that have associated service applications cannot be started or stopped by using the [Start-SPService](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Start-SPService?view=sharepoint-ps) and [Stop-SPService](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Stop-SPService?view=sharepoint-ps) cmdlets. These services can be started or stopped by creating or deleting their associated service applications. If you use the [Start-SPService](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Start-SPService?view=sharepoint-ps) or [Stop-SPService](http://technet.microsoft.com/library/1a2c95e0-4d7a-4c30-870a-d90bdf05d542.aspx) cmdlets with services that have associated service applications, an error message will be shown indicating that the associated service applications should be created or deleted instead. 
   
 ### Health monitoring
 
 A new health analyzer rule has been created to ensure that your servers are operating in their optimal MinRole configuration. The **Server role configuration isn't correct** rule runs every night at midnight on each server in your farm. It scans all service instances on the server to detect if any are not in compliance. If any service instance is not in compliance, the health rule will automatically reconfigure it to match the expected configuration. No manual intervention by the SharePoint farm administrator is required. 
   
-![Displays health rules for MinRole topology in SharePoint Server 2016](../media/df3dd75f-d64f-4a1f-8d5c-57daecc9cb38.PNG)
+![Displays health rules for MinRole topology in SharePoint Servers 2016 and 2019](../media/df3dd75f-d64f-4a1f-8d5c-57daecc9cb38.PNG)
   
 The automatic repair functionality of the health rule can be disabled by the SharePoint farm administrator while still allowing the health rule to run. If the health rule detects that a server is not in compliance and the automatic repair functionality is disabled, it will generate a health report in Central Administration. The health report will identify which servers are not in compliance, offer the ability to automatically repair the servers, and provide instructions on how to manually repair the servers.
   
