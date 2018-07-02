@@ -183,7 +183,7 @@ If you have existing deployment scripts that you do not want to modify to suppor
 
 [SharePoint Server 2016 zero downtime patching steps](../upgrade-and-update/sharepoint-server-2016-zero-downtime-patching-steps.md)
   
-[Overview of MinRole Server Roles in SharePoint Server 2016 and 2019
+[Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019
 ](overview-of-minrole-server-roles-in-sharepoint-server-2016.md)
   
 [Description of MinRole and associated services in SharePoint Servers 2016 and 2019](../administration/description-of-minrole-and-associated-services-in-sharepoint-server-2016.md)
