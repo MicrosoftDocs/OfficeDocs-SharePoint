@@ -320,6 +320,11 @@
     "redirect_document_id": true
    }, 
    {
+    "source_path": "sharepoint/SharePointServer/install/planning-for-a-minrole-server-deployment-in-sharepoint-server-2016.md",
+    "redirect_url": "sharepoint/SharePointServer/install/planning-for-a-minrole-server-deployment-in-sharepoint-server.md",
+    "redirect_document_id": true
+   }, 
+   {
     "source_path": "administration/hide-sharepoint-server-2013-social-features.md",
        "redirect_url": "https://docs.microsoft.com/en-us/sharepoint/administration/hide-sharepoint-server-social-features",
        "redirect_document_id": true
