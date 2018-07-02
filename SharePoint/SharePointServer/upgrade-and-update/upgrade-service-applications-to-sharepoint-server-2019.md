@@ -445,7 +445,7 @@ SharePoint Server 2019 normally creates a new search topology with all the searc
 > During this upgrade, search doesn't crawl content in your SharePoint Server 2016. If freshness of search results is important, save time by familiarizing yourself with these steps before starting the upgrade. 
   
 > [!IMPORTANT]
-> Because the search topology in the SharePoint Server 2019 farm is new, the index is empty. You have to perform a full crawl of the entire indexed corpus after you have [upgraded all content sources](https://technet.microsoft.com/en-us/library/cc263299%28v=office.16%29.aspx) (the fourth phase in the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019). 
+> Because the search topology in the SharePoint Server 2019 farm is new, the index is empty. You have to perform a full crawl of the entire indexed corpus after you have [upgraded all content sources](upgrade-content-databases_2019.md) (the fourth phase in the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019). 
   
  **To upgrade the Search service application by using PowerShell**
   
@@ -472,7 +472,7 @@ SharePoint Server 2019 normally creates a new search topology with all the searc
   
 2. Start the SharePoint 2019 Management Shell.    
   
-3. Set the Search Administration database to read-only. In the second phase of the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019, you set all the other databases to read-only. Follow [the same instructions](https://technet.microsoft.com/en-us/library/jj839720%28v=office.16%29.aspx) now for the Search Administration database. 
+3. Set the Search Administration database to read-only. In the second phase of the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019, you set all the other databases to read-only. Follow [the same instructions](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2019.md) now for the Search Administration database. 
     
 4. Pause the Search service application. At the PowerShell command prompt, type the following command:
     
@@ -546,9 +546,9 @@ SharePoint Server 2019 normally creates a new search topology with all the searc
     
 2. Using the backup copy that you made of the Search Administration database, repeat the following procedures in this article for the Search service application only:
     
-1. [Restore a backup copy of the database](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2016.md#restore)
+1. [Restore a backup copy of the database](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2019.md#restore)
     
-2. [Set the databases to read-write](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2016.md#ReadWrite)
+2. [Set the databases to read-write](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2019.md#ReadWrite)
     
 3. Type the command to upgrade the Search service application again at the PowerShell command prompt.
     
@@ -616,7 +616,7 @@ SharePoint Server 2019 normally creates a new search topology with all the searc
     
 12. Verify that the search topology on the new SharePoint Server 2019 farm is alike that of the SharePoint Server 2016 farm. If your requirements for search have changed, now is a good time to scale out the search topology of the new SharePoint Server 2019 farm.
     
-13. Resume the Search service application in the SharePoint Server 206 environment.
+13. Resume the Search service application in the SharePoint Server environment.
     
     At the PowerShell command prompt, type the following command:
     
@@ -683,10 +683,10 @@ Next phase: [Upgrade content databases to SharePoint Server 2019](upgrade-conten
 
 #### Concepts
 
-[Create the SharePoint Server 2019 farm for a database attach upgrade](create-the-sharepoint-server-2016-farm-for-a-database-attach-upgrade.md)
+[Create the SharePoint Server 2019 farm for a database attach upgrade](create-the-sharepoint-server-2019-farm-for-a-database-attach-upgrade.md)
   
-[Copy databases to the new farm for upgrade to SharePoint Server 2019](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2016.md)
+[Copy databases to the new farm for upgrade to SharePoint Server 2019](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2019.md)
   
-[Upgrade content databases to SharePoint Server 2019](upgrade-content-databases.md)
+[Upgrade content databases to SharePoint Server 2019](upgrade-content-databases_2019.md)
   
 [Services upgrade overview for SharePoint Server 2019](overview-of-the-services-upgrade-process_2019.md)
