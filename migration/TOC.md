@@ -10,7 +10,7 @@
 ## [Using the SharePoint Migration Tool Reports](using-the-sharepoint-migration-tool-reports.md)
 ## [SharePoint Online provided Azure containers and queues for SPO Migration API](sharepoint-online-provided-azure-containers-and-queues-for-spo-migration-api.md)
 ## [SharePoint Online and OneDrive Migration Speed](sharepoint-online-and-onedrive-migration-speed.md)
-## [Upload on-premises content to SharePoint Online using PowerShell cmdlets](upload-on-premises-content-to-sharepoint-online-using-powershell-cmdlets.md)
+## [Migrate to SharePoint Online using PowerShell](overview-SPMT-PS-cmdlets.md)
 ## [Overview of the SharePoint Migration Assessment Tool](overview-of-the-sharepoint-migration-assessment-tool.md)
 ## [SharePoint Migration Assessment Tool:  Scan Reports Roadmap](sharepoint-migration-assessment-toolscan-reports-roadmap.md)
 ### [Migration Assessment Scan: Apps](migration-assessment-scan-apps.md)
