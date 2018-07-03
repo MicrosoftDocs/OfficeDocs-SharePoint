@@ -32,6 +32,7 @@
 ### [Install for SharePoint Server 2019](../install/install-for-sharepoint-server-2019.md)
 #### [System requirements for SharePoint Servers 2016 and 2019](../install/system-requirements-for-sharepoint-server-2016.md)
 ##### [Hardware and software requirements](../install/hardware-and-software-requirements-2019.md)
+##### [Browser support planning](../install/browser-support-planning-0.md)
 #### [Install SharePoint Servers 2016 or 2019 on one server](../install/install-sharepoint-server-2016-on-one-server.md)
 #### [Install SharePoint Servers 2016 or 2019 across multiple servers](../install/install-sharepoint-server-2016-across-multiple-servers.md)
 #### [Install or uninstall language packs](../install/install-or-uninstall-language-packs-0.md)
