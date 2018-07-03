@@ -29,7 +29,7 @@
 #### [Configure SQL Server security for SharePoint environments](../security-for-sharepoint-server/configure-sql-server-security-for-sharepoint-environments.md)
 ### [Federal Information Processing Standard security standards](../security-for-sharepoint-server/federal-information-processing-standard-security-standards.md)
 ## [Install](../install/install.md)
-### [Install for SharePoint Server 2019](../install/install-for-sharepoint-server-2019.md)
+### [Install for SharePoint Server 2019](../install/install-for-sharepoint-server-2016.md)
 #### [System requirements for SharePoint Servers 2016 and 2019](../install/system-requirements-for-sharepoint-server-2016.md)
 ##### [Hardware and software requirements](../install/hardware-and-software-requirements-2019.md)
 ##### [Browser support planning](../install/browser-support-planning-0.md)
