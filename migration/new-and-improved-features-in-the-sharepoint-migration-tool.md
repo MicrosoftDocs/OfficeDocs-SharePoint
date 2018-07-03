@@ -37,7 +37,9 @@ To use the SPMT 2.1 PowerShell feature (currently in open beta): <br>
     ```powershell
     Import-Module Microsoft.SharePoint.MigrationTool.PowerShell
     ```
-    <br>To learn more, see [SharePoint Migration Tool PowerShell Reference](https://docs.microsoft.com/en-us/powershell/module/spmt)
+    <br>To learn more, see:<br> 
+[Migrate to SharePoint Online using PowerShell](https://docs.microsoft.com/en-us/sharepointmigration/overview-spmt-ps-cmdlets)<br>
+[SharePoint Migration Tool PowerShell Reference](https://docs.microsoft.com/en-us/powershell/module/spmt)
 
    
 **Improvements**
