@@ -118,6 +118,9 @@ One of the following server operating systems:
     
 > [!NOTE]
 > We don't support installing the Office 2019 client and SharePoint Server 2019 on the same computer. 
+
+[!NOTE]
+The minimum supported version is Office 2010 client.
   
 > [!NOTE]
 > SharePoint Server 2019 only supports the "Server with Desktop Experience" installation option of Windows Server 2019. For additional information about Windows Server offerings, see [Windows Server Semi-annual Channel Overview](https://docs.microsoft.com/en-us/windows-server/get-started/semi-annual-channel-overview)
