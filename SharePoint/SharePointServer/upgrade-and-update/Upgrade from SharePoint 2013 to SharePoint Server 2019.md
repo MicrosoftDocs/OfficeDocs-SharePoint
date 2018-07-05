@@ -68,6 +68,6 @@ You may need to delete the temporary content database from the SQL Server.
 
 Start the upgrade process to SharePoint Server 2016 by running the [Mount-SPContentDatabase](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/mount-spcontentdatabase?view=sharepoint-ps) cmdlet on the restored content databases from SQLNEW1.  After the upgrade process is complete, perform any individual configuration changes that are not part of the service application and content databases, such as incoming/outgoing email settings, etc.
 
-#### See Also
+## See Also
 
 [Overview of the upgrade process to SharePoint Server 2019](overview-of-the-upgrade-process-2019.md)
