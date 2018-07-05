@@ -107,22 +107,17 @@ You add the new server to the farm by using one of the following procedures:
   
 - [To add a server by using the SharePoint Products Configuration Wizard](add-a-server-to-a-sharepoint-server-2016-farm.md)
     
-- [To add a new SharePoint Server 2016 server to the farm by using the PSConfig.exe command-line tool](#psconfig)
+- [To add a new SharePoint Server 2016 or SharePoint Server 2019 server to the farm by using the PSConfig.exe command-line tool](#psconfig)
     
-- [To add a server by using Windows PowerShell](add-a-server-to-a-sharepoint-server-2016-farm.md)
+- [To add a server by using Microsoft PowerShell](add-a-server-to-a-sharepoint-server-2016-farm.md)
     
- **To add a new SharePoint Server 2016 server to the farm by using the SharePoint Products Configuration Wizard**
+ **To add a new SharePoint Server 2016 or SharePoint Server 2019 server to the farm by using the SharePoint Products Configuration Wizard**
   
 1. Verify that the user account that is performing this procedure is the Setup user account. For information about the Setup user account, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
     
-2. Start the **SharePoint 2016 Products Configuration Wizard**.
+2. Start the **SharePoint Products Configuration Wizard**.
     
-  - For Windows Server 2012 R2:
-    
-  - On the new server, on the **Start** screen, click **SharePoint 2016 Products Configuration Wizard**.
-    
-    For more information about how to interact with Windows Server 2012 R2, see [Common Management Tasks and Navigation in Windows Server 2012 R2 and Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkId=276950).
-    
+   
 3. On the **Welcome to SharePoint Products** page, click **Next**.
     
 4. On the **Connect to a server farm** page, click **Connect to an existing server farm.**
@@ -171,7 +166,7 @@ Where \<ServerRole\> can be any of the following values: WebFrontEnd, Applicatio
 > [!NOTE]
 > The  `PSConfig.exe -cmd Services -Provision` syntax is deprecated, but not removed yet. Do not use the **Provision** parameter when you create or join a farm. Using this parameter will lead to failures. 
   
- **To add a new SharePoint Server 2016 server to the farm by using PowerShell**
+ **To add a new SharePoint Server 2016 or SharePoint Server 2019 server to the farm by using PowerShell**
   
 1. Verify that you have the following memberships:
     
