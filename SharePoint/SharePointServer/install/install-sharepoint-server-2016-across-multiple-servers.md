@@ -146,7 +146,7 @@ To configure the farm, you run the SharePoint Products Configuration Wizard. Thi
   
 1. Verify that the user account that is performing this procedure is the Setup user account. For information about the Setup user account, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
     
-2. On the server that will host Central Administration (the application server), click **Start**, point to **All Apps**, and then click **Microsoft SharePoint 2016 Products**, and then click **SharePoint 2016 Products Configuration Wizard**. If the **User Account Control** dialog box appears, click **Continue**.
+2. On the server that will host Central Administration (the application server), click **Start**, point to **All Apps**, and then click **Microsoft SharePoint Products**, and then click **SharePoint Products Configuration Wizard**. If the **User Account Control** dialog box appears, click **Continue**.
     
 3. On the **Welcome to SharePoint Products** page, click **Next**.
     
