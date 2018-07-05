@@ -137,14 +137,14 @@ A server farm administrator upgrades the My Site host and then individual users 
 4. All My Sites have been upgraded.
     
 > [!NOTE]
-> A server farm administrator can choose to force an upgrade of My Sites without waiting for users to upgrade them. For details and steps, read [Upgrade site collections to SharePoint Server 2019](upgrade-site-collections_2019.md). 
+> A server farm administrator can choose to force an upgrade of My Sites without waiting for users to upgrade them. For details and steps, read [Upgrade site collections to SharePoint Server 2019](upgrade-a-site-collection-2019.md). 
   
 ### Upgrade other SharePoint Server 2016 site collections
 <a name="SiteCollections"> </a>
 
-For information about how to upgrade a site collection, see [Upgrade site collections to SharePoint Server 2019](upgrade-site-collections_2019.md).
+For information about how to upgrade a site collection, see [Upgrade site collections to SharePoint Server 2019](upgrade-a-site-collection-2019.md).
   
 > [!NOTE]
-> A server farm administrator can also force specific site collections to be upgraded without waiting for the site owners to upgrade them. For details and steps, read [Upgrade site collections to SharePoint Server 2019](upgrade-site-collections_2019.md). 
+> A server farm administrator can also force specific site collections to be upgraded without waiting for the site owners to upgrade them. For details and steps, read [Upgrade site collections to SharePoint Server 2019](upgrade-a-site-collection-2019.md). 
   
 
