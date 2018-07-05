@@ -134,88 +134,88 @@ SharePoint Online admin landing page.
 <ul class="panelContent cardsW">
     <li>
         <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Share and work together</h3>
-                        <p><a href="/turn-external-sharing-on-or-off">Turn external sharing on or off </a></p>
-                        <p><a href="/manage-site-creation">Manage site creation </a></p>
-                        <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/sharepoint-onedrive-interact">How SharePoint interacts with Teams </a></p>
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Share and work together</h3>
+                        <p><a href="/turn-external-sharing-on-or-off">Turn external sharing on or off </a></p>
+                        <p><a href="/manage-site-creation">Manage site creation </a></p>
+                        <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/sharepoint-onedrive-interact">How SharePoint interacts with Teams </a></p>
                         <p><a href="">Administer OneDrive</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </li>
     <li>
         <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Inform and engage</h3>
-                        <p><a href="/planning-hub-sites">Plan your hub sites</a></p>
-                        <p><a href="/create-hub-site">Create a hub site</a></p>
-                        <p><a href="/change-links-list-on-sharepoint-home-page">Change the links list</a></p>
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Inform and engage</h3>
+                        <p><a href="/planning-hub-sites">Plan your hub sites</a></p>
+                        <p><a href="/create-hub-site">Create a hub site</a></p>
+                        <p><a href="/change-links-list-on-sharepoint-home-page">Change the links list</a></p>
                         <p><a href="">Admin help for Yammer</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </li>
     <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Transform business processes</h3>
-                        <p><a href="https://docs.microsoft.com/en-us/flow/getting-started">Get started with Microsoft flow</a></p>
-                        <p><a href="https://docs.microsoft.com/en-us/powerapps/">PowerApps</a></p>
-               </div>
-                </div>
-            </div>
-        </div> 
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Transform business processes</h3>
+                        <p><a href="https://docs.microsoft.com/en-us/flow/getting-started">Get started with Microsoft flow</a></p>
+                        <p><a href="https://docs.microsoft.com/en-us/powerapps/">PowerApps</a></p>
+                    </div>
+                </div>
+            </div>
+        </div> 
     </li>
     <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Harness collective knowledge</h3>
-                            <p><a href="/overview-of-search">Overview of search</a></p>
-                            <p><a href="/delve-for-office-365-admins">Delve for O365 admins</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Harness collective knowledge</h3>
+                        <p><a href="/overview-of-search">Overview of search</a></p>
+                        <p><a href="/delve-for-office-365-admins">Delve for O365 admins</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </li>
     <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Protect and manage</h3>
-                            <p><a href="/safeguarding-your-data">How SharePoint and OneDrive safeguard your data</a></p>
-                            <p><a href="/">New SharePoint admin center</a></p>
-                            <p><a href="/">Set up Information Rights Management (IRM)</a></p>
-                            <p><a href="https://docs.microsoft.com/en-us/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps">SPO management shell </a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Protect and manage</h3>
+                        <p><a href="/safeguarding-your-data">How SharePoint and OneDrive safeguard your data</a></p>
+                        <p><a href="/">New SharePoint admin center</a></p>
+                        <p><a href="/">Set up Information Rights Management (IRM)</a></p>
+                        <p><a href="https://docs.microsoft.com/en-us/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps">SPO management shell </a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </li>
     <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Extend and develop</h3>
-                            <p><a href="https://docs.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview">SharePoint Framework</a></p>
-                            <p><a href="https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/sharepoint-add-ins">SharePoint add-ins</a></p>
-                            <p><a href="https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/office-365-development-patterns-and-practices-solution-guidance">Patterns and practices (PnP) solution guidance</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Extend and develop</h3>
+                        <p><a href="https://docs.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview">SharePoint Framework</a></p>
+                        <p><a href="https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/sharepoint-add-ins">SharePoint add-ins</a></p>
+                        <p><a href="https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/office-365-development-patterns-and-practices-solution-guidance">Patterns and practices (PnP) solution guidance</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </li>
 </ul>  
 
