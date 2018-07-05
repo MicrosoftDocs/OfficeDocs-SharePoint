@@ -129,7 +129,6 @@ SharePoint Online admin landing page.
 </ul>
 
 ---
-
 <h2>Featured articles</h2>
 <ul class="panelContent cardsW">
     <li>
