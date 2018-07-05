@@ -171,7 +171,7 @@ To configure the farm, you run the SharePoint Products Configuration Wizard. Thi
     
 8. On the Specify Farm Security Settings page, type a passphrase, and then click **Next**.
     
-    Although a passphrase resembles a password, it is usually longer to improve security. It is used to encrypt credentials of accounts that are registered in SharePoint Server 2016. For example, the SharePoint Server 2016 server farm account that you provide when you run the SharePoint Products Configuration Wizard. Ensure that you remember the passphrase, because you must use it every time that you add a server to the farm.
+    Although a passphrase resembles a password, it is usually longer to improve security. It is used to encrypt credentials of accounts that are registered in SharePoint Servers 2016 or 2019. For example, the SharePoint Server server farm account that you provide when you run the SharePoint Products Configuration Wizard. Ensure that you remember the passphrase, because you must use it every time that you add a server to the farm.
     
     Ensure that the passphrase meets the following criteria:
     
