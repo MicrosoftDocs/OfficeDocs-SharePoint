@@ -6,7 +6,7 @@ description: OneDrive documentation
 ---
 <div id="main" class="v2">
     <div class="container">
-        <h1>SharePoint documentation</h1>
+        <h1>OneDrive documentation</h1>
         <ul class="pivots">
             <li>
                 <a href="#home"></a>
