@@ -44,7 +44,7 @@
 ##### [Software boundaries and limits](../install/software-boundaries-and-limits-0.md)
 #### [Prerequisites](../install/prerequisites-0.md)
 ##### [Initial deployment administrative and service accounts in SharePoint Server](../install/initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md)
-##### [Account permissions and security settings in SharePoint Server 2016](../install/account-permissions-and-security-settings-in-sharepoint-server-2016.md)
+##### [Account permissions and security settings in SharePoint Servers 2016 and 2019](../install/account-permissions-and-security-settings-in-sharepoint-server-2016.md)
 ##### [Install prerequisites from network share](../install/install-prerequisites-from-network-share.md)
 ##### [Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019](../install/overview-of-minrole-server-roles-in-sharepoint-server-2016.md)
 ##### [Planning for a MinRole server deployment in SharePoint Servers 2016 and 2019](../install/planning-for-a-minrole-server-deployment-in-sharepoint-server.md)
