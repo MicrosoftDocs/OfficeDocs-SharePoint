@@ -129,6 +129,7 @@ SharePoint Online admin landing page.
 </ul>
 
 ---
+
 <h2>Featured articles</h2>
 <ul class="panelContent cardsW">
     <li>
@@ -172,7 +173,7 @@ SharePoint Online admin landing page.
                     </div>
                 </div>
             </div>
-        </div> 
+        </div>
     </li>
     <li>
         <div class="cardSize">
