@@ -115,7 +115,7 @@ OneDrive for Business admin landing page.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/lightbult-idea-capture-blue.svg" alt="Lightbulb" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/lightbulb-idea-capture-blue.svg" alt="Lightbulb" />
                         </div>
                     </div>
                     <div class="cardText">
