@@ -1,5 +1,5 @@
 ---
-title: "Planning for a MinRole server deployment in SharePoint Server 2016 and 2019"
+title: "Planning for a MinRole server deployment in SharePoint Servers 2016 and 2019"
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
