@@ -84,7 +84,7 @@
 ##### [Overview of the services upgrade process](../upgrade-and-update/overview-of-the-services-upgrade-process-2019.md)
 #### [Upgrade databases](../upgrade-and-update/upgrade-databases-2019.md)
 ##### [Create the SharePoint Server 2019 farm for a database attach upgrade](../upgrade-and-update/create-the-sharepoint-server-2019-farm-for-a-database-attach-upgrade.md)
-##### [Copy databases to the new farm for upgrade to SharePoint Server 2016](../upgrade-and-update/copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2019.md)
+##### [Copy databases to the new farm for upgrade to SharePoint Server 2019](../upgrade-and-update/copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2019.md)
 ##### [Upgrade service applications to SharePoint Server 2019](../upgrade-and-update/upgrade-service-applications-to-sharepoint-server-2019.md)
 ##### [Upgrade content databases](../upgrade-and-update/upgrade-content-databases-2019.md)
 ##### [Verify upgrade for databases](../upgrade-and-update/verify-upgrade-for-databases-2019.md)
