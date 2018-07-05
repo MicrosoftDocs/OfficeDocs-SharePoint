@@ -46,7 +46,7 @@
 ##### [Initial deployment administrative and service accounts in SharePoint Server](../install/initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md)
 ##### [Account permissions and security settings in SharePoint Server 2016](../install/account-permissions-and-security-settings-in-sharepoint-server-2016.md)
 ##### [Install prerequisites from network share](../install/install-prerequisites-from-network-share.md)
-##### [Overview of MinRole Server Roles in SharePoint Server 2016](../install/overview-of-minrole-server-roles-in-sharepoint-server.md)
+##### [Overview of MinRole Server Roles in SharePoint Server 2016](../install/overview-of-minrole-server-roles-in-sharepoint-server-2016.md)
 ##### [Planning for a MinRole server deployment in SharePoint Servers 2016 and 2019](../install/planning-for-a-minrole-server-deployment-in-sharepoint-server.md)
 #### [Install SharePoint Servers 2016 or 2019 on one server](../install/install-sharepoint-server-2016-on-one-server.md)
 #### [Install SharePoint Servers 2016 or 2019 across multiple servers](../install/install-sharepoint-server-2016-across-multiple-servers.md)
