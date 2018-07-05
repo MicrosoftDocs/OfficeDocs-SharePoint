@@ -148,7 +148,7 @@ SharePoint Online admin landing page.
         </div>
     </li>
     <li>
-        <div class="cardSize">
+        <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
@@ -157,7 +157,7 @@ SharePoint Online admin landing page.
                         <p><a href="/create-hub-site">Create a hub site</a></p>
                         <p><a href="/change-links-list-on-sharepoint-home-page">Change the links list</a></p>
                         <p><a href="">Admin help for Yammer</a></p>
-                     </div>
+                    </div>
                 </div>
             </div>
         </div>
