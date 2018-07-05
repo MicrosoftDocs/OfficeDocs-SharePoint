@@ -39,7 +39,7 @@ Before you begin to install and configure SharePoint Servers 2016 or 2019, do th
   
 - For SharePoint Server 2016, ensure that you have met all hardware and software requirements. You must have a 64-bit version of Windows Server 2012 R2. To host SharePoint databases, you must also have a 64-bit version of SQL Server 2014 SP1. For more information about these requirements, such as specific updates that you must install, see [Hardware and software requirements for SharePoint Server 2016](hardware-and-software-requirements.md).
 
-- For SharePoint Server 2016, ensure that you have met all hardware and software requirements. You must have a 64-bit version of Windows Server 2016. To host SharePoint databases, you must also have a 64-bit version of SQL Server 2016 or 2017. For more information about these requirements, such as specific updates that you must install, see [Hardware and software requirements for SharePoint Server 2016](hardware-and-software-requirements_2019.md).
+- For SharePoint Server 2019, ensure that you have met all hardware and software requirements. You must have a 64-bit version of Windows Server 2016. To host SharePoint databases, you must also have a 64-bit version of SQL Server 2016 or 2017. For more information about these requirements, such as specific updates that you must install, see [Hardware and software requirements for SharePoint Server 2019](hardware-and-software-requirements_2019.md).
     
 - Ensure that you perform a clean installation of SharePoint Servers 2016 or 2019.
     
@@ -55,11 +55,11 @@ Before you begin to install and configure SharePoint Servers 2016 or 2019, do th
 ## Install SharePoint Servers 2016 or 2019 on a single server
 <a name="section3"> </a>
 
-To install and configure SharePoint Servers 2016 or 2019 on a single server, you will follow these steps:
+To install and configure SharePoint Server 2016 or 2019 on a single server, you will follow these steps:
   
-1. Run the **Microsoft SharePoint Products and Technologies 2016 Preparation Tool,** which installs all prerequisites to use SharePoint Server. 
+1. Run the **Microsoft SharePoint Products and Technologies Preparation Tool,** which installs all prerequisites to use SharePoint Server. 
     
-2. Run Setup, which installs binaries, configures security permissions, and edits registry settings for SharePoint Server 2016.
+2. Run Setup, which installs binaries, configures security permissions, and edits registry settings for SharePoint Servers 2016 or 2019.
     
 3. Run SharePoint Products Configuration Wizard, which installs and configures the configuration database, installs and configures the content database, and installs the SharePoint Central Administration web site.
     
@@ -74,7 +74,7 @@ To install and configure SharePoint Servers 2016 or 2019 on a single server, you
   
 ### Run the Microsoft SharePoint Products Preparation Tool
 
-Because the prerequisite installer downloads components from the Microsoft Download Center, you must have Internet access on the computer on which you are running the installer. Use the following procedure to install software prerequisites for SharePoint Server 2016.
+Because the prerequisite installer downloads components from the Microsoft Download Center, you must have Internet access on the computer on which you are running the installer. Use the following procedure to install software prerequisites for SharePoint Servers 2016 or 2019.
   
  **To run the Microsoft SharePoint Products Preparation Tool**
   
