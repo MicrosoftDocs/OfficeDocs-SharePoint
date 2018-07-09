@@ -140,6 +140,21 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server 2016 and 201
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
+                        <h3>SharePoint 2019 Beta!</h3>
+                        <p><a href="https://docs.microsoft.com">Download SharePoint 2019 Beta</a></p>
+                        <p><a href="what-s-new/new-and-improved-features-in-SharePoint-Server-2019.md">What's New?</a></p>
+                        <p><a href="install/install-for-sharepoint-server-2016.md">Install SharePoint Server 2019 Beta</a></p>
+                        <p><a href="https://support.office.com/article/ba84c8a3-3ce2-4252-926e-c67654ceb4a3">Differences between SharePoint Server 2016 and 2019</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
                         <h3>Learn about SharePoint</h3>
                         <p><a href="https://products.office.com/en-us/sharepoint/collaboration">What is SharePoint?</a></p>
                         <p><a href="https://www.youtube.com/watch?v=Bz4kdOiJrpE">Discover SharePoint Server 2016: Feature Pack 2 & Beyond</a></p>
