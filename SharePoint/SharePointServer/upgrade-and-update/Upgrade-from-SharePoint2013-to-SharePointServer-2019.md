@@ -10,7 +10,6 @@ localization_priority: Normal
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-ms.assetid: d47575fa-bb85-4017-8db7-5e25f98ba171
 description: "Summary: "Upgrade from SharePoint Server 2013 to SharePoint Server 2019."
 ---
 
