@@ -1,5 +1,16 @@
 ---
-title: "title"
+title: "High level overview to upgrade from SharePoint 2013 to SharePoint Server 2019"
+ms.author: kirks
+author: Techwriter40
+manager: pamgreen
+ms.audience: ITPro
+ms.topic: get-started-article
+ms.prod: sharepoint-server-itpro
+localization_priority: Normal
+ms.collection:
+- IT_Sharepoint_Server
+- IT_Sharepoint_Server_Top
+description: "Summary: Learn how to plan, prepare, and perform an upgrade to SharePoint 2013."
 ---
 
 # High level overview to upgrade from SharePoint 2013 to SharePoint Server 2019
