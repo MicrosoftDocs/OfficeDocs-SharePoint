@@ -79,7 +79,7 @@
 ##### [Configure My Sites](../install/configure-my-sites.md)
 
 ## [Upgrade and Update](../upgrade-and-update/upgrade-and-update.md)
-### [Upgrade from SharePoint 2013 to SharePoint Server 2019](Upgrade-from-SharePoint2013-to-SharePointServer-2019.md)
+### [Upgrade from SharePoint 2013 to SharePoint Server 2019](../upgrade-and-update/Upgrade-from-SharePoint2013-to-SharePointServer-2019.md)
 ### [Upgrade to SharePoint Server 2019](../upgrade-and-update/upgrade-to-sharepoint-server-2019.md)
 #### [Get started with upgrade](../upgrade-and-update/get-started-with-upgrade-2019.md)
 ##### [Overview of the upgrade process](../upgrade-and-update/overview-of-the-upgrade-process-2019.md)
