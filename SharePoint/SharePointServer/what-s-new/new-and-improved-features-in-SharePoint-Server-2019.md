@@ -57,6 +57,8 @@ Fast site creation is used when creating sites in the following entry points:
 
 - The Create Site button in SharePoint Home
 
+- The New-SPSite PowerShell cmdlet with the -CreateFromSiteMaster switch parameter
+
 ### Modern lists and libraries
 
 SharePoint Server 2019 contains the modern experiences for lists and libraries in Team sites. This brings the experience up to date with that found in SharePoint Online.
@@ -75,7 +77,7 @@ SharePoint Server 2019 will continue to support creating classic team sites.
 
 SharePoint Server 2019 now supports modern sharing experiences with a simplified sharing UI. You can now easily share links to content with others in your organization. You can also be warned if you're sharing to a large group or sharing a large number of items.
 
-### OneDrive Sync – Personal site sync
+### Team Site sync with OneDrive sync client (NGSC)
 
 Users can use the new OneDrive sync client (NGSC – Next Generation Sync Client) instead of Groove.exe to sync Personal Sites hosted on SharePoint Server 2019. For more information, see [New OneDrive sync client release notes](https://support.office.com/en-us/article/New-OneDrive-sync-client-release-notes-845dcf18-f921-435e-bf28-4e24b95e5fc0). (Check with Troy for updates on procedures to use)
 
@@ -87,26 +89,35 @@ SharePoint Server 2019 can now render PDF documents on the server. Users no long
 
 SharePoint Server 2019 now supports push notification to OneDrive sync clients. This gives OneDrive sync clients immediate notifications when changes are made to content they have a sync relationship with. Now users’ synced content will be refreshed as soon as changes are made instead of waiting for the next polling interval.
 
-### Self-service site creation in SharePoint Home now supports AAM zones
+### Self-service site creation on the SharePoint home page now supports AAM zones
 
-The self-service site creation experience in SharePoint Home now fully supports non-Default Alternate Access Mapping (AAM) zones. When creating sites in a different web application on a remote farm, make sure that an external resource has been created in AAM on both the local farm and the remote farm. This applies to sites created in the same web application, sites created in a different web application on the local farm, and sites created in a different web application on a remote farm.
-SharePoint will treat the external resource as an external web application. The external resource on the local farm should be fully populated with the URLs and zones of the web application on the remote farm. And conversely, the external resource on the remote farm should be fully populated with the URLs and zones of the web application on the local farm. Be sure that the zones of the local web application and the remote web application are synchronized.
+The self-service site creation experience on the SharePoint home page now fully supports non-Default Alternate Access Mapping (AAM) zones. When creating sites in a different web application on a remote farm, make sure that an external resource has been created in AAM on both the local farm and the remote farm. This applies to sites created in the same web application, sites created in a different web application on the local farm, and sites created in a different web application on a remote farm. SharePoint will treat the external resource as an external web application. The external resource on the local farm should be fully populated with the URLs and zones of the web application on the remote farm. And conversely, the external resource on the remote farm should be fully populated with the URLs and zones of the web application on the local farm. Be sure that the zones of the local web application and the remote web application are synchronized.
 
-### SharePoint now uses the IIS7+ APIs
+### SharePoint Internat Information Services
 
-SharePoint Server 2019 uses the IIS7+ APIs, which are the latest and best supported APIs available. 
+SharePoint has modernized its integration with IIS by removing all of our dependencies on the legacy IIS6 APIs.  SharePoint now uses the IIS7+ APIs to manage IIS, which are the latest and best supported APIs from the IIS team.  This allows us to more easily adopt new IIS features and stay compatible with future Windows Server releases.
 
-## SharePoint Home
+As a result of this change, the following Windows Server features will no longer be installed by the SharePoint prerequisite installer:
 
-SharePoint Home is a modern UI experience that gives users unified access to all of their sites—online and on-premises. It allows users to navigate seamlessly through their intranet, catch up with activity across their sites with just a glance, and provides a personalized view of all team news. 
+- IIS 6 Management Compatibility (Web-Mgmt-Compat)
 
-SharePoint Home is also the launching point for users to create new, modern sites on a self-service basis. 
+- IIS 6 Metabase Compatibility (Web-Metabase)
 
-You can reach SharePoint Home by clicking on the "Sites" icon in the SharePoint app launcher. SharePoint Home replaces the old sites.aspx experience.
+- IIS 6 Scripting Tools (Web-Lgcy-Scripting)
 
-### SharePoint Home can create sites in different web applications
+Additionally, automatic mode for the incoming email feature will no longer be supported. Automatic mode used the IIS6 APIs to directly manage the IIS SMTP service, but the IIS SMTP service was never updated to use modern IIS APIs. SharePoint customers can still use the incoming email feature in advanced mode and manually manage their IIS SMTP service.
 
-The self-service site creation experience in SharePoint Home now supports creating new sites in a different web application, regardless of whether the web application is hosted on the local farm or a remote farm. This is controlled by the When users select the Create site command, create setting on the Self-service Site Collection Management page in Central Administration.
+## SharePoint home page
+
+The SharePoint home  page is a modern UI experience that gives users unified access to all of their sites—online and on-premises. It allows users to navigate seamlessly through their intranet, catch up with activity across their sites with just a glance, and provides a personalized view of all team news. 
+
+The SharePoint home page is also the launching point for users to create new, modern sites on a self-service basis. 
+
+You can reach the SharePoint home page by clicking on the "Sites" icon in the SharePoint app launcher. The SharePoint home page replaces the old sites.aspx experience.
+
+### From the SharePoint home page, you can create sites in different web applications
+
+The self-service site creation experience in the SharePoint home page now supports creating new sites in a different web application, regardless of whether the web application is hosted on the local farm or a remote farm. This is controlled by the When users select the Create site command, create setting on the Self-service Site Collection Management page in Central Administration.
 
 To create sites in the same web application, select **This web application**.
 
@@ -114,17 +125,25 @@ To create sites in a different web application on the local farm, select **The f
 
 To create sites in a different web application on a remote farm, follow these steps:
 
-1. In the local farm hosting SharePoint Home, use the Map to External Resource feature in Alternate Access Mappings (AAM) to provide the URL of the web application you want to    create sites in.
+1. In the local farm hosting the SharePoint home page, use the Map to External Resource feature in Alternate Access Mappings (AAM) to provide the URL of the web application you want to create sites in.
 
-2. In the local farm hosting SharePoint Home, on the Self-service Site Collection Management page for the web application hosting SharePoint Home, select The following web    application, and then select the remote web application from the drop-down field.
+2. In the local farm hosting the SharePoint home page, on the Self-service Site Collection Management page for the web application hosting the SharePoint home page, select **The following web application**, and then select the remote web application from the drop-down field.
 
-3. In the remote farm, use the Map to External Resource feature in Alternate Access Mappings (AAM) to provide the URL of the web application hosting SharePoint Home.
+3. In the remote farm, use the Map to External Resource feature in Alternate Access Mappings (AAM) to provide the URL of the web application hosting the SharePoint home page.
 
 4. In the remote farm, on the Self-service Site Collection Management page for the web application you want to create the sites in, ensure self-service site creation is enabled.
+
+### Use of # and % characters in file and folder names
+
+SharePoint Server 2019 now supports # and % characters in file and folder names, completing our support for all valid Windows file and folder name characters. This makes it easier to sync to content from personal storage devices to SharePoint.
 
 ## Detailed description of new Microsoft PowerShell SharePoint Server cmdlets
 
 This section lists the new PowerShell cmdlets for SharePoint Server 2019.
+
+### SMTP authentication when sending emails
+
+SharePoint Server 2019 now supports authenticating to SMTP servers when sending email messages. Authentication can be configured through the Central Administration website and through PowerShell. SharePoint Server 2019 will still support anonymous connections to SMTP servers that don't require authentication. This makes it easier for customers to integrate SharePoint into highly secure environments where authentication is required to send emails. Customers no longer need to configure smart host relays for SharePoint in these environments.
 
 ### New User Profile Synchronization PowerShell cmdlets
 
@@ -150,6 +169,18 @@ The "stsadm.exe -o setapppassword" command has been converted into a PowerShell 
 
 The new Remove-SPApplicationCredentialKey cmdlet allows you to remove the application credential key from the local server.
 The impact level of this cmdlet is set to high, as removing the application credential key from the local server may degrade or block the functionality of features if they're configured to use the application credential key.  For example, the SharePoint People Picker or SMTP authentication.
+
+## Detailed description of new SharePoint Health Analyzer rules
+
+This section lists the new Health Analyzer rules for SharePoint Server 2019.
+
+### People Picker health rule
+
+SharePoint has added a new health analyzer rule for the People Picker. This health analyzer rule detects if servers in the farm are missing the encryption key needed to retrieve People Picker credentials, such as when the People Picker is configured to search for users in another forest or domain with a one-way trust to the SharePoint farm's domain. If so, it will notify the SharePoint farm administrator so that they can correct the problem.
+
+### SMTP authentication health rule
+
+SharePoint has added a new health analyzer rule for SMTP authentication. This health analyzer rule detects if servers in the farm are missing the encryption key needed to retrieve the credentials for authentication. If so, it will notify the SharePoint farm administrator so that they can correct the problem.
 
 ## Detailed description of improved features
 
@@ -211,7 +242,6 @@ This file path length limit increase makes it easier to sync deeply nested conte
 ### Distributed Cache now uses background garbage collection by default
 
 Distributed Cache will now configure AppFabric Velocity Cache to use background garbage collection. This helps provide a more reliable experience for features that depend on Distributed Cache.
-
 
 ## Related Topics
 
