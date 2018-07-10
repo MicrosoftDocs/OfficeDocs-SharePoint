@@ -92,7 +92,7 @@ As we announced in the SharePoint Community Blog, site mailboxes are being [depr
 
 ### Site Manager
 
-The main functionality of Site Manager is now available in modern file move. Therefore, the Site Manager feature will be supported, but deprecated, in SharePoint Server 2019. Only site collection administrators will have permission to access the Site Manager page and the UI entry points to this page will be removed.
+The main functionality of Site Manager is now available in modern file move. The Site Manager feature will be supported, but it is deprecated in SharePoint Server 2019. Only site collection administrators will have permission to access the Site Manager page and the UI entry points to this page will be removed.
 
 ## Removed features in SharePoint Server 2019
 
@@ -122,4 +122,4 @@ Since the feature was first introduced in SharePoint, Microsoft BI strategy has 
 
 ### Visio Services - Silverlight Based Rendering
 
-Visio Services has 2 options for rendering Visio diagrams: Microsoft Silverlight-based and PNG-based. Microsoft Silverlight is a technology that will no longer be supported as of October 12, 2021. Therefore, Silverlight-based rendering will no longer be supported in SharePoint Server 2019. Visio Services will only render Visio diagrams using the PNG-based technology.
+Visio Services has 2 options for rendering Visio diagrams: Microsoft Silverlight-based and PNG-based. Microsoft Silverlight is a technology that will no longer be supported as of October 12, 2021. This means that, Silverlight-based rendering will no longer be supported in SharePoint Server 2019. Visio Services will only render Visio diagrams using the PNG-based technology.
