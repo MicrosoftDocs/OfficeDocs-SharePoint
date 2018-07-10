@@ -302,8 +302,6 @@ To estimate the storage requirements for the service applications in the system,
 |PerformancePoint Services  <br/> |The PerformancePoint service application has one database. We recommend that you allocate 1 GB for it. It has minimal IOPS.  <br/> |
 |Business Data Connectivity service  <br/> |The Business Data Connectivity service application has one database. This database is small and significant growth is unlikely. It has minimal IOPS.  <br/> |
 |App Management  <br/> |The App Management service application has one database. This database is small and significant growth is unlikely. It has minimal IOPS.  <br/> |
-|Word Automation Services  <br/> |The Word Automation Services service application has one database. This database is small and significant growth is unlikely. It has minimal IOPS.  <br/> |
-|PerformancePoint Services  <br/> |The PerformancePoint Services has one database. This database is small and significant growth is unlikely. It has minimal IOPS.  <br/> |
 |Power Pivot  <br/> |The Power Pivot Service application has one database. This database is small and has no significant I/O impact. We recommend that you use the same IOPS as the SharePoint content database. Note that content databases have significantly higher I/O requirements than the Power Pivot service application database.  <br/> |
    
 ### Determine availability needs
