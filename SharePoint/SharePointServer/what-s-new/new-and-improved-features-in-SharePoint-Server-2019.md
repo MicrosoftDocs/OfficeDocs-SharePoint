@@ -133,6 +133,10 @@ To create sites in a different web application on a remote farm, follow these st
 
 4. In the remote farm, on the Self-service Site Collection Management page for the web application you want to create the sites in, ensure self-service site creation is enabled.
 
+### SMTP authentication when sending emails
+
+SharePoint Server 2019 now supports authenticating to SMTP servers when sending email messages. Authentication can be configured through the Central Administration website and through PowerShell. SharePoint Server 2019 will still support anonymous connections to SMTP servers that don't require authentication. This makes it easier for customers to integrate SharePoint into highly secure environments where authentication is required to send emails. Customers no longer need to configure smart host relays for SharePoint in these environments.
+
 ### Use of # and % characters in file and folder names
 
 SharePoint Server 2019 now supports # and % characters in file and folder names, completing our support for all valid Windows file and folder name characters. This makes it easier to sync to content from personal storage devices to SharePoint.
@@ -140,10 +144,6 @@ SharePoint Server 2019 now supports # and % characters in file and folder names,
 ## Detailed description of new Microsoft PowerShell SharePoint Server cmdlets
 
 This section lists the new PowerShell cmdlets for SharePoint Server 2019.
-
-### SMTP authentication when sending emails
-
-SharePoint Server 2019 now supports authenticating to SMTP servers when sending email messages. Authentication can be configured through the Central Administration website and through PowerShell. SharePoint Server 2019 will still support anonymous connections to SMTP servers that don't require authentication. This makes it easier for customers to integrate SharePoint into highly secure environments where authentication is required to send emails. Customers no longer need to configure smart host relays for SharePoint in these environments.
 
 ### New User Profile Synchronization PowerShell cmdlets
 
