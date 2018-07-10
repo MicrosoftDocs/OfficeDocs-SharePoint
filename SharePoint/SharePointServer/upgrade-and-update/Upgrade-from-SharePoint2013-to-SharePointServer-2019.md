@@ -7,9 +7,6 @@ ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
-ms.collection:
-- IT_Sharepoint_Server
-- IT_Sharepoint_Server_Top
 description: "Summary: "Upgrade from SharePoint Server 2013 to SharePoint Server 2019."
 ---
 
