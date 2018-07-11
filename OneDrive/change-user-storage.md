@@ -3,7 +3,7 @@ title: "Change a specific user's OneDrive storage space"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 4/27/2018
+ms.date: 04/27/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: one-drive

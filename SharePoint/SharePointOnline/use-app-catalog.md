@@ -89,7 +89,7 @@ To get to the App Catalog site once it's been created, follow steps 1 through 4 
 
 If you want all users to use an app, you can deploy it to specific site collections, managed paths, or site templates. Deploying an app essentially installs that app on a site for users so that is available for use. Deployed apps appear on the Site Contents page for a site. 
   
-You can [deploy a third-party app](use-app-catalog.md#__deploy_a_third_party), or you can [deploy a custom app](use-app-catalog.md#__deploy_a_custom).
+You can deploy a third-party app, or you can [deploy a custom app](use-app-catalog.md#__deploy_a_custom).
   
  **Deploy a third-party app**
   
@@ -124,6 +124,7 @@ However, if you want to make the app available for use without requiring users t
 10. If you are prompted to Trust the app, select **Trust It**.
     
  **Deploy a custom app**
+<a name="__deploy_a_custom"> </a>
   
 If you upload a custom app to the App Catalog, it is automatically available for users to install when they browse apps under **From Your Organization**. If you want you want the app to be available for use without the need for site users to install it, you can deploy it.
   

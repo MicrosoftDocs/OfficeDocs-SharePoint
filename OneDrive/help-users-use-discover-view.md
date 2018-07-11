@@ -3,7 +3,7 @@ title: "Help users use the Discover view in OneDrive"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 6/7/2018
+ms.date: 06/7/2018
 ms.audience: Admin
 ms.topic: overview
 ms.service: one-drive

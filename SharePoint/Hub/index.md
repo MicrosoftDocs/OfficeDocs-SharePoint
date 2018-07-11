@@ -72,7 +72,7 @@ description: SharePoint documentation
                                 </a>
                             </li>                            
                             <li>
-                                <a href="https://support.office.com/article/79eb0420-8cbd-4bcb-a90b-ddc7d3ab4b3a">
+                                <a href="https://docs.microsoft.com/sharepoint/sharepoint-online">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">

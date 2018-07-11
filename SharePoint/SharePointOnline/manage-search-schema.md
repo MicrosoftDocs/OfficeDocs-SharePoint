@@ -98,8 +98,6 @@ When you change managed properties or add new ones, the changes take effect only
   
 When you have added a new property to a list or to a library, or when you have changed properties that are used in a list or library, search has to re-crawl the content before your changes will be reflected in the search index. Because your changes are made in the search schema, and not to the actual site, the search will not automatically re-crawl the list or the library. To make sure that your changes are crawled, you can specifically request a re-indexing of the list or library. When you do this, the list or library content will be re-crawled so that you can start using your new managed properties in queries, query rules and display templates.
   
-[Top of Page](manage-search-schema.md#__top)
-  
 ### Managed properties and Delve
 <a name="__toc351360840"> </a>
 

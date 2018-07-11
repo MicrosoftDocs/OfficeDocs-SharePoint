@@ -132,6 +132,7 @@ There are a few things you should check if one or more users in your organizatio
 - [Check that you've assigned the correct user licenses](delve-for-office-365-admins.md#BKMK_CheckLicense). 
     
  **Check that you allow your organization to access the Office Graph**
+<a name="#BKMK_OfficeGraphAcces"> </a>
   
 1. Sign in to Office 365 as a global admin or SharePoint admin.
     
@@ -143,6 +144,7 @@ There are a few things you should check if one or more users in your organizatio
     > If you have a SharePoint Online standalone service (SharePoint Online Plan 1 or SharePoint Online Plan 2) you'll see the Office Graph setting in the SharePoint admin center. However, users won't be able to use Delve or see Delve in the app launcher, because Delve is not available for standalone services yet. 
   
  **Check that you're using an Office 365 plan that supports Delve**
+<a name="#BKMK_CheckPlan"> </a>
   
 1. Sign in to Office 365 as a global admin or SharePoint admin.
     
@@ -163,6 +165,7 @@ There are a few things you should check if one or more users in your organizatio
   - Office 365 Business Premium 
     
  **Check that you've assigned the correct user licenses**
+<a name="#BKMK_CheckLicense"> </a>
   
 1. Sign in to Office 365 as a global admin or SharePoint admin.
     

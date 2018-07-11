@@ -3,7 +3,7 @@ title: "Required URLs and ports for OneDrive"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 4/3/2018
+ms.date: 04/3/2018
 ms.audience: Admin
 ms.topic: reference
 ms.service: one-drive

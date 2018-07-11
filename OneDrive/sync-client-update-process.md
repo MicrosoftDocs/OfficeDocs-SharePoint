@@ -3,7 +3,7 @@ title: "The OneDrive sync client update process"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 4/9/2018
+ms.date: 04/9/2018
 ms.audience: Admin
 ms.topic: reference
 ms.service: one-drive

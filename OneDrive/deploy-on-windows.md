@@ -3,7 +3,7 @@ title: "Deploy the new OneDrive sync client for Windows"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 7/6/2018
+ms.date: 07/6/2018
 ms.audience: Admin
 ms.topic: get-started-article
 ms.service: one-drive

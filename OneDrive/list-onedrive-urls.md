@@ -3,7 +3,7 @@ title: "Get a list of all user OneDrive URLs in your organization"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: one-drive

@@ -3,7 +3,7 @@ title: "OneDrive for Business"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 3/30/2018
+ms.date: 03/30/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: one-drive

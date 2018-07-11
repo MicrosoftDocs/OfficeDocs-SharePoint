@@ -2,8 +2,8 @@
 title: "Manage sharing in OneDrive and SharePoint"
 ms.author: kaarins
 author: kaarins
-manager: scotv
-ms.date: 6/29/2018
+manager: pamgreen
+ms.date: 06/29/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: one-drive

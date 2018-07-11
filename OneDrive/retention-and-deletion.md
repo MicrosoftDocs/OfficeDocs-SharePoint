@@ -2,8 +2,8 @@
 title: "OneDrive retention and deletion"
 ms.author: kaarins
 author: kaarins
-manager: scotv
-ms.date: 5/21/2018
+manager: pamgreen
+ms.date: 05/21/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: one-drive

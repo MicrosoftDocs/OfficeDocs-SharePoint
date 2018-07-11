@@ -3,7 +3,7 @@ title: "Block syncing of specific file types"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 6/21/2018
+ms.date: 06/21/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: one-drive

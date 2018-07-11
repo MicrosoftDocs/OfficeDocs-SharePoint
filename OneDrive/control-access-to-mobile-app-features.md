@@ -3,7 +3,7 @@ title: "Control access to features in the OneDrive and SharePoint mobile apps"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 6/25/2018
+ms.date: 06/25/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: one-drive

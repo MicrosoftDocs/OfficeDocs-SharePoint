@@ -3,7 +3,7 @@ title: "Transition from the previous OneDrive for Business sync client"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 6/29/2018
+ms.date: 06/29/2018
 ms.audience: Admin
 ms.topic: get-started-article
 ms.service: one-drive

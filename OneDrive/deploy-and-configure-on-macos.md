@@ -3,7 +3,7 @@ title: "Deploy and configure the new OneDrive sync client for Mac"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 6/28/2018
+ms.date: 06/28/2018
 ms.audience: Admin
 ms.topic: get-started-article
 ms.service: one-drive
