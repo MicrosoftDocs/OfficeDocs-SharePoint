@@ -149,8 +149,10 @@ For more information about service application endpoints, see [Using Service End
 |**Service name**|**In SharePoint Server**|**In SharePoint Foundation**|
 |:-----|:-----|:-----|
 |App management  <br/> |X  <br/> |X  <br/> |
-   
+
+
 **Note**: This account permits you to install SharePoint apps from the SharePoint Store or the App Catalog.
+
 
 |
 |**Account**|**Service**|**Purpose**|**Requirements**|
@@ -159,7 +161,7 @@ For more information about service application endpoints, see [Using Service End
 
 |**Service name**|**In SharePoint Server**|**In SharePoint Foundation**|
 |:-----|:-----|:-----|
-|PowerPoint conversion service  <br/> |X  <br/> ||
+|PowerPoint conversion service  <br/> |X  <br/> | |
    
 **Note**: This account converts Microsoft PowerPoint presentations into various formats.  <br/>
 
