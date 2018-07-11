@@ -33,7 +33,7 @@ The articles in this section help you to make the following decisions regarding 
     
 In this section:
   
-- [Capacity management and sizing overview for SharePoint Server 2013](http://technet.microsoft.com/library/45dc078f-de39-425c-a94f-1de78b68052e%28Office.14%29.aspx)
+- [Capacity management and sizing overview for SharePoint Server 2013](https://technet.microsoft.com/en-us/library/ff758647.aspx)
     
 - [Capacity planning for SharePoint Server 2013](capacity-planning.md)
     
