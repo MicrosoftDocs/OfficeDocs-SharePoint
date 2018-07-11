@@ -43,7 +43,7 @@ Before you begin to install and configure SharePoint Server 2016, do the followi
     
 - Ensure that you are prepared to set up the required accounts by using appropriate permissions. For detailed information, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
     
-- Ensure the Max degree of parallelism is set to 1. For additional information about max degree of parallelism see, [Configure the max degree of parallelism Server Configuration Option](http://go.microsoft.com/fwlink/?prd=12467&amp;pver=1.0&amp;sbp=Parallel&amp;plcid=0x409&amp;clcid=0x409&amp;ar=SQL Server 2016&amp;sar=Paralellism)and [Degree of Parallelism](http://go.microsoft.com/fwlink/?prd=12467&amp;pver=1.0&amp;sbp=Parallelism&amp;plcid=0x409&amp;clcid=0x409&amp;ar=SQL Server 2016&amp;sar=Paralellism)
+- Ensure the Max degree of parallelism is set to 1. For additional information about max degree of parallelism see, [Configure the max degree of parallelism Server Configuration Option](https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/configure-the-max-degree-of-parallelism-server-configuration-option?view=sql-server-2017).
     
  **Security note**: As a security best practice, we recommend that you install SharePoint Server 2016 by using least-privilege administration. 
   
