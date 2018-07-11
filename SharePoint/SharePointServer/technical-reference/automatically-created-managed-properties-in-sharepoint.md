@@ -86,19 +86,19 @@ To query for items tagged with a Managed Metadata field, you have to use the Uni
     
 For example, let's say that you have a catalog of restaurants around the world. The catalog has a managed metadata site column named Location, which is tied to the term set named World. The term set has the following structure (the GUID for each term is shown in parentheses): 
   
-> World (fc01ae6d-8ed3-4872-9cef-d2199d52d61c)
+- World (`fc01ae6d-8ed3-4872-9cef-d2199d52d61c`)
     
-    - India (c8a43f13-5ea1-45f2-b46d-3a1986a1cbd7)
+    - India (`c8a43f13-5ea1-45f2-b46d-3a1986a1cbd7`)
     
-  - Mumbai (ad491ed9-c21c-46d9-896c-c0d148957c60)
+        - Mumbai (`ad491ed9-c21c-46d9-896c-c0d148957c60`)
     
-  - Delhi (c195b6e0-9062-446a-9af1-8ec1a642fede)
+        - Delhi (`c195b6e0-9062-446a-9af1-8ec1a642fede`)
     
-    - France (17587ed2-8433-45a4-9f4b-6825164fcd09)
+    - France (`17587ed2-8433-45a4-9f4b-6825164fcd09`)
     
-  - Paris (01031cfe-2492-47f1-8723-45c63ef70ec9)
+         - Paris (`01031cfe-2492-47f1-8723-45c63ef70ec9`)
     
-  - Lyon (3b2137a9-3c3a-4676-a50a-14f72ab29175)
+         - Lyon (`3b2137a9-3c3a-4676-a50a-14f72ab29175`)
     
 The catalog entries and examples of queries are shown in the following tables. 
   
