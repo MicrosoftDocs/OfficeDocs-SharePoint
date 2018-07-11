@@ -20,7 +20,7 @@ If you're working with vendors, clients, or customers outside of your organizati
   
 External sharing is controlled at both the tenant level (global settings that affect all of SharePoint Online) and the site collection level. The tenant-level settings determine what options are available at the site collection level.
   
-The external sharing settings for individual site collections cannot be ** *less* ** restrictive than whatever is allowed at the tenant level, but these settings can be ** *more* ** restrictive. For example, if external sharing is turned on at the tenant level, but it is limited to allowing only authenticated users, then that will be the only kind of external sharing you can allow in a specific site collection. If external sharing through both sign-in and anonymous guest links is allowed at the tenant level, then those options are also available for each site collection. 
+The external sharing settings for individual site collections cannot be *less* restrictive than whatever is allowed at the tenant level, but these settings can be *more* restrictive. For example, if external sharing is turned on at the tenant level, but it is limited to allowing only authenticated users, then that will be the only kind of external sharing you can allow in a specific site collection. If external sharing through both sign-in and anonymous guest links is allowed at the tenant level, then those options are also available for each site collection. 
   
 Choose one of the tabs below to configure sharing in SharePoint Online.
   
