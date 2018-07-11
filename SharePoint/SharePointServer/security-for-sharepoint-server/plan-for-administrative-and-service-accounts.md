@@ -154,7 +154,6 @@ For more information about service application endpoints, see [Using Service End
 **Note**: This account permits you to install SharePoint apps from the SharePoint Store or the App Catalog.
 
 
-|
 |**Account**|**Service**|**Purpose**|**Requirements**|
 |:-----|:-----|:-----|:-----|
 |PowerPoint Conversion Service  <br/> |
