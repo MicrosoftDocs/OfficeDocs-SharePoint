@@ -22,7 +22,7 @@ Your Office 365 tenant ID is a globally unique identifier (GUID) that is differe
   
 If you do need to find your Office 365 tenant ID, it's pretty easy. Choose one of the following procedures.
   
- **Use the Azure AD portal**
+## Use the Azure AD portal
   
 Office 365 uses Azure AD to manage user accounts.
   
@@ -36,7 +36,7 @@ You can find your tenant ID in the Azure AD portal. You'll need to be an Azure A
     
 3. Under **Manage**, click **Properties**. The tenant ID is shown in the **Directory ID** box. 
     
- **Use Windows PowerShell**
+## Use Windows PowerShell
   
 You can use Windows PowerShell to find the tenant ID. You'll need the [Microsoft Azure PowerShell module](https://go.microsoft.com/fwlink/p/?LinkId=717444).
   
