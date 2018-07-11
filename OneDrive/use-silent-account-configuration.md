@@ -5,7 +5,7 @@ author: kaarins
 ms.date: 6/25/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: one-drive
 localization_priority: Normal
 search.appverid: ODB160
 ms.assetid: 64aa1f56-d7f6-4500-a408-1fde8fe6db36

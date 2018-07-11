@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 5/15/2018
 ms.audience: Admin
 ms.topic: article
-ms.prod: office-online-server
+ms.service: one-drive
 localization_priority: Normal
 search.appverid: ODB160
 ms.assetid: e487f40d-5321-46a8-9504-92b600b65cb9

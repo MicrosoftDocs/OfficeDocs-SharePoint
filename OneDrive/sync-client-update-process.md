@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 4/9/2018
 ms.audience: Admin
 ms.topic: reference
-ms.prod: office-online-server
+ms.service: one-drive
 localization_priority: Normal
 search.appverid: ODB160
 ms.assetid: 2f748bc6-6f01-4406-a791-ec047f066d6d

@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 6/29/2018
 ms.audience: Admin
 ms.topic: get-started-article
-ms.prod: office-online-server
+ms.service: one-drive
 localization_priority: Priority
 ms.collection: Strat_OD_sync
 search.appverid:

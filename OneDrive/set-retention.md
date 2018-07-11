@@ -8,7 +8,7 @@ ms.audience: Admin
 ms.topic: article
 f1_keywords:
 - 'O365E_ODACStorage'
-ms.prod: office-online-server
+ms.service: one-drive
 localization_priority: Normal
 ms.collection: Strat_OD_admin
 search.appverid:
