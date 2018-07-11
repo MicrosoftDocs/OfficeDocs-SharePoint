@@ -150,7 +150,8 @@ For more information about service application endpoints, see [Using Service End
 |:-----|:-----|:-----|
 |App management  <br/> |X  <br/> |X  <br/> |
    
-**Note**: This account permits you to install SharePoint apps from the SharePoint Store or the App Catalog. 
+**Note**: This account permits you to install SharePoint apps from the SharePoint Store or the App Catalog.
+
 |
 |**Account**|**Service**|**Purpose**|**Requirements**|
 |:-----|:-----|:-----|:-----|
