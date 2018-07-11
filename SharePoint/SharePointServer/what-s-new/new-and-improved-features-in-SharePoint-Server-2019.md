@@ -89,7 +89,7 @@ SharePoint Server 2019 can now render PDF documents on the server. Users no long
 
 SharePoint Server 2019 now supports push notification to OneDrive sync clients. This gives OneDrive sync clients immediate notifications when changes are made to content they have a sync relationship with. Now users’ synced content will be refreshed as soon as changes are made instead of waiting for the next polling interval.
 
-### SharePoint using modern Internat Information Services (IIS) APIs
+### SharePoint using modern Internet Information Services (IIS) APIs
 
 SharePoint has modernized its integration with IIS by removing all of our dependencies on the legacy IIS6 APIs.  SharePoint now uses the IIS7+ APIs to manage IIS, which are the latest and best supported APIs from the IIS team.  This allows us to more easily adopt new IIS features and stay compatible with future Windows Server releases.
 
@@ -103,7 +103,7 @@ As a result of this change, the following Windows Server features will no longer
 
 Additionally, automatic mode for the incoming email feature will no longer be supported. Automatic mode used the IIS6 APIs to directly manage the IIS SMTP service, but the IIS SMTP service was never updated to use modern IIS APIs. SharePoint customers can still use the incoming email feature in advanced mode and manually manage their IIS SMTP service. For more information, see the **Incoming email automatic mode** section in What's deprecated or removed from SharePoint Server 2019.
 
-## SharePoint home page
+### SharePoint home page
 
 The SharePoint home  page is a modern UI experience that gives users unified access to all of their sites—online and on-premises. It allows users to navigate seamlessly through their intranet, catch up with activity across their sites with just a glance, and provides a personalized view of all team news. 
 
