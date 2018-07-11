@@ -30,7 +30,7 @@ As a SharePoint or global admin in Office 365, you can block or limit access to 
 Blocking access helps provide security but comes at the cost of usability and productivity. Limiting access allows users to remain productive while addressing the risk of accidental data loss on unmanaged devices. When you limit access, users on managed devices will have full access (unless they use one of the browser and operating system combinations listed below). Users on unmanaged devices will have browser-only access with no ability to download, print, or sync files. They also won't be able to access content through apps, including the Microsoft Office desktop apps. When you limit access, you can choose to allow or block editing files in the browser.
   
 > [!NOTE]
-> Blocking or limiting access on unmanaged devices relies on Azure AD conditional access policies. [https://azure.microsoft.com/pricing/details/active-directory/](Learn about Azure AD licensing.md) For an overview of conditional access in Azure AD, see [Conditional access in Azure Active Directory](https://go.microsoft.com/fwlink/?linkid=857717). For info about recommended SharePoint access policies, see [Policy recommendations for securing SharePoint sites and files](https://go.microsoft.com/fwlink/?linkid=871728). > If you limit access on unmanaged devices, users on managed devices who have the following browser and operating system combinations will also have limited access: > Chrome, Firefox, or any other browser besides Microsoft Edge and Microsoft Internet Explorer on Windows 10 or Windows Server 2016 > Firefox in Windows 8.1, Windows 7, Windows Server 2012 R2, Windows Server 2012, or Windows Server 2008 R2 
+> Blocking or limiting access on unmanaged devices relies on Azure AD conditional access policies. [https://azure.microsoft.com/pricing/details/active-directory/](Learn about Azure AD licensing.md) For an overview of conditional access in Azure AD, see [Conditional access in Azure Active Directory](https://go.microsoft.com/fwlink/?linkid=857717). For info about recommended SharePoint access policies, see [Policy recommendations for securing SharePoint sites and files](https://go.microsoft.com/fwlink/?linkid=871728). If you limit access on unmanaged devices, users on managed devices who have the following browser and operating system combinations will also have limited access: Chrome, Firefox, or any other browser besides Microsoft Edge and Microsoft Internet Explorer on Windows 10 or Windows Server 2016, Firefox in Windows 8.1, Windows 7, Windows Server 2012 R2, Windows Server 2012, or Windows Server 2008 R2 
   
 ## Block access to SharePoint and OneDrive content using the SharePoint admin center
 
@@ -127,13 +127,13 @@ To block or limit access to specific sites, you must set the organization-wide p
 
 The following parameters can be used with  `-ConditionalAccessPolicy AllowLimitedAccess` for both the organization-wide setting and the site-level setting: 
   
- ** `-AllowEditing $false`** Prevents users from editing Office files in the browser and copying and pasting Office file contents out of the browser window. 
+ `-AllowEditing $false` Prevents users from editing Office files in the browser and copying and pasting Office file contents out of the browser window. 
   
- ** `-LimitedAccessFileType -OfficeOnlineFilesOnly`** Allows users to preview only Office files in the browser. This option increases security but may be a barrier to user productivity. 
+ `-LimitedAccessFileType -OfficeOnlineFilesOnly` Allows users to preview only Office files in the browser. This option increases security but may be a barrier to user productivity. 
   
- ** `-LimitedAccessFileType -WebPreviewableFiles`** (default) Allows users to preview Office files and other file types (such as PDF files and images) in the browser. Note that the contents of file types other than Office files are handled in the browser. This option optimizes for user productivity but offers less security for files that aren't Office files. 
+ `-LimitedAccessFileType -WebPreviewableFiles` (default) Allows users to preview Office files and other file types (such as PDF files and images) in the browser. Note that the contents of file types other than Office files are handled in the browser. This option optimizes for user productivity but offers less security for files that aren't Office files. 
   
- ** `-LimitedAccessFileType -OtherFiles`** Allows users to download files that can't be previewed, such as .zip and .exe. This option offers less security. 
+ `-LimitedAccessFileType -OtherFiles` Allows users to download files that can't be previewed, such as .zip and .exe. This option offers less security. 
   
 The AllowDownlownloadingNonWebViewableFiles parameter has been discontinued. Please use LimitedAccessFileType instead.
   

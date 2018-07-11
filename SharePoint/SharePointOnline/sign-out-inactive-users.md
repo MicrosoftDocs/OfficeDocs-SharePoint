@@ -37,7 +37,7 @@ If they don't click **Continue**, they'll be automatically signed out and will s
 ![Office 365 signed out due to inactivity message](media/acc48304-dacd-41db-a4b6-8702cb6afa04.png)
   
 > [!NOTE]
-> If a user is active in another Office 365 service (such as Outlook), but inactive in SharePoint and OneDrive, they'll be signed out across Office 365. If a user has multiple tabs to OneDrive and SharePoint sites open at the same time, they won't be signed out unless they are inactive on all the sites. > Users won't be signed out if they selected to stay signed in when they signed in. For info about hiding this option, see [Add company branding to your sign-in page in Azure AD](https://go.microsoft.com/fwlink/?linkid=2003520). > Users won't be signed out on a managed device (one that is compliant or joined to a domain), unless they're using inPrivate mode or a browser other than Edge or Internet Explorer. If they use Google Chrome, you need to use an extension to pass the device state claim. For more info about device state claims, see [Azure AD conditional access settings](https://go.microsoft.com/fwlink/?linkid=2003424). 
+> If a user is active in another Office 365 service (such as Outlook), but inactive in SharePoint and OneDrive, they'll be signed out across Office 365. If a user has multiple tabs to OneDrive and SharePoint sites open at the same time, they won't be signed out unless they are inactive on all the sites. > Users won't be signed out if they selected to stay signed in when they signed in. For info about hiding this option, see [Add company branding to your sign-in page in Azure AD](https://go.microsoft.com/fwlink/?linkid=2003520). Users won't be signed out on a managed device (one that is compliant or joined to a domain), unless they're using inPrivate mode or a browser other than Edge or Internet Explorer. If they use Google Chrome, you need to use an extension to pass the device state claim. For more info about device state claims, see [Azure AD conditional access settings](https://go.microsoft.com/fwlink/?linkid=2003424). 
   
 ## Configure the idle session sign-out policy
 
@@ -53,7 +53,7 @@ This policy is configured using Microsoft PowerShell.
   Set-SPOBrowserIdleSignOut -Enabled $true -WarnAfter (New-TimeSpan -Seconds 2700) -SignOutAfter (New-TimeSpan -Seconds 3600) 
   ```
 
-    Where:
+   Where:
     
   - -Enabled specifies whether idle session sign-out is enabled or disabled by using $true or $false.
     
@@ -62,6 +62,6 @@ This policy is configured using Microsoft PowerShell.
   - -SignOutAfter specifies the amount of time after which is a user is signed out of Office 365 if they do not respond to the -WarnAfter prompt.
     
 > [!NOTE]
-> You must specify values for both WarnAfter and SignOutAfter. The SignOutAfter must be greater than the WarnAfter value. > It takes about 15 minutes for the policy to take effect across your organization. The policy doesn't affect existing sessions. > To view the idle session sign-out values you've set, use the Get-SPOBrowserIdleSignOut cmdlet. > For info about Office 365 session lengths (regardless of activity), see [Session timeouts for Office 365](https://support.office.com/article/37a5c116-5b07-4f70-8333-5b86fd2c3c40). 
+> You must specify values for both WarnAfter and SignOutAfter. The SignOutAfter must be greater than the WarnAfter value. > It takes about 15 minutes for the policy to take effect across your organization. The policy doesn't affect existing sessions. To view the idle session sign-out values you've set, use the Get-SPOBrowserIdleSignOut cmdlet. For info about Office 365 session lengths (regardless of activity), see [Session timeouts for Office 365](https://support.office.com/article/37a5c116-5b07-4f70-8333-5b86fd2c3c40). 
   
 

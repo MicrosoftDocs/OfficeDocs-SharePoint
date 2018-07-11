@@ -78,10 +78,8 @@ By default, the name of the managed property will be used as a display name for 
      `"rf_RefinementTitle_ManagedPropertyName": "Sample Refinement Title for ManagedPropertyName"`
     
     For example, add this line to change the display name for the managed property **RefinableInt00** to **Price**: 
-    
-  ```
-  "rf_RefinementTitle_RefinableInt00": "Price".
-  ```
+  
+      `"rf_RefinementTitle_RefinableInt00": "Price"`
 
 8. Save the file.
     

@@ -52,7 +52,7 @@ Follow these steps if you want to preview the syncing of SharePoint Online files
 2. Download and open [TeamSiteSyncPreview.reg](https://go.microsoft.com/fwlink/?LinkId=827743) to enable SharePoint document library sync. 
     
     > [!NOTE]
-    >  There are known issues when you use the registry keys to preview the feature using Internet Explorer on Windows 7, or on SharePoint sites that use the classic experience. These issues don't affect the feature when you enable it in the SharePoint admin center. >  Enabling TeamSiteSyncPreview.reg makes the OneDrive sync client update on the Insiders Ring. For info about the build currently released to this ring, see [New OneDrive sync client release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0). 
+    >  There are known issues when you use the registry keys to preview the feature using Internet Explorer on Windows 7, or on SharePoint sites that use the classic experience. These issues don't affect the feature when you enable it in the SharePoint admin center. Enabling TeamSiteSyncPreview.reg makes the OneDrive sync client update on the Insiders Ring. For info about the build currently released to this ring, see [New OneDrive sync client release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0). 
   
 3. Restart the sync client:
     

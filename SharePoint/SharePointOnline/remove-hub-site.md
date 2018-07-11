@@ -27,6 +27,6 @@ If you're a global or SharePoint admin in Office 365, you can remove a hub site 
   Unregister-SPOHubSite URL
   ```
 
-    (Where  *URL*  is the URL of the site.) 
+   (Where  *URL*  is the URL of the site.) 
     
 

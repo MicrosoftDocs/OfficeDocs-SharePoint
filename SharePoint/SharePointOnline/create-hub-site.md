@@ -18,7 +18,7 @@ description: "Learn how to use PowerShell to create a hub site in SharePoint Onl
 If you're a global or SharePoint admin in Office 365, you can convert any existing site to a hub site using Microsoft PowerShell.
   
 > [!NOTE]
->  We recommend selecting a communication site, or a team site that uses the new template. If you use a classic team site, the hub navigation will appear only on modern pages, and hub site settings will only appear on modern pages. Sites that are already associated with another hub can't be converted to a hub site. >  You can create up to 50 hub sites for an organization. There is no limit on the number of sites that can be associated with a hub site. >  Hub sites don't support OneDrive and SharePoint Multi-Geo features. >  When users associate their sites with a hub, it doesn't impact the permissions of either the hub site or the associated sites. It's important to make sure all users you allow to associate sites to the hub have permission to the hub. 
+>  We recommend selecting a communication site, or a team site that uses the new template. If you use a classic team site, the hub navigation will appear only on modern pages, and hub site settings will only appear on modern pages. Sites that are already associated with another hub can't be converted to a hub site. You can create up to 50 hub sites for an organization. There is no limit on the number of sites that can be associated with a hub site.  Hub sites don't support OneDrive and SharePoint Multi-Geo features.  When users associate their sites with a hub, it doesn't impact the permissions of either the hub site or the associated sites. It's important to make sure all users you allow to associate sites to the hub have permission to the hub. 
   
 ## Create a hub site using PowerShell
 
@@ -34,7 +34,7 @@ If you're a global or SharePoint admin in Office 365, you can convert any existi
   Register-SPOHubSite URL
   ```
 
-    (Where  *URL*  is the URL of the site.) 
+   (Where  *URL*  is the URL of the site.) 
     
 5. When prompted with **Principals[0]**, provide the group created in step 3, or the UPN of an individual user. You can enter additional principals, one per line. Once you are finished assigning permissions, press Enter. If you want all site owners in the organization to be able to associate their sites with the hub, press Enter at the first prompt.﻿ 
     

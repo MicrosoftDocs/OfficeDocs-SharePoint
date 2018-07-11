@@ -29,7 +29,7 @@ You can create your own result sources, or use the predefined result sources. Af
     
   - For the **tenant**: 
     
-    UNRESOLVED_TOKENBLOCK_VAL(O365_SharePoint_Global_Admin_Signin )
+    Log in to Office 365.
     
     Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     

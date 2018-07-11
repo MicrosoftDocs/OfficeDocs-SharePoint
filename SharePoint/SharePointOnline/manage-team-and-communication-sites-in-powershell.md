@@ -32,7 +32,7 @@ By default, team sites that belong to Office 365 groups and communication sites 
   Set-SPOSite -Identity <site URL> -SharingCapability <sharing level>
   ```
 
-    (Where  _\<site URL\>_ is the URL of the site and  _\<sharing level\>_ is Disabled, ExternalUserSharingOnly, or ExternalUserAndGuestSharing.) For example,  `Set-SPOSite -Identity https://contoso.sharepoint.com/sites/site1 -SharingCapability ExternalUserSharingOnly`. This cmdlet is executed immediately.
+   (Where  _\<site URL\>_ is the URL of the site and  _\<sharing level\>_ is Disabled, ExternalUserSharingOnly, or ExternalUserAndGuestSharing.) For example,  `Set-SPOSite -Identity https://contoso.sharepoint.com/sites/site1 -SharingCapability ExternalUserSharingOnly`. This cmdlet is executed immediately.
     
 To view the existing sharing setting, run the following command.
   
@@ -57,7 +57,7 @@ If you manage site collection storage limits manually, you can use PowerShell to
   Get-SPOSite -Identity <site URL> -detailed |fl
   ```
 
-    (Where \<site URL\> is the URL of the group or site.) The command will return "StorageQuota" in megabytes, for example 1048576 for 1 TB or 5242880 for 5 TB.
+   (Where \<site URL\> is the URL of the group or site.) The command will return "StorageQuota" in megabytes, for example 1048576 for 1 TB or 5242880 for 5 TB.
     
 4. Run this command to set the storage space for the site:
     
@@ -65,7 +65,7 @@ If you manage site collection storage limits manually, you can use PowerShell to
   Set-SPOSite -<site URL> -StorageQuota <limit> -StorageQuotaWarningLevel <warning>
   ```
 
-    (Where \<site URL\> is the name of the group or site, \<limit\> is the storage limit in megabytes, and \<warning\> is the storage warning level in megabytes.)
+   (Where \<site URL\> is the name of the group or site, \<limit\> is the storage limit in megabytes, and \<warning\> is the storage warning level in megabytes.)
     
 To verify that the set action worked, run the Get-SPOSite cmdlet again and make sure the storage space was updated. 
   
@@ -86,7 +86,7 @@ Follow these steps to get a list of all communication sites in your organization
   Get-SPOSite -Template SITEPAGEPUBLISHING#0 
   ```
 
-    Or run this command to get a list of team sites that belong to Office 365 groups:
+   Or run this command to get a list of team sites that belong to Office 365 groups:
     
   ```
   Get-SPOSite -Template GROUP#0 -Includepersonalsite:$false

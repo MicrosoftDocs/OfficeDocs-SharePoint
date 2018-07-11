@@ -130,10 +130,10 @@ You can use the following PowerShell script to monitor your site collections. Th
   ./GetEmailWarning.ps1
   ```
 
-    After the script successfully completes, a text file is created in the location that you specified in the **\<Local folder path\>** variable in the script. 
+   After the script successfully completes, a text file is created in the location that you specified in the **\<Local folder path\>** variable in the script. 
     
-    > [!NOTE]
-    > If you get an error message about being unable to run scripts, you might need to change your execution policies. For info, see [About Execution Policies](https://go.microsoft.com/fwlink/?linkid=869255). 
+   > [!NOTE]
+   > If you get an error message about being unable to run scripts, you might need to change your execution policies. For info, see [About Execution Policies](https://go.microsoft.com/fwlink/?linkid=869255). 
   
 ## How SharePoint storage is calculated
 <a name="storagecalculation"> </a>

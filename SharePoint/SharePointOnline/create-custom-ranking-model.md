@@ -37,8 +37,8 @@ Example: A food store has added a new managed property "gluten-free" and wants t
   
 Example: An accountancy company wants Excel workbooks (file type) to have higher ranking weight than what they get when using the standard ranking model.
     
-    > [!IMPORTANT]
-    >  Creating a custom ranking model is rather complex, and you should not take this lightly. For a good result, expect to invest time on tasks such as judging a considerable number of queries. 
+   > [!IMPORTANT]
+   >  Creating a custom ranking model is rather complex, and you should not take this lightly. For a good result, expect to invest time on tasks such as judging a considerable number of queries. 
   
 Learn more about ranking and ranking models: 
   
@@ -265,6 +265,5 @@ When you publish your ranking model, you'll get a GUID that identifies the ranki
     
 - [Manage the search schema in SharePoint Server 2013](https://technet.microsoft.com/en-us/library/jj219667.aspx)
     
-[If the standard SharePoint 2013 ranking models don't satisfy the relevance requirements you have, you can create a custom ranking model. With the Ranking Model Tuning App, you can do this more easily than before. The app provides a user interface for copying an existing ranking model, judge the results for a set of queries, add or remove rank features, and adjust the weight of these features. Finally, you can evaluate the changes, and publish the new ranking model when you're satisfied with the results.](create-custom-ranking-model.md#__top)
   
 

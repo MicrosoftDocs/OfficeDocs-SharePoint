@@ -67,8 +67,8 @@ Here are some important considerations for setting a location-based policy:
   Set-SPOTenant -IPAddressAllowList "131.102.0.0/16"
   ```
 
-    > [!IMPORTANT]
-    >  Use IPv4 or IPv6 formats ony. >  Verify that there are no overlapping IP address ranges. >  Double check the IP range(s) before enabling this policy to ensure you do not lock yourself out. 
+   > [!IMPORTANT]
+   >  Use IPv4 or IPv6 formats ony. >  Verify that there are no overlapping IP address ranges. >  Double check the IP range(s) before enabling this policy to ensure you do not lock yourself out. 
   
 4. Enforce the allowable IP ranges you just set as in this example:
     
