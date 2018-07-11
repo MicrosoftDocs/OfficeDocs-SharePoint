@@ -114,8 +114,8 @@ For more information about service application endpoints, see [Using Service End
 
 |**Account**|**Service**|**Purpose**|**Requirements**|
 |:-----|:-----|:-----|:-----|
-
 |Search Service  <br/> |
+
 |**Service name**|**In SharePoint Server**|**In SharePoint Foundation**|
 |:-----|:-----|:-----|
 |SharePoint Server Search  <br/> |X  <br/> ||
