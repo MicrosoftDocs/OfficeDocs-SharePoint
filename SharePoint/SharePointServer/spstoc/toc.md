@@ -5,6 +5,7 @@
 ## [SharePoint Updates](/OfficeUpdates/sharepoint-updates?toc=/sharepoint/spstoc/toc.json)
 ## [Accessibility guidelines](../accessibility-guidelines.md)
 ## [What's new](../what-s-new/what-s-new.md)
+### [New and improved features in SharePoint Server 2019](../what-s-new/new-and-improved-features-in-SharePoint-Server-2019.md)
 ### [New and improved features in SharePoint Server 2016](../what-s-new/new-and-improved-features-in-sharepoint-server-2016.md)
 #### [New features in Feature Pack 1](../what-s-new/new-features-in-feature-pack-1.md)
 #### [New feature in Feature Pack 2](../what-s-new/new-feature-in-feature-pack-2.md)
