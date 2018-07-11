@@ -3,7 +3,7 @@ title: "New and improved features in the SharePoint Migration Tool"
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
-ms.date: 6/27/2018
+ms.date: 7/3/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -19,7 +19,38 @@ Learn about the new features and updates to existing features in SharePoint Migr
 >[!NOTE]
 >To install the current release download here: [SharePoint Migration Tool](http://spmtreleasescus.blob.core.windows.net/install/default.htm)
   
+### SPMT V2.1.100.0
 
+**New features**
+
+The following features were added to SharePoint Migration Tool, Version 2.1.100.0
+
+|**Feature**|**Description**|
+|:-----|:-----|
+|Powershell migration solution* <br/> |All features of the SharePoint Migration Tool (SPMT) can now be done by using PowerShell cmdlets.<br>
+|Settings<br/> |Improved labels and text descriptions for settings.  <br/> |
+
+**Note:**<br>
+To use the SPMT 2.1 PowerShell feature (currently in open beta): <br>  
+1. Open SPMT v2.1. The PowerShell .dll's will be copied to      *%userprofile%\Documents\WindowsPowerShell\Modules*<br>
+2. Run the following:<br>
+    ```powershell
+    Import-Module Microsoft.SharePoint.MigrationTool.PowerShell
+    ```
+    <br>To learn more, see:<br> 
+[Migrate to SharePoint Online using PowerShell](https://docs.microsoft.com/en-us/sharepointmigration/overview-spmt-ps-cmdlets)<br>
+[SharePoint Migration Tool PowerShell Reference](https://docs.microsoft.com/en-us/powershell/module/spmt)
+
+   
+**Improvements**
+
+In addition to a number of minor fixes, here are the primary improvements made in this release:
+  
+|**Issue**|**Fix**|
+|:-----|:-----|
+|Stability  <br/> |General improvements have been made to remove some errors in tool.  <br/> |
+|Permissions settings<br/> |Separate settings are now available to set file share permissions and the SharePoint on-premises permissions. <br/> |
+|Changes to migrating multiple versions <br/> |Checked-in version(s) of a file will migrate but any the checked-out version will not. <br/> |
 
 ### SPMT V1.1.90.1
 

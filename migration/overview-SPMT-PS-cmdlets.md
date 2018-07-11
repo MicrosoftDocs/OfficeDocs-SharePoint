@@ -3,7 +3,7 @@ title: "Using PowerShell cmdlets to migrate to SharePoint Online"
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
-ms.date: 6/20/2018
+ms.date: 7/3/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
@@ -18,7 +18,7 @@ ms.custom:
 description: "New Powershell cmdlets let you migrate to SharePoint Online."
 ---
 
-# PowerShell Cmdlets for SPO Migration 
+# Migrate to SharePoint Online using PowerShell
 
 This article is about the new PowerShell cmdlets based on the SharePoint Migration Tool (SPMT) migration engine. They can be used to move files from SharePoint 2013 on-premises document libraries and list items, and file shares to Office 365.
 
