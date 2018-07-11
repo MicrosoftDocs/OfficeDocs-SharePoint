@@ -92,7 +92,7 @@ As we announced in the SharePoint Community Blog, site mailboxes are being [depr
 
 ### Site Manager
 
-The main functionality of Site Manager is now available in modern file move. Therefore, the Site Manager feature will be supported, but deprecated, in SharePoint Server 2019. Only site collection administrators will have permission to access the Site Manager page and the UI entry points to this page will be removed.
+The main functionality of Site Manager is now available in modern file move. The Site Manager feature will be supported, but it is deprecated in SharePoint Server 2019. Only site collection administrators will have permission to access the Site Manager page and the UI entry points to this page will be removed.
 
 ## Removed features in SharePoint Server 2019
 
@@ -112,20 +112,6 @@ To ensure we remain compatible with potential future releases of Windows Server,
 
 As announced by the Windows Server team, Microsoft is [deprecating](https://docs.microsoft.com/windows-server/get-started/removed-features-1709) the IIS 6 Management compatibility features in Internet Information Services (IIS). The automatic mode of the SharePoint incoming email feature relies on IIS 6 APIs to manage the IIS SMTP service. Because no alternative APIs exist to manage the IIS SMTP service, we are removing support for automatic mode in the incoming email feature of SharePoint Server 2019. Customers using incoming email are recommended to use advanced mode instead, which allows you to manually manage the IIS SMTP service and drop folder.
 
-### Legacy IIS6 API dependencies
-
-SharePoint has modernized its integration with IIS by removing all of our dependencies on the legacy IIS6 APIs.  SharePoint now uses the IIS7+ APIs to manage IIS, which are the latest and best supported APIs from the IIS team.  This allows us to more easily adopt new IIS features and stay compatible with future Windows Server releases.
-
-As a result of this change, the following Windows Server features will no longer be installed by the SharePoint prerequisite installer:
-
-- IIS 6 Management Compatibility (Web-Mgmt-Compat)
-
-- IIS 6 Metabase Compatibility (Web-Metabase)
-
-- IIS 6 Scripting Tools (Web-Lgcy-Scripting)
-
-Additionally, automatic mode for the incoming email feature will no longer be supported. Automatic mode used the IIS6 APIs to directly manage the IIS SMTP service, but the IIS SMTP service was never updated to use modern IIS APIs. SharePoint customers can still use the incoming email feature in advanced mode and manually manage their IIS SMTP service.
-
 ### Multi-Tenancy
 
 As Microsoft continues to innovate in SharePoint Online, an increasing amount of SharePoint multi-tenancy capabilities are taking dependencies on cloud technologies that aren’t available in on-premises environments. The cost and complexity of providing an on-premises alternative has become prohibitive, so we will no longer support multi-tenancy in the SharePoint Server 2019 release. Existing SharePoint Server customers who depend on multi-tenancy are recommended to explore migrating to SharePoint Online. Other options include migrating to a non-multi-tenancy farm configuration or remaining with SharePoint Server 2016.
@@ -136,4 +122,4 @@ Since the feature was first introduced in SharePoint, Microsoft BI strategy has 
 
 ### Visio Services - Silverlight Based Rendering
 
-Visio Services has 2 options for rendering Visio diagrams: Microsoft Silverlight-based and PNG-based. Microsoft Silverlight is a technology that will no longer be supported as of October 12, 2021. Therefore, Silverlight-based rendering will no longer be supported in SharePoint Server 2019. Visio Services will only render Visio diagrams using the PNG-based technology.
+Visio Services has 2 options for rendering Visio diagrams: Microsoft Silverlight-based and PNG-based. Microsoft Silverlight is a technology that will no longer be supported as of October 12, 2021. This means that, Silverlight-based rendering will no longer be supported in SharePoint Server 2019. Visio Services will only render Visio diagrams using the PNG-based technology.

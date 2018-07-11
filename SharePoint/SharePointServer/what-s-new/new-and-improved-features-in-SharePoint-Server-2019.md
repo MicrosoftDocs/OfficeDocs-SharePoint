@@ -89,11 +89,7 @@ SharePoint Server 2019 can now render PDF documents on the server. Users no long
 
 SharePoint Server 2019 now supports push notification to OneDrive sync clients. This gives OneDrive sync clients immediate notifications when changes are made to content they have a sync relationship with. Now users’ synced content will be refreshed as soon as changes are made instead of waiting for the next polling interval.
 
-### Self-service site creation on the SharePoint home page now supports AAM zones
-
-The self-service site creation experience on the SharePoint home page now fully supports non-Default Alternate Access Mapping (AAM) zones. When creating sites in a different web application on a remote farm, make sure that an external resource has been created in AAM on both the local farm and the remote farm. This applies to sites created in the same web application, sites created in a different web application on the local farm, and sites created in a different web application on a remote farm. SharePoint will treat the external resource as an external web application. The external resource on the local farm should be fully populated with the URLs and zones of the web application on the remote farm. And conversely, the external resource on the remote farm should be fully populated with the URLs and zones of the web application on the local farm. Be sure that the zones of the local web application and the remote web application are synchronized.
-
-### SharePoint Internat Information Services
+### SharePoint using modern Internat Information Services (IIS) APIs
 
 SharePoint has modernized its integration with IIS by removing all of our dependencies on the legacy IIS6 APIs.  SharePoint now uses the IIS7+ APIs to manage IIS, which are the latest and best supported APIs from the IIS team.  This allows us to more easily adopt new IIS features and stay compatible with future Windows Server releases.
 
@@ -105,7 +101,7 @@ As a result of this change, the following Windows Server features will no longer
 
 - IIS 6 Scripting Tools (Web-Lgcy-Scripting)
 
-Additionally, automatic mode for the incoming email feature will no longer be supported. Automatic mode used the IIS6 APIs to directly manage the IIS SMTP service, but the IIS SMTP service was never updated to use modern IIS APIs. SharePoint customers can still use the incoming email feature in advanced mode and manually manage their IIS SMTP service.
+Additionally, automatic mode for the incoming email feature will no longer be supported. Automatic mode used the IIS6 APIs to directly manage the IIS SMTP service, but the IIS SMTP service was never updated to use modern IIS APIs. SharePoint customers can still use the incoming email feature in advanced mode and manually manage their IIS SMTP service. For more information, see the **Incoming email automatic mode** section in What's deprecated or removed from SharePoint Server 2019.
 
 ## SharePoint home page
 
@@ -132,6 +128,16 @@ To create sites in a different web application on a remote farm, follow these st
 3. In the remote farm, use the Map to External Resource feature in Alternate Access Mappings (AAM) to provide the URL of the web application hosting the SharePoint home page.
 
 4. In the remote farm, on the Self-service Site Collection Management page for the web application you want to create the sites in, ensure self-service site creation is enabled.
+
+### Self-service site creation on the SharePoint home page now supports AAM zones
+
+The self-service site creation experience on the SharePoint home page now fully supports non-Default Alternate Access Mapping (AAM) zones. When creating sites in a different web application on a remote farm, make sure that an external resource has been created in AAM on both the local farm and the remote farm. This applies to sites created in the same web application, sites created in a different web application on the local farm, and sites created in a different web application on a remote farm. 
+
+SharePoint will treat the external resource as an external web application. The external resource on the local farm should be fully populated with the URLs and zones of the web application on the remote farm. And conversely, the external resource on the remote farm should be fully populated with the URLs and zones of the web application on the local farm. Be sure that the zones of the local web application and the remote web application are synchronized.
+
+### SMTP authentication when sending emails
+
+SharePoint Server 2019 now supports authenticating to SMTP servers when sending email messages. Authentication can be configured through the Central Administration website and through PowerShell. SharePoint Server 2019 will still support anonymous connections to SMTP servers that don't require authentication. This makes it easier for customers to integrate SharePoint into highly secure environments where authentication is required to send emails. Customers no longer need to configure smart host relays for SharePoint in these environments.
 
 ### Use of # and % characters in file and folder names
 
