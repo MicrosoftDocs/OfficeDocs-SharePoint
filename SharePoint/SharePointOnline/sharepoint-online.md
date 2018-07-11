@@ -137,7 +137,7 @@ SharePoint Online admin landing page.
                 <div class="card">
                     <div class="cardText">
                         <h3>Share and work together</h3>
-                        <p><a href="/turn-external-sharing-on-or-off">Turn external sharing on or off </a></p><p><a href="/manage-site-creation">Manage site creation </a></p><p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/sharepoint-onedrive-interact">How SharePoint interacts with Teams </a></p><p><a href="">Administer OneDrive</a></p>
+                        <p><a href="/sharepoint/turn-external-sharing-on-or-off">Turn external sharing on or off </a></p><p><a href="/sharepoint/manage-site-creation">Manage site creation </a></p><p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/sharepoint-onedrive-interact">How SharePoint interacts with Teams </a></p><p><a href="">Administer OneDrive</a></p>
                     </div>
                 </div>
             </div>
@@ -149,7 +149,7 @@ SharePoint Online admin landing page.
                 <div class="card">
                     <div class="cardText">
                         <h3>Inform and engage</h3>
-                        <p><a href="/planning-hub-sites">Plan your hub sites</a></p><p><a href="/create-hub-site">Create a hub site</a></p><p><a href="/change-links-list-on-sharepoint-home-page">Change the links list</a></p><p><a href="https://support.office.com/article/e1464355-1f97-49ac-b2aa-dd320b179dbe">Admin help for Yammer</a></p>
+                        <p><a href="/sharepoint/planning-hub-sites">Plan your hub sites</a></p><p><a href="/sharepoint/create-hub-site">Create a hub site</a></p><p><a href="/sharepoint/change-links-list-on-sharepoint-home-page">Change the links list</a></p><p><a href="https://support.office.com/article/e1464355-1f97-49ac-b2aa-dd320b179dbe">Admin help for Yammer</a></p>
                     </div>
                 </div>
             </div>
@@ -173,7 +173,7 @@ SharePoint Online admin landing page.
                 <div class="card">
                     <div class="cardText">
                         <h3>Harness collective knowledge</h3>
-                        <p><a href="/overview-of-search">Overview of search</a></p><p><a href="/delve-for-office-365-admins">Delve for O365 admins</a></p>
+                        <p><a href="/sharepoint/overview-of-search">Overview of search</a></p><p><a href="/sharepoint/delve-for-office-365-admins">Delve for O365 admins</a></p>
                     </div>
                 </div>
             </div>
@@ -185,7 +185,7 @@ SharePoint Online admin landing page.
                 <div class="card">
                     <div class="cardText">
                         <h3>Protect and manage</h3>
-                        <p><a href="/safeguarding-your-data">How SharePoint and OneDrive safeguard your data</a></p><p><a href="/">New SharePoint admin center</a></p><p><a href="/">Set up Information Rights Management (IRM)</a></p><p><a href="https://docs.microsoft.com/en-us/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps">SPO management shell </a></p>
+                        <p><a href="/sharepoint/safeguarding-your-data">How SharePoint and OneDrive safeguard your data</a></p><p><a href="/sharepoint/">New SharePoint admin center</a></p><p><a href="/sharepoint/">Set up Information Rights Management (IRM)</a></p><p><a href="https://docs.microsoft.com/en-us/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps">SPO management shell </a></p>
                     </div>
                 </div>
             </div>
