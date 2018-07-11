@@ -147,10 +147,6 @@ SharePoint Server 2019 now supports # and % characters in file and folder names,
 
 This section lists the new PowerShell cmdlets for SharePoint Server 2019.
 
-### SMTP authentication when sending emails
-
-SharePoint Server 2019 now supports authenticating to SMTP servers when sending email messages. Authentication can be configured through the Central Administration website and through PowerShell. SharePoint Server 2019 will still support anonymous connections to SMTP servers that don't require authentication. This makes it easier for customers to integrate SharePoint into highly secure environments where authentication is required to send emails. Customers no longer need to configure smart host relays for SharePoint in these environments.
-
 ### New User Profile Synchronization PowerShell cmdlets
 
 The "stsadm.exe -o sync" command has been converted into several PowerShell cmdlets:
