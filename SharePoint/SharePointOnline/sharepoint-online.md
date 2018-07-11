@@ -149,7 +149,7 @@ SharePoint Online admin landing page.
                 <div class="card">
                     <div class="cardText">
                         <h3>Inform and engage</h3>
-                        <p><a href="/planning-hub-sites">Plan your hub sites</a></p><p><a href="/create-hub-site">Create a hub site</a></p><p><a href="/change-links-list-on-sharepoint-home-page">Change the links list</a></p><p><a href="">Admin help for Yammer</a></p>
+                        <p><a href="/planning-hub-sites">Plan your hub sites</a></p><p><a href="/create-hub-site">Create a hub site</a></p><p><a href="/change-links-list-on-sharepoint-home-page">Change the links list</a></p><p><a href="https://support.office.com/article/e1464355-1f97-49ac-b2aa-dd320b179dbe">Admin help for Yammer</a></p>
                     </div>
                 </div>
             </div>
