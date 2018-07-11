@@ -74,7 +74,8 @@ This phase involves the following tasks:
     
 4. [Create a User Profile service application](configure-profile-synchronization.md#UPSAProc)
     
-5. [Enable NetBIOS domain names for user profile synchronization by using PowerShell](configure-profile-synchronization.md#NetBIOSProc)
+5. [Enable NetBIOS domain names for user profile synchronization by using PowerShell](configure-profile-synchronization.md#
+Proc)
     
 6. [Start the User Profile service](configure-profile-synchronization.md#StartUPSProc)
     
@@ -258,7 +259,7 @@ If the NetBIOS name of any domain with which you are synchronizing differs from 
 8. At the PowerShell command prompt, type the following command:
     
   ```
-  ./EnableNetBIOS.ps1
+  & .\EnableNetBIOS.ps1
   ```
 
 > [!NOTE]
