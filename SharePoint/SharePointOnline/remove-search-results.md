@@ -3,7 +3,7 @@ title: "Remove search results"
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
-ms.date: 6/20/2018
+ms.date: 6/29/2018
 ms.audience: End User
 ms.topic: article
 ms.prod: office-online-server
@@ -20,16 +20,18 @@ As a SharePoint Online administrator, you can temporarily remove items from sear
 > [!IMPORTANT]
 >  This is only a quick fix! Unless you delete the items or change the permissions of items manually, they will show up again in your search results after the next crawl. 
   
-1. Sign in to the Office 365 Admin Center as a search administrator.
+1. Sign in to Office 365 as a global admin or SharePoint admin.
     
-2. Choose **Admin** \> **SharePoint**. You're now in the SharePoint admin center.
+2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
-3. Choose **search**.
+3. In the left pane, choose **Admin centers** \> **SharePoint**.
     
-4. On the search administration page, choose **Remove Search Results**.
+4. Choose **search**.
     
-5. On the Remove Search Results page, in the **URLs to remove** box, type the URLs that you want to remove from the search results. Type one URL on each line. 
+5. On the search administration page, choose **Remove Search Results**.
     
-6. Click **Remove Now**. The URLs are immediately removed from your search results.
+6. On the Remove Search Results page, in the **URLs to remove** box, type the URLs that you want to remove from the search results. Type one URL on each line. 
+    
+7. Click **Remove Now**. The URLs are immediately removed from your search results.
     
 

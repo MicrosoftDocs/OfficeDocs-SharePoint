@@ -75,7 +75,7 @@ To configure this option, on the **Sharing** tab at the site collection level, s
 
 [Onboarding to SharePoint Hybrid Extranet Sites](plan-b2b-extranet-sites.md)
   
-[Extranet for Partners with Office 365](create-a-b2b-extranet.md)
+[Extranet for Partners with Office 365](create-b2b-extranet.md)
   
 [Restricted Domains Sharing in O365 SharePoint Online and OneDrive for Business](restricted-domains-sharing.md)
   

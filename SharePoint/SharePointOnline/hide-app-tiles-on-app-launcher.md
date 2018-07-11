@@ -3,7 +3,7 @@ title: "Hide the OneDrive and SharePoint app tiles"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 6/20/2018
+ms.date: 6/29/2018
 ms.audience: Admin
 ms.topic: article
 f1_keywords:
@@ -26,7 +26,7 @@ description: "See how to show or hide links to Sites or OneDrive for Business. "
 
 By default, the OneDrive and SharePoint app tiles appear in the app launcher and on the Office 365 portal. If your subscription doesn't include one of these services, or if you don't want users using one of them, you can hide the app tile for it. 
   
-![The app launcher with SharePoint highlighted.](media/5486cdb8-94e4-4cc5-8ea2-3458d40075ea.PNG)
+![Office 365 start page with SharePoint selected](media/4ff2c093-2b26-4d28-a65b-4d02e66818df.png)
   
 > [!NOTE]
 > Hiding these services doesn't remove them for users. If users have saved the address of the service, they will still be able to access it. > If users click a tile for a service they don't have, they will see an Access Denied message. 
@@ -36,7 +36,7 @@ By default, the OneDrive and SharePoint app tiles appear in the app launcher and
 
 1. Sign in to Office 365 as a global admin or SharePoint admin.
     
-2. Select the app launcher icon ![The icon that looks like a waffle and represents a button click that will reveal multiple application tiles for selection.](media/3b8a317e-13ba-4bd4-864e-1ccd47af39ee.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
 3. In the left pane, choose **Admin centers** \> **SharePoint**.
     

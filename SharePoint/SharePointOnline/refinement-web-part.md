@@ -3,7 +3,7 @@ title: "Change settings for the Refinement Web Part"
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
-ms.date: 6/19/2018
+ms.date: 6/29/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
@@ -33,15 +33,6 @@ As a SharePoint Online administrator, you can change how the Refinement Web Part
 - Change display names for refiners.
     
 - Add counts to refiners.
-    
-## What do you want to do?
-<a name="__top"> </a>
-
-> [Change how the Refinement Web Part behaves and looks](refinement-web-part.md#__toc348362488)
-    
-> [Change the display name for a refiner](refinement-web-part.md#__change_the_display)
-    
-> [Add refiner counts](refinement-web-part.md#__toc348362490)
     
 ## Change how the Refinement Web Part behaves and looks
 <a name="__toc348362488"> </a>

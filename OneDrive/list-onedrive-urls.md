@@ -1,5 +1,5 @@
 ---
-title: "Create a list of all OneDrive locations in your organization"
+title: "Get a list of all user OneDrive URLs in your organization"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
@@ -18,7 +18,7 @@ ms.assetid: 8e200cb2-c768-49cb-88ec-53493e8ad80a
 description: "Learn how to use PowerShell to display a list of every OneDrive in your organization."
 ---
 
-# Create a list of all OneDrive locations in your organization
+# Get a list of all user OneDrive URLs in your organization
 
 This article is for global admins and SharePoint admins in Office 365.
   
@@ -26,7 +26,7 @@ This article is for global admins and SharePoint admins in Office 365.
 
 1. Sign in to Office 365 as a global admin or SharePoint admin.
     
-2. Select the app launcher icon ![The icon that looks like a waffle and represents a button click that will reveal multiple application tiles for selection.](media/3b8a317e-13ba-4bd4-864e-1ccd47af39ee.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
 3. In the left pane, select **Reports**, and then select **Usage**.
     

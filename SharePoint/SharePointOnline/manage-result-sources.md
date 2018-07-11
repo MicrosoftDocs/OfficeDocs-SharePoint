@@ -3,7 +3,7 @@ title: "Manage result sources"
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
-ms.date: 6/20/2018
+ms.date: 7/3/2018
 ms.audience: End User
 ms.topic: article
 ms.prod: office-online-server
@@ -22,13 +22,6 @@ A SharePoint Online administrator can manage result sources for all site collect
   
 You can create your own result sources, or use the predefined result sources. After you create a result source, you configure Search Web Parts and query-rule actions to use it. 
   
-## What do you want to do?
-<a name="__top"> </a>
-
-> [Create a new result source](manage-result-sources.md#__toc342634787)
-    
-> [Set a result source as default](manage-result-sources.md#__toc342634788)
-    
 ## Create a new result source
 <a name="__toc342634787"> </a>
 
@@ -36,33 +29,35 @@ You can create your own result sources, or use the predefined result sources. Af
     
   - For the **tenant**: 
     
-1. Sign in to the Office 365 Admin Center.
+    UNRESOLVED_TOKENBLOCK_VAL(O365_SharePoint_Global_Admin_Signin )
     
-2. Choose **Admin** \> **SharePoint**. You're now in the SharePoint admin center.
+    Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
-3. Click **search**, and then on the search administration page, click **Manage Result Sources**.
+    In the left pane, choose **Admin centers** \> **SharePoint**.
     
-  - For a **site collection**: 
+    Click **search**, and then on the search administration page, click **Manage Result Sources**.
     
-    In your site collection, go to **Settings**, click **Site settings** and then under **Site Collection Administration**, click **Search Result Sources**.
+  - For a **site collection**: In your site collection, go to **Settings**, click **Site settings** and then under **Site Collection Administration**, click **Search Result Sources**
     
-  - For a **site**: 
-    
-    On your site, go to **Settings**, click **Site settings**, and then under **Search**, click **Result Sources**.
+  - For a **site**: On your site, go to **Settings**, click **Site settings**, and then under **Search**, click **Result Sources**.
     
 2. On the **Manage Result Sources** page, click **New Result Source**.
     
 3. In the **General Information** section, type a name and a description for the new result source. 
     
-4. In the **Protocol** section, choose the protocol you want to use to retrieve search results: 
+4. In the **Protocol** section, select one of the following protocols for retrieving search results: 
     
-|**Choose this protocol**|**To retrieve search results from**|
-|:-----|:-----|
-|**Local SharePoint** <br/> |The search index of this tenant (Search Service).  <br/> |
-|**Remote SharePoint** <br/> |The index of a search service in a different farm (external source).  <br/> In the **Remote Service URL** box, type the address of the root site collection of the remote SharePoint farm.  <br/> |
-|**OpenSearch 1.0/1.1** <br/> |A search engine that uses the OpenSearch 1.0/1.1 protocol.  <br/> |
-|**Exchange** <br/> |Microsoft Exchange Server.  <br/> Click **Use AutoDiscover** to have the search system find an Exchange Server endpoint automatically, or type the URL of the Exchange web service to retrieve results from — for example, https://contoso.com/ews/exchange.asmx.  <br/> > [!NOTE]>  The Exchange Web Services Managed API must be installed on the computer where the search service is running.           |
-   
+  - **Local SharePoint**, the default protocol, provides results from the search index of this tenant (Search Service)
+    
+  - **Remote SharePoint** provides results from the index of a search service in a different farm (external source). In the **Remote Service URL** box, type the address of the root site collection of the remote SharePoint farm. 
+    
+  - **OpenSearch 1.0/1.1** provides results from a search engine that uses the OpenSearch 1.0/1.1 protocol. 
+    
+  - **Exchange** provides results from Microsoft Exchange Server. Click **Use AutoDiscover** to have the search system find an Exchange Server endpoint automatically, or type the URL of the Exchange web service to retrieve results from — for example, https://contoso.com/ews/exchange.asmx 
+    
+    > [!NOTE]
+    >  The Exchange Web Services Managed API must be installed on the computer where the search service is running. 
+  
 5. If you choose **Local SharePoint** or **Remote SharePoint** for protocol, choose a **Type**:
     
   - **SharePoint Search Results** to search the whole index. 
@@ -75,25 +70,29 @@ You can create your own result sources, or use the predefined result sources. Af
     
 2. Type a different query transform in the box. See [Understanding query transforms](https://support.office.com/article/b31631a5-0c1f-436e-8061-fd807bb96ae1).
     
-3. Click **Launch Query Builder** to build your own query: 
+3. Build your own query. Click **Launch Query Builder** and build your query by specifying filters on the **BASICS**, sorting on the **SORTING** tab, and then testing the query on the **TEST** tab. Each of these tabs are described in the following sections. 
     
-1. On the **BASICS** tab: 
+7. In the **Credentials Information** section, choose an authentication type for users to connect to the result source. 
     
+8. Click **Save**.
+    
+### The BASICS tab
+
 |**Choose this option**|**To do this**|
 |:-----|:-----|
 |Keyword filter  <br/> |Use keyword filters to add predefined query variables to the query transform. Select query variables from the list, and add them to the query by clicking **Add keyword filter**.  <br/> |
 |Property filter  <br/> |Use property filters to query the content of managed properties that are set to **queryable** in the search schema.  <br/> Select managed properties from the **Property filter** list. Click **Add property filter** to add the filter to the query.  <br/> > [!NOTE]> Custom managed properties are not shown in the **Property filter** list. To add a custom managed property to your query, in the ** Query text ** box, enter the name of your custom managed property followed by the query condition, for example  *MyCustomColorProperty:Green*           |
    
-2. On the **SORTING** tab: 
-    
+### The SORTING tab
+
 |**Choose this option**|**To do this**|
 |:-----|:-----|
-|Sort results  <br/> | Define sorting for results. The **Sort by** list contains managed properties that are set as sortable in the search schema.  <br/>  Select a property to sort by, and then select **Descending** or **Ascending**. To sort by relevance, select **Rank**.  <br/>  Click **Add sort level** if you want to specify more levels of sorting.  <br/> |
+|Sort results  <br/> |Define sorting for results. The **Sort by** list contains managed properties that are set as sortable in the search schema.  <br/> Select a property to sort by, and then select **Descending** or **Ascending**. To sort by relevance, select **Rank**.  <br/> Click **Add sort level** if you want to specify more levels of sorting.  <br/> |
 |Ranking model  <br/> |If you selected **Rank** from the **Sort by** list, choose the ranking model to use for sorting.  <br/> |
 |Dynamic ordering  <br/> |Click **Add dynamic ordering rule** to specify additional ranking by adding rules that change the order of results within the result block when certain conditions are met. You can add conditions by choosing from the lists that appears.  <br/> |
    
-3. On the **TEST** tab: 
-    
+### The TEST tab
+
 |**Choose this option**|**To do this**|
 |:-----|:-----|
 |Query text  <br/> |See the final query text, which is based on the original query template, the applicable query rules, and the variable values.  <br/> |
@@ -101,12 +100,6 @@ You can create your own result sources, or use the predefined result sources. Af
 |Query template  <br/> |See the query as it is defined in the **BASICS** tab or in the text box in the **Query transform** section on the Add Result Source page.  <br/> |
 |Query template variables  <br/> |Test the query template by specifying values for the query variables. Click **Test query** to see the results.  <br/> |
    
-4. Click **OK** when you are done to return to the **Add Result Source** page. 
-    
-7. In the **Credentials Information** section, choose an authentication type for users to connect to the result source. 
-    
-8. Click **Save**.
-    
 ## Set a result source as default
 <a name="__toc342634788"> </a>
 
@@ -114,19 +107,21 @@ The default result source is **Local SharePoint Results**, but you can choose to
   
 1. Go to the **Manage Result Sources** page for the tenant, for a site collection, or a site: 
     
-  - For the **tenant**: 
+    For the **tenant**: 
     
-1. Sign in to the Office 365 Admin Center.
+1. Sign in to Office 365 as a global admin or SharePoint admin.
     
-2. Choose **Admin** \> **SharePoint**. You're now in the SharePoint admin center.
+2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
-3. Click **search**, and then on the search administration page, click **Manage Result Sources**.
+3. In the left pane, choose **Admin centers** \> **SharePoint**.
     
-  - For a **site collection**: 
+4. Click **search**, and then on the search administration page, click **Manage Result Sources**.
+    
+    For a **site collection**: 
     
     In your site collection, go to **Settings**, click **Site settings** and then under **Site Collection Administration**, click **Search Result Sources**.
     
-  - For a **site**: 
+    For a **site**: 
     
     On your site, go to **Settings**, click **Site settings**, and then under **Search**, click **Result Sources**.
     

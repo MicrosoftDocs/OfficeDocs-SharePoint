@@ -112,7 +112,7 @@ Anonymous users are not added to the user list in Office 365. You can discontinu
 
 If you have business partners or vendors with whom you need to collaborate or share documents, consider setting up a SharePoint Online extranet site. An extranet site is a dedicate site collection that you use for business-to-business collaboration with a particular partner or vendor. You can lock this site down so that only site owners can invite external users and only external users from specific domains can be invited.
   
-SharePoint Online extranet sites are very easy to set up and much easier and less expensive to maintain than on-premises extranet sites. For details, see [Use Office 365 SharePoint Online as a business-to-business (B2B) extranet solution](create-a-b2b-extranet.md).
+SharePoint Online extranet sites are very easy to set up and much easier and less expensive to maintain than on-premises extranet sites. For details, see [Use Office 365 SharePoint Online as a business-to-business (B2B) extranet solution](create-b2b-extranet.md).
   
 ## See also
 

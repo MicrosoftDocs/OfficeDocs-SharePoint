@@ -1,7 +1,7 @@
 ---
 title: "Changes to OneDrive sync client deployment in Office Click-to-Run"
-ms.author: matteva
-author: matteva
+ms.author: kaarins
+author: kaarins
 manager: pamgreen
 ms.date: 10/31/2017
 ms.audience: Admin

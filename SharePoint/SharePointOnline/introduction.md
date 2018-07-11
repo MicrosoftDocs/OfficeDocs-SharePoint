@@ -3,7 +3,7 @@ title: "Introduction to SharePoint Online"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 6/1/2018
+ms.date: 6/29/2018
 ms.audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -23,7 +23,7 @@ SharePoint Online is a cloud-based service that helps organizations share and co
   
 Before you dive into building and configuring your organization's SharePoint environment, there are a few things you should think about. For example, how will you manage sites with the objective to collaborate (team sites) and those with the objective to broadcast and share content for viewing (communication sites)
   
-We've divided the planning process into four steps. With each step, you'll find helpful resources to guide your decisions and get you better acquainted with SharePoint. 
+We've divided the planning process into three steps. With each step, you'll find helpful resources to guide your decisions and get you better acquainted with SharePoint. 
   
 |||
 |:-----|:-----|

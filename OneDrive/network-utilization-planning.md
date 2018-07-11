@@ -3,7 +3,7 @@ title: "Network utilization planning for the OneDrive sync client"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 6/21/2018
+ms.date: 6/29/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: office-online-server
@@ -66,7 +66,7 @@ Below you can see and contrast the patterns of network utilization in cases of c
 After the initial sync is complete, the network usage will decrease and then level out. 
   
 > [!NOTE]
->  Network usage varies depending on file types most frequently synced. When users change Office files, only the changes are uploaded or downloaded and not the whole file. For other types of files, the whole file is uploaded or downloaded. >  You should expect traffic to be higher during regular work hours when users are online and working on files. > 
+> Network usage varies depending on file types most frequently synced. When users change Office files, only the changes are uploaded or downloaded and not the whole file. For other types of files, the whole file is uploaded or downloaded. > You should expect traffic to be higher during regular work hours when users are online and working on files. 
   
 ## Control sync throughput
 <a name="ControlSyncThroughput"> </a>

@@ -3,7 +3,7 @@ title: "Manage result types"
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
-ms.date: 6/20/2018
+ms.date: 6/29/2018
 ms.audience: End User
 ms.topic: article
 ms.prod: office-online-server
@@ -34,13 +34,9 @@ There are many preconfigured result types to choose from, and you can also creat
 
 1. Go to the **Manage Result Types** page for a site collection or a site: 
     
-  - For a site collection:
+  - For a site collection, go to **Settings**, click **Site settings** and then under **Site Collection Administration**, click **Search Result Types**.
     
-  - In your site collection, go to **Settings**, click **Site settings** and then under **Site Collection Administration**, click **Search Result Types**.
-    
-  - For a site:
-    
-  - On your site, go to **Settings**, click **Site settings**, and then under **Search**, click **Result Types**.
+  - For a site, go to **Settings**, click **Site settings**, and then under **Search**, click **Result Types**.
     
 2. On the **Manage Result Types** page, do one of the following: 
     

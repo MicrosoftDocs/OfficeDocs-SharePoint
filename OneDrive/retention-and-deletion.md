@@ -1,7 +1,7 @@
 ---
 title: "OneDrive retention and deletion"
-ms.author: v-thehay
-author: SteyerTHaynie
+ms.author: kaarins
+author: kaarins
 manager: scotv
 ms.date: 5/21/2018
 ms.audience: Admin
@@ -27,7 +27,7 @@ By default, when you delete a user, ownership of the OneDrive is transferred to 
   
 1. Sign in to Office 365 as a global admin or SharePoint admin.
     
-2. Select the app launcher icon ![The icon that looks like a waffle and represents a button click that will reveal multiple application tiles for selection.](media/3b8a317e-13ba-4bd4-864e-1ccd47af39ee.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
 3. In the left pane, choose **Admin centers** \> **SharePoint**.
     
@@ -57,7 +57,7 @@ If a manager or secondary owner isn't set for the user, or if access delegation 
     
 6. Seven days before the retention period expires, a second email will be sent to the manager or secondary owner as a reminder that the OneDrive will be deleted in seven days.
     
-7. After seven days, the OneDrive for the deleted user is sent to the site collection recycle bin, where it is kept for 93 days. During this time, users will no longer be able to access any shared content in the OneDrive. To restore the OneDrive, you need to use PowerShell. For info, see [Restore a deleted OneDrive](restore-a-deleted-onedrive.md).
+7. After seven days, the OneDrive for the deleted user is sent to the site collection recycle bin, where it is kept for 93 days. During this time, users will no longer be able to access any shared content in the OneDrive. To restore the OneDrive, you need to use PowerShell. For info, see [Restore a deleted OneDrive](restore-deleted-onedrive.md).
     
     > [!NOTE]
     > The Recycle Bin is not indexed and therefore searches do not find content there. This means that an eDiscovery hold can't locate any content in the Recycle Bin in order to hold it. 

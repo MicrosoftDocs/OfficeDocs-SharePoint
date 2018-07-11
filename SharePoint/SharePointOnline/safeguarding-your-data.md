@@ -103,9 +103,9 @@ Regulatory compliance is fundamental to Office 365. We make sure the service com
   
 To meet your regulatory requirements: 
   
-- Audit Office 365 activity in the Security &amp; Compliance Center: [Search the audit log in the Office 365 Security and Compliance Center](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c).
+- Audit Office 365 activity in the Security &amp; Compliance Center: [Search the audit log in the Office 365 Security &amp; Compliance Center](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c).
     
-- Create eDiscovery cases: [Manage eDiscovery cases in the Office 365 Security and Compliance Center](https://support.office.com/article/9a00b9ea-33fd-4772-8ea6-9d3c65e829e6)
+- Create eDiscovery cases: [Manage eDiscovery cases in the Office 365 Security &amp; Compliance Center](https://support.office.com/article/9a00b9ea-33fd-4772-8ea6-9d3c65e829e6)
     
 - Apply retention policies: [Create and apply information management policies](https://support.office.com/article/eb501fe9-2ef6-4150-945a-65a6451ee9e9).
     

@@ -3,7 +3,7 @@ title: "Create an external business-sharing site in SharePoint Online"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 5/22/2018
+ms.date: 6/29/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
@@ -49,17 +49,19 @@ To begin, create a site collection in SharePoint Online.
   
  **To create an extranet site**
   
-1. Log in to Office 365 as a SharePoint Administrator.
+1. Sign in to Office 365 as a global admin or SharePoint admin.
     
-2. Navigate to the SharePoint admin center.
+2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
-3. On the site collections page, click **New**, and then click **Private Site Collection**.
+3. In the left pane, choose **Admin centers** \> **SharePoint**.
     
-4. Type a title and a web site address.
+4. On the site collections page, click **New**, and then click **Private Site Collection**.
     
-5. Choose the **Team Site** template. 
+5. Type a title and a web site address.
     
-6. Choose an Administrator, and then click **OK**.
+6. Choose the **Team Site** template. 
+    
+7. Choose an Administrator, and then click **OK**.
     
 Next, configure it to allow invited users outside of your company to be able to access the site.
   
@@ -121,13 +123,15 @@ You can monitor the activity of your external users to ensure that they're compl
   
  **Show who has been sent invitations to your extranet site and if they accepted**
   
-1. In Office 365, click **Admin**, and then **Admin Centers**.
+1. Sign in to Office 365 as a global admin or SharePoint admin.
     
-2. Click **Security and Compliance** and then **Search &amp; investigation**. 
+2. Under **Admin centers**, click **Security &amp; Compliance**.
     
-3. Click **Audit log search**. 
+3. Click **Search &amp; investigation**. 
     
-4. In the Activities box, select **Accepted Sharing Invitation** and then click **Search**. 
+4. Click **Audit log search**. 
+    
+5. In the Activities box, select **Accepted Sharing Invitation** and then click **Search**. 
     
  **Show what activities your external users have done on the site**
   

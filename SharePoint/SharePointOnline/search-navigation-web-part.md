@@ -3,7 +3,7 @@ title: "Change settings for the Search Navigation Web Part"
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
-ms.date: 6/19/2018
+ms.date: 6/29/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
@@ -23,17 +23,6 @@ As a SharePoint Online administrator, you can change how the Search Navigation W
   
 To make other changes, such as changing display names for the links, or change their order, go to the **Search Settings** for the corresponding site. Here, you can also add a link to a new search vertical to be shown in the Web Part. 
   
-## What do you want to do?
-<a name="__top"> </a>
-
-> [Change the settings for the Search Navigation Web Part](search-navigation-web-part.md#__toc347912378)
-    
-> [Change the display name or the URL of a search vertical](search-navigation-web-part.md#__toc347912379)
-    
-> [Change the order of the search vertical links](search-navigation-web-part.md#__toc347912380)
-    
-> [Add a search vertical to the Search Navigation Web Part](search-navigation-web-part.md#__toc347912381)
-    
 ## Change the settings for the Search Navigation Web Part
 <a name="__toc347912378"> </a>
 

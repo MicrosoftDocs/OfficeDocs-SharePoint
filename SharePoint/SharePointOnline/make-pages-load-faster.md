@@ -3,7 +3,7 @@ title: "Make pages load faster with caching in the Content Search Web Part"
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
-ms.date: 6/20/2018
+ms.date: 6/29/2018
 ms.audience: End User
 ms.topic: article
 ms.service: o365-administration
@@ -27,16 +27,6 @@ We recommend that you use caching only in CSWPs that are on pages that have more
 > [!TIP]
 > See [Configure a Content Search Web Part in SharePoint](https://support.office.com/article/0dc16de1-dbe4-462b-babb-bf8338c36c9a#BKMK_Tips) for other things you can do to make pages load faster. 
   
-In this article:
-  
-- [Configure a Content Search Web Part (CSWP) to use caching](make-pages-load-faster.md#BKMK_Configure)
-    
-- [When should I use caching?](make-pages-load-faster.md#BKMK_WhenToUse)
-    
-- [How does caching make web pages load faster?](make-pages-load-faster.md#BKMK_HoCachingWorks)
-    
-- [Troubleshooting: newly added content does not show up in CSWP results](make-pages-load-faster.md#BKMK_Troubleshooting)
-    
 ## Configure a Content Search Web Part (CSWP) to use caching
 <a name="BKMK_Configure"> </a>
 

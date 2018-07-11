@@ -3,7 +3,7 @@ title: "Export and import customized search configuration settings"
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
-ms.date: 6/20/2018
+ms.date: 6/29/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
@@ -17,27 +17,6 @@ description: "Learn how to export and import customized search configuration set
 
 As a SharePoint Online administrator, you can export and import customized search configuration settings between tenants, site collections, and sites. The settings that you export and import include all customized query rules, result sources, result types, ranking models and site search settings. It's also possible to export customized search configuration settings from a Search service application and import the settings to tenants, site collections, or sites. You can't export the default configuration settings. 
   
-## In this article
-<a name="__top"> </a>
-
-> [Overview](export-and-import-search-settings.md#__toc351540657)
-    
-> [Conditions that can cause the import to fail](export-and-import-search-settings.md#__toc351540658)
-    
-> [Export customized search configuration settings from a tenant](export-and-import-search-settings.md#__toc351540659)
-    
-> [Export customized search configuration settings from a site](export-and-import-search-settings.md#__toc351540660)
-    
-> [Export customized search configuration settings from a site collection](export-and-import-search-settings.md#__toc351540661)
-    
-> [Import customized search configuration settings to a tenant](export-and-import-search-settings.md#__toc351540662)
-    
-> [Import customized search configuration settings to a site](export-and-import-search-settings.md#__toc351540663)
-    
-> [Import customized search configuration settings to a site collection](export-and-import-search-settings.md#__toc351540664)
-    
-> [Invalid characters causing your import to fail](export-and-import-search-settings.md#__toc351540665)
-    
 ## Overview
 <a name="__toc351540657"> </a>
 
@@ -82,15 +61,17 @@ If the import fails, remove the condition that caused the failure and reimport t
 ## Export customized search configuration settings from a tenant
 <a name="__toc351540659"> </a>
 
-1. Sign in to the Office 365 Admin Center as a search administrator.
+1. Sign in to Office 365 as a global admin or SharePoint admin.
     
-2. Choose **Admin** \> **SharePoint**. You're now in the SharePoint admin center.
+2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
-3. Choose **search**.
+3. In the left pane, choose **Admin centers** \> **SharePoint**.
     
-4. Choose **Export Search Configuration**.
+4. Choose **search**.
     
-5. In the dialog box, click **Save**.
+5. Choose **Export Search Configuration**.
+    
+6. In the dialog box, click **Save**.
     
 ## Export customized search configuration settings from a site
 <a name="__toc351540660"> </a>
@@ -113,23 +94,25 @@ If the import fails, remove the condition that caused the failure and reimport t
 ## Import customized search configuration settings to a tenant
 <a name="__toc351540662"> </a>
 
-1. Sign in to the Office 365 Admin Center as a search administrator.
+1. Sign in to Office 365 as a global admin or SharePoint admin.
     
-2. Choose **Admin** \> **SharePoint**. You're now in the SharePoint admin center.
+2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
-3. Choose **search**.
+3. In the left pane, choose **Admin centers** \> **SharePoint**.
     
-4. On the **Import Search Configuration** page, browse to the file you want to import. 
+4. Choose **search**.
     
-5. Click **Import**.
+5. On the **Import Search Configuration** page, browse to the file you want to import. 
     
-6. On the **Search Config List** page verify that: 
+6. Click **Import**.
     
-7. The search configuration file you imported is in the list, and that its status is **Imported Successfully**.
+7. On the **Search Config List** page verify that: 
+    
+8. The search configuration file you imported is in the list, and that its status is **Imported Successfully**.
     
     If the file hasn't been imported successfully, then the **Notes** column provides more details about what happened. 
     
-8. The **Scope** column shows that the settings you imported are at the right level, that is, at the level you meant to import the file to. For example, if you imported your settings at the site collection level instead of at the site level, you'd see this information in the **Scope** column. The **Scope** column shows at which level the search configuration settings were enabled. The levels are: tenant (Tenant), site collection (SPSite), or site level (SPWeb). 
+9. The **Scope** column shows that the settings you imported are at the right level, that is, at the level you meant to import the file to. For example, if you imported your settings at the site collection level instead of at the site level, you'd see this information in the **Scope** column. The **Scope** column shows at which level the search configuration settings were enabled. The levels are: tenant (Tenant), site collection (SPSite), or site level (SPWeb). 
     
 ## Import customized search configuration settings to a site
 <a name="__toc351540663"> </a>

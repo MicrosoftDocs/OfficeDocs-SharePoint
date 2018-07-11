@@ -3,7 +3,7 @@ title: "Create a custom ranking model by using the Ranking Model Tuning App"
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
-ms.date: 6/19/2018
+ms.date: 6/29/2018
 ms.audience: End User
 ms.topic: article
 ms.prod: office-online-server
@@ -22,35 +22,6 @@ description: "If the standard SharePoint 2013 ranking models don't satisfy the r
 
 If the standard SharePoint 2013 ranking models don't satisfy the relevance requirements you have, you can create a custom ranking model. With the Ranking Model Tuning App, you can do this more easily than before. The app provides a user interface for copying an existing ranking model, judge the results for a set of queries, add or remove rank features, and adjust the weight of these features. Finally, you can evaluate the changes, and publish the new ranking model when you're satisfied with the results.
   
-## In this article
-<a name="__top"> </a>
-
-> [Why create a custom ranking model?](create-custom-ranking-model.md#__toc369771593)
-    
-> [Get the app for SharePoint Online](create-custom-ranking-model.md#__toc369771594)
-    
-> [Get the app for SharePoint Server 2013](create-custom-ranking-model.md#__toc369771595)
-    
-> [Create a custom ranking model-main steps](create-custom-ranking-model.md#__toc369771596)
-    
-> [Step 1: Copy an existing ranking model and give it a name](create-custom-ranking-model.md#__step_1__copy)
-    
-> [Step 2: Add a judgment set](create-custom-ranking-model.md#__step_2__add)
-    
-> [Step 3: Judge the results for the queries in the set](create-custom-ranking-model.md#__step_3__judge)
-    
-> [Step 4: Add rank features and tune the weight](create-custom-ranking-model.md#__step_4__add)
-    
-> [Step 4a: Add rank features](create-custom-ranking-model.md#__toc369771601)
-    
-> [Step 4b: Tune the weights](create-custom-ranking-model.md#__toc369771602)
-    
-> [Step 5: Evaluate the changes](create-custom-ranking-model.md#__step_5__evaluate)
-    
-> [Step 6: Publish the ranking model](create-custom-ranking-model.md#__step_6__publish)
-    
-> [More info about ranking and ranking models](create-custom-ranking-model.md#__toc369771605)
-    
 ## Why create a custom ranking model?
 <a name="__toc369771593"> </a>
 

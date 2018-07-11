@@ -3,7 +3,7 @@ title: "SharePoint Online planning guide"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 6/25/2018
+ms.date: 6/29/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -46,7 +46,7 @@ Communication sites and new team sites that belong to Office 365 groups can't be
 
  If you figure out a few basic details.—for example, what a site collection will be used for, and which users need to have access to it—then this will help you make decisions about what type of site template to use, how much storage to allocate, and how many site collections you might need to create. If you need to review your storage limits or the number of site collections that are supported for your plan, see [SharePoint Online Limits](https://go.microsoft.com/fwlink/p/?LinkID=856113). 
   
-|****If you want to determine this:****|****Ask this** **:****|
+|**If you want to determine this:**|**Ask this:**|
 |:-----|:-----|
 |What type of site should I create?  <br/> For info on the new site templates and the variety of classic templates available in SharePoint Online, see [Using templates to create different kinds of SharePoint sites](https://support.office.com/article/449eccec-ff99-4cf3-b62e-dcfee37e8da4).  <br/> | Do you want to connect a group of people for collaboration, or do you want to broadcast content to a larger audience?  <br/>  Will the site fill a specialized purpose?  <br/> |
 |How many site collections do we need?  <br/> Business needs and your overall storage limits will affect this decision.  <br/> Certain types of sites, like the App Catalog and Search Center, exist as standalone site collections. Some of these may be automatically created for you when you sign up for Office 365. You may need additional site collections if your organization has other specialized purposes. For instance, some groups need to restrict access to their content.  <br/> | Are there divisions or groups that need to maintain separate data?  <br/>  Will you need different site collections for specialized purposes?  <br/>  Do you plan to use apps for SharePoint (if so, you will want to create an App Catalog site)  <br/> |
@@ -96,7 +96,7 @@ SharePoint Online IRM uses Microsoft Azure Active Directory Rights Management Se
   
 When IRM has been enabled for a list or library, files are encrypted so that only authorized people can view them or take specific actions on them. Each rights-managed file also contains an issuance license that imposes restrictions on the people who view the file. Typical restrictions include making a file read-only, disabling the copying of text, preventing people from saving a local copy, and preventing people from printing the file. Client programs that can read IRM-supported file types use the issuance license within the rights-managed file to enforce these restrictions. This is how a rights-managed file retains its protection even after it is downloaded.
   
-By default, IRM is disabled when you sign up with Office 365. Before you turn on the IRM service using the SharePoint admin center, the Office 365 global admin needs to first install the Microsoft PowerShell module for Rights Management and then connect to the Rights Management service. For more information see [Set up Information Rights Management (IRM) in SharePoint admin center](https://support.office.com/article/239ce6eb-4e81-42db-bf86-a01362fed65c) and [Apply Information Rights Management to a list or library](https://support.office.com/article/3bdb5c4e-94fc-4741-b02f-4e7cc3c54aa1).
+By default, IRM is disabled when you sign up with Office 365. Before you turn on the IRM service using the SharePoint admin center, the Office 365 global admin needs to first install the Microsoft PowerShell module for Rights Management and then connect to the Rights Management service. For more information see [Set up Information Rights Management (IRM) in SharePoint admin center](https://support.office.com/article/239ce6eb-4e81-42db-bf86-a01362fed65c) and [Apply Information Rights Management (IRM) to a list or library](https://support.office.com/article/3bdb5c4e-94fc-4741-b02f-4e7cc3c54aa1).
   
 ## Manage user profiles
 <a name="__plan_for_personal"> </a>
@@ -114,7 +114,7 @@ There are some features that can be configured or managed globally from the Shar
 
 This step will help you determine where you may need to engage subject matter experts in your organization to help partner with admin staff in planning the configuration of these features. For example, to gather the necessary requirements for configuring features like the Term Store, or Records Management features like the Content Organizer, you may need to partner with the people in your organization who are responsible for corporate taxonomy, records management, or content management.
   
-|****Do you need these capabilities?****|****To learn more about setting this up, go here:****|
+|**Do you need these capabilities?**|**To learn more about setting this up, go here:**|
 |:-----|:-----|
 |You need to configure Search for your SharePoint Online environment.  <br/> |[SharePoint Online search administration overview](manage-search-the-admin-center.md) <br/> |
 |You want to create and use taxonomies to classify and organize information on sites.  <br/> | You can use the Term Store Management Tool to create, import, and manage hierarchical collections of centrally managed terms (called term sets).  <br/> [Introduction to managed metadata](managed-metadata.md) <br/> |

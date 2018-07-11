@@ -3,7 +3,7 @@ title: "Manage authoritative pages"
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
-ms.date: 6/20/2018
+ms.date: 6/29/2018
 ms.audience: End User
 ms.topic: article
 ms.prod: office-online-server
@@ -24,26 +24,28 @@ In the same way, you can also add non-authoritative pages. A typical example of 
 ## Specify authoritative or non-authoritative pages
 <a name="__top"> </a>
 
-1. Sign in to the Office 365 Admin Center.
+1. Sign in to Office 365 as a global admin or SharePoint admin.
     
-2. Choose **Admin** \> **SharePoint**. You're now in the SharePoint admin center.
+2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
-3. Choose **search**. 
+3. In the left pane, choose **Admin centers** \> **SharePoint**.
     
-4. On the search administration page, choose **Manage Authoritative Pages**.
+4. Choose **search**. 
     
-5. In the **Authoritative Web Pages** section, in the **Most authoritative pages** box, type the URLs of pages that are the most important. Separate the URLs with returns so that there is one URL per line. 
+5. On the search administration page, choose **Manage Authoritative Pages**.
     
-6. In the **Second-level authoritative pages** box, type the URLs of any pages that should be seen as second-level. 
+6. In the **Authoritative Web Pages** section, in the **Most authoritative pages** box, type the URLs of pages that are the most important. Separate the URLs with returns so that there is one URL per line. 
     
-7. In the **Third-level authoritative pages** box, type the URLs of any pages that should be seen as third-level. 
+7. In the **Second-level authoritative pages** box, type the URLs of any pages that should be seen as second-level. 
     
-8. In the **Non-authoritative Sites** section, in the **Sites to demote** box, type the URLs of any sites that you want to be ranked lower than all of the other sites. Type one URL per line. 
+8. In the **Third-level authoritative pages** box, type the URLs of any pages that should be seen as third-level. 
+    
+9. In the **Non-authoritative Sites** section, in the **Sites to demote** box, type the URLs of any sites that you want to be ranked lower than all of the other sites. Type one URL per line. 
   
     > [!TIP]
     >  All URLs whose prefix matches the prefix of a URL in the **Sites to demote** box are demoted. Example: Entering http://archive/ demotes the rank of all URLs that begin with http://archive/. 
   
-9. Click **OK**.
+10. Click **OK**.
     
 ## How results are ranked
 <a name="__top"> </a>

@@ -3,7 +3,7 @@ title: "Manage sharing in OneDrive and SharePoint"
 ms.author: kaarins
 author: kaarins
 manager: scotv
-ms.date: 6/21/2018
+ms.date: 6/29/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
@@ -23,7 +23,7 @@ As a global admin or SharePoint admin in Office 365, you can use the OneDrive ad
 If you're looking for info about how to share a file or folder in OneDrive, see [Share OneDrive files and folders](https://support.office.com/article/9fcc2f7d-de0c-4cec-93b0-a82024800c07#BKMK_BusinessTab).
   
 > [!NOTE]
->  Some sharing settings exist in multiple admin centers. When you change them in one place, the other admin centers will reflect the change. If you have multiple admins in your organization, make sure you communicate the changes you're making. See the following articles for more info about other sharing settings. >  In the Office 365 admin center, under **Settings** \> **Services &amp; add-ins**, the Sites External sharing setting is the same as the SharePoint external sharing setting in the OneDrive admin center. >  The Sharing page in the OneDrive admin center and the [Turn external sharing on or off for SharePoint Online](https://support.office.com/article/6288296a-b6b7-4ea4-b4ed-c297bf833e30#ID0EAABAAA=Tenant_%28global%29) control the same settings. 
+> Some sharing settings exist in multiple admin centers. When you change them in one place, the other admin centers will reflect the change. If you have multiple admins in your organization, make sure you communicate the changes you're making. See the following articles for more info about other sharing settings. > In the Office 365 admin center, under **Settings** \> **Services &amp; add-ins**, the Sites External sharing setting is the same as the SharePoint external sharing setting in the OneDrive admin center. > The Sharing page in the OneDrive admin center and the [Turn external sharing on or off for SharePoint Online](https://support.office.com/article/6288296a-b6b7-4ea4-b4ed-c297bf833e30#ID0EAABAAA=Tenant_%28global%29) control the same settings. 
   
 ## Change your sharing link settings
 <a name="defaultlink"> </a>
@@ -32,7 +32,7 @@ If you haven't yet specified the external sharing settings you allow, do that fi
   
 1. Open the [OneDrive admin center](https://admin.onedrive.com/?v=SharingSettings), and click the **Sharing** tab. 
     
-2. Under ** Default link type **, choose the kind of link that's selected by default when users share items:
+2. Under **Default link type**, choose the kind of link that's selected by default when users share items:
     
     > [!IMPORTANT]
     > The following setting applies to both SharePoint and OneDrive. It syncs with the setting in the SharePoint admin center. For more info about this setting in the SharePoint admin center, see [Change the default link type when users get links for sharing](https://support.office.com/article/81b763af-f301-4226-8842-8d13bd07face). 
@@ -73,13 +73,13 @@ By default, users are allowed to share files in OneDrive and SharePoint with any
 |**If you want to:**|**Select this option:**|**For this result:**|
 |:-----|:-----|:-----|
 |Let users create links that don't require sign-in (previously referred to as "anonymous access links")  <br/> |**Anyone** <br/> |Users can create links that can be freely shared. They can also select to require sign-in when they share items.  <br/> |
-|Require external users to sign in with a Microsoft account or a work or school account before they can access shared files.  <br/> |**New and existing external users** <br/> |Users can send invitations to anyone (unless you choose to restrict domains). Invitations to access files can be redeemed only once. After they've been redeemed, they can't be used by others to gain access. New external users will be added to Azure Active Directory when they sign in to view the shared item.  <br/> |
+|Require external users to prove who they are by entering a verification code or by signing in with a Microsoft account or a work or school account before they can access shared files.  <br/> |**New and existing external users** <br/> |Users can send invitations to anyone (unless you choose to restrict domains). Invitations to access files can be redeemed only once. After they've been redeemed, they can't be used by others to gain access. New external users will be added to Azure Active Directory when they sign in to view the shared item.  <br/> |
 |Allow sharing only for external users who are already in Azure Active Directory.  <br/> |**Existing external users** <br/> |Users can send sharing invitations to any external user who has been added to Azure Active Directory. Invitations to access files can be redeemed only once. After they've been redeemed, they can't be used by others to gain access.  <br/> |
 |Turn off external sharing.  <br/> |**Only people in your organization** <br/> |External sharing is not allowed.  <br/> |
    
     If you turn off external sharing for SharePoint, you can still change the advanced settings for external sharing in the next step. Your changes won't take effect until you turn on external sharing.
     
-3. Specify any advanced settings for external sharing. 
+3. Specify any advanced settings for external sharing.
     
     > [!IMPORTANT]
     > These settings apply to both SharePoint and OneDrive. The settings you change in the OneDrive admin center sync with your settings in the SharePoint admin center. 
@@ -97,7 +97,7 @@ By default, users are allowed to share files in OneDrive and SharePoint with any
 
 1. Open the [OneDrive admin center](https://admin.onedrive.com/?v=SharingSettings), and click the **Sharing** tab. 
     
-2. Under ** Other settings **, select or clear **Display to owners the names of people who viewed their files**.
+2. Under **Other settings**, select or clear **Display to owners the names of people who viewed their files**.
     
     ![Sharing settings in the OneDrive admin center](media/97907910-18c6-4c1b-8c1e-9d0d06d13c74.png)
   
@@ -108,8 +108,9 @@ By default, users are allowed to share files in OneDrive and SharePoint with any
   
 3. Click **Save**.
     
-## See also
+## See Also
 <a name="showfileviewers"> </a>
 
 [OneDrive admin center](https://support.office.com/article/b5665060-530f-40a3-b34a-9e935169b2e0)
+  
 

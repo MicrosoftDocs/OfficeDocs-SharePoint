@@ -3,7 +3,7 @@ title: "Use Group Policy to control OneDrive sync client settings"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 6/28/2018
+ms.date: 6/29/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
@@ -99,7 +99,7 @@ This policy sets the following registry key.
   
 [HKLM\SOFTWARE\Policies\Microsoft\OneDrive\AllowTenantList] "1111-2222-3333-4444"﻿
   
-(where "1111-2222-3333-4444" is the [tenant ID](https://support.office.com/article/6891b561-a52d-4ade-9f39-b492285e2c9b))
+(where "1111-2222-3333-4444" is the [tenant ID](find-your-office-365-tenant-id.md))
   
 To block specific organizations instead, use "Block syncing OneDrive accounts for specific organizations."
   
@@ -116,7 +116,7 @@ This policy sets the following registry key.
   
 [HKLM\SOFTWARE\Policies\Microsoft\OneDrive\BlockTenantList] "1111-2222-3333-4444"﻿
   
-(where "1111-2222-3333-4444" is the [tenant ID](https://support.office.com/article/6891b561-a52d-4ade-9f39-b492285e2c9b))
+(where "1111-2222-3333-4444" is the [tenant ID](find-your-office-365-tenant-id.md))
   
 To specify a list of allowed organizations instead, use "Allow syncing OneDrive accounts for only specific organizations."
   
@@ -205,7 +205,7 @@ Enabling this policy sets the following registry key.
   
 [HKLM\SOFTWARE\Policies\Microsoft\OneDrive\DiskSpaceCheckThresholdMB]"1111-2222-3333-4444"=dword:0005000
   
-(where "1111-2222-3333-4444" is the [tenant ID](https://support.office.com/article/6891b561-a52d-4ade-9f39-b492285e2c9b) and 0005000 sets a threshold of 5000 MB) 
+(where "1111-2222-3333-4444" is the [tenant ID](find-your-office-365-tenant-id.md) and 0005000 sets a threshold of 5000 MB) 
   
 ### Prompt users to move Windows known folders to OneDrive
 <a name="OptInWithWizard"> </a>
@@ -222,7 +222,7 @@ Enabling this policy sets the following registry key:
   
 [HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMOptInWithWizard"="1111-2222-3333-4444"
   
-(where "1111-2222-3333-4444" is the [tenant ID](https://support.office.com/article/6891b561-a52d-4ade-9f39-b492285e2c9b))
+(where "1111-2222-3333-4444" is the [tenant ID](find-your-office-365-tenant-id.md))
   
 ### Silently redirect Windows known folders to OneDrive
 <a name="OptInNoWizard"> </a>
@@ -241,7 +241,7 @@ Enabling this policy sets the following registry keys:
   
 [HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMSilentOptIn"="1111-2222-3333-4444"
   
-(where "1111-2222-3333-4444" is the [tenant ID](https://support.office.com/article/6891b561-a52d-4ade-9f39-b492285e2c9b))
+(where "1111-2222-3333-4444" is the [tenant ID](find-your-office-365-tenant-id.md))
   
 [HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMSilentOptInWithNotification
   
@@ -328,7 +328,7 @@ If you disable this setting, the local  *OneDrive - \<tenant name\>*  folder loc
 
 This policy lets you prevent users from changing the location of the OneDrive folder on their computer.
   
-To use this policy, you must enter your [tenant ID](https://support.office.com/article/6891b561-a52d-4ade-9f39-b492285e2c9b) in Group Policy Editor. In the **Options** box, click **Show** to enter the tenant ID and enter 1 to enable the policy or 0 to disable it. 
+To use this policy, you must enter your [tenant ID](find-your-office-365-tenant-id.md) in Group Policy Editor. In the **Options** box, click **Show** to enter the tenant ID and enter 1 to enable the policy or 0 to disable it. 
   
 If you enable this setting, users cannot change the location of their "OneDrive - {tenant name}" folder during the Welcome to OneDrive wizard. This forces users to use either the default location, or, if you've set the **Set the default location for the OneDrive folder** setting, ensures all users have their local OneDrive folder in the location that you've specified. 
   
@@ -340,7 +340,7 @@ Enabling this policy sets the following registry key value to 1.
   
 If you disable this setting, users can change the location of their sync folder during the Welcome to OneDrive wizard.
   
-For more info about using this policy as part of redirecting Windows known folders (such as the Documents folder) to OneDrive, see [Redirect known folders to OneDrive for Business](redirect-windows-known-folders.md).
+For more info about using this policy as part of redirecting Windows known folders (such as the Documents folder) to OneDrive, see [Redirect known folders to OneDrive for Business](redirect-known-folders.md).
   
 ### Prevent users from synchronizing personal OneDrive accounts
 <a name="DisablePersonalSync"> </a>
@@ -459,7 +459,7 @@ Enabling this policy sets the following registry key value to 1.
 ## See also
 <a name="Glob"> </a>
 
-[Deploy the new OneDrive sync client in an enterprise environment ](deploy-sync-client-for-windows.md)
+[Deploy the new OneDrive sync client in an enterprise environment ](deploy-on-windows.md)
   
 [Prevent users from installing the sync client](prevent-installation.md)
   

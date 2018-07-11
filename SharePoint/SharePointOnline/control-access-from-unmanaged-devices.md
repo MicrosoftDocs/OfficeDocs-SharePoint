@@ -3,7 +3,7 @@ title: "Control access from unmanaged devices"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 6/21/2018
+ms.date: 6/28/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
@@ -36,7 +36,7 @@ Blocking access helps provide security but comes at the cost of usability and pr
 
 1. Sign in to Office 365 as a global admin or SharePoint admin.
     
-2. Select the app launcher icon ![The icon that looks like a waffle and represents a button click that will reveal multiple application tiles for selection.](media/3b8a317e-13ba-4bd4-864e-1ccd47af39ee.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
 3. In the left pane, choose **Admin centers** \> **SharePoint**.
     
@@ -48,10 +48,14 @@ Blocking access helps provide security but comes at the cost of usability and pr
     
     ![The block access setting on the access control page](media/ea0ee472-6fde-4d2d-bc7b-9d3b9eee0d96.PNG)
   
-    > [!NOTE]
-    > It can take 5-10 minutes for the policy to take effect. It won't take effect for users who are already signed in from unmanaged devices. 
-  
-If you go to the Azure AD admin center and click **Conditional access**, you can see that a policy was created by the SharePoint admin center.
+7. Go to the Azure AD admin center, click **Azure Active Directory** in the left pane, and then click **Conditional access**. 
+    
+8. Under **Conditions**, select both **Mobile apps and desktop clients** and **Browser**.
+    
+9. Under **Session**, select **Use app enforced restrictions**. This tells Azure to use the settings you'll specify in SharePoint. Under **Grant**, clear both check boxes.
+    
+> [!NOTE]
+> It can take 5-10 minutes for the policy to take effect. It won't take effect for users who are already signed in from unmanaged devices. 
   
 ![Creating a policy in the Azure AD admin center to block access](media/2d892713-3423-4870-b074-4f013b177c3b.png)
   
@@ -59,7 +63,7 @@ If you go to the Azure AD admin center and click **Conditional access**, you can
 
 1. Sign in to Office 365 as a global admin or SharePoint admin.
     
-2. Select the app launcher icon ![The icon that looks like a waffle and represents a button click that will reveal multiple application tiles for selection.](media/3b8a317e-13ba-4bd4-864e-1ccd47af39ee.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
 3. In the left pane, choose **Admin centers** \> **SharePoint**.
     

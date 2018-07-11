@@ -55,7 +55,7 @@ Guest user accounts have limited capabilities in SharePoint Online. See [Manage 
 
 The **Office 365 activity report** in the Office 365 Compliance Center is used to view Office 365 user and admin activity within your company. The report can be filtered by date and user activity events to monitor SharePoint Online extranet invitation status, who has sent invitations, and who has accepted. 
   
-To monitor the status of your extranet account invitations, including changes to the domain allow or deny list; who sent a sharing invitation, requested it, and if it was accepted, revoked or expired, see [Search the audit log in the Office 365 Security and Compliance Center](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c).
+To monitor the status of your extranet account invitations, including changes to the domain allow or deny list; who sent a sharing invitation, requested it, and if it was accepted, revoked or expired, see [Search the audit log in the Office 365 Security &amp; Compliance Center](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c).
   
  **Example 1:**
   

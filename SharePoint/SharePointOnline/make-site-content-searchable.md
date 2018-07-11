@@ -3,7 +3,7 @@ title: "Enable content on a site to be searchable"
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
-ms.date: 6/20/2018
+ms.date: 6/29/2018
 ms.audience: End User
 ms.topic: article
 ms.prod: office-online-server
@@ -20,22 +20,6 @@ When users search on a site, results can come from many places such as columns, 
 > [!NOTE]
 > Search results are always security trimmed, so users will only see content they have permission to see. The search settings only define what content is included in the search index. 
   
-## What do you want to do?
-
-> [Plan to make your content available in search results](make-site-content-searchable.md#__toc356211699)
-    
-> [Understand search settings and permissions](make-site-content-searchable.md#__toc356211700)
-    
-> [Show content on a site in search results](make-site-content-searchable.md#__toc356211701)
-    
-> [Show content from lists or libraries in search results](make-site-content-searchable.md#__toc356211702)
-    
-> [Show contents of ASPX pages in search results](make-site-content-searchable.md#__toc356211703)
-    
-> [Exclude content in columns from search results](make-site-content-searchable.md#__toc356211704)
-    
-> [Crawl and re-index a site](make-site-content-searchable.md#__toc356211705)
-    
 ## Plan to make your content available in search results
 <a name="__toc356211699"> </a>
 

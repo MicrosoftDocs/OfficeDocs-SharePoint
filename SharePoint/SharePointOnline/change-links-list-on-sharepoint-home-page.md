@@ -1,7 +1,7 @@
 ---
 title: "Change the Links list on the SharePoint home page"
-ms.author: clake
-author: spowriter
+ms.author: kaarins
+author: kaarins
 manager: pamgreen
 ms.date: 6/21/2018
 ms.audience: Admin

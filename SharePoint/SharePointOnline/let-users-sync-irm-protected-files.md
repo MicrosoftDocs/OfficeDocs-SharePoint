@@ -3,7 +3,7 @@ title: "Let users sync IRM-protected files with the OneDrive sync client"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 5/22/2018
+ms.date: 6/29/2018
 ms.audience: Admin
 ms.topic: article
 ms.prod: office-online-server
@@ -23,7 +23,7 @@ This article is for Office 365 global or SharePoint admins who want their users 
 
 1. Users are running Windows 7 or later. This feature is not yet supported on Mac. 
     
-2. You have [Apply Information Rights Management to a list or library](https://support.office.com/article/3bdb5c4e-94fc-4741-b02f-4e7cc3c54aa1). (On-premises SharePoint Server libraries can't be synced with the new OneDrive sync client.)
+2. You have [Apply Information Rights Management (IRM) to a list or library](https://support.office.com/article/3bdb5c4e-94fc-4741-b02f-4e7cc3c54aa1). (On-premises SharePoint Server libraries can't be synced with the new OneDrive sync client.)
     
 3. Your users have disabled syncing using the previous OneDrive for Business sync client
     

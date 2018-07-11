@@ -1,5 +1,5 @@
 ---
-title: "Silently deploy and configure the OneDrive sync client in your enterprise"
+title: "Silently deploy and configure the OneDrive sync client"
 ms.author: kaarins
 author: kaarins
 ms.date: 6/25/2018
@@ -12,7 +12,7 @@ ms.assetid: 64aa1f56-d7f6-4500-a408-1fde8fe6db36
 description: "Learn how IT admins can enable silent account configuration when deploying the OneDrive sync client in an enterprise."
 ---
 
-# Silently deploy and configure the OneDrive sync client in your enterprise
+# Silently deploy and configure the OneDrive sync client
 
 This article is for IT admins who would like to silently deploy and configure the new OneDrive sync client (OneDrive.exe) to managed Windows computers in their enterprise. This feature works for computers that are joined to Azure Active Directory (Azure AD).
   

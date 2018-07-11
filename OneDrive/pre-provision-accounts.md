@@ -138,7 +138,7 @@ This article describes how to pre-provision OneDrive for your users by using Pow
     
 9. If you have additional User Input files, rerun the script and change the -InputfilePath parameter to the location of the other User Input file.
     
-To verify that OneDrive has been created for your users, see [How to display a list of OneDrive for Business site collections](create-a-list-of-all-onedrive-locations.md).
+To verify that OneDrive has been created for your users, see [How to display a list of OneDrive for Business site collections](list-onedrive-urls.md).
   
 > [!NOTE]
 > If you are pre-provisioning OneDrive for many users, it might take some time for the OneDrive locations to be created. 

@@ -3,7 +3,7 @@ title: "Deploy the new OneDrive sync client for Windows"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 6/21/2018
+ms.date: 7/6/2018
 ms.audience: Admin
 ms.topic: get-started-article
 ms.prod: office-online-server
@@ -37,7 +37,7 @@ The OneDrive sync client (OneDrive.exe) is supported on:
     
 - Windows 7
     
-- macOS - for info about deploying the OneDrive sync client on macOS, see [Configure the new OneDrive sync client on macOS](deploy-sync-client-for-mac.md)
+- macOS - for info about deploying the OneDrive sync client on macOS, see [Configure the new OneDrive sync client on macOS](deploy-and-configure-on-macos.md)
     
 The OneDrive sync client doesn't yet support on-premises instances of OneDrive for Business (when your organization doesn't subscribe to Office 365). For more information about the restrictions and limitations of the OneDrive sync client, see [Restrictions and limitations when you sync files and folders using the new OneDrive sync client](http://go.microsoft.com/fwlink/p/?LinkId=717734).
   
@@ -75,15 +75,17 @@ To set registry keys on computers in your domain, install OneDrive and copy the 
   
 ### Use System Center Configuration Manager to deploy the OneDrive sync client
 
-To deploy through System Center Configuration Manager, you can save the OneDriveSetup.exe installer for Windows to a local network share. [Download the OneDriveSetup.exe installer for Windows](https://go.microsoft.com/fwlink/?linkid=844652). [Learn more about application management in Configuration Manager](https://go.microsoft.com/fwlink/p/?LinkId=535034).
+To deploy through System Center Configuration Manager, you can save the OneDriveSetup.exe installer for Windows to a local network share. [Download the Production ring OneDriveSetup.exe installer for Windows](https://go.microsoft.com/fwlink/?linkid=844652) or [download the Enterprise ring OneDriveSetup.exe installer for Windows](https://go.microsoft.com/fwlink/p/?linkid=860987). [Learn more about application management in Configuration Manager](https://go.microsoft.com/fwlink/p/?LinkId=535034).
   
 > [!TIP]
 > Try the [sample SCCM package](https://go.microsoft.com/fwlink/p/?LinkId=824069). Just update the OneDrive.exe path and the application owner. 
   
 To install the OneDrive sync client on Windows, run the following command using System Center Configuration Manager:
   
-Execute **\<pathToExecutable\>\OneDriveSetup.exe /silent**
-  
+```
+Execute <pathToExecutable>\OneDriveSetup.exe /silent
+```
+
 (where pathToExecutable is a location on the local computer or an accessible network share).
   
 > [!NOTE]
@@ -97,8 +99,10 @@ The new OneDrive sync client for Windows now supports syncing IRM-protected Shar
   
 To silently install the client on computers, use the /qn switch as part of the command-line options of the Microsoft Windows Installer Tool (Msiexec.exe). For example, the following command shows the silent mode installation (assuming the RMS Client installer package is already downloaded to C:\Downloads)
   
- **msiexec /qn c:\downloads\setup.msi**
-  
+```
+msiexec /qn c:\downloads\setup.msi
+```
+
 You can have the setup file on a network share and use managed software deployment to run the msiexec command.
   
 > [!NOTE]
@@ -111,24 +115,39 @@ OneDrive doesn't support single sign in using existing Office or Windows credent
   
 - Use the following URL to start OneDrive Setup on users' computers. When users click to begin Setup, a sign-in window will appear for users can enter email address.
     
-    odopen://launch
-    
+  ```
+  odopen://launch
+  ```
+
 - Use the following URL with each user's email address to start Setup and prepopulate user email addresses in the sign-in window.
     
-    odopen://sync?useremail=youruseremail@organization.com
-    
+  ```
+  odopen://sync?useremail=youruseremail@organization.com
+  ```
+
 If you want to auto-configure a SharePoint site to be synced, you can use the URL below as a guide to build the path to the SharePoint site you want to sync automatically. Replace HERE with the correct values for each component of the URL.
   
-Note: Replace special characters like the period (.), hyphen (-), and at sign (@) with the corresponding encoded values. For example, if the URL includes a hyphen, replace the hyphen with its encoded value, **%2D**. Additionally, you will need Client Side Object Model (CSOM) knowledge to query the team site to determine the appropriate SiteID, WebID and ListID to build the appropriate URL. 
-  
-odopen://sync/?siteId=SiteID_HERE&amp;webId=WebID_HERE&amp;listId=ListID_HERE&amp;userEmail=UserEmail_HERE&amp;webUrl=WebURL_HERE"
-  
-- Run the following command using System Center Configuration Manager (SCCM) script: **%localappdata%\Microsoft\OneDrive\OneDrive.exe**
-    
-    It starts the OneDrive process. If users haven't set up any accounts, it displays OneDrive Setup. To display OneDrive Setup specifically to users who haven't set up an account for your tenant, use the command line parameter ** /configure_business:\<tenantId\> **
-    
 > [!NOTE]
-> When you use System Center Configuration Manager, make sure you run OneDrive.exe with User permissions (not as an Administrator). > For help finding your tenant ID, see [Find your Office 365 tenant ID](https://support.office.com/article/6891b561-a52d-4ade-9f39-b492285e2c9b). 
+> Replace special characters like the period (.), hyphen (-), and at sign (@) with the corresponding encoded values. For example, if the URL includes a hyphen, replace the hyphen with its encoded value, **%2D**. Additionally, you will need Client Side Object Model (CSOM) knowledge to query the team site to determine the appropriate SiteID, WebID and ListID to build the appropriate URL. 
+  
+```
+odopen://sync/?siteId=SiteID_HERE&amp;webId=WebID_HERE&amp;listId=ListID_HERE&amp;userEmail=UserEmail_HERE&amp;webUrl=WebURL_HERE"
+```
+
+- Run the following command using System Center Configuration Manager (SCCM) script: 
+    
+  ```
+  %localappdata%\Microsoft\OneDrive\OneDrive.exe 
+  ```
+
+    It starts the OneDrive process. If users haven't set up any accounts, it displays OneDrive Setup. To display OneDrive Setup specifically to users who haven't set up an account for your tenant, use the command line parameter: 
+    
+  ```
+   /configure_business:<tenantId>
+  ```
+
+> [!NOTE]
+> When you use System Center Configuration Manager, make sure you run OneDrive.exe with User permissions (not as an Administrator). > For help finding your tenant ID, see [Find your Office 365 tenant ID](find-your-office-365-tenant-id.md). 
   
 ## Step 3: Set your update ring (Optional)
 <a name="cad"> </a>
