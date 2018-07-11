@@ -66,7 +66,7 @@ Below you can see and contrast the patterns of network utilization in cases of c
 After the initial sync is complete, the network usage will decrease and then level out. 
   
 > [!NOTE]
-> Network usage varies depending on file types most frequently synced. When users change Office files, only the changes are uploaded or downloaded and not the whole file. For other types of files, the whole file is uploaded or downloaded. > You should expect traffic to be higher during regular work hours when users are online and working on files. 
+> Network usage varies depending on file types most frequently synced. When users change Office files, only the changes are uploaded or downloaded and not the whole file. For other types of files, the whole file is uploaded or downloaded. You should expect traffic to be higher during regular work hours when users are online and working on files. 
   
 ## Control sync throughput
 <a name="ControlSyncThroughput"> </a>

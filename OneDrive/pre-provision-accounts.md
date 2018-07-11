@@ -46,7 +46,7 @@ This article describes how to pre-provision OneDrive for your users by using Pow
   
 4. Copy the following code and paste it into a text editor such as Notepad:
     
-  ```
+  ```PowerShell
   <#
   .SYNOPSIS
    This script adds an entry for each user specified in the input file 
@@ -104,10 +104,9 @@ This article describes how to pre-provision OneDrive for your users by using Pow
   $loader.CreatePersonalSiteEnqueueBulk($Users)
   $loader.Context.ExecuteQuery()
   Write-Host "Script Completed" 
-  
   ```
 
-    Notice that comments are included in the code to describe the script and the parameters that are used in it. They will not affect the running of the PowerShell script.
+   Notice that comments are included in the code to describe the script and the parameters that are used in it. They will not affect the running of the PowerShell script.
     
 5. Save the text file and then change the file name extension to .ps1. In this example, we use the name **BulkEnqueueOneDriveSite.ps1**. 
     
@@ -126,15 +125,15 @@ This article describes how to pre-provision OneDrive for your users by using Pow
   .\BulkEnqueueOneDriveSite.ps1 -SPOAdminUrl <The URL for the SharePoint Admin center> -InputfilePath <location of your UserInput file> 
   ```
 
-    For example:
+   For example:
     
   ```
   .\BulkEnqueueOneDriveSite.ps1 -SPOAdminUrl https://contoso-admin.sharepoint.com -InputfilePath C:\UserInput1.txt 
   ```
 
-    Running the script will prompt you for the Office 365 credentials, which you will need to enter.
+   Running the script will prompt you for the Office 365 credentials, which you will need to enter.
     
-    When the script has finished, the PowerShell pane shows the status as **Completed**.
+   When the script has finished, the PowerShell pane shows the status as **Completed**.
     
 9. If you have additional User Input files, rerun the script and change the -InputfilePath parameter to the location of the other User Input file.
     

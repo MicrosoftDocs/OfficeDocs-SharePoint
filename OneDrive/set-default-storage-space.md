@@ -21,7 +21,7 @@ description: "Learn how to change the default storage space for OneDrive users i
 The default storage space for each user's OneDrive user is 1 TB. Depending on your Office 365 plan (see the [OneDrive for Business service description](https://go.microsoft.com/fwlink/?linkid=826071) for info), you can increase the storage up to 5 TB. 
   
 > [!NOTE]
-> For help finding out which subscription you have, see [What Office 365 for business subscription do I have?](https://support.office.com/article/092252f8-08df-4cdb-a8d2-b8653caa29a1)> If your organization has 5 or more users, you can change the storage space to more than 5 TB. Contact Microsoft support to discuss your needs. > You must assign at least one license to a user before you can increase the default OneDrive storage space. 
+> For help finding out which subscription you have, see [What Office 365 for business subscription do I have?](https://support.office.com/article/092252f8-08df-4cdb-a8d2-b8653caa29a1)> If your organization has 5 or more users, you can change the storage space to more than 5 TB. Contact Microsoft support to discuss your needs. You must assign at least one license to a user before you can increase the default OneDrive storage space. 
   
 ## Set the default OneDrive storage space in the OneDrive admin center
 
@@ -41,12 +41,12 @@ This storage space setting applies to all new and existing users for whom you ha
     
 3. Run the following command:
     
-  ```
-  $r=Get-SPOSite -Identity <user's OneDrive URL> -Detailed
-  $r.StorageQuotaType
-  ```
+      ```
+      $r=Get-SPOSite -Identity <user's OneDrive URL> -Detailed
+      $r.StorageQuotaType
+      ```
 
-    (Where  _\<user's OneDrive URL\>_ is the URL of the user's OneDrive). The command will return "Default" if the user has the default storage limit or "UserSpecific" if the user has a specific limit. 
+      (Where  _\<user's OneDrive URL\>_ is the URL of the user's OneDrive). The command will return "Default" if the user has the default storage limit or "UserSpecific" if the user has a specific limit. 
     
 ## Set the default OneDrive storage space using PowerShell
 
@@ -56,17 +56,17 @@ This storage space setting applies to all new and existing users for whom you ha
     
 3. Run the following command:
     
-  ```
-  Set-SPOTenant -OneDriveStorageQuota <quota>
-  ```
+      ```
+      Set-SPOTenant -OneDriveStorageQuota <quota>
+      ```
 
-    Where  _\<quota\>_ is the value in megabytes for the storage space. For example, 1048576 for 1 TB or 5242880 for 5 TB. You can specify any value that you want, however, if you specify a value greater than that allowed by a given user's license, that user's storage space will be rounded down to the maximum value allowed by their license. 
+     Where  _\<quota\>_ is the value in megabytes for the storage space. For example, 1048576 for 1 TB or 5242880 for 5 TB. You can specify any value that you want, however, if you specify a value greater than that allowed by a given user's license, that user's storage space will be rounded down to the maximum value allowed by their license. 
     
     To reset an existing user's OneDrive to the new default storage space, run the following command:
     
-  ```
-  Set-SPOSite -Identity <user's OneDrive URL> -StorageQuotaReset
-  ```
+      ```
+      Set-SPOSite -Identity <user's OneDrive URL> -StorageQuotaReset
+      ```
 
 ## See also
 
