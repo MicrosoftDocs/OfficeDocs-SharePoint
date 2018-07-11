@@ -1,0 +1,77 @@
+---
+title: "Silently deploy and configure the OneDrive sync client"
+ms.author: kaarins
+author: kaarins
+ms.date: 06/25/2018
+ms.audience: ITPro
+ms.topic: article
+ms.service: one-drive
+localization_priority: Normal
+search.appverid: ODB160
+ms.assetid: 64aa1f56-d7f6-4500-a408-1fde8fe6db36
+description: "Learn how IT admins can enable silent account configuration when deploying the OneDrive sync client in an enterprise."
+---
+
+# Silently deploy and configure the OneDrive sync client
+
+This article is for IT admins who would like to silently deploy and configure the new OneDrive sync client (OneDrive.exe) to managed Windows computers in their enterprise. This feature works for computers that are joined to Azure Active Directory (Azure AD).
+  
+## Overview
+
+If you enable this feature, OneDrive.exe will attempt to sign in to the work or school account on the device that's joined to Azure AD. Before if begins syncing, it will check the available disk space. If syncing the user's entire OneDrive would cause the available space to drop below 1 GB or if the size exceeds the threshold you set, OneDrive will prompt the user to choose folders to sync. [Learn how to set the size threshold by using Group Policy](use-group-policy.md#MaxOneDriveSize). 
+  
+If you enable this setting and the user is syncing files with the previous OneDrive for Business sync client (Groove.exe), the new sync client (OneDrive.exe) will attempt to take over syncing and import the user's sync settings. 
+  
+## Prerequisites
+
+Before you can enable silent configuration, you need to join your devices to Azure AD. You can join devices running Windows 10 and Windows Server 2016 directly to Azure AD. To learn how, see [Set up Azure Active Directory joined devices](https://go.microsoft.com/fwlink/?linkid=864414).
+  
+If you have an on-premises environment that uses Active Directory, you can enable "hybrid Azure AD joined devices" to join devices on your domain to Azure AD. Devices must be running one of the following operating systems:
+  
+- Windows 10 
+    
+- Windows 8.1 
+    
+- Windows 7 
+    
+- Windows Server 2016 
+    
+- Windows Server 2012 R2 
+    
+- Windows Server 2012 
+    
+- Windows Server 2008 R2
+    
+> [!NOTE]
+> For more info, see [How to configure hybrid Azure Active Directory joined devices](https://go.microsoft.com/fwlink/?linkid=864140). To check the join status and fix problems, see [Troubleshoot hybrid Azure AD-joined devices](https://go.microsoft.com/fwlink/?linkid=864415). 
+  
+## Enable silent configuration
+
+Using Group Policy:
+  
+1. Enable silent configuration. For info, see [Silently configure OneDrive using Windows 10 or domain credentials](use-group-policy.md#SilentConfig).
+    
+2. Optionally, specify the maximum OneDrive size that will download automatically in silent configuration. For info, see [Configure the maximum OneDrive size for downloading all files automatically](use-group-policy.md#MaxOneDriveSize). Note that if you enable Files ON-Demand, OneDrive will ignore the maximum size value.
+    
+3. Optionally, set the default location for the OneDrive folder. For info, see [Set the default location for the OneDrive folder](use-group-policy.md#DefaultRootDir).
+    
+> [!TIP]
+> To test single sign-on, run OneDrive setup using the /silent parameter and enter your user name. Setup should not prompt for credentials. 
+  
+> [!NOTE]
+> Silent configuration won't work on devices for which you've required multi-factor authentication. 
+  
+## Send feedback
+<a name="sendfeedback"> </a>
+
+Please let us know if you have feedback on this feature or encounter any issues:
+  
+1. Right-click the blue OneDrive icon in the notification area, at the far right of the taskbar.
+    
+2. Click **Report a problem**.
+    
+3. Enter a brief description and include the phrase "SilentConfig" in your message to send your feedback directly to engineers working on this feature. 
+    
+4. Click **OK**. You'll receive an email message with a ticket number to track your feedback.
+    
+
