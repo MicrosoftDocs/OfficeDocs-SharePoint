@@ -63,6 +63,10 @@ Fast site creation is used when creating sites in the following entry points:
 
 SharePoint Server 2019 contains the modern experiences for lists and libraries in Team sites. This brings the experience up to date with that found in SharePoint Online.
 
+### Modern sharing experiences
+
+SharePoint Server 2019 now supports modern sharing experiences with a simplified sharing UI. You can now easily share links to content with others in your organization. You can also be warned if you're sharing to a large group or sharing a large number of items.
+
 ### Modern Site Pages, modern web parts and authoring
 
 SharePoint Server 2019 users can now add modern site pages and modern web parts on team sites. Do this in the **Add a Page** in Site Actions or in the pages library by clicking **New** > **Site Page**.
@@ -72,14 +76,6 @@ SharePoint Server 2019 users can now add modern site pages and modern web parts 
 Modern team sites bring a fresh and responsive user experience to team collaboration. The redesigned homepage improves the discoverability of the most common collaboration tasks while putting your team’s news front and center. Users can easily create modern team sites for themselves from SharePoint Home without needing to contact IT.
 
 SharePoint Server 2019 will continue to support creating classic team sites.
-
-### Modern sharing experiences
-
-SharePoint Server 2019 now supports modern sharing experiences with a simplified sharing UI. You can now easily share links to content with others in your organization. You can also be warned if you're sharing to a large group or sharing a large number of items.
-
-### Team Site sync with OneDrive sync client (NGSC)
-
-Users can use the new OneDrive sync client (NGSC – Next Generation Sync Client) instead of Groove.exe to sync Personal Sites hosted on SharePoint Server 2019. For more information, see [New OneDrive sync client release notes](https://support.office.com/en-us/article/New-OneDrive-sync-client-release-notes-845dcf18-f921-435e-bf28-4e24b95e5fc0). (Check with Troy for updates on procedures to use)
 
 ### PDF Viewer
 
@@ -139,6 +135,10 @@ SharePoint will treat the external resource as an external web application. The 
 
 SharePoint Server 2019 now supports authenticating to SMTP servers when sending email messages. Authentication can be configured through the Central Administration website and through PowerShell. SharePoint Server 2019 will still support anonymous connections to SMTP servers that don't require authentication. This makes it easier for customers to integrate SharePoint into highly secure environments where authentication is required to send emails. Customers no longer need to configure smart host relays for SharePoint in these environments.
 
+### Team Site sync with OneDrive sync client (NGSC)
+
+Users can use the new OneDrive sync client (NGSC – Next Generation Sync Client) instead of Groove.exe to sync Personal Sites hosted on SharePoint Server 2019. For more information, see [New OneDrive sync client release notes](https://support.office.com/en-us/article/New-OneDrive-sync-client-release-notes-845dcf18-f921-435e-bf28-4e24b95e5fc0). (Check with Troy for updates on procedures to use)
+
 ### Use of # and % characters in file and folder names
 
 SharePoint Server 2019 now supports # and % characters in file and folder names, completing our support for all valid Windows file and folder name characters. This makes it easier to sync to content from personal storage devices to SharePoint.
@@ -188,15 +188,44 @@ SharePoint has added a new health analyzer rule for SMTP authentication. This he
 
 This section provides detailed descriptions of the updated features in SharePoint Server 2019.
 
-### Visio Services accessibility
+### Distributed Cache now uses background garbage collection by default
 
- Visio Services is introducing several accessibility improvements for high contrast displays, keyboard navigation, and Narrator. Users will be able to access different panes with the following shortcuts:
+Distributed Cache will now configure AppFabric Velocity Cache to use background garbage collection. This helps provide a more reliable experience for features that depend on Distributed Cache.
 
-1. Move focus to Comment pane = Alt + R
- 
-2. Move focus to Shape data pane = Alt + S
- 
-3. Move focus to Canvas = Alt + C
+### File path limit of 400 characters
+
+SharePoint Server 2019 has increased the maximum file path length limit from 260 characters to 400 characters. The file path is everything after the server name and port number in the URL. File path includes the name of the site and subsites, document library, folders, and the file itself.
+This file path length limit increase makes it easier to sync deeply nested content from personal storage devices to SharePoint.
+
+### Hybrid experiences improvements
+
+- The "OneDrive by Default" experience for SharePoint Server 2013 is now available in SharePoint Server 2019. When enabled, any attempt to browse to the My Site Host welcome page will be redirected to Office 365.
+
+- A SharePoint hybrid status bar was added to the top of Central Administration. The hybrid status bar will appear once the SharePoint Server 2019 farm meets the minimum system requirements needed to enable hybrid, and will give you direct access to launch the SharePoint Hybrid Configuration Wizard.
+
+- We've added and updated hybrid links throughout Central Administration to launch the SharePoint Hybrid Configuration Wizard. This lets you skip clicking through multiple pages in the SharePoint Online Admin Center just to get to the SharePoint Hybrid Configuration Wizard.
+
+### Recycle Bin restore improvements
+
+SharePoint Server 2019 users can now restore items that they've deleted themselves, and also items that other users in the site have deleted. Users need edit permission on the deleted items so they're visible in their SharePoint recycle bin.
+
+### SharePoint hybrid status bar improvement
+
+SharePoint Server 2016 introduced the SharePoint hybrid status bar in Central Administration to give direct access to launch the SharePoint Hybrid Configuration Wizard. This was integrated with the main status bar of Central Administration that is used to notify farm administrators of warnings and errors. The Central Administration status bar changes its background color to match the most severe message it needs to display. If you had a severe error in your farm and you also hadn't enabled hybrid, you would see both messages in the status bar with a red background color. This could be misinterpreted by the farm administrator to mean that the farm is in a bad state because hybrid wasn't enabled.
+
+To prevent confusion, we've now separated the SharePoint hybrid status bar from the main status bar. The hybrid status bar will always have a green background color regardless of the state of the main status bar in Central Administration.
+
+### SharePoint Splash screen
+
+The SharePoint setup splash screen (splash.hta) on the installation media has been updated with a new design. The splash screen contains the SharePoint Server 2019 branding and will link to our SharePoint 2019 documentation.
+
+### Sharing email template
+
+Sharing email notifications have been refreshed to use a modern template design. Customers can set the **SPWebApplication.SharingEmailUseSharePoint2016Templates** property to true if they want to continue using the previous sharing email template.
+
+### Suite Navigation and App Launcher improvements
+
+We've refreshed Suite Navigation and App Launcher in SharePoint Server 2019. The user interface now is closely aligned with what is seen in Office 365 so that SharePoint hybrid customers will have a seamless experience as they move between SharePoint Server 2019 and SharePoint Online.
 
 ### Telemetry privacy experience
 
@@ -206,44 +235,15 @@ The email address provided is not sent outside of the SharePoint farm, not even 
 
 Customers can opt in and opt out of the telemetry experience at any time.
 
-### Suite Navigation and App Launcher improvements
+### Visio Services accessibility
 
-We've refreshed Suite Navigation and App Launcher in SharePoint Server 2019. The user interface now is closely aligned with what is seen in Office 365 so that SharePoint hybrid customers will have a seamless experience as they move between SharePoint Server 2019 and SharePoint Online.
+ Visio Services is introducing several accessibility improvements for high contrast displays, keyboard navigation, and Narrator. Users will be able to access different panes with the following shortcuts:
 
-### Sharing email template
-
-Sharing email notifications have been refreshed to use a modern template design. Customers can set the **SPWebApplication.SharingEmailUseSharePoint2016Templates** property to true if they want to continue using the previous sharing email template.
-
-### SharePoint Splash screen
-
-The SharePoint setup splash screen (splash.hta) on the installation media has been updated with a new design. The splash screen contains the SharePoint Server 2019 branding and will link to our SharePoint 2019 documentation.
-
-### SharePoint hybrid status bar improvement
-
-SharePoint Server 2016 introduced the SharePoint hybrid status bar in Central Administration to give direct access to launch the SharePoint Hybrid Configuration Wizard. This was integrated with the main status bar of Central Administration that is used to notify farm administrators of warnings and errors. The Central Administration status bar changes its background color to match the most severe message it needs to display. If you had a severe error in your farm and you also hadn't enabled hybrid, you would see both messages in the status bar with a red background color. This could be misinterpreted by the farm administrator to mean that the farm is in a bad state because hybrid wasn't enabled.
-
-To prevent confusion, we've now separated the SharePoint hybrid status bar from the main status bar. The hybrid status bar will always have a green background color regardless of the state of the main status bar in Central Administration.
-
-### Recycle Bin restore improvements
-
-SharePoint Server 2019 users can now restore items that they've deleted themselves, and also items that other users in the site have deleted. Users need edit permission on the deleted items so they're visible in their SharePoint recycle bin.
-
-### Hybrid experiences improvements
-
-- The "OneDrive by Default" experience for SharePoint Server 2013 is now available in SharePoint Server 2019. When enabled, any attempt to browse to the My Site Host welcome page will be redirected to Office 365.
-
-- A SharePoint hybrid status bar was added to the top of Central Administration. The hybrid status bar will appear once the SharePoint Server 2019 farm meets the minimum system requirements needed to enable hybrid, and will give you direct access to launch the SharePoint Hybrid Configuration Wizard.
-
-- We've added and updated hybrid links throughout Central Administration to launch the SharePoint Hybrid Configuration Wizard. This lets you skip clicking through multiple pages in the SharePoint Online Admin Center just to get to the SharePoint Hybrid Configuration Wizard.
+1. Move focus to Comment pane = Alt + R
  
-### File path limit of 400 characters
-
-SharePoint Server 2019 has increased the maximum file path length limit from 260 characters to 400 characters. The file path is everything after the server name and port number in the URL. File path includes the name of the site and subsites, document library, folders, and the file itself.
-This file path length limit increase makes it easier to sync deeply nested content from personal storage devices to SharePoint.
-
-### Distributed Cache now uses background garbage collection by default
-
-Distributed Cache will now configure AppFabric Velocity Cache to use background garbage collection. This helps provide a more reliable experience for features that depend on Distributed Cache.
+2. Move focus to Shape data pane = Alt + S
+ 
+3. Move focus to Canvas = Alt + C
 
 ## Related Topics
 
