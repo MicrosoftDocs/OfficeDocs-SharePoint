@@ -9,7 +9,7 @@ ms.topic: article
 f1_keywords:
 - 'WSSCentralAdmin_SharingLinkTypeLearnMore'
 - 'SharingLinkTypeLearnMore'
-ms.prod: office-online-server
+ms.service: sharepoint-online
 localization_priority: Normal
 search.appverid:
 - SPO160

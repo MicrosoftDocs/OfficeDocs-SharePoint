@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 6/15/2017
 ms.audience: Admin
 ms.topic: conceptual
-ms.prod: office-online-server
+ms.service: sharepoint-online
 localization_priority: Normal
 search.appverid:
 - SPO160

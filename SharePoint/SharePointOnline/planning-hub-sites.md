@@ -5,7 +5,7 @@ author: kaarins
 ms.date: 6/13/2018
 ms.audience: Admin
 ms.topic: article
-ms.prod: office-online-server
+ms.service: sharepoint-online
 localization_priority: Normal
 search.appverid: SPO160
 ms.assetid: 4e95dcd8-7e79-4732-aa9b-2f351031b4c2

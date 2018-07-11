@@ -8,7 +8,7 @@ ms.audience: Admin
 ms.topic: article
 f1_keywords:
 - 'WSSEndUser_SPMobileAndroid_LinksTabEmptyState_FL827915'
-ms.prod: office-online-server
+ms.service: sharepoint-online
 localization_priority: Normal
 ms.collection: Strat_SP_modern
 search.appverid:

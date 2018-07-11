@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 6/20/2018
 ms.audience: Admin
 ms.topic: article
-ms.prod: office-online-server
+ms.service: sharepoint-online
 localization_priority: Normal
 search.appverid:
 - SPO160

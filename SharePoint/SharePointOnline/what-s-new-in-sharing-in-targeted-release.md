@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 2/1/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: sharepoint-online
 localization_priority: Normal
 ms.assetid: cc78357c-6d48-499c-9cc7-dae447d0d391
 description: "In this article we'll discuss the latest sharing features in SharePoint Online and OneDrive. The features described here are part of the targeted release program and you may need to have targeted release turned on in your tenant in order to use them. (Note the availability dates in each section.)"

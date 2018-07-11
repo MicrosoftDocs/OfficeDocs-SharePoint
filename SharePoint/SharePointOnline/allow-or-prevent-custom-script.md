@@ -9,7 +9,7 @@ ms.topic: article
 f1_keywords:
 - 'O365M_NoScript'
 - 'O365E_NoScript'
-ms.prod: office-online-server
+ms.service: sharepoint-online
 localization_priority: Normal
 ms.collection: Strat_SP_admin
 search.appverid:

@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 6/25/2018
 ms.audience: Admin
 ms.topic: conceptual
-ms.prod: office-online-server
+ms.service: sharepoint-online
 localization_priority: Normal
 ms.collection:
 - IT_SharePoint_Hybrid

@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 5/22/2018
 ms.audience: Admin
 ms.topic: reference
-ms.prod: office-online-server
+ms.service: sharepoint-online
 localization_priority: Normal
 search.appverid:
 - WSU150

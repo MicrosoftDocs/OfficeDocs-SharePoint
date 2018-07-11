@@ -5,7 +5,7 @@ author: kaarins
 ms.date: 5/25/2018
 ms.audience: Admin
 ms.topic: conceptual
-ms.prod: office-online-server
+ms.service: sharepoint-online
 localization_priority: Normal
 ms.collection: Strat_SP_admin
 search.appverid:

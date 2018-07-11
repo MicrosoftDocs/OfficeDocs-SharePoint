@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 5/21/2018
 ms.audience: Admin
 ms.topic: overview
-ms.prod: office-online-server
+ms.service: sharepoint-online
 localization_priority: Normal
 ms.custom: Adm_O365
 search.appverid:

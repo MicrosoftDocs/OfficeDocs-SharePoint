@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 6/25/2018
 ms.audience: End User
 ms.topic: article
-ms.prod: office-online-server
+ms.service: sharepoint-online
 localization_priority: Normal
 ms.collection:
 - Ent_O365_Hybrid

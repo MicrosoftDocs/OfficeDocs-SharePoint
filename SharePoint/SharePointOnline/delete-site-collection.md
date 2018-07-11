@@ -5,7 +5,7 @@ author: kaarins
 ms.date: 5/21/2018
 ms.audience: Admin
 ms.topic: article
-ms.prod: office-online-server
+ms.service: sharepoint-online
 localization_priority: Normal
 ms.assetid: 4dc86d69-84c9-426c-b83f-e6e674722d85
 description: "Learn how to delete classic site collections in the classic SharePoint admin center"

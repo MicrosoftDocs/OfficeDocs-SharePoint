@@ -6,7 +6,7 @@ manager: arnek
 ms.date: 6/20/2018
 ms.audience: Admin
 ms.topic: overview
-ms.prod: office-online-server
+ms.service: sharepoint-online
 localization_priority: Normal
 search.appverid: SPO160
 ms.assetid: 479cfd6b-900b-46aa-b497-c13787771d3f
