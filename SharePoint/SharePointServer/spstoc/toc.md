@@ -9,6 +9,7 @@
 ### [New and improved features in SharePoint Server 2016](../what-s-new/new-and-improved-features-in-sharepoint-server-2016.md)
 #### [New features in Feature Pack 1](../what-s-new/new-features-in-feature-pack-1.md)
 #### [New feature in Feature Pack 2](../what-s-new/new-feature-in-feature-pack-2.md)
+#### [What's deprecated or removed from SharePoint Server 2019](../what-s-new/what-s-deprecated-or-removed-from-sharepoint-server-2019.md)
 #### [What's deprecated or removed from SharePoint Server 2016](../what-s-new/what-s-deprecated-or-removed-from-sharepoint-server-2016.md)
 ## [Getting started](../getting-started.md)
 ## [Security for SharePoint Server](../security-for-sharepoint-server/security-for-sharepoint-server.md)
