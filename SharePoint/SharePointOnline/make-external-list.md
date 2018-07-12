@@ -179,11 +179,11 @@ To create an ECT, follow these steps.
   
 9. When you select SQL Server, specify the following:
     
-  - **Database Server name**
+    - **Database Server name**
     
-  - **Database Name**
+    - **Database Name**
     
-  - **Name**
+    - **Name**
     
     > [!IMPORTANT]
     >  The URL you use to access the database contains the Fully Qualified Server Name. For example, if you access the database via https://aaapbj1mtc.database.windows.net your Fully Qualified Server Name is **aaapbj1mtc.database.windows.net**. > If you log on at a higher level, such as the Management Portal for Microsoft Azure, you can discover the Fully Qualified Server Name. On the portal page, under **Subscriptions**, click the name of your subscription. Then, under **Fully Qualified Server Name**, expand your subscription and the server name. Names of databases appear under each server name. 

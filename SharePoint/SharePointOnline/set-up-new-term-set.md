@@ -69,7 +69,7 @@ To learn how to add a term to the new term set, see [Create and manage terms in 
 
 To open the Term Store management tool, select the SharePoint environment that you want, and then follow the steps listed.
   
-- In SharePoint Online
+**In SharePoint Online**
     
 1. Sign in to Office 365 as a global admin or SharePoint admin.
     
@@ -77,7 +77,7 @@ To open the Term Store management tool, select the SharePoint environment that y
     
 3. Select **Term Store**.
   
-- In SharePoint Server
+**In SharePoint Server**
     
 1. From the site collection Home page, select **Site Contents**.
     

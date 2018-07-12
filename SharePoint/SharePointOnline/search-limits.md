@@ -52,7 +52,7 @@ The following table lists the limits for SharePoint Online search.
 |User-defined full-text indexes  <br/> |3  <br/> |Boundary  <br/> ||
 |Maximum number of on-premises items indexed in Office 365  <br/> |20 million items  <br/> |Threshold  <br/> |For each 1 TB of storage space your tenant has in Office 365, you can index 1 million items of on-premises content in your tenant's search index in Office 365 with the cloud hybrid search solution. This quota is by default limited upwards to 20 million items. To increase the number of items that can be indexed beyond 20 million items, contact Microsoft Support.  <br/> |
    
-See also:
+## See also:
   
 - [SharePoint Online Limit](https://go.microsoft.com/fwlink/p/?LinkID=856113)
     
