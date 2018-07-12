@@ -3,7 +3,6 @@ title: "External sharing overview"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 6/22/2018
 ms.audience: Admin
 ms.topic: article
 f1_keywords:
@@ -62,25 +61,29 @@ If you have confidential information that should never be shared with external u
 
 An external user is someone from outside your Office 365 subscription to whom you have given access to one or more sites, files, or folders. There are two types of external users:
   
- **Authenticated users**
+ **Authenticated users with Microsoft accounts**
   
-Authenticated users are users who have a Microsoft account or a work or school account from another Office 365 subscription. You can share sites and documents with these users in much the same way that you share sites and documents with your internal users. Permissions and groups work the same for authenticated external users as they do for internal users.
+You can share sites, files, and folders with users who have a Microsoft Account or a work or school account from another Office 365 subscription in much the same way that you share sites and documents with your internal users. Permissions and groups work the same for authenticated external users with Microsoft accounts as they do for internal users.
   
-Because external users do not have a license to your Office 365 subscription, they are limited to basic collaboration tasks:
+Because external users with Microsoft accounts do not have a license to your Office 365 subscription, they are limited to basic collaboration tasks:
   
-- An authenticated external user can perform tasks on a site consistent with the permission level that they are assigned. For example, if you add an external user to the Members group, they will have Edit permissions and they will be able to add, edit and delete lists; they will also be able to view, add, update and delete list items and documents.
+- They can perform tasks on a site consistent with the permission level that they are assigned. For example, if you add an external user to the Members group, they will have Edit permissions and they will be able to add, edit and delete lists; they will also be able to view, add, update and delete list items and documents.
     
-- Authenticated external users can use Office Online for viewing and editing documents. If your plan includes Office Professional Plus, they cannot install the desktop version of Office on their own computers unless you assign them a license.
+- They can use Office Online for viewing and editing documents. If your plan includes Office Professional Plus, they cannot install the desktop version of Office on their own computers unless you assign them a license.
     
-- Authenticated external users will be able to see other types of content on sites, depending on the permissions you give them. For example, they can navigate to different subsites within the site collection to which they were invited. They will also be able to do things like view site feeds.
+- They will be able to see other types of content on sites, depending on the permissions you give them. For example, they can navigate to different subsites within the site collection to which they were invited. They will also be able to do things like view site feeds.
     
 If your authenticated external users need greater capability, you must assign them an appropriate Office 365 license. Do this in the same way that you would assign a license to an internal user.
+
+ **Authenticated users without Microsoft accounts**
+
+You can share files and folders with anyone who has an email address. If the person you're sharing with doesn't have a Microsoft Account or a work or school account, they will be sent a one-time access code for authentication each time they access the file or folder. You can't share sites with users unless they have a Microsoft account.
   
  **Anonymous users**
   
 Anonymous users are users who have a shareable link to a folder or document and can view or edit the document or upload to the folder (depending on the type of link) without having to log in with a username or password. Anonymous links can be freely passed around between users and are valid until you disable them or they expire (if you've set an expiration date).
   
-Anonymous users cannot access sites, and you cannot assign them licenses. They can only view or edit the specific document or folder for which they have an anonymous access link.
+Anonymous users cannot access sites, and you cannot assign them licenses. They can only view or edit the specific document or folder for which they have an anonymous access link. You cannot verify the identity of anonymous users, but thier IP address is recorded in audit logs when they access or edit shared content.
   
 ## What happens when I share a site or document?
 
@@ -98,7 +101,7 @@ You can discontinue sharing with an authenticated external user by removing thei
   
 When you share a file or folder with an external user who has their own Office 365 email address (a work or school account), they get a link to the file and can log in to access the file or folder using their work or school account. These external users are added as guests to your Office 365 directory when they accept the sharing invitation.
   
-When you share a file or folder with an authenticated external user who does not have a work or school account, an email is sent to them which contains a link to the site or document. Each time they access the file or folder using the link, they are sent a time-sensitive code via email that they can use to verify their identity. They must enter the code to access the file or folder.
+When you share a file or folder with an authenticated external user who does not have a work or school account, an email is sent to them which contains a link to the file or folder. Each time they access the file or folder using the link, they are sent a time-sensitive code via email that they can use to verify their identity. They must enter the code to access the file or folder.
   
 You can [discontinue sharing with an authenticated external user](https://support.office.com/article/0a36470f-d7fe-40a0-bd74-0ac6c1e13323) by deleting the sharing link that was sent to them. 
   
