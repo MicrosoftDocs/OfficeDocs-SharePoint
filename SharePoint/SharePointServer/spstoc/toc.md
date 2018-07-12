@@ -735,6 +735,8 @@
 #### [More cache hosts are running in this deployment than are registered with SharePoint](../technical-reference/more-cache-hosts-are-running-in-this-deployment-than-are-registered-with-sharepo.md)
 #### [One of the cache hosts in the cluster is down](../technical-reference/one-of-the-cache-hosts-in-the-cluster-is-down.md)
 #### [One or more servers is not responding](../technical-reference/one-or-more-servers-is-not-responding.md)
+#### [One or more servers can't retrieve People Picker credentials](../technical-reference/one-or-more-servers-can-t-retrieve-People-Picker-credentials.md)
+#### [One or more servers can't retrieve the outgoing email credentials](../technical-reference/one-or-more-servers-can-t-retrieve-the-outgoing-email-credentials.md)
 #### [One or more web applications are configured to use Windows Classic authentication](../technical-reference/one-or-more-web-applications-are-configured-to-use-windows-classic-authenticatio.md)
 #### [People Search relevance is not optimized when the Active Directory has errors in the manager reporting structure](../technical-reference/people-search-relevance-is-not-optimized-when-the-active-directory-has-errors-in.md)
 #### [Product / patch installation or server upgrade required](../technical-reference/productpatch-installation-or-server-upgrade-required.md)
