@@ -3,7 +3,6 @@ title: "New and improved features in SharePoint Server 2016"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 3/8/2018
 ms.audience: ITPro
 ms.topic: overview
 ms.prod: sharepoint-server-itpro
@@ -180,7 +179,7 @@ In SharePoint Server 2016, new hybrid features are available to enable hybrid so
     
 - Users have a single profile in Office 365, where all of their profile information is stored.
     
-For more information, see [Plan for hybrid sites features](http://technet.microsoft.com/library/4bf21275-1b38-4299-b80d-5f12e8b87a47%28Office.14%29.aspx).
+For more information, see [SharePoint hybrid sites and search](../hybrid/sharepoint-hybrid-sites-and-search.md).
   
  **Hybrid OneDrive for Business**
   
