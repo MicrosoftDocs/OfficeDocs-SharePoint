@@ -91,7 +91,9 @@ You can also use restricted domains at the site collection level. Note the follo
 
 After you have configured the restricted domains sharing feature, here's what you'll see when you share a document:
   
-- **Sharing content with email domains that are not allowed.** If you attempt to share content with an external user whose email address domain violates your restricted domains settings, an error message will display and sharing will not be allowed: 
+- **Sharing content with email domains that are not allowed.** If you attempt to share content with an external user whose email address domain violates your restricted domains settings, an error message will display and sharing will not be allowed.
+
+    (If the user is already in your directory, you won't see the error, but they will be blocked if they attempt to access the site.)
     
 - **Sharing OneDrive for Business files to email domains that are not allowed.** If you try to share a OneDrive for Business file with an external user whose email domain is not allowed as a result of your restricted domains configuration, an error message will display and sharing will not be allowed.
   
