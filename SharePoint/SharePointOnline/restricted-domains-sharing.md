@@ -95,11 +95,15 @@ After you have configured the restricted domains sharing feature, here's what yo
 
     (If the user is already in your directory, you won't see the error, but they will be blocked if they attempt to access the site.)
     
+    ![Screenshot of sharing error message when sharing with blocked user.](media/fb280460-388d-4596-9938-6b69101d11fb.png)
+
 - **Sharing OneDrive for Business files to email domains that are not allowed.** If you try to share a OneDrive for Business file with an external user whose email domain is not allowed as a result of your restricted domains configuration, an error message will display and sharing will not be allowed.
+
+    ![Screenshot of error message when sharing OneDrive files with blocked users.](media/992f367d-1caa-4019-8fd8-af84c172319c.png)
   
 - **Sharing content with email domains that are allowed.** If your end user is attempting to share content with an external user who has an email address domain that is allowed, they will be able to successfully share the content with that external user. A tool tip lets you know that the user is outside of their organization. 
     
-    ![Sucessfully sharing content with restricted users.](media/4e5ff064-a1d4-4a7d-bc7b-0541312e9383.png)
+    ![Screenshot of sucessfully sharing content with restricted users.](media/4e5ff064-a1d4-4a7d-bc7b-0541312e9383.png)
   
 ## User auditing and lifecycle management
 
