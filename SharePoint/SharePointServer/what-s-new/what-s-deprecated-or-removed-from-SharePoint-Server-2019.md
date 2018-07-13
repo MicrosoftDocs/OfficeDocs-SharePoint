@@ -13,12 +13,12 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - Strat_SP_server
 ms.custom: 
-description: "Learn about the features and functionality that are deprecated or removed in SharePoint Server 2019."
+description: "Learn about the features and functionality that are deprecated or removed in SharePoint Server 2019 Public Preview."
 ---
 
-# What's deprecated or removed from SharePoint Server 2019
+# What's deprecated or removed from SharePoint Server 2019 Public Preview
 
-Learn about the features and functionality that are deprecated or removed in SharePoint Server 2019.
+Learn about the features and functionality that are deprecated or removed in SharePoint Server 2019 Public Preview.
 
 Deprecated features are included in SharePoint Server 2019 for compatibility with previous product versions. For information about new features in SharePoint Server 2019, see [New and improved features in SharePoint Server 2019](new-and-improved-features-in-sharepoint-server-2019.md).
 
@@ -34,9 +34,9 @@ Different customers may have different interpretations of terms such as “depre
 
   A removed feature is no longer supported by Microsoft in SharePoint Server 2019. In many cases the feature is actually removed from the product, but in some cases it may still be present. A feature labeled as “removed” is unsupported even if the feature is still present in the product.
 
-## Features deprecated in SharePoint Server 2019
+## Features deprecated in SharePoint Server 2019 Public Preview
 
-The following features and functionality have been deprecated in SharePoint Server 2019.
+The following features and functionality have been deprecated in SharePoint Server 2019 Public Preview.
 
 ### Access Services 2010
 
@@ -94,9 +94,9 @@ As we announced in the SharePoint Community Blog, site mailboxes are being [depr
 
 The main functionality of Site Manager is now available in modern file move. The Site Manager feature will be supported, but it is deprecated in SharePoint Server 2019. Only site collection administrators will have permission to access the Site Manager page and the UI entry points to this page will be removed.
 
-## Removed features in SharePoint Server 2019
+## Removed features in SharePoint Server 2019 Public Preview
 
-The following features and functionality have been removed in SharePoint Server 2019. 
+The following features and functionality have been removed in SharePoint Server 2019 Public Preview. 
 
 ### Code-Based Sandbox Solutions
 
