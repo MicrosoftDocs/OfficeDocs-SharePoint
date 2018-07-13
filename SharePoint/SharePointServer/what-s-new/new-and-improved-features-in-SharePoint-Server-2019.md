@@ -13,18 +13,18 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - Strat_SP_server
 ms.custom: 
-description: "Learn about the new features and updates to existing features in SharePoint Server 2019."
+description: "Learn about the new features and updates to existing features in SharePoint Server 2019 Public Preview."
 ---
 
 # New and improved features in SharePoint Server 2019
 
-Learn about the new features and updates to existing features in SharePoint Server 2019.
+Learn about the new features and updates to existing features in SharePoint Server 2019 Public Preview.
 
 For new features in SharePoint Server 2016 for end users, see 
 
 ## Detailed description of new features
 
-This section provides detailed descriptions of the new updated features in SharePoint Server 2019.
+This section provides detailed descriptions of the new updated features in SharePoint Server 2019 Public Preview.
 
 ### Access Services 2013 now supports Send Email
 
@@ -145,7 +145,7 @@ SharePoint Server 2019 now supports # and % characters in file and folder names,
 
 ## Detailed description of new Microsoft PowerShell SharePoint Server cmdlets
 
-This section lists the new PowerShell cmdlets for SharePoint Server 2019.
+This section lists the new PowerShell cmdlets for SharePoint Server 2019 Public Preview.
 
 ### New User Profile Synchronization PowerShell cmdlets
 
@@ -174,7 +174,7 @@ The impact level of this cmdlet is set to high, as removing the application cred
 
 ## Detailed description of new SharePoint Health Analyzer rules
 
-This section lists the new Health Analyzer rules for SharePoint Server 2019.
+This section lists the new Health Analyzer rules for SharePoint Server 2019 Public Preview.
 
 ### People Picker health rule
 
@@ -186,7 +186,7 @@ SharePoint has added a new health analyzer rule for SMTP authentication. This he
 
 ## Detailed description of improved features
 
-This section provides detailed descriptions of the updated features in SharePoint Server 2019.
+This section provides detailed descriptions of the updated features in SharePoint Server 2019 Public Preview.
 
 ### Distributed Cache now uses background garbage collection by default
 
