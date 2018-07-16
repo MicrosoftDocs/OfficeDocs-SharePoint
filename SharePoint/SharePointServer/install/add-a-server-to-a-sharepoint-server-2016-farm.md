@@ -27,7 +27,7 @@ description: "Summary: Learn how to add a server to an existing SharePoint Serve
 
 To add a new server to the farm, you must know its intended role to plan for additional or specialized configurations and assess the potential effect of adding the server to a production environment.
   
-In SharePoint Server 2016, the concept of server roles has changed from previous versions. Server role types are now defined by MinRole which allow for better deployment and health of the server in the farm. For additional information about the MinRole feature and a description for each server role type, see [Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019](overview-of-minrole-server-roles-in-sharepoint-server-2016.md).
+In SharePoint Server 2016, the concept of server roles has changed from previous versions. Server role types are now defined by MinRole which allow for better deployment and health of the server in the farm. For additional information about the MinRole feature and a description for each server role type, see [Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019 Public Preview](overview-of-minrole-server-roles-in-sharepoint-server.md).
   
 ### Additional tasks
 
@@ -133,7 +133,7 @@ You add the new server to the farm by using one of the following procedures:
 9. On the **Specify Server Role** page, choose the appropriate role, and then click **Next**.
     
 > [!NOTE]
-> The concept of server roles has changed for SharePoint Server 2016. You can't add a server to a farm if the farm currently contains a server assigned to the "Single Server Farm" role. > For additional information about MinRole, see [Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019](overview-of-minrole-server-roles-in-sharepoint-server-2016.md). 
+> The concept of server roles has changed for SharePoint Server 2016. You can't add a server to a farm if the farm currently contains a server assigned to the "Single Server Farm" role. > For additional information about MinRole, see [Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019 Public Preview](overview-of-minrole-server-roles-in-sharepoint-server.md). 
   
 10. On the **Completing the SharePoint Products Configuration Wizard** page, click **Next**.
     
@@ -206,7 +206,7 @@ Where \<ServerRole\> can be any of the following values: WebFrontEnd, Applicatio
 > If Feature Pack 2 has been applied, additional \<ServerRole>\ options are available: ApplicationWithSearch, WebFrontEndWithDistributedCache.
     
 > [!NOTE]
-> The concept of server roles has changed for SharePoint Server 2016. You can't add a server to a farm if the farm currently contains a server assigned to the "Single Server Farm" role. > For additional information about MinRole, see [Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019](overview-of-minrole-server-roles-in-sharepoint-server-2016.md). 
+> The concept of server roles has changed for SharePoint Server 2016. You can't add a server to a farm if the farm currently contains a server assigned to the "Single Server Farm" role. > For additional information about MinRole, see [Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019 Public Preview](overview-of-minrole-server-roles-in-sharepoint-server.md). 
   
 4. At the PowerShell command prompt, type the following command to install the Help File Collections:
     

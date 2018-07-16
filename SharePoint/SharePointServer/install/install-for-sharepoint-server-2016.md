@@ -1,5 +1,5 @@
 ---
-title: "Install SharePoint Servers 2016 and 2019"
+title: "Install SharePoint Servers 2016 and 2019 Public Preview"
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
@@ -13,16 +13,16 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 ms.assetid: 47db8aed-7e2b-4ccb-b248-d71df3bffa99
 
-description: "Summary: Learn how to install SharePoint Servers 2016 and 2019 in various topologies."
+description: "Summary: Learn how to install SharePoint Servers 2016 and 2019 Public Preview in various topologies."
 ---
 
-# Install SharePoint Servers 2016 and 2019
+# Install SharePoint Servers 2016 and 2019 Public Preview
 
- **Summary:** Learn how to install SharePoint Servers 2016 and 2019 in various topologies. 
+ **Summary:** Learn how to install SharePoint Servers 2016 and 2019 Public Preview in various topologies. 
   
-Testing and implementing SharePoint Servers 2016 and 2019 solutions at different stages of the deployment life cycle requires deployments in various topologies.
+Testing and implementing SharePoint Servers 2016 and 2019 Public Preview solutions at different stages of the deployment life cycle requires deployments in various topologies.
   
-The following articles provide information about how to deploy SharePoint Servers 2016 and 2019 on one or more servers to create different topologies that you can use for testing and implementing SharePoint Servers 2016 and 2019 solutions at different stages of the deployment life cycle.
+The following articles provide information about how to deploy SharePoint Servers 2016 and 2019 Public Preview on one or more servers to create different topologies that you can use for testing and implementing SharePoint Servers 2016 and 2019 Public Preview solutions at different stages of the deployment life cycle.
   
 |**Content**|**Description**|
 |:-----|:-----|

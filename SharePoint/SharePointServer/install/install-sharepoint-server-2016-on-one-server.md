@@ -186,11 +186,11 @@ Use the following procedure to install and configure the configuration database 
 12. On the **Completing the SharePoint Products Configuration Wizard** page, review your configuration settings to verify that they are correct, and then click **Next**.
     
     > [!NOTE]
-    > The **Advanced Settings** option is not available in SharePoint Servers 2016 and 2019. 
+    > The **Advanced Settings** option is not available in SharePoint Servers 2016 and 2019 Public Preview. 
   
 13. On the **Configuration Successful** page, click **Finish**. When the wizard closes, setup opens the web browser and connects to Central Administration.
     
-    If the SharePoint Products Configuration Wizard fails, check the PSCDiagnostics log files, which are located on the drive on which SharePoint Servers 2016 and 2019 are installed, in the %COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\LOGS folder.
+    If the SharePoint Products Configuration Wizard fails, check the PSCDiagnostics log files, which are located on the drive on which SharePoint Servers 2016 and 2019 Public Preview are installed, in the %COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\LOGS folder.
     
     If you are prompted for your user name and password, you might have to add the SharePoint Central Administration web site to the list of trusted sites and configure user authentication settings in Internet Explorer. You might also want to disable the Internet Explorer Enhanced Security settings. If you see a proxy server error message, you might have to configure proxy server settings so that local addresses bypass the proxy server. Instructions for configuring proxy server settings are provided in the following section. For more information about how to configure browser and proxy settings, see [Configure browser settings](install-sharepoint-server-2016-on-one-server.md#configurebrowser).
     
@@ -199,7 +199,7 @@ Use the following procedure to install and configure the configuration database 
 
 After you run the SharePoint Products Configuration Wizard, you should confirm that SharePoint Server works correctly by configuring additional settings in Internet Explorer.
   
-If you are not using Internet Explorer, you might have to configure additional settings for your browser. For information about supported browsers, see [Plan browser support in SharePoint Servers 2016 and 2019](browser-support-planning-0.md).
+If you are not using Internet Explorer, you might have to configure additional settings for your browser. For information about supported browsers, see [Plan browser support in SharePoint Servers 2016 and 2019 Public Preview](browser-support-planning-0.md).
   
 To confirm that you have configured browser settings correctly, log on to the server by using an account that has local administrative credentials. Next, connect to the SharePoint Central Administration web site. If you are prompted for your user name and password when you connect, perform the following procedures:
   

@@ -17,7 +17,7 @@ description: "Learn how to move or rename service application databases in Share
 
 # Move or rename service application databases in SharePoint Server
 
-Learn how to move or rename service application databases in SharePoint Servers 2013, 2016 and 2019.
+Learn how to move or rename service application databases in SharePoint Servers 2013, 2016 and 2019 Public Preview.
   
 The main reason to move service application databases to another farm database server is to load balance the farm. Or you might need to move it to newer hardware.
   
