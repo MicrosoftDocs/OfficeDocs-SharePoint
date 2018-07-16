@@ -28,7 +28,7 @@ When you upgrade from SharePoint Server 2016 to SharePoint Server 2019 Public Pr
   
 |||
 |:-----|:-----|
-|![123 steps](../media/mod_icon_howTo_numeric_M.png)|This is the second phase in the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019 Public Preview. The process includes the following phases that must be completed in order:  <br/><br/> Create the SharePoint Server 2019 Public Preview farm for a database attach upgrade <br/>Copy databases to the new farm for upgrade to SharePoint Server 2019 Public Preview  (this phase) <br/>Upgrade service applications to SharePoint Server 2019 Public Preview <br/>Upgrade content databases to SharePoint Server 2019 Public Preview.<br/> <br/>For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server 2019 Public Preview](overview-of-the-upgrade-process_2019.md).  <br/> |
+|![123 steps](../media/mod_icon_howTo_numeric_M.png)|This is the second phase in the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019 Public Preview. The process includes the following phases that must be completed in order:  <br/><br/> Create the SharePoint Server 2019 Public Preview farm for a database attach upgrade <br/>Copy databases to the new farm for upgrade to SharePoint Server 2019 Public Preview  (this phase) <br/>Upgrade service applications to SharePoint Server 2019 Public Preview <br/>Upgrade content databases to SharePoint Server 2019 Public Preview.<br/> <br/>For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server 2019 Public Preview](overview-of-the-upgrade-process-2019.md).  <br/> |
    
 ## Before you begin
 <a name="begin"> </a>
@@ -178,7 +178,7 @@ You cannot upgrade a database that is set to read-only. You must set the databas
     
 |||
 |:-----|:-----|
-|![123 steps](../media/mod_icon_howTo_numeric_M.png)| This is the second phase in the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019 Public Preview.  <br/>  Next phase: [Upgrade service applications to SharePoint Server 2016](upgrade-service-applications-to-sharepoint-server-2019.md) <br/>  For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server 2019 Public Preview](overview-of-the-upgrade-process_2019.md).  <br/> |
+|![123 steps](../media/mod_icon_howTo_numeric_M.png)| This is the second phase in the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019 Public Preview.  <br/>  Next phase: [Upgrade service applications to SharePoint Server 2016](upgrade-service-applications-to-sharepoint-server-2019.md) <br/>  For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server 2019 Public Preview](overview-of-the-upgrade-process-2019.md).  <br/> |
    
 ## See also
 <a name="ReadWrite"> </a>
@@ -189,5 +189,5 @@ You cannot upgrade a database that is set to read-only. You must set the databas
   
 [Upgrade service applications to SharePoint Server 2019 Public Preview](upgrade-service-applications-to-sharepoint-server-2019.md)
   
-[Upgrade content databases to SharePoint Server 2019 Public Preview](upgrade-content-databases_2019.md)
+[Upgrade content databases to SharePoint Server 2019 Public Preview](upgrade-content-databases-2019.md)
 

@@ -92,7 +92,7 @@ You can review the site collection upgrade logs from the following locations:
   
 - **For farm administrators:** The site collection upgrade log file and the upgrade error log file are located at %COMMONPROGRAMFILES%\Microsoft Shared\Web server extensions\16\LOGS. The logs are named in the following format: SiteUpgrade-  _YYYYMMDD-HHMMSS-SSS_.log, where  _YYYYMMDD_ is the date and  _HHMMSS-SSS_ is the time (hours in 24-hour clock format, minutes, seconds, and milliseconds). These file system logs have more information if you want details about issues. 
     
-    For additional information on how to troubleshoot error messages, see [Troubleshoot site collection upgrade issues in SharePoint Server 2019 Public Preview](troubleshoot-site-collection-upgrade-issues_2019.md).
+    For additional information on how to troubleshoot error messages, see [Troubleshoot site collection upgrade issues in SharePoint Server 2019 Public Preview](troubleshoot-site-collection-upgrade-issues-2019.md).
     
 Use the following checklists to review your upgraded sites and look for issues for either trial upgrades or upgrades in a production environment.
   
@@ -124,5 +124,5 @@ The following table lists common issues with the style and appearance of your we
 
 #### Concepts
 
-[Overview of the upgrade process to SharePoint Server 2019 Public Preview](overview-of-the-upgrade-process_2019.md)
+[Overview of the upgrade process to SharePoint Server 2019 Public Preview](overview-of-the-upgrade-process-2019.md)
 
