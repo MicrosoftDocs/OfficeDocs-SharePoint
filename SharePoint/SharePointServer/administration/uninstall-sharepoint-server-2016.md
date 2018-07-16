@@ -1,5 +1,5 @@
 ---
-title: "Uninstall SharePoint Server 2016 or SharePoint Server 2019"
+title: "Uninstall SharePoint Server 2016 or SharePoint Server 2019 Public Preview"
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
@@ -11,7 +11,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 7ad523f5-db54-4169-81ba-3a7b60f218b7
-description: "Summary: Learn about the limited set of supported methods to uninstall SharePoint Server 2016 or SharePoint Server 2019."
+description: "Summary: Learn about the limited set of supported methods to uninstall SharePoint Server 2016 or SharePoint Server 2019 Public Preview."
 ---
 
 # Uninstall SharePoint Servers 2016 or 2019
@@ -47,7 +47,7 @@ Use this procedure to uninstall SharePoint Server 2016.
   
 4. In the **Programs** area, click **Uninstall a program**.
     
-5. In the **Uninstall or change a program** dialog box, click **Microsoft SharePoint Server 2016** or **Microsoft SharePoint Server 2019**.
+5. In the **Uninstall or change a program** dialog box, click **Microsoft SharePoint Server 2016** or **Microsoft SharePoint Server 2019 Public Preview**.
     
 6. Click **Change**.
     
@@ -75,13 +75,13 @@ Use this procedure to uninstall SharePoint Server 2016.
 
 #### Concepts
 
-[Add a server to a SharePoint Server 2016 or SharePoint Server 2019 farm](../install/add-a-server-to-a-sharepoint-server-2016-farm.md)
+[Add a server to a SharePoint Server 2016 or SharePoint Server 2019 Public Preview farm](../install/add-a-server-to-a-sharepoint-server-2016-farm.md)
   
-[Remove a server from a farm in SharePoint Server 2016 or SharePoint Server 2019](remove-a-server-from-a-farm-in-sharepoint-server-2016.md)
+[Remove a server from a farm in SharePoint Server 2016 or SharePoint Server 2019 Public Preview](remove-a-server-from-a-farm-in-sharepoint-server-2016.md)
   
 [Hardware and software requirements for SharePoint Server 2016](../install/hardware-and-software-requirements.md)
 
-[Hardware and software requirements for SharePoint Server 2019](../install/hardware-and-software-requirements-2019.md)
+[Hardware and software requirements for SharePoint Server 2019 Public Preview](../install/hardware-and-software-requirements-2019.md)
   
 [Install SharePoint Servers 2016 or 2019 on one server](../install/install-sharepoint-server-2016-on-one-server.md)
   

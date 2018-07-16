@@ -39,7 +39,7 @@ Before you begin to install and configure SharePoint Servers 2016 or 2019, do th
   
 - For SharePoint Server 2016, ensure that you have met all hardware and software requirements. You must have a 64-bit version of Windows Server 2012 R2. To host SharePoint databases, you must also have a 64-bit version of SQL Server 2014 SP1. For more information about these requirements, such as specific updates that you must install, see [Hardware and software requirements for SharePoint Server 2016](hardware-and-software-requirements.md).
 
-- For SharePoint Server 2019, ensure that you have met all hardware and software requirements. You must have a 64-bit version of Windows Server 2016. To host SharePoint databases, you must also have a 64-bit version of SQL Server 2016 or 2017. For more information about these requirements, such as specific updates that you must install, see [Hardware and software requirements for SharePoint Server 2019](hardware-and-software-requirements_2019.md).
+- For SharePoint Server 2019 Public Preview, ensure that you have met all hardware and software requirements. You must have a 64-bit version of Windows Server 2016. To host SharePoint databases, you must also have a 64-bit version of SQL Server 2016 or 2017. For more information about these requirements, such as specific updates that you must install, see [Hardware and software requirements for SharePoint Server 2019 Public Preview](hardware-and-software-requirements_2019.md).
     
 - Ensure that you perform a clean installation of SharePoint Servers 2016 or 2019.
     

@@ -1,5 +1,5 @@
 ---
-title: "Add a server to a SharePoint Server 2016 or SharePoint Server 2019 farm"
+title: "Add a server to a SharePoint Server 2016 or SharePoint Server 2019 Public Preview farm"
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
@@ -35,7 +35,7 @@ Before you start to install prerequisite software, you have to complete the foll
   
 - Verify that the new server meets the hardware and software requirements described in [Hardware and software requirements for SharePoint Server 2016](hardware-and-software-requirements.md).
 
-- Verify that the new server meets the hardware and software requirements described in [Hardware and software requirements for SharePoint Server 2019](hardware-and-software-requirements-2019.md).
+- Verify that the new server meets the hardware and software requirements described in [Hardware and software requirements for SharePoint Server 2019 Public Preview](hardware-and-software-requirements-2019.md).
     
 - Verify that you have the minimum level of permissions that are required to install and configure SharePoint Servers 2016 or 2019 on a new server. You must be a member of the Farm Administrators SharePoint group and the Administrators group on the local server to complete the procedures in this article. For more information, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
     
@@ -66,7 +66,7 @@ Before you can install SharePoint Server and add a server to the farm, you must 
 
  For download locations, see [Links to applicable software](hardware-and-software-requirements.md#section5) in "Hardware and software requirements (SharePoint Server 2016)." 
 
-For download locations, see [Links to applicable software](hardware-and-software-requirements-2019.md#section5) in "Hardware and software requirements (SharePoint Server 2019)." 
+For download locations, see [Links to applicable software](hardware-and-software-requirements-2019.md#section5) in "Hardware and software requirements (SharePoint Server 2019 Public Preview)." 
   
 > [!TIP]
 > After you obtain a copy of the required software, we recommend that you create an installation point that you can use to store the images. You can use this installation point to install future software updates. 
@@ -107,11 +107,11 @@ You add the new server to the farm by using one of the following procedures:
   
 - [To add a server by using the SharePoint Products Configuration Wizard](add-a-server-to-a-sharepoint-server-2016-farm.md)
     
-- [To add a new SharePoint Server 2016 or SharePoint Server 2019 server to the farm by using the PSConfig.exe command-line tool](#psconfig)
+- [To add a new SharePoint Server 2016 or SharePoint Server 2019 Public Preview server to the farm by using the PSConfig.exe command-line tool](#psconfig)
     
 - [To add a server by using Microsoft PowerShell](add-a-server-to-a-sharepoint-server-2016-farm.md)
     
- **To add a new SharePoint Server 2016 or SharePoint Server 2019 server to the farm by using the SharePoint Products Configuration Wizard**
+ **To add a new SharePoint Server 2016 or SharePoint Server 2019 Public Preview server to the farm by using the SharePoint Products Configuration Wizard**
   
 1. Verify that the user account that is performing this procedure is the Setup user account. For information about the Setup user account, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
     
@@ -166,7 +166,7 @@ Where \<ServerRole\> can be any of the following values: WebFrontEnd, Applicatio
 > [!NOTE]
 > The  `PSConfig.exe -cmd Services -Provision` syntax is deprecated, but not removed yet. Do not use the **Provision** parameter when you create or join a farm. Using this parameter will lead to failures. 
   
- **To add a new SharePoint Server 2016 or SharePoint Server 2019 server to the farm by using PowerShell**
+ **To add a new SharePoint Server 2016 or SharePoint Server 2019 Public Preview server to the farm by using PowerShell**
   
 1. Verify that you have the following memberships:
     

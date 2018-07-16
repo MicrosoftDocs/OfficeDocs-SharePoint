@@ -1,5 +1,5 @@
 ---
-title: "Upgrade service applications to SharePoint Server 2019"
+title: "Upgrade service applications to SharePoint Server 2019 Public Preview"
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
@@ -12,14 +12,14 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 6de4e8e0-5d27-4b1b-a87f-bebd8b9d6e77
-description: "Summary: Upgrade service applications (Business Connectivity Services, Managed Metadata, Secure Store, and Search) to SharePoint Server 2019."
+description: "Summary: Upgrade service applications (Business Connectivity Services, Managed Metadata, Secure Store, and Search) to SharePoint Server 2019 Public Preview."
 ---
 
-# Upgrade service applications to SharePoint Server 2019
+# Upgrade service applications to SharePoint Server 2019 Public Preview
 
- **Summary:** Upgrade service applications (Business Connectivity Services, Managed Metadata, Secure Store, and Search) to SharePoint Server 2019. 
+ **Summary:** Upgrade service applications (Business Connectivity Services, Managed Metadata, Secure Store, and Search) to SharePoint Server 2019 Public Preview. 
   
-When you upgrade from SharePoint Server 2016 to SharePoint Server 2019, you must use a database attach upgrade, which means that you upgrade only the content for your environment and not the configuration settings. After you have configured the SharePoint Server 2016 environment, and copied the content and service application databases, you can upgrade the service applications to SharePoint Server 2019. This article contains the steps that you take to upgrade the service applications.
+When you upgrade from SharePoint Server 2016 to SharePoint Server 2019 Public Preview, you must use a database attach upgrade, which means that you upgrade only the content for your environment and not the configuration settings. After you have configured the SharePoint Server 2016 environment, and copied the content and service application databases, you can upgrade the service applications to SharePoint Server 2019 Public Preview. This article contains the steps that you take to upgrade the service applications.
   
 **Phase 3 of the upgrade process: Upgrade service applications**
 
@@ -27,7 +27,7 @@ When you upgrade from SharePoint Server 2016 to SharePoint Server 2019, you must
   
 |||
 |:-----|:-----|
-|![123 steps](../media/mod_icon_howTo_numeric_M.png)| This is the third phase in the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019. The process includes the following phases that must be completed in order:  <br/> [Create the SharePoint Server 2019 farm for a database attach upgrade](create-the-sharepoint-server-2019-farm-for-a-database-attach-upgrade.md) <br/> [Copy databases to the new farm for upgrade to SharePoint Server 2019](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2016.md) <br/> [Upgrade service applications to SharePoint Server 2019](upgrade-service-applications-to-sharepoint-server-2019.md) (this phase)  <br/> [Upgrade content databases to SharePoint Server 2019](upgrade-content-databases_2019.md) <br/>  <br/>For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server 2019](overview-of-the-upgrade-process_2019.md).  <br/> |
+|![123 steps](../media/mod_icon_howTo_numeric_M.png)| This is the third phase in the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019 Public Preview. The process includes the following phases that must be completed in order:  <br/> [Create the SharePoint Server 2019 Public Preview farm for a database attach upgrade](create-the-sharepoint-server-2019-farm-for-a-database-attach-upgrade.md) <br/> [Copy databases to the new farm for upgrade to SharePoint Server 2019 Public Preview](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2016.md) <br/> [Upgrade service applications to SharePoint Server 2019 Public Preview](upgrade-service-applications-to-sharepoint-server-2019.md) (this phase)  <br/> [Upgrade content databases to SharePoint Server 2019 Public Preview](upgrade-content-databases_2019.md) <br/>  <br/>For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server 2019 Public Preview](overview-of-the-upgrade-process_2019.md).  <br/> |
    
 ## Before you begin
 <a name="begin"> </a>
@@ -53,7 +53,7 @@ To upgrade a service application database, you create a new service application 
 > Word Automation Services and Machine Translation Services can't be upgraded. A new service instance will need to be created. 
   
 > [!IMPORTANT]
-> The following steps only apply to the Custom server role type. For more information on server role types, see [Planning for a MinRole server deployment in SharePoint Server 2016 and SharePoint Server 2019](...install\planning-for-a-minrole-server-deployment-in-sharepoint-server.md) 
+> The following steps only apply to the Custom server role type. For more information on server role types, see [Planning for a MinRole server deployment in SharePoint Server 2016 and SharePoint Server 2019 Public Preview](...install\planning-for-a-minrole-server-deployment-in-sharepoint-server.md) 
   
 1. Start the service instances
     
@@ -112,7 +112,7 @@ The Search service instance must be started by using PowerShell because you cann
     
   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
-    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2019 cmdlets. 
+    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2019 Public Preview cmdlets. 
     
     > [!NOTE]
     > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
@@ -437,22 +437,22 @@ To upgrade the PerformancePoint Services service application, you create the new
 
 Upgrade the User Profile service application and the Managed Metadata service application before you upgrade the Search service application.
   
-To upgrade the Search service application, you copy the search administration database in your SharePoint Server 2016 farm to your SharePoint Server 2019 farm and restore the Search service application from your SharePoint Server 2016 farm in your SharePoint Server 2019 farm. The restore triggers SharePoint Server 2019 to create a new Search service application in the SharePoint Server 2016 farm and point it to the copied search administration database. To complete the upgrade of the Search service application you create a proxy and add it to the default proxy group and you ensure that the new Links Database and the new search topology is configured the same way as in the SharePoint Server 2016 farm.
+To upgrade the Search service application, you copy the search administration database in your SharePoint Server 2016 farm to your SharePoint Server 2019 Public Preview farm and restore the Search service application from your SharePoint Server 2016 farm in your SharePoint Server 2019 Public Preview farm. The restore triggers SharePoint Server 2019 Public Preview to create a new Search service application in the SharePoint Server 2016 farm and point it to the copied search administration database. To complete the upgrade of the Search service application you create a proxy and add it to the default proxy group and you ensure that the new Links Database and the new search topology is configured the same way as in the SharePoint Server 2016 farm.
   
-SharePoint Server 2019 normally creates a new search topology with all the search components and databases when it creates a the new Search service application. During a **restore** of a Search service application, SharePoint Server 2019 creates a new search topology, but upgrades the restored Search Administration database instead of creating a new Search Administration database. The upgraded Search Administration database retains any additions or modifications made to the search schema, result sources and query rules from the SharePoint Server 2016 farm. 
+SharePoint Server 2019 Public Preview normally creates a new search topology with all the search components and databases when it creates a the new Search service application. During a **restore** of a Search service application, SharePoint Server 2019 Public Preview creates a new search topology, but upgrades the restored Search Administration database instead of creating a new Search Administration database. The upgraded Search Administration database retains any additions or modifications made to the search schema, result sources and query rules from the SharePoint Server 2016 farm. 
   
 > [!NOTE]
 > During this upgrade, search doesn't crawl content in your SharePoint Server 2016. If freshness of search results is important, save time by familiarizing yourself with these steps before starting the upgrade. 
   
 > [!IMPORTANT]
-> Because the search topology in the SharePoint Server 2019 farm is new, the index is empty. You have to perform a full crawl of the entire indexed corpus after you have [upgraded all content sources](upgrade-content-databases_2019.md) (the fourth phase in the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019). 
+> Because the search topology in the SharePoint Server 2019 Public Preview farm is new, the index is empty. You have to perform a full crawl of the entire indexed corpus after you have [upgraded all content sources](upgrade-content-databases_2019.md) (the fourth phase in the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019 Public Preview). 
   
  **To upgrade the Search service application by using PowerShell**
   
 1. To copy the search administration database in the SharePoint Server 2013 with Service Pack 1 (SP1) farm to the SharePoint Server 2016 farm, follow these steps:
     
     > [!NOTE]
-    > You copied all other content and service databases in your SharePoint Server 2016 environment in an earlier step of the process for upgrading to SharePoint Server 2019. We recommend copying the Search Administration database at this later stage because you have to pause the Search service application in your SharePoint Server 2016 environment while copying the Search Administration database. 
+    > You copied all other content and service databases in your SharePoint Server 2016 environment in an earlier step of the process for upgrading to SharePoint Server 2019 Public Preview. We recommend copying the Search Administration database at this later stage because you have to pause the Search service application in your SharePoint Server 2016 environment while copying the Search Administration database. 
   
     > [!IMPORTANT]
     > Perform these steps in the SharePoint Server 2016 environment. 
@@ -465,14 +465,14 @@ SharePoint Server 2019 normally creates a new search topology with all the searc
     
   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
-    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2019 cmdlets. 
+    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2019 Public Preview cmdlets. 
     
     > [!NOTE]
     > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint 2019 Management Shell.    
   
-3. Set the Search Administration database to read-only. In the second phase of the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019, you set all the other databases to read-only. Follow [the same instructions](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2019.md) now for the Search Administration database. 
+3. Set the Search Administration database to read-only. In the second phase of the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019 Public Preview, you set all the other databases to read-only. Follow [the same instructions](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2019.md) now for the Search Administration database. 
     
 4. Pause the Search service application. At the PowerShell command prompt, type the following command:
     
@@ -486,12 +486,12 @@ SharePoint Server 2019 normally creates a new search topology with all the searc
   -  _SearchServiceApplicationName_ is the name of the Search service application you want to pause. 
     
     > [!NOTE]
-    > While the Search service application is paused, the index in the SharePoint Server 2016 environment isn't updated. This means that during the upgrade to SharePoint Server 2019, search results might be less fresh. 
+    > While the Search service application is paused, the index in the SharePoint Server 2016 environment isn't updated. This means that during the upgrade to SharePoint Server 2019 Public Preview, search results might be less fresh. 
   
-5. Copy the search administration database in the SharePoint Server 2016 farm to the SharePoint Server 2019 farm, follow the procedures in [Copy databases to the new farm for upgrade to SharePoint Server 2019](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2016.md) for the search administration database only. 
+5. Copy the search administration database in the SharePoint Server 2016 farm to the SharePoint Server 2019 Public Preview farm, follow the procedures in [Copy databases to the new farm for upgrade to SharePoint Server 2019 Public Preview](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2016.md) for the search administration database only. 
     
     > [!IMPORTANT]
-    > Perform the next steps in the SharePoint Server 2019 environment. 
+    > Perform the next steps in the SharePoint Server 2019 Public Preview environment. 
   
 2. Verify that you have the following memberships:
     
@@ -501,7 +501,7 @@ SharePoint Server 2019 normally creates a new search topology with all the searc
     
   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
-    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2019 cmdlets. 
+    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2019 Public Preview cmdlets. 
     
     > [!NOTE]
     > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
@@ -604,17 +604,17 @@ SharePoint Server 2019 normally creates a new search topology with all the searc
     
     For more information, see [Add-SPServiceApplicationProxyGroupMember](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Add-SPServiceApplicationProxyGroupMember?view=sharepoint-ps).
     
-10. If the SharePoint Server 2016 farm uses a Links Database that is partitioned, partition the Links Database in the SharePoint Server 2019 farm the same way. Learn how in [Move-SPEnterpriseSearchLinksDatabases](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Move-SPEnterpriseSearchLinksDatabases?view=sharepoint-ps).
+10. If the SharePoint Server 2016 farm uses a Links Database that is partitioned, partition the Links Database in the SharePoint Server 2019 Public Preview farm the same way. Learn how in [Move-SPEnterpriseSearchLinksDatabases](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Move-SPEnterpriseSearchLinksDatabases?view=sharepoint-ps).
     
-11. (Optional) Preserve search relevance settings from the SharePoint Server 2016 farm. Because the upgraded Search service application has a new, empty index, search analytics data from the SharePoint Server 2016 farm cannot be fully retained. Copy the Analytics Reporting database from the SharePoint Server 2016 farm and attach it to the new Search service application in the SharePoint Server 2019 farm:
+11. (Optional) Preserve search relevance settings from the SharePoint Server 2016 farm. Because the upgraded Search service application has a new, empty index, search analytics data from the SharePoint Server 2016 farm cannot be fully retained. Copy the Analytics Reporting database from the SharePoint Server 2016 farm and attach it to the new Search service application in the SharePoint Server 2019 Public Preview farm:
     
   - In the SharePoint Server 2016 farm, [backup](https://docs.microsoft.com/en-us/SharePoint/administration/move-or-rename-service-application-databases#Backup) the Analytics Reporting database. 
     
-  - In the SharePoint Server 2019 farm, [restore the backed up database](https://docs.microsoft.com/en-us/SharePoint/administration/move-or-rename-service-application-databases#Restore) to the new database server. 
+  - In the SharePoint Server 2019 Public Preview farm, [restore the backed up database](https://docs.microsoft.com/en-us/SharePoint/administration/move-or-rename-service-application-databases#Restore) to the new database server. 
     
-  - In the SharePoint Server 2019 farm, [attach the restored database](https://docs.microsoft.com/en-us/SharePoint/administration/move-or-rename-service-application-databases#PS) to the new Search service application. 
+  - In the SharePoint Server 2019 Public Preview farm, [attach the restored database](https://docs.microsoft.com/en-us/SharePoint/administration/move-or-rename-service-application-databases#PS) to the new Search service application. 
     
-12. Verify that the search topology on the new SharePoint Server 2019 farm is alike that of the SharePoint Server 2016 farm. If your requirements for search have changed, now is a good time to scale out the search topology of the new SharePoint Server 2019 farm.
+12. Verify that the search topology on the new SharePoint Server 2019 Public Preview farm is alike that of the SharePoint Server 2016 farm. If your requirements for search have changed, now is a good time to scale out the search topology of the new SharePoint Server 2019 Public Preview farm.
     
 13. Resume the Search service application in the SharePoint Server environment.
     
@@ -674,19 +674,19 @@ Now that the service applications are upgraded, you can start the process to upg
 
 |||
 |:-----|:-----|
-|![123 steps](../media/mod_icon_howTo_numeric_M.png)|This is the third phase in the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019.  <br/> For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server 2019](overview-of-the-upgrade-process_2019.md).  <br/> |
+|![123 steps](../media/mod_icon_howTo_numeric_M.png)|This is the third phase in the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019 Public Preview.  <br/> For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server 2019 Public Preview](overview-of-the-upgrade-process_2019.md).  <br/> |
    
-Next phase: [Upgrade content databases to SharePoint Server 2019](upgrade-content-databases_2019.md)
+Next phase: [Upgrade content databases to SharePoint Server 2019 Public Preview](upgrade-content-databases_2019.md)
   
 ## See also
 <a name="VerifyProxies"> </a>
 
 #### Concepts
 
-[Create the SharePoint Server 2019 farm for a database attach upgrade](create-the-sharepoint-server-2019-farm-for-a-database-attach-upgrade.md)
+[Create the SharePoint Server 2019 Public Preview farm for a database attach upgrade](create-the-sharepoint-server-2019-farm-for-a-database-attach-upgrade.md)
   
-[Copy databases to the new farm for upgrade to SharePoint Server 2019](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2019.md)
+[Copy databases to the new farm for upgrade to SharePoint Server 2019 Public Preview](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2019.md)
   
-[Upgrade content databases to SharePoint Server 2019](upgrade-content-databases_2019.md)
+[Upgrade content databases to SharePoint Server 2019 Public Preview](upgrade-content-databases_2019.md)
   
-[Services upgrade overview for SharePoint Server 2019](overview-of-the-services-upgrade-process_2019.md)
+[Services upgrade overview for SharePoint Server 2019 Public Preview](overview-of-the-services-upgrade-process_2019.md)

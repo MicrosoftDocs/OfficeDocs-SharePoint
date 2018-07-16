@@ -51,7 +51,7 @@ The following table summarizes the support levels of typically used web browsers
 |Mozilla Firefox (latest released version plus immediate previous version)  <br/> |X  <br/> ||
 |Apple Safari (latest released version)  <br/> |X  <br/> ||
 
-### Browser support levels in SharePoint Server 2019
+### Browser support levels in SharePoint Server 2019 Public Preview
 <a name="supportmatrix2019"> </a>
 
 The following table summarizes the support levels of typically used web browsers.
@@ -95,7 +95,7 @@ Review the details of the web browser that you have or plan to use in your organ
 
 Some functionality in SharePoint Server 2016 requires ActiveX controls. This produces limitations on browsers which do not support ActiveX. Currently only 32-bit versions of Internet Explorer support this functionality. All other supported browsers, including Microsoft Edge and the Immersive mode of Internet Explorer 10 have the following limitations. 
 
-For SharePoint Server 2019, Browsers other than Internet Explorer 11 have the following limitations
+For SharePoint Server 2019 Public Preview, Browsers other than Internet Explorer 11 have the following limitations
   
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
@@ -122,6 +122,6 @@ SharePoint Server 2016 supports the following versions:
     
 - Latest versions of Safari and Chrome on iOS 8 or later.
 
-- For SharePoint Server 2019, Chrome or Safari on iOS10 or later
+- For SharePoint Server 2019 Public Preview, Chrome or Safari on iOS10 or later
     
 

@@ -55,7 +55,7 @@ Before you begin to install and configure SharePoint Server 2016, do the followi
   
 - Ensure that you are familiar with the operating-system guidelines described in [Performance Tuning Guidelines for Windows Server 2012 R2](https://msdn.microsoft.com/en-us/library/dn529133%28v=vs.85%29.aspx).
     
-- Ensure that you have met all hardware and software requirements. You must have a 64-bit version of Windows Server 2012 R2. To host SharePoint databases, you must also have a supported 64-bit version of SQL Server 2014. For more information about these requirements, such as specific updates that you must install, see [Hardware and software requirements for SharePoint Server 2016](hardware-and-software-requirements.md). For SharePoint Server 2019, see [Hardware and software requirements for SharePoint Server 2019](hardware-and-software-requirements-2019.md).
+- Ensure that you have met all hardware and software requirements. You must have a 64-bit version of Windows Server 2012 R2. To host SharePoint databases, you must also have a supported 64-bit version of SQL Server 2014. For more information about these requirements, such as specific updates that you must install, see [Hardware and software requirements for SharePoint Server 2016](hardware-and-software-requirements.md). For SharePoint Server 2019 Public Preview, see [Hardware and software requirements for SharePoint Server 2019 Public Preview](hardware-and-software-requirements-2019.md).
     
 - Ensure that you perform a clean installation of SharePoint Server.
     
@@ -229,7 +229,7 @@ For additional information about MinRole, see [Overview of MinRole Server Roles 
 > [!NOTE]
 > If this farm is not hosting Search services, then the Search role is not needed. 
   
-For additional information about how to add servers to a farm, see [Add a server to a SharePoint Server 2016 or SharePoint Server 2019 farm](add-a-server-to-a-sharepoint-server-2016-farm.md). This article also provides detailed information for the steps in the following procedure.
+For additional information about how to add servers to a farm, see [Add a server to a SharePoint Server 2016 or SharePoint Server 2019 Public Preview farm](add-a-server-to-a-sharepoint-server-2016-farm.md). This article also provides detailed information for the steps in the following procedure.
   
 ## Post-installation steps
 <a name="section4"> </a>

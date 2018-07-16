@@ -129,7 +129,7 @@ When you create a new farm or join a server to an existing farm by using the Sha
   
 ![Displays PSConfig dialog box with shared roles in SharePoint Server 2016](../media/dea8528b-e903-4cc9-a698-25d203a91229.png)
 
-![Displays PSConfig dialog box with shared roles in SharePoint Server 2019](../media/PSConfigMinRole_2019.png)
+![Displays PSConfig dialog box with shared roles in SharePoint Server 2019 Public Preview](../media/PSConfigMinRole_2019.png)
 
 
   
