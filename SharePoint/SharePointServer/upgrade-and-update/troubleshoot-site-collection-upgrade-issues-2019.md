@@ -107,5 +107,5 @@ If your custom master page contains a custom content placeholder, and if custom 
 
 #### Concepts
 
-[Upgrade a site collection to SharePoint Server 2019 Public Preview](upgrade-a-site-collection_2019.md)
+[Upgrade a site collection to SharePoint Server 2019 Public Preview](upgrade-a-site-collection-2019.md)
 

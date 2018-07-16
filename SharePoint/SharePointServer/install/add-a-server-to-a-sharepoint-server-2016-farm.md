@@ -12,10 +12,10 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 0926f63d-8dae-44c0-9e91-51209aa4c3ef
-description: "Summary: Learn how to add a server to an existing SharePoint Servers 2016 or 2019 farm."
+description: "Summary: Learn how to add a server to an existing SharePoint Servers 2016 or 2019 Public Preview farm."
 ---
 
-# Add a server to a SharePoint Servers 2016 or 2019 farm
+# Add a server to a SharePoint Servers 2016 or 2019 Public Preview farm
 
  **Summary:** Learn how to add a server to an existing SharePoint Server farm. 
   
@@ -27,7 +27,7 @@ description: "Summary: Learn how to add a server to an existing SharePoint Serve
 
 To add a new server to the farm, you must know its intended role to plan for additional or specialized configurations and assess the potential effect of adding the server to a production environment.
   
-In SharePoint Server 2016, the concept of server roles has changed from previous versions. Server role types are now defined by MinRole which allow for better deployment and health of the server in the farm. For additional information about the MinRole feature and a description for each server role type, see [Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019](overview-of-minrole-server-roles-in-sharepoint-server-2016.md).
+In SharePoint Server 2016, the concept of server roles has changed from previous versions. Server role types are now defined by MinRole which allow for better deployment and health of the server in the farm. For additional information about the MinRole feature and a description for each server role type, see [Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019 Public Preview](overview-of-minrole-server-roles-in-sharepoint-server.md).
   
 ### Additional tasks
 
@@ -37,7 +37,7 @@ Before you start to install prerequisite software, you have to complete the foll
 
 - Verify that the new server meets the hardware and software requirements described in [Hardware and software requirements for SharePoint Server 2019 Public Preview](hardware-and-software-requirements-2019.md).
     
-- Verify that you have the minimum level of permissions that are required to install and configure SharePoint Servers 2016 or 2019 on a new server. You must be a member of the Farm Administrators SharePoint group and the Administrators group on the local server to complete the procedures in this article. For more information, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
+- Verify that you have the minimum level of permissions that are required to install and configure SharePoint Servers 2016 or 2019 Public Preview on a new server. You must be a member of the Farm Administrators SharePoint group and the Administrators group on the local server to complete the procedures in this article. For more information, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
     
 - Verify that you know the name of the database server on the farm to which you are connecting, and the name of the configuration database if you are adding the server by using Microsoft PowerShell commands.
     
@@ -71,7 +71,7 @@ For download locations, see [Links to applicable software](hardware-and-software
 > [!TIP]
 > After you obtain a copy of the required software, we recommend that you create an installation point that you can use to store the images. You can use this installation point to install future software updates. 
   
-For detailed instructions about how to install the prerequisites, see [Prepare the farm servers](install-sharepoint-server-2016-across-multiple-servers.md#PrepareServers) in the article, [Install SharePoint Servers 2016 or 2019 across multiple servers](install-sharepoint-server-2016-across-multiple-servers.md).
+For detailed instructions about how to install the prerequisites, see [Prepare the farm servers](install-sharepoint-server-2016-across-multiple-servers.md#PrepareServers) in the article, [Install SharePoint Servers 2016 or 2019 Public Preview across multiple servers](install-sharepoint-server-2016-across-multiple-servers.md).
   
 > [!TIP]
 > If you decide to install prerequisites manually, you can still run the Microsoft SharePoint Products Preparation Tool to verify which prerequisites are required on each server. 
@@ -79,7 +79,7 @@ For detailed instructions about how to install the prerequisites, see [Prepare t
 ## Install the SharePoint software
 <a name="installSP"> </a>
 
-After you install the prerequisites, follow these steps to install SharePoint Servers 2016 or 2019 on the new server. For detailed instructions about how to install SharePoint Server, see [Install SharePoint Server on one server](install-sharepoint-server-2016-on-one-server.md).
+After you install the prerequisites, follow these steps to install SharePoint Servers 2016 or 2019 Public Preview on the new server. For detailed instructions about how to install SharePoint Server, see [Install SharePoint Server on one server](install-sharepoint-server-2016-on-one-server.md).
   
  **To install SharePoint Server 2016**
   
@@ -133,7 +133,7 @@ You add the new server to the farm by using one of the following procedures:
 9. On the **Specify Server Role** page, choose the appropriate role, and then click **Next**.
     
 > [!NOTE]
-> The concept of server roles has changed for SharePoint Server 2016. You can't add a server to a farm if the farm currently contains a server assigned to the "Single Server Farm" role. > For additional information about MinRole, see [Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019](overview-of-minrole-server-roles-in-sharepoint-server-2016.md). 
+> The concept of server roles has changed for SharePoint Server 2016. You can't add a server to a farm if the farm currently contains a server assigned to the "Single Server Farm" role. > For additional information about MinRole, see [Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019 Public Preview](overview-of-minrole-server-roles-in-sharepoint-server.md). 
   
 10. On the **Completing the SharePoint Products Configuration Wizard** page, click **Next**.
     
@@ -206,7 +206,7 @@ Where \<ServerRole\> can be any of the following values: WebFrontEnd, Applicatio
 > If Feature Pack 2 has been applied, additional \<ServerRole>\ options are available: ApplicationWithSearch, WebFrontEndWithDistributedCache.
     
 > [!NOTE]
-> The concept of server roles has changed for SharePoint Server 2016. You can't add a server to a farm if the farm currently contains a server assigned to the "Single Server Farm" role. > For additional information about MinRole, see [Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019](overview-of-minrole-server-roles-in-sharepoint-server-2016.md). 
+> The concept of server roles has changed for SharePoint Server 2016. You can't add a server to a farm if the farm currently contains a server assigned to the "Single Server Farm" role. > For additional information about MinRole, see [Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019 Public Preview](overview-of-minrole-server-roles-in-sharepoint-server.md). 
   
 4. At the PowerShell command prompt, type the following command to install the Help File Collections:
     
@@ -254,5 +254,5 @@ Where \<ServerRole\> can be any of the following values: WebFrontEnd, Applicatio
   ```
 
 > [!NOTE]
-> You can also verify a successful server addition or troubleshoot a failed addition by examining the log files. These files are located on the drive on which SharePoint Servers 2016 or 2019 is installed, in the %COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\LOGS folder.  
+> You can also verify a successful server addition or troubleshoot a failed addition by examining the log files. These files are located on the drive on which SharePoint Servers 2016 or 2019 Public Preview is installed, in the %COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\LOGS folder.  
 

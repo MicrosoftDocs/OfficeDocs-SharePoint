@@ -1,5 +1,5 @@
 ---
-title: "Remove a server from a farm in SharePoint Servers 2016 or 2019"
+title: "Remove a server from a farm in SharePoint Servers 2016 or 2019 Public Preview"
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
@@ -11,18 +11,18 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: acb2d589-6c19-4b6b-9cd1-5e334ba4f2cd
-description: "Summary: Learn how to remove a server from a SharePoint Servers 2016 or 2019 farm."
+description: "Summary: Learn how to remove a server from a SharePoint Servers 2016 or 2019 Public Preview farm."
 ---
 
-# Remove a server from a farm in SharePoint Servers 2016 or 2019
+# Remove a server from a farm in SharePoint Servers 2016 or 2019 Public Preview
 
- **Summary:** Learn how to remove a server from a SharePoint Servers 2016 or 2019 farm. 
+ **Summary:** Learn how to remove a server from a SharePoint Servers 2016 or 2019 Public Preview farm. 
   
     
 ## Removing a server from a SharePoint farm
 <a name="removewebappserver"> </a>
 
-For information about uninstallation procedures that SharePoint Servers 2016 or 2019 support, see [Uninstall SharePoint Servers 2016 or 2019](uninstall-sharepoint-server-2016.md).
+For information about uninstallation procedures that SharePoint Servers 2016 or 2019 Public Preview support, see [Uninstall SharePoint Servers 2016 or 2019 Public Preview](uninstall-sharepoint-server-2016.md).
   
 Removing a server that contains a search topology component can affect future search activities. The extent of that effect depends on the farm search topology. We recommend that you remove or relocate any search topology components from a server before removing the server from the farm.
   
@@ -106,7 +106,7 @@ You can remove a server from the SharePoint farm by using the PSConfig.exe tool 
 ### Remove a server from a SharePoint farm by using Control Panel
 <a name="removewebappCP"> </a>
 
-You can remove a server from the farm by uninstalling SharePoint Server 2016 from the server through Control Panel. When you uninstall SharePoint Servers 2016 or 2019 by using Control Panel, you disconnect the server from the farm, and then remove the program files and other information from the server.
+You can remove a server from the farm by uninstalling SharePoint Server 2016 from the server through Control Panel. When you uninstall SharePoint Servers 2016 or 2019 Public Preview by using Control Panel, you disconnect the server from the farm, and then remove the program files and other information from the server.
   
  **To remove a server from a SharePoint farm by using Control Panel**
   

@@ -14,9 +14,9 @@ ms.assetid: 7ad523f5-db54-4169-81ba-3a7b60f218b7
 description: "Summary: Learn about the limited set of supported methods to uninstall SharePoint Server 2016 or SharePoint Server 2019 Public Preview."
 ---
 
-# Uninstall SharePoint Servers 2016 or 2019
+# Uninstall SharePoint Servers 2016 or 2019 Public Preview
 
- **Summary:** Learn about the limited set of supported methods to uninstall SharePoint Servers 2016 or 2019. 
+ **Summary:** Learn about the limited set of supported methods to uninstall SharePoint Servers 2016 or 2019 Public Preview. 
   
 You remove SharePoint Server by uninstalling it from Control Panel. When you uninstall SharePoint Server, most files and subfolders in the installation folders are removed. However, some files are not removed. Also, 
   
@@ -31,12 +31,12 @@ You remove SharePoint Server by uninstalling it from Control Panel. When you uni
 
 Before you begin this operation, confirm that you have uninstalled all language packs that are on the server.
   
-## Uninstall SharePoint Servers 2016 or 2019
+## Uninstall SharePoint Servers 2016 or 2019 Public Preview
 <a name="begin"> </a>
 
 Use this procedure to uninstall SharePoint Server 2016.
   
- **To uninstall SharePoint Servers 2016 or 2019**
+ **To uninstall SharePoint Servers 2016 or 2019 Public Preview**
   
 1. Verify that you are a member of the Farm Administrators group or a member of the Administrators group on the local computer.
     
@@ -83,7 +83,7 @@ Use this procedure to uninstall SharePoint Server 2016.
 
 [Hardware and software requirements for SharePoint Server 2019 Public Preview](../install/hardware-and-software-requirements-2019.md)
   
-[Install SharePoint Servers 2016 or 2019 on one server](../install/install-sharepoint-server-2016-on-one-server.md)
+[Install SharePoint Servers 2016 or 2019 Public Preview on one server](../install/install-sharepoint-server-2016-on-one-server.md)
   
-[Install SharePoint Servers 2016 or 2019 across multiple servers](../install/install-sharepoint-server-2016-across-multiple-servers.md)
+[Install SharePoint Servers 2016 or 2019 Public Preview across multiple servers](../install/install-sharepoint-server-2016-across-multiple-servers.md)
 

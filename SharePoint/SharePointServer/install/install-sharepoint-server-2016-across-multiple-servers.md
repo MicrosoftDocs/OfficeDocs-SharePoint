@@ -1,5 +1,5 @@
 ---
-title: "Install SharePoint Servers 2016 or 2019 across multiple servers"
+title: "Install SharePoint Servers 2016 or 2019 Public Preview across multiple servers"
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
@@ -14,10 +14,10 @@ ms.collection:
 - Strat_SP_server
 ms.custom: 
 ms.assetid: 4982a861-ad5c-43e4-a49f-958afd4370aa
-description: "Summary: Learn how to install SharePoint Servers 2016 or 2019 to create a SharePoint server farm."
+description: "Summary: Learn how to install SharePoint Servers 2016 or 2019 Public Preview to create a SharePoint server farm."
 ---
 
-# Install SharePoint Servers 2016 or 2019 across multiple servers
+# Install SharePoint Servers 2016 or 2019 Public Preview across multiple servers
 
  **Summary:** Learn how to install SharePoint Server to create a SharePoint server farm. 
   
@@ -47,7 +47,7 @@ The basic steps in this deployment are as follows:
 
 SharePoint Server 2016 supports a new farm topology design called MinRole. This article will describe a simple multi-server farm topology with one server assigned to each MinRole server role. However, to take advantage of zero downtime patching, your farm topology must support high availability (HA) by having multiple servers assigned to each MinRole server role.
   
-For additional information about MinRole, see [Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019](overview-of-minrole-server-roles-in-sharepoint-server-2016.md).
+For additional information about MinRole, see [Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019 Public Preview](overview-of-minrole-server-roles-in-sharepoint-server.md).
   
 ### Before you install SharePoint Server 2016 on multiple servers
 
@@ -171,7 +171,7 @@ To configure the farm, you run the SharePoint Products Configuration Wizard. Thi
     
 8. On the Specify Farm Security Settings page, type a passphrase, and then click **Next**.
     
-    Although a passphrase resembles a password, it is usually longer to improve security. It is used to encrypt credentials of accounts that are registered in SharePoint Servers 2016 or 2019. For example, the SharePoint Server server farm account that you provide when you run the SharePoint Products Configuration Wizard. Ensure that you remember the passphrase, because you must use it every time that you add a server to the farm.
+    Although a passphrase resembles a password, it is usually longer to improve security. It is used to encrypt credentials of accounts that are registered in SharePoint Servers 2016 or 2019 Public Preview. For example, the SharePoint Server server farm account that you provide when you run the SharePoint Products Configuration Wizard. Ensure that you remember the passphrase, because you must use it every time that you add a server to the farm.
     
     Ensure that the passphrase meets the following criteria:
     
@@ -224,7 +224,7 @@ After you create the farm on the first server, you can add servers by following 
   
 For your content farm to be MinRole complaint, at a minimum you want to have at least one of each type of server role in the farm: **Application**, **Front-end**, **Distributed cache**, and **Search**. The order in which these roles are created does not matter. If you want to take full advantage of zero down time patching, then you need to make sure high availability is configured. 
   
-For additional information about MinRole, see [Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019](overview-of-minrole-server-roles-in-sharepoint-server-2016.md).
+For additional information about MinRole, see [Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019 Public Preview](overview-of-minrole-server-roles-in-sharepoint-server.md).
   
 > [!NOTE]
 > If this farm is not hosting Search services, then the Search role is not needed. 
@@ -244,6 +244,6 @@ After you install and configure SharePoint Server, your browser window opens to 
     
 - **Configure outgoing email** You can configure outgoing email so that your Simple Mail Transfer Protocol (SMTP) server sends email alerts to site users and notifications to site administrators. You can configure both the "From" email address and the "Reply" email address that appear in outgoing alerts. 
     
-- **Configure Search settings** You can configure Search settings to crawl the content in SharePoint Servers 2016 or 2019. 
+- **Configure Search settings** You can configure Search settings to crawl the content in SharePoint Servers 2016 or 2019 Public Preview. 
     
 
