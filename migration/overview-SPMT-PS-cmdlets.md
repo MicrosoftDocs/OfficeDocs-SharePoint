@@ -3,7 +3,6 @@ title: "Using PowerShell cmdlets to migrate to SharePoint Online"
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
-ms.date: 7/3/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
@@ -39,6 +38,8 @@ The PowerShell cmdlets provide the same functionalities as [SharePoint Migration
 |Operating system|Windows Server 2016 Standard or Datacenter<br>Windows Server 2012 R2<br>Windows 10 client<br>.Net Framework 4.6.2|
 |Microsoft Visual C++ 2015 Redistributable|Required for OneNote migration|
 
+> [!NOTE]
+> PowerShell 5.0 and .NET 4.6.2 are required to support migration of file paths up to 400 characters. 
 
 ### Minimum requirements (expect slow performance)
 
@@ -50,7 +51,6 @@ The PowerShell cmdlets provide the same functionalities as [SharePoint Migration
 |Network card  <br/> |High-speed Internet connection  <br/> |
 |Operating system  <br/> |Windows Server 2008 R2<br>Windows 7<br>Windows 8 or 8.1<br/> .NET Framework 4.6.2  <br/> |
 |Microsoft Visual C++ 2015 Redistributable  <br/> |Required for OneNote migration.|  <br/> 
- 
  
 ### Before you begin
 
