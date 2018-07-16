@@ -102,7 +102,7 @@ SharePoint supports the following Simple Authentication and Security Layer (SASL
 > [!NOTE]
 > SharePoint uses the following Service Principal Name (SPN) to authenticate to the SMTP server during Kerberos and NTLM authentication, where &lt;host&gt; is the SMTP server name you provided: <br/> SMTPSVC/&lt;host&gt;
 
-### Use TLS connectioun encryption
+### Use TLS connection encryption
 
 Set **Use TLS connection encryption** to Yes to require SharePoint to extablish an encrypted connection to the SMTP server before sending email. A valid server certificate must be installed on the SMTP server to establish an encrypted connection. If this is set to Yes and an encrypted connection can't be established, no emails will be sent.
 
