@@ -6,12 +6,12 @@ manager: pamgreen
 ms.date: 3/12/2018
 ms.audience: ITPro
 ms.topic: article
+f1_keywords: WSSCentralAdmin_ConfigEmail
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: f3ccc8bd-922e-49f6-9929-b5b8a6982d76
 description: "Summary: Learn how to install and configure the SMTP service and configure outgoing email for a SharePoint Server 2016 and SharePoint 2013 farm."
-f1_keywords: WSSCentralAdmin_ConfigEmail
 ---
 
 # Configure outgoing email for a SharePoint Server farm
