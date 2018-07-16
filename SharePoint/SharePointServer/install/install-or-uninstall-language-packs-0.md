@@ -1,5 +1,5 @@
 ---
-title: "Install or uninstall language packs for SharePoint Servers 2016 and 2019"
+title: "Install or uninstall language packs for SharePoint Servers 2016 and 2019 Public Preview"
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 26c07867-0150-463d-b21a-a6d42aecf05a
-description: "Summary: Learn how to download, install, and uninstall language packs for SharePoint Servers 2016 and 2019."
+description: "Summary: Learn how to download, install, and uninstall language packs for SharePoint Servers 2016 and 2019 Public Preview."
 ---
 
-# Install or uninstall language packs for SharePoint Servers 2016 and 2019
+# Install or uninstall language packs for SharePoint Servers 2016 and 2019 Public Preview
 
- **Summary:** Learn how to download, install, and uninstall language packs for SharePoint Servers 2016 and 2019. 
+ **Summary:** Learn how to download, install, and uninstall language packs for SharePoint Servers 2016 and 2019 Public Preview. 
   
 Language packs enable site owners and site collection administrators to create SharePoint sites and site collections in multiple languages without requiring separate installations of SharePoint Server. You install language packs, which contain language-specific site templates, on each SharePoint server in your farm. When an administrator creates a site or a site collection that is based on a language-specific site template, the text that appears on the site or the site collection is displayed in the site template's language. Language packs are typically used in multinational deployments where a single server farm supports users in different locations, or when sites and web pages must be duplicated in one or more languages.
   

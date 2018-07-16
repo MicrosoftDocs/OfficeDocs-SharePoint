@@ -42,7 +42,7 @@ Before you attach and upgrade the content databases, review the following inform
 
 ![Stages in upgrade process for SharePoint 2019](../media/SP2019UpgradeStages.png)
   
-This article helps you understand the upgrade sequence so that you can plan an upgrade project. To get detailed steps for an upgrade, see [Upgrade databases from SharePoint 2016 to SharePoint Server 2019 Public Preview](upgrade-databases.md) and [Upgrade site collections to SharePoint Server 2019 Public Preview](upgrade-site-collections_2019.md).
+This article helps you understand the upgrade sequence so that you can plan an upgrade project. To get detailed steps for an upgrade, see [Upgrade databases from SharePoint 2016 to SharePoint Server 2019 Public Preview](upgrade-databases.md) and [Upgrade site collections to SharePoint Server 2019 Public Preview](upgrade-a-site-collection-2019.md).
   
 ## Create the SharePoint Server 2019 Public Preview farm
 <a name="CreateFarm"> </a>

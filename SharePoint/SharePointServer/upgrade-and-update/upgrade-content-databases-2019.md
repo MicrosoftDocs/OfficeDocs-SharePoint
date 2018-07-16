@@ -27,7 +27,7 @@ When you upgrade from SharePoint Server 2016 to SharePoint Server 2019 Public Pr
   
 |||
 |:-----|:-----|
-|![123 steps](../media/mod_icon_howTo_numeric_M.png)| This is the fourth phase in the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019 Public Preview. The process includes the following phases that must be completed in order:  <br/> [Create the SharePoint Server 2019 Public Preview farm for a database attach upgrade](create-the-sharepoint-server-2019-farm-for-a-database-attach-upgrade.md) <br/> [Copy databases to the new farm for upgrade to SharePoint Server 2019 Public Preview](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2019.md) <br/> [Upgrade service applications to SharePoint Server 2019 Public Preview](upgrade-service-applications-to-sharepoint-server-2019.md) <br/> [Upgrade content databases to SharePoint Server 2019 Public Preview](upgrade-content-databases_2019.md) (this phase)  <br/><br/>  For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server 2019 Public Preview](overview-of-the-upgrade-process_2019.md).  <br/> |
+|![123 steps](../media/mod_icon_howTo_numeric_M.png)| This is the fourth phase in the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019 Public Preview. The process includes the following phases that must be completed in order:  <br/> [Create the SharePoint Server 2019 Public Preview farm for a database attach upgrade](create-the-sharepoint-server-2019-farm-for-a-database-attach-upgrade.md) <br/> [Copy databases to the new farm for upgrade to SharePoint Server 2019 Public Preview](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2019.md) <br/> [Upgrade service applications to SharePoint Server 2019 Public Preview](upgrade-service-applications-to-sharepoint-server-2019.md) <br/> [Upgrade content databases to SharePoint Server 2019 Public Preview](upgrade-content-databases-2019.md) (this phase)  <br/><br/>  For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server 2019 Public Preview](overview-of-the-upgrade-process-2019.md).  <br/> |
    
 ## Before you begin
 
@@ -196,7 +196,7 @@ For more information, see Mount-SPContentDatabase.After the databases are upgrad
 ## Verify upgrade for the first database
 <a name="Status"> </a>
 
-After you attach a database, you can use the **Upgrade Status** page in Central Administration to check the status of upgrade on your databases. After the upgrade process is complete, you can review the upgrade log file to see whether upgrade produced issues. You can use a PowerShell cmdlet to check the upgrade status for all the content databases. For more information about verifying and troubleshooting upgrade, see [Verify database upgrades in SharePoint Server 2019 Public Preview](verify-upgrade-for-databases_2019.md).
+After you attach a database, you can use the **Upgrade Status** page in Central Administration to check the status of upgrade on your databases. After the upgrade process is complete, you can review the upgrade log file to see whether upgrade produced issues. You can use a PowerShell cmdlet to check the upgrade status for all the content databases. For more information about verifying and troubleshooting upgrade, see [Verify database upgrades in SharePoint Server 2019 Public Preview](verify-upgrade-for-databases-2019.md).
   
  **To view the Upgrade Status page**
   
@@ -285,6 +285,6 @@ After you upgrade the databases, you might want to perform additional steps to m
     
 |||
 |:-----|:-----|
-|![123 steps](../media/mod_icon_howTo_numeric_M.png)|This is the fourth phase in the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019 Public Preview.  <br/> For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server 2019 Public Preview](overview-of-the-upgrade-process_2019.md).  <br/> |
+|![123 steps](../media/mod_icon_howTo_numeric_M.png)|This is the fourth phase in the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019 Public Preview.  <br/> For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server 2019 Public Preview](overview-of-the-upgrade-process-2019.md).  <br/> |
    
 

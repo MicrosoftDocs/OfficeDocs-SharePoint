@@ -13,12 +13,12 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 ms.assetid: aa637ca9-d27b-463c-8691-a457e0988bf8
 
-description: "Summary: Learn about permissions, accounts, security settings, and what you have to do to prepare your environment for SharePoint Servers 2016 and 2019."
+description: "Summary: Learn about permissions, accounts, security settings, and what you have to do to prepare your environment for SharePoint Servers 2016 and 2019 Public Preview."
 ---
 
-# Prerequisites for SharePoint Servers 2016 and 2019
+# Prerequisites for SharePoint Servers 2016 and 2019 Public Preview
 
- **Summary:** Learn about permissions, accounts, security settings, and what you have to do to prepare your environment for SharePoint Servers 2016 and 2019. 
+ **Summary:** Learn about permissions, accounts, security settings, and what you have to do to prepare your environment for SharePoint Servers 2016 and 2019 Public Preview. 
   
 The following downloadable resources, articles, video recordings, and related resources provide information about how to prepare for SharePoint Server installation and initial configuration.
   

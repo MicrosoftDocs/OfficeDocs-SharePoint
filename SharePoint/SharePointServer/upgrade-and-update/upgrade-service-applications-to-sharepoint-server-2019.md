@@ -27,7 +27,7 @@ When you upgrade from SharePoint Server 2016 to SharePoint Server 2019 Public Pr
   
 |||
 |:-----|:-----|
-|![123 steps](../media/mod_icon_howTo_numeric_M.png)| This is the third phase in the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019 Public Preview. The process includes the following phases that must be completed in order:  <br/> [Create the SharePoint Server 2019 Public Preview farm for a database attach upgrade](create-the-sharepoint-server-2019-farm-for-a-database-attach-upgrade.md) <br/> [Copy databases to the new farm for upgrade to SharePoint Server 2019 Public Preview](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2016.md) <br/> [Upgrade service applications to SharePoint Server 2019 Public Preview](upgrade-service-applications-to-sharepoint-server-2019.md) (this phase)  <br/> [Upgrade content databases to SharePoint Server 2019 Public Preview](upgrade-content-databases_2019.md) <br/>  <br/>For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server 2019 Public Preview](overview-of-the-upgrade-process_2019.md).  <br/> |
+|![123 steps](../media/mod_icon_howTo_numeric_M.png)| This is the third phase in the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019 Public Preview. The process includes the following phases that must be completed in order:  <br/> [Create the SharePoint Server 2019 Public Preview farm for a database attach upgrade](create-the-sharepoint-server-2019-farm-for-a-database-attach-upgrade.md) <br/> [Copy databases to the new farm for upgrade to SharePoint Server 2019 Public Preview](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2016.md) <br/> [Upgrade service applications to SharePoint Server 2019 Public Preview](upgrade-service-applications-to-sharepoint-server-2019.md) (this phase)  <br/> [Upgrade content databases to SharePoint Server 2019 Public Preview](upgrade-content-databases-2019.md) <br/>  <br/>For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server 2019 Public Preview](overview-of-the-upgrade-process-2019.md).  <br/> |
    
 ## Before you begin
 <a name="begin"> </a>
@@ -53,7 +53,7 @@ To upgrade a service application database, you create a new service application 
 > Word Automation Services and Machine Translation Services can't be upgraded. A new service instance will need to be created. 
   
 > [!IMPORTANT]
-> The following steps only apply to the Custom server role type. For more information on server role types, see [Planning for a MinRole server deployment in SharePoint Server 2016 and SharePoint Server 2019 Public Preview](...install\planning-for-a-minrole-server-deployment-in-sharepoint-server.md) 
+> The following steps only apply to the Custom server role type. For more information on server role types, see [Planning for a MinRole server deployment in SharePoint Server 2016 and SharePoint Server 2019 Public Preview](../install/planning-for-a-minrole-server-deployment-in-sharepoint-server.md) 
   
 1. Start the service instances
     
@@ -445,7 +445,7 @@ SharePoint Server 2019 Public Preview normally creates a new search topology wit
 > During this upgrade, search doesn't crawl content in your SharePoint Server 2016. If freshness of search results is important, save time by familiarizing yourself with these steps before starting the upgrade. 
   
 > [!IMPORTANT]
-> Because the search topology in the SharePoint Server 2019 Public Preview farm is new, the index is empty. You have to perform a full crawl of the entire indexed corpus after you have [upgraded all content sources](upgrade-content-databases_2019.md) (the fourth phase in the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019 Public Preview). 
+> Because the search topology in the SharePoint Server 2019 Public Preview farm is new, the index is empty. You have to perform a full crawl of the entire indexed corpus after you have [upgraded all content sources](upgrade-content-databases-2019.md) (the fourth phase in the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019 Public Preview). 
   
  **To upgrade the Search service application by using PowerShell**
   
@@ -674,9 +674,9 @@ Now that the service applications are upgraded, you can start the process to upg
 
 |||
 |:-----|:-----|
-|![123 steps](../media/mod_icon_howTo_numeric_M.png)|This is the third phase in the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019 Public Preview.  <br/> For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server 2019 Public Preview](overview-of-the-upgrade-process_2019.md).  <br/> |
+|![123 steps](../media/mod_icon_howTo_numeric_M.png)|This is the third phase in the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019 Public Preview.  <br/> For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server 2019 Public Preview](overview-of-the-upgrade-process-2019.md).  <br/> |
    
-Next phase: [Upgrade content databases to SharePoint Server 2019 Public Preview](upgrade-content-databases_2019.md)
+Next phase: [Upgrade content databases to SharePoint Server 2019 Public Preview](upgrade-content-databases-2019.md)
   
 ## See also
 <a name="VerifyProxies"> </a>
@@ -687,6 +687,6 @@ Next phase: [Upgrade content databases to SharePoint Server 2019 Public Preview]
   
 [Copy databases to the new farm for upgrade to SharePoint Server 2019 Public Preview](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2019.md)
   
-[Upgrade content databases to SharePoint Server 2019 Public Preview](upgrade-content-databases_2019.md)
+[Upgrade content databases to SharePoint Server 2019 Public Preview](upgrade-content-databases-2019.md)
   
-[Services upgrade overview for SharePoint Server 2019 Public Preview](overview-of-the-services-upgrade-process_2019.md)
+[Services upgrade overview for SharePoint Server 2019 Public Preview](overview-of-the-services-upgrade-process-2019.md)

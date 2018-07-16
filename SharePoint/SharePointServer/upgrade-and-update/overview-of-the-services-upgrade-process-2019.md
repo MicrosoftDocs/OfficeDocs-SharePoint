@@ -102,7 +102,7 @@ The following services in SharePoint Server 2016 also require additional steps t
 
 #### Concepts
 
-[Overview of the upgrade process to SharePoint Server 2019 Public Preview](overview-of-the-upgrade-process_2019.md)
+[Overview of the upgrade process to SharePoint Server 2019 Public Preview](overview-of-the-upgrade-process-2019.md)
   
-[Upgrade content databases to SharePoint Server 2019 Public Preview](upgrade-content-databases_2019.md)
+[Upgrade content databases to SharePoint Server 2019 Public Preview](upgrade-content-databases-2019.md)
 
