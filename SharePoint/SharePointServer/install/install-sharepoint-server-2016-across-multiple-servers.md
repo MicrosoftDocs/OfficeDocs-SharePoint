@@ -1,5 +1,5 @@
 ---
-title: "Install SharePoint Servers 2016 or 2019 across multiple servers"
+title: "Install SharePoint Servers 2016 or 2019 Public Preview across multiple servers"
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
@@ -14,10 +14,10 @@ ms.collection:
 - Strat_SP_server
 ms.custom: 
 ms.assetid: 4982a861-ad5c-43e4-a49f-958afd4370aa
-description: "Summary: Learn how to install SharePoint Servers 2016 or 2019 to create a SharePoint server farm."
+description: "Summary: Learn how to install SharePoint Servers 2016 or 2019 Public Preview to create a SharePoint server farm."
 ---
 
-# Install SharePoint Servers 2016 or 2019 across multiple servers
+# Install SharePoint Servers 2016 or 2019 Public Preview across multiple servers
 
  **Summary:** Learn how to install SharePoint Server to create a SharePoint server farm. 
   
@@ -171,7 +171,7 @@ To configure the farm, you run the SharePoint Products Configuration Wizard. Thi
     
 8. On the Specify Farm Security Settings page, type a passphrase, and then click **Next**.
     
-    Although a passphrase resembles a password, it is usually longer to improve security. It is used to encrypt credentials of accounts that are registered in SharePoint Servers 2016 or 2019. For example, the SharePoint Server server farm account that you provide when you run the SharePoint Products Configuration Wizard. Ensure that you remember the passphrase, because you must use it every time that you add a server to the farm.
+    Although a passphrase resembles a password, it is usually longer to improve security. It is used to encrypt credentials of accounts that are registered in SharePoint Servers 2016 or 2019 Public Preview. For example, the SharePoint Server server farm account that you provide when you run the SharePoint Products Configuration Wizard. Ensure that you remember the passphrase, because you must use it every time that you add a server to the farm.
     
     Ensure that the passphrase meets the following criteria:
     
@@ -244,6 +244,6 @@ After you install and configure SharePoint Server, your browser window opens to 
     
 - **Configure outgoing email** You can configure outgoing email so that your Simple Mail Transfer Protocol (SMTP) server sends email alerts to site users and notifications to site administrators. You can configure both the "From" email address and the "Reply" email address that appear in outgoing alerts. 
     
-- **Configure Search settings** You can configure Search settings to crawl the content in SharePoint Servers 2016 or 2019. 
+- **Configure Search settings** You can configure Search settings to crawl the content in SharePoint Servers 2016 or 2019 Public Preview. 
     
 

@@ -26,11 +26,11 @@ The following articles provide information about how to deploy SharePoint Server
   
 |**Content**|**Description**|
 |:-----|:-----|
-|[Install SharePoint Server on one server](install-sharepoint-server-2016-on-one-server.md) <br/> |Describes how to install SharePoint Servers 2016 or 2019 on a single server.  <br/> |
-|[Install SharePoint Server across multiple servers](install-sharepoint-server-2016-across-multiple-servers.md) <br/> |Describes how to install SharePoint Servers 2016 or 2019 on multiple servers.  <br/> |
+|[Install SharePoint Server on one server](install-sharepoint-server-2016-on-one-server.md) <br/> |Describes how to install SharePoint Servers 2016 or 2019 Public Preview on a single server.  <br/> |
+|[Install SharePoint Server across multiple servers](install-sharepoint-server-2016-across-multiple-servers.md) <br/> |Describes how to install SharePoint Servers 2016 or 2019 Public Preview on multiple servers.  <br/> |
 |[Install or uninstall language packs for SharePoint Server](install-or-uninstall-language-packs-0.md) <br/> |Describes language packs and how to download, install, and uninstall them.  <br/> |
 |[Add a server to a SharePoint Server farm](add-a-server-to-a-sharepoint-server-2016-farm.md) <br/> |Explains how to add a server to a farm.  <br/> |
-|[Remove a server from a farm in SharePoint Servers 2016 or 2019](../administration/remove-a-server-from-a-farm-in-sharepoint-server-2016.md) <br/> |Describes how to remove a server from a SharePoint Servers 2016 or 2019 farm.  <br/> |
-|[Uninstall SharePoint Server](../administration/uninstall-sharepoint-server-2016.md) <br/> |Describes how to remove SharePoint Servers 2016 or 2019 from a computer.  <br/> |
+|[Remove a server from a farm in SharePoint Servers 2016 or 2019 Public Preview](../administration/remove-a-server-from-a-farm-in-sharepoint-server-2016.md) <br/> |Describes how to remove a server from a SharePoint Servers 2016 or 2019 Public Preview farm.  <br/> |
+|[Uninstall SharePoint Server](../administration/uninstall-sharepoint-server-2016.md) <br/> |Describes how to remove SharePoint Servers 2016 or 2019 Public Preview from a computer.  <br/> |
    
 

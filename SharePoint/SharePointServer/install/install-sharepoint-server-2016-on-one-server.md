@@ -1,5 +1,5 @@
 ---
-title: "Install SharePoint Servers 2016 or 2019 on one server"
+title: "Install SharePoint Servers 2016 or 2019 Public Preview on one server"
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
@@ -14,14 +14,14 @@ ms.collection:
 - Strat_SP_server
 ms.custom: 
 ms.assetid: 356d3a0b-fc26-455c-9afb-6d2ffdceef84
-description: "Summary: Learn how to install SharePoint Servers 2016 or 2019 on a single server."
+description: "Summary: Learn how to install SharePoint Servers 2016 or 2019 Public Preview on a single server."
 ---
 
-# Install SharePoint Servers 2016 or 2019 on one server
+# Install SharePoint Servers 2016 or 2019 Public Preview on one server
 
- **Summary:** Learn how to install SharePoint Servers 2016 or 2019 on a single server. 
+ **Summary:** Learn how to install SharePoint Servers 2016 or 2019 Public Preview on a single server. 
   
- You can install and configure SharePoint Servers 2016 or 2019 on a single server if you are hosting only a few sites for a limited number of users or if you want to create a trial or development environment. This configuration is also useful if you want to configure a farm to meet your needs first, and then add servers to the farm at a later stage. 
+ You can install and configure SharePoint Servers 2016 or 2019 Public Preview on a single server if you are hosting only a few sites for a limited number of users or if you want to create a trial or development environment. This configuration is also useful if you want to configure a farm to meet your needs first, and then add servers to the farm at a later stage. 
   
 > [!NOTE]
 > In previous versions of SharePoint, a single server installation automatically installed SQL Server Express. In SharePoint Server 2016, a single server installation contains only SharePoint. SQL Server can be installed on the same server or on a separate server; both scenarios are supported. For better performance we recommend installing SQL Server on a separate server. 
@@ -32,34 +32,34 @@ description: "Summary: Learn how to install SharePoint Servers 2016 or 2019 on a
 
 After you have completed setup and the SharePoint Products Configuration Wizard, you will have installed binaries, configured security permissions, configured registry settings, configured the configuration database, configured the content database, and installed the SharePoint Central Administration web site. Next, you can choose to run the Farm Configuration Wizard to configure the farm, select the services that you want to use in the farm, and create the first site collection, or you can manually perform the farm configuration at your own pace.
   
-## Before you install SharePoint Servers 2016 or 2019 on a single server
+## Before you install SharePoint Servers 2016 or 2019 Public Preview on a single server
 <a name="section2"> </a>
 
-Before you begin to install and configure SharePoint Servers 2016 or 2019, do the following:
+Before you begin to install and configure SharePoint Servers 2016 or 2019 Public Preview, do the following:
   
 - For SharePoint Server 2016, ensure that you have met all hardware and software requirements. You must have a 64-bit version of Windows Server 2012 R2. To host SharePoint databases, you must also have a 64-bit version of SQL Server 2014 SP1. For more information about these requirements, such as specific updates that you must install, see [Hardware and software requirements for SharePoint Server 2016](hardware-and-software-requirements.md).
 
 - For SharePoint Server 2019 Public Preview, ensure that you have met all hardware and software requirements. You must have a 64-bit version of Windows Server 2016. To host SharePoint databases, you must also have a 64-bit version of SQL Server 2016 or 2017. For more information about these requirements, such as specific updates that you must install, see [Hardware and software requirements for SharePoint Server 2019 Public Preview](hardware-and-software-requirements-2019.md).
     
-- Ensure that you perform a clean installation of SharePoint Servers 2016 or 2019.
+- Ensure that you perform a clean installation of SharePoint Servers 2016 or 2019 Public Preview.
     
 - Ensure that you are prepared to set up the required accounts by using appropriate permissions. For detailed information, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
     
 - Ensure the Max degree of parallelism is set to 1. For additional information about max degree of parallelism see, [Configure the max degree of parallelism Server Configuration Option](https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/configure-the-max-degree-of-parallelism-server-configuration-option?view=sql-server-2017).
     
- **Security note**: As a security best practice, we recommend that you install SharePoint Servers 2016 or 2019 by using least-privilege administration. 
+ **Security note**: As a security best practice, we recommend that you install SharePoint Servers 2016 or 2019 Public Preview by using least-privilege administration. 
   
 > [!TIP]
 > If you decide to install prerequisites manually, you can still run the Microsoft SharePoint Products Preparation Tool to verify which prerequisites are required on each server. 
   
-## Install SharePoint Servers 2016 or 2019 on a single server
+## Install SharePoint Servers 2016 or 2019 Public Preview on a single server
 <a name="section3"> </a>
 
-To install and configure SharePoint Server 2016 or 2019 on a single server, you will follow these steps:
+To install and configure SharePoint Server 2016 or 2019 Public Preview on a single server, you will follow these steps:
   
 1. Run the **Microsoft SharePoint Products and Technologies Preparation Tool,** which installs all prerequisites to use SharePoint Server. 
     
-2. Run Setup, which installs binaries, configures security permissions, and edits registry settings for SharePoint Servers 2016 or 2019.
+2. Run Setup, which installs binaries, configures security permissions, and edits registry settings for SharePoint Servers 2016 or 2019 Public Preview.
     
 3. Run SharePoint Products Configuration Wizard, which installs and configures the configuration database, installs and configures the content database, and installs the SharePoint Central Administration web site.
     
@@ -74,7 +74,7 @@ To install and configure SharePoint Server 2016 or 2019 on a single server, you 
   
 ### Run the Microsoft SharePoint Products Preparation Tool
 
-Because the prerequisite installer downloads components from the Microsoft Download Center, you must have Internet access on the computer on which you are running the installer. Use the following procedure to install software prerequisites for SharePoint Servers 2016 or 2019.
+Because the prerequisite installer downloads components from the Microsoft Download Center, you must have Internet access on the computer on which you are running the installer. Use the following procedure to install software prerequisites for SharePoint Servers 2016 or 2019 Public Preview.
   
  **To run the Microsoft SharePoint Products Preparation Tool**
   
