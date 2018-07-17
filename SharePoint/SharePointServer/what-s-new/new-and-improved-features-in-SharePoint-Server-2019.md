@@ -20,7 +20,7 @@ description: "Learn about the new features and updates to existing features in S
 
 Learn about the new features and updates to existing features in SharePoint Server 2019 Public Preview.
 
-For new features in SharePoint Server 2016 for end users, see 
+For the differences between SharePoint Server 2016 and SharePoint Server 2019, see "provide link when available". 
 
 ## Detailed description of new features
 
@@ -137,7 +137,7 @@ SharePoint Server 2019 Public Preview now supports authenticating to SMTP server
 
 ### Team Site sync with OneDrive sync client (NGSC)
 
-Users can use the new OneDrive sync client (NGSC – Next Generation Sync Client) instead of Groove.exe to sync Personal Sites hosted on SharePoint Server 2019 Public Preview. For more information, see [New OneDrive sync client release notes](https://support.office.com/en-us/article/New-OneDrive-sync-client-release-notes-845dcf18-f921-435e-bf28-4e24b95e5fc0). (Check with Troy for updates on procedures to use)
+Users can use the new OneDrive sync client (NGSC – Next Generation Sync Client) instead of Groove.exe to sync Personal Sites hosted on SharePoint Server 2019 Public Preview. For more information, see [New OneDrive sync client release notes](https://support.office.com/en-us/article/New-OneDrive-sync-client-release-notes-845dcf18-f921-435e-bf28-4e24b95e5fc0).
 
 ### Use of # and % characters in file and folder names
 
