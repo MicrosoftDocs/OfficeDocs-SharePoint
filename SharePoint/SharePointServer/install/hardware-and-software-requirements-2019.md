@@ -42,10 +42,10 @@ Note:
   
 ﻿The intra-farm latency of \<1 ms one way, 99,9% of the time over a period of ten minutes is also required for SharePoint environments with servers that are located in the same datacenter. The bandwidth speed should also be in this case at least 1 gigabit per second.
   
-## Hardware requirements: Web servers, application servers, and MinRole installations
+## Hardware requirements: SharePoint Servers and MinRole installations
 <a name="hwforwebserver"> </a>
 
-The values in the following table are minimum values for installations on a web and application servers that are running SharePoint Server 2019 Public Preview in a multiple server farm installation.
+The values in the following table are minimum values for installations on servers that are running SharePoint Server 2019 Public Preview in a multiple server farm installation.
   
 For all installation scenarios, you must have sufficient hard disk space for the base installation and sufficient space for diagnostics such as logging, debugging, creating memory dumps, and so on. For production use, you must also have additional free disk space for day-to-day operations. In addition, maintain two times as much free space as you have RAM for production environments.
   
@@ -89,16 +89,14 @@ This section provides minimum software requirements for each server in the farm.
 
 One of the following:
   
-- Microsoft SQL Server 2016 Service Pack 1 (SP1)
+- Microsoft SQL Server 2016 RTM
     
 - Microsoft SQL Server 2017 RTM for Windows
     
 > [!NOTE]
 > SQL Server products and all future public updates are supported through the SQL Server product lifecycle. 
   
-> [!NOTE]
-> To take advantage of any BI scenarios, you must have the latest Powerview and PowerPivot add-ins for Microsoft SQL Server 2016 RTM. To download the PowerPivot add-ins see, [Microsoft® SQL Server® 2016 PowerPivot® for Microsoft SharePoint® 2016](https://go.microsoft.com/fwlink/?LinkID=716860)
-  
+
 > [!NOTE]
 > SQL Server Express is not supported. SQL Azure (the SaaS service) is also not supported for any SharePoint databases 
   
@@ -122,9 +120,7 @@ One of the following server operating systems:
 [!NOTE]
 The minimum supported version is Office 2010 client.
   
-> [!NOTE]
-> SharePoint Server 2019 Public Preview only supports the "Server with Desktop Experience" installation option of Windows Server 2019. For additional information about Windows Server offerings, see [Windows Server Semi-annual Channel Overview](https://docs.microsoft.com/en-us/windows-server/get-started/semi-annual-channel-overview)
-  
+ 
 The Microsoft SharePoint Products Preparation Tool installs the following prerequisites on SharePoint servers in a farm:
   
 - Web Server (IIS) role
@@ -159,15 +155,18 @@ The Microsoft SharePoint Products Preparation Tool installs the following prereq
 ## Manually configure Windows Server Roles and Features
 To manually configure the required Windows Server Roles and Features, you can use one of two methods: 1. Server Manager 2. Microsoft PowerShell
 
-To configure by using Server Manager:
+To configure by using Server Manager, see [Install or Uninstall Roles, Role Services, or Features](https://docs.microsoft.com/en-us/windows-server/administration/server-manager/install-or-uninstall-roles-role-services-or-features)
 
 
+To configure by using PowerShell:
 
-To configure by using Powershell:
-
-From a Powershell command prompt window, type:
+From a PowerShell command prompt window, type:
 
 Install-WindowsFeature NET-HTTP-Activation,NET-Non-HTTP-Activ,NET-WCF-Pipe-Activation45,NET-WCF-HTTP-Activation45,Web-Server,Web-WebServer,Web-Common-Http,Web-Static-Content,Web-Default-Doc,Web-Dir-Browsing,Web-Http-Errors,Web-App-Dev,Web-Asp-Net,Web-Asp-Net45,Web-Net-Ext,Web-Net-Ext45,Web-ISAPI-Ext,Web-ISAPI-Filter,Web-Health,Web-Http-Logging,Web-Log-Libraries,Web-Request-Monitor,Web-Http-Tracing,Web-Security,Web-Basic-Auth,Web-Windows-Auth,Web-Filtering,Web-Performance,Web-Stat-Compression,Web-Dyn-Compression,Web-Mgmt-Tools,Web-Mgmt-Console,WAS,WAS-Process-Model,WAS-NET-Environment,WAS-Config-APIs,Windows-Identity-Foundation,Xps-Viewer -IncludeManagementTools -Verbose
+
+[!NOTE]
+Some Windows features being installed are “Features On Demand (FOD)”, which are downloaded from Windows Update.  If the computer doesn’t have access to Windows Update, you can specify local installation files by adding the **Source** parameter and pointing to the \sources\sxs folder on the Windows Server installation media.  For example:   -Source D:\sources\sxs
+
     
 ## Optional software supported in SharePoint Server 2019 Public Preview
 <a name="OptionalSoftware"> </a>
@@ -181,7 +180,7 @@ The optional software in this section is supported but is not required to instal
 ## Links to applicable software
 <a name="section5"> </a>
 
-To install Windows Server 2016 or higher, SQL Server 2016 Service Pack 1 (SP1) or higher, or SharePoint Server 2019 Public Preview, you can go to the websites that are listed in this section. You can install most software prerequisites through the SharePoint Server 2019 Public Preview Start page. The software prerequisites are also available from websites that are listed in this section. You can enable the Web Server (IIS) role in Server Manager.
+To install Windows Server 2016 or higher, SQL Server 2016 or higher, or SharePoint Server 2019 Public Preview, you can go to the websites that are listed in this section. You can install most software prerequisites through the SharePoint Server 2019 Public Preview Start page. The software prerequisites are also available from websites that are listed in this section. You can enable the Web Server (IIS) role in Server Manager.
   
 In scenarios where installing prerequisites directly from the Internet is not possible, you can download the prerequisites and then install them from a network share. For more information, see [Install prerequisites for SharePoint Server from a network share](install-prerequisites-from-network-share.md).
   
@@ -189,15 +188,15 @@ In scenarios where installing prerequisites directly from the Internet is not po
     
 - [Language Packs for SharePoint Server 2019 Public Preview]()
     
-- [Windows Server 2016](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2016)
+- [Windows Server 2016](https://www.microsoft.com/evalcenter/evaluate-windows-server-2016)
     
 - [Windows Server 2019]()
     
 - [Office 365 Enterprise](https://go.microsoft.com/fwlink/p/?LinkId=258856)
     
-- [Microsoft SQL Server 2016 Service Pack 1 (SP1)](https://www.microsoft.com/en-us/evalcenter/evaluate-sql-server-2016) 
+- [Microsoft SQL Server 2016](https://www.microsoft.com/evalcenter/evaluate-sql-server-2016) 
 
-- [Microsoft SQL Server 2017 RTM](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
+- [Microsoft SQL Server 2017 RTM](https://www.microsoft.com/sql-server/sql-server-downloads)
     
 - [Microsoft .NET Framework version 4.7.2](https://www.microsoft.com/net/download/dotnet-framework-runtime)
     
@@ -205,13 +204,13 @@ In scenarios where installing prerequisites directly from the Internet is not po
     
 - [Microsoft Information Protection and Control Client (MSIPC)](https://go.microsoft.com/fwlink/p/?LinkId=544913)
     
-- [Microsoft SQL Server 2012 Service Pack 4 (SP4) Native Client (installs with Microsoft SQL Server 2012 Feature Pack)](https://www.microsoft.com/en-us/download/details.aspx?id=56040)
+- [Microsoft SQL Server 2012 Service Pack 4 (SP4) Native Client (installs with Microsoft SQL Server 2012 Feature Pack)](https://www.microsoft.com/download/details.aspx?id=56040)
     
 - [Microsoft Sync Framework Runtime v1.0 SP1 (x64)](https://go.microsoft.com/fwlink/p/?LinkId=618411)
     
 - [Windows Server AppFabric 1.1](https://go.microsoft.com/fwlink/p/?LinkId=618412)
     
-- [Cumulative Update Package 7 for AppFabric 1.1 for Windows Server](https://support.microsoft.com/en-us/kb/3092423)
+- [Cumulative Update Package 7 for AppFabric 1.1 for Windows Server](https://support.microsoft.com/kb/3092423)
 
 - [Visual C++ Redistributable Package for Visual Studio 2012](https://go.microsoft.com/fwlink/?LinkId=627156)
     
@@ -226,7 +225,7 @@ In scenarios where installing prerequisites directly from the Internet is not po
 
 The SharePoint Server 2019 Public Preview prerequisite installer (prerequisiteinstaller.exe) installs the following software, if it has not already been installed on the target server, in the following order:
   
-1. Application Server Role, Web Server (IIS) Role
+1. Web Server (IIS) Role
     
 2. Microsoft SQL Server 2012 SP4 Native Client
     
@@ -243,8 +242,10 @@ The SharePoint Server 2019 Public Preview prerequisite installer (prerequisitein
 8. Microsoft .NET Framework 4.7.2
     
 9. Cumulative Update Package 7 for Microsoft AppFabric 1.1 for Windows Server (KB 3092423)
+
+10. Visual C++ Redistributable Package for Visual Studio 2012
     
-10. Visual C++ Redistributable Package for Visual Studio 2017
+11. Visual C++ Redistributable Package for Visual Studio 2017
    
     
 You can run prerequisiteinstaller.exe at a command prompt with the following options. When you run prerequisiteinstaller.exe at a command prompt, you might be asked to restart the server one or more times during the installation process. After restarting, you should continue the prerequisite installation by running prerequisiteinstaller.exe with the /continue option.
@@ -259,21 +260,23 @@ The installer installs from the file that you specify in the command-line option
   
 - **/SQLNCli:< _file_>** Install Microsoft SQL Server 2012 SP4 Native Client from <  _file_>.
     
-- **/IDFX11:< _file_>** Install Microsoft Identity Extensions from <  _file_>.
-    
 - **/Sync:< _file_>** Install Microsoft Sync Framework Runtime SP1 v1.0 (x64) from <  _file_>.
     
 - **/AppFabric:< _file_>** Install Windows Server AppFabric from <  _file_> (AppFabric must be installed with the options /i CacheClient,CachingService,CacheAdmin /gac).
-    
-- **/KB3092423:< _file_>** Install Cumulative Update Package 7 for Microsoft AppFabric 1.1 for Windows Server (KB3092423) from <  _file_>.
-    
+
+- **/IDFX11:< _file_>** Install Microsoft Identity Extensions from <  _file_>.
+   
 - **/MSIPCClient:< _file_>** Install Microsoft Information Protection and Control Client from <  _file_>.
+
+- **/KB3092423:< _file_>** Install Cumulative Update Package 7 for Microsoft AppFabric 1.1 for Windows Server (KB3092423) from <  _file_>.
     
 - **/WCFDataServices56:< _file_>** Install Microsoft WCF Data Services 5.6 from <  _file_>.
     
-- **/DotNetFx:< _file_>**Install Microsoft .NET Framework 4.7.2 from < _file_>.
+- **/DotNet472:< _file_>**Install Microsoft .NET Framework 4.7.2 from < _file_>.
     
-- **/MSVCRT11:< _file_>** Install Visual C++ Redistributable Package for Visual Studio 2017 from <  _file_>.
+- **/MSVCRT11:< _file_>** Install Visual C++ Redistributable Package for Visual Studio 2012 from <  _file_>.
+
+- /MSVCRT141:<_file_> Install Visual C++ Redistributable Package for Visual Studio 2017 from < _file_>.
     
    
 ### Installation options
