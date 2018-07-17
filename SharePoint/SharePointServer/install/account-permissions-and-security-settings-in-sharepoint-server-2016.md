@@ -39,17 +39,17 @@ One of the following SharePoint components automatically configures most of the 
     
 - The Farm Configuration Wizard.
     
-- The SharePoint the SharePoint Central Administration website website.
+- The SharePoint Central Administration website.
     
 - Microsoft PowerShell.
     
 ### Setup user administrator account
 
-This account is used to set up each server in your farm by running the SharePoint Products Configuration Wizard, the initial Farm Configuration Wizard, and PowerShell. For the examples in this article, the setup user administrator account is used for farm administration, and you can use Central Administration to manage it. Some configuration options, for example, configuration of the SharePoint Server 2016 Search query server, require local administration permissions. The setup user administrator account requires the following permissions:
+This account is used to set up each server in your farm by running the SharePoint Products Configuration Wizard, the initial Farm Configuration Wizard, and PowerShell. For the examples in this article, the setup user administrator account is used for farm administration, and you can use Central Administration to manage it. Some configuration options, for example, configuration of the SharePoint Server Search query server, require local administration permissions. The setup user administrator account requires the following permissions:
   
 - It must have domain user account permissions.
     
-- It must be a member of the local administrators group on each server in the SharePoint farm.
+- It must be a member of the local Administrators group on each server in the SharePoint farm.
     
 - This account must have access to the SharePoint databases.
     
@@ -64,7 +64,6 @@ After you run the configuration wizards, machine-level permissions for the setup
   
 - Membership in the WSS_ADMIN_WPG Windows security group.
     
-- Membership in the IIS_WPG role.
     
 After you run the configuration wizards, database permissions include:
   
@@ -77,15 +76,15 @@ After you run the configuration wizards, database permissions include:
   
 ### SharePoint farm service account
 
-The server farm account, which is also referred to as the database access account, is used as the application pool identity for Central Administration and as the process account for the SharePoint Foundation 2013 Timer service. The server farm account requires the following permissions:
+The server farm account, which is also referred to as the database access account, is used as the application pool identity for Central Administration and as the process account for the SharePoint Timer Service. The server farm account requires the following permissions:
   
 - It must have domain user account permissions.
     
-Additional permissions are automatically granted to the server farm account on web servers and application servers that are joined to a server farm.
+Additional permissions are automatically granted to the server farm account on SharePoint servers that are joined to a server farm.
   
 After you run Setup, machine-level permissions include:
   
-- Membership in the WSS_ADMIN_WPG Windows security group for the SharePoint Foundation 2013 Timer service.
+- Membership in the WSS_ADMIN_WPG Windows security group for the SharePoint Timer Service.
     
 - Membership in WSS_RESTRICTED_WPG for the Central Administration and Timer service application pools.
     
@@ -116,7 +115,7 @@ The following machine-level permission is configured automatically: The applicat
   
 The following SQL Server and database permissions for this account are configured automatically:
   
-- The application pool accounts for Web applications are assigned to the SP_DATA_ACCESS role for the content databases.
+- The application pool accounts for Web applications are assigned to the SPDataACCESS role for the content databases.
     
 - This account is assigned to the WSS_CONTENT_APPLICATION_POOLS role associated with the farm configuration database.
     
@@ -138,7 +137,7 @@ The default content access account is used within a specific service application
 ### Content access accounts
 
 > [!IMPORTANT]
-> Information in this section applies to SharePoint Server 2016 only. 
+> Information in this section applies to SharePoint Servers 2016 and 2019 Public Preview only. 
   
 Content access accounts are configured to access content by using the Search administration crawl rules feature. This type of account is optional, and you can configure it when you create a new crawl rule. For example, external content (such as a file share) might require this separate content access account. This account requires the following permission configuration settings:
   
@@ -149,7 +148,7 @@ Content access accounts are configured to access content by using the Search adm
 ### My Sites application pool account
 
 > [!IMPORTANT]
-> Information in this section applies to SharePoint Server 2016 only. 
+> Information in this section applies to SharePoint Server 2016 and 2019 Public Preview only. 
   
 The My Sites application pool account must be a domain user account. This account must not be a member of the Farm Administrators group. 
   
@@ -161,7 +160,7 @@ The following SQL Server and database permissions are configured automatically:
     
 - This account is assigned to the WSS_CONTENT_APPLICATION_POOLS role that is associated with the SharePoint_Admin content database.
     
-- The application pool accounts for web applications are assigned to the SP_DATA_ACCESS role for the content databases
+- The application pool accounts for web applications are assigned to the SPDataAccess role for the content databases
     
 ### Other application pool accounts
 
@@ -171,9 +170,9 @@ The following machine-level permission is configured automatically: This account
   
 The following SQL Server and database permissions are configured automatically:
   
-- This account is assigned to the SP_DATA_ACCESS role for the content databases.
+- This account is assigned to the SPDataAccess role for the content databases.
     
-- This account is assigned to the SP_DATA_ACCESS role for search database that is associated with the web application.
+- This account is assigned to the SPDataAccess role for search database that is associated with the web application.
     
 - This account must have read and write access to the associated service application database.
     
@@ -196,24 +195,24 @@ The WSS_CONTENT_APPLICATION_POOLS database role applies to the application pool 
     
 Members of the WSS_CONTENT_APPLICATION_POOLS role have the execute permission for a subset of the stored procedures for the database. In addition, members of this role have the select permission to the Versions table (dbo.Versions) in the SharePoint_AdminContent database. For other databases, the accounts planning tool indicates that access to read these databases is automatically configured. In some cases, limited access to write to a database is also automatically configured. To provide this access, permissions for stored procedures are configured. 
   
-#### WSS_SHELL_ACCESS database role
+#### SharePoint_SHELL_ACCESS database role
 
-The secure WSS_SHELL_ACCESS database role on the configuration database replaces the need to add an administration account as a **db_owner** on the configuration database. By default, the setup account is assigned to the WSS_SHELL_ACCESS database role. You can use a PowerShell command to grant or remove memberships to this role. Setup assigns the WSS_SHELL_ACCESS role to the following databases: 
+The secure SharePoint_SHELL_ACCESS database role on the configuration database replaces the need to add an administration account as a **db_owner** on the configuration database. By default, the setup account is assigned to the SharePoint_SHELL_ACCESS database role. You can use a PowerShell command to grant or remove memberships to this role. Setup assigns the SharePoint_SHELL_ACCESS role to the following databases: 
   
 - The SharePoint_Config database (the configuration database).
     
 - One or more of the SharePoint Content databases. This is configurable by using the PowerShell command that manages membership and the object that is assigned to this role.
     
-Members of the WSS_SHELL_ACCESS role have the execute permission for all stored procedures for the database. In addition, members of this role have the read and write permissions on all of the database tables.
+Members of the SharePoint_SHELL_ACCESS role have the execute permission for all stored procedures for the database. In addition, members of this role have the read and write permissions on all of the database tables.
   
-#### SP_READ_ONLY database role
+#### SPREADONLY database role
 
-The **SP_READ_ONLY** role should be used for setting the database to read-only mode instead of using sp_dboption. This role as its name suggests should be used when only read access is required for data such as usage and telemetry data. 
+The **SPREADONLY** role should be used for setting the database to read-only mode instead of using sp_dboption. This role as its name suggests should be used when only read access is required for data such as usage and telemetry data. 
   
 > [!NOTE]
 > The sp_dboption stored procedure is not available in SQL Server 2012. For more information about sp_dboption, see [sp_dboption (Transact-SQL)](https://go.microsoft.com/fwlink/p/?LinkId=507398). 
   
-The SP_READ_ONLY SQL role will have the following permissions:
+The SPREADONLY SQL role will have the following permissions:
   
 - Grant SELECT on all SharePoint stored procedures and functions.
     
@@ -221,14 +220,14 @@ The SP_READ_ONLY SQL role will have the following permissions:
     
 - Grant EXECUTE on user-defined type where schema is dbo.
     
-#### SP_DATA_ACCESS database role
+#### SPDataAccess database role
 
-The **SP_DATA_ACCESS** role is the default role for database access and should be used for all object model level access to databases. Add the application pool account to this role during upgrade or new deployments. 
+The **SPDataAccess** role is the default role for database access and should be used for all object model level access to databases. Add the application pool account to this role during upgrade or new deployments. 
   
 > [!NOTE]
-> The SP_DATA_ACCESS role replaced the db_owner role in SharePoint Server 2016. 
+> The SPDataAccess role replaced the db_owner role in SharePoint Server 2016. 
   
-The SP_DATA_ACCESS role will have the following permissions:
+The SPDataAccess role will have the following permissions:
   
 - Grant EXECUTE or SELECT on all SharePoint stored procedures and functions.
     
@@ -251,7 +250,7 @@ The SP_DATA_ACCESS role will have the following permissions:
 ## Group permissions
 <a name="Section5"> </a>
 
-This section describes permissions of groups that the SharePoint Server 2016 setup and configuration tools create.
+This section describes permissions of groups that the SharePoint Servers 2016 and 2019 Public Preview setup and configuration tools create.
   
 ### WSS_ADMIN_WPG
 
