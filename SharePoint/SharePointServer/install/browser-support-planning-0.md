@@ -1,5 +1,5 @@
 ---
-title: "Plan browser support in SharePoint Servers 2016 and 2019"
+title: "Plan browser support in SharePoint Servers 2016 and 2019 Public Preview"
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
@@ -12,16 +12,16 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: ff6c5b8c-59bd-4079-8f0b-de4f8b4e0a86
-description: "Summary: Learn about how SharePoint Servers 2016 and 2019 supports Internet Explorer, Google Chrome, Mozilla Firefox, Apple Safari, and Microsoft Edge."
+description: "Summary: Learn about how SharePoint Servers 2016 and 2019 Public Preview supports Internet Explorer, Google Chrome, Mozilla Firefox, Apple Safari, and Microsoft Edge."
 ---
 
-# Plan browser support in SharePoint Servers 2016 and 2019
+# Plan browser support in SharePoint Servers 2016 and 2019 Public Preview
 
- **Summary:** Learn about how SharePoint Servers 2016 and 2019 supports Internet Explorer, Google Chrome, Mozilla Firefox, Apple Safari, and Microsoft Edge. 
+ **Summary:** Learn about how SharePoint Servers 2016 and 2019 Public Preview supports Internet Explorer, Google Chrome, Mozilla Firefox, Apple Safari, and Microsoft Edge. 
   
-SharePoint Servers 2016 and 2019 supports several commonly used web browsers, such as ![Internet Explorer browser logo](../media/internetexplorersmall.png) Internet Explorer, ![Google Chrome browser logo](../media/chrome-small.jpg) Google Chrome, ![Mozilla Firefox browser logo](../media/firefox_small.png) Mozilla Firefox, ![Apple Safari browser logo](../media/safari-small.png) Apple Safari, and Microsoft Edge. However, certain web browsers can cause some SharePoint Server 2016 functionality to be downgraded, limited, or available only through alternative steps. 
+SharePoint Servers 2016 and 2019 Public Preview supports several commonly used web browsers, such as ![Internet Explorer browser logo](../media/internetexplorersmall.png) Internet Explorer, ![Google Chrome browser logo](../media/chrome-small.jpg) Google Chrome, ![Mozilla Firefox browser logo](../media/firefox_small.png) Mozilla Firefox, ![Apple Safari browser logo](../media/safari-small.png) Apple Safari, and Microsoft Edge. However, certain web browsers can cause some SharePoint Server 2016 functionality to be downgraded, limited, or available only through alternative steps. 
   
-As you plan your deployment of SharePoint Servers 2016 or 2019, we recommend that you review the browsers used in your organization to guarantee optimal performance with SharePoint Servers 2016 and 2019.
+As you plan your deployment of SharePoint Servers 2016 or 2019 Public Preview, we recommend that you review the browsers used in your organization to guarantee optimal performance with SharePoint Servers 2016 and 2019 Public Preview.
   
     
 ## Key planning phase of browser support
@@ -51,7 +51,7 @@ The following table summarizes the support levels of typically used web browsers
 |Mozilla Firefox (latest released version plus immediate previous version)  <br/> |X  <br/> ||
 |Apple Safari (latest released version)  <br/> |X  <br/> ||
 
-### Browser support levels in SharePoint Server 2019
+### Browser support levels in SharePoint Server 2019 Public Preview
 <a name="supportmatrix2019"> </a>
 
 The following table summarizes the support levels of typically used web browsers.
@@ -95,7 +95,7 @@ Review the details of the web browser that you have or plan to use in your organ
 
 Some functionality in SharePoint Server 2016 requires ActiveX controls. This produces limitations on browsers which do not support ActiveX. Currently only 32-bit versions of Internet Explorer support this functionality. All other supported browsers, including Microsoft Edge and the Immersive mode of Internet Explorer 10 have the following limitations. 
 
-For SharePoint Server 2019, Browsers other than Internet Explorer 11 have the following limitations
+For SharePoint Server 2019 Public Preview, Browsers other than Internet Explorer 11 have the following limitations
   
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
@@ -122,6 +122,6 @@ SharePoint Server 2016 supports the following versions:
     
 - Latest versions of Safari and Chrome on iOS 8 or later.
 
-- For SharePoint Server 2019, Chrome or Safari on iOS10 or later
+- For SharePoint Server 2019 Public Preview, Chrome or Safari on iOS10 or later
     
 

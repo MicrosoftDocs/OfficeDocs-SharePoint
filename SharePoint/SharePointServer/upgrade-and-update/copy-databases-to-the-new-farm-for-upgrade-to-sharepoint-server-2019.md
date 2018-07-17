@@ -1,5 +1,5 @@
 ---
-title: "Copy databases to the new farm for upgrade to SharePoint Server 2019"
+title: "Copy databases to the new farm for upgrade to SharePoint Server 2019 Public Preview"
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
@@ -13,14 +13,14 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 ms.assetid: 93327a06-ed2c-43f2-a40a-d7257f61f915
 
-description: "Summary: How to copy SharePoint Server 2016 content and service databases to a SharePoint Server 2019 farm."
+description: "Summary: How to copy SharePoint Server 2016 content and service databases to a SharePoint Server 2019 Public Preview farm."
 ---
 
-# Copy databases to the new farm for upgrade to SharePoint Server 2019
+# Copy databases to the new farm for upgrade to SharePoint Server 2019 Public Preview
 
- **Summary:** How to copy SharePoint Server 2016 content and service databases to a SharePoint Server 2019 farm. 
+ **Summary:** How to copy SharePoint Server 2016 content and service databases to a SharePoint Server 2019 Public Preview farm. 
   
-When you upgrade from SharePoint Server 2016 to SharePoint Server 2019, you must use a database attach upgrade, which means that you upgrade only the content for your environment and not the configuration settings. After you have configured a new SharePoint Server 2019 environment, you can copy the content and service application databases from the SharePoint Server 2016 environment to the SharePoint Server 2019 environment. You use a backup and restore process to copy the database, and you can also choose to set the databases to read-only in the SharePoint Server 2016 environment so that users can continue to access their information, but not change it. This article contains the steps that you take to copy the databases.
+When you upgrade from SharePoint Server 2016 to SharePoint Server 2019 Public Preview, you must use a database attach upgrade, which means that you upgrade only the content for your environment and not the configuration settings. After you have configured a new SharePoint Server 2019 Public Preview environment, you can copy the content and service application databases from the SharePoint Server 2016 environment to the SharePoint Server 2019 Public Preview environment. You use a backup and restore process to copy the database, and you can also choose to set the databases to read-only in the SharePoint Server 2016 environment so that users can continue to access their information, but not change it. This article contains the steps that you take to copy the databases.
   
 **Phase 2 of the upgrade process: Copy databases to the new farm**
 
@@ -28,14 +28,14 @@ When you upgrade from SharePoint Server 2016 to SharePoint Server 2019, you must
   
 |||
 |:-----|:-----|
-|![123 steps](../media/mod_icon_howTo_numeric_M.png)|This is the second phase in the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019. The process includes the following phases that must be completed in order:  <br/><br/> Create the SharePoint Server 2019 farm for a database attach upgrade <br/>Copy databases to the new farm for upgrade to SharePoint Server 2019  (this phase) <br/>Upgrade service applications to SharePoint Server 2019 <br/>Upgrade content databases to SharePoint Server 2019.<br/> <br/>For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server 2019](overview-of-the-upgrade-process_2019.md).  <br/> |
+|![123 steps](../media/mod_icon_howTo_numeric_M.png)|This is the second phase in the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019 Public Preview. The process includes the following phases that must be completed in order:  <br/><br/> Create the SharePoint Server 2019 Public Preview farm for a database attach upgrade <br/>Copy databases to the new farm for upgrade to SharePoint Server 2019 Public Preview  (this phase) <br/>Upgrade service applications to SharePoint Server 2019 Public Preview <br/>Upgrade content databases to SharePoint Server 2019 Public Preview.<br/> <br/>For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server 2019 Public Preview](overview-of-the-upgrade-process-2019.md).  <br/> |
    
 ## Before you begin
 <a name="begin"> </a>
 
 Before you copy the databases, review the following information and take any recommended actions.
   
-- Make sure that the account that you use to copy the databases has access to SQL Server Management Studio on both the SharePoint Server 2016 and SharePoint Server 2019 environments and has access to a network location that can be accessed from both environments to store the copies of the databases.
+- Make sure that the account that you use to copy the databases has access to SQL Server Management Studio on both the SharePoint Server 2016 and SharePoint Server 2019 Public Preview environments and has access to a network location that can be accessed from both environments to store the copies of the databases.
     
 - Make sure that the account that you use to set the databases to read-only and read-write is a member of the **db_owner** fixed database role for the content databases that you want to upgrade. 
     
@@ -45,10 +45,10 @@ Before you copy the databases, review the following information and take any rec
 ## Set the earlier version databases to be read-only
 <a name="readonly"> </a>
 
-To maintain user access to your original environment, set the SharePoint Server 2019 databases to read-only before you back up the databases. Even if you don't want to maintain access over the long term, set the databases to read-only to make sure that you capture all the data in the backup so that you restore and upgrade the current state of the environment without allowing additional changes to be made. If the databases are set to read-only, users can continue to view content. However, they will be unable to add or change content. 
+To maintain user access to your original environment, set the SharePoint Server 2019 Public Preview databases to read-only before you back up the databases. Even if you don't want to maintain access over the long term, set the databases to read-only to make sure that you capture all the data in the backup so that you restore and upgrade the current state of the environment without allowing additional changes to be made. If the databases are set to read-only, users can continue to view content. However, they will be unable to add or change content. 
   
 > [!NOTE]
-> Don't set search databases to read-only at this point. It's best not to interrupt the search experience until you're ready to upgrade the Search service applications. You will handle these databases when you [upgrade service applications](upgrade-and-update\upgrade-service-applications-to-sharepoint-server-2019.md) (the fourth phase in the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019). 
+> Don't set search databases to read-only at this point. It's best not to interrupt the search experience until you're ready to upgrade the Search service applications. You will handle these databases when you [upgrade service applications](upgrade-service-applications-to-sharepoint-server-2019.md) (the fourth phase in the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019 Public Preview). 
   
 > [!IMPORTANT]
 > Perform this step in the SharePoint Server 2016 environment. 
@@ -83,7 +83,7 @@ You back up the databases in SQL Server Management Studio. A backup copy of the 
 |PerformancePoint  <br/> |PerformancePoint Service Application_ _ID_ <br/> |
 |Secure Store  <br/> |Secure_Store_Service_DB_ _ID_ <br/> |
    
-You do not have to back up the configuration or admin content databases, because you recreated these databases when you set up the SharePoint Server 2019 server farm. Upgrading the configuration or admin content databases and the Central Administration site collection is not supported. 
+You do not have to back up the configuration or admin content databases, because you recreated these databases when you set up the SharePoint Server 2019 Public Preview server farm. Upgrading the configuration or admin content databases and the Central Administration site collection is not supported. 
   
 After you complete this procedure, you will have created backups of the read-only content databases.
   
@@ -112,17 +112,17 @@ After you complete this procedure, you will have created backups of the read-onl
     
 9. Click **OK** to start the backup process. 
     
-Repeat the previous procedure to back up all the content and appropriate service application databases that SharePoint Server 2019 uses in your environment.
+Repeat the previous procedure to back up all the content and appropriate service application databases that SharePoint Server 2019 Public Preview uses in your environment.
   
-## Copy the backup files to the SharePoint Server 2019 environment
+## Copy the backup files to the SharePoint Server 2019 Public Preview environment
 <a name="backup"> </a>
 
-Copy the backup files that you created in the previous procedure from the SharePoint Server 2016 environment to the SharePoint Server 2019 environment.
+Copy the backup files that you created in the previous procedure from the SharePoint Server 2016 environment to the SharePoint Server 2019 Public Preview environment.
   
 ## Restore a backup copy of the database
 <a name="restore"> </a>
 
-After you configure the new SharePoint Server 2019 server farm, you can restore the backup copies of the databases to SQL Server. Start with one database, and then verify that the restoration has worked before you restore the other databases.
+After you configure the new SharePoint Server 2019 Public Preview server farm, you can restore the backup copies of the databases to SQL Server. Start with one database, and then verify that the restoration has worked before you restore the other databases.
   
 > [!IMPORTANT]
 > Be sure to keep a copy of your original backups in reserve, just in case upgrade fails and you have to troubleshoot and try again. > Perform this step in the SharePoint Server 2016 environment. 
@@ -161,10 +161,10 @@ After you configure the new SharePoint Server 2019 server farm, you can restore 
 ## Set the databases to read-write
 <a name="ReadWrite"> </a>
 
-You cannot upgrade a database that is set to read-only. You must set the databases back to read-write on your SharePoint Server 2019 farm before you attach and upgrade them.
+You cannot upgrade a database that is set to read-only. You must set the databases back to read-write on your SharePoint Server 2019 Public Preview farm before you attach and upgrade them.
   
 > [!IMPORTANT]
-> Perform this step in the SharePoint Server 2019 environment. 
+> Perform this step in the SharePoint Server 2019 Public Preview environment. 
   
  **To set a database to read-write by using SQL Server tools**
   
@@ -178,16 +178,16 @@ You cannot upgrade a database that is set to read-only. You must set the databas
     
 |||
 |:-----|:-----|
-|![123 steps](../media/mod_icon_howTo_numeric_M.png)| This is the second phase in the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019.  <br/>  Next phase: [Upgrade service applications to SharePoint Server 2016](upgrade-service-applications-to-sharepoint-server-2019.md) <br/>  For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server 2019](overview-of-the-upgrade-process_2019.md).  <br/> |
+|![123 steps](../media/mod_icon_howTo_numeric_M.png)| This is the second phase in the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019 Public Preview.  <br/>  Next phase: [Upgrade service applications to SharePoint Server 2016](upgrade-service-applications-to-sharepoint-server-2019.md) <br/>  For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server 2019 Public Preview](overview-of-the-upgrade-process-2019.md).  <br/> |
    
 ## See also
 <a name="ReadWrite"> </a>
 
 #### Concepts
 
-[Create the SharePoint Server 2019 farm for a database attach upgrade](create-the-sharepoint-server-2016-farm-for-a-database-attach-upgrade.md)
+[Create the SharePoint Server 2019 Public Preview farm for a database attach upgrade](create-the-sharepoint-server-2016-farm-for-a-database-attach-upgrade.md)
   
-[Upgrade service applications to SharePoint Server 2019](upgrade-service-applications-to-sharepoint-server-2019.md)
+[Upgrade service applications to SharePoint Server 2019 Public Preview](upgrade-service-applications-to-sharepoint-server-2019.md)
   
-[Upgrade content databases to SharePoint Server 2019](upgrade-content-databases_2019.md)
+[Upgrade content databases to SharePoint Server 2019 Public Preview](upgrade-content-databases-2019.md)
 

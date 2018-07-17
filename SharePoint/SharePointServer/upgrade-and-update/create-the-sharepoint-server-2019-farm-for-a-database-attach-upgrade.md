@@ -1,5 +1,5 @@
 ---
-title: "Create the SharePoint Server 2019 farm for a database attach upgrade"
+title: "Create the SharePoint Server 2019 Public Preview farm for a database attach upgrade"
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
@@ -13,30 +13,30 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 ms.assetid: 99684f0b-f617-4c10-8420-d4d0adea3687
 
-description: "Summary: Create and configure a SharePoint Server 2019 farm so that you can upgrade databases from SharePoint 2016."
+description: "Summary: Create and configure a SharePoint Server 2019 Public Preview farm so that you can upgrade databases from SharePoint 2016."
 ---
 
-# Create the SharePoint Server 2019 farm for a database attach upgrade
+# Create the SharePoint Server 2019 Public Preview farm for a database attach upgrade
 
- **Summary:** Create and configure a SharePoint Server 2019 farm so that you can upgrade databases from SharePoint 2016. 
+ **Summary:** Create and configure a SharePoint Server 2019 Public Preview farm so that you can upgrade databases from SharePoint 2016. 
   
-When you upgrade from SharePoint Server 2016 to SharePoint Server 2019, you must use a database attach upgrade, which means that you upgrade only the content for your environment and not the configuration settings. Before you can upgrade the content, you must configure a new server or server farm by using SharePoint Server 2016. This article lists the items that you have to configure when you create that new environment.
+When you upgrade from SharePoint Server 2016 to SharePoint Server 2019 Public Preview, you must use a database attach upgrade, which means that you upgrade only the content for your environment and not the configuration settings. Before you can upgrade the content, you must configure a new server or server farm by using SharePoint Server 2016. This article lists the items that you have to configure when you create that new environment.
   
-**Phase 1 of the upgrade process: Create SharePoint Server 2019 farm**
+**Phase 1 of the upgrade process: Create SharePoint Server 2019 Public Preview farm**
 
 ![Phase 1 of the upgrade process: Create SharePoint 2019 farm](../media/CreateFarm_SP2019.png)
   
 |||
 |:-----|:-----|
-|![123 steps](../media/mod_icon_howTo_numeric_M.png)|This is the first phase in the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019. The process includes the following phases that must be completed in order:  <li/> Create the SharePoint Server 2019 farm for a database attach upgrade  (this phase). <li/> Copy databases to the new farm for upgrade to SharePoint Server 2019. <li/>Upgrade service applications to SharePoint Server 2019. <li/>Upgrade content databases to SharePoint Server 2019.
-<br/>For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server 2019](overview-of-the-upgrade-process_2019.md). |
+|![123 steps](../media/mod_icon_howTo_numeric_M.png)|This is the first phase in the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019 Public Preview. The process includes the following phases that must be completed in order:  <li/> Create the SharePoint Server 2019 Public Preview farm for a database attach upgrade  (this phase). <li/> Copy databases to the new farm for upgrade to SharePoint Server 2019 Public Preview. <li/>Upgrade service applications to SharePoint Server 2019 Public Preview. <li/>Upgrade content databases to SharePoint Server 2019 Public Preview.
+<br/>For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server 2019 Public Preview](overview-of-the-upgrade-process-2019.md). |
    
 ## Before you begin
 <a name="begin"> </a>
 
-Before you create the SharePoint Server 2019 farm, review the following information and take any recommended actions.
+Before you create the SharePoint Server 2019 Public Preview farm, review the following information and take any recommended actions.
   
-- Make sure that the hardware and software that you are using meets the requirements in [Hardware and software requirements for SharePoint Server 2019](../install/hardware-and-software-requirements-2019.md).
+- Make sure that the hardware and software that you are using meets the requirements in [Hardware and software requirements for SharePoint Server 2019 Public Preview](../install/hardware-and-software-requirements-2019.md).
     
 - Make sure that you have appropriately planned your logical and physical architecture to support the features and functionality that you want in the SharePoint Server 2016 farm. 
     
@@ -143,6 +143,6 @@ In a standard installation, the next step would be to create web applications. H
   
 |||
 |:-----|:-----|
-|![123 steps](../media/mod_icon_howTo_numeric_M.png)| This is the first phase in the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019.  <br/>  Next phase: [Copy databases to the new farm for upgrade to SharePoint Server 2019](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2019.md) <br/>  For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server 2019](overview-of-the-upgrade-process-2019.md).  <br/> |
+|![123 steps](../media/mod_icon_howTo_numeric_M.png)| This is the first phase in the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019 Public Preview.  <br/>  Next phase: [Copy databases to the new farm for upgrade to SharePoint Server 2019 Public Preview](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2019.md) <br/>  For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server 2019 Public Preview](overview-of-the-upgrade-process-2019.md).  <br/> |
    
 

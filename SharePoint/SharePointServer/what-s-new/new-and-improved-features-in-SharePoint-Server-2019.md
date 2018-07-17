@@ -1,5 +1,5 @@
 ---
-title: "New and improved features in SharePoint Server 2019"
+title: "New and improved features in SharePoint Server 2019 Public Preview"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
@@ -16,7 +16,7 @@ ms.custom:
 description: "Learn about the new features and updates to existing features in SharePoint Server 2019 Public Preview."
 ---
 
-# New and improved features in SharePoint Server 2019
+# New and improved features in SharePoint Server 2019 Public Preview
 
 Learn about the new features and updates to existing features in SharePoint Server 2019 Public Preview.
 
@@ -43,7 +43,7 @@ Communication sites are a place to share news, showcase a story, or broadcast a 
 
 ### Fast site creation
 
-Fast site creation in SharePoint Server 2019 allows users create new sites in a few seconds. Fast site creation is only supported with the following site templates:
+Fast site creation in SharePoint Server 2019 Public Preview allows users create new sites in a few seconds. Fast site creation is only supported with the following site templates:
 
 - OneDrive personal site [SPSPERS#10]
 
@@ -61,29 +61,29 @@ Fast site creation is used when creating sites in the following entry points:
 
 ### Modern lists and libraries
 
-SharePoint Server 2019 contains the modern experiences for lists and libraries in Team sites. This brings the experience up to date with that found in SharePoint Online.
+SharePoint Server 2019 Public Preview contains the modern experiences for lists and libraries in Team sites. This brings the experience up to date with that found in SharePoint Online.
 
 ### Modern sharing experiences
 
-SharePoint Server 2019 now supports modern sharing experiences with a simplified sharing UI. You can now easily share links to content with others in your organization. You can also be warned if you're sharing to a large group or sharing a large number of items.
+SharePoint Server 2019 Public Preview now supports modern sharing experiences with a simplified sharing UI. You can now easily share links to content with others in your organization. You can also be warned if you're sharing to a large group or sharing a large number of items.
 
 ### Modern Site Pages, modern web parts and authoring
 
-SharePoint Server 2019 users can now add modern site pages and modern web parts on team sites. Do this in the **Add a Page** in Site Actions or in the pages library by clicking **New** > **Site Page**.
+SharePoint Server 2019 Public Preview users can now add modern site pages and modern web parts on team sites. Do this in the **Add a Page** in Site Actions or in the pages library by clicking **New** > **Site Page**.
 
 ### Modern Team sites
 
 Modern team sites bring a fresh and responsive user experience to team collaboration. The redesigned homepage improves the discoverability of the most common collaboration tasks while putting your team’s news front and center. Users can easily create modern team sites for themselves from SharePoint Home without needing to contact IT.
 
-SharePoint Server 2019 will continue to support creating classic team sites.
+SharePoint Server 2019 Public Preview will continue to support creating classic team sites.
 
 ### PDF Viewer
 
-SharePoint Server 2019 can now render PDF documents on the server. Users no longer need to rely on a PDF viewer client application.
+SharePoint Server 2019 Public Preview can now render PDF documents on the server. Users no longer need to rely on a PDF viewer client application.
 
 ### Push notification to OneDrive sync clients
 
-SharePoint Server 2019 now supports push notification to OneDrive sync clients. This gives OneDrive sync clients immediate notifications when changes are made to content they have a sync relationship with. Now users’ synced content will be refreshed as soon as changes are made instead of waiting for the next polling interval.
+SharePoint Server 2019 Public Preview now supports push notification to OneDrive sync clients. This gives OneDrive sync clients immediate notifications when changes are made to content they have a sync relationship with. Now users’ synced content will be refreshed as soon as changes are made instead of waiting for the next polling interval.
 
 ### SharePoint using modern Internet Information Services (IIS) APIs
 
@@ -97,7 +97,7 @@ As a result of this change, the following Windows Server features will no longer
 
 - IIS 6 Scripting Tools (Web-Lgcy-Scripting)
 
-Additionally, automatic mode for the incoming email feature will no longer be supported. Automatic mode used the IIS6 APIs to directly manage the IIS SMTP service, but the IIS SMTP service was never updated to use modern IIS APIs. SharePoint customers can still use the incoming email feature in advanced mode and manually manage their IIS SMTP service. For more information, see the **Incoming email automatic mode** section in What's deprecated or removed from SharePoint Server 2019.
+Additionally, automatic mode for the incoming email feature will no longer be supported. Automatic mode used the IIS6 APIs to directly manage the IIS SMTP service, but the IIS SMTP service was never updated to use modern IIS APIs. SharePoint customers can still use the incoming email feature in advanced mode and manually manage their IIS SMTP service. For more information, see the **Incoming email automatic mode** section in What's deprecated or removed from SharePoint Server 2019 Public Preview.
 
 ### SharePoint home page
 
@@ -133,15 +133,15 @@ SharePoint will treat the external resource as an external web application. The 
 
 ### SMTP authentication when sending emails
 
-SharePoint Server 2019 now supports authenticating to SMTP servers when sending email messages. Authentication can be configured through the Central Administration website and through PowerShell. SharePoint Server 2019 will still support anonymous connections to SMTP servers that don't require authentication. This makes it easier for customers to integrate SharePoint into highly secure environments where authentication is required to send emails. Customers no longer need to configure smart host relays for SharePoint in these environments.
+SharePoint Server 2019 Public Preview now supports authenticating to SMTP servers when sending email messages. Authentication can be configured through the Central Administration website and through PowerShell. SharePoint Server 2019 Public Preview will still support anonymous connections to SMTP servers that don't require authentication. This makes it easier for customers to integrate SharePoint into highly secure environments where authentication is required to send emails. Customers no longer need to configure smart host relays for SharePoint in these environments.
 
 ### Team Site sync with OneDrive sync client (NGSC)
 
-Users can use the new OneDrive sync client (NGSC – Next Generation Sync Client) instead of Groove.exe to sync Personal Sites hosted on SharePoint Server 2019. For more information, see [New OneDrive sync client release notes](https://support.office.com/en-us/article/New-OneDrive-sync-client-release-notes-845dcf18-f921-435e-bf28-4e24b95e5fc0). (Check with Troy for updates on procedures to use)
+Users can use the new OneDrive sync client (NGSC – Next Generation Sync Client) instead of Groove.exe to sync Personal Sites hosted on SharePoint Server 2019 Public Preview. For more information, see [New OneDrive sync client release notes](https://support.office.com/en-us/article/New-OneDrive-sync-client-release-notes-845dcf18-f921-435e-bf28-4e24b95e5fc0). (Check with Troy for updates on procedures to use)
 
 ### Use of # and % characters in file and folder names
 
-SharePoint Server 2019 now supports # and % characters in file and folder names, completing our support for all valid Windows file and folder name characters. This makes it easier to sync to content from personal storage devices to SharePoint.
+SharePoint Server 2019 Public Preview now supports # and % characters in file and folder names, completing our support for all valid Windows file and folder name characters. This makes it easier to sync to content from personal storage devices to SharePoint.
 
 ## Detailed description of new Microsoft PowerShell SharePoint Server cmdlets
 
@@ -194,20 +194,20 @@ Distributed Cache will now configure AppFabric Velocity Cache to use background 
 
 ### File path limit of 400 characters
 
-SharePoint Server 2019 has increased the maximum file path length limit from 260 characters to 400 characters. The file path is everything after the server name and port number in the URL. File path includes the name of the site and subsites, document library, folders, and the file itself.
+SharePoint Server 2019 Public Preview has increased the maximum file path length limit from 260 characters to 400 characters. The file path is everything after the server name and port number in the URL. File path includes the name of the site and subsites, document library, folders, and the file itself.
 This file path length limit increase makes it easier to sync deeply nested content from personal storage devices to SharePoint.
 
 ### Hybrid experiences improvements
 
-- The "OneDrive by Default" experience for SharePoint Server 2013 is now available in SharePoint Server 2019. When enabled, any attempt to browse to the My Site Host welcome page will be redirected to Office 365.
+- The "OneDrive by Default" experience for SharePoint Server 2013 is now available in SharePoint Server 2019 Public Preview. When enabled, any attempt to browse to the My Site Host welcome page will be redirected to Office 365.
 
-- A SharePoint hybrid status bar was added to the top of Central Administration. The hybrid status bar will appear once the SharePoint Server 2019 farm meets the minimum system requirements needed to enable hybrid, and will give you direct access to launch the SharePoint Hybrid Configuration Wizard.
+- A SharePoint hybrid status bar was added to the top of Central Administration. The hybrid status bar will appear once the SharePoint Server 2019 Public Preview farm meets the minimum system requirements needed to enable hybrid, and will give you direct access to launch the SharePoint Hybrid Configuration Wizard.
 
 - We've added and updated hybrid links throughout Central Administration to launch the SharePoint Hybrid Configuration Wizard. This lets you skip clicking through multiple pages in the SharePoint Online Admin Center just to get to the SharePoint Hybrid Configuration Wizard.
 
 ### Recycle Bin restore improvements
 
-SharePoint Server 2019 users can now restore items that they've deleted themselves, and also items that other users in the site have deleted. Users need edit permission on the deleted items so they're visible in their SharePoint recycle bin.
+SharePoint Server 2019 Public Preview users can now restore items that they've deleted themselves, and also items that other users in the site have deleted. Users need edit permission on the deleted items so they're visible in their SharePoint recycle bin.
 
 ### SharePoint hybrid status bar improvement
 
@@ -217,7 +217,7 @@ To prevent confusion, we've now separated the SharePoint hybrid status bar from 
 
 ### SharePoint Splash screen
 
-The SharePoint setup splash screen (splash.hta) on the installation media has been updated with a new design. The splash screen contains the SharePoint Server 2019 branding and will link to our SharePoint 2019 documentation.
+The SharePoint setup splash screen (splash.hta) on the installation media has been updated with a new design. The splash screen contains the SharePoint Server 2019 Public Preview branding and will link to our SharePoint 2019 documentation.
 
 ### Sharing email template
 
@@ -225,11 +225,11 @@ Sharing email notifications have been refreshed to use a modern template design.
 
 ### Suite Navigation and App Launcher improvements
 
-We've refreshed Suite Navigation and App Launcher in SharePoint Server 2019. The user interface now is closely aligned with what is seen in Office 365 so that SharePoint hybrid customers will have a seamless experience as they move between SharePoint Server 2019 and SharePoint Online.
+We've refreshed Suite Navigation and App Launcher in SharePoint Server 2019 Public Preview. The user interface now is closely aligned with what is seen in Office 365 so that SharePoint hybrid customers will have a seamless experience as they move between SharePoint Server 2019 Public Preview and SharePoint Online.
 
 ### Telemetry privacy experience
 
-SharePoint Server 2019 now has an updated telemetry management experience. When you first set up a farm or browse to the SharePoint privacy settings page in Central Administration, you can now provide an email address for the telemetry contact of your organization. This is in anticipation of future telemetry reporting capabilities that will allow customers to associate SharePoint Server and OneDrive Sync Client telemetry with their hybrid tenancy.
+SharePoint Server 2019 Public Preview now has an updated telemetry management experience. When you first set up a farm or browse to the SharePoint privacy settings page in Central Administration, you can now provide an email address for the telemetry contact of your organization. This is in anticipation of future telemetry reporting capabilities that will allow customers to associate SharePoint Server and OneDrive Sync Client telemetry with their hybrid tenancy.
 
 The email address provided is not sent outside of the SharePoint farm, not even to Microsoft. It is used in combination with other farm data to generate a unique hash value to represent your farm when uploading telemetry data to Microsoft. When customers want to associate telemetry with their hybrid tenancy, this email address will be part of the process to prove ownership of the telemetry data.
 

@@ -1,5 +1,5 @@
 ---
-title: "Upgrade a site collection to SharePoint Server 2019"
+title: "Upgrade a site collection to SharePoint Server 2019 Public Preview"
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
@@ -12,17 +12,17 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 78e2f208-e4b9-49cd-a036-89809fa24baf
-description: "Summary: Learn how site collection administrators can upgrade their sites to SharePoint Server 2019 and then review site collections for issues."
+description: "Summary: Learn how site collection administrators can upgrade their sites to SharePoint Server 2019 Public Preview and then review site collections for issues."
 ---
 
-# Upgrade a site collection to SharePoint Server 2019
+# Upgrade a site collection to SharePoint Server 2019 Public Preview
 
- **Summary:** Learn how site collection administrators can upgrade their sites to SharePoint Server 2019 and then review site collections for issues. 
+ **Summary:** Learn how site collection administrators can upgrade their sites to SharePoint Server 2019 Public Preview and then review site collections for issues. 
   
-In SharePoint Server 2019 the way site collection upgrades are performed has changed. After a server farm administrator has upgraded the databases, site collections are automatically upgraded.
+In SharePoint Server 2019 Public Preview the way site collection upgrades are performed has changed. After a server farm administrator has upgraded the databases, site collections are automatically upgraded.
   
 > [!NOTE]
-> There is no concept of "site collection compatibility modes" in SharePoint Server 2019. You must be running the latest version at all times. 
+> There is no concept of "site collection compatibility modes" in SharePoint Server 2019 Public Preview. You must be running the latest version at all times. 
   
 ## Upgrade a site collection
 
@@ -73,7 +73,7 @@ Farm administrators can use PowerShell to view site collection upgrade status.
 ## Review site collections upgraded to SharePoint Server 2016
 <a name="ver"> </a>
 
-After the site collections have been upgraded to SharePoint Server 2019, review your upgraded sites to fix any issues after you have upgraded a site collection. Use the steps in this section to identify any issues before you upgrade your production environment. 
+After the site collections have been upgraded to SharePoint Server 2019 Public Preview, review your upgraded sites to fix any issues after you have upgraded a site collection. Use the steps in this section to identify any issues before you upgrade your production environment. 
   
 When you perform tests before upgrading your environment:
   
@@ -92,7 +92,7 @@ You can review the site collection upgrade logs from the following locations:
   
 - **For farm administrators:** The site collection upgrade log file and the upgrade error log file are located at %COMMONPROGRAMFILES%\Microsoft Shared\Web server extensions\16\LOGS. The logs are named in the following format: SiteUpgrade-  _YYYYMMDD-HHMMSS-SSS_.log, where  _YYYYMMDD_ is the date and  _HHMMSS-SSS_ is the time (hours in 24-hour clock format, minutes, seconds, and milliseconds). These file system logs have more information if you want details about issues. 
     
-    For additional information on how to troubleshoot error messages, see [Troubleshoot site collection upgrade issues in SharePoint Server 2019](troubleshoot-site-collection-upgrade-issues_2019.md).
+    For additional information on how to troubleshoot error messages, see [Troubleshoot site collection upgrade issues in SharePoint Server 2019 Public Preview](troubleshoot-site-collection-upgrade-issues-2019.md).
     
 Use the following checklists to review your upgraded sites and look for issues for either trial upgrades or upgrades in a production environment.
   
@@ -124,5 +124,5 @@ The following table lists common issues with the style and appearance of your we
 
 #### Concepts
 
-[Overview of the upgrade process to SharePoint Server 2019](overview-of-the-upgrade-process_2019.md)
+[Overview of the upgrade process to SharePoint Server 2019 Public Preview](overview-of-the-upgrade-process-2019.md)
 

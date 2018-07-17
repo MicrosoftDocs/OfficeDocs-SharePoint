@@ -1,5 +1,5 @@
 ---
-title: "Services upgrade overview for SharePoint Server 2019"
+title: "Services upgrade overview for SharePoint Server 2019 Public Preview"
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
@@ -12,14 +12,14 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 5aeff319-0a8f-4d6b-86d5-6086611c48ed
-description: "Summary: Create a plan to upgrade data for service applications when you upgrade from SharePoint Server 2016 to SharePoint Server 2019."
+description: "Summary: Create a plan to upgrade data for service applications when you upgrade from SharePoint Server 2016 to SharePoint Server 2019 Public Preview."
 ---
 
-# Services upgrade overview for SharePoint Server 2019
+# Services upgrade overview for SharePoint Server 2019 Public Preview
 
- **Summary:** Create a plan to upgrade data for service applications when you upgrade from SharePoint Server 2016 to SharePoint Server 2019. 
+ **Summary:** Create a plan to upgrade data for service applications when you upgrade from SharePoint Server 2016 to SharePoint Server 2019 Public Preview. 
   
-The upgrade process for SharePoint Server 2019 uses the database attach upgrade method. When you move your databases to a new farm and upgrade the content, you must create your services infrastructure in the new farm, and configure the services appropriately for your new farm and new version. The following service applications have databases that can be upgraded when you upgrade from SharePoint Server 2016 to SharePoint Server 2019:
+The upgrade process for SharePoint Server 2019 Public Preview uses the database attach upgrade method. When you move your databases to a new farm and upgrade the content, you must create your services infrastructure in the new farm, and configure the services appropriately for your new farm and new version. The following service applications have databases that can be upgraded when you upgrade from SharePoint Server 2016 to SharePoint Server 2019 Public Preview:
   
 - Business Data Connectivity service application
     
@@ -82,7 +82,7 @@ Specifically, the following service application databases can be upgraded:
 |Secure Store  <br/> |Secure_Store_Service_DB_\<GUID\>  <br/> |
 |User Profile: Profile and Social databases  <br/> |User Profile Service Application_ProfileDB_\<GUID\>  <br/> User Profile Service Application_SocialDB_\<GUID\>  <br/> User Profile Service Application_SyncDB_\<GUID\>  <br/> |
    
-The steps to upgrade these service application databases are included in [Upgrade service applications to SharePoint Server 2019](upgrade-service-applications-to-sharepoint-server-2019.md).
+The steps to upgrade these service application databases are included in [Upgrade service applications to SharePoint Server 2019 Public Preview](upgrade-service-applications-to-sharepoint-server-2019.md).
   
 ## Considerations for specific services
 <a name="Considerations"> </a>
@@ -102,7 +102,7 @@ The following services in SharePoint Server 2016 also require additional steps t
 
 #### Concepts
 
-[Overview of the upgrade process to SharePoint Server 2019](overview-of-the-upgrade-process_2019.md)
+[Overview of the upgrade process to SharePoint Server 2019 Public Preview](overview-of-the-upgrade-process-2019.md)
   
-[Upgrade content databases to SharePoint Server 2019](upgrade-content-databases_2019.md)
+[Upgrade content databases to SharePoint Server 2019 Public Preview](upgrade-content-databases-2019.md)
 

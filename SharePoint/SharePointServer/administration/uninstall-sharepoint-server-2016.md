@@ -1,5 +1,5 @@
 ---
-title: "Uninstall SharePoint Server 2016 or SharePoint Server 2019"
+title: "Uninstall SharePoint Server 2016 or SharePoint Server 2019 Public Preview"
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
@@ -11,12 +11,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 7ad523f5-db54-4169-81ba-3a7b60f218b7
-description: "Summary: Learn about the limited set of supported methods to uninstall SharePoint Server 2016 or SharePoint Server 2019."
+description: "Summary: Learn about the limited set of supported methods to uninstall SharePoint Server 2016 or SharePoint Server 2019 Public Preview."
 ---
 
-# Uninstall SharePoint Servers 2016 or 2019
+# Uninstall SharePoint Servers 2016 or 2019 Public Preview
 
- **Summary:** Learn about the limited set of supported methods to uninstall SharePoint Servers 2016 or 2019. 
+ **Summary:** Learn about the limited set of supported methods to uninstall SharePoint Servers 2016 or 2019 Public Preview. 
   
 You remove SharePoint Server by uninstalling it from Control Panel. When you uninstall SharePoint Server, most files and subfolders in the installation folders are removed. However, some files are not removed. Also, 
   
@@ -31,12 +31,12 @@ You remove SharePoint Server by uninstalling it from Control Panel. When you uni
 
 Before you begin this operation, confirm that you have uninstalled all language packs that are on the server.
   
-## Uninstall SharePoint Servers 2016 or 2019
+## Uninstall SharePoint Servers 2016 or 2019 Public Preview
 <a name="begin"> </a>
 
 Use this procedure to uninstall SharePoint Server 2016.
   
- **To uninstall SharePoint Servers 2016 or 2019**
+ **To uninstall SharePoint Servers 2016 or 2019 Public Preview**
   
 1. Verify that you are a member of the Farm Administrators group or a member of the Administrators group on the local computer.
     
@@ -47,7 +47,7 @@ Use this procedure to uninstall SharePoint Server 2016.
   
 4. In the **Programs** area, click **Uninstall a program**.
     
-5. In the **Uninstall or change a program** dialog box, click **Microsoft SharePoint Server 2016** or **Microsoft SharePoint Server 2019**.
+5. In the **Uninstall or change a program** dialog box, click **Microsoft SharePoint Server 2016** or **Microsoft SharePoint Server 2019 Public Preview**.
     
 6. Click **Change**.
     
@@ -75,15 +75,15 @@ Use this procedure to uninstall SharePoint Server 2016.
 
 #### Concepts
 
-[Add a server to a SharePoint Server 2016 or SharePoint Server 2019 farm](../install/add-a-server-to-a-sharepoint-server-2016-farm.md)
+[Add a server to a SharePoint Server 2016 or SharePoint Server 2019 Public Preview farm](../install/add-a-server-to-a-sharepoint-server-2016-farm.md)
   
-[Remove a server from a farm in SharePoint Server 2016 or SharePoint Server 2019](remove-a-server-from-a-farm-in-sharepoint-server-2016.md)
+[Remove a server from a farm in SharePoint Server 2016 or SharePoint Server 2019 Public Preview](remove-a-server-from-a-farm-in-sharepoint-server-2016.md)
   
 [Hardware and software requirements for SharePoint Server 2016](../install/hardware-and-software-requirements.md)
 
-[Hardware and software requirements for SharePoint Server 2019](../install/hardware-and-software-requirements-2019.md)
+[Hardware and software requirements for SharePoint Server 2019 Public Preview](../install/hardware-and-software-requirements-2019.md)
   
-[Install SharePoint Servers 2016 or 2019 on one server](../install/install-sharepoint-server-2016-on-one-server.md)
+[Install SharePoint Servers 2016 or 2019 Public Preview on one server](../install/install-sharepoint-server-2016-on-one-server.md)
   
-[Install SharePoint Servers 2016 or 2019 across multiple servers](../install/install-sharepoint-server-2016-across-multiple-servers.md)
+[Install SharePoint Servers 2016 or 2019 Public Preview across multiple servers](../install/install-sharepoint-server-2016-across-multiple-servers.md)
 
