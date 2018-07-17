@@ -81,20 +81,20 @@ For detailed instructions about how to install the prerequisites, see [Prepare t
 
 After you install the prerequisites, follow these steps to install SharePoint Servers 2016 or 2019 on the new server. For detailed instructions about how to install SharePoint Server, see [Install SharePoint Server on one server](install-sharepoint-server-2016-on-one-server.md).
   
- **To install SharePoint Server 2016**
+ **To install SharePoint Server**
   
 1. Verify that the user account that is performing this procedure is the Setup user account. For information about the Setup user account, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
     
-2. From the product media or a file share that contains the SharePoint Server 2016 Products installation files, run Setup.exe.
+2. From the product media or a file share that contains the SharePoint Server Products installation files, run Setup.exe.
     
 3. On the **Enter Your Product Key** page, enter your product key, and then click **Continue**.
     
 4. Review and accept the Microsoft License Terms.
     
-5. Accept the default file location where SharePoint Server 2016 will be installed or change the installation path in order to suit your requirements.
+5. Accept the default file location where SharePoint Server will be installed or change the installation path in order to suit your requirements.
     
 > [!TIP]
-> As a best practice, we recommend that you install SharePoint Server 2016 on a drive that does not contain the operating system. 
+> As a best practice, we recommend that you install SharePoint Server on a drive that does not contain the operating system. 
   
 6. Click **Install Now**.
     
@@ -133,21 +133,21 @@ You add the new server to the farm by using one of the following procedures:
 9. On the **Specify Server Role** page, choose the appropriate role, and then click **Next**.
     
 > [!NOTE]
-> The concept of server roles has changed for SharePoint Server 2016. You can't add a server to a farm if the farm currently contains a server assigned to the "Single Server Farm" role. > For additional information about MinRole, see [Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019](overview-of-minrole-server-roles-in-sharepoint-server-2016.md). 
+> The concept of server roles has changed staring with SharePoint Server 2016. You can't add a server to a farm if the farm currently contains a server assigned to the "Single Server Farm" role. > For additional information about MinRole, see [Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019](overview-of-minrole-server-roles-in-sharepoint-server-2016.md). 
   
 10. On the **Completing the SharePoint Products Configuration Wizard** page, click **Next**.
     
 11. On the server that hosts Central Administration, click **Manage servers in this farm** to verify that the new server is part of the farm. 
     
 > [!NOTE]
-> You can also verify a successful server addition or troubleshoot a failed addition by examining the log files. These files are located on the drive on which SharePoint Server 2016 is installed, in the %COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\LOGS folder. 
+> You can also verify a successful server addition or troubleshoot a failed addition by examining the log files. These files are located on the drive on which SharePoint Server is installed, in the %COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\LOGS folder. 
   
 12. On the **Servers in Farm** page, click the name of the new server. Use the list of available services on the **Services on Server** page to start the services that you want to run on the new server. 
     
 > [!NOTE]
 > This step should only apply if the Custom role is used. 
   
- <a name="psconfig"></a>**To add a new SharePoint Server 2016 server to the farm by using the PSConfig.exe command-line tool**
+ <a name="psconfig"></a>**To add a new SharePoint Server server to the farm by using the PSConfig.exe command-line tool**
 
 1. To create a farm by using the PSConfig.exe command-line tool, use the following syntax:
     
@@ -158,10 +158,10 @@ You add the new server to the farm by using one of the following procedures:
 Where \<ServerRole\> can be any of the following values: WebFrontEnd, Application, DistributedCache, Search, or Custom.
     
 > [!NOTE]
-> The SingleServerFarm cannot be used unless the SharePoint farm as zero servers in it. 
+> The SingleServerFarm cannot be used unless the SharePoint farm has zero servers in it. 
     
 > [!NOTE]
-> If Feature Pack 2 has been applied, additional \<ServerRole>\ options are available: ApplicationWithSearch, WebFrontEndWithDistributedCache.
+> If SharePoint Server 2016 Feature Pack 2 has been applied, additional \<ServerRole> options are available: ApplicationWithSearch, WebFrontEndWithDistributedCache. These options are also available in SharePoint Server 2019 Public Preview.
   
 > [!NOTE]
 > The  `PSConfig.exe -cmd Services -Provision` syntax is deprecated, but not removed yet. Do not use the **Provision** parameter when you create or join a farm. Using this parameter will lead to failures. 
@@ -203,10 +203,10 @@ Where \<ServerRole\> can be any of the following values: WebFrontEnd, Applicatio
     Where \<ServerRole\> can be any of the following values: WebFrontEnd, Application, DistributedCache, Search, or Custom. 
     
 > [!NOTE]
-> If Feature Pack 2 has been applied, additional \<ServerRole>\ options are available: ApplicationWithSearch, WebFrontEndWithDistributedCache.
+> If SharePoint Server 2016 Feature Pack 2 has been applied, additional \<ServerRole> options are available: ApplicationWithSearch, WebFrontEndWithDistributedCache. These options are also available in SharePoint Server 2019 Public Preview.
     
 > [!NOTE]
-> The concept of server roles has changed for SharePoint Server 2016. You can't add a server to a farm if the farm currently contains a server assigned to the "Single Server Farm" role. > For additional information about MinRole, see [Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019](overview-of-minrole-server-roles-in-sharepoint-server-2016.md). 
+> The concept of server roles has changed starting with SharePoint Server 2016. You can't add a server to a farm if the farm currently contains a server assigned to the "Single Server Farm" role. > For additional information about MinRole, see [Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019](overview-of-minrole-server-roles-in-sharepoint-server-2016.md). 
   
 4. At the PowerShell command prompt, type the following command to install the Help File Collections:
     
@@ -214,7 +214,7 @@ Where \<ServerRole\> can be any of the following values: WebFrontEnd, Applicatio
   Install-SPHelpCollection -All
   ```
 
-5. At the PowerShell command prompt, type the following command to install the Security Resource for SharePoint Server 2016:
+5. At the PowerShell command prompt, type the following command to install the Security Resource for SharePoint Server:
     
   ```
   Initialize-SPResourceSecurity
@@ -247,7 +247,13 @@ Where \<ServerRole\> can be any of the following values: WebFrontEnd, Applicatio
   Install-SPApplicationContent
   ```
 
-10. At the PowerShell command prompt, type the following command to get a list of servers in the farm. 
+10. At the PowerShell command prompt, type the following command to start the Timer service:
+    
+  ```
+  Start-Service SPTimerV4
+  ```
+
+11. At the PowerShell command prompt, type the following command to get a list of servers in the farm. 
     
   ```
   Get-SPServer
