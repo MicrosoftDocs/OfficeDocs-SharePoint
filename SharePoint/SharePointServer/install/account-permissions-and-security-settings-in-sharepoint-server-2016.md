@@ -260,13 +260,13 @@ WSS_ADMIN_WPG has read and write access to local resources. The application pool
 |:-----|:-----|:-----|:-----|
 |HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\VSS  <br/> |Full control  <br/> |Not applicable  <br/> |Not applicable  <br/> |
 |HKEY_LOCAL_MACHINE\Software\Microsoft\Office\16.0\Registration\{90150000-110D-0000-1000-0000000FF1CE}  <br/> |Read, write  <br/> |Not applicable  <br/> |Not applicable  <br/> |
-|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office Server  <br/> |Read  <br/> |No  <br/> |This key is the root of the SharePoint Server 2016 registry settings tree. If this key is altered, SharePoint Server 2016 functionality will fail.  <br/> |
+|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office Server  <br/> |Read  <br/> |No  <br/> |This key is the root of the SharePoint Server registry settings tree. If this key is altered, SharePoint Server functionality will fail.  <br/> |
 |HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office Server\16.0  <br/> |Full control  <br/> |No  <br/> |This key is the root of the SharePoint Server 2016 registry settings.  <br/> |
 |HKEY_LOCAL_MACHINE\Software\Microsoft\Office Server\16.0\LoadBalancerSettings  <br/> |Read, write  <br/> |No  <br/> |This key contains settings for the document conversion service. Altering this key will break document conversion functionality.  <br/> |
 |HKEY_LOCAL_MACHINE\Software\Microsoft\Office Server\16.0\LauncherSettings  <br/> |Read, write  <br/> |No  <br/> |This key contains settings for the document conversion service. Altering this key will break document conversion functionality.  <br/> |
 |HKEY_LOCAL_MACHINE\Software\Microsoft\Office Server\16.0\Search  <br/> |Full control  <br/> |Not applicable  <br/> |Not applicable  <br/> |
 |HKEY_LOCAL_MACHINE\Software\Microsoft\Shared Tools\Web Server Extensions\16.0\Search  <br/> |Full control  <br/> |Not applicable  <br/> |Not applicable  <br/> |
-|HKEY_LOCAL_MACHINE\Software\Microsoft\Shared Tools\Web Server Extensions\16.0\Secure  <br/> |Full control  <br/> |No  <br/> |This key contains the connection string and the ID of the configuration database to which the machine is joined. If this key is altered, the SharePoint Server 2016 installation on the machine will not function.  <br/> |
+|HKEY_LOCAL_MACHINE\Software\Microsoft\Shared Tools\Web Server Extensions\16.0\Secure  <br/> |Full control  <br/> |No  <br/> |This key contains the connection string and the ID of the configuration database to which the machine is joined. If this key is altered, the SharePoint Server installation on the machine will not function.  <br/> |
 |HKEY_LOCAL_MACHINE\Software\Microsoft\Shared Tools\Web Server Extensions\16.0\WSS  <br/> |Full control  <br/> |Yes  <br/> |This key contains settings used during setup. If this key is altered, diagnostic logging might fail, and setup or post-setup configuration might fail.  <br/> |
    
 The following table shows the WSS_ADMIN_WPG file system permissions.
@@ -274,19 +274,19 @@ The following table shows the WSS_ADMIN_WPG file system permissions.
 |**File system path**|**Permissions**|**Inherit**|**Description**|
 |:-----|:-----|:-----|:-----|
 |%AllUsersProfile%\ Microsoft\SharePoint  <br/> |Full control  <br/> |No  <br/> |This directory contains the file-system-backed cache of the farm configuration. Processes might fail to start, and the administrative actions might fail if this directory is altered or deleted.  <br/> |
-|C:\Inetpub\wwwroot\wss  <br/> |Full control  <br/> |No  <br/> |This directory (or the corresponding directory under the Inetpub root on the server) is used as the default location for IIS Web sites. SharePoint sites will be unavailable, and administrative actions might fail if this directory is altered or deleted, unless custom IIS Web site paths are provided for all IIS Web sites extended with SharePoint Server 2016.  <br/> |
-|%ProgramFiles%\Microsoft Office Servers\16.0  <br/> |Full control  <br/> |No  <br/> |This directory is the installation location for SharePoint Server 2016 binaries and data. The directory can be changed during installation. All SharePoint Server 2016 functionality will fail if this directory is removed, altered, or removed after installation. Membership in the WSS_ADMIN_WPG Windows security group is required for some SharePoint Server 2016 services to be able to store data on disk.  <br/> |
-|%ProgramFiles%\Microsoft Office Servers\16.0\WebServices  <br/> |Read, write  <br/> |No  <br/> |This directory is the root directory where back-end Web services are hosted, for example, Excel and Search. The SharePoint Server 2016 features that depend on these services will fail if this directory is removed or altered.  <br/> |
+|C:\Inetpub\wwwroot\wss  <br/> |Full control  <br/> |No  <br/> |This directory (or the corresponding directory under the Inetpub root on the server) is used as the default location for IIS Web sites. SharePoint sites will be unavailable, and administrative actions might fail if this directory is altered or deleted, unless custom IIS Web site paths are provided for all IIS Web sites extended with SharePoint Server.  <br/> |
+|%ProgramFiles%\Microsoft Office Servers\16.0  <br/> |Full control  <br/> |No  <br/> |This directory is the installation location for SharePoint Server 2016 binaries and data. The directory can be changed during installation. All SharePoint Server functionality will fail if this directory is removed, altered, or removed after installation. Membership in the WSS_ADMIN_WPG Windows security group is required for some SharePoint Server services to be able to store data on disk.  <br/> |
+|%ProgramFiles%\Microsoft Office Servers\16.0\WebServices  <br/> |Read, write  <br/> |No  <br/> |This directory is the root directory where back-end Web services are hosted, for example, Excel and Search. The SharePoint Server features that depend on these services will fail if this directory is removed or altered.  <br/> |
 |%ProgramFiles%\Microsoft Office Servers\16.0\Data  <br/> |Full control  <br/> |No  <br/> |This directory is the root location where local data is stored, including search indexes. Search functionality will fail if this directory is removed or altered. WSS_ADMIN_WPG Windows security group permissions are required to enable search to save and secure data in this folder.  <br/> |
 |%ProgramFiles%\Microsoft Office Servers\16.0\Logs  <br/> |Full control  <br/> |Yes  <br/> |This directory is the location where the run-time diagnostic logging is generated. Logging functionality will not function properly if this directory is removed or altered.  <br/> |
 |%ProgramFiles%\Microsoft Office Servers\16.0\Data\Office Server  <br/> |Full control  <br/> |Yes  <br/> |Same as the parent folder.  <br/> |
 |%windir%\System32\drivers\etc\HOSTS  <br/> |Read, write  <br/> |Not applicable  <br/> |Not applicable  <br/> |
 |%windir%\Tasks  <br/> |Full control  <br/> |Not applicable  <br/> |Not applicable  <br/> |
-|%COMMONPROGRAMFILES%Microsoft Shared\Web Server Extensions\16  <br/> |Modify  <br/> |Yes  <br/> |This directory is the installation directory for core SharePoint Server 2016 files. If the access control list (ACL) is modified, feature activation, solution deployment, and other features will not function correctly.  <br/> |
+|%COMMONPROGRAMFILES%Microsoft Shared\Web Server Extensions\16  <br/> |Modify  <br/> |Yes  <br/> |This directory is the installation directory for core SharePoint Server files. If the access control list (ACL) is modified, feature activation, solution deployment, and other features will not function correctly.  <br/> |
 |%COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\ADMISAPI  <br/> |Full control  <br/> |Yes  <br/> |This directory contains the SOAP services for Central Administration. If this directory is altered, remote site creation and other methods exposed in the service will not function correctly.  <br/> |
-|%COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\CONFIG  <br/> |Full control  <br/> |Yes  <br/> |This directory contains files used to extend IIS Web sites with SharePoint Server 2016. If this directory or its contents are altered, web application provisioning will not function correctly.  <br/> |
+|%COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\CONFIG  <br/> |Full control  <br/> |Yes  <br/> |This directory contains files used to extend IIS Web sites with SharePoint Server. If this directory or its contents are altered, web application provisioning will not function correctly.  <br/> |
 |%COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\LOGS  <br/> |Full control  <br/> |No  <br/> |This directory contains setup and runtime tracing logs. If the directory is altered, diagnostic logging will not function correctly.  <br/> |
-|%windir%\temp  <br/> |Full control  <br/> |Yes  <br/> |This directory is used by platform components on which SharePoint Server 2016 depends. If the access control list is modified, Web Part rendering and other deserialization operations might fail.  <br/> |
+|%windir%\temp  <br/> |Full control  <br/> |Yes  <br/> |This directory is used by platform components on which SharePoint Server depends. If the access control list is modified, Web Part rendering and other deserialization operations might fail.  <br/> |
 |%windir%\System32\logfiles\SharePoint  <br/> |Full control  <br/> |No  <br/> |This directory is used by SharePoint Server usage logging. If this directory is modified, usage logging will not function correctly.  <br/> This registry key applies only to SharePoint Server.  <br/> |
 |%systemdrive\program files\Microsoft Office Servers\16 folder on Index servers  <br/> |Full control  <br/> |Not applicable  <br/> |This permission is granted for a %systemdrive\program files\Microsoft Office Servers\16 folder on Index servers.  <br/> |
    
@@ -296,8 +296,8 @@ WSS_WPG has read access to local resources. All application pool and services ac
   
 |**Key name**|**Permissions**|**Inherit**|**Description**|
 |:-----|:-----|:-----|:-----|
-|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office Server\16.0  <br/> |Read  <br/> |No  <br/> |This key is the root of the SharePoint Server 2016 registry settings.  <br/> |
-|HKEY_LOCAL_MACHINE\Software\Microsoft\Office Server\16.0\Diagnostics  <br/> |Read, write  <br/> |No  <br/> |This key contains settings for the SharePoint Server 2016 diagnostic logging. Altering this key will break the logging functionality.  <br/> |
+|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office Server\16.0  <br/> |Read  <br/> |No  <br/> |This key is the root of the SharePoint Server registry settings.  <br/> |
+|HKEY_LOCAL_MACHINE\Software\Microsoft\Office Server\16.0\Diagnostics  <br/> |Read, write  <br/> |No  <br/> |This key contains settings for the SharePoint Server diagnostic logging. Altering this key will break the logging functionality.  <br/> |
 |HKEY_LOCAL_MACHINE\Software\Microsoft\Office Server\16.0\LoadBalancerSettings  <br/> |Read, write  <br/> |No  <br/> |This key contains settings for the document conversion service. Altering this key will break document conversion functionality.  <br/> |
 |HKEY_LOCAL_MACHINE\Software\Microsoft\Office Server\16.0\LauncherSettings  <br/> |Read, write  <br/> |No  <br/> |This key contains settings for the document conversion service. Altering this key will break document conversion functionality.  <br/> |
 |HKEY_LOCAL_MACHINE\Software\Microsoft\Shared Tools\Web Server Extensions\16.0\Secure  <br/> |Read  <br/> |No  <br/> |This key contains the connection string and the ID of the configuration database to which the machine is joined. If this key is altered, the SharePoint Server 2016 installation on the machine will not function.  <br/> |
@@ -308,14 +308,14 @@ The following table shows the WSS_WPG file system permissions.
 |**File system path**|**Permissions**|**Inherit**|**Description**|
 |:-----|:-----|:-----|:-----|
 |%AllUsersProfile%\ Microsoft\SharePoint  <br/> |Read  <br/> |No  <br/> |This directory contains the file-system-backed cache of the farm configuration. Processes might fail to start and the administrative actions might fail if this directory is altered or deleted.  <br/> |
-|C:\Inetpub\wwwroot\wss  <br/> |Read, execute  <br/> |No  <br/> |This directory (or the corresponding directory under the Inetpub root on the server) is used as the default location for IIS Web sites. SharePoint sites will be unavailable and administrative actions might fail if this directory is altered or deleted, unless custom IIS Web site paths are provided for all IIS Web sites extended with SharePoint Server 2016.  <br/> |
-|%ProgramFiles%\Microsoft Office Servers\16.0  <br/> |Read, execute  <br/> |No  <br/> |This directory is the installation location for the SharePoint Server 2016 binaries and data. It can be changed during installation. All SharePoint Server 2016 functionality will fail if this directory is removed, altered, or moved after installation. WSS_WPG read and execute permissions are required to enable IIS sites to load SharePoint Server 2016 binaries.  <br/> |
-|%ProgramFiles%\Microsoft Office Servers\16.0\WebServices  <br/> |Read  <br/> |No  <br/> |This directory is the root directory where back-end Web services are hosted, for example, Excel and Search. The SharePoint Server 2016 features that depend on these services will fail if this directory is removed or altered.  <br/> |
+|C:\Inetpub\wwwroot\wss  <br/> |Read, execute  <br/> |No  <br/> |This directory (or the corresponding directory under the Inetpub root on the server) is used as the default location for IIS Web sites. SharePoint sites will be unavailable and administrative actions might fail if this directory is altered or deleted, unless custom IIS Web site paths are provided for all IIS Web sites extended with SharePoint Server.  <br/> |
+|%ProgramFiles%\Microsoft Office Servers\16.0  <br/> |Read, execute  <br/> |No  <br/> |This directory is the installation location for the SharePoint Server  binaries and data. It can be changed during installation. All SharePoint Server functionality will fail if this directory is removed, altered, or moved after installation. WSS_WPG read and execute permissions are required to enable IIS sites to load SharePoint Server  binaries.  <br/> |
+|%ProgramFiles%\Microsoft Office Servers\16.0\WebServices  <br/> |Read  <br/> |No  <br/> |This directory is the root directory where back-end Web services are hosted, for example, Excel and Search. The SharePoint Server features that depend on these services will fail if this directory is removed or altered.  <br/> |
 |%ProgramFiles%\Microsoft Office Servers\16.0\Logs  <br/> |Read, write  <br/> |Yes  <br/> |This directory is the location where the runtime diagnostic logging is generated. Logging functionality will not function properly if this directory is removed or altered.  <br/> |
 |%COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\ADMISAPI  <br/> |Read  <br/> |Yes  <br/> |This directory contains the SOAP services for Central Administration. If this directory is altered, remote site creation and other methods exposed in the service will not function correctly.  <br/> |
-|%COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\CONFIG  <br/> |Read  <br/> |Yes  <br/> |This directory contains files used to extend IIS Web sites with SharePoint Server 2016. If this directory or its contents are altered, web application provisioning will not function correctly.  <br/> |
+|%COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\CONFIG  <br/> |Read  <br/> |Yes  <br/> |This directory contains files used to extend IIS Web sites with SharePoint Server . If this directory or its contents are altered, web application provisioning will not function correctly.  <br/> |
 |%COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\LOGS  <br/> |Modify  <br/> |No  <br/> |This directory contains setup and runtime tracing logs. If the directory is altered, diagnostic logging will not function correctly.  <br/> |
-|%windir%\temp  <br/> |Read  <br/> |Yes  <br/> |This directory is used by platform components on which SharePoint Server 2016 depends. If the access control list is modified, Web Part rendering, and other deserialization operations might fail.  <br/> |
+|%windir%\temp  <br/> |Read  <br/> |Yes  <br/> |This directory is used by platform components on which SharePoint Server depends. If the access control list is modified, Web Part rendering, and other deserialization operations might fail.  <br/> |
 |%windir%\System32\logfiles\SharePoint  <br/> |Read  <br/> |No  <br/> |This directory is used by SharePoint Server usage logging. If this directory is modified, usage logging will not function correctly.  <br/> The registry key applies only to SharePoint Server.  <br/> |
 |%systemdrive\program files\Microsoft Office Servers\16  <br/> |Read, execute  <br/> |Not applicable  <br/> |The permission is granted for %systemdrive\program files\Microsoft Office Servers\16 folder on Index servers.  <br/> |
    
@@ -331,7 +331,7 @@ The following table shows the local service file system permission:
   
 |**File system path**|**Permissions**|**Inherit**|**Description**|
 |:-----|:-----|:-----|:-----|
-|%ProgramFiles%\Microsoft Office Servers\16.0\Bin  <br/> |Read, execute  <br/> |No  <br/> |This directory is the installed location of the SharePoint Server 2016 binaries. All the SharePoint Server 2016 functionality will fail if this directory is removed or altered.  <br/> |
+|%ProgramFiles%\Microsoft Office Servers\16.0\Bin  <br/> |Read, execute  <br/> |No  <br/> |This directory is the installed location of the SharePoint Server binaries. All the SharePoint Server functionality will fail if this directory is removed or altered.  <br/> |
    
 ### Local system
 
@@ -340,7 +340,7 @@ The following table shows the local system registry entry permissions:
 |**Key name**|**Permissions**|**Inherit**|**Description**|
 |:-----|:-----|:-----|:-----|
 |HKEY_LOCAL_MACHINE\Software\Microsoft\Office Server\16.0\LauncherSettings  <br/> |Read  <br/> |No  <br/> |This key contains settings for the document conversion service. Altering this key will break document conversion functionality.  <br/> This registry key applies only to SharePoint Server.  <br/> |
-|HKEY_LOCAL_MACHINE\Software\Microsoft\Shared Tools\Web Server Extensions\16.0\Secure  <br/> |Full control  <br/> |No  <br/> |This key contains the connection string and the ID of the configuration database to which the machine is joined. If this key is altered, the SharePoint Server 2016 installation on the machine will not function.  <br/> |
+|HKEY_LOCAL_MACHINE\Software\Microsoft\Shared Tools\Web Server Extensions\16.0\Secure  <br/> |Full control  <br/> |No  <br/> |This key contains the connection string and the ID of the configuration database to which the machine is joined. If this key is altered, the SharePoint Server  installation on the machine will not function.  <br/> |
 |HKEY_LOCAL_MACHINE\Software\Microsoft\Shared Tools\Web Server Extensions\16.0\Secure\FarmAdmin  <br/> |Full control  <br/> |No  <br/> |This key contains the encryption key that is used to store secrets in the configuration database. If this key is altered, service provisioning and other features will fail.  <br/> |
 |HKEY_LOCAL_MACHINE\Software\Microsoft\Shared Tools\Web Server Extensions\16.0\WSS  <br/> |Full control  <br/> |Yes  <br/> |This key contains settings that are used during setup. If this key is altered, diagnostic logging might fail and setup or post-setup configuration might fail.  <br/> |
    
@@ -349,11 +349,11 @@ The following table shows the local file system permissions:
 |**File system path**|**Permissions**|**Inherit**|**Description**|
 |:-----|:-----|:-----|:-----|
 |%AllUsersProfile%\ Microsoft\SharePoint  <br/> |Full control  <br/> |No  <br/> |This directory contains the file-system-backed cache of the farm configuration. Processes might fail to start and administrative actions might fail if this directory is altered or deleted.  <br/> |
-|C:\Inetpub\wwwroot\wss  <br/> |Full control  <br/> |No  <br/> |This directory (or the corresponding directory under the Inetpub root on the server) is used as the default location for IIS Web sites. SharePoint sites will be unavailable and administrative actions might fail if this directory is altered or deleted, unless custom IIS Web site paths are provided for all IIS Web sites extended with SharePoint Server 2016.  <br/> |
+|C:\Inetpub\wwwroot\wss  <br/> |Full control  <br/> |No  <br/> |This directory (or the corresponding directory under the Inetpub root on the server) is used as the default location for IIS Web sites. SharePoint sites will be unavailable and administrative actions might fail if this directory is altered or deleted, unless custom IIS Web site paths are provided for all IIS Web sites extended with SharePoint Server.  <br/> |
 |%COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\ADMISAPI  <br/> |Full control  <br/> |Yes  <br/> |This directory contains the SOAP services for Central Administration. If this directory is altered, remote site creation and other methods exposed in the service will not function correctly.  <br/> |
 |%COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\CONFIG  <br/> |Full control  <br/> |Yes  <br/> |If this directory or its contents are altered, Web Application provisioning will not function correctly.  <br/> |
 |%COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\LOGS  <br/> |Full control  <br/> |No  <br/> |This directory contains setup and run-time tracing logs. If the directory is altered, diagnostic logging will not function correctly.  <br/> |
-|%windir%\temp  <br/> |Full control  <br/> |Yes  <br/> |This directory is used by platform components on which SharePoint Server 2016 depends. If the access control list is modified, Web Part rendering, and other deserialization operations might fail.  <br/> |
+|%windir%\temp  <br/> |Full control  <br/> |Yes  <br/> |This directory is used by platform components on which SharePoint Server depends. If the access control list is modified, Web Part rendering, and other deserialization operations might fail.  <br/> |
 |%windir%\System32\logfiles\SharePoint  <br/> |Full control  <br/> |No  <br/> |This directory is used by SharePoint Server for usage logging. If this directory is modified, usage logging will not function correctly.  <br/> This registry key applies only to SharePoint Server.  <br/> |
    
 ### Network service
@@ -370,7 +370,7 @@ The following table shows the administrators registry entry permissions:
   
 |**Key name**|**Permissions**|**Inherit**|**Description**|
 |:-----|:-----|:-----|:-----|
-|HKEY_LOCAL_MACHINE\Software\Microsoft\Shared Tools\Web Server Extensions\16.0\Secure  <br/> |Full control  <br/> |No  <br/> |This key contains the connection string and the ID of the configuration database to which the machine is joined. If this key is altered, the SharePoint Server 2016 installation on the machine will not function.  <br/> |
+|HKEY_LOCAL_MACHINE\Software\Microsoft\Shared Tools\Web Server Extensions\16.0\Secure  <br/> |Full control  <br/> |No  <br/> |This key contains the connection string and the ID of the configuration database to which the machine is joined. If this key is altered, the SharePoint Server installation on the machine will not function.  <br/> |
 |HKEY_LOCAL_MACHINE\Software\Microsoft\Shared Tools\Web Server Extensions\16.0\Secure\FarmAdmin  <br/> |Full control  <br/> |No  <br/> |This key contains the encryption key that is used to store secrets in the configuration database. If this key is altered, service provisioning and other features will fail.  <br/> |
 |HKEY_LOCAL_MACHINE\Software\Microsoft\Shared Tools\Web Server Extensions\16.0\WSS  <br/> |Full control  <br/> |Yes  <br/> |This key contains settings that are used during setup. If this key is altered, diagnostic logging might fail and setup or post-setup configuration might fail.  <br/> |
    
@@ -379,11 +379,11 @@ The following table shows the administrators file system permissions:
 |**File system path**|**Permissions**|**Inherit**|**Description**|
 |:-----|:-----|:-----|:-----|
 |%AllUsersProfile%\ Microsoft\SharePoint  <br/> |Full control  <br/> |No  <br/> |This directory contains the file-system-backed cache of the farm configuration. Processes might fail to start and administrative actions might fail if this directory is altered or deleted.  <br/> |
-|C:\Inetpub\wwwroot\wss  <br/> |Full Control  <br/> |No  <br/> |This directory (or the corresponding directory under the Inetpub root on the server) is used as the default location for IIS Web sites. SharePoint sites will be unavailable and administrative actions might fail if this directory is altered or deleted, unless custom IIS web site paths are provided for all IIS web sites that are extended with SharePoint Server 2016.  <br/> |
+|C:\Inetpub\wwwroot\wss  <br/> |Full Control  <br/> |No  <br/> |This directory (or the corresponding directory under the Inetpub root on the server) is used as the default location for IIS Web sites. SharePoint sites will be unavailable and administrative actions might fail if this directory is altered or deleted, unless custom IIS web site paths are provided for all IIS web sites that are extended with SharePoint Server .  <br/> |
 |%COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\ADMISAPI  <br/> |Full control  <br/> |Yes  <br/> |This directory contains the SOAP services for Central Administration. If this directory is altered, remote site creation and other methods exposed in the service will not function correctly.  <br/> |
 |%COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\CONFIG  <br/> |Full control  <br/> |Yes  <br/> |If this directory or its contents are altered, web application provisioning will not function correctly.  <br/> |
 |%COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\LOGS  <br/> |Full control  <br/> |No  <br/> |This directory contains setup and run-time tracing logs. If the directory is altered, diagnostic logging will not function correctly.  <br/> |
-|%windir%\temp  <br/> |Full control  <br/> |Yes  <br/> |This directory is used by platform components on which SharePoint Server 2016 depends. If the ACL is modified, Web Part rendering, and other deserialization operations might fail.  <br/> |
+|%windir%\temp  <br/> |Full control  <br/> |Yes  <br/> |This directory is used by platform components on which SharePoint Server depends. If the ACL is modified, Web Part rendering, and other deserialization operations might fail.  <br/> |
 |%windir%\System32\logfiles\SharePoint  <br/> |Full control  <br/> |No  <br/> |This directory is used by SharePoint Server for usage logging. If this directory is modified, usage logging will not function correctly.  <br/> This registry key applies only to SharePoint Server.  <br/> |
    
 ### WSS_RESTRICTED_WPG
@@ -400,18 +400,18 @@ The following table shows the users group file system permissions:
   
 |**File system path**|**Permissions**|**Inherit**|**Description**|
 |:-----|:-----|:-----|:-----|
-|%ProgramFiles%\Microsoft Office Servers\16.0  <br/> |Read, execute  <br/> |No  <br/> |This directory is the installation location for SharePoint Server 2016 binaries and data. It can be changed during installation. All SharePoint Server 2016 functionality will fail if this directory is removed, altered, or moved after installation.  <br/> |
+|%ProgramFiles%\Microsoft Office Servers\16.0  <br/> |Read, execute  <br/> |No  <br/> |This directory is the installation location for SharePoint Server binaries and data. It can be changed during installation. All SharePoint Server functionality will fail if this directory is removed, altered, or moved after installation.  <br/> |
 |%ProgramFiles%\Microsoft Office Servers\16.0\WebServices\Root  <br/> |Read, execute  <br/> |No  <br/> |This directory is the root directory where back-end root Web services are hosted. The only service initially installed on this directory is a search global administration service. Some search administration functionality that uses the server-specific Central Administration Settings page will not work if this directory is removed or altered.  <br/> |
 |%ProgramFiles%\Microsoft Office Servers\16.0\Logs  <br/> |Read, write  <br/> |Yes  <br/> |This directory is the location where the run-time diagnostic logging is generated. Logging will not function properly if this directory is removed or altered.  <br/> |
-|%ProgramFiles%\Microsoft Office Servers\16.0\Bin  <br/> |Read, execute  <br/> |No  <br/> |This directory is the installed location of SharePoint Server 2016 binaries. All of the SharePoint Server 2016 functionality will fail if this directory is removed or altered.  <br/> |
+|%ProgramFiles%\Microsoft Office Servers\16.0\Bin  <br/> |Read, execute  <br/> |No  <br/> |This directory is the installed location of SharePoint Server binaries. All of the SharePoint Server functionality will fail if this directory is removed or altered.  <br/> |
    
-### All SharePoint Server 2016 service accounts
+### All SharePoint Server service accounts
 
-The following table shows the all SharePoint Server 2016 service accounts file system permission:
+The following table shows the all SharePoint Server service accounts file system permission:
   
 |**File system path**|**Permissions**|**Inherit**|**Description**|
 |:-----|:-----|:-----|:-----|
-|%COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\LOGS  <br/> |Modify  <br/> |No  <br/> |This directory contains setup and run-time tracing logs. If this directory is altered, diagnostic logging will not function correctly. All SharePoint Server 2016 service accounts must have write permission to this directory.  <br/> |
+|%COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\LOGS  <br/> |Modify  <br/> |No  <br/> |This directory contains setup and run-time tracing logs. If this directory is altered, diagnostic logging will not function correctly. All SharePoint Server service accounts must have write permission to this directory.  <br/> |
    
 ## See also
 <a name="Section5"> </a>
