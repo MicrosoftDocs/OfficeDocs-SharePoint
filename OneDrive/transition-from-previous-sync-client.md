@@ -25,7 +25,7 @@ This article is for Office 365 admins whose users are running the previous OneDr
 If you're not an IT admin, see [Sync files with the new OneDrive sync client in Windows](https://support.office.com/article/615391c4-2bd3-4aae-a42a-858262e42a49) to learn how to begin syncing files using the new OneDrive sync client. 
   
 > [!IMPORTANT]
-> The new OneDrive sync client for Windows now supports syncing IRM-protected SharePoint document libraries and OneDrive locations. To create a seamless IRM sync experience for your end users, deploy the latest [Rights Management Service (RMS) client](https://aka.ms/odirm) to your users' computers. > If your organization never used the previous OneDrive for Business sync client, or had fewer than 250 licensed Office 365 users in June 2016, your users must use the new OneDrive sync client to sync OneDrive for Business and SharePoint Online files. > The new OneDrive sync client supports Windows 10, Windows 8.1, Windows 8, and Windows 7. It doesn't yet support syncing on-premises instances of OneDrive for Business or SharePoint Server (when your organization doesn't subscribe to an Office 365 business plan). 
+> The new OneDrive sync client for Windows now supports syncing IRM-protected SharePoint document libraries and OneDrive locations. To create a seamless IRM sync experience for your end users, deploy the latest [Rights Management Service (RMS) client](https://aka.ms/odirm) to your users' computers.<br>If your organization never used the previous OneDrive for Business sync client, or had fewer than 250 licensed Office 365 users in June 2016, your users must use the new OneDrive sync client to sync OneDrive for Business and SharePoint Online files.<br>The new OneDrive sync client supports Windows 10, Windows 8.1, Windows 8, and Windows 7. It doesn't yet support syncing on-premises instances of OneDrive for Business or SharePoint Server (when your organization doesn't subscribe to an Office 365 business plan). 
   
  **If you're ready now, [download the latest version of the new OneDrive sync client that's fully released to production](https://go.microsoft.com/fwlink/p/?linkid=844652).** To learn about other versions that are rolling out to different rings, see [New OneDrive sync client release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0).
   
@@ -84,7 +84,7 @@ To automatically transition file syncing without the need for user interaction, 
 ```
 
 > [!TIP]
-> Make sure to run the command in a user context, rather than as admin, or the user will see a "OneDrive.exe cannot be run with Admin privileges" error. > To affect all users on computer, configure the command to run on every user account. This will ensure that it's executed for any user who signs in. 
+> Make sure to run the command in a user context, rather than as admin, or the user will see a "OneDrive.exe cannot be run with Admin privileges" error.<br>To affect all users on computer, configure the command to run on every user account. This will ensure that it's executed for any user who signs in. 
   
 ## Block the previous sync client from syncing
 
