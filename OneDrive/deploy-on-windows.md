@@ -89,7 +89,8 @@ Execute <pathToExecutable>\OneDriveSetup.exe /silent
 (where pathToExecutable is a location on the local computer or an accessible network share).
   
 > [!NOTE]
-> This command must be run at user logon and using Administrator permissions. It must be run for each user on a machine. For an example of how to deploy an .exe on every user account, see [How to deploy the OneDrive sync client with SCCM](https://go.microsoft.com/fwlink/?linkid=839723). > If you run the command with no command line parameter, users will see the installation status. After installation, OneDriveSetup.exe will automatically execute OneDrive.exe and display OneDrive Setup to users. If you run the command with the /silent parameter, OneDrive.exe will be installed transparently and OneDrive Setup won't appear. You'll need to run OneDrive.exe with an additional command. If you want to control the launch of OneDrive across your organization, we recommend using the /silent parameter. 
+> This command must be run at user logon and using Administrator permissions. It must be run for each user on a machine. For an example of how to deploy an .exe on every user account, see [How to deploy the OneDrive sync client with SCCM](https://go.microsoft.com/fwlink/?linkid=839723). 
+> If you run the command with no command line parameter, users will see the installation status. After installation, OneDriveSetup.exe will automatically execute OneDrive.exe and display OneDrive Setup to users. If you run the command with the /silent parameter, OneDrive.exe will be installed transparently and OneDrive Setup won't appear. You'll need to run OneDrive.exe with an additional command. If you want to control the launch of OneDrive across your organization, we recommend using the /silent parameter. 
   
 The installer will install the OneDrive executable file under **%localappdata%\Microsoft\OneDrive**. 
   
