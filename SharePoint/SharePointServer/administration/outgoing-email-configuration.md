@@ -12,12 +12,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: f3ccc8bd-922e-49f6-9929-b5b8a6982d76
-description: "Summary: Learn how to install and configure the SMTP service and configure outgoing email for a SharePoint Server 2016 and SharePoint 2013 farm."
+description: "Summary: Learn how to install and configure the SMTP service and configure outgoing email for a SharePoint Server 2019 Public Preview, SharePoint Server 2016, and SharePoint 2013 farm."
 ---
 
 # Configure outgoing email for a SharePoint Server farm
 
- **Summary:** Learn how to install and configure the SMTP service and configure outgoing email for a SharePoint Server 2016 and SharePoint 2013 farm. 
+ **Summary:** Learn how to install and configure the SMTP service and configure outgoing email for a SharePoint Server 2019 Public Preview, SharePoint Server 2016, and SharePoint 2013 farm. 
   
 This article describes how to configure outgoing email for a farm or for a specific web application for SharePoint Server. This article also describes how to install and configure the SMTP service that you must use to enable outgoing email.
   
@@ -33,7 +33,7 @@ You can also configure outgoing email for a specific web application by using Mi
 
 Before you begin this operation, review the following information about prerequisites:
   
-- Your computer is running SharePoint Server 2016, SharePoint Server 2013, or SharePoint Foundation 2013.
+- Your computer is running SharePoint Server 2019 Public Preview, SharePoint Server 2016, SharePoint Server 2013, or SharePoint Foundation 2013.
     
 - One or more servers in the server farm are running the Simple Mail Transfer Protocol (SMTP) service and have a valid SMTP server address. Alternatively, you must know the name of a server outside the farm that is running the SMTP service.
     
