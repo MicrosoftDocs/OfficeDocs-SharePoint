@@ -29,13 +29,13 @@ If the user was deleted within 30 days, you can restore the user and all their d
     
   - If you know the URL of the OneDrive, run the following command: 
     
-  ```
+  ```PowerShell
   Get-SPODeletedSite -Identity <URL>
   ```
 
   - If you don't know the URL of the deleted OneDrive, run the following command:
     
-  ```
+  ```PowerShell
   Get-SPODeletedSite -IncludeOnlyPersonalSite | FT url
   ```
 
@@ -43,13 +43,13 @@ If the user was deleted within 30 days, you can restore the user and all their d
     
 4. Restore the OneDrive to an active state:
     
-  ```
+  ```PowerShell
   Restore-SPODeletedSite -Identity <URL>
   ```
 
 5. Assign a site collection administrator to the OneDrive to access the needed data:
     
-  ```
+  ```PowerShell
   Set-SPOUser -Site <URL> -LoginName <UPNofDesiredAdmin> -IsSiteCollectionAdmin $True
   ```
 
@@ -59,7 +59,7 @@ For more info about these cmdlets, see [Get-SPODeletedSite](https://go.microsoft
 
 After you recover the data you need from the OneDrive, we recommend that you permanently delete the OneDrive by running the following command:
   
-```
+```PowerShell
 Remove-SPOSite -Identity <URL>
 ```
 
