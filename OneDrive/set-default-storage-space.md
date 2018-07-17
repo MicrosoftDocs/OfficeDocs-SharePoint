@@ -41,7 +41,7 @@ This storage space setting applies to all new and existing users for whom you ha
     
 3. Run the following command:
     
-      ```
+      ```PowerShell
       $r=Get-SPOSite -Identity <user's OneDrive URL> -Detailed
       $r.StorageQuotaType
       ```
@@ -56,7 +56,7 @@ This storage space setting applies to all new and existing users for whom you ha
     
 3. Run the following command:
     
-      ```
+      ```PowerShell
       Set-SPOTenant -OneDriveStorageQuota <quota>
       ```
 
@@ -64,7 +64,7 @@ This storage space setting applies to all new and existing users for whom you ha
     
     To reset an existing user's OneDrive to the new default storage space, run the following command:
     
-      ```
+      ```PowerShell
       Set-SPOSite -Identity <user's OneDrive URL> -StorageQuotaReset
       ```
 
