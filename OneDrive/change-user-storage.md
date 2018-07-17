@@ -30,7 +30,7 @@ As a global or SharePoint admin in Office 365, you can set the OneDrive storage 
     
 3. Run the following command:
     
-      ```
+      ```PowerShell
       Set-SPOSite -Identity <user's OneDrive URL> -StorageQuota <quota>
       ```
 
