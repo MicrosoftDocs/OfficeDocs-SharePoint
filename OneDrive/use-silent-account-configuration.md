@@ -2,6 +2,7 @@
 title: "Silently deploy and configure the OneDrive sync client"
 ms.author: kaarins
 author: kaarins
+manager: pamgreen
 ms.date: 06/25/2018
 ms.audience: ITPro
 ms.topic: article
