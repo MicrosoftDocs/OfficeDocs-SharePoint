@@ -45,7 +45,7 @@ Before you copy the databases, review the following information and take any rec
 ## Set the earlier version databases to be read-only
 <a name="readonly"> </a>
 
-To maintain user access to your original environment, set the SharePoint Server 2019 Public Preview databases to read-only before you back up the databases. Even if you don't want to maintain access over the long term, set the databases to read-only to make sure that you capture all the data in the backup so that you restore and upgrade the current state of the environment without allowing additional changes to be made. If the databases are set to read-only, users can continue to view content. However, they will be unable to add or change content. 
+To maintain user access to your original environment, set the SharePoint Server 2016 databases to read-only before you back up the databases. Even if you don't want to maintain access over the long term, set the databases to read-only to make sure that you capture all the data in the backup so that you restore and upgrade the current state of the environment without allowing additional changes to be made. If the databases are set to read-only, users can continue to view content. However, they will be unable to add or change content. 
   
 > [!NOTE]
 > Don't set search databases to read-only at this point. It's best not to interrupt the search experience until you're ready to upgrade the Search service applications. You will handle these databases when you [upgrade service applications](upgrade-service-applications-to-sharepoint-server-2019.md) (the fourth phase in the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019 Public Preview). 
