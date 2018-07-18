@@ -98,7 +98,7 @@ After you finish the patch phase, you must complete the update installation by s
 <a name="updatestrategy"> </a>
 
 > [!NOTE]
-> The information in this section is valid if you farm is not in a high availability (HA) environment. 
+> The information in this section is valid if you farm is not in a high availability (HA) environment. If you have an HA environment, follow the instructions at [SharePoint Server 2016 zero downtime patching steps](https://docs.microsoft.com/en-us/SharePoint/upgrade-and-update/sharepoint-server-2016-zero-downtime-patching-steps).
   
 The update strategy that you select is based primarily on one of the following factors:
   
