@@ -48,7 +48,7 @@ SharePoint Servers 2016 and 2019 Public Preview support a new farm topology desi
   
 For additional information about MinRole, see [Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019 Public Preview](overview-of-minrole-server-roles-in-sharepoint-server.md).
   
-### Before you install SharePoint Server 2016 on multiple servers
+### Before you install SharePoint Server on multiple servers
 
 Before you begin to install and configure SharePoint Servers 2016 or 2019 Public Preview, do the following:
   
@@ -72,7 +72,7 @@ Organizations whose database administrators operate independently from SharePoin
   
 For additional information about DBA databases, see [Database types and descriptions in SharePoint Server](../technical-reference/database-types-and-descriptions.md), [Storage and SQL Server capacity planning and configuration (SharePoint Server)](../administration/storage-and-sql-server-capacity-planning-and-configuration.md).
   
-Ensure the Max degree of parallelism is set to 1. For additional information about max degree of parallelism see, [Configure the max degree of parallelism Server Configuration Option](https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/configure-the-max-degree-of-parallelism-server-configuration-option) and [Degree of Parallelism](http://go.microsoft.com/fwlink/p/?prd=12467&amp;pver=1.0&amp;sbp=Parallelism&amp;plcid=0x409&amp;clcid=0x409&amp;ar=SQL Server 2016&amp;sar=Paralellism).
+Ensure the Max degree of parallelism is set to 1. For additional information about max degree of parallelism see, [Configure the max degree of parallelism Server Configuration Option](https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/configure-the-max-degree-of-parallelism-server-configuration-option).
   
 #### Public updates and hotfix packages
 

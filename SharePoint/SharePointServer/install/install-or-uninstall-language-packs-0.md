@@ -69,37 +69,37 @@ Language packs are available as individual downloads (one download for each supp
   
  **To install a language pack**
   
-1. Verify that the user account that is performing this procedure is the Setup user account. For information about the Setup user account, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
+ Verify that the user account that is performing this procedure is the Setup user account. For information about the Setup user account, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
     
-2. In the folder where you downloaded the language pack, run serverlanguagepack.exe.
+1. In the folder where you downloaded the language pack, run serverlanguagepack.exe.
     
-3. On the **Read the Microsoft Software License Terms** page, review the terms, select the **I accept the terms of this agreement** check box, and then click **Continue**.
+2. On the **Read the Microsoft Software License Terms** page, review the terms, select the **I accept the terms of this agreement** check box, and then click **Continue**.
     
-4. The Setup wizard runs and installs the language pack.
+3. The Setup wizard runs and installs the language pack.
     
-5. Rerun the SharePoint Products Configuration Wizard by using the default settings. If you do not run the SharePoint Products Configuration Wizard after you install a language pack, the language pack will not be installed correctly.
+4. Rerun the SharePoint Products Configuration Wizard by using the default settings. If you do not run the SharePoint Products Configuration Wizard after you install a language pack, the language pack will not be installed correctly.
     
     The SharePoint Products Configuration Wizard runs in the language of the base installation of SharePoint Server, not in the language of the language pack that you just installed.
     
  **To rerun the SharePoint Products Configuration Wizard**
   
-1. Verify that the user account that is performing this procedure is the Setup user account. For information about the Setup user account, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
+Verify that the user account that is performing this procedure is the Setup user account. For information about the Setup user account, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
     
-2. Click **Start**, point to **Microsoft SharePoint 2019 Products** folder, click **SharePoint Products Configuration Wizard**.
+1. Click **Start**, point to **Microsoft SharePoint 2019 Products** folder, click **SharePoint Products Configuration Wizard**.
     
-3. On the **Welcome to SharePoint Products** page, click **Next**.
+2. On the **Welcome to SharePoint Products** page, click **Next**.
     
-4. Click **Yes** in the dialog box that alerts you that some services might have to be restarted during configuration. 
+3. Click **Yes** in the dialog box that alerts you that some services might have to be restarted during configuration. 
     
-5. On the **Modify Server Farm Settings** page, click **Do not disconnect from this server farm**, and then click **Next**.
+4. On the **Modify Server Farm Settings** page, click **Do not disconnect from this server farm**, and then click **Next**.
     
-6. If the **Modify SharePoint Central Administration Web Administration Settings** page appears, do not change any of the default settings, and then click **Next**.
+5. If the **Modify SharePoint Central Administration Web Administration Settings** page appears, do not change any of the default settings, and then click **Next**.
     
-7. After you complete the Completing the **SharePoint Products Configuration Wizard**, click **Next**.
+6. After you complete the Completing the **SharePoint Products Configuration Wizard**, click **Next**.
     
-8. On the **Configuration Successful** page, click **Finish**.
+7. On the **Configuration Successful** page, click **Finish**.
     
-9. After you install a new language pack and rerun the Rerun the **SharePoint Products Configuration Wizard**, you must deactivate and then reactivate any language-specific features before you use the new language pack.
+8. After you install a new language pack and rerun the Rerun the **SharePoint Products Configuration Wizard**, you must deactivate and then reactivate any language-specific features before you use the new language pack.
     
 When you install language packs, the language-specific site templates are installed in the %COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\TEMPLATE\ _LanguageID_ directory, where  _LanguageID_ is the Language ID number for the language that you are installing. For example, the United States English language pack installs to the %COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\TEMPLATE\1033 directory. After you install a language pack, site owners and site collection administrators can create sites and site collections based on the language-specific site templates by specifying a language when they are creating a new SharePoint site or site collection. 
   
