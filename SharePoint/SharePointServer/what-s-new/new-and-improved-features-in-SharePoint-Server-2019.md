@@ -59,6 +59,10 @@ Fast site creation is used when creating sites in the following entry points:
 
 - The New-SPSite PowerShell cmdlet with the -CreateFromSiteMaster switch parameter#
 
+### Increased storage file size in SharePoint document libraries
+
+We now support storing files up to 15 GB in SharePoint document libraries. This is up from 10 GB in SharePoint Server 2016.
+
 ### Modern lists and libraries
 
 SharePoint Server 2019 Public Preview contains the modern experiences for lists and libraries in Team sites. This brings the experience up to date with that found in SharePoint Online.
