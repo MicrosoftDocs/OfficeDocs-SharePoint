@@ -57,7 +57,7 @@ Fast site creation is used when creating sites in the following entry points:
 
 - The Create Site button in SharePoint Home
 
-- The New-SPSite PowerShell cmdlet with the -CreateFromSiteMaster switch parameter
+- The New-SPSite PowerShell cmdlet with the -CreateFromSiteMaster switch parameter#
 
 ### Modern lists and libraries
 
@@ -81,10 +81,6 @@ SharePoint Server 2019 Public Preview will continue to support creating classic 
 
 SharePoint Server 2019 Public Preview can now render PDF documents on the server. Users no longer need to rely on a PDF viewer client application.
 
-### Push notification to OneDrive sync clients
-
-SharePoint Server 2019 Public Preview now supports push notification to OneDrive sync clients. This gives OneDrive sync clients immediate notifications when changes are made to content they have a sync relationship with. Now users’ synced content will be refreshed as soon as changes are made instead of waiting for the next polling interval.
-
 ### SharePoint using modern Internet Information Services (IIS) APIs
 
 SharePoint has modernized its integration with IIS by removing all of our dependencies on the legacy IIS6 APIs.  SharePoint now uses the IIS7+ APIs to manage IIS, which are the latest and best supported APIs from the IIS team.  This allows us to more easily adopt new IIS features and stay compatible with future Windows Server releases.
@@ -96,8 +92,6 @@ As a result of this change, the following Windows Server features will no longer
 - IIS 6 Metabase Compatibility (Web-Metabase)
 
 - IIS 6 Scripting Tools (Web-Lgcy-Scripting)
-
-Additionally, automatic mode for the incoming email feature will no longer be supported. Automatic mode used the IIS6 APIs to directly manage the IIS SMTP service, but the IIS SMTP service was never updated to use modern IIS APIs. SharePoint customers can still use the incoming email feature in advanced mode and manually manage their IIS SMTP service. For more information, see the **Incoming email automatic mode** section in What's deprecated or removed from SharePoint Server 2019 Public Preview.
 
 ### SharePoint home page
 
@@ -135,9 +129,9 @@ SharePoint will treat the external resource as an external web application. The 
 
 SharePoint Server 2019 Public Preview now supports authenticating to SMTP servers when sending email messages. Authentication can be configured through the Central Administration website and through PowerShell. SharePoint Server 2019 Public Preview will still support anonymous connections to SMTP servers that don't require authentication. This makes it easier for customers to integrate SharePoint into highly secure environments where authentication is required to send emails. Customers no longer need to configure smart host relays for SharePoint in these environments.
 
-### Team Site sync with OneDrive sync client (NGSC)
+### Sync files with OneDrive sync client (NGSC)
 
-Users can use the new OneDrive sync client (NGSC – Next Generation Sync Client) instead of Groove.exe to sync Personal Sites hosted on SharePoint Server 2019 Public Preview. For more information, see [New OneDrive sync client release notes](https://support.office.com/en-us/article/New-OneDrive-sync-client-release-notes-845dcf18-f921-435e-bf28-4e24b95e5fc0).
+Users can use the new OneDrive sync client (NGSC – Next Generation Sync Client) instead of Groove.exe to sync files in your SharePoint Server 2019 Public Preview team sites and personal sites with your devices. The OneDrive sync client supports advanced features such as Files On-Demand, push notification, and IRM protection, while still being easy to use. For more information, see [Deploy the new OneDrive sync client for Windows](https://support.office.com/en-us/article/deploy-the-new-onedrive-sync-client-for-windows-3f3a511c-30c6-404a-98bf-76f95c519668) and [Deploy and configure the new OneDrive sync client for Mac](https://support.office.com/en-us/article/deploy-and-configure-the-new-onedrive-sync-client-for-mac-eadddc4e-edc0-4982-9f50-2aef5038c307).
 
 ### Use of # and % characters in file and folder names
 
@@ -155,7 +149,7 @@ The "stsadm.exe -o sync" command has been converted into several PowerShell cmdl
  
 - Clear-SPContentDatabaseSyncData - The new Clear-SPContentDatabaseSyncData cmdlet clears User Profile synchronization information from the content databases in the farm that haven't been synchronized for the past n days.
 
-- Update-SPUserProfileSync - The new Update-SPUserProfileSync cmdlet updates the User Profile synchronization settings to specify the main synchronization schedule, the sweep schedule to identify new users, and which web applications should be excluded from synchronization.  Note: This cmdlet will be renamed to Update-SPProfileSync in a future build.
+- Update-SPProfileSync - The new Update-SPProfileSync cmdlet updates the User Profile synchronization settings to specify the main synchronization schedule, the sweep schedule to identify new users, and which web applications should be excluded from synchronization.
 
 The "stsadm.exe -o sync" command will still be supported for backward compatibility.
 
@@ -208,16 +202,6 @@ This file path length limit increase makes it easier to sync deeply nested conte
 ### Recycle Bin restore improvements
 
 SharePoint Server 2019 Public Preview users can now restore items that they've deleted themselves, and also items that other users in the site have deleted. Users need edit permission on the deleted items so they're visible in their SharePoint recycle bin.
-
-### SharePoint hybrid status bar improvement
-
-SharePoint Server 2016 introduced the SharePoint hybrid status bar in Central Administration to give direct access to launch the SharePoint Hybrid Configuration Wizard. This was integrated with the main status bar of Central Administration that is used to notify farm administrators of warnings and errors. The Central Administration status bar changes its background color to match the most severe message it needs to display. If you had a severe error in your farm and you also hadn't enabled hybrid, you would see both messages in the status bar with a red background color. This could be misinterpreted by the farm administrator to mean that the farm is in a bad state because hybrid wasn't enabled.
-
-To prevent confusion, we've now separated the SharePoint hybrid status bar from the main status bar. The hybrid status bar will always have a green background color regardless of the state of the main status bar in Central Administration.
-
-### SharePoint Splash screen
-
-The SharePoint setup splash screen (splash.hta) on the installation media has been updated with a new design. The splash screen contains the SharePoint Server 2019 Public Preview branding and will link to our SharePoint 2019 documentation.
 
 ### Sharing email template
 
