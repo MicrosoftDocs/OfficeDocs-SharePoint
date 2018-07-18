@@ -24,7 +24,7 @@ description: "Summary: Learn how to install SharePoint Servers 2016 or 2019 Publ
  You can install and configure SharePoint Servers 2016 or 2019 Public Preview on a single server if you are hosting only a few sites for a limited number of users or if you want to create a trial or development environment. This configuration is also useful if you want to configure a farm to meet your needs first, and then add servers to the farm at a later stage. 
   
 > [!NOTE]
-> In previous versions of SharePoint, a single server installation automatically installed SQL Server Express. In SharePoint Server 2016, a single server installation contains only SharePoint. SQL Server can be installed on the same server or on a separate server; both scenarios are supported. For better performance we recommend installing SQL Server on a separate server. 
+> In previous versions of SharePoint, a single server installation automatically installed SQL Server Express. In SharePoint Servers 2016 and 2019 Public Preview, a single server installation contains only SharePoint. SQL Server can be installed on the same server or on a separate server; both scenarios are supported. For better performance we recommend installing SQL Server on a separate server. 
   
     
 ## Overview

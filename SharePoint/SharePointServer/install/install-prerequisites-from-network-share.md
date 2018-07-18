@@ -95,10 +95,10 @@ You can install one or more of the prerequisites from the command line using the
     
 3. Type the prerequisite program switch and corresponding argument for the program that you want to install, and then press Enter, for SharePoint Server 2016, type:
     
-    PrerequisiteInstaller.exe /SQLNCli: "\\o16-sf-admin\SP_prereqs\sqlncli.msi"
+    PrerequisiteInstaller.exe /SQLNCli:"\\o16-sf-admin\SP_prereqs\sqlncli.msi"
     
     > [!NOTE]
-    > To install more than one prerequisite, type each switch and argument pair. Be sure to separate each pair by a space, for example: > PrerequisiteInstaller.exe /IDFX: "\\< _path_>\Windows6.1-KB974405-x64.msu" /sqlncli: "\\< _path_>\sqlncli.msi" /Sync: "\\< _path_>\Synchronization.msi" 
+    > To install more than one prerequisite, type each switch and argument pair. Be sure to separate each pair by a space, for example: > PrerequisiteInstaller.exe /IDFX:"\\< _path_>\Windows6.1-KB974405-x64.msu" /sqlncli:"\\< _path_>\sqlncli.msi" /Sync:"\\< _path_>\Synchronization.msi" 
   
 ## Install the SharePoint Server prerequisites by using an arguments file
 <a name="install"> </a>
@@ -144,16 +144,10 @@ Use the following procedure to create an arguments file.
     
 2. Using a text editor, edit PrerequisiteInstaller.Arguments.txt and provide file paths to the installation source for each prerequisite switch by using the following syntax: 
     
-     _/switch_:  _\<path\>_
+     _/switch_: _\<path\>_
     
     Where  _/switch_ is a valid switch and  _\<path\>_ is a path of the installation source. 
     
-    The following example shows a complete arguments file that uses a file share as a common installation point. Do not include carriage returns in your file.
-    
-  ```
-  /PowerShell:"<path>\WINDOWS6.1-KB2506143-x64.msu" /NETFX:"<path>\netfx_full_x64.msi" /IDFX:"<path>\Windows6.1-KB974405-x64.msu" /sqlncli: "<path>\sqlncli.msi" /Sync: "<path>\Synchronization.msi" /AppFabric:"<path>\WindowsServerAppFabricSetup_x64.exe" /IDFX11:"<path>\MicrosoftIdentityExtensions-64.msi" /MSIPCClient:"<path>\setup_msipc_x64.msi" /WCFDataServices:"<path>\WcfDataServices.exe" /KB2671763:"<path>\AppFabric1.1-RTM-KB2671763-x64-ENU.exe"
-  ```
-
 3. After you finish editing PrerequisiteInstaller.Arguments.txt, save your edits, and verify that this file is in the same directory as PrerequisiteInstaller.exe.
     
 Use the following procedure to install the prerequisites.

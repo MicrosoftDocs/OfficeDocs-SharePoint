@@ -77,8 +77,7 @@ The third stage in the upgrade process upgrades the databases and service applic
   
 1. A server farm administrator configures the service applications for the new farm. The following service applications have databases that you can upgrade during this process:
     
-  - SharePoint Server 2016
-    
+   
   - Business Data Connectivity service application
     
   - Managed Metadata service application

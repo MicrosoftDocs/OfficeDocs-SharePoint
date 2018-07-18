@@ -77,7 +77,7 @@ After you determine whether upgrade was completed successfully, validate your en
     
 - Search
     
-  - Check that the search configuration settings are alike those in the SharePoint Server 2013 with Service Pack 1 (SP1) farm.
+  - Check that the search configuration settings are alike those in the SharePoint Server 2019 Public Preview farm.
     
   - Run search queries, and verify that the queries work as expected and provide appropriate results. Twenty-four hours later, view the query reports and look for issues.
     

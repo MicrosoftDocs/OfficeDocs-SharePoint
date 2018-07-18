@@ -70,7 +70,7 @@ Site collection administrators can view the **Upgrade Status** page in Site Sett
     
 Farm administrators can use PowerShell to view site collection upgrade status.
   
-## Review site collections upgraded to SharePoint Server 2016
+## Review site collections upgraded to SharePoint Server 2019 Public Preview
 <a name="ver"> </a>
 
 After the site collections have been upgraded to SharePoint Server 2019 Public Preview, review your upgraded sites to fix any issues after you have upgraded a site collection. Use the steps in this section to identify any issues before you upgrade your production environment. 
@@ -101,7 +101,7 @@ Use the following checklists to review your upgraded sites and look for issues f
 
 ### Large lists
 
-By default, large list query throttling is turned on in SharePoint Server 2016. If a list is very large, and users use a view or perform a query that exceeds the limit or throttling threshold, the view or query will not be permitted. Check any large lists in your environment and have the site administrator or list owner address the issue. For example, they can create indexed columns with filtered views, organize items into folders, set an item limit on the page for a large view, or use an external list. For more information about large list throttling and how to address issues with large lists, see [Manage lists and libraries with many items](https://go.microsoft.com/fwlink/p/?LinkId=251456) on Office Online. 
+By default, large list query throttling is turned on in SharePoint Server 2019 Public Preview. If a list is very large, and users use a view or perform a query that exceeds the limit or throttling threshold, the view or query will not be permitted. Check any large lists in your environment and have the site administrator or list owner address the issue. For example, they can create indexed columns with filtered views, organize items into folders, set an item limit on the page for a large view, or use an external list. For more information about large list throttling and how to address issues with large lists, see [Manage lists and libraries with many items](https://go.microsoft.com/fwlink/p/?LinkId=251456) on Office Online. 
   
 ### Styles and appearance
 

@@ -91,12 +91,9 @@ The following services in SharePoint Server 2016 also require additional steps t
   
 - **InfoPath Forms Service**
     
-    This service is not part of the Farm Configuration Wizard. If you want to use this service, you can use the **Configure InfoPath Forms Services** link on the **General Application Settings** page in SharePoint Central Administration to configure it. If you want to continue using form templates from your previous environment, you can export any administrator-deployed form templates (.xsn files) and data connection files (.udcx files) from your SharePoint Server 2013 environment, and then import them to your new SharePoint Server 2016 environment by using the **Export-SPInfoPathAdministrationFiles** PowerShell cmdlet. If the URL of the new server differs from the URL of the previous server, you can run the **Update-SPInfoPathAdminFileUrl** PowerShell cmdlet to update links that are used in the upgraded form templates. 
+    This service is not part of the Farm Configuration Wizard. If you want to use this service, you can use the **Configure InfoPath Forms Services** link on the **General Application Settings** page in SharePoint Central Administration to configure it. If you want to continue using form templates from your previous environment, you can export any administrator-deployed form templates (.xsn files) and data connection files (.udcx files) from your SharePoint Server 2016 environment, and then import them to your new SharePoint Server 2019 Public Preview environment by using the **Export-SPInfoPathAdministrationFiles** PowerShell cmdlet. If the URL of the new server differs from the URL of the previous server, you can run the **Update-SPInfoPathAdminFileUrl** PowerShell cmdlet to update links that are used in the upgraded form templates. 
     
-- **Office Online Server**
-    
-    You must deploy Office Online Server and then connect SharePoint Server 2016 it to after the content databases are upgraded. You do not have to wait until the site collections are upgraded because Office Online Server supports both the 2013 and 2016 site collection modes in SharePoint Server 2016. For more information, see [Office Web Apps](http://technet.microsoft.com/library/e75c9827-f5ce-4099-a08c-b42fde72ea98.aspx).
-    
+   
 ## See also
 <a name="Considerations"> </a>
 

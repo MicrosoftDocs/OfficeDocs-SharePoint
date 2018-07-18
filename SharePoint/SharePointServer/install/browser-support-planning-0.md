@@ -19,7 +19,7 @@ description: "Summary: Learn about how SharePoint Servers 2016 and 2019 Public P
 
  **Summary:** Learn about how SharePoint Servers 2016 and 2019 Public Preview supports Internet Explorer, Google Chrome, Mozilla Firefox, Apple Safari, and Microsoft Edge. 
   
-SharePoint Servers 2016 and 2019 Public Preview supports several commonly used web browsers, such as ![Internet Explorer browser logo](../media/internetexplorersmall.png) Internet Explorer, ![Google Chrome browser logo](../media/chrome-small.jpg) Google Chrome, ![Mozilla Firefox browser logo](../media/firefox_small.png) Mozilla Firefox, ![Apple Safari browser logo](../media/safari-small.png) Apple Safari, and Microsoft Edge. However, certain web browsers can cause some SharePoint Server 2016 functionality to be downgraded, limited, or available only through alternative steps. 
+SharePoint Servers 2016 and 2019 Public Preview supports several commonly used web browsers, such as ![Internet Explorer browser logo](../media/internetexplorersmall.png) Internet Explorer, ![Google Chrome browser logo](../media/chrome-small.jpg) Google Chrome, ![Mozilla Firefox browser logo](../media/firefox_small.png) Mozilla Firefox, ![Apple Safari browser logo](../media/safari-small.png) Apple Safari, and Microsoft Edge. However, certain web browsers can cause some SharePoint Servers 2016 or 2019 Public Preview functionality to be downgraded, limited, or available only through alternative steps. 
   
 As you plan your deployment of SharePoint Servers 2016 or 2019 Public Preview, we recommend that you review the browsers used in your organization to guarantee optimal performance with SharePoint Servers 2016 and 2019 Public Preview.
   
@@ -27,7 +27,7 @@ As you plan your deployment of SharePoint Servers 2016 or 2019 Public Preview, w
 ## Key planning phase of browser support
 <a name="section2"> </a>
 
-Browser support is an important part of your SharePoint Server 2016 implementation. Before you install SharePoint Server 2016, make sure that you know the browsers that SharePoint Server 2016 supports. The information in this article describes browser support in the following sections:
+Browser support is an important part of your SharePoint Servers 2016 or 2019 Public Preview implementation. Before you install SharePoint Server 2016, make sure that you know the browsers that SharePoint Server 2016 supports. The information in this article describes browser support in the following sections:
   
 - Browser support levels
     
@@ -78,7 +78,7 @@ Review the details of the web browser that you have or plan to use in your organ
  **Internet Explorer and older functionality**
   
 > [!NOTE]
-> Some older SharePoint functionality that relies on NPAPI or ActiveX will not work on browsers other than Internet Explorer. You can work around each of these issues by using Internet Explorer to perform these tasks.. 
+> Some older SharePoint functionality that relies on NPAPI or ActiveX will not work on browsers other than Internet Explorer. You can work around each of these issues by using Internet Explorer to perform these tasks. 
   
 #### Other supported browsers in SharePoint Server 2016
 
@@ -90,7 +90,7 @@ Review the details of the web browser that you have or plan to use in your organ
     
 - Apple Safari (latest released version)
     
-#### Using ActiveX controls in Sharepoint Server 2016
+#### Using ActiveX controls in SharePoint Server 2016
 <a name="activex"> </a>
 
 Some functionality in SharePoint Server 2016 requires ActiveX controls. This produces limitations on browsers which do not support ActiveX. Currently only 32-bit versions of Internet Explorer support this functionality. All other supported browsers, including Microsoft Edge and the Immersive mode of Internet Explorer 10 have the following limitations. 

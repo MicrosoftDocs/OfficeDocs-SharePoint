@@ -24,8 +24,8 @@ The following articles provide information about performing an upgrade to ShareP
 |**        ![Building blocks](../media/mod_icon_buildingblock_M.png)          Content**|**Description**|
 |:-----|:-----|
 |[Get started with upgrades to SharePoint Server 2019 Public Preview](get-started-with-upgrade-2019.md) <br/> |Find resources about how to start the upgrade process from SharePoint Server 2016 to SharePoint Server 2019 Public Preview.  <br/> |
-|[Upgrade databases from SharePoint 2016 to SharePoint Server 2019 Public Preview](upgrade-databases-2019.md) <br/> |Find resources to help you perform the steps to upgrade databases from SharePoint Server 2013 with Service Pack 1 (SP1) to SharePoint Server 2016.  <br/> |
-|[Upgrade site collections to SharePoint Server 2019 Public Preview](upgrade-a-site-collection-2019.md) <br/> |Find out how to upgrade a site collection to SharePoint Server 2016.  <br/> |
-|[Video: Cleanup of databases after upgrade procedure](video-cleanup-of-databases-after-upgrade-procedure.md) <br/> |Learn how to use Windows Powershell scripts to assist in cleaning up SharePoint Server 2016 databases after a successful upgrade procedure.  <br/> |
+|[Upgrade databases from SharePoint 2016 to SharePoint Server 2019 Public Preview](upgrade-databases-2019.md) <br/> |Find resources to help you perform the steps to upgrade databases from SharePoint Server 2016 to SharePoint Server 2019 Public Preview.  <br/> |
+|[Upgrade site collections to SharePoint Server 2019 Public Preview](upgrade-a-site-collection-2019.md) <br/> |Find out how to upgrade a site collection to SharePoint Server 2019 Public Preview.  <br/> |
+|[Video: Cleanup of databases after upgrade procedure](video-cleanup-of-databases-after-upgrade-procedure.md) <br/> |Learn how to use Windows Powershell scripts to assist in cleaning up SharePoint Servers 2016 and 2019 Public Preview databases after a successful upgrade procedure.  <br/> |
    
 
