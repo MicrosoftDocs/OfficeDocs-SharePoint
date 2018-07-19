@@ -18,7 +18,7 @@ description: "Summary: Learn how to configure self-service site creation in diff
 
 **Summary:** Learn how to configure self-service site creation in different web applications and remote server farms in SharePoint Server 2019 Public Preview.
 
-The self-service site creation experience in the SharePoint home page supports creating new sites in a different web application, regardless of whether the web application is hosted on the local farm or a remote farm. This gives greater flexibility and control in managing SharePoint farms.
+The self-service site creation experience in the SharePoint supports creating new sites in a different web application, regardless of whether the web application is hosted on the local farm or a remote farm. This gives greater flexibility and control in managing SharePoint farms.
 
 Self-service site creation updates for SharePoint Server 2019 Public Preview offers the following:
 
