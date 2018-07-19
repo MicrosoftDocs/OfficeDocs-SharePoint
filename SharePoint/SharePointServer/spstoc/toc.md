@@ -166,7 +166,7 @@
 ### [Plan sites and site collections](../sites/plan-sites-and-site-collections.md)
 #### [Sites and site collections overview](../sites/sites-and-site-collections-overview.md)
 #### [Plan self-service site creation](../sites/plan-self-service-site-creation.md)
-#### [Configure self-service site creation in SharePoint Server 2019 home page](../sites/configure-self-service-site-creation-in-SharePoint-Server-2019-home-page.md)
+#### [Configure self-service site creation in SharePoint Server 2019](../sites/configure-self-service-site-creation-in-SharePoint-Server-2019.md)
 #### [Site policy overview](../sites/site-policy-overview.md)
 #### [Site navigation overview](../sites/site-navigation-overview.md)
 #### [Plan for multilingual sites](../sites/plan-for-multilingual-sites.md)
