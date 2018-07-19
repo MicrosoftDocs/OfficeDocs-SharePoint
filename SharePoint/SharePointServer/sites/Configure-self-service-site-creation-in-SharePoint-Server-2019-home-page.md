@@ -28,7 +28,7 @@ Self-service site creation updates for SharePoint Server 2019 Public Preview off
 
 - The ability for farm administrators to hide the Create Site link from the SharePoint home page, so users have to go through their IT organization to create new sites.
  
- ## Configure self-service site creation in the SharePoint Central Administration website
+## Configure self-service site creation in the SharePoint Central Administration website
 
 SharePoint Farm Administrators control self-service site creation in different web applications on local or remote farms in Central Administration. This is controlled in the **When users select the Create site command, create:** section on the **Self-service Site Creation Management** page in Central Administration.
 
