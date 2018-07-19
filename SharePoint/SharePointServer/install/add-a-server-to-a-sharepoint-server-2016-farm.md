@@ -113,40 +113,36 @@ You add the new server to the farm by using one of the following procedures:
     
  **To add a new SharePoint Server 2016 or SharePoint Server 2019 Public Preview server to the farm by using the SharePoint Products Configuration Wizard**
   
-1. Verify that the user account that is performing this procedure is the Setup user account. For information about the Setup user account, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
+Verify that the user account that is performing this procedure is the Setup user account. For information about the Setup user account, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
     
-2. Start the **SharePoint Products Configuration Wizard**.
+1. Start the **SharePoint Products Configuration Wizard**.
     
    
-3. On the **Welcome to SharePoint Products** page, click **Next**.
+2. On the **Welcome to SharePoint Products** page, click **Next**.
     
-4. On the **Connect to a server farm** page, click **Connect to an existing server farm.**
+3. On the **Connect to a server farm** page, click **Connect to an existing server farm.**
     
-5. Click **Next**.
+4. Click **Next**.
     
-6. On the **Specify Configuration Database settings** page, type the name of the instance of SQL Server in the **Database server** box, and then click **Retrieve Database Names**. 
+5. On the **Specify Configuration Database settings** page, type the name of the instance of SQL Server in the **Database server** box, and then click **Retrieve Database Names**. 
     
-7. Select the name of the configuration database in the **Database name** list, and then click **Next**.
+6. Select the name of the configuration database in the **Database name** list, and then click **Next**.
     
-8. On the **Specify Farm Security Settings** page, type the name of the farm passphrase in the **Passphrase** box, and then click **Next**.
+7. On the **Specify Farm Security Settings** page, type the name of the farm passphrase in the **Passphrase** box, and then click **Next**.
     
-9. On the **Specify Server Role** page, choose the appropriate role, and then click **Next**.
+8. On the **Specify Server Role** page, choose the appropriate role, and then click **Next**.
     
 > [!NOTE]
-<<<<<<< HEAD
 > The concept of server roles has changed staring with SharePoint Server 2016. You can't add a server to a farm if the farm currently contains a server assigned to the "Single Server Farm" role. > For additional information about MinRole, see [Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019](overview-of-minrole-server-roles-in-sharepoint-server-2016.md). 
-=======
-> The concept of server roles has changed for SharePoint Server 2016. You can't add a server to a farm if the farm currently contains a server assigned to the "Single Server Farm" role. > For additional information about MinRole, see [Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019 Public Preview](overview-of-minrole-server-roles-in-sharepoint-server.md). 
->>>>>>> SharePoint19-working
   
-10. On the **Completing the SharePoint Products Configuration Wizard** page, click **Next**.
+9. On the **Completing the SharePoint Products Configuration Wizard** page, click **Next**.
     
-11. On the server that hosts Central Administration, click **Manage servers in this farm** to verify that the new server is part of the farm. 
+10. On the server that hosts Central Administration, click **Manage servers in this farm** to verify that the new server is part of the farm. 
     
 > [!NOTE]
 > You can also verify a successful server addition or troubleshoot a failed addition by examining the log files. These files are located on the drive on which SharePoint Server is installed, in the %COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\LOGS folder. 
   
-12. On the **Servers in Farm** page, click the name of the new server. Use the list of available services on the **Services on Server** page to start the services that you want to run on the new server. 
+11. On the **Servers in Farm** page, click the name of the new server. Use the list of available services on the **Services on Server** page to start the services that you want to run on the new server. 
     
 > [!NOTE]
 > This step should only apply if the Custom role is used. 
@@ -172,7 +168,7 @@ Where \<ServerRole\> can be any of the following values: WebFrontEnd, Applicatio
   
  **To add a new SharePoint Server 2016 or SharePoint Server 2019 Public Preview server to the farm by using PowerShell**
   
-1. Verify that you have the following memberships:
+Verify that you have the following memberships:
     
   - **securityadmin** fixed server role on the SQL Server instance. 
     
@@ -185,10 +181,10 @@ Where \<ServerRole\> can be any of the following values: WebFrontEnd, Applicatio
 > [!NOTE]
 > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
-2. Start the SharePoint Management Shell.
+1. Start the SharePoint Management Shell.
     
     
-3. At the PowerShell command prompt, type the following command to connect the server to a configuration database: 
+2. At the PowerShell command prompt, type the following command to connect the server to a configuration database: 
     
   ```
   Connect-SPConfigurationDatabase -DatabaseServer <SqlServerName> -DatabaseName <ConfigDbName> -Passphrase <FarmPassphrase>  -LocalServerRole <ServerRole>
@@ -210,37 +206,33 @@ Where \<ServerRole\> can be any of the following values: WebFrontEnd, Applicatio
 > If SharePoint Server 2016 Feature Pack 2 has been applied, additional \<ServerRole> options are available: ApplicationWithSearch, WebFrontEndWithDistributedCache. These options are also available in SharePoint Server 2019 Public Preview.
     
 > [!NOTE]
-<<<<<<< HEAD
 > The concept of server roles has changed starting with SharePoint Server 2016. You can't add a server to a farm if the farm currently contains a server assigned to the "Single Server Farm" role. > For additional information about MinRole, see [Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019](overview-of-minrole-server-roles-in-sharepoint-server-2016.md). 
-=======
-> The concept of server roles has changed for SharePoint Server 2016. You can't add a server to a farm if the farm currently contains a server assigned to the "Single Server Farm" role. > For additional information about MinRole, see [Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019 Public Preview](overview-of-minrole-server-roles-in-sharepoint-server.md). 
->>>>>>> SharePoint19-working
   
-4. At the PowerShell command prompt, type the following command to install the Help File Collections:
+3. At the PowerShell command prompt, type the following command to install the Help File Collections:
     
   ```
   Install-SPHelpCollection -All
   ```
 
-5. At the PowerShell command prompt, type the following command to install the Security Resource for SharePoint Server:
+4. At the PowerShell command prompt, type the following command to install the Security Resource for SharePoint Server:
     
   ```
   Initialize-SPResourceSecurity
   ```
 
-6. At the PowerShell command prompt, type the following command to install the basic services: 
+5. At the PowerShell command prompt, type the following command to install the basic services: 
     
   ```
   Install-SPService
   ```
 
-7. At the PowerShell command prompt, type the following command to install all the features:
+6. At the PowerShell command prompt, type the following command to install all the features:
     
   ```
   Install-SPFeature -AllExistingFeatures
   ```
 
-8. At the PowerShell command prompt, type the following command to set the port number of the SharePoint Central Administration website:
+7. At the PowerShell command prompt, type the following command to set the port number of the SharePoint Central Administration website:
     
   ```
   New-SPCentralAdministration -Port <PortNumber> -WindowsAuthProvider NTLM
@@ -249,19 +241,19 @@ Where \<ServerRole\> can be any of the following values: WebFrontEnd, Applicatio
 > [!NOTE]
 > If the SharePoint Central Administration website is already provisioned on an existing server in the farm, you can skip this step. 
   
-9. At the PowerShell command prompt, type the following command to install application content:
+8. At the PowerShell command prompt, type the following command to install application content:
     
   ```
   Install-SPApplicationContent
   ```
 
-10. At the PowerShell command prompt, type the following command to start the Timer service:
+9. At the PowerShell command prompt, type the following command to start the Timer service:
     
   ```
   Start-Service SPTimerV4
   ```
 
-11. At the PowerShell command prompt, type the following command to get a list of servers in the farm. 
+10. At the PowerShell command prompt, type the following command to get a list of servers in the farm. 
     
   ```
   Get-SPServer

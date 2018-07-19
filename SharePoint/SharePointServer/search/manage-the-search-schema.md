@@ -84,7 +84,7 @@ Before you begin this operation, review the following information about prerequi
     
   - Searchable
     
-  - Advanced Searchable Settings (optional, if Searchable is selected)
+  - Advanced searchable settings (optional, if Searchable is selected)
     
   - Queryable
     
@@ -98,9 +98,13 @@ Before you begin this operation, review the following information about prerequi
     
   - Alias
     
-  - Token Normalization
+  - Token normalization
     
-  - Complete Matching
+  - Complete matching
+
+  - Language neutral tokenization
+
+  - Finer query tokenization
     
   > [!IMPORTANT]
   > If you want to be able to use this managed property as a refiner, you must select both Refinable and Queryable. 
@@ -330,6 +334,7 @@ Say that you want to create a managed property that contains employee numbers, a
 | Mapping a crawled to a managed property | Add/Delete mapping                | Yes                                  |
 | Token normalization                     | Enable/Disable                    | Yes                                  |
 | Complete matching                       | Enable/Disable                    | Yes                                  |
+| Lanugage neutral tokenization           | Enable/Disable                    | Yes                                  |
 | Company name extraction                 | Enable/Disable                    | Yes                                  |
 | Custom entity extraction                | Enable/Disable                    | Yes                                  |
 | Searchable                              | Enable/Disable                    | Yes                                  |

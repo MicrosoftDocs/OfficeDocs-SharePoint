@@ -69,37 +69,37 @@ Language packs are available as individual downloads (one download for each supp
   
  **To install a language pack**
   
-1. Verify that the user account that is performing this procedure is the Setup user account. For information about the Setup user account, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
+ Verify that the user account that is performing this procedure is the Setup user account. For information about the Setup user account, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
     
-2. In the folder where you downloaded the language pack, run serverlanguagepack.exe.
+1. In the folder where you downloaded the language pack, run serverlanguagepack.exe.
     
-3. On the **Read the Microsoft Software License Terms** page, review the terms, select the **I accept the terms of this agreement** check box, and then click **Continue**.
+2. On the **Read the Microsoft Software License Terms** page, review the terms, select the **I accept the terms of this agreement** check box, and then click **Continue**.
     
-4. The Setup wizard runs and installs the language pack.
+3. The Setup wizard runs and installs the language pack.
     
-5. Rerun the SharePoint Products Configuration Wizard by using the default settings. If you do not run the SharePoint Products Configuration Wizard after you install a language pack, the language pack will not be installed correctly.
+4. Rerun the SharePoint Products Configuration Wizard by using the default settings. If you do not run the SharePoint Products Configuration Wizard after you install a language pack, the language pack will not be installed correctly.
     
     The SharePoint Products Configuration Wizard runs in the language of the base installation of SharePoint Server, not in the language of the language pack that you just installed.
     
  **To rerun the SharePoint Products Configuration Wizard**
   
-1. Verify that the user account that is performing this procedure is the Setup user account. For information about the Setup user account, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
+Verify that the user account that is performing this procedure is the Setup user account. For information about the Setup user account, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
     
-2. Click **Start**, point to **Microsoft SharePoint 2019 Products** folder, click **SharePoint Products Configuration Wizard**.
+1. Click **Start**, point to **Microsoft SharePoint 2019 Products** folder, click **SharePoint Products Configuration Wizard**.
     
-3. On the **Welcome to SharePoint Products** page, click **Next**.
+2. On the **Welcome to SharePoint Products** page, click **Next**.
     
-4. Click **Yes** in the dialog box that alerts you that some services might have to be restarted during configuration. 
+3. Click **Yes** in the dialog box that alerts you that some services might have to be restarted during configuration. 
     
-5. On the **Modify Server Farm Settings** page, click **Do not disconnect from this server farm**, and then click **Next**.
+4. On the **Modify Server Farm Settings** page, click **Do not disconnect from this server farm**, and then click **Next**.
     
-6. If the **Modify SharePoint Central Administration Web Administration Settings** page appears, do not change any of the default settings, and then click **Next**.
+5. If the **Modify SharePoint Central Administration Web Administration Settings** page appears, do not change any of the default settings, and then click **Next**.
     
-7. After you complete the Completing the **SharePoint Products Configuration Wizard**, click **Next**.
+6. After you complete the Completing the **SharePoint Products Configuration Wizard**, click **Next**.
     
-8. On the **Configuration Successful** page, click **Finish**.
+7. On the **Configuration Successful** page, click **Finish**.
     
-9. After you install a new language pack and rerun the Rerun the **SharePoint Products Configuration Wizard**, you must deactivate and then reactivate any language-specific features before you use the new language pack.
+8. After you install a new language pack and rerun the Rerun the **SharePoint Products Configuration Wizard**, you must deactivate and then reactivate any language-specific features before you use the new language pack.
     
 When you install language packs, the language-specific site templates are installed in the %COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\TEMPLATE\ _LanguageID_ directory, where  _LanguageID_ is the Language ID number for the language that you are installing. For example, the United States English language pack installs to the %COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\TEMPLATE\1033 directory. After you install a language pack, site owners and site collection administrators can create sites and site collections based on the language-specific site templates by specifying a language when they are creating a new SharePoint site or site collection. 
   
@@ -109,5 +109,66 @@ When you install language packs, the language-specific site templates are instal
 If you no longer have to support a language for which you have installed a language pack, you can remove the language pack by using the Control Panel. Removing a language pack removes the language-specific site templates from the computer. All sites that were created that have those language-specific site templates will no longer work (the URL will produce a HTTP 500 - Internal server error page). Reinstalling the language pack will make the site functional again.
   
 You cannot remove the language pack for the version of SharePoint Server that you have installed on the server. For example, if you are running the Japanese version of SharePoint Server, you cannot uninstall the Japanese language support for SharePoint Server.
-  
+
+## List of Languages
+
+Each folder name has a language tag appended to it, in the form ll-cc. That tag identifies the language and culture. For example, U.S. English language folders are identified by the folder name extension en-us. 
+
+Folders for the language-specific components are identified by the language tag that is shown in the table. The Windows operating system uses locale identifiers (LCIDs) to identify languages in the Windows registry.
+
+SharePoint Servers 2016 and 2019 Public Preview support the following languages:
+
+|**Language**|**Language tag**|**LCID**|**Comment**
+|:-----|:-----|:-----|:-----
+|Arabic |ar-sa  <br/> | 1025 <br/>
+|Azerbaijani (Latin) formerly called Azeri <br/> |az-latn-az  <br/> |1068 <br/>|Not released for SharePoint 2019 Public Preview, will be released for SharePoint 2019 RTM.
+|Bulgarian <br/> |bg-bg  <br/> |1026 <br/>
+|Bosnian (Latin) <br/> |bs-latn-ba  <br/> |5146 <br/>|Not released for SharePoint 2019 Public Preview, will be released for SharePoint 2019 RTM.
+|Catalan <br/> |ca-es <br/> |1027 <br/>
+|Czech <br/> |cs-cz  <br/> |1029 <br/>
+|Welsh <br/> |cy-gb  <br/> |1106 <br/>|Not released for SharePoint 2019 Public Preview, will be released for SharePoint 2019 RTM.
+|Danish <br/> |da-dk  <br/> |1026 <br/>
+|German <br/> |bg-bg  <br/> |1030 <br/>
+|Greek <br/> |de-de  <br/> |1031 <br/>
+|English <br/> |en-us  <br/> |1033 <br/>
+|Spanish <br/> |es-es  <br/> |3082 <br/>
+|Estonian <br/> |et-ee  <br/> |1061 <br/>
+|Basque <br/> |eu-es  <br/> |1069 <br/>
+|Finnish <br/> |fi-fi  <br/> |1035 <br/>
+|French <br/> |fr-fr  <br/> |1036 <br/>
+|Irish <br/> |ga-ie  <br/> |2108 <br/>|Not released for SharePoint 2019 Public Preview, will be released for SharePoint 2019 RTM.
+|Galician <br/> |gl-es  <br/> |1110 <br/>
+|Hebrew <br/> |he-il  <br/> |1037 <br/>
+|Hindi <br/> |hi-in  <br/> |1081 <br/>
+|Croatian <br/> |hr-hr  <br/> |1050 <br/>
+|Hungarian <br/> |hu-hu  <br/> |1038<br/>
+|Indonesian <br/> |id-id  <br/> |1057 <br/>
+|Italian <br/> |it-it  <br/> |1040 <br/>
+|Japanese <br/> |ja-jp  <br/> |1041 <br/>
+|Kazakh <br/> |kk-kz  <br/> |1087 <br/>
+|Korean <br/> |ko-kr  <br/> |1042 <br/>
+|Lithuanian <br/> |lt-lt  <br/> |1063 <br/>
+|Latvian <br/> |lv-lv  <br/> |1062 <br/>
+|Macedonian (FYROM) <br/> |mk-mk  <br/> |1071 <br/>|Not released for SharePoint 2019 Public Preview, will be released for SharePoint 2019 RTM.
+|Malay (Malaysia) <br/> |ms-my  <br/> |1086 <br/>
+|Norwegian (Bokmål) <br/> |nb-no  <br/> |1044 <br/>
+|Dutch <br/> |nl-nl  <br/> |1043 <br/>
+|Polish <br/> |pl-pl  <br/> |1045 <br/>
+|Dari <br/> |prs-af  <br/> |1164 <br/>|Not released for SharePoint 2019 Public Preview, will be released for SharePoint 2019 RTM.
+|Portuguese (Brazil) <br/> |pt-br  <br/> |1046 <br/>
+|Portuguese (Portugal) <br/> |pt-pt  <br/> |2070<br/>
+|Romanian <br/> |ro-ro  <br/> |1048 <br/>
+|Russian <br/> |ru-ru  <br/> |1049 <br/>
+|Slovak <br/> |sk-sk  <br/> |1051 <br/>
+|Slovenian <br/> |sl-si  <br/> |1060 <br/>
+|Serbian (Cyrillic) <br/> |sr-cyrl-rs  <br/> |10266 <br/>
+|Serbian (Latin) <br/> |sr-latn-rs  <br/> |9242 <br/>
+|Swedish <br/> |sv-se  <br/> |1053 <br/>
+|Thai <br/> |th-th  <br/> |1054 <br/>
+|Turkish <br/> |tr-tr  <br/> |1055 <br/>
+|Ukrainian <br/> |uk-ua <br/> |1058<br/>
+|Vietnamese <br/> |vi-vn  <br/> |1066 <br/>
+|Chinese (Simplified) <br/> |zh-cn  <br/> |2052 <br/>
+|Chinese (Traditional) <br/> |zh-tw  <br/> |1028 <br/>
+
 

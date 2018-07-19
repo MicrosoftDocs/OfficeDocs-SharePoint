@@ -3,7 +3,6 @@ title: "Install SharePoint Servers 2016 or 2019 Public Preview across multiple s
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
-ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
@@ -45,17 +44,17 @@ The basic steps in this deployment are as follows:
     
 ### Topology overview
 
-SharePoint Server 2016 supports a new farm topology design called MinRole. This article will describe a simple multi-server farm topology with one server assigned to each MinRole server role. However, to take advantage of zero downtime patching, your farm topology must support high availability (HA) by having multiple servers assigned to each MinRole server role.
+SharePoint Servers 2016 and 2019 Public Preview support a new farm topology design called MinRole. This article will describe a simple multi-server farm topology with one server assigned to each MinRole server role. However, to take advantage of zero downtime patching, your farm topology must support high availability (HA) by having multiple servers assigned to each MinRole server role.
   
 For additional information about MinRole, see [Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019 Public Preview](overview-of-minrole-server-roles-in-sharepoint-server.md).
   
-### Before you install SharePoint Server 2016 on multiple servers
+### Before you install SharePoint Server on multiple servers
 
-Before you begin to install and configure SharePoint Server 2016, do the following:
+Before you begin to install and configure SharePoint Servers 2016 or 2019 Public Preview, do the following:
   
 - Ensure that you are familiar with the operating-system guidelines described in [Performance Tuning Guidelines for Windows Server 2012 R2](https://msdn.microsoft.com/en-us/library/dn529133%28v=vs.85%29.aspx).
     
-- Ensure that you have met all hardware and software requirements. You must have a 64-bit version of Windows Server 2012 R2. To host SharePoint databases, you must also have a supported 64-bit version of SQL Server 2014. For more information about these requirements, such as specific updates that you must install, see [Hardware and software requirements for SharePoint Server 2016](hardware-and-software-requirements.md). For SharePoint Server 2019 Public Preview, see [Hardware and software requirements for SharePoint Server 2019 Public Preview](hardware-and-software-requirements-2019.md).
+- Ensure that you have met all hardware and software requirements. For more information about these requirements, such as specific updates that you must install, see [Hardware and software requirements for SharePoint Server 2016](hardware-and-software-requirements.md). For SharePoint Server 2019 Public Preview, see [Hardware and software requirements for SharePoint Server 2019 Public Preview](hardware-and-software-requirements-2019.md).
     
 - Ensure that you perform a clean installation of SharePoint Server.
     
@@ -73,7 +72,7 @@ Organizations whose database administrators operate independently from SharePoin
   
 For additional information about DBA databases, see [Database types and descriptions in SharePoint Server](../technical-reference/database-types-and-descriptions.md), [Storage and SQL Server capacity planning and configuration (SharePoint Server)](../administration/storage-and-sql-server-capacity-planning-and-configuration.md).
   
-Ensure the Max degree of parallelism is set to 1. For additional information about max degree of parallelism see, [Configure the max degree of parallelism Server Configuration Option](https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/configure-the-max-degree-of-parallelism-server-configuration-option) and [Degree of Parallelism](http://go.microsoft.com/fwlink/p/?prd=12467&amp;pver=1.0&amp;sbp=Parallelism&amp;plcid=0x409&amp;clcid=0x409&amp;ar=SQL Server 2016&amp;sar=Paralellism).
+Ensure the Max degree of parallelism is set to 1. For additional information about max degree of parallelism see, [Configure the max degree of parallelism Server Configuration Option](https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/configure-the-max-degree-of-parallelism-server-configuration-option).
   
 #### Public updates and hotfix packages
 
@@ -222,7 +221,7 @@ To configure the farm, you run the SharePoint Products Configuration Wizard. Thi
 
 After you create the farm on the first server, you can add servers by following the same process described earlier in this topic for installing SharePoint Server on the server that hosts Central Administration. The only difference is that during the SharePoint Products Configuration Wizard, you choose to join an existing farm. Follow the wizard steps to join the farm.
   
-For your content farm to be MinRole complaint, at a minimum you want to have at least one of each type of server role in the farm: **Application**, **Front-end**, **Distributed cache**, and **Search**. The order in which these roles are created does not matter. If you want to take full advantage of zero down time patching, then you need to make sure high availability is configured. 
+For your content farm to be MinRole complaint, at a minimum you want to have at least one of each type of server role in the farm: **Application**, **Front-end**, **Distributed cache**, and **Search**. The order in which these roles are created does not matter. You can also combined roles by using shared roles. If you want to take full advantage of zero down time patching, then you need to make sure high availability is configured. 
   
 For additional information about MinRole, see [Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019 Public Preview](overview-of-minrole-server-roles-in-sharepoint-server.md).
   

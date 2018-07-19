@@ -24,7 +24,7 @@ My Sites are personal site collections that end users can use to store their doc
   
 - **My Site Host.** The My Site Host is a special site collection shared among all My Site users. The My Site Host is used to show the profile (person.aspx) and newsfeed pages (default.aspx) on the My Site. The My Site Host is also used for storing the user profile photos. 
     
-- **Personal site collection.** In SharePoint Server 2016, the personal site collection was used to store a user's documents. In SharePoint Server 2016, the personal site collection contains OneDrive for Business, followed content, and so on. 
+- **Personal site collection.** In SharePoint Server 2019 Public Preview, the personal site collection is used to store a user's documents. In SharePoint Server 2019 Public Preview, the personal site collection contains OneDrive for Business, followed content, and so on. 
     
 ## Plan to upgrade My Sites
 
@@ -34,8 +34,7 @@ Before you start to upgrade from SharePoint Server 2016 to SharePoint Server 201
     
 - Some enterprises have multiple farms, that may include a services farm. In these environments, typically, one server farm, known as the enterprise services farm, publishes cross-farm shared services, and the other farms consume those shared services. In some cases, the User Profile Service application will be shared from the services farm, while a separate farm that consumes the shared User Profile Service application contains the My Sites. When you upgrade this type of configuration, you must upgrade the User Profile Service application on the services farm first, before you upgrade the My Sites farm.
     
-- Consider whether you have to upgrade from classic-mode to claims-based authentication in SharePoint Server 2013. For more information, see [Migrate from classic-mode to claims-based authentication in SharePoint Server](https://docs.microsoft.com/en-us/previous-versions/office/sharepoint-server-2010/gg251985(v=office.14))
-    
+   
 > [!IMPORTANT]
 > This list highlights some important things to consider when you perform an upgrade of My Sites. For a detailed discussion on upgrades, see [Get started with upgrades to SharePoint Server 2019 Public Preview](get-started-with-upgrade-2019.md)
   

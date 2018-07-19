@@ -184,9 +184,9 @@ To install Windows Server 2016 or higher, SQL Server 2016 or higher, or SharePoi
   
 In scenarios where installing prerequisites directly from the Internet is not possible, you can download the prerequisites and then install them from a network share. For more information, see [Install prerequisites for SharePoint Server from a network share](install-prerequisites-from-network-share.md).
   
-- [SharePoint Server 2019 Public Preview]()
+- [SharePoint Server 2019 Public Preview](https://go.microsoft.com/fwlink/?LinkId=2006095)
     
-- [Language Packs for SharePoint Server 2019 Public Preview]()
+- [Language Packs for SharePoint Server 2019 Public Preview](https://go.microsoft.com/fwlink/?LinkId=2006096)
     
 - [Windows Server 2016](https://www.microsoft.com/evalcenter/evaluate-windows-server-2016)
     

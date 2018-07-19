@@ -48,7 +48,7 @@ Create a web application for each web application that existed in the SharePoint
     
 - Use the same authentication method.
     
-    For example, if you use Windows Classic authentication in your old environment, and you want to continue to use it, then you must create a web application that uses Windows Classic authentication. Because claims-based authentication is now the default option for SharePoint Server 2019 Public Preview, you must use Microsoft PowerShell to create a web application that uses Windows Classic authentication. .
+    Because claims-based authentication is now the default option for SharePoint Server 2019 Public Preview, you must use Microsoft PowerShell to create a web application that uses Windows Classic authentication. .
     
 - Recreate managed paths.
     
@@ -94,7 +94,7 @@ The installation for SharePoint Server 2019 Public Preview continues to use 16 a
 ## Verify custom components
 <a name="VerifyCustom"> </a>
 
-To make sure that you have identified all custom components for your environment, use the **Stsadm -o enumallwebs** operation in the SharePoint Server 2013 with Service Pack 1 (SP1) environment and use the **includefeatures** and **includewebparts** parameters. This operation can report the templates, features, Web Parts, and other custom elements that are used for each site. For more information about how to use the **enumallwebs** operation, see [Enumallwebs: Stsadm operation (Office SharePoint Server)](https://docs.microsoft.com/en-us/previous-versions/office/sharepoint-2007-products-and-technologies/dd789634(v=office.12)) and [Clean up an environment before an upgrade to SharePoint 2013](http://technet.microsoft.com/library/bad0e5f7-44e1-40c7-8450-4c7069d4984b%28Office.14%29.aspx).
+To make sure that you have identified all custom components for your environment, use the **Stsadm -o enumallwebs** operation in the SharePoint Server 2016 environment and use the **includefeatures** and **includewebparts** parameters. This operation can report the templates, features, Web Parts, and other custom elements that are used for each site. For more information about how to use the **enumallwebs** operation, see [Enumallwebs: Stsadm operation (Office SharePoint Server)](https://docs.microsoft.com/en-us/previous-versions/office/sharepoint-2007-products-and-technologies/dd789634(v=office.12)).
   
 You can also use the [Get-SPWeb](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/get-spweb?view=sharepoint-ps) cmdlet in your SharePoint Server 2016 environment to see template that are associated with each site and then verify that the template is installed in your SharePoint Server 2019 Public Preview environment. For more information about this operation, see [Get-SPWeb](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/get-spweb?view=sharepoint-ps).
   
@@ -143,13 +143,13 @@ When you attach a content database, for a web application that spans multiple co
   
 For My Sites, attach the content database that contains the My Site host before attaching databases that contain the My Sites.
   
-By default, when you created the web applications in the new SharePoint Server 2016 environment, a content database was created for each web application. You can ignore these default databases until after you have attached your SharePoint Server 2016 databases, and then you can delete the default databases.
+By default, when you created the web applications in the new SharePoint Server 2019 Public Preview environment, a content database was created for each web application. You can ignore these default databases until after you have attached your SharePoint Server 2016 databases, and then you can delete the default databases.
   
 > [!IMPORTANT]
 > If you are moving the content databases across domains or forests or to another environment that has different service accounts, make sure that the permissions for the service accounts are still correct before you attach the databases. 
   
 > [!NOTE]
-> One frequent cause of failures during upgrade is that the environment is missing customized features, solutions, or other elements. Be sure that all custom elements from the SharePoint Server 2016 environment are installed on your front-end web servers in the SharePoint Server 2019 Public Preview environment before you start the upgrade process. Use the [Test-SPContentDatabase](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Test-SPContentDatabase?view=sharepoint-ps) cmdlet to identify custom elements that your sites might be missing. 
+> One frequent cause of failures during upgrade is that the environment is missing customized features, solutions, or other elements. Be sure that all custom elements from the SharePoint Server 2016 environment are installed on your servers in the SharePoint Server 2019 Public Preview environment before you start the upgrade process. Use the [Test-SPContentDatabase](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Test-SPContentDatabase?view=sharepoint-ps) cmdlet to identify custom elements that your sites might be missing. 
   
  **To attach a content database to a web application by using PowerShell**
   
@@ -191,7 +191,7 @@ By default, when you created the web applications in the new SharePoint Server 2
     
   -  _URL_ is the URL for the web application that will host the sites. 
     
-For more information, see Mount-SPContentDatabase.After the databases are upgraded, the site collections are automatically upgraded. For additional information on how to upgrade a site collection, see Upgrade site collections to SharePoint Server 2016.
+For more information, see [Mount-SPContentDatabase](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/mount-spcontentdatabase?view=sharepoint-ps). After the databases are upgraded, the site collections are automatically upgraded. For additional information on how to upgrade a site collection, see [Upgrade a site collection to SharePoint Server 2019 Public Preview](upgrade-a-site-collection-2019.md).
   
 ## Verify upgrade for the first database
 <a name="Status"> </a>

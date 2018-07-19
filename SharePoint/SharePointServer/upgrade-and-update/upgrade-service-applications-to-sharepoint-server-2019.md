@@ -19,7 +19,7 @@ description: "Summary: Upgrade service applications (Business Connectivity Servi
 
  **Summary:** Upgrade service applications (Business Connectivity Services, Managed Metadata, Secure Store, and Search) to SharePoint Server 2019 Public Preview. 
   
-When you upgrade from SharePoint Server 2016 to SharePoint Server 2019 Public Preview, you must use a database attach upgrade, which means that you upgrade only the content for your environment and not the configuration settings. After you have configured the SharePoint Server 2016 environment, and copied the content and service application databases, you can upgrade the service applications to SharePoint Server 2019 Public Preview. This article contains the steps that you take to upgrade the service applications.
+When you upgrade from SharePoint Server 2016 to SharePoint Server 2019 Public Preview, you must use a database attach upgrade, which means that you upgrade only the content for your environment and not the configuration settings. After you have configured the SharePoint Server 2019 Public Preview environment, and copied the content and service application databases, you can upgrade the service applications to SharePoint Server 2019 Public Preview. This article contains the steps that you take to upgrade the service applications.
   
 **Phase 3 of the upgrade process: Upgrade service applications**
 
@@ -41,9 +41,7 @@ Before you upgrade the service applications, review the following information an
 > [!TIP]
 > Throughout this article, variables (such as $applicationPool, $sss, $upa, and so on) are used in the PowerShell cmdlets to save time and effort. You do not have to use these variables if you would prefer not to. However, if you do not use these variables, you must use IDs for the service applications and service application proxies when you specify the **Identity** parameters. Each procedure has information about the variables used, or the alternate cmdlets to use to look up any IDs that are required. > Also, many procedures in this article include a step to set the $applicationPool variable. If you are performing all of these procedures in the same session of PowerShell, and you want to use the same application pool for all service applications, you do not have to repeat this step in each procedure. Instead, you can set this variable once at the beginning and use it throughout the procedures in this article. 
   
-> [!NOTE]
-> For any **SPWebURL** Managed Property in their SharePoint 2013 Schema they should rename it before they start the procedure (that is, SPWebURL to SPWebURL1). After you upgrade to SharePoint Server 2016, they SPWebURL1 managed property name can changed back to the original name (that is, SPWebURL). 
-  
+
 ## About upgrading the service application databases
 <a name="UpgradeServicesDBs"> </a>
 
@@ -437,9 +435,9 @@ To upgrade the PerformancePoint Services service application, you create the new
 
 Upgrade the User Profile service application and the Managed Metadata service application before you upgrade the Search service application.
   
-To upgrade the Search service application, you copy the search administration database in your SharePoint Server 2016 farm to your SharePoint Server 2019 Public Preview farm and restore the Search service application from your SharePoint Server 2016 farm in your SharePoint Server 2019 Public Preview farm. The restore triggers SharePoint Server 2019 Public Preview to create a new Search service application in the SharePoint Server 2016 farm and point it to the copied search administration database. To complete the upgrade of the Search service application you create a proxy and add it to the default proxy group and you ensure that the new Links Database and the new search topology is configured the same way as in the SharePoint Server 2016 farm.
+To upgrade the Search service application, you copy the search administration database in your SharePoint Server 2016 farm to your SharePoint Server 2019 Public Preview farm and restore the Search service application from your SharePoint Server 2016 farm in your SharePoint Server 2019 Public Preview farm. The restore triggers SharePoint Server 2019 Public Preview to create a new Search service application in the SharePoint Server 2019 Public Preview farm and point it to the copied search administration database. To complete the upgrade of the Search service application you create a proxy and add it to the default proxy group and you ensure that the new Links Database and the new search topology is configured the same way as in the SharePoint Server 2016 farm.
   
-SharePoint Server 2019 Public Preview normally creates a new search topology with all the search components and databases when it creates a the new Search service application. During a **restore** of a Search service application, SharePoint Server 2019 Public Preview creates a new search topology, but upgrades the restored Search Administration database instead of creating a new Search Administration database. The upgraded Search Administration database retains any additions or modifications made to the search schema, result sources and query rules from the SharePoint Server 2016 farm. 
+SharePoint Server 2019 Public Preview normally creates a new search topology with all the search components and databases when it creates a new Search service application. During a **restore** of a Search service application, SharePoint Server 2019 Public Preview creates a new search topology, but upgrades the restored Search Administration database instead of creating a new Search Administration database. The upgraded Search Administration database retains any additions or modifications made to the search schema, result sources and query rules from the SharePoint Server 2016 farm. 
   
 > [!NOTE]
 > During this upgrade, search doesn't crawl content in your SharePoint Server 2016. If freshness of search results is important, save time by familiarizing yourself with these steps before starting the upgrade. 
@@ -449,7 +447,7 @@ SharePoint Server 2019 Public Preview normally creates a new search topology wit
   
  **To upgrade the Search service application by using PowerShell**
   
-1. To copy the search administration database in the SharePoint Server 2013 with Service Pack 1 (SP1) farm to the SharePoint Server 2016 farm, follow these steps:
+1. To copy the search administration database in the SharePoint Server 2016 farm to the SharePoint Server 2019 Public Preview farm, follow these steps:
     
     > [!NOTE]
     > You copied all other content and service databases in your SharePoint Server 2016 environment in an earlier step of the process for upgrading to SharePoint Server 2019 Public Preview. We recommend copying the Search Administration database at this later stage because you have to pause the Search service application in your SharePoint Server 2016 environment while copying the Search Administration database. 
