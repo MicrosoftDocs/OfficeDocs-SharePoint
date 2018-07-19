@@ -57,9 +57,9 @@ Create a web application for each web application that existed in the SharePoint
     
 - Use the same authentication method.
     
-    For example, if you use Windows Classic authentication in your old environment, and you want to continue to use it, then you must create a web application that uses Windows Classic authentication. Because claims-based authentication is now the default option for SharePoint 2013, you must use PowerShell to create a web application that uses Windows Classic authentication. 
+    For example, if you use Windows Classic authentication in your old environment, and you want to continue to use it, then you must create a web application that uses Windows Classic authentication. Because claims-based authentication is now the default option for SharePoint 2013, you must use PowerShell to create a web application that uses Windows Classic authentication. If the desired outcome is to use claims-based authentication, create the new Web Application in SharePoint 2013 as a claims-based web application rather than Windows Classic authentication.
     
-    Alternatively, you can migrate to claims authentication. For more information, see [Migrate from classic-mode to claims-based authentication in SharePoint 2013](migrate-from-classic-mode-to-claims-based-authentication-in-sharepoint-2013.md).
+    To migrate to claims authentication, see [Migrate from classic-mode to claims-based authentication in SharePoint 2013](migrate-from-classic-mode-to-claims-based-authentication-in-sharepoint-2013.md).
     
 - Recreate included paths.
     

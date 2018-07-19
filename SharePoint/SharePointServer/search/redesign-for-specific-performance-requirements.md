@@ -95,9 +95,9 @@ When the amount of indexed items increases while the indexed items change at the
 | Link database                    | Use one link database for each 60 million items in the content corpus. For example, an index with 100 million items requires two link databases.  <br/> If the added content implies a higher crawl rate, you might need more IOPS resources to serve the link databases.                                                                                                                                                                                                                                                                                             |
 | Analytics reporting database     | How many analytics reporting databases you need, depends on how the search environment uses analytics, and how often. In general, add an analytics reporting database when the analytics performance starts decreasing. For example, when the nightly update of the database starts to take more time. This might happen when the database reaches a size of 250 GB, or 20 million rows in total, or when the number of views per day reaches 500,000 unique items.                                                                                                   |
    
-<sup>1</sup>10 million items with SharePoint Server 2013, or with SharePoint Server 2016 running with less resources than 500 GB RAM, 32 GB RAM, and eight CPU cores.
+<sup>1</sup>10 million items with SharePoint Server 2013, or with SharePoint Server 2016 running with less resources than 500 GB storage, 32 GB RAM, and eight CPU cores.
   
-<sup>2</sup>40 million items with SharePoint Server 2013, or with SharePoint Server 2016 running with less resources than 500 GB RAM, 32 GB RAM, and eight CPU cores.
+<sup>2</sup>40 million items with SharePoint Server 2013, or with SharePoint Server 2016 running with less resources than 500 GB storage, 32 GB RAM, and eight CPU cores.
   
 ### How to increase the ingestion rate and the freshness of results
 <a name="BKMK_HowIncreaseIngestion"> </a>
@@ -353,7 +353,7 @@ These are the minimum resources a server or virtual machine must have to host on
 | **Storage**                      | **Memory**        | **Processor**                                      | **Network bandwidth** |
 | 500 GB for the index<sup>1</sup> | 32 GB<sup>1</sup> | 64-bit, 8 cores minimum<sup>1</sup>, <sup>2</sup>. | 2 Gbps                |
    
-<sup>1</sup>With SharePoint Server 2013 the minimum amount of resources are 500 GB storage,16 GB RAM, and four CPU cores. 
+<sup>1</sup>With SharePoint Server 2013 the minimum amount of resources are 500 GB storage, 16 GB RAM, and four CPU cores. 
   
 <sup>2</sup>You can use 16 GB RAM and four CPU cores with SharePoint Server 2016, but then each index component can maximum hold 10 million items (instead of 20 million items).
   

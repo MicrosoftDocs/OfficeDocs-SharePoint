@@ -3,30 +3,60 @@ title: "New and improved features in the SharePoint Migration Tool"
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
-ms.date: 4/10/2018
+ms.date: 7/3/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: f3f3e548-196f-44b9-b630-645d781bc096
-description: "Learn about the new features and updates to existing features in SharePoint Migration Tool, Version 0.2.78.0."
+description: "Learn about the new features and updates to existing features in SharePoint Migration Tool."
 ---
 
 # Release Notes:  New and improved features in the SharePoint Migration Tool
 
-Learn about the new features and updates to existing features in SharePoint Migration Tool, Version 1.1.901.
+Learn about the new features and updates to existing features in SharePoint Migration Tool.
   
 >[!NOTE]
-> The new V2 beta release is now available for download. 
->To install the new V2 beta release, download it here: [SharePoint Migration Tool V2 Beta release](http://spmtreleasescus.blob.core.windows.net/betainstall/default.htm)
-
-
->[!NOTE]
->To install the current release download here: [SharePoint Migration Tool Version 1.1.90.1](http://spmtreleasescus.blob.core.windows.net/install/default.htm)
+>To install the current release download here: [SharePoint Migration Tool](http://spmtreleasescus.blob.core.windows.net/install/default.htm)
   
-## New features
+### SPMT V2.1.100.0
 
-The following features have been added to SharePoint Migration Tool, Version 1.1.901.
+**New features**
+
+The following features were added to SharePoint Migration Tool, Version 2.1.100.0
+
+|**Feature**|**Description**|
+|:-----|:-----|
+|Powershell migration solution* <br/> |All features of the SharePoint Migration Tool (SPMT) can now be done by using PowerShell cmdlets.<br>
+|Settings<br/> |Improved labels and text descriptions for settings.  <br/> |
+
+**Note:**<br>
+To use the SPMT 2.1 PowerShell feature (currently in open beta): <br>  
+1. Open SPMT v2.1. The PowerShell .dll's will be copied to      *%userprofile%\Documents\WindowsPowerShell\Modules*<br>
+2. Run the following:<br>
+    ```powershell
+    Import-Module Microsoft.SharePoint.MigrationTool.PowerShell
+    ```
+    <br>To learn more, see:<br> 
+[Migrate to SharePoint Online using PowerShell](https://docs.microsoft.com/en-us/sharepointmigration/overview-spmt-ps-cmdlets)<br>
+[SharePoint Migration Tool PowerShell Reference](https://docs.microsoft.com/en-us/powershell/module/spmt)
+
+   
+**Improvements**
+
+In addition to a number of minor fixes, here are the primary improvements made in this release:
+  
+|**Issue**|**Fix**|
+|:-----|:-----|
+|Stability  <br/> |General improvements have been made to remove some errors in tool.  <br/> |
+|Permissions settings<br/> |Separate settings are now available to set file share permissions and the SharePoint on-premises permissions. <br/> |
+|Changes to migrating multiple versions <br/> |Checked-in version(s) of a file will migrate but any the checked-out version will not. <br/> |
+
+### SPMT V1.1.90.1
+
+**New features**
+
+The following features were added to SharePoint Migration Tool, Version 1.1.901.
   
 |**Feature**|**Description**|
 |:-----|:-----|
@@ -34,7 +64,7 @@ The following features have been added to SharePoint Migration Tool, Version 1.1
 |Computer names column  <br/> |A column containing the name of the computers running the migration job has been added to the report.  <br/> |
 |Support of incremental check on target environment  <br/> |In SharePoint Online, an incremental check of the target environment will be performed. If the modified time of the source file is earlier than the modified time of the target file, the file will not be migrated.  <br/> |
    
-## Improvements
+**Improvements**
 
 In addition to a number of minor fixes, here are the primary improvements made in this release:
   
@@ -49,9 +79,8 @@ In addition to a number of minor fixes, here are the primary improvements made i
 
 #### Other Resources
 
-[Download SharePoint Migration Tool V2 Beta release](http://http://spmtreleasescus.blob.core.windows.net/betainstall/default.htm)
 
-[Download SharePoint Migration Tool Version 1.1.90.1](http://spmtreleasescus.blob.core.windows.net/install/default.htm)
+[Download SharePoint Migration Tool](http://spmtreleasescus.blob.core.windows.net/install/default.htm)
   
 [How to use the SharePoint Migration Tool](how-to-use-the-sharepoint-migration-tool.md)
 

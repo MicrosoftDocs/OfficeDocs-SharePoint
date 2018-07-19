@@ -219,7 +219,7 @@ $dataDisk1=New-AzureRmDisk -DiskName ($vmName + "-SQLData") -Disk $diskConfig -R
 $vm=Add-AzureRmVMDataDisk -VM $vm -Name ($vmName + "-SQLData") -CreateOption Attach -ManagedDiskId $dataDisk1.Id -Lun 1
 $cred=Get-Credential -Message "Type the name and password of the local administrator account of the SQL Server computer." 
 $vm=Set-AzureRMVMOperatingSystem -VM $vm -Windows -ComputerName $vmName -Credential $cred -ProvisionVMAgent -EnableAutoUpdate
-$vm=Set-AzureRMVMSourceImage -VM $vm -PublisherName MicrosoftSQLServer -Offer SQL2014SP1-WS2012R2 -Skus Standard -Version "latest"
+$vm=Set-AzureRMVMSourceImage -VM $vm -PublisherName MicrosoftSQLServer -Offer SQL2014SP2-WS2012R2 -Skus Standard -Version "latest"
 $vm=Add-AzureRMVMNetworkInterface -VM $vm -Id $nic.Id
 New-AzureRMVM -ResourceGroupName $rgName -Location $locName -VM $vm
 ```

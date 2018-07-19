@@ -3,7 +3,6 @@ title: "Configure hybrid sites features - roadmap"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 11/3/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
@@ -23,7 +22,7 @@ description: "Summary: Learn how to configure hybrid sites features for SharePoi
 
  **Summary:** Learn how to configure hybrid sites features for SharePoint hybrid with Office 365. 
   
-This article provides a roadmap for configuring [hybrid sites features](http://technet.microsoft.com/library/4bf21275-1b38-4299-b80d-5f12e8b87a47%28Office.14%29.aspx). Follow these steps in the order shown. If you already completed a step when you followed a different roadmap, skip that step, and go to the next one.
+This article provides a roadmap for configuring [hybrid sites features](sharepoint-hybrid-sites-and-search.md#SitesFeatures). Follow these steps in the order shown. If you already completed a step when you followed a different roadmap, skip that step, and go to the next one.
   
 |**Step**|**Description**|
 |:-----|:-----|

@@ -1,9 +1,9 @@
 ---
-title: "Overview of MinRole Server Roles in SharePoint Server 2016"
+title: "Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019 Public Preview"
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
-ms.date: 1/26/2017
+ms.date: 7/24/2018
 ms.audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
@@ -14,16 +14,16 @@ ms.collection:
 - Strat_SP_server
 ms.custom: 
 ms.assetid: a590d614-7488-4b03-8c8f-d45dd48ca726
-description: "Learn about the new MinRole farm topology and its benefits in SharePoint Server 2016."
+description: "Learn about the new MinRole farm topology and its benefits in SharePoint Servers 2016 and 2019 Public Preview."
 ---
 
-# Overview of MinRole Server Roles in SharePoint Server 2016
+# Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019 Public Preview
 
-Learn about the new MinRole farm topology and its benefits in SharePoint Server 2016.
+Learn about the new MinRole farm topology and its benefits in SharePoint Servers 2016 and 2019 Public Preview.
   
 ## What is MinRole?
 
- **MinRole** is a new farm topology based on a set of predefined server roles introduced in SharePoint Server 2016. When configuring your SharePoint farm, you now select the role of a server when you create a new farm or join a server to an existing farm. SharePoint will automatically configure the services on each server based on the server's role. SharePoint Server 2016 has been optimized for the MinRole farm topology. 
+ **MinRole** is a new farm topology based on a set of predefined server roles introduced in SharePoint Server 2016. When configuring your SharePoint farm, you now select the role of a server when you create a new farm or join a server to an existing farm. SharePoint will automatically configure the services on each server based on the server's role. SharePoint Server 2016 and 2019 Public Preview has been optimized for the MinRole farm topology. 
   
 The following video gives a general overview what MinRole is and can do for your organization.
   
@@ -34,7 +34,7 @@ Some of the primary benefits to using MinRole are:
   
 - **Simplified deployment**: Now you no longer need to worry about which services should be started on which servers. By deploying your farm in a recommended MinRole topology, you can focus on what functionality to enable in your farm and let SharePoint take care of the rest. 
     
-- **Improved performance and reliability**: Microsoft has been operating SharePoint Online for years and has analyzed the performance characteristics of SharePoint under a variety of conditions, including CPU, memory, disk I/O, and network latency. SharePoint Server 2016 has been optimized for the MinRole farm topology based on that analysis. By deploying your farm in a recommended MinRole topology, you'll be able to reduce network latency and increase reliability. 
+- **Improved performance and reliability**: Microsoft has been operating SharePoint Online for years and has analyzed the performance characteristics of SharePoint under a variety of conditions, including CPU, memory, disk I/O, and network latency. SharePoint Servers 2016 and 2019 Public Preview have been optimized for the MinRole farm topology based on that analysis. By deploying your farm in a recommended MinRole topology, you'll be able to reduce network latency and increase reliability. 
     
 - **Simplified capacity planning and farm scalability**: Microsoft bases capacity planning on the MinRole topology. By deploying your farm in a recommended MinRole topology, you'll be able to leverage more predictable and prescriptive capacity-planning guidance. Plus, it's now easier to add servers into your farm as your needs grow because SharePoint automatically configures the additional servers for you. 
     
@@ -58,7 +58,7 @@ MinRole is also self-healing. ﻿MinRole scans each server in your farm once a d
   
 ## ﻿How does MinRole simplify capacity planning and farm scalability?
 
-﻿Microsoft provides a variety of recommended MinRole farm topologies for our customers, including small, medium, and large-sized farms. To review the recommended MinRole farm topologies, see [Planning for a MinRole server deployment in SharePoint Server 2016](planning-for-a-minrole-server-deployment-in-sharepoint-server-2016.md).
+﻿Microsoft provides a variety of recommended MinRole farm topologies for our customers, including small, medium, and large-sized farms. To review the recommended MinRole farm topologies, see [Planning for a MinRole server deployment in SharePoint Servers 2016 and 2019 Public Preview](planning-for-a-minrole-server-deployment-in-sharepoint-server-2016.md).
   
 MinRole is also adaptable with ﻿built-in ﻿server role conversion. You can easily convert a server from one server role to another without having to disconnect a server from a farm and then rejoining it to the farm. Server role conversion can be performed through the Central Administration web site or Windows PowerShell.
   
@@ -66,11 +66,11 @@ MinRole is also adaptable with ﻿built-in ﻿server role conversion. You can ea
 
 ﻿Starting with the November 2016 Public Update for SharePoint Server 2016, ﻿Microsoft has introduced the following enhancements to MinRole:
   
-- Better support for small and medium-sized farm topologies via new shared roles. Now you can ﻿deploy a MinRole farm with just 2 servers, or a high availability (HA) MinRole ﻿farm with just 4 servers. For more ﻿information about these new roles and recommended MinRole farm topologies, see [Planning for a MinRole server deployment in SharePoint Server 2016](planning-for-a-minrole-server-deployment-in-sharepoint-server-2016.md)﻿.
+- Better support for small and medium-sized farm topologies via new shared roles. Now you can ﻿deploy a MinRole farm with just 2 servers, or a high availability (HA) MinRole ﻿farm with just 4 servers. For more ﻿information about these new roles and recommended MinRole farm topologies, see [Planning for a MinRole server deployment in SharePoint Servers 2016 and 2019 Public Preview](planning-for-a-minrole-server-deployment-in-sharepoint-server-2016.md)﻿.
     
-- ﻿An improved server role conversion experience via role conversion pre-validation. Now MinRole will check to ﻿ensure your ﻿server is ready for role conversion before starting the conversion. If it detects that the server isn't ready, it will block ﻿the conversion and ﻿present a message explaining why the role conversion was blocked, as well as instructions to resolve the issue. For more information about role conversion pre-validation, see [Role conversion using MinRole in SharePoint Server 2016](../administration/role-conversion-using-minrole-in-sharepoint-server-2016.md).
+- ﻿An improved server role conversion experience via role conversion pre-validation. Now MinRole will check to ﻿ensure your ﻿server is ready for role conversion before starting the conversion. If it detects that the server isn't ready, it will block ﻿the conversion and ﻿present a message explaining why the role conversion was blocked, as well as instructions to resolve the issue. For more information about role conversion pre-validation, see [Role conversion using MinRole in SharePoint Servers 2016 and 2019 Public Preview](../administration/role-conversion-using-minrole-in-sharepoint-server-2016.md).
     
-- ﻿Updated service instance assignments for each server role to ensure your farm is operating at optimal performance. For more information about the new service instance assignments, see [Description of MinRole and associated services in SharePoint Server 2016](../administration/description-of-minrole-and-associated-services-in-sharepoint-server-2016.md).
+- ﻿Updated service instance assignments for each server role to ensure your farm is operating at optimal performance. For more information about the new service instance assignments, see [Description of MinRole and associated services in SharePoint Servers 2016 and 2019 Public Preview](../administration/description-of-minrole-and-associated-services-in-sharepoint-server-2016.md).
     
 Microsoft recommends installing the November 2016 Public Update (or newer) for SharePoint Server 2016 to take full advantage of these MinRole enhancements.
   
@@ -80,10 +80,10 @@ Microsoft recommends installing the November 2016 Public Update (or newer) for S
 
 [Technical diagrams for SharePoint Server](../technical-reference/technical-diagrams.md)
   
-[Description of MinRole and associated services in SharePoint Server 2016](../administration/description-of-minrole-and-associated-services-in-sharepoint-server-2016.md)
+[Description of MinRole and associated services in SharePoint Servers 2016 and 2019 Public Preview](../administration/description-of-minrole-and-associated-services-in-sharepoint-server-2016.md)
 #### Other Resources
 
-[Planning for a MinRole server deployment in SharePoint Server 2016](planning-for-a-minrole-server-deployment-in-sharepoint-server-2016.md)
+[Planning for a MinRole server deployment in SharePoint Servers 2016 and 2019 Public Preview](planning-for-a-minrole-server-deployment-in-sharepoint-server-2016.md)
   
-[Managing a MinRole Server Farm in SharePoint Server 2016](../administration/managing-a-minrole-server-farm-in-sharepoint-server-2016.md)
+[Managing a MinRole Server Farm in SharePoint Servers 2016 and 2019 Public Preview](../administration/managing-a-minrole-server-farm-in-sharepoint-server-2016.md)
 

@@ -168,7 +168,22 @@ You can now use this location as an installation point, or you can create an ima
   
 ### Slipstream package
 
-In server farm deployments, all web servers must have the same software update version applied. This means that, before you add a new web server to an existing server farm, the new web server must have the same software updates as the rest of the web servers in your server farm. Likewise, when you create a farm, all servers in the farm must have the same software updates. To make sure that all new servers have the same software updates applied, we recommend that you create an installation source that contains a copy of the release version of the software and software updates that match those installed on your server farm (also known as a slipstreamed installation source). When you run Setup from this updated installation source, the new web server will have the same software update version as the rest of the web servers in your server farm. 
+SharePoint farm deployments require that all servers have the same patch level when joining the farm. It may also be desired to have a specific patch level when building a new farm. To do this, the update packages can be slipstreamed into the SharePoint installation media. The steps to slipstream an update are outlined below.
+
+* Copy the SharePoint installation media to a read-write location, such as the local disk of the SharePoint server, for example, C:\SharePointInstall.
+
+* Within the extracted SharePoint installation folder, there is an Updates folder, C:\SharePointInstall\Updates. This is the folder where the slipstreamed packages will reside.
+
+* Download the two update packages for the particular month you wish to slipstream, for example, KB4022178 and KB4022173, the June 2018 Public Updates.
+
+* Extract each update to the target location. This can be done via the Command Prompt/PowerShell using the following examples.
+
+```
+PS C:\>sts2016-kb4022173-fullfile-x64-glb.exe /extract:C\SharePointInstall\Updates
+PS C:\>wssloc2016-kb4022178-fullfile-x64-glb.exe /extract:C\SharePointInstall\Updates
+```
+
+With the extraction complete, run the Setup from the installation location, `C:\SharePointInstall\setup.exe`. Setup will automatically apply the update during the installation process of SharePoint.
   
 ## See also
 <a name="obtainupdate"> </a>
