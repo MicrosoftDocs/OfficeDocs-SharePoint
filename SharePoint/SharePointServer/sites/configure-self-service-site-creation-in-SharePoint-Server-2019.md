@@ -14,17 +14,17 @@ ms.collection:
 description: "Summary: Learn how to configure self-service site creation in different web applications and remote server farms in SharePoint Server 2019 Public Preview."
 ---
 
-# Configure self-service site creation in the SharePoint home page
+# Configure self-service site creation in SharePoint Server 2019
 
 **Summary:** Learn how to configure self-service site creation in different web applications and remote server farms in SharePoint Server 2019 Public Preview.
 
-The self-service site creation experience in the SharePoint supports creating new sites in a different web application, regardless of whether the web application is hosted on the local farm or a remote farm. This gives greater flexibility and control in managing SharePoint farms.
+The self-service site creation experience in SharePoint supports creating new sites in a different web application, regardless of whether the web application is hosted on the local farm or a remote farm. This gives greater flexibility and control in managing SharePoint farms.
 
 Self-service site creation updates for SharePoint Server 2019 Public Preview offers the following:
 
 - The ability to create sites in other web applications and in web applications hosted in remote SharePoint farms.
  
-- By default the SharePoint home page only uses modern site templates when self-service site creation is enabled. If you want users to only  create classic sites you can add the (/_layouts/15/scsignup.aspx) page to use classic site templates.
+- By default the SharePoint home page and team sites only use modern site templates when self-service site creation is enabled. If you want users to only  create classic sites you can add the (/_layouts/15/scsignup.aspx) page for users to use classic site templates.
 
 - The ability for farm administrators to hide the Create Site link from the SharePoint home page, so users have to go through their IT organization to create new sites.
  
@@ -43,6 +43,9 @@ SharePoint Farm Administrators control self-service site creation in different w
 4. To create sites in the same web application, select **This web application**.
 
 5. To create sites in a different web application on the local farm, select **The following web application** and then select the web application from the drop-down field. Ensure self service site creation is enabled in the target web application.
+
+> [!NOTE]
+> When you enable self-service site creation, a link to create a site is added to the SharePoint home page.
 
 > [!NOTE]
 > When configuring self-service site creation on remote farms, both farms must be running SharePoint Server 2019 Public Preview. We don’t support self-service site creation in remote farms if the remote farms are running an older version of SharePoint.
