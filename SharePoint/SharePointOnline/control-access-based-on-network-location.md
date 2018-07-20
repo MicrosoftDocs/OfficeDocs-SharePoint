@@ -64,16 +64,16 @@ Here are some important considerations for setting a location-based policy:
     
 3. Run [Set-SPOTenant](https://go.microsoft.com/fwlink/?linkid=872571) to specify your allowed IP addresses, as in this example (replace the example IP address "131.102.0.0/16" with your own): 
     
-  ```
+  ```PowerShell
   Set-SPOTenant -IPAddressAllowList "131.102.0.0/16"
   ```
 
    > [!IMPORTANT]
-   >  Use IPv4 or IPv6 formats ony. >  Verify that there are no overlapping IP address ranges. >  Double check the IP range(s) before enabling this policy to ensure you do not lock yourself out. 
+   >  Use IPv4 or IPv6 formats ony. <br>Verify that there are no overlapping IP address ranges. <br>Double check the IP range before enabling this policy to ensure you do not lock yourself out. 
   
 4. Enforce the allowable IP ranges you just set as in this example:
     
-  ```
+  ```PowerShell
   Set-SPOTenant -IPAddressEnforcement $true
   
   ```
