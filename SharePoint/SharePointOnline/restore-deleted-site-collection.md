@@ -15,7 +15,7 @@ description: "Learn how to get back a deleted site collection in SharePoint Onli
 
 # Restore a deleted site collection
 
-When a global or SharePoint admin in Office 365 deletes a site collection, it's placed in the site collection Recycle Bin, where it's kept for 93 days before it's permanently deleted. This article describes how global admins and SharePoint admins can restore deleted site collections. For info about restoring other items from the site collection Recycle Bin, see [Restore deleted items from the site collection recycle bin ](https://support.office.com/article/5fa924ee-16d7-487b-9a0a-021b9062d14b).
+When a global or SharePoint admin in Office 365 deletes a site collection, it's placed in the site collection Recycle Bin, where it's kept for 93 days before it's permanently deleted. This article describes how global admins and SharePoint admins can restore deleted site collections. For info about restoring other items from the site collection Recycle Bin, see [Restore deleted items from the site collection recycle bin](https://support.office.com/article/5fa924ee-16d7-487b-9a0a-021b9062d14b).
   
 If you're an admin for SharePoint Server, learn how to [Restore deleted site collections using Microsoft Powershell](https://go.microsoft.com/fwlink/?linkid=866959).
   
