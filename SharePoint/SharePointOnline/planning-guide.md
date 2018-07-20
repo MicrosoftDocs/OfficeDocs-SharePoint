@@ -19,7 +19,7 @@ description: "Learn important details that a SharePoint Online admin should cons
 
 # SharePoint Online planning guide
 
-As an Office 365 global or SharePoint admin in your organization, you can use the SharePoint admin center to:
+As an Office 365 global or SharePoint admin in your organization, you can use the classic SharePoint admin center to:
   
 - Create and manage classic site collections including allocating and monitoring site collection storage
     
@@ -34,11 +34,13 @@ Here's an overview of important details you should consider when planning how to
 ## Plan the site collections you need to create
 <a name="__toc346712635"> </a>
 
-A site collection has the same owner and shares administrative settings, such as permissions. When you create a site collection, a top-level site is automatically created in the site collection. For classic sites, you can create one or more subsites below the top-level site. You can create separate site collections for each unit of work. 
+A site collection has the same owner and shares administrative settings, such as permissions. When you create a site collection, a top-level site is automatically created in the site collection. You can create subsites below the top-level site.  
+
+> [!NOTE]
+> Instead of using subsites, we recommend creating a separate site collection for each unit of work, and connecting them by using hub sites. To learn more, see [Planning your SharePoint hub sites](planning-hub-sites.md). 
   
 ![SharePoint admin center site collections settings](media/3edc4ae1-cf3c-430b-9afb-d09fe5045cf0.png)
   
-How you decide to organize site collections depends on the size of your organization and its business needs. For info about creating site collections, see [Create or delete a site collection](create-site-collection.md).
   
 Communication sites and new team sites that belong to Office 365 groups can't be created or managed in the classic SharePoint admin center. For info about creating these sites, see [Create a team site in SharePoint Online](https://support.office.com/article/ef10c1e7-15f3-42a3-98aa-b5972711777d) and [Create a communication site in SharePoint Online](https://support.office.com/article/7fb44b20-a72f-4d2c-9173-fc8f59ba50eb). For info about allowing users to create sites, see [Manage site creation in SharePoint Online](manage-site-creation.md). For info about managing these sites using Microsoft PowerShell, see [Manage team sites and communication sites by using PowerShell](manage-team-and-communication-sites-in-powershell.md).
   
