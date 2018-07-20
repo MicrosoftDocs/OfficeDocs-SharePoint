@@ -24,7 +24,7 @@ description: "Here is how SharePoint Online company administrators can change th
  As a global or SharePoint admin in Office 365, you can feature the sites and content you want on the SharePoint home page by changing the **Links** list on the left side. To add links to a SharePoint Server page, see [Video: Add a link to a page](https://support.office.com/article/F9B329F9-67BB-4258-A686-9CD98415E7CA).
   
 > [!NOTE]
-> Some functionality is introduced gradually to organizations that have opted in to the [Set up the Standard or Targeted release options in Office 365](https://support.office.com/article/3b3adfa4-1777-4ff0-b606-fb8732101f47). This means that you may not yet see this feature or it may look different than what is described in the help articles. > To learn more about the SharePoint home page, see [Find news, sites, and portals in Office 365](https://support.office.com/article/6b85097a-87e0-4611-a29a-dfd49b1a1220). 
+> Some functionality is introduced gradually to organizations that have opted in to the [Set up the Standard or Targeted release options in Office 365](https://support.office.com/article/3b3adfa4-1777-4ff0-b606-fb8732101f47). This means that you may not yet see this feature or it may look different than what is described in the help articles. <br>>To learn more about the SharePoint home page, see [Find news, sites, and portals in Office 365](https://support.office.com/article/6b85097a-87e0-4611-a29a-dfd49b1a1220). 
   
 To view the SharePoint home page in Office 365:
   
@@ -34,7 +34,7 @@ To view the SharePoint home page in Office 365:
     
     ![Office 365 start page with SharePoint selected](media/4ff2c093-2b26-4d28-a65b-4d02e66818df.png)
   
-    If you don't see the list of apps, select the app launcher icon ![The app launcher icon in Office 365](media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png) in the top left corner of the page, and then select **SharePoint**.
+    If you don't see the list of apps, select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the top left corner of the page, and then select **SharePoint**.
     
     ![Office 365 app list from app launcher button](media/c0e1bfcd-a6e0-416d-a3c1-687ec8d7e82b.png)
   
