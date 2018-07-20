@@ -29,7 +29,7 @@ Users assigned the SharePoint admin role have access to the SharePoint admin cen
 Site collection administrators are users that have permission to manage a site collection. They don't need to have an admin role in Office 365, and don't have access to the SharePoint admin center. A site collection can have several administrators, but must have one and only one primary administrator. 
   
 > [!NOTE]
-> Global admins, SharePoint admins, and site collection admins all need to be assigned a SharePoint Online license. > There is a separate role called the **term store administrator**. Users assigned this role can add or change terms in the term store (a directory of common terms you want to use across your organization). To learn more, see [Assign roles and permissions to manage term sets](assign-roles-and-permissions-to-manage-term-sets.md). 
+> Global admins, SharePoint admins, and site collection admins all need to be assigned a SharePoint Online license. <br>There is a separate role called the **term store administrator**. Users assigned this role can add or change terms in the term store (a directory of common terms you want to use across your organization). To learn more, see [Assign roles and permissions to manage term sets](assign-roles-and-permissions-to-manage-term-sets.md). 
   
 ## Key tasks of the SharePoint administrator
 <a name="BK_KeyTasks"> </a>
