@@ -25,8 +25,8 @@ The upgrade scenario has not changed in SharePoint Server 2019 Public Preview. T
 
 For a visual look of the high-level steps, refer to <Download Center to vsd and pdf>
 
-[!NOTE]
-The steps for creating and restoring service applications only applies to these six: 
+>[!NOTE]
+>The steps for creating and restoring service applications only applies to these six: 
 
 •	Secure Store service application<br/> 
 •	Business Data Connectivity service application<br/> 
@@ -49,8 +49,8 @@ Next, upgrade all the site collections from 14 mode to 15 mode by using the [Upg
 
 In SharePoint Server 2016, build a new farm that includes service applications. When the service applications are created use the existing database names that reside on SQLNEW1.  After the new farm is created, create a new web application with a temporary database.  Install any full trust solutions, administrator approved InfoPath forms, etc.  Dismount the temporary content database from the web application.
 
-[!NOTE]
-You may need to delete the temporary content database from the SQL Server.
+>[!NOTE]
+>You may need to delete the temporary content database from the SQL Server.
 
 Start the upgrade process to SharePoint Server 2016 by running the [Mount-SPContentDatabase](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/mount-spcontentdatabase?view=sharepoint-ps) cmdlet on the restored content databases from SQLNEW1.  After the upgrade process is complete, perform any individual configuration changes that are not part of the service application and content databases, such as incoming/outgoing email settings, etc.
 
@@ -62,8 +62,8 @@ Create a backup of all content and service application databases from your old f
 
 In SharePoint Server 2019 Public Preview, build a new farm that includes service applications. When the service applications are created use the existing database names that reside on SQL2019NEW1.  After the new farm is created, create a new web application with a temporary database.  Install any full trust solutions, administrator approved InfoPath forms, etc.  Dismount the temporary content database from the web application.
 
-[!NOTE]
-You may need to delete the temporary content database from the SQL Server.
+>[!NOTE]
+>You may need to delete the temporary content database from the SQL Server.
 
 Start the upgrade process to SharePoint Server 2016 by running the [Mount-SPContentDatabase](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/mount-spcontentdatabase?view=sharepoint-ps) cmdlet on the restored content databases from SQLNEW1.  After the upgrade process is complete, perform any individual configuration changes that are not part of the service application and content databases, such as incoming/outgoing email settings, etc.
 

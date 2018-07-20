@@ -369,6 +369,7 @@
 ##### [Configure the maximum number of co-authoring authors](../governance/configure-the-maximum-number-of-co-authoring-authors.md)
 ##### [Disable co-authoring](../governance/disable-co-authoring.md)
 ### [Workflow in SharePoint Server](../governance/workflow-in-sharepoint-server.md)
+### [SharePoint Workflow Manager in SharePoint Servers 2016 and 2019 Public Preview](../governance/configure-SharePoint-WorkflowManager-2019.md)
 #### [Getting started with SharePoint Server workflow](../governance/getting-started-with-sharepoint-server-workflow.md)
 ##### [Install and configure workflow for SharePoint Server](../governance/install-and-configure-workflow-for-sharepoint-server.md)
 ##### [Install Workflow Manager certificates in SharePoint Server](../governance/install-workflow-manager-certificates-in-sharepoint-server.md)
