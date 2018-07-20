@@ -23,7 +23,7 @@ The Site management page of the new SharePoint admin center (preview) lets you v
 ![Manage sites in the new SharePoint admin center](media/2a18e27e-47ba-4370-8d91-cb6d75d746b5.png)
   
 > [!NOTE]
-> The Site management page lists the root website for each site collection. Subsites aren't included in the list. > Some functionality is introduced gradually to organizations that have opted in to the [Set up the Standard or Targeted release options in Office 365](https://support.office.com/article/3b3adfa4-1777-4ff0-b606-fb8732101f47). This means that you may not yet see this feature or it may look different than what is described in this article. 
+> The Site management page lists the root website for each site collection. Subsites aren't included in the list. <br>Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Office 365](https://support.office.com/article/3b3adfa4-1777-4ff0-b606-fb8732101f47). This means that you may not yet see this feature or it may look different than what is described in this article. 
   
 To manage sites in the new SharePoint admin center, go to the current SharePoint admin center, click "Try the preview" in the upper right, and then select **Site management**. For info about the new SharePoint admin center, see [Get started with the new SharePoint admin center](get-started-new-admin-center.md).
   
@@ -68,7 +68,7 @@ On the Site management page, you can email the primary admins of the sites you s
 1. In the left column, click to select one or more sites.
     
     > [!NOTE]
-    >  You can email the primary admins for all sites except those that belong to an Office 365 group. If you want to email several owners at one time, sort or filter columns to exclude sites that belong to an Office 365 group before you make your selection. >  Users who are the primary admin for more than one site will receive an email for each site. 
+    >  You can email the primary admins for all sites except those that belong to an Office 365 group. If you want to email several owners at one time, sort or filter columns to exclude sites that belong to an Office 365 group before you make your selection. <br>Users who are the primary admin for more than one site will receive an email for each site. 
   
 2. Click **Email admins**.
     
