@@ -51,7 +51,7 @@ One reason you may want to change the default experience at the site and site co
 4. Copy the following code and paste it into a text editor, such as Notepad. For this article, we will name the script file, CustomActions.ps1.
     
     > [!NOTE]
-    > This script needs to be run separately for each website you want to check CustomActions for. The placeholder names indicated in \< \> need to be change to meet your organizational requirements. > There are commented lines, denoted by the pound sign (#), in the sections of script for site collection level and site levels. To run the appropriate script, remove the pound sign (#) in front of the lines in the section that you want to change the experience for. 
+    > This script needs to be run separately for each website you want to check CustomActions for. The placeholder names indicated in \< \> need to be change to meet your organizational requirements. <br>> There are commented lines, denoted by the pound sign (#), in the sections of script for site collection level and site levels. To run the appropriate script, remove the pound sign (#) in front of the lines in the section that you want to change the experience for. 
   
   ```
   # This file uses CSOM. Replace the paths below with the path to CSOM on this computer.
