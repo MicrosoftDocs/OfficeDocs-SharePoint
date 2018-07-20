@@ -14,7 +14,7 @@ description: "SharePoint Online admin landing page."
 
 # SharePoint Online admin
 
-SharePoint Online admin landing page.
+Help your users share, organize, and discover information with SharePoint.
   
 <ul class="panelContent cardsFTitle">
     <li>
