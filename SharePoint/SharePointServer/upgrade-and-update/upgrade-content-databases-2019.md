@@ -191,7 +191,7 @@ By default, when you created the web applications in the new SharePoint Server 2
     
   -  _URL_ is the URL for the web application that will host the sites. 
     
-For more information, see [Mount-SPContentDatabase](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/mount-spcontentdatabase?view=sharepoint-ps). After the databases are upgraded, the site collections are automatically upgraded. For additional information on how to upgrade a site collection, see [Upgrade a site collection to SharePoint Server 2019 Public Preview](upgrade-a-site-collection-2019).
+For more information, see [Mount-SPContentDatabase](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/mount-spcontentdatabase?view=sharepoint-ps). After the databases are upgraded, the site collections are automatically upgraded. For additional information on how to upgrade a site collection, see [Upgrade a site collection to SharePoint Server 2019 Public Preview](upgrade-a-site-collection-2019.md).
   
 ## Verify upgrade for the first database
 <a name="Status"> </a>

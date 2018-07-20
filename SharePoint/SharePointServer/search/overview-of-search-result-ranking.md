@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 7c8ddec1-c8ff-4a90-afae-387b27a653f1
-description: "Summary: Learn howSharePoint Server 2016 and SharePoint Server 2013 use ranking models to calculate the relevance rank of search results and how you can influence the order of search results by using query rules, the search schema and ranking models."
+description: "Summary: Learn how SharePoint Server 2019 Public Preview, SharePoint Server 2016, and SharePoint Server 2013 use ranking models to calculate the relevance rank of search results for the classic search experience and how you can influence the order of search results by using query rules, the search schema and ranking models."
 ---
 
 # Overview of search result ranking in SharePoint Server
 
- **Summary:** Learn how SharePoint Server 2016 and SharePoint Server 2013 use ranking models to calculate the relevance rank of search results and how you can influence the order of search results by using query rules, the search schema and ranking models. 
+ **Summary:** Learn how SharePoint Server 2019 Public Preview, SharePoint Server 2016, and SharePoint Server 2013 use ranking models to calculate the relevance rank of search results for the classic search experience, and how you can influence the order of search results by using query rules, the search schema and ranking models. 
   
 The search engine calculates the relevance rank, that is to say, the order in which the search results for a query appear. The ranking model is at the core of this calculation. In most cases, you can influence relevance by using the available SharePoint Server ranking models in combination with query rules without having to consider customizing any ranking models. 
   
