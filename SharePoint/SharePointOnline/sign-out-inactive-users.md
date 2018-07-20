@@ -50,7 +50,7 @@ This policy is configured using Microsoft PowerShell.
     
 3. Run the following command at the SharePoint Online Management Shell command prompt:
     
-  ```
+  ```PowerShell
   Set-SPOBrowserIdleSignOut -Enabled $true -WarnAfter (New-TimeSpan -Seconds 2700) -SignOutAfter (New-TimeSpan -Seconds 3600) 
   ```
 
@@ -63,6 +63,6 @@ This policy is configured using Microsoft PowerShell.
   - -SignOutAfter specifies the amount of time after which is a user is signed out of Office 365 if they do not respond to the -WarnAfter prompt.
     
 > [!NOTE]
-> You must specify values for both WarnAfter and SignOutAfter. The SignOutAfter must be greater than the WarnAfter value. > It takes about 15 minutes for the policy to take effect across your organization. The policy doesn't affect existing sessions. To view the idle session sign-out values you've set, use the Get-SPOBrowserIdleSignOut cmdlet. For info about Office 365 session lengths (regardless of activity), see [Session timeouts for Office 365](https://support.office.com/article/37a5c116-5b07-4f70-8333-5b86fd2c3c40). 
+> You must specify values for both WarnAfter and SignOutAfter. The SignOutAfter must be greater than the WarnAfter value. <br>It takes about 15 minutes for the policy to take effect across your organization. The policy doesn't affect existing sessions. To view the idle session sign-out values you've set, use the Get-SPOBrowserIdleSignOut cmdlet.<br>For info about Office 365 session lengths (regardless of activity), see [Session timeouts for Office 365](https://support.office.com/article/37a5c116-5b07-4f70-8333-5b86fd2c3c40). 
   
 
