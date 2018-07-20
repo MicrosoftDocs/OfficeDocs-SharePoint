@@ -118,10 +118,10 @@ Folders for the language-specific components are identified by the language tag 
 
 SharePoint Servers 2016 and 2019 Public Preview support the following languages:
 
-|**Language**|**Language tag**|**LCID**|**Comment**
+|**Language**|**Language tag**|**LCID**
 |:-----|:-----|:-----|:-----
 |Arabic |ar-sa  <br/> | 1025 <br/>
-|Azerbaijani (Latin) formerly called Azeri <br/> |az-latn-az  <br/> |1068 <br/>|Not released for SharePoint 2019 Public Preview, will be released for SharePoint 2019 RTM.
+|Azerbaijani <br/> |az-latn-az  <br/> |1068 <br/>|Not released for SharePoint 2019 Public Preview, will be released for SharePoint 2019 RTM.
 |Bulgarian <br/> |bg-bg  <br/> |1026 <br/>
 |Bosnian (Latin) <br/> |bs-latn-ba  <br/> |5146 <br/>|Not released for SharePoint 2019 Public Preview, will be released for SharePoint 2019 RTM.
 |Catalan <br/> |ca-es <br/> |1027 <br/>
