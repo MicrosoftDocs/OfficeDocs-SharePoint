@@ -13,7 +13,7 @@ description: "Learn how to delete classic site collections in the classic ShareP
 
 # Delete a site collection
 
-When you, as a global or SharePoint admin in Office 365, delete a site collection, it's moved to the site collection Recycle Bin and are retained for 93 days. Deleting the site collection deletes everything within it, including:
+When you, as a global or SharePoint admin in Office 365, delete a site collection, it's moved to the site collection Recycle Bin and retained for 93 days. Deleting the site collection deletes everything within it, including:
   
 - Document libraries and files.
     
