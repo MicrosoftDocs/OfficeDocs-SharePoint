@@ -78,7 +78,7 @@ As a SharePoint admin, you can delete and restore classic site collections using
 ## Manage permissions and help secure content
 <a name="__toc349560423"> </a>
 
-An important consideration when setting up and deploying a site collection is permission and security. Managing your user base and securing the content and data needs to be considered for a successful site. For info about the SharePoint admin role in Office 365, and about the tasks of a SharePoint admin, see [About the SharePoint admin role in Office 365](sharepoint-admin-role.md). For info about the tasks of site collection admins, see [Plan sites and manage users](https://support.office.com/article/8e568d8d-3d65-42c4-99fa-f7285c9db842).
+An important consideration when setting up and deploying a site collection is permission and security. Managing your user base and securing the content and data needs to be considered for a successful site. For info about the SharePoint admin role in Office 365, and about the tasks of a SharePoint admin, see [About the SharePoint admin role in Office 365](sharepoint-admin-role.md). 
   
 ### Allow external users access to your internal sites
 <a name="__plan_for_user"> </a>
