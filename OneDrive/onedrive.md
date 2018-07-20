@@ -36,42 +36,6 @@ OneDrive for Business admin landing page.
         </a>
     </li>
     <li>
-        <a href="https://techcommunity.microsoft.com/t5/Microsoft-OneDrive-Blog/bg-p/OneDriveBlog">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/blog-site-blue.svg" alt="Blog" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Read the OneDrive blog</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://products.office.com/onedrive-for-business/apps-that-work-with-onedrive">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/users-people.svg" alt="People" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Find apps that work with OneDrive</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
         <a href="https://fasttrack.microsoft.com/office">
         <div class="cardSize">
             <div class="cardPadding">
@@ -90,17 +54,17 @@ OneDrive for Business admin landing page.
         </a>
     </li>
     <li>
-        <a href="https://developer.microsoft.com/en-us/onedrive">
+        <a href="https://docs.microsoft.com/en-us/sharepointmigration/migrate-to-sharepoint-online">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/developer-blue.svg" alt="Code" />
+                            <img src="https://docs.microsoft.com/en-us/media/logos/logo_sharepoint.svg" alt="SharePoint logo" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>OneDrive Dev Center</h3>
+                        <h3>Migrate to OneDrive</h3>
                     </div>
                 </div>
             </div>
@@ -126,17 +90,53 @@ OneDrive for Business admin landing page.
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/en-us/sharepointmigration/migrate-to-sharepoint-online">
+        <a href="https://techcommunity.microsoft.com/t5/Microsoft-OneDrive-Blog/bg-p/OneDriveBlog">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/logos/logo_sharepoint.svg" alt="SharePoint logo" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/blog-site-blue.svg" alt="Blog" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Migrate to OneDrive</h3>
+                        <h3>Read the OneDrive blog</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://products.office.com/business/office-365-roadmap?filters=onedrive">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/users-people.svg" alt="People" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>See the OneDrive roadmap</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://products.office.com/onedrive-for-business/apps-that-work-with-onedrive">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/users-people.svg" alt="People" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Find apps that work with OneDrive</h3>
                     </div>
                 </div>
             </div>
