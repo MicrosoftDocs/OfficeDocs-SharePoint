@@ -18,7 +18,7 @@ OneDrive for Business admin landing page.
   
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="https://onedrive.live.com/download/">
+        <a href="https://onedrive.live.com/about/download/">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -54,7 +54,7 @@ OneDrive for Business admin landing page.
         </a>
     </li>
     <li>
-        <a href="https://www.microsoft.com/microsoft-365/partners/?">
+        <a href="https://products.office.com/onedrive-for-business/apps-that-work-with-onedrive">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -64,7 +64,7 @@ OneDrive for Business admin landing page.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Microsoft 365 for partners</h3>
+                        <h3>Find apps that work with OneDrive</h3>
                     </div>
                 </div>
             </div>
@@ -82,7 +82,7 @@ OneDrive for Business admin landing page.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Envision, onboard, and drive value with FastTrack</h3>
+                        <h3>Use FastTrack onboarding and adoption services</h3>
                     </div>
                 </div>
             </div>
@@ -108,7 +108,7 @@ OneDrive for Business admin landing page.
         </a>
     </li>
     <li>
-        <a href="https://onedrive.uservoice.com/forums/262982-onedrive">
+        <a href="https://onedrive.uservoice.com/">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -126,7 +126,7 @@ OneDrive for Business admin landing page.
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/en-us/sharepoint/sites/set-up-onedrive-for-business">
+        <a href="https://docs.microsoft.com/en-us/sharepointmigration/migrate-to-sharepoint-online">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -136,7 +136,7 @@ OneDrive for Business admin landing page.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Set up OneDrive in SharePoint Server on-premises</h3>
+                        <h3>Migrate to OneDrive</h3>
                     </div>
                 </div>
             </div>
@@ -144,7 +144,7 @@ OneDrive for Business admin landing page.
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/en-us/microsoftteams/sharepoint-onedrive-interact">
+        <a href="https://support.office.com/article/3db87243-ed3b-46f5-ace6-518db68429b1">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -154,7 +154,7 @@ OneDrive for Business admin landing page.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Teams chat files</h3>
+                        <h3>Troubleshoot issues</h3>
                     </div>
                 </div>
             </div>
