@@ -26,7 +26,7 @@ From the admin center, you can also add users to an app, or delegate management 
 > [!NOTE]
 > The Office and SharePoint App Stores are optional services operated by Microsoft Corporation or its affiliate from any of Microsoft's worldwide facilities. The apps available in the Store are provided by various app publishers, and are subject to the app publisher's terms and conditions and privacy statement. Your use of any of these apps may result in your data being transferred to, stored, or processed in any country where the app publisher, its affiliates or service providers maintain facilities. Availability of specific apps and payment methods depends on your region and service. You can review the app publisher's terms and conditions and privacy statements before downloading and using such apps. 
   
-1. [Where to sign in to Office 365 for business](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4) with your SharePoint Online admin username and password. 
+1. Sign in to Office 365 as a global admin or SharePoint admin. 
     
 2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
@@ -49,7 +49,7 @@ Under View a purchase, select the arrow next to Actions, and then select Recover
 In the License Managers section, select add manager. Type the name(s) of the people you want to add (or select the address book icon to select people). When you have finished typing or selecting names, select Add Manager underneath the text box. |
    
 > [!NOTE]
->  If this is a free app, some of the actions in the table above will not apply. >  A user cannot grant an app permissions to do more than that user has permissions to do. 
+>  If this is a free app, some of the actions in the table above will not apply. <br>A user cannot grant an app permissions to do more than that user has permissions to do. 
   
 ## See also
 <a name="__top"> </a>
