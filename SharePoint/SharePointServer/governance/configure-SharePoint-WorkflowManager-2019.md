@@ -51,5 +51,11 @@ Some additional features in this release are the following:
 3. Run "WorkflowManagerClient_x64.msi" to install the Workflow Manager Client.
 4. After the installer has completed, run the Workflow Manager Configuration Wizard from your Start menu and follow the instructions on the screen.
 
+>[!NOTE]
+>It is recommended that you install SharePoint Workflow Manager on a standalone computer. This version of the SharePoint Workflow Manager does not support upgrading an existing Workflow Manager that is already installed. 
+
+Installation instructions for this version are the same as previous versions. For installation instructions on how Workflow Manager was installed on earlier versions of SharePoint Server and Workflow Manager, see [Install and configure workflow for SharePoint Server](https://docs.microsoft.com/en-us/SharePoint/governance/install-and-configure-workflow-for-sharepoint-server).
+
+
 
 
