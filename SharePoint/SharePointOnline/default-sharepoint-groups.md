@@ -102,17 +102,17 @@ These users are the main contacts for a whole site collection. Site Collection A
   
 In SharePoint On-premises, you designate a site collection administrator when you install a site.
   
-In SharePoint Online, the account that you used when you setup SharePoint Online is automatically a site collection administrator. If you have to add more site collection administrators in SharePoint Online, an existing site collection administrator or the SharePoint online administrator can do so.
+In SharePoint Online, the account that you used when you set up SharePoint Online is automatically a site collection administrator. If you have to add more site collection administrators in SharePoint Online, an existing site collection administrator or the SharePoint online administrator can do so.
   
-SharePoint online administrators
+SharePoint administrators
   
 ||**SharePoint Online**|**SharePoint On-premises**|
 |:-----|:-----|:-----|
 |Who can use this group?  <br/> |Yes  <br/> |No, by default.  <br/> Requires special installation.  <br/> |
    
-If you use SharePoint Online in Office 365 plans other than Office 365 Small Business and Office 365 Small Business Premium, there is also a SharePoint online administrator. Any Office 365 global administrator also has permissions to browse and use the tenant administration site. A SharePoint online administrator manages settings for all site collections available to the SharePoint online subscription. 
+If you use SharePoint Online in Office 365 plans other than Office 365 Small Business and Office 365 Small Business Premium, there is also a SharePoint administrator. A SharePoint administrator can use the SharePoint admin center or PowerShell to manage settings for all site collections. Any Office 365 global administrator also has the permissions of a SharePoint admin.  
   
-The SharePoint online administrator can do any of the following tasks:
+The SharePoint administrator can do any of the following tasks:
   
 - Configure user profile and InfoPath forms services
     
@@ -132,6 +132,6 @@ The SharePoint online administrator can do any of the following tasks:
     
 - Assign primary and secondary site collection owners to any site collection in their venue.
     
-If you are using SharePoint on-premises, you do not have a SharePoint Online Administrator, or SharePoint Online Administrator site, after a standard SharePoint installation.
+If you are using SharePoint on-premises, you do not have a SharePoint administrator or SharePoint admin center after a standard SharePoint installation.
   
 

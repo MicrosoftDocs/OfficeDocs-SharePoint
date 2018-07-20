@@ -31,7 +31,7 @@ For more information about your options for developing custom apps for SharePoin
 
 The first step is to create the App Catalog site collection if it hasn't already been created. 
   
-Even if you don't plan to make internal custom apps available, you will not be able to do things like change the purchase settings for the SharePoint Store until you create an App Catalog site collection. You can have only one App Catalog site collection per SharePoint Online tenant, and only have to create it once. 
+Even if you don't plan to make internal custom apps available, you will not be able to do things like change the purchase settings for the SharePoint Store until you create an App Catalog site collection. You can have only one App Catalog site collection for your organization, and you only need to create it once. 
   
 1. Sign in to Office 365 as a global admin or SharePoint admin.
     

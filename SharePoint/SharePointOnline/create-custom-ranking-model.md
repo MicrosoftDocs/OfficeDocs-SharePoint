@@ -236,7 +236,7 @@ The new ranking model is by default available for the site where you added the a
     
   - Current site collection
     
-  - **All site collections** (For SharePoint Online: the whole tenant. For on-premises: the whole Search Service Application.) 
+  - **All site collections** (For SharePoint Online: the whole organization. For on-premises: the whole Search Service Application.) 
     
 3. Click **Publish**.
     

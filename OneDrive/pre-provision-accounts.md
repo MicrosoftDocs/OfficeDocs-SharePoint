@@ -67,8 +67,8 @@ This article describes how to pre-provision OneDrive for your users by using Pow
    The file must contain 1 to 200 users
    C:\users.txt
   .NOTES
-   This script needs to be run by a SharePoint Online Tenant Administrator
-   This script will prompt for the username and password of the Tenant Administrator
+   This script needs to be run by a global or SharePoint administrator in Office 365
+   This script will prompt for the username and password of the administrator
   #>
   param
   (
@@ -92,9 +92,9 @@ This article describes how to pre-provision OneDrive for your users by using Pow
       return 
   }
   $web = $ctx.Web
-  Write-Host "Please enter a Tenant Admin username" -ForegroundColor Green
+  Write-Host "Enter an admin username" -ForegroundColor Green
   $username = Read-Host
-  Write-Host "Please enter your password" -ForegroundColor Green
+  Write-Host "Enter your password" -ForegroundColor Green
   $password = Read-Host -AsSecureString
   $ctx.Credentials = New-Object Microsoft.SharePoint.Client.SharePointOnlineCredentials($username,$password )
   $ctx.Load($web)

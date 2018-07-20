@@ -30,7 +30,7 @@ By default, only site collections that are not shared externally (i.e. external 
   
 ## Before you can enable auto-acceleration
 
-Your SharePoint Online tenant must meet the following requirements before auto-acceleration can be enabled.
+Your SharePoint Online environment must meet the following requirements before auto-acceleration can be enabled.
   
 |**Requirement**|**Reason**|
 |:-----|:-----|
