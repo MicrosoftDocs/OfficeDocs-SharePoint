@@ -161,7 +161,7 @@ SharePoint Online admin landing page.
                 <div class="card">
                     <div class="cardText">
                         <h3>Transform business processes</h3>
-                        <p><a href="https://docs.microsoft.com/en-us/flow/getting-started">Get started with Microsoft flow</a></p><p><a href="https://docs.microsoft.com/en-us/powerapps/">PowerApps</a></p>
+                        <p><a href="https://docs.microsoft.com/en-us/flow/getting-started">Get started with Microsoft Flow</a></p><p><a href="https://docs.microsoft.com/en-us/powerapps/">PowerApps</a></p>
                     </div>
                 </div>
             </div>
