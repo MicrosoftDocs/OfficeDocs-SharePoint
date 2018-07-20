@@ -40,15 +40,18 @@ Your SharePoint Online tenant must meet the following requirements before auto-a
 
 To enable AD FS auto-acceleration for internal site collections, you use the  _SignInAccelerationDomain_ parameter with the Windows PowerShell cmdlet **Set-SPOTenant**. 
   
-For example, to set auto-acceleration for the Contoso.com domain, you would run:
-  
-```
+For example, to set auto-acceleration for the Contoso.com domain:
+ 
+1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
+    
+2. Connect to SharePoint Online as a global admin or SharePoint admin in Office 365. To learn how, see [Getting started with SharePoint Online Management Shell](https://go.microsoft.com/fwlink/?linkid=869066).
+3. Run the following command:
+```PowerShell
 Set-SPOTenant -SignInAccelerationDomain "contoso.com"
 ```
-
-If you have configured your IdP to support guest users, you can accelerate sites with external sharing enabled by running:
+4. If you have configured your IdP to support guest users, you can accelerate sites with external sharing enabled by running:
   
-```
+```PowerShell
 Set-SPOTenant -EnableGuestSignInAcceleration $true
 ```
 
@@ -61,13 +64,13 @@ For more information, see [Set-SPOTenant](https://go.microsoft.com/fwlink/?LinkI
 
 If you have already enabled auto-acceleration and want to disable it, you can change $true to $false for  _EnableGuestSignInAcceleration_, as in this example:
   
-```
+```PowerShell
 Set-SPOTenant -EnableGuestSignInAcceleration $false
 ```
 
 Alternatively, you can to disable auto-acceleration for the domain by using  _SignInAccelerationDomain_ with a null value, as in this example: 
   
-```
+```PowerShell
 Set-SPOTenant -SignInAccelerationDomain ""
 ```
 
