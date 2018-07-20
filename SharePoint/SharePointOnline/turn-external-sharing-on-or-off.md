@@ -18,16 +18,16 @@ description: "Learn how to turn sharing on and off for SharePoint Online."
 
 If you're working with vendors, clients, or customers outside of your organization, you might want to give them access to certain areas of your site or to specific documents. In this article, we'll show you how to turn sharing on or off sharing for SharePoint Online. You must be a global or SharePoint admin in Office 365 to do this.
   
-External sharing is controlled at both the tenant level (global settings that affect all of SharePoint Online) and the site collection level. The tenant-level settings determine what options are available at the site collection level.
+External sharing is controlled at both the organization level (global settings that affect all of SharePoint Online) and the site collection level. The organization-level settings determine what options are available at the site collection level.
   
-The external sharing settings for individual site collections cannot be *less* restrictive than whatever is allowed at the tenant level, but these settings can be *more* restrictive. For example, if external sharing is turned on at the tenant level, but it is limited to allowing only authenticated users, then that will be the only kind of external sharing you can allow in a specific site collection. If external sharing through both sign-in and anonymous guest links is allowed at the tenant level, then those options are also available for each site collection. 
+The external sharing settings for individual site collections cannot be *less* restrictive than whatever is allowed at the organization level, but these settings can be *more* restrictive. For example, if external sharing is turned on at the organization level, but it is limited to allowing only authenticated users, then that will be the only kind of external sharing you can allow in a specific site collection. If external sharing through both sign-in and anonymous guest links is allowed at the organization level, then those options are also available for each site collection. 
   
 Choose one of the tabs below to configure sharing in SharePoint Online.
   
 ## Turn external sharing on or off globally for SharePoint Online
 <a name="__turn_external_sharing"> </a>
 
-Turning external sharing on at the tenant level means that site collections can then be enabled for sharing. In turn, sites and documents in a site collection that is enabled for sharing can be enabled for sharing.
+Turning external sharing on at the organization level means that site collections can then be enabled for sharing. In turn, sites and documents in a site collection that is enabled for sharing can be enabled for sharing.
   
 1. Sign in to Office 365 as a global admin or SharePoint admin.
     
