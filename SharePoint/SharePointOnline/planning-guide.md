@@ -42,7 +42,7 @@ A site collection has the same owner and shares administrative settings, such as
 ![SharePoint admin center site collections settings](media/3edc4ae1-cf3c-430b-9afb-d09fe5045cf0.png)
   
   
-Communication sites and new team sites that belong to Office 365 groups can't be created or managed in the classic SharePoint admin center. For info about creating these sites, see [Create a team site in SharePoint Online](https://support.office.com/article/ef10c1e7-15f3-42a3-98aa-b5972711777d) and [Create a communication site in SharePoint Online](https://support.office.com/article/7fb44b20-a72f-4d2c-9173-fc8f59ba50eb). For info about allowing users to create sites, see [Manage site creation in SharePoint Online](manage-site-creation.md). For info about managing these sites using Microsoft PowerShell, see [Manage team sites and communication sites by using PowerShell](manage-team-and-communication-sites-in-powershell.md).
+Communication sites and new team sites that belong to Office 365 groups can't be created or managed in the classic SharePoint admin center. For info about creating and managing these sites using the new SharePoint admin center preview, see [Manage sites in the new SharePoint admin center](manage-sites-in-new-admin-center.md). 
   
 ### Plan your site collection details
 
