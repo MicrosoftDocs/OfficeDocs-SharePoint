@@ -17,11 +17,16 @@ description: "Summary: Learn how you can configure settings to provide the most 
 
  **Summary:** Learn how you can configure settings to provide the most relevant search results in SharePoint Server. 
   
-The following articles provide information about how you manage relevance to improve classic search results in SharePoint Server.
+The following articles provide information about how you manage relevance to improve **classic** search results in SharePoint Server.
+
+You can improve **modern** search results by using query rules to promote individual results, but this works differently than for classic search. [Learn more](manage-query-rules.md)
+
+> [!IMPORTANT]
+> Modern search uses the default result source. If you change the default result source to adjust the classic search experience, this also affects the modern search experience.
   
 ## Articles about managing search relevance
 
-The following articles about managing search relevance in SharePoint ServerSharePoint Server 2016 are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
+The following articles about managing search relevance in SharePoint Server are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
   
 |                                                             **Content**                                                             |                                                                                                                                                             **Description**                                                                                                                                                             |
 | :---------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
