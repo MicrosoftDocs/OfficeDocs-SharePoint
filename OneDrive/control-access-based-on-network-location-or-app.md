@@ -12,6 +12,7 @@ ms.collection: Strat_OD_admin
 search.appverid:
 - ODB160
 - ODB150
+- MET150
 ms.assetid: 59b83701-cefd-4bf8-b4d1-d4659b60da08
 description: "Learn how to apply conditional access settings in the OneDrive admin center."
 ---

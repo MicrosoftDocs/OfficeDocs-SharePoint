@@ -12,6 +12,7 @@ ms.collection: Strat_OD_admin
 search.appverid:
 - ODB160
 - ODB150
+- MET150
 ms.assetid: eadddc4e-edc0-4982-9f50-2aef5038c307
 
 description: "Learn how to change settings when deploying or managing the OneDrive sync client on macOS."

@@ -8,7 +8,9 @@ ms.audience: Admin
 ms.topic: article
 ms.service: one-drive
 localization_priority: Normal
-search.appverid: ODB160
+search.appverid:
+- ODB160
+- MET150
 ms.assetid: ef883c48-332c-42f5-8aea-f0e2366c15f9
 description: "Learn what happens to a user's OneDrive when the user's Office 365 account for the organization is deleted"
 ---

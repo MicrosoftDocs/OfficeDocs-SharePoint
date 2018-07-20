@@ -14,6 +14,7 @@ search.appverid:
 - ODB150
 - GOB150
 - GOB160
+- MET150
 ms.assetid: e1b3963c-7c6c-4694-9f2f-fb8005d9ef12
 description: "Learn how to redirect users' Documents folders or other known folders to OneDrive. "
 ---

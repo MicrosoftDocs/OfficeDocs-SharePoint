@@ -15,6 +15,7 @@ search.appverid:
 - MED150
 - MBS150
 - ODB150
+- MET150
 ms.assetid: 0ecb2cf5-8882-42b3-a6e9-be6bda30899c
 description: "Learn how to use group policy to administer settings for the OneDrive sync client."
 ---

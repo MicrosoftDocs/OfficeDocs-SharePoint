@@ -12,6 +12,7 @@ ms.collection: Strat_OD_admin
 search.appverid:
 - ODB160
 - ODB150
+- MET150
 ms.assetid: 7d7168dd-9015-4245-a971-61b504f834d6
 description: "Learn how to prevent users from syncing specific file types using the OneDrive admin center. "
 ---

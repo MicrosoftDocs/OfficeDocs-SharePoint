@@ -12,6 +12,7 @@ ms.collection: Strat_OD_admin
 search.appverid:
 - ODB160
 - ODB150
+- MET150
 ms.assetid: d25713bb-5cf8-4874-9b5b-e8bee3b94f13
 description: "Learn how to create a mobile application management policy for the OneDrive and SharePoint mobile apps in the OneDrive admin center. "
 ---

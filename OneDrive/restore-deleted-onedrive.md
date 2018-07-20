@@ -8,7 +8,9 @@ ms.audience: Admin
 ms.topic: article
 ms.service: one-drive
 localization_priority: Normal
-search.appverid: ODB160
+search.appverid:
+- ODB160
+- MET150
 ms.assetid: e487f40d-5321-46a8-9504-92b600b65cb9
 description: "Learn how to restore a deleted user's OneDrive when the deleted user no longer appears in the Office 365 admin center."
 ---

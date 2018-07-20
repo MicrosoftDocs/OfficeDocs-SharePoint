@@ -15,6 +15,7 @@ search.appverid:
 - MED150
 - MBS150
 - ODB150
+- MET150
 ms.assetid: b640c693-f170-4227-b8c1-b0a7e0fa876b
 description: "Make sure OneDrive owners in your organization are emailed when their files and folders are shared externally."
 ---

@@ -8,7 +8,9 @@ ms.audience: ITPro
 ms.topic: article
 ms.service: one-drive
 localization_priority: Normal
-search.appverid: ODB160
+search.appverid:
+- ODB160
+- MET150
 ms.assetid: 64aa1f56-d7f6-4500-a408-1fde8fe6db36
 description: "Learn how IT admins can enable silent account configuration when deploying the OneDrive sync client in an enterprise."
 ---
