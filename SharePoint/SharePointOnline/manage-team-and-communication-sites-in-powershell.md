@@ -8,7 +8,9 @@ ms.audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
-search.appverid: SPO160
+search.appverid:
+- SPO160
+- MET150
 ms.assetid: 52ecc2ab-88c3-486e-b8ff-ef6a968ccd87
 description: "Learn how to use PowerShell to manage communication sites as well as team sites that are part of an Office 365 group."
 ---

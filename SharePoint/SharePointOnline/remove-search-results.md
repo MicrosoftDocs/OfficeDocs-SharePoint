@@ -8,7 +8,9 @@ ms.audience: End User
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
-search.appverid: SPO160
+search.appverid:
+- SPO160
+- MET150
 ms.assetid: b8177720-ff41-478e-bbe7-72183b97824f
 description: "As a search administrator, you can temporarily remove items from the search results with immediate effect. These items can be documents, pages, or sites that you don't want users to see when they search."
 ---

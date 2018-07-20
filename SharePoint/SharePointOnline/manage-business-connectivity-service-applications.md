@@ -8,7 +8,9 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-search.appverid: SPO160
+search.appverid:
+- SPO160
+- MET150
 ms.assetid: 2ced10aa-db9a-4828-a7a5-e47a57c3a823
 description: "In SharePoint Online, you can create Business Connectivity Services (BCS) connections to data sources, such as SQL Azure databases or Windows Communication Foundation (WCF) web services, that are outside the SharePoint site. Once you've created these connections, you can manage or edit BCS information on the SharePoint admin center site. You can log on to the SharePoint admin center site directly, or log on to the Office 365 admin center and then move to the SharePoint admin center."
 ---

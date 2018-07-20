@@ -13,6 +13,7 @@ search.appverid:
 - SPO160
 - BSA160
 - GSP150
+- MET150
 ms.assetid: b5a5f1f1-1174-4c6b-91d0-9273a6b6971f
 description: "Learn how to restrict access to SharePoint and OneDrive from untrusted networks."
 ---

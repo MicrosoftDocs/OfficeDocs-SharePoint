@@ -8,7 +8,9 @@ ms.audience: End User
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
-search.appverid: SPO160
+search.appverid:
+- SPO160
+- MET150
 ms.assetid: 53556bb4-3625-490b-aa89-1223e3d4ce3f
 description: "Improve search results by creating and managing query rules. Query rules help searches respond to the intent of users."
 ---

@@ -8,7 +8,9 @@ ms.audience: End User
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
-search.appverid: SPO160
+search.appverid:
+- SPO160
+- MET150
 ms.assetid: 2a420d01-4706-4d23-980e-c4c877113670
 description: "Change search settings to control whether or not content on a site may appear in search results."
 ---

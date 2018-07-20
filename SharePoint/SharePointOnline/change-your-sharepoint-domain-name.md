@@ -21,6 +21,7 @@ search.appverid:
 - MED150
 - MBS150
 - BCS160
+- MET150
 ms.assetid: 576325ad-8c40-4fe8-8a63-68c3b7d536cf
 description: "Learn what you need to do to switch to a new domain name for SharePoint Online"
 ---

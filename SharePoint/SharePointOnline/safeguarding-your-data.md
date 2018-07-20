@@ -11,6 +11,7 @@ ms.collection: Strat_SP_admin
 search.appverid:
 - SPO160
 - ODB160
+- MET150
 ms.assetid: 5aa038e8-8ff0-4704-9e6a-fd72af0a2035
 description: "Learn what Microsoft does to protect your data in SharePoint Online and OneDrive, and steps you can take to increase security"
 ---

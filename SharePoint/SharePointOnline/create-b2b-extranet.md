@@ -14,6 +14,7 @@ search.appverid:
 - MOE150
 - BSA160
 - GSP150
+- MET150
 ms.assetid: 7b087413-165a-4e94-8871-4393e0b9c037
 description: "Learn how to use Office 365 SharePoint Online and OneDrive for Business as a Business to Business (B2B) Extranet solution 
 

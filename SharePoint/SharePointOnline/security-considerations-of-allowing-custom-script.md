@@ -12,6 +12,7 @@ search.appverid:
 - SPO160
 - SPB160
 - BSA160
+- MET150
 ms.assetid: b0420ab0-aff2-4bbc-bf5e-03de9719627c
 description: "Learn about security factors to consider before you allow users to run custom script on SharePoint sites or OneDrive. "
 ---

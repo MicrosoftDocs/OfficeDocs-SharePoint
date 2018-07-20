@@ -9,7 +9,9 @@ ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
 ms.collection: Strat_OD_share
-search.appverid: SPO160
+search.appverid:
+- SPO160
+- MET150
 ms.assetid: 6288296a-b6b7-4ea4-b4ed-c297bf833e30
 description: "Learn how to turn sharing on and off for SharePoint Online."
 ---

@@ -8,7 +8,9 @@ ms.audience: End User
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
-search.appverid: SPO160
+search.appverid:
+- SPO160
+- MET150
 ms.assetid: fd8d6ac6-c5d0-454d-80a9-51580902b25d
 
 description: "Result sources limit searches to certain content or to a subset of search results. You can create your own result sources, or change the predefined result sources."

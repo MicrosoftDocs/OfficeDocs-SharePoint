@@ -8,7 +8,9 @@ ms.audience: End User
 ms.topic: reference
 ms.service: sharepoint-online
 localization_priority: Normal
-search.appverid: SPO160
+search.appverid:
+- SPO160
+- MET150
 ms.assetid: 7c06e9ed-98b6-4304-a900-14773a8fa32f
 description: "As an admin who manages SharePoint Online (for more information, see SharePoint Online search administration overview), you should also be aware of limits to search. For example, there are limits to the number of entries you can have in a custom search dictionary or the number of rows that are returned as part of a search."
 ---

@@ -8,7 +8,9 @@ ms.audience: End User
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
-search.appverid: SPO160
+search.appverid:
+- SPO160
+- MET150
 ms.assetid: 68429de6-7c7b-455c-a90a-2afaa3444647
 description: "You can influence the pages or documents that should appear at the top of your list of search results by identifying high-quality pages, also known as authoritative pages."
 ---

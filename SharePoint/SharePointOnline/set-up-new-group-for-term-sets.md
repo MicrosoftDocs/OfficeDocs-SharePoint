@@ -11,6 +11,7 @@ localization_priority: Normal
 search.appverid:
 - SPO160
 - OSU150
+- MET150
 ms.assetid: 2b6d2e1b-6b1f-43db-80dc-51ca777b3d17
 description: "Learn how easy it is to create a group for a collection of terms in a term set. When you make groups for term sets, you can specify a hierarchy of terms."
 ---

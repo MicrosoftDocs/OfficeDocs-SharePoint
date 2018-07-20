@@ -11,6 +11,7 @@ localization_priority: Normal
 search.appverid:
 - SPO160
 - OSU150
+- MET150
 ms.assetid: 8255dbdf-1c0a-4987-88d8-8f4a0a980953
 description: "Learn how to create a new term set for managed metadata in SharePoint"
 ---

@@ -13,6 +13,7 @@ search.appverid:
 - SPO160
 - BSA160
 - GSP150
+- MET150
 ms.assetid: abacd1bb-295d-4235-afdd-15f5e4cc2e6c
 description: "Learn important details that a SharePoint Online admin should consider when planning to build out, configure, and manage SharePoint Online site collections."
 ---

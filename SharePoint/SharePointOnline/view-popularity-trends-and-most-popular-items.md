@@ -8,7 +8,9 @@ ms.audience: End User
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
-search.appverid: SPO160
+search.appverid:
+- SPO160
+- MET150
 ms.assetid: a522cc35-4e63-49da-9968-85c588878932
 description: "Learn how to view popularity trends for an item, page, site, or site collection."
 ---

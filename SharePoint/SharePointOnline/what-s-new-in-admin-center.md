@@ -12,6 +12,7 @@ ms.collection: Strat_SP_admin
 search.appverid:
 - SPO160
 - BSA160
+- MET150
 ms.assetid: 317eed2b-d266-4c4c-9a37-1aceed9db567
 description: "We're continuously adding new features to the new SharePoint admin center (preview) and fixing issues we learn about. Here's a summary of what's included, and what's coming up. You can help us improve the admin center by sending us your suggestions and reporting bugs you encounter. In the lower-right corner of the admin center, click the Feedback button."
 ---

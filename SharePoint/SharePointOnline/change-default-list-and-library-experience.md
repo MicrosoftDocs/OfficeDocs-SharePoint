@@ -11,6 +11,7 @@ search.appverid:
 - SPO160
 - BSA160
 - GSP150
+- MET150
 ms.assetid: a0d90eaf-5755-4b8d-96ee-9e25bdf9114e
 description: "Admin instructions for how to switch SharePoint Online libraries from new to classic experience and back, using the Admin center or Windows PowerShell. "
 ---

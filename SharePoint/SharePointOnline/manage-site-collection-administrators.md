@@ -13,6 +13,7 @@ search.appverid:
 - SPO160
 - BSA160
 - GSP150
+- MET150
 ms.assetid: 9a7e46f9-3fc4-4297-955a-82cb292a5be0
 description: "Learn how to add and remove site collection admins."
 ---

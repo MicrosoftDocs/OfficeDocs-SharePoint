@@ -11,7 +11,9 @@ localization_priority: Normal
 ms.collection:
 - Ent_O365_Hybrid
 - Strat_OD_share
-search.appverid: SPO160
+search.appverid:
+- SPO160
+- MET150
 ms.assetid: c5384693-53ab-4f6f-99a2-59e74185d87f
 description: "Learn how to configure SharePoint Online Admin Managed Partner Users (Guests) scenario."
 ---

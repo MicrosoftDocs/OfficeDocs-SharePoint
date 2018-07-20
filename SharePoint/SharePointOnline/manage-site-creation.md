@@ -13,6 +13,7 @@ search.appverid:
 - SPO160
 - BSA160
 - GSP150
+- MET150
 ms.assetid: e72844a3-0171-47c9-befb-e98b23e2dcf9
 description: "Learn how to manage your user's self-service site creation."
 ---

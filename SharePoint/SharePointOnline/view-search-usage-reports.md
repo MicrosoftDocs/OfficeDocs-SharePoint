@@ -8,7 +8,9 @@ ms.audience: End User
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
-search.appverid: SPO160
+search.appverid:
+- SPO160
+- MET150
 ms.assetid: 2cd8f257-c29b-423d-8265-d44e6214d095
 description: "View usage reports and search reports and see how often your users search, what their top queries are, and which queries they're having trouble getting answers for. Usage analytics and search analytics replace the discontinued web analytics from previous versions of SharePoint."
 ---

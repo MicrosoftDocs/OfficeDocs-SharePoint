@@ -8,7 +8,9 @@ ms.audience: End User
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
-search.appverid: SPO160
+search.appverid:
+- SPO160
+- MET150
 ms.assetid: 9afa977d-39de-4321-b4ca-8c7c7e6d264e
 description: "Manually request crawling and full re-indexing of a site by clicking the Reindex site button. All of the site content is marked as changed and will be picked up during the next crawl and re-indexed."
 ---

@@ -10,6 +10,7 @@ localization_priority: Normal
 search.appverid:
 - SPO160
 - BSA160
+- MET150
 ms.assetid: 16fe6bf4-64f0-4078-b8c8-3761537303c5
 description: "Learn how global and SharePoint admins can allow or prevent site collection administrators from connecting classing team sites to new Office 365 groups."
 ---

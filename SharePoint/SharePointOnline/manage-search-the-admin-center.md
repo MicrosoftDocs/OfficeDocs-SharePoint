@@ -8,7 +8,9 @@ ms.audience: Admin
 ms.topic: overview
 ms.service: sharepoint-online
 localization_priority: Normal
-search.appverid: SPO160
+search.appverid:
+- SPO160
+- MET150
 ms.assetid: 21ea5d29-6cb2-4e40-9cc8-77c05d94beb5
 description: "Use the SharePoint Online search administration page to customize the search experience for users. Define searchable managed properties in the search schema, identify high-quality pages to improve relevance, manage query rules and result sources, and remove individual results. You can also evaluate any changes by viewing reports about usage and search."
 ---

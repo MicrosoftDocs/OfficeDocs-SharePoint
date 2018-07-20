@@ -20,6 +20,7 @@ search.appverid:
 - MOE150
 - MED150
 - MBS150
+- MET150
 ms.assetid: 3a3d7ab9-5d21-41f1-b4bd-5200071dd539
 description: "Learn how to create and delete SharePoint Online site collections in the SharePoint admin center."
 ---
