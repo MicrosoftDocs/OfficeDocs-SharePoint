@@ -40,9 +40,9 @@ Note that external sharing is turned on by default for your entire SharePoint On
   
 ## What are the external sharing features of SharePoint Online?
 
-SharePoint Online has both global (tenant-wide) and site collection settings for external sharing. The tenant-level settings override any settings at the site collection level, and also affect OneDrive.
+SharePoint Online has both global (organization-wide) and site collection settings for external sharing. The organization-level settings override any settings at the site collection level, and also affect OneDrive.
   
-For your SharePoint Online tenant and for each individual site collection, you can choose from the following basic sharing options:
+For your organization and each individual site collection, you can choose from the following basic sharing options:
   
 - No external sharing - sites and documents can only be shared with internal users in your Office 365 subscription.
     

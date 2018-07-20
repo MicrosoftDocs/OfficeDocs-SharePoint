@@ -140,7 +140,7 @@ odopen://sync/?siteId=SiteID_HERE&amp;webId=WebID_HERE&amp;listId=ListID_HERE&am
   %localappdata%\Microsoft\OneDrive\OneDrive.exe 
   ```
 
-    It starts the OneDrive process. If users haven't set up any accounts, it displays OneDrive Setup. To display OneDrive Setup specifically to users who haven't set up an account for your tenant, use the command line parameter: 
+    It starts the OneDrive process. If users haven't set up any accounts, it displays OneDrive Setup. To display OneDrive Setup specifically to users who haven't set up an account for your organization, use the command line parameter: 
     
   ```
    /configure_business:<tenantId>

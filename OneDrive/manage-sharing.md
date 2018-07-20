@@ -19,7 +19,7 @@ description: "Learn how to use the OneDrive admin center to control sharing sett
 
 # Manage sharing in OneDrive and SharePoint
 
-As a global admin or SharePoint admin in Office 365, you can use the OneDrive admin center to control how sharing works at the tenant level in OneDrive and SharePoint Online. Because each OneDrive is a site collection within SharePoint, your organization's SharePoint settings and OneDrive settings are related.
+As a global admin or SharePoint admin in Office 365, you can use the OneDrive admin center to control how sharing works at the organization level in OneDrive and SharePoint Online. Because each OneDrive is a site collection within SharePoint, your organization's SharePoint settings and OneDrive settings are related.
   
 If you're looking for info about how to share a file or folder in OneDrive, see [Share OneDrive files and folders](https://support.office.com/article/9fcc2f7d-de0c-4cec-93b0-a82024800c07#BKMK_BusinessTab).
   
@@ -59,7 +59,7 @@ By default, users are allowed to share files in OneDrive and SharePoint with any
   
 - The external sharing setting for SharePoint can be ** *more* ** permissive than what you allow in OneDrive, but not ** *less* ** permissive. If you turn off external sharing for SharePoint in your organization, you can't turn it on for OneDrive. 
     
-- If you want to allow external file sharing on any sites, you need to turn it on globally (at the tenant level). You can then turn it off for all other site collections.
+- If you want to allow external file sharing on any sites, you need to turn it on globally (at the organization level). You can then turn it off for all other site collections.
     
 - If you turn off external sharing, any links shared externally will stop working. If you later turn it back on, the links will resume working.
     

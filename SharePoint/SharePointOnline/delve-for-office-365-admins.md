@@ -98,7 +98,7 @@ Here are some resources that you can use to get your organization started with D
     
  **Data and geographic region**
   
-- When users go to Delve, for example by typing **delve.office.com** in a browser, they're automatically redirected to the geographic region where your organization's Office 365 tenant is located. After the redirect, a three letter prefix indicating the region is added to the URL, for example **https://nam.delve.office.com** for North America, or **https://eur.delve.office.com** for Europe. 
+- When users go to Delve, for example by typing **delve.office.com** in a browser, they're automatically redirected to the geographic region where your organization's Office 365 environment is located. After the redirect, a three letter prefix indicating the region is added to the URL, for example **https://nam.delve.office.com** for North America, or **https://eur.delve.office.com** for Europe. 
     
 ## Help users troubleshoot Delve
 <a name="BKMK_DelveTroubleshoot"> </a>

@@ -51,7 +51,7 @@ You can choose whether to allow versions in your subscription and decide how use
 6. Select **OK**.
     
     > [!NOTE]
-    > Options appear dimmed (unavailable) if this is a new subscription or if the root (tenant) level of an existing subscription hasn't been upgraded yet. 
+    > Options appear dimmed (unavailable) if this is a new subscription or if the root (organization) level of an existing subscription hasn't been upgraded yet. 
   
  **To enable or disable upgrades on select site collections**
   
