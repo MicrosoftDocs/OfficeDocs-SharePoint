@@ -7,7 +7,9 @@ ms.audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
-search.appverid: SPO160
+search.appverid:
+- SPO160
+- MET150
 ms.assetid: 4e95dcd8-7e79-4732-aa9b-2f351031b4c2
 description: "Learn about SharePoint intranet hub sites and how to -plan for them before you create them."
 ---

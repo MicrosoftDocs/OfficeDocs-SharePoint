@@ -11,6 +11,7 @@ localization_priority: Normal
 search.appverid:
 - SPO160
 - OSU150
+- MET150
 ms.assetid: 951216b9-81ac-4850-9ea0-7ad4c45eb231
 description: "Learn about the roles for managing metadata term sets on a SharePoint site, and how to assign people to those roles"
 ---

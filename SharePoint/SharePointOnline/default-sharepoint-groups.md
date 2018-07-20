@@ -11,6 +11,7 @@ localization_priority: Normal
 search.appverid:
 - SPO160
 - BSA160
+- MET150
 ms.assetid: 13bb2b6b-dd8c-447e-b71b-0e4bb9efe1d3
 description: "Learn what the default SharePoint security groups are available for SharePoint sites in Office 365."
 ---

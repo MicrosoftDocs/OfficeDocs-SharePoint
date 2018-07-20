@@ -15,6 +15,7 @@ search.appverid:
 - SPB160
 - ODB150
 - BSA160
+- MET150
 ms.assetid: 22e1f635-fb89-49e0-a176-edab26f69614
 description: "Learn how to enable users in your organization to sync SharePoint Online files with the new OneDrive sync client."
 ---

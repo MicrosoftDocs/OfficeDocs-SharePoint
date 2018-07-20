@@ -16,6 +16,7 @@ search.appverid:
 - MOE150
 - BSA160
 - GSP150
+- MET150
 ms.assetid: 494bec9c-6654-41f0-920f-f7f937ea9723
 description: "Learn how to use the SharePoint admin center to create and edit custom user properties, add and remove admins on OneDrive accounts, manage audiences, and disable OneDrive creation."
 ---

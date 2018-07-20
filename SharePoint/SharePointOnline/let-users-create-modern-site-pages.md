@@ -12,6 +12,7 @@ ms.collection: Strat_SP_modern
 search.appverid:
 - SPO160
 - BSA160
+- MET150
 ms.assetid: c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b
 description: "Learn how to allow or prevent users from adding pages on SharePoint sites."
 ---

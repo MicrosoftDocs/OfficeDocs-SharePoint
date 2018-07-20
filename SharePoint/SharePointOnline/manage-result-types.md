@@ -8,7 +8,9 @@ ms.audience: End User
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
-search.appverid: SPO160
+search.appverid:
+- SPO160
+- MET150
 ms.assetid: ceccf561-e82c-495c-bf3e-b3f006ae9c8c
 description: "Create and use result types to customize how results are displayed for particular types of documents."
 ---

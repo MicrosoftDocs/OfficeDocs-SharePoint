@@ -16,6 +16,7 @@ search.appverid:
 - BSA160
 - BCS160
 - GSP150
+- MET150
 ms.assetid: f08144d5-9d50-4922-8e77-4e1a27b40705
 description: "SharePoint Online admins manage your document storage. They also assign Site collection administrators and Term store administrators.  "
 ---

@@ -8,7 +8,9 @@ ms.audience: Admin
 ms.topic: get-started-article
 ms.service: o365-administration
 localization_priority: Normal
-search.appverid: SPO160
+search.appverid:
+- SPO160
+- MET150
 ms.assetid: bff957b8-6c29-4578-ada8-9e5d42c04489
 description: "This article describes how to configure which version of SharePoint is used when creating a site collection and whether or not the site collection can be upgraded to a new version of SharePoint."
 ---

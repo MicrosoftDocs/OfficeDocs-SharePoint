@@ -13,6 +13,7 @@ search.appverid:
 - OSU150
 - SPB160
 - OSI150
+- MET150
 ms.assetid: 345be622-2f63-450c-bd65-869ce830b7c1
 
 description: "If the standard SharePoint 2013 ranking models don't satisfy the relevance requirements you have, you can create a custom ranking model. With the Ranking Model Tuning App, you can do this more easily than before. The app provides a user interface for copying an existing ranking model, judge the results for a set of queries, add or remove rank features, and adjust the weight of these features. Finally, you can evaluate the changes, and publish the new ranking model when you're satisfied with the results."

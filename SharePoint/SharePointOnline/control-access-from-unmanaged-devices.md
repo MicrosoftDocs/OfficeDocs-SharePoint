@@ -12,6 +12,7 @@ ms.collection: Strat_SP_admin
 search.appverid:
 - SPO160
 - BSA160
+- MET150
 ms.assetid: 5ae550c4-bd20-4257-847b-5c20fb053622
 description: "Learn how to limit web access to SharePoint and OneDrive, or block all access, on devices that aren't compliant or joined to a domain."
 ---

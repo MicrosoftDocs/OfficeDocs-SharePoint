@@ -8,7 +8,9 @@ ms.audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
-search.appverid: SPO160
+search.appverid:
+- SPO160
+- MET150
 ms.assetid: 0fc83eeb-28c8-4f65-afe3-0ee515296a9d
 description: "Learn how result types and display templates help users quickly distinguish between different types of search results in SharePoint."
 ---

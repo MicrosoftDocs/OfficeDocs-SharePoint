@@ -13,6 +13,7 @@ search.appverid:
 - SPO160
 - BSA160
 - GSP150
+- MET150
 ms.assetid: 77389c2c-8e7e-4b16-ab97-1c7103784b08
 description: "Learn how to use the SharePoint admin center to manage storage and resource usage quotas for your site collections."
 ---

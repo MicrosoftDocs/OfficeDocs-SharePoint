@@ -11,7 +11,9 @@ localization_priority: Normal
 ms.collection:
 - IT_SharePoint_Hybrid
 - Strat_OD_share
-search.appverid: SPO160
+search.appverid:
+- SPO160
+- MET150
 ms.assetid: d29c9b70-5fdb-4fa0-84a8-6bd03b7517d8
 description: "The standard SharePoint Online external sharing features can be used to create a business-to-business (B2B) extranet collaboration site. There are several complimentary SharePoint Online sharing features that make SharePoint Online a great place to have simple, highly secure, and connected partners engagements."
 ---

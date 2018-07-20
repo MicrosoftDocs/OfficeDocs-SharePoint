@@ -16,6 +16,7 @@ search.appverid:
 - MOE150
 - FRP150
 - ODB150
+- MET150
 ms.assetid: 5d7589cd-0997-4a00-a2ba-2320ec49c4e9
 description: "Manage external access to your Office 365 tenant for OneDrive for Business and SharePoint Online Extranet B2B (Business-to-Business) sites by using the Allow List or Deny List feature to restrict access to specific email domains.  "
 ---

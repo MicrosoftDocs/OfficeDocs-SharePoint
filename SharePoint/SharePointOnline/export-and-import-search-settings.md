@@ -8,7 +8,9 @@ ms.audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
-search.appverid: SPO160
+search.appverid:
+- SPO160
+- MET150
 ms.assetid: b136a278-d302-4dc4-84b9-80287c59afdf
 description: "Learn how to export and import customized search configuration settings between tenants, site collections, and sites."
 ---

@@ -15,6 +15,7 @@ search.appverid:
 - SPO160
 - BSA160
 - GSP150
+- MET150
 ms.assetid: 81b763af-f301-4226-8842-8d13bd07face
 description: "When a user wants to share a document or folder, they can get a link to it to send to others."
 ---

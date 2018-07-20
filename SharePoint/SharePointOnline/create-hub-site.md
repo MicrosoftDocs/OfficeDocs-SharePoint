@@ -8,7 +8,9 @@ ms.audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
-search.appverid: SPO160
+search.appverid:
+- SPO160
+- MET150
 ms.assetid: 92bea781-15d8-4bda-805c-e441e2191ff3
 description: "Learn how to use PowerShell to create a hub site in SharePoint Online"
 ---

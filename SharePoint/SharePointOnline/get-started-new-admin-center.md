@@ -12,6 +12,7 @@ ms.collection: Strat_SP_admin
 search.appverid:
 - SPO160
 - BSA160
+- MET150
 ms.assetid: 0bb250bb-1d3c-43f8-b751-b322522ccf33
 description: "Learn about the cards on the Home page of the new SharePoint admin center (preview)"
 ---

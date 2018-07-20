@@ -15,6 +15,7 @@ search.appverid:
 - SPO160
 - MOE150
 - FRP150
+- MET150
 ms.assetid: aa93f89b-ffce-4edb-aa89-22b16d6915a7
 description: "Here is how SharePoint Online company administrators can change the featured links on SharePoint Home."
 ---

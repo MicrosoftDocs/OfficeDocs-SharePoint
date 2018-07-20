@@ -8,7 +8,9 @@ ms.audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
-search.appverid: SPO160
+search.appverid:
+- SPO160
+- MET150
 ms.assetid: 99da1d77-f42b-4f56-b48a-24e87f336e91
 description: "Learn how to specify how search should behave for a site collection or a site. The shared Search Box at the top of most pages will use these settings."
 ---

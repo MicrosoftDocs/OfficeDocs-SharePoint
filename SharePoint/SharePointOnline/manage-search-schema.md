@@ -8,7 +8,9 @@ ms.audience: End User
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
-search.appverid: SPO160
+search.appverid:
+- SPO160
+- MET150
 ms.assetid: d4fab46d-ba41-4c03-9d4c-32b5b33198b6
 description: "Learn about the search schema and how you can view, create, or change managed properties, and map crawled properties to managed properties to create a customized search experience."
 ---

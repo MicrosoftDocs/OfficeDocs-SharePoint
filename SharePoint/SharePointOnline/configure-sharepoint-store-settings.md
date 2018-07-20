@@ -8,7 +8,9 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-search.appverid: SPO160
+search.appverid:
+- SPO160
+- MET150
 ms.assetid: 6b806fb8-9295-441d-b954-07009021dc48
 description: "This topic explains how to turn on or off the option for SharePoint Online users to buy or get apps from the SharePoint Store. It also explains how the SharePoint Online admin can manage app requests from users."
 ---

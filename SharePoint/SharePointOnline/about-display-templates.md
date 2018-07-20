@@ -8,7 +8,9 @@ ms.audience: End User
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
-search.appverid: SPS150
+search.appverid:
+- SPS150
+- MET150
 ms.assetid: c7cb0a7e-fb1e-45b1-b259-c0dae30f7528
 description: "The Content Search Web Part and the other search-driven Web Parts use display templates to control how the search results appear in the Web Part. By using display templates, you can control the ways in which search results appear and behave in search-driven Web Parts."
 ---

@@ -11,6 +11,7 @@ localization_priority: Normal
 search.appverid:
 - SPO160
 - BSA160
+- MET150
 ms.assetid: 74985ebf-39e1-4c59-a74a-dcdfd678ef83
 description: "Use AD FS auto-acceleration to allow your users to log in by using your organization's Active Directory Federation Services (AD FS) endpoint. They can be signed in immediately, without having to enter their credentials twice."
 ---

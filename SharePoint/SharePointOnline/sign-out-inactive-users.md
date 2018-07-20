@@ -10,6 +10,7 @@ localization_priority: Normal
 search.appverid:
 - SPO160
 - ODB160
+- MET150
 ms.assetid: 5d94efb4-ab46-429d-a021-d71eec787522
 description: "Learn how to set an idle session sign-out policy for SharePoint and OneDrive browser sessions on unmanaged devices."
 ---

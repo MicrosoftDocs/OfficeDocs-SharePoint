@@ -12,6 +12,7 @@ search.appverid:
 - SPO160
 - BSA160
 - GSP150
+- MET150
 ms.assetid: 85091402-737f-4bb9-99a7-bc5f194502a8
 description: "Learn how to add and edit properties on SharePoint User profiles that are configured from information that your organization supplies to the Office 365 directory service."
 ---

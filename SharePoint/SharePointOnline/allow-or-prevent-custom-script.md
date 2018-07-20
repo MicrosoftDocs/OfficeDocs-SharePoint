@@ -17,6 +17,7 @@ search.appverid:
 - ODB160
 - ODB150
 - BSA160
+- MET150
 ms.assetid: 1f2c515f-5d7e-448a-9fd7-835da935584f
 description: "Learn how to change the custom script setting for SharePoint Online site collections in your organization."
 ---
