@@ -15,7 +15,7 @@ description: "Learn how to get back a deleted site collection in SharePoint Onli
 
 # Restore a deleted site collection
 
-When a global or SharePoint admin in Office 365 deletes a site collection, it's placed in the site collection Recycle Bin, where it's kept for 93 days before it's permanently deleted. This article describes how global admins and SharePoint admins can restore deleted site collections. For info about restoring other items from the site collection Recycle Bin, see [Restore deleted items from the site collection recycle bin](https://support.office.com/article/5fa924ee-16d7-487b-9a0a-021b9062d14b).
+This article describes how global admins and SharePoint admins can restore deleted site collections from the classic SharePoint admin center. For info about restoring deleted communication sites, group-connected team sites, and other sites in the new SharePoint admin center preview, see [View and restore deleted sites in the new SharePoint admin center](view-and-restore-deleted-sites-in-new-admin-center.md)
   
 If you're an admin for SharePoint Server, learn how to [Restore deleted site collections using Microsoft Powershell](https://go.microsoft.com/fwlink/?linkid=866959).
   
@@ -27,7 +27,7 @@ In the site collection Recycle Bin, you can view deleted site collections and se
 > [!NOTE]
 > When sites and items within them are deleted, they're sent to the site Recycle Bin (sometimes called the "first-stage recycle bin") and are only moved to the site collection Recycle Bin (or "second-stage recycle bin") if they're deleted from site recycle bin. When you delete a site collection, it's sent directly to the site collection Recycle Bin. For info about restoring items from the site Recycle Bin, see [Restore items in the Recycle Bin of a SharePoint site](https://support.office.com/article/6df466b6-55f2-4898-8d6e-c0dff851a0be). 
   
-Deleted site collections are automatically emptied from the site collection Recycle Bin after 93 days. You can restore a deleted site collection before this time if you haven't exceeded your SharePoint Online storage or usage quota.
+Deleted site collections are automatically emptied from the site collection Recycle Bin after 93 days. You can restore a deleted site collection before this time if you haven't exceeded your SharePoint Online storage limit.
   
 To create a new site collection that uses the same URL as a site collection that's in the site collection Recycle Bin, you must permanently delete the site collection in the site collection Recycle Bin first.
   
