@@ -19,15 +19,15 @@ description: "This article describes the range of customizations you can apply t
 
 Branding and customizing SharePoint Online is different than branding and customizing SharePoint Server products. SharePoint Online gets updated with new features on a regular basis and these updates can affect certain types of customizations. However, there are recommended customization and branding techniques available today that can streamline your branding and customization requirements. For example, if you are making structural changes to the master pages it's important to stay up to date with the ongoing product updates applied to SharePoint Online. The easiest way to stay informed is to watch the [Office 365 Roadmap](https://office.microsoft.com/en-us/products/office-365-roadmap-FX104343353.aspx) and monitor the [Office 365 blog](https://blogs.office.com/office365forbusiness/).
   
-The software updates that Microsoft makes to SharePoint Online happen much faster than SharePoint server and customizing or unghosting master pages, which are a core part of the product, will result in those customizations being affected by updates. To remedy the situation, those customizations will need to be re-applied to the updated pages. Staying up to date is possible, but needs to happen much more frequently in SharePoint Online.
+The software updates that Microsoft makes to SharePoint Online happen much faster than SharePoint Server and customizing or unghosting master pages, which are a core part of the product, will result in those customizations being affected by updates. To remedy the situation, those customizations will need to be re-applied to the updated pages. Staying up to date is possible, but needs to happen much more frequently in SharePoint Online.
   
-## I'm used to customizing SharePoint server products, what's different in SharePoint Online?
+## I'm used to customizing SharePoint Server products, what's different in SharePoint Online?
 
-Methods for customization that work in SharePoint server won't necessarily work in SharePoint Online. Some of the methods used for customizing and extending SharePoint server, for example, rely on the fact that the underlying platform is not constantly being updated - as is the case with SharePoint Online. SharePoint Online is continuously being improved, and any files that have been customized or unghosted may be affected by updates. Here are some recommendations for common SharePoint customizations, as compared to private SharePoint deployments vs. the SharePoint Online service.
+Methods for customization that work in SharePoint Server won't necessarily work in SharePoint Online. Some of the methods used for customizing and extending SharePoint Server, for example, rely on the fact that the underlying platform is not constantly being updated - as is the case with SharePoint Online. SharePoint Online is continuously being improved, and any files that have been customized or unghosted may be affected by updates. Here are some recommendations for common SharePoint customizations, as compared to private SharePoint deployments vs. the SharePoint Online service.
   
 ||||
 |:-----|:-----|:-----|
-|**Type of Customization** <br/> |**SharePoint server** <br/> |**SharePoint Online** <br/> |
+|**Type of Customization** <br/> |**SharePoint Server** <br/> |**SharePoint Online** <br/> |
 |**Workflow** <br/> |Start with Out of the box Workflows  <br/> SharePoint Designer, or Visual Designer  <br/> |[Out of the box workflow changes](https://support.office.com/en-us/article/Whats-new-in-Microsoft-SharePoint-Online-02449ef0-027e-4089-8717-f0ae7ea58029?ui=en-US&amp;rs=en-US&amp;ad=US#__toc311029357) will not be overwritten by ongoing updates  <br/> Further customization will be overwritten by ongoing updates  <br/> |
 |**Header/Footer** <br/> |SharePoint Designer, w/unghosted pages  <br/> |No equivalent, unghosting pages requires ongoing maintenance  <br/> |
 |**Content Blocks** <br/> |CBQ (un-throttled)  <br/> |CBQ (throttled)  <br/> |
@@ -41,7 +41,7 @@ SharePoint Online customizations range from non-technical changes you can apply 
   
 1. **Customization using the browser** You can use the browser-based settings SharePoint Online to apply simpler customizations like changing title and logo, updating navigation links, applying a new site theme, changing the contents of a page, or changing views for lists and libraries. Browser-based customizations are the easiest customizations to apply, and they require minimal technical expertise. 
     
-2. **Customizations using supported tools and applications** You can use supported SharePoint tools to perform more extensive customizations. For example, Office applications like Access 2013, Excel 2013, and Visio 2013 help you create highly dynamic, data-rich pages on your site. You can even create a SharePoint app as a no-code solution by using Access 2013. 
+2. **Customizations using supported tools and applications** You can use supported SharePoint tools to perform more extensive customizations. For example, Office applications like Access, Excel, and Visio help you create highly dynamic, data-rich pages on your site. You can even create a SharePoint app as a no-code solution by using Access. 
     
 3. **Customizations using remote provisioning** In SharePoint Online, you can use custom CSOM code in apps for SharePoint to provision SharePoint site collections, sites, and sub-sites with branding elements. This site provisioning pattern is called remote provisioning. 
     
@@ -78,17 +78,6 @@ There are several different ways you can achieve the same outcome on a SharePoin
   
 It is a good practice to first start with browser-based customizations before using supported tools and applications to achieve similar customizations.
   
- **In this section:**
-  
-> [Customizations: simple to complex](extend-and-develop.md#__toc349226253)
-    
-> [Can I still develop sandboxed solutions?](extend-and-develop.md#sandboxed)
-    
-> [Examples of common SharePoint Online customizations](extend-and-develop.md#__toc349226255)
-    
-> [Making solutions or apps available to users](extend-and-develop.md#__toc349226256)
-    
-> [Exploring partner solutions and services](extend-and-develop.md#__toc349226257)
     
  **I want to change the look and feel or site design**
   
