@@ -14,6 +14,7 @@ search.appverid:
 - ODB150
 - GOB150
 - GOB160
+- MET150
 ms.assetid: 4100df3a-0c96-464f-b0a8-c20de34da6fa
 description: "Learn how to upgrade your users to the new OneDrive sync client (OneDrive.exe)."
 ---

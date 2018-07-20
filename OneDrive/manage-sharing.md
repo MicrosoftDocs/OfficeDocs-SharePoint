@@ -12,6 +12,7 @@ ms.collection: Strat_OD_admin
 search.appverid:
 - ODB160
 - ODB150
+- MET150
 ms.assetid: ee8b91c5-05ec-44c2-9796-78fa27ec8425
 description: "Learn how to use the OneDrive admin center to control sharing settings for OneDrive and SharePoint."
 ---

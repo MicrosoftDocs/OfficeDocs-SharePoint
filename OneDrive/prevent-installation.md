@@ -12,6 +12,7 @@ ms.collection: Strat_OD_admin
 search.appverid:
 - ODB160
 - ODB150
+- MET150
 ms.assetid: b59cf952-f5a3-40ae-9159-36d5f869422c
 description: "Learn how to hide the Sync button to prevent users from downloading and installing the new OneDrive sync client."
 ---

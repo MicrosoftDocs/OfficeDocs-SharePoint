@@ -8,7 +8,9 @@ ms.audience: Admin
 ms.topic: reference
 ms.service: one-drive
 localization_priority: Normal
-search.appverid: ODB160
+search.appverid:
+- ODB160
+- MET150
 ms.assetid: 2f748bc6-6f01-4406-a791-ec047f066d6d
 description: "Learn about the Production and Enterprise rings for OneDrive sync client updates"
 ---

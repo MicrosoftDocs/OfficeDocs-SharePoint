@@ -12,6 +12,7 @@ ms.collection: Strat_OD_admin
 search.appverid:
 - ODB160
 - ODB150
+- MET150
 ms.assetid: a3b03efd-ccd0-4d3c-b9ae-7f8f3f9485bc
 description: "Learn how to restrict syncing to only devices on the domains you specify in the OneDrive admin center. "
 ---

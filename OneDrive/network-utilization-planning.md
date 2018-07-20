@@ -13,6 +13,7 @@ search.appverid:
 - ODB150
 - GOB150
 - GOB160
+- MET150
 ms.assetid: b664e743-ae8b-4a93-aefd-1b20c584a93a
 description: "Estimate the network bandwidth your users will need to sync their files with the OneDrive sync client."
 ---
