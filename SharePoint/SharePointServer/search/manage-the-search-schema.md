@@ -24,9 +24,10 @@ Crawled properties are metadata that is extracted from content during crawls. Me
 You decide which crawled metadata to index by mapping the crawled property to a managed property. Users can only search on managed properties. You can map multiple crawled properties to a single managed property or map a single crawled property to multiple managed properties.
 > [!IMPORTANT]
 > The search schema applies to both the classic and the modern search experiences, except:
-> - Refiners and sorting. Modern search has built-in refiners.
+> - Refinable. Modern search has built-in refiners.
+> - Sortable. Not supported in modern search.
+> - Custom entity extraction. Modern search has built-in refiners.
 > - Company name extraction. Not supported in modern search.
-> - Custom entity extraction. Not supported in modern search.
   
 > [!IMPORTANT]
 > The steps in this article apply to SharePoint Server and use the Central Administration, unless specified otherwise. 
