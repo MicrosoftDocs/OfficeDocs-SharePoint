@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 3380e554-d1f8-46d6-9df0-cc102945f922
-description: "Summary: Use the information in this section to learn how to develop Search Center scenarios in SharePoint Server 2016 and SharePoint Server 2013."
+description: "Summary: Use the information in this section to learn how to develop Search Center scenarios in SharePoint Server."
 ---
 
 # Search center scenarios in SharePoint Server
 
- **Summary:** Use the information in this section to learn how to develop Search Center scenarios in SharePoint Server 2016 and SharePoint Server 2013. 
+ **Summary:** Use the information in this section to learn how to develop Search Center scenarios in SharePoint Server. 
   
  **Applies to:**
   
