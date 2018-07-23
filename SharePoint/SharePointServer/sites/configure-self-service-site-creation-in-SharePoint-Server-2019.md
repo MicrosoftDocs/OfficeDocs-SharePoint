@@ -1,5 +1,5 @@
 ---
-title: "Configure self-service site creation in SharePoint Server 2019 home page"
+title: "Configure self-service site creation in SharePoint Server 2019 Public Preview home page"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
@@ -14,7 +14,7 @@ ms.collection:
 description: "Summary: Learn how to configure self-service site creation in different web applications and remote server farms in SharePoint Server 2019 Public Preview."
 ---
 
-# Configure self-service site creation in SharePoint Server 2019
+# Configure self-service site creation in SharePoint Server 2019 Public Preview
 
 **Summary:** Learn how to configure self-service site creation in different web applications and remote server farms in SharePoint Server 2019 Public Preview.
 

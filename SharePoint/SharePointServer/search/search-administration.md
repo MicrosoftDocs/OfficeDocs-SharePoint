@@ -19,7 +19,8 @@ description: "Summary: Learn how to manage the search schema and the search topo
   
 The following articles provide information about how you operate and manage search in SharePoint Server.
 
-SharePoint Server 2019 Public Preview offers a **modern** search experience in addition to the **classic** search experience known from SharePoint Server. Users get the modern search experience on their SharePoint home page, on modern sites, and in modern document libraries. The modern search experience can't be customized. Search settings that impact the way search results are presented or settings that impact relevancy only have effect on the classic search experience. Search settings that impact what's indexed have effect on both modern and classic search. 
+SharePoint Server 2019 Public Preview offers a **modern** search experience in addition to the **classic** search experience. Both experiences use the same search index to find results. Only the classic search experience is customizable, and some of the customization settings also affect modern search. [Learn what's new about search](../what-s-new/new-and-improved-features-in-SharePoint-Server-2019.md).
+
 
   
 ## Articles about administering search
