@@ -64,7 +64,7 @@ This scan report provides a list of all the add-ins installed in the environment
 |ListTitle|Title of the list that contains list items that target audiences.|
 |ListUrl|Url to the root of the list.|
 |ListItemUrl|URL to the list item's display form.|
-|TargetAudienceNames|"List of audience names that this list item targets. If an audience name could not be resolved, the audience ID will be displayed. This can occur if the audience was deleted after it was used on the list item.|
+|TargetAudienceNames|List of audience names that this list item targets. If an audience name could not be resolved, the audience ID will be displayed. This can occur if the audience was deleted after it was used on the list item.|
 |ScanId|Unique identifier assigned to a specific execution of the SharePoint Migration Assessment Tool. |
 
    
