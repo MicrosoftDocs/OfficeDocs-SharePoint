@@ -22,14 +22,14 @@ You can use the Term Store management tool to create terms in a term set, or man
 > [!IMPORTANT]
 >  To create and manage terms in the Term Store management tool, you must be a Contributor, a Group Manager, or a Term Store Administrator. 
   
-![You can select a group name in the Term Store tool to open a menu that lets you add terms to a term set](media/f5f2bdaa-0bd1-441b-81a2-e732de310d97.png)
+![You can select a group name in the Term Store management tool to open a menu that lets you add terms to a term set](media/f5f2bdaa-0bd1-441b-81a2-e732de310d97.png)
   
 To create a term in a term set, follow these steps
   
 > [!NOTE]
->  If you are adding a term to a local term set, you must start this procedure from the site collection to which the term set belongs. If you are updating a global term set, you can open the Term Store Management Tool from any site. 
+>  If you are adding a term to a local term set, you must start this procedure from the site collection to which the term set belongs. If you are updating a global term set, you can open the Term Store management tool from any site. 
   
-1. Open the Term Store management tool. To learn how, see [Open the Term Store management tool ](create-and-manage-terms.md#__toc327965089).
+1. Open the Term Store management tool. To learn how, see [Open the Term Store management tool](open-term-store-management-tool.md).
     
 2. In the tree-view pane, expand the groups to find the term set to which you want to add a term.
     
@@ -48,29 +48,6 @@ To create a term in a term set, follow these steps
 9. **Default Label** Enter the word or phrase that you want to use as the default label for the term in this language. 
     
 10. **Other Labels** Enter any synonyms for this term. To add multiple synonyms, type the first synonym and then press **ENTER** to add more lines. 
-    
-## Open the Term Store management tool
-<a name="__toc327965089"> </a>
-
-To open the Term Store management tool, select the SharePoint environment that you use, and then follow the steps.
-  
- **In SharePoint Online**
-  
-1. Sign in to Office 365 as a global admin or SharePoint admin.
-    
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
-    
-3. Select **Term Store**.
-    
- **In SharePoint Server**
-  
-1. From the site collection Home page, select **Site Contents**
-    
-2. On the **Site Contents** page, select **Settings**.
-    
-3. On the **Site Settings** page, in the **Site Administration** group, select **Term store management**.
-    
-After you open the Term Store management tool, you can continue with creating a term, or taking another action with terms.
   
 ## Take another action with terms
 <a name="__toc327965090"> </a>

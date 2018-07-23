@@ -79,10 +79,10 @@ In SharePoint products, group is a security term. With respect to managed metada
   
 To learn more about how to create a group for term sets, see [Set up a new group for term sets](set-up-new-group-for-term-sets.md).
   
-### Term Store Management Tool
+### Term Store management tool
 <a name="__migbm_5"> </a>
 
-The Term Store Management Tool is the tool that people who manage taxonomies use to create or manage term sets and the terms within them. The Term Store Management tool displays all the global term sets and any local term sets available for the site collection from which you access the Term Store Management Tool. 
+The Term Store management tool is the tool that people who manage taxonomies use to create or manage term sets and the terms within them. The Term Store management tool displays all the global term sets and any local term sets available for the site collection from which you access the Term Store management tool. 
   
 ### Managed Metadata column
 <a name="__migbm_6"> </a>
@@ -203,18 +203,12 @@ Your organization may want to do careful planning before you start to use manage
   
 If you want to let users help develop your taxonomy, then you can just have users add keywords to items, and then organize these into term sets as necessary.
   
-If your organization wants to use managed term sets to implement formal taxonomies, then it is important to involve key stakeholders in planning and development. After the key stakeholders in the organization agree upon the required term sets, you can use the Term Store Management Tool to import or create your term sets. You can also use the tool to manage the term sets as users start to work with the metadata. If your web application is configured correctly, and you have the appropriate permissions, you can go to the Term Store Management Tool by following these steps.
-  
-1. Click Settings![Office 365 Settings button](media/a9a59c0f-2e67-4cbf-9438-af273b0d552b.png), and then click **Site Settings**.
-    
-2. Click **Term store management** under **Site Administration**.
-    
-    ![The Term Store Management Tool dialog box.](media/ba6c6939-f19a-4808-9156-499b05af5380.png)
+If your organization wants to use managed term sets to implement formal taxonomies, then it is important to involve key stakeholders in planning and development. After the key stakeholders in the organization agree upon the required term sets, you can use the Term Store management tool to import or create your term sets. To learn how to access the tool, see [Open the Term Store management tool](open-term-store-management-tool.md)
   
 ### Managing terms, term sets, and groups
 <a name="__toc262648181"> </a>
 
-The Term Store Management Tool provides a tree control that you can use to perform most tasks. Your user role for this tool determines the tasks that you can perform. To work in the Term Store Management Tool, you must be a Farm Administrator or a Term Store Administrator. Or, you can be a designated Group Manager or Contributor for term sets. 
+The Term Store management tool provides a tree control that you can use to perform most tasks. Your user role for this tool determines the tasks that you can perform. To work on global terms in the Term Store management tool, you must be a global admin or SharePoint admin in Office 365, or a Term Store Administrator in SharePoint. To work on terms for a site, you can be a designated Group Manager or Contributor for term sets. 
   
 For more information, see [Create and manage groups and term sets](set-up-new-group-for-term-sets.md).
   
@@ -226,12 +220,12 @@ To take actions on an item in the hierarchy, follow these steps.
     
 For example, if you are a Term Store Administrator or a Group Manager you can create, import, or delete term sets in a group. Term set contributors can create new term sets.
   
-![Term Store Management tool has level-appropriate menus at each level of hierarchy](media/5f52c05c-8f5d-4786-8c51-8691e4d7911f.png)
+![Term Store management tool has level-appropriate menus at each level of hierarchy](media/5f52c05c-8f5d-4786-8c51-8691e4d7911f.png)
   
 ### Properties for terms and term sets
 <a name="__toc325103946"> </a>
 
-At each level of the hierarchy, you can configure specific properties for a group, term set, or term by using the properties pane in the Term Store Management Tool. For example, if you are configuring a term set, you can specify information such as Name, Description, Owner, Contact, and Stakeholders in pane available on the **General** tab. You can also specify whether you want a term set to be open or closed to new submissions from users. Or, you can choose the **Intended Use** tab, and specify whether the term set should be available for tagging or site navigation. 
+At each level of the hierarchy, you can configure specific properties for a group, term set, or term by using the properties pane in the Term Store management tool. For example, if you are configuring a term set, you can specify information such as Name, Description, Owner, Contact, and Stakeholders in pane available on the **General** tab. You can also specify whether you want a term set to be open or closed to new submissions from users. Or, you can choose the **Intended Use** tab, and specify whether the term set should be available for tagging or site navigation. 
   
 ![Term Store properties let you configure settings such as tagging](media/d2dc3643-9d66-4e74-8609-c12663436157.png)
   

@@ -27,7 +27,7 @@ To set up a new term set, you must access the Term Store management tool, and th
   
 To set up a new term set, follow these steps.
   
-1. [Open the Term Store management tool ](set-up-new-term-set.md#__open_the_term).
+1. [Open the Term Store management tool](open-term-store-management-tool.md).
     
 2. In the tree-view navigation pane, expand the groups to find the group to which you want to add a term set.
     
@@ -65,27 +65,6 @@ To set up a new term set, follow these steps.
     
 To learn how to add a term to the new term set, see [Create and manage terms in a term set](create-and-manage-terms.md).
   
-## Open the Term Store management tool
-<a name="__open_the_term"> </a>
-
-To open the Term Store management tool, select the SharePoint environment that you want, and then follow the steps listed.
-  
-**In SharePoint Online**
-    
-1. Sign in to Office 365 as a global admin or SharePoint admin.
-    
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
-    
-3. Select **Term Store**.
-  
-**In SharePoint Server**
-    
-1. From the site collection Home page, select **Site Contents**.
-    
-2. On the **Site Contents** page, select **Settings**.
-    
-3. On the **Site Settings** page, in the **Site Administration** group, select **Term store management**.
-    
-After you open the Term Store management tool, you can begin to set up the term set. 
+ 
   
 

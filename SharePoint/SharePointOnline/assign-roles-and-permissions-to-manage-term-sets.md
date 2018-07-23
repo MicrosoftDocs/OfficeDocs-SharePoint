@@ -35,7 +35,7 @@ A Term Store Administrator can do these tasks:
   
 To add a Term Store Administrator:
   
-1. [Open the Term Store Management Tool](assign-roles-and-permissions-to-manage-term-sets.md#__open_the_term).
+1. [Open the Term Store management tool](open-term-store-management-tool.md).
     
 2. In the tree view pane on the left, select the taxonomy.
     
@@ -59,7 +59,7 @@ To add a Group Manager:
   
 1. Go to the site where you want to add a Group Manager.
     
-2. [Open the Term Store Management Tool](assign-roles-and-permissions-to-manage-term-sets.md#__open_the_term).
+2. [Open the Term Store management tool](open-term-store-management-tool.md).
     
 3. In the tree view pane on the left, select the Group for which you want to add a Group Manager. 
     
@@ -79,7 +79,7 @@ You must be either a Term Store Administrator or a Group Manager of a specific g
   
 1. Go to the site where you want to add a Contributor.
     
-2. [Open the Term Store Management Tool](assign-roles-and-permissions-to-manage-term-sets.md#__open_the_term).
+2. [Open the Term Store management tool](open-term-store-management-tool.md).
     
 3. In the tree view pane on the left, select the Group to which you want to add a Contributor. 
     
@@ -114,25 +114,6 @@ Site users who have at least Contribute permissions on the site can do the follo
     
 In addition, site users who have appropriate permissions (such as Site Owners) can create new Managed Metadata columns for lists, libraries, or content types. When they create these columns, they can create new term sets that are local to the Site Collection, and they can manage the terms within these term sets. 
   
-### Open the Term Store Management Tool
-<a name="__open_the_term"> </a>
 
-To open the Term store management tool, select the SharePoint environment that you use, and then follow the steps.
-  
-In SharePoint Online:
-  
-1. Go to the **SharePoint Online Administration Center**.
-    
-2. Click **Term Store**.
-    
-In SharePoint Server:
-  
-1. From the site collection Home page, click **Site Contents**
-    
-2. On the **Site Contents** page, click **Settings**.
-    
-3. On the **Site Settings** page, in the **Site Administration** group, click **Term store management**.
-    
-After you open the Term Store management tool, you can assign roles.
   
 
