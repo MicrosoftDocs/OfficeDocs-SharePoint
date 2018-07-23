@@ -49,7 +49,6 @@ As a SharePoint or global admin in Office 365, you can monitor information such 
 |View error information for an app  <br/> | Select **View Errors** on the ribbon. You can use the Correlation ID to find the errors in the error log. Select the URL in the **Location** column to view more error details for this app. |
    
 > [!NOTE]
-  
 > If you no longer want to monitor an app, you can select it on the Monitor Apps page, and select **Remove App** on the ribbon. <br>
     
 App usage and error detail information is processed by different timer jobs that are pre-configured to run at set times for SharePoint Online. These timer jobs pick up events for the previous day. For this reason, the data visible on the Monitor Apps page may be delayed for up to 29 hours.
