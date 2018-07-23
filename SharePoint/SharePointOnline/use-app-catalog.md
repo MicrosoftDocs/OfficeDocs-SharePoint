@@ -21,7 +21,7 @@ description: "Learn how SharePoint admins can use the SharePoint App Catalog sit
 
 # Use the App Catalog to make custom business apps available for your SharePoint Online environment
 
-As a SharePoint Online admin, you can create an App Catalog site to make internally developed custom apps available for users to install when they browse apps under the **From Your Organization** filter on the Site Contents page. Site owners can then add these apps to customize sites with specific functionality or to display information. 
+As a SharePoint or global admin in Office 365, you can create an App Catalog site to make internally developed custom apps available for users to install when they browse apps under the **From Your Organization** filter on the Site Contents page. Site owners can then add these apps to customize sites with specific functionality or to display information. 
   
 After an App Catalog site has been created, you can use it to upload any custom apps that your organization has developed. Uploading custom apps isn't much more complicated than uploading a document to a library and setting some properties. You can use the App Catalog site to do things like install custom or third-party apps on sites for users (also called app deployment). You can also manage app requests from users.
   
@@ -37,8 +37,6 @@ Even if you don't plan to make internal custom apps available, you will not be a
 1. Sign in to Office 365 as a global admin or SharePoint admin.
     
 2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
-    
-    ![The Office 365 app launcher with the Admin app highlighted](media/4eea9dbc-591b-48be-9916-322d41c6525b.png)
   
 3. In the left pane, choose **Admin centers** \> **SharePoint**.
     
@@ -154,7 +152,7 @@ If you upload a custom app to the App Catalog, it is automatically available for
 10. If you are prompted to Trust the app, click **Trust It**.
     
     > [!NOTE]
-    >  It may take up to 30 minutes for an app to deploy. >  If you deploy an app that adds commands to the item callout for document libraries or lists, then those commands are visible to users. However, if you deploy an app that features custom ribbon controls or an App Part, additional steps may be required to make the user interface commands for the app appear. 
+    >  It may take up to 30 minutes for an app to deploy. <br>If you deploy an app that adds commands to the item callout for document libraries or lists, then those commands are visible to users. However, if you deploy an app that features custom ribbon controls or an App Part, additional steps may be required to make the user interface commands for the app appear. 
   
 ## Remove an app from the App Catalog
 <a name="__toc347303053"> </a>
