@@ -146,27 +146,31 @@ Key decisions:
 
 -   Do you need to pre-provision OneDrive for your users? (Are you migrating files before users have started using OneDrive?)
 
-### Manual migration
 
-With manual migration, each user migrates their own files. This can be done simply, by dragging files to the OneDrive web interface, or by setting up the OneDrive sync client and then dragging files to the OneDrive sync directory.
+### Files in on-premises OneDrive or MySites libraries
+
+If users' existing files are in on-premises SharePoint, OneDrive, or MySites, you can use the SharePoint Migration Tool to migrate the files to Office 365.
+
+For detailed information about the SharePoint Migration Tool, see [How the SharePoint Migration Tool works](https://docs.microsoft.com/sharepointmigration/how-the-sharepoint-migration-tool-works).
+
+The SharePoint Migration Tool can be used by your IT department to migrate files on their behalf. This is the reocmmended method of migration for files in an on-premises SharePoint farm.
+
+
+### Files on users' local disk in Known Folders
+
+IF users files are located in Windows Known Folders such as their desktop, Documents, or Pictures, you can use Known Folder Move. Known Folder Move enables users to select known folders to automatically synchronize to OneDrive. You can add this feature during the initial setup of OneDrive or after it has been configured. This capability provides a simple migration option for users looking to add known folders to their existing list of synchronized folders.
+
+Known Folders Move can be configured by administrators to automatically redirect known folders for all users on the domain. It's an easy way to migrate files kept in these locations.
+
+### Files on users' local disk in unknown folders
+
+If users have thier personal files in various locations, a manual migration performed by the users themselves might be the easiest solution. After you deploy the OneDrive sync client to your users' computers, you can instruct them to move their personal files to the OneDrive sync directory on their local disk.
 
 If your users have only a small number of personal files, or if the files are scattered in different locations, this may be the simplest solution.
 
 ### Migrating with FastTrack
 
 FastTrack is a Microsoft benefit that is included in your subscription.  FastTrack provides you with a set of best practices, tools, resources, and experts committed to making your experience with the Microsoft Cloud a great one! Guidance around OneDrive onboarding, migration, and adoption are included in the benefit offering. This guidance includes: help to discover what’s possible, creating a plan for success, and onboarding new users, providing guidance on migrating content from file share, Box, or Google Drive source environments, and introducing capabilities at a flexible pace, your pace! FastTrack guidance provides enablement of both OneDrive for Business and getting the source environment ready for your transition. In addition, the FastTrack data migration benefit will also perform specific data migration activities on behalf of you, the customer,  for those with 500 or more licenses. See more details in the provided [FastTrack Center Benefit Overview](https://docs.microsoft.com/fasttrack/fasttrack-benefit-for-office-365/fasttrack-benefit-overview/data-migration). Interested in getting started? Visit [FastTrack.Microsoft.Com](https://www.microsoft.com/en-us/fasttrack/), review resources, and submit a Request for Assistance.
-
-### Using the SharePoint Migration Tool
-
-The SharePoint Migration Tool lets you migrate lists or files from your SharePoint on-premises document libraries (including on-premises OneDrive) or from your on-premises file shares and easily move them OneDrive in Office 365. It is available to Office 365 users.
-
-For detailed information about the SharePoint Migration Tool, see [How the SharePoint Migration Tool works](https://docs.microsoft.com/sharepointmigration/how-the-sharepoint-migration-tool-works).
-
-The SharePoint Migration Tool can be used by your users directly, or by your IT department to migrate files on their behalf.
-
-### Known Folder Move
-
-Known Folder Move enables users to select known folders, such as their desktop, Documents, or Pictures, to automatically synchronize to OneDrive. You can add this feature during the initial setup of OneDrive or after it has been configured. This capability provides a simple migration option for users looking to add known folders to their existing list of synchronized folders.
 
 ## Sync
 
