@@ -19,8 +19,8 @@ description: "Summary: Use a result source in SharePoint Server to specify a pro
   
 This article provides a brief overview of result sources in SharePoint Server. 
 
-> [!WARNING]
-> The modern search experience in SharePoint Server 2019 Public Preview gets results from the default result source. If you change the default result source it impacts both the classic and modern search experiences.
+> [!IMPORTANT]
+> The modern search experience in SharePoint Server 2019 Public Preview gets it's results from the default result source. If you change the default result source it impacts both the classic and modern search experiences.
     
 ## What is a result source?
 <a name="BKMK_What"> </a>
