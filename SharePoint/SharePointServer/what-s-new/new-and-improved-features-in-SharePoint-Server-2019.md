@@ -75,6 +75,22 @@ SharePoint Server 2019 Public Preview now supports modern sharing experiences wi
 
 SharePoint Server 2019 Public Preview users can now add modern site pages and modern web parts on team sites. Do this in the **Add a Page** in Site Actions or in the pages library by clicking **New** > **Site Page**.
 
+### Modern search experience
+SharePoint Server 2019 Public Preview now also offers a modern search experience. In the modern search experience, users see results before they start typing, and the results update as they type. The search results page shows a compelling overview of search results, grouped by type. It’s easy to expand to see all the results of each type, for example people or sites. On a people result, users can click the email address to quickly get started on an email to that person. The modern search experience is available from the SharePoint home page, modern sites, and modern document libraries.
+
+Both experiences use the same search index to find results. Search settings that impact what's indexed affect both experiences, except these settings:
+- Refinable. Modern search has built-in refiners.
+- Sortable. Not supported in modern search.
+- Custom entity extraction. Modern search has built-in refiners.
+- Company name extraction. Not supported in modern search. 
+
+Only the classic search experience is customizable, and some of the customization settings also affect modern search:
+- Modern search also uses the default result source.
+- When you remove search results temporarily by specifying URLs, the results are removed from both the classic and modern search results.
+- When you create single promoted results at the Search service application level, users also see the promoted results in the modern search results page when:
+    - They've searched across all of SharePoint
+    - They've filtered the search results page to **All result types** (default filter)
+
 ### Modern Team sites
 
 Modern team sites bring a fresh and responsive user experience to team collaboration. The redesigned homepage improves the discoverability of the most common collaboration tasks while putting your team’s news front and center. Users can easily create modern team sites for themselves from SharePoint Home without needing to contact IT.
@@ -128,22 +144,6 @@ To create sites in a different web application on a remote farm, follow these st
 The self-service site creation experience on the SharePoint home page now fully supports non-Default Alternate Access Mapping (AAM) zones. When creating sites in a different web application on a remote farm, make sure that an external resource has been created in AAM on both the local farm and the remote farm. This applies to sites created in the same web application, sites created in a different web application on the local farm, and sites created in a different web application on a remote farm. 
 
 SharePoint will treat the external resource as an external web application. The external resource on the local farm should be fully populated with the URLs and zones of the web application on the remote farm. And conversely, the external resource on the remote farm should be fully populated with the URLs and zones of the web application on the local farm. Be sure that the zones of the local web application and the remote web application are synchronized.
-
-### Modern search experience
-SharePoint Server 2019 Public Preview now also offers a modern search experience. In the modern search experience, users see results before they start typing, and the results update as they type. The search results page shows a compelling overview of search results, grouped by type. It’s easy to expand to see all the results of each type, for example people or sites. On a people result, users can click the email address to quickly get started on an email to that person. The modern search experience is available from the SharePoint home page, modern sites, and modern document libraries.
-
-Both experiences use the same search index to find results. Search settings that impact what's indexed affect both experiences, except these settings:
-- Refinable. Modern search has built-in refiners.
-- Sortable. Not supported in modern search.
-- Custom entity extraction. Modern search has built-in refiners.
-- Company name extraction. Not supported in modern search. 
-
-Only the classic search experience is customizable, and some of the customization settings also affect modern search:
-- Modern search also uses the default result source.
-- When you remove search results temporarily by specifying URLs, the results are removed from both the classic and modern search results.
-- When you create single promoted results at the Search service application level, users also see the promoted results in the modern search results page when:
-    - They've searched across all of SharePoint
-    - They've filtered the search results page to **All result types** (default filter)
 
 ### SMTP authentication when sending emails
 
