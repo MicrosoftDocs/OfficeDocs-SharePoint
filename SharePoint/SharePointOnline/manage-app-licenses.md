@@ -17,7 +17,7 @@ description: "This article explains how the SharePoint Online admin can manage a
 
 # Manage app licenses for a SharePoint Online environment
 
-As the SharePoint Online admin, you can use the SharePoint admin center to manage licenses for apps purchased from the SharePoint Store, regardless of whether you purchased them. All apps available from the SharePoint Store have built-in licenses that SharePoint Online recognizes. An app license provides digital verification of a user's right to use an app. 
+As a SharePoint or global admin in Office 365, you can use the SharePoint admin center to manage licenses for apps purchased from the SharePoint Store, regardless of whether you purchased them. All apps available from the SharePoint Store have built-in licenses that SharePoint Online recognizes. An app license provides digital verification of a user's right to use an app. 
   
 It is important to keep track of the number of licenses that are available for each app so that the number of app users does not exceed the number of available licenses. If necessary, you can buy additional licenses for an app. 
   
