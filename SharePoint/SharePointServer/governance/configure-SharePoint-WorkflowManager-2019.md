@@ -13,11 +13,11 @@ ms.assetid: 5cdce2aa-fa6e-4888-a34f-de61713f5096
 description: "Summary: Learn the steps to set up and configure eDiscovery in SharePoint Server 2013, SharePoint Server 2016, Exchange Server 2016, and Exchange Server 2013."
 ---
 
-# Configure eDiscovery in SharePoint Server
+# Configure SharePoint Workflow Manager for SharePoint Server
 
  **Summary:** Learn the features and steps to configure SharePoint Workflow Manager in SharePoint Server 2019 Public Preview.
   
-This article gives a brief overview of the new version of Workflow Manager and the steps that are required to configure Workflow Manager in SharePoint Server 2019 Public Preview. 
+This article gives a brief overview of the Workflow Manager and the steps that are required to configure Workflow Manager in SharePoint Server 2019 Public Preview. 
 
 ## Overview
 
@@ -25,7 +25,7 @@ SharePoint Workflow Manager is a new product that is designed to support running
 
 ## System Requirements
 
-The following table describes the system requirements, supported databases, and hardware requirements to use the new SharePoint Workflow Manager. 
+The following table describes the system requirements, supported databases, and hardware requirements to use the SharePoint Workflow Manager. 
 
 |**Supported Operating System**|**Supported databases**|**Hardware requirement**
 |:-----|:-----|:-----|:-----
@@ -46,15 +46,13 @@ Some additional features in this release are the following:
 
 ## Install Instructions
 
-1. From Web PI, install Microsoft Service Bus with TLS 1.2 .
-2. Run "Workflow_Manager.msi" and follow the instructions on the      screen.
-3. Run "WorkflowManagerClient_x64.msi" to install the Workflow Manager Client.
-4. After the installer has completed, run the Workflow Manager Configuration Wizard from your Start menu and follow the instructions on the screen.
+1. From Web PI, install SharePoint Workflow Manager. This will also install the needed Service Bus components.
+2. After the installer has completed, run the Workflow Manager Configuration Wizard from your Start menu and follow the instructions on the screen.
 
 >[!NOTE]
 >It is recommended that you install SharePoint Workflow Manager on a standalone computer. This version of the SharePoint Workflow Manager does not support upgrading an existing Workflow Manager that is already installed. 
 
-Installation instructions for this version are the same as previous versions. For installation instructions on how Workflow Manager was installed on earlier versions of SharePoint Server and Workflow Manager, see [Install and configure workflow for SharePoint Server](https://docs.microsoft.com/en-us/SharePoint/governance/install-and-configure-workflow-for-sharepoint-server).
+Configuration instructions for this version are the same as its predecessor Workflow Manager. For configuration instructions on  Workflow Manager for earlier versions of SharePoint Server, see [Install and configure workflow for SharePoint Server](https://docs.microsoft.com/en-us/SharePoint/governance/install-and-configure-workflow-for-sharepoint-server).
 
 
 
