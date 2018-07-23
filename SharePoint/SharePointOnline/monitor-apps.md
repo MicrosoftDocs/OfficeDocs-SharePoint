@@ -17,7 +17,7 @@ description: "This article explains how the SharePoint Online admin can monitor 
 
 # Monitor apps for your SharePoint Online environment
 
-As a SharePoint Online admin, you can monitor information such as app usage and error information for the apps that are in use in your SharePoint Online environment. Before you can monitor information about an app, you need to add it to the list of apps you want to monitor.
+As a SharePoint or global admin in Office 365, you can monitor information such as app usage and error information for the apps that are in use in your SharePoint Online environment. Before you can monitor information about an app, you need to add it to the list of apps you want to monitor.
   
 ## Select apps to monitor
 <a name="__top"> </a>
@@ -45,15 +45,13 @@ As a SharePoint Online admin, you can monitor information such as app usage and 
     
 |****To do this:****|****Do this:****|
 |:-----|:-----|
-| View the details about the app such as:  <br/>  number of licenses purchased or used  <br/>  counts of errors and installs  <br/>  usage information  <br/> |
-Select View Details on the ribbon. In the Usage section, select Days, Months, or Years to change the timeframe for the usage information that displays in the chart. |
-|View error information for an app  <br/> |
-Select View Errors on the ribbon. You can use the Correlation ID to find the errors in the error log. Select the URL in the Location column to view more error details for this app. |
+| View the details about the app such as:  <br/>  number of licenses purchased or used  <br/>  counts of errors and installs  <br/>  usage information  <br/> | Select **View Details** on the ribbon. In the **Usage** section, select **Days**, **Months**, or **Years** to change the timeframe for the usage information that displays in the chart. |
+|View error information for an app  <br/> | Select **View Errors** on the ribbon. You can use the Correlation ID to find the errors in the error log. Select the URL in the **Location** column to view more error details for this app. |
    
- **Good to know:**
+> [!NOTE]
   
-- If you no longer want to monitor an app, you can select it on the Monitor Apps page, and select **Remove App** on the ribbon. 
+> If you no longer want to monitor an app, you can select it on the Monitor Apps page, and select **Remove App** on the ribbon. <br>
     
-- App usage and error detail information is processed by different timer jobs that are pre-configured to run at set times for SharePoint Online. These timer jobs pick up events for the previous day. For this reason, the data visible on the Monitor Apps page may be delayed for up to 29 hours.
+App usage and error detail information is processed by different timer jobs that are pre-configured to run at set times for SharePoint Online. These timer jobs pick up events for the previous day. For this reason, the data visible on the Monitor Apps page may be delayed for up to 29 hours.
     
 
