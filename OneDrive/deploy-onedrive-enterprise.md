@@ -98,31 +98,33 @@ Set the data retention policy that you decided on in the planning phase:
 
 In the [OneDrive admin center](https://admin.onedrive.com/), and click the **Storage** tab and set a value between 0 days and 3650 days (ten years) for the days to retain files in OneDrive after an account is marked for deletion.
 
-### Migrate data
+## Migrate data
 
 Once you’ve finished setting up your governance policies, it’s time to migrate your user’s data. Follow the sections below based on the migration decisions that you made in the planning phase.
-
-### Manual migration
-
-If you’ve chosen to have your users migrate their own files by copying them to OneDrive through the web interface or a synced folder on their local disk, we recommend including basic instructions around how to do this and how to get assistance when you communicate your migration plan.
-
-### Hybrid
-
-If you’re migrating from OneDrive in SharePoint Server on-premises and configuring hybrid OneDrive, be sure to read the hybrid section in this article and also in Plan for OneDrive for important considerations around the migration phase.
-
-### Pre-provisioning sites
-
-If you’re planning to migrate files on behalf of your users before they have started using OneDrive, you may need to pre-provision each user’s OneDrive. See [Pre-provision OneDrive for users in your organization](https://support.office.com/article/ceef6623-f54f-404d-8ee3-3ce1e338db07) to get started.
 
 ### Migrating with FastTrack
 
 If you have decided to take advantage of Microsoft FastTrack, visit [FastTrack](https://fasttrack.microsoft.com/) to review resources and submit a Request for Assistance.
 
-### Using the SharePoint Migration Tool
+### Hybrid
 
-If you have decided to use the SharePoint Migration Tool, see [How to use the SharePoint Migration Tool](https://docs.microsoft.com/sharepointmigration/how-to-use-the-sharepoint-migration-tool) to get started.
+If you’re migrating from OneDrive in SharePoint Server on-premises and configuring hybrid OneDrive, be sure to read the hybrid section in this article and also in Plan for OneDrive for important considerations around the migration phase.
 
-If your users will be using the SharePoint Migration Tool to migrate their own files, we recommend that you test the tool in a typical scenario that your users would see, and document the specific steps that they should take. Include that documentation and a method of requesting help when you communicate your migration plan.
+### Migrating data from on-premises SharePoint Server
+
+If you're migrating data from on-premises SharePoint, then you should use the SharePoint Migration Tool. See [How to use the SharePoint Migration Tool](https://docs.microsoft.com/sharepointmigration/how-to-use-the-sharepoint-migration-tool) to get started.
+
+If your users have not yet started using OneDrive in Office 365, then they likely do not yet have a OneDrive site that you can migrate to. In this case, you must pre-provision each user's OneDrive. See [Pre-provision OneDrive for users in your organization](https://support.office.com/article/ceef6623-f54f-404d-8ee3-3ce1e338db07) to get started.
+
+### Migrating data in Known Folders
+
+If your users have thier files stored in Known Folders (deskotp, Documents, etc.) and you want to redirect Known Folders to OneDrive, you can do so by configuring this in Group Policy. Go get started, see [Redirect and move Windows known folders to OneDrive](redirect-known-folders.md)
+
+If your users have already installed the OneDrive sync client and they're using OneDrive, they can set up Known Folders Move themselves by following the instructions in [Protect your files by saving them to OneDrive](https://support.office.com/article/d61a7930-a6fb-4b95-b28a-6552e77c3057)
+
+### Migrating data in unknown folders
+
+If you’ve chosen to have your users migrate their own files by copying them to OneDrive through the web interface or a synced folder on their local disk, we recommend including basic instructions around how to do this and how to get assistance when you communicate your migration plan.
 
 ## Deploy the OneDrive sync client
 
