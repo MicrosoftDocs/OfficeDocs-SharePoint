@@ -1,23 +1,30 @@
 ---
 title: Plan for OneDrive
+ms.author: kaarins
+author: kaarins
+manager: pamgreen
+ms.audience: Admin
+ms.topic: article
+ms.service: one-drive
+localization_priority: Normal
+description: "Learn how to plan your OneDrive deployment for an enterprise."
 ...
+
+# Plan for OneDrive for enterprises
 
 This article walks you through the planning and decision points for deploying OneDrive in a corporate or enterprise environment. Read this article before you read Deploy OneDrive.
 
 Many of the sections in this article list key decisions that you need to make as part of your OneDrive deployment. Make note of each of these decisions for use during the actual deployment process.
 
-Feature development
--------------------
+**Feature development**
 
 If you want to see the functionality currently under development for OneDrive and Office 365, check out the [Office 365 Roadmap](https://products.office.com/business/office-365-roadmap?filters=) or the [Microsoft OneDrive Blog](https://techcommunity.microsoft.com/onedrive). Finally, if you want to request new functionality or vote on great community ideas for OneDrive, visit [OneDrive UserVoice](https://onedrive.uservoice.com).
 
-License requirements
---------------------
+**License requirements**
 
 There are multiple methods by which you can acquire a license for OneDrive. However, a few OneDrive features are available only within certain licensing models. For information about the licensing requirements for OneDrive, its advanced features, and any special licensing required for them, see [TBD](file:///C:\Users\Chris\Downloads\TBD).
 
-Keys to success
-===============
+## Keys to success
 
 User adoption is important to the overall success of any new application. Ideally, to feel that you have maximized your investment in Office 365 and OneDrive, you need to maximize user engagement with them. To do that, start by focusing on three critical success factors:
 
@@ -29,16 +36,13 @@ User adoption is important to the overall success of any new application. Ideall
 
 Many resources are available from Microsoft to help you drive user adoption within your environment. For more information about a recommended Microsoft 365 user adoption strategy, see the [Microsoft 365 End User Adoption Guide](https://fto365dev.blob.core.windows.net/media/Default/DocResources/en-us/Microsoft%20365%20User%20Adoption%20Guide.pdf). For more information about driving user engagement, see [Success Factors for Office 365 End User Engagement](https://fto365dev.blob.core.windows.net/media/Default/DocResources/en-us/Resources/Office365_AdoptionBrochure_v2.0_Screen.pdf). You can also contribute to or comment on adoption-related ideas in the [Driving Adoption Tech Community](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption).
 
-Infrastructure planning
-=======================
+## Infrastructure planning
 
-Network utilization
--------------------
+### Network utilization
 
 A variety of factors can impact the amount of network bandwidth used by OneDrive. Fort the best experience, we recommend that assess this impact before doing a full OneDrive deployment across your organization. The article [Network utilization planning for the OneDrive sync client](https://docs.microsoft.com/onedrive/network-utilization-planning) includes the recommended process for determining your network bandwidth needs for OneDrive. Be sure to include this as part of your deployment plan.
 
-Multi-Geo
----------
+### Multi-Geo
 
 If you have data residency requirements, consider OneDrive Multi-Geo. With OneDrive Multi-Geo, you can specify a preferred data location (PDL), from available locations around the world, for each user’s OneDrive. For detailed information about OneDrive Multi-Geo, see [Multi-Geo Capabilities in OneDrive and SharePoint Online in Office 365](https://docs.microsoft.com/office365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-office-365).
 
@@ -56,12 +60,11 @@ Key decisions:
 
 -   Will you have OneDrive Multi-Geo fully configured before your users start using OneDrive?
 
-Hybrid
-------
+### Hybrid
 
-If you currently use OneDrive in SharePoint Server on-premises, we highly recommend deploying hybrid OneDrive. With hybrid OneDrive, users are redirected from their on-premises OneDrive to OneDrive in Office 365. Hybrid OneDrive allows for seamless navigation to OneDrive in the cloud from both SharePoint on-premises and Office 365.
+If you currently use OneDrive or MySites in SharePoint Server on-premises, we highly recommend deploying hybrid OneDrive. With hybrid OneDrive, users are redirected from their on-premises OneDrive to OneDrive in Office 365. Hybrid OneDrive allows for seamless navigation to OneDrive in the cloud from both SharePoint on-premises and Office 365.
 
-When you deploy hybrid OneDrive, the OneDrive links in the SharePoint Server ribbon and app launcher will point to OneDrive in Office 365. If your users have files in on-premises OneDrive, they my have trouble accessing them unless they’ve bookmarked the URL. It’s important to have a migration plan for these files before you deploy hybrid OneDrive. See Migrating data later in this article for migration options.
+When you deploy hybrid OneDrive, the OneDrive links in the SharePoint Server ribbon and app launcher will point to OneDrive in Office 365. If your users have files in on-premises OneDrive, they may have trouble accessing them unless they’ve bookmarked the URL. It’s important to have a migration plan for these files before you deploy hybrid OneDrive. See Migrating data later in this article for migration options.
 
 If you don’t use OneDrive in SharePoint Server, but you do have an on-premises SharePoint environment, you may still want to consider deploying hybrid OneDrive. Doing so will update the OneDrive navigation links in SharePoint Server to point to OneDrive in Office 365 – again, giving your users seamless navigation to OneDrive in the cloud from either location.
 
@@ -75,18 +78,15 @@ Key decisions:
 
 -   Do your users have OneDrive on-premises data that needs to be migrated to OneDrive in Office 365?
 
-Data governance and security
-============================
+## Data governance and security
 
 OneDrive shares can contain sensitive information that could damage your organization if it were shared with the wrong people. This section provides information about how to help prevent accidental data leakage and protect your data by controlling who can access it.
 
-Information rights management–protected file synchronization
-------------------------------------------------------------
+### Information rights management–protected file synchronization
 
 If you’re using information rights management (IRM), OneDrive can synchronize those file libraries and provide a seamless experience for users. For detailed information about how OneDrive handles IRM, see [How Office applications and services support Azure Rights Management](https://docs.microsoft.com/information-protection/understand-explore/office-apps-services-support). For OneDrive to synchronize these IRM-protected libraries, however, additional configuration is required, including deploying the latest [Rights Management Services (RMS) client](https://www.microsoft.com/en-us/download/details.aspx?id=38396) to your users’ computers. For details about the additional configuration required for OneDrive to support IRM libraries, see [SharePoint Online and OneDrive for Business: IRM Configuration](https://docs.microsoft.com/information-protection/deploy-use/configure-office365#sharepoint-online-and-onedrive-for-business-irm-configuration).
 
-Windows Information Protection
-------------------------------
+### Windows Information Protection
 
 You can use Windows Information Protection (WIP) to help prevent data leakage by deploying application or device policies that restrict how your employees can store, access, and use your organization's data. For example, you can restrict users to synchronizing files that contain company data only to OneDrive and not to personal cloud storage providers like Dropbox. For information about how to use WIP, see [Protect your enterprise data using Windows Information Protection (WIP)](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip).
 
@@ -94,15 +94,13 @@ Key decision:
 
 -   Do you want to user Windows Information Protection with OneDrive?
 
-Azure Information Protection
-----------------------------
+### Azure Information Protection
 
 Azure Information Protection is a cloud-based solution that helps organizations classify, label, and protect their documents and emails. This classification can occur automatically when administrators define rules and conditions; manually by users; or both, where users receive recommendations. Users can synchronize Azure Information Protection–protected files to OneDrive after you have configured their accounts to do so.
 
 For more information about Azure Information Protection, see [What is Azure Information Protection](https://docs.microsoft.com/azure/information-protection/understand-explore/what-is-information-protection)? You can add Azure Information Protection to your Office 365 subscription through the Billing\\Subscriptions section of the [Admin Center](https://portal.office.com/adminportal/home#/homepage).
 
-Sharing options
----------------
+### Sharing options
 
 Using the OneDrive admin center, you can specify sharing options such as the default sharing type for users, with whom they can share, and how long sharing links remain active.
 
@@ -118,13 +116,11 @@ These are the key decisions around sharing for OneDrive:
 
 Note that the OneDrive sharing settings are a subset of the SharePoint Online sharing settings. If you want to allow external sharing in OneDrive, it must be enabled for SharePoint Online.
 
-OneDrive integration with other Office 365 features
----------------------------------------------------
+### OneDrive integration with other Office 365 features
 
 OneDrive integrates with many other applications, such as SharePoint, Teams, and Yammer. With that integration comes the necessity to protect the data stored in OneDrive. When considering security, for example, think about potential leakage scenarios through each integrated application and apply WIP, IRM, Azure Information Protection, or another protection option to help prevent unauthorized access. For information about how these products integrate with each other to provide a better collaboration solution and how they can introduce additional vectors for data leakage, see [How SharePoint Online and OneDrive for Business interact with Microsoft Teams](https://docs.microsoft.com/microsoftteams/sharepoint-onedrive-interact).
 
-Data retention
---------------
+### Data retention
 
 When a user is separated from your organization and you’ve deleted that user’s account, what happens to his or her data? When considering data retention compliance, determine what needs to happen with a separated user’s data. For some organizations, retaining deleted user data could be important continuity and preventing critical data loss. The default retention policy for deleted OneDrive users is 30 days. You can configure the setting to a range between 0 days and 3,650 days (ten years).
 
@@ -134,8 +130,7 @@ Key decision:
 
 -   What data retention time do you need for your organization?
 
-Migrating data
-==============
+## Migrating data
 
 A key task in deploying OneDrive for your organization is a plan to migrate your users existing files to OneDrive. Depending on where these files are kept, there are several options, discussed below. You can choose one or more of these options depending on the number and location of files that you need to migrate.
 
@@ -151,20 +146,17 @@ Key decisions:
 
 -   Do you need to pre-provision OneDrive for your users? (Are you migrating files before users have started using OneDrive?)
 
-Manual migration
-----------------
+### Manual migration
 
 With manual migration, each user migrates their own files. This can be done simply, by dragging files to the OneDrive web interface, or by setting up the OneDrive sync client and then dragging files to the OneDrive sync directory.
 
 If your users have only a small number of personal files, or if the files are scattered in different locations, this may be the simplest solution.
 
-Migrating with FastTrack
-------------------------
+### Migrating with FastTrack
 
-FastTrack is a Microsoft benefit that is included in your subscription.  FastTrack provides you with a set of best practices, tools, resources, and experts committed to making your experience with the Microsoft Cloud a great one! Guidance around OneDrive onboarding, migration, and adoption are included in the benefit offering. This guidance includes: help to discover what’s possible, creating a plan for success, and onboarding new users, providing guidance on migrating content from file share, Box, or Google Drive source environments, and introducing capabilities at a flexible pace, your pace! FastTrack guidance provides enablement of both OneDrive for Business and getting the source environment ready for your transition. In addition, the FastTrack data migration benefit will also perform specific data migration activities on behalf of you, the customer,  for those with 500 or more licenses. See more details in the provided [FastTrack Center Benefit Overview](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftechnet.microsoft.com%2Flibrary%2Fmt651702.aspx&data=04%7C01%7Cmikeholl%40microsoft.com%7C3dbf71882c9c4f7a50af08d5eb72e593%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636673801061554115%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwifQ%3D%3D%7C-1&sdata=FPvM1FN6eXdu1yRTj4lfWp73EDlvXvAV4myV2mTU9S8%3D&reserved=0). Interested in getting started? Visit [FastTrack.Microsoft.Com](https://www.microsoft.com/en-us/fasttrack/), review resources, and submit a Request for Assistance.
+FastTrack is a Microsoft benefit that is included in your subscription.  FastTrack provides you with a set of best practices, tools, resources, and experts committed to making your experience with the Microsoft Cloud a great one! Guidance around OneDrive onboarding, migration, and adoption are included in the benefit offering. This guidance includes: help to discover what’s possible, creating a plan for success, and onboarding new users, providing guidance on migrating content from file share, Box, or Google Drive source environments, and introducing capabilities at a flexible pace, your pace! FastTrack guidance provides enablement of both OneDrive for Business and getting the source environment ready for your transition. In addition, the FastTrack data migration benefit will also perform specific data migration activities on behalf of you, the customer,  for those with 500 or more licenses. See more details in the provided [FastTrack Center Benefit Overview](https://docs.microsoft.com/fasttrack/fasttrack-benefit-for-office-365/fasttrack-benefit-overview/data-migration). Interested in getting started? Visit [FastTrack.Microsoft.Com](https://www.microsoft.com/en-us/fasttrack/), review resources, and submit a Request for Assistance.
 
-Using the SharePoint Migration Tool
------------------------------------
+### Using the SharePoint Migration Tool
 
 The SharePoint Migration Tool lets you migrate lists or files from your SharePoint on-premises document libraries (including on-premises OneDrive) or from your on-premises file shares and easily move them OneDrive in Office 365. It is available to Office 365 users.
 
@@ -172,13 +164,11 @@ For detailed information about the SharePoint Migration Tool, see [How the Share
 
 The SharePoint Migration Tool can be used by your users directly, or by your IT department to migrate files on their behalf.
 
-Known Folder Move
------------------
+### Known Folder Move
 
 Known Folder Move enables users to select known folders, such as their desktop, Documents, or Pictures, to automatically synchronize to OneDrive. You can add this feature during the initial setup of OneDrive or after it has been configured. This capability provides a simple migration option for users looking to add known folders to their existing list of synchronized folders.
 
-Sync
-====
+## Sync
 
 Even though you can upload, download, and interact with your OneDrive files from a web browser, the ideal OneDrive experience comes from the Windows and Mac sync clients and the iOS and Android mobile apps. OneDrive is available for most operating systems and browsers and requires minimal hardware. For a full list of client and app requirements for using OneDrive, see [OneDrive system requirements](https://support.office.com/article/cc0cb2b8-f446-445c-9b52-d3c2627d681e).
 
@@ -186,13 +176,11 @@ If you already have the OneDrive client installed on Windows devices, start by d
 
 Because OneDrive provides access to files on many kinds of devices, it restricts the use of certain characters, file names, and folder names. In addition, certain features are available only in the Windows operating system. For a full list of these and other limitations of OneDrive, see [Restrictions and limitations when you sync files and folders](https://support.microsoft.com/help/3125202/restrictions-and-limitations-when-you-sync-files-and-folders).
 
-Upgrade from the Groove sync client to the OneDrive sync client
----------------------------------------------------------------
+### Upgrade from the Groove sync client to the OneDrive sync client
 
 If you currently have the old OneDrive sync client (Groove.exe), then you’ll need to follow a slightly different process to upgrade to the new sync client. If you had more than 250 licensed users before June 2016, you may need to run a takeover command to continue syncing existing libraries using the new client. For detailed information about this process (and caveats), see [Transition from the previous OneDrive for business sync client](https://support.office.com/article/transition-from-the-previous-onedrive-for-business-sync-client-4100df3a-0c96-464f-b0a8-c20de34da6fa).
 
-Sync client update process
---------------------------
+### Sync client update process
 
 You can update the OneDrive sync client in two waves:
 
@@ -210,8 +198,7 @@ Key decision:
 
 -   Which ring do you want to use for updates to the OneDrive sync client?
 
-Including the sync client on new PCs
-------------------------------------
+### Including the sync client on new PCs
 
 Windows AutoPilot provides a simple way to deliver PCs to users. It is an alternative to the traditional system imaging you typically perform when provisioning a new computer or repurposing an existing computer for a user. Rather than using deployment tools such as System Center Configuration Manager, you can register your hardware information in Azure and use a deployment profile to control the out-of-box experience and register the device in Azure Active Directory (Azure AD).
 
@@ -219,8 +206,7 @@ From there, Intune can deploy apps such as OneDrive to the device automatically.
 
 For an overview of Windows AutoPilot, see [Overview of Windows AutoPilot](https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-10-autopilot).
 
-Sync client deployment options
-------------------------------
+### Sync client deployment options
 
 For mobile devices running iOS or Android, OneDrive sync configuration is limited to a user interacting with an app. For these devices, you can send your users a step-by-step list of instructions for [iOS](https://support.office.com/article/08d5c5b2-ccc6-40eb-a244-fe3597a3c247) or [Android](https://support.office.com/article/eee1d31c-792d-41d4-8132-f9621b39eb36) which lead them through a simple sign-in–driven experience. Alternatively, you can deploy the mobile applications by using a mobile device management application such as Intune.
 
@@ -240,13 +226,14 @@ For Windows 10 client devices that are joined to a domain, you have the additio
 
 The following table illustrates the various deployment and management options for the OneDrive sync client.
 
-                                        Mac   Windows   Android   iOS
-  ------------------------------------- ----- --------- --------- -----
-  Admin center                          X     X         X         X
-  Office 365 MDM                        X     X         X         X
-  Intune MDM/MAM                        X     X         X         X
-  System Center Configuration Manager   X\*   X\*       X\*       X\*
-  Group policy                                X\*                 
+
+||**Mac**|**Windows**|**Android**|**iOS**|
+|:-----|:-----|:-----|:-----|:-----|
+| Admin center                         | X |    X  |       X |        X|
+|  Office 365 MDM                      |  X |    X |        X  |       X|
+|  Intune MDM/MAM                       | X |    X      |   X       |  X|
+|  System Center Configuration Manager  | X\* |  X\* |      X\*  |     X\*|
+|  Group policy                       ||         X\* |||                
 
 \*Business-owned devices only
 
@@ -254,7 +241,6 @@ Key decision:
 
 -   What sync client deployment method do you want to use for each type of device that you want to support?
 
-Deploying OneDrive in your organization
----------------------------------------
+### Deploying OneDrive in your organization
 
-Once you have made the key decisions regarding your OneDrive deployment, read Deploy OneDrive for specific steps that guide you through the deployment process.
+Once you have made the key decisions regarding your OneDrive deployment, read [Deploy OneDrive](deploy-onedrive-enterprise.md) for specific steps that guide you through the deployment process.

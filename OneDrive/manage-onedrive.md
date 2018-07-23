@@ -1,27 +1,24 @@
 ---
 title: Manage OneDrive
+ms.author: kaarins
+author: kaarins
+manager: pamgreen
+ms.audience: Admin
+ms.topic: article
+ms.service: one-drive
+localization_priority: Normal
+description: "Learn how to manage OneDrive in an an enterprise."
 ...
 
-Manage OneDrive
-===============
+# Manage OneDrive
 
 The tools and technologies you use to manage OneDrive are based on the individual management task you want to perform. The following table shows the three primary categories to consider when managing OneDrive and the technologies and methods available for that category.
 
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  **Category**               **Description**                                                                                   **Technology or method**
-  -------------------------- ------------------------------------------------------------------------------------------------- -------------------------------------
-  OneDrive tenant settings   Manage the settings of the OneDrive tenant, such as storage allotment and sharing capabilities.   OneDrive admin center
-                                                                                                                               
-                                                                                                                               Microsoft PowerShell
 
-  Sync client                Sync client update cadence, DLP policies, and other device or app restrictions.                   MDM (for example, Intune)
-                                                                                                                               
-                                                                                                                               System Center Configuration Manager
-                                                                                                                               
-                                                                                                                               Group Policy
-                                                                                                                               
-                                                                                                                               Manually
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|**Category**|**Description**|**Technology or method**|
+|:-----|:-----|:-----|
+|OneDrive tenant settings|Manage the settings of the OneDrive tenant, such as storage allotment and sharing capabilities.|OneDrive admin center<br>Microsoft PowerShell|
+|Sync client|Sync client update cadence, DLP policies, and other device or app restrictions.|MDM (for example, Intune)<br>System Center Configuration Manager<br>Group Policy<br>Manually|
 
 In this section, you learn how to manage OneDrive by using:
 
@@ -33,8 +30,7 @@ In this section, you learn how to manage OneDrive by using:
 
 -   System Center Configuration Manager.
 
-Manage OneDrive by using the OneDrive admin center
---------------------------------------------------
+## Manage OneDrive by using the OneDrive admin center
 
 The OneDrive admin center (https://admin.onedrive.com) in Office 365 enables you to manage OneDrive settings and device access from one central location. Some settings in the OneDrive admin center you’ll use regardless of any other technologies you use to manage OneDrive (for example, to configure storage space settings). Others may overlap management apps in use (for example, the MAM section). Most organizations will use the OneDrive admin center for some of their settings, but only those organizations without an MDM application would likely use the device access functionality in the OneDrive admin center.
 
@@ -54,8 +50,7 @@ Settings in the OneDrive admin center are grouped into six categories:
 
 For detailed examples of how to perform management tasks in the OneDrive admin center, see [OneDrive admin center](https://support.office.com/article/onedrive-admin-center-b5665060-530f-40a3-b34a-9e935169b2e0).
 
-Manage OneDrive by using an MDM application
--------------------------------------------
+### Manage OneDrive by using an MDM application
 
 You can use MDM solutions such as Intune to manage OneDrive settings. In this section, you learn how to:
 
@@ -67,7 +62,7 @@ You can use MDM solutions such as Intune to manage OneDrive settings. In this se
 
 -   Manage OneDrive by using third-party MDM applications.
 
-### Manage OneDrive settings by using Intune
+#### Manage OneDrive settings by using Intune
 
 Unlike Windows, OneDrive doesn’t have a configuration service provider. Therefore, to use Intune to configure OneDrive settings, you must deploy the setting’s corresponding registry key and value by using a PowerShell cmdlet. Read [Use Group Policy to control OneDrive sync client settings](https://support.office.com/article/use-group-policy-to-control-onedrive-sync-client-settings-0ecb2cf5-8882-42b3-a6e9-be6bda30899c) for a list of settings and their corresponding registry values; then, construct a PowerShell script using the following cmdlet syntax:
 
@@ -77,7 +72,7 @@ New-ItemProperty -Path \$Path -Name \$Name -Value \$Value -PropertyType DWORD -F
 
 Save the PowerShell script as a .ps1 file. Then, see [Manage PowerShell scripts in Intune for Windows 10 devices](https://docs.microsoft.com/intune/intune-management-extension) for instructions on how to deploy the PowerShell script in your environment.
 
-### Manage OneDrive updates by using Intune
+#### Manage OneDrive updates by using Intune
 
 OneDrive is updated through Windows Update in two waves. Out of the box, OneDrive sync clients are in the first wave, which means that they receive updates as soon as they’re published. The second wave receives those same updates several weeks later. To configure Windows devices to be in the second wave, you must configure the **EnableEnterpriseUpdate** entry by using the following command:
 
@@ -85,12 +80,11 @@ New-ItemProperty -Path 'HKCU:\\SOFTWARE\\Microsoft\\OneDrive' -Name 'EnableEnter
 
 Save the script as a .ps1 file. Then, see [Manage PowerShell scripts in Intune for Windows 10 devices](https://docs.microsoft.com/intune/intune-management-extension) for instructions on how to deploy the PowerShell script in your environment.
 
-### Manage OneDrive by using third-party MDM tools
+#### Manage OneDrive by using third-party MDM tools
 
 Intune isn’t the only MDM option you can use to manage OneDrive apps and settings. For information about managing OneDrive for Windows 10 by using VMware AirWatch, see [Modern Management for Windows 10](https://www.air-watch.com/solutions/windows-10-management/). For information about managing OneDrive for Windows 10 by using MobileIron, see [Windows 10 in the Enterprise](https://www.mobileiron.com/solutions/multi-os-management/windows-10).
 
-Manage OneDrive by using Group Policy
--------------------------------------
+## Manage OneDrive by using Group Policy
 
 You can use Group Policy to manage OneDrive settings for domain-joined machines in your environment
 
@@ -106,8 +100,7 @@ Set the policy to **Enabled**, and then select **Show**. In **Show Contents**, i
 
 You can enable additional features like Files On-Demand during this task, deploying these settings together in the same GPO or separately. If you choose to deploy them together, be sure to target both the necessary devices and user objects because the GPO contains settings in both scopes.
 
-Manage OneDrive by using System Center Configuration Manager
-------------------------------------------------------------
+### Manage OneDrive by using System Center Configuration Manager
 
 Because Windows devices that you use System Center Configuration Manager to manage are either domain joined (and therefore managed in Active Directory) or administered through Intune, the role of System Center Configuration Manager in managing OneDrive settings is limited. When using System Center Configuration Manager to manage OneDrive, Microsoft recommends using either Group Policy or Intune, depending on whether the device is domain joined. For information about how to use Group Policy to manage OneDrive settings, see [Manage OneDrive settings by using GPOs](#_Manage_OneDrive_settings).
 
@@ -119,7 +112,7 @@ System Center Configuration Manager can manage OneDrive updates and configuratio
 
 -   Configure accounts silently in System Center Configuration Manager.
 
-### Manage OneDrive updates by using System Center Configuration Manager
+#### Manage OneDrive updates by using System Center Configuration Manager
 
 Depending on where the OneDrive client originated—as part of an Office package, Windows 10, or as a stand-alone installation—there are two primary methods for using System Center Configuration Manager to manage OneDrive updates:
 

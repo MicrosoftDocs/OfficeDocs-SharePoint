@@ -1,11 +1,20 @@
 ---
 title: Deploy OneDrive
+ms.author: kaarins
+author: kaarins
+manager: pamgreen
+ms.audience: Admin
+ms.topic: article
+ms.service: one-drive
+localization_priority: Normal
+description: "Learn how to deploy OneDrive in an an enterprise."
 ...
+
+# Deploy OneDrive for enterprises
 
 Before you read this article, be sure you’ve read Plan for OneDrive and taken note of the key decisions needed for deployment. This article walks you through how to deploy OneDrive based on the decisions that you’ve made for your organization.
 
-Configure your infrastructure
-=============================
+## Configure your infrastructure
 
 Before you configure OneDrive, configure your infrastructure:
 
@@ -13,8 +22,7 @@ Before you configure OneDrive, configure your infrastructure:
 
 -   If you’ve decided to deploy OneDrive Multi-Geo or hybrid, read the related sections below to learn how to configure these options.
 
-Network utilization
--------------------
+### Network utilization
 
 Before you roll out OneDrive to your organization, it’s important to assess your network bandwidth needs to support it. The basic recommended steps are:
 
@@ -28,15 +36,13 @@ Before you roll out OneDrive to your organization, it’s important to assess yo
 
 The article [Network utilization planning for the OneDrive sync client](https://docs.microsoft.com/onedrive/network-utilization-planning) includes the details around how to carry out these steps.
 
-Multi-geo
----------
+### Multi-geo
 
 If you plan to configure OneDrive Multi-Geo prior to deploying OneDrive for your users, read [Plan for OneDrive for Business Multi-Geo](https://docs.microsoft.com/office365/enterprise/plan-for-multi-geo) and follow the steps in [OneDrive for Business Multi-Geo tenant configuration](https://docs.microsoft.com/office365/enterprise/multi-geo-tenant-configuration). Once you’ve configured your allowed data locations and set the appropriate preferred data location for each of your users, they can begin using OneDrive and their OneDrive will be deployed in the correct geo-location.
 
 If you plan to start using OneDrive before you configure OneDrive Multi-Geo, keep in mind that each user’s OneDrive will be deployed to the central location for your Office 365 subscription. If in the future you need to move a user’s OneDrive to a different geo location, follow the steps in [Move a OneDrive site to a different geo-location](https://docs.microsoft.com/office365/enterprise/move-onedrive-between-geo-locations).
 
-Hybrid
-------
+### Hybrid
 
 If you plan to deploy hybrid OneDrive, read [Plan hybrid OneDrive for Business](https://docs.microsoft.com/sharepoint/hybrid/plan-hybrid-onedrive-for-business), and then follow the [Configure hybrid OneDrive for Business roadmap](https://docs.microsoft.com/sharepoint/hybrid/configure-hybrid-onedrive-for-businessroadmap).
 
@@ -46,20 +52,17 @@ Keep in mind that once you configure hybrid OneDrive, the OneDrive navigation li
 
 Once you’ve migrated your users’ files from on-premises OneDrive and configured hybrid OneDrive, you can reduce the quota for your on-premises OneDrive top-level site collection to a minimal value to save disk space.
 
-Configure data governance and security
-======================================
+### Configure data governance and security
 
 Once you have your infrastructure configured, the next step is to configure any data governance and security policies that you decided on in the planning phase.
 
-Information rights management–protected file synchronization
-------------------------------------------------------------
+### Information rights management–protected file synchronization
 
 If you currently use or plan to use IRM-protected files, see [SharePoint Online and OneDrive for Business: IRM Configuration](https://docs.microsoft.com/information-protection/deploy-use/configure-office365#sharepoint-online-and-onedrive-for-business-irm-configuration) for the configuration steps needed.
 
 You must also deploy the latest [Rights Management Services (RMS) client](https://www.microsoft.com/en-us/download/details.aspx?id=38396) to your users’ computers.
 
-Windows Information Protection
-------------------------------
+### Windows Information Protection
 
 If you’ve decided to use Windows Information Protection with OneDrive, see the following resources to set up your Windows Information Protection policies:
 
@@ -67,13 +70,11 @@ If you’ve decided to use Windows Information Protection with OneDrive, see the
 
 -   [Create a Windows Information Protection (WIP) policy using System Center Configuration Manager](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/overview-create-wip-policy-sccm)
 
-Azure Information Protection
-----------------------------
+### Azure Information Protection
 
 If you have decided to use Azure Information Protection, see [Office 365: Configuration for clients and online services to use the Azure Rights Management service](https://docs.microsoft.com/azure/information-protection/deploy-use/configure-office365#sharepoint-online-and-onedrive-for-business-irm-configuration)[](https://docs.microsoft.com/information-protection/deploy-use/configure-office365#sharepoint-online-and-onedrive-for-business-irm-configuration) to configure the necessary settings for it to work with OneDrive.
 
-Sharing options
----------------
+### Sharing options
 
 Based on the sharing decisions you made during the planning phase, go to the [OneDrive admin center](https://admin.onedrive.com) and configure your sharing options.
 
@@ -91,52 +92,43 @@ Remember that the sharing permissions for SharePoint Online must be at least as 
 
 After you have selected your external sharing setting, in the **Links** section, choose a default link type. (Options will vary depending on your sharing settings.) This is the default option that users will see when they share, though they can change it at the time of sharing if they want.
 
-Data retention
---------------
+### Data retention
 
 Set the data retention policy that you decided on in the planning phase:
 
 In the [OneDrive admin center](https://admin.onedrive.com/), and click the **Storage** tab and set a value between 0 days and 3650 days (ten years) for the days to retain files in OneDrive after an account is marked for deletion.
 
-Migrate data
-============
+### Migrate data
 
 Once you’ve finished setting up your governance policies, it’s time to migrate your user’s data. Follow the sections below based on the migration decisions that you made in the planning phase.
 
-Manual migration
-----------------
+### Manual migration
 
 If you’ve chosen to have your users migrate their own files by copying them to OneDrive through the web interface or a synced folder on their local disk, we recommend including basic instructions around how to do this and how to get assistance when you communicate your migration plan.
 
-Hybrid
-------
+### Hybrid
 
 If you’re migrating from OneDrive in SharePoint Server on-premises and configuring hybrid OneDrive, be sure to read the hybrid section in this article and also in Plan for OneDrive for important considerations around the migration phase.
 
-Pre-provisioning sites
-----------------------
+### Pre-provisioning sites
 
 If you’re planning to migrate files on behalf of your users before they have started using OneDrive, you may need to pre-provision each user’s OneDrive. See [Pre-provision OneDrive for users in your organization](https://support.office.com/article/ceef6623-f54f-404d-8ee3-3ce1e338db07) to get started.
 
-Migrating with FastTrack
-------------------------
+### Migrating with FastTrack
 
 If you have decided to take advantage of Microsoft FastTrack, visit [FastTrack](https://fasttrack.microsoft.com/) to review resources and submit a Request for Assistance.
 
-Using the SharePoint Migration Tool
------------------------------------
+### Using the SharePoint Migration Tool
 
 If you have decided to use the SharePoint Migration Tool, see [How to use the SharePoint Migration Tool](https://docs.microsoft.com/sharepointmigration/how-to-use-the-sharepoint-migration-tool) to get started.
 
 If your users will be using the SharePoint Migration Tool to migrate their own files, we recommend that you test the tool in a typical scenario that your users would see, and document the specific steps that they should take. Include that documentation and a method of requesting help when you communicate your migration plan.
 
-Deploy the OneDrive sync client
-===============================
+## Deploy the OneDrive sync client
 
 The procedures in this section guide you through how to deploy the OneDrive sync client based on the decisions that you made in the planning phase.
 
-Sync client update process
---------------------------
+### Sync client update process
 
 If you’re planning to use the Production ring for updating the OneDrive sync client, then no action is needed – that’s the default ring.
 
@@ -144,13 +136,11 @@ If you want to use the Enterprise ring, you must configure this by enabling the 
 
 For details about the update process, see [The OneDrive sync client update process](https://support.office.com/article/the-onedrive-sync-client-update-process-2f748bc6-6f01-4406-a791-ec047f066d6d).
 
-Upgrade from the Groove sync client to the OneDrive sync client
----------------------------------------------------------------
+### Upgrade from the Groove sync client to the OneDrive sync client
 
 If you currently have the old OneDrive sync client (Groove.exe), then you’ll need to follow a slightly different process to upgrade to the new sync client. If you had more than 250 licensed users before June 2016, you may need to run a takeover command to continue syncing existing libraries using the new client. For detailed information about this process (and caveats), see [Transition from the previous OneDrive for business sync client](https://support.office.com/article/transition-from-the-previous-onedrive-for-business-sync-client-4100df3a-0c96-464f-b0a8-c20de34da6fa).
 
-Deploy the OneDrive sync client by using Intune
------------------------------------------------
+### Deploy the OneDrive sync client by using Intune
 
 If you’ve decided to deploy the OneDrive sync client by using Intune, follow the procedures in this section.
 
@@ -176,12 +166,13 @@ To use Intune to deploy OneDrive to Windows devices, complete the steps in [How 
 
 ![](media/deploy-onedrive-enterprise_image3.png)
 
-***Note:** You aren’t required to deploy the entire Office 365 suite at once. If you need the OneDrive sync client only, you can select that one item.*
+> [!NOTE]
+> You aren’t required to deploy the entire Office 365 suite at once. If you need the OneDrive sync client only, you can select that one item.
 
-Deploy OneDrive by using System Center Configuration Manager
-------------------------------------------------------------
+### Deploy OneDrive by using System Center Configuration Manager
+<span id="_Hlk509358526" class="anchor"></span>
 
-<span id="_Hlk509358526" class="anchor"></span>If you’ve decided to deploy the OneDrive sync client by using System Center Configuration Manager, follow the procedures in this section.
+If you’ve decided to deploy the OneDrive sync client by using System Center Configuration Manager, follow the procedures in this section.
 
 ### Mobile devices running iOS or Android
 
@@ -203,7 +194,8 @@ The sample .zip file contains the script installer deployment type that you’ll
 
 ![](media/deploy-onedrive-enterprise_image6.png)
 
-***Note:** The script installer deployment type already has a detection method script and will correctly assess the installation. Also, there is an uninstall switch, which means that you can easily remove the OneDrive client, if necessary.*
+> [!NOTE]
+> The script installer deployment type already has a detection method script and will correctly assess the installation. Also, there is an uninstall switch, which means that you can easily remove the OneDrive client, if necessary.
 
 For more information about packages and programs in System Center Configuration Manager, see [Packages and programs in System Center Configuration Manager](https://docs.microsoft.com/sccm/apps/deploy-use/packages-and-programs).
 
@@ -211,8 +203,7 @@ For more information about packages and programs in System Center Configuration 
 
 Before you can deploy applications to computers running macOS, you need to complete some prerequisite tasks on the System Center Configuration Manager site. For detailed information about these prerequisites and how to prepare a System Center Configuration Manager environment for Mac management, see [Prepare to deploy client software to Macs](https://docs.microsoft.com/sccm/core/clients/deploy/prepare-to-deploy-mac-clients). When you’ve completed the prerequisites, you can deploy applications to Macs by completing the steps described in [How to Create and Deploy Applications for Mac Computers in Configuration Manager](https://technet.microsoft.com/en-us/library/jj687950.aspx).
 
-Install OneDrive on Windows devices by using scripting methods
---------------------------------------------------------------
+### Install OneDrive on Windows devices by using scripting methods
 
 OneDrive is already available in Windows 10 and Office 2016, so if these products are deployed, you probably don’t need to install OneDrive, although you may have to update it. For older versions of Windows that aren’t running Office 2016, start by downloading the new OneDrive sync client for Windows from [https://onedrive.live.com/about/download](https://onedrive.live.com/about/download/).
 
@@ -228,8 +219,7 @@ To silently update the OneDrive sync client, run the following command:
 
 For more information about silently installing the OneDrive sync client on computers across your organization, see [Silently deploy and configure the OneDrive sync client in your enterprise](https://support.office.com/article/64aa1f56-d7f6-4500-a408-1fde8fe6db36).
 
-Install the OneDrive sync client manually
------------------------------------------
+### Install the OneDrive sync client manually
 
 Although not particularly scalable, you always have the option of Installing OneDrive manually on a device. For some devices, this process may be as simple as installing an app. For others, you may need to delete older versions of OneDrive first. This section walks you through the manual installation and configuration of OneDrive on iOS and Android mobile devices, Windows devices, and computers running macOS.
 
@@ -249,7 +239,8 @@ Send your users the following links to set up OneDrive on their mobile devices:
 
 Manually installing OneDrive on a Windows device may or may not be necessary: many devices may already have it, either because the user installed Microsoft Office 2016 or simply because the device runs Windows 10, both of which include the OneDrive client by default. For devices running older versions of Windows or on which Office 2016 is not installed, you can download the new OneDrive sync client for Windows from [https://onedrive.live.com/about/download](https://onedrive.live.com/about/download/).
 
-***Note:** You may be required to uninstall an old version of the OneDrive sync client before you can install the new one. If so, you will receive a notification stating that you must uninstall the previous version before you can proceed.*
+> [!NOTE]
+> You may be required to uninstall an old version of the OneDrive sync client before you can install the new one. If so, you will receive a notification stating that you must uninstall the previous version before you can proceed.
 
 To manually configure OneDrive on a Windows device, see [Sync files with the OneDrive sync client in Windows](https://support.office.com/article/sync-files-with-the-onedrive-sync-client-in-windows-615391c4-2bd3-4aae-a42a-858262e42a49).
 
