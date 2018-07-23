@@ -69,10 +69,15 @@ In the SharePoint admin center, you can choose to allow users to run custom scri
 > [!CAUTION]
 > Before you allow custom script on sites in your organization, make sure you understand the [security implications](security-considerations-of-allowing-custom-script.md). 
   
-To allow custom script on a particular site collection immediately, use the following Microsoft PowerShell command (learn more about the [Introduction to the SharePoint Online Management Shell](https://go.microsoft.com/fwlink/?linkid=869066)):
-  
+To allow custom script on a particular site collection immediately, follow these steps: 
+
+1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
+    
+2. Connect to SharePoint Online as a global admin or SharePoint admin in Office 365. To learn how, see [Getting started with SharePoint Online Management Shell](https://go.microsoft.com/fwlink/?linkid=869066).
+3. Run the following command.
+ ```PowerShell
  `Set-SPOsite <SiteURL> -DenyAddAndCustomizePages 0`
-  
+ ``` 
 If you change this setting for a user's OneDrive or a user-created site, it will be overridden by the Custom Script setting in the admin center within 24 hours.
   
 ## Features affected when custom script is blocked

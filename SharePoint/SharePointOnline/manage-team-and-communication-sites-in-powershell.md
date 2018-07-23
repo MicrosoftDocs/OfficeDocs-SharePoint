@@ -30,7 +30,7 @@ By default, team sites that belong to Office 365 groups and communication sites 
     
 3. Run the following command:
     
-  ```
+  ```PowerShell
   Set-SPOSite -Identity <site URL> -SharingCapability <sharing level>
   ```
 
@@ -38,7 +38,7 @@ By default, team sites that belong to Office 365 groups and communication sites 
     
 To view the existing sharing setting, run the following command.
   
-```
+```PowerShell
 (Get-SPOSite -Identity <site URL>).SharingCapability
 ```
 
@@ -55,7 +55,7 @@ If you manage site collection storage limits manually, you can use PowerShell to
     
 3. Run this command to check the current storage limit for the site:
     
-  ```
+  ```PowerShell
   Get-SPOSite -Identity <site URL> -detailed |fl
   ```
 
@@ -63,7 +63,7 @@ If you manage site collection storage limits manually, you can use PowerShell to
     
 4. Run this command to set the storage space for the site:
     
-  ```
+  ```PowerShell
   Set-SPOSite -<site URL> -StorageQuota <limit> -StorageQuotaWarningLevel <warning>
   ```
 
@@ -84,13 +84,13 @@ Follow these steps to get a list of all communication sites in your organization
     
 3. Run this command to get a list of communication sites:
     
-  ```
+  ```PowerShell
   Get-SPOSite -Template SITEPAGEPUBLISHING#0 
   ```
 
    Or run this command to get a list of team sites that belong to Office 365 groups:
     
-  ```
+  ```PowerShell
   Get-SPOSite -Template GROUP#0 -Includepersonalsite:$false
   
   ```
