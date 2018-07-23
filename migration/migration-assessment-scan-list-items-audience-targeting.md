@@ -59,7 +59,7 @@ This scan report provides a list of all the add-ins installed in the environment
 |TotalItemCount |Total number of items found in the site collection. |
 |Hits |Number of requests logged for the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row will show N/A. |
 |DistinctUsers |Number of distinct users that have accessed the site collection. Relies on data from the usage logging service. If the usage logging service is disabled this row will show N/A. |
-|DaysOfUsageData |Number of days the usage logging service retains data. This provides context for Hits and DistinctUsers. For example| if this is 14 days| the Hits and DistinctUsers data is for the last 14 days. "|
+|DaysOfUsageData |Number of days the usage logging service retains data. This provides context for Hits and DistinctUsers. For example, if this is 14 days, the Hits and DistinctUsers data is for the last 14 days.|
 |WebUrl|Url to the web hosting the list.|
 |ListTitle|Title of the list that contains list items that target audiences.|
 |ListUrl|Url to the root of the list.|
