@@ -90,6 +90,7 @@
 ### [Restricted domains sharing](restricted-domains-sharing.md)
 ### [Secure extranet site](secure-extranet-site.md)
 ## [Managed metadata](managed-metadata.md)
+### [Open the Term Store management tool](open-term-store-management-tool.md)
 ### [Set up new group for term sets](set-up-new-group-for-term-sets.md)
 ### [Create and manage terms](create-and-manage-terms.md)
 ### [Set up new term set](set-up-new-term-set.md)
