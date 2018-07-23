@@ -80,22 +80,13 @@ Review the details of the web browser that you have or plan to use in your organ
 > [!NOTE]
 > Some older SharePoint functionality that relies on NPAPI or ActiveX will not work on browsers other than Internet Explorer. You can work around each of these issues by using Internet Explorer to perform these tasks. 
   
-#### Other supported browsers in SharePoint Server 2016
-
-- Google Chrome (latest released version) 
-    
-- Mozilla Firefox (latest released version plus immediate previous version)
-    
-    For example, if the latest released version is 40, version 39 would be supported.
-    
-- Apple Safari (latest released version)
-    
-#### Using ActiveX controls in SharePoint Server 2016
+   
+#### Using ActiveX controls in SharePoint Server
 <a name="activex"> </a>
 
-Some functionality in SharePoint Server 2016 requires ActiveX controls. This produces limitations on browsers which do not support ActiveX. Currently only 32-bit versions of Internet Explorer support this functionality. All other supported browsers, including Microsoft Edge and the Immersive mode of Internet Explorer 10 have the following limitations. 
+Some functionality in SharePoint Server requires ActiveX controls. This produces limitations on browsers which do not support ActiveX. Currently only 32-bit versions of Internet Explorer support this functionality. In SharePoint Server 2016, all other supported browsers, including Microsoft Edge and the Immersive mode of Internet Explorer 10 have the following limitations. 
 
-For SharePoint Server 2019 Public Preview, Browsers other than Internet Explorer 11 have the following limitations
+For SharePoint Server 2019 Public Preview, Browsers other than Internet Explorer 11 have the following limitations.
   
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
