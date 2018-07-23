@@ -28,79 +28,47 @@ Unlike most other cloud storage providers, OneDrive makes most of its advanced f
 
 Key OneDrive features are those that provide value beyond the standard storage requirements from a cloud storage provider, address common customer concerns or specific compliance requirements, and provide unique functionality available only in OneDrive. Some of these key features include:
 
+-   Known Folder Move
+  
 -   OneDrive Files On-Demand
-
--   Real-time team collaboration—Coauthoring in full versions of Microsoft Word, Excel, and PowerPoint
-
--   Intelligent discover with OneDrive Discover view
-
--   Data loss prevention (DLP)
-
--   eDiscovery
-
--   Seamlessly connecting files to conversations
-
--   Encryption of data in transit and at rest
-
--   Customer-controlled encryption keys
-
--   OneDrive Multi-Geo storage locations
 
 -   Hybrid integration with SharePoint Server
 
--   Office 365 Customer Lockbox
-
--   Auditing and reporting
-
 -   Modern attachments
 
--   Government cloud
+-   Real-time team collaboration—Coauthoring in full versions of Microsoft Word, Excel, and PowerPoint
+
+-   Seamlessly connecting files to conversations
+ 
+-   Intelligent discover with OneDrive Discover view
 
 -   OneDrive Files Restore
 
 -   Recycle bin
 
+-   Data loss prevention (DLP)
+
+-   eDiscovery
+
+-   Auditing and reporting
+ 
+-   Encryption of data in transit and at rest
+
+-   Customer-controlled encryption keys
+
+-   Office 365 Customer Lockbox
+ 
+-   OneDrive Multi-Geo storage locations
+
+-   Government cloud
+
+
+
 For a full list of feature availability across OneDrive plans, see [Microsoft OneDrive](https://onedrive.live.com/about). More in-depth descriptions for some of these features can be found below.
 
-### Encryption of data in transit and at rest
+### Known Folder Move
 
-OneDrive uses advanced data-encryption methods between your client and the data center, between servers in the data center, and at rest. At rest, OneDrive uses disk encryption through BitLocker Drive Encryption and file encryption to secure your data. Each file is encrypted with its own encryption key; anything larger than 64 KB is split into individual chunks, each of which has its own encryption key locked in a key store.
-
-Each file chunk is then randomly distributed among Microsoft Azure storage containers, and a construction map for the complete file is stored in a separate secure content database. For attackers to access the file, they would need all the file chunks, the keys, and the map—a highly improbable task. For more information about this process, see [Data Encryption in OneDrive for Business and SharePoint Online](https://support.office.com/article/data-encryption-in-onedrive-for-business-and-sharepoint-online-6501b5ef-6bf7-43df-b60d-f65781847d6c).
-
-### Customer-controlled encryption keys 
-
-By using an Office 365 feature called *service encryption with Customer Key,* you can upload your own encryption keys to Azure Key Vault for use encrypting your data at rest in Azure data centers. Even though this encryption is done natively through BitLocker, customers can require the use of their own key to meet their security compliance requirements. Should users lose their key, they can retrieve a deleted key from the Recycle Bin for up to 90 days (based on your configuration). Before you can use this feature, however, you must create an Azure subscription and complete a few prerequisite steps. For detailed information about service encryption with Customer Key and how to configure it in your environment*,* see [Controlling your data in Office 365 using Customer Key](https://support.office.com/article/controlling-your-data-in-office-365-using-customer-key-f2cd475a-e592-46cf-80a3-1bfb0fa17697).
-
-### OneDrive Multi-Geo storage locations
-
-Multi-Geo is an Office 365 feature that allows organizations so span their storage over multiple Office 365 geo locations and specify in which of those to store users’ data. You can designate storage geographies on a per-user basis.
-
-For multinational customers with data residency requirements, you can use this feature to ensure that each user’s data is stored in the geo location necessary for compliance. For more information about this feature, see [Multi-Geo Capabilities in OneDrive and SharePoint Online in Office 365](https://technet.microsoft.com/library/mt826374(v=office.16).aspx).
-
-### Office 365 Customer Lockbox
-
-If a Microsoft support engineer needs to access your data to resolve an issue, that engineer is required to obtain approval from a Microsoft manager first. The Office 365 Customer Lockbox feature adds a requirement to that process: you must approve or reject that access before the support engineer can access your data. With Customer Lockbox, you can also set boundaries on how long the engineer can access your data, and all activity during that time is logged for auditing purposes. For more information about how to configure and use the Customer Lockbox feature, see [Office 365 Customer Lockbox Requests](https://support.office.com/article/office-365-customer-lockbox-requests-36f9cdd1-e64c-421b-a7e4-4a54d16440a2).
-
-### Microsoft Trust Center
-
-Microsoft Trust Center provides information about Microsoft’s trust policy, how Microsoft products help you protect your data and maintain your customers’ and users’ trust, and why you should trust Microsoft products with your data. The following two categories provide details about Office 365 and OneDrive data privacy, compliance, and security:
-
--   **Office 365 Trust Center.** Privacy, compliance, and cybersecurity are as important to Microsoft as they are to you. For information about how Office 365 can help you increase employee productivity while helping you safeguard your data, see [Microsoft Office 365](https://www.microsoft.com/en-us/trustcenter/cloudservices/office365) in the Microsoft Trust Center. For information about why you should trust Microsoft, Office 365, and OneDrive with your data, see [Office 365 Trust Center](https://products.office.com/en-us/business/office-365-trust-center-welcome).
-
--   **General Data Protection Regulation (GDPR).** This new European Union regulation changes how companies are required to handle data and the transparency with which they collect it. Windows 10 and Office 365 with OneDrive give you GDPR-compliant tools; you simply need to incorporate those tools into your overall data integrity story. For answers to some common questions about GDPR compliance with OneDrive and SharePoint, see [GDPR Compliancy with OneDrive and SharePoint](https://techcommunity.microsoft.com/t5/Microsoft-OneDrive-Blog/GDPR-Compliancy-with-OneDrive-and-SharePoint/ba-p/191126). For a complete list of helpful resources about GDPR, see [Resources for GDPR compliance](https://www.microsoft.com/en-us/trustcenter/privacy/gdpr/resources). For additional helpful information about OneDrive, see the [Microsoft OneDrive Blog](https://techcommunity.microsoft.com/t5/OneDrive-Blog/bg-p/OneDriveBlog).
-
-### Auditing and reporting
-
-OneDrive has detailed reporting and auditing capabilities for files it stores as well as for those files stored through other services that use OneDrive for storage, such as Microsoft SharePoint Online. In addition, you can audit individual file actions, including downloads, renames, and views. Figure 2 shows the audit log experience.
-
-\<fig-02\_audit log search\>
-
-The Office 365 admin center handles reporting for cloud services, including OneDrive. You can view historical information like storage usage by user and for the organization, total file and active file counts, and account activity. Figure 3 provides an example of a OneDrive report in the Office 365 admin center: file usage over the past 30 days.
-
-***Note:*** You can also export this information to a .csv file by selecting **Export**.
-
-You can also consume this information in Power BI by using the Power BI Adoption content pack for Office 365. Using this content pack, you can visualize and analyze Office 365 usage data by using prebuilt graphs and charts or by creating custom reports to gain insights into how specific regions or departments within your organization are using Office 365. For more information about the Office 365 Adoption content pack, see [Office 365 Adoption content pack](https://support.office.com/article/Office-365-Adoption-Content-Pack-77ff780d-ab19-4553-adea-09cb65ad0f1f).
+Known Folder Move makes it easier to move files in your users' Desktop, Documents, and Pictures folders to OneDrive. This lets users continue working in the folders they're familiar with and access their files from any device. It also helps you make sure your users' files are backed up in the cloud if anything happens to their device. For more info, see [Redirect and move Windows known folders to OneDrive](redirect-known-folders.md#).
 
 ### OneDrive Files On-Demand
 
@@ -116,10 +84,6 @@ OneDrive integrates with Outlook to allow seamless sharing of OneDrive files tha
 
 To reduce the potential for confusion when users choose to add a copy versus a link to attached OneDrive files, you can set the default behavior of the Outlook client, as demonstrated in [How to control default attachment state when you attach a cloud file in Outlook](https://support.microsoft.com/help/4011261/how-to-set-attachment-preference-for-attaching-a-cloud-file-in-outlook).
 
-### Government cloud
-
-OneDrive is available in Office 365 U.S. Government plans. For information about these plans, see [Office 365 U.S. Government](https://products.office.com/government/office-365-web-services-for-government).
-
 ### Files Restore
 
 The OneDrive Files Restore feature enables users to restore files to any point over the past 30 days. To select the desired recovery time, OneDrive presents users with a histogram that shows file activity so that they can determine which recovered time meets their needs. From there, users can simply select the file history entry to which they want to restore, and all changes after that point will be rolled back. Figure 7 shows the Files Restore experience for a user.
@@ -131,3 +95,48 @@ In addition, because the histogram shows individual activity on a file, users ca
 ### Recycle bin
 
 OneDrive has a recycle bin similar to the one available on the Windows desktop. Deleted files are moved to the recycle bin and kept for a designated time before being permanently deleted. For work or school accounts, deleted files are purged after 93 days unless configured otherwise. For a demonstration of how the recycle bin works, see [Restore deleted files or folders in OneDrive](https://support.office.com/article/restore-deleted-files-or-folders-in-onedrive-949ada80-0026-4db3-a953-c99083e6a84f).
+
+### Auditing and reporting
+
+OneDrive has detailed reporting and auditing capabilities for files it stores as well as for those files stored through other services that use OneDrive for storage, such as Microsoft SharePoint Online. In addition, you can audit individual file actions, including downloads, renames, and views. Figure 2 shows the audit log experience.
+
+\<fig-02\_audit log search\>
+
+The Office 365 admin center handles reporting for cloud services, including OneDrive. You can view historical information like storage usage by user and for the organization, total file and active file counts, and account activity. Figure 3 provides an example of a OneDrive report in the Office 365 admin center: file usage over the past 30 days.
+
+***Note:*** You can also export this information to a .csv file by selecting **Export**.
+
+You can also consume this information in Power BI by using the Power BI Adoption content pack for Office 365. Using this content pack, you can visualize and analyze Office 365 usage data by using prebuilt graphs and charts or by creating custom reports to gain insights into how specific regions or departments within your organization are using Office 365. For more information about the Office 365 Adoption content pack, see [Office 365 Adoption content pack](https://support.office.com/article/Office-365-Adoption-Content-Pack-77ff780d-ab19-4553-adea-09cb65ad0f1f).
+
+### Encryption of data in transit and at rest
+
+OneDrive uses advanced data-encryption methods between your client and the data center, between servers in the data center, and at rest. At rest, OneDrive uses disk encryption through BitLocker Drive Encryption and file encryption to secure your data. Each file is encrypted with its own encryption key; anything larger than 64 KB is split into individual chunks, each of which has its own encryption key locked in a key store.
+
+Each file chunk is then randomly distributed among Microsoft Azure storage containers, and a construction map for the complete file is stored in a separate secure content database. For attackers to access the file, they would need all the file chunks, the keys, and the map—a highly improbable task. For more information about this process, see [Data Encryption in OneDrive for Business and SharePoint Online](https://support.office.com/article/data-encryption-in-onedrive-for-business-and-sharepoint-online-6501b5ef-6bf7-43df-b60d-f65781847d6c).
+
+### Customer-controlled encryption keys 
+
+By using an Office 365 feature called *service encryption with Customer Key,* you can upload your own encryption keys to Azure Key Vault for use encrypting your data at rest in Azure data centers. Even though this encryption is done natively through BitLocker, customers can require the use of their own key to meet their security compliance requirements. Should users lose their key, they can retrieve a deleted key from the Recycle Bin for up to 90 days (based on your configuration). Before you can use this feature, however, you must create an Azure subscription and complete a few prerequisite steps. For detailed information about service encryption with Customer Key and how to configure it in your environment*,* see [Controlling your data in Office 365 using Customer Key](https://support.office.com/article/controlling-your-data-in-office-365-using-customer-key-f2cd475a-e592-46cf-80a3-1bfb0fa17697).
+
+### Office 365 Customer Lockbox
+
+If a Microsoft support engineer needs to access your data to resolve an issue, that engineer is required to obtain approval from a Microsoft manager first. The Office 365 Customer Lockbox feature adds a requirement to that process: you must approve or reject that access before the support engineer can access your data. With Customer Lockbox, you can also set boundaries on how long the engineer can access your data, and all activity during that time is logged for auditing purposes. For more information about how to configure and use the Customer Lockbox feature, see [Office 365 Customer Lockbox Requests](https://support.office.com/article/office-365-customer-lockbox-requests-36f9cdd1-e64c-421b-a7e4-4a54d16440a2).
+
+### Microsoft Trust Center
+
+Microsoft Trust Center provides information about Microsoft’s trust policy, how Microsoft products help you protect your data and maintain your customers’ and users’ trust, and why you should trust Microsoft products with your data. The following two categories provide details about Office 365 and OneDrive data privacy, compliance, and security:
+
+-   **Office 365 Trust Center.** Privacy, compliance, and cybersecurity are as important to Microsoft as they are to you. For information about how Office 365 can help you increase employee productivity while helping you safeguard your data, see [Microsoft Office 365](https://www.microsoft.com/en-us/trustcenter/cloudservices/office365) in the Microsoft Trust Center. For information about why you should trust Microsoft, Office 365, and OneDrive with your data, see [Office 365 Trust Center](https://products.office.com/en-us/business/office-365-trust-center-welcome).
+
+-   **General Data Protection Regulation (GDPR).** This new European Union regulation changes how companies are required to handle data and the transparency with which they collect it. Windows 10 and Office 365 with OneDrive give you GDPR-compliant tools; you simply need to incorporate those tools into your overall data integrity story. For answers to some common questions about GDPR compliance with OneDrive and SharePoint, see [GDPR Compliancy with OneDrive and SharePoint](https://techcommunity.microsoft.com/t5/Microsoft-OneDrive-Blog/GDPR-Compliancy-with-OneDrive-and-SharePoint/ba-p/191126). For a complete list of helpful resources about GDPR, see [Resources for GDPR compliance](https://www.microsoft.com/en-us/trustcenter/privacy/gdpr/resources). For additional helpful information about OneDrive, see the [Microsoft OneDrive Blog](https://techcommunity.microsoft.com/t5/OneDrive-Blog/bg-p/OneDriveBlog).
+
+### OneDrive Multi-Geo storage locations
+
+Multi-Geo is an Office 365 feature that allows organizations so span their storage over multiple Office 365 geo locations and specify in which of those to store users’ data. You can designate storage geographies on a per-user basis.
+
+For multinational customers with data residency requirements, you can use this feature to ensure that each user’s data is stored in the geo location necessary for compliance. For more information about this feature, see [Multi-Geo Capabilities in OneDrive and SharePoint Online in Office 365](https://technet.microsoft.com/library/mt826374(v=office.16).aspx).
+
+### Government cloud
+
+OneDrive is available in Office 365 U.S. Government plans. For information about these plans, see [Office 365 U.S. Government](https://products.office.com/government/office-365-web-services-for-government).
+
