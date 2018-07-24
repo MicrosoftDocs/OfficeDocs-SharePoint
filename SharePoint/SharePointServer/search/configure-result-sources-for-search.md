@@ -10,17 +10,14 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: d6845f9b-7c1e-4220-a24d-1e5cade8f0d8
-description: "Summary: Learn how to create and manage result sources in SharePoint Server."
+description: "Summary: Learn how to create and manage result sources in .SharePoint Server 2016 and SharePoint Server 2013."
 ---
 
 # Configure result sources for search in SharePoint Server
 
- **Summary:**Learn how to create and manage result sources in SharePoint Server.
+ **Summary:**Learn how to create and manage result sources in .SharePoint Server 2016 and SharePoint Server 2013.
   
-Result sources limit searches in the classic search experience to certain content or to a subset of search results. SharePoint Server provides 16 pre-defined result sources for the classic search experience. The pre-configured default result source is **Local SharePoint Results**. You can specify a different result source as the default. For more information, see [Understanding result sources for search in SharePoint Server](understanding-result-sources-for-search.md).
-
-> [!IMPORTANT]
-> The modern search experience in SharePoint Server 2019 Public Preview gets results from the default result source. If you change the default result source it impacts both the classic and modern search experiences.
+Result sources limit searches to certain content or to a subset of search results. SharePoint Server provides 16 pre-defined result sources. The pre-configured default result source is **Local SharePoint Results**. You can specify a different result source as the default. For more information, see [Understanding result sources for search in SharePoint Server](understanding-result-sources-for-search.md).
   
     
 ## Create a result source

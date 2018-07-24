@@ -10,14 +10,14 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 0864e3e6-37bc-4b43-ae38-6a01f8728e8b
-description: "Summary: Learn how to make people search work in SharePoint Server."
+description: "Summary: Learn how to make people search work in SharePoint Server 2016 and SharePoint Server 2013."
 ---
 
 # Deploy people search in SharePoint Server
 
- **Summary:** Learn how to make classic people search work in SharePoint Server. 
+ **Summary:** Learn how to make people search work in SharePoint Server 2016 and SharePoint Server 2013. 
   
-People search is a SharePoint Server feature that allows users to get information about people in the organization and to get links to the documents that they have authored. Users can access this feature by entering a search query in the enterprise Search Center search box and clicking the link for the **People** search vertical.
+People search is a SharePoint Server feature that allows users to get information about people in the organization and to get links to the documents that they have authored. Users can access this feature by entering a search query in the enterprise Search Center search box and clicking the link for the **People**search vertical.
   
 A search vertical filters search results so that only a certain subset of all relevant results is displayed. SharePoint Server provides four preconfigured search verticals: **Everything**, **People**, **Conversations**, and **Videos**. You can see the links for these search verticals in the Search Navigation Web Part, which is below the search box in the enterprise Search Center, as shown in the following screen shot.
   
