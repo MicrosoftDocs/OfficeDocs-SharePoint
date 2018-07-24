@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: a2420e0a-bc3d-4a07-b7b9-f44c7a74ade1
-description: "Summary: Learn how to manage search components to scale out the search topology in SharePoint Server 2016 and SharePoint Server 2013."
+description: "Summary: Learn how to manage search components to scale out the search topology in SharePoint Server."
 ---
 
 # Manage the search topology in SharePoint Server
 
- **Summary:** Learn how to manage search components to scale out the search topology in SharePoint Server 2016 and SharePoint Server 2013. 
+ **Summary:** Learn how to manage search components to scale out the search topology in SharePoint Server. 
   
 The following articles provide information about how you manage search components in SharePoint Server.
   

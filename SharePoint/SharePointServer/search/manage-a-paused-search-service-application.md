@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 18b1dbaf-d8e1-416b-b2fb-fe6cd0a369f1
-description: "Summary: Learn why the Search service application is paused and what you can do to resume it in SharePoint Server 2016 and SharePoint Server 2013."
+description: "Summary: Learn why the Search service application is paused and what you can do to resume it in SharePoint Server."
 ---
 
 # Manage a paused Search service application in SharePoint Server
 
- **Summary:** Learn why the Search service application is paused and what you can do to resume it in SharePoint Server 2016 and SharePoint Server 2013. 
+ **Summary:** Learn why the Search service application is paused and what you can do to resume it in SharePoint Server. 
   
 Most operations that require the Search service application to be paused have to complete before the Search service application automatically resumes.
   
