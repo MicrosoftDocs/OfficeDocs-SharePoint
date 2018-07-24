@@ -17,7 +17,7 @@ description: "As a SharePoint Online Administrator, you can use services in Shar
 
 # Make an External List from a SQL Azure table with Business Connectivity Services and Secure Store
 
-As a SharePoint Online Administrator, you can use services in SharePoint Online to access data from a Microsoft SQL Azure database. Because SQL Azure is a cloud-based relational database technology, this means the connection works completely in the cloud. This article describes how to use SharePoint technologies to access data from a SQL Azure database without having to write code.
+As a SharePoint or global admin in Office 365, you can use services in SharePoint Online to access data from a Microsoft SQL Azure database. Because SQL Azure is a cloud-based relational database technology, the connection works completely in the cloud. This article describes how to use SharePoint technologies to access data from a SQL Azure database without having to write code.
   
 To use data from a SQL Azure database, you have to create an External List by using Business Connectivity Services (BCS) and Secure Store. BCS connects SharePoint solutions to external data, and Secure Store enables user authentication for the data. By using an External List, you can display the contents of a table from SQL Azure in SharePoint Online. Users can read, edit, and update the data, all in SharePoint Online. 
   

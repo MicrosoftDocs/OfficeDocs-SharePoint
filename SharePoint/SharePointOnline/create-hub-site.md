@@ -32,7 +32,7 @@ If you're a global or SharePoint admin in Office 365, you can convert any existi
     
 4. Run the following command to convert the site to a hub site and enable the hub site features:
     
-  ```
+  ```PowerShell
   Register-SPOHubSite URL
   ```
 

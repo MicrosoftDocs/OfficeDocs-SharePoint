@@ -14,7 +14,7 @@ description: "OneDrive for Business admin landing page."
 
 # OneDrive for Business
 
-OneDrive for Business admin landing page.
+Help your users store, sync, and share work files in the cloud with OneDrive.
   
 <ul class="panelContent cardsFTitle">
     <li>

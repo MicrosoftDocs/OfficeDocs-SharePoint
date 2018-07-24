@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
 ms.assetid: cc78357c-6d48-499c-9cc7-dae447d0d391
-description: "In this article we'll discuss the latest sharing features in SharePoint Online and OneDrive. The features described here are part of the targeted release program and you may need to have targeted release turned on in your tenant in order to use them. (Note the availability dates in each section.)"
+description: "In this article we'll discuss the latest sharing features in SharePoint Online and OneDrive. The features described here are part of the targeted release program and you may need to have targeted release turned on in your organization in order to use them. (Note the availability dates in each section.)"
 ---
 
 # What's new in sharing in targeted release
 
-In this article we'll discuss the latest sharing features in SharePoint Online and OneDrive. The features described here are part of the [targeted release program](https://support.office.com/article/3b3adfa4-1777-4ff0-b606-fb8732101f47) and you may need to have targeted release turned on in your tenant in order to use them. (Note the availability dates in each section.) 
+In this article we'll discuss the latest sharing features in SharePoint Online and OneDrive. The features described here are part of the [targeted release program](https://support.office.com/article/3b3adfa4-1777-4ff0-b606-fb8732101f47) and you may need to have targeted release turned on in your organization in order to use them. (Note the availability dates in each section.) 
   
 ## New secure external sharing recipient experience
 
