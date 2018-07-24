@@ -15,11 +15,14 @@ description: "Summary: Learn to create custom entity extractors and how to use t
 
 # Create and deploy custom entity extractors in SharePoint Server
 
- **Summary:** Learn to create custom entity extractors and how to use them to set up custom refiners. Create one or more custom entity extraction dictionaries and connect them to managed properties. 
+ **Summary:** Learn to create custom entity extractors and how to use them to set up custom refiners for the classic search experience. Create one or more custom entity extraction dictionaries and connect them to managed properties. 
   
 You create and maintain the custom entity extractor file in a system external to SharePoint Server before you import it into SharePoint Server to make the custom entity extractor available to the search system.
   
-To use custom entities as refiners, you first create a custom entity extraction dictionary and deploy it. Then, you configure a managed property to use a custom entity extractor and run a full crawl. After that, you can configure the Refinement Web Part on the search results page to use the custom entity as a refiner. 
+To use custom entities as refiners in classic search, you first create a custom entity extraction dictionary and deploy it. Then, you configure a managed property to use a custom entity extractor and run a full crawl. After that, you can configure the Refinement Web Part on the search results page to use the custom entity as a refiner. 
+
+> [!NOTE]
+> The modern search experience in SharePoint Server 2019 Public Preview doesn't support custom refiners.
   
     
 ## Before you begin
