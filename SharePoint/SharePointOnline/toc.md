@@ -38,7 +38,7 @@
 ### [What is permissions inheritance?](what-is-permissions-inheritance.md)
 ### [Default SharePoint groups](default-sharepoint-groups.md)
 ### [Change default sharing link](change-default-sharing-link.md)
-## [Security](security.md)
+## [Security]()
 ### [Control access from unmanaged devices](control-access-from-unmanaged-devices.md)
 ### [Control access based on network location](control-access-based-on-network-location.md)
 ### [Authentication](authentication.md)

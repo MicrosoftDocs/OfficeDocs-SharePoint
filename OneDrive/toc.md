@@ -22,7 +22,7 @@
 ### [Block file types](block-file-types.md)
 ### [Prevent installation](prevent-installation.md)
 ### [Exclude or uninstall previous sync client](exclude-or-uninstall-previous-sync-client.md)
-## [Sharing and security](sharing-and-security.md)
+## [Sharing and security]()
 ### [Manage sharing](manage-sharing.md)
 ### [Turn on external sharing notifications](turn-on-external-sharing-notifications.md)
 ### [Allow syncing only on specific domains](allow-syncing-only-on-specific-domains.md)
