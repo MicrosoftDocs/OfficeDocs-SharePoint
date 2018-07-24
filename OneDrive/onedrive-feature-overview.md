@@ -1,11 +1,20 @@
 ---
-title: Feature Overview
+title: OneDrive feature overview
+ms.author: kaarins
+author: kaarins
+manager: pamgreen
+ms.audience: Admin
+ms.topic: article
+ms.service: one-drive
+localization_priority: Normal
+description: "Learn how OneDrive can help your enterprise."
 ...
+
+# OneDrive feature overview
 
 With OneDrive for Business, you can easily and securely store and access your files from all your devices. You can work with others regardless of whether they’re inside or outside your organization and terminate that sharing whenever you want. OneDrive helps protect your work through advanced encryption while the data is in transit and at rest in data centers. OneDrive also helps ensure that users adhere to your most rigorous compliance standards by enabling them to choose where their data lives and providing detailed reporting of how that data has changed and been accessed. OneDrive connects you to your personal and shared files in Microsoft Office 365, enhancing collaboration capabilities within Office 365 applications. With OneDrive on the web, desktop, or mobile, you can access all your personal files plus the files shared with you from other people or teams, including files from Microsoft Teams and SharePoint.
 
-Why deploy OneDrive?
---------------------
+## Why deploy OneDrive?
 
 OneDrive provides a robust but simple-to-use cloud storage platform for small businesses, enterprises, and everything in between. Unlike other cloud storage providers, most of the advanced enterprise-focused features in OneDrive are available for every subscription type, enabling companies to use OneDrive in whatever way benefits their business the most – whether that’s simply a cloud-based file share for a small business or a highly utilized storage system that provides the basis for all collaboration within an enterprise. At its core, however, OneDrive enables you to securely share and work together on all your files. With OneDrive, you can:
 
@@ -21,8 +30,9 @@ OneDrive provides a robust but simple-to-use cloud storage platform for small bu
 
 The Microsoft 365 family of products, which includes Office, Microsoft Outlook, SharePoint, Teams, OneDrive, and Yammer, provides a complete, intelligent, and secure solution to empower employees. Together, the Microsoft 365 applications unlock creativity and encourage teamwork through product integration and a simple user experience, all while providing intelligent security to help keep your data safe. In addition, Microsoft Graph enables you to interact with and report on the data within many of the Microsoft 365 applications. The illustration below shows what this and other shared capabilities among these products look like.
 
-Key OneDrive features
----------------------
+![Infographic showing Teams, Yammer, OneDrive, SharePoint, Office Apps, and Outlook as tools for teamwork](media/onedrive-feature-overview_image1.png)
+
+## Key OneDrive features
 
 Unlike most other cloud storage providers, OneDrive makes most of its advanced features available to all subscription types in addition to the standard features that are available from most other cloud service providers. The result is flexibility for smaller organizations to choose whether to take advantage of the included advanced features and robust features and capabilities enterprises expect out of the box from a cloud storage provider.
 
@@ -64,17 +74,21 @@ Key OneDrive features are those that provide value beyond the standard storage r
 
 
 
-For a full list of feature availability across OneDrive plans, see [Microsoft OneDrive](https://onedrive.live.com/about). More in-depth descriptions for some of these features can be found below.
+For a full list of feature availability across OneDrive plans, see [Microsoft OneDrive](https://products.office.com/onedrive-for-business/online-cloud-storage). More in-depth descriptions for some of these features can be found below.
 
 ### Known Folder Move
 
-Known Folder Move makes it easier to move files in your users' Desktop, Documents, and Pictures folders to OneDrive. This lets users continue working in the folders they're familiar with and access their files from any device. It also helps you make sure your users' files are backed up in the cloud if anything happens to their device. For more info, see [Redirect and move Windows known folders to OneDrive](redirect-known-folders.md#).
+Known Folder Move makes it easier to move files in your users' Desktop, Documents, and Pictures folders to OneDrive. This lets users continue working in the folders they're familiar with and access their files from any device. It also helps you make sure your users' files are backed up in the cloud if anything happens to their device. For more info, see [Redirect and move Windows known folders to OneDrive](redirect-known-folders.md).
 
 ### OneDrive Files On-Demand
 
 OneDrive Files On-Demand enables users to view, search for, and interact with files stored in OneDrive from within File Explorer without downloading them all to their device. The feature provides a seamless look and feel for both OneDrive and local files without taking up space on the local hard drive. As shown in Figure 4, files that have not been downloaded have a cloud icon for their status. For those files that have been downloaded, the status shows a green checkmark.
 
+![Screenshot of Windows Explorer showing some OneDrive on disk and some in the cloud](media/onedrive-feature-overview_image3.png)
+
 Natively, files will be downloaded only when you need to access them. However, if you plan to access a file while disconnected from the internet, you can simply make the file available offline by right-clicking it, and then selecting **Always keep on this device**. Alternatively, if you want to free space on your device and remove the downloaded copy of a file, right-click the file, and then select **Free up space**. Figure 5 shows the right-click menu for OneDrive files on a computer running the Windows operating system.
+
+![Screenshot of the right-click menu in Windows Explorer showing options to keep the file on disk or in the cloud](media/onedrive-feature-overview_image4.png)
 
 For more information about OneDrive Files On-Demand, see [Learn about OneDrive Files On-Demand](https://support.office.com/article/learn-about-onedrive-files-on-demand-0e6860d3-d9f3-4971-b321-7092438fb38e).
 
@@ -82,13 +96,15 @@ For more information about OneDrive Files On-Demand, see [Learn about OneDrive F
 
 OneDrive integrates with Outlook to allow seamless sharing of OneDrive files that appear just like email attachments. This feature provides a familiar sharing experience but centralizes storage of attachments in OneDrive, providing collaborative benefits such as version control typically lost when users email documents back and forth. In addition, you can configure sharing permissions on the files directly from within the Outlook client. Figure 6 provides an example of a document in OneDrive being attached as a link to an email as well as the experience of changing the sharing permissions on the link.
 
+![Screenshot of Outlook showing a modern attachment and the right-click menu with permissions options](media/onedrive-feature-overview_image5.png)
+
 To reduce the potential for confusion when users choose to add a copy versus a link to attached OneDrive files, you can set the default behavior of the Outlook client, as demonstrated in [How to control default attachment state when you attach a cloud file in Outlook](https://support.microsoft.com/help/4011261/how-to-set-attachment-preference-for-attaching-a-cloud-file-in-outlook).
 
 ### Files Restore
 
 The OneDrive Files Restore feature enables users to restore files to any point over the past 30 days. To select the desired recovery time, OneDrive presents users with a histogram that shows file activity so that they can determine which recovered time meets their needs. From there, users can simply select the file history entry to which they want to restore, and all changes after that point will be rolled back. Figure 7 shows the Files Restore experience for a user.
 
-![](media/onedrive-feature-overview_image6.png)
+![Screenshot of the Restore my OneDrive screen](media/onedrive-feature-overview_image6.png)
 
 In addition, because the histogram shows individual activity on a file, users can employ this feature to quickly view their files’ modification history. For more information about this feature, see Announcing New OneDrive for Business feature: Files Restore.
 
@@ -100,11 +116,12 @@ OneDrive has a recycle bin similar to the one available on the Windows desktop. 
 
 OneDrive has detailed reporting and auditing capabilities for files it stores as well as for those files stored through other services that use OneDrive for storage, such as Microsoft SharePoint Online. In addition, you can audit individual file actions, including downloads, renames, and views. Figure 2 shows the audit log experience.
 
-\<fig-02\_audit log search\>
-
 The Office 365 admin center handles reporting for cloud services, including OneDrive. You can view historical information like storage usage by user and for the organization, total file and active file counts, and account activity. Figure 3 provides an example of a OneDrive report in the Office 365 admin center: file usage over the past 30 days.
 
-***Note:*** You can also export this information to a .csv file by selecting **Export**.
+> [!NOTE]
+> You can also export this information to a .csv file by selecting **Export**.
+
+![Screenshot of the 30-day file usage report](media/onedrive-feature-overview_image2.png)
 
 You can also consume this information in Power BI by using the Power BI Adoption content pack for Office 365. Using this content pack, you can visualize and analyze Office 365 usage data by using prebuilt graphs and charts or by creating custom reports to gain insights into how specific regions or departments within your organization are using Office 365. For more information about the Office 365 Adoption content pack, see [Office 365 Adoption content pack](https://support.office.com/article/Office-365-Adoption-Content-Pack-77ff780d-ab19-4553-adea-09cb65ad0f1f).
 
