@@ -22,9 +22,6 @@ In SharePoint Online, you can create Business Connectivity Services (BCS) connec
 ## Manage BCS permissions
 <a name="__toc338059706"> </a>
 
-> [!NOTE]
->  For information about how to set up BCS, see the [MSDN SharePoint Online Developer Center](https://msdn.microsoft.com/en-us/sharepoint/gg153540.aspx). 
-  
 After setup is complete, user permissions control access to the data that the connection provides. BCS has two types of permissions:
   
 - Object permissions
