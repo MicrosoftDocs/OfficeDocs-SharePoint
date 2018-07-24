@@ -13,15 +13,29 @@ ms.assetid: 3fa7973f-2c1a-4be0-b903-3f1e6bdcf1d8
 description: "Summary: Learn how to create and configure a SharePoint Search service application so that you can crawl content and provide search results to users."
 ---
 
-# Create and configure a Search service application in SharePoint Server 2016 and SharePoint Server 2019 Public Preview
+# Create and configure a Search service application in SharePoint Server 2016
 
  **Summary:** Learn how to create and configure a SharePoint Search service application so that you can crawl content and provide search results to users. 
   
 ## Before you begin
 <a name="begin"> </a>
 
-If you used the Farm Configuration Wizard after you installed SharePoint Server 2016 or SharePoint Server 2019 Public Preview, a Search service application might have been created at that time. To verify whether a Search service application exists, you can click **Manage service applications** in the **Application Management** section on the Central Administration home page. For the remainder of this article, it is assumed that a Search service application does not exist yet, and that therefore you must create one. 
+If you used the Farm Configuration Wizard after you installed SharePoint Server 2016, a Search service application might have been created at that time. To verify whether a Search service application exists, you can click **Manage service applications** in the **Application Management** section on the Central Administration home page. For the remainder of this article, it is assumed that a Search service application does not exist yet, and that therefore you must create one. 
   
+> [!NOTE]
+> Because SharePoint Server 2016 runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server 2016 supports the accessibility features of supported browsers. 
+  
+For more information, see the following resources:
+  
+- [Plan browser support](https://go.microsoft.com/fwlink/p/?LinkId=246502)
+    
+- [Accessibility for SharePoint 2013](http://technet.microsoft.com/library/94ad4316-1077-400a-b17e-a2085a5a7312%28Office.14%29.aspx)
+    
+- [Accessibility features in SharePoint 2013 Products](https://go.microsoft.com/fwlink/p/?LinkId=246501)
+    
+- [Keyboard shortcuts](https://go.microsoft.com/fwlink/p/?LinkID=246504)
+    
+- [Touch](https://go.microsoft.com/fwlink/p/?LinkId=246506)
     
 ## How to create and configure a SharePoint Search service application
 <a name="begin"> </a>

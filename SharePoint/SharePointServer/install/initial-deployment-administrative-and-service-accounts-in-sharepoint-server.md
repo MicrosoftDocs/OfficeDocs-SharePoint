@@ -12,17 +12,17 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 06765032-fedb-4b73-a019-f096b48cd2a8
-description: "Summary: Learn about the administrative and service accounts you need to initially install SharePoint Servers 2013, 2016 and 2019 Public Preview."
+description: "Summary: Learn about the administrative and service accounts you need to initially install SharePoint Server 2013 and SharePoint Server 2016."
 ---
 
 # Initial deployment administrative and service accounts in SharePoint Server
 
- **Summary:** Learn about the administrative and service accounts you need to initially install SharePoint Servers 2013, 2016 and 2019 Public Preview. 
+ **Summary:** Learn about the administrative and service accounts you need to initially install SharePoint Server 2013 and SharePoint Server 2016. 
   
 This article provides information about the administrative and service accounts that you need for an initial SharePoint Server deployment. Additional accounts and permissions are required to fully implement all aspects of a production farm.
   
 > [!NOTE]
-> For a complete list of permissions for SharePoint Servers 2016 and 2019 Public Preview, see [Account permissions and security settings in SharePoint Servers 2016 and 2019 Public Preview](account-permissions-and-security-settings-in-sharepoint-server-2016.md). > For a complete list of permissions for SharePoint Server 2013, see [Account permissions and security settings in SharePoint 2013](account-permissions-and-security-settings-in-sharepoint-2013.md). 
+> For a complete list of permissions for SharePoint Server 2016, see [Account permissions and security settings in SharePoint Server 2016](account-permissions-and-security-settings-in-sharepoint-server-2016.md). > For a complete list of permissions for SharePoint Server 2013, see [Account permissions and security settings in SharePoint 2013](account-permissions-and-security-settings-in-sharepoint-2013.md). 
   
 > [!IMPORTANT]
 > Do not use service account names that contain the symbol $. 

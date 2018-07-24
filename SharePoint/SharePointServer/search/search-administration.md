@@ -10,18 +10,14 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 820ace03-1fb7-41fd-a077-28b82ebddde3
-description: "Summary: Learn how to manage the search schema and the search topology in SharePoint Server."
+description: "Summary: Learn how to manage the search schema and the search topology in SharePoint Server 2013 and SharePoint Server 2016."
 ---
 
 # Administer search in SharePoint Server
 
- **Summary:** Learn how to manage the search schema and the search topology in SharePoint Server. 
+ **Summary:** Learn how to manage the search schema and the search topology in SharePoint Server 2013 and SharePoint Server 2016. 
   
 The following articles provide information about how you operate and manage search in SharePoint Server.
-
-SharePoint Server 2019 Public Preview offers a **modern** search experience in addition to the **classic** search experience. Both experiences use the same search index to find results. Only the classic search experience is customizable, and some of the customization settings also affect modern search. [Learn what's new about search](../what-s-new/new-and-improved-features-in-SharePoint-Server-2019.md).
-
-
   
 ## Articles about administering search
 

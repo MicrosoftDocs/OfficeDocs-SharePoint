@@ -22,12 +22,6 @@ The search schema in SharePoint Server determines how content is collected in an
 Crawled properties are metadata that is extracted from content during crawls. Metadata can be structured content (such as the title or the author from a Word document), or unstructured content (such as a detected language or extracted keywords).
   
 You decide which crawled metadata to index by mapping the crawled property to a managed property. Users can only search on managed properties. You can map multiple crawled properties to a single managed property or map a single crawled property to multiple managed properties.
-> [!IMPORTANT]
-> The search schema applies to both the classic and the modern search experiences, except:
-> - Refinable. Modern search has built-in refiners.
-> - Sortable. Not supported in modern search.
-> - Custom entity extraction. Modern search has built-in refiners.
-> - Company name extraction. Not supported in modern search.
   
 > [!IMPORTANT]
 > The steps in this article apply to SharePoint Server and use the Central Administration, unless specified otherwise. 
@@ -90,7 +84,7 @@ Before you begin this operation, review the following information about prerequi
     
   - Searchable
     
-  - Advanced searchable settings (optional, if Searchable is selected)
+  - Advanced Searchable Settings (optional, if Searchable is selected)
     
   - Queryable
     
@@ -104,13 +98,9 @@ Before you begin this operation, review the following information about prerequi
     
   - Alias
     
-  - Token normalization
+  - Token Normalization
     
-  - Complete matching
-
-  - Language neutral tokenization
-
-  - Finer query tokenization
+  - Complete Matching
     
   > [!IMPORTANT]
   > If you want to be able to use this managed property as a refiner, you must select both Refinable and Queryable. 
@@ -340,7 +330,6 @@ Say that you want to create a managed property that contains employee numbers, a
 | Mapping a crawled to a managed property | Add/Delete mapping                | Yes                                  |
 | Token normalization                     | Enable/Disable                    | Yes                                  |
 | Complete matching                       | Enable/Disable                    | Yes                                  |
-| Lanugage neutral tokenization           | Enable/Disable                    | Yes                                  |
 | Company name extraction                 | Enable/Disable                    | Yes                                  |
 | Custom entity extraction                | Enable/Disable                    | Yes                                  |
 | Searchable                              | Enable/Disable                    | Yes                                  |

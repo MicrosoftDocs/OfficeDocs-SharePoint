@@ -15,7 +15,7 @@ description: "Summary: Query suggestions are phrases that you want the search sy
 
 # Manage query suggestions in SharePoint Server
 
- **Summary:** Query suggestions are phrases that you want the search system to suggest to users as they start typing a query. This article explains how to switch query suggestions on or off for the classic search experience. It also explains how you can add phrases to the automatic query suggestions, and how you can add phrases that should not be used as query suggestions. 
+ **Summary:** Query suggestions are phrases that you want the search system to suggest to users as they start typing a query. This article explains how to switch query suggestions on or off. It also explains how you can add phrases to the automatic query suggestions, and how you can add phrases that should not be used as query suggestions. 
   
 Query suggestions help users find information quickly by showing queries that might be similar to the one they're typing. For example, as users start to type "sales", they may be able to pick common sales-related queries from a list below the Search Box. 
   
