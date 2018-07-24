@@ -17,9 +17,9 @@ description: "Summary: Learn how to crawl content that you want users to be able
 
  **Summary:** Learn how to crawl content that you want users to be able to search for in SharePoint Server. 
   
-The following articles provide information about how to manage crawling in SharePoint Server.
+The following articles provide information about how to manage crawling in SharePoint Server and apply to both the classic and modern search experiences.
   
-## 
+
 
 |                                                                  **Content**                                                                   |                                                                                                      **Description**                                                                                                       |
 | :--------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

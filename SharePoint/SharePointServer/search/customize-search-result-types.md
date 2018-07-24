@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: cf19810b-5548-447c-a94d-026ad6e9d096
-description: "Create and configure custom search result types in SharePoint Server 2016 and SharePoint Server 2013 so that users can readily distinguish and preview different kinds of items in a list of search results."
+description: "Create and configure custom search result types in SharePoint Server so that users can readily distinguish and preview different kinds of items in a list of search results."
 ---
 
 # Customize search result types in SharePoint Server
 
-Create and configure custom search result types in SharePoint Server 2016 and SharePoint Server 2013 so that users can readily distinguish and preview different kinds of items in a list of search results.
+Create and configure custom search result types in SharePoint Server so that users can readily distinguish and preview different kinds of items in a list of search results in the classic search experience.
   
 A search result type is a rule that causes distinct kinds of search results to be displayed in different ways. It consists of the following: 
   
@@ -34,18 +34,6 @@ You could also customize the default **Excel Item** display template for this pu
 - [Display template reference in SharePoint Server](../technical-reference/display-template-reference-in-sharepoint-server.md)
     
 
-> [!NOTE]
-> Because SharePoint Server runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server supports the accessibility features of supported browsers. For more information, see the following resources: 
-  
-- [Plan browser support](https://go.microsoft.com/fwlink/p/?LinkId=246502)
-    
-- [Accessibility for SharePoint 2013](http://technet.microsoft.com/library/94ad4316-1077-400a-b17e-a2085a5a7312%28Office.14%29.aspx)
-    
-- [Accessibility features in SharePoint 2013](https://go.microsoft.com/fwlink/p/?LinkId=246501)
-    
-- [Keyboard shortcuts](https://go.microsoft.com/fwlink/p/?LinkID=246504)
-    
-- [Touch](https://go.microsoft.com/fwlink/p/?LinkId=246506)
     
  **Create and configure a custom search result type**
   
