@@ -22,16 +22,18 @@ If your organization uses managed term sets to implement formal taxonomies, you 
 2. Under **Site Administration**, click **Term store management**.
 
 
-[The Term Store Management Tool.](media/ba6c6939-f19a-4808-9156-499b05af5380.png)
+![The Term Store Management Tool.](media/ba6c6939-f19a-4808-9156-499b05af5380.png)
 
 If you're a global or SharePoint admin in Office 365, you can access the Term Store management tool from the SharePoint admin center. 
 
 
-2. Sign in to Office 365 as a global admin or SharePoint admin.
+1. Sign in to Office 365 as a global admin or SharePoint admin.
     
-3. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+
+3. In the left pane, choose **Admin centers** \> **SharePoint**.
     
-3. Select **Term Store**.
+4. Select **Term Store**.
     
 
 
