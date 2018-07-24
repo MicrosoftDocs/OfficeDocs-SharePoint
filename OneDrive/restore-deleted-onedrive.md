@@ -2,7 +2,7 @@
 title: "Restore a deleted OneDrive"
 ms.author: kaarins
 author: kaarins
-manager: scotv
+manager: pamgreen
 ms.date: 05/15/2018
 ms.audience: Admin
 ms.topic: article

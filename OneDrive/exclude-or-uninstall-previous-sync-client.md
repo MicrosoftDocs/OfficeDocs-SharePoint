@@ -60,7 +60,7 @@ On Office upgrade, the installer runs on each computer to detect whether Groove.
 
 These changes will affect organizations who have deployed the previous OneDrive for Business sync client to sync on-premises SharePoint libraries, or libraries that have Information Rights Management enabled on them.
   
-The following table shows more detail about which Office installations are affected by these changes and when. All these changes are office client level changes rolled out across clients, and are not turned on tenant by tenant.
+The following table shows more detail about which Office installations are affected by these changes and when. All these changes are Office client-level changes rolled out across clients, and are not turned on organization by organization.
   
 |**Office version**|**When the installation default will change**|**When Groove.exe may be uninstalled**|
 |:-----|:-----|:-----|
