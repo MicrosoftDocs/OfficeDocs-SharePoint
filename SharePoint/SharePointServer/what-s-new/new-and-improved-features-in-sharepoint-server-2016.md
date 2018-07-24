@@ -253,7 +253,7 @@ The role of a server is specified when you create a new farm or join a server to
 |**Front-end with Distributed Cache** <br/> |Shared role that combines the Front-end and Distributed Cache roles on the same server.  <br/> **Note:** <br/> This shared role was introduced in the November Public Update for SharePoint Server 2016 (Feature Pack 1).  <br/> |
 |**Application with Search** <br/> |Shared role that combines the Application and Search roles on the same server.  <br/> **Note:** <br/> This shared role was introduced in the November Public Update for SharePoint Server 2016 (Feature Pack 1).  <br/> |
    
-For more information about the MinRole feature, see [Overview of MinRole Server Roles in SharePoint Server 2016](../install/overview-of-minrole-server-roles-in-sharepoint-server-2016.md) and [Planning for a MinRole server deployment in SharePoint Server 2016](../install/planning-for-a-minrole-server-deployment-in-sharepoint-server-2016.md).
+For more information about the MinRole feature, see [Overview of MinRole Server Roles in SharePoint Server 2016](../install/overview-of-minrole-server-roles-in-sharepoint-server.md) and [Planning for a MinRole server deployment in SharePoint Server 2016](../install/planning-for-a-minrole-server-deployment-in-sharepoint-server-2016.md).
   
 ### Mobile experience
 <a name="mobile"> </a>

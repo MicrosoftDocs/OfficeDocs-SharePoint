@@ -1,9 +1,8 @@
 ---
-title: "Remove a server from a farm in SharePoint Server 2016"
+title: "Remove a server from a farm in SharePoint Servers 2016 or 2019 Public Preview"
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
-ms.date: 5/30/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
@@ -12,18 +11,18 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: acb2d589-6c19-4b6b-9cd1-5e334ba4f2cd
-description: "Summary: Learn how to remove a server from a SharePoint Server 2016 farm."
+description: "Summary: Learn how to remove a server from a SharePoint Servers 2016 or 2019 Public Preview farm."
 ---
 
-# Remove a server from a farm in SharePoint Server 2016
+# Remove a server from a farm in SharePoint Servers 2016 or 2019 Public Preview
 
- **Summary:** Learn how to remove a server from a SharePoint Server 2016 farm. 
+ **Summary:** Learn how to remove a server from a SharePoint Servers 2016 or 2019 Public Preview farm. 
   
     
 ## Removing a server from a SharePoint farm
 <a name="removewebappserver"> </a>
 
-For information about uninstallation procedures that SharePoint Server 2016 supports, see [Uninstall SharePoint Server 2016](uninstall-sharepoint-server-2016.md).
+For information about uninstallation procedures that SharePoint Servers 2016 or 2019 Public Preview support, see [Uninstall SharePoint Servers 2016 or 2019 Public Preview](uninstall-sharepoint-server-2016.md).
   
 Removing a server that contains a search topology component can affect future search activities. The extent of that effect depends on the farm search topology. We recommend that you remove or relocate any search topology components from a server before removing the server from the farm.
   
@@ -46,9 +45,9 @@ To remove a server from a farm, you must first move any databases that are hoste
 You cannot remove a database server if it is the only database server available in the farm, or if it is the database server that hosts the configuration database.
   
 > [!CAUTION]
-> If you uninstall SharePoint Server 2016 from the server that is running Central Administration, you will be unable to administer the server farm until you configure another server in the farm to host the Central Administration site. 
+> If you uninstall SharePoint Server 2016 or SharePoint Server 2019 Public Preview from the server that is running Central Administration, you will be unable to administer the server farm until you configure another server in the farm to host the Central Administration site. 
   
-### Remove a server from a SharePoint farm by using Windows PowerShell
+### Remove a server from a SharePoint farm by using Microsoft PowerShell
 <a name="RemoveByPowerShell"> </a>
 
 Before you remove a database server from a farm, make sure that you have moved any databases stored on that server to a different database server in your farm. 
@@ -58,7 +57,7 @@ Before you remove a database server from a farm, make sure that you have moved a
   
  **To remove a server from a SharePoint farm by using PowerShell**
   
-1. Verify that you have the following memberships:
+Verify that you have the following memberships:
     
   - **securityadmin** fixed server role on the SQL Server instance. 
     
@@ -69,9 +68,9 @@ Before you remove a database server from a farm, make sure that you have moved a
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
-2. From a PowerShell command prompt, type the following command.
+1. From a PowerShell command prompt, type the following command.
     
   ```
   Disconnect-SPConfigurationDatabase 
@@ -107,11 +106,11 @@ You can remove a server from the SharePoint farm by using the PSConfig.exe tool 
 ### Remove a server from a SharePoint farm by using Control Panel
 <a name="removewebappCP"> </a>
 
-You can remove a server from the farm by uninstalling SharePoint Server 2016 from the server through Control Panel. When you uninstall SharePoint Server 2016 by using Control Panel, you disconnect the server from the farm, and then remove the program files and other information from the server.
+You can remove a server from the farm by uninstalling SharePoint Server 2016 from the server through Control Panel. When you uninstall SharePoint Servers 2016 or 2019 Public Preview by using Control Panel, you disconnect the server from the farm, and then remove the program files and other information from the server.
   
  **To remove a server from a SharePoint farm by using Control Panel**
   
-1. Verify that you have the following memberships:
+Verify that you have the following memberships:
     
   - **securityadmin** fixed server role on the SQL Server instance. 
     
@@ -122,48 +121,43 @@ You can remove a server from the farm by uninstalling SharePoint Server 2016 fro
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
-2. On the server that you want to remove from the farm, click **Start**, click **Control Panel**, and then double-click **Programs and Features**.
+1. On the server that you want to remove from the farm, click **Start**, click **Control Panel**, and then double-click **Programs and Features**.
     
-3. In the list of currently installed programs, click **Microsoft SharePoint Server 2016**, and then click **Uninstall**.
+2. In the list of currently installed programs, click **Microsoft SharePoint Server 2016** or **Microsoft SharePoint Server 2019 Public Preview** , and then click **Uninstall**.
     
-4. Click **Continue** at the confirmation prompt to uninstall the program. 
+3. Click **Continue** at the confirmation prompt to uninstall the program. 
     
 ## Remove a server from a SharePoint farm by using Central Administration
 <a name="RemoveAnyServer"> </a>
 
-If a server is no longer available, or if uninstalling SharePoint Server 2016 from Control Panel is not possible, you can remove the SharePoint server from the farm by using the SharePoint Central Administration website. Removing a server from the farm by using Central Administration does not uninstall SharePoint Server 2016 from the server. We recommend that you use the process described in [Remove a server from a SharePoint farm by using Windows PowerShell](remove-a-server-from-a-farm-in-sharepoint-server-2016.md#RemoveByPowerShell) to uninstall SharePoint Server 2016 instead of using Central Administration to remove the server. 
+If a server is no longer available, or if uninstalling SharePoint Server from Control Panel is not possible, you can remove the SharePoint server from the farm by using the SharePoint Central Administration website. Removing a server from the farm by using Central Administration does not uninstall SharePoint Server from the server.  
   
 > [!IMPORTANT]
-> This method of removing a server should only be used when you need to remove an orphaned server from the configuration database. > The recommended way of removing a server from the farm is PowerShell, see [Remove a server from a SharePoint farm by using Windows PowerShell](remove-a-server-from-a-farm-in-sharepoint-server-2016.md#RemoveByPowerShell). 
+> This method of removing a server should only be used when you need to remove an orphaned server from the configuration database. > The recommended way of removing a server from the farm is PowerShell, see [Remove a server from a SharePoint farm by using Microsoft PowerShell](remove-a-server-from-a-farm-in-sharepoint-server-2016.md#RemoveByPowerShell). 
   
 Removing the server from the farm by using Central Administration does not delete this information from the server. Use the Central Administration procedure for removing database servers only, or for removing a web server or an application server from the farm when the server is no longer available to uninstall through Control Panel.
   
-You can follow these steps to remove a SharePoint or database server from the farm. However, we recommend that you remove web servers and application servers from a farm by using Windows PowerShell, instead of by using Central Administration. For information, see [Remove a server from a SharePoint farm by using Windows PowerShell](remove-a-server-from-a-farm-in-sharepoint-server-2016.md#RemoveByPowerShell).
+You can follow these steps to remove a SharePoint or database server from the farm. However, we recommend that you remove web servers and application servers from a farm by using Windows PowerShell, instead of by using Central Administration. For information, see [Remove a server from a SharePoint farm by using Microsoft PowerShell](remove-a-server-from-a-farm-in-sharepoint-server-2016.md#RemoveByPowerShell).
   
 Before you remove a database server from a farm, make sure that you have moved any databases stored on that server to a different database server in your farm. 
   
  **To remove a server from a SharePoint farm by using Central Administration**
   
-1. Verify that the user account that completes this procedure has the following credentials:
+Verify that the user account that completes this procedure has the following credentials:
     
   - The user account that performs this procedure is a member of the Farm Administrators SharePoint group.
     
   - The user account that performs this procedure is a member of the Administrators group on the server.
     
-2. On the SharePoint Central Administration website, in the **System Settings** section, click **Manage servers in this farm**.
+1. On the SharePoint Central Administration website, in the **System Settings** section, click **Manage servers in this farm**.
     
-3. On the **Servers in Farm** page, locate the row that contains the name of the server that you want to remove, and then click **Remove Server**. 
+2. On the **Servers in Farm** page, locate the row that contains the name of the server that you want to remove, and then click **Remove Server**. 
     
-4. In the warning that appears, click **OK** to remove the server or click **Cancel** to stop the operation. 
+3. In the warning that appears, click **OK** to remove the server or click **Cancel** to stop the operation. 
     
     The page updates, and the server that you removed no longer appears in the list of servers.
     
-## See also
 <a name="RemoveAnyServer"> </a>
-
-#### Concepts
-
-[Install SharePoint Server 2016](../install/install-for-sharepoint-server-2016.md)
 
