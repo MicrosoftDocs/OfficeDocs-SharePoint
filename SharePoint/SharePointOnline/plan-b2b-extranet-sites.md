@@ -42,7 +42,7 @@ One key aspect of using an extranet site is managing the external business partn
     
 - **Site-owner-initiated guest invitation model** - If you want more control than the default sharing model over who can invite new users to a site, you can configure the site to only allow site owners to invite new users. This prevents ad-hoc invitations from being sent out by site users. 
     
-- **Admin-managed partner users model** - In an admin-managed partner users model, the Office 365 you pre-populate your tenant's directory with the guest users who you'll be inviting to your site. This can be done by [importing users from other Office 365 or Azure AD tenants](https://go.microsoft.com/fwlink/?linkid=2003563).
+- **Admin-managed partner users model** - In an admin-managed partner users model, the Office 365 you pre-populate your organization's directory with the guest users who you'll be inviting to your site. This can be done by [importing users from other Office 365 or Azure AD](https://go.microsoft.com/fwlink/?linkid=2003563).
     
 See [Securing a SharePoint Online extranet site](secure-extranet-site.md) for details on how these options relate to site sharing and which settings to choose. 
   
@@ -78,7 +78,7 @@ When a contract with a business partner ends, it is important that you remove an
   
 - **Remove permissions** - Remove permissions from the partner users accounts that allowed access to the site(s). This can be done by either removing the security group of which they were a member, or by removing their user identity from the **Site Settings** \> **Site Permissions** \> **Members** page. 
     
-- **Delete partner user accounts** - Delete the partner users from Office 365 provided they no longer need access to any of the other tenant resources. See [Delete a user from your organization](https://support.office.com/article/d5155593-3bac-4d8d-9d8b-f4513a81479e).
+- **Delete partner user accounts** - Delete the partner users from Office 365 provided they no longer need access to any other resources in your organization. See [Delete a user from your organization](https://support.office.com/article/d5155593-3bac-4d8d-9d8b-f4513a81479e).
     
 - **Archive** - Archive the site that you created for your partner in SharePoint Online. 
     

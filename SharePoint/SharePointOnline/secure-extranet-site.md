@@ -20,12 +20,12 @@ description: "Learn how to configure SharePoint Online Admin Managed Partner Use
 
 # Securing a SharePoint Online extranet site
 
-Depending on your business needs, there are different approaches you can take to secure and restrict access to your SharePoint Online B2B extranet site. In SharePoint Online, you can control how and if invitations are sent to external users. These settings can be set at the tenant level, globally controlling all sites. Some settings can also be set at the individual site collection level, allowing you tailor the settings based on the unique requirements for your partner relationship while keeping control on sites intended for internal corporate use only.
+Depending on your business needs, there are different approaches you can take to secure and restrict access to your SharePoint Online B2B extranet site. In SharePoint Online, you can control how and if invitations are sent to external users. These settings can be set at the organization level, globally controlling all sites. Some settings can also be set at the individual site collection level, allowing you tailor the settings based on the unique requirements for your partner relationship while keeping control on sites intended for internal corporate use only.
   
 For information about how to configure the sharing settings discussed in this article, see [Manage external sharing for your SharePoint Online environment](external-sharing-overview.md).
   
 > [!IMPORTANT]
-> Any tenant-level sharing settings that you configure also affect OneDrive for Business. 
+> Any organization-wide sharing settings that you configure also affect OneDrive for Business. 
   
 ## Restricting sharing in SharePoint site collections
 
@@ -48,11 +48,11 @@ The following sections look more closely at these options.
 
 In option 2, the sharing setting **Allow sharing only with the external users that already exist in your organization's directory** allows sharing only with existing users in your Office 365 directory. This turns off the user-based invitations approach within SharePoint Online. 
   
-If you're partnering with another organization that uses Office 365 or has an Azure AD, you can import users from their tenant into your tenant, and then grant them access to your extranet site. For more information, see [What is Azure AD B2B collaboration?](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
+If you're partnering with another organization that uses Office 365 or has an Azure AD, you can import users from their organization into your organization, and then grant them access to your extranet site. For more information, see [What is Azure AD B2B collaboration?](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
   
 ### Sharing with authenticated users
 
-Options 3, 4, and 5 all use the **Allow external users who accept sharing invitations and sign in as authenticated users** sharing option for the site collection. With this option, the site can be shared with any account that can authenticate through a Microsoft-hosted domain (such as Outlook.com or any Office 365 or Azure AD tenant). 
+Options 3, 4, and 5 all use the **Allow external users who accept sharing invitations and sign in as authenticated users** sharing option for the site collection. With this option, the site can be shared with any account that can authenticate through a Microsoft-hosted domain (such as Outlook.com or any Office 365 or Azure AD organization). 
   
 Options 4 and 5 use domain filtering:
   

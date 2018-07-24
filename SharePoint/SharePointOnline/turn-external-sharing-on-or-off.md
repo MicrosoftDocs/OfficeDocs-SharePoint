@@ -41,7 +41,7 @@ Turning external sharing on at the organization level means that site collection
     
 5. Select one of the following:
     
-    ![Tenant external sharing page](media/11d21d51-a5c8-41aa-a6bb-22484a389cd4.png)
+    ![The sharing page in the classic SharePoint admin center](media/11d21d51-a5c8-41aa-a6bb-22484a389cd4.png)
   
 ### Which option to select...
 

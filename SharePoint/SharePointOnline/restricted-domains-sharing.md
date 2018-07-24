@@ -18,7 +18,7 @@ search.appverid:
 - ODB150
 - MET150
 ms.assetid: 5d7589cd-0997-4a00-a2ba-2320ec49c4e9
-description: "Manage external access to your Office 365 tenant for OneDrive for Business and SharePoint Online Extranet B2B (Business-to-Business) sites by using the Allow List or Deny List feature to restrict access to specific email domains.  "
+description: "Manage external access to your organization for OneDrive for Business and SharePoint Online Extranet B2B (Business-to-Business) sites by using the Allow List or Deny List feature to restrict access to specific email domains.  "
 ---
 
 # Restricted domains sharing in SharePoint Online and OneDrive for Business
@@ -27,11 +27,11 @@ With SharePoint Online you can share a site with users from specific domains by 
   
 ## Restricting domains
 
-Administrators can configure external sharing by using either the domain allow list or deny list. This can be done at the tenant level or the site collection level. Administrators can limit sharing invitations to a limited number of email domains by listing them in the allow list or opt to use the deny list, listing email domains to which users are prohibited from sending invitations.
+Administrators can configure external sharing by using either the domain allow list or deny list. This can be done at the organization level or the site collection level. Administrators can limit sharing invitations to a limited number of email domains by listing them in the allow list or opt to use the deny list, listing email domains to which users are prohibited from sending invitations.
   
-Tenant-level settings affect all SharePoint Online site collections, including the OneDrive for Business site collection.
+Organization-wide settings affect all SharePoint Online site collections, including the OneDrive for Business site collection.
   
- **To restrict domains in external sharing in SharePoint Online and OneDrive for Business at the tenant level**
+ **To restrict domains in external sharing in SharePoint Online and OneDrive for Business at the organization level**
   
 1. Sign in to Office 365 as a global admin or SharePoint admin.
     
@@ -52,15 +52,15 @@ Tenant-level settings affect all SharePoint Online site collections, including t
     > [!NOTE]
     > Wildcards are not supported for domain entries. 
   
-You can also configure the tenant-level setting by using the [Set-SPOTenant](https://go.microsoft.com/fwlink/?linkid=2003900) Windows PowerShell cmdlet. 
+You can also configure the organization-wide setting by using the [Set-SPOTenant](https://go.microsoft.com/fwlink/?linkid=2003900) Windows PowerShell cmdlet. 
   
 You can also use restricted domains at the site collection level. Note the following considerations:
   
-- In the case of conflicts, the tenant-level configuration takes precedence over the site collection configuration.
+- In the case of conflicts, the organization-wide configuration takes precedence over the site collection configuration.
     
-- If a tenant-level allow list is configured, then you can only configure an allow list at the site collection level. The site collection allow list must be a subset of the tenant allow list.
+- If an organization-wide allow list is configured, then you can only configure an allow list at the site collection level. The site collection allow list must be a subset of the organization's allow list.
     
-- If a tenant-level deny list is configured, then you can configure either an allow list or a deny list at the site collection level.
+- If an organization-wide deny list is configured, then you can configure either an allow list or a deny list at the site collection level.
     
 - For individual OneDrive for Business site collections, you can only configure this setting by using the [Set-SPOSite](https://go.microsoft.com/fwlink/?linkid=2003901) Windows PowerShell cmdlet. 
     
