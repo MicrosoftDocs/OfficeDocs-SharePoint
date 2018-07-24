@@ -78,7 +78,8 @@ By default, users are allowed to share files in OneDrive and SharePoint with any
 |Allow sharing only for external users who are already in Azure Active Directory.  <br/> |**Existing external users** <br/> |Users can send sharing invitations to any external user who has been added to Azure Active Directory. Invitations to access files can be redeemed only once. After they've been redeemed, they can't be used by others to gain access.  <br/> |
 |Turn off external sharing.  <br/> |**Only people in your organization** <br/> |External sharing is not allowed.  <br/> |
    
-    If you turn off external sharing for SharePoint, you can still change the advanced settings for external sharing in the next step. Your changes won't take effect until you turn on external sharing.
+    > [!NOTE]
+    > If you turn off external sharing for SharePoint, you can still change the advanced settings for external sharing in the next step. Your changes won't take effect until you turn on external sharing.
     
 3. Specify any advanced settings for external sharing.
     

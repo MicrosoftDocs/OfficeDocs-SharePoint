@@ -91,7 +91,7 @@ To automatically transition file syncing without the need for user interaction, 
 
 To prevent users from using the previous OneDrive for Business sync client to sync their OneDrive for Business and SharePoint Online files, run the following command in Microsoft PowerShell:
   
-```
+```PowerShell
 Set-SPOTenantSyncClientRestriction [-GrooveBlockOption <String> "OptOut"|"HardOptIn"|"SoftOptIn"] 
 ```
 
