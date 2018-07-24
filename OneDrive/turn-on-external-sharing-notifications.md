@@ -48,9 +48,5 @@ If external sharing is enabled in your organization, these notifications are ena
     > [!NOTE]
     > This setting no longer works for the new sharing experience that appears in most places. This setting will be removed. 
   
-## See also
 
-[OneDrive admin center](https://support.office.com/article/b5665060-530f-40a3-b34a-9e935169b2e0)
-  
-[OneDrive for Business - Admin Help](https://support.office.com/article/3e21f8f0-e0a1-43be-aa3e-8c0236bf11bb)
 

@@ -37,7 +37,5 @@ To make sure that users sync OneDrive files only on managed computers, you can c
     
 6. Click **Save** on the Sync page. 
     
-## See also
 
-[OneDrive admin center](https://support.office.com/article/b5665060-530f-40a3-b34a-9e935169b2e0)
 

@@ -51,5 +51,5 @@ Some third-party apps and versions of Office prior to Office 2013 don't use mode
 
 [Manage OneDrive for Business mobile access](control-access-to-mobile-app-features.md)
   
-[OneDrive admin center](https://support.office.com/article/b5665060-530f-40a3-b34a-9e935169b2e0)
+
 

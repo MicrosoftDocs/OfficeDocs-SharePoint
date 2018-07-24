@@ -70,8 +70,6 @@ This storage space setting applies to all new and existing users for whom you ha
       ```
 
 ## See also
-
-[OneDrive admin center](https://support.office.com/article/b5665060-530f-40a3-b34a-9e935169b2e0)
-  
+ 
 [See the full list of SharePoint Online PowerShell cmdlets](https://go.microsoft.com/fwlink/?linkid=869060)
 

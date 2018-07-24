@@ -66,5 +66,5 @@ Go to the Device access page of the [OneDrive admin center](https://admin.onedri
   
 [Control access based on network location or app](control-access-based-on-network-location-or-app.md)
   
-[OneDrive admin center](https://support.office.com/article/b5665060-530f-40a3-b34a-9e935169b2e0)
+
 

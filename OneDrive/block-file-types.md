@@ -38,7 +38,5 @@ You can prevent users from syncing specific file types when they sync their OneD
   
 5. Click **Save** on the Sync page. 
     
-## See also
 
-[OneDrive admin center](https://support.office.com/article/b5665060-530f-40a3-b34a-9e935169b2e0)
 

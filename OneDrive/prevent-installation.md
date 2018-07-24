@@ -35,5 +35,5 @@ The Sync button helps users install and set up the new OneDrive sync client. If 
 
 [Use Group Policy to control OneDrive sync client settings](use-group-policy.md)
   
-[OneDrive admin center](https://support.office.com/article/b5665060-530f-40a3-b34a-9e935169b2e0)
+
 
