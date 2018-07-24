@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 7c8ddec1-c8ff-4a90-afae-387b27a653f1
-description: "Summary: Learn how SharePoint Server uses ranking models to calculate the relevance rank of search results for the classic search experience and how you can influence the order of search results by using query rules, the search schema and ranking models."
+description: "Summary: Learn howSharePoint Server 2016 and SharePoint Server 2013 use ranking models to calculate the relevance rank of search results and how you can influence the order of search results by using query rules, the search schema and ranking models."
 ---
 
 # Overview of search result ranking in SharePoint Server
 
- **Summary:** Learn how SharePoint Server uses ranking models to calculate the relevance rank of search results for the classic search experience, and how you can influence the order of search results by using query rules, the search schema and ranking models. 
+ **Summary:** Learn how SharePoint Server 2016 and SharePoint Server 2013 use ranking models to calculate the relevance rank of search results and how you can influence the order of search results by using query rules, the search schema and ranking models. 
   
 The search engine calculates the relevance rank, that is to say, the order in which the search results for a query appear. The ranking model is at the core of this calculation. In most cases, you can influence relevance by using the available SharePoint Server ranking models in combination with query rules without having to consider customizing any ranking models. 
   
@@ -86,7 +86,7 @@ Ranking models use information from the search index, as explained in the follow
 
 You can influence the ranking of search results in the following ways:
   
-**Query rules: define which actions to take when a query matches a condition.**
+- **Query rules: define which actions to take when a query matches a condition.**
     
   - Promote particular results to the top of the search results.
     
@@ -102,13 +102,13 @@ You can influence the ranking of search results in the following ways:
     
   See the section [Influence the ranking of search results with query rules](overview-of-search-result-ranking.md#Ranking_QueryRules) for more information. 
     
-**Search schema: configure the context of a managed property.**
+- **Search schema: configure the context of a managed property.**
     
   - Change the context of a managed property in Advanced Searchable Settings.
     
     See the section [Influence the ranking of search results by using the search schema](overview-of-search-result-ranking.md#Ranking_Schema) for more information. 
     
-**Create and use a custom ranking model.**
+- **Create and use a custom ranking model.**
     
   - Customize a copy of an existing ranking model, deploy it and use this custom model to rank search results.
     
@@ -127,7 +127,7 @@ You can specify the following query rule actions for a query rule:
   
 - **Add promoted results on top of the ranked search results.**
     
-    When you add a promoted result, you show this result above the ranked results. For example, for the query "sick leave", you can add a link to a Human Resources site above all ranked results.
+    When you add a promoted result, which was called Best Bets in earlier versions of SharePoint Server, you show this result above the ranked results. For example, for the query "sick leave", you can add a link to a Human Resources site above all ranked results.
     
 - **Add a result block.**
     

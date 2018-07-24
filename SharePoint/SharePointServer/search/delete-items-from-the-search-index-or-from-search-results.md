@@ -20,10 +20,7 @@ description: "Summary: Learn how to remove an item from the search index or Shar
 If you want to remove the metadata of an item from the search index or from the search results, you remove the URL of that item. To remove a URL from the search index, use the **Remove the Item from the Index** option that is available through the crawl log. To remove a URL from search results, use the **Search Result Removal** feature that allows for bulk URL removal. This can provide a more efficient method if many search results should be removed. 
   
 > [!NOTE]
-> 
-> - If your SharePoint environment is hybrid and uses [cloud hybrid search](https://support.office.com/en-us/article/Learn-about-cloud-hybrid-search-for-SharePoint-af830951-8ddf-48b2-8340-179c1cc4d291?ui=en-US&amp;rs=en-US&amp;ad=US), you index your on-premises content in your search index in Office 365. See [Learn about cloud hybrid search for SharePoint](https://support.office.com/en-us/article/Learn-about-cloud-hybrid-search-for-SharePoint-af830951-8ddf-48b2-8340-179c1cc4d291?ui=en-US&amp;rs=en-US&amp;ad=US) for guidance on deleting the metadata of an on-premises item and deleting on-premises search results from the search index in Office 365. 
->
-> - For SharePoint Server 2019 Public Preview, removing the URL of an item affects both the **classic** and **modern** search experiences.
+> If your SharePoint environment is hybrid and uses [cloud hybrid search](https://support.office.com/en-us/article/Learn-about-cloud-hybrid-search-for-SharePoint-af830951-8ddf-48b2-8340-179c1cc4d291?ui=en-US&amp;rs=en-US&amp;ad=US), you index your on-premises content in your search index in Office 365. See [Learn about cloud hybrid search for SharePoint](https://support.office.com/en-us/article/Learn-about-cloud-hybrid-search-for-SharePoint-af830951-8ddf-48b2-8340-179c1cc4d291?ui=en-US&amp;rs=en-US&amp;ad=US) for guidance on deleting the metadata of an on-premises item and deleting on-premises search results from the search index in Office 365. 
   
     
 ## Remove an item from the search index

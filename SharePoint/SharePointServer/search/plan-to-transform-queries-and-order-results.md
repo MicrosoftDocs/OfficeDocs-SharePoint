@@ -15,7 +15,7 @@ description: "Summary: Learn how you can transform queries to provide more targe
 
 # Plan to transform queries and order results in SharePoint Server
 
- **Summary:** Learn how you can transform queries to provide more targeted SharePoint Server search results and how you can influence the way search results are ordered and displayed in the classic search experience.
+ **Summary:** Learn how you can transform queries to provide more targeted SharePoint Server search results and how you can influence the way search results are ordered and displayed.
   
 You can add query transforms to a Web Part, add query rules that transform queries when certain conditions are met, and you can transform all queries directed to a result source to create a specialized search experience. 
   

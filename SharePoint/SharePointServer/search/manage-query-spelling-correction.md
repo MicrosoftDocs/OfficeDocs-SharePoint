@@ -17,7 +17,7 @@ description: "Summary: Learn how to include single words in or exclude single wo
 
  **Summary:** Learn how to include single words in or exclude single words from query spelling corrections to help correct spelling errors in queries. 
   
-In the classic search experience, if a user enters a word in a search query that appears to be misspelled, the search results page displays query spelling corrections. This is also known as "Did you mean?". For example, if someone enters a query that contains the word "ampitheater", the query spelling correction would be "amphitheater".
+If a user enters a word in a search query that appears to be misspelled, the search results page displays query spelling corrections. This is also known as "Did you mean?". For example, if someone enters a query that contains the word "ampitheater", the query spelling correction would be "amphitheater".
   
 These query spelling suggestions are based on the closest matches in the default spelling dictionaries and the Query Spelling Inclusions list. For terms that you enter in the Query Spelling Exclusions list, query spelling suggestions will never be displayed. You can edit the Query Spelling Inclusions and the Query Spelling Exclusions list, but you can't edit the default spelling dictionaries. It takes up to 10 minutes for any changes to the Query Spelling Exclusions or the Query Spelling Inclusions list to take effect.
   

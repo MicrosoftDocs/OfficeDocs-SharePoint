@@ -1,5 +1,5 @@
 ---
-title: "Manage the search index in SharePoint Server"
+title: "Manage the search index in SharePoint Server 2016"
 ms.author: tlarsen
 author: tklarsen
 ms.date: 3/6/2018
@@ -12,15 +12,15 @@ ms.assetid: 626fc816-cd0e-44e1-8ea7-0d0b536b379b
 description: "Summary:Learn how to manage collection of content in the search index and retrieval from the search index."
 ---
 
-# Manage the search index in SharePoint Server
+# Manage the search index in SharePoint Server 2016
 
  **Summary:** Learn how to manage collection of content in the search index and retrieval from the search index.
   
-The following articles describe how you can manage the search index. For SharePoint Server 2019 Public Preview these articles also apply to the modern search experience.
+The following articles describe how you can manage the search index .
   
 ## Articles about managing the search index
 
-The following articles about managing the search index in SharePoint Server are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
+The following articles about managing the search index in SharePoint Server 2016 are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
   
 |                                                                  **Content**                                                                   |                                                              **Description**                                                               |
 | :--------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------- |

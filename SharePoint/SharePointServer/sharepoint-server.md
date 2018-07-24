@@ -3,6 +3,7 @@ title: "SharePoint Server"
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
+ms.date: 3/1/2018
 layout: LandingPage
 ms.audience: ITPro
 ms.topic: landing-page
@@ -134,23 +135,6 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server 2016 and 201
 ---
 
 <ul class="panelContent cardsW">
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>SharePoint Server 2019 Public Preview!</h3>
-                        <p><a href="what-s-new/new-and-improved-features-in-SharePoint-Server-2019.md">What's New?</a></p>
-                        <p><a href="https://go.microsoft.com/fwlink/?LinkId=2006095">Download the Public Preview</a></p>
-                        <p><a href="https://go.microsoft.com/fwlink/?LinkId=2006096">Download the language packs</a></p>
-                        <p><a href="install/install-for-sharepoint-server-2016.md">Install the Public Preview</a></p>
-                        <p><a href="upgrade-and-update/Upgrade-from-SharePoint2013-to-SharePointServer-2019.md">Upgrade from SharePoint Server 2013</a></p>
-                        <p><a href="https://support.office.com/article/ba84c8a3-3ce2-4252-926e-c67654ceb4a3">Modern experience</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
     <li>
         <div class="cardSize">
             <div class="cardPadding">
