@@ -5,12 +5,13 @@
 ## [SharePoint Updates](/OfficeUpdates/sharepoint-updates?toc=/sharepoint/spstoc/toc.json)
 ## [Accessibility guidelines](../accessibility-guidelines.md)
 ## [What's new](../what-s-new/what-s-new.md)
-### [New and improved features in SharePoint Server 2019 Public Preview](../what-s-new/new-and-improved-features-in-SharePoint-Server-2019.md)
+### [SharePoint Server 2019 Public Preview]()
+#### [New and improved features in SharePoint Server 2019 Public Preview](../what-s-new/new-and-improved-features-in-SharePoint-Server-2019.md)
 #### [What's deprecated or removed from SharePoint Server 2019 Public Preview](../what-s-new/what-s-deprecated-or-removed-from-SharePoint-Server-2019.md)
-### [New and improved features in SharePoint Server 2016](../what-s-new/new-and-improved-features-in-sharepoint-server-2016.md)
+### [SharePoint Server 2016]()
+#### [New and improved features in SharePoint Server 2016](../what-s-new/new-and-improved-features-in-sharepoint-server-2016.md)
 #### [New features in Feature Pack 1](../what-s-new/new-features-in-feature-pack-1.md)
 #### [New feature in Feature Pack 2](../what-s-new/new-feature-in-feature-pack-2.md)
-#### [What's deprecated or removed from SharePoint Server 2019 Public Preview](../what-s-new/what-s-deprecated-or-removed-from-sharepoint-server-2019.md)
 #### [What's deprecated or removed from SharePoint Server 2016](../what-s-new/what-s-deprecated-or-removed-from-sharepoint-server-2016.md)
 ## [Getting started](../getting-started.md)
 ## [Security for SharePoint Server](../security-for-sharepoint-server/security-for-sharepoint-server.md)
@@ -92,8 +93,6 @@
 ##### [Verify upgrade for databases](../upgrade-and-update/verify-upgrade-for-databases-2019.md)
 ##### [Upgrade a site collection](../upgrade-and-update/upgrade-a-site-collection-2019.md)
 ##### [Upgrade My Sites](../upgrade-and-update/upgrade-my-sites-2019.md)
-
-
 ### [Upgrade to SharePoint Server 2016](../upgrade-and-update/upgrade-to-sharepoint-server-2016.md)
 #### [Get started with upgrade](../upgrade-and-update/get-started-with-upgrade.md)
 ##### [Overview of the upgrade process](../upgrade-and-update/overview-of-the-upgrade-process.md)
@@ -479,7 +478,6 @@
 #### [Update a web application URL and IIS bindings for SharePoint Server](../administration/update-a-web-application-url-and-iis-bindings.md)
 #### [Plan alternate access mappings for SharePoint Server](../administration/plan-alternate-access-mappings.md)
 ##### [Configure alternate access mappings for SharePoint Server](../administration/configure-alternate-access-mappings.md)
-
 ### [Install and manage apps for SharePoint Server](../administration/install-and-manage-apps-for-sharepoint-server.md)
 #### [Plan for apps for SharePoint](../administration/plan-for-apps-for-sharepoint.md)
 #### [Configure an environment for apps for SharePoint](../administration/configure-an-environment-for-apps-for-sharepoint.md)
