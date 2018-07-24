@@ -17,7 +17,7 @@ description: "Learn how to use SharePoint's Term Store management tool to create
 
 # Create and manage terms in a term set
 
-You can use the Term Store management tool to create terms in a term set, or manage a term such as copy it or move it. If you have many terms that you want to add, it might be more practical to import all the terms in the term set instead of adding the terms individually. For information about how to import terms, see [Import term sets](https://support.office.com/article/168fbc86-7fce-4288-9a1f-b83fc3921c18) . 
+You can use the Term Store management tool to create terms in a term set, or manage a term such as copy it or move it. If you have many terms that you want to add, it might be more practical to import all the terms in the term set instead of adding the terms individually. For information about how to import terms, see [Import term sets](https://support.office.com/article/168fbc86-7fce-4288-9a1f-b83fc3921c18). 
   
 > [!IMPORTANT]
 >  To create and manage terms in the Term Store management tool, you must be a Contributor, a Group Manager, or a Term Store Administrator. 
@@ -54,7 +54,7 @@ To create a term in a term set, follow these steps
 
 There are several actions that you can take on terms that will help you build and manage term sets as the business needs of your organization evolve. 
   
-To take any of the following actions, first [Open the Term Store management tool ](create-and-manage-terms.md#__toc327965089), and then point to the term that you want to use for the action.
+To take any of the following actions, first [Open the Term Store management tool](open-term-store-management-tool.md), and then point to the term that you want to use for the action.
   
 ### Copy a term
 <a name="__copy_the_term"> </a>
