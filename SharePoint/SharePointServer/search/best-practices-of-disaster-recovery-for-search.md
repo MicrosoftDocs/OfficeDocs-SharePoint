@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 9fae000c-26ad-400b-bd94-c9245d049f43
-description: "Learn how to implement best practice disaster recovery for search in a SharePoint Server 2016 or SharePoint Server 2013 farm."
+description: "Learn how to implement best practice disaster recovery for search in a SharePoint Server farm."
 ---
 
-# Disaster recovery best practices and strategies for SharePoint 2016 search
+# Disaster recovery best practices and strategies for SharePoint search
 
-Learn how to implement best practice disaster recovery for search in a SharePoint Server 2016 or SharePoint Server 2013 farm.
+Learn how to implement best practice disaster recovery for search in a SharePoint Server farm.
   
-This article gives best practice guidance that you can use to develop a supported disaster recovery (DR) strategy for search in SharePoint Server. Many of the approaches used for disaster recovery in earlier versions of SharePoint Server don't provide the same level of recovery for SharePoint Server 2016 and SharePoint Server 2013. We examine these approaches and provide replacement options together with the benefits and limitations that you need to know about.
+This article gives best practice guidance that you can use to develop a supported disaster recovery (DR) strategy for search in SharePoint Server. Many of the approaches used for disaster recovery in earlier versions of SharePoint Server don't provide the same level of recovery for SharePoint Server. We examine these approaches and provide replacement options together with the benefits and limitations that you need to know about.
   
     
 ## Introduction
