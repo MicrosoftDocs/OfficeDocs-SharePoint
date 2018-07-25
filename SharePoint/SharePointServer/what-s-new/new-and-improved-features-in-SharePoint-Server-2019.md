@@ -192,11 +192,11 @@ This section lists the new Health Analyzer rules for SharePoint Server 2019 Publ
 
 ### People Picker health rule
 
-SharePoint has added a new health analyzer rule for the People Picker. This health analyzer rule detects if servers in the farm are missing the encryption key needed to retrieve People Picker credentials, such as when the People Picker is configured to search for users in another forest or domain with a one-way trust to the SharePoint farm's domain. If so, it will notify the SharePoint farm administrator so that they can correct the problem.
+SharePoint has added a new health analyzer rule for the People Picker. This health analyzer rule detects if servers in the farm are missing the encryption key needed to retrieve People Picker credentials, such as when the People Picker is configured to search for users in another forest or domain with a one-way trust to the SharePoint farm's domain. If so, it will notify the SharePoint farm administrator so that they can correct the problem. For more information, see [One or more servers can't retrieve People Picker credentials](https://docs.microsoft.com/en-us/SharePoint/technical-reference/one-or-more-servers-can-t-retrieve-people-picker-credentials).
 
 ### SMTP authentication health rule
 
-SharePoint has added a new health analyzer rule for SMTP authentication. This health analyzer rule detects if servers in the farm are missing the encryption key needed to retrieve the credentials for authentication. If so, it will notify the SharePoint farm administrator so that they can correct the problem.
+SharePoint has added a new health analyzer rule for SMTP authentication. This health analyzer rule detects if servers in the farm are missing the encryption key needed to retrieve the credentials for authentication. If so, it will notify the SharePoint farm administrator so that they can correct the problem. For more information, see [One or more servers can't retrieve the outgoing email credentials](https://docs.microsoft.com/en-us/SharePoint/technical-reference/one-or-more-servers-can-t-retrieve-the-outgoing-email-credentials).
 
 ## Detailed description of improved features
 
