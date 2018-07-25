@@ -23,7 +23,14 @@ description: "Summary: Learn the overview steps required to upgrade SharePoint S
 
 The upgrade scenario has not changed in SharePoint Server 2019 Public Preview. There is no direct upgrade path from 2013 to 2019. To upgrade to SharePoint Server 2019 Public Preview, you must upgrade SharePoint 2013 to SharePoint Server 2016, and then upgrade to SharePoint Server 2019 Public Preview.  Your databases must be at a SharePoint Server 2016 RTM version or higher when you upgrade to SharePoint Server 2019 Public Preview. Any database with a lower version will be locked and upgrade will not start. 
 
-For a visual look of the high-level steps, see [Upgrade from SharePoint 2013 to SharePoint Server 2019 Public Preview-Visio file](http://download.microsoft.com/download/9/3/D/93DAA2C7-E11B-42B6-A405-B937CEDFC527/Upgrade2013to2019.vsdx)  or  [Upgrade from SharePoint 2013 to SharePoint Server 2019 Public Preview-PDF file](http://download.microsoft.com/download/9/3/D/93DAA2C7-E11B-42B6-A405-B937CEDFC527/Upgrade2013to2019.pdf)
+For a visual look of the high-level steps, see
+
+
+
+|**File Type**  |**Download Location**  |
+|---------|---------|
+|Visio    |  [Upgrade from SharePoint 2013 to SharePoint Server 2019 Public Preview](http://download.microsoft.com/download/9/3/D/93DAA2C7-E11B-42B6-A405-B937CEDFC527/Upgrade2013to2019.vsdx)        |
+|PDF     |  [Upgrade from SharePoint 2013 to SharePoint Server 2019 Public Preview](http://download.microsoft.com/download/9/3/D/93DAA2C7-E11B-42B6-A405-B937CEDFC527/Upgrade2013to2019.pdf)       |
 
 
 >[!NOTE]
