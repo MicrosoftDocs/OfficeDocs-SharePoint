@@ -19,37 +19,29 @@ description: "Learn how you can customize the search experience in SharePoint On
 
 Learn how you can customize the search experience in SharePoint Online to help users find the information they're looking for.
   
-Below are the **four main areas** where you can customize the search experience and make sure that search is performing the way you want. 
+Below are the **main areas** where you can customize the search experience and make sure that search is performing the way you want. 
   
 Many of the search features are available on the [search administration page](manage-search-the-admin-center.md) in the SharePoint admin center. The high-level overview of [How search works](overview-of-search.md#howsearchworks) can also help you understand where and how you can impact the search experience in SharePoint Online. 
   
-![Line](media/ee907d18-39a7-437c-9852-073694f74c84.png)
-  
-![Step 1](media/4d0ceec3-d8ae-48a0-8880-5e3b0bd7eb0f.png) **Make sure the content can be found.**
+## Make sure the content can be found
   
 The content must be crawled and added to the search index for your users to find what they're looking for when they search in SharePoint Online.
   
 See how you can make content searchable, and how you can crawl content to get it into the search index. Also, see how you can help users search for content across Office 365 and on-premises SharePoint Server at the same time. [Learn more](make-sure-content-can-be-found.md).
   
-![Line](media/ee907d18-39a7-437c-9852-073694f74c84.png)
-  
-![Step 2](media/981b040d-2414-485d-a1ef-faa36f917158.png) **Make the search results look great.**
+## Make the search results look great
   
 Presenting the search results the right way makes content easier to find.
   
 See how you can manage the Search Center in SharePoint Online, and how you can use the different search Web Parts to help each user find what they're looking for. [Learn more](make-search-results-look-great.md).
   
-![Line](media/ee907d18-39a7-437c-9852-073694f74c84.png)
-  
-![Step 3](media/0a01ae10-1c5d-4bac-b24a-5640b7313f70.png) **Show relevant search results.**
+## Show relevant search results
   
 All search results are not relevant to everyone all the time.
   
 See how you can show each user exactly the results they're looking for. [Learn more](show-relevant-search-results.md).
   
-![Line](media/ee907d18-39a7-437c-9852-073694f74c84.png)
-  
-![Step 4](media/9b388e30-fca0-4d73-8e10-01b784c36289.png) **Check logs, limits and reports.**
+## Check logs, limits and reports
   
 See how you can check if the crawler has added content to the search index, and if your users are finding what they're looking for. Look up the limits for search, for example how many entries you can have in a custom search dictionary. [Learn more](check-logs-limits-and-reports.md).
   
