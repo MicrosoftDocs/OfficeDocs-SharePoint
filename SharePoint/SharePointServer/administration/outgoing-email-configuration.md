@@ -135,11 +135,15 @@ If you will authenticate to the SMTP server before sending email, you must first
 
 ### To set the application credential key on each server in the farm
 
-1. Run the following command from a command prompt on a SharePoint server in the farm, where <application credential key> is the password to be used to encrypt and decrypt the SMTP password:
+1. Launch the **SharePoint Management Shell** from the Start menu of a SharePoint server in the farm.
+2. Run the following PowerShell commands, where &lt;application credential key&gt; is the password to be used to encrypt and decrypt the SMTP password:
 
-   <pre><code>stsadm.exe -o setapppassword -password "&lt;application credential key&gt;"</code></pre>
+   ```powershell
+   $key = ConvertTo-SecureString -String "<application credential key>" -AsPlainText -Force
+   Set-SPApplicationCredentialKey -Password $key
+   ```
 
-2. Repeat the command on each additional SharePoint server in the farm, using the same application credential key on each server.
+3. Repeat the PowerShell commands on each additional SharePoint server in the farm, using the same application credential key on each server.
 
 ## Configure outgoing email for a farm
 <a name="begin"> </a>
