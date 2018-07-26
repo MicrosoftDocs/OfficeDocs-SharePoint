@@ -22,7 +22,7 @@ description: "Summary: Learn how to install SharePoint Server 2016 in various to
   
 Testing and implementing SharePoint Server 2016 solutions at different stages of the deployment life cycle requires deployments in various topologies.
   
-The following articles provide information about how to deploy SharePoint Server 2016 on one or more servers to create different topologies that you can use for testing and implementing SharePoint Server 2016 solutions at different stages of the deployment life cycle.
+The following articles provide information about how to deploy SharePoint Server 2016  on one or more servers to create different topologies that you can use for testing and implementing SharePoint Server 2016 solutions at different stages of the deployment life cycle.
   
 |**Content**|**Description**|
 |:-----|:-----|

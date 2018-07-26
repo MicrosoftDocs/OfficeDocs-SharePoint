@@ -305,10 +305,6 @@ End users
   
 - [What is Office Delve?](https://support.office.com/article/1315665a-c6af-4409-a28d-49f8916878ca)
     
-- [Office Delve for Android](https://support.office.com/article/4080a65d-c160-4369-bed0-215fb00b5547)
-    
-- [Office Delve for iPhone](https://support.office.com/article/41fef4f6-407b-4e5e-89d8-e1479f8a344b)
-    
 - [What is OneDrive for Business?](https://support.office.com/article/187f90af-056f-47c0-9656-cc0ddca7fdc2)
     
 Admins

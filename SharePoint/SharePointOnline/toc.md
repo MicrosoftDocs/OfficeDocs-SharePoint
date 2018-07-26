@@ -100,5 +100,4 @@
 ### [Make External List](make-external-list.md)
 ## [User profiles](manage-user-profiles.md)
 ### [Add and edit user profile properties](add-and-edit-user-profile-properties.md)
-## [Delve](delve-for-office-365-admins.md)
 
