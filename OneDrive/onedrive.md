@@ -114,7 +114,7 @@ Help your users store, sync, and share work files in the cloud with OneDrive.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/connector-blue.svg" alt="Roadmap" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/walkthrough-map-blue.svg" alt="Roadmap" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -150,7 +150,7 @@ Help your users store, sync, and share work files in the cloud with OneDrive.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/chat.svg" alt="Chat" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/toolbox.svg" alt="toolbox" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -174,6 +174,8 @@ Help your users store, sync, and share work files in the cloud with OneDrive.
     
 - Go to https://admin.onedrive.com.
     
+    ![The Sharing page of the OneDrive admin center](media/773e0df6-17ec-4433-ae50-62b14398317f.png)
+
 > [!IMPORTANT]
 > To use the OneDrive admin center, you must allow access to onedrive.com. You must also be a global admin for your organization, or a custom admin with the SharePoint administrator role. 
 > [!TIP]
