@@ -66,9 +66,11 @@ You can use MDM solutions such as Intune to manage OneDrive settings. In this se
 
 Unlike Windows, OneDrive doesn’t have a configuration service provider. Therefore, to use Intune to configure OneDrive settings, you must deploy the setting’s corresponding registry key and value by using a PowerShell cmdlet. Read [Use Group Policy to control OneDrive sync client settings](https://support.office.com/article/use-group-policy-to-control-onedrive-sync-client-settings-0ecb2cf5-8882-42b3-a6e9-be6bda30899c) for a list of settings and their corresponding registry values; then, construct a PowerShell script using the following cmdlet syntax:
 
+```PowerShell
 New-ItemProperty -Path \$Path -Name \$Name -Value \$Value -PropertyType DWORD -Force | Out-Null
+```
 
-. . . where \$Path is the full path to the subkey to which you want to add a value to (for example, **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\OneDrive**), \$Name is the name of the value you’re adding (for example, **AutomaticUploadBandwidthPercentage**), \$Value is the data within the new value (for example, **32**), and the value following the PropertyType switch is the type of value you’re adding.
+where \$Path is the full path to the subkey to which you want to add a value to (for example, **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\OneDrive**), \$Name is the name of the value you’re adding (for example, **AutomaticUploadBandwidthPercentage**), \$Value is the data within the new value (for example, **32**), and the value following the PropertyType switch is the type of value you’re adding.
 
 Save the PowerShell script as a .ps1 file. Then, see [Manage PowerShell scripts in Intune for Windows 10 devices](https://docs.microsoft.com/intune/intune-management-extension) for instructions on how to deploy the PowerShell script in your environment.
 
@@ -76,7 +78,9 @@ Save the PowerShell script as a .ps1 file. Then, see [Manage PowerShell scripts 
 
 OneDrive is updated through Windows Update in two waves. Out of the box, OneDrive sync clients are in the first wave, which means that they receive updates as soon as they’re published. The second wave receives those same updates several weeks later. To configure Windows devices to be in the second wave, you must configure the **EnableEnterpriseUpdate** entry by using the following command:
 
+```PowerShell
 New-ItemProperty -Path 'HKCU:\\SOFTWARE\\Microsoft\\OneDrive' -Name 'EnableEnterpriseUpdate' -Value '1' -PropertyType DWORD -Force | Out-Null
+```
 
 Save the script as a .ps1 file. Then, see [Manage PowerShell scripts in Intune for Windows 10 devices](https://docs.microsoft.com/intune/intune-management-extension) for instructions on how to deploy the PowerShell script in your environment.
 

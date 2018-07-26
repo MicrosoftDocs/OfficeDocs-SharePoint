@@ -51,11 +51,13 @@ If you're a global or SharePoint admin in Office 365, you can allow or prevent t
   
 4. Copy the following code and paste it into a text editor, such as Notepad. 
     
-  ```
+  ```PowerShell
   # Load SharePoint Online Client Components SDK Module
   Import-Module 'C:\Program Files\Common Files\microsoft shared\Web Server Extensions\16\ISAPI\Microsoft.SharePoint.Client.dll'
+
   # Set script constants
   $sitePagesFeatureIdString = 'B6917CB1-93A0-4B97-A84D-7CF49975D4EC'
+
   # Set up client context
   $userName = Read-Host "Username"
   $password = Read-Host "Password" -AsSecureString
@@ -64,20 +66,24 @@ If you're a global or SharePoint admin in Office 365, you can allow or prevent t
   $context = New-Object Microsoft.SharePoint.Client.ClientContext($siteUrl)
   $credentials = New-Object Microsoft.SharePoint.Client.SharePointOnlineCredentials($userName, $password)
   $context.Credentials = $credentials
+
   # Get the list of existing features
   $web = $context.Site.OpenWeb($webUrl)
   $features = $web.Features
   $context.Load($features)
   $context.ExecuteQuery()
+
   # Verify that the Site Pages feature is present in the web
   if(($features | ? { $_.DefinitionId -eq $sitePagesFeatureIdString }).Count -eq 0)
   {
   	Write-Host "The Site Pages feature is already disabled in this web"
   	return
   }
+
   # Remove the Site Pages feature from the web
   $features.Remove((new-object 'System.Guid' $sitePagesFeatureIdString), $false)
   $context.ExecuteQuery()
+
   # Verify that the Site Pages feature is no longer present in the Web
   $web = $context.Site.OpenWeb($webUrl)
   $features = $web.Features
@@ -90,8 +96,7 @@ If you're a global or SharePoint admin in Office 365, you can allow or prevent t
   else
   {	
   	throw "The Site Pages feature failed to be disabled"
-  }
-  
+  } 
   ```
 
 5. Save the text file, and then change its extension. In this example, we name it SitePagesOut.ps1.
@@ -128,11 +133,13 @@ If you're a global or SharePoint admin in Office 365, you can allow or prevent t
   
 4. Copy the following code and paste it into a text editor, such as Notepad. 
     
-  ```
+  ```PowerShell
   # Load SharePoint Online Client Components SDK Module
   Import-Module 'C:\Program Files\Common Files\microsoft shared\Web Server Extensions\16\ISAPI\Microsoft.SharePoint.Client.dll'
-  # Set script constants
+  
+# Set script constants
   $sitePagesFeatureIdString = 'B6917CB1-93A0-4B97-A84D-7CF49975D4EC'
+
   # Set up client context
   $userName = Read-Host "Username"
   $password = Read-Host "Password" -AsSecureString
@@ -141,20 +148,24 @@ If you're a global or SharePoint admin in Office 365, you can allow or prevent t
   $context = New-Object Microsoft.SharePoint.Client.ClientContext($siteUrl)
   $credentials = New-Object Microsoft.SharePoint.Client.SharePointOnlineCredentials($userName, $password)
   $context.Credentials = $credentials
+
   # Get the list of existing features
   $web = $context.Site.OpenWeb($webUrl)
   $features = $web.Features
   $context.Load($features)
   $context.ExecuteQuery()
+
   # Verify that the Site Pages feature is not present in the web
   if(($features | ? { $_.DefinitionId -eq $sitePagesFeatureIdString }).Count -gt 0)
   {
   	Write-Host "The Site Pages feature is already enabled in this web"
   	return
   }
+
   # Add the Site Pages feature back to the web
   $features.Add((new-object 'System.Guid' $sitePagesFeatureIdString), $false, [Microsoft.SharePoint.Client.FeatureDefinitionScope]::None)
   $context.ExecuteQuery()
+
   # Verify that the Site Pages feature is now present in the web
   $web = $context.Site.OpenWeb($webUrl)
   $features = $web.Features
@@ -168,7 +179,6 @@ If you're a global or SharePoint admin in Office 365, you can allow or prevent t
   {
   	throw "The Site Pages feature failed to be enabled"
   }
-  
   ```
 
 5. Save the text file, and then change its extension. In this example, we name it SitePagesIn.ps1.

@@ -12,7 +12,7 @@ description: "Learn how to deploy OneDrive in an an enterprise."
 
 # Deploy OneDrive for enterprises
 
-Before you read this article, be sure you’ve read Plan for OneDrive and taken note of the key decisions needed for deployment. This article walks you through how to deploy OneDrive based on the decisions that you’ve made for your organization.
+Before you read this article, be sure you’ve read [Plan for OneDrive](plan-onedrive-enterprise.md) and taken note of the key decisions needed for deployment. This article walks you through how to deploy OneDrive based on the decisions that you’ve made for your organization.
 
 ## Configure your infrastructure
 
