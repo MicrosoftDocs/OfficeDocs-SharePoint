@@ -3,7 +3,7 @@ title: "Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019 Pub
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
-ms.date: 7/24/2018
+ms.date: 01/26/2017
 ms.audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro

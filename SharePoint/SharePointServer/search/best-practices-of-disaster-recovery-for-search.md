@@ -3,7 +3,7 @@ title: "Disaster recovery best practices and strategies for SharePoint 2016 sear
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen
-ms.date: 1/3/2018
+ms.date: 01/3/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
