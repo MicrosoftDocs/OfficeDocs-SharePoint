@@ -19,6 +19,9 @@ description: "Summary: Learn how to install and configure the SMTP service and c
 
  **Summary:** Learn how to install and configure the SMTP service and configure outgoing email for a SharePoint Server 2019 Public Preview, SharePoint Server 2016, and SharePoint 2013 farm. 
   
+> [!NOTE]
+> The SMTP authentication feature is only available in SharePoint Server 2019 Public Preview.
+
 This article describes how to configure outgoing email for a farm or for a specific web application for SharePoint Server. This article also describes how to install and configure the SMTP service that you must use to enable outgoing email.
   
 After you have installed SharePoint Server and completed the initial configuration of your server farm, you can configure outgoing email. Doing so enables users to create alerts to track such site items as lists, libraries, and documents. In addition, site administrators can receive administrative messages about site administrator issues, such as the information that site owners have exceeded their specified storage space. For more information, see [Plan outgoing email for a SharePoint Server farm](outgoing-email-planning.md).
@@ -131,6 +134,9 @@ Ensure that the SMTP service is running and set to start automatically. To do th
 
 ## Set the application credential key on each server in the farm
 
+> [!NOTE]
+> You only need to set the application credential key on your servers if you're using the SMTP authentication feature on SharePoint Server 2019 Public Preview.
+
 If you will authenticate to the SMTP server before sending email, you must first set an application credential key on each SharePoint server in the farm before providing the credentials. The application credential key is a separate password that is used to encrypt and decrypt the SMTP password. The application credential key must be identical on all SharePoint servers in the farm.
 
 ### To set the application credential key on each server in the farm
@@ -179,6 +185,9 @@ You can configure outgoing email for a farm by using the SharePoint Central Admi
 11. Click **OK**.
     
 ### To configure outgoing email for a farm by using Microsoft PowerShell
+
+> [!NOTE]
+> These steps to specify credentials for SMTP authentication only apply if you're running SharePoint Server 2019 Public Preview.
 
 1. Open the **SharePoint 2019 Management Shell**.
 
