@@ -18,7 +18,7 @@ Help your users share, organize, and discover information with SharePoint.
   
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="https://onedrive.live.com/download/">
+        <a href="https://onedrive.live.com/about/download/">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
