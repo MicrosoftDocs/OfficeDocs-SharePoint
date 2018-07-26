@@ -76,7 +76,7 @@ To allow custom script on a particular site collection immediately, follow these
 2. Connect to SharePoint Online as a global admin or SharePoint admin in Office 365. To learn how, see [Getting started with SharePoint Online Management Shell](https://go.microsoft.com/fwlink/?linkid=869066).
 3. Run the following command.
  ```PowerShell
- `Set-SPOsite <SiteURL> -DenyAddAndCustomizePages 0`
+ Set-SPOsite <SiteURL> -DenyAddAndCustomizePages 0
  ``` 
 If you change this setting for a user's OneDrive or a user-created site, it will be overridden by the Custom Script setting in the admin center within 24 hours.
   

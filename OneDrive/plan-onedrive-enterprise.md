@@ -12,7 +12,7 @@ description: "Learn how to plan your OneDrive deployment for an enterprise."
 
 # Plan for OneDrive for enterprises
 
-This article walks you through the planning and decision points for deploying OneDrive in a corporate or enterprise environment. Read this article before you read Deploy OneDrive.
+This article walks you through the planning and decision points for deploying OneDrive in a corporate or enterprise environment. Read this article before you read [Deploy OneDrive](deploy-onedrive-enterprise.md).
 
 Many of the sections in this article list key decisions that you need to make as part of your OneDrive deployment. Make note of each of these decisions for use during the actual deployment process.
 
@@ -22,7 +22,7 @@ If you want to see the functionality currently under development for OneDrive an
 
 **License requirements**
 
-There are multiple methods by which you can acquire a license for OneDrive. However, a few OneDrive features are available only within certain licensing models. For information about the licensing requirements for OneDrive, its advanced features, and any special licensing required for them, see [TBD](file:///C:\Users\Chris\Downloads\TBD).
+There are multiple methods by which you can acquire a license for OneDrive. However, a few OneDrive features are available only within certain licensing models. For information about the licensing requirements for OneDrive, its advanced features, and any special licensing required for them, see [Office 365 plans](https://products.office.com/business/compare-more-office-365-for-business-plans).
 
 ## Keys to success
 
