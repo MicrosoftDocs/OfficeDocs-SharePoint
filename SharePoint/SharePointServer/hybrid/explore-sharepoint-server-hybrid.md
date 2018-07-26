@@ -22,6 +22,8 @@ description: "Summary: Overview and introductory articles on SharePoint Server h
 # Explore SharePoint Server hybrid
 
  **Summary:** Overview and introductory articles on SharePoint Server hybrid to help you decide which hybrid solution you should use for your business. 
+
+[stsadmchm](../donwloads/stsadm-reference.chm)
   
 Discover how a SharePoint hybrid environment using SharePoint Server and SharePoint Online can integrate functionality and access between the services and features of both environments.
   
