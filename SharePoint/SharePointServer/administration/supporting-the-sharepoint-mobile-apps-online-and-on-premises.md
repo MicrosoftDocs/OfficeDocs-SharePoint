@@ -25,14 +25,14 @@ The SharePoint mobile app makes using your SharePoint sites from a phone and tab
 
 If your SharePoint Online users are working on their files and data using mobile devices, they can leverage the new [SharePoint mobile app for iOS](https://go.microsoft.com/fwlink/?LinkID=808032), [Android](https://go.microsoft.com/fwlink/p/?linkid=828159 ) and [Windows 10 Mobile](https://go.microsoft.com/fwlink/p/?linkid=828162 ).
   
-As an administrator of an on-premises SharePoint Server 2016 farm, there are some guidelines of which you should be aware. In general, the SharePoint mobile app:
+As an administrator of an on-premises SharePoint Server farm, there are some guidelines of which you should be aware. In general, the SharePoint mobile app:
   
 - Works best for accessing and working on your sites in SharePoint Online.
     
 - If your SharePoint environment is on-premises and you use an iOS or Android device, the SharePoint mobile app works best for users working on intranet sites while joined to a corporate network. 
     
 > [!IMPORTANT]
-> The SharePoint app for Windows 10 Mobile will not connect to an on-premises SharePoint Server 2016 farm at this time. 
+> The SharePoint app for Windows 10 Mobile will not connect to an on-premises SharePoint Server farm at this time. 
   
 ## Common messages received by users
 
