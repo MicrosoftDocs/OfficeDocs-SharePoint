@@ -185,7 +185,7 @@ Help your users share, organize, and discover information with SharePoint.
                 <div class="card">
                     <div class="cardText">
                         <h3>Protect and manage</h3>
-                        <p><a href="/sharepoint/safeguarding-your-data">How SharePoint and OneDrive safeguard your data</a></p><p><a href="/sharepoint/">New SharePoint admin center</a></p><p><a href="/sharepoint/">Set up Information Rights Management (IRM)</a></p><p><a href="https://docs.microsoft.com/en-us/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps">SPO management shell </a></p>
+                        <p><a href="/sharepoint/safeguarding-your-data">How SharePoint and OneDrive safeguard your data</a></p><p><a href="/sharepoint/get-started-new-admin-center">New SharePoint admin center</a></p><p><a href="https://support.office.com/article/239ce6eb-4e81-42db-bf86-a01362fed65c">Set up Information Rights Management (IRM)</a></p><p><a href="https://docs.microsoft.com/en-us/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps">SharePoint Online management shell </a></p>
                     </div>
                 </div>
             </div>
