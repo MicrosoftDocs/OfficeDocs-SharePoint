@@ -31,62 +31,24 @@ Most migrations fall into regular phases as described below.  Proven success fac
 
 ## Planning
 Before beginning your migration, it is important that you plan your outcome by performing an assessment of your current source environment. What you discover will influence your overall strategy and timing, including:
-- The design of the target OneDrive and SharePoint environment and the mapping between source and target systems. 
+- The design of the target OneDrive environment and the mapping between source and target systems. 
 - The amount of content you migrate. Determine if content is redundant, out of date, or still relevant.
 
 
 ## What content goes where
 Consider how you use the content in your Box accounts today and plan how to transition to the improved Office 365 collaborative experience. 
 
-Let’s first review the benefits that OneDrive and SharePoint provide to understand how each can best serve your needs. 
+Does the file belong to me alone, even though I might share it with others?  If so, save it in your OneDrive personal library. Your personal library is private by default, but you can share files with others, which is particularly useful if you haven’t created a team yet. If you’re already working as a team —in Microsoft Teams, SharePoint, or Outlook—you should save your files there, because OneDrive connects you to all your shared libraries, too.
 
-- **OneDrive** is personal online storage space in the cloud.  Use it to store and protect your work files while accessing them across multiple devices with ease.  OneDrive files are private by default, but you do have the ability to share files and folders inside and outside your organization.
+Does the file belong to my team? If you’re working on content intended for team collaboration, a **team library** is a place that users can collaborate on files, documents, and ideas. When you need a new shared location to store team files, create a shared library right from OneDrive, add members, and start working together. These libraries are accessible within Microsoft Teams, SharePoint, and Outlook. It’s easy to copy and move files between your personal library and shared libraries.
 
-- A **SharePoint team site** is a place that users can collaborate on files, documents, and ideas. It is set up to facilitate two-way communication between team members and offers a full range of features to help a team communicate and collaborate.
+## Sharing
 
-
-Storing your content in OneDrive and SharePoint allows you to easily share files inside and outside your organization and collaborate on Office documents together in real time with the latest Office desktop, web, and mobile apps.
-
-Additionally, you can use OneDrive on the web, mobile or desktop sync client on PC and Mac to access all your files in Office 365.
-
-Knowing the capabilities of OneDrive and SharePoint, look at the following table to help you determine what content goes where:<br><br>
+Depending on how you shared your files, will dictate how they appear in OneDrive. Sharing is an explicit action  a user takes to invite another user to collaborate on content. Sharing content implicitly gives that user permission to edit the content as well. Only content that has been explicitly shared with a user (or a group to which they belong) will appear in their Shared with Me view in OneDrive. 
+The following table maps your current Box sharing experience with OneDrive.
 
 
-|**Ask...**|**OneDrive**|**SharePoint**|
-|:-----|:-----|:-----|
-|Does the file belong to me alone, even though I might share it with others?|X||
-|Is this a file you want to keep private for the time being?|X||
-|Does this file/content belong to a larger group, such as project team, department, or division?||X|
-|Does this content need to be managed by a workflow?||X|
-|Do you need to manage metadata on this content?||X|
-|Is this a set of like content that regularly needs to be shared outside your organization?||X|
-|Do you have governance policies (records management, etc) that control this content?||X|
-
-## Permissions and sharing
-
-There is an important distinction between permissions and sharing. 
-
-**Permissions** determine the level of access a user has to content – whether they can view, edit, or have no access at all. 
-
-Generally, users have *permissions* to a lot of content (your company portals, for example), but have had much less content explicitly *shared* with them. 
-
-Permissions for both services are defined by assigned roles.  The following table maps your current Box roles with OneDrive and SharePoint:
-
-|**Box Roles**|**OneDrive or SharePoint Roles**|
-|:-----|:-----|
-|Co-owner|Contributor|
-|Editor|Contributor|
-|Viewer Uploader|Viewer|
-|Previewer Uploader|None|
-|Viewer|Viewer|
-|Previewer|None|
-|Uploader|None|
-
-
-**Sharing** is an explicit action a user takes to invite another user to collaborate on content. Sharing content implicitly gives that user permission to edit the content as well. Only content that has been explicitly shared with a user (or a group to which they belong) will appear in their **Shared with Me** view in OneDrive.
-The following table maps your current Box sharing experience with OneDrive or SharePoint.
-
-|**Box**|**OneDrive and SharePoint**|
+|**Box**|**OneDrive**|
 |:-----|:-----|
 |Folders or file with only one owner, but more than one contributor|As the owner, content should be migrated to the user's OneDrive folder.<br><br>Any user who has access to a user's folder will have that folder automatically appear in their **Shared with Me** list.|
 |Only one owner, but shared with a Box group|As the owner, content will be migrated to the user's OneDrive folder. <br><br>The Box group should be converted to a security group.  <br><br>Email should then be sent to the new security group, where each user can accept the invitation link. Content will then appear in those users **Shared with Me** list.|
@@ -94,19 +56,33 @@ The following table maps your current Box sharing experience with OneDrive or Sh
 |Box folders with contributors who are external to your organization|For prescriptive guidance see the specific External Permission Best Practice section in this document. <br><br>**Note:**  Any content that is shared with a user from another company’s Box instance won’t be migrated.  If the user still wants to retain that content – their Box account will need to remain active.|
 |**Shared with** Box end user experience|Only content that has been explicitly shared with a user will appear in their **Shared with Me** view in OneDrive. <br><br>For content stored in SharePoint: any user who has access to the team site and follows the team site, will have the team site appear on the left side of their OneDrive view.|
 
-## External permission Best Practices
+## User Adoption
+Develop a plan to prepare your users for the upcoming change. Consideration factors to include in your plan: 
+- **Evangelize the move.** Underscore the benefits, the collaborative capabilities, and the reasons for making the move.
+- **End user training.**  Provide training to your users on the features in OneDrive and SharePoint Online.
+- **Train your helpdesk.**  Before the cutover, train your helpdesk in key features and common user questions.
+- **Prepare for any possible downtime** the migration may incur.
+  
+ Develop a plan for sending communications to your user base, providing clear statements of timing, expectations and impact to the individual. Consideration factors:
 
-Microsoft’s recommendation is to not handle external sharing during the act of migration. Rather, assess existing external sharing content and then reshare post migration per the following guidelines: 
- 
-- Audit external permissions on the Box content source using the Collaborations report (generated through the Box Admin Console)
-- Determine whether that content is worthy to remain externally shared
-- If you decide the content is to remain externally shared, determine whether that content is suited for OneDrive or SharePoint based on the What content goes where above guidance
-- For **OneDrive**: reshare files externally with the appropriate external users after the migration  
-- For **SharePoint**:<br> 
-    - Where possible, leverage the collaboration and security benefits of grouping external partner specific content in a dedicated SharePoint team site. Read more details here: [Use Office 365 SharePoint Online as a business-to-business (B2B) extranet solution](https://support.office.com/en-us/article/Use-Office-365-SharePoint-Online-as-a-business-to-business-B2B-extranet-solution-7b087413-165a-4e94-8871-4393e0b9c037).<br>
-    - If content cannot be grouped as such, then externally reshare on the file or folder level in the target SharePoint team site. 
+- The migration timeline and how it will impact them. Include any end user calls to action. 
+- Assure them that if they have content already in OneDrive or SharePoint, that their content is safe and won’t be overwritten. 
+- Let them know whether individuals can opt-out of the migration process
 
+### Adoption related resources
+- [Microsoft 365 adoption guide](https://devfasttrackv4storage.blob.core.windows.net/marketing/en-us/resources/Microsoft%20365%20User%20Adoption%20Guide.pdf): Outlining methodology and resources for implementing proven adoption success factors
+- [Posters, email templates](https://fasttrack.microsoft.com/microsoft365/resourcehub): customizable templates to generate internal awareness and excitement
+- [OneDrive](https://support.office.com/en-us/article/onedrive-video-training-1f608184-b7e6-43ca-8753-2ff679203132?ocmsassetID=1f608184-b7e6-43ca-8753-2ff679203132&ui=en-US&rs=en-US&ad=US) and [SharePoint](https://support.office.com/en-us/article/sharepoint-online-video-training-cb8ef501-84db-4427-ac77-ec2009fb8e23?ui=en-US&rs=en-US&ad=US) video training
+- [OneDrive](https://support.office.com/en-us/article/upload-files-to-onedrive-for-business-a1397e56-61ec-4ed2-9dac-727bf8ac3357?ui=en-US&rs=en-US&ad=US) and [SharePoint](https://support.office.com/en-us/article/sign-in-to-sharepoint-online-324a89ec-e77b-4475-b64a-13a0c14c45ec?ui=en-US&rs=en-US&ad=US) Quick start training guides: get up and running quickly with the basic info you need to be productive right away 
 
+### Make the Switch! 
+The following articles will help your users “make the switch” from Box to OneDrive. The topics show how you used to do common tasks in Box and how you do the same in OneDrive.
+
+- [Switch to OneDrive from Box](https://support.office.com/en-us/article/Switch-to-OneDrive-from-Box-b7f3c899-edb7-44ab-bc3f-0a37e9f1a7fa)
+- [Open with OneDrive](https://support.office.com/en-us/article/open-with-onedrive-c24d1cef-dddb-43b9-929b-45b571b84990?ui=en-US&rs=en-US&ad=US)
+- [Store with OneDrive](https://support.office.com/en-us/article/store-with-onedrive-7be433cd-d95b-46d8-9e8e-a1e32ecc4724?ui=en-US&rs=en-US&ad=US)
+- [Work together with OneDrive](https://support.office.com/en-us/article/work-together-with-onedrive-626cff9f-9a56-472b-a77d-b019d97eec8d?ui=en-US&rs=en-US&ad=US)
+- [Learn more about OneDrive](https://support.office.com/en-us/article/learn-more-about-onedrive-38acc14b-fd86-466e-b802-baece8107c86?ui=en-US&rs=en-US&ad=US)
 
 
 
@@ -115,6 +91,8 @@ Microsoft’s recommendation is to not handle external sharing during the act of
 Before migrating your Box content, you must pre-provision your users in OneDrive and SharePoint Online For guidance on pre-provisioning see: 
 - [Prepare to provision users through directory synchronization to Office 365](https://support.office.com/en-us/article/prepare-to-provision-users-through-directory-synchronization-to-office-365-01920974-9e6f-4331-a370-13aea4e82b3e)
 - [Pre-provision OneDrive for users in your organization](https://support.office.com/en-us/article/Pre-provision-OneDrive-for-users-in-your-organization-ceef6623-f54f-404d-8ee3-3ce1e338db07)
+
+
 
 
 
@@ -156,31 +134,56 @@ This guidance covers enablement of both OneDrive for Business and the source env
 
 You may decide that your organization has specific business needs that require you to use third-party services or applications to help you execute your migration. Explore the professional services and applications available from partners in the Microsoft Partner Center. There you can find experts to help you in your enterprise content migration to Office 365.  For more information see: [Microsoft Partner Center](https://partnercenter.microsoft.com/en-us/partner/home). 
  
-## User Adoption
-Develop a plan to prepare your users for the upcoming change. Consideration factors to include in your plan: 
-- **Evangelize the move.** Underscore the benefits, the collaborative capabilities, and the reasons for making the move.
-- **End user training.**  Provide training to your users on the features in OneDrive and SharePoint Online.
-- **Train your helpdesk.**  Before the cutover, train your helpdesk in key features and common user questions.
-- **Prepare for any possible downtime** the migration may incur.
-  
- Develop a plan for sending communications to your user base, providing clear statements of timing, expectations and impact to the individual. Consideration factors:
+## Advanced
 
-- The migration timeline and how it will impact them. Include any end user calls to action. 
-- Assure them that if they have content already in OneDrive or SharePoint, that their content is safe and won’t be overwritten. 
-- Let them know whether individuals can opt-out of the migration process
+### Permissions and roles
 
-### Adoption related resources
-- [Microsoft 365 adoption guide](https://devfasttrackv4storage.blob.core.windows.net/marketing/en-us/resources/Microsoft%20365%20User%20Adoption%20Guide.pdf): Outlining methodology and resources for implementing proven adoption success factors
-- [Posters, email templates](https://fasttrack.microsoft.com/microsoft365/resourcehub): customizable templates to generate internal awareness and excitement
-- [OneDrive](https://support.office.com/en-us/article/onedrive-video-training-1f608184-b7e6-43ca-8753-2ff679203132?ocmsassetID=1f608184-b7e6-43ca-8753-2ff679203132&ui=en-US&rs=en-US&ad=US) and [SharePoint](https://support.office.com/en-us/article/sharepoint-online-video-training-cb8ef501-84db-4427-ac77-ec2009fb8e23?ui=en-US&rs=en-US&ad=US) video training
-- [OneDrive](https://support.office.com/en-us/article/upload-files-to-onedrive-for-business-a1397e56-61ec-4ed2-9dac-727bf8ac3357?ui=en-US&rs=en-US&ad=US) and [SharePoint](https://support.office.com/en-us/article/sign-in-to-sharepoint-online-324a89ec-e77b-4475-b64a-13a0c14c45ec?ui=en-US&rs=en-US&ad=US) Quick start training guides: get up and running quickly with the basic info you need to be productive right away 
+There is an important distinction between permissions and sharing. 
 
-### Make the Switch! 
-The following articles will help your users “make the switch” from Box to OneDrive. The topics show how you used to do common tasks in Box and how you do the same in OneDrive.
+**Permissions** determine the level of access a user has to content – whether they can view, edit, or have no access at all. 
 
-- [Switch to OneDrive from Box](https://support.office.com/en-us/article/Switch-to-OneDrive-from-Box-b7f3c899-edb7-44ab-bc3f-0a37e9f1a7fa)
-- [Open with OneDrive](https://support.office.com/en-us/article/open-with-onedrive-c24d1cef-dddb-43b9-929b-45b571b84990?ui=en-US&rs=en-US&ad=US)
-- [Store with OneDrive](https://support.office.com/en-us/article/store-with-onedrive-7be433cd-d95b-46d8-9e8e-a1e32ecc4724?ui=en-US&rs=en-US&ad=US)
-- [Work together with OneDrive](https://support.office.com/en-us/article/work-together-with-onedrive-626cff9f-9a56-472b-a77d-b019d97eec8d?ui=en-US&rs=en-US&ad=US)
-- [Learn more about OneDrive](https://support.office.com/en-us/article/learn-more-about-onedrive-38acc14b-fd86-466e-b802-baece8107c86?ui=en-US&rs=en-US&ad=US)
+Generally, users have *permissions* to a lot of content (your company portals, for example), but have had much less content explicitly *shared* with them. 
+
+Permissions for both services are defined by assigned roles.  The following table maps your current Box roles with OneDrive and SharePoint:
+
+|**Box Roles**|**OneDrive or SharePoint Roles**|
+|:-----|:-----|
+|Co-owner|Contributor|
+|Editor|Contributor|
+|Viewer Uploader|Viewer|
+|Previewer Uploader|None|
+|Viewer|Viewer|
+|Previewer|None|
+|Uploader|None|
+
+
+**Sharing** is an explicit action a user takes to invite another user to collaborate on content. Sharing content implicitly gives that user permission to edit the content as well. Only content that has been explicitly shared with a user (or a group to which they belong) will appear in their **Shared with Me** view in OneDrive.
+The following table maps your current Box sharing experience with OneDrive or SharePoint.
+
+
+### External permission Best Practices
+
+Microsoft’s recommendation is to not handle external sharing during the act of migration. Rather, assess existing external sharing content and then reshare post migration per the following guidelines: 
+ 
+- Audit external permissions on the Box content source using the Collaborations report (generated through the Box Admin Console)
+- Determine whether that content is worthy to remain externally shared
+- If you decide the content is to remain externally shared, determine whether that content is suited for OneDrive or SharePoint based on the What content goes where above guidance
+- For **OneDrive**: reshare files externally with the appropriate external users after the migration  
+- For **team document libraries**:<br> 
+    - Where possible, leverage the collaboration and security benefits of grouping external partner specific content in a dedicated SharePoint team site. Read more details here: [Use Office 365 SharePoint Online as a business-to-business (B2B) extranet solution](https://support.office.com/en-us/article/Use-Office-365-SharePoint-Online-as-a-business-to-business-B2B-extranet-solution-7b087413-165a-4e94-8871-4393e0b9c037).<br>
+    - If content cannot be grouped as such, then externally reshare on the file or folder level in the target SharePoint team site. 
+
+### What is the difference between OneDrive and SharePoint?
+OneDrive is your file explorer in the cloud. Use it to store and protect your files and share them with colleagues, inside and outside your organization. OneDrive connects you to your personal files and the files that are shared with you by others, or through your teams.
+
+Behind the scenes, all files in Office 365 are actually stored in a content service called SharePoint: the files you see as your personal files, the files you see on intranet sites powered by SharePoint, and the files you work with in Teams, Yammer and Outlook. SharePoint is always there, helping manage and protect your files, and powering content collaboration across Office 365.
+
+So you don’t have to compromise: get all the power of SharePoint and work with files wherever you want.
+
+- Work with files in OneDrive app on the web, mobile, or File Explorer on Windows and Finder on Mac
+- Work with files in the context of your group, team, or site
+- Work with files directly in the Office applications
+
+
+
 
