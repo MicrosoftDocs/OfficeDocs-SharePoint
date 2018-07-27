@@ -35,14 +35,14 @@ Before beginning your migration, it is important that you plan your outcome by p
 - The amount of content you migrate. Determine if content is redundant, out of date, or still relevant.
 
 
-## What content goes where
+### What content goes where
 Consider how you use the content in your Box accounts today and plan how to transition to the improved Office 365 collaborative experience. 
 
 Does the file belong to me alone, even though I might share it with others?  If so, save it in your OneDrive personal library. Your personal library is private by default, but you can share files with others, which is particularly useful if you haven’t created a team yet. If you’re already working as a team —in Microsoft Teams, SharePoint, or Outlook—you should save your files there, because OneDrive connects you to all your shared libraries, too.
 
 Does the file belong to my team? If you’re working on content intended for team collaboration, a **team library** is a place that users can collaborate on files, documents, and ideas. When you need a new shared location to store team files, create a shared library right from OneDrive, add members, and start working together. These libraries are accessible within Microsoft Teams, SharePoint, and Outlook. It’s easy to copy and move files between your personal library and shared libraries.
 
-## Sharing
+### Sharing
 
 ![Sharing](media/Migration-WhatGoesWhere-Box-to-ODSP-520x.png)
 
