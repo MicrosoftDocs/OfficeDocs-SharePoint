@@ -3,7 +3,7 @@ title: "Software updates overview for SharePoint Server 2016"
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
-ms.date: 1/8/2018
+ms.date: 01/8/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro

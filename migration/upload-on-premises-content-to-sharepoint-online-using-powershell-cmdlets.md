@@ -3,7 +3,7 @@ title: "Upload on-premises content to SharePoint Online using PowerShell cmdlets
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
-ms.date: 1/22/2018
+ms.date: 01/22/2018
 ms.audience: End User
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
