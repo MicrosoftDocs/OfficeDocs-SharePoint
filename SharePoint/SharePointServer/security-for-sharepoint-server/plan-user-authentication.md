@@ -107,7 +107,9 @@ For more information, see [Plan for Windows authentication](#planwin) in this ar
   
 **Watch the Windows claims authentication in SharePoint 2013 and SharePoint Server 2016 video**
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/9627c892-e5c8-410c-8f26-4964a5292801?autoplay=false]Although not a Windows authentication type, SharePoint Server also supports anonymous authentication. Users can access SharePoint content without validating their credentials. Anonymous authentication is disabled by default. You typically use anonymous authentication when you use SharePoint Server to publish content that does not require security and is available for all users, such as a public Internet website.
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/9627c892-e5c8-410c-8f26-4964a5292801?autoplay=false]
+
+Although not a Windows authentication type, SharePoint Server also supports anonymous authentication. Users can access SharePoint content without validating their credentials. Anonymous authentication is disabled by default. You typically use anonymous authentication when you use SharePoint Server to publish content that does not require security and is available for all users, such as a public Internet website.
   
 Note that in addition to enabling anonymous authentication, you must also configure anonymous access (permissions) on sites and site resources.
   
@@ -129,6 +131,7 @@ Forms-based authentication validates users based on credentials that users type 
 **Watch the forms-based claims authentication in SharePoint 2013 and SharePoint Server 2016 video**
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/8bafab78-092f-4ece-8b0b-6fb1aa7e315e?autoplay=false]
+
 > [!NOTE]
 > With forms-based authentication, the user account credentials are sent as plaintext. Therefore, you should not use forms-based authentication unless you are also using Secure Sockets Layer (SSL) to encrypt the website traffic. 
   
@@ -144,7 +147,9 @@ SharePoint Server takes advantage of claims that are included in tokens that an 
   
 **Watch the SAML-based claims authentication in SharePoint 2013 and SharePoint Server 2016 video**
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/a4ab580d-ac9f-4c4d-8c23-9ddfea7603cf?autoplay=false]The set of authentication providers for SAML token-based authentication depends on the IP-STS in your claims environment. If you use AD FS 2.0, authentication providers (known as attribute stores for AD FS 2.0) can include the following:
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/a4ab580d-ac9f-4c4d-8c23-9ddfea7603cf?autoplay=false]
+
+The set of authentication providers for SAML token-based authentication depends on the IP-STS in your claims environment. If you use AD FS 2.0, authentication providers (known as attribute stores for AD FS 2.0) can include the following:
   
 - Windows Server 2003 Active Directory and AD DS in Windows Server 2008
     

@@ -7,13 +7,14 @@ ms.date: 3/9/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - Ent_O365_Hybrid
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_gtc
+- Strat_SP_gtc
+ms.custom: 
 ms.assetid: 0bba350d-ec33-43db-a873-930559c78dee
 description: "Learn how to configure cloud hybrid search for SharePoint Server by setting up a cloud Search service application in your SharePoint Server environment and connecting it to your search index in Office 365."
 ---

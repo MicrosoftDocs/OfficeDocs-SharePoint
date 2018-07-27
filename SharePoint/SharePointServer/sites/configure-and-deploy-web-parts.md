@@ -137,7 +137,7 @@ Every web part should have a .webpart file, which is an XML file that describes 
     
   - You must be a member of the Farm Administrators group.
     
-2. To create a .webpart file, navigate to http:// _\<MyServer\>_/_layouts/newdwp.aspx, where  _\<MyServer\>_ is the name of the server on which your SharePoint site is deployed. 
+2. To create a .webpart file, navigate to http://\<MyServer\>/_layouts/newdwp.aspx, where \<MyServer\> is the name of the server on which your SharePoint site is deployed. 
     
 3. Select the check box next to  _\<YourWebPartNamespace\>.\<YourWebPartName\>_.
     

@@ -41,7 +41,7 @@ By default, the **Repair Automatically** option is enabled for this rule. You ca
     
 2. On the Monitoring page, in the **Health Analyzer** section, click **Review rule definitions**.
     
-3. On the Health Analyzer Rule Definitions - All Rules page, in the **Category: Configuration** section, click the name of the rule. 
+3. On the Health Analyzer Rule Definitions - All Rules page, in the **Category: Availability** section, click the name of the rule. 
     
 4. On the **Health Analyzer Rule Definitions** page, click **Edit Item**.
     

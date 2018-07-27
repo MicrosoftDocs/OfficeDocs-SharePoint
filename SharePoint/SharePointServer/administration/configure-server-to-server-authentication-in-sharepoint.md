@@ -36,6 +36,11 @@ To understand the procedures in this article, you should be familiar with the ba
 [Authentication overview for SharePoint Server](../security-for-sharepoint-server/authentication-overview.md)
   
 [Plan for server-to-server authentication in SharePoint Server](../security-for-sharepoint-server/plan-server-to-server-authentication.md)
+
+> [!IMPORTANT]
+> If your consuming farm has web applications that are configured or registered to a Workflow Manager, when you set a Realm value, you will need to register the Workflow Manager with the SharePoint farm. Use the PowerShell [Register-SPWorkflowService](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/register-spworkflowservice?view=sharepoint-ps) cmdlet to do this. 
+
+> For more information about setting a Realm value and registering a Workflow Manager with a SharePoint farm, see [Fix the HTTP 401 error with provider-hosted add-ins and issues with workflow and cross farm trust scenarios in SharePoint](https://support.microsoft.com/en-us/help/4010011/provider-hosted-add-ins-stop-working-and-http-401-error) and [Move Workflow Manager to a new farm in a new domain](https://sharepoint.stackexchange.com/questions/132524/move-workflow-manager-to-new-farm-in-a-new-domain).
   
 ## Configure server-to-server authentication between publishing and consuming farms
 <a name="begin"> </a>

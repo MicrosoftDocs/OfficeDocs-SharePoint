@@ -16,6 +16,6 @@ description: "Workflows in SharePoint allow you to model and automate business p
 
 Workflows in SharePoint allow you to model and automate business processes. These business processes can range from simple to complex. But most importantly, workflow lets users focus on doing the work -- rather than managing the workflow.
   
-Workflows help people to collaborate on documents and to manage project tasks by implementing business processes on documents and items in a SharePoint site. Workflows help organizations adhere to consistent business processes, and tand improve organizational efficiency and productivity. 
+Workflows help people to collaborate on documents and to manage project tasks by implementing business processes on documents and items in a SharePoint site. Workflows help organizations adhere to consistent business processes, and improve organizational efficiency and productivity. 
   
 

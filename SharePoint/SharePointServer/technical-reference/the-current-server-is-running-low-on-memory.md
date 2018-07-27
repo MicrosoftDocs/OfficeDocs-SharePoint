@@ -42,9 +42,9 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleT
     
 2. Take half of the remaining memory and convert it to MB. for example, 14 GB/2 = 7 GB or 7168 MB. This is the cache size of the Distributed Cache service.
     
-    Use the following procedure to update the memory allocation accordingly.
+Use the following procedure to update the memory allocation accordingly.
     
- **Change the memory allocation of the Distributed Cache**
+**Change the memory allocation of the Distributed Cache**
   
 1. (Optional) To check the existing memory allocation for the Distributed Cache service on a server, run the following command at the SharePoint Management Shell command prompt:
     

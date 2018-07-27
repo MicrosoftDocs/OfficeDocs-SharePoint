@@ -58,7 +58,7 @@ The following table describes the accounts that are used to set up and configure
 For more information about service application endpoints, see [Using Service Endpoints](https://go.microsoft.com/fwlink/p/?LinkId=227293).
   
 > [!NOTE]
-> Excel Services and User Profile Synchronization service only applyto SharePoint 2013. 
+> Excel Services and User Profile Synchronization service only apply to SharePoint 2013. 
   
 |**Account**|**Service**|**Purpose**|**Requirements**|
 |:-----|:-----|:-----|:-----|
@@ -73,117 +73,136 @@ For more information about service application endpoints, see [Using Service End
 |User Profile Service  <br/> |X  <br/> ||
 |Visio Graphics Service  <br/> |X  <br/> ||
 |Word Automation services  <br/> |X  <br/> ||
-   
-|This account is used as the identity for the service application endpoint application pool. Unless there are specific isolation requirements, the application pool can be used to host multiple service application endpoints.  <br/> ||
-|Service Application Endpoint  <br/> |
-
-|**Service name**|**In SharePoint Server**|**In SharePoint Foundation**|
-|:-----|:-----|:-----|
 |Excel Services  <br/> |X  <br/> ||
 |Managed Metadata Service  <br/> |X  <br/> ||
 |PerformancePoint Service  <br/> |X  <br/> ||
 |Search Service  <br/> |X  <br/> ||
-   
-|This account is used as the identity for the service endpoint application pool. Unless there are specific isolation requirements, the application pool can be used to host multiple service application endpoints.  <br/> |Must be a domain user account.  <br/> |
-|Service Application Endpoint  <br/> |
+ 
+**Note**: This account is used as the identity for the service application endpoint application pool. Unless there are specific isolation requirements, the application pool can be used to host multiple service application endpoints. For Excel Services, Managed Metadata service, PerformancePoint service, and Search service you must be a domain user account. Also Excel Services is only availalbe in SharePoint Server 2010 and 2013.
 
+   
 |**Service name**|**In SharePoint Server**|**In SharePoint Foundation**|
 |:-----|:-----|:-----|
 |Security Token Service  <br/> |X  <br/> ||
 |Application Discovery and Load Balancer Service  <br/> |X  <br/> |X  <br/> |
    
-|This account is used as the identity for the service application endpoint application pool. This account must be the Farm Service Account and the SharePoint Products Configuration Wizard automatically creates the application pool.  <br/> ||
-|Unattended Service  <br/> |
+**Note**: This account is used as the identity for the service application endpoint application pool. This account must be the Farm Service Account and the SharePoint Products Configuration Wizard automatically creates the application pool.  <br/>
+
+|**Account**|**Service**|**Purpose**|**Requirements**|
+|:-----|:-----|:-----|:-----|
+|Unattended Service  <br/>|
 
 |**Service name**|**In SharePoint Server**|**In SharePoint Foundation**|
 |:-----|:-----|:-----|
-|Excel Services  <br/> |X  <br/> ||
-   
-|Used with workbooks to refresh data. It is required when workbook connections specify "None" for authentication, or when any credentials that are notWindows credentials are used to refresh data.  <br/> |Must be a domain user account.  <br/> |
-|Unattended Service  <br/> |
+ |Excel Services  <br/> |X  <br/> ||
+ |PerformancePoint Service  <br/> |X  <br/> ||
+ |Visio Graphics Service  <br/> |X  <br/> ||
 
-|**Service name**|**In SharePoint Server**|**In SharePoint Foundation**|
-|:-----|:-----|:-----|
-|PerformancePoint Service  <br/> |X  <br/> ||
+**Note**: Excel Services used with workbooks to refresh data. It is required when workbook connections specify "None" for authentication, or when any credentials that are notWindows credentials are used to refresh data. PerformancePoint serivce used for authenticating with data sources. Visio service used with documents to refresh data. It is required when connecting to data sources that are external to SharePoint Server, such as SQL Server.
    
-|Used for authenticating with data sources.  <br/> |Must be a domain user account.  <br/> |
-|Unattended Service  <br/> |
 
-|**Service name**|**In SharePoint Server**|**In SharePoint Foundation**|
-|:-----|:-----|:-----|
-|Visio Graphics Service  <br/> |X  <br/> ||
-   
-|Used with documents to refresh data. It is required when connecting to data sources that are external to SharePoint Server, such as SQL Server.  <br/> ||
+|**Account**|**Service**|**Purpose**|**Requirements**|
+|:-----|:-----|:-----|:-----|
 |Default Content Access  <br/> |
 
 |**Service name**|**In SharePoint Server**|**In SharePoint Foundation**|
 |:-----|:-----|:-----|
 |SharePoint Server Search  <br/> |X  <br/> ||
    
-|The default account for crawling content. A Search service application administrator can create crawl rules to specify other accounts to crawl specific content.  <br/> |Must have Read Access to the content being crawled.  <br/> Full Read permissions must be granted explicitly to content that is outside the local farm.  <br/> Full Read permissions are automatically configured for content databases in the local farm.  <br/> |
+**Note**: The default account for crawling content. A Search service application administrator can create crawl rules to specify other accounts to crawl specific content.  Must have Read Access to the content being crawled.  Full Read permissions must be granted explicitly to content that is outside the local farm.  Full Read permissions are automatically configured for content databases in the local farm.
+
+
+|**Account**|**Service**|**Purpose**|**Requirements**|
+|:-----|:-----|:-----|:-----|
 |Search Service  <br/> |
 
 |**Service name**|**In SharePoint Server**|**In SharePoint Foundation**|
 |:-----|:-----|:-----|
 |SharePoint Server Search  <br/> |X  <br/> ||
    
-|The Windows service account for the SharePoint Server Search service. This setting affects all Search service applications in the farm.  <br/> |Must be a domain user account.  <br/> |
+**Note**: The Windows service account for the SharePoint Server Search service. This setting affects all Search service applications in the farm. Must be a domain user account. 
+
+|**Account**|**Service**|**Purpose**|**Requirements**|
+|:-----|:-----|:-----|:-----|
 |User Profile Synchronization Service  <br/> |
 
 |**Service name**|**In SharePoint Server**|**In SharePoint Foundation**|
 |:-----|:-----|:-----|
 |User Profile Synchronization Service  <br/> |X  <br/> ||
    
-|This is the Windows service account for the User Profile Synchronization Service.  <br/> |Requires Log on Locally permission on the computer running the instance of the User Profile Synchronization Service.  <br/> |
+**Note**: This is the Windows service account for the User Profile Synchronization Service. Requires Log on Locally permission on the computer running the instance of the User Profile Synchronization Service.
+
+|**Account**|**Service**|**Purpose**|**Requirements**|
+|:-----|:-----|:-----|:-----|
 |Synchronization Connection  <br/> |
 
 |**Service name**|**In SharePoint Server**|**In SharePoint Foundation**|
 |:-----|:-----|:-----|
 |User Profile Service  <br/> |X  <br/> ||
    
-|This is the account used to perform synchronization with the remote directory service. There can be one account per synchronization connection.  <br/> |Replicating Directory Changes permissions on the domains being synchronized.  <br/> Replicating Directory Changes permissions on the configuration partition of the domains being synchronized if the NetBIOS and fully qualified domain name (FQDN) names do not match.  <br/> |
+**Note**: This is the account used to perform synchronization with the remote directory service. There can be one account per synchronization connection.  Replicating Directory Changes permissions on the domains being synchronized.  Replicating Directory Changes permissions on the configuration partition of the domains being synchronized if the NetBIOS and fully qualified domain name (FQDN) names do not match. 
+
+|**Account**|**Service**|**Purpose**|**Requirements**|
+|:-----|:-----|:-----|:-----|
 |App Management Service  <br/> |
 
 |**Service name**|**In SharePoint Server**|**In SharePoint Foundation**|
 |:-----|:-----|:-----|
 |App management  <br/> |X  <br/> |X  <br/> |
-   
-|This account permits you to install SharePoint apps from the SharePoint Store or the App Catalog.  <br/> ||
+
+
+**Note**: This account permits you to install SharePoint apps from the SharePoint Store or the App Catalog.
+
+
+|**Account**|**Service**|**Purpose**|**Requirements**|
+|:-----|:-----|:-----|:-----|
 |PowerPoint Conversion Service  <br/> |
 
 |**Service name**|**In SharePoint Server**|**In SharePoint Foundation**|
 |:-----|:-----|:-----|
-|PowerPoint conversion service  <br/> |X  <br/> ||
+|PowerPoint conversion service  <br/> |X  <br/> | |
    
-|This account converts Microsoft PowerPoint presentations into various formats.  <br/> ||
+**Note**: This account converts Microsoft PowerPoint presentations into various formats.  <br/>
+
+|**Account**|**Service**|**Purpose**|**Requirements**|
+|:-----|:-----|:-----|:-----|
 |Machine Translation service  <br/> |
 
 |**Service name**|**In SharePoint Server**|**In SharePoint Foundation**|
 |:-----|:-----|:-----|
-|Machine Translation service  <br/> |X  <br/> ||
+|Machine Translation service  <br/> |X  <br/> 
    
-|This account performs automated machine translation.  <br/> ||
+**Note**: This account performs automated machine translation.  <br/>
+
+|**Account**|**Service**|**Purpose**|**Requirements**|
+|:-----|:-----|:-----|:-----|
 |Access Services 2013  <br/> |
 
 |**Service name**|**In SharePoint Server**|**In SharePoint Foundation**|
 |:-----|:-----|:-----|
 |Access Services in SharePoint Server 2013  <br/> |X  <br/> ||
    
-|This account views, edits, and interacts with Access 2013 databases in a browser.  <br/> ||
+**Note** This account views, edits, and interacts with Access 2013 databases in a browser.  <br/> 
+
+|**Account**|**Service**|**Purpose**|**Requirements**|
+|:-----|:-----|:-----|:-----|
 |Work Management  <br/> |
 
 |**Service name**|**In SharePoint Server**|**In SharePoint Foundation**|
 |:-----|:-----|:-----|
-|Work management  <br/> |X  <br/> ||
+|Work management  <br/> |X  <br/>
    
-|This account provides task aggregation across work management systems, including SharePoint products, Microsoft Exchange Server, and Microsoft Project Server.  <br/> ||
+**Note**: This account provides task aggregation across work management systems, including SharePoint products, Microsoft Exchange Server, and Microsoft Project Server.  <br/>
+
+|**Account**|**Service**|**Purpose**|**Requirements**|
+|:-----|:-----|:-----|:-----|
 |Distributed Cache  <br/> |
 
 |**Service name**|**In SharePoint Server**|**In SharePoint Foundation**|
 |:-----|:-----|:-----|
 |Distributed Cache  <br/> |X  <br/> |X  <br/> |
    
-| This account provides in-memory caching services to several features in SharePoint Server. Some of the features that use the Distributed Cache service include:  <br/>  Newsfeeds  <br/>  Authentication  <br/>  OneNote client access  <br/>  Security Trimming  <br/>  Page load performance  <br/> ||
+**Note**: This account provides in-memory caching services to several features in SharePoint Server. Some of the features that use the Distributed Cache service include:  <br/>  Newsfeeds  <br/>  Authentication  <br/>  OneNote client access  <br/>  Security Trimming  <br/>  Page load performance  <br/> 
    
 ### Additional application pool identity accounts
 

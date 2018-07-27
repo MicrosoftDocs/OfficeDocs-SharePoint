@@ -51,7 +51,7 @@ The SharePoint Timer service (SPTimerv4) is based on the Gregorian calendar for 
 
 The following table lists the default timer jobs for SharePoint Server 2016.
   
-|****Timer job****|****Description****|****Default schedule****|
+|**Timer job**|**Description**|**Default schedule**|
 |:-----|:-----|:-----|
 |Access Services monitor  <br/> |Monitors the connectivity of Access Services on SharePoint Online and SQL Azure.  <br/> |5 minutes  <br/> |
 |Access Services provider for SQL connection statistics (SQL Azure only)  <br/> |Provides the statistics on connections to SQL for Access Services (SQL Azure only).  <br/> |Daily  <br/> |

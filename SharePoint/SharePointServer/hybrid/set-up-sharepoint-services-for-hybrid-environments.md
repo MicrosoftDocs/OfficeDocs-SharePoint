@@ -7,13 +7,14 @@ ms.date: 6/21/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - Ent_O365_Hybrid
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_gtc
+- Strat_SP_gtc
+ms.custom: 
 ms.assetid: 70e043ef-8908-436e-92bf-abbcd89874f7
 description: "Summary: Learn how to set up the SharePoint Server services you'll need for a hybrid environment."
 ---

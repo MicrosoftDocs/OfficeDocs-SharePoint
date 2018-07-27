@@ -7,11 +7,12 @@ ms.date: 3/10/2018
 ms.audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_server
+- Strat_SP_server
+ms.custom: 
 ms.assetid: 723dba65-4887-4ef2-9971-c51c8669cbac
 description: "Summary: Understand the disaster recovery options and supported technologies for recovering a SharePoint Server 2016 and SharePoint 2013 farm if there is a disaster."
 ---

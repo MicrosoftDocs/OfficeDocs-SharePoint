@@ -7,11 +7,12 @@ ms.date: 3/10/2018
 ms.audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_server
+- Strat_SP_server
+ms.custom:
 ms.assetid: be987a18-9a54-4925-8d78-e0798f4d2901
 description: "Use SQL Server 2014 and SQL Server 2016 Always On Availability Groups and Microsoft Azure to create a hybrid disaster-recovery environment for your on-premises SharePoint Server 2016 and SharePoint Server 2013 farm. This article describes how to design and implement this solution."
 ---
@@ -241,7 +242,7 @@ For more information about prerequisites, restrictions, recommendations, and gen
     
 - [AlwaysOn Availability Groups (SQL Server)](https://docs.microsoft.com/en-us/sql/database-engine/availability-groups/windows/always-on-availability-groups-sql-server)
     
-    The next figure (Figure 4) shows the Availability Group replica infrastructure that we used for the SharePoint databases.
+The next figure (Figure 4) shows the Availability Group replica infrastructure that we used for the SharePoint databases.
     
 **Figure 4 Availability Group replica infrastructure**
 
@@ -281,6 +282,8 @@ The tables in this section summarize the supported high availability and disaste
 |**State Service** <br/> |Yes  <br/> |No  <br/> |
 |**WSS Content X** <br/> |Yes  <br/> |Yes  <br/> |
    
+The following table lists the SharePoint service application databases.
+
 |**Database name**|**High Availability (Synchronous Support)**|**Disaster Recovery (Asynchronous Support)**|
 |:-----|:-----|:-----|
 |**App Management** <br/> |Yes  <br/> |Yes  <br/> |
@@ -298,6 +301,8 @@ The tables in this section summarize the supported high availability and disaste
 |**Usage** <br/> |Yes  <br/> |No  <br/> |
 |**Word Automation** <br/> |Yes  <br/> |Yes  <br/> |
    
+The following table lists the SharePoint Search databases.
+
 |**Database name**|**High Availability (Synchronous Support)**|**Disaster Recovery (Asynchronous Support)**|
 |:-----|:-----|:-----|
 |**Search Admin** <br/> |Yes  <br/> |No  <br/> |
@@ -463,7 +468,7 @@ The next table provides more information about the steps in Build phase 6.
 |4. Check the farm services  <br/> |Verify that all the farm services are running as expected.  <br/> |
 |5. Perform a farm health check  <br/> |Perform health checks on the farm to make sure that the farm is stable and working correctly.  <br/> |
    
- **(1)**
+ **(1):** Use the following PowerShell syntax for step 3 in the Build phase 6 table.
   
 ```
 # Refresh sites in the configuration database

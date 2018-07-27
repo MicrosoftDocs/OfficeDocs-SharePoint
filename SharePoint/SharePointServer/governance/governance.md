@@ -7,12 +7,13 @@ ms.date: 3/12/2018
 ms.audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_gtc
+- Strat_SP_gtc
+ms.custom: 
 ms.assetid: 65552a5e-228b-4789-8982-0c29871c85b0
 description: "Summary: Plan for governance in SharePoint."
 ---

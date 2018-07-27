@@ -207,7 +207,10 @@ The version of the existing SharePoint Server and Windows Server must also suppo
     
 2. On the destination database server, attach the databases to the new instance. For more information, see [Attach a Database](http://go.microsoft.com/fwlink/p/?LinkID=717343) and [sp_attach_db (Transact-SQL)](http://go.microsoft.com/fwlink/p/?LinkID=717344).
     
-The following procedures provide methods to connect to the new SQL Server instance or update the database connections. Use the procedure that works best for your SharePoint Server farm environment. 
+The following procedures provide methods to connect to the new SQL Server instance or update the database connections. Use the procedure that works best for your SharePoint Server farm environment.
+
+> [!IMPORTANT]
+> If you're using SharePoint Server and SQL Server AlwaysOn Availability Groups before moving the databases, you should point to the AG Listner. If you're moving from a single-server farm to an AlwayOn Availability Group then you should use the cliconfg.exe.
   
 ### To point the web application to the new database server by setting up SQL Server connection aliases
 
@@ -219,23 +222,23 @@ The following procedures provide methods to connect to the new SQL Server instan
     
   - The **db_owner** fixed database role 
     
-3. Start the SQL Server Configuration Manager.
+3. Start the SQL Server Client Network Utility (cliconfg.exe). This utility is typically located in the C:\Windows\SysWOW64 folder.
     
-4. Expand **SQL Server Native Client Configuration**, right-click **Aliases**, and then click **New Alias**.
+4. On the **General** tab, verify that TCP/IP is enabled.
     
-5. In the **Alias Name** box, enter the name of the new alias, which you are creating. 
+5. On the **Alias** tab, click **Add**. The Add Network Library Configuration window appears. 
     
-6. In the **Port Number** box, enter the number of the port the new alias will use to connect to SQL Server. 
+6. In the **Server alias** box, enter the name of the current instance of SQL Server. 
     
-7. In the **Protocol** box, click the drop-down arrow and select **TCP/IP**. This is the protocol the new alias will use to connect to the SQL Server.
+7. In the **Network libraries** area, click **TCP/IP**.
     
-8. In the **Server** box, enter the name of the current instance of SQL Server. 
+8. In the **Connection parameters** area, in the **Server name** box, enter the new server name and instance to associate with the alias, and then click **OK**. This is the name of the new server that is hosting the SharePoint Server databases. 
     
-9. Repeat steps 3 through 8 on all servers in the farm that connect to the new instance of SQL Server. For more information, see [Create or Delete a Server Alias for Use by a Client (SQL Server Configuration Manager](http://go.microsoft.com/fwlink/p/?LinkID=717391)
+9. Repeat steps 3 through 8 on all servers in the farm that connect to the new instance of SQL Server.
     
 10. Optional. If your environment relies on System Center 2012 - Data Protection Manager (DPM) or a third-party application that uses the Volume Shadow Copy Service framework for backup and recovery, you must install the SQL Server connectivity components on each web server or application server by running SQL Server setup. For more information, see [Install SQL Server 2014 from the Installation Wizard (Setup)](http://go.microsoft.com/fwlink/p/?LinkID=717350) and [Windows Server Installation and Upgrade](https://docs.microsoft.com/en-us/windows-server/get-started/installation-and-upgrade).
     
-You can use these Microsoft PowerShell cmdlets to deploy, manage, and remove availability groups in SQL Server with SharePoint Server :
+You can use these Microsoft PowerShell cmdlets to deploy, manage, and remove availability groups in SQL Server with SharePoint Server:
   
 - **Add-DatabaseToAvailabilityGroup**
     
@@ -285,7 +288,7 @@ Use the next procedure for the following scenarios:
 - If you move the databases from a SharePoint Server 2016 Single-Server Farm role type to a new Single-Server Farm role type or from a SharePoint 2013 single-server installation to a new single-server installation.
     
     > [!NOTE]
-    > The Single-Server Farm role replaces the Standalone Install mode available in previous SharePoint Server releases. For more information, see [Overview of MinRole Server Roles in SharePoint Server 2016](../install/overview-of-minrole-server-roles-in-sharepoint-server-2016.md). 
+    > The Single-Server Farm role replaces the Standalone Install mode available in previous SharePoint Server releases. For more information, see [Overview of MinRole Server Roles in SharePoint Server 2016](../install/overview-of-minrole-server-roles-in-sharepoint-server.md). 
   
 - If you use Availability Groups then you must manually add the databases to the availability groups as appropriate to their high availability/disaster recovery support. For more information, see [Add a Database to an Availability Group (SQL Server)](http://go.microsoft.com/fwlink/p/?LinkID=717351)
     

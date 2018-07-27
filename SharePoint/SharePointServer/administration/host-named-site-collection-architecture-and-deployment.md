@@ -253,7 +253,7 @@ You can create a host-named site collection by using the Microsoft PowerShell Ne
   
   ```
 
-This creates a host-named site collection that has the URL, http://webapp.contoso.com, in the SharePoint Server web application that has the URL, http://webapp.contoso.com.
+This creates a host-named site collection that has the URL, http://portal.contoso.com, in the SharePoint Server web application that has the URL, http://portal.contoso.com.
   
 ### Use managed paths with host-named site collections
 <a name="section2d"> </a>

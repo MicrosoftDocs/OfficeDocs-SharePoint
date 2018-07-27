@@ -7,12 +7,13 @@ ms.date: 9/12/2017
 ms.audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server
 - IT_SharePoint_Hybrid_Top
-ms.custom: Strat_SP_gtc
+- Strat_SP_gtc
+ms.custom: 
 ms.assetid: f14dddb4-ee1a-4471-95bc-2ce41613442a
 description: "SharePoint hybrid taxonomy enables you to have a single taxonomy that spans SharePoint Server and SharePoint Online. This gives you a single, consistent taxonomy no matter where your sites are located."
 ---
@@ -39,7 +40,7 @@ Configuration of both features uses the Hybrid Picker in the SharePoint Online a
   
 The functionality and configuration procedures are the same for both versions of SharePoint Server.
   
-As with all hybrid scenarios, hybrid SharePoint taxonomy and hybrid content types both rely on your [user accounts being synchronized between SharePoint Server and SharePoint Online](https://support.office.com/article/263faf8d-aa21-428b-aed3-2021837a4b65).
+As with all hybrid scenarios, hybrid SharePoint taxonomy and hybrid content types both rely on your [user accounts being synchronized between SharePoint Server and SharePoint Online](https://support.office.com/article/263faf8d-aa21-428b-aed3-2021837a4b65), though users whose accounts are not synchronized can still use the replicated and local term sets on-premises.
   
 ## How hybrid SharePoint taxonomy works
 

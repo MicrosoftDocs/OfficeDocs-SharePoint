@@ -3,15 +3,16 @@ title: "Software boundaries and limits for SharePoint Server 2016"
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
-ms.date: 1/8/2018
+ms.date: 01/8/2018
 ms.audience: ITPro
 ms.topic: interactive-tutorial
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_server
+- Strat_SP_server
+ms.custom: 
 ms.assetid: 6a13cd9f-4b44-40d6-85aa-c70a8e5c34fe
 
 description: "Summary: Learn about the tested performance and capacity limits of SharePoint Server 2016 and how limits relate to acceptable performance."

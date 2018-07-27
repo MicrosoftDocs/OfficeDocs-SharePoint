@@ -7,13 +7,14 @@ ms.date: 6/21/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - Ent_O365_Hybrid
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_gtc
+- Strat_SP_gtc
+ms.custom: 
 ms.assetid: eddba98c-dec8-4fc8-823d-d908bdf0bc83
 description: "Summary: Get Office 365 for enterprises set up for hybrid integration with SharePoint Server."
 ---

@@ -7,11 +7,12 @@ ms.date: 3/10/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - IT_Sharepoint_Server_Top
 - IT_Sharepoint16
-ms.custom: Strat_SP_server
+- Strat_SP_server
+ms.custom: 
 ms.assetid: 18fedf59-f293-4c15-953e-c42ec66fa13f
 description: "Summary: Learn how to create and configure a SQL Server Always On Availability Group for a SharePoint Server 2016 and SharePoint 2013 farm."
 ---
@@ -79,11 +80,11 @@ An availability group consists of the following components:
   
 - Replicas, which are a discrete set of user databases called availability databases that fail over together as a single unit. Every availability group in SQL Server 2014 (SP1) and SQL Server 2016 supports one primary replica and up to eight secondary replicas. Every availability group in SQL Server 2012 supports one primary replica and up to four secondary replicas.
     
-- A specific instance of SQL Server to host each replica and to maintain a local copy of each database that belongs to the availability group.
-    
-[Always On Availability Groups (SQL Server)](https://go.microsoft.com/fwlink/?linkid=858061) and [Overview of Always On Availability Groups (SQL Server)](https://go.microsoft.com/fwlink/?linkid=858062)
+- A specific instance of SQL Server to host each replica and to maintain a local copy of each database that belongs to the availability group. 
+
+For more information, see [Always On Availability Groups (SQL Server)](https://go.microsoft.com/fwlink/?linkid=858061) and [Overview of Always On Availability Groups (SQL Server)](https://go.microsoft.com/fwlink/?linkid=858062)
   
- **Replicas and failover**
+**Replicas and failover**
   
 The primary replica makes the availability databases available for read-write connections from clients and sends transaction log records for each primary database to every secondary replica. Each secondary replica applies transaction log records to its secondary databases.
   
@@ -430,7 +431,7 @@ On the server that hosts the primary replica, you have to run the Add Databases 
     
   - CONTROL SERVER permission
     
-    To join a database to an availability group requires membership in the **db_owner** fixed database role. 
+   To join a database to an availability group requires membership in the **db_owner** fixed database role. 
     
 2. In Object Explorer, browse to, and if it is necessary expand the Availability Groups.
     

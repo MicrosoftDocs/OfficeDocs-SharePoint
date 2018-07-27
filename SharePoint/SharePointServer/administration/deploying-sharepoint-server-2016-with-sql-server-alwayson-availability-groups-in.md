@@ -7,13 +7,13 @@ ms.date: 10/19/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - Ent_O365
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-ms.custom:
 - Strat_O365_Enterprise
+ms.custom:
 - Ent_Solutions
 ms.assetid: af7cf3e7-94b1-4a5d-8cb9-80c5a0b397f2
 description: "Summary: Get an overview of deploying SharePoint Server 2016 in Microsoft Azure with links to each phase of the deployment."

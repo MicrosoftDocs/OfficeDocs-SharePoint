@@ -3,15 +3,15 @@ title: "New and improved features in SharePoint Server 2016"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 3/8/2018
 ms.audience: ITPro
 ms.topic: overview
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_server
+- Strat_SP_server
+ms.custom: 
 ms.assetid: e81557fb-5046-4a67-8ec8-fdfda648af68
 description: "Learn about the new features and updates to existing features in SharePoint Server 2016."
 ---
@@ -179,7 +179,7 @@ In SharePoint Server 2016, new hybrid features are available to enable hybrid so
     
 - Users have a single profile in Office 365, where all of their profile information is stored.
     
-For more information, see [Plan for hybrid sites features](http://technet.microsoft.com/library/4bf21275-1b38-4299-b80d-5f12e8b87a47%28Office.14%29.aspx).
+For more information, see [SharePoint hybrid sites and search](../hybrid/sharepoint-hybrid-sites-and-search.md).
   
  **Hybrid OneDrive for Business**
   
@@ -253,7 +253,7 @@ The role of a server is specified when you create a new farm or join a server to
 |**Front-end with Distributed Cache** <br/> |Shared role that combines the Front-end and Distributed Cache roles on the same server.  <br/> **Note:** <br/> This shared role was introduced in the November Public Update for SharePoint Server 2016 (Feature Pack 1).  <br/> |
 |**Application with Search** <br/> |Shared role that combines the Application and Search roles on the same server.  <br/> **Note:** <br/> This shared role was introduced in the November Public Update for SharePoint Server 2016 (Feature Pack 1).  <br/> |
    
-For more information about the MinRole feature, see [Overview of MinRole Server Roles in SharePoint Server 2016](../install/overview-of-minrole-server-roles-in-sharepoint-server-2016.md) and [Planning for a MinRole server deployment in SharePoint Server 2016](../install/planning-for-a-minrole-server-deployment-in-sharepoint-server-2016.md).
+For more information about the MinRole feature, see [Overview of MinRole Server Roles in SharePoint Server 2016](../install/overview-of-minrole-server-roles-in-sharepoint-server.md) and [Planning for a MinRole server deployment in SharePoint Server 2016](../install/planning-for-a-minrole-server-deployment-in-sharepoint-server-2016.md).
   
 ### Mobile experience
 <a name="mobile"> </a>

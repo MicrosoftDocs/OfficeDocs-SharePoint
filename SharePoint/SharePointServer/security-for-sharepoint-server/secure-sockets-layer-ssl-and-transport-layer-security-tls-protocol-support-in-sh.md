@@ -27,7 +27,7 @@ SharePoint Server supports the following versions of the TLS protocol:
     
 - TLS 1.2
     
-- TLS 3.0\*
+- SSL 3.0\*
     
 \*Note that SharePoint Server 2016 does not fully support SSL 3.0. This is because SharePoint Server 2016 disables SSL 3.0 connection encryption by default for some, but not all features.
   

@@ -1,0 +1,48 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.md",
+          "**/*.md"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg",
+          "**/*.gif",
+          "**/*.svg"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**"
+        ]
+      }
+    ],
+    "overwrite": [],
+    "externalReference": [],
+    "globalMetadata": {
+      "breadcrumb_path": "/onedrive/breadcrumb/toc.json",
+      "extendBreadcrumb": "true",
+      "searchScope": ["OneDrive for Business"],
+      "feedback_system": "GitHub",
+      "feedback_github_repo": "MicrosoftDocs/OfficeDocs-SharePoint",
+      "feedback_product_url": "https://onedrive.uservoice.com" 
+    },
+    "fileMetadata": {},
+    "template": [],
+    "dest": "OfficeDocs-OneDrive",
+    "markdownEngineName": "markdig"    
+  }
+}

@@ -3,16 +3,16 @@ title: "SharePoint Server 2016 dev/test environment in Azure"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: pamgreen
-ms.date: 10/6/2017
+ms.date: 04/30/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-ms.custom:
 - Strat_O365_Enterprise
+ms.custom:
 - Ent_TLGs
 ms.assetid: 056e74ea-9428-45f8-abed-1040d8e413dd
 description: "Summary: Create a single-server SharePoint 2016 dev/test farm in Microsoft Azure infrastructure services."
@@ -106,7 +106,7 @@ $rgName="<resource group name>"
 # Get the location
 $locName=(Get-AzureRmResourceGroup -Name $rgName).Location
 # Create an availability set for domain controller virtual machines
-New-AzureRMAvailabilitySet -Name dcAvailabilitySet -ResourceGroupName $rgName -Location $locName
+New-AzureRMAvailabilitySet -ResourceGroupName $rgName -Name dcAvailabilitySet -Location $locName -Sku Aligned  -PlatformUpdateDomainCount 5 -PlatformFaultDomainCount 2
 # Create the adVM virtual machine
 $vmName="adVM"
 $vmSize="Standard_D1_v2"
@@ -135,11 +135,11 @@ It can take a few minutes for Azure to build the virtual machine.
   
 Use these steps to connect to the domain controller virtual machine using local administrator account credentials: 
   
-1. In the [Azure portal](https://portal.azure.com), click **Resource Groups \>** <the name of your new resource group> **\> adVM \> Connect**.
+1. In the [Azure portal](https://portal.azure.com), click **Resource Groups \>** \<the name of your new resource group> **\> adVM \> Connect**.
     
 2. Run the adVM.rdp file that is downloaded, and then click **Connect**.
     
-3. In **Windows Security**, click **Use another account**. In **User name**, type **adVM\**<ADMIN_NAME>.
+3. In **Windows Security**, click **Use another account**. In **User name**, type **adVM**\\<ADMIN_NAME>.
     
 4. In **Password**, type the password of the ADMIN_NAME account, and then click **OK**.
     
@@ -164,11 +164,11 @@ After adVM restarts, reconnect to the adVM virtual machine.
   
  **Connect to the domain controller virtual machine using domain credentials**
   
-1. In the [Azure portal](https://portal.azure.com), click **Resource Groups \>** <your resource group name> **\> adVM \> Connect**.
+1. In the [Azure portal](https://portal.azure.com), click **Resource Groups \>** \<your resource group name> **\> adVM \> Connect**.
     
 2. Run the adVM.rdp file that is downloaded, and then click **Connect**.
     
-3. In **Windows Security**, click **Use another account**. In **User name**, type **CORP\**<ADMIN_NAME>.
+3. In **Windows Security**, click **Use another account**. In **User name**, type **CORP**\\<ADMIN_NAME>.
     
 4. In **Password**, type the password of the ADMIN_NAME account, and then click **OK**.
     
@@ -203,7 +203,7 @@ $rgName="<your resource group name>"
 Get-AzureRmSubscription -Name $subscrName | Select-AzureRmSubscription
 $locName=(Get-AzureRmResourceGroup -Name $rgName).Location
 # Create an availability set for SQL Server virtual machines
-New-AzureRMAvailabilitySet -Name sqlAvailabilitySet -ResourceGroupName $rgName -Location $locName
+New-AzureRMAvailabilitySet -ResourceGroupName $rgName -Name sqlAvailabilitySet -Location $locName -Sku Aligned  -PlatformUpdateDomainCount 5 -PlatformFaultDomainCount 2
 # Create the SQL Server virtual machine
 $vmName="sqlVM"
 $vmSize="Standard_D3_V2"
@@ -219,7 +219,7 @@ $dataDisk1=New-AzureRmDisk -DiskName ($vmName + "-SQLData") -Disk $diskConfig -R
 $vm=Add-AzureRmVMDataDisk -VM $vm -Name ($vmName + "-SQLData") -CreateOption Attach -ManagedDiskId $dataDisk1.Id -Lun 1
 $cred=Get-Credential -Message "Type the name and password of the local administrator account of the SQL Server computer." 
 $vm=Set-AzureRMVMOperatingSystem -VM $vm -Windows -ComputerName $vmName -Credential $cred -ProvisionVMAgent -EnableAutoUpdate
-$vm=Set-AzureRMVMSourceImage -VM $vm -PublisherName MicrosoftSQLServer -Offer SQL2014SP1-WS2012R2 -Skus Standard -Version "latest"
+$vm=Set-AzureRMVMSourceImage -VM $vm -PublisherName MicrosoftSQLServer -Offer SQL2014SP2-WS2012R2 -Skus Standard -Version "latest"
 $vm=Add-AzureRMVMNetworkInterface -VM $vm -Id $nic.Id
 New-AzureRMVM -ResourceGroupName $rgName -Location $locName -VM $vm
 ```
@@ -236,7 +236,7 @@ Add-Computer -DomainName "corp.contoso.com"
 Restart-Computer
 ```
 
-Note that you must supply domain account credentials after entering the **Add-Computer** command. Use the CORP\<ADMIN_NAME> account and password. 
+Note that you must supply domain account credentials after entering the **Add-Computer** command. Use the CORP\\<ADMIN_NAME> account and password. 
   
 After the SQL Server virtual machine restarts, reconnect to it using the credentials of the local administrator account.
   
@@ -273,7 +273,7 @@ Next, configure the SQL server to use the F: drive for new databases and for acc
     
 8. Right-click **Logins**, and then click **New login**.
     
-9. In **Login name**, type **CORP\**<ADMIN_NAME>.
+9. In **Login name**, type **CORP**\\<ADMIN_NAME>.
     
 10. Under **Select a page**, click **Server Roles**, click **sysadmin**, and then click **OK**.
     
@@ -307,7 +307,7 @@ Get-AzureRmSubscription -Name $subscrName | Select-AzureRmSubscription
 # Get the location
 $locName=(Get-AzureRmResourceGroup -Name $rgName).Location
 # Create an availability set for SharePoint virtual machines
-New-AzureRMAvailabilitySet -Name spAvailabilitySet -ResourceGroupName $rgName -Location $locName
+New-AzureRMAvailabilitySet -ResourceGroupName $rgName -Name spAvailabilitySet -Location $locName -Sku Aligned  -PlatformUpdateDomainCount 5 -PlatformFaultDomainCount 2
 # Create the spVM virtual machine
 $vmName="spVM"
 $vmSize="Standard_D3_V2"
@@ -339,13 +339,13 @@ Add-Computer -DomainName "corp.contoso.com"
 Restart-Computer
 ```
 
-Note that you must supply domain account credentials after entering the **Add-Computer** command. Use the CORP\<ADMIN_NAME> account name and password. 
+Note that you must supply domain account credentials after entering the **Add-Computer** command. Use the CORP\\<ADMIN_NAME> account name and password. 
   
 After the SharePoint virtual machine restarts, reconnect to it using the CORP\\<ADMIN_NAME\> account name and password.
   
  **Create a new SharePoint farm**
   
-1. From the Start screen, type ** SharePoint **, and then click **SharePoint 2016 Products Configuration Wizard**.
+1. From the Start screen, type **SharePoint**, and then click **SharePoint 2016 Products Configuration Wizard**.
     
 2. On the **Welcome to SharePoint Products** page, click **Next**.
     
@@ -357,7 +357,7 @@ After the SharePoint virtual machine restarts, reconnect to it using the CORP\\<
     
   - In **Database server**, type **sqlVM**.
     
-  - In **Username**, type ** CORP\sp_farm_db **. 
+  - In **Username**, type **CORP\sp_farm_db**. 
     
   - In **Password**, type the sp_farm_db account password.
     
@@ -393,11 +393,11 @@ After the SharePoint virtual machine restarts, reconnect to it using the CORP\\<
     
 18. Open a new tab in Internet Explorer, type **http://spvm/** in the Address bar, and then press Enter. You should see the default Contoso team site. 
     
-Now configure an alternate access mapping so that Internet users can access the SharePoint server using the DNS name for the public IP address assigned to the spVM virtual machine.
+Next, you configure an alternate access mapping so that Internet users can access the SharePoint server using the DNS name for the public IP address assigned to the spVM virtual machine.
   
  **Configure an alternate access mapping**
   
-1. At the Azure PowerShell prompt on your local computer, run the following commands:
+1. At the Azure PowerShell prompt on your local computer, run the following command:
     
   ```
   Write-Host (Get-AzureRMPublicIpaddress -Name "spVM-PIP" -ResourceGroup $rgName).DnsSettings.Fqdn
@@ -421,7 +421,7 @@ Here is the result of Phase 3.
   
 ![The completed SharePoint 2016 dev/test farm in Azure infrastructure services](../media/42778e43-80a3-4600-81de-ef1aaecd698f.png)
   
-From a browser on your local computer, access **http://**< DNS name of the spVM virtual machine>. When prompted from credentials, use the CORP\<ADMIN_NAME> account name and password. You should see the default Contoso team site.
+From a browser on your local computer, access **http://**\<DNS name of the spVM virtual machine>. When prompted from credentials, use the CORP\\<ADMIN_NAME> account name and password. You should see the default Contoso team site.
   
 ## Next steps
 
@@ -458,9 +458,8 @@ Start-AzureRMVM -Name spVM -ResourceGroupName $rgName
 [Install SharePoint Server](../install/install.md)
 #### Other Resources
 
-[Cloud adoption Test Lab Guides (TLGs)](https://technet.microsoft.com/library/dn635308.aspx)
-  
 [Designing a SharePoint Server 2016 farm in Azure](designing-a-sharepoint-server-2016-farm-in-azure.md)
   
 [Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](deploying-sharepoint-server-2016-with-sql-server-alwayson-availability-groups-in.md)
 
+[Cloud adoption Test Lab Guides (TLGs)](https://technet.microsoft.com/library/dn635308.aspx) 

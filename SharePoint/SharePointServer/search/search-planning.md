@@ -10,14 +10,18 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: e8c0fccd-8364-4352-8778-c9c46a668b70
-description: "Summary: Create a well-designed plan to install and configure search in SharePoint Server 2016 or SharePoint Server 2013."
+description: "Summary: Create a well-designed plan to install and configure search in SharePoint Server."
 ---
 
 # Plan search in SharePoint Server
 
- **Summary:** Create a well-designed plan to install and configure search in SharePoint Server 2016 or SharePoint Server 2013. 
+ **Summary:** Create a well-designed plan to install and configure search in SharePoint Server. 
   
 The following articles provide information about the planning you need to do to deploy search in SharePoint Server.
+
+SharePoint Server 2019 Public Preview offers a **modern** search experience in addition to the **classic** search experience. Both experiences use the same search index to find results. Only the classic search experience is customizable, and some of the customization settings also affect modern search. [Learn what's new about search](../what-s-new/new-and-improved-features-in-SharePoint-Server-2019.md).
+
+ 
   
 ## Articles about planning search
 

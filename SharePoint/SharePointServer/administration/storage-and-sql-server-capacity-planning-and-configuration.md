@@ -7,11 +7,12 @@ ms.date: 3/9/2018
 ms.audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_server
+- Strat_SP_server
+ms.custom: 
 ms.assetid: a96075c6-d315-40a8-a739-49b91c61978f
 description: "Summary: Learn how to plan and configure the storage and database tier for SQL Server in SharePoint Server 2016 and SharePoint Server 2013."
 ---
@@ -301,8 +302,6 @@ To estimate the storage requirements for the service applications in the system,
 |PerformancePoint Services  <br/> |The PerformancePoint service application has one database. We recommend that you allocate 1 GB for it. It has minimal IOPS.  <br/> |
 |Business Data Connectivity service  <br/> |The Business Data Connectivity service application has one database. This database is small and significant growth is unlikely. It has minimal IOPS.  <br/> |
 |App Management  <br/> |The App Management service application has one database. This database is small and significant growth is unlikely. It has minimal IOPS.  <br/> |
-|Word Automation Services  <br/> |The Word Automation Services service application has one database. This database is small and significant growth is unlikely. It has minimal IOPS.  <br/> |
-|PerformancePoint Services  <br/> |The PerformancePoint Services has one database. This database is small and significant growth is unlikely. It has minimal IOPS.  <br/> |
 |Power Pivot  <br/> |The Power Pivot Service application has one database. This database is small and has no significant I/O impact. We recommend that you use the same IOPS as the SharePoint content database. Note that content databases have significantly higher I/O requirements than the Power Pivot service application database.  <br/> |
    
 ### Determine availability needs
