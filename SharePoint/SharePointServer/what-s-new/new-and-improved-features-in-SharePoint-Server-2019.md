@@ -78,11 +78,11 @@ SharePoint Server 2019 Public Preview users can now add modern site pages and mo
 ### Modern search experience
 SharePoint Server 2019 Public Preview now also offers a modern search experience. In the modern search experience, users see results before they start typing, and the results update as they type. The search results page shows a compelling overview of search results, grouped by type. It’s easy to expand to see all the results of each type, for example people or sites. On a people result, users can click the email address to quickly get started on an email to that person. The modern search experience is available from the SharePoint home page, modern sites, and modern document libraries.
 
-Both experiences use the same search index to find results. Search settings that impact what's indexed affect both experiences, except these settings:
-- Refinable. Modern search has built-in refiners.
-- Sortable. Not supported in modern search.
-- Custom entity extraction. Modern search has built-in refiners.
-- Company name extraction. Not supported in modern search. 
+Both experiences use the same search index to find results. Search settings that impact what's indexed, impact both experiences. The following settings do not impact modern search:
+- Refinable
+- Sortable
+- Custom entity extraction
+- Company name extraction 
 
 Only the classic search experience is customizable, and some of the customization settings also affect modern search:
 - Modern search also uses the default result source.
