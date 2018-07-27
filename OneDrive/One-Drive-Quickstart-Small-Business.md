@@ -13,7 +13,7 @@ description: "Learn how to set up OneDrive in your small business."
 
 # OneDrive QuickStart guide for small businesses
 
-This guide focuses on how to get OneDrive up and running in your business. Be sure to read the companion guide, OneDrive for small businesses, to learn about how OneDrive benefits your business.
+This guide focuses on how to get OneDrive up and running in your business. Be sure to read the companion guide, [OneDrive for small businesses](what-is-onedrive-small-business.md), to learn about how OneDrive benefits your business.
 
 ## OneDrive prerequisites
 

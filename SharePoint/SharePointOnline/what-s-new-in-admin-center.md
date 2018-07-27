@@ -22,7 +22,7 @@ description: "We're continuously adding new features to the new SharePoint admin
 We're continuously adding new features to the new SharePoint admin center (preview) and fixing issues we learn about. Here's a summary of what's included, and what's coming up. You can help us improve the admin center by sending us your suggestions and reporting bugs you encounter. In the lower-right corner of the admin center, click the **Feedback** button. 
   
 > [!NOTE]
-> The new SharePoint admin center (preview) is supported in Microsoft Edge, Internet Explorer, Chrome, Firefox, and Safari. <br>> Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Office 365](https://support.office.com/article/3b3adfa4-1777-4ff0-b606-fb8732101f47). This means that you may not yet see some features described in this article. 
+> The new SharePoint admin center (preview) is supported in Microsoft Edge, Internet Explorer, Chrome, Firefox, and Safari. <br>Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Office 365](https://support.office.com/article/3b3adfa4-1777-4ff0-b606-fb8732101f47). This means that you may not yet see some features described in this article. 
   
 ## Available now
 

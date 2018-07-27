@@ -15,7 +15,7 @@ description: OneDrive documentation
                         <a href="#home-all"></a>
                         <ul id="home-all" class="cardsC">
                             <li>
-                                <a href="/OneDrive/">
+                                <a href="/OneDrive/onedrive">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -25,7 +25,7 @@ description: OneDrive documentation
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Plan and deploy</h3>
+                                                    <h3>Plan, deploy, and manage</h3>
                                                     <p>Get the practical guidance you need to get the most out of OneDrive in your organization.</p>
                                                 </div>
                                             </div>
@@ -33,7 +33,7 @@ description: OneDrive documentation
                                     </div>
                                 </a>
                             </li>
-                            <li>
+                    <!--        <li>
                                 <a href="/OneDrive/onedrive">
                                     <div class="cardSize">
                                         <div class="cardPadding">
@@ -70,7 +70,7 @@ description: OneDrive documentation
                                         </div>
                                     </div>
                                 </a>
-                            </li>                
+                            </li>  -->              
                             <li>
                                 <a href="https://docs.microsoft.com/en-us/sharepoint/hybrid/plan-hybrid-onedrive-for-business">
                                     <div class="cardSize">
