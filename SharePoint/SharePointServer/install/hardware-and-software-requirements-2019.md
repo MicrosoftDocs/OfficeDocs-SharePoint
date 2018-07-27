@@ -117,10 +117,12 @@ One of the following server operating systems:
 > [!NOTE]
 > We don't support installing the Office 2019 client and SharePoint Server 2019 Public Preview on the same computer. 
 
-[!NOTE]
-The minimum supported version is Office 2010 client.
+> [!NOTE]
+> The minimum supported version is Office 2010 client.
   
- 
+> [!IMPORTANT]
+> The Microsoft SharePoint Products Preparation Tool might not be able to install **Microsoft .NET Framework version 3.5** automatically. In this case you need to manually install the **.NET Framework 3.5 Feature** Windows Feature as a prerequisite using the Windows Server install media.
+
 The Microsoft SharePoint Products Preparation Tool installs the following prerequisites on SharePoint servers in a farm:
   
 - Web Server (IIS) role
@@ -162,10 +164,10 @@ To configure by using PowerShell:
 
 From a PowerShell command prompt window, type:
 
-Install-WindowsFeature NET-HTTP-Activation,NET-Non-HTTP-Activ,NET-WCF-Pipe-Activation45,NET-WCF-HTTP-Activation45,Web-Server,Web-WebServer,Web-Common-Http,Web-Static-Content,Web-Default-Doc,Web-Dir-Browsing,Web-Http-Errors,Web-App-Dev,Web-Asp-Net,Web-Asp-Net45,Web-Net-Ext,Web-Net-Ext45,Web-ISAPI-Ext,Web-ISAPI-Filter,Web-Health,Web-Http-Logging,Web-Log-Libraries,Web-Request-Monitor,Web-Http-Tracing,Web-Security,Web-Basic-Auth,Web-Windows-Auth,Web-Filtering,Web-Performance,Web-Stat-Compression,Web-Dyn-Compression,Web-Mgmt-Tools,Web-Mgmt-Console,WAS,WAS-Process-Model,WAS-NET-Environment,WAS-Config-APIs,Windows-Identity-Foundation,Xps-Viewer -IncludeManagementTools -Verbose
+```Install-WindowsFeature NET-HTTP-Activation,NET-Non-HTTP-Activ,NET-WCF-Pipe-Activation45,NET-WCF-HTTP-Activation45,Web-Server,Web-WebServer,Web-Common-Http,Web-Static-Content,Web-Default-Doc,Web-Dir-Browsing,Web-Http-Errors,Web-App-Dev,Web-Asp-Net,Web-Asp-Net45,Web-Net-Ext,Web-Net-Ext45,Web-ISAPI-Ext,Web-ISAPI-Filter,Web-Health,Web-Http-Logging,Web-Log-Libraries,Web-Request-Monitor,Web-Http-Tracing,Web-Security,Web-Basic-Auth,Web-Windows-Auth,Web-Filtering,Web-Performance,Web-Stat-Compression,Web-Dyn-Compression,Web-Mgmt-Tools,Web-Mgmt-Console,WAS,WAS-Process-Model,WAS-NET-Environment,WAS-Config-APIs,Windows-Identity-Foundation,Xps-Viewer -IncludeManagementTools -Verbose```
 
-[!NOTE]
-Some Windows features being installed are “Features On Demand (FOD)”, which are downloaded from Windows Update.  If the computer doesn’t have access to Windows Update, you can specify local installation files by adding the **Source** parameter and pointing to the \sources\sxs folder on the Windows Server installation media.  For example:   -Source D:\sources\sxs
+> [!NOTE]
+> Some Windows features being installed are “Features On Demand (FOD)”, which are downloaded from Windows Update.  If the computer doesn’t have access to Windows Update, you can specify local installation files by adding the **Source** parameter and pointing to the \sources\sxs folder on the Windows Server installation media.  For example:   -Source D:\sources\sxs
 
     
 ## Optional software supported in SharePoint Server 2019 Public Preview
