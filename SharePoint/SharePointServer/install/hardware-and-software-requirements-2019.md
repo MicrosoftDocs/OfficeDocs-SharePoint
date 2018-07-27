@@ -121,7 +121,7 @@ One of the following server operating systems:
 > The minimum supported version is Office 2010 client.
   
 > [!IMPORTANT]
-> The Microsoft SharePoint Products Preparation Tool might not be install **Microsoft .NET Framework version 3.5** automatically. In this case you need to manually install the **.NET Framework 3.5 Feature** Windows Feature as a prerequisite using the Windows Server install media.
+> The Microsoft SharePoint Products Preparation Tool might not be able to install **Microsoft .NET Framework version 3.5** automatically. In this case you need to manually install the **.NET Framework 3.5 Feature** Windows Feature as a prerequisite using the Windows Server install media.
 
 The Microsoft SharePoint Products Preparation Tool installs the following prerequisites on SharePoint servers in a farm:
   
