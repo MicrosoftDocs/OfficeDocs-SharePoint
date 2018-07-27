@@ -19,13 +19,13 @@ ms.assetid:
 ---
 
 # Box to OneDrive Migration Guide
-This guide will help you prepare to migrate from Box to OneDrive and SharePoint in Office 365.
+This guide will help you prepare to migrate from Box to OneDrive in Office 365.
 
 Most migrations fall into regular phases as described below.  Proven success factors for migration include planning, assessing and remediating, preparing your target environment, migrating and onboarding your users. 
 
 ![SharePoint Migration Tool](media/Migration-process.png)
 
-|**Migration Planning**|**Assess and remediate**|**Prepare your OneDrive and SharePoint environment**|**Migrate**|**User onboarding**|
+|**Migration Planning**|**Assess and remediate**|**Prepare your OneDrive environment**|**Migrate**|**User onboarding**|
 |:-----|:-----|:-----|:-----|:-----|
 |What content goes where<br><br>Understanding permissions vs Sharing<br><br>What to expect before and after<br><br>Migration and network performance considerations<br><br>Change management and communications|Analyze Box admin reports<br><br>Assess key areas<br><br>Remediate issues|Pre-provision Office 365 and users|Review migration offerings<br><br>Microsoft FastTrack services<br><br>Migration service providers|Send regular emails to users<br><br>Provide training<br><br>Let users know how they are impacted<br><br>Provide documentation for making the switch|
 
