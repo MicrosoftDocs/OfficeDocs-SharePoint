@@ -17,9 +17,9 @@ description: "Learn how to view popularity trends for an item, page, site, or si
 
 # View Popularity Trends and Most Popular Items
 
-To identify usage trends and find out at what times activity is high or low, you can view **Popularity Trends** reports for a [View Popularity Trends for a site](view-popularity-trends-and-most-popular-items.md#__view_popularity_trends_1) or a [View Popularity Trends for a site collection](view-popularity-trends-and-most-popular-items.md#__view_popularity_trends_2). The reports show historical usage information, such as number of views (hits) and unique users per day or month. Popularity Trends for [View Popularity Trends for a page or item in a library](view-popularity-trends-and-most-popular-items.md#__view_popularity_trends) in a library show how many views the page or item has had recently. 
+To identify usage trends and find out at what times activity is high or low, you can view **Popularity Trends** reports for a [site](view-popularity-trends-and-most-popular-items.md#__view_popularity_trends_1) or a [site collection](view-popularity-trends-and-most-popular-items.md#__view_popularity_trends_2). The reports show historical usage information, such as number of views (hits) and unique users per day or month. Popularity Trends for [a page or item in a library](view-popularity-trends-and-most-popular-items.md#__view_popularity_trends) in a library show how many views the page or item has had recently. 
   
-You can also view the [View the Most Popular Items in a library](view-popularity-trends-and-most-popular-items.md#__view_the_most) in a library. You'll see which items have the most views, either recently or ever (from the first time the item became available.) 
+You can also view the [most popular items](view-popularity-trends-and-most-popular-items.md#__view_the_most) in a library. You'll see which items have the most views, either recently or ever (from the first time the item became available.) 
   
 ## View Popularity Trends for a site
 <a name="__view_popularity_trends_1"> </a>

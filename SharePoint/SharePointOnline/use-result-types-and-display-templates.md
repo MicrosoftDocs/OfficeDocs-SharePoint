@@ -23,7 +23,7 @@ By default, the Search Results Web Part in your Search Center is set up to use d
   
 For example, there's a display template for PowerPoint files and another display template for Word documents. A result type says that if the search term is found in a PowerPoint file, then use the PowerPoint display template when showing that result. The users can see right away that this result is a PowerPoint file, and they can also see other information that helps them see whether this result is what they're looking for. When users hover over the result, they'll see a preview of the PowerPoint in the hover panel, together with more details about it. The hover panel also lets users perform  *actions,*  such as **Edit** or **Send**. The same way, the result type for Word documents uses a Word display template to show information.
   
-**Results look different based on result type and display template. This picture shows item display templates for Word, PowerPoint and Excel on the left side, and a hover panel display template for PowerPoint on the right side.**
+Results look different based on result type and display template. This picture shows item display templates for Word, PowerPoint and Excel on the left side, and a hover panel display template for PowerPoint on the right side.
 
 ![Shows different display templates depending on result type](media/29d9c7d2-82d3-483d-9aa9-e298c6b6b0b0.png)
   
@@ -53,7 +53,7 @@ You can create your own display templates that show information that's important
   
 - For more information about managed properties, see [Manage the search schema in SharePoint Online](manage-search-schema.md).
     
-- - For information about the Search Center and how to set it up, see [Manage the Search Center in SharePoint Online](manage-search-center.md).
+- For information about the Search Center and how to set it up, see [Manage the Search Center in SharePoint Online](manage-search-center.md).
     
 - For a full list of available display templates, see **Display templates for the Search Results Web Part** in [Display template reference in SharePoint Server 2013](https://technet.microsoft.com/en-us/library/jj944947.aspx).
     

@@ -35,7 +35,7 @@ Search comes with relevant crawled properties mapped to managed properties. For 
 
 Each managed property has settings that determine how users can search for the content of that managed property, and how the content can be shown in the search results.
   
-You can create new, **custom** managed properties, but these can only contain text or Yes/No. If you need other content types in your custom managed property, then use one of the unused, ** built-in ** managed properties that search comes with. These managed properties can contain information in integer, decimal, date and time, double precision float, or binary format. You can "rename" these unused managed properties by using the alias setting. 
+You can create new, **custom** managed properties, but these can only contain text or Yes/No. If you need other content types in your custom managed property, then use one of the unused, **built-in** managed properties that search comes with. These managed properties can contain information in integer, decimal, date and time, double precision float, or binary format. You can "rename" these unused managed properties by using the alias setting. 
   
 For the built-in managed properties, you can change their mappings to crawled properties, but the only setting you can change is the alias.
   

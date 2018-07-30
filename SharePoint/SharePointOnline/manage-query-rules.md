@@ -94,7 +94,7 @@ You can create query rules at different levels: for the whole tenant, for a site
 
 A result block is several search results that are displayed as a group. Just as you do to promote a specific result, you can promote a result block when a specified query condition applies. 
   
-When you configure a query condition for a result block, you use  *query variables*  . Query variables are like placeholders for values that you don't yet know, when you specify the query. However, when the query's run, this information is available and the system uses it to send the query to the index. For example, {User.Name} stands for the display name of the user who typed in the query. Another one's {searchBoxQuery}, which stands for the query a user typed in a search box. When you use the Query Builder to configure the query, a list of query variables is shown. (See step 3 in the procedure right below.) 
+When you configure a query condition for a result block, you use  *query variables*. Query variables are like placeholders for values that you don't yet know, when you specify the query. However, when the query's run, this information is available and the system uses it to send the query to the index. For example, {User.Name} stands for the display name of the user who typed in the query. Another one's {searchBoxQuery}, which stands for the query a user typed in a search box. When you use the Query Builder to configure the query, a list of query variables is shown. (See step 3 in the procedure right below.) 
   
 1. In step 9 of the procedure [Create a query rule](manage-query-rules.md#__toc343764778), on the **Add Query Rule** page, in the **Actions** section, click **Add Result Block**.
     
@@ -109,9 +109,9 @@ When you configure a query condition for a result block, you use  *query variabl
   - If relevant, use property filters to query the content of managed properties that are set to queryable in the search schema. You can select managed properties from the **Property filter** drop-down list. Click **Add property filter** to add the filter to the query. 
     
     > [!NOTE]
-    > Custom managed properties are not shown in the **Property filter** list. To add a custom managed property to your query, in the ** Query text ** box, enter the name of your custom managed property followed by the query condition, for example  *MyCustomColorProperty:Green* 
+    > Custom managed properties are not shown in the **Property filter** list. To add a custom managed property to your query, in the **Query text** box, enter the name of your custom managed property followed by the query condition, for example  *MyCustomColorProperty:Green* 
   
-4. Specify how the search results within your result block should be sorted. Sorting of search results is case sensitive. On the **SORTING** tab, in the **Sort by drop-down list**, select a managed property, and then select **Descending** or **Ascending**. The list only contains managed properties that are set as sortable in the search schema. You can also sort by rank. To add more sorting levels, click ** Add sort level **.
+4. Specify how the search results within your result block should be sorted. Sorting of search results is case sensitive. On the **SORTING** tab, in the **Sort by drop-down list**, select a managed property, and then select **Descending** or **Ascending**. The list only contains managed properties that are set as sortable in the search schema. You can also sort by rank. To add more sorting levels, click **Add sort level**.
     
 5. If you chose to sort by rank, you can optionally:
     
@@ -135,14 +135,14 @@ When you configure a query condition for a result block, you use  *query variabl
     
 10. Click to expand the **Settings** section. 
     
-    The result block only displays the number of search results that you specified in the previous step. However, you can add a **Show more** link at the bottom of the result block that'll show all search results for the result block. To add a **Show more** link, select **"More" link goes to the following URL**, and then type a URL. You can use query variables in this URL—for example, http://www.\<site\>/search/results.aspx?k={subjectTerms}.
+    The result block only displays the number of search results that you specified in the previous step. However, you can add a **Show more** link at the bottom of the result block that'll show all search results for the result block. To add a **Show more** link, select **"More" link goes to the following URL**, and then type a URL. You can use query variables in this URL—for example, [http://www.\<site\>/search/results.aspx?k={subjectTerms}]( ).
     
 11. Click **OK**.
     
 ## Change ranked search results by changing the query
 <a name="__toc343764780"> </a>
 
-The ranking model calculates a ranking order of search results. You can change this ranking by promoting or demoting items within the search results. For example, for a query that contains "download toolbox," you can create a query rule that recognizes the word "download" as an action term. Once you've done this, you can change the ranked search results and this will promote the URL of a specific download site on your intranet. You can also dynamically change the sorting order of the search results, based on several variables such as file name extension or specific keywords. When you change ranked search results by changing the query, you'll see that your results are security trimmed and refinable. Moreover, the search results don't show up if the document's no longer there.
+The ranking model calculates a ranking order of search results. You can change this ranking by promoting or demoting items within the search results. For example, for a query that contains "download toolbox", you can create a query rule that recognizes the word "download" as an action term. Once you've done this, you can change the ranked search results and this will promote the URL of a specific download site on your intranet. You can also dynamically change the sorting order of the search results, based on several variables such as file name extension or specific keywords. When you change ranked search results by changing the query, you'll see that your results are security trimmed and refinable. Moreover, the search results don't show up if the document's no longer there.
   
 1. In step 9 of the procedure [Create a query rule](manage-query-rules.md#__toc343764778), on the **Add Query Rule** page, in the **Actions** section, click **Change ranked results by changing the query**. The **build your query** dialog box appears 
     
@@ -154,7 +154,7 @@ The ranking model calculates a ranking order of search results. You can change t
     
   - If relevant, use property filters to query the content of managed properties that are set to queryable in the search schema. You can select managed properties from the **Property filter** drop-down list. Click **Add property filter** to add the filter to the query. 
     
-3. Specify how the search results within your result block should be sorted. Sorting of search results is case sensitive. On the **SORTING** tab, in the **Sort by drop-down list**, select a managed property, and then select **Descending** or **Ascending**. The list only contains managed properties that are set as sortable in the search schema. You can also sort by rank. To add more sorting levels, click ** Add sort level **.
+3. Specify how the search results within your result block should be sorted. Sorting of search results is case sensitive. On the **SORTING** tab, in the **Sort by drop-down list**, select a managed property, and then select **Descending** or **Ascending**. The list only contains managed properties that are set as sortable in the search schema. You can also sort by rank. To add more sorting levels, click **Add sort level**.
     
 4. If you chose to sort by rank, you can optionally:
     

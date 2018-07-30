@@ -17,7 +17,7 @@ description: "Learn how to customize the Search Center pages to improve the end 
 
 # Manage the Search Center in SharePoint Online
 
-A Search Center is where users enter search queries and view the search results. In SharePoint Online, a Search Center site is automatically available at \<host_name\>/search/. You'll have a default search home page and a default search results page. In addition, there are several pages known as search verticals. Search verticals are customized for searching specific content, such as People, Conversations, and Videos. Search verticals display search results that are filtered and formatted for a specific content type or class.
+A Search Center is where users enter search queries and view the search results. In SharePoint Online, a Search Center site is automatically available at *\<host_name\>/search/*. You'll have a default search home page and a default search results page. In addition, there are several pages known as search verticals. Search verticals are customized for searching specific content, such as People, Conversations, and Videos. Search verticals display search results that are filtered and formatted for a specific content type or class.
   
 ## Search Center pages
 <a name="__top"> </a>
@@ -40,7 +40,7 @@ As a SharePoint Online administrator, you can also create your own pages and add
 
 The Search Center pages contain the following predefined Web Parts: Search Box Web Part, Search Results Web Part, Search Navigation Web Part, and Refinement Web Part.
   
-By default, the Web Parts on the search result pages are set up the same way. The only difference is that the query in the **Search Results**Web Part is directed to different result sources for each search vertical page. For example, for the **People** search vertical page, the query in the **Search Results** Web Part is limited to the **Local People Results**result source. For the **Videos** search vertical page, the query in the **Search Results** Web Part is limited to the **Local Video Results** **.**
+By default, the Web Parts on the search result pages are set up the same way. The only difference is that the query in the **Search Results** Web Part is directed to different result sources for each search vertical page. For example, for the **People** search vertical page, the query in the **Search Results** Web Part is limited to the **Local People Results** result source. For the **Videos** search vertical page, the query in the **Search Results** Web Part is limited to the **Local Video Results** **.**
   
 For information about how to customize the Search Center Web Parts, see the following articles:
   
