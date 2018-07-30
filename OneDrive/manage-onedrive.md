@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: one-drive
 localization_priority: Normal
 description: "Learn how to manage OneDrive in an an enterprise."
-...
+---
 
 # Manage OneDrive
 

@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: one-drive
 localization_priority: Normal
 description: "Learn how to deploy OneDrive in an an enterprise."
-...
+---
 
 # Deploy OneDrive for enterprises
 
