@@ -8,7 +8,7 @@ ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
-robots: noindex
+ROBOTS: NOINDEX
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top

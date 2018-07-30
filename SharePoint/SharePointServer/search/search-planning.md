@@ -10,14 +10,16 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: e8c0fccd-8364-4352-8778-c9c46a668b70
-description: "Summary: Create a well-designed plan to install and configure search in SharePoint Server 2016 or SharePoint Server 2013."
+description: "Summary: Create a well-designed plan to install and configure search in SharePoint Server."
 ---
 
 # Plan search in SharePoint Server
 
- **Summary:** Create a well-designed plan to install and configure search in SharePoint Server 2016 or SharePoint Server 2013. 
+ **Summary:** Create a well-designed plan to install and configure search in SharePoint Server. 
   
 The following articles provide information about the planning you need to do to deploy search in SharePoint Server.
+
+
   
 ## Articles about planning search
 
