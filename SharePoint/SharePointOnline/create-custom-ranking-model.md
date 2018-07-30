@@ -21,7 +21,7 @@ description: "If the standard SharePoint 2013 ranking models don't satisfy the r
 
 # Create a custom ranking model by using the Ranking Model Tuning App
 
-If the standard SharePoint 2013 ranking models don't satisfy the relevance requirements you have, you can create a custom ranking model. With the Ranking Model Tuning App, you can do this more easily than before. The app provides a user interface for copying an existing ranking model, judge the results for a set of queries, add or remove rank features, and adjust the weight of these features. Finally, you can evaluate the changes, and publish the new ranking model when you're satisfied with the results.
+If the standard ranking models don't satisfy the relevance requirements you have, you can create a custom ranking model. With the Ranking Model Tuning App, you can do this more easily than before. The app provides a user interface for copying an existing ranking model, judge the results for a set of queries, add or remove rank features, and adjust the weight of these features. Finally, you can evaluate the changes, and publish the new ranking model when you're satisfied with the results.
   
 ## Why create a custom ranking model?
 <a name="__toc369771593"> </a>
@@ -148,7 +148,7 @@ When you've gone through and evaluated the queries in the judgment set, you'll s
 |**This column**|**Shows the following information**|
 |:-----|:-----|
 |Query text  <br/> |The queries in the judgment set.  <br/> |
-|Judgment coverage  <br/> |The percentage of document URLs in the current top ten that have been rated.  <br/> > [!NOTE]>  Relevance metrics are only reliable when the judgment coverage is high. To increase coverage, judge more of the results for the query.           |
+|Judgment coverage  <br/> |The percentage of document URLs in the current top ten that have been rated.  <br/> **NOTE:** Relevance metrics are only reliable when the judgment coverage is high. To increase coverage, judge more of the results for the query.           |
 |Relevance vs. Base ranking  <br/> |After you've made changes to the ranking model, this figure shows how much relevance has improved for the query with the new ranking model compared to the base model. If the score is 0.00%, there's no difference between the two models for that query. If the score is negative, relevance has decreased.  <br/> |
 |Vs. Saved model  <br/> |The app keeps a draft version of the ranking model while you work on it. You can compare the current draft version to the last saved version of the new ranking model.  <br/> This figure shows how much relevance has improved or decreased with the current draft of the model compared to the last saved version.  <br/> |
    

@@ -60,9 +60,7 @@ By default, a site has the same search settings as the site collection that the 
     
 3. To change which search result page queries are sent to, in the section **Which search results page should queries be sent to?**, clear **Use the same results page settings as my parent**, and then select one of the following: 
     
-  - **Send queries to a custom results page URL**. 
-  
-Enter the URL. Custom URLs can be relative or absolute, and can also include special tokens, such as {SearchCenterURL}. 
+  - **Send queries to a custom results page URL**. Enter the URL. Custom URLs can be relative or absolute, and can also include special tokens, such as {SearchCenterURL}. 
     
     Example: /SearchCenter/Pages/results.aspx or http://server/sites/SearchCenter/Pages/results.aspx.
     
@@ -76,7 +74,7 @@ Enter the URL. Custom URLs can be relative or absolute, and can also include spe
     
   - Add a search vertical
     
-    See the article [Change settings for the Search Navigation Web Part](search-navigation-web-part.md) for steps. 
+    See [Change settings for the Search Navigation Web Part](search-navigation-web-part.md) for steps. 
     
 5. Click **OK**.
     
