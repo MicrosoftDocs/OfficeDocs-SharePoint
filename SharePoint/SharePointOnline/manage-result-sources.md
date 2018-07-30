@@ -83,7 +83,7 @@ You can create your own result sources, or use the predefined result sources. Af
 |**Choose this option**|**To do this**|
 |:-----|:-----|
 |Keyword filter  <br/> |Use keyword filters to add predefined query variables to the query transform. Select query variables from the list, and add them to the query by clicking **Add keyword filter**.  <br/> |
-|Property filter  <br/> |Use property filters to query the content of managed properties that are set to **queryable** in the search schema.  <br/> Select managed properties from the **Property filter** list. Click **Add property filter** to add the filter to the query.  <br/> > [!NOTE]> Custom managed properties are not shown in the **Property filter** list. To add a custom managed property to your query, in the ** Query text ** box, enter the name of your custom managed property followed by the query condition, for example  *MyCustomColorProperty:Green*           |
+|Property filter  <br/> |Use property filters to query the content of managed properties that are set to **queryable** in the search schema.  <br/> Select managed properties from the **Property filter** list. Click **Add property filter** to add the filter to the query. </br>**NOTE**: Custom managed properties are not shown in the **Property filter** list. To add a custom managed property to your query, in the **Query text** box, enter the name of your custom managed property followed by the query condition, for example *MyCustomColorProperty:Green*           |
    
 ### The SORTING tab
 

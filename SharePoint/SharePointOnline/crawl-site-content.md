@@ -40,11 +40,7 @@ In SharePoint Online, content is automatically crawled based on a defined crawl 
     
 2. In the ribbon, click the **Library** tab or the **List** tab. 
     
-3. In the **Library** ribbon, choose **Library Settings**,
-  
-or,
-    
-In the **List** ribbon choose **List Settings**.
+3. In the **Library** ribbon, choose **Library Settings**. Or, in the **List** ribbon, choose **List Settings**.
   
 1. On the Settings page, under **General Settings**, choose **Advanced settings**.
     

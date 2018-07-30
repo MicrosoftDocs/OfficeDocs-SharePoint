@@ -186,10 +186,8 @@ If managed properties or aliases contain any of the listed characters, the impor
 |~  <br/> |tilde  <br/> |
 |\<  <br/> |opening angle bracket  <br/> |
 |\>  <br/> |closing angle bracket  <br/> |
-||  <br/> |pipe  <br/> |
+|\|  <br/> |pipe  <br/> |
 |`  <br/> |grave accent  <br/> |
 |^  <br/> |caret  <br/> |
 |\'  <br/> |escape sequence  <br/> |
 |\"  <br/> |escape sequence  <br/> |
-   
-
