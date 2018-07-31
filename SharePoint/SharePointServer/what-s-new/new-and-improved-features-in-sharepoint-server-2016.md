@@ -164,7 +164,7 @@ This new feature provides templates that work at same level as SQL Server, which
 SharePoint has historically blocked file names that included the **&amp;**, **~**, **{**, and **}** characters, file names that contained a **GUID**, file names with leading dots, and file names longer than 128 characters. These restrictions are removed in SharePoint Server 2016 and are now available to use. 
   
 > [!IMPORTANT]
-> Restricted characters such as **%** and **#** are still not allowed in file names. 
+> Restricted characters such as **%** and **#** are still not allowed in file names. Page file names, such as wiki pages, may not contain the following characters: " # % * : < > ? \ / | nor can they begin with a leading dot (period) character.
   
 ### Hybrid in SharePoint Server 2016
 <a name="hybrid"> </a>
