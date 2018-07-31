@@ -36,10 +36,11 @@ The PowerShell cmdlets provide the same functionalities as [SharePoint Migration
 |RAM|16 GB|
 |Local Storage|Hard disk: 150 GB free space|
 |Operating system|Windows Server 2016 Standard or Datacenter<br>Windows Server 2012 R2<br>Windows 10 client<br>.Net Framework 4.6.2|
-|Microsoft Visual C++ 2015 Redistributable|Required for OneNote migration|
+|Microsoft Visual C++ 2015 Redistributable|Required for OneNote migration|<br/>
 
-> [!NOTE]
-> PowerShell 5.0 and .NET 4.6.2 are required to support migration of file paths up to 400 characters. 
+
+> [!IMPORTANT]
+> PowerShell 5.0 and .NET Framework 4.6.2 or higher are required to support the migration of file paths of up to 400 characters. 
 
 ### Minimum requirements (expect slow performance)
 
@@ -51,6 +52,8 @@ The PowerShell cmdlets provide the same functionalities as [SharePoint Migration
 |Network card  <br/> |High-speed Internet connection  <br/> |
 |Operating system  <br/> |Windows Server 2008 R2<br>Windows 7<br>Windows 8 or 8.1<br/> .NET Framework 4.6.2  <br/> |
 |Microsoft Visual C++ 2015 Redistributable  <br/> |Required for OneNote migration.|  <br/> 
+|PowerShell|Powershell 5.0 or higher required to support migration of file paths of up to 400 characters.|<br/>
+
  
 ### Before you begin
 
