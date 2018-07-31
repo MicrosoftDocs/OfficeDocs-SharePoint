@@ -70,23 +70,23 @@ After a session is registered, you can add a task to the session and start migra
 
   
 ### Add a migration task
-- **[Add-SPMTTask](https://docs.microsoft.com/en-us/powershell/module/spmt/Add-SPMTTask.md)**<br>
+- **[Add-SPMTTask](https://docs.microsoft.com/en-us/powershell/module/spmt/Add-SPMTTask)**<br>
 Use this cmdlet to add a new migration task to the registered migration session. Currently there are three different types of tasks allowed:  File share task, SharePoint task and JSON defined task.  Note:  Duplicate tasks are not allowed.
   
  
   
 ### Remove a task
-- **[Remove-SPMTTask](https://docs.microsoft.com/en-us/powershell/module/spmt/Remove-SPMTTask.md)**<br>
+- **[Remove-SPMTTask](https://docs.microsoft.com/en-us/powershell/module/spmt/Remove-SPMTTas)**<br>
 Use this cmdlet to remove an existing migration task from the registered migration.
 
 
   
 ### Start your migration
-- **[Start-SPMTMigration](https://docs.microsoft.com/en-us/powershell/module/spmt/Start-SPMTTask.md)**<br>
+- **[Start-SPMTMigration](https://docs.microsoft.com/en-us/powershell/module/spmt/Start-SPMTTask)**<br>
 This cmdlet will start the registered SPMT migration.
  
 ### Return the object of current session
-- **[Get-SPMTMigration](https://docs.microsoft.com/en-us/powershell/module/spmt/Get-SPMTMigration.md)**<br>
+- **[Get-SPMTMigration](https://docs.microsoft.com/en-us/powershell/module/spmt/Get-SPMTMigration)**<br>
 Return the object of the current session. This includes the status of current tasks and current session level settings. Current task status includes:
      - Count of scanned files
      - Count of migrated files
@@ -94,16 +94,16 @@ Return the object of the current session. This includes the status of current ta
 
 
 ### Stop your current migration
-- **[Stop-SPMTMigration](https://docs.microsoft.com/en-us/powershell/module/spmt/Stop-SPMTMigration.md)**<br>
+- **[Stop-SPMTMigration](https://docs.microsoft.com/en-us/powershell/module/spmt/Stop-SPMTMigration)**<br>
 This cmdlet will cancel the current migration. 
 
 
 ### Show your migration status details in the console
-- **[Show-SPMTMigration](https://docs.microsoft.com/en-us/powershell/module/spmt/Show-SPMTMigration.md)**<br>
+- **[Show-SPMTMigration](https://docs.microsoft.com/en-us/powershell/module/spmt/Show-SPMTMigration)**<br>
 If you start the migration in *NoShow* mode, running the **Show-SPMTMigration** cmdlet will display the task ID, data source location, target location and migration status in the console. Pressing Ctrl+C will return to *NoShow* mode.  
 
 ### Remove the migration session
-- **[Unregister-SPMTMigration](https://docs.microsoft.com/en-us/powershell/module/spmt/Unregister-SPMTMigration.md)**<br>
+- **[Unregister-SPMTMigration](https://docs.microsoft.com/en-us/powershell/module/spmt/Unregister-SPMTMigration)**<br>
 Use this cmdlet to delete the migration session. 
 
 ## Sample Scenarios
@@ -149,3 +149,79 @@ Example 2: IT admin wants to bring the migration from the background “NoShow m
 Show-SPMTMigration 
 ```
 
+Example 3:  
+ 
+IT Admin wants to do a bulk migration by loading a .csv file.  The sample file in this example is SPMT.csv.
+
+```Powershell
+Load CSV;
+$csvItems = import-csv "C:\spmt.csv" -Header c1,c2,c3,c4,c5,c6
+ForEach ($item in $csvItems)
+{
+    Write-Host $item.c1
+    Add-SPMTTask -FileShareSource $item.c1 -TargetSiteUrl $item.c4 -TargetList $item.c5 -TargetListRelativePath $item.c6
+} 
+Two migration tasks are defined in the file of spmt.csv.
+D:\MigrationTest\Files\Average_1M\c,,,https://SPOSite.sharepoint.com,Documents,Test C:\work\Powershell\negative,,,https://SPOSite.sharepoint.com/,Documents,DocLibrary_SubfolderName
+Code snippets for bulk migration by loading one JSON file:
+ 
+Load JSON:
+$jsonItems = Get-Content -Raw -Path  "C:\spmt.json" | ConvertFrom-Json        
+ForEach ($taskItem in $jsonItems.Tasks)
+{
+    $jsonString = ConvertTo-Json $taskItem -Depth 100
+    Add-SPMTTask -JsonDefinition $jsonString -SharePointSourceCredential $onpremCredential            
+} 
+Three migration tasks are defined in the file of spmt.json.
+{
+   "Tasks":[
+      {
+         "SourcePath":"http://On-prem/sites/test",
+         "TargetPath":"https://YourSPO.sharepoint.com",
+         "Items":{
+            "Lists":[
+               {
+                  "SourceList":"list-01",
+                  "TargetList":"list-01"
+               }
+            ],
+            "SubSites":[
+ 
+            ]
+         }
+      },
+      {
+         "SourcePath":"http://On-prem/sites/test",
+         "TargetPath":"https://YourSPO.sharepoint.com",
+         "Items":{
+            "Lists":[
+               {
+                  "SourceList":"list-02",
+                  "TargetList":"list-02"
+               }
+            ],
+            "SubSites":[
+ 
+            ]
+         }
+      },
+      {
+         "SourcePath":"http://On-prem/sites/test",
+         "TargetPath":"https://YourSPO.sharepoint.com",
+         "Items":{
+            "Lists":[
+               {
+                  "SourceList":"doclib-01",
+                  "TargetList":"doclib-01"
+               }
+            ],
+            "SubSites":[
+ 
+            ]
+         }
+      }
+   ]
+}
+ 
+ ```
+ 
