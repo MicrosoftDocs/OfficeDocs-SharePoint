@@ -70,13 +70,13 @@ After a session is registered, you can add a task to the session and start migra
 
   
 ### Add a migration task
-- **[Add-SPMTTask](https://docs.microsoft.com/en-us/powershell/module/spmt/Add-SPMTTask)**<br>
+- **[Add-SPMTTask(https://docs.microsoft.com/en-us/powershell/module/spmt/Add-SPMTTask)**<br>
 Use this cmdlet to add a new migration task to the registered migration session. Currently there are three different types of tasks allowed:  File share task, SharePoint task and JSON defined task.  Note:  Duplicate tasks are not allowed.
   
  
   
 ### Remove a task
-- **[Remove-SPMTTask](https://docs.microsoft.com/en-us/powershell/module/spmt/Remove-SPMTTas)**<br>
+- **[Remove-SPMTTask](https://docs.microsoft.com/en-us/powershell/module/spmt/Remove-SPMTTask)**<br>
 Use this cmdlet to remove an existing migration task from the registered migration.
 
 
