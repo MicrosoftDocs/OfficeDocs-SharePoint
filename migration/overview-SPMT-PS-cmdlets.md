@@ -82,7 +82,7 @@ Use this cmdlet to remove an existing migration task from the registered migrati
 
   
 ### Start your migration
-- **[Start-SPMTMigration](https://docs.microsoft.com/en-us/powershell/module/spmt/Start-SPMTTask)**<br>
+- **[Start-SPMTMigration](https://docs.microsoft.com/en-us/powershell/module/spmt/start-spmtmigration)**<br>
 This cmdlet will start the registered SPMT migration.
  
 ### Return the object of current session
