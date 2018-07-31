@@ -65,18 +65,18 @@ The PowerShell cmdlets provide the same functionalities as [SharePoint Migration
 ### Create and initialize a migration session
 <a name="Step1CreateInitialize"> </a>
 
-- **[Register-SPMTMigration](https://docs.microsoft.com/en-us/powershell/module/spmt/Register-SPMigration)**<br> This cmdlet creates and then initializes a migration session. The initialization configures migration settings at the session level. If no specific setting parameters are defined, default settings will be used. 
+- **[Register-SPMTMigration](https://docs.microsoft.com/en-us/powershell/module/spmt/register-spmtmigration)**<br> This cmdlet creates and then initializes a migration session. The initialization configures migration settings at the session level. If no specific setting parameters are defined, default settings will be used. 
 After a session is registered, you can add a task to the session and start migration.
 
   
 ### Add a migration task
-- **[Add-SPMTTask(https://docs.microsoft.com/en-us/powershell/module/spmt/Add-SPMTTask)**<br>
+- **[Add-SPMTTask](https://docs.microsoft.com/en-us/powershell/module/spmt/Add-SPMTTask)**<br>
 Use this cmdlet to add a new migration task to the registered migration session. Currently there are three different types of tasks allowed:  File share task, SharePoint task and JSON defined task.  Note:  Duplicate tasks are not allowed.
   
  
   
 ### Remove a task
-- **[Remove-SPMTTask](https://docs.microsoft.com/en-us/powershell/module/spmt/Remove-SPMTTask)**<br>
+- **[Remove-SPMTTask](https://docs.microsoft.com/en-us/powershell/module/spmt/Remove-SPMTtask)**<br>
 Use this cmdlet to remove an existing migration task from the registered migration.
 
 
