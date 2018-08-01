@@ -3,7 +3,6 @@ title: "Turn external sharing on or off for SharePoint Online"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 6/5/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
@@ -54,13 +53,21 @@ Turning external sharing on at the organization level means that site collection
    
 ### Additional settings
 
- **Set a default link type**
+**Specify who can share outside your organization**
+
+You can manage who can send sharing invitations to external users by limiting such sharing to members of a specified security group. Select  **Let only users in selected security groups share with authenticated external users** or **Let only users in selected security groups share with authenticated external users and using anonymous links** and specify the security group that you want to use.
+
+![Screenshot of settings for who can share outside your organization](media/WhoCanShareOutsideYourOrganization.png)
+
+**Set a default link type and default permissions**
   
-To better manage the type of links users share, you can set the default type of link that shows when users select **Get a link** to share documents and folders. 
+To better manage the type of links users share, you can set the default type of link - and the permissions for that link - that shows when users select **Get a link** to share documents and folders. 
   
 ![Default link type dialog box](media/4dc58d77-dccd-474f-b0fb-8ff8b3f1c088.png)
   
-The most permissive types of links, of course, are Anonymous Access links which grant access to anyone who has the link. Internal links can be used only by users within your organization, and Direct links are accessible only by users who already have permission to access the document or folder. For more information, see [Change the default link type when users get links for sharing](change-default-sharing-link.md).
+The most permissive types of links, of course, are Anonymous Access links (Anyone links) which grant access to anyone who has the link. Internal links can be used only by users within your organization, and Direct links are accessible only by users who already have permission to access the document or folder. For more information, see [Change the default link type when users get links for sharing](change-default-sharing-link.md).
+
+Note that these options provide a default setting for the sites in your organization, but site owners can choose different default link types and permissions for each site if they choose to.
   
  **Additional settings**
   
