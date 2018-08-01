@@ -240,7 +240,8 @@ Follow these steps to set up a separate Search Center in Office 365:
     
 4. Set up access so only testers and administrators have access to the second Office 365 Search Center.
     
-Here's an example of a validation environment:![The illustration shows how content enters the Office 365 index from both a SharePoint Server content farm and from Office 365. The standard search center in Office 365 only retrieves Office 365 results from the search index, while the validation search ce](../media/9f9528f3-ee79-46b2-8113-d7b10be675ba.png)
+Here's an example of a validation environment:
+![The illustration shows how content enters the Office 365 index from both a SharePoint Server content farm and from Office 365. The standard search center in Office 365 only retrieves Office 365 results from the search index, while the validation search ce](../media/9f9528f3-ee79-46b2-8113-d7b10be675ba.png)
   
 1. On-premises content. During crawl, content is added to the Office 365 index.
     
