@@ -222,7 +222,7 @@ The following procedures provide methods to connect to the new SQL Server instan
     
   - The **db_owner** fixed database role 
     
-3. Start the SQL Server Client Network Utility (cliconfg.exe). This utility is typically located in the C:\Windows\SysWOW64 folder.
+3. Start the SQL Server Client Network Utility (cliconfg.exe). This utility is typically located in the C:\Windows\SysWOW64 and C:\Windows\System32 folder.
     
 4. On the **General** tab, verify that TCP/IP is enabled.
     
