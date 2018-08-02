@@ -44,7 +44,7 @@ The following Known Folder Move policies are rolling out. If you don't see them 
   
 - [Silently redirect Windows known folders to OneDrive](use-group-policy.md#OptInNoWizard)
     
-    Use this policy to redirect your users' known folders to OneDrive without user interaction. (You can choose to display a notification to users after their folders have been redirected.) This policy works when all known folders are empty, and on folders redirected to a different OneDrive account. We recommend using this policy together with "Prompt users to move Windows known folders to OneDrive."
+    Use this policy to redirect your users' known folders to OneDrive without user interaction. (You can choose to display a notification to users after their folders have been redirected.) This policy works when all known folders on the local PC are empty, and on folders redirected to a different OneDrive account. We recommend using this policy together with "Prompt users to move Windows known folders to OneDrive."
     
     When you enable this policy, future releases will no longer check for empty known folders. Instead, known folders will be redirected and content within them will be moved.
     
