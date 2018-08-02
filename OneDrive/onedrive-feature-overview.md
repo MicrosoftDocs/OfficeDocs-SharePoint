@@ -28,9 +28,7 @@ OneDrive provides a robust but simple-to-use cloud storage platform for small bu
 
 -   **Protect your files with enterprise-grade security.** OneDrive has many security and compliance features, enabling you to meet some of the strictest compliance requirements out there.
 
-The Microsoft 365 family of products, which includes Office, Microsoft Outlook, SharePoint, Teams, OneDrive, and Yammer, provides a complete, intelligent, and secure solution to empower employees. Together, the Microsoft 365 applications unlock creativity and encourage teamwork through product integration and a simple user experience, all while providing intelligent security to help keep your data safe. In addition, Microsoft Graph enables you to interact with and report on the data within many of the Microsoft 365 applications. The illustration below shows what this and other shared capabilities among these products look like.
-
-![Infographic showing Teams, Yammer, OneDrive, SharePoint, Office Apps, and Outlook as tools for teamwork](media/onedrive-feature-overview_image1.png)
+The Microsoft 365 family of products, which includes Office, Microsoft Outlook, SharePoint, Teams, OneDrive, and Yammer, provides a complete, intelligent, and secure solution to empower employees. Together, the Microsoft 365 applications unlock creativity and encourage teamwork through product integration and a simple user experience, all while providing intelligent security to help keep your data safe. In addition, Microsoft Graph enables you to interact with and report on the data within many of the Microsoft 365 applications. 
 
 ## Key OneDrive features
 
