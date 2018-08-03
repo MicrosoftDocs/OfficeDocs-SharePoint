@@ -64,7 +64,8 @@ Refer to the following table in step 3.
   Get-SPWebApplication | Get-SPSite -Limit All | Format-Table -Property URL,ContentDatabase
   ```
 
-    This command displays the URLs of all the web applications in a server farm and the site collections in each web application.
+  > [!NOTE]
+  > This command displays the URLs of all the web applications in a server farm and the site collections in each web application.
     
 For more information, see [Get-SPWebApplication](https://technet.microsoft.com/en-us/library/ff607562%28v=office.16%29.aspx) and [Get-SPSite](https://technet.microsoft.com/en-us/library/ff607950%28v=office.16%29.aspx). We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions.
   
