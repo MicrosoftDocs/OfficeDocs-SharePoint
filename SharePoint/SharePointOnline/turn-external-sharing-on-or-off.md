@@ -50,7 +50,10 @@ Turning external sharing on at the organization level means that site collection
 |**Allow sharing only with the external users that already exist in your organization's directory** <br/> |Allow sharing only for external users who are already in your directory. These users may exist in your directory because they previously accepted sharing invitations or because they were manually imported, such as through [Azure B2B collaboration](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b). (You can tell an external user because they have **#EXT#** in their user name.)  <br/> |
 |**Allow users to invite and share with authenticated external users** <br/> | Require external users who have received invitations to view sites or content to sign-in with a Microsoft account before they can access the content.  <br/>  Site owners or others with full control permission can share sites with external users.  <br/>  Site owners or others with full control permissions on a site can share documents with external users.  <br/>  All external users will be required to sign in before they can view content.  <br/>  Invitations to view content can be redeemed only once. After an invitation has been accepted, it cannot be shared or used by others to gain access.  <br/> |
 |**Allow sharing to authenticated external users and using anonymous access** <br/> (Optionally, you can set links to expire in a specific number of days, and select how recipients can use the links .)  <br/> | Allow site users to share sites with people who sign in as authenticated users, but you also want to allow site users to share documents through the use of anonymous guest links, which do not require invited recipients to sign in.  <br/>  Site owners or others with full control permissions can share sites with external users.  <br/>  All external users will be required to sign in before they can view content on a site that has been shared.  <br/>  When sharing documents, site owners or others with full control permissions can opt to require sign-in or send an anonymous guest link.  <br/>  When users share a document, they can grant external users either view or edit permissions to the document.  <br/>  External users who receive anonymous guest links can view or edit that content without signing in.  <br/>  Anonymous guest links could potentially be forwarded or shared with other people, who might also be able to view or edit the content without signing in.  <br/> |
-   
+
+> [!NOTE]
+>  If you turn off external sharing for your entire environment and later turn it back on, external users who previously had access to content or documents on sites will regain access to them. If you know that external sharing was previously turned on and in use for specific site collections and you do not want external users to be able to regain access if external sharing is ever turned on again globally, we recommend that you first turn off external sharing for those specific site collections.<br><br> If you disable external access, or limit external access to a more restrictive form, external users will typically lose access within one hour of the change. If you disable external access, access to resources will also be blocked to guest members of Office 365 Groups. 
+
 ### Additional settings
 
 **Specify who can share outside your organization**
@@ -86,14 +89,12 @@ When you choose to allow users to share outside your organization, you have some
 To help your OneDrive for Business users monitor and control which external users have access to their files, you can specify that owners of OneDrive for Business files and folders are emailed when:
   
 - Another user invites external users to shared files
-    
-- An external user accepts an invitation to access their files
-    
+
 - An anonymous access link is created or changed.
-    
+
 > [!NOTE]
->  If you turn off external sharing for your entire environment and later turn it back on, external users who previously had access to content or documents on sites will regain access to them. If you know that external sharing was previously turned on and in use for specific site collections and you do not want external users to be able to regain access if external sharing is ever turned on again globally, we recommend that you first turn off external sharing for those specific site collections. If you disable external access, or limit external access to a more restrictive form, external users will typically lose access within one hour of the change. <br>If you disable external access, access to resources will also be blocked to guest members of Office 365 Groups. 
-  
+> The **External users accept invitations to access files** notification no longer works for the new sharing experience that appears in most places. This setting will be removed.
+    
 ## Turn external sharing on or off for individual site collections
 <a name="__toc332198786"> </a>
 
