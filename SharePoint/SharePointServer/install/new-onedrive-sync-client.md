@@ -40,7 +40,7 @@ To set up OneDrive with SharePoint Server 2019, configure the following Group Po
 The URL will help the sync client locate the SharePoint Server and allows the sync client to authenticate and set up sync. The tenant folder name lets you specify the name of the root folder that will be created in File Explorer. If you don’t supply a tenant name, the sync client will use the first segment of the URL as the name. For example, office.sharepoint.com would become “Office.”
 2.	SharePoint prioritization setting for hybrid customers that use SharePoint Online (SPO) and SharePoint on-premises server
 This setting lets you specify if the sync client should authenticate against SharePoint Online or the SharePoint on-premises server if the identity exists in both identity providers.
- [Learn how to manage OneDrive using Group Policy](use-group-policy.md)
+ [Learn how to manage OneDrive using Group Policy](https://docs.microsoft.com/onedrive/use-group-policy.md)
   
 ## Differences between syncing files in SharePoint Server and SharePoint Online
 
