@@ -61,7 +61,7 @@ Refer to the following table in step 3.
 3. At the PowerShell command prompt, type the following command, and then press ENTER:
     
   ```
-  Get-SPWebApplication -Limit All | Get-SPSite | Format-Table -Property URL,ContentDatabase
+  Get-SPWebApplication | Get-SPSite -Limit All | Format-Table -Property URL,ContentDatabase
   ```
 
     This command displays the URLs of all the web applications in a server farm and the site collections in each web application.
