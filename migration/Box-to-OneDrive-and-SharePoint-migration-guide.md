@@ -143,11 +143,7 @@ You may decide that your organization has specific business needs that require y
 
 There is an important distinction between permissions and sharing. 
 
-**Permissions** determine the level of access a user has to content – whether they can view, edit, or have no access at all. 
-
-Generally, users have *permissions* to a lot of content (your company portals, for example), but have had much less content explicitly *shared* with them. 
-
-Permissions for both services are defined by assigned roles.  The following table maps your current Box roles with OneDrive:
+**Permissions** determine the level of access a user has to content – whether they can view, edit, or have no access at all. Generally, users have *permissions* to a lot of content (your company portals, for example), but have had much less content explicitly *shared* with them. Permissions for both services are defined by assigned roles.  The following table maps your current Box roles with OneDrive:
 
 |**Box Roles**|**OneDrive Roles**|
 |:-----|:-----|
@@ -171,8 +167,8 @@ Microsoft’s recommendation is to not handle external sharing during the act of
 - Audit external permissions on the Box content source using the Collaborations report (generated through the Box Admin Console)
 - Determine whether that content is worthy to remain externally shared
 - If you decide the content is to remain externally shared, determine whether that content is suited for OneDrive or team libraries based on the *"What content goes where"* above guidance
-- For **OneDrive**: reshare files externally with the appropriate external users after the migration  
-- For **team document libraries**:<br> 
+- **OneDrive**: reshare files externally with the appropriate external users after the migration  
+- **Team document libraries**:<br> 
     - Where possible, leverage the collaboration and security benefits of grouping external partner specific content in a dedicated SharePoint team site. Read more details here: [Use Office 365 SharePoint Online as a business-to-business (B2B) extranet solution](https://support.office.com/en-us/article/Use-Office-365-SharePoint-Online-as-a-business-to-business-B2B-extranet-solution-7b087413-165a-4e94-8871-4393e0b9c037).<br>
     - If content cannot be grouped as such, then externally reshare on the file or folder level in the target team library. 
 
@@ -181,7 +177,7 @@ OneDrive is your file explorer in the cloud. Use it to store and protect your fi
 
 Behind the scenes, all files in Office 365 are actually stored in a content service called SharePoint: the files you see as your personal files, the files you see on intranet sites powered by SharePoint, and the files you work with in Teams, Yammer and Outlook. SharePoint is always there, helping manage and protect your files, and powering content collaboration across Office 365.
 
-So you don’t have to compromise: get all the power of SharePoint and work with files wherever you want.
+You don’t have to compromise; get all the power of SharePoint and work with files wherever you want.
 
 - Work with files in OneDrive app on the web, mobile, or File Explorer on Windows and Finder on Mac
 - Work with files in the context of your group, team, or site
