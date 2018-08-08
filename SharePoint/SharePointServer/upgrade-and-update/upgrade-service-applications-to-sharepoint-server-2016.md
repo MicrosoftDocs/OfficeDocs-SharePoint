@@ -666,9 +666,9 @@ SharePoint Server 2016 normally creates a new search topology with all the searc
     
     - Type the following command to add the Search service application proxy to the default proxy group:    
     
-          ```
-          Add-SPServiceApplicationProxyGroupMember -member $ssap -identity " "
-          ```
+        ```
+        Add-SPServiceApplicationProxyGroupMember -member $ssap -identity ""
+        ```
 
        Where:
     
@@ -678,7 +678,7 @@ SharePoint Server 2016 normally creates a new search topology with all the searc
           
         - You use an empty **Identity** parameter (" ") to add it to the default group. 
           
-         For more information, see [Add-SPServiceApplicationProxyGroupMember](http://technet.microsoft.com/library/25ccffa1-84ae-4927-a1e5-4b2d55f6065f.aspx).
+       For more information, see [Add-SPServiceApplicationProxyGroupMember](http://technet.microsoft.com/library/25ccffa1-84ae-4927-a1e5-4b2d55f6065f.aspx).
     
 7. If the SharePoint Server 2013 with Service Pack 1 (SP1) farm uses a Links Database that is partitioned, partition the Links Database in the SharePoint Server 2016 farm the same way. Learn how in [Move-SPEnterpriseSearchLinksDatabases](http://technet.microsoft.com/library/5bff925f-3845-434e-be9f-3ba50673be28.aspx).
     
@@ -737,7 +737,7 @@ Use the following procedure to verify that the steps to create the proxies and a
 3. At the PowerShell command prompt, type the following commands:
     
       ```
-      $pg = Get-SPServiceApplicationProxyGroup -Identity " "
+      $pg = Get-SPServiceApplicationProxyGroup -Identity ""
       $pg.Proxies
       ```
 
