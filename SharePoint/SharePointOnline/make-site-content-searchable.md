@@ -98,7 +98,7 @@ You have the option of ignoring this setting to display all content in search re
     
 2. Under **Search**, click **Search and offline availability**.
     
-3. In the **Indexing ASPX Page Content**section, select one of the following options:
+3. In the **Indexing ASPX Page Content** section, select one of the following options:
     
 |**Option**|**Description**|
 |:-----|:-----|

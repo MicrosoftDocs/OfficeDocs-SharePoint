@@ -20,7 +20,7 @@ description: "Learn about SharePoint intranet hub sites and how to -plan for the
   
 ## Setting the stage
 
-SharePoint hub sites provide an important building block for your intranet. They're the "connective tissue" you use when organizing families of team sites and communication sites together.
+SharePoint hub sites provide an important building block for your intranet. They are the "connective tissue" you use when organizing families of team sites and communication sites together.
   
 One of the key principles of modern intranets based on SharePoint is that each unit of work should get a separate site collection to optimally manage governance and growth over time. Each communication site and Office 365 group-connected team site is created as a site collection that can have its own permissions. A hub site (most commonly created from a communication site) should also be considered its own unit of work that brings together numerous other sites.
   

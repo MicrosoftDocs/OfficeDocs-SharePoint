@@ -52,6 +52,8 @@ If you're a global or SharePoint admin in Office 365, you can convert any existi
 - You can also use a site design to automate the joining of a newly created site to an existing hub site by using the joinHub site script action. For info about how to create the site script and site design, see [SharePoint site design and site script overview](https://go.microsoft.com/fwlink/?linkid=870437).
     
 - For info about how site owners can customize hub sites, see [Set up your SharePoint hub site](https://support.office.com/article/e2daed64-658c-4462-aeaf-7d1a92eba098).
+
+- If using the SharePoint sites multigeo feature, you can create a hub site in any geo/satellite location and associate sites from any geo/satellite location. 
     
 ## See also
 

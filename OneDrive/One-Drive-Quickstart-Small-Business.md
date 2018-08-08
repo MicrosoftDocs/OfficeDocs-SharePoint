@@ -9,7 +9,7 @@ ms.service: one-drive
 localization_priority: Normal
 ms.collection: Strat_OD_admin
 description: "Learn how to set up OneDrive in your small business."
-...
+---
 
 # OneDrive QuickStart guide for small businesses
 
