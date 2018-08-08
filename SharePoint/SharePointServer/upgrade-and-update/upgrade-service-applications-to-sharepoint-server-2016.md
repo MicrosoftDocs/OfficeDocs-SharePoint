@@ -635,9 +635,10 @@ SharePoint Server 2016 normally creates a new search topology with all the searc
     - Type the following command to get the ID for the Search service application and store it as a variable:
     
       ```
-  $ssa = Get-SPEnterpriseSearchServiceApplication
+      $ssa = Get-SPEnterpriseSearchServiceApplication
       ```
-For more information, see [Get-SPEnterpriseSearchServiceApplication](http://technet.microsoft.com/library/b8030354-e62d-4723-a809-eb6cf8c301c5.aspx).
+
+      For more information, see [Get-SPEnterpriseSearchServiceApplication](http://technet.microsoft.com/library/b8030354-e62d-4723-a809-eb6cf8c301c5.aspx).        
     
     - Type the following command to create a proxy for the Search service application:
     
