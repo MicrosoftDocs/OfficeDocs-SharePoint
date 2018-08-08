@@ -667,7 +667,7 @@ SharePoint Server 2016 normally creates a new search topology with all the searc
     - Type the following command to add the Search service application proxy to the default proxy group:    
     
           ```
-          Add-SPServiceApplicationProxyGroupMember -member $ssap -identity ""
+          Add-SPServiceApplicationProxyGroupMember -member $ssap -identity " "
           ```
 
        Where:
