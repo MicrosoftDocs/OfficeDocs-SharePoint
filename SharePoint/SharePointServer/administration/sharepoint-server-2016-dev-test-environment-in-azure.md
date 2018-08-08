@@ -3,16 +3,16 @@ title: "SharePoint Server 2016 dev/test environment in Azure"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: pamgreen
-ms.date: 04/05/2018
+ms.date: 04/30/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-ms.custom:
 - Strat_O365_Enterprise
+ms.custom:
 - Ent_TLGs
 ms.assetid: 056e74ea-9428-45f8-abed-1040d8e413dd
 description: "Summary: Create a single-server SharePoint 2016 dev/test farm in Microsoft Azure infrastructure services."
@@ -106,7 +106,7 @@ $rgName="<resource group name>"
 # Get the location
 $locName=(Get-AzureRmResourceGroup -Name $rgName).Location
 # Create an availability set for domain controller virtual machines
-New-AzureRMAvailabilitySet -Name dcAvailabilitySet -ResourceGroupName $rgName -Location $locName
+New-AzureRMAvailabilitySet -ResourceGroupName $rgName -Name dcAvailabilitySet -Location $locName -Sku Aligned  -PlatformUpdateDomainCount 5 -PlatformFaultDomainCount 2
 # Create the adVM virtual machine
 $vmName="adVM"
 $vmSize="Standard_D1_v2"
@@ -203,7 +203,7 @@ $rgName="<your resource group name>"
 Get-AzureRmSubscription -Name $subscrName | Select-AzureRmSubscription
 $locName=(Get-AzureRmResourceGroup -Name $rgName).Location
 # Create an availability set for SQL Server virtual machines
-New-AzureRMAvailabilitySet -Name sqlAvailabilitySet -ResourceGroupName $rgName -Location $locName
+New-AzureRMAvailabilitySet -ResourceGroupName $rgName -Name sqlAvailabilitySet -Location $locName -Sku Aligned  -PlatformUpdateDomainCount 5 -PlatformFaultDomainCount 2
 # Create the SQL Server virtual machine
 $vmName="sqlVM"
 $vmSize="Standard_D3_V2"
@@ -219,7 +219,7 @@ $dataDisk1=New-AzureRmDisk -DiskName ($vmName + "-SQLData") -Disk $diskConfig -R
 $vm=Add-AzureRmVMDataDisk -VM $vm -Name ($vmName + "-SQLData") -CreateOption Attach -ManagedDiskId $dataDisk1.Id -Lun 1
 $cred=Get-Credential -Message "Type the name and password of the local administrator account of the SQL Server computer." 
 $vm=Set-AzureRMVMOperatingSystem -VM $vm -Windows -ComputerName $vmName -Credential $cred -ProvisionVMAgent -EnableAutoUpdate
-$vm=Set-AzureRMVMSourceImage -VM $vm -PublisherName MicrosoftSQLServer -Offer SQL2014SP1-WS2012R2 -Skus Standard -Version "latest"
+$vm=Set-AzureRMVMSourceImage -VM $vm -PublisherName MicrosoftSQLServer -Offer SQL2014SP2-WS2012R2 -Skus Standard -Version "latest"
 $vm=Add-AzureRMVMNetworkInterface -VM $vm -Id $nic.Id
 New-AzureRMVM -ResourceGroupName $rgName -Location $locName -VM $vm
 ```
@@ -307,7 +307,7 @@ Get-AzureRmSubscription -Name $subscrName | Select-AzureRmSubscription
 # Get the location
 $locName=(Get-AzureRmResourceGroup -Name $rgName).Location
 # Create an availability set for SharePoint virtual machines
-New-AzureRMAvailabilitySet -Name spAvailabilitySet -ResourceGroupName $rgName -Location $locName
+New-AzureRMAvailabilitySet -ResourceGroupName $rgName -Name spAvailabilitySet -Location $locName -Sku Aligned  -PlatformUpdateDomainCount 5 -PlatformFaultDomainCount 2
 # Create the spVM virtual machine
 $vmName="spVM"
 $vmSize="Standard_D3_V2"

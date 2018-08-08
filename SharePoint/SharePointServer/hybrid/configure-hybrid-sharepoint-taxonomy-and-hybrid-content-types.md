@@ -3,16 +3,17 @@ title: "Configure hybrid SharePoint taxonomy and hybrid content types"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 1/23/2018
+ms.date: 01/23/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server
 - IT_SharePoint_Hybrid_Top
-ms.custom: Strat_SP_gtc
+- Strat_SP_gtc
+ms.custom: 
 ms.assetid: 0809325c-9b99-46bf-b98d-6d2f5e3d2a4b
 description: "In this article, we look at how to configure hybrid SharePoint taxonomy and hybrid content types."
 ---

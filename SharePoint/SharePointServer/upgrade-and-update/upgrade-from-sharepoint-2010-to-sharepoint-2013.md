@@ -18,7 +18,7 @@ description: "Summary: Learn how to plan, prepare, and perform an upgrade to Sha
 
 # Upgrade from SharePoint 2010 to SharePoint 2013
 
- **Summary: ** Learn how to plan, prepare, and perform an upgrade to SharePoint 2013. 
+ **Summary:** Learn how to plan, prepare, and perform an upgrade to SharePoint 2013. 
   
 The following downloadable resources, articles, video recordings, and related resources provide information about performing an upgrade to SharePoint 2013.
   

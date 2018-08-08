@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 7fa9730a-2d11-4c78-b546-60179c5bb646
-description: "Summary: Learn how to use Windows PowerShell to change from the default search topology with an empty search index in SharePoint Server 2016 and SharePoint Server 2013 to a new search topology."
+description: "Summary: Learn how to use Windows PowerShell to change from the default search topology with an empty search index in SharePoint Server to a new search topology."
 ---
 
 # Change the default search topology in SharePoint Server
 
- **Summary:** Learn how to use Windows PowerShell to change from the default search topology with an empty search index in SharePoint Server 2016 and SharePoint Server 2013 to a new search topology. 
+ **Summary:** Learn how to use Windows PowerShell to change from the default search topology with an empty search index in SharePoint Server to a new search topology. 
   
 This article explains how to create and activate search components in a new search topology starting from the default search topology. The procedures and the examples in this article assume that SharePoint Server and the Search service application are newly installed and that there is no content in the SharePoint Server search index. You can also use the procedures and examples to manage the search topology in SharePoint Server when the topology is part of a cloud hybrid search solution.
   

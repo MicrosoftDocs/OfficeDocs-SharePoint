@@ -10,14 +10,16 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 820ace03-1fb7-41fd-a077-28b82ebddde3
-description: "Summary: Learn how to manage the search schema and the search topology in SharePoint Server 2013 and SharePoint Server 2016."
+description: "Summary: Learn how to manage the search schema and the search topology in SharePoint Server."
 ---
 
 # Administer search in SharePoint Server
 
- **Summary:** Learn how to manage the search schema and the search topology in SharePoint Server 2013 and SharePoint Server 2016. 
+ **Summary:** Learn how to manage the search schema and the search topology in SharePoint Server. 
   
 The following articles provide information about how you operate and manage search in SharePoint Server.
+
+
   
 ## Articles about administering search
 

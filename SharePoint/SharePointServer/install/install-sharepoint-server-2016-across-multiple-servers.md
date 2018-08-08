@@ -1,9 +1,8 @@
 ---
-title: "Install SharePoint Server 2016 across multiple servers"
+title: "Install SharePoint Servers 2016 or 2019 Public Preview across multiple servers"
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
-ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
@@ -11,16 +10,17 @@ localization_priority: Critical
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_server
+- Strat_SP_server
+ms.custom: 
 ms.assetid: 4982a861-ad5c-43e4-a49f-958afd4370aa
-description: "Summary: Learn how to install SharePoint Server 2016 to create a SharePoint server farm."
+description: "Summary: Learn how to install SharePoint Servers 2016 or 2019 Public Preview to create a SharePoint server farm."
 ---
 
-# Install SharePoint Server 2016 across multiple servers
+# Install SharePoint Servers 2016 or 2019 Public Preview across multiple servers
 
- **Summary:** Learn how to install SharePoint Server 2016 to create a SharePoint server farm. 
+ **Summary:** Learn how to install SharePoint Server to create a SharePoint server farm. 
   
-The deployment sequence and configurations that are described in this article are based on recommended best practices. While the farm configuration is not complex, it provides a fundamental infrastructure to implement a SharePoint Server 2016 solution on similar — or more complex farms.
+The deployment sequence and configurations that are described in this article are based on recommended best practices. While the farm configuration is not complex, it provides a fundamental infrastructure to implement a SharePoint Server solution on similar — or more complex farms.
   
     
 ## Overview
@@ -32,9 +32,9 @@ The basic steps in this deployment are as follows:
     
 - Install the required software updates on all servers that will be part of the farm.
     
-- Install the SharePoint Server 2016 prerequisites on SharePoint servers.
+- Install the SharePoint Server prerequisites on SharePoint servers.
     
-- Install SharePoint Server 2016 on the SharePoint servers.
+- Install SharePoint Server on the SharePoint servers.
     
 - Create and configure the SharePoint farm.
     
@@ -44,25 +44,25 @@ The basic steps in this deployment are as follows:
     
 ### Topology overview
 
-SharePoint Server 2016 supports a new farm topology design called MinRole. This article will describe a simple multi-server farm topology with one server assigned to each MinRole server role. However, to take advantage of zero downtime patching, your farm topology must support high availability (HA) by having multiple servers assigned to each MinRole server role.
+SharePoint Servers 2016 and 2019 Public Preview support a new farm topology design called MinRole. This article will describe a simple multi-server farm topology with one server assigned to each MinRole server role. However, to take advantage of zero downtime patching, your farm topology must support high availability (HA) by having multiple servers assigned to each MinRole server role.
   
-For additional information about MinRole, see [Overview of MinRole Server Roles in SharePoint Server 2016](overview-of-minrole-server-roles-in-sharepoint-server-2016.md).
+For additional information about MinRole, see [Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019 Public Preview](overview-of-minrole-server-roles-in-sharepoint-server.md).
   
-### Before you install SharePoint Server 2016 on multiple servers
+### Before you install SharePoint Server on multiple servers
 
-Before you begin to install and configure SharePoint Server 2016, do the following:
+Before you begin to install and configure SharePoint Servers 2016 or 2019 Public Preview, do the following:
   
 - Ensure that you are familiar with the operating-system guidelines described in [Performance Tuning Guidelines for Windows Server 2012 R2](https://msdn.microsoft.com/en-us/library/dn529133%28v=vs.85%29.aspx).
     
-- Ensure that you have met all hardware and software requirements. You must have a 64-bit version of Windows Server 2012 R2. To host SharePoint databases, you must also have a supported 64-bit version of SQL Server 2014. For more information about these requirements, such as specific updates that you must install, see [Hardware and software requirements for SharePoint Server 2016](hardware-and-software-requirements.md).
+- Ensure that you have met all hardware and software requirements. For more information about these requirements, such as specific updates that you must install, see [Hardware and software requirements for SharePoint Server 2016](hardware-and-software-requirements.md). For SharePoint Server 2019 Public Preview, see [Hardware and software requirements for SharePoint Server 2019 Public Preview](hardware-and-software-requirements-2019.md).
     
-- Ensure that you perform a clean installation of SharePoint Server 2016.
+- Ensure that you perform a clean installation of SharePoint Server.
     
 - Ensure that you are prepared to set up the required accounts by using appropriate permissions. For detailed information, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
     
 #### Using the Microsoft SharePoint Products Preparation Tool
 
-The Microsoft SharePoint Products Preparation Tool checks for the presence of prerequisites, and installs and configures all required programs. The Microsoft SharePoint Products Preparation Tool requires an Internet connection to download and configure SharePoint Server 2016 prerequisites. 
+The Microsoft SharePoint Products Preparation Tool checks for the presence of prerequisites, and installs and configures all required programs. The Microsoft SharePoint Products Preparation Tool requires an Internet connection to download and configure SharePoint Server prerequisites. 
   
 #### Database server
 
@@ -72,16 +72,16 @@ Organizations whose database administrators operate independently from SharePoin
   
 For additional information about DBA databases, see [Database types and descriptions in SharePoint Server](../technical-reference/database-types-and-descriptions.md), [Storage and SQL Server capacity planning and configuration (SharePoint Server)](../administration/storage-and-sql-server-capacity-planning-and-configuration.md).
   
-Ensure the Max degree of parallelism is set to 1. For additional information about max degree of parallelism see, [Configure the max degree of parallelism Server Configuration Option](https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/configure-the-max-degree-of-parallelism-server-configuration-option) and [Degree of Parallelism](http://go.microsoft.com/fwlink/p/?prd=12467&amp;pver=1.0&amp;sbp=Parallelism&amp;plcid=0x409&amp;clcid=0x409&amp;ar=SQL Server 2016&amp;sar=Paralellism).
+Ensure the Max degree of parallelism is set to 1. For additional information about max degree of parallelism see, [Configure the max degree of parallelism Server Configuration Option](https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/configure-the-max-degree-of-parallelism-server-configuration-option).
   
 #### Public updates and hotfix packages
 
-Ensure that public updates and the required hotfix packages are installed for the operating system, SQL Server, and SharePoint Server 2016. 
+Ensure that public updates and the required hotfix packages are installed for the operating system, SQL Server, and SharePoint Server. 
   
 ## Prepare the farm servers
 <a name="PrepareServers"> </a>
 
-Before you install SharePoint Server 2016, you must check for and install all the prerequisites on the SharePoint servers by using the Microsoft SharePoint Products Preparation Tool.
+Before you install SharePoint Server, you must check for and install all the prerequisites on the SharePoint servers by using the Microsoft SharePoint Products Preparation Tool.
   
 > [!TIP]
 > If you decide to install prerequisites manually, you can still run the Microsoft SharePoint Products Preparation Tool to verify which prerequisites are required on each server. 
@@ -92,7 +92,7 @@ Use the following procedure to install prerequisites on each server in the farm.
   
 1. Verify that the user account that is performing this procedure is the Setup user account. For information about the Setup user account, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
     
-2. In the SharePoint Server 2016 installation disc image, mount the ISO file, and then click the splash.hta file. The SharePoint Server 2016 splash screen is displayed..
+2. In the SharePoint Server installation disc image, mount the ISO file, and then click the splash.hta file. The SharePoint Server 2016 splash screen is displayed..
     
 3. Click **Install software prerequisites**. 
     
@@ -116,16 +116,16 @@ The following procedure installs binaries, configures security permissions, and 
   
 1. Verify that the user account that is performing this procedure is the Setup user account. For information about the Setup user account, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
     
-2. On the **SharePoint Server 2016 Start** page, click **Install SharePoint Server**.
+2. On the **SharePoint Server Start** page, click **Install SharePoint Server**.
     
 3. On the **Enter Your Product Key** page, enter your product key, and then click **Continue**.
     
 4. On the **Read the Microsoft Software License Terms** page, review the terms, select the **I accept the terms of this agreement** check box, and then click **Continue**.
     
-5. Optional: To install SharePoint Server 2016 at a custom location, or to store search index files at a custom location, click the **File Location** tab, and then either type the custom location or click **Browse** to find the custom location. 
+5. Optional: To install SharePoint Server at a custom location, or to store search index files at a custom location, click the **File Location** tab, and then either type the custom location or click **Browse** to find the custom location. 
     
     > [!NOTE]
-    > As a best practice, we recommend that you install SharePoint Server 2016 on a non-system drive. > If you intend to use this computer as a search server, we recommend that you store the search index files on a separate storage volume or partition. Any other search data that needs to be stored, is stored in the same location as the search index files. You can only set this location at installation time. 
+    > As a best practice, we recommend that you install SharePoint Server on a non-system drive. > If you intend to use this computer as a search server, we recommend that you store the search index files on a separate storage volume or partition. Any other search data that needs to be stored, is stored in the same location as the search index files. You can only set this location at installation time. 
   
 6.  Click **Install Now**.
     
@@ -145,7 +145,7 @@ To configure the farm, you run the SharePoint Products Configuration Wizard. Thi
   
 1. Verify that the user account that is performing this procedure is the Setup user account. For information about the Setup user account, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
     
-2. On the server that will host Central Administration (the application server), click **Start**, point to **All Apps**, and then click **Microsoft SharePoint 2016 Products**, and then click **SharePoint 2016 Products Configuration Wizard**. If the **User Account Control** dialog box appears, click **Continue**.
+2. On the server that will host Central Administration (the application server), click **Start**, point to **All Apps**, and then click **Microsoft SharePoint Products**, and then click **SharePoint Products Configuration Wizard**. If the **User Account Control** dialog box appears, click **Continue**.
     
 3. On the **Welcome to SharePoint Products** page, click **Next**.
     
@@ -170,7 +170,7 @@ To configure the farm, you run the SharePoint Products Configuration Wizard. Thi
     
 8. On the Specify Farm Security Settings page, type a passphrase, and then click **Next**.
     
-    Although a passphrase resembles a password, it is usually longer to improve security. It is used to encrypt credentials of accounts that are registered in SharePoint Server 2016. For example, the SharePoint Server 2016 server farm account that you provide when you run the SharePoint Products Configuration Wizard. Ensure that you remember the passphrase, because you must use it every time that you add a server to the farm.
+    Although a passphrase resembles a password, it is usually longer to improve security. It is used to encrypt credentials of accounts that are registered in SharePoint Servers 2016 or 2019 Public Preview. For example, the SharePoint Server server farm account that you provide when you run the SharePoint Products Configuration Wizard. Ensure that you remember the passphrase, because you must use it every time that you add a server to the farm.
     
     Ensure that the passphrase meets the following criteria:
     
@@ -219,21 +219,21 @@ To configure the farm, you run the SharePoint Products Configuration Wizard. Thi
 ## Add SharePoint servers to the farm
 <a name="AddWeb"> </a>
 
-After you create the farm on the first server, you can add servers by following the same process described earlier in this topic for installing SharePoint Server 2016 on the server that hosts Central Administration. The only difference is that during the SharePoint 2016 Products Configuration Wizard, you choose to join an existing farm. Follow the wizard steps to join the farm.
+After you create the farm on the first server, you can add servers by following the same process described earlier in this topic for installing SharePoint Server on the server that hosts Central Administration. The only difference is that during the SharePoint Products Configuration Wizard, you choose to join an existing farm. Follow the wizard steps to join the farm.
   
-For your content farm to be MinRole complaint, at a minimum you want to have at least one of each type of server role in the farm: **Application**, **Front-end**, **Distributed cache**, and **Search**. The order in which these roles are created does not matter. If you want to take full advantage of zero down time patching, then you need to make sure high availability is configured. 
+For your content farm to be MinRole complaint, at a minimum you want to have at least one of each type of server role in the farm: **Application**, **Front-end**, **Distributed cache**, and **Search**. The order in which these roles are created does not matter. You can also combined roles by using shared roles. If you want to take full advantage of zero down time patching, then you need to make sure high availability is configured. 
   
-For additional information about MinRole, see [Overview of MinRole Server Roles in SharePoint Server 2016](overview-of-minrole-server-roles-in-sharepoint-server-2016.md).
+For additional information about MinRole, see [Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019 Public Preview](overview-of-minrole-server-roles-in-sharepoint-server.md).
   
 > [!NOTE]
 > If this farm is not hosting Search services, then the Search role is not needed. 
   
-For additional information about how to add servers to a farm, see [Add a server to a SharePoint Server 2016 farm](add-a-server-to-a-sharepoint-server-2016-farm.md). This article also provides detailed information for the steps in the following procedure.
+For additional information about how to add servers to a farm, see [Add a server to a SharePoint Server 2016 or SharePoint Server 2019 Public Preview farm](add-a-server-to-a-sharepoint-server-2016-farm.md). This article also provides detailed information for the steps in the following procedure.
   
 ## Post-installation steps
 <a name="section4"> </a>
 
-After you install and configure SharePoint Server 2016, your browser window opens to the Central Administration web site of your new SharePoint site. Although you can start adding content to the site or customizing the site, we recommend that you first perform the following administrative tasks.
+After you install and configure SharePoint Server, your browser window opens to the Central Administration web site of your new SharePoint site. Although you can start adding content to the site or customizing the site, we recommend that you first perform the following administrative tasks.
   
 - **Configure usage and health data collection** You can configure usage and health data collection in your server farm. The system writes usage and health data to the logging folder and to the logging database. 
     
@@ -243,6 +243,6 @@ After you install and configure SharePoint Server 2016, your browser window open
     
 - **Configure outgoing email** You can configure outgoing email so that your Simple Mail Transfer Protocol (SMTP) server sends email alerts to site users and notifications to site administrators. You can configure both the "From" email address and the "Reply" email address that appear in outgoing alerts. 
     
-- **Configure Search settings** You can configure Search settings to crawl the content in SharePoint Server 2016. 
+- **Configure Search settings** You can configure Search settings to crawl the content in SharePoint Servers 2016 or 2019 Public Preview. 
     
 

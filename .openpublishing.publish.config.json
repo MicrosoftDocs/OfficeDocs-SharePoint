@@ -2,12 +2,12 @@
   "docsets_to_publish": [
     {
       "docset_name": "OfficeDocs-OneDrive",
-      "build_source_folder": "OneDriveForBusiness",
+      "build_source_folder": "OneDrive",
       "build_output_subfolder": "OfficeDocs-OneDrive",
       "locale": "en-us",
       "monikers": [],
       "moniker_ranges": [],
-      "open_to_public_contributors": false,
+      "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
@@ -35,9 +35,9 @@
       "version": 0
     },
     {
-      "docset_name": "sharepointmigration",
+      "docset_name": "OfficeDocs-SharepointMigration",
       "build_source_folder": "migration",
-      "build_output_subfolder": "sharepointmigration",
+      "build_output_subfolder": "OfficeDocs-SharepointMigration",
       "locale": "en-us",
       "monikers": [],
       "moniker_ranges": [],

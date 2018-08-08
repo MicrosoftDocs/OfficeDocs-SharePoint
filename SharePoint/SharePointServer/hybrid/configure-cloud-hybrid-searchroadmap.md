@@ -7,13 +7,14 @@ ms.date: 3/9/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - Ent_O365_Hybrid
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_gtc
+- Strat_SP_gtc
+ms.custom: 
 ms.assetid: 0bba350d-ec33-43db-a873-930559c78dee
 description: "Learn how to configure cloud hybrid search for SharePoint Server by setting up a cloud Search service application in your SharePoint Server environment and connecting it to your search index in Office 365."
 ---
@@ -51,7 +52,7 @@ To complete the configuration steps you'll need these items:
     
 - If you'll use the [Hybrid picker in the SharePoint Online admin center](hybrid-picker-in-the-sharepoint-online-admin-center.md) wizard to help you configure, ensure that the application farm that hosts the SharePoint Server Central Administration website has [.NET 4.6.3](https://www.microsoft.com/en-us/download/details.aspx?id=53321) installed. 
     
-- If you'll use the **CreateCloudSSA.ps1** and **Onboard-CloudHybridSearch.ps1** Microsoft PowerShell scripts to help you configure, find them in the [Microsoft Download Center](https://go.microsoft.com/fwlink/?LinkId=717902).
+- If you'll use the **CreateCloudSSA.ps1** and **Onboard-CloudHybridSearch.ps1** Microsoft PowerShell scripts to help you configure, find them in the [Microsoft Download Center](https://go.microsoft.com/fwlink/?LinkId=717902). You'll also need the [Microsoft Online Services Sign-In Assistant for IT Professionals RTW](https://go.microsoft.com/fwlink/?LinkID=286152) and the [Azure Active Directory Module for Windows PowerShell](https://www.powershellgallery.com/packages/MSOnline/1.1.183.8).
     
 ## Follow these steps:
 
@@ -156,11 +157,11 @@ On the application server that hosts the SharePoint ServerCentral Administration
     
 2. Download and install the [Microsoft Online Services Sign-In Assistant for IT Professionals RTW](https://go.microsoft.com/fwlink/?LinkID=286152) from the Microsoft Download Center. 
     
-3. Download version 1.1.166.0 or newer of the [Azure Active Directory Module for Windows PowerShell](http://connect.microsoft.com/site1164/Downloads/DownloadDetails.aspx?DownloadID=59185). Click **Run** to run the installer package. 
+3. Download and install the latest version of the [Azure Active Directory Module for Windows PowerShell](https://www.powershellgallery.com/packages/MSOnline/1.1.183.8) from the PowerShell Gallery. 
     
-4. Download the **OnBoard-CloudHybridSearch.ps1** PowerShell script from the [Microsoft Download Center](https://go.microsoft.com/fwlink/?LinkId=717902).
+4. Download the [OnBoard-CloudHybridSearch.ps1](https://go.microsoft.com/fwlink/?LinkId=717902) PowerShell script from the Microsoft Download Center.
     
-5. If your environment is Office 365 Business, Office 365 Enterprise, Office 365 Education, Office 365 operated by 21Vianet, Office 365 Germany, or Office 365 US Government Defense, open an elevated PowerShell prompt, and run the **OnBoard-CloudHybridSearch.ps1** UNRESOLVED_TOKEN_VAL( PowerShell_2nd_NoVer) script as follows: 
+5. If your environment is Office 365 Business, Office 365 Enterprise, Office 365 Education, Office 365 operated by 21Vianet, Office 365 Germany, or Office 365 US Government Defense, open an elevated PowerShell prompt, and run the **OnBoard-CloudHybridSearch.ps1** PowerShell script as follows: 
     
   ```
   Import-Module MSOnline
@@ -239,7 +240,8 @@ Follow these steps to set up a separate Search Center in Office 365:
     
 4. Set up access so only testers and administrators have access to the second Office 365 Search Center.
     
-Here's an example of a validation environment:![The illustration shows how content enters the Office 365 index from both a SharePoint Server content farm and from Office 365. The standard search center in Office 365 only retrieves Office 365 results from the search index, while the validation search ce](../media/9f9528f3-ee79-46b2-8113-d7b10be675ba.png)
+Here's an example of a validation environment:
+![The illustration shows how content enters the Office 365 index from both a SharePoint Server content farm and from Office 365. The standard search center in Office 365 only retrieves Office 365 results from the search index, while the validation search ce](../media/9f9528f3-ee79-46b2-8113-d7b10be675ba.png)
   
 1. On-premises content. During crawl, content is added to the Office 365 index.
     

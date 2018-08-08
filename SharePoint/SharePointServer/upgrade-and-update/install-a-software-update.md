@@ -1,9 +1,9 @@
 ---
-title: "Install a software update for SharePoint Server 2013"
+title: "Install a software update for SharePoint Server 2016"
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
-ms.date: 2/27/2018
+ms.date: 4/30/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -12,25 +12,25 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 72addaae-efe5-40bb-8c86-294e10266878
-description: "Summary: Install a software update to perform a build-to-build upgrade on servers in a SharePoint 2013 farm."
+description: "Summary: Install a software update to perform a build-to-build upgrade on servers in a SharePoint 2016 farm."
 ---
 
-# Install a software update for SharePoint Server 2013
+# Install a software update for SharePoint Server 2016
 
- **Summary:** Install a software update to perform a build-to-build upgrade on servers in a SharePoint 2013 farm. 
+ **Summary:** Install a software update to perform a build-to-build upgrade on servers in a SharePoint 2016 farm. 
   
 ## Before you begin
 <a name="begin"> </a>
 
 Before you begin the software update process, review the following information about permissions, hardware requirements, software requirements, and update processes.
   
-- [Account permissions and security settings in SharePoint 2013](../install/account-permissions-and-security-settings-in-sharepoint-2013.md)
+- [Account permissions and security settings in SharePoint 2016](https://docs.microsoft.com/en-us/sharepoint/install/account-permissions-and-security-settings-in-sharepoint-server-2016)
     
-- [Hardware and software requirements for SharePoint 2013](../install/hardware-and-software-requirements-0.md)
+- [Hardware and software requirements for SharePoint 2016](https://docs.microsoft.com/en-us/sharepoint/install/hardware-and-software-requirements)
     
-- [Software updates overview for SharePoint 2013](software-updates-overview-for-sharepoint-server-2013.md)
+- [Software updates overview for SharePoint 2016](https://docs.microsoft.com/en-us/sharepoint/upgrade-and-update/software-updates-overview)
     
-- [Prepare to deploy software updates for SharePoint 2013](prepare-to-deploy-software-updates.md)
+- [Prepare to deploy software updates for SharePoint 2016](https://docs.microsoft.com/en-us/sharepoint/upgrade-and-update/deploy-updates-for-sharepoint-server-2016)
     
 To perform the procedures in this article, you must have the following memberships and roles:
   
@@ -52,14 +52,13 @@ Do not start the update if any of the preceding conditions are not satisfied. Re
   
 SharePoint 2013 can handle certain upgrade failures after the patching phase finishes. However, if the build-to-build upgrade fails, you might have to restore from a backup. Therefore, make sure that you perform a full backup before you start the update process. After the restore is complete, you can resume the update. Completed tasks do not run again. For more information, see the following resources:
   
-- [Prepare to deploy software updates for SharePoint 2013](https://technet.microsoft.com/library/54e9cd93-a771-49ff-8b94-dc30b7dc2169#backupfarm) in [Prepare to deploy software updates for SharePoint 2013](prepare-to-deploy-software-updates.md)
-    
-- [Test and troubleshoot an upgrade to SharePoint 2013](https://technet.microsoft.com/library/5a4c7509-4b3a-436d-973c-f91dab781a88)
+   
+- [Test and troubleshoot an upgrade to SharePoint 2016](https://docs.microsoft.com/en-us/sharepoint/upgrade-and-update/test-and-troubleshoot-an-upgrade)
     
 ## Determine the update strategy
 <a name="verifystrategy"> </a>
 
-Before you start to deploy a software update, verify that the update strategy that you plan to use is optimal for your SharePoint 2013 environment. There are several factors, such as downtime reduction, cost, and complexity that determine the strategy to use to deploy a software update. Use the flowchart in the [Prepare to deploy software updates for SharePoint 2013](https://technet.microsoft.com/library/54e9cd93-a771-49ff-8b94-dc30b7dc2169#updateapproach) section of [Prepare to deploy software updates (SharePoint 2013)](prepare-to-deploy-software-updates.md) to determine the update strategy that you want to use: in-place, database-attach, or a combination. For more information about how the database-attach process works, see the diagrams in [Overview of the upgrade process from SharePoint 2010 to SharePoint 2013](https://technet.microsoft.com/library/1ee4bc3c-f53c-472d-baf7-2c4ac9975643).
+Before you start to deploy a software update, verify that the update strategy that you plan to use is optimal for your SharePoint Server 2016 environment. There are several factors, such as downtime reduction, cost, and complexity that determine the strategy to use to deploy a software update. For more information about how the database-attach process works, see the diagrams in [Overview of the upgrade process from SharePoint 2013 to SharePoint Server 2016](https://docs.microsoft.com/en-us/sharepoint/upgrade-and-update/overview-of-the-upgrade-process).
   
 > [!NOTE]
 > Certain links in this article go to content that is about version-to-version upgrade rather than build-to-build upgrade. However, the general process is similar for the two types of upgrade. For example, the database upgrade phase is essentially the same for build-to-build upgrade and version-to-version upgrade. 
@@ -91,7 +90,7 @@ When you are ready to continue, perform only one of the following procedures in 
 ## Use the in-place method without backward compatibility
 <a name="usinginplace"> </a>
 
-In this scenario you disable incoming requests to the front-end web servers, thus effectively shutting down the entire farm. Then you install the update on all the farm servers. This strategy combines the update and the build-to-build upgrade phase that is described in the [Software updates overview for SharePoint Server 2016](https://technet.microsoft.com/library/4cbe141a-095f-4c09-82f4-dec8af16c590#updateprocess) section of [Overview of the upgrade process from SharePoint 2010 to SharePoint 2013](https://technet.microsoft.com/library/1ee4bc3c-f53c-472d-baf7-2c4ac9975643).
+In this scenario you disable incoming requests to the front-end web servers, thus effectively shutting down the entire farm. Then you install the update on all the farm servers. This strategy combines the update and the build-to-build upgrade phase that is described in the [Software updates overview for SharePoint Server 2016](https://technet.microsoft.com/library/4cbe141a-095f-4c09-82f4-dec8af16c590#updateprocess) section of [Overview of the upgrade process from SharePoint 2013 to SharePoint Server 2016](https://docs.microsoft.com/en-us/sharepoint/upgrade-and-update/overview-of-the-upgrade-process).
   
 The following illustration shows the steps that are required to install the update on the farm. You can use the illustration as a guide as you go through the steps in the procedure that follows ("To install an update without backward compatibility").
   
@@ -105,7 +104,7 @@ The following illustration shows the steps that are required to install the upda
     
 3. Run the update executable file to install the update on the application server that hosts Central Administration (APP-1).
     
-4. Run the update executable file to install the update on all other application servers that host Search components (APP-2). To do this, perform the procedure [Install a software update for SharePoint Server 2016](https://technet.microsoft.com/library/761ffca8-ae92-405e-b8c1-9aada2fcbd86#UpdateSearchDuringDowntime) which appears later in this article, and then return to the next step in this procedure. Do not run the SharePoint Products Configuration Wizard on these servers at this time. 
+4. Run the update executable file to install the update on all other application servers that host Search components (APP-2). To do this, perform the procedure [Host Search components](#HostSearch) which appears later in this article, and then return to the next step in this procedure. Do not run the SharePoint Products Configuration Wizard on these servers at this time. 
     
 5. Review the upgrade log files to verify that all the application servers were updated successfully.
     
@@ -130,7 +129,7 @@ The following illustration shows the steps that are required to install the upda
   
 13. Repeat the preceding step for each remaining web server.
     
-14. Verify update completion and success. For more information, see [Verify database upgrades in SharePoint 2013](https://technet.microsoft.com/library/56c70ee5-4ed2-4560-b2ba-53ae87774c2f).
+14. Verify update completion and success. For more information, see [Verify database upgrades in SharePoint Server 2016](https://docs.microsoft.com/en-us/sharepoint/upgrade-and-update/verify-upgrade-for-databases).
     
 15. Add the web servers (WEB-1 to WEB-4) to the rotation in the load balancer, or start the load balancer to enable incoming requests to the servers.
     
@@ -150,7 +149,7 @@ This update scenario uses two phases to install the update on farm servers. Thes
 > [!IMPORTANT]
 > During the update phase, the farm can continue to be in production with minimal downtime. However, during the build-to-build upgrade phase, the farm will be unavailable. If users attempt to access content while the farm is upgrading, the result could be failed upgrades or excessive slowdowns in the upgrade process because of resource contention and locking. Such an attempt is unsupported and untested. 
   
-For more information, see the [Software updates overview for SharePoint Server 2016](https://technet.microsoft.com/library/4cbe141a-095f-4c09-82f4-dec8af16c590#updateprocess) section in [Overview of the upgrade process from SharePoint 2010 to SharePoint 2013](https://technet.microsoft.com/library/1ee4bc3c-f53c-472d-baf7-2c4ac9975643).
+For more information, see the [Software updates overview for SharePoint Server 2016](https://technet.microsoft.com/library/4cbe141a-095f-4c09-82f4-dec8af16c590#updateprocess) section in [Overview of the upgrade process from SharePoint 2013 to SharePoint Server 2016](https://docs.microsoft.com/en-us/sharepoint/upgrade-and-update/verify-upgrade-for-databases).
   
 ### Update phase
 
@@ -164,7 +163,7 @@ The following illustration shows the steps that are required to install the upda
     
 2. On each web server that is out of the load-balancing rotation (WEB-1 and WEB-2), run the executable file to install the update. Do not run the SharePoint Products Configuration Wizard on these servers. Verify that these web servers were updated successfully by reviewing the upgrade log files.
     
-    The upgrade log file and the upgrade error log file are located at %COMMONPROGRAMFILES%\Microsoft Shared\Web server extensions\15\LOGS. Upgrade log file names are in the following format: Upgrade- _YYYYMMDD-HHMMSS-SSS_.log, where  _YYYYMMDD_ is the date and  _HHMMSS-SSS_ is the time (hours in 24-hour clock format, minutes, seconds, and milliseconds). The upgrade error log file combines all errors and warnings in a shorter file that is named Upgrade-  _YYYYMMDD-HHMMSS-SSS_-error.log.
+    The upgrade log file and the upgrade error log file are located at %COMMONPROGRAMFILES%\Microsoft Shared\Web server extensions\16\LOGS. Upgrade log file names are in the following format: Upgrade- _YYYYMMDD-HHMMSS-SSS_.log, where  _YYYYMMDD_ is the date and  _HHMMSS-SSS_ is the time (hours in 24-hour clock format, minutes, seconds, and milliseconds). The upgrade error log file combines all errors and warnings in a shorter file that is named Upgrade-  _YYYYMMDD-HHMMSS-SSS_-error.log.
     
 3. Remove the remaining web servers (WEB-3 and WEB-4) from rotation in the load balancer, or pause the load balancer to stop incoming requests to the servers.
     
@@ -255,7 +254,7 @@ The following procedure shows all the steps to upgrade the farm. You can upgrade
 
 To ensure high availability for existing content, this scenario uses read-only databases on the existing farm. You install the update on a new farm and route user traffic to the new farm after updates are complete. 
   
-The following illustration shows the sequence of steps to follow to install the update on a new farm by using the database attach method. For more information, see [Upgrade content databases from SharePoint 2010 to SharePoint 2013](https://technet.microsoft.com/library/728143ab-23ce-485e-bc5c-06cda38f5c62).
+The following illustration shows the sequence of steps to follow to install the update on a new farm by using the database attach method. For more information, see [Upgrade content databases from SharePoint 2013 to SharePoint Server 2016](https://docs.microsoft.com/en-us/sharepoint/upgrade-and-update/upgrade-content-databases).
   
 ![Install a software update using database attach for high availability of existing content](../media/ba874356-d7e7-4b62-9494-982bb7102a07.jpg)
   
@@ -263,7 +262,7 @@ Use the preceding illustration as a guide to follow the recommended steps in the
   
  **To install the update by using the database-attach method**
   
-1. Create a new farm where you will install the software update. This farm does not require front-end web servers. For more information, see [Create the SharePoint 2013 farm for a database attach upgrade](https://technet.microsoft.com/library/7009bdd4-6745-49a3-a330-728d5985f584).
+1. Create a new farm where you will install the software update. This farm does not require front-end web servers. For more information, see [Create the SharePoint 2016 farm for a database attach upgrade](https://docs.microsoft.com/en-us/sharepoint/upgrade-and-update/create-the-sharepoint-server-2016-farm-for-a-database-attach-upgrade).
     
     > [!NOTE]
     > If the original farm uses a database mirror, configure mirroring after you deploy the software update on the new farm. 
@@ -273,7 +272,7 @@ Use the preceding illustration as a guide to follow the recommended steps in the
     > [!NOTE]
     > If the existing farm is mirrored, pause mirroring before setting the databases to read-only. 
   
-    For more information about how to configure read-only databases, see the "Set the Previous Version Databases to Be Read-Only (Database Attach with Read-Only Databases)" section in [Upgrade content databases from SharePoint 2010 to SharePoint 2013](https://technet.microsoft.com/library/728143ab-23ce-485e-bc5c-06cda38f5c62) and [Run a farm that uses read-only databases in SharePoint Server](https://technet.microsoft.com/library/8b91dc0a-c37d-4ec8-aa75-deb3f268fb97).
+    For more information about how to configure read-only databases, see the "Set the Previous Version Databases to Be Read-Only (Database Attach with Read-Only Databases)" section in [Upgrade content databases from SharePoint 2013 to SharePoint Server 2016](https://docs.microsoft.com/en-us/sharepoint/upgrade-and-update/upgrade-content-databases) and [Run a farm that uses read-only databases in SharePoint Server](https://technet.microsoft.com/library/8b91dc0a-c37d-4ec8-aa75-deb3f268fb97).
     
 3. Configure the service application databases on the existing farm so that they are in a read-only state. This prevents unexpected changes to service applications.
     
@@ -327,12 +326,12 @@ Use the preceding illustration as a guide to follow the recommended steps in the
     
 12. Allow time for users to switch from cached DNS, and then decommission the old farm.
     
-13. Verify update completion and success. For more information, see [Verify database upgrades in SharePoint 2013](https://technet.microsoft.com/library/56c70ee5-4ed2-4560-b2ba-53ae87774c2f).
+13. Verify update completion and success. For more information, see [Verify database upgrades in SharePoint 2016](https://docs.microsoft.com/en-us/sharepoint/upgrade-and-update/verify-upgrade-for-databases).
     
     You are finished installing the update and using this article.
     
 ## Install a software update on servers that host Search components
-<a name="updatesearchcomp"> </a>
+<a name="HostSearch"> </a>
 
 Perform the procedures in this section only when they are pointed to from other procedures in this article. This includes the following procedures which are in this section:
   
@@ -458,7 +457,7 @@ Perform the procedures in this section only when they are pointed to from other 
     
  **Determine server availability groups for update with minimal downtime**
   
-1. Start a SharePoint 2013 Management Shell on any server in the farm.
+1. Start a SharePoint 2016 Management Shell on any server in the farm.
     
 2. Determine the primary Search administration component and the server that hosts the component by typing the following commands at the PowerShell command prompt:
     
@@ -495,7 +494,7 @@ Perform the procedures in this section only when they are pointed to from other 
   - **Resolution:** Run the following command: 
     
   ```
-  cd\Program Files\Common Files\Microsoft Shared\web server extensions\15\bin.\PSConfig.exe -cmd secureresources
+  cd\Program Files\Common Files\Microsoft Shared\web server extensions\16\bin.\PSConfig.exe -cmd secureresources
   ```
 
 ## See also
@@ -503,5 +502,5 @@ Perform the procedures in this section only when they are pointed to from other 
 
 #### Other Resources
 
-[SharePoint updates](https://technet.microsoft.com/library/dn789211%28v=office.14%29)
+[SharePoint updates](https://docs.microsoft.com/en-us/sharepoint/sharepoint-updates)
 

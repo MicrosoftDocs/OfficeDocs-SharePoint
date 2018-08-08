@@ -17,7 +17,7 @@ description: "Summary: SharePoint 2013 includes new upgrade features, such as up
 
 # What's new in SharePoint 2013 upgrade
 
- **Summary: ** SharePoint 2013 includes new upgrade features, such as upgrade for service applications, a site health checker, and upgrade for site collections. 
+ **Summary:** SharePoint 2013 includes new upgrade features, such as upgrade for service applications, a site health checker, and upgrade for site collections. 
   
 SharePoint 2013 does not support in-place upgrade for an existing environment. You must use the database-attach upgrade method to upgrade your databases to a new environment that is based on SharePoint 2013. Also, to provide more flexibility to farm administrators and site administrators, the upgrade process has changed to separate upgrade of the software and databases from upgrade of the sites. 
   

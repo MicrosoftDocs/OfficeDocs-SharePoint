@@ -7,11 +7,12 @@ ms.date: 3/3/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_server
+- Strat_SP_server
+ms.custom: 
 ms.assetid: 6d8a9d37-d400-4d7c-b4f1-bf3c5643c98c
 description: "Summary: Learn how to exchange trust certificates between the publishing farm and the consuming farm in SharePoint Server 2016 and SharePoint 2013."
 ---

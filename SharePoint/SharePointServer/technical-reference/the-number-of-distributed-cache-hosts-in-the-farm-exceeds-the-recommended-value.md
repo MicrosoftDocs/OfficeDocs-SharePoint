@@ -21,7 +21,7 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleT
   
  **Rule Name:** The number of Distributed Cache hosts in the farm exceeds the recommended value. 
   
- **Summary:** On a farm with four or more servers, you must not start the Distributed Cache service on all servers on the farm. You can only run Distributed cache on SharePoint Server 2016 servers that are configured as Distributed cache role in MInRole. If you configure all servers as cache hosts, you may experience reliability and performance problems in the farm. For more information, see [Overview of MinRole Server Roles in SharePoint Server 2016](../install/overview-of-minrole-server-roles-in-sharepoint-server-2016.md).
+ **Summary:** On a farm with four or more servers, you must not start the Distributed Cache service on all servers on the farm. You can only run Distributed cache on SharePoint Server 2016 servers that are configured as Distributed cache role in MInRole. If you configure all servers as cache hosts, you may experience reliability and performance problems in the farm. For more information, see [Overview of MinRole Server Roles in SharePoint Server 2016](../install/overview-of-minrole-server-roles-in-sharepoint-server.md).
   
  **Cause:** The Distributed Cache service is started on every server on this farm. 
   

@@ -7,12 +7,13 @@ ms.date: 10/4/2017
 ms.audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server
 - IT_SharePoint_Hybrid_Top
-ms.custom: Strat_SP_gtc
+- Strat_SP_gtc
+ms.custom: 
 ms.assetid: 53566956-a4c7-478a-b23b-e389b7de2eaa
 description: "With the cloud hybrid search solution for SharePoint, you index all your crawled content, including on-premises content, in your search index in Office 365. When users query your search index in Office 365, they get search results from both on-premises and Office 365 content."
 ---
@@ -31,13 +32,13 @@ It's the metadata for the content that's indexed, and this metadata is encrypted
   
 Learn more:
   
-[Learn about cloud hybrid search for SharePoint](http://technet.microsoft.com/library/af830951-8ddf-48b2-8340-179c1cc4d291%28Office.14%29.aspx#BKMK_Benefits)
+[What are the benefits](#BKMK_Benefits)
   
-[Learn about cloud hybrid search for SharePoint](http://technet.microsoft.com/library/af830951-8ddf-48b2-8340-179c1cc4d291%28Office.14%29.aspx#BKMK_SearchExperiences)
+[Which search experiences can you iffer with cloud hybrid search?](#BKMK_SearchExperiences)
   
-[Learn about cloud hybrid search for SharePoint](http://technet.microsoft.com/library/af830951-8ddf-48b2-8340-179c1cc4d291%28Office.14%29.aspx#BKMK_WhereManage)
+[Where do you manage cloud hybrid search?](#BKMK_WhereManage)
   
-[Learn about cloud hybrid search for SharePoint](http://technet.microsoft.com/library/af830951-8ddf-48b2-8340-179c1cc4d291%28Office.14%29.aspx#BKMK_HowWork)
+[How does cloud hybrid search work?](#BKMK_HowWork)
   
 ## What are the benefits?
 <a name="BKMK_Benefits"> </a>

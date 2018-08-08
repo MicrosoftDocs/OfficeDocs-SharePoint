@@ -7,13 +7,14 @@ ms.date: 7/21/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - Ent_O365_Hybrid
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_gtc
+- Strat_SP_gtc
+ms.custom: 
 ms.assetid: 1a11cbf3-ab19-4aa0-ae9c-8e4b793154a2
 description: "Learn how to show results from the Office 365 search index when searching from SharePoint Server sites with cloud hybrid search."
 ---

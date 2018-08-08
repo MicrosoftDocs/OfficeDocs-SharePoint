@@ -14,7 +14,7 @@ description: "Summary: Learn how to configure search for high availability by us
 
 # Test Lab Guide: Configure a highly available SharePoint Server 2013 Search topology
 
- **Summary: ** Learn how to configure search for high availability by using the computers in the Configure SharePoint Server 2013 in a three-tier farm test lab. 
+ **Summary:** Learn how to configure search for high availability by using the computers in the Configure SharePoint Server 2013 in a three-tier farm test lab. 
   
 This document is the [Test Lab Guide](https://go.microsoft.com/fwlink/p/?LinkId=202817) version of the procedures that are described in [Test Lab Guide: Configure a highly available SharePoint Server 2013 Search topology](configure-a-highly-available-sharepoint-server-2013-search-topology.md).
   

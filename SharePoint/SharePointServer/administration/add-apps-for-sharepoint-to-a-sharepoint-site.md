@@ -31,7 +31,7 @@ Site owners can add apps for SharePoint from the following sources to their site
     
 - from the SharePoint Store.
     
-Note that a user logged in as teh system account cannot install a app.
+Note that a user logged in as the system account cannot install an app.
   
 When you add an app for SharePoint, the app requests permissions that it needs to function (for example, access to Search, or to create a list). If you don't have those permissions, the app won't install. Contact your administrator to get the needed permissions or have someone with those permissions add the app.
   
@@ -61,7 +61,7 @@ The following procedures provide steps for adding apps from these sources.
     
 3. Click **From** _Name_.
     
-    Where  _Name_ is the name of your organization's App Catalog. For example, "From Contoso". 
+    Where _Name_ is the name of your organization's App Catalog. For example, "From Contoso". 
     
     > [!TIP]
     > Apps marked as Featured in the App Catalog will also appear in the main list of Apps. 

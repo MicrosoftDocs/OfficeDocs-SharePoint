@@ -17,7 +17,7 @@ description: "Summary: Understand the editions or versions of SharePoint 2010 Pr
 
 # Review supported editions and products for upgrading to SharePoint 2013
 
- **Summary: ** Understand the editions or versions of SharePoint 2010 Products that you can upgrade to specific editions or versions of SharePoint 2013. 
+ **Summary:** Understand the editions or versions of SharePoint 2010 Products that you can upgrade to specific editions or versions of SharePoint 2013. 
   
 When you plan an upgrade process, make sure that you verify that the intended upgrade path is supported. This article describes the editions and products that are supported and unsupported to upgrade to SharePoint Server 2016. 
   

@@ -222,7 +222,7 @@ The following procedures provide methods to connect to the new SQL Server instan
     
   - The **db_owner** fixed database role 
     
-3. Start the SQL Server Client Network Utility (cliconfg.exe). This utility is typically located in the C:\Windows\SysWOW64 folder.
+3. Start the SQL Server Client Network Utility (cliconfg.exe). This utility is typically located in the C:\Windows\SysWOW64 and C:\Windows\System32 folder.
     
 4. On the **General** tab, verify that TCP/IP is enabled.
     
@@ -288,7 +288,7 @@ Use the next procedure for the following scenarios:
 - If you move the databases from a SharePoint Server 2016 Single-Server Farm role type to a new Single-Server Farm role type or from a SharePoint 2013 single-server installation to a new single-server installation.
     
     > [!NOTE]
-    > The Single-Server Farm role replaces the Standalone Install mode available in previous SharePoint Server releases. For more information, see [Overview of MinRole Server Roles in SharePoint Server 2016](../install/overview-of-minrole-server-roles-in-sharepoint-server-2016.md). 
+    > The Single-Server Farm role replaces the Standalone Install mode available in previous SharePoint Server releases. For more information, see [Overview of MinRole Server Roles in SharePoint Server 2016](../install/overview-of-minrole-server-roles-in-sharepoint-server.md). 
   
 - If you use Availability Groups then you must manually add the databases to the availability groups as appropriate to their high availability/disaster recovery support. For more information, see [Add a Database to an Availability Group (SQL Server)](http://go.microsoft.com/fwlink/p/?LinkID=717351)
     

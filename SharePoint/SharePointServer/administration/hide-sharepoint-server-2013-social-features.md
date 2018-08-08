@@ -1,37 +1,37 @@
 ---
-title: "Hide SharePoint Server 2013 social features"
+title: "Hide SharePoint Server social features"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 7/31/2017
+ms.date: 5/31/18
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: ff584a8c-871c-40bf-8ada-4a59615abbc9
-description: "Summary: Learn how to remove Web Parts and hide user interface controls that provide social features and replace them with Yammer in SharePoint Server 2013."
+description: "Summary: Learn how to remove Web Parts and hide user interface controls that provide social features and replace them with Yammer in SharePoint Server."
 ---
 
-# Hide SharePoint Server 2013 social features
+# Hide SharePoint Server social features
 
- **Summary:** Learn how to remove Web Parts and hide user interface controls that provide social features and replace them with Yammer in SharePoint Server 2013. 
+ **Summary:** Learn how to remove Web Parts and hide user interface controls that provide social features and replace them with Yammer in SharePoint Server. 
   
-The new Yammerapp for SharePoint lets you embed Yammer feeds into on-premises SharePoint Server 2013 sites to make them more social and engaging. Before you can do that, you have to do the following steps:
+The Yammer Embed widget for SharePoint lets you embed Yammer feeds into on-premises SharePoint Server sites to make them more social and engaging. Before you can do that, you have to do the following steps:
   
 - Remove the Newsfeed Web Parts from My Sites and Team Sites.
     
 - Hide the user interface controls that provide social features.
     
-- Install the Yammerapp for SharePoint.
+- Install the Yammer Embed widget for SharePoint.
     
 - Add the Yammer feeds to your sites.
     
 This article takes you through the steps required to do the first two steps: removing the Newsfeed Web Parts and hiding the user interface controls.
   
-For information about how to install and add the Yammer feed on your sites, see [Get and install the Yammer app onto SharePoint Server 2013 sites](get-and-install-the-yammer-app-onto-sharepoint-server-2013-sites.md).
+For information about how to install and add the Yammer feed on your sites, see [Add the Yammer Embed widget to a SharePoint page](add-the-yammer-embed-widget-to-a-sharepoint-page.md).
   
   
-## Which SharePoint Server 2013 enterprise social features are removed?
+## Which SharePoint Server enterprise social features are removed?
 
 When you follow the steps in this article, the following enterprise social features are removed:
   
@@ -55,9 +55,9 @@ When you follow the steps in this article, the following enterprise social featu
 - Viewing **Trending #tags** on users' **Newsfeed** page. 
     
 > [!NOTE]
-> None of the procedures in this article remove the SharePoint Server 2013 enterprise social features and functionality permanently. The features are kept to let future upgrades of SharePoint Server 2013 finish successfully. 
+> None of the procedures in this article remove the SharePoint Server enterprise social features and functionality permanently. The features are kept to let future upgrades of SharePoint Server finish successfully. 
   
-## Which SharePoint Server 2013 enterprise social features stay the same?
+## Which SharePoint Server enterprise social features stay the same?
 
 When you follow the steps in this article, the following enterprise social features do not change:
   
@@ -82,7 +82,25 @@ When you follow the steps in this article, the following enterprise social featu
     > [!IMPORTANT]
     > When the changes in this article are deployed, users can continue to use and fill in fields in the **Newsfeed Settings** page. But the information is no longer shown on My Site. However, information in the **Basic Information** and **Contact Information** pages are still shown on My Site. 
   
-## Remove Web Parts from My Sites
+##Change settings in SharePoint Server 2016
+
+## Remove Web Parts from Team Sites in SharePoint Server 2016
+Each site admin must apply the following steps to their site.
+
+1. From any site in SharePoint Server 2016 that has a Newsfeed web part, select **Edit". 
+
+2. Move the pointer over the **Site Feed** Web Part, and select the box that appears on the right side of the Web Part.
+
+3.  On the ribbon, chose the **Web Part** tab, and then choose **Delete**.
+ 
+4. Choose **OK**.
+
+5. On the ribbon, choose the **Page** tab, and then choose **Stop Editing** and then **Save** to save your changes. 
+    
+6. Check that the Team Site does not show the removed Web Parts.
+
+## Change settings in SharePoint Server 2013
+### Remove Web Parts from My Sites in SharePoint Server 2013
 <a name="proc1"> </a>
 
 A My Site host admin has to apply the following steps to each web server in the server farm.
@@ -124,7 +142,7 @@ A My Site host admin has to apply the following steps to each web server in the 
     
      ![The "About Me" page with Newsfeed removed](../media/AboutMepagewithNewsfeedremoved.GIF)
   
-## Remove Web Parts from Team Sites
+### Remove Newsfeed Web Parts from Team Sites in SharePoint Server 2013
 <a name="proc2"> </a>
 
 As the site collection admin, you have to follow these steps on each team site that you want to remove the site feed from.
@@ -143,7 +161,7 @@ As the site collection admin, you have to follow these steps on each team site t
     
      ![Team sites home page with Newsfeed removed](../media/TeamsiteshomepagewithNewsfeedremoved.GIF)
   
-## Hide user interface controls that provide social features
+### Hide user interface controls that provide social features in SharePoint Server 2013
 <a name="proc3"> </a>
 
 To hide the user interface controls that provide the SharePoint Server 2013 social features, you'll create a custom cascading style sheet (CSS) file and add it to a Master Page. This removes SharePoint Server 2013 social features and replaces them with equivalent Yammer features. First, you create a custom CSS file and upload it to the Style Library for your My Site. Then, based on the type of Master Page your site uses, you reference the CSS file in your Master Page by using one of the following methods described in this article:
@@ -291,10 +309,10 @@ If your My Site uses a custom Master Page, follow the steps in _Register the CSS
   
 24. Browse to the **Newsfeed** page to check that the controls are no longer shown on the page. 
     
-## Additional steps
+### Additional steps
 <a name="more"> </a>
 
-To finish the integration of Yammer into your on-premises SharePoint Server 2013 environment, you have to install the Yammerapp for SharePoint, and embed Yammer feeds. For more information, see [Get and install the Yammer app onto SharePoint Server 2013 sites](get-and-install-the-yammer-app-onto-sharepoint-server-2013-sites.md).
+To finish the integration of Yammer into your on-premises SharePoint Server 2013 environment, you have to install the Yammer Embed widget for SharePoint. For more information, see [Add the Yammer Embed widget to a SharePoint page](add-the-yammer-embed-widget-to-a-sharepoint-page.md).
   
 ## Acknowledgements
 <a name="more"> </a>
@@ -306,7 +324,5 @@ The SharePoint Server 2013 Content Publishing team thanks Vidya Srinivasan and B
 
 #### Concepts
 
-[Integrate Yammer with on-premises SharePoint 2013 environments](integrate-yammer-with-on-premises-sharepoint-2013-environments.md)
-  
-[Get and install the Yammer app onto SharePoint Server 2013 sites](get-and-install-the-yammer-app-onto-sharepoint-server-2013-sites.md)
+[Integrate Yammer with on-premises SharePoint Server environments](integrate-yammer-with-on-premises-sharepoint-2013-environments.md)
 
