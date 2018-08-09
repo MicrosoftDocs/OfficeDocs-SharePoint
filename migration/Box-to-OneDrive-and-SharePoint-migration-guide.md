@@ -25,22 +25,22 @@ Most migrations fall into regular phases as described below.  Proven success fac
 
 ![Migration process](media/migration-process.png)
 
-|**Migration Planning**|**Assess and remediate**|**Prepare your OneDrive environment**|**Migrate**|**User onboarding**|
+|**Migration planning**|**Assess and remediate**|**Prepare your OneDrive environment**|**Migrate**|**User onboarding**|
 |:-----|:-----|:-----|:-----|:-----|
 |What content goes where<br><br>Understanding permissions vs Sharing<br><br>What to expect before and after<br><br>Migration and network performance considerations<br><br>Change management and communications|Analyze Box admin reports<br><br>Assess key areas<br><br>Remediate issues|Pre-provision Office 365 and users|Review migration offerings<br><br>Microsoft FastTrack services<br><br>Migration service providers|Send regular emails to users<br><br>Provide training<br><br>Let users know how they are impacted<br><br>Provide documentation for making the switch|
 
-## Planning
+## Migration planning
 Before beginning your migration, it is important that you plan your outcome by performing an assessment of your current source environment. What you discover will influence your overall strategy and timing, including:
-- The design of the target OneDrive environment and the mapping between source and target systems. 
+- The design of the target environment and the mapping between source and target systems. 
 - The amount of content you migrate. Determine if content is redundant, out of date, or still relevant.
 
 
 ### What content goes where
-Consider how you use the content in your Box accounts today and plan how to transition to the improved Office 365 collaborative experience. 
+Consider how you use the content in your Box accounts today and plan how to transition to Office 365 for a more collaborative experience. 
 
-Does the file belong to me alone, even though I might share it with others?  If so, save it in your OneDrive personal library. Your personal library is private by default, but you can share files with others, which is particularly useful if you haven’t created a team yet. If you’re already working as a team —in Microsoft Teams, SharePoint, or Outlook—you should save your files there, because OneDrive connects you to all your shared libraries, too.
+Does the file belong to me alone, even though I might share it with others?  If so, save it in your OneDrive personal library. Your personal library is private by default, but you can share files with others, which is particularly useful if you arent working as a team yet.
 
-Does the file belong to my team? If you’re working on content intended for team collaboration, a **team library** is a place that users can collaborate on files, documents, and ideas. When you need a new shared location to store team files, create a shared library right from OneDrive, add members, and start working together. These libraries are accessible within Microsoft Teams, SharePoint, and Outlook. It’s easy to copy and move files between your personal library and shared libraries.
+If you’re working on a file intended for team consumption and collaboration, use OneDrive to save it to a **shared library** where team members have access by default.  OneDrive give your access to all your shared libraries in Microsoft Teams, SharePoint or Outlook.  When you need a new shared library for team files, you can create on right from OneDRive, add members, and start working together. 
 
 ### Sharing
 
@@ -160,28 +160,17 @@ There is an important distinction between permissions and sharing.
 The following table maps your current Box sharing experience with OneDrive.
 
 
-### External permission Best Practices
+### External permission best practices
 
 Microsoft’s recommendation is to not handle external sharing during the act of migration. Rather, assess existing external sharing content and then reshare post migration per the following guidelines: 
  
 - Audit external permissions on the Box content source using the Collaborations report (generated through the Box Admin Console)
 - Determine whether that content is worthy to remain externally shared
-- If you decide the content is to remain externally shared, determine whether that content is suited for OneDrive or team libraries based on the *"What content goes where"* above guidance
-- **OneDrive**: reshare files externally with the appropriate external users after the migration  
-- **Team document libraries**:<br> 
+- If you decide the content is to remain externally shared, determine whether that content is suited for OneDrive personal libraries or shared libraries based on the *"What content goes where"* above guidance
+- For **OneDrive** personal libraries:  reshare files externally with the appropriate external users after the migration  
+- For **Shared libraries**:<br> 
     - Where possible, leverage the collaboration and security benefits of grouping external partner specific content in a dedicated SharePoint team site. Read more details here: [Use Office 365 SharePoint Online as a business-to-business (B2B) extranet solution](https://support.office.com/en-us/article/Use-Office-365-SharePoint-Online-as-a-business-to-business-B2B-extranet-solution-7b087413-165a-4e94-8871-4393e0b9c037).<br>
     - If content cannot be grouped as such, then externally reshare on the file or folder level in the target team library. 
-
-### What is the difference between OneDrive and SharePoint?
-OneDrive is your file explorer in the cloud. Use it to store and protect your files and share them with colleagues, inside and outside shared with you by others, or through your teams.
-
-Behind the scenes, all files in Office 365 are actually stored in a content service called SharePoint: the files you see as your personal files, the files you see on intranet sites powered by SharePoint, and the files you work with in Teams, Yammer and Outlook. SharePoint is always there, helping manage and protect your files, and powering content collaboration across Office 365.
-
-You don’t have to compromise; get all the power of SharePoint and work with files wherever you want.
-
-- Work with files in OneDrive app on the web, mobile, or File Explorer on Windows and Finder on Mac
-- Work with files in the context of your group, team, or site
-- Work with files directly in the Office applications
 
 
 
