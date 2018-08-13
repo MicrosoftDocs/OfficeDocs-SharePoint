@@ -83,7 +83,7 @@ The first procedure explains how to set permission to the Application Discovery 
     
   - [Grant-SPObjectSecurity](http://technet.microsoft.com/library/496caa92-2ff4-4048-ab7d-57d8c835bf2b.aspx)
     
-### To set permission to a published service application for a publishing farm by using PowerShell
+### To set permission to a published service application for a consuming farm by using PowerShell
 
 1. Verify that you have the following memberships:
     
