@@ -26,7 +26,7 @@ If the standard ranking models don't satisfy the relevance requirements you have
 ## Why create a custom ranking model?
 <a name="__toc369771593"> </a>
 
-In most cases, the ranking models in SharePoint Server 2013 and SharePoint Online provide good search result ranking, and you can also influence the ranking of search results with query rules. However, if you have a particular relevance need for search results that the standard ranking models don't provide, you can create a custom ranking model.
+In most cases, the ranking models in SharePoint Server 2013 provide good search result ranking, and you can also influence the ranking of search results with query rules. However, if you have a particular relevance need for search results that the standard ranking models don't provide, you can create a custom ranking model.
   
 Here are some typical use cases:
   
@@ -47,14 +47,7 @@ Learn more about ranking and ranking models:
     
 - [Customizing ranking models to improve relevance in SharePoint 2013](https://msdn.microsoft.com/en-us/library/dn169052.aspx)
     
-## Get the app for SharePoint Online
-<a name="__toc369771594"> </a>
 
-- Install the app by following the steps in [Add an app to a site](https://support.office.com/article/ef9c0dbd-7fe1-4715-a1b0-fe3bc81317cb). 
-    
-- Use the **Download an app from the SharePoint store** option. 
-    
-- To use the app, you must be a SharePoint Online administrator.
     
 ## Get the app for SharePoint Server 2013
 <a name="__toc369771595"> </a>
@@ -237,7 +230,7 @@ The new ranking model is by default available for the site where you added the a
     
   - Current site collection
     
-  - **All site collections** (For SharePoint Online: the whole organization. For on-premises: the whole Search Service Application.) 
+  - **All site collections** (the whole Search Service Application) 
     
 3. Click **Publish**.
     
