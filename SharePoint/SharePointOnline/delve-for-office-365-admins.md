@@ -84,14 +84,6 @@ Here are some resources that you can use to get your organization started with D
   
 - SharePoint Online and OneDrive for Business are the primary sources of content in Delve. How you and users manage permissions on documents and sites affects what users see in Delve. Check out [Overview: best practices for managing how people use your team site](https://support.office.com/article/95e83c3d-e1b0-4aae-9d08-e94dcaa4942e) and [Plan your permissions strategy](https://support.office.com/article/c6183e49-9287-4689-999e-0d3f817a41a3) for more information. 
     
- **Announcing Delve**
-  
-- You can download this [email template](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fsuccesscenter.blob.core.windows.net%3A443%2Fmedia%2FDefault%2FResources%2FService_Updates%2FGet%2520started%2520with%2520Delve.docx) and adapt it to announce Delve in your organization. 
-    
- **Get Delve apps**
-  
-- Let users know that they can use Delve on their mobile phones and tablets, see [Office Delve for Android](https://support.office.com/article/4080a65d-c160-4369-bed0-215fb00b5547), [Office Delve for iPhone](https://support.office.com/article/41fef4f6-407b-4e5e-89d8-e1479f8a344b), or [Office Delve for Windows](https://support.office.com/article/9c9bf9a1-2ee9-41ab-ba68-6491c22913eb).
-    
  **Using Delve on a day-to-day basis**
   
 - You can point users to the Delve help articles. [What is Office Delve?](https://support.office.com/article/1315665a-c6af-4409-a28d-49f8916878ca) is a great starting point, and users may be particularly interested in the information in the articles [Are my documents safe in Office Delve?](https://support.office.com/article/f5f409a2-37ed-4452-8f61-681e5e1836f3), [Connect and collaborate in Office Delve](https://support.office.com/article/46f92806-b52c-4187-b60e-b3bf8d25f73e), [Connect and collaborate in Office Delve](https://support.office.com/article/46f92806-b52c-4187-b60e-b3bf8d25f73e) and [Store your documents where Office Delve can get to them](https://support.office.com/article/49a0db49-5e6c-4dda-816e-e11dd77de49d).
