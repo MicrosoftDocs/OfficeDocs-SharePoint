@@ -38,7 +38,7 @@ This article is for IT admins managing the new OneDrive sync client in a Windows
     ![The ADM folder in the OneDrive installation directory](media/85e0fe3f-84eb-4a29-877f-c706dda4d075.png)
   
 3. Copy the .adml and .admx files.
-4. Paste the .admx file in your domain's Central Store, \\*domain*\sysvol\domain\Policies\PolicyDefinition, (where  *domain*  is your domain name, such as corp.contoso.com), and the .adml in the appropriate language subfolder (such as en-us). 
+4. Paste the .admx file in your domain's Central Store, \\*domain*\sysvol\domain\Policies\PolicyDefinitions, (where  *domain*  is your domain name, such as corp.contoso.com), and the .adml in the appropriate language subfolder (such as en-us).  If the PolicyDefinitions folder does not exist, see [How to create and manage the Central Store for Group Policy Administrative Templates in Windows](https://support.microsoft.com/en-us/help/3087759).
     
 4. Configure settings from the domain controller or on a Windows computer by running the [Remote Server Administration Tools](https://go.microsoft.com/fwlink/?linkid=871794). 
     
