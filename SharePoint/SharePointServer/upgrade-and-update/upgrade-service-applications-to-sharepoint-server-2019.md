@@ -648,7 +648,7 @@ Use the following procedure to verify that the steps to create the proxies and a
 3. At the PowerShell command prompt, type the following commands:
     
       ```
-      $pg = Get-SPServiceApplicationProxyGroup -Identity " "
+      $pg = Get-SPServiceApplicationProxyGroup -Identity ""
       $pg.Proxies
       ```
 
