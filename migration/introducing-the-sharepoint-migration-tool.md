@@ -21,18 +21,13 @@ description: ""
 
 
 >[!NOTE]
->Version 2 is now publicly available for download here: [SharePoint Migration Tool Version 2](http://spmtreleasescus.blob.core.windows.net/install/default.htm).  For more information on this release:  [SharePoint Migration Tool new features](https://blogs.technet.microsoft.com/wbaer/2018/04/11/sharepoint-migration-tool-beta-adds-early-preview-capabilities)
-
->[!NOTE]
->Everything you can do with the SharePoint Migration tool now can be done via PowerShell. For more information see: [Migrate to SharePoint Online using PowerShell](https://docs.microsoft.com/en-us/sharepointmigration/overview-spmt-ps-cmdlets). 
-
-
-
-  
+>Version 2 is available for download here: [SharePoint Migration Tool Version 2](http://spmtreleasescus.blob.core.windows.net/install/default.htm).  For more information on this release:  [SharePoint Migration Tool new features](https://blogs.technet.microsoft.com/wbaer/2018/04/11/sharepoint-migration-tool-beta-adds-early-preview-capabilities).<br/><br/>
+>If you prefer using PowerShell, all SPMT functionality is supported. For more information see: [Migrate to SharePoint Online using PowerShell](https://docs.microsoft.com/en-us/sharepointmigration/overview-spmt-ps-cmdlets).
+>
+>Currently the **SharePoint Migration Tool** is not available for users of Office 365 operated by 21Vianet in China or for users of Office 365 Germany.
+ 
 The SharePoint Migration Tool lets you migrate lists or files from your SharePoint on-premises document libraries or from your on-premises file shares and easily move them to either SharePoint or OneDrive in Office 365. It is available to Office 365 users.
   
-> [!NOTE]
->  Currently the **SharePoint Migration Tool** is not available for users of Office 365 operated by 21Vianet in China or for users of Office 365 Germany.
   
 Designed to be used for migrations ranging from the smallest set of files to a large scale enterprise migration, the SharePoint Migration Tool will let you bring your information to the cloud and take advantage of the latest collaboration, intelligence, and security solutions with Office 365.
   
