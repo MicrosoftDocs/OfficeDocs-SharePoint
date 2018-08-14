@@ -77,7 +77,7 @@ The following Computer Configuration policies are available:
     
 - [Configure the maximum OneDrive size for downloading all files automatically](use-group-policy.md#MaxOneDriveSize)
     
-The following Known Folder Move policies are rolling out. If you don't see them yet, you should soon.
+The following Known Folder Move policies are rolling out. If you don't see them yet, you should soon. To see them, you need the OneDrive sync build 18.111.0603.0004 or greater. You can see your build number in the About tab in OneDrive settings.
   
 - [Prompt users to move Windows known folders to OneDrive](use-group-policy.md#OptInWithWizard)
     
