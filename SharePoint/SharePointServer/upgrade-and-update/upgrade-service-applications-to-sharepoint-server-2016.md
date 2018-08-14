@@ -676,7 +676,7 @@ SharePoint Server 2016 normally creates a new search topology with all the searc
           
           **Tip**: If you do not use the variable $ssap, then you must use an ID to identify the Search service application proxy instead of a name. To find the ID, you can run the **Get-SPServiceApplicationProxy** cmdlet to return a list of all service application proxy IDs. 
           
-        - You use an empty **Identity** parameter (" ") to add it to the default group. 
+        - You use an empty **Identity** parameter ("") to add it to the default group. 
           
        For more information, see [Add-SPServiceApplicationProxyGroupMember](http://technet.microsoft.com/library/25ccffa1-84ae-4927-a1e5-4b2d55f6065f.aspx).
     
@@ -745,7 +745,7 @@ Use the following procedure to verify that the steps to create the proxies and a
     
       - $pg is a variable you set to represent the default proxy group.
         
-      - You use an empty **Identity** parameter (" ") to specify the default proxy group. 
+      - You use an empty **Identity** parameter ("") to specify the default proxy group. 
         
         This returns a list of all proxies in the default proxy group, their display names, type names, and IDs.
     
