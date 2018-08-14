@@ -27,7 +27,7 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer rule 
 
 **Cause:** The application credential key wasn't found on these servers or they don't have the same application credential key originally used to store the SMTP password. Every server in the farm must have an application credential key to store and retrieve the SMTP password. The application credential key must be identical on each server.
 
-**Resolution:** Use the **stsadm.exe -o setapppassword -password "&lt;application credential key&gt;"** command on each failing server to set the application credential key. If the current SMTP password was stored using a different application credential key, you must set the new application redential key on every server in the farm and then save the SMTP credentials again.
+**Resolution:** Use the **Set-SPApplicationCredentialKey** cmdlet on each failing server to set the application credential key. If the current SMTP password was stored using a different application credential key, you must set the new application redential key on every server in the farm and then save the SMTP credentials again.
 
 ## See also
 <a name="server"> </a>
