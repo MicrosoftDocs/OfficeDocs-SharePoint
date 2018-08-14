@@ -239,25 +239,17 @@ When you publish your ranking model, you'll get a GUID that identifies the ranki
 ## More info about ranking and ranking models
 <a name="__toc369771605"> </a>
 
-- [Overview of search result ranking in SharePoint Server 2013](https://technet.microsoft.com/en-us/library/dn169065.aspx) (TechNet) 
+- [Overview of search result ranking in SharePoint Server](https://technet.microsoft.com/en-us/library/dn169065.aspx) 
     
-- [Customizing ranking models to improve relevance in SharePoint 2013](https://msdn.microsoft.com/en-us/library/dn169052.aspx) (MSDN) 
+- [Customizing ranking models to improve relevance in SharePoint Server](https://msdn.microsoft.com/en-us/library/dn169052.aspx) 
     
- **SharePoint Online**: 
-  
-- [Manage query rules](manage-query-rules.md)
+     
+   
+- [Manage query rules in SharePoint Server](https://technet.microsoft.com/en-us/library/jj871676.aspx)
     
-- [Change settings for the Search Results Web Part](https://support.office.com/article/40ff85b3-bc5e-4230-b1dd-f088188e487e)
+- [Configure properties of the Search Results Web Part in SharePoint Server](https://technet.microsoft.com/en-us/library/gg549987.aspx)
     
-- [Manage the search schema in SharePoint Online](manage-search-schema.md)
-    
- **SharePoint Server 2013**: 
-  
-- [Manage query rules in SharePoint Server 2013](https://technet.microsoft.com/en-us/library/jj871676.aspx)
-    
-- [Configure properties of the Search Results Web Part in SharePoint Server 2013](https://technet.microsoft.com/en-us/library/gg549987.aspx)
-    
-- [Manage the search schema in SharePoint Server 2013](https://technet.microsoft.com/en-us/library/jj219667.aspx)
+- [Manage the search schema in SharePoint Server](https://technet.microsoft.com/en-us/library/jj219667.aspx)
     
   
 
