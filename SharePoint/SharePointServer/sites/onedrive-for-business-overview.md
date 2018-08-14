@@ -70,6 +70,6 @@ Setting up OneDrive for Business hybrid requires [configuring Office 365](https:
 
 Setting up OneDrive for Business in SharePoint Server requires configuring a User Profile Service application and setting up My Sites. For detailed planning information, see [Plan for OneDrive for Business in SharePoint Server](onedrive-for-business-planning.md).
   
-For more information about how OneDrive for Business is used, see [Store, sync, and share your work files (OneDrive for Business)](https://support.office.com/en-us/article/Store-sync-and-share-your-work-files-OneDrive-for-Business-301817f6-9705-4525-ba3d-79082029b195).
+For more information about syncing OneDrive for Business files in SharePoint Server 2016 or 2013, see [Sync SharePoint files with the OneDrive for Business sync client (Groove.exe)](https://support.office.com/article/59b1de2b-519e-4d3a-8f45-51647cf291cd).
   
 
