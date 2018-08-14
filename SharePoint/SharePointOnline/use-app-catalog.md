@@ -23,16 +23,16 @@ description: "Learn how SharePoint admins can use the SharePoint App Catalog sit
 
 As a SharePoint or global admin in Office 365, you can create an App Catalog site to make internally developed custom apps available for users to install when they browse apps under the **From Your Organization** filter on the Site Contents page. Site owners can then add these apps to customize sites with specific functionality or to display information. 
   
-After an App Catalog site has been created, you can use it to upload any custom apps that your organization has developed. Uploading custom apps isn't much more complicated than uploading a document to a library and setting some properties. You can use the App Catalog site to do things like install custom or third-party apps on sites for users (also called app deployment). You can also manage app requests from users.
+After the App Catalog site has been created, you can use it to upload any custom apps that your organization has developed. Uploading custom apps isn't much more complicated than uploading a document to a library and setting some properties. You can use the App Catalog site to do things like install custom or third-party apps on sites for users (also called app deployment). You can also manage app requests from users.
   
 For more information about your options for developing custom apps for SharePoint Online, see: [Build apps for SharePoint](https://go.microsoft.com/fwlink/p/?LinkID=789301) and [Apps for SharePoint compared with SharePoint solutions](https://go.microsoft.com/fwlink/p/?LinkID=265569). 
   
-## Step 1: Create an App Catalog site collection
+## Step 1: Create the App Catalog site collection
 <a name="__toc347303048"> </a>
 
 The first step is to create the App Catalog site collection if it hasn't already been created. 
   
-Even if you don't plan to make internal custom apps available, you will not be able to do things like change the purchase settings for the SharePoint Store until you create an App Catalog site collection. You can have only one App Catalog site collection for your organization, and you only need to create it once. 
+Even if you don't plan to make internal custom apps available, you will not be able to do things like change the purchase settings for the SharePoint Store until you create the App Catalog site collection. You can have only one App Catalog site collection for your organization, and you only need to create it once. 
   
 1. Sign in to Office 365 as a global admin or SharePoint admin.
     
@@ -53,9 +53,9 @@ Even if you don't plan to make internal custom apps available, you will not be a
 ## Step 2: Add custom apps to the App Catalog site
 <a name="__add_custom_apps"> </a>
 
-To get to the App Catalog site once it's been created, follow steps 1 through 4 in the previous section. Your app catalog may take a little time to appear. The App Catalog site will have a document library for Apps for Office and a document library for Apps for SharePoint, as well as a list that tracks App Requests from site users. 
+To get to the App Catalog site once it's been created, follow steps 1 through 4 in the previous section. The site may take a little time to appear. The App Catalog site will have a document library for Apps for Office and a document library for Apps for SharePoint, as well as a list that tracks App Requests from site users. 
   
-![Screenshot of the home page of an App Catalog site.](media/e20ffd32-5162-49a0-a635-8486e0083afd.jpg)
+![Screenshot of the home page of the App Catalog site.](media/e20ffd32-5162-49a0-a635-8486e0083afd.jpg)
   
 1. On the home page of the App Catalog site, select the tile labeled either **Distribute apps for SharePoint** or **Distribute apps for Office**, depending on which type of app you are uploading.
     

@@ -67,7 +67,7 @@ If you don't allow access to the Office Graph, you disable the functionality in 
     
 2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
-3. In the left pane, choose **Admin centers**)) > **SharePoint**.
+3. In the left pane, choose **Admin centers** > **SharePoint**.
 
 4. Choose **Settings**.
     
