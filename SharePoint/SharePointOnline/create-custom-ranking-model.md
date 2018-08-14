@@ -16,7 +16,7 @@ search.appverid:
 - MET150
 ms.assetid: 345be622-2f63-450c-bd65-869ce830b7c1
 
-description: "If the standard SharePoint 2013 ranking models don't satisfy the relevance requirements you have, you can create a custom ranking model. With the Ranking Model Tuning App, you can do this more easily than before. The app provides a user interface for copying an existing ranking model, judge the results for a set of queries, add or remove rank features, and adjust the weight of these features. Finally, you can evaluate the changes, and publish the new ranking model when you're satisfied with the results."
+description: "If the standard SharePoint ranking models don't satisfy the relevance requirements you have, you can create a custom ranking model. With the Ranking Model Tuning App, you can do this more easily than before. The app provides a user interface for copying an existing ranking model, judge the results for a set of queries, add or remove rank features, and adjust the weight of these features. Finally, you can evaluate the changes, and publish the new ranking model when you're satisfied with the results."
 ---
 
 # Create a custom ranking model by using the Ranking Model Tuning App
@@ -26,7 +26,7 @@ If the standard ranking models don't satisfy the relevance requirements you have
 ## Why create a custom ranking model?
 <a name="__toc369771593"> </a>
 
-In most cases, the ranking models in SharePoint Server 2013 and SharePoint Online provide good search result ranking, and you can also influence the ranking of search results with query rules. However, if you have a particular relevance need for search results that the standard ranking models don't provide, you can create a custom ranking model.
+In most cases, the ranking models in SharePoint Server provide good search result ranking, and you can also influence the ranking of search results with query rules. However, if you have a particular relevance need for search results that the standard ranking models don't provide, you can create a custom ranking model.
   
 Here are some typical use cases:
   
@@ -43,26 +43,19 @@ Example: An accountancy company wants Excel workbooks (file type) to have higher
   
 Learn more about ranking and ranking models: 
   
-- [Overview of search result ranking in SharePoint Server 2013](https://technet.microsoft.com/en-us/library/dn169065.aspx)
+- [Overview of search result ranking in SharePoint Server](https://technet.microsoft.com/en-us/library/dn169065.aspx)
     
-- [Customizing ranking models to improve relevance in SharePoint 2013](https://msdn.microsoft.com/en-us/library/dn169052.aspx)
+- [Customizing ranking models to improve relevance in SharePoint](https://msdn.microsoft.com/en-us/library/dn169052.aspx)
     
-## Get the app for SharePoint Online
-<a name="__toc369771594"> </a>
 
-- Install the app by following the steps in [Add an app to a site](https://support.office.com/article/ef9c0dbd-7fe1-4715-a1b0-fe3bc81317cb). 
     
-- Use the **Download an app from the SharePoint store** option. 
-    
-- To use the app, you must be a SharePoint Online administrator.
-    
-## Get the app for SharePoint Server 2013
+## Get the app for SharePoint Server
 <a name="__toc369771595"> </a>
 
 > [!IMPORTANT]
->  We recommend that you install the SharePoint Server 2013 cumulative update that will be published in March 2014. If you use the **Search Ranking Model with Two Linear Stages** (added in the August 2013 cumulative update) as the base model for your custom ranking model, it will be easier to re-tune and customize your ranking model. 
+> For SharePoint Server 2013 we recommend that you have installed the SharePoint Server 2013 cumulative update from March 2014.  
   
-- Install the app and prepare the SharePoint farm to allow apps by using the same standard processes as for all SharePoint Server 2013 apps: [Install and manage apps for SharePoint](https://technet.microsoft.com/en-us/library/fp161232.aspx).
+- Install the app and prepare the SharePoint farm to allow apps by using the same standard processes as for all SharePoint Server apps: [Install and manage apps for SharePoint](https://technet.microsoft.com/en-us/library/fp161232.aspx).
     
 - To use the app, you must be a Search service application administrator.
     
@@ -92,7 +85,7 @@ When you start the app, you see a list of all available ranking models. On first
   
 Most standard ranking models delivered with SharePoint have a linear stage and a neural stage. With this app, you can only customize the linear stage of a ranking model, as a linear stage is easier to tune and customize. 
   
-We recommend that you use the **Search Ranking Model with Two Linear Stages** as the basis for your custom ranking model. 
+We recommend that you use the **Search Ranking Model with Two Linear Stages** as the basis for your custom ranking model, then it will be easier to re-tune and customize your ranking model. 
   
 1. In the list of existing ranking models, select the model you want to copy. 
     
@@ -181,7 +174,7 @@ When you copy an existing ranking model, the new ranking model contains the same
     
 You can also remove features from the model.
   
- Read more about rank features and aggregation of rank features in [Customizing ranking models to improve relevance in SharePoint 2013](https://msdn.microsoft.com/en-us/library/dn169052.aspx).
+ Read more about rank features and aggregation of rank features in [Customizing ranking models to improve relevance in SharePoint](https://msdn.microsoft.com/en-us/library/dn169052.aspx).
   
 ### Step 4b: Tune the weights
 <a name="__toc369771602"> </a>
@@ -237,7 +230,7 @@ The new ranking model is by default available for the site where you added the a
     
   - Current site collection
     
-  - **All site collections** (For SharePoint Online: the whole organization. For on-premises: the whole Search Service Application.) 
+  - **All site collections** (the whole Search Service Application) 
     
 3. Click **Publish**.
     
@@ -246,25 +239,17 @@ When you publish your ranking model, you'll get a GUID that identifies the ranki
 ## More info about ranking and ranking models
 <a name="__toc369771605"> </a>
 
-- [Overview of search result ranking in SharePoint Server 2013](https://technet.microsoft.com/en-us/library/dn169065.aspx) (TechNet) 
+- [Overview of search result ranking in SharePoint Server](https://technet.microsoft.com/en-us/library/dn169065.aspx) 
     
-- [Customizing ranking models to improve relevance in SharePoint 2013](https://msdn.microsoft.com/en-us/library/dn169052.aspx) (MSDN) 
+- [Customizing ranking models to improve relevance in SharePoint Server](https://msdn.microsoft.com/en-us/library/dn169052.aspx) 
     
- **SharePoint Online**: 
-  
-- [Manage query rules](manage-query-rules.md)
+     
+   
+- [Manage query rules in SharePoint Server](https://technet.microsoft.com/en-us/library/jj871676.aspx)
     
-- [Change settings for the Search Results Web Part](https://support.office.com/article/40ff85b3-bc5e-4230-b1dd-f088188e487e)
+- [Configure properties of the Search Results Web Part in SharePoint Server](https://technet.microsoft.com/en-us/library/gg549987.aspx)
     
-- [Manage the search schema in SharePoint Online](manage-search-schema.md)
-    
- **SharePoint Server 2013**: 
-  
-- [Manage query rules in SharePoint Server 2013](https://technet.microsoft.com/en-us/library/jj871676.aspx)
-    
-- [Configure properties of the Search Results Web Part in SharePoint Server 2013](https://technet.microsoft.com/en-us/library/gg549987.aspx)
-    
-- [Manage the search schema in SharePoint Server 2013](https://technet.microsoft.com/en-us/library/jj219667.aspx)
+- [Manage the search schema in SharePoint Server](https://technet.microsoft.com/en-us/library/jj219667.aspx)
     
   
 

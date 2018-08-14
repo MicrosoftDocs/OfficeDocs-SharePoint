@@ -447,7 +447,7 @@ SharePoint Server 2019 Public Preview normally creates a new search topology wit
   
  **To upgrade the Search service application by using PowerShell**
   
-1. To copy the search administration database in the SharePoint Server 2016 farm to the SharePoint Server 2019 Public Preview farm, follow these steps:
+1. Copy the search administration database in the SharePoint Server 2016 farm to the SharePoint Server 2019 Public Preview farm, follow these steps:
     
     > [!NOTE]
     > You copied all other content and service databases in your SharePoint Server 2016 environment in an earlier step of the process for upgrading to SharePoint Server 2019 Public Preview. We recommend copying the Search Administration database at this later stage because you have to pause the Search service application in your SharePoint Server 2016 environment while copying the Search Administration database. 
@@ -455,49 +455,49 @@ SharePoint Server 2019 Public Preview normally creates a new search topology wit
     > [!IMPORTANT]
     > Perform these steps in the SharePoint Server 2016 environment. 
   
-1. Verify that you have the following memberships:
+    - Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+      - **securityadmin** fixed server role on the SQL Server instance. 
+        
+      - **db_owner** fixed database role on all databases that are to be updated. 
+        
+      - Administrators group on the server on which you are running the PowerShell cmdlets.
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
-    
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
-    
-    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2019 Public Preview cmdlets. 
-    
-    > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+        An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2019 Public Preview cmdlets. 
+        
+        > [!NOTE]
+        > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
-2. Start the SharePoint 2019 Management Shell.    
+    - Start the SharePoint 2019 Management Shell.    
   
-3. Set the Search Administration database to read-only. In the second phase of the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019 Public Preview, you set all the other databases to read-only. Follow [the same instructions](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2019.md) now for the Search Administration database. 
+    - Set the Search Administration database to read-only. In the second phase of the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019 Public Preview, you set all the other databases to read-only. Follow [the same instructions](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2019.md) now for the Search Administration database.
     
-4. Pause the Search service application. At the PowerShell command prompt, type the following command:
+    - Pause the Search service application. At the PowerShell command prompt, type the following command:
     
-  ```
-  $ssa = Get-SPEnterpriseSearchServiceApplication <SearchServiceApplicationName>
-  Suspend-SPEnterpriseSearchServiceApplication -Identity $ssa
-  ```
+        ```
+          $ssa = Get-SPEnterpriseSearchServiceApplication <SearchServiceApplicationName>
+          Suspend-SPEnterpriseSearchServiceApplication -Identity $ssa
+        ```
 
-    Where:
+        Where:
     
-  -  _SearchServiceApplicationName_ is the name of the Search service application you want to pause. 
+          _SearchServiceApplicationName_ is the name of the Search service application you want to pause. 
     
-    > [!NOTE]
-    > While the Search service application is paused, the index in the SharePoint Server 2016 environment isn't updated. This means that during the upgrade to SharePoint Server 2019 Public Preview, search results might be less fresh. 
+        > [!NOTE]
+        > While the Search service application is paused, the index in the SharePoint Server 2016 environment isn't updated. This means that during the upgrade to SharePoint Server 2019 Public Preview, search results might be less fresh. 
   
-5. Copy the search administration database in the SharePoint Server 2016 farm to the SharePoint Server 2019 Public Preview farm, follow the procedures in [Copy databases to the new farm for upgrade to SharePoint Server 2019 Public Preview](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2016.md) for the search administration database only. 
+    - Copy the search administration database in the SharePoint Server 2016 farm to the SharePoint Server 2019 Public Preview farm, follow the procedures in [Copy databases to the new farm for upgrade to SharePoint Server 2019 Public Preview](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2016.md) for the search administration database only. 
     
-    > [!IMPORTANT]
-    > Perform the next steps in the SharePoint Server 2019 Public Preview environment. 
+        > [!IMPORTANT]
+        > Perform the next steps in the SharePoint Server 2019 Public Preview environment. 
   
 2. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
-    
-  - **db_owner** fixed database role on all databases that are to be updated. 
-    
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+      - **securityadmin** fixed server role on the SQL Server instance. 
+        
+      - **db_owner** fixed database role on all databases that are to be updated. 
+        
+      - Administrators group on the server on which you are running the PowerShell cmdlets.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2019 Public Preview cmdlets. 
     
@@ -508,109 +508,106 @@ SharePoint Server 2019 Public Preview normally creates a new search topology wit
        
 4. To store the application pool that you want to use as a variable for this service application, at the PowerShell command prompt, type the following command:
     
-  ```
-  $applicationPool = Get-SPServiceApplicationPool -Identity 'SharePoint Web Services default'
-  ```
+      ```
+      $applicationPool = Get-SPServiceApplicationPool -Identity 'SharePoint Web Services default'
+      ```
 
     Where:
     
-  -  _SharePoint Web Services default_ is the name of the service application pool that will contain the new service applications. 
+      _SharePoint Web Services default_ is the name of the service application pool that will contain the new service applications. 
     
     This cmdlet sets the service application pool as a variable that you can use again in the cmdlets that follow. If you have multiple application pools and have to use a different application pool for a particular service application, repeat this step in the procedure to create each service application to use the appropriate application pool.
     
 5. To restore the Search service application and upgrade the Search Administration database, at the PowerShell command prompt, type the following command:
     
-  ```
-  $searchInst = Get-SPEnterpriseSearchServiceInstance -local
-  # Gets the Search service instance and sets a variable to use in the next command
-  Restore-SPEnterpriseSearchServiceApplication -Name '<SearchServiceApplicationName>' -applicationpool $applicationPool -databasename '<SearchServiceApplicationDBName>' -databaseserver <ServerName> -AdminSearchServiceInstance $searchInst 
-  ```
+      ```
+      $searchInst = Get-SPEnterpriseSearchServiceInstance -local
+      # Gets the Search service instance and sets a variable to use in the next command
+      Restore-SPEnterpriseSearchServiceApplication -Name '<SearchServiceApplicationName>' -applicationpool $applicationPool -databasename '<SearchServiceApplicationDBName>' -databaseserver <ServerName> -AdminSearchServiceInstance $searchInst 
+      ```
 
     Where:
     
-  -  _SearchServiceApplicationName_ is the name of the Search service application. 
-    
-  - $applicationpool is the variable that you set to identify the service application pool to use.
-    
-    **Note**: If you do not use the variable $applicationPool, then you must specify the name of an existing service application pool in the format '  _Application Pool Name_'. To view a list of service application pools, you can run the **Get-SPServiceApplicationPool** cmdlet. 
-    
-  -  _SearchServiceApplicationDBName_ is the name of the search administration database that you want to upgrade, and that this Search service application shall use. 
-    
-  - $searchInst is the variable that you set to identify the new Search Service application instance.
+      -  _SearchServiceApplicationName_ is the name of the Search service application. 
+        
+      - $applicationpool is the variable that you set to identify the service application pool to use.
+        
+        **Note**: If you do not use the variable $applicationPool, then you must specify the name of an existing service application pool in the format '  _Application Pool Name_'. To view a list of service application pools, you can run the **Get-SPServiceApplicationPool** cmdlet. 
+        
+      -  _SearchServiceApplicationDBName_ is the name of the search administration database that you want to upgrade, and that this Search service application shall use. 
+        
+      - $searchInst is the variable that you set to identify the new Search Service application instance.
     
     **Note**: A Search service application upgrade might fail, for example due to network or SQL Server latency. If an error message appears during the upgrade, do the following: 
     
-1. Delete the Search Administration database that you were trying to upgrade.
-    
-2. Using the backup copy that you made of the Search Administration database, repeat the following procedures in this article for the Search service application only:
-    
-1. [Restore a backup copy of the database](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2019.md#restore)
-    
-2. [Set the databases to read-write](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2019.md#ReadWrite)
-    
-3. Type the command to upgrade the Search service application again at the PowerShell command prompt.
-    
-    For more information, see [Restore-SPEnterpriseSearchServiceApplication](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Restore-SPEnterpriseSearchServiceApplication?view=sharepoint-ps).
-    
-    You must follow several steps to create the Search service application proxy and add it to the default proxy group. You must complete separate actions to find the ID for the Search service application, create the new proxy, get the proxy ID, and then add the proxy to the default proxy group.
-    
-6. Type the following command to get the ID for the Search service application and store it as a variable:
-    
-  ```
-  $ssa = Get-SPEnterpriseSearchServiceApplication
-  ```
+    - Delete the Search Administration database that you were trying to upgrade.
 
-    For more information, see [Get-SPEnterpriseSearchServiceApplication](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Get-SPEnterpriseSearchServiceApplication?view=sharepoint-ps).
+    - Using the backup copy that you made of the Search Administration database, repeat the following procedures in this article for the Search service application only:
+        - [Restore a backup copy of the database](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2019.md#restore)
+        - [Set the databases to read-write](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2019.md#ReadWrite)
+    - Type the command to upgrade the Search service application again at the PowerShell command prompt.
     
-7. Type the following command to create a proxy for the Search service application:
+     For more information, see [Restore-SPEnterpriseSearchServiceApplication](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Restore-SPEnterpriseSearchServiceApplication?view=sharepoint-ps).
     
-  ```
-  New-SPEnterpriseSearchServiceApplicationProxy -Name ProxyName -SearchApplication $ssa 
-  ```
+6. Create the Search service application proxy and add it to the default proxy group by completing these actions:
+    
+    - Type the following command to get the ID for the Search service application and store it as a variable:
+    
+      ```
+      $ssa = Get-SPEnterpriseSearchServiceApplication
+      ```
 
-    Where:
+      For more information, see [Get-SPEnterpriseSearchServiceApplication](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Get-SPEnterpriseSearchServiceApplication?view=sharepoint-ps).
     
-  -  _ProxyName_ is the proxy name that you want to use. 
+    - Type the following command to create a proxy for the Search service application:
     
-  - $ssa is the variable that you set earlier to identify the new Search service application.
-    
-    **Tip**: If you do not use the variable $ssa, then you must use an ID to identify the Search service application instead of a name. To find the ID, you can run the **Get-SPServiceApplication** cmdlet to return a list of all service application IDs. 
-    
-    For more information, see [New-SPEnterpriseSearchServiceApplicationProxy](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/New-SPEnterpriseSearchServiceApplicationProxy?view=sharepoint-ps).
-    
-8. Type the following command to get the Search service application proxy ID for the proxy you just created and set it as the variable $ssap:
-    
-  ```
-  $ssap = Get-SPEnterpriseSearchServiceApplicationProxy 
-  ```
+      ```
+      New-SPEnterpriseSearchServiceApplicationProxy -Name ProxyName -SearchApplication $ssa 
+      ```
 
-    For more information, see [Get-SPEnterpriseSearchServiceApplicationProxy](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Get-SPEnterpriseSearchServiceApplicationProxy?view=sharepoint-ps).
+        Where:
     
-9. Type the following command to add the Search service application proxy to the default proxy group:
+      -  _ProxyName_ is the proxy name that you want to use. 
+        
+      - $ssa is the variable that you set earlier to identify the new Search service application.
     
-  ```
-  Add-SPServiceApplicationProxyGroupMember -member $ssap -identity " "
-  ```
+        **Tip**: If you do not use the variable $ssa, then you must use an ID to identify the Search service application instead of a name. To find the ID, you can run the **Get-SPServiceApplication** cmdlet to return a list of all service application IDs. 
+    
+        For more information, see [New-SPEnterpriseSearchServiceApplicationProxy](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/New-SPEnterpriseSearchServiceApplicationProxy?view=sharepoint-ps).
+    
+    - Type the following command to get the Search service application proxy ID for the proxy you just created and set it as the variable $ssap:
+    
+      ```
+      $ssap = Get-SPEnterpriseSearchServiceApplicationProxy 
+      ```
 
-    Where:
+        For more information, see [Get-SPEnterpriseSearchServiceApplicationProxy](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Get-SPEnterpriseSearchServiceApplicationProxy?view=sharepoint-ps).
     
-  - $ssap is the variable that you set earlier to identify the ID for the proxy you just created for the Search service application.
+    - Type the following command to add the Search service application proxy to the default proxy group:
     
-    **Tip**: If you do not use the variable $ssap, then you must use an ID to identify the Search service application proxy instead of a name. To find the ID, you can run the **Get-SPServiceApplicationProxy** cmdlet to return a list of all service application proxy IDs. 
+        ```
+        Add-SPServiceApplicationProxyGroupMember -member $ssap -identity ""
+        ```
     
-  - You use an empty **Identity** parameter (" ") to add it to the default group. 
+        Where:
     
-    For more information, see [Add-SPServiceApplicationProxyGroupMember](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Add-SPServiceApplicationProxyGroupMember?view=sharepoint-ps).
+      - $ssap is the variable that you set earlier to identify the ID for the proxy you just created for the Search service application.
+    
+        **Tip**: If you do not use the variable $ssap, then you must use an ID to identify the Search service application proxy instead of a name. To find the ID, you can run the **Get-SPServiceApplicationProxy** cmdlet to return a list of all service application proxy IDs. 
+    
+      - You use an empty **Identity** parameter ("") to add it to the default group. 
+    
+        For more information, see [Add-SPServiceApplicationProxyGroupMember](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Add-SPServiceApplicationProxyGroupMember?view=sharepoint-ps).
     
 10. If the SharePoint Server 2016 farm uses a Links Database that is partitioned, partition the Links Database in the SharePoint Server 2019 Public Preview farm the same way. Learn how in [Move-SPEnterpriseSearchLinksDatabases](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Move-SPEnterpriseSearchLinksDatabases?view=sharepoint-ps).
     
 11. (Optional) Preserve search relevance settings from the SharePoint Server 2016 farm. Because the upgraded Search service application has a new, empty index, search analytics data from the SharePoint Server 2016 farm cannot be fully retained. Copy the Analytics Reporting database from the SharePoint Server 2016 farm and attach it to the new Search service application in the SharePoint Server 2019 Public Preview farm:
     
-  - In the SharePoint Server 2016 farm, [backup](https://docs.microsoft.com/en-us/SharePoint/administration/move-or-rename-service-application-databases#Backup) the Analytics Reporting database. 
-    
-  - In the SharePoint Server 2019 Public Preview farm, [restore the backed up database](https://docs.microsoft.com/en-us/SharePoint/administration/move-or-rename-service-application-databases#Restore) to the new database server. 
-    
-  - In the SharePoint Server 2019 Public Preview farm, [attach the restored database](https://docs.microsoft.com/en-us/SharePoint/administration/move-or-rename-service-application-databases#PS) to the new Search service application. 
+      - In the SharePoint Server 2016 farm, [backup](https://docs.microsoft.com/en-us/SharePoint/administration/move-or-rename-service-application-databases#Backup) the Analytics Reporting database. 
+        
+      - In the SharePoint Server 2019 Public Preview farm, [restore the backed up database](https://docs.microsoft.com/en-us/SharePoint/administration/move-or-rename-service-application-databases#Restore) to the new database server. 
+        
+      - In the SharePoint Server 2019 Public Preview farm, [attach the restored database](https://docs.microsoft.com/en-us/SharePoint/administration/move-or-rename-service-application-databases#PS) to the new Search service application. 
     
 12. Verify that the search topology on the new SharePoint Server 2019 Public Preview farm is alike that of the SharePoint Server 2016 farm. If your requirements for search have changed, now is a good time to scale out the search topology of the new SharePoint Server 2019 Public Preview farm.
     
@@ -618,14 +615,14 @@ SharePoint Server 2019 Public Preview normally creates a new search topology wit
     
     At the PowerShell command prompt, type the following command:
     
-  ```
-  $ssa = Get-SPEnterpriseSearchServiceApplication <SearchServiceApplicationName>
-  $ssa.ForceResume(0x02)
-  ```
+      ```
+      $ssa = Get-SPEnterpriseSearchServiceApplication <SearchServiceApplicationName>
+      $ssa.ForceResume(0x02)
+      ```
 
     Where:
     
-  -  _SearchServiceApplicationName_ is the name of the Search service application you want to resume. 
+      -  _SearchServiceApplicationName_ is the name of the Search service application you want to resume. 
     
 ## Verify that all of the new proxies are in the default proxy group
 <a name="VerifyProxies"> </a>
@@ -636,11 +633,11 @@ Use the following procedure to verify that the steps to create the proxies and a
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
-    
-  - **db_owner** fixed database role on all databases that are to be updated. 
-    
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+      - **securityadmin** fixed server role on the SQL Server instance. 
+        
+      - **db_owner** fixed database role on all databases that are to be updated. 
+        
+      - Administrators group on the server on which you are running the PowerShell cmdlets.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
     
@@ -650,20 +647,20 @@ Use the following procedure to verify that the steps to create the proxies and a
     
 3. At the PowerShell command prompt, type the following commands:
     
-  ```
-  $pg = Get-SPServiceApplicationProxyGroup -Identity " "
-  $pg.Proxies
-  ```
+      ```
+      $pg = Get-SPServiceApplicationProxyGroup -Identity ""
+      $pg.Proxies
+      ```
 
     Where:
     
-  - $pg is a variable you set to represent the default proxy group.
+      - $pg is a variable you set to represent the default proxy group.
+        
+      - You use an empty **Identity** parameter ("") to specify the default proxy group. 
     
-  - You use an empty **Identity** parameter (" ") to specify the default proxy group. 
+      This returns a list of all proxies in the default proxy group, their display names, type names, and IDs.
     
-    This returns a list of all proxies in the default proxy group, their display names, type names, and IDs.
-    
-For more information, see Get-SPServiceApplicationProxyGroup.
+    For more information, see Get-SPServiceApplicationProxyGroup.
   
 Now that the service applications are upgraded, you can start the process to upgrade the content databases. The first step in that process is to create the web applications that are needed for each content database.
   
