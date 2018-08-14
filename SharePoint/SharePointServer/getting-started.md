@@ -44,7 +44,7 @@ Depending on your version, system requirements and prerequisites could vary.
 
 ## I have SharePoint Server installed
 
-Do you already have SharePoint Server installed and want to upgrade to a new version? Or apply the new feature packs or updates?
+Do you already have SharePoint Server installed and want to upgrade to a new version? Or apply the new feature packs or updates?<br/>
 <br/>
 |**What do you need to do?**|**Read**|
 |:-----|:-----|
