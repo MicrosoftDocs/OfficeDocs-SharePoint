@@ -54,8 +54,6 @@ How you have shared your files will dictate how they appear in the **Shared with
 - Files and folders that someone shared with you via OneDrive (they clicked the "Share" button and typed your name or email address)
 - Files and folders that you have opened from a shared location
 
-Sharing is an explicit action a user takes to invite another user to collaborate on content. Sharing content implicitly gives that user permission to edit the content as well. Only content that has been explicitly shared with a user (or a group to which they belong) will appear in their Shared with Me view in OneDrive on the web. 
-
 
 
 The following table maps your current Box sharing experience with OneDrive.
