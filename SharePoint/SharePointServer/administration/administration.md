@@ -36,7 +36,7 @@ description: "Summary: The articles in this section help you operate and maintai
    
 ## Related operations and maintenance articles for SharePoint Server
 
-- [Windows PowerShell Reference for SharePoint](https://docs.microsoft.com/en-us/powershell/sharepoint/?view=sharepoint-ps)
+- [Microsoft PowerShell Reference for SharePoint](https://docs.microsoft.com/en-us/powershell/sharepoint/?view=sharepoint-ps)
     
 - [System Center Operations Manager knowledge articles for SharePoint Server](../technical-reference/system-center-operations-manager-knowledge-articles.md)
     
