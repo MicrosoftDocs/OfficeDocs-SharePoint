@@ -49,9 +49,9 @@ If you’re working on a file intended for team consumption and collaboration, u
 
 ### Understanding permissions vs sharing
 
-How you shared your files will dictate how they appear in **Shared with Me** view in OneDrive. **Shared with Me** includes
+How you have shared your files will dictate how they appear in the **Shared with Me** view in OneDrive. **Shared with Me** includes:
 
-- Files and folders that someone shared with you via OneDrive (that is, they hit the "Share" button and typed your name or email address)
+- Files and folders that someone shared with you via OneDrive (they clicked the "Share" button and typed your name or email address)
 - Files and folders that you have opened from a shared location
 
 Sharing is an explicit action a user takes to invite another user to collaborate on content. Sharing content implicitly gives that user permission to edit the content as well. Only content that has been explicitly shared with a user (or a group to which they belong) will appear in their Shared with Me view in OneDrive on the web. 
