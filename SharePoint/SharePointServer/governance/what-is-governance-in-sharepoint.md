@@ -30,7 +30,7 @@ Governance is the set of policies, roles, responsibilities, and processes that c
 - Help ensure the best return on your investment in technology.
     
 > [!NOTE]
-> The What is governance? poster gives a summary of this content. Download the [PDF version](https://go.microsoft.com/fwlink/?LinkId=331051) or [Visio version](https://go.microsoft.com/fwlink/?LinkId=331050), or [Zoom into the model in full detail with Zoom.it from Microsoft](https://go.microsoft.com/fwlink/?LinkId=331052). 
+> The What is governance? poster gives a summary of this content. Download the [PDF version](https://go.microsoft.com/fwlink/?LinkId=331051) or [Visio version](https://go.microsoft.com/fwlink/?LinkId=331050).
   
 ## Governance team
 <a name="GovernanceTeam"> </a>
