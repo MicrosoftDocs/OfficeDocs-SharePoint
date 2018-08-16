@@ -33,7 +33,7 @@ For these reasons, we recommend moving or redirecting known folders to OneDrive 
   
 ## About the Known Folder Move Group Policy objects
 
-The following Known Folder Move policies are rolling out. If you don't see them yet, you will soon.
+The following Known Folder Move policies are rolling out. If you don't see them yet, you will soon. To see them, you need the OneDrive sync build 18.111.0603.0004 or greater. You can see your build number in the About tab in OneDrive settings. 
   
 - [Prompt users to move Windows known folders to OneDrive](use-group-policy.md#OptInWithWizard)
     
