@@ -3,7 +3,7 @@ title: "Deploy the new OneDrive sync client for Windows"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 07/6/2018
+ms.date: 08/16/2018
 ms.audience: Admin
 ms.topic: get-started-article
 ms.service: one-drive
@@ -95,9 +95,9 @@ The installer will install the OneDrive executable file under **%localappdata%\M
   
 ### Deploy the RMS client to enable syncing IRM-protected files
 
-The new OneDrive sync client for Windows now supports syncing IRM-protected SharePoint document libraries and OneDrive locations. To create a seamless IRM sync experience for your users, deploy the latest [Rights Management Service (RMS) client](https://aka.ms/odirm) to your users' computers. 
+The new OneDrive sync client for Windows now supports syncing IRM-protected SharePoint document libraries and OneDrive locations. To create a seamless IRM sync experience for your users, deploy to your users' computers the latest [Rights Management Service (RMS) client](https://aka.ms/odirm) from the Microsoft Download Center. Even if these computers have the Azure Information Protection client installed, which includes the RMS client, the OneDrive sync client still needs a separate installation of the RMS client from the Microsoft Download Center.
   
-To silently install the client on computers, use the /qn switch as part of the command-line options of the Microsoft Windows Installer Tool (Msiexec.exe). For example, the following command shows the silent mode installation (assuming the RMS Client installer package is already downloaded to C:\Downloads)
+To silently install the RMS client on computers, use the /qn switch as part of the command-line options of the Microsoft Windows Installer Tool (Msiexec.exe). For example, the following command shows the silent mode installation (assuming the RMS Client installer package is already downloaded to C:\Downloads)
   
 ```
 msiexec /qn c:\downloads\setup.msi
