@@ -67,9 +67,11 @@ If you don't allow access to the Office Graph, you disable the functionality in 
     
 2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
-3. Choose **Settings**.
+3. In the left pane, choose **Admin centers** > **SharePoint**.
+
+4. Choose **Settings**.
     
-4.  Under Office Graph, select one of the following: 
+5.  Under Office Graph, select one of the following: 
     
   - **Allow access to the Office Graph**
     
@@ -83,14 +85,6 @@ Here are some resources that you can use to get your organization started with D
  **Before you announce Delve**
   
 - SharePoint Online and OneDrive for Business are the primary sources of content in Delve. How you and users manage permissions on documents and sites affects what users see in Delve. Check out [Overview: best practices for managing how people use your team site](https://support.office.com/article/95e83c3d-e1b0-4aae-9d08-e94dcaa4942e) and [Plan your permissions strategy](https://support.office.com/article/c6183e49-9287-4689-999e-0d3f817a41a3) for more information. 
-    
- **Announcing Delve**
-  
-- You can download this [email template](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fsuccesscenter.blob.core.windows.net%3A443%2Fmedia%2FDefault%2FResources%2FService_Updates%2FGet%2520started%2520with%2520Delve.docx) and adapt it to announce Delve in your organization. 
-    
- **Get Delve apps**
-  
-- Let users know that they can use Delve on their mobile phones and tablets, see [Office Delve for Android](https://support.office.com/article/4080a65d-c160-4369-bed0-215fb00b5547), [Office Delve for iPhone](https://support.office.com/article/41fef4f6-407b-4e5e-89d8-e1479f8a344b), or [Office Delve for Windows](https://support.office.com/article/9c9bf9a1-2ee9-41ab-ba68-6491c22913eb).
     
  **Using Delve on a day-to-day basis**
   

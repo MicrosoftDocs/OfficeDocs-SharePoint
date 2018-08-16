@@ -116,9 +116,12 @@ If some users are licensed to use OneDrive, but you don't want them to create a 
     
     ![The Manage User Permissions link on the user profiles page](media/946e0564-2e7d-40a6-8603-cc3534a557be.PNG)
   
-6. By default, everyone except external users are allowed to create a OneDrive. Remove that group and add specific groups to allow only a subset of licensed users to create a OneDrive.
+6. By default, "Everyone except external users" has permission to "Create Personal Site" (which includes creating a OneDrive and saving user data such as followed and frequent sites). Remove that group and add specific groups to allow only a subset of licensed users to create a OneDrive.
     
     ![The permissions dialog box for controlling who can create a OneDrive](media/a23b4ec4-7862-4fd4-895a-983fed62c24d.png)
+
+> [!NOTE]
+> To block access to OneDrive for your entire organization, select the **Disable OneDrive** check box. We recommend keeping the Create Personal Site box selected so you don't affect the SharePoint home page experience for your users.  
   
 7. Click **OK**.
     
