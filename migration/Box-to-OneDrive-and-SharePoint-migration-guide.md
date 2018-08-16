@@ -33,6 +33,7 @@ Most migrations fall into regular phases as described below.  Proven success fac
 Before beginning your migration, it is important that you plan your outcome by performing an assessment of your current source environment. What you discover will influence your overall strategy and timing, including:
 - The design of the target environment and the mapping between source and target systems. 
 - The amount of content you migrate. Determine if content is redundant, out of date, or still relevant.
+- Build your user onboarding into your upfront planning. Communicate early and often with your users about the migration and how it will impact them. Don't wait until the very end to start preparing them for the change.
 
 
 ### What content goes where
@@ -40,52 +41,47 @@ Consider how you use the content in your Box accounts today and plan how to tran
 
 Does the file belong to me alone, even though I might share it with others?  If so, save it in your OneDrive personal library. Your personal library is private by default, but you can share files with others, which is particularly useful if you arent working as a team yet.
 
-If you’re working on a file intended for team consumption and collaboration, use OneDrive to save it to a **shared library** where team members have access by default.  OneDrive give your access to all your shared libraries in Microsoft Teams, SharePoint or Outlook.  When you need a new shared library for team files, you can create on right from OneDRive, add members, and start working together. 
+If you’re working on a file intended for team consumption and collaboration, use OneDrive to save it to a **shared library** where team members have access by default.  OneDrive gives you access to all your shared libraries in Microsoft Teams, SharePoint or Outlook.  When you need a new shared library for team files, you can create on right from OneDrive, add members, and start working together. 
 
-### Sharing
+
 
 ![Sharing](media/Migration-WhatGoesWhere-Box-to-ODSP-520x.png)
 
+### Understanding permissions vs sharing
 
-Depending on how you shared your files, will dictate how they appear in OneDrive. Sharing is an explicit action  a user takes to invite another user to collaborate on content. Sharing content implicitly gives that user permission to edit the content as well. Only content that has been explicitly shared with a user (or a group to which they belong) will appear in their Shared with Me view in OneDrive. 
+How you shared your files will dictate how they appear in **Shared with Me** view in OneDrive. **Shared with Me** includes
+
+- Files and folders that someone shared with you via OneDrive (that is, they hit the "Share" button and typed your name or email address)
+- Files and folders that you have opened from a shared location
+
+Sharing is an explicit action a user takes to invite another user to collaborate on content. Sharing content implicitly gives that user permission to edit the content as well. Only content that has been explicitly shared with a user (or a group to which they belong) will appear in their Shared with Me view in OneDrive on the web. 
+
+
+
 The following table maps your current Box sharing experience with OneDrive.
 
 
 |**Box**|**OneDrive**|
 |:-----|:-----|
-|Folders or file with only one owner, but more than one contributor|As the owner, content should be migrated to the user's OneDrive folder.<br><br>Any user who has access to a user's folder will have that folder automatically appear in their **Shared with Me** list.|
-|Only one owner, but shared with a Box group|As the owner, content will be migrated to the user's OneDrive folder. <br><br>The Box group should be converted to a security group.  <br><br>Email should then be sent to the new security group, where each user can accept the invitation link. Content will then appear in those users **Shared with Me** list.|
-|Folders or file with multiple owners (co-admin in Box)|Content should be migrated to the appropriate team library.<br><br>Any user who has access to the team site and follows the team site, will have the team site appear on the left side of their OneDrive view.| 
+|Folders or file with only one owner, but more than one contributor|As the owner, content should be migrated to the user's OneDrive personal library.<br><br>Any user who has access to a user's folder will have that folder automatically appear in their **Shared with Me** list.|
+|Only one owner, but shared with a Box group|As the owner, content will be migrated to the user's OneDrive personal library. <br><br>The Box group should be converted to a security group.  <br><br>Email should then be sent to the new security group, where each user can accept the invitation link. Content will then appear in those users **Shared with Me** list.|
+|Folders or file with multiple owners (co-admin in Box)|Content should be migrated to the appropriate shared library.<br><br>Any user who has access to the shared library and follows the associated SharePoint team site, will have the SharePoint team site appear on the left side navigation of OneDrive on the web.| 
 |Box folders with contributors who are external to your organization|For prescriptive guidance see the specific External Permission Best Practice section in this document. <br><br>**Note:**  Any content that is shared with a user from another company’s Box instance won’t be migrated.  If the user still wants to retain that content – their Box account will need to remain active.|
-|**Shared with** Box end user experience|Only content that has been explicitly shared with a user will appear in their **Shared with Me** view in OneDrive. <br><br>For content stored in team libraries: any user who has access to the team site and follows the team site, will have the team site appear on the left side of their OneDrive view.|
+|**Shared with** Box end user experience|Only content that has been explicitly shared with a user will appear in their **Shared with Me** view in OneDrive. <br><br>For content stored in shared libraries: any user who has access to the team site and follows the team site, will have the team site appear on the left side of their OneDrive view.|
 
-## User Adoption
-Develop a plan to prepare your users for the upcoming change. Consideration factors to include in your plan: 
-- **Evangelize the move.** Underscore the benefits, the collaborative capabilities, and the reasons for making the move.
-- **End user training.**  Provide training to your users on the features in OneDrive.
-- **Train your helpdesk.**  Before the cutover, train your helpdesk in key features and common user questions.
-- **Prepare for any possible downtime** the migration may incur.
-  
- Develop a plan for sending communications to your user base, providing clear statements of timing, expectations and impact to the individual. Consideration factors:
 
-- The migration timeline and how it will impact them. Include any end user calls to action. 
-- Assure them that if they have content already in OneDrive, that their content is safe and won’t be overwritten. 
-- Let them know whether individuals can opt-out of the migration process
 
-### Adoption related resources
-- [Microsoft 365 adoption guide](https://devfasttrackv4storage.blob.core.windows.net/marketing/en-us/resources/Microsoft%20365%20User%20Adoption%20Guide.pdf): Outlining methodology and resources for implementing proven adoption success factors
-- [Posters, email templates](https://fasttrack.microsoft.com/microsoft365/resourcehub): customizable templates to generate internal awareness and excitement
-- [OneDrive](https://support.office.com/en-us/article/onedrive-video-training-1f608184-b7e6-43ca-8753-2ff679203132?ocmsassetID=1f608184-b7e6-43ca-8753-2ff679203132&ui=en-US&rs=en-US&ad=US) and [team library](https://support.office.com/en-us/article/video-create-a-team-or-communication-site-551e190a-8fbe-47ae-a88a-798b443c46b1?ui=en-US&rs=en-US&ad=US) video training
-- [OneDrive](https://support.office.com/en-us/article/upload-files-to-onedrive-for-business-a1397e56-61ec-4ed2-9dac-727bf8ac3357?ui=en-US&rs=en-US&ad=US) and [team library](https://support.office.com/en-us/article/sign-in-to-sharepoint-online-324a89ec-e77b-4475-b64a-13a0c14c45ec?ui=en-US&rs=en-US&ad=US) Quick start training guides: get up and running quickly with the basic info you need to be productive right away 
+## Assess and remediate your content
+Before beginning your migration, it is important that you perform an analysis of your current environment.  Only you know your data and how and who uses it.  Think about how and what Box features you use in production.
+ 
+All of the following recommended assessments can be performed using Box’s Folders and Files admin report. Run this report and use its results to perform these assessments. Remediate your content on the source before beginning your migration to save time and effort later.
 
-### Make the Switch! 
-The following articles will help your users “make the switch” from Box to OneDrive. The topics show how you used to do common tasks in Box and how you do the same in OneDrive.
-
-- [Switch to OneDrive from Box](https://support.office.com/en-us/article/Switch-to-OneDrive-from-Box-b7f3c899-edb7-44ab-bc3f-0a37e9f1a7fa)
-- [Open with OneDrive](https://support.office.com/en-us/article/open-with-onedrive-c24d1cef-dddb-43b9-929b-45b571b84990?ui=en-US&rs=en-US&ad=US)
-- [Store with OneDrive](https://support.office.com/en-us/article/store-with-onedrive-7be433cd-d95b-46d8-9e8e-a1e32ecc4724?ui=en-US&rs=en-US&ad=US)
-- [Work together with OneDrive](https://support.office.com/en-us/article/work-together-with-onedrive-626cff9f-9a56-472b-a77d-b019d97eec8d?ui=en-US&rs=en-US&ad=US)
-- [Learn more about OneDrive](https://support.office.com/en-us/article/learn-more-about-onedrive-38acc14b-fd86-466e-b802-baece8107c86?ui=en-US&rs=en-US&ad=US)
+| |**Assess**|**Remediate**|
+|:-----|:-----|:-----|
+|**File extensions**|Find all files in the Folders and Files report whose Path ends in one of the extensions defined here: [Types of files that cannot be added to a list or library](https://support.office.com/en-us/article/Types-of-files-that-cannot-be-added-to-a-list-or-library-30BE234D-E551-4C2A-8DE8-F8546FFBF5B3)|If the blocked file types are scripting files, they are blocked because scripting capabilities are turned off by default in OneDrive. <br><br>If you want to allow these file types, turn on scripting capabilities as described here: [Allow or prevent custom script](https://support.office.com/en-us/article/allow-or-prevent-custom-script-1f2c515f-5d7e-448a-9fd7-835da935584f?ui=en-US&rs=en-001&ad=US). <br><br>Make sure you understand why these files are blocked by default as described here: [Security considerations of allowing custom script](https://support.office.com/en-us/article/security-considerations-of-allowing-custom-script-b0420ab0-aff2-4bbc-bf5e-03de9719627c)|
+|**File and folder name characters**|Find all items in the Folders and Files report whose name contains any of the characters detailed here: [Restrictions and limitations when you sync SharePoint libraries to your computer through OneDrive](https://support.microsoft.com/en-us/help/2933738/restrictions-and-limitations-when-you-sync-sharepoint-libraries-to-you)|Work with your migration vendor to substitute these characters in all file and folder names.<br><br>**Note:** The # and % characters are supported but not enabled by default. Follow these steps to enable them: [New support for # and % in SharePoint Online and OneDrive](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/New-support-for-and-in-SharePoint-Online-and-OneDrive-for/ba-p/60357)|
+|**File and folder path length**|Find all items in the *Folders and Files* report whose Path exceeds the file path length described here: [SharePoint Online limits](https://support.office.com/en-us/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498)|Work with your migration vendor to reorganize your file and folder structure such that it does not exceed this limit. Splitting large drives that serve several scenarios into multiple smaller, more focused drives may help here.|
+|**Large drives and complex sharing**|Scan for any drives that have a very large amount of content, or many different unique sharing permissions – this is usually a sign that the drive should be broken down into smaller, more focused sites. <br><br>Specifically, any drive that has more than 50,000 documents shared with different users must be broken up. Use Box’s Folders and Files report and Shared Links report to identify such drives.|Identify sets of content within these drives that are conceptually similar (same project area, all shared with the same users, etc). Move these sets of content out and into new drives before starting migration.|
 
 
 
@@ -99,17 +95,7 @@ Before migrating your Box content, you must pre-provision your users in OneDrive
 
 
 
-## Assess and remediate your content
-Before beginning your migration, it is important that you perform an analysis of your current environment.  Only you know your data and how and who uses it.  Think about how and what Box features you use in production.
- 
-All of following recommended assessments can be performed using Box’s Folders and Files admin report. Run this report and use its results to perform these assessments. Remediate your content on the source before beginning your migration to save time and effort later.
 
-| |**Assess**|**Remediate**|
-|:-----|:-----|:-----|
-|**File extensions**|Find all files in the Folders and Files report whose Path ends in one of the extensions defined here: [Types of files that cannot be added to a list or library](https://support.office.com/en-us/article/Types-of-files-that-cannot-be-added-to-a-list-or-library-30BE234D-E551-4C2A-8DE8-F8546FFBF5B3)|If the blocked file types are scripting files, they are blocked because scripting capabilities are turned off by default in OneDrive. <br><br>If you want to allow these file types, turn on scripting capabilities as described here: [Allow or prevent custom script](https://support.office.com/en-us/article/allow-or-prevent-custom-script-1f2c515f-5d7e-448a-9fd7-835da935584f?ui=en-US&rs=en-001&ad=US). <br><br>Make sure you understand why these files are blocked by default as described here: [Security considerations of allowing custom script](https://support.office.com/en-us/article/security-considerations-of-allowing-custom-script-b0420ab0-aff2-4bbc-bf5e-03de9719627c)|
-|**File and folder name characters**|Find all items in the Folders and Files report whose name contains any of the characters detailed here: [Restrictions and limitations when you sync SharePoint libraries to your computer through OneDrive](https://support.microsoft.com/en-us/help/2933738/restrictions-and-limitations-when-you-sync-sharepoint-libraries-to-you)|Work with your migration vendor to substitute these characters in all file and folder names.<br><br>**Note:** The # and % characters are supported but not enabled by default. Follow these steps to enable them: [New support for # and % in SharePoint Online and OneDrive](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/New-support-for-and-in-SharePoint-Online-and-OneDrive-for/ba-p/60357)|
-|**File and folder path length**|Find all items in the *Folders and Files* report whose Path exceeds the file path length described here: [SharePoint Online limits](https://support.office.com/en-us/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498)|Work with your migration vendor to reorganize your file and folder structure such that it does not exceed this limit. Splitting large drives that serve several scenarios into multiple smaller, more focused drives may help here.|
-|**Large drives and complex sharing**|Scan for any drives that have a very large amount of content, or many different unique sharing permissions – this is usually a sign that the drive should be broken down into smaller, more focused sites. <br><br>Specifically, any drive that has more than 50,000 documents shared with different users must be broken up. Use Box’s Folders and Files report and Shared Links report to identify such drives.|Identify sets of content within these drives that are conceptually similar (same project area, all shared with the same users, etc). Move these sets of content out and into new drives before starting migration.|
 ## Migrate
 
 ### Migration process
@@ -136,7 +122,37 @@ This guidance covers enablement of both OneDrive for Business and the source env
 **Migration service providers**
 
 You may decide that your organization has specific business needs that require you to use third-party services or applications to help you execute your migration. Explore the professional services and applications available from partners in the Microsoft Partner Center. There you can find experts to help you in your enterprise content migration to Office 365.  For more information see: [Microsoft Partner Center](https://partnercenter.microsoft.com/en-us/partner/home). 
- 
+
+## User Onboarding
+Develop a plan to prepare your users for the upcoming change. Consideration factors to include in your plan: 
+- **Evangelize the move.** Underscore the benefits, the collaborative capabilities, and the reasons for making the move.
+- **End user training.**  Provide training to your users on the features in OneDrive.
+- **Train your helpdesk.**  Before the cutover, train your helpdesk in key features and common user questions.
+- **Prepare for any possible downtime** the migration may incur.
+  
+ Develop a plan for sending communications to your user base, providing clear statements of timing, expectations and impact to the individual. Consideration factors:
+
+- The migration timeline and how it will impact them. Include any end user calls to action. 
+- Assure them that if they have content already in OneDrive, that their content is safe and won’t be overwritten. 
+- Let them know whether individuals can opt-out of the migration process
+
+### Onboarding related resources
+- [Microsoft 365 adoption guide](https://devfasttrackv4storage.blob.core.windows.net/marketing/en-us/resources/Microsoft%20365%20User%20Adoption%20Guide.pdf): Outlining methodology and resources for implementing proven adoption success factors
+- [Posters, email templates](https://fasttrack.microsoft.com/microsoft365/resourcehub): customizable templates to generate internal awareness and excitement
+- [OneDrive](https://support.office.com/en-us/article/onedrive-video-training-1f608184-b7e6-43ca-8753-2ff679203132?ocmsassetID=1f608184-b7e6-43ca-8753-2ff679203132&ui=en-US&rs=en-US&ad=US) and [team library](https://support.office.com/en-us/article/video-create-a-team-or-communication-site-551e190a-8fbe-47ae-a88a-798b443c46b1?ui=en-US&rs=en-US&ad=US) video training
+- [OneDrive](https://support.office.com/en-us/article/upload-files-to-onedrive-for-business-a1397e56-61ec-4ed2-9dac-727bf8ac3357?ui=en-US&rs=en-US&ad=US) and [team library](https://support.office.com/en-us/article/sign-in-to-sharepoint-online-324a89ec-e77b-4475-b64a-13a0c14c45ec?ui=en-US&rs=en-US&ad=US) Quick start training guides: get up and running quickly with the basic info you need to be productive right away 
+
+### Make the switch! 
+The following articles will help your users “make the switch” from Box to OneDrive. The topics show how you used to do common tasks in Box and how you do the same in OneDrive.
+
+- [Switch to OneDrive from Box](https://support.office.com/en-us/article/Switch-to-OneDrive-from-Box-b7f3c899-edb7-44ab-bc3f-0a37e9f1a7fa)
+- [Open with OneDrive](https://support.office.com/en-us/article/open-with-onedrive-c24d1cef-dddb-43b9-929b-45b571b84990?ui=en-US&rs=en-US&ad=US)
+- [Store with OneDrive](https://support.office.com/en-us/article/store-with-onedrive-7be433cd-d95b-46d8-9e8e-a1e32ecc4724?ui=en-US&rs=en-US&ad=US)
+- [Work together with OneDrive](https://support.office.com/en-us/article/work-together-with-onedrive-626cff9f-9a56-472b-a77d-b019d97eec8d?ui=en-US&rs=en-US&ad=US)
+- [Learn more about OneDrive](https://support.office.com/en-us/article/learn-more-about-onedrive-38acc14b-fd86-466e-b802-baece8107c86?ui=en-US&rs=en-US&ad=US)
+
+
+
 ## Advanced
 
 ### Permissions and roles
@@ -154,11 +170,6 @@ There is an important distinction between permissions and sharing.
 |Viewer|Viewer|
 |Previewer|None|
 |Uploader|None|
-
-
-**Sharing** is an explicit action a user takes to invite another user to collaborate on content. Sharing content implicitly gives that user permission to edit the content as well. Only content that has been explicitly shared with a user (or a group to which they belong) will appear in their **Shared with Me** view in OneDrive.
-The following table maps your current Box sharing experience with OneDrive.
-
 
 ### External permission best practices
 
