@@ -3,7 +3,6 @@ title: "Box to OneDrive and SharePoint Migration Guide"
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
-ms.date: 6/18/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
