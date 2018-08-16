@@ -167,7 +167,7 @@ To help you with site and site collection planning, the Microsoft PowerShell com
   Get-SPWebApplication -IncludeCentralAdministration | Get-SPSite -Limit All | Get-SPWeb -Limit All | Select-Object URL, Title, Description, ParentWeb, AssociatedOwnerGroup, SiteAdministrators, WebTemplate, UIVersion, QuickLaunchEnabled, TreeViewEnabled, Language, Locale, Author, HasUniquePerm | Sort URL | export-csv <file location and name.csv>
   ```
 
-    Where:
+  Where:
     
   -  _URL_ is the address of the site. 
     

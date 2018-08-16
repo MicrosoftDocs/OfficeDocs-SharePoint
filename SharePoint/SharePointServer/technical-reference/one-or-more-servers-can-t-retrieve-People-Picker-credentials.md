@@ -15,7 +15,7 @@ ms.assetid:
 description: "Summary: Learn how to resolve the SharePoint Health Analyzer rule One or more servers can't retrieve People Picker credentials for SharePoint Server 2019 Public Preview."
 ---
 
-# One or more server can't retrieve People Picker credentials (SharePoint Server 2019 Public Preview)
+# One or more servers can't retrieve People Picker credentials (SharePoint Server 2019 Public Preview)
 
 **Applies to:** SharePoint Server 2019 Public Preview
 
@@ -27,4 +27,4 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer rule 
 
 **Cause:** The application credential key wasn't found on these servers or they don't have the same application credential key originally used to store the People Picker credentials. Servers must have an application credential key to store and retrieve People Picker credentials. The application credential key must be identical on each server.
 
-**Resolution:** Use the **stsadm.exe -o setapppassword -password "&lt;application credential key&gt;"** command on each failing server to set the application credential key. If the current People Picker credentials were stored using a different application credential key, you must set the new application credential key on every server in the farm and then save the People Picker credentials again.
+**Resolution:** Use the **Set-SPApplicationCredentialKey** cmdlet on each failing server to set the application credential key. If the current People Picker credentials were stored using a different application credential key, you must set the new application credential key on every server in the farm and then save the People Picker credentials again.

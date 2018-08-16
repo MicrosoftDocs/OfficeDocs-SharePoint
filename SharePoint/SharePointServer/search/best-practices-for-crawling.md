@@ -91,11 +91,11 @@ Crawling content can significantly decrease the performance of the servers that 
 
 By default, in the first Search service application in a farm, the preconfigured content source **Local SharePoint sites** contains at least the following two start addresses: 
   
-- http://Web_application_public_URL, which is for crawling all SharePoint Server sites in a web application
+- https://webAppUrl, which is for crawling the Default Zone URL specified for the existing Web Application(s)
     
-- sps3:// _My_Site_host_URL_, which is for crawling user profiles
+- sps3s://myWebAppUrl, which is for crawling user profiles
     
-However, if you are deploying "people search", we recommend that you create a separate content source for the start address sps3:// _My_Site_host_URL_ and run a crawl for that content source first. The reason for doing this is that after the crawl finishes, the search system generates a list to standardize people's names. This is so that when a person's name has different forms in one set of search results, all results for that person are displayed in a single group (known as a **result block**). For example, for the search query "Anne Weiler", all documents authored by Anne Weiler or A. Weiler or alias AnneW can be displayed in a result block that is labeled "Documents by Anne Weiler". Similarly, all documents authored by any of those identities can be displayed under the heading "Anne Weiler" in the refinement panel if "Author" is one of the categories there.
+However, if you are deploying "People Search", we recommend that you create a separate content source for the start address sps3s://myWebAppUrl and run a crawl for that content source first. The reason for doing this is that after the crawl finishes, the search system generates a list to standardize people's names. This is so that when a person's name has different forms in one set of search results, all results for that person are displayed in a single group (known as a **result block**). For example, for the search query "Anne Weiler", all documents authored by Anne Weiler or A. Weiler or alias AnneW can be displayed in a result block that is labeled "Documents by Anne Weiler". Similarly, all documents authored by any of those identities can be displayed under the heading "Anne Weiler" in the refinement panel if "Author" is one of the categories there.
   
  **To crawl user profiles and then crawl SharePoint Server sites**
   
@@ -103,11 +103,11 @@ However, if you are deploying "people search", we recommend that you create a se
     
 2. Follow the instructions in [Deploy people search in SharePoint Server](deploy-people-search.md). As part of those instructions, you do the following:
     
-  - Create a content source that is only for crawling user profiles (the profile store). You might give that content source a name such as People. In the new content source, in the **Start Addresses** section, type sps3://  _My_Site_Host_URL_, where  _My_Site_host_URL_ is the URL of the My Site host. 
+  - Create a content source that is only for crawling user profiles (the profile store). You might give that content source a name such as People. In the new content source, in the **Start Addresses** section, type sps3s:// myWebAppUrl, where myWebAppUrl is the URL of the My Site host. 
     
   - Start a crawl for the People content source that you just created. 
     
-  - Delete the start address sps3:// _My_Site_Host_URL_ from the preconfigured content source **Local SharePoint sites**.
+  - Delete the start address sps3s://myWebAppUrl from the preconfigured content source **Local SharePoint sites**.
     
 3. Wait about two hours after the crawl for the People content source finishes. 
     

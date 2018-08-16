@@ -148,7 +148,8 @@ To use SQL Server to back up the databases that are associated with the Search s
 3. At the PowerShell command prompt, type the following command:
     
   ```
-  $ssa = Get-SPEnterpriseSearchServiceApplication -Identity <SearchServiceApplicationName> Suspend-SPEnterpriseSearchServiceApplication -Identity $ssa
+  $ssa = Get-SPEnterpriseSearchServiceApplication -Identity <SearchServiceApplicationName> 
+  Suspend-SPEnterpriseSearchServiceApplication -Identity $ssa
   ```
 
     Where:
@@ -207,7 +208,8 @@ To use SQL Server to back up the databases that are associated with the Search s
 3. At the PowerShell command prompt, type the following command:
     
   ```
-  $ssa = Get-SPEnterpriseSearchServiceApplication -Identity <SearchServiceApplicationName> Resume-SPEnterpriseSearchServiceApplication -Identity $ssa
+  $ssa = Get-SPEnterpriseSearchServiceApplication -Identity <SearchServiceApplicationName> 
+  Resume-SPEnterpriseSearchServiceApplication -Identity $ssa
   ```
 
     Where:

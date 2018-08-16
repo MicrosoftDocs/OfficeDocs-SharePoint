@@ -163,7 +163,7 @@ This table shows the minimum amount of hardware resources that each application 
   
 <sup>2</sup>With SharePoint Server 2013 the minimum amount of resources needed are 500 GB storage, 16 GB RAM, and four CPU cores. 
   
-<sup>3</sup>With SharePoint Server 2016 you can also use 300 GB storage, 16 GB RAM, and four CPU cores, but then each index component can only hold 10 million items and the search farm only supports the same volume of content as a SharePoint Server 2013 search farm. 
+<sup>3</sup>With SharePoint Server 2016 you can also use 250 GB storage, 16 GB RAM, and four CPU cores, but then each index component can only hold 10 million items and the search farm only supports the same volume of content as a SharePoint Server 2013 search farm. 
   
 #### Minimum hardware resources for the medium search farm
 <a name="BKMK_MinHWMedium"> </a>
@@ -182,7 +182,7 @@ This table shows the minimum amount of hardware resources that each application 
   
 <sup>2</sup>With SharePoint Server 2013 the minimum amount of resources needed are 500 GB storage, 16 GB RAM, and four CPU cores. 
   
-<sup>3</sup>With SharePoint Server 2016 you can also use 300 GB storage, 16 GB RAM, and four CPU cores, but then each index component can only hold 10 million items and the search farm only supports the same volume of content as a SharePoint Server 2013 search farm. 
+<sup>3</sup>With SharePoint Server 2016 you can also use 250 GB storage, 16 GB RAM, and four CPU cores, but then each index component can only hold 10 million items and the search farm only supports the same volume of content as a SharePoint Server 2013 search farm. 
   
 #### Minimum hardware resources for the large search farm
 <a name="BKMK_MinHWLarge"> </a>
@@ -201,7 +201,7 @@ This table shows the minimum amount of hardware resources that each application 
   
 <sup>2</sup>With SharePoint Server 2013 the minimum amount of resources needed are 500 GB storage, 16 GB RAM, and four CPU cores. 
   
-<sup>3</sup>With SharePoint Server 2016 you can also use 300 GB storage, 16 GB RAM, and four CPU cores, but then each index component can only hold 10 million items and the search farm only supports the same volume of content as a SharePoint Server 2013 search farm. 
+<sup>3</sup>With SharePoint Server 2016 you can also use 250 GB storage, 16 GB RAM, and four CPU cores, but then each index component can only hold 10 million items and the search farm only supports the same volume of content as a SharePoint Server 2013 search farm. 
   
 #### Minimum hardware resources for the extra large search farm
 <a name="BKMK_MinHWExtraLarge"> </a>

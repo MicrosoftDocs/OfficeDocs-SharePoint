@@ -3,6 +3,7 @@ title: "System requirements for SharePoint Servers 2016 and 2019 Public Preview"
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
+ms.date: 01/8/2018
 ms.audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro

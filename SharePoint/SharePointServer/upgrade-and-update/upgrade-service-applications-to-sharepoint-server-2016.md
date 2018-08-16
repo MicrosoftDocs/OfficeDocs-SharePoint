@@ -506,67 +506,69 @@ SharePoint Server 2016 normally creates a new search topology with all the searc
   
  **To upgrade the Search service application by using PowerShell**
   
-1. To copy the search administration database in the SharePoint Server 2013 with Service Pack 1 (SP1) farm to the SharePoint Server 2016 farm, follow these steps:
-    
+1. Copy the search administration database in the SharePoint Server 2013 with Service Pack 1 (SP1) farm to the SharePoint Server 2016 farm by following these steps:
     > [!NOTE]
-    > You copied all other content and service databases in your SharePoint Server 2013 with Service Pack 1 (SP1) environment in an earlier step of the process for upgrading to SharePoint Server 2016. We recommend copying the Search Administration database at this later stage because you have to pause the Search service application in your SharePoint Server 2013 with Service Pack 1 (SP1) environment while copying the Search Administration database. 
-  
-    > [!IMPORTANT]
-    > Perform these steps in the SharePoint Server 2013 with Service Pack 1 (SP1) environment. 
-  
-1. Verify that you have the following memberships:
-    
-  - **securityadmin** fixed server role on the SQL Server instance. 
-    
-  - **db_owner** fixed database role on all databases that are to be updated. 
-    
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
-    
-    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
-    
-    > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
-  
-2. Start the SharePoint Management Shell.
-    
-  - For Windows Server 2012 R2:
-    
-  - On the **Start** screen, click **SharePoint Management Shell**.
-    
-    If **SharePoint Management Shell** is not on the **Start** screen: 
-    
-  - Right-click **Computer**, click **All apps**, and then click **SharePoint Management Shell**.
-    
-    For more information about how to interact with Windows Server 2012 R2, see [Common Management Tasks and Navigation in Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkId=478553).
-    
-3. Set the Search Administration database to read-only. In the second phase of the process to upgrade SharePoint Server 2013 with Service Pack 1 (SP1) data and sites to SharePoint Server 2016, you set all the other databases to read-only. Follow [the same instructions](https://technet.microsoft.com/en-us/library/jj839720%28v=office.16%29.aspx) now for the Search Administration database. 
-    
-4. Pause the Search service application. At the Windows PowerShell command prompt, type the following command:
-    
-  ```
-  $ssa = Get-SPEnterpriseSearchServiceApplication <SearchServiceApplicationName>
-  Suspend-SPEnterpriseSearchServiceApplication -Identity $ssa
-  ```
+    > You copied all other content and service databases in your SharePoint Server 2013 with Service Pack 1 (SP1) environment in an earlier step of the process for upgrading to SharePoint Server 2016. We recommend copying the Search Administration database at this later stage because you have to pause the Search service application in your SharePoint Server 2013 with Service Pack 1 (SP1) environment while copying the Search Administration database.
 
-    Where:
-    
-  -  _SearchServiceApplicationName_ is the name of the Search service application you want to pause. 
-    
-    > [!NOTE]
-    > While the Search service application is paused, the index in the SharePoint Server 2013 with Service Pack 1 (SP1) environment isn't updated. This means that during the upgrade to SharePoint Server 2016, search results might be less fresh. 
-  
-5. Copy the search administration database in the SharePoint Server 2013 with Service Pack 1 (SP1) farm to the SharePoint Server 2016 farm, follow the procedures in [Copy databases to the new farm for upgrade to SharePoint Server 2016](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2016.md) for the search administration database only. 
-    
+ 
     > [!IMPORTANT]
-    > Perform the next steps in the SharePoint Server 2016 environment. 
+    > Perform these steps in the SharePoint Server 2013 with Service Pack 1 (SP1) environment.
+    
+  
+    - Verify that you have the following memberships:
+        
+      - **securityadmin** fixed server role on the SQL Server instance. 
+        
+      - **db_owner** fixed database role on all databases that are to be updated. 
+        
+      - Administrators group on the server on which you are running the PowerShell cmdlets.
+        
+        An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
+        
+        > [!NOTE]
+        > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+  
+    - Start the SharePoint Management Shell.
+        
+        For Windows Server 2012 R2: On the **Start** screen, click **SharePoint Management Shell**.
+            
+        If **SharePoint Management Shell** is not on the **Start** screen, right-click **Computer**, click **All apps**, and then click **SharePoint Management Shell**.
+          
+       
+        For more information about how to interact with Windows Server 2012 R2, see [Common Management Tasks and Navigation in Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkId=478553).
+    
+    - Set the Search Administration database to read-only. In the second phase of the process to upgrade SharePoint Server 2013 with Service Pack 1 (SP1) data and sites to SharePoint Server 2016, you set all the other databases to read-only. Follow [the same instructions](https://technet.microsoft.com/en-us/library/jj839720%28v=office.16%29.aspx) now for the Search Administration database.         
+    
+    - Pause the Search service application. At the Windows PowerShell command prompt, type the following command:
+
+        ```
+          $ssa = Get-SPEnterpriseSearchServiceApplication <SearchServiceApplicationName>
+          Suspend-SPEnterpriseSearchServiceApplication -Identity $ssa
+    
+      ```
+  
+
+        Where: 
+
+        _SearchServiceApplicationName_ is the name of the Search service application you want to pause.
+    
+
+    
+        > [!NOTE]
+        > While the Search service application is paused, the index in the SharePoint Server 2013 with Service Pack 1 (SP1) environment isn't updated. This means that during the upgrade to SharePoint Server 2016, search results might be less fresh. 
+  
+    - Copy the search administration database in the SharePoint Server 2013 with Service Pack 1 (SP1) farm to the SharePoint Server 2016 farm, follow the procedures in [Copy databases to the new farm for upgrade to SharePoint Server 2016](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2016.md) for the search administration database only. 
+        
+        > [!IMPORTANT]
+        > Perform the next steps in the SharePoint Server 2016 environment. 
   
 2. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
-    
-  - **db_owner** fixed database role on all databases that are to be updated. 
-    
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+      - **securityadmin** fixed server role on the SQL Server instance. 
+        
+      - **db_owner** fixed database role on all databases that are to be updated. 
+        
+      - Administrators group on the server on which you are running the PowerShell cmdlets.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
     
@@ -575,136 +577,133 @@ SharePoint Server 2016 normally creates a new search topology with all the searc
   
 3. Start the SharePoint 2016 Management Shell.
     
-  - For Windows Server 2012 R2:
-    
-  - On the **Start** screen, click **SharePoint 2016 Management Shell**.
-    
-    If **SharePoint 2016 Management Shell** is not on the **Start** screen: 
-    
-  - Right-click **Computer**, click **All apps**, and then click **SharePoint 2016 Management Shell**.
-    
-    For more information about how to interact with Windows Server 2012 R2, see [Common Management Tasks and Navigation in Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkId=478553).
+     For Windows Server 2012 R2: On the **Start** screen, click **SharePoint Management Shell**.
+            
+     If **SharePoint Management Shell** is not on the **Start** screen, right-click **Computer**, click **All apps**, and then click **SharePoint Management Shell**.
+          
+       
+     For more information about how to interact with Windows Server 2012 R2, see [Common Management Tasks and Navigation in Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkId=478553).
     
 4. To store the application pool that you want to use as a variable for this service application, at the Microsoft PowerShell command prompt, type the following command:
     
-  ```
-  $applicationPool = Get-SPServiceApplicationPool -Identity 'SharePoint Web Services default'
-  ```
+      ```
+      $applicationPool = Get-SPServiceApplicationPool -Identity 'SharePoint Web Services default'
+      ```
 
     Where:
     
-  -  _SharePoint Web Services default_ is the name of the service application pool that will contain the new service applications. 
+     _SharePoint Web Services default_ is the name of the service application pool that will contain the new service applications. 
     
     This cmdlet sets the service application pool as a variable that you can use again in the cmdlets that follow. If you have multiple application pools and have to use a different application pool for a particular service application, repeat this step in the procedure to create each service application to use the appropriate application pool.
     
 5. To restore the Search service application and upgrade the Search Administration database, at the Microsoft PowerShell command prompt, type the following command:
     
-  ```
-  $searchInst = Get-SPEnterpriseSearchServiceInstance -local
-  # Gets the Search service instance and sets a variable to use in the next command
-  Restore-SPEnterpriseSearchServiceApplication -Name '<SearchServiceApplicationName>' -applicationpool $applicationPool -databasename '<SearchServiceApplicationDBName>' -databaseserver <ServerName> -AdminSearchServiceInstance $searchInst 
-  ```
+      ```
+      $searchInst = Get-SPEnterpriseSearchServiceInstance -local
+      # Gets the Search service instance and sets a variable to use in the next command
+      Restore-SPEnterpriseSearchServiceApplication -Name '<SearchServiceApplicationName>' -applicationpool $applicationPool -databasename '<SearchServiceApplicationDBName>' -databaseserver <ServerName> -AdminSearchServiceInstance $searchInst 
+      ```
 
     Where:
     
-  -  _SearchServiceApplicationName_ is the name of the Search service application. 
-    
-  - $applicationpool is the variable that you set to identify the service application pool to use.
-    
-    **Note**: If you do not use the variable $applicationPool, then you must specify the name of an existing service application pool in the format '  _Application Pool Name_'. To view a list of service application pools, you can run the **Get-SPServiceApplicationPool** cmdlet. 
-    
-  -  _SearchServiceApplicationDBName_ is the name of the search administration database that you want to upgrade, and that this Search service application shall use. 
-    
-  - $searchInst is the variable that you set to identify the new Search Service application instance.
+      -  _SearchServiceApplicationName_ is the name of the Search service application. 
+        
+      - $applicationpool is the variable that you set to identify the service application pool to use.
+        
+        **Note**: If you do not use the variable $applicationPool, then you must specify the name of an existing service application pool in the format '  _Application Pool Name_'. To view a list of service application pools, you can run the **Get-SPServiceApplicationPool** cmdlet. 
+        
+      -  _SearchServiceApplicationDBName_ is the name of the search administration database that you want to upgrade, and that this Search service application shall use. 
+        
+      - $searchInst is the variable that you set to identify the new Search Service application instance.
     
     **Note**: A Search service application upgrade might fail, for example due to network or SQL Server latency. If an error message appears during the upgrade, do the following: 
     
-1. Delete the Search Administration database that you were trying to upgrade.
+    - Delete the Search Administration database that you were trying to upgrade.
+        
+    - Using the backup copy that you made of the Search Administration database, repeat the following procedures in this article for the Search service application only:
+        
+        - [Restore a backup copy of the database](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2016.md#restore)
+            
+        - [Set the databases to read-write](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2016.md#ReadWrite)
+        
+    - Type the command to upgrade the Search service application again at the Microsoft PowerShell command prompt.
+        
+      For more information, see [Restore-SPEnterpriseSearchServiceApplication](http://technet.microsoft.com/library/fb717b7b-53cd-44c4-b94d-348c6403d4b2.aspx).
     
-2. Using the backup copy that you made of the Search Administration database, repeat the following procedures in this article for the Search service application only:
+6. Create the Search service application proxy and add it to the default proxy group by completing these actions:
     
-1. [Restore a backup copy of the database](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2016.md#restore)
+    - Type the following command to get the ID for the Search service application and store it as a variable:
     
-2. [Set the databases to read-write](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2016.md#ReadWrite)
-    
-3. Type the command to upgrade the Search service application again at the Microsoft PowerShell command prompt.
-    
-    For more information, see [Restore-SPEnterpriseSearchServiceApplication](http://technet.microsoft.com/library/fb717b7b-53cd-44c4-b94d-348c6403d4b2.aspx).
-    
-    You must follow several steps to create the Search service application proxy and add it to the default proxy group. You must complete separate actions to find the ID for the Search service application, create the new proxy, get the proxy ID, and then add the proxy to the default proxy group.
-    
-6. Type the following command to get the ID for the Search service application and store it as a variable:
-    
-  ```
-  $ssa = Get-SPEnterpriseSearchServiceApplication
-  ```
+      ```
+      $ssa = Get-SPEnterpriseSearchServiceApplication
+      ```
 
-    For more information, see [Get-SPEnterpriseSearchServiceApplication](http://technet.microsoft.com/library/b8030354-e62d-4723-a809-eb6cf8c301c5.aspx).
+      For more information, see [Get-SPEnterpriseSearchServiceApplication](http://technet.microsoft.com/library/b8030354-e62d-4723-a809-eb6cf8c301c5.aspx).        
     
-7. Type the following command to create a proxy for the Search service application:
+    - Type the following command to create a proxy for the Search service application:
     
-  ```
-  New-SPEnterpriseSearchServiceApplicationProxy -Name ProxyName -SearchApplication $ssa 
-  ```
+      ```
+      New-SPEnterpriseSearchServiceApplicationProxy -Name ProxyName -SearchApplication $ssa 
+      ```
 
-    Where:
+        Where:
     
-  -  _ProxyName_ is the proxy name that you want to use. 
+      -  _ProxyName_ is the proxy name that you want to use. 
+        
+      - $ssa is the variable that you set earlier to identify the new Search service application.
+        
+        **Tip**: If you do not use the variable $ssa, then you must use an ID to identify the Search service application instead of a name. To find the ID, you can run the **Get-SPServiceApplication** cmdlet to return a list of all service application IDs. 
     
-  - $ssa is the variable that you set earlier to identify the new Search service application.
+       For more information, see [New-SPEnterpriseSearchServiceApplicationProxy](http://technet.microsoft.com/library/2a074a5a-0af0-48fd-aa1f-edc875f93335.aspx).
     
-    **Tip**: If you do not use the variable $ssa, then you must use an ID to identify the Search service application instead of a name. To find the ID, you can run the **Get-SPServiceApplication** cmdlet to return a list of all service application IDs. 
+    - Type the following command to get the Search service application proxy ID for the proxy you just created and set it as the variable $ssap:
     
-    For more information, see [New-SPEnterpriseSearchServiceApplicationProxy](http://technet.microsoft.com/library/2a074a5a-0af0-48fd-aa1f-edc875f93335.aspx).
-    
-8. Type the following command to get the Search service application proxy ID for the proxy you just created and set it as the variable $ssap:
-    
-  ```
-  $ssap = Get-SPEnterpriseSearchServiceApplicationProxy 
-  ```
+      ```
+      $ssap = Get-SPEnterpriseSearchServiceApplicationProxy 
+      ```
 
-    For more information, see [Get-SPEnterpriseSearchServiceApplicationProxy](http://technet.microsoft.com/library/233890cc-6571-4bd3-bb59-2b549a6098c3.aspx).
+        For more information, see [Get-SPEnterpriseSearchServiceApplicationProxy](http://technet.microsoft.com/library/233890cc-6571-4bd3-bb59-2b549a6098c3.aspx).
     
-9. Type the following command to add the Search service application proxy to the default proxy group:
+    - Type the following command to add the Search service application proxy to the default proxy group:    
     
-  ```
-  Add-SPServiceApplicationProxyGroupMember -member $ssap -identity " "
-  ```
+        ```
+        Add-SPServiceApplicationProxyGroupMember -member $ssap -identity ""
+        ```
 
-    Where:
+       Where:
     
-  - $ssap is the variable that you set earlier to identify the ID for the proxy you just created for the Search service application.
+        - $ssap is the variable that you set earlier to identify the ID for the proxy you just created for the Search service application.
+          
+          **Tip**: If you do not use the variable $ssap, then you must use an ID to identify the Search service application proxy instead of a name. To find the ID, you can run the **Get-SPServiceApplicationProxy** cmdlet to return a list of all service application proxy IDs. 
+          
+        - You use an empty **Identity** parameter ("") to add it to the default group. 
+          
+       For more information, see [Add-SPServiceApplicationProxyGroupMember](http://technet.microsoft.com/library/25ccffa1-84ae-4927-a1e5-4b2d55f6065f.aspx).
     
-    **Tip**: If you do not use the variable $ssap, then you must use an ID to identify the Search service application proxy instead of a name. To find the ID, you can run the **Get-SPServiceApplicationProxy** cmdlet to return a list of all service application proxy IDs. 
+7. If the SharePoint Server 2013 with Service Pack 1 (SP1) farm uses a Links Database that is partitioned, partition the Links Database in the SharePoint Server 2016 farm the same way. Learn how in [Move-SPEnterpriseSearchLinksDatabases](http://technet.microsoft.com/library/5bff925f-3845-434e-be9f-3ba50673be28.aspx).
     
-  - You use an empty **Identity** parameter (" ") to add it to the default group. 
+8. (Optional) Preserve search relevance settings from the SharePoint Server 2013 with Service Pack 1 (SP1) farm. Because the upgraded Search service application has a new, empty index, search analytics data from the SharePoint Server 2013 with Service Pack 1 (SP1) farm cannot be fully retained. Copy the Analytics Reporting database from the SharePoint Server 2013 with Service Pack 1 (SP1) farm and attach it to the new Search service application in the SharePoint Server 2016 farm:
     
-    For more information, see [Add-SPServiceApplicationProxyGroupMember](http://technet.microsoft.com/library/25ccffa1-84ae-4927-a1e5-4b2d55f6065f.aspx).
+      - In the SharePoint Server 2013 with Service Pack 1 (SP1) farm, [backup](https://technet.microsoft.com/en-us/library/jj729803.aspx#Backup) the Analytics Reporting database. 
+        
+      - In the SharePoint Server 2016 farm, [restore the backed up database](https://technet.microsoft.com/en-us/library/jj729803.aspx#Restore) to the new database server. 
+        
+      - In the SharePoint Server 2016 farm, [attach the restored database](https://technet.microsoft.com/en-us/library/jj729803.aspx#PS) to the new Search service application. 
     
-10. If the SharePoint Server 2013 with Service Pack 1 (SP1) farm uses a Links Database that is partitioned, partition the Links Database in the SharePoint Server 2016 farm the same way. Learn how in [Move-SPEnterpriseSearchLinksDatabases](http://technet.microsoft.com/library/5bff925f-3845-434e-be9f-3ba50673be28.aspx).
+9. Verify that the search topology on the new SharePoint Server 2016 farm is alike that of the SharePoint Server 2013 with Service Pack 1 (SP1) farm. If your requirements for search have changed, now is a good time to scale out the search topology of the new SharePoint Server 2016 farm.
     
-11. (Optional) Preserve search relevance settings from the SharePoint Server 2013 with Service Pack 1 (SP1) farm. Because the upgraded Search service application has a new, empty index, search analytics data from the SharePoint Server 2013 with Service Pack 1 (SP1) farm cannot be fully retained. Copy the Analytics Reporting database from the SharePoint Server 2013 with Service Pack 1 (SP1) farm and attach it to the new Search service application in the SharePoint Server 2016 farm:
-    
-  - In the SharePoint Server 2013 with Service Pack 1 (SP1) farm, [backup](https://technet.microsoft.com/en-us/library/jj729803.aspx#Backup) the Analytics Reporting database. 
-    
-  - In the SharePoint Server 2016 farm, [restore the backed up database](https://technet.microsoft.com/en-us/library/jj729803.aspx#Restore) to the new database server. 
-    
-  - In the SharePoint Server 2016 farm, [attach the restored database](https://technet.microsoft.com/en-us/library/jj729803.aspx#PS) to the new Search service application. 
-    
-12. Verify that the search topology on the new SharePoint Server 2016 farm is alike that of the SharePoint Server 2013 with Service Pack 1 (SP1) farm. If your requirements for search have changed, now is a good time to scale out the search topology of the new SharePoint Server 2016 farm.
-    
-13. Resume the Search service application in the SharePoint Server 2013 with Service Pack 1 (SP1) environment.
+10. Resume the Search service application in the SharePoint Server 2013 with Service Pack 1 (SP1) environment.
     
     At the PowerShell command prompt, type the following command:
     
-  ```
-  $ssa = Get-SPEnterpriseSearchServiceApplication <SearchServiceApplicationName>
-  $ssa.ForceResume(0x02)
-  ```
+      ```
+      $ssa = Get-SPEnterpriseSearchServiceApplication <SearchServiceApplicationName>
+      $ssa.ForceResume(0x02)
+      ```
 
     Where:
     
-  -  _SearchServiceApplicationName_ is the name of the Search service application you want to resume. 
+      -  _SearchServiceApplicationName_ is the name of the Search service application you want to resume. 
     
 ## Verify that all of the new proxies are in the default proxy group
 <a name="VerifyProxies"> </a>
@@ -715,48 +714,48 @@ Use the following procedure to verify that the steps to create the proxies and a
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
-    
-  - **db_owner** fixed database role on all databases that are to be updated. 
-    
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
-    
-    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
+      - **securityadmin** fixed server role on the SQL Server instance. 
+        
+      - **db_owner** fixed database role on all databases that are to be updated. 
+        
+      - Administrators group on the server on which you are running the PowerShell cmdlets.
+        
+        An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
     
     **Note**: If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx).
     
 2. Start the SharePoint 2016 Management Shell.
     
-  - For Windows Server 2012 R2:
+    For Windows Server 2012 R2:
     
-  - On the **Start** screen, click **SharePoint 2016 Management Shell**.
+    On the **Start** screen, click **SharePoint 2016 Management Shell**.
     
-    If **SharePoint 2016 Management Shell** is not on the **Start** screen: 
-    
-  - Right-click **Computer**, click **All apps**, and then click **SharePoint 2016 Management Shell**.
+    If **SharePoint 2016 Management Shell** is not on the **Start** screen, right-click **Computer**, click **All apps**, and then click **SharePoint 2016 Management Shell**.
     
     For more information about how to interact with Windows Server 2012 R2, see [Common Management Tasks and Navigation in Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkId=478553).
     
 3. At the PowerShell command prompt, type the following commands:
     
-  ```
-  $pg = Get-SPServiceApplicationProxyGroup -Identity " "
-  $pg.Proxies
-  ```
+      ```
+      $pg = Get-SPServiceApplicationProxyGroup -Identity ""
+      $pg.Proxies
+      ```
 
     Where:
     
-  - $pg is a variable you set to represent the default proxy group.
+      - $pg is a variable you set to represent the default proxy group.
+        
+      - You use an empty **Identity** parameter ("") to specify the default proxy group. 
+        
+        This returns a list of all proxies in the default proxy group, their display names, type names, and IDs.
     
-  - You use an empty **Identity** parameter (" ") to specify the default proxy group. 
-    
-    This returns a list of all proxies in the default proxy group, their display names, type names, and IDs.
-    
-For more information, see Get-SPServiceApplicationProxyGroup.
+    For more information, see Get-SPServiceApplicationProxyGroup.
   
+
+ 
 Now that the service applications are upgraded, you can start the process to upgrade the content databases. The first step in that process is to create the web applications that are needed for each content database.
   
-## 
+
 <a name="VerifyProxies"> </a>
 
 |||

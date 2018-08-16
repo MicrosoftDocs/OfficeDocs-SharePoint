@@ -58,7 +58,7 @@ You must install and configure SharePoint Server. To do so, see [Install and dep
 ## Install and configure Workflow Manager
 <a name="section4"> </a>
 
-You must install and configure Workflow Manager. To do so, see [Installing and Configuring Workflow Manager 1.0](http://msdn.microsoft.com/en-us/library/jj193478.aspx).
+You must install and configure Workflow Manager. To do so, see [Configure SharePoint Workflow Manager for SharePoint Server](https://docs.microsoft.com/en-us/SharePoint/governance/configure-sharepoint-workflowmanager-2019).
   
 ## Configure Workflow Manager to work with the SharePoint Server farm
 <a name="section5"> </a>

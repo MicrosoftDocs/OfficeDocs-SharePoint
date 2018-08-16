@@ -3,12 +3,11 @@ title: "New and improved features in the SharePoint Migration Tool"
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
-ms.date: 7/3/2018
+ms.date: 7/30/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
-ms.assetid: f3f3e548-196f-44b9-b630-645d781bc096
 description: "Learn about the new features and updates to existing features in SharePoint Migration Tool."
 ---
 
@@ -19,6 +18,31 @@ Learn about the new features and updates to existing features in SharePoint Migr
 >[!NOTE]
 >To install the current release download here: [SharePoint Migration Tool](http://spmtreleasescus.blob.core.windows.net/install/default.htm)
   
+
+  
+### SPMT V2.1.101.0
+
+**New features**
+
+The following features were added to SharePoint Migration Tool, Version 2.1.101.0
+
+|**Feature**|**Description**|
+|:-----|:-----|
+|Save session <br/> |The user now has the ability to save their migration session and resume it at later date.<br>
+|Read-only sites supported<br/> |The user can migrate a read-only site configured by site policy or the central admin page. <br/> |
+
+   
+**Improvements**
+
+In addition to a number of minor fixes, here are the primary improvements made in this release:
+  
+|**Issue**|**Fix**|
+|:-----|:-----|
+|Stability  <br/> |General improvements have been made to remove some errors in tool.  <br/> |
+|Reports<br/> |The **packageSummary.csv** and **UserNotMapped.csv** reports are now in the details folder. <br/> |
+
+
+
 ### SPMT V2.1.100.0
 
 **New features**
