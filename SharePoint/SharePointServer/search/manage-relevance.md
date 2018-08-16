@@ -1,17 +1,17 @@
-----------------------  -----------------------------------------------------------------------------------------------------------------
-title:                  "Manage search relevance in SharePoint Server"
-ms.author:              tlarsen
-author:                 tklarsen
-manager:                pamgreen
-ms.date:                3/7/2018
-ms.audience:            ITPro
-ms.topic:               article
-ms.prod:                sharepoint-server-itpro
-localization_priority:  Normal
-ms.collection:          IT_Sharepoint_Server_Top
-ms.assetid:             76e31e76-afb3-4f2f-b3cb-f3b42886fb6e
-description:            "Summary: Learn how you can configure settings to provide the most relevant search results in SharePoint Server."
-----------------------  -----------------------------------------------------------------------------------------------------------------
+---
+title: "Manage search relevance in SharePoint Server"
+ms.author: tlarsen
+author: tklarsen
+manager: pamgreen
+ms.date: 8/16/2018
+ms.audience: ITPro
+ms.topic: article
+ms.prod: sharepoint-server-itpro
+localization_priority: Normal
+ms.collection: IT_Sharepoint_Server_Top
+ms.assetid: 76e31e76-afb3-4f2f-b3cb-f3b42886fb6e
+description: "Summary: Learn how you can configure settings to provide the most relevant search results in SharePoint Server."
+---
 
 # Manage search relevance in SharePoint Server
 
