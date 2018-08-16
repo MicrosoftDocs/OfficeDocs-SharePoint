@@ -62,7 +62,7 @@ Learn more about ranking and ranking models:
 ## Create a custom ranking model-main steps
 <a name="__toc369771596"> </a>
 
-- Click the app icon ![Ranking Model Tuning App](media/95e80cec-079b-4dc0-8892-debf93bb9933.png) to go to the starting page of the app. 
+- Click the app icon ![Ranking Model Tuning App](../media/95e80cec-079b-4dc0-8892-debf93bb9933.png) to go to the starting page of the app. 
     
 Follow these main steps to create a custom ranking model. Expect to go back and forth between the different steps as you fine-tune your model.
   
@@ -81,7 +81,7 @@ Follow these main steps to create a custom ranking model. Expect to go back and 
 ## Step 1: Copy an existing ranking model and give it a name
 <a name="__step_1__copy"> </a>
 
-When you start the app, you see a list of all available ranking models. On first use, this will be the set of standard ranking models delivered with SharePoint. These ranking models are marked with **Base model**, and the only action allowed, is to  *copy*  . To create a custom ranking model, you copy an existing model and then modify the copy. Any models created by using the app are marked with **Not base model**, and these you can also  *edit*  ,  *publish*  , or  *delete*  . 
+When you start the app, you see a list of all available ranking models. On first use, this will be the set of standard ranking models delivered with SharePoint. These ranking models are marked with **Base model**, and the only action allowed, is to  *copy*  . To create a custom ranking model, you copy an existing model and then modify the copy. Any models created by using the app are marked with **Not base model**, and these you can also  *edit*,  *publish*, or  *delete*. 
   
 Most standard ranking models delivered with SharePoint have a linear stage and a neural stage. With this app, you can only customize the linear stage of a ranking model, as a linear stage is easier to tune and customize. 
   
@@ -98,7 +98,7 @@ We recommend that you use the **Search Ranking Model with Two Linear Stages** as
 ## Step 2: Add a judgment set
 <a name="__step_2__add"> </a>
 
-You can add one or more judgment sets to your ranking model. A judgment set typically consists of queries that are popular, queries that are important for the business, or queries that the current ranking model doesn't handle sufficiently well. On the ** Edit ranking model ** page, under **Judge queries**, choose **Add judgment set**. 
+You can add one or more judgment sets to your ranking model. A judgment set typically consists of queries that are popular, queries that are important for the business, or queries that the current ranking model doesn't handle sufficiently well. On the **Edit ranking model** page, under **Judge queries**, choose **Add judgment set**. 
   
 1. On the **Edit judgment set** page, choose one or more of these options: 
     
@@ -167,7 +167,7 @@ When you copy an existing ranking model, the new ranking model contains the same
 |Suggested feature based on judged queries  <br/> |The app can suggest features to add when feature vectors have been extracted for a sufficient number of judged documents. Suggestions will be rank features that have a strong correlation (negative or positive) with the relevance jugdements provided by the automated tuning. This option is only available after you have run automated tuning on this ranking model at least once. See more about automated tuning later in this article.  <br/> |
 |Searchable text managed property  <br/> |Choose a managed property to be used in the search result ranking calculations.  <br/> If you select that proximity of query terms in the property value is important, you can later enter a Proximity weight for the feature. The app uses the variants isExact=1 and isDiscounted=1.  <br/> |
 |Sortable numeric managed property  <br/> |Also called static rank feature.  <br/> The managed property must be of type Integer. The app uses the Rational transform.  <br/> Choose a managed property, and enter a default value for the property. The default value will be used if an item doesn't have a value explicitly set.  <br/> |
-|Sortable property with a specific value  <br/> |Also called bucketed static rank feature. Choose a managed property, and enter the default value for the property.  <br/> **Having value**:This number is the specific bucket that is being tuned.  <br/> |
+|Sortable property with a specific value  <br/> |Also called bucketed static rank feature. Choose a managed property, and enter the default value for the property.  <br/> **Having value**: This number is the specific bucket that is being tuned.  <br/> |
 |Ranking feature from the base model  <br/> |Use this option to tune the weight of existing features. Choose between existing rank features.  <br/> |
    
 3. Click **Add feature**. Repeat steps to add more features to customize. The selected rank features are shown on the **Edit ranking model** page. 
@@ -203,7 +203,7 @@ With manual tuning, you can set or change weights of individual rank features. A
 ## Step 5: Evaluate the changes
 <a name="__step_5__evaluate"> </a>
 
-The app lets you evaluate how a custom ranking model changes relevance. This is especially useful for queries that you consider  *important*  . 
+The app lets you evaluate how a custom ranking model changes relevance. This is especially useful for queries that you consider *important*. 
   
 > [!IMPORTANT]
 >  When you create a custom ranking model, this influences all the queries using that ranking model. Test the effect of the custom ranking model on many queries. 
@@ -243,7 +243,6 @@ When you publish your ranking model, you'll get a GUID that identifies the ranki
     
 - [Customizing ranking models to improve relevance in SharePoint Server](https://msdn.microsoft.com/en-us/library/dn169052.aspx) 
     
-     
    
 - [Manage query rules in SharePoint Server](https://technet.microsoft.com/en-us/library/jj871676.aspx)
     

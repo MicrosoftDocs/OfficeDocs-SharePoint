@@ -254,6 +254,7 @@
 ##### [Create and deploy custom entity extractors](../search/create-and-deploy-custom-entity-extractors.md)
 ##### [Manage company name extraction](../search/manage-company-name-extraction.md)
 ##### [Customize search result types](../search/customize-search-result-types.md)
+##### [Create custom ranking model](../search/create-custom-ranking-model.md)
 ##### [Configure trust for search between two SharePoint Server farms](../search/configure-trust-for-search-between-two-sharepoint-server-farms.md)
 #### [Manage the search topology](../search/manage-the-search-topology.md)
 ##### [Change the default search topology](../search/change-the-default-search-topology.md)
