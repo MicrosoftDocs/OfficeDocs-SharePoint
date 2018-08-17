@@ -22,7 +22,9 @@ Result sources limit searches to certain content or to a subset of search result
   
 A SharePoint Online administrator can manage result sources for all site collections and sites in that instance of SharePoint Online (tenant). A site collection administrator or a site owner can manage result sources for a site collection or a site, respectively. 
   
-You can create your own result sources, or use the predefined result sources. After you create a result source, you configure Search Web Parts and query-rule actions to use it. 
+You can create your own result sources, or use the predefined result sources. After you create a result source, you configure Search Web Parts and query-rule actions to use it.
+> [!NOTE]
+> The modern search experience gets results from the default result source. If you change the default result source, this impacts both the classic and modern search experiences.
   
 ## Create a new result source
 <a name="__toc342634787"> </a>

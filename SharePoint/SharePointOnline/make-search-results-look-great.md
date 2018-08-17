@@ -17,7 +17,7 @@ description: "Presenting the search results the right way makes content easier t
 
 # Make the search results look great
 
-Presenting the search results the right way makes content easier to find. Learn how you can use the search web parts in SharePoint Online to help users find what they're looking for. 
+Presenting the search results the right way makes content easier to find. If you're responsible for search in your organization, you can customize how results are presented on classic search results pages. Learn how you can use the search web parts in SharePoint Online to make it easier for users find what they're looking for. 
   
  ## Manage the Search Center
   

@@ -21,7 +21,7 @@ Query spelling suggestions are words that appear below the search box as a user 
   
 Automatic query suggestions are generated daily for each result source and each site collection, so the query suggestions can be different for different result sources and site collections.
   
-You can also manually create your own lists of query suggestions and import them to SharePoint. Manual query suggestions apply to **all** result sources and to **all** site collections. 
+You can also manually create your own lists of query suggestions and import them to SharePoint. Manual query suggestions apply to **all** result sources and to **all** site collections, but don't affect the modern search experience. 
   
 To create query suggestions for multiple languages, you'll need to create a separate file for each language. The language determines how the query suggestions are processed internally in the search system. All manual query suggestions are always displayed for **all** languages. Add each phrase as a separate line in the text file that you create, and save the file in UTF-8 encoding. 
   

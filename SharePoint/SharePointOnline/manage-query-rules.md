@@ -21,9 +21,13 @@ As a SharePoint Online administrator, you can improve search results by creating
   
 In a query rule, you specify conditions and associated actions. When a query meets the conditions in a query rule, the search system performs the actions specified in the rule to improve the relevance of the search results. This could be by narrowing results or changing the order in which results are displayed. For example, a query rule condition could be that a term in a query matches a particular term in a SharePoint term set, or that a query is frequently performed on a particular result source in a search system, such as videos. When the query rule condition is met, an associated action could be to show a specific item at the top of the search results. Say you have an intranet site where all company events are maintained in a library, and you want to promote a first-aid seminar. To do this, you create a query rule that boosts the first-aid seminar to the top of the search results when someone searches for "seminar" or "event."
   
-You can configure query rules for one or more result sources, and you can specify a time period for when the query rule is active. 
+You can configure query rules for one or more result sources, and you can specify a time period for when the query rule is active.
+> [!NOTE]
+> In the modern search experience, only query rules that promote an individual result towards the top of search results and that are defined for the default result source have effect. Users can see such promoted results on the All tab on the search results page when they search across all of SharePoint. 
   
 See also: [Understanding query rules](https://support.office.com/article/8ca2588d-9dc7-45aa-90a4-428d4d695d07)
+
+
   
 ## Create a query rule
 <a name="__toc343764778"> </a>

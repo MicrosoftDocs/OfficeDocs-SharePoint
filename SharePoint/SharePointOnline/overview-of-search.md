@@ -17,11 +17,15 @@ description: "Learn how you can customize the search experience in SharePoint On
 
 # Overview of search in SharePoint Online
 
-Learn how you can customize the search experience in SharePoint Online to help users find the information they're looking for.
+If you're responsible for search in your organization, learn how you can customize the search experience in SharePoint Online to make it easier for users to find the information they're looking for.
+
+SharePoint Online has a **classic** and a **modern** search experience, see [what’s new in the modern experience](https://support.office.com/en-us/article/What-s-new-in-search-in-Office-365-b81ab573-ec9c-4aa9-a369-b3c630f878a7). Users find modern search boxes on the SharePoint Online home page, hub sites, communication sites, and modern team sites. Both search experiences use the same search index to find search results, but there are [differences](differences-classic-modern-search.md) in how the search results are displayed and ranked.
   
 Below are the **main areas** where you can customize the search experience and make sure that search is performing the way you want. 
   
-Many of the search features are available on the [search administration page](manage-search-the-admin-center.md) in the SharePoint admin center. The high-level overview of [How search works](overview-of-search.md#howsearchworks) can also help you understand where and how you can impact the search experience in SharePoint Online. 
+Many of the search features are available on the [search administration page](manage-search-the-admin-center.md) in the SharePoint admin center. **All** these search features affect the classic search experience, **some** of the features also affect the modern search experience. Learn [what's supported in the modern search experience](differences-classic-modern-search.md).
+
+The high-level overview of [How search works](overview-of-search.md#howsearchworks) can also help you understand where and how you can impact the search experience in SharePoint Online. 
   
 ## Make sure the content can be found
   

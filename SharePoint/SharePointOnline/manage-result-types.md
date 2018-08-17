@@ -17,7 +17,7 @@ description: "Create and use result types to customize how results are displayed
 
 # Manage result types
 
-As a site collection administrator or site owner, you can create and use result types to customize how results are displayed for particular types of documents. 
+As a site collection administrator or site owner, you can create and use result types to customize how results are displayed for particular types of documents in the classic search experience. 
   
 You use a result type to specify a [display template](use-result-types-and-display-templates.md) that the search system should use for a particular type of document or search result. As documents aren't all the same, search results shouldn't be either. By using result types and display templates, it's much easier for users to find the results they are looking for. 
   

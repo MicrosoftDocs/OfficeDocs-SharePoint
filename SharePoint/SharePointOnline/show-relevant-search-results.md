@@ -21,7 +21,7 @@ All search results are not relevant to everyone all the time. Learn how you can 
   
  ## Manage the search schema
   
-The search schema controls what you can search for, how you can search it, and how the results get presented on your search websites. In the search schema, you can view, create, or change managed properties, and map crawled properties to managed properties. [Learn more](manage-search-schema.md).
+The search schema controls what users can search for, how they can search it, and how the results get presented on your search websites. In the search schema, you can view, create, or change managed properties, and map crawled properties to managed properties. [Learn more](manage-search-schema.md).
   
  ## Manage query rules
   
