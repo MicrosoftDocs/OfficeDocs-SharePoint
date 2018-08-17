@@ -12,6 +12,8 @@ description: "Learn how OneDrive can help your enterprise."
 
 # OneDrive feature overview
 
+Enterprise deployment guide: Part 1 of 4
+
 With OneDrive for Business, you can easily and securely store and access your files from all your devices. You can work with others regardless of whether they’re inside or outside your organization and terminate that sharing whenever you want. OneDrive helps protect your work through advanced encryption while the data is in transit and at rest in data centers. OneDrive also helps ensure that users adhere to your most rigorous compliance standards by enabling them to choose where their data lives and providing detailed reporting of how that data has changed and been accessed. OneDrive connects you to your personal and shared files in Microsoft Office 365, enhancing collaboration capabilities within Office 365 applications. With OneDrive on the web, desktop, or mobile, you can access all your personal files plus the files shared with you from other people or teams, including files from Microsoft Teams and SharePoint.
 
 ## Why deploy OneDrive?
@@ -32,19 +34,17 @@ The Microsoft 365 family of products, which includes Office, Microsoft Outlook,
 
 ## Key OneDrive features
 
-Unlike most other cloud storage providers, OneDrive makes most of its advanced features available to all subscription types in addition to the standard features that are available from most other cloud service providers. The result is flexibility for smaller organizations to choose whether to take advantage of the included advanced features and robust features and capabilities enterprises expect out of the box from a cloud storage provider.
+Unlike most other cloud storage providers, OneDrive makes most of its advanced features available to all subscription types. This gives smaller organizations the flexibility to use standard features out of the box, and configure advanced features based on the needs of their organization.
 
-Key OneDrive features are those that provide value beyond the standard storage requirements from a cloud storage provider, address common customer concerns or specific compliance requirements, and provide unique functionality available only in OneDrive. Some of these key features include:
+The features listed in this section address common customer concerns or specific compliance requirements, or provide unique functionality available only in OneDrive:
 
 -   Known Folder Move
   
 -   OneDrive Files On-Demand
 
--   Hybrid integration with SharePoint Server
-
 -   Modern attachments
 
--   Real-time team collaboration—Coauthoring in full versions of Microsoft Word, Excel, and PowerPoint
+-   Real-time team collaboration: Coauthoring in full versions of Microsoft Word, Excel, and PowerPoint
 
 -   Seamlessly connecting files to conversations
  
@@ -66,6 +66,8 @@ Key OneDrive features are those that provide value beyond the standard storage r
 
 -   Office 365 Customer Lockbox
  
+-   Hybrid integration with SharePoint Server
+
 -   OneDrive Multi-Geo storage locations
 
 -   Government cloud
