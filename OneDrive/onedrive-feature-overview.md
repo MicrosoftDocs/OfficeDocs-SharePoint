@@ -157,3 +157,5 @@ For multinational customers with data residency requirements, you can use this f
 
 OneDrive is available in Office 365 U.S. Government plans. For information about these plans, see [Office 365 U.S. Government](https://products.office.com/government/office-365-web-services-for-government).
 
+When you're ready to start planning your deployment of OneDrive, see Part 2, [Plan for OneDrive for enterprises](plan-onedrive-enterprise.md).
+
