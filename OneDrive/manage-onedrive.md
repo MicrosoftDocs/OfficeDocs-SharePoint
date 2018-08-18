@@ -76,7 +76,7 @@ Intune isn’t the only MDM option you can use to manage OneDrive apps and setti
 
 ## Manage OneDrive by using Group Policy
 
-You can use Group Policy to manage OneDrive settings for domain-joined machines in your environment. For information, see [Use Group Policy to control OneDrive sync client settings](use-group-policy.md). Using Group Policy, you can [redirect and move Windows known folders to OneDrive](redirect-known-folders), [enable silent account configuration](use-silent-account-configuration),  [configure the maximum size that will be downloaded automatically](use-group-policy#configure-the-maximum-onedrive-size-for-downloading-all-files-automatically), and much more. 
+You can use Group Policy to manage OneDrive settings for domain-joined machines in your environment. For information, see [Use Group Policy to control OneDrive sync client settings](use-group-policy.md). Using Group Policy, you can [redirect and move Windows known folders to OneDrive](redirect-known-folders.md), [enable silent account configuration](use-silent-account-configuration.md),  [configure the maximum size that will be downloaded automatically](use-group-policy.md#configure-the-maximum-onedrive-size-for-downloading-all-files-automatically), and much more. 
 
 
 ## Manage OneDrive by using System Center Configuration Manager
