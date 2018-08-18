@@ -68,7 +68,7 @@ You deploy, manage, and secure OneDrive based on the tools you chose in the prev
 
 ## OneDrive limitations
 
-Because OneDrive provides access to files on many kinds of devices, it restricts the use of certain characters, file names, and folder names. In addition, certain features are available only in the Windows operating system. For a full list of these and other limitations of OneDrive, see the Microsoft Support article Restrictions and limitations when you sync files and folders.
+Because OneDrive provides access to files on many kinds of devices, it restricts the use of certain characters, file names, and folder names. In addition, certain features are available only in the Windows operating system. For a full list of these and other limitations of OneDrive, see [Restrictions and limitations when you sync files and folders](https://support.microsoft.com/en-us/help/3125202/restrictions-and-limitations-when-you-sync-files-and-folders).
 
 ## Feature releases and requests
 
@@ -86,9 +86,9 @@ User adoption is important to the overall success of any new application. Ideall
 
 Many resources are available from Microsoft to help you drive user adoption within your environment. For more information about a recommended Microsoft 365 user adoption strategy, see the [Microsoft 365 End User Adoption Guide](https://fto365dev.blob.core.windows.net/media/Default/DocResources/en-us/Microsoft%20365%20User%20Adoption%20Guide.pdf). For more information about driving user engagement, see [Success Factors for Office 365 End User Engagement](https://fto365dev.blob.core.windows.net/media/Default/DocResources/en-us/Resources/Office365_AdoptionBrochure_v2.0_Screen.pdf). You can also contribute to or comment on adoption-related ideas in the [Driving Adoption Tech Community](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption).
 
-## Infrastructure planning
+## Preparing your environment
 
-Before you deploy OneDrive, prepare your infrastructure.
+Before you deploy OneDrive, prepare your environment.
 
 ### Network utilization
 
@@ -265,4 +265,4 @@ Key decision:
 
 ### Deploying OneDrive in your organization
 
-Once you have made the key decisions regarding your OneDrive deployment, read [Deploy OneDrive](deploy-onedrive-enterprise.md) for specific steps that guide you through the deployment process.
+Once you have made the key decisions regarding your OneDrive deployment, go on to Part 2, [Deploy OneDrive](deploy-onedrive-enterprise.md) for specific steps that guide you through the deployment process.

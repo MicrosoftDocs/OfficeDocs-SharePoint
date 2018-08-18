@@ -17,20 +17,11 @@ Enterprise deployment guide: Part 4 of 4
 The tools and technologies you use to manage OneDrive are based on the individual management task you want to perform. The following table shows the three primary categories to consider when managing OneDrive and the technologies and methods available for that category.
 
 
-|**Category**|**Description**|**Technology or method**|
+|**Category**|**Tasks**|**Technology or method**|
 |:-----|:-----|:-----|
 |OneDrive organization-wide settings|Manage settings such as storage limits and sharing capabilities.|OneDrive admin center<br>Microsoft PowerShell|
-|Sync client|Sync client update ring, DLP policies, and other device or app restrictions.|MDM (for example, Intune)<br>System Center Configuration Manager<br>Group Policy<br>Manually|
-
-In this section, you learn how to manage OneDrive by using:
-
--   The OneDrive admin center.
-
--   An MDM application such as Intune.
-
--   Group Policy.
-
--   System Center Configuration Manager.
+|App updates|Update the OneDrive sync client or mobile apps|MDM (for example, Intune)<br>System Center Configuration Manager<br>Group Policy<br>OneDrive admin center<br>Manually|
+|Sync client settings|Configure the sync client update ring, DLP policies, and other device or app restrictions.|MDM (for example, Intune)<br>System Center Configuration Manager<br>Group Policy<br>Manually|
 
 ## Manage OneDrive by using the OneDrive admin center
 
@@ -55,15 +46,7 @@ Settings in the OneDrive admin center are grouped into six categories:
 
 ## Manage OneDrive by using an MDM application
 
-You can use MDM solutions such as Intune to manage OneDrive settings. In this section, you learn how to:
-
--   Manage OneDrive settings by using Intune.
-
--   Manage OneDrive updates by using Intune.
-
--   Configure accounts silently by using Intune.
-
--   Manage OneDrive by using third-party MDM applications.
+You can use MDM solutions such as Intune to manage OneDrive settings. 
 
 ### Manage OneDrive settings by using Intune
 
@@ -93,19 +76,8 @@ Intune isn’t the only MDM option you can use to manage OneDrive apps and setti
 
 ## Manage OneDrive by using Group Policy
 
-You can use Group Policy to manage OneDrive settings for domain-joined machines in your environment
+You can use Group Policy to manage OneDrive settings for domain-joined machines in your environment. For information, see [Use Group Policy to control OneDrive sync client settings](use-group-policy.md). Using Group Policy, you can [redirect and move Windows known folders to OneDrive](redirect-known-folders), [enable silent account configuration](use-silent-account-configuration),  [configure the maximum size that will be downloaded automatically](use-group-policy#configure-the-maximum-onedrive-size-for-downloading-all-files-automatically), and much more. 
 
-### Configure the maximum OneDrive size
-
-This setting isn’t a requirement, but Microsoft recommends it as a safeguard to prevent users unwittingly downloading too much content onto their device. This setting specifies the maximum OneDrive size that will synchronize automatically. Anything exceeding this value prompts users to select the files they want to synchronize.
-
-To set this value, you will need your OneDrive tenant’s globally unique identifier (GUID). To get it, sign in to <http://portal.azure.com>. In the left pane, select **Azure Active Directory**; then, in the middle pane, select **Properties** to see your Directory ID. For more information, see [Find your Office 365 tenant ID](https://support.office.com/article/6891b561-a52d-4ade-9f39-b492285e2c9b).
-
-Now that you have your tenant GUID, enable this setting in the GPO. To do so, go to Computer Configuration\\Policies\\Administrative Templates\\OneDrive, right-click **The maximum size of a user’s OneDrive for Business before they will be prompted to choose which folders are downloaded**, and then select **Edit**.
-
-Set the policy to **Enabled**, and then select **Show**. In **Show Contents**, in **Value name**, type the GUID you got from Azure AD. In **Value**, type the number of megabytes you want to set as the threshold. When you’re done, select **OK**. Select **OK** again to save the setting.
-
-You can enable additional features like Files On-Demand during this task, deploying these settings together in the same GPO or separately. If you choose to deploy them together, be sure to target both the necessary devices and user objects because the GPO contains settings in both scopes.
 
 ## Manage OneDrive by using System Center Configuration Manager
 
