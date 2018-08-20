@@ -170,11 +170,11 @@ If a site collection is close to exceeding its storage limits and you want to in
   Set-SPSite -Identity "<Site>" -QuotaTemplate "<Template>"
   ```
 
-    Where:
+Where:
     
-  -  _\<Site\>_ is the URL or GUID of the site collection whose quota template that you want to change. 
+-  _\<Site\>_ is the URL or GUID of the site collection whose quota template that you want to change. 
     
-  -  _\<Template\>_ is the name or GUID of the replacement quota template. 
+-  _\<Template\>_ is the name or GUID of the replacement quota template. 
     
 For more information, see [Set-SPSite](http://technet.microsoft.com/library/f8c7f0ac-52bf-4b79-a356-9d6e485a55aa.aspx). We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions.
   
