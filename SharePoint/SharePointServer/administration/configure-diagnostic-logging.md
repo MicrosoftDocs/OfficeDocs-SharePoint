@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: faab1eb4-5848-4970-b13f-ba6df14272fe
-description: "Summary: Learn to configure diagnostic logging in SharePoint Server 2013 and SharePoint Server 2016 from the SharePoint Central Administration website or by using Windows PowerShell."
+description: "Summary: Learn to configure diagnostic logging in SharePoint Server 2013 and SharePoint Server 2016 from the SharePoint Central Administration website or by using Microsoft PowerShell."
 ---
 
 # Configure diagnostic logging in SharePoint Server
 
- **Summary:** Learn to configure diagnostic logging in SharePoint Server 2013 and SharePoint Server 2016 from the SharePoint Central Administration website or by using Windows PowerShell. 
+ **Summary:** Learn to configure diagnostic logging in SharePoint Server 2013 and SharePoint Server 2016 from the SharePoint Central Administration website or by using Microsoft PowerShell. 
   
     
 ## Prerequisites
@@ -129,12 +129,12 @@ You can use the SharePoint Central Administration website to configure diagnosti
     
 8. After you have made the changes that you want on the Diagnostic Logging page, click **OK**.
     
-## Configure diagnostic logging by using Windows PowerShell
+## Configure diagnostic logging by using PowerShell
 <a name="section3"> </a>
 
 You can use PowerShell to configure diagnostic logging.
   
- **To configure diagnostic logging by using Windows PowerShell**
+ **To configure diagnostic logging by using PowerShell**
   
 1. Verify that you have the following memberships:
     
