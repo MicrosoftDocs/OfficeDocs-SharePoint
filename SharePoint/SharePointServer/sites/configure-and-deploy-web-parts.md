@@ -98,7 +98,7 @@ The method that you use to deploy a new web part will depend on the finished pac
   <SafeControl Assembly="<YourWebPartName>, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" Namespace="<YourWebPartNamespace>" TypeName="*" Safe="True" AllowRemoteDesigner="True"/>
   ```
 
-    Where:
+Where:
     
 1.  _\<YourWebPartName\>_ is the name of the web part that is being deployed. 
     
@@ -118,11 +118,11 @@ An alternative to manually installing a web part to the Bin folder or manually c
   Install-SPWebPartPack -LiteralPath "<PathToCabFile>" -Name "<WebPartName>"
   ```
 
-    Where:
+Where:
     
-  -  _\<PathToCabFile\>_ is the full path to the CAB file that is being deployed. 
+-  _\<PathToCabFile\>_ is the full path to the CAB file that is being deployed. 
     
-  -  _\<WebPartName\>_ is the name of the web part that is being deployed. 
+-  _\<WebPartName\>_ is the name of the web part that is being deployed. 
     
 The previous procedure shows a common way to use **Install-SPWebPartPack** to deploy a web part. You can specify additional parameters to change the way the web part is deployed. For more information, see [Install-SPWebPartPack](http://technet.microsoft.com/library/b4245f30-c369-4b91-b4bd-1048a2abd384.aspx). We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions.
   
