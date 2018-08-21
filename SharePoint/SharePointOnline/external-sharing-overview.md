@@ -70,11 +70,11 @@ Because external users with Microsoft accounts do not have a license to your Off
   
 - They can perform tasks on a site consistent with the permission level that they are assigned. For example, if you add an external user to the Members group, they will have Edit permissions and they will be able to add, edit and delete lists; they will also be able to view, add, update and delete list items and documents.
     
-- They can use Office Online for viewing and editing documents. If your plan includes Office Professional Plus, they cannot install the desktop version of Office on their own computers unless you assign them a license.
+- They can use Office Online for viewing and editing documents. If your plan includes Office Professional Plus, they cannot install the desktop version of Office on their own computers unless you assign them a license. 
     
 - They will be able to see other types of content on sites, depending on the permissions you give them. For example, they can navigate to different subsites within the site collection to which they were invited. They will also be able to do things like view site feeds.
     
-If your authenticated external users need greater capability, you must assign them an appropriate Office 365 license. Do this in the same way that you would assign a license to an internal user.
+If your authenticated external users need greater capability, you must assign them an appropriate Office 365 license. To do this, go to the Active users page of the Office 365 admin center, select the external user, click **More**, and then click **Edit product licenses**.
 
  **Authenticated users without Microsoft accounts**
 
