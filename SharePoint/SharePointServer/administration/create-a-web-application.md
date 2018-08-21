@@ -18,7 +18,7 @@ description: "Summary:SharePoint Server 2016 and SharePoint Server 2013 web appl
 
 # Create a web application in SharePoint Server
 
- **Summary:**SharePoint Server 2016 and SharePoint Server 2013 web applications isolate content for specific types of users within your site collections.
+ **Summary:** SharePoint Server 2016 and SharePoint Server 2013 web applications isolate content for specific types of users within your site collections.
   
 The following articles provide information about how to create web applications.
   
