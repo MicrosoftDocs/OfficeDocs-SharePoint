@@ -108,14 +108,14 @@ After you perform this procedure, the site collection and all of its content and
   Remove-SPSite -Identity "<URL>" -GradualDelete
   ```
 
-    Where:  _\<URL\>_ is the unique address of the site collection you want to delete. 
+Where:  _\<URL\>_ is the unique address of the site collection you want to delete. 
     
-    This command removes the specified site collection and all subsites. Gradual deletion reduces the load on the system during the deletion process.
+This command removes the specified site collection and all subsites. Gradual deletion reduces the load on the system during the deletion process.
     
-    The previous procedure illustrates a common way to use the **Remove-SPSite** cmdlet to delete a site collection. You can specify different parameters to configure this command differently. For more information, see [Remove-SPSite](https://technet.microsoft.com/en-us/library/ff607948%28v=office.16%29.aspx).
+The previous procedure illustrates a common way to use the **Remove-SPSite** cmdlet to delete a site collection. You can specify different parameters to configure this command differently. For more information, see [Remove-SPSite](https://technet.microsoft.com/en-us/library/ff607948%28v=office.16%29.aspx).
     
-    > [!NOTE]
-    > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
+> [!NOTE]
+> We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
   
 ## Restore a site collection by using Microsoft PowerShell
 <a name="section3"> </a>
