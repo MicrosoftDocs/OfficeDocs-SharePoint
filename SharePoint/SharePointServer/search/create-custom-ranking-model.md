@@ -63,6 +63,7 @@ Learn more about ranking and ranking models:
 <a name="__toc369771596"> </a>
 
 - Click the app icon ![Ranking Model Tuning App](../media/95e80cec-079b-4dc0-8892-debf93bb9933.png) to go to the starting page of the app. 
+- 
     
 Follow these main steps to create a custom ranking model. Expect to go back and forth between the different steps as you fine-tune your model.
   
