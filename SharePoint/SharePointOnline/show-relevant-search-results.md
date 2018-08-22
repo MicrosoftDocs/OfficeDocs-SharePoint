@@ -18,6 +18,7 @@ description: "All search results are not relevant to everyone all the time. Lear
 # Show the right search results
 
 All search results are not relevant to everyone all the time. Learn how you can help users find exactly the results they're looking for in SharePoint Online. 
+SharePoint Online has both a classic and a modern search experience, [learn about the differences between the classic and modern search experiences in SharePoint Online](differences-classic-modern-search.md).
   
  ## Manage the search schema
   
