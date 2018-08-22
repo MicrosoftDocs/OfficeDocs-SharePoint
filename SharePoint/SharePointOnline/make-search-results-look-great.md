@@ -17,7 +17,7 @@ description: "Presenting the search results the right way makes content easier t
 
 # Make the search results look great
 
-Presenting the search results the right way makes content easier to find. SharePoint Online has both a classic and a modern search experience. If you're responsible for search in your organization, you can customize how results are presented on classic search results pages.  Read about how you can use the search web parts in SharePoint Online to make it easier for users find what they're looking for. [Learn about the differences between the classic and modern search experiences in SharePoint Online](differences-classic-modern-search.md).  
+Presenting the search results the right way makes content easier to find. SharePoint Online has both a classic and a modern search experience. If you're responsible for search in your organization, you can customize how results are presented on classic search results pages.  Read about how you can use the search web parts in SharePoint Online to make it easier for users find what they're looking for in the classic search experience. [Learn about the differences between the classic and modern search experiences in SharePoint Online](differences-classic-modern-search.md).  
   
  ## Manage the Search Center
   
