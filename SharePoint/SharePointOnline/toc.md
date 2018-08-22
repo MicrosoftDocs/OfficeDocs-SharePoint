@@ -45,6 +45,7 @@
 ### [Safeguarding your data](safeguarding-your-data.md)
 ### [Sign out inactive users](sign-out-inactive-users.md)
 ## [Search](overview-of-search.md)
+### [Classic and modern search differences](differences-classic-modern-search.md)
 ### [Manage search: the admin center](manage-search-the-admin-center.md)
 ### [Make sure content can be found](make-sure-content-can-be-found.md)
 #### [Make site content searchable](make-site-content-searchable.md)
