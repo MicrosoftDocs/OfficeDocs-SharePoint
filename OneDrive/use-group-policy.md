@@ -3,7 +3,6 @@ title: "Use Group Policy to control OneDrive sync client settings"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 06/29/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: one-drive
@@ -362,7 +361,7 @@ This policy lets you set the maximum upload throughput rate in kilobytes (KB)/se
   
 By default, the upload throughput rate is unlimited and can be configured by the user directly in the sync client. If you enable this setting, computers affected by this policy will use the maximum upload throughput rate that you specify and the users will not be able to change upload rate in sync client settings themselves. Note that OneDrive.exe has to be restarted on users' devices to apply the configuration specified in this setting. If you disable this setting, users can configure the maximum upload rate for their computer by opening sync client settings and clicking the Network tab. 
   
-We recommend that you use this setting only used in cases where strict traffic restrictions are required, such as when you initially deploy the sync client in your organization. We don't recommend that you use this setting on an ongoing basis because it will decrease sync client performance and negatively impact the user experience. Also, any other sync (after the initial migration) will typically be few file sync at a time and should not have adverse network performance.
+We recommend that you use this setting only used in cases where strict traffic restrictions are required, such as when you initially deploy the sync client in your organization. We don't recommend that you use this setting on an ongoing basis because it will decrease sync client performance and negatively impact the user experience. After initial sync, users typically sync only a few files at a time, and it doesn't have a significant effect on network performance.
   
 When you enable this policy, you must enter the bandwidth (from 1 to 100000) in the **Bandwidth** box. 
   
@@ -437,7 +436,7 @@ This policy lets you set the maximum download throughput rate in kilobytes (KB)/
   
 By default, the download throughput rate is unlimited and can be configured by the user directly in the sync client. If you enable this setting, computers affected by this policy will use the maximum download throughput rate that you specify and the users will not be able to change the download rate in sync client settings themselves. Note, that OneDrive.exe has to be restarted on users' devices to apply the configuration specified in this setting. If you disable this setting, users can configure the maximum download rate for their computer by opening sync client settings and clicking the Network tab. 
   
-We recommend that you use this setting in cases where Files On-Demand is NOT enabled and where strict traffic restrictions are required, such as when you initially deploy the sync client in your organization or enable syncing of team sites. We don't recommend that you use this setting on an ongoing basis because it will decrease sync client performance and negatively impact the user experience. Also, any other sync (after the initial migration) will typically be few file sync at a time and should not have adverse network performance.
+We recommend that you use this setting in cases where Files On-Demand is NOT enabled and where strict traffic restrictions are required, such as when you initially deploy the sync client in your organization or enable syncing of team sites. We don't recommend that you use this setting on an ongoing basis because it will decrease sync client performance and negatively impact the user experience. After initial sync, users typically sync only a few files at a time, and it doesn't have a significant effect on network performance.
   
 When you enable this policy, you must enter the bandwidth (from 1 to 100000) in the **Bandwidth** box. 
   

@@ -3,7 +3,6 @@ title: "Default SharePoint groups"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 5/22/2018
 ms.audience: Admin
 ms.topic: reference
 ms.service: sharepoint-online
@@ -39,20 +38,20 @@ Each SharePoint group has a permission level. A permission level is simply a col
   
 Each site template has a set of SharePoint groups associated with it. When you create a site, you use a site template, and SharePoint automatically creates the correct set of SharePoint groups for the site. The specific collection of groups depends on the type of template that you choose. 
   
-For example, the following table shows the groups and permission levels that are created for the Public Website and the Team Site:
+For example, the following table shows the groups and permission levels that are created for team sites:
   
-|**SharePoint groups**|**Default permission level**|**Applies to Public Website**|**Applies to Team Sites**|
+|**SharePoint groups**|**Default permission level**|**Applies to team sites**|
 |:-----|:-----|:-----|:-----|
-|Approvers  <br/> |Approve  <br/> |Yes  <br/> |No  <br/> |
-|Designers  <br/> |Design, Limited Access  <br/> |Yes  <br/> |No  <br/> |
-|Hierarchy Managers  <br/> |Manage Hierarchy  <br/> |Yes  <br/> |No  <br/> |
-|\<site name\> Members  <br/> |Edit  <br/> |Yes  <br/> |Yes  <br/> |
-|\<site name\> Owners  <br/> |Full Control  <br/> |Yes  <br/> |Yes  <br/> |
-|\<site name\> Visitors  <br/> |Read  <br/> |Yes  <br/> |Yes  <br/> |
-|Restricted Readers  <br/> |Restricted Read  <br/> |Yes  <br/> |No  <br/> |
-|Style Resource Readers  <br/> |Limited Access  <br/> |Yes  <br/> |No  <br/> |
-|Quick Deploy Users  <br/> |Contribute  <br/> |Yes  <br/> |No  <br/> |
-|Translation Mangers  <br/> |Limited Access  <br/> |Yes  <br/> |No  <br/> |
+|Approvers  <br/> |Approve  <br/> |No  <br/> |
+|Designers  <br/> |Design, Limited Access  <br/> |No  <br/> |
+|Hierarchy Managers  <br/> |Manage Hierarchy  <br/> |No  <br/> |
+|\<site name\> Members  <br/> |Edit  <br/> |Yes  <br/> |
+|\<site name\> Owners  <br/> |Full Control  <br/> |Yes  <br/> |
+|\<site name\> Visitors  <br/> |Read  <br/> |Yes  <br/> |
+|Restricted Readers  <br/> |Restricted Read  <br/> |No  <br/> |
+|Style Resource Readers  <br/> |Limited Access  <br/> |No  <br/> |
+|Quick Deploy Users  <br/> |Contribute  <br/> |No  <br/> |
+|Translation Mangers  <br/> |Limited Access  <br/> |No  <br/> |
    
 ## Suggested uses for SharePoint groups
 <a name="__toc352237425"> </a>
