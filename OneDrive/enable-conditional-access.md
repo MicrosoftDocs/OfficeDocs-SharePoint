@@ -3,7 +3,6 @@ title: "Enable conditional access support in the OneDrive sync client for Window
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 06/21/2018
 ms.audience: Admin
 ms.topic: get-started-article
 ms.service: one-drive
