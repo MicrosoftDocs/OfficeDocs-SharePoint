@@ -17,7 +17,7 @@ description: "Change search settings to control whether or not content on a site
 
 # Enable content on a site to be searchable
 
-When users search on a site, results can come from many places such as columns, libraries, and pages. A site owner can change search settings to decide whether or not content is allowed to appear in search results. Permissions on content also affects whether users are allowed to see the content in search results. A good understanding of how permissions and search settings work can help ensure that people can see the right documents and sites in the search results.
+When users search on a site, results can come from many places such as columns, libraries, and pages. A site owner can change search settings to decide whether or not content is allowed to appear in search results. Permissions on content also affects whether users are allowed to see the content in search results. A good understanding of how permissions and search settings work can help you ensure that users can see the right documents and sites in the search results.
   
 > [!NOTE]
 > Search results are always security trimmed, so users will only see content they have permission to see. The search settings only define what content is included in the search index. 
@@ -54,7 +54,7 @@ As a site owner, you can choose whether or not the content on your site can appe
     
 2. Under **Search**, click **Search and offline availability**.
     
-3. In the **Indexing Site Content**section, under **Allow this site to appear in Search results**, select **Yes** to allow the content of the site to appear in search results. 
+3. In the **Indexing Site Content** section, under **Allow this site to appear in Search results**, select **Yes** to allow the content of the site to appear in search results. 
     
 To prevent the content from appearing in search results, select **No**.
   

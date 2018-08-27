@@ -20,9 +20,12 @@ description: "Result sources limit searches to certain content or to a subset of
 
 Result sources limit searches to certain content or to a subset of search results. You can also use result sources to send queries to external providers such as Bing. 
   
-A SharePoint Online administrator can manage result sources for all site collections and sites in that instance of SharePoint Online (tenant). A site collection administrator or a site owner can manage result sources for a site collection or a site, respectively. 
+A SharePoint Online administrator can manage result sources for all site collections and sites in the tenant. A site collection administrator or a site owner can manage result sources for a site collection or a site, respectively. 
+
+SharePoint Online has both a classic and a modern search experience. The modern search experience gets results from the default result source. If you change the default result source, this impacts both the classic and modern search experiences. [Learn more about the differences between the classic and modern search experiences in SharePoint Online](differences-classic-modern-search.md).
   
-You can create your own result sources, or use the predefined result sources. After you create a result source, you configure Search Web Parts and query-rule actions to use it. 
+For the classic search experience, you can create your own result sources, or use the predefined result sources. After you create a result source, you configure Search Web Parts and query-rule actions to use it.
+
   
 ## Create a new result source
 <a name="__toc342634787"> </a>

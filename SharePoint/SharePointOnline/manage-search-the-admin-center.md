@@ -12,12 +12,12 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: 21ea5d29-6cb2-4e40-9cc8-77c05d94beb5
-description: "Use the SharePoint Online search administration page to customize the search experience for users. Define searchable managed properties in the search schema, identify high-quality pages to improve relevance, manage query rules and result sources, and remove individual results. You can also evaluate any changes by viewing reports about usage and search."
+description: "Use the SharePoint Online search administration page to customize the classic search experience for users. Define searchable managed properties in the search schema, identify high-quality pages to improve relevance, manage query rules and result sources, and remove individual results. You can also evaluate any changes by viewing reports about usage and search."
 ---
 
 # SharePoint Online search administration overview
 
-As a SharePoint Online administrator, you can customize the search experience for users. This customization includes defining searchable managed properties in the search schema, identifying high-quality pages to improve relevance, managing query rules and result sources, and removing individual results. You can also evaluate any changes by viewing reports about usage and search.
+SharePoint Online has both a classic and a modern search experience. As a SharePoint Online administrator, you can customize and impact the search experiences for users.  [Learn about the differences between the classic and modern search experiences](differences-classic-modern-search.md). You can define searchable managed properties in the search schema, identify high-quality pages to improve relevance, manage query rules and result sources, and remove individual results. You can also evaluate any changes by viewing reports about usage and search.
   
 The changes you make from the search administration page are valid for the whole tenant, but you can also customize search on site collection level and on site level.
   
