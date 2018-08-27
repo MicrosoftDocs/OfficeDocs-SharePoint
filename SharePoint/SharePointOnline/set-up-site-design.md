@@ -16,16 +16,16 @@ search.appverid:
 - BCS160
 - GSP150
 - MET150
-description: "Learn how to create and add a site script, create a site design, scope access to the design, and set it as the hub site design.  "
+description: "Learn how to create and add a site script, create a site design and scope access to it, and set the design as the hub site design."
 ---
 
 # Set up a site design for your hub site  
 
-A site design is a collection of actions that SharePoint runs when a site is associated with a hub site. Actions describe changes to apply to the new site, such as creating a new list or adding nodes to the site navigation. Site designs provide reusable lists, layouts, pages, or custom actions so your users can quickly get started with the features they need. To get started, follow these steps.  
+A site design is one or more site scripts that SharePoint runs when a site is associated with a hub site. Actions describe changes to apply to the new site, such as creating a new list or adding nodes to the site navigation. Site designs provide reusable lists, or custom actions so your users can quickly get started with the features they need. To get started, follow these steps.  
 
 ## 1. Create a site script 
 
-Create a JSON script detailing the actions you want your script to perform.  
+Create a JSON script such as the following, detailing the actions you want to perform. For the full list of supported actions, see [Site design JSON schema](/sharepoint/dev/declarative-customization/site-design-json-schema/). 
 
 ```JSON
 { 
@@ -67,7 +67,7 @@ Create a JSON script detailing the actions you want your script to perform.
 ```
 ## 2. Add the site script 
 
-Each site script must be registered in SharePoint so that it is available to use. Add a new site design by using the Add-SPOSiteScript cmdlet. The following example shows how to add the JSON script described previously. 
+Each site script must be registered in SharePoint so that it is available to use. Add the site script by using the Add-SPOSiteScript cmdlet. The following example shows how to add the JSON script described previously. 
 
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
     
@@ -81,10 +81,11 @@ Add-SPOSiteScript
  -Content $site_script  
  -Description "Creates issues list, adds administrators’ group and adds link to policies to site nav” 
 ```
+After running the cmdlet, you get a result that lists the site script ID of the added script. Keep track of this ID somewhere because you will need it later when you create the site design.
 
 ## 3. Create the site design 
 
-Run the following cmdlet to add a new site design. Replace <ID> with the site script ID from when you added the site script. 
+Run the following cmdlet to create the site design and associate it with one or more site scripts. Replace <ID> with the site script ID from when you added the site script. 
 
 ```PowerShell
 Add-SPOSiteDesign  
