@@ -3,7 +3,6 @@ title: "Enable conditional access support in the OneDrive sync client for Window
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 06/21/2018
 ms.audience: Admin
 ms.topic: get-started-article
 ms.service: one-drive
@@ -50,15 +49,13 @@ The following are known issues with this release:
     
 - Conditional access for macOS is in preview.
     
-- This release will not automatically take over sync from the previous OneDrive for Business sync client (Groove.exe). If you are already syncing with Groove.exe, it will continue to sync after you set up the OneDrive sync client. (We are working on a fix for this issue.) For instructions, see [Transition from the previous OneDrive for Business sync client](transition-from-previous-sync-client.md).
-    
 - In some cases, the user may be prompted for credentials twice. We are working on a fix for this issue.
     
 - Certain ADFS configurations may require additional setup to work with this release. Please run the following command on your ADFS server to ensure FormsAuthentication is added to the list of PrimaryIntranetAuthenticationProvider:
     
      `Set-AdfsGlobalAuthenticationPolicy -PrimaryIntranetAuthenticationProvider @('WindowsAuthentication', 'FormsAuthentication')`
     
-- If you enable location-based conditional access, users will need to sign in immediately when they leave the set of approved IP address ranges. While outside of the set of approved IP address ranges, they will need to sign in again every time their access expires (every 90 minutes by default).
+- If you enable location-based conditional access, users will get a prompt about every 90 to 120 minutes by default when they leave the set of approved IP address ranges. The exact timing depends on the access token expiry duration (60 minutes by default), when their computer last obtained a new access token, and any specific conditional access timeouts put in place.
     
 ## Reporting problems
 
