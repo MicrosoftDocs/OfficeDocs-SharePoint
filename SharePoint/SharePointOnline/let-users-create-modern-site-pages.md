@@ -25,6 +25,8 @@ If you're a global or SharePoint admin in Office 365, you can allow or prevent t
   
 > [!NOTE]
 > The following procedures are for SharePoint pages only. When you allow creation of site pages, the **Add a page** command in the **Settings** menu creates new site pages. If you turn off the ability to create site pages, users can still add a SharePoint page from the **New** menu on the Home page and add from the classic page to a Wiki library using the same command. 
+>
+> If instead you want to disallow the ability for members to create or modify any kind of SharePoint page, you can change the permissions on the Site Pages library to disallow editing for users in the Members group of the site.
   
 ## Allow or prevent creation of site pages at the organization level in the SharePoint admin center
 
