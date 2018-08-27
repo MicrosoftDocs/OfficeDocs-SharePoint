@@ -21,7 +21,7 @@ description: "Learn how to create and add a site script, create a site design an
 
 # Set up a site design for your hub site  
 
-A site design is one or more site scripts that SharePoint runs when a site is associated with a hub site. Actions describe changes to apply to the new site, such as creating a new list or adding nodes to the site navigation. Site designs provide reusable lists, or custom actions so your users can quickly get started with the features they need. To get started, follow these steps.  
+A site design is one or more site scripts that SharePoint runs when a site is associated with a hub site. Actions describe changes to apply to the new site, such as creating a new list or adding nodes to the site navigation. Site designs provide reusable lists and custom actions so your users can quickly get started with the features they need. To get started, follow these steps.  
 
 ## 1. Create a site script 
 
