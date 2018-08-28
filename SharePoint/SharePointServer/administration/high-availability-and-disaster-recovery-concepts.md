@@ -163,4 +163,6 @@ As much as possible, disaster recovery procedures and responsibilities should be
 #### Concepts
 
 [Choose a disaster recovery strategy for SharePoint Server](plan-for-disaster-recovery.md)
+[What workloads can you protect with Azure Site Recovery?](https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-workload)
+[Replicate a multi-tier SharePoint application for disaster recovery using Azure Site Recovery](https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-sharepoint)
 

@@ -163,4 +163,5 @@ In addition to the previous requirements, farm recovery time will also be affect
 #### Concepts
 
 [High availability and disaster recovery concepts in SharePoint Server](high-availability-and-disaster-recovery-concepts.md)
-
+[What workloads can you protect with Azure Site Recovery?](https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-workload)
+[Replicate a multi-tier SharePoint application for disaster recovery using Azure Site Recovery](https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-sharepoint)
