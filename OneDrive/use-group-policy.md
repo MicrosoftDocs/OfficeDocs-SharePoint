@@ -76,8 +76,6 @@ The following Computer Configuration policies are available:
     
 - [Configure the maximum OneDrive size for downloading all files automatically](use-group-policy.md#MaxOneDriveSize)
     
-The following Known Folder Move policies are rolling out. If you don't see them yet, you should soon.
-  
 - [Prompt users to move Windows known folders to OneDrive](use-group-policy.md#OptInWithWizard)
     
 - [Silently redirect Windows known folders to OneDrive](use-group-policy.md#OptInNoWizard)
@@ -87,7 +85,7 @@ The following Known Folder Move policies are rolling out. If you don't see them 
 - [Prevent users from moving their Windows known folders to OneDrive](use-group-policy.md#BlockKFM)
     
 > [!NOTE]
-> "SharePoint on-premises server URL" and "SharePoint prioritization setting for hybrid customers that use SharePoint Online (SPO) and SharePoint on-premises server" are included in the .adml file and will be in preview soon. 
+> "SharePoint on-premises server URL" and "SharePoint prioritization setting for hybrid customers that use SharePoint Online (SPO) and SharePoint on-premises server" are for customers who have SharePoint Server 2019 Public Preview. [More info about using the new OneDrive sync client with SharePoint Server 2019 Public Preview](/SharePoint/install/new-onedrive-sync-client/)
   
 ### Allow syncing OneDrive accounts for only specific organizations
 <a name="TenantAllowList"> </a>
@@ -179,7 +177,8 @@ For info about estimating the network bandwidth you need for the sync client and
 ### Silently configure OneDrive using Windows 10 or domain credentials
 <a name="SilentConfig"> </a>
 
-Important: ADAL is now enabled automatically when use this policy or the registry key so you don't have to download and enable it separately.
+> [!IMPORTANT]
+> ADAL is now enabled automatically when use this policy or the registry key so you don't have to download and enable it separately.
   
 This policy lets you configure the OneDrive sync client silently using the primary Windows account on Windows 10, and domain credentials on Windows 7 and later.
   
@@ -200,7 +199,7 @@ Please let us know if you have feedback on this feature or encounter any issues.
 
 This setting is used in conjunction with SilentAccountConfig. Any user who has a OneDrive that's larger than the specified threshold (in MB) will be prompted to choose the folders they would like to sync before the OneDrive sync client (OneDrive.exe) downloads the files.
   
-In the **Options** box, click **Show** to enter the tenant ID and the maximum size in MB (from 0 to 4294967295). 
+In the **Options** box, click **Show** to enter the tenant ID and the maximum size in MB (from 0 to 4294967295). The default value is 500. 
   
 Enabling this policy sets the following registry key.
   
