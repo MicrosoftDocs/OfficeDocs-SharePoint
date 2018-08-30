@@ -53,7 +53,6 @@ If you're a global or SharePoint admin in Office 365, you can convert any existi
     
 - For info about how site owners can customize hub sites, see [Set up your SharePoint hub site](https://support.office.com/article/e2daed64-658c-4462-aeaf-7d1a92eba098).
 
-- If using the SharePoint sites multigeo feature, you can create a hub site in any geo/satellite location and associate sites from any geo/satellite location. 
     
 ## See also
 
