@@ -29,6 +29,7 @@
 ## [Hub sites](planning-hub-sites.md)
 ### [Create hub site](create-hub-site.md)
 ### [Remove hub site](remove-hub-site.md)
+### [Set up site design](set-up-site-design.md)
 ## [Sync](sharepoint-sync.md)
 ### [Let users use new OneDrive sync client](let-users-use-new-onedrive-sync-client.md)
 ### [Let users sync IRM-protected files](let-users-sync-irm-protected-files.md)
