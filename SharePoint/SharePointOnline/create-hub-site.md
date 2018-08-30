@@ -44,16 +44,15 @@ If you're a global or SharePoint admin in Office 365, you can convert any existi
     > To restrict permission to associate sites to the hub after creation, run the following command: >  `Grant-SPOHubSiteRights -Identity -Principals GroupEmail -Rights Join`> (Where  *Identity*  is the URL of the site and  *GroupEmail*  is the email address of the mail-enabled security group.) 
   
 6. Notify the hub site owners that their site has been converted to a hub site.
+
+7. Optionally, use a site design that gets applied when sites join the hub. For info, see [Set up a site design for your hub site](set-up-site-design.md). For more info about site designs and site scripts, see [SharePoint site design and site script overview](/sharepoint/dev/declarative-customization/site-design-overview.md).
     
 ## More info
 
 - For info about the above PowerShell commands, as well as the other commands for managing hub sites, see [Manage SharePoint hub sites](https://go.microsoft.com/fwlink/?linkid=869058).
     
-- You can also use a site design to automate the joining of a newly created site to an existing hub site by using the joinHub site script action. For info about how to create the site script and site design, see [SharePoint site design and site script overview](https://go.microsoft.com/fwlink/?linkid=870437).
-    
 - For info about how site owners can customize hub sites, see [Set up your SharePoint hub site](https://support.office.com/article/e2daed64-658c-4462-aeaf-7d1a92eba098).
 
-- If using the SharePoint sites multigeo feature, you can create a hub site in any geo/satellite location and associate sites from any geo/satellite location. 
     
 ## See also
 
