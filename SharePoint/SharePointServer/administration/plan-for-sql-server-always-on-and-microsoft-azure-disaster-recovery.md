@@ -643,3 +643,6 @@ As a final note, you have to review and validate your plan for falling back to t
 
 [SharePoint Server 2016 in Microsoft Azure](sharepoint-server-2016-in-microsoft-azure.md)
 
+[What workloads can you protect with Azure Site Recovery?](https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-workload)
+
+[Replicate a multi-tier SharePoint application for disaster recovery using Azure Site Recovery](https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-sharepoint)
