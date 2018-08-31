@@ -17,7 +17,7 @@ description: "Summary: Illustrates how to make changes to general settings for a
 
 # Edit general settings on a web application in SharePoint Server
 
- **Summary:** Illustrates how to make changes to general settings for a SharePoint Server 2016 and SharePoint Server 2013web application in Central Administration. 
+ **Summary:** Illustrates how to make changes to general settings for a SharePoint Server 2016 and SharePoint Server 2013 web application in Central Administration. 
   
 ## Edit a web application by using Central Administration
 <a name="section1"> </a>

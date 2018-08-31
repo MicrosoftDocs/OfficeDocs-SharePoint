@@ -9,12 +9,12 @@ ms.topic: hub-page
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: f39ef086-a317-44ba-b6db-3ee2f460c9fb
-description: "Learn about planning, configuring and deploying search in SharePoint Server 2013 and SharePoint Server 2016."
+description: "Learn about planning, configuring and deploying search in SharePoint Server."
 ---
 
 # Search
 
-Learn about planning, configuring and deploying search in SharePoint Server 2013 and SharePoint Server 2016.
+Learn about planning, configuring and deploying search in SharePoint Server.
   
 |**Content**|**Description**|
 |:-----|:-----|

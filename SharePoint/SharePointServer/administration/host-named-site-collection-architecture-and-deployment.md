@@ -405,19 +405,14 @@ else
 ### Convert path-based site collections to host-named site collections
 <a name="section3b"> </a>
 
-You can convert path-based site collections to host-named site collections and host-named site collections to path-based site collections. You have to use the PowerShell backup and restore cmdlets to convert site collections. You cannot use the the SharePoint Central Administration website or PowerShell cmdlets that attach and detach, or mount and dismount content databases to convert site collections.
+You can convert path-based site collections to host-named site collections and host-named site collections to path-based site collections by using the PowerShell cmdlet Set-SPSite. After the site rename, an app pool recycle is recommended to force refreshing the cache. You cannot use the SharePoint Central Administration website or Windows PowerShell cmdlets that attach and detach, or mount and dismount content databases to convert site collections.
   
 The following example converts a standard site collection to a host-named site collection:
   
 ```
-Backup-SPSite -Identity 'http://portalOld.contoso.com' -Path 'c:\Backup\portalContoso.bak' -Force -UseSQLSnapShot
-Restore-SPSite -Identity 'http://portal.contoso.com' -Path 'c:\Backup\portalContoso.bak' -DatabaseName 'portal_content' -Force -HostHeaderWebApplication 'http://webapp.contoso.com' -Confirm:$false
-
+Get-SPSite https://SP2013content.contoso.com/sites/PathBasedSiteCollection | Set-SPSite -url https://HostNamedSiteCollection.contoso.com 
 ```
 
-> [!IMPORTANT]
-> You cannot run the **Backup-SPSite** cmdlet on a SharePoint Server 2010 environment and use the **Restore-SPSite** cmdlet from the SharePoint Server environment. The Backup and Restore operation need to be from the same major product versions. You can convert path based site collections in SharePoint Server 2010 to host-named site collections before migration or attach path-based site collections in SharePoint Server before converting to host-named site collections. 
-  
 ## Use multiple web applications with host-named site collections
 <a name="section4"> </a>
 

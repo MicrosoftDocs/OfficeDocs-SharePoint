@@ -3,7 +3,7 @@ title: "SharePoint Migration Identity Mapping Active Directory Identity Scan"
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
-ms.date: 1/5/2018
+ms.date: 01/5/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro

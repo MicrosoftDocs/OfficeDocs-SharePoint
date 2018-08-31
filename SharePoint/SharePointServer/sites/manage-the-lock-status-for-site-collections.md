@@ -80,19 +80,19 @@ Use this procedure to lock or unlock a site collection by using PowerShell.
   Set-SPSite -Identity "<SiteCollection>" -LockState "<State>"
   ```
 
-    Where:
+Where:
     
-  -  _\<SiteCollection\>_ is the URL of the site collection that you want to lock or unlock. 
+-  _\<SiteCollection\>_ is the URL of the site collection that you want to lock or unlock. 
     
-  -  _\<State\>_ is one of the following values: 
+-  _\<State\>_ is one of the following values: 
     
-  - **Unlock** to unlock the site collection and make it available to users. 
+- **Unlock** to unlock the site collection and make it available to users. 
     
-  - **NoAdditions** to prevent users from adding new content to the site collection. Updates and deletions are still allowed. 
+- **NoAdditions** to prevent users from adding new content to the site collection. Updates and deletions are still allowed. 
     
-  - **ReadOnly** to prevent users from adding, updating, or deleting content. 
+- **ReadOnly** to prevent users from adding, updating, or deleting content. 
     
-  - **NoAccess** to prevent users from accessing the site collection and its content. Users who attempt to access the site receive an error message. 
+- **NoAccess** to prevent users from accessing the site collection and its content. Users who attempt to access the site receive an error message. 
     
  For more information, see [Set-SPSite](http://technet.microsoft.com/library/f8c7f0ac-52bf-4b79-a356-9d6e485a55aa.aspx).
   

@@ -237,36 +237,11 @@ Get a Secure Channel SSL wildcard or SAN (Subject Alternative Name) certificate 
 > [!NOTE]
 >  This certificate must support multiple names and must be at least 2048 bits. >  The **Subject** or **Subject Name** field of the certificate must contain a wildcard entry of the domain name in the External URL. For example, if your external URL is https://spexternal.public.adventureworks.com, the subject of your wildcard certificate should be **\*.public.adventureworks.com**. >  Certificates typically expire at one-year intervals. So it's important to plan in advance for certificate renewals to avoid service interruptions. SharePoint Administrators should schedule a reminder for certificate replacement that gives you enough lead-in time to prevent a work stoppage. 
   
-|||
-|:-----|:-----|
-|![Edit icon](../media/mod_icon_edit_m.png)| Record the following on the worksheet in **Table 4b: Secure Channel SSL Certificate**:  <br/>  The name of this certificate and the location where you stored it in the **Secure Channel Certificate location and file name** row.  <br/>  The friendly name of this certificate in the **Secure Channel SSL Certificate Friendly Name** row.  <br/>  Specify the type of certificate (wildcard or SAN) in the **Type of certificate** row.  <br/>  The expiration date of the certificate in the **Expiration date** row.  <br/>  If this certificate has a .pfx file name extension, record the certificate's password in the **Secure Channel SSL Certificate Password** row. Remember to help secure the worksheet with password protection if you update it with password information.  <br/> |
    
 ### About STS certificates
 <a name="AboutSTS"> </a>
 
-The STS certificate of the on-premises SharePoint farm requires a default certificate to validate incoming tokens. In a SharePoint hybrid environment, Azure Active Directory acts as a trusted token signing service and uses the STS certificate as the signing certificate. Azure Active Directory cannot use the default STS certificate from SharePoint Server as a signing certificate because it cannot verify the trust chain.
-  
-Therefore, you must replace the default STS certificate on each server in the on-premises SharePoint farm with one of the following:
-  
-- A certificate issued by a public certification authority (CA) that's trusted by Azure Active Directory
-    
-- A self-signed certificate
-    
-The default STS certificate is replaced later when you configure the identify management infrastructure.
-  
-> [!IMPORTANT]
->  This certificate must be at least 2048 bits. >  You'll have to replace the STS certificate on each web and application server in the SharePoint Server farm. >  Certificates typically expire at one-year intervals. So it's important to plan in advance for certificate renewals to avoid service interruptions. 
-  
-If you choose to use a self-signed certificate, you'll create it during the deployment configuration. The steps for creating a new self-signed certificate for SharePoint are included in the [Configure server-to-server authentication from SharePoint Server to SharePoint Online](configure-server-to-server-authentication.md) topic. 
-  
-### Obtain an STS certificate
-<a name="ObtainSTS"> </a>
-
-Get your STS certificate before you begin the configuration process.
-  
-|||
-|:-----|:-----|
-|![Edit icon](../media/mod_icon_edit_m.png)| Record the following on the worksheet in in **Table 4a: STS Certificate**:  <br/>  STS Certificate Friendly Name  <br/>  STS Certificate path\file name (\*.pfx file)  <br/>  STS Certificate Password  <br/>  STS Certificate path\file name (\*.cer file)  <br/>  Subject Name  <br/>  STS Certificate Start Date  <br/>  STS Certificate End Date  <br/> |
+The STS certificate of the on-premises SharePoint farm requires a default certificate to validate incoming tokens. In a SharePoint hybrid environment, Azure Active Directory acts as a trusted token signing service and uses the STS certificate as the signing certificate. If you choose to use a certificate other than the default STS certificate (for example, a certificate from a public certificate authority), replace the default certificate before you begin the hybrid configuration process.
    
 ## Record the accounts needed for configuration and testing
 <a name="certificates"> </a>

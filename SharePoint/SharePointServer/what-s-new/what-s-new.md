@@ -23,6 +23,8 @@ Articles contain an overview of new and improved product features, updates, depr
   
 |**Content**|**Description**|
 |:-----|:-----|
+|[New and improved features in SharePoint Server 2019 Public Preview](new-and-improved-features-in-sharepoint-server-2019.md) <br/> |Learn about the new features and updates to existing features in SharePoint Server 2019 Public Preview.  <br/> |
+|[What's deprecated or removed from SharePoint Server 2019 Public Preview](what-s-deprecated-or-removed-from-sharepoint-server-2019.md) <br/> |Learn about the features and functionality that are deprecated or removed in SharePoint Server 2019 Public Preview.  <br/> |
 |[New and improved features in SharePoint Server 2016](new-and-improved-features-in-sharepoint-server-2016.md) <br/> |Learn about the new features and updates to existing features in SharePoint Server 2016.  <br/> |
 |[New features in November 2016 PU for SharePoint Server 2016 (Feature Pack 1)](new-features-in-feature-pack-1.md) <br/> |Learn about the new features that are included in the November 2016 Public Update for SharePoint Server 2016 (Feature Pack 1).  <br/> |
 |[New features in September 2017 PU for SharePoint Server 2016 (Feature Pack 2)](new-feature-in-feature-pack-2.md) <br/> |Learn about the new features that are included in the September 2017 Public Update for SharePoint Server 2016(Feature Pack 2).  <br/> |

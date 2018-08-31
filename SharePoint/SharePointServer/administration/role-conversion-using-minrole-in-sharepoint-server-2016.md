@@ -1,9 +1,9 @@
 ---
-title: "Role conversion using MinRole in SharePoint Server 2016"
+title: "Role conversion using MinRole in SharePoint Servers 2016 and 2019 Public Preview"
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
-ms.date: 2/27/2018
+ms.date: 7/24/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: bcbddee7-1c77-4788-9a32-fb585c48ee37
-description: "Summary: Learn about how to convert your server roles in a SharePoint farm deployment using MinRole . MinRole help administrators select the right server role when provisioning SharePoint Server 2016."
+description: "Summary: Learn about how to convert your server roles in a SharePoint farm deployment using MinRole . MinRole help administrators select the right server role when provisioning SharePoint Servers 2016 and 2019 Public Preview."
 ---
 
-# Role conversion using MinRole in SharePoint Server 2016
+# Role conversion using MinRole in SharePoint Servers 2016 and 2019 Public Preview
 
- **Summary:** Learn about how to convert your server roles in a SharePoint farm deployment using **MinRole**. MinRole help administrators select the right server role when provisioning SharePoint Server 2016. 
+ **Summary:** Learn about how to convert your server roles in a SharePoint farm deployment using **MinRole**. MinRole help administrators select the right server role when provisioning SharePoint Servers 2016 and 2019 Public Preview. 
   
 ## Role Conversion
 
@@ -49,7 +49,7 @@ Role conversion can't convert a server from a role hosting Search to a role that
 ## How to change a server role
 <a name="changerole"> </a>
 
- **To change a server role by using the Central Administration Website**
+ **To change a server role by using the Central Administration Web site**
   
 1. Verify that the user account that is performing this procedure is a member of the local Administrators group.
     
@@ -71,14 +71,14 @@ Role conversion can't convert a server from a role hosting Search to a role that
     
   - local Administrators group on the server on which you are running the PowerShell cmdlets.
     
-    An administrator can use the [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx) cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
+    An administrator can use the [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps) cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
-2. On the **Start** menu, click **Microsoft SharePoint 2016 Products**.
+2. On the **Start** menu, click **Microsoft SharePoint Products**.
     
-3. Click **SharePoint 2016 Management Shell**.
+3. Click **SharePoint Management Shell**.
     
 4. At the PowerShell command prompt, type the following command:
     

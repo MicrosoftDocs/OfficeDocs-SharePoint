@@ -61,6 +61,9 @@ If your key is lost or obtained by someone else, there are two defenses in place
 ### Getting containers
 
 public SPProvisionedMigrationContainersInfo ProvisionMigrationContainers()
+
+>[!NOTE]
+> This call can be made in C# using the SharePoint client side object model. See, [Complete basic operations using SharePoint client library code](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/complete-basic-operations-using-sharepoint-client-library-code).
   
 The call will return an object that contains two strings containing two SAS token for accessing the two required containers and a byte array for the AES256CBC encryption. This key must be used when encrypting the data. Once we give you the key it is forgotten by Microsoft. You need to keep it and pass it again for the SubmitMigrationJob call.
   

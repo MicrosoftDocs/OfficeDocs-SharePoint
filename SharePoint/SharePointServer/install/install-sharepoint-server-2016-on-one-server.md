@@ -1,9 +1,9 @@
 ---
-title: "Install SharePoint Server 2016 on one server"
+title: "Install SharePoint Servers 2016 or 2019 Public Preview on one server"
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
-ms.date: 2/15/2018
+ms.date: 7/124/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
@@ -14,17 +14,17 @@ ms.collection:
 - Strat_SP_server
 ms.custom: 
 ms.assetid: 356d3a0b-fc26-455c-9afb-6d2ffdceef84
-description: "Summary: Learn how to install SharePoint Server 2016 on a single server."
+description: "Summary: Learn how to install SharePoint Servers 2016 or 2019 Public Preview on a single server."
 ---
 
-# Install SharePoint Server 2016 on one server
+# Install SharePoint Servers 2016 or 2019 Public Preview on one server
 
- **Summary:** Learn how to install SharePoint Server 2016 on a single server. 
+ **Summary:** Learn how to install SharePoint Servers 2016 or 2019 Public Preview on a single server. 
   
- You can install and configure SharePoint Server 2016 on a single server if you are hosting only a few sites for a limited number of users or if you want to create a trial or development environment. This configuration is also useful if you want to configure a farm to meet your needs first, and then add servers to the farm at a later stage. 
+ You can install and configure SharePoint Servers 2016 or 2019 Public Preview on a single server if you are hosting only a few sites for a limited number of users or if you want to create a trial or development environment. This configuration is also useful if you want to configure a farm to meet your needs first, and then add servers to the farm at a later stage. 
   
 > [!NOTE]
-> In previous versions of SharePoint, a single server installation automatically installed SQL Server Express. In SharePoint Server 2016, a single server installation contains only SharePoint. SQL Server can be installed on the same server or on a separate server; both scenarios are supported. For better performance we recommend installing SQL Server on a separate server. 
+> In previous versions of SharePoint, a single server installation automatically installed SQL Server Express. In SharePoint Servers 2016 and 2019 Public Preview, a single server installation contains only SharePoint. SQL Server can be installed on the same server or on a separate server; both scenarios are supported. For better performance we recommend installing SQL Server on a separate server. 
   
     
 ## Overview
@@ -32,32 +32,34 @@ description: "Summary: Learn how to install SharePoint Server 2016 on a single s
 
 After you have completed setup and the SharePoint Products Configuration Wizard, you will have installed binaries, configured security permissions, configured registry settings, configured the configuration database, configured the content database, and installed the SharePoint Central Administration web site. Next, you can choose to run the Farm Configuration Wizard to configure the farm, select the services that you want to use in the farm, and create the first site collection, or you can manually perform the farm configuration at your own pace.
   
-## Before you install SharePoint Server 2016 on a single server
+## Before you install SharePoint Servers 2016 or 2019 Public Preview on a single server
 <a name="section2"> </a>
 
-Before you begin to install and configure SharePoint Server 2016, do the following:
+Before you begin to install and configure SharePoint Servers 2016 or 2019 Public Preview, do the following:
   
-- Ensure that you have met all hardware and software requirements. You must have a 64-bit version of Windows Server 2012 R2. To host SharePoint databases, you must also have a 64-bit version of SQL Server 2014 SP1. For more information about these requirements, such as specific updates that you must install, see [Hardware and software requirements for SharePoint Server 2016](hardware-and-software-requirements.md).
+- For SharePoint Server 2016, ensure that you have met all hardware and software requirements. You must have a 64-bit version of Windows Server 2012 R2. To host SharePoint databases, you must also have a 64-bit version of SQL Server 2014 SP1. For more information about these requirements, such as specific updates that you must install, see [Hardware and software requirements for SharePoint Server 2016](hardware-and-software-requirements.md).
+
+- For SharePoint Server 2019 Public Preview, ensure that you have met all hardware and software requirements. You must have a 64-bit version of Windows Server 2016. To host SharePoint databases, you must also have a 64-bit version of SQL Server 2016 or 2017. For more information about these requirements, such as specific updates that you must install, see [Hardware and software requirements for SharePoint Server 2019 Public Preview](hardware-and-software-requirements-2019.md).
     
-- Ensure that you perform a clean installation of SharePoint Server 2016.
+- Ensure that you perform a clean installation of SharePoint Servers 2016 or 2019 Public Preview.
     
 - Ensure that you are prepared to set up the required accounts by using appropriate permissions. For detailed information, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
     
-- Ensure the Max degree of parallelism is set to 1. For additional information about max degree of parallelism see, [Configure the max degree of parallelism Server Configuration Option](http://go.microsoft.com/fwlink/?prd=12467&amp;pver=1.0&amp;sbp=Parallel&amp;plcid=0x409&amp;clcid=0x409&amp;ar=SQL Server 2016&amp;sar=Paralellism)and [Degree of Parallelism](http://go.microsoft.com/fwlink/?prd=12467&amp;pver=1.0&amp;sbp=Parallelism&amp;plcid=0x409&amp;clcid=0x409&amp;ar=SQL Server 2016&amp;sar=Paralellism)
+- Ensure the Max degree of parallelism is set to 1. For additional information about max degree of parallelism see, [Configure the max degree of parallelism Server Configuration Option](https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/configure-the-max-degree-of-parallelism-server-configuration-option?view=sql-server-2017).
     
- **Security note**: As a security best practice, we recommend that you install SharePoint Server 2016 by using least-privilege administration. 
+ **Security note**: As a security best practice, we recommend that you install SharePoint Servers 2016 or 2019 Public Preview by using least-privilege administration. 
   
 > [!TIP]
 > If you decide to install prerequisites manually, you can still run the Microsoft SharePoint Products Preparation Tool to verify which prerequisites are required on each server. 
   
-## Install SharePoint Server 2016 on a single server
+## Install SharePoint Servers 2016 or 2019 Public Preview on a single server
 <a name="section3"> </a>
 
-To install and configure SharePoint Server 2016 on a single server, you will follow these steps:
+To install and configure SharePoint Server 2016 or 2019 Public Preview on a single server, you will follow these steps:
   
-1. Run the **Microsoft SharePoint Products and Technologies 2016 Preparation Tool,** which installs all prerequisites to use SharePoint Server 2016. 
+1. Run the **Microsoft SharePoint Products and Technologies Preparation Tool,** which installs all prerequisites to use SharePoint Server. 
     
-2. Run Setup, which installs binaries, configures security permissions, and edits registry settings for SharePoint Server 2016.
+2. Run Setup, which installs binaries, configures security permissions, and edits registry settings for SharePoint Servers 2016 or 2019 Public Preview.
     
 3. Run SharePoint Products Configuration Wizard, which installs and configures the configuration database, installs and configures the content database, and installs the SharePoint Central Administration web site.
     
@@ -68,21 +70,21 @@ To install and configure SharePoint Server 2016 on a single server, you will fol
 6. Perform post-installation steps.
     
 > [!IMPORTANT]
-> To complete the following procedures, the account that you use must be a member of the Administrators group on the computer on which you are installing SharePoint Server 2016. For information about user accounts, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md). 
+> To complete the following procedures, the account that you use must be a member of the Administrators group on the computer on which you are installing SharePoint Server. For information about user accounts, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md). 
   
-### Run the Microsoft SharePoint 2016 Products Preparation Tool
+### Run the Microsoft SharePoint Products Preparation Tool
 
-Because the prerequisite installer downloads components from the Microsoft Download Center, you must have Internet access on the computer on which you are running the installer. Use the following procedure to install software prerequisites for SharePoint Server 2016.
+Because the prerequisite installer downloads components from the Microsoft Download Center, you must have Internet access on the computer on which you are running the installer. Use the following procedure to install software prerequisites for SharePoint Servers 2016 or 2019 Public Preview.
   
- **To run the Microsoft SharePoint 2016 Products Preparation Tool**
+ **To run the Microsoft SharePoint Products Preparation Tool**
   
 1. Verify that the user account that is performing this procedure is the Setup user account. For information about the Setup user account, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
     
-2. In the SharePoint Server 2016 installation disc image software, mount the ISO file, and click the splash.hta file. The SharePoint Server 2016 splash screen is displayed.
+2. In the SharePoint Server installation disc image software, mount the ISO file, and click the splash.hta file. The SharePoint Server splash screen is displayed.
     
 3. Click **Install software prerequisites**. 
     
-4. On the **Welcome to the SharePoint 2016 Products Preparation Tool** page, click **Next**.
+4. On the **Welcome to the SharePoint Products Preparation Tool** page, click **Next**.
     
 5. On the **License Terms for software products** page, review the terms, select the **I accept the terms of the License Agreement(s)** check box, and then click **Next**.
     
@@ -94,19 +96,19 @@ Because the prerequisite installer downloads components from the Microsoft Downl
     
 ### Run Setup
 
-The following procedure installs binaries, configures security permissions, and edits registry settings for SharePoint Server 2016. At the end of Setup, you can choose to start the SharePoint Products Configuration Wizard, which is described later in this section.
+The following procedure installs binaries, configures security permissions, and edits registry settings for SharePoint Server. At the end of Setup, you can choose to start the SharePoint Products Configuration Wizard, which is described later in this section.
   
  **To run Setup**
   
 1. Verify that the user account that is performing this procedure is the Setup user account. For information about the Setup user account, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
     
-2. On the **SharePoint Server 2016 Start** page, click **Install SharePoint Server**.
+2. On the **SharePoint Server Start** page, click **Install SharePoint Server**.
     
 3. On the **Enter Your Product Key** page, enter your product key, and then click **Continue**.
     
 4. On the **Read the Microsoft Software License Terms** page, review the terms, select the **I accept the terms of this agreement** check box, and then click **Continue**.
     
-5. Optional: To install SharePoint Server 2016 at a custom location, or to store search index files at a custom location, click the **File Location** tab, and then either type the custom location or click **Browse** to find the custom location. 
+5. Optional: To install SharePoint Server at a custom location, or to store search index files at a custom location, click the **File Location** tab, and then either type the custom location or click **Browse** to find the custom location. 
     
     > [!NOTE]
     > If you intend to use this computer as a search server, we recommend that you store the search index files on a separate storage volume or partition. Any other search data that needs to be stored is stored in the same location as the search index files. You can only set this location at installation time. 
@@ -120,7 +122,7 @@ The following procedure installs binaries, configures security permissions, and 
 > [!NOTE]
 > If Setup fails, check log files in the Temp folder of the user account you used to run Setup. Ensure that you are logged in using the same user account and then type %temp% in the location bar in Windows Explorer. If the path in Windows Explorer resolves to a location that ends in a "1" or "2", you have to navigate up one level to view the log files. The log file name is SharePoint Server Setup (<  _time stamp_>). 
   
-### Run the SharePoint 2016 Products Configuration Wizard
+### Run the SharePoint Products Configuration Wizard
 
 Use the following procedure to install and configure the configuration database and the content database, and to install the SharePoint Central Administration website.
   
@@ -128,7 +130,7 @@ Use the following procedure to install and configure the configuration database 
   
 1. Verify that the user account that is performing this procedure is the Setup user account. For information about the Setup user account, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
     
-2. If you have closed the SharePoint Products Configuration Wizard, you can access it by clicking **Start**, point to **All Apps**, click **Microsoft SharePoint 2016 Products**, and then click **SharePoint 2016 Products Configuration Wizard**. If the **User Account Control** dialog box appears, click **Continue**.
+2. If you have closed the SharePoint Products Configuration Wizard, you can access it by clicking **Start**, point to **All Apps**, click **Microsoft SharePoint Products**, and then click **SharePoint Products Configuration Wizard**. If the **User Account Control** dialog box appears, click **Continue**.
     
 3. On the **Welcome to SharePoint Products** page, click **Next**.
     
@@ -152,7 +154,7 @@ Use the following procedure to install and configure the configuration database 
     
 8. On the **Specify Farm Security Settings** page, type a passphrase, and then click **Next**.
     
-    Although a passphrase resembles a password, it is usually longer to improve security. It is used to encrypt credentials of accounts that are registered in SharePoint Server 2016. For example, the SharePoint Server 2016 server farm account that you provide when you run the SharePoint Products Configuration Wizard. Ensure that you remember the passphrase, because you must use it every time that you add a server to the farm.
+    Although a passphrase resembles a password, it is usually longer to improve security. It is used to encrypt credentials of accounts that are registered in SharePoint Server. For example, the SharePoint Server server farm account that you provide when you run the SharePoint Products Configuration Wizard. Ensure that you remember the passphrase, because you must use it every time that you add a server to the farm.
     
     Ensure that the passphrase meets the following criteria:
     
@@ -184,20 +186,20 @@ Use the following procedure to install and configure the configuration database 
 12. On the **Completing the SharePoint Products Configuration Wizard** page, review your configuration settings to verify that they are correct, and then click **Next**.
     
     > [!NOTE]
-    > The **Advanced Settings** option is not available in SharePoint Server 2016. 
+    > The **Advanced Settings** option is not available in SharePoint Servers 2016 and 2019 Public Preview. 
   
 13. On the **Configuration Successful** page, click **Finish**. When the wizard closes, setup opens the web browser and connects to Central Administration.
     
-    If the SharePoint Products Configuration Wizard fails, check the PSCDiagnostics log files, which are located on the drive on which SharePoint Server 2016 is installed, in the %COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\LOGS folder.
+    If the SharePoint Products Configuration Wizard fails, check the PSCDiagnostics log files, which are located on the drive on which SharePoint Servers 2016 and 2019 Public Preview are installed, in the %COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\LOGS folder.
     
     If you are prompted for your user name and password, you might have to add the SharePoint Central Administration web site to the list of trusted sites and configure user authentication settings in Internet Explorer. You might also want to disable the Internet Explorer Enhanced Security settings. If you see a proxy server error message, you might have to configure proxy server settings so that local addresses bypass the proxy server. Instructions for configuring proxy server settings are provided in the following section. For more information about how to configure browser and proxy settings, see [Configure browser settings](install-sharepoint-server-2016-on-one-server.md#configurebrowser).
     
 ### Configure browser settings
 <a name="configurebrowser"> </a>
 
-After you run the SharePoint Products Configuration Wizard, you should confirm that SharePoint Server 2016 works correctly by configuring additional settings in Internet Explorer.
+After you run the SharePoint Products Configuration Wizard, you should confirm that SharePoint Server works correctly by configuring additional settings in Internet Explorer.
   
-If you are not using Internet Explorer, you might have to configure additional settings for your browser. For information about supported browsers, see [Plan browser support in SharePoint Server 2016](browser-support-planning-0.md).
+If you are not using Internet Explorer, you might have to configure additional settings for your browser. For information about supported browsers, see [Plan browser support in SharePoint Servers 2016 and 2019 Public Preview](browser-support-planning-0.md).
   
 To confirm that you have configured browser settings correctly, log on to the server by using an account that has local administrative credentials. Next, connect to the SharePoint Central Administration web site. If you are prompted for your user name and password when you connect, perform the following procedures:
   
@@ -270,7 +272,7 @@ If you receive a proxy server error message, perform the following procedure:
 ### Run the Farm Configuration Wizard
 <a name="configurebrowser"> </a>
 
-You have now completed setup and the initial configuration of SharePoint Server 2016. You have created the SharePoint Central Administration web site. You can now configure your farm and sites, and you can select services by using the Farm Configuration Wizard.
+You have now completed setup and the initial configuration of SharePoint Server. You have created the SharePoint Central Administration web site. You can now configure your farm and sites, and you can select services by using the Farm Configuration Wizard.
   
  **To run the Farm Configuration Wizard**
   
@@ -314,7 +316,7 @@ You have now completed setup and the initial configuration of SharePoint Server 
 ## Post-installation steps
 <a name="section4"> </a>
 
-After you install and configure SharePoint Server 2016, your browser window opens to the Central Administration web site of your new SharePoint site. Although you can start adding content to the site or customizing the site, we recommend that you first perform the following administrative tasks.
+After you install and configure SharePoint Server, your browser window opens to the Central Administration web site of your new SharePoint site. Although you can start adding content to the site or customizing the site, we recommend that you first perform the following administrative tasks.
   
 - **Configure usage and health data collection** You can configure usage and health data collection in your server farm. The system writes usage and health data to the logging folder and to the logging database. 
     
@@ -324,6 +326,6 @@ After you install and configure SharePoint Server 2016, your browser window open
     
 - **Configure outgoing email** You can configure outgoing email so that your Simple Mail Transfer Protocol (SMTP) server sends email alerts to site users and notifications to site administrators. You can configure both the "From" email address and the "Reply" email address that appear in outgoing alerts. 
     
-- **Configure Search settings** You can configure Search settings to crawl the content in SharePoint Server 2016. 
+- **Configure Search settings** You can configure Search settings to crawl the content in SharePoint Server. 
     
 

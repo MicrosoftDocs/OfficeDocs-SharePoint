@@ -15,9 +15,9 @@ description: "Summary: Learn how to include company names to be extracted from c
 
 # Manage company name extraction in SharePoint Server
 
- **Summary:** Learn how to include company names to be extracted from content for search results, or how to exclude company names from being extracted. 
+ **Summary:** Learn how to include company names to be extracted from content for classic search results, or how to exclude company names from being extracted. 
   
-The search system can extract company names from content. The following conditions must be met before company names can be extracted: 
+The classic search system can extract company names from content. The following conditions must be met before company names can be extracted: 
   
 - The managed property setting **Company name extraction** must be enabled on the managed property that you want to extract company names from. Typically, this is a managed property that you expect to contain these entities, such as the managed properties **Title** or **Body**. Company names are extracted from the full contents of the managed property they are associated with, even if sections in those contents are tagged as **\<no index\>**. 
     
@@ -30,6 +30,7 @@ For example, if a company name is found in the body of a document, **company nam
 There is a prepopulated dictionary for company name extraction which includes a large number of company names. You can add additional company names to be extracted or prevent particular company names from being extracted using the Company Inclusions or Company Exclusions lists. 
   
 This article explains how to maintain these lists. It does not cover how to enable a managed property to use company extraction. For more information on how to enable company extraction on a managed property, see [Manage the search schema in SharePoint Server](manage-the-search-schema.md). 
+  
   
     
 ## Open the Term Store Management Tool

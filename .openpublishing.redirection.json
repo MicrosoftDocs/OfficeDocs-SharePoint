@@ -1,6 +1,18 @@
 {
   "redirections": [ 
-   {
+    
+    {
+        "source_path": "Sharepoint/SharepointOnline/create-custom-ranking-model.md",
+        "redirect_url": "https://docs.microsoft.com/en-us/sharepoint/search/create-custom-ranking-model",
+        "redirect_document_id": true
+     }, 
+    
+    {
+        "source_path": "sharepoint/sharepointserver/sharepoint-updates.md",
+        "redirect_url": "https://docs.microsoft.com/officeupdates/sharepoint-updates",
+        "redirect_document_id": true
+     }, 
+     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/create-a-user-mapping-file-for-data-content-migration.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/create-a-user-mapping-file-for-data-content-migration",
       "redirect_document_id": true

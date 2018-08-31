@@ -10,22 +10,22 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: ae1e3447-46e2-45f9-852a-ab39f23345d4
-description: "Summary: Learn to view and filter log events by using Windows PowerShell, and view and export diagnostic logs by using the Out-GridView cmdlet."
+description: "Summary: Learn to view and filter log events by using Microsoft PowerShell, and view and export diagnostic logs by using the Out-GridView cmdlet."
 ---
 
 # View diagnostic logs in SharePoint Server
 
- **Summary:** Learn to view and filter log events by using Windows PowerShell, and view and export diagnostic logs by using the **Out-GridView** cmdlet. 
+ **Summary:** Learn to view and filter log events by using Microsoft PowerShell, and view and export diagnostic logs by using the **Out-GridView** cmdlet. 
   
 You can troubleshoot problems in the farm by using data from the Unified Logging Service (ULS) logs in SharePoint Server . The ULS logs can collect data at varying levels depending on the logging settings. Use PowerShell to filter the data, display it in various ways, and output the data to a data grid with which you can filter, sort, group, and export data to Excel 2016.
   
   
-## View and filter log events by using Windows PowerShell
+## View and filter log events by using PowerShell
 <a name="section1"> </a>
 
 You can use PowerShell to view and filter log events. You cannot view or filter log events by using the SharePoint Central Administration website.
   
- **To view and filter log events by using Windows PowerShell**
+ **To view and filter log events by using PowerShell**
   
 1. Verify that you have the following memberships:
     
@@ -106,10 +106,10 @@ You can use PowerShell to view and filter log events. You cannot view or filter 
 
 For more information, see [Get-SPLogEvent](http://technet.microsoft.com/library/25fd4b29-f4d3-43bb-bf2b-57d395882046.aspx). 
   
-## View and export diagnostic logs by using the Windows PowerShell Out-GridView cmdlet
+## View and export diagnostic logs by using the PowerShell Out-GridView cmdlet
 <a name="section2"> </a>
 
-PowerShell provides a powerful and easy-to-use feature that displays tabular data resulting from Microsoft PowerShell commands in a filterable, searchable data grid in a separate window. You can use this grid to view log events and to perform the following operations on the data:
+PowerShell provides a powerful and easy-to-use feature that displays tabular data resulting from PowerShell commands in a filterable, searchable data grid in a separate window. You can use this grid to view log events and to perform the following operations on the data:
   
 - Sort the data by any column.
     
