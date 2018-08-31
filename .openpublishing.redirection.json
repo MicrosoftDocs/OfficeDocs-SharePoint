@@ -265,52 +265,52 @@
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/using-the-sharepoint-migration-tool-reports",
       "redirect_document_id": true
    }, 
-   { "source_path": "sharepoint/administration/get-and-install-the-yammer-app-onto-sharepoint-server-2013-sites.md",
+   { "source_path": "sharepoint/sharepointserver/administration/get-and-install-the-yammer-app-onto-sharepoint-server-2013-sites.md",
     "redirect_url": "https://docs.microsoft.com/en-us/sharepoint/administration/add-the-yammer-embed-widget-to-a-sharepoint-page",
     "redirect_document_id": true
    },
    {
-    "source_path": "administration/add-yammer-to-the-navigation-bar-for-sharepoint-2013.md",
+    "source_path": "sharepoint/sharepointserver/administration/add-yammer-to-the-navigation-bar-for-sharepoint-2013.md",
        "redirect_url": "https://docs.microsoft.com/en-us/sharepoint/administration/add-yammer-to-the-navigation-bar-for-sharepoint-server",
        "redirect_document_id": true
    },
    {
-    "source_path": "administration/integrate-a-new-yammer-network-into-sharepoint-server-2013.md",
+    "source_path": "sharepoint/sharepointserver/administration/integrate-a-new-yammer-network-into-sharepoint-server-2013.md",
        "redirect_url": "https://docs.microsoft.com/en-us/sharepoint/administration/integrate-a-new-yammer-network-into-sharepoint-server",
        "redirect_document_id": true
    },
    {
-    "source_path": "administration/integrate-a-single-yammer-network-into-sharepoint-server-2013.md",
+    "source_path": "sharepoint/sharepointserver/administration/integrate-a-single-yammer-network-into-sharepoint-server-2013.md",
        "redirect_url": "https://docs.microsoft.com/en-us/sharepoint/administration/integrate-a-single-yammer-network-into-sharepoint-server",
        "redirect_document_id": true
    },
    {
-    "source_path": "administration/integrate-a-yammer-network-into-sharepoint-server-2013-and-office-365.md",
+    "source_path": "sharepoint/sharepointserver/administration/integrate-a-yammer-network-into-sharepoint-server-2013-and-office-365.md",
        "redirect_url": "https://docs.microsoft.com/en-us/sharepoint/administration/integrate-a-yammer-network-into-sharepoint-server-and-office-365",
        "redirect_document_id": true
    },
    {
-    "source_path": "administration/integrate-a-yammer-network-into-sharepoint-server-2013-with-social-features.md",
+    "source_path": "sharepoint/sharepointserver/administration/integrate-a-yammer-network-into-sharepoint-server-2013-with-social-features.md",
        "redirect_url": "https://docs.microsoft.com/en-us/sharepoint/administration/integrate-a-yammer-network-into-sharepoint-server-with-social-features",
        "redirect_document_id": true
    },
    {
-    "source_path": "administration/integrate-multiple-yammer-networks-into-sharepoint-server-2013.md",
+    "source_path": "sharepoint/sharepointserver/administration/integrate-multiple-yammer-networks-into-sharepoint-server-2013.md",
        "redirect_url": "https://docs.microsoft.com/en-us/sharepoint/administration/integrate-multiple-yammer-networks-into-sharepoint-server",
        "redirect_document_id": true
    },
    {
-    "source_path": "administration/integrate-yammer-with-on-premises-sharepoint-2013-environments.md",
+    "source_path": "sharepoint/sharepointserver/administration/integrate-yammer-with-on-premises-sharepoint-2013-environments.md",
        "redirect_url": "https://docs.microsoft.com/en-us/sharepoint/administration/integrate-yammer-with-on-premises-sharepoint-server-environments",
        "redirect_document_id": true
    },
    {
-    "source_path": "administration/social-scenarios-with-yammer-and-sharepoint-server-2013.md",
+    "source_path": "sharepoint/sharepointserver/administration/social-scenarios-with-yammer-and-sharepoint-server-2013.md",
        "redirect_url": "https://docs.microsoft.com/en-us/sharepoint/administration/social-scenarios-with-yammer-and-sharepoint-server",
        "redirect_document_id": true
    },
    {
-    "source_path": "administration/hide-sharepoint-server-2013-social-features.md",
+    "source_path": "sharepoint/sharepointserver/administration/hide-sharepoint-server-2013-social-features.md",
        "redirect_url": "https://docs.microsoft.com/en-us/sharepoint/administration/hide-sharepoint-server-social-features",
        "redirect_document_id": true
    }
