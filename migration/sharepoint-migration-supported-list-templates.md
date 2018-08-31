@@ -45,7 +45,7 @@ The following table details SharePoint List templates and which ones are support
 |117|NoCodeWorkflows|No Code Workflows. Value = 117|No|
 |118|WorkflowProcess|Custom Workflow Process. Value = 118|No|
 |119|WebPageLibrary|Wiki Page Library. Value = 119|No|
-|120|CustomGrid|Custom grid for a list. Value = 120|No|
+|120|CustomGrid|Custom grid for a list. Value = 120|Yes|
 |121|SolutionCatalog|Solutions. Value = 121|No|
 |122|NoCodePublic|No Code Public Workflow. Value = 122|No|
 |123|ThemeCatalog|Themes. Value = 123|No|
