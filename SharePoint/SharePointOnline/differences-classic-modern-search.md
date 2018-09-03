@@ -30,7 +30,6 @@ Both search experiences use the same search index to find search results, and so
 - The [search schema](manage-search-schema.md) determines how content is collected in and retrieved from the search index. Because both search experiences use the same search index to find search results, any changes you make to the search schema, might affect both experiences. The following search schema settings don’t affect the modern search experience:
     - Sortable
     - Refinable 
-    - Custom entity extraction
     - Company name extraction
 
 
