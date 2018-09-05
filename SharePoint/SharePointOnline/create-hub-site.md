@@ -45,7 +45,7 @@ If you're a global or SharePoint admin in Office 365, you can convert any existi
   
 6. Notify the hub site owners that their site has been converted to a hub site.
 
-7. Optionally, use a site design that gets applied when sites join the hub. For info, see [Set up a site design for your hub site](set-up-site-design.md). For more info about site designs and site scripts, see [SharePoint site design and site script overview](/sharepoint/dev/declarative-customization/site-design-overview.md).
+7. Optionally, use a site design that gets applied when sites join the hub. For info, see [Set up a site design for your hub site](set-up-site-design-hub-site.md). For more info about site designs and site scripts, see [SharePoint site design and site script overview](/sharepoint/dev/declarative-customization/site-design-overview.md).
     
 ## More info
 
