@@ -147,15 +147,7 @@ Self-service site creation enables the automatic creation of a separate site col
     
 5. In the **Self-Service Site Creation Management** dialog box, in **Site Collections**, select **On**. Optionally, in **Quota template to apply**, select a quota template.
     
-6. In **Start a Site**, choose one of the following options: 
-    
-1. **Be hidden from users**
-    
-2. **Prompt users to create a team site under**
-    
-3. **Prompt users to create a site collection under any managed path**
-    
-4. **Display the custom form at**
+6. In **Start a Site** for SharePoint Server 2013 and 2016 or **Site Creation** in SharePoint Server 2019, any option may be selected, including hiding the Self-Service Site Creation process from the user.
     
 7. Click **OK** to finish. 
     
@@ -211,6 +203,9 @@ After you have a My Site host site collection and wildcard inclusion managed pat
 9. In the **Site Naming Format** section, select a naming format for the My Sites site collections that will be created when users view their My Sites for the first time. For more information about these formats, see [My Sites architecture](my-sites-planning.md#mysitesarch) in [Plan for My Sites in SharePoint Server](my-sites-planning.md).
     
 10. In the **Language Options** section, there is an option to specify whether users can select a preferred language for their My Site. However, the current behavior is to default to the installation language for SharePoint. [My Sites architecture](my-sites-planning.md#mysitesarch) in [Plan for My Sites in SharePoint Server](my-sites-planning.md)
+
+  > [!NOTE]
+  > This section is not present in SharePoint Server 2019.
     
 11. In the **Read Permission Level** section, specify the users or groups that can view other users' My Sites when they are created. By default, this includes all authenticated users. However, you can select a more specific group or users depending on the needs of your deployment. 
     
