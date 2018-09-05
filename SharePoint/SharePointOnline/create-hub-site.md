@@ -3,7 +3,6 @@ title: "Create a hub site in SharePoint Online"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 6/19/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
