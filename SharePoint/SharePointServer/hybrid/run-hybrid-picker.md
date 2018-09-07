@@ -36,7 +36,7 @@ Hybrid Picker is located in Office 365 for enterprises, and you can use it to he
     
 2. From the farm server, connect to Office 365 as a global administrator.
     
-3. Navigate to [https://configure.office.com/scenario.aspx?Sid=54](https://configure.office.com/scenario.aspx?Sid=54)
+3. Navigate to [https://go.microsoft.com/fwlink/?linkid=867176](https://go.microsoft.com/fwlink/?linkid=867176)
     
 4. Follow the prompts in Hybrid Picker to configure your hybrid features.
     
