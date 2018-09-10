@@ -50,7 +50,7 @@ The following table shows the services for each server role.
 [Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019 Public Preview](../install/overview-of-minrole-server-roles-in-sharepoint-server.md)
 #### Other Resources
 
-[Planning for a MinRole server deployment in SharePoint Servers 2016 and 2019 Public Preview](../install/planning-for-a-minrole-server-deployment-in-sharepoint-server-2016.md)
+[Planning for a MinRole server deployment in SharePoint Servers 2016 and 2019 Public Preview](../install/planning-for-a-minrole-server-deployment-in-sharepoint-server.md)
   
 [Managing a MinRole Server Farm in SharePoint Servers 2016 and 2019 Public Preview](managing-a-minrole-server-farm-in-sharepoint-server-2016.md)
 
