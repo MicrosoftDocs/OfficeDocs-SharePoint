@@ -61,7 +61,7 @@ For information about hardware and software requirements for Microsoft SQL Serve
 ## Deployment requirements: Farm Topology
 <a name="hwforwebserver"> </a>
 
-For information about how to plan for a server deployment, see [Planning for a MinRole server deployment in SharePoint Server 2016](planning-for-a-minrole-server-deployment-in-sharepoint-server-2016.md).
+For information about how to plan for a server deployment, see [Planning for a MinRole server deployment in SharePoint Server 2016](planning-for-a-minrole-server-deployment-in-sharepoint-server.md).
   
 ## Software requirements for SharePoint Server 2016
 <a name="section4"> </a>

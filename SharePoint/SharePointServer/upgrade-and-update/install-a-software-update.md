@@ -355,7 +355,7 @@ Perform the procedures in this section only when they are pointed to from other 
     
 1. SPTimerV4
     
-2. Osearch15
+2. OSearch16
     
 3. SPSearchHostController
     
@@ -368,7 +368,7 @@ Perform the procedures in this section only when they are pointed to from other 
     
 1. SPSearchHostController
     
-2. Osearch15
+2. OSearch16
     
 3. SPTimerV4
     
@@ -405,7 +405,7 @@ Perform the procedures in this section only when they are pointed to from other 
     
 1. SPTimerV4
     
-2. Osearch15
+2. OSearch16
     
 3. SPSearchHostController
     
@@ -420,7 +420,7 @@ Perform the procedures in this section only when they are pointed to from other 
     
 1. SPSearchHostController
     
-2. Osearch15
+2. OSearch16
     
 3. SPTimerV4
     
