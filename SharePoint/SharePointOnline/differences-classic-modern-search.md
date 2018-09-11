@@ -21,7 +21,7 @@ SharePoint Online has both a classic and a modern search experience. The most vi
 ​
 Another important difference is that search administrators can customize more aspects of the *classic* search experience than the modern search experience. See [Overview of search](overview-of-search.md) to learn about the main areas where you can customize and impact the search experience and make sure that search is performing the way you want.​
 ​
-Both search experiences use the same search index to find search results. Today there aren't separate search settings for customizing the modern search experience. Instead certain of the classic search settings **also** apply to the modern search experience: 
+Both search experiences use the same search index to find search results. There aren't separate search settings for customizing the modern search experience. Instead certain of the classic search settings **also** apply to the modern search experience: 
 
 - When you create a [promoted result](../SharePointServer/search/manage-query-rules.md) at the tenant level, users can see it in both search experiences. In the modern search experience, users only see promoted results on the All tab on the search results page and only when they search across all of SharePoint.
 - The modern search experience only shows results from the default result source. If you change the default [result source](manage-result-sources.md), both search experiences are impacted.
