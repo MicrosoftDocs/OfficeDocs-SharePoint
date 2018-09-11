@@ -106,11 +106,11 @@ The OneDrive Files Restore feature enables users to restore files to any point o
 
 ![Screenshot of the Restore my OneDrive screen](media/onedrive-feature-overview_image6.png)
 
-In addition, because the histogram shows individual activity on a file, users can employ this feature to quickly view their files’ modification history. For more information about this feature, see Announcing New OneDrive for Business feature: Files Restore.
+In addition, because the histogram shows individual activity on a file, users can employ this feature to quickly view their files’ modification history. For more information about this feature, see [Restore your OneDrive](https://support.office.com/article/fa231298-759d-41cf-bcd0-25ac53eb8a15).
 
 ### Recycle bin
 
-OneDrive has a recycle bin similar to the one available on the Windows desktop. Deleted files are moved to the recycle bin and kept for a designated time before being permanently deleted. For work or school accounts, deleted files are purged after 93 days unless configured otherwise. For a demonstration of how the recycle bin works, see [Restore deleted files or folders in OneDrive](https://support.office.com/article/restore-deleted-files-or-folders-in-onedrive-949ada80-0026-4db3-a953-c99083e6a84f).
+OneDrive has a recycle bin similar to the one available on the Windows desktop. Deleted files are moved to the recycle bin and kept for a designated time before being permanently deleted. For work or school accounts, deleted files are purged after 93 days unless configured otherwise. For a demonstration of how the recycle bin works, see [Restore deleted files or folders in OneDrive](https://support.office.com/article/949ada80-0026-4db3-a953-c99083e6a84f).
 
 ### Auditing and reporting
 
@@ -123,17 +123,17 @@ The Office 365 admin center handles reporting for cloud services, including One
 
 ![Screenshot of the 30-day file usage report](media/onedrive-feature-overview_image2.png)
 
-You can also consume this information in Power BI by using the Power BI Adoption content pack for Office 365. Using this content pack, you can visualize and analyze Office 365 usage data by using prebuilt graphs and charts or by creating custom reports to gain insights into how specific regions or departments within your organization are using Office 365. For more information about the Office 365 Adoption content pack, see [Office 365 Adoption content pack](https://support.office.com/article/Office-365-Adoption-Content-Pack-77ff780d-ab19-4553-adea-09cb65ad0f1f).
+You can also consume this information in Power BI by using the Microsoft 365 usage analytics content pack. Using this content pack, you can visualize and analyze Office 365 usage data by using prebuilt graphs and charts or by creating custom reports to gain insights into how specific regions or departments within your organization are using Office 365. For more information this content pack, see [Microsoft 365 usage analytics](https://support.office.com/article/77ff780d-ab19-4553-adea-09cb65ad0f1f).
 
 ### Encryption of data in transit and at rest
 
 OneDrive uses advanced data-encryption methods between your client and the data center, between servers in the data center, and at rest. At rest, OneDrive uses disk encryption through BitLocker Drive Encryption and file encryption to secure your data. Each file is encrypted with its own encryption key; anything larger than 64 KB is split into individual chunks, each of which has its own encryption key locked in a key store.
 
-Each file chunk is then randomly distributed among Microsoft Azure storage containers, and a construction map for the complete file is stored in a separate secure content database. For attackers to access the file, they would need all the file chunks, the keys, and the map—a highly improbable task. For more information about this process, see [Data Encryption in OneDrive for Business and SharePoint Online](https://support.office.com/article/data-encryption-in-onedrive-for-business-and-sharepoint-online-6501b5ef-6bf7-43df-b60d-f65781847d6c).
+Each file chunk is then randomly distributed among Microsoft Azure storage containers, and a construction map for the complete file is stored in a separate secure content database. For attackers to access the file, they would need all the file chunks, the keys, and the map—a highly improbable task. For more information about this process, see [Data Encryption in OneDrive for Business and SharePoint Online](/office365/securitycompliance/data-encryption-in-odb-and-spo/).
 
 ### Customer-controlled encryption keys 
 
-By using an Office 365 feature called *service encryption with Customer Key,* you can upload your own encryption keys to Azure Key Vault for use encrypting your data at rest in Azure data centers. Even though this encryption is done natively through BitLocker, customers can require the use of their own key to meet their security compliance requirements. Should users lose their key, they can retrieve a deleted key from the Recycle Bin for up to 90 days (based on your configuration). Before you can use this feature, however, you must create an Azure subscription and complete a few prerequisite steps. For detailed information about service encryption with Customer Key and how to configure it in your environment*,* see [Controlling your data in Office 365 using Customer Key](https://support.office.com/article/controlling-your-data-in-office-365-using-customer-key-f2cd475a-e592-46cf-80a3-1bfb0fa17697).
+By using an Office 365 feature called *service encryption with Customer Key,* you can upload your own encryption keys to Azure Key Vault for use encrypting your data at rest in Azure data centers. Even though this encryption is done natively through BitLocker, customers can require the use of their own key to meet their security compliance requirements. Should users lose their key, they can retrieve a deleted key from the Recycle Bin for up to 90 days (based on your configuration). Before you can use this feature, however, you must create an Azure subscription and complete a few prerequisite steps. For detailed information about service encryption with Customer Key and how to configure it in your environment, see [Controlling your data in Office 365 using Customer Key](/office365/securitycompliance/controlling-your-data-using-customer-key/).
 
 ### Office 365 Customer Lockbox
 
@@ -151,7 +151,7 @@ Microsoft Trust Center provides information about Microsoft’s trust policy, ho
 
 Multi-Geo is an Office 365 feature that allows organizations so span their storage over multiple Office 365 geo locations and specify in which of those to store users’ data. You can designate storage geographies on a per-user basis.
 
-For multinational customers with data residency requirements, you can use this feature to ensure that each user’s data is stored in the geo location necessary for compliance. For more information about this feature, see [Multi-Geo Capabilities in OneDrive and SharePoint Online in Office 365](https://technet.microsoft.com/library/mt826374(v=office.16).aspx).
+For multinational customers with data residency requirements, you can use this feature to ensure that each user’s data is stored in the geo location necessary for compliance. For more information about this feature, see [Multi-Geo Capabilities in OneDrive and SharePoint Online in Office 365](/office365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-office-365/).
 
 ### Government cloud
 
