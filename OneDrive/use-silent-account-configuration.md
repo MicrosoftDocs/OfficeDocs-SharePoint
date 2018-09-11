@@ -1,9 +1,8 @@
 ---
-title: "Silently deploy and configure the OneDrive sync client"
+title: "Silently configure user accounts"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 06/25/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: one-drive
@@ -15,9 +14,9 @@ ms.assetid: 64aa1f56-d7f6-4500-a408-1fde8fe6db36
 description: "Learn how IT admins can enable silent account configuration when deploying the OneDrive sync client in an enterprise."
 ---
 
-# Silently deploy and configure the OneDrive sync client
+# Silently configure user accounts
 
-This article is for IT admins who would like to silently deploy and configure the new OneDrive sync client (OneDrive.exe) to managed Windows computers in their enterprise. This feature works for computers that are joined to Azure Active Directory (Azure AD).
+This article is for IT admins who would like to silently configure user accounts when deploying the new OneDrive sync client (OneDrive.exe) to managed Windows computers in their enterprise. This feature works for computers that are joined to Azure Active Directory (Azure AD).
   
 ## Overview
 
@@ -27,7 +26,7 @@ If you enable this setting and the user is syncing files with the previous OneDr
   
 ## Prerequisites
 
-Before you can enable silent configuration, you need to join your devices to Azure AD. You can join devices running Windows 10 and Windows Server 2016 directly to Azure AD. To learn how, see [Set up Azure Active Directory joined devices](https://go.microsoft.com/fwlink/?linkid=864414).
+Before you can enable silent account configuration, you need to join your devices to Azure AD. You can join devices running Windows 10 and Windows Server 2016 directly to Azure AD. To learn how, see [Set up Azure Active Directory joined devices](https://go.microsoft.com/fwlink/?linkid=864414).
   
 If you have an on-premises environment that uses Active Directory, you can enable "hybrid Azure AD joined devices" to join devices on your domain to Azure AD. Devices must be running one of the following operating systems:
   
@@ -52,7 +51,7 @@ If you have an on-premises environment that uses Active Directory, you can enabl
 
 Using Group Policy:
   
-1. Enable silent configuration. For info, see [Silently configure OneDrive using Windows 10 or domain credentials](use-group-policy.md#SilentConfig).
+1. Enable silent account configuration. For info, see [Silently configure OneDrive using Windows 10 or domain credentials](use-group-policy.md#SilentConfig).
     
 2. Optionally, specify the maximum OneDrive size that will download automatically in silent configuration. For info, see [Configure the maximum OneDrive size for downloading all files automatically](use-group-policy.md#MaxOneDriveSize). Note that if you enable Files ON-Demand, OneDrive will ignore the maximum size value.
     
@@ -62,7 +61,7 @@ Using Group Policy:
 > To test single sign-on, run OneDrive setup using the /silent parameter and enter your user name. Setup should not prompt for credentials. 
   
 > [!NOTE]
-> Silent configuration won't work on devices for which you've required multi-factor authentication. 
+> Silent account configuration won't work on devices for which you've required multi-factor authentication. 
   
 ## Send feedback
 <a name="sendfeedback"> </a>
