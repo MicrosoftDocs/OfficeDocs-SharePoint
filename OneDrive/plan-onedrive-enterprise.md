@@ -263,6 +263,25 @@ Key decision:
 
 -   Which ring do you want to use for updates to the OneDrive sync client?
 
-### Deploying OneDrive in your organization
+## Configure settings
 
-Once you have made the key decisions regarding your OneDrive deployment, go on to Part 3, [Deploy OneDrive](deploy-onedrive-enterprise.md) for specific steps that guide you through the deployment process.
+After you have planned your rollout, configure any settings you need before you begin deploying apps to your users:
+
+- Specify settings for sharing links and control external sharing: [Manage sharing](manage-sharing.md)
+
+- To manage the sync client deployment centrally, prevent users from installing the sync client when they go to their OneDrive in a web browser: [Prevent installation](prevent-installation.md)
+
+- To make sure that users sync OneDrive files only on managed computers, configure OneDrive to sync only on PCs that are joined to specific domains: [Allow syncing only on specific domains](allow-syncing-only-on-specific-domains.md)
+
+- To prevent users from uploading specific file types, such as exe or mp3 files: [Block file types](block-file-types.md)
+
+- Set the default storage space for your users: [Set the default storage space](set-default-storage-space.md)
+
+- Specify how long you want to retain a user's OneDrive files when the user is deleted: [Set OneDrive retention for deleted users](set-retention.md)
+
+- To prevent users from accessing OneDrive and SharePoint content on devices outside of specific domains, or from apps that don't use modern authentication: [Control access based on network authentication or app](control-access-based-on-network-location-or-app.md)
+
+- To control user access to features in the OneDrive and SharePoint mobile apps: [Control access to mobile app features](control-access-to-mobile-app-features.md)
+
+
+When all your plans are in place and you're done preparing, you're ready to go on to Part 3, [Deploy OneDrive](deploy-onedrive-enterprise.md).

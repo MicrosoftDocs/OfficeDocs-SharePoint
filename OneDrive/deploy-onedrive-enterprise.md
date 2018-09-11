@@ -28,9 +28,9 @@ Also, for Windows devices, the OneDrive sync client is included as part of Windo
 
 Windows AutoPilot provides a simple way to deliver PCs to users. It is an alternative to the traditional system imaging you typically perform when provisioning a new computer or repurposing an existing computer for a user. Rather than using deployment tools such as System Center Configuration Manager, you can register your hardware information in Azure and use a deployment profile to control the out-of-box experience and register the device in Azure Active Directory (Azure AD).
 
-From there, Intune can deploy apps such as OneDrive to the device automatically. To deliver OneDrive during this process, complete the configuration steps in [Deploy OneDrive by using MDM](#deploy-onedrive-by-using-intune).
+From there, Intune can deploy apps such as OneDrive to the device automatically. To deliver OneDrive during this process, complete the configuration steps in [Deploy OneDrive by using Intune](#deploy-onedrive-by-using-intune).
 
-For an overview of Windows AutoPilot, see [Overview of Windows AutoPilot](/windows/deployment/windows-autopilot/windows-10-autopilot.md).
+For an overview of Windows AutoPilot, see [Overview of Windows AutoPilot](/windows/deployment/windows-autopilot/windows-10-autopilot/).
 
 ## Install OneDrive apps and sync clients manually
 
@@ -42,9 +42,9 @@ Installing the OneDrive app on a mobile device is simple: users can download the
 
 Send your users the following links to set up OneDrive on their mobile devices:
 
--   [Use OneDrive on iOS](https://support.office.com/article/use-onedrive-on-ios-08d5c5b2-ccc6-40eb-a244-fe3597a3c247)
+-   [Use OneDrive on iOS](https://support.office.com/article/08d5c5b2-ccc6-40eb-a244-fe3597a3c247)
 
--   [Use OneDrive for Android](https://support.office.com/article/Use-OneDrive-for-Android-eee1d31c-792d-41d4-8132-f9621b39eb36)
+-   [Use OneDrive for Android](https://support.office.com/article/eee1d31c-792d-41d4-8132-f9621b39eb36)
 
 ### Manually install and configure OneDrive on a Windows device
 
@@ -73,7 +73,7 @@ To silently update the OneDrive sync client, run the following command:
 
 \<pathToExecutable\>\\OneDriveSetup.exe /update
 
-For more information about silently installing the OneDrive sync client on computers across your organization, see [Silently deploy and configure the OneDrive sync client in your enterprise](use-silent-account-configuration.md).
+For information about enabling silent account configuration, see [Silently configure user accounts](use-silent-account-configuration.md).
 
 
 ## Deploy OneDrive by using Intune
@@ -82,11 +82,11 @@ If you’ve decided to deploy the OneDrive sync client by using Intune, follow t
 
 ### Deploy OneDrive to iOS devices by using Intune
 
-To use Intune to deploy OneDrive to iOS devices, follow the steps in [How to add iOS store apps to Microsoft Intune](/intune/store-apps-ios.md). When searching for the app in the app store, in the search box, type **Microsoft OneDrive** to find the OneDrive app, as shown below.
+To use Intune to deploy OneDrive to iOS devices, follow the steps in [How to add iOS store apps to Microsoft Intune](/intune/store-apps-ios/). When searching for the app in the app store, in the search box, type **Microsoft OneDrive** to find the OneDrive app, as shown below.
 
 ![](media/deploy-onedrive-enterprise_image1.png)
 
-When you’ve added the iOS app to Intune, assign it to the group or individuals who should receive it. To do that, follow the steps in [How to assign apps to groups with Microsoft Intune](/intune/apps-deploy.md).
+When you’ve added the iOS app to Intune, assign it to the group or individuals who should receive it. To do that, follow the steps in [How to assign apps to groups with Microsoft Intune](/intune/apps-deploy/).
 
 ### Deploy OneDrive to Android devices by using Intune
 
@@ -94,11 +94,11 @@ To use Intune to deploy OneDrive to Android devices, follow the steps in [How to
 
 ![](media/deploy-onedrive-enterprise_image2.png)
 
-After you’ve added the Android app to Intune, assign it to the group or individuals who should receive it. To do that, follow the steps in [How to assign apps to groups with Microsoft Intune](/intune/apps-deploy.md).
+After you’ve added the Android app to Intune, assign it to the group or individuals who should receive it. To do that, follow the steps in [How to assign apps to groups with Microsoft Intune](/intune/apps-deploy/).
 
 ### Deploy OneDrive to Windows devices by using Intune
 
-To use Intune to deploy OneDrive to Windows devices, complete the steps in [How to assign Office 365 apps to Windows 10 devices with Microsoft Intune](/intune/apps-add-office365.md). When configuring the app suite, be sure to select **OneDrive for Business (Next Gen Sync Client)**, as shown below.
+To use Intune to deploy OneDrive to Windows devices, complete the steps in [How to assign Office 365 apps to Windows 10 devices with Microsoft Intune](/intune/apps-add-office365/). When configuring the app suite, be sure to select **OneDrive for Business (Next Gen Sync Client)**, as shown below.
 
 ![](media/deploy-onedrive-enterprise_image3.png)
 
@@ -114,11 +114,11 @@ If you’ve decided to deploy the OneDrive sync client by using System Center Co
 
 You can use System Center Configuration Manager to deploy apps to mobile devices. Before you do, however, you need to complete a few prerequisite steps because integration with Intune is required to manage mobile devices in System Center Configuration Manager. For information about managing mobile devices with System Center Configuration Manager and Intune, see [Manage Mobile Devices with Configuration Manager and Microsoft Intune](https://technet.microsoft.com/library/jj884158.aspx).
 
-To deploy OneDrive to an iOS device, see [Create iOS applications with System Center Configuration Manager](/sccm/mdm/deploy-use/creating-ios-applications.md), and use https://itunes.apple.com/us/app/onedrive/id823766827?mt=12 as the app location, as shown in Figure 14.
+To deploy OneDrive to an iOS device, see [Create iOS applications with System Center Configuration Manager](/sccm/mdm/deploy-use/creating-ios-applications/), and use https://itunes.apple.com/us/app/onedrive/id823766827?mt=12 as the app location, as shown below.
 
 ![](media/deploy-onedrive-enterprise_image4.png)
 
-To deploy OneDrive to an Android device, see [Create Android applications with System Center Configuration Manager](/sccm/mdm/deploy-use/creating-android-applications.md), and use https://play.google.com/store/apps/details?id=com.microsoft.skydrive&hl=en as the app location, as shown in Figure 15.
+To deploy OneDrive to an Android device, see [Create Android applications with System Center Configuration Manager](/sccm/mdm/deploy-use/creating-android-applications/), and use https://play.google.com/store/apps/details?id=com.microsoft.skydrive&hl=en as the app location, as shown below.
 
 ![](media/deploy-onedrive-enterprise_image5.png)
 
@@ -126,18 +126,18 @@ To deploy OneDrive to an Android device, see [Create Android applications with S
 
 Windows 10 devices come with the OneDrive sync client installed. Office 2016 and later installations also have the sync client installed. If you’re deploying OneDrive to devices running an earlier version of Windows or on which you haven’t installed Office 2016, see [Deploy the new OneDrive sync client in Windows](deploy-on-windows.md) for a sample System Center Configuration Manager package that contains the OneDrive sync client. You can use this sample application as a starting point for your deployment.
 
-The sample .zip file contains the script installer deployment type that you’ll use to deploy the OneDrive client to Windows devices. Import the .zip file by going to Software Library\\Application Management, right-clicking **Applications**, and then selecting **Import Application**, as shown in Figure 16. The only thing left to do after importing the .zip file is deploy it to the target computers.
+The sample .zip file contains the script installer deployment type that you’ll use to deploy the OneDrive client to Windows devices. Import the .zip file by going to Software Library\\Application Management, right-clicking **Applications**, and then selecting **Import Application**, as shown below. The only thing left to do after importing the .zip file is deploy it to the target computers.
 
 ![](media/deploy-onedrive-enterprise_image6.png)
 
 > [!NOTE]
 > The script installer deployment type already has a detection method script and will correctly assess the installation. Also, there is an uninstall switch, which means that you can easily remove the OneDrive client, if necessary.
 
-For more information about packages and programs in System Center Configuration Manager, see [Packages and programs in System Center Configuration Manager](/sccm/apps/deploy-use/packages-and-programs.md).
+For more information about packages and programs in System Center Configuration Manager, see [Packages and programs in System Center Configuration Manager](/sccm/apps/deploy-use/packages-and-programs/).
 
 ### Computers running macOS
 
-Before you can deploy applications to computers running macOS, you need to complete some prerequisite tasks on the System Center Configuration Manager site. For detailed information about these prerequisites and how to prepare a System Center Configuration Manager environment for Mac management, see [Prepare to deploy client software to Macs](/sccm/core/clients/deploy/prepare-to-deploy-mac-clients.md). When you’ve completed the prerequisites, you can deploy applications to Macs by completing the steps described in [How to Create and Deploy Applications for Mac Computers in Configuration Manager](https://technet.microsoft.com/en-us/library/jj687950.aspx).
+Before you can deploy applications to computers running macOS, you need to complete some prerequisite tasks on the System Center Configuration Manager site. For detailed information about these prerequisites and how to prepare a System Center Configuration Manager environment for Mac management, see [Prepare to deploy client software to Macs](/sccm/core/clients/deploy/prepare-to-deploy-mac-clients/). When you’ve completed the prerequisites, you can deploy applications to Macs by completing the steps described in [How to Create and Deploy Applications for Mac Computers in Configuration Manager](/previous-versions/system-center/system-center-2012-R2/jj884158(v%3dtechnet.10)/).
 
 To learn about managing OneDrive, see Part 4 in the Enterprise deployment guide, [Manage OneDrive](manage-onedrive.md).
 
