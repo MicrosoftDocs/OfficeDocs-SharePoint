@@ -265,7 +265,8 @@ Advanced settings should only be changed or managed by your IT professional. The
 |:-----|:-----|
 |Only perform scanning  <br/> |If you wish to scan the files as a pre-assessment to migration, turn **Only perform scanning** on.  <br/> |
 |Enable incremental migration  <br/> |The default setting is set to **On**. This lets you rerun the migration jobs at a later date, migrating only the changes or additions since the previous run.  <br/> Important: If you wish to be able to submit the same job again for incremental migration, this setting must be set to **On** * before *  the initial migration job is submitted.  <br/> |
-|Migrate file version history  <br/> |If set to **No**, only the most recent version of the file will be migrated. If set to **Yes**, you can choose whether to keep all versions, or limit it to a specific number.  <br/> |
+|Migrate all site fields and content types <br/> |If set to **Off**, the tool will not halt on lists where some content types or fields cant be migrated.  <br/> |
+|Migrate file version history  <br/> |If set to **Off**, only the most recent version of the file will be migrated. If set to **Yes**, you can choose whether to keep all versions, or limit it to a specific number.  <br/> |
 |Migrate hidden files  <br/> |If set to **On**, hidden system files will **not** be migrated.  <br/> |
 |Migrate files created before  <br/> |If you choose to limit which files are migration based on  *creation date*  , set your values in this section. This may be to limit the number of files migrated or to adhere to overall company governance policy regarding file retention.  <br/> |
 Migrate files modified before  <br/> |If you choose to limit what files are migration based on  *modified date,*  set your values in this section. This may be to limit the number of files migrated or to adhere to overall company governance policy regarding file retention.  <br/> |
