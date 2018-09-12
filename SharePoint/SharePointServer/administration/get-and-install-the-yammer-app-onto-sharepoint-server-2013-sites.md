@@ -21,7 +21,7 @@ description: "Summary: Learn how to add the Yammer app to the app catalog and ma
   
 The Yammerapp for SharePoint lets you embed Yammer feeds into on-premises SharePoint Server 2013 sites to make them more social and engaging. Before you can do that, you have to both remove the Newsfeed Web Parts from My Sites and team sites and hide the user interface controls that provide the social features you'll replace with Yammer. Next, you add the Yammer app to the App Catalog and install and set up the Yammer feed on your sites. This article takes you through the steps that are required to do the second part: add the Yammer app to the App Catalog and install and set up the Yammer feed on your team sites. For information about how to remove the Newsfeed Web Parts from My Sites and team sites and hide the user interface controls, see [Hide SharePoint Server 2013 social features](hide-sharepoint-server-2013-social-features.md).
   
-Before you get started, make sure you have configured one of the [Yammer social scenarios](social-scenarios-with-yammer-and-sharepoint-server-2013.md) in SharePoint Server 2013. 
+Before you get started, make sure you have configured one of the [Yammer social scenarios](social-scenarios-with-yammer-and-sharepoint-server.md) in SharePoint Server. 
   
   
 ## Get the Yammer app from the SharePoint Store
@@ -126,7 +126,7 @@ The SharePoint Server 2013 Content Publishing team thanks Vidya Srinivasan, Micr
 
 #### Concepts
 
-[Integrate Yammer with on-premises SharePoint 2013 environments](integrate-yammer-with-on-premises-sharepoint-2013-environments.md)
+[Integrate Yammer with on-premises SharePoint Server environments](integrate-yammer-with-on-premises-sharepoint-server-environments.md)
   
 [Hide SharePoint Server 2013 social features](hide-sharepoint-server-2013-social-features.md)
 
