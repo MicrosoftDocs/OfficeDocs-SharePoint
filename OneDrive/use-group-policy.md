@@ -78,7 +78,7 @@ The following Computer Configuration policies are available:
     
 - [Prompt users to move Windows known folders to OneDrive](use-group-policy.md#OptInWithWizard)
     
-- [Silently redirect Windows known folders to OneDrive](use-group-policy.md#OptInNoWizard)
+- [Silently move Windows known folders to OneDrive](use-group-policy.md#OptInNoWizard)
     
 - [Prevent users from redirecting their Windows known folders to their PC](use-group-policy.md#OptInNoWizardToast)
     
@@ -224,12 +224,12 @@ Enabling this policy sets the following registry key:
   
 (where "1111-2222-3333-4444" is the [tenant ID](find-your-office-365-tenant-id.md))
   
-### Silently redirect Windows known folders to OneDrive
+### Silently move Windows known folders to OneDrive
 <a name="OptInNoWizard"> </a>
 
-This setting lets you redirect your users' Documents, Pictures, and Desktop folders to OneDrive without user interaction. This policy works when all known folders are empty, and on folders redirected to a different OneDrive account. We recommend using this policy together with "Prompt users to move Windows known folders to OneDrive."
-  
-When you enable this policy, future releases will no longer check for empty known folders. Instead, known folders will be redirected and content within them will be moved.
+In the sync client build 18.171.0823.0001 or later, this setting lets you redirect and move your users' Documents, Pictures, and Desktop folders to OneDrive without user interaction. 
+
+For previous sync client builds, this setting lets you silently redirect the folders to OneDrive, but not move any folder contents. In these previous builds, the setting works only when all known folders are empty, and on folders redirected to a different OneDrive account. We therefore recommend using this setting together with "Prompt users to move Windows known folders to OneDrive" for previous builds.
   
 If you enable this setting and provide your tenant ID, you can choose whether to display a notification to users after their folders have been redirected.
   
