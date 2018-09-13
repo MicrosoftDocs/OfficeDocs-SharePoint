@@ -423,8 +423,6 @@ After you have planned your rollout, configure any settings you need before you 
 - To control user access to features in the OneDrive and SharePoint mobile apps: [Control access to mobile app features](control-access-to-mobile-app-features.md)
 
 
-When all your plans are in place and you're done preparing, you're ready to go on to Part 3, [Deploy OneDrive](deploy-onedrive-enterprise.md).
-
 ## Deployment options
 
 You have several different options for deploying OneDrive: manually, using scripting, using Windows AutoPilot (for the sync client on Windows), using an MDM such as Intune, or using SCCM. 

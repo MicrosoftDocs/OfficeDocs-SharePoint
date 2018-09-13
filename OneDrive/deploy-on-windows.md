@@ -21,7 +21,7 @@ description: "Learn how to deploy OneDrive apps by using System Center Configura
 
 # Deploy OneDrive apps by using System Center Configuration Manager
 
-You can use System Center Configuration Manager (SCCM) to deploy the new OneDrive sync client (OneDrive.exe), as well as the mobile apps for iOS and Android. Before you begin deploying, make sure you have reviewed the planning information and deployment options in the [OneDrive guide for enterprises](plan-onedrive-enterprise.me).
+You can use System Center Configuration Manager (SCCM) to deploy the new OneDrive sync client (OneDrive.exe), as well as the mobile apps for iOS and Android. Before you begin deploying, make sure you have reviewed the planning information and deployment options in the [OneDrive guide for enterprises](plan-onedrive-enterprise.md).
   
 ## Deploy the OneDrive sync client for Windows
 
