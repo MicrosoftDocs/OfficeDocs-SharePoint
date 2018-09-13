@@ -46,11 +46,10 @@ If users dismiss the prompt, a reminder notification will appear in the activity
 ![Screenshot of the notification that reminds users to protect their important folders](media/protect-important-folders-notification.png)
 
 If a user has already redirected their known folders to a different OneDrive account, they'll be prompted to direct the folders to the account for your organization (leaving existing files behind).
-
-
     
-    > [!NOTE]
-    > Locally created OneNote files can't be moved to OneDrive using this policy. To learn how to move OneNote notebooks, see [Move a OneNote notebook to OneDrive](https://support.office.com/article/0af0a141-0bdf-49ab-9e50-45dbcca44082). 
+   > [!NOTE]
+   > Locally created OneNote files can't be moved to OneDrive using this policy. To learn how to move OneNote notebooks, see [Move a OneNote notebook to OneDrive](https://support.office.com/article/0af0a141-0bdf-49ab-9e50-45dbcca44082). 
+
   
 - [Silently move Windows known folders to OneDrive](use-group-policy.md#OptInNoWizard)
     
