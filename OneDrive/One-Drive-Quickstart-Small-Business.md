@@ -23,7 +23,7 @@ To get started with OneDrive, follow these steps:
 
 1.  **Review basic OneDrive information.** Start by reviewing the introductory OneDrive information available at the [OneDrive help center](https://support.office.com/onedrive). You’ll get answers to many of your questions, including the OneDrive experience and how it works.
 
-2.  **Set up a Microsoft Office 365 subscription.** You must set up an Office 365 subscription to use OneDrive, but you aren’t required to purchase all the applications in the Office 365 suite. To get started, follow the steps in [Set up Office 365 for business](https://support.office.com/article/set-up-office-365-for-business-6a3a29a0-e616-4713-99d1-15eda62d04fa).
+2.  **Set up a Microsoft Office 365 subscription.** You must set up an Office 365 subscription to use OneDrive, but you aren’t required to purchase all the applications in the Office 365 suite. To get started, follow the steps in [Set up Office 365 for business](https://support.office.com/article/6a3a29a0-e616-4713-99d1-15eda62d04fa).
 
 3.  **Add OneDrive licenses.** Review your plan options in [Compare OneDrive for Business plans](https://products.office.com/onedrive-for-business/compare-onedrive-for-business-plans), and then add the licenses you need.
 
@@ -74,15 +74,15 @@ In addition, because the histogram shows individual activity on a file, you can 
 
 ### Recycle bin
 
-OneDrive has a recycle bin similar to the one available on the Windows desktop. Deleted files are moved to the recycle bin and kept for a designated time before being permanently deleted. For work or school accounts, deleted files are purged after 93 days unless configured otherwise. For a demonstration of how the recycle bin works, see [Restore deleted files or folders in OneDrive](https://support.office.com/article/restore-deleted-files-or-folders-in-onedrive-949ada80-0026-4db3-a953-c99083e6a84f).
+OneDrive has a recycle bin similar to the one available on the Windows desktop. Deleted files are moved to the recycle bin and kept for a designated time before being permanently deleted. For work or school accounts, deleted files are purged after 93 days unless configured otherwise. For a demonstration of how the recycle bin works, see [Restore deleted files or folders in OneDrive](https://support.office.com/article/949ada80-0026-4db3-a953-c99083e6a84f).
 
-## Known Folder Move
+### Known Folder Move
 
-Known Folder Move enables users to select Windows known folders, such as their desktop, Documents, or Pictures, to automatically synchronize to OneDrive. You can add this feature during the initial setup of OneDrive or after it has been configured. This capability provides a simple migration option for users looking to add known folders to their existing list of synchronized folders. For more information about Known Folder Move, see [Protect your files by saving them to OneDrive](https://support.office.com/article/protect-your-files-by-saving-them-to-onedrive-d61a7930-a6fb-4b95-b28a-6552e77c3057).
+Known Folder Move enables users to select Windows known folders, such as their desktop, Documents, or Pictures, to automatically synchronize to OneDrive. You can add this feature during the initial setup of OneDrive or after it has been configured. This capability provides a simple migration option for users looking to add known folders to their existing list of synchronized folders. For more information about Known Folder Move, see [Protect your files by saving them to OneDrive](https://support.office.com/article/d61a7930-a6fb-4b95-b28a-6552e77c3057).
 
 ## Adopt OneDrive
 
-User adoption is important to the overall success of any new application. Ideally, to feel that you have maximized your investment in Office 365 and OneDrive, you need to maximize user engagement with them. For small businesses, driving user adoption can be as simple as introducing users to OneDrive when you’re installing it or showing them any of the videos available at the [Office 365 Training Center](https://support.office.com/office-training-center?redirectSourcePath=%252fen-gb%252farticle%252foffice-training-center-b8f02f81-ec85-4493-a39b-4c48e6bc4bfb).
+User adoption is important to the overall success of any new application. Ideally, to feel that you have maximized your investment in Office 365 and OneDrive, you need to maximize user engagement with them. For small businesses, driving user adoption can be as simple as introducing users to OneDrive when you’re installing it or showing them any of the videos available at the [Office 365 Training Center](https://support.office.com/office-training-center).
 
 Personally showing your users how to save and share documents in OneDrive tends to be the most effective option for driving adoption, given that you’ll likely be performing manual installations. The primary value proposition for small businesses is file availability and redundancy. A document saved on local storage can be lost with a device; a document saved to OneDrive cannot. Simply having this discussion with your users beforehand, coupled with demonstrating the application’s ease of use, can drive positive outcomes for this effort.
 
@@ -93,19 +93,6 @@ For information about a more formal Microsoft 365 user adoption strategy, see t
 
 When you're ready to start installing and configuring the OneDrive sync client and mobile apps, see Part 2, [OneDrive QuickStart guide for small businesses](One-Drive-Quickstart-Small-Business.md).
 
-## See also
-
-[Get started with OneDrive](https://support.office.com/article/Get-started-with-OneDrive-c7f31921-e2e5-4b00-959a-cc9ad6297de7)
-
-[Why use OneDrive to store your docs](https://support.office.com/article/e55c4fa8-1e03-4d75-956b-924620bdfa2d)
-
-[GDPR Compliancy with OneDrive and SharePoint](https://techcommunity.microsoft.com/t5/Microsoft-OneDrive-Blog/GDPR-Compliancy-with-OneDrive-and-SharePoint/ba-p/191126)
-
-[Microsoft OneDrive Blog](https://techcommunity.microsoft.com/t5/OneDrive-Blog/bg-p/OneDriveBlog)
-
-[OneDrive UserVoice](https://onedrive.uservoice.com/)
-
-[OneDrive for Business Tech Community](https://techcommunity.microsoft.com/t5/OneDrive-for-Business/ct-p/OneDriveforBusiness)
 
 ## Install and configure the OneDrive sync client
 
@@ -168,16 +155,23 @@ Settings in the OneDrive admin center are grouped into six categories:
 
 -   **Notifications.** On the **Notifications** tab, you define when OneDrive owners should receive notifications about sharing or accessing their data. These settings are helpful for small businesses that likely don’t have IT staff who can audit this information. For information about enabling these options, see [Turn on external sharing notifications for OneDrive](turn-on-external-sharing-notifications.md).
 
-For detailed examples of how to perform management tasks in the OneDrive admin center, see [OneDrive admin center](https://support.office.com/article/onedrive-admin-center-b5665060-530f-40a3-b34a-9e935169b2e0).
 
 ## Get help with OneDrive
 
 If you need help with OneDrive, you have many ways to find solutions to common issues or request help:
 
--   **Tech community.** Find helpful information from other customers in the community by reviewing the discussions and blogs in the [OneDrive for Business Tech Community](https://techcommunity.microsoft.com/t5/OneDrive-for-Business/ct-p/OneDriveforBusiness).
+-   **Tech community.** Find helpful information from other customers in the community by reviewing the discussions in the [OneDrive for Business Tech Community](https://techcommunity.microsoft.com/t5/OneDrive-for-Business/ct-p/OneDriveforBusiness) and the [Microsoft OneDrive Blog](https://techcommunity.microsoft.com/t5/OneDrive-Blog/bg-p/OneDriveBlog).
 
--   **Support documentation.** For a list of recent issues in OneDrive and how to resolve or work around them, see [Fixes or workarounds for recent issues in OneDrive](https://support.office.com/article/36110213-f3f6-490d-8cb7-3833539def0b).
+-   **Support documentation.** For a list of recent issues in OneDrive and how to resolve or work around them, see [Fixes or workarounds for recent issues in OneDrive](https://support.office.com/article/36110213-f3f6-490d-8cb7-3833539def0b). For end-user getting started info, see [Get started with OneDrive](https://support.office.com/article/c7f31921-e2e5-4b00-959a-cc9ad6297de7) and [Why use OneDrive to store your docs](https://support.office.com/article/e55c4fa8-1e03-4d75-956b-924620bdfa2d).
 
 -   **Microsoft Support.** If you need help from Microsoft to troubleshoot an issue or configure or deploy OneDrive, see [Contact Microsoft](https://support.microsoft.com/gp/contactus81?Audience=Commercial).
 
 -   **OneDrive UserVoice.** You can review and submit feature requests and provide feature feedback at [OneDrive UserVoice](https://onedrive.uservoice.com/).
+ 
+
+
+
+
+
+
+
