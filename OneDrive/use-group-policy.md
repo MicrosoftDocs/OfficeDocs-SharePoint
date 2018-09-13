@@ -207,7 +207,7 @@ Enabling this policy sets the following registry key.
   
 (where "1111-2222-3333-4444" is the [tenant ID](find-your-office-365-tenant-id.md) and 0005000 sets a threshold of 5000 MB) 
   
-### Prompt users to move Windows known folders to OneDrive
+### Prompt users to move Windows Known Folders to OneDrive
 <a name="OptInWithWizard"> </a>
 
 This setting displays the "Set up protection of important folders" window that prompts users to move their Documents, Pictures, and Desktop folders to OneDrive.
@@ -224,18 +224,18 @@ Enabling this policy sets the following registry key:
   
 (where "1111-2222-3333-4444" is the [tenant ID](find-your-office-365-tenant-id.md))
   
-### Silently redirect Windows known folders to OneDrive
+### Silently redirect Windows Known Folders to OneDrive
 <a name="OptInNoWizard"> </a>
 
-This setting lets you redirect your users' Documents, Pictures, and Desktop folders to OneDrive without user interaction. This policy works when all known folders are empty, and on folders redirected to a different OneDrive account. We recommend using this policy together with "Prompt users to move Windows known folders to OneDrive."
+This setting lets you redirect your users' Documents, Pictures, and Desktop folders to OneDrive without user interaction. This policy works when all known folders are empty, and on folders redirected to a different OneDrive account. We recommend using this policy together with "Prompt users to move Windows Known Folders to OneDrive."
   
-When you enable this policy, future releases will no longer check for empty known folders. Instead, known folders will be redirected and content within them will be moved.
+When you enable this policy, future releases will no longer check for empty Known Folders. Instead, known folders will be redirected and content within them will be moved.
   
 If you enable this setting and provide your tenant ID, you can choose whether to display a notification to users after their folders have been redirected.
   
 ![Onedrive protection message](media/d28dbca8-f51a-43b2-b069-c483a53c6d0b.png)
   
-If you disable or do not configure this setting, your users' known folders will not be silently redirected to OneDrive. 
+If you disable or do not configure this setting, your users' Known Folders will not be silently redirected to OneDrive. 
   
 Enabling this policy sets the following registry keys:
   
@@ -247,7 +247,7 @@ Enabling this policy sets the following registry keys:
   
 Setting this value to 1 displays a notification after successful redirection.
   
-### Prevent users from redirecting their Windows known folders to their PC
+### Prevent users from redirecting their Windows Known Folders to their PC
 <a name="OptInNoWizardToast"> </a>
 
 This setting forces users to keep their Documents, Pictures, and Desktop folders directed to OneDrive.
@@ -260,7 +260,7 @@ Enabling this policy sets the following registry key:
   
 [HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMBlockOptOut"="dword:00000001"
   
-### Prevent users from moving their Windows known folders to OneDrive
+### Prevent users from moving their Windows Known Folders to OneDrive
 <a name="BlockKFM"> </a>
 
 This setting prevents users from moving their Documents, Pictures, and Desktop folders to any OneDrive for Business account.
@@ -270,7 +270,7 @@ This setting prevents users from moving their Documents, Pictures, and Desktop f
   
 If you enable this setting, users won't be prompted with the "Set up protection of important folders" window, and the "Start protection" command will be disabled. If the user has already moved their known folders, the files in those folders will remain in OneDrive. This policy will not take effect if you've enabled "Prompt users to move Windows known folders to OneDrive" or "Silently redirect Windows known folders to OneDrive."
   
-If you disable or do not configure this setting, users can choose to move their known folders.
+If you disable or do not configure this setting, users can choose to move their Known Folders.
   
 Enabling this policy sets the following registry key value to 1.
   
