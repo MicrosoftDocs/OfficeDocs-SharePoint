@@ -482,13 +482,13 @@ For an overview of Windows AutoPilot, see [Overview of Windows AutoPilot](/windo
 
 ## Deploy OneDrive by using Intune
 
-To deploy the OneDrive sync client to Windows 10 or the mobile apps to Android or iOS, follow the steps in [Deploy OneDrive apps by using Intune](deploy-intune.md/).
+To deploy the OneDrive sync client to Windows 10 or the mobile apps to Android or iOS, follow the steps in [Deploy OneDrive apps by using Intune](deploy-intune.md).
 
 ## Deploy OneDrive by using System Center Configuration Manager
 
-To deploy the OneDrive sync client to Windows or the mobile apps to Android or iOS by using System Center Configuration Manager, see [Deploy OneDrive apps by using SCCM](deploy-on-windows.md/).
+To deploy the OneDrive sync client to Windows or the mobile apps to Android or iOS by using System Center Configuration Manager, see [Deploy OneDrive apps by using SCCM](deploy-on-windows.md).
 
-Before you can deploy applications to computers running macOS, you need to complete some prerequisite tasks on the System Center Configuration Manager site. For detailed information about these prerequisites and how to prepare a System Center Configuration Manager environment for Mac management, see [Prepare to deploy client software to Macs](/sccm/core/clients/deploy/prepare-to-deploy-mac-clients/). When you’ve completed the prerequisites, you can deploy applications to Macs by completing the steps described in [How to Create and Deploy Applications for Mac Computers in Configuration Manager](/previous-versions/system-center/system-center-2012-R2/jj884158(v%3dtechnet.10)/). For  information about configuring the OneDrive sync client for macOS, see [Deploy and configure the new OneDrive sync client for Mac](deploy-and-configure-on-macos.md/).
+Before you can deploy applications to computers running macOS, you need to complete some prerequisite tasks on the System Center Configuration Manager site. For detailed information about these prerequisites and how to prepare a System Center Configuration Manager environment for Mac management, see [Prepare to deploy client software to Macs](/sccm/core/clients/deploy/prepare-to-deploy-mac-clients/). When you’ve completed the prerequisites, you can deploy applications to Macs by completing the steps described in [How to Create and Deploy Applications for Mac Computers in Configuration Manager](/previous-versions/system-center/system-center-2012-R2/jj884158(v%3dtechnet.10)/). For  information about configuring the OneDrive sync client for macOS, see [Deploy and configure the new OneDrive sync client for Mac](deploy-and-configure-on-macos.md).
 
 ## Manage OneDrive
 
@@ -546,7 +546,7 @@ OneDrive is updated through Windows Update in two waves. Out of the box, OneDriv
 New-ItemProperty -Path 'HKCU:\\SOFTWARE\\Microsoft\\OneDrive' -Name 'EnableEnterpriseUpdate' -Value '1' -PropertyType DWORD -Force | Out-Null
 ```
 
-Save the script as a .ps1 file. Then, see [Manage PowerShell scripts in Intune for Windows 10 devices](https://docs.microsoft.com/intune/intune-management-extension) for instructions on how to deploy the PowerShell script in your environment.
+Save the script as a .ps1 file. Then, see [Manage PowerShell scripts in Intune for Windows 10 devices](/intune/intune-management-extension/) for instructions on how to deploy the PowerShell script in your environment.
 
 ### Manage OneDrive by using third-party MDM tools
 

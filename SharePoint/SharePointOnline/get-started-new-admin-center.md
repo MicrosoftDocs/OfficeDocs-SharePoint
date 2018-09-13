@@ -19,7 +19,7 @@ description: "Learn about the cards on the Home page of the new SharePoint admin
 
 # Get started with the new SharePoint admin center
 
-As a global or SharePoint admin in Office 365, you can try the new SharePoint admin center (preview). To access it, go to the current SharePoint admin center and click **Try the preview** in the upper right. 
+As a global or SharePoint admin in Office 365, you can try the new SharePoint admin center (preview). To access it, go to the classic SharePoint admin center and click **Try the preview** in the upper right. 
   
 ![The home page of the new admin center](media/e7096ec4-1902-4e6c-af0b-13c461a0bbe0.png)
   
