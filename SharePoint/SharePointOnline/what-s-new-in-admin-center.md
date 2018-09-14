@@ -13,7 +13,7 @@ search.appverid:
 - BSA160
 - MET150
 ms.assetid: 317eed2b-d266-4c4c-9a37-1aceed9db567
-description: "We're continuously adding new features to the new SharePoint admin center (preview) and fixing issues we learn about. Here's a summary of what's included, and what's coming up. You can help us improve the admin center by sending us your suggestions and reporting bugs you encounter. In the lower-right corner of the admin center, click the Feedback button."
+description: "Learn about the latest features being released in the new SharePoint admin center."
 ---
 
 # What's new in the SharePoint admin center
@@ -78,6 +78,10 @@ We're continuously adding new features to the new SharePoint admin center (previ
 - **Geo locations page**
 
 - For organizations that have set up Multi-Geo in OneDrive and SharePoint, a map of geo locations and controls for switching between locations, and adding and deleting satellite locations 
+
+- **API management page**
+
+- A list of pending and approved permission requests, and controls for approving or rejecting access
     
 ## Coming soon
 
