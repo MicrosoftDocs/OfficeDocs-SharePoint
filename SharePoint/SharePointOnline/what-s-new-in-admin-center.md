@@ -36,19 +36,21 @@ We're continuously adding new features to the new SharePoint admin center (previ
     
 - A geo location selector for organizations that have set up Multi-Geo in OneDrive and SharePoint
     
- **Site management page**
+ **Active sites page**
   
 - A list that includes the new types of sites that users create: team sites that belong to Office 365 groups and communication sites
     
-- The ability to create sites (including sites that belong to Office 365 groups and communication sites) using the same experience available to users
+- The ability to create sites that use the new site templates (communication sites, group-connected team sites, and new team sites that don't include an Office 365 group)
+- 
+- The ability to create hub sites and associate and disassociate sites
     
-- Extensive site info and insights such as site name, template, file and sharing info, and date created and modified
+- Extensive site info and insights such as site name, primary admin, template, external sharing setting, activity, and sensitivity label
     
 - The ability to sort, filter, and customize columns, as well as search by all text fields
     
 - Built-in views and the ability to create custom views
     
-- The ability to edit site-level sharing status for sites that don't belong to Office 365 groups
+- The ability to edit site-level sharing status 
     
 - Export to CSV
     
@@ -56,15 +58,27 @@ We're continuously adding new features to the new SharePoint admin center (previ
     
 - The ability to select multiple sites and email site admins
     
- **Recycle bin page**
+ **Deleted sites page**
   
 - A list of deleted sites with time deleted
     
 - The ability to restore sites individually
+
+**Sharing page**
+
+- Default link settings for sharing files and folders, and external sharing settings
+
+**Access control page**
+
+- Settings for controlling access from unmanaged devices, inactive browser sessions, network locations, and apps that don't use modern authentication
     
  **Settings page**
   
-- Settings for list and library experience, sync (if your organization used the previous sync client), and notifications
+- Settings for list and library experience, sync (if your organization used the previous sync client), notifications, site storage limits, default admin experience, and site creation
+
+- **Geo locations page**
+
+- For organizations that have set up Multi-Geo in OneDrive and SharePoint, a map of geo locations and controls for switching between locations, and adding and deleting satellite locations 
     
 ## Coming soon
 
@@ -74,26 +88,20 @@ Here's a short list of some of the larger features we're working on. Use the Fee
   
 - Improved design for mobile
     
- **Site management page**
+ **Active sites page**
   
 - Grouping
     
 - More batch operations
     
-- The ability to specify the primary admin when creating communication sites and sites that belong to an Office 365 group
+- The ability to view and update Office 365 group owners
     
-- The ability to view and update Office 365 group owners, and delete sites that belong to an Office 365 group
-    
-- The ability to delete sites created by another admin
-    
- **Recycle bin page**
+ **Deleted sites page**
   
 - Batch restore
     
 - The ability to delete (purge)
     
- **Sharing and device access**
-  
-- New pages for organization-wide settings
+
     
 
