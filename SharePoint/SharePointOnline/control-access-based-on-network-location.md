@@ -3,7 +3,6 @@ title: "Control access to SharePoint Online and OneDrive data based on network l
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 6/19/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
@@ -49,6 +48,9 @@ Here are some important considerations for setting a location-based policy:
 3. In the left pane, choose **Admin centers** \> **SharePoint**.
     
 4. In the left pane, click **device access**.
+ 
+> [!NOTE]
+> If you're using the new SharePoint admin center, click **Access control** in the left pane, and then click **Network location**. Turn on **Allow access only from specific IP address ranges**. 
     
 5. Under **Control access based on network location**, select **Only allow access from specific IP address locations**
     
