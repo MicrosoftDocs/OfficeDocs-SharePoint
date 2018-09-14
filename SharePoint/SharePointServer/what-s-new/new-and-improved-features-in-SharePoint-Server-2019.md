@@ -18,6 +18,8 @@ description: "Learn about the new features and updates to existing features in S
 
 # New and improved features in SharePoint Server 2019 Public Preview
 
+[!INCLUDE[appliesto-xxx-xxx-2019-xxx-md](../includes/appliesto-xxx-xxx-2019-xxx-md.md)]
+
 Learn about the new features and updates to existing features in SharePoint Server 2019 Public Preview.
 
 To read more about the updated modern experience in SharePoint Server 2019 Public Preview, see [Differences between SharePoint Server 2016 and 2019 Public Preview](https://support.office.com/en-us/article/differences-between-sharepoint-server-2016-and-2019-ba84c8a3-3ce2-4252-926e-c67654ceb4a3). 

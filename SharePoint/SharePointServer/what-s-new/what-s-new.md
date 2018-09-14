@@ -17,7 +17,7 @@ description: "Summary: Use these articles to develop a business case for choosin
 
 # What's new
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)]
   
 Articles contain an overview of new and improved product features, updates, deprecated and removed features.
   

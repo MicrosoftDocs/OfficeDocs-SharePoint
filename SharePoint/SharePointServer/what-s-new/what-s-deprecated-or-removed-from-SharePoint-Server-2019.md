@@ -13,12 +13,12 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - Strat_SP_server
 ms.custom: 
-description: "Learn about the features and functionality that are deprecated or removed in SharePoint Server 2019 Public Preview."
+description: "Learn about the features and functionality that are deprecated or removed in SharePoint Server."
 ---
 
 # What's deprecated or removed from SharePoint Server 2019 Public Preview
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-xxx-2019-xxx-md](../includes/appliesto-xxx-xxx-2019-xxx-md.md)]
 
 Learn about the features and functionality that are deprecated or removed in SharePoint Server 2019 Public Preview.
 
