@@ -42,7 +42,7 @@ To set registry keys on computers in your domain, install OneDrive and copy the 
   
 ### Use System Center Configuration Manager to deploy the OneDrive sync client
 
-1. In System Center Configuration Manager, select **Create Device Collection** and follow the steps in the Create Device Collection wizard. 
+1. In System Center Configuration Manager, select **Create Device Collection** and follow the steps in the Create Device Collection Wizard. 
 
 2. Save the OneDriveSetup.exe installer for Windows to your local computer or a network share. [Download the Production ring OneDriveSetup.exe installer for Windows](https://go.microsoft.com/fwlink/?linkid=844652) or [download the Enterprise ring OneDriveSetup.exe installer for Windows](https://go.microsoft.com/fwlink/p/?linkid=860987). 
   
@@ -53,13 +53,13 @@ To set registry keys on computers in your domain, install OneDrive and copy the 
 > The script installer deployment type already has a detection method script and will correctly assess the installation. Also, there is an uninstall switch, which means that you can easily remove the OneDrive sync client, if necessary.
 
   
-4. Copy the installer to a folder in the SCCM content source. 
+4. Copy the installer to a folder in the SCCM source content share. 
 5. In SCCM, select the **Software Library** workspace. Under **Application Management**, right-click **Applications**, and then select **Import Application**. 
 
 ![](media/deploy-onedrive-enterprise_image6.png)
 
 7. Select the sample package.
-8. Select the **Deployment Types** tab on the bottom of SCCM, right-click **Deployment**, and edit the properties to update the **Content location**.
+8. Select the **Deployment Types** tab on the bottom of SCCM, right-click the deployment, and edit the properties to update the **Content location**.
 9. Right-click the package, select **Deploy**, and follow the steps in the Deploy Software Wizard.
 
 
@@ -144,7 +144,7 @@ You can use System Center Configuration Manager to deploy apps to mobile devices
 3. In the **Location** box, enter the app store URL, https://itunes.apple.com/us/app/onedrive/id823766827?mt=12.
  ![](media/deploy-onedrive-enterprise_image4.png)
 
-5. Target the app to users. 
+4. Target the app to users. 
 
 For more info, see [Create iOS applications with System Center Configuration Manager](/sccm/mdm/deploy-use/creating-ios-applications/), and use  as the app location, as shown below.
 
