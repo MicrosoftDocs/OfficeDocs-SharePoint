@@ -123,3 +123,7 @@ Since the feature was first introduced in SharePoint, Microsoft BI strategy has 
 ### Visio Services - Silverlight Based Rendering
 
 Visio Services has 2 options for rendering Visio diagrams: Microsoft Silverlight-based and PNG-based. Microsoft Silverlight is a technology that will no longer be supported as of October 12, 2021. This means that, Silverlight-based rendering will no longer be supported in SharePoint Server 2019 Public Preview. Visio Services will only render Visio diagrams using the PNG-based technology.
+
+## SharePoint Business Intelligence Scenarios
+
+For more information on SharePoint BI scenarios, review the SQL Server Reporting Services Team blog post, [Simplifying our SharePoint integration story](https://blogs.msdn.microsoft.com/sqlrsteamblog/2016/11/17/simplifying-our-sharepoint-integration-story/).
