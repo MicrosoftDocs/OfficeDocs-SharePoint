@@ -3,7 +3,7 @@ title: "Hide SharePoint Server social features"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 6/11/18
+ms.date: 9/7/18
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -28,7 +28,7 @@ The Yammer Embed widget for SharePoint lets you embed Yammer feeds into on-premi
     
 This article takes you through the steps required to do the first two steps: removing the Newsfeed Web Parts and hiding the user interface controls.
   
-For information about how to install and add the Yammer feed on your sites, see [Add the Yammer Embed widget to a SharePoint page](add-the-yammer-embed-widget-to-a-sharepoint-page.md).
+For information about how to add a Yammer feed on your sites, see [Add the Yammer Embed widget to a SharePoint page](add-the-yammer-embed-widget-to-a-sharepoint-page.md).
   
   
 ## Which SharePoint Server enterprise social features are removed?

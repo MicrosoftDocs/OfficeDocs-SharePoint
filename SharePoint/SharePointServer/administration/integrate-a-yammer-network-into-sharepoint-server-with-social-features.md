@@ -3,7 +3,7 @@ title: "Integrate a Yammer network into SharePoint Server with social features"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 6/11/2018
+ms.date: 9/7/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -22,7 +22,7 @@ This scenario describes the prerequisites and recommended steps to integrate a Y
 
 For this scenario, we assume that:
   
-- You have SharePoint Server 2016 or SharePoint Server 2013 SP1 or later installed.
+- You have SharePoint Server 2019 Public Preview, SharePoint Server 2016 or SharePoint Server 2013 SP1 or later installed.
     
 - Users already use the SharePoint Server Newsfeed social feature.
     
@@ -32,9 +32,7 @@ For this scenario, we assume that:
 
 Many organizations already use social features in their SharePoint Server installation and have active and engaged communities that use these features. If you're ready to move towards Yammer, you have to manage both the technical implementation and the migration of users from one system to another.
   
-A common problem in SharePoint Server 2013 installations is that social features don't work across multiple farms. When you move to a single Yammer network, you eliminate this problem.
-  
-Many customers have active SharePoint Communities based on the Community Site Collection template. After you deploy SharePoint Server 2013 SP1, the Community Site Collection template is still available to use. A Community Site resembles a Yammer Group. We recommend that you have the users in these sites start conversations in new Yammer Groups. By using a Yammer Group, a community can share information, ask questions, and seek answers to problems.
+
   
 > [!IMPORTANT]
 > There are no tools or processes available to help you move content from a Community Site to a Yammer Group. Going forward, you can keep the data in a Community Site and put a link on the SharePoint Community Site that points to the Yammer group where future discussions will occur. 
@@ -43,6 +41,12 @@ Some communities might not want to immediately move to Yammer Groups. It's okay 
   
 For new or old team sites, there's no option to automatically enable Yammer. Each site owner has to add Yammer using Yammer Embed or another custom integration. For information about how to use Yammer Embed to add a Yammer feed to a SharePoint page, see [Add the Yammer embed widget to a SharePoint page](add-the-yammer-embed-widget-to-a-sharepoint-page.md).
   
+### SharePoint Server 2013
+
+A common problem in SharePoint Server 2013 installations is that social features don't work across multiple farms. When you move to a single Yammer network, you eliminate this problem.
+  
+Many customers have active SharePoint Communities based on the Community Site Collection template. After you deploy SharePoint Server 2013 SP1, the Community Site Collection template is still available to use. A Community Site resembles a Yammer Group. We recommend that you have the users in these sites start conversations in new Yammer Groups. By using a Yammer Group, a community can share information, ask questions, and seek answers to problems.
+
 ## Step 1: Set up directory synchronization
 
 Office 365 uses Azure Active Directory for identity management, and Yammer Enterprise can be set up to [Enforce Office 365 identity for Yammer users](https://go.microsoft.com/fwlink/?linkid=875042). If you're using an on-premises directory, in order to manage users in one place, you need to sync your on-premises directory with Azure Active Directory by using Azure Active Directory Connect. 
@@ -68,5 +72,5 @@ After you disable the default SharePoint Server social features, [use the Yammer
 
 [Integrate Yammer with other applications](https://go.microsoft.com/fwlink/p/?LinkId=402150)
 
-[Yammer - Admin Help](https://go.microsoft.com/fwlink/?linkid=525575)
+[Yammer - Admin Help](https://docs.microsoft.com/yammer)
 
