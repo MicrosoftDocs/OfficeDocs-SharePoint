@@ -50,7 +50,7 @@ This section identifies hardening characteristics for SharePoint servers. Some o
 <a name="DatabaseServer"> </a>
 
 > [!NOTE]
-> With the addition to the MinRole feature in SharePoint Server 2016, the concept of roles has changed. For information about roles, see [Planning for a MinRole server deployment in SharePoint Server 2016](../install/planning-for-a-minrole-server-deployment-in-sharepoint-server-2016.md). 
+> With the addition to the MinRole feature in SharePoint Server 2016, the concept of roles has changed. For information about roles, see [Planning for a MinRole server deployment in SharePoint Server 2016](../install/planning-for-a-minrole-server-deployment-in-sharepoint-server.md). 
   
 The primary recommendation for SharePoint Server is to secure inter-farm communication by blocking the default ports used for SQL Server communication and establishing custom ports for this communication instead. For more information about how to configure ports for SQL Server communication, see [Blocking the standard SQL Server ports](#BlockingSQL), later in this article.
   
