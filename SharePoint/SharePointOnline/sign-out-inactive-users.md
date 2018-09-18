@@ -2,7 +2,6 @@
 title: "Sign out inactive users"
 ms.author: kaarins
 author: kaarins
-ms.date: 6/28/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
@@ -42,7 +41,17 @@ If they don't click **Continue**, they'll be automatically signed out and will s
   
 ## Configure the idle session sign-out policy
 
-This policy is configured using Microsoft PowerShell.
+To configure this policy in the new SharePoint admin center:
+
+1. Under **Policies**, click **Access control**.
+
+2. Click **Idle session sign-out**.
+
+3. Turn on **Sign out inactive users automatically**, and then specify when inactive users are signed out and how much notice they're given before they're signed out. 
+
+4. Click **Save**.
+
+To configure this policy by using Microsoft PowerShell:
   
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
     
