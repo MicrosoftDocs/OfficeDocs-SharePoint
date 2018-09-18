@@ -3,6 +3,7 @@ title: "Control access based on network location or app"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
+ms.date: 06/21/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: one-drive
@@ -18,7 +19,7 @@ description: "Learn how to apply conditional access settings in the OneDrive adm
 
 # Control access based on network location or app
 
-To prevent users from accessing OneDrive and SharePoint content on devices outside of specific domains, and to prevent them from accessing files in apps that don't check for device status, use the Device access page of the [OneDrive admin center](https://admin.onedrive.com/?v=AccessPolicySettings). (You can also change these settings in the new SharePoint admin center and the classic SharePoint admin center. [Control access based on network location](/sharepoint/control-access-based-on-network-location)
+To prevent users from accessing OneDrive and SharePoint content on devices outside of specific domains, and to prevent them from accessing files in apps that don't check for device status, use the Device access page of the [OneDrive admin center](https://admin.onedrive.com/?v=AccessPolicySettings).
   
 ![The Device access tab of the OneDrive admin center](media/4b5811ac-01e5-4fca-99f2-e9db8bb6237e.png)
   
@@ -35,7 +36,6 @@ You can choose a specific IP addresses or IP address ranges from which you want 
 3. Enter the IP address ranges that you want to allow using CIDR notation. For example: 172.16.0.0, 192.168.1.0/27, 2001:4898:80e8::0/48. Enter one IP address range per line, and make sure there are no overlapping IP addresses.
     
 4. Click **Save** on the Device access page. 
-
     
 ## Control access from apps that don't use modern authentication
 
