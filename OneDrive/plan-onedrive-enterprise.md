@@ -273,7 +273,7 @@ Key decisions:
 
 -   Do your users have OneDrive on-premises data that needs to be migrated to OneDrive in Office 365?
 
-## Access and sharing considerations
+## Information protection
 
 OneDrive shares can contain sensitive information that could damage your organization if it were shared with the wrong people. This section provides information about how to help prevent accidental data leakage and protect your data by controlling who can access it.
 
@@ -291,9 +291,6 @@ If you’ve decided to use Windows Information Protection with OneDrive, see the
 
 -   [Create a Windows Information Protection (WIP) policy using System Center Configuration Manager](/windows/security/information-protection/windows-information-protection/overview-create-wip-policy-sccm/)
 
-Key decision:
-
--   Do you want to user Windows Information Protection with OneDrive?
 
 ### Azure Information Protection
 
@@ -303,7 +300,12 @@ For more information about Azure Information Protection, see [What is Azure Info
 
 If you have decided to use Azure Information Protection, see [Office 365: Configuration for clients and online services to use the Azure Rights Management service](/azure/information-protection/configure-office365#sharepoint-online-and-onedrive-for-business-irm-configuration/) to configure the necessary settings for it to work with OneDrive.
 
-### Sharing options
+
+### OneDrive integration with other Office 365 features
+
+OneDrive integrates with many other applications, such as SharePoint, Teams, and Yammer. With that integration comes the necessity to protect the data stored in OneDrive. When considering security, for example, think about potential leakage scenarios through each integrated application and apply WIP, IRM, Azure Information Protection, or another protection option to help prevent unauthorized access. For information about how these products integrate with each other to provide a better collaboration solution and how they can introduce additional vectors for data leakage, see [How SharePoint Online and OneDrive for Business interact with Microsoft Teams](/microsoftteams/sharepoint-onedrive-interact/).
+
+## Sharing options
 
 Using the OneDrive admin center, you can specify sharing options such as the default sharing type for users, with whom they can share, and how long sharing links remain active.
 
@@ -319,11 +321,8 @@ These are the key decisions around sharing for OneDrive:
 
 Note that the OneDrive sharing settings are a subset of the SharePoint Online sharing settings. If you want to allow external sharing in OneDrive, it must be enabled for SharePoint Online.
 
-### OneDrive integration with other Office 365 features
 
-OneDrive integrates with many other applications, such as SharePoint, Teams, and Yammer. With that integration comes the necessity to protect the data stored in OneDrive. When considering security, for example, think about potential leakage scenarios through each integrated application and apply WIP, IRM, Azure Information Protection, or another protection option to help prevent unauthorized access. For information about how these products integrate with each other to provide a better collaboration solution and how they can introduce additional vectors for data leakage, see [How SharePoint Online and OneDrive for Business interact with Microsoft Teams](/microsoftteams/sharepoint-onedrive-interact/).
-
-### Data retention
+## Data retention
 
 When a user leaves your organization and you’ve deleted that user’s account, what happens to his or her data? When considering data retention compliance, determine what needs to happen with the deleted user’s data. For some organizations, retaining deleted user data could be important continuity and preventing critical data loss. The default retention policy for deleted OneDrive users is 30 days. You can configure the setting to a range between 0 days and 3,650 days (ten years).
 
@@ -522,11 +521,7 @@ Settings in the OneDrive admin center are grouped into six categories:
 -   **Notifications** - On the **Notifications** tab, you define when OneDrive owners should receive notifications about sharing or accessing their data. For information about enabling these options, see [Turn on external sharing notifications for OneDrive](turn-on-external-sharing-notifications.md).
 
 
-## Manage OneDrive by using an MDM application
-
-You can use MDM solutions such as Intune to manage OneDrive settings. 
-
-### Manage OneDrive settings by using Intune
+## Manage OneDrive settings by using Intune
 
 Unlike Windows, OneDrive doesn’t have a configuration service provider. Therefore, to use Intune to configure OneDrive settings, you must deploy the setting’s corresponding registry key and value by using a PowerShell cmdlet. Read [Use Group Policy to control OneDrive sync client settings](use-group-policy.md) for a list of settings and their corresponding registry values; then, construct a PowerShell script using the following cmdlet syntax:
 
@@ -563,7 +558,7 @@ Because Windows devices that you use System Center Configuration Manager to mana
 
 System Center Configuration Manager can manage OneDrive updates and configuration alongside other updates in your environment, such as for Windows and Office applications. 
 
-#### Manage OneDrive updates by using System Center Configuration Manager
+### Manage OneDrive updates by using System Center Configuration Manager
 
 Depending on where the OneDrive client originated—as part of an Office package, Windows 10, or as a stand-alone installation—there are two primary methods for using System Center Configuration Manager to manage OneDrive updates:
 
