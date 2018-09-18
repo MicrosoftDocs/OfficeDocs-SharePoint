@@ -174,13 +174,12 @@ SharePoint farm deployments require that all servers have the same patch level w
 
 * Within the extracted SharePoint installation folder, there is an Updates folder, C:\SharePointInstall\Updates. This is the folder where the slipstreamed packages will reside.
 
-* Download the two update packages for the particular month you wish to slipstream, for example, KB4022178 and KB4022173, the June 2018 Public Updates.
+* Download the necessary package(s) to bring the new server to the desired patch level.
 
-* Extract each update to the target location. This can be done via the Command Prompt/PowerShell using the following examples.
+* Extract each package to the target location. This can be done via the Command Prompt/PowerShell using the following example.
 
 ```
-PS C:\>sts2016-kb4022173-fullfile-x64-glb.exe /extract:C\SharePointInstall\Updates
-PS C:\>wssloc2016-kb4022178-fullfile-x64-glb.exe /extract:C\SharePointInstall\Updates
+PS C:\>ubersrv2013-kb4092476-fullfile-x64-glb.exe /extract:C\SharePointInstall\Updates
 ```
 
 With the extraction complete, run the Setup from the installation location, `C:\SharePointInstall\setup.exe`. Setup will automatically apply the update during the installation process of SharePoint.
