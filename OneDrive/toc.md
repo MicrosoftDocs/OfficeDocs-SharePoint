@@ -19,6 +19,7 @@
 ### [Exclude or uninstall previous sync client](exclude-or-uninstall-previous-sync-client.md)
 ## [Sharing and security]()
 ### [Manage sharing](manage-sharing.md)
+### [Set external sharing individually](user-external-sharing-settings.md)
 ### [Turn on external sharing notifications](turn-on-external-sharing-notifications.md)
 ### [Allow syncing only on specific domains](allow-syncing-only-on-specific-domains.md)
 ### [Control access based on network location or app](control-access-based-on-network-location-or-app.md)
