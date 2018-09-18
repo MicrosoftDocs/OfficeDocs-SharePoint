@@ -3,7 +3,6 @@ title: "Change the default link type when users get links for sharing"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 5/17/2018
 ms.audience: Admin
 ms.topic: article
 f1_keywords:
@@ -33,23 +32,24 @@ This setting applies only to modern sites.
 > [!NOTE]
 > This setting does not affect Outlook Web App, Outlook 2016, or Office clients prior to Office 2016. 
   
-To change the setting, navigate to the SharePoint Online admin center:
+## Change the default link type (organization-wide) in the classic SharePoint admin center
+
+> [!NOTE]
+> For info about changing this setting in the OneDrive admin center or the new SharePoint admin center, see [Manage sharing in OneDrive and SharePoint](/onedrive/manage-sharing).
   
 1. Sign in to Office 365 as a global admin or SharePoint admin.
     
 2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
 3. In the left pane, choose **Admin centers** \> **SharePoint**.
+ 
+4. In the left pane, choose **sharing**.
     
-## Change the default link type (SharePoint Online global setting)
-
-1. In the left pane, choose **sharing**.
-    
-2. Under **Default link type** choose the option you want to show by default when a user gets a link. 
+5. Under **Default link type** choose the option you want to show by default when a user gets a link. 
     
     ![Default link type dialog box](media/4dc58d77-dccd-474f-b0fb-8ff8b3f1c088.png)
   
-3. Under **Default link permission** choose whether you want the default permission to be view or edit. 
+6. Under **Default link permission** choose whether you want the default permission to be view or edit. 
     
     ![Screenshot of default link permissions which are view and edit.](media/17172082-7cc4-44e4-9b73-3a0ea9acc577.png)
   
