@@ -3,6 +3,7 @@ title: "Control access from unmanaged devices"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
+ms.date: 6/28/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
@@ -13,7 +14,7 @@ search.appverid:
 - BSA160
 - MET150
 ms.assetid: 5ae550c4-bd20-4257-847b-5c20fb053622
-description: "Learn how to restrict access on devices that aren't compliant or joined to a domain."
+description: "Learn how to limit web access to SharePoint and OneDrive, or block all access, on devices that aren't compliant or joined to a domain."
 ---
 
 # Control access from unmanaged devices
@@ -41,9 +42,6 @@ Blocking access helps provide security but comes at the cost of usability and pr
 3. In the left pane, choose **Admin centers** \> **SharePoint**.
     
 4. In the SharePoint admin center, click **access control**.
-
-> [!NOTE]
-> If you're using the new SharePoint admin center, click **Access control** in the left pane, and then click **Unmanaged devices**.
     
 5. Select **Block Access**.
     
@@ -71,9 +69,6 @@ Blocking access helps provide security but comes at the cost of usability and pr
 3. In the left pane, choose **Admin centers** \> **SharePoint**.
     
 4. In the SharePoint admin center, click **access control**.
-
-> [!NOTE]
-> If you're using the new SharePoint admin center, click **Access control** in the left pane, and then click **Unmanaged devices**.
     
 5. Select **Allow limited, web-only access**.
     

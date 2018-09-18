@@ -3,6 +3,7 @@ title: "What's new in the SharePoint admin center"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
+ms.date: 6/1/2018
 ms.audience: Admin
 ms.topic: reference
 ms.service: sharepoint-online
@@ -13,7 +14,7 @@ search.appverid:
 - BSA160
 - MET150
 ms.assetid: 317eed2b-d266-4c4c-9a37-1aceed9db567
-description: "Learn about the latest features being released in the new SharePoint admin center."
+description: "We're continuously adding new features to the new SharePoint admin center (preview) and fixing issues we learn about. Here's a summary of what's included, and what's coming up. You can help us improve the admin center by sending us your suggestions and reporting bugs you encounter. In the lower-right corner of the admin center, click the Feedback button."
 ---
 
 # What's new in the SharePoint admin center
@@ -35,21 +36,19 @@ We're continuously adding new features to the new SharePoint admin center (previ
     
 - A geo location selector for organizations that have set up Multi-Geo in OneDrive and SharePoint
     
- **Active sites page**
+ **Site management page**
   
 - A list that includes the new types of sites that users create: team sites that belong to Office 365 groups and communication sites
     
-- The ability to create sites that use the new site templates (communication sites, group-connected team sites, and new team sites that don't include an Office 365 group)
-
-- The ability to create hub sites and associate and disassociate sites
+- The ability to create sites (including sites that belong to Office 365 groups and communication sites) using the same experience available to users
     
-- Extensive site info and insights such as site name, primary admin, template, external sharing setting, activity, and sensitivity label
+- Extensive site info and insights such as site name, template, file and sharing info, and date created and modified
     
 - The ability to sort, filter, and customize columns, as well as search by all text fields
     
 - Built-in views and the ability to create custom views
     
-- The ability to edit site-level sharing status 
+- The ability to edit site-level sharing status for sites that don't belong to Office 365 groups
     
 - Export to CSV
     
@@ -57,31 +56,15 @@ We're continuously adding new features to the new SharePoint admin center (previ
     
 - The ability to select multiple sites and email site admins
     
- **Deleted sites page**
+ **Recycle bin page**
   
 - A list of deleted sites with time deleted
     
 - The ability to restore sites individually
-
-**Sharing page**
-
-- Default link settings for sharing files and folders, and external sharing settings
-
-**Access control page**
-
-- Settings for controlling access from unmanaged devices, inactive browser sessions, network locations, and apps that don't use modern authentication
     
  **Settings page**
   
-- Settings for list and library experience, sync (if your organization used the previous sync client), notifications, site storage limits, default admin experience, and site creation
-
-**Geo locations page**
-
-- For organizations that have set up Multi-Geo in OneDrive and SharePoint, a map of geo locations and controls for switching between locations, and adding and deleting satellite locations 
-
-**API management page**
-
-- A list of pending and approved permission requests, and controls for approving or rejecting access
+- Settings for list and library experience, sync (if your organization used the previous sync client), and notifications
     
 ## Coming soon
 
@@ -91,20 +74,26 @@ Here's a short list of some of the larger features we're working on. Use the Fee
   
 - Improved design for mobile
     
- **Active sites page**
+ **Site management page**
   
 - Grouping
     
 - More batch operations
     
-- The ability to view and update Office 365 group owners
+- The ability to specify the primary admin when creating communication sites and sites that belong to an Office 365 group
     
- **Deleted sites page**
+- The ability to view and update Office 365 group owners, and delete sites that belong to an Office 365 group
+    
+- The ability to delete sites created by another admin
+    
+ **Recycle bin page**
   
 - Batch restore
     
 - The ability to delete (purge)
     
-
+ **Sharing and device access**
+  
+- New pages for organization-wide settings
     
 

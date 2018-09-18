@@ -17,9 +17,7 @@ description: "Learn how to turn sharing on and off for SharePoint Online."
 
 # Turn external sharing on or off for SharePoint Online
 
-If you're working with vendors, clients, or customers outside of your organization, you might want to give them access to certain areas of your site or to specific documents. In this article, we'll show you how to turn external sharing on or off in the classic SharePoint admin center. You must be a global or SharePoint admin in Office 365 to do this.
-
-For info about changing this setting in the OneDrive admin center or the new SharePoint admin center, see [Control external sharing for OneDrive and SharePoint](/onedrive/manage-sharing#control-external-sharing-for-onedrive-and-sharepoint).
+If you're working with vendors, clients, or customers outside of your organization, you might want to give them access to certain areas of your site or to specific documents. In this article, we'll show you how to turn sharing on or off sharing for SharePoint Online. You must be a global or SharePoint admin in Office 365 to do this.
   
 External sharing is controlled at both the organization level (global settings that affect all of SharePoint Online) and the site collection level. The organization-level settings determine what options are available at the site collection level.
   

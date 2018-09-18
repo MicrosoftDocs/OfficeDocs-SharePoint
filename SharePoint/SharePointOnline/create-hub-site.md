@@ -16,22 +16,11 @@ description: "Learn how to use PowerShell to create a hub site in SharePoint Onl
 
 # Create a hub site in SharePoint Online
 
-If you're a global or SharePoint admin in Office 365, you can convert any existing site to a hub site in the new SharePoint admin center, or by using Microsoft PowerShell.
+If you're a global or SharePoint admin in Office 365, you can convert any existing site to a hub site using Microsoft PowerShell.
   
 > [!NOTE]
 >  We recommend selecting a communication site, or a team site that uses the new template. If you use a classic team site, the hub navigation will appear only on modern pages, and hub site settings will only appear on modern pages.<br>Sites that are already associated with another hub can't be converted to a hub site. <br>You can create up to 50 hub sites for an organization. There is no limit on the number of sites that can be associated with a hub site. <br>When users associate their sites with a hub, it doesn't impact the permissions of either the hub site or the associated sites. It's important to make sure all users you allow to associate sites to the hub have permission to the hub. 
-
-## Create a hub site in the new SharePoint admin center
-
-1. In the new SharePoint admin center, under **Sites**, click **Active sites**.
-
-2. Select the site, click **Hub site**, and then click **Convert to hub site**.
-
-3. Enter a display name for the hub site, and then click **Save**.
-
-  > [!TIP]
-    > In the new SharePoint admin center, you can associate a site with a hub site, change its association to a different hub site, or disassociate a site from a hub site. On the Active sites page, select the site, click **Hub site**, and then select **Change hub site association**.  
-
+  
 ## Create a hub site using PowerShell
 
 1. Download and install the latest [SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251). If you already have a previous version installed, uninstall it first and then install the latest version.
