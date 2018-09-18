@@ -32,7 +32,7 @@ To manage sites in the new SharePoint admin center, go to the classic SharePoint
 
 1. Click **Create site**.
     
-2. Select to create a team site (which will create an Office 365 group) or a communication site. To create a classic site, or a new team site that doesn't include an Office 365 group, click Other options. For info about the new site templates, see [Create a team site in SharePoint Online](https://support.office.com/article/ef10c1e7-15f3-42a3-98aa-b5972711777d) and [Create a communication site in SharePoint Online](https://support.office.com/article/7fb44b20-a72f-4d2c-9173-fc8f59ba50eb).
+2. Select to create a team site (which will create an Office 365 group) or a communication site. To create a classic site, or a new team site that doesn't include an Office 365 group, click **Other options**. For info about the new site templates, see [Create a team site in SharePoint Online](https://support.office.com/article/ef10c1e7-15f3-42a3-98aa-b5972711777d) and [Create a communication site in SharePoint Online](https://support.office.com/article/7fb44b20-a72f-4d2c-9173-fc8f59ba50eb).
     
     ![Create a communication site, team site, or classic site from the admin center](media/c4c5173f-ca83-426f-a940-cb2869a3a64b.png)
   
@@ -74,11 +74,9 @@ You can email the primary admins for the sites you select, except for sites that
     
     ![Email admins dialog box](media/28ecaf36-9e47-4757-8c12-8bbbc0c33daf.PNG)
   
-## Change the external sharing setting for the site
+## Change the external sharing setting for a site
 <a name="changesitesharing"> </a>
 
-You can change the external sharing setting for any site.
-  
 1. Click the site name to open the details pane.
     
 2. Under **Properties**, next to **External sharing**, click **Change**.

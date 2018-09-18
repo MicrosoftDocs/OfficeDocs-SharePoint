@@ -39,7 +39,7 @@ Here are some important considerations for setting a location-based policy:
 ## Set a location-based policy in the SharePoint admin center
 
 > [!NOTE]
-> It can take up to 15 minutes for these settings to take effect. 
+> It can take up to 15 minutes for these settings to take effect. <br>For info about changing this setting in the OneDrive admin center, see [Control access based on network location or app](/onedrive/control-access-based-on-network-location-or-app).
   
 1. Sign in to Office 365 as a global admin or SharePoint admin.
     

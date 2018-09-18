@@ -3,7 +3,6 @@ title: "Remove a hub site"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 4/3/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
@@ -17,7 +16,17 @@ description: "Learn how to use PowerShell to demote a hub site (remove its hub s
 
 # Remove a site's hub site status
 
-If you're a global or SharePoint admin in Office 365, you can demote a hub site (remove its hub site status) by using Microsoft PowerShell. Make sure you do this before you delete the hub site. When you demote a hub site, any sites still associated with the hub site will be automatically disassociated.
+If you're a global or SharePoint admin in Office 365, you can demote a hub site (remove its hub site status) in the new SharePoint admin center, or by using Microsoft PowerShell. Make sure you do this before you delete the hub site. When you demote a hub site, any sites still associated with the hub site will be automatically disassociated.
+
+In the new SharePoint admin center:
+
+1. Under **Sites**, click **Active sites**.
+
+2. Select the hub site. (In the Hub site association column, after the display name of the hub site, you'll see "Hub site.")
+
+3. Click **Hub site**, and then select **Remove hub site status**.
+
+In PowerShell:
   
 1. Download and install the latest [SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251). If you already have a previous version installed, uninstall it first and then install the latest version.
     

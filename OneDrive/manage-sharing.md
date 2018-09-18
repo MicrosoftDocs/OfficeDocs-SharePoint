@@ -56,7 +56,7 @@ If your external sharing setting for SharePoint is set to allow shareable links 
 
 By default, users are allowed to share files in OneDrive and SharePoint with anyone using links that don't require sign-in. If you want to change this, it's best to do it first before you customize your link settings. Keep the following in mind as you configure sharing for OneDrive.
   
-- The external sharing setting for SharePoint can be ** *more* ** permissive than what you allow in OneDrive, but not ** *less* ** permissive. If you turn off external sharing for SharePoint in your organization, you can't turn it on for OneDrive. 
+- The external sharing setting for SharePoint can be **more** permissive than what you allow in OneDrive, but not **less** permissive. If you turn off external sharing for SharePoint in your organization, you can't turn it on for OneDrive. 
     
 - If you want to allow external file sharing on any sites, you need to turn it on globally (at the organization level). You can then turn it off for all other site collections.
     

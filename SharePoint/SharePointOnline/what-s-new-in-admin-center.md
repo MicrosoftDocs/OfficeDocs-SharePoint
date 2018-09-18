@@ -40,7 +40,7 @@ We're continuously adding new features to the new SharePoint admin center (previ
 - A list that includes the new types of sites that users create: team sites that belong to Office 365 groups and communication sites
     
 - The ability to create sites that use the new site templates (communication sites, group-connected team sites, and new team sites that don't include an Office 365 group)
-- 
+
 - The ability to create hub sites and associate and disassociate sites
     
 - Extensive site info and insights such as site name, primary admin, template, external sharing setting, activity, and sensitivity label
@@ -75,11 +75,11 @@ We're continuously adding new features to the new SharePoint admin center (previ
   
 - Settings for list and library experience, sync (if your organization used the previous sync client), notifications, site storage limits, default admin experience, and site creation
 
-- **Geo locations page**
+**Geo locations page**
 
 - For organizations that have set up Multi-Geo in OneDrive and SharePoint, a map of geo locations and controls for switching between locations, and adding and deleting satellite locations 
 
-- **API management page**
+**API management page**
 
 - A list of pending and approved permission requests, and controls for approving or rejecting access
     
