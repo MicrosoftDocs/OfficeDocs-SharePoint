@@ -1,11 +1,12 @@
 ---
 title: Information architecture in the SharePoint modern experience
-ms.author: loreenl
-author: loreenla
+ms.author: krowley
+author: kccross
+manager: pamgreen
 ms.audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Normal
+localization_priority: Priority
 description: "Learn about information architecture in the SharePoint modern experience."
 ...
 

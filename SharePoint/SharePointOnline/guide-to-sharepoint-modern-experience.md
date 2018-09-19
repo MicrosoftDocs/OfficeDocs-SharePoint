@@ -5,7 +5,7 @@ author: loreenla
 ms.audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Normal
+localization_priority: Priority
 description: "Learn about the SharePoint modern experience."
 ...
 

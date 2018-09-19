@@ -2,10 +2,11 @@
 title: Performance tuning with the Modern Experience in SharePoint Online
 ms.author: loreenl
 author: loreenla
+manager: laurawi
 ms.audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Normal
+localization_priority: Priority
 description: "Learn about performance tuning in the SharePoint modern experience."
 ...
 

@@ -2,10 +2,11 @@
 title: Moving from Publishing sites to Communication sites
 ms.author: loreenl
 author: loreenla
+manager: pamgreen
 ms.audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Normal
+localization_priority: Priority
 description: "Learn about how to move from publising sites to communication sites in the SharePoint modern experience"
 ...
 

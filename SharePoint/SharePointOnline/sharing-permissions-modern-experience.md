@@ -1,11 +1,12 @@
 ---
 title: Sharing and permissions in the SharePoint modern experience
-ms.author: loreenl
+ms.author: mikeplum
 author: loreenla
+manager: pamgreen
 ms.audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Normal
+localization_priority: Priority
 description: "Learn about sharing and permissions in the SharePoint modern experience"
 ...
 

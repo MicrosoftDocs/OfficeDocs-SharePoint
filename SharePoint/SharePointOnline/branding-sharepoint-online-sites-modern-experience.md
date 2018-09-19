@@ -1,11 +1,12 @@
 ---
 title: Branding your SharePoint Online site
-ms.author: loreenl
-author: loreenla
+ms.author: clake
+author: spowriter
+manager: pamgreen
 ms.audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Normal
+localization_priority: Priority
 description: "Learn about branding your sites in the SharePoint modern experience."
 ...
 
