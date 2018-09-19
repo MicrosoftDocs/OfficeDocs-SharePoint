@@ -5,7 +5,7 @@ author: loreenla
 ms.audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Normal
+localization_priority: Priority
 description: "Learn about how to plan navigation in the SharePoint modern experience"
 ...
 
@@ -13,7 +13,7 @@ description: "Learn about how to plan navigation in the SharePoint modern experi
 
 The fundamental principles and good practices for site and page navigation are equally applicable to both classic and modern SharePoint architectures. However, your options for *implementing* navigation differs based on the framework for your sites and intranet. For example, the “inherited” navigation experiences available in classic SharePoint site hierarchies (sites with subsites) are not available in the modern experience, but [hub sites](https://support.office.com/article/fe26ae84-14b7-45b6-a6d1-948b3966427f) provide a great way to achieve the cross-site navigation features previously available in managed navigation and site hierarchies in classic SharePoint.
 
-![](media/plan-navigation-modern-experience_image1.png)
+![Hub site navigation](media/plan-navigation-modern-experience_image1.png)
 
 *“When we’re observing customers carrying out tasks on websites we notice certain common patterns. For example, we find that when people arrive at a particular site they start by **navigating about 70% of the time**. When people get stuck navigating they may resort to using site search.”*
 
@@ -65,7 +65,7 @@ To ensure that your labels keep their promises, make sure they are:
 
 -   **Comprehensive**. Describe all the content with your collection of labels. You should not plan to link to every single page or document in your navigation, but your navigation should provide a complete picture of the content on your site.
 
--   **Consistent.** When we have a lot of content on sites, we often need to use a combination category and sub-links on pages. On desktops, hovering the mouse over a category exposes the menu while clicking the category takes you to a “category landing page.” However, hover is not a gesture available on mobile or touch screens so “split” links as shown below can be confusing for site visitors. The top link for Latin America has sub-links. While it is awkward that Latin America has sub-links and the other regions do not, you may find that you need to present navigation where not every top category has sub-links or even where all top links have sub-links. When you have split links, think about the user expectations for the link associated with each category and how it relates to its associated sub-links. Is there a category landing page for Latin America? If so, how much experience will your visitors need to know that there is content only visible if they click on the category link? One option is to make Latin America simply a category *label* (by targeting the URL to an existing page) but another option is to think about providing consistent category and sub-link experiences. Consider creating a category landing page whenever you have sub-links and/or having the category landing page be the first link below the category label.<br>![](media/plan-navigation-modern-experience_image3.png)
+-   **Consistent.** When we have a lot of content on sites, we often need to use a combination category and sub-links on pages. On desktops, hovering the mouse over a category exposes the menu while clicking the category takes you to a “category landing page.” However, hover is not a gesture available on mobile or touch screens so “split” links as shown below can be confusing for site visitors. The top link for Latin America has sub-links. While it is awkward that Latin America has sub-links and the other regions do not, you may find that you need to present navigation where not every top category has sub-links or even where all top links have sub-links. When you have split links, think about the user expectations for the link associated with each category and how it relates to its associated sub-links. Is there a category landing page for Latin America? If so, how much experience will your visitors need to know that there is content only visible if they click on the category link? One option is to make Latin America simply a category *label* (by targeting the URL to an existing page) but another option is to think about providing consistent category and sub-link experiences. Consider creating a category landing page whenever you have sub-links and/or having the category landing page be the first link below the category label.<br>![Example of navigation](media/plan-navigation-modern-experience_image3.png)
 
 -   **Concise**. Keep your labels short and to the point. For example: News, History, Services.
 
@@ -189,7 +189,7 @@ The “inherited” navigation experiences available in classic SharePoint site 
 
 Hub site navigation is displayed above the local navigation on each site, just below the suite bar.
 
-![](media/plan-navigation-modern-experience_image2.png)
+![Hub site navigation](media/plan-navigation-modern-experience_image2.png)
 
 Hub site navigation is established in the on the site that is declared to be the hub. It is defined by the hub site owner and is shared by all the associated sites. You cannot currently “turn off” hub navigation on an individual site that is associated to a hub, so you will want to carefully think about which sites are reflected in your hub navigation.
 
