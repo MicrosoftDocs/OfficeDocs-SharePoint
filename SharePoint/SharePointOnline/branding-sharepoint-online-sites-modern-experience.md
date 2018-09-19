@@ -15,7 +15,8 @@ In the modern SharePoint Online experience, you can easily [change the look](htt
 
 ![](media/branding-sharepoint-online-sites-modern-experience_image1.png)
 
-NOTE: Branding your SharePoint Online site will not change the overall look of your Office 365 service For more information about branding Office 365, see [Customize your theme in the Office 365 admin center](https://support.office.com/en-us/article/Customize-the-Office-365-theme-for-your-organization-8275DA91-7A48-4591-94AB-3123A3F79530).
+> [!NOTE]
+> Branding your SharePoint Online site will not change the overall look of your Office 365 service For more information about branding Office 365, see [Customize your theme in the Office 365 admin center](https://support.office.com/en-us/article/Customize-the-Office-365-theme-for-your-organization-8275DA91-7A48-4591-94AB-3123A3F79530).
 
 ## Site branding in the classic experience
 
@@ -32,6 +33,7 @@ When you brand a [SharePoint Online hub site](https://support.office.com/article
 ## Classic experience vs. SharePoint Online
 
 Below is a summary of the differences between branding a site in the classic experience vs. branding in the modern SharePoint Online experience.
+
 |**Classic experience**|**Modern experience**|
 |:-----|:-----|
 |Unresponsive, OOB themes that you can customize|Responsive themes that look great on any device and can be customized to match your brand|

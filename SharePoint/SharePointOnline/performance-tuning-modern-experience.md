@@ -10,6 +10,7 @@ description: "Learn about performance tuning in the SharePoint modern experience
 ...
 
 Modern experience sites in SharePoint Online provide many performance improvements over legacy publishing sites. For example, significant portion of the processing have moved to the client, thereby removing round-trip time and shortening page loads, as well as speeding up image rendering. This article details some of the improvements brought to you with the new modern experience.
+
 |**Legacy publishing sites**|**Modern experience site**|**More information**|
 |:-----|:-----|:-----|
 |Navigation options|***|Legacy sites: [*Navigation options for SharePoint Online*](https://docs.microsoft.com/en-us/office365/enterprise/navigation-options-for-sharepoint-online)<br>Modern experience sites: ***|
