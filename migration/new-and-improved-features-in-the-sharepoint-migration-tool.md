@@ -18,6 +18,25 @@ Learn about the new features and updates to existing features in SharePoint Migr
 >To install the current release download here: [SharePoint Migration Tool](http://spmtreleasescus.blob.core.windows.net/install/default.htm)
   
 
+### SPMT V2.1.102.0
+
+**New features**
+
+The following features were added to the SharePoint Migration Tool, Version V2.1.101.6
+
+|**Feature**|**Description**|
+|:-----|:-----|
+|Modern design|The SharePoint Migration tool has a new look and feel closer aligned with Sharepoint Online design for easier use. |
+
+**Improvements**
+
+In addition to several minor fixes, here are the primary improvements made in this release:
+
+|**Issue**|**Fix**|
+|:----|:-----|
+|Stability|General improvements have been made to remove some errors in tool.|
+
+
 ### SPMT V2.1.101.6
 
 **New features**
