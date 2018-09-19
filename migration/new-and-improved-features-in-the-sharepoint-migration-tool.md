@@ -22,11 +22,11 @@ Learn about the new features and updates to existing features in SharePoint Migr
 
 **New features**
 
-The following features were added to the SharePoint Migration Tool, Version V2.1.101.6
+The following features were added to the SharePoint Migration Tool, Version V2.1.102.0
 
 |**Feature**|**Description**|
 |:-----|:-----|
-|Modern design|The SharePoint Migration tool has a new look and feel closer aligned with Sharepoint Online design for easier use. |
+|Modern design|The SharePoint Migration tool has a new look and feel that is more closely aligned with the Sharepoint Online design for easier use. |
 
 **Improvements**
 
