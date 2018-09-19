@@ -1,7 +1,7 @@
 ---
 title: Sharing and permissions in the SharePoint modern experience
 ms.author: mikeplum
-author: loreenla
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.audience: Admin
 ms.topic: article
