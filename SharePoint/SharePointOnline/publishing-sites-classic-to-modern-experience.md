@@ -2,10 +2,11 @@
 title: Moving from Publishing sites to Communication sites
 ms.author: loreenl
 author: loreenla
+manager: pamgreen
 ms.audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Normal
+localization_priority: Priority
 description: "Learn about how to move from publising sites to communication sites in the SharePoint modern experience"
 ...
 
@@ -89,9 +90,13 @@ In the classic experience, you may have created web part pages based on page lay
 
 Modern pages provide a fast, easy way to build responsive pages using the functionality of modern web parts. Pages are similar to classic web part pages and publishing pages, but are less structured and easier to create.  And, each page’s layout is flexible in that it can be changed anytime.
 
-![](media/publishing-sites-classic-to-modern-experience_image4.png) ![](media/publishing-sites-classic-to-modern-experience_image5.png)
+*Classic web part page*:
 
-*Classic web part page on the left, modern page on the right*
+![](media/publishing-sites-classic-to-modern-experience_image4.png)
+
+*Modern web part page*:
+
+![](media/publishing-sites-classic-to-modern-experience_image5.png)
 
 Pages are made up of a title area and sections. Sections can include a full-width column for full-bleed images or hero web parts, or up to three regular columns.
 
