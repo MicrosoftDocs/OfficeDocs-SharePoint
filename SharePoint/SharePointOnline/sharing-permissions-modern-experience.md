@@ -147,6 +147,6 @@ Anyone links can be configured to expire after a certain date or to never expire
 
 [External sharing overview](external-sharing-overview.md)
 
-[Turn external sharing on or off for SharePoint Online](turn-external-sharing-on-or-off)
+[Turn external sharing on or off for SharePoint Online](turn-external-sharing-on-or-off.md)
 
 [Share SharePoint files or folders](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c)
