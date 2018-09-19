@@ -9,7 +9,7 @@ localization_priority: Normal
 description: "Learn about branding your sites in the SharePoint modern experience."
 ...
 
-# Introduction
+# Branding your SharePoint Online site
 
 In the modern SharePoint Online experience, you can easily [change the look](https://support.office.com/article/06bbadc3-6b04-4a60-9d14-894f6a170818) and feel of your site to match your company or organizational brand. You can customize the logo, colors, and navigation – often without writing a single line of code. Branding can be applied at the site level, to a group of sites, or to all sites within your organization.
 
