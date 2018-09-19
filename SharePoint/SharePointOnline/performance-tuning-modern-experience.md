@@ -1,7 +1,7 @@
 ---
 title: Performance tuning with the Modern Experience in SharePoint Online
-ms.author: loreenl
-author: loreenla
+ms.author: krowley
+author: kccross
 manager: laurawi
 ms.audience: Admin
 ms.topic: article

@@ -1,7 +1,7 @@
 ---
 title: Information architecture in the SharePoint modern experience
-ms.author: krowley
-author: kccross
+ms.author: loreenl
+author: loreenla
 manager: pamgreen
 ms.audience: Admin
 ms.topic: article
