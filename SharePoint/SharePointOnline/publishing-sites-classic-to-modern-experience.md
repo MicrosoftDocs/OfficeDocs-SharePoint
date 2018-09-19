@@ -89,9 +89,13 @@ In the classic experience, you may have created web part pages based on page lay
 
 Modern pages provide a fast, easy way to build responsive pages using the functionality of modern web parts. Pages are similar to classic web part pages and publishing pages, but are less structured and easier to create.  And, each page’s layout is flexible in that it can be changed anytime.
 
-![](media/publishing-sites-classic-to-modern-experience_image4.png) ![](media/publishing-sites-classic-to-modern-experience_image5.png)
+![](media/publishing-sites-classic-to-modern-experience_image4.png)
 
-*Classic web part page on the left, modern page on the right*
+*Classic web part page*
+
+![](media/publishing-sites-classic-to-modern-experience_image5.png)
+
+*Modern web part page*
 
 Pages are made up of a title area and sections. Sections can include a full-width column for full-bleed images or hero web parts, or up to three regular columns.
 

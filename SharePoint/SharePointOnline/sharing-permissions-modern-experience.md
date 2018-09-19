@@ -31,7 +31,7 @@ Key points to consider regarding permissions and sharing in modern SharePoint si
 
 -   External sharing and sharing options
 
-## User Grouping Options and Best Practices 
+## User grouping options and best practices 
 
 Traditional SharePoint provided two primary forms of granting permissions to collections of users. With SharePoint groups, SharePoint maintains a list of groups on a site by site basis, and within each group, a list of assigned users. By default, traditional team and publishing sites [includes a set of SharePoint groups](https://docs.microsoft.com/en-us/sharepoint/default-sharepoint-groups) that includes the following common groups: owners, members, and visitors. Publishing sites include additional groups such as approvers, designers, and more. Each SharePoint group is assigned specific permissions to the site hosting the group and thus any user assigned to a particular group also inherits that group’s permissions.
 
@@ -39,7 +39,7 @@ The second form of user grouping within traditional SharePoint includes security
 
 A common use case for SharePoint groups include an ad hoc grouping of users for a team site that need common access such as editing permissions to a marketing campaign team site. Common use cases for security groups include a larger set of users that may need common access across many sites, such as a group of all employees within the marketing department, that need at least read access to all marketing sites within a group of marketing site collections.
 
-### SharePoint Online Grouping Options
+### SharePoint Online grouping options
 
 SharePoint Online continues to provide both SharePoint groups as well as security groups maintained by Azure Active Directory. Office 365 also provides a third grouping option for SharePoint, [Office 365 Groups](https://support.office.com/en-us/article/learn-about-office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2?ui=en-US&rs=en-US&ad=US). Office 365 Groups are similar to security groups, although Office 365 Groups include many additional benefits. Office 365 groups are provided a group email address as well as additional tools such as a group calendar, notebook, Planner, and a SharePoint team site. Users assigned to an Office 365 Group may also be classified as either a group owner or a group reader, in comparison to security groups where all group members have equal access under the group.
 
@@ -47,7 +47,7 @@ Office 365 Groups may be added in Office 365, Outlook, Azure Active Directory, a
 
 SharePoint groups and security groups do not have associated group email addresses, nor do they include group calendars, notebooks, Planner, or a default SharePoint site as is the case with Office 365 Groups.
 
-### When and Why to add users to a type of Group or directly to a Site 
+### When and why to add users to a type of group or directly to a Site 
 
 A given user may be provided access to a SharePoint site by granting specific access to a given user account, or by adding the given user account to an Office 365 Group, a security group, or a SharePoint group. It is considered best practice to add users to one of the three available group types when a user requires access to a SharePoint site to increase general performance and data responsiveness.
 
@@ -57,13 +57,13 @@ As already stated, Office 365 Groups are special types of groups stored in Azure
 
 Office 365 Groups are the recommended choice when a collection of people want to communicate and collaborate together, that being, more than just a collection of people that need common access level to a particular resource. Office 365 Groups do not make sense when simple security trimming is required, although Office 365 Groups do allow for a common group of members to have common access to assets across the tenant.
 
-### Security Groups
+### Security groups
 
 Security groups are similar to Office 365 Groups as security groups are stored within Azure Active Directory and do provide a method to groups users to provide common access to assets across the tenant. Security groups do not provide the additional communication and collaboration benefits found in Office 365 Groups such as a shared email address, a shared calendar, and more.
 
 Security groups are a recommended solution when a collection of people need common access to multiple sites, libraries, or other SharePoint assets, yet do not need the collaboration components available to Office 365 Groups. Note that Security groups are configured by tenant administrators that have access to Azure Active Directory. For this reason, Office 365 Groups may be necessary for some scenarios when group creation must be handled by non-tenant admins as Office 365 tenants may be configured to allow Office 365 Group creation by a larger set of users.
 
-### SharePoint Groups
+### SharePoint groups
 
 SharePoint groups are groupings of users tied to specific SharePoint sites. SharePoint groups are not shared across the site collection boundary although SharePoint groups are inherited by default by sub sites.
 
@@ -71,15 +71,15 @@ SharePoint groups are provided by default by all SharePoint sites including mode
 
 With modern team sites, the underlying Office 365 Group should be favored for providing access to a given site. Communication sites may utilize Office 365 Groups although the underlying grouping is handled by SharePoint groups.
 
-### Sharing Permissions across a group of sites – Sites within a Hub 
+### Sharing permissions across a group of sites – sites within a Hub 
 
 SharePoint hub sites offer an important mechanism to provide cohesion with a SharePoint implementation strategy. [Learn more about hub sites](https://docs.microsoft.com/en-us/sharepoint/dev/features/hub-site/hub-site-overview).
 
-Associated a site to a Hub site does not change or unify the permissions of either the hub site or the associated site. It is important that users who can associate a site to a hub site have permission to the hub site, while you might also want to consider that members of a site that is associate to a hub also have permission to the hub although this is not a requirement.
+Associated a site to a hub site does not change or unify the permissions of either the hub site or the associated site. It is important that users who can associate a site to a hub site have permission to the hub site, while you might also want to consider that members of a site that is associate to a hub also have permission to the hub although this is not a requirement.
 
 In a scenario where common permissions may want to be applied across all or a sub-section of sites associated with a hub site, an Office 365 Group or security group could be created and then added as a member of each joined site.
 
-### Permission Comparison between Team sites vs. Communication Sites 
+### Permission comparison between team sites and communication sites 
 
 Modern SharePoint Team sites and Communication sites are built on the same foundation yet have important differences that should be considered.
 
@@ -91,7 +91,7 @@ Communication sites look to “Share” a site, sharing a given site to individu
 
 Communication sites are not tied to an Office 365 Group. Advanced permissions options are also available to communication sites via the Sharing or Site permissions panels. It is important to note that underlying sharing and general permissions of communication sites also driven by SharePoint groups. Communication sites include three default SharePoint groups, Owners, Members, and Visitors, just as provided by traditional SharePoint sites.
 
-### Internal and External Sharing Within SharePoint Online 
+### Internal and external sharing within SharePoint Online 
 
 Sharing a site or asset within a site such as a library or document is essentially the same a granting permission for a particular person, user, or group to the shared asset. When sharing within SharePoint, you are also provided the ability to email the user directly with the UI as well.
 
@@ -103,7 +103,7 @@ By default, external sharing is enabled at both the tenant level and site collec
 
 When sharing a team site, you may invite users, Office 365 Groups, and security groups to be a member of the site. When shared via the site permissions interface on the site itself, be aware that inviting a new member will not join that member to the connected Office 365 Group. You can invite new members to the Office 365 Group, which will automatically provide that member the proper access to the team site.
 
-### Configuration Options for Sharing within SharePoint Online
+### Configuration options for sharing within SharePoint Online
 
 By default, internal sharing is available on all SharePoint sites including team sites and communication sites. By default, external sharing is also allowed.
 
@@ -115,7 +115,7 @@ Changing external sharing on a site by site basis requires a tenant administrato
 
 When sharing a document such as a Microsoft Word, Microsoft Excel, or Microsoft PowerPoint document, the shared asset may be opened within the browser for a rich viewing or authoring experience.
 
-### Different Types of Sharing Links
+### Different types of sharing links
 
 When sharing a SharePoint file or folder, different types of links may be generated and either automatically or manually sent to the end user(s).
 
