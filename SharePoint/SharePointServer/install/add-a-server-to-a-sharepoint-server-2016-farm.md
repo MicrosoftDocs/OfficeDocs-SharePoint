@@ -133,7 +133,7 @@ Verify that the user account that is performing this procedure is the Setup user
 8. On the **Specify Server Role** page, choose the appropriate role, and then click **Next**.
     
 > [!NOTE]
-> The concept of server roles has changed staring with SharePoint Server 2016. You can't add a server to a farm if the farm currently contains a server assigned to the "Single Server Farm" role. > For additional information about MinRole, see [Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019](overview-of-minrole-server-roles-in-sharepoint-server-2016.md). 
+> The concept of server roles has changed staring with SharePoint Server 2016. You can't add a server to a farm if the farm currently contains a server assigned to the "Single Server Farm" role. > For additional information about MinRole, see [Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019](overview-of-minrole-server-roles-in-sharepoint-server.md). 
   
 9. On the **Completing the SharePoint Products Configuration Wizard** page, click **Next**.
     
@@ -206,7 +206,7 @@ Verify that you have the following memberships:
 > If SharePoint Server 2016 Feature Pack 2 has been applied, additional \<ServerRole> options are available: ApplicationWithSearch, WebFrontEndWithDistributedCache. These options are also available in SharePoint Server 2019 Public Preview.
     
 > [!NOTE]
-> The concept of server roles has changed starting with SharePoint Server 2016. You can't add a server to a farm if the farm currently contains a server assigned to the "Single Server Farm" role. > For additional information about MinRole, see [Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019](overview-of-minrole-server-roles-in-sharepoint-server-2016.md). 
+> The concept of server roles has changed starting with SharePoint Server 2016. You can't add a server to a farm if the farm currently contains a server assigned to the "Single Server Farm" role. > For additional information about MinRole, see [Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019](overview-of-minrole-server-roles-in-sharepoint-server.md). 
   
 3. At the PowerShell command prompt, type the following command to install the Help File Collections:
     
