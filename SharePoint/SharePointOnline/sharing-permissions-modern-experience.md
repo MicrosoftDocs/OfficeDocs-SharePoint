@@ -142,3 +142,11 @@ Links can provide specific access to the shared asset including the ability for 
 Anyone links can be configured to expire after a certain date or to never expire.
 
 **Principal author: Eric Overfield, MVP<br>Website: [ericoverfield.com](http://ericoverfield.com)<br>LinkedIn: [https://linkedin.com/in/ericoverfield](https://linkedin.com/in/ericoverfield)<br>Twitter: @ericoverfield<br>**
+
+## See also
+
+[External sharing overview](external-sharing-overview.md)
+
+[Turn external sharing on or off for SharePoint Online](turn-external-sharing-on-or-off)
+
+[Share SharePoint files or folders](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c)
