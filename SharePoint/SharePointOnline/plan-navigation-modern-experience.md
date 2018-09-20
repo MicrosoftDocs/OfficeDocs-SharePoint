@@ -6,6 +6,7 @@ manager: pamgreen
 ms.audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
+search.appverid: MET150
 localization_priority: Priority
 description: "Learn about how to plan navigation in the SharePoint modern experience"
 ...

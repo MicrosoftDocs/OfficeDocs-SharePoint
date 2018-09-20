@@ -6,6 +6,7 @@ manager: pamgreen
 ms.audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
+search.appverid: MET150
 localization_priority: Priority
 description: "Learn how to get your organization started with the modern search experience"
 ...
