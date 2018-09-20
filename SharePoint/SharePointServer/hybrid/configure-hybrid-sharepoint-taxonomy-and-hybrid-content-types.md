@@ -95,11 +95,13 @@ Note that you can also simply run Copy-SPTaxonomyGroups and you will be prompted
   
  **Copying content types**
   
-If you're planning to use hybrid content types, you can copy your SharePoint Server content types to SharePoint Online by using the [Copy-SPContentTypes](https://technet.microsoft.com/en-us/library/mt784462.aspx) cmdlet. For example: 
+If you're planning to use hybrid content types, you can copy your SharePoint Server content types to SharePoint Online by using the [Copy-SPContentTypes](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/copy-spcontenttypes?view=sharepoint-ps) cmdlet. For example: 
   
 ```
-Copy-SPContentTypes -LocalSiteUrl http://localsite/ -LocalTermStoreName "managed metadata service application proxy" -RemoteSiteUrl https://contoso.remotesite.com/ -ContentTypeNames @("ContentTypeA", "ContentTypeB") -Credential $credential
+Copy-SPContentTypes -LocalSiteUrl http://localsite/ -LocalTermStoreName "managed metadata service application proxy" -RemoteSiteUrl https://contoso.sharepoint.com/ -ContentTypeNames @("ContentTypeA", "ContentTypeB") -Credential $credential
 ```
+
+The content types will be copied into https://contoso.sharepoint.com/sites/contentTypeHub. If this site does not exist, it will be created for you and the Site Collection Feature Content Type Syndication Hub will be enabled. The site URL is hard coded and cannot be changed.
 
 ## Configure hybrid SharePoint taxonomy
 
