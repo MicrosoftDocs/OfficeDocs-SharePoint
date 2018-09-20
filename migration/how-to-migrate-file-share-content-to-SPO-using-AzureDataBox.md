@@ -35,22 +35,22 @@ The Microsoft Azure Data Box is a service that lets you order a device from the 
 6.	Install the SMPT tool on the Azure VM.
 7.	Run the SPMT tool using the Azure file share as the SOURCE.
 8.	Complete the final steps of the tool.
-9.	Verify and confirm your data
+9.	Verify and confirm your data.
 
 
 ## Using the Azure Data Box
 Once your receive your Azure Data Box, follow the instructions detailed here:  Quickstart: Deploy Azure Data Box using the Azure portal .  They step you through how to setup and configure your Data Box and how to copy the content of your files shares to the device. Some things to keep in mind while doing this:
 -	Only use the “StorageAccount_AzureFiles” share in the Data Box to copy the data. This is because you want the data to end up in an Azure file share, not in block blobs or page blobs.
--	The first level folder within this share will correspond to an Azure file share. Create a folder and then copy all your contents into it. This is the file share that you will mount on your VM in the next step
+-	The first level folder within this share will correspond to an Azure file share. Create a folder and then copy all your contents into it. This is the file share that you will mount on your VM in the next step.
 
 
 ## Migrating your data to SharePoint Online using SPMT
 After you receive confirmation from the Azure data team that your data copy has completed, you can now proceed with migrating your data to SharePoint Online.  For best performance and connectivity, we recommend that you create an Azure Virtual Machine (VM).
 
-1.	Log into the Azure Portal, and then create a virtual machine.  Learn how:  [Quickstart: Create Windows virtual machine in the Azure portal](https://review.docs.microsoft.com/en-us/azure/databox/data-box-overview?branch=pr-en-us-52373)
-2.	[Mount the Azure file share onto that VM](https://docs.microsoft.com/en-us/azure/storage/files/storage-how-to-use-files-windows)
+1.	Log into the Azure Portal, and then create a virtual machine.  Learn how:  [Quickstart: Create Windows virtual machine in the Azure portal](https://review.docs.microsoft.com/en-us/azure/databox/data-box-overview?branch=pr-en-us-52373).
+2.	[Mount the Azure file share onto that VM](https://docs.microsoft.com/en-us/azure/storage/files/storage-how-to-use-files-windows).
 3.	Download the SharePoint Migration tool and install it on your Azure VM. 
-Download here: [SharePoint Migration Tool](http://spmtreleasescus.blob.core.windows.net/install/default.htm)
+Download here: [SharePoint Migration Tool](http://spmtreleasescus.blob.core.windows.net/install/default.htm).
 4.	Start the SharePoint Migration Tool.  Click Sign in and enter your Office 365 username and password.
 
 ![SharePoint Migration Tool](media/spmt-intro.png)
