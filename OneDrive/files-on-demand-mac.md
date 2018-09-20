@@ -17,7 +17,7 @@ ms.assetid: 3eff17b9-c709-462f-946c-17719af68aca
 description: "Learn how to configure Files On-Demand for Mac."
 ---
 
-# Changes to OneDrive sync client deployment in Office Click-to-Run
+# Configure Files On-Demand for Mac
 
 This article describes the preferences and scriptable commands you can use to set up OneDrive Files On-Demand for Mac. For more info about using Files On-Demand on a Mac, see [Try Files On-Demand for Mac](https://support.office.com/article/529f6d53-e572-4922-a585-e7a318c135f0).
 
