@@ -44,11 +44,11 @@ Domain
 
 To query and set the file and folder status, use:
  
-Query File State 
+Query file status 
 
 /Applications/OneDrive.app/Contents/MacOS/OneDrive /getpin <path> 
  
-Set File State  
+Set file status  
 
 /Applications/OneDrive.app/Contents/MacOS/OneDrive /pin <path> 
 /Applications/OneDrive.app/Contents/MacOS/OneDrive /unpin <path> 
