@@ -41,13 +41,13 @@ So, how you do move from publishing sites to communication sites? Here are some 
 
 Let’s say your organization has a publishing site for Human Resources, with subsites for Benefits, Policies, Training, and Careers. It might be organized like this:
 
-![](media/publishing-sites-classic-to-modern-experience_image1.png)
+![](media/hierarchy.png)
 
 Where Human Resources is your site collection that includes four subsites for Benefits, Policies, Training, and Careers.
 
 In the modern experience, you can use a Hub site to mimic the same structure while carrying design elements across related sites:
 
-![](media/publishing-sites-classic-to-modern-experience_image2.png)
+![](media/hub.png)
 
 This structure is no longer hierarchical in the technical sense. Instead, it is a flat structure where each site is connected. In this scenario, each site can be a Communication site. But you can also include team sites for collaboration within the hub, while limiting their availability to the entire organization. With a hub site, you can:
 
