@@ -32,9 +32,9 @@ So, how you do move from publishing sites to communication sites? Here are some 
 
 -   [Sharing news](#sharing-news)
 
--   Permissions and sharing
+-   [Permissions and sharing](#Users-and-permissions)
 
--   Audience targeting
+-   [Audience targeting](#Audience-targeting)
 
 ## Structure and navigation – use a hub site
 
@@ -99,7 +99,7 @@ Modern pages provide a fast, easy way to build responsive pages using the functi
 
 ![](media/publishing-sites-classic-to-modern-experience_image5.png)
 
-Pages are made up of a title area and sections. Sections can include a full-width column for full-bleed images or hero web parts, or up to three regular columns.
+Pages are made up of a title area and sections. Sections can include a full-width column for full-bleed images or hero web parts, or up to three regular columns. You can add a variety of web parts to the page, and easily move them around on the page to get the look you want. Check out this short video to see how to create, layout, and publish a page:
 
 ![](media/publishing-sites-classic-to-modern-experience_image6.png)
 
