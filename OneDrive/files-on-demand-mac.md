@@ -19,7 +19,7 @@ description: "Learn how to configure Files On-Demand for Mac."
 
 # Changes to OneDrive sync client deployment in Office Click-to-Run
 
-To set up OneDrive Files On-Demand for Mac, you can use preferences or scriptable commands. 
+This article describes the preferences and scriptable commands you can use to set up OneDrive Files On-Demand for Mac. For more info about using Files On-Demand on a Mac, see [Try Files On-Demand for Mac](https://support.office.com/article/529f6d53-e572-4922-a585-e7a318c135f0).
 
 > [!NOTE]
 > The following configurations are subject to change. 
