@@ -3,7 +3,6 @@ title: "Redirect and move Windows known folders to OneDrive"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 06/28/2018
 ms.audience: Admin
 ms.topic: get-started-article
 ms.service: one-drive
