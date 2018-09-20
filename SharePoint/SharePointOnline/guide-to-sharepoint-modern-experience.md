@@ -2,6 +2,7 @@
 title: Guide to the Modern experience in SharePoint
 ms.author: loreenl
 author: loreenla
+manager: pamgreen
 ms.audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
