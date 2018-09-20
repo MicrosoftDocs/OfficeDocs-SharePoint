@@ -3,7 +3,7 @@ title: "What's deprecated or removed from SharePoint Server 2019 Public Preview"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 6/26/2018
+ms.date: 9/17/2018
 ms.audience: ITPro
 ms.topic: overview
 ms.prod: sharepoint-server-itpro
