@@ -15,6 +15,8 @@ description: "Learn about information architecture in the SharePoint modern expe
 
 Having a solid information architecture is an important prerequisite for realizing a well-maintained and well-performing portal. Designing the optimal structure requires good planning. Even with a good plan, information architecture is a continuous process. Over time, organizations change, people change, and projects change. Plus, the more you learn about your users, the more discoverable you can make your content. The modern experience in SharePoint makes it easier and faster to evolve your structure and navigation because it is more flexible with the new, flat structure of Hub sites.
 
+![HR hub](media/5f386901-5347-4dce-94db-9ec35b5746d5.png)
+
 ## Hub sites
 
 Classic SharePoint architecture is typically built using a hierarchical system of site collections and sub-sites, with inherited navigation, permissions, and site designs. Once built, this structure can be inflexible and difficult to maintain. In the modern SharePoint experience, every site is a site collection, and all can be associated to a hub site which is a flat structure of sites that share navigation, branding, and other elements. This type of structure is far more flexible and adaptive to the changing needs of your organization. [Learn about how to plan for Hub sites](planning-hub-sites.md).
