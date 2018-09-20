@@ -102,8 +102,6 @@ Modern pages provide a fast, easy way to build responsive pages using the functi
 
 Pages are made up of a title area and sections. Sections can include a full-width column for full-bleed images or hero web parts, or up to three regular columns. You can add a variety of web parts to the page, and easily move them around on the page to get the look you want. Check out this short video to see how to create, layout, and publish a page:
 
-![](media/publishing-sites-classic-to-modern-experience_image6.png)
-
 > [!VIDEO https://videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=RWlZJM&AutoPlayVideo=false]
 
 Currently there are three basic out-of-box page templates available when you create a page within a Communication site, and additional new page designs are expected. Also coming is the ability to create your own page designs, while for now, you can create pages based on copies of your previously added and designed pages.
