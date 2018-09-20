@@ -47,18 +47,18 @@ Once your receive your Azure Data Box, follow the instructions detailed here:  Q
 ## Migrating your data to SharePoint Online using SPMT
 After you receive confirmation from the Azure data team that your data copy has completed, you can now proceed with migrating your data to SharePoint Online.  For best performance and connectivity, we recommend that you create an Azure Virtual Machine (VM).
 
-1.	Log into the Azure Portal, and then create a virtual machine.  Learn how:  Quickstart: Create Windows virtual machine in the Azure portal 
-2.	Mount the Azure file share onto that VM
+1.	Log into the Azure Portal, and then create a virtual machine.  Learn how:  [Quickstart: Create Windows virtual machine in the Azure portal](https://review.docs.microsoft.com/en-us/azure/databox/data-box-overview?branch=pr-en-us-52373)
+2.	[Mount the Azure file share onto that VM](https://docs.microsoft.com/en-us/azure/storage/files/storage-how-to-use-files-windows)
 3.	Download the SharePoint Migration tool and install it on your Azure VM. 
-Download here:  Download the SharePoint Migration Tool
+Download here: [SharePoint Migration Tool](http://spmtreleasescus.blob.core.windows.net/install/default.htm)
 4.	Start the SharePoint Migration Tool.  Click Sign in and enter your Office 365 username and password.
 
 ![SharePoint Migration Tool](media/spmt-intro.png)
 
 5.	When prompted “Where is your data?” select File share. Enter the path to your Azure file share where your data is located.
-6.	Follow the remaining prompts as normal, including your target location. For more info see:  How to use the SharePoint Migration Tool . 
-7.	Migration speed can be impacted by several factors. Understanding these will help you plan and maximize the efficiency of your migration.  For more info, read:  SharePoint Online and OneDrive Migration Speed 
+6.	Follow the remaining prompts as normal, including your target location. For more info see: [How to use the SharePoint Migration Tool](https://docs.microsoft.com/en-us/sharepointmigration/how-to-use-the-sharepoint-migration-tool). 
+7.	Migration speed can be impacted by several factors. Understanding these will help you plan and maximize the efficiency of your migration.  For more info, read:  [SharePoint Online and OneDrive Migration Speed](https://docs.microsoft.com/en-us/sharepointmigration/sharepoint-online-and-onedrive-migration-speed).
 
-> [!IMPORTANT NOTE]
+> [!NOTE]
 > There is a risk of losing existing permissions on files when migration the data to SharePoint Online.  You may also lose certain metadata, such as “Created by” and “Date modified by”.
 
