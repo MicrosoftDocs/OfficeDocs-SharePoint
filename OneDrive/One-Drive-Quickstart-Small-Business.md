@@ -89,18 +89,15 @@ Personally showing your users how to save and share documents in OneDrive tends 
 For information about a more formal Microsoft 365 user adoption strategy, see the [Microsoft 365 End User Adoption Guide](https://fto365dev.blob.core.windows.net/media/Default/DocResources/en-us/Microsoft%20365%20User%20Adoption%20Guide.pdf). For more information about driving user engagement through a similar, more formal process, see [Success Factors for Office 365 End User Engagement](https://fto365dev.blob.core.windows.net/media/Default/DocResources/en-us/Resources/Office365_AdoptionBrochure_v2.0_Screen.pdf). You can also contribute to or comment on adoption-related ideas in the [Driving Adoption Tech Community](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption).
 
 
-## Get started
-
-When you're ready to start installing and configuring the OneDrive sync client and mobile apps, see Part 2, [OneDrive QuickStart guide for small businesses](One-Drive-Quickstart-Small-Business.md).
-
-
-## Install and configure the OneDrive sync client
+## Install and set up OneDrive apps
 
 You can upload, download, and interact with your OneDrive files from a web browser, but the ideal OneDrive experience comes from the Windows and Mac sync clients and the iOS and Android mobile apps. With these clients and apps, saving files to OneDrive and interacting with them is much easier than visiting a website each time you need something. Through this experience, you can seamlessly integrate OneDrive into your existing file interaction experiences.
 
-You can install OneDrive on any supported device. For small businesses, manual installations typically make the most sense. For some devices, the installation process may be as simple as installing an app from the app store. For others, you may need to delete older versions of OneDrive first. This section walks you through the installation and configuration of OneDrive on iOS and Android mobile devices, Windows devices, and computers running macOS.You may not need to install OneDrive on all these platforms, depending on the devices used in your organization.
+You can install OneDrive on any supported device. For small businesses, manual installations typically make the most sense. For some devices, the installation process may be as simple as installing an app from the app store. For others, you may need to delete older versions of OneDrive first. This section walks you through the installation and configuration of OneDrive on iOS and Android mobile devices, Windows devices, and computers running macOS. You may not need to install OneDrive on all these platforms, depending on the devices used in your organization.
 
 Most small businesses start by installing the OneDrive sync client on users’ Windows and macOS devices, and then consider the OneDrive mobile apps afterwards. You don’t need to install and configure OneDrive on all your devices before you start using it.
+
+> [!VIDEO https://videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=RE2CvJE&AutoPlayVideo=false]
 
 ### Install and configure the sync client on a Windows device
 
@@ -130,6 +127,8 @@ FTo learn how to perform tasks in OneDrive on an iOS device, see [Use OneDrive f
 Many small businesses use OneDrive without changing any of the options.
 
 If want to add some basic device and sharing restrictions to OneDrive, you can use the OneDrive admin center. To access the new OneDrive admin center, go to <https://admin.onedrive.com>. There, you can restrict the people with whom your users can share files, choose the devices your employees can use to access OneDrive, and more.
+
+> [!VIDEO https://videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=RE2CnSt&AutoPlayVideo=false]
 
 Settings in the OneDrive admin center are grouped into six categories:
 
