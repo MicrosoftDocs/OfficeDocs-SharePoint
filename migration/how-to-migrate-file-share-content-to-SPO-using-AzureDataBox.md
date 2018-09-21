@@ -3,12 +3,10 @@ title: "How to migrate your file share content to SharePoint Online using the Az
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
-ms.date: 09/24/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
-
 description: ""
 ---
 
