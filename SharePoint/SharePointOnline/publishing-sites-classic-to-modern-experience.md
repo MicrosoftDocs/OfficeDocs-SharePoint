@@ -41,13 +41,13 @@ So, how you do move from publishing sites to communication sites? Here are some 
 
 Let’s say your organization has a publishing site for Human Resources, with subsites for Benefits, Policies, Training, and Careers. It might be organized like this:
 
-![](media/hierarchy.png)
+![Sites and subsites](media/hierarchy.png)
 
 Where Human Resources is your site collection that includes four subsites for Benefits, Policies, Training, and Careers.
 
 In the modern experience, you can use a Hub site to mimic the same structure while carrying design elements across related sites:
 
-![](media/hub.png)
+![Hub sites](media/hub.png)
 
 This structure is no longer hierarchical in the technical sense. Instead, it is a flat structure where each site is connected. In this scenario, each site can be a Communication site. But you can also include team sites for collaboration within the hub, while limiting their availability to the entire organization. With a hub site, you can:
 
@@ -80,7 +80,7 @@ When you [create a Communication site in SharePoint Online](https://support.offi
 
 -   **Blank** to create your own design.
 
-> ![](media/publishing-sites-classic-to-modern-experience_image3.png)
+> ![Types of communication sites](media/publishing-sites-classic-to-modern-experience_image3.png)
 
 If you want more customized branding and theming applied to each new site, you can use site designs with site scripts to provide custom configurations to apply when new sites are created. They can be used each time a new site is created to apply a consistent set of actions. Common site design actions typically affect the site itself, such as setting the theme or logo, creating lists, or configuration navigation. You can find more information on how to use site designs and scripts at [SharePoint site design and site script overview](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/site-design-overview).
 
@@ -94,11 +94,11 @@ Modern pages provide a fast, easy way to build responsive pages using the functi
 
 *Classic web part page*:
 
-![](media/publishing-sites-classic-to-modern-experience_image4.png)
+![Classic web part page](media/publishing-sites-classic-to-modern-experience_image4.png)
 
 *Modern web part page*:
 
-![](media/publishing-sites-classic-to-modern-experience_image5.png)
+![Modern page](media/publishing-sites-classic-to-modern-experience_image5.png)
 
 Pages are made up of a title area and sections. Sections can include a full-width column for full-bleed images or hero web parts, or up to three regular columns. You can add a variety of web parts to the page, and easily move them around on the page to get the look you want. Check out this short video to see how to create, layout, and publish a page:
 
@@ -107,11 +107,11 @@ Pages are made up of a title area and sections. Sections can include a full-widt
 
 Currently there are three basic out-of-box page templates available when you create a page within a Communication site, and additional new page designs are expected. Also coming is the ability to create your own page designs, while for now, you can create pages based on copies of your previously added and designed pages.
 
-![](media/publishing-sites-classic-to-modern-experience_image7.png)
+![Page templates](media/publishing-sites-classic-to-modern-experience_image7.png)
 
 **Publishing** On a classic publishing site, commands for Publish and Check in/Check out are available on the ribbon. In the modern experience, it is even easier for authors to discover how to edit and make their content visible with buttons to Edit, Save, and Publish right on the page. When a modern page is in edit mode, it is automatically checked out to the person who is editing. When a page is saved or published, it is automatically checked in. If someone has a page open for editing but hasn’t made any changes to it for at least 5 minutes, it is automatically saved and taken out of Edit mode so that others can access and edit the page.
 
-![](media/publishing-sites-classic-to-modern-experience_image8.png)
+![Publish button](media/publishing-sites-classic-to-modern-experience_image8.png)
 
 To learn more about how to create and edit pages, see [Add a page to a site](https://support.office.com/en-us/article/add-a-page-to-a-site-b3d46deb-27a6-4b1e-87b8-df851e503dec).
 
@@ -175,7 +175,7 @@ Built on modern pages and web parts, you can tell stories with rich, attractive 
 
 ### Where news can be distributed
 
-![](media/publishing-sites-classic-to-modern-experience_image9.png)
+![Places where news is shown](media/publishing-sites-classic-to-modern-experience_image9.png)
 
 News posts can be created from the SharePoint home page, from a team site or communication site, and from pages that have the News web part on them already. You can customize sources and layouts of news, and soon you’ll be able to organize and order news posts as well as target specific audiences for news.
 To learn more about how to create and share News, see [Create and share news on your SharePoint sites](https://support.office.com/article/create-and-share-news-on-your-sharepoint-sites-495f8f1a-3bef-4045-b33a-55e5abe7aed7).
