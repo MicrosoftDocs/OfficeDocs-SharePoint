@@ -23,7 +23,7 @@ As a search administrator, you can’t turn off neither classic nor modern searc
 
 Quickly gets you back to what you were doing. Even before you start typing, the search box suggests results based on your most recent work. As you type, the search box updates the suggestions.
 
-Helps you discover new information. Once you press Enter, all search result are presented. Based on your previous activity in Office 365, the search results page shows results in the order that's most relevant to you. For example, files by people you work with will typically rank higher than files by other people.
+Helps you discover new information. Once you press Enter, all search results are presented. Based on your previous activity in Office 365, the search results page shows results in the order that's most relevant to you. For example, files by people you work with will typically rank higher than files by other people.
 
 Lets you explore results without leaving search. You can for example browse through a presentation directly in the search results page and quickly assess if it's the right result.
 
@@ -31,7 +31,7 @@ The modern search results page is mobile friendly.
 
 Modern search offers a great experience without a search administrator configuring anything. [Learn more about the modern search experience for users](https://support.office.com/article/What-s-new-in-search-in-Office-365-b81ab573-ec9c-4aa9-a369-b3c630f878a7).
 
-We’ll continue to invest in modern search, but not in classic search. [Learn what’s coming next for modern search](http://aka.ms/MicrosoftSearch) .
+We’ll continue to invest in modern search, but not in classic search. [Learn what’s coming next for modern search](http://aka.ms/MicrosoftSearch).
 
 
 ## Planning modern search
