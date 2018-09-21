@@ -57,7 +57,7 @@ Download here: [SharePoint Migration Tool](http://spmtreleasescus.blob.core.wind
 
 5.	When prompted “Where is your data?” select File share. Enter the path to your Azure file share where your data is located.
 6.	Follow the remaining prompts as normal, including your target location. For more info see: [How to use the SharePoint Migration Tool](https://docs.microsoft.com/en-us/sharepointmigration/how-to-use-the-sharepoint-migration-tool). 
-7.	Migration speed can be impacted by several factors. Understanding these will help you plan and maximize the efficiency of your migration.  For more info, read:  [SharePoint Online and OneDrive Migration Speed](https://docs.microsoft.com/en-us/sharepointmigration/sharepoint-online-and-onedrive-migration-speed).
+
 
 > [!IMPORTANT]
 > “Should do” info as best practice; “must do” to complete task
