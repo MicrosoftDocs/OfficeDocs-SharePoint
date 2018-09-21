@@ -60,5 +60,6 @@ Download here: [SharePoint Migration Tool](http://spmtreleasescus.blob.core.wind
 7.	Migration speed can be impacted by several factors. Understanding these will help you plan and maximize the efficiency of your migration.  For more info, read:  [SharePoint Online and OneDrive Migration Speed](https://docs.microsoft.com/en-us/sharepointmigration/sharepoint-online-and-onedrive-migration-speed).
 
 > [!NOTE]
-> There is a risk of losing existing permissions on files when migration the data to SharePoint Online.  You may also lose certain metadata, such as “Created by” and “Date modified by”.
+> The speed at which data is ingested into SharePoint Online is impacted by several factors, regardless if you have your data already in Azure. Understanding these factors will help you plan and maximize the efficiency of your migration.  For more info, read:  [SharePoint Online and OneDrive Migration Speed](https://docs.microsoft.com/en-us/sharepointmigration/sharepoint-online-and-onedrive-migration-speed).<br><br>
+>There is a risk of losing existing permissions on files when migration the data to SharePoint Online.  You may also lose certain metadata, such as “Created by” and “Date modified by”.
 
