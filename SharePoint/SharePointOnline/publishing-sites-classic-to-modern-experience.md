@@ -33,9 +33,9 @@ So, how you do move from publishing sites to communication sites? Here are some 
 
 -   [Sharing news](#sharing-news)
 
--   [Permissions and sharing](#Users-and-permissions)
+-   [Permissions and sharing](#users-and-permissions)
 
--   [Audience targeting](#Audience-targeting)
+-   [Audience targeting](#audience-targeting)
 
 ## Structure and navigation – use a hub site
 
