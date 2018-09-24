@@ -25,6 +25,8 @@ This article is for IT admins managing the new OneDrive sync client in a Windows
   
 > [!NOTE]
 > If you're not an IT admin, see [Sync files with the new OneDrive sync client in Windows](https://support.office.com/article/615391c4-2bd3-4aae-a42a-858262e42a49) for info about OneDrive sync settings. 
+
+> [!VIDEO https://videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=RE2CnSx&AutoPlayVideo=false]
   
 ## Manage OneDrive using Group Policy
 
