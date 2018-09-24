@@ -3,7 +3,6 @@ title: "Redirect and move Windows known folders to OneDrive"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 06/28/2018
 ms.audience: Admin
 ms.topic: get-started-article
 ms.service: one-drive
@@ -37,7 +36,15 @@ The following Known Folder Move policies are rolling out. If you don't see them 
   
 - [Prompt users to move Windows known folders to OneDrive](use-group-policy.md#OptInWithWizard)
     
-    Use this policy to give users a call to action to move their Windows known folders. If users dismiss the prompt, a reminder notification will appear in the activity center until they move all known folders. If a user has already redirected their known folders to a different OneDrive account, they'll be prompted to direct the folders to the account for your organization (leaving existing files behind).
+    Use this policy to give users a call to action to move their Windows known folders. 
+
+    ![The window that prompts users to protect their important folders](media/protect-important-folders-gpo.png)
+
+    If users dismiss the prompt, a reminder notification will appear in the activity center until they move all known folders. 
+
+    ![The reminder notification to protect important folders](media/protect-important-folders-notification.png)
+
+    If a user has already redirected their known folders to a different OneDrive account, they'll be prompted to direct the folders to the account for your organization (leaving existing files behind).
     
     > [!NOTE]
     > Locally created OneNote files can't be moved to OneDrive using this policy. To learn how to move OneNote notebooks, see [Move a OneNote notebook to OneDrive](https://support.office.com/article/0af0a141-0bdf-49ab-9e50-45dbcca44082). 
