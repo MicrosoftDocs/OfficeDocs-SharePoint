@@ -370,7 +370,7 @@ Use the next procedure for the following scenarios:
 [Database types and descriptions in SharePoint Server](../technical-reference/database-types-and-descriptions.md)
 #### Other Resources
 
-[Quick reference guide: SharePoint Server 2016 databases](https://doc.co/qrafhS)
+[Quick reference guide: SharePoint Server 2016 databases](https://download.microsoft.com/download/D/5/D/D5DC1121-8BC5-4953-834F-1B5BB03EB691/DBrefguideSPS2016_tabloid.pdf)
   
 [Databases that support SharePoint 2013](https://go.microsoft.com/fwlink/p/?LinkId=257370)
   
