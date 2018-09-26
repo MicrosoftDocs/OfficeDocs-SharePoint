@@ -93,7 +93,7 @@ Before you begin this operation, review the steps in this process:
     
   - [Scenario 1](#PS): Use this procedure to update the database connections if you use SharePoint Server and SQL Server AlwaysOn Availability Groups for high availability or disaster recovery. 
     
-  - [Scenario 2](#Man): Use this procedure if you must use manual steps or if you move the databases from a SharePoint Server Single-server farm role installation to a new Single-server farm role installation.
+  - [Scenario 2](#MAN): Use this procedure if you must use manual steps or if you move the databases from a SharePoint Server Single-server farm role installation to a new Single-server farm role installation.
     
 9. Restart all services that you stopped in step 3.
     
