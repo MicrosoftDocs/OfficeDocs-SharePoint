@@ -377,7 +377,7 @@ For info about estimating the network bandwidth you need for the sync client and
 ### Coauthoring and in-app sharing for Office files
 <a name="EnableAllOcsiClients"> </a>
 
-This policy enables users to collaborate on documents in real time and share them from the Office 2016 and Office 2103 desktop apps. Enabling this policy sets the following registry key value to 1:
+This policy enables users to collaborate on documents in real time and share them from the Office 2016 desktop apps. Enabling this policy sets the following registry key value to 1:
   
 [HKCU\SOFTWARE\Policies\Microsoft\OneDrive] ﻿"EnableAllOcsiClients"="dword:00000001"
   
