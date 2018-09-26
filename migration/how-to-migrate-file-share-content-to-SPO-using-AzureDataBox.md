@@ -19,7 +19,6 @@ The Microsoft Azure Data Box is a service that lets you order a device from the 
 
 - Azure subscription:  Data Box is only available for Enterprise Agreement (EA), Cloud solution provider (CSP), or Pay-as-you-go subscription offers. If your subscription does not fall in any of the above types, contact Microsoft Support to upgrade your subscription or see [Azure subscription pricing](https://azure.microsoft.com/en-us/pricing/). 
 - The minimum requirements for the SharePoint Migration Tool are here: [How to use the SharePoint Migration Tool](https://docs.microsoft.com/en-us/sharepointmigration/how-to-use-the-sharepoint-migration-tool). 
-- [Sign up for Microsoft Azure Data Box](https://docs.microsoft.com/en-us/azure/databox/data-box-overview).
 - There is a nominal cost for the Azure Data Box.  For more information on the cost, see [Azure Data Box pricing](https://azure.microsoft.com/en-us/pricing/details/storage/databox/). 
 
 
