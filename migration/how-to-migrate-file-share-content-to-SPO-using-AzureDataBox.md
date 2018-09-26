@@ -21,7 +21,6 @@ The Microsoft Azure Data Box is a service that lets you order a device from the 
 - The minimum requirements for the SharePoint Migration Tool are here: [How to use the SharePoint Migration Tool](https://docs.microsoft.com/en-us/sharepointmigration/how-to-use-the-sharepoint-migration-tool). 
 - There is a nominal cost for the Azure Data Box.  For more information on the cost, see [Azure Data Box pricing](https://azure.microsoft.com/en-us/pricing/details/storage/databox/). 
 
-
 ## Workflow overview
 
 1.	Order Azure Data Box. 
@@ -44,7 +43,7 @@ Once your receive your Azure Data Box, follow the instructions detailed here:  [
 ## Migrating your data to SharePoint Online using SPMT
 After you receive confirmation from the Azure data team that your data copy has completed, you can now proceed to migrate your data to SharePoint Online.  For best performance and connectivity, we recommend that you create an Azure Virtual Machine (VM).
 
-1.	Sign into the Azure Portal, and then create a virtual machine.  Learn how:  [Quickstart: Create Windows virtual machine in the Azure portal](https://docs.microsoft.com/azure/virtual-machines/windows/quick-create-portal).
+1.	Sign into the Azure portal, and then create a virtual machine.  Learn how:  [Quickstart: Create Windows virtual machine in the Azure portal](https://docs.microsoft.com/azure/virtual-machines/windows/quick-create-portal).
 2.	[Mount the Azure file share onto that VM](https://docs.microsoft.com/en-us/azure/storage/files/storage-how-to-use-files-windows).
 3.	Download the SharePoint Migration tool and install it on your Azure VM. 
 Download here: [SharePoint Migration Tool](http://spmtreleasescus.blob.core.windows.net/install/default.htm).
