@@ -35,7 +35,7 @@ For these reasons, we recommend moving or redirecting known folders to OneDrive 
 To use the following Group Policy objects, you need the OneDrive sync build 18.111.0603.0004 or later. You can see your build number in the About tab in OneDrive settings. 
 
    > [!NOTE]
-   > Sync client features are rolled oug gradually. To try the latest features, join the [Windows Insider program](https://insider.windows.com/) or the [Office Insider](https://products.office.com/office-insider) program.
+   > Sync client features are rolled out gradually. To try the latest features, join the [Windows Insider program](https://insider.windows.com/) or the [Office Insider](https://products.office.com/office-insider) program.
   
 - [Prompt users to move Windows known folders to OneDrive](use-group-policy.md#OptInWithWizard)
     
