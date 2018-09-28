@@ -27,7 +27,7 @@ To view deleted sites in the new SharePoint admin center (preview), go to the cu
 ![Deleted sites in the new SharePoint admin center](media/b195b8c7-ee2b-4a02-92cb-ed61899edd24.png)
   
 > [!NOTE]
-> The new SharePoint admin center does not yet support deleting sites that belong to an Office 365 group, and these sites don't appear on the Deleted sites page. To delete and restore Office 365 groups (and the sites connected to them), go to the Microsoft 365 admin center. 
+> The new SharePoint admin center does not yet support deleting or restoring sites that belong to an Office 365 group. To delete or restore Office 365 groups (and the sites connected to them), go to the Microsoft 365 admin center. It might take a while for deleted group-connected team sites to appear on the Deleted sites page. 
 
 You can sort and filter deleted sites the same way you sort and filter sites on the Site management page. You can also sort and filter deleted sites by Time deleted.
   
@@ -35,7 +35,7 @@ You can sort and filter deleted sites the same way you sort and filter sites on 
 
 1. Select the site. 
     
-2. Click **Restore**. (If you don't see the Restore button, make sure only one site is selected. The button won't appear if multiple sites are selected.)
+2. Click **Restore**. (If you don't see the Restore button, make sure only one site is selected. The button won't appear if multiple sites are selected, or if a group-connected team site is selected.)
     
 For more info about the new SharePoint admin center, see [Get started with the new SharePoint admin center](get-started-new-admin-center.md).
   
