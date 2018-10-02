@@ -27,7 +27,7 @@ description: "Learn how to create and delete SharePoint Online site collections 
 
 # Create a site collection
 
-This article shows how Office 365 global admins and SharePoint admins can create classic SharePoint Online site collections from the Office 365 admin center.
+This article shows how Office 365 global admins and SharePoint admins can create classic SharePoint Online site collections from the Microsoft 365 admin center.
   
 > [!NOTE]
 > For info about creating new team sites that are connected to Office 365 groups and communication sites in the new SharePoint admin center preview, see [Manage sites in the new SharePoint admin center](manage-sites-in-new-admin-center.md). 
@@ -39,7 +39,7 @@ SharePoint Online has several templates for classic site collections. For exampl
   
 1. Sign in to Office 365 as a global admin or SharePoint admin.
     
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
 3. In the left pane, select **Resources**, and then select **Sites**.
     
@@ -47,7 +47,7 @@ SharePoint Online has several templates for classic site collections. For exampl
   
 4. Select **Add a site**.
     
-    ![Office 365 admin center create site collection](media/3026fd12-9d34-4948-a149-fcc8de7b7d83.png)
+    ![Microsoft 365 admin center create site collection](media/3026fd12-9d34-4948-a149-fcc8de7b7d83.png)
   
     > [!NOTE]
     > If you don't see the options above, select **Admin centers** \> **SharePoint** and then select **New** \> **Private Site Collection**. > ![Site Collection page with New selected](media/cf178205-b5bb-4152-a4c8-87d3099fc6ca.PNG)

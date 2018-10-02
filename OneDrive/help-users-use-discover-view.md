@@ -94,7 +94,7 @@ If users don't have any recently modified or viewed content in these content sou
     
 - Check the permission settings on the SharePoint Online sites and site collections to make sure that the user has access to the correct sites and their content.
     
-- Check that the user is in the Active Directory and that he or she is a member of the correct Active Directory groups. To verify, go to **Office 365 admin center** \> **Users** \> **Active Users**.
+- Check that the user is in the Active Directory and that he or she is a member of the correct Active Directory groups. To verify, go to **Microsoft 365 admin center** \> **Users** \> **Active Users**.
     
 - As an admin, you can allow your organization to access the Office Graph. This makes sure the Discover view shows the most relevant content to users. See [Control access to the Office Graph](https://support.office.com/article/54f87a42-15a4-44b4-9df0-d36287d9531b#BKMK_DelveOnOff) for more information. 
     

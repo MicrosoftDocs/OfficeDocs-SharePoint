@@ -30,7 +30,7 @@ We're continuously adding new features to the new SharePoint admin center (previ
   
 - Two charts, along with messages and service health filtered to SharePoint Online
     
-- Links to the Office 365 admin center for detailed reports, message center posts, and service health info
+- Links to the Microsoft 365 admin center for detailed reports, message center posts, and service health info
     
 - Links to the OneDrive admin center and classic SharePoint admin center
     

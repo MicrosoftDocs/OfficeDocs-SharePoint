@@ -12,7 +12,7 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: 81daca87-ef0c-4602-af89-9a749dbef377
-description: "This article explains how the SharePoint Online admin can monitor thigns like app usage and error information for the apps that are in use in a SharePoint Online environment."
+description: "This article explains how a SharePoint admin can monitor things like app usage and error information for the apps that are in use in a SharePoint Online environment."
 ---
 
 # Monitor apps for your SharePoint Online environment
@@ -24,7 +24,7 @@ As a SharePoint or global admin in Office 365, you can monitor information such 
 
 1. Sign in to Office 365 as a global admin or SharePoint admin.
     
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
 3. Select **Apps** on the left, and then select **Monitor Apps**.
     
@@ -37,7 +37,7 @@ As a SharePoint or global admin in Office 365, you can monitor information such 
 
 1. Sign in to Office 365 as a global admin or SharePoint admin.
     
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
 3. Select **Apps** on the left, and then select **Monitor Apps**.
     
