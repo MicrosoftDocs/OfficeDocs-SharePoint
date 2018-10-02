@@ -34,6 +34,7 @@ After you set the organization-wide sharing settings for SharePoint and OneDrive
 
 6. Select a new external sharing level, and then click **Save**.
 
-
+> [!NOTE]
+> You can also change the external sharing setting for a specific OneDrive user by using Microsoft PowerShell and running the cmdlet Set-SPOSite with the parameter -SharingCapability. For more info, see [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite).
     
 
