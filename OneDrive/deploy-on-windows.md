@@ -56,13 +56,16 @@ To set registry keys on computers in your domain, install OneDrive and copy the 
 
   
 4. Copy the installer to a folder in the SCCM source content share. 
+
 5. In SCCM, select the **Software Library** workspace. Under **Application Management**, right-click **Applications**, and then select **Import Application**. 
 
 ![](media/deploy-onedrive-enterprise_image6.png)
 
-7. Select the sample package.
-8. Select the **Deployment Types** tab on the bottom of SCCM, right-click the deployment, and edit the properties to update the **Content location**.
-9. Right-click the package, select **Deploy**, and follow the steps in the Deploy Software Wizard.
+6. Select the sample package.
+
+7. Select the **Deployment Types** tab on the bottom of SCCM, right-click the deployment, and edit the properties to update the **Content location**.
+
+8. Right-click the package, select **Deploy**, and follow the steps in the Deploy Software Wizard.
 
 
 If you don't use the sample package, run the following command using System Center Configuration Manager:
@@ -142,9 +145,12 @@ You can use System Center Configuration Manager to deploy apps to mobile devices
 ### Deploy the OneDrive app for iOS
 
 1. In SCCM, on the Home ribbon, select **Create Application**.
+
 2. In the **Type** box, select **App Package for iOS from App Store**.
+
 3. In the **Location** box, enter the app store URL, https://itunes.apple.com/us/app/onedrive/id823766827?mt=12.
- ![](media/deploy-onedrive-enterprise_image4.png)
+ 
+![](media/deploy-onedrive-enterprise_image4.png)
 
 4. Target the app to users. 
 
@@ -153,13 +159,16 @@ For more info, see [Create iOS applications with System Center Configuration Man
 ### Deploy the OneDrive app for Android
 
 1. In SCCM, on the Home ribbon, select **Create Application**.
+
 2. In the **Type** box, select **App Package for Android on Google Play**.
+
 3. In the **Location** box, enter the app store URL, https://play.google.com/store/apps/details?id=com.microsoft.skydrive&hl=en
 
 ![](media/deploy-onedrive-enterprise_image5.png)
+
 4. Target the app to users.
 
-For more info, see [Create Android applications with System Center Configuration Manager](/sccm/mdm/deploy-use/creating-android-applications/), 
+For more info, see [Create Android applications with System Center Configuration Manager](/sccm/mdm/deploy-use/creating-android-applications/). 
 
 
 ## See also
