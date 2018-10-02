@@ -13,11 +13,11 @@ ms.assetid: c77f5006-d023-463f-8256-e4570d32dd1e
 description: "Summary: Learn how to configure server-to-server authentication when you share service applications across SharePoint Server 2016 and SharePoint 2013 publishing and consuming farms."
 ---
 
-# Configure server-to-server authentication between publishing and consuming farms
+# Configure OAuth when User Profile Service Application is published
 
- **Summary:** Learn how to configure server-to-server authentication when you share service applications across SharePoint Server 2016 and SharePoint 2013 publishing and consuming farms. 
+ **Summary:** Learn how to configure OAuth when you share service applications across SharePoint Server 2016 and SharePoint 2013 publishing and consuming farms. 
   
-To enable a web application or an application service to request a resource from a web application on another farm on behalf of a user, you must configure server-to-server authentication between the farms. A few examples of SharePoint Server processes that use server-to-server authentication are as follows:
+When a farm consumes the User Profile Service Application of another farm, it will issue requests using OAuth protocol on behalf of the user for some features:
   
 - Follow a document on a Team Sites web application when a user's personal site is located on a My Sites web application. The Team Sites web application makes a request of the My Sites web application on behalf of the user.
     
@@ -37,10 +37,6 @@ To understand the procedures in this article, you should be familiar with the ba
   
 [Plan for server-to-server authentication in SharePoint Server](../security-for-sharepoint-server/plan-server-to-server-authentication.md)
 
-> [!IMPORTANT]
-> If your consuming farm has web applications that are configured or registered to a Workflow Manager, when you set a Realm value, you will need to register the Workflow Manager with the SharePoint farm. Use the PowerShell [Register-SPWorkflowService](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/register-spworkflowservice?view=sharepoint-ps) cmdlet to do this. 
-
-> For more information about setting a Realm value and registering a Workflow Manager with a SharePoint farm, see [Fix the HTTP 401 error with provider-hosted add-ins and issues with workflow and cross farm trust scenarios in SharePoint](https://support.microsoft.com/en-us/help/4010011/provider-hosted-add-ins-stop-working-and-http-401-error) and [Move Workflow Manager to a new farm in a new domain](https://sharepoint.stackexchange.com/questions/132524/move-workflow-manager-to-new-farm-in-a-new-domain).
   
 ## Configure server-to-server authentication between publishing and consuming farms
 <a name="begin"> </a>
@@ -48,8 +44,6 @@ To understand the procedures in this article, you should be familiar with the ba
 The following procedure describes how to configure server-to-server authentication between the publishing and consuming farms.
   
  **To configure server-to-server authentication between publishing and consuming farms**
-  
-1. Choose a realm name that will be common to both farms.
     
 2. Verify that you are a member of the Administrators group on the server on which you are running PowerShell cmdlets.
     
