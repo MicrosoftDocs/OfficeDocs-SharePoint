@@ -52,7 +52,7 @@ Here are some of the key tasks users can do when they are assigned to the ShareP
 - [Manage SharePoint Online user profiles](manage-user-profiles.md)
     
 > [!TIP]
-> When you assign someone the SharePoint admin role, you may also want to assign them to Service administrator role. This way they can see important information in the Office 365 admin center, such as the health of the SharePoint Online service, and change and release notifications. 
+> When you assign someone the SharePoint admin role, you may also want to assign them to Service administrator role. This way they can see important information in the Microsoft 365 admin center, such as the health of the SharePoint Online service, and change and release notifications. 
   
 ## See also
 <a name="BK_KeyTasks"> </a>

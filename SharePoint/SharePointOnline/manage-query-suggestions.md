@@ -32,7 +32,7 @@ Query suggestions are turned on by default. To turn them off, go to **Search Sug
 ## To create query suggestions in SharePoint search
 <a name="__toc343004643"> </a>
 
-1. Sign in to the Office 365 Admin Center as a search administrator.
+1. Sign in to the Microsoft 365 Admin Center as a search administrator.
     
 2. Choose **Admin** \> **SharePoint** \> **search** \> **Query Suggestion Settings**.
     
