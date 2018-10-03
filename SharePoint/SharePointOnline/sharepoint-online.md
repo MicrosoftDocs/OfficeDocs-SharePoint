@@ -137,7 +137,7 @@ Help your users share, organize, and discover information with SharePoint.
                 <div class="card">
                     <div class="cardText">
                         <h3>Share and work together</h3>
-                        <p><a href="/sharepoint/turn-external-sharing-on-or-off">Turn external sharing on or off </a></p><p><a href="/sharepoint/manage-site-creation">Manage site creation </a></p><p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/sharepoint-onedrive-interact">How SharePoint interacts with Teams </a></p><p><a href="">Administer OneDrive</a></p>
+                        <p><a href="/sharepoint/turn-external-sharing-on-or-off">Turn external sharing on or off </a></p><p><a href="https://support.office.com/article/7266f44e-3e06-4736-b9d3-0580c24bba34">Securely share files with customers </a></p><p><a href="/sharepoint/manage-site-creation">Manage site creation </a></p><p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/sharepoint-onedrive-interact">How SharePoint interacts with Teams </a></p><p><a href="">Administer OneDrive</a></p>
                     </div>
                 </div>
             </div>
@@ -149,7 +149,7 @@ Help your users share, organize, and discover information with SharePoint.
                 <div class="card">
                     <div class="cardText">
                         <h3>Inform and engage</h3>
-                        <p><a href="/sharepoint/planning-hub-sites">Plan your hub sites</a></p><p><a href="/sharepoint/create-hub-site">Create a hub site</a></p><p><a href="/sharepoint/change-links-list-on-sharepoint-home-page">Change the links list</a></p><p><a href="https://support.office.com/article/e1464355-1f97-49ac-b2aa-dd320b179dbe">Admin help for Yammer</a></p>
+                        <p><a href="/sharepoint/guide-to-sharepoint-modern-experience">Modern intranet</a></p><p><a href="/sharepoint/planning-hub-sites">Plan your hub sites</a></p><p><a href="/sharepoint/create-hub-site">Create a hub site</a></p><p><a href="/sharepoint/change-links-list-on-sharepoint-home-page">Change the links list</a></p><p><a href="https://support.office.com/article/e1464355-1f97-49ac-b2aa-dd320b179dbe">Admin help for Yammer</a></p>
                     </div>
                 </div>
             </div>

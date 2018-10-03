@@ -42,21 +42,21 @@ Note:
   
 ﻿The intra-farm latency of \<1 ms one way, 99,9% of the time over a period of ten minutes is also required for SharePoint environments with servers that are located in the same datacenter. The bandwidth speed should also be in this case at least 1 gigabit per second.
   
-## Hardware requirements: Web servers, application servers, and MinRole installations
+## Hardware requirements: SharePoint server installations
 <a name="hwforwebserver"> </a>
 
-The values in the following table are minimum values for installations on a web and application servers that are running SharePoint Server 2016 in a multiple server farm installation.
+The following table lists minimum hardware requirements for installing and running SharePoint Server 2016 in a multiple server farm installation.
   
 For all installation scenarios, you must have sufficient hard disk space for the base installation and sufficient space for diagnostics such as logging, debugging, creating memory dumps, and so on. For production use, you must also have additional free disk space for day-to-day operations. In addition, maintain two times as much free space as you have RAM for production environments.
   
-For information about hardware and software requirements for Microsoft SQL Server 2014, see [Hardware and Software Requirements for Installing SQL Server 2014](https://technet.microsoft.com/en-us/library/ms143506%28v=sql.120%29.aspx).
+For information about hardware and software requirements for Microsoft SQL Server 2014, see [Hardware and Software Requirements for Installing SQL Server 2014](https://technet.microsoft.com/library/ms143506%28v=sql.120%29.aspx).
   
 |**Installation scenario**|**Deployment type and scale**|**RAM**|**Processor**|**Hard disk space**|
 |:-----|:-----|:-----|:-----|:-----|
 |Single server role that uses SQL Server  <br/> |Development or evaluation installation of SharePoint Server 2016 with the minimum recommended services for development environments. Use the Single-Server farm role that will let you choose which service applications to provision. For additional information on Single-Server farm role, see [Overview of MinRole Server Roles in SharePoint Server 2016](overview-of-minrole-server-roles-in-sharepoint-server.md) <br/> |16 GB  <br/> |64-bit, 4 cores  <br/> |80 GB for system drive  <br/> 100 GB for second drive  <br/> |
 |Single server role that uses SQL Server  <br/> |Pilot or user acceptance test installation of SharePoint Server 2016 running all available services for development environments.  <br/> |24 GB  <br/> |64-bit, 4 cores  <br/> |80 GB for system drive  <br/> 100 GB for second drive and additional drives  <br/> |
-|Web server or application server in a three-tier farm  <br/> |Development or evaluation installation of SharePoint Server 2016 with a minimum number of services.  <br/> |12 GB  <br/> |64-bit, 4 cores  <br/> |80 GB for system drive  <br/> 80 GB for second drive  <br/> |
-|Web server or application server in a three-tier farm  <br/> |Pilot, user acceptance test, or production deployment of SharePoint Server 2016 running all available services.  <br/> |16 GB  <br/> |64-bit, 4 cores  <br/> |80 GB for system drive  <br/> 80 GB for second drive and additional drives  <br/> |
+|SharePoint server in a multiple server farm  <br/> |Development or evaluation installation of SharePoint Server 2016 with a minimum number of services.  <br/> |12 GB  <br/> |64-bit, 4 cores  <br/> |80 GB for system drive  <br/> 80 GB for second drive  <br/> |
+|SharePoint server in a multiple server farm  <br/> |Pilot, user acceptance test, or production deployment of SharePoint Server 2016 running all available services.  <br/> |16 GB  <br/> |64-bit, 4 cores  <br/> |80 GB for system drive  <br/> 80 GB for second drive and additional drives  <br/> |
    
 ## Deployment requirements: Farm Topology
 <a name="hwforwebserver"> </a>
@@ -73,7 +73,7 @@ The requirements in the following section apply to the following installations:
 - Server farm with multiple servers in the farm
     
 > [!NOTE]
-> Before you install the prerequisite installer, you need to install [Windows RT 8.1, Windows 8.1, and Windows Server 2012 R2 update: April 2014](https://support.microsoft.com/en-us/kb/2919355). The SharePoint prerequisite installer does not install this update for you. 
+> Before you run the SharePoint prerequisite installer on Windows Server 2012 R2, you need to install [Windows RT 8.1, Windows 8.1, and Windows Server 2012 R2 update: April 2014](https://support.microsoft.com/kb/2919355). The SharePoint prerequisite installer does not install this update for you. 
   
 > [!NOTE]
 > SharePoint Server 2016 supports drives that are formatted with the Resilient File System (ReFS). For additional information about ReFs, see [Resilient File System Overview](https://go.microsoft.com/fwlink/p/?LinkId=618431) and [Resilient File System](https://go.microsoft.com/fwlink/p/?LinkId=618432)
@@ -104,7 +104,7 @@ One of the following:
 > To take advantage of any BI scenarios, you must have the latest Powerview and PowerPivot add-ins for Microsoft SQL Server 2016 RTM. To download the PowerPivot add-ins see, [Microsoft® SQL Server® 2016 PowerPivot® for Microsoft SharePoint® 2016](https://go.microsoft.com/fwlink/?LinkID=716860)
   
 > [!NOTE]
-> SQL Server Express is not supported. SQL Azure (the SaaS service) is also not supported for any SharePoint databases 
+> SQL Server Express is not supported. SQL Azure (the SaaS service) is also not supported for any SharePoint databases.
   
 One of the following server operating systems:
   
@@ -112,6 +112,8 @@ One of the following server operating systems:
     
 - Windows Server 2016 Standard or Datacenter
     
+- Windows Server 2019 Standard or Datacenter
+
 #### Minimum requirements for SharePoint servers in a farm
 
 One of the following server operating systems:
@@ -119,13 +121,18 @@ One of the following server operating systems:
 - Windows Server 2012 R2 Standard or Datacenter
     
 - Windows Server 2016 Standard or Datacenter
+
+- Windows Server 2019 Standard or Datacenter
     
 > [!NOTE]
-> We don't support installing the Office 2016 client and SharePoint Server 2016 on the same computer. 
+> Installing the Office 2016 client and SharePoint Server 2016 on the same computer is not supported.
   
 > [!NOTE]
-> SharePoint Server 2016 only supports the "Server with Desktop Experience" installation option of Windows Server 2016. For additional information about Windows Server offerings, see [Windows Server Semi-annual Channel Overview](https://docs.microsoft.com/en-us/windows-server/get-started/semi-annual-channel-overview)
-  
+> SharePoint Server 2016 only supports the "Server with Desktop Experience" installation option of Windows Server 2016 and Windows Server 2019. For additional information about Windows Server offerings, see [Windows Server Semi-annual Channel Overview](https://docs.microsoft.com/windows-server/get-started/semi-annual-channel-overview)
+
+> [!NOTE]
+> SharePoint Server 2016 supports Windows Server 2019 starting with the [Security Update for Microsoft SharePoint Enterprise Server 2016 (KB4011244)](https://support.microsoft.com/help/4011244/descriptionofthesecurityupdateforsharepointserver2016november14-2017), also known as the November 2017 Public Update for SharePoint Server 2016.  This update (or a newer Public Update for SharePoint Server 2016) must be installed before you can create a new SharePoint farm or join a server to an existing SharePoint farm using Windows Server 2019.
+
 The Microsoft SharePoint Products Preparation Tool installs the following prerequisites on SharePoint servers in a farm:
   
 - Web Server (IIS) role

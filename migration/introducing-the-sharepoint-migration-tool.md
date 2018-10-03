@@ -22,6 +22,8 @@ description: ""
 
 >[!NOTE]
 >Version 2 is available for download here: [SharePoint Migration Tool Version 2](http://spmtreleasescus.blob.core.windows.net/install/default.htm).  For more information on this release:  [SharePoint Migration Tool new features](https://blogs.technet.microsoft.com/wbaer/2018/04/11/sharepoint-migration-tool-beta-adds-early-preview-capabilities).<br/><br/>
+>Currently the SharePoint Migration Tool Version 2 only supports migrations from SharePoint Server 2013 to SharePoint Online.
+>
 >If you prefer using PowerShell, all SPMT functionality is supported. For more information see: [Migrate to SharePoint Online using PowerShell](https://docs.microsoft.com/en-us/sharepointmigration/overview-spmt-ps-cmdlets).
 >
 >Currently the **SharePoint Migration Tool** is not available for users of Office 365 operated by 21Vianet in China or for users of Office 365 Germany.

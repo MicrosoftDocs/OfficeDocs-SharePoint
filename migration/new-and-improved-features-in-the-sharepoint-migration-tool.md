@@ -16,7 +16,6 @@ Learn about the new features and updates to existing features in SharePoint Migr
   
 >[!NOTE]
 >To install the current release download here: [SharePoint Migration Tool](http://spmtreleasescus.blob.core.windows.net/install/default.htm)
-  
 
 ### SPMT V2.1.101.6
 

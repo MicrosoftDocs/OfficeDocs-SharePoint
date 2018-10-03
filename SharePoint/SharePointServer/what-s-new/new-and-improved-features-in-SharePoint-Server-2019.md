@@ -121,7 +121,7 @@ The SharePoint home  page is a modern UI experience that gives users unified acc
 
 The SharePoint home page is also the launching point for users to create new, modern sites on a self-service basis. 
 
-You can reach the SharePoint home page by clicking on the "Sites" icon in the SharePoint app launcher. The SharePoint home page replaces the old sites.aspx experience.
+You can reach the SharePoint home page by clicking on the "SharePoint" icon in the SharePoint app launcher. The SharePoint home page replaces the old sites.aspx experience.
 
 ### From the SharePoint home page, you can create sites in different web applications
 
@@ -254,4 +254,5 @@ Customers can opt in and opt out of the telemetry experience at any time.
 ## Related Topics
 
 [What is SharePoint?](https://support.office.com/en-us/article/What-is-SharePoint-97b915e6-651b-43b2-827d-fb25777f446f?ui=en-US&amp;rs=en-US&amp;ad=US)
+
 [New development capabilities for SharePoint 2019](https://docs.microsoft.com/en-us/sharepoint/dev/general-development/sharepoint-2019-development-platform)

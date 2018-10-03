@@ -3,7 +3,6 @@ title: "Manage sharing in OneDrive and SharePoint"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 06/29/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: one-drive
@@ -21,10 +20,10 @@ description: "Learn how to use the OneDrive admin center to control sharing sett
 
 As a global admin or SharePoint admin in Office 365, you can use the OneDrive admin center to control how sharing works at the organization level in OneDrive and SharePoint Online. Because each OneDrive is a site collection within SharePoint, your organization's SharePoint settings and OneDrive settings are related.
   
-If you're looking for info about how to share a file or folder in OneDrive, see [Share OneDrive files and folders](https://support.office.com/article/9fcc2f7d-de0c-4cec-93b0-a82024800c07#BKMK_BusinessTab).
+To learn how to change the external sharing setting of an individual user's OneDrive, see [Change the external sharing setting for a user's OneDrive](user-external-sharing-settings.md). For info about how to share a file or folder in OneDrive, see [Share OneDrive files and folders](https://support.office.com/article/9fcc2f7d-de0c-4cec-93b0-a82024800c07#BKMK_BusinessTab).
   
 > [!NOTE]
-> Some sharing settings exist in multiple admin centers. When you change them in one place, the other admin centers will reflect the change. If you have multiple admins in your organization, make sure you communicate the changes you're making. In the Office 365 admin center, under **Settings** \> **Services &amp; add-ins**\> **Sites**, the External sharing setting is the same as the SharePoint external sharing setting in the OneDrive admin center. The Sharing page in the OneDrive admin center and the [in the classic SharePoint admin center](https://support.office.com/article/6288296a-b6b7-4ea4-b4ed-c297bf833e30#ID0EAABAAA=Tenant_%28global%29) control the same settings. 
+> Some sharing settings exist in multiple admin centers. When you change them in one place, the other admin centers will reflect the change. If you have multiple admins in your organization, make sure you communicate the changes you're making. In the Microsoft 365 admin center, under **Settings** \> **Services &amp; add-ins**\> **Sites**, the External sharing setting is the same as the SharePoint external sharing setting in the OneDrive admin center. The Sharing page in the OneDrive admin center and the [in the classic SharePoint admin center](https://support.office.com/article/6288296a-b6b7-4ea4-b4ed-c297bf833e30#ID0EAABAAA=Tenant_%28global%29) control the same settings. 
   
 ## Change your sharing link settings
 <a name="defaultlink"> </a>
@@ -57,13 +56,13 @@ If your external sharing setting for SharePoint is set to allow shareable links 
 
 By default, users are allowed to share files in OneDrive and SharePoint with anyone using links that don't require sign-in. If you want to change this, it's best to do it first before you customize your link settings. Keep the following in mind as you configure sharing for OneDrive.
   
-- The external sharing setting for SharePoint can be ** *more* ** permissive than what you allow in OneDrive, but not ** *less* ** permissive. If you turn off external sharing for SharePoint in your organization, you can't turn it on for OneDrive. 
+- The external sharing setting for SharePoint can be **more** permissive than what you allow in OneDrive, but not **less** permissive. If you turn off external sharing for SharePoint in your organization, you can't turn it on for OneDrive. 
     
 - If you want to allow external file sharing on any sites, you need to turn it on globally (at the organization level). You can then turn it off for all other site collections.
     
 - If you turn off external sharing, any links shared externally will stop working. If you later turn it back on, the links will resume working.
     
- **To configure sharing for OneDrive**
+ **To configure external sharing for OneDrive**
   
 1. Open the [OneDrive admin center](https://admin.onedrive.com/?v=SharingSettings), and click the **Sharing** tab. 
     
