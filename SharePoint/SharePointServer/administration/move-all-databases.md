@@ -93,7 +93,7 @@ Before you begin this operation, review the steps in this process:
     
   - [Scenario 1](#PS): Use this procedure to update the database connections if you use SharePoint Server and SQL Server AlwaysOn Availability Groups for high availability or disaster recovery. 
     
-  - [Scenario 2](#Man): Use this procedure if you must use manual steps or if you move the databases from a SharePoint Server Single-server farm role installation to a new Single-server farm role installation.
+  - [Scenario 2](#MAN): Use this procedure if you must use manual steps or if you move the databases from a SharePoint Server Single-server farm role installation to a new Single-server farm role installation.
     
 9. Restart all services that you stopped in step 3.
     
@@ -370,7 +370,7 @@ Use the next procedure for the following scenarios:
 [Database types and descriptions in SharePoint Server](../technical-reference/database-types-and-descriptions.md)
 #### Other Resources
 
-[Quick reference guide: SharePoint Server 2016 databases](https://doc.co/qrafhS)
+[Quick reference guide: SharePoint Server 2016 databases](https://download.microsoft.com/download/D/5/D/D5DC1121-8BC5-4953-834F-1B5BB03EB691/DBrefguideSPS2016_tabloid.pdf)
   
 [Databases that support SharePoint 2013](https://go.microsoft.com/fwlink/p/?LinkId=257370)
   

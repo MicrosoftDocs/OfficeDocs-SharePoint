@@ -59,7 +59,7 @@ The SharePoint Server 2016 application is built on the SQL Server database engin
 |Service application  <br/> |Databases for service applications store the data that service applications use.  <br/> |
    
 For a full list of all of the databases that support SharePoint Server 2016, see [Database types and descriptions in SharePoint Server](../technical-reference/database-types-and-descriptions.md). For a graphical representation of the databases that support SharePoint Server 2016, see the SharePoint Server 2016 database poster as either a [PDF](https://download.microsoft.com/download/D/5/D/D5DC1121-8BC5-4953-834F-1B5BB03EB691/DBrefguideSPS2016_tabloid.pdf) or [Visio](https://download.microsoft.com/download/D/5/D/D5DC1121-8BC5-4953-834F-1B5BB03EB691/DBrefguideSPS2016_tabloid.vsdx) file. 
-  
+
 ## Working with the SQL Server databases that support SharePoint Server 2016
 <a name="sec2"> </a>
 

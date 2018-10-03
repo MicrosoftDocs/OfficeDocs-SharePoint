@@ -94,9 +94,9 @@ You can configure the user accounts for the object cache by the the SharePoint C
     
   -  _\<WebApplication\>_ is the name of the web application to which the accounts will be added. 
     
-  -  _\<SuperUser\>_ is the account to use for the Portal Super User account as you saw it displayed in the **User Column** field mentioned in Step 14 of the previous procedure. 
+  -  _\<SuperUser\>_ is the account to use for the Portal Super User account as you saw it displayed in the **User Name** column  mentioned in Step 11 of the previous procedure. 
     
-  -  _\<SuperReader\>_ is account to use for the Portal Super Reader account as you saw it displayed in the **User Column** field mentioned in Step 14 of the previous procedure. 
+  -  _\<SuperReader\>_ is account to use for the Portal Super Reader account as you saw it displayed in the **User Name** column  mentioned in Step 11 of the previous procedure. 
     
 4. Save the file, naming it SetUsers.ps1.
     
