@@ -47,11 +47,11 @@ Verify that you are a member of the Administrators group on the servers on which
 ## Configure server-to-server authentication between publishing and consuming farms
 <a name="begin"> </a>
 
-The following procedure describes how to configure server-to-server authentication and just grant the required permissions to allow workloads to work. Each farm will keep its own authentication realm.
+The following procedure describes how to configure server-to-server authentication and grant just the necessary permissions to allow social features to work. Each farm keeps its own, unique authentication realm.
 
 ### Authorize consuming farm to send OAuth requests to the publishing farm
 
-1. In a SharePoint server in the publishing farms, start the SharePoint Management Shell.
+1. In a SharePoint server in the publishing farm, start the SharePoint Management Shell.
 
 2. Register the consuming farm as a trusted issuer:
 
