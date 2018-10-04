@@ -20,11 +20,10 @@ description: "Summary: Learn how to configure server-to-server authentication wh
 When a farm consumes the User Profile service application of a publishing farm, SharePoint issues requests using Server-to-Server authentication on behalf of the user for some features:
   
 - Follow a document on a content web application when a user's personal site is located on a web application in an external farm. The content web application makes a OAuth request to the My Sites web application on behalf of the user.
-    
-- Create or reply to a site feed post for a site that is located on a content web application but performed through the user's My Site Newsfeed on the My Sites web application. The My Sites web application will make a request of the Team Sites web application on behalf of the user to write the post or the reply.
-    
-- A User Profile Service application task to repopulate the feed cache has to read from the personal site or team site. If the User Profile Service application is running in a different farm, the User Profile Service application sends a request to the My Sites web application or Team Sites web application to read the user or site feed data into the cache.
 
+- Create or reply to a site feed post for a site that is located on a content web application but performed through the user's My Site Newsfeed on the My Sites web application. The My Sites web application will make a request of the Team Sites web application on behalf of the user to write the post or the reply.
+
+- A User Profile Service application task to repopulate the feed cache has to read from the personal site or team site. If the User Profile Service application is running in a different farm, the User Profile Service application sends a request to the My Sites web application or Team Sites web application to read the user or site feed data into the cache.
   
 ## Before you begin
 <a name="begin"> </a>
@@ -38,13 +37,10 @@ To understand the procedures in this article, you should be familiar with the ba
 [Plan for server-to-server authentication in SharePoint Server](../security-for-sharepoint-server/plan-server-to-server-authentication.md)
 
 Verify that you are a member of the Administrators group on the servers on which you are running PowerShell cmdlets.
-    
-  - **Securityadmin** fixed server role on the SQL Server instance. 
-    
-  - **db_owner** fixed database role on all databases that are to be updated. 
-    
-    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
-    
+
+  - **Securityadmin** fixed server role on the SQL Server instance.
+  - **db_owner** fixed database role on all databases that are to be updated.
+    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets.  
     > [!NOTE]
     > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
 
@@ -58,6 +54,7 @@ The following procedure describes how to configure server-to-server authenticati
 1. In a SharePoint server in the publishing farms, start the SharePoint Management Shell.
 
 2. Register the consuming farm as a trusted issuer:
+
 ```powershell
 New-SPTrustedSecurityTokenIssuer -MetadataEndpoint "https://<ConsumeHostName>/_layouts/<15or16>/metadata/json/1" -Name "<ConsumeFriendlyName>"
 ```
@@ -65,7 +62,7 @@ New-SPTrustedSecurityTokenIssuer -MetadataEndpoint "https://<ConsumeHostName>/_l
     > [!NOTE]
     > This assumes that you already added the root certificate of the consuming farm to the trusted root authorities as explained in article [Exchange trust certificates between farms in SharePoint Server](/exchange-trust-certificates-between-farms).
 
-3.Get the app principal and set required authorizations:
+3. Get the app principal and set required authorizations:
 
 ```powershell
 # Get the app principal and set required authorizations
@@ -96,7 +93,7 @@ $trustedIssuer = New-SPTrustedSecurityTokenIssuer -MetadataEndpoint "https://<Pu
     > [!NOTE]
     > This assumes that you already added the root certificate of the consuming farm to the trusted root authorities as explained in article [Exchange trust certificates between farms in SharePoint Server](/exchange-trust-certificates-between-farms).
 
-3.Get the app principal and set required authorizations:
+3. Get the app principal and set required authorizations:
 
 ```powershell
 # Get the app principal
@@ -115,9 +112,10 @@ $mgr.AddSiteSubscriptionPermission($appPrincipal, $privateAPITypeId, [Microsoft.
 ## See also
 <a name="begin"> </a>
 
-#### Concepts
+### Concepts
 
 [Share service applications across farms in SharePoint Server](share-service-applications-across-farms.md)
-#### Other Resources
+
+### Other Resources
   
 [New-SPTrustedSecurityTokenIssuer](http://technet.microsoft.com/library/9ab7aac9-4c9a-4cba-8dd6-ffead217c2fa.aspx)
