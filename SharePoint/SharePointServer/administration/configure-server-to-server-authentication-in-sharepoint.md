@@ -82,7 +82,7 @@ $mgr.AddSiteSubscriptionPermission($appPrincipal, $socialPermissionProviderId, [
 
 ### Authorize publishing farm to send OAuth requests to the consuming farm
 
-1. In a SharePoint server in the publishing farms, start the SharePoint Management Shell.
+1. In a SharePoint server in the consuming farm, start the SharePoint Management Shell.
 
 2. Register the farm running User Profile service application as a trusted issuer:
 
