@@ -97,10 +97,6 @@ Modern team sites bring a fresh and responsive user experience to team collabora
 
 SharePoint Server 2019 Public Preview will continue to support creating classic team sites.
 
-### PDF Viewer
-
-SharePoint Server 2019 Public Preview can now render PDF documents on the server. Users no longer need to rely on a PDF viewer client application.
-
 ### SharePoint using modern Internet Information Services (IIS) APIs
 
 SharePoint has modernized its integration with IIS by removing all of our dependencies on the legacy IIS6 APIs.  SharePoint now uses the IIS7+ APIs to manage IIS, which are the latest and best supported APIs from the IIS team.  This allows us to more easily adopt new IIS features and stay compatible with future Windows Server releases.
@@ -119,7 +115,7 @@ The SharePoint home  page is a modern UI experience that gives users unified acc
 
 The SharePoint home page is also the launching point for users to create new, modern sites on a self-service basis. 
 
-You can reach the SharePoint home page by clicking on the "Sites" icon in the SharePoint app launcher. The SharePoint home page replaces the old sites.aspx experience.
+You can reach the SharePoint home page by clicking on the "SharePoint" icon in the SharePoint app launcher. The SharePoint home page replaces the old sites.aspx experience.
 
 ### From the SharePoint home page, you can create sites in different web applications
 

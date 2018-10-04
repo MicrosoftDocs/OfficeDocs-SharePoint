@@ -168,7 +168,7 @@ Help your users store, sync, and share work files in the cloud with OneDrive.
 <p>The OneDrive admin center helps you quickly and easily manage your organization's OneDrive for Business settings in one place.</p>
 <p>To access the OneDrive admin center:</p>
 
-- From the Office 365 admin center, click **Admin centers** in the left pane, and then click **OneDrive**.
+- From the Microsoft 365 admin center, click **Admin centers** in the left pane, and then click **OneDrive**.
     
 - From your own OneDrive, click **OneDrive Admin** in the lower-left corner
     
@@ -179,4 +179,4 @@ Help your users store, sync, and share work files in the cloud with OneDrive.
 > [!IMPORTANT]
 > To use the OneDrive admin center, you must allow access to onedrive.com. You must also be a global admin for your organization, or a custom admin with the SharePoint administrator role. 
 > [!TIP]
-> To access a user's OneDrive, open the Office 365 admin center, go to **Active users**, select the user, expand **OneDrive Settings** in the user details pane, and then click **Access files**.
+> To access a user's OneDrive, open the Microsoft 365 admin center, go to **Active users**, select the user, expand **OneDrive Settings** in the user details pane, and then click **Access files**.

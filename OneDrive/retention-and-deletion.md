@@ -3,7 +3,6 @@ title: "OneDrive retention and deletion"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 05/21/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: one-drive
@@ -21,7 +20,7 @@ This article describes what happens to a user's OneDrive when you delete the use
   
 ## Give another user access to a deleted user's OneDrive
 
-When you delete a user in the Office 365 admin center, you can choose what you want to do with the user's product licenses, email, and OneDrive. If you give another user access to the OneDrive, that user will have 30 days by default to access and download the files they want to keep. (To change the retention time, see [Set the OneDrive retention for deleted users](set-retention.md).) They'll receive an email with a link to these instructions for accessing the deleted user's OneDrive: [Copy files from another user's OneDrive](https://support.office.com/article/7eb33f7d-6540-488f-afaf-56043828e47b.aspx).
+When you delete a user in the Microsoft 365 admin center, you can choose what you want to do with the user's product licenses, email, and OneDrive. For more info, see [Delete a user from your organization](https://support.office.com/article/D5155593-3BAC-4D8D-9D8B-F4513A81479E). If you give another user access to the OneDrive, that user will have 30 days by default to access and download the files they want to keep. (To change the retention time, see [Set the OneDrive retention for deleted users](set-retention.md).) They'll receive an email with a link to these instructions for accessing the deleted user's OneDrive: [Copy files from another user's OneDrive](https://support.office.com/article/7eb33f7d-6540-488f-afaf-56043828e47b.aspx).
   
 ## Configure automatic access delegation
 
@@ -29,7 +28,7 @@ By default, when you delete a user, ownership of the OneDrive is transferred to 
   
 1. Sign in to Office 365 as a global admin or SharePoint admin.
     
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
 3. In the left pane, choose **Admin centers** \> **SharePoint**.
     
@@ -47,11 +46,11 @@ If a manager or secondary owner isn't set for the user, or if access delegation 
   
 ## The OneDrive deletion process
 
-1. A user is deleted from the Office 365 admin center or is removed through Active Directory synchronization.
+1. A user is deleted from the Microsoft 365 admin center or is removed through Active Directory synchronization.
     
 2. The account deletion is synchronized to SharePoint Online.
     
-3. The OneDrive Clean Up Job runs, and the OneDrive is marked for deletion. The deleted user will appear in the Office 365 admin center for 30 days. The default retention period for OneDrive is also 30 days, but you can change this in the OneDrive admin center (see [Set the OneDrive retention for deleted users](set-retention.md)) or by using the **-OrphanedPersonalSitesRetentionPeriod** parameter for the **Set-SPOTenant** cmdlet in the SharePoint Online Management Shell. For more information about using this cmdlet, see [Set-SPOTenant](https://go.microsoft.com/fwlink/?linkid=872571).
+3. The OneDrive Clean Up Job runs, and the OneDrive is marked for deletion. The deleted user will appear in the Microsoft 365 admin center for 30 days. The default retention period for OneDrive is also 30 days, but you can change this in the OneDrive admin center (see [Set the OneDrive retention for deleted users](set-retention.md)) or by using the **-OrphanedPersonalSitesRetentionPeriod** parameter for the **Set-SPOTenant** cmdlet in the SharePoint Online Management Shell. For more information about using this cmdlet, see [Set-SPOTenant](https://go.microsoft.com/fwlink/?linkid=872571).
     
 4. If a manager is specified for the deleted account, the manager will receive an email telling them they have access to the OneDrive, and that the OneDrive will be deleted at the end of the retention period.
     
