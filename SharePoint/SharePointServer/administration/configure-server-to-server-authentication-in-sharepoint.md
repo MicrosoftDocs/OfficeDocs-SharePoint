@@ -69,16 +69,18 @@ New-SPTrustedSecurityTokenIssuer -MetadataEndpoint "https://<ConsumeHostName>/_l
 
 ```powershell
 # Get the app principal and set required authorizations
-$centralAdminWeb = Get-SPWeb "http://<CentralAdminUrl:Port>/"
-$appPrincipal = Get-SPAppPrincipal -Site $centralAdminWeb -NameIdentifier $trustedIssuer.NameId
+$mySiteHost = Get-SPSite "http://<MySiteHostUrl/"
+$appPrincipal = Get-SPAppPrincipal -Site $mySiteHost.RootWeb -NameIdentifier $trustedIssuer.NameId
 
-# Grant app only permission and Read on the SiteSubscription
-Set-SPAppPrincipalPermission -EnableAppOnlyPolicy -AppPrincipal $appPrincipal -Site $centralAdminWeb -Scope SiteSubscription -Right Read
+# Grant permissions AppOnly and Write on the MySite host
+Set-SPAppPrincipalPermission -EnableAppOnlyPolicy -Site $mySiteHost.RootWeb -AppPrincipal $appPrincipal -Scope SiteSubscription -Right Write
 
-# Grant permissions Manage on the PrivateAPI
+# Grant permissions Manage on the PrivateAPI and Read on the SocialPermissionProvider
 $privateAPITypeId = New-Object -TypeName System.Guid ("a2ccc2e2-1703-4bd9-955f-77b2550d6f0d")
-$mgr = New-Object -TypeName Microsoft.SharePoint.SPAppPrincipalPermissionsManager ($centralAdminWeb)
+$socialPermissionProviderId = New-Object -TypeName System.Guid ("fcaec196-a98c-4f8f-b60f-e1a82272a6d2")
+$mgr = New-Object -TypeName Microsoft.SharePoint.SPAppPrincipalPermissionsManager ($mySiteHost.RootWeb)
 $mgr.AddSiteSubscriptionPermission($appPrincipal, $privateAPITypeId, [Microsoft.SharePoint.SPAppPrincipalPermissionKind]::Manage)
+$mgr.AddSiteSubscriptionPermission($appPrincipal, $socialPermissionProviderId, [Microsoft.SharePoint.SPAppPrincipalPermissionKind]::Read)
 ```
 
 ### Authorize publishing farm to send OAuth requests to the consuming farm
