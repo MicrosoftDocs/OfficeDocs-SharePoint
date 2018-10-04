@@ -56,7 +56,7 @@ The following procedure describes how to configure server-to-server authenticati
 2. Register the consuming farm as a trusted issuer:
 
 ```powershell
-New-SPTrustedSecurityTokenIssuer -MetadataEndpoint "https://<ConsumeHostName>/_layouts/<15or16>/metadata/json/1" -Name "<ConsumeFriendlyName>"
+New-SPTrustedSecurityTokenIssuer -MetadataEndpoint "https://<ConsumingFarmHostName>/_layouts/<15or16>/metadata/json/1" -Name "<ConsumingFarmFriendlyName>"
 ```
 
     > [!NOTE]
@@ -87,7 +87,7 @@ $mgr.AddSiteSubscriptionPermission($appPrincipal, $socialPermissionProviderId, [
 2. Register the farm running User Profile service application as a trusted issuer:
 
 ```powershell
-$trustedIssuer = New-SPTrustedSecurityTokenIssuer -MetadataEndpoint "https://<PublishingHostName>/_layouts/<15or16>/metadata/json/1" -Name "<PublishingFriendlyName>"
+$trustedIssuer = New-SPTrustedSecurityTokenIssuer -MetadataEndpoint "https://<PublishingFarmHostName>/_layouts/<15or16>/metadata/json/1" -Name "<PublishingFarmFriendlyName>"
 ```
 
     > [!NOTE]
