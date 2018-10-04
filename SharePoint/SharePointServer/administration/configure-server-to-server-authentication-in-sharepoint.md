@@ -66,16 +66,16 @@ New-SPTrustedSecurityTokenIssuer -MetadataEndpoint "https://<ConsumeHostName>/_l
 
 ```powershell
 # Get the app principal and set required authorizations
-$mySiteHost = Get-SPSite "http://<MySiteHostUrl/"
-$appPrincipal = Get-SPAppPrincipal -Site $mySiteHost.RootWeb -NameIdentifier $trustedIssuer.NameId
+$mySiteHost = Get-SPWeb "http://<MySiteHostUrl/"
+$appPrincipal = Get-SPAppPrincipal -Site $mySiteHost -NameIdentifier $trustedIssuer.NameId
 
 # Grant permissions AppOnly and Write on the MySite host
-Set-SPAppPrincipalPermission -EnableAppOnlyPolicy -Site $mySiteHost.RootWeb -AppPrincipal $appPrincipal -Scope SiteSubscription -Right Write
+Set-SPAppPrincipalPermission -EnableAppOnlyPolicy -Site $mySiteHost -AppPrincipal $appPrincipal -Scope SiteSubscription -Right Write
 
 # Grant permissions Manage on the PrivateAPI and Read on the SocialPermissionProvider
 $privateAPITypeId = New-Object -TypeName System.Guid ("a2ccc2e2-1703-4bd9-955f-77b2550d6f0d")
 $socialPermissionProviderId = New-Object -TypeName System.Guid ("fcaec196-a98c-4f8f-b60f-e1a82272a6d2")
-$mgr = New-Object -TypeName Microsoft.SharePoint.SPAppPrincipalPermissionsManager ($mySiteHost.RootWeb)
+$mgr = New-Object -TypeName Microsoft.SharePoint.SPAppPrincipalPermissionsManager ($mySiteHost)
 $mgr.AddSiteSubscriptionPermission($appPrincipal, $privateAPITypeId, [Microsoft.SharePoint.SPAppPrincipalPermissionKind]::Manage)
 $mgr.AddSiteSubscriptionPermission($appPrincipal, $socialPermissionProviderId, [Microsoft.SharePoint.SPAppPrincipalPermissionKind]::Read)
 ```
