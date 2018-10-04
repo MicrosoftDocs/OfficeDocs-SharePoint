@@ -10,42 +10,34 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: c77f5006-d023-463f-8256-e4570d32dd1e
-description: "Summary: Learn how to configure server-to-server authentication when you share service applications across SharePoint Server 2016 and SharePoint 2013 publishing and consuming farms."
+description: "Summary: Learn how to configure server-to-server authentication when you share User Profile service application across SharePoint Server 2016 and SharePoint 2013 publishing and consuming farms."
 ---
 
-# Configure OAuth when User Profile Service Application is published
+# Configure Server-to-Server authentication between publishing and consuming farms
 
- **Summary:** Learn how to configure OAuth when you share service applications across SharePoint Server 2016 and SharePoint 2013 publishing and consuming farms. 
+ **Summary:** Learn how to configure Server-to-Server authentication when you share the User Profile service application across SharePoint Server 2016 and SharePoint 2013 publishing and consuming farms. 
   
-When a farm consumes the User Profile Service Application of another farm, it will issue requests using OAuth protocol on behalf of the user for some features:
+When a farm consumes the User Profile service application of a publishing farm, SharePoint issues requests using Server-to-Server authentication on behalf of the user for some features:
   
-- Follow a document on a Team Sites web application when a user's personal site is located on a My Sites web application. The Team Sites web application makes a request of the My Sites web application on behalf of the user.
+- Follow a document on a content web application when a user's personal site is located on a web application in an external farm. The content web application makes a OAuth request to the My Sites web application on behalf of the user.
     
-- Create or reply to a site feed post for a site that is located on a Team Sites web application but performed through the user's My Site Newsfeed on the My Sites web application. The My Sites web application will make a request of the Team Sites web application on behalf of the user to write the post or the reply.
+- Create or reply to a site feed post for a site that is located on a content web application but performed through the user's My Site Newsfeed on the My Sites web application. The My Sites web application will make a request of the Team Sites web application on behalf of the user to write the post or the reply.
     
 - A User Profile Service application task to repopulate the feed cache has to read from the personal site or team site. If the User Profile Service application is running in a different farm, the User Profile Service application sends a request to the My Sites web application or Team Sites web application to read the user or site feed data into the cache.
-    
-> [!NOTE]
-> Web applications or application services that request resources from an application service on another farm do not require server-to-server authentication. 
+
   
 ## Before you begin
 <a name="begin"> </a>
 
+This article requires that you already shared the User Profile service application between a consuming and a publishing farm. If you haven't done so, see [Share service applications across farms in SharePoint Server](/share-service-applications-across-farms) first to share the User Profile service application.
+
 To understand the procedures in this article, you should be familiar with the basic concepts in the following articles:
-  
+
 [Authentication overview for SharePoint Server](../security-for-sharepoint-server/authentication-overview.md)
-  
+
 [Plan for server-to-server authentication in SharePoint Server](../security-for-sharepoint-server/plan-server-to-server-authentication.md)
 
-  
-## Configure server-to-server authentication between publishing and consuming farms
-<a name="begin"> </a>
-
-The following procedure describes how to configure server-to-server authentication between the publishing and consuming farms.
-  
- **To configure server-to-server authentication between publishing and consuming farms**
-    
-2. Verify that you are a member of the Administrators group on the server on which you are running PowerShell cmdlets.
+Verify that you are a member of the Administrators group on the servers on which you are running PowerShell cmdlets.
     
   - **Securityadmin** fixed server role on the SQL Server instance. 
     
@@ -55,83 +47,69 @@ The following procedure describes how to configure server-to-server authenticati
     
     > [!NOTE]
     > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
-  
-3. In the SharePoint Server environment on both the publishing and consuming farms, start the SharePoint Management Shell.
-    
-4. To configure the publishing farm for the common realm name, type the following command at the PowerShell command prompt on a server in the publishing farm:
-    
-  ```
-  Set-SPAuthenticationRealm -realm <RealmName>
-  ```
 
-    Where:
-    
-     _RealmName_ is the name that you chose in step 1. 
-    
-5. To configure the Name ID for the SharePoint Security Token Service (STS) on the publishing farm to include the common realm name, type the following commands at the PowerShell command prompt on a server in the publishing farm:
-    
-  ```
-  $sts=Get-SPSecurityTokenServiceConfig
-  $Realm=Get-SpAuthenticationRealm
-  $nameId = "00000003-0000-0ff1-ce00-000000000000@$Realm"
-  Write-Host "Setting STS NameId to $nameId"
-  $sts.NameIdentifier = $nameId
-  $sts.Update()
-  ```
+## Configure server-to-server authentication between publishing and consuming farms
+<a name="begin"> </a>
 
-6. To configure the consuming farm for the common realm name, type the following command at the PowerShell command prompt on a server in the consuming farm:
-    
-  ```
-  Set-SPAuthenticationRealm -realm <RealmName>
-  ```
+The following procedure describes how to configure server-to-server authentication and just grant the required permissions to allow workloads to work. Each farm will keep its own authentication realm.
 
-    Where:
-    
-     _RealmName_ is the name that you chose in step 1. 
-    
-7. To configure the Name ID for the SharePoint STS on the consuming farm to include the common realm name, type the following commands at the PowerShell command prompt on a server in the consuming farm:
-    
-  ```
-  $sts=Get-SPSecurityTokenServiceConfig
-  $Realm=Get-SpAuthenticationRealm
-  $nameId = "00000003-0000-0ff1-ce00-000000000000@$Realm"
-  Write-Host "Setting STS NameId to $nameId"
-  $sts.NameIdentifier = $nameId
-  $sts.Update()
-  ```
+### Authorize consuming farm to send OAuth requests to the publishing farm
 
-8. To configure the publishing farm for server-to-server authentication with the consuming farm, type the following command at the PowerShell command prompt on a server in the publishing farm:
-    
-  ```
-  New-SPTrustedSecurityTokenIssuer -MetadataEndpoint "https://<ConsumeHostName>/_layouts/<15or16>/metadata/json/1" -Name "<ConsumeFriendlyName>"
-  ```
+1. In a SharePoint server in the publishing farms, start the SharePoint Management Shell.
 
-    Where:
-    
-  -  _ConsumeHostName_ is the name and port of any SSL-enabled web application of the consuming farm. 
-    
-  -  _15or16_ is the directory for the SharePoint Server version. 
-    
-  -  _ConsumeFriendlyName_ is a friendly name for the consuming farm. 
-    
-    This creates the server-to-server authentication trust with the consuming farm.
-    
-9. To configure the consuming farm for server-to-server authentication with the publishing farm, type the following command at the PowerShell command prompt on a server in the consuming farm:
-    
-  ```
-  New-SPTrustedSecurityTokenIssuer -MetadataEndpoint "https://<PublishHostName>/_layouts/<15or16>/metadata/json/1" -Name "<PublishFriendlyName>"
-  ```
+2. Register the consuming farm as a trusted issuer:
+```powershell
+New-SPTrustedSecurityTokenIssuer -MetadataEndpoint "https://<ConsumeHostName>/_layouts/<15or16>/metadata/json/1" -Name "<ConsumeFriendlyName>"
+```
 
-    Where:
-    
-  -  _PublishHostName_ is the name and port of any SSL-enabled web application of the publishing farm. 
-    
-  -  _15or16_ is the directory for the SharePoint Server version. 
-    
-  -  _PublishFriendlyName_ is a friendly name for the publishing farm. 
-    
-    This creates the server-to-server authentication trust with the publishing farm.
-    
+    > [!NOTE]
+    > This assumes that you already added the root certificate of the consuming farm to the trusted root authorities as explained in article [Exchange trust certificates between farms in SharePoint Server](/exchange-trust-certificates-between-farms).
+
+3.Get the app principal and set required authorizations:
+
+```powershell
+# Get the app principal and set required authorizations
+$centralAdminWeb = Get-SPWeb "http://<CentralAdminUrl:Port>/"
+$appPrincipal = Get-SPAppPrincipal -Site $centralAdminWeb -NameIdentifier $trustedIssuer.NameId
+
+# Grant app only permission and Read on the SiteSubscription
+Set-SPAppPrincipalPermission -EnableAppOnlyPolicy -AppPrincipal $appPrincipal -Site $centralAdminWeb -Scope SiteSubscription -Right Read
+
+# Grant permissions Manage on the PrivateAPI
+$privateAPITypeId = New-Object -TypeName System.Guid ("a2ccc2e2-1703-4bd9-955f-77b2550d6f0d")
+$mgr = New-Object -TypeName Microsoft.SharePoint.SPAppPrincipalPermissionsManager ($centralAdminWeb)
+$mgr.AddSiteSubscriptionPermission($appPrincipal, $privateAPITypeId, [Microsoft.SharePoint.SPAppPrincipalPermissionKind]::Manage)
+```
+
+### Authorize publishing farm to send OAuth requests to the consuming farm
+
+1. In a SharePoint server in the publishing farms, start the SharePoint Management Shell.
+
+2. Register the farm running User Profile service application as a trusted issuer:
+
+```powershell
+$trustedIssuer = New-SPTrustedSecurityTokenIssuer -MetadataEndpoint "https://<PublishingHostName>/_layouts/<15or16>/metadata/json/1" -Name "<PublishingFriendlyName>"
+```
+
+    > [!NOTE]
+    > This assumes that you already added the root certificate of the consuming farm to the trusted root authorities as explained in article [Exchange trust certificates between farms in SharePoint Server](/exchange-trust-certificates-between-farms).
+
+3.Get the app principal and set required authorizations:
+
+```powershell
+# Get the app principal
+$centralAdminWeb = Get-SPWeb "http://sp:5000/"
+$appPrincipal = Get-SPAppPrincipal -Site $centralAdminWeb -NameIdentifier $trustedIssuer.NameId
+
+# Grant app only permission and Read on the SiteSubscription
+Set-SPAppPrincipalPermission -EnableAppOnlyPolicy -AppPrincipal $appPrincipal -Site $centralAdminWeb -Scope SiteSubscription -Right Read
+
+# Grant permissions Manage on the PrivateAPI
+$privateAPITypeId = New-Object -TypeName System.Guid ("a2ccc2e2-1703-4bd9-955f-77b2550d6f0d")
+$mgr = New-Object -TypeName Microsoft.SharePoint.SPAppPrincipalPermissionsManager ($centralAdminWeb)
+$mgr.AddSiteSubscriptionPermission($appPrincipal, $privateAPITypeId, [Microsoft.SharePoint.SPAppPrincipalPermissionKind]::Manage)
+```
+
 ## See also
 <a name="begin"> </a>
 
@@ -139,10 +117,5 @@ The following procedure describes how to configure server-to-server authenticati
 
 [Share service applications across farms in SharePoint Server](share-service-applications-across-farms.md)
 #### Other Resources
-
-[Get-SPAuthenticationRealm](http://technet.microsoft.com/library/7ec6c10c-283e-4533-addf-6bdd2d804c28.aspx)
-  
-[Set-SPAuthenticationRealm](http://technet.microsoft.com/library/d3d60059-4883-4591-a3a7-d3002c999e68.aspx)
   
 [New-SPTrustedSecurityTokenIssuer](http://technet.microsoft.com/library/9ab7aac9-4c9a-4cba-8dd6-ffead217c2fa.aspx)
-
