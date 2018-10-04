@@ -213,6 +213,9 @@ Enabling this policy sets the following registry key.
 <a name="OptInWithWizard"> </a>
 
 This setting displays the "Set up protection of important folders" window that prompts users to move their Documents, Pictures, and Desktop folders to OneDrive.
+
+> [!NOTE]
+> This setting is available in the OneDrive sync client build 18.111.0603.0004 or later. 
   
 ![OneDrive folder protection start panel](media/ebf0a858-d89f-47f0-8f78-4192a95944f0.png)
   
@@ -229,9 +232,10 @@ Enabling this policy sets the following registry key:
 ### Silently move Windows known folders to OneDrive
 <a name="OptInNoWizard"> </a>
 
-In the sync client build 18.171.0823.0001 or later, this setting lets you redirect and move your users' Documents, Pictures, and Desktop folders to OneDrive without user interaction. 
+Use this policy to redirect your users' Documents, Pictures, and Desktop folders to OneDrive without any user interaction. This setting is available in the OneDrive sync client build 18.111.0603.0004 or later. Before sync client build 18.171.0823.0001, this policy redirected only empty known folders to OneDrive. Now, it redirects known folders that contain content and moves the content to OneDrive.
 
-For previous sync client builds, this setting lets you silently redirect the folders to OneDrive, but not move any folder contents. In these previous builds, the setting works only when all known folders are empty, and on folders redirected to a different OneDrive account. We therefore recommend using this setting together with "Prompt users to move Windows known folders to OneDrive" for previous builds.
+> [!NOTE]
+> If you're using this setting with a build earlier than 18.171.0823.0001, we recommend also enabling "Prompt users to move Windows known folders to OneDrive." 
   
 If you enable this setting and provide your tenant ID, you can choose whether to display a notification to users after their folders have been redirected.
   
@@ -253,6 +257,9 @@ Setting this value to 1 displays a notification after successful redirection.
 <a name="OptInNoWizardToast"> </a>
 
 This setting forces users to keep their Documents, Pictures, and Desktop folders directed to OneDrive.
+
+> [!NOTE]
+> This setting is available in the OneDrive sync client build 18.111.0603.0004 or later. 
   
 If you enable this setting, the "Stop protecting" button in the "Set up protection of important folders" window will be disabled and users will receive an error if they try to stop syncing a known folder.
   
