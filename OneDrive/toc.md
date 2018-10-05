@@ -8,6 +8,7 @@
 ### [Deploy using SCCM](deploy-on-windows.md)
 ### [Deploy using Intune](deploy-intune.md)
 ### [Deploy and configure on macOS](deploy-and-configure-on-macos.md)
+### [Files On-Demand for Mac](files-on-demand-mac.md)
 ### [Use silent account configuration](use-silent-account-configuration.md)
 ### [Transition from previous sync client](transition-from-previous-sync-client.md)
 ### [Network utilization planning](network-utilization-planning.md)
