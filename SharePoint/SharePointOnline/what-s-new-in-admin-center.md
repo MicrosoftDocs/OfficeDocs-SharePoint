@@ -3,7 +3,6 @@ title: "What's new in the SharePoint admin center"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 6/1/2018
 ms.audience: Admin
 ms.topic: reference
 ms.service: sharepoint-online
@@ -14,7 +13,7 @@ search.appverid:
 - BSA160
 - MET150
 ms.assetid: 317eed2b-d266-4c4c-9a37-1aceed9db567
-description: "We're continuously adding new features to the new SharePoint admin center (preview) and fixing issues we learn about. Here's a summary of what's included, and what's coming up. You can help us improve the admin center by sending us your suggestions and reporting bugs you encounter. In the lower-right corner of the admin center, click the Feedback button."
+description: "Learn about the features currently in the new SharePoint admin center, and those coming soon."
 ---
 
 # What's new in the SharePoint admin center
@@ -32,11 +31,11 @@ We're continuously adding new features to the new SharePoint admin center (previ
     
 - Links to the Microsoft 365 admin center for detailed reports, message center posts, and service health info
     
-- Links to the OneDrive admin center and classic SharePoint admin center
+- Links to the OneDrive admin center, SharePoint Migration Tool, and classic SharePoint admin center
     
 - A geo location selector for organizations that have set up Multi-Geo in OneDrive and SharePoint
     
- **Site management page**
+ **Active sites page**
   
 - A list that includes the new types of sites that users create: team sites that belong to Office 365 groups and communication sites
     
@@ -56,15 +55,19 @@ We're continuously adding new features to the new SharePoint admin center (previ
     
 - The ability to select multiple sites and email site admins
     
- **Recycle bin page**
+ **Deleted sites page**
   
 - A list of deleted sites with time deleted
     
-- The ability to restore sites individually
+- The ability to restore sites (except those connected to an Office 365 group) individually
     
  **Settings page**
   
 - Settings for list and library experience, sync (if your organization used the previous sync client), and notifications
+
+ **API management page**
+  
+- The ability to view pending and approved web API permissions and approve or reject access requests
     
 ## Coming soon
 
@@ -74,25 +77,21 @@ Here's a short list of some of the larger features we're working on. Use the Fee
   
 - Improved design for mobile
     
- **Site management page**
+ **Active sites page**
   
 - Grouping
     
 - More batch operations
     
-- The ability to specify the primary admin when creating communication sites and sites that belong to an Office 365 group
-    
 - The ability to view and update Office 365 group owners, and delete sites that belong to an Office 365 group
     
-- The ability to delete sites created by another admin
-    
- **Recycle bin page**
+ **Deleted sites page**
   
 - Batch restore
     
-- The ability to delete (purge)
+- The ability to permanently delete sites
     
- **Sharing and device access**
+ **Sharing and Access control**
   
 - New pages for organization-wide settings
     
