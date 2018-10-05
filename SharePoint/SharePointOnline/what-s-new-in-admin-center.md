@@ -44,6 +44,8 @@ We're continuously adding new features to the new SharePoint admin center (previ
 - Extensive site info and insights such as site name, template, file and sharing info, and date created and modified
     
 - The ability to sort, filter, and customize columns, as well as search by all text fields
+
+- The ability to view and filter by hub site association
     
 - Built-in views and the ability to create custom views
     
