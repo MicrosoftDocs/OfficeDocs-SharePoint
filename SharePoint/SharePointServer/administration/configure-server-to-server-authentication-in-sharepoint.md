@@ -53,7 +53,7 @@ In a SharePoint server in the publishing farm, start the SharePoint Management S
 
 ```powershell
 # Register the consuming farm as a trusted issuer using information in its metedata file
-$trustedIssuer = New-SPTrustedSecurityTokenIssuer -MetadataEndpoint "https://<ConsumingFarmHostName>/_layouts/<15or16>/metadata/json/1" -Name "<ConsumingFarmFriendlyName>"
+$trustedIssuer = New-SPTrustedSecurityTokenIssuer -MetadataEndpoint "https://<ConsumingFarmHostName>/_layouts/15/metadata/json/1" -Name "<ConsumingFarmFriendlyName>"
 
 # Get the app principal and set required authorizations
 $mySiteHost = Get-SPWeb "http://<MySiteHostUrl/"
@@ -76,7 +76,7 @@ In a SharePoint server in the consuming farm, start the SharePoint Management Sh
 
 ```powershell
 # Register the publishing farm as a trusted issuer using information in its metedata file
-$trustedIssuer = New-SPTrustedSecurityTokenIssuer -MetadataEndpoint "https://<PublishingFarmHostName>/_layouts/<15or16>/metadata/json/1" -Name "<PublishingFarmFriendlyName>"
+$trustedIssuer = New-SPTrustedSecurityTokenIssuer -MetadataEndpoint "https://<PublishingFarmHostName>/_layouts/15/metadata/json/1" -Name "<PublishingFarmFriendlyName>"
 
 # Get the app principal
 $centralAdminWeb = Get-SPWeb "http://<CentralAdminURL/"
@@ -104,4 +104,6 @@ $mgr.AddSiteSubscriptionPermission($appPrincipal, $privateAPITypeId, [Microsoft.
 
 ### Other Resources
   
-[New-SPTrustedSecurityTokenIssuer](http://technet.microsoft.com/library/9ab7aac9-4c9a-4cba-8dd6-ffead217c2fa.aspx)
+[New-SPTrustedSecurityTokenIssuer](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/new-sptrustedsecuritytokenissuer?view=sharepoint-ps)
+
+[Set-SPAppPrincipalPermission](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/set-spappprincipalpermission?view=sharepoint-ps)
