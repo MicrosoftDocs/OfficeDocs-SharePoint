@@ -49,7 +49,7 @@ The following procedure describes how to configure server-to-server authenticati
 
 ### Authorize consuming farm to send OAuth requests to the publishing farm
 
-In a SharePoint server in the publishing farm, start the SharePoint Management Shell and run this PowerShell script to register the consuming farm as a trusted issuer, get its app principal and grant it the required authorizations:
+In a SharePoint server in the **publishing farm**, start the SharePoint Management Shell and run this PowerShell script to register the consuming farm as a trusted issuer, get its app principal and grant it the required authorizations:
 
 ```powershell
 # Register the consuming farm as a trusted issuer using information in its metedata file
@@ -72,14 +72,14 @@ $mgr.AddSiteSubscriptionPermission($appPrincipal, $socialPermissionProviderId, [
 
 ### Authorize publishing farm to send OAuth requests to the consuming farm
 
-In a SharePoint server in the consuming farm, start the SharePoint Management Shell and run this PowerShell script to register the publishing farm as a trusted issuer, get its app principal and grant it the required authorizations:
+In a SharePoint server in the **consuming farm**, start the SharePoint Management Shell and run this PowerShell script to register the publishing farm as a trusted issuer, get its app principal and grant it the required authorizations:
 
 ```powershell
 # Register the publishing farm as a trusted issuer using information in its metedata file
 $trustedIssuer = New-SPTrustedSecurityTokenIssuer -MetadataEndpoint "https://<PublishingFarmHostName>/_layouts/15/metadata/json/1" -Name "<PublishingFarmFriendlyName>"
 
 # Get the app principal
-$centralAdminWeb = Get-SPWeb "http://<CentralAdminURL/"
+$centralAdminWeb = Get-SPWeb "http://<ConsumingFarmCentralAdminURL/"
 $appPrincipal = Get-SPAppPrincipal -Site $centralAdminWeb -NameIdentifier $trustedIssuer.NameId
 
 # Grant app only permission and Read on the SiteSubscription
