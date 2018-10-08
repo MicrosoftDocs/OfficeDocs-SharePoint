@@ -235,7 +235,7 @@ Enabling this policy sets the following registry key:
 Use this policy to redirect your users' Documents, Pictures, and Desktop folders to OneDrive without any user interaction. This setting is available in the OneDrive sync client build 18.111.0603.0004 or later. Before sync client build 18.171.0823.0001, this policy redirected only empty known folders to OneDrive. Now, it redirects known folders that contain content and moves the content to OneDrive.
 
 > [!NOTE]
-> If you're using this setting with a build earlier than 18.171.0823.0001, we recommend also enabling "Prompt users to move Windows known folders to OneDrive." 
+> If you're using this setting with a build earlier than 18.171.0823.0001, we recommend also enabling "Prompt users to move Windows known folders to OneDrive." <br> Sync client features are rolled out gradually. To try the latest features, join the [Windows Insider program](https://insider.windows.com/) or the [Office Insider](https://products.office.com/office-insider) program.
   
 If you enable this setting and provide your tenant ID, you can choose whether to display a notification to users after their folders have been redirected.
   
