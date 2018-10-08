@@ -47,13 +47,13 @@ Verify that you have the following memberships:
 
 The following procedure describes how to configure server-to-server authentication between publishing and consuming farms, and grant just the necessary permissions to allow social features to work. Each farm keeps its own, unique authentication realm.
 
-### Authorize consuming farm to send OAuth requests to the publishing farm
+### Authorize consuming farm to send OAuth requests to the farm hosting the MySites web application
 
-In a SharePoint server in the **publishing farm**, start the SharePoint Management Shell and run this PowerShell script to register the consuming farm as a trusted issuer, get its app principal and grant it the required authorizations:
+In a SharePoint server in the **farm running the MySites web application** (which might not be the publishing farm), start the SharePoint Management Shell and run this PowerShell script to register the consuming farm as a trusted issuer, get its app principal and grant it the required authorizations:
 
 ```powershell
-# Register the consuming farm as a trusted issuer using information in its metedata file
-$trustedIssuer = New-SPTrustedSecurityTokenIssuer -MetadataEndpoint "https://<ConsumingFarmHostName>/_layouts/15/metadata/json/1" -Name "<ConsumingFarmFriendlyName>"
+# Register the consuming farm as a trusted issuer using information in its metadata file
+$trustedIssuer = New-SPTrustedSecurityTokenIssuer -MetadataEndpoint "https://<ConsumingFarmWinClaimsWebApp>/_layouts/15/metadata/json/1" -Name "<ConsumingFarmFriendlyName>"
 
 # Get the app principal and set required authorizations
 $mySiteHost = Get-SPWeb "http://<MySiteHostUrl/"
@@ -75,8 +75,8 @@ $mgr.AddSiteSubscriptionPermission($appPrincipal, $socialPermissionProviderId, [
 In a SharePoint server in the **consuming farm**, start the SharePoint Management Shell and run this PowerShell script to register the publishing farm as a trusted issuer, get its app principal and grant it the required authorizations:
 
 ```powershell
-# Register the publishing farm as a trusted issuer using information in its metedata file
-$trustedIssuer = New-SPTrustedSecurityTokenIssuer -MetadataEndpoint "https://<PublishingFarmHostName>/_layouts/15/metadata/json/1" -Name "<PublishingFarmFriendlyName>"
+# Register the publishing farm as a trusted issuer using information in its metadata file
+$trustedIssuer = New-SPTrustedSecurityTokenIssuer -MetadataEndpoint "https://<PublishingFarmWinClaimsWebApp>/_layouts/15/metadata/json/1" -Name "<PublishingFarmFriendlyName>"
 
 # Get the app principal
 $centralAdminWeb = Get-SPWeb "http://<ConsumingFarmCentralAdminURL/"
