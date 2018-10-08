@@ -135,9 +135,6 @@ In addition to a number of minor fixes, here are the primary improvements made i
 |Warnings when files are checked out  <br/> |Users will now have warning messages appear in the tool when attempting to migrate a file that was checked out.  <br/> |
 |Report when performing only a scan  <br/> |The **FilesReport.csv** file will now show the correct results when only scanning option is turned on.  <br/> |
    
-## See also
-
-#### Other Resources
 
 
 [Download SharePoint Migration Tool](http://spmtreleasescus.blob.core.windows.net/install/default.htm)
