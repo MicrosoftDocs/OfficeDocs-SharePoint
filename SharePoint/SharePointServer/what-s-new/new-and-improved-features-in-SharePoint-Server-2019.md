@@ -81,7 +81,7 @@ SharePoint Server 2019 Public Preview offers a modern search experience in addit
 In the modern search experience, the most visible difference for users is that they see results before they start typing in the search box, and the results update as they type. [Learn about the modern search experience](https://support.office.com/article/what-s-new-in-search-in-sharepoint-server-2019-public-preview-3f56ab51-f10f-4a34-a8c6-bfe02f44896d
 ).
 
-There are some differences between the search experiences from a search administrator's perspective, [learn about these differences](differences-search-2016-2019.md).
+There are some differences between the search experiences from a search administrator's perspective, [learn about these differences ](../search/differences-search-2016-2019.md).
 
 
 ### Modern Team sites

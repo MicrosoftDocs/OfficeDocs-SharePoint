@@ -21,14 +21,14 @@ As a search administrator, you can’t turn off neither classic nor modern searc
 
 Search administrators can customize the *classic* search experience, but only impact some aspects of the modern search experience. There aren't separate search settings for the modern search experience. Instead certain of the classic search settings **also** apply to the modern search experience: 
 
-- The [search schema](manage-search-schema.md) determines how content is collected in and retrieved from the search index. Because both search experiences use the same search index to find search results, any changes you make to the search schema, apply to both experiences. The following search schema settings don’t affect the modern search experience:
+- The [search schema](manage-the-search-schema) determines how content is collected in and retrieved from the search index. Because both search experiences use the same search index to find search results, any changes you make to the search schema, apply to both experiences. The following search schema settings don’t affect the modern search experience:
     - Sortable
     - Refinable 
     - Company name extraction
     - Custom entity extraction
-- The modern search experience only shows results from the default result source. If you change the default [result source](manage-result-sources.md), both search experiences are impacted.
-- If you temporarily [remove a search result](manage-result-sources.md), the result is removed in both search experiences.
-- When you create a [promoted result](../SharePointServer/search/manage-query-rules.md) at the tenant level, users can see it in both search experiences. In the modern search experience, users only see promoted results when they’ve filtered to All result types (default filter) on the search results page and only when they search across all sites.
+- The modern search experience only shows results from the default result source. If you change the default [result source](configure-result-sources-for-search.md), both search experiences are impacted.
+- If you temporarily [remove a search result](https://docs.microsoft.com/en-us/sharepoint/search/delete-items-from-the-search-index-or-from-search-results#remove-an-item-from-the-search-results), the result is removed in both search experiences.
+- When you create a [promoted result](manage-query-rules.md) at the tenant level, users can see it in both search experiences. In the modern search experience, users only see promoted results when they’ve filtered to All result types (default filter) on the search results page and only when they search across all sites.
 
 Unlike the classic search results page, the modern search results page isn’t built with web parts. You can’t customize the modern search results page or create additional search results pages.
 
