@@ -76,20 +76,13 @@ SharePoint Server 2019 Public Preview now supports modern sharing experiences wi
 SharePoint Server 2019 Public Preview users can now add modern site pages and modern web parts on team sites. Do this in the **Add a Page** in Site Actions or in the pages library by clicking **New** > **Site Page**.
 
 ### Modern search experience
-SharePoint Server 2019 Public Preview now also offers a modern search experience. In the modern search experience, users see results before they start typing, and the results update as they type. The search results page shows a compelling overview of search results, grouped by type. It’s easy to expand to see all the results of each type, for example people or sites. On a people result, users can click the email address to quickly get started on an email to that person. The modern search experience is available from the SharePoint home page, modern sites, and modern document libraries.
+SharePoint Server 2019 Public Preview offers a modern search experience in addition to the classic one.
 
-Both experiences use the same search index to find results. Search settings that impact what's indexed, impact both experiences. The following settings do not impact modern search:
-- Refinable
-- Sortable
-- Custom entity extraction
-- Company name extraction 
+In the modern search experience, the most visible difference for users is that they see results before they start typing in the search box, and the results update as they type. [Learn about the modern search experience](https://support.office.com/article/what-s-new-in-search-in-sharepoint-server-2019-public-preview-3f56ab51-f10f-4a34-a8c6-bfe02f44896d
+).
 
-Only the classic search experience is customizable, and some of the customization settings also affect modern search:
-- Modern search also uses the default result source.
-- When you remove search results temporarily by specifying URLs, the results are removed from both the classic and modern search results.
-- When you create single promoted results at the Search service application level, users also see the promoted results in the modern search results page when:
-    - They've searched across all of SharePoint
-    - They've filtered the search results page to **All result types** (default filter)
+There are some differences between the search experiences from a search administrator's perspective, [learn about these differences](differences-search-2016-2019.md).
+
 
 ### Modern Team sites
 
