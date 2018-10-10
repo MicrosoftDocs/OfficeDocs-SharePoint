@@ -21,7 +21,7 @@ As a search administrator, you can’t turn off neither classic nor modern searc
 
 Search administrators can customize the *classic* search experience, but only impact some aspects of the modern search experience. There aren't separate search settings for the modern search experience. Instead certain of the classic search settings **also** apply to the modern search experience: 
 
-- The [search schema](manage-the-search-schema) determines how content is collected in and retrieved from the search index. Because both search experiences use the same search index to find search results, any changes you make to the search schema, apply to both experiences. The following search schema settings don’t affect the modern search experience:
+- The [search schema](manage-the-search-schema.md) determines how content is collected in and retrieved from the search index. Because both search experiences use the same search index to find search results, any changes you make to the search schema, apply to both experiences. The following search schema settings don’t affect the modern search experience:
     - Sortable
     - Refinable 
     - Company name extraction
