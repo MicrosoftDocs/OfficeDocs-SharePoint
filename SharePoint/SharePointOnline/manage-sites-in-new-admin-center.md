@@ -41,7 +41,7 @@ You as a SharePoint or global admin in your organization can create new sites fr
 ## Delete a site
 <a name="deletesite"> </a>
 
-On the Site management page, you can delete the communication sites you created, as well as all classic sites. (To delete sites that belong to an Office 365 group, you need to delete all the group resources by going to the Office 365 admin center and deleting the group.)
+On the Site management page, you can delete the communication sites you created, as well as all classic sites. (To delete sites that belong to an Office 365 group, you need to delete all the group resources by going to the Microsoft 365 admin center and deleting the group.)
   
 1. In the left column, click to select a site.
     

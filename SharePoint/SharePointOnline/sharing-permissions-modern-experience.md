@@ -49,7 +49,7 @@ Office 365 Groups may be added in Office 365, Outlook, Azure Active Directory, a
 
 SharePoint groups and security groups do not have associated group email addresses, nor do they include group calendars, notebooks, Planner, or a default SharePoint site as is the case with Office 365 Groups.
 
-### When and why to add users to a type of group or directly to a Site 
+## When and why to add users to a type of group or directly to a Site 
 
 A given user may be provided access to a SharePoint site by granting specific access to a given user account, or by adding the given user account to an Office 365 Group, a security group, or a SharePoint group. It is considered best practice to add users to one of the three available group types when a user requires access to a SharePoint site to increase general performance and data responsiveness.
 
@@ -73,7 +73,7 @@ SharePoint groups are provided by default by all SharePoint sites including mode
 
 With modern team sites, the underlying Office 365 Group should be favored for providing access to a given site. Communication sites may utilize Office 365 Groups although the underlying grouping is handled by SharePoint groups.
 
-### Sharing permissions across a group of sites – sites within a Hub 
+## Sharing permissions across a group of sites – sites within a Hub 
 
 SharePoint hub sites offer an important mechanism to provide cohesion with a SharePoint implementation strategy. [Learn more about hub sites](https://docs.microsoft.com/en-us/sharepoint/dev/features/hub-site/hub-site-overview).
 
@@ -81,7 +81,7 @@ Associated a site to a hub site does not change or unify the permissions of eith
 
 In a scenario where common permissions may want to be applied across all or a sub-section of sites associated with a hub site, an Office 365 Group or security group could be created and then added as a member of each joined site.
 
-### Permission comparison between team sites and communication sites 
+## Permission comparison between team sites and communication sites 
 
 Modern SharePoint Team sites and Communication sites are built on the same foundation yet have important differences that should be considered.
 
@@ -93,7 +93,7 @@ Communication sites look to “Share” a site, sharing a given site to individu
 
 Communication sites are not tied to an Office 365 Group. Advanced permissions options are also available to communication sites via the Sharing or Site permissions panels. It is important to note that underlying sharing and general permissions of communication sites also driven by SharePoint groups. Communication sites include three default SharePoint groups, Owners, Members, and Visitors, just as provided by traditional SharePoint sites.
 
-### Internal and external sharing within SharePoint Online 
+## Internal and external sharing within SharePoint Online 
 
 Sharing a site or asset within a site such as a library or document is essentially the same a granting permission for a particular person, user, or group to the shared asset. When sharing within SharePoint, you are also provided the ability to email the user directly with the UI as well.
 
@@ -105,7 +105,7 @@ By default, external sharing is enabled at both the tenant level and site collec
 
 When sharing a team site, you may invite users, Office 365 Groups, and security groups to be a member of the site. When shared via the site permissions interface on the site itself, be aware that inviting a new member will not join that member to the connected Office 365 Group. You can invite new members to the Office 365 Group, which will automatically provide that member the proper access to the team site.
 
-### Configuration options for sharing within SharePoint Online
+## Configuration options for sharing within SharePoint Online
 
 By default, internal sharing is available on all SharePoint sites including team sites and communication sites. By default, external sharing is also allowed.
 
@@ -117,7 +117,7 @@ Changing external sharing on a site by site basis requires a tenant administrato
 
 When sharing a document such as a Microsoft Word, Microsoft Excel, or Microsoft PowerPoint document, the shared asset may be opened within the browser for a rich viewing or authoring experience.
 
-### Different types of sharing links
+## Different types of sharing links
 
 When sharing a SharePoint file or folder, different types of links may be generated and either automatically or manually sent to the end user(s).
 

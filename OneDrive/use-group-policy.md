@@ -25,9 +25,9 @@ This article is for IT admins managing the new OneDrive sync client in a Windows
   
 > [!NOTE]
 > If you're not an IT admin, see [Sync files with the new OneDrive sync client in Windows](https://support.office.com/article/615391c4-2bd3-4aae-a42a-858262e42a49) for info about OneDrive sync settings. 
-
+ 
 > [!VIDEO https://videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=RE2CnSx&AutoPlayVideo=false]
-  
+ 
 ## Manage OneDrive using Group Policy
 
 1. Install the latest OneDrive sync client on a PC running Windows 10. This downloads the .adml and .admx files.
@@ -80,7 +80,7 @@ The following Computer Configuration policies are available:
     
 - [Prompt users to move Windows known folders to OneDrive](use-group-policy.md#OptInWithWizard)
     
-- [Silently redirect Windows known folders to OneDrive](use-group-policy.md#OptInNoWizard)
+- [Silently move Windows known folders to OneDrive](use-group-policy.md#OptInNoWizard)
     
 - [Prevent users from redirecting their Windows known folders to their PC](use-group-policy.md#OptInNoWizardToast)
     
@@ -213,6 +213,9 @@ Enabling this policy sets the following registry key.
 <a name="OptInWithWizard"> </a>
 
 This setting displays the "Set up protection of important folders" window that prompts users to move their Documents, Pictures, and Desktop folders to OneDrive.
+
+> [!NOTE]
+> This setting is available in the OneDrive sync client build 18.111.0603.0004 or later. 
   
 ![OneDrive folder protection start panel](media/ebf0a858-d89f-47f0-8f78-4192a95944f0.png)
   
@@ -226,12 +229,13 @@ Enabling this policy sets the following registry key:
   
 (where "1111-2222-3333-4444" is the [tenant ID](find-your-office-365-tenant-id.md))
   
-### Silently redirect Windows known folders to OneDrive
+### Silently move Windows known folders to OneDrive
 <a name="OptInNoWizard"> </a>
 
-This setting lets you redirect your users' Documents, Pictures, and Desktop folders to OneDrive without user interaction. This policy works when all known folders are empty, and on folders redirected to a different OneDrive account. We recommend using this policy together with "Prompt users to move Windows known folders to OneDrive."
-  
-When you enable this policy, future releases will no longer check for empty known folders. Instead, known folders will be redirected and content within them will be moved.
+Use this policy to redirect your users' Documents, Pictures, and Desktop folders to OneDrive without any user interaction. This setting is available in the OneDrive sync client build 18.111.0603.0004 or later. Before sync client build 18.171.0823.0001, this policy redirected only empty known folders to OneDrive. Now, it redirects known folders that contain content and moves the content to OneDrive.
+
+> [!NOTE]
+> If you're using this setting with a build earlier than 18.171.0823.0001, we recommend also enabling "Prompt users to move Windows known folders to OneDrive." <br> Sync client features are rolled out gradually. To try the latest features, join the [Windows Insider program](https://insider.windows.com/) or the [Office Insider](https://products.office.com/office-insider) program.
   
 If you enable this setting and provide your tenant ID, you can choose whether to display a notification to users after their folders have been redirected.
   
@@ -253,6 +257,9 @@ Setting this value to 1 displays a notification after successful redirection.
 <a name="OptInNoWizardToast"> </a>
 
 This setting forces users to keep their Documents, Pictures, and Desktop folders directed to OneDrive.
+
+> [!NOTE]
+> This setting is available in the OneDrive sync client build 18.111.0603.0004 or later. 
   
 If you enable this setting, the "Stop protecting" button in the "Set up protection of important folders" window will be disabled and users will receive an error if they try to stop syncing a known folder.
   
@@ -377,7 +384,7 @@ For info about estimating the network bandwidth you need for the sync client and
 ### Coauthoring and in-app sharing for Office files
 <a name="EnableAllOcsiClients"> </a>
 
-This policy enables users to collaborate on documents in real time and share them from the Office 2016 and Office 2103 desktop apps. Enabling this policy sets the following registry key value to 1:
+This policy enables users to collaborate on documents in real time and share them from the Office 2016 desktop apps. Enabling this policy sets the following registry key value to 1:
   
 [HKCU\SOFTWARE\Policies\Microsoft\OneDrive] ﻿"EnableAllOcsiClients"="dword:00000001"
   
