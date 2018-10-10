@@ -107,5 +107,5 @@ For more information, see [Get-SPOTenantSyncClientRestriction](https://go.micros
   
 [Use Group Policy to control OneDrive sync client settings](use-group-policy.md)
   
-[Restrictions and limitations when you use the new OneDrive sync client to sync OneDrive for Business libraries](https://go.microsoft.com/fwlink/?LinkId=717734)
+[Invalid file names and file types in OneDrive, OneDrive for Business, and SharePoint](https://support.office.com/article/64883a5d-228e-48f5-b3d2-eb39e07630fa)
 
