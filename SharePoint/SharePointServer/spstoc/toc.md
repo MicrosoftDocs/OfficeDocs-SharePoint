@@ -220,6 +220,7 @@
 #### [Create a Search Center site](../search/create-a-search-center-site.md)
 #### [Deploy people search](../search/deploy-people-search.md)
 ### [Search administration](../search/search-administration.md)
+#### [Classic and modern search differences](../search/differences-search-2016-2019.md)
 #### [Manage the Search Center in SharePoint Server](../search/manage-the-search-center-in-sharepoint-server.md)
 ##### [Configure properties of the Search Box Web Part](../search/configure-properties-of-the-search-box-web-part.md)
 ##### [Configure properties of the Search Results Web Part](../search/configure-properties-of-the-search-results-web-part.md)
