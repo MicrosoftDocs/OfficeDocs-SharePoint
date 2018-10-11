@@ -15,7 +15,7 @@ description: "Summary: Learn about default crawled file name extensions and pars
 
 # Search technical reference for SharePoint Server
 
- **Summary:** Learn about default crawled file name extensions and parsed file types, default crawled and managed properties, default connectors and linguistics features per language for search in SharePoint Server 2016 and SharePoint Server 2013. 
+ **Summary:** Learn about default crawled file name extensions and parsed file types, default crawled and managed properties, default connectors and linguistics features per language for search in SharePoint Server. 
   
 The following articles provide technical reference information for search in SharePoint Server.
   

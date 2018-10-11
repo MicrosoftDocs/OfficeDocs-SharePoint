@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 73f19541-9321-4abd-b014-98df79f84d2a
-description: "Learn about best practices for crawling in SharePoint Server 2016 and SharePoint Server 2013."
+description: "Learn about best practices for crawling in SharePoint Server."
 ---
 
 # Best practices for crawling in SharePoint Server
 
-Learn about best practices for crawling in SharePoint Server 2016 and SharePoint Server 2013.
+Learn about best practices for crawling in SharePoint Server.
   
 The Search system crawls content to build a search index that users can run search queries against. This article contains suggestions as to how to manage crawls most effectively.
   

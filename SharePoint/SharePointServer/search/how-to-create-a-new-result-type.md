@@ -12,7 +12,7 @@ ms.assetid: cc3686d1-e786-478b-aa0c-68796c02e198
 description: "Summary: Learn how to create a new result type in SharePoint Server."
 ---
 
-# How to create a new result type in SharePoint Server
+# How to create a new result type for classic search in SharePoint Server
 
  **Summary:** Learn how to create a new result type in SharePoint Server. 
   

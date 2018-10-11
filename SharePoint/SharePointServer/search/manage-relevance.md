@@ -17,14 +17,9 @@ description: "Summary: Learn how you can configure settings to provide the most 
 
  **Summary:** Learn how you can configure settings to provide the most relevant search results in SharePoint Server. 
   
-The following articles provide information about how you manage relevance to improve **classic** search results in SharePoint Server.
+The following articles provide information about how you manage relevance to improve **classic** search results in SharePoint Server. Some settings also impact the modern search results, see [Differences between the search experiences in SharePoint Server](differences-search-2016-2019.md).
 
 
-
-> [!IMPORTANT]
-> Modern search uses the default result source. If you change the default result source to adjust the classic search experience, this also affects the modern search experience.
->
-> **Modern** search results are affected by query rules that promote individual results. [Learn more](manage-query-rules.md)
   
 ## Articles about managing search relevance
 

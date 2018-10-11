@@ -1,5 +1,5 @@
 ---
-title: "Understanding how search results are displayed in SharePoint Server"
+title: "Understanding how classic search results are displayed in SharePoint Server"
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen
@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 45ad90e6-c2e1-497a-9d4e-e7ac32ae09a5
-description: "Summary: Learn how search results are displayed in SharePoint Server 2016 and SharePoint Server 2013."
+description: "Summary: Learn how search results are displayed in SharePoint Server."
 ---
 
-# Understanding how search results are displayed in SharePoint Server
+# Understanding how classic search results are displayed in SharePoint Server
 
- **Summary:** Learn how search results are displayed in SharePoint Server 2016 and SharePoint Server 2013. 
+ **Summary:** Learn how classic search results are displayed in SharePoint Server. 
   
 In this article, you'll learn:
   
@@ -30,7 +30,7 @@ In this article, you'll learn:
     
 - [About display template settings in the Search Results Web Part](understanding-how-search-results-are-displayed.md#BKMK_AboutDisplayTemplateSettingsintheSearchResultsWebPart)
     
-## How search results are displayed by default
+## How classic search results are displayed by default
 <a name="BKMK_HowSearchResultsareDisplayedbyDefault"> </a>
 
 When you search for something in a Search Center, your results are displayed differently. For example, in the following screen shot, notice how the icons for Word, PDF, and Excel are displayed for each of the search results.
@@ -47,7 +47,7 @@ By hovering over the fourth result, the information that is displayed differs fr
   
 What's going on here, and what's making the search results display so differently? That is the subject of this article.
   
-## About controlling how search results are displayed
+## About controlling how classic search results are displayed
 <a name="BKMK_AboutControllingHowSearchResultsareDisplayed"> </a>
 
 Search results are displayed in a **Search Results Web Part**. The following screen shot shows how SharePoint uses two  *display templates*  to control how information about search results is displayed: 
@@ -68,7 +68,7 @@ To view or edit a display template, use the HTML file. SharePoint automatically 
   
 Details about how display templates work will be provided later in this series. For now, let's move on to result types.
   
-## About result types
+## About result types for classic search
 <a name="BKMK_AboutResultTypes"> </a>
 
 If a user can see information about search results directly on the search results page, this will save them the trouble of having to click and open each item to see what it's about. If you look back at [How search results are displayed by default](understanding-how-search-results-are-displayed.md#BKMK_HowSearchResultsareDisplayedbyDefault), you can easily see that the first two results are PowerPoint presentations, and the third result is a Word document.
@@ -77,11 +77,11 @@ To display search results differently, search results have to be sorted into dif
   
 There are 31 default result types. To see them, go to **Site Settings** --> **Result Types**. 
   
-For an overview of the default result types, see [Result types and display templates that are used to display search results in SharePoint Server](../technical-reference/result-types-and-display-templates-that-are-used-to-display-search-results.md). You don't have to worry about how default search results are specified. It happens "inside" in SharePoint Server 2016.
+For an overview of the default result types, see [Result types and display templates that are used to display search results in SharePoint Server](../technical-reference/result-types-and-display-templates-that-are-used-to-display-search-results.md). You don't have to worry about how default search results are specified. It happens "inside" in SharePoint Server.
   
 It is not possible to edit any of the default result types. But, you can copy them, and add additional configurations. This will be explained later in this series, but first, it's important to understand how result types and display templates are connected.
   
-## About the connections between a result type and display templates
+## About the connections between a result type and display templates for classic search
 <a name="BKMK_AbouttheConnectionsBetweenaResultTypeandDisplayTemplates"> </a>
 
 The mechanics of these connections are not very straight forward and easy to understand, but let's take a look in a step-by-step manner.
@@ -120,7 +120,7 @@ The mechanics of these connections are not very straight forward and easy to und
     
     That was straight forward, however, we're not completely through yet. In addition to the display templates that are connected to a result type, there are display templates that are used by all result types.
     
-## About display templates that are used by all result types
+## About display templates that are used by all result types for classic search
 <a name="BKMK_AboutDisplayTemplatesThatareUsedbyallResultTypes"> </a>
 
 To recap:
