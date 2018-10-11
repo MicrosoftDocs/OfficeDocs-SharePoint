@@ -69,7 +69,7 @@ Please let us know if you run into any problems while using this release.
     
 3. Type a brief description of your issue, and then click **OK**. You will receive an email notification with a support ticket number to track your issue.
     
-## See also
+## See  also
 
 [Deploy the new OneDrive sync client](deploy-on-windows.md)
   
