@@ -29,7 +29,7 @@ You can use System Center Configuration Manager (SCCM) to deploy the new OneDriv
 
  The OneDrive sync client (OneDrive.exe) can be installed on Windows 7 and later. It can also be installed on macOS. For info about deploying the OneDrive sync client on macOS, see [Configure the new OneDrive sync client on macOS](deploy-and-configure-on-macos.md)
     
-The new OneDrive sync client can be used with SharePoint Server 2019, but not earlier versions of SharePoint Server. For more information about the restrictions and limitations of the OneDrive sync client, see [Restrictions and limitations when you sync files and folders using the new OneDrive sync client](http://go.microsoft.com/fwlink/p/?LinkId=717734).
+The new OneDrive sync client can be used with SharePoint Server 2019, but not earlier versions of SharePoint Server. For more information about the restrictions and limitations of the OneDrive sync client, see [Invalid file names and file types in OneDrive, OneDrive for Business, and SharePoint](https://support.office.com/article/64883a5d-228e-48f5-b3d2-eb39e07630fa).
   
 > [!IMPORTANT]
 > If your users are currently using the OneDrive for Business sync client (Groove.exe), and you want to move them to the OneDrive sync client, see [Transition from the previous OneDrive for Business sync client](transition-from-previous-sync-client.md) before proceeding.  
@@ -174,7 +174,7 @@ For more info, see [Create Android applications with System Center Configuration
 ## See also
 <a name="cad"> </a>
 
-[Restrictions and limitations when you sync files and folders using the new OneDrive sync client](https://go.microsoft.com/fwlink/?LinkId=717734)
+[Invalid file names and file types in OneDrive, OneDrive for Business, and SharePoint](https://support.office.com/article/64883a5d-228e-48f5-b3d2-eb39e07630fa)
 
  
 
