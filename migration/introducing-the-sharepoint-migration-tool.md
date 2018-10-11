@@ -64,7 +64,7 @@ To download the tool: [SharePoint Migration Assessment Tool (SMAT)](https://www.
   
 [Advanced Settings](how-to-use-the-sharepoint-migration-tool.md#BKMK_Settings)
   
-[How to format your CSV file for data content migration](how-to-format-your-csv-file-for-data-content-migration.md)
+[How to format your JSON or CSV for data content migration](how-to-format-your-csv-file-for-data-content-migration.md)
   
 [Create a user mapping file for data content migration](create-a-user-mapping-file-for-data-content-migration.md)
   
