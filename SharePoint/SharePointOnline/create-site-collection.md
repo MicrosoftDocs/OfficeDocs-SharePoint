@@ -12,7 +12,7 @@ f1_keywords:
 - 'O365M_SitesMgmtModern'
 - 'O365E_SitesMgmtModern'
 - 'How To'
-ms.service: o365-administration
+ms.service: sharepoint-online
 localization_priority: Priority
 ms.collection: Strat_SP_admin
 search.appverid:
