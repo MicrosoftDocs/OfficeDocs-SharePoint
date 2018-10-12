@@ -17,13 +17,10 @@ description: "Summary: Learn how you can configure settings to provide the most 
 
  **Summary:** Learn how you can configure settings to provide the most relevant search results in SharePoint Server. 
   
-The following articles provide information about how you manage relevance to improve **classic** search results in SharePoint Server. Some settings also impact the modern search results, see [Differences between the search experiences in SharePoint Server](differences-search-2016-2019.md).
+The following articles provide information about how you manage relevance to improve classic search results in SharePoint Server. Some settings also impact the modern search results, see [Differences between the search experiences in SharePoint Server](differences-search-2016-2019.md).
 
 
   
-## Articles about managing search relevance
-
-The following articles about managing search relevance in SharePoint Server are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
   
 |                                                             **Content**                                                             |                                                                                                                                                                              **Description**                                                                                                                                                                              |
 | :---------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |

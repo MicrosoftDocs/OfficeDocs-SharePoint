@@ -15,9 +15,9 @@ description: "Summary: Learn how to improve search results by creating and manag
 
 # Manage query rules in SharePoint Server
 
- **Summary:** Learn how to improve search results by creating and managing query rules. 
+ **Summary:** Learn how to improve classic search results by creating and managing query rules. 
   
-Without using any custom code, a Search service application administrator, site collection administrator, or site owner can improve **classic** search results by creating and managing query rules. Query rules help searches respond to the intent of users. 
+Without using any custom code, a Search service application administrator, site collection administrator, or site owner can improve classic search results by creating and managing query rules. Query rules help searches respond to the intent of users. 
 
  In a query rule, you specify conditions and correlated actions. When a query meets the conditions in a query rule, the search system performs the actions specified in the rule to improve the relevance of the search results, such as by narrowing results or changing the order in which results are displayed. For example, a query rule condition could be that a term in a query matches a particular term in a SharePoint Server term set, or that a query is frequently performed on a particular result source in a search system, such as videos. When the query rule condition is satisfied, a correlated action could be to show a specific item at the top of the search results. 
   

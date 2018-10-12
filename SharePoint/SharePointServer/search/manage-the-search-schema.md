@@ -130,7 +130,7 @@ Before you begin this operation, review the following information about prerequi
     
 14. Click **OK**.
     
-You have to perform a full crawl of the content source or sources that contain this new managed property to include it in the search index. If the new managed property is in a SharePoint Server library or list, you have to reindex that library or list.For more information see, Overview of the search schema in SharePoint Server 2016.
+You have to perform a full crawl of the content source or sources that contain this new managed property to include it in the search index. If the new managed property is in a SharePoint Server library or list, you have to reindex that library or list.For more information see, [Overview of the search schema in SharePoint Server](search-schema-overview.md).
   
 ## To edit a managed property
 <a name="proc3"> </a>

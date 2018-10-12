@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 89c08a8b-74ee-4a97-8885-16c4c5a1288d
-description: "Summary: Learn how to include company names to be extracted from content for search results, or how to exclude company names from being extracted."
+description: "Summary: Learn how to include company names to be extracted from content for classic search results, or how to exclude company names from being extracted."
 ---
 
 # Manage company name extraction in SharePoint Server
 
- **Summary:** Learn how to include company names to be extracted from content for search results, or how to exclude company names from being extracted. 
+ **Summary:** Learn how to include company names to be extracted from content for classic search results, or how to exclude company names from being extracted. 
   
 The search system can extract company names from content. The following conditions must be met before company names can be extracted: 
   
