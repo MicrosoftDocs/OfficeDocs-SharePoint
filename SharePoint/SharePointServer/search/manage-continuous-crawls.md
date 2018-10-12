@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: f1bb8664-85dd-49bc-b162-daebf657377e
-description: "Summary: Learn how to enable and disable continuous crawls in SharePoint Server 2016 and SharePoint Server 2013, and how to change the frequency interval of continuous crawls."
+description: "Summary: Learn how to enable and disable continuous crawls in SharePoint Server, and how to change the frequency interval of continuous crawls."
 ---
 
 # Manage continuous crawls in SharePoint Server
 
- **Summary:** Learn how to enable and disable continuous crawls in SharePoint Server 2016 and SharePoint Server 2013, and how to change the frequency interval of continuous crawls. 
+ **Summary:** Learn how to enable and disable continuous crawls in SharePoint Server, and how to change the frequency interval of continuous crawls. 
   
  **Enable continuous crawls** is a crawl schedule option that is an alternative to incremental crawls. This option is new in SharePoint Server and applies only to content sources of type **SharePoint Sites**.
   

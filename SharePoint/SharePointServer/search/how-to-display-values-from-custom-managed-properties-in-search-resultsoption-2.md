@@ -12,11 +12,11 @@ ms.assetid: e2e13d19-21ca-44ef-bd49-0f6120137186
 description: "Summary: Learn a second option for displaying values from custom managed properties in SharePoint Server."
 ---
 
-# How to display values from custom managed properties in search results - option 2 in SharePoint Server
+# How to display values from custom managed properties in classic search results - option 2 in SharePoint Server
 
  **Summary:** Learn a second option for displaying values from custom managed properties in SharePoint Server. 
   
-In [How to display values from custom managed properties in search results - option 1 in SharePoint Server](how-to-display-values-from-custom-managed-properties-in-search-resultsoption-1.md) we showed a simple method to add a custom icon and values from two custom managed properties to your search results. In this topic, we'll look at a somewhat fuller method for changing the way search results are displayed that includes if statements and hit highlighting. In this article, you'll learn: 
+In [How to display values from custom managed properties in search results - option 1 in SharePoint Server](how-to-display-values-from-custom-managed-properties-in-search-resultsoption-1.md) we showed a simple method to add a custom icon and values from two custom managed properties to your classic search results. In this topic, we'll look at a somewhat fuller method for changing the way classic search results are displayed that includes if statements and hit highlighting. In this article, you'll learn: 
   
 - [Strategy for killing three birds with one stone - search results version](how-to-display-values-from-custom-managed-properties-in-search-resultsoption-2.md#BKMK_StrategyforKillingThreeBirdsWithOneStoneSearchResultsVersion)
     
@@ -31,7 +31,7 @@ First, let's state what we want to achieve:
     
 - Apply hit highlighting to the two custom managed properties.
     
-- Get automatically improved relevancy for our search results.
+- Get automatically improved relevancy for our classic search results.
     
 Before we look at details about how to achieve these goals, let's look at the strategy we want to follow. If this gets a bit complex, please try to hang in there. Hopefully it'll be clear by the end.
   
@@ -53,7 +53,7 @@ So our strategy is this: create variables in the item display template that will
   
 Specifically, that means that we have to do the following:
   
-- Add the custom managed properties that we want to display in our search results to the **Hit-highlighted properties** in the **Search Results Web Part**. 
+- Add the custom managed properties that we want to display in our classic search results to the **Hit-highlighted properties** in the **Search Results Web Part**. 
     
 - Add the custom managed properties to an item display template.
     
@@ -169,7 +169,7 @@ And here's the result:
   
 ![Final Search Results Page](../media/OTCSP_FinalSearchResultsPage.png)
   
-So now that we have changed the way search results are displayed, the next step is to change the values that are displayed in the hover panel.
+So now that we have changed the way classic search results are displayed, the next step is to change the values that are displayed in the hover panel.
   
 ### Next article in this series
 

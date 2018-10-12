@@ -14,7 +14,7 @@ description: "Summary: Learn how to add refiners to your search results page in 
 
 # How to add refiners to your search results page in SharePoint Server
 
- **Summary:** Learn how to add refiners to your search results page in SharePoint Server. 
+ **Summary:** Learn how to add refiners to your classic search results page in SharePoint Server. 
   
 The previous article in this series, [Plan to use refiners on a search results page in SharePoint Server](plan-to-use-refiners-on-a-search-results-page.md), showed how to identify and plan to use refiners on your site. In this article, you'll learn:
   
