@@ -1,5 +1,5 @@
 ---
-title: "Redesign enterprise search topology for more content and users in SharePoint 2016"
+title: "Redesign enterprise search topology for more content and users in SharePoint"
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen
@@ -13,7 +13,7 @@ ms.assetid: 9b5a1f99-0193-4a97-b0d1-4a5633b32c43
 description: "Summary: Learn how to redesign the topology of your enterprise search architecture for growth in content, growth in number of users, or both."
 ---
 
-# Redesign enterprise search topology for more content and users in SharePoint 2016
+# Redesign enterprise search topology for more content and users in SharePoint
 
  **Summary:** Learn how to redesign the topology of your enterprise search architecture for growth in content, growth in number of users, or both. 
   

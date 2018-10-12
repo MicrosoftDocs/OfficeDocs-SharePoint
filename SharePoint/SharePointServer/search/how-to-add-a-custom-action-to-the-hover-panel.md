@@ -56,7 +56,7 @@ Confused? Well, this is not easy. It takes a while to understand how things were
   
 Here are the steps to add a custom action to the hover panel:
   
-1. Find the managed property name of the site column that you want to use. [How to display values from custom managed properties in search results - option 1 in SharePoint Server](how-to-display-values-from-custom-managed-properties-in-search-resultsoption-1.md) showed how to do this. 
+1. Find the managed property name of the site column that you want to use. [How to display values from custom managed properties in classic search results - option 1 in SharePoint Server](how-to-display-values-from-custom-managed-properties-in-search-resultsoption-1.md) showed how to do this. 
     
 2. In your mapped network drive, open an item display template. In the item display template, in the **ManagedPropertyMapping** tag, use the following syntax to add the custom managed property: 
     
@@ -92,7 +92,7 @@ Here are the steps to add a custom action to the hover panel:
     
      ![New Action Displayed](../media/OTCSP_NewActionDisplayed.png)
   
-So now that you know how to change the way your search results are displayed, there is one more thing we should look at, and that is how you can change the text that is displayed in the Search Box Web Part.
+So now that you know how to change the way your classic search results are displayed, there is one more thing we should look at, and that is how you can change the text that is displayed in the Search Box Web Part.
   
 ### Next article in this series
 

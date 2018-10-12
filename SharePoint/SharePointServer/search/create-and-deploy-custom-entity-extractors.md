@@ -21,8 +21,6 @@ You create and maintain the custom entity extractor file in a system external to
   
 To use custom entities as refiners in classic search, you first create a custom entity extraction dictionary and deploy it. Then, you configure a managed property to use a custom entity extractor and run a full crawl. After that, you can configure the Refinement Web Part on the search results page to use the custom entity as a refiner. 
 
-> [!NOTE]
-> The modern search experience in SharePoint Server 2019 Public Preview doesn't support custom refiners.
   
     
 ## Before you begin

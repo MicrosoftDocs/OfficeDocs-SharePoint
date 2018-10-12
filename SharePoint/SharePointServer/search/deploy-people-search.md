@@ -10,7 +10,7 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 0864e3e6-37bc-4b43-ae38-6a01f8728e8b
-description: "Summary: Learn how to make people search work in SharePoint Server."
+description: "Summary: Learn how to make classic people search work in SharePoint Server."
 ---
 
 # Deploy people search in SharePoint Server
@@ -64,19 +64,19 @@ When you configure My Sites, the default content access account for search is au
 
 1. Verify that the user account that is performing this procedure is an administrator for the Search service application.
     
-2. Start SharePoint 2016 Central Administration.
+2. Start SharePoint Central Administration.
     
   - For Windows Server 2008 R2:
     
-    - Click **Start**, click **SharePoint 2016**, and then click **SharePoint 2016 Central Administration**.
+    - Click **Start**, click **SharePoint**, and then click **SharePoint Central Administration**.
     
   - For Windows Server 2012:
     
-    - On the **Start** screen, click **SharePoint 2016 Central Administration**.
+    - On the **Start** screen, click **SharePoint Central Administration**.
     
-      If **SharePoint 2016 Central Administration** is not on the **Start** screen: 
+      If **SharePoint Central Administration** is not on the **Start** screen: 
     
-    - Right-click **Computer**, click **All apps**, and then click **SharePoint 2016 Central Administration**.
+    - Right-click **Computer**, click **All apps**, and then click **SharePoint Central Administration**.
     
     For more information about how to interact with Windows Server 2012, see [Common Management Tasks and Navigation in Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkId=276950).
     

@@ -47,7 +47,7 @@ The following are known issues with this release:
   
 - If you create a new access policy after the device has authenticated, it may take up to twenty-four hours for the policy to take effect.
     
-- Conditional access for macOS is in preview.
+- Conditional access is not supported for MacOS.
     
 - In some cases, the user may be prompted for credentials twice. We are working on a fix for this issue.
     
