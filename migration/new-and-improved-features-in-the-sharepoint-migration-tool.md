@@ -17,6 +17,25 @@ Learn about the new features and updates to existing features in SharePoint Migr
 >[!NOTE]
 >To install the current release download here: [SharePoint Migration Tool](http://spmtreleasescus.blob.core.windows.net/install/default.htm)
 
+### SPMT V2.1.102.0
+
+**New features**
+
+The following features were added to the SharePoint Migration Tool, Version V2.1.102.0
+
+|**Feature**|**Description**|
+|:-----|:-----|
+|Modern design|The SharePoint Migration tool has a new look and feel that is more closely aligned with the Sharepoint Online design for easier use. |
+
+**Improvements**
+
+In addition to several minor fixes, here are the primary improvements made in this release:
+
+|**Issue**|**Fix**|
+|:----|:-----|
+|Stability|General improvements have been made to remove some errors in tool.|
+
+
 ### SPMT V2.1.101.6
 
 **New features**
@@ -116,9 +135,6 @@ In addition to a number of minor fixes, here are the primary improvements made i
 |Warnings when files are checked out  <br/> |Users will now have warning messages appear in the tool when attempting to migrate a file that was checked out.  <br/> |
 |Report when performing only a scan  <br/> |The **FilesReport.csv** file will now show the correct results when only scanning option is turned on.  <br/> |
    
-## See also
-
-#### Other Resources
 
 
 [Download SharePoint Migration Tool](http://spmtreleasescus.blob.core.windows.net/install/default.htm)

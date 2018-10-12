@@ -39,7 +39,7 @@ You can create query rules at different levels: for the whole tenant, for a site
     
   - Sign in to Office 365 as a global admin or SharePoint admin.
     
-  - Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+  - Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
   - In the left pane, choose **Admin centers** \> **SharePoint**.
     

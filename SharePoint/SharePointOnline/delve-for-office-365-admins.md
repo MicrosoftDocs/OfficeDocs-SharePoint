@@ -43,7 +43,7 @@ If you want to receive new functionality in Delve before it's made available in 
   
 1. Sign in to Office 365 as a global admin or SharePoint admin.
     
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
 3. Go to **Settings** \> **Organization profile**.
     
@@ -65,7 +65,7 @@ If you don't allow access to the Office Graph, you disable the functionality in 
   
 1. Sign in to Office 365 as a global admin or SharePoint admin.
     
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
 3. In the left pane, choose **Admin centers** > **SharePoint**.
 
@@ -131,7 +131,7 @@ There are a few things you should check if one or more users in your organizatio
   
 1. Sign in to Office 365 as a global admin or SharePoint admin.
     
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
 3. Go to **Settings** \> **Office Graph** and make sure that you've selected **Allow access to the Office Graph**. 
     
@@ -143,7 +143,7 @@ There are a few things you should check if one or more users in your organizatio
   
 1. Sign in to Office 365 as a global admin or SharePoint admin.
     
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
 3. Go to **Billing** \> **Subscriptions**.
     
@@ -164,7 +164,7 @@ There are a few things you should check if one or more users in your organizatio
   
 1. Sign in to Office 365 as a global admin or SharePoint admin.
     
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
 3. Go to **Users** \> **Active Users**.
     
@@ -234,7 +234,7 @@ If users don't have any recently modified or viewed content in these content sou
     
 - Check the permission settings on the SharePoint Online sites and site collections to make sure that the user has access to the correct sites and their content.
     
-- Check that the user is in the Active Directory and that he or she is a member of the correct Active Directory groups. To verify, go to **Office 365 admin center** \> **Users** \> **Active Users**. 
+- Check that the user is in the Active Directory and that he or she is a member of the correct Active Directory groups. To verify, go to **Microsoft 365 admin center** \> **Users** \> **Active Users**. 
     
 - Make sure that the user allows Delve to show documents. To verify, have the user go to **Office 365** \> **Delve** \> ** Feature settings ** and make sure that **Documents in Delve** isn't turned off. 
     

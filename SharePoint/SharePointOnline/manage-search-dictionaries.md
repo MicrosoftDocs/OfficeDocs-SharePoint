@@ -33,7 +33,7 @@ Once you have done this, you can then use the managed property **companies** to 
 ## Include company names
 <a name="__toc342653322"> </a>
 
-1. Sign in to the Office 365 Admin Center as a search administrator.
+1. Sign in to the Microsoft 365 admin center as a search administrator.
     
 2. Choose **Admin** \> **SharePoint**. You're now in the **SharePoint admin center**.
     
@@ -52,7 +52,7 @@ Once you have done this, you can then use the managed property **companies** to 
 ## Exclude company names
 <a name="__toc342653323"> </a>
 
-1. Sign in to the Office 365 Admin Center as a search administrator.
+1. Sign in to the Microsoft 365 admin center as a search administrator.
     
 2. Choose **Admin** \> **SharePoint**. You're now in the **SharePoint admin center**.
     
@@ -78,7 +78,7 @@ For example, if you enter a query that contains the word "ampitheater", the quer
 ## Include a term in query spelling corrections
 <a name="__toc342653325"> </a>
 
-1. Sign in to the Office 365 Admin Center as a search administrator.
+1. Sign in to the Microsoft 365 admin center as a search administrator.
     
 2. Choose **Admin** \> **SharePoint**. You're now in the **SharePoint admin center**.
     
@@ -97,7 +97,7 @@ For example, if you enter a query that contains the word "ampitheater", the quer
 ## Exclude a term from query spelling corrections
 <a name="__toc342653326"> </a>
 
-1. Sign in to the Office 365 Admin Center as a search administrator.
+1. Sign in to the Microsoft 365 admin center as a search administrator.
     
 2. Choose **Admin** \> **SharePoint**. You're now in the **SharePoint admin center**.
     
@@ -116,7 +116,7 @@ For example, if you enter a query that contains the word "ampitheater", the quer
 ## Edit query spelling corrections or company names
 <a name="__toc342653327"> </a>
 
-1. Sign in to the Office 365 Admin Center as a search administrator.
+1. Sign in to the Microsoft 365 admin center as a search administrator.
     
 2. Choose **Admin** \> **SharePoint**. You're now in the **SharePoint admin center**.
     

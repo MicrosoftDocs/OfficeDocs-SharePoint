@@ -29,7 +29,7 @@ You can use System Center Configuration Manager (SCCM) to deploy the new OneDriv
 
  The OneDrive sync client (OneDrive.exe) can be installed on Windows 7 and later. It can also be installed on macOS. For info about deploying the OneDrive sync client on macOS, see [Configure the new OneDrive sync client on macOS](deploy-and-configure-on-macos.md)
     
-The new OneDrive sync client can be used with SharePoint Server 2019, but not earlier versions of SharePoint Server. For more information about the restrictions and limitations of the OneDrive sync client, see [Restrictions and limitations when you sync files and folders using the new OneDrive sync client](http://go.microsoft.com/fwlink/p/?LinkId=717734).
+The new OneDrive sync client can be used with SharePoint Server 2019, but not earlier versions of SharePoint Server. For more information about the restrictions and limitations of the OneDrive sync client, see [Invalid file names and file types in OneDrive, OneDrive for Business, and SharePoint](https://support.office.com/article/64883a5d-228e-48f5-b3d2-eb39e07630fa).
   
 > [!IMPORTANT]
 > If your users are currently using the OneDrive for Business sync client (Groove.exe), and you want to move them to the OneDrive sync client, see [Transition from the previous OneDrive for Business sync client](transition-from-previous-sync-client.md) before proceeding.  
@@ -56,13 +56,16 @@ To set registry keys on computers in your domain, install OneDrive and copy the 
 
   
 4. Copy the installer to a folder in the SCCM source content share. 
+
 5. In SCCM, select the **Software Library** workspace. Under **Application Management**, right-click **Applications**, and then select **Import Application**. 
 
 ![](media/deploy-onedrive-enterprise_image6.png)
 
-7. Select the sample package.
-8. Select the **Deployment Types** tab on the bottom of SCCM, right-click the deployment, and edit the properties to update the **Content location**.
-9. Right-click the package, select **Deploy**, and follow the steps in the Deploy Software Wizard.
+6. Select the sample package.
+
+7. Select the **Deployment Types** tab on the bottom of SCCM, right-click the deployment, and edit the properties to update the **Content location**.
+
+8. Right-click the package, select **Deploy**, and follow the steps in the Deploy Software Wizard.
 
 
 If you don't use the sample package, run the following command using System Center Configuration Manager:
@@ -142,9 +145,12 @@ You can use System Center Configuration Manager to deploy apps to mobile devices
 ### Deploy the OneDrive app for iOS
 
 1. In SCCM, on the Home ribbon, select **Create Application**.
+
 2. In the **Type** box, select **App Package for iOS from App Store**.
+
 3. In the **Location** box, enter the app store URL, https://itunes.apple.com/us/app/onedrive/id823766827?mt=12.
- ![](media/deploy-onedrive-enterprise_image4.png)
+ 
+![](media/deploy-onedrive-enterprise_image4.png)
 
 4. Target the app to users. 
 
@@ -153,19 +159,22 @@ For more info, see [Create iOS applications with System Center Configuration Man
 ### Deploy the OneDrive app for Android
 
 1. In SCCM, on the Home ribbon, select **Create Application**.
+
 2. In the **Type** box, select **App Package for Android on Google Play**.
+
 3. In the **Location** box, enter the app store URL, https://play.google.com/store/apps/details?id=com.microsoft.skydrive&hl=en
 
 ![](media/deploy-onedrive-enterprise_image5.png)
+
 4. Target the app to users.
 
-For more info, see [Create Android applications with System Center Configuration Manager](/sccm/mdm/deploy-use/creating-android-applications/), 
+For more info, see [Create Android applications with System Center Configuration Manager](/sccm/mdm/deploy-use/creating-android-applications/). 
 
 
 ## See also
 <a name="cad"> </a>
 
-[Restrictions and limitations when you sync files and folders using the new OneDrive sync client](https://go.microsoft.com/fwlink/?LinkId=717734)
+[Invalid file names and file types in OneDrive, OneDrive for Business, and SharePoint](https://support.office.com/article/64883a5d-228e-48f5-b3d2-eb39e07630fa)
 
  
 

@@ -37,6 +37,8 @@ So, how you do move from publishing sites to communication sites? Here are some 
 
 -   [Audience targeting](#audience-targeting)
 
+Additionally, the SharePoint Modernization scanner is a tool that you can use to find out which classic publishing features are used in your tenant or in a subset of site collections. Find this tool and more information about it in [Modernize classic publishing portals.](https://docs.microsoft.com/en-us/sharepoint/dev/transform/modernize-publishing-portal)
+
 ## Structure and navigation – use a hub site
 
 Let’s say your organization has a publishing site for Human Resources, with subsites for Benefits, Policies, Training, and Careers. It might be organized like this:

@@ -28,7 +28,7 @@ This article describes how global admins and SharePoint admins in Office 365 can
 ## Add or remove site collection admins
 <a name="__toc341786265"> </a>
 
-If a site belongs to an Office 365 group, you can add or remove group members in the Office 365 admin center. For info, see [Add or remove members from Office 365 groups using the Office 365 admin center](https://support.office.com/article/e186d224-a324-4afa-8300-0e4fc0c3000a). 
+If a site belongs to an Office 365 group, you can add or remove group members in the Microsoft 365 admin center. For info, see [Add or remove members from Office 365 groups using the Office 365 admin center](https://support.office.com/article/e186d224-a324-4afa-8300-0e4fc0c3000a). 
   
 If you want to change the admins for a communication site or a site that belongs to an Office 365 group, and you as the global or SharePoint admin are also an owner of the site, see [Manage your SharePoint site settings](https://support.office.com/article/8376034d-d0c7-446e-9178-6ab51c58df42#__BKMKMngSitePermissions). If you aren't a site owner, you need to use PowerShell to add or remove site owners. For info, see [Add-PnPSiteCollectionAdmin](https://go.microsoft.com/fwlink/?linkid=872301) and [Remove-PnPSiteCollectionAdmin](https://go.microsoft.com/fwlink/?linkid=872302).
   
@@ -36,7 +36,7 @@ To add or remove site collection admins on classic sites, use the SharePoint adm
   
 1. Sign in to Office 365 as a global admin or SharePoint admin.
     
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
 3. In the left pane, choose **Admin centers** \> **SharePoint**.
     

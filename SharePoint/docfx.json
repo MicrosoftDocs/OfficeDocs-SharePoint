@@ -82,6 +82,7 @@
         "searchScope": { 
             "SharePointOnline/*.md": ["SharePoint Online"] }},
     "template": [],
-    "dest": "OfficeDocs-SharePoint"
+    "dest": "OfficeDocs-SharePoint",
+    "markdownEngineName": "markdig"    
   }
 }
