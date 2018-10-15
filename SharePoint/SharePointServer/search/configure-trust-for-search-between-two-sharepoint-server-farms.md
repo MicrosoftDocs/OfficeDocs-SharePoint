@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 3ebcdcdf-593e-44bd-b60d-16efd5f07a16
-description: "Summary: Configure a SharePoint Server content farm that receives search queries to trust the SharePoint Server 2019 Public Preview farm, SharePoint Server 2016 farm, or SharePoint Server 2013 that sends the queries."
+description: "Summary: Configure a SharePoint Server content farm that receives search queries to trust the SharePoint Server 2019 farm, SharePoint Server 2016 farm, or SharePoint Server 2013 that sends the queries."
 ---
 
 # Configure trust for search between two SharePoint Server farms
 
- **Summary:** Configure a SharePoint Server content farm that receives search queries to trust the SharePoint Server 2019 Public Preview farm, SharePoint Server 2016 farm, or SharePoint Server 2013 that sends the queries. 
+ **Summary:** Configure a SharePoint Server content farm that receives search queries to trust the SharePoint Server 2019 farm, SharePoint Server 2016 farm, or SharePoint Server 2013 that sends the queries. 
   
 To configure an on-premises SharePoint Server content farm to return results from its search index to a separate on-premises SharePoint Server farm, you must perform the following two main procedures:
   

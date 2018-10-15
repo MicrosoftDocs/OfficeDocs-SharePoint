@@ -1,5 +1,5 @@
 ---
-title: "Upgrade content databases to SharePoint Server 2019 Public Preview"
+title: "Upgrade content databases to SharePoint Server 2019"
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
@@ -12,14 +12,14 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: d0a50e40-5322-4f7a-a3a4-c4660c879666
-description: "Summary: Learn how to upgrade content databases from SharePoint Server 2016 to SharePoint Server 2019 Public Preview."
+description: "Summary: Learn how to upgrade content databases from SharePoint Server 2016 to SharePoint Server 2019."
 ---
 
-# Upgrade content databases to SharePoint Server 2019 Public Preview
+# Upgrade content databases to SharePoint Server 2019
 
- **Summary:** Learn how to upgrade content databases from SharePoint Server 2016 to SharePoint Server 2019 Public Preview. 
+ **Summary:** Learn how to upgrade content databases from SharePoint Server 2016 to SharePoint Server 2019. 
   
-When you upgrade from SharePoint Server 2016 to SharePoint Server 2019 Public Preview, you must use a database attach upgrade, which means that you upgrade only the content for your environment and not the configuration settings. After you have configured the SharePoint Server 2016 environment, copied the content and service application databases, and upgraded the service applications, you can attach and upgrade the content databases to SharePoint Server 2019 Public Preview. This article explains the steps you take to attach and upgrade the content databases to SharePoint Server 2019 Public Preview.
+When you upgrade from SharePoint Server 2016 to SharePoint Server 2019, you must use a database attach upgrade, which means that you upgrade only the content for your environment and not the configuration settings. After you have configured the SharePoint Server 2016 environment, copied the content and service application databases, and upgraded the service applications, you can attach and upgrade the content databases to SharePoint Server 2019. This article explains the steps you take to attach and upgrade the content databases to SharePoint Server 2019.
   
 **Phase 4 of the upgrade process: Upgrade content databases**
 
@@ -27,7 +27,7 @@ When you upgrade from SharePoint Server 2016 to SharePoint Server 2019 Public Pr
   
 |||
 |:-----|:-----|
-|![123 steps](../media/mod_icon_howTo_numeric_M.png)| This is the fourth phase in the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019 Public Preview. The process includes the following phases that must be completed in order:  <br/> [Create the SharePoint Server 2019 Public Preview farm for a database attach upgrade](create-the-sharepoint-server-2019-farm-for-a-database-attach-upgrade.md) <br/> [Copy databases to the new farm for upgrade to SharePoint Server 2019 Public Preview](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2019.md) <br/> [Upgrade service applications to SharePoint Server 2019 Public Preview](upgrade-service-applications-to-sharepoint-server-2019.md) <br/> [Upgrade content databases to SharePoint Server 2019 Public Preview](upgrade-content-databases-2019.md) (this phase)  <br/><br/>  For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server 2019 Public Preview](overview-of-the-upgrade-process-2019.md).  <br/> |
+|![123 steps](../media/mod_icon_howTo_numeric_M.png)| This is the fourth phase in the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019. The process includes the following phases that must be completed in order:  <br/> [Create the SharePoint Server 2019 farm for a database attach upgrade](create-the-sharepoint-server-2019-farm-for-a-database-attach-upgrade.md) <br/> [Copy databases to the new farm for upgrade to SharePoint Server 2019](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2019.md) <br/> [Upgrade service applications to SharePoint Server 2019](upgrade-service-applications-to-sharepoint-server-2019.md) <br/> [Upgrade content databases to SharePoint Server 2019](upgrade-content-databases-2019.md) (this phase)  <br/><br/>  For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server 2019](overview-of-the-upgrade-process-2019.md).  <br/> |
    
 ## Before you begin
 
@@ -48,7 +48,7 @@ Create a web application for each web application that existed in the SharePoint
     
 - Use the same authentication method.
     
-    Because claims-based authentication is now the default option for SharePoint Server 2019 Public Preview, you must use Microsoft PowerShell to create a web application that uses Windows Classic authentication. .
+    Because claims-based authentication is now the default option for SharePoint Server 2019, you must use Microsoft PowerShell to create a web application that uses Windows Classic authentication. .
     
 - Recreate managed paths.
     
@@ -89,14 +89,14 @@ In this step, you manually transfer all customizations to your new farm. Make su
     
 - Any other components or files on which your sites depend.
     
-The installation for SharePoint Server 2019 Public Preview continues to use 16 as its major version number including in the file system paths. 
+The installation for SharePoint Server 2019 continues to use 16 as its major version number including in the file system paths. 
   
 ## Verify custom components
 <a name="VerifyCustom"> </a>
 
 To make sure that you have identified all custom components for your environment, use the **Stsadm -o enumallwebs** operation in the SharePoint Server 2016 environment and use the **includefeatures** and **includewebparts** parameters. This operation can report the templates, features, Web Parts, and other custom elements that are used for each site. For more information about how to use the **enumallwebs** operation, see [Enumallwebs: Stsadm operation (Office SharePoint Server)](https://docs.microsoft.com/en-us/previous-versions/office/sharepoint-2007-products-and-technologies/dd789634(v=office.12)).
   
-You can also use the [Get-SPWeb](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/get-spweb?view=sharepoint-ps) cmdlet in your SharePoint Server 2016 environment to see template that are associated with each site and then verify that the template is installed in your SharePoint Server 2019 Public Preview environment. For more information about this operation, see [Get-SPWeb](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/get-spweb?view=sharepoint-ps).
+You can also use the [Get-SPWeb](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/get-spweb?view=sharepoint-ps) cmdlet in your SharePoint Server 2016 environment to see template that are associated with each site and then verify that the template is installed in your SharePoint Server 2019 environment. For more information about this operation, see [Get-SPWeb](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/get-spweb?view=sharepoint-ps).
   
 Before you attach the content databases to the web applications, use the [Test-SPContentDatabase](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Test-SPContentDatabase?view=sharepoint-ps) cmdlet to verify that you have all the custom components that you must have for that database. 
   
@@ -143,13 +143,13 @@ When you attach a content database, for a web application that spans multiple co
   
 For My Sites, attach the content database that contains the My Site host before attaching databases that contain the My Sites.
   
-By default, when you created the web applications in the new SharePoint Server 2019 Public Preview environment, a content database was created for each web application. You can ignore these default databases until after you have attached your SharePoint Server 2016 databases, and then you can delete the default databases.
+By default, when you created the web applications in the new SharePoint Server 2019 environment, a content database was created for each web application. You can ignore these default databases until after you have attached your SharePoint Server 2016 databases, and then you can delete the default databases.
   
 > [!IMPORTANT]
 > If you are moving the content databases across domains or forests or to another environment that has different service accounts, make sure that the permissions for the service accounts are still correct before you attach the databases. 
   
 > [!NOTE]
-> One frequent cause of failures during upgrade is that the environment is missing customized features, solutions, or other elements. Be sure that all custom elements from the SharePoint Server 2016 environment are installed on your servers in the SharePoint Server 2019 Public Preview environment before you start the upgrade process. Use the [Test-SPContentDatabase](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Test-SPContentDatabase?view=sharepoint-ps) cmdlet to identify custom elements that your sites might be missing. 
+> One frequent cause of failures during upgrade is that the environment is missing customized features, solutions, or other elements. Be sure that all custom elements from the SharePoint Server 2016 environment are installed on your servers in the SharePoint Server 2019 environment before you start the upgrade process. Use the [Test-SPContentDatabase](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Test-SPContentDatabase?view=sharepoint-ps) cmdlet to identify custom elements that your sites might be missing. 
   
  **To attach a content database to a web application by using PowerShell**
   
@@ -170,7 +170,7 @@ By default, when you created the web applications in the new SharePoint Server 2
     
   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
-    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2019 Public Preview cmdlets. 
+    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2019 cmdlets. 
     
     > [!NOTE]
     > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
@@ -191,12 +191,12 @@ By default, when you created the web applications in the new SharePoint Server 2
     
   -  _URL_ is the URL for the web application that will host the sites. 
     
-For more information, see [Mount-SPContentDatabase](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/mount-spcontentdatabase?view=sharepoint-ps). After the databases are upgraded, the site collections are automatically upgraded. For additional information on how to upgrade a site collection, see [Upgrade a site collection to SharePoint Server 2019 Public Preview](upgrade-a-site-collection-2019.md).
+For more information, see [Mount-SPContentDatabase](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/mount-spcontentdatabase?view=sharepoint-ps). After the databases are upgraded, the site collections are automatically upgraded. For additional information on how to upgrade a site collection, see [Upgrade a site collection to SharePoint Server 2019](upgrade-a-site-collection-2019.md).
   
 ## Verify upgrade for the first database
 <a name="Status"> </a>
 
-After you attach a database, you can use the **Upgrade Status** page in Central Administration to check the status of upgrade on your databases. After the upgrade process is complete, you can review the upgrade log file to see whether upgrade produced issues. You can use a PowerShell cmdlet to check the upgrade status for all the content databases. For more information about verifying and troubleshooting upgrade, see [Verify database upgrades in SharePoint Server 2019 Public Preview](verify-upgrade-for-databases-2019.md).
+After you attach a database, you can use the **Upgrade Status** page in Central Administration to check the status of upgrade on your databases. After the upgrade process is complete, you can review the upgrade log file to see whether upgrade produced issues. You can use a PowerShell cmdlet to check the upgrade status for all the content databases. For more information about verifying and troubleshooting upgrade, see [Verify database upgrades in SharePoint Server 2019](verify-upgrade-for-databases-2019.md).
   
  **To view the Upgrade Status page**
   
@@ -235,7 +235,7 @@ After you attach a database, you can use the **Upgrade Status** page in Central 
     
   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
-    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2019 Public Preview cmdlets. 
+    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2019 cmdlets. 
     
     > [!NOTE]
     > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
@@ -248,7 +248,7 @@ After you attach a database, you can use the **Upgrade Status** page in Central 
   Get-SPContentDatabase | ft Name, NeedsUpgradeIncludeChildren
   ```
 
-This cmdlet returns a table-style list of databases in your farm and indicates whether the database needs an upgrade to SharePoint Server 2019 Public Preview.
+This cmdlet returns a table-style list of databases in your farm and indicates whether the database needs an upgrade to SharePoint Server 2019.
   
 ## Attach the remaining databases
 <a name="AddOtherDBs"> </a>
@@ -267,7 +267,7 @@ After you upgrade the databases, you might want to perform additional steps to m
   
 - Migrate user accounts to claims authentication, if it is necessary.
     
-    By default, new web applications in SharePoint Server 2019 Public Preview use claims authentication. If you were using classic authentication in the previous environment, you must migrate the users to claims authentication. 
+    By default, new web applications in SharePoint Server 2019 use claims authentication. If you were using classic authentication in the previous environment, you must migrate the users to claims authentication. 
     
 - Update links that are used in any upgraded InfoPath form templates.
     
@@ -285,6 +285,6 @@ After you upgrade the databases, you might want to perform additional steps to m
     
 |||
 |:-----|:-----|
-|![123 steps](../media/mod_icon_howTo_numeric_M.png)|This is the fourth phase in the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019 Public Preview.  <br/> For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server 2019 Public Preview](overview-of-the-upgrade-process-2019.md).  <br/> |
+|![123 steps](../media/mod_icon_howTo_numeric_M.png)|This is the fourth phase in the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019.  <br/> For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server 2019](overview-of-the-upgrade-process-2019.md).  <br/> |
    
 
