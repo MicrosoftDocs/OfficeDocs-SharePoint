@@ -1,5 +1,5 @@
 ---
-title: "Plan enterprise search architecture in SharePoint Server 2016"
+title: "Plan enterprise search architecture in SharePoint Server"
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen
@@ -13,7 +13,7 @@ ms.assetid: 2b2c3b2a-49f3-4c96-9efd-0d557f0332db
 description: "Summary: Learn how to plan an enterprise search architecture."
 ---
 
-# Plan enterprise search architecture in SharePoint Server 2016
+# Plan enterprise search architecture in SharePoint Server
 
  **Summary:** Learn how to plan an enterprise search architecture. 
   

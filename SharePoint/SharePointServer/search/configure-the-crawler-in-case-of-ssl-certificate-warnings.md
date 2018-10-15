@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 432973c1-21c1-4fdc-87e6-a2252596937a
-description: "Summary: Specify whether a SharePoint Server 2016 or a SharePoint Server 2013 crawler will crawl a site if there is a problem with the site's Secure Sockets Layer (SSL) certificate."
+description: "Summary: Specify whether a SharePoint Server crawler will crawl a site if there is a problem with the site's Secure Sockets Layer (SSL) certificate."
 ---
 
 # Configure the crawler in case of SSL certificate warnings in SharePoint Server
 
- **Summary:** Specify whether a SharePoint Server 2016 or a SharePoint Server 2013 crawler will crawl a site if there is a problem with the site's Secure Sockets Layer (SSL) certificate. 
+ **Summary:** Specify whether a SharePoint Server crawler will crawl a site if there is a problem with the site's Secure Sockets Layer (SSL) certificate. 
   
 When a crawler requests a connection to crawl a site, the system generates a warning if there is a problem with the site's SSL certificate. By default, the crawler does not crawl the site when this happens. For security reasons, we strongly recommend that you do not change this default crawler behavior unless you have sufficient reason to do so.
   

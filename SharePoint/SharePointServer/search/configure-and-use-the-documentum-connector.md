@@ -17,7 +17,7 @@ description: "This article describes how to install and configure the Microsoft 
 
 This article describes how to install and configure the Microsoft SharePoint Server Indexing Connector for Documentum.
   
-The Microsoft SharePoint Server Indexing Connector for Documentum enables you to index content that is stored in the EMC Documentum system. This article describes how to install and configure the Indexing Connector for Documentum for use with SharePoint Server 2016 or SharePoint Server 2013.
+The Microsoft SharePoint Server Indexing Connector for Documentum enables you to index content that is stored in the EMC Documentum system. This article describes how to install and configure the Indexing Connector for Documentum for use with SharePoint Server.
   
 The Indexing Connector for Documentum:
   
@@ -43,7 +43,7 @@ Before you begin this operation, review the following system prerequisites and r
   
 - The supported operating systems are Windows Server 2008 R2, Windows Server 2008 Service Pack 2, and Windows Server 2012.
     
-- One of the following SharePoint 2016 or SharePoint 2013 Products is installed and configured: 
+- One of the following SharePoint 2019 Public Preview, SharePoint 2016, or SharePoint 2013 Products is installed and configured: 
     
   - Microsoft SharePoint Server Enterprise
     
