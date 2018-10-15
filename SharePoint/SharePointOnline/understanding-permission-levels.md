@@ -56,8 +56,6 @@ After you have created a SharePoint site, you may want to provide or restrict us
   
 ## Overview and permissions inheritance
 
-For a visual overview, check out [Video: Understanding permissions in SharePoint](https://support.office.com/article/c13a4f37-eea1-48f6-8dac-14ac37d73903.aspx).
-  
 If you work on a site, you are working inside a site collection. Every site exists in a site collection, which is a group of sites under a single top-level site. The top-level site is called the root site of the site collection.
   
 The following illustration of a site collection shows a simple hierarchy of sites, lists and list items. The permissions scopes are numbered, starting at the broadest level at which permissions can be set, and ending at the narrowest level (a single item in a list).
@@ -99,7 +97,7 @@ You can make changes to any of the default permissions levels, except **Full Con
 |View Only  <br/> |View pages, items, and documents. Any document that has a server-side file handler can be viewed in the browser but not downloaded. File types that do not have a server-side file handler (cannot be opened in the browser), such as video files, .pdf files, and .png files, can still be downloaded.  <br/> |
 |||
    
-> [!SECURITY NOTE]
+> [!NOTE]
 > Office 365 plans create a security group called "Everyone except external users" that contains every person you add into the Office 365 directory (except people who you add explicitly as External Users). This security group added to the Members group automatically, so that users in Office 365 can access and edit the SharePoint Online site. In addition, Office 365 plans create a security group called "Company Administrators", which contains Office 365 Admins (such as Global and Billing Admins). This security group is added to the Site Collection Administrators group. 
   
 ## Permission levels and SharePoint groups
@@ -264,7 +262,7 @@ The following table describes the permissions that apply to personal views and w
 
  *Limited-access user permission lockdown mode*  is a [site collection feature](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04) that you can use to secure published sites. When lockdown mode is turned on, fine-grain permissions for the limited access permission level are reduced. The following table details the default permissions of the limited access permission level and the reduced permissions when the lockdown mode feature is turned on. 
   
-|**Permission**|**Limited access � default**|**Limited access � lockdown mode**|
+|**Permission**|**Limited access - default**|**Limited access - lockdown mode**|
 |:-----|:-----|:-----|
 |List permissions: View Application Pages  <br/> |X  <br/> ||
 |Site permissions: Browse User Information  <br/> |X  <br/> |X  <br/> |

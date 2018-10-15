@@ -29,19 +29,6 @@ description: "Recommendations when you plan permissions in SharePoint Online, in
 # Plan your permissions strategy
 
 An effective permissions strategy will enhance the manageability and performance of your site, ensure compliance with your organization's data governance policies, and minimize the cost of maintenance for you and your organization.
-  
-## In this article
-<a name="__top"> </a>
-
-> [Why strategize?](plan-your-permissions-strategy.md#__toc268492727)
-    
-> [Tips for an effective permissions strategy](plan-your-permissions-strategy.md#__toc252213638)
-    
-> [The principle of least privilege](plan-your-permissions-strategy.md#__toc268492729)
-    
-> [Work with security groups](plan-your-permissions-strategy.md#__toc268492730)
-    
-> [Work with permissions inheritance](plan-your-permissions-strategy.md#__toc268492731)
     
 ## Why strategize?
 <a name="__toc268492727"> </a>
@@ -54,7 +41,7 @@ A good permissions strategy can catch these problems before they get started.
   
 An effective permissions strategy gains you control in three main areas:
   
-- **Manageability** ** and performance. ** The permissions settings you choose have long-term consequences for how much work it takes to manage your sites, and how speedily your sites respond to user commands. 
+- **Manageability and performance.** The permissions settings you choose have long-term consequences for how much work it takes to manage your sites, and how speedily your sites respond to user commands. 
     
 - **Data governance.** A planned permissions strategy can help you ensure compliance with your organization's data governance policies, which may be unique to your company or an essential part of complying with financial and accounting disclosure and retention legislation, such as Sarbanes-Oxley. 
     
@@ -99,7 +86,3 @@ Give people the lowest permission levels they need to perform their assigned tas
 - Organize your content to take advantage of permissions inheritance.
     
 - Consider segmenting your content by security level. Create a site or a library specifically for sensitive documents, rather than having them scattered in a larger library and protected by unique permissions.
-    
-[An effective permissions strategy will enhance the manageability and performance of your site, ensure compliance with your organization's data governance policies, and minimize the cost of maintenance for you and your organization.](plan-your-permissions-strategy.md#__top)
-  
-

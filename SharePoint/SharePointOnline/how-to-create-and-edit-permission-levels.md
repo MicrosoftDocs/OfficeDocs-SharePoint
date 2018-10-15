@@ -102,7 +102,7 @@ We recommend that you don't make any changes to the default permission levels th
     
   - Add or remove permissions to the level.
     
-3. After you have made you changes, click ** Submit. **
+3. After you have made you changes, click **Submit.**
     
 You can delete any permission level, except for **Full Control** and **Limited Access**. We don't recommend that you delete a default permission level.
   
