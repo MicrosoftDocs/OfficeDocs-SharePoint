@@ -154,8 +154,8 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server 2016 and 201
                 <div class="card">
                     <div class="cardText">
                         <h3>Before you start</h3>
-                        <p><a href="/sharepoint/install/hardware-and-software-requirements">Hardware and software requirements</a></p>
-                        <p><a href="/sharepoint/install/prerequisites">Prerequisites</a></p>
+                        <p><a href="/sharepoint/install/hardware-and-software-requirements-2019">Hardware and software requirements</a></p>
+                        <p><a href="/sharepoint/hybrid/sharepoint-hybrid-sites-and-search">Hybrid</a></p>
                         <p><a href="/sharepoint/security-for-sharepoint-server/security-for-sharepoint-server">Security</a></p>
                     </div>
                 </div>
