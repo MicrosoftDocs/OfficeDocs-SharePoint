@@ -31,10 +31,7 @@ description: "Learn to create, manage, and delete groups in SharePoint and Share
 A SharePoint group is a collection of users who all have the same set of permissions to sites and content. Rather than assign permissions one person at a time, you can use groups to conveniently assign the same permission level to many people at once. 
   
 > [!NOTE]
->  To do the following steps, you need a permission level that includes permissions to  *Create Groups*  and  *Manage Permissions*  . The **Full Control** level has both. For more information, see [Understanding permission levels in SharePoint](understanding-permission-levels.md). 
-  
-## I want to
-<a name="__top"> </a>
+>  To do the following steps, you need a permission level that includes permissions to  *Create Groups*  and  *Manage Permissions*  . The **Full Control** level has both. For more information, see [Understanding permission levels in SharePoint](understanding-permission-levels.md).
 
 ### Create a group
 <a name="__toc340230102"> </a>
@@ -72,7 +69,7 @@ You can add users to a group at any time.
     
 2. By default, the **Share** dialog that appears displays the message **Invite people to Edit** or **Invite people**. This invites the users who you add to join the SharePoint Members group. To choose a different group and permission level, click **Show options** and then choose a different SharePoint group or permission level under **Select a group or permission level**.
   
-![Add a member to a group dialog](media/1cc64d51-54cd-41e1-a4fd-db317e38251c.PNG)
+    ![Add a member to a group dialog](media/1cc64d51-54cd-41e1-a4fd-db317e38251c.PNG)
   
 1. In the **Enter names, email addresses, or Everyone** box, enter the name or email address of the user or group that you want to add. When the name appears in a confirmation box below your entry, select the name to add it to the text box. 
     
