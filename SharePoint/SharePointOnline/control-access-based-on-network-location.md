@@ -3,7 +3,6 @@ title: "Control access to SharePoint Online and OneDrive data based on network l
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 6/19/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
@@ -56,7 +55,8 @@ Here are some important considerations for setting a location-based policy:
     
     ![Control access option in SharePoint admin center](media/2c11f07c-ec95-4aa6-b221-4cfaba31034e.png)
   
-## Set a location-based policy using Windows PowerShell
+> [!IMPORTANT]
+    > Make sure you include your own IP address so you don't lock yourself out. This setting not only restricts access to OneDrive and SharePoint sites, but also to the OneDrive and SharePoint admin centers. If you lock yourself out and can't connect from an IP address or range you specified, you will need to contact Support for help.
 
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
     
