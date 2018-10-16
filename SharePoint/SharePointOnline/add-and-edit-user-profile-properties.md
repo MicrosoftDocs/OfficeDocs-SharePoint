@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 6/19/2018
 ms.audience: Admin
 ms.topic: article
-ms.service: o365-administration
+ms.service: sharepoint-online
 localization_priority: Normal
 search.appverid:
 - SPO160
@@ -14,7 +14,7 @@ search.appverid:
 - GSP150
 - MET150
 ms.assetid: 85091402-737f-4bb9-99a7-bc5f194502a8
-description: "Learn how to add and edit properties on SharePoint User profiles that are configured from information that your organization supplies to the Office 365 directory service."
+description: "Learn how to add and edit properties on SharePoint user profiles that are configured from information that your organization supplies to the Office 365 directory service."
 ---
 
 # Add and edit user profile properties in SharePoint Online

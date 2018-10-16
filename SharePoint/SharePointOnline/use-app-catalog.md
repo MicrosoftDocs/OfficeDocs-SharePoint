@@ -8,7 +8,7 @@ ms.audience: Admin
 ms.topic: article
 f1_keywords:
 - 'ManageAppCatalog'
-ms.service: o365-administration
+ms.service: sharepoint-online
 localization_priority: Normal
 ms.collection: Strat_SP_admin
 search.appverid:

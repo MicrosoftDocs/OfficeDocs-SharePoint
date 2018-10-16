@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 6/21/2018
 ms.audience: Admin
 ms.topic: conceptual
-ms.service: o365-administration
+ms.service: sharepoint-online
 localization_priority: Normal
 ms.collection: Ent_O365
 ms.custom: Adm_O365

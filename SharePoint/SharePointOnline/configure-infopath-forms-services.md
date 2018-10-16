@@ -9,14 +9,14 @@ ms.topic: article
 f1_keywords:
 - 'SPOTACfgInfoPathWebSrvcPrx'
 - 'SPOTACfgInfoPathSrvc'
-ms.service: o365-administration
+ms.service: sharepoint-online
 localization_priority: Normal
 search.appverid:
 - SPO160
 - BSA160
 - MET150
 ms.assetid: a8609546-c0d7-4956-81b6-08e93eb4b290
-description: "How to configure Infopath setting in SharePoint Online for Enterprises. Including form render settings and exempt user agents."
+description: "How to configure Infopath in SharePoint Online."
 ---
 
 # Configure InfoPath Forms Services

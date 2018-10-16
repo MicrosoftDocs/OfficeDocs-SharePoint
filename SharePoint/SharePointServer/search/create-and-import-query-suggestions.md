@@ -47,7 +47,7 @@ In this article, you'll learn:
   
 Now that you have a query suggestions file, the next task is to import it to SharePoint Server.
   
-## How to import a query suggestions file to SharePoint Server
+## How to import a query suggestions file to SharePoint Online
 <a name="BKMK_HowToImportQuerySuggestionsFileToSharepointOnline"> </a>
 
 1. From the Office 365 Admin menu, select **SharePoint**. 
