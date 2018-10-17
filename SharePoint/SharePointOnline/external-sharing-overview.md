@@ -11,7 +11,7 @@ f1_keywords:
 - 'O365P_AddSPExtlUser'
 - 'O365M_EnableSPExtlUser'
 - 'O365E_EnableSPExtlUser'
-ms.service: o365-administration
+ms.service: sharepoint-online
 localization_priority: Priority
 ms.collection: Strat_OD_share
 ms.custom: Adm_O365

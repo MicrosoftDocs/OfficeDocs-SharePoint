@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 5/22/2018
 ms.audience: ITPro
 ms.topic: overview
-ms.service: o365-administration
+ms.service: sharepoint-online
 localization_priority: Normal
 ms.collection: Ent_O365_Hybrid
 search.appverid:

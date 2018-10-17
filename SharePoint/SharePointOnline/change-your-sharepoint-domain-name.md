@@ -13,7 +13,7 @@ f1_keywords:
 - 'O365E_DomainsWizAdd_SPOUseMultiServices'
 - 'O365E_DomainsProp_SPO'
 - 'O365E_DomainsMain_PublicWebsite'
-ms.service: o365-administration
+ms.service: sharepoint-online
 localization_priority: Priority
 search.appverid:
 - SPO160
