@@ -3,7 +3,6 @@ title: "Control access from unmanaged devices"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 6/28/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
@@ -146,7 +145,7 @@ External users will be affected when you use conditional access policies to bloc
 > Anonymous access links (shareable links that don't require sign-in) are not affected by these policies. Anyone who has an anonymous access link to an item will be able to download the item. For all site collections where you enable conditional access policies, you should disable anonymous access links. 
   
 ## App impact
-<a name="advanced"> </a>
+
 
 Blocking access and blocking download may impact the user experience in some apps, including some Office apps. We recommend that you turn on the policy for some users and test the experience with the apps used in your organization. In Office, make sure to check the behavior in Flow and PowerApps when your policy is on.
   
@@ -154,7 +153,9 @@ Blocking access and blocking download may impact the user experience in some app
 > Apps that run in "app-only" mode in the service, like antivirus apps and search crawlers, are exempted from the policy.</br>If you're using classic SharePoint site templates, site images may not render correctly. This is because the policy prevents the original image files from being downloaded to the browser. 
   
 ## See also
-<a name="advanced"> </a>
+
+
+[Policy recommendations for securing SharePoint sites and files](/microsoft-365/enterprise/sharepoint-file-access-policies)
 
 [Control access to SharePoint Online and OneDrive data based on defined network locations](control-access-based-on-network-location.md)
 
