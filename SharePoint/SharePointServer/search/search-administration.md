@@ -10,31 +10,40 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 820ace03-1fb7-41fd-a077-28b82ebddde3
-description: "Summary: Learn how to manage the search schema and the search topology in SharePoint Server."
+description: "Summary: Learn how to manage the search topology and how to customize the search experience to make it easier for users to find the information they’re looking for."
 ---
 
 # Administer search in SharePoint Server
 
- **Summary:** Learn how to manage the search schema and the search topology in SharePoint Server. 
+ **Summary:** Learn how to manage the search topology and how to customize the search experience to make it easier for users to find the information they’re looking for. 
   
-The following articles provide information about how you operate and manage search in SharePoint Server.
+Below are the main areas where you can customize and impact the search experience for your users and make sure that search is performing the way you want. SharePoint Server 2019 Public Preview has both a classic and a modern search experience. Both search experiences use the same search index to find search results, and some settings can impact both experiences. [Learn about the differences between the search experiences in SharePoint Server](differences-search-2016-2019.md).
+
+## Make sure the content can be found
+
+The content must be crawled and added to the search index for your users to find what they're looking for when they search in SharePoint Server.
+
+[Learn how to manage the index](manage-the-index.md)
+
+[Learn how to manage crawling](manage-crawling.md)
+
+## Make the results in the Search Center look great
+The Search Center is a classic search experience, which you can customize. Presenting the search results the right way makes content easier to find. The Search Center comes with several pages, and you can use the different search Web Parts to help each user find what they're looking for. [Learn how to manage the Search Center](manage-the-search-center-in-sharepoint-server.md)
+
+## Show relevant search results
+All search results are not relevant to everyone all the time. There are a number of settings that you can use to show users the most relevant results. [Learn how to manage relevance](manage-relevance.md).
+
+## Check logs and reports
+See how you can check if the crawler has added content to the search index, and if your users are finding what they're looking for.
+
+[Learn how to view search diagnostics](view-search-diagnostics.md)
+
+[Learn how to enable query logging](enable-query-logging.md)
+
+[Learn how to enable search alerts](enable-search-alerts.md)
 
 
-  
-## Articles about administering search
-
-The following articles about administering search in SharePoint Server are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
-  
-|                                                                   **Content**                                                                    |                                                                **Description**                                                                 |
-| :----------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Manage the Search Center in SharePoint Server](manage-the-search-center-in-sharepoint-server.md)                                                | Learn about pages that are created in a Search Center site in SharePoint Server, and see articles about how to configure Web Parts.            |
-| [Manage the search index in SharePoint Server 2016](manage-the-index.md)                                                                         | Learn how to manage collection of content in the search index and retrieval from the search index.                                             |
-| [Manage crawling in SharePoint Server](manage-crawling.md)                                                                                       | Learn how to crawl content that you want users to be able to search for in SharePoint Server.                                                  |
-| [Manage search relevance in SharePoint Server](manage-relevance.md)                                                                              | Learn how you can configure settings to provide the most relevant search results.                                                              |
-| [Manage the search topology in SharePoint Server](manage-the-search-topology.md)                                                                 | Learn how to manage search components to scale out the search topology in SharePoint Server.                                                   |
-| [View search diagnostics in SharePoint Server](view-search-diagnostics.md)                                                                       | Learn about search and usage reports, query health reports, crawl health reports and the crawl log to analyze the health of the search system. |
-| [Enable search alerts in SharePoint Server](enable-search-alerts.md)                                                                             | Learn how to enable or disable search alerts.                                                                                                  |
-| [Enable query logging in SharePoint Server](enable-query-logging.md)                                                                             | Learn how to enable or disable query logging.                                                                                                  |
-| [Export and import customized search configuration settings in SharePoint Server](export-and-import-customized-search-configuration-settings.md) | Learn how to import and export customized search configuration settings.                                                                       |
+## Manage the search topology
+To keep search performant, you might need to scale out the search topology by managing the search components. [Learn how to manage the search topology](manage-the-search-topology.md).
    
 

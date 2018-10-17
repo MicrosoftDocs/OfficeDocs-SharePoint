@@ -15,13 +15,11 @@ description: "Summary: Learn how to create and manage result sources in SharePoi
 
 # Configure result sources for search in SharePoint Server
 
- **Summary:**Learn how to create and manage result sources in SharePoint Server.
+ **Summary:** Learn how to create and manage result sources in SharePoint Server.
   
-Result sources limit searches in the classic search experience to certain content or to a subset of search results. SharePoint Server provides 16 pre-defined result sources for the classic search experience. The pre-configured default result source is **Local SharePoint Results**. You can specify a different result source as the default. For more information, see [Understanding result sources for search in SharePoint Server](understanding-result-sources-for-search.md).
+Result sources limit searches to certain content or to a subset of search results. SharePoint Server provides 16 pre-defined result sources for the classic search experience. The pre-configured default result source is **Local SharePoint Results**. You can specify a different result source as the default. The modern search experience uses the default results source, so if you change the default result source for classic search, you also change it for modern search. For more information, see [Understanding result sources for search in SharePoint Server](understanding-result-sources-for-search.md).
 
-> [!IMPORTANT]
-> The modern search experience in SharePoint Server 2019 Public Preview gets results from the default result source. If you change the default result source it impacts both the classic and modern search experiences.
-  
+ 
     
 ## Create a result source
 <a name="BKMK_CreateResutlSource"> </a>
@@ -142,6 +140,9 @@ Finally, on the **Add Result Source** page, in the **Credentials Information** s
 <a name="BKMK_Default"> </a>
 
  You can set any result source as the default result source. Specifying a result source as default can make it easier to edit the query in Search Web Parts. For example, when you add a Content Search Web Part to a page, the Web Part automatically uses the default result source. For more information, see [Configure Search Web Parts in SharePoint Server](../administration/configure-search-web-parts.md).
+
+> [!NOTE]
+> The modern search experience in SharePoint Server 2019 Public Preview gets results from the default result source. If you change the default result source it impacts both the classic and modern search experiences.
   
  **To set a result source as default**
   
