@@ -28,7 +28,7 @@ To learn more, see  [SharePoint and OneDrive Migration Tool](http://spmtreleases
 
 **Microsoft FastTrack**
 
-Additionally, Microsoft offers [Fast Track services](https://fasttrack.microsoft.com/about) can help you migrate your files and folders from file shares and also from **Google Drive** and **Box**.
+Additionally, Microsoft offers [Fast Track services](https://fasttrack.microsoft.com/about) that can help you migrate your files and folders not only from file shares, but also **Google Drive** and **Box**.
  <br><br>Interested in getting started? Visit [FastTrack.microsoft.com](https://fasttrack.microsoft.com/), review resources, and submit a Request for Assistance.
 
 **Migration service providers**
