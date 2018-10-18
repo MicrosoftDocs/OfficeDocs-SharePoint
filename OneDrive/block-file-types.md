@@ -20,8 +20,8 @@ description: "Learn how to prevent users from uploading specific file types usin
 
 You can prevent users from uploading specific file types when they sync their OneDrive for Business files.
 
-    > [!NOTE]
-    > This setting prevents file types from being uploaded but not downloaded. If users already have blocked file types in their OneDrive, the files will sync to their computer, but any changes they make on their computer won't be uploaded. 
+   > [!NOTE]
+   > This setting prevents file types from being uploaded but not downloaded. If users already have blocked file types in their OneDrive, the files will sync to their computer, but any changes they make on their computer won't be uploaded. 
   
  **To block uploading of specific file types**
   
