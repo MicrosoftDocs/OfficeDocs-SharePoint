@@ -15,7 +15,7 @@ description: "Summary: Learn how SharePoint Server uses ranking models to calcul
 
 # Overview of search result ranking in SharePoint Server
 
- **Summary:** Learn how SharePoint Server uses ranking models to calculate the relevance rank of search results for the classic search experience, and how you can influence the order of search results by using query rules, the search schema and ranking models. 
+ **Summary:** Learn how SharePoint Server uses ranking models to calculate the relevance rank of search results, and how you can influence the order of search results by using query rules, the search schema and ranking models. 
   
 The search engine calculates the relevance rank, that is to say, the order in which the search results for a query appear. The ranking model is at the core of this calculation. In most cases, you can influence relevance by using the available SharePoint Server ranking models in combination with query rules without having to consider customizing any ranking models. 
   
@@ -25,7 +25,7 @@ The search engine calculates the relevance rank, that is to say, the order in wh
 
 There are several ranking models in SharePoint Server that are optimized for specific cases. These ranking models provide an effective ranking of results without any further customization. A ranking model contains a collection of ranking features to calculate the rank score of a particular item, for example a document, in the search results. The type of content that is ranked determines the set of ranking features that the ranking model uses and the relative importance of these different ranking features. 
   
-For the default search verticals **Everything**, **Videos**, **Conversations** and **People**, the search system uses the most appropriate ranking model automatically. If you create your own search vertical, you can configure which ranking model to use for that vertical. 
+In the classic search experience, for the default search verticals **Everything**, **Videos**, **Conversations** and **People**, the search system uses the most appropriate ranking model automatically. If you create your own search vertical, you can configure which ranking model to use for that vertical. 
   
 SharePoint Server provides the following types of ranking models:
   
@@ -87,6 +87,8 @@ Ranking models use information from the search index, as explained in the follow
 You can influence the ranking of search results in the following ways:
   
 **Query rules: define which actions to take when a query matches a condition.**
+
+Query rules apply to classic search results, with one exception. [Learn what's different for modern search.](differences-search-2016-2019.md)
     
   - Promote particular results to the top of the search results.
     
@@ -109,6 +111,8 @@ You can influence the ranking of search results in the following ways:
     See the section [Influence the ranking of search results by using the search schema](overview-of-search-result-ranking.md#Ranking_Schema) for more information. 
     
 **Create and use a custom ranking model.**
+
+Custom ranking models only apply to the classic search experience.
     
   - Customize a copy of an existing ranking model, deploy it and use this custom model to rank search results.
     

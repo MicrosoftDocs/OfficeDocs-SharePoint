@@ -16,7 +16,9 @@ description: "Summary:Learn how to manage collection of content in the search in
 
  **Summary:** Learn how to manage collection of content in the search index and retrieval from the search index.
   
-The following articles describe how you can manage the search index. For SharePoint Server 2019 Public Preview these articles also apply to the modern search experience.
+The following articles describe how you can manage the search index. 
+
+SharePoint Server 2019 Public Preview has both a classic and a modern search experience. Both search experiences use the same search index to find search results. [Learn about the differences between the search experiences in SharePoint Server](differences-search-2016-2019.md).
   
 ## Articles about managing the search index
 

@@ -17,7 +17,7 @@ description: "Summary: Learn how to use Windows PowerShell to manage search comp
 
  **Summary:** Learn how to use Windows PowerShell to manage search components in an existing search topology that has content in the SharePoint Server search index. Use these procedures to scale out or scale down the search topology of the Search service application. 
   
-The procedures and the examples in this article assume that SharePoint ServerSharePoint Server 2016 and the Search service application are installed, and that there is an existing search topology and items in the SharePoint Server search index. If SharePoint Server and the Search service application are newly installed and there are no items in the SharePoint Server search index, follow the procedures in [Change the default search topology in SharePoint Server](change-the-default-search-topology.md).
+The procedures and the examples in this article assume that SharePoint ServerSharePoint Server and the Search service application are installed, and that there is an existing search topology and items in the SharePoint Server search index. If SharePoint Server and the Search service application are newly installed and there are no items in the SharePoint Server search index, follow the procedures in [Change the default search topology in SharePoint Server](change-the-default-search-topology.md).
   
 The procedures in this article apply to the following search components:
   
@@ -48,7 +48,7 @@ Before you begin, review the following prerequisites.
 - SharePoint Server is installed on all the servers that you want to host search components on. The servers have been added to the farm and you are an administrator on all these servers. You can create new application servers or define application servers in an existing deployment.
     
 > [!IMPORTANT]
-> The procedures in this article use Microsoft PowerShell. You can run the Microsoft PowerShell commands on any server in the farm. However, if you are performing multiple search topology procedures you should use the same SharePoint 2016 Management Shell for all Microsoft PowerShell commands so that you can share Microsoft PowerShell object references between commands. 
+> The procedures in this article use Microsoft PowerShell. You can run the Microsoft PowerShell commands on any server in the farm. However, if you are performing multiple search topology procedures you should use the same SharePoint Management Shell for all Microsoft PowerShell commands so that you can share Microsoft PowerShell object references between commands. 
   
 ## Start a search service instance on a server
 <a name="Search_Comp_SSI"> </a>
@@ -137,7 +137,7 @@ To view a list of search components in the active search topology with their pro
   
 1. Verify that the user account that is performing this procedure is a member of the Farm Administrators group.
     
-2. Start a SharePoint Management Shell. If you already have an open SharePoint 2016 Management Shell in which you have created reusable SharePoint Management Shell object references, use the open shell instead.
+2. Start a SharePoint Management Shell. If you already have an open SharePoint Management Shell in which you have created reusable SharePoint Management Shell object references, use the open shell instead.
     
 3. At the Microsoft PowerShell command prompt, type the following command(s):
     

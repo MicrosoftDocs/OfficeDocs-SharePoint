@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 240ded25-3e64-4be4-84f3-346fda89827f
-description: "Summary: Learn how to change the way search results are displayed in SharePoint Server."
+description: "Summary: Learn how to change the way search results are displayed in classic search in SharePoint Server."
 ---
 
 # How to change the way search results are displayed in SharePoint Server
 
- **Summary:** Learn how to change the way search results are displayed in SharePoint Server. 
+ **Summary:** Learn how to change the way search results are displayed in classic search in SharePoint Server. 
   
 SharePoint Server and SharePoint Online include many default search features that help users find what they're looking for. But you might want your search results to look a certain way, for example, display information that's specific to your company or business.
   
-This series will explain how to customize the way search results are displayed. To help explain these display concepts, we'll use examples from an internal list of Microsoft publications, a frequently-used tool among Microsoft content publishing professionals.
+This series will explain how to customize the way search results are displayed in the classic search experience. To help explain these display concepts, we'll use examples from an internal list of Microsoft publications, a frequently-used tool among Microsoft content publishing professionals.
   
 As you know, Microsoft publishes thousands of articles across TechNet, MSDN and Office.com. To help in the publishing process, we use several SharePoint lists. Each item in a list represents an article or a media file. To quickly find information about a list item, we've set up a Search Center that searches across all of the lists.
   

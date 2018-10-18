@@ -30,7 +30,7 @@ The article outlines a solution that will help you to install and synchronize ac
 - [The Microsoft PowerShell to start the SharePoint Synchronization Configuration](use-a-sample-mim-solution-in-sharepoint-server-2016.md#BKMK_StartSyncConfig)
     
 > [!IMPORTANT]
-> The solutions files referenced in this article are available for download [here](https://github.com/OfficeDev/PnP-Tools/tree/master/Solutions/UserProfile.MIMSync). You will need a GitHub account for access. See the section 'Download the solutions files that you need' for more details. > Microsoft Identity Manager 2016 is available for download from the [Microsoft Volume Licensing Center](https://www.microsoft.com/Licensing/servicecenter/default.aspx). (Log in and search on the product name.) > On your MIM server, be sure to install [KB3092179](https://support.microsoft.com/en-us/kb/3092179). 
+> The solutions files referenced in this article are available for download [here](https://github.com/OfficeDev/PnP-Tools/tree/master/Solutions/UserProfile.MIMSync). You will need a GitHub account for access. See the section 'Download the solutions files that you need' for more details. > Microsoft Identity Manager 2016 is available for download from the [Microsoft Volume Licensing Center](https://www.microsoft.com/Licensing/servicecenter/default.aspx). (Log in and search on the product name.) > On your MIM server, be sure to install Service Pack 1 (https://aka.ms/mim2016sp1upgrade). 
   
 ## Download the solutions files that you need
 <a name="BKMK_Download"> </a>

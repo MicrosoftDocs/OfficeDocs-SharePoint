@@ -9,7 +9,7 @@ ms.topic: article
 f1_keywords:
 - 'ViewUserProfiles'
 - 'SPOTAMgUserProfiles'
-ms.service: o365-administration
+ms.service: sharepoint-online
 localization_priority: Normal
 search.appverid:
 - SPO160

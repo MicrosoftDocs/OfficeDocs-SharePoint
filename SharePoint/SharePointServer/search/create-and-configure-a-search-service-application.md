@@ -1,5 +1,5 @@
 ---
-title: "Create and configure a Search service application in SharePoint Server 2016"
+title: "Create and configure a Search service application in SharePoint Server"
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen
@@ -13,7 +13,7 @@ ms.assetid: 3fa7973f-2c1a-4be0-b903-3f1e6bdcf1d8
 description: "Summary: Learn how to create and configure a SharePoint Search service application so that you can crawl content and provide search results to users."
 ---
 
-# Create and configure a Search service application in SharePoint Server 2016 and SharePoint Server 2019 Public Preview
+# Create and configure a Search service application in SharePoint Server
 
  **Summary:** Learn how to create and configure a SharePoint Search service application so that you can crawl content and provide search results to users. 
   
@@ -47,7 +47,7 @@ The following table lists the accounts that are required when a Search service a
 | Search Admin Web Service application pool  <br/><br/>  Search Query and Site Settings Web Service application pool | Windows user credentials                                                                           | For each of these accounts, you can use the same credentials that you specified for the Search service. Or, you can assign different credentials to each account according to the principle of least-privilege administration. |
 | Default content access                                                                                   | Windows user credentials for the Search service application to use to access content when crawling | We recommend that you specify a separate account for the default content access account according to the principle of least-privilege administration.                                                                          |
    
-The accounts that you use for the Search service, the Search Admin Web Service application pool, and the Search Query and Site Settings Web Service application pool must be registered as managed accounts in SharePoint Server 2016 so that they are available when you create the Search service application. Use the following procedure to register each of these accounts as a managed account.
+The accounts that you use for the Search service, the Search Admin Web Service application pool, and the Search Query and Site Settings Web Service application pool must be registered as managed accounts in SharePoint Server so that they are available when you create the Search service application. Use the following procedure to register each of these accounts as a managed account.
   
  **To register a managed account**
   
@@ -59,7 +59,7 @@ The accounts that you use for the Search service, the Search Admin Web Service a
     
 4. On the Register Managed Account page, in the **Account Registration** section, type the user name and password that you want to use as credentials for the service account. 
     
-5. If you want SharePoint Server 2016 to manage password changes for this account, select the **Enable automatic password change** check box and configure the parameters for automatic password change. 
+5. If you want SharePoint Server to manage password changes for this account, select the **Enable automatic password change** check box and configure the parameters for automatic password change. 
     
 6. Click **OK**.
     
@@ -68,7 +68,7 @@ The accounts that you use for the Search service, the Search Admin Web Service a
 
 Each Search service application has a separate content index. You can create multiple Search service applications if you want to have different content indexes for different sets of content. For example, if you want to segregate sensitive content (such as employee benefits information) into a separate content index, you can create a separate Search service application to correspond to that set of content.
   
-If your SharePoint environment is hybrid, you can index content that resides in SharePoint Server 2016 into the Office 365 content index. In this case you need to create a Search service application of type **cloud**. You can only create one cloud Search service application per farm, but you can create multiple SSAs in combination with the single cloud SSA. 
+If your SharePoint environment is hybrid, you can index content that resides in SharePoint Server into the Office 365 content index. In this case you need to create a Search service application of type **cloud**. You can only create one cloud Search service application per farm, but you can create multiple SSAs in combination with the single cloud SSA. 
   
 > [!NOTE]
 > Each Search service application has its own search topology. If you create more than one Search service application in a farm, we recommend that you allocate dedicated servers for the search topology of each Search service application. Deploying several Search service applications to the same servers will significantly increase the resource requirements (CPU and memory) on those servers. 
@@ -162,7 +162,7 @@ Use the following procedure to specify the contact email address.
 
 In order for users to be able to get search results, the search system must first crawl the corresponding content. Crawling requires at least one content source. A content source is a set of options that you use to specify the type of content to crawl, the starting URLs to crawl, and when and how deep to crawl. When a Search service application is created, a content source named "Local SharePoint sites" is automatically created and configured for crawling all SharePoint sites in the local server farm, and for crawling user profiles. You can create content sources to specify other content to crawl and how the system will crawl that content. For more information, see [Add, edit, or delete a content source in SharePoint Server](add-edit-or-delete-a-content-source.md). However, you do not have to create other content sources if you do not want to crawl content other than the SharePoint sites in the local farm.
   
-If you choose the **Standalone** installation option when you install SharePoint Server 2016, a full crawl of all SharePoint sites in the farm is automatically performed after installation and an incremental crawl is scheduled to occur every 20 minutes after that. If you choose the **Server Farm** installation option when you install SharePoint Server 2016, no crawls are automatically scheduled or performed. In the latter case, you must either start crawls manually or schedule times for crawls to be performed. For more information, see the following articles; 
+If you choose the **Standalone** installation option when you install SharePoint Server 2016 or SharePoint Server 2019 Public Preview, a full crawl of all SharePoint sites in the farm is automatically performed after installation and an incremental crawl is scheduled to occur every 20 minutes after that. If you choose the **Server Farm** installation option when you install SharePoint Server 2016 or SharePoint Server 2019 Public Preview, no crawls are automatically scheduled or performed. In the latter case, you must either start crawls manually or schedule times for crawls to be performed. For more information, see the following articles; 
   
 - [Start, pause, resume, or stop a crawl in SharePoint Server](start-pause-resume-or-stop-a-crawl.md)
     

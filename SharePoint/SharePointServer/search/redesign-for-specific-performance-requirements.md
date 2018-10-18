@@ -1,5 +1,5 @@
 ---
-title: "Redesign enterprise search topology for specific performance requirements in SharePoint 2016"
+title: "Redesign enterprise search topology for specific performance requirements in SharePoint"
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen
@@ -13,7 +13,7 @@ ms.assetid: e1c3fe21-9110-4861-9fc9-715745c9197a
 description: "Summary: Learn how to redesign enterprise search topology so you can scale search performance to meet specific performance requirements."
 ---
 
-# Redesign enterprise search topology for specific performance requirements in SharePoint 2016
+# Redesign enterprise search topology for specific performance requirements in SharePoint
 
  **Summary:** Learn how to redesign enterprise search topology so you can scale search performance to meet specific performance requirements. 
   

@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: e913bd67-b50b-47d7-9784-2d312b97de0b
-description: "Summary: Learn how to organize SharePoint Server 2016 and SharePoint Server 2013 content and metadata to make the content easier to find."
+description: "Summary: Learn how to organize SharePoint Server content and metadata to make the content easier to find."
 ---
 
 # Best practices for organizing content for search in SharePoint Server
 
- **Summary:** Learn how to organize SharePoint Server 2016 and SharePoint Server 2013 content and metadata to make the content easier to find. 
+ **Summary:** Learn how to organize SharePoint Server content and metadata to make the content easier to find. 
   
 These best practices for organizing SharePoint Server content and applying useful metadata will help make sure that the right content is included in the search index and that the right content is returned in search results. 
   
