@@ -17,14 +17,18 @@ description: "Migrating Content to OneDrive for Business."
 ---
 # Migrating Content to OneDrive for Business 
  
+**Migrate to OneDrive for FREE**
+
 If you have files and folders on your computer or on a network drive, you can now use the [SharePoint Migration tool](http://spmtreleasescus.blob.core.windows.net/install/default.htm) to migrate that content to your own OneDrive for **FREE!**
 
-As an admin, you can also run the tool on behalf of your users. 
+As an admin, you can also run the tool on behalf of your users.
+
+To learn more, see  [SharePoint and OneDrive Migration Tool](http://spmtreleasescus.blob.core.windows.net/install/default.htm). 
  <br><br>
 
 **Microsoft FastTrack**
 
-Additionally, Microsoft offers [Fast Track services](https://fasttrack.microsoft.com/about) can help you migrate your files and folders from file shares and also from **Google Drive** and **Box**.
+Additionally, Microsoft offers [Fast Track services](https://fasttrack.microsoft.com/about) that can help you migrate your files and folders not only from file shares, but also **Google Drive** and **Box**.
  <br><br>Interested in getting started? Visit [FastTrack.microsoft.com](https://fasttrack.microsoft.com/), review resources, and submit a Request for Assistance.
 
 **Migration service providers**
