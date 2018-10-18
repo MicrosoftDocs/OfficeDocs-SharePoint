@@ -42,7 +42,7 @@ To use the following Group Policy objects, you need the OneDrive sync build 18.1
   
 - [Prompt users to move Windows known folders to OneDrive](use-group-policy.md#OptInWithWizard)
     
-    Use this policy to give users a call to action to move their Windows known folders. 
+    Use this policy to give the users on the device this policy is deployed to a call to action to move their Windows known folders. 
 
     ![Screenshot of the dialog box that prompts users to protect their important folders](media/protect-important-folders-gpo.png)
 
@@ -58,7 +58,7 @@ To use the following Group Policy objects, you need the OneDrive sync build 18.1
   
 - [Silently move Windows known folders to OneDrive](use-group-policy.md#OptInNoWizard)
     
-    Use this policy to redirect known folders to OneDrive without any user interaction. Before sync client build 18.171.0823.0001, this policy redirected only empty known folders to OneDrive. Now, it redirects known folders that contain content and moves the content to OneDrive. 
+    Use this policy to redirect known folders to OneDrive without any user interaction on the devices it is deployed to. Before sync client build 18.171.0823.0001, this policy redirected only empty known folders to OneDrive. Now, it redirects known folders that contain content and moves the content to OneDrive. 
 
     > [!NOTE]
     > You can choose to display a notification to users after their folders have been redirected. 
