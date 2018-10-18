@@ -15,7 +15,7 @@ ms.custom:
 
 description: "Migrating Content to OneDrive for Business."
 ---
-# Migrating Content to OneDrive for Business 
+# Migrate content to OneDrive for Business 
  
 **Migrate to OneDrive for FREE**
 
