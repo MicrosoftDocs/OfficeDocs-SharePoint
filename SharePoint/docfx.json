@@ -69,6 +69,7 @@
     "externalReference": [],
     "markdownEngineName": "markdig",    
     "globalMetadata": {
+      "uhfHeaderId": "MSDocsHeader-Dev_SharePoint",
       "breadcrumb_path": "/sharepoint/breadcrumb/toc.json",
       "extendBreadcrumb": "true",
       "searchScope": ["SharePoint Server"],
