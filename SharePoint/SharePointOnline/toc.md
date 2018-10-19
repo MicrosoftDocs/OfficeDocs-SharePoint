@@ -41,6 +41,7 @@
 ### [Let users use new OneDrive sync client](let-users-use-new-onedrive-sync-client.md)
 ### [Let users sync IRM-protected files](let-users-sync-irm-protected-files.md)
 ## [Sharing and permissions]()
+### [Plan your permissions strategy](plan-your-permissions-strategy.md)
 ### [External sharing overview](external-sharing-overview.md)
 ### [Turn external sharing on or off](turn-external-sharing-on-or-off.md)
 ### [Default SharePoint groups](default-sharepoint-groups.md)
