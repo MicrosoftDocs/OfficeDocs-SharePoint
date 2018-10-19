@@ -85,6 +85,8 @@ The following Computer Configuration policies are available:
 - [Prevent users from redirecting their Windows known folders to their PC](use-group-policy.md#OptInNoWizardToast)
     
 - [Prevent users from moving their Windows known folders to OneDrive](use-group-policy.md#BlockKFM)
+
+- [Configure team site libraries to sync automatically](use-group-policy.md#TeamSiteAutoMount)
     
 > [!NOTE]
 > "SharePoint on-premises server URL" and "SharePoint prioritization setting for hybrid customers that use SharePoint Online (SPO) and SharePoint on-premises server" are for customers who have SharePoint Server 2019 Public Preview. [More info about using the new OneDrive sync client with SharePoint Server 2019 Public Preview](/SharePoint/install/new-onedrive-sync-client/)
@@ -249,7 +251,7 @@ Enabling this policy sets the following registry keys:
   
 (where "1111-2222-3333-4444" is the [tenant ID](find-your-office-365-tenant-id.md))
   
-[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMSilentOptInWithNotification
+[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMSilentOptInWithNotification"
   
 Setting this value to 1 displays a notification after successful redirection.
   
@@ -284,6 +286,21 @@ If you disable or do not configure this setting, users can choose to move their 
 Enabling this policy sets the following registry key value to 1.
   
 [HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMBlockOptIn"="dword:00000001"
+
+### Configure team site libraries to sync automatically
+<a name="TeamSiteAutoMount"> </a> 
+
+This setting allows you to specify SharePoint team site libraries to sync automatically the next time users signs in to the OneDrive sync client (OneDrive.exe). To use the setting, you must enable OneDrive Files On-Demand, and the setting applies only for users on computers running Windows 10 Fall Creators Update or later. This feature is not enabled for on-premises SharePoint sites. 
+
+If you enable this setting, the OneDrive sync client will automatically sync the contents of the libraries you specified as online-only files the next time the user signs in. The user won't be able to stop syncing the libraries.  
+
+If you disable this setting, team site libraries that you've specified won't be automatically synced for new users. Existing users can choose to stop syncing the libraries, but the libraries won't stop syncing automatically. 
+
+To configure the setting, in the Options box, click **Show**, and then enter the library ID in the **Value** field and a friendly name to identify the library in the **Value Name** field. 
+
+To find the library ID, sign in as a global or SharePoint admin in Office 365, browse to the library, and click the **Sync** button. In the "Starting sync" dialog box, click the **Copy library ID** link.
+
+[HKLM\Software\Policies\Microsoft\OneDrive\TenantAutoMount]"LibraryName"="LibraryID" 
   
 ## User Configuration policies
 <a name="Glob"> </a>
