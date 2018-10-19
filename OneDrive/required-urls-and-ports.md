@@ -1,5 +1,5 @@
 ---
-title: "Required URLs and ports for OneDrive"
+title: "Required URLs and ports for OneDrive consumer"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
