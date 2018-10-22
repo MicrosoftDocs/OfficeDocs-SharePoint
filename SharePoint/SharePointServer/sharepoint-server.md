@@ -139,23 +139,6 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server 2016 and 201
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>SharePoint Server 2019 Public Preview!</h3>
-                        <p><a href="what-s-new/new-and-improved-features-in-SharePoint-Server-2019.md">What's New?</a></p>
-                        <p><a href="https://go.microsoft.com/fwlink/?LinkId=2006095">Download the Public Preview</a></p>
-                        <p><a href="https://go.microsoft.com/fwlink/?LinkId=2006096">Download the language packs</a></p>
-                        <p><a href="install/install-for-sharepoint-server-2019.md">Install the Public Preview</a></p>
-                        <p><a href="upgrade-and-update/Upgrade-from-SharePoint2013-to-SharePointServer-2019.md">Upgrade from SharePoint Server 2013</a></p>
-                        <p><a href="https://support.office.com/article/ba84c8a3-3ce2-4252-926e-c67654ceb4a3">Modern experience</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
                         <h3>Learn about SharePoint</h3>
                         <p><a href="https://products.office.com/en-us/sharepoint/collaboration">What is SharePoint?</a></p>
                         <p><a href="https://www.youtube.com/watch?v=Bz4kdOiJrpE">Discover SharePoint Server 2016: Feature Pack 2 & Beyond</a></p>
@@ -171,8 +154,8 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server 2016 and 201
                 <div class="card">
                     <div class="cardText">
                         <h3>Before you start</h3>
-                        <p><a href="/sharepoint/install/hardware-and-software-requirements">Hardware and software requirements</a></p>
-                        <p><a href="/sharepoint/install/prerequisites">Prerequisites</a></p>
+                        <p><a href="/sharepoint/install/hardware-and-software-requirements-2019">Hardware and software requirements</a></p>
+                        <p><a href="/sharepoint/hybrid/sharepoint-hybrid-sites-and-search">Hybrid</a></p>
                         <p><a href="/sharepoint/security-for-sharepoint-server/security-for-sharepoint-server">Security</a></p>
                     </div>
                 </div>
@@ -200,7 +183,7 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server 2016 and 201
                 <div class="card">
                     <div class="cardText">
                         <h3>Install</h3>
-                        <p>SharePoint Server 2016
+                        <p>SharePoint Server 2016 & 2019
                         <p> - <a href="/SharePoint/install/install-sharepoint-server-2016-across-multiple-servers">Large scale farms</a></p>
                         <p> - <a href="/SharePoint/install/install-sharepoint-server-2016-on-one-server">Small scale farms</a></p>
                         <p>SharePoint Server 2013
@@ -217,6 +200,7 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server 2016 and 201
                 <div class="card">
                     <div class="cardText">
                         <h3>Upgrade and update</h3>
+                        <p><a href="/SharePoint/upgrade-and-update/upgrade-to-sharepoint-server-2019">Upgrade to SharePoint 2019</a></p>
                         <p><a href="/SharePoint/upgrade-and-update/upgrade-to-sharepoint-server-2016">Upgrade to SharePoint 2016</a></p>
                         <p><a href="/SharePoint/upgrade-and-update/deploy-updates-for-sharepoint-server-2016">Apply updates to SharePoint 2016</a></p>
                         <p><a href="/SharePoint/upgrade-and-update/upgrade-from-sharepoint-2010-to-sharepoint-2013">Upgrade to SharePoint 2013</a></p>

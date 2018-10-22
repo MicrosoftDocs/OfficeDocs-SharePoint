@@ -1,5 +1,5 @@
 ---
-title: "Account permissions and security settings in SharePoint Servers 2016 and 2019 Public Preview"
+title: "Account permissions and security settings in SharePoint Servers 2016 and 2019"
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 55b99d80-3fa7-49f0-bdf4-adb5aa959019
-description: "Summary: Learn about the permissions and security settings to use with a deployment of SharePoint Servers 2016 and 2019 Public Preview."
+description: "Summary: Learn about the permissions and security settings to use with a deployment of SharePoint Servers 2016 and 2019."
 ---
 
-# Account permissions and security settings in SharePoint Servers 2016 and 2019 Public Preview
+# Account permissions and security settings in SharePoint Servers 2016 and 2019
 
- **Summary:** Learn about the permissions and security settings to use with a deployment of SharePoint Servers 2016 and 2019 Public Preview. 
+ **Summary:** Learn about the permissions and security settings to use with a deployment of SharePoint Servers 2016 and 2019. 
   
 This article describes SharePoint administrative and services account permissions for the following areas: Microsoft SQL Server, the file system, file shares, and registry entries.
   
@@ -25,7 +25,7 @@ This article describes SharePoint administrative and services account permission
 > Do not use service account names that contain the symbol $. 
   
     
-## About account permissions and security settings in SharePoint Servers 2016 and 2019 Public Preview
+## About account permissions and security settings in SharePoint Servers 2016 and 2019
 <a name="Section1"> </a>
 
 The SharePoint Products Configuration Wizard (Psconfig) and the Farm Configuration Wizard, both of which are run during a complete installation, configure many of the SharePoint baseline account permissions and security settings.
@@ -158,7 +158,7 @@ The default content access account is used within a specific service application
 ### Content access accounts
 
 > [!IMPORTANT]
-> Information in this section applies to SharePoint Servers 2016 and 2019 Public Preview only. 
+> Information in this section applies to SharePoint Servers 2016 and 2019 only. 
   
 Content access accounts are configured to access content by using the Search administration crawl rules feature. This type of account is optional, and you can configure it when you create a new crawl rule. For example, external content (such as a file share) might require this separate content access account. This account requires the following permission configuration settings:
   
@@ -169,7 +169,7 @@ Content access accounts are configured to access content by using the Search adm
 ### My Sites application pool account
 
 > [!IMPORTANT]
-> Information in this section applies to SharePoint Server 2016 and 2019 Public Preview only. 
+> Information in this section applies to SharePoint Server 2016 and 2019 only. 
   
 The My Sites application pool account must be a domain user account. This account must not be a member of the Farm Administrators group. 
   
@@ -271,7 +271,7 @@ The SPDataAccess role will have the following permissions:
 ## Group permissions
 <a name="Section6"> </a>
 
-This section describes permissions of groups that the SharePoint Servers 2016 and 2019 Public Preview setup and configuration tools create.
+This section describes permissions of groups that the SharePoint Servers 2016 and 2019 setup and configuration tools create.
   
 ### WSS_ADMIN_WPG
 
