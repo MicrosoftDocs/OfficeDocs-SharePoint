@@ -317,7 +317,7 @@ The Usage and Health Data Collection database is used by the Usage and Health Da
 
 |**Category**|**Description**|
 |:-----|:-----|
-|Default database name when installed by using the SharePoint Products Configuration Wizard  <br/> |SharePoint Server 2016 = WSS_Logging  <br/> SharePoint 2013 = SharePoint_Logging  <br/> |
+|Default database name when installed by using the SharePoint Products Configuration Wizard  <br/> |SharePoint Server 2019 and SharePoint Server 2016 = WSS_Logging  <br/> SharePoint 2013 = SharePoint_Logging  <br/> |
 |Location requirements  <br/> |The Usage and Health Data Collection database is very active, and should be put on a separate disk or spindle, if it is possible.  <br/> |
 |General size information and growth factors  <br/> |Extra large. Database size depends on the retention factor, number of items enabled for logging and external monitoring, how many Web applications are running in the environment, how many users are currently working, and which features are enabled.  <br/> |
 |Read/write characteristics  <br/> |Write-heavy  <br/> |
