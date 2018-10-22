@@ -22,7 +22,7 @@ This scenario describes the prerequisites and recommended steps to integrate a Y
 
 For this scenario, we assume that:
   
-- You have SharePoint Server 2019 Public Preview, SharePoint Server 2016, or SharePoint Server 2013 SP1 or later installed.
+- You have SharePoint Server 2019, SharePoint Server 2016, or SharePoint Server 2013 SP1 or later installed.
     
 - You have an existing Office 365 tenant and a Yammer network.
     

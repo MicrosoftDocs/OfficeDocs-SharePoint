@@ -28,9 +28,9 @@ Before you integrate Yammer into your SharePoint Server  environment, you should
     
 ## Add Yammer to the navigation for SharePoint 
 
-In SharePoint Server 2019 Public Preview and SharePoint Server 2016, you can add a Yammer tile to the navigation. For instructions, see [Add Yammer to the navigation bar for SharePoint Server](add-yammer-to-the-navigation-bar-for-sharepoint-Server.md).
+In SharePoint Server 2019 and SharePoint Server 2016, you can add a Yammer tile to the navigation. For instructions, see [Add Yammer to the navigation bar for SharePoint Server](add-yammer-to-the-navigation-bar-for-sharepoint-Server.md).
 
-Here's what it looks like in SharePoint Server 2019 Public Preview:
+Here's what it looks like in SharePoint Server 2019:
 
 ![SharePoint Server 2019 Office 365 navigation showing the Yammer app](../media/yammer_spserver_apps2019.png)
 

@@ -1,5 +1,5 @@
 ---
-title: "Role conversion using MinRole in SharePoint Servers 2016 and 2019 Public Preview"
+title: "Role conversion using MinRole in SharePoint Servers 2016 and 2019"
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: bcbddee7-1c77-4788-9a32-fb585c48ee37
-description: "Summary: Learn about how to convert your server roles in a SharePoint farm deployment using MinRole . MinRole help administrators select the right server role when provisioning SharePoint Servers 2016 and 2019 Public Preview."
+description: "Summary: Learn about how to convert your server roles in a SharePoint farm deployment using MinRole . MinRole help administrators select the right server role when provisioning SharePoint Servers 2016 and 2019."
 ---
 
-# Role conversion using MinRole in SharePoint Servers 2016 and 2019 Public Preview
+# Role conversion using MinRole in SharePoint Servers 2016 and 2019
 
- **Summary:** Learn about how to convert your server roles in a SharePoint farm deployment using **MinRole**. MinRole help administrators select the right server role when provisioning SharePoint Servers 2016 and 2019 Public Preview. 
+ **Summary:** Learn about how to convert your server roles in a SharePoint farm deployment using **MinRole**. MinRole help administrators select the right server role when provisioning SharePoint Servers 2016 and 2019. 
   
 ## Role Conversion
 
