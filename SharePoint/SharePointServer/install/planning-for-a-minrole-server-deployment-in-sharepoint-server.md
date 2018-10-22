@@ -1,5 +1,5 @@
 ---
-title: "Planning for a MinRole server deployment in SharePoint Servers 2016 and 2019 Public Preview"
+title: "Planning for a MinRole server deployment in SharePoint Servers 2016 and 2019"
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
@@ -13,16 +13,16 @@ ms.collection:
 - Strat_SP_server
 ms.custom: 
 ms.assetid: 9fc3a696-b2cb-435c-8199-7048953ec609
-description: "Summary: Learn about planning your SharePoint farm deployment using MinRole . MinRole helps administrators select the right server role when provisioning SharePoint Servers 2016 and 2019 Public Preview."
+description: "Summary: Learn about planning your SharePoint farm deployment using MinRole . MinRole helps administrators select the right server role when provisioning SharePoint Servers 2016 and 2019."
 ---
 
-# Planning for a MinRole server deployment in SharePoint Servers 2016 and 2019 Public Preview
+# Planning for a MinRole server deployment in SharePoint Servers 2016 and 2019
 
- **Summary:** Learn about planning your SharePoint farm deployment using **MinRole**. MinRole helps administrators select the right server role when provisioning SharePoint Servers 2016 and 2019 Public Preview. 
+ **Summary:** Learn about planning your SharePoint farm deployment using **MinRole**. MinRole helps administrators select the right server role when provisioning SharePoint Servers 2016 and 2019. 
   
-## Server roles in SharePoint Servers 2016 and 2019 Public Preview
+## Server roles in SharePoint Servers 2016 and 2019
 
-There are eight pre-defined server roles in 3 categories﻿ you can choose from in SharePoint Servers 2016 and 2019 Public Preview. Read more about the roles and their descriptions in the following tables:
+There are eight pre-defined server roles in 3 categories﻿ you can choose from in SharePoint Servers 2016 and 2019. Read more about the roles and their descriptions in the following tables:
   
  **Dedicated Roles:** Dedicated roles are optimized for performance and scalability and are typically used in large scale farms. They can also be used in medium scale farms with shared roles. 
   
@@ -30,7 +30,7 @@ There are eight pre-defined server roles in 3 categories﻿ you can choose from 
 |:-----|:-----|:-----|
 |**Server Role** <br/> |**Description** <br/> |**Notes** <br/> |
 |Front-end  <br/> |Service applications, services, and components that serve user requests belong on a Front-end server. These servers are optimized for high performance.  <br/> |The Application server and the Front-end server roles host a similar set of services. However, each role serves a different purpose. The Front-end role is performance-sensitive and optimized for serving user traffic by running service instances appropriate for user requests on the local server. It's normal for the Front-end server role to ﻿run service instances that would have been hosted on the Application server role in previous versions.  <br/> |
-|Application  <br/> |Service applications, services, and components that serve back-end requests, such as search crawl requests, belong on an Application server. These servers are optimized for high throughput.  <br/> |The use of the term "Application server" in SharePoint Server 2016 has a different meaning from the common use of the term in previous versions. In previous versions of SharePoint, the Application server typically hosted service application endpoints that Front-end servers would call while serving user requests. In SharePoint Servers 2016 and 2019 Public Preview, the Application server role runs background ﻿tasks such as Timer jobs, and can be the target for search crawl requests.  <br/> |
+|Application  <br/> |Service applications, services, and components that serve back-end requests, such as search crawl requests, belong on an Application server. These servers are optimized for high throughput.  <br/> |The use of the term "Application server" in SharePoint Server 2016 has a different meaning from the common use of the term in previous versions. In previous versions of SharePoint, the Application server typically hosted service application endpoints that Front-end servers would call while serving user requests. In SharePoint Servers 2016 and 2019, the Application server role runs background ﻿tasks such as Timer jobs, and can be the target for search crawl requests.  <br/> |
 |Distributed Cache  <br/> |Service applications, services, and components that are required for a distributed cache belong on a Distributed Cache server.  <br/> |Distributed Cache doesn't support High Availability the way that other services do. While you can have multiple Distributed Cache servers in your SharePoint farm to help distribute the load, the data cached on each Distributed Cache server is not replicated to the other Distributed Cache servers. If a Distributed Cache server unexpectedly goes down, the data cached in that server will be lost.  <br/> |
 |Search  <br/> |Service applications, services, and components that are required for search belong on a Search server.  <br/> |Once a server is assigned to the Search role, it must then be configured in Search topology management. For more information about Search topology, see [Manage the search topology in SharePoint Server](https://docs.microsoft.com/en-us/SharePoint/search/manage-the-search-topology) .  <br/> |
    
@@ -129,7 +129,7 @@ When you create a new farm or join a server to an existing farm by using the Sha
   
 ![Displays PSConfig dialog box with shared roles in SharePoint Server 2016](../media/dea8528b-e903-4cc9-a698-25d203a91229.png)
 
-![Displays PSConfig dialog box with shared roles in SharePoint Server 2019 Public Preview](../media/PSConfigMinRole_2019.png)
+![Displays PSConfig dialog box with shared roles in SharePoint Server 2019](../media/PSConfigMinRole_2019.png)
 
 
   
@@ -167,12 +167,12 @@ The farm administrator should configure Search to crawl web applications using t
   
 ### Converting Single-Server Farm into a multiple server farm
 
-You can convert a single-server farm into a multiple-server farm. To do this, use the role conversion feature. For additional information about how to change a server role, see [Role conversion using MinRole in SharePoint Servers 2016 and 2019 Public Preview](../administration/role-conversion-using-minrole-in-sharepoint-server-2016.md).
+You can convert a single-server farm into a multiple-server farm. To do this, use the role conversion feature. For additional information about how to change a server role, see [Role conversion using MinRole in SharePoint Servers 2016 and 2019](../administration/role-conversion-using-minrole-in-sharepoint-server-2016.md).
   
 ## Opting out of MinRole
 <a name="opt"> </a>
 
-SharePoint Servers 2016 and 2019 Public Preview supports the backward compatible behavior of previous SharePoint releases with the Custom server role. SharePoint farm administrators can directly manage service instances on individual servers assigned to the Custom role. MinRole won't attempt to manage servers assigned to the Custom role. You can assign zero, some, or all servers in a farm to the Custom role.
+SharePoint Servers 2016 and 2019 supports the backward compatible behavior of previous SharePoint releases with the Custom server role. SharePoint farm administrators can directly manage service instances on individual servers assigned to the Custom role. MinRole won't attempt to manage servers assigned to the Custom role. You can assign zero, some, or all servers in a farm to the Custom role.
   
 If you have existing deployment scripts that you do not want to modify to support MinRole, you can specify the **ServerRoleOptional** parameter when you create a new SharePoint farm by using the PSConfig.exe command-line tool or PowerShell. This parameter configures the farm to not require a server role to be specified. If no server role is specified, the server defaults to the Custom role. 
   
@@ -183,11 +183,11 @@ If you have existing deployment scripts that you do not want to modify to suppor
 
 [SharePoint Server 2016 zero downtime patching steps](../upgrade-and-update/sharepoint-server-2016-zero-downtime-patching-steps.md)
   
-[Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019 Public Preview
+[Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019
 ](overview-of-minrole-server-roles-in-sharepoint-server.md)
   
-[Description of MinRole and associated services in SharePoint Servers 2016 and 2019 Public Preview](../administration/description-of-minrole-and-associated-services-in-sharepoint-server-2016.md)
+[Description of MinRole and associated services in SharePoint Servers 2016 and 2019](../administration/description-of-minrole-and-associated-services-in-sharepoint-server-2016.md)
 #### Other Resources
 
-[Managing a MinRole Server Farm in SharePoint Servers 2016 and 2019 Public Preview](../administration/managing-a-minrole-server-farm-in-sharepoint-server-2016.md)
+[Managing a MinRole Server Farm in SharePoint Servers 2016 and 2019](../administration/managing-a-minrole-server-farm-in-sharepoint-server-2016.md)
 
