@@ -89,7 +89,7 @@ The following Computer Configuration policies are available:
 - [Configure team site libraries to sync automatically](use-group-policy.md#TeamSiteAutoMount)
     
 > [!NOTE]
-> "SharePoint on-premises server URL" and "SharePoint prioritization setting for hybrid customers that use SharePoint Online (SPO) and SharePoint on-premises server" are for customers who have SharePoint Server 2019 Public Preview. [More info about using the new OneDrive sync client with SharePoint Server 2019 Public Preview](/SharePoint/install/new-onedrive-sync-client/)
+> "SharePoint on-premises server URL" and "SharePoint prioritization setting for hybrid customers that use SharePoint Online (SPO) and SharePoint on-premises server" are for customers who have SharePoint Server 2019. [More info about using the new OneDrive sync client with SharePoint Server 2019](/SharePoint/install/new-onedrive-sync-client/)
   
 ### Allow syncing OneDrive accounts for only specific organizations
 <a name="TenantAllowList"> </a>

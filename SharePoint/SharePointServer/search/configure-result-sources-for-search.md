@@ -142,7 +142,7 @@ Finally, on the **Add Result Source** page, in the **Credentials Information** s
  You can set any result source as the default result source. Specifying a result source as default can make it easier to edit the query in Search Web Parts. For example, when you add a Content Search Web Part to a page, the Web Part automatically uses the default result source. For more information, see [Configure Search Web Parts in SharePoint Server](../administration/configure-search-web-parts.md).
 
 > [!NOTE]
-> The modern search experience in SharePoint Server 2019 Public Preview gets results from the default result source. If you change the default result source it impacts both the classic and modern search experiences.
+> The modern search experience in SharePoint Server 2019 gets results from the default result source. If you change the default result source it impacts both the classic and modern search experiences.
   
  **To set a result source as default**
   
