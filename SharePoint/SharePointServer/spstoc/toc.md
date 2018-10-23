@@ -818,7 +818,7 @@
 #### [The current server is running low on memory](../technical-reference/the-current-server-is-running-low-on-memory.md)
 ### [Timer job reference for SharePoint Server](../technical-reference/timer-job-reference-for-sharepoint-server.md)
 #### [Default timer jobs in SharePoint Server 2019](../technical-reference/default-timer-jobs-in-sharepoint-server-2019)
-#### [Default timer jobs in SharePoint Server 2016](../technical-reference/timer-job-reference-for-sharepoint-server-2016.md)
+#### [Default timer jobs in SharePoint Server 2016](../technical-reference/default-timer-jobs-in-sharepoint-server-2016.md)
 #### [Default timer jobs in SharePoint 2013](../technical-reference/default-timer-jobs-in-sharepoint-2013.md)
 ### [Search technical reference](../technical-reference/search-technical-reference.md)
 #### [Default crawled file name extensions and parsed file types](../technical-reference/default-crawled-file-name-extensions-and-parsed-file-types.md)

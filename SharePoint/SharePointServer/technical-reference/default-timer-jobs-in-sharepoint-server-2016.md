@@ -215,5 +215,5 @@ The following table lists the default timer jobs for SharePoint Server 2016.
 
 #### Other Resources
 
-[Timer job reference for SharePoint 2013](timer-job-reference-for-sharepoint-2013.md)
+[Default timer jobs in SharePoint 2013](default-timer-jobs-in-sharepoint-2013.md)
 
