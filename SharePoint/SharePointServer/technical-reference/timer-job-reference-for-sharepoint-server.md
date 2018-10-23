@@ -46,8 +46,8 @@ The SharePoint Timer service (SPTimerv4) is based on the Gregorian calendar for 
 
 The following articles list the default timer jobs for SharePoint Server 2019, SharePoint Server 2016, and SharePoint 2013.
 
-- Timer jobs in SharePoint Server 2019
+- [Default timer jobs in SharePoint Server 2016](default-timer-jobs-in-sharepoint-server-2019.md)
 
-- [Timer jobs in SharePoint Server 2016](https://docs.microsoft.com/en-us/SharePoint/technical-reference/timer-job-reference-for-sharepoint-server-2016)
+- [Default timer jobs in SharePoint Server 2016](https://docs.microsoft.com/en-us/SharePoint/technical-reference/default-timer-jobs-in-sharepoint-server-2016)
 
-- [Timer jobs in SharePoint 2013](https://docs.microsoft.com/en-us/SharePoint/technical-reference/timer-job-reference-for-sharepoint-2013)
+- [Default timer jobs in SharePoint 2013](https://docs.microsoft.com/en-us/SharePoint/technical-reference/default-timer-jobs-in-sharepoint-2013)
