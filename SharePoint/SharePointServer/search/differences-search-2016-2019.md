@@ -13,7 +13,7 @@ description: "Learn about the differences between the search experiences in Shar
 
 # Differences between the search experiences in SharePoint Server
 
-In addition to the classic search experience, SharePoint Server 2019 Public Preview comes with a modern search experience. Both search experiences use the same search index to find results. 
+In addition to the classic search experience, SharePoint Server 2019 comes with a modern search experience. Both search experiences use the same search index to find results. 
 
 As a user, the most visual difference is that in modern search, you see results even before you start typing in the search box, and the results update as you type. [Learn about the modern search experience](https://support.office.com/en-us/article/what-s-new-in-search-in-sharepoint-server-2019-public-preview-3f56ab51-f10f-4a34-a8c6-bfe02f44896d)​.
 
