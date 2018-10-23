@@ -14,7 +14,7 @@ description: "Summary: These articles explain the updated product servicing poli
 
 # Product Servicing Policy
 
- **Summary:** These articles explain the updated product servicing policies of SharePoint Server 2016 and SharePoint Server 2013. 
+ **Summary:** These articles explain the updated product servicing policies of SharePoint Server 2019, SharePoint Server 2016 and SharePoint Server 2013. 
   
 During mainstream support, Microsoft releases new Public Update (PU) builds for SharePoint Server and SharePoint Foundation each month that contain the latest functionality, performance, and stability improvements for the product.
   
