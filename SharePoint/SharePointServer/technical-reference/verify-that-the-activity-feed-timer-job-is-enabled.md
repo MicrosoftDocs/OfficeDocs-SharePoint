@@ -41,8 +41,10 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleV
 
 #### Concepts
 
-[Timer job reference for SharePoint Server 2016](timer-job-reference-for-sharepoint-server-2016.md)
+[Default timer jobs in SharePoint Server 2019](default-timer-jobs-in-sharepoint-server-2019.md)
 #### Other Resources
 
-[Timer job reference for SharePoint 2013](timer-job-reference-for-sharepoint-2013.md)
+[Default timer jobs in SharePoint Server 2016](default-timer-jobs-in-sharepoint-server-2016.md)
+
+[Default timer jobs in SharePoint 2013](default-timer-jobs-in-sharepoint-2013.md)
 

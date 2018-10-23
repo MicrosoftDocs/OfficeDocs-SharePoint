@@ -36,7 +36,7 @@ Before you perform this procedure, confirm the following:
     
 - The Disk Quota Warning timer job is running.
     
-    For more information about default timer jobs for SharePoint Server, see [Timer job reference for SharePoint Server 2016](../technical-reference/timer-job-reference-for-sharepoint-server-2016.md) and [Timer job reference for SharePoint 2013](../technical-reference/timer-job-reference-for-sharepoint-2013.md).
+    For more information about default timer jobs for SharePoint Server, see [Timer job reference for SharePoint Server](../technical-reference/timer-job-reference-for-sharepoint-server.md).
     
 - The quota template options on the quota template page in Central Administration are available only if you have already created one or more quota templates. The first time that you use this page, you will be given only the option to create a new template.
     
