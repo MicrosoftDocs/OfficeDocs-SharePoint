@@ -9,7 +9,7 @@ ms.topic: reference
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 3824d521-ee4f-408e-b3fd-51da34e20538
-description: "Summary: These articles explain the updated product servicing policies of SharePoint Server 2016 and SharePoint Server 2013."
+description: "Summary: These articles explain the updated product servicing policies of SharePoint Server 2019, SharePoint Server 2016 and SharePoint Server 2013."
 ---
 
 # Product Servicing Policy
