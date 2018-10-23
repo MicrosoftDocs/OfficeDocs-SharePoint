@@ -45,5 +45,5 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleT
 
 [Default timer jobs in SharePoint Server 2016](default-timer-jobs-in-sharepoint-server-2016.md)
 
-[Default timer jobs in SharePoint 2013](timer-job-reference-for-sharepoint-2013.md)
+[Default timer jobs in SharePoint 2013](default-timer-jobs-in-sharepoint-2013.md)
 
