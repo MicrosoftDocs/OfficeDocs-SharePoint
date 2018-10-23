@@ -164,7 +164,7 @@ The following table lists the recommended guidelines for lists and libraries. Fo
 |**Limit**|**Maximum value**|**Limit type**|**Notes**|
 |:-----|:-----|:-----|:-----|
 |List row size  <br/> |8,000 bytes per row  <br/> |Boundary  <br/> |Each list or library item can only occupy 8,000 bytes in total in the database. 300 bytes are reserved, leaving 7700 bytes for end-user columns. For details on how much space each kind of field consumes, see [Column limits](#Column).  <br/> |
-|File size  <br/> |10 GB  <br/> |Boundary  <br/> |The default file size is 2 gigabytes (GB) (2,047 MB). However, a large volume of very large files can affect farm performance.  <br/> |
+|File size  <br/> |10 GB  <br/> |Boundary  <br/> |The default file size is 2 gigabytes (GB) (2,047 MB). However, a large volume of very large files can affect farm performance.  <br/> <br/> **NOTE**: In SharePoint Server 2019, the file limit is 15 GB. |
 |Documents  <br/> |30,000,000 per library  <br/> |Supported  <br/> |You can create very large document libraries by nesting folders, or using standard views and site hierarchy. This value may vary depending on how documents and folders are organized, and by the type and size of documents stored.  <br/> |
 |Major versions  <br/> |400,000  <br/> |Supported  <br/> |If you exceed this limit, basic file operations—such as file open or save, delete, and viewing the version history— may not succeed.  <br/> |
 |Minor versions  <br/> |511  <br/> |Boundary  <br/> |The maximum number of minor file versions is 511. This limit cannot be exceeded.  <br/> |
