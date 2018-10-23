@@ -21,7 +21,9 @@ Query spelling suggestions are words that appear below the search box as a user 
   
 Automatic query suggestions are generated daily for each result source and each site collection, so the query suggestions can be different for different result sources and site collections.
   
-You can also manually create your own lists of query suggestions and import them to SharePoint. Manual query suggestions apply to **all** result sources and to **all** site collections. 
+SharePoint Online has both a classic and a modern search experience, [learn about the differences between the classic and modern search experiences in SharePoint Online](differences-classic-modern-search.md). The modern search experience uses the same default result source as the classic search experience. Automatic query suggestions for the default result source appear in both the classic and modern search experiences.
+
+ You can manually create your own lists of query suggestions and import them to SharePoint. Manual query suggestions apply to **all** result sources, **all** site collections, and to **both** search experiences.
   
 To create query suggestions for multiple languages, you'll need to create a separate file for each language. The language determines how the query suggestions are processed internally in the search system. All manual query suggestions are always displayed for **all** languages. Add each phrase as a separate line in the text file that you create, and save the file in UTF-8 encoding. 
   
@@ -30,7 +32,7 @@ Query suggestions are turned on by default. To turn them off, go to **Search Sug
 ## To create query suggestions in SharePoint search
 <a name="__toc343004643"> </a>
 
-1. Sign in to the Office 365 Admin Center as a search administrator.
+1. Sign in to the Microsoft 365 Admin Center as a search administrator.
     
 2. Choose **Admin** \> **SharePoint** \> **search** \> **Query Suggestion Settings**.
     

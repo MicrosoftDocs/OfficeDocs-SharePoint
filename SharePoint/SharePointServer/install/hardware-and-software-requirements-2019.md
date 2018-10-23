@@ -1,5 +1,5 @@
 ---
-title: "Hardware and software requirements for SharePoint Server 2019 Public Preview"
+title: "Hardware and software requirements for SharePoint Server 2019"
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
@@ -14,12 +14,12 @@ ms.collection:
 - Strat_SP_server
 ms.custom: 
 ms.assetid: 4d88c402-24f2-449b-86a6-6e7afcfec0cd
-description: "Summary: Find out the minimum hardware and software requirements you need to install and run SharePoint Server 2019 Public Preview."
+description: "Summary: Find out the minimum hardware and software requirements you need to install and run SharePoint Server 2019."
 ---
 
-# Hardware and software requirements for SharePoint Server 2019 Public Preview
+# Hardware and software requirements for SharePoint Server 2019
 
- **Summary:** Find out the minimum hardware and software requirements you need to install and run SharePoint Server 2019 Public Preview. 
+ **Summary:** Find out the minimum hardware and software requirements you need to install and run SharePoint Server 2019. 
   
 > [!IMPORTANT]
 > If you contact Microsoft Customer Support Services about a production system that does not meet the minimum hardware specifications described in this document, support will be limited until the system is upgraded to the minimum requirements. 
@@ -28,7 +28,7 @@ description: "Summary: Find out the minimum hardware and software requirements y
 ## Hardware requirements: Location of physical servers
 <a name="hwLocServers"> </a>
 
-Some enterprises have datacenters that are in close proximity to one another and connected by high-bandwidth fiber optic links. In this environment, you can configure the two datacenters as a single farm. This distributed farm topology is called a stretched farm. Stretched farms for SharePoint Server 2019 Public Preview are supported. 
+Some enterprises have datacenters that are in close proximity to one another and connected by high-bandwidth fiber optic links. In this environment, you can configure the two datacenters as a single farm. This distributed farm topology is called a stretched farm. Stretched farms for SharePoint Server 2019 are supported. 
   
 For a stretched farm architecture to work as a supported high-availability solution, the following prerequisites must be met:
   
@@ -45,7 +45,7 @@ Note:
 ## Hardware requirements: SharePoint Servers and MinRole installations
 <a name="hwforwebserver"> </a>
 
-The values in the following table are minimum values for installations on servers that are running SharePoint Server 2019 Public Preview in a multiple server farm installation.
+The values in the following table are minimum values for installations on servers that are running SharePoint Server 2019 in a multiple server farm installation.
   
 For all installation scenarios, you must have sufficient hard disk space for the base installation and sufficient space for diagnostics such as logging, debugging, creating memory dumps, and so on. For production use, you must also have additional free disk space for day-to-day operations. In addition, maintain two times as much free space as you have RAM for production environments.
   
@@ -53,17 +53,17 @@ For information about hardware and software requirements for Microsoft SQL Serve
   
 |**Installation scenario**|**Deployment type and scale**|**RAM**|**Processor**|**Hard disk space**|
 |:-----|:-----|:-----|:-----|:-----|
-|Single server role that uses SQL Server  <br/> |Development or evaluation installation of SharePoint Server 2019 Public Preview with the minimum recommended services for development environments. Use the Single-Server farm role that will let you choose which service applications to provision. For additional information on Single-Server farm role, see [Overview of MinRole Server Roles in SharePoint Server](overview-of-minrole-server-roles-in-sharepoint-server.md) <br/> |16 GB  <br/> |64-bit, 4 cores  <br/> |80 GB for system drive  <br/> 100 GB for second drive  <br/> |
-|Single server role that uses SQL Server  <br/> |Pilot or user acceptance test installation of SharePoint Server 2019 Public Preview running all available services for development environments.  <br/> |24 GB  <br/> |64-bit, 4 cores  <br/> |80 GB for system drive  <br/> 100 GB for second drive and additional drives  <br/> |
-|Web server or application server in a three-tier farm  <br/> |Development or evaluation installation of SharePoint Server 2019 Public Preview with a minimum number of services.  <br/> |12 GB  <br/> |64-bit, 4 cores  <br/> |80 GB for system drive  <br/> 80 GB for second drive  <br/> |
-|Web server or application server in a three-tier farm  <br/> |Pilot, user acceptance test, or production deployment of SharePoint Server 2019 Public Preview running all available services.  <br/> |16 GB  <br/> |64-bit, 4 cores  <br/> |80 GB for system drive  <br/> 80 GB for second drive and additional drives  <br/> |
+|Single server role that uses SQL Server  <br/> |Development or evaluation installation of SharePoint Server 2019 with the minimum recommended services for development environments. Use the Single-Server farm role that will let you choose which service applications to provision. For additional information on Single-Server farm role, see [Overview of MinRole Server Roles in SharePoint Server](overview-of-minrole-server-roles-in-sharepoint-server.md) <br/> |16 GB  <br/> |64-bit, 4 cores  <br/> |80 GB for system drive  <br/> 100 GB for second drive  <br/> |
+|Single server role that uses SQL Server  <br/> |Pilot or user acceptance test installation of SharePoint Server 2019 running all available services for development environments.  <br/> |24 GB  <br/> |64-bit, 4 cores  <br/> |80 GB for system drive  <br/> 100 GB for second drive and additional drives  <br/> |
+|Web server or application server in a three-tier farm  <br/> |Development or evaluation installation of SharePoint Server 2019 with a minimum number of services.  <br/> |12 GB  <br/> |64-bit, 4 cores  <br/> |80 GB for system drive  <br/> 80 GB for second drive  <br/> |
+|Web server or application server in a three-tier farm  <br/> |Pilot, user acceptance test, or production deployment of SharePoint Server 2019 running all available services.  <br/> |16 GB  <br/> |64-bit, 4 cores  <br/> |80 GB for system drive  <br/> 80 GB for second drive and additional drives  <br/> |
    
 ## Deployment requirements: Farm Topology
 <a name="hwforwebserver"> </a>
 
-For information about how to plan for a server deployment, see [Planning for a MinRole server deployment in SharePoint Server 2019 Public Preview](planning-for-a-minrole-server-deployment-in-sharepoint-server.md).
+For information about how to plan for a server deployment, see [Planning for a MinRole server deployment in SharePoint Server 2019](planning-for-a-minrole-server-deployment-in-sharepoint-server.md).
   
-## Software requirements for SharePoint Server 2019 Public Preview
+## Software requirements for SharePoint Server 2019
 <a name="section4"> </a>
 
 The requirements in the following section apply to the following installations:
@@ -74,14 +74,14 @@ The requirements in the following section apply to the following installations:
     
   
 > [!NOTE]
-> SharePoint Server 2019 Public Preview supports drives that are formatted with the Resilient File System (ReFS). For additional information about ReFs, see [Resilient File System Overview](https://go.microsoft.com/fwlink/p/?LinkId=618431) and [Resilient File System](https://go.microsoft.com/fwlink/p/?LinkId=618432)
+> SharePoint Server 2019 supports drives that are formatted with the Resilient File System (ReFS). For additional information about ReFs, see [Resilient File System Overview](https://go.microsoft.com/fwlink/p/?LinkId=618431) and [Resilient File System](https://go.microsoft.com/fwlink/p/?LinkId=618432)
   
 > [!IMPORTANT]
-> SharePoint Server 2019 Public Preview does not support single label domain names. For more information, see [Information about configuring Windows for domains with single-label DNS names](https://go.microsoft.com/fwlink/p/?LinkID=193849). 
+> SharePoint Server 2019 does not support single label domain names. For more information, see [Information about configuring Windows for domains with single-label DNS names](https://go.microsoft.com/fwlink/p/?LinkID=193849). 
   
-The Microsoft SharePoint Products Preparation Tool can assist you in the installation of the software prerequisites for SharePoint Server 2019 Public Preview. Ensure that you have an Internet connection because some prerequisites are installed from the Internet.
+The Microsoft SharePoint Products Preparation Tool can assist you in the installation of the software prerequisites for SharePoint Server 2019. Ensure that you have an Internet connection because some prerequisites are installed from the Internet.
   
-### Minimum software requirements for SharePoint Server 2019 Public Preview
+### Minimum software requirements for SharePoint Server 2019
 
 This section provides minimum software requirements for each server in the farm.
   
@@ -115,7 +115,7 @@ One of the following server operating systems:
 - Windows Server 2019 Standard or Datacenter (Desktop Experience)
     
 > [!NOTE]
-> We don't support installing the Office 2019 client and SharePoint Server 2019 Public Preview on the same computer. 
+> We don't support installing the Office 2019 client and SharePoint Server 2019 on the same computer. 
 
 > [!NOTE]
 > The minimum supported version is Office 2010 client.
@@ -152,7 +152,7 @@ The Microsoft SharePoint Products Preparation Tool installs the following prereq
     
 #### Minimum requirements for client computers
 
-- A supported browser. For more information, see [Plan browser support in SharePoint Server 2019 Public Preview](browser-support-planning-0.md).
+- A supported browser. For more information, see [Plan browser support in SharePoint Server 2019](browser-support-planning-0.md).
 
 ## Manually configure Windows Server Roles and Features
 To manually configure the required Windows Server Roles and Features, you can use one of two methods: 1. Server Manager 2. Microsoft PowerShell
@@ -170,25 +170,25 @@ From a PowerShell command prompt window, type:
 > Some Windows features being installed are “Features On Demand (FOD)”, which are downloaded from Windows Update.  If the computer doesn’t have access to Windows Update, you can specify local installation files by adding the **Source** parameter and pointing to the \sources\sxs folder on the Windows Server installation media.  For example:   -Source D:\sources\sxs
 
     
-## Optional software supported in SharePoint Server 2019 Public Preview
+## Optional software supported in SharePoint Server 2019
 <a name="OptionalSoftware"> </a>
 
-The optional software in this section is supported but is not required to install or use SharePoint Server 2019 Public Preview. This software might be required by capabilities such as business intelligence.
+The optional software in this section is supported but is not required to install or use SharePoint Server 2019. This software might be required by capabilities such as business intelligence.
   
 |**Environment**|**Optional software**|
 |:-----|:-----|
-|Single server farm, front-end web servers, and application servers in a farm  <br/> | .NET Framework Data Provider for SQL Server (part of Microsoft .NET Framework)  <br/>  .NET Framework Data Provider for OLE DB (part of Microsoft .NET Framework)  <br/>  SharePoint Workflow Manager  <br/>  You can install SharePoint Workflow Manager on a dedicated computer.  <br/>  Microsoft SQL Server 2008 R2 Reporting Services Add-in for Microsoft SharePoint Technologies  <br/>  This add-in is used by Access Services for SharePoint Server 2019 Public Preview.  <br/>  Microsoft SQL Server 2012 Data-Tier Application (DAC) Framework 64-bit edition  <br/>  Microsoft SQL Server 2012 Transact-SQL ScriptDom 64-bit edition  <br/>  Microsoft System CLR Types for Microsoft SQL Server 2012 64-bit edition  <br/>  Microsoft SQL Server 2012 with SP1 LocalDB 64-bit edition  <br/>  Microsoft Data Services for the .NET Framework 4 and Silverlight 4 (formerly ADO.NET Data Services)  <br/>  Exchange Web Services Managed API, version 1.2  <br/>  |
+|Single server farm, front-end web servers, and application servers in a farm  <br/> | .NET Framework Data Provider for SQL Server (part of Microsoft .NET Framework)  <br/>  .NET Framework Data Provider for OLE DB (part of Microsoft .NET Framework)  <br/>  SharePoint Workflow Manager  <br/>  You can install SharePoint Workflow Manager on a dedicated computer.  <br/>  Microsoft SQL Server 2008 R2 Reporting Services Add-in for Microsoft SharePoint Technologies  <br/>  This add-in is used by Access Services for SharePoint Server 2019.  <br/>  Microsoft SQL Server 2012 Data-Tier Application (DAC) Framework 64-bit edition  <br/>  Microsoft SQL Server 2012 Transact-SQL ScriptDom 64-bit edition  <br/>  Microsoft System CLR Types for Microsoft SQL Server 2012 64-bit edition  <br/>  Microsoft SQL Server 2012 with SP1 LocalDB 64-bit edition  <br/>  Microsoft Data Services for the .NET Framework 4 and Silverlight 4 (formerly ADO.NET Data Services)  <br/>  Exchange Web Services Managed API, version 1.2  <br/>  |
    
 ## Links to applicable software
 <a name="section5"> </a>
 
-To install Windows Server 2016 or higher, SQL Server 2016 or higher, or SharePoint Server 2019 Public Preview, you can go to the websites that are listed in this section. You can install most software prerequisites through the SharePoint Server 2019 Public Preview Start page. The software prerequisites are also available from websites that are listed in this section. You can enable the Web Server (IIS) role in Server Manager.
+To install Windows Server 2016 or higher, SQL Server 2016 or higher, or SharePoint Server 2019, you can go to the websites that are listed in this section. You can install most software prerequisites through the SharePoint Server 2019 Start page. The software prerequisites are also available from websites that are listed in this section. You can enable the Web Server (IIS) role in Server Manager.
   
 In scenarios where installing prerequisites directly from the Internet is not possible, you can download the prerequisites and then install them from a network share. For more information, see [Install prerequisites for SharePoint Server from a network share](install-prerequisites-from-network-share.md).
   
-- [SharePoint Server 2019 Public Preview](https://go.microsoft.com/fwlink/?LinkId=2006095)
+- [SharePoint Server 2019](https://go.microsoft.com/fwlink/?LinkId=2006095)
     
-- [Language Packs for SharePoint Server 2019 Public Preview](https://go.microsoft.com/fwlink/?LinkId=2006096)
+- [Language Packs for SharePoint Server 2019](https://go.microsoft.com/fwlink/?LinkId=2006096)
     
 - [Windows Server 2016](https://www.microsoft.com/evalcenter/evaluate-windows-server-2016)
     
@@ -225,7 +225,7 @@ In scenarios where installing prerequisites directly from the Internet is not po
 ## Prerequisite installer operations and command-line options
 <a name="section7"> </a>
 
-The SharePoint Server 2019 Public Preview prerequisite installer (prerequisiteinstaller.exe) installs the following software, if it has not already been installed on the target server, in the following order:
+The SharePoint Server 2019 prerequisite installer (prerequisiteinstaller.exe) installs the following software, if it has not already been installed on the target server, in the following order:
   
 1. Web Server (IIS) Role
     

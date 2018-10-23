@@ -3,7 +3,6 @@ title: "New and improved features in the SharePoint Migration Tool"
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
-ms.date: 7/30/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -17,14 +16,51 @@ Learn about the new features and updates to existing features in SharePoint Migr
   
 >[!NOTE]
 >To install the current release download here: [SharePoint Migration Tool](http://spmtreleasescus.blob.core.windows.net/install/default.htm)
-  
 
-  
+### SPMT V2.1.102.0
+
+**New features**
+
+The following features were added to the SharePoint Migration Tool, Version V2.1.102.0
+
+|**Feature**|**Description**|
+|:-----|:-----|
+|Modern design|The SharePoint Migration tool has a new look and feel that is more closely aligned with the Sharepoint Online design for easier use. |
+
+**Improvements**
+
+In addition to several minor fixes, here are the primary improvements made in this release:
+
+|**Issue**|**Fix**|
+|:----|:-----|
+|Stability|General improvements have been made to remove some errors in tool.|
+
+
+### SPMT V2.1.101.6
+
+**New features**
+
+The following features were added to the SharePoint Migration Tool, Version V2.1.101.6
+
+|**Feature**|**Description**|
+|:-----|:-----|
+|Support for CustomGrid list template|The **CustomerGrid** list template (template ID:120) is now supported. The user can now migrate lists that contain a set of list items with a grid-editing view.|
+|New PowerShell setting|When using the **Register-SPMTMigration** PowerShell cmdlet, users can now set the parameter *MigrateAllFieldsAndContentTypes*.|
+
+**Improvements**
+
+In addition to several minor fixes, here are the primary improvements made in this release:
+
+|**Issue**|**Fix**|
+|:----|:-----|
+|Stability|General improvements have been made to remove some errors in tool.|
+
+   
 ### SPMT V2.1.101.0
 
 **New features**
 
-The following features were added to SharePoint Migration Tool, Version 2.1.101.0
+The following features were added to the SharePoint Migration Tool, Version 2.1.101.0
 
 |**Feature**|**Description**|
 |:-----|:-----|
@@ -47,7 +83,7 @@ In addition to a number of minor fixes, here are the primary improvements made i
 
 **New features**
 
-The following features were added to SharePoint Migration Tool, Version 2.1.100.0
+The following features were added to the SharePoint Migration Tool, Version 2.1.100.0
 
 |**Feature**|**Description**|
 |:-----|:-----|
@@ -80,7 +116,7 @@ In addition to a number of minor fixes, here are the primary improvements made i
 
 **New features**
 
-The following features were added to SharePoint Migration Tool, Version 1.1.901.
+The following features were added to the SharePoint Migration Tool, Version 1.1.901.
   
 |**Feature**|**Description**|
 |:-----|:-----|
@@ -99,9 +135,6 @@ In addition to a number of minor fixes, here are the primary improvements made i
 |Warnings when files are checked out  <br/> |Users will now have warning messages appear in the tool when attempting to migrate a file that was checked out.  <br/> |
 |Report when performing only a scan  <br/> |The **FilesReport.csv** file will now show the correct results when only scanning option is turned on.  <br/> |
    
-## See also
-
-#### Other Resources
 
 
 [Download SharePoint Migration Tool](http://spmtreleasescus.blob.core.windows.net/install/default.htm)

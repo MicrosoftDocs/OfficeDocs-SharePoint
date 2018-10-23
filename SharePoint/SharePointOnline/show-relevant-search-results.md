@@ -18,10 +18,11 @@ description: "All search results are not relevant to everyone all the time. Lear
 # Show the right search results
 
 All search results are not relevant to everyone all the time. Learn how you can help users find exactly the results they're looking for in SharePoint Online. 
+SharePoint Online has both a classic and a modern search experience, [learn about the differences between the classic and modern search experiences in SharePoint Online](differences-classic-modern-search.md).
   
  ## Manage the search schema
   
-The search schema controls what you can search for, how you can search it, and how the results get presented on your search websites. In the search schema, you can view, create, or change managed properties, and map crawled properties to managed properties. [Learn more](manage-search-schema.md).
+The search schema controls what users can search for, how they can search it, and how the results get presented on your search websites. In the search schema, you can view, create, or change managed properties, and map crawled properties to managed properties. [Learn more](manage-search-schema.md).
   
  ## Manage query rules
   
@@ -51,12 +52,7 @@ You can use search dictionaries to include or exclude words for query spelling c
   
 You can influence the pages or documents that should appear at the top of your list of search results by identifying authoritative pages - high-quality pages that link to the most relevant information. [Learn more](manage-authoritative-pages.md).
   
-## Create a custom ranking model
-  
-> [!IMPORTANT]
->  Creating a custom ranking model is a complicated process. Only expert users should create custom ranking models. 
-  
-In most cases, the ranking models in SharePoint Online provide good search result ranking, and you can also influence the ranking of search results with query rules. If you have a relevance need that the standard ranking models don't provide, you can create a custom ranking model. [Learn more](create-custom-ranking-model.md).
+
   
 ## Export and import search settings
   

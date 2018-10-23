@@ -9,14 +9,14 @@ ms.topic: article
 f1_keywords:
 - 'SPOTACfgInfoPathWebSrvcPrx'
 - 'SPOTACfgInfoPathSrvc'
-ms.service: o365-administration
+ms.service: sharepoint-online
 localization_priority: Normal
 search.appverid:
 - SPO160
 - BSA160
 - MET150
 ms.assetid: a8609546-c0d7-4956-81b6-08e93eb4b290
-description: "How to configure Infopath setting in SharePoint Online for Enterprises. Including form render settings and exempt user agents."
+description: "How to configure Infopath in SharePoint Online."
 ---
 
 # Configure InfoPath Forms Services
@@ -50,7 +50,7 @@ To configure browser-enabled user form templates
   
 1. Sign in to Office 365 as a global admin or SharePoint admin.
     
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
 3. In the left pane, choose **Admin centers** \> **SharePoint**.
     
@@ -80,7 +80,7 @@ To make indexing InfoPath forms faster and easier, you can specify which user ag
   
 1. Sign in to Office 365 as a global admin or SharePoint admin.
     
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
 3. In the left pane, choose **Admin centers** \> **SharePoint**.
     

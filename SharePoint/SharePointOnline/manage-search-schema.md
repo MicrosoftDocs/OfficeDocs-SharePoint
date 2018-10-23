@@ -17,7 +17,7 @@ description: "Learn about the search schema and how you can view, create, or cha
 
 # Manage the search schema in SharePoint Online
 
-The search schema controls what you can search for, how you can search it, and how you can present the results on your search websites. By changing the search schema, you can customize the search experience in SharePoint Online.
+The search schema controls what users can search for, how users can search it, and how you can present the results on your search websites. By changing the search schema, you can customize the search experience in SharePoint Online.
   
 ## About the search schema
 <a name="__toc351360836"> </a>
@@ -82,7 +82,7 @@ The search schema displays the name of auto-generated managed properties and the
 ### Refine on managed properties
 <a name="__toc351360838"> </a>
 
-If you want to use a managed property as a refiner on the search results page, use the setting **refinable**. This setting is only available on the built-in managed properties. If you need to use a new managed property, or an auto-generated managed property, as a refiner, rename an existing, unused managed property (that's refinable) by using an alias. There are quite a few managed properties available for this purpose. They have names such as "RefinableString00" and "RefinableDate19." 
+If you want to use a managed property as a refiner on the search results page, use the setting **refinable**. This setting is only available on the built-in managed properties, and only [affects the classic search experience](differences-classic-modern-search.md). If you need to use a new managed property, or an auto-generated managed property, as a refiner, rename an existing, unused managed property (that's refinable) by using an alias. There are quite a few managed properties available for this purpose. They have names such as "RefinableString00" and "RefinableDate19." 
   
 For example, you create a new site column called "NewColors", and you want users to be able to use "NewColors" as an option when they refine on the search results. In the search schema, you choose an unused managed property, for example "RefinableString00", and rename the property to "NewColors" by using the Alias setting. Then, you map this new managed property to the relevant crawled property.
   

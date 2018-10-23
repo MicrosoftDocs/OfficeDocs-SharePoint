@@ -3,7 +3,7 @@ title: "Add Yammer to the SharePoint Server navigation"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 6/11/2018
+ms.date: 9/7/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -14,13 +14,13 @@ description: "Summary: Show the Yammer tile or the SharePoint Newsfeed link in S
 
 # Add Yammer to the SharePoint Server navigation
 
- **Summary:** Show the Yammer tile or the SharePoint Newsfeed link in SharePoint Server navigation. 
+ **Summary:** Activate Yammer and show the Yammer tile or the SharePoint Newsfeed link in SharePoint Server navigation. 
 
 You can choose whether users see a link to Yammer or Newsfeed in the site navigation.
 
 The user account that is performing this procedure must be a member of the Farm Administrators group.
 
-## In SharePoint Server 2016, change the navigation tile from Newsfeed to Yammer
+## In SharePoint Server 2019 and SharePoint Server 2016
 
 1. Start the SharePoint Central Administration tool.
 
@@ -30,22 +30,27 @@ The user account that is performing this procedure must be a member of the Farm 
 
      ![Yammer Configuration page in Central Admin](../media/yammer-spserver-config.png) 
    
-     After a few minutes, the **Activate Yammer** button goes away.
+     After a few minutes, the **Activate Yammer** button changes to **Deactivate Yammer**. This may take up to 30 minutes.
 
-4. Verify that Yammer is selected by clicking the Office 365 icon. You should see the Yammer tile rather than the Newsfeed tile.
+4. Verify that Yammer is selected by clicking the Office 365 icon. You should the Yammer app listed.
+    Here's what it looks like in SharePoint Server 2019:
 
-     ![SharePoint navigation showing the Yammer tile](../media/yammer-tile-sharepoint.png)
+     ![SharePoint Server 2019 Office 365 navigation showing the Yammer app](../media/yammer_spserver_apps2019.png)
 
-##In SharePoint Server 2013 running Service Pack 1 for SharePoint Server 2013, change the link on the top navigation bar
+    Here's what it looks like in SharePoint Server 2016: 
 
-1. Verify that the user account that is performing this procedure is a member of the Farm Administrators group. 
-    
-2. On the Central Administration website, in the **Office 365** section, choose **Configure Yammer**.
+     ![SharePoint Server 2016 navigation showing the Yammer app](../media/yammer-tile-sharepoint.png)
 
-3. On the **Configure Yammer** page, select **Activate Yammer**. 
+## In SharePoint Server 2013 running Service Pack 1 for SharePoint Server 2013
+ 
+1. On the Central Administration website, in the **Office 365** section, choose **Configure Yammer**.
+
+2. On the **Configure Yammer** page, select **Activate Yammer**. 
      
-     ![Yammer Configuration page in Central Admin](../media/yammer-spserver-config.png)
+     ![Yammer Configuration page in SharePoint Server 2013 Central Admin](../media/yammer-spserver-config.png)
   
-4. Look at the top navigation bar to verify that the Newsfeed link is replaced with a link to Yammer. 
+3. Look at the top navigation bar to verify that the Newsfeed link is replaced with a link to Yammer. 
+
+    ![SharePoint Server 2013 navigation bar with Yammer](../media/Yammerinonpremnavbar.gif)
     
 

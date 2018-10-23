@@ -44,14 +44,16 @@ Depending on your version, system requirements and prerequisites could vary.
 
 ## I have SharePoint Server installed
 
-Do you already have SharePoint Server installed and want to upgrade to a new version? Or apply the new feature packs or updates?
+Do you already have SharePoint Server installed and want to upgrade to a new version? Or apply the new feature packs or updates?<br/>
 <br/>
+
 |**What do you need to do?**|**Read**|
 |:-----|:-----|
-|I have SharePoint Server 2013 installed and want to upgrade to SharePoint 2016  <br/> |[Upgrade to SharePoint Server 2016](upgrade-and-update/upgrade-to-sharepoint-server-2016.md) <br/> |
-|I have SharePoint Server 2010 installed and want to upgrade to SharePoint 2013  <br/> |[Upgrade from SharePoint 2010 to SharePoint 2013](upgrade-and-update/upgrade-from-sharepoint-2010-to-sharepoint-2013.md) <br/> |
-|How do I apply updates to SharePoint Server 2013?  <br/> |[Deploy software updates for SharePoint 2013](upgrade-and-update/deploy-software-updates-for-sharepoint-2013.md) <br/> |
-|How do I apply updates to SharePoint Server 2016?  <br/> |[Deploy software updates for SharePoint Server 2016](upgrade-and-update/deploy-updates-for-sharepoint-server-2016.md) <br/> |
+|I have SharePoint Server 2013 installed and want to upgrade to SharePoint 2016|[Upgrade to SharePoint Server 2016](upgrade-and-update/upgrade-to-sharepoint-server-2016.md)|
+|I have SharePoint Server 2010 installed and want to upgrade to SharePoint 2013|[Upgrade from SharePoint 2010 to SharePoint 2013](upgrade-and-update/upgrade-from-sharepoint-2010-to-sharepoint-2013.md)|
+|How do I apply updates to SharePoint Server 2013?|[Deploy software updates for SharePoint 2013](upgrade-and-update/deploy-software-updates-for-sharepoint-2013.md)|
+|How do I apply updates to SharePoint Server 2016?|[Deploy software updates for SharePoint Server 2016](upgrade-and-update/deploy-updates-for-sharepoint-server-2016.md)|
+
 
 ## I have SharePoint Server and want to move to the cloud
 

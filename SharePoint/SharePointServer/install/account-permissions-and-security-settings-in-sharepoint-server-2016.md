@@ -1,5 +1,5 @@
 ---
-title: "Account permissions and security settings in SharePoint Servers 2016 and 2019 Public Preview"
+title: "Account permissions and security settings in SharePoint Servers 2016 and 2019"
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 55b99d80-3fa7-49f0-bdf4-adb5aa959019
-description: "Summary: Learn about the permissions and security settings to use with a deployment of SharePoint Servers 2016 and 2019 Public Preview."
+description: "Summary: Learn about the permissions and security settings to use with a deployment of SharePoint Servers 2016 and 2019."
 ---
 
-# Account permissions and security settings in SharePoint Servers 2016 and 2019 Public Preview
+# Account permissions and security settings in SharePoint Servers 2016 and 2019
 
- **Summary:** Learn about the permissions and security settings to use with a deployment of SharePoint Servers 2016 and 2019 Public Preview. 
+ **Summary:** Learn about the permissions and security settings to use with a deployment of SharePoint Servers 2016 and 2019. 
   
 This article describes SharePoint administrative and services account permissions for the following areas: Microsoft SQL Server, the file system, file shares, and registry entries.
   
@@ -25,13 +25,34 @@ This article describes SharePoint administrative and services account permission
 > Do not use service account names that contain the symbol $. 
   
     
-## About account permissions and security settings in SharePoint Servers 2016 and 2019 Public Preview
+## About account permissions and security settings in SharePoint Servers 2016 and 2019
 <a name="Section1"> </a>
 
 The SharePoint Products Configuration Wizard (Psconfig) and the Farm Configuration Wizard, both of which are run during a complete installation, configure many of the SharePoint baseline account permissions and security settings.
+
+## Service account recommendations
+<a name="Section2"> </a>
+
+Microsoft recommends using a minimal number of service accounts in the farm. This is to reduce memory usage and increase performance while maintaining the appropriate level of security.
+
+- Use an elevated, personally identifiable account for SharePoint installation, maintenance, and upgrades. This account will hold the roles required as outlined by the Setup user administrator account outlined below. Each SharePoint Administrator should use a separate account to clearly identify activity performed by the administrator on the farm.
+
+- With the exception of the Claims to Windows Token Service account, no service accounts should have Local Administrator access to any SharePoint server, nor any elevated SQL Server role, for example, the sysadmin fixed role. The SharePoint farm administrator account will require the dbcreator and securityadmin fixed roles unless you pre-provision SharePoint databases and manually assign permissions to each database.
+
+- Service accounts, with the exception of the account running the Claims to Windows Token Service, should have Deny logon locally and Deny logon through Remote Desktop Services in the Local Security Policy\User Rights Assignment. This is set via `secpol.msc`.
+
+- The SharePoint farm service account should only run the SharePoint Timer service, SharePoint Inights (if applicable), the IIS Application Pools for Central Administration, SharePoint Web Services System (used for the topology service), and SecurityTokenServiceApplicationPool (used for the Security Token Service).
+
+- A single account should be used for all Service Applications. This allows the administrator to use a single IIS Application Pool for all Service Applications. In addition, this account should run the following Windows Services: SharePoint Search Host Controller, SharePoint Server Search, and Distributed Cache (AppFabric Caching Service).
+
+- A single account should be used for all Web Applications. This allows the administrator to use a single IIS Application Pool for all Web Applications. The exception is the Central Administration Web Application, which as noted above, is run by the SharePoint farm service account.
+
+- Use separate accounts for the Content access accounts (Search crawler), Super Reader, Super User, and User Profile Service Application Synchronization, if applicable.
+
+- The Claims to Windows Token Service account is a highly privledged account on the farm. Prior to deploying this service, verify it is required. If required, use a separate account for this service.
   
 ## SharePoint administrative accounts
-<a name="Section2"> </a>
+<a name="Section3"> </a>
 
 One of the following SharePoint components automatically configures most of the SharePoint administrative account permissions during the setup process:
   
@@ -103,7 +124,7 @@ After you run the configuration wizards, SQL Server and database permissions inc
 - Membership in the WSS_CONTENT_APPLICATION_POOLS role for the SharePoint_Admin content database.
     
 ## SharePoint service application accounts
-<a name="Section3"> </a>
+<a name="Section4"> </a>
 
 This section describes the service application accounts that are set up by default during installation.
   
@@ -137,7 +158,7 @@ The default content access account is used within a specific service application
 ### Content access accounts
 
 > [!IMPORTANT]
-> Information in this section applies to SharePoint Servers 2016 and 2019 Public Preview only. 
+> Information in this section applies to SharePoint Servers 2016 and 2019 only. 
   
 Content access accounts are configured to access content by using the Search administration crawl rules feature. This type of account is optional, and you can configure it when you create a new crawl rule. For example, external content (such as a file share) might require this separate content access account. This account requires the following permission configuration settings:
   
@@ -148,7 +169,7 @@ Content access accounts are configured to access content by using the Search adm
 ### My Sites application pool account
 
 > [!IMPORTANT]
-> Information in this section applies to SharePoint Server 2016 and 2019 Public Preview only. 
+> Information in this section applies to SharePoint Server 2016 and 2019 only. 
   
 The My Sites application pool account must be a domain user account. This account must not be a member of the Farm Administrators group. 
   
@@ -181,7 +202,7 @@ The following SQL Server and database permissions are configured automatically:
 - This account is assigned to the WSS_CONTENT_APPLICATION_POOLS role that is associated with the SharePoint_Admin content database.
     
 ## SharePoint database roles
-<a name="Section4"> </a>
+<a name="Section5"> </a>
 
 This section describes the database roles that installation sets up by default or that you can configure optionally.
   
@@ -248,9 +269,9 @@ The SPDataAccess role will have the following permissions:
 - Grant create table permission.
     
 ## Group permissions
-<a name="Section5"> </a>
+<a name="Section6"> </a>
 
-This section describes permissions of groups that the SharePoint Servers 2016 and 2019 Public Preview setup and configuration tools create.
+This section describes permissions of groups that the SharePoint Servers 2016 and 2019 setup and configuration tools create.
   
 ### WSS_ADMIN_WPG
 
@@ -414,7 +435,7 @@ The following table shows the all SharePoint Server service accounts file system
 |%COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\LOGS  <br/> |Modify  <br/> |No  <br/> |This directory contains setup and run-time tracing logs. If this directory is altered, diagnostic logging will not function correctly. All SharePoint Server service accounts must have write permission to this directory.  <br/> |
    
 ## See also
-<a name="Section5"> </a>
+<a name="Section6"> </a>
 
 #### Concepts
 

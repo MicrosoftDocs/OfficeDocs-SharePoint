@@ -592,7 +592,7 @@ Use this procedure to synchronize profile information between SharePoint Server 
     
   - The user account that performs this procedure is a member of the Administrators group on the computer that is running SharePoint Server 2013.
     
-2. If you have already imported users or created My Sites, and you have enabled NetBIOS domain names, you must disable the My Site cleanup timer job before you start profile synchronization. For information about this timer job, see the [Timer job reference for SharePoint Server 2016](../technical-reference/timer-job-reference-for-sharepoint-server-2016.md). For information about the PowerShell cmdlets that you use to enable and disable this timer job, see [Timer jobs cmdlets (SharePoint Server 2010)](http://technet.microsoft.com/library/4ad542f7-84ad-456b-bfc4-6200c949e9f7.aspx).
+2. If you have already imported users or created My Sites, and you have enabled NetBIOS domain names, you must disable the My Site cleanup timer job before you start profile synchronization. For information about this timer job, see the [Default timer jobs in SharePoint Server 2016](../technical-reference/default-timer-jobs-in-sharepoint-server-2016.md). For information about the PowerShell cmdlets that you use to enable and disable this timer job, see [Timer jobs cmdlets (SharePoint Server 2010)](http://technet.microsoft.com/library/4ad542f7-84ad-456b-bfc4-6200c949e9f7.aspx).
     
 3. If the user account that is performing this procedure is a farm administrator, complete these steps. Otherwise, if the user account is not a farm administrator go to the next step: 
     

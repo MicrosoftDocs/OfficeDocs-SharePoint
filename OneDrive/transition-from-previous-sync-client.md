@@ -68,7 +68,7 @@ The following library types are not yet supported by the new OneDrive sync clien
 
 1. In the SharePoint admin center, [Let users sync SharePoint files with the new OneDrive sync client](https://support.office.com/article/22e1f635-fb89-49e0-a176-edab26f69614). If the options aren't available, the new OneDrive sync client is already set up to sync OneDrive for Business and SharePoint Online files.
     
-2. If you're running Windows 10, you can use silent account configuration to sign in users. For info, see [Silently configure OneDrive using Windows 10 or domain credentials](use-group-policy.md#SilentConfig).
+2. If you're running Windows 10, you can use silent account configuration to sign in users. For info, see [Silently configure OneDrive using Windows 10 or domain credentials](use-group-policy.md#SilentAccountConfig).
     
 ## Run the takeover command
 
@@ -107,5 +107,5 @@ For more information, see [Get-SPOTenantSyncClientRestriction](https://go.micros
   
 [Use Group Policy to control OneDrive sync client settings](use-group-policy.md)
   
-[Restrictions and limitations when you use the new OneDrive sync client to sync OneDrive for Business libraries](https://go.microsoft.com/fwlink/?LinkId=717734)
+[Invalid file names and file types in OneDrive, OneDrive for Business, and SharePoint](https://support.office.com/article/64883a5d-228e-48f5-b3d2-eb39e07630fa)
 

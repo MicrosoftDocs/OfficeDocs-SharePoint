@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 75401651-ef01-4348-878e-8a636f0b072d
-description: "Summary: How to configure outgoing email to relay email alerts and notifications in SharePoint Server 2019 Public Preview, SharePoint Server 2016, and SharePoint 2013."
+description: "Summary: How to configure outgoing email to relay email alerts and notifications in SharePoint Server 2019, SharePoint Server 2016, and SharePoint 2013."
 ---
 
 # Plan outgoing email for a SharePoint Server farm
 
- **Summary:** Learn how to configure outgoing email to relay email alerts and notifications in your SharePoint Server 2019 Public Preview, SharePoint Server 2016, and SharePoint 2013 farm or web application. Also learn how to set SMTP server authentication in SharePoint Server 2019 Public Preview.
+ **Summary:** Learn how to configure outgoing email to relay email alerts and notifications in your SharePoint Server 2019, SharePoint Server 2016, and SharePoint 2013 farm or web application. Also learn how to set SMTP server authentication in SharePoint Server 2019.
   
 Outgoing email is the foundation on which site administrators can implement several email notification features. These features help end users track changes and updates to individual site collections and allow site administrators to deliver status messages.
   
@@ -82,9 +82,9 @@ Be aware that if you select a specific language code, the text is less likely to
 
 ### SMTP server authentication
 
-The SMTP server authentication feature is only available in SharePoint Server 2019 Public Preview.
+The SMTP server authentication feature is only available in SharePoint Server 2019.
 
-SharePoint Server 2019 Public Preview supports connecting to SMTP servers anonymously or with authentication. If your SMTP server requires authentication, you'll need to provide credentials that SharePoint will use to authenticate to the SMTP server. It's recommended to use account credentials that match the From address. If you wish to use credentials for a different account, ensure that account has "Send As" permission to impersonate the From address.
+SharePoint Server 2019 supports connecting to SMTP servers anonymously or with authentication. If your SMTP server requires authentication, you'll need to provide credentials that SharePoint will use to authenticate to the SMTP server. It's recommended to use account credentials that match the From address. If you wish to use credentials for a different account, ensure that account has "Send As" permission to impersonate the From address.
 
 > [!NOTE]
 > If you're using a Windows account to authenticate to the SMTP server, you can specify the user name using either the Universal Principal Name (UPN) format (user@domain.com) or the NT4 login format (DOMAIN\user). If you're using a non-Windows account to authenticate to the SMTP server, contact your email administrator to determine the correct user name format.

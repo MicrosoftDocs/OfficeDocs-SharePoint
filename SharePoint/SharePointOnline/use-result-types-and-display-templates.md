@@ -17,7 +17,7 @@ description: "Learn how result types and display templates help users quickly di
 
 # Change how search results look by using result types and display templates
 
-To help users quickly distinguish between different types of results when they search for something in SharePoint, we use  *result types*  and  *display templates*  . Important information is shown directly in the search results, so that users don't have to click on each result to see if they've found what they're looking for. 
+To help users quickly distinguish between different types of results when they search for something in the classic search experience, we use  *result types*  and  *display templates*. Important information is shown directly in the search results, so that users don't have to click on each result to see if they've found what they're looking for. 
   
 By default, the Search Results Web Part in your Search Center is set up to use different display templates according to the result type of the search result. [Result types](manage-result-types.md) define when to use which display template, and the  *display template*  defines what information to show in the search results. 
   

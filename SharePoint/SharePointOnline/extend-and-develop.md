@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 5/25/2018
 ms.audience: Admin
 ms.topic: conceptual
-ms.service: o365-administration
+ms.service: sharepoint-online
 localization_priority: Normal
 search.appverid:
 - SPO160

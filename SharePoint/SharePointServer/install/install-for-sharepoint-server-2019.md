@@ -1,5 +1,5 @@
 ---
-title: "Install SharePoint Server 2019 Public Preview"
+title: "Install SharePoint Server 2019"
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
@@ -13,20 +13,20 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 ms.assetid: 47db8aed-7e2b-4ccb-b248-d71df3bffa99
 
-description: "Summary: Learn how to install SharePoint Server 2019 Public Preview in various topologies."
+description: "Summary: Learn how to install SharePoint Server 2019 in various topologies."
 ---
 
-# Install SharePoint Server 2019 Public Preview
+# Install SharePoint Server 2019
 
- **Summary:** Learn how to install SharePoint Server 2019 Public Preview in various topologies. 
+ **Summary:** Learn how to install SharePoint Server 2019 in various topologies. 
   
-Testing and implementing SharePoint Server 2019 Public Preview solutions at different stages of the deployment life cycle requires deployments in various topologies.
+Testing and implementing SharePoint Server 2019 solutions at different stages of the deployment life cycle requires deployments in various topologies.
   
-The following articles provide information about how to deploy SharePoint Server 2019 Public Preview on one or more servers to create different topologies that you can use for testing and implementing SharePoint Server 2019 Public Preview solutions at different stages of the deployment life cycle.
+The following articles provide information about how to deploy SharePoint Server 2019 on one or more servers to create different topologies that you can use for testing and implementing SharePoint Server 2019 solutions at different stages of the deployment life cycle.
   
 |**Content**|**Description**|
 |:-----|:-----|
-|[Hardware and software system requirements](hardware-and-software-requirements-2019.md) <br/> |Describes the system requirements to install SharePoint Server 2019 Public Preview. <br/> |
+|[Hardware and software system requirements](hardware-and-software-requirements-2019.md) <br/> |Describes the system requirements to install SharePoint Server 2019. <br/> |
 |[Install SharePoint Server on one server](install-sharepoint-server-2016-on-one-server.md) <br/> |Describes how to install SharePoint Server on a single server.  <br/> |
 |[Install SharePoint Server across multiple servers](install-sharepoint-server-2016-across-multiple-servers.md) <br/> |Describes how to install SharePoint Server on multiple servers.  <br/> |
 |[Install or uninstall language packs for SharePoint Server](install-or-uninstall-language-packs-0.md) <br/> |Describes language packs and how to download, install, and uninstall them.  <br/> |

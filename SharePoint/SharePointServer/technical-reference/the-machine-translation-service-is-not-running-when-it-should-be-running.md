@@ -3,7 +3,6 @@ title: "The Machine Translation Service is not running when it should be running
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 8/30/2017
 ms.audience: ITPro
 ms.topic: troubleshooting
 ms.prod: sharepoint-server-itpro
@@ -41,8 +40,10 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleT
 
 #### Concepts
 
-[Timer job reference for SharePoint Server 2016](timer-job-reference-for-sharepoint-server-2016.md)
+[Default timer jobs in SharePoint Server 2019](default-timer-jobs-in-sharepoint-server-2019.md)
 #### Other Resources
 
-[Timer job reference for SharePoint 2013](timer-job-reference-for-sharepoint-2013.md)
+[Default timer jobs in SharePoint Server 2016](default-timer-jobs-in-sharepoint-server-2016.md)
+
+[Default timer jobs in SharePoint 2013](timer-job-reference-for-sharepoint-2013.md)
 

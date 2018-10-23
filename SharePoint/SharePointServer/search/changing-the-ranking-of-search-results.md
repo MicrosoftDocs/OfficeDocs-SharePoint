@@ -1,5 +1,5 @@
 ---
-title: "Changing the ranking of search results in SharePoint Server"
+title: "Changing the ranking of classic search results in SharePoint Server"
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen
@@ -9,18 +9,18 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 35f58247-a349-461b-b4d4-8963c3b98df6
-description: "Summary: Learn how to change the ranking of search results in SharePoint Server 2016 and SharePoint Server 2013."
+description: "Summary: Learn how to change the ranking of classic search results in SharePoint Server."
 ---
 
-# Changing the ranking of search results in SharePoint Server
+# Changing the ranking of classic search results in SharePoint Server
 
- **Summary:** Learn how to change the ranking of search results in SharePoint Server 2016 and SharePoint Server 2013. 
+ **Summary:** Learn how to change the ranking of classic search results in SharePoint Server. 
   
- **Audience:** SharePoint Server 2016, SharePoint Server 2013, and SharePoint Online search administrators. 
+ **Audience:** SharePoint Server and SharePoint Online search administrators. 
   
  **Before you start:**
   
-To change the ranking of search results, you need:
+To change the ranking of classic search results, you need:
   
 - A basic understanding of search in SharePoint
     

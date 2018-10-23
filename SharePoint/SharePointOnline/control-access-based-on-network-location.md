@@ -3,7 +3,6 @@ title: "Control access to SharePoint Online and OneDrive data based on network l
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 6/19/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
@@ -44,7 +43,7 @@ Here are some important considerations for setting a location-based policy:
   
 1. Sign in to Office 365 as a global admin or SharePoint admin.
     
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
 3. In the left pane, choose **Admin centers** \> **SharePoint**.
     
@@ -56,7 +55,10 @@ Here are some important considerations for setting a location-based policy:
     
     ![Control access option in SharePoint admin center](media/2c11f07c-ec95-4aa6-b221-4cfaba31034e.png)
   
-## Set a location-based policy using Windows PowerShell
+    > [!IMPORTANT]
+    > Make sure you include your own IP address so you don't lock yourself out. This setting not only restricts access to OneDrive and SharePoint sites, but also to the OneDrive and SharePoint admin centers, and to running PowerShell cmdlets. If you lock yourself out and can't connect from an IP address within a range you specified, you will need to contact Support for help.
+
+## Set a location-based policy by using PowerShell
 
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
     
@@ -69,7 +71,7 @@ Here are some important considerations for setting a location-based policy:
   ```
 
    > [!IMPORTANT]
-   >  Use IPv4 or IPv6 formats ony. <br>Verify that there are no overlapping IP address ranges. <br>Double check the IP range before enabling this policy to ensure you do not lock yourself out. 
+   >  Use IPv4 or IPv6 formats only. <br>Verify that there are no overlapping IP address ranges. <br>Make sure you include your own IP address so you don't lock yourself out. This setting not only restricts access to OneDrive and SharePoint sites, but also to the OneDrive and SharePoint admin centers, and to running PowerShell cmdlets. If you lock yourself out and can't connect from an IP address within a range you specified, you will need to contact Support for help.
   
 4. Enforce the allowable IP ranges you just set as in this example:
     

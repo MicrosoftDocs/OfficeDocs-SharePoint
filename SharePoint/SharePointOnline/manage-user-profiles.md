@@ -9,7 +9,7 @@ ms.topic: article
 f1_keywords:
 - 'ViewUserProfiles'
 - 'SPOTAMgUserProfiles'
-ms.service: o365-administration
+ms.service: sharepoint-online
 localization_priority: Normal
 search.appverid:
 - SPO160
@@ -35,7 +35,7 @@ Most organizations don't need to change any user profile settings in the SharePo
 In Office 365, identity is managed by Azure Active Directory. For info about this, see [Understanding Office 365 identity and Azure Active Directory](https://support.office.com/article/06a189e7-5ec6-4af2-94bf-a22ea225a7a9). SharePoint Online receives this profile information. If you need to store additional info about your users, you can create custom properties in the SharePoint admin center. For info about doing this, see [Add and edit user profile properties in SharePoint Online](add-and-edit-user-profile-properties.md).
   
 > [!NOTE]
-> Instead of creating user sub-types in the SharePoint Online admin center, we recommend using the Office 365 admin center to [Compare groups](https://support.office.com/article/758759ad-63ee-4ea9-90a3-39f941897b7d) or using the Azure AD admin center to [create groups with dynamic membership](https://go.microsoft.com/fwlink/?linkid=865398). 
+> Instead of creating user sub-types in the SharePoint Online admin center, we recommend using the Microsoft 365 admin center to [Compare groups](https://support.office.com/article/758759ad-63ee-4ea9-90a3-39f941897b7d) or using the Azure AD admin center to [create groups with dynamic membership](https://go.microsoft.com/fwlink/?linkid=865398). 
   
 ## Add and remove admins on a OneDrive account
 <a name="addremoveadmins"> </a>
@@ -44,7 +44,7 @@ In some cases, you might want to transfer ownership of a OneDrive account to a d
   
 1. Sign in to Office 365 as a global admin or SharePoint admin.
     
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
 3. In the left pane, choose **Admin centers** \> **SharePoint**.
     
@@ -79,7 +79,7 @@ To add, edit, or delete and audience or an audience rule, go to the Manage Audie
   
 1. Sign in to Office 365 as a global admin or SharePoint admin.
     
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
 3. In the left pane, choose **Admin centers** \> **SharePoint**.
     
@@ -106,7 +106,7 @@ If some users are licensed to use OneDrive, but you don't want them to create a 
   
 1. Sign in to Office 365 as a global admin or SharePoint admin.
     
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
 3. In the left pane, choose **Admin centers** \> **SharePoint**.
     
@@ -116,9 +116,12 @@ If some users are licensed to use OneDrive, but you don't want them to create a 
     
     ![The Manage User Permissions link on the user profiles page](media/946e0564-2e7d-40a6-8603-cc3534a557be.PNG)
   
-6. By default, everyone except external users are allowed to create a OneDrive. Remove that group and add specific groups to allow only a subset of licensed users to create a OneDrive.
+6. By default, "Everyone except external users" has permission to "Create Personal Site" (which includes creating a OneDrive and saving user data such as followed and frequent sites). Remove that group and add specific groups to allow only a subset of licensed users to create a OneDrive.
     
     ![The permissions dialog box for controlling who can create a OneDrive](media/a23b4ec4-7862-4fd4-895a-983fed62c24d.png)
+
+> [!NOTE]
+> To block access to OneDrive for your entire organization, select the **Disable OneDrive** check box. We recommend keeping the Create Personal Site box selected so you don't affect the SharePoint home page experience for your users.  
   
 7. Click **OK**.
     

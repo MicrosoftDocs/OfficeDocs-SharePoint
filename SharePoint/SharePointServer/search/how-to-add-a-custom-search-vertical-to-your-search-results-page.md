@@ -14,9 +14,9 @@ description: "Summary: Learn how to add a custom search vertical to your results
 
 # How to add a custom search vertical to your search results page in SharePoint Server
 
- **Summary:** Learn how to add a custom search vertical to your results page in SharePoint Server. 
+ **Summary:** Learn how to add a custom search vertical to your classic search results page in SharePoint Server. 
   
-In the previous article in this series, [How to add refiners to your search results page in SharePoint Server](how-to-add-refiners-to-your-search-results-page.md), we showed you how to add and configure refiners for your search results page. In this article you'll learn:
+In the previous article in this series, [How to add refiners to your search results page in SharePoint Server](how-to-add-refiners-to-your-search-results-page.md), we showed you how to add and configure refiners for your classic search results page. In this article you'll learn:
   
 - [Using a search vertical in an everyday situation](how-to-add-a-custom-search-vertical-to-your-search-results-page.md#BKMK_UsingaSearchVerticalinanEverydaySituation)
     

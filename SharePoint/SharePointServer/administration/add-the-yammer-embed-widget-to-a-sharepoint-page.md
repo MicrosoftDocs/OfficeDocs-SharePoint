@@ -3,7 +3,7 @@ title: "Add the Yammer Embed widget to a SharePoint page"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 6/11/18
+ms.date: 9/7/18
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -22,7 +22,7 @@ You can choose the type of Yammer feed to include.
 |Group           |The feed for one group | On a team intranet page.|
 |Topic|All conversations tagged with one topic| On an benefits page on an intranet, show all conversations tagged with #EmployeeDiscount.|
 |User|All conversations that include messages from the specified user|On a directory page for the user.|
-|My Feed|The user's home feed|On a user's My site or home page.|
+|My Feed|The user's home feed|On a user's My site or home page. <br/> <br/>The Embed version of My feed shows slightly different messages than the ones included in the home feeds available in Yammer web, desktop, or mobile. In Embed My Feed, users will see messages from all threads in groups they are a member of and all threads in the All Company group. In Yammer web, desktop, and mobile, users can select Discovery, All, or Following feeds, but these aren't available in Embed. The Embed My Feed/Home feed type is closest to the All feed, but doesn't include public posts in public groups they don't belong to.|
 |Open Graph|Connect a specific file or other OpenGraph object to Yammer|Collecting feedback page on a proposal.| 
 
 For each feed type, you can select options including the size of the box displaying the feed, and whether the background is dark or light.

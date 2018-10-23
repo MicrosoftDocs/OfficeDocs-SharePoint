@@ -3,7 +3,7 @@ title: "Integrate multiple Yammer networks into SharePoint Server"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 6/11/2018
+ms.date: 9/7/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -14,15 +14,17 @@ description: "Summary: Learn how to integrate multiple active Yammer networks to
 
 # Integrate multiple Yammer networks into SharePoint Server
 
- **Summary:** Learn how to integrate multiple active Yammer networks together with your SharePoint Server environment. 
+ **Summary:** Multiple active Yammer networks on one Office 365 account are no longer supported after October 26, 2018.  
   
 This scenario describes the prerequisites and recommended steps to integrate multiple active Yammer networks together with your SharePoint Server environment.
+
+    [!NOTE] Multiple active Yammer networks on one Office 365 account are no longer supported after October 26, 2018. For more information, see [FAQ: Consolidating multiple Yammer networks](http://docs.microsoft.com/yammer/configure-your-yammer-network/faq-consolidate-multiple-yammer-networks)
   
 ## Scenario prerequisites
 
 For this scenario, we assume that:
   
-- You have SharePoint Server 2016 or SharePoint Server 2013 SP1 or later installed.
+- You have SharePoint Server 2019, SharePoint Server 2016, or SharePoint Server 2013 SP1 or later installed.
     
 - You don't use the SharePoint Server Newsfeed social feature.
     

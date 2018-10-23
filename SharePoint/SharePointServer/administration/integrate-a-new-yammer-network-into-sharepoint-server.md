@@ -3,13 +3,13 @@ title: "Integrate a new Yammer network into SharePoint Server"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 6/11/2018
+ms.date: 9/7/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 6485e76d-9c52-40eb-ae0f-4e00c321c7d8
-description: "Summary: Learn how to integrate a new Yammer Enterprise network into an existing SharePoint Server  environment."
+description: "Summary: Learn how to integrate a new Yammer Enterprise network into an existing SharePoint Server environment."
 ---
 
 # Integrate a new Yammer network into SharePoint Server
@@ -22,7 +22,7 @@ This scenario describes the prerequisites and recommended steps to integrate a n
 
 For this scenario, we assume that:
   
-- You have SharePoint Server 2016 or SharePoint Server 2013 SP1 or later installed.
+- You have SharePoint Server 2019, SharePoint Server 2016, or SharePoint Server 2013 SP1 or later installed.
     
 - You don't use the SharePoint Server Newsfeed social feature.
     
@@ -36,7 +36,7 @@ Yammer Enterprise is included in many Office 365 plans, which means that you mig
   
 ## Step 2: Create your Yammer network
 
-We recommend that you create one single, central Yammer network. This makes collaboration among all employees easier, and you can invite users from other domains to the primary domain as guests. A single network provides centralized administration, which guarantees consistency across things like policy implementation and management, feature rollout, and scheduled maintenance. If all employees are in one location or are dispersed but share a common email address, use a single Yammer network.
+To set up a Yammer network, see [Yammer admin help](http://docs.microsoft.com/yammer/yammer-landing-page.md).
   
 When you set up your network, [enforce Office 365 identity for Yammer users](https://go.microsoft.com/fwlink/?linkid=875042).
   

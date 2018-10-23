@@ -3,7 +3,7 @@ title: "Integrate Yammer with on-premises SharePoint Server environments"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 6/11/2018
+ms.date: 9/7/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -24,19 +24,24 @@ Before you integrate Yammer into your SharePoint Server  environment, you should
   
     Office 365 uses Azure Active Directory for identity management, and Yammer Enterprise can be set up to enforce Office 365 identity so that users only have to sign on once to access both SharePoint and Yammer content. If you're using an on-premises directory, in order to manage users in one place, you need to sync your on-premises directory with Azure Active Directory by using Azure Active Directory Connect. 
   
-    For more information, see [Plan for directory synchronization for Office 365](https://go.microsoft.com/fwlink/?linkid=875044), [Integrate your on-premises directories with Azure Active Directory](https://go.microsoft.com/fwlink/p/?LinkId=869669), and [Enforce Office 365 identity for Yammer =users](https://go.microsoft.com/fwlink/?linkid=875249)
+    For more information, see [Plan for directory synchronization for Office 365](https://go.microsoft.com/fwlink/?linkid=875044), [Integrate your on-premises directories with Azure Active Directory](https://go.microsoft.com/fwlink/p/?LinkId=869669), and [Enforce Office 365 identity for Yammer users](https://go.microsoft.com/fwlink/?linkid=875249)
     
 ## Add Yammer to the navigation for SharePoint 
 
-In SharePoint 2016, you can add a Yammer tile to the navigation.
+In SharePoint Server 2019 and SharePoint Server 2016, you can add a Yammer tile to the navigation. For instructions, see [Add Yammer to the navigation bar for SharePoint Server](add-yammer-to-the-navigation-bar-for-sharepoint-Server.md).
 
- ![SharePoint navigation showing the Yammer tile](../media/yammer-tile-sharepoint.png)
+Here's what it looks like in SharePoint Server 2019:
 
+![SharePoint Server 2019 Office 365 navigation showing the Yammer app](../media/yammer_spserver_apps2019.png)
+
+Here's what it looks like in SharePoint Server 2016: 
+
+![SharePoint Server 2016 navigation showing the Yammer app](../media/yammer-tile-sharepoint.png)
+ 
 In SharePoint 2013 Service Pack 1 (SP1) for SharePoint Server 2013, you can replace the Newsfeed link with a Yammer link on the top navigation bar.
 
-![SharePoint navigation bar with Yammer](../media/Yammerinonpremnavbar.gif)
+![SharePoint Server 2013 navigation bar with Yammer](../media/Yammerinonpremnavbar.gif)
   
-For instructions, see [Add Yammer to the navigation bar for SharePoint Server](add-yammer-to-the-navigation-bar-for-sharepoint-Server.md).
   
 ## Use Yammer instead of SharePoint Newsfeed features
 

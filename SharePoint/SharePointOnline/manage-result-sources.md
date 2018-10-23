@@ -20,9 +20,12 @@ description: "Result sources limit searches to certain content or to a subset of
 
 Result sources limit searches to certain content or to a subset of search results. You can also use result sources to send queries to external providers such as Bing. 
   
-A SharePoint Online administrator can manage result sources for all site collections and sites in that instance of SharePoint Online (tenant). A site collection administrator or a site owner can manage result sources for a site collection or a site, respectively. 
+A SharePoint Online administrator can manage result sources for all site collections and sites in the tenant. A site collection administrator or a site owner can manage result sources for a site collection or a site, respectively. 
+
+SharePoint Online has both a classic and a modern search experience. The modern search experience gets results from the default result source. If you change the default result source, this impacts both the classic and modern search experiences. [Learn more about the differences between the classic and modern search experiences in SharePoint Online](differences-classic-modern-search.md).
   
-You can create your own result sources, or use the predefined result sources. After you create a result source, you configure Search Web Parts and query-rule actions to use it. 
+For the classic search experience, you can create your own result sources, or use the predefined result sources. After you create a result source, you configure Search Web Parts and query-rule actions to use it.
+
   
 ## Create a new result source
 <a name="__toc342634787"> </a>
@@ -33,7 +36,7 @@ You can create your own result sources, or use the predefined result sources. Af
     
     Log in to Office 365.
     
-    Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+    Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
     In the left pane, choose **Admin centers** \> **SharePoint**.
     
@@ -113,7 +116,7 @@ The default result source is **Local SharePoint Results**, but you can choose to
     
 1. Sign in to Office 365 as a global admin or SharePoint admin.
     
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Office 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
     
 3. In the left pane, choose **Admin centers** \> **SharePoint**.
     

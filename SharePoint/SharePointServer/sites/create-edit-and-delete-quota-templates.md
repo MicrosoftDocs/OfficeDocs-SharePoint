@@ -36,7 +36,7 @@ Before you perform this procedure, confirm the following:
     
 - The Disk Quota Warning timer job is running.
     
-    For more information about default timer jobs for SharePoint Server, see [Timer job reference for SharePoint Server 2016](../technical-reference/timer-job-reference-for-sharepoint-server-2016.md) and [Timer job reference for SharePoint 2013](../technical-reference/timer-job-reference-for-sharepoint-2013.md).
+    For more information about default timer jobs for SharePoint Server, see [Timer job reference for SharePoint Server](../technical-reference/timer-job-reference-for-sharepoint-server.md).
     
 - The quota template options on the quota template page in Central Administration are available only if you have already created one or more quota templates. The first time that you use this page, you will be given only the option to create a new template.
     
@@ -170,11 +170,11 @@ If a site collection is close to exceeding its storage limits and you want to in
   Set-SPSite -Identity "<Site>" -QuotaTemplate "<Template>"
   ```
 
-    Where:
+Where:
     
-  -  _\<Site\>_ is the URL or GUID of the site collection whose quota template that you want to change. 
+-  _\<Site\>_ is the URL or GUID of the site collection whose quota template that you want to change. 
     
-  -  _\<Template\>_ is the name or GUID of the replacement quota template. 
+-  _\<Template\>_ is the name or GUID of the replacement quota template. 
     
 For more information, see [Set-SPSite](http://technet.microsoft.com/library/f8c7f0ac-52bf-4b79-a356-9d6e485a55aa.aspx). We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions.
   

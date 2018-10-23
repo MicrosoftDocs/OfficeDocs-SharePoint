@@ -24,7 +24,7 @@ This article is for IT admins who manage the new OneDrive sync client in an ente
   
 ## How we release updates through multiple rings
 
-After we validate updates through rings within Microsoft, we release them to organizations in the default update ring, Production. We roll them out to a small percentage of users in the ring at first, and slowly roll them out to everyone in the ring. This typically takes one to two weeks. At each increase along the way, we monitor telemetry for quality assurance purposes. In the rare case we detect an issue, we suspend the release, address the issue, and release a new update to users in the same order. After updates have completely rolled out within the Production ring, we release them to the next ring, Enterprise.
+After we validate updates through rings within Microsoft, we release them to the first public ring, Insiders. To try these latest features, join the [Windows Insider program](https://insider.windows.com/) or the [Office Insider](https://products.office.com/office-insider) program. It takes about 3 days to roll out to this ring. Later, we release to organizations in the default update ring, Production. We roll them out to a small percentage of users in the ring at first, and slowly roll them out to everyone in the ring. This typically takes one to two weeks. At each increase along the way, we monitor telemetry for quality assurance purposes. In the rare case we detect an issue, we suspend the release, address the issue, and release a new update to users in the same order. After updates have completely rolled out within the Production ring, we release them to the next ring, Enterprise.
   
 ![Timeline of an update](media/5d705fbc-5553-4c7b-ae2f-cba394332a5e.png)
   
@@ -54,6 +54,9 @@ To determine if an update is available, the OneDrive sync client checks if:
 If both of these are true, OneDrive downloads the update to a hidden folder without any user interaction. After the download is complete, OneDrive verifies and installs it. If OneDrive is running, it's stopped and then restarted. Users don't need to sign in again, and they don't need administrative rights to install the update.
   
 For info about the latest releases, see [New OneDrive sync client release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0).
+
+> [!NOTE]
+> To apply sync client updates, computers in your organization must be able to reach the URL "oneclient.sfx.ms." Make sure you don't block this URL. [More info about the URLs and IP address ranges used in Office 365](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2.) 
   
 ## Deploying updates in the Enterprise ring
 

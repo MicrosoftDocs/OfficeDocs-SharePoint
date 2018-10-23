@@ -1,5 +1,5 @@
 ---
-title: "Overview of profile synchronization in SharePoint Server 2013"
+title: "Overview of profile synchronization in SharePoint Server 2016"
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
@@ -9,10 +9,10 @@ ms.topic: interactive-tutorial
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: e283aaec-e962-46b4-92e4-b8a825521641
-description: "Summary: Learn about profile synchronization, also known asprofile sync,in SharePoint Server 2016."
+description: "Summary: Learn about profile synchronization, also known as profile sync,in SharePoint Server 2016."
 ---
 
-# Overview of profile synchronization in SharePoint Server 2013
+# Overview of profile synchronization in SharePoint Server 2016
 
  **Summary:** Learn about profile synchronization, also known as "profile sync," in SharePoint Server 2016. 
   

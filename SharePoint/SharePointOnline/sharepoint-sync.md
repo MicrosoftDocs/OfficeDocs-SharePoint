@@ -20,7 +20,7 @@ Windows 10 devices come with the OneDrive sync client installed. Office 2016
 
 [Read the release notes and install the latest fully released versions](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0)
 
-[Restrictions and limitations](http://go.microsoft.com/fwlink/?LinkId=717734)
+[Invalid file names and file types in OneDrive, OneDrive for Business, and SharePoint](https://support.office.com/article/64883a5d-228e-48f5-b3d2-eb39e07630fa)
 
 [Fix sync problems](https://support.office.com/article/aaa2d172-8d45-4e94-9c04-5364d04ca2f4)
   

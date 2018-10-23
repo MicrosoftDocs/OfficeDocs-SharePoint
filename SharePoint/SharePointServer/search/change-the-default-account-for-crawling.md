@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: fa4625ab-9076-4506-aa7c-a19b6e45a847
-description: "Summary: Change the user name or password of the account that the SharePoint Server 2016 or SharePoint Server 2013 Search service uses by default for crawling."
+description: "Summary: Change the user name or password of the account that the SharePoint Server Search service uses by default for crawling."
 ---
 
 # Change the default account for crawling in SharePoint Server
 
- **Summary:** Change the user name or password of the account that the SharePoint Server 2016 or SharePoint Server 2013 Search service uses by default for crawling. 
+ **Summary:** Change the user name or password of the account that the SharePoint Server Search service uses by default for crawling. 
   
 The account that the SharePoint Server Search service uses by default for crawling is called the default content access account. It must be a domain account with a password that is current in Active Directory Domain Services (AD DS). If the password of this domain account expires, the Search service is not able to use the account to crawl content.
   

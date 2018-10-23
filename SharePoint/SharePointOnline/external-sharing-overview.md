@@ -11,7 +11,7 @@ f1_keywords:
 - 'O365P_AddSPExtlUser'
 - 'O365M_EnableSPExtlUser'
 - 'O365E_EnableSPExtlUser'
-ms.service: o365-administration
+ms.service: sharepoint-online
 localization_priority: Priority
 ms.collection: Strat_OD_share
 ms.custom: Adm_O365
@@ -70,11 +70,11 @@ Because external users with Microsoft accounts do not have a license to your Off
   
 - They can perform tasks on a site consistent with the permission level that they are assigned. For example, if you add an external user to the Members group, they will have Edit permissions and they will be able to add, edit and delete lists; they will also be able to view, add, update and delete list items and documents.
     
-- They can use Office Online for viewing and editing documents. If your plan includes Office Professional Plus, they cannot install the desktop version of Office on their own computers unless you assign them a license.
+- They can use Office Online for viewing and editing documents. If your plan includes Office Professional Plus, they cannot install the desktop version of Office on their own computers unless you assign them a license. 
     
 - They will be able to see other types of content on sites, depending on the permissions you give them. For example, they can navigate to different subsites within the site collection to which they were invited. They will also be able to do things like view site feeds.
     
-If your authenticated external users need greater capability, you must assign them an appropriate Office 365 license. Do this in the same way that you would assign a license to an internal user.
+If your authenticated external users need greater capability, you must assign them an appropriate Office 365 license. To do this, go to the Active users page of the Microsoft 365 admin center, select the external user, click **More**, and then click **Edit product licenses**.
 
  **Authenticated users without Microsoft accounts**
 
@@ -100,9 +100,9 @@ You can discontinue sharing with an authenticated external user by removing thei
   
  **Sharing files and folders with authenticated external users**
   
-When you share a file or folder with an external user who has their own Office 365 email address (a work or school account), they get a link to the file and can log in to access the file or folder using their work or school account. These external users are added as guests to your Office 365 directory when they accept the sharing invitation.
+When you share a file or folder with an external user who has their own Office 365 email address (a work or school account), an email is sent to them which contains a link to the file or folder. The first time they access the file or folder using the link, they are sent a time-sensitive code via email that they can use to verify their identity. They must enter the code to access the file or folder. Once they have accessed the file or folder for the first time, these external users are added as guests to your Office 365 directory and thereafter they can access the file using thier work or school account.
   
-When you share a file or folder with an authenticated external user who does not have a work or school account, an email is sent to them which contains a link to the file or folder. Each time they access the file or folder using the link, they are sent a time-sensitive code via email that they can use to verify their identity. They must enter the code to access the file or folder.
+When you share a file or folder with an authenticated external user who does not have a work or school account, an email is sent to them which contains a link to the file or folder. Each time they access the file or folder using the link, they are sent a time-sensitive code via email that they can use to verify their identity. They must enter the code to access the file or folder. These external users are not added to your Office 365 directory.
   
 You can [discontinue sharing with an authenticated external user](https://support.office.com/article/0a36470f-d7fe-40a0-bd74-0ac6c1e13323) by deleting the sharing link that was sent to them. 
   
