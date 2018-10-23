@@ -200,9 +200,9 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server 2016 and 201
                 <div class="card">
                     <div class="cardText">
                         <h3>Upgrade and update</h3>
-                        <p><a href="/SharePoint/upgrade-and-update/upgrade-to-sharepoint-server-2019">Upgrade to SharePoint 2019</a></p>
-                        <p><a href="/SharePoint/upgrade-and-update/upgrade-to-sharepoint-server-2016">Upgrade to SharePoint 2016</a></p>
-                        <p><a href="/SharePoint/upgrade-and-update/deploy-updates-for-sharepoint-server-2016">Apply updates to SharePoint 2016</a></p>
+                        <p><a href="/SharePoint/upgrade-and-update/upgrade-to-sharepoint-server-2019">Upgrade to SharePoint Server 2019</a></p>
+                        <p><a href="/SharePoint/upgrade-and-update/upgrade-to-sharepoint-server-2016">Upgrade to SharePoint Server 2016</a></p>
+                        <p><a href="/SharePoint/upgrade-and-update/deploy-updates-for-sharepoint-server-2016">Apply updates to SharePoint Server 2016</a></p>
                         <p><a href="/SharePoint/upgrade-and-update/upgrade-from-sharepoint-2010-to-sharepoint-2013">Upgrade to SharePoint 2013</a></p>
                         <p><a href="/SharePoint/upgrade-and-update/deploy-software-updates-for-sharepoint-2013">Apply updates to SharePoint 2013</a></p>
                     </div>
