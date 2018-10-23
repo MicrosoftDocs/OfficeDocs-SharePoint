@@ -1,5 +1,5 @@
 ---
-title: "One or more servers can't retrieve the outgoing email credentials (SharePoint Server 2019 Public Preview)"
+title: "One or more servers can't retrieve the outgoing email credentials (SharePoint Server 2019)"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
@@ -12,14 +12,14 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer rule One or more servers can't retrieve the outgoing email credentials for SharePoint Server 2019 Public Preview."
+description: "Summary: Learn how to resolve the SharePoint Health Analyzer rule One or more servers can't retrieve the outgoing email credentials for SharePoint Server 2019."
 ---
 
-# One or more servers can't retrieve the outgoing email credentials (SharePoint Server 2019 Public Preview)
+# One or more servers can't retrieve the outgoing email credentials (SharePoint Server 2019)
 
-**Applies to:** SharePoint Server 2019 Public Preview
+**Applies to:** SharePoint Server 2019
 
-**Summary:** Learn how to resolve the SharePoint Health Analyzer rule "One or more servers can't retrieve the outgoing email credentials" for SharePoint Server 2019 Public Preview.
+**Summary:** Learn how to resolve the SharePoint Health Analyzer rule "One or more servers can't retrieve the outgoing email credentials" for SharePoint Server 2019.
 
 **Rule Name:** One or more servers can't retrieve the outgoing email credentials.
 

@@ -1,5 +1,5 @@
 ---
-title: "Overview of SharePoint Workflow Manager in SharePoint Servers 2016 and 2019 Public Preview"
+title: "Overview of SharePoint Workflow Manager in SharePoint Servers 2016 and 2019"
 ms.author: kirks
 author: kirks
 manager: pamgreen
@@ -15,13 +15,13 @@ description: "Summary: Learn the steps to set up and configure eDiscovery in Sha
 
 # Configure SharePoint Workflow Manager for SharePoint Server
 
- **Summary:** Learn the features and steps to configure SharePoint Workflow Manager in SharePoint Server 2019 Public Preview.
+ **Summary:** Learn the features and steps to configure SharePoint Workflow Manager in SharePoint Server 2019.
   
-This article gives a brief overview of the Workflow Manager and the steps that are required to configure Workflow Manager in SharePoint Server 2019 Public Preview. 
+This article gives a brief overview of the Workflow Manager and the steps that are required to configure Workflow Manager in SharePoint Server 2019. 
 
 ## Overview
 
-SharePoint Workflow Manager is a new product that is designed to support running and managing SharePoint 2013 workflows in on-premises deployments. It replaces Microsoft Workflow Manager and is designed to be used with any version of SharePoint Server that supports SharePoint 2013 workflows, including SharePoint Server 2013, 2016 and 2019 Public Preview.
+SharePoint Workflow Manager is a new product that is designed to support running and managing SharePoint 2013 workflows in on-premises deployments. It replaces Microsoft Workflow Manager and is designed to be used with any version of SharePoint Server that supports SharePoint 2013 workflows, including SharePoint Server 2013, 2016 and 2019.
 
 ## System Requirements
 
@@ -37,7 +37,7 @@ SharePoint Workflow Manager includes all features and fixes found in Microsoft W
 
 Some additional features in this release are the following: 
 
-- Support for SharePoint Server 2019 Public Preview
+- Support for SharePoint Server 2019
 - Fixed activity update issues (such as "duplicate closure")
 - Improved database cleanup
 - Performance improvements due to reduced SQL resource usage

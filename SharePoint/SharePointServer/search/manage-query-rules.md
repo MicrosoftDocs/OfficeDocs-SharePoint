@@ -24,7 +24,7 @@ Without using any custom code, a Search service application administrator, site 
 You can configure query rules for one or more result sources, and you can specify the time period during which the query rule is active. 
 
 > [!NOTE]
-> A query rule also affects the **modern** search experience in SharePoint Server 2019 Public Preview when:
+> A query rule also affects the **modern** search experience in SharePoint Server 2019 when:
 > - The action in the rule is to promote an individual result towards the top of search results.
 > - The rule is defined for the default result source.
 > - The rule is defined at the Search service application level.

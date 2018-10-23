@@ -12,16 +12,16 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 9b1e8b21-7675-4186-beb6-3adeef4360e6
-description: "Summary: Learn about sizing and location information for the databases that support SharePoint Server 2019 Public Preview, SharePoint Server 2016, and SharePoint 2013Databases."
+description: "Summary: Learn about sizing and location information for the databases that support SharePoint Server 2019, SharePoint Server 2016, and SharePoint 2013Databases."
 ---
 
 # Database types and descriptions in SharePoint Server
 
- **Summary:** Learn about sizing and location information for the databases that support SharePoint Server 2019 Public Preview, SharePoint Server 2016, and SharePoint 2013. 
+ **Summary:** Learn about sizing and location information for the databases that support SharePoint Server 2019, SharePoint Server 2016, and SharePoint 2013. 
   
 This article describes the databases that are installed for SharePoint Server. Each database description includes information about sizing and placement. For more information see [Storage and SQL Server capacity planning and configuration (SharePoint Server)](../administration/storage-and-sql-server-capacity-planning-and-configuration.md).
   
-Databases for SharePoint Server 2019 Public Preview can be hosted in Microsoft SQL Server 2016 and Microsoft SQL Server 2017. Databases for SharePoint Server 2016 can be hosted in SQL Server 2014 Service Pack 1 (SP1) and SQL Server 2016. Databases for SharePoint Server 2013 can be hosted in SQL Server 2008 R2 with Service Pack 1 (SP1) or SQL Server 2012. For more information see [System requirements for SharePoint Servers 2016 and 2019 Public Preview](https://docs.microsoft.com/sharepoint/install/system-requirements-for-sharepoint-server-2016) and [Hardware and software requirements for SharePoint 2013](../install/hardware-and-software-requirements-0.md).
+Databases for SharePoint Server 2019 can be hosted in Microsoft SQL Server 2016 and Microsoft SQL Server 2017. Databases for SharePoint Server 2016 can be hosted in SQL Server 2014 Service Pack 1 (SP1) and SQL Server 2016. Databases for SharePoint Server 2013 can be hosted in SQL Server 2008 R2 with Service Pack 1 (SP1) or SQL Server 2012. For more information see [System requirements for SharePoint Servers 2016 and 2019](https://docs.microsoft.com/sharepoint/install/system-requirements-for-sharepoint-server-2016) and [Hardware and software requirements for SharePoint 2013](../install/hardware-and-software-requirements-0.md).
   
 All database names that are listed in this article are automatically created when you run the SharePoint Products Configuration Wizard. You do not have to use these naming conventions. You can either specify your own database names when you create them or change the names after they are created. For more information, see [Move or rename service application databases in SharePoint Server](../administration/move-or-rename-service-application-databases.md)
   
@@ -143,7 +143,7 @@ Content databases also store the following:
   
 Power Pivot for SharePoint 2013 can't be installed on SharePoint Foundation 2013, only on SharePoint Server 2013.
   
-Note that to use the business intelligence (BI) tools in SharePoint Server 2013 you must install SQL Server 2012 with Service Pack 1 (SP1) or SQL Server 2014, 64-bit version. For more information, see [System requirements for SharePoint Servers 2016 and 2019 Public Preview](https://docs.microsoft.com/sharepoint/install/system-requirements-for-sharepoint-server-2016) and [Software requirements for business intelligence in SharePoint Server](../administration/software-requirements-for-business-intelligence.md).
+Note that to use the business intelligence (BI) tools in SharePoint Server 2013 you must install SQL Server 2012 with Service Pack 1 (SP1) or SQL Server 2014, 64-bit version. For more information, see [System requirements for SharePoint Servers 2016 and 2019](https://docs.microsoft.com/sharepoint/install/system-requirements-for-sharepoint-server-2016) and [Software requirements for business intelligence in SharePoint Server](../administration/software-requirements-for-business-intelligence.md).
   
 **Content database**
 
@@ -317,7 +317,7 @@ The Usage and Health Data Collection database is used by the Usage and Health Da
 
 |**Category**|**Description**|
 |:-----|:-----|
-|Default database name when installed by using the SharePoint Products Configuration Wizard  <br/> |SharePoint Server 2016 = WSS_Logging  <br/> SharePoint 2013 = SharePoint_Logging  <br/> |
+|Default database name when installed by using the SharePoint Products Configuration Wizard  <br/> |SharePoint Server 2019 and SharePoint Server 2016 = WSS_Logging  <br/> SharePoint 2013 = SharePoint_Logging  <br/> |
 |Location requirements  <br/> |The Usage and Health Data Collection database is very active, and should be put on a separate disk or spindle, if it is possible.  <br/> |
 |General size information and growth factors  <br/> |Extra large. Database size depends on the retention factor, number of items enabled for logging and external monitoring, how many Web applications are running in the environment, how many users are currently working, and which features are enabled.  <br/> |
 |Read/write characteristics  <br/> |Write-heavy  <br/> |

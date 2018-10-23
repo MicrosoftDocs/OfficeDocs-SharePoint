@@ -16,7 +16,7 @@ description: "Summary: Learn how to configure the new OneDrive sync client (OneD
 # Configure syncing with the new OneDrive sync client
 
    
-When you deploy SharePoint Server 2019 Public Preview in your organization, your users can sync their OneDrive for Business files as well as SharePoint team site files by using the new OneDrive sync client (OneDrive.exe) for Windows. Compared with the previous OneDrive for Business sync client (Groove.exe), the new sync client provides:
+When you deploy SharePoint Server 2019 in your organization, your users can sync their OneDrive for Business files as well as SharePoint team site files by using the new OneDrive sync client (OneDrive.exe) for Windows. Compared with the previous OneDrive for Business sync client (Groove.exe), the new sync client provides:
 - Improved performance and reliability
 - Files On-Demand
 - Support for larger files
@@ -26,7 +26,7 @@ If your users are already syncing document libraries with the previous OneDrive 
     
 ## Requirements
 
-Install SharePoint Server 2019 Public Preview.
+Install SharePoint Server 2019.
 
 Configure OneDrive to update from the Insiders ring to version 18.131.0701.0004 or higher. To do this, do one of the following:
 - Join the [Windows Insider program](https://insider.windows.com/) or the [Office Insider](https://products.office.com/office-insider) program.
