@@ -62,37 +62,39 @@ Computer Configuration policies can be found under Computer Configuration\Polici
   
 The following Computer Configuration policies are available:
   
-- [Allow syncing OneDrive accounts for only specific organizations](use-group-policy.md#TenantAllowList)
+- [Allow syncing OneDrive accounts for only specific organizations](use-group-policy.md#AllowTenantList)
     
-- [Block syncing OneDrive accounts for specific organizations](use-group-policy.md#TenantBlockList)
+- [Block syncing OneDrive accounts for specific organizations](use-group-policy.md#BlockTenantList)
     
-- [Enable OneDrive Files On-Demand](use-group-policy.md#FilesOnDemand)
+- [Enable OneDrive Files On-Demand](use-group-policy.md#FilesOnDemandEnabled)
     
-- [Migrate pre-existing team sites with OneDrive Files On-Demand](use-group-policy.md#TeamSiteFOD)
+- [Migrate pre-existing team sites with OneDrive Files On-Demand](use-group-policy.md#DehydrateSyncedTeamSites)
     
 - [Prevent OneDrive from generating network traffic until the user signs in to OneDrive](use-group-policy.md#PreventNetworkTraffic)
     
-- [Set the maximum percentage of upload bandwidth that OneDrive.exe uses](use-group-policy.md#MaxBandwidth)
-    
-- [Silently configure OneDrive using Windows 10 or domain credentials](use-group-policy.md#SilentConfig)
-    
-- [Configure the maximum OneDrive size for downloading all files automatically](use-group-policy.md#MaxOneDriveSize)
-    
-- [Prompt users to move Windows known folders to OneDrive](use-group-policy.md#OptInWithWizard)
-    
-- [Silently move Windows known folders to OneDrive](use-group-policy.md#OptInNoWizard)
-    
-- [Prevent users from redirecting their Windows known folders to their PC](use-group-policy.md#OptInNoWizardToast)
-    
-- [Prevent users from moving their Windows known folders to OneDrive](use-group-policy.md#BlockKFM)
+- [Set the maximum percentage of upload bandwidth that OneDrive.exe uses](use-group-policy.md#AutomaticUploadBandwidthPercentage)
 
-- [Configure team site libraries to sync automatically](use-group-policy.md#TeamSiteAutoMount)
+- [Prevent users from using the remote file fetch feature to access files on the computer](use-group-policy.md#RemoteAccessGPOEnabled)
+    
+- [Silently configure OneDrive using Windows 10 or domain credentials](use-group-policy.md#SilentAccountConfig)
+    
+- [Configure the maximum OneDrive size for downloading all files automatically](use-group-policy.md#DiskSpaceCheckThresholdMB)
+    
+- [Prompt users to move Windows known folders to OneDrive](use-group-policy.md#KFMOptInWithWizard)
+    
+- [Silently move Windows known folders to OneDrive](use-group-policy.md#KFMOptInNoWizard)
+    
+- [Prevent users from redirecting their Windows known folders to their PC](use-group-policy.md#KFMBlockOptOut)
+    
+- [Prevent users from moving their Windows known folders to OneDrive](use-group-policy.md#BlockKnownFolderMove)
+
+- [Configure team site libraries to sync automatically](use-group-policy.md#AutoMountTeamSites)
     
 > [!NOTE]
 > "SharePoint on-premises server URL" and "SharePoint prioritization setting for hybrid customers that use SharePoint Online (SPO) and SharePoint on-premises server" are for customers who have SharePoint Server 2019. [More info about using the new OneDrive sync client with SharePoint Server 2019](/SharePoint/install/new-onedrive-sync-client/)
   
 ### Allow syncing OneDrive accounts for only specific organizations
-<a name="TenantAllowList"> </a>
+<a name="AllowTenantList"> </a>
 
 This policy lets you allow users to sync OneDrive accounts for only some organizations by specifying a list of allowed tenant IDs. If you enable this setting, users will get an error if they attempt to add an account from an organization not on the list. If a user has already the account, the files will stop syncing.
   
@@ -109,7 +111,7 @@ To block specific organizations instead, use "Block syncing OneDrive accounts fo
 This setting will take priority over the policy "Block syncing OneDrive accounts for specific organizations." Do not enable both policies at the same time.﻿
   
 ### Block syncing OneDrive accounts for specific organizations
-<a name="TenantBlockList"> </a>
+<a name="BlockTenantList"> </a>
 
 This policy lets you block users from uploading files to another organization by specifying a list of blocked tenant IDs. If you enable this setting, users will get an error if they attempt to add an account from an organization that is blocked. If a user has already added the account, the files will stop syncing.
   
@@ -126,7 +128,7 @@ To specify a list of allowed organizations instead, use "Allow syncing OneDrive 
 This setting will NOT work if you have the policy "Allow syncing OneDrive accounts for only specific organizations." enabled. Do not enable both policies at the same time.
   
 ### Enable OneDrive Files On-Demand
-<a name="FilesOnDemand"> </a>
+<a name="FilesOnDemandEnabled"> </a>
 
 This policy lets you control whether OneDrive Files On-Demand is enabled for your organization. Files On-Demand helps you save storage space on your users' computers and minimize the network impact of sync. The feature is available to users running Windows 10 Fall Creators update. [Learn about OneDrive Files On-Demand](https://support.office.com/article/0e6860d3-d9f3-4971-b321-7092438fb38e).
   
@@ -135,7 +137,7 @@ If you enable this setting, new users who set up the sync client will download o
 [HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"FilesOnDemandEnabled"="dword:00000001"
   
 ### Migrate pre-existing team sites with OneDrive Files On-Demand
-<a name="TeamSiteFOD"> </a>
+<a name="DehydrateSyncedTeamSites"> </a>
 
 This policy lets you convert synced SharePoint files to online-only files when you enable OneDrive Files On-Demand. Enabling this policy helps you minimize network traffic and local storage usage if you have many PCs syncing the same team site.
   
@@ -155,7 +157,7 @@ If this setting is not enabled, the OneDrive sync client will start automaticall
 [HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"PreventNetworkTrafficPreUserSignIn"="dword:00000001"
   
 ### Set the maximum percentage of upload bandwidth that OneDrive.exe uses
-<a name="MaxBandwidth"> </a>
+<a name="AutomaticUploadBandwidthPercentage"> </a>
 
 This policy lets you configure the maximum percentage of a computer's available upload throughput that the OneDrive sync client can use to upload. (OneDrive only uses this bandwidth when syncing files.) The bandwidth available to a computer is constantly changing, so defining a percentage lets the sync client respond to increases and decreases in bandwidth availability while syncing in the background.
   
@@ -178,8 +180,23 @@ The above registry key sets the upload throughput percentage to 50%, using the h
   
 For info about estimating the network bandwidth you need for the sync client and controlling sync throughput, see [Network utilization planning for the OneDrive sync client](network-utilization-planning.md).
   
+### Prevent users from using the remote file fetch feature to access files on the computer
+<a name="RemoteAccessGPOEnabled"> </a>
+
+This policy lets you block users from using the fetch feature when they are logged in with their Microsoft account to OneDrive.exe. The fetch feature allows users to go to OneDrive.com, select a Windows computer that's currently online and running the OneDrive sync client, and access all your personal files from that computer. By default, users can use the fetch feature.
+  
+There are two settings - one for 32-bit computers and one for 64-bit computers. Enabling these settings sets the following registry key values to 1.
+  
+[HKLM\SOFTWARE\Policies\Microsoft\OneDrive\Remote Access] ﻿"GPOEnabled"="dword:00000001"
+  
+[HKLM\SOFTWARE\Wow6432Node\Microsoft\OneDrive\Remote Access] "GPOEnabled"="dword:00000001"
+  
+If you enable this setting, users will be prevented from using the fetch feature.
+  
+If you disable this setting, users can use the fetch feature.
+  
 ### Silently configure OneDrive using Windows 10 or domain credentials
-<a name="SilentConfig"> </a>
+<a name="SilentAccountConfig"> </a>
 
 > [!IMPORTANT]
 > ADAL is now enabled automatically when use this policy or the registry key so you don't have to download and enable it separately.
@@ -199,7 +216,7 @@ This policy can be used with DiskSpaceCheckThresholdMB as well as DefaultRootDir
 Please let us know if you have feedback on this feature or encounter any issues. Right-click the OneDrive icon in the notification area and click "Report a problem." Please tag any feedback with "SilentConfig" so that your feedback will be sent directly to engineers working on this feature.
   
 ### Configure the maximum OneDrive size for downloading all files automatically
-<a name="MaxOneDriveSize"> </a>
+<a name="DiskSpaceCheckThresholdMB"> </a>
 
 This setting is used in conjunction with SilentAccountConfig. Any user who has a OneDrive that's larger than the specified threshold (in MB) will be prompted to choose the folders they would like to sync before the OneDrive sync client (OneDrive.exe) downloads the files.
   
@@ -212,7 +229,7 @@ Enabling this policy sets the following registry key.
 (where "1111-2222-3333-4444" is the [tenant ID](find-your-office-365-tenant-id.md) and 0005000 sets a threshold of 5000 MB) 
   
 ### Prompt users to move Windows known folders to OneDrive
-<a name="OptInWithWizard"> </a>
+<a name="KFMOptInWithWizard"> </a>
 
 This setting displays the "Set up protection of important folders" window that prompts users to move their Documents, Pictures, and Desktop folders to OneDrive.
 
@@ -232,12 +249,12 @@ Enabling this policy sets the following registry key:
 (where "1111-2222-3333-4444" is the [tenant ID](find-your-office-365-tenant-id.md))
   
 ### Silently move Windows known folders to OneDrive
-<a name="OptInNoWizard"> </a>
+<a name="KFMOptInNoWizard"> </a>
 
 Use this policy to redirect your users' Documents, Pictures, and Desktop folders to OneDrive without any user interaction. This setting is available in the OneDrive sync client build 18.111.0603.0004 or later. Before sync client build 18.171.0823.0001, this policy redirected only empty known folders to OneDrive. Now, it redirects known folders that contain content and moves the content to OneDrive.
 
 > [!NOTE]
-> If you're using this setting with a build earlier than 18.171.0823.0001, we recommend also enabling "Prompt users to move Windows known folders to OneDrive." <br> Sync client features are rolled out gradually. To try the latest features, join the [Windows Insider program](https://insider.windows.com/) or the [Office Insider](https://products.office.com/office-insider) program.
+> If you're using this setting with a build earlier than 18.171.0823.0001, we recommend also enabling "Prompt users to move Windows known folders to OneDrive." 
   
 If you enable this setting and provide your tenant ID, you can choose whether to display a notification to users after their folders have been redirected.
   
@@ -256,7 +273,7 @@ Enabling this policy sets the following registry keys:
 Setting this value to 1 displays a notification after successful redirection.
   
 ### Prevent users from redirecting their Windows known folders to their PC
-<a name="OptInNoWizardToast"> </a>
+<a name="KFMBlockOptOut"> </a>
 
 This setting forces users to keep their Documents, Pictures, and Desktop folders directed to OneDrive.
 
@@ -272,7 +289,7 @@ Enabling this policy sets the following registry key:
 [HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMBlockOptOut"="dword:00000001"
   
 ### Prevent users from moving their Windows known folders to OneDrive
-<a name="BlockKFM"> </a>
+<a name="BlockKnownFolderMove"> </a>
 
 This setting prevents users from moving their Documents, Pictures, and Desktop folders to any OneDrive for Business account.
   
@@ -288,9 +305,12 @@ Enabling this policy sets the following registry key value to 1.
 [HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMBlockOptIn"="dword:00000001"
 
 ### Configure team site libraries to sync automatically
-<a name="TeamSiteAutoMount"> </a> 
+<a name="AutoMountTeamSites"> </a> 
 
-This setting allows you to specify SharePoint team site libraries to sync automatically the next time users signs in to the OneDrive sync client (OneDrive.exe). To use the setting, you must enable OneDrive Files On-Demand, and the setting applies only for users on computers running Windows 10 Fall Creators Update or later. This feature is not enabled for on-premises SharePoint sites. 
+> [!NOTE]
+> This policy is included in the .adml and .admx files, but is not turned on yet. It will be made available shortly. 
+
+<!--This setting allows you to specify SharePoint team site libraries to sync automatically the next time users signs in to the OneDrive sync client (OneDrive.exe). To use the setting, you must enable OneDrive Files On-Demand, and the setting applies only for users on computers running Windows 10 Fall Creators Update or later. This feature is not enabled for on-premises SharePoint sites. 
 
 If you enable this setting, the OneDrive sync client will automatically sync the contents of the libraries you specified as online-only files the next time the user signs in. The user won't be able to stop syncing the libraries.  
 
@@ -300,7 +320,7 @@ To configure the setting, in the Options box, click **Show**, and then enter the
 
 To find the library ID, sign in as a global or SharePoint admin in Office 365, browse to the library, and click the **Sync** button. In the "Starting sync" dialog box, click the **Copy library ID** link.
 
-[HKLM\Software\Policies\Microsoft\OneDrive\TenantAutoMount]"LibraryName"="LibraryID" 
+[HKLM\Software\Policies\Microsoft\OneDrive\TenantAutoMount]"LibraryName"="LibraryID" -->
   
 ## User Configuration policies
 <a name="Glob"> </a>
@@ -317,7 +337,7 @@ The following User Configuration policies are available:
     
 - [Prevent users from synchronizing personal OneDrive accounts](use-group-policy.md#DisablePersonalSync)
     
-- [Set the maximum download bandwidth that OneDrive.exe uses](use-group-policy.md#SetMaxDownloadTput)
+- [Set the maximum download bandwidth that OneDrive.exe uses](use-group-policy.md#DownloadBandwidthLimit)
     
 - [Coauthoring and in-app sharing for Office files](use-group-policy.md#EnableAllOcsiClients)
     
@@ -325,11 +345,9 @@ The following User Configuration policies are available:
     
 - [Users can choose how to handle Office files in conflict](use-group-policy.md#EnableHoldTheFile)
     
-- [Prevent users from using the remote file fetch feature to access files on the computer](use-group-policy.md#RemoteAccessGPOEnabled)
+- [Set the maximum upload bandwidth that OneDrive.exe uses](use-group-policy.md#UploadBandwidthLimit)
     
-- [Set the maximum upload bandwidth that OneDrive.exe uses](use-group-policy.md#SetMaxUploadTput)
-    
-- [Prevent users from seeing the tutorial in the OneDrive Sign in Experience](use-group-policy.md#BlockTutorial)
+- [Prevent users from seeing the tutorial in the OneDrive Sign in Experience](use-group-policy.md#DisableFRETutorial)
     
 ### Set the default location for the OneDrive folder
 <a name="DefaultRootDir"> </a>
@@ -380,7 +398,7 @@ If you enable this setting, users will be prevented from setting up a sync relat
 If you disable this setting, users are allowed to sync personal OneDrive accounts.
   
 ### Set the maximum upload bandwidth that OneDrive.exe uses
-<a name="SetMaxUploadTput"> </a>
+<a name="UploadBandwidthLimit"> </a>
 
 This policy lets you set the maximum upload throughput rate in kilobytes (KB)/sec for computers running the OneDrive sync client. The minimum rate is 50 KB/sec and the maximum rate is 100,000 KB/sec. The lower the upload throughput rate that you configure, the longer computers running OneDrive.exe will take to upload files. 
   
@@ -439,23 +457,8 @@ If you disable this setting, then the file is always forked and both copies are 
   
 You must enable the "Coauthoring and in-app sharing for Office files" policy to enable this policy. For more info about the settings in the sync client, see [Use Office 2016 to sync Office files that I open](https://support.office.com/article/8a409b0c-ebe1-4bfa-a08e-998389a9d823).
   
-### Prevent users from using the remote file fetch feature to access files on the computer
-<a name="RemoteAccessGPOEnabled"> </a>
-
-This policy lets you block users from using the fetch feature when they are logged in with their Microsoft account to OneDrive.exe. The fetch feature allows users to go to OneDrive.com, select a Windows computer that's currently online and running the OneDrive sync client, and access all your personal files from that computer. By default, users can use the fetch feature.
-  
-There are two settings - one for 32-bit computers and one for 64-bit computers. Enabling these settings sets the following registry key values to 1.
-  
-[HKLM\SOFTWARE\Policies\Microsoft\OneDrive\Remote Access] ﻿"GPOEnabled"="dword:00000001"
-  
-[HKLM\SOFTWARE\Wow6432Node\Microsoft\OneDrive\Remote Access] "GPOEnabled"="dword:00000001"
-  
-If you enable this setting, users will be prevented from using the fetch feature.
-  
-If you disable this setting, users can use the fetch feature.
-  
 ### Set the maximum download bandwidth that OneDrive.exe uses
-<a name="SetMaxDownloadTput"> </a>
+<a name="DownloadBandwidthLimit"> </a>
 
 This policy lets you set the maximum download throughput rate in kilobytes (KB)/sec for computers running the OneDrive sync client. The minimum rate is 50 KB/sec and the maximum rate is 100,000 KB/sec. The lower the download throughput rate that you configure, the longer computers running OneDrive.exe will take to download files. 
   
@@ -474,7 +477,7 @@ The above registry key sets the download throughput rate limit to 50KB/sec, usin
 For info about estimating the network bandwidth you need for the sync client and controlling sync throughput, see [Network utilization planning for the OneDrive sync client](network-utilization-planning.md).
   
 ### Prevent users from seeing the tutorial in the OneDrive Sign in Experience
-<a name="BlockTutorial"> </a>
+<a name="DisableFRETutorial"> </a>
 
 This setting lets you prevent users from launching the web-based tutorial at the end of the OneDrive first run experience. If you enable this setting, users will not see the tutorial when they finish setting up their account. If you disable or do not configure this setting, the tutorial will appear. 
   
