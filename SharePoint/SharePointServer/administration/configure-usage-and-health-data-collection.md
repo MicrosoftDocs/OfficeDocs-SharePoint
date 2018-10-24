@@ -53,7 +53,7 @@ The usage and health data settings are farm-wide and cannot be set for individua
     
     These settings are applied to all events. 
     
-7. In the **Health Data Collection** section, select the **Enable health data collection** check box. To change the collection schedules, click **Health Logging Schedule**. You can see a list of timer jobs that collect health data. Click any of the timer jobs to change its schedule, or disable that timer job. If you disable a timer job, it stops collecting corresponding health data. For more information, see [Timer job reference for SharePoint Server 2016](../technical-reference/timer-job-reference-for-sharepoint-server-2016.md).
+7. In the **Health Data Collection** section, select the **Enable health data collection** check box. To change the collection schedules, click **Health Logging Schedule**. You can see a list of timer jobs that collect health data. Click any of the timer jobs to change its schedule, or disable that timer job. If you disable a timer job, it stops collecting corresponding health data. For more information, see Default timer jobs in SharePoint Server 2016](../technical-reference/default-timer-jobs-in-sharepoint-server-2016.md).
     
 8. To change log collection schedules, click **Log Collection Schedule**, and then click any of the timer jobs to change its schedule, or disable that timer job. If you disable a timer job, it stops collecting corresponding log data.
     
