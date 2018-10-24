@@ -132,7 +132,7 @@ This setting will NOT work if you have the policy "Allow syncing OneDrive accoun
 
 This policy lets you control whether OneDrive Files On-Demand is enabled for your organization. Files On-Demand helps you save storage space on your users' computers and minimize the network impact of sync. The feature is available to users running Windows 10 Fall Creators update. [Learn about OneDrive Files On-Demand](https://support.office.com/article/0e6860d3-d9f3-4971-b321-7092438fb38e).
   
-If you enable this setting, new users who set up the sync client will download online-only files by default. If you disable this setting, Windows 10 users will have the same sync behavior as users of previous versions of Windows, and won't be able to turn on OneDrive Files On-Demand. If you do not configure this setting, OneDrive Files On-Demand can be turned on or off by users.﻿ Enabling this policy sets the following registry key value to 1.
+If you enable this setting, new users who set up the sync client will not download online-only files by default. If you disable this setting, Windows 10 users will have the same sync behavior as users of previous versions of Windows, and won't be able to turn on OneDrive Files On-Demand. If you do not configure this setting, OneDrive Files On-Demand can be turned on or off by users.﻿ Enabling this policy sets the following registry key value to 1.
   
 [HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"FilesOnDemandEnabled"="dword:00000001"
   
