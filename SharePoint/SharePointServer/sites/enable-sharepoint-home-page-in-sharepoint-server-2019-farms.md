@@ -28,16 +28,16 @@ A user can also click on the word “SharePoint” in the top bar to visit Share
 
 The SharePoint home page experience includes the following features:
 
-  - **Search box:** When a user click in the search box a list of *best-match* sites is available in the drop-down list to provide a &#8220;zero-time search&#8221; experience.
-  - 
+  - **Search box:** When a user clicks in the search box a list of *best-match* sites is available in the drop-down list to provide a &#8220;zero-time search&#8221; experience.
+
   - **Featured links:** These are links that are important and useful for your organization. Anyone who is an admin of the My Site Host site can set these links.
-  - 
-  - **Create Site:** With the Self Service Site Creation (SSSC) feature you can give users the ability to create a new modern site collection, Communication or Team sites. For more information, see [Configure self-service site creation in SharePoint Server 2019](https://docs.microsoft.com/en-us/SharePoint/sites/configure-self-service-site-creation-in-sharepoint-server-2019).
-  - 
+
+  - **Create Site:** With the Self-Service Site Creation (SSSC) feature you can give users the ability to create a new modern site collection, Communication or Team sites. For more information, see [Configure self-service site creation in SharePoint Server 2019](https://docs.microsoft.com/en-us/SharePoint/sites/configure-self-service-site-creation-in-sharepoint-server-2019).
+
   - **News from sites:** Display recent news from Following and Suggested sites.
-  - 
+
   - **Following:** Display sites that you are following in a card format. Users will see top activities in those sites and can unfollow sites.
-  - 
+
   - **Suggested:** These sites that have the most activity that you’re not following.
 
 For more information, see the &#8220;2019&#8221; section in [Find news, sites, and portals in SharePoint](https://support.office.com/en-us/article/find-news-sites-and-portals-in-sharepoint-6b85097a-87e0-4611-a29a-dfd49b1a1220).
