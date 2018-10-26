@@ -38,9 +38,8 @@ For a stretched farm architecture to work as a supported high-availability solut
     
 To provide fault tolerance in a stretched farm, use the standard best practice guidance to configure redundant service applications and databases.
   
-Note:
-  
-﻿The intra-farm latency of \<1 ms one way, 99,9% of the time over a period of ten minutes is also required for SharePoint environments with servers that are located in the same datacenter. The bandwidth speed should also be in this case at least 1 gigabit per second.
+> [!NOTE]  
+> The intra-farm latency of \<1 ms one way, 99,9% of the time over a period of ten minutes is also required for SharePoint environments with servers that are located in the same datacenter. The bandwidth speed should also be in this case at least 1 gigabit per second.
   
 ## Hardware requirements: SharePoint Servers and MinRole installations
 <a name="hwforwebserver"> </a>
@@ -126,8 +125,10 @@ One of the following server operating systems:
 The Microsoft SharePoint Products Preparation Tool installs the following prerequisites on SharePoint servers in a farm:
   
 - Web Server (IIS) role
+
+- Windows Process Activation Service feature
     
-- Application Server role
+- Microsoft .NET Framework version 3.5
     
 - Microsoft .NET Framework version 4.7.2
     
@@ -137,7 +138,7 @@ The Microsoft SharePoint Products Preparation Tool installs the following prereq
     
 - Microsoft Identity Extensions
     
-- Microsoft Information Protection and Control Client (MSIPC)
+- Microsoft Information Protection and Control Client 2.1 (MSIPC)
     
 - Microsoft Sync Framework Runtime v1.0 SP1 (x64)
     
