@@ -31,8 +31,7 @@ The following technical reference articles about SharePoint Server are available
 ||[Microsoft PowerShell for SharePoint Server](http://technet.microsoft.com/library/93ca2966-8000-498d-8539-83c59ddad4d8.aspx) <br/> |Learn about how to use PowerShell to administer SharePoint Server.  <br/> |
 ||[System Center Operations Manager knowledge articles for SharePoint Server](system-center-operations-manager-knowledge-articles.md) <br/> |Learn about resolving alerts from the Systems Center Operations Manager (SCOM) management pack.  <br/> |
 ||[Database types and descriptions in SharePoint Server](database-types-and-descriptions.md) <br/> |Learn about the databases that support SharePoint Server.  <br/> |
-||[Timer job reference for SharePoint Server 2016](timer-job-reference-for-sharepoint-server-2016.md) <br/> |Learn about the timer jobs for SharePoint Server 2016.  <br/> |
-||[Timer job reference for SharePoint 2013](timer-job-reference-for-sharepoint-2013.md) <br/> |Learn about the timer jobs for SharePoint 2013.  <br/> |
+||[Timer job reference for SharePoint Server](timer-job-reference-for-sharepoint-server.md) <br/> |Learn about the default timer jobs for SharePoint Server 2019, SharePoint Server 2016, and SharePoint 2013.  <br/> |
 ||[Search technical reference for SharePoint Server](search-technical-reference.md) <br/> |Learn about default crawled file name extensions and parsed file types, default crawled and managed properties, default connectors and linguistics features per language for search.  <br/> |
 ||[Publishing technical reference for SharePoint Server](publishing-technical-reference.md) <br/> |Learn about SharePoint Server 2013 publishing sites.  <br/> |
 ||[Stsadm to Microsoft PowerShell mapping in SharePoint Server](stsadm-to-microsoft-powershell-mapping.md) <br/> |Learn about Stsadm operations and their equivalent PowerShell cmdlets.  <br/> |

@@ -1,5 +1,5 @@
 ---
-title: "Overview of the upgrade process to SharePoint Server 2019 Public Preview"
+title: "Overview of the upgrade process to SharePoint Server 2019"
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
@@ -14,21 +14,21 @@ ms.collection:
 - Strat_SP_server
 ms.custom: 
 ms.assetid: 4d7a8038-4b27-4bd8-a855-585db4e924a8
-description: "Summary: Learn about the process of upgrading databases, service applications, My Sites, and site collections to SharePoint Server 2019 Public Preview."
+description: "Summary: Learn about the process of upgrading databases, service applications, My Sites, and site collections to SharePoint Server 2019."
 ---
 
-# Overview of the upgrade process to SharePoint Server 2019 Public Preview
+# Overview of the upgrade process to SharePoint Server 2019
 
- **Summary:** Learn about the process of upgrading databases, service applications, My Sites, and site collections to SharePoint Server 2019 Public Preview. 
+ **Summary:** Learn about the process of upgrading databases, service applications, My Sites, and site collections to SharePoint Server 2019. 
   
-To upgrade from Microsoft SharePoint Server 2016 to SharePoint Server 2019 Public Preview, you use the database-attach method. In the database-attach method, you first create and configure a SharePoint Server 2019 Public Preview farm. Then you copy the content and service application databases from the SharePoint Server 2016, and then attach and upgrade the databases. This upgrades the data to the new version. Site owners can then upgrade individual site collections.
+To upgrade from Microsoft SharePoint Server 2016 to SharePoint Server 2019, you use the database-attach method. In the database-attach method, you first create and configure a SharePoint Server 2019 farm. Then you copy the content and service application databases from the SharePoint Server 2016, and then attach and upgrade the databases. This upgrades the data to the new version. Site owners can then upgrade individual site collections.
   
-SharePoint Server 2019 Public Preview supports an upgrade from a RTM version of SharePoint Server 2016.
+SharePoint Server 2019 supports an upgrade from a RTM version of SharePoint Server 2016.
   
 > [!NOTE]
->  All databases must be upgraded to version 16.0.4351.1000 or higher, otherwise upgrade to SharePoint Server 2019 Public Preview will be blocked. 
+>  All databases must be upgraded to version 16.0.4351.1000 or higher, otherwise upgrade to SharePoint Server 2019 will be blocked. 
   
-After you've configured a new SharePoint Server 2019 Public Preview environment, you can copy the content and service application databases from the SharePoint Server 2016 to the SharePoint Server 2019 Public Preview environment. You use a backup and restore process to copy the database. You can also choose to set the databases to read-only in the SharePoint Server 2016 environment so that users can continue to access their information, but not change it.
+After you've configured a new SharePoint Server 2019 environment, you can copy the content and service application databases from the SharePoint Server 2016 to the SharePoint Server 2019 environment. You use a backup and restore process to copy the database. You can also choose to set the databases to read-only in the SharePoint Server 2016 environment so that users can continue to access their information, but not change it.
   
  
 
@@ -42,14 +42,14 @@ Before you attach and upgrade the content databases, review the following inform
 
 ![Stages in upgrade process for SharePoint 2019](../media/SP2019UpgradeStages.png)
   
-This article helps you understand the upgrade sequence so that you can plan an upgrade project. To get detailed steps for an upgrade, see [Upgrade databases from SharePoint 2016 to SharePoint Server 2019 Public Preview](upgrade-databases.md) and [Upgrade site collections to SharePoint Server 2019 Public Preview](upgrade-a-site-collection-2019.md).
+This article helps you understand the upgrade sequence so that you can plan an upgrade project. To get detailed steps for an upgrade, see [Upgrade databases from SharePoint 2016 to SharePoint Server 2019](upgrade-databases.md) and [Upgrade site collections to SharePoint Server 2019](upgrade-a-site-collection-2019.md).
   
-## Create the SharePoint Server 2019 Public Preview farm
+## Create the SharePoint Server 2019 farm
 <a name="CreateFarm"> </a>
 
-The first stage in the upgrade process creates the new SharePoint Server 2019 Public Preview farm:
+The first stage in the upgrade process creates the new SharePoint Server 2019 farm:
   
-1. A server farm administrator installs SharePoint Server 2019 Public Preview to a new farm. The administrator configures farm settings and tests the environment.
+1. A server farm administrator installs SharePoint Server 2019 to a new farm. The administrator configures farm settings and tests the environment.
     
 2. A server farm administrator sets the SharePoint Server 2016 farm to read-only so that users can continue to access the old farm while upgrade is in progress on the new farm.
     
@@ -64,7 +64,7 @@ The second stage in the upgrade process copies the databases to the new environm
   
 1. With the farm and databases in read-only mode, a server farm administrator backs up the content and service application databases from the SQL Server instance on the SharePoint Server 2016 farm.
     
-2. The server farm administrator restores a copy of the databases to the SQL Server instance on the SharePoint Server 2019 Public Preview farm and sets the databases to read-write on the new farm.
+2. The server farm administrator restores a copy of the databases to the SQL Server instance on the SharePoint Server 2019 farm and sets the databases to read-write on the new farm.
     
    **Figure: Use SQL Server tools to copy databases**
 
@@ -90,7 +90,7 @@ The third stage in the upgrade process upgrades the databases and service applic
     
   - User Profile service application
     
-2. A server farm administrator creates a web application on the SharePoint Server 2019 Public Preview farm for each web application on the SharePoint Server 2016 farm.
+2. A server farm administrator creates a web application on the SharePoint Server 2019 farm for each web application on the SharePoint Server 2016 farm.
     
    **Figure: Create web applications for upgrade**
 
@@ -119,7 +119,7 @@ The final stage in the upgrade process is to upgrade the site collections. The u
 <a name="MySites"> </a>
 
 > [!IMPORTANT]
-> This section applies to SharePoint Server 2019 Public Preview only. 
+> This section applies to SharePoint Server 2019 only. 
   
 A server farm administrator upgrades the My Site host and then individual users can upgrade their My Sites or the farm administrator can upgrade them by using PowerShell. The following illustration shows four stages for the My Site host and My Sites during the upgrade process.
   
@@ -136,14 +136,14 @@ A server farm administrator upgrades the My Site host and then individual users 
 4. All My Sites have been upgraded.
     
 > [!NOTE]
-> A server farm administrator can choose to force an upgrade of My Sites without waiting for users to upgrade them. For details and steps, read [Upgrade site collections to SharePoint Server 2019 Public Preview](upgrade-a-site-collection-2019.md). 
+> A server farm administrator can choose to force an upgrade of My Sites without waiting for users to upgrade them. For details and steps, read [Upgrade site collections to SharePoint Server 2019](upgrade-a-site-collection-2019.md). 
   
 ### Upgrade other SharePoint Server 2016 site collections
 <a name="SiteCollections"> </a>
 
-For information about how to upgrade a site collection, see [Upgrade site collections to SharePoint Server 2019 Public Preview](upgrade-a-site-collection-2019.md).
+For information about how to upgrade a site collection, see [Upgrade site collections to SharePoint Server 2019](upgrade-a-site-collection-2019.md).
   
 > [!NOTE]
-> A server farm administrator can also force specific site collections to be upgraded without waiting for the site owners to upgrade them. For details and steps, read [Upgrade site collections to SharePoint Server 2019 Public Preview](upgrade-a-site-collection-2019.md). 
+> A server farm administrator can also force specific site collections to be upgraded without waiting for the site owners to upgrade them. For details and steps, read [Upgrade site collections to SharePoint Server 2019](upgrade-a-site-collection-2019.md). 
   
 

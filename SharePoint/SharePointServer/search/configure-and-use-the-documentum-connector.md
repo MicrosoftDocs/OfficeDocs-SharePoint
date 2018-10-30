@@ -43,7 +43,7 @@ Before you begin this operation, review the following system prerequisites and r
   
 - The supported operating systems are Windows Server 2008 R2, Windows Server 2008 Service Pack 2, and Windows Server 2012.
     
-- One of the following SharePoint 2019 Public Preview, SharePoint 2016, or SharePoint 2013 Products is installed and configured: 
+- One of the following SharePoint 2019, SharePoint 2016, or SharePoint 2013 Products is installed and configured: 
     
   - Microsoft SharePoint Server Enterprise
     
