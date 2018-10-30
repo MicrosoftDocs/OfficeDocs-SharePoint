@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 70d6f3af-2ad4-497d-a449-d75bacfd8aea
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleThe Application Discovery and Load Balancer Service is not running in this farmfor SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: The Application Discovery and Load Balancer Service is not running in this farm, for SharePoint Server."
 ---
 
 # The Application Discovery and Load Balancer Service is not running in this farm (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "The Application Discovery and Load Balancer Service is not running in this farm" for SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
  **Rule Name:** The Application Discovery and Load Balancer Service is not running in this farm. 
   

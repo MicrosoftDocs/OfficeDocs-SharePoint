@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: e56b99dc-3731-4cdd-8576-3777c3827e49
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleThe number of Distributed Cache hosts in the farm exceeds the recommended valuefor SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: The number of Distributed Cache hosts in the farm exceeds the recommended value, for SharePoint Server."
 ---
 
 # The number of Distributed Cache hosts in the farm exceeds the recommended value (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "The number of Distributed Cache hosts in the farm exceeds the recommended value" for SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
  **Rule Name:** The number of Distributed Cache hosts in the farm exceeds the recommended value. 
   

@@ -14,12 +14,12 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 ms.assetid: 43e52f2f-2586-451d-814d-edf43f3459ab
 
-description: "Summary: Learn what prerequisites you'll need to configure hybrid for SharePoint Server."
+description: "Learn what prerequisites you'll need to configure hybrid for SharePoint Server."
 ---
 
 # Hardware and software requirements for SharePoint hybrid
 
- **Summary:** Learn what prerequisites you'll need to configure hybrid for SharePoint Server. 
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
   
 This article describes the prerequisites that are required to deploy a SharePoint hybrid solution between SharePoint Server and SharePoint Online in Office 365 for enterprises.
   

@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: b6580f87-40b4-4768-b589-6ba54013f7e4
-description: "Summary: Find resources to help you perform the steps to upgrade databases from SharePoint Server 2013 with Service Pack 1 (SP1) to SharePoint Server 2016."
+description: "Find resources to help you perform the steps to upgrade databases from SharePoint Server 2013 with Service Pack 1 (SP1) to SharePoint Server 2016."
 ---
 
 # Upgrade databases from SharePoint 2013 to SharePoint Server 2016
 
- **Summary:** Find resources to help you perform the steps to upgrade databases from SharePoint Server 2013 with Service Pack 1 (SP1) to SharePoint Server 2016. 
+[!INCLUDE[appliesto-2013-2016-xxx-xxx-md](../includes/appliesto-2013-2016-xxx-xxx-md.md)]
   
 The following articles provide information about upgrading databases to SharePoint Server 2016.
   

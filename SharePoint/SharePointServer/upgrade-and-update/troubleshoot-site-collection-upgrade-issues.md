@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 75113d71-7193-44ab-b79b-34cb9cf9aa94
-description: "Summary: Learn how to address problems that may occur after you upgrade a site to SharePoint Server 2016."
+description: "Learn how to address problems that may occur after you upgrade a site to SharePoint Server 2016."
 ---
 
 # Troubleshoot site collection upgrade issues in SharePoint Server 2016
 
- **Summary:** Learn how to address problems that may occur after you upgrade a site to SharePoint Server 2016. 
+[!INCLUDE[appliesto-2013-2016-xxx-xxx-md](../includes/appliesto-2013-2016-xxx-xxx-md.md)]
   
 When you upgrade a site collection to SharePoint Server 2016, errors can occasionally occur. This article helps you understand those errors and address them.
   

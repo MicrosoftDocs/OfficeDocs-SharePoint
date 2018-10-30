@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 4cc0d9fc-943d-4c71-ab14-bda709f50f1a
-description: "Summary: Overview of SharePoint 2013 and SharePoint Server 2016 groups."
+description: "Overview of SharePoint Server groups."
 ---
 
 # Overview of security groups in SharePoint Server
 
- **Summary:** Overview of SharePoint 2013 and SharePoint Server 2016 groups. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 You can manage users of SharePoint sites more efficiently if you assign permission levels to groups instead of to individual users. A SharePoint group is a set of individual users and can also include Active Directory Domain Services (AD DS) groups.
     

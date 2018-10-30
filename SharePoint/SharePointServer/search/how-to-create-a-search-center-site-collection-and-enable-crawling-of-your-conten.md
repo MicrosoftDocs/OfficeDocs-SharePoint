@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: ef585c89-f18c-41a6-b8fa-5a73be4930aa
-description: "Summary: Learn how to create a Search Center Site Collection and enable crawling of your content in SharePoint Server."
+description: "Learn how to create a Search Center Site Collection and enable crawling of your content in SharePoint Server."
 ---
 
 # How to create a Search Center Site Collection and enable crawling of your content in SharePoint Server
 
- **Summary:** Learn how to create a Search Center Site Collection and enable crawling of your content in SharePoint Server. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 In this article, you'll learn:
   

@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: f3625c2f-a588-422c-9fbe-0b83205fbc88
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleWeb.config file has incorrect settings for the requestFiltering element, for SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: Web.config file has incorrect settings for the requestFiltering element, for SharePoint Server."
 ---
 
 # Web.config file has incorrect settings for the requestFiltering element (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "Web.config file has incorrect settings for the requestFiltering element", for SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
  **Rule Name:** Web.config file has incorrect settings for the requestFiltering element. 
   

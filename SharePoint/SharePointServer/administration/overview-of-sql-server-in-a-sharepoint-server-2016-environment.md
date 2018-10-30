@@ -19,7 +19,7 @@ description: "Learn about the SharePoint Server relationship with SQL Server and
 
 # Overview of SQL Server in a SharePoint Server 2016 environment
 
- [!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)] 
   
 The minimum requirements for a database server in a SharePoint Server 2016 farm are as follows:
   

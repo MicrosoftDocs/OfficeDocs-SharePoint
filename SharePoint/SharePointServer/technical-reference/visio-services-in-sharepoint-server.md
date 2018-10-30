@@ -12,10 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: e8eb4d14-cb99-4f43-b845-0cc0963fab47
-description: "Resolve alerts in Visio Services in SharePoint Server 2016 and SharePoint Server 2013: symptoms, causes, and possible resolutions."
+description: "Resolve alerts in Visio Services in SharePoint Server: symptoms, causes, and possible resolutions."
 ---
 
 # Visio Services in SharePoint Server knowledge articles
+
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
 
 Resolve alerts in Visio Services in SharePoint Server 2016 and SharePoint Server 2013: symptoms, causes, and possible resolutions.
   

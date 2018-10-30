@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 6bd28a0d-ae1d-4330-bc69-31841ea98b37
-description: "Summary: Walks through the steps required to keep workflow up to date in SharePoint Server 2013."
+description: "Walks through the steps required to keep workflow up to date in SharePoint Server 2013."
 ---
 
 # Update Workflow in SharePoint Server 2013
 
- **Summary:** Walks through the steps required to keep workflow up to date in SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 ## Run cmdlets after software updates are installed
 

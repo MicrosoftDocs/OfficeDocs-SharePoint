@@ -18,12 +18,12 @@ ms.collection:
 - Strat_SP_gtc
 ms.custom: 
 ms.assetid: f1dfdac2-81ad-452f-b5b6-df9e5a8e976e
-description: "Summary: Connect your on-premises SharePoint Server environment with OneDrive for Business in Office 365."
+description: "Connect your on-premises SharePoint Server environment with OneDrive for Business in Office 365."
 ---
 
 # Configure hybrid OneDrive for Business
 
- **Summary:** Connect your on-premises SharePoint Server environment with OneDrive for Business in Office 365. 
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
   
  **This article is part of a roadmap of procedures for configuring SharePoint hybrid solutions. Be sure you're [following a roadmap](configuration-roadmaps.md) when you do the procedures in this article.**
   

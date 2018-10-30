@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 9ccce076-f47b-44b8-9ec3-e0dcd46e9985
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleApplication pools recycle when memory limits are exceededfor SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: Application pools recycle when memory limits are exceeded, for SharePoint Server."
 ---
 
 # Application pools recycle when memory limits are exceeded (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "Application pools recycle when memory limits are exceeded" for SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
  **Rule Name:** Application pools recycle when memory limits are exceeded. 
   

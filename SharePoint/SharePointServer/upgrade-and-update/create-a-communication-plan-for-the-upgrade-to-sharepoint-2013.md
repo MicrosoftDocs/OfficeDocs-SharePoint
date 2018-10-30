@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 6633015d-3938-4d83-b814-f3af85101f49
-description: "Summary: Communicate timelines, requirements, and how to obtain help with site owners and users during upgrade to SharePoint 2013."
+description: "Communicate timelines, requirements, and how to obtain help with site owners and users during upgrade to SharePoint 2013."
 ---
 
 # Create a communication plan for the upgrade to SharePoint 2013
 
- **Summary:** Communicate timelines, requirements, and how to obtain help with site owners and users during upgrade to SharePoint 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
   
 It is important that you communicate with users during the upgrade process from SharePoint 2010 Products to SharePoint 2013. Site users have to know what to expect when they visit their sites again after you have upgraded the environment. Site owners have to know how they can help prepare for upgrade and what they have to do to upgrade their site collections in SharePoint 2013 and My Sites in SharePoint 2013. Both site users and site owners have to know when the upgrade will occur. As part of the planning process, determine the following:
   

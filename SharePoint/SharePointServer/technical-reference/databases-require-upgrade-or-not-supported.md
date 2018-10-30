@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 47a18181-cf59-4b7b-9b00-eae7cb11f5e9
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleDatabases require upgrade or not supportedfor SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: Databases require upgrade or not supported, for SharePoint Server."
 ---
 
 # Databases require upgrade or not supported (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "Databases require upgrade or not supported" for SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
  **Rule Name:** Databases require upgrade or not supported. 
   

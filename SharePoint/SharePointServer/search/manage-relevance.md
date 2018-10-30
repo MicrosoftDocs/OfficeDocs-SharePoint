@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 76e31e76-afb3-4f2f-b3cb-f3b42886fb6e
-description: "Summary: Learn how you can configure settings to provide the most relevant search results in SharePoint Server."
+description: "Learn how you can configure settings to provide the most relevant search results in SharePoint Server."
 ---
 
 # Manage search relevance in SharePoint Server
 
- **Summary:** Learn how you can configure settings to provide the most relevant search results in SharePoint Server. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 The following articles provide information about how you manage relevance to improve classic search results in SharePoint Server. Some settings also impact the modern search results, see [Differences between the search experiences in SharePoint Server](differences-search-2016-2019.md).
 

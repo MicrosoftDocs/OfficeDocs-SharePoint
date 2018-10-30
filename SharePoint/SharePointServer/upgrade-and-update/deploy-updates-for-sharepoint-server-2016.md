@@ -13,12 +13,12 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 ms.assetid: f484f5f2-35bb-4d70-bf56-dd1c4c287c72
 
-description: "Summary: Learn how to prepare for, download, install, and configure software updates and patches for SharePoint Server 2016."
+description: "Learn how to prepare for, download, install, and configure software updates and patches for SharePoint Server 2016."
 ---
 
 # Deploy software updates for SharePoint Server 2016
 
- **Summary:** Learn how to prepare for, download, install, and configure software updates and patches for SharePoint Server 2016. 
+[!INCLUDE[appliesto-2013-2016-xxx-xxx-md](../includes/appliesto-2013-2016-xxx-xxx-md.md)]
   
 Microsoft periodically releases software updates for SharePoint Server 2016. The following articles provide information about the software update process for SharePoint Server 2016.
   

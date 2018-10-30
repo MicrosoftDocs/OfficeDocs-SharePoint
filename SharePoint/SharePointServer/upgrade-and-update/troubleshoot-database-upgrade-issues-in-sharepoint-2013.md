@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: a7334c45-7741-41d6-b354-3e3c5631521e
-description: "Summary: Learn how to address problems that may occur after you upgrade a database to SharePoint 2013."
+description: "Learn how to address problems that may occur after you upgrade a database to SharePoint 2013."
 ---
 
 # Troubleshoot database upgrade issues in SharePoint 2013
 
- **Summary:** Learn how to address problems that may occur after you upgrade a database to SharePoint 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
   
 Even after you test the upgrade process to identify potential issues, you might experience unexpected issues during an upgrade from SharePoint 2010 Products to SharePoint 2013. If you experience issues after upgrade, the sooner you detect and fix them, the better the end-user experience will be. 
   

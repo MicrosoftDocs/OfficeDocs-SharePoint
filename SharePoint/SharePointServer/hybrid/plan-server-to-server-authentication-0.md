@@ -13,12 +13,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 6951d670-e2a8-4a7e-b3ea-ccc9c00a0ffc
-description: "Summary: Plan and prepare to configure server-to-server authentication from SharePoint Server to Office 365 for SharePoint hybrid."
+description: "Plan and prepare to configure server-to-server authentication from SharePoint Server to Office 365 for SharePoint hybrid."
 ---
 
 # Plan server-to-server authentication
 
- **Summary:** Plan and prepare to configure server-to-server authentication from SharePoint Server to Office 365 for SharePoint hybrid. 
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
   
 Server-to-server authentication enables your SharePoint Server farm to consume content and resources from your Office 365 tenant. For example, search can be configured to allow federated users to see both SharePoint Server and SharePoint Online search results in a SharePoint Server search portal.
   

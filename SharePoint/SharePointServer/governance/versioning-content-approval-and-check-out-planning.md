@@ -9,12 +9,12 @@ ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: b607e000-9436-4cbb-b6aa-9e76d70a4314
-description: "Summary: Learn how to use versioning, content approval, and check-out in SharePoint Server to control document versions throughout their life cycle."
+description: "Learn how to use versioning, content approval, and check-out in SharePoint Server to control document versions throughout their life cycle."
 ---
 
 # Plan document versioning, content approval, and check-out controls in SharePointServer
 
- **Summary:** Learn how to use versioning, content approval, and check-out in SharePoint Server to control document versions throughout their life cycle. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 This article describes how to plan to use versioning, content approval, and check-out in SharePoint Server to control document versions throughout their life cycle.
   

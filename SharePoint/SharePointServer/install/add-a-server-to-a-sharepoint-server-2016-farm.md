@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 0926f63d-8dae-44c0-9e91-51209aa4c3ef
-description: "Summary: Learn how to add a server to an existing SharePoint Servers 2016 or 2019 farm."
+description: "Learn how to add a server to an existing SharePoint Server farm."
 ---
 
 # Add a server to a SharePoint Servers 2016 or 2019 farm
 
- **Summary:** Learn how to add a server to an existing SharePoint Server farm. 
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)]
   
     
 ## Before you add a server to a SharePoint farm

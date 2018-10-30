@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 3661eafe-91da-4467-91f1-5fa47947e178
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleThe Visio Graphics Service has a Maximum Web Drawing Size setting that will adversely impact performancefor SharePoint Server 2016 and SharePoint Server 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: The Visio Graphics Service has a Maximum Web Drawing Size setting that will adversely impact performance, for SharePoint Server."
 ---
 
 # The Visio Graphics Service has a maximum Web Drawing Size setting that will adversely impact performance (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "The Visio Graphics Service has a Maximum Web Drawing Size setting that will adversely impact performance" for SharePoint Server 2016 and SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
  **Rule Name:** The Visio Graphics Service has a Maximum Web Drawing Size setting that will adversely impact performance 
   

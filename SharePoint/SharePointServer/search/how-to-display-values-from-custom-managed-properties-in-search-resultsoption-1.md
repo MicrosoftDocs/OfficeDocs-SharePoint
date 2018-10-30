@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 383d6e18-d108-45b3-afb2-194fc3de2206
-description: "Summary: Learn one option for displaying values from custom managed properties in SharePoint Server."
+description: "Learn one option for displaying values from custom managed properties in SharePoint Server."
 ---
 
 # How to display values from custom managed properties in classic search results - option 1 in SharePoint Server
 
- **Summary:** Learn one option for displaying values from custom managed properties in SharePoint Server. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 In this article, you'll learn:
   

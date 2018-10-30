@@ -13,12 +13,12 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 ms.assetid: a8653e44-5bbc-4ca1-8e9a-61cc41349df1
 
-description: "Summary: Learn about the tested performance and capacity limits of SharePoint Server 2013 and how limits relate to acceptable performance."
+description: "Learn about the tested performance and capacity limits of SharePoint Server and how limits relate to acceptable performance."
 ---
 
 # Software boundaries and limits for SharePoint 2013
 
-Summary: Learn about the tested performance and capacity limits of SharePoint Server 2013 and how limits relate to acceptable performance.
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 This article describes software boundaries and limits of SharePoint Server 2013. These include the following:
   

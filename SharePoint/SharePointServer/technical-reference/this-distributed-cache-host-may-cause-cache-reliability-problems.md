@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 45b39899-1686-43e5-9073-e51d2979ba9b
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleThis Distributed Cache host may cause cache reliability problems, in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: This Distributed Cache host may cause cache reliability problems, for SharePoint Server."
 ---
 
 # This Distributed Cache host may cause cache reliability problems (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "This Distributed Cache host may cause cache reliability problems", in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
  **Rule Name:** This Distributed Cache host may cause cache reliability problems. 
   

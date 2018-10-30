@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: cc73be76-a329-449f-90ab-86822b1c2ee8
-description: "Summary: Learn about the two workflow platforms available in SharePoint Serverand the tools for working with them."
+description: "Learn about the two workflow platforms available in SharePoint Serverand the tools for working with them."
 ---
 
 # Getting started with SharePoint Server workflow
 
- **Summary:** Learn about the two workflow platforms available in SharePoint Serverand the tools for working with them. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 SharePoint Server can use the workflow service built on the Windows Workflow Foundation. This service is called Workflow Manager and it is designed to play a central role in the enterprise. Processes are central to any organization and workflow is the orchestrator of processes. Workflow Manager integration was introduced with SharePoint Server 2013. SharePoint Server 2016 builds stability and reliability into this already proven workflow platform. The Workflow Manager platform continues to be called the SharePoint 2013 Workflow Platform and the traditional workflow platform continues to be called the SharePoint 2010 Workflow platform.
   

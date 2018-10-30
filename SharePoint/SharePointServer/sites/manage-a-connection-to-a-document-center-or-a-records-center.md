@@ -13,12 +13,12 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - SharePoint_Online
 ms.assetid: 5f0402ca-90c6-4528-b1de-04d4f28fb2a6
-description: "Summary: How to connect a web application to a SharePoint Server 2016 and SharePoint 2013 document center or records center and how to modify and delete connections."
+description: "How to connect a web application to a SharePoint Server document center or records center and how to modify and delete connections."
 ---
 
 # Manage a connection to a document center or a records center in SharePoint Server
 
- **Summary:** How to connect a web application to a SharePoint Server 2016 and SharePoint 2013 document center or records center and how to modify and delete connections. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 A connection is a path used for sending documents to a document center or a records center. The connection specifies the web application that documents will be sent from, the document center or records center that they will be sent to, and certain aspects of how the documents are sent. A records center is a site that is designed for records management.
   

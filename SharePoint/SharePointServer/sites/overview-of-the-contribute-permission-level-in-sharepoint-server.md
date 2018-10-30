@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 3d6fb9be-5773-40a1-9b31-352994ef4740
-description: "Summary: Learn about the Contribute permission level in SharePoint 2013 and SharePoint Server 2016."
+description: "Learn about the Contribute permission level in SharePoint Server."
 ---
 
 # Overview of the Contribute permission level in SharePoint Server
 
- **Summary:** Learn about the Contribute permission level in SharePoint 2013 and SharePoint Server 2016. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 ## About updating web files
 <a name="section1"> </a>

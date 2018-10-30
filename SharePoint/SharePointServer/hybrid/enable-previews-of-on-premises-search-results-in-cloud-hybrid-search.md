@@ -21,6 +21,8 @@ description: "Learn how to enable display of previews of on-premises search resu
 
 # Enable previews of on-premises search results in cloud hybrid search
 
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+
 Learn how to enable display of previews of on-premises search results in a Search Center in Office 365 for cloud hybrid search.
   
 In [cloud hybrid search](https://support.office.com/article/af830951-8ddf-48b2-8340-179c1cc4d291), when users search in Office 365, they get search results from both on-premises and Office 365 content. When a user hovers over a search result that comes from Office 365, information about the content as well as a preview of the content is displayed. Information about the content from search results that come from SharePoint Server is displayed automatically, but display of previews is not automatic. You can enable such display of previews for content from SharePoint Server 2013 and SharePoint Server 2016, but not for content from SharePoint Server 2010. Users can click search results that come from SharePoint Server 2010, SharePoint Server 2013, and SharePoint Server 2016 to access the content.

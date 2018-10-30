@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 7f65b235-8e0d-48d8-acca-e2e0295e6522
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleAlternate access URLs have not been configuredfor SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: Alternate access URLs have not been configured, for SharePoint Server."
 ---
 
 # Alternate access URLs have not been configured (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "Alternate access URLs have not been configured" for SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
  **Rule Name:** Alternate access URLs have not been configured. 
   

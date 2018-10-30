@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-description: "Summary: This article explains the updated product servicing policy of SharePoint Server 2019."
+description: "This article explains the updated product servicing policy of SharePoint Server."
 ---
 
 # Updated Product Servicing Policy for SharePoint Server 2019
 
- **Summary:** This article explains the updated product servicing policy of SharePoint Server 2019. 
+[!INCLUDE[appliesto-xxx-xxx-2019-xxx-md](../includes/appliesto-xxx-xxx-2019-xxx-md.md)] 
   
 During mainstream support, Microsoft releases new Public Update (PU) builds for SharePoint Server 2019 each month that contain the latest functionality, performance, and stability improvements for the product. To ensure that customers have a high-quality experience, Microsoft is adopting the following product servicing policy for SharePoint Server 2019.
   

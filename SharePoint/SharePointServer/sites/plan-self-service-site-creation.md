@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: f7b617fc-cc45-41bf-bb71-f3d49ed4a59c
-description: "Summary: Learn the critical decisions that you need to make when preparing for Self Service Site creation and management in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn the critical decisions that you need to make when preparing for Self Service Site creation and management in SharePoint Server."
 ---
 
 # Plan self-service site creation in SharePoint Server
 
- **Summary:** Learn the critical decisions that you need to make when preparing for Self Service Site creation and management in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 Organizations have two ways to create site collections in their web applications. One way is to restrict site collection creation to Farm Administrators. The Farm Administrators create site collections either through the SharePoint Central Administration website or through the SharePoint Management Shell. This provides tight control. Another way is to enable Self Service Site Creation, to let users with the necessary rights create site collections under predefined paths. For information about using Microsoft PowerShell to create self-service sites with the SPSiteMaster cmdlets, see the [Use Windows PowerShell cmdlets to manage sites in SharePoint Server](http://technet.microsoft.com/library/0a0396b2-c196-4175-8e4c-083438fd3ce2.aspx).
   

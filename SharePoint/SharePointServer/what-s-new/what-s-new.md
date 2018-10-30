@@ -12,7 +12,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 1a20e357-a21f-4409-9a99-6b8263ab30c5
-description: "Summary: Use these articles to develop a business case for choosing SharePoint Server 2016."
+description: "Use these articles to develop a business case for choosing SharePoint Server 2019 or SharePoint Server 2016."
 ---
 
 # What's new

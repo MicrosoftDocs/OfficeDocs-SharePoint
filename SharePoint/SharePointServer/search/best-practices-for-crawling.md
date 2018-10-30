@@ -15,6 +15,8 @@ description: "Learn about best practices for crawling in SharePoint Server."
 
 # Best practices for crawling in SharePoint Server
 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+
 Learn about best practices for crawling in SharePoint Server.
   
 The Search system crawls content to build a search index that users can run search queries against. This article contains suggestions as to how to manage crawls most effectively.

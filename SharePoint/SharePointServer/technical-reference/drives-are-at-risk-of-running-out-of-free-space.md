@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: ac16bc32-f623-4658-8bc5-6e6b958629a4
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleDrives are at risk of running out of free spacefor SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: Drives are at risk of running out of free space, for SharePoint Server."
 ---
 
 # Drives are at risk of running out of free space (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "Drives are at risk of running out of free space" for SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
  **Rule Name:** Drives are at risk of running out of free space. 
   

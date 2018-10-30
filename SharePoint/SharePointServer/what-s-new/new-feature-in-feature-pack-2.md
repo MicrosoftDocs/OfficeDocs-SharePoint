@@ -10,7 +10,7 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 92ba47ea-a881-4f31-9b8d-e2587edff16d
-description: "Summary: Learn about the new features that are included in the September 2017 Public Update for SharePoint Server 2016 (Feature Pack 2)."
+description: "Learn about the new features that are included in the September 2017 Public Update for SharePoint Server 2016 (Feature Pack 2)."
 ---
 
 # New features in September 2017 PU for SharePoint Server 2016 (Feature Pack 2)

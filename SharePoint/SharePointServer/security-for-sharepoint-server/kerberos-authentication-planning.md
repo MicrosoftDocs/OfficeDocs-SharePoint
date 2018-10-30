@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 3e66d9df-442e-445f-bddc-99b446c2a4cb
-description: "Summary: Learn how to plan for Kerberos authentication in SharePoint 2013 and SharePoint Server 2016 for Windows and claims-based authentication."
+description: "Learn how to plan for Kerberos authentication in SharePoint Server and claims-based authentication."
 ---
 
 # Plan for Kerberos authentication in SharePoint Server
 
- **Summary:** Learn how to plan for Kerberos authentication in SharePoint 2013 and SharePoint Server 2016 for Windows and claims-based authentication. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]  
   
 The Kerberos protocol supports an authentication method that uses tickets that a trusted source provides. Kerberos tickets indicate that the network credentials of a user who is associated with a client computer were authenticated. The Kerberos protocol defines how users interact with a network service to gain access to network resources. The Kerberos Key Distribution Center (KDC) issues a ticket-granting-ticket (TGT) to a client computer on behalf of a user. In Windows, the client computer is a member of an Active Directory Domain Services (AD DS) domain and the TGT is proof that the domain controller authenticated the user credentials. 
   

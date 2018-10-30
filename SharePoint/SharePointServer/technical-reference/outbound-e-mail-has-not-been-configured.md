@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 53885793-4150-4212-af04-6ea2e6e066f7
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleOutbound email has not been configuredfor SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: Outbound email has not been configured, for SharePoint Server."
 ---
 
 # Outbound e-mail has not been configured (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "Outbound email has not been configured" for SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
  **Rule Name:** Outbound email has not been configured. 
   

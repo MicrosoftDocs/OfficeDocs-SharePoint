@@ -13,12 +13,12 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 ms.assetid: 020f3595-b1bb-4def-9614-a7819b84b936
 
-description: "Summary: Learn how to upgrade a site collection to SharePoint Server 2016, review site collections after they've been upgraded, and manage the upgrade process."
+description: "Learn how to upgrade a site collection to SharePoint Server 2016, review site collections after they've been upgraded, and manage the upgrade process."
 ---
 
 # Upgrade site collections to SharePoint Server 2016
 
- **Summary:** Learn how to upgrade a site collection to SharePoint Server 2016, review site collections after they've been upgraded, and manage the upgrade process. 
+[!INCLUDE[appliesto-2013-2016-xxx-xxx-md](../includes/appliesto-2013-2016-xxx-xxx-md.md)]
   
 ## Articles about how to upgrade site collections
 

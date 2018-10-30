@@ -16,12 +16,12 @@ ms.collection:
 - Strat_SP_gtc
 ms.custom: 
 ms.assetid: 4ab7d5bc-abd7-40df-a3db-4306044af01f
-description: "Summary: Overview and introductory articles on SharePoint Server hybrid to help you decide which hybrid solution you should use for your business."
+description: "Overview and introductory articles on SharePoint Server hybrid to help you decide which hybrid solution you should use for your business."
 ---
 
 # Explore SharePoint Server hybrid
 
- **Summary:** Overview and introductory articles on SharePoint Server hybrid to help you decide which hybrid solution you should use for your business. 
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
   
 Discover how a SharePoint hybrid environment using SharePoint Server and SharePoint Online can integrate functionality and access between the services and features of both environments.
   

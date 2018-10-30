@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: d0a50e40-5322-4f7a-a3a4-c4660c879666
-description: "Summary: Learn how to upgrade content databases from SharePoint 2013 to SharePoint Server 2016."
+description: "Learn how to upgrade content databases from SharePoint 2013 to SharePoint Server 2016."
 ---
 
 # Upgrade content databases to SharePoint Server 2016
 
- **Summary:** Learn how to upgrade content databases from SharePoint 2013 to SharePoint Server 2016. 
+[!INCLUDE[appliesto-2013-2016-xxx-xxx-md](../includes/appliesto-2013-2016-xxx-xxx-md.md)] 
   
 When you upgrade from SharePoint Server 2013 with Service Pack 1 (SP1) to SharePoint Server 2016, you must use a database attach upgrade, which means that you upgrade only the content for your environment and not the configuration settings. After you have configured the SharePoint Server 2016 environment, copied the content and service application databases, and upgraded the service applications, you can attach and upgrade the content databases to SharePoint Server 2016. This article explains the steps you take to attach and upgrade the content databases to SharePoint Server 2016.
   

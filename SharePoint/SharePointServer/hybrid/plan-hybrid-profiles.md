@@ -20,6 +20,8 @@ description: "When you have both SharePoint Server and Office 365, by default us
 
 # Plan hybrid profiles
 
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+
 When you have both SharePoint Server and Office 365, by default users have a different profile in each location. This can lead to a confusing profile experience for your users. With hybrid profiles, user have a single profile in Office 365 where they can maintain all of their profile information.
   
 If Office Delve is part of your Office 365 tenant, user profiles will be integrated with Delve and users can discover information and documents and see what their teammates are working on. If you've deployed [cloud hybrid search](https://support.office.com/article/33926857-302c-424f-ba78-03286cf5ac30), users can also find on-premises documents through Delve.

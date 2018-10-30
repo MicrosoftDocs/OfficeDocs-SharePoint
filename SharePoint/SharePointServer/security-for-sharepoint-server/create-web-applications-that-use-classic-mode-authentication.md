@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 57c6d1ee-e2b7-4b48-9865-354fe8cc8fe2
-description: "Summary: Learn how to create a web application that uses classic mode (Windows-classic) authentication in SharePoint Server 2016 and SharePoint Server 2013."
+description: "Learn how to create a web application that uses classic mode (Windows-classic) authentication in SharePoint Server."
 ---
 
 # Create web applications that use classic mode authentication in SharePoint Server
 
- **Summary:** Learn how to create a web application that uses classic mode (Windows-classic) authentication in SharePoint Server 2016 and SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)] 
   
 In SharePoint Server, claims-based authentication is the default and preferred method of user authentication and is required to take advantage of server-to-server authentication and app authentication. In Central Administration, you can only configure claims-based authentication when you manage web applications. You can also use Microsoft PowerShell cmdlets. The use of classic mode authentication, also known as Windows classic authentication, is discouraged in SharePoint Server and you can only create or configure web applications for classic mode authentication with Microsoft PowerShell cmdlets.
   

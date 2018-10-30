@@ -10,12 +10,12 @@ ms.prod:  sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 2b2c3b2a-49f3-4c96-9efd-0d557f0332db
-description: "Summary: Learn how to plan an enterprise search architecture."
+description: "Learn how to plan an enterprise search architecture."
 ---
 
 # Plan enterprise search architecture in SharePoint Server
 
- **Summary:** Learn how to plan an enterprise search architecture. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 Before you set up your enterprise search architecture, there are quite a few things that require careful planning. Step by step, we'll help you to plan a small, a medium, large, or an extra large-size enterprise search architecture.
   

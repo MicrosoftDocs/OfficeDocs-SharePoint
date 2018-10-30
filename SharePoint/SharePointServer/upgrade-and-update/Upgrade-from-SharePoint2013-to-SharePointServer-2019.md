@@ -10,13 +10,12 @@ localization_priority: Normal
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-description: "Summary: Learn the overview steps required to upgrade SharePoint Server 2013 environment to SharePoint Server 2019."
+description: "Learn the overview steps required to upgrade SharePoint Server 2013 environment to SharePoint Server 2019."
 ---
 
 # High level overview to upgrade from SharePoint 2013 to SharePoint Server 2019
 
- **Summary:** Learn the overview steps required to upgrade SharePoint Server 2013 environment to SharePoint Server 2019. 
-  
+[!INCLUDE[appliesto-2013-xxx-2019-xxx-md](../includes/appliesto-2013-xxx-2019-xxx-md.md)] 
 
 ## Overview
 <a name="Overview"> </a>
