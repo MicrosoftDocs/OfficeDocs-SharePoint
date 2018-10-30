@@ -68,21 +68,19 @@ SharePoint home page works best when Search and List of Followed sites are store
 
 If you find any issues with the SharePoint home page, first check items in the following list.
 
-1. When SharePoint home page doesn't reder in the browser, try different browsers as it might be a client issue.
+1. SharePoint home page looks different for users. This is expected and depends on user activity and timing of the changes.
 
-2. SharePoint home page looks different for users. This is expected and depends on user activity and timing of the changes.
+2. Check the User Profile Service application to make sure it's provisioned, started, and working.
 
-3. Check the User Profile Service application to make sure it's provisioned, started, and working.
+3. Check that the affected user has a working user profile.
 
-4. Check that the affected user has a working user profile.
+4. Ensure the SharePoint home page site collection is configured with a pointer to the Enterprise Search Center.
 
-5. Ensure the SharePoint home page site collection is configured with a pointer to the Enterprise Search Center.
+5. Check the Search Service application and crawling status.
 
-6. Check the Search Service application and crawling status.
+6. If you're running Distributed Cache, check for any service issues.
 
-7. If you're running Distributed Cache, check for any service issues.
-
-8. When following a site that isn't shown on the SharePoint home page, check that following is functional in your farm.
+7. When following a site that isn't shown on the SharePoint home page, check that &#8220;following&#8221; is functional in your farm.
 
 ## See also
 
