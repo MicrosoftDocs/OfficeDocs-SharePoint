@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: ad56091b-14cd-4e49-b6eb-95552b456079
-description: "Summary: Learn how to connect your publishing site to a catalog in SharePoint Server 2016."
+description: "Learn how to connect your publishing site to a catalog in SharePoint Server 2016."
 ---
 
 # Stage 5: Connect your publishing site to a catalog in SharePoint Server
 
- **Summary:** Learn how to connect your publishing site to a catalog in SharePoint Server 2016. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 > [!NOTE]
 > Most of the features described in this series are available only for private sites collections in SharePoint Online. 

@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 73d7f970-c378-4b31-92d5-48cdeb8075e6
-description: "Summary: Learn how to document farm configuration settings in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to document farm configuration settings in SharePoint Server."
 ---
 
 # Document farm configuration settings in SharePoint Server
 
- **Summary:** Learn how to document farm configuration settings in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 You can document your farm configuration settings in SharePoint Server by using PowerShell. 
   

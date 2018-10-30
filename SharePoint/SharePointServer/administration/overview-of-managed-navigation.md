@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 9d1f5998-e6b6-474c-a2aa-47782b63e53e
-description: "Summary: Learn about managed navigation and navigation term sets for SharePoint Server publishing sites."
+description: "Learn about managed navigation and navigation term sets for SharePoint Server publishing sites."
 ---
 
 # Overview of managed navigation in SharePoint Server
 
- **Summary:** Learn about managed navigation and navigation term sets for SharePoint Server publishing sites. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]. 
   
 The managed navigation feature in SharePoint Server enables you to build navigation for a publishing site that is derived from a SharePoint Server managed metadata taxonomy. In SharePoint Server 2010, by default, you could base navigation only on the structure of a site. To create site navigation based on any data structure, you had to create a custom navigation provider. By using managed navigation, you can design site navigation around important business concepts. Managed navigation also lets you create friendly URLs without changing the structure of your site. In SharePoint Server 2010, all publishing site URLs contained a reference to the Pages library and any folders within that library — for example, http://contoso.com/Pages/AboutUs.aspx. In SharePoint Server 2016 and SharePoint Server 2013, you can create URLs that are better for Search Engine Optimization (SEO), and easier for site visitors to read — for example, http://contoso.com/AboutUs. Managed navigation is not available in SharePoint Foundation 2013. 
   

@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: db44c8d7-e081-42a3-a42a-2ee1b369dd47
-description: "Summary: Learn how to back up a single content database in SharePoint Server 2016 and SharePoint Server 2013."
+description: "Learn how to back up a single content database in SharePoint Server3."
 ---
 
 # Back up content databases in SharePoint Server
 
- **Summary:** Learn how to back up a single content database in SharePoint Server 2016 and SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 You can back up a content database by using the SharePoint Central Administration website, Microsoft PowerShell, or SQL Server tools. The backup tool that you use depends on the kind of environment that you have deployed, your backup schedule requires, and service level agreements that you have made with your organization.
   

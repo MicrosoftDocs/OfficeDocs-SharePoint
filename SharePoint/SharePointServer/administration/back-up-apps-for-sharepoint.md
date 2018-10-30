@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: a193cfdb-ac5e-45fa-bf83-87849e38ac27
-description: "Summary: Learn how to back up apps for SharePoint in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to back up apps for SharePoint in SharePoint Server."
 ---
 
 # Back up apps for SharePoint in SharePoint Server
 
- **Summary:** Learn how to back up apps for SharePoint in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 We recommend that you regularly back up at the farm level. However, business or IT requirements might require you to back up the apps for SharePoint in addition to normal farm backups. If you regularly back up the apps for SharePoint environment, you reduce the possibility of data losses that might occur from hardware failures, power outages, or other problems. It is a simple process that helps make sure that data and configurations that compose the apps for SharePoint environment are available for recovery, if that is required. 
   

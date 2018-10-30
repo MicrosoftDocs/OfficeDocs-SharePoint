@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: cdaaf121-3fd3-4889-9020-9cf7606c8f6b
-description: "Summary: Learn how to use Excel to create and share OLE DB or ODBC connections that people can use to create data models, reports, scorecards, and dashboards."
+description: "Learn how to use Excel to create and share OLE DB or ODBC connections that people can use to create data models, reports, scorecards, and dashboards."
 ---
 
 # Share an OLE DB or ODBC connection using Excel Services (SharePoint Server 2013)
 
- **Summary:** Learn how to use Excel to create and share OLE DB or ODBC connections that people can use to create data models, reports, scorecards, and dashboards. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 You can use Excel to create OLE DB or ODBC connections and then share those connections with others. An OLE DB or ODBC connection is useful for connecting to data sources, such as Excel workbooks, legacy databases, or non-Microsoft databases. When you can upload a data connection to an Excel Services trusted data connection library in SharePoint Server 2013, the data connection is available for you and others to use to create data models, reports, scorecards, and dashboards. Depending on the particular data source that is used, people can easily refresh data in Excel Services workbooks so that the most current information is displayed.
   

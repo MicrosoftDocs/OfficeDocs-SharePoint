@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 5d120a41-37e5-4711-b31e-33e82b034af0
-description: "Summary: Learn how to configure and manage the Distributed Cache service in SharePoint Server 2013 and SharePoint Server 2016."
+description: "Learn how to configure and manage the Distributed Cache service in SharePoint Server."
 ---
 
 # Manage the Distributed Cache service in SharePoint Server
 
- **Summary:** Learn how to configure and manage the Distributed Cache service in SharePoint Server 2013 and SharePoint Server 2016. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 To perform management and operational tasks on the Distributed Cache service in SharePoint Server, an administrator must perform specific, ordered procedures. This article describes how to conduct several management and operational tasks on the Distributed Cache service. 
   

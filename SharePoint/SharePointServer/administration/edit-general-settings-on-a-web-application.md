@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 8b96e40d-8a2f-486e-aaea-a3567cca77ad
-description: "Summary: Illustrates how to make changes to general settings for a SharePoint Server 2016 and SharePoint Server 2013web application in Central Administration."
+description: "Illustrates how to make changes to general settings for a SharePoint Server web application in Central Administration."
 ---
 
 # Edit general settings on a web application in SharePoint Server
 
- **Summary:** Illustrates how to make changes to general settings for a SharePoint Server 2016 and SharePoint Server 2013 web application in Central Administration. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 ## Edit a web application by using Central Administration
 <a name="section1"> </a>

@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: d32c1b21-60c4-465e-82c9-d907d913f8aa
-description: "Summary: Learn how to connect a publishing site collection to a library or list that is shared as a catalog."
+description: "Learn how to connect a publishing site collection to a library or list that is shared as a catalog."
 ---
 
 # Connect a publishing site to a catalog in SharePoint Server
 
- **Summary:** Learn how to connect a publishing site collection to a library or list that is shared as a catalog. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 To show content from a library or list that is shared as a catalog, you must connect the publishing site collection to the catalog. When you connect a publishing site collection to a catalog, the following occurs: 
   

@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: a6d383c0-3817-4acd-afa9-ad7a9b7e6b5a
-description: "Summary: Learn how to back up farm configurations in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to back up farm configurations in SharePoint Server."
 ---
 
 # Back up farm configurations in SharePoint Server
 
- **Summary:** Learn how to back up farm configurations in SharePoint Server 2016 and SharePoint 2013. 
+ [!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 You can back up a farm configuration by using the SharePoint Central Administration website or Microsoft PowerShell. The backup tool that you use depends on the kind of environment that you have deployed, your backup schedule requirements, and service level agreements that you have with your organization.
   

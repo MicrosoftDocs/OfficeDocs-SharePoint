@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: a19bb905-2984-4512-8e8a-3c17ec3680c0
-description: "Summary: Learn how to configure and manage an App Catalog for SharePoint Server 2013 or SharePoint Server 2016 environments to control access to available apps."
+description: "Learn how to configure and manage an App Catalog for SharePoint Server environments to control access to available apps."
 ---
 
 # Manage the App Catalog in SharePoint Server
 
- **Summary:** Learn how to configure and manage an App Catalog for SharePoint Server 2013 or SharePoint Server 2016 environments to control access to available apps. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 You can store apps for SharePoint and Office apps for your organization's internal use in an App Catalog site. This article contains an overview of the App Catalog site and shows how to configure the App Catalog for a web application.
   

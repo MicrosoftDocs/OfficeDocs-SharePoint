@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: f17c0e05-bb64-4a7e-95f8-5a68d69917d3
-description: "Summary:Get an introduction to recommendations and popular items features in SharePoint Server 2013 and SharePoint Server 2016."
+description: "Get an introduction to recommendations and popular items features in SharePoint Server."
 ---
 
 # An introduction to recommendations and popular items in SharePoint Server
 
- **Summary:**Get an introduction to recommendations and popular items features in SharePoint Server 2013 and SharePoint Server 2016.
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 In SharePoint Server, recommendations and popular items can be displayed because a feature known as  *Usage analytics*  tracks and analyzes how visitors interact with your website. You can use the results that Usage analytics produces to add content to your website, for example "People who viewed this item also viewed" or "Popular items in this category." 
   

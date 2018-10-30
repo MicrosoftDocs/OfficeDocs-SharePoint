@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 6cdcb2e3-8a77-4219-ba08-cc1d0ae8944f
-description: "Summary: Learn how to start profile synchronization manually in SharePoint Server 2013 or SharePoint Server 2016."
+description: "Learn how to start profile synchronization manually in SharePoint Server."
 ---
 
 # Start profile synchronization manually in SharePoint Server
 
- **Summary:** Learn how to start profile synchronization manually in SharePoint Server 2013 or SharePoint Server 2016. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 This article describes how to start profile synchronization for SharePoint Server manually. You can start a full synchronization or an incremental synchronization of profile information. You might want to consider starting profile synchronization manually if you have made considerable changes to user profiles, and you don't want to wait for the next scheduled synchronization.
   

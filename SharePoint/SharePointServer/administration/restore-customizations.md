@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 38147eec-d89a-478a-956a-779fe76c6679
-description: "Summary: Learn how to restore customizations that are made to SharePoint Server 2016 and SharePoint 2013 sites."
+description: "Learn how to restore customizations that are made to SharePoint Server sites."
 ---
 
 # Restore customizations in SharePoint Server
 
- **Summary:** Learn how to restore customizations that are made to SharePoint Server 2016 and SharePoint 2013 sites. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 You can restore any customizations that are made to SharePoint Server by using Central Administration or PowerShell. The restore tool that you use depends on the kind of environment that you have deployed, your schedule requirements, and what service level agreements that you have made with your organization.
   

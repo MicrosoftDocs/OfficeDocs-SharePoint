@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 0d2efc06-afb4-40fe-9ac9-f973ac3d985f
-description: "Summary: Learn how to plan for alternate access mappings in SharePoint 2013."
+description: "Learn how to plan for alternate access mappings in SharePoint Server."
 ---
 
 # Plan alternate access mappings for SharePoint Server
 
- **Summary:** Learn how to plan for alternate access mappings in SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 Alternate access mappings direct users to the correct URLs during their interaction with SharePoint Server 2016 (while browsing to the home page of a SharePoint Server 2016 website, for example). Alternate access mappings enable SharePoint Server 2016 to map web requests to the correct web applications and sites, and they enable SharePoint Server 2016 to serve the correct content back to the user.
   

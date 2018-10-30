@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 7b39606d-57b3-47bc-90ac-7739a67e6577
-description: "Summary: Learn how to determine the number and types of computers that you need for a capacity plan for a My Site and social computing portal based on SharePoint Server 2013."
+description: "Learn how to determine the number and types of computers that you need for a capacity plan for a My Site and social computing portal based on SharePoint Server 2013."
 ---
 
 # Estimate performance and capacity requirements for social environments (SharePoint Server 2013)
 
- **Summary:** Learn how to determine the number and types of computers that you need for a capacity plan for a My Site and social computing portal based on SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 To create a performance and capacity plan for an enterprise intranet My Site and social computing portal solution, this article contains information about the following areas: 
   

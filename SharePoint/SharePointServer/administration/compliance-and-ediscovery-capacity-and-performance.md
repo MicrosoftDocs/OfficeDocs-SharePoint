@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 3d6d004c-b9b3-4f00-9966-467e0e63d1a5
-description: "Summary: Learn about how compliance, eDiscovery, and large-scale document repositories can effect capacity and performance in SharePoint Server 2013."
+description: "Learn about how compliance, eDiscovery, and large-scale document repositories can effect capacity and performance in SharePoint Server 2013."
 ---
 
 # Estimate capacity and performance for compliance and eDiscovery for SharePoint Server 2013
 
- **Summary:** Learn about how compliance, eDiscovery, and large-scale document repositories can effect capacity and performance in SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
   
 Compliance feature sets, such as in-place holds and querying and exporting data under preservation, effect the processing and storage requirements in SharePoint Server 2013 when used.
   

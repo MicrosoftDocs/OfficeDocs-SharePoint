@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 1bb10de1-2b80-48b3-a9f7-9745cb725e6c
-description: "Summary: Learn how to plan your site architecture when you want to use variations on your multilingual cross-site publishing site."
+description: "Learn how to plan your site architecture when you want to use variations on your multilingual cross-site publishing site."
 ---
 
 # Plan variations for multilingual cross-site publishing site in SharePoint Server
 
- **Summary:** Learn how to plan your site architecture when you want to use variations on your multilingual cross-site publishing site. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 You can use variations features to create and maintain your multilingual SharePoint sites. For more information, see [Variations overview in SharePoint Server](variations-overview.md). When you use cross-site publishing and variations, you should set up your site architecture according to one of three scenarios.
   

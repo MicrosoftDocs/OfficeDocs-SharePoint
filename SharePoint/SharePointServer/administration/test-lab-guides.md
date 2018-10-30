@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: adbb853e-d8ef-48bb-9ca1-55612809c680
-description: "Summary: Find the set of Test Lab Guides (TLGs) for SharePoint 2013 to gain valuable hands-on experience before planning and deployment."
+description: "Find the set of Test Lab Guides (TLGs) for SharePoint to gain valuable hands-on experience before planning and deployment."
 ---
 
 # Test lab guides for SharePoint Server 2013
 
- **Summary:** Find the set of Test Lab Guides (TLGs) for SharePoint 2013 to gain valuable hands-on experience before planning and deployment. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 The following articles and related resources provide information about TLGs for SharePoint 2013. 
   

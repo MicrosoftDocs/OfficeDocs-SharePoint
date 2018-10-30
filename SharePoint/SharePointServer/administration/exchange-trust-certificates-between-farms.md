@@ -14,12 +14,12 @@ ms.collection:
 - Strat_SP_server
 ms.custom: 
 ms.assetid: 6d8a9d37-d400-4d7c-b4f1-bf3c5643c98c
-description: "Summary: Learn how to exchange trust certificates between the publishing farm and the consuming farm in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to exchange trust certificates between the publishing farm and the consuming farm in SharePoint Server."
 ---
 
 # Exchange trust certificates between farms in SharePoint Server
 
- **Summary:** Learn how to exchange trust certificates between the publishing farm and the consuming farm in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 In SharePoint Server, a farm can connect to and consume a service application that is published on another SharePoint Server farm. For this to occur, the farms must exchange trust certificates. 
   

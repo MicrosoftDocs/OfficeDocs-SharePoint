@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: e1b308ac-730a-4329-8336-b3b2ac9f41bc
-description: "Summary: Learn how to view and configure usage analytics reports in SharePoint Server 2016 and SharePoint Server 2013."
+description: "Learn how to view and configure usage analytics reports in SharePoint Server."
 ---
 
 # View and configure usage analytics reports in SharePoint Server
 
- **Summary:** Learn how to view and configure usage analytics reports in SharePoint Server 2016 and SharePoint Server 2013. 
+ [!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 The previous article in this series, [Use recommendations and popular items on websites with anonymous users in SharePoint Server](use-recommendations-and-popular-items-on-websites-with-anonymous-users.md), explained how to display recommendations on a website with anonymous users. In this article you'll learn:
   

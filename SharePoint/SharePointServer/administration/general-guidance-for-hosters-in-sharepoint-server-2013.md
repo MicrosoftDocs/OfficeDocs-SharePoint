@@ -12,14 +12,14 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 52e844d0-5f65-4091-8c16-549b1f25a587
-description: "Summary: Administrator guidance for multi-tenant hosts in SharePoint Server 2013."
+description: "Administrator guidance for multi-tenant hosts in SharePoint Server."
 ---
 
 # General guidance for hosters in SharePoint Server 2013
 
- **Summary:** Administrator guidance for multi-tenant hosts in SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
-This article describes general guidance and concepts related to multi-tenancy in SharePoint Server 2013 
+This article describes general guidance and concepts related to multi-tenancy in SharePoint Server 2013. 
   
 For information about architectural, security, operational, and management guidance to help service providers in gaining an understanding of multi-tenancy in SharePoint Server 2013, see [Understanding Multi-Tenancy in Microsoft SharePoint Server 2013](understanding-multi-tenancy.md).
   

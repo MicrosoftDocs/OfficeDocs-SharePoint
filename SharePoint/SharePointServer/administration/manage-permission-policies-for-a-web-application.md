@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: cba65279-cba5-46cb-aea1-f095365ed83a
-description: "Summary: Learn how to manage SharePoint Server 2013 and SharePoint Server 2016 web application permission policy levels."
+description: "Learn how to manage SharePoint Server web application permission policy levels."
 ---
 
 # Manage permission policies for a web application in SharePoint Server
 
- **Summary:** Learn how to manage SharePoint Server 2013 and SharePoint Server 2016 web application permission policy levels. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 Permission policy levels provide a centralized way to configure and manage a set of permissions that applies to a subset of users or groups across all the site collections in a web application.
   

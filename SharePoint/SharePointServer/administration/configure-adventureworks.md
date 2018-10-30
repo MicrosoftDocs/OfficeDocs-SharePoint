@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 5e44cf6c-2271-4ff1-af7f-4e73849ffdf6
-description: "Summary: Configure the AdventureWorks sample data for use with Excel, Excel Services in SharePoint Server 2013, and PerformancePoint Services business intelligence scenarios."
+description: "Configure the AdventureWorks sample data for use with Excel, Excel Services in SharePoint Server 2013, and PerformancePoint Services business intelligence scenarios."
 ---
 
 # Configure AdventureWorks for Business Intelligence solutions
 
- **Summary:** Configure the AdventureWorks sample data for use with Excel, Excel Services in SharePoint Server 2013, and PerformancePoint Services business intelligence scenarios. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
   
 The AdventureWorks sample data set provides a sample database, data warehouse, and OLAP cube. The subsequent articles in this section make use of this sample data to demonstrate Business Intelligence capabilities in Excel, Excel Services in SharePoint Server 2013, and PerformancePoint Services. This article describes how to install and configure the AdventureWorks sample data set and configure a Business Intelligence Center on your SharePoint Server 2013 farm.
   

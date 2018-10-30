@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 7942ef65-c309-402d-b4bb-d54e686fc5d9
-description: "Summary: Learn how to restore a SharePoint Server 2016 and SharePoint 2013 farm."
+description: "Learn how to restore a SharePoint Server farm."
 ---
 
 # Restore farms in SharePoint Server
 
- **Summary:** Learn how to restore a SharePoint Server 2016 and SharePoint 2013 farm. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 You can restore a SharePoint Server farm by using the SharePoint Central Administration website, Microsoft PowerShell, or SQL Server tools. The backup tool that you use depends on the kind of environment that you have deployed, the backup schedule, and service level agreements that you have made with your organization.
   

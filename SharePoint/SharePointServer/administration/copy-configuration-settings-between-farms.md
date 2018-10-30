@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 8404adef-6bfb-4795-be16-15739e1212f5
-description: "Summary: Learn how to copy configuration settings from one SharePoint Server 2016 or SharePoint 2013 farm to another."
+description: "Learn how to copy configuration settings from one SharePoint Server farm to another."
 ---
 
 # Copy configuration settings between farms in SharePoint Server
 
- **Summary:** Learn how to copy configuration settings from one SharePoint Server 2016 or SharePoint 2013 farm to another. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 You can copy configuration settings between SharePoint Server farms by using Microsoft PowerShell. 
   

@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 087d42aa-7ea9-4ef4-bcce-98371b733d8c
-description: "Summary: Learn how to import list content into the Product Catalog Site Collection in SharePoint Server 2016."
+description: "Learn how to import list content into the Product Catalog Site Collection in SharePoint Server 2016."
 ---
 
 # Stage 2: Import list content into the Product Catalog Site Collection in SharePoint Server
 
- **Summary:** Learn how to import list content into the Product Catalog Site Collection in SharePoint Server 2016. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 > [!NOTE]
 > Most of the features described in this series are available only for private sites collections in SharePoint Online. 

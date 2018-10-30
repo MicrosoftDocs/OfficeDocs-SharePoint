@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 85ba39ff-5dd3-4a88-98c2-5ec9d6928d2e
-description: "Summary: Learn about the roles of networks, groups, and users in Yammer."
+description: "Learn about the roles of networks, groups, and users in Yammer."
 ---
 
 # Yammer networks, groups, and users overview
 
- **Summary:** Learn about the roles of networks, groups, and users in Yammer. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 This article describes Yammer networks, groups, and users, which together serve as a foundation for providing you with a rich Yammer experience within SharePoint.
   

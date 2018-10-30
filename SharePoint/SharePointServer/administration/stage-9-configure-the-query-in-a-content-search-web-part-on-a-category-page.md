@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 3df3e82d-df89-4d3d-b320-96d921e2d697
-description: "Summary: Learn how to configure the query in a Content Search Web Part on a category page in SharePoint Server 2016."
+description: "Learn how to configure the query in a Content Search Web Part on a category page in SharePoint Server 2016."
 ---
 
 # Stage 9: Configure the query in a Content Search Web Part on a category page in SharePoint Server
 
- **Summary:** Learn how to configure the query in a Content Search Web Part on a category page in SharePoint Server 2016. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 > [!NOTE]
 > Most of the features described in this series are available only for private sites collections in SharePoint Online. 

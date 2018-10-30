@@ -13,12 +13,12 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 ms.assetid: fbe4d2e6-0d0a-4f3c-be82-e9cfe1b63d20
 
-description: "Summary: Discover links to articles that explain issues about global deployments of SharePoint 2013."
+description: "Discover links to articles that explain issues about global deployments of SharePoint 2013."
 ---
 
 # Global deployment of multiple farms (SharePoint 2013)
 
- **Summary:** Discover links to articles that explain issues about global deployments of SharePoint 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 The following downloadable resources, articles, video recordings, and related resources provide information about global deployment of multiple SharePoint 2013 farms.
   

@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 0fb9616f-3877-4ba8-a7a7-9f00b6d896cb
-description: "Summary: Learn to configure health data collection timer jobs by using the SharePoint Central Administration website or Windows PowerShell."
+description: "Learn to configure health data collection timer jobs by using the SharePoint Central Administration website or Windows PowerShell."
 ---
 
 # Configure SharePoint Health Analyzer timer jobs in SharePoint Server 2016
 
- **Summary:** Learn to configure health data collection timer jobs by using the SharePoint Central Administration website or Windows PowerShell. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 SharePoint Health Analyzer uses timer jobs to collect health data and then writes the data to the logging folder and to the Logging database. This data is used in reports to display health of the farm servers. You can reschedule these timer jobs, run them immediately, or enable or disable them. 
   

@@ -14,12 +14,12 @@ ms.collection:
 - Strat_SP_server
 ms.custom: 
 ms.assetid: 723dba65-4887-4ef2-9971-c51c8669cbac
-description: "Summary: Understand the disaster recovery options and supported technologies for recovering a SharePoint Server 2016 and SharePoint 2013 farm if there is a disaster."
+description: "Understand the disaster recovery options and supported technologies for recovering a SharePoint Server farm if there is a disaster."
 ---
 
 # Choose a disaster recovery strategy for SharePoint Server
 
- **Summary:** Understand the disaster recovery options and supported technologies for recovering a SharePoint Server 2016 and SharePoint 2013 farm if there is a disaster. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 We define disaster recovery as the ability to recover from a situation in which the primary data center that hosts a SharePoint Server farm is unable to continue to operate. Regardless of the nature of event and its cause, the data center outage is significant enough to set into motion the actions defined in your organization's disaster recovery plan. This means putting a fully operational farm into production using computer resources that are located in a data center that is not affected by the event.
   

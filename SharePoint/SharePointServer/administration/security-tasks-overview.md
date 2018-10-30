@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: ec012300-2ebe-48f0-b110-a5bc9166e353
-description: "Summary: Understand Microsoft Business Connectivity Services security in SharePoint Server 2016 and SharePoint Server 2013."
+description: "Understand Microsoft Business Connectivity Services security in SharePoint Server."
 ---
 
 # Overview of Business Connectivity Services security tasks in SharePoint Server
 
- **Summary:** Understand Microsoft Business Connectivity Services security in SharePoint Server 2016 and SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 Providing security for the data that you work with through Microsoft Business Connectivity Services (BCS) is a critical part of every BCS solution. Unlike regular SharePoint data, which is stored in a SharePoint content database, the data that BCS solutions make visible live outside of SharePoint in external systems. BCS provides the channel that SharePoint uses to get to the external data. In addition to working within the usual SharePoint Server security controls such as site access permissions and list permissions, BCS solutions have to deal with additional communication and security layers. For example, the external system might use a different authentication mechanism or provider, and require different credentials than the ones your users use to access SharePoint Server with. Because there are more security layers in a BCS solution, there are more security configuration tasks involved.
   
