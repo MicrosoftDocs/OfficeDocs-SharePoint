@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 40d265d9-dd16-405f-8c85-390975024bad
-description: "Summary: Complete your SharePoint upgrade. Find information on upgrading databases and site collections from SharePoint Server 2016 to SharePoint Server 2019."
+description: "Complete your SharePoint upgrade. Find information on upgrading databases and site collections from SharePoint Server 2016 to SharePoint Server 2019."
 ---
 
 # Get started with upgrades to SharePoint Server 2019
 
- **Summary:** Complete your SharePoint upgrade. Find information on upgrading databases and site collections from SharePoint Server 2016 to SharePoint Server 2019. 
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)]  
   
 The first step in any upgrade process is to learn about the process itself so that you can plan and prepare appropriately. These articles help you understand how the SharePoint upgrade process works. These articles also include overviews of how to upgrade service applications.
   

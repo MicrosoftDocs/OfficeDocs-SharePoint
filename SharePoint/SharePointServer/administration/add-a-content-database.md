@@ -12,13 +12,13 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 0889004d-6820-4282-a63c-863f4796ff85
-description: "Summary: Learn how to add a content database to your SharePoint Server 2016 and SharePoint 2013 farm."
+description: "Learn how to add a content database to your SharePoint Server farm."
 ---
 
 # Add content databases in SharePoint Server
 
- **Summary:** Learn how to add a content database to your SharePoint Server 2016 and SharePoint 2013 farm. 
-  
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+
 You can add a content database to a SharePoint Server farm by using the SharePoint Central Administration website or Microsoft PowerShell. The tool that you use depends on the kind of environment that you have deployed, your schedule requirements, and service level agreements that you have made with your organization.
   
     

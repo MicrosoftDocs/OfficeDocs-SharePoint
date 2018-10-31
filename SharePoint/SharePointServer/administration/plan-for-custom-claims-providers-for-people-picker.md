@@ -9,12 +9,12 @@ ms.topic: interactive-tutorial
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 3fca2556-ebca-4395-8f66-b3a645c05878
-description: "Summary: Learn about how to plan for custom claims providers for the People Picker web control in SharePoint Server 2013."
+description: "Learn about how to plan for custom claims providers for the People Picker web control in SharePoint Server 2013."
 ---
 
 # Plan for custom claims providers for People Picker in SharePoint 2013
 
- **Summary:** Learn about how to plan for custom claims providers for the People Picker web control in SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
   
 You can use the claims providers that are included with SharePoint Server 2013, or you can create your own custom claims providers to connect to additional sources of claims and provide additional claims in the security token for a user. For example, if you have a customer relationship management (CRM) application that contains roles that are not found in the user repository in Active Directory Domain Services (AD DS), you can create a custom claims provider to connect to the CRM database and add CRM role data to a user's original security token. For more information about claims provider usage scenarios, see [Claims Provider](https://technet.microsoft.com/en-us/library/ee535894.aspx).
   

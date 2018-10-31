@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 8f98a750-19bb-4ea0-9ff5-719b85febbb3
-description: "Summary: Learn how to back up customizations that are made to SharePoint Server 2016 and SharePoint 2013 sites."
+description: "Learn how to back up customizations that are made to SharePoint Server sites."
 ---
 
 # Back up customizations in SharePoint Server
 
- **Summary:** Learn how to back up customizations that are made to SharePoint Server 2016 and SharePoint 2013 sites. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 You can back up customizations that are made to SharePoint Server sites by using the SharePoint Central Administration website or Microsoft PowerShell. Which backup tool you use depends on what kind of environment you have deployed, what your backup schedule requires, and what service level agreements you have made with your organization. 
   

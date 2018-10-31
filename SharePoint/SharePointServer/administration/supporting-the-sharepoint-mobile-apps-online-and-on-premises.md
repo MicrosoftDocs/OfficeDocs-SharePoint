@@ -19,6 +19,8 @@ description: "The SharePoint mobile app makes using your SharePoint sites from a
 
 # Supporting the SharePoint mobile apps online and on-premises
 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+
 The SharePoint mobile app makes using your SharePoint sites from a phone and tablet easier than ever. Learn how to troubleshoot common issues when working with the SharePoint mobile app. 
   
 ## Overview

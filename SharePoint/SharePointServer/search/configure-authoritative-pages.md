@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 6bf64b3d-edf0-4d2a-a1f5-b53318a24a1a
-description: "Summary: Learn how to specify authoritative pages and non-authoritative URLs and sites. Search uses the list of authoritative pages to calculate the ranking of results."
+description: "Learn how to specify authoritative pages and non-authoritative URLs and sites. Search uses the list of authoritative pages to calculate the ranking of results."
 ---
 
 # Configure authoritative pages in SharePoint Server
 
- **Summary:** Learn how to specify authoritative pages and non-authoritative URLs and sites. The classic search experience uses the list of authoritative pages to calculate the ranking of results. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 Static rank determines the relative importance of a page, and it is computed as the smallest number of clicks it would take a user to navigate from an authoritative page to a document. The closer a document is to the most authoritative page, the higher its static rank is.
   

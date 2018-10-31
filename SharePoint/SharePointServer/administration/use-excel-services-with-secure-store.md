@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 2d11e10c-c224-46a6-8c03-07913b38c13e
-description: "Summary: Learn about the options available for using the Secure Store Service with Excel Services in SharePoint Server 2013 to refresh data from external data sources."
+description: "Learn about the options available for using the Secure Store Service with Excel Services in SharePoint Server 2013 to refresh data from external data sources."
 ---
 
 # Use Excel Services with Secure Store Service in SharePoint Server 2016
 
- **Summary:** Learn about the options available for using the Secure Store Service with Excel Services in SharePoint Server 2013 to refresh data from external data sources. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 This series of articles describes how to configure data refresh in Excel Services in SharePoint Server 2013 by using the Secure Store Service to map user and group credentials to the credentials of external data sources.
   

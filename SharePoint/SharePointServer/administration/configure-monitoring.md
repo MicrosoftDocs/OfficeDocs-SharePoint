@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 274c4c7a-e635-4bc9-85b3-9737620f9909
-description: "Summary: Learn more about SharePoint diagnostic logging, SharePoint Health Analyzer timer jobs and rules, and usage and health data."
+description: "Learn more about SharePoint diagnostic logging, SharePoint Health Analyzer timer jobs and rules, and usage and health data."
 ---
 
 # Configure monitoring in SharePoint Server 2016
 
- **Summary:** Learn more about SharePoint diagnostic logging, SharePoint Health Analyzer timer jobs and rules, and usage and health data. 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)] 
   
 > [!NOTE]
 > It may be necessary to configure your monitoring settings after your intial SharePoint deployment or upgrade. SharePoint Server 2016 

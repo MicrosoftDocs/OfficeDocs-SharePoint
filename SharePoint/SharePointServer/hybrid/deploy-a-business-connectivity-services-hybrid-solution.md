@@ -13,12 +13,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_SharePoint_Hybrid_Top
 ms.assetid: 3f7cf424-3340-4010-ad3b-6aef0cd74428
-description: "Summary: Learn how to configure the Business Connectivity Services (BCS) hybrid scenario to access on-premises data through SharePoint Online."
+description: "Learn how to configure the Business Connectivity Services (BCS) hybrid scenario to access on-premises data through SharePoint Online."
 ---
 
 # Deploy a Business Connectivity Services hybrid solution in SharePoint
 
- **Summary:** Learn how to configure the Business Connectivity Services (BCS) hybrid scenario to access on-premises data through SharePoint Online. 
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
   
  **This article is part of a roadmap of procedures for configuring SharePoint hybrid solutions. Be sure you're [following a roadmap](configuration-roadmaps.md) when you do the procedures in this article. **
   

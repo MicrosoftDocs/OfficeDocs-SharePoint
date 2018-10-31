@@ -13,12 +13,12 @@ ms.collection:
 - IT_SharePoint_Hybrid_Top
 localization_priority: Normal
 ms.assetid: f0565d7f-3efd-46c5-9a73-e307bc2df669
-description: "Summary: Provide an easy way for users of on-premises SharePoint Server to search for documents that are in OneDrive for Business in Office 365."
+description: "Provide an easy way for users of on-premises SharePoint Server to search for documents that are in OneDrive for Business in Office 365."
 ---
 
 # Set up Search of OneDrive for Business in Office 365 from SharePoint Server
 
- **Summary:** Provide an easy way for users of on-premises SharePoint Server to search for documents that are in OneDrive for Business in Office 365. 
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
   
 After you install Service Pack 1 for SharePoint Server, when your users click **OneDrive** or **Sites** on the navigation bar, you can redirect them to OneDrive for Business in Office 365 for professionals and small businesses. To learn how to do this, see [OBSOLETE Redirect users to Office 365 with OneDrive for Business](http://technet.microsoft.com/library/979fd7f8-1994-476c-a2cf-a7f126ca5fc6%28Office.14%29.aspx).
   

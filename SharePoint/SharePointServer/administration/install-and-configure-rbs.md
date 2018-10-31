@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 4cf30b48-f908-4774-920c-d2f2916f2c1b
-description: "Summary: Learn how use the FILESTREAM provider to enable Remote BLOB Storage (RBS) in a SharePoint Server 2016 and SharePoint 2013 farm."
+description: "Learn how use the FILESTREAM provider to enable Remote BLOB Storage (RBS) in a SharePoint Server farm."
 ---
 
 # Install and configure RBS with FILESTREAM in a SharePoint Server farm
 
- **Summary:** Learn how use the FILESTREAM provider to enable Remote BLOB Storage (RBS) in a SharePoint Server 2016 and SharePoint 2013 farm. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 SharePoint Server uses the RBS feature to store binary large objects (BLOBs) outside the content database. For more information about RBS, see [Overview of RBS in SharePoint Server](rbs-overview.md).
   

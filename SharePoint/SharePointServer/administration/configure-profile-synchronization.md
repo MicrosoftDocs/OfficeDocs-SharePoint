@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 144e5f6e-0c9c-4f01-9b1f-26190d527e85
-description: "Summary: Learn how to synchronize user and group profile information by using the SharePoint Server 2013 profile synchronization method."
+description: "Learn how to synchronize user and group profile information by using the SharePoint Server 2013 profile synchronization method."
 ---
 
 # Synchronize user and group profiles in SharePoint Server 2013
 
- **Summary:** Learn how to synchronize user and group profile information by using the SharePoint Server 2013 profile synchronization method. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 Configuring profile synchronization (or profile sync) is a process that involves many steps. This article divides the process into shorter phases, both so that you can see progress and to reduce the number of steps through which you have to backtrack if you make an error. There are four phases to configuring profile synchronization. Depending on your situation, you might not have to perform all of the phases. This article also includes Phase 0, which contains instructions for configuring the prerequisites that are required before you can configure profile synchronization.
   

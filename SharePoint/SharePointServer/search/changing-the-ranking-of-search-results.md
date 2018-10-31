@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 35f58247-a349-461b-b4d4-8963c3b98df6
-description: "Summary: Learn how to change the ranking of classic search results in SharePoint Server."
+description: "Learn how to change the ranking of classic search results in SharePoint Server."
 ---
 
 # Changing the ranking of classic search results in SharePoint Server
 
- **Summary:** Learn how to change the ranking of classic search results in SharePoint Server. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
   
  **Audience:** SharePoint Server and SharePoint Online search administrators. 
   

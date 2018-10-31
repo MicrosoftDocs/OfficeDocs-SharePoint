@@ -11,12 +11,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: acb2d589-6c19-4b6b-9cd1-5e334ba4f2cd
-description: "Summary: Learn how to remove a server from a SharePoint Servers 2016 or 2019 farm."
+description: "Learn how to remove a server from a SharePoint Server farm."
 ---
 
 # Remove a server from a farm in SharePoint Servers 2016 or 2019
 
- **Summary:** Learn how to remove a server from a SharePoint Servers 2016 or 2019 farm. 
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)] 
   
     
 ## Removing a server from a SharePoint farm

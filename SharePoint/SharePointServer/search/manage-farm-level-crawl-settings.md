@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: e27a812e-9ddd-434f-a32c-70c74d4319f8
-description: "Summary: Configure certain crawl settings at the farm level in SharePoint Server."
+description: "Configure certain crawl settings at the farm level in SharePoint Server."
 ---
 
 # Manage farm-level crawl settings in SharePoint Server
 
- **Summary:** Configure certain crawl settings at the farm level in SharePoint Server. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 You can perform the following procedures to configure certain crawl settings at the farm level:
   

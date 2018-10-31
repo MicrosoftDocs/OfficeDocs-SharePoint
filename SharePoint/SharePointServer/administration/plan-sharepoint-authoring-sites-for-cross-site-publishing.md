@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 47603b59-cf37-4778-803d-97c4ebd9b452
-description: "Summary: Learn how to plan authoring site collections for a SharePoint Server cross-site publishing solution."
+description: "Learn how to plan authoring site collections for a SharePoint Server cross-site publishing solution."
 ---
 
 # Plan authoring sites for cross-site publishing in SharePoint Server
 
- **Summary:** Learn how to plan authoring site collections for a SharePoint Server cross-site publishing solution. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 When you use cross-site publishing in SharePoint Server, you use one or more authoring site collections for authoring and storing content, and one or more publishing site collections to control the design of the site and show content. This article describes how to plan authoring sites for your cross-site publishing solution.
   

@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: f2d89390-aea4-4995-8b3f-b510c5d40247
-description: "Summary: Learn how to use Access Services 2010 to modify and publish an Access web database in SharePoint Server 2013 that was previously created in SharePoint Server 2010."
+description: "Learn how to use Access Services 2010 to modify and publish an Access web database in SharePoint Server 2013 that was previously created in SharePoint Server 2010."
 ---
 
 # Set up and configure Access Services 2010 for web databases in SharePoint Server 2013
 
- **Summary:** Learn how to use Access Services 2010 to modify and publish an Access web database in SharePoint Server 2013 that was previously created in SharePoint Server 2010. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
   
 Access Services 2010 is a service application that allows users to modify and publish in SharePoint 2013 an Access web database that was previously created in SharePoint Server 2010. 
   

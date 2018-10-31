@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 240ded25-3e64-4be4-84f3-346fda89827f
-description: "Summary: Learn how to change the way search results are displayed in classic search in SharePoint Server."
+description: "Learn how to change the way search results are displayed in classic search in SharePoint Server."
 ---
 
 # How to change the way search results are displayed in SharePoint Server
 
- **Summary:** Learn how to change the way search results are displayed in classic search in SharePoint Server. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 SharePoint Server and SharePoint Online include many default search features that help users find what they're looking for. But you might want your search results to look a certain way, for example, display information that's specific to your company or business.
   

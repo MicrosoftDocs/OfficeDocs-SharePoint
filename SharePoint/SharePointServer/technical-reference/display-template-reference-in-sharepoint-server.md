@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 48e3f884-88ab-4538-89fe-b476f1e53b11
 
-description: "Summary: Learn about the different display templates that are available in SharePoint Server 2013."
+description: "Learn about the different display templates that are available in SharePoint Server."
 ---
 
 # Display template reference in SharePoint Server
 
- **Summary:** Learn about the different display templates that are available in SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 ## Display templates for the Content Search Web Part
 

@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 918a570e-ce86-4ff7-857f-d08dbb35d08d
-description: "Summary: Visio Services supports connections with Excel workbooks, SharePoint lists, SQL Server databases, and OLE DB and ODBC data sources."
+description: "Visio Services supports connections with Excel workbooks, SharePoint lists, SQL Server databases, and OLE DB and ODBC data sources."
 ---
 
 # Data authentication for Visio Services in SharePoint Server
 
- **Summary:** Visio Services supports connections with Excel workbooks, SharePoint lists, SQL Server databases, and OLE DB and ODBC data sources. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 Data sources are categorized as internal or external as follows: 
   

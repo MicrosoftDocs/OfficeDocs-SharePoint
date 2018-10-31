@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 837761f9-0e18-4b42-8798-3776997a6c95
-description: "Summary: Understand high availability and disaster recovery concepts in SharePoint Server 2016 and SharePoint 2013 so you can choose the best strategy for your farm."
+description: "Understand high availability and disaster recovery concepts in SharePoint Server so you can choose the best strategy for your farm."
 ---
 
 # High availability and disaster recovery concepts in SharePoint Server
 
- **Summary:** Understand high availability and disaster recovery concepts in SharePoint Server 2016 and SharePoint 2013 so you can choose the best strategy for your farm. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 High availability and disaster recovery is the highest priority when you create a plan and system specifications for a SharePoint Server farm. Other aspects of the plan, such as high performance and capacity, are negated if farm servers are not highly available or a farm cannot be recovered.
   

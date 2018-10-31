@@ -14,12 +14,12 @@ ms.collection:
 - Strat_SP_server
 ms.custom: 
 ms.assetid: 94a0dfe4-66e8-4503-9cc6-cfb438f4fbc8
-description: "Summary: Learn about supported high availability and disaster recovery options for each SharePoint Server 2016 and SharePoint 2013 system and service application database."
+description: "Learn about supported high availability and disaster recovery options for each SharePoint Server system and service application database."
 ---
 
 # Supported high availability and disaster recovery options for SharePoint databases
 
- **Summary:** Learn about supported high availability and disaster recovery options for each SharePoint Server 2016 and SharePoint 2013 system and service application database. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 This article describes the supported high availability and disaster recovery options for SharePoint Server databases. For detailed information about these databases, such as size and supported backup and recovery tools, see [Database types and descriptions in SharePoint Server](../technical-reference/database-types-and-descriptions.md). 
   

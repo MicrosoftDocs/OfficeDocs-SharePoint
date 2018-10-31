@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 335af336-da96-4b50-9901-4c4ef151c790
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleVerify that OAuth is configured correctly for the Machine Translation Service application, for SharePoint Server 2016 and SharePoint Server 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: Verify that OAuth is configured correctly for the Machine Translation Service application, for SharePoint Server."
 ---
 
 # Verify that OAuth is configured correctly for the Machine Translation Service application (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "Verify that OAuth is configured correctly for the Machine Translation Service application", for SharePoint Server 2016 and SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
  **Rule Name:** Verify that OAuth is configured correctly for the Machine Translation Service application. 
   

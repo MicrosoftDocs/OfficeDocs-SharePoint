@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: ef4c6a39-24f8-469e-9b14-0abfadaa6c8b
-description: "Summary: Learn about how to use least-privileged administration to configure and maintain a SharePoint 2013 and SharePoint Server 2016 farm and enhance security."
+description: "Learn about how to use least-privileged administration to configure and maintain a SharePoint Server farm and enhance security."
 ---
 
 # Plan for least-privileged administration in SharePoint Server
 
- **Summary:** Learn about how to use least-privileged administration to configure and maintain a SharePoint 2013 and SharePoint Server 2016 farm and enhance security. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 The concept of least-privileged administration is to assign users the minimum permissions that are required for users to complete authorized tasks. The goal of least-privileged administration is to configure and help maintain secure control of an environment. The result is that each account under which a service runs is granted access to only the resources that are absolutely necessary.
   

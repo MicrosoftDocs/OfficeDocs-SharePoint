@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 95e12c80-7a86-4655-ba11-a05b9587fee0
-description: "Summary: Configure PerformancePoint Services to use a Secure Store target application for external data refresh."
+description: "Configure PerformancePoint Services to use a Secure Store target application for external data refresh."
 ---
 
 # Configure Secure Store for use with PerformancePoint Services
 
- **Summary:** Configure PerformancePoint Services to use a Secure Store target application for external data refresh. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 PerformancePoint Services supports two methods of using Secure Store Service to connect to external data:
   

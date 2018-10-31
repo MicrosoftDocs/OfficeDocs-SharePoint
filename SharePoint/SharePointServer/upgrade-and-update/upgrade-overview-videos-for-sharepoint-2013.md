@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 3a4f69c8-8b19-488c-92e8-9a80e8f37d8b
-description: "Summary: View this series of short overview videos to understand how upgrade works for SharePoint 2013."
+description: "View this series of short overview videos to understand how upgrade works for SharePoint 2013."
 ---
 
 # Upgrade overview videos for SharePoint 2013
 
- **Summary:** View this series of short overview videos to understand how upgrade works for SharePoint 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 The following six videos (each video is less than five minutes) can help you understand how to upgrade to SharePoint 2013.
   

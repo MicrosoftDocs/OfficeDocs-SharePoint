@@ -21,6 +21,8 @@ description: "Learn how to configure cloud hybrid search for SharePoint Server b
 
 # Configure cloud hybrid search - roadmap
 
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+
 Learn how to configure [cloud hybrid search](https://support.office.com/article/af830951-8ddf-48b2-8340-179c1cc4d291) for SharePoint Server by setting up a cloud Search service application in your SharePoint Server environment and connecting it to your search index in Office 365. 
   
 This article describes how you set up cloud hybrid search in an environment with SharePoint Server and SharePoint Online for Office 365 for enterprises. With the cloud hybrid search solution, you add crawled metadata from all your content, including on-premises content, to your search index in Office 365. When users search in Office 365, they get search results from both on-premises and from Office 365 content.

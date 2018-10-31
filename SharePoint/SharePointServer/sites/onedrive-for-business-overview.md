@@ -14,12 +14,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 56a95840-704c-4aa0-9d37-078e7ab4f83c
-description: "Summary: Learn about OneDrive for Business in SharePoint Server."
+description: "Learn about OneDrive for Business in SharePoint Server."
 ---
 
 # Overview of OneDrive for Business in SharePoint Server
 
- **Summary:** Learn about OneDrive for Business in SharePoint Server. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 > [!NOTE]
 > While OneDrive for Business is used in both SharePoint Server on-premises and Office 365 environments, this article describes how it works in SharePoint Server. For more information about how it works in an Office 365 environment, see [What is OneDrive for Business?](https://go.microsoft.com/fwlink/?LinkId=747076). 

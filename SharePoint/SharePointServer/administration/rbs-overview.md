@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: d359cdaa-0ebd-4c59-8fc5-002cba241b18
-description: "Summary: Learn about how to use Remote BLOB Storage (RBS) in a SharePoint Server 2016 and SharePoint 2013 farm."
+description: "Learn about how to use Remote BLOB Storage (RBS) in a SharePoint Server farm."
 ---
 
 # Overview of RBS in SharePoint Server
 
- **Summary:** Learn about how to use Remote BLOB Storage (RBS) in a SharePoint Server 2016 and SharePoint 2013 farm. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 This article describes how to use SharePoint Server together with Remote BLOB Storage (RBS) and SQL Server to optimize database storage resources.
   

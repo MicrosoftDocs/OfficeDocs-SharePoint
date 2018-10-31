@@ -9,12 +9,12 @@ ms.topic: interactive-tutorial
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: e283aaec-e962-46b4-92e4-b8a825521641
-description: "Summary: Learn about profile synchronization, also known as profile sync,in SharePoint Server 2016."
+description: "Learn about profile synchronization, also known as profile sync,in SharePoint Server 2016."
 ---
 
 # Overview of profile synchronization in SharePoint Server 2016
 
- **Summary:** Learn about profile synchronization, also known as "profile sync," in SharePoint Server 2016. 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)] 
   
 A user profile is a collection of properties that describes a SharePoint user. Features such as My Sites and People Search use user profiles to provide a rich, personalized experience for the users in your organization. You can create user profiles by importing data from directory services, such as Active Directory Domain Services (AD DS). You can augment user profiles by importing data from business systems, such as SAP or SQL Server. The process of importing profile data from external systems and writing data back to these systems is called profile synchronization.
   

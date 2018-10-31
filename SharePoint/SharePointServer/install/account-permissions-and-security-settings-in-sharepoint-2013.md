@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 1c52404b-9221-4486-a74b-f7e1330c21df
-description: "Summary: Learn what permissions and security settings to use with a deployment of SharePoint 2013."
+description: "Learn what permissions and security settings to use with a deployment of SharePoint."
 ---
 
 # Account permissions and security settings in SharePoint 2013
 
- **Summary:** Learn what permissions and security settings to use with a deployment of SharePoint 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
   
 This article describes SharePoint administrative and services account permissions for the following areas: Microsoft SQL Server, the file system, file shares, and registry entries.
   

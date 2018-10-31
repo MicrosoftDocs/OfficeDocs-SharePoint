@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 46e0f7e7-cd69-41a5-9988-bd0e7db564d9
-description: "Summary: Learn how to publish a service application in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to publish a service application in SharePoint Server."
 ---
 
 # Publish service applications in SharePoint Server
 
- **Summary:** Learn how to publish a service application in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 In SharePoint Server, some service applications can be published across farms and thereby be made available over remote connections.
   

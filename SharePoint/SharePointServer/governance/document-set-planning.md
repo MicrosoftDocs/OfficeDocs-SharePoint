@@ -9,12 +9,12 @@ ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: f3c0fda5-7a36-4c5d-801f-8a3baccb6d6a
-description: "Summary: Learn about the Document Set feature in SharePoint Server, how to administer Document Sets, and plan for Document Set content types."
+description: "Learn about the Document Set feature in SharePoint Server, how to administer Document Sets, and plan for Document Set content types."
 ---
 
 # Plan document sets in SharePoint Server 2013
 
- **Summary:** Learn about the Document Set feature in SharePoint Server, how to administer Document Sets, and plan for Document Set content types. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 This article describes Documents Sets and provides guidance on how you can integrate them with your SharePoint Server document management solution.
   

@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: c5d39627-dfa6-4122-8571-a38bdd3ab4d9
-description: "Summary: How to manage lock status for a site collection in SharePoint Server 2016 and SharePoint 2013."
+description: "How to manage lock status for a site collection in SharePoint Server."
 ---
 
 # Manage the lock status for site collections in SharePoint Server
 
- **Summary:** How to manage lock status for a site collection in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 You use the lock status of a site collection to control the actions allowed on a site collection.
   

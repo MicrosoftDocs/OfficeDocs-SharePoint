@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 33012208-8ff7-4816-993a-bd38b6e82fec
-description: "Summary: Learn how to upgrade My Sites in SharePoint Server 2013."
+description: "Learn how to upgrade My Sites in SharePoint Server 2013."
 ---
 
 # Upgrade My Sites to SharePoint Server 2013
 
- **Summary:** Learn how to upgrade My Sites in SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 ## 
 

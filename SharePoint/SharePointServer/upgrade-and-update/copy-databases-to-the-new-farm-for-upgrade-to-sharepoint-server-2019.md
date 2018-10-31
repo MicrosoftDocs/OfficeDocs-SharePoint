@@ -13,12 +13,12 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 ms.assetid: 93327a06-ed2c-43f2-a40a-d7257f61f915
 
-description: "Summary: How to copy SharePoint Server 2016 content and service databases to a SharePoint Server 2019 farm."
+description: "How to copy SharePoint Server 2016 content and service databases to a SharePoint Server 2019 farm."
 ---
 
 # Copy databases to the new farm for upgrade to SharePoint Server 2019
 
- **Summary:** How to copy SharePoint Server 2016 content and service databases to a SharePoint Server 2019 farm. 
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)] 
   
 When you upgrade from SharePoint Server 2016 to SharePoint Server 2019, you must use a database attach upgrade, which means that you upgrade only the content for your environment and not the configuration settings. After you have configured a new SharePoint Server 2019 environment, you can copy the content and service application databases from the SharePoint Server 2016 environment to the SharePoint Server 2019 environment. You use a backup and restore process to copy the database, and you can also choose to set the databases to read-only in the SharePoint Server 2016 environment so that users can continue to access their information, but not change it. This article contains the steps that you take to copy the databases.
   

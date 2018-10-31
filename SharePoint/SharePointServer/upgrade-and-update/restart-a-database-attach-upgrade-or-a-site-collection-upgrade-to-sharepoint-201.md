@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 251ab47f-13ed-48a0-b05c-d4b12c6bc5f1
-description: "Summary: Learn how to restart a database-attach upgrade or a site collection upgrade to SharePoint 2013."
+description: "Learn how to restart a database-attach upgrade or a site collection upgrade to SharePoint 2013."
 ---
 
 # Restart a database-attach upgrade or a site collection upgrade to SharePoint 2013
 
- **Summary:** Learn how to restart a database-attach upgrade or a site collection upgrade to SharePoint 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 In some cases, you might have to restart upgrade to finish a database-attach upgrade from SharePoint 2010 Products to SharePoint 2013. For example: if a template or language pack is missing from the environment, or if you lose the connection to SQL Server, you will have to resolve the issue and then restart upgrade. You might also need to retry or restart a site collection upgrade if it was unable to complete.
   

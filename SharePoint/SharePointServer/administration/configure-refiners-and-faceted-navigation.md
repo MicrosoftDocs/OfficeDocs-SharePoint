@@ -10,13 +10,13 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: b12bff2c-0486-41e2-be81-d0a8122ed1f9
-description: "Summary: Learn how to map a crawled property to a refinable managed property, enable a managed property as a refiner, and configure refiners for faceted navigation."
+description: "Learn how to map a crawled property to a refinable managed property, enable a managed property as a refiner, and configure refiners for faceted navigation."
 ---
 
 # Configure refiners and faceted navigation in SharePoint Server
 
- **Summary:** Learn how to map a crawled property to a refinable managed property, enable a managed property as a refiner, and configure refiners for faceted navigation. 
-  
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+
 You can add refiners to a page to help users quickly browse to specific content. Refiners are based on managed properties from the search index. To use managed properties as refiners, the managed properties must be enabled as refiners, or crawled properties must be mapped to managed properties that are enabled as refiners.
   
 Faceted navigation is the process of browsing for content by filtering on refiners that are tied to category pages. Faceted navigation lets you specify different refiners for category pages, even when the underlying page displaying the categories is the same. For information about category pages, see "Category pages and catalog item pages" in [Overview of cross-site publishing in SharePoint Server](overview-of-cross-site-publishing.md).

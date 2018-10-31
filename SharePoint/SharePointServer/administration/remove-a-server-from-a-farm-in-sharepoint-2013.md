@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 8a20a8f3-85bb-48be-b356-5c065623e205
-description: "Summary: Learn how to remove a web server, application server, or database server from a SharePoint 2013 farm."
+description: "Learn how to remove a web server, application server, or database server from a SharePoint 2013 farm."
 ---
 
 # Remove a server from a farm in SharePoint 2013
 
- **Summary:** Learn how to remove a web server, application server, or database server from a SharePoint 2013 farm. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
   
 There are three types of servers in a server farm running SharePoint 2013: web servers, application servers, and database servers. The method that you use to remove a server from a SharePoint farm varies depending on the type of server that you are removing from the farm.
   

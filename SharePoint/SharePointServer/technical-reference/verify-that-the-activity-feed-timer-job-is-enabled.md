@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: d04ccc23-89b1-4927-9607-2a1073d67580
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleVerify that the Activity Feed Timer Job is enabled, for SharePoint Server 2016 and SharePoint Server 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: Verify that the Activity Feed Timer Job is enabled, for SharePoint Server."
 ---
 
 # Verify that the Activity Feed Timer Job is enabled (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "Verify that the Activity Feed Timer Job is enabled", for SharePoint Server 2016 and SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
  **Rule Name:** Verify that the Activity Feed Timer Job is enabled. 
   

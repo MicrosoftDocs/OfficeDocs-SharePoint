@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: cccccea9-fda2-4640-ad91-a1d39bdcdfc8
-description: "Summary: Learn how to troubleshoot problems in SharePoint Server 2016 and SharePoint 2013 using SharePoint Health Analyzer rules."
+description: "Learn how to troubleshoot problems in SharePoint Server using SharePoint Health Analyzer rules."
 ---
 
 # SharePoint Health Analyzer rules reference for SharePoint Server 2016
 
- **Summary:** Learn how to troubleshoot problems in SharePoint Server 2016 and SharePoint 2013 using SharePoint Health Analyzer rules. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 The Health Analyzer rules in this section are arranged by categories, as they appear in the Health Analyzer Rule Definitions page in the SharePoint Central Administration website.
   

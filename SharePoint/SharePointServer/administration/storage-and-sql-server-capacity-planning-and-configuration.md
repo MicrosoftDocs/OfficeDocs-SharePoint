@@ -14,12 +14,12 @@ ms.collection:
 - Strat_SP_server
 ms.custom: 
 ms.assetid: a96075c6-d315-40a8-a739-49b91c61978f
-description: "Summary: Learn how to plan and configure the storage and database tier for SQL Server in SharePoint Server 2016 and SharePoint Server 2013."
+description: "Learn how to plan and configure the storage and database tier for SQL Server in SharePoint Server."
 ---
 
 # Storage and SQL Server capacity planning and configuration (SharePoint Server)
 
- **Summary:** Learn how to plan and configure the storage and database tier for SQL Server in SharePoint Server 2016 and SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 The capacity planning information that we provide contains guidelines to help you plan and configure the storage and SQL Server database tier in a SharePoint Server environment. This information is based on testing performed at Microsoft on live properties. However, your results may vary based on the equipment you use and the features and functionality that you implement for your sites. 
   

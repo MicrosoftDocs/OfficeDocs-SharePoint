@@ -11,12 +11,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 0bcc4cd8-68cf-45b5-a880-d56fdaabe284
-description: "Summary: Learn about PerformancePoint Services in SharePoint Server 2016."
+description: "Learn about PerformancePoint Services in SharePoint Server."
 ---
 
 # PerformancePoint Services in SharePoint Server overview
 
- **Summary:** Learn about PerformancePoint Services in SharePoint Server 2016. 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]
   
 PerformancePoint Services in SharePoint Server is a performance management service that you can use to monitor and analyze your business. By providing flexible, easy-to-use tools for building dashboards, scorecards, and key performance indicators (KPIs), PerformancePoint Services can help individuals across an organization make informed business decisions that align with companywide objectives and strategy. 
   

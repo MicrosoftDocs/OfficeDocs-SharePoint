@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 89377b22-b1de-4f11-9a16-e54783c046fc
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleProduct / patch installation or server upgrade requiredfor SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: Product / patch installation or server upgrade required,,,for SharePoint Server."
 ---
 
 # Product / patch installation or server upgrade required (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "Product / patch installation or server upgrade required" for SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
  **Rule Name:** Product / patch installation or server upgrade required 
   

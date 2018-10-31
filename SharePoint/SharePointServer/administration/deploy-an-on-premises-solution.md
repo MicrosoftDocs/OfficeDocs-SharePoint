@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 4692ebba-90eb-4d72-ac12-e90c4d4ee7ae
-description: "Summary: How to install Business Connectivity Services (BCS) to access an on-premises SQL Server external data source, surface external data in SharePoint Server and SharePoint Foundation lists, and take external data offline in Outlook."
+description: "How to install Business Connectivity Services (BCS) to access an on-premises SQL Server external data source, surface external data in SharePoint Server and SharePoint Foundation lists, and take external data offline in Outlook."
 ---
 
 # Deploy a Business Connectivity Services on-premises solution in SharePoint Server
 
- **Summary:** How to install Business Connectivity Services (BCS) to access an on-premises SQL Server external data source, surface external data in SharePoint Server and SharePoint Foundation lists, and take external data offline in Outlook. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 The following scenario shows you how to create a no-code business solution in Microsoft Business Connectivity Services (BCS) by using the SQL Server AdventureWorks sample database. You learn how to:
   

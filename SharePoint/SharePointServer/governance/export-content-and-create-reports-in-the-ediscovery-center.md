@@ -15,6 +15,8 @@ description: "You export content from a case when you are ready to deliver it to
 
 # Export content and create reports in the eDiscovery Center
 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+
 You export content from a case when you are ready to deliver it to an authority or want to work on it with another legal program. You can also create reports to identify the contents of and any search indexing issues with the export. The export includes a load file based on the Electronic Discovery Reference Model standard.
   
 Before you export content, the case should already have content sources, such as Web sites, and queries. Also, the computer you use to export content has to meet the following system requirements:

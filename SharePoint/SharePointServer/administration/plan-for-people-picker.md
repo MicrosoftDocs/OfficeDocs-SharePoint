@@ -9,12 +9,12 @@ ms.topic: interactive-tutorial
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 2093c146-c880-48c6-9526-24cdf80969ba
-description: "Summary: Learn how to plan for the People Picker web control in SharePoint Server 2013."
+description: "Learn how to plan for the People Picker web control in SharePoint Server."
 ---
 
 # Plan for People Picker in SharePoint 2013
 
- **Summary:** Learn how to plan for the People Picker web control in SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 You use the People Picker control to find and select people, groups, and claims when a site, list, or library owner assigns permissions in SharePoint Server 2013. This article describes how to plan for People Picker. For information about how to configure People Picker, see [Configure People Picker in SharePoint Server](http://technet.microsoft.com/library/8ad598cc-1f86-4c59-af28-78f66e49fe11%28Office.14%29.aspx).
   

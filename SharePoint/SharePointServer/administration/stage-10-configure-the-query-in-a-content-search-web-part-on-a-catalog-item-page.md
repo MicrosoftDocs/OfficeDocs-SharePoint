@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 51f6cf32-86eb-459c-9d1c-bec7fd15e348
-description: "Summary: Learn how to configure the query in a Content Search Web Part on a catalog item page in SharePoint Server 2016."
+description: "Learn how to configure the query in a Content Search Web Part on a catalog item page in SharePoint Server 2016."
 ---
 
 # Stage 10: Configure the query in a Content Search Web Part on a catalog item page in SharePoint Server
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
 
- **Summary:** Learn how to configure the query in a Content Search Web Part on a catalog item page in SharePoint Server 2016. 
   
 > [!NOTE]
 > Most of the features described in this series are available only for private sites collections in SharePoint Online. 

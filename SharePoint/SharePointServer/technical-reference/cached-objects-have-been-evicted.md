@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: bdb3b575-7c20-490d-9a28-e7108edabad5
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleCached objects have been evicted."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: Cached objects have been evicted."
 ---
 
 # Cached objects have been evicted (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "Cached objects have been evicted." 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
  **Rule Name:** Cached objects have been evicted 
   

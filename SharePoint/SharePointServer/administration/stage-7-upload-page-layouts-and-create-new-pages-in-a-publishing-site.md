@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 5310987c-4499-4092-ac0c-fc4c1bb1a58d
-description: "Summary: Learn how to upload page layouts and create new pages in a publishing site in SharePoint Server 2016."
+description: "Learn how to upload page layouts and create new pages in a publishing site in SharePoint Server 2016."
 ---
 
 # Stage 7: Upload page layouts and create new pages in a publishing site in SharePoint Server
 
- **Summary:** Learn how to upload page layouts and create new pages in a publishing site in SharePoint Server 2016. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 > [!NOTE]
 > Most of the features described in this series are available only for private sites collections in SharePoint Online. 

@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: e8baee59-a84d-4f56-bdeb-45de7d522b68
-description: "Summary: Learn how to integrate a Yammer network together with the SharePoint Server environment where you already use SharePoint social features."
+description: "Learn how to integrate a Yammer network together with the SharePoint Server environment where you already use SharePoint social features."
 ---
 
 # Integrate a Yammer network into SharePoint Server with social features
 
- **Summary:** Learn how to integrate a Yammer network together with the SharePoint Server environment where you already use SharePoint social features. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 This scenario describes the prerequisites and recommended steps to integrate a Yammer network together with the SharePoint Server environment where you already use SharePoint social features.
   

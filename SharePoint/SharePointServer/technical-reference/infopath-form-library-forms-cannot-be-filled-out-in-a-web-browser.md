@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 7ebd1422-4f3d-44b9-8df6-75274c65b7e5
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleInfoPath form library forms cannot be filled out in a Web browser, in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: InfoPath form library forms cannot be filled out in a Web browser, for SharePoint Server."
 ---
 
 # InfoPath form library forms cannot be filled out in a Web browser (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "InfoPath form library forms cannot be filled out in a Web browser", in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
  **Rule Name:** InfoPath form library forms cannot be filled out in a Web browser 
   

@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 5e7be5ff-5216-406b-9bfe-f9ff1f9651aa
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleMore Cache hosts are running in this deployment than are registered with SharePoint, in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: More Cache hosts are running in this deployment than are registered with SharePoint, for SharePoint Server."
 ---
 
 # More cache hosts are running in this deployment than are registered with SharePoint (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "More Cache hosts are running in this deployment than are registered with SharePoint", in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
  **Rule Name:** More Cache hosts are running in this deployment than are registered with SharePoint. 
   

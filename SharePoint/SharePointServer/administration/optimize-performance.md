@@ -15,6 +15,8 @@ description: "Learn about the techniques and tools available for optimizing Shar
 
 # Optimize performance for SharePoint Server 2013
 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+
 Learn about the techniques and tools available for optimizing SharePoint Server 2013 performance.
   
 This article provides information about techniques and tools for optimizing SharePoint Server 2013 performance.

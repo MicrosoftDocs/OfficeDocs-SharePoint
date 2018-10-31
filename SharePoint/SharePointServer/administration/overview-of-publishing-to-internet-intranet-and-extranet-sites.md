@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: a3ad4dea-36b2-48df-b699-8fd9725df53c
-description: "Summary: Learn about SharePoint Server publishing, the kinds of SharePoint Server publishing sites, and the publishing methods available for SharePoint Server sites."
+description: "Learn about SharePoint Server publishing, the kinds of SharePoint Server publishing sites, and the publishing methods available for SharePoint Server sites."
 ---
 
 # Overview of publishing to Internet, intranet, and extranet sites in SharePoint Server
 
- **Summary:** Learn about SharePoint Server publishing, the kinds of SharePoint Server publishing sites, and the publishing methods available for SharePoint Server sites. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 You can use the publishing features in SharePoint Server to create branded Internet, intranet, and extranet sites. However, some publishing features are available only in SharePoint Server 2016.
   

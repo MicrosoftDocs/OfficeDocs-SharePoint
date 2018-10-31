@@ -13,12 +13,12 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 ms.assetid: 9d70eb7f-9e84-4960-87a1-fce3c46114f1
 
-description: "Summary: Upgrade service applications (Business Connectivity Services, Managed Metadata, Secure Store, User Profiles, Search) to SharePoint 2013."
+description: "Upgrade service applications (Business Connectivity Services, Managed Metadata, Secure Store, User Profiles, Search) to SharePoint 2013."
 ---
 
 # Upgrade service applications to SharePoint 2013
 
- **Summary:** Upgrade service applications (Business Connectivity Services, Managed Metadata, Secure Store, User Profiles, Search) to SharePoint 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 When you upgrade from SharePoint 2010 Products to SharePoint 2013, you must use a database attach upgrade, which means that you upgrade only the content for your environment and not the configuration settings. After you have configured the SharePoint 2013 environment, and copied the content and service application databases, you can upgrade the service applications to SharePoint 2013. This article contains the steps that you take to upgrade the service applications.
   

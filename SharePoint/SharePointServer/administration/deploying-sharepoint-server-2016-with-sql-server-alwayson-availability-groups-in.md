@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 ms.assetid: af7cf3e7-94b1-4a5d-8cb9-80c5a0b397f2
-description: "Summary: Get an overview of deploying SharePoint Server 2016 in Microsoft Azure with links to each phase of the deployment."
+description: "Get an overview of deploying SharePoint Server in Microsoft Azure with links to each phase of the deployment."
 ---
 
 # Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure
 
- **Summary:** Get an overview of deploying SharePoint Server 2016 in Microsoft Azure with links to each phase of the deployment. 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]
   
 Step through the deployment an intranet-only, high availability SharePoint Server 2016 farm in Azure with these virtual machines:
   

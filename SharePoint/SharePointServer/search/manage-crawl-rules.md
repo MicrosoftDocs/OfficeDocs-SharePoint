@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 984e2448-e53a-4b4e-bd4a-4340213218a2
-description: "Summary: Learn how to specify a content access account, create crawl rules to include or exclude directories, and prioritize crawl rules."
+description: "Learn how to specify a content access account, create crawl rules to include or exclude directories, and prioritize crawl rules."
 ---
 
 # Manage crawl rules in SharePoint Server
 
- **Summary:** Learn how to specify a content access account, create crawl rules to include or exclude directories, and prioritize crawl rules. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 You can add a crawl rule to include or exclude specific paths when you crawl content. When you include a path, you can provide alternative account credentials to crawl it. In addition to creating or editing crawl rules, you can test, delete, or reorder existing crawl rules.
   

@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: cd646bb3-28c6-4040-866c-7d7936837ade
-description: "Summary: Learn how to configure the Portal Super User and Portal Super Reader accounts that are used by the object cache in SharePoint Server 2016 and SharePoint Server 2013."
+description: "Learn how to configure the Portal Super User and Portal Super Reader accounts that are used by the object cache in SharePoint Server."
 ---
 
 # Configure object cache user accounts in SharePoint Server
 
- **Summary:** Learn how to configure the Portal Super User and Portal Super Reader accounts that are used by the object cache in SharePoint Server 2016 and SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 The object cache stores properties about items in SharePoint Server. Items in this cache are used by the publishing feature when it renders web pages. The goals of the object cache are to reduce the load on the computer on which SQL Server is running, and to improve request latency and throughput. The object cache makes its queries as one of two out-of-box user accounts: the Portal Super User and the Portal Super Reader. These user accounts must be properly configured to ensure that the object cache works correctly. The Portal Super User account must be an account that has Full Control access to the web application. The Portal Super Reader account must be an account that has Full Read access to the web application.
   

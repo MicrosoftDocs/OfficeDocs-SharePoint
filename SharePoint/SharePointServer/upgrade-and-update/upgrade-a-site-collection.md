@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 78e2f208-e4b9-49cd-a036-89809fa24baf
-description: "Summary: Learn how site collection administrators can upgrade their sites to SharePoint Server 2016 and then review site collections for issues."
+description: "Learn how site collection administrators can upgrade their sites to SharePoint Server 2016 and then review site collections for issues."
 ---
 
 # Upgrade a site collection to SharePoint Server 2016
 
- **Summary:** Learn how site collection administrators can upgrade their sites to SharePoint Server 2016 and then review site collections for issues. 
+
   
 In SharePoint Server 2016 the way site collection upgrades are performed has changed. After a server farm administrator has upgraded the databases, site collections are automatically upgraded.
   

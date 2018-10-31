@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 73cfd7b3-be90-480a-b415-039fa97d9b89
-description: "Summary: Learn how to enable or disable search alerts."
+description: "Learn how to enable or disable search alerts."
 ---
 
 # Enable search alerts in SharePoint Server
 
- **Summary:** Learn how to enable or disable search alerts. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 Search alerts allow end-users to receive e-mail notification when specified search query results are changed or updated. Search alerts should be enabled when you want allow end-users to create alerts for search queries. Search alerts may be configured on the search query page when a search query is completed and results are displayed. Search alerts are created and configured per-user and are only configurable and viewable by the user who creates them. Search alerts are enabled by default. Use this procedure to enable or disable search alerts.
   

@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 4fcd074b-32b1-49b3-9910-5bb174894603
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleThe Visio Graphics Service has a minimum cache age setting that may cause a security issuefor SharePoint Server 2016 and SharePoint Server 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: The Visio Graphics Service has a minimum cache age setting that may cause a security issue, for SharePoint Server."
 ---
 
 # The Visio Graphics Service has a minimum cache age setting that may cause a security issue ((SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "The Visio Graphics Service has a minimum cache age setting that may cause a security issue" for SharePoint Server 2016 and SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
  **Rule Name:** The Visio Graphics Service has a minimum cache age setting that may cause a security issue 
   

@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 57d52c9e-5069-4bcf-87e3-24482198a462
-description: "Summary: Site owners can add apps for SharePoint to SharePoint sites so that they and other users of the site can use the app."
+description: "Site owners can add apps for SharePoint to SharePoint sites so that they and other users of the site can use the app."
 ---
 
 # Add apps for SharePoint to a SharePoint site
 
- **Summary:** Site owners can add apps for SharePoint to SharePoint sites so that they and other users of the site can use the app. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 Site owners can add apps for SharePoint from the SharePoint Store or an App Catalog to their sites. Adding an app installs an instance of that app to the site. This article covers how to add apps to your sites.
   

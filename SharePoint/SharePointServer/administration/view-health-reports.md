@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 9ff8ab96-6028-4f6a-8cc2-2ebe7eb19413
-description: "Summary: View SharePoint Server 2016 or SharePoint Server 2013 health reports from the SharePoint Central Administration website."
+description: "View SharePoint Server health reports from the SharePoint Central Administration website."
 ---
 
 # View health reports in SharePoint Server
 
- **Summary:** View SharePoint Server 2016 or SharePoint Server 2013 health reports from the SharePoint Central Administration website. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 Health reports are pre-built reports in SharePoint Server that use usage data to analyze various aspects of sites and site collections such as slowest pages and top active users.
   

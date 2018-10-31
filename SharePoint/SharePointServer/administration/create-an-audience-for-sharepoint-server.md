@@ -17,6 +17,8 @@ description: "Learn how to use a Microsoft PowerShell script to create an audien
 
 # Create an audience for SharePoint Server
 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+
 Learn how to use a Microsoft PowerShell script to create an audience.
   
 ## Create an audience by using a Microsoft PowerShell script

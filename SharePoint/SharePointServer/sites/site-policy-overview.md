@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 3ee1591b-6908-499f-9a39-e19bcfbec8a4
-description: "Summary: Learn about SharePoint Server 2016 and SharePoint 2013 site closure and deletion policies and how they apply to SharePoint governance and self-service site creation."
+description: "Learn about SharePoint Server site closure and deletion policies and how they apply to SharePoint governance and self-service site creation."
 ---
 
 # Overview of site policies in SharePoint Server
 
- **Summary:** Learn about SharePoint Server 2016 and SharePoint 2013 site closure and deletion policies and how they apply to SharePoint governance and self-service site creation. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 Even with good governance, SharePoint sites can multiply and quickly grow out of control. Sites are created as they are needed, but sites are rarely deleted. Sites that are no longer needed but aren't deleted, require storage space and they also might be unwanted for compliance reasons.
   

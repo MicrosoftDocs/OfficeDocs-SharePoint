@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: d1c43543-2363-4762-882f-13f06295d0d5
-description: "Summary: Learn how to implement best practices for SQL Server in a SharePoint Server 2016 and SharePoint Server 2013 farm."
+description: "Learn how to implement best practices for SQL Server in a SharePoint Server farm."
 ---
 
 # Best practices for SQL Server in a SharePoint Server farm
 
- **Summary:** Learn how to implement best practices for SQL Server in a SharePoint Server 2016 and SharePoint Server 2013 farm. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 When you configure and maintain SharePoint Server 2016 relational databases on SQL Server 2014 with Service Pack 1 (SP1) or SQL Server 2016, you have to choose options that promote performance and security. Likewise, you have to choose options that promote performance and security when you configure and maintain SharePoint Server 2013 relational databases on SQL Server 2008 R2 with Service Pack 1 (SP1), SQL Server 2012, and SQL Server 2014.
   

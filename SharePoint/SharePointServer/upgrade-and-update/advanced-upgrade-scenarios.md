@@ -13,12 +13,12 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 ms.assetid: d91c20a9-0ea3-4bf5-92ee-4e90e6affcac
 
-description: "Summary: Learn how to upgrade to SharePoint 2013 in advanced scenarios, such as from FAST Search Server, or when using content type syndication."
+description: "Learn how to upgrade to SharePoint in advanced scenarios, such as from FAST Search Server, or when using content type syndication."
 ---
 
 # Advanced upgrade scenarios for SharePoint 2013
 
- **Summary:** Learn how to upgrade to SharePoint 2013 in advanced scenarios, such as from FAST Search Server, or when using content type syndication. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 The following downloadable resources, articles, video recordings, and related resources provide information about how to upgrade to SharePoint 2013 in advanced scenarios.
   

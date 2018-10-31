@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 9ed8159f-9501-4ef3-8c84-5d775a1e6223
-description: "Summary: Add, configure, or delete an Excel Services trusted file location in SharePoint Server 2013."
+description: "Add, configure, or delete an Excel Services trusted file location in SharePoint Server 2013."
 ---
 
 # Manage Excel Services trusted file locations (SharePoint Server 2013)
 
- **Summary:** Add, configure, or delete an Excel Services trusted file location in SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]. 
   
 A trusted file location is a SharePoint Server 2013 location, network file share, or Web folder address that the administrator has explicitly enabled workbooks to be loaded from. Excel Services only loads workbooks from trusted file locations.
   

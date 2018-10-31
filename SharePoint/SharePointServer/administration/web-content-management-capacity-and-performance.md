@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: d819b0d0-aa83-4e40-82d8-7a32195cc669
-description: "Summary: Learn how to determine the number and types of computers that you need to publish content and manage web content in SharePoint Server 2013."
+description: "Learn how to determine the number and types of computers that you need to publish content and manage web content in SharePoint Server."
 ---
 
 # Estimate capacity and performance for Web Content Management (SharePoint Server 2013)
 
- **Summary:** Learn how to determine the number and types of computers that you need to publish content and manage web content in SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 Enterprises often use SharePoint Server 2013 to publish content that anonymous users access on an Internet site or that authenticated users access on an intranet site. This article contains capacity and performance data to help plan the number of computers to use and the types of computers that are required to publish content and manage web content in SharePoint Server 2013.
   

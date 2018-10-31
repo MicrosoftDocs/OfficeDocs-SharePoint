@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 59c0540e-1238-4138-b98d-0d74ca59b9db
-description: "Summary: Learn how to back up Search service applications in SharePoint Server 2016 and SharePoint Server 2013."
+description: "Learn how to back up Search service applications in SharePoint Server."
 ---
 
 # Back up Search service applications in SharePoint Server
 
- **Summary:** Learn how to back up Search service applications in SharePoint Server 2016 and SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 You can back up a Search service application in a farm by using the SharePoint Central Administration website, Microsoft PowerShell, or SQL Server tools. Which backup tool you use depends on what kind of environment you have deployed, what your backup schedule requires, and what service level agreements you have made with your organization.
   

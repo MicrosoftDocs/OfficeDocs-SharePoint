@@ -13,12 +13,12 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 ms.assetid: 222df161-3066-4246-9851-1d5473fbae28
 
-description: "Summary: Find resources about how to plan to upgrade from SharePoint 2010 Products to SharePoint 2013."
+description: "Find resources about how to plan to upgrade from SharePoint 2010 Products to SharePoint 2013."
 ---
 
 # Plan for upgrade to SharePoint 2013
 
- **Summary:** Find resources about how to plan to upgrade from SharePoint 2010 Products to SharePoint 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]   
   
 In order to have a successful upgrade to SharePoint 2013, you must plan for the upgrade. This section contains articles that help you plan and prepare for upgrading from SharePoint 2010 Products to SharePoint 2013.
   

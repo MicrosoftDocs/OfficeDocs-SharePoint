@@ -13,12 +13,12 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 ms.assetid: 7009bdd4-6745-49a3-a330-728d5985f584
 
-description: "Summary: Create and configure a SharePoint 2013 farm so that you can upgrade databases from SharePoint 2010 Products."
+description: "Create and configure a SharePoint 2013 farm so that you can upgrade databases from SharePoint 2010 products."
 ---
 
 # Create the SharePoint 2013 farm for a database attach upgrade
 
- **Summary:** Create and configure a SharePoint 2013 farm so that you can upgrade databases from SharePoint 2010 Products. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
   
 When you upgrade from SharePoint 2010 Products to SharePoint 2013, you must use a database attach upgrade, which means that you upgrade only the content for your environment and not the configuration settings. Before you can upgrade the content, you must configure a new server or server farm by using SharePoint 2013. This article lists the items that you have to configure when you create that new environment.
   

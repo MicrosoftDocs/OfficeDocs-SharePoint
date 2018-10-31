@@ -10,14 +10,14 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: bd5f42e5-81a9-47bc-a17e-1f9574324961
-description: "Summary: Learn how to use the EffectiveUserName option when it connects to an Analysis Services data from PerformancePoint Services Dashboard Designer."
+description: "Learn how to use the EffectiveUserName option when it connects to an Analysis Services data from PerformancePoint Services Dashboard Designer."
 ---
 
 # Use EffectiveUserName in PerformancePoint Services
 
- **Summary:** Learn how to use the EffectiveUserName option when it connects to an Analysis Services data from PerformancePoint Services Dashboard Designer. 
-  
-EffectiveUserName is a SQL Server Analysis Services connection string property that contains the name of the user who is accessing a report or dashboard. In SharePoint Server 2013 and SharePoint Server 2016, you can use this property together with PerformancePoint Services to pass the identity of the user who is viewing the report or dashboard to SQL Server Analysis Services. This enables per-user identity without the requirement to configure Kerberos delegation. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+
+EffectiveUserName is a SQL Server Analysis Services connection string property that contains the name of the user who is accessing a report or dashboard. In SharePoint Server, you can use this property together with PerformancePoint Services to pass the identity of the user who is viewing the report or dashboard to SQL Server Analysis Services. This enables per-user identity without the requirement to configure Kerberos delegation. 
   
 - [Scenario overview](use-effectiveusername-with-excel-services-sharepoint-server-2013.md#overview)
     

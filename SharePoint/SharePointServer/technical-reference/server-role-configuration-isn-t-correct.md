@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 23829b00-db4c-4400-b236-e86ea60fa193
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleServer role configuration isn't correctfor SharePoint Server 2016."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: Server role configuration isn't correct, for SharePoint Server."
 ---
 
 # Server role configuration isn't correct (SharePoint Server 2016)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "Server role configuration isn't correct" for SharePoint Server 2016. 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)] 
   
  **Rule Name:** Server role configuration isn't correct. 
   

@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 45d9570f-59d7-4f6b-b8e1-18868b27b0bc
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleThe settings for Word Automation Services are not within the recommended limits, in SharePoint Server 2016 and SharePoint Server 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer ruleThe settings for Word Automation Services are not within the recommended limits, in SharePoint Server."
 ---
 
 # The settings for Word Automation Services are not within the recommended limits (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "The settings for Word Automation Services are not within the recommended limits", in SharePoint Server 2016 and SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
  **Rule Name:** The settings for Word Automation Services are not within the recommended limits. 
   

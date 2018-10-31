@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 29c0bc76-d835-401b-a2fb-abb069e84125
-description: "Summary: Configure storage of authorization credentials in Secure Store Service on a SharePoint Server 2013 or SharePoint Server 2016 farm."
+description: "Configure storage of authorization credentials in Secure Store Service on a SharePoint Server farm."
 ---
 
 # Configure the Secure Store Service in SharePoint Server
 
- **Summary:** Configure storage of authorization credentials in Secure Store Service on a SharePoint Server 2013 or SharePoint Server 2016 farm. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 This article describes how to configure the Secure Store Service on a SharePoint Server farm. Secure Store has important planning considerations associated with it. Be sure to read [Plan the Secure Store Service in SharePoint Server](http://technet.microsoft.com/library/e1196de0-1eb9-4c50-aeca-93e0eba7be0d%28Office.14%29.aspx) before you begin the procedures in this article. 
   

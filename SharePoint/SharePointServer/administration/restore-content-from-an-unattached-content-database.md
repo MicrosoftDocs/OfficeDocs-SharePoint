@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 40ed4458-d798-4aa1-82b9-2e5433991596
-description: "Summary: Learn how to restore content from an unattached content database in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to restore content from an unattached content database in SharePoint Server."
 ---
 
 # Restore content from unattached content databases in SharePoint Server
 
- **Summary:** Learn how to restore content from an unattached content database in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 You can restore content from an unattached content database in SharePoint Server by using the SharePoint Central Administration website or PowerShell. The restore tool that you use depends on the kind of environment that you have deployed, your schedule requirements, and service level agreements that you have made with your organization.
   

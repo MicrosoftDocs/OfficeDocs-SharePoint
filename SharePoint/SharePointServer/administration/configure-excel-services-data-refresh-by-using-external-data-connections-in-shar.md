@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 0853bed9-1084-413b-bf91-427dc643a5e5
-description: "Summary: Configure Excel Services in SharePoint Server 2013 data refresh by using Secure Store and an external Office Data Connection (ODC) file."
+description: "Configure Excel Services in SharePoint Server data refresh by using Secure Store and an external Office Data Connection (ODC) file."
 ---
 
 # Configure Excel Services data refresh by using external data connections in SharePoint Server 2013
 
- **Summary:** Configure Excel Services in SharePoint Server 2013 data refresh by using Secure Store and an external Office Data Connection (ODC) file. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
   
 Excel Services in SharePoint Server 2013 provides three methods of using Secure Store Service to refresh the external data source in a workbook:
   

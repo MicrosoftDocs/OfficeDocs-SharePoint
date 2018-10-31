@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 1c3b661f-7d88-4b2c-bc3a-3337253f3f30
-description: "Summary: Understand how to get the most out of testing upgrade and how to guarantee a successful upgrade to SharePoint Server 2016."
+description: "Understand how to get the most out of testing upgrade and how to guarantee a successful upgrade to SharePoint Server 2016."
 ---
 
 # Best practices for upgrading to SharePoint Server 2016
 
- **Summary:** Understand how to get the most out of testing upgrade and how to guarantee a successful upgrade to SharePoint Server 2016. 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]
   
 To increase your chances of a successful and faster upgrade to SharePoint Server 2016, follow these best practices to test and complete an upgrade.
   

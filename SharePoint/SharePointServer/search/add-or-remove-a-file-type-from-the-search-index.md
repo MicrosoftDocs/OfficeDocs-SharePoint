@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 7d88430f-2f0f-4c83-863b-ad840bdbf696
-description: "Summary: Learn how to add or remove a file type from the search index and how to start or stop including content from the file type, in the search index."
+description: "Learn how to add or remove a file type from the search index and how to start or stop including content from the file type, in the search index."
 ---
 
 # Add or remove a file type from the search index in SharePoint Server
 
- **Summary:** Learn how to add or remove a file type from the search index and how to start or stop including content from the file type, in the search index. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 Before you start, you may want to read [Default crawled file name extensions and parsed file types in SharePoint Server](../technical-reference/default-crawled-file-name-extensions-and-parsed-file-types.md). This article lists the file types that SharePoint Server by default includes in the search index.
   

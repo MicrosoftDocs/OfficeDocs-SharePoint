@@ -14,12 +14,12 @@ ms.collection:
 - Strat_SP_server
 ms.custom: 
 ms.assetid: 2ce4b90f-5eb0-4d5d-8ddb-3cf00952de4e
-description: "Summary: Learn how to plan for server-to-server authentication in SharePoint Server 2013 and SharePoint Server 2016."
+description: "Learn how to plan for server-to-server authentication in SharePoint Server."
 ---
 
 # Plan for server-to-server authentication in SharePoint Server
 
- **Summary:** Learn how to plan for server-to-server authentication in SharePoint Server 2013 and SharePoint Server 2016. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 Server-to-server authentication enables servers that are capable of server-to-server authentication to access and request resources from one another on behalf of users. Servers that are capable of server-to-server authentication run SharePoint Server, Exchange Server 2016, Skype for Business Server 2015, Azure Workflow Service, or other software that supports the Microsoft server-to-server protocol. Server-to-server authentication enables a new set of functionality and scenarios that can be achieved through cross-server resource sharing and access.
   

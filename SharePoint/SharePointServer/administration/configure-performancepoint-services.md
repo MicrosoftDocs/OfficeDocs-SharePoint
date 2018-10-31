@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: ae626fda-efc1-4b99-9909-829346b04b6f
-description: "Summary: Configure PerformancePoint Services in SharePoint Server."
+description: "Configure PerformancePoint Services in SharePoint Server."
 ---
 
 # Configure PerformancePoint Services
 
- **Summary:** Configure PerformancePoint Services in SharePoint Server. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 This article describes how to create and configure a PerformancePoint Services service application.
   

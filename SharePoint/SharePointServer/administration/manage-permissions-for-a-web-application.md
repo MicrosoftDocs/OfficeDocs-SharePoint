@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 28a53440-2adc-4957-84bd-99ed97f0c430
-description: "Summary: Learn how to globally enable or disable permissions for SharePoint Server 2013 and SharePoint Server 2016 web applications."
+description: "Learn how to globally enable or disable permissions for SharePoint Server web applications."
 ---
 
 # Manage permissions for a web application in SharePoint Server
 
- **Summary:** Learn how to globally enable or disable permissions for SharePoint Server 2013 and SharePoint Server 2016 web applications. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 Sites and site collections have a variety of permissions that you can set, such as adding or editing list items or documents. These permissions are normally given to a user by assigning them to a particular permission level, such as Full Control, Contribute, or View Only.
   

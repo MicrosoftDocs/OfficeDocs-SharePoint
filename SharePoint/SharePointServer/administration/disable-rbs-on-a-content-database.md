@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 75096f60-b94e-44c2-bc84-8aa3e2c4fff3
-description: "Summary: Learn how to disable Remote BLOB Storage (RBS) on any SharePoint Server 2016 and SharePoint 2013 content database."
+description: "Learn how to disable Remote BLOB Storage (RBS) on any SharePoint Server content database."
 ---
 
 # Disable RBS on content databases in SharePoint Server
 
- **Summary:** Learn how to disable Remote BLOB Storage (RBS) on any SharePoint Server 2016 and SharePoint 2013 content database. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 You can disable Remote BLOB Storage (RBS) on any content database. After you disable RBS on a content database, binary large objects (BLOBs) are stored inline in SQL Server for all subsequent writes to the content database. This article describes how to disable RBS on a content database.
   

@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 32bc4341-ba5f-444b-bd55-462f67f16c27
-description: "Summary: Find resources about security, including planning for authentication in SharePoint 2013 and SharePoint Server 2016."
+description: "Find resources about security, including planning for authentication in SharePoint Server."
 ---
 
 # Security for SharePoint Server
 
- **Summary:** Find resources about security, including planning for authentication in SharePoint 2013 and SharePoint Server 2016. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]  
   
 The following article provides information about authentication planning in SharePoint Server.
   

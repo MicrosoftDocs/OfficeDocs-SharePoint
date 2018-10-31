@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 84972766-6527-4791-ae68-02d3a50b67f0
-description: "Summary: Learn about Microsoft Identity Manager (MIM) and how it's used for importing user profile information in SharePoint Server 2016."
+description: "Learn about Microsoft Identity Manager (MIM) and how it's used for importing user profile information in SharePoint Server."
 ---
 
 # Install Microsoft Identity Manager for User Profiles in SharePoint Server 2016
 
- **Summary:** Learn about Microsoft Identity Manager (MIM) and how it's used for importing user profile information in SharePoint Server 2016. 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]
   
  **Contents**
   

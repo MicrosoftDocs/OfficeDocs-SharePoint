@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 9188225f-8281-4b4a-8414-d39ffac9d371
-description: "Summary: Learn how to use Excel to create and share connections to SQL Server data that people can use to create data models, reports, scorecards, and dashboards."
+description: "Learn how to use Excel to create and share connections to SQL Server data that people can use to create data models, reports, scorecards, and dashboards."
 ---
 
 # Share a SQL Server data connection using Excel Services (SharePoint Server 2013)
 
- **Summary:** Learn how to use Excel to create and share connections to SQL Server data that people can use to create data models, reports, scorecards, and dashboards. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 You can use Excel to create connections to databases such as SQL Server, and then share those connections with others. When you can upload a data connection to an Excel Services trusted data connection library in SharePoint Server 2013, the data connection is available for you and others to use to create data models, reports, scorecards, and dashboards. Depending on the particular data source that is used, people can easily refresh data in Excel Services workbooks so that the most current information is displayed.
   

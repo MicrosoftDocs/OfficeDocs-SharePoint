@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 265ace67-3115-4987-ab2d-80c55e452d4b
-description: "Summary: Learn how to extend an existing claims-based SharePoint Server 2013 and SharePoint Server 2016 web application into a new zone to surface content to different types of users."
+description: "Learn how to extend an existing claims-based SharePoint Server web application into a new zone to surface content to different types of users."
 ---
 
 # Extend claims-based web applications in SharePoint
 
- **Summary:** Learn how to extend an existing claims-based SharePoint Server 2013 and SharePoint Server 2016 web application into a new zone to surface content to different types of users. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 You can extend a web application that uses claims-based authentication by using Central Administration. When you extend a web application, you expose the same content to different sets of users by using an additional IIS web site to host the same content.
   

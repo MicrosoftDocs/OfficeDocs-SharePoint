@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: b987b833-1ba4-43bb-8c35-6bb56f986572
-description: "Summary: Learn how to configure eDiscovery for SharePoint Server 2013 based on the Test Lab Guide: Configure SharePoint Server 2013 in a three-tier farm."
+description: "Learn how to configure eDiscovery for SharePoint Server 2013 based on the Test Lab Guide: Configure SharePoint Server 2013 in a three-tier farm."
 ---
 
 # Configure eDiscovery
 
- **Summary:** Learn how to configure eDiscovery for SharePoint Server 2013 based on the [Test Lab Guide: Configure SharePoint Server 2013 in a three-tier farm](configure-sharepoint-server-2013-in-a-three-tier-farm.md).
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 This document explains how to set up eDiscovery between SharePoint Server 2013 and Exchange Server 2013.
   

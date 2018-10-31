@@ -14,6 +14,8 @@ description: "Learn how to create virtual test environments for SharePoint Serve
 
 # Create Test and Developer Environments
 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+
 There are several options for creating test environments for SharePoint Server.
   
  **Hyper-V** - Use Windows Server Hyper-V to build a test environment for SharePoint Server 2013. Learn about the SharePoint deployment process and how to configure solutions for user authentication, sites, eDiscovery, and high availability. See [Test lab guides for SharePoint Server 2013](test-lab-guides.md) for details. 

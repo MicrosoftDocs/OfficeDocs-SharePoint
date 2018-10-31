@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 091165d1-76c4-4c15-ae75-cf338b573b13
-description: "Summary: Learn which SharePoint Designer features can be turned off by a SharePoint administrator."
+description: "Learn which SharePoint Designer features can be turned off by a SharePoint administrator."
 ---
 
 # Deactivated controls in SharePoint Designer 2013
 
- **Summary:** Learn which SharePoint Designer features can be turned off by a SharePoint administrator. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
   
 A SharePoint Server administrator can deactivate the following features in SharePoint Designer 2013 clients that are connected to the server:
   

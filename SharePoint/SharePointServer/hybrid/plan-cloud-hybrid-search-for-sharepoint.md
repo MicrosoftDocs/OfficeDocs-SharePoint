@@ -20,6 +20,8 @@ description: "Setting up cloud hybrid search for SharePoint requires careful pla
 
 # Plan cloud hybrid search for SharePoint
 
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+
 Setting up [cloud hybrid search](learn-about-cloud-hybrid-search-for-sharepoint.md) for SharePoint requires careful planning. This article helps you design a highly reliable, secure and scalable cloud hybrid search solution. 
   
 ## What search experiences do your users need?

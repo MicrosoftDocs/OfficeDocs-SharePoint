@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 1350e659-04ba-423e-a1b3-c41563073473
-description: "Summary: Prepare to implement eDiscovery across SharePoint Server 2016 or SharePoint Server 2013, Exchange Server, and Skype for Business. Determine permissions to grant and how many eDiscovery Centers to create."
+description: "Prepare to implement eDiscovery across SharePoint Server, Exchange Server, and Skype for Business. Determine permissions to grant and how many eDiscovery Centers to create."
 ---
 
 # Plan for eDiscovery in SharePoint Server
 
- **Summary:** Prepare to implement eDiscovery across SharePoint Server 2016 or SharePoint Server 2013, Exchange Server, and Skype for Business. Determine permissions to grant and how many eDiscovery Centers to create. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 There are several factors to consider before you implement eDiscovery. First, determine how many eDiscovery Centers you need and where to put the eDiscovery Centers. Then identify the locations that contain content that can be discovered. Finally, consider the permissions that you have to grant to eDiscovery users. The decisions that you make when you plan for eDiscovery might affect other systems that your organization uses, such as Exchange Server 2016 or Exchange Server 2013. Accordingly, you might have to coordinate with the people who manage those systems when you create and implement your plan.
   

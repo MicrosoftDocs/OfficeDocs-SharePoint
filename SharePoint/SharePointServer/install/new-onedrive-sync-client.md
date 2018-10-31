@@ -1,5 +1,5 @@
 ---
-title: "Configure syncing with the new OneDrive sync client"
+title: "Configure syncing with the new OneDrive sync client for Sharepoint 2019"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
@@ -10,11 +10,12 @@ localization_priority: Normal
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-description: "Summary: Learn how to configure the new OneDrive sync client (OneDrive.exe) for SharePoint Server 2019."
+description: "Learn how to configure the new OneDrive sync client (OneDrive.exe) for SharePoint Server 2019."
 ---
 
 # Configure syncing with the new OneDrive sync client
 
+[!INCLUDE[appliesto-xxx-xxx-2019-xxx-md](../includes/appliesto-xxx-xxx-2019-xxx-md.md)]
    
 When you deploy SharePoint Server 2019 in your organization, your users can sync their OneDrive for Business files as well as SharePoint team site files by using the new OneDrive sync client (OneDrive.exe) for Windows. Compared with the previous OneDrive for Business sync client (Groove.exe), the new sync client provides:
 - Improved performance and reliability

@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 ms.assetid: 396c85d9-4b86-484e-9cc5-f6c4d725c578
 
-description: "Summary: Learn how to plan, prepare, and perform an upgrade to SharePoint Server 2019."
+description: "Learn how to plan, prepare, and perform an upgrade to SharePoint Server 2019."
 ---
 
 # Upgrade to SharePoint Server 2019
 
- **Summary:** Learn how to plan, prepare, and perform an upgrade to SharePoint Server 2019. 
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)]  
   
 The following articles provide information about performing an upgrade to SharePoint Server 2019.
   

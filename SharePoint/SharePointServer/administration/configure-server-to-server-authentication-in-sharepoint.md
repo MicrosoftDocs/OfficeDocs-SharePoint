@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: c77f5006-d023-463f-8256-e4570d32dd1e
-description: "Summary: Learn how to configure server-to-server authentication when you share User Profile service application across SharePoint Server 2016 and SharePoint 2013 publishing and consuming farms."
+description: "Learn how to configure server-to-server authentication when you share User Profile service application across SharePoint Server publishing and consuming farms."
 ---
 
 # Configure Server-to-Server authentication between publishing and consuming farms
 
- **Summary:** Learn how to configure Server-to-Server authentication when you share the User Profile service application across SharePoint Server 2016 and SharePoint 2013 publishing and consuming farms.
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 When a farm consumes the User Profile service application of a publishing farm, SharePoint issues requests using Server-to-Server authentication on behalf of the user for some features:
   
