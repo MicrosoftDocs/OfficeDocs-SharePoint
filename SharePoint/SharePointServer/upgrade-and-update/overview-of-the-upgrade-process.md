@@ -12,7 +12,6 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 - Strat_SP_server
-ms.custom: 
 ms.assetid: 4d7a8038-4b27-4bd8-a855-585db4e924a8
 description: "Learn about the process of upgrading databases, service applications, My Sites, and site collections to SharePoint Server 2016."
 ---
