@@ -15,7 +15,6 @@ description: "Learn the overview steps required to upgrade SharePoint Server 201
 
 # High level overview to upgrade from SharePoint 2013 to SharePoint Server 2019
 
-[!INCLUDE[appliesto-2013-xxx-2019-xxx-md](../includes/appliesto-2013-xxx-2019-xxx-md.md)] 
 
 ## Overview
 <a name="Overview"> </a>
