@@ -12,7 +12,6 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: f484f5f2-35bb-4d70-bf56-dd1c4c287c72
-
 description: "Learn how to prepare for, download, install, and configure software updates and patches for SharePoint Server 2016."
 ---
 

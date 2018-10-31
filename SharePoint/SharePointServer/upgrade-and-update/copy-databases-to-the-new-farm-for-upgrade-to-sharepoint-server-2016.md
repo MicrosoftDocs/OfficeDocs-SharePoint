@@ -12,7 +12,6 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 93327a06-ed2c-43f2-a40a-d7257f61f915
-
 description: "How to copy SharePoint Server 2013 with Service Pack 1 (SP1) content and service databases to a SharePoint Server 2016 farm."
 ---
 
