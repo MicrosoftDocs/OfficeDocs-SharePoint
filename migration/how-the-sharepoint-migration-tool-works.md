@@ -48,9 +48,7 @@ The following describes what is happening as you use the SharePoint Migration To
 - Client certificate authentication
 
     **Important Note:**  If the on-perm server is configured to support multiple authentication methods including the Windows authentication, then Windows authentication will not be supported. 
-    If this describes your environment, use other authentication methods instead of Windows authentication. 
-
-
+    If this describes your environment, use other authentication methods instead of Windows authentication. <br>
 <br>
     
 **SCAN**: After you click **Migrate**, a scan is performed on every file. A scan is always performed, even if you elect to not migrate your files (see Advanced Settings). The scan verifies that there is access to the data source and write access to the SharePoint Online destination. It also scans the file for known potential issues.<br>
