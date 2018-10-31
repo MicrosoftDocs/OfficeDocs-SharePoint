@@ -3,7 +3,6 @@ title: "Introducing the SharePoint Migration Tool"
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
-ms.date: 7/27/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -19,12 +18,11 @@ description: ""
 # Introducing the SharePoint Migration Tool
 
 
-
 >[!NOTE]
->Click here to download [SharePoint Migration tool V2](http://spmtreleasescus.blob.core.windows.net/install/default.htm).  <br>For more information release notes see:  [New and improved features in the SharePoint Migration Tool](new-and-improved-features-in-the-sharepoint-migration-tool).<br/><br/> *Important:*  If you are experiencing issues with the "first release" version of SPMT, please uninstall and reinstall the standard release. We are working to fix this problem.<br><br>
+>Click here to download [SharePoint Migration tool V2](http://spmtreleasescus.blob.core.windows.net/install/default.htm).  <br>For more information release notes see:  [New and improved features in the SharePoint Migration Tool](new-and-improved-features-in-the-sharepoint-migration-tool.md).<br/><br/> *Important:*  If you are experiencing issues with the "first release" version of SPMT, please uninstall and reinstall the standard release. We are working to fix this problem.<br><br>
 >Currently the SharePoint Migration Tool supports migrations from SharePoint Server 2013 and on-premises file shares to SharePoint Online and OneDrive.
 >
->If you prefer using PowerShell, all SPMT functionality is supported. For more information see: [Migrate to SharePoint Online using PowerShell](overview-spmt-ps-cmdlets).
+>If you prefer using PowerShell, all SPMT functionality is supported. For more information see: [Migrate to SharePoint Online using PowerShell](overview-spmt-ps-cmdlets.md).
 >
 >The **SharePoint Migration Tool** is not available for users of Office 365 operated by 21Vianet in China or for users of Office 365 Germany.
  
