@@ -182,7 +182,7 @@ Merge-SPUsageLog -Identity <SPUsageDefinitionPipeBind> [-AssignmentCollection <S
 Merge-SPUsageLog -Identity "Administrative Actions" 
 ```
 
- **Example 2:** This example merges the log entries for the "Administrative Actions" usage provider from "06/09/2016 16:00" untill now from servers named "A-0606" and "A-0505". 
+ **Example 2:** This example merges the log entries for the "Administrative Actions" usage provider from "06/09/2016 16:00" until now from servers named "A-0606" and "A-0505". 
   
 ```
 Merge-SPUsageLog -Identity "Administrative Actions" -Servers "A-0606","A-0505" -StartTime "06/09/2008 16:00" 
