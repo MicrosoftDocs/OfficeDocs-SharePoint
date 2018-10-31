@@ -3,7 +3,6 @@ title: "Introducing the SharePoint Migration Tool"
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
-ms.date: 7/27/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -17,7 +16,6 @@ description: ""
 ---
 
 # Introducing the SharePoint Migration Tool
-
 
 
 >[!NOTE]
