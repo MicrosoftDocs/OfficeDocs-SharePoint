@@ -17,7 +17,7 @@ description: "Learn how to prepare for, download, install, and configure softwar
 
 # Deploy software updates for SharePoint Server 2016
 
-[!INCLUDE[appliesto-2013-2016-xxx-xxx-md](../includes/appliesto-2013-2016-xxx-xxx-md.md)]
+
   
 Microsoft periodically releases software updates for SharePoint Server 2016. The following articles provide information about the software update process for SharePoint Server 2016.
   

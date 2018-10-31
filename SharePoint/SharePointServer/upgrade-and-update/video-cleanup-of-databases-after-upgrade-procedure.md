@@ -17,7 +17,7 @@ description: "Learn how to use Windows Powershell scripts to assist in cleaning 
 
 # Video: Cleanup of databases after upgrade procedure
 
-[!INCLUDE[appliesto-2013-2016-xxx-xxx-md](../includes/appliesto-2013-2016-xxx-xxx-md.md)]  
+  
   
 Listen to two Microsoft Field Engineers as they talk about best practices on how to cleanup databases after an upgrade procedure. 
   

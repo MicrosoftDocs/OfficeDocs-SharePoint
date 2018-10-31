@@ -17,7 +17,6 @@ description: "Complete your SharePoint upgrade. Find information on upgrading da
 
 # Get started with upgrades to SharePoint Server 2016
 
-[!INCLUDE[appliesto-2013-2016-xxx-xxx-md](../includes/appliesto-2013-2016-xxx-xxx-md.md)]
   
 The first step in any upgrade process is to learn about the process itself so that you can plan and prepare appropriately. These articles help you understand how the SharePoint upgrade process works. These articles also include overviews of how to upgrade service applications.
   

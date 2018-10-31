@@ -18,7 +18,7 @@ description: "Learn how to plan, prepare, and perform an upgrade to SharePoint S
 
 # Upgrade to SharePoint Server 2016
 
-[!INCLUDE[appliesto-2013-2016-xxx-xxx-md](../includes/appliesto-2013-2016-xxx-xxx-md.md)]
+
   
 The following articles provide information about performing an upgrade to SharePoint Server 2016.
   

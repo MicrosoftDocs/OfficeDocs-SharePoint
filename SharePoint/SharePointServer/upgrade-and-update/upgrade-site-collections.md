@@ -18,7 +18,7 @@ description: "Learn how to upgrade a site collection to SharePoint Server 2016, 
 
 # Upgrade site collections to SharePoint Server 2016
 
-[!INCLUDE[appliesto-2013-2016-xxx-xxx-md](../includes/appliesto-2013-2016-xxx-xxx-md.md)]
+
   
 ## Articles about how to upgrade site collections
 

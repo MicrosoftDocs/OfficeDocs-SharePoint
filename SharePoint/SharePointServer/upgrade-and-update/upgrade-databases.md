@@ -17,7 +17,7 @@ description: "Find resources to help you perform the steps to upgrade databases 
 
 # Upgrade databases from SharePoint 2013 to SharePoint Server 2016
 
-[!INCLUDE[appliesto-2013-2016-xxx-xxx-md](../includes/appliesto-2013-2016-xxx-xxx-md.md)]
+
   
 The following articles provide information about upgrading databases to SharePoint Server 2016.
   
