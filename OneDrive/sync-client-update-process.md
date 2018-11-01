@@ -56,13 +56,12 @@ If both of these are true, OneDrive downloads the update to a hidden folder with
 For info about the latest releases, see [New OneDrive sync client release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0).
 
 > [!NOTE]
-> To apply sync client updates, computers in your organization must be able to reach the following: "oneclient.sfx.ms" and "g.live.com." Make sure you don't block these URLs. [More info about the URLs and IP address ranges used in Office 365](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2.) 
+> To apply sync client updates, computers in your organization must be able to reach the following: "oneclient.sfx.ms" and "g.live.com." Make sure you don't block these URLs as they are also used to enable/disable features and bug fixes. [More info about the URLs and IP address ranges used in Office 365](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2.) 
   
 ## Deploying updates in the Enterprise ring
 
 At any given time, the next planned Enterprise ring release is published on the [OneDrive sync client release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0) page with a link to the corresponding installer and the target date when that version will be released. On the specified date, the "Rolling out" version for the Enterprise ring becomes the new minimum. All sync clients below that version will automatically download the installer from the Internet and update themselves. 
 
-###Windows
 
 To deploy an updated version of the sync client for Windows, run the following command using System Center Configuration Manager:
   
