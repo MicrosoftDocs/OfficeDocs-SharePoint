@@ -89,9 +89,9 @@ This section provides minimum software requirements for each server in the farm.
 
 One of the following:
   
-- Microsoft SQL Server 2016 RTM
+- Microsoft SQL Server 2016 RTM Standard or Enterprise Editions
     
-- Microsoft SQL Server 2017 RTM for Windows
+- Microsoft SQL Server 2017 RTM Standard or Enterprise Editions for Windows
     
 > [!NOTE]
 > SQL Server products and all future public updates are supported through the SQL Server product lifecycle. 

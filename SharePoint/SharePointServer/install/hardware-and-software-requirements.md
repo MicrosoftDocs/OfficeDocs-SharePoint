@@ -138,6 +138,8 @@ The Microsoft SharePoint Products Preparation Tool installs the following prereq
 - Web Server (IIS) role
     
 - Application Server role
+
+- Microsoft .NET Framework version 3.5
     
 - Microsoft .NET Framework version 4.6
     
