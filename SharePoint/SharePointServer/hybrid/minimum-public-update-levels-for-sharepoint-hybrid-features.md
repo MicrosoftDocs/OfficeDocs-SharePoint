@@ -30,12 +30,29 @@ Links to all the available Public Updates can be found at [SharePoint Updates](h
 > [!NOTE]
 > [Hybrid extranet B2B collaboration sites](https://docs.microsoft.com/en-us/sharepoint/create-b2b-extranet) have no on-premises components and thus have no PU requirements. 
   
+## SharePoint Server 2019
+
+The following table shows the minimum PU requirements for hybrid features in SharePoint Server 2019.
+  
+|**Hybrid feature**|**Minimum PU**|
+|:-----|:-----|
+|[Hybrid self-service site creation](http://technet.microsoft.com/library/f8849a20-7cb7-44e6-bfd6-4c6415ae7785%28Office.14%29.aspx) <br/> |RTM  <br/> |
+|[Cloud hybrid search](https://support.office.com/article/af830951-8ddf-48b2-8340-179c1cc4d291) <br/> |RTM  <br/> |
+|[Extensible hybrid app launcher](the-extensible-hybrid-app-launcher.md) <br/> |RTM  <br/> |
+|[Hybrid federated search](https://support.office.com/article/4ee4b876-1673-4d1f-ba47-d9a0ef4474a9) <br/> |RTM  <br/> |
+|[Hybrid OneDrive for Business](plan-hybrid-onedrive-for-business.md) <br/> |RTM  <br/> |
+|[Hybrid profiles](plan-hybrid-profiles.md) <br/> |RTM  <br/> |
+|[Hybrid site following](hybrid-site-following.md) <br/> |RTM  <br/> |
+|[Hybrid taxonomy](plan-hybrid-sharepoint-taxonomy-and-hybrid-content-types.md) <br/> |RTM  <br/> |
+|[Hybrid content types](plan-hybrid-sharepoint-taxonomy-and-hybrid-content-types.md) <br/> |RTM  <br/> |
+   
 ## SharePoint Server 2016
 
 The following table shows the minimum PU requirements for hybrid features in SharePoint Server 2016.
   
 |**Hybrid feature**|**Minimum PU**|
 |:-----|:-----|
+|[Hybrid self-service site creation](http://technet.microsoft.com/library/f8849a20-7cb7-44e6-bfd6-4c6415ae7785%28Office.14%29.aspx) <br/> |November 2017  <br/> |
 |[Cloud hybrid search](https://support.office.com/article/af830951-8ddf-48b2-8340-179c1cc4d291) <br/> |RTM  <br/> |
 |[Extensible hybrid app launcher](the-extensible-hybrid-app-launcher.md) <br/> |RTM  <br/> |
 |[Hybrid auditing](https://support.office.com/article/3a379540-f72b-406f-866a-d6121715ec8c) <br/> |November 2016  <br/> |
