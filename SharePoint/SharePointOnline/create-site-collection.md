@@ -30,7 +30,8 @@ description: "Learn how to create and delete SharePoint Online site collections 
 This article shows how Office 365 global admins and SharePoint admins can create classic SharePoint Online site collections from the Microsoft 365 admin center.
   
 > [!NOTE]
-> For info about creating new team sites that are connected to Office 365 groups and communication sites in the new SharePoint admin center preview, see [Manage sites in the new SharePoint admin center](manage-sites-in-new-admin-center.md). 
+> For info about creating new team sites that are connected to Office 365 groups and communication sites in the new SharePoint admin center preview, see [Manage sites in the new SharePoint admin center](manage-sites-in-new-admin-center.md). For info about creating site collections in SharePoint Server, see [Create a site collection in SharePoint Server](/SharePoint/sites/create-a-site-collection).
+
   
 ## Create a classic site collection
 <a name="__toc323551189_1"> </a>

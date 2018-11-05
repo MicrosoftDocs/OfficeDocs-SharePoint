@@ -25,6 +25,9 @@ You can use Intune to deploy the mobile apps for iOS and Android and to deploy t
 
 > [!VIDEO https://videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=RE2CnSk&AutoPlayVideo=false]
 
+> [!TIP]
+> Video not in your language? Try selecting **Closed Captioning**.
+
 ### Deploy OneDrive to iOS devices by using Intune
 
 1. Create a group of devices or users to target the deployment in the Azure AD admin center.
