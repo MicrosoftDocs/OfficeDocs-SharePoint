@@ -17,7 +17,7 @@ description: "Learn about how SharePoint Auditing generates reports for on-premi
 
 # Configure SharePoint Hybrid Auditing in SharePoint 2016 (Preview)
 
-[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]
 
 Learn about how SharePoint 2016 Auditing generates reports for on-premises server users' file access logs for viewing in Office 365.
   

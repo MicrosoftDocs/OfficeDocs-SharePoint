@@ -1,5 +1,5 @@
 ---
-title: "Configure monitoring in SharePoint Server 2016"
+title: "Configure monitoring in SharePoint Server"
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
@@ -15,13 +15,10 @@ description: "Learn more about SharePoint diagnostic logging, SharePoint Health 
 
 # Configure monitoring in SharePoint Server 2016
 
-[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
-> [!NOTE]
-> It may be necessary to configure your monitoring settings after your intial SharePoint deployment or upgrade. SharePoint Server 2016 
+It may be necessary to configure your monitoring settings after your intial SharePoint deployment or upgrade.
   
-## Configure monitoring
-
 Included in this section:
   
 - [Configure diagnostic logging in SharePoint Server](configure-diagnostic-logging.md)

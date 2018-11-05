@@ -18,8 +18,6 @@ description: "Learn how to collect information about document users to plan your
   
 The first step to plan your document management solution is to identify users and analyze how documents are used. This article contains guidance to identify users and analyze document usage for your solution that is based on SharePoint Server.
   
-Before reading this article, you should understand the document management planning process described in [Overview of document management in SharePoint 2013](http://technet.microsoft.com/library/15e6e3a3-9d35-47af-b287-13aec95d247e%28Office.14%29.aspx).
-  
 ## Identify users
 <a name="section1"> </a>
 

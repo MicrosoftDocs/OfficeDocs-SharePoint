@@ -1,5 +1,5 @@
 ---
-title: "Configure Excel Services data refresh by using the unattended service account in SharePoint Server 2016"
+title: "Configure Excel Services data refresh by using the unattended service account in SharePoint Server 2013"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
@@ -12,9 +12,9 @@ ms.assetid: fcfdb2ad-9d0e-43ca-8bfa-45064eeca5af
 description: "Configure Excel Services in SharePoint Server to use the unattended service account for authentication to external data."
 ---
 
-# Configure Excel Services data refresh by using the unattended service account in SharePoint Server 2016
+# Configure Excel Services data refresh by using the unattended service account in SharePoint Server 2013
 
-[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
   
 Excel Services in SharePoint Server 2013 provides three methods of using Secure Store Service to refresh the external data source in a workbook:
   
