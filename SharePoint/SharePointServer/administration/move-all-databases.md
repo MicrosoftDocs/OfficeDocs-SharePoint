@@ -12,13 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: d9dac189-0736-448d-928c-68bf38603613
-description: "Summary: Learn how to move all databases associated with SharePoint Server 2016 and SharePoint 2013 to a new database server."
+description: "Learn how to move all databases associated with SharePoint Server to a new database server."
 ---
 
 # Move all databases in SharePoint Server
 
- **Summary:** Learn how to move all databases associated with SharePoint Server 2016 and SharePoint 2013 to a new database server. 
-  
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
 You can use the SharePoint Central Administration website, or SQL Server tools to move all databases that are associated with SharePoint Server to a new database server.
   
 ## Before you begin

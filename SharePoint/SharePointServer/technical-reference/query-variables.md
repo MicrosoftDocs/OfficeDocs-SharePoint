@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 2d8373ff-0808-40b7-8a21-5534720719f4
-description: "Summary: Learn about the query variables that you can use when you configure a query."
+description: "Learn about the query variables that you can use when you configure a query."
 ---
 
 # Query variables in SharePoint Server
 
- **Summary:** Learn about the query variables that you can use when you configure a query. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 ## Query variables
 

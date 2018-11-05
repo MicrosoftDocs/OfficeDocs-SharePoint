@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 0ffd36db-3f34-4f9f-b3fe-c8bea09a9d8f
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleSearch - One or more crawl databases may have fragmented indicesfor SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: Search - One or more crawl databases may have fragmented indices, for SharePoint Server."
 ---
 
 # Search - One or more crawl databases may have fragmented indices (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "Search - One or more crawl databases may have fragmented indices" for SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
  **Rule Name:** Search - One or more crawl databases may have fragmented indices. 
   

@@ -14,6 +14,8 @@ description: "Learn about planning, configuring and deploying search in SharePoi
 
 # Search
 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+
 Learn about planning, configuring and deploying search in SharePoint Server.
   
 |**Content**|**Description**|

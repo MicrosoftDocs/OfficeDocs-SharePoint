@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 75401651-ef01-4348-878e-8a636f0b072d
-description: "Summary: How to configure outgoing email to relay email alerts and notifications in SharePoint Server 2019, SharePoint Server 2016, and SharePoint 2013."
+description: "How to configure outgoing email to relay email alerts and notifications in SharePoint Server."
 ---
 
 # Plan outgoing email for a SharePoint Server farm
 
- **Summary:** Learn how to configure outgoing email to relay email alerts and notifications in your SharePoint Server 2019, SharePoint Server 2016, and SharePoint 2013 farm or web application. Also learn how to set SMTP server authentication in SharePoint Server 2019.
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 Outgoing email is the foundation on which site administrators can implement several email notification features. These features help end users track changes and updates to individual site collections and allow site administrators to deliver status messages.
   

@@ -13,12 +13,12 @@ ms.collection:
 - Strat_SP_server
 ms.custom: 
 ms.assetid: 6824b3bf-9046-4d43-b266-de463d0007e5
-description: "Summary: Learn about the minimum software requirements to run business intelligence features in SharePoint Server 2016 and SharePoint Server 2013."
+description: "Learn about the minimum software requirements to run business intelligence features in SharePoint Server."
 ---
 
 # Software requirements for business intelligence in SharePoint Server
 
- **Summary:** Learn about the minimum software requirements to run business intelligence features in SharePoint Server 2016 and SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 The business intelligence tools for SharePoint Server 2016 include the following:
   

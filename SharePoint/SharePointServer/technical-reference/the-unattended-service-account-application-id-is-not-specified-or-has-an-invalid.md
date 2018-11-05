@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: ec3a8cb2-141f-4c4b-a3c3-068ea89121cf
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleThe Unattended Service Account Application ID is not specified or has an invalid valuefor SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: The Unattended Service Account Application ID is not specified or has an invalid value, for SharePoint Server."
 ---
 
 # The unattended Service Account Application ID is not specified or has an invalid value (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "The Unattended Service Account Application ID is not specified or has an invalid value" for SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
  **Rule name:** The Unattended Service Account Application ID is not specified or has an invalid value. 
   

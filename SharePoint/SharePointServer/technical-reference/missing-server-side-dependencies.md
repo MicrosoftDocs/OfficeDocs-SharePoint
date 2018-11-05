@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: b67550f6-fc12-4734-950f-6e2f50ef0ca2
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleMissing server side dependenciesin SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: Missing server side dependencies, for SharePoint Server."
 ---
 
 # Missing server side dependencies (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "Missing server side dependencies" in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
  **Rule Name:** Missing server side dependencies. 
 

@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 237d399e-b50b-42e6-90ff-e659a94d8099
-description: "Summary: Learn how to restore the Secure Store Service application in SharePoint Server 2016 and SharePoint Server 2013."
+description: "Learn how to restore the Secure Store Service application in SharePoint Server."
 ---
 
 # Restore Secure Store Service applications in SharePoint Server
 
- **Summary:** Learn how to restore the Secure Store Service application in SharePoint Server 2016 and SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 You can restore the Secure Store service application by using the SharePoint Central Administration website or PowerShell. The restore tool that you use depends on the kind of environment that you have deployed, your schedule requirements, and service level agreements that you have made with your organization.
   

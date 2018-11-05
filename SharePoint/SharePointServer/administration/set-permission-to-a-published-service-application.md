@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: c598457b-38d9-434c-b715-3786109cd27e
-description: "Summary: Learn how to configure permissions to the Application Discovery and Load Balancing Service Application and published service applications for the consuming farm in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to configure permissions to the Application Discovery and Load Balancing Service Application and published service applications for the consuming farm in SharePoint Server."
 ---
 
 # Set permissions to published service applications in SharePoint Server
 
- **Summary:** Learn how to configure permissions to the Application Discovery and Load Balancing Service Application and published service applications for the consuming farm in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 In SharePoint Server, you must establish a relationship between the publishing farm and the consuming farm by giving the consuming farm permission to the Application Discovery and Load Balancing Service Application on the publishing farm. After doing this, the consuming farm can be given permission to other service applications.
   

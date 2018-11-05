@@ -9,13 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: aecba264-abdb-4515-8b4f-c451cc0c0107
-description: "Summary: Learn how to configure and demonstrate the new social features of SharePoint Server 2013 based on the Test Lab Guide: Configure SharePoint Server 2013 in a three-tier farm."
+description: "Learn how to configure and demonstrate the new social features of SharePoint Server  based on the Test Lab Guide: Configure SharePoint Server 2013 in a three-tier farm."
 ---
 
 # Test Lab Guide: Demonstrate Social Features for SharePoint Server 2013
 
- **Summary:** Learn how to configure and demonstrate the new social features of SharePoint Server 2013 based on the [Test Lab Guide: Configure SharePoint Server 2013 in a three-tier farm](configure-sharepoint-server-2013-in-a-three-tier-farm.md).
-  
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 This document contains instructions for the following: 
   

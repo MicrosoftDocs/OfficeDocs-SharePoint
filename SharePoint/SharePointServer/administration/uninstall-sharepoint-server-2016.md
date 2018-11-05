@@ -11,12 +11,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 7ad523f5-db54-4169-81ba-3a7b60f218b7
-description: "Summary: Learn about the limited set of supported methods to uninstall SharePoint Server 2016 or SharePoint Server 2019."
+description: "Learn about the limited set of supported methods to uninstall SharePoint Server."
 ---
 
 # Uninstall SharePoint Servers 2016 or 2019
 
- **Summary:** Learn about the limited set of supported methods to uninstall SharePoint Servers 2016 or 2019. 
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)]
   
 You remove SharePoint Server by uninstalling it from Control Panel. When you uninstall SharePoint Server, most files and subfolders in the installation folders are removed. However, some files are not removed. Also, 
   

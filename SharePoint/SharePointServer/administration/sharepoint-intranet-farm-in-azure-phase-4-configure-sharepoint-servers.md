@@ -13,12 +13,12 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 ms.custom: Ent_Solutions
 ms.assetid: 8c733fb9-18b9-4770-b90b-364bd7ab30d1
-description: "Summary: Configure the SharePoint servers to host a high-availability SharePoint Server 2016 farm in Microsoft Azure."
+description: "Configure the SharePoint servers to host a high-availability SharePoint Server 2016 farm in Microsoft Azure."
 ---
 
 # SharePoint Intranet Farm in Azure Phase 4: Configure SharePoint servers
 
- **Summary:** Configure the SharePoint servers to host a high-availability SharePoint Server 2016 farm in Microsoft Azure. 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)] 
   
 In this phase of deploying an intranet-only SharePoint Server 2016 farm in Azure infrastructure services, you create the SharePoint Server 2016 servers and configure their roles with the SharePoint Configuration Wizard.
   

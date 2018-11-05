@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 3e2db0df-d07c-4adc-98a1-81e3fd42a272
-description: "Summary: Learn which approach to use to scale your enterprise search architecture for performance and availability."
+description: "Learn which approach to use to scale your enterprise search architecture for performance and availability."
 ---
 
 # Scale enterprise search in SharePoint Server
 
- **Summary:** Learn which approach to use to scale your enterprise search architecture for performance and availability. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 Sometimes it's necessary to scale your search topology, for example:
   

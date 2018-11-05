@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 56ea0f40-426b-43da-aff5-187fe5adc946
-description: "Summary: Learn how to prepare to back up and restore your SharePoint Server 2016 and SharePoint Server 2013 farm."
+description: "Learn how to prepare to back up and restore your SharePoint Server farm."
 ---
 
 # Prepare to back up and restore farms in SharePoint Server
 
- **Summary:** Learn how to prepare to back up and restore your SharePoint Server 2016 and SharePoint Server 2013 farm. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 It is important to make sure that you have backed up and can recover the data that you need if a failure occurs. Consider the information, procedures, and precautions in this article before you back up and restore your environment. This article discusses restrictions and requirements for backup and recovery and how to create a shared folder on the network that can receive backed-up data.
   

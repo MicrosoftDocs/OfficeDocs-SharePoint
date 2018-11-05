@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 4f5e0b9a-7256-4c00-bc7f-e1735a9f5fbf
-description: "Summary: Learn about the levels at which you can delegate administration of the SharePoint 2013 and SharePoint Server 2016 farm."
+description: "Learn about the levels at which you can delegate administration of the SharePoint Server farm."
 ---
 
 # Choose administrators and owners for the administration hierarchy in SharePoint Server
 
- **Summary:** Learn about the levels at which you can delegate administration of the SharePoint 2013 and SharePoint Server 2016 farm. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 This article describes the administrator roles that correspond to the SharePoint Server server and site hierarchy. Many people can be involved in managing SharePoint Server. Administration of SharePoint Server occurs at the following levels: 
   

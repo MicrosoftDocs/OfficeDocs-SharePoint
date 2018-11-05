@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 7759e1a1-9393-4983-87af-368bdc47d941
-description: "Summary: Learn how to upload and apply a new master page to a publishing site in SharePoint Server 2016."
+description: "Learn how to upload and apply a new master page to a publishing site in SharePoint Server 2016."
 ---
 
 # Stage 6: Upload and apply a new master page to a publishing site in SharePoint Server
 
- **Summary:** Learn how to upload and apply a new master page to a publishing site in SharePoint Server 2016. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 > [!NOTE]
 > Most of the features described in this series are available only for private sites collections in SharePoint Online. 

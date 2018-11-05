@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - Ent_TLGs
 ms.assetid: 056e74ea-9428-45f8-abed-1040d8e413dd
-description: "Summary: Create a single-server SharePoint 2016 dev/test farm in Microsoft Azure infrastructure services."
+description: "Create a single-server SharePoint 2016 dev/test farm in Microsoft Azure infrastructure services."
 ---
 
 # SharePoint Server 2016 dev/test environment in Azure
 
- **Summary:** Create a single-server SharePoint 2016 dev/test farm in Microsoft Azure infrastructure services. 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)] 
   
 This article steps you through the creation of a SharePoint Server 2016 dev/test farm hosted in Azure. Here is the resulting configuration.
   

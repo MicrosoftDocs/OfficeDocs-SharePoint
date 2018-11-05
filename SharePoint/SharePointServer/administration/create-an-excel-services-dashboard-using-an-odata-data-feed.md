@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: cdaf9810-59dc-4afb-af6a-36ceb3795da7
 
-description: "Summary: Learn how to create an Excel Services dashboard that can be published to a library in SharePoint Server 2013."
+description: "Learn how to create an Excel Services dashboard that can be published to a library in SharePoint Server 2013."
 ---
 
 # Create an Excel Services dashboard using an OData data feed
 
- **Summary:** Learn how to create an Excel Services dashboard that can be published to a library in SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
   
 This article describes, step by step, how to use Excel 2016 to create a basic dashboard that contains two reports and two filters. The example dashboard described in this article resembles the following image:
   

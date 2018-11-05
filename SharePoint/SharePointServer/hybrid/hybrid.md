@@ -13,12 +13,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: f26ad022-5c99-4a27-a093-52cc9ee71296
-description: "Summary: Learn about SharePoint Server hybrid environments and the hybrid solutions available for SharePoint Server and SharePoint Online."
+description: "Learn about SharePoint Server hybrid environments and the hybrid solutions available for SharePoint Server and SharePoint Online."
 ---
 
 # Hybrid for SharePoint Server
 
- **Summary:** Learn about SharePoint Server hybrid environments and the hybrid solutions available for SharePoint Server and SharePoint Online. 
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)] 
   
 With SharePoint Server hybrid, productivity services in SharePoint Online can be integrated with on-premises SharePoint Server to provide unified functionality and access to data. For enterprises that want to gradually move their existing on-premises SharePoint Server services to the cloud, SharePoint Server hybrid provides a staged migration path by extending high-impact SharePoint Server workloads to SharePoint Online.
   

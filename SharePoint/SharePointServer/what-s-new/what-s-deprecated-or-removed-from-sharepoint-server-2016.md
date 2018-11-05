@@ -12,10 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 5af9ee8b-39b8-489b-bcb9-64099618db51
-description: "Learn about the features and functionality that are deprecated or removed in SharePoint Server 2016"
+description: "Learn about the features and functionality that are deprecated or removed in SharePoint Server"
 ---
 
 # What's deprecated or removed from SharePoint Server 2016
+
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]
 
 Learn about the features and functionality that are deprecated or removed in SharePoint Server 2016
   

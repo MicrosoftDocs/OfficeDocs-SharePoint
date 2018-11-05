@@ -10,10 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 883fac19-3048-4ef0-b473-10b3b05493b6
-description: "Learn how to manage your MinRole farm deployment in SharePoint Servers 2016 and 2019."
+description: "Learn how to manage your MinRole farm deployment in SharePoint Server."
 ---
 
 # Managing a MinRole Server Farm in SharePoint Servers 2016 and 2019
+
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)]
 
 Learn how to manage your MinRole farm deployment in SharePoint Servers 2016 and 2019.
   

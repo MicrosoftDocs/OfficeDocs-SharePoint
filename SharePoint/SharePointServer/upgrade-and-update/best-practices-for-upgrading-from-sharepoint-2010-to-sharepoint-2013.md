@@ -12,13 +12,13 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 5844f7f1-56ac-4742-bc76-2466e02cb7fb
-description: "Summary: Understand how to get the most out of testing upgrade and how to guarantee a smooth upgrade to SharePoint 2013."
+description: "Understand how to get the most out of testing upgrade and how to guarantee a smooth upgrade to SharePoint 2013."
 ---
 
 # Best practices for upgrading from SharePoint 2010 to SharePoint 2013
 
- **Summary:** Understand how to get the most out of testing upgrade and how to guarantee a smooth upgrade to SharePoint 2013. 
-  
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+
 To increase your chances of a successful and faster upgrade to SharePoint 2013, follow these best practices to test and complete an upgrade.
   
 ## Best practices for testing upgrade

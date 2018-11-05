@@ -15,10 +15,13 @@ ms.collection:
 - Strat_SP_gtc
 ms.custom: 
 ms.assetid: dcac4cbf-7840-470a-9712-3b968c4f06d0
+description: Learn how to use the Hybrid Picker wizard in the SharePoint Online admin center.
 
 ---
 
 # Hybrid picker in the SharePoint Online admin center
+
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
 
 ## What is the Hybrid Picker?
 

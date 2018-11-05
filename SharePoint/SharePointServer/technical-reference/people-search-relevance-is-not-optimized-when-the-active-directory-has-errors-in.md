@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 982d3ab2-d1a6-4625-b4c6-e12a1f4532d5
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer rulePeople Search relevance is not optimized when the Active Directory has errors in the manager reporting structure, for SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: People Search relevance is not optimized when the Active Directory has errors in the manager reporting structure, for SharePoint Server."
 ---
 
 # People Search relevance is not optimized when the Active Directory has errors in the manager reporting structure (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "People Search relevance is not optimized when the Active Directory has errors in the manager reporting structure", for SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
  **Rule Name:** People Search relevance is not optimized when the Active Directory has errors in the manager reporting structure. 
   

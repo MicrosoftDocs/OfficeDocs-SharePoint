@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 45ad90e6-c2e1-497a-9d4e-e7ac32ae09a5
-description: "Summary: Learn how search results are displayed in SharePoint Server."
+description: "Learn how search results are displayed in SharePoint Server."
 ---
 
 # Understanding how classic search results are displayed in SharePoint Server
 
- **Summary:** Learn how classic search results are displayed in SharePoint Server. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 In this article, you'll learn:
   

@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 1eea992e-321d-42ba-a420-4e58530cb32e
-description: "Summary: Learn how to configure Exchange Autodiscover to find a user's SharePoint My Site URL."
+description: "Learn how to configure Exchange Autodiscover to find a user's SharePoint My Site URL."
 ---
 
 # Configure Exchange Autodiscover with a My Site Host URL in SharePoint Server
 
- **Summary:** Learn how to configure Exchange Autodiscover to find a user's SharePoint My Site URL. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 In SharePoint Server, a My Site gives users rich social networking and collaboration features that enable content sharing, discussions, and other features for users to do their jobs. The Exchange Server 2013 Autodiscover service configures profile settings on mail clients and mobile devices based on a supplied user name and password. The Autodiscover service can also be configured to allow for a simpler, seamless configuration experience to a My Site for Office 2016 client integration. For example, Office 2016 client and mobile phone apps can use Exchange Autodiscover to find a user's My Site based on the My Site Host URL stored in Active Directory Domain Services (AD DS). Instead of identifying and entering the My Site Host URL, a user's email address and password are the only requirements to configure and provision client functionality for:
   

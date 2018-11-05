@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: b37c1d36-5bfe-4f76-bb03-2c5436c043a2
 
-description: "Summary: Learn how to install and configure workflow in SharePoint Server."
+description: "Learn how to install and configure workflow in SharePoint Server."
 ---
 
 # Install and configure workflow for SharePoint Server
 
- **Summary:** Learn how to install and configure workflow in SharePoint Server. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 This article contains the information and procedures required to configure workflow in SharePoint Server.
   

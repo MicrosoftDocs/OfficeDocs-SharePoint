@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 9e952b26-fb0e-48a5-89b1-054f54f9b986
-description: "Summary: Visio Services lets users share and view Visio diagrams. It also enables data-connected Visio diagrams to be refreshed and updated from various data sources."
+description: "Visio Services lets users share and view Visio diagrams. It also enables data-connected Visio diagrams to be refreshed and updated from various data sources."
 ---
 
 # Overview of Visio Services in SharePoint Server
 
- **Summary:** Visio Services lets users share and view Visio diagrams. It also enables data-connected Visio diagrams to be refreshed and updated from various data sources. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 Visio Services runs as a SharePoint Server service application. It uses the Visio Graphics Service which runs under the Front-end server role.
   

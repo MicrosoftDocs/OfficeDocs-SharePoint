@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 0ddfbc04-e4a9-4f71-8afb-7e12e2e45805
-description: "Summary: Use test results and recommendations to estimate performance and capacity requirements for a divisional collaboration environment for SharePoint Server 2013."
+description: "Use test results and recommendations to estimate performance and capacity requirements for a divisional collaboration environment for SharePoint Server."
 ---
 
 # Estimate performance and capacity requirements for divisional collaboration environments (SharePoint Server 2013)
 
- **Summary:** Use test results and recommendations to estimate performance and capacity requirements for a divisional collaboration environment for SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
   
 This article describes guidance about performance and capacity planning for a divisional collaboration solution that is based on SharePoint Server 2013. The following information is included in this article:
   

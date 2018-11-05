@@ -11,12 +11,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 9b1e8b21-7675-4186-beb6-3adeef4360e6
-description: "Summary: Learn about sizing and location information for the databases that support SharePoint Server 2019, SharePoint Server 2016, and SharePoint 2013Databases."
+description: "Learn about sizing and location information for the databases that support SharePoint Server Databases."
 ---
 
 # Database types and descriptions in SharePoint Server
 
- **Summary:** Learn about sizing and location information for the databases that support SharePoint Server 2019, SharePoint Server 2016, and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 This article describes the databases that are installed for SharePoint Server. Each database description includes information about sizing and placement. For more information see [Storage and SQL Server capacity planning and configuration (SharePoint Server)](../administration/storage-and-sql-server-capacity-planning-and-configuration.md).
   

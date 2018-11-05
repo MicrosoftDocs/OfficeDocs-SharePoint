@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: e2e13d19-21ca-44ef-bd49-0f6120137186
-description: "Summary: Learn a second option for displaying values from custom managed properties in SharePoint Server."
+description: "Learn a second option for displaying values from custom managed properties in SharePoint Server."
 ---
 
 # How to display values from custom managed properties in classic search results - option 2 in SharePoint Server
 
- **Summary:** Learn a second option for displaying values from custom managed properties in SharePoint Server. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 In [How to display values from custom managed properties in search results - option 1 in SharePoint Server](how-to-display-values-from-custom-managed-properties-in-search-resultsoption-1.md) we showed a simple method to add a custom icon and values from two custom managed properties to your classic search results. In this topic, we'll look at a somewhat fuller method for changing the way classic search results are displayed that includes if statements and hit highlighting. In this article, you'll learn: 
   

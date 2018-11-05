@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 7c877590-c6b4-48b2-aee3-330c5d42d44c
-description: "Summary: Learn how to install and configure Remote BLOB Storage (RBS) that uses a third-party RBS Provider for SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to install and configure Remote BLOB Storage (RBS) that uses a third-party RBS Provider for SharePoint Server."
 ---
 
 # Install and configure RBS with a 3rd party provider for SharePoint Server
 
- **Summary:** Learn how to install and configure Remote BLOB Storage (RBS) that uses a third-party RBS Provider for SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 SharePoint Server uses the RBS feature to store BLOBs outside the content database. For more information about RBS, see [Overview of RBS in SharePoint Server](rbs-overview.md).
   

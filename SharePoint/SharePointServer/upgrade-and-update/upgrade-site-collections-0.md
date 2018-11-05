@@ -13,12 +13,12 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 ms.assetid: da33f21e-c6cc-4391-95e8-d74526f51c6e
 
-description: "Summary: Find out how to upgrade a site collection to SharePoint 2013."
+description: "Find out how to upgrade a site collection to SharePoint 2013."
 ---
 
 # Upgrade site collections to SharePoint 2013
 
- **Summary:** Find out how to upgrade a site collection to SharePoint 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 The following downloadable resources, articles, video recordings, and related resources provide information about upgrading site collections to SharePoint 2013.
   

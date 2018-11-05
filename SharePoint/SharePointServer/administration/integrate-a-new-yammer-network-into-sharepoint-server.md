@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 6485e76d-9c52-40eb-ae0f-4e00c321c7d8
-description: "Summary: Learn how to integrate a new Yammer Enterprise network into an existing SharePoint Server environment."
+description: "Learn how to integrate a new Yammer Enterprise network into an existing SharePoint Server environment."
 ---
 
 # Integrate a new Yammer network into SharePoint Server
 
- **Summary:** Learn how to integrate a new Yammer Enterprise network into an existing SharePoint Server environment. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 This scenario describes the prerequisites and recommended steps to integrate a new Yammer Enterprise network together with your existing SharePoint Server environment.
   

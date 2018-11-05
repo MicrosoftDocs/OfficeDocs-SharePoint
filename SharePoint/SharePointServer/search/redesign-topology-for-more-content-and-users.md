@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 9b5a1f99-0193-4a97-b0d1-4a5633b32c43
-description: "Summary: Learn how to redesign the topology of your enterprise search architecture for growth in content, growth in number of users, or both."
+description: "Learn how to redesign the topology of your enterprise search architecture for growth in content, growth in number of users, or both."
 ---
 
 # Redesign enterprise search topology for more content and users in SharePoint
 
- **Summary:** Learn how to redesign the topology of your enterprise search architecture for growth in content, growth in number of users, or both. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 Over time most search environments grow, both in amount of content and number of users. At some point the search environment outgrows the capacity and performance of your search architecture. The solution is to scale the topology of your search architecture:
   

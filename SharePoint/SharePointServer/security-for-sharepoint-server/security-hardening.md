@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 763613ac-83f4-424e-99d0-32efd0667bd9
-description: "Summary: Learn about security hardening for SharePoint Server 2013 and SharePoint Server 2016 and database server roles, including specific hardening requirements for ports, protocols, and services."
+description: "Learn about security hardening for SharePoint Server and database server roles, including specific hardening requirements for ports, protocols, and services."
 ---
 
 # Plan security hardening for SharePoint Server
 
- **Summary:** Learn about security hardening for SharePoint Server 2013 and SharePoint Server 2016 and database server roles, including specific hardening requirements for ports, protocols, and services. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]  
   
     
 ## Secure server snapshots

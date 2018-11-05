@@ -20,6 +20,8 @@ description: "When a user follows a site, a link to that site is added to the us
 
 # Hybrid site following
 
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+
 When a user follows a site, a link to that site is added to the user's Followed Sites list. If you're using both SharePoint Server and SharePoint Online, your users will have different followed lists for sites in each location. With SharePoint hybrid, you can consolidate the information from both locations into the SharePoint Online list in Office 365.
   
 ## How hybrid site following works

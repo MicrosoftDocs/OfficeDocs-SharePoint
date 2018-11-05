@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 5239beaf-e8e8-4eb6-a0c6-b7637579098f
-description: "Summary: Learn how to add a server to an existing SharePoint 2013 farm so the server can later be configured for use as a front-end web server or as an application server."
+description: "Learn how to add a server to an existing SharePoint farm so the server can later be configured for use as a front-end web server or as an application server."
 ---
 
 # Add web or application servers to farms in SharePoint 2013
 
- **Summary:** Learn how to add a server to an existing SharePoint 2013 farm so the server can later be configured for use as a front-end web server or as an application server. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
   
 The procedures in this article apply to a SharePoint 2013 farm that consists of at least two tiers. This article does not describe how to convert a single-server deployment to a multiple-server farm.
   

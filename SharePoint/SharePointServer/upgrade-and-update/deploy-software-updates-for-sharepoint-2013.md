@@ -13,12 +13,12 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 ms.assetid: 848b8f29-1deb-4ee8-92d3-8e3090ec83b0
 
-description: "Summary: Learn how to prepare for, download, install, and then configure software updates and patches for SharePoint 2013."
+description: "Learn how to prepare for, download, install, and then configure software updates and patches for SharePoint 2013."
 ---
 
 # Deploy software updates for SharePoint 2013
 
- **Summary:** Learn how to prepare for, download, install, and then configure software updates and patches for SharePoint 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
   
 Microsoft periodically releases software updates for SharePoint 2013. The following articles and related resources provide information about the software update process for SharePoint 2013.
   

@@ -13,12 +13,12 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 ms.custom: Ent_Solutions
 ms.assetid: b71ccbbf-37c0-46c2-a403-20934e1e104e
-description: "Summary: Configure the SQL Server infrastructure to host a high-availability SharePoint Server 2016 farm in Microsoft Azure."
+description: "Configure the SQL Server infrastructure to host a high-availability SharePoint Server 2016 farm in Microsoft Azure."
 ---
 
 # SharePoint Intranet Farm in Azure Phase 3: Configure SQL Server Infrastructure
 
- **Summary:** Configure the SQL Server infrastructure to host a high-availability SharePoint Server 2016 farm in Microsoft Azure. 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)] 
   
 In this phase of deploying an intranet-only SharePoint Server 2016 farm in Azure infrastructure services, you create and configure the two SQL Server virtual machines and the cluster majority node, and then combine them into a Windows Server cluster.
   

@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 81890ff0-e2f9-4752-8e8e-2e8502c76311
-description: "Summary: Learn how to view, add, edit, map, and delete crawled properties, crawled property categories and managed properties in the search schema."
+description: "Learn how to view, add, edit, map, and delete crawled properties, crawled property categories and managed properties in the search schema."
 ---
 
 # Manage the search schema in SharePoint Server
 
- **Summary:** Learn how to view, add, edit, map, and delete crawled properties, crawled property categories and managed properties in the search schema. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 The search schema in SharePoint Server determines how content is collected in and retrieved from the search index in SharePoint Server.
   

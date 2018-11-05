@@ -10,14 +10,14 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 52966fa3-1654-41b2-aea5-d1d5d007534e
-description: "Summary: Learn how to apply a disaster recovery strategy for Access Services in SharePoint Server 2013 and SharePoint Server 2016."
+description: "Learn how to apply a disaster recovery strategy for Access Services in SharePoint Server."
 ---
 
 # Disaster Recovery best practices for SharePoint Server and Access Services
 
- **Summary:** Learn how to apply a disaster recovery strategy for Access Services in SharePoint Server 2013 and SharePoint Server 2016. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
-The article explains how to successfully implement a disaster recovery (DR) strategy for Access Services service applications for SharePoint Server 2013 and SharePoint Server 2016 .
+The article explains how to successfully implement a disaster recovery (DR) strategy for Access Services service applications for SharePoint Server.
   
 Thanks to Neil Hodgkinson, Microsoft Senior Program Manager for testing this disaster recovery strategy and providing the content for this article.
   
@@ -104,7 +104,7 @@ You can reference as many Access Services Application Database Servers as you ne
   
 ### c. Know the databases that support the Access Services Service Application
 
-Rather than having their own service application databases, Access Services in SharePoint Server 2013 and SharePoint Server 2016 have tight dependencies on multiple databases in a SharePoint farm.
+Rather than having their own service application databases, Access Services in SharePoint Server have tight dependencies on multiple databases in a SharePoint farm.
   
 These databases need to be managed as a part of your Disaster Recovery strategy.
   

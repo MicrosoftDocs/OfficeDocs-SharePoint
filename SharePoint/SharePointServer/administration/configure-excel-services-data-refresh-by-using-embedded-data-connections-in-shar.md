@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 2be5291e-b6cc-4730-bc58-78b14ea1984b
-description: "Summary: Configure Excel Services in SharePoint Server 2013 to use a Secure Store target application for external data refresh."
+description: "Configure Excel Services in SharePoint Server to use a Secure Store target application for external data refresh."
 ---
 
 # Configure Excel Services data refresh by using embedded data connections in SharePoint Server 2013
 
- **Summary:** Configure Excel Services in SharePoint Server 2013 to use a Secure Store target application for external data refresh. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
   
 Excel Services in SharePoint Server 2013 supports three methods of using Secure Store Service to connect to external data:
   

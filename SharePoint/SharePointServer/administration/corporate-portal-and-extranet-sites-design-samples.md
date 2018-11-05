@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 1cffb278-6497-46fc-abd0-3dd652064c89
-description: "Summary: Describes logical architecture design choices for the most common SharePoint 2013 and SharePoint Server 2016 design samples."
+description: "Describes logical architecture design choices for the most common SharePoint Server design samples."
 ---
 
 # SharePoint Server design samples: Corporate portal and extranet sites
 
- **Summary:** Describes logical architecture design choices for the most common SharePoint 2013 and SharePoint Server 2016 design samples. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 This article discusses several design samples that can be used as starting-point architectures for SharePoint sites. The design samples described in this article illustrate standard architectures for the most common types of SharePoint sites that are deployed within a company or organization. 
     

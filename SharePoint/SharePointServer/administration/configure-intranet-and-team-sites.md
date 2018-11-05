@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: b2b379b8-838c-4faa-b3ca-9d1eacd94b01
-description: "Summary: Learn how to configure intranet and team sites based on the Test Lab Guide: Configure SharePoint Server 2013 in a three-tier farm."
+description: "Learn how to configure intranet and team sites based on the Test Lab Guide: Configure SharePoint Server 2013 in a three-tier farm."
 ---
 
 # Test Lab Guide: Configure intranet and team sites for SharePoint Server 2013
 
- **Summary:** Learn how to configure intranet and team sites based on the [Test Lab Guide: Configure SharePoint Server 2013 in a three-tier farm](configure-sharepoint-server-2013-in-a-three-tier-farm.md).
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 This document explains how to set up multiple web applications, site collections, subsites, and pages for intranet departments and teams.
   

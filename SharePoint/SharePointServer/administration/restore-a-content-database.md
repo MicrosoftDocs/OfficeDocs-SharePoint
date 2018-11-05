@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 240f8caa-afb3-44ce-90bb-861cfa258b09
-description: "Summary: Learn how to restore a content database in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to restore a content database in SharePoint Server."
 ---
 
 # Restore content databases in SharePoint Server
 
- **Summary:** Learn how to restore a content database in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 You can restore a content database in SharePoint Server by using the SharePoint Central Administration website, PowerShell, or SQL Server tools. The restore tool that you use depends on the kind of environment that you have deployed, your schedule requirements, and service level agreements that you have made with your organization.
   

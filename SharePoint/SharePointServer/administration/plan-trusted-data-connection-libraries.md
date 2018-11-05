@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: cbb210e8-2969-4fd5-a82d-08ad1996c5b4
-description: "Summary: Use Excel Services trusted data connection libraries to manage and secure data connections for Excel Services in SharePoint Server 2013."
+description: "Use Excel Services trusted data connection libraries to manage and secure data connections for Excel Services in SharePoint Server."
 ---
 
 # Plan Trusted Data Connection Libraries in SharePoint Server 2013
 
- **Summary:** Use Excel Services trusted data connection libraries to manage and secure data connections for Excel Services in SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 Excel Services provides the ability to connect to external data sources and refresh the data in data-connected Excel workbooks when it renders them in a browser. Data connections can be loaded by using information from the workbook file, but using a data connection library provides an additional layer for data connections so that they can be managed separately from workbooks.
   

@@ -11,12 +11,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: b23e4fb4-6ee1-451e-92b3-7c90be5dc7e7
-description: "Summary: Learn about the default timer jobs in SharePoint Server 2016."
+description: "Learn about the default timer jobs in SharePoint Server."
 ---
 
 # Default timer jobs in SharePoint Server 2016
 
- **Summary:** Learn about the default timer jobs in SharePoint Server 2016.
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]
   
 ## Default timer jobs
 <a name="DefaultJobs"> </a>

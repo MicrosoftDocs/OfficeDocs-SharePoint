@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 7e7709fc-d679-49f4-8057-e88bdd3a8cf9
-description: "Summary: Learn how to plan effective information architecture to ensure that your SharePoint solution meets your business needs."
+description: "Learn how to plan effective information architecture to ensure that your SharePoint solution meets your business needs."
 ---
 
 # Information management and governance in SharePoint
 
- **Summary:** Learn how to plan effective information architecture to ensure that your SharePoint solution meets your business needs. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 How will you govern the information in your organization, such as documents, lists, websites, and webpages? How do you maximize the information's usability and manageability? Who has access to what information? How are you making information available internally and externally, and to whom?
   

@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 55b99d80-3fa7-49f0-bdf4-adb5aa959019
-description: "Summary: Learn about the permissions and security settings to use with a deployment of SharePoint Servers 2016 and 2019."
+description: "Learn about the permissions and security settings to use with a deployment of SharePoint Server."
 ---
 
 # Account permissions and security settings in SharePoint Servers 2016 and 2019
 
- **Summary:** Learn about the permissions and security settings to use with a deployment of SharePoint Servers 2016 and 2019. 
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)] 
   
 This article describes SharePoint administrative and services account permissions for the following areas: Microsoft SQL Server, the file system, file shares, and registry entries.
   

@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: f8f81869-a51f-4d7f-b4b6-52dd99078c23
-description: "Summary: Learn how to restore a single site collection in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to restore a single site collection in SharePoint Server."
 ---
 
 # Restore site collections in SharePoint Server
 
- **Summary:** Learn how to restore a single site collection in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 You can only restore a site collection in SharePoint Server by using PowerShell.
   

@@ -11,12 +11,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 88878bbd-e26e-4fed-8f2a-40a81fb4d528
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleThe timer service failed to recyclefor SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: The timer service failed to recycle, for SharePoint Server."
 ---
 
 # The timer service failed to recycle (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "The timer service failed to recycle" for SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
  **Summary:** The last attempt to recycle the timer service failed. More than half of the attempts during the past week have also failed. 
   

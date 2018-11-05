@@ -13,12 +13,12 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 ms.assetid: 728143ab-23ce-485e-bc5c-06cda38f5c62
 
-description: "Summary: Learn how to upgrade content databases from SharePoint 2010 Products to SharePoint 2013."
+description: "Learn how to upgrade content databases from SharePoint 2010 Products to SharePoint 2013."
 ---
 
 # Upgrade content databases from SharePoint 2010 to SharePoint 2013
 
- **Summary:** Learn how to upgrade content databases from SharePoint 2010 Products to SharePoint 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 When you upgrade from SharePoint 2010 Products to SharePoint 2013, you must use a database attach upgrade, which means that you upgrade only the content for your environment and not the configuration settings. After you have configured the SharePoint 2013 environment, copied the content and service application databases, and upgraded the service applications, you can attach and upgrade the content databases to SharePoint 2013. This article explains the steps you take to attach and upgrade the content databases to SharePoint 2013.
   

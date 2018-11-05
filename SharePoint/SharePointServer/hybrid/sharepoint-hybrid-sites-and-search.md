@@ -20,6 +20,8 @@ description: "A hybrid environment can help your company get started in the clou
 
 # SharePoint hybrid sites and search
 
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+
 A hybrid environment can help your company get started in the cloud, taking a first step to explore the cloud functionality at own your own pace. It also enables enterprise users to be connected from almost anywhere to the resources and content they need.
   
 When you add Office 365 to an environment where you're already using SharePoint Server, by default there's no integration between the two. With SharePoint hybrid features, you can tie the two environments together in a variety of ways to make a more seamless user experience.

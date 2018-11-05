@@ -14,6 +14,8 @@ description: "Learn how to implement best practice disaster recovery for search 
 
 # Disaster recovery best practices and strategies for SharePoint search
 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]
+
 Learn how to implement best practice disaster recovery for search in a SharePoint Server farm.
   
 This article gives best practice guidance that you can use to develop a supported disaster recovery (DR) strategy for search in SharePoint Server. Many of the approaches used for disaster recovery in earlier versions of SharePoint Server don't provide the same level of recovery for SharePoint Server. We examine these approaches and provide replacement options together with the benefits and limitations that you need to know about.

@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: faab1eb4-5848-4970-b13f-ba6df14272fe
-description: "Summary: Learn to configure diagnostic logging in SharePoint Server 2013 and SharePoint Server 2016 from the SharePoint Central Administration website or by using Microsoft PowerShell."
+description: "Learn to configure diagnostic logging in SharePoint Server from the SharePoint Central Administration website or by using Microsoft PowerShell."
 ---
 
 # Configure diagnostic logging in SharePoint Server
 
- **Summary:** Learn to configure diagnostic logging in SharePoint Server 2013 and SharePoint Server 2016 from the SharePoint Central Administration website or by using Microsoft PowerShell. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
     
 ## Prerequisites

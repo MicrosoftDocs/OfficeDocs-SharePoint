@@ -10,10 +10,12 @@ localization_priority: Normal
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-description: "Summary: Learn about the timer jobs in SharePoint Server 2019."
+description: "Learn about the timer jobs in SharePoint Server."
 ---
 
 # Default timer jobs in SharePoint Server 2019
+
+[!INCLUDE[appliesto-xxx-xxx-2019-xxx-md](../includes/appliesto-xxx-xxx-2019-xxx-md.md)]
 
 ## Default timer jobs
 <a name="DefaultJobs"> </a>

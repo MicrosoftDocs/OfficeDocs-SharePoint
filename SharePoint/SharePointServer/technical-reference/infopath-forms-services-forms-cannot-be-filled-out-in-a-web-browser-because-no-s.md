@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 8de5bc7f-026c-4685-a6f6-a8fd814c2b70
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleInfoPath Forms Services forms cannot be filled out in a Web browser because no State Service connection is configured, in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: InfoPath Forms Services forms cannot be filled out in a Web browser because no State Service connection is configured."
 ---
 
 # InfoPath Forms Services forms cannot be filled out in a Web browser because no State Service connection is configured (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "InfoPath Forms Services forms cannot be filled out in a Web browser because no State Service connection is configured", in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
  **Rule Name:** InfoPath Forms Services forms cannot be filled out in a Web browser because no State Service connection is configured. 
   

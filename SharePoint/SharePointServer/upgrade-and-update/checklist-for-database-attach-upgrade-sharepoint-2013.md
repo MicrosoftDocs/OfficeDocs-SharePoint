@@ -13,12 +13,12 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 ms.assetid: 0ba93198-452f-4e84-9e48-e3f0e5ae8f5b
 
-description: "Summary: Use this checklist as you upgrade from SharePoint 2010 Products to SharePoint 2013."
+description: "Use this checklist as you upgrade from SharePoint 2010 Products to SharePoint 2013."
 ---
 
 # Checklist for database-attach upgrade (SharePoint 2013)
 
- **Summary:** Use this checklist as you upgrade from SharePoint 2010 Products to SharePoint 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 This checklist helps you confirm that you follow all the steps that you must follow as you prepare for upgrade, perform the upgrade, and perform post-upgrade steps. This checklist applies only to upgrade of the content and service application databases. It does not apply to upgrade of My Sites or other site collections. For more information, see [Upgrade a site collection to SharePoint 2013](upgrade-a-site-collection-to-sharepoint-2013.md).
   

@@ -13,12 +13,12 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 ms.assetid: 99684f0b-f617-4c10-8420-d4d0adea3687
 
-description: "Summary: Create and configure a SharePoint Server 2019 farm so that you can upgrade databases from SharePoint 2016."
+description: "Create and configure a SharePoint Server 2019 farm so that you can upgrade databases from SharePoint 2016."
 ---
 
 # Create the SharePoint Server 2019 farm for a database attach upgrade
 
- **Summary:** Create and configure a SharePoint Server 2019 farm so that you can upgrade databases from SharePoint 2016. 
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)]   
   
 When you upgrade from SharePoint Server 2016 to SharePoint Server 2019, you must use a database attach upgrade, which means that you upgrade only the content for your environment and not the configuration settings. Before you can upgrade the content, you must configure a new server or server farm by using SharePoint Server 2019. This article lists the items that you have to configure when you create that new environment.
   

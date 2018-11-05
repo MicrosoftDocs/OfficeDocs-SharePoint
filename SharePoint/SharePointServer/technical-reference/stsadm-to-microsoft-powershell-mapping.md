@@ -13,12 +13,12 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 ms.assetid: 27b19a11-5c60-4b5f-bd47-f98081d5493e
 
-description: "Summary: Lists Stsadm operations and their equivalent PowerShell cmdlets."
+description: "Lists Stsadm operations and their equivalent PowerShell cmdlets."
 ---
 
 # Stsadm to Microsoft PowerShell mapping in SharePoint Server
 
- **Summary:** Lists Stsadm operations and their equivalent PowerShell cmdlets. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
  Where there is no one-to-one mapping between the operations and cmdlets, the table lists the specific PowerShell parameters you must use to get the same functionality. 
   

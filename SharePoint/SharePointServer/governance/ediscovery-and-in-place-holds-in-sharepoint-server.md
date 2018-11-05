@@ -10,10 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: d6a85e37-4a3c-4c89-913c-563bb9c8a013
-description: "Summary: Learn about eDiscovery across SharePoint Server 2016 and Exchange Server 2016, or SharePoint Server 2013 and Exchange Server 2013, and the eDiscovery Center, eDiscovery cases, in-place holds, and exports."
+description: "Learn about eDiscovery across SharePoint Server 2016 and Exchange Server 2016, or SharePoint Server 2013 and Exchange Server 2013, and the eDiscovery Center, eDiscovery cases, in-place holds, and exports."
 ---
 
 # eDiscovery and in-place holds in SharePoint Server
+
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
 
  **Summary:** Learn about eDiscovery across SharePoint Server 2016 and Exchange Server 2016, or SharePoint Server 2013 and Exchange Server 2013, and the eDiscovery Center, eDiscovery cases, in-place holds, and exports. 
   

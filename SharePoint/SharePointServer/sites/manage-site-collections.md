@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 606ba9e1-807a-4a1a-a1ad-4bad474e5371
-description: "Summary: Use these articles to learn how to manage site collections in SharePoint Server 2016 and SharePoint 2013."
+description: "Use these articles to learn how to manage site collections in SharePoint Server."
 ---
 
 # Manage site collections in SharePoint Server
 
- **Summary:** Use these articles to learn how to manage site collections in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 The following articles provide information about how to create and delete site collections, how to manage site collection administrators, how to use quota templates to manage site collection storage limits, and how to create connections between specific types of sites in SharePoint Server.
   

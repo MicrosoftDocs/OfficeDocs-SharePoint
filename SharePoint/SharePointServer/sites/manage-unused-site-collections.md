@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 4737381b-24e5-4c32-bdff-10dd4a81e648
-description: "Summary: How to manage unused site collections and how to delete site collections automatically in SharePoint Server 2016 and SharePoint 2013."
+description: "How to manage unused site collections and how to delete site collections automatically in SharePoint Server."
 ---
 
 # Manage unused site collections in SharePoint Server
 
- **Summary:** How to manage unused site collections and how to delete site collections automatically in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 > [!NOTE]
 > To send email notifications, you must configure outgoing email settings. For more information, see [Configure outgoing email for a SharePoint Server farm](../administration/outgoing-email-configuration.md). 

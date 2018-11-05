@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: d7d023a6-0d61-47ae-b442-3fd8108bcbb7
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleDistributed cache service is unexpectedly configured on server(s)in SharePoint Server 2016."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: Distributed cache service is unexpectedly configured on server(s), for SharePoint Server 2016."
 ---
 
 # Distributed cache service is unexpectedly configured on server(s) (SharePoint Server 2016)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "Distributed cache service is unexpectedly configured on server(s)" in SharePoint Server 2016. 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]
   
  **Rule Name:** Distributed cache service is unexpectedly configured on server(s). 
 

@@ -11,12 +11,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: f140e0ad-07e4-42f8-a198-54d800355698
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleThe Machine Translation Service is not running when it should be running, in SharePoint Server 2016 and SharePoint Server 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: The Machine Translation Service is not running when it should be running, for SharePoint Server."
 ---
 
 # The Machine Translation Service is not running when it should be running (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "The Machine Translation Service is not running when it should be running", in SharePoint Server 2016 and SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
  **Rule Name:** The Machine Translation Service is not running when it should be running. 
   

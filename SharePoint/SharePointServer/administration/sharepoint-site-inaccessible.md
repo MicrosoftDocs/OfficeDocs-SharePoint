@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: b30dfec9-22b5-4e59-b2fc-e1e3077222cb
-description: "Summary: Troubleshooting the SharePoint Server 2016, SharePoint Server 2013, and SharePoint Online site inaccessible error can be hard. Here is a workflow that both users and administrators can use to identify and fix some of the most common causes of the site inaccessible error."
+description: "Troubleshooting the SharePoint Server and SharePoint Online site inaccessible error can be hard. Here is a workflow that both users and administrators can use to identify and fix some of the most common causes of the site inaccessible error."
 ---
 
 # SharePoint site inaccessible in SharePoint Server
 
- **Summary:** Troubleshooting the SharePoint Server 2016, SharePoint Server 2013, and SharePoint Online site inaccessible error can be hard. Here is a workflow that both users and administrators can use to identify and fix some of the most common causes of the site inaccessible error. 
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
   
 There are many different root causes that can lead to a user or administrator encountering the site inaccessible error in either SharePoint Server, or SharePoint Online. The root cause can be anywhere between the browser and the back end database or in one of the supporting systems, like DNS or the network. When you encounter the site inaccessible error, or other slow or no response SharePoint Server or SharePoint Online sites you can start your troubleshooting with this workflow.
   

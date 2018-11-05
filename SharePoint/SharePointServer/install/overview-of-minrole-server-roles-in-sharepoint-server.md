@@ -14,10 +14,12 @@ ms.collection:
 - Strat_SP_server
 ms.custom: 
 ms.assetid: a590d614-7488-4b03-8c8f-d45dd48ca726
-description: "Learn about the new MinRole farm topology and its benefits in SharePoint Servers 2016 and 2019."
+description: "Learn about the new MinRole farm topology and its benefits in SharePoint Server."
 ---
 
 # Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019
+
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)]
 
 Learn about the new MinRole farm topology and its benefits in SharePoint Servers 2016 and 2019.
   

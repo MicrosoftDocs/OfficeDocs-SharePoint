@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: f6a5ef4c-e49b-4f5e-bcfe-4df4c59b445f
-description: "Summary: Learn how to address issues with branding, such as custom CSS, custom themes, and custom master pages, and custom page layouts in an upgraded site."
+description: "Learn how to address issues with branding, such as custom CSS, custom themes, and custom master pages, and custom page layouts in an upgraded site."
 ---
 
 # Branding issues that may occur when upgrading to SharePoint 2013
 
- **Summary:** Learn how to address issues with branding, such as custom CSS, custom themes, and custom master pages, and custom page layouts in an upgraded site. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 SharePoint 2013 introduces a new user interface that is lightweight, fast, and fluid. This UI is built by using new CSS styles, themes, and master pages. To get this new experience, you must upgrade to the new UI. But the significant changes that were made to support the new UI may break the upgrade story for some scenarios where you use custom branding.
   

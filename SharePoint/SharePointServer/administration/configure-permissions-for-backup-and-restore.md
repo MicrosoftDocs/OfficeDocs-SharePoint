@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 3a25437a-e994-42c7-b4df-ac9fa29f38f5
-description: "Summary: Learn how to configure permissions for backup and restore operations in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to configure permissions for backup and restore operations in SharePoint Server."
 ---
 
 # Configure backup and restore permissions in SharePoint Server
 
- **Summary:** Learn how to configure permissions for backup and restore operations in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 You can configure backup and restore permissions for SharePoint Server by using the SharePoint Central Administration website or Microsoft PowerShell. The backup tool that you use depends on the kind of environment that you have deployed, your backup schedule requirements, and service level agreements that you have made with your organization.
   

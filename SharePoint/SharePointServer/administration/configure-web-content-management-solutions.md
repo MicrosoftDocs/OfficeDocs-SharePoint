@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: f7ff55ed-7107-431f-8c0d-7b0dfc861488
 
-description: "Summary: Learn how to install and configure SharePoint Server web content management solutions that use cross-site collection publishing."
+description: "Learn how to install and configure SharePoint Server web content management solutions that use cross-site collection publishing."
 ---
 
 # Configure web content management solutions in SharePoint Server
 
- **Summary:** Learn how to install and configure SharePoint Server web content management solutions that use cross-site collection publishing. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 ## 
 

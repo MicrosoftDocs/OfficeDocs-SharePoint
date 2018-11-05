@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 069bcdb5-f9bb-4346-8304-5be2f768e3dc
-description: "Summary: Lists articles that describe how to configure settings (such as services, authentication, and specific features) after you install SharePoint Server 2016 and SharePoint Server 2013."
+description: "Lists articles that describe how to configure settings (such as services, authentication, and specific features) after you install SharePoint Server."
 ---
 
 # Configure SharePoint Server
 
- **Summary:** Lists articles that describe how to configure settings (such as services, authentication, and specific features) after you install SharePoint Server 2016 and SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 After you install SharePoint Server, you must configure several additional settings to enable key features in your farm. The articles in this section provide steps for configuring these settings.
   

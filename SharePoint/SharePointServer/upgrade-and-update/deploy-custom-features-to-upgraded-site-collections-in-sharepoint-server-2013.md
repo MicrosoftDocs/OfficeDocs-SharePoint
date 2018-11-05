@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: adec5218-e874-4669-b841-8c58d7d0d21b
-description: "Summary: Learn supported scenarios for deploying custom features to upgraded site collections in a SharePoint Server 2013 farm that has been upgraded from SharePoint Server 2010."
+description: "Learn supported scenarios for deploying custom features to upgraded site collections in a SharePoint Server 2013 farm that has been upgraded from SharePoint Server 2010."
 ---
 
 # Deploy custom features to upgraded site collections in SharePoint Server 2013
 
- **Summary:** Learn supported scenarios for deploying custom features to upgraded site collections in a SharePoint Server 2013 farm that has been upgraded from SharePoint Server 2010. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 This article describes how to deploy custom features through solution packages to a SharePoint Server 2013 farm that has been upgraded from SharePoint Server 2010. It includes information and procedures for supported scenarios. It also introduces feature masking. 
   

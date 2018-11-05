@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: 
 ms.assetid: 6a13cd9f-4b44-40d6-85aa-c70a8e5c34fe
 
-description: "Summary: Learn about the tested performance and capacity limits of SharePoint Server 2016 and how limits relate to acceptable performance."
+description: "Learn about the tested performance and capacity limits of SharePoint Server and how limits relate to acceptable performance."
 ---
 
 # Software boundaries and limits for SharePoint Server 2016
 
-Summary: Learn about the tested performance and capacity limits of SharePoint Server 2016 and how limits relate to acceptable performance.
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]
   
 This article describes software boundaries and limits of SharePoint Server 2016. These include the following:
   

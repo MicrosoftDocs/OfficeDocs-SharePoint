@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 766e0169-1a5d-4730-9c9f-7e2b27ba7d5d
-description: "Summary: Learn how to configure properties of the Search Box Web Part."
+description: "Learn how to configure properties of the Search Box Web Part."
 ---
 
 # Configure properties of the Search Box Web Part in SharePoint Server
 
- **Summary:** Learn how to configure properties of the Search Box Web Part. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 By default, the Search Box Web Part is used on the home page for the Search Center (default.aspx), and all search results pages (results.aspx, peopleresults.aspx, conversationresults.aspx, videoresults.aspx). By changing properties in the Search Box Web Part you can you can do the following:
   

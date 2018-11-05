@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 localization_priority: Normal
 ms.assetid: 46aecccb-6196-48b4-a889-cbd408354d56
-description: "Summary: Learn how to configure Forefront TMG 2010 as a reverse proxy device in a SharePoint hybrid environment."
+description: "Learn how to configure Forefront TMG 2010 as a reverse proxy device in a SharePoint hybrid environment."
 ---
 
 # Configure Forefront TMG for a hybrid environment
 
- **Summary:** Learn how to configure Forefront TMG 2010 as a reverse proxy device in a SharePoint hybrid environment. 
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
   
 This article tells you how to set up Forefront Threat Management Gateway (TMG) 2010 for use as a reverse proxy for a hybrid SharePoint Server environment.
   

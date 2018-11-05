@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: c2eda191-1814-423b-882f-1fdafe9df6c9
-description: "Summary: How to create, edit, and delete site quota templates for a SharePoint Server 2016 and SharePoint 2013 site collection."
+description: "How to create, edit, and delete site quota templates for a SharePoint Server site collection."
 ---
 
 # Create, edit, and delete quota templates in SharePoint Server
 
- **Summary:** How to create, edit, and delete site quota templates for a SharePoint Server 2016 and SharePoint 2013 site collection. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 You control how much data a site collection can hold and the quantity of resources it can use by using quotas. For more information about how to plan quotas, see [Quotas](plan-site-maintenance-and-management.md#section1).
   

@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 3fdbc40b-8562-4bec-be89-113a64e19911
-description: "Summary: Learn to configure scheduled data refresh in Power Pivot for SharePoint by using the unattended data refresh account."
+description: "Learn to configure scheduled data refresh in Power Pivot for SharePoint by using the unattended data refresh account."
 ---
 
 # Configure scheduled data refresh for Power Pivot by using the unattended data refresh account (SharePoint Server 2013)
 
- **Summary:** Learn to configure scheduled data refresh in Power Pivot for SharePoint by using the unattended data refresh account. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
   
 > [!IMPORTANT]
 > This scenario applies only to SharePoint Server 2013. 
