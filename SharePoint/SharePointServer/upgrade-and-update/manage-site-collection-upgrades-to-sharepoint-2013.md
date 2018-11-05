@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: bfdcc03f-793f-41b1-96e7-5f7d7e445a38
-description: "Summary: Learn how farm administrators can manage the upgrade queue and throttling settings and upgrade site collections to SharePoint 2013."
+description: "Learn how farm administrators can manage the upgrade queue and throttling settings and upgrade site collections to SharePoint 2013."
 ---
 
 # Manage site collection upgrades to SharePoint 2013
 
- **Summary:** Learn how farm administrators can manage the upgrade queue and throttling settings and upgrade site collections to SharePoint 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 Even though site collection administrators can now upgrade their own sites to SharePoint 2013, server farm administrators can still control when and whether a site collection is upgraded by managing the upgrade queue. You can also view and manage the upgrade throttling settings for a web application or content database to manage your farm's performance for site collection upgrades.
   

@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 9d2d8945-5a6f-45dc-91bd-b588720ba745
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleWeb Applications using Claims authentication require an updatefor SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: Web Applications using Claims authentication require an update, for SharePoint Server."
 ---
 
 # Web Applications using Claims authentication require an update (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "Web Applications using Claims authentication require an update" for SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
  **Rule Name:** Web Applications using Claims authentication require an update. 
   

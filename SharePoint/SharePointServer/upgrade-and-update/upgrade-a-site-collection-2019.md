@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 78e2f208-e4b9-49cd-a036-89809fa24baf
-description: "Summary: Learn how site collection administrators can upgrade their sites to SharePoint Server 2019 and then review site collections for issues."
+description: "Learn how site collection administrators can upgrade their sites to SharePoint Server 2019 and then review site collections for issues."
 ---
 
 # Upgrade a site collection to SharePoint Server 2019
 
- **Summary:** Learn how site collection administrators can upgrade their sites to SharePoint Server 2019 and then review site collections for issues. 
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)]  
   
 In SharePoint Server 2019 the way site collection upgrades are performed has changed. After a server farm administrator has upgraded the databases, site collections are automatically upgraded.
   

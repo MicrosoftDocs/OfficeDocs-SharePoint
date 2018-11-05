@@ -13,12 +13,12 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 ms.assetid: ebbd99e2-98e8-478f-87f3-12f195741b72
 
-description: "Summary: Learn how to plan for SQL Server and storage configuration for SharePoint Server 2016 and SharePoint Server 2013."
+description: "Learn how to plan for SQL Server and storage configuration for SharePoint Server."
 ---
 
 # SQL Server and storage (SharePoint Server)
 
- **Summary:** Learn how to plan for SQL Server and storage configuration for SharePoint Server 2016 and SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 The following articles provide information about SQL Server and storage configuration for SharePoint Server.
   

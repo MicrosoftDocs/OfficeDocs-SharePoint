@@ -13,12 +13,12 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 ms.assetid: ca15deea-3645-4a49-b39d-395ff87195fa
 
-description: "Summary: Find resources about how to test and troubleshoot an upgrade from SharePoint Server 2013 with Service Pack 1 (SP1) to SharePoint Server 2016."
+description: "Find resources about how to test and troubleshoot an upgrade from SharePoint Server 2013 with Service Pack 1 (SP1) to SharePoint Server 2016."
 ---
 
 # Test and troubleshoot an upgrade to SharePoint Server 2016
 
- **Summary:** Find resources about how to test and troubleshoot an upgrade from SharePoint Server 2013 with Service Pack 1 (SP1) to SharePoint Server 2016. 
+
   
 Before you upgrade from SharePoint Server 2013 with Service Pack 1 (SP1) to SharePoint Server 2016, you should take time to test an upgrade process and understand the issues that you might face in an actual upgrade. After you perform a test upgrade, or after you upgrade your actual databases, you might find issues that have to be addressed. After you address issues, you can restart the upgrade to try again.
   

@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: b1926e3b-5263-46e0-ac35-433236dae704
-description: "Summary: Learn how to download, install, and uninstall language packs for SharePoint 2013."
+description: "Learn how to download, install, and uninstall language packs for SharePoint."
 ---
 
 # Install or uninstall language packs for SharePoint 2013
 
- **Summary:** Learn how to download, install, and uninstall language packs for SharePoint 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
   
 Language packs enable site owners and site collection administrators to create SharePoint sites and site collections in multiple languages without requiring separate installations of SharePoint 2013. You install language packs, which contain language-specific site templates, on web and application servers. When an administrator creates a site or a site collection that is based on a language-specific site template, the text that appears on the site or the site collection is displayed in the site template's language. Language packs are typically used in multinational deployments where a single server farm supports users in different locations, or when sites and web pages must be duplicated in one or more languages.
   

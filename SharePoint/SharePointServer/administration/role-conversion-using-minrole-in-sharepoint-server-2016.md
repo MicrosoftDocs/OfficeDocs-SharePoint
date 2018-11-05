@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: bcbddee7-1c77-4788-9a32-fb585c48ee37
-description: "Summary: Learn about how to convert your server roles in a SharePoint farm deployment using MinRole . MinRole help administrators select the right server role when provisioning SharePoint Servers 2016 and 2019."
+description: "Learn about how to convert your server roles in a SharePoint farm deployment using MinRole. MinRole help administrators select the right server role when provisioning SharePoint Server."
 ---
 
 # Role conversion using MinRole in SharePoint Servers 2016 and 2019
 
- **Summary:** Learn about how to convert your server roles in a SharePoint farm deployment using **MinRole**. MinRole help administrators select the right server role when provisioning SharePoint Servers 2016 and 2019. 
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)] 
   
 ## Role Conversion
 

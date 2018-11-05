@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 5eccfa5b-05ec-46b6-935c-a2d8487965da
-description: "Summary: Learn about how to configure the automatic password changes in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn about how to configure the automatic password changes in SharePoint Server."
 ---
 
 # Configure automatic password change in SharePoint Server
 
- **Summary:** Learn about how to configure the automatic password changes in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 Automatic password change enables SharePoint Server to automatically generate long, encrypted passwords on a schedule that you can determine. 
   

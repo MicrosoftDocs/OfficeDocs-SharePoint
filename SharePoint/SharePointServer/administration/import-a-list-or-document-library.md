@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: b3cb17a1-939c-4314-9f83-3c6b8a309bba
-description: "Summary: Learn how to import a site, list, or document library in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to import a site, list, or document library in SharePoint Server."
 ---
 
 # Import a list or document library in SharePoint Server
 
- **Summary:** Learn how to import a site, list, or document library in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 You can import a site, list, or document library in SharePoint Server by using PowerShell.
   

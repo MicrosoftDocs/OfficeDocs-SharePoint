@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 2c727311-e83e-4f7b-b02c-9a0699a81e64
-description: "Summary: Learn how to improve the security of SQL Server for SharePoint Server 2016 and SharePoint 2013 environments."
+description: "Learn how to improve the security of SQL Server for SharePoint Server environments."
 ---
 
 # Configure SQL Server security for SharePoint Server
 
- **Summary:** Learn how to improve the security of SQL Server for SharePoint Server 2016 and SharePoint 2013 environments. 
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
   
 When you install SQL Server, the default settings help to provide a safe database. In addition, you can use SQL Server tools and Windows Firewall to add additional security to SQL Server for SharePoint Server environments. 
   

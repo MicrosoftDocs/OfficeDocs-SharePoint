@@ -10,10 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: fae8ce7b-7c93-4cce-8a44-e3cf2f9f7b71
-description: "Learn about the Microsoft business intelligence (BI) tools for SharePoint Server 2016 and SharePoint Server 2013."
+description: "Learn about the Microsoft business intelligence (BI) tools for SharePoint Server."
 ---
 
 # Business intelligence in SharePoint Server
+
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
 
 Learn about the Microsoft business intelligence (BI) tools for SharePoint Server 2016 and SharePoint Server 2013.
   

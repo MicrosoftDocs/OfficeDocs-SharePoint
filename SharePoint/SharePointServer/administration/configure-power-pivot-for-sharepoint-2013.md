@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 9cea4a3d-c196-4d9e-942d-2677a6c15c13
-description: "Summary: Learn how to configure Power Pivot for SharePoint Server 2013."
+description: "Learn how to configure Power Pivot for SharePoint Server."
 ---
 
 # Configure Power Pivot for SharePoint 2013
 
- **Summary:** Learn how to configure Power Pivot for SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 > [!IMPORTANT]
 > This scenario applies only to SharePoint Server 2013 and SQL Server 2012 with Service Pack 1 (SP1). 

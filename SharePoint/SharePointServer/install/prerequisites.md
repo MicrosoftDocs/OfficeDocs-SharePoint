@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 70475732-62f1-4b28-95fd-02bd1e49cd42
 
-description: "Summary: Learn about permissions, accounts, security settings, and what you have to do to prepare your environment for SharePoint Server 2013."
+description: "Learn about permissions, accounts, security settings, and what you have to do to prepare your environment for SharePoint Server."
 ---
 
 # Prequisites for SharePoint Server 2013
 
- **Summary:** Learn about permissions, accounts, security settings, and what you have to do to prepare your environment for SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
   
 The following downloadable resources, articles, video recordings, and related resources provide information about how to prepare for SharePoint Server installation and initial configuration.
   

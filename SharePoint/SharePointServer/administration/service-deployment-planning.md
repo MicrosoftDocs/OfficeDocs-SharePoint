@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 4e6a620f-224d-4c72-a4fd-b69ed4db8bc9
-description: "Summary: Learn about the services on the Services on Server page in the SharePoint Central Administration website and deployment guidance for these services. Many of these services are associated with service applications."
+description: "Learn about the services on the Services on Server page in the SharePoint Central Administration website and deployment guidance for these services. Many of these services are associated with service applications."
 ---
 
 # Plan service deployment in SharePoint Server
 
- **Summary:** Learn about the services on the Services on Server page in the SharePoint Central Administration website and deployment guidance for these services. Many of these services are associated with service applications. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
     
 ## About Services on Server
 <a name="Section3"> </a>

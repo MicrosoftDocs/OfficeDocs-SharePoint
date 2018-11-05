@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 5f0f9910-d851-4ffa-832b-f47558e4758c
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleAccounts used by application pools or service identities are in the local machine Administrators groupfor SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: Accounts used by application pools or service identities are in the local machine Administrators group, for SharePoint Server."
 ---
 
 # Accounts used by application pools or service identities are in the local machine Administrators group (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "Accounts used by application pools or service identities are in the local machine Administrators group" for SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
  **Rule Name:** Accounts used by application pools or service identities are in the local machine Administrators group. 
   

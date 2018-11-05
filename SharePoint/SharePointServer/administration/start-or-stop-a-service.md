@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 6641730b-7099-47c0-938f-783ea8ef8e62
-description: "Summary: Learn how to start and stop a service in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to start and stop a service in SharePoint Server."
 ---
 
 # Start or stop a service in SharePoint Server
 
- **Summary:** Learn how to start and stop a service in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 SharePoint Server includes services that reside on individual servers in the farm. In some cases, you can configure global service settings and start or stop a service. Services are managed directly in the SharePoint Central Administration website instead of through a separate administration site. You can also remotely monitor and manage services. Additionally, you can manage services by using Microsoft PowerShell. 
   

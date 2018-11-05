@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 0dc9f7d6-0e82-4748-a951-3ced3f167803
-description: "Summary: Learn how to install SharePoint 2013 to create a server farm that includes web servers, an application server, and a database server."
+description: "Learn how to install SharePoint to create a server farm that includes web servers, an application server, and a database server."
 ---
 
 # Install SharePoint 2013 across multiple servers for a three-tier farm
 
- **Summary:** Learn how to install SharePoint 2013 to create a server farm that includes web servers, an application server, and a database server. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 A three-tier farm configuration consists of two front-end web servers, an application server, and a database server. The deployment sequence and configurations that are described in this article are based on recommended best practices. While the farm configuration is not complex, it provides a fundamental infrastructure to implement a SharePoint 2013 solution on similar — or more complex farms.
   

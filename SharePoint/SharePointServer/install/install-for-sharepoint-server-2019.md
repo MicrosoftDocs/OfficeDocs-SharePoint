@@ -13,12 +13,12 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 ms.assetid: 47db8aed-7e2b-4ccb-b248-d71df3bffa99
 
-description: "Summary: Learn how to install SharePoint Server 2019 in various topologies."
+description: "Learn how to install SharePoint Server in various topologies."
 ---
 
 # Install SharePoint Server 2019
 
- **Summary:** Learn how to install SharePoint Server 2019 in various topologies. 
+[!INCLUDE[appliesto-xxx-xxx-2019-xxx-md](../includes/appliesto-xxx-xxx-2019-xxx-md.md)]
   
 Testing and implementing SharePoint Server 2019 solutions at different stages of the deployment life cycle requires deployments in various topologies.
   

@@ -1,5 +1,5 @@
 ---
-title: "Video Cleanup of databases after upgrade procedure"
+title: "Video Cleanup of databases after upgrade procedure for SharePoint Server 2016"
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: e0797f61-5b78-4a8d-92ea-17e9f5b5ab56
-description: "Summary: Learn how to use Windows Powershell scripts to assist in cleaning up SharePoint Server 2016 databases after a successful upgrade procedure."
+description: "Learn how to use Windows Powershell scripts to assist in cleaning up SharePoint Server 2016 databases after a successful upgrade procedure."
 ---
 
 # Video: Cleanup of databases after upgrade procedure
 
- **Summary:** Learn how to use Windows Powershell scripts to assist in cleaning up SharePoint Server 2016 databases after a successful upgrade procedure. 
+  
   
 Listen to two Microsoft Field Engineers as they talk about best practices on how to cleanup databases after an upgrade procedure. 
   

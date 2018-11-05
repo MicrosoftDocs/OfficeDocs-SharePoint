@@ -14,12 +14,12 @@ ms.collection:
 - Strat_SP_server
 ms.custom: 
 ms.assetid: 4d88c402-24f2-449b-86a6-6e7afcfec0cd
-description: "Summary: Find out the minimum hardware and software requirements you need to install and run SharePoint Server 2016."
+description: "Find out the minimum hardware and software requirements you need to install and run SharePoint Server."
 ---
 
 # Hardware and software requirements for SharePoint Server 2016
 
- **Summary:** Find out the minimum hardware and software requirements you need to install and run SharePoint Server 2016. 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)] 
   
 > [!IMPORTANT]
 > If you contact Microsoft Customer Support Services about a production system that does not meet the minimum hardware specifications described in this document, support will be limited until the system is upgraded to the minimum requirements. 

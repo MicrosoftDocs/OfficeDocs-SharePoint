@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: e1fb66ca-d0ee-4935-b8dc-a87abf98e216
-description: "Summary: Configure instances of SQL Server 2012 Analysis Services for Data Model functionality in Excel Services."
+description: "Configure instances of SQL Server 2012 Analysis Services for Data Model functionality in Excel Services."
 ---
 
 # Manage Excel Services data model settings (SharePoint Server 2013)
 
- **Summary:** Configure instances of SQL Server 2012 Analysis Services for Data Model functionality in Excel Services. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 > [!IMPORTANT]
 > The steps in this article apply to SharePoint Server 2013 Enterprise. 

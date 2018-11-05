@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: d47575fa-bb85-4017-8db7-5e25f98ba171
-description: "Summary: Learn how to upgrade My Sites site collections in SharePoint Server 2016."
+description: "Learn how to upgrade My Sites site collections in SharePoint Server 2016."
 ---
 
 # Upgrade My Sites to SharePoint Server 2016
 
- **Summary:** Learn how to upgrade My Sites site collections in SharePoint Server 2016. 
+
   
 ## 
 

@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: a2ac61d0-dc6a-4435-8272-fb0c9239b144
-description: "Summary: Learn how site collection administrators can preview a copy of their sites in SharePoint 2013 mode, and then upgrade their sites."
+description: "Learn how site collection administrators can preview a copy of their sites in SharePoint 2013 mode, and then upgrade their sites."
 ---
 
 # Upgrade a site collection to SharePoint 2013
 
- **Summary:** Learn how site collection administrators can preview a copy of their sites in SharePoint 2013 mode, and then upgrade their sites. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 After a server farm administrator has upgraded the databases, site collection administrators can upgrade individual site collections. When site collection administrators first browse to their sites after the database has been upgraded, a notification bar at the top of the site indicates that their sites can be upgraded. The choices are to **Start now** or **Remind me later**. **Start now** begins the site collection upgrade process. 
   

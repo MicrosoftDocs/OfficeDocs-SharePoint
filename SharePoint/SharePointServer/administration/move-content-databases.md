@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 6aa16d9a-812a-4bbc-b421-1b4589452503
-description: "Summary: Learn how to move content databases in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to move content databases in SharePoint Server."
 ---
 
 # Move content databases in SharePoint Server
 
- **Summary:** Learn how to move content databases in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 This article describes how to move content databases between servers that are running SQL Server, between instances of SQL Server, or from one SharePoint Server web application to another.
   

@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 73e8ee39-0865-497a-b9e2-a0b0b46cde20
-description: "Summary: Learn how to restore apps for SharePoint in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to restore apps for SharePoint in SharePoint Server."
 ---
 
 # Restore apps for SharePoint in SharePoint Server
 
- **Summary:** Learn how to restore apps for SharePoint in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 You can restore an apps for SharePoint environment by using the SharePoint Central Administration website, Microsoft PowerShell, or SQL Server tools. The restore tool that you use depends on the kind of environment that you have deployed, your schedule requirements, and service level agreements that you have with your organization. 
   

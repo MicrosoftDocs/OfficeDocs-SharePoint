@@ -13,12 +13,12 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 ms.assetid: 6c4a140e-aac4-43ca-a8e9-ad181beb7073
 
-description: "Summary: Technical reference articles provide information about PowerShell for SharePoint Server 2016 and SharePoint Server 2013 plus other useful reference information about general settings, security, and tools."
+description: "Technical reference articles provide information about PowerShell for SharePoint Server plus other useful reference information about general settings, security, and tools."
 ---
 
 # Technical reference for SharePoint Server
 
- **Summary:** Technical reference articles provide information about PowerShell for SharePoint Server 2016 and SharePoint Server 2013 plus other useful reference information about general settings, security, and tools. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 The following articles provide information about reference content for SharePoint Server.
   

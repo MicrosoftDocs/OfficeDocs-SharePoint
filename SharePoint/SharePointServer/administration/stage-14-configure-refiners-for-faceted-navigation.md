@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 8e297567-1355-4d92-940a-0a20f9b399d6
-description: "Summary: Learn how to configure refiners for faceted navigation in SharePoint Server 2016."
+description: "Learn how to configure refiners for faceted navigation in SharePoint Server 2016."
 ---
 
 # Stage 14: Configure refiners for faceted navigation in SharePoint Server
 
- **Summary:** Learn how to configure refiners for faceted navigation in SharePoint Server 2016. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 > [!NOTE]
 > Most of the features described in this series are available only for private sites collections in SharePoint Online. 

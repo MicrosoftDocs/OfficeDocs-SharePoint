@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: a0c9aaa9-5b6d-449c-a69b-f058ac4cf9f1
 
-description: "Summary: Learn about SharePoint Server monitoring tools and scenarios. Plan schedules and create a response plan to keep the SharePoint farm running."
+description: "Learn about SharePoint Server monitoring tools and scenarios. Plan schedules and create a response plan to keep the SharePoint farm running."
 ---
 
 # Plan for monitoring in SharePoint Server
 
- **Summary:** Learn about SharePoint Server monitoring tools and scenarios. Plan schedules and create a response plan to keep the SharePoint farm running. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 To make sure that SharePoint Server is running smoothly, IT professionals must monitor farms, servers, applications, services, and performance closely. You should do preventive maintenance regularly to prevent problems from happening, and create a plan that will minimize damage when a problem occurs.
   

@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: fb4e9a7d-1ad2-4a89-ad90-85d61b44f56d
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleThe Security Token Service is not available, in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: The Security Token Service is not available, for SharePoint Server."
 ---
 
 # The Security Token Service is not available (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "The Security Token Service is not available", in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
  **Rule Name:** The Security Token Service is not available. 
   

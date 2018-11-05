@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 26de3fb0-c4d9-44b9-94ad-555d61ec0f92
-description: "Summary: Learn about how to install and configure SharePoint Server 2013 or SharePoint Foundation 2013 in a farm."
+description: "Learn about how to install and configure SharePoint Server 2013 or SharePoint Foundation 2013 in a farm."
 ---
 
 # Overview of SharePoint 2013 installation and configuration
 
- **Summary:** Learn about how to install and configure SharePoint Server 2013 or SharePoint Foundation 2013 in a farm. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
   
 Although SharePoint products farms vary in complexity and size, a combination of careful planning and a phased deployment that includes ongoing testing and evaluation significantly reduces the risk of unexpected outcomes. This article provides an overview for all types of SharePoint Server 2013 farm deployment.
   

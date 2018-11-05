@@ -16,12 +16,12 @@ ms.collection:
 - Strat_SP_gtc
 ms.custom: 
 ms.assetid: 70e043ef-8908-436e-92bf-abbcd89874f7
-description: "Summary: Learn how to set up the SharePoint Server services you'll need for a hybrid environment."
+description: "Learn how to set up the SharePoint Server services you'll need for a hybrid environment."
 ---
 
 # Set up SharePoint services for hybrid environments
 
- **Summary:** Learn how to set up the SharePoint Server services you'll need for a hybrid environment. 
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)] 
   
  **This article is part of a roadmap of procedures for configuring SharePoint hybrid solutions. Be sure you're [following a roadmap](configuration-roadmaps.md) when you do the procedures in this article. **
   

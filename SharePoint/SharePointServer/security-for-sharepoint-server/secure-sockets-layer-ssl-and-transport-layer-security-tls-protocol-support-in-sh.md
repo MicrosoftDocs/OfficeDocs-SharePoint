@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: f7fcf9d3-c895-4f91-b9c2-4036519a2fd5
-description: "Summary:This article describes the versions of the Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocol that SharePoint Server supports."
+description: "This article describes the versions of the Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocol that SharePoint Server supports."
 ---
 
 # Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocol support in SharePoint Server
 
- **Summary:**This article describes the versions of the Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocol that SharePoint Server supports.
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 SharePoint Server supports the following versions of the TLS protocol:
   

@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 476d6a49-7263-4460-8e4c-28102fec1442
-description: "Summary: Learn how to deploy a software update to a SharePoint 2013 farm."
+description: "Learn how to deploy a software update to a SharePoint farm."
 ---
 
 # Software updates overview for SharePoint Server 2013
 
- **Summary:** Learn how to deploy a software update to a SharePoint 2013 farm. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
   
 Administrators update SharePoint 2013 to deploy or update assemblies that provide functionality and to upgrade databases. A successful update follows a methodical approach that minimizes interruptions in service. Review information in this article to learn about the process before you begin the update process.
     

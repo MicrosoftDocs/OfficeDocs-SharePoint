@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: cab37e59-7ae1-403a-8fa2-37fe0701961e
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleOne or more web applications are configured to use Windows Classic authentication, for SharePoint Server 2016 and SharePoint 2013"
+description: "Learn how to resolve the SharePoint Health Analyzer rule: One or more web applications are configured to use Windows Classic authentication, for SharePoint Server."
 ---
 
 # One or more web applications are configured to use Windows Classic authentication (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "One or more web applications are configured to use Windows Classic authentication", for SharePoint Server 2016 and SharePoint 2013 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
  **Rule Name:** One or more web applications are configured to use Windows Classic authentication. 
   

@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 26272515-e0ec-4764-b148-3cf55e520995
-description: "Summary: Learn how to plan for search-driven pages for SharePoint cross-site publishing sites."
+description: "Learn how to plan for search-driven pages for SharePoint cross-site publishing sites."
 ---
 
 # Plan search for cross-site publishing sites in SharePoint Server 2016
 
- **Summary:** Learn how to plan for search-driven pages for SharePoint cross-site publishing sites. 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)] 
   
 Search-driven pages are pages that use search technology to dynamically show content. This article describes features that you will use when you set up search-driven pages, such as managed properties, refiners, result sources, and recommendations, and what you must consider when you set up and use these features. 
   

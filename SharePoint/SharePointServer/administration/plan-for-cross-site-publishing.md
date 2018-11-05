@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 3c0edb6f-3b77-48bc-a542-57626741f3ba
-description: "Summary: Learn how to use cross-site publishing to create SharePoint Server sites that display search-driven content on Internet, intranet, and extranet sites."
+description: "Learn how to use cross-site publishing to create SharePoint Server sites that display search-driven content on Internet, intranet, and extranet sites."
 ---
 
 # Plan for cross-site publishing in SharePoint Server
 
- **Summary:** Learn how to use cross-site publishing to create SharePoint Server sites that display search-driven content on Internet, intranet, and extranet sites. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 Cross-Site Collection Publishing is a SharePoint Server feature that enables you to use one or more site collections to author content, and one or more site collections to control the design of the site and the display of the content. The functionality provided by this feature is referred to as cross-site publishing. You can use cross-site publishing to create branded Internet, intranet, and extranet publishing sites. Cross-site publishing is available only in SharePoint Server 2016.
   

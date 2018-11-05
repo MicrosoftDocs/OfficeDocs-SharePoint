@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - Ent_TLGs
 ms.assetid: 7fda5f6e-ffbc-40af-9e5d-62f055a9c9b0
-description: "Summary: Create an intranet SharePoint Server 2016 farm running in Microsoft Azure as a dev/test environment."
+description: "Create an intranet SharePoint Server farm running in Microsoft Azure as a dev/test environment."
 ---
 
 # Intranet SharePoint Server 2016 in Azure dev/test environment
 
- **Summary:** Create an intranet SharePoint Server 2016 farm running in Microsoft Azure as a dev/test environment. 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]
   
 This topic steps you through creating a simulated intranet SharePoint farm hosted in Azure. Here is the resulting configuration:
   

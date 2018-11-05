@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 9e7368a1-9299-4827-b756-45fb3b4ad809
-description: "Summary: Learn how to use Microsoft PowerShell and XML to automate the configuration of monitoring settings for SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to use Microsoft PowerShell and XML to automate the configuration of monitoring settings for SharePoint Server."
 ---
 
 # Overview of scripted monitoring configuration in SharePoint Server
 
- **Summary:** Learn how to use Microsoft PowerShell and XML to automate the configuration of monitoring settings for SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 You can change the monitoring settings for SharePoint Server environments several ways. One way is to use the SharePoint Central Administration website. You might use this to make a single change to a small, local farm. Another way is to use PowerShell cmdlets directly. You might use this to make a single change to a local or remote farm. Still another way is to create your own PowerShell scripts. You might use these scripts to make multiple complex changes to local or remote farms that might be done repeatedly.
   

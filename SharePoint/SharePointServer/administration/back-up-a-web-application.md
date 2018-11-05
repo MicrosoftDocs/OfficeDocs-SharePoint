@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: e0ad657d-f5d1-4cae-bb0d-d2b619eed261
-description: "Summary: Learn how to back up a web application in SharePoint Server 2016 and SharePoint 2013 by using Central Administration or Microsoft PowerShell."
+description: "Learn how to back up a web application in SharePoint Server by using Central Administration or Microsoft PowerShell."
 ---
 
 # Back up web applications in SharePoint Server
 
- **Summary:** Learn how to back up a web application in SharePoint Server 2016 and SharePoint 2013 by using Central Administration or Microsoft PowerShell. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 You can back up a web application by using the SharePoint Central Administration website, PowerShell, or SQL Server tools. The backup tool that you use depends on the kind of environment that you have deployed, your backup schedule requirements, and service level agreements that you have with your organization. 
   

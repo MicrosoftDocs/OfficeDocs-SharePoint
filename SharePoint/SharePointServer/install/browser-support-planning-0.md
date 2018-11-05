@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: ff6c5b8c-59bd-4079-8f0b-de4f8b4e0a86
-description: "Summary: Learn about how SharePoint Servers 2016 and 2019 supports Internet Explorer, Google Chrome, Mozilla Firefox, Apple Safari, and Microsoft Edge."
+description: "Learn about how SharePoint Server supports Internet Explorer, Google Chrome, Mozilla Firefox, Apple Safari, and Microsoft Edge."
 ---
 
 # Plan browser support in SharePoint Servers 2016 and 2019
 
- **Summary:** Learn about how SharePoint Servers 2016 and 2019 supports Internet Explorer, Google Chrome, Mozilla Firefox, Apple Safari, and Microsoft Edge. 
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)]
   
 SharePoint Servers 2016 and 2019 supports several commonly used web browsers, such as ![Internet Explorer browser logo](../media/internetexplorersmall.png) Internet Explorer, ![Google Chrome browser logo](../media/chrome-small.jpg) Google Chrome, ![Mozilla Firefox browser logo](../media/firefox_small.png) Mozilla Firefox, ![Apple Safari browser logo](../media/safari-small.png) Apple Safari, and Microsoft Edge. However, certain web browsers can cause some SharePoint Servers 2016 or 2019 functionality to be downgraded, limited, or available only through alternative steps. 
   

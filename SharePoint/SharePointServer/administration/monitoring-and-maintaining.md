@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: f379d4ec-620c-4b1f-a0dc-d7ea17d2a7c1
 
-description: "Summary: Learn about how to monitor and maintain SharePoint Server 2013."
+description: "Learn about how to monitor and maintain SharePoint Server."
 ---
 
 # Monitoring and maintaining SharePoint Server 2013
 
- **Summary:** Learn about how to monitor and maintain SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 This article discusses monitoring and performance counters for SharePoint Server 2013 farms. To maintain SharePoint Server 2013 system performance, you must monitor your server to identify potential bottlenecks. Before you can monitor effectively, you must understand the key indicators that will tell you if a specific part of your farm requires attention, and know how to interpret these indicators. If you find that your farm is operating outside the targets you have defined, you can adjust your farm by adding or removing hardware resources, changing your topology, or changing how data is stored.
   

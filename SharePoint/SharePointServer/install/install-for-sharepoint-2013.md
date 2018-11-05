@@ -13,12 +13,12 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 ms.assetid: cf461452-1c7d-47e3-be87-4d925126855e
 
-description: "Summary: Introduces articles that describe how to install SharePoint 2013 in various topologies, on both physical and virtual environments."
+description: "Introduces articles that describe how to install SharePoint in various topologies, on both physical and virtual environments."
 ---
 
 # Install for SharePoint 2013
 
- **Summary:** Introduces articles that describe how to install SharePoint 2013 in various topologies, on both physical and virtual environments. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
   
 Testing and implementing SharePoint 2013 solutions at different stages of the deployment life cycle requires deployments in various topologies.
   

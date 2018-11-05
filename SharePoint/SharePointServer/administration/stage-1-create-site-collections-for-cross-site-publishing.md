@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: aa3e602d-3ba2-40a6-ac9a-7d1f510bf0c9
-description: "Summary: Learn how to create site collections for cross-site publishing in SharePoint Server 2016."
+description: "Learn how to create site collections for cross-site publishing in SharePoint Server."
 ---
 
 # Stage 1: Create site collections for cross-site publishing in SharePoint Server
 
- **Summary:** Learn how to create site collections for cross-site publishing in SharePoint Server 2016. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 > [!NOTE]
 > Most of the features described in this series are available only for private sites collections in SharePoint Online. 

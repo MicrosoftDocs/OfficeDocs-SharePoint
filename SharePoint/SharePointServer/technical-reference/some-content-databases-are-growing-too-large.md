@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 156f69fe-1831-472f-8e42-01c138d408ed
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleSome content databases are growing too large, in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: Some content databases are growing too large, for SharePoint Server."
 ---
 
 # Some content databases are growing too large (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "Some content databases are growing too large", in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
  **Rule Name:** Some content databases are growing too large. 
   

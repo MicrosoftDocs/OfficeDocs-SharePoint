@@ -13,12 +13,12 @@ ms.collection:
 localization_priority: Normal
 ms.assetid: 1780ec27-19f8-4d77-b787-8abc23921258
 
-description: "Summary: Learn about supported reverse proxy devices for SharePoint Server hybrid deployments."
+description: "Learn about supported reverse proxy devices for SharePoint Server hybrid deployments."
 ---
 
 # Configure a reverse proxy device for SharePoint Server hybrid
 
- **Summary:** Learn about supported reverse proxy devices for SharePoint Server hybrid deployments. 
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)] 
   
  **This article is part of a roadmap of procedures for configuring SharePoint hybrid solutions. Be sure you're [following a roadmap](configuration-roadmaps.md) when you do the procedures in this article. **
   

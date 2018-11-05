@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 0e24bb6a-8977-467f-bf69-0cfef1c8e288
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleDistributed cache service is not configured on server(s)in SharePoint Server 2016."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: Distributed cache service is not configured on server(s), for SharePoint Server."
 ---
 
 # Distributed cache service is not configured on server(s) (SharePoint Server 2016)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "Distributed cache service is not configured on server(s)" in SharePoint Server 2016. 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]
   
  **Rule Name:** Distributed cache service is not configured on server(s). 
 

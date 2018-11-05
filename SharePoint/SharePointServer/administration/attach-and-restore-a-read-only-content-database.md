@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 5417b04a-c7d9-4e9a-86fb-ee1d1c63508b
-description: "Summary: Learn how to attach and restore a read-only content database in SharePoint 2013 and SharePoint Server 2016."
+description: "Learn how to attach and restore a read-only content database in SharePoint Server."
 ---
 
 # Attach and restore read-only content databases in SharePoint Server
 
- **Summary:** Learn how to attach and restore a read-only content database in SharePoint 2013 and SharePoint Server 2016. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 You can attach and restore a read-only content database in SharePoint Server by using PowerShell.
   

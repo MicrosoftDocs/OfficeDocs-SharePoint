@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 4cbe141a-095f-4c09-82f4-dec8af16c590
-description: "Summary: Learn how to deploy a software update to a SharePoint Server 2016 farm."
+description: "Learn how to deploy a software update to a SharePoint Server 2016 farm."
 ---
 
 # Software updates overview for SharePoint Server 2016
 
- **Summary:** Learn how to deploy a software update to a SharePoint Server 2016 farm. 
+ 
   
 Administrators update SharePoint Server 2016 to deploy or update assemblies that provide functionality and to upgrade databases. A successful update follows a methodical approach that minimizes interruptions in service. Review information in this article to learn about the process before you begin the update process.
   

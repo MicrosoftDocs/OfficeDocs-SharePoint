@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 79428586-0a1c-4fd8-ae49-e1e76eb022e1
-description: "Summary: Learn how to configure properties of the Search Navigation Web Part, and how to add a link to a new search vertical page."
+description: "Learn how to configure properties of the Search Navigation Web Part, and how to add a link to a new search vertical page."
 ---
 
 # Configure properties of the Search Navigation Web Part in SharePoint Server
 
- **Summary:** Learn how to configure properties of the Search Navigation Web Part, and how to add a link to a new search vertical page. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 The Search Navigation Web Part is configured to display links to the search verticals **Everything**, **People**, **Conversations** and **Videos**. It uses search results from the Search Results Web Part so that when users click a search vertical link, the search results are filtered and displayed following the configuration of the search vertical. You can also create your own search vertical and add it to be displayed in the Search Navigation Web Part. 
   

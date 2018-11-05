@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: c16d9881-f356-45ba-b928-a8f6858840a6
-description: "Summary: Learn how to configure and demonstrate user profile synchronization based on the Test Lab Guide: Configure SharePoint Server 2013 in a three-tier farm."
+description: "Learn how to configure and demonstrate user profile synchronization based on the Test Lab Guide: Configure SharePoint Server in a three-tier farm."
 ---
 
 # Test Lab Guide: Demonstrate profile synchronization for SharePoint Server 2013
 
- **Summary:** Learn how to configure and demonstrate user profile synchronization based on the [Test Lab Guide: Configure SharePoint Server 2013 in a three-tier farm](configure-sharepoint-server-2013-in-a-three-tier-farm.md).
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 This document explains how to set up the SharePoint Server 2013 synchronization tool to synchronize profiles between SharePoint Server 2013 and a single Active Directory Domain Services (AD DS) domain controller.
   

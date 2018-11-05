@@ -15,7 +15,7 @@ description: ""
 
 # Troubleshoot common fine-grained permissions issues for SharePoint Server
 
- **Summary:** Learn about how to troubleshoot issues that include fine-grained permission in SharePoint Server and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 After you implement fine-grained permission, a SharePoint environment could experience security or performance issues. Review the following information to help resolve issues that might be related to fine-grained permissions.
   

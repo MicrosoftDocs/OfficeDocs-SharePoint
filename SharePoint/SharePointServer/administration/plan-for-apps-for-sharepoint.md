@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: eebac7af-f3e4-4e71-ad57-4c5ff3a58f30
-description: "Summary: Plan for apps for SharePoint, including the App Catalog and how to monitor and license apps."
+description: "Plan for apps for SharePoint, including the App Catalog and how to monitor and license apps."
 ---
 
 # Plan for apps for SharePoint Server
 
- **Summary:** Plan for apps for SharePoint, including the App Catalog and how to monitor and license apps. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 If you want to use apps for SharePoint in your environment, there are several prerequisites and other planning considerations to keep in mind. This article covers what you need to plan for before you get started with the actual configuration.
   

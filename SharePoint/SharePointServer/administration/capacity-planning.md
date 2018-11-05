@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 39555fd0-fd19-4e36-9652-ae1a386c3f32
-description: "Summary: Learn how to plan and manage capacity and performance for SharePoint Server 2013."
+description: "Learn how to plan and manage capacity and performance for SharePoint Server 2013."
 ---
 
 # Capacity planning for SharePoint Server 2013
 
- **Summary:** Learn how to plan and manage capacity and performance for SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
   
 This article describes how to plan the capacity of a SharePoint Server 2013 farm. When you have a good appreciation and understanding of capacity planning and management, you can apply your knowledge to system sizing. Sizing is the term used to describe the selection and configuration of appropriate data architecture, logical and physical topology, and hardware for a solution platform. There is a range of capacity management and usage considerations that affect how you should determine the most appropriate hardware and configuration options.
   

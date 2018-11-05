@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 4f5ab7db-276f-4de3-a991-62136ba8ca91
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleDatabases exist on servers running SharePoint Foundationfor SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: Databases exist on servers running SharePoint Foundation, for SharePoint Server."
 ---
 
 # Databases exist on servers running SharePoint Foundation (SharePointServer)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "Databases exist on servers running SharePoint Foundation" for SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]3. 
   
  **Rule Name:** Databases exist on servers running SharePoint Foundation, for SharePoint Server. 
   

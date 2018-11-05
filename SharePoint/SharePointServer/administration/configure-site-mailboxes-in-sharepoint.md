@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 57b7618a-2ca4-450d-aa8b-77bce21a9884
-description: "Summary: Configure Exchange Server, SharePoint Server 2016 and SharePoint Server 2013for team email by using the Site Mailboxes feature."
+description: "Configure Exchange Server, SharePoint Server for team email by using the Site Mailboxes feature."
 ---
 
 # Configure site mailboxes in SharePoint Server
 
- **Summary:** Configure Exchange Server, SharePoint Server 2016 and SharePoint Server 2013 for team email by using the Site Mailboxes feature. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 This article describes how to configure Site Mailboxes in SharePoint Server and Exchange Server. The Site Mailboxes feature provides SharePoint Server users with team email on a site. Site Mailboxes also provides links to SharePoint document libraries in Microsoft Outlook, enabling users to share files and email messages with other members of a team that are working on a joint project. 
   

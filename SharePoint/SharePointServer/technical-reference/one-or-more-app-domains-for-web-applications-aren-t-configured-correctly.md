@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 76a4e2e3-7e10-41da-b3a8-fe62e193dc24
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleOne or more app domains for web applications aren't configured correctlyfor SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: One or more app domains for web applications aren't configured correctly, for SharePoint Server."
 ---
 
 # One or more app domains for web applications aren't configured correctly (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "One or more app domains for web applications aren't configured correctly" for SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
  **Rule Name:** One or more app domains for web applications aren't configured correctly. 
   

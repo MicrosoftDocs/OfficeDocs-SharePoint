@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: e23aa6ff-e48d-44f0-a6ab-ca47da171dc0
-description: "Summary: Learn what to look for when you review site collections after you upgrade to SharePoint 2013 and find tips to address issues."
+description: "Learn what to look for when you review site collections after you upgrade to SharePoint 2013 and find tips to address issues."
 ---
 
 # Review site collections upgraded to SharePoint 2013
 
- **Summary:** Learn what to look for when you review site collections after you upgrade to SharePoint 2013 and find tips to address issues. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
   
 Use these steps in your test environment to identify any issues before you upgrade your production environment. And review your upgraded sites to fix any issues after you have upgraded a site collection. 
   

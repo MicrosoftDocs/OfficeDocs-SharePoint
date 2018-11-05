@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: f6accc60-23b8-4242-b12d-e118270251cf
-description: "Summary: Provides information about co-authoring and the permissions and software versions that are required for co-authoring in SharePoint Server and SharePoint Online."
+description: "Provides information about co-authoring and the permissions and software versions that are required for co-authoring in SharePoint Server and SharePoint Online."
 ---
 
 # Overview of co-authoring in SharePoint Server
 
- **Summary:** Provides information about co-authoring and the permissions and software versions that are required for co-authoring in SharePoint Server and SharePoint Online. 
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
   
  **Audience**: IT Professionals
   

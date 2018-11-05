@@ -13,12 +13,12 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 ms.custom: Ent_Solutions
 ms.assetid: f957e1ce-0a39-490c-b533-4ddab4f5bb7a
-description: "Summary: Configure the Microsoft Azure infrastructure to host a high-availability SharePoint Server 2016 farm."
+description: "Configure the Microsoft Azure infrastructure to host a high-availability SharePoint Server 2016 farm."
 ---
 
 # SharePoint Intranet Farm in Azure Phase 1: Configure Azure
 
- **Summary:** Configure the Microsoft Azure infrastructure to host a high-availability SharePoint Server 2016 farm. 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)] 
   
 In this phase of deploying an intranet-only SharePoint Server 2016 farm in Azure, you build out the Azure infrastructure. You must complete this phase before moving on to [SharePoint Intranet Farm in Azure Phase 2: Configure domain controllers](sharepoint-intranet-farm-in-azure-phase-2-configure-domain-controllers.md). See [Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](https://technet.microsoft.com/library/af7cf3e7-94b1-4a5d-8cb9-80c5a0b397f2) for all of the phases. 
   

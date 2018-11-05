@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: a88d3f72-7ac3-4f08-b302-c4ca0a796268
-description: "Summary: Lists the minimum hardware and software requirements to install and run SharePoint 2013."
+description: "Lists the minimum hardware and software requirements to install and run SharePoint."
 ---
 
 # Hardware and software requirements for SharePoint 2013
 
- **Summary:** Lists the minimum hardware and software requirements to install and run SharePoint 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 > [!IMPORTANT]
 > If you contact Microsoft Customer Support Services about a production system that does not meet the minimum hardware specifications described in this document, support will be limited until the system is upgraded to the minimum requirements. 

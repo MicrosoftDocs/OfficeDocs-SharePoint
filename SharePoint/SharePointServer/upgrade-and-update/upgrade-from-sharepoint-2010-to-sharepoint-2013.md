@@ -13,12 +13,12 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 ms.assetid: 45319d1c-3b2d-458d-a6eb-7051105d3b42
 
-description: "Summary: Learn how to plan, prepare, and perform an upgrade to SharePoint 2013."
+description: "Learn how to plan, prepare, and perform an upgrade to SharePoint 2013."
 ---
 
 # Upgrade from SharePoint 2010 to SharePoint 2013
 
- **Summary:** Learn how to plan, prepare, and perform an upgrade to SharePoint 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 The following downloadable resources, articles, video recordings, and related resources provide information about performing an upgrade to SharePoint 2013.
   

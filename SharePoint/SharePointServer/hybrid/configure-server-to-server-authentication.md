@@ -16,12 +16,12 @@ ms.collection:
 - Strat_SP_gtc
 ms.custom: 
 ms.assetid: 9cd888dc-9104-422e-8d8a-d795f0b1c0d0
-description: "Summary: Learn how to build a server-to server trust between SharePoint Server and SharePoint Online."
+description: "Learn how to build a server-to server trust between SharePoint Server and SharePoint Online."
 ---
 
 # Configure server-to-server authentication from SharePoint Server to SharePoint Online
 
- **Summary:** Learn how to build a server-to server trust between SharePoint Server and SharePoint Online. 
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)] 
   
  **This article is part of a roadmap of procedures for configuring SharePoint hybrid solutions. Be sure you're [following a roadmap](configuration-roadmaps.md) when you do the procedures in this article. **
   

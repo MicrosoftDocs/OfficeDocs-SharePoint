@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 33ed78c8-25fc-48ea-b0c1-50b540213cff
-description: "Summary: Learn how to configure usage and health data collection in SharePoint Server 2016 and SharePoint Server 2013."
+description: "Learn how to configure usage and health data collection in SharePoint Server."
 ---
 
 # Configure usage and health data collection in SharePoint Server
 
- **Summary:** Learn how to configure usage and health data collection in SharePoint Server 2016 and SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 SharePoint Server writes usage and health data to the logging folder and to the logging database. You can use the SharePoint Central Administration website to configure health data collection settings.
   

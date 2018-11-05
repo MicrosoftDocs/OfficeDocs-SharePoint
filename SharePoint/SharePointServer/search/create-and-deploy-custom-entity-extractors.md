@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 055e27eb-3e02-4470-a037-5896bab44736
-description: "Summary: Learn to create custom entity extractors and how to use them to set up custom refiners. Create one or more custom entity extraction dictionaries and connect them to managed properties."
+description: "Learn to create custom entity extractors and how to use them to set up custom refiners. Create one or more custom entity extraction dictionaries and connect them to managed properties."
 ---
 
 # Create and deploy custom entity extractors in SharePoint Server
 
- **Summary:** Learn to create custom entity extractors and how to use them to set up custom refiners for the classic search experience. Create one or more custom entity extraction dictionaries and connect them to managed properties. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 You create and maintain the custom entity extractor file in a system external to SharePoint Server before you import it into SharePoint Server to make the custom entity extractor available to the search system.
   

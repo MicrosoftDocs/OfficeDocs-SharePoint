@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 9983054b-ed90-491a-ac1d-cf95204f0931
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleExpired sessions are not being deleted from the ASP.NET Session State database, for SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: Expired sessions are not being deleted from the ASP.NET Session State database, for SharePoint Server."
 ---
 
 # Expired sessions are not being deleted from the ASP.NET Session State database (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "Expired sessions are not being deleted from the ASP.NET Session State database", for SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
  **Rule Name:** Expired sessions are not being deleted from the ASP.NET Session State database. 
   

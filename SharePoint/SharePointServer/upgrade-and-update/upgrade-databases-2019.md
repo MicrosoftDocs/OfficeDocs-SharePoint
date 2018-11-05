@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: b6580f87-40b4-4768-b589-6ba54013f7e4
-description: "Summary: Find resources to help you perform the steps to upgrade databases from SharePoint Server 2016 to SharePoint Server 2019."
+description: "Find resources to help you perform the steps to upgrade databases from SharePoint Server 2016 to SharePoint Server 2019."
 ---
 
 # Upgrade databases from SharePoint 2016 to SharePoint Server 2019
 
- **Summary:** Find resources to help you perform the steps to upgrade databases from SharePoint Server 2016 to SharePoint Server 2019. 
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)] 
   
 The following articles provide information about upgrading databases to SharePoint Server 2019.
   

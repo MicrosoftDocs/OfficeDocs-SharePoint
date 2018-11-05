@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: e4b1234e-2b69-4c44-9621-398d20122cab
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleBusiness Data Connectivity connectors are currently enabled in a partitioned environmentfor SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: Business Data Connectivity connectors are currently enabled in a partitioned environment, for SharePoint Server."
 ---
 
 # Business Data Connectivity connectors are currently enabled in a partitioned environment (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "Business Data Connectivity connectors are currently enabled in a partitioned environment" for SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
  **Rule Name:** Business Data Connectivity connectors are currently enabled in a partitioned environment 
   

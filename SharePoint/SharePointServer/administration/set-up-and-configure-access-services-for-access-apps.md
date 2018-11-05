@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 466d3069-c4bc-42c7-8f93-f66e08d41562
-description: "Summary: Learn how to install, set up, and provision Access Services for Access apps in SharePoint Server 2013."
+description: "Learn how to install, set up, and provision Access Services for Access apps in SharePoint Server 2013."
 ---
 
 # Set up and configure Access Services for Access apps in SharePoint Server 2013
 
- **Summary:** Learn how to install, set up, and provision Access Services for Access apps in SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 To install, set up, and provision Access apps for SharePoint in Access Services in SharePoint Server 2013, perform the following steps:
   

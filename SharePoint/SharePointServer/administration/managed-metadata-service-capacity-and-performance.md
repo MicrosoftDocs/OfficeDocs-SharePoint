@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: fe802699-9c9e-4389-a674-720769b72aaa
-description: "Summary: Learn how to plan to deploy a Managed Metadata Service application for SharePoint Server 2013 by using tested capacity and performance data."
+description: "Learn how to plan to deploy a Managed Metadata Service application for SharePoint Server 2013 by using tested capacity and performance data."
 ---
 
 # Estimate capacity and performance for Managed Metadata Service (SharePoint Server 2013)
 
- **Summary:** Learn how to plan to deploy a Managed Metadata Service application for SharePoint Server 2013 by using tested capacity and performance data. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
   
 This article contains information and recommendations that are related to sizing and performance optimization of the Managed Metadata Service in SharePoint Server 2013. We also provide some best practices about how to configure the service and structure the service application databases for maximum performance. Use this information to determine whether your planned deployment fits in the capacity and performance limits that our tests provide.
   

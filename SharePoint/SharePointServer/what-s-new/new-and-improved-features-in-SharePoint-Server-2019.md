@@ -17,6 +17,8 @@ description: "Learn about the new features and updates to existing features in S
 
 # New and improved features in SharePoint Server 2019
 
+[!INCLUDE[appliesto-xxx-xxx-2019-xxx-md](../includes/appliesto-xxx-xxx-2019-xxx-md.md)]
+
 Learn about the new features and updates to existing features in SharePoint Server 2019.
 
 To read more about the updated modern experience in SharePoint Server 2019, see [Differences between SharePoint Server 2016 and 2019](https://support.office.com/en-us/article/differences-between-sharepoint-server-2016-and-2019-ba84c8a3-3ce2-4252-926e-c67654ceb4a3). 

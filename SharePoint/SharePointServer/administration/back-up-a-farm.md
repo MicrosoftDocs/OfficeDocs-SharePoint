@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 8daa31a5-0f8c-4bd6-84c9-ee1f5074594d
-description: "Summary: Learn how to back up a SharePoint Server 2016 and SharePoint 2013 farm."
+description: "Learn how to back up a SharePoint Server farm."
 ---
 
 # Back up farms in SharePoint Server
 
- **Summary:** Learn how to back up a SharePoint Server 2016 and SharePoint 2013 farm. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 You can back up a SharePoint Server farm by using the SharePoint Central Administration website, Microsoft PowerShell, or SQL Server tools. The backup tool that you use depends on the kind of environment that you have deployed, your backup schedule requirements, and service level agreements that you have with your organization.
   

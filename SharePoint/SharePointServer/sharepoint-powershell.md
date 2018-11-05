@@ -9,12 +9,12 @@ ms.topic: interactive-tutorial
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 166c6fa7-5f51-4e68-88c1-d5954fb1f0bc
-description: "Summary: Learn how to use Microsoft PowerShell in SharePoint Server 2016 and SharePoint Server 2013."
+description: "Learn how to use Microsoft PowerShell in SharePoint Server."
 ---
 
 # SharePoint PowerShell
 
- **Summary:** Learn how to use Microsoft PowerShell in SharePoint Server 2016 and SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 Microsoft PowerShell cmdlets that you use in SharPoint Server help you complete simple and complex administrative tasks. Command-line Help is available in the SharePoint Management Shell. For information about PowerShell in general, visit [SharePoint Powershell ](https://docs.microsoft.com/en-us/powershell/sharepoint/index?view=sharepoint-ps&amp;branch=master).
   

@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 45acdd33-b322-4f36-97f1-0701159e15f0
-description: "Summary: Learn how to back up a single site collection in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to back up a single site collection in SharePoint Server."
 ---
 
 # Back up site collections in SharePoint Server
 
- **Summary:** Learn how to back up a single site collection in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 You can back up a site collection in SharePoint Server by using the SharePoint Central Administration website or Microsoft PowerShell. 
   

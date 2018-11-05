@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 97febdea-6ee3-42c1-bc64-a701ae901fcd
-description: "Summary: Determine an approach to use to update servers or server farms in your environment, and learn how to prepare for updates before you install them."
+description: "Determine an approach to use to update servers or server farms in your environment, and learn how to prepare for updates before you install them."
 ---
 
 # Prepare to deploy software updates for SharePoint 2013
 
- **Summary:** Determine an approach to use to update servers or server farms in your environment, and learn how to prepare for updates before you install them. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]  
   
 This article describes the required and recommended tasks to complete before you install software updates on servers in a SharePoint 2013 farm.
   

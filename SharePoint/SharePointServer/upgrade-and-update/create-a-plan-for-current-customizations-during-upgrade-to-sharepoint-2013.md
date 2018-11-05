@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: c18cc4e9-6942-47a6-a110-6b9ab0b9a236
-description: "Summary: Identify all customizations in your environment and determine what to change or remove as you upgrade to SharePoint 2013."
+description: "Identify all customizations in your environment and determine what to change or remove as you upgrade to SharePoint 2013."
 ---
 
 # Create a plan for current customizations during upgrade to SharePoint 2013
 
- **Summary:** Identify all customizations in your environment and determine what to change or remove as you upgrade to SharePoint 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 If you have extensively customized your sites based on SharePoint 2010 Products, you must determine how you want to handle your customizations when you upgrade to SharePoint 2013. Your approach will vary based on the extent of the customizations, the kind of customization, the complexity of your site, and your goals for upgrading. Before you upgrade, you must identify and then evaluate the customizations in your environment and determine whether you will upgrade them, and how.
   

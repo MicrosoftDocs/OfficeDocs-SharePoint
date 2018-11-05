@@ -14,13 +14,13 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 ms.custom: Ent_Solutions
 ms.assetid: f27522ca-6f78-4b97-b169-77066e965727
-description: "Summary: Step through a process to design Microsoft Azure infrastructure services to host SharePoint Server 2016 farms."
+description: "Step through a process to design Microsoft Azure infrastructure services to host SharePoint Server farms."
 ---
 
 # Designing a SharePoint Server 2016 farm in Azure
 
- **Summary:** Step through a process to design Microsoft Azure infrastructure services to host SharePoint Server 2016 farms. 
-  
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)] 
+ 
 This article provides an overview of the support for SharePoint Server 2016 farms in Azure infrastructure services and a step-by-step process and recommendations and best practices for designing the Azure environment, including network, storage, and compute resources.
   
 ## SharePoint Server 2016 farms in Azure infrastructure services

@@ -13,12 +13,12 @@ ms.collection:
 - Strat_SP_server
 ms.custom: 
 ms.assetid: 4982a861-ad5c-43e4-a49f-958afd4370aa
-description: "Summary: Learn how to install SharePoint Servers 2016 or 2019 to create a SharePoint server farm."
+description: "Learn how to install SharePoint Servers to create a SharePoint server farm."
 ---
 
 # Install SharePoint Servers 2016 or 2019 across multiple servers
 
- **Summary:** Learn how to install SharePoint Server to create a SharePoint server farm. 
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)] 
   
 The deployment sequence and configurations that are described in this article are based on recommended best practices. While the farm configuration is not complex, it provides a fundamental infrastructure to implement a SharePoint Server solution on similar — or more complex farms.
   

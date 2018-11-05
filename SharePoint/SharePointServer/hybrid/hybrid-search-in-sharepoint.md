@@ -20,6 +20,8 @@ description: "Hybrid search lets your users search for files and documents acros
 
 # Hybrid search in SharePoint
 
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+
  Hybrid search lets your users search for files and documents across SharePoint Server and Office 365 at the same time. Depending on how you set up hybrid search, you can have only on-premises users search for content stored in Office 365, only online users search for content stored in SharePoint Server, or both user groups search for content stored in the other environment. 
   
 There are two variants of hybrid search:

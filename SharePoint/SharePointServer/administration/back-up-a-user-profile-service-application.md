@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 80f7df54-738e-49ba-9ff9-2f312d77a271
-description: "Summary: Learn how to back up the User Profile Service service application in SharePoint Server 2016 and SharePoint Server 2013."
+description: "Learn how to back up the User Profile Service service application in SharePoint Server."
 ---
 
 # Back up User Profile service applications in SharePoint Server
 
- **Summary:** Learn how to back up the User Profile Service service application in SharePoint Server 2016 and SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 You can back up the User Profile service application by using the SharePoint Central Administration website, Microsoft PowerShell, or SQL Server tools. Which backup tool you use depends on what kind of environment you have deployed, what your backup schedule requires, and what service level agreements you have made with your organization.
   

@@ -12,14 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer rule One or more servers can't retrieve the outgoing email credentials for SharePoint Server 2019."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: One or more servers can't retrieve the outgoing email credentials for, SharePoint Server."
 ---
 
 # One or more servers can't retrieve the outgoing email credentials (SharePoint Server 2019)
 
-**Applies to:** SharePoint Server 2019
-
-**Summary:** Learn how to resolve the SharePoint Health Analyzer rule "One or more servers can't retrieve the outgoing email credentials" for SharePoint Server 2019.
+[!INCLUDE[appliesto-xxx-xxx-2019-xxx-md](../includes/appliesto-xxx-xxx-2019-xxx-md.md)]
 
 **Rule Name:** One or more servers can't retrieve the outgoing email credentials.
 

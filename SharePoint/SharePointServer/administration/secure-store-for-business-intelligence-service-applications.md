@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: a19e8cb8-4b41-492b-b33c-bc490f911f1d
-description: "Summary: Learn how Secure Store works with Excel Services, PerformancePoint Services, and Visio Services to refresh data on SharePoint Server."
+description: "Learn how Secure Store works with Excel Services, PerformancePoint Services, and Visio Services to refresh data on SharePoint Server."
 ---
 
 # Secure Store for Business Intelligence service applications
 
- **Summary:** Learn how Secure Store works with Excel Services, PerformancePoint Services, and Visio Services to refresh data on SharePoint Server. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 This article describes how SharePoint Server business intelligence features use the Secure Store Service to provide access to external data sources (such as SQL Server) for SharePoint Server users. For the purposes of this article, the SharePoint Server business intelligence service applications are: 
   

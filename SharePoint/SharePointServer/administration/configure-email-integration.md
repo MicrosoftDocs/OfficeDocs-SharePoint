@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 354706a8-a7f0-4e83-b2b0-bfccd1753c2e
-description: "Summary: Use these articles to learn how to configure incoming and outgoing email for a SharePoint Server 2016 and SharePoint 2013 farm."
+description: "Use these articles to learn how to configure incoming and outgoing email for a SharePoint Server."
 ---
 
 # Configure email integration for a SharePoint Server farm
 
- **Summary:** Use these articles to learn how to configure incoming and outgoing email for a SharePoint Server 2016 and SharePoint 2013 farm. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 The following articles provide information about email integration. After you install SharePoint Server, you can configure incoming and outgoing email. These optional settings are useful if you want to work with email in the server farm.
   

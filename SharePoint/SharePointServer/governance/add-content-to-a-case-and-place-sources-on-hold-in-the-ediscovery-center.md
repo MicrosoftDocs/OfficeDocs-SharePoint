@@ -15,6 +15,8 @@ description: "Content that is part of an eDiscovery case - such as potential evi
 
 # Add content to a case and place sources on hold in the eDiscovery Center
 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+
 Content that is part of an eDiscovery case - such as potential evidence for litigation, audits and investigations -can be managed in an eDiscovery Set. Each case can have multiple eDiscovery Sets. You can also filter the source content you include, such as by author or sender, by a date range, or by search keywords. 
   
 When a content source is part of a case, you can place it on hold so that a copy is preserved. This includes SharePoint sites, documents, or pages . In SharePoint Server, you can also hold content on searchable file shares. When items are placed on hold, people can continue to work on them without disruption. Content that is being managed by policies will not expire when it is placed on hold.

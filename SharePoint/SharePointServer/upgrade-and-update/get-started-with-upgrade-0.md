@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 7eac74b1-8bc6-44e9-9951-cbed9f391ef1
-description: "Summary: Find resources to help you understand how to upgrade databases and site collections from SharePoint 2010 Products to SharePoint 2013."
+description: "Find resources to help you understand how to upgrade databases and site collections from SharePoint 2010 Products to SharePoint 2013."
 ---
 
 # Get started with upgrades to SharePoint 2013
 
- **Summary:** Find resources to help you understand how to upgrade databases and site collections from SharePoint 2010 Products to SharePoint 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]. 
   
 The first step in any upgrade process is to learn about the process itself so that you can plan and prepare appropriately. These articles help you understand how the process of upgrading from SharePoint 2010 Products to SharePoint 2013 works. These articles also include overviews of how to upgrade service applications.
   

@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: c5b49fbd-4c1a-4188-a509-373298e92c1b
-description: "Summary: SharePoint 2013 supports Internet Protocol Version 4 (IPv4) and Internet Protocol Version 6 (IPv6)."
+description: "SharePoint 2013 supports Internet Protocol Version 4 (IPv4) and Internet Protocol Version 6 (IPv6)."
 ---
 
 # IP support in SharePoint 2013
 
- **Summary:** SharePoint 2013 supports Internet Protocol Version 4 (IPv4) and Internet Protocol Version 6 (IPv6). 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
   
 SharePoint Server 2013 supports the following environments:
   

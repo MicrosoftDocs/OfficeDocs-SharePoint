@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: ee879d48-44a3-46e7-a631-736c4430ec94
-description: "Summary: Know backup and recovery scenarios, backup architecture, and recovery processes before you plan to back up and restore SharePoint Server 2016 and SharePoint 2013."
+description: "Know backup and recovery scenarios, backup architecture, and recovery processes before you plan to back up and restore SharePoint Server."
 ---
 
 # Overview of backup and recovery in SharePoint Server
 
- **Summary:** Know backup and recovery scenarios, backup architecture, and recovery processes before you plan to back up and restore SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 The SharePoint Server backup architecture and recovery processes include farm backup and recovery, granular backup and recovery, and recovery from an unattached content database. You can complete backup and recovery operations by using the SharePoint Central Administration website or PowerShell cmdlets. Note that some built-in backup and recovery tools may not meet all the requirements of your organization.
   

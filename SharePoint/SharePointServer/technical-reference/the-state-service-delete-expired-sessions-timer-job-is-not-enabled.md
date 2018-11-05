@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 17d06bdf-69e1-4a85-86f9-da78a3c79952
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleThe State Service Delete Expired Sessions timer job is not enabled, for SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: The State Service Delete Expired Sessions timer job is not enabled, for SharePoint Server."
 ---
 
 # The State Service Delete Expired Sessions timer job is not enabled (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "The State Service Delete Expired Sessions timer job is not enabled", for SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
  **Rule Name:** The State Service Delete Expired Sessions timer job is not enabled. 
   
