@@ -14,6 +14,8 @@ ms.assetid: c33f0214-4201-4807-9e8f-574d8fd05849
 
 # Getting started
 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+
 ## What is SharePoint?
 
 SharePoint is a powerful collaboration platform that lets you share and manage content, knowledge, and applications to empower teamwork. 
