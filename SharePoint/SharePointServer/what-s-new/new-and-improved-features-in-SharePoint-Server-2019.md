@@ -3,7 +3,6 @@ title: "New and improved features in SharePoint Server 2019"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 6/26/2018
 ms.audience: ITPro
 ms.topic: overview
 ms.prod: sharepoint-server-itpro
@@ -107,7 +106,7 @@ The SharePoint home  page is a modern UI experience that gives users unified acc
 
 The SharePoint home page is also the launching point for users to create new, modern sites on a self-service basis. 
 
-You can reach the SharePoint home page by clicking on the "SharePoint" icon in the SharePoint app launcher. The SharePoint home page replaces the old sites.aspx experience.
+You can reach the SharePoint home page by clicking on the "SharePoint" icon in the SharePoint app launcher. The SharePoint home page replaces the old sites.aspx experience. For more information, see [Enable SharePoint home page in SharePoint Server 2019 farms](https://docs.microsoft.com/en-us/SharePoint/sites/enable-sharepoint-home-page-in-sharepoint-server-2019-farms).
 
 ### From the SharePoint home page, you can create sites in different web applications
 
