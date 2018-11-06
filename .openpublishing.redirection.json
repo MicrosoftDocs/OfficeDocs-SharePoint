@@ -331,6 +331,13 @@
        "redirect_url": "https://docs.microsoft.com/en-us/sharepoint/technical-reference/default-timer-jobs-in-sharepoint-server-2016",
        "redirect_document_id": true
    },
+    {
+    "source_path": "sharepoint/sharepointserver/governance/configure-sharepoint-workflowmanager-2019.md",
+
+       "redirect_url": "https://docs.microsoft.com/en-us/SharePoint/governance/install-and-configure-workflow-for-sharepoint-server",
+
+       "redirect_document_id": true
+   },
    {
     "source_path": "sharepoint/sharepointserver/technical-reference/timer-job-reference-for-sharepoint-2013.md",
        "redirect_url": "https://docs.microsoft.com/en-us/sharepoint/technical-reference/default-timer-jobs-in-sharepoint-2013",
