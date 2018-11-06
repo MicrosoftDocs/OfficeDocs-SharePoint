@@ -3,7 +3,6 @@ title: "SharePoint Health Analyzer rules reference for SharePoint Server 2016"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 9/7/2017
 ms.audience: ITPro
 ms.topic: hub-page
 ms.prod: sharepoint-server-itpro
@@ -15,7 +14,7 @@ ms.assetid: cccccea9-fda2-4640-ad91-a1d39bdcdfc8
 description: "Learn how to troubleshoot problems in SharePoint Server using SharePoint Health Analyzer rules."
 ---
 
-# SharePoint Health Analyzer rules reference for SharePoint Server 2016
+# SharePoint Health Analyzer rules reference for SharePoint Server
 
 [!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
@@ -86,6 +85,8 @@ The following Health Analyzer rules relate to configuration of SharePoint Server
 - [Databases require upgrade or not supported (SharePoint Server)](databases-require-upgrade-or-not-supported.md)
     
 - [One or more categories are configured with Verbose trace logging (SharePoint Server)](one-or-more-categories-are-configured-with-verbose-trace-logging.md)
+
+- [One or more servers can't retrieve the outgoing email credentials (SharePoint Server 2019)](one-or-more-servers-can-t-retrieve-the-outgoing-email-credentials.md)
     
 - [Outbound e-mail has not been configured (SharePoint Server)](outbound-e-mail-has-not-been-configured.md)
     
