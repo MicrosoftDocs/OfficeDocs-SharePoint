@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 2689bb6a-fd05-4273-87eb-daac5b2722f3
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleVerify each User Profile service application has a My Site Host configuredin SharePoint Server 2016 and SharePoint Server 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: Verify each User Profile service application has a My Site Host configured, for SharePoint Server."
 ---
 
 # Verify each User Profile service application has a My Site host configured (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "Verify each User Profile service application has a My Site Host configured" in SharePoint Server 2016 and SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
  **Rule Name:** Verify each User Profile service application has a My Site Host configured. 
   

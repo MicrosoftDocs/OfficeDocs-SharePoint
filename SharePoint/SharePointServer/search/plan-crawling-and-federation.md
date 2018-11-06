@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 4356bad9-de1d-4e81-b049-17248b4a86c1
-description: "Summary: Plan to crawl or federate for search in SharePoint Server."
+description: "Plan to crawl or federate for search in SharePoint Server."
 ---
 
 # Plan crawling and federation in SharePoint Server
 
- **Summary:** Plan to crawl or federate for search in SharePoint Server. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 Before users can perform searches in SharePoint Server, you must crawl or federate the content that you want them to be able to search. When you crawl content, the Search service builds a search index that users can run queries (search requests) against. You can also configure the Search system to display search results from an external provider (such as Bing) alongside the results from the local search index. The process of getting search results from an external provider and displaying the results locally is called federation.
   

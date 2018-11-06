@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: f50ca1b2-5075-49f6-9689-46c7b8a29b47
-description: "Summary: Learn how to restore the Search service application in SharePoint Server 2016 and SharePoint Server 2013."
+description: "Learn how to restore the Search service application in SharePoint Server."
 ---
 
 # Restore Search service applications in SharePoint Server
 
- **Summary:** Learn how to restore the Search service application in SharePoint Server 2016 and SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 You can restore SharePoint Server search by using the SharePoint Central Administration website, Microsoft PowerShell, or SQL Server tools. The restore tool that you use depends on the kind of environment that you have deployed, your schedule requirements, and service level agreements that you have made with your organization. 
   

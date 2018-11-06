@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 8386d324-816a-42ee-aff2-ce135ca2f241
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleAll State Service databases are paused for a State Service Application."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: All State Service databases are paused for a State Service Application."
 ---
 
 # All State Service databases are paused for a State Service Application (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "All State Service databases are paused for a State Service Application." 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
  **Rule Name:** All State Service databases are paused for a State Service Application 
   

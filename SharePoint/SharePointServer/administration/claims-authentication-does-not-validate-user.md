@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: c1bbb68a-f682-40cf-870f-d32219676e6e
-description: "Summary: Because SharePoint Server 2016 and SharePoint 2013 recommend claims-based authentication for user access to web applications, this article describes the tools and techniques that you can use to troubleshoot failed claims-based user authentication attempts."
+description: "Because SharePoint Server recommends claims-based authentication for user access to web applications, this article describes the tools and techniques that you can use to troubleshoot failed claims-based user authentication attempts."
 ---
 
 # Claims authentication does not validate user in SharePoint Server
 
- **Summary:** Because SharePoint Server 2016 and SharePoint 2013 recommend claims-based authentication for user access to web applications, this article describes the tools and techniques that you can use to troubleshoot failed claims-based user authentication attempts. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 When users try to connect to a web application, logs record failed authentication events. If you use tools that Microsoft provides and use a systematic approach to examine failures, you can learn about common issues that relate to claims-based authentication and resolve them.
   

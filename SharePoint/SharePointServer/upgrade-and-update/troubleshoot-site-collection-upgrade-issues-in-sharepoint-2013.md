@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: eb76be2d-d053-4b3d-b2fc-fa97ed048a21
-description: "Summary: Learn how to address problems that may occur after you upgrade a site to SharePoint 2013."
+description: "Learn how to address problems that may occur after you upgrade a site to SharePoint 2013."
 ---
 
 # Troubleshoot site collection upgrade issues in SharePoint 2013
 
- **Summary:** Learn how to address problems that may occur after you upgrade a site to SharePoint 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
   
 When you upgrade a site collection to SharePoint 2013, errors can occasionally occur. This article helps you understand those errors and address them.
   

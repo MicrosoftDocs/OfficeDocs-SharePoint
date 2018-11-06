@@ -17,6 +17,8 @@ description: "Learn about the new features and updates to existing features in S
 
 # New and improved features in SharePoint Server 2019
 
+[!INCLUDE[appliesto-xxx-xxx-2019-xxx-md](../includes/appliesto-xxx-xxx-2019-xxx-md.md)]
+
 Learn about the new features and updates to existing features in SharePoint Server 2019.
 
 To read more about the updated modern experience in SharePoint Server 2019, see [Differences between SharePoint Server 2016 and 2019](https://support.office.com/en-us/article/differences-between-sharepoint-server-2016-and-2019-ba84c8a3-3ce2-4252-926e-c67654ceb4a3). 
@@ -132,7 +134,9 @@ The self-service site creation experience on the SharePoint home page now fully 
 
 SharePoint will treat the external resource as an external web application. The external resource on the local farm should be fully populated with the URLs and zones of the web application on the remote farm. And conversely, the external resource on the remote farm should be fully populated with the URLs and zones of the web application on the local farm. Be sure that the zones of the local web application and the remote web application are synchronized. For more information, see [Configure self-service site creation in SharePoint Server 2019](https://docs.microsoft.com/en-us/SharePoint/sites/configure-self-service-site-creation-in-sharepoint-server-2019).
 
+<a name="smtpauth"> </a>
 ### SMTP authentication when sending emails
+
 
 SharePoint Server 2019 now supports authenticating to SMTP servers when sending email messages. Authentication can be configured through the Central Administration website and through PowerShell. SharePoint Server 2019 will still support anonymous connections to SMTP servers that don't require authentication. This makes it easier for customers to integrate SharePoint into highly secure environments where authentication is required to send emails. Customers no longer need to configure smart host relays for SharePoint in these environments. For more information, see [Plan outgoing email for a SharePoint Server farm](https://docs.microsoft.com/en-us/SharePoint/administration/outgoing-email-planning) and [Configure outgoing email for a SharePoint Server farm](https://docs.microsoft.com/en-us/SharePoint/administration/outgoing-email-configuration).
 

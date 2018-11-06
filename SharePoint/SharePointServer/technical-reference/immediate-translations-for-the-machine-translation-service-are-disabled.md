@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 987f22e3-53cc-4e6a-93e7-0851af4f31db
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleImmediate translations for the Machine Translation service are disabled, in SharePoint Server 2016 and SharePoint Server 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule:Immediate translations for the Machine Translation service are disabled, for SharePoint Server."
 ---
 
 # Immediate translations for the Machine Translation service are disabled (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "Immediate translations for the Machine Translation service are disabled", in SharePoint Server 2016 and SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
  **Rule Name:** Immediate translations for the Machine Translation service are disabled. 
   

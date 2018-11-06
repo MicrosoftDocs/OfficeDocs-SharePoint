@@ -14,12 +14,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: c033a091-2c08-4d20-8d3f-783317d718fa
-description: "Summary: Learn about things you need to consider when planning to setup OneDrive for Business in a SharePoint Server 2016 or a SharePoint Server 2013 on-premises environment."
+description: "Learn about things you need to consider when planning to setup OneDrive for Business in a SharePoint Server on-premises environment."
 ---
 
 # Plan for OneDrive for Business in SharePoint Server
 
- **Summary:** Learn about things you need to consider when planning to setup OneDrive for Business in a SharePoint Server 2016 or a SharePoint Server 2013 on-premises environment. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
     
 ## OneDrive for Business - Office 365 or SharePoint Server

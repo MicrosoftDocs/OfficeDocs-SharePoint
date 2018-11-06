@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 1d93093a-4da3-40c0-b0fd-f2567a32d2e9
-description: "Summary: Learn about the options available for using the Secure Store Service with PerformancePoint Services to connect to and refresh data from external data sources."
+description: "Learn about the options available for using the Secure Store Service with PerformancePoint Services to connect to and refresh data from external data sources."
 ---
 
 # Use PerformancePoint Services with Secure Store Service in SharePoint Server
 
- **Summary:** Learn about the options available for using the Secure Store Service with PerformancePoint Services to connect to and refresh data from external data sources. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 This series of articles describes how to configure data access in PerformancePoint Services by using the Secure Store Service to map user and group credentials to the credentials of external data sources.
   

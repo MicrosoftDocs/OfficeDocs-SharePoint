@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: ca092ed2-4aa2-4c2e-b273-661ca6a76e01
-description: "Summary: Learn how to configure incoming email for SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to configure incoming email for SharePoint Server."
 ---
 
 # Plan incoming email for a SharePoint Server farm
 
- **Summary:** Learn how to configure incoming email for SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 The incoming email feature of SharePoint Server enables SharePoint sites to receive and store email messages and attachments in lists and libraries. This article helps administrators understand the choices they need to make before deploying the incoming email feature.
   

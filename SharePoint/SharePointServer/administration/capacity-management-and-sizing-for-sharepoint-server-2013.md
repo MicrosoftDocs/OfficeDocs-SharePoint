@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 031b0634-bf99-4c23-8ebf-9d58b6a8e6ce
-description: "Summary: Learn about the concepts and planning considerations for managing the capacity of a SharePoint Server 2013 environment."
+description: "Learn about the concepts and planning considerations for managing the capacity of a SharePoint Server 2013 environment."
 ---
 
 # Capacity management and sizing for SharePoint Server 2013
 
- **Summary:** Learn about the concepts and planning considerations for managing the capacity of a SharePoint Server 2013 environment. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 The articles in this section help you to make the following decisions regarding the appropriate capacity for your SharePoint Server 2013 environment:
   

@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: d0a50e40-5322-4f7a-a3a4-c4660c879666
-description: "Summary: Learn how to upgrade content databases from SharePoint Server 2016 to SharePoint Server 2019."
+description: "Learn how to upgrade content databases from SharePoint Server 2016 to SharePoint Server 2019."
 ---
 
 # Upgrade content databases to SharePoint Server 2019
 
- **Summary:** Learn how to upgrade content databases from SharePoint Server 2016 to SharePoint Server 2019. 
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)] 
   
 When you upgrade from SharePoint Server 2016 to SharePoint Server 2019, you must use a database attach upgrade, which means that you upgrade only the content for your environment and not the configuration settings. After you have configured the SharePoint Server 2016 environment, copied the content and service application databases, and upgraded the service applications, you can attach and upgrade the content databases to SharePoint Server 2019. This article explains the steps you take to attach and upgrade the content databases to SharePoint Server 2019.
   

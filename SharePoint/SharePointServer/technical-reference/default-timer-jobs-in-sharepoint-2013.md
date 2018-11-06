@@ -9,12 +9,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: d1981c53-9445-454f-82f4-bce8379cdaea
-description: "Summary: Learn about the timer jobs in SharePoint 2013."
+description: "Learn about the timer jobs in SharePoint."
 ---
 
 # Default timer jobs in SharePoint 2013
 
- **Summary:** Learn about the timer jobs in SharePoint 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
   
 ## Default timer jobs
 <a name="DefaultJobs"> </a>

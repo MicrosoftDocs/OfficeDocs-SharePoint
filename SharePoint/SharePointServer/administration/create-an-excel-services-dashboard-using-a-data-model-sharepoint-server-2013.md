@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 4c50e9d2-a1f9-45a5-8466-829e056a92d0
 
-description: "Summary: Learn how to create, publish and use a basic Excel Services dashboard using a Data Model that is created in Excel."
+description: "Learn how to create, publish and use a basic Excel Services dashboard using a Data Model that is created in Excel."
 ---
 
 # Create an Excel Services dashboard using a Data Model (SharePoint Server 2013)
 
- **Summary:** Learn how to create, publish and use a basic Excel Services dashboard using a Data Model that is created in Excel. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 This article describes, step by step, how to create a Data Model, how to create some reports and a slicer, and then how to publish the dashboard to SharePoint Server 2013. The example dashboard described in this article resembles the following image:
   

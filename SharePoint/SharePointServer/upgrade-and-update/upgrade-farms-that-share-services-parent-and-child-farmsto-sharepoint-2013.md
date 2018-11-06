@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 8e5a73f4-fc3a-4e7b-94d6-23016d93d465
-description: "Summary: Understand how to upgrade environments that include services farms to SharePoint 2013."
+description: "Understand how to upgrade environments that include services farms to SharePoint 2013."
 ---
 
 # Upgrade farms that share services (parent and child farms) to SharePoint 2013
 
- **Summary:** Understand how to upgrade environments that include services farms to SharePoint 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 Some services in SharePoint 2010 Products can be shared across multiple farms. A services farm hosts services such as Business Data Connectivity service, Search, and User Profiles that other farms consume. When you upgrade to SharePoint Server 2013, you first upgrade the services farm, and then upgrade the farms that consume those services. This article describes how to upgrade farms that share services.
   

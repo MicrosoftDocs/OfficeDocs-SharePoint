@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 88317397-e0cb-47c7-9093-7872bc685213
-description: "Summary: Learn how to install and configure the SMTP service, prepare your environment, and configure incoming email for a SharePoint Server 2016, SharePoint Server 2013, and SharePoint Foundation 2013 farm."
+description: "Learn how to install and configure the SMTP service, prepare your environment, and configure incoming email for a SharePoint Server 2016, SharePoint Server 2013, and SharePoint Foundation 2013 farm."
 ---
 
 # Configure incoming email for a SharePoint Server farm
 
- **Summary:** Learn how to install and configure the SMTP service, prepare your environment, and configure incoming email for a SharePoint Server 2016, SharePoint Server 2013, and SharePoint Foundation 2013 farm. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 This article describes how to configure incoming email for SharePoint Server. This article also describes how to install and configure the SMTP service to enable incoming email.
   

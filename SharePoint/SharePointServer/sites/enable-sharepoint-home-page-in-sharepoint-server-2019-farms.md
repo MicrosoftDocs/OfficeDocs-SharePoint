@@ -10,10 +10,12 @@ localization_priority: Normal
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-description: "Summary: How to enable SharePoint home page in SharePoint Server 2019 farms."
+description: "How to enable SharePoint home page in SharePoint Server 2019 farms."
 ---
 
 # Enable SharePoint home page in SharePoint Server 2019 farms
+
+[!INCLUDE[appliesto-xxx-xxx-2019-xxx-md](../includes/appliesto-xxx-xxx-2019-xxx-md.md)]
 
 ## What is SharePoint home?
 <a name="section1"> </a>

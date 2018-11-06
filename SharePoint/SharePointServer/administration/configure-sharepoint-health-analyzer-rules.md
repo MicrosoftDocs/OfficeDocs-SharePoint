@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 937a136c-7cc1-4e61-8a2c-2161d484c13f
 
-description: "Summary: Learn to configure SharePoint Server 2016 and SharePoint Server 2013 Health Analyzer rules by using Central Administration."
+description: "Learn to configure SharePoint Server Health Analyzer rules by using Central Administration."
 ---
 
 # Configure SharePoint Health Analyzer rules in SharePoint Server
 
- **Summary:** Learn to configure SharePoint Server 2016 and SharePoint Server 2013 Health Analyzer rules by using Central Administration. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 ## Before you begin
 <a name="begin"> </a>

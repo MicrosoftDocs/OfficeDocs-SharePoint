@@ -13,12 +13,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_SharePoint_Hybrid_Top
 ms.assetid: c24cffe8-fa32-43e4-95ed-42118ef9643d
-description: "Summary: Configure a SharePoint hybrid environment so that user searches from the SharePoint Online Search Center display results from both the SharePoint Online and SharePoint Server search indexes."
+description: "Configure a SharePoint hybrid environment so that user searches from the SharePoint Online Search Center display results from both the SharePoint Online and SharePoint Server search indexes."
 ---
 
 # Display hybrid federated search results in SharePoint Online
 
- **Summary:** Configure a SharePoint hybrid environment so that user searches from the SharePoint Online Search Center display results from both the SharePoint Online and SharePoint Server search indexes. 
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)] 
   
  **This article is part of a roadmap of procedures for configuring SharePoint hybrid solutions. Be sure you're [following a roadmap](configuration-roadmaps.md) when you do the procedures in this article.**
   

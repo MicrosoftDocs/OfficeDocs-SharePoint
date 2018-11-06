@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 306f837a-3468-41e3-8a08-2323a8ac4c39
-description: "Summary: SharePoint Server 2013 and SharePoint Foundation 2013 support a limited set of methods to uninstall."
+description: "SharePoint Server 2013 and SharePoint Foundation 2013 support a limited set of methods to uninstall."
 ---
 
 # Uninstall SharePoint 2013
 
- **Summary:** SharePoint Server 2013 and SharePoint Foundation 2013 support a limited set of methods to uninstall. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
   
 You remove SharePoint 2013 by uninstalling it from Control Panel. When you uninstall SharePoint 2013, most files and subfolders in the installation folders are removed. However, some files are not removed. Also, 
   

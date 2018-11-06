@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 3e7b12cf-e9bb-48be-9484-950ba70f466c
-description: "Summary: Specify a proxy server to send requests to crawl content or query federated content repositories."
+description: "Specify a proxy server to send requests to crawl content or query federated content repositories."
 ---
 
 # Configure proxy server settings for Search in SharePoint Server
 
- **Summary:** Specify a proxy server to send requests to crawl content or query federated content repositories. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 A farm administrator or Search service application administrator can specify proxy server settings for sending HTTP requests to crawl content or query federated content repositories. A proxy server is a computer that functions as an intermediary to forward a client request to another server and return the results to the client. Using a proxy server can help increase intranet security and can help improve response times for client search requests. 
   

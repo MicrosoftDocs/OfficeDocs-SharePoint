@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 7d2cbe64-5888-415e-81be-98b6921929de
-description: "Summary: Learn how to disable co-authoring functionality in SharePoint Server by using Group Policy or by using PowerShell."
+description: "Learn how to disable co-authoring functionality in SharePoint Server by using Group Policy or by using PowerShell."
 ---
 
 # Disable co-authoring in SharePoint Server
 
- **Summary:** Learn how to disable co-authoring functionality in SharePoint Server by using Group Policy or by using PowerShell. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 Co-authoring in SharePoint Server makes it possible for multiple users to work on a document, at any time, without interfering with each other's changes. Although we have engineered co-authoring to be scalable and efficient, some organizations that have hardware limitations may want to turn off co-authoring to minimize any additional effects on server performance. 
   

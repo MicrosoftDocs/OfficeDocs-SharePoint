@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 96af09c3-95c5-4472-b452-0aef8116bd79
-description: "Summary: This article explains the updated product servicing policy of SharePoint Server 2016."
+description: "This article explains the updated product servicing policy of SharePoint Server."
 ---
 
 # Updated Product Servicing Policy for SharePoint Server 2016
 
- **Summary:** This article explains the updated product servicing policy of SharePoint Server 2016. 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]
   
 During mainstream support, Microsoft releases new Public Update (PU) builds for SharePoint Server 2016 each month that contain the latest functionality, performance, and stability improvements for the product. To ensure that customers have a high-quality experience, Microsoft is adopting the following product servicing policy for SharePoint Server 2016.
   

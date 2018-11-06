@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: f436a248-984f-40bd-bbe2-ac4dd1e1f961
-description: "Summary: Learn how to manage the databases that are associated with SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to manage the databases that are associated with SharePoint Server."
 ---
 
 # Manage databases in SharePoint Server
 
- **Summary:** Learn how to manage the databases that are associated with SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 The following articles and related resources provide information about database management with SharePoint Server.
   

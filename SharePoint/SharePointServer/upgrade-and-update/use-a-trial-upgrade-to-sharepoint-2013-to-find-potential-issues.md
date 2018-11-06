@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 87e7fcf5-2759-4c4f-9248-15103e9b9f64
-description: "Summary: Prepare for upgrade to SharePoint 2013 by testing the upgrade process on copies of real data."
+description: "Prepare for upgrade to SharePoint 2013 by testing the upgrade process on copies of real data."
 ---
 
 # Use a trial upgrade to SharePoint 2013 to find potential issues
 
- **Summary:** Prepare for upgrade to SharePoint 2013 by testing the upgrade process on copies of real data. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
   
 Before you start an upgrade from SharePoint 2010 Products to SharePoint 2013, you should test the upgrade process to make sure that you know exactly what you have to do to have a successful upgrade. A trial upgrade to test the process can reveal the following issues:
   

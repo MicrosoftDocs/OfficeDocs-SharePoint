@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 18aeede1-07b9-43ee-88ee-602a7a5acfa6
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleDatabase has large amounts of unused spacefor SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: Database has large amounts of unused space, for SharePoint Server."
 ---
 
 # Database has large amounts of unused space (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "Database has large amounts of unused space" for SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
  **Rule Name:** Database has large amounts of unused space. 
   

@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 73ceb46e-d3aa-45bd-ac3e-77f58a9ab34d
-description: "Summary: Learn how to import user profiles from Active Directory to SharePoint Server 2013 and SharePoint Server 2016 by using the Active Directory import tool for user profiles."
+description: "Learn how to import user profiles from Active Directory to SharePoint Server by using the Active Directory import tool for user profiles."
 ---
 
 # Configure profile synchronization by using SharePoint Active Directory Import in SharePoint Server
 
- **Summary:** Learn how to import user profiles from Active Directory to SharePoint Server 2013 and SharePoint Server 2016 by using the Active Directory import tool for user profiles. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 You can use the SharePoint Active Directory import option (AD import) as an alternative to using Microsoft Identity Manager (MIM) to import user profile data from Active Directory Domain Services (AD DS) in your domain.
   

@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: a2609bd3-928a-479a-9c8d-c0a751d76fcf
-description: "Summary: Learn how to monitor the SharePoint BLOB cache, the ASP.NET output cache, and the SharePoint object cache."
+description: "Learn how to monitor the SharePoint BLOB cache, the ASP.NET output cache, and the SharePoint object cache."
 ---
 
 # Monitor cache performance in SharePoint Server 2016
 
- **Summary:** Learn how to monitor the SharePoint BLOB cache, the ASP.NET output cache, and the SharePoint object cache. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 By monitoring cache performance, you can make sure that that the farm cache settings are correct and that the caching is running at maximum performance. 
   

@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 63f233ef-8a72-449e-8211-c66fea977b6e
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleVerify each User Profile Service Application has an associated Managed Metadata Service Connection, in SharePoint Server 2016 and SharePoint Server 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: Verify each User Profile Service Application has an associated Managed Metadata Service Connection, for SharePoint Server."
 ---
 
 # Verify each User Profile Service Application has an associated Managed Metadata Service Connection (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "Verify each User Profile Service Application has an associated Managed Metadata Service Connection", in SharePoint Server 2016 and SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
  **Rule Name:** Verify each User Profile Service Application has an associated Managed Metadata Service Connection. 
   

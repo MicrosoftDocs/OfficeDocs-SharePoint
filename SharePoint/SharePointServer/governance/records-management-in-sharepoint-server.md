@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 1b4765ef-3d28-4082-bb37-5d84e9996c44
-description: "Summary: Learn about records management and the records management planning process in SharePoint Server."
+description: "Learn about records management and the records management planning process in SharePoint Server."
 ---
 
 # Records management in SharePoint Server
 
- **Summary:** Learn about records management and the records management planning process in SharePoint Server. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 A record is a document or other electronic or physical entity in an organization that serves as evidence of an activity or transaction performed by the organization and that requires retention for some time period. Records management is the process by which an organization: 
   

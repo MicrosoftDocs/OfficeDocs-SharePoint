@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 79d47308-a90a-4c51-a1ae-93567e978236
-description: "Summary: Learn how to back up solutions for a SharePoint Server 2016 or a SharePoint 2013 environment."
+description: "Learn how to back up solutions for a SharePoint Server environment."
 ---
 
 # Backup solutions in SharePoint Server
 
- **Summary:** Learn how to back up solutions for a SharePoint Server 2016 or a SharePoint 2013 environment. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 The following articles provide information about backup solutions for SharePoint Server. These articles are written to meet the requirements of information technology (IT) professionals who are responsible for the planning, design, deployment, and operations of backup and recovery solutions. These solutions might be in enterprise, corporate, or branch office environments. The IT professionals who are responsible for backup and recovery solutions are expected to have an understanding of the technical details that are contained in this section.
   

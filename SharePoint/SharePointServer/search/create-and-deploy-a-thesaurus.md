@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 44640e29-bd9c-4b6a-94e1-8d5d30e7fdd2
-description: "Summary: Learn how to create and deploy a thesaurus to expand queries with synonyms."
+description: "Learn how to create and deploy a thesaurus to expand queries with synonyms."
 ---
 
 # Create and deploy a thesaurus in SharePoint Server
 
- **Summary:** Learn how to create and deploy a thesaurus to expand queries with synonyms. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 Use a thesaurus file to specify synonyms for a single word or multiple words that occur in queries in the classic search experience. The query is expanded based on the entries in the thesaurus. You create and maintain the thesaurus file in a system external to SharePoint Server before you import it into SharePoint Server to make the synonyms available to the search system.
   

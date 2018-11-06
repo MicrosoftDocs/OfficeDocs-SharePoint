@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: b5f098eb-219a-4483-adee-75d7b6b3089a
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleValidate the My Site Host and individual My Sites are on a dedicated Web application and separate URL domain."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: Validate the My Site Host and individual My Sites are on a dedicated Web application and separate URL domain."
 ---
 
 # Validate the My Site Host and individual My Sites are on a dedicated Web application and separate URL domain (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "Validate the My Site Host and individual My Sites are on a dedicated Web application and separate URL domain. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 , for SharePoint Server 2016 and SharePoint Server 2013.
   

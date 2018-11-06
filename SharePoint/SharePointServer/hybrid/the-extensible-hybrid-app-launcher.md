@@ -20,6 +20,8 @@ description: "The extensible hybrid app launcher helps users to have a more seam
 
 # The extensible hybrid app launcher
 
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+
 The extensible hybrid app launcher helps users to have a more seamless experience when navigating between SharePoint Server and Office 365.
   
 ## What does it do?

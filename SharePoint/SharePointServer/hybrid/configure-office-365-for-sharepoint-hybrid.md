@@ -16,12 +16,12 @@ ms.collection:
 - Strat_SP_gtc
 ms.custom: 
 ms.assetid: eddba98c-dec8-4fc8-823d-d908bdf0bc83
-description: "Summary: Get Office 365 for enterprises set up for hybrid integration with SharePoint Server."
+description: "Get Office 365 for enterprises set up for hybrid integration with SharePoint Server."
 ---
 
 # Configure Office 365 for SharePoint hybrid
 
- **Summary:** Get Office 365 for enterprises set up for hybrid integration with SharePoint Server. 
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)] 
   
  **This article is part of a roadmap of procedures for configuring SharePoint hybrid solutions. Be sure you're [following a roadmap](configuration-roadmaps.md) when you do the procedures in this article. **
   

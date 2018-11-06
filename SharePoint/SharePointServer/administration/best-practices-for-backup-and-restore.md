@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: d7d2dff9-c7a9-402b-958a-d233cbacab8f
-description: "Summary: Learn how to implement best practices before you back up and restore a SharePoint Server 2016 and SharePoint 2013 farm."
+description: "Learn how to implement best practices before you back up and restore a SharePoint Server farm."
 ---
 
 # Backup and restore best practices in SharePoint Server
 
- **Summary:** Learn how to implement best practices before you back up and restore a SharePoint Server 2016 and SharePoint 2013 farm. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 Best practices for backup and restore help make sure that backup and restore operations in SharePoint Server are successful and that the environment is protected against data loss or continuity gaps.
   

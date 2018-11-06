@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 2db321b3-1d59-4b3a-a242-8daabfde367c
-description: "Summary: Configure Visio Services by using SharePoint Central Administration."
+description: "Configure Visio Services by using SharePoint Central Administration."
 ---
 
 # Configure Visio Services
 
- **Summary:** Configure Visio Services by using SharePoint Central Administration. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 The following steps show how to create a Visio Graphics Service service application.
   

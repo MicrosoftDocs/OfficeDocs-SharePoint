@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 63b9e454-f21e-4e0e-bc96-953c0a337c70
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleThe current server is running low on memoryfor SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: The current server is running low on memory, for SharePoint Server."
 ---
 
 # The current server is running low on memory (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "The current server is running low on memory" for SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
  **Rule Name:** The current server is running low on memory. 
   

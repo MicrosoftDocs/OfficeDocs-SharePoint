@@ -17,6 +17,8 @@ description: "Zero downtime patching (ZDP) is available in SharePoint Server 201
 
 # SharePoint Server 2016 zero downtime patching steps
 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)] 
+
 Zero downtime patching (ZDP) is available in SharePoint Server 2016. Let users keep working on, saving, and searching documents as you patch your SharePoint Server 2016 farm.
   
 Zero downtime patching is a method of patching and upgrade developed in SharePoint Online. It was made to let administrators patch the service at the same time as users kept using their subscriptions. In other words, this tested method is designed to allow patching while people actively work with their files, and search crawls and renders results, on the SharePoint Server farm. That's what's meant by 'zero down time'.

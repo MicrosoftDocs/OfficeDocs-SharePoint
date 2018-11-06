@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 3e9dcd50-53e6-4471-a969-aeb4d079dfa3
-description: "Summary: Learn how to restore a service application in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to restore a service application in SharePoint Server."
 ---
 
 # Restore service applications in SharePoint Server
 
- **Summary:** Learn how to restore a service application in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 You can restore a service application in SharePoint Server by using the SharePoint Central Administration website or Microsoft PowerShell. Which backup tool you use depends on what kind of environment you have deployed, what your backup schedule requires, and what service level agreements you have made with your organization. 
   

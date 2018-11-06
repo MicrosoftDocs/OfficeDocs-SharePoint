@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 8a911115-de8a-4cf3-9701-f5ba78fa8bfc
-description: "Summary: Deployment articles help you install and configure SharePoint Server 2016 and upgrade from earlier versions."
+description: "Deployment articles help you install and configure SharePoint Server and upgrade from earlier versions."
 ---
 
 # Install SharePoint Server
 
- **Summary:** Deployment articles help you install and configure SharePoint Server 2016 and upgrade from earlier versions. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 The following articles include information about how to prepare for installation, step-by-step installation instructions, post-installation configuration steps, and upgrade information. Two sections are listed, one for SharePoint Server 2016 which describes MinRole and its configuration, and the other is SharePoint Server 2013.
   

@@ -17,6 +17,8 @@ description: "Learn how to use the Managed Solutions Gallery for code-based sand
 
 # How to use the Managed Solutions Gallery
 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+
 Learn how to use the Managed Solutions Gallery for code-based sandbox solutions in SharePoint Server 2016, SharePoint Server 2013, and SharePoint Server 2010.
   
 If you want to govern the activation of code-based sandbox solutions, you can utilize the Managed Solutions Gallery. This gallery is a specialized site collection and document library that identifies trusted code-based sandbox solutions within a SharePoint web application. Administrators with permission to upload solutions to the Managed Solutions Gallery can use this tool to determine which effectively approve the solutions they want to allow to activate within the web application.

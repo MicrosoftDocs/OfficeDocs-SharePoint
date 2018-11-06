@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 96dc4ef1-cec8-47d0-b995-46bca3e8eda2
-description: "Summary: Learn how to back up a service application in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to back up a service application in SharePoint Server."
 ---
 
 # Back up service applications in SharePoint Server
 
- **Summary:** Learn how to back up a service application in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 You can back up a service application by using the SharePoint Central Administration website or Microsoft PowerShell. Which backup tool you use depends on what kind of environment you have deployed, what your backup schedule requires, and what service level agreements you have made with your organization.
   

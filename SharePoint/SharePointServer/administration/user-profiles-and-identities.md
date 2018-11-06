@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 79240081-1495-4db7-b0c5-e5e4d4e59c37
-description: "Summary: Find the set of overview and planning topics for user profiles and identities for SharePoint Server 2013 and SharePoint Server 2016."
+description: "Find the set of overview and planning topics for user profiles and identities for SharePoint Server."
 ---
 
 # User profiles and identities
 
- **Summary:** Find the set of overview and planning topics for user profiles and identities for SharePoint Server 2013 and SharePoint Server 2016. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]. 
   
 The following articles cover user profiles and identities in SharePoint Server .
   

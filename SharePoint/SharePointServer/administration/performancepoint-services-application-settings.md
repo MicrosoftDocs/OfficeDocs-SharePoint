@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: bf9068c7-9187-49bb-9946-c298389bf4b0
 
-description: "Summary: Learn how to customize PerformancePoint Services application settings to meet your business needs."
+description: "Learn how to customize PerformancePoint Services application settings to meet your business needs."
 ---
 
 # PerformancePoint Services application settings
 
- **Summary:** Learn how to customize PerformancePoint Services application settings to meet your business needs. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 PerformancePoint Services has settings such as cache durations, filter behavior, and query time-out that affect performance, security, and connections to external data. These settings affect anyone who uses the same service application. The settings can be managed by using the SharePoint Central Administration website.
   

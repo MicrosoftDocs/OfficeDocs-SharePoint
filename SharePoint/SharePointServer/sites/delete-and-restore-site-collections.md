@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 44c05570-37c1-49dd-8015-015f8908199c
-description: "Summary: How to delete and restore SharePoint Server 2016 and SharePoint 2013 site collection content, user information, and the site hierarchy."
+description: "How to delete and restore SharePoint Server site collection content, user information, and the site hierarchy."
 ---
 
 # Delete and restore site collections in SharePoint Server
 
- **Summary:** How to delete and restore SharePoint Server 2016 and SharePoint 2013 site collection content, user information, and the site hierarchy. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 If you've created a team site to track progress on a specific project, and the project has ended, you might decide to delete the site collection after a certain amount of time has passed. 
   

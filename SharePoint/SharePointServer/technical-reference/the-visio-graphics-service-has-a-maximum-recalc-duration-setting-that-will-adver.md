@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 20e1e0c3-7d5c-489c-a588-a11b30adffb9
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleThe Visio Graphics Service has a maximum recalc duration setting that will adversely impact user perceived performancefor SharePoint Server 2016 and SharePoint Server 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: The Visio Graphics Service has a maximum recalc duration setting that will adversely impact user perceived performance, for SharePoint Server."
 ---
 
 # The Visio Graphics Service has a maximum recalc duration setting that will adversely impact user perceived performance ((SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "The Visio Graphics Service has a maximum recalc duration setting that will adversely impact user perceived performance" for SharePoint Server 2016 and SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
  **Rule Name:** The Visio Graphics Service has a maximum recalc duration setting that will adversely impact user perceived performance 
   

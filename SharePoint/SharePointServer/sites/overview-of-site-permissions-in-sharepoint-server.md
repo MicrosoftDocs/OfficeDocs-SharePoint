@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: f6d711da-6157-4ae3-9dbb-82eb64a4968f
-description: "Summary: Learn about the concepts behind SharePoint 2013 and SharePoint Server 2016 access control at the site collection, site, subsite, and site content (list or library, folder, item or document) levels."
+description: "Learn about the concepts behind SharePoint Server access control at the site collection, site, subsite, and site content (list or library, folder, item or document) levels."
 ---
 
 # Overview of site permissions in SharePoint Server
 
- **Summary:** Learn about the concepts behind SharePoint 2013 and SharePoint Server 2016 access control at the site collection, site, subsite, and site content (list or library, folder, item or document) levels. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 This article helps you understand the concepts behind access control at the site collection, site, subsite, and site content (list or library, folder, item or document) levels.
   

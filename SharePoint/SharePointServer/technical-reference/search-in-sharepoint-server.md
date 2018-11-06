@@ -12,10 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 3fdf9bcc-11c0-48af-b8c3-327902f53d73
-description: "Learn how to resolve alerts about the search index, content processing, query processing, and other search issues in the SharePoint Server 2016 and SharePoint 2013 management pack for Systems Center Operations Manager (SCOM)."
+description: "Learn how to resolve alerts about the search index, content processing, query processing, and other search issues in the SharePoint Server management pack for Systems Center Operations Manager (SCOM)."
 ---
 
 # Search in SharePoint Server knowledge articles
+
+[!INCLUDE[appliesto-2013-2016-xxx-xxx-md](../includes/appliesto-2013-2016-xxx-xxx-md.md)]
 
 Learn how to resolve alerts about the search index, content processing, query processing, and other search issues in the SharePoint Server 2016 and SharePoint 2013 management pack for Systems Center Operations Manager (SCOM). 
   

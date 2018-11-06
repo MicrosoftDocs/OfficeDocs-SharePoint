@@ -20,6 +20,8 @@ description: "With the hybrid federated search solution, you use both your index
 
 # Learn about hybrid federated search for SharePoint
 
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+
 With the hybrid federated search solution, you use both your index in SharePoint Server and your index in Office 365 Both SharePoint Server and SharePoint Online Search services can query the search index in the other environment and return federated results. When users search from a Search Center, the search results come from both your search index in SharePoint Server and your search index in Office 365.
   
 ![Illustration show search in two environments, one with hybrid federated search and one without.](../media/4f94457c-1678-434e-94eb-5a2aaee68fce.png)

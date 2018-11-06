@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 5cdce2aa-fa6e-4888-a34f-de61713f5096
-description: "Summary: Learn the steps to set up and configure eDiscovery in SharePoint Server 2013, SharePoint Server 2016, Exchange Server 2016, and Exchange Server 2013."
+description: "Learn the steps to set up and configure eDiscovery in SharePoint Server and Exchange Server."
 ---
 
 # Configure eDiscovery in SharePoint Server
 
- **Summary:** Learn the steps to set up and configure eDiscovery in SharePoint Server 2013, SharePoint Server 2016, Exchange Server 2016, and Exchange Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 This article identifies the steps that are required to configure eDiscovery in SharePoint Server. When you complete the steps that are listed in this article, users will be able to create and work with eDiscovery cases.
   

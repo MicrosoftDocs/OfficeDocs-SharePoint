@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: f2bd109d-83ce-4bf5-aec8-2c7df2ff5c3b
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleA State Service Application has no database defined."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: A State Service Application has no database defined."
 ---
 
 # A State Service Application has no database defined (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "A State Service Application has no database defined." 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
  **Rule Name:** A State Service Application has no database defined 
   

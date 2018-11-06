@@ -13,12 +13,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_SharePoint_Hybrid_Top
 ms.assetid: 48a1c449-7bf6-4f12-a5f3-1933caadf713
-description: "Summary: How to validate the Business Connectivity Services (BCS) hybrid solution is working."
+description: "How to validate the Business Connectivity Services (BCS) hybrid solution is working."
 ---
 
 # Validate the Business Connectivity Services hybrid scenario
 
- **Summary:** How to validate the Business Connectivity Services (BCS) hybrid solution is working. 
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
   
 Now that you have created an external list or deployed an app for SharePoint in SharePoint Online, you need to test the security you put in place. Every account that will be accessing and manipulating the external data must have three properties:
   

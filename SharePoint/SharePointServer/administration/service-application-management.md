@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 0a785758-694c-4c5c-abe6-70a17b490c6e
-description: "Summary: Learn how to manage and share service applications across farms in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to manage and share service applications across farms in SharePoint Server."
 ---
 
 # Manage service applications in SharePoint Server
 
- **Summary:** Learn how to manage and share service applications across farms in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 SharePoint Server includes a set of service applications that you can use to share services across web applications. In some cases, you can also share service applications across farms. You can manage service applications by using the SharePoint Central Administration website or by using Windows PowerShell 3.0. 
   

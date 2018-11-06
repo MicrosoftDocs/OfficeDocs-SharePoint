@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: d08d6d65-23c2-48cb-a871-1e021a382e5e
-description: "Summary: Learn how to back up the Secure Store Service Application in SharePoint Server 2016 and SharePoint Server 2013."
+description: "Learn how to back up the Secure Store Service Application in SharePoint Server."
 ---
 
 # Back up the Secure Store Service in SharePoint Server
 
- **Summary:** Learn how to back up the Secure Store Service Application in SharePoint Server 2016 and SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 You can back up the Secure Store Service by using the SharePoint Central Administration website, or Microsoft PowerShell. The backup tool that you use depends on the kind of environment that you have deployed, your backup schedule requirements, and service level agreements that you have made with your organization.
   

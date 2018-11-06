@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 1e637e17-2634-4601-a574-299a7c27bb24
-description: "Summary: Learn how to export a site, list, or document library in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to export a site, list, or document library in SharePoint Server."
 ---
 
 # Export sites, lists, or document libraries in SharePoint Server
 
- **Summary:** Learn how to export a site, list, or document library in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 You can export a site, list, or document library in SharePoint Server by using the SharePoint Central Administration website or Microsoft PowerShell. The backup tool that you use depends on the kind of environment that you have deployed, your backup schedule requirements, and service level agreements that you have made with your organization. 
   

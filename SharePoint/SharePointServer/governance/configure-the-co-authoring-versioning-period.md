@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 59f3af85-89f9-43ba-b364-28a810cae42e
-description: "Summary: Learn how to specify how often SharePoint Server 2013 stores a version of a document that is being edited."
+description: "Learn how to specify how often SharePoint Server stores a version of a document that is being edited."
 ---
 
 # Configure the co-authoring versioning period in SharePoint Server
 
- **Summary:** Learn how to specify how often SharePoint Server 2013 stores a version of a document that is being edited. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 The CoauthoringVersionPeriod property specifies, in minutes, how often SharePoint stores a version of a document that is being edited. This article describes how to use Microsoft PowerShell to configure the CoauthoringVersionPeriod property. For more information about document library versioning, see [Configure versioning for co-authoring in SharePoint 2013](configure-versioning-for-co-authoring.md).
   

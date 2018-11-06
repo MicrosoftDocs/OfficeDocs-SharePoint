@@ -20,6 +20,8 @@ description: "With the cloud hybrid search solution for SharePoint, you index al
 
 # Learn about cloud hybrid search for SharePoint
 
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+
 With the cloud hybrid search solution for SharePoint, you index all your crawled content, including on-premises content, in your search index in Office 365. When users query your search index in Office 365, they get search results from both on-premises and Office 365 content.
   
 ![Illustration showing search in two environments with and without cloud hybrid search](../media/8f9abe49-522b-47e8-9882-a7bd242f9006.png)

@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 24292545-0844-4eb0-9e80-7d4c9985755d
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleDrives used for SQL databases are running out of free spacein SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: Drives used for SQL databases are running out of free space, for SharePoint Server."
 ---
 
 # Drives used for SQL databases are running out of free space (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "Drives used for SQL databases are running out of free space" in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
  **Rule Name:** Drives used for SQL databases are running out of free space. 
   

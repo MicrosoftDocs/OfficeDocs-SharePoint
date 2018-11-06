@@ -10,13 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 2496edef-5bc4-4bd5-8b14-076894374a3f
-description: "Summary: Learn about the naming conventions for automatically created crawled properties and managed properties."
+description: "Learn about the naming conventions for automatically created crawled properties and managed properties."
 ---
 
 # Automatically created managed properties in SharePoint Server
 
- **Summary:** Learn about the naming conventions for automatically created crawled properties and managed properties. 
-  
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
     
 ## How site columns become managed properties
 <a name="BKMK_FromSiteColumnsToManagedProperties"> </a>

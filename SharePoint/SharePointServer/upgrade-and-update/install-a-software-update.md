@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 72addaae-efe5-40bb-8c86-294e10266878
-description: "Summary: Install a software update to perform a build-to-build upgrade on servers in a SharePoint 2016 farm."
+description: "Install a software update to perform a build-to-build upgrade on servers in a SharePoint 2016 farm."
 ---
 
 # Install a software update for SharePoint Server 2016
 
- **Summary:** Install a software update to perform a build-to-build upgrade on servers in a SharePoint 2016 farm. 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]  
   
 ## Before you begin
 <a name="begin"> </a>

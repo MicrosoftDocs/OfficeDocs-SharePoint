@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: cbb3b242-76ed-4539-b454-4685a84d57c5
-description: "Summary: Learn how to restore a web application in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to restore a web application in SharePoint Server."
 ---
 
 # Restore web applications in SharePoint Server
 
- **Summary:** Learn how to restore a web application in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 You can restore a web application in SharePoint Server by using the SharePoint Central Administration website, Microsoft PowerShell, or SQL Server tools. Which backup tool you use depends on what kind of environment you have deployed, what your backup schedule requires, and what service level agreements you have made with your organization. 
   

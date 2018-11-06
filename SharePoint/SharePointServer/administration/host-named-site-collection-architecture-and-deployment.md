@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 3ea30845-37e4-4a9e-badd-b1c8313e4bf3
-description: "Summary: Plan and implement host-named site collections in SharePoint 2013 and SharePoint Server 2016 . Learn how path-based site collections might affect your environment."
+description: "Plan and implement host-named site collections in SharePoint Server. Learn how path-based site collections might affect your environment."
 ---
 
 # Host-named site collection architecture and deployment in SharePoint Server
 
- **Summary:** Plan and implement host-named site collections in SharePoint 2013 and SharePoint Server 2016 . Learn how path-based site collections might affect your environment. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 Host-named site collections are the preferred method to deploy sites in SharePoint Server. Because the Office 365 environment uses host-named site collections, new features are optimized for these site collections and they are expected to be more reliable. Learn how to plan for and implement host-named site collections, design URLs, and manage URLs.
     

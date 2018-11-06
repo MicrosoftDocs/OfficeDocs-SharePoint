@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 3efb6e12-ad3c-41c7-9def-446df626aefd
-description: "Summary: Learn how to plan user profiles for server-to-server authentication in SharePoint Server 2013 and SharePoint Server 2016."
+description: "Learn how to plan user profiles for server-to-server authentication in SharePoint Server."
 ---
 
 # Server-to-server authentication and user profiles in SharePoint Server
 
- **Summary:** Learn how to plan user profiles for server-to-server authentication in SharePoint Server 2013 and SharePoint Server 2016. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 Server-to-server authentication allows for servers that are capable of server-to-server authentication to access and request resources from one another on behalf of users. Therefore, the server that runs SharePoint Server and that services the incoming resource request must be able to complete two tasks: 
   

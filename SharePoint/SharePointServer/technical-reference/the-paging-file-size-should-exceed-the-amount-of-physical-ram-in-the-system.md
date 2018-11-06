@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: fb651b8b-5657-4686-b084-443016aba76c
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleThe paging file size should exceed the amount of physical RAM in the systemfor SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: The paging file size should exceed the amount of physical RAM in the system, for SharePoint Server."
 ---
 
 # The paging file size should exceed the amount of physical RAM in the system (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "The paging file size should exceed the amount of physical RAM in the system" for SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
  **Rule Name:** The paging file size should exceed the amount of physical RAM in the system. 
   

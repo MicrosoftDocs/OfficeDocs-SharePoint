@@ -18,6 +18,8 @@ description: "Learn about the new features and updates to existing features in S
 
 # New and improved features in SharePoint Server 2016
 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]
+
 Learn about the new features and updates to existing features in SharePoint Server 2016.
   
 For a comparison of SharePoint on-premises features between SharePoint 2013 and SharePoint Server 2016 editions, see [SharePoint feature availability across on-premises solutions](http://go.microsoft.com/fwlink/p/?LinkID=760410&amp;clcid=0x409). For new features in SharePoint Server 2016 for end users, see [What's new in SharePoint Server 2016](https://support.office.com/en-us/article/What-s-new-in-SharePoint-Server-2016-089369b5-c3d4-4551-8bed-22b2548abd3b).

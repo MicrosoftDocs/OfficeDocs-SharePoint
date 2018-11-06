@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 4fbe0228-54c6-40ce-a9d3-3198423fe688
-description: "Summary: Use the Analysis Services EffectiveUserName feature to refresh data-connected workbooks in Excel Services in SharePoint Server 2013 using the workbook viewer's Windows identity."
+description: "Use the Analysis Services EffectiveUserName feature to refresh data-connected workbooks in Excel Services in SharePoint Server 2013 using the workbook viewer's Windows identity."
 ---
 
 # Use EffectiveUserName with Excel Services (SharePoint Server 2013)
 
- **Summary:** Use the Analysis Services EffectiveUserName feature to refresh data-connected workbooks in Excel Services in SharePoint Server 2013 using the workbook viewer's Windows identity. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 > [!IMPORTANT]
 > This scenario applies only to Excel Services with an Analysis Services data source on SharePoint Server 2013 Enterprise. 

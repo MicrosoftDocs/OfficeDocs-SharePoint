@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 0adff5f5-26d3-439f-86fa-0f0f8e0b8fc5
-description: "Summary: Learn how to perform maintenance tasks that are associated with Remote BLOB Storage (RBS) in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to perform maintenance tasks that are associated with Remote BLOB Storage (RBS) in SharePoint Server."
 ---
 
 # Maintain RBS in SharePoint Server
 
- **Summary:** Learn how to perform maintenance tasks that are associated with Remote BLOB Storage (RBS) in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 You perform most of the maintenance tasks associated with RBS in SharePoint Server by using the RBS Maintainer, which is a tool in SQL Server. The RBS Maintainer performs periodic garbage collection and other maintenance tasks for a SharePoint Server RBS deployment. You can schedule these tasks for each database that uses RBS by using Windows Task Scheduler or SQL Server Agent. You must provision the RBS Maintainer by using command-line parameters or through an XML file. In the case of mirrored or replicated databases, you can run the RBS Maintainer against any single instance.
   

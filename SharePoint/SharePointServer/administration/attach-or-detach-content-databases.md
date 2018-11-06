@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: bfa2f924-f411-4b13-8c24-bf251d7e4c91
-description: "Summary: Learn how to attach and detach content databases to your SharePoint Server 2016 and SharePoint 2013 farm."
+description: "Learn how to attach and detach content databases to your SharePoint Server farm."
 ---
 
 # Attach or detach content databases in SharePoint Server
 
- **Summary:** Learn how to attach and detach content databases to your SharePoint Server 2016 and SharePoint 2013 farm. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 You can attach or detach SharePoint Server content databases by using the SharePoint Central Administration website or Microsoft PowerShell
   

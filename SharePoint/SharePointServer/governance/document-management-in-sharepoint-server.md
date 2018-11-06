@@ -9,12 +9,12 @@ ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 809fe3d9-6121-4e2e-8556-c48a39756365
-description: "Summary: Learn about the elements of a document management solution and the document management planning process in SharePoint Server."
+description: "Learn about the elements of a document management solution and the document management planning process in SharePoint Server."
 ---
 
 # Document management in SharePoint Server
 
- **Summary:** Learn about the elements of a document management solution and the document management planning process in SharePoint Server. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 This article contains a high-level description of the various elements of a document management solution that is based on SharePoint Server.
   

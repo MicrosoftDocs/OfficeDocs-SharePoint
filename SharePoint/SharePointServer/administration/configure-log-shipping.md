@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 482aeb81-e2aa-419f-a269-5b349a6c4721
-description: "Summary: Learn how to implement log shipping for SharePoint Server 2016 and SharePoint Server 2013 in a disaster-recovery scenario."
+description: "Learn how to implement log shipping for SharePoint Server in a disaster-recovery scenario."
 ---
 
 # Configure log shipping in SharePoint Server
 
- **Summary:** Learn how to implement log shipping for SharePoint Server 2016 and SharePoint Server 2013 in a disaster-recovery scenario. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 With log shipping, you back up the transaction logs from a primary database to a secondary database on a separate instance of SQL Server. In the scenario described here, SQL Server log shipping is used together with Distributed File System Replication (DFSR) to copy databases and transaction logs to the recovery farm in Microsoft Azure as illustrated below. 
   

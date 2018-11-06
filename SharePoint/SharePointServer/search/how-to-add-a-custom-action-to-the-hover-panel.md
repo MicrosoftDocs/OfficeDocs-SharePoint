@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: b5d9b1b8-14cd-4f9b-956a-fa8a0808c9f6
-description: "Summary: Learn how to add a custom action to the hover panel in SharePoint Server."
+description: "Learn how to add a custom action to the hover panel in SharePoint Server."
 ---
 
 # How to add a custom action to the hover panel in SharePoint Server
 
- **Summary:** Learn how to add a custom action to the hover panel in SharePoint Server. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 In [How to display values from custom managed properties in the hover panel in SharePoint Server](how-to-display-values-from-custom-managed-properties-in-the-hover-panel.md), we showed you how to display values from custom managed properties in the hover panel. In this article you'll learn:
   

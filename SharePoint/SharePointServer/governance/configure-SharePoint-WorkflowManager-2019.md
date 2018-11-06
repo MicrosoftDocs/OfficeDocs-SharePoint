@@ -10,12 +10,14 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 5cdce2aa-fa6e-4888-a34f-de61713f5096
-description: "Summary: Learn the steps to set up and configure eDiscovery in SharePoint Server 2013, SharePoint Server 2016, Exchange Server 2016, and Exchange Server 2013."
+description: "Learn the steps to set up and configure eDiscovery in SharePoint Server 2013, SharePoint Server 2016, Exchange Server 2016, and Exchange Server 2013."
 ---
 
 # Configure SharePoint Workflow Manager for SharePoint Server
 
  **Summary:** Learn the features and steps to configure SharePoint Workflow Manager in SharePoint Server 2019.
+
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 This article gives a brief overview of the Workflow Manager and the steps that are required to configure Workflow Manager in SharePoint Server 2019. 
 

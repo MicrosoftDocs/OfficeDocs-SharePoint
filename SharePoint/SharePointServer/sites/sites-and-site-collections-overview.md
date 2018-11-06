@@ -13,12 +13,12 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - SharePoint_Online
 ms.assetid: 462e12d6-1a5d-4b7c-a0d5-14c551262be1
-description: "Summary: Learn about site collections, sites, and site templates in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn about site collections, sites, and site templates in SharePoint Server."
 ---
 
 # Overview of sites and site collections in SharePoint Server
 
- **Summary:** Learn about site collections, sites, and site templates in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 A site collection is made up of one top-level site and all sites below it. As shown in the following figure, it is the top level of organization in a SharePoint Server web application. The number of site collections you can have in a single web application depends on the capacity of your server infrastructure. For more information about SharePoint Server boundaries, see [Software boundaries and limits for SharePoint Server 2016](../install/software-boundaries-and-limits-0.md).
   

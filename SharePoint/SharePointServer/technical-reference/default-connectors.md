@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: c75f3390-283f-4380-b740-e672ea8b933d
-description: "Summary: Learn which connectors that by default are installed in SharePoint Server products."
+description: "Learn which connectors that by default are installed in SharePoint Server products."
 ---
 
 # Default connectors in SharePoint Server
 
- **Summary:** Learn which connectors that by default are installed in SharePoint Server products. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 The crawler uses connectors to connect to content repositories. In previous SharePoint Server products, connectors were known as protocol handlers.
   

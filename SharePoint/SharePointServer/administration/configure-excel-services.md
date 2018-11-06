@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: a2ef35c4-6b29-4ad1-8652-48a019838ea0
-description: "Summary: Deploy Excel Services to your SharePoint Server 2013 farm by creating an Excel Services service application by using Central Administration."
+description: "Deploy Excel Services to your SharePoint Server farm by creating an Excel Services service application by using Central Administration."
 ---
 
 # Configure Excel Services (SharePoint Server 2013)
 
- **Summary:** Deploy Excel Services to your SharePoint Server 2013 farm by creating an Excel Services service application by using Central Administration. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
   
 > [!IMPORTANT]
 > The steps in this article apply to SharePoint Server 2013 Enterprise. 

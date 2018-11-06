@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: c2f1d2a8-dc6a-471c-b373-be420b460306
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleWeb.config files are not identical on all machines in the farm, in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: Web.config files are not identical on all machines in the farm, for SharePoint Server."
 ---
 
 # Web.config files are not identical on all machines in the farm (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "Web.config files are not identical on all machines in the farm", in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
  **Rule Name:** Web.config files are not identical on all machines in the farm. 
   
