@@ -87,9 +87,7 @@ Before you start using the SharePoint Migration Tool (SPMT), note where your dat
     
 ## Using the SharePoint Migration tool
 
-If you don't have it yet, you have two options:  To install the current release download here: [SharePoint Migration Tool Version 1.1.90.1](http://spmtreleasescus.blob.core.windows.net/install/default.htm)
-
-If you wish to install the new V2 beta release, download it here:  [SharePoint Migration Tool V2 Beta release](http://spmtreleasescus.blob.core.windows.net/betainstall/default.htm)
+To install the current release download here: [SharePoint Migration Tool Version 2](http://spmtreleasescus.blob.core.windows.net/install/default.htm)
   
  **Migrating data files from SharePoint Server document libraries**
   
@@ -111,7 +109,7 @@ If you wish to install the new V2 beta release, download it here:  [SharePoint M
     > [!NOTE]
     > If you have already signed in to that site once while using this tool, you won't be prompted again for the same site. 
 
-    **Note:**  SPMT Version 2, currently in beta, supports the following authentication methods:
+    **Note:**  SPMT Version 2 supports the following authentication methods:
 
     - NTLM
     - Kerberos
@@ -121,7 +119,7 @@ If you wish to install the new V2 beta release, download it here:  [SharePoint M
     - SAML based claims
     - Client certificate authentication
 
-        **Important Note:**  If the on-perm server is configured to support multiple authentication methods including the Windows authentication, then Windows authentication will not be supported. If this describes your environment, use other authentication methods instead of Windows authentication. 
+        **Important Note:**  If the on-premesis server is configured to support multiple authentication providers including  Windows authentication, then Windows authentication will not be supported. If this describes your environment, use other authentication methods instead of Windows authentication. 
   
 7. Choose the document library where your files are located. The drop-down list will contain all your possible choices.
     
