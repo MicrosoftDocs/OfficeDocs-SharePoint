@@ -37,7 +37,7 @@ If you're a global or SharePoint admin in Office 365, you can convert any existi
 
    (Where  *URL*  is the URL of the site.) 
     
-5. When prompted with **Principals[0]**, provide the group created in step 3, or the UPN of an individual user. You can enter additional principals, one per line. Once you are finished assigning permissions, press Enter. If you want all site owners in the organization to be able to associate their sites with the hub, press Enter at the first prompt.﻿ 
+5. When prompted with **Principals[0]**, provide the group created in step 3, or the UPN of an individual user. You can enter additional principals, one per line. Once you are finished assigning permissions, press Enter. If you want all site collection administrators in the organization to be able to associate their sites with the hub, press Enter at the first prompt.
     
     > [!NOTE]
     > To restrict permission to associate sites to the hub after creation, run the following command: >  `Grant-SPOHubSiteRights -Identity URL -Principals GroupEmail -Rights Join`> (Where  *Identity*  is the URL of the site and  *GroupEmail*  is the email address of the mail-enabled security group.) 
