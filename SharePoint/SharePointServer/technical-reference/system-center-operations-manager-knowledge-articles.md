@@ -17,7 +17,7 @@ description: "Navigate to SharePoint Server articles about resolving alerts from
 
 # System Center Operations Manager knowledge articles for SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-xxx-xxx-md](../includes/appliesto-2013-2016-xxx-xxx-md.md)]
 
 Navigate to SharePoint Server 2016 and SharePoint 2013 articles about resolving alerts from the Systems Center Operations Manager (SCOM) management pack.
   
