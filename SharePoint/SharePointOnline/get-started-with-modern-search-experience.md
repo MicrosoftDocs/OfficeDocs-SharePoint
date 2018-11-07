@@ -15,7 +15,7 @@ description: "Learn how to get your organization started with the modern search 
 
 In addition to the classic search experience, SharePoint Online offers a modern search experience. Modern search is a personalized experience. It uses the insights of the Microsoft Graph to show results that are relevant to you. Routine tasks such as finding the right version of a document, getting back to a presentation you were editing, or learning about a topic you are not familiar with by locating experts and content, are simpler and faster with modern search.
 
-As a search administrator, you can’t enable or disable neither classic nor modern search. But you can influence which experience your users see most often.
+As a search administrator, you can’t enable or disable neither classic nor modern search. Both search experiences are But you can influence which experience your users see most often.
 
 Users get the classic search experience on publishing sites, classic team sites, and in the Search Center. Users get the modern search experience on the SharePoint home page, hub sites, communication sites, and modern team sites. [Learn about classic and modern sites](https://support.office.com/article/SharePoint-classic-and-modern-experiences-5725c103-505d-4a6e-9350-300d3ec7d73f).
 
