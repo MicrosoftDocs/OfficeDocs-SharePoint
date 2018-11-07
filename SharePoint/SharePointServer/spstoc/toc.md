@@ -656,7 +656,7 @@
 ### [User profiles and identities](../administration/user-profiles-and-identities.md)
 #### [Plan user profiles](../administration/plan-user-profiles.md)
 #### [Overview of profile synchronization in SharePoint Server 2013](../administration/overview-of-profile-synchronization-in-sharepoint-server-2013.md)
-##### [Profile synchronization in SharePoint Server 2013](../administration/profile-synchronization-in-sharepoint-server-2013.md)
+##### [Profile synchronization in SharePoint Server 2016](../administration/profile-synchronization-in-sharepoint-server-2013.md)
 ##### [Plan profile synchronization for SharePoint Server 2013](../administration/plan-profile-synchronization-for-sharepoint-server-2013.md)
 #### [Microsoft Identity Manager in SharePoint Servers 2016 and 2019](../administration/microsoft-identity-manager-in-sharepoint-server-2016.md)
 ##### [Install Microsoft Identity Manager for User Profiles in SharePoint Servers 2016 and 2019](../administration/install-microsoft-identity-manager-for-user-profiles-in-sharepoint-server-2016.md)
