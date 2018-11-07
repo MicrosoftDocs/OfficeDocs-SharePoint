@@ -104,7 +104,7 @@ You can grant and remove permissions for any service account by using this proce
 ### Restrict access to a service application by using Microsoft PowerShell
 <a name="Section2WPS"> </a>
 
-All procedures in this section assume that you have the appropriate permissions and have opened the PowerShell Command Prompt window, as described in the [To start a Windows PowerShell session](#ProcInitWPS) procedure later in this section. 
+All procedures in this section assume that you have the appropriate permissions.
   
 The process that restricts access to a service application by using PowerShell is more complex than performing the same task by using Central Administration. In PowerShell, you'll use some procedures to collect and store information for input into later procedures. 
   
@@ -151,80 +151,81 @@ After you have started PowerShell, the remaining steps to restrict access to a s
 
 1. At the PowerShell command prompt, type the following command to retrieve the service account (that is, the application pool identity account) of a web application: 
     
-  ```
-  $webapp = Get-SPWebApplication <http://WebApplication>
-  $webApp.ApplicationPool.UserName
-  
-  ```
+```
+$webapp = Get-SPWebApplication <http://WebApplication>
+$webApp.ApplicationPool.UserName
+```
 
-    Where  _\<http://WebApplication\>_ is the web application URL. 
+Where  _\<http://WebApplication\>_ is the web application URL. 
     
-    The web application service account name displays at the command prompt.
+The web application service account name displays at the command prompt.
     
 2. To create a new claims principal, type the following command:
     
-  ```
-  $principal = New-SPClaimsPrincipal <ServiceAccount> -IdentityType WindowsSamAccountName
-  ```
+```
+$principal = New-SPClaimsPrincipal <ServiceAccount> -IdentityType WindowsSamAccountName
+```
 
-    Where  _\<ServiceAccount\>_ is the user name (in the form of jane@contoso.com or contoso\jane) that was retrieved by running the previous command. The  _$principal_ variable will contain the new claims principal. 
+Where  _\<ServiceAccount\>_ is the user name (in the form of jane@contoso.com or contoso\jane) that was retrieved by running the previous command. The  _$principal_ variable will contain the new claims principal. 
     
 ### To retrieve the security object of the service application
 <a name="Section2WPS"> </a>
 
 1. To retrieve the security object of the service application, type the following commands. The  _$security_ variable will store the service application security object. 
     
-  ```
-  $spapp = Get-SPServiceApplication -Name "<ServiceApplicationDisplayName>"
-  $spguid = $spapp.id
-  $security = Get-SPServiceApplicationSecurity $spguid
-  
-  ```
+```
+$spapp = Get-SPServiceApplication -Name "<ServiceApplicationDisplayName>"
+$spguid = $spapp.id
+$security = Get-SPServiceApplicationSecurity $spguid
+```
 
-    Where  _\<ServiceApplicationDisplayName\>_is the display name of the service application.
+Where  _\<ServiceApplicationDisplayName\>_is the display name of the service application.
     
-    **Important:**
-    
-    You must enclose the display name in quotation marks, and it must exactly match the service application display name. This includes capitalization. If you have more than one service application that has the same display name (we do not recommend this), you can run the **Get-SPServiceApplication** cmdlet without arguments to view all service applications. You can then identify the service application directly by its GUID. For example: 
-    
-     `Get-SpServiceApplication`
-    
-    All service applications are listed. 
-    
-     `$spapp = Get-SpserviceApplication -Identity <GUID>`
-    
-     `$spguid = $spapp.id`
-    
-    Where  _\<GUID\>_ is the GUID for the service application for which you want to update permissions. 
+    > [!IMPORTANT]
+    > You must enclose the display name in quotation marks, and it must exactly match the service application display name. This includes capitalization. If you have more than one service application that has the same display name (we do not recommend this), you can run the **Get-SPServiceApplication** cmdlet without arguments to view all service applications. You can then identify the service application directly by its GUID.
+
+```
+Get-SpServiceApplication
+```
+
+All service applications are listed. 
+
+```
+$spapp = Get-SpserviceApplication -Identity <GUID>
+$spguid = $spapp.id
+```
+
+Where  _\<GUID\>_ is the GUID for the service application for which you want to update permissions. 
     
 ### To update the service application security object by using the preferred permissions
 <a name="Section2WPS"> </a>
 
 1. The first step to update the service application security object is to add the new claims principal  _$principal_ to the service application security object  _$security_. To do this, type the following command: 
     
-  ```
-  Grant-SPObjectSecurity $security $principal -Rights "<Rights>"
-  ```
+```
+Grant-SPObjectSecurity $security $principal -Rights "<Rights>"
+```
 
-    Where  _\<Rights\>_ is the permissions that you want to grant. Typically, this will be Full Control. The available permissions can vary between service applications. 
+Where  _\<Rights\>_ is the permissions that you want to grant. Typically, this will be Full Control. The available permissions can vary between service applications. 
     
-    If you do not want to grant Full Control permissions, and you do not know what permissions can be granted to the service application, you can run the following commands to return the available permissions strings:
-    
-     `$rightslist = Get-SPServiceApplicationSecurity $spapp`
-    
-     `$rightslist.NamedAccessRights`
-    
+If you do not want to grant Full Control permissions, and you do not know what permissions can be granted to the service application, you can run the following commands to return the available permissions strings:
+
+```
+$rightslist = Get-SPServiceApplicationSecurity $spapp
+$rightslist.NamedAccessRights
+```
+
 2. To remove the local farm ID (that is stored in the  _$farmID_ variable) from the service application security object  _$security_, type the following command:
     
-  ```
-  Revoke-SPObjectSecurity $security $farmID
-  ```
+```
+Revoke-SPObjectSecurity $security $farmID
+```
 
 3. To assign the updated  _$security_ security object to the service application and confirm that the security object for the service application is appropriately updated, type the following commands: 
     
-  ```
-  Set-SPServiceApplicationSecurity $spapp -ObjectSecurity $security (Get-SPServiceApplicationSecurity $spapp).AccessRules
-  ```
+```
+Set-SPServiceApplicationSecurity $spapp -ObjectSecurity $security (Get-SPServiceApplicationSecurity $spapp).AccessRules
+```
 
 You can add or remove any service account to a service application by using these procedures.
   
@@ -232,7 +233,6 @@ You can add or remove any service account to a service application by using thes
 <a name="Section3"> </a>
 
 You can restore farm-wide access to a service application by adding the local farm ID to the service application. You can do this by using Central Administration or by using PowerShell commands. However, you must use PowerShell to obtain the local farm ID.
-  
 
     
 ### <a name="ProcWPSGetFID"></a>To retrieve the local farm ID by using PowerShell
@@ -241,18 +241,18 @@ You can restore farm-wide access to a service application by adding the local fa
     
 2. The following command retrieves the local farm ID, stores it in the  _$farmID_ variable, and displays the ID at the command prompt: 
     
-  ```
-  $farmID = Get-SPFarm | select id
-  ```
+```
+$farmID = Get-SPFarm | select id
+```
 
-    If you want to restore farm-wide access by using Central Administration, copy this value into the clipboard for use in the following procedure. 
+If you want to restore farm-wide access by using Central Administration, copy this value into the clipboard for use in the following procedure. 
     
-    If you want to restore farm-wide access to the service application by using PowerShell, type the following additional commands at the PowerShell command prompt. You'll use the retrieved information in the following procedure.
+If you want to restore farm-wide access to the service application by using PowerShell, type the following additional commands at the PowerShell command prompt. You'll use the retrieved information in the following procedure.
     
-  ```
-  $claimProvider = (Get-SPClaimProvider System).ClaimProvider 
-  $principal = New-SPClaimsPrincipal -ClaimType "http://schemas.microsoft.com/sharepoint/2009/08/claims/farmid" -ClaimProvider $claimProvider -ClaimValue $farmid
-  ```
+```
+$claimProvider = (Get-SPClaimProvider System).ClaimProvider 
+$principal = New-SPClaimsPrincipal -ClaimType "http://schemas.microsoft.com/sharepoint/2009/08/claims/farmid" -ClaimProvider $claimProvider -ClaimValue $farmid
+```
 
 ### <a name="ProcCARestore"></a>To restore local farm-wide access to a service application by using Central Administration
 
@@ -270,15 +270,15 @@ You can restore farm-wide access to a service application by adding the local fa
     
 2. To restore the retrieved local farm ID to the service application security object $security, type the following commands:
     
-  ```
-  $spapp = Get-SPServiceApplication -Name "<ServiceApplicationDisplayName>"
-  $spguid = $spapp.id
-  $security = Get-SPServiceApplicationSecurity $spguid
-  Grant-SPObjectSecurity -Identity $security -Principal $Principal -Rights "Full Control"
-  Set-SPServiceApplicationSecurity $spguid -ObjectSecurity $security
-  ```
+```
+$spapp = Get-SPServiceApplication -Name "<ServiceApplicationDisplayName>"
+$spguid = $spapp.id
+$security = Get-SPServiceApplicationSecurity $spguid
+Grant-SPObjectSecurity -Identity $security -Principal $Principal -Rights "Full Control"
+Set-SPServiceApplicationSecurity $spguid -ObjectSecurity $security
+```
 
-    Where  _\<ServiceApplicationDisplayName\>_is the display name of the service application.
+Where  _\<ServiceApplicationDisplayName\>_is the display name of the service application.
     
     > [!IMPORTANT]
     > You must enclose the display name in quotation marks, and it must exactly match the service application display name. This includes capitalization. If you have more than one service application that has the same display name (we do not recommend this), you can run the **Get-SPServiceApplication** cmdlet without arguments to view all service applications. You can then identify the service application directly by its GUID. 
