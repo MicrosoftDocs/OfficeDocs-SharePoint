@@ -61,8 +61,6 @@ This article describes how you can use search reports in the SharePoint admin ce
 ## See also
 <a name="__top"> </a>
 
-[Search health reports](https://support.office.com/article/0b67cef2-d9cd-43f9-80a7-6aaa04c97537)
-  
 [Office 365 Reports in the Admin Center - SharePoint site usage](https://support.office.com/article/4ecfb843-e5d5-464d-8bf6-7ed512a9b213)
   
 [Office 365 Reports in the Admin Center - SharePoint activity](https://support.office.com/article/a91c958f-1279-499d-9959-12f0de08dc8f)
