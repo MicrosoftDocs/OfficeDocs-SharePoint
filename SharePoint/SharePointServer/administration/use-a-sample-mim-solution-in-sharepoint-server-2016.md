@@ -15,7 +15,7 @@ ms.assetid: b4c2dace-97fc-43c7-8991-44279a4fe05d
 description: "How to configure SharePoint Server profile synchronization with Microsoft Identity Manager (MIM)."
 ---
 
-# Use a sample MIM solution in SharePoint Server 2016
+# Use a sample MIM solution in SharePoint Servers 2016 and 2019
 
 [!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)]
   
