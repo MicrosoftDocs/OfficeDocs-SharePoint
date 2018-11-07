@@ -118,7 +118,7 @@ The following table describes the supported high availability and disaster recov
 
 |**Category**|**Description**|
 |:-----|:-----|
-|Default database name when it is installed with the SharePoint Products Configuration Wizard  <br/> |**2016:** Managed Metadata Service_\<GUID\>  <br/> **2013:** Managed Metadata Service Application_Metadata_\<GUID\>  <br/> |
+|Default database name when it is installed with the SharePoint Products Configuration Wizard  <br/> |**2016/2019:** Managed Metadata Service_\<GUID\>  <br/> **2013:** Managed Metadata Service Application_Metadata_\<GUID\>  <br/> |
 |Purpose  <br/> |Stores managed metadata and syndicated content types.  <br/> |
 |Supports SQL Server 2014 (SP1), SQL Server 2016, and SQL Server 2017 RTM synchronous mirroring in a farm for availability  <br/> Supports SQL Server 2008 R2 and SQL Server 2012 synchronous mirroring in a farm for availability  <br/> |Yes  <br/> |
 |Supports SQL Server AlwaysOn Availability Group with synchronous-commit for availability  <br/> |Yes  <br/> |
@@ -136,7 +136,7 @@ The following table describes the supported high availability and disaster recov
 
 |**Category**|**Description**|
 |:-----|:-----|
-|Default database name when it is installed with the SharePoint Products Configuration Wizard  <br/> |**2016:** PerformancePoint Service Application_\<GUID\>  <br/> **2013:** PerformancePoint Service_\<GUID\>  <br/> |
+|Default database name when it is installed with the SharePoint Products Configuration Wizard  <br/> |**2016/2019:** PerformancePoint Service Application_\<GUID\>  <br/> **2013:** PerformancePoint Service_\<GUID\>  <br/> |
 |Purpose  <br/> |Stores temporary objects and saved user comments and settings.  <br/> |
 |Supports SQL Server 2014 (SP1), SQL Server 2016, and SQL Server 2017 RTM synchronous mirroring in a farm for availability  <br/> Supports SQL Server 2008 R2 and SQL Server 2012 synchronous mirroring in a farm for availability  <br/> |Yes  <br/> |
 |Supports SQL Server AlwaysOn Availability Group with synchronous-commit for availability  <br/> |Yes  <br/> |
@@ -266,7 +266,7 @@ The following table describes the supported high availability and disaster recov
 
 |**Category**|**Description**|
 |:-----|:-----|
-|Default database name when it is installed with the SharePoint Products Configuration Wizard  <br/> |**2016:** TranslationService_\<GUID\>  <br/> **2013:** SharePoint Translation Services_\<GUID\>  <br/> |
+|Default database name when it is installed with the SharePoint Products Configuration Wizard  <br/> |**2016/2019:** TranslationService_\<GUID\>  <br/> **2013:** SharePoint Translation Services_\<GUID\>  <br/> |
 |Purpose  <br/> |Stores information about pending and completed batch document translations with enabled file name extensions.  <br/> |
 |Supports SQL Server 2014 (SP1), SQL Server 2016, and SQL Server 2017 RTM synchronous mirroring in a farm for availability  <br/> Supports SQL Server 2008 R2 and SQL Server 2012 synchronous mirroring in a farm for availability  <br/> |Yes  <br/> |
 |Supports SQL Server AlwaysOn Availability Group with synchronous-commit for availability  <br/> |Yes  <br/> |
@@ -281,7 +281,7 @@ The following table describes the supported high availability and disaster recov
 
 |**Category**|**Description**|
 |:-----|:-----|
-|Default database name when it is installed with the SharePoint Products Configuration Wizard  <br/> |**2016:** StateService_\<GUID\>  <br/> **2013:** SessionStateService_\<GUID\>  <br/> |
+|Default database name when it is installed with the SharePoint Products Configuration Wizard  <br/> |**2016/2019:** StateService_\<GUID\>  <br/> **2013:** SessionStateService_\<GUID\>  <br/> |
 |Purpose  <br/> |Stores temporary state information for InfoPath Forms Services, Exchange Server, the chart Web Part, and Visio Services.  <br/> |
 |Supports SQL Server 2014 (SP1), SQL Server 2016, and SQL Server 2017 RTM synchronous mirroring in a farm for availability  <br/> Supports SQL Server 2008 R2 and SQL Server 2012 synchronous mirroring in a farm for availability  <br/> |Yes  <br/> |
 |Supports SQL Server AlwaysOn Availability Group with synchronous-commit for availability  <br/> |Yes  <br/> |
@@ -296,7 +296,7 @@ The following table provides the supported high availability and disaster recove
 
 |**Category**|**Description**|
 |:-----|:-----|
-|Default database name when it is installed with the SharePoint Products Configuration Wizard  <br/> |SettingsServiceDB  <br/> |
+|Default database name when it is installed with the SharePoint Products Configuration Wizard  <br/> |**2019:** Subscription  <br/> **2013/2016:** SettingsServiceDB  <br/> |
 |Purpose  <br/> |Stores features and settings for hosted customers.  <br/> |
 |Supports SQL Server 2014 (SP1), SQL Server 2016, and SQL Server 2017 RTM synchronous mirroring in a farm for availability  <br/> Supports SQL Server 2008 R2 and SQL Server 2012 synchronous mirroring in a farm for availability  <br/> |Yes  <br/> |
 |Supports SQL Server AlwaysOn Availability Group with synchronous-commit for availability  <br/> |Yes  <br/> |
@@ -311,7 +311,7 @@ The following table provides the supported high availability and disaster recove
 
 |**Category**|**Description**|
 |:-----|:-----|
-|Default database name when it is installed with the SharePoint Products Configuration Wizard  <br/> |**2016:** WSS_Logging  <br/> **2013:** SharePoint_Logging  <br/> |
+|Default database name when it is installed with the SharePoint Products Configuration Wizard  <br/> |**2016/2019:** WSS_Logging  <br/> **2013:** SharePoint_Logging  <br/> |
 |Purpose  <br/> |Stores health monitoring and usage data temporarily, and can be used for reporting and diagnostics.  <br/> |
 |Supports SQL Server 2014 (SP1), SQL Server 2016, and SQL Server 2017 RTM synchronous mirroring in a farm for availability  <br/> Supports SQL Server 2008 R2 and SQL Server 2012 synchronous mirroring in a farm for availability  <br/> |Yes, but not recommended  <br/> |
 |Supports SQL Server AlwaysOn Availability Group with synchronous-commit for availability  <br/> **Note:** It is not possible to run PSConfig, (SharePoint Products Configuration Wizard or Microsoft PowerShell) to apply SharePoint CUs when this database is a member of an Always On Availability Group.  <br/> |Yes, but not recommended  <br/> |
