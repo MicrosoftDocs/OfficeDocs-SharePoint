@@ -1,9 +1,8 @@
 ---
-title: "Install Microsoft Identity Manager for User Profiles in SharePoint Server 2016"
+title: "Install Microsoft Identity Manager for User Profiles in SharePoint Servers 2016 and 2019"
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
-ms.date: 5/30/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
@@ -15,9 +14,9 @@ ms.assetid: 84972766-6527-4791-ae68-02d3a50b67f0
 description: "Learn about Microsoft Identity Manager (MIM) and how it's used for importing user profile information in SharePoint Server."
 ---
 
-# Install Microsoft Identity Manager for User Profiles in SharePoint Server 2016
+# Install Microsoft Identity Manager for User Profiles in SharePoint Servers 2016 and 2019
 
-[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-xxx-md.md)]
   
  **Contents**
   
@@ -50,12 +49,12 @@ Which option is right for you?
 > [!TIP]
 > If you need details, or you need to set up Active Directory Import for your SharePoint Server installation? Try [these steps](https://technet.microsoft.com/en-us/library/jj219646.aspx). 
   
-## Choosing MIM for use with SharePoint Server 2016
+## Choosing MIM for use with SharePoint Server 
 <a name="BKMK_ChooseMIM"> </a>
 
 If you choose MIM, there are some **prerequisites** of which you should be aware. You will need: 
   
-1. A Windows Server 2012 R2 machine or virtual machine for the installation of MIM components.
+1. For SharePoint Server 2016, a Windows Server 2012 R2 computer or virtual machine for the installation of MIM components. For SharePoint Server 2019, a Windows Server 2016 computer is required. 
     
 2. SQL Server 2008 or above, to be installed either on the same machine as the MIM components, or remotely.
     
@@ -125,11 +124,11 @@ SharePoint Management Agent (SPMA) is an essential if you need to connect MIM to
     
 The Synchronization Service Manager will open on your MIM server. At this point you must configure MIM for use with SharePoint Server.
   
-## MIM configuration scenarios with SharePoint Server 2016
+## MIM configuration scenarios with SharePoint Server
 <a name="BKMK_ConfigScene"> </a>
 
 For configuration steps, please see:
   
-- [Use a sample MIM solution in SharePoint Server 2016](use-a-sample-mim-solution-in-sharepoint-server-2016.md)
+- [Use a sample MIM solution in SharePoint Server](use-a-sample-mim-solution-in-sharepoint-server-2016.md)
     
 
