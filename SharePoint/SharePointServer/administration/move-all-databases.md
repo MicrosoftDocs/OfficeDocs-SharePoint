@@ -270,7 +270,7 @@ Use the following procedure to update the database connections if you use ShareP
   Add-DatabaseToAvailabilityGroup -AGName "<AGGroupName>" -DatabaseName "<DatabaseName>" [-FileShare "<\\server\share>"]
   ```
 
-    Where:
+Where:
     
   - \<AGGroupName\> is the name of the Avaliability Group.
     
@@ -300,25 +300,20 @@ Use the next procedure for the following scenarios:
 2. At the PowerShell command prompt, type the following commands:
     
   ```
-  $db = get-spdatabase -identity <guid>
+  $db = Get-SPDatabase -Identity <guid>
   ```
 
-    Where:
-    
-  - \<GUID\> is the ID of the database that you move.
+Where \<GUID\> is the ID of the database that you move.
     
     > [!NOTE]
-    > Use **Get-spdatabase** without parameters to see a list of all databases with GUIDs. 
+    > Use **Get-SPDatabase** without parameters to see a list of all databases with GUIDs. 
   
   ```
   $db.ChangeDatabaseInstance("<DBServerName>")
   ```
 
-    Where:
+Where \<DBServerName\> is the name or alias of the new SQL Server or is the AlwaysOn Availability Group listener DNS name.
     
-  - \<DBServerName\> is the name or alias of the new SQL Server or is the AlwaysOn Availability Group listener DNS name.
-    
-  - 
   ```
   $db.Update()
   ```
@@ -329,9 +324,7 @@ Use the next procedure for the following scenarios:
   $db.failoverserviceinstance("<DBServerName>")
   ```
 
-    Where:
-    
-  - \<DBServerName\> is the name or alias of the mirrored SQL Server.
+Where \<DBServerName\> is the name or alias of the mirrored SQL Server.
     
   ```
   $db.update()
