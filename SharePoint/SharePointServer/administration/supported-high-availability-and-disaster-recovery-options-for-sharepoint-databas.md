@@ -167,7 +167,7 @@ The following table describes the supported high availability and disaster recov
 ### Project Server database
 
 > [!IMPORTANT]
-> The Project Server service application database is only found in SharePoint Server 2013. Project Servers 2016 and 2019 doen't create a database for SharePoint Servers 2016 and 2019 but use the Content database (WSS_Content). 
+> The Project Server service application database is only found in SharePoint Server 2013. Project Servers 2016 and 2019 don't create a database for SharePoint Servers 2016 and 2019 but use the Content database (WSS_Content). 
   
 The following table describes the supported high availability and disaster recovery options for the Project Server database.
   
