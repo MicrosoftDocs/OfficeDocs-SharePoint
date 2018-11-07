@@ -53,7 +53,7 @@ Stopping the cache results in partial data loss. The Feed Cache depends on the D
     
 4. If the Distributed Cache service is started and you want to stop the service, under **Action**, click **Stop**. If the Distributed Cache service is stopped and you want to start the service, under **Action**, click **Start**.
     
-### To start the Distributed Cache service by using SharePoint 2016 Management Shell
+### To start the Distributed Cache service by using SharePoint Management Shell
 
 At the SharePoint Management Shell command prompt, run the following command:
   
@@ -64,7 +64,7 @@ $serviceInstance.Provision()
 
 ```
 
-### To stop the Distributed Cache service by using SharePoint 2016 Management Shell
+### To stop the Distributed Cache service by using SharePoint Management Shell
 
 At the SharePoint Management Shell command prompt, run the following command:
   
@@ -134,7 +134,7 @@ Use the following procedures to add and remove a server from a cache cluster. Th
 > [!NOTE]
 > Before performing the following procedures, ensure the firewall allows Inbound ICMP (ICMPv4) traffic through it. For more information, see [Firewall configuration considerations](plan-for-feeds-and-the-distributed-cache-service.md#firewall). 
   
-### Add a server to the cache cluster and starting the Distributed Cache service by using SharePoint 2016 Management Shell
+### Add a server to the cache cluster and starting the Distributed Cache service by using SharePoint Management Shell
 
 At the SharePoint Management Shell command prompt, run the following command:
   
@@ -143,7 +143,7 @@ Add-SPDistributedCacheServiceInstance
 
 ```
 
-### Remove a server from the cache cluster by using SharePoint 2016 Management Shell
+### Remove a server from the cache cluster by using SharePoint Management Shell
 
 At the SharePoint Management Shell command prompt, run the following command:
   
@@ -158,7 +158,7 @@ Remove-SPDistributedCacheServiceInstance
 ## Perform a graceful shutdown of the Distributed Cache service by using a PowerShell script
 <a name="graceful"> </a>
 
-In a SharePoint Server 2016 farm, a cache cluster exists when one or more cache hosts run the Distributed Cache service. In a SharePoint Server 2016 farm, one cache exists, and the cache spans the cache cluster. An administrator may need to move the cached contents to another cache host when applying updates to the server. To prevent data loss associated with moving the cached contents you need to perform a graceful shutdown of the server using the PowerShell script in the following procedure. The graceful shutdown procedure transfers all cached data from the cache host on which the graceful shutdown procedure is being run on to another cache host in the farm. The transfer process takes 15 minutes or more to run depending on how many items exist in the cache. 
+In a SharePoint Server farm, a cache cluster exists when one or more cache hosts run the Distributed Cache service. In a SharePoint Server farm, one cache exists, and the cache spans the cache cluster. An administrator may need to move the cached contents to another cache host when applying updates to the server. To prevent data loss associated with moving the cached contents you need to perform a graceful shutdown of the server using the PowerShell script in the following procedure. The graceful shutdown procedure transfers all cached data from the cache host on which the graceful shutdown procedure is being run on to another cache host in the farm. The transfer process takes 15 minutes or more to run depending on how many items exist in the cache. 
   
 ### To perform a graceful shutdown of the Distributed Cache by using a PowerShell script
 
@@ -259,7 +259,7 @@ The Distributed Cache service setting for **MaxConnectionsToServer** is often tu
     > [!NOTE]
     > You can use a different file name, but you must save the file as an ANSI-encoded text file with the extension .ps1. 
   
-  **SharePoint Server 2016 PowerShell script**
+  **SharePoint Server PowerShell script**
   ```
   Add-PSSnapin Microsoft.Sharepoint.Powershell -ea 0
 
