@@ -24,7 +24,7 @@ description: "Understand the disaster recovery options and supported technologie
 We define disaster recovery as the ability to recover from a situation in which the primary data center that hosts a SharePoint Server farm is unable to continue to operate. Regardless of the nature of event and its cause, the data center outage is significant enough to set into motion the actions defined in your organization's disaster recovery plan. This means putting a fully operational farm into production using computer resources that are located in a data center that is not affected by the event.
   
     
-SharePoint Server 2016 and SQL Server 2014 with Service Pack 1 (SP1) or SQL Server 2016, and SharePoint 2013 and SQL Server 2008 R2 with Service Pack 1 (SP1) or SQL Server 2012 provide configuration and content recovery options that can meet the Recovery Time Objective (RTO) and Recovery Point Objective (RPO) that are required for your business if there is a disaster. For more information about these and other disaster recovery concepts, see [High availability and disaster recovery concepts in SharePoint Server](high-availability-and-disaster-recovery-concepts.md).
+SharePoint Servers 2019, 2016, and 2013 and the SQL Servers that support them provide configuration and content recovery options that can meet the Recovery Time Objective (RTO) and Recovery Point Objective (RPO) that are required for your business if there is a disaster. For more information about these and other disaster recovery concepts, see [High availability and disaster recovery concepts in SharePoint Server](high-availability-and-disaster-recovery-concepts.md).
   
 ## Introduction
 <a name="Intro"> </a>
@@ -42,7 +42,7 @@ Downtime costs vary significantly between and within industries, especially due 
     
 Most organizations will incur a downtime cost from both of the previous types of loss but the nature of the business will determine which type of loss has the biggest effect. The following article, written by Chris Preimesberger at eWEEK, highlights the financial effect of data center downtime. [Unplanned IT Downtime Can Cost $5K Per Minute: Report](https://go.microsoft.com/fwlink/p/?LinkId=272806).
   
-In most scenarios, SharePoint products is one of several applications that must be recovered in the event of a data center shutdown that qualifies as a disaster. For this reason we have not included information about disaster recovery planning but focus on options for making sure that you can recover your SharePoint Server 2016 farm at another location.
+In most scenarios, SharePoint products is one of several applications that must be recovered in the event of a data center shutdown that qualifies as a disaster. For this reason we have not included information about disaster recovery planning but focus on options for making sure that you can recover your SharePoint Server farm at another location.
   
 Regardless of the type and scale of a disaster, recovery involves the use of a standby data center that you can recover the farm to.
   
@@ -82,7 +82,7 @@ Each of these standby data centers has specific characteristics and requirements
   
 ### Cold standby recovery
 
-In a cold standby disaster recovery scenario, you recover by setting up a new farm in a new location, (preferably by using a scripted deployment), and restoring backups. Or, you can recover by restoring the farm using a backup solution such as System Center 2016 - Data Protection Manager (DPM) or System Center 2012 - Data Protection Manager (DPM). System Center Data Protection Manager protects your data at the computer operating system level and lets you restore each server individually. This article does not contain detailed instructions for how to create and recover in cold standby scenarios. For more information, see:
+In a cold standby disaster recovery scenario, you recover by setting up a new farm in a new location, (preferably by using a scripted deployment), and restoring backups. Or, you can recover by restoring the farm using a backup solution such as System Center - Data Protection Manager (DPM). DPM protects your data at the computer operating system level and lets you restore each server individually. This article does not contain detailed instructions for how to create and recover in cold standby scenarios. For more information, see:
   
 - [Overview of backup and recovery in SharePoint Server](backup-and-recovery-overview.md)
     
