@@ -216,11 +216,11 @@ Use the following procedure to restore your farm databases.
     
 9. In the **Recovery state** section: 
     
-  - If you have included all the transaction logs that you must restore, select **RECOVER WITH RECOVERY**.
+   - If you have included all the transaction logs that you must restore, select **RECOVER WITH RECOVERY**.
     
-  - If you must restore additional transaction logs, select **RECOVER WITH NORECOVERY**.
+   - If you must restore additional transaction logs, select **RECOVER WITH NORECOVERY**.
     
-  - The third option, **RECOVER WITH STANDBY** is not used in this scenario. 
+   - The third option, **RECOVER WITH STANDBY** is not used in this scenario. 
     
     > [!NOTE]
     > For more information about these recovery options, see [Restore Database (Options Page)]( http://go.microsoft.com/fwlink/p/?LinkID=717045&amp;clcid=0x409). 
