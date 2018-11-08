@@ -79,11 +79,11 @@ You can use Microsoft PowerShell to restore a farm.
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
@@ -127,7 +127,7 @@ You can use Microsoft PowerShell to restore a farm.
 
    Where:
     
-  -  _\<ServiceApplicationID\>_ is the GUID of the service application. 
+ -  _\<ServiceApplicationID\>_ is the GUID of the service application. 
     
    For more information about how to restart service applications by using PowerShell, see [Start-SPServiceInstance](http://technet.microsoft.com/library/fcb4a4f8-a95f-468e-918b-d9a2d736cd2d.aspx).
     
