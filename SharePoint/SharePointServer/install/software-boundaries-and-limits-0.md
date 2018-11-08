@@ -1,5 +1,5 @@
 ---
-title: "Software boundaries and limits for SharePoint Server 2016"
+title: "Software boundaries and limits for SharePoint Servers 2016 and 2019"
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
@@ -18,11 +18,11 @@ ms.assetid: 6a13cd9f-4b44-40d6-85aa-c70a8e5c34fe
 description: "Learn about the tested performance and capacity limits of SharePoint Server and how limits relate to acceptable performance."
 ---
 
-# Software boundaries and limits for SharePoint Server 2016
+# Software boundaries and limits for SharePoint Servers 2016 and 2019
 
-[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)]
   
-This article describes software boundaries and limits of SharePoint Server 2016. These include the following:
+This article describes software boundaries and limits of SharePoint Servers 2016 and 2019. These include the following:
   
 - **Boundaries:** Static limits that cannot be exceeded by design 
     
@@ -39,14 +39,14 @@ This article describes software boundaries and limits of SharePoint Server 2016.
 
 This article contains information to help you understand the tested performance and capacity limits of SharePoint Server 2016, and offers guidelines for how limits relate to acceptable performance. Use the information in this article to determine whether your planned deployment falls within acceptable performance and capacity limits, and to appropriately configure limits in your environment.
   
-The test results and guidelines provided in this article apply to a single SharePoint Server 2016 farm. Adding servers to the installation might not increase the capacity limits of the objects that are listed in the tables in the [Limits and boundaries](#Limits) section later in this topic. On the other hand, adding server computers increases the throughput of a server farm, which might be necessary to achieve acceptable performance with many objects. In some cases, the requirements for high numbers of objects in a solution might require more servers in the farm. 
+The test results and guidelines provided in this article apply to a single SharePoint Server farm. Adding servers to the installation might not increase the capacity limits of the objects that are listed in the tables in the [Limits and boundaries](#Limits) section later in this topic. On the other hand, adding server computers increases the throughput of a server farm, which might be necessary to achieve acceptable performance with many objects. In some cases, the requirements for high numbers of objects in a solution might require more servers in the farm. 
   
 Note that there are many factors that can affect performance in a given environment, and each of these factors can affect performance in different areas. Some of the test results and recommendations in this article might be related to features or user operations that do not exist in your environment, and therefore do not apply to your solution. Only thorough testing can give you exact data related to your own environment.
   
 ### Boundaries, thresholds and supported limits
 <a name="Boundaries"> </a>
 
-In SharePoint Server 2016, there are certain limits that are by design and cannot be exceeded, and other limits that are set to default values that may be changed by the farm administrator. There are also certain limits that are not represented by a configurable value, such as the number of site collections per web application.
+In SharePoint Server, there are certain limits that are by design and cannot be exceeded, and other limits that are set to default values that may be changed by the farm administrator. There are also certain limits that are not represented by a configurable value, such as the number of site collections per web application.
   
 - Boundaries are absolute limits that cannot be exceeded by design. It is important to understand these limits to ensure that you do not make incorrect assumptions when you design your farm.
     
@@ -75,7 +75,8 @@ For example, observations of farm behavior under load when site collections are 
   
 Obviously, if some services are operating under parameters that are higher than those used for limits testing, the maximum effective limits of other services will be reduced. It is therefore important to execute rigorous capacity management and scale testing exercises for specific deployments in order to establish effective limits for that environment.
   
-Note: We do not describe the hardware that was used to validate the limits in this document, because the limits were collected from multiple farms and environments.
+> [!NOTE] 
+> We do not describe the hardware that was used to validate  the limits in this document, because the limits were collected from multiple farms and environments.
   
 #### The Pie Metaphor
 
