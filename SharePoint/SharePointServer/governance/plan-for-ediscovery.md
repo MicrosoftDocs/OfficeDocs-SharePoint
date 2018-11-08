@@ -3,7 +3,6 @@ title: "Plan for eDiscovery in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 9/7/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
