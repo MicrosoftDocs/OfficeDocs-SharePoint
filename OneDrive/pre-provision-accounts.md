@@ -40,7 +40,7 @@ This article describes how to pre-provision OneDrive for your users by using Pow
     
 2. Download and install the [SharePoint Online Client Components SDK](https://go.microsoft.com/fwlink/p/?LinkId=506692).
     
-3. Connect to SharePoint Online as a global admin or SharePoint admin in Office 365. To learn how, see [Getting started with SharePoint Online Management Shell](https://go.microsoft.com/fwlink/?linkid=869066).
+3. Connect to SharePoint Online as a global admin or SharePoint admin in Office 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
     
     > [!NOTE]
     > If you get an error message about being unable to run scripts, you might need to change your execution policies. For info, see [About Execution Policies](https://go.microsoft.com/fwlink/?linkid=869255). 
