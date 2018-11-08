@@ -49,9 +49,9 @@ Before you can use the Managed Solutions Gallery, you must create a site collect
     
   - You must have membership in the db_owner fixed database role on all databases that are to be updated.
     
-  - You must be a member of the Administrators group on the server on which you are running the Windows PowerShell cmdlet.
+  - You must be a member of the Administrators group on the server on which you are running the Microsoft PowerShell cmdlet.
     
-    An administrator can use the [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx) cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
+    An administrator can use the [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx) cmdlet to grant permissions to use SharePoint Server  cmdlets. 
     
 2. Start the SharePoint Management Shell.
     
