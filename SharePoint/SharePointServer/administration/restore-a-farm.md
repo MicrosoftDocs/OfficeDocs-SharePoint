@@ -36,7 +36,7 @@ Farm-level recovery is usually performed only after a failure that involves the 
     
 Before you begin this operation, review the following information about how to recover a farm in SharePoint:
   
-- You cannot back up from one version of SharePoint Server 2016 and restore to another version of SharePoint Server 2016 or from one version of SharePoint Server 2013 and restore to another version of SharePoint Server 2013.
+- You cannot back up from one version of SharePoint Server 2019 and restore to another version of SharePoint Server 2019. The same applies to SharePoint Servers 2016 and 2013.
     
 - Backing up the farm will back up the configuration and Central Administration content databases, but these cannot be restored using SharePoint Server tools. For more information about how to back up and restore all of the farm databases, see [Move all databases in SharePoint Server](move-all-databases.md).
     
