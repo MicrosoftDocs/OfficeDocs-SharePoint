@@ -17,25 +17,27 @@ description: "Learn about viewing and restoring sites on the Recycle bin page of
 
 # View and restore deleted sites in the new SharePoint admin center
 
-Deleted sites are retained for 93 days. After 93 days, sites and all their content and settings are permanently deleted, including document libraries and files, lists and data, and any subsites.
+Deleted sites are retained for 93 days. After 93 days, sites and all their content and settings are permanently deleted, including lists, libraries, pages, and any subsites.
   
 > [!NOTE]
-> If you need to retain content for a minimum period of time to comply with industry regulations or internal policies, you can create a retention policy to keep a copy of it in the Preservation Hold library. For info, see [Overview of retention policies](https://support.office.com/article/5e377752-700d-4870-9b6d-12bfc12d2423). 
+> If you need to retain content for a minimum period of time to comply with industry regulations or internal policies, you can create a retention policy to keep a copy of it in the Preservation Hold library. For info, see [Overview of retention policies](/office365/securitycompliance/retention-policies). 
   
-To view deleted sites in the new SharePoint admin center (preview), go to the current SharePoint admin center, click "Try the preview" in the upper right, and then select **Deleted sites**. 
+To view deleted sites in the new SharePoint admin center (preview), go to the current SharePoint admin center, click "Try it now" in the upper right, and then select **Deleted sites**. 
   
 ![Deleted sites in the new SharePoint admin center](media/b195b8c7-ee2b-4a02-92cb-ed61899edd24.png)
-  
-> [!NOTE]
-> The new SharePoint admin center does not yet support deleting or restoring sites that belong to an Office 365 group. To delete or restore Office 365 groups (and the sites connected to them), go to the Microsoft 365 admin center. It might take a while for deleted group-connected team sites to appear on the Deleted sites page. 
 
-You can sort and filter deleted sites the same way you sort and filter sites on the Site management page. You can also sort and filter deleted sites by Time deleted.
+You can sort and filter deleted sites the same way you sort and filter sites on the Active sites page. You can also sort and filter deleted sites by Time deleted.
   
 ## Restore a deleted site
 
+The new SharePoint admin center now enables both global admins and SharePoint admins to delete and restore sites that belong to an Office 365 group.
+
 1. Select the site. 
     
-2. Click **Restore**. (If you don't see the Restore button, make sure only one site is selected. The button won't appear if multiple sites are selected, or if a group-connected team site is selected.)
+2. Click **Restore**. (If you don't see the Restore button, make sure only one site is selected. The button won't appear if multiple sites are selected.)
+ 
+> [!NOTE]
+> Restoring a site that belongs to an Office 365 group restores the Office 365 group and all its resources. Note that the other group resources are retained for only 30 days, whereas the site is retained for 93. If the other group resources have been deleted, you can use the PowerShell command [Remove-SPODeletedSite](/powershell/module/sharepoint-online/remove-spodeletedsite) to permanently delete the site.   
     
 For more info about the new SharePoint admin center, see [Get started with the new SharePoint admin center](get-started-new-admin-center.md).
   
