@@ -53,7 +53,25 @@ You can recover deleted sites for 93 days. For more info, see [View and restore 
     
 2. Click **Owners**. For a group-connected team site, you can add and remove group owners. For other sites, you can change the primary admin and add and remove other admins. Note that if you remove a person as a primary admin, they will still be listed as an additional admin. 
     
+## Change a site's hub site association
+<a name="hubsite"> </a>
   
+1. In the left column, click to select a site. 
+    
+2. Click **Hub site**. The options that appear depend on whether the site you selected is registered as a hub site, or associated with a hub site. The hub site menu lets you register a site as a hub site, associate it with a hub site, change its hub site association, and unregister it as a hub site. [More info about hub sites](planning-hub-sites.md) 
+
+## Change the external sharing setting for a site
+<a name="changesitesharing"> </a>
+  
+1. In the left column, click to select a site.
+    
+2. Click **Sharing**.
+    
+3. Select an option, and then click **Save**.
+    
+    > [!NOTE]
+    > The options that are available depend on the organization-wide setting you've selected. The setting for a site can be more restrictive, but not more permissive. 
+
 ## Email admins
 <a name="emailadmins"> </a>
 
@@ -70,17 +88,7 @@ You can email the primary admins for the sites you select, except for sites that
     
     ![Email admins dialog box](media/28ecaf36-9e47-4757-8c12-8bbbc0c33daf.PNG)
   
-## Change the external sharing setting for a site
-<a name="changesitesharing"> </a>
-  
-1. Click the site name to open the details pane.
-    
-2. Under **Properties**, next to **Sharing status**, click **Change**.
-    
-3. Select an option, and then click **Save**.
-    
-    > [!NOTE]
-    > The options that are available depend on the organization-wide setting you've selected. The setting for a site can be more restrictive, but not more permissive. 
+
   
 ## View site details
 <a name="viewsitedetails"> </a>
