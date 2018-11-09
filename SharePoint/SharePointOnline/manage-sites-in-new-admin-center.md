@@ -3,7 +3,6 @@ title: "Manage sites in the new SharePoint admin center"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 6/20/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
@@ -13,62 +12,57 @@ search.appverid:
 - BSA160
 - MET150
 ms.assetid: d8c63491-0410-405c-880a-8cef7fa4480a
-description: "Learn about tasks you can perform on the Site management page of the new SharePoint admin center."
+description: "Learn about tasks you can perform on the Active sites page of the new SharePoint admin center."
 ---
 
 # Manage sites in the new SharePoint admin center
 
-The Site management page of the new SharePoint admin center (preview) lets you view the SharePoint sites in your organization (including the new communication sites and sites that belong to Office 365 groups). It also lets you sort and filter sites, search for a site, and create new sites.
+The Active sites page of the new SharePoint admin center (preview) lets you view the SharePoint sites in your organization (including the new communication sites and sites that belong to Office 365 groups). It also lets you sort and filter sites, search for a site, and create new sites.
   
 ![Manage sites in the new SharePoint admin center](media/2a18e27e-47ba-4370-8d91-cb6d75d746b5.png)
   
 > [!NOTE]
-> The Site management page lists the root website for each site collection. Subsites aren't included in the list. <br>Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Office 365](https://support.office.com/article/3b3adfa4-1777-4ff0-b606-fb8732101f47). This means that you may not yet see this feature or it may look different than what is described in this article. 
+> The Active sites page lists the root website for each site collection. Subsites aren't included in the list. <br>Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Office 365](/office365/admin/manage/release-options-in-office-365). This means that you may not yet see this feature or it may look different than what is described in this article. 
   
-To manage sites in the new SharePoint admin center, go to the current SharePoint admin center, click "Try the preview" in the upper right, and then select **Site management**. For info about the new SharePoint admin center, see [Get started with the new SharePoint admin center](get-started-new-admin-center.md).
+To manage sites in the new SharePoint admin center, go to the current SharePoint admin center, click "Try it now" in the upper right, and then select **Active sites**. For info about the new SharePoint admin center, see [Get started with the new SharePoint admin center](get-started-new-admin-center.md).
   
 ## Create a site
 <a name="createsite"> </a>
-
-You as a SharePoint or global admin in your organization can create new sites from the admin center in the same way that you can allow your users to create sites.
   
 1. Click **Create site**.
     
-2. Select to create a team site (which will create an Office 365 group), a communication site, or a classic site. For info about the new site templates, see [Create a team site in SharePoint Online](https://support.office.com/article/ef10c1e7-15f3-42a3-98aa-b5972711777d) and [Create a communication site in SharePoint Online](https://support.office.com/article/7fb44b20-a72f-4d2c-9173-fc8f59ba50eb).
+2. Select to create a team site (which will create an Office 365 group) or a communication site. To create a classic site, or a new team site that doesn't include an Office 365 group, click **Other options**. For info about the new site templates, see [Create a team site in SharePoint Online](https://support.office.com/article/ef10c1e7-15f3-42a3-98aa-b5972711777d) and [Create a communication site in SharePoint Online](https://support.office.com/article/7fb44b20-a72f-4d2c-9173-fc8f59ba50eb).
     
     ![Create a communication site, team site, or classic site from the admin center](media/c4c5173f-ca83-426f-a940-cb2869a3a64b.png)
   
 ## Delete a site
 <a name="deletesite"> </a>
 
-On the Site management page, you can delete the communication sites you created, as well as all classic sites. (To delete sites that belong to an Office 365 group, you need to delete all the group resources by going to the Microsoft 365 admin center and deleting the group.)
+Global admins and SharePoint admins can now delete sites that belong to an Office 365 group. Deleting these sites will delete the group and all its resources, including the Outlook mailbox and calendar, and any Teams channels. 
   
 1. In the left column, click to select a site.
     
 2. Click **Delete**, and then click **Delete** to confirm. 
     
-You can recover deleted sites for 93 days. For more info, see [View and restore deleted sites](view-and-restore-deleted-sites-in-new-admin-center.md).
+You can recover deleted sites for 93 days. For more info, see [View and restore deleted sites](view-and-restore-deleted-sites-in-new-admin-center.md). Note that deleted groups must be restored within 30 days.
   
-## Add or remove admins
+## Add or remove owners
 <a name="addremoveadmins"> </a>
-
-For all sites except those managed by Office 365 group owners, you can change the primary admin and add or remove additional admins.
   
-1. Click the site name to open the details pane.
+1. In the left column, click to select a site. 
     
-2. Under **Properties**, click **Change primary admin** or **Add or remove admins**.
+2. Click **Owners**. For a group-connected team site, you can add and remove group owners. For other sites, you can change the primary admin and add and remove other admins. Note that if you remove a person as a primary admin, they will still be listed as an additional admin. 
     
-    ![Change the primary admin or add or remove other admins in the details pane](media/690948e4-109e-4398-b9ca-963c92e21450.PNG)
   
 ## Email admins
 <a name="emailadmins"> </a>
 
-On the Site management page, you can email the primary admins of the sites you select.
+You can email the primary admins for the sites you select, except for sites that belong to an Office 365 group. Users who are the primary admin for more than one site will receive an email for each site.
   
 1. In the left column, click to select one or more sites.
     
-    > [!NOTE]
-    >  You can email the primary admins for all sites except those that belong to an Office 365 group. If you want to email several owners at one time, sort or filter columns to exclude sites that belong to an Office 365 group before you make your selection. <br>Users who are the primary admin for more than one site will receive an email for each site. 
+    > [!TIP]
+    >  To filter out group-connected team sites from your view, select the built-in view **Sites without a group**.  
   
 2. Click **Email admins**.
     
@@ -76,10 +70,8 @@ On the Site management page, you can email the primary admins of the sites you s
     
     ![Email admins dialog box](media/28ecaf36-9e47-4757-8c12-8bbbc0c33daf.PNG)
   
-## Change the external sharing setting for the site
+## Change the external sharing setting for a site
 <a name="changesitesharing"> </a>
-
-On the Site management page, you can change the external sharing setting for any site.
   
 1. Click the site name to open the details pane.
     
@@ -110,7 +102,7 @@ Site insights in the details pane:
 - The amount of storage used
     
 > [!NOTE]
-> All these insights are available as columns in the site management list. For info about adding a column that doesn't appear, see [Customize columns](manage-sites-in-new-admin-center.md#customizecolumns). 
+> All these insights are available as columns in the site list. For info about adding a column that doesn't appear, see [Customize columns](manage-sites-in-new-admin-center.md#customizecolumns). 
   
 ![Site properties in the details pane](media/addeb5ec-cfc7-4d0c-a789-7eeeabdea67c.PNG)
   
@@ -120,15 +112,17 @@ Site properties in the details pane:
     
 - A link to the site
     
-- The site template (also available as a column in the site management list)
+- The site template (also available as a column in the site list)
+
+- Hub site association
     
-- Whether the site belongs to an Office 365 group (also available as a column in the site management list)
+- Whether the site belongs to an Office 365 group (also available as a column in the site list)
     
 - The site description if specified
     
-- The primary admin (also available as a column in the site management list) and additional admins, with links to change the admins. If a site belongs to an Office 365 group, you can change the admins by changing the group owners. For info, see [Add or remove members from Office 365 groups using the Office 365 admin center](https://support.office.com/article/e186d224-a324-4afa-8300-0e4fc0c3000a).
+- The primary admin (also available as a column in the site list) and additional admins, with links to change the admins. If a site belongs to an Office 365 group, you can change the admins by changing the group owners. 
     
-- The external sharing status (also available as a column in the site management list)
+- The external sharing status (also available as a column in the site list)
     
 ## Sort and filter the site list
 <a name="sortfilter"> </a>
@@ -151,10 +145,10 @@ You can search for a site by name, URL, primary admin, or template. To do this, 
 ## Export to CSV
 <a name="export"> </a>
 
-To export your list of all sites as a .csv file that you can work with in Excel, click **Export to CSV**.
+To export your list of all sites as a .csv file that you can work with in Excel, click **Export**.
   
 > [!NOTE]
-> The Export to CSV command exports all sites and includes all columns, even if your current view is filtered. 
+> The Export command exports all sites and includes all columns, even if your current view is filtered. 
   
 ## Customize columns
 <a name="customizecolumns"> </a>
@@ -165,12 +159,12 @@ To export your list of all sites as a .csv file that you can work with in Excel,
     
 3. Rearrange the columns by pointing to a column and clicking the up or down arrow to move the column up or down.
     
-    ![Show, hide, and rearrange columns on the Site management page](media/d713dbd8-2ac7-428c-a5b9-b5bd673ce674.PNG)
+    ![Show, hide, and rearrange columns on the Active sites page](media/d713dbd8-2ac7-428c-a5b9-b5bd673ce674.PNG)
   
 ## Switch views and create custom views
 <a name="views"> </a>
 
-The new SharePoint admin center (preview) comes with a few built-in views: Largest, Least active, and Most popular shared. You can also create and save custom views.
+The new SharePoint admin center (preview) comes with a few built-in views: Office 365 group sites, Sites without a group, Largest sites, Least active sites, and Most popular shared sites. You can also create and save custom views.
   
 1. Customize columns, sort, and filter your view the way you want. (Views that are filtered through search can't be saved.)
     
