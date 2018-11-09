@@ -3,7 +3,6 @@ title: "Restore Search service applications in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 3/12/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -55,13 +54,13 @@ You can use PowerShell to restore a service application.
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
-  - Farm Administrators SharePoint group.
+   - Farm Administrators SharePoint group.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
@@ -74,43 +73,43 @@ You can use PowerShell to restore a service application.
     
 4. At the PowerShell command prompt, type the following command:
     
-  ```
-  Restore-SPFarm -Directory <BackupFolder> -Item "<ServiceApplicationName>" -RestoreMethod Overwrite [-BackupId <GUID>] [-Verbose]
-  ```
+   ```
+   Restore-SPFarm -Directory <BackupFolder> -Item "<ServiceApplicationName>" -RestoreMethod Overwrite [-BackupId <GUID>] [-Verbose]
+   ```
 
     Where:
     
-  -  _\<BackupFolder\>_ is the path for the backup folder where the service application was backed up. 
+   -  _\<BackupFolder\>_ is the path for the backup folder where the service application was backed up. 
     
-  -  _\<ServiceApplicationName\>_ is the name the service application. 
+   -  _\<ServiceApplicationName\>_ is the name the service application. 
     
-  -  _\<GUID\>_is the ID of the backup to use.
+   -  _\<GUID\>_is the ID of the backup to use.
     
     To specify which backup to use, use the  `BackupId` parameter. You can view the backups for the farm by typing the following:  `Get-SPBackupHistory -Directory <BackupFolder> -ShowBackup`. If you do not specify the  `BackupId`, the most recent backup will be used. You cannot restore a service application from a configuration-only backup.
     
     To restore all the service applications, at the PowerShell command prompt, type the following command:
     
-  ```
-  Restore-SPFarm -Directory <BackupFolder> -Item "Farm\Shared Service Applications" -RestoreMethod Overwrite [-BackupId <GUID>] [-Verbose]
-  ```
+   ```
+   Restore-SPFarm -Directory <BackupFolder> -Item "Farm\Shared Service Applications" -RestoreMethod Overwrite [-BackupId <GUID>] [-Verbose]
+   ```
 
     Where:
     
-  -  _\<BackupFolder\>_ is the path for the backup folder where the service application was backed up. 
+   -  _\<BackupFolder\>_ is the path for the backup folder where the service application was backed up. 
     
-  -  _\<GUID\>_is the ID of the backup to use.
+   -  _\<GUID\>_is the ID of the backup to use.
     
     For more information, see [Restore-SPFarm](http://technet.microsoft.com/library/8e18ea80-0830-4ffa-b6b6-ad18a5a7ab3e.aspx).
     
 5. When you restore a Search service application, it is automatically paused. To resume the Search service application when the restore has completed, type the following command: 
     
-  ```
-  $ssa = Get-SPEnterpriseSearchServiceApplication <SearchServiceApplicationName>$ssa.ForceResume(0x02)
-  ```
+   ```
+   $ssa = Get-SPEnterpriseSearchServiceApplication <SearchServiceApplicationName>$ssa.ForceResume(0x02)
+   ```
 
     Where:
     
-  -  _\<SearchServiceApplicationName\>_ is the name the service application you want to resume. 
+   -  _\<SearchServiceApplicationName\>_ is the name the service application you want to resume. 
     
 > [!NOTE]
 > Index files are restored to one replica per index partition. After the restore has completed, the index for each replica is replicated to the other index replicas. During this process the search topology is fully functional for crawling and queries, but is not fault tolerant. 
@@ -165,15 +164,15 @@ Use the following procedure to restore a search service application by using the
     
 11. At the PowerShell command prompt, type the following command:
     
-  ```
-  $ssa = Get-SPEnterpriseSearchServiceApplication <SearchServiceApplicationName>
-  $ssa.ForceResume(0x02)
+    ```
+    $ssa = Get-SPEnterpriseSearchServiceApplication <SearchServiceApplicationName>
+    $ssa.ForceResume(0x02)
   
-  ```
+    ```
 
     Where:
     
-  -  _\<SearchServiceApplicationName\>_ is the name the service application you want to resume. 
+    -  _\<SearchServiceApplicationName\>_ is the name the service application you want to resume. 
     
 > [!NOTE]
 > Index files are restored to one replica per index partition. After the restore has completed, the index for each replica is replicated to the other index replicas. During this process the search topology is fully functional for crawling and queries, but is not fault tolerant. Depending on the size of the farm and the index, the process can take several hours. The index replicas appear as degraded in the Search Administration UI and in the output of the Get-SPEnterpriseSearchStatus Microsoft PowerShell cmdlet during the process. 
