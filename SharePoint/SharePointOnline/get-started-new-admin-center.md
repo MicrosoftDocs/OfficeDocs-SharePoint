@@ -18,10 +18,10 @@ description: "Learn about the cards on the Home page of the new SharePoint admin
 
 # Get started with the new SharePoint admin center
 
-As a global or SharePoint admin in Office 365, you can try the new SharePoint admin center (preview). To access it, go to the classic SharePoint admin center and click **Try the preview** in the upper right. 
+As a global or SharePoint admin in Office 365, you can try the new SharePoint admin center (preview). To access it, go to the classic SharePoint admin center and click **Try it now** in the upper right. 
   
 > [!NOTE]
-> Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Office 365](https://support.office.com/article/3b3adfa4-1777-4ff0-b606-fb8732101f47). This means that you may not yet see some features or they may look different than what is described in this article. 
+> Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Office 365](/office365/admin/manage/release-options-in-office-365). This means that you may not yet see some features or they may look different than what is described in this article. 
   
 ## Schedule for releasing the new SharePoint admin center
 
@@ -29,7 +29,7 @@ The new SharePoint admin center (preview) is now available worldwide to customer
   
 To switch back to the classic SharePoint admin center:
   
-- In the lower left of the new SharePoint admin center, click **Go to the classic SharePoint admin center**.
+- In the left pane of the new SharePoint admin center, click **Classic SharePoint admin center**.
     
 > [!IMPORTANT]
 > If a setting exists in both the new and classic SharePoint admin centers, and possibly other admin centers such as the OneDrive and Office 365 admin centers, when you change it in one place, the other admin centers will reflect the change. If you have multiple admins in your organization, make sure you communicate the changes you're making. 
@@ -47,14 +47,14 @@ On the Home page, you can see at a glance:
 ![The reports on the Home page](media/72b36579-70e8-4731-9e28-4f64cf577826.PNG)
   
 > [!TIP]
->  To filter a report, click an item in the legend. For example, on the Files by activity type chart, click "Viewed or edited." <br>  To see values for a specific day, point to that day on the report. </br>  To see more details about a report, click **Details** to open the report in the Microsoft 365 admin center. Here, you can see tables of activity by site or users, change the reporting period, pivot the report, export the report data into a .csv file that you can open in Excel, and more. For more info about the SharePoint reports in the Microsoft 365 admin center, see [Office 365 Reports in the Admin Center - SharePoint activity](https://support.office.com/article/a91c958f-1279-499d-9959-12f0de08dc8f) and [Office 365 Reports in the Admin Center - SharePoint site usage](https://support.office.com/article/4ecfb843-e5d5-464d-8bf6-7ed512a9b213). 
+>  To filter a report, click an item in the legend. For example, on the Files by activity type chart, click "Viewed or edited." <br>  To see values for a specific day, point to that day on the report. </br>  To see more details about a report, click **Details** to open the report in the Microsoft 365 admin center. Here, you can see tables of activity by site or users, change the reporting period, pivot the report, export the report data into a .csv file that you can open in Excel, and more. For more info about the SharePoint reports in the Microsoft 365 admin center, see [Office 365 Reports in the Admin Center - SharePoint activity](/office365/admin/activity-reports/sharepoint-activity) and [Office 365 Reports in the Admin Center - SharePoint site usage](/office365/admin/activity-reports/sharepoint-site-usage). 
   
 > [!NOTE]
 > Reports typically don't include activity from the last 24 to 48 hours. 
   
 ## View Message center posts
 
-In the Message center section of the home page, you can read official announcements about new and changed SharePoint features to help you manage upcoming changes. Each post gives you an overview of a change and how it may affect your users. Click a post to open it in the Microsoft 365 admin center (where you can dismiss it if you want to hide it from the list), or click **All active messages** to sort and filter the list of messages across all Office 365 services. [Message center in Office 365](https://support.office.com/article/38fb3333-bfcc-4340-a37b-deda509c2093)
+In the Message center section of the home page, you can read official announcements about new and changed SharePoint features to help you manage upcoming changes. Each post gives you an overview of a change and how it may affect your users. Click a post to open it in the Microsoft 365 admin center (where you can dismiss it if you want to hide it from the list), or click **All active messages** to sort and filter the list of messages across all Office 365 services. [Message center in Office 365](/office365/admin/manage/message-center)
   
 ![The Message Center card on the Home page](media/804aeffa-f842-4951-a42e-86d7151b28fa.PNG)
   
