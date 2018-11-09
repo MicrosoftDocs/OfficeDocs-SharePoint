@@ -3,7 +3,6 @@ title: "Restore content from unattached content databases in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 9/14/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -33,13 +32,13 @@ You can recover content from an unattached content database by using PowerShell.
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
-    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
+     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
     > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
@@ -48,15 +47,15 @@ You can recover content from an unattached content database by using PowerShell.
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  Get-SPContentDatabase -ConnectAsUnattachedDatabase  -DatabaseName <DatabaseName> -DatabaseServer <DatabaseServer>
-  ```
+   ```
+   Get-SPContentDatabase -ConnectAsUnattachedDatabase  -DatabaseName <DatabaseName> -DatabaseServer <DatabaseServer>
+   ```
 
     Where:
     
-  -  _\<DatabaseName\>_ is the name of the unattached database from which you want to recover content. 
+   -  _\<DatabaseName\>_ is the name of the unattached database from which you want to recover content. 
     
-  -  _\<DatabaseServer\>_ is the name of the database server that hosts the unattached database from which you want to recover content. 
+   -  _\<DatabaseServer\>_ is the name of the database server that hosts the unattached database from which you want to recover content. 
     
 For more information, see [Get-SPContentDatabase](http://technet.microsoft.com/library/a4a83bb0-0bab-4cad-9b59-0fd89a16f57b.aspx).
   
