@@ -3,7 +3,6 @@ title: "Restore web applications in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 2/21/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -46,13 +45,13 @@ You can use PowerShell to restore a web application manually or as part of a scr
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
-    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
+     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
     > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
@@ -61,23 +60,23 @@ You can use PowerShell to restore a web application manually or as part of a scr
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  Restore-SPFarm -Directory <BackupFolderName> -RestoreMethod Overwrite -Item  <WebApplicationName> [-BackupId <GUID>] [-Verbose]
-  ```
+   ```
+   Restore-SPFarm -Directory <BackupFolderName> -RestoreMethod Overwrite -Item  <WebApplicationName> [-BackupId <GUID>] [-Verbose]
+   ```
 
-    Where:
+   Where:
     
-  -  _\<BackupFolderName\>_ is the full path of the folder that you use for backup files. 
+   -  _\<BackupFolderName\>_ is the full path of the folder that you use for backup files. 
     
-  -  _\<WebApplicationName\>_ is the name of the web application that was backed up. 
+   -  _\<WebApplicationName\>_ is the name of the web application that was backed up. 
     
-  -  _\<GUID\>_ is the identifier of the back up to use for the restore operation. 
+   -  _\<GUID\>_ is the identifier of the back up to use for the restore operation. 
     
-    If you do not specify the value of the  `BackupID` parameter, the most recent backup will be used. You cannot restore a web application by using a configuration-only backup. You can view the backups for the farm by typing the following: 
+   If you do not specify the value of the  `BackupID` parameter, the most recent backup will be used. You cannot restore a web application by using a configuration-only backup. You can view the backups for the farm by typing the following: 
     
-  ```
-  Get-SPBackupHistory -Directory <BackupFolderName> -ShowBackup
-  ```
+   ```
+   Get-SPBackupHistory -Directory <BackupFolderName> -ShowBackup
+   ```
 
 For more information, see [Restore-SPFarm](http://technet.microsoft.com/library/8e18ea80-0830-4ffa-b6b6-ad18a5a7ab3e.aspx). 
   

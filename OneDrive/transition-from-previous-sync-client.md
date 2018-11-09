@@ -80,16 +80,15 @@ For more info about sync restrictions and limitations, see [Invalid file names a
   
 ## Configure takeover
 
-When ythe new OneDrive sync client (OneDrive.exe) is deployed and configured on a computer, it will automatically transition off of the previous OneDrive for Business sync client (Groove.exe).  
-  
+When the new OneDrive sync client (OneDrive.exe) is deployed and configured on a computer, it will automatically transition off of the previous OneDrive for Business sync client (Groove.exe).
+
 You can configure the sync client in two ways: 
   
-Silently - [Review the prerequisites and steps](use-silent-account-configuration.md), and then [use this policy](use-group-policy.md#SilentAccountConfig).  
+- Silently - [Review the prerequisites and steps](use-silent-account-configuration.md), and then [use this policy](use-group-policy.md#SilentAccountConfig).  
   
-Manually - In the SharePoint admin center, [set OneDrive and SharePoint to sync with the new OneDrive sync client](/sharepoint/let-users-use-new-onedrive-sync-client#set-sharepoint-to-sync-with-the-onedrive-sync-client). This will run the new sync client the next time users click the Sync button in a SharePoint document library. 
-If the options aren't available in the SharePoint admin center, the new OneDrive sync client is already set up to sync files in OneDrive and SharePoint Online.  
+- Manually - In the SharePoint admin center, [set OneDrive and SharePoint to sync with the new OneDrive sync client](/sharepoint/let-users-use-new-onedrive-sync-client#set-sharepoint-to-sync-with-the-onedrive-sync-client). This will run the new sync client the next time users click the Sync button in a SharePoint document library. If the options aren't available in the SharePoint admin center, the new OneDrive sync client is already set up to sync files in OneDrive and SharePoint Online.  
   
-Once OneDrive.exe is installed and congifured, Groove.exe should no longer be able to sync. If the takeover did not succeed or your users are stuck in a hybrid state (some content syncing with OneDrive.exe and some with Groove.exe), try running %localappdata%\Microsoft\OneDrive\OneDrive.exe /takeover. You must set up OneDrive.exe on the computer before you run this command. 
+Once OneDrive.exe is installed and configured, Groove.exe should no longer be able to sync. If the takeover did not succeed or your users are stuck in a hybrid state (some content syncing with OneDrive.exe and some with Groove.exe), try running %localappdata%\Microsoft\OneDrive\OneDrive.exe /takeover. You must set up OneDrive.exe on the computer before you run this command. 
   
 > [!TIP] 
 > Make sure to run the command in a user context, rather than as admin, or the user will see the error "OneDrive.exe cannot be run with Admin privileges."<br>To affect all users on the computer, configure the command to run on every user account so it will run for any user who signs in. 
@@ -108,6 +107,8 @@ To prevent users from using the previous OneDrive for Business sync client, foll
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
     
 2. Connect to SharePoint Online as a global admin or SharePoint admin in Office 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online). 
+
+3. Run the following command:
   
 ```PowerShell
 Set-SPOTenantSyncClientRestriction [-GrooveBlockOption <String> "OptOut"|"HardOptIn"|"SoftOptIn"] 

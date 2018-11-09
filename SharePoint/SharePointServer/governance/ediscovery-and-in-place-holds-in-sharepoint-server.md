@@ -3,7 +3,6 @@ title: "eDiscovery and in-place holds in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 9/12/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -17,7 +16,7 @@ description: "Learn about eDiscovery across SharePoint Server 2016 and Exchange 
 
 [!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
 
-Electronic discovery, or eDiscovery, is the process of identifying and delivering electronic information that can be used as evidence. The eDiscovery Center, is a type of site collection that serves as a portal for managing eDiscovery cases. From this central location you can discover content in the SharePoint farm, in Exchange Server 2013 or Exchange Server 2016, on file shares, and in other SharePoint farms. You can apply a hold to SharePoint and Exchange content that you discover. The hold ensures that a copy of the content is preserved, while still allowing users to work with their content. When you have identified the specific items that you will have to deliver, you can export them in an industry-standard format.
+Electronic discovery, or eDiscovery, is the process of identifying and delivering electronic information that can be used as evidence. The eDiscovery Center, is a type of site collection that serves as a portal for managing eDiscovery cases. From this central location you can discover content in the SharePoint farm, in Exchange Servers 2013, 2016, and 2019, on file shares, and in other SharePoint farms. You can apply a hold to SharePoint and Exchange content that you discover. The hold ensures that a copy of the content is preserved, while still allowing users to work with their content. When you have identified the specific items that you will have to deliver, you can export them in an industry-standard format.
   
     
 ## Managing an eDiscovery case
@@ -108,7 +107,7 @@ Consider the following when planning for in-place holds:
 ## Integration with Exchange
 <a name="exchange-integration"> </a>
 
-You can manage the discovery process for Exchange Server 2013 and Exchange Server 2016 from a SharePoint eDiscovery Center. You can do the following:
+You can manage the discovery process for Exchange Servers 2013, 2016, and 2019 from a SharePoint eDiscovery Center. You can do the following:
   
 - Add Exchange mailboxes as sources to either an eDiscovery set or a query.
     
