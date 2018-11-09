@@ -58,7 +58,7 @@ You can recover deleted sites for 93 days. For more info, see [View and restore 
   
 1. In the left column, click to select a site. 
     
-2. Click **Hub site**. The options that appear depend on whether the site you selected is registered as a hub site, or associated with a hub site. The hub site menu lets you register a site as a hub site, associate it with a hub site, change its hub site association, and unregister it as a hub site.  
+2. Click **Hub site**. The options that appear depend on whether the site you selected is registered as a hub site, or associated with a hub site. The hub site menu lets you register a site as a hub site, associate it with a hub site, change its hub site association, and unregister it as a hub site. [More info about hub sites](planning-hub-sites.md) 
 
 ## Change the external sharing setting for a site
 <a name="changesitesharing"> </a>

@@ -21,7 +21,7 @@ description: "Learn about the features currently in the new SharePoint admin cen
 We're continuously adding new features to the new SharePoint admin center (preview) and fixing issues we learn about. Here's a summary of what's included, and what's coming up. You can help us improve the admin center by sending us your suggestions and reporting bugs you encounter. In the lower-right corner of the admin center, click the **Feedback** button. 
   
 > [!NOTE]
-> The new SharePoint admin center (preview) is supported in Microsoft Edge, Internet Explorer, Chrome, Firefox, and Safari. <br>Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Office 365](https://support.office.com/article/3b3adfa4-1777-4ff0-b606-fb8732101f47). This means that you may not yet see some features described in this article. 
+> The new SharePoint admin center (preview) is supported in Microsoft Edge, Internet Explorer, Chrome, Firefox, and Safari. <br>Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Office 365](/office365/admin/manage/release-options-in-office-365). This means that you may not yet see some features described in this article. 
   
 ## Available now
 
@@ -45,11 +45,11 @@ We're continuously adding new features to the new SharePoint admin center (previ
     
 - The ability to sort, filter, and customize columns, as well as search by all text fields
 
-- The ability to view and filter by hub site association
+- The ability to view and filter by hub site association, and change a site's hub site association
     
 - Built-in views and the ability to create custom views
     
-- The ability to edit site-level sharing status for sites that don't belong to Office 365 groups
+- The ability to edit site-level sharing status 
     
 - Export to CSV
     
@@ -61,11 +61,15 @@ We're continuously adding new features to the new SharePoint admin center (previ
   
 - A list of deleted sites with time deleted
     
-- The ability to restore sites (except those connected to an Office 365 group) individually
+- The ability to restore sites individually
     
- **Settings page**
+ **Access control page**
   
-- Settings for list and library experience, sync (if your organization used the previous sync client), and notifications
+- The ability to create policies that restrict access from unmanaged devices, sign out users from inactive browser sessions, allow access from only specific IP addresses, and block access from apps that don't use modern authentication. 
+
+- **Settings page**
+  
+- Settings for list and library experience, sync (if your organization used the previous sync client), notifications, site storage limits, default admin experience, and site creation
 
  **API management page**
   
@@ -84,8 +88,8 @@ Here's a short list of some of the larger features we're working on. Use the Fee
 - Grouping
     
 - More batch operations
-    
-- The ability to view and update Office 365 group owners, and delete sites that belong to an Office 365 group
+
+- The ability to change site URLs
     
  **Deleted sites page**
   
@@ -93,8 +97,8 @@ Here's a short list of some of the larger features we're working on. Use the Fee
     
 - The ability to permanently delete sites
     
- **Sharing and Access control**
+ **Sharing**
   
-- New pages for organization-wide settings
+- A new page for organization-wide settings
     
 
