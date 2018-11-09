@@ -3,7 +3,6 @@ title: "Restore content databases in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 9/14/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -57,15 +56,15 @@ You can use PowerShell to restore a content database.
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  Restore-SPFarm -Directory <BackupFolder> -RestoreMethod Overwrite -Item <ContentDatabase> [-BackupId <GUID>] [-Verbose]
-  ```
+   ```
+   Restore-SPFarm -Directory <BackupFolder> -RestoreMethod Overwrite -Item <ContentDatabase> [-BackupId <GUID>] [-Verbose]
+   ```
 
     Where:
     
-  -  _\<BackupFolder\>_ is the name and path for the backup folder where the service application was backed up. 
+   -  _\<BackupFolder\>_ is the name and path for the backup folder where the service application was backed up. 
     
-  -  _\<ContentDatabase\>_ is the name of the content database. 
+   -  _\<ContentDatabase\>_ is the name of the content database. 
     
     If you do not use the  `BackupId` parameter, the most recent backup will be used. To view all of the backups for the farm, type the following command at the PowerShell command prompt: 
     
@@ -146,11 +145,11 @@ You can use SQL Server tools to restore a content database by following these st
     
 9. In the **Recovery state** section: 
     
-  - If you have included all the transaction logs that you must restore, select **RECOVER WITH RECOVERY**.
+   - If you have included all the transaction logs that you must restore, select **RECOVER WITH RECOVERY**.
     
-  - If you must restore additional transaction logs, select **RECOVER WITH NORECOVERY**.
+   - If you must restore additional transaction logs, select **RECOVER WITH NORECOVERY**.
     
-  - The third option, **RECOVER WITH STANDBY** is not used in this scenario. 
+   - The third option, **RECOVER WITH STANDBY** is not used in this scenario. 
     
     > [!NOTE]
     > For more information about these recovery options, see [Restore Database (Options Page)](http://go.microsoft.com/fwlink/p/?LinkID=717106&amp;clcid=0x409). 
