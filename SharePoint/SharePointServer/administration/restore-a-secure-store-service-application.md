@@ -3,7 +3,6 @@ title: "Restore Secure Store Service applications in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 3/10/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -82,11 +81,11 @@ You can use PowerShell to restore the Secure Store Service.
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
@@ -97,30 +96,30 @@ You can use PowerShell to restore the Secure Store Service.
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  Restore-SPFarm -Directory <BackupFolder> -Item <SecureStoreServicename> -RecoveryMethod Overwrite [-BackupId <GUID>] [-Verbose]
-  ```
+   ```
+   Restore-SPFarm -Directory <BackupFolder> -Item <SecureStoreServicename> -RecoveryMethod Overwrite [-BackupId <GUID>] [-Verbose]
+   ```
 
     Where:
     
-  -  _\<BackupFolder\>_ is the path for the backup folder where the service application was backed up. 
+   -  _\<BackupFolder\>_ is the path for the backup folder where the service application was backed up. 
     
-  -  _\<SecureStoreServicename\>_ is the name of the Secure Store Service application. 
+   -  _\<SecureStoreServicename\>_ is the name of the Secure Store Service application. 
     
     If you have multiple backups use the  `BackupId` parameter to specify which backup to use. To view all of the backups for the farm, type the following command at the PowerShell command prompt: 
     
-  ```
-  Get-SPBackupHistory -Directory <BackupFolder> -ShowBackup
-  ```
+   ```
+   Get-SPBackupHistory -Directory <BackupFolder> -ShowBackup
+   ```
 
     > [!NOTE]
     > If you do not specify a value for the  `BackupId` parameter, the most recent backup will be used. You cannot restore the Secure Store Service from a configuration-only backup. 
   
 4. After the restore operation has successfully completed, you must refresh the passphrase. At the PowerShell command prompt, type the following command:
     
-  ```
-  Update-SPSecureStoreApplicationServerKey -Passphrase <Passphrase>
-  ```
+   ```
+   Update-SPSecureStoreApplicationServerKey -Passphrase <Passphrase>
+   ```
 
     Where  _\<Passphrase\>_, is the one that you currently use.
     
