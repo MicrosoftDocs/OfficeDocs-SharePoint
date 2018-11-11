@@ -428,6 +428,8 @@ From a browser on your local computer, access **http://**\<DNS name of the spVM 
 When you are ready to design a production SharePoint Server 2016 farm in Azure, see [Designing a SharePoint Server 2016 farm in Azure](designing-a-sharepoint-server-2016-farm-in-azure.md).
   
 When you are ready to deploy a production-ready, high availability SharePoint Server 2016 farm in Azure, see [Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](deploying-sharepoint-server-2016-with-sql-server-alwayson-availability-groups-in.md).
+
+To start developing Low or High Trust Addins, you must first configure an App Domain. See [Configure an environment for apps for SharePoint Server](configure-an-environment-for-apps-for-sharepoint.md).
   
 ## Stop and start the virtual machines in the farm
 
