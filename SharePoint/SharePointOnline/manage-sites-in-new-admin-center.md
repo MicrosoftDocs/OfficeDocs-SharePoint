@@ -29,7 +29,7 @@ To manage sites in the new SharePoint admin center, go to the current SharePoint
 ## Create a site
 <a name="createsite"> </a>
   
-1. Click **Create site**.
+1. Click **Create**.
     
 2. Select to create a team site (which will create an Office 365 group) or a communication site. To create a classic site, or a new team site that doesn't include an Office 365 group, click **Other options**. For info about the new site templates, see [Create a team site in SharePoint Online](https://support.office.com/article/ef10c1e7-15f3-42a3-98aa-b5972711777d) and [Create a communication site in SharePoint Online](https://support.office.com/article/7fb44b20-a72f-4d2c-9173-fc8f59ba50eb).
     
@@ -82,7 +82,7 @@ You can email the primary admins for the sites you select, except for sites that
     > [!TIP]
     >  To filter out group-connected team sites from your view, select the built-in view **Sites without a group**.  
   
-2. Click **Email admins**.
+2. Click **Email**.
     
 3. Enter a subject and add a message, and then click **Send**.
     
