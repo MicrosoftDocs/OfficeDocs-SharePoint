@@ -3,7 +3,6 @@ title: "Back up site collections in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 9/13/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -44,36 +43,36 @@ You can use PowerShell to back up a site collection manually or as part of a scr
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  Backup-SPSite -Identity <SiteCollectionGUIDorURL> -Path <BackupFile> [-Force] [-NoSiteLock] [-UseSqlSnapshot] [-Verbose]
-  ```
+   ```
+   Backup-SPSite -Identity <SiteCollectionGUIDorURL> -Path <BackupFile> [-Force] [-NoSiteLock] [-UseSqlSnapshot] [-Verbose]
+   ```
 
     Where:
     
-  -  _\<SiteCollectionGUIDorURL\>_ is the ID or URL for the site collection you want to back up. 
+   -  _\<SiteCollectionGUIDorURL\>_ is the ID or URL for the site collection you want to back up. 
     
-  -  _\<BackupFile\>_ is the path to where the backup file is located. 
+   -  _\<BackupFile\>_ is the path to where the backup file is located. 
     
     If you want to overwrite a previously used backup file, use the  `Force` parameter. You can use the  `NoSiteLock` parameter to keep the read-only lock from being set on the site collection while it is being backed up. However, using this parameter can enable users to change the site collection while it is being backed up and could lead to possible data corruption during backup. To display the site collection GUID or URL at the PowerShell command prompt, type the following command: 
     
-  ```
-  Get-SPSite | format-list -property id,url
-  ```
+   ```
+   Get-SPSite | format-list -property id,url
+   ```
 
     If the database server is running an Enterprise Edition of SQL Server, we recommend that you also use the  `UseSqlSnapshot` parameter for more consistent backups. You can also export sites or lists from these snapshots. 
     
@@ -82,7 +81,7 @@ You can use PowerShell to back up a site collection manually or as part of a scr
   
     For more information about how to use SQL snap-shots, see [Back up databases to snapshots in SharePoint Server](back-up-databases-to-snapshots.md).
     
-For more information, see [Backup-SPSite](http://technet.microsoft.com/library/d4c31a1a-82a7-425f-b1bb-22e70bedd338.aspx).
+For more information, see [Backup-SPSite](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/backup-spsite?view=sharepoint-ps).
   
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
