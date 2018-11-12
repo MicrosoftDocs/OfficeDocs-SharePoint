@@ -3,7 +3,6 @@ title: "Export sites, lists, or document libraries in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 9/14/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -44,11 +43,11 @@ You can use PowerShell to export a site, list, or document library manually or a
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
@@ -59,17 +58,17 @@ You can use PowerShell to export a site, list, or document library manually or a
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  Export-SPWeb -Identity <SiteURL> -Path <Path and File Name> [-ItemUrl <URL of Site, List, or Library>] [-IncludeUserSecurity] [-IncludeVersions] [-NoFileCompression] [-GradualDelete] [-Verbose]
-  ```
+   ```
+   Export-SPWeb -Identity <SiteURL> -Path <Path and File Name> [-ItemUrl <URL of Site, List, or Library>] [-IncludeUserSecurity] [-IncludeVersions] [-NoFileCompression] [-GradualDelete] [-Verbose]
+   ```
 
     Where:
     
-  -  _\<SiteURL\>_ is URL for the site, list, or library that you are exporting. 
+   -  _\<SiteURL\>_ is URL for the site, list, or library that you are exporting. 
     
-  -  _\<Path and FileName\>_ is path and name for the site, list, or library that you are exporting. 
+   -  _\<Path and FileName\>_ is path and name for the site, list, or library that you are exporting. 
     
-  -  _\<URL of Site, List, or Library\>_ is the URL for the site, list, or library where you are exporting. 
+   -  _\<URL of Site, List, or Library\>_ is the URL for the site, list, or library where you are exporting. 
     
     If you are exporting a large site, list, or document library, you can use the  `GradualDelete` parameter. When this parameter is used, the site collection is marked as deleted, which immediately prevents any further access to its content. The data in the deleted site collection is then deleted gradually over time by a timer job instead of at one time, which reduces its effect on the performance of farm servers and SQL Server. 
     
@@ -77,7 +76,7 @@ You can use PowerShell to export a site, list, or document library manually or a
     
     The  `NoFileCompression` parameter lets you specify that no file compression is performed during the export process. Using this parameter can lower resource usage up to 30% during the export process. Using this parameter will result in a backup folder being created instead of a compressed file. If you use the  `NoFileCompression` parameter in the  `Export-SPWeb` command, you must also use it when you import the content by using the  `Import-SPWeb` command. 
     
-For more information, see [Export-SPWeb](http://technet.microsoft.com/library/cd85bf19-6f24-4f13-bd9c-37bbf279ea2b.aspx). 
+For more information, see [Export-SPWeb](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Export-SPWeb?view=sharepoint-ps). 
   
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
@@ -109,19 +108,19 @@ You can use Central Administration to export a site, list, or document library. 
     
 10. If you want to specify which version of the list or library to export, select one of the following versions from the **Export versions** list: 
     
-  - All Versions
+    - All Versions
     
-  - Last Major
+    - Last Major
     
-  - Current Version
+    - Current Version
     
-  - Last Major and Last Minor
+    - Last Major and Last Minor
     
 11. When you have specified the settings that you want, click **Start Export**.
     
 12. You can view the status of all backup jobs at the top of the **Granular Backup Job Status** page. You can view the status of the current backup job in the **Content Export** section of the page. The status page updates every 30 seconds automatically. You can manually update the status details by clicking **Refresh**. Backup and recovery are Timer service jobs. Therefore, it may take several seconds for the backup to start.
     
-    If you receive any errors, you can review them in the **Failure Message** column of the Backup and Restore Job Status page. You can also find more details in the <file name>.export.log file at the UNC path that you specified in step 6. 
+    If you receive any errors, you can review them in the **Failure Message** column of the Backup and Restore Job Status page. You can also find more details in the \<file name>\.export.log file at the UNC path that you specified in step 6. 
     
 ## See also
 <a name="proc2"> </a>
@@ -131,5 +130,5 @@ You can use Central Administration to export a site, list, or document library. 
 [Plan for backup and recovery in SharePoint Server](backup-and-recovery-planning.md)
 #### Other Resources
 
-[Use Windows PowerShell to administer SharePoint Server](http://technet.microsoft.com/library/ae4901b4-505a-42a9-b8d4-fca778abc12e.aspx)
+[Use Windows PowerShell to administer SharePoint Server](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/?view=sharepoint-ps)
 
