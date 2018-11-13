@@ -316,7 +316,7 @@ The Usage and Health Data Collection database is used by the Usage and Health Da
 
 |**Category**|**Description**|
 |:-----|:-----|
-|Default database name when installed by using the SharePoint Products Configuration Wizard  <br/> |SharePoint Server 2019 and SharePoint Server 2016 = WSS_Logging  <br/> SharePoint 2013 = SharePoint_Logging  <br/> |
+|Default database name when installed by using the SharePoint Products Configuration Wizard  <br/> |SharePoint Servers 2019 and 2016 = WSS_Logging  <br/> SharePoint 2013 = SharePoint_Logging  <br/> |
 |Location requirements  <br/> |The Usage and Health Data Collection database is very active, and should be put on a separate disk or spindle, if it is possible.  <br/> |
 |General size information and growth factors  <br/> |Extra large. Database size depends on the retention factor, number of items enabled for logging and external monitoring, how many Web applications are running in the environment, how many users are currently working, and which features are enabled.  <br/> |
 |Read/write characteristics  <br/> |Write-heavy  <br/> |
@@ -346,7 +346,7 @@ The Microsoft SharePoint Foundation Subscription Settings service application da
 ### SharePoint User Profile service application databases
 <a name="Sec2"> </a>
 
-The User Profile service has three databases that support SharePoint Server 2016. The three User Profile service databases are shown in the following list. The tables that follow the list display the relevant database information.
+The User Profile service has three databases that support SharePoint Servers 2019 and 2016. The three User Profile service databases are shown in the following list. The tables that follow the list display the relevant database information.
   
 - **Profile:** The Profile database stores and manages users and associated information. It also stores information about a user's social network in addition to memberships in distribution lists and sites. 
     
@@ -457,7 +457,7 @@ The Machine Translation Services stores information about pending and completed 
 <a name="Sec2"> </a>
 
 > [!IMPORTANT]
-> The Project Server service application database is only found in SharePoint Server 2013. Project Server 2016 doesn't create a database in SharePoint Server 2016 but uses the Content database (WSS_Content). 
+> The Project Server service application database is only found in SharePoint Server 2013. Project Servers 2019 and 2016 don't create a database in SharePoint Server but use the Content database (WSS_Content). 
   
 Project Server creates a separate database for each instance of Project Web App. Each Project Web App database contains the following data:
   
