@@ -17,7 +17,7 @@ description: "Learn about the minimum software requirements to run business inte
 
 # Software requirements for business intelligence in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-xxx-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-xxx-xxx-md](../includes/appliesto-2013-2016-xxx-xxx-md.md)]
   
 The business intelligence tools for SharePoint Server 2016 include the following:
   
@@ -111,7 +111,7 @@ The requirements for Excel Online in Office Online Server for SharePoint Server 
     
 - The Secure Store Service must be configured in the farm if you want to use a Secure Store target application for data refresh scenarios, or if you want to use an Office Data Connection (ODC) file that specifies a Secure Store target application. For more information, see [Configure Excel Online data refresh by using embedded data connections in Office Online Server](https://docs.microsoft.com/SharePoint/administration/excel-services-overview) and [Plan the Secure Store Service in SharePoint Server](https://docs.microsoft.com/previous-versions/office/sharepoint-server-2010/ee806889(v=office.14)). 
     
-- You can use Kerberos constrained delegation, Secure Store Service, or the EffectiveUserName option for authentication with Excel Online. For more information, see "Windows authentication" in [Data authentication for Excel Online in Office Online Server](http://technet.microsoft.com/library/7ced238b-2866-4961-af1c-6b597a55ce7a.aspx) and [Configure Analysis Services EffectiveUserName in Excel Online](http://technet.microsoft.com/library/9cb81758-9d0b-4970-9ca0-a75eedf6093b.aspx#EffectiveUserName).
+- You can use Kerberos constrained delegation, Secure Store Service, or the EffectiveUserName option for authentication with Excel Online. For more information, see "Windows authentication" in [Data authentication for Excel Online in Office Online Server](https://docs.microsoft.com/en-us/officeonlineserver/data-authentication-for-excel-online-in-office-online-server) and [Configure Analysis Services EffectiveUserName in Excel Online](https://docs.microsoft.com/en-us/officeonlineserver/configure-excel-online-administrative-settings#configure-analysis-services-effectiveusername-in-excel-online).
     
 > [!NOTE]
 > For Analysis Services data, the EffectiveUserName option is an alternative method of accessing data. When it is enabled, all connections to Analysis Services data for individual users will be made by using the EffectiveUserName connection string property instead of Windows delegation. For more information, see "Configure Analysis Services EffectiveUserName in Excel Online in [Configure Excel Online administrative settings](http://technet.microsoft.com/library/9cb81758-9d0b-4970-9ca0-a75eedf6093b.aspx#EffectiveUserName). 
