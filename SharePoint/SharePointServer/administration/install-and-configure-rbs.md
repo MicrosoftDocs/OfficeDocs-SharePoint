@@ -219,11 +219,11 @@ You must install RBS client library on the SQL Server node and all Front-end or 
     > [!NOTE]
     > If you attempt to install SQL Server 2012 Remote Blob Store for an additional database on the same instance of SQL Server, you will receive an error. For more information, see [KB2767183](https://support.microsoft.com/en-us/kb/2767183). 
   
-    After receiving this error, copy and paste the following command into the Command Prompt window without the  `/qn` switch. This opens the RBS installer window where you can change only the database name and then follow the default options. You will then see the RBS tables are created in the second database. 
+For subsequent content databases for which you want to enable RBS, change the `msiexec` command similar to below.
     
-  ```
-  msiexec  /lvx* rbs_install_log.txt /i RBS.msi TRUSTSERVERCERTIFICATE=true FILEGROUP=PRIMARY DBNAME="WSS_Content_RBS" DBINSTANCE="SQL2012SERVER" FILESTREAMFILEGROUP=RBSFilestreamProvider FILESTREAMSTORENAME=FilestreamProvider
-  ```
+```
+msiexec /qn /lvx* rbs_install_log_ContentDbName.txt /i RBS_amd64.msi REMOTEBLOBENABLE=1 FILESTREAMPROVIDERENABLE=1 DBNAME="WSS_Content_2" ADDLOCAL="EnableRBS,FilestreamRunScript" DBINSTANCE="DBInstanceName"
+```
 
 4. Repeat this procedure for all Front-end servers and Application servers in the SharePoint farm.
     
