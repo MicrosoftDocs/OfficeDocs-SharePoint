@@ -115,8 +115,8 @@ $pip = New-AzureRMPublicIpAddress -Name ($vmName + "-PIP") -ResourceGroupName $r
 $nic = New-AzureRMNetworkInterface -Name ($vmName + "-NIC") -ResourceGroupName $rgName -Location $locName -SubnetId $vnet.Subnets[0].Id -PublicIpAddressId $pip.Id -PrivateIpAddress 10.0.0.4
 $avSet=Get-AzureRMAvailabilitySet -Name dcAvailabilitySet -ResourceGroupName $rgName 
 $vm=New-AzureRMVMConfig -VMName $vmName -VMSize $vmSize -AvailabilitySetId $avSet.Id
-$vm=Set-AzureRmVMOSDisk -VM $vm -Name ($vmName +"-OS") -DiskSizeInGB 128 -CreateOption FromImage -StorageAccountType "StandardLRS"
-$diskConfig=New-AzureRmDiskConfig -AccountType "StandardLRS" -Location $locName -CreateOption Empty -DiskSizeGB 20
+$vm=Set-AzureRmVMOSDisk -VM $vm -Name ($vmName +"-OS") -DiskSizeInGB 128 -CreateOption FromImage -StorageAccountType "Standard_LRS"
+$diskConfig=New-AzureRmDiskConfig -AccountType "Standard_LRS" -Location $locName -CreateOption Empty -DiskSizeGB 20
 $dataDisk1=New-AzureRmDisk -DiskName ($vmName + "-DataDisk1") -Disk $diskConfig -ResourceGroupName $rgName
 $vm=Add-AzureRmVMDataDisk -VM $vm -Name ($vmName + "-DataDisk1") -CreateOption Attach -ManagedDiskId $dataDisk1.Id -Lun 1
 $cred=Get-Credential -Message "Type the name and password of the local administrator account for adVM."
@@ -200,7 +200,7 @@ Login-AzureRmAccount
 $subscrName="<name of your Azure subscription>"
 $rgName="<your resource group name>"
 # Set the Azure subscription and location
-Get-AzureRmSubscription -Name $subscrName | Select-AzureRmSubscription
+Get-AzureRmSubscription -SubscriptionName $subscrName | Select-AzureRmSubscription
 $locName=(Get-AzureRmResourceGroup -Name $rgName).Location
 # Create an availability set for SQL Server virtual machines
 New-AzureRMAvailabilitySet -ResourceGroupName $rgName -Name sqlAvailabilitySet -Location $locName -Sku Aligned  -PlatformUpdateDomainCount 5 -PlatformFaultDomainCount 2
@@ -212,9 +212,9 @@ $pip=New-AzureRMPublicIpAddress -Name ($vmName + "-PIP") -ResourceGroupName $rgN
 $nic=New-AzureRMNetworkInterface -Name ($vmName + "-NIC") -ResourceGroupName $rgName -Location $locName -SubnetId $vnet.Subnets[0].Id -PublicIpAddressId $pip.Id -PrivateIpAddress "10.0.0.5"
 $avSet=Get-AzureRMAvailabilitySet -Name sqlAvailabilitySet -ResourceGroupName $rgName 
 $vm=New-AzureRMVMConfig -VMName $vmName -VMSize $vmSize -AvailabilitySetId $avSet.Id
-$vm=Set-AzureRmVMOSDisk -VM $vm -Name ($vmName +"-OS") -DiskSizeInGB 128 -CreateOption FromImage -StorageAccountType "StandardLRS"
+$vm=Set-AzureRmVMOSDisk -VM $vm -Name ($vmName +"-OS") -DiskSizeInGB 128 -CreateOption FromImage -StorageAccountType "Standard_LRS"
 $diskSize=100
-$diskConfig=New-AzureRmDiskConfig -AccountType "StandardLRS" -Location $locName -CreateOption Empty -DiskSizeGB $diskSize
+$diskConfig=New-AzureRmDiskConfig -AccountType "Standard_LRS" -Location $locName -CreateOption Empty -DiskSizeGB $diskSize
 $dataDisk1=New-AzureRmDisk -DiskName ($vmName + "-SQLData") -Disk $diskConfig -ResourceGroupName $rgName
 $vm=Add-AzureRmVMDataDisk -VM $vm -Name ($vmName + "-SQLData") -CreateOption Attach -ManagedDiskId $dataDisk1.Id -Lun 1
 $cred=Get-Credential -Message "Type the name and password of the local administrator account of the SQL Server computer." 
@@ -303,7 +303,7 @@ $subscrName="<name of your Azure subscription>"
 $rgName="<your resource group name>"
 $dnsName="<unique, public domain name label for the SharePoint server>"
 # Set the Azure subscription
-Get-AzureRmSubscription -Name $subscrName | Select-AzureRmSubscription
+Get-AzureRmSubscription -SubscriptionName $subscrName | Select-AzureRmSubscription
 # Get the location
 $locName=(Get-AzureRmResourceGroup -Name $rgName).Location
 # Create an availability set for SharePoint virtual machines
@@ -317,7 +317,7 @@ $vnet=Get-AzureRMVirtualNetwork -Name "SP2016Vnet" -ResourceGroupName $rgName
 $nic=New-AzureRMNetworkInterface -Name ($vmName + "-NIC") -ResourceGroupName $rgName -Location $locName -SubnetId $vnet.Subnets[0].Id -PublicIpAddressId $pip.Id -PrivateIpAddress "10.0.0.6"
 $avSet=Get-AzureRMAvailabilitySet -Name spAvailabilitySet -ResourceGroupName $rgName 
 $vm=New-AzureRMVMConfig -VMName $vmName -VMSize $vmSize -AvailabilitySetId $avSet.Id
-$vm=Set-AzureRmVMOSDisk -VM $vm -Name ($vmName +"-OS") -DiskSizeInGB 128 -CreateOption FromImage -StorageAccountType "StandardLRS"
+$vm=Set-AzureRmVMOSDisk -VM $vm -Name ($vmName +"-OS") -DiskSizeInGB 128 -CreateOption FromImage -StorageAccountType "Standard_LRS"
 $cred=Get-Credential -Message "Type the name and password of the local administrator account."
 $vm=Set-AzureRMVMOperatingSystem -VM $vm -Windows -ComputerName $vmName -Credential $cred -ProvisionVMAgent -EnableAutoUpdate
 $vm=Set-AzureRMVMSourceImage -VM $vm -PublisherName "MicrosoftSharePoint" -Offer "MicrosoftSharePointServer" -Skus "2016" -Version "latest"
@@ -428,6 +428,8 @@ From a browser on your local computer, access **http://**\<DNS name of the spVM 
 When you are ready to design a production SharePoint Server 2016 farm in Azure, see [Designing a SharePoint Server 2016 farm in Azure](designing-a-sharepoint-server-2016-farm-in-azure.md).
   
 When you are ready to deploy a production-ready, high availability SharePoint Server 2016 farm in Azure, see [Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](deploying-sharepoint-server-2016-with-sql-server-alwayson-availability-groups-in.md).
+
+To start developing Low or High Trust Addins, you must first configure an App Domain. See [Configure an environment for apps for SharePoint Server](configure-an-environment-for-apps-for-sharepoint.md).
   
 ## Stop and start the virtual machines in the farm
 

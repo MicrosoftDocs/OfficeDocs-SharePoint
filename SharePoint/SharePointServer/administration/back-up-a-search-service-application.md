@@ -3,7 +3,6 @@ title: "Back up Search service applications in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 3/9/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -51,13 +50,13 @@ You can use PowerShell to back up search manually or as part of a script that ca
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
-  - Farm Administrators SharePoint group.
+   - Farm Administrators SharePoint group.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server Products cmdlets. 
     
@@ -68,20 +67,20 @@ You can use PowerShell to back up search manually or as part of a script that ca
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  Backup-SPFarm -Directory <BackupFolder> -BackupMethod {Full | Differential} -Item "Farm\Shared Services\Shared Services Applications\<SearchServiceApplicationName>" [-Verbose]
-  ```
+   ```
+   Backup-SPFarm -Directory <BackupFolder> -BackupMethod {Full | Differential} -Item "Farm\Shared Services\Shared Services Applications\<SearchServiceApplicationName>" [-Verbose]
+   ```
 
     Where:
     
-  -  _\<BackupFolder\>_ is the path of the folder that you use for storing backup files. 
+   -  _\<BackupFolder\>_ is the path of the folder that you use for storing backup files. 
     
-  -  _\<SearchServiceApplicationName\>_ is the name of the Search service application that you are backing up. 
+   -  _\<SearchServiceApplicationName\>_ is the name of the Search service application that you are backing up. 
     
     > [!NOTE]
     > If you are backing up the farm for the first time, you must use the **Full** option. You must perform a full backup before you can perform a differential backup. To view the progress of the backup operation, use the **Verbose** parameter. The **Differential** option only applies to the search databases. The search index files are always fully backed up, even when you use the **Differential** option. 
   
-For more information, see [Backup-SPFarm](http://technet.microsoft.com/library/c37704b5-5361-4090-a84d-fcdd17bbe345.aspx). 
+For more information, see [Backup-SPFarm](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Backup-SPFarm?view=sharepoint-ps). 
   
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
@@ -132,11 +131,11 @@ To use SQL Server to back up the databases that are associated with the Search s
 
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2016 cmdlets. 
     
@@ -147,14 +146,14 @@ To use SQL Server to back up the databases that are associated with the Search s
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  $ssa = Get-SPEnterpriseSearchServiceApplication -Identity <SearchServiceApplicationName> 
-  Suspend-SPEnterpriseSearchServiceApplication -Identity $ssa
-  ```
+   ```
+   $ssa = Get-SPEnterpriseSearchServiceApplication -Identity <SearchServiceApplicationName> 
+   Suspend-SPEnterpriseSearchServiceApplication -Identity $ssa
+   ```
 
     Where:
     
-  -  _\<SearchServiceApplicationName\>_ is the name of the Search service application that you are backing up. 
+   -  _\<SearchServiceApplicationName\>_ is the name of the Search service application that you are backing up. 
     
 ### To back up all the Search service application databases by using SQL Server tools
 
@@ -168,7 +167,7 @@ To use SQL Server to back up the databases that are associated with the Search s
     
 5. In the **Back Up Database** dialog box, confirm the database name. 
     
-6. Next, select the kind of backup that you want to perform from the **Backup type** list. For more information about which backup type to use, see [Recovery Models (SQL Server)](http://go.microsoft.com/fwlink/p/?LinkID=626889&amp;clcid=0x409) in SQL Server Books Online. 
+6. Next, select the kind of backup that you want to perform from the **Backup type** list. For more information about which backup type to use, see [Recovery Models (SQL Server)](http://go.microsoft.com/fwlink/p/?LinkID=715706&amp;clcid=0x409). 
     
 7. In the **Backup component** area, click **Database**..
     
@@ -201,20 +200,20 @@ To use SQL Server to back up the databases that are associated with the Search s
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  $ssa = Get-SPEnterpriseSearchServiceApplication -Identity <SearchServiceApplicationName> 
-  Resume-SPEnterpriseSearchServiceApplication -Identity $ssa
-  ```
+   ```
+   $ssa = Get-SPEnterpriseSearchServiceApplication -Identity <SearchServiceApplicationName> 
+   Resume-SPEnterpriseSearchServiceApplication -Identity $ssa
+   ```
 
     Where:
     
-  -  _\<SearchServiceApplicationName\>_ is the name of the Search service application. 
+   -  _\<SearchServiceApplicationName\>_ is the name of the Search service application. 
     
 ## See also
 <a name="proc3"> </a>

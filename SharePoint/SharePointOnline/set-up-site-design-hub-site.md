@@ -24,7 +24,7 @@ description: "Learn how to run scripts on sites when they're associated with a h
 A site design is one or more site scripts that SharePoint runs when a site is associated with a hub site. Actions describe changes to apply to the new site, such as creating a new list or adding nodes to the site navigation. Site designs provide reusable lists and custom actions so your users can quickly get started with the features they need. 
 
 > [!NOTE]
-> Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Office 365](https://support.office.com/article/3b3adfa4-1777-4ff0-b606-fb8732101f47). This means that you may not yet see this feature or it may look different than what is described in this article. 
+> For organizations using Multi-Geo Capabilities in Office 365, hub site designs work only when sites are in the same geo location as the hub site.
 
 ## 1. Create a JSON script, add it, and create the site design 
 
@@ -36,8 +36,8 @@ When a site design is first created, it is available to everyone. You can grant 
 
 ```PowerShell  
 Grant-SPOSiteDesignRights  
-  -Identity <ID>` 
-  -Principals ("HR@contoso.sharepoint.com") ` 
+  -Identity <ID> 
+  -Principals ("HR@contoso.sharepoint.com")  
   -Rights View 
 ```
 
@@ -47,9 +47,9 @@ Replace <ID> with the site script ID from when you added the site script.
 You can set the hub site design in two ways. You can do it using the following PowerShell command: 
 
 ```PowerShell   
-Set-SPOHubSite https://contoso.sharepoint.com/sites/Marketing ` 
--Title "Marketing Hub" ` 
--LogoUrl https://contoso.sharepoint.com/sites/Marketing/SiteAssets/hublogo.png ` 
+Set-SPOHubSite https://contoso.sharepoint.com/sites/Marketing  
+-Title "Marketing Hub"  
+-LogoUrl https://contoso.sharepoint.com/sites/Marketing/SiteAssets/hublogo.png  
 -Description "Hub for the Marketing division” 
 -SiteDesignId "<ID>” 
 ```
