@@ -3,7 +3,6 @@ title: "Delete and restore site collections in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 3/8/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -61,7 +60,7 @@ After you perform this procedure, the site collection and all of its content and
   
 1. Verify that you have the following administrative credentials:
     
-  - To delete a site collection, the user account that is performing this procedure must be a member of the Farm Administrators SharePoint group.
+   - To delete a site collection, the user account that is performing this procedure must be a member of the Farm Administrators SharePoint group.
     
 2. Open Central Administration.
     
@@ -94,25 +93,25 @@ After you perform this procedure, the site collection and all of its content and
   
 1. Verify that you meet the following minimum requirements: 
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Local Administrators group on the server on which you are running the Microsoft PowerShell cmdlets.
+   - Local Administrators group on the server on which you are running the Microsoft PowerShell cmdlets.
     
 2. Open the SharePoint Management Shell.
     
 3. At the PowerShell command prompt, type the following command, and then press ENTER:
     
-  ```
-  Remove-SPSite -Identity "<URL>" -GradualDelete
-  ```
+   ```
+   Remove-SPSite -Identity "<URL>" -GradualDelete
+   ```
 
-Where:  _\<URL\>_ is the unique address of the site collection you want to delete. 
+   Where:  _\<URL\>_ is the unique address of the site collection you want to delete. 
     
 This command removes the specified site collection and all subsites. Gradual deletion reduces the load on the system during the deletion process.
     
-The previous procedure illustrates a common way to use the **Remove-SPSite** cmdlet to delete a site collection. You can specify different parameters to configure this command differently. For more information, see [Remove-SPSite](https://technet.microsoft.com/en-us/library/ff607948%28v=office.16%29.aspx).
+The previous procedure illustrates a common way to use the **Remove-SPSite** cmdlet to delete a site collection. You can specify different parameters to configure this command differently. For more information, see [Remove-SPSite](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Remove-SPSite?view=sharepoint-ps).
     
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
@@ -122,7 +121,9 @@ The previous procedure illustrates a common way to use the **Remove-SPSite** cmd
 
 If you've accidentally deleted a site collection, you can restore it using PowerShell.
   
-When a site collection (that is, a **SPSite** object) is accidentally deleted in SharePoint Server, the deleted site collection is stored in the **SPDeletedSite** object, not the **SPSite** object. To restore a deleted site collection, you must use the [Restore-SPDeletedSite](https://technet.microsoft.com/en-us/library/hh286319%28v=office.16%29.aspx) cmdlet or programmatically access the object model. 
+When a site collection (that is, a **SPSite** object) is accidentally deleted in SharePoint Server, the deleted site collection is stored in the **SPDeletedSite** object, not the **SPSite** object. To restore a deleted site collection, you must use the [Restore-SPDeletedSite](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/restore-spdeletedsite?view=sharepoint-ps) cmdlet or programmatically access the object model.
+
+SharePoint Server 2019 users can restore items that they've deleted themselves, and also items that other users in the site have deleted. Users need edit permission on the deleted items so they're visible in their SharePoint recycle bin. 
   
 ## See also
 <a name="section3"> </a>
