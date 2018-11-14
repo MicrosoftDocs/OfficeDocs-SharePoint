@@ -3,7 +3,6 @@ title: "Create a site collection in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 2/22/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -79,29 +78,29 @@ You typically use Microsoft PowerShell to create a site collection when you want
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - local Administrators group on the server on which you are running the PowerShell cmdlets.
+   - local Administrators group on the server on which you are running the PowerShell cmdlets.
     
 2. Open the SharePoint Management Shell.
     
 3. From the Microsoft PowerShell command prompt, type the following commands, and then press ENTER:
     
-  ```
-  Get-SPWebTemplate
-  ```
+   ```
+   Get-SPWebTemplate
+   ```
 
-  ```
-  $template = Get-SPWebTemplate "STS#0"
-  ```
+   ```
+   $template = Get-SPWebTemplate "STS#0"
+   ```
 
-  ```
-  New-SPSite -Url "<URL for the new site collection>" -OwnerAlias "<domain\user>" -Template $template
-  ```
+   ```
+   New-SPSite -Url "<URL for the new site collection>" -OwnerAlias "<domain\user>" -Template $template
+   ```
 
-    This example retrieves a list of all available site templates and then creates a site collection by using the Team Site template. For more information, see [New-SPSite](http://technet.microsoft.com/library/ebdadc86-0cda-49b7-a84a-5cfc6b4506b3.aspx) and [Get-SPWebTemplate](http://technet.microsoft.com/library/dfd10bac-c304-4f3f-bea9-eb0af5f96df5.aspx).
+    This example retrieves a list of all available site templates and then creates a site collection by using the Team Site template. For more information, see [New-SPSite](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/New-SPSite?view=sharepoint-ps) and [Get-SPWebTemplate](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Get-SPWebTemplate?view=sharepoint-ps).
     
     We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
     
