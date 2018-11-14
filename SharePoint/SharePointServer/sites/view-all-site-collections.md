@@ -40,7 +40,7 @@ Refer to the following table in step 3.
    
 1. Verify that you have the following administrative credentials:
     
-  - To view all site collections, you must be a member of the Farm Administrators group on the computer that is running the SharePoint Central Administration website.
+   - To view all site collections, you must be a member of the Farm Administrators group on the computer that is running the SharePoint Central Administration website.
     
 2. Open Central Administration. On the **Application Management** page, in the **Site Collections** section, click **View all site collections**.
     
@@ -60,14 +60,16 @@ Refer to the following table in step 3.
     
 3. At the PowerShell command prompt, type the following command, and then press ENTER:
     
-  ```
-  Get-SPWebApplication | Get-SPSite -Limit All | Format-Table -Property URL,ContentDatabase
-  ```
+   ```
+   Get-SPWebApplication | Get-SPSite -Limit All | Format-Table -Property URL,ContentDatabase
+   ```
 
-  > [!NOTE]
-  > This command displays the URLs of all the web applications in a server farm and the site collections in each web application.
+   > [!NOTE]
+   > This command displays the URLs of all the web applications in a server farm and the site collections in each web application.
     
-For more information, see [Get-SPWebApplication](https://technet.microsoft.com/en-us/library/ff607562%28v=office.16%29.aspx) and [Get-SPSite](https://technet.microsoft.com/en-us/library/ff607950%28v=office.16%29.aspx). We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions.
+For more information, see [Get-SPWebApplication](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Get-SPWebApplication?view=sharepoint-ps) and [Get-SPSite](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/get-spsite?view=sharepoint-ps). 
+
+We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions.
   
 ## See also
 
