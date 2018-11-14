@@ -115,8 +115,11 @@ For more information about Delve, see [Office Delve for Office 365 admins](https
 <a name="__toc351360841"> </a>
 
 > [!NOTE]
-> Not all options are available in SharePoint Online. 
-  
+> Not all options are available in SharePoint Online.
+
+> [!NOTE]
+> Refinable Managed Properties cannot be created. Instead use the existing Refinable Managed Properties, e.g. RefinableString00 or RefinableInt00. Searching "Refinable" will show all of the usable Refinable Managed Properties available.
+
 In SharePoint Online, when you create a new managed property, it will have some limitations. For example, the property can only be of type **Text** or **Yes/No**, and it can't be refinable or sortable.
   
 If you need a property of a different type, or one that has different characteristics than what is available, follow the steps under [Create a managed property by renaming an existing one](manage-search-schema.md#__ref341260321).
