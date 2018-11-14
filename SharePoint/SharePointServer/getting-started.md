@@ -33,7 +33,7 @@ Depending on your version, system requirements and prerequisites could vary.
 |**Are you deploying...**|**Read**|
 |:-----|:-----|
 |SharePoint Server 2019<br/>|[2019 Hardware and software requirements](install/hardware-and-software-requirements-2019.md)<br/><br/>[2019 Prerequisites](install/prerequisites-0.md)<br/>
-|SharePoint Server 2016<br/>|[2016 Hardware and software requirements](install/hardware-and-software-requirements.md)<br/><br/>[2016 Prerequisites](install/prerequisites-0.md)<br/>|Hardware and software requirements
+|SharePoint Server 2016<br/>|[2016 Hardware and software requirements](install/hardware-and-software-requirements.md)<br/><br/>[2016 Prerequisites](install/prerequisites-0.md)<br/>
 |SharePoint Server 2013 <br/>|[2013 Hardware and software requirements](install/hardware-and-software-requirements.md)<br/><br/>[2013 Prerequisites](install/prerequisites.md)<br/>|
 
 
