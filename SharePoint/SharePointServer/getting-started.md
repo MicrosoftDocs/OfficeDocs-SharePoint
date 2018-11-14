@@ -30,8 +30,9 @@ Depending on your version, system requirements and prerequisites could vary.
 
 |**Are you deploying...**|**Read**|
 |:-----|:-----|
-|SharePoint Server 2016<br/>|[2016 Hardware and software requirements](install/hardware-and-software-requirements.md)<br/>[2016 Prerequisites](install/prerequisites-0.md)<br/>|Hardware and software requirements
-|SharePoint Server 2013 <br/>|[2013 Hardware and software requirements](install/hardware-and-software-requirements.md)<br/>[2013 Prerequisites](install/prerequisites.md)<br/>|
+|SharePoint Server 2019<br/>|[2019 Hardware and software requirements](install/hardware-and-software-requirements-2019.md)<br/><br/>[2019 Prerequisites](install/prerequisites-0.md)<br/>
+|SharePoint Server 2016<br/>|[2016 Hardware and software requirements](install/hardware-and-software-requirements.md)<br/><br/>[2016 Prerequisites](install/prerequisites-0.md)<br/>|Hardware and software requirements
+|SharePoint Server 2013 <br/>|[2013 Hardware and software requirements](install/hardware-and-software-requirements.md)<br/><br/>[2013 Prerequisites](install/prerequisites.md)<br/>|
 
 
 ## How large is your company?  
@@ -49,10 +50,11 @@ Do you already have SharePoint Server installed and want to upgrade to a new ver
 
 |**What do you need to do?**|**Read**|
 |:-----|:-----|
-|I have SharePoint Server 2013 installed and want to upgrade to SharePoint 2016|[Upgrade to SharePoint Server 2016](upgrade-and-update/upgrade-to-sharepoint-server-2016.md)|
+|I have SharePoint Server 2013 installed and want to upgrade to SharePoint 2019|[Upgrade to SharePoint Server 2019](upgrade-and-update/upgrade-from-sharepoint2013-to-sharepointserver-2019.md)||I have SharePoint Server 2013 installed and want to upgrade to SharePoint 2016|[Upgrade to SharePoint Server 2016](upgrade-and-update/upgrade-to-sharepoint-server-2016.md)|
 |I have SharePoint Server 2010 installed and want to upgrade to SharePoint 2013|[Upgrade from SharePoint 2010 to SharePoint 2013](upgrade-and-update/upgrade-from-sharepoint-2010-to-sharepoint-2013.md)|
 |How do I apply updates to SharePoint Server 2013?|[Deploy software updates for SharePoint 2013](upgrade-and-update/deploy-software-updates-for-sharepoint-2013.md)|
 |How do I apply updates to SharePoint Server 2016?|[Deploy software updates for SharePoint Server 2016](upgrade-and-update/deploy-updates-for-sharepoint-server-2016.md)|
+
 
 
 ## I have SharePoint Server and want to move to the cloud
