@@ -36,7 +36,7 @@ Before you upgrade the service applications, review the following information an
   
 - Make sure that the account that you use to perform the steps in this article is a member of the Farm administrators group in Central Administration.
     
-- Decide which service application pool to use for the upgraded service applications. The procedures below use the default application pool for service applications which is "SharePoint Web Services Default". You can view a list of available service application pools by using the **Get-SPServiceApplicationPool** cmdlet in PowerShell. Or you can create a service application pool by using the **New-SPServiceApplicationPool** cmdlet. For more information, see [Get-SPServiceApplicationPool](http://technet.microsoft.com/library/079fd20b-2542-4d03-8b45-2da83cebe0ff.aspx) and [New-SPServiceApplicationPool](http://technet.microsoft.com/library/2d653742-d173-4aeb-8c6c-78f32c711e59.aspx).
+- Decide which service application pool to use for the upgraded service applications. The procedures below use the default application pool for service applications which is "SharePoint Web Services Default". You can view a list of available service application pools by using the **Get-SPServiceApplicationPool** cmdlet in PowerShell. Or you can create a service application pool by using the **New-SPServiceApplicationPool** cmdlet. For more information, see [Get-SPServiceApplicationPool](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/get-spserviceapplicationpool?view=sharepoint-ps) and [New-SPServiceApplicationPool](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/new-spserviceapplicationpool?view=sharepoint-ps).
     
 > [!TIP]
 > Throughout this article, variables (such as $applicationPool, $sss, $upa, and so on) are used in the PowerShell cmdlets to save time and effort. You do not have to use these variables if you would prefer not to. However, if you do not use these variables, you must use IDs for the service applications and service application proxies when you specify the **identity** parameters. Each procedure has information about the variables used, or the alternate cmdlets to use to look up any IDs that are required. > Also, many procedures in this article include a step to set the $applicationPool variable. If you are performing all of these procedures in the same session of PowerShell, and you want to use the same application pool for all service applications, you do not have to repeat this step in each procedure. Instead, you can set this variable once at the beginning and use it throughout the procedures in this article. 
@@ -125,7 +125,7 @@ The Search service instance must be started by using PowerShell because you cann
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps). 
   
 2. Start the SharePoint 2016 Management Shell.
     
@@ -171,7 +171,7 @@ To upgrade the Secure Store service application, you create the new service appl
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps). 
   
 2. Start the SharePoint 2016 Management Shell.
     
@@ -216,7 +216,7 @@ To upgrade the Secure Store service application, you create the new service appl
     
     This command sets a variable, $sss, that you use when you create the proxy later.
     
-    For more information, see [New-SPSecureStoreApplication](http://technet.microsoft.com/library/71aa37f1-2a15-49bc-9427-64f9a10e6d42.aspx).
+    For more information, see [New-SPSecureStoreApplication](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/new-spsecurestoreapplication?view=sharepoint-ps).
     
 5. Type the following command to create a proxy for the Secure Store service application:
     
@@ -237,7 +237,7 @@ To upgrade the Secure Store service application, you create the new service appl
     
     This command sets a variable, $sssp, for the service application proxy that you use when you restore the passphrase.
     
-    For more information, see [New-SPSecureStoreServiceApplicationProxy](http://technet.microsoft.com/library/57dc65e4-a368-46d4-836d-9850d1215b4b.aspx).
+    For more information, see [New-SPSecureStoreServiceApplicationProxy](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/new-spsecurestoreserviceapplicationproxy?view=sharepoint-ps).
     
     After you create the Secure Store service application and the proxy, you have to refresh the encryption key. For information about how to refresh the encryption key, see [Refresh the Secure Store encryption key](../administration/configure-the-secure-store-service.md#refresh).
     
@@ -256,7 +256,7 @@ To upgrade the Secure Store service application, you create the new service appl
     > [!TIP]
     > If you do not use the variable $sssp, then you must use an ID to identify the Secure Store service application proxy instead of a name. To find the ID, you can run the **Get-SPServiceApplicationProxy** cmdlet to return a list of all service application proxy IDs. 
   
-    For more information, see [Update-SPSecureStoreApplicationServerKey](http://technet.microsoft.com/library/53234b26-d767-483a-a75f-0f2c195f8747.aspx).
+    For more information, see [Update-SPSecureStoreApplicationServerKey](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/update-spsecurestoreapplicationserverkey?view=sharepoint-ps).
     
 ## Upgrade the Business Data Connectivity service application
 <a name="UpgradeBDC"> </a>
@@ -276,7 +276,7 @@ To upgrade the Business Data Connectivity service application, you create the ne
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps). 
   
 2. Start the SharePoint 2016 Management Shell.
     
@@ -319,7 +319,7 @@ To upgrade the Business Data Connectivity service application, you create the ne
   
   -  _BDC_Service_DB_ is name of the service application database that you want to upgrade. 
     
-    For more information, see [New-SPBusinessDataCatalogServiceApplication](http://technet.microsoft.com/library/d35cefac-c55e-41ac-b193-9557f052897a.aspx).
+    For more information, see [New-SPBusinessDataCatalogServiceApplication](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/new-spbusinessdatacatalogserviceapplication?view=sharepoint-ps).
     
 ## Upgrade the Managed Metadata service application
 <a name="UpgradeMetadata"> </a>
@@ -339,7 +339,7 @@ To upgrade the Managed Metadata service application, you create the new service 
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps). 
   
 2. Start the SharePoint 2016 Management Shell.
     
@@ -384,7 +384,7 @@ To upgrade the Managed Metadata service application, you create the new service 
     
     This command sets a variable, $mms, that you use when you create the proxy later.
     
-    For more information, see [New-SPMetadataServiceApplication](http://technet.microsoft.com/library/03f561ed-ab75-4feb-bd55-b57f8638619f.aspx).
+    For more information, see [New-SPMetadataServiceApplication](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/new-spmetadataserviceapplication?view=sharepoint-ps).
     
 5. At the Microsoft PowerShell command prompt, type the following command to create a proxy for the Managed Metadata service application:
     
@@ -403,7 +403,7 @@ To upgrade the Managed Metadata service application, you create the new service 
   
   -  _DefaultProxyGroup_ adds the Managed Metadata service application proxy to the default proxy group for the local farm. 
     
-    For more information, see [New-SPMetadataServiceApplicationProxy](http://technet.microsoft.com/library/e2c96d7d-d443-4457-8348-16d0a84e0b8e.aspx).
+    For more information, see [New-SPMetadataServiceApplicationProxy](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/new-spmetadataserviceapplicationproxy?view=sharepoint-ps).
     
 ## Upgrade the PerformancePoint Services service application
 <a name="UpgradePPS"> </a>
@@ -423,7 +423,7 @@ To upgrade the PerformancePoint Services service application, you create the new
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps). 
   
 2. Start the SharePoint 2016 Management Shell.
     
@@ -468,7 +468,7 @@ To upgrade the PerformancePoint Services service application, you create the new
     
     This command sets a variable, $pps, that you use when you create the proxy later.
     
-    For more information, see [New-SPProfileServiceApplication](http://technet.microsoft.com/library/acf51379-1811-4ffe-b5a0-a660d7a58f10.aspx).
+    For more information, see [New-SPPerformancePointServiceApplication](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/new-spperformancepointserviceapplication?view=sharepoint-ps).
     
 5. Type the following command to create a proxy for the PerformancePoint Services service application:
     
@@ -487,8 +487,157 @@ To upgrade the PerformancePoint Services service application, you create the new
   
   -  _Default_ adds the PerformancePoint Services service application proxy to the default proxy group for the local farm. 
     
-    For more information, see [New-SPPerformancePointServiceApplicationProxy](http://technet.microsoft.com/library/fcd8a8fa-bbc8-4f7c-9a15-58980bbc5925.aspx).
+    For more information, see [New-SPPerformancePointServiceApplicationProxy](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/new-spperformancepointserviceapplicationproxy?view=sharepoint-ps).
+
+## Upgrade the User Profile service application
+<a name="UpgradeUserProfile"> </a>
+
+Upgrade the Managed Metadata service application before you upgrade the User Profile service application.
+  
+To upgrade the User Profile service application, you copy the Profile and Social databases in your SharePoint Server 2013 with Service Pack 1 (SP1) farm to your SharePoint Server 2016 farm and create a new User Profile service application from your SharePoint Server 2013 with Service Pack 1 (SP1) farm in your SharePoint Server 2016 farm. The restore triggers SharePoint Server 2016 to create a new User Profile service application in the SharePoint Server 2016 farm and point it to the copied User Profile databases. To complete the upgrade of the User Profile service application, you create a proxy and add it to the default proxy group.
+
+> [!NOTE]
+> As SharePoint Server 2016 does not have the User Profile Synchronization Service, you do not copy the Synchronization database. Instead, a new database will be created with an empty schema.
+  
+ **To upgrade the User Profile service application by using PowerShell**
+  
+1. Copy the Profile and Social databases in the SharePoint Server 2013 with Service Pack 1 (SP1) farm to the SharePoint Server 2016 farm by following these steps:
+ 
+    > [!IMPORTANT]
+    > Perform these steps in the SharePoint Server 2013 with Service Pack 1 (SP1) environment.
     
+  
+    - Verify that you have the following memberships:
+        
+      - **securityadmin** fixed server role on the SQL Server instance. 
+        
+      - **db_owner** fixed database role on all databases that are to be updated. 
+        
+      - Administrators group on the server on which you are running the PowerShell cmdlets.
+        
+        An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
+        
+        > [!NOTE]
+        > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps). 
+  
+    - Start the SharePoint Management Shell.
+        
+        For Windows Server 2012 R2: On the **Start** screen, click **SharePoint Management Shell**.
+            
+        If **SharePoint Management Shell** is not on the **Start** screen, right-click **Computer**, click **All apps**, and then click **SharePoint Management Shell**.
+           
+        For more information about how to interact with Windows Server 2012 R2, see [Common Management Tasks and Navigation in Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkId=478553).
+    
+    - Set the User Profile databases to read-only. In the second phase of the process to upgrade SharePoint Server 2013 with Service Pack 1 (SP1) data and sites to SharePoint Server 2016, you set all the other databases to read-only.   
+    
+    - Copy the Profile and Social databases in the SharePoint Server 2013 with Service Pack 1 (SP1) farm to the SharePoint Server 2016 farm, follow the procedures in [Copy databases to the new farm for upgrade to SharePoint Server 2016](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2016.md) for the search administration database only. 
+        
+        > [!IMPORTANT]
+        > Perform the next steps in the SharePoint Server 2016 environment. 
+  
+2. Verify that you have the following memberships:
+    
+      - **securityadmin** fixed server role on the SQL Server instance. 
+        
+      - **db_owner** fixed database role on all databases that are to be updated. 
+        
+      - Administrators group on the server on which you are running the PowerShell cmdlets.
+    
+    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
+    
+    > [!NOTE]
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps). 
+  
+3. Start the SharePoint 2016 Management Shell.
+    
+     For Windows Server 2012 R2: On the **Start** screen, click **SharePoint Management Shell**.
+            
+     If **SharePoint Management Shell** is not on the **Start** screen, right-click **Computer**, click **All apps**, and then click **SharePoint Management Shell**.
+          
+     For more information about how to interact with Windows Server 2012 R2, see [Common Management Tasks and Navigation in Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkId=478553).
+    
+4. To store the application pool that you want to use as a variable for this service application, at the Microsoft PowerShell command prompt, type the following command:
+    
+      ```
+      $applicationPool = Get-SPServiceApplicationPool -Identity 'SharePoint Web Services default'
+      ```
+
+    Where:
+    
+     _SharePoint Web Services default_ is the name of the service application pool that will contain the new service applications. 
+    
+    This cmdlet sets the service application pool as a variable that you can use again in the cmdlets that follow. If you have multiple application pools and have to use a different application pool for a particular service application, repeat this step in the procedure to create each service application to use the appropriate application pool.
+    
+5. To restore the User Profile service application and upgrade the Profile and Social databases, at the Microsoft PowerShell command prompt, type the following command:
+    
+      ```
+      New-SPProfileServiceApplication -Name '<UserProfileApplicationName>' -ApplicationPool $applicationPool -ProfileDBName '<ProfileDBName>' -SocialDBName '<SocialDBName>' -ProfileSyncDBName '<SyncDBName>'
+      ```
+
+    Where:
+    
+      -  _UserProfileApplicationName_ is the name of the User Profile service application. 
+        
+      - $applicationpool is the variable that you set to identify the service application pool to use.
+        
+        **Note**: If you do not use the variable $applicationPool, then you must specify the name of an existing service application pool in the format '_Application Pool Name_'. To view a list of service application pools, you can run the **Get-SPServiceApplicationPool** cmdlet. 
+        
+      -  _ProfileDBName_ is the name of the Profile database that you want to upgrade.
+        
+      -  _SocialDBName_ is the name of the Social database that you want to upgrade.
+
+      -  _SyncDBName_ is the name of the new Synchronization database that you want to upgrade.
+    
+6. Create the User Profile service application proxy and add it to the default proxy group by completing these actions:
+    
+    - Type the following command to get the ID for the Search service application and store it as a variable:
+    
+      ```
+      $sa = Get-SPServiceApplication | ?{$_.TypeName -eq 'User Profile Service Application'}
+      ```
+
+      For more information, see [Get-SPServiceApplication](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/get-spserviceapplication?view=sharepoint-ps).        
+    
+    - Type the following command to create a proxy for the Search service application:
+    
+      ```
+      New-SPProfileServiceApplicationProxy -Name ProxyName -ServiceApplication $sa
+      ```
+
+        Where:
+    
+      -  _ProxyName_ is the proxy name that you want to use. 
+        
+      - $sa is the variable that you set earlier to identify the new User Profile service application.
+        
+        **Tip**: If you do not use the variable $sa, then you must use an ID to identify the User Profile service application instead of a name. To find the ID, you can run the **Get-SPServiceApplication** cmdlet to return a list of all service application IDs. 
+    
+       For more information, see [New-SPProfileServiceApplicationProxy](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/new-spprofileserviceapplicationproxy?view=sharepoint-ps).
+    
+    - Type the following command to get the Search service application proxy ID for the proxy you just created and set it as the variable $ssap:
+    
+      ```
+      $proxy = Get-SPServiceApplicationProxy | ?{$_.TypeName -eq 'User Profile Service Application Proxy'}
+      ```
+
+        For more information, see [Get-SPServiceApplicationProxy](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/get-spserviceapplicationproxy?view=sharepoint-ps).
+    
+    - Type the following command to add the User Profile service application proxy to the default proxy group:    
+    
+        ```
+        Add-SPServiceApplicationProxyGroupMember -member $proxy -identity ""
+        ```
+
+       Where:
+    
+        - $proxy is the variable that you set earlier to identify the ID for the proxy you just created for the User Profile service application.
+          
+          **Tip**: If you do not use the variable $proxy, then you must use an ID to identify the User Profile service application proxy instead of a name. To find the ID, you can run the **Get-SPServiceApplicationProxy** cmdlet to return a list of all service application proxy IDs. 
+          
+        - You use an empty **Identity** parameter ("") to add it to the default group. 
+          
+       For more information, see [Add-SPServiceApplicationProxyGroupMember](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/add-spserviceapplicationproxygroupmember?view=sharepoint-ps).
+   
 ## Upgrade the Search service application
 <a name="UpgradeSearch"> </a>
 
@@ -502,7 +651,7 @@ SharePoint Server 2016 normally creates a new search topology with all the searc
 > During this upgrade, search doesn't crawl content in your SharePoint Server 2013 with Service Pack 1 (SP1). If freshness of search results is important, save time by familiarizing yourself with these steps before starting the upgrade. 
   
 > [!IMPORTANT]
-> Because the search topology in the SharePoint Server 2016 farm is new, the index is empty. You have to perform a full crawl of the entire indexed corpus after you have [upgraded all content sources](https://technet.microsoft.com/en-us/library/cc263299%28v=office.16%29.aspx) (the fourth phase in the process to upgrade SharePoint Server 2013 with Service Pack 1 (SP1) data and sites to SharePoint Server 2016). 
+> Because the search topology in the SharePoint Server 2016 farm is new, the index is empty. You have to perform a full crawl of the entire indexed corpus after you have [upgraded all content sources](https://docs.microsoft.com/en-us/SharePoint/upgrade-and-update/upgrade-content-databases) (the fourth phase in the process to upgrade SharePoint Server 2013 with Service Pack 1 (SP1) data and sites to SharePoint Server 2016). 
   
  **To upgrade the Search service application by using PowerShell**
   
@@ -526,7 +675,7 @@ SharePoint Server 2016 normally creates a new search topology with all the searc
         An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
         
         > [!NOTE]
-        > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+        > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps). 
   
     - Start the SharePoint Management Shell.
         
@@ -537,7 +686,7 @@ SharePoint Server 2016 normally creates a new search topology with all the searc
        
         For more information about how to interact with Windows Server 2012 R2, see [Common Management Tasks and Navigation in Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkId=478553).
     
-    - Set the Search Administration database to read-only. In the second phase of the process to upgrade SharePoint Server 2013 with Service Pack 1 (SP1) data and sites to SharePoint Server 2016, you set all the other databases to read-only. Follow [the same instructions](https://technet.microsoft.com/en-us/library/jj839720%28v=office.16%29.aspx) now for the Search Administration database.         
+    - Set the Search Administration database to read-only. In the second phase of the process to upgrade SharePoint Server 2013 with Service Pack 1 (SP1) data and sites to SharePoint Server 2016, you set all the other databases to read-only. Follow [the same instructions](https://docs.microsoft.com/en-us/SharePoint/upgrade-and-update/copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2016) now for the Search Administration database.         
     
     - Pause the Search service application. At the Windows PowerShell command prompt, type the following command:
 
@@ -573,7 +722,7 @@ SharePoint Server 2016 normally creates a new search topology with all the searc
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps). 
   
 3. Start the SharePoint 2016 Management Shell.
     
@@ -628,7 +777,7 @@ SharePoint Server 2016 normally creates a new search topology with all the searc
         
     - Type the command to upgrade the Search service application again at the Microsoft PowerShell command prompt.
         
-      For more information, see [Restore-SPEnterpriseSearchServiceApplication](http://technet.microsoft.com/library/fb717b7b-53cd-44c4-b94d-348c6403d4b2.aspx).
+      For more information, see [Restore-SPEnterpriseSearchServiceApplication](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/restore-spenterprisesearchserviceapplication?view=sharepoint-ps).
     
 6. Create the Search service application proxy and add it to the default proxy group by completing these actions:
     
@@ -638,7 +787,7 @@ SharePoint Server 2016 normally creates a new search topology with all the searc
       $ssa = Get-SPEnterpriseSearchServiceApplication
       ```
 
-      For more information, see [Get-SPEnterpriseSearchServiceApplication](http://technet.microsoft.com/library/b8030354-e62d-4723-a809-eb6cf8c301c5.aspx).        
+      For more information, see [Get-SPEnterpriseSearchServiceApplication](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/get-spenterprisesearchserviceapplication?view=sharepoint-ps).        
     
     - Type the following command to create a proxy for the Search service application:
     
@@ -654,7 +803,7 @@ SharePoint Server 2016 normally creates a new search topology with all the searc
         
         **Tip**: If you do not use the variable $ssa, then you must use an ID to identify the Search service application instead of a name. To find the ID, you can run the **Get-SPServiceApplication** cmdlet to return a list of all service application IDs. 
     
-       For more information, see [New-SPEnterpriseSearchServiceApplicationProxy](http://technet.microsoft.com/library/2a074a5a-0af0-48fd-aa1f-edc875f93335.aspx).
+       For more information, see [New-SPEnterpriseSearchServiceApplicationProxy](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/new-spenterprisesearchserviceapplicationproxy?view=sharepoint-ps).
     
     - Type the following command to get the Search service application proxy ID for the proxy you just created and set it as the variable $ssap:
     
@@ -662,7 +811,7 @@ SharePoint Server 2016 normally creates a new search topology with all the searc
       $ssap = Get-SPEnterpriseSearchServiceApplicationProxy 
       ```
 
-        For more information, see [Get-SPEnterpriseSearchServiceApplicationProxy](http://technet.microsoft.com/library/233890cc-6571-4bd3-bb59-2b549a6098c3.aspx).
+        For more information, see [Get-SPEnterpriseSearchServiceApplicationProxy](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/get-spenterprisesearchserviceapplicationproxy?view=sharepoint-ps).
     
     - Type the following command to add the Search service application proxy to the default proxy group:    
     
@@ -678,17 +827,17 @@ SharePoint Server 2016 normally creates a new search topology with all the searc
           
         - You use an empty **Identity** parameter ("") to add it to the default group. 
           
-       For more information, see [Add-SPServiceApplicationProxyGroupMember](http://technet.microsoft.com/library/25ccffa1-84ae-4927-a1e5-4b2d55f6065f.aspx).
+       For more information, see [Add-SPServiceApplicationProxyGroupMember](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/add-spserviceapplicationproxygroupmember?view=sharepoint-ps).
     
-7. If the SharePoint Server 2013 with Service Pack 1 (SP1) farm uses a Links Database that is partitioned, partition the Links Database in the SharePoint Server 2016 farm the same way. Learn how in [Move-SPEnterpriseSearchLinksDatabases](http://technet.microsoft.com/library/5bff925f-3845-434e-be9f-3ba50673be28.aspx).
+7. If the SharePoint Server 2013 with Service Pack 1 (SP1) farm uses a Links Database that is partitioned, partition the Links Database in the SharePoint Server 2016 farm the same way. Learn how in [Move-SPEnterpriseSearchLinksDatabases](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Move-SPEnterpriseSearchLinksDatabases?view=sharepoint-ps).
     
 8. (Optional) Preserve search relevance settings from the SharePoint Server 2013 with Service Pack 1 (SP1) farm. Because the upgraded Search service application has a new, empty index, search analytics data from the SharePoint Server 2013 with Service Pack 1 (SP1) farm cannot be fully retained. Copy the Analytics Reporting database from the SharePoint Server 2013 with Service Pack 1 (SP1) farm and attach it to the new Search service application in the SharePoint Server 2016 farm:
     
-      - In the SharePoint Server 2013 with Service Pack 1 (SP1) farm, [backup](https://technet.microsoft.com/en-us/library/jj729803.aspx#Backup) the Analytics Reporting database. 
+      - In the SharePoint Server 2013 with Service Pack 1 (SP1) farm, [backup](https://docs.microsoft.com/en-us/SharePoint/administration/move-or-rename-service-application-databases#steps-to-move-or-rename-the-search-service-application-databases) the Analytics Reporting database. 
         
-      - In the SharePoint Server 2016 farm, [restore the backed up database](https://technet.microsoft.com/en-us/library/jj729803.aspx#Restore) to the new database server. 
+      - In the SharePoint Server 2016 farm, [restore the backed up database](https://docs.microsoft.com/en-us/SharePoint/administration/move-or-rename-service-application-databases#steps-to-move-or-rename-the-search-service-application-databases) to the new database server. 
         
-      - In the SharePoint Server 2016 farm, [attach the restored database](https://technet.microsoft.com/en-us/library/jj729803.aspx#PS) to the new Search service application. 
+      - In the SharePoint Server 2016 farm, [attach the restored database](https://docs.microsoft.com/en-us/SharePoint/administration/move-or-rename-service-application-databases#PS) to the new Search service application. 
     
 9. Verify that the search topology on the new SharePoint Server 2016 farm is alike that of the SharePoint Server 2013 with Service Pack 1 (SP1) farm. If your requirements for search have changed, now is a good time to scale out the search topology of the new SharePoint Server 2016 farm.
     
@@ -722,7 +871,7 @@ Use the following procedure to verify that the steps to create the proxies and a
         
         An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
     
-    **Note**: If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx).
+    **Note**: If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps).
     
 2. Start the SharePoint 2016 Management Shell.
     
@@ -778,5 +927,4 @@ Next phase: [Upgrade content databases to SharePoint Server 2016](upgrade-conten
 [Services upgrade overview for SharePoint Server 2016](overview-of-the-services-upgrade-process.md)
 #### Other Resources
 
-[Checklist for database-attach upgrade (SharePoint 2013)](http://technet.microsoft.com/library/14f7c2d1-5cea-4575-9fad-414b76df3d2e%28Office.14%29.aspx)
-
+[Checklist for database-attach upgrade (SharePoint 2013)](https://docs.microsoft.com/en-us/sharepoint/upgrade-and-update/checklist-for-database-attach-upgrade-sharepoint-2013)
