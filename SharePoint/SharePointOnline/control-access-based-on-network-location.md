@@ -35,8 +35,30 @@ Here are some important considerations for setting a location-based policy:
     > We recommend that when a location-based policy is enabled for SharePoint, the same policy and IP address ranges should be configured for Exchange and Yammer. SharePoint relies on these services to enforce that the users of these apps are within the trusted IP range. 
   
 - **Access from dynamic IP ranges**: Several services and providers host apps which have dynamic originating IP addresses. For example, a service that accesses SharePoint while running from one Azure data center may start running from a different data center due to a failover condition or other reason, thus dynamically changing its IP address. The location-based conditional access policy relies on fixed, trusted IP address ranges. If the IP address range cannot be determined up front, location-based policy may not be an option for your environment. 
+
+## Set a location-based policy in the new SharePoint admin center
+
+> [!NOTE]
+> It can take up to 15 minutes for these settings to take effect. 
+  
+1. Sign in to Office 365 as a global admin or SharePoint admin.
     
-## Set a location-based policy in the SharePoint admin center
+2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+  
+3. In the left pane, choose **Admin centers** \> **SharePoint**.
+
+4. In the upper right, click **Try it now**.
+    
+4. In the left pane, click **Access control**.
+    
+5. Click **Network location** and turn on **Allow access only from specific IP address ranges**
+    
+6. Enter IP addresses and address ranges separated by commas. 
+  
+    > [!IMPORTANT]
+    > Make sure you include your own IP address so you don't lock yourself out. This setting not only restricts access to OneDrive and SharePoint sites, but also to the OneDrive and SharePoint admin centers, and to running PowerShell cmdlets. If you lock yourself out and can't connect from an IP address within a range you specified, you will need to contact Support for help.
+    
+## Set a location-based policy in the classic SharePoint admin center
 
 > [!NOTE]
 > It can take up to 15 minutes for these settings to take effect. 
@@ -62,7 +84,7 @@ Here are some important considerations for setting a location-based policy:
 
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
     
-2. Connect to SharePoint Online as a global admin or SharePoint admin in Office 365. To learn how, see [Getting started with SharePoint Online Management Shell](https://go.microsoft.com/fwlink/?linkid=869066).
+2. Connect to SharePoint Online as a global admin or SharePoint admin in Office 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
     
 3. Run [Set-SPOTenant](https://go.microsoft.com/fwlink/?linkid=872571) to specify your allowed IP addresses, as in this example (replace the example IP address "131.102.0.0/16" with your own): 
     

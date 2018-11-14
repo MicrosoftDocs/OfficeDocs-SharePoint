@@ -13,6 +13,6 @@
 # *.js    @octocat @github/js
 
 # You can also use email addresses if you prefer.
-/OneDrive/ @kaarins @MikePlumleyMSFT @AndreaBarr
-/SharePoint/  @MikePlumleyMSFT @Techwriter40 @AndreaBarr
+/OneDrive/ @kaarins @AndreaBarr
+/SharePoint/ @AndreaBarr
 /migration/ @JoanneHendrickson @AndreaBarr

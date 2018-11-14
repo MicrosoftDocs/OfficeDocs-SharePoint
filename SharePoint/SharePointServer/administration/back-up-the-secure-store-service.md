@@ -3,7 +3,6 @@ title: "Back up the Secure Store Service in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 2/17/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -48,11 +47,11 @@ You can use PowerShell to back up the Secure Store Service manually or as part o
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2016 Products cmdlets. 
     
@@ -63,15 +62,15 @@ You can use PowerShell to back up the Secure Store Service manually or as part o
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  Backup-SPFarm -Directory  <BackupFolder> -BackupMethod Full -Item <SecureStoreService > [-Verbose]
-  ```
+   ```
+   Backup-SPFarm -Directory  <BackupFolder> -BackupMethod Full -Item <SecureStoreService > [-Verbose]
+   ```
 
     Where:
     
-  -  _\<BackupFolder\>_ is the path of a folder on the local computer or on the network in which you want to store the backups. 
+   -  _\<BackupFolder\>_ is the path of a folder on the local computer or on the network in which you want to store the backups. 
     
-  -  _\<SecureStoreService\>_ is the name of the Secure Store Service application that you want to back up. 
+   -  _\<SecureStoreService\>_ is the name of the Secure Store Service application that you want to back up. 
     
     > [!NOTE]
     > You must use the **Full** option to back up the Secure Store Service. 

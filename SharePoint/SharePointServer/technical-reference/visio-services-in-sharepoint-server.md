@@ -17,7 +17,7 @@ description: "Resolve alerts in Visio Services in SharePoint Server: symptoms, c
 
 # Visio Services in SharePoint Server knowledge articles
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-xxx-xxx-md](../includes/appliesto-2013-2016-xxx-xxx-md.md)]
 
 Resolve alerts in Visio Services in SharePoint Server 2016 and SharePoint Server 2013: symptoms, causes, and possible resolutions.
   

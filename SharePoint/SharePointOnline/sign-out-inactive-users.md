@@ -2,7 +2,6 @@
 title: "Sign out inactive users"
 ms.author: kaarins
 author: kaarins
-ms.date: 6/28/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
@@ -40,13 +39,29 @@ If they don't click **Continue**, they'll be automatically signed out and will s
 > [!NOTE]
 > If a user is active in another Office 365 service (such as Outlook), but inactive in SharePoint and OneDrive, they'll be signed out across Office 365. If a user has multiple tabs to OneDrive and SharePoint sites open at the same time, they won't be signed out unless they are inactive on all the sites. > Users won't be signed out if they selected to stay signed in when they signed in. For info about hiding this option, see [Add company branding to your sign-in page in Azure AD](https://go.microsoft.com/fwlink/?linkid=2003520). Users won't be signed out on a managed device (one that is compliant or joined to a domain), unless they're using inPrivate mode or a browser other than Edge or Internet Explorer. If they use Google Chrome, you need to use an extension to pass the device state claim. For more info about device state claims, see [Azure AD conditional access settings](https://go.microsoft.com/fwlink/?linkid=2003424). 
   
-## Configure the idle session sign-out policy
+## Specify idle session sign-out settings in the new SharePoint admin center
 
-This policy is configured using Microsoft PowerShell.
+1. Sign in to Office 365 as a global admin or SharePoint admin.
+    
+2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+    
+3. In the left pane, choose **Admin centers** \> **SharePoint** to open the classic SharePoint admin center.
+
+4. In the upper right, click **Try it now** to open the new SharePoint admin center.
+
+5. In the left pane, under **Policies**, click **Access control**. 
+
+6. Click **Idle session sign-out**.
+
+7. Turn on **Sign out inactive users automatically**, and then select when you want to sign out users and how much notice you want to give them before signing them out.
+
+8. Click **Save**.
+
+## Specify idle session sign-out settings using PowerShell
   
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
     
-2. Connect to SharePoint Online as a global admin or SharePoint admin in Office 365. To learn how, see [Getting started with SharePoint Online Management Shell](https://go.microsoft.com/fwlink/?linkid=869066).
+2. Connect to SharePoint Online as a global admin or SharePoint admin in Office 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
     
 3. Run the following command at the SharePoint Online Management Shell command prompt:
     

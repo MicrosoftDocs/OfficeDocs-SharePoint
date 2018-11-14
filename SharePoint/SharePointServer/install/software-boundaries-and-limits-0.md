@@ -182,11 +182,9 @@ The following table lists the recommended guidelines for lists and libraries. Fo
 #### Column limits
 <a name="Column"> </a>
 
-SharePoint Server 2016 data is stored in SQL Server tables.
+SharePoint Server 2016 data is stored in SQL Server tables. Each column type has a size value listed in bytes. The sum of all columns in a SharePoint list cannot exceed 8,000 bytes.
   
-Each column type has a size value listed in bytes. The sum of all columns in a SharePoint list cannot exceed 8,000 bytes. When columns of different types are created in the same list, users can reach the 8,000 byte limitation before reaching the maximum number for any one type.
-  
-|**Limit**|**Maximum value**|**Limit type**|**Size per column**|**Notes**|
+|**Limit**|**Maximum # columns**|**Limit type**|**Size per column**|**Notes**|
 |:-----|:-----|:-----|:-----|:-----|
 |Single line of text  <br/> |255  <br/> |Threshold  <br/> |30 bytes  <br/> ||
 |Multiple Lines of Text  <br/> |350  <br/> |Threshold  <br/> |22 bytes  <br/> ||

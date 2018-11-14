@@ -10,8 +10,6 @@ localization_priority: Priority
 ms.collection: 
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
-ROBOTS: NOINDEX
-ROBOTS: NOFOLLOW
 ms.custom: 
 ms.assetid: 
 

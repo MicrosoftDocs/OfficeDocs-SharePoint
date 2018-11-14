@@ -28,7 +28,7 @@ The Microsoft Azure Data Box is a service that lets you order a device from the 
 3.	Copy your on-premises file share to Azure Data Box file share.
 4.	Ship Data Box back per instructions and wait for the copy to complete.
 5.	Create a VM in the Azure portal and mount the Azure file share on it.
-6.	Install the SMPT tool on the Azure VM.
+6.	Install the SPMT tool on the Azure VM.
 7.	Run the SPMT tool using the Azure file share as the SOURCE.
 8.	Complete the final steps of the tool.
 9.	Verify and confirm your data.

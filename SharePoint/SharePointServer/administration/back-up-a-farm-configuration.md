@@ -3,7 +3,6 @@ title: "Back up farm configurations in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 2/17/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -45,36 +44,36 @@ You can use PowerShell to back up the configuration from any configuration datab
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
-    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server Products cmdlets. 
+     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server Products cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  Backup-SPConfigurationDatabase -Directory <BackupFolder> -DatabaseServer <DatabaseServerName> -DatabaseName <DatabaseName> -DatabaseCredentials <WindowsPowerShellCredentialObject> [-Verbose]
-  ```
+   ```
+   Backup-SPConfigurationDatabase -Directory <BackupFolder> -DatabaseServer <DatabaseServerName> -DatabaseName <DatabaseName> -DatabaseCredentials <WindowsPowerShellCredentialObject> [-Verbose]
+   ```
 
     Where:
     
-  -  _\<BackupFolder\>_ is the path to the folder that has the correct backup files. 
+   -  _\<BackupFolder\>_ is the path to the folder that has the correct backup files. 
     
-  -  _\<DatabaseServerName\>_ is the name of the database server for the farm that you are backing up. 
+   -  _\<DatabaseServerName\>_ is the name of the database server for the farm that you are backing up. 
     
-  -  _\<DatabaseName\>_ is the name of the farm configuration database. 
+   -  _\<DatabaseName\>_ is the name of the farm configuration database. 
     
-  - If you are not logged on with an account with **db_backupoperator** fixed database role on the database server where the configuration database is stored, you must specify the value for  `DatabaseCredentials` parameter. 
+   - If you are not logged on with an account with **db_backupoperator** fixed database role on the database server where the configuration database is stored, you must specify the value for  `DatabaseCredentials` parameter. 
     
-For more information, see [Backup-SPConfigurationDatabase](http://technet.microsoft.com/library/28ddc176-1b7f-47dd-868f-39b7c403a900.aspx).
+For more information, see [Backup-SPConfigurationDatabase](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Backup-SPConfigurationDatabase?view=sharepoint-ps).
   
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 

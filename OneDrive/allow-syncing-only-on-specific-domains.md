@@ -3,7 +3,6 @@ title: "Allow syncing only on computers joined to specific domains"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 06/21/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: one-drive
@@ -31,8 +30,11 @@ To make sure that users sync OneDrive files only on managed computers, you can c
     
 3. Click **Add domains**.
     
-4. Add the [GUID of each domain](https://go.microsoft.com/fwlink/?linkid=871987) where you want to allow users to sync files. 
-    
+4. Add the [GUID of each domain](/powershell/module/activedirectory/get-addomain) for the member computers that you want to be able to sync.
+ 
+> [!NOTE]
+> Make sure to add the domain GUID of the computer domain membership. If users are in a separate domain, only the domain GUID that the computer account is joined to is required.
+   
 5. If you want to prevent Mac OS users from syncing entirely, select the **Block sync on Mac OS** check box. 
     
 6. Click **Save** on the Sync page. 

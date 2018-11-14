@@ -3,7 +3,6 @@ title: "Restore farms in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 3/9/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -37,7 +36,7 @@ Farm-level recovery is usually performed only after a failure that involves the 
     
 Before you begin this operation, review the following information about how to recover a farm in SharePoint:
   
-- You cannot back up from one version of SharePoint Server 2016 and restore to another version of SharePoint Server 2016 or from one version of SharePoint Server 2013 and restore to another version of SharePoint Server 2013.
+- You cannot back up from one version of SharePoint Server 2019 and restore to another version of SharePoint Server 2019. The same applies to SharePoint Servers 2016 and 2013.
     
 - Backing up the farm will back up the configuration and Central Administration content databases, but these cannot be restored using SharePoint Server tools. For more information about how to back up and restore all of the farm databases, see [Move all databases in SharePoint Server](move-all-databases.md).
     
@@ -80,11 +79,11 @@ You can use Microsoft PowerShell to restore a farm.
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
@@ -99,22 +98,22 @@ You can use Microsoft PowerShell to restore a farm.
   Restore-SPFarm -Directory <BackupFolder> -RestoreMethod Overwrite [-BackupId <GUID>]<Type the appropriate cmdlet, including parameters and values, and enclose the values for the parameters in "placeholder" tags >
   ```
 
-    Where:
+   Where:
     
   -  _\<BackupFolder\>_ is the path of the folder you use for storing backup files. 
     
   -  _\<GUID\>_ is the identifier of the backup to restore from. 
     
-    > [!NOTE]
-    > If you are not logged on as the Farm account, you are prompted for the Farm account's credentials. 
+   > [!NOTE]
+   > If you are not logged on as the Farm account, you are prompted for the Farm account's credentials. 
   
-    If you do not specify the  `BackupId`, the most recent backup will be used. To view the backups for the farm, at the Microsoft PowerShell command prompt, type the following command: 
+   If you do not specify the  `BackupId`, the most recent backup will be used. To view the backups for the farm, at the Microsoft PowerShell command prompt, type the following command: 
     
   ```
-  Get-SPBackupHistory -Directory <BackupFolder> -ShowBackup [-Verbose]
+   Get-SPBackupHistory -Directory <BackupFolder> -ShowBackup [-Verbose]
   ```
 
-    Where:
+   Where:
     
   -  _\<BackupFolder\>_ is the path of the folder you use for storing backup files. 
     
@@ -123,14 +122,14 @@ You can use Microsoft PowerShell to restore a farm.
 4. To restart a service application, at the PowerShell command prompt, type the following command:
     
   ```
-  Start-SPServiceInstance -Identity <ServiceApplicationID>
+   Start-SPServiceInstance -Identity <ServiceApplicationID>
   ```
 
-    Where:
+   Where:
     
-  -  _\<ServiceApplicationID\>_ is the GUID of the service application. 
+ -  _\<ServiceApplicationID\>_ is the GUID of the service application. 
     
-    For more information about how to restart service applications by using PowerShell, see [Start-SPServiceInstance](http://technet.microsoft.com/library/fcb4a4f8-a95f-468e-918b-d9a2d736cd2d.aspx).
+   For more information about how to restart service applications by using PowerShell, see [Start-SPServiceInstance](http://technet.microsoft.com/library/fcb4a4f8-a95f-468e-918b-d9a2d736cd2d.aspx).
     
 For more information about how to restore the farm by using PowerShell_2nd_NoVer, see Restore-SPFarm.PShell_stsadm_deprecated
   
@@ -217,11 +216,11 @@ Use the following procedure to restore your farm databases.
     
 9. In the **Recovery state** section: 
     
-  - If you have included all the transaction logs that you must restore, select **RECOVER WITH RECOVERY**.
+   - If you have included all the transaction logs that you must restore, select **RECOVER WITH RECOVERY**.
     
-  - If you must restore additional transaction logs, select **RECOVER WITH NORECOVERY**.
+   - If you must restore additional transaction logs, select **RECOVER WITH NORECOVERY**.
     
-  - The third option, **RECOVER WITH STANDBY** is not used in this scenario. 
+   - The third option, **RECOVER WITH STANDBY** is not used in this scenario. 
     
     > [!NOTE]
     > For more information about these recovery options, see [Restore Database (Options Page)]( http://go.microsoft.com/fwlink/p/?LinkID=717045&amp;clcid=0x409). 

@@ -137,7 +137,7 @@ Help your users share, organize, and discover information with SharePoint.
                 <div class="card">
                     <div class="cardText">
                         <h3>Share and work together</h3>
-                        <p><a href="/sharepoint/turn-external-sharing-on-or-off">Turn external sharing on or off </a></p><p><a href="https://support.office.com/article/7266f44e-3e06-4736-b9d3-0580c24bba34">Securely share files with customers </a></p><p><a href="/sharepoint/manage-site-creation">Manage site creation </a></p><p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/sharepoint-onedrive-interact">How SharePoint interacts with Teams </a></p><p><a href="">Administer OneDrive</a></p>
+                        <p><a href="/sharepoint/turn-external-sharing-on-or-off">Turn external sharing on or off </a></p><p><a href="https://support.office.com/article/7266f44e-3e06-4736-b9d3-0580c24bba34">Securely share files with customers </a></p><p><a href="/sharepoint/manage-site-creation">Manage site creation </a></p><p><a href="/MicrosoftTeams/sharepoint-onedrive-interact">How SharePoint interacts with Teams </a></p><p><a href="">Administer OneDrive</a></p>
                     </div>
                 </div>
             </div>
@@ -161,7 +161,7 @@ Help your users share, organize, and discover information with SharePoint.
                 <div class="card">
                     <div class="cardText">
                         <h3>Transform business processes</h3>
-                        <p><a href="https://docs.microsoft.com/en-us/flow/getting-started">Get started with Microsoft Flow</a></p><p><a href="https://docs.microsoft.com/en-us/powerapps/">PowerApps</a></p>
+                        <p><a href="/flow/getting-started">Get started with Microsoft Flow</a></p><p><a href="/powerapps/">PowerApps</a></p>
                     </div>
                 </div>
             </div>
@@ -185,7 +185,7 @@ Help your users share, organize, and discover information with SharePoint.
                 <div class="card">
                     <div class="cardText">
                         <h3>Protect and manage</h3>
-                        <p><a href="/sharepoint/safeguarding-your-data">How SharePoint and OneDrive safeguard your data</a></p><p><a href="/sharepoint/get-started-new-admin-center">New SharePoint admin center</a></p><p><a href="https://support.office.com/article/239ce6eb-4e81-42db-bf86-a01362fed65c">Set up Information Rights Management (IRM)</a></p><p><a href="https://docs.microsoft.com/en-us/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps">SharePoint Online management shell </a></p>
+                        <p><a href="/office365/securitycompliance/">Office 365 Security and Compliance</a></p><p><a href="/sharepoint/safeguarding-your-data">How SharePoint and OneDrive safeguard your data</a></p><p><a href="/sharepoint/get-started-new-admin-center">New SharePoint admin center</a></p><p><a href="/powershell/sharepoint/sharepoint-online/connect-sharepoint-online">SharePoint Online management shell </a></p>
                     </div>
                 </div>
             </div>
@@ -197,7 +197,7 @@ Help your users share, organize, and discover information with SharePoint.
                 <div class="card">
                     <div class="cardText">
                         <h3>Extend and develop</h3>
-                        <p><a href="https://docs.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview">SharePoint Framework</a></p><p><a href="https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/sharepoint-add-ins">SharePoint add-ins</a></p><p><a href="https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/office-365-development-patterns-and-practices-solution-guidance">Patterns and practices (PnP) solution guidance</a></p>
+                        <p><a href="/sharepoint/dev/spfx/sharepoint-framework-overview">SharePoint Framework</a></p><p><a href="/sharepoint/dev/sp-add-ins/sharepoint-add-ins">SharePoint add-ins</a></p><p><a href="/sharepoint/dev/solution-guidance/office-365-development-patterns-and-practices-solution-guidance">Patterns and practices (PnP) solution guidance</a></p>
                     </div>
                 </div>
             </div>
