@@ -101,3 +101,6 @@ Use this procedure to lock or unlock a site collection by using PowerShell.
 
 [Create, edit, and delete quota templates in SharePoint Server](create-edit-and-delete-quota-templates.md)
 
+#### Other Resources
+
+[Manage site collections and global settings in the SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=845346)
