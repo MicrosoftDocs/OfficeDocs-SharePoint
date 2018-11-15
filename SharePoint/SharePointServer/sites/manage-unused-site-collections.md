@@ -61,7 +61,7 @@ Use this procedure to manage unused site collections. You can follow these steps
   
 1. Verify that you meet the following minimum requirements:
     
-  - You must be a member of the Farm Administrators group on the computer running the SharePoint Central Administration website.
+   - You must be a member of the Farm Administrators group on the computer running the SharePoint Central Administration website.
     
 2. In Central Administration, on the **Application Management** page, in the **Site Collections** section, click **Confirm site use and deletion**.
     
@@ -71,15 +71,15 @@ Use this procedure to manage unused site collections. You can follow these steps
     
 5. In the **Confirmation and Automatic Deletion Settings** section: 
     
-  - Select or clear the **Send e-mail notification to owners of unused site collections** check box. 
+   - Select or clear the **Send e-mail notification to owners of unused site collections** check box. 
     
-    If you select this check box, type the number of days, after the site collection creation or after the site collection usage is confirmed, to start to send notifications. The default number of days is 30, and the maximum is 365.
+     If you select this check box, type the number of days, after the site collection creation or after the site collection usage is confirmed, to start to send notifications. The default number of days is 30, and the maximum is 365.
     
-  - Specify a daily, weekly, or monthly schedule for email notifications. By default, the schedule is daily. You can also specify the exact time to run the check for the site collection usage. By default, the time is midnight.
+   - Specify a daily, weekly, or monthly schedule for email notifications. By default, the schedule is daily. You can also specify the exact time to run the check for the site collection usage. By default, the time is midnight.
     
-  - Select or clear the **Automatically delete the site collection if use is not confirmed** check box. 
+   - Select or clear the **Automatically delete the site collection if use is not confirmed** check box. 
     
-    If you select this check box, type the number of notifications to send before the site collection is deleted. By default, it is 28 notifications.
+     If you select this check box, type the number of notifications to send before the site collection is deleted. By default, it is 28 notifications.
     
 6. Click **OK**.
     
