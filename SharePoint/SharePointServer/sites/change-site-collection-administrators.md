@@ -33,7 +33,7 @@ Use this procedure when you want to make a user a primary or secondary site coll
 
 1. Verify that you have the following administrative credentials:
     
-  - To add a site collection administrator, you must be a member of the Farm Administrators group on the computer that is running Central Administration.
+   - To add a site collection administrator, you must be a member of the Farm Administrators group on the computer that is running Central Administration.
     
 2. In Central Administration, click **Application Management**. On the **Application Management** page, in the **Site Collections** section, click **Change site collection administrators**.
     
@@ -53,17 +53,19 @@ Use this procedure when you want to make a user a primary or secondary site coll
     
 3. At the PowerShell command prompt, type the following command to replace the secondary site collection administrator:
     
-  ```
-  Set-SPSite -Identity "<SiteCollection>" -SecondaryOwnerAlias "<User>"
-  ```
+   ```
+   Set-SPSite -Identity "<SiteCollection>" -SecondaryOwnerAlias "<User>"
+   ```
 
     Where:
     
-  -  _\<SiteCollection\>_ is the URL of the site collection to which you want to add a site collection administrator. 
+   -  _\<SiteCollection\>_ is the URL of the site collection to which you want to add a site collection administrator. 
     
-  -  _\<User\>_ is name of the user whom you want to add in the format  _\<domain\>_\ _\<username\>_.
+   -  _\<User\>_ is name of the user whom you want to add in the format  _\<domain\>_\ _\<username\>_.
     
-The previous procedure shows a common way to use the **Set-SPSite** cmdlet to add a secondary site collection administrator. You can specify different parameters to configure different settings for a site collection. For more information, see [Set-SPSite](http://technet.microsoft.com/library/f8c7f0ac-52bf-4b79-a356-9d6e485a55aa.aspx). We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions.
+The previous procedure shows a common way to use the **Set-SPSite** cmdlet to add a secondary site collection administrator. You can specify different parameters to configure different settings for a site collection. For more information, see [Set-SPSite](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/set-spsite?view=sharepoint-ps). 
+
+We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions.
   
 ## Remove a site collection administrator
 <a name="section2"> </a>
@@ -74,7 +76,7 @@ Use this procedure to specify the user to be removed from the site collection ad
 
 1. Verify that you have the following administrative credentials:
     
-  - To remove a site collection administrator, you must be a member of the Farm Administrators group on the computer that is running Central Administration.
+   - To remove a site collection administrator, you must be a member of the Farm Administrators group on the computer that is running Central Administration.
     
 2. In Central Administration, select **Application Management**. On the **Application Management** page, in the **Site Collections** section, click **Change site collection administrators**.
     
