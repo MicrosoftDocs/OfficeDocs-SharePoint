@@ -117,8 +117,6 @@ The SharePoint groups and permission levels that are included by default in your
   
 - The template that you choose for the site
     
-- Whether the site is an internal site or a public website
-    
 - Whether a SharePoint admin created a unique permissions set on the site that has a specific purpose, such as Search
     
 The following table describes the default permission levels and associated permissions for three standard groups: Visitors, Members, and Owners.
