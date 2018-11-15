@@ -14,7 +14,7 @@ description: "Learn how to change the ranking of classic search results in Share
 
 # Changing the ranking of classic search results in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
  **Audience:** SharePoint Server and SharePoint Online search administrators. 
   
