@@ -3,7 +3,6 @@ title: "How to use the SharePoint Migration Tool"
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
-ms.date: 5/17/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -12,9 +11,9 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
 ms.custom: 
-ms.assetid: 65462df1-42fe-40cf-88f7-e39f82f5130f
 
-description: "The SharePoint Migration Tool is a tool that migrates your files from SharePoint on-premises document libraries or regular file shares and easily moves them to your SharePoint Online tenant. It is available to all Office 365 users."
+
+description: "The SharePoint Migration Tool is a tool that migrates your files from SharePoint on-premises document libraries or regular file shares and easily moves them to your SharePoint Online tenant."
 ---
 
 # How to use the SharePoint Migration Tool
@@ -24,10 +23,10 @@ The SharePoint Migration Tool (SPMT) is a tool that migrates your files from Sha
 
 
 >[!NOTE]
->To install the current release download here: [SharePoint Migration Tool Version 2](http://spmtreleasescus.blob.core.windows.net/install/default.htm).
+>To install the current release download here: [SharePoint Migration Tool](http://spmtreleasescus.blob.core.windows.net/install/default.htm).
 
 > [!NOTE]
-> Currently the **SharePoint Migration Tool** is not available for users of Office 365 operated by 21Vianet in China or for users of Office 365 Germany. 
+> Currently the **SharePoint Migration Tool** is not available for users of Office 365 operated by 21Vianet in China. </br></br> It is also not available for users of Office 365 with the German cloud with the data trustee, *German Telekom*. However, it is supported for users in Germany whose data location is not in the German datacenter.
   
 ## Before you begin
 
