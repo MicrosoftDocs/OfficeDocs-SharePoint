@@ -40,21 +40,21 @@ As you install a new version of SharePoint Server, take time to evaluate any ser
 
 If you have a reliance on any of the following, plan what you intend to replace that functionality with or if it is no longer being used actively by your company and it is time to phase it out.
 
-Use supported service applications and consider phasing out the use of these deprecated service applications:
+Use supported service applications and consider phasing out the use of these deprecated service applications. For any of the SharePoint BI tools, you can use PowerBI as a replacement:
 
 
-|**Deprecated feature or service**|**Recommended replacement**|
-|:-----|:-----|
-|Access Services and Access Services 2010 |Power BI |
-|Document Conversions services|No Replacement |
-|Lotus Notes Connector  |No Replacement |
-|Machine Translation Services | |
-|PerformancePoint Service |Power BI |
-|PowerPoint Conversion Service | No Replacement|
-|Visio Graphics Service  ||
-|Word Automation Services  |No Replacement |
-|InfoPath |Microsoft Forms or PowerApps |
-|Workflow Manager |Microsoft Flow or SharePoint 2010 workflows|
+|**Deprecated feature or service**
+|:-----|
+|Access Services and Access Services 2010 |
+|Document Conversions services|
+|Lotus Notes Connector  |
+|Machine Translation Services |
+|PerformancePoint Service |
+|PowerPoint Conversion Service |
+|Visio Graphics Service  |
+|Word Automation Services  |
+|InfoPath | |
+|Workflow Manager |
 
 ## Customizations
 
