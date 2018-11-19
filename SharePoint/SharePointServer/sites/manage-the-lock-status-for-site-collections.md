@@ -3,7 +3,6 @@ title: "Manage the lock status for site collections in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 9/19/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -44,7 +43,7 @@ Use this procedure to lock or unlock a site collection by using the SharePoint C
   
 1. Verify that you have the following administrative credentials. 
     
-  - You must be a member of the Site Collection Administrators group for the site collection.
+   - You must be a member of the Site Collection Administrators group for the site collection.
     
 2. Open Central Administration. On the **Application Management** page, in the **Site Collections** section, click **Configure quotas and locks**.
     
@@ -52,13 +51,13 @@ Use this procedure to lock or unlock a site collection by using the SharePoint C
     
 4. On the **Site Collection Quotas and Locks** page, in the **Site Lock Information** section, select one of the following options: 
     
-  - **Not locked** to unlock the site collection and make it available to users. 
+   - **Not locked** to unlock the site collection and make it available to users. 
     
-  - **Adding content prevented** to prevent users from adding new content to the site collection. Updates and deletions are still allowed. 
+   - **Adding content prevented** to prevent users from adding new content to the site collection. Updates and deletions are still allowed. 
     
-  - **Read-only (blocks additions, updates, and deletions)** to prevent users from adding, updating, or deleting content. Choose whether you want this to be farm administrator controlled or site collection administrator controlled. 
+   - **Read-only (blocks additions, updates, and deletions)** to prevent users from adding, updating, or deleting content. Choose whether you want this to be farm administrator controlled or site collection administrator controlled. 
     
-  - **No access** to prevent users from accessing the site collection and its content. Users who attempt to access the site receive an error message. 
+   - **No access** to prevent users from accessing the site collection and its content. Users who attempt to access the site receive an error message. 
     
 5. If you select **Adding content prevented**, **Read-only (blocks additions, updates, and deletions)**, or **No access**, type a reason for the lock in the **Additional lock information** box. 
     
@@ -76,32 +75,32 @@ Use this procedure to lock or unlock a site collection by using PowerShell.
     
 3. At the PowerShell command prompt, type the following command, and then press **ENTER**:
     
-  ```
-  Set-SPSite -Identity "<SiteCollection>" -LockState "<State>"
-  ```
+   ```
+   Set-SPSite -Identity "<SiteCollection>" -LockState "<State>"
+   ```
 
-Where:
+   Where:
     
--  _\<SiteCollection\>_ is the URL of the site collection that you want to lock or unlock. 
+   -  _\<SiteCollection\>_ is the URL of the site collection that you want to lock or unlock. 
     
--  _\<State\>_ is one of the following values: 
+   -  _\<State\>_ is one of the following values: 
     
-- **Unlock** to unlock the site collection and make it available to users. 
+      - **Unlock** to unlock the site collection and make it available to users. 
     
-- **NoAdditions** to prevent users from adding new content to the site collection. Updates and deletions are still allowed. 
+      - **NoAdditions** to prevent users from adding new content to the site collection. Updates and deletions are still allowed. 
     
-- **ReadOnly** to prevent users from adding, updating, or deleting content. 
+      - **ReadOnly** to prevent users from adding, updating, or deleting content. 
     
-- **NoAccess** to prevent users from accessing the site collection and its content. Users who attempt to access the site receive an error message. 
+      - **NoAccess** to prevent users from accessing the site collection and its content. Users who attempt to access the site receive an error message. 
     
- For more information, see [Set-SPSite](http://technet.microsoft.com/library/f8c7f0ac-52bf-4b79-a356-9d6e485a55aa.aspx).
+ For more information, see [Set-SPSite](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Set-SPSite?view=sharepoint-ps).
   
 ## See also
 
 #### Concepts
 
 [Create, edit, and delete quota templates in SharePoint Server](create-edit-and-delete-quota-templates.md)
+
 #### Other Resources
 
 [Manage site collections and global settings in the SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=845346)
-

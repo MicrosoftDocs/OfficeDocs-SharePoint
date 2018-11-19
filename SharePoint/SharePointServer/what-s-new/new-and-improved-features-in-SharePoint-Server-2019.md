@@ -46,11 +46,11 @@ Communication sites are a place to share news, showcase a story, or broadcast a 
 
 Fast site creation in SharePoint Server 2019 allows users create new sites in a few seconds. Fast site creation is only supported with the following site templates:
 
-- OneDrive personal site [SPSPERS#10]
+- OneDrive personal site \[SPSPERS#10\]
 
-- Team site (modern only) [STS#3]
+- Team site (modern only) \[STS#3\]
 
-- Communication site [SITEPAGEPUBLISHING#0]
+- Communication site \[SITEPAGEPUBLISHING#0\]
 
 Fast site creation is used when creating sites in the following entry points:
 

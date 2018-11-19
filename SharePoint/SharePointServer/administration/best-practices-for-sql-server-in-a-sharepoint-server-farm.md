@@ -3,7 +3,6 @@ title: "Best practices for SQL Server in a SharePoint Server farm"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 3/9/2018
 ms.audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
@@ -45,8 +44,16 @@ To ensure optimal performance for farm operations, we recommend that you install
 
 To ensure consistent behavior and performance, configure the following options and settings before you deploy SharePoint Server. 
   
-- Do not enable auto-create statistics on SharePoint content databases. Enabling auto-create statistics is not supported for SharePoint Server. SharePoint Server configures the required settings during provisioning and upgrade. Manually enabling auto-create statistics on a SharePoint database can significantly change the execution plan of a query. The SharePoint databases either use a stored procedure that maintains the statistics (proc_UpdateStatistics) or rely on SQL Server to do this. 
-    
+- Do not enable auto-create statistics on SharePoint content databases. Enabling auto-create statistics is not supported for SharePoint Server. SharePoint Server configures the required settings during provisioning and upgrade. Manually enabling auto-create statistics on a SharePoint database can significantly change the execution plan of a query. The SharePoint databases either use a stored procedure that maintains the statistics (proc_UpdateStatistics) or rely on SQL Server to do this.
+
+- For SharePoint Server 2013, Maintenance Plans are managed by SharePoint:
+	- SQL statistics are managed by the health rule “Databases used by SharePoint have outdated index statistics” that calls proc_updatestatics   
+	- Content databases have the Auto Update Statistics property set to **False**  
+	
+- For SharePoint Server 2016, SQL administrator must create [Maintenance Plans](https://docs.microsoft.com/en-us/sql/relational-databases/maintenance-plans/maintenance-plans?view=sql-server-2017) for SharePoint content databases:
+	- SQL statistics are not managed by the health rule “Databases used by SharePoint have outdated index statistics”   
+	- Content databases have the Auto Update Statistics property set to **True** `
+
 - Set max degree of parallelism (MAXDOP) to 1 for instances of SQL Server that host SharePoint databases to make sure that a single SQL Server process serves each request. 
     
     > [!IMPORTANT]

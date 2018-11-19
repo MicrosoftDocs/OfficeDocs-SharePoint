@@ -53,11 +53,11 @@ Use this procedure to create a connection to a document repository or a records 
     
 9. In the **Send To action** list, select one of the following values: 
     
-  - **Copy** Select this option to create a copy of the document and send the copy to the destination repository. 
+   - **Copy** Select this option to create a copy of the document and send the copy to the destination repository. 
     
-  - **Move** Select this option to delete the document from its current location and move the document to the destination repository. Users will no longer be able to access the document from its original location. 
+   - **Move** Select this option to delete the document from its current location and move the document to the destination repository. Users will no longer be able to access the document from its original location. 
     
-  - **Move and Leave a Link** Select this option to delete the document from its current location, move it to the destination repository, and leave a link at the current location indicating that the document has been moved. When a user clicks this link, a page will appear that displays the URL of the document and the document's metadata. 
+   - **Move and Leave a Link** Select this option to delete the document from its current location, move it to the destination repository, and leave a link at the current location indicating that the document has been moved. When a user clicks this link, a page will appear that displays the URL of the document and the document's metadata. 
     
 10. In the **Explanation** dialog box, type the information to be added to the audit log when the user sends a document by using this connection. If you selected **Move and Leave a Link** in the previous step, the page that appears when the user clicks the link will also display the explanation. 
     
