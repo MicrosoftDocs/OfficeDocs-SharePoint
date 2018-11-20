@@ -3,7 +3,6 @@ title: "Plan for multilingual sites in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 9/7/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -45,7 +44,7 @@ There are three ways that you can provide multilingual sites for users:
   
 1. **You can create sites in languages different from the one that was used to install SharePoint.**
     
-    This option creates a site in which the site user interface appears in the language that is selected when the site is created. For example, if the English version of SharePoint is installed, but Japanese is selected when the site is created, the site user interface will appear in Japanese. This option only affects the site administration pages and user interface, and does not affect content created on the site. For more information, see [Install or uninstall language packs for SharePoint Server 2016](../install/install-or-uninstall-language-packs-0.md) or [Install or uninstall language packs for SharePoint 2013](../install/install-or-uninstall-language-packs.md).
+    This option creates a site in which the site user interface appears in the language that is selected when the site is created. For example, if the English version of SharePoint is installed, but Japanese is selected when the site is created, the site user interface will appear in Japanese. This option only affects the site administration pages and user interface, and does not affect content created on the site. For more information, see [Install or uninstall language packs for SharePoint Servers 2016 and 2019](../install/install-or-uninstall-language-packs-0.md) or [Install or uninstall language packs for SharePoint 2013](../install/install-or-uninstall-language-packs.md).
     
 2. **You can use the multilingual user interface to enable users to view the site user interface in their preferred language.**
     
@@ -59,7 +58,7 @@ There are three ways that you can provide multilingual sites for users:
     This option creates a source variation site that is used to author content in one language, and then syncs that content to one or more target variation sites where it can be translated and consumed in other languages. For example, you can author and publish content in English for http<!-- nolink -->://contoso.com/en, and use variations to sync content to http<!-- nolink -->://contoso.com/fr, where you can translate it to French and publish it. Unlike the first two options, the variations feature does not affect site administration pages or the user interface; it affects only content. You can create the variation sites in different languages, and you can enable the multilingual user interface for users who create content for the variation sites. For information about variations, see [Variations overview in SharePoint Server](../administration/variations-overview.md).
     
 > [!NOTE]
-> Only options 1 and 2 require that language packs be installed. But if you want to create variation sites in other languages, or enable the multilingual user interface on variation sites, you must also install language packs for option 3. For information about language packs, see [Install or uninstall language packs for SharePoint Server 2016](../install/install-or-uninstall-language-packs-0.md) or [Install or uninstall language packs for SharePoint 2013](../install/install-or-uninstall-language-packs.md). 
+> Only options 1 and 2 require that language packs be installed. But if you want to create variation sites in other languages, or enable the multilingual user interface on variation sites, you must also install language packs for option 3. For information about language packs, see [Install or uninstall language packs for SharePoint Servers 2016 and 2019](../install/install-or-uninstall-language-packs-0.md) or [Install or uninstall language packs for SharePoint 2013](../install/install-or-uninstall-language-packs.md). 
   
 For information about how to decide whether to use multilingual user interface features, the variations feature, or both, see [Introduction to multilingual features](https://go.microsoft.com/fwlink/p/?LinkId=307134).
   
@@ -72,7 +71,7 @@ If your organization supports users in different regions or users who speak diff
 - Decide whether you want to use the variations feature.
     
 > [!NOTE]
-> Although Office SharePoint Server 2007 and Windows SharePoint Services 3.0 supported internationalized domain names (IDNs), SharePoint 2013 and SharePoint Server 2016 don't. If you currently use IDNs with Office SharePoint Server 2007 or Windows SharePoint Services 3.0 and you plan to upgrade or migrate to either SharePoint 2013 or SharePoint Server 2016, you must stop using IDNs, delete any IDN settings, and set up a non-IDN environment before you upgrade or migrate to SharePoint Server 2016. 
+> Although Office SharePoint Server 2007 and Windows SharePoint Services 3.0 supported internationalized domain names (IDNs), SharePoint 2013, SharePoint Server 2016, and SharePoint Server 2019 don't. If you currently use IDNs with Office SharePoint Server 2007 or Windows SharePoint Services 3.0 and you plan to upgrade or migrate to either SharePoint 2013 or SharePoint Servers 2016 or 2019, you must stop using IDNs, delete any IDN settings, and set up a non-IDN environment before you upgrade or migrate to SharePoint Servers 2016 and 2019. 
   
 ## Determine language and locale requirements
 <a name="BKMK_langreq"> </a>
@@ -97,7 +96,7 @@ When you plan multilingual sites, you should also consider which locales are nec
 ## Determine language pack requirements
 <a name="BKMK_langpack"> </a>
 
-SharePoint language packs enable you to create site collections and sites in multiple languages without requiring separate installations of SharePoint Server. A farm administrator must install language packs on all web and application servers in the SharePoint farm before sites can be created in languages other than the default language. For more information, see [Install or uninstall language packs for SharePoint Server 2016](../install/install-or-uninstall-language-packs-0.md) or [Install or uninstall language packs for SharePoint 2013](../install/install-or-uninstall-language-packs.md). When you create a site collection or a site and select a language, the user interface text that appears on the site collection or site is shown in the selected language. For example, when you create a site in French, the toolbars, navigation bars, lists, and column headings for that site appear in French. Likewise, if you create a site in Arabic, the site administration pages and user interface, such as toolbars, navigation bars, lists, and column headings for that site, appear in Arabic, and the default left-to-right orientation of the site changes to a right-to-left orientation to correctly show Arabic text.
+SharePoint language packs enable you to create site collections and sites in multiple languages without requiring separate installations of SharePoint Server. A farm administrator must install language packs on all web and application servers in the SharePoint farm before sites can be created in languages other than the default language. For more information, see [Install or uninstall language packs for SharePoint Servers 2016 and 2019](../install/install-or-uninstall-language-packs-0.md) or [Install or uninstall language packs for SharePoint 2013](../install/install-or-uninstall-language-packs.md). When you create a site collection or a site and select a language, the user interface text that appears on the site collection or site is shown in the selected language. For example, when you create a site in French, the toolbars, navigation bars, lists, and column headings for that site appear in French. Likewise, if you create a site in Arabic, the site administration pages and user interface, such as toolbars, navigation bars, lists, and column headings for that site, appear in Arabic, and the default left-to-right orientation of the site changes to a right-to-left orientation to correctly show Arabic text.
   
 If your site will have users who can't work in the default language that you plan to use for the site, you should install language packs that will enable users to work in their preferred language by using the multilingual user interface. If you do not provide support for additional languages, users might find it difficult to use site features in their non-native language. Language packs provide language-specific translation of user interface elements such as the following:
   
@@ -123,7 +122,7 @@ The list of available languages that you can use to create a site collection or 
 > [!NOTE]
 > Every time that a language pack is installed, you must rerun the SharePoint Products Configuration Wizard, which stops and restarts Internet Information Services (IIS), the SharePoint Administration Service, and the SharePoint Timer Service. To minimize interruption of service to your users, you should plan to install all language packs before your sites go live. 
   
-Based on the language requirements of your site collections or sites, determine the language packs that must be installed on every web and application server. In your spreadsheet, for each site, record the list of language packs that you want to make available as alternative languages. For information about which language packs are available, see [Language Packs for SharePoint Server 2016](https://www.microsoft.com/en-us/download/details.aspx?id=51492) and [Language Packs for SharePoint Server 2013](https://www.microsoft.com/en-us/download/details.aspx?id=37140).
+Based on the language requirements of your site collections or sites, determine the language packs that must be installed on every web and application server. In your spreadsheet, for each site, record the list of language packs that you want to make available as alternative languages. For information about which language packs are available, see [Language Packs for SharePoint Server 2019](https://www.microsoft.com/en-us/download/details.aspx?id=57463), [Language Packs for SharePoint Server 2016](https://www.microsoft.com/en-us/download/details.aspx?id=51492) and [Language Packs for SharePoint Server 2013](https://www.microsoft.com/en-us/download/details.aspx?id=37140).
   
 The following table lists when language packs are or are not required:
   
@@ -144,7 +143,7 @@ In addition, some text might originate from the original installation language, 
 > [!NOTE]
 > Error logs that SharePoint Server stores on the server are always in English. 
   
-For information about how to install language packs, see [Install or uninstall language packs for SharePoint Server 2016](../install/install-or-uninstall-language-packs-0.md) and [Install or uninstall language packs for SharePoint 2013](../install/install-or-uninstall-language-packs.md).
+For information about how to install language packs, see [Install or uninstall language packs for SharePoint Servers 2016 and 2019](../install/install-or-uninstall-language-packs-0.md) and [Install or uninstall language packs for SharePoint 2013](../install/install-or-uninstall-language-packs.md).
   
 ## Decide whether to use site variations
 <a name="BKMK_variations"> </a>
