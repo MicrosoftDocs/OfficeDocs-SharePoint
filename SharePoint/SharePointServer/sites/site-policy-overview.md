@@ -3,7 +3,6 @@ title: "Overview of site policies in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 8/1/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -23,7 +22,7 @@ Even with good governance, SharePoint sites can multiply and quickly grow out of
   
 You can use site policies to help control site excess. A site policy defines the life-cycle of a site by specifying when the site will be closed and when it will be deleted. When you close or delete a site, any sub-sites are also closed or deleted. If an Exchange mailbox is associated with a site, the mailbox is deleted from Exchange Server when the site is deleted.
   
-When you close a site, you specify that the site is no longer used so that the site can eventually be deleted according to a schedule. A closed site does not appear in other places where sites are aggregated — for example, Outlook, Outlook on the web (formerly known asOutlook Web App), or Project Server — but users can still modify a closed site and its content by using the URL to reach the site.
+When you close a site, you specify that the site is no longer used so that the site can eventually be deleted according to a schedule. A closed site does not appear in other places where sites are aggregated — for example, Outlook, Outlook on the web (formerly known as Outlook Web App), or Project Server — but users can still modify a closed site and its content by using the URL to reach the site.
   
 ## SharePoint site policy options
 
@@ -47,6 +46,8 @@ A site policy specifies the conditions under which to close or delete a site aut
 - **Run a workflow to close the site, and delete the site automatically.** This option gives the same choices for how to delete the site automatically, and also requires you to specify a workflow to run. When the workflow finishes running, SharePoint Server 2016 closes the site. You specify the name of the workflow, how long after the site is created to run the workflow, and whether to rerun the workflow periodically until the site is closed. 
     
 A site policy can also specify that if it is applied to the root site in a site collection, when the root site is closed, the root site and all sub-sites become read-only.
+
+Site policies are also available in SharePoint Server 2019 modern Team and Communication sites. You must first activate the **Site Polcy** feature before it appears on the **Site Settings** page. 
   
 ## Defining SharePoint site policies
 
