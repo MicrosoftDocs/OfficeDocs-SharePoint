@@ -185,7 +185,7 @@ Help your users share, organize, and discover information with SharePoint.
                 <div class="card">
                     <div class="cardText">
                         <h3>Protect and manage</h3>
-                        <p><a href="/office365/securitycompliance/">Office 365 Security and Compliance</a></p><p><a href="/sharepoint/safeguarding-your-data">How SharePoint and OneDrive safeguard your data</a></p><p><a href="/sharepoint/get-started-new-admin-center">New SharePoint admin center</a></p><p><a href="/powershell/sharepoint/sharepoint-online/connect-sharepoint-online">SharePoint Online management shell </a></p>
+                        <p><a href="/office365/securitycompliance/">Office 365 Security and Compliance</a></p><p><a href="/sharepoint/safeguarding-your-data">How SharePoint and OneDrive safeguard your data</a></p><p><a href="/sharepoint/get-started-new-admin-center">New SharePoint admin center</a></p><p><a href="/powershell/sharepoint/sharepoint-online/connect-sharepoint-online">SharePoint Online management shell </a></p><p><a href="/office365/enterprise/network-planning-and-performance">Network planning and performance tuning</a></p>
                     </div>
                 </div>
             </div>
