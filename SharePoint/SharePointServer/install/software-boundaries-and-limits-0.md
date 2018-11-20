@@ -1,5 +1,5 @@
 ---
-title: "Software boundaries and limits for SharePoint Server 2016"
+title: "Software boundaries and limits for SharePoint Servers 2016 and 2019"
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
@@ -18,11 +18,11 @@ ms.assetid: 6a13cd9f-4b44-40d6-85aa-c70a8e5c34fe
 description: "Learn about the tested performance and capacity limits of SharePoint Server and how limits relate to acceptable performance."
 ---
 
-# Software boundaries and limits for SharePoint Server 2016
+# Software boundaries and limits for SharePoint Servers 2016 and 2019
 
-[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)]
   
-This article describes software boundaries and limits of SharePoint Server 2016. These include the following:
+This article describes software boundaries and limits of SharePoint Servers 2016 and 2019. These include the following:
   
 - **Boundaries:** Static limits that cannot be exceeded by design 
     
@@ -46,7 +46,7 @@ Note that there are many factors that can affect performance in a given environm
 ### Boundaries, thresholds and supported limits
 <a name="Boundaries"> </a>
 
-In SharePoint Server 2016, there are certain limits that are by design and cannot be exceeded, and other limits that are set to default values that may be changed by the farm administrator. There are also certain limits that are not represented by a configurable value, such as the number of site collections per web application.
+In SharePoint Server, there are certain limits that are by design and cannot be exceeded, and other limits that are set to default values that may be changed by the farm administrator. There are also certain limits that are not represented by a configurable value, such as the number of site collections per web application.
   
 - Boundaries are absolute limits that cannot be exceeded by design. It is important to understand these limits to ensure that you do not make incorrect assumptions when you design your farm.
     
@@ -69,7 +69,7 @@ Thresholds and supported limits guidelines are determined by performance. In oth
 ### How limits are established
 <a name="LimitsEstablished"> </a>
 
-In SharePoint Server 2016, thresholds and supported limits are established through testing and observation of farm behavior under increasing loads up to the point where farm services and operations reach their effective operational limits. Some farm services and components can support a higher load than others so that in some cases you must assign a limit value based on an average of several factors.
+In SharePoint Server, thresholds and supported limits are established through testing and observation of farm behavior under increasing loads up to the point where farm services and operations reach their effective operational limits. Some farm services and components can support a higher load than others so that in some cases you must assign a limit value based on an average of several factors.
   
 For example, observations of farm behavior under load when site collections are added indicate that certain features exhibit unacceptably high latency while other features are still operating within acceptable parameters. Therefore, the maximum value assigned to the number of site collections is not absolute, but is calculated based on an expected set of usage characteristics in which overall farm performance would be acceptable at the given limit under most circumstances.
   
