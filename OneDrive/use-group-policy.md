@@ -250,6 +250,8 @@ Enabling this policy sets the following registry key:
 [HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMOptInWithWizard"="1111-2222-3333-4444"
   
 (where "1111-2222-3333-4444" is the [tenant ID](find-your-office-365-tenant-id.md))
+
+[More info about known folder move](redirect-known-folders.md) 
   
 ### Silently move Windows known folders to OneDrive
 <a name="KFMOptInNoWizard"> </a>
@@ -274,6 +276,8 @@ Enabling this policy sets the following registry keys:
 [HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMSilentOptInWithNotification"
   
 Setting this value to 1 displays a notification after successful redirection.
+
+[More info about known folder move](redirect-known-folders.md) 
   
 ### Prevent users from redirecting their Windows known folders to their PC
 <a name="KFMBlockOptOut"> </a>
