@@ -137,7 +137,7 @@ Help your users share, organize, and discover information with SharePoint.
                 <div class="card">
                     <div class="cardText">
                         <h3>Share and work together</h3>
-                        <p><a href="/sharepoint/turn-external-sharing-on-or-off">Turn external sharing on or off </a></p><p><a href="https://support.office.com/article/7266f44e-3e06-4736-b9d3-0580c24bba34">Securely share files with customers </a></p><p><a href="/sharepoint/manage-site-creation">Manage site creation </a></p><p><a href="/MicrosoftTeams/sharepoint-onedrive-interact">How SharePoint interacts with Teams </a></p><p><a href="">Administer OneDrive</a></p>
+                        <p><a href="/sharepoint/turn-external-sharing-on-or-off">Turn external sharing on or off </a></p><p><a href="https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3">Small business: Create a company-wide team </a></p><p><a href="/sharepoint/manage-site-creation">Manage site creation </a></p><p><a href="/MicrosoftTeams/sharepoint-onedrive-interact">How SharePoint interacts with Teams </a></p><p><a href="">Administer OneDrive</a></p>
                     </div>
                 </div>
             </div>
@@ -185,7 +185,7 @@ Help your users share, organize, and discover information with SharePoint.
                 <div class="card">
                     <div class="cardText">
                         <h3>Protect and manage</h3>
-                        <p><a href="/office365/securitycompliance/">Office 365 Security and Compliance</a></p><p><a href="/sharepoint/safeguarding-your-data">How SharePoint and OneDrive safeguard your data</a></p><p><a href="/sharepoint/get-started-new-admin-center">New SharePoint admin center</a></p><p><a href="/powershell/sharepoint/sharepoint-online/connect-sharepoint-online">SharePoint Online management shell </a></p>
+                        <p><a href="/office365/securitycompliance/">Office 365 Security and Compliance</a></p><p><a href="/sharepoint/safeguarding-your-data">How SharePoint and OneDrive safeguard your data</a></p><p><a href="/sharepoint/get-started-new-admin-center">New SharePoint admin center</a></p><p><a href="/powershell/sharepoint/sharepoint-online/connect-sharepoint-online">SharePoint Online management shell </a></p><p><a href="/office365/enterprise/network-planning-and-performance">Network planning and performance tuning</a></p>
                     </div>
                 </div>
             </div>
