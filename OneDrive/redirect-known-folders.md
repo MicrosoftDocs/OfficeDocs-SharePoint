@@ -35,7 +35,7 @@ For these reasons, we recommend moving or redirecting known folders to OneDrive 
 To use the following Group Policy objects, you need the OneDrive sync build 18.111.0603.0004 or later. You can see your build number in the About tab in OneDrive settings. 
 
 > [!IMPORTANT]
-   > The OneDrive Known Folder Move Group Policy objects won't work if you previously used Windows Folder Redirection Group Policy objects to redirect the Documents, Pictures, or Desktop folders to a location other than OneDrive. Remove the Windows Group Policy objects for these folders before you enable the OneDrive Group Policy objects. The OneDrive Group Policy objects won't affect the Music and Videos folders, so you can keep them redirected with the Windows Group Policy objects. For info about Windows Folder Redirection, see [Deploy Folder Redirection with Offline Files](/windows-server/storage/folder-redirection/deploy-folder-redirection)<br>If your organization is large and your users have a lot of files in their known folders, make sure you roll out the Group Policy objects slowly to minimize the network impact of uploading files.     
+   > The OneDrive Known Folder Move Group Policy objects won't work if you previously used Windows Folder Redirection Group Policy objects to redirect the Documents, Pictures, or Desktop folders to a location other than OneDrive. Remove the Windows Group Policy objects for these folders before you enable the OneDrive Group Policy objects. The OneDrive Group Policy objects won't affect the Music and Videos folders, so you can keep them redirected with the Windows Group Policy objects. For info about Windows Folder Redirection, see [Deploy Folder Redirection with Offline Files](/windows-server/storage/folder-redirection/deploy-folder-redirection)<br><br>If your organization is large and your users have a lot of files in their known folders, make sure you roll out the Group Policy objects slowly to minimize the network impact of uploading files. <br><br>If users have locally created OneNote files in their known folders, known folder move will not complete. For guidance on moving OneNote notebooks, see [Move a OneNote notebook to OneDrive](https://support.office.com/article/0af0a141-0bdf-49ab-9e50-45dbcca44082).    
   
 - [Prompt users to move Windows known folders to OneDrive](use-group-policy.md#KFMOptInWithWizard)
     
@@ -48,18 +48,17 @@ To use the following Group Policy objects, you need the OneDrive sync build 18.1
     ![Screenshot of the notification that reminds users to protect their important folders](media/protect-important-folders-notification.png)
 
     If a user has already redirected their known folders to a different OneDrive account, they'll be prompted to direct the folders to the account for your organization (leaving existing files behind).
-    
-   > [!NOTE]
-   > Locally created OneNote files can't be moved to OneDrive using this policy. To learn how to move OneNote notebooks, see [Move a OneNote notebook to OneDrive](https://support.office.com/article/0af0a141-0bdf-49ab-9e50-45dbcca44082). 
-
   
 - [Silently move Windows known folders to OneDrive](use-group-policy.md#KFMOptInNoWizard)
     
-    Use this policy to redirect known folders to OneDrive without any user interaction on the devices it is deployed to. Before sync client build 18.171.0823.0001, this policy redirected only empty known folders to OneDrive. Now, it redirects known folders that contain content and moves the content to OneDrive. 
+    Use this policy to redirect known folders to OneDrive without any user interaction on the devices it is deployed to. Before sync client build 18.171.0823.0001, this policy redirected only empty known folders to OneDrive. Now, it redirects known folders that contain content and moves the content to OneDrive.
 
     > [!NOTE]
-    > You can choose to display a notification to users after their folders have been redirected. 
+    > You can choose to display a notification to users after their folders have been redirected.  
  
+    We recommend using "Prompt users to move Windows known folders to OneDrive" together with this policy. If moving the known folders silently does not succeed (for example, if a known folder contains a OneNote file, a file that's too big to upload, or a file with a invalid name), users will be prompted to correct the error and continue. 
+
+    ![Screenshot of prompting users after silent known folder move fails](media/failedKFM.png)
    
 - [Prevent users from redirecting their Windows known folders to their PC](use-group-policy.md#KFMBlockOptOut)
     

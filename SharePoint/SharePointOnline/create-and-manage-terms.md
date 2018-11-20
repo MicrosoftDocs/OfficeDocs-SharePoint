@@ -12,7 +12,7 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: 549070a7-41c2-4210-9e9c-5fad22bd8748
-description: "Learn how to use SharePoint's Term Store management tool to create and edit terms in a term store for managed metadata"
+description: "Learn to use the SharePoint Term Store management tool to create and edit terms in a term store for managed metadata"
 ---
 
 # Create and manage terms in a term set
