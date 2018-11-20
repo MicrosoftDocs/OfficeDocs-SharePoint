@@ -12,7 +12,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 8926030c-ace4-4e32-ada6-3333b56812c3
-description: "Learn how to use the Managed Solutions Gallery for code-based sandbox solutions in SharePoint Server.
+description: Learn how to use the Managed Solutions Gallery for code-based sandbox solutions in SharePoint Server.
 
 ---
 
