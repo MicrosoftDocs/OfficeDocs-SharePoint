@@ -1,7 +1,7 @@
 ---
 title: "Configure the crawler in case of SSL certificate warnings in SharePoint Server"
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: tlarsen
+author: tklarsen
 manager: pamgreen
 ms.date: 7/18/2017
 ms.audience: ITPro
