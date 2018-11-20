@@ -48,19 +48,17 @@ To use the following Group Policy objects, you need the OneDrive sync build 18.1
     ![Screenshot of the notification that reminds users to protect their important folders](media/protect-important-folders-notification.png)
 
     If a user has already redirected their known folders to a different OneDrive account, they'll be prompted to direct the folders to the account for your organization (leaving existing files behind).
-    
-
-
   
 - [Silently move Windows known folders to OneDrive](use-group-policy.md#KFMOptInNoWizard)
     
     Use this policy to redirect known folders to OneDrive without any user interaction on the devices it is deployed to. Before sync client build 18.171.0823.0001, this policy redirected only empty known folders to OneDrive. Now, it redirects known folders that contain content and moves the content to OneDrive.
 
+    > [!NOTE]
+    > You can choose to display a notification to users after their folders have been redirected.  
+ 
     We recommend using "Prompt users to move Windows known folders to OneDrive" together with this policy. If moving the known folders silently does not succeed (for example, if a known folder contains a OneNote file, a file that's too big to upload, or a file with a invalid name), users will be prompted to correct the error and continue. 
 
-    > [!NOTE]
-    > You can choose to display a notification to users after their folders have been redirected. <br>We recommend using this policy together with 
- 
+    ![Screenshot of prompting users after silent known folder move fails](media/failedKFM.png)
    
 - [Prevent users from redirecting their Windows known folders to their PC](use-group-policy.md#KFMBlockOptOut)
     
