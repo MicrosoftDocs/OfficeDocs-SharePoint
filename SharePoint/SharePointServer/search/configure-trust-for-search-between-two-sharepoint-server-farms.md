@@ -1,7 +1,7 @@
 ---
 title: "Configure trust for search between two SharePoint Server farms"
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: tlarsen
+author: tklarsen
 manager: pamgreen
 ms.date: 9/5/2017
 ms.audience: ITPro
