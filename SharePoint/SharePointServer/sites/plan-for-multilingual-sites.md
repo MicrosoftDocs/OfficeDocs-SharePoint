@@ -175,3 +175,10 @@ If you plan to translate content on your variations sites, you must decide wheth
   
 [Variations overview in SharePoint Server](../administration/variations-overview.md)
 
+#### Other Resources
+
+[Language Packs for SharePoint Server 2019](https://www.microsoft.com/en-us/download/details.aspx?id=57463)
+
+[Language Packs for SharePoint Server 2016](https://www.microsoft.com/en-us/download/details.aspx?id=51492)
+  
+[Language Packs for SharePoint Server 2013](https://www.microsoft.com/en-us/download/details.aspx?id=37140)
