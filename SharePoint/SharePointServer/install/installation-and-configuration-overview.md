@@ -12,7 +12,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 26de3fb0-c4d9-44b9-94ad-555d61ec0f92
-description: "Learn about how to install and configure SharePoint Server 2013 or SharePoint Foundation 2013 in a farm."
+description: "Learn about how to install and configure SharePoint Server 2013 in a farm."
 ---
 
 # Overview of SharePoint 2013 installation and configuration
