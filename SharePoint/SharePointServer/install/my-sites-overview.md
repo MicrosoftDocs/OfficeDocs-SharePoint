@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: f6663d4b-30e5-48d6-9bbc-aed8db1aae24
-description: "Summary: Learn about the benefits and uses of My Sites in SharePoint Server."
+description: "Learn about the benefits and uses of My Sites in SharePoint Server."
 ---
 
 # Overview of My Sites in SharePoint Server
 
- **Summary:** Learn about the benefits and uses of My Sites in SharePoint Server. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 This article provides an overview of My Sites end-user functionality and benefits for consideration by enterprise business decision makers or SharePoint administrators. It does not discuss the architecture of My Sites or information about planning and configuring My Sites.
   

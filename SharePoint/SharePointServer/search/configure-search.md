@@ -9,16 +9,16 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: a61b531f-218e-4edf-ab90-f2f30f490900
-description: "Summary:Learn how to configure enterprise search in a SharePoint Server environment."
+description: "Learn how to configure enterprise search in a SharePoint Server environment."
 ---
 
 # Configure enterprise search in SharePoint Server
 
- **Summary:** Learn how to configure enterprise search in a SharePoint Server environment.
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 Enterprise search finds the information that's most relevant to an organization's customers, employees, and partners. Enterprise search empowers them to take action and drive business outcomes.
 
-SharePoint Server 2019 Public Preview has both a classic and a modern search experience. Both search experiences use the same search index to find search results, and some settings can impact both experiences. [Learn about the differences between the search experiences in SharePoint Server](differences-search-2016-2019.md).
+SharePoint Server 2019 has both a classic and a modern search experience. Both search experiences use the same search index to find search results, and some settings can impact both experiences. [Learn about the differences between the search experiences in SharePoint Server](differences-search-2016-2019.md).
 
 
 

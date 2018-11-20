@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: e1c3fe21-9110-4861-9fc9-715745c9197a
-description: "Summary: Learn how to redesign enterprise search topology so you can scale search performance to meet specific performance requirements."
+description: "Learn how to redesign enterprise search topology so you can scale search performance to meet specific performance requirements."
 ---
 
 # Redesign enterprise search topology for specific performance requirements in SharePoint
 
- **Summary:** Learn how to redesign enterprise search topology so you can scale search performance to meet specific performance requirements. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 If your search environment has specific performance requirements that weren't met by following the guidance in [Plan enterprise search architecture in SharePoint Server 2016](plan-enterprise-search-architecture.md), then the solution is to scale the topology of your enterprise search architecture:
   

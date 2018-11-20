@@ -12,16 +12,16 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 63b9e454-f21e-4e0e-bc96-953c0a337c70
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleThe current server is running low on memoryfor SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: The current server is running low on memory, for SharePoint Server."
 ---
 
 # The current server is running low on memory (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "The current server is running low on memory" for SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
  **Rule Name:** The current server is running low on memory. 
   
- **Summary:** This rule only runs on servers that host the Distributed Cache service. The rule checks to see if the memory usage exceeds the allocated amount for a server that hosts the Distributed Cache service. If it finds the memory usage has exceeded the allocated amount then it triggers an alert. 
+ **Summary:** This rule only runs on servers that host the Distributed Cache service. The rule checks to see if the memory usage exceeds the predefined threshold on a server that hosts the Distributed Cache service. If it finds the total memory usage of the server is 85% or higher it then triggers an alert.
   
  **Cause:** SharePoint Server assigns 10 percent of the total physical memory on the server to the Distributed Cache service. The Distributed Cache service uses half of that memory for data storage and the other half for memory management overhead. When the cached data grows, the Distributed Cache service uses the entire 10 percent of the allocated memory. 
   
@@ -54,7 +54,7 @@ Use the following procedure to update the memory allocation accordingly.
   
   ```
 
-    Where  _ComputerName_ is the computer name of the server that you are running the SharePoint Management Shell cmdlet on. 
+Where  _ComputerName_ is the computer name of the server that you are running the SharePoint Management Shell cmdlet on. 
     
 2. To reconfigure the cache size of the Distributed Cache service, run the following command one time only on any cache host at the SharePoint Management Shell command prompt:
     
@@ -62,7 +62,7 @@ Use the following procedure to update the memory allocation accordingly.
   Update-SPDistributedCacheSize -CacheSizeInMB CacheSize
   ```
 
-    Where  _CacheSize_ is the cache size's memory allocation assignment in MB. In the previous example, the cache size was calculated at 7168 MB for a server with 16 GB of total memory. 
+Where  _CacheSize_ is the cache size's memory allocation assignment in MB. In the previous example, the cache size was calculated at 7168 MB for a server with 16 GB of total memory. 
     
 3. Restart the Distributed Cache service on all cache hosts. To restart the Distributed Cache service, go to **Services on Server** in Central Administration, and **Start** the Distributed Cache service on all cache hosts in the farm. 
     

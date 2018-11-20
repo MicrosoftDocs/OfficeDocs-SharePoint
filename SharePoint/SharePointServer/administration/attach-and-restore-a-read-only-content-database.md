@@ -3,7 +3,6 @@ title: "Attach and restore read-only content databases in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 2/21/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -12,12 +11,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 5417b04a-c7d9-4e9a-86fb-ee1d1c63508b
-description: "Summary: Learn how to attach and restore a read-only content database in SharePoint 2013 and SharePoint Server 2016."
+description: "Learn how to attach and restore a read-only content database in SharePoint Server."
 ---
 
 # Attach and restore read-only content databases in SharePoint Server
 
- **Summary:** Learn how to attach and restore a read-only content database in SharePoint 2013 and SharePoint Server 2016. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 You can attach and restore a read-only content database in SharePoint Server by using PowerShell.
   
@@ -42,13 +41,13 @@ You can use only PowerShell to attach and restore a read-only content database.
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
-    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
+     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
     > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
@@ -57,15 +56,15 @@ You can use only PowerShell to attach and restore a read-only content database.
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  Mount-SPContentDatabase -Name <DatabaseName> -WebApplication <WebApplicationID> [-Verbose]
-  ```
+   ```
+   Mount-SPContentDatabase -Name <DatabaseName> -WebApplication <WebApplicationID> [-Verbose]
+   ```
 
     Where:
     
-  -  _\<DatabaseName\>_ is name of the read-only database. 
+   -  _\<DatabaseName\>_ is name of the read-only database. 
     
-  -  _\<WebApplicationID\>_ is ID assigned to the read-only database. 
+   -  _\<WebApplicationID\>_ is ID assigned to the read-only database. 
     
     > [!NOTE]
     > Attaching a content database by using the  `Mount-SPContentDatabase` cmdlet differs from attaching a database in SQL Server by using SQL Server tools.  `Mount-SPContentDatabase` associates the content database with a Web application so that the contents can be read. 

@@ -12,10 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 86e0fc90-0ef8-4c22-9d3b-7af42bf882f1
-description: "Learn about how SharePoint 2016 Auditing generates reports for on-premises server users' file access logs for viewing in Office 365."
+description: "Learn about how SharePoint Auditing generates reports for on-premises server users' file access logs for viewing in Office 365."
 ---
 
 # Configure SharePoint Hybrid Auditing in SharePoint 2016 (Preview)
+
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]
 
 Learn about how SharePoint 2016 Auditing generates reports for on-premises server users' file access logs for viewing in Office 365.
   

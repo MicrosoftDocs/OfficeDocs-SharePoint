@@ -3,7 +3,6 @@ title: "Overview of sites and site collections in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -13,19 +12,21 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - SharePoint_Online
 ms.assetid: 462e12d6-1a5d-4b7c-a0d5-14c551262be1
-description: "Summary: Learn about site collections, sites, and site templates in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn about site collections, sites, and site templates in SharePoint Server."
 ---
 
 # Overview of sites and site collections in SharePoint Server
 
- **Summary:** Learn about site collections, sites, and site templates in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
-A site collection is made up of one top-level site and all sites below it. As shown in the following figure, it is the top level of organization in a SharePoint Server web application. The number of site collections you can have in a single web application depends on the capacity of your server infrastructure. For more information about SharePoint Server boundaries, see [Software boundaries and limits for SharePoint Server 2016](../install/software-boundaries-and-limits-0.md).
+A site collection is made up of one top-level site and all sites below it. As shown in the following figure, it is the top level of organization in a SharePoint Server web application. The number of site collections you can have in a single web application depends on the capacity of your server infrastructure. For more information about SharePoint Server boundaries, see [Software boundaries and limits for SharePoint Servers 2016 and 2019](../install/software-boundaries-and-limits-0.md).
   
 **Figure: Structure of a site collection in SharePoint Server 2016**
 
 ![Diagram of a site collection](../media/DiagramOfSiteCollection.gif)
   
+The SharePoint Server 2019 modern experience is similar to the experience in SharePoint Online. The main difference is Hub sites aren't available in SharePoint Server. We do recommend that you use the same process as in SharePOint Online, create site collections for each unit of work instead of creating subsites. This will make it easier when migrating your SharePoint farm to SharePoint Online.
+
 The following guidelines show the relationship between SharePoint Server sites and site collections, and content databases:
   
 - All content in a site collection must be stored in a single content database. You can't store a site collection's content across multiple content databases.
@@ -40,7 +41,7 @@ The following guidelines show the relationship between SharePoint Server sites a
 ## Overview of SharePoint site collections
 <a name="section1"> </a>
 
-You create a site collection to host sites that have something in common. For example, the sites might be in a common administrative boundary or share common branding. The site collection might be created to house all the sites and content for a business unit. Or, a single site collection might have become too large to manage, and it must be split into smaller ones. Lastly, some site collections are created exclusively to host specific SharePoint Server functionality, such as Enterprise Search Center or to host My Sites. Site collections are a way of organizing sites for a common purpose.
+You create a site collection to host sites that have something in common. For example, the sites might be in a common administrative boundary or share common branding. The site collection might be created to house all the sites and content for a business unit. Or, a single site collection might have become too large to manage, and it must be split into smaller ones. Lastly, some site collections are created exclusively to host specific SharePoint Server functionality, such as Enterprise Search Center or to host My Sites. Site collections are a way of organizing sites for a common purpose. We recommend ahat you create site collections for each unit of work instead of creating subsites.
   
 SharePoint Server supports two types of site collections: host-named site collections and path-based site collections. In a path-based site collection, all the subsites in the site collection will share a root or parent URL (DNS name). For example, Team A could have a site collection at http<!-- nolink -->://contoso.com/sites/teamA, and Team B would have a site collection at http<!-- nolink -->://contoso/sites/teamB. All sites in either site collection would have the http<!-- nolink -->://contoso.com/sites/teamA or /teamB root. The only way to have a different URL root is to create a different web application.
   
@@ -51,20 +52,22 @@ Because site collections and sites exist in a parent-child relationship, there a
 - For site designers, a site collection's galleries and libraries (such as the Master Page Gallery or the Site Collection Images library) provide a means for creating a unified, branded user experience across all sites in the site collection.
     
 - For site collection administrators, a site collection provides a unified mechanism and scope for administration. For example, security, policies, and features can be managed for a whole site collection; Site Collection Web Analytics Reports, audit log reports, and other data can help administrators track site collection security and performance.
+
+  SharePoint Server 2019 offers the choice to create modern Team and Communication sites like in SharePoint Online, or keep the classic experience. Using the modern experience site collections in in line with our recommendation to create site collections for each unit of work to make it easier when you decide to migrate to SharePoint Online.     
     
 - For farm administrators, site collections can be moved between content databases. By doing this, farm administrators can manage the size of their content databases.
     
-- For site authors, shared site columns, content types, Web Parts, authoring resources, workflows, and other site collection features provide a consistent authoring environment.
+- For site authors, shared site columns, content types, web parts, authoring resources, workflows, and other site collection features provide a consistent authoring environment.
     
 - For site users, a site collection's unified navigation, branding, and search tools provide a unified website experience.
     
-Every site collection starts as a single, top-level site. Because it is a site, its structure and functionality is based on a site template. SharePoint Server provides many site templates, plus you can also create and use your own as needed. The following tables describe the site collection templates that are available in SharePoint Server 2016.
+Every site collection starts as a single, top-level site. Because it is a site, its structure and functionality is based on a site template. SharePoint Server provides many site templates, plus you can also create and use your own as needed. The following tables describe the site collection templates that are available in SharePoint Servers 2016 and 2019.
   
-**Table: Site templates in SharePoint Server 2016**
+**Table: Site templates in SharePoint Servers 2016 and 2019**
 
 |**Type**|**Name**|**Description**|**Availability**|
 |:-----|:-----|:-----|:-----|
-|**Collaboration** <br/> |Team Site  <br/> |A place to work together with a group of people.  <br/> |Site collection and site  <br/> |
+|**Collaboration** <br/> |Team Site  <br/> |A place to work together with a group of people.  <br/> **SharePoint Server 2019** offers a modern or classic team site.  <br/> |Site collection and site  <br/> |
 |**Collaboration** <br/> |Blog  <br/> |A site for a person or team to post ideas, observations, and expertise that site visitors can comment on.  <br/> |Site collection and site  <br/> |
 |**Collaboration** <br/> |Developer Site  <br/> |A site for developers to build, test, and publish apps for Office.  <br/> |Site collection only  <br/> |
 |**Collaboration** <br/> |Project Site  <br/> |A site for managing and collaborating on a project. This site template brings all status, communication, and artifacts relevant to the project into one place.  <br/> |Site collection and site  <br/> |
@@ -83,6 +86,7 @@ Every site collection starts as a single, top-level site. Because it is a site, 
 |**Publishing** <br/> |Publishing Portal  <br/> |A starter hierarchy for an Internet-facing site or a large intranet portal. This site can be customized easily with distinctive branding. Typically, this site has many more readers than contributors and it is used to publish web pages with approval workflows.  <br/> |Site collection only  <br/> |
 |**Publishing** <br/> |Enterprise Wiki  <br/> |A site for publishing knowledge that you capture and want to share across the enterprise.  <br/> |Site collection and site  <br/> |
 |**Publishing** <br/> |Product Catalog  <br/> |A site for managing product catalog data that can be published to an Internet-facing site through search.  <br/> |Site collection only  <br/> |
+|**Publishing** <br/> |Communication Site  <br/> |Available in SharePoint Server 2019 only as a modern experience. A site for publishing dynamic, modern content to people in your organization to keep them informed and engaged on topics, events, or projects.  <br/> |Site collection only  <br/> |
 |**Custom** <br/> |\<Select template later…\>  <br/> |Create an empty site and pick a template for the site at a later time.  <br/> |Site collection only  <br/> |
    
 The following table describes the 2013 experience version site templates that are available in SharePoint 2013.

@@ -12,12 +12,11 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 28b06934-933b-4899-a7a6-707eb0516552
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleThe Visio Graphics Service has a maximum cache age setting that will adversely impact performancefor SharePoint Server 2016 and SharePoint Server 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: The Visio Graphics Service has a maximum cache age setting that will adversely impact performance, for SharePoint Server."
 ---
 
 # The Visio Graphics Service has a maximum cache age setting that will adversely impact performance (SharePoint Server)
-
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "The Visio Graphics Service has a maximum cache age setting that will adversely impact performance" for SharePoint Server 2016 and SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
  **Rule Name:** The Visio Graphics Service has a maximum cache age setting that will adversely impact performance 
   

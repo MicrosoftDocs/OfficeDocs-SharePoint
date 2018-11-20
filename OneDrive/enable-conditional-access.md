@@ -21,11 +21,11 @@ Conditional access control capabilities in Azure Active Directory offer simple w
   
 For information about how conditional access works, see:
   
-- [Azure Active Directory conditional access](https://go.microsoft.com/fwlink/?LinkId=823173)
+- [Azure Active Directory conditional access](/azure/active-directory/conditional-access/)
     
-- [How to set Azure Active Directory device-based conditional access policy for access control to Azure Active Directory connected applications](https://docs.microsoft.com/en-us/active-directory/active-directory-conditional-access-policy-connected-applications)
+- [Require managed devices for cloud app access with conditional access](/azure/active-directory/conditional-access/require-managed-devices)
     
-- [How to set up automatic registration of Windows domain-joined devices with Azure Active Directory](https://go.microsoft.com/fwlink/?LinkId=823174)
+- [Configure hybrid Azure Active Directory join for managed domains](/azure/active-directory/devices/hybrid-azuread-join-managed-domains)
     
 ## Getting started
 

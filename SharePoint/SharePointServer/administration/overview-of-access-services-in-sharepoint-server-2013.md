@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 55f2a3c6-34f5-4131-9968-7f7b682144dd
-description: "Summary: Learn how to use Access Services in SharePoint Server 2013 to share solutions on the web."
+description: "Learn how to use Access Services in SharePoint Server to share solutions on the web."
 ---
 
 # Overview of Access Services in SharePoint Server 2013
 
- **Summary:** Learn how to use Access Services in SharePoint Server 2013 to share solutions on the web. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
   
 Access Services in SharePoint Server 2013 are service applications that enable you to share two types of Access 2013 solutions on the web.
   

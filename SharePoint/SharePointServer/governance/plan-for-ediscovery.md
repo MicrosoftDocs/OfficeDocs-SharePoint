@@ -3,21 +3,20 @@ title: "Plan for eDiscovery in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 9/7/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 1350e659-04ba-423e-a1b3-c41563073473
-description: "Summary: Prepare to implement eDiscovery across SharePoint Server 2016 or SharePoint Server 2013, Exchange Server, and Skype for Business. Determine permissions to grant and how many eDiscovery Centers to create."
+description: "Prepare to implement eDiscovery across SharePoint Server, Exchange Server, and Skype for Business. Determine permissions to grant and how many eDiscovery Centers to create."
 ---
 
 # Plan for eDiscovery in SharePoint Server
 
- **Summary:** Prepare to implement eDiscovery across SharePoint Server 2016 or SharePoint Server 2013, Exchange Server, and Skype for Business. Determine permissions to grant and how many eDiscovery Centers to create. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
-There are several factors to consider before you implement eDiscovery. First, determine how many eDiscovery Centers you need and where to put the eDiscovery Centers. Then identify the locations that contain content that can be discovered. Finally, consider the permissions that you have to grant to eDiscovery users. The decisions that you make when you plan for eDiscovery might affect other systems that your organization uses, such as Exchange Server 2016 or Exchange Server 2013. Accordingly, you might have to coordinate with the people who manage those systems when you create and implement your plan.
+There are several factors to consider before you implement eDiscovery. First, determine how many eDiscovery Centers you need and where to put the eDiscovery Centers. Then identify the locations that contain content that can be discovered. Finally, consider the permissions that you have to grant to eDiscovery users. The decisions that you make when you plan for eDiscovery might affect other systems that your organization uses, such as Exchange Servers 2019, 2016, or 2013. Accordingly, you might have to coordinate with the people who manage those systems when you create and implement your plan.
   
 To implement your plan, follow the instructions in the article [Configure eDiscovery in SharePoint Server](configure-ediscovery-0.md). The decisions that you make during planning determine which tasks to do.
   
@@ -58,7 +57,10 @@ To be discoverable, content on file shares, in SharePoint sites, or on other web
   
 List all the locations that contain content that must be discoverable. If you have more than one eDiscovery Center, indicate which Search service application will crawl each content source.
   
-If you want to manage the discovery of Exchange Server 2016 or Exchange Server 2013 content from a SharePoint Server eDiscovery Center, you must configure a Search service application to include Exchange Server 2016 or Exchange Server 2013 as a result source. If you want to manage the discovery of Skype for Business Server 2015 content from a SharePoint Server eDiscovery Center, you must configure Skype for Business Server 2015 to archive content to either Exchange Server 2016 or Exchange Server 2013.
+If you want to manage the discovery of Exchange Servers 2019, 2016, or 2013 content from a SharePoint Server eDiscovery Center, you must configure a Search service application to include Exchange Server 2019, 2016, or 2013 as a result source. If you want to manage the discovery of Skype for Business Server 2015 content from a SharePoint Server eDiscovery Center, you must configure Skype for Business Server 2015 to archive content to either Exchange Server 2019, 2016 or 2013.
+
+> [!NOTE]
+> SharePoint Server 2019 with Exchange 2019, enables Outlook on the web users to link to and share documents that are stored in OneDrive for Business instead of attaching files to messages. Users in SharePOint Server 2019 can collaborate on files the same way as in Office 365. You'll need to run Office Online Server in your environment to do this. For more information, see the [Document collaboration](https://docs.microsoft.com/en-us/Exchange/new-features/new-features?view=exchserver-2019#document-collaboration) section in **What's new in Exchange Server**.
   
 > [!NOTE]
 > To manage discovery of Exchange content through SharePoint Server 2013, you must be using Exchange Server 2013. To manage discovery of Lync content through SharePoint, you must be using both Lync Server 2013 and Exchange Server 2013. 
@@ -92,3 +94,4 @@ Generally, when you export content for eDiscovery, you will also want to export 
   
 [Configure eDiscovery in SharePoint Server](configure-ediscovery-0.md)
 
+[Search and place a hold on public folders using In-Place eDicovery](https://docs.microsoft.com/en-us/Exchange/policy-and-compliance/ediscovery/search-public-folders?view=exchserver-2019)

@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 0f95a1e6-7044-487e-8681-b1d717caabb3
-description: "Learn how to add a managed path for a web application in SharePoint Server 2013 and SharePoint Server 2016."
+description: "Learn how to add a managed path for a web application in SharePoint Server."
 ---
 
 # Define managed paths in SharePoint Server
 
- **Summary:** Learn how to add a managed path for a web application in SharePoint Server 2013 and SharePoint Server 2016. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 You can specify the paths in the URL namespace of a web application to use for site collections. This is known as a managed path. You can specify that one or more site collections exist at a specified path.
   

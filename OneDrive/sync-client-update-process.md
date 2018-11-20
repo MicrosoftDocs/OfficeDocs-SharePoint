@@ -3,7 +3,6 @@ title: "The OneDrive sync client update process"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 04/9/2018
 ms.audience: Admin
 ms.topic: reference
 ms.service: one-drive
@@ -39,7 +38,7 @@ However, as the slowest ring, the Enterprise ring receives performance improveme
 > [!NOTE]
 > Microsoft reserves the right to bypass the 60-day grace period for critical updates. 
   
-To learn how to set the Enterprise ring for the Windows sync client using Group Policy, see [Delay updating OneDrive.exe until the second release wave](use-group-policy.md#EnableEnterpriseUpdate). To learn how to set it for the Mac sync client, see [Configure the new OneDrive sync client on macOS](deploy-and-configure-on-macos.md). For info about the Office 365 update process, see [Overview of update channels for Office 365 ProPlus](https://support.office.com/article/9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4). For info about the Windows 10 update process, see [Build deployment rings for Windows 10 updates](https://go.microsoft.com/fwlink/?linkid=860294).
+To learn how to set the Enterprise ring for the Windows sync client using Group Policy, see [Delay updating OneDrive.exe until the second release wave](use-group-policy.md#EnableEnterpriseUpdate). To learn how to set it for the Mac sync client, see [Configure the new OneDrive sync client on macOS](deploy-and-configure-on-macos.md). For info about the Office 365 update process, see [Overview of update channels for Office 365 ProPlus](/DeployOffice/overview-of-update-channels-for-office-365-proplus). For info about the Windows 10 update process, see [Build deployment rings for Windows 10 updates](/windows/deployment/update/waas-deployment-rings-windows-10-updates).
   
 ## How the sync client checks for and applies updates
 
@@ -56,9 +55,11 @@ If both of these are true, OneDrive downloads the update to a hidden folder with
 For info about the latest releases, see [New OneDrive sync client release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0).
 
 > [!NOTE]
-> To apply sync client updates, computers in your organization must be able to reach the URL "oneclient.sfx.ms." Make sure you don't block this URL. [More info about the URLs and IP address ranges used in Office 365](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2.) 
+> To apply sync client updates, computers in your organization must be able to reach the following: "oneclient.sfx.ms" and "g.live.com." Make sure you don't block these URLs. They are also used to enable and disable features and apply bug fixes. [More info about the URLs and IP address ranges used in Office 365](/office365/enterprise/urls-and-ip-address-ranges). 
   
 ## Deploying updates in the Enterprise ring
+
+At any given time, the next planned Enterprise ring release is published on the [OneDrive sync client release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0) page with a link to the corresponding installer and the target date when that version will be released. On the specified date, the "Rolling out" version for the Enterprise ring becomes the new minimum. All sync clients below that version will automatically download the installer from the Internet and update themselves. 
 
 To deploy an updated version of the sync client for Windows, run the following command using System Center Configuration Manager:
   
@@ -66,10 +67,9 @@ To deploy an updated version of the sync client for Windows, run the following c
 Execute <pathToExecutable>\OneDriveSetup.exe /update /restart
 ```
 
-Where pathToExecutable is a location on the local computer or an accessible network share and OneDriveSetup.exe is the version to which you want to update all computers. Running this command restarts OneDrive.exe on all computers. If you don't want to restart the sync client, remove the /restart parameter. 
+Where pathToExecutable is a location on the local computer or an accessible network share and OneDriveSetup.exe is the target version downloaded from the release notes page. Running this command restarts OneDrive.exe on all computers. If you don't want to restart the sync client, remove the /restart parameter. See [Deploy using SCCM](deploy-on-windows.md) for tips on how to set up the SCCM deployment package.
+
+To deploy an updated version of the sync client for Mac, deploy the OneDrive.pkg with the target version by using your MDM solution.
   
-To deploy an updated version of the sync client for Mac, deploy the OneDrive.pkg with the target version with your MDM solution.
-  
-60 days after updates are available in the Enterprise ring, they become the new minimum version and all sync clients that are below that version will update automatically. We recommend that you use the latest available version to evaluate updates and deploy new versions before they become the new minimum.
   
 

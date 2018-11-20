@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 86bb109d-865f-4f86-bb3d-87ecfc4e50ae
-description: "Summary: Learn how to prepare and move site collections between databases in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to prepare and move site collections between databases in SharePoint Server."
 ---
 
 # Move site collections between databases in SharePoint Server
 
- **Summary:** Learn how to prepare and move site collections between databases in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 Under some circumstances, you might want to move one or more site collections to a different content database. For example, a site collection can outgrow the content database on which it resides, and you would have to move the site collection to a larger content database. In SharePoint Server, you should view this procedure as moving the site collection to a larger database.
   

@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 5f261023-4eae-4b93-a144-4d759683d465
-description: "Summary: Learn how to configure SharePoint 2013 and SharePoint Server 2016 to support user authentication using a client certificate."
+description: "Learn how to configure SharePoint Server to support user authentication using a client certificate."
 ---
 
 # Configure client certificate authentication for SharePoint Server
 
- **Summary:** Learn how to configure SharePoint 2013 and SharePoint Server 2016 to support user authentication using a client certificate. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 Client certificate authentication enables web-based clients to establish their identity to a server by using a digital certificate, which provides additional security for user authentication. SharePoint Server does not provide built-in support for client certificate authentication, but client certificate authentication is available through Security Assertion Markup Language (SAML)-based claims authentication. You can use Active Directory Federation Services (AD FS) 2.0 as your security token service (STS) for SAML claims or any third-party identity management system that supports standard security protocols such as WS-Trust, WS-Federation, SAML 1.1, and SAML 2.0.
   

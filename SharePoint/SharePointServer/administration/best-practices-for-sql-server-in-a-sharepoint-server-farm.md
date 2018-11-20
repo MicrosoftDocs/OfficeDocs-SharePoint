@@ -3,7 +3,6 @@ title: "Best practices for SQL Server in a SharePoint Server farm"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 3/9/2018
 ms.audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
@@ -12,12 +11,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: d1c43543-2363-4762-882f-13f06295d0d5
-description: "Summary: Learn how to implement best practices for SQL Server in a SharePoint Server 2016 and SharePoint Server 2013 farm."
+description: "Learn how to implement best practices for SQL Server in a SharePoint Server farm."
 ---
 
 # Best practices for SQL Server in a SharePoint Server farm
 
- **Summary:** Learn how to implement best practices for SQL Server in a SharePoint Server 2016 and SharePoint Server 2013 farm. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 When you configure and maintain SharePoint Server 2016 relational databases on SQL Server 2014 with Service Pack 1 (SP1) or SQL Server 2016, you have to choose options that promote performance and security. Likewise, you have to choose options that promote performance and security when you configure and maintain SharePoint Server 2013 relational databases on SQL Server 2008 R2 with Service Pack 1 (SP1), SQL Server 2012, and SQL Server 2014.
   
@@ -45,8 +44,16 @@ To ensure optimal performance for farm operations, we recommend that you install
 
 To ensure consistent behavior and performance, configure the following options and settings before you deploy SharePoint Server. 
   
-- Do not enable auto-create statistics on SharePoint content databases. Enabling auto-create statistics is not supported for SharePoint Server. SharePoint Server configures the required settings during provisioning and upgrade. Manually enabling auto-create statistics on a SharePoint database can significantly change the execution plan of a query. The SharePoint databases either use a stored procedure that maintains the statistics (proc_UpdateStatistics) or rely on SQL Server to do this. 
-    
+- Do not enable auto-create statistics on SharePoint content databases. Enabling auto-create statistics is not supported for SharePoint Server. SharePoint Server configures the required settings during provisioning and upgrade. Manually enabling auto-create statistics on a SharePoint database can significantly change the execution plan of a query. The SharePoint databases either use a stored procedure that maintains the statistics (proc_UpdateStatistics) or rely on SQL Server to do this.
+
+- For SharePoint Server 2013, Maintenance Plans are managed by SharePoint:
+	- SQL statistics are managed by the health rule “Databases used by SharePoint have outdated index statistics” that calls proc_updatestatics   
+	- Content databases have the Auto Update Statistics property set to **False**  
+	
+- For SharePoint Server 2016, SQL administrator must create [Maintenance Plans](https://docs.microsoft.com/en-us/sql/relational-databases/maintenance-plans/maintenance-plans?view=sql-server-2017) for SharePoint content databases:
+	- SQL statistics are not managed by the health rule “Databases used by SharePoint have outdated index statistics”   
+	- Content databases have the Auto Update Statistics property set to **True** `
+
 - Set max degree of parallelism (MAXDOP) to 1 for instances of SQL Server that host SharePoint databases to make sure that a single SQL Server process serves each request. 
     
     > [!IMPORTANT]

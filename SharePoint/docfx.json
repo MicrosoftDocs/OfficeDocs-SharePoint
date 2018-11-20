@@ -69,9 +69,13 @@
     "externalReference": [],
     "markdownEngineName": "markdig",    
     "globalMetadata": {
-      "uhfHeaderId": "MSDocsHeader-Dev_SharePoint",
       "breadcrumb_path": "/sharepoint/breadcrumb/toc.json",
       "extendBreadcrumb": "true",
+      "contributors_to_exclude": [
+        "dstrome",
+        "daswifty",
+        "IrenePasternack"
+      ],
       "searchScope": ["SharePoint Server"],
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/OfficeDocs-SharePoint",
@@ -83,7 +87,6 @@
         "searchScope": { 
             "SharePointOnline/*.md": ["SharePoint Online"] }},
     "template": [],
-    "dest": "OfficeDocs-SharePoint",
-    "markdownEngineName": "markdig"    
+    "dest": "OfficeDocs-SharePoint"
   }
 }

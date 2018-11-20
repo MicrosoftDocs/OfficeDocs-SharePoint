@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: cdd1d3d6-034e-458f-9324-c51d90fa9273
 
-description: "Summary: Excel 2013 offers a wide range of business intelligence capabilities. Learn which capabilities are supported in Excel Services (on premises)."
+description: "Excel 2013 offers a wide range of business intelligence capabilities. Learn which capabilities are supported in Excel Services (on premises)."
 ---
 
 # Business intelligence capabilities in Excel Service (SharePoint Server 2013)
 
- **Summary:** Excel 2013 offers a wide range of business intelligence capabilities. Learn which capabilities are supported in Excel Services (on premises). 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 Excel offers certain business intelligence capabilities that make it easier than ever to explore and analyze data. Many of these features are supported by Excel Services. Read this article to learn about which capabilities in Excel are supported in SharePoint Server 2013 and Office Web Apps Server. 
   

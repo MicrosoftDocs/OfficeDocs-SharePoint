@@ -9,12 +9,12 @@ ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: d7abd498-7bc4-44fe-a086-d9b1c5a340d2
-description: "Summary: Learn how to plan document library use, access, and workflow in SharePoint Server."
+description: "Learn how to plan document library use, access, and workflow in SharePoint Server."
 ---
 
 # Plan document libraries in SharePoint Server
 
- **Summary:** Learn how to plan document library use, access, and workflow in SharePoint Server. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 This article describes how to plan document libraries in your SharePoint Server document management solution.
   

@@ -1,5 +1,5 @@
 ---
-title: "Configure self-service site creation in SharePoint Server 2019 Public Preview home page"
+title: "Configure self-service site creation in SharePoint Server 2019 home page"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
@@ -11,16 +11,16 @@ localization_priority: Normal
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-description: "Summary: Learn how to configure self-service site creation in different web applications and remote server farms in SharePoint Server 2019 Public Preview."
+description: "Learn how to configure self-service site creation in different web applications and remote server farms in SharePoint Server."
 ---
 
-# Configure self-service site creation in SharePoint Server 2019 Public Preview
+# Configure self-service site creation in SharePoint Server 2019
 
-**Summary:** Learn how to configure self-service site creation in different web applications and remote server farms in SharePoint Server 2019 Public Preview.
+[!INCLUDE[appliesto-xxx-xxx-2019-xxx-md](../includes/appliesto-xxx-xxx-2019-xxx-md.md)]
 
 The self-service site creation experience in SharePoint supports creating new sites in a different web application, regardless of whether the web application is hosted on the local farm or a remote farm. This gives greater flexibility and control in managing SharePoint farms.
 
-Self-service site creation updates for SharePoint Server 2019 Public Preview offers the following:
+Self-service site creation updates for SharePoint Server 2019 offers the following:
 
 - The ability to create sites in other web applications and in web applications hosted in remote SharePoint farms.
  
@@ -48,7 +48,7 @@ SharePoint Farm Administrators control self-service site creation in different w
 > When you enable self-service site creation, a link to create a site is added to the SharePoint home page.
 
 > [!NOTE]
-> When configuring self-service site creation on remote farms, both farms must be running SharePoint Server 2019 Public Preview. We don’t support self-service site creation in remote farms if the remote farms are running an older version of SharePoint.
+> When configuring self-service site creation on remote farms, both farms must be running SharePoint Server 2019. We don’t support self-service site creation in remote farms if the remote farms are running an older version of SharePoint.
 
 ### To create sites in a different web application or a remote farm
 

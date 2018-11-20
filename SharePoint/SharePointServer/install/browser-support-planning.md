@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: e09599f5-f900-48b3-9680-af1f1de3f65a
-description: "Summary: Learn about how SharePoint 2013 supports Internet Explorer, Google Chrome, Mozilla Firefox, and Apple Safari."
+description: "Learn about how SharePoint supports Internet Explorer, Google Chrome, Mozilla Firefox, and Apple Safari."
 ---
 
 # Plan browser support in SharePoint 2013
 
- **Summary:** Learn about how SharePoint 2013 supports Internet Explorer, Google Chrome, Mozilla Firefox, and Apple Safari. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]. 
   
 SharePoint 2013 supports several commonly used web browsers, such as ![Internet Explorer browser logo](../media/internetexplorersmall.png) Internet Explorer, ![Google Chrome browser logo](../media/chrome-small.jpg) Google Chrome, ![Mozilla Firefox browser logo](../media/firefox_small.png) Mozilla Firefox, and ![Apple Safari browser logo](../media/safari-small.png) Apple Safari. However, certain web browsers could cause some SharePoint 2013 functionality to be downgraded, limited, or available only through alternative steps. 
   

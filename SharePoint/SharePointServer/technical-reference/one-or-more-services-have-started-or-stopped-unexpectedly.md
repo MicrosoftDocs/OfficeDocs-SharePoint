@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: f91de311-e531-4a15-bcc4-b4af01774e0b
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleOne or more services have started or stopped unexpectedlyfor SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rul: eOne or more services have started or stopped unexpectedly, for SharePoint Server."
 ---
 
 # One or more services have started or stopped unexpectedly (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "One or more services have started or stopped unexpectedly" for SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
  **Rule Name:** One or more services have started or stopped unexpectedly. 
   

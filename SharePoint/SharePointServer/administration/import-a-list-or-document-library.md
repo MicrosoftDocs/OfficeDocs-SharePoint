@@ -3,7 +3,6 @@ title: "Import a list or document library in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 9/14/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -12,12 +11,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: b3cb17a1-939c-4314-9f83-3c6b8a309bba
-description: "Summary: Learn how to import a site, list, or document library in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to import a site, list, or document library in SharePoint Server."
 ---
 
 # Import a list or document library in SharePoint Server
 
- **Summary:** Learn how to import a site, list, or document library in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 You can import a site, list, or document library in SharePoint Server by using PowerShell.
   
@@ -42,13 +41,13 @@ You can use PowerShell to manually import a site, list, or document library or a
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
-    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
+     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
     > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
@@ -57,15 +56,15 @@ You can use PowerShell to manually import a site, list, or document library or a
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  Import-SPWeb -Identity  <SiteURL>  -Path <ImportFileName>  [-Force] [-NoFileCompression] [-Verbose]
-  ```
+   ```
+   Import-SPWeb -Identity  <SiteURL>  -Path <ImportFileName>  [-Force] [-NoFileCompression] [-Verbose]
+   ```
 
     Where:
     
-  -  _\<SiteURL\>_ is the URL for the site that you are importing to. 
+   -  _\<SiteURL\>_ is the URL for the site that you are importing to. 
     
-  -  _\<ImportFileName\>_ is the name of the file that you are exporting from. 
+   -  _\<ImportFileName\>_ is the name of the file that you are exporting from. 
     
     > [!IMPORTANT]
     > The site or subsite that you are importing must have a template that matches the template of the site specified by  `Identity`. 
@@ -77,7 +76,7 @@ You can use PowerShell to manually import a site, list, or document library or a
     > [!NOTE]
     > There is no facility in the  `Import-SPWeb` cmdlet to import a subset of the items within the export file. Therefore, the import operation will import everything from the file. 
   
-For more information, see [Import-SPWeb](http://technet.microsoft.com/library/2ecc5b6e-1b23-4367-a966-b7bd3377db3a.aspx).
+For more information, see [Import-SPWeb](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Import-SPWeb?view=sharepoint-ps).
   
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 

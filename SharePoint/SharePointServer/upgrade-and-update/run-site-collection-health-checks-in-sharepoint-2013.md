@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 08cc3107-38fb-44d1-b8aa-0c700ee58af5
-description: "Summary: Run the site collection health checks on each site to find issues before you upgrade to SharePoint 2013."
+description: "Run the site collection health checks on each site to find issues before you upgrade to SharePoint."
 ---
 
 # Run site collection health checks in SharePoint 2013
 
- **Summary:** Run the site collection health checks on each site to find issues before you upgrade to SharePoint 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
   
 SharePoint 2013 includes a set of rules that you can run against a site collection to verify that it is working as expected. These rules are part of the site collection health checks. You can run the health checks from the Site Settings page or by using Microsoft PowerShell. 
   

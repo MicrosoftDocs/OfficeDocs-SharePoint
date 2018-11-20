@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 5d1e3bb7-35e5-4756-b93c-f0a86c2bc244
-description: "Summary: Learn how to use Microsoft PowerShell scripts and Profile files to automatically back up, restore, or change monitoring settings in a SharePoint Server 2016 and SharePoint 2013 environment."
+description: "Learn how to use Microsoft PowerShell scripts and Profile files to automatically back up, restore, or change monitoring settings in a SharePoint Server nvironment."
 ---
 
 # Run scripted monitoring configuration in SharePoint Server
 
- **Summary:** Learn how to use Microsoft PowerShell scripts and Profile files to automatically back up, restore, or change monitoring settings in a SharePoint Server 2016 and SharePoint 2013 environment. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 Scripted monitoring configuration uses PowerShell scripts and XML files, which are known as **Profiles**, to back up, restore, or configure monitoring settings in the SharePoint Server 2016 environment. For more conceptual information about scripted monitoring configuration, see [Overview of scripted monitoring configuration in SharePoint Server](overview-of-scripted-monitoring-configuration.md).
   

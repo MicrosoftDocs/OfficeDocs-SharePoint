@@ -15,12 +15,12 @@ ms.collection:
 localization_priority: Priority
 ms.custom: 
 ms.assetid: 405d8d1a-2952-4f51-9527-c2c305b76a29
-description: "Summary: Learn how to configure hybrid Business Connectivity Services between SharePoint Server and SharePoint Online."
+description: "Learn how to configure hybrid Business Connectivity Services between SharePoint Server and SharePoint Online."
 ---
 
 # Configure hybrid Business Connectivity Services - roadmap
 
- **Summary:** Learn how to configure hybrid Business Connectivity Services between SharePoint Server and SharePoint Online. 
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)] 
   
 This article provides the roadmap for configuring hybrid Microsoft Business Connectivity Services between SharePoint Online in Office 365 for enterprises and SharePoint Server.
   

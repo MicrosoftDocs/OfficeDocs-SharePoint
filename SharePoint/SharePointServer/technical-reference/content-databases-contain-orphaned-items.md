@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 636d25e9-be42-4b66-a354-9b9af570f907
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleContent databases contain orphaned items for SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: Content databases contain orphaned items, for SharePoint Server."
 ---
 
 # Content databases contain orphaned items (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "Content databases contain orphaned items" for SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
  **Rule Name:** Content databases contain orphaned items. 
   

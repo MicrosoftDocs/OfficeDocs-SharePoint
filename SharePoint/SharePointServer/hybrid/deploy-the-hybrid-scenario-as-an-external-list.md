@@ -13,12 +13,12 @@ ms.collection:
 - IT_SharePoint_Hybrid_Top
 localization_priority: Normal
 ms.assetid: d7173fc7-65cd-4201-8095-7ad805f50c95
-description: "Summary: Learn how to manually extract a Business Data Connectivity model, import the model into SharePoint Online, and manually create an external list to surface the on-premises data."
+description: "Learn how to manually extract a Business Data Connectivity model, import the model into SharePoint Online, and manually create an external list to surface the on-premises data."
 ---
 
 # Deploy the Business Connectivity Services hybrid scenario as an external list
 
- **Summary:** Learn how to manually extract a Business Data Connectivity model, import the model into SharePoint Online, and manually create an external list to surface the on-premises data. 
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
   
 The procedures in this article show you how to integrate external data by using an external list. Make sure you've already [prepared your environment for the Business Connectivity Services hybrid scenario](prepare-your-environment.md) before you follow the procedures in this article. 
   

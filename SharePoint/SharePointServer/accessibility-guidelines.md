@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: d63f37bc-3383-4df8-af12-15da5eb1133c
-description: "Summary: Access and learn about the W3C Web Content Accessibility Guidelines (WCAG) 2.0 Conformance Statement and Voluntary Product Accessibility Template (VPAT) for SharePoint Server 2016."
+description: "Access and learn about the W3C Web Content Accessibility Guidelines (WCAG) 2.0 Conformance Statement and Voluntary Product Accessibility Template (VPAT) for SharePoint Server 2016."
 ---
 
 # Accessibility guidelines in SharePoint Server 2016
 
- **Summary:** Access and learn about the W3C Web Content Accessibility Guidelines (WCAG) 2.0 Conformance Statement and Voluntary Product Accessibility Template (VPAT) for SharePoint Server 2016. 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](includes/appliesto-xxx-2016-xxx-xxx-md.md)]
   
 SharePoint Server supports the accessibility features of common browsers that help IT Pros administer deployments and access sites. For more information about supported features, see [Web Content Accessibility Guidelines 2.0](https://www.w3.org/TR/WCAG20/).
   

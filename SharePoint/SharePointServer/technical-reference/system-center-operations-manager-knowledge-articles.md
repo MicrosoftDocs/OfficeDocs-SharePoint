@@ -12,10 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: f58bdfdc-0c7e-481e-b3ac-194423f37262
-description: "Navigate to SharePoint Server 2016 and SharePoint 2013 articles about resolving alerts from the Systems Center Operations Manager (SCOM) management pack."
+description: "Navigate to SharePoint Server articles about resolving alerts from the Systems Center Operations Manager (SCOM) management pack."
 ---
 
 # System Center Operations Manager knowledge articles for SharePoint Server
+
+[!INCLUDE[appliesto-2013-2016-xxx-xxx-md](../includes/appliesto-2013-2016-xxx-xxx-md.md)]
 
 Navigate to SharePoint Server 2016 and SharePoint 2013 articles about resolving alerts from the Systems Center Operations Manager (SCOM) management pack.
   

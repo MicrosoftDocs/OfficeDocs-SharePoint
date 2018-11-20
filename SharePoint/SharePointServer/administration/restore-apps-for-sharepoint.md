@@ -3,7 +3,6 @@ title: "Restore apps for SharePoint in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 9/14/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -12,12 +11,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 73e8ee39-0865-497a-b9e2-a0b0b46cde20
-description: "Summary: Learn how to restore apps for SharePoint in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to restore apps for SharePoint in SharePoint Server."
 ---
 
 # Restore apps for SharePoint in SharePoint Server
 
- **Summary:** Learn how to restore apps for SharePoint in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 You can restore an apps for SharePoint environment by using the SharePoint Central Administration website, Microsoft PowerShell, or SQL Server tools. The restore tool that you use depends on the kind of environment that you have deployed, your schedule requirements, and service level agreements that you have with your organization. 
   
@@ -69,13 +68,13 @@ You can only restore a site collection in SharePoint Server by using PowerShell.
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
-    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
+     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
     > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
@@ -84,17 +83,17 @@ You can only restore a site collection in SharePoint Server by using PowerShell.
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  Restore-SPSite -Identity <SiteCollectionURL> -Path <Backup file> [-DatabaseServer <DatabaseServerName>] [-DatabaseName <ContentDatabaseName>] [-HostHeader <Host header>] [-Force] [-GradualDelete] [-Verbose]
-  ```
+   ```
+   Restore-SPSite -Identity <SiteCollectionURL> -Path <Backup file> [-DatabaseServer <DatabaseServerName>] [-DatabaseName <ContentDatabaseName>] [-HostHeader <Host header>] [-Force] [-GradualDelete] [-Verbose]
+   ```
 
     Where:
     
-  -  _\<SiteCollectionURL\>_ is URL for the site collection you want to restore. 
+   -  _\<SiteCollectionURL\>_ is URL for the site collection you want to restore. 
     
-  -  _\<DatabaseServerName\>_ is name of the database server where the site collection resides. 
+   -  _\<DatabaseServerName\>_ is name of the database server where the site collection resides. 
     
-  -  _\<ContentDatabaseName\>_ is the name of the content database. 
+   -  _\<ContentDatabaseName\>_ is the name of the content database. 
     
     If you want to restore the site collection to a specific content database, use the  `DatabaseServer` and  `DatabaseName` parameters to specify the content database. If you do not specify a content database, the site collection will be restored to a content database chosen by SharePoint Server. 
     

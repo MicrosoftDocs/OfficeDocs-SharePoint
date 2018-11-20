@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 9f0df411-ba75-4d04-9195-836129fe2282
-description: "Summary: Describes the process and cautions that are involved in sharing service applications across farms in SharePoint Server 2016 and SharePoint 2013."
+description: "Describes the process and cautions that are involved in sharing service applications across farms in SharePoint Server."
 ---
 
 # Share service applications across farms in SharePoint Server
 
- **Summary:** Describes the process and cautions that are involved in sharing service applications across farms in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 In SharePoint Server, some service applications can be shared across server farms.
   

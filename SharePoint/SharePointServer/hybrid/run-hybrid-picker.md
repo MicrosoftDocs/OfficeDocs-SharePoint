@@ -16,12 +16,12 @@ ms.collection:
 - Strat_SP_gtc
 ms.custom: 
 ms.assetid: d10d1262-7127-424e-a0a8-1f3c5d42dd85
-description: "Summary: Learn to run Hybrid Picker in Office 365 for enterprises."
+description: "Learn to run Hybrid Picker in Office 365 for enterprises."
 ---
 
 # Run Hybrid Picker
 
- **Summary:** Learn to run Hybrid Picker in Office 365 for enterprises. 
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)] 
   
  **This article is part of a roadmap of procedures for configuring SharePoint hybrid solutions. Be sure you're [following a roadmap](configuration-roadmaps.md) when you do the procedure in this article. **
   

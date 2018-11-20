@@ -15,12 +15,12 @@ ms.collection:
 - Strat_SP_gtc
 ms.custom: 
 ms.assetid: 65552a5e-228b-4789-8982-0c29871c85b0
-description: "Summary: Plan for governance in SharePoint."
+description: "Plan for governance in SharePoint."
 ---
 
 # Governance SharePoint Server
 
- **Summary:** Plan for governance in SharePoint. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 Read these articles to learn about planning the different aspects of governance in SharePoint.
   

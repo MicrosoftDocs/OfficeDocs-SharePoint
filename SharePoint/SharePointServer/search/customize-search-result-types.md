@@ -15,6 +15,8 @@ description: "Create and configure custom search result types in SharePoint Serv
 
 # Customize search result types in SharePoint Server
 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+
 Create and configure custom search result types in SharePoint Server so that users can readily distinguish and preview different kinds of items in a list of search results in the classic search experience.
   
 A search result type is a rule that causes distinct kinds of search results to be displayed in different ways. It consists of the following: 

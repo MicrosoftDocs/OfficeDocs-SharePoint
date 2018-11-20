@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 555e6de4-eece-440c-857b-9601c65df4fe
-description: "Summary: Learn how to add Yammer functionality to a SharePoint Server environment and how to replace SharePoint Newsfeeds with Yammer."
+description: "Learn how to add Yammer functionality to a SharePoint Server environment and how to replace SharePoint Newsfeeds with Yammer."
 ---
 
 # Integrate Yammer with on-premises SharePoint Server environments
 
- **Summary:** Learn how to add Yammer functionality to a SharePoint environment and how to replace SharePoint Newsfeeds with Yammer. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
  
 Although SharePoint Server provides basic enterprise social features, Yammer Enterprise provides a richer enterprise social experience to drive increased collaboration and innovation across your organization. You can add Yammer functionality to SharePoint sites by adding it to the navigation bar, replacing SharePoint Server social features with Yammer, and embedding a Yammer feed into SharePoint pages. 
 
@@ -28,9 +28,9 @@ Before you integrate Yammer into your SharePoint Server  environment, you should
     
 ## Add Yammer to the navigation for SharePoint 
 
-In SharePoint Server 2019 Public Preview and SharePoint Server 2016, you can add a Yammer tile to the navigation. For instructions, see [Add Yammer to the navigation bar for SharePoint Server](add-yammer-to-the-navigation-bar-for-sharepoint-Server.md).
+In SharePoint Server 2019 and SharePoint Server 2016, you can add a Yammer tile to the navigation. For instructions, see [Add Yammer to the navigation bar for SharePoint Server](add-yammer-to-the-navigation-bar-for-sharepoint-Server.md).
 
-Here's what it looks like in SharePoint Server 2019 Public Preview:
+Here's what it looks like in SharePoint Server 2019:
 
 ![SharePoint Server 2019 Office 365 navigation showing the Yammer app](../media/yammer_spserver_apps2019.png)
 

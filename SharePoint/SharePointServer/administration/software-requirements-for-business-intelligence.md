@@ -3,7 +3,6 @@ title: "Software requirements for business intelligence in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -13,12 +12,12 @@ ms.collection:
 - Strat_SP_server
 ms.custom: 
 ms.assetid: 6824b3bf-9046-4d43-b266-de463d0007e5
-description: "Summary: Learn about the minimum software requirements to run business intelligence features in SharePoint Server 2016 and SharePoint Server 2013."
+description: "Learn about the minimum software requirements to run business intelligence features in SharePoint Server."
 ---
 
 # Software requirements for business intelligence in SharePoint Server
 
- **Summary:** Learn about the minimum software requirements to run business intelligence features in SharePoint Server 2016 and SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-xxx-xxx-md](../includes/appliesto-2013-2016-xxx-xxx-md.md)]
   
 The business intelligence tools for SharePoint Server 2016 include the following:
   
@@ -108,11 +107,11 @@ The requirements for Excel Online in Office Online Server for SharePoint Server 
   
 - If you plan to use Excel Online with advanced data models, at least one SQL Server Analysis Services in SharePoint mode must be registered in the Office Online Server configuration. Excel Online can use multiple Analysis Services servers, but they must all use SQL Server Management Studio. For more information, see [Download SQL Server Management Studio (SSMS)](https://go.microsoft.com/fwlink/?linkid=857511). Note that if you use multiple Analysis Services servers with Excel Online they don't need to be SQL Server 2016.
     
-    Configure each computer in your Office Online Server farm as an [Analysis Services administrator](https://go.microsoft.com/fwlink/p/?LinkId=717498). For more information, see "Configure an Analysis Services (data model) server for Excel Online" in [Configure Excel Online administrative settings](http://technet.microsoft.com/library/9cb81758-9d0b-4970-9ca0-a75eedf6093b.aspx#SSAS).
+    Configure each computer in your Office Online Server farm as an [Analysis Services administrator](https://go.microsoft.com/fwlink/p/?LinkId=717498). For more information, see "Configure an Analysis Services (data model) server for Excel Online" in [Configure Excel Online administrative settings](https://docs.microsoft.com/SharePoint/administration/configure-excel-services#SSAS).
     
-- The Secure Store Service must be configured in the farm if you want to use a Secure Store target application for data refresh scenarios, or if you want to use an Office Data Connection (ODC) file that specifies a Secure Store target application. For more information, see [Configure Excel Online data refresh by using embedded data connections in Office Online Server](http://technet.microsoft.com/library/9a78496b-50c0-471c-b112-6dbc7231635d.aspx) and [Plan the Secure Store Service in SharePoint Server](http://technet.microsoft.com/library/e1196de0-1eb9-4c50-aeca-93e0eba7be0d%28Office.14%29.aspx). 
+- The Secure Store Service must be configured in the farm if you want to use a Secure Store target application for data refresh scenarios, or if you want to use an Office Data Connection (ODC) file that specifies a Secure Store target application. For more information, see [Configure Excel Online data refresh by using embedded data connections in Office Online Server](https://docs.microsoft.com/SharePoint/administration/excel-services-overview) and [Plan the Secure Store Service in SharePoint Server](https://docs.microsoft.com/previous-versions/office/sharepoint-server-2010/ee806889(v=office.14)). 
     
-- You can use Kerberos constrained delegation, Secure Store Service, or the EffectiveUserName option for authentication with Excel Online. For more information, see "Windows authentication" in [Data authentication for Excel Online in Office Online Server](http://technet.microsoft.com/library/7ced238b-2866-4961-af1c-6b597a55ce7a.aspx) and [Configure Analysis Services EffectiveUserName in Excel Online](http://technet.microsoft.com/library/9cb81758-9d0b-4970-9ca0-a75eedf6093b.aspx#EffectiveUserName).
+- You can use Kerberos constrained delegation, Secure Store Service, or the EffectiveUserName option for authentication with Excel Online. For more information, see "Windows authentication" in [Data authentication for Excel Online in Office Online Server](https://docs.microsoft.com/en-us/officeonlineserver/data-authentication-for-excel-online-in-office-online-server) and [Configure Analysis Services EffectiveUserName in Excel Online](https://docs.microsoft.com/en-us/officeonlineserver/configure-excel-online-administrative-settings#configure-analysis-services-effectiveusername-in-excel-online).
     
 > [!NOTE]
 > For Analysis Services data, the EffectiveUserName option is an alternative method of accessing data. When it is enabled, all connections to Analysis Services data for individual users will be made by using the EffectiveUserName connection string property instead of Windows delegation. For more information, see "Configure Analysis Services EffectiveUserName in Excel Online in [Configure Excel Online administrative settings](http://technet.microsoft.com/library/9cb81758-9d0b-4970-9ca0-a75eedf6093b.aspx#EffectiveUserName). 
@@ -126,7 +125,7 @@ The requirements for Excel Services for SharePoint Server 2016 are as follows:
   
 - If you plan to use Excel Services with advanced data models, at least one Analysis Server in SharePoint mode must be registered in the Excel Services configuration. Excel Services can use multiple Analysis Services servers, but they must all be SQL Server 2012 SP1 Analysis Services (SSAS). 
     
-- The Secure Store Service must be configured in the farm if you want to store encrypted credentials for data refresh scenarios, or if you want to use the Excel Services unattended service account. For more information, see [Plan the Secure Store Service in SharePoint Server](http://technet.microsoft.com/library/e1196de0-1eb9-4c50-aeca-93e0eba7be0d%28Office.14%29.aspx).
+- The Secure Store Service must be configured in the farm if you want to store encrypted credentials for data refresh scenarios, or if you want to use the Excel Services unattended service account. For more information, see [Plan the Secure Store Service in SharePoint Server](https://docs.microsoft.com/en-us/sharepoint/administration/secure-store-service-planning).
     
 - Kerberos constrained delegation must be configured if you want to delegate user credentials to an external data source for data refresh scenarios.
     
@@ -150,7 +149,7 @@ The requirements for PerformancePoint Services in SharePoint Server 2016 are as 
 > [!NOTE]
 > ADOMD.net V11 is not installed as part of the SharePoint Server 2016 prerequisite installer tool. Install ADOMD.NET from the [SQL Server 2012 Feature Pack](https://go.microsoft.com/fwlink/p/?LinkId=275448). However, if you are installing the SQL Server 2016 Reporting Services in SharePoint mode on your application server, this file is included. 
   
-For information about how to plan for and configure PerformancePoint Services, see [PerformancePoint Services in SharePoint Server 2016 overview](http://technet.microsoft.com/library/0bcc4cd8-68cf-45b5-a880-d56fdaabe284%28Office.14%29.aspx) and [Configure PerformancePoint Services](configure-performancepoint-services.md).
+For information about how to plan for and configure PerformancePoint Services, see [PerformancePoint Services in SharePoint Server 2016 overview](https://docs.microsoft.com/en-us/sharepoint/administration/performancepoint-services-overview) and [Configure PerformancePoint Services](configure-performancepoint-services.md).
   
 ## Software requirements for PerformancePoint Services in SharePoint Server 2013
 <a name="section1a"> </a>

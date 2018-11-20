@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: bd64e8e4-3aa6-4c0a-b929-f37a254dde26
-description: "Summary: Learn how use Recommended Items and Popular Items on websites with anonymous users in SharePoint Server 2016 and SharePoint Server 2013."
+description: "Learn how use Recommended Items and Popular Items on websites with anonymous users in SharePoint Server."
 ---
 
 # Use recommendations and popular items on websites with anonymous users in SharePoint Server
 
- **Summary:** Learn how use Recommended Items and Popular Items on websites with anonymous users in SharePoint Server 2016 and SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 The previous article in this series, [Add and configure the Recommended Items and Popular Items Web Part in SharePoint Server](add-and-configure-the-recommended-items-and-popular-items-web-part.md), explained how to add and configure Recommended Items and Popular Items Web Part. In this article you'll learn:
   

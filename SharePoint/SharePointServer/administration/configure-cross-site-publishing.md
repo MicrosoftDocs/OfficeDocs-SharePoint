@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: b08c20f6-a142-4001-a92a-cee49b1145b2
-description: "Summary: Learn to create and tag catalog content in authoring sites and configure search settings for cross-site publishing in SharePoint Server 2016 and SharePoint Server 2013."
+description: "Learn to create and tag catalog content in authoring sites and configure search settings for cross-site publishing in SharePoint Server."
 ---
 
 # Configure cross-site publishing in SharePoint Server
 
- **Summary:** Learn to create and tag catalog content in authoring sites and configure search settings for cross-site publishing in SharePoint Server 2016 and SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 Before you configure cross-site publishing, make sure that you understand the concepts and terminology in [Plan for cross-site publishing in SharePoint Server](plan-for-cross-site-publishing.md).
   

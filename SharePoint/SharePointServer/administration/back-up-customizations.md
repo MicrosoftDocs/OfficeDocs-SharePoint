@@ -3,7 +3,6 @@ title: "Back up customizations in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 2/17/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -12,12 +11,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 8f98a750-19bb-4ea0-9ff5-719b85febbb3
-description: "Summary: Learn how to back up customizations that are made to SharePoint Server 2016 and SharePoint 2013 sites."
+description: "Learn how to back up customizations that are made to SharePoint Server sites."
 ---
 
 # Back up customizations in SharePoint Server
 
- **Summary:** Learn how to back up customizations that are made to SharePoint Server 2016 and SharePoint 2013 sites. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 You can back up customizations that are made to SharePoint Server sites by using the SharePoint Central Administration website or Microsoft PowerShell. Which backup tool you use depends on what kind of environment you have deployed, what your backup schedule requires, and what service level agreements you have made with your organization. 
   
@@ -106,11 +105,11 @@ We recommend that you keep a backup of the original .wsp file and the source cod
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
@@ -121,13 +120,13 @@ We recommend that you keep a backup of the original .wsp file and the source cod
     
 3. At the PowerShell command prompt, type the following command to back up all of the solutions in the farm. To back up a single solution, add the name of the solution to the item path "farm\solutions".
     
-  ```
+   ```
    Backup-SPFarm -backupmethod full -directory <UNC location> -item "farm\solutions"
-  ```
+   ```
 
     Where:
     
-  -  _\<UNC location\>_ is the UNC location of the directory where you store the backup file. 
+   -  _\<UNC location\>_ is the UNC location of the directory where you store the backup file. 
     
 For more information, see [Backup-SPFarm](http://technet.microsoft.com/library/c37704b5-5361-4090-a84d-fcdd17bbe345.aspx).
   

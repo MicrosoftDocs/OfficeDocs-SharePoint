@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 4dd5daa5-a22c-40c8-b250-6b4779714bb3
-description: "Summary: Learn about the SharePoint Server 2013 relationship with SQL Server 2008 R2 with Service Pack 1 (SP1), SQL Server 2012, and SQL Server 2014 and how you can interact with the databases."
+description: "Learn about the SharePoint Server relationship with SQL Server 2008 R2 with Service Pack 1 (SP1), SQL Server 2012, and SQL Server 2014 and how you can interact with the databases."
 ---
 
 # Overview of SQL Server in a SharePoint Server 2013 environment
 
- **Summary:** Learn about the SharePoint Server 2013 relationship with SQL Server 2008 R2 with Service Pack 1 (SP1), SQL Server 2012, and SQL Server 2014 and how you can interact with the databases. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 SharePoint Server 2013 supports several versions of SQL Server. Depending on the installed version, you can use specific features of SQL Server, such as reporting and business intelligence (BI).
   

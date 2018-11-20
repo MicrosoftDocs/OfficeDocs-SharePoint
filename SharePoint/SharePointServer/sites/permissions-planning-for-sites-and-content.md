@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 85a1866e-2743-4f98-a1ac-9ea61905c6d4
-description: "Summary: Learn about how to plan permissions for sites and site content for SharePoint Server 2016."
+description: "Learn about how to plan permissions for sites and site content for SharePoint Server."
 ---
 
 # Permissions planning for sites and content in SharePoint Server
 
- **Summary:** Learn about how to plan permissions for sites and site content for SharePoint Server 2016. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 Some sites in an enterprise probably contain content that should not be available to all users. For example, proprietary technical information should be accessible only on a need-to-know basis. An intranet portal for employee benefits should be available only to full-time employees, whereas the home page of an Internet Web site is accessible by anonymous clients.
   

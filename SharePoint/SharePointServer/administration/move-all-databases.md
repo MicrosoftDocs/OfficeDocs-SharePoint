@@ -12,13 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: d9dac189-0736-448d-928c-68bf38603613
-description: "Summary: Learn how to move all databases associated with SharePoint Server 2016 and SharePoint 2013 to a new database server."
+description: "Learn how to move all databases associated with SharePoint Server to a new database server."
 ---
 
 # Move all databases in SharePoint Server
 
- **Summary:** Learn how to move all databases associated with SharePoint Server 2016 and SharePoint 2013 to a new database server. 
-  
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
 You can use the SharePoint Central Administration website, or SQL Server tools to move all databases that are associated with SharePoint Server to a new database server.
   
 ## Before you begin
@@ -271,7 +270,7 @@ Use the following procedure to update the database connections if you use ShareP
   Add-DatabaseToAvailabilityGroup -AGName "<AGGroupName>" -DatabaseName "<DatabaseName>" [-FileShare "<\\server\share>"]
   ```
 
-    Where:
+Where:
     
   - \<AGGroupName\> is the name of the Avaliability Group.
     
@@ -301,25 +300,20 @@ Use the next procedure for the following scenarios:
 2. At the PowerShell command prompt, type the following commands:
     
   ```
-  $db = get-spdatabase -identity <guid>
+  $db = Get-SPDatabase -Identity <guid>
   ```
 
-    Where:
-    
-  - \<GUID\> is the ID of the database that you move.
+Where \<GUID\> is the ID of the database that you move.
     
     > [!NOTE]
-    > Use **Get-spdatabase** without parameters to see a list of all databases with GUIDs. 
+    > Use **Get-SPDatabase** without parameters to see a list of all databases with GUIDs. 
   
   ```
   $db.ChangeDatabaseInstance("<DBServerName>")
   ```
 
-    Where:
+Where \<DBServerName\> is the name or alias of the new SQL Server or is the AlwaysOn Availability Group listener DNS name.
     
-  - \<DBServerName\> is the name or alias of the new SQL Server or is the AlwaysOn Availability Group listener DNS name.
-    
-  - 
   ```
   $db.Update()
   ```
@@ -330,9 +324,7 @@ Use the next procedure for the following scenarios:
   $db.failoverserviceinstance("<DBServerName>")
   ```
 
-    Where:
-    
-  - \<DBServerName\> is the name or alias of the mirrored SQL Server.
+Where \<DBServerName\> is the name or alias of the mirrored SQL Server.
     
   ```
   $db.update()

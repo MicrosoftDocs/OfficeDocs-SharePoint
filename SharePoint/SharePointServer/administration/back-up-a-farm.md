@@ -3,7 +3,6 @@ title: "Back up farms in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -12,12 +11,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 8daa31a5-0f8c-4bd6-84c9-ee1f5074594d
-description: "Summary: Learn how to back up a SharePoint Server 2016 and SharePoint 2013 farm."
+description: "Learn how to back up a SharePoint Server farm."
 ---
 
 # Back up farms in SharePoint Server
 
- **Summary:** Learn how to back up a SharePoint Server 2016 and SharePoint 2013 farm. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 You can back up a SharePoint Server farm by using the SharePoint Central Administration website, Microsoft PowerShell, or SQL Server tools. The backup tool that you use depends on the kind of environment that you have deployed, your backup schedule requirements, and service level agreements that you have with your organization.
   
@@ -59,13 +58,13 @@ You can use PowerShell to back up the farm manually or as part of a script that 
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
-    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
+     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
     > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
@@ -74,18 +73,18 @@ You can use PowerShell to back up the farm manually or as part of a script that 
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  Backup-SPFarm -Directory <BackupFolder> -BackupMethod {Full | Differential} [-Verbose]
-  ```
+   ```
+   Backup-SPFarm -Directory <BackupFolder> -BackupMethod {Full | Differential} [-Verbose]
+   ```
 
     Where:
     
-  -  _\<BackupFolder\>_ is the path of a folder on the local computer or the network in which you want to store the backups. 
+   -  _\<BackupFolder\>_ is the path of a folder on the local computer or the network in which you want to store the backups. 
     
     > [!NOTE]
     > If you are backing up the farm for the first time, you must use the **Full** option. You must perform a full backup before you can perform a differential backup. 
   
-For more information, see [Backup-SPFarm](http://technet.microsoft.com/library/c37704b5-5361-4090-a84d-fcdd17bbe345.aspx).
+For more information, see [Backup-SPFarm](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Backup-SPFarm?view=sharepoint-ps).
   
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
@@ -133,7 +132,7 @@ If you want to back up the complete farm, you must use either PowerShell or Cent
     
 5. In the **Back Up Database** dialog box, confirm the database name. 
     
-6. Next, select the kind of backup that you want to perform from the **Backup type** list. For more information about which backup type to use, see [Recovery Models (SQL Server)]( http://go.microsoft.com/fwlink/p/?LinkID=715706&amp;clcid=0x409).
+6. Next, select the kind of backup that you want to perform from the **Backup type** list. For more information about which backup type to use, see [Recovery Models (SQL Server)](http://go.microsoft.com/fwlink/p/?LinkID=715706&amp;clcid=0x409).
     
 7. In the **Backup component** area, click **Database**.
     

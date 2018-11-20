@@ -3,19 +3,18 @@ title: "Configure eDiscovery in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 9/12/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 5cdce2aa-fa6e-4888-a34f-de61713f5096
-description: "Summary: Learn the steps to set up and configure eDiscovery in SharePoint Server 2013, SharePoint Server 2016, Exchange Server 2016, and Exchange Server 2013."
+description: "Learn the steps to set up and configure eDiscovery in SharePoint Server and Exchange Server."
 ---
 
 # Configure eDiscovery in SharePoint Server
 
- **Summary:** Learn the steps to set up and configure eDiscovery in SharePoint Server 2013, SharePoint Server 2016, Exchange Server 2016, and Exchange Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 This article identifies the steps that are required to configure eDiscovery in SharePoint Server. When you complete the steps that are listed in this article, users will be able to create and work with eDiscovery cases.
   
@@ -31,13 +30,13 @@ You must perform the following tasks to configure eDiscovery:
     
 - Create an eDiscovery Center.
     
-## Configure communication between SharePoint Server and Exchange Server 2016
+## Configure communication between SharePoint Server and Exchange Servers 2019 and 2016
 <a name="configure_SP_Ex"> </a>
 
 If you will use a SharePoint eDiscovery Center to discover content in Exchange Server, you must configure SharePoint Server and Exchange Server to interact.
   
 > [!IMPORTANT]
-> To discover content in Exchange Server from a SharePoint eDiscovery Center, you must be running either Exchange Server 2013 or Exchange Server 2016. 
+> To discover content in Exchange Server from a SharePoint eDiscovery Center, you must be running Exchange Server 2019, 2015, or 2013. 
   
 Perform the following steps:
   
@@ -46,8 +45,10 @@ Perform the following steps:
 2. Configure a trust relationship between SharePoint Server and Exchange Server. For information about the trust relationship, see [Plan for server-to-server authentication in SharePoint Server](../security-for-sharepoint-server/plan-server-to-server-authentication.md).
     
 3. If you want content from Skype for Business Server to be discoverable, configure the server to archive to Exchange Server 2016. For information about how to configure Skype for Business Server 2015 archiving, see [Configure Skype for Business Server 2015 to use Exchange Server archiving](https://technet.microsoft.com/en-us/library/jj679896.aspx).
+
+4. If you want SharePoint Server 2019 users to link to and share documents that are stored in OneDrive for Business instead of attaching file to Outlook messages, see the [Document collaboration](https://docs.microsoft.com/en-us/Exchange/new-features/new-features?view=exchserver-2019#document-collaboration) section in **What's new in Exchange Server**.
     
-4. Perform the eDiscovery configuration steps for Exchange. For information about how to configure Exchange Server 2013 for eDiscovery, see [Integration with SharePoint](https://go.microsoft.com/fwlink/?linkid=857898).
+5. Perform the eDiscovery configuration steps for Exchange. For information about how to configure Exchange Server 2013 for eDiscovery, see [Integration with SharePoint](https://go.microsoft.com/fwlink/?linkid=857898).
     
 ## Configure Search to crawl all discoverable content
 <a name="configure-search"> </a>
@@ -86,4 +87,15 @@ We recommend that you create a security group to contain all users of the eDisco
 
 An eDiscovery Center is a site collection from which users can create and manage eDiscovery cases. To create an eDiscovery Center, follow the procedure in the article [Create a site collection in SharePoint Server](../sites/create-a-site-collection.md), and choose the **eDiscovery Center** site collection type from the **Enterprise** tab. Be aware that an eDiscovery Center must be in a web application that supports claims authentication. 
   
+## See also
+<a name="configure"> </a>
 
+#### Concepts
+
+[eDiscovery and in-place holds in SharePoint Server](ediscovery-and-in-place-holds-in-sharepoint-server.md)
+  
+[Configure eDiscovery in SharePoint Server](configure-ediscovery-0.md)
+
+[Search and place a hold on public folders using In-Place eDicovery](https://docs.microsoft.com/en-us/Exchange/policy-and-compliance/ediscovery/search-public-folders?view=exchserver-2019)
+
+[Assign eDiscovery permissions in Exchange Server](https://docs.microsoft.com/en-us/Exchange/policy-and-compliance/ediscovery/assign-permissions?view=exchserver-2019)

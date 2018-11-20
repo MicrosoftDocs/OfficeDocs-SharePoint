@@ -3,7 +3,6 @@ title: "Restore User Profile Service applications in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 3/10/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -12,12 +11,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 9061f245-7b75-4211-af5f-b87ec09b5c82
-description: "Summary: Learn how to restore the User Profile Service service application in SharePoint Server 2016 and SharePoint Server 2013."
+description: "Learn how to restore the User Profile Service service application in SharePoint Server."
 ---
 
 # Restore User Profile Service applications in SharePoint Server
 
- **Summary:** Learn how to restore the User Profile Service service application in SharePoint Server 2016 and SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 You can restore the User Profile Service application by using the SharePoint Central Administration website, Microsoft PowerShell, or SQL Server tools. Which backup tool you use depends on what kind of environment you have deployed, what your backup schedule requires, and what service level agreements you have made with your organization. 
   
@@ -47,11 +46,11 @@ You can use Microsoft PowerShell to restore a User Profile service application.
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
@@ -62,19 +61,19 @@ You can use Microsoft PowerShell to restore a User Profile service application.
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  Restore-SPFarm -Directory <BackupFolder> -Item Shared Services\Shared Services Applications\<ServiceApplicationName> -RestoreMethod Overwrite [-BackupId <GUID>] [-Verbose]
-  ```
+   ```
+   Restore-SPFarm -Directory <BackupFolder> -Item Shared Services\Shared Services Applications\<ServiceApplicationName> -RestoreMethod Overwrite [-BackupId <GUID>] [-Verbose]
+   ```
 
     Where:
     
-  -  _\<BackupFolder\>_ is the path of the folder where the backups are stored. 
+    -  _\<BackupFolder\>_ is the path of the folder where the backups are stored. 
     
-  -  _\<ServiceApplicationName\>_ is the name of the service application. 
+    -  _\<ServiceApplicationName\>_ is the name of the service application. 
     
-  -  _\<GUID\>_ is the identifier of the backup to use in the restore process. 
+    -  _\<GUID\>_ is the identifier of the backup to use in the restore process. 
     
-    If you do not specify the  `BackupId`, the most recent backup will be used. You cannot restore a service application from a configuration-only backup.
+    If you do not specify the `BackupId`, the most recent backup will be used. You cannot restore a service application from a configuration-only backup.
     
 For more information, see [Restore-SPFarm](http://technet.microsoft.com/library/8e18ea80-0830-4ffa-b6b6-ad18a5a7ab3e.aspx).
   

@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: c8a62094-b951-47d5-b048-ce6bc5b518be
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleOne of the cache hosts in the cluster is down, in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: One of the cache hosts in the cluster is down, for SharePoint Server."
 ---
 
 # One of the cache hosts in the cluster is down (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "One of the cache hosts in the cluster is down", in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
  **Rule Name:** One of the cache hosts in the cluster is down. 
   

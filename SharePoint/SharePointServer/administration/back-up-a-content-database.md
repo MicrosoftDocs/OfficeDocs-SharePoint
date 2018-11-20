@@ -3,7 +3,6 @@ title: "Back up content databases in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 2/17/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -12,12 +11,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: db44c8d7-e081-42a3-a42a-2ee1b369dd47
-description: "Summary: Learn how to back up a single content database in SharePoint Server 2016 and SharePoint Server 2013."
+description: "Learn how to back up a single content database in SharePoint Server3."
 ---
 
 # Back up content databases in SharePoint Server
 
- **Summary:** Learn how to back up a single content database in SharePoint Server 2016 and SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 You can back up a content database by using the SharePoint Central Administration website, Microsoft PowerShell, or SQL Server tools. The backup tool that you use depends on the kind of environment that you have deployed, your backup schedule requires, and service level agreements that you have made with your organization.
   
@@ -45,11 +44,11 @@ You can use PowerShell to back up a content database manually or as part of a sc
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
@@ -60,15 +59,15 @@ You can use PowerShell to back up a content database manually or as part of a sc
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  Backup-SPFarm -Directory <BackupFolder> -BackupMethod {Full | Differential} -Item <ContentDatabaseName> [-Verbose]
-  ```
+   ```
+   Backup-SPFarm -Directory <BackupFolder> -BackupMethod {Full | Differential} -Item <ContentDatabaseName> [-Verbose]
+   ```
 
     Where:
     
-  -  _\<BackupFolder\>_ is the path of the backup folder. 
+   -  _\<BackupFolder\>_ is the path of the backup folder. 
     
-  -  _\<ContentDatabaseName\>_ is the name of the database that you want to back up. To display the name of the content database, type the following command at the PowerShell command prompt:  `Get-SPContentDatabase`.
+   -  _\<ContentDatabaseName\>_ is the name of the database that you want to back up. To display the name of the content database, type the following command at the PowerShell command prompt:  `Get-SPContentDatabase`.
     
     To view the progress of the backup operation, use the **Verbose** parameter. 
     

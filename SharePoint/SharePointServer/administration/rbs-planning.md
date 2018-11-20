@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: c1f83b4f-a507-42f7-bd82-fed5404ed1ad
-description: "Summary: Outlines the costs and benefits of using Remote BLOB Storage (RBS) in a SharePoint Server 2016 and SharePoint 2013 environment."
+description: "Outlines the costs and benefits of using Remote BLOB Storage (RBS) in a SharePoint Server environment."
 ---
 
 # Deciding to use RBS in SharePoint Server
 
- **Summary:** Outlines the costs and benefits of using Remote BLOB Storage (RBS) in a SharePoint Server 2016 and SharePoint 2013 environment. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 This article provides information to help you decide whether to use Remote BLOB Storage (RBS) in a SharePoint Server environment, and to understand the benefits and costs of using RBS.
   

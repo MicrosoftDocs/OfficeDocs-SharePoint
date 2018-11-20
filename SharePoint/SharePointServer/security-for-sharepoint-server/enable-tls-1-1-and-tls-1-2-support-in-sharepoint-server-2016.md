@@ -13,12 +13,12 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - IT_Sharepoint16
 ms.assetid: 559dddb1-95c9-4242-99ca-cf9cf1cbd0c3
-description: "Summary: This article describes how to enable Transport Layer Security (TLS) protocol versions 1.1 and 1.2 in a SharePoint Server 2016 environment. SharePoint Server 2016 fully supports TLS 1.1 and TLS 1.2."
+description: "This article describes how to enable Transport Layer Security (TLS) protocol versions 1.1 and 1.2 in a SharePoint Server 2016 environment. SharePoint Server 2016 fully supports TLS 1.1 and TLS 1.2."
 ---
 
 # Enable TLS 1.1 and TLS 1.2 support in SharePoint Server 2016
 
- **Summary:** This article describes how to enable Transport Layer Security (TLS) protocol versions 1.1 and 1.2 in a SharePoint Server 2016 environment. SharePoint Server 2016 fully supports TLS 1.1 and TLS 1.2. 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)] 
   
 To enable TLS protocol versions 1.1 and 1.2 in your SharePoint 2016 environment, you need to install updates and change configuration settings in each of the following locations:
   

@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 6483e4c3-dc7e-49fd-92a7-15e1bb63d432
-description: "Summary: Learn about configuring monitoring, viewing SharePoint reports and logs, and using SharePoint Health Analyzer rules."
+description: "Learn about configuring monitoring, viewing SharePoint reports and logs, and using SharePoint Health Analyzer rules."
 ---
 
 # Overview of monitoring in SharePoint Server
 
- **Summary:** Learn about configuring monitoring, viewing SharePoint reports and logs, and using SharePoint Health Analyzer rules. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 The primary goal of monitoring is to ensure a healthy SharePoint Server 2016 environment so that you can achieve service performance objectives such as short response time. You can use the monitoring features from the SharePoint Central Administration website, System Center Management Pack for SharePoint Server 2013, and Microsoft PowerShell scripts to monitor the SharePoint Server 2016 environment and services.
   

@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 552fcfbd-efd6-457e-924d-1d3bacea37dd
-description: "Summary: Learn how to change the order in which search results are displayed in SharePoint Server."
+description: "Learn how to change the order in which search results are displayed in SharePoint Server."
 ---
 
 # How to change the order in which classic search results are displayed in SharePoint Server
 
- **Summary:** Learn how to change the order in which classic search results are displayed in SharePoint Server. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 In the series [How to change the way search results are displayed in SharePoint Server](how-to-change-the-way-search-results-are-displayed.md) we explained how to customize the way search results are displayed by adding custom icons and properties. 
   

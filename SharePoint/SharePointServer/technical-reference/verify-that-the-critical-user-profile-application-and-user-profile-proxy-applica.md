@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: bfe89420-2a60-4ce7-8b11-2b45fd38f822
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleVerify that the critical User Profile Application and User Profile Proxy Application timer jobs are available and have not been mistakenly deleted, in SharePoint Server 2016 and SharePoint Server 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: Verify that the critical User Profile Application and User Profile Proxy Application timer jobs are available and have not been mistakenly deleted, for SharePoint Server."
 ---
 
 # Verify that the critical User Profile Application and User Profile Proxy Application timer jobs are available and have not been mistakenly deleted (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "Verify that the critical User Profile Application and User Profile Proxy Application timer jobs are available and have not been mistakenly deleted", in SharePoint Server 2016 and SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
  **Rule Name:** Verify that the critical User Profile Application and User Profile Proxy Application timer jobs are available and have not been mistakenly deleted. 
   
@@ -39,6 +39,6 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleV
     
 The system automatically creates the missing timer jobs.
   
-For more information, see [Timer job reference for SharePoint Server 2016](timer-job-reference-for-sharepoint-server-2016.md) and [Timer job reference for SharePoint 2013](timer-job-reference-for-sharepoint-2013.md).
+For more information, see [Default timer jobs in SharePoint Server 2019](default-timer-jobs-in-sharepoint-server-2019.md), [Default timer jobs in SharePoint Server 2016](default-timer-jobs-in-sharepoint-server-2016.md), or [Default timer jobs in SharePoint 2013](default-timer-jobs-in-sharepoint-2013.md).
   
 

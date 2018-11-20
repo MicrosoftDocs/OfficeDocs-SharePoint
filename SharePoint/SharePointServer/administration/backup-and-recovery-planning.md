@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 01abe8d2-33f8-48fe-af76-40522a5afe08
-description: "Summary: Learn how to plan backup and recovery strategies for your SharePoint Server 2016 and SharePoint 2013 environments."
+description: "Learn how to plan backup and recovery strategies for your SharePoint Server environments."
 ---
 
 # Plan for backup and recovery in SharePoint Server
 
- **Summary:** Learn how to plan backup and recovery strategies for your SharePoint Server 2016 and SharePoint 2013 environments. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 Typically, you want to have a backup and recovery plan available before you deploy your SharePoint Server environment. You then need to maintain and update your backup and recovery plan as your SharePoint Server changes to protect your data.
   

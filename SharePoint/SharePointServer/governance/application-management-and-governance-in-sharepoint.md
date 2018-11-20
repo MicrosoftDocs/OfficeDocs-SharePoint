@@ -14,13 +14,13 @@ ms.collection:
 - Strat_SP_gtc
 ms.custom: 
 ms.assetid: f8efdfaf-8ef6-445c-9fb9-8845667e478b
-description: "Summary: Learn how to govern applications for SharePoint by creating a customization policy and understanding the app model, branding, and life-cycle management."
+description: "Learn how to govern applications for SharePoint by creating a customization policy and understanding the app model, branding, and life-cycle management."
 ---
 
 # Application management and governance in SharePoint
 
- **Summary:** Learn how to govern applications for SharePoint by creating a customization policy and understanding the app model, branding, and life-cycle management. 
-  
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+
 How will you manage the applications that are developed for your environment? What customization do you allow in your applications, and what are your processes for managing those applications?
   
 For effective and manageable applications, your organization should consider the following:

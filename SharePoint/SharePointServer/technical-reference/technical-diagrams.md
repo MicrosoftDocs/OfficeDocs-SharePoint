@@ -14,12 +14,12 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 ms.assetid: bcbae7bd-656b-4003-969c-8411b81fcd77
 
-description: "Summary: These diagrams provide visual representations of recommended solutions for SharePoint Server 2016 in the form of models, which are poster-size documents."
+description: "These diagrams provide visual representations of recommended solutions for SharePoint Server 2016 in the form of models, which are poster-size documents."
 ---
 
 # Technical diagrams for SharePoint Server
 
- **Summary:** These diagrams provide visual representations of recommended solutions for SharePoint Server 2016 in the form of models, which are poster-size documents. 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]
   
 These resources are available in Visio (.vsdx) and PDF formats You might need additional software to view the files, here's an overview:
   

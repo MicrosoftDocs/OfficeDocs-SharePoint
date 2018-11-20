@@ -1,5 +1,5 @@
 ---
-title: "Software boundaries and limits for SharePoint Server 2016"
+title: "Software boundaries and limits for SharePoint Servers 2016 and 2019"
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
@@ -15,14 +15,14 @@ ms.collection:
 ms.custom: 
 ms.assetid: 6a13cd9f-4b44-40d6-85aa-c70a8e5c34fe
 
-description: "Summary: Learn about the tested performance and capacity limits of SharePoint Server 2016 and how limits relate to acceptable performance."
+description: "Learn about the tested performance and capacity limits of SharePoint Server and how limits relate to acceptable performance."
 ---
 
-# Software boundaries and limits for SharePoint Server 2016
+# Software boundaries and limits for SharePoint Servers 2016 and 2019
 
-Summary: Learn about the tested performance and capacity limits of SharePoint Server 2016 and how limits relate to acceptable performance.
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)]
   
-This article describes software boundaries and limits of SharePoint Server 2016. These include the following:
+This article describes software boundaries and limits of SharePoint Servers 2016 and 2019. These include the following:
   
 - **Boundaries:** Static limits that cannot be exceeded by design 
     
@@ -46,7 +46,7 @@ Note that there are many factors that can affect performance in a given environm
 ### Boundaries, thresholds and supported limits
 <a name="Boundaries"> </a>
 
-In SharePoint Server 2016, there are certain limits that are by design and cannot be exceeded, and other limits that are set to default values that may be changed by the farm administrator. There are also certain limits that are not represented by a configurable value, such as the number of site collections per web application.
+In SharePoint Server, there are certain limits that are by design and cannot be exceeded, and other limits that are set to default values that may be changed by the farm administrator. There are also certain limits that are not represented by a configurable value, such as the number of site collections per web application.
   
 - Boundaries are absolute limits that cannot be exceeded by design. It is important to understand these limits to ensure that you do not make incorrect assumptions when you design your farm.
     
@@ -69,7 +69,7 @@ Thresholds and supported limits guidelines are determined by performance. In oth
 ### How limits are established
 <a name="LimitsEstablished"> </a>
 
-In SharePoint Server 2016, thresholds and supported limits are established through testing and observation of farm behavior under increasing loads up to the point where farm services and operations reach their effective operational limits. Some farm services and components can support a higher load than others so that in some cases you must assign a limit value based on an average of several factors.
+In SharePoint Server, thresholds and supported limits are established through testing and observation of farm behavior under increasing loads up to the point where farm services and operations reach their effective operational limits. Some farm services and components can support a higher load than others so that in some cases you must assign a limit value based on an average of several factors.
   
 For example, observations of farm behavior under load when site collections are added indicate that certain features exhibit unacceptably high latency while other features are still operating within acceptable parameters. Therefore, the maximum value assigned to the number of site collections is not absolute, but is calculated based on an expected set of usage characteristics in which overall farm performance would be acceptable at the given limit under most circumstances.
   
@@ -164,7 +164,7 @@ The following table lists the recommended guidelines for lists and libraries. Fo
 |**Limit**|**Maximum value**|**Limit type**|**Notes**|
 |:-----|:-----|:-----|:-----|
 |List row size  <br/> |8,000 bytes per row  <br/> |Boundary  <br/> |Each list or library item can only occupy 8,000 bytes in total in the database. 300 bytes are reserved, leaving 7700 bytes for end-user columns. For details on how much space each kind of field consumes, see [Column limits](#Column).  <br/> |
-|File size  <br/> |10 GB  <br/> |Boundary  <br/> |The default file size is 2 gigabytes (GB) (2,047 MB). However, a large volume of very large files can affect farm performance.  <br/> |
+|File size  <br/> |10 GB  <br/> |Boundary  <br/> |The default file size is 2 gigabytes (GB) (2,047 MB). However, a large volume of very large files can affect farm performance.  <br/> <br/> **NOTE**: In SharePoint Server 2019, the file limit is 15 GB. |
 |Documents  <br/> |30,000,000 per library  <br/> |Supported  <br/> |You can create very large document libraries by nesting folders, or using standard views and site hierarchy. This value may vary depending on how documents and folders are organized, and by the type and size of documents stored.  <br/> |
 |Major versions  <br/> |400,000  <br/> |Supported  <br/> |If you exceed this limit, basic file operations—such as file open or save, delete, and viewing the version history— may not succeed.  <br/> |
 |Minor versions  <br/> |511  <br/> |Boundary  <br/> |The maximum number of minor file versions is 511. This limit cannot be exceeded.  <br/> |
@@ -182,11 +182,9 @@ The following table lists the recommended guidelines for lists and libraries. Fo
 #### Column limits
 <a name="Column"> </a>
 
-SharePoint Server 2016 data is stored in SQL Server tables.
+SharePoint Server 2016 data is stored in SQL Server tables. Each column type has a size value listed in bytes. The sum of all columns in a SharePoint list cannot exceed 8,000 bytes.
   
-Each column type has a size value listed in bytes. The sum of all columns in a SharePoint list cannot exceed 8,000 bytes. When columns of different types are created in the same list, users can reach the 8,000 byte limitation before reaching the maximum number for any one type.
-  
-|**Limit**|**Maximum value**|**Limit type**|**Size per column**|**Notes**|
+|**Limit**|**Maximum # columns**|**Limit type**|**Size per column**|**Notes**|
 |:-----|:-----|:-----|:-----|:-----|
 |Single line of text  <br/> |255  <br/> |Threshold  <br/> |30 bytes  <br/> ||
 |Multiple Lines of Text  <br/> |350  <br/> |Threshold  <br/> |22 bytes  <br/> ||

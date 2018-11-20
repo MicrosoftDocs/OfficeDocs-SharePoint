@@ -12,14 +12,14 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: f7b617fc-cc45-41bf-bb71-f3d49ed4a59c
-description: "Summary: Learn the critical decisions that you need to make when preparing for Self Service Site creation and management in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn the critical decisions that you need to make when preparing for Self Service Site creation and management in SharePoint Server."
 ---
 
 # Plan self-service site creation in SharePoint Server
 
- **Summary:** Learn the critical decisions that you need to make when preparing for Self Service Site creation and management in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
-Organizations have two ways to create site collections in their web applications. One way is to restrict site collection creation to Farm Administrators. The Farm Administrators create site collections either through the SharePoint Central Administration website or through the SharePoint Management Shell. This provides tight control. Another way is to enable Self Service Site Creation, to let users with the necessary rights create site collections under predefined paths. For information about using Microsoft PowerShell to create self-service sites with the SPSiteMaster cmdlets, see the [Use Windows PowerShell cmdlets to manage sites in SharePoint Server](http://technet.microsoft.com/library/0a0396b2-c196-4175-8e4c-083438fd3ce2.aspx).
+Organizations have two ways to create site collections in their web applications. One way is to restrict site collection creation to Farm Administrators. The Farm Administrators create site collections either through the SharePoint Central Administration website or through the SharePoint Management Shell. This provides tight control. Another way is to enable Self Service Site Creation, to let users with the necessary rights create site collections under predefined paths. For information about using Microsoft PowerShell to create self-service sites with the SPSiteMaster cmdlets, see [SharePointServer](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/?view=sharepoint-ps).
   
 > [!NOTE]
 > My Sites and the policies feature are not available in SharePoint Foundation 2013 and Self-Service Site Creation is disabled by default. 
@@ -38,7 +38,7 @@ By default, new site collections can only be created by using Central Administra
     
 There are several ways to allow users to create their own sites, while still maintaining some control over your environment. Consider which of the following methods will work best for your organization.
   
-- **Self-Service Site Creation** Self-Service Site Creation enables users to create site collections under the /sites path (or other path you specify) within a particular web application. This method is best used when you want to allow groups or communities to create sites. This method also works well if you are hosting sites and want to allow users to create sites without waiting for a complicated process. The create a site user interface can be customized or replaced with a custom form that includes all of the information you might need to integrate with a billing system or to track custom metadata about the site at creation time. This method does not work well when large numbers of users need access to multiple sites. Because Self-Service Site Creation creates site collections, which have separate permissions, users need to be added uniquely to different site collections. If you use subsites instead, the users can be inherited from the parent site in the site collection. 
+- **Self-Service Site Creation** Self-Service Site Creation enables users to create site collections under the /sites path (or other path you specify) within a particular web application. This method is best used when you want to allow groups or communities to create sites. This method also works well if you are hosting sites and want to allow users to create sites without waiting for a complicated process. The create a site user interface can be customized or replaced with a custom form that includes all of the information you might need to integrate with a billing system or to track custom metadata about the site at creation time. This method does not work well when large numbers of users need access to multiple sites. Because Self-Service Site Creation creates site collections, which have separate permissions, users need to be added uniquely to different site collections. If you use subsites instead, the users can be inherited from the parent site in the site collection. For more information, see [Configure self-service site creation in SharePoint Server 2019](https://docs.microsoft.com/en-us/SharePoint/sites/configure-self-service-site-creation-in-sharepoint-server-2019). 
     
     Self-Service Site Creation can also be configured to create sites instead of site collections. When enabled, users can create a new site quickly and easily from their personal site. Clicking the **new site** link from the Sites page creates a new site. The site is created by using the Team Site template and will have separate permissions. The site creator can add additional users to the new site. 
     
@@ -92,4 +92,5 @@ You can also create your own process for site creation by using a custom form to
   
 ## See also
 
+[Configure self-service site creation in SharePoint Server 2019](https://docs.microsoft.com/en-us/SharePoint/sites/configure-self-service-site-creation-in-sharepoint-server-2019)
   

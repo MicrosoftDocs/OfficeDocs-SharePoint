@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 9c470892-d865-4796-ad45-8b050f29aead
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleOne or more servers is not responding, for SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: One or more servers is not responding, for SharePoint Server."
 ---
 
 # One or more servers is not responding (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "One or more servers is not responding", for SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
  **Rule Name:** One or more servers is not responding. 
   

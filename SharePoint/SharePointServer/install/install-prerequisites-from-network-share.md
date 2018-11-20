@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 3ede6cef-193d-4c25-8d41-cacabab95ac9
-description: "Summary: Learn how to how to install the SharePoint Server prerequisites from an offline shared network location by using the prerequisite installer (PrerequisiteInstaller.exe) tool."
+description: "Learn how to how to install the SharePoint Server prerequisites from an offline shared network location by using the prerequisite installer (PrerequisiteInstaller.exe) tool."
 ---
 
 # Install prerequisites for SharePoint Server from a network share
 
- **Summary:** Learn how to install the SharePoint Server prerequisites from an offline shared network location by using the prerequisite installer (PrerequisiteInstaller.exe) tool. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 Installing prerequisites from an offline location is typically required when the servers on which you want to install SharePoint Server are isolated from the Internet. Even if this is not the case, by installing prerequisites from a central, offline location, you can ensure farm server consistency by installing a well-known and controlled set of images.
   
@@ -53,7 +53,7 @@ You can download and combine prerequisites by performing the steps in the follow
   
  **To identify prerequisites**
   
-1. Refer to the article, [Hardware and software requirements for SharePoint Server 2016](hardware-and-software-requirements.md), which lists all the required and optional software for SharePoint Server 2016. Additionally, this article provides the download location for each prerequisite that can be downloaded from the Internet. For hardware and software requirements for SharePoint Server 2019 Public Preview, see [Hardware and software requirements for SharePoint Server 2019 Public Preview](hardware-and-software-requirements-2019.md)
+1. Refer to the article, [Hardware and software requirements for SharePoint Server 2016](hardware-and-software-requirements.md), which lists all the required and optional software for SharePoint Server 2016. Additionally, this article provides the download location for each prerequisite that can be downloaded from the Internet. For hardware and software requirements for SharePoint Server 2019, see [Hardware and software requirements for SharePoint Server 2019](hardware-and-software-requirements-2019.md)
     
     For the SharePoint 2013 version, see [Hardware and software requirements for SharePoint 2013](hardware-and-software-requirements-0.md).
     

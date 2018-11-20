@@ -14,12 +14,12 @@ ms.collection:
 - Strat_SP_server
 ms.custom: 
 ms.assetid: 403e75f3-9e53-4d5b-a476-365e6e4bc92e
-description: "Summary: Learn about how user authentication, app authentication, and server-to-server authentication work in SharePoint Server 2013 and SharePoint Server 2016 ."
+description: "Learn about how user authentication, app authentication, and server-to-server authentication work in SharePoint Server."
 ---
 
 # Authentication overview for SharePoint Server
 
- **Summary:** Learn about how user authentication, app authentication, and server-to-server authentication work in SharePoint Server 2013 and SharePoint Server 2016 . 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 SharePoint Server requires authentication for the following types of interactions:
   

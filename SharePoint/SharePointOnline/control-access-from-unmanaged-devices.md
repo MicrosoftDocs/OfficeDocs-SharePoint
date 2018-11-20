@@ -86,7 +86,7 @@ If you go to the Azure AD admin center and click **Conditional access**, you can
 
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
     
-2. Connect to SharePoint Online as a global admin or SharePoint admin in Office 365. To learn how, see [Getting started with SharePoint Online Management Shell](https://go.microsoft.com/fwlink/?linkid=869066).
+2. Connect to SharePoint Online as a global admin or SharePoint admin in Office 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
     
 3. Run  `Set-SPOTenant -ConditionalAccessPolicy AllowLimitedAccess`.
     
@@ -113,7 +113,7 @@ To block or limit access to specific sites, you must set the organization-wide p
   
 7. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
     
-8. Connect to SharePoint Online as a global admin or SharePoint admin in Office 365. To learn how, see [Getting started with SharePoint Online Management Shell](https://go.microsoft.com/fwlink/?linkid=869066).
+8. Connect to SharePoint Online as a global admin or SharePoint admin in Office 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
     
 9. To block access, run  `Set-SPOSite -Identity https://<SharePoint online URL>/sites/<name of site collection or OneDrive account> -ConditionalAccessPolicy BlockAccess`.
     

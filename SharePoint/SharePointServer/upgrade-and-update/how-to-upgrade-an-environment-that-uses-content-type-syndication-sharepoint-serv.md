@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: e52066b0-05a4-48a5-8112-978b88207ff5
-description: "Summary: Upgrade the Managed Metadata service application and site collections that use content type syndication and share the service applications to the old farm."
+description: "Upgrade the Managed Metadata service application and site collections that use content type syndication and share the service applications to the old farm."
 ---
 
 # How to upgrade an environment that uses content type syndication (SharePoint Server 2013)
 
- **Summary:** Upgrade the Managed Metadata service application and site collections that use content type syndication and share the service applications to the old farm. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]  
   
 Content type syndication, or content type publishing, occurs when you publish a content type from a content type "hub" site collection to one or more "consuming" site collections. For more information, see [Introduction to content types and content type publishing](https://go.microsoft.com/fwlink/p/?LinkId=285484) and [Plan to share terminology and content types (SharePoint Server 2010)](https://go.microsoft.com/fwlink/p/?LinkId=285519).
   

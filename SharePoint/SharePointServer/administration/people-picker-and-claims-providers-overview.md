@@ -1,5 +1,5 @@
 ---
-title: "People Picker and claims providers overview"
+title: "People Picker and claims providers overview in SharePoint Server 2013"
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
@@ -13,12 +13,12 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 ms.assetid: bf8717c2-463d-4e8d-acaf-f186b5907df1
 
-description: "Summary: Get an overview of People Picker and links to topics about how to plan for People Picker in SharePoint Server 2013."
+description: "Get an overview of People Picker and links to topics about how to plan for People Picker in SharePoint Server 2013."
 ---
 
 # People Picker and claims providers overview
 
- **Summary:** Get an overview of People Picker and links to topics about how to plan for People Picker in SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 People Picker is a web control that is used to find and select users, groups, and claims to grant permission to items such as lists, libraries, or sites in SharePoint Server 2013. For web applications that use claims-based authentication, the People Picker control uses claims providers to list, resolve, search, and determine the "friendly" display of users, groups, and claims. A claims provider in SharePoint Server 2013 issues claims, which SharePoint Server 2013 then packages into security tokens for users. Although People Picker is used by site, list, and library owners to assign permissions to sites and content in SharePoint Server 2013, its behavior is heavily dependent on how authentication is configured for the whole web application. It is important to plan for People Picker and claims providers when you plan authentication methods for your SharePoint Server 2013 solution.
   

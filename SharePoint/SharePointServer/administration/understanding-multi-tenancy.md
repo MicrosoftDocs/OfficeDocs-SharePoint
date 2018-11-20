@@ -13,12 +13,12 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 ms.assetid: 3f03113d-627a-4cd2-adbd-2945bdee9a4b
 
-description: "Summary: Learn about the multi-tenancy feature and the underlying components and services related to multi-tenancy in SharePoint Server 2013."
+description: "Learn about the multi-tenancy feature and the underlying components and services related to multi-tenancy in SharePoint Server."
 ---
 
 # Understanding multi-tenancy in SharePoint Server 2013
 
- **Summary:** Learn about the multi-tenancy feature and the underlying components and services related to multi-tenancy in SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 This article describes the components and services related to multi-tenancy in SharePoint Server 2013 and also provides architectural, security, operational, and management guidance to help service providers in gaining an understanding of multi-tenancy in SharePoint Server 2013 for planning, designing, building, and managing a multi-tenant SharePoint Server 2013 hosting platform.
   

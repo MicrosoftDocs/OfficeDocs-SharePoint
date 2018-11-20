@@ -3,7 +3,6 @@ title: "Create, edit, and delete quota templates in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 3/9/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -12,12 +11,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: c2eda191-1814-423b-882f-1fdafe9df6c9
-description: "Summary: How to create, edit, and delete site quota templates for a SharePoint Server 2016 and SharePoint 2013 site collection."
+description: "How to create, edit, and delete site quota templates for a SharePoint Server site collection."
 ---
 
 # Create, edit, and delete quota templates in SharePoint Server
 
- **Summary:** How to create, edit, and delete site quota templates for a SharePoint Server 2016 and SharePoint 2013 site collection. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 You control how much data a site collection can hold and the quantity of resources it can use by using quotas. For more information about how to plan quotas, see [Quotas](plan-site-maintenance-and-management.md#section1).
   
@@ -36,7 +35,7 @@ Before you perform this procedure, confirm the following:
     
 - The Disk Quota Warning timer job is running.
     
-    For more information about default timer jobs for SharePoint Server, see [Timer job reference for SharePoint Server 2016](../technical-reference/timer-job-reference-for-sharepoint-server-2016.md) and [Timer job reference for SharePoint 2013](../technical-reference/timer-job-reference-for-sharepoint-2013.md).
+    For more information about default timer jobs for SharePoint Server, see [Timer job reference for SharePoint Server](../technical-reference/timer-job-reference-for-sharepoint-server.md).
     
 - The quota template options on the quota template page in Central Administration are available only if you have already created one or more quota templates. The first time that you use this page, you will be given only the option to create a new template.
     
@@ -49,7 +48,7 @@ You might want to create a quota template to apply to sites that have storage an
   
 1. Verify that you have the following administrative credentials:
     
-  - You are a member of the Farm Administrators group on the computer that is running the SharePoint Central Administration website.
+   - You are a member of the Farm Administrators group on the computer that is running the SharePoint Central Administration website.
     
 2. On the Central Administration home page, click **Application Management**. On the Application Management page, in the **Site Collections** section, click **Specify quota templates**.
     
@@ -61,15 +60,15 @@ You might want to create a quota template to apply to sites that have storage an
     
 5. In the **Storage Limit Values** section, set the values that you want to apply to the template. 
     
-  - If you want to restrict how much data that can be stored, click the **Limit site storage to a maximum of** check box and type the storage limit in megabytes into the box. 
+   - If you want to restrict how much data that can be stored, click the **Limit site storage to a maximum of** check box and type the storage limit in megabytes into the box. 
     
-  - If you want an email message to be sent to the site collection administrator when a certain storage threshold is reached, click the **Send warning E-mail when Site Collection storage reaches** check box and type the threshold in megabytes into the box. 
+   - If you want an email message to be sent to the site collection administrator when a certain storage threshold is reached, click the **Send warning E-mail when Site Collection storage reaches** check box and type the threshold in megabytes into the box. 
     
 6. In the Sandboxed Solutions with Code Limits section, set the values for a template for sandboxed solutions.
     
-  - In the **Limit maximum usage per day to** box, type the daily usage in points. 
+   - In the **Limit maximum usage per day to** box, type the daily usage in points. 
     
-  - In the **Send warning e-mail when usage per day reaches** box, type the daily usage warning limit in points. 
+   - In the **Send warning e-mail when usage per day reaches** box, type the daily usage warning limit in points. 
     
     A point is a relative measurement of resource usage, for example, CPU cycles, memory, or page faults. Points enable comparisons between measurements of resource usage that could not be compared otherwise. 
     
@@ -84,7 +83,7 @@ You might want to edit a quota template to increase the storage limit if you fin
   
 1. Verify that you have the following administrative credentials:
     
-  - You are a member of the Farm Administrators group on the computer that is running the SharePoint Central Administration website.
+   - You are a member of the Farm Administrators group on the computer that is running the SharePoint Central Administration website.
     
 2. On the Central Administration home page, click **Application Management**. On the Application Management page, in the **Site Collections** section, click **Specify quota templates**.
     
@@ -103,7 +102,7 @@ Even though you can delete a quota template if necessary, we do not recommend th
   
 1. Verify that you have the following administrative credentials:
     
-  - You are a member of the Farm Administrators group on the computer that is running the SharePoint Central Administration website.
+   - You are a member of the Farm Administrators group on the computer that is running the SharePoint Central Administration website.
     
 2. On the Central Administration home page, click **Application Management**. On the Application Management page, in the **Site Collections** section, click **Specify quota templates**.
     
@@ -121,7 +120,7 @@ Even though you can delete a quota template if necessary, we do not recommend th
   
 1. Verify that you have the following administrative credentials:
     
-  - You must be a member of the Farm Administrators group.
+   - You must be a member of the Farm Administrators group.
     
 2. On the Central Administration home page, click **Application Management**. On the Application Management page, in the **Site Collections** section, click **Specify quota templates**.
     
@@ -129,15 +128,15 @@ Even though you can delete a quota template if necessary, we do not recommend th
     
 4. In the **Storage Limit Values** section, specify the values that you want to apply to the template. 
     
-  - If you want to modify the amount of data that can be stored in the database, leave the **Limit site storage to a maximum of** check box selected, and then type the new storage limit, in megabytes, in the box. 
+   - If you want to modify the amount of data that can be stored in the database, leave the **Limit site storage to a maximum of** check box selected, and then type the new storage limit, in megabytes, in the box. 
     
-  - If you want an email message to be sent to the site collection administrator when a storage threshold is reached, select the **Send warning E-mail when site storage reaches** check box, and then type the threshold, in megabytes, in the box. 
+   - If you want an email message to be sent to the site collection administrator when a storage threshold is reached, select the **Send warning E-mail when site storage reaches** check box, and then type the threshold, in megabytes, in the box. 
     
 5. In the **Sandboxed Solutions With Code Limits** section, specify the values that you want to apply to the template. 
     
-  - If you want to limit the maximum resource usage points per day for sandboxed solutions that contain code, type the new limit in the **Limit maximum usage per day to** box. The default limit is 300 points. 
+   - If you want to limit the maximum resource usage points per day for sandboxed solutions that contain code, type the new limit in the **Limit maximum usage per day to** box. The default limit is 300 points. 
     
-  - If you want an email message to be sent to the site collection administrator when the usage per day threshold is reached, select the **Send warning e-mail when usage per day reaches** check box, and then type the threshold, in points, in the box. 
+   - If you want an email message to be sent to the site collection administrator when the usage per day threshold is reached, select the **Send warning e-mail when usage per day reaches** check box, and then type the threshold, in points, in the box. 
     
 6. Click **OK**.
     
@@ -150,7 +149,7 @@ If a site collection is close to exceeding its storage limits and you want to in
 
 1. Verify that you have the following administrative credentials:
     
-  - You must be a member of the Farm Administrators group.
+   - You must be a member of the Farm Administrators group.
     
 2. On the Central Administration home page, click **Application Management**. On the Application Management page, in the **Site Collections** section, click **Configure quotas and locks**. 
     
@@ -166,17 +165,19 @@ If a site collection is close to exceeding its storage limits and you want to in
     
 3. At the Microsoft PowerShell command prompt, type the following command:
     
-  ```
-  Set-SPSite -Identity "<Site>" -QuotaTemplate "<Template>"
-  ```
+   ```
+   Set-SPSite -Identity "<Site>" -QuotaTemplate "<Template>"
+   ```
 
-Where:
+   Where:
     
--  _\<Site\>_ is the URL or GUID of the site collection whose quota template that you want to change. 
+   -  _\<Site\>_ is the URL or GUID of the site collection whose quota template that you want to change. 
     
--  _\<Template\>_ is the name or GUID of the replacement quota template. 
+   -  _\<Template\>_ is the name or GUID of the replacement quota template. 
     
-For more information, see [Set-SPSite](http://technet.microsoft.com/library/f8c7f0ac-52bf-4b79-a356-9d6e485a55aa.aspx). We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions.
+For more information, see [Set-SPSite](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/set-spsite?view=sharepoint-ps). 
+
+We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions.
   
 ## Change the storage limits for a site collection
 <a name="Section6"> </a>
@@ -187,7 +188,7 @@ Use these procedures to change the storage limits for a site collection.
 
 1. Verify that you have the following administrative credentials:
     
-  - You must be a member of the Farm Administrators group.
+   - You must be a member of the Farm Administrators group.
     
 2. On the Central Administration home page, click **Application Management**.
     
@@ -197,7 +198,7 @@ Use these procedures to change the storage limits for a site collection.
     
 5. If the site collection currently uses a quota template, do the following to specify an individual quota:
     
-  - On the Site Collection Quotas and Locks page, in the **Site Quota Information** section, expand the **Current quota template** list, and then select **Individual Quota**.
+   - On the Site Collection Quotas and Locks page, in the **Site Quota Information** section, expand the **Current quota template** list, and then select **Individual Quota**.
     
 6. Select the **Limit site storage to a maximum of** check box, and then type the new maximum value in megabytes. 
     
@@ -217,20 +218,20 @@ Use these procedures to change the storage limits for a site collection.
     
 3. At the Microsoft PowerShell command prompt, type the following command:
     
-  ```
-  Set-SPSite -Identity "<Site>" -MaxSize <Limit>
-  ```
+   ```
+   Set-SPSite -Identity "<Site>" -MaxSize <Limit>
+   ```
 
     Where:
     
-  -  _\<Site\>_ is the URL of the site collection whose storage limits you want to change. 
+   -  _\<Site\>_ is the URL of the site collection whose storage limits you want to change. 
     
-  -  _\<Limit\>_ is the new storage limit for the site collection, in bytes. 
+   -  _\<Limit\>_ is the new storage limit for the site collection, in bytes. 
     
     > [!NOTE]
     > The new storage limit overrides the limit set in the quota template that is currently applied to the site collection. 
   
-    For more information, see [Set-SPSite](http://technet.microsoft.com/library/f8c7f0ac-52bf-4b79-a356-9d6e485a55aa.aspx).
+    For more information, see [Set-SPSite](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/set-spsite?view=sharepoint-ps).
     
     For information about how to use PowerShell and the SharePoint object model to set the maximum usage per day and the warning level threshold for sandboxed solutions, see "Using Windows PowerShell for Administration" in [Chapter 4: Sandboxed Solutions](https://go.microsoft.com/fwlink/p/?LinkId=219528), an excerpt from the book  *Inside Microsoft SharePoint 2010*  on MSDN. 
     

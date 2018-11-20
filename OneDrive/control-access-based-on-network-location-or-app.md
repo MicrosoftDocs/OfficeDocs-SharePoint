@@ -18,7 +18,7 @@ description: "Learn how to apply conditional access settings in the OneDrive adm
 
 # Control access based on network location or app
 
-To prevent users from accessing OneDrive and SharePoint content on devices outside of specific domains, and to prevent them from accessing files in apps that don't check for device status, use the Device access page of the [OneDrive admin center](https://admin.onedrive.com/?v=AccessPolicySettings).
+To prevent users from accessing OneDrive and SharePoint content on devices outside of specific domains, and to prevent them from accessing files in apps that don't check for device status, use the Device access page of the [OneDrive admin center](https://admin.onedrive.com/?v=AccessPolicySettings). Note that the first two settings on this page are also on the "Access control" page in the new SharePoint admin center. 
   
 ![The Device access tab of the OneDrive admin center](media/4b5811ac-01e5-4fca-99f2-e9db8bb6237e.png)
   

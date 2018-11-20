@@ -3,7 +3,6 @@ title: "Introducing the SharePoint Migration Tool"
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
-ms.date: 7/27/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -19,14 +18,13 @@ description: ""
 # Introducing the SharePoint Migration Tool
 
 
-
 >[!NOTE]
->Click here to download [SharePoint Migration tool V2](http://spmtreleasescus.blob.core.windows.net/install/default.htm).  <br>For more information on this release see:  [SharePoint Migration Tool new features](https://blogs.technet.microsoft.com/wbaer/2018/04/11/sharepoint-migration-tool-beta-adds-early-preview-capabilities).<br/><br/> *Important:*  If you are experiencing issues with the "first release" version of SPMT, please uninstall and reinstall the standard release. We are working to fix this problem.<br><br>
+>Click here to download [SharePoint Migration tool V2](http://spmtreleasescus.blob.core.windows.net/install/default.htm).  <br>For more information release notes see:  [New and improved features in the SharePoint Migration Tool](new-and-improved-features-in-the-sharepoint-migration-tool.md).<br/><br/> *Important:*  If you are experiencing issues with the "first release" version of SPMT, please uninstall and reinstall the standard release. We are working to fix this problem.<br><br>
 >Currently the SharePoint Migration Tool supports migrations from SharePoint Server 2013 and on-premises file shares to SharePoint Online and OneDrive.
 >
->If you prefer using PowerShell, all SPMT functionality is supported. For more information see: [Migrate to SharePoint Online using PowerShell](https://docs.microsoft.com/en-us/sharepointmigration/overview-spmt-ps-cmdlets).
+>If you prefer using PowerShell, all SPMT functionality is supported. For more information see: [Migrate to SharePoint Online using PowerShell](overview-spmt-ps-cmdlets.md).
 >
->The **SharePoint Migration Tool** is not available for users of Office 365 operated by 21Vianet in China or for users of Office 365 Germany.
+>The **SharePoint Migration Tool** is not available for users of Office 365 operated by 21Vianet in China.  </br></br>It is also not available for users of Office 365 with the German cloud with the data trustee, *German Telekom*. However, it is supported for users in Germany whose data location is not in the German datacenter.
  
 The SharePoint Migration Tool lets you migrate lists or files from your SharePoint on-premises document libraries or from your on-premises file shares and easily move them to either SharePoint or OneDrive in Office 365. It is available to Office 365 users.
   

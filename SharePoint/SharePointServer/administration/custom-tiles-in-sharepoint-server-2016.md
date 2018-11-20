@@ -1,5 +1,5 @@
 ---
-title: "Custom Tiles in SharePoint Server 2016"
+title: "Custom Tiles in SharePoint Servers 2016 and 2019"
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
@@ -12,14 +12,14 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 8e7535ee-8a38-4878-aaf3-78b669f4aca8
-description: "Summary: This article describes Custom Tiles which is one of the new features in the November 2016 Public Update for SharePoint Server 2016 (Feature Pack 1)."
+description: "This article describes Custom Tiles which is one of the new features in the November 2016 Public Update for SharePoint Server 2016 (Feature Pack 1)."
 ---
 
-# Custom Tiles in SharePoint Server 2016
+# Custom Tiles in SharePoint Servers 2016 and 2019
 
- **Summary:** This article describes Custom Tiles which is one of the new features in the November 2016 Public Update for SharePoint Server 2016 (Feature Pack 1). 
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)] 
   
-In SharePoint Server 2016, users can quickly and easily get to all of their SharePoint and Office 365 workloads directly from the app launcher. Now in addition to those, you can also add your own custom tiles that point to other SharePoint sites, external sites, legacy apps, and more. This makes it easy to find the relevant sites, apps, and resources to do your job
+In SharePoint Server, users can quickly and easily get to all of their SharePoint and Office 365 workloads directly from the app launcher. Now in addition to those, you can also add your own custom tiles that point to other SharePoint sites, external sites, legacy apps, and more. This makes it easy to find the relevant sites, apps, and resources to do your job
   
 This feature is configured on the web app level by an ITPro administrator by using PowerShell cmdlets.
   
@@ -40,13 +40,13 @@ The custom tile feature is not enabled by default. To enable the feature, do the
     
     If these permissions are not satisfied, contact your Setup administrator or SQL Server administrator to request these permissions.
     
-    For additional information about PowerShell permissions, see [Permissions](http://technet.microsoft.com/library/ae4901b4-505a-42a9-b8d4-fca778abc12e.aspx#section3) and [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx).
+    For additional information about PowerShell permissions, see [Permissions](https://docs.microsoft.com/en-us/powershell/sharepoint/sharepoint-server/sharepoint-server-cmdlets) and [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/add-spshelladmin).
     
 2. On the **Start** menu, click **All Programs**
     
-3. Click **Microsoft SharePoint 2016 Products**.
+3. Click **Microsoft SharePoint Products**.
     
-4. Click **SharePoint 2016 Management Shell**.
+4. Click **SharePoint Management Shell**.
     
 5. To ensure the feature is available, at the PowerShell command prompt, type the following command:
     
@@ -87,7 +87,7 @@ The custom tile feature is not enabled by default. To enable the feature, do the
 13. Type the name of an **Audience** you want to use this tile. For example, Marketing. 
     
     > [!NOTE]
-    > List or library items in SharePoint Server 2016 can be targeted to appear only to people who are members of a particular group or audience. An audience can be identified by using SharePoint groups, distribution lists, or security groups or by using a rules-based system to create a global audience. 
+    > List or library items in SharePoint Server can be targeted to appear only to people who are members of a particular group or audience. An audience can be identified by using SharePoint groups, distribution lists, or security groups or by using a rules-based system to create a global audience. 
   
 After you add a new item in the custom tiles list due to caching, it may take up to 24 hours before you can see it appear in the app launcher. If you want to see it immediately, you can run **ClearSuiteLinksCache()** function in the developer browser's console which is displayed by pressing **F12** while in a browser session as displayed in the following diagram. 
   
@@ -113,13 +113,13 @@ If you want to use the same list of custom tiles across multiple web application
     
     If these permissions are not satisfied, contact your Setup administrator or SQL Server administrator to request these permissions.
     
-    For additional information about PowerShell permissions, see [Permissions](http://technet.microsoft.com/library/ae4901b4-505a-42a9-b8d4-fca778abc12e.aspx#section3) and [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx).
+    For additional information about PowerShell permissions, see [Permissions](https://docs.microsoft.com/en-us/powershell/sharepoint/sharepoint-server/sharepoint-server-cmdlets) and [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/add-spshelladmin).
     
 2. On the **Start** menu, click **All Programs**
     
-3. Click **Microsoft SharePoint 2016 Products**.
+3. Click **Microsoft SharePoint Products**.
     
-4. Click **SharePoint 2016 Management Shell**.
+4. Click **SharePoint Management Shell**.
     
 5. To ensure the feature is available, at the PowerShell command prompt, type the following commands:
     

@@ -13,12 +13,12 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 ms.custom: Ent_Solutions
 ms.assetid: 5f80cdb8-d6d1-45f0-9710-d30544fcb3e6
-description: "Summary: Configure the domain controllers for your high-availability SharePoint Server 2016 farm in Microsoft Azure."
+description: "Configure the domain controllers for your high-availability SharePoint Server 2016 farm in Microsoft Azure."
 ---
 
 # SharePoint Intranet Farm in Azure Phase 2: Configure domain controllers
 
- **Summary:** Configure the domain controllers for your high-availability SharePoint Server 2016 farm in Microsoft Azure. 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)] 
   
 In this phase of deploying an intranet-only SharePoint Server 2016 farm in Azure infrastructure services, you configure two replica domain controllers in the Azure virtual network (VNet). Client web requests for SharePoint farm resources can then be authenticated in the VNet, rather than sending that authentication traffic across the site-to-site VPN or ExpressRoute connection to your on-premises network.
   

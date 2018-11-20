@@ -10,14 +10,14 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 820ace03-1fb7-41fd-a077-28b82ebddde3
-description: "Summary: Learn how to manage the search topology and how to customize the search experience to make it easier for users to find the information they’re looking for."
+description: "Learn how to manage the search topology and how to customize the search experience to make it easier for users to find the information they’re looking for."
 ---
 
 # Administer search in SharePoint Server
 
- **Summary:** Learn how to manage the search topology and how to customize the search experience to make it easier for users to find the information they’re looking for. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
-Below are the main areas where you can customize and impact the search experience for your users and make sure that search is performing the way you want. SharePoint Server 2019 Public Preview has both a classic and a modern search experience. Both search experiences use the same search index to find search results, and some settings can impact both experiences. [Learn about the differences between the search experiences in SharePoint Server](differences-search-2016-2019.md).
+Below are the main areas where you can customize and impact the search experience for your users and make sure that search is performing the way you want. SharePoint Server 2019 has both a classic and a modern search experience. Both search experiences use the same search index to find search results, and some settings can impact both experiences. [Learn about the differences between the search experiences in SharePoint Server](differences-search-2016-2019.md).
 
 ## Make sure the content can be found
 

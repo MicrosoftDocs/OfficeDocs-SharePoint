@@ -2,8 +2,7 @@
 title: "About the SharePoint admin role in Office 365"
 ms.author: kaarins
 author: kaarins
-manager: scotv
-ms.date: 5/21/2018
+manager: pamgreen
 ms.audience: Admin
 ms.topic: overview
 ms.service: sharepoint-online
@@ -25,7 +24,12 @@ description: "SharePoint Online admins manage your document storage. They also a
 
 Global administrators in Office 365 can assign users the SharePoint administrator role for help with administering SharePoint Online. The global admin already has all the permissions of a SharePoint admin. When you purchase Office 365, a team site is automatically created, and the global admin is set as the primary site collection administrator. 
   
-Users assigned the SharePoint admin role have access to the SharePoint admin center and can create and manage site collections, designate site collection administrators, manage user profiles, and more. Global admins and SharePoint admins don't have automatic access to all sites and each user's OneDrive, but they can give themselves access to any site or OneDrive. They can also use Microsoft PowerShell to manage SharePoint and OneDrive. See more about this role's [Key tasks of the SharePoint administrator](sharepoint-admin-role.md#BK_KeyTasks) below. 
+Users assigned the SharePoint admin role have access to the SharePoint admin center and can create and manage site collections, designate site collection administrators, manage user profiles, and more. 
+
+> [!IMPORTANT]
+> SharePoint admins can now manage Office 365 groups, including creating, deleting, and restoring groups, and changing group owners.
+
+Global admins and SharePoint admins don't have automatic access to all sites and each user's OneDrive, but they can give themselves access to any site or OneDrive. They can also use Microsoft PowerShell to manage SharePoint and OneDrive. See more about this role's [Key tasks of the SharePoint administrator](sharepoint-admin-role.md#BK_KeyTasks) below. 
   
 Site collection administrators are users that have permission to manage a site collection. They don't need to have an admin role in Office 365, and don't have access to the SharePoint admin center. A site collection can have several administrators, but must have one and only one primary administrator. 
   
@@ -57,9 +61,9 @@ Here are some of the key tasks users can do when they are assigned to the ShareP
 ## See also
 <a name="BK_KeyTasks"> </a>
 
-[About Office 365 admin roles](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)
+[About Office 365 admin roles](/office365/admin/add-users/about-admin-roles)
   
-[Assign admin roles in Office 365 for business](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)
+[Assign admin roles in Office 365 for business](/office365/admin/add-users/assign-admin-roles)
   
-[Getting started with SharePoint Online Management Shell](https://go.microsoft.com/fwlink/?linkid=869066)
+[Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
 

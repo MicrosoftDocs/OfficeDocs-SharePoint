@@ -3,7 +3,6 @@ title: "Plan and manage cases in the eDiscovery Center"
 ms.author: MARKJJO
 author: MARKJJO
 manager: pamgreen
-ms.date: 2/12/2018
 ms.audience: ITPro
 ms.topic: concetpual
 ms.prod: office-online-server
@@ -14,6 +13,8 @@ description: "Electronic Discovery, or eDiscovery, is the discovery of content i
 ---
 
 # Plan and manage cases in the eDiscovery Center
+
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
 
 Electronic Discovery, or eDiscovery, is the discovery of content in electronic format for litigation or investigation. This typically requires identifying content spread across laptops, email servers, file servers, and many other sources. 
   
@@ -114,7 +115,7 @@ You export content from a case when you are ready to deliver it to an authority 
 
 When you close a case, in-place holds will be released for all of its sources, and you will no longer be able to put sources on hold for this case.
   
-1. Click **Settings**![Office 365 Settings button](/Sharepoint/media/a9a59c0f-2e67-4cbf-9438-af273b0d552b.png), and then click **Case Closure**.
+1. Click **Settings** ![Office 365 Settings button](../media/a9a59c0f-2e67-4cbf-9438-af273b0d552b.png), and then click **Case Closure**. 
     
 2. Click **Close this case**.
     
@@ -122,20 +123,18 @@ When you close a case, in-place holds will be released for all of its sources, a
 <a name="__toc329025357"> </a>
 
 For more information about eDiscovery cases, see the following articles:
+    
+[Add content to a case and place sources on hold in the eDiscovery Center](https://docs.microsoft.com/en-us/SharePoint/governance/add-content-to-a-case-and-place-sources-on-hold-in-the-ediscovery-center)
   
-[Scenario: eDiscovery in SharePoint Server 2013 and Exchange Server 2013](https://technet.microsoft.com/en-us/sharepoint/jj650012)
+[Searching and using keywords in the eDiscovery Center](https://docs.microsoft.com/en-us/SharePoint/governance/searching-and-using-keywords-in-the-ediscovery-center)
   
-[Add content to a case and place sources on hold in the eDiscovery Center](https://support.office.com/article/54d70de9-1ec2-4325-84f3-aeb588554479)
+[Default crawled file name extensions and parsed file types in SharePoint Server](https://docs.microsoft.com/en-us/SharePoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types)
   
-[Searching and using keywords in the eDiscovery Center](https://support.office.com/article/c9b29461-20f6-4ae6-84ac-ce9bed3ceabb)
+[Overview of crawled and managed properties in SharePoint Server](https://docs.microsoft.com/en-us/SharePoint/technical-reference/crawled-and-managed-properties-overview)
   
-[Default crawled file name extensions and parsed file types in SharePoint Server 2013](https://technet.microsoft.com/en-us/library/jj219530.aspx)
+[Create and run queries in the eDiscovery Center](https://docs.microsoft.com/en-us/SharePoint/governance/create-and-run-queries-in-the-ediscovery-center)
   
-[Overview of crawled and managed properties in SharePoint Server 2013](https://technet.microsoft.com/en-us/library/jj219630.aspx)
-  
-[Create and run queries in the eDiscovery Center](https://support.office.com/article/77fdaae5-ded4-45c2-98ef-52c88cceead8)
-  
-[Export content and create reports in the eDiscovery Center](https://support.office.com/article/7b2ea190-5f9b-4876-86e5-4440354c381a)
+[Export content and create reports in the eDiscovery Center](https://docs.microsoft.com/en-us/SharePoint/governance/export-content-and-create-reports-in-the-ediscovery-center)
   
 
 

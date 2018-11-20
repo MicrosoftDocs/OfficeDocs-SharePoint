@@ -13,12 +13,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: ad39b1b5-a73b-4a48-af5e-4f032ea52e1d
-description: "Summary: Configure a SharePoint hybrid solution between SharePoint Server and SharePoint Online in Office 365."
+description: "Configure a SharePoint hybrid solution between SharePoint Server and SharePoint Online in Office 365."
 ---
 
 # Configure a hybrid solution for SharePoint Server
 
- **Summary:** Configure a SharePoint hybrid solution between SharePoint Server and SharePoint Online in Office 365. 
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)] 
   
 ![Configure a SharePoint hybrid solution](../media/ConfigureHybridSolution.jpg)
   

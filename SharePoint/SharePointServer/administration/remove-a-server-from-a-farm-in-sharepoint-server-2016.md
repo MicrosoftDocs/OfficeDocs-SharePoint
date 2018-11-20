@@ -1,5 +1,5 @@
 ---
-title: "Remove a server from a farm in SharePoint Servers 2016 or 2019 Public Preview"
+title: "Remove a server from a farm in SharePoint Servers 2016 or 2019"
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
@@ -11,18 +11,18 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: acb2d589-6c19-4b6b-9cd1-5e334ba4f2cd
-description: "Summary: Learn how to remove a server from a SharePoint Servers 2016 or 2019 Public Preview farm."
+description: "Learn how to remove a server from a SharePoint Server farm."
 ---
 
-# Remove a server from a farm in SharePoint Servers 2016 or 2019 Public Preview
+# Remove a server from a farm in SharePoint Servers 2016 or 2019
 
- **Summary:** Learn how to remove a server from a SharePoint Servers 2016 or 2019 Public Preview farm. 
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)] 
   
     
 ## Removing a server from a SharePoint farm
 <a name="removewebappserver"> </a>
 
-For information about uninstallation procedures that SharePoint Servers 2016 or 2019 Public Preview support, see [Uninstall SharePoint Servers 2016 or 2019 Public Preview](uninstall-sharepoint-server-2016.md).
+For information about uninstallation procedures that SharePoint Servers 2016 or 2019 support, see [Uninstall SharePoint Servers 2016 or 2019](uninstall-sharepoint-server-2016.md).
   
 Removing a server that contains a search topology component can affect future search activities. The extent of that effect depends on the farm search topology. We recommend that you remove or relocate any search topology components from a server before removing the server from the farm.
   
@@ -45,7 +45,7 @@ To remove a server from a farm, you must first move any databases that are hoste
 You cannot remove a database server if it is the only database server available in the farm, or if it is the database server that hosts the configuration database.
   
 > [!CAUTION]
-> If you uninstall SharePoint Server 2016 or SharePoint Server 2019 Public Preview from the server that is running Central Administration, you will be unable to administer the server farm until you configure another server in the farm to host the Central Administration site. 
+> If you uninstall SharePoint Server 2016 or SharePoint Server 2019 from the server that is running Central Administration, you will be unable to administer the server farm until you configure another server in the farm to host the Central Administration site. 
   
 ### Remove a server from a SharePoint farm by using Microsoft PowerShell
 <a name="RemoveByPowerShell"> </a>
@@ -106,7 +106,7 @@ You can remove a server from the SharePoint farm by using the PSConfig.exe tool 
 ### Remove a server from a SharePoint farm by using Control Panel
 <a name="removewebappCP"> </a>
 
-You can remove a server from the farm by uninstalling SharePoint Server 2016 from the server through Control Panel. When you uninstall SharePoint Servers 2016 or 2019 Public Preview by using Control Panel, you disconnect the server from the farm, and then remove the program files and other information from the server.
+You can remove a server from the farm by uninstalling SharePoint Server 2016 from the server through Control Panel. When you uninstall SharePoint Servers 2016 or 2019 by using Control Panel, you disconnect the server from the farm, and then remove the program files and other information from the server.
   
  **To remove a server from a SharePoint farm by using Control Panel**
   
@@ -125,7 +125,7 @@ Verify that you have the following memberships:
   
 1. On the server that you want to remove from the farm, click **Start**, click **Control Panel**, and then double-click **Programs and Features**.
     
-2. In the list of currently installed programs, click **Microsoft SharePoint Server 2016** or **Microsoft SharePoint Server 2019 Public Preview** , and then click **Uninstall**.
+2. In the list of currently installed programs, click **Microsoft SharePoint Server 2016** or **Microsoft SharePoint Server 2019** , and then click **Uninstall**.
     
 3. Click **Continue** at the confirmation prompt to uninstall the program. 
     

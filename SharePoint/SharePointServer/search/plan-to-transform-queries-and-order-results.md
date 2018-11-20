@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 60a1110d-27dc-45d0-86e2-cddc72d072b2
-description: "Summary: Learn how you can transform queries to provide more targeted SharePoint Server search results and how you can influence the way search results are ordered and displayed."
+description: "Learn how you can transform queries to provide more targeted SharePoint Server search results and how you can influence the way search results are ordered and displayed."
 ---
 
 # Plan to transform queries and order results in SharePoint Server
 
- **Summary:** Learn how you can transform queries to provide more targeted SharePoint Server search results and how you can influence the way search results are ordered and displayed in the classic search experience.
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 You can add query transforms to a Web Part, add query rules that transform queries when certain conditions are met, and you can transform all queries directed to a result source to create a specialized search experience. 
   

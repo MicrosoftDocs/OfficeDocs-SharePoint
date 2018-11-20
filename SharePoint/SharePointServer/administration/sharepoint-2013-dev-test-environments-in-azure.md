@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 9cf0367c-ed53-4f14-9864-4ab984e40819
-description: "Summary: Create a basic or high-availability SharePoint 2013 dev/test farm in Microsoft Azure."
+description: "Create a basic or high-availability SharePoint dev/test farm in Microsoft Azure."
 ---
 
 # SharePoint 2013 dev/test environments in Azure
 
- **Summary:** Create a basic or high-availability SharePoint 2013 dev/test farm in Microsoft Azure. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 You can quickly create SharePoint 2013 dev/test environments in Microsoft Azure with the **SharePoint 2013 non-HA Farm** and **SharePoint 2013 HA Farm** Azure Resource Manager templates. These templates can save you a lot of time when you need a basic or high-availability SharePoint farm for a dev/test environment or if you are evaluating SharePoint Server 2013 as a collaboration solution for your organization. 
   

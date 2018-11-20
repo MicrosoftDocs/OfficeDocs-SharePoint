@@ -18,12 +18,12 @@ ms.collection:
 - Strat_SP_gtc
 ms.custom: 
 ms.assetid: 81ea6763-c331-453b-80f7-8028c3e551f8
-description: "Summary: Learn how to configure hybrid OneDrive for Business with Office 365."
+description: "Learn how to configure hybrid OneDrive for Business with Office 365."
 ---
 
 # Configure hybrid OneDrive for Business - roadmap
 
- **Summary:** Learn how to configure hybrid OneDrive for Business with Office 365. 
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
   
 This article provides the roadmap for configuring OneDrive for Business hybrid, which allows your users to use OneDrive for Business in Office 365 with SharePoint Server.
   

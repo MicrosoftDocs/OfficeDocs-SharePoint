@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: df979ec9-bdf7-4d96-b3a6-37213c45e5da
-description: "Summary: Learn how to change the Content Search Web Part display template and use Microsoft PowerShell to start Usage analytics in SharePoint Server 2016 and SharePoint Server 2013."
+description: "Learn how to change the Content Search Web Part display template and use Microsoft PowerShell to start Usage analytics in SharePoint Server."
 ---
 
 # Change the Content Search Web Part display template and use Windows PowerShell to start Usage analytics in SharePoint Server
 
- **Summary:** Learn how to change the Content Search Web Part display template and use Microsoft PowerShell to start Usage analytics in SharePoint Server 2016 and SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 > [!NOTE]
 > The examples in this series are based on an on-premises SharePoint Server deployment. 

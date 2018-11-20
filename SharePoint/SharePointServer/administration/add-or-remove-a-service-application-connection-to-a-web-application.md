@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 6a7cfa97-f4b1-4b3f-9b98-303ee1e836c2
-description: "Summary: Learn how to add or remove service application connections to a service application connection group in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to add or remove service application connections to a service application connection group in SharePoint Server."
 ---
 
 # Add or remove service application connections from a web application in SharePoint Server
 
- **Summary:** Learn how to add or remove service application connections to a service application connection group in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 When you create a service application in SharePoint Server, a service application connection is created. A service application connection is also referred to as an application proxy. A service application connection associates the service application to web applications via membership in a service application connection group (also referred to as application proxy group). 
   

@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: c78266d8-33de-4edc-94ea-b8110ac8db81
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleOne or more categories are configured with verbose trace loggingin SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: One or more categories are configured with verbose trace logging, for SharePoint Server."
 ---
 
 # One or more categories are configured with Verbose trace logging (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "One or more categories are configured with verbose trace logging" in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
  **Rule Name:** One or more categories are configured with Verbose trace logging. 
   

@@ -14,12 +14,12 @@ ms.collection:
 - Strat_SP_server
 ms.custom: 
 ms.assetid: 04812402-43d6-4605-960c-1dd5ec65bef1
-description: "Summary: Learn how to combine farm architecture and technology to create a highly available environment in a single SharePoint Server 2016 and SharePoint 2013 farm."
+description: "Learn how to combine farm architecture and technology to create a highly available environment in a single SharePoint Server farm."
 ---
 
 # Create a high availability architecture and strategy for SharePoint Server
 
- **Summary:** Learn how to combine farm architecture and technology to create a highly available environment in a single SharePoint Server 2016 and SharePoint 2013 farm. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 A high-availability strategy is an important requirement for a production SharePoint Server environment. An end-to-end strategy includes operational processes, platform governance, architecture, and technical solutions. This article focuses on the architectural and technical aspects of high availability. The guidance explains specific SharePoint design elements and the technical options that will determine your strategy for high availability.
   

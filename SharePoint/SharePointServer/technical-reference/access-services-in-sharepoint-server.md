@@ -12,10 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 0f33d9cc-7b26-4418-b901-bf773abaf574
-description: "Learn how to resolve alerts about Access Services in the SharePoint Server 2016 and SharePoint Server 2013 management pack for Systems Center Operations Manager (SCOM)."
+description: "Learn how to resolve alerts about Access Services in the SharePoint Server management pack for Systems Center Operations Manager (SCOM)."
 ---
 
 # Access Services in SharePoint Server knowledge articles
+
+[!INCLUDE[appliesto-2013-2016-xxx-xxx-md](../includes/appliesto-2013-2016-xxx-xxx-md.md)]
 
 Learn how to resolve alerts about Access Services in the SharePoint Server 2016 and SharePoint Server 2013 management pack for Systems Center Operations Manager (SCOM).
   

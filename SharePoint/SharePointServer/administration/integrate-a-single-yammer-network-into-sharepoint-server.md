@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 58901f1a-dbc9-46ca-8b51-e683ea5f2ce3
-description: "Summary: Learn how to integrate a single, active Yammer network together with your SharePoint Server environment."
+description: "Learn how to integrate a single, active Yammer network together with your SharePoint Server environment."
 ---
 
 # Integrate a single Yammer network into SharePoint Server
 
- **Summary:** Learn how to integrate a single, active Yammer network together with your SharePoint Server environment. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 This scenario describes the prerequisites and recommended steps to integrate a single, active Yammer network together with your SharePoint Server environment.
   
@@ -22,7 +22,7 @@ This scenario describes the prerequisites and recommended steps to integrate a s
 
 For this scenario, we assume that:
   
-- You have SharePoint Server 2019 Public Preview, SharePoint Server 2016, or SharePoint Server 2013 SP1 or later installed.
+- You have SharePoint Server 2019, SharePoint Server 2016, or SharePoint Server 2013 SP1 or later installed.
     
 - You don't use the SharePoint Server Newsfeed social feature.
     

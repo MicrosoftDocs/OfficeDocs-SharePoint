@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 85aa1c35-1322-42ad-a625-1496aee67858
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleDatabases within this farm are set to read only and will fail to upgrade unless it is set to a read-write statein SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: Databases within this farm are set to read only and will fail to upgrade unless it is set to a read-write state, for SharePoint Server."
 ---
 
 # Databases within this farm are set to read only and will fail to upgrade unless it is set to a read-write state (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "Databases within this farm are set to read only and will fail to upgrade unless it is set to a read-write state" in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
  **Rule Name:** Databases within this farm are set to read only and will fail to upgrade unless it is set to a read-write state. 
   

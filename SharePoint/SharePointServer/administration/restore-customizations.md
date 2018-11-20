@@ -3,7 +3,6 @@ title: "Restore customizations in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 3/10/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -12,12 +11,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 38147eec-d89a-478a-956a-779fe76c6679
-description: "Summary: Learn how to restore customizations that are made to SharePoint Server 2016 and SharePoint 2013 sites."
+description: "Learn how to restore customizations that are made to SharePoint Server sites."
 ---
 
 # Restore customizations in SharePoint Server
 
- **Summary:** Learn how to restore customizations that are made to SharePoint Server 2016 and SharePoint 2013 sites. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 You can restore any customizations that are made to SharePoint Server by using Central Administration or PowerShell. The restore tool that you use depends on the kind of environment that you have deployed, your schedule requirements, and what service level agreements that you have made with your organization.
   
@@ -69,13 +68,13 @@ Sandboxed solutions are solutions that site collection administrators can deploy
 
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
-    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
+     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
     > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
@@ -84,17 +83,17 @@ Sandboxed solutions are solutions that site collection administrators can deploy
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  Restore-SPFarm -Directory <BackupFolder> -RestoreMethod Overwrite -BackupId <GUID> -Item <SolutionPath>
-  ```
+   ```
+   Restore-SPFarm -Directory <BackupFolder> -RestoreMethod Overwrite -BackupId <GUID> -Item <SolutionPath>
+   ```
 
     Where:
     
-  -  _\<BackupFolder\>_ is the UNC location of the directory that you want to restore from. 
+   -  _\<BackupFolder\>_ is the UNC location of the directory that you want to restore from. 
     
-  -  _\<GUID\>_ is the GUID of the backup ID that you want to restore from. If you do not specify a backup, the most recent one is used. 
+   -  _\<GUID\>_ is the GUID of the backup ID that you want to restore from. If you do not specify a backup, the most recent one is used. 
     
-  -  _\<SolutionPath\>_ is the path of the solution within the backup tree (usually farm\solutions\  _SolutionName_).
+   -  _\<SolutionPath\>_ is the path of the solution within the backup tree (usually farm\solutions\  _SolutionName_).
     
 For more information, see [Restore-SPFarm](http://technet.microsoft.com/library/a4a83bb0-0bab-4cad-9b59-0fd89a16f57b.aspx). 
   

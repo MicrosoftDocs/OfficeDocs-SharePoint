@@ -12,10 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 38095e9b-5b48-4d2a-a787-3f7900b138e0
-description: "Learn how to resolve alerts about the Machine Translation service in the SharePoint Server 2016 and SharePoint Server 2013 management pack for Systems Center Operations Manager (SCOM)."
+description: "Learn how to resolve alerts about the Machine Translation service in the SharePoint Server management pack for Systems Center Operations Manager (SCOM)."
 ---
 
 # Machine Translation service in SharePoint Server knowledge articles
+
+[!INCLUDE[appliesto-2013-2016-xxx-xxx-md](../includes/appliesto-2013-2016-xxx-xxx-md.md)]
 
 Learn how to resolve alerts about the Machine Translation service in the SharePoint Server 2016 and SharePoint Server 2013 management pack for Systems Center Operations Manager (SCOM).
   

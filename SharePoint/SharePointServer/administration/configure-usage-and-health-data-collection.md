@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 33ed78c8-25fc-48ea-b0c1-50b540213cff
-description: "Summary: Learn how to configure usage and health data collection in SharePoint Server 2016 and SharePoint Server 2013."
+description: "Learn how to configure usage and health data collection in SharePoint Server."
 ---
 
 # Configure usage and health data collection in SharePoint Server
 
- **Summary:** Learn how to configure usage and health data collection in SharePoint Server 2016 and SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 SharePoint Server writes usage and health data to the logging folder and to the logging database. You can use the SharePoint Central Administration website to configure health data collection settings.
   
@@ -53,7 +53,7 @@ The usage and health data settings are farm-wide and cannot be set for individua
     
     These settings are applied to all events. 
     
-7. In the **Health Data Collection** section, select the **Enable health data collection** check box. To change the collection schedules, click **Health Logging Schedule**. You can see a list of timer jobs that collect health data. Click any of the timer jobs to change its schedule, or disable that timer job. If you disable a timer job, it stops collecting corresponding health data. For more information, see [Timer job reference for SharePoint Server 2016](../technical-reference/timer-job-reference-for-sharepoint-server-2016.md).
+7. In the **Health Data Collection** section, select the **Enable health data collection** check box. To change the collection schedules, click **Health Logging Schedule**. You can see a list of timer jobs that collect health data. Click any of the timer jobs to change its schedule, or disable that timer job. If you disable a timer job, it stops collecting corresponding health data. For more information, see Default timer jobs in SharePoint Server 2016](../technical-reference/default-timer-jobs-in-sharepoint-server-2016.md).
     
 8. To change log collection schedules, click **Log Collection Schedule**, and then click any of the timer jobs to change its schedule, or disable that timer job. If you disable a timer job, it stops collecting corresponding log data.
     

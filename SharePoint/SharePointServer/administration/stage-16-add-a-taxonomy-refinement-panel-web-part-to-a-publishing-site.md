@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 7b98ece5-14c4-4751-acf9-d280c3bc44ab
-description: "Summary: Learn how to add a taxonomy refinement panel web part to a publishing site in SharePoint Server 2016."
+description: "Learn how to add a taxonomy refinement panel web part to a publishing site in SharePoint Server 2016."
 ---
 
 # Stage 16: Add a Taxonomy Refinement Panel Web Part to a publishing site in SharePoint Server
 
- **Summary:** Learn how to add a taxonomy refinement panel web part to a publishing site in SharePoint Server 2016. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 > [!NOTE]
 > Most of the features described in this series are available only for private sites collections in SharePoint Online. 

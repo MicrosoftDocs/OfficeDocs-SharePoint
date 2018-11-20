@@ -3,7 +3,6 @@ title: "Copy configuration settings between farms in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 9/14/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -12,12 +11,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 8404adef-6bfb-4795-be16-15739e1212f5
-description: "Summary: Learn how to copy configuration settings from one SharePoint Server 2016 or SharePoint 2013 farm to another."
+description: "Learn how to copy configuration settings from one SharePoint Server farm to another."
 ---
 
 # Copy configuration settings between farms in SharePoint Server
 
- **Summary:** Learn how to copy configuration settings from one SharePoint Server 2016 or SharePoint 2013 farm to another. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 You can copy configuration settings between SharePoint Server farms by using Microsoft PowerShell. 
   
@@ -63,45 +62,45 @@ To copy configuration settings by using a farm backup, we recommend that you fir
     
 3. At the PowerShell command prompt, type the following command to document the current Web application URLs and content database mappings.
     
-  ```
-  Get-SPWebApplication | %{$_.Name;$_.Url;%{$_.ContentDatabases|%{$_.Name};Write-Host ""}}
-  ```
+   ```
+   Get-SPWebApplication | %{$_.Name;$_.Url;%{$_.ContentDatabases|%{$_.Name};Write-Host ""}}
+   ```
 
 4. Either unmount all content databases, as in the following example:
     
-  ```
-  Get-SPContentDatabase | Dismount-SPContentDatabase
-  ```
+   ```
+   Get-SPContentDatabase | Dismount-SPContentDatabase
+   ```
 
-    Or unmount a specific content database, as in the following example:
+   Or unmount a specific content database, as in the following example:
     
-  ```
-  Get-SPContentDatabase WSS_Content | Dismount-SPContentDatabase
-  ```
+   ```
+   Get-SPContentDatabase WSS_Content | Dismount-SPContentDatabase
+   ```
 
 5. Back up the farm.
     
-  ```
-  Backup-SPFarm -Directory \\servername\share -BackupMethod Full
+   ```
+   Backup-SPFarm -Directory \\servername\share -BackupMethod Full
   
-  ```
+   ```
 
     > [!NOTE]
     > You can view the progress of the backup by looking at the  _\\servername\share\spbr####_\spbackup.log file. 
   
 6. After the backup is complete, re-mount the content databases.
     
-  ```
-  Mount-SPContentDatabase -Name <WSS_Content> -WebApplication <http://servername>
-  ```
+   ```
+   Mount-SPContentDatabase -Name <WSS_Content> -WebApplication <http://servername>
+   ```
 
     Replace the placeholders with each of the mappings documented in step 1.
     
     Where:
     
-  -  _\<WSS_Content\>_ is the \<name and ID of the database\>. 
+    -  _\<WSS_Content\>_ is the \<name and ID of the database\>. 
     
-  -  _\<http://servername\>_ is \<the URL of the Web Application\>. 
+    -  _\<http://servername\>_ is \<the URL of the Web Application\>. 
     
 For more information, see [Mount-SPContentDatabase](http://technet.microsoft.com/library/ea38119d-a535-48a3-b498-9daa443399fb.aspx). 
   

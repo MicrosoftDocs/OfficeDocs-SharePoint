@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 3a25437a-e994-42c7-b4df-ac9fa29f38f5
-description: "Summary: Learn how to configure permissions for backup and restore operations in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to configure permissions for backup and restore operations in SharePoint Server."
 ---
 
 # Configure backup and restore permissions in SharePoint Server
 
- **Summary:** Learn how to configure permissions for backup and restore operations in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 You can configure backup and restore permissions for SharePoint Server by using the SharePoint Central Administration website or Microsoft PowerShell. The backup tool that you use depends on the kind of environment that you have deployed, your backup schedule requirements, and service level agreements that you have made with your organization.
   
@@ -56,17 +56,17 @@ You can run the **Add-SPShellAdmin** cmdlet to add a user account to this role. 
 > You only have to grant a user account access to back up and restore a specific farm component one time. You will have to perform this task again only when you add new farm components to your environment or when you want to add users to perform backup and restore operations. 
   
 > [!IMPORTANT]
-> The **Add-SPShellAdmin** cmdlet grants the SPDataAccess role but this is not enough to complete the restore operation. This is because the **restore-spsite** cmdlet uses direct insert statements to add content rather than stored procedures which accommodate other interactions. The **Add-SPShellAdmin** cmdlet worked fine in SharePoint 2010 because as part of the SPDataAccess schema it added dbo permissions. For SharePoint Server 2016 and SharePoint 2013 the **db_owner** fixed database role permissions are required to complete restore operations from the SharePoint Management Shell. 
+> The **Add-SPShellAdmin** cmdlet grants the SPDataAccess role but this is not enough to complete the restore operation. This is because the **restore-spsite** cmdlet uses direct insert statements to add content rather than stored procedures which accommodate other interactions. The **Add-SPShellAdmin** cmdlet worked fine in SharePoint 2010 because as part of the SPDataAccess schema it added dbo permissions. For SharePoint Servers 2019, 2016 and 2013 the **db_owner** fixed database role permissions are required to complete restore operations from the SharePoint Management Shell. 
   
  **To add a user to or remove a user from the SharePoint_Shell_Access role by using PowerShell**
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
@@ -77,41 +77,41 @@ You can run the **Add-SPShellAdmin** cmdlet to add a user account to this role. 
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  Add-SPShellAdmin -Username <User account> -Database <Database ID>
-  ```
+   ```
+   Add-SPShellAdmin -Username <User account> -Database <Database ID>
+   ```
 
     Where:
     
-  -  _\<Database ID\>_ is the GUID assigned to the database. 
+   -  _\<Database ID\>_ is the GUID assigned to the database. 
     
     To add a user account to all the databases in the farm, type the following command:
     
-  ```
-  ForEach ($db in Get-SPDatabase) {Add-SPShellAdmin -Username <User account> -Database $db}
-  ```
+   ```
+   ForEach ($db in Get-SPDatabase) {Add-SPShellAdmin -Username <User account> -Database $db}
+   ```
 
     Where:
     
-  -  _\<User account\>_ is the user whose account you want to add. 
+   -  _\<User account\>_ is the user whose account you want to add. 
     
     To remove a user account from all the databases in the farm, type the following command:
     
-  ```
-  ForEach ($db in Get-SPDatabase) {Remove-SPShellAdmin -Username <User account> -Database $db}
-  ```
+   ```
+   ForEach ($db in Get-SPDatabase) {Remove-SPShellAdmin -Username <User account> -Database $db}
+   ```
 
     Where:
     
-  -  _\<User account\>_ is the user whose account you want to remove. 
+   -  _\<User account\>_ is the user whose account you want to remove. 
     
     To view the user accounts currently added to the databases in the farm, type the following command:
     
-  ```
-  ForEach ($db in Get-SPDatabase) {Get-SPShellAdmin -Database $db}
-  ```
+   ```
+   ForEach ($db in Get-SPDatabase) {Get-SPShellAdmin -Database $db}
+   ```
 
-For more information, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx).
+For more information, see [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
   
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 

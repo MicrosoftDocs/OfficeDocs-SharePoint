@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 41ec2552-43cd-471a-ba22-1962297758c0
-description: "Summary: Learn how to create a Microsoft Business Connectivity Services service application in SharePoint Server 2013 and SharePoint Server 2016."
+description: "Learn how to create a Microsoft Business Connectivity Services service application in SharePoint Server."
 ---
 
 # Configure a Business Data Connectivity service application in SharePoint Server
 
- **Summary:** Learn how to create a Microsoft Business Connectivity Services service application in SharePoint Server 2013 and SharePoint Server 2016. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 Microsoft Business Connectivity Services is a SharePoint Server service application. You must create it if it was not created during your farms initial configuration.
   

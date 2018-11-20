@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: e6600dfa-7f96-4c6f-a1be-b7ad348ac30f
-description: "Summary: Learn how to set up and configure My Sites in SharePoint Server 2013 and SharePoint Server 2016."
+description: "Learn how to set up and configure My Sites in SharePoint Server."
 ---
 
 # Configure My Sites in SharePoint Server
 
- **Summary:** Learn how to set up and configure My Sites in SharePoint Server 2013 and SharePoint Server 2016. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 This article describes how to set up My Sites in SharePoint Server. Like other tasks in SharePoint Server, there are multiple ways to complete a task. This article provides ordered tasks with prerequisites and procedures to help you set up My Sites in your enterprise.
   

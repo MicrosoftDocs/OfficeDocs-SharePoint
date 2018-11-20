@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 85d03a6f-83ec-498d-b8a5-775b2c4fe74e
-description: "Summary: Convert SharePoint 2010 Products or SharePoint 2013 classic-mode web applications to claims-based authentication or create new claims-based web applications in SharePoint 2013."
+description: "Convert SharePoint 2010 Products or SharePoint 2013 classic-mode web applications to claims-based authentication or create new claims-based web applications in SharePoint 2013."
 ---
 
 # Migrate from classic-mode to claims-based authentication in SharePoint 2013
 
- **Summary:** Convert SharePoint 2010 Products or SharePoint 2013 classic-mode web applications to claims-based authentication or create new claims-based web applications in SharePoint 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
   
 Claims-based authentication is an essential component to enable the advanced functionality of SharePoint 2013. To move classic-mode web applications from SharePoint 2010 Products to SharePoint 2013, you can convert them to claims-based web applications within SharePoint 2010 Products, and then migrate them to SharePoint 2013. The procedures in this article illustrate various supported scenarios.
   

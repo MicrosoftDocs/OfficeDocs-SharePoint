@@ -3,7 +3,6 @@ title: "SharePoint Health Analyzer rules reference for SharePoint Server 2016"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 9/7/2017
 ms.audience: ITPro
 ms.topic: hub-page
 ms.prod: sharepoint-server-itpro
@@ -12,12 +11,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: cccccea9-fda2-4640-ad91-a1d39bdcdfc8
-description: "Summary: Learn how to troubleshoot problems in SharePoint Server 2016 and SharePoint 2013 using SharePoint Health Analyzer rules."
+description: "Learn how to troubleshoot problems in SharePoint Server using SharePoint Health Analyzer rules."
 ---
 
-# SharePoint Health Analyzer rules reference for SharePoint Server 2016
+# SharePoint Health Analyzer rules reference for SharePoint Server
 
- **Summary:** Learn how to troubleshoot problems in SharePoint Server 2016 and SharePoint 2013 using SharePoint Health Analyzer rules. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 The Health Analyzer rules in this section are arranged by categories, as they appear in the Health Analyzer Rule Definitions page in the SharePoint Central Administration website.
   
@@ -45,7 +44,7 @@ The following Health Analyzer rules relate to performance for SharePoint Server:
     
 - [Databases used by SharePoint have fragmented indices (SharePoint Server)](databases-used-by-sharepoint-have-fragmented-indices.md)
     
-- [Databases exist on servers running SharePoint Foundation (SharePointServer)](databases-exist-on-servers-running-sharepoint-foundation.md)
+- [Databases exist on servers running SharePoint Foundation (SharePoint Server)](databases-exist-on-servers-running-sharepoint-foundation.md)
     
 - [The paging file size should exceed the amount of physical RAM in the system (SharePoint Server)](the-paging-file-size-should-exceed-the-amount-of-physical-ram-in-the-system.md)
     
@@ -57,13 +56,13 @@ The following Health Analyzer rules relate to performance for SharePoint Server:
     
 - [The Visio Graphics Service has a maximum Web Drawing Size setting that will adversely impact performance (SharePoint Server)](the-visio-graphics-service-has-a-maximum-web-drawing-size-setting-that-will-adve.md)
     
-- [The Visio Graphics Service has a maximum recalc duration setting that will adversely impact user perceived performance ((SharePoint Server)](the-visio-graphics-service-has-a-maximum-recalc-duration-setting-that-will-adver.md)
+- [The Visio Graphics Service has a maximum recalc duration setting that will adversely impact user perceived performance (SharePoint Server)](the-visio-graphics-service-has-a-maximum-recalc-duration-setting-that-will-adver.md)
     
-- [The Visio Graphics Service has a minimum cache age setting that will adversely impact performance ((SharePoint Server)](the-visio-graphics-service-has-a-minimum-cache-age-setting-that-will-adversely-i.md)
+- [The Visio Graphics Service has a minimum cache age setting that will adversely impact performance (SharePoint Server)](the-visio-graphics-service-has-a-minimum-cache-age-setting-that-will-adversely-i.md)
     
-- [The Visio Graphics Service has a minimum cache age setting that may cause a security issue ((SharePoint Server)](the-visio-graphics-service-has-a-minimum-cache-age-setting-that-may-cause-a-secu.md)
+- [The Visio Graphics Service has a minimum cache age setting that may cause a security issue (SharePoint Server)](the-visio-graphics-service-has-a-minimum-cache-age-setting-that-may-cause-a-secu.md)
     
-- [The Visio Graphics Service has a maximum cache size setting that may adversely impact performance ((SharePoint Server)](the-visio-graphics-service-has-a-maximum-cache-size-setting-that-may-adversely-i.md)
+- [The Visio Graphics Service has a maximum cache size setting that may adversely impact performance (SharePoint Server)](the-visio-graphics-service-has-a-maximum-cache-size-setting-that-may-adversely-i.md)
     
 - [Search - One or more crawl databases may have fragmented indices (SharePoint Server)](searchone-or-more-crawl-databases-may-have-fragmented-indices.md)
     
@@ -86,6 +85,8 @@ The following Health Analyzer rules relate to configuration of SharePoint Server
 - [Databases require upgrade or not supported (SharePoint Server)](databases-require-upgrade-or-not-supported.md)
     
 - [One or more categories are configured with Verbose trace logging (SharePoint Server)](one-or-more-categories-are-configured-with-verbose-trace-logging.md)
+
+- [One or more servers can't retrieve the outgoing email credentials (SharePoint Server 2019)](one-or-more-servers-can-t-retrieve-the-outgoing-email-credentials.md)
     
 - [Outbound e-mail has not been configured (SharePoint Server)](outbound-e-mail-has-not-been-configured.md)
     

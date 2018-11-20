@@ -12,12 +12,12 @@ ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server
 ms.assetid: 91274b73-f7be-4066-a4ab-ec30af30016e
-description: "Summary: Learn how to configure inbound connectivity for SharePoint hybrid."
+description: "Learn how to configure inbound connectivity for SharePoint hybrid."
 ---
 
 # Configure connectivity from Office 365 to SharePoint Server
 
- **Summary:** Learn how to configure inbound connectivity for SharePoint hybrid. 
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
   
  **This article is part of a roadmap of procedures for configuring SharePoint hybrid solutions. Be sure you're [following a roadmap](configuration-roadmaps.md) when you do the procedures in this article. **
   

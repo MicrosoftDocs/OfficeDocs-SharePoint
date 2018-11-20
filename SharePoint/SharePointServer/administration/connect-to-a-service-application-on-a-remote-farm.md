@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: e8f2c08c-8e9f-40b4-b066-747d65dcb0e4
-description: "Summary: Learn how to connect to and consume a published service application in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to connect to and consume a published service application in SharePoint Server."
 ---
 
 # Connect to service applications on remote farms in SharePoint Server
 
- **Summary:** Learn how to connect to and consume a published service application in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 In SharePoint Server, you can publish some service applications to make them available over remote connections. By publishing a service application, you can optimize resources and avoid redundancy, and provide enterprise-wide services without installing a dedicated enterprise services farm.
   

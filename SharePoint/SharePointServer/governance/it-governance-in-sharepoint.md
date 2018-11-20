@@ -14,12 +14,12 @@ ms.collection:
 - Strat_SP_gtc
 ms.custom: 
 ms.assetid: 7c75dc80-6910-4c10-a9a0-d821bedd602d
-description: "Summary: Learn about key factors in governing a SharePoint 2013 service and what to include in a service-level agreement."
+description: "Learn about key factors in governing a SharePoint service and what to include in a service-level agreement."
 ---
 
 # IT governance in SharePoint
 
- **Summary:** Learn about key factors in governing a SharePoint 2013 service and what to include in a service-level agreement. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 How will you control the services that you offer? What will you provide with each service? What will you include in service-level agreements for each service? And how do you prevent proliferation of unmanaged servers? These questions should be answered as part of your IT governance plan. 
   

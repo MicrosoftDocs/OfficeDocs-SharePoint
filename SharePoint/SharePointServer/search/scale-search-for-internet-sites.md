@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 651dba4d-8751-4bd8-9492-f2842b2e1177
-description: "Summary: Determine hardware requirements and review considerations to scale out SharePoint Server search topologies for Internet sites for performance and availability."
+description: "Determine hardware requirements and review considerations to scale out SharePoint Server search topologies for Internet sites for performance and availability."
 ---
 
 # Scale search for Internet sites in SharePoint Server
 
- **Summary:** Determine hardware requirements and review considerations to scale out SharePoint Server search topologies for Internet sites for performance and availability. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 This article lists the minimum hardware requirements for virtual machines and physical servers for search topologies for Internet sites.
   

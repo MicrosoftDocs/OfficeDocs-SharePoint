@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 67ca55e8-4d99-4346-b6ef-774e897ce992
-description: "Summary: Make sure that your environment is in a healthy state, and delete unnecessary items before you upgrade to SharePoint 2013."
+description: "Make sure that your environment is in a healthy state, and delete unnecessary items before you upgrade to SharePoint."
 ---
 
 # Clean up an environment before an upgrade to SharePoint 2013
 
- **Summary:** Make sure that your environment is in a healthy state, and delete unnecessary items before you upgrade to SharePoint 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 Before you start to upgrade from SharePoint 2010 Products to SharePoint 2013, you should make sure that your environment is functioning in a healthy state and that you clean up any content that you do not have to upgrade. You can also take the time to remove or rearrange content so that you will have the structure that you want after you perform the upgrade.
   

@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: e00cc8ed-8a01-4928-9175-49efe03288a1
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleCritical state of this rule indicates that the Word Automation Services is not running when it should be runningin SharePoint Server 2016 and SharePoint Server 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: Critical state of this rule indicates that the Word Automation Services is not running when it should be running, for SharePoint Server."
 ---
 
 # Critical state of this rule indicates that the Word Automation Services is not running when it should be running (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "Critical state of this rule indicates that the Word Automation Services is not running when it should be running" in SharePoint Server 2016 and SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
  **Rule Name:** Critical state of this rule indicates that the Word Automation Services is not running when it should be running. 
   

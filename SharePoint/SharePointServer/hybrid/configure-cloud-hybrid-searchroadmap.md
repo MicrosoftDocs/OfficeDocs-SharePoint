@@ -21,6 +21,8 @@ description: "Learn how to configure cloud hybrid search for SharePoint Server b
 
 # Configure cloud hybrid search - roadmap
 
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+
 Learn how to configure [cloud hybrid search](https://support.office.com/article/af830951-8ddf-48b2-8340-179c1cc4d291) for SharePoint Server by setting up a cloud Search service application in your SharePoint Server environment and connecting it to your search index in Office 365. 
   
 This article describes how you set up cloud hybrid search in an environment with SharePoint Server and SharePoint Online for Office 365 for enterprises. With the cloud hybrid search solution, you add crawled metadata from all your content, including on-premises content, to your search index in Office 365. When users search in Office 365, they get search results from both on-premises and from Office 365 content.
@@ -310,6 +312,13 @@ You might find this guidance useful:
 After setting up and validating the planned search experiences, you might want to clear your search index in Office 365 for metadata from the on-premises content you've used during this work. This works differently from what you might be familiar with from SharePoint Server.
   
 In the SharePoint Central Administration website you can use the option "Index reset" for an SSA to remove all content from the search index. This option does not work for cloud hybrid search because there is no direct communication between the cloud SSA in SharePoint Server and the search index in Office 365. If you only want to remove some on-premises metadata, remove that on-premises content source, or create a crawl rule that doesn't crawl the URL of a file. If you need to remove all metadata from on-premises content from the search index in Office 365, open a ticket with [Microsoft Support](https://support.microsoft.com/en-us/assistedsupportproducts).
+
+## Proxy Considerations
+<a name="BKMK_SearchProxy"> </a>
+
+If the SharePoint farm is behind a forward proxy (that is, traffic destined for the Internet must be sent through a proxy server), it may be necessary to configure additional proxy settings. Follow the steps outlined in [Configure proxy server settings for Search in SharePoint Server](../search/configure-proxy-server-settings-for-search.md).
+
+In addition, it may be necessary to configure the `machine.config` to support the proxy. This file resides at `C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\machine.config`. More information on configuring the appropriate element can be found at [Network Settings Schema](https://docs.microsoft.com/en-us/dotnet/framework/configure-apps/file-schema/network/defaultproxy-element-network-settings).
   
 ## Related Topics
 <a name="BKMK_TuneCloudHybridSearch"> </a>

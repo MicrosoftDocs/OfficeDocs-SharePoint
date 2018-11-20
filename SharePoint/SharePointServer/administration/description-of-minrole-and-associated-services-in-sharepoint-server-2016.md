@@ -1,5 +1,5 @@
 ---
-title: "Description of MinRole and associated services in SharePoint Servers 2016 and 2019 Public Preview"
+title: "Description of MinRole and associated services in SharePoint Servers 2016 and 2019"
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
@@ -12,21 +12,21 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 00c33e26-dacb-47d4-97b8-84659095b108
-description: "Summary: Learn about the MinRole feature in SharePoint Servers 2016 and 2019 Public Preview and the services that are associated with each server role."
+description: "Learn about the MinRole feature in SharePoint Server and the services that are associated with each server role."
 ---
 
-# Description of MinRole and associated services in SharePoint Servers 2016 and 2019 Public Preview
+# Description of MinRole and associated services in SharePoint Servers 2016 and 2019
 
- **Summary:** Learn about the MinRole feature in SharePoint Servers 2016 and 2019 Public Preview and the services that are associated with each server role. 
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)] 
   
-The MinRole feature in SharePoint Servers 2016 and 2019 Public Preview lets SharePoint farm administrators assign each server's role in a farm topology. The role of a server is specified when you create a new farm or join a server to an existing farm.
+The MinRole feature in SharePoint Servers 2016 and 2019 lets SharePoint farm administrators assign each server's role in a farm topology. The role of a server is specified when you create a new farm or join a server to an existing farm.
   
 This article describes the services associated with each server role. These services are listed in Central Administration -> System settings -> Manage services in this farm, or by running the Get-SPService cmdlet. The service instances for some services are hidden because they are internal to the operation of SharePoint and not meant to be directly controlled. To retrieve a list of services instances on a server, including hidden services, use this syntax,  `(Get-SPServer <server_name>).ServiceInstances`.
   
 > [!NOTE]
 > The services listed is the list of what will be running on each server role if all of the services are enabled. Services associated with service applications will only be enabled if the farm administrator provisions that service application. Services that aren't associated with service applications will only be running if Auto Provision is enabled on that service. 
   
-For additional information about the MinRole feature in SharePoint Server 2016, see [Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019 Public Preview](../install/overview-of-minrole-server-roles-in-sharepoint-server.md).
+For additional information about the MinRole feature in SharePoint Server 2016, see [Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019](../install/overview-of-minrole-server-roles-in-sharepoint-server.md).
   
 ## MinRole and associated services for each server role
 
@@ -47,10 +47,10 @@ The following table shows the services for each server role.
 
 #### Concepts
 
-[Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019 Public Preview](../install/overview-of-minrole-server-roles-in-sharepoint-server.md)
+[Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019](../install/overview-of-minrole-server-roles-in-sharepoint-server.md)
 #### Other Resources
 
-[Planning for a MinRole server deployment in SharePoint Servers 2016 and 2019 Public Preview](../install/planning-for-a-minrole-server-deployment-in-sharepoint-server.md)
+[Planning for a MinRole server deployment in SharePoint Servers 2016 and 2019](../install/planning-for-a-minrole-server-deployment-in-sharepoint-server.md)
   
-[Managing a MinRole Server Farm in SharePoint Servers 2016 and 2019 Public Preview](managing-a-minrole-server-farm-in-sharepoint-server-2016.md)
+[Managing a MinRole Server Farm in SharePoint Servers 2016 and 2019](managing-a-minrole-server-farm-in-sharepoint-server-2016.md)
 

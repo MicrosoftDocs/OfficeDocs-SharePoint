@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 40117fda-70a0-4e3d-8cd3-0def768da16c
-description: "Summary: Plan how to use various user authentication methods to create a secure experience for web application users in SharePoint Server 2013 and SharePoint Server 2016."
+description: "Plan how to use various user authentication methods to create a secure experience for web application users in SharePoint Server."
 ---
 
 # Plan for user authentication methods in SharePoint Server
 
- **Summary:** Plan how to use various user authentication methods to create a secure experience for web application users in SharePoint Server 2013 and SharePoint Server 2016. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]  
   
 Learn the user authentication types and methods that are supported by SharePoint Server and how to determine which ones to use for web applications and zones.
   
