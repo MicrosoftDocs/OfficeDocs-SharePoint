@@ -3,7 +3,6 @@ title: "Manage a connection to a document center or a records center in SharePoi
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 3/9/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -37,7 +36,7 @@ Use this procedure to create a connection to a document repository or a records 
 
 1. To create a connection, you must be a member of the Farm Administrators group.
     
-2. On the SharePoint Central Administration website, in the **General Application Settings** section, in the **External Service Connections** section, select **Configure Send To Connections**.
+2. On the SharePoint Central Administration website, click **General Application Settings** and in the **External Service Connections** section, select **Configure Send To Connections**.
     
 3. On the **Configure Send To Connections** page, in the **Web Application** field, select the web application that hosts the site collections from which documents will be sent. 
     
@@ -75,7 +74,7 @@ Use this procedure to modify an existing connection to a document repository or 
 
 1. To modify a connection, you must be a member of the Farm Administrators group.
     
-2. On the Central Administration website, in the **General Application Settings** section, select **Configure Send To Connections**.
+2. On the Central Administration website, click **General Application Settings**, and select **Configure Send To Connections**.
     
 3. On the **Configure Send To Connections** page, in the **Web Application** field, select the web application that contains the site collections that use this connection. 
     
@@ -94,7 +93,7 @@ Use this procedure to delete an existing connection to a document repository or 
 
 1. To delete a connection, you must be a member of the Farm Administrators group.
     
-2. On the Central Administration website, in the **General Application Settings** section, select **Configure Send To Connections**.
+2. On the Central Administration website, click **General Application Settings**, and select **Configure Send To Connections**.
     
 3. On the **Configure Send To Connections** page, in the **Web Application** field, select the web application that contains the site collections that use this connection. 
     
