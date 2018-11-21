@@ -237,7 +237,7 @@ You can restore farm-wide access to a service application by adding the local fa
     
 ### <a name="ProcWPSGetFID"></a>To retrieve the local farm ID by using PowerShell
 
-1. This procedure starts after step 4 of the [To start a Microsoft PowerShell session ](#ProcInitWPS) procedure. 
+1. This procedure starts after step 4 of the [To start a Microsoft PowerShell session ](#Section2WPS) procedure. 
     
 2. The following command retrieves the local farm ID, stores it in the  _$farmID_ variable, and displays the ID at the command prompt: 
     
