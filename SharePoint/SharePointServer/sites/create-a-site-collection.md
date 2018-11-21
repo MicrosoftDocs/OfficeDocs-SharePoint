@@ -41,33 +41,29 @@ You typically use the SharePoint Central Administration website to create a site
   
 1. Verify that you have the following administrative credentials:
     
-  - To create a site collection, you must be a member of the Farm Administrators SharePoint group on the computer that is running the SharePoint Central Administration website.
+   - To create a site collection, you must be a member of the Farm Administrators SharePoint group on the computer that is running the SharePoint Central Administration website.
     
-2. Open Central Administration.
+2. Open Central Administration and in the **Application Management** section, click **Create site collections**.
     
-3. On the Central Administration website, in the **Application Management** section, click **Create site collections**. 
+3. On the **Create Site Collection** page, in the **Web Application** section, if the web application in which you want to create the site collection is not selected, on the **Web Application** menu, click **Change Web Application**, and then click the web application in which you want to create the site collection.
     
-4. On the **Create Site Collection** page, in the **Web Application** section, if the web application in which you want to create the site collection is not selected, on the **Web Application** menu, click **Change Web Application**, and then click the web application in which you want to create the site collection.
+4. In the **Title and Description** section, type the title and description for the site collection. 
     
-5. In the **Title and Description** section, type the title and description for the site collection. 
-    
-6. In the **Web Site Address** section, select the path to use for your URL (for example, a wildcard inclusion path such as /sites/, or the root directory (/). 
+5. In the **Web Site Address** section, select the path to use for your URL (for example, a wildcard inclusion path such as /sites/, or the root directory (/). 
     
     If you select a wildcard inclusion path, you must also type the site name to use in your site's URL.
     
-7. In the **Template Selection** section, in the **Select a template** list, choose the tab you want for the site collection ( **Collaboration**, **Enterprise**, or **Publishing**), and then select the template that you want to use for the top-level site in the site collection. You can also click the **Custom** tab to create an empty site and apply a template later. 
+6. In the **Template Selection** section, in the **Select a template** list, choose the tab you want for the site collection ( **Collaboration**, **Enterprise**, or **Publishing**), and then select the template that you want to use for the top-level site in the site collection. You can also click the **Custom** tab to create an empty site and apply a template later. 
     
     A description for the template that you select appears below the list of templates.
     
-8. In the **Primary Site Collection Administrator** section, type the user name (in the form DOMAIN\username) for the user who will be the site collection administrator. 
+7. In the **Primary Site Collection Administrator** section, type the user name (in the form DOMAIN\username) for the user who will be the site collection administrator. 
     
-9. In the **Secondary Site Collection Administrator** section, type the user name for the secondary administrator of the site collection. 
+8. In the **Secondary Site Collection Administrator** section, type the user name for the secondary administrator of the site collection. 
     
     Assigning a secondary site collection administrator is a best practice to ensure that someone can manage the site collection when a primary site collection administrator is not available.
     
-10. If you are using quotas to manage storage for site collections, in the **Quota Template** section, click a template in the **Select a quota template** list. 
-    
-11. Click **OK**.
+9. If you are using quotas to manage storage for site collections, in the **Quota Template** section, click a template in the **Select a quota template** list and then click **OK**.
     
 ## Create a site collection by using Microsoft PowerShell
 <a name="section2"> </a>
@@ -86,7 +82,7 @@ You typically use Microsoft PowerShell to create a site collection when you want
     
 2. Open the SharePoint Management Shell.
     
-3. From the Microsoft PowerShell command prompt, type the following commands, and then press ENTER:
+3. At the command prompt, type the following commands:
     
    ```
    Get-SPWebTemplate
