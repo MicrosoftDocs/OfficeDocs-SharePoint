@@ -3,7 +3,6 @@ title: "Plan for the multilingual user interface in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 9/8/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -43,7 +42,7 @@ The MUI feature only displays site's user interface elements in a user's preferr
   
 SharePoint Server provides three methods that you can use to change certain application content, such as list or library titles and descriptions: by using the user interface, by exporting and importing translations for a site, and by using the **SPUserResource** class in the **Microsoft.SharePoint** namespace. Not all user interface elements can be changed directly in the user interface. For example, user actions and commands can be changed only by using the **SPUserResource** class. For more information, see [SPUserResource class](https://go.microsoft.com/fwlink/p/?LinkId=307141).
   
-For information about how to install language packs, see [Install or uninstall language packs for SharePoint Server 2016](../install/install-or-uninstall-language-packs-0.md). For information about how to let individual users change the language that is used to display their site's user interface, see [Choose the languages that you want to make available for a site's user interface](https://go.microsoft.com/fwlink/p/?LinkId=307142).
+For information about how to install language packs, see [Install or uninstall language packs for SharePoint Servers 2016 and 2019](../install/install-or-uninstall-language-packs-0.md). For information about how to let individual users change the language that is used to display their site's user interface, see [Choose the languages that you want to make available for a site's user interface](https://go.microsoft.com/fwlink/p/?LinkId=307142).
   
 ## Use and benefits of the multilingual user interface feature
 <a name="MUIBene"> </a>
@@ -102,15 +101,15 @@ When users add or edit application content, the following rules apply:
     
 When a site is displayed in a user's preferred language, any changes that are made to existing application content strings are changed for that language only. The strings that are associated with specific application content in the default site language and any alternate languages remain unchanged. To translate application content strings, such as a document library title into the default site language or into any alternate languages, the user must change the language preferences in the browser or user profile to display the site in the default or switch language, and then make the change to the user interface strings.
   
-### Overwriting translated application content
 <a name="Overwrite"> </a>
+### Overwriting translated application content
 
 The **Language Settings** page contains an **Overwrite Translations** option that affects how changes to existing application content are made to other languages for the site. If the **Overwrite Translations** option is enabled, any changes that are made to the user interface in the default site language will overwrite any changes that were made to those same user interface elements in switch languages. 
   
 By default, when a user views a site in the default site language, any changes that are made to existing application content are changed for the default site language only. The strings that are associated with specific application content in the alternate languages remain unchanged. If the **Overwrite Translations** option is enabled, the strings that are associated with that application content for every language are replaced with the new default site language string. For example, if the default site language is English and a user changes the title of the "Shared Documents" library to "Team Documents," by default, the title is changed only for the default site language. If the **Overwrite Translations** option is enabled, the title is changed to "Team Documents" for every alternate language, and it must be re-translated. 
   
 ### Exporting and importing translated application content
-<a name="Overwrite"> </a>
+<a name="Export"> </a>
 
 The MUI feature lets you export and import application content for bulk translation. Instead of translating application content one item at a time, you can export the strings for any new or changed application content in the default site language or in one of the alternate languages. To export content, you use the **Export Translations** link on the **Site Settings** page. When you export application content for an alternate language, you can choose to export all content or only content that has not been translated. 
   
@@ -121,8 +120,8 @@ When the application content is exported, it is saved as a .resx file, which can
 
 You can create multilingual managed metadata to use with a SharePoint Server solution. Use the Term Store Management Tool, to create a term set and associate multiple labels, one for each language that you want to support, with each term in the set. When a user views the site in the user's preferred language, the terms are displayed by using the labels that correspond to the preferred language. 
   
-## Limitations of the multilingual user interface
 <a name="MUILimits"> </a>
+## Limitations of the multilingual user interface
 
 As mentioned previously, some user interface elements are not MUI-enabled — that is, they are not supported by the MUI feature. This section describes additional limitations that apply when you use the MUI feature with shared components and site templates.
   
@@ -196,7 +195,7 @@ If you plan to enable the MUI feature on your site to provide users a way to col
 - **What column names must be changed?** What column names must be translated, and for which languages? Will the column names be at the list level or at the site level? 
     
 ## See also
-<a name="PlanMUI"> </a>
+<a name="SeeUI"> </a>
 
 #### Concepts
 
@@ -206,6 +205,8 @@ If you plan to enable the MUI feature on your site to provide users a way to col
   
 [Plan for variations in SharePoint Server](../administration/plan-for-variations.md)
 #### Other Resources
+
+[Language Packs for SharePoint Server 2019](https://www.microsoft.com/en-us/download/details.aspx?id=57463)
 
 [Language Packs for SharePoint Server 2016](https://www.microsoft.com/en-us/download/details.aspx?id=51492)
   

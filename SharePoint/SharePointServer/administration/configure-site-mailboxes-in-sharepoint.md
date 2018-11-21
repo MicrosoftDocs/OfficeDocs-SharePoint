@@ -65,9 +65,9 @@ The first step in configuring Site Mailboxes is to install the Exchange Server W
     
 3. Run the following command:
     
-  ```
-  msiexec /I EwsManagedApi.msi addlocal="ExchangeWebServicesApi_Feature"
-  ```
+   ```
+   msiexec /I EwsManagedApi.msi addlocal="ExchangeWebServicesApi_Feature"
+   ```
 
 4. Reset IIS from the command line by typing IISReset.
     
@@ -418,17 +418,18 @@ Save the two .ps1 files to the same folder on a SharePoint Server Front-end or A
 The Check-SiteMailboxConfig.ps1 is called as part of the Set-SiteMailboxConfig script, and it confirms that the configuration has been successful (it can also be run separately).
   
 The format should be as follows:
-  
-.\Set-SiteMailboxConfig.ps1 -ExchangeSiteMailboxDomain \<Domain\> -ExchangeAutodiscoverDomain [Exchange Server] -WebApplicationUrl [URL]
-  
+
+```
+   .\Set-SiteMailboxConfig.ps1 -ExchangeSiteMailboxDomain \<Domain\> -ExchangeAutodiscoverDomain [Exchange Server] -WebApplicationUrl [URL]
+```  
 Where \<Domain\> equals the FQDN of the domain your Exchange Server is in, and \<Exchange Server\> is the Exchange Server that you intend to connect to. This is a required parameter.
   
 Optional parameters are [Exchange Server], which is the Exchange Server you intend to connect to (this is needed if Autodiscover is not enabled or properly configured) and [URL], which would be a specific URL that you may be configuring (typically used in an environment with SSL and non-SSL web applications).
   
-> Example: 
-
-> .\Set-SiteMailboxConfig.ps1 -ExchangeSiteMailboxDomain tailspintoys.com -ExchangeAutodiscoverDomain exchange1.tailspintoys.com -WebApplicationUrl https://tailspintoys.com
-
+Example: 
+```
+   .\Set-SiteMailboxConfig.ps1 -ExchangeSiteMailboxDomain tailspintoys.com -ExchangeAutodiscoverDomain exchange1.tailspintoys.com -WebApplicationUrl https://tailspintoys.com
+```
 If you encounter an error while running the script, refer to the "Troubleshooting" section in this article for guidance.
   
 ## Configure Exchange Server for Site Mailboxes
@@ -442,11 +443,11 @@ The final step is to establish OAuth trust, and service permissions, on the Exch
     
 2. Run the following command:
     
-  ```
-  .\Configure-EnterprisePartnerApplication.ps1 -ApplicationType Sharepoint -AuthMetadataUrl https://<SP_FQDN>/_layouts/15/metadata/json/1
-  ```
+   ```
+   .\Configure-EnterprisePartnerApplication.ps1 -ApplicationType Sharepoint -AuthMetadataUrl https://<SP_FQDN>/_layouts/15/metadata/json/1
+   ```
 
-    Where \<SP_FQDN\> is the URL to the SharePoint SSL root site collection that you want to configure.
+    Where \<SP_FQDN> is the URL to the SharePoint SSL root site collection that you want to configure.
     
 ## Troubleshooting
 <a name="touble"> </a>
