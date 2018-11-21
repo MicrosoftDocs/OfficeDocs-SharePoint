@@ -73,7 +73,7 @@
 #### [Install or uninstall language packs](../install/install-or-uninstall-language-packs.md)
 #### [Add web or application server to the farm](../install/add-web-or-application-server-to-the-farm.md)
 #### [Add a database server to an existing farm](../install/add-a-database-server-to-an-existing-farm.md)
-#### [Best Practices for SharePoint Server installation](../install/BestPractices-for-SharePointServer-Installation.md)
+### [Best Practices for SharePoint Server installation](../install/BestPractices-for-SharePointServer-Installation.md)
 ### [Configure](../install/configure.md)
 #### [Configure client certificate authentication](../install/configure-client-certificate-authentication.md)
 #### [Configure syncing with the new OneDrive sync client](../install/new-onedrive-sync-client.md)
