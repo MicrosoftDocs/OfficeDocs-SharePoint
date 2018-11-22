@@ -238,8 +238,7 @@ Use the following procedure to restore your farm databases.
     
 14. Start any service applications that have to be restarted. In Central Administration, on the home page, in the **Systems Settings** section, click **Manage services on server**. On the Services on Server page, start any services related to service applications that you want to run by clicking **Restart** in the **Action** column next to the service application. 
     
-## Related content
-<a name="proc4"> </a>
+## <a name="proc4"> </a>Related content
 
 The following list shows other recovery methods that you can use when you only need to restore part of your farm: 
   
