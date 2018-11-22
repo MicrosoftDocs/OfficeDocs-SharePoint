@@ -21,6 +21,7 @@ description: "SharePoint hybrid taxonomy enables you to have a single taxonomy t
 # Plan hybrid SharePoint taxonomy and hybrid content types
 
 [!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
 
 SharePoint hybrid taxonomy enables you to have a single taxonomy that spans SharePoint Server and SharePoint Online. This gives you a single, consistent taxonomy no matter where your sites are located.
   
@@ -28,7 +29,8 @@ You can choose which term groups are shared between SharePoint Server and ShareP
   
 The shared taxonomy is mastered inSharePoint Online and a read-only copy is kept updated in SharePoint Server. Shared terms, term sets, and groups are available in both locations.
 
->[!IMPORTANT] Farm Administrators can modify Term Groups on-premises. These changes will not replicate to SharePoint Online. It is important that Farm Administrators be notified to not make changes on-premises.
+>[!IMPORTANT] 
+>Farm Administrators can modify Term Groups on-premises. These changes will not replicate to SharePoint Online. It is important that Farm Administrators be notified to not make changes on-premises.
   
 You also have the option of installing hybrid content types. This feature propagates updates to your SharePoint Online content types to your SharePoint Server site collections.
   
