@@ -69,7 +69,8 @@ Copying taxonomy groups is done using the Copy-SPTaxonomyGroups PowerShell cmdle
     
 - Your Office 365 global administrator credentials.
 
->[!NOTE] If you receive an HTTP 400 error when attempting to use the `Copy-SPTaxonomyGroups` cmdlet with correct credentials, switch to a cloud-based global administrator instead of an Active Directory synchronized account.
+>[!NOTE] 
+> If you receive an HTTP 400 error when attempting to use the `Copy-SPTaxonomyGroups` cmdlet with correct credentials, switch to a cloud-based global administrator instead of an Active Directory synchronized account.
     
 - A list of the taxonomy groups that you want to copy.
     

@@ -28,7 +28,8 @@ You can choose which term groups are shared between SharePoint Server and ShareP
   
 The shared taxonomy is mastered inSharePoint Online and a read-only copy is kept updated in SharePoint Server. Shared terms, term sets, and groups are available in both locations.
 
->[!IMPORTANT] Farm Administrators can modify Term Groups on-premises. These changes will not replicate to SharePoint Online. It is important that Farm Administrators be notified to not make changes on-premises.
+>[!IMPORTANT] 
+>Farm Administrators can modify Term Groups on-premises. These changes will not replicate to SharePoint Online. It is important that Farm Administrators be notified to not make changes on-premises.
   
 You also have the option of installing hybrid content types. This feature propagates updates to your SharePoint Online content types to your SharePoint Server site collections.
   
