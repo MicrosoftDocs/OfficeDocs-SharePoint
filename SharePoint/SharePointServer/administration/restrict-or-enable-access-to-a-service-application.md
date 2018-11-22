@@ -128,7 +128,7 @@ After you have started PowerShell, the remaining steps to restrict access to a s
     
 
     
-### <a name="Section2SWPS"> </a> To start a Microsoft PowerShell session
+### <a name="Section2SWPS"> </a>To start a Microsoft PowerShell session
 
 1. Verify that you have the following memberships:
     
