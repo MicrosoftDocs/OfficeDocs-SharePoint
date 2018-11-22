@@ -55,7 +55,7 @@ Yammer users exist in a limited number of states, as shown in the following diag
   
 ## See also
 
-[About Yammer networks and Office 365 tenants]()
+[About Yammer networks and Office 365 tenants](yammer-and-office-365.md)
 
 [Create and manage an external network in Yammer]()
 
