@@ -21,6 +21,7 @@ description: "In this article, we look at how to configure hybrid SharePoint tax
 # Configure hybrid SharePoint taxonomy and hybrid content types
 
 [!INCLUDEappliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
 
 In this article, we look at how to configure hybrid SharePoint taxonomy and hybrid content types.
   
