@@ -21,7 +21,6 @@ description: "SharePoint hybrid taxonomy enables you to have a single taxonomy t
 # Plan hybrid SharePoint taxonomy and hybrid content types
 
 [!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
 
 SharePoint hybrid taxonomy enables you to have a single taxonomy that spans SharePoint Server and SharePoint Online. This gives you a single, consistent taxonomy no matter where your sites are located.
   
