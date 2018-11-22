@@ -77,7 +77,7 @@ With modern team sites, the underlying Office 365 Group should be favored for pr
 
 SharePoint hub sites offer an important mechanism to provide cohesion with a SharePoint implementation strategy. [Learn more about hub sites](https://docs.microsoft.com/en-us/sharepoint/dev/features/hub-site/hub-site-overview).
 
-Associated a site to a hub site does not change or unify the permissions of either the hub site or the associated site. It is important that users who can associate a site to a hub site have permission to the hub site, while you might also want to consider that members of a site that is associate to a hub also have permission to the hub although this is not a requirement.
+Associating a site to a hub site does not change or unify the permissions of either the hub site or the associated site. It is important that users who can associate a site to a hub site have permission to the hub site, while you might also want to consider that members of a site that is associate to a hub also have permission to the hub although this is not a requirement.
 
 In a scenario where common permissions may want to be applied across all or a sub-section of sites associated with a hub site, an Office 365 Group or security group could be created and then added as a member of each joined site.
 
