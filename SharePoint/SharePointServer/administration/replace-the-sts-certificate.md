@@ -7,14 +7,13 @@ ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
-ROBOTS: NOINDEX
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 description: "Learn how to replace the STS certificate with a new certificate from a public authority."
 ---
 
-## Replace the STS certificate for SharePoint Server
+# Replace the STS certificate for SharePoint Server
 
 [!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
 
@@ -42,13 +41,14 @@ To create a self-signed certificate, choose the method of creation and follow th
 
 ### New-SelfSignedCertificate
 
+```PowerShell
+New-SelfSignedCertificate -DnsName 'sts.contoso.com' -KeyLength 2048 -FriendlyName 'SharePoint STS Certificate' -CertStoreLocation 'cert:\LocalMachine\My' -KeySpec KeyExchange
+$password = ConvertTo-SecureString "P@ssw0rd1!" -Force -AsPlainText
+$cert = Get-ChildItem "cert:\localmachine\my" | ?{$_.Subject -eq "CN=sts.contoso.com"}
+Export-PfxCertificate -Cert $cert -Password $password -FilePath C:\sts.pfx
+Export-Certificate -Cert $cert -Type CERT -FilePath C:\sts.cer
 ```
-PS C:\>New-SelfSignedCertificate -DnsName 'sts.contoso.com' -KeyLength 2048 -FriendlyName 'SharePoint STS Certificate' -CertStoreLocation 'cert:\LocalMachine\My' -KeySpec KeyExchange
-PS C:\>$password = ConvertTo-SecureString "P@ssw0rd1!" -Force -AsPlainText
-PS C:\>$cert = Get-ChildItem "cert:\localmachine\my" | ?{$_.Subject -eq "CN=sts.contoso.com"}
-PS C:\>Export-PfxCertificate -Cert $cert -Password $password -FilePath C:\sts.pfx
-PS C:\>Export-Certificate -Cert $cert -Type CERT -FilePath C:\sts.cer
-```
+
 This example creates a new certificate with the DNS Name of 'sts.contoso.com' and a Common Name of 'CN=sts.contoso.com'. The Common Name is automatically set by the `New-SelfSignedCertificate` cmdlet. Using a secure password, we then export the PFX (sts.pfx) and public certificate (sts.cer).
 
 ### Certreq
@@ -83,9 +83,9 @@ _continue_ = "%szOID_PKIX_KP_CLIENT_AUTH%"
 From an elevated Command Prompt, run the following to create and install the certificate in the local machine store. When the certificate has been installed, a save dialog will appear. Change the Save as type to `Certificate Files` and save the file as `C:\sts.cer`.
 
 ```
-C:\>certreq -new request.inf
-C:\>certutil -store My "sts.contoso.com"
-C:\>certutil -exportPFX -p "P@ssw0rd1!" CA 1f4758121a6ede8c4b81c8ca60a2d72a C:\sts.pfx
+certreq -new request.inf
+certutil -store My "sts.contoso.com"
+certutil -exportPFX -p "P@ssw0rd1!" CA 1f4758121a6ede8c4b81c8ca60a2d72a C:\sts.pfx
 ```
 
 The first step creates the certificate based on the above request. The second step allows us to find the Serial Number of our new certificate. Finally, the last step exports the certificate to a PFX secured by a password.
@@ -96,11 +96,11 @@ This procedure must be performed on every server in the farm. The first step is 
 
 ### Import-PfxCertificate
 
-To import a PFX using `Import-PfxCertificate`, follow the example below.
+To import a PFX using `Import-PfxCertificate`, follow the example.
 
-```
-PS C:\>$password = Get-Credential -UserName "certificate" -Message "Enter password"
-PS C:\>Import-PfxCertificate -FilePath C:\sts.pfx -CertStoreLocation Cert:\LocalMachine\Root -Password $password.Password
+```PowerShell
+$password = Get-Credential -UserName "certificate" -Message "Enter password"
+Import-PfxCertificate -FilePath C:\sts.pfx -CertStoreLocation Cert:\LocalMachine\Root -Password $password.Password
 ```
 
 In this example, we first create a credential. The username isn't used in this example, but must be set. The password will be the value of the exported PFX password; in our example, "P@ssw0rd1!".
@@ -108,24 +108,24 @@ In this example, we first create a credential. The username isn't used in this e
 ### Certutil
 
 ```
-C:\>certutil -f -p "P@ssw0rd1!" -importpfx Root C:\sts.pfx
+certutil -f -p "P@ssw0rd1!" -importpfx Root C:\sts.pfx
 ```
 
 In this example, we import the PFX file using `certutil`, specifying the password we used when exporting the PFX and importing into the Trusted Root Certification Authorities container in the Local Machine store.
 
 ## Replace the STS Certificate in SharePoint
 
-Once the PFX has been imported on all SharePoint servers in the farm, we must replace the certificate that is in use by the STS. You must be a SharePoint Shell Administrator (see [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/add-spshelladmin) for details on how to add a SharePoint Shell Administrator) to perform this operation.
+Once the PFX has been imported on all SharePoint servers in the farm, we must replace the certificate that is in use by the STS. You must be a SharePoint Shell Administrator (see [Add-SPShellAdmin](https://docs.microsoft.com/powershell/module/sharepoint-server/add-spshelladmin) for details on how to add a SharePoint Shell Administrator) to perform this operation.
 
 Using the SharePoint Management Shell, we will specify the path to the PFX file, set the password, set the STS to use the new certificate, restart IIS, and finally restart the SharePoint Timer Service (SPTimerV4).
 
-```
-PS C:\>$path = 'C:\sts.pfx'
-PS C:\>$pass = 'P@ssw0rd1!'
-PS C:\>$cert = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2($path, $pass, 20)
-PS C:\>Set-SPSecurityTokenServiceConfig -ImportSigningCertificate $cert
-PS C:\>iisreset
-PS C:\>Restart-Service SPTimerV4
+```PowerShell
+$path = 'C:\sts.pfx'
+$pass = 'P@ssw0rd1!'
+$cert = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2($path, $pass, 20)
+Set-SPSecurityTokenServiceConfig -ImportSigningCertificate $cert
+iisreset
+Restart-Service SPTimerV4
 ```
 
 Complete the above steps on all SharePoint server in the farm. This completes the STS certificate replacement process. If you are using a hybrid farm, see [https://docs.microsoft.com/en-us/sharepoint/hybrid/configure-server-to-server-authentication#configure-server-to-server-authentication-between-on-premises-sharepoint-server-and-sharepoint-online](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/use-an-office-365-sharepoint-site-to-authorize-provider-hosted-add-ins-on-an-on) for additional steps required to upload the STS certificate to Azure.
@@ -133,8 +133,8 @@ Complete the above steps on all SharePoint server in the farm. This completes th
 ## See Also
 
 [Hybrid for SharePoint Server](../hybrid/hybrid.md)
-[Export-PfxCertificate](https://docs.microsoft.com/en-us/powershell/module/pkiclient/export-pfxcertificate)
-[Export-Certificate](https://docs.microsoft.com/en-us/powershell/module/pkiclient/export-certificate)
-[Certreq](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/certutil)
-[Certutil](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/certutil)
+[Export-PfxCertificate](https://docs.microsoft.com/powershell/module/pkiclient/export-pfxcertificate)
+[Export-Certificate](https://docs.microsoft.com/powershell/module/pkiclient/export-certificate)
+[Certreq](https://docs.microsoft.com/windows-server/administration/windows-commands/certutil)
+[Certutil](https://docs.microsoft.com/windows-server/administration/windows-commands/certutil)
 
