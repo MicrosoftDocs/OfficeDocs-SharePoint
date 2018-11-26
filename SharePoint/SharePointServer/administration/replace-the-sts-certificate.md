@@ -136,8 +136,12 @@ Complete the above steps on all SharePoint server in the farm. This completes th
 ## See Also
 
 [Hybrid for SharePoint Server](../hybrid/hybrid.md)
+
 [Export-PfxCertificate](https://docs.microsoft.com/powershell/module/pkiclient/export-pfxcertificate)
+
 [Export-Certificate](https://docs.microsoft.com/powershell/module/pkiclient/export-certificate)
+
 [Certreq](https://docs.microsoft.com/windows-server/administration/windows-commands/certutil)
+
 [Certutil](https://docs.microsoft.com/windows-server/administration/windows-commands/certutil)
 
