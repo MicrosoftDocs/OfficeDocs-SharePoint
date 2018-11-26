@@ -26,8 +26,8 @@ The following downloadable resources, articles, and related resources provide in
   
 ||**Content**|**Description**|
 |:-----|:-----|:-----|
-|![Building blocks](../media/mod_icon_buildingblock_M.png)|[Overview of the upgrade process to SharePoint Server 2019](overview-of-the-upgrade-process.md) <br/> |Get a visual overview of the steps involved in performing an upgrade.  <br/> |
-|![Building blocks](../media/mod_icon_buildingblock_M.png)|[Services upgrade overview for SharePoint Server 2019](overview-of-the-services-upgrade-process.md) <br/> |SharePoint Server 2016 included several service applications, some of which have databases that can be upgraded when you upgrade to SharePoint Server 2019. Find out which service application databases can be upgraded and what steps you must take before, during, and after the upgrade for your service applications.  <br/> |
+|![Building blocks](../media/mod_icon_buildingblock_M.png)|[Overview of the upgrade process to SharePoint Server 2019](overview-of-the-upgrade-process-2019.md) <br/> |Get a visual overview of the steps involved in performing an upgrade.  <br/> |
+|![Building blocks](../media/mod_icon_buildingblock_M.png)|[Services upgrade overview for SharePoint Server 2019](overview-of-the-services-upgrade-process-2019.md) <br/> |SharePoint Server 2016 included several service applications, some of which have databases that can be upgraded when you upgrade to SharePoint Server 2019. Find out which service application databases can be upgraded and what steps you must take before, during, and after the upgrade for your service applications.  <br/> |
 
    
 

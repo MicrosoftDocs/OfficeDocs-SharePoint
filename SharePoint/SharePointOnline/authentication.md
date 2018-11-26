@@ -28,7 +28,7 @@ Office 365 and SharePoint Online serve a broad customer base with a variety of u
   
 The following diagram outlines the SharePoint Online authentication process as it works today. It walks through how the scenario works using either your own Identity Provider (IdP) or the default Azure Active Directory (Azure AD) IdP.
   
-The Federation Authentication (FedAuth) cookie is for each top level site in SharePoint Online such as the root site, the MySite, the Admin site, and the Public site. The root Federation Authentication (rtFA) cookie is used across all of SharePoint Online. When a user visits a new top level site or another company's page, the rtFA cookie is used to authenticate them silently without a prompt. When a user signs out of SharePoint Online, the rtFA cookie is deleted.
+The Federation Authentication (FedAuth) cookie is for each top level site in SharePoint Online such as the root site, the MySite, and the Admin site. The root Federation Authentication (rtFA) cookie is used across all of SharePoint Online. When a user visits a new top level site or another company's page, the rtFA cookie is used to authenticate them silently without a prompt. When a user signs out of SharePoint Online, the rtFA cookie is deleted.
   
 ![SharePoint Online Authentication Process](media/480bc4e7-d28e-42e0-9901-a58ca5fd6ee9.png)
   

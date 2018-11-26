@@ -43,7 +43,7 @@ A common use case for SharePoint groups include an ad hoc grouping of users for 
 
 ### SharePoint Online grouping options
 
-SharePoint Online continues to provide both SharePoint groups as well as security groups maintained by Azure Active Directory. Office 365 also provides a third grouping option for SharePoint, [Office 365 Groups](https://support.office.com/en-us/article/learn-about-office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2?ui=en-US&rs=en-US&ad=US). Office 365 Groups are similar to security groups, although Office 365 Groups include many additional benefits. Office 365 groups are provided a group email address as well as additional tools such as a group calendar, notebook, Planner, and a SharePoint team site. Users assigned to an Office 365 Group may also be classified as either a group owner or a group reader, in comparison to security groups where all group members have equal access under the group.
+SharePoint Online continues to provide both SharePoint groups as well as security groups maintained by Azure Active Directory. Office 365 also provides a third grouping option for SharePoint, [Office 365 Groups](https://support.office.com/en-us/article/learn-about-office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2?ui=en-US&rs=en-US&ad=US). Office 365 Groups are similar to security groups, although Office 365 Groups include many additional benefits. Office 365 groups are provided a group email address as well as additional tools such as a group calendar, notebook, Planner, and a SharePoint team site. Users assigned to an Office 365 Group may also be classified as either a group owner or a group member, in comparison to security groups where all group members have equal access under the group.
 
 Office 365 Groups may be added in Office 365, Outlook, Azure Active Directory, as well as may be added via custom applications or by IT admins using PowerShell. When creating a new modern team site or a Microsoft Teams team, an Office 365 Group is also created. Office 365 Groups may be public or private, where public groups are groups that may be discovered by anyone within the tenant while private groups are invite only. Additionally, Office 365 Groups may include internal and external users.
 
@@ -77,7 +77,7 @@ With modern team sites, the underlying Office 365 Group should be favored for pr
 
 SharePoint hub sites offer an important mechanism to provide cohesion with a SharePoint implementation strategy. [Learn more about hub sites](https://docs.microsoft.com/en-us/sharepoint/dev/features/hub-site/hub-site-overview).
 
-Associated a site to a hub site does not change or unify the permissions of either the hub site or the associated site. It is important that users who can associate a site to a hub site have permission to the hub site, while you might also want to consider that members of a site that is associate to a hub also have permission to the hub although this is not a requirement.
+Associating a site to a hub site does not change or unify the permissions of either the hub site or the associated site. It is important that users who can associate a site to a hub site have permission to the hub site, while you might also want to consider that members of a site that is associate to a hub also have permission to the hub although this is not a requirement.
 
 In a scenario where common permissions may want to be applied across all or a sub-section of sites associated with a hub site, an Office 365 Group or security group could be created and then added as a member of each joined site.
 

@@ -95,10 +95,10 @@ You can use Microsoft PowerShell to restore a farm.
 3. At the PowerShell command prompt, type the following command:
     
   ```
-  Restore-SPFarm -Directory <BackupFolder> -RestoreMethod Overwrite [-BackupId <GUID>]<Type the appropriate cmdlet, including parameters and values, and enclose the values for the parameters in "placeholder" tags >
+  Restore-SPFarm -Directory <BackupFolder> -RestoreMethod Overwrite [-BackupId <GUID>]
   ```
 
-   Where:
+Where:
     
   -  _\<BackupFolder\>_ is the path of the folder you use for storing backup files. 
     
@@ -107,13 +107,13 @@ You can use Microsoft PowerShell to restore a farm.
    > [!NOTE]
    > If you are not logged on as the Farm account, you are prompted for the Farm account's credentials. 
   
-   If you do not specify the  `BackupId`, the most recent backup will be used. To view the backups for the farm, at the Microsoft PowerShell command prompt, type the following command: 
+If you do not specify the `BackupId`, the most recent backup will be used. To view the backups for the farm, at the Microsoft PowerShell command prompt, type the following command: 
     
   ```
    Get-SPBackupHistory -Directory <BackupFolder> -ShowBackup [-Verbose]
   ```
 
-   Where:
+Where:
     
   -  _\<BackupFolder\>_ is the path of the folder you use for storing backup files. 
     
@@ -125,11 +125,11 @@ You can use Microsoft PowerShell to restore a farm.
    Start-SPServiceInstance -Identity <ServiceApplicationID>
   ```
 
-   Where:
+Where:
     
  -  _\<ServiceApplicationID\>_ is the GUID of the service application. 
     
-   For more information about how to restart service applications by using PowerShell, see [Start-SPServiceInstance](http://technet.microsoft.com/library/fcb4a4f8-a95f-468e-918b-d9a2d736cd2d.aspx).
+For more information about how to restart service applications by using PowerShell, see [Start-SPServiceInstance](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Start-SPServiceInstance).
     
 For more information about how to restore the farm by using PowerShell_2nd_NoVer, see Restore-SPFarm.PShell_stsadm_deprecated
   
@@ -238,6 +238,7 @@ Use the following procedure to restore your farm databases.
     
 14. Start any service applications that have to be restarted. In Central Administration, on the home page, in the **Systems Settings** section, click **Manage services on server**. On the Services on Server page, start any services related to service applications that you want to run by clicking **Restart** in the **Action** column next to the service application. 
     
+
 ## <a name="proc4"> </a>Related content
 
 The following list shows other recovery methods that you can use when you only need to restore part of your farm: 
