@@ -131,7 +131,7 @@ iisreset
 Restart-Service SPTimerV4
 ```
 
-Complete the above steps on all SharePoint server in the farm. This completes the STS certificate replacement process. If you are using a hybrid farm, see [https://docs.microsoft.com/en-us/sharepoint/hybrid/configure-server-to-server-authentication#configure-server-to-server-authentication-between-on-premises-sharepoint-server-and-sharepoint-online](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/use-an-office-365-sharepoint-site-to-authorize-provider-hosted-add-ins-on-an-on) for additional steps required to upload the STS certificate to Azure.
+Complete the above steps on all SharePoint server in the farm. This completes the STS certificate replacement process. If you are using a hybrid farm, see [Use an Office 365 SharePoint site to authorize provider-hosted add-ins on an on-premises SharePoint site](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/use-an-office-365-sharepoint-site-to-authorize-provider-hosted-add-ins-on-an-on) for additional steps required to upload the STS certificate to Azure.
 
 ## See Also
 
@@ -141,7 +141,7 @@ Complete the above steps on all SharePoint server in the farm. This completes th
 
 [Export-Certificate](https://docs.microsoft.com/powershell/module/pkiclient/export-certificate)
 
-[Certreq](https://docs.microsoft.com/windows-server/administration/windows-commands/certutil)
+[Certreq](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/certreq_1)
 
 [Certutil](https://docs.microsoft.com/windows-server/administration/windows-commands/certutil)
 
