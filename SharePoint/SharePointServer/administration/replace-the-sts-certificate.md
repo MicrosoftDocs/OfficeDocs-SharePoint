@@ -29,15 +29,18 @@ The certificate should be replaced during a maintenance window as the SharePoint
 
 As public certificates and by default, private certificates expire within 1 to 3 years depending on the specified validity  period, this procedure should be followed when the certificate requires renewal.
 
->[!NOTE] The default STS certificate does not need to be renewed. Renewal only applies after the STS certificate has been replaced.
+> [!NOTE]
+> The default STS certificate does not need to be renewed. Renewal only applies after the STS certificate has been replaced.
 
 ## Creating a Self-Signed Certificate
 
 To create a self-signed certificate, choose the method of creation and follow these steps.
 
->[!TIP] The Common Name and DNS Name may be set to any value.
+> [!TIP]
+> The Common Name and DNS Name may be set to any value.
 
->[!NOTE] Certificate private keys and passwords are sensitive. Use a strong password and securely store the PFX file.
+> [!NOTE]
+> Certificate private keys and passwords are sensitive. Use a strong password and securely store the PFX file.
 
 ### New-SelfSignedCertificate
 
