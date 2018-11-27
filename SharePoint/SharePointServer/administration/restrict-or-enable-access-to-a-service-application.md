@@ -324,7 +324,7 @@ Set-SPServiceApplicationSecurity $spguid -ObjectSecurity $security
 
 [Add or remove service application connections from a web application in SharePoint Server](add-or-remove-a-service-application-connection-to-a-web-application.md)
   
-[Account permissions and security settings in SharePoint Server 2016](../install/account-permissions-and-security-settings-in-sharepoint-server-2016.md)
+[Account permissions and security settings in SharePoint Servers 2016 and 2019](../install/account-permissions-and-security-settings-in-sharepoint-server-2016.md)
 #### Other Resources
 
 [Create a web application in SharePoint Server](https://docs.microsoft.com/en-us/SharePoint/administration/create-a-web-application)
