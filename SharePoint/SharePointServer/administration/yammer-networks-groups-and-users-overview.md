@@ -55,6 +55,10 @@ Yammer users exist in a limited number of states, as shown in the following diag
   
 ## See also
 
+[About Yammer networks and Office 365 tenants](https://docs.microsoft.com/en-us/yammer/configure-your-yammer-network/yammer-and-office-365)
+
+[Create and manage an external network in Yammer](https://docs.microsoft.com/en-us/yammer/work-with-external-users/create-and-manage-an-external-network)
+
 #### Concepts
 
 [Integrate Yammer with on-premises SharePoint Server environments](integrate-yammer-with-on-premises-sharepoint-server-environments.md)
