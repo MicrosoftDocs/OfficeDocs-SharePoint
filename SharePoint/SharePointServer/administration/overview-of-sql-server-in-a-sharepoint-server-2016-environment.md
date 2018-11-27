@@ -16,7 +16,7 @@ ms.assetid: a3b78815-c1a0-47e0-97a3-d255f9efc96d
 description: "Learn about the SharePoint Server relationship with SQL Server and how you can interact with the databases."
 ---
 
-# Overview of SQL Server in a SharePoint Server 2016 environment
+# Overview of SQL Server in SharePoint Server 2016 and 2019 environments
 
 [!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)] 
   
