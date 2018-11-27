@@ -315,9 +315,9 @@ Enabling this policy sets the following registry key value to 1.
 <a name="AutoMountTeamSites"> </a> 
 
 > [!NOTE]
-> This policy is included in the .adml and .admx files, but is not turned on yet. It will be made available shortly. 
+> This feature is currently enabled in the Insiders ring only. To try it, join the [Windows Insider program](https://insider.windows.com/) or the [Office Insider](https://products.office.com/office-insider) program.
 
-<!--This setting allows you to specify SharePoint team site libraries to sync automatically the next time users signs in to the OneDrive sync client (OneDrive.exe). To use the setting, you must enable OneDrive Files On-Demand, and the setting applies only for users on computers running Windows 10 Fall Creators Update or later. This feature is not enabled for on-premises SharePoint sites. 
+This setting allows you to specify SharePoint team site libraries to sync automatically the next time users signs in to the OneDrive sync client (OneDrive.exe). It may take up to 8 hours after a users signs in before the library begins to sync. To use the setting, you must enable OneDrive Files On-Demand, and the setting applies only for users on computers running Windows 10 Fall Creators Update or later. Do not enable this setting for the same library to more than 1,000 devices. This feature is not enabled for on-premises SharePoint sites. 
 
 If you enable this setting, the OneDrive sync client will automatically sync the contents of the libraries you specified as online-only files the next time the user signs in. The user won't be able to stop syncing the libraries.  
 
@@ -327,7 +327,9 @@ To configure the setting, in the Options box, click **Show**, and then enter the
 
 To find the library ID, sign in as a global or SharePoint admin in Office 365, browse to the library, and click the **Sync** button. In the "Starting sync" dialog box, click the **Copy library ID** link.
 
-[HKLM\Software\Policies\Microsoft\OneDrive\TenantAutoMount]"LibraryName"="LibraryID" -->
+Enabling this setting sets the following registry key:
+
+[HKLM\Software\Policies\Microsoft\OneDrive\TenantAutoMount]"LibraryName"="LibraryID" 
   
 ## User Configuration policies
 <a name="Glob"> </a>
@@ -355,6 +357,10 @@ The following User Configuration policies are available:
 - [Set the maximum upload bandwidth that OneDrive.exe uses](use-group-policy.md#UploadBandwidthLimit)
     
 - [Prevent users from seeing the tutorial in the OneDrive Sign in Experience](use-group-policy.md#DisableFRETutorial)
+
+- [Continue syncing when devices have battery saver mode turned on](use-group-policy.md#DisablePauseOnBatterySaver)
+
+- [Continue syncing on metered networks](use-group-policy.md#DisablePauseOnMeteredNetwork)
     
 ### Set the default location for the OneDrive folder
 <a name="DefaultRootDir"> </a>
@@ -492,6 +498,32 @@ Enabling this policy sets the following registry key value to 1.
   
 [HKCU\SOFTWARE\Policies\Microsoft\OneDrive] "DisableTutorial"="dword:00000001"
   
+### Continue syncing when devices have battery saver mode turned on
+<a name="DisablePauseOnBatterySaver"> </a>
+
+This setting lets you turn off the auto-pause feature for devices that have battery saver mode turned on.  
+
+If you enable this setting, syncing will continue when users turn on battery saver mode. OneDrive will not automatically pause syncing. 
+
+If you disable or do not configure this setting, syncing will pause automatically when battery saver mode is detected and a notification will be displayed. Users can choose not to pause by clicking "Sync Anyway" in the notification. When syncing is paused, users can resume syncing by clicking the OneDrive cloud icon in the notification area of the taskbar and then clicking the alert at the top of the activity center.
+
+Enabling this policy sets the following registry key value to 1.
+
+[HKCU\SOFTWARE\Policies\Microsoft\OneDrive] "DisablePauseOnBatterySaver"=dword:00000001
+
+### Continue syncing on metered networks
+<a name="DisablePauseOnMeteredNetwork"> </a>
+
+This setting lets you turn off the auto-pause feature when devices connect to metered networks. 
+
+If you enable this setting, syncing will continue when devices are on a metered network. OneDrive will not automatically pause syncing. 
+
+If you disable or do not configure this setting, syncing will pause automatically when a metered network is detected and a notification will be displayed. Users can choose not to pause by clicking "Sync Anyway" in the notification. When syncing is paused, users can resume syncing by clicking the OneDrive cloud icon in the notification area of the taskbar and then clicking the alert at the top of the activity center.
+
+Enabling this policy sets the following registry key value to 1.
+
+[HKCU\SOFTWARE\Policies\Microsoft\OneDrive] "DisablePauseOnMeteredNetwork"=dword:00000001
+
 ## See also
 <a name="Glob"> </a>
 
