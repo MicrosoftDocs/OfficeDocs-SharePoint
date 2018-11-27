@@ -3,7 +3,6 @@ title: "Overview of SQL Server in a SharePoint Server 2016 environment"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 01/26/2018
 ms.audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
