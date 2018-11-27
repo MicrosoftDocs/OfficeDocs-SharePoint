@@ -68,8 +68,7 @@ Some of the search features you might be familiar with from SharePoint Server ar
   
  **Thesaurus** - Thesauruses aren't available with cloud hybrid search because SharePoint Online in Office 365 doesn't support thesauruses. 
   
-## Plan your search architecture in SharePoint Server for cloud hybrid search
-<a name="BKMK_Plan_search_architecture"> </a>
+## <a name="BKMK_Plan_search_architecture"> </a>Plan your search architecture in SharePoint Server for cloud hybrid search
 
 When you set up cloud hybrid search, one of the steps is to create a cloud Search service application (cloud SSA) on your SharePoint Server 2013 orSharePoint Server 2016 search farm. When you create this cloud SSA, a default search architecture is created for you on the server running the cloud SSA. Each search farm can have only one cloud SSA, but can have multiple SSAs in combination with the cloud SSA.
   

@@ -3,7 +3,6 @@ title: "Overview of SQL Server in a SharePoint Server 2016 environment"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 01/26/2018
 ms.audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
@@ -21,36 +20,52 @@ description: "Learn about the SharePoint Server relationship with SQL Server and
 
 [!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)] 
   
-The minimum requirements for a database server in a SharePoint Server 2016 farm are as follows:
-  
+The minimum requirements for a database server in SharePoint Servers 2016 and 2019 are as follows:
+
+**SharePoint Server 2016**  
 - 64-bit edition of Microsoft SQL Server 2014 with Service Pack 1 (SP1)
     
 - Microsoft SQL Server 2016
     
 - Microsoft SQL Server 2017 RTM
+
+**SharePoint Server 2019**    
+- Microsoft SQL Server 2016
     
-> [!NOTE]
-> SQL Server Express is not supported with SharePoint Server 2016. 
+- Microsoft SQL Server 2017 RTM
 
 > [!NOTE]
-> SQL Server 2017 on Linux is not supported with SharePoint Server 2016.
+> SQL Server Express is not supported with SharePoint Servers 2016 and 2019.  <br/>
+  <br/>
+> SQL Server 2017 on Linux is not supported with SharePoint Servers 2016 and 2019.
   
-Depending on the installed version, you can use specific features of SQL Server, such as reporting and business intelligence (BI). For more information, see [Hardware and software requirements for SharePoint Server 2016](../install/hardware-and-software-requirements.md).
+Depending on the installed version, you can use specific features of SQL Server, such as reporting and business intelligence (BI with SharePoint Server 2016. For more information, see [Hardware and software requirements for SharePoint Server 2016](../install/hardware-and-software-requirements.md).
   
 SharePoint Server 2016 supports the following:
   
 - SQL Server 2016 Reporting Services (SSRS)
     
 - SQL Server 2016 Analysis Services (SSAS)
+  
+SharePoint Server 2019 supports the following:
+
+- SQL Server 2016 Reporting Services (SSRS)
+ 
+- SQL Server 2016 Analysis Services (SSAS)
+
+> [!NOTE]
+> SQL Server Reporting Services integration with SharePoint Server 2019 is no longer supported. For more information, see [Reporting Services Report Server (SharePoint Mode)](https://docs.microsoft.com/en-us/sql/reporting-services/report-server-sharepoint/reporting-services-report-server-sharepoint-mode?view=sql-server-2016&viewFallbackFrom=sql-server-2017) and [Supported combinations of SharePoint and Reporting Services server](https://docs.microsoft.com/en-us/sql/reporting-services/install-windows/supported-combinations-of-sharepoint-and-reporting-services-server?view=sql-server-2016).
+
+You can use the Report Viewer web part that has much of the same functionality as integrated mode. for more information, see [Add the Report Viewer web part to a web page](https://docs.microsoft.com/en-us/sql/reporting-services/report-server-sharepoint/add-the-report-viewer-web-part-to-a-web-page?view=sql-server-2017) and [Report Viewer web part on a SharePoint site - Reporting Services](https://docs.microsoft.com/en-us/sql/reporting-services/report-server-sharepoint/report-viewer-web-part-sharepoint-site?view=sql-server-2017)
     
 > [!NOTE]
 > If you want to use Microsoft SQL Server Power Pivot for SharePoint or Microsoft Power View for SharePoint for BI solutions you must install the Power Pivot or Power View add-ins for SQL Server 2016 RTM. The SQL Server 2014 (SP1) Power Pivot for SharePoint and Power View for SharePoint BI solutions do not work with SharePoint Server 2016. 
   
     
-## SharePoint Server 2016 and the SQL Server database engine
+## SharePoint Servers 2016 and 2019 and the SQL Server database engine
 <a name="sec1"> </a>
 
-The SharePoint Server 2016 application is built on the SQL Server database engine. Most content and settings in SQL Server 2014 (SP1), SQL Server 2016, and SQL Server 2017 RTM are stored in relational databases. The following table shows the databases that SharePoint Server 2016 uses.
+The SharePoint Server 2016 application is built on the SQL Server database engine. Most content and settings in SQL Server 2014 (SP1), SQL Server 2016, and SQL Server 2017 RTM are stored in relational databases. The following table shows the databases that SharePoint Servers 2016 and 2019 use.
   
 |**Database type**|**Description**|
 |:-----|:-----|
@@ -58,18 +73,20 @@ The SharePoint Server 2016 application is built on the SQL Server database engin
 |Content  <br/> | Content databases store all site content:  <br/>  Site documents, such as files in document libraries  <br/>  List data  <br/>  Web Part properties  <br/>  Data for apps for SharePoint  <br/>  Data and objects for Project Server 2016  <br/>  User names and permissions  <br/>  Each web application can contain many content databases. Each site collection can be associated with only one content database, although a content database can be associated with many site collections.  <br/> |
 |Service application  <br/> |Databases for service applications store the data that service applications use.  <br/> |
    
-For a full list of all of the databases that support SharePoint Server 2016, see [Database types and descriptions in SharePoint Server](../technical-reference/database-types-and-descriptions.md). For a graphical representation of the databases that support SharePoint Server 2016, see the SharePoint Server 2016 database poster as either a [PDF](https://download.microsoft.com/download/D/5/D/D5DC1121-8BC5-4953-834F-1B5BB03EB691/DBrefguideSPS2016_tabloid.pdf) or [Visio](https://download.microsoft.com/download/D/5/D/D5DC1121-8BC5-4953-834F-1B5BB03EB691/DBrefguideSPS2016_tabloid.vsdx) file. 
+For a full list of all of the databases that support SharePoint Servers 2016 and 2019, see [Database types and descriptions in SharePoint Server](../technical-reference/database-types-and-descriptions.md). For a graphical representation of the databases that support SharePoint Server 2016, see the SharePoint Server 2016 database poster as either a [PDF](https://download.microsoft.com/download/D/5/D/D5DC1121-8BC5-4953-834F-1B5BB03EB691/DBrefguideSPS2016_tabloid.pdf) or [Visio](https://download.microsoft.com/download/D/5/D/D5DC1121-8BC5-4953-834F-1B5BB03EB691/DBrefguideSPS2016_tabloid.vsdx) file. 
 
-## Working with the SQL Server databases that support SharePoint Server 2016
+## Working with the SQL Server databases that support SharePoint Servers 2016 and 2019
 <a name="sec2"> </a>
 
 The databases that support SharePoint Server 2016 are either created automatically with the SharePoint Products Configuration Wizard or manually by database administrators when they configure SharePoint Server.
   
-Microsoft does not support directly querying or modifying the databases that support SharePoint Server 2016. In SharePoint Server 2016 the Usage and Health Data Collection database does support schema modifications.
+Microsoft does not support directly querying or modifying the databases that support SharePoint Servers 2016 and 2019. In SharePoint Servers 2016 and 2019 the Usage and Health Data Collection database does support schema modifications.
+
+SharePoint Server 2019 does not support multi-tenancy so service application databases in partitioned mode can’t be attached. Additionally, service applications databases in partitioned mode can’t be created from Central Administration.
   
 The SQL Server databases that support SharePoint Server 2016 are subject to sizing limitations and to configuration recommendations that are not standard for SQL Server. For more information, see [Storage and SQL Server capacity planning and configuration (SharePoint Server)](storage-and-sql-server-capacity-planning-and-configuration.md).
   
-## SQL Server 2014 with Service Pack 1 (SP1)
+## SharePoint Server 2016 and   SQL Server 2014 with Service Pack 1 (SP1)
 <a name="sec4"> </a>
 
 SQL Server 2014 (SP1) provides greater performance, availability, and manageability with SharePoint Server 2016 than SQL Server 2014. While you can't use SQL Server Power Pivot for SharePoint or Power View for SharePoint with SQL Server 2014 (SP1), you can use some business intelligence solutions with SharePoint Server 2016. For example, you can install Office Online Server to use Excel Online.
@@ -82,7 +99,7 @@ For more information, see [Features Supported by the Editions of SQL Server 2014
 We recommend AlwaysOn Availability Groups and AlwaysOn Failover Cluster Instances for high availability in SQL Server 2014 Reporting Services (SP1). Other high availability solutions are database mirroring, and log shipping. Both AlwaysOn Availability Groups and Failover Cluster Instances solutions require and use Windows Server Failover Clustering (WSFC).
   
 > [!NOTE]
-> We recommend that you use AlwaysOn Availability Groups instead of database mirroring for your high availability solution with SQL Server 2014 (SP1), SQL Server 2016, and SQL Server 2017 RTM for SharePoint Server 2016. For more information, see [Overview of SQL Server High-Availability Solutions](http://go.microsoft.com/fwlink/?LinkID=718030&amp;clcid=0x409). 
+> We recommend that you use AlwaysOn Availability Groups instead of database mirroring for your high availability solution with SQL Server 2014 (SP1), SQL Server 2016, and SQL Server 2017 RTM for SharePoint Servers 2016 and 2019. For more information, see [Overview of SQL Server High-Availability Solutions](http://go.microsoft.com/fwlink/?LinkID=718030&amp;clcid=0x409). 
   
 For more information, see [AlwaysOn Availability Groups (SQL Server)](http://go.microsoft.com/fwlink/?LinkID=718032&amp;clcid=0x409), and [Prerequisites, Restrictions, and Recommendations for AlwaysOn Availability Groups (SQL Server)](http://go.microsoft.com/fwlink/?LinkID=718033&amp;clcid=0x409).For information about high availability for SQL Server Reporting Services, see [High Availability (Reporting Services)](http://go.microsoft.com/fwlink/?LinkID=808640&amp;clcid=0x409). 
   
