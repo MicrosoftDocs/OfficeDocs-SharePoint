@@ -754,7 +754,7 @@ Thanks to Bill Baer, Microsoft Senior Product Marketing Manager and Brian Alderm
 
 #### Concepts
 
-[Overview of SQL Server in a SharePoint Server 2016 environment](overview-of-sql-server-in-a-sharepoint-server-2016-environment.md)
+[Overview of SQL Server in SharePoint Server 2016 and 2019 environments](overview-of-sql-server-in-sharepoint-server-2016-and-2019-environments.md)
   
 [Optimize performance for SharePoint Server 2013](optimize-performance.md)
   
