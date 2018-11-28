@@ -188,7 +188,7 @@ The SharePoint Server Content Publishing team thanks the following contributors 
 
 #### Concepts
 
-[Overview of SQL Server in a SharePoint Server 2016 environment](overview-of-sql-server-in-a-sharepoint-server-2016-environment.md)
+[Overview of SQL Server in SharePoint Server 2016 and 2019 environments](overview-of-sql-server-in-sharepoint-server-2016-and-2019-environments.md)
   
 [Storage and SQL Server capacity planning and configuration (SharePoint Server)](storage-and-sql-server-capacity-planning-and-configuration.md)
 #### Other Resources
