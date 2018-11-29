@@ -25,7 +25,7 @@ A site collection is made up of one top-level site and all sites below it. As sh
 
 ![Diagram of a site collection](../media/DiagramOfSiteCollection.gif)
   
-The SharePoint Server 2019 modern experience is similar to the experience in SharePoint Online. The main difference is Hub sites aren't available in SharePoint Server. We do recommend that you use the same process as in SharePOint Online, create site collections for each unit of work instead of creating subsites. This will make it easier when migrating your SharePoint farm to SharePoint Online.
+The SharePoint Server 2019 modern experience is similar to the experience in SharePoint Online. The main difference is Hub sites aren't available in SharePoint Server. We do recommend that you use the same process as in SharePoint Online, create site collections for each unit of work instead of creating subsites. This will make it easier when migrating your SharePoint farm to SharePoint Online.
 
 The following guidelines show the relationship between SharePoint Server sites and site collections, and content databases:
   
@@ -67,7 +67,7 @@ Every site collection starts as a single, top-level site. Because it is a site, 
 
 |**Type**|**Name**|**Description**|**Availability**|
 |:-----|:-----|:-----|:-----|
-|**Collaboration** <br/> |Team Site  <br/> |A place to work together with a group of people.  <br/> **SharePoint Server 2019** offers a modern or classic team site.  <br/> |Site collection and site  <br/> |
+|**Collaboration** <br/> |Team Site  <br/> |A place to work together with a group of people.  <br/> **SharePoint Server 2019** offers a modern and classic team site.  <br/> |Site collection and site  <br/> |
 |**Collaboration** <br/> |Blog  <br/> |A site for a person or team to post ideas, observations, and expertise that site visitors can comment on.  <br/> |Site collection and site  <br/> |
 |**Collaboration** <br/> |Developer Site  <br/> |A site for developers to build, test, and publish apps for Office.  <br/> |Site collection only  <br/> |
 |**Collaboration** <br/> |Project Site  <br/> |A site for managing and collaborating on a project. This site template brings all status, communication, and artifacts relevant to the project into one place.  <br/> |Site collection and site  <br/> |
