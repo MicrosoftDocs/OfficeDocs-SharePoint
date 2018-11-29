@@ -28,6 +28,9 @@ In this case, the prefix is "user1" and the suffix is "contoso.com."
 
 You can change a user's UPN in the [Microsoft 365 admin center](/office365/admin/add-users/change-a-user-name-and-email-address?view=o365-worldwide) by changing the user's username or by setting a different email alias as primary. You can also change a user's UPN in the [Azure AD admin center](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal) by changing their username. And you can change a UPN by [using Microsoft PowerShell](/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0).
 
+> [!NOTE]
+> A user's UPN (used for signing in) and email address can be different. If you just need to add a new email address for a user, you can add an alias without changing the UPN. 
+
 You can change the prefix, suffix, or both. For example, if a person's name changed, you might change their account name:
 
 user1@contoso.com to user2@contoso.com
@@ -40,7 +43,21 @@ In both of these cases, the change impacts the user's OneDrive URL:
 
 https://contoso-my.sharepoint.com/personal/**user1**_**contoso**_com
   
+## Sync
+
 If the user has sync client build 18.212.1021.0008 or later (on either Windows or Mac), the sync client will switch to sync with the new location without any user interaction. Note that UPN changes can take up to several hours to propagate through your environment. During the transition period, users may see an error in the OneDrive sync client that "One or more libararies could not be synced." If they click for more information, they will see "You don't have permission to sync this library." This error will go away when the sync client updates to use the user's new OneDrive URL.
+
+## OneNote
+
+After UPN changes, users will need to close and reopen their OneNote notebooks stored in OneDrive. 
+
+## Recent files lists
+
+After UPN changes, users will need to browse to re-open active OneDrive files in their new location. Any links to the files (including browser favorites, desktop shortcuts, and "Recent" lists in Office apps and Windows) will no longer work.
+
+## Shared OneDrive files
+
+If a user shared OneDrive files with others, the links will no longer work after a UPN change. The user will need to re-share the files. 
 
 ## Recommendations
 
