@@ -88,7 +88,7 @@ Natively, files will be downloaded only when you need to access them. However, i
 
 ![Screenshot of the right-click menu in Windows Explorer showing options to keep the file on disk or in the cloud](media/onedrive-feature-overview_image4.png)
 
-For more information about OneDrive Files On-Demand, see [Learn about OneDrive Files On-Demand](https://support.office.com/article/learn-about-onedrive-files-on-demand-0e6860d3-d9f3-4971-b321-7092438fb38e).
+For more information about OneDrive Files On-Demand, see [Learn about OneDrive Files On-Demand](https://support.office.com/article/0e6860d3-d9f3-4971-b321-7092438fb38e).
 
 ### Modern attachments
 
@@ -348,7 +348,7 @@ Key decisions:
 
 -   Do you need to pre-provision OneDrive for your users? (Are you migrating files before users have started using OneDrive?)
 
-> [!VIDEO https://videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=RE2CyhW&AutoPlayVideo=false]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2CyhW]
 
 > [!TIP]
 > Video not in your language? Try selecting **Closed Captioning**.
