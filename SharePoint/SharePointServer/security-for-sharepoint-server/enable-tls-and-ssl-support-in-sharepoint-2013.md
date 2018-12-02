@@ -187,7 +187,7 @@ Internet Explorer versions earlier than Internet Explorer 11 did not enable TLS 
 
 The SQL Server 2008 R2 Native Client doesn't support TLS 1.1 or TLS 1.2 by default. You must install the SQL Server 2008 R2 Native Client update for TLS 1.2 support.
   
-To install the SQL Server 2008 R2 Native Client update, see the KB article [Hotfix for SQL Server 2008 R2](https://support.microsoft.com/en-us/hotfix/kbhotfix?kbnum=3098860&amp;kbln=en-us)
+To install the SQL Server 2008 R2 Native Client update, see the KB article [Hotfix for SQL Server 2008 R2](https://www.microsoft.com/en-us/download/details.aspx?id=57606)
   
 ## 1.5 - Install .NET Framework 4.6 or higher
 <a name="InstallNET46"> </a>
