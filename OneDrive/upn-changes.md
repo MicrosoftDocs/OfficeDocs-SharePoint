@@ -31,21 +31,36 @@ You can change a user's UPN in the [Microsoft 365 admin center](/office365/admin
 > [!NOTE]
 > A user's UPN (used for signing in) and email address can be different. If you just need to add a new email address for a user, you can add an alias without changing the UPN. 
 
-You can change the prefix, suffix, or both. For example, if a person's name changed, you might change their account name:
+## Types of UPN changes
 
-```user1@contoso.com``` to ```user2@contoso.com```
+You can change a UPN in two different ways:
 
-If a person changed divisions, you might change their domain:
+1. Change the prefix. For example, if a person's name changed, you might change their account name:
 
-```user1@contoso.com``` to ```user1@contososuites.com```
+user1@contoso.com to user2@contoso.com
 
-In both of these cases, the change impacts the user's OneDrive URL:
+2. Change the suffix. For example, If a person changed divisions, you might change their domain:
 
-```https://contoso-my.sharepoint.com/personal/```*user1*_*contoso*_com
+user1@contoso.com to user1@contososuites.com
+
+> [!IMPORTANT]
+> UPN changes can take several hours to propagate through your environment. 
+
+## OneDrive URL
+
+A user's OneDrive URL is based on their UPN:
+
+https://contoso-my.sharepoint.com/personal/*user1_contoso_com*
+
+(where user1_contoso_com corresponds with user1@contoso.com)
+
+In this case, if you changed both the prefix to user2 and the suffix to contososuites.com, the user's OneDrive URL would change to:
+
+https://contoso-my.sharepoint.com/personal/*user2_contososuites_com*
   
 ## Sync
 
-If the user has sync client build 18.212.1021.0008 or later (on either Windows or Mac), the sync client will switch to sync with the new location without any user interaction. Note that UPN changes can take several hours to propagate through your environment. During the transition period, users may see an error in the OneDrive sync client that "One or more libararies could not be synced." If they click for more information, they will see "You don't have permission to sync this library." Users who see this error should restart the sync client. The error will go away when the UPN change has been fully propagated and the sync client is updated to use the user's new OneDrive URL.  
+If the user has sync client build 18.212.1021.0008 or later (on either Windows or Mac), the sync client will switch to sync with the new location without any user interaction. While the UPN change is propagating through your environment, users may see an error in the OneDrive sync client that "One or more libararies could not be synced." If they click for more information, they will see "You don't have permission to sync this library." Users who see this error should restart the sync client. The error will go away when the UPN change has been fully propagated and the sync client is updated to use the user's new OneDrive URL.  
 
 > [!NOTE]
 > Synced team sites are not impacted by the OneDrive URL change. 
