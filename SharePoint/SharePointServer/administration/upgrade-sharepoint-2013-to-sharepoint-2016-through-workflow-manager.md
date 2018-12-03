@@ -45,7 +45,7 @@ Use the following steps to register Workflow Manager with SharePoint Server 2016
 
 1. In the SharePoint 2013 farm, on the Central Administration website click **Application Management** and click **Manage Service Applications**, and then delete **Workflow Service Applidcation Proxy**.
 
-2. In the SharePoint Server 2014 farm, run the following Microsoft PowerShell cmdlet to pair SharePOint 2016 together with the same Workflow Manager installation:
+2. In the SharePoint Server 2014 farm, run the following Microsoft PowerShell cmdlet to pair SharePoint 2016 together with the same Workflow Manager installation:
 
 ```powershell
    Register-SPWorkflowService -SPSite <SharePOint site URL> -
@@ -95,6 +95,7 @@ To resolve this issue, use the following PowerShell commands to register the new
    #Register the app principal with the old authentication realm
    Register-SPAppPrincipal -DisplayName "Old Workflow" -Site $web -NameIdentifier $oldAppId
    #Set permissions for the app principal
+   #If app-only permissions are used in old environment, you must use the -EnableAppOnlyPolicy parameter to pass to the cmdlet for app steps to succeed
    $oldAppPrincipal = Get-SPAppPrincipal -Site $web -NameIdentifier $oldAppId
    Set-SPAppPrincipalPermission -Site $web -AppPrincipal $oldAppPrincipal -Scope SiteCollection -Right FullControl
    Set-SPAppPrincipalPermission -Site $web -AppPrincipal $oldAppPrincipal -Scope Site -Right FullControl
