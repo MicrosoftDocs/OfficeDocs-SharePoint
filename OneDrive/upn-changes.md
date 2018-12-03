@@ -33,19 +33,22 @@ You can change a user's UPN in the [Microsoft 365 admin center](/office365/admin
 
 You can change the prefix, suffix, or both. For example, if a person's name changed, you might change their account name:
 
-user1@contoso.com to user2@contoso.com
+```user1@contoso.com``` to ```user2@contoso.com```
 
 If a person changed divisions, you might change their domain:
 
-user1@contoso.com to user1@contososuites.com
+```user1@contoso.com``` to ```user1@contososuites.com```
 
 In both of these cases, the change impacts the user's OneDrive URL:
 
-https://contoso-my.sharepoint.com/personal/**user1**_**contoso**_com
+```https://contoso-my.sharepoint.com/personal/```*user1*_*contoso*_com
   
 ## Sync
 
-If the user has sync client build 18.212.1021.0008 or later (on either Windows or Mac), the sync client will switch to sync with the new location without any user interaction. Note that UPN changes can take up to several hours to propagate through your environment. During the transition period, users may see an error in the OneDrive sync client that "One or more libararies could not be synced." If they click for more information, they will see "You don't have permission to sync this library." This error will go away when the sync client updates to use the user's new OneDrive URL.
+If the user has sync client build 18.212.1021.0008 or later (on either Windows or Mac), the sync client will switch to sync with the new location without any user interaction. Note that UPN changes can take several hours to propagate through your environment. During the transition period, users may see an error in the OneDrive sync client that "One or more libararies could not be synced." If they click for more information, they will see "You don't have permission to sync this library." Users who see this error should restart the sync client. The error will go away when the UPN change has been fully propagated and the sync client is updated to use the user's new OneDrive URL.  
+
+> [!NOTE]
+> Synced team sites are not impacted by the OneDrive URL change. 
 
 ## OneNote
 
