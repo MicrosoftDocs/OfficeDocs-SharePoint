@@ -45,7 +45,7 @@ Follow these steps to update your SharePoint server.
 |[1.1 - Enable TLS 1.1 and TLS 1.2 in Windows Schannel](http://technet.microsoft.com/library/6eb922f2-8022-4fb8-968a-d1b3959e53b6.aspx#EnableTLS) <br/> |Required  <br/> |N/A  <br/> |N/A  <br/> |
 |[1.2 - Enable TLS 1.1 and TLS 1.2 support in WinHTTP](http://technet.microsoft.com/library/6eb922f2-8022-4fb8-968a-d1b3959e53b6.aspx#EnableTLSWinHTTP) <br/> |Required  <br/> |Required  <br/> |N/A  <br/> |
 |[1.3 - Enable TLS 1.1 and TLS 1.2 support in Internet Explorer](http://technet.microsoft.com/library/6eb922f2-8022-4fb8-968a-d1b3959e53b6.aspx#enableIE) <br/> |Required  <br/> |Required  <br/> |N/A  <br/> |
-|[1.4 - Install SQL Server 2008 R2 Native Client update for TLS 1.2 support](http://technet.microsoft.com/library/6eb922f2-8022-4fb8-968a-d1b3959e53b6.aspx#InstallSQL) <br/> |Required  <br/> |Required  <br/> |Required  <br/> |
+|[1.4 - Install SQL Server 2008 R2 Native Client update for TLS 1.2 support](https://www.microsoft.com/en-us/download/details.aspx?id=57606#InstallSQL) <br/> |Required  <br/> |Required  <br/> |Required  <br/> |
 |[1.5 - Install .NET Framework 4.6 or higher](http://technet.microsoft.com/library/6eb922f2-8022-4fb8-968a-d1b3959e53b6.aspx#InstallNET46) <br/> |Required  <br/> |Required  <br/> |Required  <br/> |
 |[1.6 - Enable strong cryptography in .NET Framework 4.6 or higher](http://technet.microsoft.com/library/6eb922f2-8022-4fb8-968a-d1b3959e53b6.aspx#CryptoNet45) <br/> |Required  <br/> |Required  <br/> |Required  <br/> |
 |The following ﻿steps are **recommended**. Although not directly required by SharePoint Server 2013, they may be necessary for other software ﻿that integrates with SharePoint Server 2013.  <br/> |
@@ -187,7 +187,7 @@ Internet Explorer versions earlier than Internet Explorer 11 did not enable TLS 
 
 The SQL Server 2008 R2 Native Client doesn't support TLS 1.1 or TLS 1.2 by default. You must install the SQL Server 2008 R2 Native Client update for TLS 1.2 support.
   
-To install the SQL Server 2008 R2 Native Client update, see the KB article [Hotfix for SQL Server 2008 R2](https://support.microsoft.com/en-us/hotfix/kbhotfix?kbnum=3098860&amp;kbln=en-us)
+To install the SQL Server 2008 R2 Native Client update, see [SQL 2008 and 2008 R2 TLS 1.2 SQL Native Client updates not available in Windows Catalog.](https://www.microsoft.com/en-us/download/details.aspx?id=57606)
   
 ## 1.5 - Install .NET Framework 4.6 or higher
 <a name="InstallNET46"> </a>
