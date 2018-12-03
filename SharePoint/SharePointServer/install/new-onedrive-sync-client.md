@@ -27,23 +27,55 @@ If your users are already syncing document libraries with the previous OneDrive 
     
 ## Requirements
 
-Install SharePoint Server 2019.
-
-Configure OneDrive to update from the Insiders ring to version 18.131.0701.0004 or higher. To do this, do one of the following:
-- Join the [Windows Insider program](https://insider.windows.com/) or the [Office Insider](https://products.office.com/office-insider) program.
-- Use this [registry key](https://oneclient.sfx.ms/Win/Preview/EnableInsiderUpdates.zip).
-  
+1. Install SharePoint Server 2019
+2. Install the OneDrive sync client version 18.131.0701.0004 or higher ([download](https://go.microsoft.com/fwlink/p/?LinkId=248256))
   
 ## Configure OneDrive for SharePoint Server 2019
 
-To set up OneDrive with SharePoint Server 2019, configure the following Group Policy objects: 
+To set up OneDrive with SharePoint Server 2019, you can either use a Group Policy or set the registry keys directly. 
+
+### Using a Group Policy
+
+Configure the following two Group Policy objects to configure OneDrive to be used with SharePoint 2019:
   
-1.	SharePoint on-premises server URL and tenant folder name
-The URL will help the sync client locate the SharePoint Server and allows the sync client to authenticate and set up sync. The tenant folder name lets you specify the name of the root folder that will be created in File Explorer. If you don’t supply a tenant name, the sync client will use the first segment of the URL as the name. For example, office.sharepoint.com would become “Office.”
-2.	SharePoint prioritization setting for hybrid customers that use SharePoint Online (SPO) and SharePoint on-premises server
+**SharePoint on-premises server URL and tenant folder name**
+
+The URL will help the sync client locate the SharePoint Server and allows the sync client to authenticate and set up sync.
+The tenant folder name lets you specify the name of the root folder that will be created in File Explorer. If you don’t supply a tenant name, the sync client will use the first segment of the URL as the name. For example, office.sharepoint.com would become “office”.
+
+**SharePoint prioritization setting for hybrid customers that use SharePoint Online (SPO) and SharePoint on-premises server**
+
 This setting lets you specify if the sync client should authenticate against SharePoint Online or the SharePoint on-premises server if the identity exists in both identity providers.
- [Learn how to manage OneDrive using Group Policy](https://docs.microsoft.com/onedrive/use-group-policy)
-  
+
+You should be able to find these Group Policy objects using the Group Policy Editor (gpedit.msc) when navigating to Computer Configuration\Administrative Templates\OneDrive. If the OneDrive folder is not present, you can add the OneDrive Group Policy template by coping the following two files from the OneDrive installation folder after you have installed the latest OneDrive Sync client on that machine:
+
+- C:\Users\\*username*\AppData\Local\Microsoft\OneDrive\\*onedrivesyncclientversion*\adm\OneDrive.admx
+to
+C:\Windows\PolicyDefinitions\OneDrive.admx
+- C:\Users\\*username*\AppData\Local\Microsoft\OneDrive\\*onedrivesyncclientversion*\adm\OneDrive.adml
+to
+C:\Windows\PolicyDefinitions\en-US\OneDrive.adml
+
+To automate this copying using PowerShell, you could use:
+
+```powershell
+Get-ChildItem -Recurse -Path "$env:LOCALAPPDATA\Microsoft\OneDrive" -Filter "OneDrive.admx" | ? FullName -like "*\adm\OneDrive.admx" | Copy-Item -Destination "$env:WINDIR\PolicyDefinitions" -Force
+Get-ChildItem -Recurse -Path "$env:LOCALAPPDATA\Microsoft\OneDrive" -Filter "OneDrive.adml" | ? FullName -like "*\adm\OneDrive.adml" | Copy-Item -Destination "$env:WINDIR\PolicyDefinitions\en-US" -Force
+```
+
+More information:
+[Learn how to manage OneDrive using Group Policy](https://docs.microsoft.com/onedrive/use-group-policy)
+
+### By setting the registry keys
+
+Alternatively, you can also directly configure the following underlying registry keys:
+
+|**Key**|**Type**|**Value**|
+|:-----|:-----|:-----|
+|HKLM:\\Software\Policies\Microsoft\OneDrive\SharePointOnPremPrioritization|DWORD (32-bit)|1|
+|HKLM:\\Software\Policies\Microsoft\OneDrive\SharePointOnPremFrontDoorUrl|String|https://sharepoint.contoso.local|
+|HKLM:\\Software\Policies\Microsoft\OneDrive\SharePointOnPremTenantName|String|Contoso|
+ 
 ## Differences between syncing files in SharePoint Server and SharePoint Online
 
 If your organization also uses the OneDrive sync client to sync files in Office 365, here’s what will be different for users who sync on-premises files.
