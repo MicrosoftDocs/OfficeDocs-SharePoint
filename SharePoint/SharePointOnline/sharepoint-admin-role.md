@@ -17,12 +17,15 @@ search.appverid:
 - GSP150
 - MET150
 ms.assetid: f08144d5-9d50-4922-8e77-4e1a27b40705
-description: "SharePoint Online admins manage your document storage. They also assign Site collection administrators and Term store administrators.  "
+description: "SharePoint admins manage your document storage. They also assign site collection administrators and Term Store Administrators.  "
 ---
 
 # About the SharePoint admin role in Office 365
 
-Global administrators in Office 365 can assign users the SharePoint administrator role for help with administering SharePoint Online. The global admin already has all the permissions of a SharePoint admin. When you purchase Office 365, a team site is automatically created, and the global admin is set as the primary site collection administrator. 
+Global administrators in Office 365 can assign users the SharePoint administrator role for help with administering SharePoint Online. The global admin already has all the permissions of a SharePoint admin. When you purchase Office 365, a team site is automatically created, and the global admin is set as the primary site collection administrator. For info about assigning a user the SharePoint administrator role, see [Assign admin roles in Office 365 for business](/office365/admin/add-users/assign-admin-roles).
+
+> [!TIP]
+> When you assign someone the SharePoint admin role, you may also want to assign them to Service administrator role. This way they can see important information in the Microsoft 365 admin center, such as the health of the SharePoint Online service, and change and release notifications. 
   
 Users assigned the SharePoint admin role have access to the SharePoint admin center and can create and manage site collections, designate site collection administrators, manage user profiles, and more. 
 
@@ -55,15 +58,11 @@ Here are some of the key tasks users can do when they are assigned to the ShareP
     
 - [Manage SharePoint Online user profiles](manage-user-profiles.md)
     
-> [!TIP]
-> When you assign someone the SharePoint admin role, you may also want to assign them to Service administrator role. This way they can see important information in the Microsoft 365 admin center, such as the health of the SharePoint Online service, and change and release notifications. 
   
 ## See also
 <a name="BK_KeyTasks"> </a>
 
 [About Office 365 admin roles](/office365/admin/add-users/about-admin-roles)
-  
-[Assign admin roles in Office 365 for business](/office365/admin/add-users/assign-admin-roles)
   
 [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
 
