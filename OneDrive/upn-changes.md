@@ -62,7 +62,7 @@ After you change a UPN, any saved links to the user's OneDrive (such as desktop 
   
 ## Sync
 
-If a user has sync client build 18.212.1021.0008 or later (on either Windows or Mac), the sync client will automatically switch to sync with the new OneDrive location after a UPN change. While the UPN change is propagating through your environment, users may see an error in the OneDrive sync client that "One or more libararies could not be synced." If they click for more information, they will see "You don't have permission to sync this library." Users who see this error should restart the sync client. The error will go away when the UPN change has been fully propagated and the sync client is updated to use the user's new OneDrive URL.  
+If a user has sync client build 18.212.1021.0008 or later (on either Windows or Mac), the sync client will automatically switch to sync with the new OneDrive location after a UPN change. While the UPN change is propagating through your environment, users may see an error in the OneDrive sync client that "One or more libraries could not be synced." If they click for more information, they will see "You don't have permission to sync this library." Users who see this error should restart the sync client. The error will go away when the UPN change has been fully propagated and the sync client is updated to use the user's new OneDrive URL.  
 
 > [!NOTE]
 > Synced team sites are not impacted by the OneDrive URL change. 
