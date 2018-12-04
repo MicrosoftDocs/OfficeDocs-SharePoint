@@ -23,10 +23,9 @@ description: "Learn how to deploy OneDrive apps by using Intune."
 
 You can use Intune to deploy the mobile apps for iOS and Android and to deploy the new OneDrive sync client (OneDrive.exe). Before you begin deploying, make sure you have reviewed the planning information and deployment options in the [OneDrive guide for enterprises](plan-onedrive-enterprise.md).
 
-> [!VIDEO https://videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=RE2CnSk&AutoPlayVideo=false]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2CnSk]
 
-> [!TIP]
-> Video not in your language? Try selecting **Closed Captioning**.
+
 
 ### Deploy OneDrive to iOS devices by using Intune
 
