@@ -54,9 +54,11 @@ https://contoso-my.sharepoint.com/personal/*user1_contoso_com*
 
 (where user1_contoso_com corresponds with user1@contoso.com)
 
-In this case, if you changed both the prefix to user2 and the suffix to contososuites.com, the user's OneDrive URL would change to:
+In this case, if you changed the prefix to user2 and the suffix to contososuites.com, the user's OneDrive URL would change to:
 
 https://contoso-my.sharepoint.com/personal/*user2_contososuites_com*
+
+After you change a UPN, any saved links to the user's OneDrive (such as desktop shortcuts or browser favorites) will no longer work and will need to be updated. 
   
 ## Sync
 
@@ -80,6 +82,13 @@ After UPN changes, users will need to browse to re-open active OneDrive files in
 ## Shared OneDrive files
 
 If a user shared OneDrive files with others, the links will no longer work after a UPN change. The user will need to re-share the files. 
+
+## Search and Delve
+
+After a UPN change, it might take a while for files at the new OneDrive URL to be indexed. During this time, search results in OneDrive and SharePoint will use the old URL. Users can copy the URL, paste it in the address bar, and then update the portion for the new UPN. 
+
+Delve will also link to old OneDrive URLs for a period of time after a UPN change. As activity occurs in the new location, the new links will start appearing. 
+
 
 ## Recommendations
 
