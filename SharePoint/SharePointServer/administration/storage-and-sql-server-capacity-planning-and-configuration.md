@@ -3,7 +3,6 @@ title: "Storage and SQL Server capacity planning and configuration (SharePoint S
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 3/9/2018
 ms.audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
