@@ -1,5 +1,5 @@
 ---
-title: "Upgrade SharePoint 2013 to SharePoint 2016 through Workflow Manager"
+title: "Upgrade SharePoint 2016 to SharePoint 2019 through Workflow Manager"
 ms.author: toresing
 author: bentoncity
 manager: pamgreen
@@ -8,16 +8,16 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
-description: "Learn how to upgrade SharePoint 2013 to SharePoint Server 2016 using Workflow Manager."
+description: "Learn how to upgrade SharePoint Server 2016 to SharePoint Server 2019 using Workflow Manager."
 ---
 
-# Upgrade SharePoint 2013 to SharePoint 2016 through Workflow Manager
+# Upgrade SharePoint 2016 to SharePoint 2019 through Workflow Manager
 
-[!INCLUDE[appliesto-2013-2016-xxx-xxx-md](../includes/appliesto-2013-2016-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)]
 
 ## Summary
 
-When you upgrade Microsoft SharePoint 2013 to Microsoft SharePoint 2016, you don't have to create a new Workflow Manager installation. You can use the same installation that was used by the SharePoint 2013 farm in the new SharePoint 2016 farm. However, you may have to create a new installation of Workflow Manager in certain circumstances. For example, if you want to move Workflow Manager to a different Windows operating system, or if the back-end database server is decommissioned. In these situations, follow the steps in [Workflow Manager Disaster Recovery](https://blogs.msdn.microsoft.com/biztalknotes/2014/05/14/workflow-manager-disaster-recovery/) to create the new Workflow Manager installation by using the old databases. Make sure that you use the most recent copy of the Workflow Manager databases.
+When you upgrade Microsoft SharePoint Server 2016 to Microsoft SharePoint Server 2019, you don't have to create a new Workflow Manager installation. You can use the same installation that was used by the SharePoint 2016 farm in the new SharePoint Server 2016 farm. However, you may have to create a new installation of Workflow Manager in certain circumstances. For example, if you want to move Workflow Manager to a different Windows operating system, or if the back-end database server is decommissioned. In these situations, follow the steps in [Workflow Manager Disaster Recovery](https://blogs.msdn.microsoft.com/biztalknotes/2014/05/14/workflow-manager-disaster-recovery/) to create the new Workflow Manager installation by using the old databases. Make sure that you use the most recent copy of the Workflow Manager databases.
 
 ## Background
 
@@ -25,7 +25,7 @@ When you use SharePoint Server together with Workflow Manager, Workflow Manager 
 
 SharePoint stores the workflow history and workflow task information for SharePoint workflows. When the workflow status page is loaded, SharePoint first makes a call to Workflow Manager to see whether the workflow exists. To do this, it uses the workflow instance ID. Then, SharePoint loads the rest of the workflow information. If the workflow instance ID is missing in Workflow Manager, or if an error occurs during communication with Workflow Manager, you receive an error message.
 
-## How to upgrade SharePoint 2013 to SharePoint 2016 by using Workflow Manager
+## How to upgrade SharePoint Server 2016 to SharePoint Server 2019 by using Workflow Manager
 
 ### Prerequisites
 
@@ -33,17 +33,17 @@ The following prrequisites must be done installed this upgrade:
 
 - Install the latest cumulative update for Workflow Manager by using Web Platform Installer (Web PI).
 
-- Install the latest version of Workflow Manager Client on the SharePoint 2013 servers, and make sure that all workflows are functional.
+- Install the latest version of Workflow Manager Client on the SharePoint 2016 servers, and make sure that all workflows are functional.
 
-- Install the SharePoint Server 2016 farm, and upgrade all service applications and content databases.
+- Install the SharePoint Server 2019 farm, and upgrade all service applications and content databases.
 
-- On all SharePoint Server 2016 farm servers, install the latest version of Workflow Manager Client by using Web PI.
+- On all SharePoint Server 2019 farm servers, install the latest version of Workflow Manager Client by using Web PI.
 
-### Register Workflow Manager with SharePoint Server 2016
+### Register Workflow Manager with SharePoint Server 2019
 
-Use the following steps to register Workflow Manager with SharePoint Server 2016:
+Use the following steps to register Workflow Manager with SharePoint Server 2019:
 
-1. In the SharePoint 2013 farm, on the Central Administration website click **Application Management** and click **Manage Service Applications**, and then delete **Workflow Service Applidcation Proxy**.
+1. In the SharePoint 2016 farm, on the Central Administration website click **Application Management** and click **Manage Service Applications**, and then delete **Workflow Service Applidcation Proxy**.
 
 2. In the SharePoint Server 2016 farm, run the following Microsoft PowerShell cmdlet to pair SharePoint 2016 together with the same Workflow Manager installation:
 
@@ -66,7 +66,7 @@ If workflows don't start on some sites, republish the workflows from the affecte
 
 Consider the following scenario:
 
-- You have SharePoint 2013 workflows and Workflow Manager configured in your farm.
+- You have SharePoint 2016 workflows and Workflow Manager configured in your farm.
 
 - You have recently connected sites in the farm to a previously existing instance of Workflow Manager.
 
