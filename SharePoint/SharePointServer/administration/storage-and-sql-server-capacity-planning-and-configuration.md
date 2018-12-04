@@ -22,11 +22,7 @@ description: "Learn how to plan and configure the storage and database tier for 
   
 The capacity planning information that we provide contains guidelines to help you plan and configure the storage and SQL Server database tier in a SharePoint Server environment. This information is based on testing performed at Microsoft on live properties. However, your results may vary based on the equipment you use and the features and functionality that you implement for your sites. 
   
-> [!NOTE]
-> Performance and capacity tests in this article relate to Microsoft SQL Server 2014 with Service Pack 1 (SP1), Microsoft SQL Server 2016, SQL Server 2017 RTM, and SharePoint Server 2016. The test results are the same as in SharePoint Server 2013. 
-  
-> [!NOTE]
-> Although tests were not run on SQL Server 2014 (SP1), SQL Server 2016 , or SQL Server 2017 RTM you can use these test results as a guide to help you plan for and configure the storage and SQL Server database tier in SharePoint Server 2016 and 2019 environments. For training about how to configure and tune SQL Server 2012, see [SQL Server 2012 for SharePoint Server 2013](#Section8A). 
+Although tests were not run on SQL Server 2014 (SP1), SQL Server 2016 , or SQL Server 2017 RTM you can use these test results as a guide to help you plan for and configure the storage and SQL Server database tier in SharePoint Server 2019, 2016, and 2019 environments. For training about how to configure and tune SQL Server 2012, see [SQL Server 2012 for SharePoint Server 2013](#Section8A). NOte that the test results are the same as in SharePoint 2013.  
   
 Because SharePoint Server often runs in environments in which databases are managed by separate SQL Server database administrators, this document is intended for joint use by SharePoint Server farm implementers and SQL Server database administrators. It assumes significant understanding of both SharePoint Server and SQL Server.
   
@@ -50,8 +46,9 @@ We recommend that you break the storage and database tier design process into th
     
 7. [Validate and monitor storage and SQL Server performance ](#Section7)
     
-## Gather storage and SQL Server space and I/O requirements
+
 <a name="Section1"> </a>
+## Gather storage and SQL Server space and I/O requirements
 
 Several SharePoint Server architectural factors influence storage design. The key factors are: the amount of content, enabled features, deployed service applications, number of farms, and availability requirements.
   
@@ -69,15 +66,13 @@ In this section:
     
 - [Determine availability needs](#Section1d)
     
-### Databases used by SharePoint Server
+
 <a name="section1a"> </a>
+### Databases used by SharePoint Server
 
 The databases that are installed with SharePoint Servers 2016 and 2019 depend on the service applications that are used in the environment. All SharePoint Server environments rely on the SQL Server system databases. This section provides a summary of the databases installed with SharePoint Servers 2016 and 2019. For detailed database information, see [Database types and descriptions in SharePoint Server](../technical-reference/database-types-and-descriptions.md). 
   
-The **Quick reference guide: SharePoint Servers 2016 and 2019 Databases**, is available to download as either a [PDF](http://download.microsoft.com/download/7/9/7/79700E8E-9896-4657-B9E6-4940B295B71A/DBrefguideSPS2019_tabloid.pdf) or [Visio](http://download.microsoft.com/download/7/9/7/79700E8E-9896-4657-B9E6-4940B295B71A/DBrefguideSPS2019_tabloid.vsdx) file. 
-  
-> [!NOTE]
-> Some SharePoint Server, SQL Server Database Engine, and SQL Server Reporting Services (SSRS) databases have specific location recommendations or requirements. For information about these database locations, see [Database types and descriptions in SharePoint Server](../technical-reference/database-types-and-descriptions.md). 
+Some SharePoint Server, SQL Server Database Engine, and SQL Server Reporting Services (SSRS) databases have specific location recommendations or requirements. For information about these database locations, see [Database types and descriptions in SharePoint Server](../technical-reference/database-types-and-descriptions.md). The **Quick reference guide: SharePoint Servers 2016 and 2019 Databases**, is available to download as either a [PDF](http://download.microsoft.com/download/7/9/7/79700E8E-9896-4657-B9E6-4940B295B71A/DBrefguideSPS2019_tabloid.pdf) or [Visio](http://download.microsoft.com/download/7/9/7/79700E8E-9896-4657-B9E6-4940B295B71A/DBrefguideSPS2019_tabloid.vsdx) file.  
   
 The following databases are the SharePoint Server system databases and are installed automatically.
   
@@ -172,8 +167,9 @@ The SQL Server 2016 Reporting Services (SSRS) add-in can be used with any ShareP
 > [!NOTE]
 > SQL Server Reporting Services integration with SharePoint Server 2019 is no longer supported. For more information, see [Reporting Services Report Server (SharePoint Mode)](https://docs.microsoft.com/en-us/sql/reporting-services/report-server-sharepoint/reporting-services-report-server-sharepoint-mode?view=sql-server-2016&viewFallbackFrom=sql-server-2017) and [Supported combinations of SharePoint and Reporting Services server](https://docs.microsoft.com/en-us/sql/reporting-services/install-windows/supported-combinations-of-sharepoint-and-reporting-services-server?view=sql-server-2016).
     
-### Understand SQL Server and IOPS
+
 <a name="Section1_5a"> </a>
+### Understand SQL Server and IOPS
 
 On any server that hosts a SQL Server instance, it is very important that the server achieve the fastest response possible from the I/O subsystem.
   
@@ -187,13 +183,15 @@ Stress testing also provides valuable information for SQL Server. For informatio
   
 For detailed information about how to analyze IOPS requirements from a SQL Server perspective, see [Analyzing I/O Characteristics and Sizing Storage Systems for SQL Server Database Applications](http://go.microsoft.com/fwlink/p/?LinkId=317242).
   
-### Estimate core storage and IOPS needs
+
 <a name="sectoin1b"> </a>
+### Estimate core storage and IOPS needs
 
 Configuration and content storage and IOPS are the base layer that you must plan for in every SharePoint Server deployment. 
   
-#### Configuration storage and IOPS
+
 <a name="Section1b1"> </a>
+#### Configuration storage and IOPS
 
 Storage requirements for the Configuration database and the Central Administration content database are not large. We recommend that you allocate 2 GB for the Configuration database and 1 GB for the Central Administration content database. Over time, the Configuration database may grow beyond 1 GB. It does not grow quickly — it grows by approximately 40 MB for each 50,000 site collections. 
   
@@ -273,8 +271,9 @@ IOPS requirements for content databases vary significantly based on how your env
   
 In tests, we found that the content databases tend to range from 0.05 IOPS/GB to around 0.2 IOPS/GB. We also found that a best practice is to increase the top-end to 0.5 IOPS/GB. This is more than necessary and can be much more than you'll need in your environment. Note that if you use mirroring, this results in much more IO than the primary content databases. Simply be aware that the mirrored content databases are never lightweight.
   
-### Estimate service application storage needs and IOPS
+
 <a name="section1c"> </a>
+### Estimate service application storage needs and IOPS
 
 After you estimate content storage and IOPS needs, you must determine the storage and IOPS required by the service applications that are being used in your environment. 
   
@@ -306,8 +305,9 @@ To estimate the storage requirements for the service applications in the system,
 |App Management  <br/> |The App Management service application has one database. This database is small and significant growth is unlikely. It has minimal IOPS.  <br/> |
 |Power Pivot  <br/> |The Power Pivot Service application has one database. This database is small and has no significant I/O impact. We recommend that you use the same IOPS as the SharePoint content database. Note that content databases have significantly higher I/O requirements than the Power Pivot service application database.  <br/> |
    
-### Determine availability needs
+
 <a name="Section1d"> </a>
+### Determine availability needs
 
 Availability is how much a SharePoint Server 2016 environment is perceived by users to be available. An available system is a system that is resilient — that is, incidents that affect service occur infrequently, and timely and effective action is taken when they do occur. 
   
@@ -326,7 +326,7 @@ We recommend that for SharePoint Servers 2016 and 2019 you consider running your
  
 For more information about the benefits of these versions, see [Features Supported by the Editions of SQL Server 2014](http://go.microsoft.com/fwlink/?LinkID=808793&amp;clcid=0x409), [Editions and supported features of SQL Server 2016](http://go.microsoft.com/fwlink/?LinkID=524888&amp;clcid=0x409), and [Editions and supported features of SQL Server 2017](https://go.microsoft.com/fwlink/?linkid=865116).
   
-We recommend that for SharePoint Server 2013 you consider running your environment on the Enterprise Edition of SQL Server 2008 R2 with Service Pack 1 (SP1), SQL Server 2012, or SQL Server 2014 to take advantage of the additional performance, availability, security, and management capabilities that these versions provide. For more information about the benefits of SQL Server 2008 R2 with SP1, SQL Server 2012, and SQL Server 2014 Enterprise Edition, see [Features Supported by the Editions of SQL Server 2014](https://technet.microsoft.com/en-us/library/cc645993.aspx), [Features Supported by the Editions of SQL Server 2012](https://technet.microsoft.com/en-us/library/cc645993%28v=sql.110%29.aspx), and [Features Supported by the Editions of SQL Server 2008 R2](https://go.microsoft.com/fwlink/p/?LinkId=317246).
+We recommend that for SharePoint Server 2013 you consider running your environment on the Enterprise Edition of SQL Server 2008 R2 with Service Pack 1 (SP1), SQL Server 2012, or SQL Server 2014 to take advantage of the additional performance, availability, security, and management capabilities that these versions provide. For more information about the benefits of SQL Server 2008 R2 with SP1, SQL Server 2012, and SQL Server 2014 Enterprise Edition, see [Features Supported by the Editions of SQL Server 2014](http://go.microsoft.com/fwlink/?LinkID=808793&amp;clcid=0x409), [Features Supported by the Editions of SQL Server 2012](https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2012/cc645993(v=sql.110)), and [Features Supported by the Editions of SQL Server 2008 R2](https://go.microsoft.com/fwlink/p/?LinkId=317246).
   
 In particular, you should consider your need for the following features: 
   
