@@ -7,7 +7,8 @@ ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
-ms.collection: IT_Sharepoint_Server_Top6description: "Learn how to upgrade SharePoint Server 2016 to SharePoint Server 2019 using Workflow Manager."
+ms.collection: IT_Sharepoint_Server_Top
+description: "Learn how to upgrade SharePoint Server 2016 to SharePoint Server 2019 using Workflow Manager."
 ---
 
 # Upgrade SharePoint 2016 to SharePoint 2019 through Workflow Manager
