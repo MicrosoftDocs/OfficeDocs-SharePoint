@@ -53,7 +53,7 @@ Industry verticals where business-to-business (B2B) collaboration is key to thei
   
 - The ability to protect yourself against accidental sharing by using  *site-owners only*  sharing which prevents site users from inviting new users to that site. 
     
-- The ability to restrict partner users to a single site. They cannot search for or view any content or users outside of their site. 
+- The ability to restrict partner users to a single site. They cannot search for or view any content outside of their site. 
     
 - The ability to restrict the External partner users to be able to only accept invitations from the email address to which the invitation was sent, external partner users to use their corporate Office 365 organization account or Microsoft account to access a site that was created solely for them.
     
