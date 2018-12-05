@@ -22,7 +22,7 @@ description: "Learn how to plan and configure the storage and database tier for 
   
 The capacity planning information that we provide contains guidelines to help you plan and configure the storage and SQL Server database tier in a SharePoint Server environment. This information is based on testing performed at Microsoft on live properties. However, your results may vary based on the equipment you use and the features and functionality that you implement for your sites. 
   
-Although tests were not run on SQL Server 2014 (SP1), SQL Server 2016 , or SQL Server 2017 RTM you can use these test results as a guide to help you plan for and configure the storage and SQL Server database tier in SharePoint Server 2019, 2016, and 2019 environments. For training about how to configure and tune SQL Server 2012, see [SQL Server 2012 for SharePoint Server 2013](#Section8A). NOte that the test results are the same as in SharePoint 2013.  
+Although tests were not run on SQL Server 2014 (SP1), SQL Server 2016 , or SQL Server 2017 RTM you can use these test results as a guide to help you plan for and configure the storage and SQL Server database tier in SharePoint Server 2019, 2016, and 2019 environments. For training about how to configure and tune SQL Server 2012, see [SQL Server 2012 for SharePoint Server 2013](#Section8A). Note that the test results are the same as in SharePoint 2013.  
   
 Because SharePoint Server often runs in environments in which databases are managed by separate SQL Server database administrators, this document is intended for joint use by SharePoint Server farm implementers and SQL Server database administrators. It assumes significant understanding of both SharePoint Server and SQL Server.
   
@@ -316,7 +316,7 @@ Availability requirements can significantly increase your storage needs. For det
 <a name="Section2"> </a>
 ## Choose SQL Server version and edition
 
-We recommend that for SharePoint Servers 2016 and 2019 you consider running your environment on the Enterprise Edition of the following SQL Server to take advantage of the additional performance, availability, security, and management capabilities that these versions provide. 
+We recommend that for SharePoint Servers 2016 and 2019 you consider running your environment on the Enterprise Edition of the following SQL Servers to take advantage of the additional performance, availability, security, and management capabilities that these versions provide. 
 
 - SQL Server 2014 with Service Pack 1 (SP1) (SharePoint Server 2016 only)
  
@@ -345,6 +345,7 @@ In particular, you should consider your need for the following features:
 - **Remote BLOB storage** If you want to take advantage of remote BLOB storage to a database or location outside the files associated with each content database, you must use the Enterprise Edition of: 
   
   **SharePoint Server 2019**
+
     - SQL Server 2016
 
     - SQL Server 2017 RTM
