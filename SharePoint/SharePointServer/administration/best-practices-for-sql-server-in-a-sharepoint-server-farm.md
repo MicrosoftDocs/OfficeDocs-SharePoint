@@ -35,7 +35,7 @@ For more information, download the new [Deploying SQL Server 2016 PowerPivot and
   
 ## Use a dedicated server for SQL Server
 
-To ensure optimal performance for farm operations, we recommend that you install SQL Server on a dedicated server that does not run other farm roles and does not host databases for other applications. The only exception is deployment of SharePoint Server 2016 or 2019 in a Single-Server farm role or SharePoint 2013 on a stand-alone server, which is meant for development or testing, and is not recommended for production use. For more information, see [Description of MinRole and associated services in SharePoint Server 2016](description-of-minrole-and-associated-services-in-sharepoint-server-2016.md) and [Install SharePoint Servers 2016 or 2019 on one server](../install/install-sharepoint-server-2016-on-one-server.md).
+To ensure optimal performance for farm operations, we recommend that you install SQL Server on a dedicated server that does not run other farm roles and does not host databases for other applications. The only exception is deployment of SharePoint Server 2016 or 2019 in a Single-Server farm role or SharePoint 2013 on a stand-alone server, which is meant for development or testing, and is not recommended for production use. For more information, see [Description of MinRole and associated services in SharePoint Servers 2016 and 2019](description-of-minrole-and-associated-services-in-sharepoint-server-2016.md) and [Install SharePoint Servers 2016 or 2019 on one server](../install/install-sharepoint-server-2016-on-one-server.md).
   
 > [!NOTE]
 > The recommendation to use a dedicated server for relational databases also applies to deploying SQL Server in virtual environments. 
