@@ -550,8 +550,9 @@ Ensure that the SQL Server I/O channels to the disks are not shared by other app
   
 Provide as much bus bandwidth as possible. Greater bus bandwidth helps improve reliability and performance. Consider that the disk is not the only user of bus bandwidth — for example, you must also account for network access.
   
-### Set SQL Server options
+
 <a name="Section6_3"> </a>
+### Set SQL Server options
 
 The following SQL Server settings and options should be configured before you deploy SharePoint Server.
   
