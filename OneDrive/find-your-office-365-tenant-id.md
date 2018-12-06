@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - BCS160
 ms.assetid: 6891b561-a52d-4ade-9f39-b492285e2c9b
-description: "Your Office 365 tenant ID is a globally unique identifier (GUID) that is different than your tenant name or domain. On rare occasion, you might need this identifier, such as when configuring Windows group policy for OneDrive for Business."
+description: "Your Office 365 tenant ID is a globally unique identifier (GUID) that is different than your tenant name or domain. On rare occasions, you might need this identifier, such as when configuring Windows group policy for OneDrive for Business."
 ---
 
 # Find your Office 365 tenant ID
 
-Your Office 365 tenant ID is a globally unique identifier (GUID) that is different than your tenant name or domain. On rare occasion, you might need this identifier, such as when configuring Windows group policy for OneDrive for Business.
+Your Office 365 tenant ID is a globally unique identifier (GUID) that is different than your tenant name or domain. On rare occasions, you might need this identifier, such as when configuring Windows group policy for OneDrive for Business.
   
 If you do need to find your Office 365 tenant ID, it's pretty easy. Choose one of the following procedures.
   
