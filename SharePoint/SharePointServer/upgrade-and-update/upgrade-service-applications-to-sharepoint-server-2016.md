@@ -847,7 +847,7 @@ SharePoint Server 2016 normally creates a new search topology with all the searc
     
       ```
       $ssa = Get-SPEnterpriseSearchServiceApplication <SearchServiceApplicationName>
-      $ssa.ForceResume(0x02)
+      $ssa.Resume()
       ```
 
     Where:
