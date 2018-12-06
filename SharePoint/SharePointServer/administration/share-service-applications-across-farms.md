@@ -3,7 +3,6 @@ title: "Share service applications across farms in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 2/21/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -48,13 +47,13 @@ Cross farm service publishing supported scenarios:
 
  **Important:**
   
-There are significant restrictions on when services and content can be shared between a SharePoint 2010 farm and a SharePoint 2013 farm. Content type syndication uses the backup and restore mechanism in SharePoint Server to publish the content types across site collections. And backup and restore does not work across versions in the following scenarios:
+There are significant restrictions on when services and content can be shared between a SharePoint 2010 farm and a SharePoint 2013 farm. Content type syndication uses the backup and restore mechanism in SharePoint Server to publish the content types across site collections. Backup and restore does not work across versions in the following scenarios:
   
 - Between a SharePoint 2010 farm and a SharePoint 2013 farm
     
 - Between sites in 2010 mode on a 2013 farm and those in 2013 mode on a 2013 farm
     
-To learn how to work with these restrictions and successfully share services and content between SharePoint 2010 and SharePoint 2013 farms go here: [How to upgrade an environment that uses content type syndication (SharePoint Server 2013)](http://technet.microsoft.com/en-us/library/dn197167.aspx)
+To learn how to work with these restrictions and successfully share services and content between SharePoint 2010 and SharePoint 2013 farms go here: [How to upgrade an environment that uses content type syndication (SharePoint Server 2013)](https://docs.microsoft.com/en-us/SharePoint/upgrade-and-update/how-to-upgrade-an-environment-that-uses-content-type-syndication-sharepoint-serv)
   
 > [!NOTE]
 > If the server farms are located in different domains, the User Profile service application requires both domains to trust one another. For the Business Data Connectivity service and Secure Store service application administration features to work from the consuming farm, the domain of the publishing farm must trust the domain of the consuming farm. Other cross-farm service applications work without a trust requirement between domains. 
