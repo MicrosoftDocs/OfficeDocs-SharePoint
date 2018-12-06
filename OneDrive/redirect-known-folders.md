@@ -32,7 +32,7 @@ For these reasons, we recommend moving or redirecting known folders to OneDrive 
   
 ## About the Known Folder Move Group Policy objects
 
-To use the following Group Policy objects, you need the OneDrive sync build 18.111.0603.0004 or later. You can see your build number in the About tab in OneDrive settings. 
+To use the following Group Policy objects, you need the OneDrive sync build 18.111.0603.0004 or later. You can see your build number in the About tab in OneDrive settings. Known Folder Move does not work for users syncing OneDrive files in SharePoint Server.  
 
 > [!IMPORTANT]
    > The OneDrive Known Folder Move Group Policy objects won't work if you previously used Windows Folder Redirection Group Policy objects to redirect the Documents, Pictures, or Desktop folders to a location other than OneDrive. Remove the Windows Group Policy objects for these folders before you enable the OneDrive Group Policy objects. The OneDrive Group Policy objects won't affect the Music and Videos folders, so you can keep them redirected with the Windows Group Policy objects. For info about Windows Folder Redirection, see [Deploy Folder Redirection with Offline Files](/windows-server/storage/folder-redirection/deploy-folder-redirection).<br><br>If your organization is large and your users have a lot of files in their known folders, make sure you roll out the Group Policy objects slowly to minimize the network impact of uploading files. <br><br>If users have OneNote notebooks in their known folders, the known folders won't be moved. For guidance on moving OneNote notebooks to OneDrive, see [Move a OneNote notebook to OneDrive](https://support.office.com/article/0af0a141-0bdf-49ab-9e50-45dbcca44082).    

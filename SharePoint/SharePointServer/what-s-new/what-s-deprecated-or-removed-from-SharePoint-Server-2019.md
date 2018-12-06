@@ -3,7 +3,6 @@ title: "What's deprecated or removed from SharePoint Server 2019"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 9/17/2018
 ms.audience: ITPro
 ms.topic: overview
 ms.prod: sharepoint-server-itpro
@@ -78,7 +77,7 @@ The following SOAP endpoints in the Lists web service depend on the Microsoft Sy
  
 ### Machine Translations (and Variations)
 
-The Machine Translation Service will remain supported, but deprecated, for the SharePoint Server 2019 release.
+The Machine Translation Service will remain supported, but deprecated, for the SharePoint Server 2019 release. Note that the API used to create new variation jobs is deprecated. While it can still be used and coded against, it warns users in Visual Studio that the API could be removed in a future version.
 
 ### PerformancePoint Services
 

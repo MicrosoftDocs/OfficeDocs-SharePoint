@@ -11,7 +11,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: db44c8d7-e081-42a3-a42a-2ee1b369dd47
-description: "Learn how to back up a single content database in SharePoint Server3."
+description: "Learn how to back up a single content database in SharePoint Server."
 ---
 
 # Back up content databases in SharePoint Server
