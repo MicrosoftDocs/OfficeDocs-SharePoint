@@ -40,29 +40,29 @@ On the worksheet, in the **Navigation term** column, enter the navigation hierar
     
   - Cameras
     
-  - Digital
+    - Digital
     
-  - Film
+    - Film
     
   - Computers
     
-  - Laptop
+    - Laptop
     
-  - Gaming
+      - Gaming
     
-  - High-performance
+      - High-performance
     
-  - Ultra-light
+      - Ultra-light
     
-  - Slate
+    - Slate
     
-  - Desktop
+    - Desktop
     
   - Printers
     
-  - Inkjet
+    - Inkjet
     
-  - Laser
+    - Laser
     
 - Customer service
     
@@ -72,7 +72,7 @@ On the worksheet, in the **Navigation term** column, enter the navigation hierar
     
   - Press releases
     
-  - Contact us
+    - Contact us
     
 **Table: Sample navigation term set**
 
