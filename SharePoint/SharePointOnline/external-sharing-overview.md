@@ -84,7 +84,7 @@ You can share files and folders with anyone who has an email address. If the per
   
 Anonymous users are users who have a shareable link to a folder or document and can view or edit the document or upload to the folder (depending on the type of link) without having to log in with a username or password. Anonymous links can be freely passed around between users and are valid until you disable them or they expire (if you've set an expiration date).
   
-Anonymous users cannot access sites, and you cannot assign them licenses. They can only view or edit the specific document or folder for which they have an anonymous access link. You cannot verify the identity of anonymous users, but thier IP address is recorded in audit logs when they access or edit shared content.
+Anonymous users cannot access sites, and you cannot assign them licenses. They can only view or edit the specific document or folder for which they have an anonymous access link. You cannot verify the identity of anonymous users, but their IP address is recorded in audit logs when they access or edit shared content.
   
 ## What happens when I share a site or document?
 
