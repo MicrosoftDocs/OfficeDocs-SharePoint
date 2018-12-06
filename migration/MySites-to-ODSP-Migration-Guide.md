@@ -15,92 +15,128 @@ ms.assetid:
 ---
 
 # MySites to OneDrive and SharePoint Migration Guide
-This guide will help you prepare to migrate from Box to OneDrive in Office 365.
+This guide will help you prepare to migrate from My Sites to OneDrive in Office 365.
 
-Most migrations fall into regular phases as described below.  Proven success factors for migration include planning, assessing and remediating, preparing your target environment, migrating and onboarding your users. 
+Most migrations fall into regular phases as described below. Proven success factors for migration include planning, assessing and remediating, preparing your target environment, migrating and onboarding your users.
+
+
 
 ![Migration process](media/migration-process.png)
 
 |**Migration planning**|**Assess and remediate**|**Prepare your OneDrive environment**|**Migrate**|**User onboarding**|
 |:-----|:-----|:-----|:-----|:-----|
-|What content goes where<br><br>Understanding permissions vs Sharing<br><br>What to expect before and after<br><br>Migration and network performance considerations<br><br>Change management and communications|Analyze Box admin reports<br><br>Assess key areas<br><br>Remediate issues|Pre-provision Office 365 and users|Review migration offerings<br><br>Microsoft FastTrack services<br><br>Migration service providers|Send regular emails to users<br><br>Provide training<br><br>Let users know how they are impacted<br><br>Provide documentation for making the switch|
+|What content goes where<br><br>Understanding permissions vs Sharing<br><br>What to expect before and after<br><br>Migration and network performance considerations<br><br>Change management and communications|Run SMAT<br><br>Assess key areas<br><br>Remediate issues|Pre-provision Office 365 and users|Migration steps<br><br>Configure SharePoint Hybrid<br><br>Migration service providers|Send regular emails to users<br><br>Provide training<br><br>Let users know how they are impacted<br><br>Provide documentation for making the switch|
 
 ## Migration planning
 Before beginning your migration, it is important that you plan your outcome by performing an assessment of your current source environment. What you discover will influence your overall strategy and timing, including:
-- The design of the target environment and the mapping between source and target systems. 
+- The mapping of content from source My Sites to destination OneDrives”
 - The amount of content you migrate. Determine if content is redundant, out of date, or still relevant.
-- Build your user onboarding into your upfront planning. Communicate early and often with your users about the migration and how it will impact them. Don't wait until the very end to start preparing them for the change.
-
-
-### What content goes where
-Consider how you use the content in your Box accounts today and plan how to transition to Office 365 for a more collaborative experience. 
-
-Does the file belong to me alone, even though I might share it with others?  If so, save it in your OneDrive personal library. Your personal library is private by default, but you can share files with others, which is particularly useful if you arent working as a team yet.
-
-If you’re working on a file intended for team consumption and collaboration, use OneDrive to save it to a **shared library** where team members have access by default.  OneDrive gives you access to all your shared libraries in Microsoft Teams, SharePoint or Outlook.  When you need a new shared library for team files, you can create on right from OneDrive, add members, and start working together. 
+- Set permissions so IT can read/write from source to target
+- We highly recommend that you consider setting up a hybrid environment.  Learn more:  [SharePoint and OneDrive Configuration Roadmaps](https://docs.microsoft.com/en-us/sharepoint/hybrid/configuration-roadmaps). 
 
 
 
-![Sharing](media/Migration-WhatGoesWhere-Box-to-ODSP-520x.png)
+### What migrates?
 
-### Understanding permissions vs sharing
+When you migrate to OneDrive using SharePoint Migration Tool (SPMT), you will be migrating your content stored in your **MySites** document library into OneDrive.
 
-How you have shared your files will dictate how they appear in the **Shared with Me** view in OneDrive. **Shared with Me** includes:
+**OneDrive** is your own personal document library where you can store your files. Only you can see them, unless you want to share them with colleagues. You can set permissions for viewing or editing the document or folder and send an email to let people that it has been shared with them. 
 
-- Files and folders that someone shared with you via OneDrive (they clicked the "Share" button and typed your name or email address)
-- Files and folders that you have opened from a shared location
+If you find you have content that is intended for team consumption and collaboration, save it to a **shared library** where team members have access by default.
+
+When you need a new shared library for team files, you can create on right from OneDrive, add members, and start working together. 
+
+## Prepare your OneDrive environment
+Before migrating your SharePoint My Sites content, you must pre-provision your users in OneDrive: 
+
+1. [Prepare to provision users through directory synchronization to Office 365](https://support.office.com/en-us/article/prepare-to-provision-users-through-directory-synchronization-to-office-365-01920974-9e6f-4331-a370-13aea4e82b3e).  Provisioning users with directory synchronization requires more planning and preparation than simply managing your work or school account directly in Office 365. The additional planning and preparation tasks are required to ensure that your on-premises Active Directory synchronizes properly to Azure Active Directory. 
+
+2. [Pre-provision OneDrive for users in your organization](https://support.office.com/en-us/article/Pre-provision-OneDrive-for-users-in-your-organization-ceef6623-f54f-404d-8ee3-3ce1e338db07) .  
+By default, the first time that a user browses to their OneDrive it's automatically provisioned for them. In some cases, such as when your organization plans to migrate from your on-premises MySites, you want your users' OneDrive locations to be ready beforehand -- pre-provisioned.
+
+3. [Configure Office 365 for SharePoint Hybrid](https://docs.microsoft.com/en-us/sharepoint/hybrid/configure-office-365-for-sharepoint-hybrid) (optional). With SharePoint Server hybrid, productivity services in SharePoint Online can be integrated with on-premises SharePoint Server to provide unified functionality and access to data. For enterprises that want to gradually move their existing on-premises SharePoint Server services to the cloud, SharePoint Server hybrid provides a staged migration path by extending high-impact SharePoint Server workloads to SharePoint Online. </br></br>A SharePoint Server hybrid environment enables trusted communications between SharePoint Online and SharePoint Server. When you have established this trust framework, you can configure integrated functionality between services and features such as Search, Follow, and user profiles. You will need to set up some basic integration between Office 365 for enterprises and SharePoint Server before you can configure a hybrid environment.
 
 
 
-The following table maps your current Box sharing experience with OneDrive.
 
-
-|**Box**|**OneDrive**|
-|:-----|:-----|
-|Folders or file with only one owner, but more than one contributor|As the owner, content should be migrated to the user's OneDrive personal library.<br><br>Any user who has access to a user's folder will have that folder automatically appear in their **Shared with Me** list.|
-|Only one owner, but shared with a Box group|As the owner, content will be migrated to the user's OneDrive personal library. <br><br>The Box group should be converted to a security group.  <br><br>Email should then be sent to the new security group, where each user can accept the invitation link. Content will then appear in those users **Shared with Me** list.|
-|Folders or file with multiple owners (co-admin in Box)|Content should be migrated to the appropriate shared library.<br><br>Any user who has access to the shared library and follows the associated SharePoint team site, will have the SharePoint team site appear on the left side navigation of OneDrive on the web.| 
-|Box folders with contributors who are external to your organization|For prescriptive guidance see the specific External Permission Best Practice section in this document. <br><br>**Note:**  Any content that is shared with a user from another company’s Box instance won’t be migrated.  If the user still wants to retain that content – their Box account will need to remain active.|
-|**Shared with** Box end user experience|Only content that has been explicitly shared with a user will appear in their **Shared with Me** view in OneDrive. <br><br>For content stored in shared libraries: any user who has access to the team site and follows the team site, will have the team site appear on the left side of their OneDrive view.|
 
 
 
 ## Assess and remediate your content
-Before beginning your migration, it is important that you perform an analysis of your current environment.  Only you know your data and how and who uses it.  Think about how and what Box features you use in production.
- 
-All of the following recommended assessments can be performed using Box’s Folders and Files admin report. Run this report and use its results to perform these assessments. Remediate your content on the source before beginning your migration to save time and effort later.
+Before beginning your migration, it is important that you perform an analysis of your current environment. Only you know your data and how and who uses it. Think about how and what My Sites features you use in production.
 
-| |**Assess**|**Remediate**|
-|:-----|:-----|:-----|
-|**File extensions**|Find all files in the Folders and Files report whose Path ends in one of the extensions defined here: [Types of files that cannot be added to a list or library](https://support.office.com/en-us/article/Types-of-files-that-cannot-be-added-to-a-list-or-library-30BE234D-E551-4C2A-8DE8-F8546FFBF5B3)|If the blocked file types are scripting files, they are blocked because scripting capabilities are turned off by default in OneDrive. <br><br>If you want to allow these file types, turn on scripting capabilities as described here: [Allow or prevent custom script](https://support.office.com/en-us/article/allow-or-prevent-custom-script-1f2c515f-5d7e-448a-9fd7-835da935584f?ui=en-US&rs=en-001&ad=US). <br><br>Make sure you understand why these files are blocked by default as described here: [Security considerations of allowing custom script](https://support.office.com/en-us/article/security-considerations-of-allowing-custom-script-b0420ab0-aff2-4bbc-bf5e-03de9719627c)|
-|**File and folder name characters**|Find all items in the Folders and Files report whose name contains any of the characters detailed here: [Invalid file names and file types in OneDrive, OneDrive for Business, and SharePoint](https://support.office.com/article/64883a5d-228e-48f5-b3d2-eb39e07630fa)|Work with your migration vendor to substitute these characters in all file and folder names.<br><br>**Note:** The # and % characters are supported but not enabled by default. Follow these steps to enable them: [New support for # and % in SharePoint Online and OneDrive](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/New-support-for-and-in-SharePoint-Online-and-OneDrive-for/ba-p/60357)|
-|**File and folder path length**|Find all items in the *Folders and Files* report whose Path exceeds the file path length described here: [SharePoint Online limits](https://support.office.com/en-us/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498)|Work with your migration vendor to reorganize your file and folder structure such that it does not exceed this limit. Splitting large drives that serve several scenarios into multiple smaller, more focused drives may help here.|
-|**Large drives and complex sharing**|Scan for any drives that have a very large amount of content, or many different unique sharing permissions – this is usually a sign that the drive should be broken down into smaller, more focused sites. <br><br>Specifically, any drive that has more than 50,000 documents shared with different users must be broken up. Use Box’s Folders and Files report and Shared Links report to identify such drives.|Identify sets of content within these drives that are conceptually similar (same project area, all shared with the same users, etc). Move these sets of content out and into new drives before starting migration.|
+An initial assessment can begin with working with your users in two main areas:
+- Identify older content	Determine if content is obsolete or redundant and can be deleted.
+- Empty My Sites	Determine if the My Site has either little or no content.  Decide if it needs to be migrated at all. 
 
 
+## Using the SharePoint Migration Assessment Tool (SMAT)
 
-## Prepare your OneDrive environment
+The SharePoint Migration Assessment Tool (SMAT) is a simple command line executable that scans the contents of your SharePoint Server 2013 farm to help identify any issues before you migrate your content to SharePoint and OneDrive.  
+After the scan is complete, SMAT generates summary and detailed reports showing the areas that could impact your migration.
+Also included is the  SharePoint Migration Identity Management Tool, that does identity mapping by scanning SharePoint, Active Directory, and Azure Active Directory.  
 
-Before migrating your Box content, you must pre-provision your users in OneDrive.  For guidance on pre-provisioning see: 
-- [Prepare to provision users through directory synchronization to Office 365](https://support.office.com/en-us/article/prepare-to-provision-users-through-directory-synchronization-to-office-365-01920974-9e6f-4331-a370-13aea4e82b3e)
-- [Pre-provision OneDrive for users in your organization](https://support.office.com/en-us/article/Pre-provision-OneDrive-for-users-in-your-organization-ceef6623-f54f-404d-8ee3-3ce1e338db07)
+Your environment will not be impacted while SMAT performs a scan of your environment.  
+SMAT scans many areas.  Areas commonly of concern when migrating from My Sites are:
 
-
+|**Scan**|**Description**|
+|:-----|:-----|
+|File Versions |**Why:** The more versions of a file you have| the longer it will take to migrate. Note:  By default| versioning is enabled for all lists and libraries on the target platform. In the destination SPO site| there is no limit when versioning is enabled.</br></br>Action:  Consider limiting the number of versions you migrate.|
+|Large Lists  |**Why:** Lists over 20,000 items have caused issues with migration| making it more difficult to predict how long it takes to migrate sites. List data is migrated| but the larger the list the more unpredictable the migration process has proven. Extremely large lists can result in an extended migration."|
+|Long OneDrive URLs |**Why:** Content with long URLs exceeding the limit will be skipped.  They will not migrate. Action:  Look at |
+|Checked out files |**Why:**  Only checked-in content will be migrated. Action: Have users check in their files prior to migration to avoid data loss.|
+|Large Excel Files|**Why:** If you attempt to open a file larger than 10MB  from OneDrive (online)| it will prompt you to open the file in the Excel client application."|
+|Large List Views|**Why:** In your My Site| you can configure list view throttling so there are a set number of hours per day where the throttle on views is lifted. In OneDrive| the limit is in place continuously (24x7). While your lists and data will be migrated| some of your list views be throttled. "|
+|Browser File Handling|**Why:** SharePoint Server allows you to set it from “strict” to “permissive”.  However| in SharePoint Online and OneDrive| the “strict” setting is enforced and can’t be modified.  Data will be migrated| but the behavior with the HTM and HTML files will change from opening within the browser to prompting the user to download. "|
+|InfoPath |**Why:**  InfoPath lets developers build custom forms for accepting user input in a variety of locations throughout SharePoint. However| certain features of custom InfoPath forms will not be migrated. "|
 
 
 
 
 ## Migrate
 
-### Migration process
-Below is a typical migration process that follows Microsoft’s best practices guidance.
-1.	Select a small set of users for a pilot migration. The goal of the pilot is to validate the process, including performance, user communication, and to get a sample of user feedback.<br><br>
-2.	Perform the pilot migration. This should use an incremental migration method, in which migration happens in the background with no user impact, followed by a cutover event in which users Box accounts are disabled and they are directed to use the target OneDrive environment. This method is preferred as it reduces user impact.<br><br>
-3.	Understand the data from the pilot migration to determine the remainder of your migration schedule and make any changes. For example, you may update your user communication template to address a question you received from a pilot user.<br><br>
-4.	Perform the remainder of the migration. This should also follow an incremental migration method, just like the pilot. Microsoft recommends a single cutover event for all users to switch to OneDrive and disable their Box accounts. This approach helps to eliminate any confusion resulting from users having to collaborate using both Box and OneDrive at the same time.<br><br>
->[!NOTE]
->Box has rate limiting in effect, which may impact the scheduling of your migration. Work with your migration provider to understand how these limits affect your migration.
+Use the SharePoint Migration Tool (SPMT) as an easy to use option for migrating your existing My Sites to OneDrive. SPMT is a free tool that lets you migrate lists or files from your on-premises file shares or from SharePoint Server 2013 to either SharePoint or OneDrive. 
 
+1. Create a mapping file.  Create a mapping file with source and target paths and save it as a .csv file.  For detailed information see,  [How to format your JSON or CSV for data content migration](https://docs.microsoft.com/en-us/sharepointmigration/how-to-format-your-csv-file-for-data-content-migration).
+
+2. Run the SharePoint Migration Tool.  Download and launch the SharePoint Migration tool .  You will be using bulk migration option using either the JSON or .CSV file you created.   For detailed information on the SPMT and bulk migration see [How to use the SharePoint Migration Tool](https://docs.microsoft.com/en-us/sharepointmigration/how-to-use-the-sharepoint-migration-tool).
+
+
+## Migration best practices
+Below is a typical migration process that follows Microsoft’s best practices guidance.
+- Select a small set of users for a pilot migration. The goal of the pilot is to validate the process, including performance, user communication, and to get a sample of user feedback.</br></br>
+- Perform the pilot migration. This should use an incremental migration method, in which migration happens in the background with no user impact, followed by a cutover event in which users on-premises My Sites accounts are disabled and they are directed to use the target OneDrive  environment. This method is preferred as it reduces user impact.</br></br>
+- Understand the data from the pilot migration to determine the remainder of your migration schedule and make any changes. For example, you may update your user communication template to address a question you received from a pilot user.</br></br>
+- Perform the remainder of the migration. This should also follow an incremental migration method, just like the pilot. Microsoft recommends a single cutover event for all users to switch to OneDrive and disable their My Sites accounts. This approach helps to eliminate any confusion resulting from users having to collaborate using both My Sites and OneDrive at the same time.</br></br>
+
+## User Adoption
+Develop a plan to prepare your users for the upcoming change. Consideration factors to include in your plan:
+- **Evangelize the move.** Underscore the benefits, the collaborative capabilities, and the reasons for making the move.
+- **End user training.** Provide training to your users on the features in OneDrive  Online.
+- **Train your helpdesk.** Before the cutover, train your helpdesk in key features and common user questions.
+- **Prepare for any possible downtime** the migration may incur.
+- **Develop a plan for sending communications** to your user base, providing clear statements of timing, expectations and impact to the individual. Consideration factors:
+- **Publish the migration timeline** and how it will impact them. Include any end user calls to action.
+- **Assure them** that if they have content already in OneDrive, that their content is safe and won’t be overwritten.
+- **Opting out**.  Let them know whether individuals can opt-out of the migration process
+
+
+### Adoption related resources
+- [Microsoft 365 adoption guide](https://devfasttrackv4storage.blob.core.windows.net/marketing/en-us/resources/Microsoft%20365%20User%20Adoption%20Guide.pdf): Outlining methodology and resources for implementing proven adoption success factors
+- [Posters, email templates](https://fasttrack.microsoft.com/microsoft365/resourcehub): customizable templates to generate internal awareness and excitement
+- [OneDrive](https://support.office.com/en-us/article/onedrive-video-training-1f608184-b7e6-43ca-8753-2ff679203132?ocmsassetID=1f608184-b7e6-43ca-8753-2ff679203132&ui=en-US&rs=en-US&ad=US) and [team library](https://support.office.com/en-us/article/video-create-a-team-or-communication-site-551e190a-8fbe-47ae-a88a-798b443c46b1?ui=en-US&rs=en-US&ad=US) video training
+- [OneDrive](https://support.office.com/en-us/article/upload-files-to-onedrive-for-business-a1397e56-61ec-4ed2-9dac-727bf8ac3357?ui=en-US&rs=en-US&ad=US) and [team library](https://support.office.com/en-us/article/sign-in-to-sharepoint-online-324a89ec-e77b-4475-b64a-13a0c14c45ec?ui=en-US&rs=en-US&ad=US) Quick start training guides: get up and running quickly with the basic info you need to be productive right away 
+
+### Make the switch! 
+The following articles will help your users “make the switch” from My Sites to OneDrive. The topics show how you used to do common tasks in OneDrive.
+- [Upload files to OneDrive](https://support.office.com/en-us/article/upload-files-to-onedrive-a5710114-6aeb-4bf5-a336-dffa7cc0b77a?ui=en-US&rs=en-US&ad=US) 
+- [Manage folders in OneDrive](https://support.office.com/en-us/article/manage-folders-in-onedrive-20d7bb65-425a-4209-9b71-4cad046cfdc8?ui=en-US&rs=en-US&ad=US)
+- [Collaborate in OneDrive in OneDrive](https://support.office.com/en-us/article/collaborate-in-onedrive-d8a2a19a-e306-4ca5-9b00-19b0e96890d6?ui=en-US&rs=en-US&ad=US)
+- [Set up your mobile apps for OneDrive](https://support.office.com/en-us/article/set-up-your-mobile-apps-51deb017-14c2-4f92-8b7a-f635aaa4eb3c?ui=en-US&rs=en-US&ad=US)
+- [Stay connect with OneDrive](https://support.office.com/en-us/article/stay-connected-with-onedrive-829a8c87-713b-48ff-bfaa-54fa2c3b80d1?ui=en-US&rs=en-US&ad=US)
+
+
+## Advanced
 
 ### Migration offerings
 Currently, there are a variety of migration offerings available to you. They include:
@@ -116,66 +152,6 @@ This guidance covers enablement of both OneDrive for Business and the source env
 **Migration service providers**
 
 You may decide that your organization has specific business needs that require you to use third-party services or applications to help you execute your migration. Explore the professional services and applications available from partners in the Microsoft Partner Center. There you can find experts to help you in your enterprise content migration to Office 365.  For more information see: [Microsoft Partner Center](https://partnercenter.microsoft.com/en-us/partner/home). 
-
-## User Onboarding
-Develop a plan to prepare your users for the upcoming change. Consideration factors to include in your plan: 
-- **Evangelize the move.** Underscore the benefits, the collaborative capabilities, and the reasons for making the move.
-- **End user training.**  Provide training to your users on the features in OneDrive.
-- **Train your helpdesk.**  Before the cutover, train your helpdesk in key features and common user questions.
-- **Prepare for any possible downtime** the migration may incur.
-  
- Develop a plan for sending communications to your user base, providing clear statements of timing, expectations and impact to the individual. Consideration factors:
-
-- The migration timeline and how it will impact them. Include any end user calls to action. 
-- Assure them that if they have content already in OneDrive, that their content is safe and won’t be overwritten. 
-- Let them know whether individuals can opt-out of the migration process
-
-### Onboarding related resources
-- [Microsoft 365 adoption guide](https://devfasttrackv4storage.blob.core.windows.net/marketing/en-us/resources/Microsoft%20365%20User%20Adoption%20Guide.pdf): Outlining methodology and resources for implementing proven adoption success factors
-- [Posters, email templates](https://fasttrack.microsoft.com/microsoft365/resourcehub): customizable templates to generate internal awareness and excitement
-- [OneDrive](https://support.office.com/en-us/article/onedrive-video-training-1f608184-b7e6-43ca-8753-2ff679203132?ocmsassetID=1f608184-b7e6-43ca-8753-2ff679203132&ui=en-US&rs=en-US&ad=US) and [team library](https://support.office.com/en-us/article/video-create-a-team-or-communication-site-551e190a-8fbe-47ae-a88a-798b443c46b1?ui=en-US&rs=en-US&ad=US) video training
-- [OneDrive](https://support.office.com/en-us/article/upload-files-to-onedrive-for-business-a1397e56-61ec-4ed2-9dac-727bf8ac3357?ui=en-US&rs=en-US&ad=US) and [team library](https://support.office.com/en-us/article/sign-in-to-sharepoint-online-324a89ec-e77b-4475-b64a-13a0c14c45ec?ui=en-US&rs=en-US&ad=US) Quick start training guides: get up and running quickly with the basic info you need to be productive right away 
-
-### Make the switch! 
-The following articles will help your users “make the switch” from Box to OneDrive. The topics show how you used to do common tasks in Box and how you do the same in OneDrive.
-
-- [Switch to OneDrive from Box](https://support.office.com/en-us/article/Switch-to-OneDrive-from-Box-b7f3c899-edb7-44ab-bc3f-0a37e9f1a7fa)
-- [Open with OneDrive](https://support.office.com/en-us/article/open-with-onedrive-c24d1cef-dddb-43b9-929b-45b571b84990?ui=en-US&rs=en-US&ad=US)
-- [Store with OneDrive](https://support.office.com/en-us/article/store-with-onedrive-7be433cd-d95b-46d8-9e8e-a1e32ecc4724?ui=en-US&rs=en-US&ad=US)
-- [Work together with OneDrive](https://support.office.com/en-us/article/work-together-with-onedrive-626cff9f-9a56-472b-a77d-b019d97eec8d?ui=en-US&rs=en-US&ad=US)
-- [Learn more about OneDrive](https://support.office.com/en-us/article/learn-more-about-onedrive-38acc14b-fd86-466e-b802-baece8107c86?ui=en-US&rs=en-US&ad=US)
-
-
-
-## Advanced
-
-### Permissions and roles
-
-There is an important distinction between permissions and sharing. 
-
-**Permissions** determine the level of access a user has to content – whether they can view, edit, or have no access at all. Generally, users have *permissions* to a lot of content (your company portals, for example), but have had much less content explicitly *shared* with them. Permissions for both services are defined by assigned roles.  The following table maps your current Box roles with OneDrive:
-
-|**Box Roles**|**OneDrive Roles**|
-|:-----|:-----|
-|Co-owner|Contributor|
-|Editor|Contributor|
-|Viewer Uploader|Viewer|
-|Previewer Uploader|None|
-|Viewer|Viewer|
-|Previewer|None|
-|Uploader|None|
-
-### External permission best practices
-
-Microsoft’s recommendation is to not handle external sharing during the act of migration. Rather, assess existing external sharing content and then reshare post migration per the following guidelines: 
- 
-- Audit external permissions on the Box content source using the Collaborations report (generated through the Box Admin Console)
-- Determine whether that content is worthy to remain externally shared
-- If you decide the content is to remain externally shared, determine whether that content is suited for OneDrive personal libraries or shared libraries based on the *"What content goes where"* above guidance
-- For **OneDrive** personal libraries:  reshare files externally with the appropriate external users after the migration  
-- For **Shared libraries**:<br> 
-    - Where possible, leverage the collaboration and security benefits of grouping external partner specific content in a dedicated SharePoint team site. Read more details here: [Use Office 365 SharePoint Online as a business-to-business (B2B) extranet solution](https://support.office.com/en-us/article/Use-Office-365-SharePoint-Online-as-a-business-to-business-B2B-extranet-solution-7b087413-165a-4e94-8871-4393e0b9c037).<br>
-    - If content cannot be grouped as such, then externally reshare on the file or folder level in the target team library. 
 
 
 
