@@ -53,7 +53,7 @@ There are significant restrictions on when services and content can be shared be
     
 - Between sites in 2010 mode on a 2013 farm and those in 2013 mode on a 2013 farm
     
-To learn how to work with these restrictions and successfully share services and content between SharePoint 2010 and SharePoint 2013 farms go here: [How to upgrade an environment that uses content type syndication (SharePoint Server 2013)](https://docs.microsoft.com/en-us/SharePoint/upgrade-and-update/how-to-upgrade-an-environment-that-uses-content-type-syndication-sharepoint-serv)
+To learn how to work with these restrictions and successfully share services and content between SharePoint 2010 and SharePoint 2013 farms, see [How to upgrade an environment that uses content type syndication (SharePoint Server 2013)](https://docs.microsoft.com/en-us/SharePoint/upgrade-and-update/how-to-upgrade-an-environment-that-uses-content-type-syndication-sharepoint-serv)
   
 > [!NOTE]
 > If the server farms are located in different domains, the User Profile service application requires both domains to trust one another. For the Business Data Connectivity service and Secure Store service application administration features to work from the consuming farm, the domain of the publishing farm must trust the domain of the consuming farm. Other cross-farm service applications work without a trust requirement between domains. 
