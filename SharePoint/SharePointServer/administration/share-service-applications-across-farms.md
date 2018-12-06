@@ -3,7 +3,6 @@ title: "Share service applications across farms in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 2/21/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -35,17 +34,26 @@ By publishing a service application, you can optimize resources, avoid redundanc
     
 - Secure Store
     
-Additionally, a SharePoint 2013 farm can consume services from a SharePoint Server 2016 farm but a SharePoint Server 2016 farm cannot consume services from a SharePoint 2013 farm. For example, a SharePoint 2013 content farm can access a SharePoint Server 2016 farm, but a SharePoint Server 2016 content farm cannot access a SharePoint 2013 farm. This allows for upgrade of multi-farm environments in which a farm hosting service applications is upgraded first. In this scenario, the service applications and features that the SharePoint 2013 farm experiences are limited to those that are available in SharePoint 2013. For example, a SharePoint 2013 farm cannot consume the Machine Translation service application from a SharePoint Server 2016 farm and does not benefit from new features of any service application.
-  
+Additionally, a SharePoint (N-1) farm can consume services from a SharePoint Server (N) farm but a SharePoint Server (N) farm cannot consume services from a SharePoint (N-1) farm. This allows for upgrade of multi-farm environments in which a farm hosting service applications is upgraded first. In this scenario, the service applications and features that the SharePoint (N-1) farm experiences are limited to those that are available in SharePoint (N-1).
+
+Cross farm service publishing supported scenarios:
+
+- A SharePoint 2013 farm can consume services from a SharePoint 2016 farm
+
+- A SharePoint 2016 farm can consume services from a SharePoint 2019 farm
+
+> [!NOTE]
+> It is not supported to consume services from a server version which is more than one version behind. This means it is not supported for a SharePoint (N-2+) farm to consume services from a SharePoint (N) farm. For example, SharePoint 2013 cannot consume services from SharePoint 2019 as well as SharePoint 2010 cannot consume services from SharePoint 2016.
+
  **Important:**
   
-There are significant restrictions on when services and content can be shared between a SharePoint 2010 farm and a SharePoint 2013 farm. Content type syndication uses the backup and restore mechanism in SharePoint Server to publish the content types across site collections. And backup and restore does not work across versions in the following scenarios:
+There are significant restrictions on when services and content can be shared between a SharePoint 2010 farm and a SharePoint 2013 farm. Content type syndication uses the backup and restore mechanism in SharePoint Server to publish the content types across site collections. Backup and restore does not work across versions in the following scenarios:
   
 - Between a SharePoint 2010 farm and a SharePoint 2013 farm
     
 - Between sites in 2010 mode on a 2013 farm and those in 2013 mode on a 2013 farm
     
-To learn how to work with these restrictions and successfully share services and content between SharePoint 2010 and SharePoint 2013 farms go here: [How to upgrade an environment that uses content type syndication (SharePoint Server 2013)](http://technet.microsoft.com/en-us/library/dn197167.aspx)
+To learn how to work with these restrictions and successfully share services and content between SharePoint 2010 and SharePoint 2013 farms go here: [How to upgrade an environment that uses content type syndication (SharePoint Server 2013)](https://docs.microsoft.com/en-us/SharePoint/upgrade-and-update/how-to-upgrade-an-environment-that-uses-content-type-syndication-sharepoint-serv)
   
 > [!NOTE]
 > If the server farms are located in different domains, the User Profile service application requires both domains to trust one another. For the Business Data Connectivity service and Secure Store service application administration features to work from the consuming farm, the domain of the publishing farm must trust the domain of the consuming farm. Other cross-farm service applications work without a trust requirement between domains. 
