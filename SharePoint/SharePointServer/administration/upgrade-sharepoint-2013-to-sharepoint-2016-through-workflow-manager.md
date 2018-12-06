@@ -104,6 +104,9 @@ To resolve this issue, use the following PowerShell commands to register the new
    Get-SPAppPrincipal -Site $web -NameIdentifier $newAppId | fl
 ```
 
+**Please note:** if the App Principal had App-Only permissions on the SharePoint 2013 site, then you will need to pass -EnableAppOnlyPolicy to the Set-SPAppPrincipalPermission cmdlet as well.
+
+
 ## More information
 
 To get the SPAuthenticationRealm value of ApplicationID that's stored in the scope, follow these steps:
