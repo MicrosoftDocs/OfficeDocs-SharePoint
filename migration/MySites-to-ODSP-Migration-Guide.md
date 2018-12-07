@@ -124,8 +124,7 @@ Develop a plan to prepare your users for the upcoming change. Consideration fact
 ### Adoption related resources
 - [Microsoft 365 adoption guide](https://devfasttrackv4storage.blob.core.windows.net/marketing/en-us/resources/Microsoft%20365%20User%20Adoption%20Guide.pdf): Outlining methodology and resources for implementing proven adoption success factors
 - [OneDrive Adoption resources](https://resources.techcommunity.microsoft.com/resources/onedrive-adoption/): This Resource Center will serve as your one stop shop for all adoption and change management related content.
-- [OneDrive](https://support.office.com/en-us/article/onedrive-video-training-1f608184-b7e6-43ca-8753-2ff679203132?ocmsassetID=1f608184-b7e6-43ca-8753-2ff679203132&ui=en-US&rs=en-US&ad=US) and [team library](https://support.office.com/en-us/article/video-create-a-team-or-communication-site-551e190a-8fbe-47ae-a88a-798b443c46b1?ui=en-US&rs=en-US&ad=US) video training
-- [OneDrive](https://support.office.com/en-us/article/upload-files-to-onedrive-for-business-a1397e56-61ec-4ed2-9dac-727bf8ac3357?ui=en-US&rs=en-US&ad=US) and [team library](https://support.office.com/en-us/article/sign-in-to-sharepoint-online-324a89ec-e77b-4475-b64a-13a0c14c45ec?ui=en-US&rs=en-US&ad=US) Quick start training guides: get up and running quickly with the basic info you need to be productive right away 
+
 
 ### Make the switch! 
 The following articles will help your users “make the switch” from My Sites to OneDrive. The topics show how you used to do common tasks in OneDrive.
