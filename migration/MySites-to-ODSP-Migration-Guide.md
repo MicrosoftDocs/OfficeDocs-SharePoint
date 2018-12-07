@@ -68,8 +68,10 @@ An initial assessment can begin with working with your users in two main areas:
 
 ## Using the SharePoint Migration Assessment Tool (SMAT)
 
-The [SharePoint Migration Assessment Tool (SMAT)](https://docs.microsoft.com/en-us/sharepointmigration/overview-of-the-sharepoint-migration-assessment-tool) is a simple command line executable that scans the contents of your SharePoint Server 2013 farm to help identify any issues before you migrate your content to SharePoint and OneDrive.  
+The [SharePoint Migration Assessment Tool (SMAT)](https://docs.microsoft.com/en-us/sharepointmigration/overview-of-the-sharepoint-migration-assessment-tool) is a simple command line executable that scans the contents of your SharePoint Server 2013 farm to help identify any issues before you migrate your content.
+ 
 After the scan is complete, SMAT generates summary and detailed reports showing the areas that could impact your migration.
+
 Also included is the  SharePoint Migration Identity Management Tool, that does identity mapping by scanning SharePoint, Active Directory, and Azure Active Directory.  
 
 Your environment will not be impacted while SMAT performs a scan of your environment.  
@@ -93,7 +95,7 @@ SMAT scans many areas.  Areas commonly of concern when migrating from My Sites a
 
 Use the [SharePoint Migration Tool (SPMT)](https://docs.microsoft.com/en-us/sharepointmigration/introducing-the-sharepoint-migration-tool) as an easy way to migrate your existing My Sites to OneDrive. 
 
-1. **Install and launch the SharePoint Migration Tool.** You will be using bulk migration option using either the JSON or .CSV file you created. For detailed information on the SPMT and bulk migration see [How to use the SharePoint Migration Tool](https://docs.microsoft.com/en-us/sharepointmigration/how-to-use-the-sharepoint-migration-tool).
+1. **Install and launch the SharePoint Migration Tool.** You will be selecting the bulk migration option using either the JSON or .CSV file you created. For detailed information on the SPMT and bulk migration see [How to use the SharePoint Migration Tool](https://docs.microsoft.com/en-us/sharepointmigration/how-to-use-the-sharepoint-migration-tool).
 
 2. **Create a mapping file.** Create a mapping file with source and target paths and save it as a .csv file.  For detailed information see,  [How to format your JSON or CSV for data content migration](https://docs.microsoft.com/en-us/sharepointmigration/how-to-format-your-csv-file-for-data-content-migration).
 
