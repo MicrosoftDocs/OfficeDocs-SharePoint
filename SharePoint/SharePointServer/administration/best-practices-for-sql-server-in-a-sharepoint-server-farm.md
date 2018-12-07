@@ -18,7 +18,7 @@ description: "Learn how to implement best practices for SQL Server in a SharePoi
 
 [!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
-When you configure and maintain SharePoint Server 2016 relational databases on SQL Server 2014 with Service Pack 1 (SP1) or SQL Server 2016, you have to choose options that promote performance and security. Likewise, you have to choose options that promote performance and security when you configure and maintain SharePoint Server 2013 relational databases on SQL Server 2008 R2 with Service Pack 1 (SP1), SQL Server 2012, and SQL Server 2014.
+When you configure and maintain SharePoint Server 2016 and 2019 relational databases on SQL Server 2014 with Service Pack 1 (SP1), SQL Server 2016, or SQL Server 2017 RTM, you have to choose options that promote performance and security. Likewise, you have to choose options that promote performance and security when you configure and maintain SharePoint Server 2013 relational databases on SQL Server 2008 R2 with Service Pack 1 (SP1), SQL Server 2012, and SQL Server 2014.
   
 The best practices in this article are ordered based on the sequence in which they would apply, from installing and configuring SQL Server, to deploying SharePoint Server, and then maintaining the farm. Most of the practices apply to all versions of SQL Server. Practices that are unique to SQL Server versions are shown in separate sections. 
   
@@ -35,7 +35,7 @@ For more information, download the new [Deploying SQL Server 2016 PowerPivot and
   
 ## Use a dedicated server for SQL Server
 
-To ensure optimal performance for farm operations, we recommend that you install SQL Server on a dedicated server that does not run other farm roles and does not host databases for other applications. The only exception is deployment of SharePoint Server 2016 in a Single-Server farm role or SharePoint 2013 on a stand-alone server, which is meant for development or testing, and is not recommended for production use. For more information, see [Description of MinRole and associated services in SharePoint Server 2016](description-of-minrole-and-associated-services-in-sharepoint-server-2016.md) and [Install SharePoint Server 2016 on one server](../install/install-sharepoint-server-2016-on-one-server.md).
+To ensure optimal performance for farm operations, we recommend that you install SQL Server on a dedicated server that does not run other farm roles and does not host databases for other applications. The only exception is deployment of SharePoint Server 2016 or 2019 in a Single-Server farm role or SharePoint 2013 on a stand-alone server, which is meant for development or testing, and is not recommended for production use. For more information, see [Description of MinRole and associated services in SharePoint Servers 2016 and 2019](description-of-minrole-and-associated-services-in-sharepoint-server-2016.md) and [Install SharePoint Servers 2016 or 2019 on one server](../install/install-sharepoint-server-2016-on-one-server.md).
   
 > [!NOTE]
 > The recommendation to use a dedicated server for relational databases also applies to deploying SQL Server in virtual environments. 
@@ -50,7 +50,7 @@ To ensure consistent behavior and performance, configure the following options a
 	- SQL statistics are managed by the health rule “Databases used by SharePoint have outdated index statistics” that calls proc_updatestatics   
 	- Content databases have the Auto Update Statistics property set to **False**  
 	
-- For SharePoint Server 2016, SQL administrator must create [Maintenance Plans](https://docs.microsoft.com/en-us/sql/relational-databases/maintenance-plans/maintenance-plans?view=sql-server-2017) for SharePoint content databases:
+- For SharePoint Servers 2016 and 2019, SQL administrator must create [Maintenance Plans](https://docs.microsoft.com/en-us/sql/relational-databases/maintenance-plans/maintenance-plans?view=sql-server-2017) for SharePoint content databases:
 	- SQL statistics are not managed by the health rule “Databases used by SharePoint have outdated index statistics”   
 	- Content databases have the Auto Update Statistics property set to **True** `
 
@@ -77,7 +77,7 @@ We recommend that you plan for, and harden the database server before you deploy
     
 ## Configure database servers for performance and availability
 
-As is the case with front-end servers and application servers, the configuration for database servers affects how well SharePoint Server performs. Some databases have to be on the same server as other databases. Conversely, some databases cannot be on the same server as other databases. For more information, see [Description of MinRole and associated services in SharePoint Server 2016](description-of-minrole-and-associated-services-in-sharepoint-server-2016.md) and [Storage and SQL Server capacity planning and configuration (SharePoint Server)](storage-and-sql-server-capacity-planning-and-configuration.md).
+As is the case with front-end servers and application servers, the configuration for database servers affects how well SharePoint Server performs. Some databases have to be on the same server as other databases. Conversely, some databases cannot be on the same server as other databases. For more information, see [Description of MinRole and associated services in SharePoint Servers 2016 and 2019](description-of-minrole-and-associated-services-in-sharepoint-server-2016.md) and [Storage and SQL Server capacity planning and configuration (SharePoint Server)](storage-and-sql-server-capacity-planning-and-configuration.md).
   
 For guidance about highly available databases that use mirroring, see [Database Mirroring (SQL Server)](http://go.microsoft.com/fwlink/?LinkID=718062&amp;clcid=0x409).
   
@@ -106,13 +106,24 @@ We recommend that you separate, and prioritize your data among the drives on the
     
     The highest ranked item should be in the fastest drives.
     
-    1) tempdb data files and transaction logs, 2) Content database transaction log files, 3) Search databases, except for the Search administration database, 4) Content database data files
-    
+    | Rank   | Item                 |
+| :-------- | :-------------- |
+| 1  | tempdb data files and transaction logs |
+| 2  | Content database transaction log files                 |
+| 3  | Search databases, except for the Search administration database                  |
+| 4  |Content database data files                   |
+       
 - In a heavily read-oriented portal site, prioritize data and search over transaction logs as follows.
     
     The highest ranked item should be in the fastest drives.
     
-    1) tempdb data files and transaction logs, 2) Content database data files, 3) Search databases, except for the Search administration database, 4) Content database transaction log files
+    | Rank   | Item                 |
+| :-------- | :-------------- |
+| 1  | tempdb data files and transaction logs |
+| 2  | Content database  data files                 |
+| 3  | Search databases, except for the Search administration database                  |
+| 4  | Content database transaction log files                   |
+
     
 - Testing and user data shows that insufficient disk I/O for tempdb can significantly impede overall farm performance. To avoid this issue, allocate dedicated disks for the drive that stores tempdb data files.
     

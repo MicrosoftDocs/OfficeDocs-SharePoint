@@ -97,10 +97,7 @@ You can install OneDrive on any supported device. For small businesses, manual i
 
 Most small businesses start by installing the OneDrive sync client on users’ Windows and macOS devices, and then consider the OneDrive mobile apps afterwards. You don’t need to install and configure OneDrive on all your devices before you start using it.
 
-> [!VIDEO https://videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=RE2CvJE&AutoPlayVideo=false]
-
-> [!TIP]
-> Video not in your language? Try selecting **Closed Captioning**.
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2CvJE]
 
 ### Install and configure the sync client on a Windows device
 
@@ -131,10 +128,7 @@ Many small businesses use OneDrive without changing any of the options.
 
 If want to add some basic device and sharing restrictions to OneDrive, you can use the OneDrive admin center. To access the new OneDrive admin center, go to <https://admin.onedrive.com>. There, you can restrict the people with whom your users can share files, choose the devices your employees can use to access OneDrive, and more.
 
-> [!VIDEO https://videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=RE2CnSt&AutoPlayVideo=false]
-
-> [!TIP]
-> Video not in your language? Try selecting **Closed Captioning**.
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2CnSt]
 
 Settings in the OneDrive admin center are grouped into six categories:
 
