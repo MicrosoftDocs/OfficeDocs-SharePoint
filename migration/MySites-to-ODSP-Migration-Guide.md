@@ -29,22 +29,22 @@ Most migrations fall into regular phases as described below. Proven success fact
 
 ## Migration planning
 Before beginning your migration, it is important that you plan your outcome by performing an assessment of your current source environment. What you discover will influence your overall strategy and timing, including:
-- The mapping of content from source, your users My Sites to the destination, your users OneDrive.
+- The mapping of content from your source My Sites to the destination OneDrive.
 - The amount of content you migrate. Determine if content is redundant, out of date, or still relevant.
-- Set permissions so IT can read/write from source to target
+- Set permissions so IT can read/write from source to target destination
 - We highly recommend that you consider setting up a hybrid environment.  Learn more:  [SharePoint and OneDrive Configuration Roadmaps](https://docs.microsoft.com/en-us/sharepoint/hybrid/configuration-roadmaps). 
 
 
 
 ### What migrates?
 
-When you migrate to OneDrive using SharePoint Migration Tool (SPMT), you will be migrating your content stored in your **MySites** document library into OneDrive.
+When you migrate to OneDrive using the [SharePoint Migration Tool (SPMT)](https://docs.microsoft.com/en-us/sharepointmigration/introducing-the-sharepoint-migration-tool), you will be migrating your content stored in your MySites document library into OneDrive.
 
-**OneDrive** is your own personal document library where you can store your files. Only you can see them, unless you want to share them with colleagues. You can set permissions for viewing or editing the document or folder and send an email to let people that it has been shared with them. 
+OneDrive is your own personal document library where you can store your files. Only you can see them, unless you want to share them with colleagues. You can set permissions for viewing or editing the document or folder and send an email to let people that it has been shared with them. 
 
-If you find you have content that is intended for team consumption and collaboration, save it to a **shared library** where team members have access by default.
+If you find you have content that is intended for team consumption and collaboration, save it to a *shared library* where team members have access by default.
 
-When you need a new shared library for team files, you can create on right from OneDrive, add members, and start working together. 
+When you need a new shared library for team files, you can create one right from OneDrive, add members, and start working together. 
 
 ## Prepare your OneDrive environment
 Before migrating your My Sites content, you must pre-provision your users in OneDrive: 
@@ -62,13 +62,13 @@ By default, the first time that a user browses to their OneDrive it's automatica
 Before beginning your migration, it is important that you perform an analysis of your current environment. Only you know your data and how and who uses it. Think about how and what My Sites features you use in production.
 
 An initial assessment can begin with working with your users in two main areas:
-- **Identify older content**. Determine if content is obsolete or redundant and can be deleted.
-- **Empty My Sites**.  Determine if the My Site has either little or no content.  Decide if it needs to be migrated at all. 
+- Identify older content
+- Determine if content is obsolete or redundant and can be deleted.
 
 
 ## Using the SharePoint Migration Assessment Tool (SMAT)
 
-The SharePoint Migration Assessment Tool (SMAT) is a simple command line executable that scans the contents of your SharePoint Server 2013 farm to help identify any issues before you migrate your content to SharePoint and OneDrive.  
+The [SharePoint Migration Assessment Tool (SMAT)](https://docs.microsoft.com/en-us/sharepointmigration/overview-of-the-sharepoint-migration-assessment-tool) is a simple command line executable that scans the contents of your SharePoint Server 2013 farm to help identify any issues before you migrate your content to SharePoint and OneDrive.  
 After the scan is complete, SMAT generates summary and detailed reports showing the areas that could impact your migration.
 Also included is the  SharePoint Migration Identity Management Tool, that does identity mapping by scanning SharePoint, Active Directory, and Azure Active Directory.  
 
