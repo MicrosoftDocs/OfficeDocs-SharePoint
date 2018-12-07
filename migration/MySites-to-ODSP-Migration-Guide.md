@@ -93,28 +93,40 @@ SMAT scans many areas.  Areas commonly of concern when migrating from My Sites a
 
 Use the [SharePoint Migration Tool (SPMT)](https://docs.microsoft.com/en-us/sharepointmigration/introducing-the-sharepoint-migration-tool) as an easy way to migrate your existing My Sites to OneDrive. 
 
-1. Create a mapping file.  Create a mapping file with source and target paths and save it as a .csv file.  For detailed information see,  [How to format your JSON or CSV for data content migration](https://docs.microsoft.com/en-us/sharepointmigration/how-to-format-your-csv-file-for-data-content-migration).
+1. Run the SharePoint Migration Tool.  Download and launch the SharePoint Migration tool.  You will be using bulk migration option using either the JSON or .CSV file you created.   For detailed information on the SPMT and bulk migration see [How to use the SharePoint Migration Tool](https://docs.microsoft.com/en-us/sharepointmigration/how-to-use-the-sharepoint-migration-tool).Create a mapping file. 
 
-2. Run the SharePoint Migration Tool.  Download and launch the SharePoint Migration tool .  You will be using bulk migration option using either the JSON or .CSV file you created.   For detailed information on the SPMT and bulk migration see [How to use the SharePoint Migration Tool](https://docs.microsoft.com/en-us/sharepointmigration/how-to-use-the-sharepoint-migration-tool).
+2. Create a mapping file with source and target paths and save it as a .csv file.  For detailed information see,  [How to format your JSON or CSV for data content migration](https://docs.microsoft.com/en-us/sharepointmigration/how-to-format-your-csv-file-for-data-content-migration).
+
+
 
 
 ## Migration best practices
 Below is a typical migration process that follows Microsoft’s best practices guidance.
 - Select a small set of users for a pilot migration. The goal of the pilot is to validate the process, including performance, user communication, and to get a sample of user feedback.</br></br>
+
 - Perform the pilot migration. This should use an incremental migration method, in which migration happens in the background with no user impact, followed by a cutover event in which users on-premises My Sites accounts are disabled and they are directed to use the target OneDrive  environment. This method is preferred as it reduces user impact.</br></br>
+
 - Understand the data from the pilot migration to determine the remainder of your migration schedule and make any changes. For example, you may update your user communication template to address a question you received from a pilot user.</br></br>
+
 - Perform the remainder of the migration. This should also follow an incremental migration method, just like the pilot. Microsoft recommends a single cutover event for all users to switch to OneDrive and disable their My Sites accounts. This approach helps to eliminate any confusion resulting from users having to collaborate using both My Sites and OneDrive at the same time.</br></br>
 
 ## User Adoption
 Develop a plan to prepare your users for the upcoming change. Consideration factors to include in your plan:
-- **Evangelize the move.** Underscore the benefits, the collaborative capabilities, and the reasons for making the move.
-- **End user training.** Provide training to your users on the features in OneDrive  Online.
-- **Train your helpdesk.** Before the cutover, train your helpdesk in key features and common user questions.
-- **Prepare for any possible downtime** the migration may incur.
-- **Develop a plan for sending communications** to your user base, providing clear statements of timing, expectations and impact to the individual. Consideration factors:
-- **Publish the migration timeline** and how it will impact them. Include any end user calls to action.
-- **Assure them** that if they have content already in OneDrive, that their content is safe and won’t be overwritten.
-- **Opting out**.  Let them know whether individuals can opt-out of the migration process
+- **Evangelize the move.** Underscore the benefits, the collaborative capabilities, and the reasons for making the move.</br></br>
+
+- **End user training.** Provide training to your users on the features in OneDrive.</br></br>
+
+- **Train your helpdesk.** Before the cutover, train your helpdesk in key features and common user questions.</br></br>
+
+- **Prepare for any possible downtime** the migration may incur.</br></br>
+
+- **Develop a plan for sending communications** to your user base, providing clear statements of timing, expectations and impact to the individual. </br></br>
+
+- **Publish the migration timeline** and how it will impact them. Include any end user calls to action</br></br>
+
+- **Assure them** that if they have content already in OneDrive, that their content is safe and won’t be overwritten.</br></br>
+
+- **Opting out**.  Let them know whether individuals can opt-out of the migration process.</br></br>
 
 
 ### Adoption related resources
