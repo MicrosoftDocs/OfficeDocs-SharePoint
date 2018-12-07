@@ -79,16 +79,16 @@ Also included is the  SharePoint Migration Identity Management Tool, that does i
 Your environment will not be impacted while SMAT performs a scan of your environment.  
 SMAT scans many areas.  Areas commonly of concern when migrating from My Sites are:
 
-|**Scan**|**Description**|**Action**|
+|**Scan**|**Description**|
 |:-----|:-----|:-----|
-|[File Versions](https://docs.microsoft.com/en-us/sharepointmigration/migration-assessment-scan-file-versions) |The more versions of a file you have, the longer it will take to migrate. Note: By default, versioning is enabled for all lists and libraries on the target platform. In the destination SPO site, there is no limit when versioning is enabled.|Consider limiting the number of versions you migrate.||
-|[Large Lists](https://docs.microsoft.com/en-us/sharepointmigration/migration-assessment-scan-large-lists) |Lists over 20,000 items have caused issues with migration, making it more difficult to predict how long it takes to migrate sites. List data is migrated, but the larger the list the more unpredictable the migration process has proven. Extremely large lists can result in an extended migration.||
-|[Long OneDrive URLs](https://docs.microsoft.com/en-us/sharepointmigration/migration-assessment-scan-long-onedrive-urls) |Content with long URLs exceeding the limit will be skipped.  They will not migrate. ||
-|[Checked out files](https://docs.microsoft.com/en-us/sharepointmigration/migration-assessment-scan-checked-out-files) |Only checked-in content will be migrated. |Have users check in their files prior to migration to avoid data loss.||
-|[Large Excel Files](https://docs.microsoft.com/en-us/sharepointmigration/migration-assessment-scan-large-excel-files) |If you attempt to open a file larger than 10MB from OneDrive (online), it will prompt you to open the file in the Excel client application.||
-|[Large List Views](https://docs.microsoft.com/en-us/sharepointmigration/migration-assessment-scan-large-list-views)|In your My Site, you can configure list view throttling so there are a set number of hours per day where the throttle on views is lifted. In OneDrive, the limit is in place continuously (24x7). While your lists and data will be migrated, some of your list views be throttled.||
-|[Browser File Handling](https://docs.microsoft.com/en-us/sharepointmigration/migration-assessment-scan-browser-file-handling)|SharePoint Server allows you to set it from “strict” to “permissive”.  However, in SharePoint Online and OneDrive, the “strict” setting is enforced and can’t be modified.  Data will be migrated, but the behavior with the HTM and HTML files will change from opening within the browser to prompting the user to download.||
-|[InfoPath](https://docs.microsoft.com/en-us/sharepointmigration/migration-assessment-scan-infopath) |InfoPath lets developers build custom forms for accepting user input in a variety of locations throughout SharePoint. However,certain features of custom InfoPath forms will not be migrated.||
+|**File Versions** |The more versions of a file you have, the longer it will take to migrate. Note: By default, versioning is enabled for all lists and libraries on the target platform. In the destination SPO site, there is no limit when versioning is enabled.  [Learn more](https://docs.microsoft.com/en-us/sharepointmigration/migration-assessment-scan-file-versions)|
+|**Large Lists** |Lists over 20,000 items have caused issues with migration, making it more difficult to predict how long it takes to migrate sites. List data is migrated, but the larger the list the more unpredictable the migration process has proven. Extremely large lists can result in an extended migration.  [Learn more](https://docs.microsoft.com/en-us/sharepointmigration/migration-assessment-scan-large-list)|
+|**Long OneDrive URLs** |Content with long URLs exceeding the limit will be skipped.  They will not migrate. [Learn more](https://docs.microsoft.com/en-us/sharepointmigration/migration-assessment-scan-long-onedrive-urls)|
+|**Checked out files** |Only checked-in content will be migrated. |Have users check in their files prior to migration to avoid data loss.  [Learn more](https://docs.microsoft.com/en-us/sharepointmigration/migration-assessment-scan-checked-out-files)|
+|**Large Excel Files** |If you attempt to open a file larger than 10MB from OneDrive (online), it will prompt you to open the file in the Excel client application.  [Learn more](https://docs.microsoft.com/en-us/sharepointmigration/migration-assessment-scan-large-excel-files)|
+|**Large List Views**|In your My Site, you can configure list view throttling so there are a set number of hours per day where the throttle on views is lifted. In OneDrive, the limit is in place continuously (24x7). While your lists and data will be migrated, some of your list views be throttled.  [Learn more](https://docs.microsoft.com/en-us/sharepointmigration/migration-assessment-scan-large-list-views)|
+|**Browser File Handling**|SharePoint Server allows you to set it from “strict” to “permissive”.  However, in SharePoint Online and OneDrive, the “strict” setting is enforced and can’t be modified.  Data will be migrated, but the behavior with the HTM and HTML files will change from opening within the browser to prompting the user to download.  [Learn more](https://docs.microsoft.com/en-us/sharepointmigration/migration-assessment-scan-browser-file-handling)|
+|**InfoPath** |InfoPath lets developers build custom forms for accepting user input in a variety of locations throughout SharePoint. However,certain features of custom InfoPath forms will not be migrated.  [Learn more](https://docs.microsoft.com/en-us/sharepointmigration/migration-assessment-scan-infopath)|
 
 
 
@@ -145,9 +145,9 @@ Currently, there are a variety of migration offerings available to you. They inc
 
 FastTrack is a Microsoft service included in your subscription cost that provides you with a set of best practices, tools, resources, and experts committed to making your experience with the Microsoft Cloud a great one. OneDrive onboarding guidance, migration benefits, and adoption guidance are included in the benefit offering. 
 
-Onboarding guidance includes: help to discover what’s possible, creating a plan for success, and onboarding new users and capabilities at a flexible pace. The [Data Migration](https://technet.microsoft.com/library/mt651702.aspx) benefit covers guidance on migrating content from file share, Box, or Google Drive source environments. 
+Onboarding guidance includes: help to discover what’s possible, creating a plan for success,and onboarding new users and capabilities at a flexible pace.
 
-This guidance covers enablement of both OneDrive for Business and the source environment. FastTrack will also perform specific data migration activities on behalf of the customer for those with 500 or more licenses. See more details in the provided [FastTrack Center Benefit Overview](https://technet.microsoft.com/library/mt651702.aspx). Interested in getting started? Visit [FastTrack.microsoft.com](https://fasttrack.microsoft.com/), review resources, and submit a Request for Assistance.
+Interested in getting started? Visit [FastTrack.microsoft.com](https://fasttrack.microsoft.com/) to review resources and submit a Request for Assistance.
 
 **Migration service providers**
 
