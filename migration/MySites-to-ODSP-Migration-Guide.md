@@ -93,9 +93,9 @@ SMAT scans many areas.  Areas commonly of concern when migrating from My Sites a
 
 Use the [SharePoint Migration Tool (SPMT)](https://docs.microsoft.com/en-us/sharepointmigration/introducing-the-sharepoint-migration-tool) as an easy way to migrate your existing My Sites to OneDrive. 
 
-1. Run the SharePoint Migration Tool.  Download and launch the SharePoint Migration tool.  You will be using bulk migration option using either the JSON or .CSV file you created.   For detailed information on the SPMT and bulk migration see [How to use the SharePoint Migration Tool](https://docs.microsoft.com/en-us/sharepointmigration/how-to-use-the-sharepoint-migration-tool).Create a mapping file. 
+1. **Install and launch the SharePoint Migration Tool.** You will be using bulk migration option using either the JSON or .CSV file you created. For detailed information on the SPMT and bulk migration see [How to use the SharePoint Migration Tool](https://docs.microsoft.com/en-us/sharepointmigration/how-to-use-the-sharepoint-migration-tool).
 
-2. Create a mapping file with source and target paths and save it as a .csv file.  For detailed information see,  [How to format your JSON or CSV for data content migration](https://docs.microsoft.com/en-us/sharepointmigration/how-to-format-your-csv-file-for-data-content-migration).
+2. **Create a mapping file.** Create a mapping file with source and target paths and save it as a .csv file.  For detailed information see,  [How to format your JSON or CSV for data content migration](https://docs.microsoft.com/en-us/sharepointmigration/how-to-format-your-csv-file-for-data-content-migration).
 
 
 
