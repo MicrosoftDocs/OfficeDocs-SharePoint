@@ -14,7 +14,7 @@ ms.assetid:
 
 ---
 
-# MySites to OneDrive and SharePoint Migration Guide
+# MySites to OneDrive Migration Guide
 This guide will help you prepare to migrate from My Sites to OneDrive in Office 365.
 
 Most migrations fall into regular phases as described below. Proven success factors for migration include planning, assessing and remediating, preparing your target environment, migrating and onboarding your users.
