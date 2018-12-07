@@ -29,7 +29,7 @@ Most migrations fall into regular phases as described below. Proven success fact
 
 ## Migration planning
 Before beginning your migration, it is important that you plan your outcome by performing an assessment of your current source environment. What you discover will influence your overall strategy and timing, including:
-- The mapping of content from source My Sites to destination OneDrives”
+- The mapping of content from source, your users My Sites to the destination, your users OneDrive.
 - The amount of content you migrate. Determine if content is redundant, out of date, or still relevant.
 - Set permissions so IT can read/write from source to target
 - We highly recommend that you consider setting up a hybrid environment.  Learn more:  [SharePoint and OneDrive Configuration Roadmaps](https://docs.microsoft.com/en-us/sharepoint/hybrid/configuration-roadmaps). 
@@ -58,16 +58,12 @@ By default, the first time that a user browses to their OneDrive it's automatica
 
 
 
-
-
-
-
 ## Assess and remediate your content
 Before beginning your migration, it is important that you perform an analysis of your current environment. Only you know your data and how and who uses it. Think about how and what My Sites features you use in production.
 
 An initial assessment can begin with working with your users in two main areas:
-- Identify older content	Determine if content is obsolete or redundant and can be deleted.
-- Empty My Sites	Determine if the My Site has either little or no content.  Decide if it needs to be migrated at all. 
+- **Identify older content**. Determine if content is obsolete or redundant and can be deleted.
+- **Empty My Sites**.  Determine if the My Site has either little or no content.  Decide if it needs to be migrated at all. 
 
 
 ## Using the SharePoint Migration Assessment Tool (SMAT)
