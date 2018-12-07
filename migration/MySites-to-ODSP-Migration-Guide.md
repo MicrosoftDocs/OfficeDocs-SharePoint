@@ -74,8 +74,7 @@ After the scan is complete, SMAT generates summary and detailed reports showing 
 
 Also included is the  SharePoint Migration Identity Management Tool, that does identity mapping by scanning SharePoint, Active Directory, and Azure Active Directory.  
 
-Your environment will not be impacted while SMAT performs a scan of your environment.  
-SMAT scans many areas.  Areas commonly of concern when migrating from My Sites are:
+Your environment will not be impacted while SMAT performs a scan of your environment. SMAT scans many areas, but those commonly of concern when migrating from My Sites are:
 
 |**Scan**|**Description**|
 |:-----|:-----|:-----|
