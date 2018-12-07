@@ -47,11 +47,11 @@ If you find you have content that is intended for team consumption and collabora
 When you need a new shared library for team files, you can create on right from OneDrive, add members, and start working together. 
 
 ## Prepare your OneDrive environment
-Before migrating your SharePoint My Sites content, you must pre-provision your users in OneDrive: 
+Before migrating your My Sites content, you must pre-provision your users in OneDrive: 
 
 1. [Prepare to provision users through directory synchronization to Office 365](https://support.office.com/en-us/article/prepare-to-provision-users-through-directory-synchronization-to-office-365-01920974-9e6f-4331-a370-13aea4e82b3e).  Provisioning users with directory synchronization requires more planning and preparation than simply managing your work or school account directly in Office 365. The additional planning and preparation tasks are required to ensure that your on-premises Active Directory synchronizes properly to Azure Active Directory. 
 
-2. [Pre-provision OneDrive for users in your organization](https://support.office.com/en-us/article/Pre-provision-OneDrive-for-users-in-your-organization-ceef6623-f54f-404d-8ee3-3ce1e338db07) .  
+2. [Pre-provision OneDrive for users in your organization](https://support.office.com/en-us/article/Pre-provision-OneDrive-for-users-in-your-organization-ceef6623-f54f-404d-8ee3-3ce1e338db07).  
 By default, the first time that a user browses to their OneDrive it's automatically provisioned for them. In some cases, such as when your organization plans to migrate from your on-premises MySites, you want your users' OneDrive locations to be ready beforehand -- pre-provisioned.
 
 3. [Configure Office 365 for SharePoint Hybrid](https://docs.microsoft.com/en-us/sharepoint/hybrid/configure-office-365-for-sharepoint-hybrid) (optional). With SharePoint Server hybrid, productivity services in SharePoint Online can be integrated with on-premises SharePoint Server to provide unified functionality and access to data. For enterprises that want to gradually move their existing on-premises SharePoint Server services to the cloud, SharePoint Server hybrid provides a staged migration path by extending high-impact SharePoint Server workloads to SharePoint Online. </br></br>A SharePoint Server hybrid environment enables trusted communications between SharePoint Online and SharePoint Server. When you have established this trust framework, you can configure integrated functionality between services and features such as Search, Follow, and user profiles. You will need to set up some basic integration between Office 365 for enterprises and SharePoint Server before you can configure a hybrid environment.
@@ -95,7 +95,7 @@ SMAT scans many areas.  Areas commonly of concern when migrating from My Sites a
 
 ## Migrate
 
-Use the SharePoint Migration Tool (SPMT) as an easy to use option for migrating your existing My Sites to OneDrive. SPMT is a free tool that lets you migrate lists or files from your on-premises file shares or from SharePoint Server 2013 to either SharePoint or OneDrive. 
+Use the [SharePoint Migration Tool (SPMT)](https://docs.microsoft.com/en-us/sharepointmigration/introducing-the-sharepoint-migration-tool) as an easy way to migrate your existing My Sites to OneDrive. 
 
 1. Create a mapping file.  Create a mapping file with source and target paths and save it as a .csv file.  For detailed information see,  [How to format your JSON or CSV for data content migration](https://docs.microsoft.com/en-us/sharepointmigration/how-to-format-your-csv-file-for-data-content-migration).
 
