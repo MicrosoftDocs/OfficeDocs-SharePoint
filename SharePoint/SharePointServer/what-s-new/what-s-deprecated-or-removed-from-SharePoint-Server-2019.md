@@ -75,9 +75,13 @@ The following SOAP endpoints in the Lists web service depend on the Microsoft Sy
 
 - [Lists.UpdateListItemsWithKnowledge](https://msdn.microsoft.com/library/websvclists.lists.updatelistitemswithknowledge.aspx)
  
-### Machine Translations (and Variations)
+### Machine Translations
 
-The Machine Translation Service will remain supported, but deprecated, for the SharePoint Server 2019 release. Note that the API used to create new variation jobs is deprecated. While it can still be used and coded against, it warns users in Visual Studio that the API could be removed in a future version.
+The Machine Translation Service will remain supported but deprecated for the SharePoint Server 2019 release.
+
+### Variations
+
+The Variations will remain supported but deprecated for the SharePoint Server 2019 release.
 
 ### PerformancePoint Services
 
