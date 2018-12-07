@@ -118,15 +118,15 @@ Develop a plan to prepare your users for the upcoming change. Consideration fact
 
 - **Train your helpdesk.** Before the cutover, train your helpdesk in key features and common user questions.</br></br>
 
-- **Prepare for any possible downtime** the migration may incur.</br></br>
+- **Downtime".** Prepare for any possible downtime the migration may incur.</br></br>
 
-- **Develop a plan for sending communications** to your user base, providing clear statements of timing, expectations and impact to the individual. </br></br>
+- **Communicate.** Develop a plan for sending communications to your user base, providing clear statements of timing, expectations and impact to the individual. </br></br>
 
-- **Publish the migration timeline** and how it will impact them. Include any end user calls to action</br></br>
+- **Be public about the timeline.** Publish the migration timeline and how it will impact them. Include any end user calls to action.</br></br>
 
-- **Assure them** that if they have content already in OneDrive, that their content is safe and won’t be overwritten.</br></br>
+- **Reassure your users.** Assure them that if they have content already in OneDrive, that their content is safe and won’t be overwritten.</br></br>
 
-- **Opting out**.  Let them know whether individuals can opt-out of the migration process.</br></br>
+- **Opting out**. Let them know whether individuals can opt-out of the migration process.</br></br>
 
 
 ### Adoption related resources
