@@ -88,4 +88,13 @@ If your organization uses the cloud identity model, your Office 365 user account
   
 5. When you're done, click **OK**.
     
+ ## Synchronize custom properties
+<a name="__top"> </a>
 
+Custom properties from Active Directory or Azure AD are not synchronized with SharePoint Online. In order to maintain property synchronization, a custom application must be developed.
+
+The Patterns and Practices GitHub has options available from synchronizing Azure AD and/or Active Directory with SharePoint Online. These applications must be compiled using Visual Studio or msbuild.exe.
+
+ * [Core.UserProfiles.Sync](https://github.com/SharePoint/PnP/tree/master/Samples/Core.UserProfiles.Sync) is used to synchronize from Azure AD to SharePoint Online.
+ 
+ * [UserProfile.BatchUpdate.API](https://github.com/SharePoint/PnP/tree/master/Samples/UserProfile.BatchUpdate.API) updates profile properites from LOB system output to CSV. This includes a PowerShell script as an example.
