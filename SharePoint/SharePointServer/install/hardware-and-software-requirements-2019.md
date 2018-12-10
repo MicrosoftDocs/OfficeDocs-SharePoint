@@ -208,8 +208,8 @@ In scenarios where installing prerequisites directly from the Internet is not po
 - [Microsoft WCF Data Services 5.6](https://go.microsoft.com/fwlink/p/?LinkId=320724 )
     
 - [Microsoft Information Protection and Control Client (MSIPC)](https://go.microsoft.com/fwlink/p/?LinkId=544913)
-    
-- [Microsoft SQL Server 2012 Service Pack 4 (SP4) Native Client (installs with Microsoft SQL Server 2012 Feature Pack)](https://www.microsoft.com/download/details.aspx?id=56041)
+   
+- [Microsoft SQL Server 2012 SP4 Feature Pack - Native Client \x64\sqlncli.msi](https://www.microsoft.com/download/details.aspx?id=56041
     
 - [Microsoft Sync Framework Runtime v1.0 SP1 (x64)](https://go.microsoft.com/fwlink/p/?LinkId=618411)
     
