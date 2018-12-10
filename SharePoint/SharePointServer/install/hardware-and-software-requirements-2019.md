@@ -207,7 +207,7 @@ In scenarios where installing prerequisites directly from the Internet is not po
     
 - [Microsoft Information Protection and Control Client (MSIPC)](https://go.microsoft.com/fwlink/p/?LinkId=544913)
     
-- [Microsoft SQL Server 2012 Service Pack 4 (SP4) Native Client (installs with Microsoft SQL Server 2012 Feature Pack)](https://www.microsoft.com/download/details.aspx?id=56040)
+- [Microsoft SQL Server 2012 Service Pack 4 Native Client](https://go.microsoft.com/fwlink/?LinkId=867003)
     
 - [Microsoft Sync Framework Runtime v1.0 SP1 (x64)](https://go.microsoft.com/fwlink/p/?LinkId=618411)
     
@@ -295,5 +295,3 @@ Certain prerequisites are installed by the prerequisite installer with specific 
     /quiet
     
 The prerequisite installer creates log files at %TEMP%\prerequisiteinstaller.\<date\>.\<time\>.log. You can check these log files for specific details about all changes the installer makes to the target computer.
-  
-
