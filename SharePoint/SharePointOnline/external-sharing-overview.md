@@ -74,7 +74,7 @@ Because external users with Microsoft accounts do not have a license to your Off
     
 - They will be able to see other types of content on sites, depending on the permissions you give them. For example, they can navigate to different subsites within the site collection to which they were invited. They will also be able to do things like view site feeds.
     
-If your authenticated external users need greater capability, you must assign them an appropriate Office 365 license. To do this, go to the Active users page of the Microsoft 365 admin center, select the external user, click **More**, and then click **Edit product licenses**.
+If your authenticated external users need greater capability such as OneDrive for Business storage or creating a Microsoft Flow, you must assign them an appropriate Office 365 license. To do this, go to the Active users page of the Microsoft 365 admin center, select the external user, click **More**, and then click **Edit product licenses**.
 
  **Authenticated users without Microsoft accounts**
 

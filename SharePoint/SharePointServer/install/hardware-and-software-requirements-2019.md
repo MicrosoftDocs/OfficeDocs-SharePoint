@@ -48,7 +48,7 @@ The values in the following table are minimum values for installations on server
   
 For all installation scenarios, you must have sufficient hard disk space for the base installation and sufficient space for diagnostics such as logging, debugging, creating memory dumps, and so on. For production use, you must also have additional free disk space for day-to-day operations. In addition, maintain two times as much free space as you have RAM for production environments.
   
-For information about hardware and software requirements for Microsoft SQL Server 2016 or higher, see [Hardware and Software Requirements for Installing SQL Server](https://docs.microsoft.com/en-us/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server?view=sql-server-2017).
+For information about hardware and software requirements for Microsoft SQL Server 2016 or higher, see [Hardware and Software Requirements for Installing SQL Server](https://docs.microsoft.com/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server?view=sql-server-2017).
   
 |**Installation scenario**|**Deployment type and scale**|**RAM**|**Processor**|**Hard disk space**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -158,7 +158,7 @@ The Microsoft SharePoint Products Preparation Tool installs the following prereq
 ## Manually configure Windows Server Roles and Features
 To manually configure the required Windows Server Roles and Features, you can use one of two methods: 1. Server Manager 2. Microsoft PowerShell
 
-To configure by using Server Manager, see [Install or Uninstall Roles, Role Services, or Features](https://docs.microsoft.com/en-us/windows-server/administration/server-manager/install-or-uninstall-roles-role-services-or-features)
+To configure by using Server Manager, see [Install or Uninstall Roles, Role Services, or Features](https://docs.microsoft.com/windows-server/administration/server-manager/install-or-uninstall-roles-role-services-or-features)
 
 
 To configure by using PowerShell:
@@ -168,7 +168,9 @@ From a PowerShell command prompt window, type:
 ```Install-WindowsFeature NET-HTTP-Activation,NET-Non-HTTP-Activ,NET-WCF-Pipe-Activation45,NET-WCF-HTTP-Activation45,Web-Server,Web-WebServer,Web-Common-Http,Web-Static-Content,Web-Default-Doc,Web-Dir-Browsing,Web-Http-Errors,Web-App-Dev,Web-Asp-Net,Web-Asp-Net45,Web-Net-Ext,Web-Net-Ext45,Web-ISAPI-Ext,Web-ISAPI-Filter,Web-Health,Web-Http-Logging,Web-Log-Libraries,Web-Request-Monitor,Web-Http-Tracing,Web-Security,Web-Basic-Auth,Web-Windows-Auth,Web-Filtering,Web-Performance,Web-Stat-Compression,Web-Dyn-Compression,Web-Mgmt-Tools,Web-Mgmt-Console,WAS,WAS-Process-Model,WAS-NET-Environment,WAS-Config-APIs,Windows-Identity-Foundation,Xps-Viewer -IncludeManagementTools -Verbose```
 
 > [!NOTE]
-> Some Windows features being installed are “Features On Demand (FOD)”, which are downloaded from Windows Update.  If the computer doesn’t have access to Windows Update, you can specify local installation files by adding the **Source** parameter and pointing to the \sources\sxs folder on the Windows Server installation media.  For example:   -Source D:\sources\sxs
+> Some Windows features being installed are “Features On Demand (FOD)”, which are downloaded from Windows Update.  If the computer doesn’t have access to Windows Update, you can specify local installation files by adding the **Source** parameter and pointing to the \sources\sxs folder on the Windows Server installation media.
+>
+> For example: -Source D:\sources\sxs
 
     
 ## Optional software supported in SharePoint Server 2019
@@ -193,21 +195,21 @@ In scenarios where installing prerequisites directly from the Internet is not po
     
 - [Windows Server 2016](https://www.microsoft.com/evalcenter/evaluate-windows-server-2016)
     
-- [Windows Server 2019]()
+- [Windows Server 2019](https://www.microsoft.com/evalcenter/evaluate-windows-server-2019)
     
 - [Office 365 Enterprise](https://go.microsoft.com/fwlink/p/?LinkId=258856)
     
 - [Microsoft SQL Server 2016](https://www.microsoft.com/evalcenter/evaluate-sql-server-2016) 
 
-- [Microsoft SQL Server 2017 RTM](https://www.microsoft.com/sql-server/sql-server-downloads)
+- [Microsoft SQL Server 2017 RTM](https://www.microsoft.com/evalcenter/evaluate-sql-server-2017-rtm)
     
 - [Microsoft .NET Framework version 4.7.2](https://www.microsoft.com/net/download/dotnet-framework-runtime)
     
 - [Microsoft WCF Data Services 5.6](https://go.microsoft.com/fwlink/p/?LinkId=320724 )
     
 - [Microsoft Information Protection and Control Client (MSIPC)](https://go.microsoft.com/fwlink/p/?LinkId=544913)
-    
-- [Microsoft SQL Server 2012 Service Pack 4 Native Client](https://go.microsoft.com/fwlink/?LinkId=867003)
+   
+- [Microsoft SQL Server 2012 SP4 Feature Pack - Native Client \x64\sqlncli.msi](https://www.microsoft.com/en-us/download/details.aspx?id=56041
     
 - [Microsoft Sync Framework Runtime v1.0 SP1 (x64)](https://go.microsoft.com/fwlink/p/?LinkId=618411)
     
@@ -261,25 +263,25 @@ You can run prerequisiteinstaller.exe at a command prompt with the following opt
     
 The installer installs from the file that you specify in the command-line options described in the following list. In this list, < _file_> signifies the file from which you want to install. If you do not specify the < _file_> option, the installer downloads the file from the Internet and installs it. If the option does not apply to the current operating system, it is ignored.
   
-- **/SQLNCli:< _file_>** Install Microsoft SQL Server 2012 SP4 Native Client from <  _file_>.
+- **/SQLNCli:<_file_>** Install Microsoft SQL Server 2012 SP4 Native Client from <_file_>.
     
-- **/Sync:< _file_>** Install Microsoft Sync Framework Runtime SP1 v1.0 (x64) from <  _file_>.
+- **/Sync:<_file_>** Install Microsoft Sync Framework Runtime SP1 v1.0 (x64) from <_file_>.
     
-- **/AppFabric:< _file_>** Install Windows Server AppFabric from <  _file_> (AppFabric must be installed with the options /i CacheClient,CachingService,CacheAdmin /gac).
+- **/AppFabric:<_file_>** Install Windows Server AppFabric from <_file_> (AppFabric must be installed with the options /i CacheClient,CachingService,CacheAdmin /gac).
 
-- **/IDFX11:< _file_>** Install Microsoft Identity Extensions from <  _file_>.
+- **/IDFX11:<_file_>** Install Microsoft Identity Extensions from <_file_>.
    
-- **/MSIPCClient:< _file_>** Install Microsoft Information Protection and Control Client from <  _file_>.
+- **/MSIPCClient:<_file_>** Install Microsoft Information Protection and Control Client from <_file_>.
 
-- **/KB3092423:< _file_>** Install Cumulative Update Package 7 for Microsoft AppFabric 1.1 for Windows Server (KB3092423) from <  _file_>.
+- **/KB3092423:<_file_>** Install Cumulative Update Package 7 for Microsoft AppFabric 1.1 for Windows Server (KB3092423) from <_file_>.
     
-- **/WCFDataServices56:< _file_>** Install Microsoft WCF Data Services 5.6 from <  _file_>.
+- **/WCFDataServices56:<_file_>** Install Microsoft WCF Data Services 5.6 from <_file_>.
     
-- **/DotNet472:< _file_>**Install Microsoft .NET Framework 4.7.2 from < _file_>.
+- **/DotNet472:<_file_>** Install Microsoft .NET Framework 4.7.2 from <_file_>.
     
-- **/MSVCRT11:< _file_>** Install Visual C++ Redistributable Package for Visual Studio 2012 from <  _file_>.
+- **/MSVCRT11:<_file_>** Install Visual C++ Redistributable Package for Visual Studio 2012 from <_file_>.
 
-- /MSVCRT141:<_file_> Install Visual C++ Redistributable Package for Visual Studio 2017 from < _file_>.
+- **/MSVCRT141:<_file_>** Install Visual C++ Redistributable Package for Visual Studio 2017 from <_file_>.
     
    
 ### Installation options
