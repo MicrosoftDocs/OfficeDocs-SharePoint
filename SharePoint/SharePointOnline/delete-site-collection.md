@@ -2,7 +2,6 @@
 title: "Delete a site collection"
 ms.author: kaarins
 author: kaarins
-ms.date: 5/21/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
@@ -10,7 +9,7 @@ search.appverid:
 - MET150
 localization_priority: Normal
 ms.assetid: 4dc86d69-84c9-426c-b83f-e6e674722d85
-description: "Learn how to delete classic site collections in the classic SharePoint admin center"
+description: "Learn how to delete site collections in the classic SharePoint admin center"
 ---
 
 # Delete a site collection
@@ -26,6 +25,9 @@ When you, as a global or SharePoint admin in Office 365, delete a site collectio
 - Any subsites and their contents.
     
 You should notify the site collection owners and subsite owners before you delete a site collection so they can move their data to another location, and also tell users when the sites will be deleted. 
+
+> [!TIP]
+> To delete a communication site or a team site that uses one of the new templates, use the new SharePoint admin center preview. For info, see [Manage sites in the new SharePoint admin center](manage-sites-in-new-admin-center.md). 
   
 ## Delete a site collection in the classic SharePoint admin center
 <a name="__toc323551190"> </a>
@@ -46,21 +48,7 @@ You should notify the site collection owners and subsite owners before you delet
     
     ![Delete Site Collection dialog box](media/9f0418d4-04a4-406a-9f61-9aac79ae28f8.PNG)
   
-> [!NOTE]
-> To delete a communication site, use the new SharePoint admin center preview. For info, see [Manage sites in the new SharePoint admin center](manage-sites-in-new-admin-center.md). 
-  
-## Delete team sites that belong to Office 365 groups
-<a name="__toc323551190"> </a>
 
-To delete a group-connected team site, you need to delete the group.
-  
-1. Sign in to Office 365 as a global admin or SharePoint admin.
-    
-2. In the left pane, choose **Groups** \> **Groups**.
-    
-3. Select the check box next to the group you want to delete.
-    
-4. Select **Delete**.
     
 ## See also
 <a name="__toc323551190"> </a>
