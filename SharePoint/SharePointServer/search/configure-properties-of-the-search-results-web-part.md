@@ -164,7 +164,7 @@ By changing the properties and query in the Search Results Web Part you can you 
     
   - **Loading Behavior**
     
-    Select when the search results returned by the Search Results Web Part appear on the web page. The default option is **Async option: Issue query from the browser**. Queries will be issued from the end-users browser after the complete page is received (asynchronous). If you select the synchronous option, **Sync option: Issue query from the server**, queries are issued from the server, and the search results are included in the page response that is sent back from SharePoint (synchronous). Synchronous loading makes search vulnerable to cross-site request forgery attacks and you should **only** chose this option after carefully considering whether this vulnerability can be exploited, learn more. 
+    Select when the search results returned by the Search Results Web Part appear on the web page. The default option is **Async option: Issue query from the browser**. Queries will be issued from the end-users browser after the complete page is received (asynchronous). If you select the synchronous option, **Sync option: Issue query from the server**, queries are issued from the server, and the search results are included in the page response that is sent back from SharePoint (synchronous). Synchronous loading makes search vulnerable to cross-site request forgery attacks and you should **only** chose this option after carefully considering whether this vulnerability can be exploited. [Learn more](https://support.microsoft.com/en-us/help/4052414/loading-behavior-no-longer-available-in-search-results-web-part) 
     
 9. On the **TEST** tab, you can preview the query that is sent by the Search Results Web Part. 
     
