@@ -14,11 +14,12 @@ ms.custom:
 
 description: "How to troubleshoot common errors in the SharePoint Migration Tool."
 ---
+## Troubleshooting common SPMT errors
 |**Error Code**|**Error description**|**Recommendations**|
 |:-----|:-----|:-----|
 |0x0201000D|The list does not exist or cannot be accessed.|Check if the list exists or if you can access the list in source site and target site.|
 |0x02050008|Failed to access local storage.|Do not open, edit or delete the SPMT working folder %appdata%\Microsoft\MigrationToolStorage or its contents. Restart your migration.|
-|0x02010023|Your source list template is not supported.  Please try another.|The source list is not supported or with unsupported dependencies, such as unsupported taxonomy,the source list template is not supported, or that the lookup field reference is broken. Please check StructureReport_XX.csv for more details.  The StructureReport_XX.csv report is is under C:\Users\%user name%\AppData\Roaming\Microsoft\MigrationTool\admin@XXXX.onmicrosoft.com\WF_XXXXX\Report folder.|
+|0x02010023|Your source list template is not supported.  Please try another.|The source list is not supported or with unsupported dependencies, such as unsupported taxonomy,the source list template is not supported, or that the lookup field reference is broken. Please check StructureReport_XX.csv for more details.  The StructureReport_XX.csv report is is under "*C:\Users\%user name%\AppData\Roaming\Microsoft\MigrationTool\admin@XXXX.onmicrosoft.com\WF_XXXXX\Report*" folder.|
 |0x0201000C|Invalid credentials.|Check if you can access the source sites and lists with your credentials. Make sure you are the site collection admin for source and target. Check if you can modify SPO target site.|
 |0x02010017|You do not have sufficient permission. |Make sure the user is site collection admin.|
 |0x02060009|1. The site collection cannot be created because the URL is already in use or an invalid URL.</br> 2. The site collection cannot be created because the URL contains invalid character.</br> 3. The site collection cannot be created or updated.|Make sure you are tenant admin. Check below items for potential failure reasons.</br> 1. The site collection cannot be created because the URL is already in use or an invalid URL.</br> 2. The site collection cannot be created because the URL contains invalid character.</br> 3. The site collection cannot be created or updated.|
