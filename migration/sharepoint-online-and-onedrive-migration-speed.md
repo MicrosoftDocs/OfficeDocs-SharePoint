@@ -75,7 +75,6 @@ If you have a good connection, you might want to choose the same datacenter loca
 
 Migration data throughput is highest during off-peak hours, which are typically nights and weekends in your region’s time zone. Your region's time zone is determined by where your Sharepoint Online tenant is set up.
 
-SPO Import: The speed of ingesting data into SharePoint. The import speed largely impacted by the complexity of the metadata in the migrated content.
 
 ### II. The Migration API
 
@@ -85,11 +84,13 @@ Your goal is to try to have as many migration jobs running in parallel at the sa
  
 There is a limit as to how many jobs can be run against the same site collection. This is why it is very important to run parallel jobs against different site collections as much as possible. Pre-partition your site collections so that your content is evenly spread out.
 
-We do not recommend that you submit more than 5000 migration jobs at one time. Over-queuing the network will create an extra load on the database and slow migration down. Make sure your job has been processed before you upload a new migration request.
+We do not recommend that you submit more than 10,000 migration jobs at one time. Over-queuing the network will create an extra load on the database and slow migration down. Make sure your job has been processed before you upload a new migration request.
 
 During migration, it is not uncommon for your migration job to be throttled. Throttling is implemented to ensure the best user experience and reliability of Sharepoint Online. It is primarily used to load balance the database and can occur if you misconfigure settings, such as using a single thread or attempting to migrate during peak hours.  Avoid competing with the end user who is actively using the SPO.
 
-For more technical background and information, please see (link TBD).
+For more technical background and information, please see 
+- [Migration API Overview](https://docs.microsoft.com/en-us/sharepoint/dev/apis/migration-api-overview) 
+- [Avoid getting throttled or blocked in SharePoint Online](http://go.microsoft.com/fwlink/?LinkID=619858&amp;clcid=0x409)
 
 ## After migration
 After the migration is completed, check your SPO to ensure completed and the data transfer is transferred successfully.
