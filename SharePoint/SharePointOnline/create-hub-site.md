@@ -36,7 +36,7 @@ If you're a global or SharePoint admin in Office 365, you can convert any existi
 3. Enter a display name for the hub site and specify the individual users or security groups you want to allow to associate sites with the hub.
 
 > [!IMPORTANT]
-> If you leave the **People who can associate sites with this hub** box empty, any user can associate their site with the hub.<br>If you later want to change the hub site display name or the list of people who can associate sites with the hub, you need to use PowerShell.
+> If you leave the **People who can associate sites with this hub** box empty, any user can associate their site with the hub.<br>If you later want to change the hub site display name or the list of people who can associate sites with the hub, you need to use PowerShell or go to hub site settings on the hub site.
 
 4. Click **Save**.
 
