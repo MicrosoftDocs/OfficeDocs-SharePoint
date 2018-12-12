@@ -149,6 +149,9 @@ Sorting and filtering the site list is just like sorting and filtering other lis
 <a name="search"> </a>
 
 You can search for a site by name, URL, primary admin, or template. To do this, enter keywords in the Search box and press Enter.
+
+> [!NOTE]
+> Search doesn't look in hub site display names for the keywords you enter. 
   
 ## Export to CSV
 <a name="export"> </a>
