@@ -3,7 +3,6 @@ title: "Manage site collection administrators"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 6/20/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
@@ -20,7 +19,7 @@ description: "Learn how to add and remove site collection admins."
 
 # Manage site collection administrators
 
-This article describes how global admins and SharePoint admins in Office 365 can add and remove site collection admins for any site collection. If you're an owner of a communication site, or a site that belongs to an Office 365 group, see [Manage your SharePoint site settings](https://support.office.com/article/8376034d-d0c7-446e-9178-6ab51c58df42#__BKMKMngSitePermissions) for info about giving people access to your site. If you're a site collection admin for a classic site, see [Manage your SharePoint site settings](https://support.office.com/article/8376034d-d0c7-446e-9178-6ab51c58df42#id0eaabaaa=server). 
+This article describes how global admins and SharePoint admins in Office 365 can add and remove site collection admins for any site collection. If you're an owner of a communication site, or a site that belongs to an Office 365 group, see [Manage your SharePoint site settings](https://support.office.com/article/8376034d-d0c7-446e-9178-6ab51c58df42#__BKMKMngSitePermissions) for info about giving people access to your site. If you're a site collection admin for a site that uses a classic template, see [Manage your SharePoint site settings](https://support.office.com/article/8376034d-d0c7-446e-9178-6ab51c58df42#id0eaabaaa=server). 
   
 > [!NOTE]
 > If you're a global admin and want info about assigning other users the SharePoint admin role in Office 365, see [Assigning admin permissions](https://support.office.com/article/F44FBE43-7E11-475B-A1B2-3F00719A853A). 
@@ -28,11 +27,10 @@ This article describes how global admins and SharePoint admins in Office 365 can
 ## Add or remove site collection admins
 <a name="__toc341786265"> </a>
 
-If a site belongs to an Office 365 group, you can add or remove group members in the Microsoft 365 admin center. For info, see [Add or remove members from Office 365 groups using the Office 365 admin center](https://support.office.com/article/e186d224-a324-4afa-8300-0e4fc0c3000a). 
+To change the owners of a communication site or new team site, you can use the new SharePoint admin center preview. For info, see [Manage sites in the new SharePoint admin center](manage-sites-in-new-admin-center.md#add-or-remove-owners). You can also add and remove group members in the Microsoft 365 admin center. For info, see [Add or remove members from Office 365 groups using the Office 365 admin center](https://support.office.com/article/e186d224-a324-4afa-8300-0e4fc0c3000a). 
   
-If you want to change the admins for a communication site or a site that belongs to an Office 365 group, and you as the global or SharePoint admin are also an owner of the site, see [Manage your SharePoint site settings](https://support.office.com/article/8376034d-d0c7-446e-9178-6ab51c58df42#__BKMKMngSitePermissions). If you aren't a site owner, you need to use PowerShell to add or remove site owners. For info, see [Add-PnPSiteCollectionAdmin](https://go.microsoft.com/fwlink/?linkid=872301) and [Remove-PnPSiteCollectionAdmin](https://go.microsoft.com/fwlink/?linkid=872302).
   
-To add or remove site collection admins on classic sites, use the SharePoint admin center:
+To add or remove site collection admins on sites that use a classic template in the classic SharePoint admin center:
   
 1. Sign in to Office 365 as a global admin or SharePoint admin.
     

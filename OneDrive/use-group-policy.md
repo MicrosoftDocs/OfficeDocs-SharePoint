@@ -300,7 +300,7 @@ This setting prevents users from moving their Documents, Pictures, and Desktop f
 > [!NOTE]
 > Moving known folders to personal OneDrive accounts is already blocked on domain-joined PCs. 
   
-If you enable this setting, users won't be prompted with the "Set up protection of important folders" window, and the "Start protection" command will be disabled. If the user has already moved their known folders, the files in those folders will remain in OneDrive. This policy will not take effect if you've enabled "Prompt users to move Windows known folders to OneDrive" or "Silently redirect Windows known folders to OneDrive."
+If you enable this setting, users won't be prompted with the "Set up protection of important folders" window, and the "Start protection" command will be disabled. If the user has already moved their known folders, the files in those folders will remain in OneDrive. This policy will not take effect if you've enabled "Prompt users to move Windows known folders to OneDrive" or "Silently move Windows known folders to OneDrive."
   
 If you disable or do not configure this setting, users can choose to move their known folders.
   
