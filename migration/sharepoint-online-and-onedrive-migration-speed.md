@@ -94,7 +94,7 @@ As you move content into SharePoint Online using the new Migration API, Azure is
   
  **4. The Migration API**
   
-The final step is the migration of data from Azure to SharePoint Online. This action is transparent when using a 3rd party tool, but corresponds to the [Submit-SPOMigrationJob](https://technet.microsoft.com/en-us/library/mt143605.aspx) PowerShell command. Microsoft has control at this step, so we will go more in detail below on what to expect. 
+The final step is the migration of data from Azure to SharePoint Online. This action is transparent when using a 3rd party tool, but corresponds to the [Submit-SPOMigrationJob](/powershell/module/sharepoint-online/Submit-SPOMigrationJob?view=sharepoint-ps) PowerShell command. Microsoft has control at this step, so we will go more in detail below on what to expect. 
   
 > [!NOTE]
 > For the purpose of this article every time a call is made to the API for a package to be ingested into SharePoint Online it will be called a "Migration Job". 
