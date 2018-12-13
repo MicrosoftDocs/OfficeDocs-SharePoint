@@ -26,9 +26,9 @@ If you enable this setting and the user is syncing files with the previous OneDr
   
 ## Prerequisites
 
-Before you can enable silent account configuration, you need to join your devices to Azure AD. You can join devices running Windows 10 and Windows Server 2016 directly to Azure AD. To learn how, see [Join your work device to your organization's network](https://docs.microsoft.com/azure/active-directory/user-help/user-help-join-device-on-network).
+Before you can enable silent account configuration, you need to join your devices to Azure AD. You can join devices running Windows 10 and Windows Server 2016 directly to Azure AD. To learn how, see [Join your work device to your organization's network](/azure/active-directory/user-help/user-help-join-device-on-network).
   
-If you have an on-premises environment that uses Active Directory, you can enable [hybrid Azure AD joined devices](https://docs.microsoft.com/en-us/azure/active-directory/devices/hybrid-azuread-join-plan) to join devices on your domain to Azure AD. Devices must be running one of the following operating systems:
+If you have an on-premises environment that uses Active Directory, you can enable [hybrid Azure AD joined devices](/azure/active-directory/devices/hybrid-azuread-join-plan) to join devices on your domain to Azure AD. Devices must be running one of the following operating systems:
   
 - Windows 10 
     
@@ -65,7 +65,7 @@ Using Group Policy:
 > [!NOTE]
 > Silent account configuration won't work on devices for which you've required multi-factor authentication. 
 
-If the computers on your network are not connected to Active Directory on-premises, but only to Azure AD, we recommend using Intune and a Microsoft PowerShell script to set the registry keys required to enable silent config. Be sure you have [automatic enrollment set up for Windows 10 devices](https://docs.microsoft.com/en-us/intune/quickstart-setup-auto-enrollment). 
+If the computers on your network are not connected to Active Directory on-premises, but only to Azure AD, we recommend using Intune and a Microsoft PowerShell script to set the registry keys required to enable silent config. Be sure you have [automatic enrollment set up for Windows 10 devices](/intune/quickstart-setup-auto-enrollment). 
 
 Using a script:
 

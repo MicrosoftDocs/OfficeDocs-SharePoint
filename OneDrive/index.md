@@ -21,7 +21,7 @@ description: OneDrive documentation
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/OneDrive-PlanDeploy-400x140.svg" alt="A monitor and clouds" />
+                                                        <img src="/office/media/hub-tiles/OneDrive-PlanDeploy-400x140.svg" alt="A monitor and clouds" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -72,13 +72,13 @@ description: OneDrive documentation
                                 </a>
                             </li>  -->              
                             <li>
-                                <a href="https://docs.microsoft.com/en-us/sharepoint/hybrid/plan-hybrid-onedrive-for-business">
+                                <a href="/sharepoint/hybrid/plan-hybrid-onedrive-for-business">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/OneDrive-Hybrid-400x140.svg" alt="Server and cloud symbols with sync arrows between them" />
+                                                        <img src="/office/media/hub-tiles/OneDrive-Hybrid-400x140.svg" alt="Server and cloud symbols with sync arrows between them" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -97,7 +97,7 @@ description: OneDrive documentation
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/OneDrive-EndUser-400x140.svg" alt="A call agent, a graduation cap, and a list symbol" />
+                                                        <img src="/office/media/hub-tiles/OneDrive-EndUser-400x140.svg" alt="A call agent, a graduation cap, and a list symbol" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -116,7 +116,7 @@ description: OneDrive documentation
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/OneDrive-Developer-400x140.svg" alt="Gear with a window and code brackets" />
+                                                        <img src="/office/media/hub-tiles/OneDrive-Developer-400x140.svg" alt="Gear with a window and code brackets" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">

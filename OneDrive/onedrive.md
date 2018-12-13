@@ -24,7 +24,7 @@ Help your users store, sync, and share work files in the cloud with OneDrive.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/download-blue.svg" alt="Download" />
+                            <img src="/office/media/icons/download-blue.svg" alt="Download" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -42,7 +42,7 @@ Help your users store, sync, and share work files in the cloud with OneDrive.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/success.svg" alt="Success" />
+                            <img src="/office/media/icons/success.svg" alt="Success" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -54,13 +54,13 @@ Help your users store, sync, and share work files in the cloud with OneDrive.
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/en-us/sharepointmigration/migrate-to-sharepoint-online">
+        <a href="/sharepointmigration/migrate-to-sharepoint-online">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/migration-blue.svg" alt="Migrate" />
+                            <img src="/office/media/icons/migration-blue.svg" alt="Migrate" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -78,7 +78,7 @@ Help your users store, sync, and share work files in the cloud with OneDrive.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/lightbulb-idea-capture-blue.svg" alt="Lightbulb" />
+                            <img src="/office/media/icons/lightbulb-idea-capture-blue.svg" alt="Lightbulb" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -96,7 +96,7 @@ Help your users store, sync, and share work files in the cloud with OneDrive.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/blog-site-blue.svg" alt="Blog" />
+                            <img src="/office/media/icons/blog-site-blue.svg" alt="Blog" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -114,7 +114,7 @@ Help your users store, sync, and share work files in the cloud with OneDrive.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/walkthrough-map-blue.svg" alt="Roadmap" />
+                            <img src="/office/media/icons/walkthrough-map-blue.svg" alt="Roadmap" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -132,7 +132,7 @@ Help your users store, sync, and share work files in the cloud with OneDrive.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/blocks-blue.svg" alt="Connected blocks" />
+                            <img src="/office/media/icons/blocks-blue.svg" alt="Connected blocks" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -150,7 +150,7 @@ Help your users store, sync, and share work files in the cloud with OneDrive.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/toolbox.svg" alt="toolbox" />
+                            <img src="/office/media/icons/toolbox.svg" alt="toolbox" />
                         </div>
                     </div>
                     <div class="cardText">

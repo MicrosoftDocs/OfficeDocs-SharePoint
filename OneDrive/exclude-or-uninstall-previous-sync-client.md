@@ -43,7 +43,7 @@ To exclude Groove in your deployment, add this to your config file:
 </Product>
 ```
 
-For more information about configuration options, see [Configuration options for the Office 2016 Deployment Tool](https://support.office.com/article/d3879f0d-766c-469c-9440-0a9a2a905ca8).
+For more information about configuration options, see [Configuration options for the Office 2016 Deployment Tool](/DeployOffice/configuration-options-for-the-office-2016-deployment-tool?redirectSourcePath=%252farticle%252fd3879f0d-766c-469c-9440-0a9a2a905ca8).
   
 To override the default behavior and make sure the previous OneDrive for Business sync client installs and stays installed, you'll need to provide a config file that doesn't exclude Groove.exe. Also, you'll need to set the "PreventUninstall" registry key on all computers where you need Groove.exe installed, so that the process doesn't uninstall Groove.exe.
   
@@ -71,7 +71,7 @@ The following table shows more detail about which Office installations are affec
 |Office 2016 Click-to-Run - Semi-annual channel (Targeted)  <br/> |Mar. 2018  <br/> |Starting Apr. 2018  <br/> |
 |Office 2016 Click-to-Run - Semi-annual channel  <br/> |July 2018  <br/> |Starting Aug. 2018  <br/> |
    
-For more information about Office channels, see [Overview of update channels for Office 365 ProPlus](https://support.office.com/article/9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4).
+For more information about Office channels, see [Overview of update channels for Office 365 ProPlus](/DeployOffice/overview-of-update-channels-for-office-365-proplus?redirectSourcePath=%252farticle%252f9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4).
   
 Unless you need Groove.exe for some of your scenarios (for example, syncing on-premises SharePoint files), we strongly recommend leaving the new defaults in place and excluding Groove.exe from Office 2016 installations.
   
