@@ -58,9 +58,9 @@ Stopping the cache results in partial data loss. The Feed Cache depends on the D
 At the SharePoint Management Shell command prompt, run the following command:
   
 ```
-$instanceName ="SPDistributedCacheService Name=AppFabricCachingService"
-$serviceInstance = Get-SPServiceInstance | ? {($_.service.tostring()) -eq $instanceName -and ($_.server.name) -eq $env:computername}
-$serviceInstance.Provision()
+PS C:\>$instanceName ="SPDistributedCacheService Name=AppFabricCachingService"
+PS C:\>$serviceInstance = Get-SPServiceInstance | ? {($_.service.tostring()) -eq $instanceName -and ($_.server.name) -eq $env:computername}
+PS C:\>$serviceInstance.Provision()
 
 ```
 
@@ -69,9 +69,9 @@ $serviceInstance.Provision()
 At the SharePoint Management Shell command prompt, run the following command:
   
 ```
-$instanceName ="SPDistributedCacheService Name=AppFabricCachingService"
-$serviceInstance = Get-SPServiceInstance | ? {($_.service.tostring()) -eq $instanceName -and ($_.server.name) -eq $env:computername}
-$serviceInstance.Unprovision()
+PS C:\>$instanceName ="SPDistributedCacheService Name=AppFabricCachingService"
+PS C:\>$serviceInstance = Get-SPServiceInstance | ? {($_.service.tostring()) -eq $instanceName -and ($_.server.name) -eq $env:computername}
+PS C:\>$serviceInstance.Unprovision()
 
 ```
 
@@ -100,13 +100,12 @@ Use this procedure to reconfigure the memory allocation of the cache size of the
   
 1. (Optional) To check the existing memory allocation for the Distributed Cache service on a server, run the following command at the SharePoint Management Shell command prompt:
     
-  ```
-  Use-CacheCluster
-  Get-AFCacheHostConfiguration -ComputerName $Env:ComputerName -CachePort "22233"
-  
-  ```
+```
+PS C:\>Use-CacheCluster
+PS C:\>Get-AFCacheHostConfiguration -ComputerName $Env:ComputerName -CachePort "22233"
+```
 
-    Where:
+Where:
     
   -  _ComputerName_ is the computer name of the server that you are running the SharePoint Management Shell cmdlet on. 
     
@@ -114,11 +113,11 @@ Use this procedure to reconfigure the memory allocation of the cache size of the
     
 3. To reconfigure the cache size of the Distributed Cache service, run the following command one time only on any cache host at the SharePoint Management Shell command prompt:
     
-  ```
-  Update-SPDistributedCacheSize -CacheSizeInMB CacheSize
-  ```
+```
+PS C:\>Update-SPDistributedCacheSize -CacheSizeInMB CacheSize
+```
 
-    Where:
+Where:
     
   -  _CacheSize_ is the cache size's memory allocation assignment in MB. In the previous example, the cache size was calculated at 7168 MB for a server with 16 GB of total memory. 
     
@@ -139,8 +138,7 @@ Use the following procedures to add and remove a server from a cache cluster. Th
 At the SharePoint Management Shell command prompt, run the following command:
   
 ```
-Add-SPDistributedCacheServiceInstance
-
+PS C:\>Add-SPDistributedCacheServiceInstance
 ```
 
 ### Remove a server from the cache cluster by using SharePoint Management Shell
@@ -148,8 +146,7 @@ Add-SPDistributedCacheServiceInstance
 At the SharePoint Management Shell command prompt, run the following command:
   
 ```
-Remove-SPDistributedCacheServiceInstance
-
+PS C:\>Remove-SPDistributedCacheServiceInstance
 ```
 
 > [!IMPORTANT]
@@ -169,7 +166,7 @@ Use the following PowerShell script to perform a graceful shutdown of the Distri
   
 1. Verify that you meet the following minimum requirements:
     
-  - See [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx).
+  - See [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Add-SPShellAdmin).
     
   - You must read [about_Execution_Policies](https://go.microsoft.com/fwlink/p/?LinkId=193050).
     
@@ -206,7 +203,7 @@ Use the following PowerShell script to perform a graceful shutdown of the Distri
   }
   ```
 
-    Where  _sp2016App.contoso.com_ is the computer domain name of Distributed Cache server you use. 
+ Where  _sp2016App.contoso.com_ is the computer domain name of Distributed Cache server you use. 
     
 3. Open the SharePoint Management Shell
     
@@ -214,11 +211,11 @@ Use the following PowerShell script to perform a graceful shutdown of the Distri
     
 5. At the PowerShell command prompt, type the following command:
     
-  ```
-  ./GracefulShutdown.ps1
-  ```
+```
+PS C:\>./GracefulShutdown.ps1
+```
 
-    For additional information about PowerShell scripts and .ps1 files, see [Running Windows PowerShell Scripts](http://technet.microsoft.com/library/ee176949).
+For additional information about PowerShell scripts and .ps1 files, see [Running Windows PowerShell Scripts](http://technet.microsoft.com/library/ee176949).
     
 ## Change the service account
 <a name="changesvcacct"> </a>
@@ -229,17 +226,17 @@ When the server farm is first configured, the server farm account is set as the 
     
 2. Set the Managed account as the service account on the AppFabric Caching service. At the SharePoint Management Shell command prompt, run the following command:
     
-  ```
-  $farm = Get-SPFarm
-  $cacheService = $farm.Services | where {$_.Name -eq "AppFabricCachingService"}
-  $accnt = Get-SPManagedAccount -Identity domain_name\user_name
-  $cacheService.ProcessIdentity.CurrentIdentityType = "SpecificUser"
-  $cacheService.ProcessIdentity.ManagedAccount = $accnt
-  $cacheService.ProcessIdentity.Update() 
-  $cacheService.ProcessIdentity.Deploy()
+```
+PS C:\>$farm = Get-SPFarm
+PS C:\>$cacheService = $farm.Services | where {$_.Name -eq "AppFabricCachingService"}
+PS C:\>$accnt = Get-SPManagedAccount -Identity domain_name\user_name
+PS C:\>$cacheService.ProcessIdentity.CurrentIdentityType = "SpecificUser"
+PS C:\>$cacheService.ProcessIdentity.ManagedAccount = $accnt
+PS C:\>$cacheService.ProcessIdentity.Update() 
+PS C:\>$cacheService.ProcessIdentity.Deploy()
   ```
 
-    Where  _Domain_name\user_name_ is the domain name and user name of the managed account. 
+Where  _Domain_name\user_name_ is the domain name and user name of the managed account. 
     
 ## Fine-tune the Distributed Cache service by using a PowerShell script
 <a name="finetune"> </a>
@@ -449,11 +446,11 @@ The Distributed Cache service setting for **MaxConnectionsToServer** is often tu
     
 5. At the PowerShell command prompt, type the following command:
     
-  ```
-  ./MaxConnections.ps1
-  ```
+```
+./MaxConnections.ps1
+```
 
-    For more information, see [Best Practices for using Windows Azure Cache/Windows Server Appfabric Cache](http://go.microsoft.com/fwlink/?LinkID=614969&amp;clcid=0x409) and [Application Configuration Settings (Windows Server AppFabric Caching)](http://go.microsoft.com/fwlink/?LinkID=614970&amp;clcid=0x409). For additional information about Windows PowerShell scripts and .ps1 files, see [Running Windows PowerShell Scripts](http://technet.microsoft.com/library/ee176949).
+For more information, see [Application Configuration Settings (Windows Server AppFabric Caching)](https://docs.microsoft.com/en-us/previous-versions/appfabric/ee790816(v=azure.10)).
     
 ## Repair a cache host
 <a name="repair"> </a>
@@ -464,30 +461,21 @@ There are two steps to repair a cache host.
   
 On the non-functioning Distributed Cache host, use the following procedures to restore the Distributed Cache host. 
   
-1. At the SharePoint Management Shell command prompt, run the [Remove-SPDistributedCacheServiceInstance](http://technet.microsoft.com/library/7cb14284-d0d8-4221-b81d-0a4470101880.aspx) cmdlet. 
+1. At the SharePoint Management Shell command prompt, run the [Remove-SPDistributedCacheServiceInstance](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Remove-SPDistributedCacheServiceInstance) cmdlet. 
     
-2. At the SharePoint Management Shell command prompt, run the [Add-SPDistributedCacheServiceInstance](http://technet.microsoft.com/library/4f4dbede-70a4-4480-9d7a-4265a04c88d1.aspx) cmdlet. 
+2. At the SharePoint Management Shell command prompt, run the [Add-SPDistributedCacheServiceInstance](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/add-spdistributedcacheserviceinstance) cmdlet. 
     
     > [!NOTE]
     > If step 1 fails, manually remove the Distributed Cache service, use the following steps. 
   
   - At the SharePoint Management Shell command prompt, type the following syntax.
     
-  ```
-  $instanceName ="SPDistributedCacheService Name=AppFabricCachingService"
-  ```
-
-  ```
-  $serviceInstance = Get-SPServiceInstance | ? {($_.service.tostring()) -eq $instanceName -and ($_.server.name) -eq $env:computername}
-  ```
-
-  ```
-  If($serviceInstance -ne $null)
-  {
-  $serviceInstance.Delete()
-  }
-  
-  ```
+```
+PS C:\>$instanceName ="SPDistributedCacheService Name=AppFabricCachingService"
+PS C:\>$serviceInstance = Get-SPServiceInstance | ? {($_.service.tostring()) -eq $instanceName -and ($_.server.name) -eq $env:computername}
+PS C:\>If($serviceInstance -ne $null)
+>> { $serviceInstance.Delete() }
+```
 
   - After the Distributed Cache Service has been manually deleted, run step 2 again.
     
