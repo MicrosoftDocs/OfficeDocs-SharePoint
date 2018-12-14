@@ -88,7 +88,7 @@ After the migration is completed, verify that your content has been successfully
 
 
 *Question:* My migration is going so slow or I am being throttled. What can I do?
-*Answer:* Check that you have configured your migration settings properly. Turn off any software that you do not need to use during migration. For example, disable any file sync program or antivirus program on the migrated content. This will help reduce throttle and improve performance.
+*Answer:* Check that you have configured your migration settings properly. Turn off any software that you do not need to use during migration. For example, disable any file synchronization program or antivirus program on the migrated content. This will help reduce throttle and improve performance.
  
 *Question:* How much can I migrate per day?
 *Answer:* Plan to migrate at a maximum of 2TB/day.
