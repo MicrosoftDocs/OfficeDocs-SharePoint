@@ -70,15 +70,12 @@ Migration data throughput is highest during off-peak hours, which are typically 
 
 ### II. The Migration API
 
-The final step is the migration of data from Azure to SharePoint Online. This action is transparent when using SPMT or 3rd party tool.
+The final step of the migration process is when the data is moved from Azure to SharePoint Online. This action is transparent to the user when using SPMT or a third- party tool.
 
-Your goal is to try to have as many migration tasks running in parallel at the same time to maximize your throughput. Some tools already do the splitting of the packages in a smart way and others leave it up to you to do the smart splitting of the tasks.
+To improve throughput, users are encouraged to run parallel tasks against different site collections if possible. We recommend that you do not submit more than 5,000 migration jobs/requests at one time. Over-queuing the network will create an extra load on the database and slow migration down. Make sure your task has completed before you upload a new migration request. Some tools may already be doing this for you.
  
-There is a limit as to how many tasks can be run against the same site collection. This is why it is very important to run parallel tasks against different site collections as much as possible. Pre-partition your site collections so that your content is evenly spread out.
+During migration, it is not uncommon for your migration task to be throttled. Throttling is implemented to ensure the best user experience and reliability of Sharepoint Online. It is primarily used to load balance the database and can occur if you misconfigure migration settings, such as migrating all your content in a single task or attempting to migrate during peak hours. 
 
-We do not recommend that you submit more than 10,000 migration tasks at one time. Over-queuing the network will create an extra load on the database and slow migration down. Make sure your task has been processed before you upload a new migration request.
-
-During migration, it is not uncommon for your migration task to be throttled. Throttling is implemented to ensure the best user experience and reliability of Sharepoint Online. It is primarily used to load balance the database and can occur if you misconfigure settings, such as using a single thread or attempting to migrate during peak hours.  Avoid competing with the end user who is actively using the SPO.
 
 For more technical background and information, please see 
 - [Migration API Overview](https://docs.microsoft.com/en-us/sharepoint/dev/apis/migration-api-overview) 
