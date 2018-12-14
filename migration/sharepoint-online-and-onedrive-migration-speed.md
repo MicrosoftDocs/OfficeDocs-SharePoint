@@ -39,11 +39,10 @@ The first rule of a good migration is to know your source; evaluate and triage y
 ### II. Package the content
 This step is where the tool creates a proper package for the content to be imported into the cloud. This step is automated in SPMT and in most third-party tools. 
 
-**Package size**. To improve migration throughput, we recommend that you package at least 250 files per transfer or at least 100MB size per transfer, but less than 1000 objects and less than 250MB per package. This will result in a faster upload speed to Azure and leverages the scale capabilities of the migration API. 
+**Package size.** To improve migration throughput, we recommend that you package at least 250 files per transfer. For the transfer size we recommend a minimum of 100MB and less than 250MB per package. This will result in a faster upload speed to Azure and leverages the scale capabilities of the migration API.
 
 The following table provides estimates of the type of speed you may achieve based on the types of content you are migrating.  
 
-The type of metadata directly impacts the speed of migration:
   
 |**Type of metadata**|**Examples**|**Maximum**|
 |:-----|:-----|:-----|
