@@ -31,18 +31,12 @@ Currently, Microsoft’s [SharePoint Migration Tool (SPMT)](https://docs.microso
 
 Planning is the key to optimizing your migration.  Determine what content you need to migrate,  prioritize when the content needs to be migrated, and decide on what the optimal migration infrastructure should be. 
 
-### I. Plan your Network Infrastructure
-A basic migration infrastructure includes a source computer, a migration computer, the network, Azure Storage and SharePoint Online (SPO).
 
-- **Source computer**. The *source computer* is where the content resides. Increase the speed of moving content out of the source location by spreading your source data across several computers or client VMs.
-- **Migration computer**.  The *migration computer* is the computer that is running SPMT or 3rd party migration tool. Launch migration tasks from more than one computer to maximize speed.
-- **Network**.  Spread your migration tasks over different networks or set the timing of your tasks to maximize low network usage to improve performance of your migration task.
-
-### II. Scan the source
+### I. Scan the source
 
 The first rule of a good migration is to know your source; evaluate and triage your content before you migrate. What content really needs be migrated? What can be left behind? How many file versions should be included? The amount of content you migrate will determine the overall size of your project. 
 
-### III. Package the content
+### II. Package the content
 This step is where the tool creates a proper package for the content to be imported into the cloud. This step is automated in SPMT and in most third-party tools. 
 
 **Package size**. To improve migration throughput, we recommend that you package at least 250 files per transfer or at least 100MB size per transfer, but less than 1000 objects and less than 250MB per package. This will result in a faster upload speed to Azure and leverages the scale capabilities of the migration API. 
