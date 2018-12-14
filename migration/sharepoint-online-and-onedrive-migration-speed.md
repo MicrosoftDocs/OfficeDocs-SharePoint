@@ -87,16 +87,16 @@ After the migration is completed, verify that your content has been successfully
 ## FAQ & Troubleshooting
 
 
-*Question:* My migration is going so slow or I am being throttled. What can I do?
+*Question:* My migration is going so slow or I am being throttled. What can I do?</br>
 *Answer:* Check that you have configured your migration settings properly. Turn off any software that you do not need to use during migration. For example, disable any file synchronization program or antivirus program on the migrated content. This will help reduce throttle and improve performance.
  
-*Question:* How much can I migrate per day?
+*Question:* How much can I migrate per day?</br>
 *Answer:* Plan to migrate at a maximum of 2TB/day.
 
-*Question:* I have a very big migration (> 100 TB) and I would like some help, who should I contact?
+*Question:* I have a very big migration (> 100 TB) and I would like some help, who should I contact?</br>
 *Answer:* For larger than a 100TB migration, please submit a support request with Microsoft.  Please include your company name, the estimated migration size, and an estimate of when you would like to start and complete your migration.
  
-*Question:* I have tried everything, but nothing works. Now what do I do?
+*Question:* I have tried everything, but nothing works. Now what do I do?</br>
 *Answer:* Open a support ticket with [http://support.microsoft.com](http://support.microsoft.com).
 
 
