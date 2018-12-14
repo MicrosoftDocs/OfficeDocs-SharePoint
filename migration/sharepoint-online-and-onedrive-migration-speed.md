@@ -61,11 +61,11 @@ The speed of this step depends on the efficiency of the tool you are using and t
 
 
 ### I. Upload to Azure
-As you move content into SharePoint Online using the new Migration API, Azure is leveraged as a temporary holding place. The network speed to upload to Azure is much faster and lets you choose your datacenter. 
-
-If you have a good connection, you might want to choose the same datacenter location for your Azure and your O365 account. If your network is slow, consider using the Azure Datacenter the closest geographically to you. 
-
+SPMT or your third-party tool will migrate your content into SharePoint Online using the Migration API, leveraging Azure as a temporary holding place.
+ 
+If you have a good connection and can configure your datacenter, choose the same datacenter location closest geographically to you for your Azure and your O365 account. 
 Migration data throughput is highest during off-peak hours, which are typically nights and weekends in your region’s time zone. Your region's time zone is determined by where your Sharepoint Online tenant is set up.
+
 
 
 ### II. The Migration API
