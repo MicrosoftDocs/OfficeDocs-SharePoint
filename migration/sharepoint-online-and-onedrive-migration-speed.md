@@ -50,11 +50,12 @@ The following table provides estimates of the type of speed you may achieve base
 |Medium  <br/> |List items, Office files (~1.5MB)  <br/> |1 TB/day  <br/> |
 |Heavy  <br/> |List items with custom columns, small files (~50kb)  <br/> |250 GB /day  <br/> |
 
-- Large file size migrates faster than smaller ones and files migrate faster than object and list items.
- 
-- Small file size or file content can result in larger overhead and processing time which directly impact the performance. 
+- Large file size migrates faster than smaller ones. Small file size can result in larger overhead and processing time which directly impacts the performance.
 
-The speed of this step depends on the efficiency of the tool you are using and the type of content that you package. Splitting your packages in a smart way is something that will greatly improve this step. Check to ensure the permission, sharing, or other limits are set up properly for migration.  
+- Files migrate faster than objects and list items.
+
+The speed of this step depends on the efficiency of the tool you are using and the type of content that you package. Splitting your packages in a smart way is something that will greatly improve this step. In addition, ensure that your permissions, sharing, or other limits are set up properly for migration and are within [SharePoint Online limits and boundaries](https://docs.microsoft.com/en-us/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits).
+
 
 ## During migration
 
