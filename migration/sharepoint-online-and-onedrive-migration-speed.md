@@ -82,24 +82,24 @@ For more technical background and information, please see
 - [Avoid getting throttled or blocked in SharePoint Online](http://go.microsoft.com/fwlink/?LinkID=619858&amp;clcid=0x409)
 
 ## After migration
-After the migration is completed, check your SPO to ensure completed and the data transfer is transferred successfully.
+After the migration is completed, verify that your content has been successfully moved to SharePoint Online or OneDrive.
 
 ## FAQ & Troubleshooting
 
 
-*Question:*    My migration is going so slow or I am being throttled.  What can I do?</br>
-*Answer:*      Check the throttled session to make sure you have configured your migration settings properly. Turn off any software that you do not use during migration, such as the Sync program. This will limit the database resource contention.</br>
+*Question:* My migration is going so slow or I am being throttled. What can I do?
+*Answer:* Check that you have configured your migration settings properly. Turn off any software that you do not need to use during migration. For example, disable any file sync program or antivirus program on the migrated content. This will help reduce throttle and improve performance.
+ 
+*Question:* How much can I migrate per day?
+*Answer:* Plan to migrate at a maximum of 2TB/day.
+
+*Question:* I have a very big migration (> 100 TB) and I would like some help, who should I contact?
+*Answer:* For larger than a 100TB migration, please submit a support request with Microsoft.  Please include your company name, the estimated migration size, and an estimate of when you would like to start and complete your migration.
+ 
+*Question:* I have tried everything, but nothing works. Now what do I do?
+*Answer:* Open a support ticket with [http://support.microsoft.com](http://support.microsoft.com).
 
 
-*Question:* How much can I migrate per day?</br>
-*Answer:*   Plan to migrate a maximum of 2TB/day.
-
-
-*Question:*  I have a very big migration (> 100 TB) and I would like some help, who should I contact?</br>
-*Answer:*   For larger than 100TB migration, please contact Microsoft
-
-*Question:* I have tried everything, but nothing works. Now what do I do?</br>
-*Answer:*   Open a support ticket with [http://support.microsoft.com](http://support.microsoft.com). 
 
 
 
