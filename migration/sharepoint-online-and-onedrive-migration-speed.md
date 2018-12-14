@@ -23,7 +23,7 @@ This article explains the factors that influence performance when migrating cont
 
 Migration performance can be impacted by network infrastructure, file size, migration time, and throttling. Understanding these will help you plan and maximize the efficiency of your migration.
 
-Currently, Microsoft’s [SharePoint Migration Tool (SPMT)](https://docs.microsoft.com/en-us/sharepointmigration/introducing-the-sharepoint-migration-tool) as well as several third party vendor tools utilize the SharePoint API for migration. It leverages Azure and uses channels for large content transfer.  Regardless of which migration tool you use, these factors will apply.
+Currently, Microsoft’s [SharePoint Migration Tool (SPMT)](https://docs.microsoft.com/en-us/sharepointmigration/introducing-the-sharepoint-migration-tool) as well as several third party vendor tools utilize the SharePoint API for migration. It leverages Azure and uses channels for large content transfer.  Regardless of which migration tool you use, these factors will apply. Follow the recommendations listed below for each phase of your migration process.
 
 
  
@@ -35,8 +35,8 @@ Planning is the key to optimizing your migration.  Determine what content you ne
 A basic migration infrastructure includes a source computer, a migration computer, the network, Azure Storage and SharePoint Online (SPO).
 
 - **Source computer**. The *source computer* is where the content resides. Increase the speed of moving content out of the source location by spreading your source data across several computers or client VMs.
-- **Migration computer**.  The *migration computer* is the computer that is running SPMT or 3rd party migration tool. Launch migration jobs from more than one computer to maximize speed.
-- **Network**.  Spread your migration jobs over different networks or set the timing of your jobs to maximize low network usage to improve performance of your migration job.
+- **Migration computer**.  The *migration computer* is the computer that is running SPMT or 3rd party migration tool. Launch migration tasks from more than one computer to maximize speed.
+- **Network**.  Spread your migration tasks over different networks or set the timing of your tasks to maximize low network usage to improve performance of your migration task.
 
 ### II. Scan the source
 
@@ -78,13 +78,13 @@ Migration data throughput is highest during off-peak hours, which are typically 
 
 The final step is the migration of data from Azure to SharePoint Online. This action is transparent when using SPMT or 3rd party tool.
 
-Your goal is to try to have as many migration jobs running in parallel at the same time to maximize your throughput. Some tools already do the splitting of the packages in a smart way and others leave it up to you to do the smart splitting of the jobs.
+Your goal is to try to have as many migration tasks running in parallel at the same time to maximize your throughput. Some tools already do the splitting of the packages in a smart way and others leave it up to you to do the smart splitting of the tasks.
  
-There is a limit as to how many jobs can be run against the same site collection. This is why it is very important to run parallel jobs against different site collections as much as possible. Pre-partition your site collections so that your content is evenly spread out.
+There is a limit as to how many tasks can be run against the same site collection. This is why it is very important to run parallel tasks against different site collections as much as possible. Pre-partition your site collections so that your content is evenly spread out.
 
-We do not recommend that you submit more than 10,000 migration jobs at one time. Over-queuing the network will create an extra load on the database and slow migration down. Make sure your job has been processed before you upload a new migration request.
+We do not recommend that you submit more than 10,000 migration tasks at one time. Over-queuing the network will create an extra load on the database and slow migration down. Make sure your task has been processed before you upload a new migration request.
 
-During migration, it is not uncommon for your migration job to be throttled. Throttling is implemented to ensure the best user experience and reliability of Sharepoint Online. It is primarily used to load balance the database and can occur if you misconfigure settings, such as using a single thread or attempting to migrate during peak hours.  Avoid competing with the end user who is actively using the SPO.
+During migration, it is not uncommon for your migration task to be throttled. Throttling is implemented to ensure the best user experience and reliability of Sharepoint Online. It is primarily used to load balance the database and can occur if you misconfigure settings, such as using a single thread or attempting to migrate during peak hours.  Avoid competing with the end user who is actively using the SPO.
 
 For more technical background and information, please see 
 - [Migration API Overview](https://docs.microsoft.com/en-us/sharepoint/dev/apis/migration-api-overview) 
