@@ -49,7 +49,7 @@ The following diagram shows the seven phases that the complete SharePoint Server
 
 Log shipping enables you to automatically send transaction log files for databases from a primary database server instance to a secondary database server instance. In our on-premises test environment, we use AlwaysOn availability groups with two replicas for high availability. We configured log shipping on both replicas. Each replica must be able to ship transaction logs. Only the replica that is active and owns the database can ship logs. However, if a failover event occurred and the secondary replica became active, it would have to ship transaction logs instead of the failed replica.
   
-After the transaction logs are received in the Azure environment, they are restored, one at a time, to each SharePoint database on the secondary database server. For more information about our test environment, see [Microsoft proof of concept environment](http://technet.microsoft.com/library/e9d14cb2-ff28-4a18-a444-cebf891880ea.aspx#POC).
+After the transaction logs are received in the Azure environment, they are restored, one at a time, to each SharePoint database on the secondary database server. For more information about our test environment, see [Microsoft proof of concept environment](/office365/enterprise/sharepoint-server-2013-disaster-recovery-in-microsoft-azure#POC).
   
 > [!NOTE]
 > Some organizations use a third database server as a monitor to record the history and status of backup and restore operations. This optional monitor server creates alerts when backup operations fail. 

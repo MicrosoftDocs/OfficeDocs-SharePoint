@@ -112,5 +112,5 @@ Use the following procedure to delete a trusted file location.
 
 #### Other Resources
 
-[Configure Excel Services in SharePoint](http://technet.microsoft.com/library/9cb81758-9d0b-4970-9ca0-a75eedf6093b.aspx)
+[Configure Excel Services in SharePoint](/SharePoint/administration/configure-excel-services)
 

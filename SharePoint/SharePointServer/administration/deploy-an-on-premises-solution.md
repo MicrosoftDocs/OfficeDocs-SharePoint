@@ -163,7 +163,7 @@ In this procedure you perform all the steps in [Configure the Secure Store Servi
     
 3. In the Configure the Secure Store Services in SharePoint 2013 Preview article, perform all procedures in the [Configure Secure Store in SharePoint Server](configure-the-secure-store-service.md#section1) section with these parameters 
     
-1. For the **Register Managed Account**, **User name** type in the name of the service account that you created in the [Prerequisites for deploying a Business Connectivity Services on-premises solution in SharePoint 2013](http://technet.microsoft.com/library/fca89900-9d0b-4915-8da4-24c9fde5582d%28Office.14%29.aspx) procedure. 
+1. For the **Register Managed Account**, **User name** type in the name of the service account that you created in the [Prerequisites for deploying a Business Connectivity Services on-premises solution in SharePoint 2013](/SharePoint/administration/deploy-an-on-premises-solution) procedure. 
     
 2. Do not select the **Enable automatic password change** box. 
     
@@ -197,13 +197,13 @@ In this procedure you perform all the steps in [Configure the Secure Store Servi
     
 6. In the **Target Application Administrators** add the accounts that you want to be administrators of the Target Application. Note that the Farm Administrator has access by default. 
     
-7. In the **Members** box, add the names of the users whom you want to allow access to the external data source. For this example use the **AdventureWorksBCSUsers** security group you created in [Prerequisites for deploying a Business Connectivity Services on-premises solution in SharePoint 2013](http://technet.microsoft.com/library/fca89900-9d0b-4915-8da4-24c9fde5582d%28Office.14%29.aspx).
+7. In the **Members** box, add the names of the users whom you want to allow access to the external data source. For this example use the **AdventureWorksBCSUsers** security group you created in [Prerequisites for deploying a Business Connectivity Services on-premises solution in SharePoint 2013](/SharePoint/administration/deploy-an-on-premises-solution).
     
 8. Perform the steps in the [Set credentials for a Secure Store target application](configure-the-secure-store-service.md#section4) procedure using these parameters: 
     
-1. In the **SQL User Name** box, type **AdventureWorksUser** which is the name SQL Server account you created in [Create database logins for a Business Connectivity Services on-premises solution in SharePoint 2013](http://technet.microsoft.com/library/17d76f08-5dda-4964-9d19-5d895e604b83%28Office.14%29.aspx).
+1. In the **SQL User Name** box, type **AdventureWorksUser** which is the name SQL Server account you created in [Create database logins for a Business Connectivity Services on-premises solution in SharePoint 2013](/SharePoint/administration/deploy-an-on-premises-solution).
     
-2. In the **SQL Password**, and **Confirm SQL Password** boxes type the password for that account, which is actually the password for the SharePointGroupAccount account that you created in [Create database logins for a Business Connectivity Services on-premises solution in SharePoint 2013](http://technet.microsoft.com/library/17d76f08-5dda-4964-9d19-5d895e604b83%28Office.14%29.aspx).
+2. In the **SQL Password**, and **Confirm SQL Password** boxes type the password for that account, which is actually the password for the SharePointGroupAccount account that you created in [Create database logins for a Business Connectivity Services on-premises solution in SharePoint 2013](/SharePoint/administration/deploy-an-on-premises-solution).
     
 ### Create an external content type
 
@@ -304,7 +304,7 @@ To configure user access and permissions to the external content type:
     
 6. On the ribbon, click **Set Object Permissions**.
     
-7. Enter the user accounts to which you want to grant permissions, and then click **Add**. For this example, you would add the security group that was created in [Prerequisites for deploying a Business Connectivity Services on-premises solution in SharePoint 2013](http://technet.microsoft.com/library/fca89900-9d0b-4915-8da4-24c9fde5582d%28Office.14%29.aspx)AdventureWorksBCSUsers.
+7. Enter the user accounts to which you want to grant permissions, and then click **Add**. For this example, you would add the security group that was created in [Prerequisites for deploying a Business Connectivity Services on-premises solution in SharePoint 2013](/SharePoint/administration/deploy-an-on-premises-solution)AdventureWorksBCSUsers.
     
 8. Select the user accounts that you just added, and then select **Execute** check boxe. 
     

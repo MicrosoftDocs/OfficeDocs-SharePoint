@@ -31,7 +31,7 @@ When a farm consumes the User Profile service application of a publishing farm, 
 The procedure in this article requires that you already configured the following:
 
 - Shared the User Profile service application between a consuming and a publishing farm as documented in [Share service applications across farms in SharePoint Server](share-service-applications-across-farms.md).
-- Configured the Subscription Settings and App Management service applications on both publishing and consuming farms as documented in [section "Configure the Subscription Settings and App Management service applications" of this article](https://docs.microsoft.com/en-us/sharepoint/administration/configure-an-environment-for-apps-for-sharepoint#configure-the-subscription-settings-and-app-management-service-applications)
+- Configured the Subscription Settings and App Management service applications on both publishing and consuming farms as documented in [section "Configure the Subscription Settings and App Management service applications" of this article](/sharepoint/administration/configure-an-environment-for-apps-for-sharepoint#configure-the-subscription-settings-and-app-management-service-applications)
 
 Verify that you have the following memberships:
 
@@ -40,7 +40,7 @@ Verify that you have the following memberships:
   - Member of built-in Administrators group on the server on which you are running the PowerShell cmdlets.
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets.  
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
 
 ## Configure server-to-server authentication between publishing and consuming farms
 <a name="begin"> </a>
@@ -104,6 +104,6 @@ $mgr.AddSiteSubscriptionPermission($appPrincipal, $privateAPITypeId, [Microsoft.
 
 ### Other Resources
   
-[New-SPTrustedSecurityTokenIssuer](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/new-sptrustedsecuritytokenissuer?view=sharepoint-ps)
+[New-SPTrustedSecurityTokenIssuer](/powershell/module/sharepoint-server/new-sptrustedsecuritytokenissuer?view=sharepoint-ps)
 
-[Set-SPAppPrincipalPermission](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/set-spappprincipalpermission?view=sharepoint-ps)
+[Set-SPAppPrincipalPermission](/powershell/module/sharepoint-server/set-spappprincipalpermission?view=sharepoint-ps)

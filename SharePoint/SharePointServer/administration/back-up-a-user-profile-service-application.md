@@ -179,5 +179,5 @@ You cannot back up the whole User Profile service application or service applica
 [Restore service applications in SharePoint Server](restore-a-service-application.md)
 #### Other Resources
 
-[Windows PowerShell for SharePoint Server reference](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/?view=sharepoint-ps)
+[Windows PowerShell for SharePoint Server reference](/powershell/module/sharepoint-server/?view=sharepoint-ps)
 

@@ -58,7 +58,7 @@ There are three major phases to setting up this dev/test environment:
   
 ## Phase 1: Set up the simulated cross-premises environment
 
-Use the instructions in [Simulated cross-premises virtual network in Azure](http://technet.microsoft.com/library/0a3555dc-6f96-49a5-b9e2-7760e16630b3.aspx) to create the following configuration: 
+Use the instructions in [Simulated cross-premises virtual network in Azure](/office365/enterprise/simulated-cross-premises-virtual-network-in-azure) to create the following configuration: 
   
 **Figure 2: The simulated cross-premises environment**
 

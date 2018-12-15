@@ -235,7 +235,7 @@ The following procedures provide methods to connect to the new SQL Server instan
     
 9. Repeat steps 3 through 8 on all servers in the farm that connect to the new instance of SQL Server.
     
-10. Optional. If your environment relies on System Center 2012 - Data Protection Manager (DPM) or a third-party application that uses the Volume Shadow Copy Service framework for backup and recovery, you must install the SQL Server connectivity components on each web server or application server by running SQL Server setup. For more information, see [Install SQL Server 2014 from the Installation Wizard (Setup)](http://go.microsoft.com/fwlink/p/?LinkID=717350) and [Windows Server Installation and Upgrade](https://docs.microsoft.com/en-us/windows-server/get-started/installation-and-upgrade).
+10. Optional. If your environment relies on System Center 2012 - Data Protection Manager (DPM) or a third-party application that uses the Volume Shadow Copy Service framework for backup and recovery, you must install the SQL Server connectivity components on each web server or application server by running SQL Server setup. For more information, see [Install SQL Server 2014 from the Installation Wizard (Setup)](http://go.microsoft.com/fwlink/p/?LinkID=717350) and [Windows Server Installation and Upgrade](/windows-server/get-started/installation-and-upgrade).
     
 You can use these Microsoft PowerShell cmdlets to deploy, manage, and remove availability groups in SQL Server with SharePoint Server:
   
@@ -260,7 +260,7 @@ Use the following procedure to update the database connections if you use ShareP
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -366,5 +366,5 @@ Where \<DBServerName\> is the name or alias of the mirrored SQL Server.
   
 [Databases that support SharePoint 2013](https://go.microsoft.com/fwlink/p/?LinkId=257370)
   
-[Add a database server to an existing farm in SharePoint 2013](http://technet.microsoft.com/library/6925182e-82ff-4392-9297-f08525b9d96b%28Office.14%29.aspx)
+[Add a database server to an existing farm in SharePoint 2013](/previous-versions/office/sharepoint-server-2010/cc262781(v=office.14))
 

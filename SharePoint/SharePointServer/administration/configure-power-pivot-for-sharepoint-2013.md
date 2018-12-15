@@ -51,7 +51,7 @@ This video shows the steps involved in setting up Power Pivot for SharePoint 201
 ## Prepare the farm
 <a name="proc1"> </a>
 
-In this section, we will prepare the farm for Power Pivot installation. This includes registering a managed account and configuring some Secure Store settings in Central Administration, as well as configuring some security settings in SQL Server. You'll need to be a farm administrator and a SQL Server administrator to do these steps, as well as a [Shell Administrator](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa%28Office.14%29.aspx) to do the PowerShell steps. 
+In this section, we will prepare the farm for Power Pivot installation. This includes registering a managed account and configuring some Secure Store settings in Central Administration, as well as configuring some security settings in SQL Server. You'll need to be a farm administrator and a SQL Server administrator to do these steps, as well as a [Shell Administrator](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps) to do the PowerShell steps. 
   
  **Register a domain account as a managed account in SharePoint Server 2013**
   

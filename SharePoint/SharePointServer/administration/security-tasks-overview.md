@@ -68,7 +68,7 @@ You can directly apply four permissions:
     
  **Mapping accounts and groups in Secure Store Service**
   
-BCS cannot pass a user's credentials outside of the SharePoint Server farm to the external system where the data resides unless you've configured Kerberos Constrained Delegation. Kerberos Constrained Delegation can be challenging to configure and maintain. As an alternative, you can use the [Secure Store Service](http://technet.microsoft.com/library/e1196de0-1eb9-4c50-aeca-93e0eba7be0d%28Office.14%29.aspx). With Secure Store, you can map a group of users to a set of credentials that BCS can use to access the external system.
+BCS cannot pass a user's credentials outside of the SharePoint Server farm to the external system where the data resides unless you've configured Kerberos Constrained Delegation. Kerberos Constrained Delegation can be challenging to configure and maintain. As an alternative, you can use the [Secure Store Service](/previous-versions/office/sharepoint-server-2010/ee806889(v=office.14)). With Secure Store, you can map a group of users to a set of credentials that BCS can use to access the external system.
   
 There are two ways to configure your mappings:
   

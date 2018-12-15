@@ -131,7 +131,7 @@ When you move or rename service application databases, the first step is to stop
   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
     > [!NOTE]
-    > For additional information about Microsoft PowerShell permissions, see [Permissions](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps). 
+    > For additional information about Microsoft PowerShell permissions, see [Permissions](/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -145,7 +145,7 @@ When you move or rename service application databases, the first step is to stop
 
     Where  _\<ServiceGUID\>_ is the GUID of the service. 
     
-    For more information, see [Stop-SPServiceInstance](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Stop-SPServiceInstance?view=sharepoint-ps).
+    For more information, see [Stop-SPServiceInstance](/powershell/module/sharepoint-server/Stop-SPServiceInstance?view=sharepoint-ps).
     
 ### Move a database by using SQL Server Management Studio and File Explorer
 <a name="MoveFull"> </a>
@@ -215,7 +215,7 @@ Pointing to the moved or renamed database is the next step. You can do this with
   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
     > [!NOTE]
-    > For additional information about Microsoft PowerShell permissions, see [Permissions](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps). 
+    > For additional information about Microsoft PowerShell permissions, see [Permissions](/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -243,7 +243,7 @@ Pointing to the moved or renamed database is the next step. You can do this with
   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
     > [!NOTE]
-    > For additional information about Microsoft PowerShell permissions, see [Permissions](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps). 
+    > For additional information about Microsoft PowerShell permissions, see [Permissions](/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -282,7 +282,7 @@ The State Service database stores temporary state information data. You can use 
   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
     > [!NOTE]
-    > For additional information about Microsoft PowerShell permissions, see [Permissions](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps). 
+    > For additional information about Microsoft PowerShell permissions, see [Permissions](/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -316,7 +316,7 @@ The State Service database stores temporary state information data. You can use 
 
     Where  _\<DatabaseID\>_ is the State Service database to remove from the service application. The type must be a valid GUID in the form 12345678-90ab-cdef-1234-567890bcdefgh, a valid name of a state database, or an instance of a valid **SPStateServiceDatabase** object. 
     
-    For more information, see [Dismount-SPStateServiceDatabase](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Dismount-SPStateServiceDatabase?view=sharepoint-ps).
+    For more information, see [Dismount-SPStateServiceDatabase](/powershell/module/sharepoint-server/Dismount-SPStateServiceDatabase?view=sharepoint-ps).
     
 3. Move the database. For details, see [Move a database by using SQL Server Management Studio and File Explorer](#MoveFull).
     
@@ -343,7 +343,7 @@ The State Service database stores temporary state information data. You can use 
   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
     > [!NOTE]
-    > For additional information about Microsoft PowerShell permissions, see [Permissions](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps). 
+    > For additional information about Microsoft PowerShell permissions, see [Permissions](/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -373,7 +373,7 @@ The State Service database stores temporary state information data. You can use 
   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
     > [!NOTE]
-    > For additional information about Microsoft PowerShell permissions, see [Permissions](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps). 
+    > For additional information about Microsoft PowerShell permissions, see [Permissions](/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -403,7 +403,7 @@ The State Service database stores temporary state information data. You can use 
   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
     > [!NOTE]
-    > For additional information about Microsoft PowerShell permissions, see [Permissions](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps). 
+    > For additional information about Microsoft PowerShell permissions, see [Permissions](/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -462,7 +462,7 @@ The following procedures shows how to move or delete the Business Data Connectiv
 
     Where  _\<ServiceGUID\>_ is the GUID of the service. If you don't know the service GUID, you can retrieve a list of all services in the farm together with their GUIDs by using the **Get-SPServiceInstance** cmdlet. 
     
-    For more information, see [Stop-SPServiceInstance](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Stop-SPServiceInstance?view=sharepoint-ps) and [Get-SPServiceInstance](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Get-SPServiceInstance?view=sharepoint-ps).
+    For more information, see [Stop-SPServiceInstance](/powershell/module/sharepoint-server/Stop-SPServiceInstance?view=sharepoint-ps) and [Get-SPServiceInstance](/powershell/module/sharepoint-server/Get-SPServiceInstance?view=sharepoint-ps).
     
 ### Step 2: To detach a database from SQL Server
 

@@ -25,7 +25,7 @@ Learn how to use a Microsoft PowerShell script to create an audience.
 
 1. Verify that you meet the following minimum requirements:
     
-  - See [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx).
+  - See [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
     
   - You must read [about_Execution_Policies](https://go.microsoft.com/fwlink/p/?LinkId=193050).
     
@@ -76,7 +76,7 @@ Learn how to use a Microsoft PowerShell script to create an audience.
   ./Audiences.ps1 
   ```
 
-For additional information about PowerShell scripts and .ps1 files, see [Running Windows PowerShell Scripts](http://technet.microsoft.com/library/ee176949).
+For additional information about PowerShell scripts and .ps1 files, see [Running Windows PowerShell Scripts](/previous-versions/windows/it-pro/windows-powershell-1.0/ee176949(v=technet.10)).
   
 For additional information about how to create audiences, see [AudienceRuleComponent class](https://msdn.microsoft.com/library/office/ms578007).
   

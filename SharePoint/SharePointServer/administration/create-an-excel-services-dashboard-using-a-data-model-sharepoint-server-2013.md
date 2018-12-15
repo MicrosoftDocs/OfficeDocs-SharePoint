@@ -35,11 +35,11 @@ Before you begin this operation, review the following information about prerequi
     
 - This scenario uses Adventure Works sample data and a Business Intelligence Center site in SharePoint Server 2013. If you do not have the sample data and a Business Intelligence Center site, have an IT administrator configure them for you using the instructions in [Configure AdventureWorks for Business Intelligence solutions](configure-adventureworks.md).
     
-- Excel Services must be configured to support Data Models in the SharePoint environment that you are using. For information about how to deploy Excel Services, see [Configure Excel Services in SharePoint Server 2013](http://technet.microsoft.com/library/9cb81758-9d0b-4970-9ca0-a75eedf6093b.aspx) and [Manage Excel Services data model settings (SharePoint Server 2013)](manage-excel-services-data-model-settings.md).
+- Excel Services must be configured to support Data Models in the SharePoint environment that you are using. For information about how to deploy Excel Services, see [Configure Excel Services in SharePoint Server 2013](/SharePoint/administration/configure-excel-services) and [Manage Excel Services data model settings (SharePoint Server 2013)](manage-excel-services-data-model-settings.md).
     
 - You must have some information about what authentication settings are used for Excel Services. For example, if your organization is using Secure Store Service, you will need the Secure Store target application ID for Excel Services data access. 
     
-    For information about how to configure Secure Store, see [Plan the Secure Store Service in SharePoint Server](http://technet.microsoft.com/library/e1196de0-1eb9-4c50-aeca-93e0eba7be0d%28Office.14%29.aspx) and [Configure the Secure Store Service in SharePoint Server](configure-the-secure-store-service.md).
+    For information about how to configure Secure Store, see [Plan the Secure Store Service in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806889(v=office.14)) and [Configure the Secure Store Service in SharePoint Server](configure-the-secure-store-service.md).
     
 ## Plan the dashboard
 <a name="part1"> </a>

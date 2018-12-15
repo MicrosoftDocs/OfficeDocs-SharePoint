@@ -118,7 +118,7 @@ In this example, we import the PFX file using `certutil`, specifying the passwor
 
 ## Replace the STS Certificate in SharePoint
 
-Once the PFX has been imported on all SharePoint servers in the farm, we must replace the certificate that is in use by the STS. You must be a SharePoint Shell Administrator (see [Add-SPShellAdmin](https://docs.microsoft.com/powershell/module/sharepoint-server/add-spshelladmin) for details on how to add a SharePoint Shell Administrator) to perform this operation.
+Once the PFX has been imported on all SharePoint servers in the farm, we must replace the certificate that is in use by the STS. You must be a SharePoint Shell Administrator (see [Add-SPShellAdmin](/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps) for details on how to add a SharePoint Shell Administrator) to perform this operation.
 
 Using the SharePoint Management Shell, we will specify the path to the PFX file, set the password, set the STS to use the new certificate, restart IIS, and finally restart the SharePoint Timer Service (SPTimerV4).
 
@@ -131,17 +131,17 @@ iisreset
 Restart-Service SPTimerV4
 ```
 
-Complete the above steps on all SharePoint server in the farm. This completes the STS certificate replacement process. If you are using a hybrid farm, see [Use an Office 365 SharePoint site to authorize provider-hosted add-ins on an on-premises SharePoint site](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/use-an-office-365-sharepoint-site-to-authorize-provider-hosted-add-ins-on-an-on) for additional steps required to upload the STS certificate to Azure.
+Complete the above steps on all SharePoint server in the farm. This completes the STS certificate replacement process. If you are using a hybrid farm, see [Use an Office 365 SharePoint site to authorize provider-hosted add-ins on an on-premises SharePoint site](/sharepoint/dev/sp-add-ins/use-an-office-365-sharepoint-site-to-authorize-provider-hosted-add-ins-on-an-on) for additional steps required to upload the STS certificate to Azure.
 
 ## See Also
 
 [Hybrid for SharePoint Server](../hybrid/hybrid.md)
 
-[Export-PfxCertificate](https://docs.microsoft.com/powershell/module/pkiclient/export-pfxcertificate)
+[Export-PfxCertificate](/powershell/module/pkiclient/export-pfxcertificate?view=win10-ps)
 
-[Export-Certificate](https://docs.microsoft.com/powershell/module/pkiclient/export-certificate)
+[Export-Certificate](/powershell/module/pkiclient/export-certificate?view=win10-ps)
 
-[Certreq](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/certreq_1)
+[Certreq](/windows-server/administration/windows-commands/certreq_1)
 
-[Certutil](https://docs.microsoft.com/windows-server/administration/windows-commands/certutil)
+[Certutil](/windows-server/administration/windows-commands/certutil)
 

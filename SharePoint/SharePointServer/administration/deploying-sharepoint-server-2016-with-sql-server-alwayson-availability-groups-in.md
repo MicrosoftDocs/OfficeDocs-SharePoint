@@ -42,7 +42,7 @@ Here is the configuration, with placeholder names for each server.
 Two virtual machines for each role ensure high availability. All of the virtual machines are in a single cross-premises Azure virtual network. Each group of virtual machines for a specific role is in its own subnet and availability set.
   
 > [!NOTE]
-> Because this VNet is connected to the on-premises network, this configuration does not include jumpbox or monitoring virtual machines on a management subnet. For more information, see [Running Windows VMs for an N-tier architecture](https://docs.microsoft.com/azure/guidance/guidance-compute-n-tier-vm). 
+> Because this VNet is connected to the on-premises network, this configuration does not include jumpbox or monitoring virtual machines on a management subnet. For more information, see [Running Windows VMs for an N-tier architecture](/azure/architecture/reference-architectures/n-tier/n-tier-sql-server). 
   
 ## Bill of materials
 
@@ -88,7 +88,7 @@ You deploy this SharePoint Server 2016 farm with the following phases:
     Create and configure replica Windows Server Active Directory (AD) domain controllers
     
     > [!NOTE]
-    > SharePoint Server 2016 also supports the use of [Azure Active Directory (AD) Domain Services](https://docs.microsoft.com/azure/active-directory-domain-services/active-directory-ds-overview) as a substitute for virtual machines running as domain replicas. However, at this time, this deployment guide only describes the use of virtual machine-based replica domain controllers. 
+    > SharePoint Server 2016 also supports the use of [Azure Active Directory (AD) Domain Services](/azure/active-directory-domain-services/active-directory-ds-overview) as a substitute for virtual machines running as domain replicas. However, at this time, this deployment guide only describes the use of virtual machine-based replica domain controllers. 
   
 - [SharePoint Intranet Farm in Azure Phase 3: Configure SQL Server Infrastructure](http://technet.microsoft.com/library/b71ccbbf-37c0-46c2-a403-20934e1e104e%28Office.14%29.aspx)
     
