@@ -125,5 +125,5 @@ Perform the following procedure to delete a user profile property.
 [User Profile service overview](../install/user-profile-service-overview.md)
 #### Other Resources
 
-[Delegate administration of User Profile service applications or features in SharePoint Server](http://technet.microsoft.com/library/9136a204-9877-4591-a7e5-0cdeda60114e%28Office.14%29.aspx)
+[Delegate administration of User Profile service applications or features in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee721057(v=office.14))
 

@@ -60,7 +60,7 @@ You can assign or remove service application administrators by using the SharePo
     > [!NOTE]
     > If these permissions are not satisfied, contact your Setup administrator or SQL Server administrator to request these permissions. 
   
-    For additional information about PowerShell permissions, see [Permissions](http://technet.microsoft.com/library/ae4901b4-505a-42a9-b8d4-fca778abc12e.aspx#section3) and [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx)
+    For additional information about PowerShell permissions, see [Permissions](/powershell/module/sharepoint-server/?view=sharepoint-ps#section3) and [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps)
     
 2. Start the SharePoint Management Shell.
     
@@ -82,7 +82,7 @@ You can assign or remove service application administrators by using the SharePo
     Where  _\<ServiceApplicationDisplayName\>_ is the display name of the service application. The service application identification is stored in the  _$spapp_ variable. 
     
     > [!IMPORTANT]
-    > The display name must be enclosed in quotation marks, and it must exactly match the service application display name. This includes capitalization. If you have more than one service application that has the identical display name (we do not recommend this), you can use the **Get-SPServiceApplication** cmdlet to view all service applications. You can then identify the service application by its GUID. For more information, see [Get-SPServiceApplication](http://technet.microsoft.com/library/71a467dc-3b95-4b65-af93-0d0d6ebb8326.aspx). 
+    > The display name must be enclosed in quotation marks, and it must exactly match the service application display name. This includes capitalization. If you have more than one service application that has the identical display name (we do not recommend this), you can use the **Get-SPServiceApplication** cmdlet to view all service applications. You can then identify the service application by its GUID. For more information, see [Get-SPServiceApplication](/powershell/module/sharepoint-server/Get-SPServiceApplication?view=sharepoint-ps). 
   
 5. To retrieve the administrator security object for the service application, type the following command:
     
@@ -152,17 +152,17 @@ Set-SPServiceApplicationSecurity $spapp $security -Admin
 
 For more information, see the following Microsoft PowerShell articles:
   
-- [New-SPClaimsPrincipal](http://technet.microsoft.com/library/0831e64b-3ec0-4016-8128-639991530172.aspx)
+- [New-SPClaimsPrincipal](/powershell/module/sharepoint-server/New-SPClaimsPrincipal?view=sharepoint-ps)
     
-- [Get-SPServiceApplication](http://technet.microsoft.com/library/71a467dc-3b95-4b65-af93-0d0d6ebb8326.aspx)
+- [Get-SPServiceApplication](/powershell/module/sharepoint-server/Get-SPServiceApplication?view=sharepoint-ps)
     
-- [Get-SPServiceApplicationSecurity](http://technet.microsoft.com/library/4f433fea-ddbf-4843-a11c-d936ce51c6bb.aspx)
+- [Get-SPServiceApplicationSecurity](/powershell/module/sharepoint-server/Get-SPServiceApplicationSecurity?view=sharepoint-ps)
     
-- [Grant-SPObjectSecurity](http://technet.microsoft.com/library/496caa92-2ff4-4048-ab7d-57d8c835bf2b.aspx)
+- [Grant-SPObjectSecurity](/powershell/module/sharepoint-server/Grant-SPObjectSecurity?view=sharepoint-ps)
     
 - [Revoke-SPObjectSecurity](http://technet.microsoft.com/library/4e7583ab-5b8d-47c2-a9eb-2cf525ae07d8.aspx)
     
-- [Set-SPServiceApplicationSecurity](http://technet.microsoft.com/library/8d769193-f126-43f7-8c1e-4bec75c8446d.aspx)
+- [Set-SPServiceApplicationSecurity](/powershell/module/sharepoint-server/Set-SPServiceApplicationSecurity?view=sharepoint-ps)
     
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 

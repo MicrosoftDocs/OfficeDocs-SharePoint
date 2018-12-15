@@ -111,7 +111,7 @@ The way this works is that you put related permissions together into a permissio
   
 By default, each kind of SharePoint site includes certain SharePoint groups. For example, a Team Site automatically includes the Owners, Members, and Visitors group. A Publishing Portal site includes those groups and several more, such as Approvers, Designers, Hierarchy Managers, and so on. When you create a site, SharePoint automatically creates a pre-defined set of SharePoint groups for that site. In addition, a SharePoint admin can define custom groups and permission levels.
   
-To learn more about SharePoint groups, see [Understanding SharePoint groups](https://support.office.com/article/94d9b261-161e-4ace-829e-eca1c8cd2eb8.aspx).
+To learn more about SharePoint groups, see [Understanding SharePoint groups](/sharepoint/default-sharepoint-groups?redirectSourcePath=%252farticle%252f94d9b261-161e-4ace-829e-eca1c8cd2eb8.aspx).
   
 The SharePoint groups and permission levels that are included by default in your site may differ, depending on:
   

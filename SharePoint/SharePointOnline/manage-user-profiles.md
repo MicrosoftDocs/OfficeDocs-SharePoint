@@ -32,10 +32,10 @@ Most organizations don't need to change any user profile settings in the SharePo
 ## Create and edit custom user properties
 <a name="customuserproperties"> </a>
 
-In Office 365, identity is managed by Azure Active Directory. For info about this, see [Understanding Office 365 identity and Azure Active Directory](https://support.office.com/article/06a189e7-5ec6-4af2-94bf-a22ea225a7a9). SharePoint Online receives this profile information. If you need to store additional info about your users, you can create custom properties in the SharePoint admin center. For info about doing this, see [Add and edit user profile properties in SharePoint Online](add-and-edit-user-profile-properties.md).
+In Office 365, identity is managed by Azure Active Directory. For info about this, see [Understanding Office 365 identity and Azure Active Directory](/office365/enterprise/about-office-365-identity?redirectSourcePath=%252farticle%252f06a189e7-5ec6-4af2-94bf-a22ea225a7a9). SharePoint Online receives this profile information. If you need to store additional info about your users, you can create custom properties in the SharePoint admin center. For info about doing this, see [Add and edit user profile properties in SharePoint Online](add-and-edit-user-profile-properties.md).
   
 > [!NOTE]
-> Instead of creating user sub-types in the SharePoint Online admin center, we recommend using the Microsoft 365 admin center to [Compare groups](https://support.office.com/article/758759ad-63ee-4ea9-90a3-39f941897b7d) or using the Azure AD admin center to [create groups with dynamic membership](https://go.microsoft.com/fwlink/?linkid=865398). 
+> Instead of creating user sub-types in the SharePoint Online admin center, we recommend using the Microsoft 365 admin center to [Compare groups](/office365/admin/create-groups/compare-groups?redirectSourcePath=%252farticle%252f758759ad-63ee-4ea9-90a3-39f941897b7d&view=o365-worldwide) or using the Azure AD admin center to [create groups with dynamic membership](https://go.microsoft.com/fwlink/?linkid=865398). 
   
 ## Add and remove admins on a OneDrive account
 <a name="addremoveadmins"> </a>

@@ -20,7 +20,7 @@ description: "Learn how to use the SharePoint admin center to manage storage and
 
 # Manage site collection storage limits
 
-The amount of SharePoint Online space your organization has is based on your number of users (see [SharePoint Online Limits](https://go.microsoft.com/fwlink/p/?LinkID=856113)). If you're a global admin in Office 365, you can [Change storage space for your subscription](https://support.office.com/article/96ea3533-de64-4b01-839a-c560875a662c) if you run out. 
+The amount of SharePoint Online space your organization has is based on your number of users (see [SharePoint Online Limits](https://go.microsoft.com/fwlink/p/?LinkID=856113)). If you're a global admin in Office 365, you can [Change storage space for your subscription](/office365/admin/subscriptions-and-billing/add-storage-space?redirectSourcePath=%252farticle%252f96ea3533-de64-4b01-839a-c560875a662c&view=o365-worldwide) if you run out. 
   
 ## Use pooled storage
 <a name="__toc365547981"> </a>

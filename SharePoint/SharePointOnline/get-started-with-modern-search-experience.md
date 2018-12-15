@@ -58,4 +58,4 @@ Yes, if you have customized search. A classic site has a classic search box. For
 It’s possible, but it takes some effort to do this with classic search. It's better to use a hub site to oganize the sites. Hub sites use modern search boxes, which are scoped to search for news, people, files, and sites across all the sites that are associated with the hub. [Learn more about hub sites](https://support.office.com/article/what-is-a-sharepoint-hub-site-fe26ae84-14b7-45b6-a6d1-948b3966427f?).
 
 ### Can you use modern search in combination with cloud hybrid search?
-Yes. With [cloud hybrid search](https://docs.microsoft.com/sharepoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint), both on-premises and online content go into the same index, which both the classic and modern search experiences use.
+Yes. With [cloud hybrid search](/sharepoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint), both on-premises and online content go into the same index, which both the classic and modern search experiences use.

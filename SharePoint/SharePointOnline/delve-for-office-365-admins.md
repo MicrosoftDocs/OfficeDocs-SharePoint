@@ -37,7 +37,7 @@ Delve is designed to work with the current or immediately previous version of In
 ## Get new Delve features quicker
 <a name="BKMK_DelveFirstRelease"> </a>
 
-If you want to receive new functionality in Delve before it's made available in standard releases, you can opt in to the  *Targeted release*  program. You'll receive new feature updates a minimum of two weeks before customers in the  *Standard release*  program. To learn more, see [Office 365 release options](https://support.office.com/article/HA104204958). 
+If you want to receive new functionality in Delve before it's made available in standard releases, you can opt in to the  *Targeted release*  program. You'll receive new feature updates a minimum of two weeks before customers in the  *Standard release*  program. To learn more, see [Office 365 release options](/office365/admin/manage/release-options-in-office-365?redirectSourcePath=%252farticle%252fHA104204958&view=o365-worldwide). 
   
  **To opt in to the Targeted release program:**
   
@@ -84,7 +84,7 @@ Here are some resources that you can use to get your organization started with D
   
  **Before you announce Delve**
   
-- SharePoint Online and OneDrive for Business are the primary sources of content in Delve. How you and users manage permissions on documents and sites affects what users see in Delve. Check out [Overview: best practices for managing how people use your team site](https://support.office.com/article/95e83c3d-e1b0-4aae-9d08-e94dcaa4942e) and [Plan your permissions strategy](https://support.office.com/article/c6183e49-9287-4689-999e-0d3f817a41a3) for more information. 
+- SharePoint Online and OneDrive for Business are the primary sources of content in Delve. How you and users manage permissions on documents and sites affects what users see in Delve. Check out [Overview: best practices for managing how people use your team site](https://support.office.com/article/95e83c3d-e1b0-4aae-9d08-e94dcaa4942e) and [Plan your permissions strategy](/sharepoint/plan-your-permissions-strategy?redirectSourcePath=%252farticle%252fc6183e49-9287-4689-999e-0d3f817a41a3) for more information. 
     
  **Using Delve on a day-to-day basis**
   
@@ -182,7 +182,7 @@ There are a few things you should check if one or more users in your organizatio
     
   - Microsoft Office 365 Business Premium plus SharePoint Online (Plan 1 or Plan 2)
     
-    For more information on how to manage licenses, see [Assign licenses to users in Office 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
+    For more information on how to manage licenses, see [Assign licenses to users in Office 365 for business](/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide&tabs=One).
     
 ### Users see incorrect colleagues in Delve
 <a name="BKMK_DelveIncorrectColleague"> </a>
@@ -307,18 +307,18 @@ Admins
     
 - [Manage SharePoint Online user profiles from the SharePoint admin center](manage-user-profiles.md)
     
-- [Office 365 integration with on-premises environments](https://support.office.com/article/263faf8d-aa21-428b-aed3-2021837a4b65)
+- [Office 365 integration with on-premises environments](/office365/enterprise/office-365-integration?redirectSourcePath=%252farticle%252f263faf8d-aa21-428b-aed3-2021837a4b65)
     
-- [User Account Management](https://technet.microsoft.com/library/office-365-user-account-management.aspx)
+- [User Account Management](/office365/servicedescriptions/office-365-platform-service-description/user-account-management)
     
-- [Directory synchronization roadmap](https://technet.microsoft.com/library/hh967642.aspx)
+- [Directory synchronization roadmap](/azure/active-directory/hybrid/whatis-hybrid-identity)
     
 - [Manage your Office 365 Video portal](https://support.office.com/article/c059465b-eba9-44e1-b8c7-8ff7793ff5da)
     
 - [Yammer - Admin Help](https://support.office.com/article/e1464355-1f97-49ac-b2aa-dd320b179dbe)
     
-- [Office 365 Plan Options](https://technet.microsoft.com/library/office-365-plan-options.aspx)
+- [Office 365 Plan Options](/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options)
     
-- [Set up the Standard or Targeted release options in Office 365](https://support.office.com/article/3b3adfa4-1777-4ff0-b606-fb8732101f47)
+- [Set up the Standard or Targeted release options in Office 365](/office365/admin/manage/release-options-in-office-365?redirectSourcePath=%252farticle%252f3b3adfa4-1777-4ff0-b606-fb8732101f47&view=o365-worldwide)
     
 
