@@ -95,7 +95,7 @@ Any automated workflows that were created with Microsoft Flow or SharePoint 2013
 
 ## Recommendations
 
-- If you're changing many UPNs within your organization, make the UPN changes in batches to manage the load on the system. Each SharePoint site to which a user has permission will need to be updated with the new UPN.
+- If you're changing many UPNs within your organization, make the UPN changes in batches to manage the load on the system.
 
 - If possible, apply changes before a weekend or during non-peak hours to allow time for the change to propagate and not interfere with your users' work.
   
