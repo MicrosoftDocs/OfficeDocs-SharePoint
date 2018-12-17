@@ -21,7 +21,7 @@ description: "Learn how to manage your user's self-service site creation."
 
 As a SharePoint admin or Office 365 global admin, you can let your users create and administer their own SharePoint sites, determine what kind of sites they can create, and specify the location of the sites. By default, users can create communication sites as well as team sites that include [Learn about Office 365 groups](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2).
   
-Some functionality is introduced gradually to organizations that have signed up for the [Targeted release option](https://support.office.com/article/3b3adfa4-1777-4ff0-b606-fb8732101f47). This means that you might not yet see this feature or it might look different than what is described in this article.
+Some functionality is introduced gradually to organizations that have signed up for the [Targeted release option](/office365/admin/manage/release-options-in-office-365). This means that you might not yet see this feature or it might look different than what is described in this article.
   
 ## Allow or prevent users from creating sites and subsites in SharePoint Online
 

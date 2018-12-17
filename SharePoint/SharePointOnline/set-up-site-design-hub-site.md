@@ -41,7 +41,7 @@ Grant-SPOSiteDesignRights
   -Rights View 
 ```
 
-Replace <ID> with the site script ID from when you added the site script.
+Replace <ID> with the site design ID from when you added the site script.
 
 ## 3. Set your site design for the hub site 
 You can set the hub site design in two ways. You can do it using the following PowerShell command: 

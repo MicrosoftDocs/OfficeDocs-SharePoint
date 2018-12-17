@@ -126,7 +126,7 @@ FTo learn how to perform tasks in OneDrive on an iOS device, see [Use OneDrive f
 
 Many small businesses use OneDrive without changing any of the options.
 
-If want to add some basic device and sharing restrictions to OneDrive, you can use the OneDrive admin center. To access the new OneDrive admin center, go to <https://admin.onedrive.com>. There, you can restrict the people with whom your users can share files, choose the devices your employees can use to access OneDrive, and more.
+If you want to add some basic device and sharing restrictions to OneDrive, you can use the OneDrive admin center. To access the new OneDrive admin center, go to <https://admin.onedrive.com>. There, you can restrict the people with whom your users can share files, choose the devices your employees can use to access OneDrive, and more.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2CnSt]
 

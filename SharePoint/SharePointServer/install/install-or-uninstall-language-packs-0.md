@@ -120,6 +120,7 @@ SharePoint Servers 2016 and 2019 support the following languages:
 
 |**Language**|**Language tag**|**LCID**
 |:-----|:-----|:-----|:-----
+
 Arabic <br/>|ar-sa  <br/> | 1025 <br/>
 Azerbaijani <br/> |az-latn-az  <br/> |1068 <br/>
 Basque <br/> |eu-es  <br/> |1069 <br/>||
@@ -136,10 +137,10 @@ Dutch <br/> |nl-nl  <br/> |1043 <br/>||
 English <br/> |en-us  <br/> |1033 <br/>||
 Estonian <br/> |et-ee  <br/> |1061 <br/>||
 Finnish <br/> |fi-fi  <br/> |1035 <br/>||
-French <br/> |fr-fr  <br/> |1036 <br/>
+French <br/> |fr-fr  <br/> |1036 <br/>||
 Galician <br/> |gl-es  <br/> |1110 <br/>||
-German <br/> |bg-bg  <br/> |1030 <br/>||
-Greek <br/> |de-de  <br/> |1031 <br/>||
+German <br/> |de-de  <br/> |1031 <br/>||
+Greek <br/> |el-el  <br/> |1032 <br/>||
 Hebrew <br/> |he-il  <br/> |1037 <br/>||
 Hindi <br/> |hi-in  <br/> |1081 <br/>||
 Hungarian <br/> |hu-hu  <br/> |1038<br/>||
