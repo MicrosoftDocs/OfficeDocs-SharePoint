@@ -21,7 +21,7 @@ Electronic Discovery, or eDiscovery, is the discovery of content in electronic f
 The eDiscovery Center is a SharePoint site collection used to perform electronic discovery actions. In an eDiscovery Center, you can create cases, which are SharePoint sites that allow you to identify, hold, search, and export content from SharePoint sites, and searchable file shares.
   
 > [!NOTE]
->  Once you add content sources or queries to an eDiscovery case, changing the regional settings for the site is not supported. >  In order for content to be discovered, it must be crawled by search. For more information about the default file types that are crawled, see the article [Default crawled file name extensions and parsed file types in SharePoint Server 2013](https://technet.microsoft.com/en-us/library/jj219530.aspx). 
+>  Once you add content sources or queries to an eDiscovery case, changing the regional settings for the site is not supported. >  In order for content to be discovered, it must be crawled by search. For more information about the default file types that are crawled, see the article [Default crawled file name extensions and parsed file types in SharePoint Server 2013](/SharePoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types). 
   
 ## Planning and creating cases
 <a name="__top"> </a>
@@ -99,7 +99,7 @@ If you anticipate managing multiple cases in your eDiscovery Center, consider wh
     
 13. Click **Save**.
     
-For more information, see [Add content to a case and place sources on hold in the eDiscovery Center](https://support.office.com/article/54d70de9-1ec2-4325-84f3-aeb588554479).
+For more information, see [Add content to a case and place sources on hold in the eDiscovery Center](/SharePoint/governance/add-content-to-a-case-and-place-sources-on-hold-in-the-ediscovery-center?redirectSourcePath=%252farticle%252f54d70de9-1ec2-4325-84f3-aeb588554479).
   
   
 ## Run queries and export content
@@ -124,17 +124,17 @@ When you close a case, in-place holds will be released for all of its sources, a
 
 For more information about eDiscovery cases, see the following articles:
     
-[Add content to a case and place sources on hold in the eDiscovery Center](https://docs.microsoft.com/en-us/SharePoint/governance/add-content-to-a-case-and-place-sources-on-hold-in-the-ediscovery-center)
+[Add content to a case and place sources on hold in the eDiscovery Center](/SharePoint/governance/add-content-to-a-case-and-place-sources-on-hold-in-the-ediscovery-center)
   
-[Searching and using keywords in the eDiscovery Center](https://docs.microsoft.com/en-us/SharePoint/governance/searching-and-using-keywords-in-the-ediscovery-center)
+[Searching and using keywords in the eDiscovery Center](/SharePoint/governance/searching-and-using-keywords-in-the-ediscovery-center)
   
-[Default crawled file name extensions and parsed file types in SharePoint Server](https://docs.microsoft.com/en-us/SharePoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types)
+[Default crawled file name extensions and parsed file types in SharePoint Server](/SharePoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types)
   
-[Overview of crawled and managed properties in SharePoint Server](https://docs.microsoft.com/en-us/SharePoint/technical-reference/crawled-and-managed-properties-overview)
+[Overview of crawled and managed properties in SharePoint Server](/SharePoint/technical-reference/crawled-and-managed-properties-overview)
   
-[Create and run queries in the eDiscovery Center](https://docs.microsoft.com/en-us/SharePoint/governance/create-and-run-queries-in-the-ediscovery-center)
+[Create and run queries in the eDiscovery Center](/SharePoint/governance/create-and-run-queries-in-the-ediscovery-center)
   
-[Export content and create reports in the eDiscovery Center](https://docs.microsoft.com/en-us/SharePoint/governance/export-content-and-create-reports-in-the-ediscovery-center)
+[Export content and create reports in the eDiscovery Center](/SharePoint/governance/export-content-and-create-reports-in-the-ediscovery-center)
   
 
 

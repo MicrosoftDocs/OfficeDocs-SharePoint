@@ -26,7 +26,7 @@ This article contains guidance the SharePoint hybrid environment deployment proc
 ## Before you begin
 <a name="begin"> </a>
 
- **Accessibility note:**SharePoint Server supports the accessibility features of common browsers to help you administer deployments and access sites. For more information, see [Accessibility for SharePoint 2013](http://technet.microsoft.com/library/94ad4316-1077-400a-b17e-a2085a5a7312%28Office.14%29.aspx).
+ **Accessibility note:**SharePoint Server supports the accessibility features of common browsers to help you administer deployments and access sites. For more information, see [Accessibility for SharePoint 2013](/SharePoint/accessibility-guidelines).
   
 If you haven't already done this, read [Plan connectivity from Office 365 to SharePoint Server](plan-connectivity-from-office-365-to-sharepoint-server.md) before you start to configure anything.This is important because the planning article helps you make important decisions and record them on the [SharePoint hybrid deployment worksheet](https://go.microsoft.com/fwlink/?LinkId=391835), referred to in the rest of this article as the worksheet. This in turn informs which procedures in this article to use and which you can skip over.
   
@@ -188,7 +188,7 @@ Where:
     
 - The template (STS#0) is the Team Site template.
     
-For more information about how to create a web application and root site collection for a host-named site collection, see [Create claims-based web applications in SharePoint Server](http://technet.microsoft.com/library/83496762-172a-44a4-bf57-1d7ea8008d7d%28Office.14%29.aspx) and [Host-named site collection architecture and deployment in SharePoint Server](http://technet.microsoft.com/library/3ea30845-37e4-4a9e-badd-b1c8313e4bf3%28Office.14%29.aspx).
+For more information about how to create a web application and root site collection for a host-named site collection, see [Create claims-based web applications in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806885(v=office.14)) and [Host-named site collection architecture and deployment in SharePoint Server](/previous-versions/office/sharepoint-server-2010/cc424952(v=office.14)).
   
 #### Ensure that an SSL binding exists on the primary web application
 <a name="hnsc_sslbinding"> </a>
@@ -220,7 +220,7 @@ Where:
     
 - https://sharepoint is the web application that the site collection is created in. 
     
-For more information, see [Host-named site collection architecture and deployment in SharePoint Server](http://technet.microsoft.com/library/3ea30845-37e4-4a9e-badd-b1c8313e4bf3%28Office.14%29.aspx).
+For more information, see [Host-named site collection architecture and deployment in SharePoint Server](/previous-versions/office/sharepoint-server-2010/cc424952(v=office.14)).
   
 #### Configure split DNS
 <a name="hn_configdns"> </a>
@@ -265,7 +265,7 @@ For more information, see the [Choose a site collection strategy](plan-connectiv
 
 You can use an existing web application as the primary web application, or you can create one. You should have made this decision during planning and recorded it in the **New or existing web application** row of Table 2 of the worksheet. If you haven't made this decision yet, refer to [Plan connectivity from Office 365 to SharePoint Server](plan-connectivity-from-office-365-to-sharepoint-server.md) and decide before you go any further. Remember that when you configure a site collection strategy without AAM, the public URL of the primary web application must be identical to the External URL. 
   
-If during planning, you decided which existing web application to use as the primary web application, its URL should be recorded in the **Primary web application URL** row of Table 5b of the worksheet. If so, skip ahead to [Ensure that an SSL binding exists on the primary web application](configure-inbound-connectivity.md#ensuresslwoaam). Otherwise, to create a web application to use as the primary web application, use the procedures in [Create claims-based web applications in SharePoint Server](http://technet.microsoft.com/library/83496762-172a-44a4-bf57-1d7ea8008d7d%28Office.14%29.aspx).
+If during planning, you decided which existing web application to use as the primary web application, its URL should be recorded in the **Primary web application URL** row of Table 5b of the worksheet. If so, skip ahead to [Ensure that an SSL binding exists on the primary web application](configure-inbound-connectivity.md#ensuresslwoaam). Otherwise, to create a web application to use as the primary web application, use the procedures in [Create claims-based web applications in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806885(v=office.14)).
   
 In general, you should use the default settings. However, the following configuration settings are required.
   
@@ -341,7 +341,7 @@ The following video demonstrates how a site collection strategy works with a pat
 
 You can use an existing web application as the primary web application, or you can create one. If you haven't made this decision yet, refer to [Plan connectivity from Office 365 to SharePoint Server](plan-connectivity-from-office-365-to-sharepoint-server.md) and decide before you go any further. 
   
-If during planning, you decided which existing web application to use as the primary web application, its URL should be recorded in the **Primary web application URL** row of Table 5c of the worksheet. If so, skip ahead to [Extend the primary web application](configure-inbound-connectivity.md#waam_extendwebapp). Otherwise, to create a web application to use as the primary web application, use the procedures in [Create claims-based web applications in SharePoint Server](http://technet.microsoft.com/library/83496762-172a-44a4-bf57-1d7ea8008d7d%28Office.14%29.aspx). The SharePoint hybrid configuration is not affected by the initial configuration of this web application when you configure this site collection strategy. This is because you'll apply the settings that you need for hybrid when you extend the web application a bit later. So you can use any settings that you want when you create a web application.
+If during planning, you decided which existing web application to use as the primary web application, its URL should be recorded in the **Primary web application URL** row of Table 5c of the worksheet. If so, skip ahead to [Extend the primary web application](configure-inbound-connectivity.md#waam_extendwebapp). Otherwise, to create a web application to use as the primary web application, use the procedures in [Create claims-based web applications in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806885(v=office.14)). The SharePoint hybrid configuration is not affected by the initial configuration of this web application when you configure this site collection strategy. This is because you'll apply the settings that you need for hybrid when you extend the web application a bit later. So you can use any settings that you want when you create a web application.
   
 |||
 |:-----|:-----|

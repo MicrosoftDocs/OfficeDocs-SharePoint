@@ -27,6 +27,6 @@ Permissions control access to sites and site content. You can manage permissions
   
 ](https://go.microsoft.com/fwlink/?LinkID=786957)
 
-The following articles about how to plan security for sites and content are available here, [Get help with permissions in SharePoint](https://support.office.com/en-us/article/Get-help-with-permissions-in-SharePoint-87ecbb0e-6550-491a-8826-c075e4859848?ui=en-US&amp;rs=en-US&amp;ad=US).
+The following articles about how to plan security for sites and content are available here, [Get help with permissions in SharePoint](/sharepoint/understanding-permission-levels?redirectSourcePath=%252fen-us%252farticle%252fGet-help-with-permissions-in-SharePoint-87ecbb0e-6550-491a-8826-c075e4859848).
   
 

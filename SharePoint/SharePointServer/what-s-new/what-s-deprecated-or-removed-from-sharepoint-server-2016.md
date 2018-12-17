@@ -49,7 +49,7 @@ Earlier versions of SharePoint used ForeFront Identity Manager client (FIM) to s
   
 ### Excel Services in SharePoint
 
-Excel Services and its associated business intelligence capabilities are no longer hosted on SharePoint Server. Excel Services functionality is now part of Excel Online in Office Online Server (this is the next version of Office Web Apps Server), and SharePoint users can use the services from there. For more information, see [Office Online Server now available](https://blogs.office.com/2016/05/04/office-online-server-now-available/), [Office Online Server](http://technet.microsoft.com/library/e75c9827-f5ce-4099-a08c-b42fde72ea98.aspx), and [Configure Excel Online administrative settings](http://technet.microsoft.com/library/9cb81758-9d0b-4970-9ca0-a75eedf6093b.aspx).
+Excel Services and its associated business intelligence capabilities are no longer hosted on SharePoint Server. Excel Services functionality is now part of Excel Online in Office Online Server (this is the next version of Office Web Apps Server), and SharePoint users can use the services from there. For more information, see [Office Online Server now available](https://blogs.office.com/2016/05/04/office-online-server-now-available/), [Office Online Server](/webappsserver/office-web-apps-server), and [Configure Excel Online administrative settings](/SharePoint/administration/configure-excel-services).
   
 If you currently use Excel Services in SharePoint 2013 and upgrade to SharePoint Server 2016 you must also deploy Office Online Server with Excel Online to ensure Excel Services functionality remains available.
   

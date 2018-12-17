@@ -27,44 +27,45 @@ description: "Lists Stsadm operations and their equivalent PowerShell cmdlets."
 |||
 |:-----|:-----|
 |**Stsadm operation** <br/> |**Windows PowerShell cmdlet** <br/> |
-|**Activatefeature** <br/> |[Enable-SPFeature](http://technet.microsoft.com/library/9b68c192-b640-4cb8-8a92-a98008169b27.aspx) <br/> |
-|**Activateformtemplate** <br/> |[Enable-SPInfoPathFormTemplate](http://technet.microsoft.com/library/0f487359-a8dd-4128-83f2-d575df1325c6.aspx) <br/> |
-|**Addalternatedomain** <br/> |[New-SPAlternateUrl](http://technet.microsoft.com/library/450f057d-1cb8-4680-b28d-0db4d1b7e09c.aspx) <br/> |
-|**Addcontentdb** <br/> |[Mount-SPContentDatabase](http://technet.microsoft.com/library/20d1bc07-805c-44d3-a278-e2793370e237.aspx) <br/> [New-SPContentDatabase](http://technet.microsoft.com/library/18cf18cd-8fb7-4561-be71-41c767f27b51.aspx) <br/> |
-|**Addexemptuseragent** <br/> |[Add-SPInfoPathUserAgent](http://technet.microsoft.com/library/3870f83e-0f93-4c4f-9175-69aad8baad14.aspx) <br/> |
-|**Addpath** <br/> |[New-SPManagedPath](http://technet.microsoft.com/library/5d30deac-e368-4137-89b5-a20c0785b2a4.aspx) <br/> |
+|**Activatefeature** <br/> |[Enable-SPFeature](/powershell/module/sharepoint-server/Enable-SPFeature?view=sharepoint-ps) <br/> |
+|**Activateformtemplate** <br/> |[Enable-SPInfoPathFormTemplate](/powershell/module/sharepoint-server/Enable-SPInfoPathFormTemplate?view=sharepoint-ps) <br/> |
+|**Addalternatedomain** <br/> |[New-SPAlternateUrl](/powershell/module/sharepoint-server/New-SPAlternateUrl?view=sharepoint-ps) <br/> |
+|**Addcontentdb** <br/> |[Mount-SPContentDatabase](/powershell/module/sharepoint-server/mount-spcontentdatabase?view=sharepoint-ps) <br/> [New-SPContentDatabase](/powershell/module/sharepoint-server/New-SPContentDatabase?view=sharepoint-ps) <br/> |
+|**Addexemptuseragent** <br/> |[Add-SPInfoPathUserAgent](/powershell/module/sharepoint-server/Add-SPInfoPathUserAgent?view=sharepoint-ps) <br/> |
+|**Addpath** <br/> |[New-SPManagedPath](/powershell/module/sharepoint-server/New-SPManagedPath?view=sharepoint-ps) <br/> |
 |**Addpermissionpolicy** <br/> |None  <br/> |
-|**Addsolution** <br/> |[Add-SPSolution](http://technet.microsoft.com/library/0c64c1ac-39c0-4d5e-923f-27d0c48b006a.aspx) <br/> |
+|**Addsolution** <br/> |[Add-SPSolution](/powershell/module/sharepoint-server/Add-SPSolution?view=sharepoint-ps) <br/> |
 |**Addtemplate** <br/> |None  <br/> |
-|**Adduser** <br/> |[New-SPUser](http://technet.microsoft.com/library/b8d7f8df-d5df-4497-a55b-dbe56b1c6fbb.aspx) <br/> |
-|**Addwppack** <br/> |[Install-SPWebPartPack](http://technet.microsoft.com/library/b4245f30-c369-4b91-b4bd-1048a2abd384.aspx) <br/> |
-|**Addzoneurl** <br/> |[New-SPAlternateUrl](http://technet.microsoft.com/library/450f057d-1cb8-4680-b28d-0db4d1b7e09c.aspx) <br/> |
-|**Allowuserformwebserviceproxy** <br/> |[Set-SPInfoPathWebServiceProxy](http://technet.microsoft.com/library/c4e4639e-cfc0-4bf2-8f6a-de3e09c3080c.aspx) <br/> Use the **AllowForUserForms** and **Identity** parameters.  <br/> |
-|**Allowwebserviceproxy** <br/> |[Set-SPInfoPathWebServiceProxy](http://technet.microsoft.com/library/c4e4639e-cfc0-4bf2-8f6a-de3e09c3080c.aspx) <br/> Use the **AllowWebServiceProxy** and **Identity** parameters.  <br/> |
-|**Authentication** <br/> |[Set-SPWebApplication](http://technet.microsoft.com/library/0dd61e54-0e77-44b3-86c5-fabc128efa7b.aspx) <br/> Use the **AuthenticationMethod** or **AuthenticationProvider** parameters.  <br/> |
-|**Backup** <br/> |[Backup-SPConfigurationDatabase](http://technet.microsoft.com/library/28ddc176-1b7f-47dd-868f-39b7c403a900.aspx) <br/> [Backup-SPFarm](http://technet.microsoft.com/library/c37704b5-5361-4090-a84d-fcdd17bbe345.aspx) <br/> [Backup-SPSite](http://technet.microsoft.com/library/d4c31a1a-82a7-425f-b1bb-22e70bedd338.aspx) <br/> |
-|**Backuphistory** <br/> |[Get-SPBackupHistory](http://technet.microsoft.com/library/bc3a96db-3cc8-4991-a602-10204371047d.aspx) <br/> |
+|**Adduser** <br/> |[New-SPUser](/powershell/module/sharepoint-server/New-SPUser?view=sharepoint-ps) <br/> |
+|**Addwppack** <br/> |[Install-SPWebPartPack](/powershell/module/sharepoint-server/Install-SPWebPartPack?view=sharepoint-ps) <br/> |
+|**Addzoneurl** <br/> |[New-SPAlternateUrl](/powershell/module/sharepoint-server/New-SPAlternateUrl?view=sharepoint-ps) <br/> |
+|**Allowuserformwebserviceproxy** <br/> |[Set-SPInfoPathWebServiceProxy](/powershell/module/sharepoint-server/Set-SPInfoPathWebServiceProxy?view=sharepoint-ps) <br/> Use the **AllowForUserForms** and **Identity** parameters.  <br/> |
+|**Allowwebserviceproxy** <br/> |[Set-SPInfoPathWebServiceProxy](/powershell/module/sharepoint-server/Set-SPInfoPathWebServiceProxy?view=sharepoint-ps) <br/> Use the **AllowWebServiceProxy** and **Identity** parameters.  <br/> |
+|**Authentication** <br/> |[Set-SPWebApplication](/powershell/module/sharepoint-server/Set-SPWebApplication?view=sharepoint-ps) <br/> Use the **AuthenticationMethod** or **AuthenticationProvider** parameters.  <br/> |
+|**Backup** <br/> |[Backup-SPConfigurationDatabase](/powershell/module/sharepoint-server/Backup-SPConfigurationDatabase?view=sharepoint-ps) <br/> [Backup-SPFarm](/powershell/module/sharepoint-server/Backup-SPFarm?view=sharepoint-ps) <br/> [Backup-SPSite](/powershell/module/sharepoint-server/Backup-SPSite?view=sharepoint-ps) <br/> |
+|**Backuphistory** <br/> |[Get-SPBackupHistory](/powershell/module/sharepoint-server/Get-SPBackupHistory?view=sharepoint-ps) <br/> |
 |**Binddrservice** <br/> |None  <br/> |
 |**Blockedfilelist** <br/> |None  <br/> |
 |**Canceldeployment** <br/> |None  <br/> |
 |**Changepermissionpolicy** <br/> |None  <br/> |
 |**Copyappbincontent** <br/> |None  <br/> |
-|**Createadminvs** <br/> |[New-SPCentralAdministration](http://technet.microsoft.com/library/b51e3b8d-b3de-4c35-bcb7-c0ade288c0e4.aspx) <br/> |
+|**Createadminvs** <br/> |[New-SPCentralAdministration](/powershell/module/sharepoint-server/New-SPCentralAdministration?view=sharepoint-ps) <br/> |
 |**Creategroup** <br/> |None  <br/> |
-|**Createsite** <br/> |[New-SPSite](http://technet.microsoft.com/library/ebdadc86-0cda-49b7-a84a-5cfc6b4506b3.aspx) <br/> |
-|**Createsiteinnewdb** <br/> |[New-SPSite](http://technet.microsoft.com/library/ebdadc86-0cda-49b7-a84a-5cfc6b4506b3.aspx) Use the **ContentDatabase** parameter.  <br/> [New-SPContentDatabase](http://technet.microsoft.com/library/18cf18cd-8fb7-4561-be71-41c767f27b51.aspx) <br/> |
-|**Createweb** <br/> |[New-SPWeb](http://technet.microsoft.com/library/1ea28725-5b75-49f9-b69c-5ff0edf31459.aspx) <br/> |
+|**Createsite** <br/> |[New-SPSite](/powershell/module/sharepoint-server/New-SPSite?view=sharepoint-ps) <br/> |
+|**Createsiteinnewdb** <br/> |[New-SPSite](/powershell/module/sharepoint-server/New-SPSite?view=sharepoint-ps) Use the **ContentDatabase** parameter.  <br/> [New-SPContentDatabase](/powershell/module/sharepoint-server/New-SPContentDatabase?view=sharepoint-ps) <br/> |
+|**Createweb** <br/> |[New-SPWeb](/powershell/module/sharepoint-server/New-SPWeb?view=sharepoint-ps) <br/> |
 |**Databaserepair** <br/> |None  <br/> |
-|**Deactivatefeature** <br/> |[Disable-SPFeature](http://technet.microsoft.com/library/c10fbc69-088c-4e49-9005-fde54c035f23.aspx) <br/> |
-|**Deactivateformtemplate** <br/> |[Disable-SPInfoPathFormTemplate](http://technet.microsoft.com/library/1e8e306a-4a37-4fae-a9ef-551c0c9b8b72.aspx) <br/> |
+|**Deactivatefeature** <br/> |[Disable-SPFeature](/powershell/module/sharepoint-server/Disable-SPFeature?view=sharepoint-ps) <br/> |
+|**Deactivateformtemplate** <br/> |[Disable-SPInfoPathFormTemplate](/powershell/module/sharepoint-server/Disable-SPInfoPathFormTemplate?view=sharepoint-ps) <br/> |
 |**Deleteadminvs** <br/> |None  <br/> |
-|**Deletealternatedomain** <br/> |[Remove-SPAlternateUrl](http://technet.microsoft.com/library/25af02dd-ae9f-4ec0-a099-3c6cd38f2187.aspx) <br/> |
-|**Deleteconfigdb** <br/> |[Remove-SPConfigurationDatabase](http://technet.microsoft.com/library/10bab257-a628-4632-8d2f-7bb48bff8a4a.aspx) <br/> |
-|**Deletecontentdb** <br/> |[Dismount-SPContentDatabase](http://technet.microsoft.com/library/89eea901-8d3f-4d4d-9638-941a1cafe259.aspx) <br/> |
+|**Deletealternatedomain** <br/> |[Remove-SPAlternateUrl](/powershell/module/sharepoint-server/Remove-SPAlternateUrl?view=sharepoint-ps) <br/> |
+|**Deleteconfigdb** <br/> |[Remove-SPConfigurationDatabase](/powershell/module/sharepoint-server/Remove-SPConfigurationDatabase?view=sharepoint-ps) <br/> |
+|**Deletecontentdb** <br/> |[Dismount-SPContentDatabase](/powershell/module/sharepoint-server/Dismount-SPContentDatabase?view=sharepoint-ps
+) <br/> |
 |**Deletegroup** <br/> |None  <br/> |
-|**Deletepath** <br/> |[Remove-SPManagedPath](http://technet.microsoft.com/library/6b6daf4a-4102-4583-9da7-9f0433d87b19.aspx) <br/> |
+|**Deletepath** <br/> |[Remove-SPManagedPath](/powershell/module/sharepoint-server/Remove-SPManagedPath?view=sharepoint-ps) <br/> |
 |**Deletepermissionpolicy** <br/> |None  <br/> |
-|**Deletesite** <br/> |[Remove-SPSite](http://technet.microsoft.com/library/f2c49315-8eed-49ec-8a32-dc15a008d0dc.aspx) <br/> |
+|**Deletesite** <br/> |[Remove-SPSite](/powershell/module/sharepoint-server/Remove-SPSite?view=sharepoint-ps) <br/> |
 |**Deletesolution** <br/> |[Remove-SPSolution](http://technet.microsoft.com/library/862985c6-480b-49e7-926b-8497235bcba2.aspx) <br/> |
 |**Deletetemplate** <br/> |None  <br/> |
 |**Deleteuser** <br/> |[Remove-SPUser](http://technet.microsoft.com/library/cc60e125-781c-45bb-8e91-896fe8a230c1.aspx) <br/> |

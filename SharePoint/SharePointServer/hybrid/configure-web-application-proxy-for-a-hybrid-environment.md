@@ -24,7 +24,7 @@ This article describes Web Application Proxy and helps you set it up to use as a
   
 ## Before you begin
 
- **Accessibility note:** SharePoint Server supports the accessibility features of common browsers to help you administer deployments and access sites. For more information, see [Accessibility for SharePoint 2013](http://technet.microsoft.com/library/94ad4316-1077-400a-b17e-a2085a5a7312%28Office.14%29.aspx).
+ **Accessibility note:** SharePoint Server supports the accessibility features of common browsers to help you administer deployments and access sites. For more information, see [Accessibility for SharePoint 2013](/SharePoint/accessibility-guidelines).
   
 ## About Web Application Proxy in a hybrid environment
 
@@ -40,9 +40,9 @@ In hybrid SharePoint Server environments in which SharePoint Online requests dat
   
 ## Step 1: Install AD FS and the Web Application Proxy feature
 
-For information about installing AD FS in Windows Server 2012 R2, see [Active Directory Federation Services Overview](https://technet.microsoft.com/en-us/library/hh831502.aspx).
+For information about installing AD FS in Windows Server 2012 R2, see [Active Directory Federation Services Overview](/windows-server/identity/active-directory-federation-services).
   
-For information about installing the Web Application Proxy feature in Windows Server 2012 R2, see [Install Server Roles and Features on a Server Core Server](https://technet.microsoft.com/en-us/library/jj574158.aspx).
+For information about installing the Web Application Proxy feature in Windows Server 2012 R2, see [Install Server Roles and Features on a Server Core Server](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj574158(v=ws.11)).
   
 ## Step 2: Configure the Web Application Proxy
 
@@ -63,7 +63,7 @@ You must import the Secure Channel SSL certificate into the Personal store of th
 |:-----|:-----|
 |![Edit icon](../media/mod_icon_edit_m.png)|The location of the **Secure Channel SSL certificate** is recorded in **Row 1** (Secure Channel SSL Certificate location and Filename) of **Table 4b: Secure Channel SSL Certificate**.  <br/> If the certificate contains a private key, you will need to provide the certificate password, which is recorded in **Row 4** (Secure Channel SSL Certificate password) of **Table 4b: Secure Channel SSL Certificate**.  <br/> |
    
-For information about how to import an SSL certificate, see [Import a Certificate](https://technet.microsoft.com/en-us/library/cc754489.aspx).
+For information about how to import an SSL certificate, see [Import a Certificate](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc754489(v=ws.11)).
   
 ### Configure the published application
 
@@ -98,7 +98,7 @@ Where:
 |:-----|:-----|
 |![Edit icon](../media/mod_icon_edit_m.png)|This is the thumbprint of the **Secure Channel SSL certificate**. The location of this certificate file is recorded in **Row 1** (Secure Channel SSL Certificate location and Filename) of **Table 4b: Secure Channel SSL Certificate**. |
    
-For additional information about the **Add-WebApplicationProxyApplication** cmdlet, see [Add-WebApplicationProxyApplication](https://technet.microsoft.com/en-us/library/dn283409%28v=wps.630%29.aspx).
+For additional information about the **Add-WebApplicationProxyApplication** cmdlet, see [Add-WebApplicationProxyApplication](/previous-versions/windows/powershell-scripting/dn283409(v=wps.630)).
   
 ## Validate the published application
 
@@ -136,7 +136,7 @@ The output should resemble the content in the following table.
 
 Web Application Proxy logs events and errors to the Application and Remote Access Windows Server event logs. Logging plays an important role in troubleshooting issues with connectivity and authentication between SharePoint Server and SharePoint Online. Identifying the component that is causing a connection failure can be challenging, and reverse proxy logs are the first place you should look for clues. Troubleshooting can involve comparing log events from Web Application Proxy event logs, SharePoint Server ULS logs, Windows Server event logs, and Internet Information Services (IIS) logs on multiple servers.
   
-For more information on troubleshooting techniques and tools for SharePoint Server hybrid environments, see [Troubleshooting hybrid environments](http://technet.microsoft.com/library/f8839959-90ba-4df6-811e-b85274ef0e12%28Office.14%29.aspx).
+For more information on troubleshooting techniques and tools for SharePoint Server hybrid environments, see [Troubleshooting hybrid environments](/SharePoint/hybrid/hybrid).
   
 ## See also
 <a name="troubleshooting"> </a>

@@ -46,7 +46,7 @@ The product servicing policy timeline for SharePoint Server 2019 is described in
   
  **﻿Question:** Where can I find the Public Updates for SharePoint Server 2019? 
   
- **﻿Answer:** The current list of Public Updates for SharePoint Server 2019 can be found in our [SharePoint Updates](https://docs.microsoft.com/officeupdates/sharepoint-updates) article. 
+ **﻿Answer:** The current list of Public Updates for SharePoint Server 2019 can be found in our [SharePoint Updates](/officeupdates/sharepoint-updates) article. 
   
  **﻿Question:** Do the monthly Public Updates contain all of the fixes included in the previous Public Updates? 
   

@@ -44,9 +44,9 @@ Perform the following steps:
     
 2. Configure a trust relationship between SharePoint Server and Exchange Server. For information about the trust relationship, see [Plan for server-to-server authentication in SharePoint Server](../security-for-sharepoint-server/plan-server-to-server-authentication.md).
     
-3. If you want content from Skype for Business Server to be discoverable, configure the server to archive to Exchange Server 2016. For information about how to configure Skype for Business Server 2015 archiving, see [Configure Skype for Business Server 2015 to use Exchange Server archiving](https://technet.microsoft.com/en-us/library/jj679896.aspx).
+3. If you want content from Skype for Business Server to be discoverable, configure the server to archive to Exchange Server 2016. For information about how to configure Skype for Business Server 2015 archiving, see [Configure Skype for Business Server 2015 to use Exchange Server archiving](/skypeforbusiness/deploy/integrate-with-exchange-server/use-exchange-archiving).
 
-4. If you want SharePoint Server 2019 users to link to and share documents that are stored in OneDrive for Business instead of attaching file to Outlook messages, see the [Document collaboration](https://docs.microsoft.com/en-us/Exchange/new-features/new-features?view=exchserver-2019#document-collaboration) section in **What's new in Exchange Server**.
+4. If you want SharePoint Server 2019 users to link to and share documents that are stored in OneDrive for Business instead of attaching file to Outlook messages, see the [Document collaboration](/Exchange/new-features/new-features?view=exchserver-2019#document-collaboration) section in **What's new in Exchange Server**.
     
 5. Perform the eDiscovery configuration steps for Exchange. For information about how to configure Exchange Server 2013 for eDiscovery, see [Integration with SharePoint](https://go.microsoft.com/fwlink/?linkid=857898).
     
@@ -71,7 +71,7 @@ We recommend that you create a security group to contain all users of the eDisco
     > [!NOTE]
     > When you change permissions at the web application level, Search re-crawls all of the content in the web application. 
   
-2. If you will grant permissions at the site collection level, make the security group a site collection administrator for each site collection that contains discoverable content. For information about how to add a site collection administrator, see [Add, change, or remove a site collection administrator](https://support.office.com/en-US/article/Create-and-manage-SharePoint-groups-B1E3CD23-1A78-4264-9284-87FED7282048).
+2. If you will grant permissions at the site collection level, make the security group a site collection administrator for each site collection that contains discoverable content. For information about how to add a site collection administrator, see [Add, change, or remove a site collection administrator](/sharepoint/customize-sharepoint-site-permissions?redirectSourcePath=%252fen-US%252farticle%252fCreate-and-manage-SharePoint-groups-B1E3CD23-1A78-4264-9284-87FED7282048).
     
     > [!IMPORTANT]
     > A site collection administrator must add the security group as an additional site collection administrator by using the **Site Settings** menu. You cannot use Central Administration to make a security group a site collection administrator 
@@ -80,7 +80,7 @@ We recommend that you create a security group to contain all users of the eDisco
     
 4. If you will use a SharePoint eDiscovery Center to discover content in Exchange Server, grant the security group permissions to access Exchange Server mailboxes. For information about how to grant permissions in Exchange, see [Integration with SharePoint](https://go.microsoft.com/fwlink/?linkid=857898).
     
-5. Grant the security group permissions to view the crawl log. For information about how to grant permissions to access the crawl log, see [Set-SPEnterpriseSearchCrawlLogReadPermission](http://technet.microsoft.com/library/ff291003-4189-497e-9236-16c8333a4075.aspx).
+5. Grant the security group permissions to view the crawl log. For information about how to grant permissions to access the crawl log, see [Set-SPEnterpriseSearchCrawlLogReadPermission](/powershell/module/sharepoint-server/Set-SPEnterpriseSearchCrawlLogReadPermission?view=sharepoint-ps).
     
 ## Create an eDiscovery center
 <a name="create-eDC"> </a>
@@ -96,6 +96,6 @@ An eDiscovery Center is a site collection from which users can create and manage
   
 [Configure eDiscovery in SharePoint Server](configure-ediscovery-0.md)
 
-[Search and place a hold on public folders using In-Place eDicovery](https://docs.microsoft.com/en-us/Exchange/policy-and-compliance/ediscovery/search-public-folders?view=exchserver-2019)
+[Search and place a hold on public folders using In-Place eDicovery](/Exchange/policy-and-compliance/ediscovery/search-public-folders?view=exchserver-2019)
 
-[Assign eDiscovery permissions in Exchange Server](https://docs.microsoft.com/en-us/Exchange/policy-and-compliance/ediscovery/assign-permissions?view=exchserver-2019)
+[Assign eDiscovery permissions in Exchange Server](/Exchange/policy-and-compliance/ediscovery/assign-permissions?view=exchserver-2019)

@@ -37,7 +37,7 @@ Because My Sites have dependencies on other service applications and features in
 ### Web application
 <a name="webapp"> </a>
 
-Although you can use an existing web application, for optimal performance and security, we recommend that you create the My Site host site collection in a dedicated web application. For more information, see [Create a web application in SharePoint Server](http://technet.microsoft.com/library/121c8d83-a508-4437-978b-303096aa59df%28Office.14%29.aspx).
+Although you can use an existing web application, for optimal performance and security, we recommend that you create the My Site host site collection in a dedicated web application. For more information, see [Create a web application in SharePoint Server](/previous-versions/office/sharepoint-server-2010/cc261875(v=office.14)).
   
 > [!IMPORTANT]
 > If a My Site host site collection was created during initial deployment and configuration, we recommend that you do not use it because it was created in the default web application. Delete this site collection, and create a new web application that is dedicated to hosting My Sites. Then create a new My Site host site collection in the dedicated web application. 

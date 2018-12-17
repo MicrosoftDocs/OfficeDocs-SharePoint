@@ -107,7 +107,7 @@ An alternative to manually installing a web part to the Bin folder or manually c
   
  **To deploy the web part by using Microsoft PowerShell**
   
-1. Verify that you meet the following minimum requirements: See [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/add-spshelladmin).
+1. Verify that you meet the following minimum requirements: See [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
     
 2. Open SharePoint Management Shell.
     
@@ -123,7 +123,7 @@ An alternative to manually installing a web part to the Bin folder or manually c
     
    -  _\<WebPartName\>_ is the name of the web part that is being deployed. 
     
-The previous procedure shows a common way to use **Install-SPWebPartPack** to deploy a web part. You can specify additional parameters to change the way the web part is deployed. For more information, see [Install-SPWebPartPack](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Install-SPWebPartPack?view=sharepoint-ps). 
+The previous procedure shows a common way to use **Install-SPWebPartPack** to deploy a web part. You can specify additional parameters to change the way the web part is deployed. For more information, see [Install-SPWebPartPack](/powershell/module/sharepoint-server/Install-SPWebPartPack?view=sharepoint-ps). 
 
 We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions.
   

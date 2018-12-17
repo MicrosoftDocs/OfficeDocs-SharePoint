@@ -103,7 +103,7 @@ To save a modified theme, create a new list item in the composed looks list that
 ### Upload your own Composed Looks files to the theme gallery
 <a name="Section2c"> </a>
 
-You can create custom themes by creating additional color palettes and font schemes and uploading them to the theme gallery. The new color palettes and font schemes are then available to you when you choose to modify a design in the design gallery. Similarly, if you want to have additional site layouts to choose from, you can upload additional master pages, and corresponding preview files, to the master page gallery. For more information, see [SharePoint site theming](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/site-theming/sharepoint-site-theming-overview).
+You can create custom themes by creating additional color palettes and font schemes and uploading them to the theme gallery. The new color palettes and font schemes are then available to you when you choose to modify a design in the design gallery. Similarly, if you want to have additional site layouts to choose from, you can upload additional master pages, and corresponding preview files, to the master page gallery. For more information, see [SharePoint site theming](/sharepoint/dev/declarative-customization/site-theming/sharepoint-site-theming-overview).
   
 You can create new designs by creating new list items in the composed looks list. Create a new list item and specify the master page, color palette, font scheme, and background image for the new design.
   

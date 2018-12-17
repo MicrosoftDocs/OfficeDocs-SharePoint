@@ -23,7 +23,7 @@ The OneDrive for Business modern user experience requires an active [Software As
   
  **Turn the OneDrive for Business modern user experience off**
   
-Make sure you have [permissions to administer SharePoint Server with Windows PowerShell](https://technet.microsoft.com/EN-US/library/ee806878%28v=office.16%29.aspx), and log in to a server in your SharePoint farm. Open the SharePoint 2016 Management Shell as administrator and run the following script:
+Make sure you have [permissions to administer SharePoint Server with Windows PowerShell](/powershell/module/sharepoint-server/?view=sharepoint-ps), and log in to a server in your SharePoint farm. Open the SharePoint 2016 Management Shell as administrator and run the following script:
   
 ```
 $Farm = Get-SPFarm
@@ -34,7 +34,7 @@ $Farm.Update()
 
  **Turn the OneDrive for Business modern user experience on**
   
-Make sure you have [permissions to administer SharePoint Server with Windows PowerShell](https://technet.microsoft.com/EN-US/library/ee806878%28v=office.16%29.aspx), and log in to a server in your SharePoint farm. Open the SharePoint 2016 Management Shell as administrator and run the following script:
+Make sure you have [permissions to administer SharePoint Server with Windows PowerShell](/powershell/module/sharepoint-server/?view=sharepoint-ps), and log in to a server in your SharePoint farm. Open the SharePoint 2016 Management Shell as administrator and run the following script:
   
 ```
 $Farm = Get-SPFarm

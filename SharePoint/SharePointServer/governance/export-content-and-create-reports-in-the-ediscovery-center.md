@@ -101,7 +101,7 @@ In Microsoft Excel, you can examine the contents further by sorting and filterin
 
 For more information about eDiscovery cases, see the following articles:
   
-[Scenario: eDiscovery in SharePoint Server 2013 and Exchange Server 2013](https://technet.microsoft.com/en-us/sharepoint/jj650012)
+[Scenario: eDiscovery in SharePoint Server 2013 and Exchange Server 2013](/sharepoint/)
   
 [Plan and manage cases in the eDiscovery Center](http://technet.microsoft.com/library/d955aeb8-0d48-4291-a8e2-f3b84f17943f%28Office.14%29.aspx)
   
@@ -109,9 +109,9 @@ For more information about eDiscovery cases, see the following articles:
   
 [Searching and using keywords in the eDiscovery Center](searching-and-using-keywords-in-the-ediscovery-center.md)
   
-[Default crawled file name extensions and parsed file types in SharePoint Server 2013](https://technet.microsoft.com/en-us/library/jj219530.aspx)
+[Default crawled file name extensions and parsed file types in SharePoint Server 2013](/SharePoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types)
   
-[Overview of crawled and managed properties in SharePoint Server 2013](https://technet.microsoft.com/en-us/library/jj219630.aspx)
+[Overview of crawled and managed properties in SharePoint Server 2013](/SharePoint/technical-reference/crawled-and-managed-properties-overview)
   
 [Create and run queries in the eDiscovery Center](create-and-run-queries-in-the-ediscovery-center.md)
   

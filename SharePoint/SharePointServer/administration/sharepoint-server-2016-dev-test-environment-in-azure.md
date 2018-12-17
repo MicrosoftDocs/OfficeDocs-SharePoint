@@ -44,7 +44,7 @@ There are three major phases to setting up this dev/test environment:
 In this phase, you create a new Azure virtual network and a domain controller with Azure PowerShell. You run the PowerShell commands from a Windows PowerShell command prompt or in the PowerShell Integrated Script Environment (ISE) on your local computer. 
   
 > [!NOTE]
-> The following command sets use the latest version of Azure PowerShell. See [Get started with Azure PowerShell cmdlets](https://docs.microsoft.com/powershell/azureps-cmdlets-docs/). 
+> The following command sets use the latest version of Azure PowerShell. See [Get started with Azure PowerShell cmdlets](/powershell/azure/overview?view=azurermps-6.13.0). 
   
 First, sign into your Azure account.
   
@@ -464,4 +464,4 @@ Start-AzureRMVM -Name spVM -ResourceGroupName $rgName
   
 [Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](deploying-sharepoint-server-2016-with-sql-server-alwayson-availability-groups-in.md)
 
-[Cloud adoption Test Lab Guides (TLGs)](https://technet.microsoft.com/library/dn635308.aspx) 
+[Cloud adoption Test Lab Guides (TLGs)](/office365/enterprise/cloud-adoption-test-lab-guides-tlgs) 

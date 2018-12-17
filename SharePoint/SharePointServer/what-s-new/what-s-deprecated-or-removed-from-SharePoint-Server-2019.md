@@ -105,17 +105,17 @@ The following features and functionality have been removed in SharePoint Server 
 
 ### Code-Based Sandbox Solutions
 
-As announced in the Microsoft Office Dev Center and previous articles, code-based sandbox solutions were deprecated in SharePoint Server 2013 and have now been [removed](https://technet.microsoft.com/en-us/library/ff607742.aspx) in SharePoint Online. After careful consideration, we’ve decided to also remove support for code-based sandbox solutions in SharePoint Server 2019. Customers are recommended to explore [SharePoint add-ins](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/sharepoint-add-ins) as an alternative, which are fully supported for both SharePoint on-premises and SharePoint Online.
+As announced in the Microsoft Office Dev Center and previous articles, code-based sandbox solutions were deprecated in SharePoint Server 2013 and have now been [removed](/sharepoint/what-s-new/what-s-new) in SharePoint Online. After careful consideration, we’ve decided to also remove support for code-based sandbox solutions in SharePoint Server 2019. Customers are recommended to explore [SharePoint add-ins](/sharepoint/dev/sp-add-ins/sharepoint-add-ins) as an alternative, which are fully supported for both SharePoint on-premises and SharePoint Online.
 
 ### Digest Authentication
 
-As announced by the Windows Server team, Microsoft is [deprecating](https://docs.microsoft.com/windows-server/get-started/removed-features-1709) the Digest authentication feature in Internet Information Services (IIS). This authentication mechanism isn’t very popular and there are many alternative authentication mechanisms available with better interoperability.
+As announced by the Windows Server team, Microsoft is [deprecating](/windows-server/get-started/removed-features-1709) the Digest authentication feature in Internet Information Services (IIS). This authentication mechanism isn’t very popular and there are many alternative authentication mechanisms available with better interoperability.
 
 To ensure we remain compatible with potential future releases of Windows Server, we are removing support for Digest authentication in SharePoint Server 2019. The SharePoint prerequisite installer will no longer attempt to install this Windows feature. Customers using Digest authentication are recommended to explore alternatives such as Kerberos, NTLM, or SAML.
 
 ### Incoming email automatic mode
 
-As announced by the Windows Server team, Microsoft is [deprecating](https://docs.microsoft.com/windows-server/get-started/removed-features-1709) the IIS 6 Management compatibility features in Internet Information Services (IIS). The automatic mode of the SharePoint incoming email feature relies on IIS 6 APIs to manage the IIS SMTP service. Because no alternative APIs exist to manage the IIS SMTP service, we are removing support for automatic mode in the incoming email feature of SharePoint Server 2019. Customers using incoming email are recommended to use advanced mode instead, which allows you to manually manage the IIS SMTP service and drop folder.
+As announced by the Windows Server team, Microsoft is [deprecating](/windows-server/get-started/removed-features-1709) the IIS 6 Management compatibility features in Internet Information Services (IIS). The automatic mode of the SharePoint incoming email feature relies on IIS 6 APIs to manage the IIS SMTP service. Because no alternative APIs exist to manage the IIS SMTP service, we are removing support for automatic mode in the incoming email feature of SharePoint Server 2019. Customers using incoming email are recommended to use advanced mode instead, which allows you to manually manage the IIS SMTP service and drop folder.
 
 ### Multi-Tenancy
 

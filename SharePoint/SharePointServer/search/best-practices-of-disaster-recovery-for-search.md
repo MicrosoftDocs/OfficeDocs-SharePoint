@@ -330,11 +330,11 @@ For additional information, we recommend that you use the following resources.
     
 In addition to the options that are provided in these articles and in this paper, there are other methods that you can use to back up and restore the search service application in SharePoint Server. These methods are more fine grained and involve independently restoring the search indexes and search databases to a new farm. We haven't covered these steps, but if you are considering a scripted approach, we recommend that you start by reviewing the following resources.
   
-- [Get-SPEnterpriseSearchServiceApplicationBackupStore](https://technet.microsoft.com/en-us/library/jj219725%28v=office.16%29.aspx)
+- [Get-SPEnterpriseSearchServiceApplicationBackupStore](/powershell/module/sharepoint-server/Get-SPEnterpriseSearchServiceApplicationBackupStore?view=sharepoint-ps)
     
-- [Restore-SPEnterpriseSearchServiceApplication](https://technet.microsoft.com/en-us/library/ff608131%28v=office.16%29.aspx)
+- [Restore-SPEnterpriseSearchServiceApplication](/powershell/module/sharepoint-server/Restore-SPEnterpriseSearchServiceApplication?view=sharepoint-ps)
     
-- [Restore-SPEnterpriseSearchServiceApplicationIndex](https://technet.microsoft.com/en-us/library/jj219649%28v=office.16%29.aspx)
+- [Restore-SPEnterpriseSearchServiceApplicationIndex](/powershell/module/sharepoint-server/Restore-SPEnterpriseSearchServiceApplicationIndex?view=sharepoint-ps)
     
 - [Back up and restore a search service application in SharePoint 2013 using VSS](http://go.microsoft.com/fwlink/?LinkID=506745&amp;clcid=0x409). .
     
