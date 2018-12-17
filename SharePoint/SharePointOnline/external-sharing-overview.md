@@ -126,3 +126,5 @@ SharePoint Online extranet sites are very easy to set up and much easier and les
   
 [Searching for site content shared with external users](https://go.microsoft.com/fwlink/?LinkId=620778)
 
+[Secure external sharing recipient experience](https://docs.microsoft.com/en-us/sharepoint/what-s-new-in-sharing-in-targeted-release)
+
