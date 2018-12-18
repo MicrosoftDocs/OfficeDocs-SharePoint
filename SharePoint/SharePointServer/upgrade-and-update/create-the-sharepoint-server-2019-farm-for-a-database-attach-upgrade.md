@@ -73,7 +73,7 @@ You also have to turn off or remove services or components in the SharePoint Ser
 ## Record the passphrase for the Secure Store service application
 <a name="passphrase"> </a>
 
-The Secure Store service application uses a passphrase to encrypt information. You have to know what this passphrase is so that you can use it in the new environment. Otherwise, you will not have access to the information in the Secure Store. If you do not know the passphrase, you can refresh the key, and then back up the Secure Store database. For more information, see **Work with encryption keys** in [ Configure the Secure Store Service in SharePoint Server ](https://docs.microsoft.com/en-us/SharePoint/administration/configure-the-secure-store-service).
+The Secure Store service application uses a passphrase to encrypt information. You have to know what this passphrase is so that you can use it in the new environment. Otherwise, you will not have access to the information in the Secure Store. If you do not know the passphrase, you can refresh the key, and then back up the Secure Store database. For more information, see **Work with encryption keys** in [ Configure the Secure Store Service in SharePoint Server ](/SharePoint/administration/configure-the-secure-store-service).
   
 ## Install SharePoint Server 2019 in a new environment
 <a name="Install"> </a>

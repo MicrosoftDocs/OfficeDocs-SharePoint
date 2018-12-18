@@ -55,7 +55,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: The Stat
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -65,6 +65,6 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: The Stat
   Enable-SPTimerJob StateServiceExpiredSessionJobDefinition
   ```
 
-For more information, see [Enable-SPTimerJob](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/enable-sptimerjob?view=sharepoint-ps). We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions.
+For more information, see [Enable-SPTimerJob](/powershell/module/sharepoint-server/enable-sptimerjob?view=sharepoint-ps). We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions.
   
 
