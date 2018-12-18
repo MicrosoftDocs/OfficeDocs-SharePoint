@@ -471,9 +471,9 @@ On the non-functioning Distributed Cache host, use the following procedures to r
   - At the SharePoint Management Shell command prompt, type the following syntax.
     
 ```
-PS C:\>$instanceName ="SPDistributedCacheService Name=AppFabricCachingService"
-PS C:\>$serviceInstance = Get-SPServiceInstance | ? {($_.service.tostring()) -eq $instanceName -and ($_.server.name) -eq $env:computername}
-PS C:\>If($serviceInstance -ne $null)
+$instanceName ="SPDistributedCacheService Name=AppFabricCachingService"
+$serviceInstance = Get-SPServiceInstance | ? {($_.service.tostring()) -eq $instanceName -and ($_.server.name) -eq $env:computername}
+If($serviceInstance -ne $null)
 >> { $serviceInstance.Delete() }
 ```
 
