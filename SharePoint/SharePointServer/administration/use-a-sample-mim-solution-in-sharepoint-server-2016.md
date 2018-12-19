@@ -72,7 +72,7 @@ Once you've downloaded the solution files and cataloged the configuration detail
   
 The configuration is installed by loading SharePointSync.psm1 and calling Install-SharePointSyncConfiguration as shown in the following code.
   
-```XML
+```PowerShell
 ### Load the SharePoint Sync Module
 Import-Module C:\SharePointSync\SharePointSync.psm1 -Force
 ### Install the SharePoint Sync Configuration
@@ -92,7 +92,7 @@ Install-SharePointSyncConfiguration `
 
 Once the synchronization configuration is installed, it's ready to be started. Before you make further changes, you can examine the impact your synchronization will have by running the Start-SharePointSync cmdlet with '-WhatIf'.
   
-```XML
+```PowerShell
 ### Run the Synchronization Service management agents
 Start-SharePointSync -WhatIf -Verbose 
 
@@ -105,7 +105,7 @@ Start-SharePointSync -WhatIf -Verbose
 
 To start the SharePoint Server synchronization service on-demand, run the Start-SharePointSync cmdlet.
   
-```XML
+```PowerShell
 ### Run the Synchronization Service management agents 
 Start-SharePointSync -Verbose 
 
