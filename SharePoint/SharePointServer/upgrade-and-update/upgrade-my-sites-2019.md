@@ -104,5 +104,5 @@ The personal site collections are upgraded automatically when a user visits thei
 
 [Upgrade a site collection](https://support.office.com/en-us/article/upgrade-your-2010-version-sharepoint-online-sites-to-latest-classic-ui-experience-7f66dfdc-9a3d-4769-8a05-c654e4a27ec2?ocmsassetID=HA102865473&CTT=5&amp%3Borigin=HA104034491&CorrelationId=db6f9747-dd10-4526-85b6-79e94c1599e4&ui=en-US&rs=en-US&ad=US)
   
-[Update-SPProfilePhotoStore](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Update-SPProfilePhotoStore?view=sharepoint-ps)
+[Update-SPProfilePhotoStore](/powershell/module/sharepoint-server/Update-SPProfilePhotoStore?view=sharepoint-ps)
 

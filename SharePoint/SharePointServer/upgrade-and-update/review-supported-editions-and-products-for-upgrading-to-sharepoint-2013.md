@@ -21,7 +21,7 @@ description: "Understand the editions or versions of SharePoint 2010 Products th
   
 When you plan an upgrade process, make sure that you verify that the intended upgrade path is supported. This article describes the editions and products that are supported and unsupported to upgrade to SharePoint Server 2016. 
   
-Be aware that in-place upgrade is not supported for upgrades to SharePoint 2013. This includes upgrades across editions, such as from SharePoint Foundation 2013 to SharePoint Server 2016. For more information, see [What's new in SharePoint 2013 upgrade](http://technet.microsoft.com/library/e5362d08-06a2-448f-9b4e-8c459d4583bf%28Office.14%29.aspx).
+Be aware that in-place upgrade is not supported for upgrades to SharePoint 2013. This includes upgrades across editions, such as from SharePoint Foundation 2013 to SharePoint Server 2016. For more information, see [What's new in SharePoint 2013 upgrade](/previous-versions/office/sharepoint-server-2010/ee617150(v=office.14)).
   
 > [!IMPORTANT]
 > Upgrade from a pre-release version of SharePoint 2013 to the release version of SharePoint 2013 is not supported. > Pre-release versions are intended for testing only and should not be used in production environments. Upgrading from one pre-release version to another is also not supported. 
