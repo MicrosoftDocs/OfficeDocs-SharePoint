@@ -52,4 +52,9 @@ Some functionality is introduced gradually to organizations that have signed up 
   
 7. Under **Subsite Creation**, specify whether users can create subsites for classic sites, all sites, or not at all. 
 
+![Site creation settings](media/subsite-creation.png)
+
+> [!NOTE]
+> This setting controls only the New menu on modern pages. It doesn't prevent users from creating subsites through classic pages.
+
 8. Click **OK**.
