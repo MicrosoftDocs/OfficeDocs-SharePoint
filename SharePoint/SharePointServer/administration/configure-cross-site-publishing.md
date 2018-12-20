@@ -97,7 +97,7 @@ For information about how to create site content types and site columns, see the
   
 - [Create or customize a content type](https://office.microsoft.com/en-us/sharepoint-server-help/create-or-customize-a-content-type-HA102773269.aspx?CTT=1)
     
-- [Create a column in a SharePoint list or library](http://technet.microsoft.com/library/2b0361ae-1bd3-41a3-8329-269e5f81cfa2%28Office.14%29.aspx)
+- [Create a column in a SharePoint list or library](https://support.office.com/article/2b0361ae-1bd3-41a3-8329-269e5f81cfa2)
     
 - [Create a managed metadata column](https://office.microsoft.com/en-us/office365-sharepoint-online-enterprise-help/create-a-managed-metadata-column-HA102832524.aspx?CTT=1)
     
