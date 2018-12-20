@@ -83,6 +83,10 @@ After a UPN change, users will need to browse to re-open active OneDrive files i
 
 If a user shared OneDrive files with others, the links will no longer work after a UPN change. The user will need to re-share the files. 
 
+## Office Backstage View
+
+After a UPN change, although Office will continue to work as expected, the user's original UPN will continue to be displayed in the Office Backstage View. To update the Office Backstage View to display the changed UPN, the user will need to sign out and then sign in using the Office client.
+
 ## Search and Delve
 
 After a UPN change, it might take a while for files at the new OneDrive URL to be indexed. During this time, search results in OneDrive and SharePoint will use the old URL. Users can copy the URL, paste it in the address bar, and then update the portion for the new UPN. 
