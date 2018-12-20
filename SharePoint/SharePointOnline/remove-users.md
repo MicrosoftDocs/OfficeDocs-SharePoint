@@ -1,5 +1,5 @@
 ---
-title: "How to remove users from SharePoint Online"
+title: "Remove users from SharePoint Online"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
