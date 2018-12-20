@@ -1,9 +1,8 @@
 ---
-title: "Remove users from SharePoint Online"
+title: "Remove deleted users from SharePoint Online"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 12/19/2018
 ms.audience: Admin
 ms.topic: article
 f1_keywords:
@@ -18,197 +17,104 @@ search.appverid:
 - GSP150
 - MET150
 ms.assetid: 494bec9c-6654-41f0-920f-f7f937ea9723
-description: "Learn how to remove users from SharePoint Online in different scenarios."
+description: "Learn how to remove deleted users from SharePoint Online in different scenarios."
 ---
 
-# How to remove users from SharePoint Online
+# How to remove deleted users from SharePoint Online
 
-This article describes how to remove users from SharePoint Online in the following scenarios:
+This article describes how to remove deleted users so they no longer appear in SharePoint. It should be used to troubleshoot Profile Property synchronization or PUID issues only as advised by Microsoft Customer Support Services.
 
-- **Scenario 1: A user is removed from the Office 365 admin center but is still present in SharePoint Online.**
+- **Scenario 1: Someone is deleted from the Microsoft 365 admin center but still appears in SharePoint Online.**
  
-   When a user account is deactivated or deleted, the user's profile remains in the UserInfo list for any site collections that the user previously browsed to. This may cause confusion, primarily when you use People Picker. This includes external users.
+    When a user or guest browses to a SharePoint site, their user information is cached in the UserInfo list. When the user or guest is deleted, their related UserInfo information is not removed. Their profile still appears, which may cause confusion when people view the people picker.
 
-- **Scenario 2: A mismatched Passport Unique ID (PUID).**
+- **Scenario 2: A mismatched PUID.**
  
-    This issue most frequently occurs when a user is deleted and the account is then re-created with the same user name. The account in the Office 365 admin center or Active Directory (in directory synchronization scenarios) is deleted and re-created with the same user principal name (UPN). The new account is created by using a different PUID value. When the user tries to access a site collection in this situation (for example, a personal site), the user has an incorrect PUID. A second scenario involves directory synchronization with an Active Directory organizational unit (OU). If the user has already logged in to SharePoint and created personal sites, and then she is later moved to a different OU and resynced with SharePoint, she may experience this problem.
-
-## More Information
-
-In some scenarios, you may have to remove the user account. This article describes how to do this for the various account types.
-
-**NOTES:**
-
-- This article shouldn't to be used for troubleshooting Profile Property synchronization or PUID issues unless otherwise advised by Microsoft Customer Support Services.
+    This issue most frequently occurs when a user is deleted and the account is then re-created with the same user name. The account in the Microsoft 365 admin center or Active Directory (in directory synchronization scenarios) is deleted and re-created with the same user principal name (UPN). The new account is created by using a different PUID value. When the user tries to access a site collection or their OneDrive, the user has an incorrect PUID. A second scenario involves directory synchronization with an Active Directory organizational unit (OU). If users have already signed in to SharePoint, and then are moved to a different OU and resynced with SharePoint, they may experience this problem.
  
-- Many scenarios in this article use &lt;**contoso**&gt; as a placeholder. In your scenario, replace &lt;**contoso**&gt; with the domain that you use for your organization.
- 
-## Standard users
+## Delete a user from the Microsoft 365 admin center
 
-### Remove a user from the Office 365 admin center
-
-> [!NOTE]
->   If you're using directory synchronization, the user must be removed from the on-premises Active Directory environment.
-
-To remove a standard user, first remove the user from the Office 365 admin center. To do this, follow these steps:
-
-1.  Browse to [https://portal.office.com](https://portal.office.com/), and then sign in with your administrator account.
- 
-2.  In the navigation pane (on the left side), click  **Users**, and then click **Active Users**.
- 
-3.  Select the check box next to the user whom you want to remove, and then click **DELETE**.
- 
- After you delete a user from the admin center, a series of jobs will remove the user from SharePoint Online. After the next incremental profile import job, the user (or users) will be marked as deleted, the user’s profile page will be deleted, and the user's personal site will be marked for deletion by the MySite cleanup job.
-
-### Remove a user from the UserInfo list
-
-The preceding steps removed the user’s access to Office 365 and SharePoint Online. However, the user still appears in people searches and in the SharePoint Online Management Shell when you use the Get-SPOUser cmdlet. To completely remove the user from SharePoint, you must remove him or her from the UserInfo list. There are two ways to do this:
-
-**Use the SharePoint Online user interface** 
-
-You'll have to browse to each site collection that the user had access to, and then follow these steps:
+For the steps to delete a user in the Microsoft 365 admin center, see [Delete a user from your organization](/office365/admin/add-users/delete-a-user).
  
 > [!NOTE]
->  This option will only be visible to the user if they're active in the site collection. The user must have previously browsed to the site collection. Visitors who were granted access through domain groups only won't be listed here. 
+>   If you're using directory synchronization, you must remove the user from the on-premises Active Directory environment.
 
+ After you delete a user, a series of jobs will remove the user from SharePoint. After the next incremental profile import job, the user (or users) will be marked as deleted, the user’s profile page will be deleted, and the user's OneDrive will be marked for deletion by the MySite cleanup job.
 
-1. After you're at the site collection, edit the URL by adding the following string to the end of it: **_layouts/15/people.aspx/membershipGroupId=0**
+## Delete a guest from the Microsoft 365 admin center
+
+1. Sign in to Office 365 as a global admin.
+    
+2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+    
+3. In the left pane, select **Users** > **Guest users**.
+
+4. Select **Delete a user**.
+
+5. Select the user, click **Select**, and then click **Delete**.
  
- 	For example, the full URL will resemble the following: **https://&lt;contoso.sharepoint.com&gt;/_layouts/15/people.aspx/membershipGroupId=0**
+## Delete a guest by using the SharePoint Online Management Shell
 
-2. Select the user from the list, and then click **Remove User Permissions** on the ribbon.
+1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
+    
+2. Connect to SharePoint Online as a global admin or SharePoint admin in Office 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+    
+3. Run the following command:
  
-**Use the SharePoint Online Management Shell**
-
- > [!NOTE]
- >  This option doesn't apply to Small Business subscriptions.
-
-For more information about how to use the SharePoint Online Management Shell, see [Introduction to the SharePoint Online Management Shell](https://support.office.com/en-us/article/introduction-to-the-sharepoint-online-management-shell-c16941c3-19b4-4710-8056-34c034493429).
-
-1. Start the SharePoint Online Management Shell.
- 
-2. Enter the **$cred = Get-Credential** cmdlet and in the **Windows PowerShell Credential required** dialog box, type your site collection admin account and password, and then click **OK**.
- 
-3. Connect to SharePoint Online, and then enter the following command:
-
-   ```
+   ```PowerShell
    Connect-SPOService -Url https://<contoso>.-admin.sharepoint.com -Credential $cred
    ```
-   > [!NOTE]
-   >  In this scenario, replace &lt;**contoso**&gt; with the domain for your organization.
-
-## Clear the browser cache
-
-SharePoint Online uses browser caching in several scenarios, including the in the People Picker. Even though a user was fully removed from the system, he or she may still remain in the browser cache. Clearing the browser cache resolves this issue. To do this for Internet Explorer, follow the steps given at [Viewing and deleting your browsing history](https://support.microsoft.com/en-us/help/17438/windows-internet-explorer-view-delete-browsing-history).
-
-When you clear the cache, make sure that you also select the **Cookies and website data** option.
-
-## External users
-
-### Remove the external user from SharePoint Online
-
-External users are managed from a site-collection–by–site-collection basis. An external user account must be removed from each site collection that the user was granted access to. There are two ways to do this, depending on your subscription type: by using the Office 365 admin center or by using the SharePoint Online Management Shell.
-
-**For Small Business subscriptions, use the Office 365 admin center:**
-
- > [!NOTE]
- >  This option doesn't apply to Office 365 Enterprise (E) organizations, because it will remove the user and their permissions only from the selected SharePoint site (UserInfo list) and not from the directory.
-
-1. Browse to the Office 365 admin center at [https://portal.office.com](https://portal.office.com).
+4. Remove the guest from each site collection by using the following command:
  
-2. Under **service settings** click **Manage Organization-wide settings**.
- 
-3. On the menu on the left side, click **sites and document sharing**, and then click **Remove individual external users**.
- 
-4. Select the external user who must be removed, and then click the **Delete** icon.
- 
-**All other subscriptions must use the SharePoint Online Management Shell**
-
-  > [!NOTE]
- >  This option doesn't apply to Office 365 Small Business (P) organizations.
-
-For more information about how to use the SharePoint Online Management Shell, go to [Introduction to the SharePoint Online Management Shell](https://support.office.com/en-us/article/introduction-to-the-sharepoint-online-management-shell-c16941c3-19b4-4710-8056-34c034493429).
-
-1. Start the SharePoint Online Management Shell.
- 
-2. Enter the **$cred = Get-Credential** cmdlet and in the **Windows PowerShell Credential** required window, type your site collection admin account and password, and then click **OK**.
-
-3. Connect to SharePoint Online, and then enter the following command:
- 
-   ```
-   Connect-SPOService -Url https://<contoso>.-admin.sharepoint.com -Credential $cred
-   ```
-4. Remove the user from each site collection by using the following command:
- 
-   ```
+   ```PowerShell
    $ExtUser = Get-SPOExternalUser -filter someone@example.com
    ```
    > [!NOTE]
    >  Replace the **someone@example.com** placeholder with the account for your scenario.
 
-5. Emter the following command:
+5. Enter the following command:
  
-   ```
+   ```PowerShell
    Remove-SPOExternalUser -UniqueIDs @($ExtUser.UniqueId)
-   ```
- ## Remove the external user from the UserInfo list
 
-The preceding steps removed the external user’s access SharePoint Online. However, the user will still be returned by any people searches and by the SharePoint Online Management Shell **Get-SPOUser** cmdlet. To completely remove the user from SharePoint, he or she must be removed from the UserInfo list. There are two ways to do this:
+## Remove people from the UserInfo list
 
-**Use the SharePoint user interface** Browse to each site collection that the user previously had access to, and then follow these steps:
+The preceding steps removed access to Office 365 and SharePoint Online. However, the user or guest still appears in people searches and in the SharePoint Online Management Shell when you use the Get-SPOUser cmdlet. To completely remove people from SharePoint, you must remove them from the UserInfo list. There are two ways to do this:
 
-1. Browse to each site collection that the user previously had access to, and then follow these steps: **_layouts/15/people.aspx/membershipGroupId=0**
+### Site by site in SharePoint 
 
+You'll have to browse to each site collection that the user or guest visited, and then follow these steps:
+ 
+> [!NOTE]
+>  This option is available only if the user previously browsed to the site collection. They won't be listed if they were granted access but never visited the site. 
+
+
+1. Browse to the site and edit the URL by adding the following string to the end of it: **/_layouts/15/people.aspx?MembershipGroupId=0**
+ 
  	For example, the full URL will resemble the following: **https://&lt;contoso.sharepoint.com&gt;/_layouts/15/people.aspx/membershipGroupId=0**
 
-2. Select the user from the lias and click **Remove User Permissions** on the ribbon.
-
-**Use the SharePoint Online Management Shell**
-
-  > [!NOTE]
- >  This option doesn't apply to Small Business organizations.
-
-For more information about how to use the SharePoint Online Management Shell, go to [Introduction to the SharePoint Online Management Shell](https://support.office.com/en-us/article/introduction-to-the-sharepoint-online-management-shell-c16941c3-19b4-4710-8056-34c034493429).
-
-1. Start the SharePoint Online Management Shell.
+2. Select the person from the list, and then on the **Actions** menu, select **Delete Users from Site Collection**.
  
-2. Enter the **$cred = Get-Credential** cmdlet and in the **Windows PowerShell Credential** required window, type your admin account and password, and then click **OK**.
- 
-3. Connect to SharePoint Online, and then enter the following command:
- 
-   ```
-   Connect-SPOService -Url https://<contoso>.-admin.sharepoint.com -Credential $cred
-   ```
-4. Remove the user from each site collection with the following command:
- 
-   ```
-   Get-SPOUser -Site https://<contoso>.sharepoint.com | FT –a
-   ``` 
-   > [!NOTE]
-   >  The external user's Login Name in the returned results will have a **live.com** prefix.
+### Using the SharePoint Online Management Shell
 
-   Enter the following command:
+1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
+    
+2. Connect to SharePoint Online as a global admin or SharePoint admin in Office 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+    
+3. Run the following command:
 
-   ```
-   Remove-SPOUser -Site https://&lt;contoso&gt;.sharepoint.com -LoginName live.com#jondoe@company.com
+   ```PowerShell
+   Remove-SPOUser -Site https://&lt;contoso&gt;.sharepoint.com -LoginName outlook.com#jondoe@company.com
    ```
    > [!NOTE]
-   >  Replace the live.com#jondoe@company.com placeholder with the user in question.
+   >  Replace the outlook.com#jondoe@company.com placeholder with the person in question.  
 
-## Clear the browser cache
+## Clear browser history
 
-SharePoint Online uses browser caching in several scenarios, including the in the People Picker. Even though a user was fully removed from the system, he or she may still remain in the browser cache. Clearing the browser cache resolves this issue. To do this for Internet Explorer, follow the steps given at [Viewing and deleting your browsing history](https://support.microsoft.com/en-us/help/17438/windows-internet-explorer-view-delete-browsing-history).
+SharePoint uses browser caching in several scenarios, including in the people picker. Even when a user is fully removed, he or she may still remain in the browser cache. Clearing the browser history resolves this issue. For info about doing this in Edge, see [View and delete browser history in Microsoft Edge](https://support.microsoft.com/help/10607/microsoft-edge-view-delete-browser-history).
 
-When you clear the cache, make sure that you also select the **Cookies and website data** option.
+When you clear the browser history, make sure that you also select to clear cookies and website data.
 
-Whereas Exchange Online, Skype for Business Online (formerly Lync Online), and SharePoint Online all share user management at the Office 365 admin center level, SharePoint Online maintains an additional layer of user management. The steps in this article describe how to remove both a standard user account and an external user account from the SharePoint Online environment. 
 
-## Additional notes
 
-- At the Office 365 admin center level, user management lets an administrator manage users (create, delete, license, and assign delegated admins) in the Azure Active Directory domain structure. The portal also allows for the management of external users for site collections, including personal sites.
- 
-- In the SharePoint admin center, you can manage Site Collection administrators and the User Profile accounts.
- 
-- When a user browses to a SharePoint Online site, their user information is cached in the UserInfo list. When the same user is removed from the Office 365 admin center, their related UserInfo information is not removed.
- 
-If you still need help, go to [Microsoft Community](https://answers.microsoft.com/). 
+
