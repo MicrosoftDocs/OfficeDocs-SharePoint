@@ -36,7 +36,7 @@ The following table shows the minimum PU requirements for hybrid features in Sha
   
 |**Hybrid feature**|**Minimum PU**|
 |:-----|:-----|
-|[Hybrid self-service site creation](http://technet.microsoft.com/library/f8849a20-7cb7-44e6-bfd6-4c6415ae7785%28Office.14%29.aspx) <br/> |RTM  <br/> |
+|[Hybrid self-service site creation](https://docs.microsoft.com/sharepoint/hybrid/hybrid-self-service-site-creation) <br/> |RTM  <br/> |
 |[Cloud hybrid search](https://support.office.com/article/af830951-8ddf-48b2-8340-179c1cc4d291) <br/> |RTM  <br/> |
 |[Extensible hybrid app launcher](the-extensible-hybrid-app-launcher.md) <br/> |RTM  <br/> |
 |[Hybrid federated search](https://support.office.com/article/4ee4b876-1673-4d1f-ba47-d9a0ef4474a9) <br/> |RTM  <br/> |
@@ -52,7 +52,7 @@ The following table shows the minimum PU requirements for hybrid features in Sha
   
 |**Hybrid feature**|**Minimum PU**|
 |:-----|:-----|
-|[Hybrid self-service site creation](http://technet.microsoft.com/library/f8849a20-7cb7-44e6-bfd6-4c6415ae7785%28Office.14%29.aspx) <br/> |November 2017  <br/> |
+|[Hybrid self-service site creation](https://docs.microsoft.com/en-us/sharepoint/hybrid/hybrid-self-service-site-creation) <br/> |November 2017  <br/> |
 |[Cloud hybrid search](https://support.office.com/article/af830951-8ddf-48b2-8340-179c1cc4d291) <br/> |RTM  <br/> |
 |[Extensible hybrid app launcher](the-extensible-hybrid-app-launcher.md) <br/> |RTM  <br/> |
 |[Hybrid auditing](https://support.office.com/article/3a379540-f72b-406f-866a-d6121715ec8c) <br/> |November 2016  <br/> |
@@ -69,7 +69,7 @@ The following table shows the minimum PU requirements for hybrid features in Sha
   
 |**Hybrid feature**|**Minimum PU**|
 |:-----|:-----|
-|[Hybrid self-service site creation](http://technet.microsoft.com/library/f8849a20-7cb7-44e6-bfd6-4c6415ae7785%28Office.14%29.aspx) <br/> |March 2017  <br/> |
+|[Hybrid self-service site creation](https://docs.microsoft.com/en-us/sharepoint/hybrid/hybrid-self-service-site-creation) <br/> |March 2017  <br/> |
 |[Cloud hybrid search](https://support.office.com/article/af830951-8ddf-48b2-8340-179c1cc4d291) <br/> |January 2016  <br/> |
 |[Extensible hybrid app launcher](the-extensible-hybrid-app-launcher.md) <br/> |July 2016  <br/> |
 |[Hybrid federated search (results in SharePoint Server)](https://support.office.com/article/4ee4b876-1673-4d1f-ba47-d9a0ef4474a9) <br/> |RTM  <br/> |

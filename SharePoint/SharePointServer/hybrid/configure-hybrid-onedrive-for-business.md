@@ -27,7 +27,7 @@ description: "Connect your on-premises SharePoint Server environment with OneDri
   
  **This article is part of a roadmap of procedures for configuring SharePoint hybrid solutions. Be sure you're [following a roadmap](configuration-roadmaps.md) when you do the procedures in this article.**
   
-You can redirect users to OneDrive for Business in Office 365 when they click **OneDrive** or **Sites** on the navigation bar or the app launcher. In this article are the steps you need to configure your on-premises environment to connect with OneDrive for Business in Office 365. You can find an overview of the process in [Plan for hybrid OneDrive for Business](http://technet.microsoft.com/library/95fa5eaf-8130-4dca-814c-9c51eafae0d4%28Office.14%29.aspx).
+You can redirect users to OneDrive for Business in Office 365 when they click **OneDrive** or **Sites** on the navigation bar or the app launcher. In this article are the steps you need to configure your on-premises environment to connect with OneDrive for Business in Office 365. You can find an overview of the process in [Plan for hybrid OneDrive for Business](https://docs.microsoft.com/sharepoint/hybrid/plan-hybrid-onedrive-for-business).
   
 ## Video demonstration
 
@@ -136,5 +136,5 @@ Now that your users are set up to be redirected to Office 365, you can customize
 
 #### Other Resources
 
-[Plan for hybrid OneDrive for Business](http://technet.microsoft.com/library/95fa5eaf-8130-4dca-814c-9c51eafae0d4%28Office.14%29.aspx)
+[Plan for hybrid OneDrive for Business](https://docs.microsoft.com/sharepoint/hybrid/plan-hybrid-onedrive-for-business)
 
