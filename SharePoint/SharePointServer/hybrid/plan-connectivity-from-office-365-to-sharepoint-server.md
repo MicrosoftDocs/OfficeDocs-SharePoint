@@ -188,8 +188,6 @@ If you decide to use an existing web application as the primary web application,
 |||
 |:-----|:-----|
 |![Edit icon](../media/mod_icon_edit_m.png)| Record the following information on the worksheet:  <br/>  Depending on your site collection strategy, record the URL of the primary web application in the **Primary web application URL** row of Table 5a, 5b, or 5c.  <br/>  If you are using an existing host-named site collection, record the URL of the top-level site collection in the **Host-named site collection URL** row in Table 5a.  <br/> |
-   
-After you record this information, go to the section [OBSOLETE Plan a two-way hybrid topology](http://technet.microsoft.com/library/b42cf0ce-9442-441b-ac63-b1aa2b56c4bc%28Office.14%29.aspx#certificates).
   
 #### Plan to create a new web application
 <a name="newwebapp"> </a>

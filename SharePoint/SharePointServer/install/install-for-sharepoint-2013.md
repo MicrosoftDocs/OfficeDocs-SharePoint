@@ -36,7 +36,6 @@ The following articles provide information about how to deploy SharePoint 2013 o
 |[Add a database server to an existing farm in SharePoint 2013](add-a-database-server-to-an-existing-farm.md) <br/> |Provides information about how to add a new database server to an existing SharePoint 2013 farm.  <br/> |
 |[Remove a server from a farm in SharePoint 2013](../administration/remove-a-server-from-a-farm-in-sharepoint-2013.md) <br/> |Describes how to remove a web server, application server, or a database server from a SharePoint 2013 farm.  <br/> |
 |[Uninstall SharePoint 2013](../administration/uninstall-sharepoint-2013.md) <br/> |Describes how to remove SharePoint 2013 from a computer.  <br/> |
-|[Install and configure a virtual environment for SharePoint 2013](http://technet.microsoft.com/library/33ffa9b1-3e45-462a-9cb4-514941092464.aspx) <br/> |Learn about permissions, accounts, security settings, and what you have to do to prepare your Windows Server 2008 Hyper-V environment for SharePoint 2013.  <br/> |
 |[SharePoint 2013 dev/test environments in Azure](../administration/sharepoint-2013-dev-test-environments-in-azure.md) <br/> |Learn how to use Azure Resource Manager (ARM) templates to create a basic or high-availability SharePoint 2013 dev/test farm in Microsoft Azure infrastructure services.  <br/> |
    
 
