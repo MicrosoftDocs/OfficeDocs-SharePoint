@@ -32,7 +32,7 @@ The extensible hybrid app launcher is designed to help you get to your Office 36
   
 ## How do I customize tiles in my app launcher?
 
-[Custom tiles that you've pinned to your Office 365 app launcher](/office365/admin/manage/customize-the-app-launcher?redirectSourcePath=%252farticle%252f1136115a-75af-4497-b693-640c4ce70bc6&view=o365-worldwide) will also appear in your SharePoint Server app launcher. 
+[Custom tiles that you've pinned to your Office 365 app launcher](/office365/admin/manage/customize-the-app-launcher) will also appear in your SharePoint Server app launcher. 
   
 If you want to change what you see in your SharePoint Server app launcher, make the change in the Office 365 app launcher, and the changes will be reflected in the SharePoint Server app launcher within a day or so.
   

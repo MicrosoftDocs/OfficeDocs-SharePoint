@@ -159,7 +159,7 @@ There are two methods to synchronize Active Directories:
     
 - Directory synchronization with single sign-on (SSO)
     
-If you choose the SSO option, you can also configure password synchronization if you want to as a backup for SSO, but you must configure at least one of the two (password synchronization or SSO). Learn more and how to configure the two methods in [Office 365 integration with on-premises environments](/office365/enterprise/office-365-integration?redirectSourcePath=%252fen-us%252farticle%252fOffice-365-integration-with-on-premises-environments-263faf8d-aa21-428b-aed3-2021837a4b65).
+If you choose the SSO option, you can also configure password synchronization if you want to as a backup for SSO, but you must configure at least one of the two (password synchronization or SSO). Learn more and how to configure the two methods in [Office 365 integration with on-premises environments](/office365/enterprise/office-365-integration).
   
 ### Why can't users get hybrid results with cloud hybrid search when they're members of the Domain Users security group?
 

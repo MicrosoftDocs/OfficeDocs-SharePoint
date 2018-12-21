@@ -71,7 +71,7 @@ We recommend that you create a security group to contain all users of the eDisco
     > [!NOTE]
     > When you change permissions at the web application level, Search re-crawls all of the content in the web application. 
   
-2. If you will grant permissions at the site collection level, make the security group a site collection administrator for each site collection that contains discoverable content. For information about how to add a site collection administrator, see [Add, change, or remove a site collection administrator](/sharepoint/customize-sharepoint-site-permissions?redirectSourcePath=%252fen-US%252farticle%252fCreate-and-manage-SharePoint-groups-B1E3CD23-1A78-4264-9284-87FED7282048).
+2. If you will grant permissions at the site collection level, make the security group a site collection administrator for each site collection that contains discoverable content. For information about how to add a site collection administrator, see [Add, change, or remove a site collection administrator](/sharepoint/customize-sharepoint-site-permissions).
     
     > [!IMPORTANT]
     > A site collection administrator must add the security group as an additional site collection administrator by using the **Site Settings** menu. You cannot use Central Administration to make a security group a site collection administrator 

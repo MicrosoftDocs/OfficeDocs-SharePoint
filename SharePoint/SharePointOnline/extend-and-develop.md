@@ -32,7 +32,7 @@ Methods for customization that work in SharePoint Server won't necessarily work 
 |**Header/Footer** <br/> |SharePoint Designer, w/unghosted pages  <br/> |No equivalent, unghosting pages requires ongoing maintenance  <br/> |
 |**Content Blocks** <br/> |CBQ (un-throttled)  <br/> |CBQ (throttled)  <br/> |
 |**General Branding (colors, logos, etc.)** <br/> |Sandboxed solutions, Customized/unghosted Master Pages  <br/> |Composed looks or inject styles via app model  <br/> |
-|**Navigation** <br/> |Start with out of the box tools  <br/> Structural, Managed, and Search-driven Navigation  <br/> |Start with out of the box tools  <br/> [Navigation options for SharePoint Online](/office365/enterprise/navigation-options-for-sharepoint-online?redirectSourcePath=%252farticle%252fadb92b80-b342-4ecb-99a1-da2a2b4782eb) <br/> |
+|**Navigation** <br/> |Start with out of the box tools  <br/> Structural, Managed, and Search-driven Navigation  <br/> |Start with out of the box tools  <br/> [Navigation options for SharePoint Online](/office365/enterprise/navigation-options-for-sharepoint-online) <br/> |
    
 ## Customizations: simple to complex
 <a name="__toc349226253"> </a>

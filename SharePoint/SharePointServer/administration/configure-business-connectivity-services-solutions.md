@@ -57,7 +57,7 @@ The procedures in [Deploy a Business Connectivity Services on-premises solution 
 ## Cloud-only deployment
 <a name="sectioncloud"> </a>
 
-The procedures in [Make an External List from a SQL Azure table with Business Connectivity Services and Secure Store](/sharepoint/make-external-list?redirectSourcePath=%252farticle%252f466f3809-fde7-41f2-87f7-77d9fdadfc95)[Deploy a Business Connectivity Services cloud-only solution in SharePoint 2013](/SharePoint/administration/deploy-an-on-premises-solution) show you how to deploy a solution that involves a Business Connectivity Services infrastructure that is in SharePoint Online. 
+The procedures in [Make an External List from a SQL Azure table with Business Connectivity Services and Secure Store](/sharepoint/make-external-list)[Deploy a Business Connectivity Services cloud-only solution in SharePoint 2013](/SharePoint/administration/deploy-an-on-premises-solution) show you how to deploy a solution that involves a Business Connectivity Services infrastructure that is in SharePoint Online. 
   
 ## Hybrid deployment
 <a name="sectionhybrid"> </a>

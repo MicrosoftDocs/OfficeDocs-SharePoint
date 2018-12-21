@@ -18,7 +18,7 @@ In the modern SharePoint Online experience, you can easily [change the look](htt
 ![](media/branding-sharepoint-online-sites-modern-experience_image1.png)
 
 > [!NOTE]
-> Branding your SharePoint Online site will not change the overall look of your Office 365 service For more information about branding Office 365, see [Customize your theme in the Office 365 admin center](/office365/admin/setup/customize-your-organization-theme?redirectSourcePath=%252fen-us%252farticle%252fCustomize-the-Office-365-theme-for-your-organization-8275DA91-7A48-4591-94AB-3123A3F79530&view=o365-worldwide).
+> Branding your SharePoint Online site will not change the overall look of your Office 365 service For more information about branding Office 365, see [Customize your theme in the Office 365 admin center](/office365/admin/setup/customize-your-organization-theme).
 
 ## Site branding in the classic experience
 

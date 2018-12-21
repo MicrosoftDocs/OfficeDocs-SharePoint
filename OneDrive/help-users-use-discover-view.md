@@ -55,7 +55,7 @@ Here are some resources that you can use to get your organization started with t
   
 ### Before you announce the Discover view
 
-SharePoint Online and OneDrive for Business are the primary sources of content in the Discover view. How you and users manage permissions on documents and sites affects what users see in the Discover view. Check out [Overview: best practices for managing how people use your team site](https://support.office.com/article/95e83c3d-e1b0-4aae-9d08-e94dcaa4942e) and [Plan your permissions strategy](/sharepoint/plan-your-permissions-strategy?redirectSourcePath=%252farticle%252fc6183e49-9287-4689-999e-0d3f817a41a3) for more information. 
+SharePoint Online and OneDrive for Business are the primary sources of content in the Discover view. How you and users manage permissions on documents and sites affects what users see in the Discover view. Check out [Overview: best practices for managing how people use your team site](https://support.office.com/article/95e83c3d-e1b0-4aae-9d08-e94dcaa4942e) and [Plan your permissions strategy](/sharepoint/plan-your-permissions-strategy) for more information. 
   
 ### Using the Discover view on a day-to-day basis
 
@@ -96,7 +96,7 @@ If users don't have any recently modified or viewed content in these content sou
     
 - Check that the user is in the Active Directory and that he or she is a member of the correct Active Directory groups. To verify, go to **Microsoft 365 admin center** \> **Users** \> **Active Users**.
     
-- As an admin, you can allow your organization to access the Office Graph. This makes sure the Discover view shows the most relevant content to users. See [Control access to the Office Graph](/sharepoint/delve-for-office-365-admins?redirectSourcePath=%252farticle%252f54f87a42-15a4-44b4-9df0-d36287d9531b) for more information. 
+- As an admin, you can allow your organization to access the Office Graph. This makes sure the Discover view shows the most relevant content to users. See [Control access to the Office Graph](/sharepoint/delve-for-office-365-admins) for more information. 
     
 - Make sure that you've assigned users a license to access to the Office 365 services that you've activated.
     
@@ -109,7 +109,7 @@ Any document that a user can view or edit in Office 365, can also appear in the 
   
 - Check the permission settings for the documents, sites and libraries and make sure that only the intended users have access to the content.
     
-- If you want to prevent specific documents from appearing in the Discover view, follow the steps in [Manage the search schema in SharePoint Online](/sharepoint/manage-search-schema?redirectSourcePath=%252farticle%252fd4fab46d-ba41-4c03-9d4c-32b5b33198b6). You can keep storing the documents in Office 365, and people can still find them through search - they just won't show up in the Discover view or Delve.
+- If you want to prevent specific documents from appearing in the Discover view, follow the steps in [Manage the search schema in SharePoint Online](/sharepoint/manage-search-schema). You can keep storing the documents in Office 365, and people can still find them through search - they just won't show up in the Discover view or Delve.
     
 ## About the Office Graph
 <a name="AboutOG"> </a>
@@ -127,7 +127,7 @@ For developers, the Office Graph insights and rich relationships are exposed thr
 If you don't allow access to the Office Graph, you affect the relevance of the content displayed in the Discover view and in experiences elsewhere in Office 365, for example in SharePoint Home. Allowing and not allowing access to the Office Graph will also affect Delve functionality.
   
 > [!NOTE]
-> For more information, see the [Office Delve for Office 365 admins](/sharepoint/delve-for-office-365-admins?redirectSourcePath=%252farticle%252f54f87a42-15a4-44b4-9df0-d36287d9531b) section of [Office Delve for Office 365 admins](/sharepoint/delve-for-office-365-admins?redirectSourcePath=%252farticle%252f54f87a42-15a4-44b4-9df0-d36287d9531b). 
+> For more information, see the [Office Delve for Office 365 admins](/sharepoint/delve-for-office-365-admins) section of [Office Delve for Office 365 admins](/sharepoint/delve-for-office-365-admins). 
   
 ## Additional resources
 <a name="AddRes"> </a>
@@ -148,6 +148,6 @@ End users
     
 Admins
   
-- [Office Delve for Office 365 admins](/sharepoint/delve-for-office-365-admins?redirectSourcePath=%252farticle%252f54f87a42-15a4-44b4-9df0-d36287d9531b)
+- [Office Delve for Office 365 admins](/sharepoint/delve-for-office-365-admins)
     
 

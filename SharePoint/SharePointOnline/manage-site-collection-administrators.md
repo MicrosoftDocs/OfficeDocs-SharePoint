@@ -23,12 +23,12 @@ description: "Learn how to add and remove site collection admins."
 This article describes how global admins and SharePoint admins in Office 365 can add and remove site collection admins for any site collection. If you're an owner of a communication site, or a site that belongs to an Office 365 group, see [Manage your SharePoint site settings](https://support.office.com/article/8376034d-d0c7-446e-9178-6ab51c58df42#__BKMKMngSitePermissions) for info about giving people access to your site. If you're a site collection admin for a classic site, see [Manage your SharePoint site settings](https://support.office.com/article/8376034d-d0c7-446e-9178-6ab51c58df42#id0eaabaaa=server). 
   
 > [!NOTE]
-> If you're a global admin and want info about assigning other users the SharePoint admin role in Office 365, see [Assigning admin permissions](/office365/admin/add-users/assign-admin-roles?redirectSourcePath=%252fen-us%252farticle%252fassign-admin-roles-in-office-365-eac4d046-1afd-4f1a-85fc-8219c79e1504&view=o365-worldwide). 
+> If you're a global admin and want info about assigning other users the SharePoint admin role in Office 365, see [Assigning admin permissions](/office365/admin/add-users/assign-admin-roles). 
   
 ## Add or remove site collection admins
 <a name="__toc341786265"> </a>
 
-If a site belongs to an Office 365 group, you can add or remove group members in the Microsoft 365 admin center. For info, see [Add or remove members from Office 365 groups using the Office 365 admin center](/office365/admin/create-groups/add-or-remove-members-from-groups?redirectSourcePath=%252farticle%252fe186d224-a324-4afa-8300-0e4fc0c3000a&view=o365-worldwide). 
+If a site belongs to an Office 365 group, you can add or remove group members in the Microsoft 365 admin center. For info, see [Add or remove members from Office 365 groups using the Office 365 admin center](/office365/admin/create-groups/add-or-remove-members-from-groups). 
   
 If you want to change the admins for a communication site or a site that belongs to an Office 365 group, and you as the global or SharePoint admin are also an owner of the site, see [Manage your SharePoint site settings](https://support.office.com/article/8376034d-d0c7-446e-9178-6ab51c58df42#__BKMKMngSitePermissions). If you aren't a site owner, you need to use PowerShell to add or remove site owners. For info, see [Add-PnPSiteCollectionAdmin](https://go.microsoft.com/fwlink/?linkid=872301) and [Remove-PnPSiteCollectionAdmin](https://go.microsoft.com/fwlink/?linkid=872302).
   

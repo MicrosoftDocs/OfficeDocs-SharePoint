@@ -45,7 +45,7 @@ Configuration of both features uses the Hybrid Picker in the SharePoint Online a
   
 The functionality and configuration procedures are the same for both versions of SharePoint Server.
   
-As with all hybrid scenarios, hybrid SharePoint taxonomy and hybrid content types both rely on your [user accounts being synchronized between SharePoint Server and SharePoint Online](/office365/enterprise/office-365-integration?redirectSourcePath=%252farticle%252f263faf8d-aa21-428b-aed3-2021837a4b65), though users whose accounts are not synchronized can still use the replicated and local term sets on-premises.
+As with all hybrid scenarios, hybrid SharePoint taxonomy and hybrid content types both rely on your [user accounts being synchronized between SharePoint Server and SharePoint Online](/office365/enterprise/office-365-integration), though users whose accounts are not synchronized can still use the replicated and local term sets on-premises.
   
 ## How hybrid SharePoint taxonomy works
 

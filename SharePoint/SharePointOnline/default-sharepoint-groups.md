@@ -23,11 +23,11 @@ Administrators can create additional groups to align more closely with specific 
   
 Here are links to information on understanding and setting SharePoint permissions.
   
-- [Understanding permission levels in SharePoint](/sharepoint/understanding-permission-levels?redirectSourcePath=%252farticle%252f87ecbb0e-6550-491a-8826-c075e4859848)
+- [Understanding permission levels in SharePoint](/sharepoint/understanding-permission-levels)
     
 - [Edit and manage permissions for a SharePoint list or library](https://support.office.com/article/02D770F3-59EB-4910-A608-5F84CC297782)
     
-- [How to create and edit Permission Levels](/sharepoint/how-to-create-and-edit-permission-levels?redirectSourcePath=%252farticle%252f53c86040-07fa-4ea7-bc55-34ee96b437fe)
+- [How to create and edit Permission Levels](/sharepoint/how-to-create-and-edit-permission-levels)
     
 ## Permission levels for default SharePoint groups
 <a name="__toc352237424"> </a>
