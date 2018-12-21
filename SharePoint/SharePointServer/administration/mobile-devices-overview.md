@@ -22,7 +22,7 @@ SharePoint Server 2013 offers new, optimized viewing experiences across differen
 > [!IMPORTANT]
 > For more information about supported mobile browsers with SharePoint Server 2013, see [Mobile device browsers supported in SharePoint 2013](supported-mobile-device-browsers.md). 
   
-For an end-to-end look and understanding of the SharePoint Server 2013 mobile landscape, see the poster [Mobile architecture in SharePoint 2013](https://zoom.it/E1BL). Also, for more information about how to administer your mobile environment, see [Administer mobile devices in SharePoint Server](http://technet.microsoft.com/library/05124c35-afea-42b3-b9fa-645ee1d3fd2a%28Office.14%29.aspx).
+For an end-to-end look and understanding of the SharePoint Server 2013 mobile landscape, see the poster [Mobile architecture in SharePoint 2013](https://zoom.it/E1BL). Also, for more information about how to administer your mobile environment, see [Administer mobile devices in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ff393820(v=office.14)).
   
 ## Mobile browser experience
 <a name="MBE"> </a>
@@ -90,7 +90,7 @@ A mobile view is a version of the SharePoint site that was optimized for mobile 
   
 The browser definition file lists the mobile browsers and devices that can access mobile views in SharePoint Server 2013. When a user browses a SharePoint site from a mobile device, the mobile browser submits to the site an HTTP GET request that includes a user agent string. If the mobile browser and device model in the user agent string are listed in the browser definition file and the  `isMobileDevice` setting for the mobile browser is set to  `true`, SharePoint Server 2013 redirects the mobile browser to the mobile view of the site. Otherwise, a standard view of the site is shown in the mobile browser. You can modify the file to change the redirect behavior of a mobile browser.
   
-The browser definition file lists the mobile browsers and devices that are supported by SharePoint Server 2013. The file can be updated when product updates to SharePoint Server 2013 are released. You can also modify the file to add a mobile browser or device to the list. For more information about how to modify the browser definition file, see [Configure the browser definition file in SharePoint Server](http://technet.microsoft.com/library/b31b1204-1cdd-4e11-80e8-a9252e097cb9%28Office.14%29.aspx). Also, for more information about mobile views and planning a mobile browser-based experience, see [Plan for mobile views in SharePoint Server 2013](plan-for-mobile-views.md).
+The browser definition file lists the mobile browsers and devices that are supported by SharePoint Server 2013. The file can be updated when product updates to SharePoint Server 2013 are released. You can also modify the file to add a mobile browser or device to the list. For more information about how to modify the browser definition file, see [Configure the browser definition file in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ff393836(v=office.14)). Also, for more information about mobile views and planning a mobile browser-based experience, see [Plan for mobile views in SharePoint Server 2013](plan-for-mobile-views.md).
   
 ## Device channels
 <a name="imc"> </a>
@@ -111,7 +111,7 @@ Together, SharePoint Server 2013 and Office Web Apps Server offer a better user 
 ## Location
 <a name="Location"> </a>
 
-SharePoint Server 2013 introduces a new geolocation field type that can be used in a list. For example, you can now make lists "location-aware" and display latitude and longitude coordinates through Bing Maps. An entry is typically seen as a pushpin on the map view. Although there are several ways to use this geolocation field, one key scenario is for mobile application development. Users can track or log location-specific data while they work remotely from the corporate office. Alternatively, the application can help them locate points of interest when they perform offsite functions. To display map views in the list, you must use the Bing Maps service. For information about the procedures and Microsoft PowerShell for SharePoint Server 2013 cmdlets necessary to display map views, see [Use the location field type in mobile applications for SharePoint Server](http://technet.microsoft.com/library/fd2b0f3d-e995-470f-8092-aaf9f22277c2%28Office.14%29.aspx).
+SharePoint Server 2013 introduces a new geolocation field type that can be used in a list. For example, you can now make lists "location-aware" and display latitude and longitude coordinates through Bing Maps. An entry is typically seen as a pushpin on the map view. Although there are several ways to use this geolocation field, one key scenario is for mobile application development. Users can track or log location-specific data while they work remotely from the corporate office. Alternatively, the application can help them locate points of interest when they perform offsite functions. To display map views in the list, you must use the Bing Maps service. For information about the procedures and Microsoft PowerShell for SharePoint Server 2013 cmdlets necessary to display map views, see [Use the location field type in mobile applications for SharePoint Server](/sharepoint/administration/mobile-devices-overview).
   
 > [!NOTE]
 > The geolocation field is not available when you create a list through the user interface (UI). Therefore, you cannot make a custom list and add it as a column through traditional UI methods. Instead, this field must be inserted programmatically. For more information about how to render and work with this data type programmatically, see [Integrating location and map functionality in SharePoint 2013](https://go.microsoft.com/fwlink/?LinkId=253673). 
@@ -121,7 +121,7 @@ SharePoint Server 2013 introduces a new geolocation field type that can be used 
 
 SharePoint Server 2013 supports applications on mobile devices that should receive notifications from a SharePoint site. Notifications can include events that occur in the site, such as when a user adds an item to a list or updates an item. For mobile devices to receive such notifications, device applications must register with a SharePoint site. Once registered, you can write event handler code to interact with Microsoft Push Notification Service or notification services of other mobile device platforms. Notifications are sent from the server where the application is hosted to the registered mobile device application.
   
-When the push notification feature is activated, a subscription store is created at the website level to store information from devices that have registered with the SharePoint site to receive notifications. This subscription store is created as a hidden list that cannot be viewed directly by a user or an administrator. There is a limit of 2,000 device registrations for push notifications in SharePoint Server 2013. Once this limit is reached, no further registrations can be performed unless entries are cleared from the subscription store. To perform this procedure on your SharePoint site, see [Clear push notification registrations from the subscription store in SharePoint Server](http://technet.microsoft.com/library/2e0eca60-b00f-40b3-b58f-4e344f4b70cf%28Office.14%29.aspx).
+When the push notification feature is activated, a subscription store is created at the website level to store information from devices that have registered with the SharePoint site to receive notifications. This subscription store is created as a hidden list that cannot be viewed directly by a user or an administrator. There is a limit of 2,000 device registrations for push notifications in SharePoint Server 2013. Once this limit is reached, no further registrations can be performed unless entries are cleared from the subscription store. To perform this procedure on your SharePoint site, see [Clear push notification registrations from the subscription store in SharePoint Server](/sharepoint/administration/administration).
   
 ## Business intelligence content
 <a name="BIC"> </a>
@@ -131,7 +131,7 @@ SharePoint Server 2013 enables a user to view certain kinds of dashboard content
 ## Subscribe to mobile alerts
 <a name="SMS"> </a>
 
-You can configure and manage a mobile account in SharePoint Server 2013 to enable users to subscribe to alerts that are sent by using Short Message Service (SMS). The alerts are sent to the mobile device when changes are made to a SharePoint list or item. Because a SharePoint site is usually located on an intranet, access to the SharePoint site can be difficult when users are away from the office. For example, when they are traveling or attending a business dinner. The mobile alert feature enables users to react quickly when they receive an SMS alert that an item in a SharePoint list has changed. For more information about how to subscribe to mobile alerts in SharePoint, see [Configure mobile accounts in SharePoint 2013](http://technet.microsoft.com/library/cbfdb741-64e5-4170-adc2-46be4ff7d82b%28Office.14%29.aspx).
+You can configure and manage a mobile account in SharePoint Server 2013 to enable users to subscribe to alerts that are sent by using Short Message Service (SMS). The alerts are sent to the mobile device when changes are made to a SharePoint list or item. Because a SharePoint site is usually located on an intranet, access to the SharePoint site can be difficult when users are away from the office. For example, when they are traveling or attending a business dinner. The mobile alert feature enables users to react quickly when they receive an SMS alert that an item in a SharePoint list has changed. For more information about how to subscribe to mobile alerts in SharePoint, see [Configure mobile accounts in SharePoint 2013](/previous-versions/office/sharepoint-server-2010/ee428323(v=office.14)).
   
 ## See also
 <a name="SMS"> </a>
@@ -141,7 +141,7 @@ You can configure and manage a mobile account in SharePoint Server 2013 to enabl
 [Mobile device browsers supported in SharePoint 2013](supported-mobile-device-browsers.md)
 #### Other Resources
 
-[Administer mobile devices in SharePoint Server](http://technet.microsoft.com/library/05124c35-afea-42b3-b9fa-645ee1d3fd2a%28Office.14%29.aspx)
+[Administer mobile devices in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ff393820(v=office.14))
   
-[Configure mobile accounts in SharePoint 2013](http://technet.microsoft.com/library/cbfdb741-64e5-4170-adc2-46be4ff7d82b%28Office.14%29.aspx)
+[Configure mobile accounts in SharePoint 2013](/previous-versions/office/sharepoint-server-2010/ee428323(v=office.14))
 

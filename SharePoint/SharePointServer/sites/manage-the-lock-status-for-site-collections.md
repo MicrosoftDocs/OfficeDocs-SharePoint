@@ -69,7 +69,7 @@ Use this procedure to lock or unlock a site collection by using PowerShell.
   
  **To manage the lock status for a site collection by using PowerShell**
   
-1. Verify that you meet the following minimum requirements: See [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/add-spshelladmin).
+1. Verify that you meet the following minimum requirements: See [Add-SPShellAdmin](/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps).
     
 2. Open the SharePoint Management Shell.
     
@@ -93,7 +93,7 @@ Use this procedure to lock or unlock a site collection by using PowerShell.
     
       - **NoAccess** to prevent users from accessing the site collection and its content. Users who attempt to access the site receive an error message. 
     
- For more information, see [Set-SPSite](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Set-SPSite?view=sharepoint-ps).
+ For more information, see [Set-SPSite](/powershell/module/sharepoint-server/Set-SPSite?view=sharepoint-ps).
   
 ## See also
 

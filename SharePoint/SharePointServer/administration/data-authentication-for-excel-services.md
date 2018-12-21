@@ -129,7 +129,7 @@ Choose Kerberos delegation for secure and fast authentication to enterprise-scal
   
 - [Configuring Kerberos Authentication for Microsoft SharePoint 2010 Products](https://go.microsoft.com/fwlink/p/?LinkId=196600) (https://go.microsoft.com/fwlink/p/?LinkId=196600) 
     
-- [Configure Kerberos authentication (SharePoint Server 2010)](http://technet.microsoft.com/library/3f849874-1580-47d3-af88-042a3494909f.aspx)
+- [Configure Kerberos authentication (SharePoint Server 2010)](/SharePoint/security-for-sharepoint-server/kerberos-authentication-planning)
     
 #### Secure Store
 

@@ -41,9 +41,9 @@ The following resources about email integration in SharePoint Server are also av
   
 |**Content**|**Description**|
 |:-----|:-----|
-|[SMTP authentication when sending emails](https://docs.microsoft.com/en-us/sharepoint/what-s-new/new-and-improved-features-in-sharepoint-server-2019#smtpauth) <br/> |Learn about SMTP authentication when sending emails in SharePoint Server 2019.  <br/> |
+|[SMTP authentication when sending emails](/sharepoint/what-s-new/new-and-improved-features-in-sharepoint-server-2019#smtpauth) <br/> |Learn about SMTP authentication when sending emails in SharePoint Server 2019.  <br/> |
 |[SMTP connection encryption](../what-s-new/new-and-improved-features-in-sharepoint-server-2016.md#smtpcon) <br/> |Learn about new security available for SharePoint Server 2016 and SMTP servers.  <br/> |
-|[Document collaboration](https://technet.microsoft.com/en-us/library/jj150540%28v=exchg.160%29.aspx#DocCollab2013) <br/> |Learn about new features available for Exchange 2016 and SharePoint Server 2016.  <br/> |
+|[Document collaboration](/Exchange/new-features/new-features?view=exchserver-2019#DocCollab2013) <br/> |Learn about new features available for Exchange 2016 and SharePoint Server 2016.  <br/> |
    
 ## See also
 

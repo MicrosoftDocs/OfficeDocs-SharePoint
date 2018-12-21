@@ -13,69 +13,27 @@ search.appverid:
 - BSA160
 - MET150
 ms.assetid: 5ae550c4-bd20-4257-847b-5c20fb053622
-description: "Learn how to block or limit access to SharePoint and OneDrive content on devices that aren't compliant or joined to a domain."
+description: "Learn how to limit web access to SharePoint and OneDrive, or block all access, on devices that aren't compliant or joined to a domain."
 ---
 
 # Control access from unmanaged devices
 
 > [!NOTE]
-> Some functionality is introduced gradually to organizations that have set up the [Targeted release option in Office 365](/office365/admin/manage/release-options-in-office-365). This means that you may not yet see this feature or it may look different than what is described in this article. 
+> Some functionality is introduced gradually to organizations that have set up the [Targeted release option in Office 365](/office365/admin/manage/release-options-in-office-365?redirectSourcePath=%252farticle%252f3b3adfa4-1777-4ff0-b606-fb8732101f47&view=o365-worldwide). This means that you may not yet see this feature or it may look different than what is described in this article. 
   
-As a SharePoint or global admin in Office 365, you can block or limit access to SharePoint and OneDrive content from unmanaged devices (those not [Hybrid AD Joined](https://docs.microsoft.com/en-us/azure/active-directory/devices/overview#hybrid-azure-ad-joined-devices
+As a SharePoint or Global Admin in Office 365, you can block or limit access to SharePoint and OneDrive content from unmanaged devices (those not [Hybrid AD Joined](/azure/active-directory/devices/overview#hybrid-azure-ad-joined-devices
 ) or compliant in Intune). You can block or limit access for:
   
 - All users in the organization or only some users or security groups.
     
 - All sites in the organization or only some site collections.
     
-Blocking access helps provide security but comes at the cost of usability and productivity. When access is blocked, users will see the following error.
-
-![The experience when access is blocked](media/unmanaged-device-access-blocked.png)
-
-
-Limiting access allows users to remain productive while addressing the risk of accidental data loss on unmanaged devices. When you limit access, users on managed devices will have full access (unless they use one of the browser and operating system combinations listed below). Users on unmanaged devices will have browser-only access with no ability to download, print, or sync files. They also won't be able to access content through apps, including the Microsoft Office desktop apps. When you limit access, you can choose to allow or block editing files in the browser. When web access is limited, users will see the following message at the top of sites.
-
-![The experience when web access is limited](media/unmanaged-device-limited-web-access.png)
+Blocking access helps provide security but comes at the cost of usability and productivity. Limiting access allows users to remain productive while addressing the risk of accidental data loss on unmanaged devices. When you limit access, users on managed devices will have full access (unless they use one of the browser and operating system combinations listed below). Users on unmanaged devices will have browser-only access with no ability to download, print, or sync files. They also won't be able to access content through apps, including the Microsoft Office desktop apps. When you limit access, you can choose to allow or block editing files in the browser.
   
 > [!NOTE]
 > Blocking or limiting access on unmanaged devices relies on Azure AD conditional access policies. [Learn about Azure AD licensing](https://azure.microsoft.com/pricing/details/active-directory/) For an overview of conditional access in Azure AD, see [Conditional access in Azure Active Directory](https://go.microsoft.com/fwlink/?linkid=857717). For info about recommended SharePoint access policies, see [Policy recommendations for securing SharePoint sites and files](https://go.microsoft.com/fwlink/?linkid=871728). If you limit access on unmanaged devices, users on managed devices who have the following browser and operating system combinations will also have limited access: <br>Chrome, Firefox, or any other browser besides Microsoft Edge and Microsoft Internet Explorer on Windows 10 or Windows Server 2016 <br>Firefox in Windows 8.1, Windows 7, Windows Server 2012 R2, Windows Server 2012, or Windows Server 2008 R2 
   
-## Block access using the new SharePoint admin center
-
-1. Sign in to Office 365 as a global admin or SharePoint admin.
-    
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
-    
-3. In the left pane, choose **Admin centers** \> **SharePoint**.
-
-4. In the classic SharePoint admin center, click **Try it now** to open the new SharePoint admin center preview.
-
-5. Click **Access control**, and then select **Unmanaged devices**.
-
-6. Select **Block access**, and then click **Save**.  
-
-    ![The Unmanaged devices pane in the new SharePoint admin center](media/unmanaged-devices-block-access.png)
-  
-7. Go to the Azure AD admin center, and click **Azure Active Directory** in the left pane.
-
-8. Under **Security**, click **Conditional Access**.
-
-9. Select the policy **[SharePoint admin center]Use app-enforced Restrictions for browser access**.
-    
-10. Click **Conditions**, and then select **Client apps**. "Browser" should already be selected. Select **Mobile apps and desktop clients**, select **Modern authentication clients** and **Other clients**, and then click **Done** twice.
-    
-11. Make sure that under **Session**, **Use app enforced restrictions** appears, and make sure that **Enable policy** is **On**.
-
-12. Click **Save**.
-    
-> [!NOTE]
-> It can take 5-10 minutes for the policy to take effect. It won't take effect for users who are already signed in from unmanaged devices.
-
-> [!IMPORTANT]
-> If you block or limit access from unmanaged devices, we recommend also blocking access from apps that don't use modern authentication. Some third-party apps and versions of Office prior to Office 2013 don't use modern authentication and can't enforce device-based restrictions. This means they allow users to bypass conditional access policies that you configure in Azure. In the new SharePoint admin center preview, on the Access control page, click **Apps that don't use modern authentication**, click **Block access**, and then click **Save**. 
- 
- 
-## Block access using the classic SharePoint admin center
+## Block access to SharePoint and OneDrive content using the SharePoint admin center
 
 1. Sign in to Office 365 as a global admin or SharePoint admin.
     
@@ -91,43 +49,18 @@ Limiting access allows users to remain productive while addressing the risk of a
     
     ![The block access setting on the access control page](media/ea0ee472-6fde-4d2d-bc7b-9d3b9eee0d96.PNG)
   
-7. Go to the Azure AD admin center, and click **Azure Active Directory** in the left pane.
-
-8. Under **Security**, click **Conditional Access**.
-
-9. Select the policy **[SharePoint admin center]Use app-enforced Restrictions for browser access**.
+7. Go to the Azure AD admin center, click **Azure Active Directory** in the left pane, and then click **Conditional access**. 
     
-10. Click **Conditions**, and then select **Client apps**. "Browser" should already be selected. Select **Mobile apps and desktop clients**, select **Modern authentication clients** and **Other clients**, and then click **Done** twice.
+8. Under **Conditions**, select both **Mobile apps and desktop clients** and **Browser**.
     
-11. Make sure that under **Session**, **Use app enforced restrictions** appears, and make sure that **Enable policy** is **On**.
-
-12. Click **Save**.
+9. Under **Session**, select **Use app enforced restrictions**. This tells Azure to use the settings you'll specify in SharePoint. Under **Grant**, clear both check boxes.
     
 > [!NOTE]
 > It can take 5-10 minutes for the policy to take effect. It won't take effect for users who are already signed in from unmanaged devices. 
   
 ![Creating a policy in the Azure AD admin center to block access](media/2d892713-3423-4870-b074-4f013b177c3b.png)
   
-## Limit access using the new SharePoint admin center
-
-1. Sign in to Office 365 as a global admin or SharePoint admin.
-    
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
-    
-3. In the left pane, choose **Admin centers** \> **SharePoint**.
-
-4. In the classic SharePoint admin center, click **Try it now** to open the new SharePoint admin center preview.
-
-5. Click **Access control**, and then select **Unmanaged devices**.
-
-6. Select **Allow limited, web-only access**, and then click **Save**.  
-
-    ![The Unmanaged devices pane in the new SharePoint admin center](media/unmanaged-devices-limit-access.png)
-
-> [!IMPORTANT]
-> If you block or limit access from unmanaged devices, we recommend also blocking access from apps that don't use modern authentication. Some third-party apps and versions of Office prior to Office 2013 don't use modern authentication and can't enforce device-based restrictions. This means they allow users to bypass conditional access policies that you configure in Azure. In the new SharePoint admin center preview, on the Access control page, click **Apps that don't use modern authentication**, click **Block access**, and then click **Save**. 
- 
-## Limit access using the classic SharePoint admin center
+## Limit access to SharePoint and OneDrive content using the SharePoint admin center
 
 1. Sign in to Office 365 as a global admin or SharePoint admin.
     
@@ -150,7 +83,7 @@ If you go to the Azure AD admin center and click **Conditional access**, you can
   
 ![Creating two policies in the Azure AD admin center to limit access](media/54c5106a-fd19-49b9-a997-4295e9f788be.png)
   
-## Limit access using PowerShell
+## Limit access to SharePoint and OneDrive content using PowerShell
 
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
     
@@ -161,7 +94,7 @@ If you go to the Azure AD admin center and click **Conditional access**, you can
 > [!NOTE]
 > By default, this policy allows users to view and edit files in their web browser. To change this, see [Advanced configurations](control-access-from-unmanaged-devices.md#advanced). 
   
-## Block or limit access to a specific SharePoint site collection or OneDrive 
+## Block or limit access to specific SharePoint site collections or OneDrive accounts
 
 To block or limit access to specific sites, you must set the organization-wide policy to "Allow full access from desktop apps, mobile apps, and the web." Then follow these steps to manually create a policy in the Azure AD admin center and run PowerShell cmdlets.
   

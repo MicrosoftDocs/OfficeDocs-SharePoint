@@ -87,13 +87,13 @@ Claims-based authentication can be used as an alternative to Kerberos delegation
     
 For more information about Kerberos authentication, see the following resources:
   
-- [Kerberos Survival Guide](https://social.technet.microsoft.com/wiki/contents/articles/4209.kerberos-survival-guide.aspx) 
+- [Kerberos Survival Guide](https://social.technet.microsoft.com/wiki/contents/articles/4209.kerberos-survival-guide.aspx) (https://social.technet.microsoft.com/wiki/contents/articles/4209.kerberos-survival-guide.aspx) 
     
-- [How the Kerberos Version 5 Authentication Protocol Works](https://technet.microsoft.com/en-us/library/cc772815.aspx)
+- [How the Kerberos Version 5](/previous-versions/windows/it-pro/windows-server-2003/cc772815(v=ws.10))
     
 - [Microsoft Kerberos](https://technet.microsoft.com/en-us/windows/aa378747%28v=vs.100%29.aspx)
     
-- [Kerberos Explained](https://technet.microsoft.com/en-us/library/bb742516.aspx)
+- [Kerberos Explained](/previous-versions/windows/it-pro/windows-2000-server/bb742516(v=technet.10))
     
 ## Kerberos authentication and claims-based authentication
 <a name="section2"> </a>
@@ -105,7 +105,7 @@ For more information about Kerberos authentication, see the following resources:
 - [Windows Identity Foundation home page](https://go.microsoft.com/fwlink/p/?LinkId=198943)
     
     
-When you create a SharePoint Server web application by using Central Administration, you must select one or more claims-based authentication types. When you create a SharePoint Server web application by using the **New-SPWebApplication** Microsoft PowerShell cmdlet, you can specify either claims authentication and claims authentication types or classic mode authentication. Claims authentication is recommended for all SharePoint Server web applications. By using claims authentication, all supported authentication types are available for your web applications and you can take advantage of server-to-server authentication and app authentication. For more information, see [What's new in authentication for SharePoint Server 2013](http://technet.microsoft.com/library/d4f4d7c7-916f-40b3-a5d8-bf290353bcf7%28Office.14%29.aspx).
+When you create a SharePoint Server web application by using Central Administration, you must select one or more claims-based authentication types. When you create a SharePoint Server web application by using the **New-SPWebApplication** Microsoft PowerShell cmdlet, you can specify either claims authentication and claims authentication types or classic mode authentication. Claims authentication is recommended for all SharePoint Server web applications. By using claims authentication, all supported authentication types are available for your web applications and you can take advantage of server-to-server authentication and app authentication. For more information, see [What's new in authentication for SharePoint Server 2013](/SharePoint/what-s-new/new-and-improved-features-in-sharepoint-server-2016).
   
 > [!IMPORTANT]
 > The following service applications in SharePoint Server require the translation of claims-based credentials to Windows credentials. This process of translation uses the Claims to Windows Token Service (C2WTS): > **Excel Services**> **PerformancePoint Services**> **InfoPath Forms Services**> **Visio Services**> > These service applications are not available in SharePoint Foundation 2013. Excel Services is not available in SharePoint Server 2016. 

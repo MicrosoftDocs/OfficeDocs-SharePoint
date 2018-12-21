@@ -77,7 +77,7 @@ Before you begin to install and configure SharePoint 2013, do the following:
 > If your computer is in a Workgroup, you cannot install AppFabric for Windows Server. 
   
 > [!NOTE]
-> The Distributed Cache service gives you a complete social computing experience. For more information about the Distributed Cache service, see [Overview of microblog features, feeds, and the Distributed Cache service in SharePoint Server](http://technet.microsoft.com/library/9f928134-dec3-4750-8b99-1191716334b4%28Office.14%29.aspx), [Manage the Distributed Cache service in SharePoint Server](../administration/manage-the-distributed-cache-service.md), [Plan for feeds and the Distributed Cache service in SharePoint Server](../administration/plan-for-feeds-and-the-distributed-cache-service.md), and [What's new in authentication for SharePoint Server 2013](http://technet.microsoft.com/library/d4f4d7c7-916f-40b3-a5d8-bf290353bcf7%28Office.14%29.aspx)
+> The Distributed Cache service gives you a complete social computing experience. For more information about the Distributed Cache service, see [Overview of microblog features, feeds, and the Distributed Cache service in SharePoint Server](/sharepoint/administration/administratio), [Manage the Distributed Cache service in SharePoint Server](../administration/manage-the-distributed-cache-service.md), [Plan for feeds and the Distributed Cache service in SharePoint Server](../administration/plan-for-feeds-and-the-distributed-cache-service.md), and [What's new in authentication for SharePoint Server 2013](/SharePoint/what-s-new/new-and-improved-features-in-sharepoint-server-2016)
   
 #### Using the Microsoft SharePoint Products Preparation Tool
 
@@ -91,7 +91,7 @@ Organizations whose database administrators operate independently from SharePoin
   
 For additional information about DBA databases, see [Database types and descriptions in SharePoint Server](../technical-reference/database-types-and-descriptions.md), [Storage and SQL Server capacity planning and configuration (SharePoint Server)](../administration/storage-and-sql-server-capacity-planning-and-configuration.md), and [Databases that support SharePoint 2013](https://go.microsoft.com/fwlink/p/?LinkId=259177).
   
-Ensure the Max degree of parallelism is set to 1. For additional information about max degree of parallelism see, [Configure the max degree of parallism Server Configuration option](http://technet.microsoft.com/library/86b65bf1-a6a1-4670-afc0-cdfad1558032.aspx) and [Degree of Parallelism](http://technet.microsoft.com/library/7d770f6f-d439-4e1a-9910-2bdd0ff2834e%28Office.14%29.aspx).
+Ensure the Max degree of parallelism is set to 1. For additional information about max degree of parallelism see, [Configure the max degree of parallism Server Configuration option](/sql/database-engine/configure-windows/configure-the-max-degree-of-parallelism-server-configuration-option?view=sql-server-2017) and [Degree of Parallelism](/previous-versions/sql/sql-server-2008-r2/ms188611(v=sql.105)).
   
 #### Public updates and hotfix packages
 
@@ -248,7 +248,7 @@ To create and configure the farm, you run the SharePoint Products Configuration 
     
     The choice that you make here is a matter of personal preference. The Farm Configuration Wizard will configure some services automatically when you run it. However, if you configure services manually, you have greater flexibility in designing your logical architecture.
     
-    If you are using Microsoft Office Online, see [Office Web Apps overview (Installed on SharePoint 2013)](http://technet.microsoft.com/library/8480064e-14a4-4b46-ad6b-0c836b192af2.aspx).
+    If you are using Microsoft Office Online, see [Office Web Apps overview (Installed on SharePoint 2013)](/webappsserver/how-office-web-apps-work-on-premises-with-sharepoint-2013).
     
     > [!IMPORTANT]
     > If you are using a DBA-created database, you cannot use the Farm Configuration Wizard, you must use SharePoint Products Configuration Wizard. 

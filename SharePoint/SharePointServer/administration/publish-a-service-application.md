@@ -93,9 +93,9 @@ Before you begin this operation, review [Share service applications across farms
 
 #### Other Resources
 
-[Publish-SPServiceApplication](http://technet.microsoft.com/library/9ddfa710-05cd-4d1c-83b7-8528f6ed12ad.aspx)
+[Publish-SPServiceApplication](/powershell/module/sharepoint-server/Publish-SPServiceApplication?view=sharepoint-ps)
   
-[Get-SPServiceApplication](http://technet.microsoft.com/library/71a467dc-3b95-4b65-af93-0d0d6ebb8326.aspx)
+[Get-SPServiceApplication](/powershell/module/sharepoint-server/Get-SPServiceApplication?view=sharepoint-ps)
   
-[Get-SPTopologyServiceApplication](http://technet.microsoft.com/library/fc40e2b8-5710-4034-b37f-b4e61008410a.aspx)
+[Get-SPTopologyServiceApplication](/powershell/module/sharepoint-server/Get-SPTopologyServiceApplication?view=sharepoint-ps)
 

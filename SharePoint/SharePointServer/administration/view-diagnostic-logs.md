@@ -38,7 +38,7 @@ You can use PowerShell to view and filter log events. You cannot view or filter 
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Go to the SharePoint Management Shell.
     
@@ -104,7 +104,7 @@ You can use PowerShell to view and filter log events. You cannot view or filter 
   Get-SPLogEvent | Where-Object {$_.Area -eq "SharePoint Foundation"} | Format-List
   ```
 
-For more information, see [Get-SPLogEvent](http://technet.microsoft.com/library/25fd4b29-f4d3-43bb-bf2b-57d395882046.aspx). 
+For more information, see [Get-SPLogEvent](/powershell/module/sharepoint-server/Get-SPLogEvent?view=sharepoint-ps). 
   
 ## View and export diagnostic logs by using the PowerShell Out-GridView cmdlet
 <a name="section2"> </a>
@@ -137,7 +137,7 @@ PowerShell provides a powerful and easy-to-use feature that displays tabular dat
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Go to the SharePoint Management Shell.
     

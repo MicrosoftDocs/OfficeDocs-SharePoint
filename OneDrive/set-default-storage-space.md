@@ -22,7 +22,7 @@ description: "Learn how to change the default storage space for OneDrive users i
 The default storage space for each user's OneDrive user is 1 TB. Depending on your Office 365 plan (see the [OneDrive for Business service description](https://go.microsoft.com/fwlink/?linkid=826071) for info), you can increase the storage up to 5 TB. 
   
 > [!NOTE]
-> For help finding out which subscription you have, see [What Office 365 for business subscription do I have?](https://support.office.com/article/092252f8-08df-4cdb-a8d2-b8653caa29a1)> If your organization has 5 or more users, you can change the storage space to more than 5 TB. Contact Microsoft support to discuss your needs. You must assign at least one license to a user before you can increase the default OneDrive storage space. 
+> For help finding out which subscription you have, see [What Office 365 for business subscription do I have?](/office365/admin/admin-overview/what-subscription-do-i-have?redirectSourcePath=%252farticle%252f092252f8-08df-4cdb-a8d2-b8653caa29a1&view=o365-worldwide)> If your organization has 5 or more users, you can change the storage space to more than 5 TB. Contact Microsoft support to discuss your needs. You must assign at least one license to a user before you can increase the default OneDrive storage space. 
   
 ## Set the default OneDrive storage space in the OneDrive admin center
 

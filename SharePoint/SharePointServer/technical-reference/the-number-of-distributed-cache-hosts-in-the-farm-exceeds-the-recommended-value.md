@@ -40,7 +40,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: The numb
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -60,7 +60,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: The numb
 [Plan for feeds and the Distributed Cache service in SharePoint Server](../administration/plan-for-feeds-and-the-distributed-cache-service.md)
 #### Other Resources
 
-[Add-SPDistributedCacheServiceInstance](http://technet.microsoft.com/library/4f4dbede-70a4-4480-9d7a-4265a04c88d1.aspx)
+[Add-SPDistributedCacheServiceInstance](/powershell/module/sharepoint-server/Add-SPDistributedCacheServiceInstance?view=sharepoint-ps)
   
 [Planning and using the Distributed Cache service](http://go.microsoft.com/fwlink/p/?LinkID=271302)
 

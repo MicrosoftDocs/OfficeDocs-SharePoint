@@ -21,7 +21,7 @@ description: "Learn how to manage your user's self-service site creation."
 
 As a SharePoint admin or Office 365 global admin, you can let your users create and administer their own SharePoint sites, determine what kind of sites they can create, and specify the location of the sites. By default, users can create communication sites as well as team sites that include [Learn about Office 365 groups](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2).
   
-Some functionality is introduced gradually to organizations that have signed up for the [Targeted release option](/office365/admin/manage/release-options-in-office-365). This means that you might not yet see this feature or it might look different than what is described in this article.
+Some functionality is introduced gradually to organizations that have signed up for the [Targeted release option](/office365/admin/manage/release-options-in-office-365?redirectSourcePath=%252farticle%252f3b3adfa4-1777-4ff0-b606-fb8732101f47&view=o365-worldwide). This means that you might not yet see this feature or it might look different than what is described in this article.
   
 ## Allow or prevent users from creating sites and subsites in SharePoint Online
 
@@ -48,13 +48,8 @@ Some functionality is introduced gradually to organizations that have signed up 
   - **A classic site**: Use this option to allow users to create only default classic sites or sites from your custom form. Specify where sites are created, and whether a site classification or secondary contact is required. To specify a custom form, enter the URL for the custom form in the **Use the form at this URL** box. 
     
     > [!NOTE]
-    > For info about classifying Office 365 groups, see [Manage Office 365 Groups with PowerShell](https://support.office.com/article/aeb669aa-1770-4537-9de2-a82ac11b0540#BKMK_CreateClassification). 
+    > For info about classifying Office 365 groups, see [Manage Office 365 Groups with PowerShell](/office365/enterprise/manage-office-365-groups-with-powershell?redirectSourcePath=%252farticle%252faeb669aa-1770-4537-9de2-a82ac11b0540). 
   
 7. Under **Subsite Creation**, specify whether users can create subsites for classic sites, all sites, or not at all. 
-
-    ![Site creation settings](media/subsite-creation.png)
-
-    > [!NOTE]
-    > This setting controls only the New menu on modern pages. It doesn't prevent users from creating subsites through classic pages.
 
 8. Click **OK**.

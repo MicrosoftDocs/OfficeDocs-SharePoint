@@ -35,9 +35,9 @@ You do not want to upgrade content that you do not have to keep. If it was unuse
   
 For more information about how to delete site collections and subwebs, see the following articles:
   
-- [Remove-SPSite](http://technet.microsoft.com/library/f2c49315-8eed-49ec-8a32-dc15a008d0dc.aspx)
+- [Remove-SPSite](/powershell/module/sharepoint-server/Remove-SPSite?view=sharepoint-ps)
     
-- [Remove-SPWeb](http://technet.microsoft.com/library/c9bc8078-626a-4838-b12b-21f1bb832935.aspx)
+- [Remove-SPWeb](/powershell/module/sharepoint-server/Remove-SPWeb?view=sharepoint-ps)
     
 ### Check large lists (lists with lots of data)
 
@@ -65,7 +65,7 @@ First, verify that no sites are using the template, feature, or Web Part. You ca
   
 You can remove a feature during site collection upgrade. Simple features can also be removed by deprecating them in the template. You can use feature upgrade to remove more complex features. For more information, see [Upgrading Features](https://go.microsoft.com/fwlink/p/?LinkId=254688) and [Feature Upgrade Overview](https://go.microsoft.com/fwlink/p/?LinkId=254690) on MSDN. 
   
-For more information about how to identify customizations in your environment, see [Use a trial upgrade to SharePoint 2013 to find potential issues](http://technet.microsoft.com/library/2b5d3825-adba-4185-84f2-ef59e8110fac%28Office.14%29.aspx). If customizations are not being used, delete them. For more information about how to manage these kinds of customizations, see [Features and Templates](https://go.microsoft.com/fwlink/p/?LinkId=182338) and [Solutions and Web Part Packages](https://go.microsoft.com/fwlink/p/?LinkId=182332) on MSDN. 
+For more information about how to identify customizations in your environment, see [Use a trial upgrade to SharePoint 2013 to find potential issues](/previous-versions/office/sharepoint-server-2010/cc262155(v=office.14)). If customizations are not being used, delete them. For more information about how to manage these kinds of customizations, see [Features and Templates](https://go.microsoft.com/fwlink/p/?LinkId=182338) and [Solutions and Web Part Packages](https://go.microsoft.com/fwlink/p/?LinkId=182332) on MSDN. 
   
 ### Remove PowerPoint Broadcast sites
 
@@ -85,7 +85,7 @@ You can also use the **Get-SPSite** and **Remove-SPSite** PowerShell commands to
 Get-SPSite | Where-Object{$_.RootWeb.Template -eq "PowerPointBroadcast#0"} | Remove-SPSite
 ```
 
-Be sure to back up these sites before you remove them. For more information, see [Get-SPSite](http://technet.microsoft.com/library/f3422bf4-0f9b-4f22-94c8-2a0606a31b16.aspx) and [Remove-SPSite](http://technet.microsoft.com/library/f2c49315-8eed-49ec-8a32-dc15a008d0dc.aspx).
+Be sure to back up these sites before you remove them. For more information, see [Get-SPSite](/powershell/module/sharepoint-server/Get-SPSite?view=sharepoint-ps) and [Remove-SPSite](/powershell/module/sharepoint-server/Remove-SPSite?view=sharepoint-ps).
   
 ### Remove FAST Search Center sites
 
@@ -118,7 +118,7 @@ To check for sites in the old experience, on the SharePoint 2010 Products enviro
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. On the **Start** menu, click **All Programs**.
     
@@ -138,7 +138,7 @@ To check for sites in the old experience, on the SharePoint 2010 Products enviro
   Get-SPSite | ForEach-Object{$_.VisualUpgradeWebs()}
   ```
 
-For more information, see [Get-SPSite](http://technet.microsoft.com/library/f3422bf4-0f9b-4f22-94c8-2a0606a31b16.aspx) and [Manage visual upgrade (SharePoint Server 2010)](https://go.microsoft.com/fwlink/?LinkId=403882).
+For more information, see [Get-SPSite](/powershell/module/sharepoint-server/Get-SPSite?view=sharepoint-ps) and [Manage visual upgrade (SharePoint Server 2010)](https://go.microsoft.com/fwlink/?LinkId=403882).
   
 ### Repair data issues
 
@@ -148,9 +148,9 @@ Make sure that you repair all issues in your databases or site content before yo
     
     Clean up your databases to remove any orphaned sites or other corrupted data, such as a corrupted list. Consider defragmenting if you have removed sites or subsites from the database. For more information, see:
     
-  - [Databaserepair: Stsadm operation](https://technet.microsoft.com/library/cc263282%28office.12%29.aspx)
+  - [Databaserepair: Stsadm operation](/previous-versions/office/sharepoint-2007-products-and-technologies/cc263282(v=office.12))
     
-  - [Forcedeletelist: Stsadm operation](https://technet.microsoft.com/library/cc262609%28office.12%29.aspx)
+  - [Forcedeletelist: Stsadm operation](/previous-versions/office/sharepoint-2007-products-and-technologies/cc262609(v=office.12))
     
 - **Check databases for duplicate or orphaned site collections**
     
@@ -158,11 +158,11 @@ Make sure that you repair all issues in your databases or site content before yo
     
     Before you upgrade, use the **Enumallwebs** operation in stsadm command-line tool to discover which sites are in which content databases and compare the results. Also, examine each site collection in the results and check whether it is listed as missing in the site map. Being listed as missing indicates that it is an orphaned site. For more information, see [Enumallwebs: Stsadm operation](https://go.microsoft.com/fwlink/?LinkId=403887). If you find duplicate or orphaned sites, you can use the **Remove-SPSite** cmdlet in PowerShell to remove the duplicate or orphaned sites from the database. 
     
-    For more information, see [Remove-SPSite](http://technet.microsoft.com/library/f2c49315-8eed-49ec-8a32-dc15a008d0dc.aspx).
+    For more information, see [Remove-SPSite](/powershell/module/sharepoint-server/Remove-SPSite?view=sharepoint-ps).
     
 - **Check variations**
     
-    In publishing environments, check for any variations that must be fixed. For more information, see [Variationsfixuptool: Stsadm operation](https://technet.microsoft.com/library/dd789658%28office.12%29.aspx).
+    In publishing environments, check for any variations that must be fixed. For more information, see [Variationsfixuptool: Stsadm operation](/previous-versions/office/sharepoint-2007-products-and-technologies/dd789658(v=office.12)).
     
 ## How to make structural changes
 <a name="Structure"> </a>
@@ -171,16 +171,16 @@ To make structural changes to your environment, such as moving site collections 
   
 - **Move-SPSite** Use this to move site collections between databases. If a database is very large or contains lots of site collections, you can move sites to address this to make upgrade more efficient. Also, you can move all collaboration sites into one database and all My Sites into another to make the upgrade administration easier for those different sets of sites. You can also use this operation to divide large databases if they contain multiple site collections. This can also help increase upgrade efficiency. 
     
-    For more information, see [Move-SPSite](http://technet.microsoft.com/library/e3bf1b34-78b9-4643-b0dd-24444e3cffc5.aspx).
+    For more information, see [Move-SPSite](/powershell/module/sharepoint-server/Move-SPSite?view=sharepoint-ps).
     
-- **Export-SPWeb and Import-SPWeb** Use this method to move subwebs or site collections inside a farm or between farms. For more information, see [Export-SPWeb](http://technet.microsoft.com/library/cd85bf19-6f24-4f13-bd9c-37bbf279ea2b.aspx) and [Import-SPWeb](http://technet.microsoft.com/library/2ecc5b6e-1b23-4367-a966-b7bd3377db3a.aspx).
+- **Export-SPWeb and Import-SPWeb** Use this method to move subwebs or site collections inside a farm or between farms. For more information, see [Export-SPWeb](/powershell/module/sharepoint-server/Export-SPWeb?view=sharepoint-ps) and [Import-SPWeb](/powershell/module/sharepoint-server/Import-SPWeb?view=sharepoint-ps).
     
 ## See also
 <a name="Structure"> </a>
 
 #### Other Resources
 
-[Use a trial upgrade to SharePoint 2013 to find potential issues](http://technet.microsoft.com/library/2b5d3825-adba-4185-84f2-ef59e8110fac%28Office.14%29.aspx)
+[Use a trial upgrade to SharePoint 2013 to find potential issues](/previous-versions/office/sharepoint-server-2010/cc262155(v=office.14))
   
 [Best practices for upgrading from SharePoint 2010 to SharePoint 2013](best-practices-for-upgrading-from-sharepoint-2010-to-sharepoint-2013.md)
 

@@ -46,7 +46,7 @@ Before you begin to install and configure SharePoint 2013, do the following:
 - Ensure the Max degree of parallelism is set to 1. For additional information about max degree of parallelism see, [Configure the max degree of parallelism Server Configuration Option](http://go.microsoft.com/fwlink/p/?LinkId=780865&amp;clcid=0x409)and [Degree of Parallelism](http://go.microsoft.com/fwlink/p/?LinkId=780866&amp;clcid=0x409).
     
 > [!NOTE]
-> The Distributed Cache service gives you a complete social computing experience. For more information about the Distributed Cache service, see [Overview of microblog features, feeds, and the Distributed Cache service in SharePoint Server](http://technet.microsoft.com/library/9f928134-dec3-4750-8b99-1191716334b4%28Office.14%29.aspx), [Manage the Distributed Cache service in SharePoint Server](../administration/manage-the-distributed-cache-service.md), [Plan for feeds and the Distributed Cache service in SharePoint Server](../administration/plan-for-feeds-and-the-distributed-cache-service.md), and [What's new in authentication for SharePoint Server 2013](http://technet.microsoft.com/library/d4f4d7c7-916f-40b3-a5d8-bf290353bcf7%28Office.14%29.aspx)
+> The Distributed Cache service gives you a complete social computing experience. For more information about the Distributed Cache service, see [Overview of microblog features, feeds, and the Distributed Cache service in SharePoint Server](/sharepoint/administration/administration), [Manage the Distributed Cache service in SharePoint Server](../administration/manage-the-distributed-cache-service.md), [Plan for feeds and the Distributed Cache service in SharePoint Server](../administration/plan-for-feeds-and-the-distributed-cache-service.md), and [What's new in authentication for SharePoint Server 2013](/SharePoint/what-s-new/new-and-improved-features-in-sharepoint-server-2016)
   
 > [!SECURITY NOTE]
 > As a security best practice, we recommend that you install SharePoint 2013 by using least-privilege administration. 
@@ -300,7 +300,7 @@ You have now completed setup and the initial configuration of SharePoint 2013. Y
 6. In the **Services** section, review the services that you want to use in the farm, and then click **Next**.
     
     > [!NOTE]
-    > If you are using Office Online, see [Office Web Apps (SharePoint 2013)](http://technet.microsoft.com/library/8a58e6c2-9a0e-4355-ae41-4df25e5e6eee.aspx). 
+    > If you are using Office Online, see [Office Web Apps (SharePoint 2013)](/webappsserver/use-office-web-apps-with-sharepoint-2013). 
   
 7. On the **Create Site Collection** page, do the following: 
     

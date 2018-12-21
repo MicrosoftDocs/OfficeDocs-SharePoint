@@ -70,5 +70,5 @@ Where  _CacheSize_ is the cache size's memory allocation assignment in MB. In th
 
 #### Other Resources
 
-[Update-SPDistributedCacheSize](http://technet.microsoft.com/library/8e483d89-60a9-48b8-a2e3-2e848159833b.aspx)
+[Update-SPDistributedCacheSize](/powershell/module/sharepoint-server/Update-SPDistributedCacheSize?view=sharepoint-ps)
 

@@ -59,7 +59,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: InfoPath
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -69,6 +69,6 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: InfoPath
   Set-SPInfoPathFormsService -AllowUserFormBrowserRendering $true
   ```
 
-For more information, see [Set-SPInfoPathFormsService](http://technet.microsoft.com/library/ac13cd00-c372-4159-943d-98c016c7e96a.aspx).
+For more information, see [Set-SPInfoPathFormsService](/powershell/module/sharepoint-server/Set-SPInfoPathFormsService?view=sharepoint-ps).
   
 

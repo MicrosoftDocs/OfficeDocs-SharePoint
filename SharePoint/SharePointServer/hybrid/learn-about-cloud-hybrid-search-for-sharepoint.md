@@ -115,7 +115,7 @@ The crawler can crawl the same default file types as in earlier SharePoint Serve
   
 ### The search schema in SharePoint Online in Office 365
 
-You manage the search schema in SharePoint Online, see [Manage the Search Center in SharePoint Online](https://support.office.com/article/174D36E0-2F85-461A-AD9A-8B3F434A4213).
+You manage the search schema in SharePoint Online, see [Manage the Search Center in SharePoint Online](/sharepoint/manage-search-center?redirectSourcePath=%252farticle%252f174D36E0-2F85-461A-AD9A-8B3F434A4213).
   
 The default mappings between crawled and managed properties in the search schema in Office 365 also apply to the on-premises content. As long as you don't remove your existing, standard SSA, you can still set up a search schema in SharePoint Server, but this search schema won't apply to your on-premises content that the cloud SSA crawls.
   

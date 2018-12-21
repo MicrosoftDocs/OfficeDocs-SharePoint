@@ -27,6 +27,6 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: One or m
   
  **Resolution:**
   
-1. You have to configure the app domains for web applications. For more information, see [Enable apps in AAM or host-header environments for SharePoint 2016](http://technet.microsoft.com/library/07a71f5b-deb9-4eb0-b039-35fd073276df%28Office.14%29.aspx).
+1. You have to configure the app domains for web applications. For more information, see [Enable apps in AAM or host-header environments for SharePoint 2016](/SharePoint/administration/plan-for-apps-for-sharepoint).
     
 

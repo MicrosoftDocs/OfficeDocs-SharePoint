@@ -26,9 +26,9 @@ The information in this section is intended to help administrators manually conf
     
 - [Monitoring and Reporting in SharePoint Server](monitoring-overview.md)
     
-- [Solving problems and troubleshooting in SharePoint Server](http://technet.microsoft.com/library/7d7db565-d572-4fd3-a30c-2856d98c897c%28Office.14%29.aspx)
+- [Solving problems and troubleshooting in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee748639(v=office.14))
     
-Before you read this article, you should read [Capacity management and sizing overview for SharePoint Server 2013](http://technet.microsoft.com/library/45dc078f-de39-425c-a94f-1de78b68052e%28Office.14%29.aspx).
+Before you read this article, you should read [Capacity management and sizing overview for SharePoint Server 2013](/previous-versions/office/sharepoint-server-2010/ff758647(v=office.14)).
   
     
 ## Configuring monitoring
@@ -181,5 +181,5 @@ You may have to resolve bottleneck issues by making changes to hardware or syste
   
 #### Other Resources
 
-[Capacity management and sizing overview for SharePoint Server 2013](http://technet.microsoft.com/library/45dc078f-de39-425c-a94f-1de78b68052e%28Office.14%29.aspx)
+[Capacity management and sizing overview for SharePoint Server 2013](/previous-versions/office/sharepoint-server-2010/ff758647(v=office.14))
 

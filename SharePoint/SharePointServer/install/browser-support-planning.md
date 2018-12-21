@@ -112,5 +112,5 @@ To learn about the different mobile device browsers supported, see [Mobile devic
 
 #### Other Resources
 
-[Plan for SharePoint Server](http://technet.microsoft.com/library/0ed0b44c-d60d-4b85-87de-19065d968835%28Office.14%29.aspx)
+[Plan for SharePoint Server](/previous-versions/office/sharepoint-server-2010/cc261834(v=office.14))
 

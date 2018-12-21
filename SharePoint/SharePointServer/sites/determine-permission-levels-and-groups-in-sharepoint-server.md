@@ -123,7 +123,7 @@ You should customize the default permission levels if either of the following si
 - A default permission level includes a permission that the users do not have to have.
     
     > [!NOTE]
-    > Do not customize the default permission levels if your organization has security or other concerns about a specific permission that is part of the permission level. If you want to make that permission unavailable for all users assigned to the permission level or levels that include that permission, turn off the permission for all Web applications in your server farm, instead of change all of the permission levels To manage permissions for a web application, see [Manage permissions for a web application in SharePoint Server](https://technet.microsoft.com/library/28a53440-2adc-4957-84bd-99ed97f0c430). 
+    > Do not customize the default permission levels if your organization has security or other concerns about a specific permission that is part of the permission level. If you want to make that permission unavailable for all users assigned to the permission level or levels that include that permission, turn off the permission for all Web applications in your server farm, instead of change all of the permission levels To manage permissions for a web application, see [Manage permissions for a web application in SharePoint Server](/SharePoint/administration/manage-permissions-for-a-web-application). 
   
 If you must make several changes to a permission level, create a custom permission level that includes all of the permissions that you need.
   

@@ -162,7 +162,7 @@ The SharePoint Newsfeed App is supported for both on-premises and SharePoint Onl
 |**On-premises** <br/> |![SPNewsfeed On-premises](../media/SP15Mobile_SPNewsOnPrem.jpg)| Supported Authentication Types  <br/>  Windows Authentication  <br/>  Forms Based Authentication  <br/>  SAML  <br/> |
 |**SharePoint Online** <br/> |![SPNewsfeed SPO](../media/SP15Mobile_SPNewsSPO.jpg)| Supported Authentication Types  <br/>  Forms Based Authentication  <br/>  SAML  <br/> |
    
-For more information on how to deploy the SharePoint Newsfeed App in your network, including configuring cross-firewall access, see [Configure external access for mobile devices in SharePoint Server](http://technet.microsoft.com/library/63d940ce-0a15-49b2-b703-36e37600aa1b%28Office.14%29.aspx).
+For more information on how to deploy the SharePoint Newsfeed App in your network, including configuring cross-firewall access, see [Configure external access for mobile devices in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ff393835(v=office.14)).
   
 ## See also
 <a name="section2"> </a>

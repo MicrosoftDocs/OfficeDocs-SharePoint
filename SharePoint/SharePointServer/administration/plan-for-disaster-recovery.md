@@ -166,6 +166,6 @@ In addition to the previous requirements, farm recovery time will also be affect
 
 #### Other Resources
 
-[What workloads can you protect with Azure Site Recovery?](https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-workload)
+[What workloads can you protect with Azure Site Recovery?](/azure/site-recovery/site-recovery-workload)
 
-[Replicate a multi-tier SharePoint application for disaster recovery using Azure Site Recovery](https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-sharepoint)
+[Replicate a multi-tier SharePoint application for disaster recovery using Azure Site Recovery](/azure/site-recovery/site-recovery-sharepoint)

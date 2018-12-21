@@ -25,7 +25,7 @@ description: "Learn how to enable display of previews of on-premises search resu
 
 Learn how to enable display of previews of on-premises search results in a Search Center in Office 365 for cloud hybrid search.
   
-In [cloud hybrid search](https://support.office.com/article/af830951-8ddf-48b2-8340-179c1cc4d291), when users search in Office 365, they get search results from both on-premises and Office 365 content. When a user hovers over a search result that comes from Office 365, information about the content as well as a preview of the content is displayed. Information about the content from search results that come from SharePoint Server is displayed automatically, but display of previews is not automatic. You can enable such display of previews for content from SharePoint Server 2013 and SharePoint Server 2016, but not for content from SharePoint Server 2010. Users can click search results that come from SharePoint Server 2010, SharePoint Server 2013, and SharePoint Server 2016 to access the content.
+In [cloud hybrid search](/SharePoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint), when users search in Office 365, they get search results from both on-premises and Office 365 content. When a user hovers over a search result that comes from Office 365, information about the content as well as a preview of the content is displayed. Information about the content from search results that come from SharePoint Server is displayed automatically, but display of previews is not automatic. You can enable such display of previews for content from SharePoint Server 2013 and SharePoint Server 2016, but not for content from SharePoint Server 2010. Users can click search results that come from SharePoint Server 2010, SharePoint Server 2013, and SharePoint Server 2016 to access the content.
   
 To enable previews for on-premises content in SharePoint Server you need to set up an on-premises Office Online Server and configure SharePoint Server to use it.
   
@@ -45,9 +45,9 @@ Office Online Server is an Office server product that lets users access their do
 
 Follow these procedures:
   
-1. [Deploy Office Online Server](https://docs.microsoft.com/officeonlineserver/deploy-office-online-server)
+1. [Deploy the Office Web Apps Server farm](http://technet.microsoft.com/library/08532dbd-3cd9-4508-a0a4-2d343667d239.aspx#BKMK_Deploy_Web_Apps_Server)
     
-2. [Configure Office Online Server for SharePoint Server](https://docs.microsoft.com/officeonlineserver/configure-office-online-server-for-sharepoint-server-2016/configure-office-online-server-for-sharepoint-server-2016)
+2. [Configure SharePoint Server 2013 to use the Office Web Apps Server](http://technet.microsoft.com/library/08532dbd-3cd9-4508-a0a4-2d343667d239.aspx#BKMK_Config_SP_Use_Web_Apps)
     
 3. Optional: Make the Office Online Server accessible outside the corporate network.
     
@@ -56,9 +56,9 @@ Follow these procedures:
 
 Office Online Server needs to be on a separate server than SharePoint Server. Here are the steps for deploying the Office Online Server farm:
   
-1. [Plan how to use the Office Web Apps Server](https://technet.microsoft.com/en-us/library/jj219435%28v=office.15%29.aspx).
+1. [Plan how to use the Office Web Apps Server](/webappsserver/plan-office-web-apps-server).
     
-2. [Deploy Office Web Apps Server](https://technet.microsoft.com/en-us/library/jj219455.aspx), here's an overview of the steps:
+2. [Deploy Office Web Apps Server](/webappsserver/deploy-office-web-apps-server), here's an overview of the steps:
     
   - Prepare each server in the Office Online Server farm to run Office Online Server. This includes installing prerequisite software of Office Online Server, installing Office Online Server and related updates, and installing language packs for Office Online Server.
     
@@ -67,9 +67,9 @@ Office Online Server needs to be on a separate server than SharePoint Server. He
 ### Configure SharePoint Server to use the Office Online Server
 <a name="BKMK_Config_SP_Use_Web_Apps"> </a>
 
-1. [Plan how you want to use Office Web Apps with SharePoint 2013.](https://technet.microsoft.com/en-us/library/ff431682.aspx)
+1. [Plan how you want to use Office Web Apps with SharePoint 2013.](/webappsserver/plan-office-web-apps-used-with-sharepoint-2013)
     
-2. [Configure SharePoint 2013 to use Office Web Apps Server](https://technet.microsoft.com/en-us/library/ff431687.aspx). Here's an overview of the steps:
+2. [Configure SharePoint 2013 to use Office Web Apps Server](/webappsserver/configure-office-web-apps-for-sharepoint-2013). Here's an overview of the steps:
     
   - Create a binding between SharePoint Server and the Office Online Server so traffic from the Office Online Server can enter SharePoint Server.
     
@@ -81,9 +81,9 @@ Office Online Server needs to be on a separate server than SharePoint Server. He
 
 #### Other Resources
 
-[Learn about cloud hybrid search for SharePoint](https://support.office.com/article/af830951-8ddf-48b2-8340-179c1cc4d291)
+[Learn about cloud hybrid search for SharePoint](/SharePoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint)
   
-[Plan cloud hybrid search for SharePoint](https://support.office.com/article/33926857-302c-424f-ba78-03286cf5ac30)
+[Plan cloud hybrid search for SharePoint](/SharePoint/hybrid/plan-cloud-hybrid-search-for-sharepoint)
   
-[Configure cloud hybrid search for SharePoint](https://technet.microsoft.com/library/0bba350d-ec33-43db-a873-930559c78dee%28v=office.16%29.aspx)
+[Configure cloud hybrid search for SharePoint](/SharePoint/hybrid/configure-cloud-hybrid-searchroadmap)
 

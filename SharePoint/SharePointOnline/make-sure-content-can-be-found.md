@@ -34,7 +34,7 @@ In some cases, you may want to manually request crawling and full re-indexing of
   
 ## Search across on-premises and online content
   
-Hybrid search lets your users search for files and documents across SharePoint Server and Office 365 at the same time. [Hybrid search in SharePoint](https://support.office.com/article/1a7269ba-5aa7-481b-b608-030c58fa932e).
+Hybrid search lets your users search for files and documents across SharePoint Server and Office 365 at the same time. [Hybrid search in SharePoint](/SharePoint/hybrid/hybrid-search-in-sharepoint).
   
 ## Remove search results temporarily
   

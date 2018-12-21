@@ -49,8 +49,8 @@ The following table lists the default managed properties and their attributes. F
 |Colleagues  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |People:Colleagues  <br/> ||
 |CombinedName  <br/> |Text  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |No  <br/> |People:CombinedName  <br/> ||
 |CombinedUserProfileNames  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |||
-|companies  <br/> |Text  <br/> |Yes  <br/> |No  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |People:companies <br/> ||
-|contentclass  <br/> |Text  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |DAV:contentclass, DAV:contentclass, DAV:contentclass  <br/> |DAV:contentclass  <br/> |
+|companies  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
+|contentclass  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |DAV:contentclass, DAV:contentclass, DAV:contentclass  <br/> |DAV:contentclass  <br/> |
 |ContentModifiedTime  <br/> |Date and Time  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
 |Contents  <br/> |Text  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |ows_VideoSetDescription, ows_DocumentSetDescription, Basic:19  <br/> ||
 |ContentsHidden  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |People:SPS-Location, People:Office, People:SPS-PastProjects  <br/> ||

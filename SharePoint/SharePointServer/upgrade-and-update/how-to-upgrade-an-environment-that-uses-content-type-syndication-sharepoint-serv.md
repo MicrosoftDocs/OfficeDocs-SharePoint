@@ -160,7 +160,7 @@ The following illustration shows the steps to follow to restore and upgrade the 
     
   - **Push-down Content Type Publishing updates from the Content Type Gallery to sub-sites and lists using the content type.**
     
-    For more information, see [Update a managed metadata service connection](http://technet.microsoft.com/library/94f8453b-bebb-4fbd-ab9b-ddb1f6136a50.aspx#section2).
+    For more information, see [Update a managed metadata service connection](/previous-versions/office/sharepoint-server-2010/ee530391(v=office.14)#section2).
     
 4. Create a web application to host the upgraded content type hub (ContentTypeHub1) and consuming site collections. Be sure to use the same authentication method as was used in the 2010 environment.
     
@@ -179,7 +179,7 @@ The following illustration shows the steps to follow to restore and upgrade the 
   Set-SPMetadataServiceApplication -Identity "<ServiceApplication>" -HubURI "<HubURI>"
   ```
 
-    For information, see [Set-SPMetadataServiceApplication](http://technet.microsoft.com/library/305625db-541a-454f-b6cd-4a17da74a0b7.aspx).
+    For information, see [Set-SPMetadataServiceApplication](/powershell/module/sharepoint-server/Set-SPMetadataServiceApplication?view=sharepoint-ps).
     
 7. Upgrade the ContentTypeHub1 site collection to 2013 mode.
     
@@ -222,7 +222,7 @@ The following illustration shows the steps to create additional Managed Metadata
     
   - **Push-down Content Type Publishing updates from the Content Type Gallery to sub-sites and lists using the content type.**
     
-    For more information, see [Update a managed metadata service connection](http://technet.microsoft.com/library/94f8453b-bebb-4fbd-ab9b-ddb1f6136a50.aspx#section2).
+    For more information, see [Update a managed metadata service connection](/previous-versions/office/sharepoint-server-2010/ee530391(v=office.14)#section2).
     
 2. In Central Administration, create a Managed Metadata service application (Managed Metadata 3) and set the **Content Type Hub** property to the original content type hub in the 2010 environment (ContentTypeHub1 in the 2010 farm). 
     
@@ -238,7 +238,7 @@ The following illustration shows the steps to create additional Managed Metadata
     
   - **Push-down Content Type Publishing updates from the Content Type Gallery to sub-sites and lists using the content type.**
     
-    For more information, see [Update a managed metadata service connection](http://technet.microsoft.com/library/94f8453b-bebb-4fbd-ab9b-ddb1f6136a50.aspx#section2).
+    For more information, see [Update a managed metadata service connection](/previous-versions/office/sharepoint-server-2010/ee530391(v=office.14)#section2).
     
 3. Share the Managed Metadata 1 and Managed Metadata 3 service applications to the 2010 environment. 
     

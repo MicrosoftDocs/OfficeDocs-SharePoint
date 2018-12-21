@@ -59,7 +59,7 @@ For example, you have to make sure that the on-premises search center site(s) th
 By default, OAuth in SharePoint Server requires **HTTPS**. If you configured your primary web application to use **HTTP** instead of SSL, you have to enable OAuth over **HTTP** on every web server in your SharePoint Server farm. 
   
 > [!NOTE]
-> If you configured your primary web application to use SSL, this step is not required.
+> If you configured your primary web application to use SSL, this step is not required, and you can skip ahead to [OBSOLETE Configure a two-way hybrid topology](http://technet.microsoft.com/library/76cba2da-f120-48c4-8aa7-a5ba2c9cc7b9%28Office.14%29.aspx#configurespo). 
   
 To enable OAuth over HTTP, run the following commands as a farm administrator account from the SharePoint 2016 Management Shell command prompt on each web server in your SharePoint Server farm.
   

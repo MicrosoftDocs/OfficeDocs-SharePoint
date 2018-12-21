@@ -34,7 +34,7 @@ The SharePoint home page experience includes the following features:
 
   - **Featured links:** These are links that are important and useful for your organization. Anyone who is an admin of the My Site Host site can set these links.
 
-  - **Create Site:** With the Self-Service Site Creation (SSSC) feature you can give users the ability to create a new modern site collection, Communication or Team sites. For more information, see [Configure self-service site creation in SharePoint Server 2019](https://docs.microsoft.com/en-us/SharePoint/sites/configure-self-service-site-creation-in-sharepoint-server-2019).
+  - **Create Site:** With the Self-Service Site Creation (SSSC) feature you can give users the ability to create a new modern site collection, Communication or Team sites. For more information, see [Configure self-service site creation in SharePoint Server 2019](/SharePoint/sites/configure-self-service-site-creation-in-sharepoint-server-2019).
 
   - **News from sites:** Display recent news from Following and Suggested sites.
 
@@ -88,10 +88,10 @@ If you find any issues with the SharePoint home page, first check items in the f
 
 #### Concepts
 
-[Create a User Profile service application in SharePoint Server](https://docs.microsoft.com/en-us/SharePoint/install/create-a-user-profile-service-application)
+[Create a User Profile service application in SharePoint Server](/SharePoint/install/create-a-user-profile-service-application)
 
-[Configure profile synchronization by using SharePoint Active Directory Import in SharePoint Server](https://docs.microsoft.com/en-us/sharepoint/administration/configure-profile-synchronization-by-using-sharepoint-active-directory-import)
+[Configure profile synchronization by using SharePoint Active Directory Import in SharePoint Server](/sharepoint/administration/configure-profile-synchronization-by-using-sharepoint-active-directory-import)
 
-[Manage the Distributed Cache service in SharePoint Server](https://docs.microsoft.com/en-us/sharepoint/administration/manage-the-distributed-cache-service)
+[Manage the Distributed Cache service in SharePoint Server](/sharepoint/administration/manage-the-distributed-cache-service)
 
-[Congiure self-service site creation in SharePoint Server 2019](https://docs.microsoft.com/en-us/sharepoint/sites/configure-self-service-site-creation-in-sharepoint-server-2019)
+[Congiure self-service site creation in SharePoint Server 2019](/sharepoint/sites/configure-self-service-site-creation-in-sharepoint-server-2019)

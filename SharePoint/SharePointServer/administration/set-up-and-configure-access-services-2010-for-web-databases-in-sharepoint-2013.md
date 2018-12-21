@@ -25,7 +25,7 @@ The Access client is not required to use the published web database. However, th
 ## Set up SQL Server Reporting Services
 <a name="section1"> </a>
 
-You can update existing reports in an Access web database, but these reports require the installation and configuration of SQL Server Reporting Services Mode for SharePoint and the content database must be running SQL Server 2012. For more information, see [Install Reporting Services SharePoint Mode for SharePoint 2013](https://technet.microsoft.com/en-us/library/jj219068.aspx) in SQL Server Books Online. 
+You can update existing reports in an Access web database, but these reports require the installation and configuration of SQL Server Reporting Services Mode for SharePoint and the content database must be running SQL Server 2012. For more information, see [Install Reporting Services SharePoint Mode for SharePoint 2013](/sql/reporting-services/install-windows/install-the-first-report-server-in-sharepoint-mode?view=sql-server-2016) in SQL Server Books Online. 
   
 ## Start Access Database Service 2010
 <a name="section2"> </a>

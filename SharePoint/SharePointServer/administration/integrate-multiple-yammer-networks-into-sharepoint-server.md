@@ -18,7 +18,7 @@ description: "Learn how to integrate multiple active Yammer networks together wi
 
 This scenario describes the prerequisites and recommended steps to integrate multiple active Yammer networks together with your SharePoint Server environment.
 
-    [!NOTE] Multiple active Yammer networks on one Office 365 account are no longer supported after October 26, 2018. For more information, see [FAQ: Consolidating multiple Yammer networks](http://docs.microsoft.com/yammer/configure-your-yammer-network/faq-consolidate-multiple-yammer-networks)
+    [!NOTE] Multiple active Yammer networks on one Office 365 account are no longer supported after October 26, 2018. For more information, see [FAQ: Consolidating multiple Yammer networks](/yammer/configure-your-yammer-network/faq-consolidate-multiple-yammer-networks)
   
 ## Scenario prerequisites
 
@@ -47,7 +47,7 @@ Merging Yammer networks merges the users, but not the data. Before doing the mer
   
 When you are ready to merge networks:
   
-- Follow the directions in [Combine multiple Yammer networks](http://technet.microsoft.com/library/218e799e-0e88-4883-95aa-a2ffb744f101.aspx).
+- Follow the directions in [Combine multiple Yammer networks](/yammer/configure-your-yammer-network/consolidate-multiple-yammer-networks?redirectSourcePath=%252farticle%252fa22c1b20-9231-4ce2-a916-392b1056d002).
     
 - Inform users in the parent network that new users are joining, and encourage current users to welcome the new ones.
     

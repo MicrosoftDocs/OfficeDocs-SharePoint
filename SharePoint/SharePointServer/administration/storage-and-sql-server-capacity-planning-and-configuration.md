@@ -165,7 +165,7 @@ The SQL Server 2016 Reporting Services (SSRS) add-in can be used with any ShareP
 - The SQL Server 2008 R2 Reporting Services (SSRS) plug-in can be used with any SharePoint 2013 environment. If you are using the plug-in, plan to support the two SQL Server 2008 R2 Reporting Services databases and the additional load that is required for SQL Server 2008 R2 Reporting Services.
  
 > [!NOTE]
-> SQL Server Reporting Services integration with SharePoint Server 2019 is no longer supported. For more information, see [Reporting Services Report Server (SharePoint Mode)](https://docs.microsoft.com/en-us/sql/reporting-services/report-server-sharepoint/reporting-services-report-server-sharepoint-mode?view=sql-server-2016&viewFallbackFrom=sql-server-2017) and [Supported combinations of SharePoint and Reporting Services server](https://docs.microsoft.com/en-us/sql/reporting-services/install-windows/supported-combinations-of-sharepoint-and-reporting-services-server?view=sql-server-2016).
+> SQL Server Reporting Services integration with SharePoint Server 2019 is no longer supported. For more information, see [Reporting Services Report Server (SharePoint Mode)](/sql/reporting-services/report-server-sharepoint/reporting-services-report-server-sharepoint-mode?view=sql-server-2016&viewFallbackFrom=sql-server-2017) and [Supported combinations of SharePoint and Reporting Services server](/sql/reporting-services/install-windows/supported-combinations-of-sharepoint-and-reporting-services-server?view=sql-server-2016).
     
 
 <a name="Section1_5a"> </a>
@@ -263,7 +263,7 @@ The following SharePoint Server features can significantly affect the size of co
   - Based on the space that you want to allocate, determine the number of days of audit logs you want to keep.
     
 > [!NOTE]
-> Office Online Server is the next version of Office Web Apps Server. Using Office Online Server with SharePoint Servers 2016 and 2019 doesn't affect the size of the content database. To deploy Office Online Server in your SharePoint Server 2016 farm, see [Deploy Office Online Server](https://docs.microsoft.com/en-us/officeonlineserver/deploy-office-online-server). 
+> Office Online Server is the next version of Office Web Apps Server. Using Office Online Server with SharePoint Servers 2016 and 2019 doesn't affect the size of the content database. To deploy Office Online Server in your SharePoint Server 2016 farm, see [Deploy Office Online Server](/officeonlineserver/deploy-office-online-server). 
   
 #### Estimate content database IOPS requirements
 
@@ -326,7 +326,7 @@ We recommend that for SharePoint Servers 2016 and 2019 you consider running your
  
 For more information about the benefits of these versions, see [Features Supported by the Editions of SQL Server 2014](http://go.microsoft.com/fwlink/?LinkID=808793&amp;clcid=0x409), [Editions and supported features of SQL Server 2016](http://go.microsoft.com/fwlink/?LinkID=524888&amp;clcid=0x409), and [Editions and supported features of SQL Server 2017](https://go.microsoft.com/fwlink/?linkid=865116).
   
-We recommend that for SharePoint Server 2013 you consider running your environment on the Enterprise Edition of SQL Server 2008 R2 with Service Pack 1 (SP1), SQL Server 2012, or SQL Server 2014 to take advantage of the additional performance, availability, security, and management capabilities that these versions provide. For more information about the benefits of SQL Server 2008 R2 with SP1, SQL Server 2012, and SQL Server 2014 Enterprise Edition, see [Features Supported by the Editions of SQL Server 2014](http://go.microsoft.com/fwlink/?LinkID=808793&amp;clcid=0x409), [Features Supported by the Editions of SQL Server 2012](https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2012/cc645993(v=sql.110)), and [Features Supported by the Editions of SQL Server 2008 R2](https://go.microsoft.com/fwlink/p/?LinkId=317246).
+We recommend that for SharePoint Server 2013 you consider running your environment on the Enterprise Edition of SQL Server 2008 R2 with Service Pack 1 (SP1), SQL Server 2012, or SQL Server 2014 to take advantage of the additional performance, availability, security, and management capabilities that these versions provide. For more information about the benefits of SQL Server 2008 R2 with SP1, SQL Server 2012, and SQL Server 2014 Enterprise Edition, see [Features Supported by the Editions of SQL Server 2014](http://go.microsoft.com/fwlink/?LinkID=808793&amp;clcid=0x409), [Features Supported by the Editions of SQL Server 2012](/previous-versions/sql/sql-server-2012/cc645993(v=sql.110)), and [Features Supported by the Editions of SQL Server 2008 R2](https://go.microsoft.com/fwlink/p/?LinkId=317246).
   
 In particular, you should consider your need for the following features: 
   
@@ -542,7 +542,7 @@ On the server that is running SQL Server, we recommend that the L2 cache per CPU
 
 For optimal performance when you configure a physical storage array, adhere to the hardware configuration recommendations supplied by the storage vendor instead of relying on the default values of the operating system.
   
-If you do not have guidance from your vendor, we recommend using the PowerShell storage cmdlets that are available for Windows Server 2012 R2. For more information, see [Storage Cmdlets in Windows PowerShell](https://docs.microsoft.com/powershell/module/storage/index?view=win10-ps).
+If you do not have guidance from your vendor, we recommend using the PowerShell storage cmdlets that are available for Windows Server 2012 R2. For more information, see [Storage Cmdlets in Windows PowerShell](/powershell/module/storage/index?view=win10-ps).
   
 #### Provide as many resources as possible
 
@@ -715,7 +715,7 @@ For more information and memory troubleshooting methods, see the following resou
     
 - [Monitor CPU Usage](http://go.microsoft.com/fwlink/?LinkID=808811&amp;clcid=0x409)
     
-For more information and memory troubleshooting methods, see [Monitoring Memory Usage](https://go.microsoft.com/fwlink/p/?LinkId=317260) for SQL Server 2008 R2 with SP1, [Monitoring Memory Usage](https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2012/ms176018(v=sql.110)) for SQL Server 2012, and [Monitor Memory Usage](https://docs.microsoft.com/en-us/sql/relational-databases/performance-monitor/monitor-memory-usage?view=sql-server-2014) for SQL Server 2014. 
+For more information and memory troubleshooting methods, see [Monitoring Memory Usage](https://go.microsoft.com/fwlink/p/?LinkId=317260) for SQL Server 2008 R2 with SP1, [Monitoring Memory Usage](/previous-versions/sql/sql-server-2012/ms176018(v=sql.110)) for SQL Server 2012, and [Monitor Memory Usage](/sql/relational-databases/performance-monitor/monitor-memory-usage?view=sql-server-2014) for SQL Server 2014. 
   
 ### Disk counters to monitor
 

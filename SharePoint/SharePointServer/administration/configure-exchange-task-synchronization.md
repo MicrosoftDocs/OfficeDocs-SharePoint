@@ -20,7 +20,7 @@ description: "Configuring Exchange Server 2016 and SharePoint Server for task sy
 Configuring task Synchronization can be relatively complex. By following the guidance below, you should be able to quickly configure task synchronization between your Exchange Server 2016, SharePoint Server 2013 and Project Server 2013 environments. This is great functionality for any business, because you are able to integrate tasks from different applications into one application, like Outlook 2016 or SharePoint MySites.
   
 > [!NOTE]
-> It's possible you came here looking for the OOF Integration between Project Server and Exchange topic. If that's the case, see [Exchange Server calendar OOF integration with Project Server 2013](http://technet.microsoft.com/library/0bef7c78-4864-4775-8b44-d96bcf82fdae.aspx). 
+> It's possible you came here looking for the OOF Integration between Project Server and Exchange topic. If that's the case, see [Exchange Server calendar OOF integration with Project Server 2013](/project/exchange-server-calendar-oof-integration-with-project-server-2013). 
   
 > [!IMPORTANT]
 > The Work Management service application was deprecated in SharePoint Server 2016 so you can configure Exchange task synchronization in SharePoint Server 2013 only. 
@@ -36,7 +36,7 @@ What you need to know before you begin:
     
 - For discovering task additions and changes, you need to have the **Search service application** running as well, and set for **incremental or continuous** crawling. For more information, you can read [Create and configure a Search service application in SharePoint Server 2016](../search/create-and-configure-a-search-service-application.md).
     
-- It's very important that you have **Secure Sockets Layer (SSL)** running for your SharePoint web application, this is required for security reasons (if you're browsing to a site where the URL starts with http, that's using SSL). If you're not familiar with SSL, the [Create claims-based web applications in SharePoint Server](http://technet.microsoft.com/library/83496762-172a-44a4-bf57-1d7ea8008d7d%28Office.14%29.aspx) can help. If you're in a test environment and you're using **self-SSL**, I've put the steps for this at the bottom of this article. 
+- It's very important that you have **Secure Sockets Layer (SSL)** running for your SharePoint web application, this is required for security reasons (if you're browsing to a site where the URL starts with http, that's using SSL). If you're not familiar with SSL, the [Create claims-based web applications in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806885(v=office.14)) can help. If you're in a test environment and you're using **self-SSL**, I've put the steps for this at the bottom of this article. 
     
 - You'll probably want to have **MySites** enabled for SharePoint, to see tasks in one place in SharePoint. You can also view them in **Outlook**. 
     

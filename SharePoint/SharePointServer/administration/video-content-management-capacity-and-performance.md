@@ -142,5 +142,5 @@ Note that videos that are stored outside a SharePoint environment do not receive
 [Manage web parts in SharePoint Server](../sites/manage-web-parts.md)
 #### Other Resources
 
-[Digital asset library planning in SharePoint Server 2013](http://technet.microsoft.com/library/12df8fdb-3244-49da-85fe-cb491ad9dfb4%28Office.14%29.aspx)
+[Digital asset library planning in SharePoint Server 2013](/previous-versions/office/sharepoint-server-2010/ee428298(v=office.14))
 

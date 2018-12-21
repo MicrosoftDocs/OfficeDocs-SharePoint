@@ -26,13 +26,13 @@ Before you begin this task, review the following information about prerequisites
   
 - You must be using Excel 2016 and SharePoint Server 2013.
     
-- Excel Services must be configured to include a trusted data connections library and a trusted documents library. Ideally, you'll have a Business Intelligence Center site configured that you can use for your data connections and workbooks. For more information, see [Configure a Business Intelligence Center in SharePoint Server 2013](http://technet.microsoft.com/library/7c52a0e8-81fa-43af-aec8-d3ed3febdbf1%28Office.14%29.aspx).
+- Excel Services must be configured to include a trusted data connections library and a trusted documents library. Ideally, you'll have a Business Intelligence Center site configured that you can use for your data connections and workbooks. For more information, see [Configure a Business Intelligence Center in SharePoint Server 2013](/SharePoint/sharepoint-server).
     
 - You must have at least Contribute permissions assigned in SharePoint Server 2013.
     
 - You will need information from a SharePoint administrator about how data authentication is configured for the databases your organization uses. This can affect how you connect to different data sources. 
     
-- If you plan to publish workbooks that contain data models to SharePoint Server 2013, Excel Services must be configured to support data models. For more information, see [Configure Excel Services in SharePoint Server 2013 Preview](http://technet.microsoft.com/library/9cb81758-9d0b-4970-9ca0-a75eedf6093b.aspx).
+- If you plan to publish workbooks that contain data models to SharePoint Server 2013, Excel Services must be configured to support data models. For more information, see [Configure Excel Services in SharePoint Server 2013 Preview](/SharePoint/administration/configure-excel-services).
     
 ## Step 1: Use Excel to create connections to SQL Server Analysis Services data
 <a name="part1"> </a>

@@ -61,15 +61,13 @@ When users download locations for the first time, bandwidth usage will spike. To
 Below you can see and contrast the patterns of network utilization in cases of classic sync and when Files On-Demand functionality is enable
   
 ![OneDrive Sync Client Network Load Patterns](media/6c03ed78-0575-454a-9cf0-989c7ae7451a.png)
-
+  
 #### Operational sync
 
 After the initial sync is complete, the network usage will decrease and then level out. 
   
 > [!NOTE]
 > Network usage varies depending on file types most frequently synced. When users change Office files, only the changes are uploaded or downloaded and not the whole file. For other types of files, the whole file is uploaded or downloaded. You should expect traffic to be higher during regular work hours when users are online and working on files. 
-
->A spike in upload traffic is expected if you deploy the Known Folder Move setting in your organization. If your organization is large and your users have a lot of files in their known folders, make sure you roll out the Group Policy objects slowly to minimize the network impact of uploading files.
   
 ## Control sync throughput
 <a name="ControlSyncThroughput"> </a>
@@ -129,5 +127,5 @@ For info about these policies, see:
 ## See also
 <a name="ControlSyncThroughput"> </a>
 
-[Network planning and performance tuning for Office 365](https://support.office.com/article/e5f1228c-da3c-4654-bf16-d163daee8848)
+[Network planning and performance tuning for Office 365](/office365/enterprise/network-planning-and-performance?redirectSourcePath=%252farticle%252fe5f1228c-da3c-4654-bf16-d163daee8848)
 

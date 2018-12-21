@@ -27,9 +27,9 @@ The following sections provide instructions for configuring SSL communication wi
 
 Enable Secure Sockets Layer (SSL) in IIS Manager. For guidance on completing the configuration, see the following:
   
-- [Configuring SSL in IIS Manager](https://docs.microsoft.com/en-us/iis/manage/configuring-security/configuring-ssl-in-iis-manager)
+- [Configuring SSL in IIS Manager](/iis/manage/configuring-security/configuring-ssl-in-iis-manager)
     
-- [How to Set Up SSL on IIS 7](https://docs.microsoft.com/en-us/iis/manage/configuring-security/how-to-set-up-ssl-on-iis)
+- [How to Set Up SSL on IIS 7](/iis/manage/configuring-security/how-to-set-up-ssl-on-iis)
     
 ### Install Workflow Manager certificates in SharePoint
 <a name="appendix2"> </a>

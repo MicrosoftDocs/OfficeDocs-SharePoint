@@ -42,7 +42,7 @@ Here is the configuration, with placeholder names for each server.
 Two virtual machines for each role ensure high availability. All of the virtual machines are in a single cross-premises Azure virtual network. Each group of virtual machines for a specific role is in its own subnet and availability set.
   
 > [!NOTE]
-> Because this VNet is connected to the on-premises network, this configuration does not include jumpbox or monitoring virtual machines on a management subnet. For more information, see [Running Windows VMs for an N-tier architecture](https://docs.microsoft.com/azure/guidance/guidance-compute-n-tier-vm). 
+> Because this VNet is connected to the on-premises network, this configuration does not include jumpbox or monitoring virtual machines on a management subnet. For more information, see [Running Windows VMs for an N-tier architecture](/azure/architecture/reference-architectures/n-tier/n-tier-sql-server). 
   
 ## Bill of materials
 
@@ -79,26 +79,26 @@ To compute the estimated costs for this configuration, see the [Azure pricing ca
 
 You deploy this SharePoint Server 2016 farm with the following phases:
   
-- [SharePoint Intranet Farm in Azure Phase 1: Configure Azure](https://docs.microsoft.com/SharePoint/administration/sharepoint-intranet-farm-in-azure-phase-1-configure-azure)
+- [SharePoint Intranet Farm in Azure Phase 1: Configure Azure](http://technet.microsoft.com/library/f957e1ce-0a39-490c-b533-4ddab4f5bb7a%28Office.14%29.aspx)
     
     Create resource groups, availability sets, and a cross-premises virtual network.
     
-- [SharePoint Intranet Farm in Azure Phase 2: Configure domain controllers](https://docs.microsoft.com/SharePoint/administration/sharepoint-intranet-farm-in-azure-phase-2-configure-domain-controllers)
+- [SharePoint Intranet Farm in Azure Phase 2: Configure domain controllers](http://technet.microsoft.com/library/5f80cdb8-d6d1-45f0-9710-d30544fcb3e6%28Office.14%29.aspx)
     
     Create and configure replica Windows Server Active Directory (AD) domain controllers
     
     > [!NOTE]
-    > SharePoint Server 2016 also supports the use of [Azure Active Directory (AD) Domain Services](https://docs.microsoft.com/azure/active-directory-domain-services/active-directory-ds-overview) as a substitute for virtual machines running as domain replicas. However, at this time, this deployment guide only describes the use of virtual machine-based replica domain controllers. 
+    > SharePoint Server 2016 also supports the use of [Azure Active Directory (AD) Domain Services](/azure/active-directory-domain-services/active-directory-ds-overview) as a substitute for virtual machines running as domain replicas. However, at this time, this deployment guide only describes the use of virtual machine-based replica domain controllers. 
   
-- [SharePoint Intranet Farm in Azure Phase 3: Configure SQL Server Infrastructure](https://docs.microsoft.com/SharePoint/administration/sharepoint-intranet-farm-in-azure-phase-3-configure-sql-server-infrastructure)
+- [SharePoint Intranet Farm in Azure Phase 3: Configure SQL Server Infrastructure](http://technet.microsoft.com/library/b71ccbbf-37c0-46c2-a403-20934e1e104e%28Office.14%29.aspx)
     
     Create and configure the SQL Server virtual machines, prepare them for use with SharePoint, and create the cluster.
     
-- [SharePoint Intranet Farm in Azure Phase 4: Configure SharePoint servers](https://docs.microsoft.com/SharePoint/administration/sharepoint-intranet-farm-in-azure-phase-4-configure-sharepoint-servers)
+- [SharePoint Intranet Farm in Azure Phase 4: Configure SharePoint servers](http://technet.microsoft.com/library/8c733fb9-18b9-4770-b90b-364bd7ab30d1%28Office.14%29.aspx)
     
     Create and configure the four SharePoint server virtual machines.
     
-- [SharePoint Intranet Farm in Azure Phase 5: Create the availability group and add the SharePoint databases](https://docs.microsoft.com/SharePoint/administration/sharepoint-intranet-farm-in-azure-phase-5-create-the-availability-group-and-add)
+- [SharePoint Intranet Farm in Azure Phase 5: Create the availability group and add the SharePoint databases](http://technet.microsoft.com/library/62d0b8d3-e8ea-4523-a69f-62623fb340fb%28Office.14%29.aspx)
     
     Prepare databases and create a SQL Server AlwaysOn availability group.
     
@@ -112,7 +112,7 @@ To build a dev/test environment or a proof-of-concept of this configuration, see
   
 ## Next step
 
-Start the configuration with [SharePoint Intranet Farm in Azure Phase 1: Configure Azure](https://docs.microsoft.com/SharePoint/administration/sharepoint-intranet-farm-in-azure-phase-1-configure-azure).
+Start the configuration with [SharePoint Intranet Farm in Azure Phase 1: Configure Azure](http://technet.microsoft.com/library/f957e1ce-0a39-490c-b533-4ddab4f5bb7a%28Office.14%29.aspx).
   
 > [!TIP]
 > For a set of files to more quickly deploy your SharePoint Server 2016 high availability farm in Azure, see the [SharePoint Server 2016 High Availability Farm in Azure Deployment Kit](https://gallery.technet.microsoft.com/SharePoint-Server-2016-3d3d9071). 

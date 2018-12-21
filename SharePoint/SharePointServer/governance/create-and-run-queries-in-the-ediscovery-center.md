@@ -79,9 +79,9 @@ By default, a query searches across all content sources, you can choose which di
 
 For more information about eDiscovery cases, see the following articles:
   
-[Scenario: eDiscovery in SharePoint Server 2013 and Exchange Server 2013](https://technet.microsoft.com/en-us/sharepoint/jj650012)
+[Scenario: eDiscovery in SharePoint Server 2013 and Exchange Server 2013](/sharepoint/)
   
-[Plan and manage cases in the eDiscovery Center](https://docs.microsoft.com/sharepoint/governance/plan-and-manage-cases-in-the-ediscovery-center)
+[Plan and manage cases in the eDiscovery Center](http://technet.microsoft.com/library/d955aeb8-0d48-4291-a8e2-f3b84f17943f%28Office.14%29.aspx)
   
 [Add content to a case and place sources on hold in the eDiscovery Center](add-content-to-a-case-and-place-sources-on-hold-in-the-ediscovery-center.md)
   

@@ -28,7 +28,7 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server 2016 and 201
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-blue.svg" alt="Get started" />
+                            <img src="/office/media/icons/get-started-blue.svg" alt="Get started" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -40,13 +40,13 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server 2016 and 201
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/sharepointmigration/migrate-to-sharepoint-online">
+        <a href="/sharepointmigration/migrate-to-sharepoint-online">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/migration-blue.svg" alt="Migrate" />
+                            <img src="/office/media/icons/migration-blue.svg" alt="Migrate" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -64,7 +64,7 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server 2016 and 201
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/hybrid-blue.svg" alt="Hybrid" />
+                            <img src="/office/media/icons/hybrid-blue.svg" alt="Hybrid" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -82,7 +82,7 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server 2016 and 201
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/globe-internet.svg" alt="Community" />
+                            <img src="/office/media/icons/globe-internet.svg" alt="Community" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -100,7 +100,7 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server 2016 and 201
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/chat.svg" alt="Feedback" />
+                            <img src="/office/media/icons/chat.svg" alt="Feedback" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -118,7 +118,7 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server 2016 and 201
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/users-people.svg" alt="Learn about" />
+                            <img src="/office/media/icons/users-people.svg" alt="Learn about" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -216,10 +216,10 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server 2016 and 201
                 <div class="card">
                     <div class="cardText">
                         <h3>Legacy content</h3>
-                        <p><a href="https://support.office.com/en-us/article/sharepoint-server-2007-end-of-support-roadmap-ba124775-d5c0-4d68-b88d-8458ad4c3717">SharePoint Server 2007 end of support roadmap</a></p>
-                        <p><a href="https://support.office.com/en-us/article/upgrading-from-sharepoint-2010-985a357f-6db7-401f-bf7a-1bafdf1f312c">Upgrading from Server 2010 and end of support</a></p>
-                        <p><a href="https://technet.microsoft.com/en-us/library/ee428287(v=office.14).aspx">SharePoint Server 2010</a></p>
-                        <p><a href="https://technet.microsoft.com/en-us/library/cc303422(v=office.12).aspx">SharePoint Server 2007</a></p>
+                        <p><a href="/office365/enterprise/sharepoint-2007-end-of-support?redirectSourcePath=%252fen-us%252farticle%252fsharepoint-server-2007-end-of-support-roadmap-ba124775-d5c0-4d68-b88d-8458ad4c3717">SharePoint Server 2007 end of support roadmap</a></p>
+                        <p><a href="/office365/enterprise/upgrade-from-sharepoint-2010?redirectSourcePath=%252fen-us%252farticle%252fupgrading-from-sharepoint-2010-985a357f-6db7-401f-bf7a-1bafdf1f312c">Upgrading from Server 2010 and end of support</a></p>
+                        <p><a href="/previous-versions/office/">SharePoint Server 2010</a></p>
+                        <p><a href="/previous-versions/office/sharepoint-2007-products-and-technologies/cc303422(v=office.12)">SharePoint Server 2007</a></p>
                     </div>
                 </div>
             </div>

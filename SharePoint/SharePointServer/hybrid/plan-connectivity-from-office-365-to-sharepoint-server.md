@@ -94,7 +94,7 @@ A web application's public URL is always used as the root URL in all links to si
   
 Alternate access mapping (AAM) is needed **only** when you are configuring inbound connectivity using a path-based site collection with a public URL that is different than the external URL. AAM lets you associate the external URL with the internal URL of a SharePoint site inside your organization. This enables SharePoint Server to route requests for internal URLs configured in AAM to the corresponding primary web application. 
   
-For more information about claims-based web applications, see [Create claims-based web applications in SharePoint Server](http://technet.microsoft.com/library/83496762-172a-44a4-bf57-1d7ea8008d7d%28Office.14%29.aspx).
+For more information about claims-based web applications, see [Create claims-based web applications in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806885(v=office.14)).
   
 For more information about how to extend a web application, see [Extend claims-based web applications in SharePoint](../administration/extend-a-claims-based-web-application.md).
   
@@ -133,7 +133,7 @@ Site collections used for hybrid functionality must meet all these requirements,
     
     To create a host-named site collection, the web application must be created to enable them. You cannot enable this functionality after the web application has been created.
     
-    For more information about how to create a host-named site collection, see [Host-named site collection architecture and deployment in SharePoint Server](http://technet.microsoft.com/library/3ea30845-37e4-4a9e-badd-b1c8313e4bf3%28Office.14%29.aspx).
+    For more information about how to create a host-named site collection, see [Host-named site collection architecture and deployment in SharePoint Server](/previous-versions/office/sharepoint-server-2010/cc424952(v=office.14)).
     
     > [!NOTE]
     > Although this is a web application requirement, it is listed here because it applies only to environments that have host-named site collections. 
@@ -188,6 +188,8 @@ If you decide to use an existing web application as the primary web application,
 |||
 |:-----|:-----|
 |![Edit icon](../media/mod_icon_edit_m.png)| Record the following information on the worksheet:  <br/>  Depending on your site collection strategy, record the URL of the primary web application in the **Primary web application URL** row of Table 5a, 5b, or 5c.  <br/>  If you are using an existing host-named site collection, record the URL of the top-level site collection in the **Host-named site collection URL** row in Table 5a.  <br/> |
+   
+After you record this information, go to the section [OBSOLETE Plan a two-way hybrid topology](http://technet.microsoft.com/library/b42cf0ce-9442-441b-ac63-b1aa2b56c4bc%28Office.14%29.aspx#certificates).
   
 #### Plan to create a new web application
 <a name="newwebapp"> </a>

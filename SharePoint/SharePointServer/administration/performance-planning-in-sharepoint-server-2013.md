@@ -18,7 +18,7 @@ description: "Performance and capacity planning is the process of mapping your s
 
 [!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
-![Small icon representing Microsoft Project](../media/ProjectIconSmall.png) Relevant performance and capacity planning articles for Project Server 2016 are available in the Project Server document library at [Plan for performance and capacity (Project Server 2013)](http://technet.microsoft.com/library/5f5110f0-2a72-4509-97a4-6896838bed1e.aspx).
+![Small icon representing Microsoft Project](../media/ProjectIconSmall.png) Relevant performance and capacity planning articles for Project Server 2016 are available in the Project Server document library at [Plan for performance and capacity (Project Server 2013)](/project/plan-for-performance-and-capacity-in-project-server-2013).
   
 ## Articles about performance and capacity management
 
@@ -36,6 +36,6 @@ The following resources about performance and capacity management are available 
   
 ||**Content**|**Description**|
 |:-----|:-----|:-----|
-|![TechNet logo](../media/otc_LandingPage_55px_MSTechNetLogo.png)|[Capabilities and features in SharePoint 2013 Resource Center](https://technet.microsoft.com/en-us/sharepoint/fp142374) <br/> [Architecture design for SharePoint 2013 IT pros](https://technet.microsoft.com/en-US/sharepoint/fp123594) <br/> |Visit the TechCenter to access videos, community sites, documentation, and more.  <br/> |
+|![TechNet logo](../media/otc_LandingPage_55px_MSTechNetLogo.png)|[Capabilities and features in SharePoint 2013 Resource Center](/sharepoint/) <br/> [Architecture design for SharePoint 2013 IT pros](/sharepoint/) <br/> |Visit the TechCenter to access videos, community sites, documentation, and more.  <br/> |
    
 

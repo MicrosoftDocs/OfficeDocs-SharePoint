@@ -32,7 +32,7 @@ Using the EffectiveUserName option allows passing the user's identity to SQL Ser
 
 Before starting, read the following information about permissions and software requirements.
   
-- This scenario assumes that you have Excel Services configured on your farm and an Excel Services trusted file location where you can save your report. For information about configuring Excel Services, see [Overview of Excel Services in SharePoint Server 2013](excel-services-overview.md) and [Configure Excel Services in SharePoint Server 2013 Preview](http://technet.microsoft.com/library/9cb81758-9d0b-4970-9ca0-a75eedf6093b.aspx). For information about configuring a trusted file location, see [Manage Excel Services trusted file locations (SharePoint Server 2013)](manage-excel-services-trusted-file-locations.md).
+- This scenario assumes that you have Excel Services configured on your farm and an Excel Services trusted file location where you can save your report. For information about configuring Excel Services, see [Overview of Excel Services in SharePoint Server 2013](excel-services-overview.md) and [Configure Excel Services in SharePoint Server 2013 Preview](/SharePoint/administration/configure-excel-services). For information about configuring a trusted file location, see [Manage Excel Services trusted file locations (SharePoint Server 2013)](manage-excel-services-trusted-file-locations.md).
     
 - This scenario requires that you have Farm Administrator access to the SharePoint Server 2013 farm and administrator access to SQL Server Analysis Services.
     

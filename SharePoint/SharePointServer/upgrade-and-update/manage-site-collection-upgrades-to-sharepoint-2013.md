@@ -29,7 +29,7 @@ Farm administrators can control settings for site collection upgrade, such as no
 ## Control upgrade notifications and self-service upgrade
 <a name="UpgradeNotifications"> </a>
 
-When a site collection is available to upgrade, site collection administrators see a status bar on their sites indicating that they can upgrade them. They can choose to upgrade the site collection then or be reminded later. You can control settings for these notifications and control whether site collection administrators can upgrade their site collections. For more information about these properties, see [Plan for site collection upgrades in SharePoint 2013](http://technet.microsoft.com/library/e7455e3f-6770-4785-8d3e-da72cb7de261%28Office.14%29.aspx#Notifications).
+When a site collection is available to upgrade, site collection administrators see a status bar on their sites indicating that they can upgrade them. They can choose to upgrade the site collection then or be reminded later. You can control settings for these notifications and control whether site collection administrators can upgrade their site collections. For more information about these properties, see [Plan for site collection upgrades in SharePoint 2013](/previous-versions/office/sharepoint-server-2010/ff191199(v=office.14)#Notifications).
   
  **To view the upgrade notification and self-service upgrade settings by using PowerShell**
   
@@ -44,7 +44,7 @@ When a site collection is available to upgrade, site collection administrators s
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell. 
     
@@ -75,7 +75,7 @@ When a site collection is available to upgrade, site collection administrators s
     
   -  _\<Value\>_ is either 'true' to allow site collection administrators to upgrade the site, or 'false' to not show them the notification and not allow them to upgrade. 
     
-For more information, see [Get-SPWebApplication](http://technet.microsoft.com/library/11d6521f-f99c-433e-9ab5-7cf9e953457a.aspx) and [Get-SPSite](http://technet.microsoft.com/library/f3422bf4-0f9b-4f22-94c8-2a0606a31b16.aspx).
+For more information, see [Get-SPWebApplication](/powershell/module/sharepoint-server/Get-SPWebApplication?view=sharepoint-ps) and [Get-SPSite](/powershell/module/sharepoint-server/Get-SPSite?view=sharepoint-ps).
   
  **To change the upgrade notification and self-service upgrade settings for a web application by using PowerShell**
   
@@ -90,7 +90,7 @@ For more information, see [Get-SPWebApplication](http://technet.microsoft.com/li
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell. 
     
@@ -124,7 +124,7 @@ For more information, see [Get-SPWebApplication](http://technet.microsoft.com/li
     
   -  _\<Value\>_ is either 'true' to allow site collection administrators to upgrade the site, or 'false' to not show them the notification and not allow them to upgrade. 
     
-For more information, see [Get-SPWebApplication](http://technet.microsoft.com/library/11d6521f-f99c-433e-9ab5-7cf9e953457a.aspx) and [Get-SPSite](http://technet.microsoft.com/library/f3422bf4-0f9b-4f22-94c8-2a0606a31b16.aspx).
+For more information, see [Get-SPWebApplication](/powershell/module/sharepoint-server/Get-SPWebApplication?view=sharepoint-ps) and [Get-SPSite](/powershell/module/sharepoint-server/Get-SPSite?view=sharepoint-ps).
   
 ## Control the compatibility range for site creation modes
 <a name="UpgradeNotifications"> </a>
@@ -144,7 +144,7 @@ You can control which mode (2010 or 2013, or both) can be used when a user creat
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell. 
     
@@ -189,7 +189,7 @@ You can control which mode (2010 or 2013, or both) can be used when a user creat
   
   ```
 
-For more information, see [Get-SPWebApplication](http://technet.microsoft.com/library/11d6521f-f99c-433e-9ab5-7cf9e953457a.aspx).
+For more information, see [Get-SPWebApplication](/powershell/module/sharepoint-server/Get-SPWebApplication?view=sharepoint-ps).
   
  **To change compatibility range for site creation modes for a web application by using PowerShell**
   
@@ -204,7 +204,7 @@ For more information, see [Get-SPWebApplication](http://technet.microsoft.com/li
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell. 
     
@@ -259,7 +259,7 @@ For more information, see [Get-SPWebApplication](http://technet.microsoft.com/li
   
   ```
 
-For more information, see [Get-SPWebApplication](http://technet.microsoft.com/library/11d6521f-f99c-433e-9ab5-7cf9e953457a.aspx).
+For more information, see [Get-SPWebApplication](/powershell/module/sharepoint-server/Get-SPWebApplication?view=sharepoint-ps).
   
 ## Control the queue for upgrades of sites to SharePoint 2013
 <a name="Queue"> </a>
@@ -299,7 +299,7 @@ The following procedure contains steps to view and manage the site collection up
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell. 
     
@@ -313,7 +313,7 @@ The following procedure contains steps to view and manage the site collection up
     
   -  _\<DatabaseName\>_ is name of the database that you want to check. You can also use the GUID for the database instead of the name. 
     
-    For more information, see [Get-SPSiteUpgradeSessionInfo](http://technet.microsoft.com/library/e16dd385-1e08-4325-8318-e19e4b752868.aspx). 
+    For more information, see [Get-SPSiteUpgradeSessionInfo](/powershell/module/sharepoint-server/Get-SPSiteUpgradeSessionInfo?view=sharepoint-ps). 
     
 4. To see all sites that are currently being upgraded, at the PowerShell command prompt, type the following command:
     
@@ -325,7 +325,7 @@ The following procedure contains steps to view and manage the site collection up
     
   -  _\<DatabaseName\>_ is name of the database that you want to check. You can also use the GUID for the database instead of the name. 
     
-    For more information, see [Get-SPSiteUpgradeSessionInfo](http://technet.microsoft.com/library/e16dd385-1e08-4325-8318-e19e4b752868.aspx). 
+    For more information, see [Get-SPSiteUpgradeSessionInfo](/powershell/module/sharepoint-server/Get-SPSiteUpgradeSessionInfo?view=sharepoint-ps). 
     
 5. To see whether a particular site is in the queue, at the PowerShell command prompt, type the following command:
     
@@ -337,7 +337,7 @@ The following procedure contains steps to view and manage the site collection up
     
   -  _\<http://site\>_ is URL for the site collection you want to add to the upgrade queue. 
     
-    For more information, see [Get-SPSiteUpgradeSessionInfo](http://technet.microsoft.com/library/e16dd385-1e08-4325-8318-e19e4b752868.aspx). 
+    For more information, see [Get-SPSiteUpgradeSessionInfo](/powershell/module/sharepoint-server/Get-SPSiteUpgradeSessionInfo?view=sharepoint-ps). 
     
 6. To add a site collection to the upgrade queue, at the PowerShell command prompt, type the following command:
     
@@ -349,7 +349,7 @@ The following procedure contains steps to view and manage the site collection up
     
   -  _\<http://site\>_ is URL for the site collection you want to add to the upgrade queue. 
     
-    For more information, see [Upgrade-SPSite](http://technet.microsoft.com/library/3dc2f4ae-8ca1-4912-94ea-93c8b6cdd096.aspx). 
+    For more information, see [Upgrade-SPSite](/powershell/module/sharepoint-server/Upgrade-SPSite?view=sharepoint-ps). 
     
 7. To remove a site collection from the upgrade queue, at the PowerShell command prompt, type the following command:
     
@@ -361,7 +361,7 @@ The following procedure contains steps to view and manage the site collection up
     
   -  _\<URL\>_ is URL for the site collection you want to add to the upgrade queue. 
     
-    For more information, see [Remove-SPSiteUpgradeSessionInfo](http://technet.microsoft.com/library/d2f5926e-130f-4c73-b4a2-22fded90c3cb.aspx). 
+    For more information, see [Remove-SPSiteUpgradeSessionInfo](/powershell/module/sharepoint-server/Remove-SPSiteUpgradeSessionInfo?view=sharepoint-ps). 
     
 ## Control site throttle settings for upgrade to SharePoint 2013
 <a name="Throttling"> </a>
@@ -385,7 +385,7 @@ The following procedure provides steps to view upgrade throttling settings for a
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell. 
     
@@ -417,7 +417,7 @@ The following procedure provides steps to view upgrade throttling settings for a
   Farm                                 : SPFarm Name=SharePoint_ConfigUpgradedPersistedProperties          : {}
   ```
 
-For more information, see [Get-SPWebApplication](http://technet.microsoft.com/library/11d6521f-f99c-433e-9ab5-7cf9e953457a.aspx).
+For more information, see [Get-SPWebApplication](/powershell/module/sharepoint-server/Get-SPWebApplication?view=sharepoint-ps).
   
 You can change the upgrade throttle settings for a web application. The following procedure provides steps to change the upgrade throttling settings for a web application. 
   
@@ -434,7 +434,7 @@ You can change the upgrade throttle settings for a web application. The followin
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell. 
     
@@ -455,7 +455,7 @@ You can change the upgrade throttle settings for a web application. The followin
     
     This command changes the throttling settings for a web application to the value that you supply. 
     
-For more information, see [Set-SPWebApplication](http://technet.microsoft.com/library/0dd61e54-0e77-44b3-86c5-fabc128efa7b.aspx). 
+For more information, see [Set-SPWebApplication](/powershell/module/sharepoint-server/Set-SPWebApplication?view=sharepoint-ps). 
   
 The following procedure provides steps to view upgrade throttling settings for a content database. 
   
@@ -472,7 +472,7 @@ The following procedure provides steps to view upgrade throttling settings for a
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell. 
     
@@ -494,7 +494,7 @@ The following procedure provides steps to view upgrade throttling settings for a
     
     This command returns the set of throttling settings for the specified content database.
     
-For more information, see [Get-SPContentDatabase](http://technet.microsoft.com/library/a4a83bb0-0bab-4cad-9b59-0fd89a16f57b.aspx). 
+For more information, see [Get-SPContentDatabase](/powershell/module/sharepoint-server/Get-SPContentDatabase?view=sharepoint-ps). 
   
 You can change the upgrade throttle settings for a content database. The following procedure provides steps to change the upgrade throttling settings for a content database.
   
@@ -511,7 +511,7 @@ You can change the upgrade throttle settings for a content database. The followi
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell. 
     
@@ -535,7 +535,7 @@ You can change the upgrade throttle settings for a content database. The followi
     
     This command changes the throttling settings for the specified content database to the value that you supply.
     
-For more information, see [Set-SPContentDatabase](http://technet.microsoft.com/library/e1de8a07-868e-4a0d-bb5b-1f62392523f8.aspx). 
+For more information, see [Set-SPContentDatabase](/powershell/module/sharepoint-server/Set-SPContentDatabase?view=sharepoint-ps). 
   
 ## Create upgrade evaluation site collections by using PowerShell
 <a name="CreateUpgradeEvalSite"> </a>
@@ -557,7 +557,7 @@ Site collection administrators can request a preview of their site collection. T
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell. 
     
@@ -571,7 +571,7 @@ Site collection administrators can request a preview of their site collection. T
     
   -  _URL to site_ is the URL to a site collection in 2010 mode. 
     
-For more information, see [Request-SPUpgradeEvaluationSite](http://technet.microsoft.com/library/ecac7b6a-8895-47f6-baf7-76ff4e47a13f.aspx). 
+For more information, see [Request-SPUpgradeEvaluationSite](/powershell/module/sharepoint-server/Request-SPUpgradeEvaluationSite?view=sharepoint-ps). 
   
 ## Upgrade site collections by using PowerShell
 <a name="UpgradePowerShell"> </a>
@@ -591,7 +591,7 @@ You can upgrade a single site collection or all site collections in a specific d
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell. 
     
@@ -624,7 +624,7 @@ To upgrade all site collections in a database, use PowerShell. However, because 
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell. 
     
@@ -660,7 +660,7 @@ You can view upgrade status for all databases, for a single site collection, or 
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell. 
     
@@ -674,7 +674,7 @@ You can view upgrade status for all databases, for a single site collection, or 
     
   -  _\<http://site\>_ is the URL of the site collection. 
     
-    This cmdlet returns the upgrade status for the specified site collection together with information about the upgrade session and a link to the log files for more information. For more information, see [Get-SPSiteUpgradeSessionInfo](http://technet.microsoft.com/library/e16dd385-1e08-4325-8318-e19e4b752868.aspx).
+    This cmdlet returns the upgrade status for the specified site collection together with information about the upgrade session and a link to the log files for more information. For more information, see [Get-SPSiteUpgradeSessionInfo](/powershell/module/sharepoint-server/Get-SPSiteUpgradeSessionInfo?view=sharepoint-ps).
     
 4. Or, you can use the following command to view the information about a specific site collection upgrade:
     
@@ -691,7 +691,7 @@ You can view upgrade status for all databases, for a single site collection, or 
     
   -  _\<http://site\>_ is the URL of the site collection. 
     
-    This command returns the compatibility level and upgrade information (such as a pointer to the log file) for the specified site collection. If the compatibility level is "15," then it has been upgraded to 2013 mode. For more information, see [Get-SPSite](http://technet.microsoft.com/library/f3422bf4-0f9b-4f22-94c8-2a0606a31b16.aspx).
+    This command returns the compatibility level and upgrade information (such as a pointer to the log file) for the specified site collection. If the compatibility level is "15," then it has been upgraded to 2013 mode. For more information, see [Get-SPSite](/powershell/module/sharepoint-server/Get-SPSite?view=sharepoint-ps).
     
  **To view upgrade status for a single database by using PowerShell**
   
@@ -706,7 +706,7 @@ You can view upgrade status for all databases, for a single site collection, or 
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell. 
     
@@ -720,7 +720,7 @@ You can view upgrade status for all databases, for a single site collection, or 
     
   -  _\<DatabaseName\>_ is the name of the database that you want to check. 
     
-    This cmdlet returns any site collections that have an upgrade in progress, completed, or failed and lists their status, plus a link to the log files for more information. You can use only one parameter to find only in progress, completed, or failed upgrades. For more information, see [Get-SPSiteUpgradeSessionInfo](http://technet.microsoft.com/library/e16dd385-1e08-4325-8318-e19e4b752868.aspx).
+    This cmdlet returns any site collections that have an upgrade in progress, completed, or failed and lists their status, plus a link to the log files for more information. You can use only one parameter to find only in progress, completed, or failed upgrades. For more information, see [Get-SPSiteUpgradeSessionInfo](/powershell/module/sharepoint-server/Get-SPSiteUpgradeSessionInfo?view=sharepoint-ps).
     
  **To view upgrade status for all site collections by using PowerShell**
   
@@ -735,7 +735,7 @@ You can view upgrade status for all databases, for a single site collection, or 
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell. 
     

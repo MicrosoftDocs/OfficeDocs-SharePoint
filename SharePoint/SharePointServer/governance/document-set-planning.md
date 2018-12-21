@@ -28,7 +28,7 @@ For teams and users in many organizations, a set of documents, or a work product
   
 In SharePoint Server, organizations that want to create and manage Document Sets consistently can configure a Document Set content type for each work product they typically create. A Document Set content type can then define approved content types, attributes, default items, columns, workflows, and policies. Additional customized Document Set content types can then be created from the parent content type, each inheriting properties and settings from the parent Document Set content type. After the content type is added to a library, users can then create a Document Set that inherits the attributes of the Document Set content type by using the **New** command. A Document Set content type provides additional settings that enable you to specify allowed content types, default content, shared columns, Welcome Page columns, and default Welcome Page view. 
   
-For more information about content types, see [Plan content types and workflows in SharePoint 2013](http://technet.microsoft.com/library/63bb092a-00fe-45ff-a4b8-d8be998d1a3c%28Office.14%29.aspx).
+For more information about content types, see [Plan content types and workflows in SharePoint 2013](/previous-versions/office/sharepoint-server-2010/cc262735(v=office.14)).
   
 For more information about how to create and manage Document Sets in SharePoint Server 2013, see [Create and configure a new document set content type](https://office.microsoft.com/en-us/sharepoint-server-help/create-and-configure-a-new-document-set-content-type-HA102773262.aspx?CTT=1) in SharePoint Server 2013 Help. 
   

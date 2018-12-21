@@ -121,7 +121,7 @@ The Office 365 admin center handles reporting for cloud services, including One
 
 ![Screenshot of the 30-day file usage report](media/onedrive-feature-overview_image2.png)
 
-You can also consume this information in Power BI by using the Microsoft 365 usage analytics content pack. Using this content pack, you can visualize and analyze Office 365 usage data by using prebuilt graphs and charts or by creating custom reports to gain insights into how specific regions or departments within your organization are using Office 365. For more information this content pack, see [Microsoft 365 usage analytics](https://support.office.com/article/77ff780d-ab19-4553-adea-09cb65ad0f1f).
+You can also consume this information in Power BI by using the Microsoft 365 usage analytics content pack. Using this content pack, you can visualize and analyze Office 365 usage data by using prebuilt graphs and charts or by creating custom reports to gain insights into how specific regions or departments within your organization are using Office 365. For more information this content pack, see [Microsoft 365 usage analytics](/office365/admin/usage-analytics/usage-analytics?redirectSourcePath=%252farticle%252f77ff780d-ab19-4553-adea-09cb65ad0f1f&view=o365-worldwide).
 
 ### Encryption of data in transit and at rest
 
@@ -135,7 +135,7 @@ By using an Office 365 feature called *service encryption with Customer Key,* y
 
 ### Office 365 Customer Lockbox
 
-If a Microsoft support engineer needs to access your data to resolve an issue, that engineer is required to obtain approval from a Microsoft manager first. The Office 365 Customer Lockbox feature adds a requirement to that process: you must approve or reject that access before the support engineer can access your data. With Customer Lockbox, you can also set boundaries on how long the engineer can access your data, and all activity during that time is logged for auditing purposes. For more information about how to configure and use the Customer Lockbox feature, see [Office 365 Customer Lockbox Requests](https://support.office.com/article/office-365-customer-lockbox-requests-36f9cdd1-e64c-421b-a7e4-4a54d16440a2).
+If a Microsoft support engineer needs to access your data to resolve an issue, that engineer is required to obtain approval from a Microsoft manager first. The Office 365 Customer Lockbox feature adds a requirement to that process: you must approve or reject that access before the support engineer can access your data. With Customer Lockbox, you can also set boundaries on how long the engineer can access your data, and all activity during that time is logged for auditing purposes. For more information about how to configure and use the Customer Lockbox feature, see [Office 365 Customer Lockbox Requests](/office365/admin/manage/customer-lockbox-requests?redirectSourcePath=%252farticle%252foffice-365-customer-lockbox-requests-36f9cdd1-e64c-421b-a7e4-4a54d16440a2&view=o365-worldwide).
 
 ### Microsoft Trust Center
 

@@ -84,9 +84,9 @@ Use the procedures that are described here to add or delete managed paths for a 
 
 #### Other Resources
 
-[New-SPManagedPath](https://docs.microsoft.com/powershell/module/sharepoint-server/New-SPManagedPath)
+[New-SPManagedPath](/powershell/module/sharepoint-server/New-SPManagedPath?view=sharepoint-ps)
   
-[Get-SPManagedPath](https://docs.microsoft.com/powershell/module/sharepoint-server/Get-SPManagedPath)
+[Get-SPManagedPath](/powershell/module/sharepoint-server/Get-SPManagedPath?view=sharepoint-ps)
   
-[Remove-SPManagedPath](https://docs.microsoft.com/powershell/module/sharepoint-server/Remove-SPManagedPath)
+[Remove-SPManagedPath](/powershell/module/sharepoint-server/Remove-SPManagedPath?view=sharepoint-ps)
 
