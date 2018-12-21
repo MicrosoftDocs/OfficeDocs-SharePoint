@@ -78,6 +78,6 @@ If they don't click **Continue**, they'll be automatically signed out and will s
   - -SignOutAfter specifies the amount of time after which is a user is signed out of Office 365 if they do not respond to the -WarnAfter prompt.
     
 > [!NOTE]
-> You must specify values for both WarnAfter and SignOutAfter. The SignOutAfter must be greater than the WarnAfter value. <br>It takes about 15 minutes for the policy to take effect across your organization. The policy doesn't affect existing sessions. To view the idle session sign-out values you've set, use the Get-SPOBrowserIdleSignOut cmdlet.<br>For info about Office 365 session lengths (regardless of activity), see [Session timeouts for Office 365](/office365/enterprise/session-timeouts?redirectSourcePath=%252farticle%252f37a5c116-5b07-4f70-8333-5b86fd2c3c40). 
+> You must specify values for both WarnAfter and SignOutAfter. The SignOutAfter must be greater than the WarnAfter value. <br>It takes about 15 minutes for the policy to take effect across your organization. The policy doesn't affect existing sessions. To view the idle session sign-out values you've set, use the Get-SPOBrowserIdleSignOut cmdlet.<br>For info about Office 365 session lengths (regardless of activity), see [Session timeouts for Office 365](/office365/enterprise/session-timeouts). 
   
 

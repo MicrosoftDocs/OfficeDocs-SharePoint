@@ -99,7 +99,7 @@ If you anticipate managing multiple cases in your eDiscovery Center, consider wh
     
 13. Click **Save**.
     
-For more information, see [Add content to a case and place sources on hold in the eDiscovery Center](/SharePoint/governance/add-content-to-a-case-and-place-sources-on-hold-in-the-ediscovery-center?redirectSourcePath=%252farticle%252f54d70de9-1ec2-4325-84f3-aeb588554479).
+For more information, see [Add content to a case and place sources on hold in the eDiscovery Center](/SharePoint/governance/add-content-to-a-case-and-place-sources-on-hold-in-the-ediscovery-center).
   
   
 ## Run queries and export content

@@ -142,7 +142,7 @@ SharePoint Server 2019 now supports authenticating to SMTP servers when sending 
 
 ### Sync files with OneDrive sync client (NGSC)
 
-Users can use the new OneDrive sync client (NGSC – Next Generation Sync Client) instead of Groove.exe to sync files in your SharePoint Server 2019 team sites and personal sites with your devices. The OneDrive sync client supports advanced features such as Files On-Demand, push notification, and IRM protection, while still being easy to use. For more information, see [Deploy the new OneDrive sync client for Windows](/onedrive/deploy-on-windows?redirectSourcePath=%252fen-us%252farticle%252fdeploy-the-new-onedrive-sync-client-for-windows-3f3a511c-30c6-404a-98bf-76f95c519668) and [Deploy and configure the new OneDrive sync client for Mac](/onedrive/deploy-and-configure-on-macos?redirectSourcePath=%252fen-us%252farticle%252fdeploy-and-configure-the-new-onedrive-sync-client-for-mac-eadddc4e-edc0-4982-9f50-2aef5038c307).
+Users can use the new OneDrive sync client (NGSC – Next Generation Sync Client) instead of Groove.exe to sync files in your SharePoint Server 2019 team sites and personal sites with your devices. The OneDrive sync client supports advanced features such as Files On-Demand, push notification, and IRM protection, while still being easy to use. For more information, see [Deploy the new OneDrive sync client for Windows](/onedrive/deploy-on-windows) and [Deploy and configure the new OneDrive sync client for Mac](/onedrive/deploy-and-configure-on-macos).
 
 ### Use of # and % characters in file and folder names
 

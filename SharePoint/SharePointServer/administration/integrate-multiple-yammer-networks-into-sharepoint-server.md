@@ -47,7 +47,7 @@ Merging Yammer networks merges the users, but not the data. Before doing the mer
   
 When you are ready to merge networks:
   
-- Follow the directions in [Combine multiple Yammer networks](/yammer/configure-your-yammer-network/consolidate-multiple-yammer-networks?redirectSourcePath=%252farticle%252fa22c1b20-9231-4ce2-a916-392b1056d002).
+- Follow the directions in [Combine multiple Yammer networks](/yammer/configure-your-yammer-network/consolidate-multiple-yammer-networks).
     
 - Inform users in the parent network that new users are joining, and encourage current users to welcome the new ones.
     

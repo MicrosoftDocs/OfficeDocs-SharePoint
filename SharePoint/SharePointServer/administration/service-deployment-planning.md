@@ -43,7 +43,7 @@ For more information about these SharePoint 2013 topology approaches, see the fo
     
 For information about SharePoint Server 2016 topology, see the following model:
   
-- [Planning for a MinRole server deployment in SharePoint Server 2016](https://technet.microsoft.com/library/9fc3a696-b2cb-435c-8199-7048953ec609)
+- [Planning for a MinRole server deployment in SharePoint Server](/sharepoint/install/planning-for-a-minrole-server-deployment-in-sharepoint-server)
     
 ## Services on server for streamlined topologies in SharePoint 2013
 <a name="Section1"> </a>

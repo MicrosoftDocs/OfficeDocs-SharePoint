@@ -71,7 +71,7 @@ Be sure to consider access to content when you design your solution and sites. T
 
 |**Question**|**More information**|
 |:-----|:-----|
-|How do I structure permission in a site?  <br/> |[Overview of site permissions in SharePoint 2013](/sharepoint/plan-your-permissions-strategy?redirectSourcePath=%252farticle%252fC6183E49-9287-4689-999E-0D3F817A41A3) <br/> |
+|How do I structure permission in a site?  <br/> |[Overview of site permissions in SharePoint 2013](/sharepoint/plan-your-permissions-strategy) <br/> |
 |How do I target content to a specific audience?  <br/> |[Audience and content targeting planning (SharePoint Server 2010)](http://go.microsoft.com/fwlink/?LinkID=330811) <br/> |
 |Should I use Information Rights Management (IRM) to protect content?  <br/> |[Plan Information Rights Management (SharePoint Server 2010)](http://go.microsoft.com/fwlink/?LinkId=330814) <br/> |
    

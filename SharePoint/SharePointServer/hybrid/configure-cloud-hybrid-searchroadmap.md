@@ -80,7 +80,7 @@ If you already completed step 1 when you configured a different hybrid solution,
 The cloud SSA lets you crawl and add metadata from on-premises content to the search index in Office 365. Each search farm can have only one cloud SSA, but can have multiple SSAs in combination with the cloud SSA. You can't convert an existing SSA to a cloud SSA. 
   
 > [!NOTE]
-> If your organization restricts computers from connecting to the internet, you need to allow access to the endpoints (FQDNs) that cloud hybrid search uses. Include the endpoints in your outbound allow lists. The endpoints are listed in the SharePoint Online section of the article [Office 365 URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges?redirectSourcePath=%252fen-us%252farticle%252fOffice-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) and are marked for use with Hybrid Search. 
+> If your organization restricts computers from connecting to the internet, you need to allow access to the endpoints (FQDNs) that cloud hybrid search uses. Include the endpoints in your outbound allow lists. The endpoints are listed in the SharePoint Online section of the article [Office 365 URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges) and are marked for use with Hybrid Search. 
   
 Use the Hybrid Picker to connect your SharePoint Server and Office 365 environments and create the cloud Search service application.
   
@@ -234,7 +234,7 @@ After you've set up cloud hybrid search and completed a full crawl of your on-pr
   
 Follow these steps to set up a separate Search Center in Office 365:
   
-1. [Create a result source](/sharepoint/manage-result-sources?redirectSourcePath=%252fen-us%252farticle%252fManage-result-sources-fd8d6ac6-c5d0-454d-80a9-51580902b25d) that retrieves search results from the search index of this tenant, but limits search results to Office 365 content by using a **Query Transform**. Change the default query transform to "{?{searchTerms} NOT IsExternalContent:true}". This works because content that has the managed property  *IsExternalContent*  set to true (see [About the IsExternalContent managed property](configure-cloud-hybrid-searchroadmap.md#BKMK_IsExternalContent)) in the SharePoint Online search schema, is on-premises content.
+1. [Create a result source](/sharepoint/manage-result-sources) that retrieves search results from the search index of this tenant, but limits search results to Office 365 content by using a **Query Transform**. Change the default query transform to "{?{searchTerms} NOT IsExternalContent:true}". This works because content that has the managed property  *IsExternalContent*  set to true (see [About the IsExternalContent managed property](configure-cloud-hybrid-searchroadmap.md#BKMK_IsExternalContent)) in the SharePoint Online search schema, is on-premises content.
     
 2. Modify the Search Results Web Part in your Office 365 Search Center to use the result source that you just created. Your users get the original search experience in this Search Center.
     
@@ -297,9 +297,9 @@ After you've set up cloud hybrid search and verified that you get search results
   
 You might find this guidance useful:
   
-- With cloud hybrid search you manage the search schema in SharePoint Online in Office 365, just as you would in an Office 365 environment. Learn how in [Manage the Search Center in SharePoint Online](/sharepoint/manage-search-center?redirectSourcePath=%252fen-gb%252farticle%252fManage-the-Search-Center-in-SharePoint-Online-174d36e0-2f85-461a-ad9a-8b3f434a4213).
+- With cloud hybrid search you manage the search schema in SharePoint Online in Office 365, just as you would in an Office 365 environment. Learn how in [Manage the Search Center in SharePoint Online](/sharepoint/manage-search-center).
     
-- You manage how search results are displayed from the search schema in SharePoint Online, see [Manage the Search Center in SharePoint Online](/sharepoint/manage-search-center?redirectSourcePath=%252fen-us%252farticle%252fManage-the-Search-Center-in-SharePoint-Online-174D36E0-2F85-461A-AD9A-8B3F434A4213). If you've set up site search in SharePoint Server to get search results the Office 365, you also manage how these results are displayed from the search schema in SharePoint Online.
+- You manage how search results are displayed from the search schema in SharePoint Online, see [Manage the Search Center in SharePoint Online](/sharepoint/manage-search-center). If you've set up site search in SharePoint Server to get search results the Office 365, you also manage how these results are displayed from the search schema in SharePoint Online.
     
 - [Enable previews of on-premises search results in cloud hybrid search](enable-previews-of-on-premises-search-results-in-cloud-hybrid-search.md) . 
     

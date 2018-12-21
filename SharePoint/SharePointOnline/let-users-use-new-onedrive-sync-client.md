@@ -61,7 +61,7 @@ Follow these steps if you want to preview the syncing of SharePoint Online files
     
   - Search for "OneDrive" in the Start menu and choose **OneDrive Desktop app**.
     
-This preview automatically takes over syncing the libraries that are synced using the previous OneDrive for Business sync client (Groove.exe). For more information about how this works, see [Transition from the previous OneDrive for Business sync client](/onedrive/transition-from-previous-sync-client?redirectSourcePath=%252farticle%252f4100df3a-0c96-464f-b0a8-c20de34da6fa).
+This preview automatically takes over syncing the libraries that are synced using the previous OneDrive for Business sync client (Groove.exe). For more information about how this works, see [Transition from the previous OneDrive for Business sync client](/onedrive/transition-from-previous-sync-client).
   
  **Test SharePoint Online sync for Mac**
   
@@ -91,9 +91,9 @@ This preview automatically takes over syncing the libraries that are synced usin
 
 To enable users in your organization to sync SharePoint Online team sites with the OneDrive sync client, you first need to deploy the OneDrive sync client to your organization.
   
-See [Deploy the new OneDrive sync client for Windows](/onedrive/deploy-on-windows?redirectSourcePath=%252farticle%252f3f3a511c-30c6-404a-98bf-76f95c519668)
+See [Deploy the new OneDrive sync client for Windows](/onedrive/deploy-on-windows)
   
-See [Deploy and configure the new OneDrive sync client for Mac](/onedrive/deploy-and-configure-on-macos?redirectSourcePath=%252farticle%252feadddc4e-edc0-4982-9f50-2aef5038c307)
+See [Deploy and configure the new OneDrive sync client for Mac](/onedrive/deploy-and-configure-on-macos)
   
 ## Set SharePoint to sync with the OneDrive sync client
 <a name="admincenter"> </a>
@@ -117,7 +117,7 @@ See [Deploy and configure the new OneDrive sync client for Mac](/onedrive/deploy
     ![Admin setting for OneDrive sync client](media/894772b5-3e43-4a60-9887-99aca47a261c.PNG)
   
     > [!NOTE]
-    > If you don't see the "Sync Client for SharePoint" setting on the Settings page, your organization is already set up to use the new OneDrive sync client. When users sign in to the OneDrive sync client (OneDrive.exe), it will automatically take over syncing the site libraries that the previous new OneDrive sync client sync client (Groove.exe) was syncing. For information about how this works, and about the types of libraries that will continue syncing with the previous sync client, see [Transition from the previous OneDrive for Business sync client](/onedrive/transition-from-previous-sync-client?redirectSourcePath=%252farticle%252f4100df3a-0c96-464f-b0a8-c20de34da6fa). 
+    > If you don't see the "Sync Client for SharePoint" setting on the Settings page, your organization is already set up to use the new OneDrive sync client. When users sign in to the OneDrive sync client (OneDrive.exe), it will automatically take over syncing the site libraries that the previous new OneDrive sync client sync client (Groove.exe) was syncing. For information about how this works, and about the types of libraries that will continue syncing with the previous sync client, see [Transition from the previous OneDrive for Business sync client](/onedrive/transition-from-previous-sync-client). 
   
 7. Click **OK**.
     

@@ -23,7 +23,7 @@ To get started with OneDrive, follow these steps:
 
 1.  **Review basic OneDrive information.** Start by reviewing the introductory OneDrive information available at the [OneDrive help center](https://support.office.com/onedrive). You’ll get answers to many of your questions, including the OneDrive experience and how it works.
 
-2.  **Set up a Microsoft Office 365 subscription.** You must set up an Office 365 subscription to use OneDrive, but you aren’t required to purchase all the applications in the Office 365 suite. To get started, follow the steps in [Set up Office 365 for business](/office365/admin/setup/setup?redirectSourcePath=%252farticle%252f6a3a29a0-e616-4713-99d1-15eda62d04fa&view=o365-worldwide&tabs=BusPremium).
+2.  **Set up a Microsoft Office 365 subscription.** You must set up an Office 365 subscription to use OneDrive, but you aren’t required to purchase all the applications in the Office 365 suite. To get started, follow the steps in [Set up Office 365 for business](/office365/admin/setup/setup).
 
 3.  **Add OneDrive licenses.** Review your plan options in [Compare OneDrive for Business plans](https://products.office.com/onedrive-for-business/compare-onedrive-for-business-plans), and then add the licenses you need.
 
@@ -150,7 +150,7 @@ Settings in the OneDrive admin center are grouped into six categories:
 
 -   **Compliance.** The **Compliance** tab provides a centralized list of links to auditing, data loss prevention (DLP), retention, ediscovery, and alerting capabilities within Office 365 that are applicable to OneDrive. (Most small businesses won’t use these options.)
 
-    Selecting an item’s link redirects you to the Office 365 Security & Compliance Center, where you can configure that item. You can create DLP policies from templates that protect certain types of data, such as Social Security numbers, banking information, and other financial and medical content. For a walkthrough of how to create DLP policies in Office 365 and apply them to OneDrive, see [Create a DLP policy from a template](/office365/securitycompliance/create-a-dlp-policy-from-a-template?redirectSourcePath=%252farticle%252f59414438-99f5-488b-975c-5023f2254369).
+    Selecting an item’s link redirects you to the Office 365 Security & Compliance Center, where you can configure that item. You can create DLP policies from templates that protect certain types of data, such as Social Security numbers, banking information, and other financial and medical content. For a walkthrough of how to create DLP policies in Office 365 and apply them to OneDrive, see [Create a DLP policy from a template](/office365/securitycompliance/create-a-dlp-policy-from-a-template).
 
 -   **Notifications.** On the **Notifications** tab, you define when OneDrive owners should receive notifications about sharing or accessing their data. These settings are helpful for small businesses that likely don’t have IT staff who can audit this information. For information about enabling these options, see [Turn on external sharing notifications for OneDrive](turn-on-external-sharing-notifications.md).
 
