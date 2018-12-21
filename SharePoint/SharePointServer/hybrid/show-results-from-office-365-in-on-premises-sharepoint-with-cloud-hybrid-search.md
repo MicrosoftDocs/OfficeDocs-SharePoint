@@ -35,11 +35,11 @@ Follow these steps:
   
 1. Verify that cloud hybrid search works.
     
-2. [In the cloud search farm, create a result source that defines how to get search results from the search index in Office 365](http://technet.microsoft.com/library/e475ae86-b7b0-4b3a-9bc5-15456fc33a00.aspx#BKMK_Create_result_source_for_O365_index).
+2. In the cloud search farm, [create a result source](#create-a-result-source-that-defines-how-to-get-search-results-from-the-search-index-in-office-365) that defines how to get search results from the search index in Office 365.
     
-3. [In the cloud search farm, set the result source as the default result source for the cloud Search service application](http://technet.microsoft.com/library/e475ae86-b7b0-4b3a-9bc5-15456fc33a00.aspx#BKMK_Set_as_default_result_source).
+3. In the cloud search farm, [set that result source as the default result source](#set-the-result-source-as-the-default-result-source-for-the-cloud-search-service-application) for the cloud Search service application.
     
-4. If your existing on-premises document libraries are in SharePoint Server 2010 and/or SharePoint Server 2013, [Set up query federation](http://technet.microsoft.com/library/e475ae86-b7b0-4b3a-9bc5-15456fc33a00.aspx#BKMK_Set_up_query_federation) by publishing the cloud Search service application (cloud SSA) so that SharePoint Server 2010 and/or SharePoint Server 2013 can consume the cloud SSA. 
+4. If your existing on-premises document libraries are in SharePoint Server 2010 and/or SharePoint Server 2013, [set up query federation](#set-up-query-federation) by publishing the cloud Search service application (cloud SSA) so that SharePoint Server 2010 and/or SharePoint Server 2013 can consume the cloud SSA. 
     
 ## Create a result source that defines how to get search results from the search index in Office 365
 <a name="BKMK_Create_result_source_for_O365_index"> </a>
