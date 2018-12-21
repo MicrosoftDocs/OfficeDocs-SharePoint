@@ -35,6 +35,11 @@
     "globalMetadata": {
       "breadcrumb_path": "/onedrive/breadcrumb/toc.json",
       "extendBreadcrumb": "true",
+      "contributors_to_exclude": [
+        "dstrome",
+        "daswifty",
+        "Reraghavan"
+      ],
       "searchScope": ["OneDrive for Business"],
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/OfficeDocs-SharePoint",
