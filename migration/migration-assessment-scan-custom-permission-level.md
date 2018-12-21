@@ -18,7 +18,7 @@ ms.assetid: 617ba8f7-eff1-4fcb-b9b8-ee5ef459a18c
 
 In SharePoint, it is possible to create a custom permission level and then assign that permission level to users and groups. Some migration tools will have problems moving this information to SharePoint Online. As a result, permissions will not be the same for impacted users and groups post migration.
   
-For more information on permission levels, see [How to create and edit Permission Levels](http://technet.microsoft.com/library/53c86040-07fa-4ea7-bc55-34ee96b437fe%28Office.14%29.aspx).
+For more information on permission levels, see [Understanding permission levels in SharePoint](/sharepoint/understanding-permission-levels).
   
 ## Data Migration
 

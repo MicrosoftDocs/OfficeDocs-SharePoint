@@ -338,7 +338,7 @@ Set-SPServiceApplicationSecurity $spguid -ObjectSecurity $security
   
 [Grant-SPObjectSecurity](/powershell/module/sharepoint-server/Grant-SPObjectSecurity?view=sharepoint-ps)
   
-[Revoke-SPObjectSecurity](http://technet.microsoft.com/library/4e7583ab-5b8d-47c2-a9eb-2cf525ae07d8.aspx)
+[Revoke-SPObjectSecurity](/powershell/module/sharepoint-online/revoke-spobjectsecurity)
   
 [Set-SPServiceApplicationSecurity](/powershell/module/sharepoint-server/Set-SPServiceApplicationSecurity?view=sharepoint-ps)
   

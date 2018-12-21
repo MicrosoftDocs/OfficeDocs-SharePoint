@@ -45,9 +45,9 @@ Office Online Server is an Office server product that lets users access their do
 
 Follow these procedures:
   
-1. [Deploy the Office Web Apps Server farm](http://technet.microsoft.com/library/08532dbd-3cd9-4508-a0a4-2d343667d239.aspx#BKMK_Deploy_Web_Apps_Server)
+1. [Deploy Office Online Server](/officeonlineserver/deploy-office-online-server)
     
-2. [Configure SharePoint Server 2013 to use the Office Web Apps Server](http://technet.microsoft.com/library/08532dbd-3cd9-4508-a0a4-2d343667d239.aspx#BKMK_Config_SP_Use_Web_Apps)
+2. [Configure Office Online Server for SharePoint Server](/officeonlineserver/configure-office-online-server-for-sharepoint-server-2016/configure-office-online-server-for-sharepoint-server-2016)
     
 3. Optional: Make the Office Online Server accessible outside the corporate network.
     

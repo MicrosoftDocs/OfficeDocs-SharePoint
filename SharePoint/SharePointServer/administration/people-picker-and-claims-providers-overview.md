@@ -76,5 +76,5 @@ The following articles about People Picker and custom claims providers are avail
 ## See also
 <a name="links"> </a>
 
-[Configure People Picker in SharePoint Server](s/previous-versions/office/sharepoint-server-2010/gg602075(v=office.14))
+[Configure People Picker in SharePoint Server](/previous-versions/office/sharepoint-server-2010/gg602075(v=office.14))
 

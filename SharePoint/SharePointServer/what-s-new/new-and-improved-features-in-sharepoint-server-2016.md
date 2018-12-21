@@ -201,7 +201,7 @@ Cloud hybrid search is a new hybrid search solution alternative. With cloud hybr
     
 For more information about cloud hybrid search, see the public Microsoft cloud hybrid search program on [Microsoft Office connection](http://go.microsoft.com/fwlink/p/?LinkID=624235&amp;clcid=0x409).
   
-For more information, see [Plan for hybrid OneDrive for Business](http://technet.microsoft.com/library/95fa5eaf-8130-4dca-814c-9c51eafae0d4%28Office.14%29.aspx).
+For more information, see [Plan for hybrid OneDrive for Business](/sharepoint/hybrid/plan-hybrid-onedrive-for-business).
   
 For more information about the hybrid solutions available today, please visit the [SharePoint Hybrid Solutions Center](https://go.microsoft.com/fwlink/p/?LinkID=613711).
   

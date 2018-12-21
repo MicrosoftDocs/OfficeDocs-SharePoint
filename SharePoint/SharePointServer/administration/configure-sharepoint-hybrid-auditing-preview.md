@@ -60,7 +60,7 @@ Before you configure the SharePoint Hybrid Auditing feature, ensure you are:
   
 The configuration of Hybrid Auditing uses the Hybrid Picker in the SharePoint Online admin center.
   
-Please read [Hybrid picker in the SharePoint Online admin center](http://technet.microsoft.com/library/efce8417-c9bc-4a2c-ac9d-cce6c4e84a9c%28Office.14%29.aspx) to make sure you have met all the prerequisites before you configure the Hybrid Auditing feature. 
+Please read [Hybrid picker in the SharePoint Online admin center](/sharepoint/hybrid/hybrid-picker-in-the-sharepoint-online-admin-center) to make sure you have met all the prerequisites before you configure the Hybrid Auditing feature. 
   
 ## Part I: Turn On Audit Log Search Recording
 
