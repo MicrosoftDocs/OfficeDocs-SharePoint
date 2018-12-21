@@ -53,7 +53,7 @@ The only platform available when you first install SharePoint Server is the Shar
 You must install and configure SharePoint Server. To do so, see [Install and deploy SharePoint 2013](http://technet.microsoft.com/en-us/sharepoint/fp142376.aspx).
   
 > [!NOTE]
-> The SharePoint 2010 Workflow platform installs automatically when you install SharePoint Server. The SharePoint 2013 Workflow platform requires Workflow Manager and must be installed separately and then configured to work with your SharePoint Server farm. > To function correctly SharePoint 2013 Workflows require to have App Management Service and Site Subscription Service provisioned. It is not required to setup a wildcard certificate and DNS registration but both instances need to be running. 
+> The SharePoint 2010 Workflow platform installs automatically when you install SharePoint Server. The SharePoint 2013 Workflow platform requires Workflow Manager and must be installed separately and then configured to work with your SharePoint Server farm. To function correctly SharePoint 2013 Workflows require to have App Management Service and Site Subscription Service provisioned. It is not required to setup a wildcard certificate and DNS registration but both instances need to be running. 
   
 ## Configure Workflow Manager to work with the SharePoint Server farm
 <a name="section5"> </a>
@@ -193,6 +193,9 @@ Use these steps to validate that you have successfully installed and configured 
 2. Install SharePoint Designer 2013 and create a workflow based on the SharePoint 2013 Workflow platform. For more information, see [Creating a workflow by using SharePoint Designer 2013 and the SharePoint 2013 Workflow platform](http://msdn.microsoft.com/library/jj554671%28v=office.15%29).
     
 3. Run this workflow from the SharePoint user interface.
+
+## More information on Workflow Manager ##
+There are no changes to the Workflow Manager scalability or [high availabilty](https://docs.microsoft.com/previous-versions/dotnet/workflow-manager/jj193451(v%3dazure.10)#high-availability).
     
 ## Troubleshooting
 <a name="section7"> </a>

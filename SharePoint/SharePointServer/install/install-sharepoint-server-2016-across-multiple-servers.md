@@ -221,7 +221,7 @@ To configure the farm, you run the SharePoint Products Configuration Wizard. Thi
 
 After you create the farm on the first server, you can add servers by following the same process described earlier in this topic for installing SharePoint Server on the server that hosts Central Administration. The only difference is that during the SharePoint Products Configuration Wizard, you choose to join an existing farm. Follow the wizard steps to join the farm.
   
-For your content farm to be MinRole complaint, at a minimum you want to have at least one of each type of server role in the farm: **Application**, **Front-end**, **Distributed cache**, and **Search**. The order in which these roles are created does not matter. You can also combined roles by using shared roles. If you want to take full advantage of zero down time patching, then you need to make sure high availability is configured. 
+For your content farm to be MinRole compliant, at a minimum you want to have at least one of each type of server role in the farm: **Application**, **Front-end**, **Distributed cache**, and **Search**. The order in which these roles are created does not matter. You can also combined roles by using shared roles. If you want to take full advantage of zero down time patching, then you need to make sure high availability is configured. 
   
 For additional information about MinRole, see [Overview of MinRole Server Roles in SharePoint Servers 2016 and 2019](overview-of-minrole-server-roles-in-sharepoint-server.md).
   

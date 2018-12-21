@@ -36,7 +36,10 @@ The new OneDrive sync client can be used with SharePoint Server 2019, but not ea
 
 ### Check if users already have the OneDrive sync client
 
-If the computers in your organization are running Windows 10, they already have the new sync client installed. If the computers have Office 2016 or Office 2013 (Home &amp; Student, Home &amp; Business, Professional, Personal, Home, or University) installed, they might also have the new sync client. Office is installed per machine, whereas OneDrive needs to be installed per user. If you plan on deploying Office to your organization, you will need to deploy OneDrive.exe separately for additional users on individual machines.
+If the computers in your organization are running Windows 10, they already have the new sync client installed. If the computers have Office 2016 or Office 2013 (Home &amp; Student, Home &amp; Business, Professional, Personal, Home, or University) installed, they might also have the new sync client.
+
+> [!NOTE]
+> Office is installed per machine, whereas OneDrive needs to be installed per user. If you plan on deploying Office to your organization, you will need to deploy OneDrive.exe separately for additional users on individual machines.
   
 ### Deploy any administrative settings
 
