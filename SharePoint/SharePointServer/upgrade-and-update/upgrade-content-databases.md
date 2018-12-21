@@ -97,16 +97,16 @@ The installation for SharePoint Server 2016 contains both SharePoint Server 2013
     
 There are also two versions of the IIS support directories: _Layouts, _Layouts/16 and _ControlTemplates, _ControlTemplates/16.
   
- Be sure to install customizations to the correct location in your new farm. For example, additional style sheets for SharePoint Server 2013 with Service Pack 1 (SP1) should be installed in the /15 path, not the new /16 path so that site collections that you haven't upgraded can use them. If you want a solution to be available to both paths, install it two times, and the second time use the **CompatibilityLevel** parameter when you install it, and it will be installed to the /16 path. For more information, see [Install-SPSolution](http://technet.microsoft.com/library/0133c53b-70c4-4dff-a2ae-3c94759ed25d.aspx).
+ Be sure to install customizations to the correct location in your new farm. For example, additional style sheets for SharePoint Server 2013 with Service Pack 1 (SP1) should be installed in the /15 path, not the new /16 path so that site collections that you haven't upgraded can use them. If you want a solution to be available to both paths, install it two times, and the second time use the **CompatibilityLevel** parameter when you install it, and it will be installed to the /16 path. For more information, see [Install-SPSolution](/powershell/module/sharepoint-server/Install-SPSolution?view=sharepoint-ps).
   
 ## Verify custom components
 <a name="VerifyCustom"> </a>
 
-To make sure that you have identified all custom components for your environment, use the **Stsadm -o enumallwebs** operation in the SharePoint Server 2013 with Service Pack 1 (SP1) environment and use the **includefeatures** and **includewebparts** parameters. This operation can report the templates, features, Web Parts, and other custom elements that are used for each site. For more information about how to use the **enumallwebs** operation, see [Enumallwebs: Stsadm operation (Office SharePoint Server)](https://technet.microsoft.com/library/dd789634%28v=office.12%29.aspx) and [Clean up an environment before an upgrade to SharePoint 2013](http://technet.microsoft.com/library/bad0e5f7-44e1-40c7-8450-4c7069d4984b%28Office.14%29.aspx).
+To make sure that you have identified all custom components for your environment, use the **Stsadm -o enumallwebs** operation in the SharePoint Server 2013 with Service Pack 1 (SP1) environment and use the **includefeatures** and **includewebparts** parameters. This operation can report the templates, features, Web Parts, and other custom elements that are used for each site. For more information about how to use the **enumallwebs** operation, see [Enumallwebs: Stsadm operation (Office SharePoint Server)](/previous-versions/office/sharepoint-2007-products-and-technologies/dd789634(v=office.12)) and [Clean up an environment before an upgrade to SharePoint 2013](/previous-versions/office/sharepoint-server-2010/ff382641(v=office.14)).
   
-You can also use the [Get-SPWeb](http://technet.microsoft.com/library/9bf9284f-e3b9-439d-8a5f-74020e1eccaf.aspx) cmdlet in your SharePoint Server 2013 with Service Pack 1 (SP1) environment to see template that are associated with each site and then verify that the template is installed in your SharePoint Server 2016 environment. For more information about this operation, see [Get-SPWeb](http://technet.microsoft.com/library/9bf9284f-e3b9-439d-8a5f-74020e1eccaf.aspx).
+You can also use the [Get-SPWeb](/powershell/module/sharepoint-server/Get-SPWeb?view=sharepoint-ps) cmdlet in your SharePoint Server 2013 with Service Pack 1 (SP1) environment to see template that are associated with each site and then verify that the template is installed in your SharePoint Server 2016 environment. For more information about this operation, see [Get-SPWeb](/powershell/module/sharepoint-server/Get-SPWeb?view=sharepoint-ps).
   
-Before you attach the content databases to the web applications, use the [Test-SPContentDatabase](http://technet.microsoft.com/library/ed095a0a-fa1a-4323-8503-624f0e09707d.aspx) cmdlet to verify that you have all the custom components that you must have for that database. 
+Before you attach the content databases to the web applications, use the [Test-SPContentDatabase](/powershell/module/sharepoint-server/Test-SPContentDatabase?view=sharepoint-ps) cmdlet to verify that you have all the custom components that you must have for that database. 
   
  **To verify custom components are available by using PowerShell**
   
@@ -121,7 +121,7 @@ Before you attach the content databases to the web applications, use the [Test-S
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint 2016 Management Shell.
     
@@ -157,7 +157,7 @@ When you attach a content database, you upgrade the database and add the site co
 When you attach a content database, for a web application that spans multiple content databases, make sure that you attach the content database that contains the root site collection first. In other words, before you continue, examine the root of the web application in the SharePoint Server 2013 with Service Pack 1 (SP1) server farm to determine the first site collection. After you attach the database that contains the root site, attach the other content databases for the web application in any order. You do not have to create any site collections to store the content before you attach the database. This process attaches the content databases and the site collections inside that database. Make sure that you do not add new site collections until you have restored all the content databases. 
   
 > [!TIP]
-> Each site collection in a content database has a GUID that is registered in the configuration database and associated with the site collection. Therefore, you cannot add the same site collection two times to the farm, even in separate web applications. Although you can successfully attach the database in this situation, you will be unable to browse to the site collection. > If you must have a copy of a site collection in the same farm, first attach the database that contains the site collection to a separate farm, and then use the **Backup-SPSite** and **Restore-SPSite** PowerShell cmdlets to copy the site collection to the other farm. The backup and restore process creates a new GUID for the site collection. For more information about these cmdlets, see [Backup-SPSite](http://technet.microsoft.com/library/d4c31a1a-82a7-425f-b1bb-22e70bedd338.aspx) and [Restore-SPSite](http://technet.microsoft.com/library/90f19a58-0455-470c-a8ee-3129fc341f62.aspx). 
+> Each site collection in a content database has a GUID that is registered in the configuration database and associated with the site collection. Therefore, you cannot add the same site collection two times to the farm, even in separate web applications. Although you can successfully attach the database in this situation, you will be unable to browse to the site collection. > If you must have a copy of a site collection in the same farm, first attach the database that contains the site collection to a separate farm, and then use the **Backup-SPSite** and **Restore-SPSite** PowerShell cmdlets to copy the site collection to the other farm. The backup and restore process creates a new GUID for the site collection. For more information about these cmdlets, see [Backup-SPSite](/powershell/module/sharepoint-server/Backup-SPSite?view=sharepoint-ps) and [Restore-SPSite](/powershell/module/sharepoint-server/Restore-SPSite?view=sharepoint-ps). 
   
 For My Sites, attach the content database that contains the My Site host before attaching databases that contain the My Sites.
   
@@ -167,16 +167,16 @@ By default, when you created the web applications in the new SharePoint Server 2
 > If you are moving the content databases across domains or forests or to another environment that has different service accounts, make sure that the permissions for the service accounts are still correct before you attach the databases. 
   
 > [!NOTE]
-> One frequent cause of failures during upgrade is that the environment is missing customized features, solutions, or other elements. Be sure that all custom elements from the SharePoint Server 2013 with Service Pack 1 (SP1) environment are installed on your front-end web servers in the SharePoint Server 2016 environment before you start the upgrade process. Use the [Test-SPContentDatabase](http://technet.microsoft.com/library/ed095a0a-fa1a-4323-8503-624f0e09707d.aspx) cmdlet to identify custom elements that your sites might be missing. 
+> One frequent cause of failures during upgrade is that the environment is missing customized features, solutions, or other elements. Be sure that all custom elements from the SharePoint Server 2013 with Service Pack 1 (SP1) environment are installed on your front-end web servers in the SharePoint Server 2016 environment before you start the upgrade process. Use the [Test-SPContentDatabase](/powershell/module/sharepoint-server/Test-SPContentDatabase?view=sharepoint-ps) cmdlet to identify custom elements that your sites might be missing. 
   
  **To attach a content database to a web application by using PowerShell**
   
-1. You must use the [Mount-SPContentDatabase](http://technet.microsoft.com/library/20d1bc07-805c-44d3-a278-e2793370e237.aspx) cmdlet to attach a content database to a web application. Using the SharePoint Central Administration pages to attach a content database is not supported for upgrading. 
+1. You must use the [Mount-SPContentDatabase](/powershell/module/sharepoint-server/Mount-SPContentDatabase?view=sharepoint-ps) cmdlet to attach a content database to a web application. Using the SharePoint Central Administration pages to attach a content database is not supported for upgrading. 
     
-     If you want to delay the sites upgrade, you can use the **SkipSiteUpgrade** parameter of the [Mount-SPContentDatabase](http://technet.microsoft.com/library/20d1bc07-805c-44d3-a278-e2793370e237.aspx) cmdlet. 
+     If you want to delay the sites upgrade, you can use the **SkipSiteUpgrade** parameter of the [Mount-SPContentDatabase](/powershell/module/sharepoint-server/Mount-SPContentDatabase?view=sharepoint-ps) cmdlet. 
     
     > [!NOTE]
-    > Using the [Mount-SPContentDatabase](http://technet.microsoft.com/library/20d1bc07-805c-44d3-a278-e2793370e237.aspx) cmdlet to attach a content database is the recommended behavior and option for upgrading databases and site collections in SharePoint Server 2016. 
+    > Using the [Mount-SPContentDatabase](/powershell/module/sharepoint-server/Mount-SPContentDatabase?view=sharepoint-ps) cmdlet to attach a content database is the recommended behavior and option for upgrading databases and site collections in SharePoint Server 2016. 
   
     Ensure that the account that you use to attach the databases is a member of the **db_owner** fixed database role for the content databases that you want to upgrade. 
     
@@ -191,7 +191,7 @@ By default, when you created the web applications in the new SharePoint Server 2
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint 2016 Management Shell.
     
@@ -266,7 +266,7 @@ After you attach a database, you can use the **Upgrade Status** page in Central 
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint 2016 Management Shell.
     

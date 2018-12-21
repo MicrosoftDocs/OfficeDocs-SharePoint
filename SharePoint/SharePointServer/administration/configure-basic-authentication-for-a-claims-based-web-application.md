@@ -45,7 +45,7 @@ Use the IIS Manager console to configure IIS to enable basic authentication for 
     
 - Extranet
     
-The Default zone is the zone that is first created when a web application is created. The other zones are created by extending a web application. For more information, see [Extend claims-based web applications in SharePoint](https://technet.microsoft.com/library/265ace67-3115-4987-ab2d-80c55e452d4b).
+The Default zone is the zone that is first created when a web application is created. The other zones are created by extending a web application. For more information, see [Extend claims-based web applications in SharePoint](/SharePoint/administration/extend-a-claims-based-web-application).
   
  **To configure IIS to enable basic authentication**
   
@@ -84,7 +84,7 @@ You can also configure basic authentication when you create a web application in
 [Configure Digest authentication for a claims-based Web application](configure-digest-authentication-for-a-claims-based-web-application.md)
 #### Other Resources
 
-[Plan for user authentication methods in SharePoint Server](https://technet.microsoft.com/library/40117fda-70a0-4e3d-8cd3-0def768da16c)
+[Plan for user authentication methods in SharePoint Server](/SharePoint/security-for-sharepoint-server/plan-user-authentication)
   
-[Extend claims-based web applications in SharePoint](https://technet.microsoft.com/library/265ace67-3115-4987-ab2d-80c55e452d4b)
+[Extend claims-based web applications in SharePoint](/SharePoint/administration/extend-a-claims-based-web-application)
 

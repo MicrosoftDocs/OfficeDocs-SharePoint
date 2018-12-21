@@ -86,7 +86,7 @@ Some customizations have very little risk or impact on your environment. Others 
 |Very low to no risk  <br/> |Using apps for SharePoint or using functionality within the product or configurations, such as associating a workflow with a list or using an instance of a built in Web Part.  <br/> |Minor configuration or page errors that would have to be addressed. Apps can be uninstalled or updated.  <br/> |
    
 > [!NOTE]
-> For more information about customizations and upgrade, see [Create a plan for current customizations during upgrade to SharePoint 2013](http://technet.microsoft.com/library/be1de0da-addb-4e6a-852c-0e68072d7f95%28Office.14%29.aspx#Considerations). 
+> For more information about customizations and upgrade, see [Create a plan for current customizations during upgrade to SharePoint 2013](/previous-versions/office/sharepoint-server-2010/cc263203(v=office.14)#Considerations). 
   
 Also, when you think through the customizations to allow in your environment, consider carefully whether a particular customization is necessary. If it recreates functionality that is already available in the product (such as creating a Web Part that does the same thing as the Content Editor Web Part or the Content by Query Web Part), then that might be unnecessary work. Consider first whether the standard functionality can do what you want, or check the SharePoint Store to see if there is an app for SharePoint available that does what you need.
   

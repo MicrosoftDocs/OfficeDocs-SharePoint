@@ -138,7 +138,7 @@ After you have generated  *Views*  usage events, you have two options on how to 
   
 On the other hand, if you want results now, you can use some Microsoft PowerShell scripts to speed up the process. Here's what you have to do:
   
-1. Verify that you meet the [minimum permission](http://technet.microsoft.com/library/ae4901b4-505a-42a9-b8d4-fca778abc12e.aspx#section3) requirements. 
+1. Verify that you meet the [minimum permission](/powershell/module/sharepoint-server/?view=sharepoint-ps#section3) requirements. 
     
 2. On the server where SharePoint Server is installed, open the **SharePoint 2013 Management Shell** as an Administrator. 
     

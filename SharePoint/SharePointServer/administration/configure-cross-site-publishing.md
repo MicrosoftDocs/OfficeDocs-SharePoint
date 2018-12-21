@@ -24,7 +24,7 @@ Before you configure cross-site publishing, make sure that you understand the co
 <a name="BKMK_Accessibility"> </a>
 
 > [!NOTE]
->  Because SharePoint Server runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server supports the accessibility features of supported browsers. For more information, see the following resources: > [Plan browser support](https://go.microsoft.com/fwlink/p/?LinkId=246502)> [Accessibility for SharePoint 2013](http://technet.microsoft.com/library/94ad4316-1077-400a-b17e-a2085a5a7312%28Office.14%29.aspx)> [Accessibility features in SharePoint 2013 Products](https://go.microsoft.com/fwlink/p/?LinkId=246501)> [Keyboard shortcuts](https://go.microsoft.com/fwlink/p/?LinkID=246504)> [Touch](https://go.microsoft.com/fwlink/p/?LinkId=246506)
+>  Because SharePoint Server runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server supports the accessibility features of supported browsers. For more information, see the following resources: > [Plan browser support](https://go.microsoft.com/fwlink/p/?LinkId=246502)> [Accessibility for SharePoint 2013](/SharePoint/accessibility-guidelines)> [Accessibility features in SharePoint 2013 Products](https://go.microsoft.com/fwlink/p/?LinkId=246501)> [Keyboard shortcuts](https://go.microsoft.com/fwlink/p/?LinkID=246504)> [Touch](https://go.microsoft.com/fwlink/p/?LinkId=246506)
   
 ## Create site collections for cross-site publishing
 <a name="BKMK_Create_site_collections"> </a>
@@ -111,7 +111,7 @@ Before you share a library or list as a catalog, verify that the Cross-Site Coll
 By default, anonymous access is enabled when you share a library or list as a catalog. If you have connected a publishing site to the catalog, and you don't want anonymous users to be able to view and search content that was added to the search index from this catalog, you should disable anonymous access.
   
 > [!IMPORTANT]
-> In addition to enabling anonymous access for a catalog, you must enable anonymous access for the web application and publishing site so that anonymous users can search and view the content. For more information, see [Create claims-based web applications in SharePoint Server](http://technet.microsoft.com/library/83496762-172a-44a4-bf57-1d7ea8008d7d%28Office.14%29.aspx). 
+> In addition to enabling anonymous access for a catalog, you must enable anonymous access for the web application and publishing site so that anonymous users can search and view the content. For more information, see [Create claims-based web applications in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806885(v=office.14)). 
   
  **To share a library or list as a catalog**
   

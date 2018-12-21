@@ -56,7 +56,7 @@ The InfoPath Forms Services Maintenance timer job is used by InfoPath Forms Serv
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -70,6 +70,6 @@ The InfoPath Forms Services Maintenance timer job is used by InfoPath Forms Serv
     
   -  _\<FormsMaintenanceJobDefintion\>_ is the actual name of the timer job to enable. 
     
-For more information, see [Enable-SPTimerJob](http://technet.microsoft.com/library/https://technet.microsoft.com/en-us/library/ff607892%28v=office.16%29.aspx.aspx).
+For more information, see [Enable-SPTimerJob](/powershell/module/sharepoint-server/Enable-SPTimerJob?view=sharepoint-ps).
   
 

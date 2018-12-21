@@ -25,8 +25,6 @@ description: ""
 >If you prefer using PowerShell, all SPMT functionality is supported. For more information see: [Migrate to SharePoint Online using PowerShell](overview-spmt-ps-cmdlets.md).
 >
 >The **SharePoint Migration Tool** is not available for users of Office 365 operated by 21Vianet in China.  </br></br>It is also not available for users of Office 365 with the German cloud with the data trustee, *German Telekom*. However, it is supported for users in Germany whose data location is not in the German datacenter.
->
->The SharePoint Migration Tool can also be used inconjunction with [Azure Data Box](how-to-migrate-file-share-content-to-SPO-using-AzureDataBox.md) for migrating file server content to SharePoint Online.
  
 The SharePoint Migration Tool lets you migrate lists or files from your SharePoint on-premises document libraries or from your on-premises file shares and easily move them to either SharePoint or OneDrive in Office 365. It is available to Office 365 users.
   

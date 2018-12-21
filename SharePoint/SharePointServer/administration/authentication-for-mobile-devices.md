@@ -24,7 +24,7 @@ This article contains information about the supported authentication types for s
 
 Authentication is one aspect of security that you must consider to make sure that SharePoint Server 2013 is not compromised. We recommend that you consult the following articles to make sure that your corporate data is safe:
   
-- [Mobile security and authentication in SharePoint 2013](mobile-security-and-authentication.md) (http://technet.microsoft.com/en-us/library/fp161350(v=office.15).aspx) 
+- [Mobile security and authentication in SharePoint 2013](mobile-security-and-authentication.md) (/SharePoint/administration/mobile-security-and-authentication) 
     
 - [Microsoft Safety &amp; Security Center - Mobile and wireless](http://go.microsoft.com/fwlink/?LinkID=533039&amp;clcid=0x409 ) (http://go.microsoft.com/fwlink/?LinkID=533039&amp;clcid=0x409) 
     

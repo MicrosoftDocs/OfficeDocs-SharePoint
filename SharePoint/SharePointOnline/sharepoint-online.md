@@ -24,7 +24,7 @@ Help your users share, organize, and discover information with SharePoint.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/download-blue.svg" alt="Download" />
+                            <img src="/office/media/icons/download-blue.svg" alt="Download" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -42,7 +42,7 @@ Help your users share, organize, and discover information with SharePoint.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/cell-phone-generic.svg" alt="Cell phone" />
+                            <img src="/office/media/icons/cell-phone-generic.svg" alt="Cell phone" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -60,7 +60,7 @@ Help your users share, organize, and discover information with SharePoint.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/success.svg" alt="Success" />
+                            <img src="/office/media/icons/success.svg" alt="Success" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -78,7 +78,7 @@ Help your users share, organize, and discover information with SharePoint.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/users-people.svg" alt="People" />
+                            <img src="/office/media/icons/users-people.svg" alt="People" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -96,7 +96,7 @@ Help your users share, organize, and discover information with SharePoint.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/globe-internet.svg" alt="Globe" />
+                            <img src="/office/media/icons/globe-internet.svg" alt="Globe" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -114,7 +114,7 @@ Help your users share, organize, and discover information with SharePoint.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/lightbulb-idea-capture-blue.svg" alt="Lightbulb" />
+                            <img src="/office/media/icons/lightbulb-idea-capture-blue.svg" alt="Lightbulb" />
                         </div>
                     </div>
                     <div class="cardText">

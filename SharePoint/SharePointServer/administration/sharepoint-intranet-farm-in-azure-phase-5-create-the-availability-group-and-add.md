@@ -22,7 +22,7 @@ description: "Configure the SQL Server availability group for your high-availabi
   
 In this final phase of deploying an intranet-only SharePoint Server 2016 farm in Azure infrastructure services, you create a new SQL Server AlwaysOn Availability Group with the databases of the SharePoint farm, create the availability group listener, and then complete the SharePoint farm configuration.
   
-See [Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](https://technet.microsoft.com/library/af7cf3e7-94b1-4a5d-8cb9-80c5a0b397f2) for all of the phases. 
+See [Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](/SharePoint/administration/deploying-sharepoint-server-2016-with-sql-server-alwayson-availability-groups-in) for all of the phases. 
   
 ## Configure the availability group
 
@@ -64,7 +64,7 @@ Perform the following steps for every database that you are adding to the availa
     
 6. Ensure that **Recovery Model** is set to **FULL**. If it is not, change it to support AlwaysOn Functionality.
     
-The following procedures must be repeated for every database that needs to be added to the availability group. Some SharePoint Server 2016 databases do not support SQL Server AlwaysOn Availability Groups. For more information, see [Supported high availability and disaster recovery options for SharePoint databases](https://technet.microsoft.com/library/jj841106.aspx).
+The following procedures must be repeated for every database that needs to be added to the availability group. Some SharePoint Server 2016 databases do not support SQL Server AlwaysOn Availability Groups. For more information, see [Supported high availability and disaster recovery options for SharePoint databases](/SharePoint/administration/supported-high-availability-and-disaster-recovery-options-for-sharepoint-databas).
   
  **To back up a database**
   
@@ -316,11 +316,11 @@ Your high availability SharePoint Server 2016 farm in Azure is complete.
 
 #### Other Resources
 
-[Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](https://technet.microsoft.com/library/af7cf3e7-94b1-4a5d-8cb9-80c5a0b397f2)
+[Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](/SharePoint/administration/deploying-sharepoint-server-2016-with-sql-server-alwayson-availability-groups-in)
   
-[SharePoint Server 2016 in Microsoft Azure](https://technet.microsoft.com/library/8da53a30-27f2-4297-95c2-54eff999e863)
+[SharePoint Server 2016 in Microsoft Azure](/SharePoint/administration/sharepoint-server-2016-in-microsoft-azure)
   
-[Designing a SharePoint Server 2016 farm in Azure](https://technet.microsoft.com/library/f27522ca-6f78-4b97-b169-77066e965727)
+[Designing a SharePoint Server 2016 farm in Azure](/SharePoint/administration/designing-a-sharepoint-server-2016-farm-in-azure)
   
-[Install SharePoint Server](https://technet.microsoft.com/library/8a911115-de8a-4cf3-9701-f5ba78fa8bfc)
+[Install SharePoint Server](/SharePoint/install/install)
 

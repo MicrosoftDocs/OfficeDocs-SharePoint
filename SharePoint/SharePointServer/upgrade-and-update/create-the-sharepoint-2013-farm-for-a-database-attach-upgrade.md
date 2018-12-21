@@ -70,14 +70,14 @@ You also have to turn off or remove services or components in the SharePoint 201
   
 - **Web Analytics** The architecture for the Web Analytics service application is different in SharePoint 2010 Products. The presence of SharePoint Server 2010 Web Analytics information in your content databases could cause an error during upgrade. Stop the Web Analytics service application before you back up the content databases. Features and web parts from Web Analytics in SharePoint Server 2010 will not exist in SharePoint 2013, even for a site collection in 2010 mode. Remove any Web Analytics web parts or features from SharePoint Server 2010 site collections before upgrade. 
     
-    For more information about this change to Web Analytics, see [Changes from SharePoint 2010 to SharePoint 2013](http://technet.microsoft.com/library/30d640e8-bb5d-4547-b28a-94cc8bbf0dbe%28Office.14%29.aspx).
+    For more information about this change to Web Analytics, see [Changes from SharePoint 2010 to SharePoint 2013](/previous-versions/office/sharepoint-server-2010/ff607742(v=office.14)).
     
-- **PowerPoint Broadcast Sites** The Office Online have changed into a separate server product, Office Online Server, which can serve multiple SharePoint farms for viewing and editing documents. Because of this change, PowerPoint Broadcast sites cannot be upgraded to SharePoint 2013. For more information about how to install and use Office Online Server with SharePoint 2013, see [Deploy Office Web Apps (Installed on SharePoint 2010 Products)](http://technet.microsoft.com/library/a5276781-133b-413c-beca-b851e17c2081.aspx).
+- **PowerPoint Broadcast Sites** The Office Online have changed into a separate server product, Office Online Server, which can serve multiple SharePoint farms for viewing and editing documents. Because of this change, PowerPoint Broadcast sites cannot be upgraded to SharePoint 2013. For more information about how to install and use Office Online Server with SharePoint 2013, see [Deploy Office Web Apps (Installed on SharePoint 2010 Products)](/webappsserver/configure-office-web-apps-for-sharepoint-2013).
     
 ## Record the passphrase for the Secure Store service application
 <a name="passphrase"> </a>
 
-The Secure Store service application uses a passphrase to encrypt information. You have to know what this passphrase is so that you can use it in the new environment. Otherwise, you will not have access to the information in the Secure Store. If you do not know the passphrase, you can refresh the key, and then back up the Secure Store database. For more information, see [Working with encryption keys](https://technet.microsoft.com/en-us/library/ee806866.aspx).
+The Secure Store service application uses a passphrase to encrypt information. You have to know what this passphrase is so that you can use it in the new environment. Otherwise, you will not have access to the information in the Secure Store. If you do not know the passphrase, you can refresh the key, and then back up the Secure Store database. For more information, see [Working with encryption keys](/SharePoint/administration/configure-the-secure-store-service).
   
 ## Export the encryption key for the User Profile service application
 <a name="ExportKey"> </a>
@@ -167,15 +167,15 @@ The following services in SharePoint 2013 also require additional steps to enabl
   
 - **Excel Services**
     
-    You can use the Farm Configuration Wizard to enable this service, but you must make sure that you create all trusted data connections again. For more information, see [Configure Excel Services in SharePoint](http://technet.microsoft.com/library/9cb81758-9d0b-4970-9ca0-a75eedf6093b.aspx).
+    You can use the Farm Configuration Wizard to enable this service, but you must make sure that you create all trusted data connections again. For more information, see [Configure Excel Services in SharePoint](/SharePoint/administration/configure-excel-services).
     
 - **InfoPath Forms Service**
     
-    This service is not part of the Farm Configuration Wizard. To use this service, use the **Configure InfoPath Forms Services** link on the **General Application Settings** page in Central Administration to configure it. To continue to use form templates from your previous environment, export all administrator-deployed form templates (.xsn files) and data connection files (.udcx files) from your SharePoint Server 2010 environment, and then import them to your new SharePoint 2013 environment. For more information, see [Configure InfoPath Forms Services (SharePoint Server 2010)](https://technet.microsoft.com/library/cc262263.aspx)
+    This service is not part of the Farm Configuration Wizard. To use this service, use the **Configure InfoPath Forms Services** link on the **General Application Settings** page in Central Administration to configure it. To continue to use form templates from your previous environment, export all administrator-deployed form templates (.xsn files) and data connection files (.udcx files) from your SharePoint Server 2010 environment, and then import them to your new SharePoint 2013 environment. For more information, see [Configure InfoPath Forms Services (SharePoint Server 2010)](/previous-versions/office/sharepoint-server-2010/cc262263(v=office.14))
     
 - **Office Web Apps**
     
-    Office Online Server is a new stand-alone server product that delivers Office Online functionality on your private network. You install and managed it separately from SharePoint 2013. It cannot be installed on the same server or virtual machine instance as SharePoint 2013. For more information, see [Deploy Office Web Apps Server 2013](http://technet.microsoft.com/library/e4d51dc4-6460-437d-aa8e-0ae4d3aa8cc5.aspx).
+    Office Online Server is a new stand-alone server product that delivers Office Online functionality on your private network. You install and managed it separately from SharePoint 2013. It cannot be installed on the same server or virtual machine instance as SharePoint 2013. For more information, see [Deploy Office Web Apps Server 2013](/webappsserver/deploy-office-web-apps-server).
     
 ## Configure farm settings
 <a name="configfarmsettings"> </a>
@@ -205,7 +205,7 @@ And you must configure all new farm-level settings that you want to use, such as
 - Settings and schedules for timer jobs
     
 > [!IMPORTANT]
-> If you had disabled the Workflow Auto Cleanup timer job in your SharePoint 2010 Products environment, make sure that you disable this timer job in your new environment also. If this timer job is enabled in the new environment and disabled in the SharePoint 2010 Products environment, you might lose workflow associations when you upgrade. For more information about this timer job, see[Disable preservation of workflow history (SharePoint Server 2010)](https://go.microsoft.com/fwlink/?LinkId=403874)[Disable preservation of workflow history (SharePoint Server 2010)](http://technet.microsoft.com/library/1cbc2ed6-4e14-4cd5-83a4-076437e984c4.aspx). 
+> If you had disabled the Workflow Auto Cleanup timer job in your SharePoint 2010 Products environment, make sure that you disable this timer job in your new environment also. If this timer job is enabled in the new environment and disabled in the SharePoint 2010 Products environment, you might lose workflow associations when you upgrade. For more information about this timer job, see[Disable preservation of workflow history (SharePoint Server 2010)](https://go.microsoft.com/fwlink/?LinkId=403874)[Disable preservation of workflow history (SharePoint Server 2010)](/previous-versions/office/sharepoint-server-2010/ee662522(v=office.14)). 
   
 In a standard installation, the next step would be to create web applications. However, for upgrade, you create web applications later in the process, after you upgrade the service application databases. For more information, see [Create web applications](upgrade-content-databases.md#CreateWebApps).
   

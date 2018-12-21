@@ -177,7 +177,7 @@ If you block UDP port 1434 or TCP port 1433 on the computer that is running SQL 
 
 [SQL Server Security Blog](https://blogs.msdn.microsoft.com/sqlsecurity/)
 
-[SQL Vulnerability Assessment](https://docs.microsoft.com/en-us/sql/relational-databases/security/sql-vulnerability-assessment?view=sql-server-2017)
+[SQL Vulnerability Assessment](/sql/relational-databases/security/sql-vulnerability-assessment?view=sql-server-2017)
   
 [Securing SharePoint: Harden SQL Server in SharePoint Environments](https://blogs.technet.com/b/rycampbe/archive/2013/10/14/securing-sharepoint-harden-sql-server-in-sharepoint-environments.aspx)
   

@@ -133,7 +133,7 @@ You can use one of two ways to make published content available to users: author
 ### Plan other sites
 <a name="Section2e"> </a>
 
-You can plan to make it possible for site users to create additional sites. For example, you can plan to give a My Site to each team member who uses a site. A My Site is a team site that is based on SharePoint Server and has public and private views. You can also make it possible for team members to create other sites, such as Document Workspace sites, when they collaborate on documents and other projects. Similarly, you can give users of an Internet site access to collaboration sites as part of a web-based service. For example, you can give them permissions to create Meeting Workspace sites and participate in online meetings as part of their experience of using your site. For more information, see [Configure self-service site creation in SharePoint Server 2019](https://docs.microsoft.com/en-us/SharePoint/sites/configure-self-service-site-creation-in-sharepoint-server-2019).
+You can plan to make it possible for site users to create additional sites. For example, you can plan to give a My Site to each team member who uses a site. A My Site is a team site that is based on SharePoint Server and has public and private views. You can also make it possible for team members to create other sites, such as Document Workspace sites, when they collaborate on documents and other projects. Similarly, you can give users of an Internet site access to collaboration sites as part of a web-based service. For example, you can give them permissions to create Meeting Workspace sites and participate in online meetings as part of their experience of using your site. For more information, see [Configure self-service site creation in SharePoint Server 2019](/SharePoint/sites/configure-self-service-site-creation-in-sharepoint-server-2019).
   
 For information about the kinds of sites that you can create, see [Overview of sites and site collections in SharePoint Server](sites-and-site-collections-overview.md).
   
@@ -157,7 +157,7 @@ To help you with site and site collection planning, the Microsoft PowerShell com
      An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
      > [!NOTE]
-     > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+     > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Open the **SharePoint Management Shell**.
     
@@ -199,7 +199,7 @@ To help you with site and site collection planning, the Microsoft PowerShell com
     
    -  _\<file location and name.csv\>_ is the location where you want to save the csv file and the name you want to give it. For example, 'C:\FarmReports\1.csv'. 
     
-For more information, see the PowerShell reference for SharePoint Server article, [SharePointServer](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/?view=sharepoint-ps). 
+For more information, see the PowerShell reference for SharePoint Server article, [SharePointServer](/powershell/module/sharepoint-server/?view=sharepoint-ps). 
   
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 

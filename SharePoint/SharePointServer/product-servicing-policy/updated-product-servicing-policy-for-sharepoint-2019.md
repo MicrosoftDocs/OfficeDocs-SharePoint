@@ -42,11 +42,11 @@ The product servicing policy timeline for SharePoint Server 2019 is described in
   
  **Question:** Will Microsoft release service packs for SharePoint Server 2019? 
   
- **Answer:** No, Microsoft has no plans to release service packs for SharePoint Server 2019. ﻿Functionality, performance, and stability improvements for SharePoint Server 2019 will be delivered by way of our monthly Public Updates. 
+ **﻿Answer:** No, Microsoft has no plans to release service packs for SharePoint Server 2019. ﻿Functionality, performance, and stability improvements for SharePoint Server 2019 will be delivered by way of our monthly Public Updates. 
   
  **﻿Question:** Where can I find the Public Updates for SharePoint Server 2019? 
   
- **﻿Answer:** The current list of Public Updates for SharePoint Server 2019 can be found in our [SharePoint Updates](https://docs.microsoft.com/officeupdates/sharepoint-updates) article. 
+ **﻿Answer:** The current list of Public Updates for SharePoint Server 2019 can be found in our [SharePoint Updates](/officeupdates/sharepoint-updates) article. 
   
  **﻿Question:** Do the monthly Public Updates contain all of the fixes included in the previous Public Updates? 
   
@@ -61,7 +61,6 @@ The product servicing policy timeline for SharePoint Server 2019 is described in
  **﻿Answer:** Microsoft recommends that all customers install Public Updates for SharePoint Server 2019 as soon as they become available. Microsoft performs rigorous validation of each Public Update, both internally and with a select set of partners and customers before it is released to ensure it has the highest quality. 
 
 **Question:** Why is the product lifecycle for SharePoint Server 2019 shorter than 10 years?
-
 **﻿Answer:** As previously announced in KB article [4086137](https://support.microsoft.com/help/4086137/office-2019-on-premises-release-details-february-1-2018), the Microsoft Office 2019 family of products will provide 5 years of mainstream support, followed by 2 years of extended support.  This will allow Microsoft to better support our customers as we rapidly innovate these products and cloud services. SharePoint Server 2016 was released later than the other products in the Microsoft Office 2016 family and therefore has a later extended support end date.  To ensure that SharePoint Server 2019 doesn't end support earlier than previous versions of SharePoint Server, SharePoint Server 2019 will align its extended support end date with the SharePoint Server 2016 extended support end date.
 
 

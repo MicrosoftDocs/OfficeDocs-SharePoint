@@ -172,9 +172,9 @@ This procedure creates an eDiscovery Set and adds content sources to it. To also
 
 For more information about eDiscovery cases, see the following articles:
   
-[Scenario: eDiscovery in SharePoint Server 2013 and Exchange Server 2013](https://technet.microsoft.com/en-us/sharepoint/jj650012)
+[Scenario: eDiscovery in SharePoint Server 2013 and Exchange Server 2013](/sharepoint/)
   
-[Plan and manage cases in the eDiscovery Center](https://docs.microsoft.com/sharepoint/governance/plan-and-manage-cases-in-the-ediscovery-center)
+[Plan and manage cases in the eDiscovery Center](/sharepoint/governance/plan-and-manage-cases-in-the-ediscovery-center)
   
 [Create and run queries in the eDiscovery Center](create-and-run-queries-in-the-ediscovery-center.md)
   

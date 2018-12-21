@@ -174,5 +174,5 @@ If users are experiencing issues, such as mixed user interface modes or they can
 
 [Upgrade a site collection to SharePoint 2013](upgrade-a-site-collection-to-sharepoint-2013.md)
   
-[Update-SPProfilePhotoStore](http://technet.microsoft.com/library/023652c5-e25d-493e-91a3-df5a0dc1b166.aspx)
+[Update-SPProfilePhotoStore](/powershell/module/sharepoint-server/Update-SPProfilePhotoStore?view=sharepoint-ps)
 

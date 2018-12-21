@@ -146,5 +146,5 @@ To verify that OneDrive has been created for your users, see [How to display a l
   
 ## See also
 
-[Plan hybrid OneDrive for Business](https://support.office.com/article/b140bc4c-f54d-4b5a-9409-a3bece4a9cf9)
+[Plan hybrid OneDrive for Business](/SharePoint/hybrid/plan-hybrid-onedrive-for-business)
 

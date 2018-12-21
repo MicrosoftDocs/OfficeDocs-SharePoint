@@ -253,7 +253,7 @@ The goal of global navigation is to support browsing to content but since there 
 
 Global navigation is on the roadmap for Office 365/SharePoint Online but is not yet available. (Check the [Office 365 Roadmap](https://products.office.com/en-US/business/office-365-roadmap) *for this and other features that are in development*, rolling out, or launched). Until global navigation is available, there are several ways to create a global navigation experience for your modern SharePoint intranet:
 
--   Create a custom [SharePoint Framework Extension](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview) to deliver and apply global navigation to each new site as it is created.
+-   Create a custom [SharePoint Framework Extension](/sharepoint/dev/spfx/sharepoint-framework-overview) to deliver and apply global navigation to each new site as it is created.
 
 -   Create a “navigation” site (e.g. your intranet “home” site) and use the logo in the suite bar and a Featured Site link on SharePoint Home to make it easy for people to navigate to the “home” site from every destination site in your tenant.
 

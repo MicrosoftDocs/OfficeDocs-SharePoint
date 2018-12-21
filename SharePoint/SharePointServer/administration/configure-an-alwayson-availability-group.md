@@ -513,13 +513,13 @@ The following new performance objects are available to monitor an Always On envi
     
 **Health and capacity**
   
-For general health monitoring you can use the Availability Groups Dashboard to obtain the health of the availability groups in the system. For more information, see [AlwaysOn Policies for Operational Issues with AlwaysOn Availability Groups (SQL Server)](http://go.microsoft.com/fwlink/?LinkID=724071&amp;clcid=0x409) for SQL Server 2014 (SP1) and [Always On Policies for Operational Issues - Always On Availability](https://docs.microsoft.com/en-us/sql/database-engine/availability-groups/windows/always-on-policies-for-operational-issues-always-on-availability) for SQL Server 2016. For more information about SQL Server 2012, see the following: 
+For general health monitoring you can use the Availability Groups Dashboard to obtain the health of the availability groups in the system. For more information, see [AlwaysOn Policies for Operational Issues with AlwaysOn Availability Groups (SQL Server)](http://go.microsoft.com/fwlink/?LinkID=724071&amp;clcid=0x409) for SQL Server 2014 (SP1) and [Always On Policies for Operational Issues - Always On Availability](/sql/database-engine/availability-groups/windows/always-on-policies-for-operational-issues-always-on-availability?view=sql-server-2017) for SQL Server 2016. For more information about SQL Server 2012, see the following: 
   
 - [The AlwaysOn Health Model Part 1 -- Health Model Architecture](https://go.microsoft.com/fwlink/p/?LinkId=245945)
     
 - [The AlwaysOn Health Model Part 2 -- Extending the Health Model](https://go.microsoft.com/fwlink/p/?LinkId=245946)
     
-You can also use Transact-SQL to monitor availability groups by using the set of catalog and dynamic management views that are provided for Always On Availability Groups. For more information, see [Monitor Availability Groups (Transact-SQL)](http://go.microsoft.com/fwlink/?LinkID=724072&amp;clcid=0x409) for SQL Server 2014 (SP1) and [Monitor Availability Groups (Transact-SQL)](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/monitor-availability-groups-transact-sql) for SQL Server 2016. 
+You can also use Transact-SQL to monitor availability groups by using the set of catalog and dynamic management views that are provided for Always On Availability Groups. For more information, see [Monitor Availability Groups (Transact-SQL)](http://go.microsoft.com/fwlink/?LinkID=724072&amp;clcid=0x409) for SQL Server 2014 (SP1) and [Monitor Availability Groups (Transact-SQL)](/sql/database-engine/availability-groups/windows/monitor-availability-groups-transact-sql?view=sql-server-2017) for SQL Server 2016. 
   
 ## See also
 <a name="Monitor"> </a>

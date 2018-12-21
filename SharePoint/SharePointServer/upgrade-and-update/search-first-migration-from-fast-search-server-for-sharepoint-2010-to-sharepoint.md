@@ -56,7 +56,7 @@ To complete a search-first migration:
   
 1. Install SharePoint 2013 on a single server with an additional dedicated SQL Server.
     
-    See also: [Install SharePoint 2013 on a single server with SQL Server](https://technet.microsoft.com/en-us/library/cc262243.aspx)
+    See also: [Install SharePoint 2013 on a single server with SQL Server](/SharePoint/install/single-server-with-sql-server)
     
 2. On the SharePoint 2013 SQL Server, install:
     

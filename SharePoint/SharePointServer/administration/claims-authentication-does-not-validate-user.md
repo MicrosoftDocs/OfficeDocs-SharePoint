@@ -29,7 +29,7 @@ To determine whether authentication or authorization causes an access issue, loo
     
   - The most common reason for failed authorization when you are using Security Assertion Markup Language (SAML) claims-based authentication is that the permissions were assigned to a user's Windows-based account (domain\user) instead of the user's SAML identity claim.
     
-  - Verify that the user or a group to which the user belongs has been configured to use the appropriate permissions. For more information, see [User permissions and permission levels in SharePoint Server](http://technet.microsoft.com/library/ff13b917-5236-48e6-89d5-8c78e61a72a8%28Office.14%29.aspx).
+  - Verify that the user or a group to which the user belongs has been configured to use the appropriate permissions. For more information, see [User permissions and permission levels in SharePoint Server](/previous-versions/office/sharepoint-server-2010/cc721640(v=office.14)).
     
   - Use the tools and techniques in this article to determine the set of claims in the user's security token so that you can compare it with the configured permissions.
     
@@ -173,9 +173,9 @@ To determine how a web application or zone is configured to support one or more 
     
   - For Windows claims authentication, verify that **Enable Windows Authentication** and **Integrated Windows authentication** are selected, and that either **NTLM** or **Negotiate (Kerberos)** is selected as needed. Select **Basic authentication** if it is needed. 
     
-  - For forms-based authentication, verify that **Enable Forms Based Authentication (FBA)** is selected. Verify the values in **ASP.NET Membership provider name** and **ASP.NET Role manager name**. These values must match the membership provider and role values that you configured in your web.config files for the the SharePoint Central Administration website, web application, and SharePoint Web Services\SecurityTokenServiceApplication. For more information, see [Configure forms-based authentication for a claims-based web application in SharePoint Server](http://technet.microsoft.com/library/fd1391bb-c787-4742-b007-bf57e18dad66%28Office.14%29.aspx).
+  - For forms-based authentication, verify that **Enable Forms Based Authentication (FBA)** is selected. Verify the values in **ASP.NET Membership provider name** and **ASP.NET Role manager name**. These values must match the membership provider and role values that you configured in your web.config files for the the SharePoint Central Administration website, web application, and SharePoint Web Services\SecurityTokenServiceApplication. For more information, see [Configure forms-based authentication for a claims-based web application in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806890(v=office.14)).
     
-  - For SAML-based claims authentication, verify that **Trusted identity provider** and the correct trusted provider name are selected. For more information, see [Configure SAML-based claims authentication with AD FS in SharePoint Server](http://technet.microsoft.com/library/cb9ade1e-a3a1-4d99-a100-0b451f8272ea%28Office.14%29.aspx).
+  - For SAML-based claims authentication, verify that **Trusted identity provider** and the correct trusted provider name are selected. For more information, see [Configure SAML-based claims authentication with AD FS in SharePoint Server](/previous-versions/office/sharepoint-server-2010/hh305235(v=office.14)).
     
   - In the **Sign In Page URL** section, verify the option for the sign-in page. For a default sign-in page, **Default Sign In Page** should be selected. For a custom sign-in-page, verify the specified URL of the custom sign-in page. To verify it, copy the URL, and then attempt to access it using a web browser. 
     
@@ -269,7 +269,7 @@ For SAML-based claims authentication, you can capture and analyze the traffic be
 
 #### Other Resources
 
-[Configure forms-based authentication for a claims-based web application in SharePoint Server](http://technet.microsoft.com/library/fd1391bb-c787-4742-b007-bf57e18dad66%28Office.14%29.aspx)
+[Configure forms-based authentication for a claims-based web application in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806890(v=office.14))
   
-[Configure SAML-based claims authentication with AD FS in SharePoint Server](http://technet.microsoft.com/library/cb9ade1e-a3a1-4d99-a100-0b451f8272ea%28Office.14%29.aspx)
+[Configure SAML-based claims authentication with AD FS in SharePoint Server](/previous-versions/office/sharepoint-server-2010/hh305235(v=office.14))
 

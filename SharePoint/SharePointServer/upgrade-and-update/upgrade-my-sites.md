@@ -35,7 +35,7 @@ Before you start to upgrade from SharePoint Server 2013 to SharePoint Server 201
     
 - Some enterprises have multiple farms, that may include a services farm. In these environments, typically, one server farm, known as the enterprise services farm, publishes cross-farm shared services, and the other farms consume those shared services. In some cases, the User Profile Service application will be shared from the services farm, while a separate farm that consumes the shared User Profile Service application contains the My Sites. When you upgrade this type of configuration, you must upgrade the User Profile Service application on the services farm first, before you upgrade the My Sites farm.
     
-- Consider whether you have to upgrade from classic-mode to claims-based authentication in SharePoint Server 2013. For more information, see [Migrate from classic-mode to claims-based authentication in SharePoint Server](http://technet.microsoft.com/library/e3e3d0b8-8ba0-4495-8650-e2e9dfb5fa6a%28Office.14%29.aspx)
+- Consider whether you have to upgrade from classic-mode to claims-based authentication in SharePoint Server 2013. For more information, see [Migrate from classic-mode to claims-based authentication in SharePoint Server](/previous-versions/office/sharepoint-server-2010/gg251985(v=office.14))
     
 > [!IMPORTANT]
 > This list highlights some important things to consider when you perform an upgrade of My Sites. For a detailed discussion on upgrades, see [Get started with upgrades to SharePoint Server 2016](get-started-with-upgrade.md)
@@ -162,5 +162,5 @@ If users are experiencing issues, such as mixed user interface modes or they can
 
 [Upgrade a site collection](http://office.microsoft.com/en-us/office365-sharepoint-online-enterprise-help/upgrade-a-site-collection-HA102865473.aspx?CTT=5&amp;origin=HA104034491)
   
-[Update-SPProfilePhotoStore](http://technet.microsoft.com/library/023652c5-e25d-493e-91a3-df5a0dc1b166.aspx)
+[Update-SPProfilePhotoStore](/powershell/module/sharepoint-server/Update-SPProfilePhotoStore?view=sharepoint-ps)
 

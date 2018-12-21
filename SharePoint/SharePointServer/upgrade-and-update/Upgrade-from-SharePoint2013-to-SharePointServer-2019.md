@@ -42,7 +42,7 @@ For a visual look of the high-level steps, see
 •	User Profile service application<br/>
 •	Search service application
 
-For the specific, end to end steps to upgrade SharePoint 2013 to SharePoint Server 2016, see [Upgrade to SharePoint Server 2016](https://docs.microsoft.com/en-us/SharePoint/upgrade-and-update/upgrade-to-sharepoint-server-2016)
+For the specific, end to end steps to upgrade SharePoint 2013 to SharePoint Server 2016, see [Upgrade to SharePoint Server 2016](/SharePoint/upgrade-and-update/upgrade-to-sharepoint-server-2016)
 
 ## Steps to Upgrade
 
@@ -50,7 +50,7 @@ For the specific, end to end steps to upgrade SharePoint 2013 to SharePoint Serv
 
 In SharePoint 2013, if you have any web applications that are in windows authentication mode, you should convert them to claims authentication. Claims authentication is the default mode in SharePoint Server 2016 and SharePoint Server 2019.
 
-Next, upgrade all the site collections from 14 mode to 15 mode by using the [Upgrade-SPSite](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/upgrade-spsite?view=sharepoint-ps) cmdlet.  Any database with a 14 version will be locked and prevented from upgrading to SharePoint Server 2016.  After the site collections have been upgraded, create a backup of all content and service application databases from your old farm (for example, SQL2013).  Restore these databases to a new farm’s SQL Server in SharePoint Server 2016 (for example, SQL2016).
+Next, upgrade all the site collections from 14 mode to 15 mode by using the [Upgrade-SPSite](/powershell/module/sharepoint-server/upgrade-spsite?view=sharepoint-ps) cmdlet.  Any database with a 14 version will be locked and prevented from upgrading to SharePoint Server 2016.  After the site collections have been upgraded, create a backup of all content and service application databases from your old farm (for example, SQL2013).  Restore these databases to a new farm’s SQL Server in SharePoint Server 2016 (for example, SQL2016).
 
 ### 2016
 
@@ -59,7 +59,7 @@ In SharePoint Server 2016, build a new temporary farm that includes service appl
 >[!NOTE]
 >You may need to delete the temporary content database from the SQL Server.
 
-Start the upgrade process to SharePoint Server 2016 by running the [Mount-SPContentDatabase](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/mount-spcontentdatabase?view=sharepoint-ps) cmdlet on the restored content databases from SQL2016.  After the upgrade process is complete, perform any individual configuration changes that are not part of the service application and content databases, such as incoming/outgoing email settings, etc.
+Start the upgrade process to SharePoint Server 2016 by running the [Mount-SPContentDatabase](/powershell/module/sharepoint-server/mount-spcontentdatabase?view=sharepoint-ps) cmdlet on the restored content databases from SQL2016.  After the upgrade process is complete, perform any individual configuration changes that are not part of the service application and content databases, such as incoming/outgoing email settings, etc.
 
 ### 2019
 
@@ -72,7 +72,7 @@ In SharePoint Server 2019, build a new farm that includes service applications. 
 >[!NOTE]
 >You may need to delete the temporary content database from the SQL Server.
 
-Start the upgrade process to SharePoint Server 2019 by running the [Mount-SPContentDatabase](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/mount-spcontentdatabase?view=sharepoint-ps) cmdlet on the restored content databases from SQL2019.  After the upgrade process is complete, perform any individual configuration changes that are not part of the service application and content databases, such as incoming/outgoing email settings, etc.
+Start the upgrade process to SharePoint Server 2019 by running the [Mount-SPContentDatabase](/powershell/module/sharepoint-server/mount-spcontentdatabase?view=sharepoint-ps) cmdlet on the restored content databases from SQL2019.  After the upgrade process is complete, perform any individual configuration changes that are not part of the service application and content databases, such as incoming/outgoing email settings, etc.
 
 ## See Also
 

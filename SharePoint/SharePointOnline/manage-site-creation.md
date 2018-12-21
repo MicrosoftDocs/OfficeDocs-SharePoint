@@ -48,13 +48,8 @@ Some functionality is introduced gradually to organizations that have signed up 
   - **A classic site**: Use this option to allow users to create only default classic sites or sites from your custom form. Specify where sites are created, and whether a site classification or secondary contact is required. To specify a custom form, enter the URL for the custom form in the **Use the form at this URL** box. 
     
     > [!NOTE]
-    > For info about classifying Office 365 groups, see [Manage Office 365 Groups with PowerShell](https://support.office.com/article/aeb669aa-1770-4537-9de2-a82ac11b0540#BKMK_CreateClassification). 
+    > For info about classifying Office 365 groups, see [Manage Office 365 Groups with PowerShell](/office365/enterprise/manage-office-365-groups-with-powershell). 
   
 7. Under **Subsite Creation**, specify whether users can create subsites for classic sites, all sites, or not at all. 
-
-    ![Site creation settings](media/subsite-creation.png)
-
-    > [!NOTE]
-    > This setting controls only the New menu on modern pages. It doesn't prevent users from creating subsites through classic pages.
 
 8. Click **OK**.

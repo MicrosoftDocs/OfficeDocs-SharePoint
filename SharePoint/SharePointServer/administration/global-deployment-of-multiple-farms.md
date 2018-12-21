@@ -36,7 +36,7 @@ The following articles about global deployments of SharePoint Server 2013 are av
   
 |**        ![Building blocks](../media/mod_icon_buildingblock_M.png)                 **|**Content**|**Description**|
 |:-----|:-----|:-----|
-||[Global architectures for SharePoint Server](http://technet.microsoft.com/library/23622f74-cc2c-4121-b22d-93e41af88b94%28Office.14%29.aspx) <br/> |Learn about supported architectures for SharePoint Server 2013 in WAN environments, strategies for optimizing performance over WAN connections, and recommendations for service applications.  <br/> |
-||[Testing WAN connections for SharePoint 2013 architectures](http://technet.microsoft.com/library/4195f7af-7573-4458-9413-d454446cd862%28Office.14%29.aspx) <br/> |Learn about WAN performance improvements, test results, and WAN test tools and scenarios.  <br/> |
+||[Global architectures for SharePoint Server](/previous-versions/office/sharepoint-server-2010/gg441255(v=office.14)) <br/> |Learn about supported architectures for SharePoint Server 2013 in WAN environments, strategies for optimizing performance over WAN connections, and recommendations for service applications.  <br/> |
+||[Testing WAN connections for SharePoint 2013 architectures](/previous-versions/office/sharepoint-server-2010/hh206322(v=office.14)) <br/> |Learn about WAN performance improvements, test results, and WAN test tools and scenarios.  <br/> |
    
 

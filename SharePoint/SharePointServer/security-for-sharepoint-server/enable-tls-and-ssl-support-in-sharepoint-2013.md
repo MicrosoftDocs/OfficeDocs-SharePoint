@@ -42,17 +42,17 @@ Follow these steps to update your SharePoint server.
   
 |**Steps for SharePoint Server**|**Windows Server 2008 R2**|**Windows Server 2012**|**Windows Server 2012 R2**|
 |:-----|:-----|:-----|:-----|
-|[1.1 - Enable TLS 1.1 and TLS 1.2 in Windows Schannel](http://technet.microsoft.com/library/6eb922f2-8022-4fb8-968a-d1b3959e53b6.aspx#EnableTLS) <br/> |Required  <br/> |N/A  <br/> |N/A  <br/> |
-|[1.2 - Enable TLS 1.1 and TLS 1.2 support in WinHTTP](http://technet.microsoft.com/library/6eb922f2-8022-4fb8-968a-d1b3959e53b6.aspx#EnableTLSWinHTTP) <br/> |Required  <br/> |Required  <br/> |N/A  <br/> |
-|[1.3 - Enable TLS 1.1 and TLS 1.2 support in Internet Explorer](http://technet.microsoft.com/library/6eb922f2-8022-4fb8-968a-d1b3959e53b6.aspx#enableIE) <br/> |Required  <br/> |Required  <br/> |N/A  <br/> |
+|[1.1 - Enable TLS 1.1 and TLS 1.2 in Windows Schannel](/SharePoint/security-for-sharepoint-server/enable-tls-and-ssl-support-in-sharepoint-2013#EnableTLS) <br/> |Required  <br/> |N/A  <br/> |N/A  <br/> |
+|[1.2 - Enable TLS 1.1 and TLS 1.2 support in WinHTTP](/SharePoint/security-for-sharepoint-server/enable-tls-and-ssl-support-in-sharepoint-2013#EnableTLSWinHTTP) <br/> |Required  <br/> |Required  <br/> |N/A  <br/> |
+|[1.3 - Enable TLS 1.1 and TLS 1.2 support in Internet Explorer](/SharePoint/security-for-sharepoint-server/enable-tls-and-ssl-support-in-sharepoint-2013#enableIE) <br/> |Required  <br/> |Required  <br/> |N/A  <br/> |
 |[1.4 - Install SQL Server 2008 R2 Native Client update for TLS 1.2 support](https://www.microsoft.com/en-us/download/details.aspx?id=57606#InstallSQL) <br/> |Required  <br/> |Required  <br/> |Required  <br/> |
-|[1.5 - Install .NET Framework 4.6 or higher](http://technet.microsoft.com/library/6eb922f2-8022-4fb8-968a-d1b3959e53b6.aspx#InstallNET46) <br/> |Required  <br/> |Required  <br/> |Required  <br/> |
-|[1.6 - Enable strong cryptography in .NET Framework 4.6 or higher](http://technet.microsoft.com/library/6eb922f2-8022-4fb8-968a-d1b3959e53b6.aspx#CryptoNet45) <br/> |Required  <br/> |Required  <br/> |Required  <br/> |
+|[1.5 - Install .NET Framework 4.6 or higher](/SharePoint/security-for-sharepoint-server/enable-tls-and-ssl-support-in-sharepoint-2013#InstallNET46) <br/> |Required  <br/> |Required  <br/> |Required  <br/> |
+|[1.6 - Enable strong cryptography in .NET Framework 4.6 or higher](/SharePoint/security-for-sharepoint-server/enable-tls-and-ssl-support-in-sharepoint-2013#CryptoNet45) <br/> |Required  <br/> |Required  <br/> |Required  <br/> |
 |The following ﻿steps are **recommended**. Although not directly required by SharePoint Server 2013, they may be necessary for other software ﻿that integrates with SharePoint Server 2013.  <br/> |
-|[1.7 - Install .NET Framework 3.5 update for TLS 1.1 and TLS 1.2 support](http://technet.microsoft.com/library/6eb922f2-8022-4fb8-968a-d1b3959e53b6.aspx#InstallFrame46) <br/> |Recommended  <br/> |Recommended  <br/> |Recommended  <br/> |
-|[1.8 - Enable strong cryptography in .NET Framework 3.5](http://technet.microsoft.com/library/6eb922f2-8022-4fb8-968a-d1b3959e53b6.aspx#EnableCryptoFrame35) <br/> |Recommended  <br/> |Recommended  <br/> |Recommended  <br/> |
+|[1.7 - Install .NET Framework 3.5 update for TLS 1.1 and TLS 1.2 support](/SharePoint/security-for-sharepoint-server/enable-tls-and-ssl-support-in-sharepoint-2013#InstallFrame46) <br/> |Recommended  <br/> |Recommended  <br/> |Recommended  <br/> |
+|[1.8 - Enable strong cryptography in .NET Framework 3.5](/SharePoint/security-for-sharepoint-server/enable-tls-and-ssl-support-in-sharepoint-2013#EnableCryptoFrame35) <br/> |Recommended  <br/> |Recommended  <br/> |Recommended  <br/> |
 |The following ﻿step is **optional**. You may choose to run this step based on your organization's security and compliance requirements.  <br/> |
-|[1.9 - Disable earlier versions of SSL and TLS in Windows Schannel](http://technet.microsoft.com/library/6eb922f2-8022-4fb8-968a-d1b3959e53b6.aspx#DisableTLSSchannel) <br/> |Optional  <br/> |Optional  <br/> |Optional  <br/> |
+|[1.9 - Disable earlier versions of SSL and TLS in Windows Schannel](/SharePoint/security-for-sharepoint-server/enable-tls-and-ssl-support-in-sharepoint-2013#DisableTLSSchannel) <br/> |Optional  <br/> |Optional  <br/> |Optional  <br/> |
    
 ## 1.1 - Enable TLS 1.1 and TLS 1.2 in Windows Schannel
 <a name="EnableTLS"> </a>
@@ -418,10 +418,10 @@ Follow these steps to update your SQL Servers in your SharePoint farm.
   
 |**Steps for your SQL Servers**|**Windows Server 2008 R2**|**Windows Server 2012**|**Windows Server 2012 R2**|
 |:-----|:-----|:-----|:-----|
-|[2.1 - Enable TLS 1.1 and TLS 1.2 in Windows Schannel](http://technet.microsoft.com/library/6eb922f2-8022-4fb8-968a-d1b3959e53b6.aspx#enableTLS11) <br/> |Required  <br/> |N/A  <br/> |N/A  <br/> |
-|[2.2 - Enable TLS 1.1 and TLS 1.2 support in Microsoft SQL Server](http://technet.microsoft.com/library/6eb922f2-8022-4fb8-968a-d1b3959e53b6.aspx#EnableTLS_SQLSrvr) <br/> |Required  <br/> |Required  <br/> |Required  <br/> |
+|[2.1 - Enable TLS 1.1 and TLS 1.2 in Windows Schannel](/SharePoint/security-for-sharepoint-server/enable-tls-and-ssl-support-in-sharepoint-2013#enableTLS11) <br/> |Required  <br/> |N/A  <br/> |N/A  <br/> |
+|[2.2 - Enable TLS 1.1 and TLS 1.2 support in Microsoft SQL Server](/SharePoint/security-for-sharepoint-server/enable-tls-and-ssl-support-in-sharepoint-2013#EnableTLS_SQLSrvr) <br/> |Required  <br/> |Required  <br/> |Required  <br/> |
 |The following step is **optional**. Run this step depending on your organization's security and compliance requirements.  <br/> |
-|[2.3 - Disable earlier versions of SSL and TLS in Windows Schannel](http://technet.microsoft.com/library/6eb922f2-8022-4fb8-968a-d1b3959e53b6.aspx#DisableSSL) <br/> |Optional  <br/> |Optional  <br/> |Optional  <br/> |
+|[2.3 - Disable earlier versions of SSL and TLS in Windows Schannel](/SharePoint/security-for-sharepoint-server/enable-tls-and-ssl-support-in-sharepoint-2013#DisableSSL) <br/> |Optional  <br/> |Optional  <br/> |Optional  <br/> |
    
 ## 2.1 - Enable TLS 1.1 and TLS 1.2 in Windows Schannel
 <a name="enableTLS11"> </a>
@@ -608,15 +608,15 @@ Follow these steps to update your client computers that access your SharePoint s
   
 |**Steps for your client computers**|**Windows 7**|**Windows 8.1**|**Windows 10**|
 |:-----|:-----|:-----|:-----|
-|[3.1 - Enable TLS 1.1 and TLS 1.2 in Windows Schannel](http://technet.microsoft.com/library/6eb922f2-8022-4fb8-968a-d1b3959e53b6.aspx#EnableTLS1.1_1.2) <br/> |Required  <br/> |N/A  <br/> |N/A  <br/> |
-|[3.2 Enable TLS 1.1 and TLS 1.2 support in WinHTTP](http://technet.microsoft.com/library/6eb922f2-8022-4fb8-968a-d1b3959e53b6.aspx#EnabledTLS11_12) <br/> |Required  <br/> |N/A  <br/> |N/A  <br/> |
-|[3.3 - Enable TLS 1.1 and TLS 1.2 support in Internet Explorer](http://technet.microsoft.com/library/6eb922f2-8022-4fb8-968a-d1b3959e53b6.aspx#enableIE2013) <br/> |Required  <br/> |N/A  <br/> |N/A  <br/> |
-|[3.4 - Enable strong cryptography in .NET Framework 4.5 or higher](http://technet.microsoft.com/library/6eb922f2-8022-4fb8-968a-d1b3959e53b6.aspx#enablestrongcrypto4.5) <br/> |Required  <br/> |Required  <br/> |Required  <br/> |
-|[3.5 - Install .NET Framework 3.5 update for TLS 1.1 and TLS 1.2 support](http://technet.microsoft.com/library/6eb922f2-8022-4fb8-968a-d1b3959e53b6.aspx#NETFramework3.5x) <br/> |Required  <br/> |Required  <br/> |Required  <br/> |
+|[3.1 - Enable TLS 1.1 and TLS 1.2 in Windows Schannel](/SharePoint/security-for-sharepoint-server/enable-tls-and-ssl-support-in-sharepoint-2013#EnableTLS1.1_1.2) <br/> |Required  <br/> |N/A  <br/> |N/A  <br/> |
+|[3.2 Enable TLS 1.1 and TLS 1.2 support in WinHTTP](/SharePoint/security-for-sharepoint-server/enable-tls-and-ssl-support-in-sharepoint-2013#EnabledTLS11_12) <br/> |Required  <br/> |N/A  <br/> |N/A  <br/> |
+|[3.3 - Enable TLS 1.1 and TLS 1.2 support in Internet Explorer](/SharePoint/security-for-sharepoint-server/enable-tls-and-ssl-support-in-sharepoint-2013#enableIE2013) <br/> |Required  <br/> |N/A  <br/> |N/A  <br/> |
+|[3.4 - Enable strong cryptography in .NET Framework 4.5 or higher](/SharePoint/security-for-sharepoint-server/enable-tls-and-ssl-support-in-sharepoint-2013#enablestrongcrypto4.5) <br/> |Required  <br/> |Required  <br/> |Required  <br/> |
+|[3.5 - Install .NET Framework 3.5 update for TLS 1.1 and TLS 1.2 support](/SharePoint/security-for-sharepoint-server/enable-tls-and-ssl-support-in-sharepoint-2013#NETFramework3.5x) <br/> |Required  <br/> |Required  <br/> |Required  <br/> |
 |The following ﻿step is **recommended**. Although not directly required by SharePoint Server 2013, they provide better security by restricting the use of weak encryption algorithms.  <br/> |
-|[3.6 - Enable strong cryptography in .NET Framework 3.5](http://technet.microsoft.com/library/6eb922f2-8022-4fb8-968a-d1b3959e53b6.aspx#Enablecrypto3.5x) <br/> |Recommended  <br/> |Recommended  <br/> |Recommended  <br/> |
+|[3.6 - Enable strong cryptography in .NET Framework 3.5](/SharePoint/security-for-sharepoint-server/enable-tls-and-ssl-support-in-sharepoint-2013#Enablecrypto3.5x) <br/> |Recommended  <br/> |Recommended  <br/> |Recommended  <br/> |
 |The following ﻿step is **optional**. You may choose to run this step based on your organization's security and compliance requirements.  <br/> |
-|[3.7 - Disable earlier versions of SSL and TLS in Windows Schannel](http://technet.microsoft.com/library/6eb922f2-8022-4fb8-968a-d1b3959e53b6.aspx#DisableSSL_TLS) <br/> |Optional  <br/> |Optional  <br/> |Optional  <br/> |
+|[3.7 - Disable earlier versions of SSL and TLS in Windows Schannel](/SharePoint/security-for-sharepoint-server/enable-tls-and-ssl-support-in-sharepoint-2013#DisableSSL_TLS) <br/> |Optional  <br/> |Optional  <br/> |Optional  <br/> |
    
 ## 3.1 - Enable TLS 1.1 and TLS 1.2 in Windows Schannel
 <a name="EnableTLS1.1_1.2"> </a>

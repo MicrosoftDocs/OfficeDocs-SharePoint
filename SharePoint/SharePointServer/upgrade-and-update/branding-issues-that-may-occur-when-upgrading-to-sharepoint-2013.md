@@ -158,7 +158,7 @@ We recommend that you do not add custom content placeholders to your custom mast
   
 [Upgrade a site collection to SharePoint 2013](upgrade-a-site-collection-to-sharepoint-2013.md)
   
-[Run site collection health checks in SharePoint 2013](http://technet.microsoft.com/library/b22bc7aa-3ce5-4529-96c2-8d0cc59d4148%28Office.14%29.aspx)
+[Run site collection health checks in SharePoint 2013](/SharePoint/sharepoint-server)
   
 [Overview of Design Manager in SharePoint 2013](https://go.microsoft.com/fwlink/?LinkId=403875)
 

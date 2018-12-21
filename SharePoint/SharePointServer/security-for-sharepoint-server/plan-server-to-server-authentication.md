@@ -66,13 +66,13 @@ For each farm that runs SharePoint Server, make a list of servers that are capab
   
  **Case 1: Farms are on-premises**
   
-If the farm that can perform server-to-server authentication is on-premises, you must configure the farm that runs SharePoint Server. Use the [New-SPTrustedSecurityTokenIssuer](http://technet.microsoft.com/library/9ab7aac9-4c9a-4cba-8dd6-ffead217c2fa.aspx) PowerShell cmdlet to add a JavaScript Object Notation (JSON) metadata endpoint of the server that can perform server-to-server authentication to the server that runs SharePoint Server. If the server that can perform server-to-server authentication is another server that runs SharePoint Server, the JSON metadata endpoint is in the format: https://<HostName>/_layouts/15/metadata/json/1. 
+If the farm that can perform server-to-server authentication is on-premises, you must configure the farm that runs SharePoint Server. Use the [New-SPTrustedSecurityTokenIssuer](/powershell/module/sharepoint-server/New-SPTrustedSecurityTokenIssuer?view=sharepoint-ps) PowerShell cmdlet to add a JavaScript Object Notation (JSON) metadata endpoint of the server that can perform server-to-server authentication to the server that runs SharePoint Server. If the server that can perform server-to-server authentication is another server that runs SharePoint Server, the JSON metadata endpoint is in the format: https://<HostName>/_layouts/15/metadata/json/1. 
   
  **Case 2: Farms are part of an Office 365 tenancy**
   
 If the farm that runs SharePoint Server and the other server that can perform server-to-server authentication are both part of an Office 365 tenancy, no additional configuration for server-to-server authentication is needed.
   
-After you determine the set of servers that require server-to-server authentication, see [Configure server-to-server authentication in SharePoint Server](http://technet.microsoft.com/library/1aa67101-2441-4a1d-b594-9d5144620d67%28Office.14%29.aspx) to configure the server-to-server trust relationships. 
+After you determine the set of servers that require server-to-server authentication, see [Configure server-to-server authentication in SharePoint Server](/sharepoint/security-for-sharepoint-server/security-for-sharepoint-server) to configure the server-to-server trust relationships. 
   
 ## See also
 <a name="trust"> </a>

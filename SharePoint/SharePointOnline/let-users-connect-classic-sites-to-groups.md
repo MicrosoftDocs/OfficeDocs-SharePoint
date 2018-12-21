@@ -33,7 +33,7 @@ As a global or SharePoint admin in Office 365, you can allow or prevent site col
     
 When this setting is on, and the site collection administrator for a classic team site (with the template STS#0) is allowed to create groups, they will see the "Connect to a new Office 365 Group" option in settings. For more info, see:
   
-- [Manage who can create Office 365 Groups](https://support.office.com/article/4c46c8cb-17d0-44b5-9776-005fced8e618)
+- [Manage who can create Office 365 Groups](/office365/admin/create-groups/manage-creation-of-groups)
     
 - (Admin) Connect sites to new Office 365 groups using PowerShell: [Set-SPOSiteOffice365Group](https://go.microsoft.com/fwlink/?linkid=872615)
     

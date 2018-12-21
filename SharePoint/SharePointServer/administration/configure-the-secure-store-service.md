@@ -19,7 +19,7 @@ description: "Configure storage of authorization credentials in Secure Store Ser
 
 [!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
-This article describes how to configure the Secure Store Service on a SharePoint Server farm. Secure Store has important planning considerations associated with it. Be sure to read [Plan the Secure Store Service in SharePoint Server](http://technet.microsoft.com/library/e1196de0-1eb9-4c50-aeca-93e0eba7be0d%28Office.14%29.aspx) before you begin the procedures in this article. 
+This article describes how to configure the Secure Store Service on a SharePoint Server farm. Secure Store has important planning considerations associated with it. Be sure to read [Plan the Secure Store Service in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806889(v=office.14)) before you begin the procedures in this article. 
   
     
 ## Configure Secure Store in SharePoint Server
@@ -278,5 +278,5 @@ An audit log entry stores information about a Secure Store Service action, such 
 
 #### Other Resources
 
-[Secure Store Service cmdlets in SharePoint 2013](http://technet.microsoft.com/library/5e9416ff-be81-447e-8bca-66f462fb98a8.aspx)
+[Secure Store Service cmdlets in SharePoint 2013](/powershell/module/sharepoint-server/?view=sharepoint-ps)
 

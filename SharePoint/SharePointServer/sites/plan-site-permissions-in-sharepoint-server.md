@@ -21,7 +21,7 @@ description: "Learn about how to plan site permissions for SharePoint Server to 
   
 This article helps you plan access control at the site collection, site, subsite, and site content (list or library, folder, item or document) levels.
   
-This article does not address planning the security of your entire server or server farm. For more information about planning other aspects of security, such as authentication methods and authentication modes, see [Plan authentication in SharePoint Server](https://technet.microsoft.com/library/a0f2c651-e353-4197-b0dd-0cbe6f18c811).
+This article does not address planning the security of your entire server or server farm. For more information about planning other aspects of security, such as authentication methods and authentication modes, see [Plan authentication in SharePoint Server](/SharePoint/install/install).
   
 ## Plan for site permissions
 <a name="section4"> </a>

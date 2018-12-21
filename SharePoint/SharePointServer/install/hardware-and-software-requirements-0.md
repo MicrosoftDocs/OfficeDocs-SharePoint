@@ -36,13 +36,13 @@ SharePoint 2013 provides for several installation scenarios. Currently, these in
 
 If you plan to use capabilities that are offered through SharePoint 2013 or through other integration channels, such as SQL Server or Exchange Server, you also need to meet the hardware and software requirements that are specific to that capability. The following list provides links to hardware and software requirements for some SharePoint 2013 capabilities:
   
-- [Hardware and software requirements (Project Server 2013)](http://technet.microsoft.com/library/32d82f51-546a-42a3-ade5-54cc4dfdcb87.aspx)
+- [Hardware and software requirements (Project Server 2013)](/project/hardware-and-software-requirements-for-project-server-2013)
     
 - For eDiscovery, each front-end web server must have the Exchange Web Services Managed API, version 1.2 installed. For more information, see the following articles:
     
   - [Configure eDiscovery in SharePoint Server](../governance/configure-ediscovery-0.md)
     
-  - [Configure Exchange for SharePoint eDiscovery Center](https://technet.microsoft.com/en-us/library/jj218665%28v=exchg.150%29)
+  - [Configure Exchange for SharePoint eDiscovery Center](/exchange/configure-exchange-for-sharepoint-ediscovery-center-exchange-2013-help)
     
     
 - Hardware requirements for search in SharePoint Server 2013:
@@ -111,7 +111,7 @@ The requirements in the following section apply to the following installations:
 The Microsoft SharePoint Products Preparation Tool can assist you in the installation of the software prerequisites for SharePoint 2013. Ensure that you have an Internet connection, because some prerequisites are installed from the Internet. For more information about how to use the Microsoft SharePoint Products Preparation Tool, see [Install SharePoint 2013 across multiple servers for a three-tier farm](multiple-servers-for-a-three-tier-farm.md) and [Install SharePoint 2013 across multiple servers for a three-tier farm](multiple-servers-for-a-three-tier-farm.md).
   
 > [!NOTE]
-> SQL Server 2014 requires the May 2014 Cumulative Update to be installed. To install the May 2014 Cumulative Update see [Updates to SharePoint 2013](https://technet.microsoft.com/en-us/jj891062). 
+> SQL Server 2014 requires the May 2014 Cumulative Update to be installed. To install the May 2014 Cumulative Update see [Updates to SharePoint 2013](/officeupdates/). 
   
 > [!NOTE]
 > At this time, SQL Server 2016 RTM is not supported. 
@@ -335,7 +335,7 @@ In scenarios where installing prerequisites directly from the Internet is not po
     
 - Microsoft SQL Server 2012 with Service Pack 1 (SP1) LocalDB 64-bit edition, which is also a component of SQL Server 2012 with Service Pack 1 (SP1) Express - [ENU\x64\SqlLocalDB.msi](http://go.microsoft.com/fwlink/p/?LinkId=262352)
     
-- [Microsoft SQL Server 2014](https://technet.microsoft.com/en-us/sqlserver/dn135309.aspx)
+- [Microsoft SQL Server 2014](/sql/sql-server/sql-server-technical-documentation?view=sql-server-2017)
     
 ## Prerequisite installer operations and command-line options
 <a name="section7"> </a>

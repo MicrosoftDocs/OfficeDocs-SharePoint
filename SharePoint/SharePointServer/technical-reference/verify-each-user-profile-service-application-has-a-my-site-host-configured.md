@@ -44,7 +44,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: Verify e
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -65,5 +65,5 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: Verify e
 
 #### Other Resources
 
-[Set-SPProfileServiceApplication](http://technet.microsoft.com/library/92948ad5-2100-4b49-a59e-99dfb6a9d1ed.aspx)
+[Set-SPProfileServiceApplication](/powershell/module/sharepoint-server/Set-SPProfileServiceApplication?view=sharepoint-ps)
 

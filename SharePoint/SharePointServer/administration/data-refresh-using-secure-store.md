@@ -34,7 +34,7 @@ Before starting, you will need:
     
 - Contribute access to the SharePoint document library that you will be using.
     
-Additionally, be sure that [Excel Services](excel-services-overview.md) and [Secure Store](http://technet.microsoft.com/library/e1196de0-1eb9-4c50-aeca-93e0eba7be0d%28Office.14%29.aspx) are configured in your SharePoint Server 2013 farm. 
+Additionally, be sure that [Excel Services](excel-services-overview.md) and [Secure Store](/previous-versions/office/sharepoint-server-2010/ee806889(v=office.14)) are configured in your SharePoint Server 2013 farm. 
   
 ## Video demonstration
 <a name="VideoDemonstration"> </a>

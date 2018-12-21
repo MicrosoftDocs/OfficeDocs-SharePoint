@@ -42,7 +42,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: A State 
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 Products cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -80,6 +80,6 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: A State 
     
   -  _\<ID\>_ is the identifier for the State Service service application as a string or a GUID. If there is only one State Service service application, you do not have to specify this parameter. 
     
-For more information, see [Mount-SPStateServiceDatabase](http://technet.microsoft.com/library/bd559347-c8f9-4ecf-9fbc-17821ae0afc4.aspx) or [New-SPStateServiceDatabase](http://technet.microsoft.com/library/221e439c-c501-4d4c-9d8a-171a01e67e25.aspx). 
+For more information, see [Mount-SPStateServiceDatabase](/powershell/module/sharepoint-server/Mount-SPStateServiceDatabase?view=sharepoint-ps) or [New-SPStateServiceDatabase](/powershell/module/sharepoint-server/New-SPStateServiceDatabase?view=sharepoint-ps). 
   
 

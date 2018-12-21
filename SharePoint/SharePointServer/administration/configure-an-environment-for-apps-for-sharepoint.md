@@ -26,7 +26,7 @@ To enable users to install and use apps for SharePoint in their sites, you must 
     
 - You must be a member of the Farm Administrators group to perform the steps in this article. For some steps, you must also be a domain administrator.
     
-- If you have a multi-tenant environment, you need to do some steps by using Microsoft PowerShell. Make sure you have [permissions to administer SharePoint Server using Windows PowerShell](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa%28Office.14%29.aspx).
+- If you have a multi-tenant environment, you need to do some steps by using Microsoft PowerShell. Make sure you have [permissions to administer SharePoint Server using Windows PowerShell](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
     
 ## Configure the domain names in DNS
 <a name="CreateAppDomain"> </a>
@@ -131,7 +131,7 @@ Apps rely on the App Management and Microsoft SharePoint Foundation Subscription
     
 2. For the **Microsoft SharePoint Foundation Subscription Settings Service**, click **Enable Auto Provision**
     
-Next, create a Subscription Settings service application and proxy. These must be created by using Microsoft PowerShell. Use the example script provided at [New-SPSubscriptionSettingsServiceApplication](http://technet.microsoft.com/library/a0056290-df8b-4167-9a11-59cbb619e194.aspx).
+Next, create a Subscription Settings service application and proxy. These must be created by using Microsoft PowerShell. Use the example script provided at [New-SPSubscriptionSettingsServiceApplication](/powershell/module/sharepoint-server/New-SPSubscriptionSettingsServiceApplication?view=sharepoint-ps).
   
 You also need an App Management service application. The following procedures provide the steps to configure it.
   

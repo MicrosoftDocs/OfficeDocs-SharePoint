@@ -100,7 +100,7 @@ You can edit the names of terms in the Query Spelling Exclusions and Query Spell
 
 [Linguistic search features in SharePoint Server](../technical-reference/linguistic-search-features.md)
 
-[Set-SPEnterpriseSearchQuerySpellingCorrection](http://technet.microsoft.com/library/0c0d069e-d7a8-4341-901a-922188a17705.aspx)
+[Set-SPEnterpriseSearchQuerySpellingCorrection](/powershell/module/sharepoint-server/Set-SPEnterpriseSearchQuerySpellingCorrection?view=sharepoint-ps)
   
-[Get-SPEnterpriseSearchQuerySpellingCorrection](http://technet.microsoft.com/library/4a00b085-917b-48c2-a2cc-8252410b2a24.aspx)
+[Get-SPEnterpriseSearchQuerySpellingCorrection](/powershell/module/sharepoint-server/Get-SPEnterpriseSearchQuerySpellingCorrection?view=sharepoint-ps)
 

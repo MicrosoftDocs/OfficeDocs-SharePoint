@@ -31,7 +31,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: Validate
   
 - We recommend that you have a separate, dedicated Web application to host the My Site host and individual My Sites.
     
-    For more information, see [Create a web application in SharePoint Server](http://technet.microsoft.com/library/121c8d83-a508-4437-978b-303096aa59df%28Office.14%29.aspx).
+    For more information, see [Create a web application in SharePoint Server](/previous-versions/office/sharepoint-server-2010/cc261875(v=office.14)).
     
 ## See also
 <a name="server"> </a>

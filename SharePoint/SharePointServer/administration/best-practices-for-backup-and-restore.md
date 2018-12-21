@@ -45,7 +45,7 @@ Do not run backup jobs during times when users need access to the system. Typica
 
 Keep databases small to speed both backup and restore. For example, use multiple content databases for a web application instead of one large content database. For more information, see [Database types and descriptions in SharePoint Server](../technical-reference/database-types-and-descriptions.md). 
   
-For a graphical overview of the databases that support SharePoint Server 2016, see [Quick reference guide: SharePoint Server 2016 databases](https://docs.microsoft.com/en-us/SharePoint/technical-reference/technical-diagrams#sharepoint-server-2016-databases). 
+For a graphical overview of the databases that support SharePoint Server 2016, see [Quick reference guide: SharePoint Server 2016 databases](/SharePoint/technical-reference/technical-diagrams#sharepoint-server-2016-databases). 
   
 ### Use incremental backups for large databases
 
@@ -139,7 +139,7 @@ Use PowerShell backup and recovery cmdlets to create a script file (\*.ps1) and 
   
 - [Running Scripts](https://go.microsoft.com/fwlink/p/?LinkID=178144)
     
-- [Backup and recovery cmdlets in SharePoint Server 2016](http://technet.microsoft.com/library/2ec8e3d1-f9f7-45b7-980a-d3c19d726d33.aspx)
+- [Backup and recovery cmdlets in SharePoint Server 2016](/powershell/module/sharepoint-server/?view=sharepoint-ps)
     
 ### Use the SQL FILESTREAM provider with BLOB storage
 

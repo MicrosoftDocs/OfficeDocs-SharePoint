@@ -110,7 +110,7 @@ There are two reasons why obsolete users or groups can exist in the SharePoint S
   Set-SPProfileServiceApplication $upa -PurgeNonImportedObjects $true
   ```
 
-For more information, see [Get-SPServiceApplication](http://technet.microsoft.com/library/71a467dc-3b95-4b65-af93-0d0d6ebb8326.aspx) and [Set-SPProfileServiceApplication](http://technet.microsoft.com/library/92948ad5-2100-4b49-a59e-99dfb6a9d1ed.aspx).
+For more information, see [Get-SPServiceApplication](/powershell/module/sharepoint-server/Get-SPServiceApplication?view=sharepoint-ps) and [Set-SPProfileServiceApplication](/powershell/module/sharepoint-server/Set-SPProfileServiceApplication?view=sharepoint-ps).
   
 ## Maintain profile schema changes
 <a name="schemaChanges"> </a>
@@ -138,7 +138,7 @@ Use the following procedure to rename a profile synchronization server.
     
   -  _newName_ is the new name for the server. 
     
-For more information about renaming a server by using Microsoft PowerShell, see [Rename-SPServer](http://technet.microsoft.com/library/0e64ec82-f313-4af8-b3ca-c0f55e5d51f0.aspx).
+For more information about renaming a server by using Microsoft PowerShell, see [Rename-SPServer](/powershell/module/sharepoint-server/Rename-SPServer?view=sharepoint-ps).
   
 ## Move the User Profile Synchronization service to a new server
 <a name="moveService"> </a>

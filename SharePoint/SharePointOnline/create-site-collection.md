@@ -3,6 +3,7 @@ title: "Create a site collection"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
+ms.date: 6/19/2018
 ms.audience: Admin
 ms.topic: article
 f1_keywords:
@@ -21,21 +22,21 @@ search.appverid:
 - MBS150
 - MET150
 ms.assetid: 3a3d7ab9-5d21-41f1-b4bd-5200071dd539
-description: "Learn how to create and delete SharePoint Online site collections in the classic SharePoint admin center."
+description: "Learn how to create and delete SharePoint Online site collections in the SharePoint admin center."
 ---
 
 # Create a site collection
 
-This article describes how global admins and SharePoint admins in Office 365 can create SharePoint Online site collections that use classic templates from the Microsoft 365 admin center.
+This article shows how Office 365 global admins and SharePoint admins can create classic SharePoint Online site collections from the Microsoft 365 admin center.
   
 > [!NOTE]
-> For info about creating sites that use the new templates (team sites and communication sites) in the new SharePoint admin center preview, see [Manage sites in the new SharePoint admin center](manage-sites-in-new-admin-center.md). For info about creating site collections in SharePoint Server, see [Create a site collection in SharePoint Server](/SharePoint/sites/create-a-site-collection).
+> For info about creating new team sites that are connected to Office 365 groups and communication sites in the new SharePoint admin center preview, see [Manage sites in the new SharePoint admin center](manage-sites-in-new-admin-center.md). For info about creating site collections in SharePoint Server, see [Create a site collection in SharePoint Server](/SharePoint/sites/create-a-site-collection).
 
   
-## Create a site collection that uses a classic template
+## Create a classic site collection
 <a name="__toc323551189_1"> </a>
 
-SharePoint Online has several classic templates. For example, you can create sites for blogs, wikis, record storage, and publishing. Some previous Office 365 plans can have only one site collection. For info, see [SharePoint Online limits](https://support.office.com/article/8f34ff47-b749-408b-abc0-b605e1f6d498#__sharepoint_online_for_1).
+SharePoint Online has several templates for classic site collections. For example, you can create sites for blogs, wikis, record storage, and publishing. Some previous Office 365 plans can have only one site collection. For info, see [SharePoint Online limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits).
   
 1. Sign in to Office 365 as a global admin or SharePoint admin.
     

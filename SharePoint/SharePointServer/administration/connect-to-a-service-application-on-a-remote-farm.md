@@ -66,7 +66,7 @@ Before you begin this operation, review [Share service applications across farms
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -105,13 +105,13 @@ Before you begin this operation, review [Share service applications across farms
 
 #### Other Resources
 
-[New-SPBusinessDataCatalogServiceApplicationProxy](http://technet.microsoft.com/library/f73ddc6f-78ca-4736-b827-7df10cad3838.aspx)
+[New-SPBusinessDataCatalogServiceApplicationProxy](/powershell/module/sharepoint-server/New-SPBusinessDataCatalogServiceApplicationProxy?view=sharepoint-ps)
   
-[New-SPEnterpriseSearchServiceApplicationProxy](http://technet.microsoft.com/library/2a074a5a-0af0-48fd-aa1f-edc875f93335.aspx)
+[New-SPEnterpriseSearchServiceApplicationProxy](/powershell/module/sharepoint-server/New-SPEnterpriseSearchServiceApplicationProxy?view=sharepoint-ps)
   
-[New-SPMetadataServiceApplicationProxy](http://technet.microsoft.com/library/e2c96d7d-d443-4457-8348-16d0a84e0b8e.aspx)
+[New-SPMetadataServiceApplicationProxy](/powershell/module/sharepoint-server/New-SPMetadataServiceApplicationProxy?view=sharepoint-ps)
   
-[New-SPProfileServiceApplicationProxy](http://technet.microsoft.com/library/3019f2e5-451e-4af7-a434-3661319dd3c0.aspx)
+[New-SPProfileServiceApplicationProxy](/powershell/module/sharepoint-server/New-SPProfileServiceApplicationProxy?view=sharepoint-ps)
   
-[New-SPSecureStoreServiceApplicationProxy](http://technet.microsoft.com/library/57dc65e4-a368-46d4-836d-9850d1215b4b.aspx)
+[New-SPSecureStoreServiceApplicationProxy](/powershell/module/sharepoint-server/New-SPSecureStoreServiceApplicationProxy?view=sharepoint-ps)
 
