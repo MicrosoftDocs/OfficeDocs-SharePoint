@@ -311,7 +311,7 @@ Enabling this policy sets the following registry key value to 1.
 ### Configure team site libraries to sync automatically
 <a name="AutoMountTeamSites"> </a> 
 
-> [!NOTE]
+> [!IMPORTANT]
 > This feature is currently enabled in the Insiders ring only. To try it, join the [Windows Insider program](https://insider.windows.com/) or the [Office Insider](https://products.office.com/office-insider) program.
 
 This setting allows you to specify SharePoint team site libraries to sync automatically the next time users signs in to the OneDrive sync client (OneDrive.exe). It may take up to 8 hours after a users signs in before the library begins to sync. To use the setting, you must enable OneDrive Files On-Demand, and the setting applies only for users on computers running Windows 10 Fall Creators Update or later. Do not enable this setting for the same library to more than 1,000 devices. This feature is not enabled for on-premises SharePoint sites. 
@@ -320,11 +320,11 @@ If you enable this setting, the OneDrive sync client will automatically sync the
 
 If you disable this setting, team site libraries that you've specified won't be automatically synced for new users. Existing users can choose to stop syncing the libraries, but the libraries won't stop syncing automatically. 
 
-To configure the setting, in the Options box, click **Show**, and then enter the library ID in the **Value** field and a friendly name to identify the library in the **Value Name** field. 
+To configure the setting, in the Options box, click **Show**, and then enter the entire library ID (tenantId=xxx&siteId=xxx&webId=xxx&listId=xxx&webUrl=httpsxxx&version=1) in the **Value** field and a friendly name to identify the library in the **Value Name** field. 
 
 To find the library ID, sign in as a global or SharePoint admin in Office 365, browse to the library, and click the **Sync** button. In the "Starting sync" dialog box, click the **Copy library ID** link.
 
-Enabling this setting sets the following registry key:
+Enabling this setting sets the following registry key, using the entire URL from the library you copied:
 
 [HKLM\Software\Policies\Microsoft\OneDrive\TenantAutoMount]"LibraryName"="LibraryID" 
   
