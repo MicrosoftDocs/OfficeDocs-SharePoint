@@ -83,7 +83,7 @@ If you change this setting for a user's OneDrive or a classic team site, it will
 ## Features affected when custom script is blocked
 <a name="__top"> </a>
 
-When users are prevented from running custom script on OneDrive or user-created sites, site collection owners and site owners won't be able to create new items such as templates, solutions, themes, and help file collections. If you allowed custom script in the past, items that were already created will still work.
+When users are prevented from running custom script on OneDrive or the classic team sites they create, site collection owners and site owners won't be able to create new items such as templates, solutions, themes, and help file collections. If you allowed custom script in the past, items that were already created will still work.
   
 The following site settings are unavailable when users are prevented from running custom script:
   
