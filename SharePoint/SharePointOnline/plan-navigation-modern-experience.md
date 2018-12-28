@@ -251,7 +251,7 @@ Many intranets include top navigation that persists on every site. Global naviga
 
 The goal of global navigation is to support browsing to content but since there is limited real estate available for global navigation links, the top links always need category navigation pages, sub-links or a mega-menu experience to provide enough “information scent” to help visitors navigate their way to the content they need. Since the context for global navigation must be very broad, it is challenging to make the labels both comprehensive and useful. If you plan to implement global navigation, consider using one of the testing methods discussed earlier to make sure that your proposed navigation resonates with users.
 
-Global navigation is on the roadmap for Office 365/SharePoint Online but is not yet available. (Check the [Office 365 Roadmap](https://products.office.com/en-US/business/office-365-roadmap) *for this and other features that are in development*, rolling out, or launched). Until global navigation is available, there are several ways to create a global navigation experience for your modern SharePoint intranet:
+Global navigation is not yet available. Until it is available, there are several ways to create a global navigation experience for your modern SharePoint intranet:
 
 -   Create a custom [SharePoint Framework Extension](/sharepoint/dev/spfx/sharepoint-framework-overview) to deliver and apply global navigation to each new site as it is created.
 
