@@ -86,21 +86,21 @@ Claims-based authentication can be used as an alternative to Kerberos delegation
 - The services must be claims-aware.
     
 For more information about Kerberos authentication, see the following resources:
-  
-- [Kerberos Survival Guide](https://social.technet.microsoft.com/wiki/contents/articles/4209.kerberos-survival-guide.aspx) (https://social.technet.microsoft.com/wiki/contents/articles/4209.kerberos-survival-guide.aspx) 
-    
-- [How the Kerberos Version 5](/previous-versions/windows/it-pro/windows-server-2003/cc772815(v=ws.10))
-    
-- [Microsoft Kerberos](https://technet.microsoft.com/en-us/windows/aa378747%28v=vs.100%29.aspx)
+   
+- [Microsoft Kerberos](https://docs.microsoft.com/en-us/windows/desktop/secauthn/microsoft-kerberos)
     
 - [Kerberos Explained](/previous-versions/windows/it-pro/windows-2000-server/bb742516(v=technet.10))
+
+- [How the Kerberos Version 5 Authentication Protocol Works](/previous-versions/windows/it-pro/windows-server-2003/cc772815(v=ws.10))
+
+- [Kerberos Authentication Tools and Settings](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc738673(v%3dws.10)) 
     
 ## Kerberos authentication and claims-based authentication
 <a name="section2"> </a>
 
  SharePoint 2013 and SharePoint Server 2016 supports claims-based authentication. Claims-based authentication is built on the Windows Identity Foundation (WIF), which is a set of the .NET Framework classes that are used to implement claims-based identity. Claims-based authentication relies on standards such as WS-Federation and WS-Trust. For more information about claims-based authentication, see the following resources: 
   
-- [Claims-based Identity for Windows (white paper) ](https://go.microsoft.com/fwlink/p/?LinkId=198942) (https://go.microsoft.com/fwlink/p/?LinkId=198942) 
+- [Claims-based Identity for Windows (white paper)](https://go.microsoft.com/fwlink/p/?LinkId=198942) 
     
 - [Windows Identity Foundation home page](https://go.microsoft.com/fwlink/p/?LinkId=198943)
     
