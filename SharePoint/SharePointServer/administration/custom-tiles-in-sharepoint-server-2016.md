@@ -70,7 +70,7 @@ The custom tile feature is not enabled by default. To enable the feature, do the
     > [!NOTE]
     > The URL you provide will be the location of where the Custom Tile list is provisioned, so you may need to provide permission access to the list accordingly. Custom Tiles List will be Created on specified URL on feature enable command as hidden list. 
   
-7. Since this list is Created as a Hidden List, browse to http://web_app/lists/custom tiles to access Custom tiles list.
+7. Since this list is Created as a Hidden List, browse to https://web_app/Lists/Custom%20Tiles/AllItems.aspx to access Custom tiles list.
     
 8. Click **new item** to add a new item to the list. 
     
