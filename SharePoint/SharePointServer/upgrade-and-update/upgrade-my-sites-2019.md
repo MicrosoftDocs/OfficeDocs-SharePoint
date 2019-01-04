@@ -10,6 +10,7 @@ localization_priority: Normal
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
+- SP2019
 ms.assetid: d47575fa-bb85-4017-8db7-5e25f98ba171
 description: "Learn how to upgrade My Sites site collections in SharePoint Server 2019."
 ---

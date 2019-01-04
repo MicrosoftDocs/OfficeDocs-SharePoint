@@ -11,6 +11,7 @@ localization_priority: Normal
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
+- SP2019
 ms.assetid: 5aeff319-0a8f-4d6b-86d5-6086611c48ed
 description: "Create a plan to upgrade data for service applications when you upgrade from SharePoint Server 2016 to SharePoint Server 2019."
 ---

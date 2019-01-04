@@ -11,6 +11,7 @@ localization_priority: Priority
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
+- SP2019
 ms.assetid: 26c07867-0150-463d-b21a-a6d42aecf05a
 description: "Learn how to download, install, and uninstall language packs for SharePoint Server."
 ---

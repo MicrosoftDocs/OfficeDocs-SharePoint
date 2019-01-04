@@ -43,9 +43,11 @@ If you have an on-premises environment that uses Active Directory, you can enabl
 - Windows Server 2012 
     
 - Windows Server 2008 R2
+
+If you federate your on-premises Active Directory with Azure AD, you must use AD FS to enable this feature. For info about using Azure AD Connect, see [Getting started with Azure AD Connect using express settings](/azure/active-directory/hybrid/how-to-connect-install-custom).
     
 > [!NOTE]
-> For more info, see [How to configure hybrid Azure Active Directory joined devices](https://go.microsoft.com/fwlink/?linkid=864140). To check the join status and fix problems, see [Troubleshoot hybrid Azure AD-joined devices](https://go.microsoft.com/fwlink/?linkid=864415). 
+> For more info, see [How to configure hybrid Azure Active Directory joined devices](/azure/active-directory/devices/hybrid-azuread-join-plan). To check the join status and fix problems, see [Troubleshoot hybrid Azure AD-joined devices](/azure/active-directory/devices/troubleshoot-hybrid-join-windows-current). 
   
 ## Enable silent configuration
 
