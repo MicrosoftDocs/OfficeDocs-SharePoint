@@ -11,6 +11,7 @@ localization_priority: Normal
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
+- SP2019
 ms.assetid: 93327a06-ed2c-43f2-a40a-d7257f61f915
 
 description: "How to copy SharePoint Server 2016 content and service databases to a SharePoint Server 2019 farm."

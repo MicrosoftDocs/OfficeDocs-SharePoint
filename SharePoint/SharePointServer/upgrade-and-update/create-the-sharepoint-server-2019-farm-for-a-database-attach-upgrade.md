@@ -11,6 +11,7 @@ localization_priority: Normal
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
+- SP2019
 ms.assetid: 99684f0b-f617-4c10-8420-d4d0adea3687
 
 description: "Create and configure a SharePoint Server 2019 farm so that you can upgrade databases from SharePoint 2016."

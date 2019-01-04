@@ -10,7 +10,7 @@ localization_priority: Normal
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-- IT_Sharepoint16
+- SP2019
 ms.assetid: 559dddb1-95c9-4242-99ca-cf9cf1cbd0c3
 description: "This article describes how to enable Transport Layer Security (TLS) protocol versions 1.1 and 1.2 in a SharePoint Server 2019 environment. SharePoint Server 2019 fully supports TLS 1.1 and TLS 1.2."
 ---

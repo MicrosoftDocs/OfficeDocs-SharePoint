@@ -11,6 +11,7 @@ localization_priority: Normal
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
+- SP2019
 ms.assetid: b6580f87-40b4-4768-b589-6ba54013f7e4
 description: "Find resources to help you perform the steps to upgrade databases from SharePoint Server 2016 to SharePoint Server 2019."
 ---

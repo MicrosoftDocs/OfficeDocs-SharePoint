@@ -11,7 +11,7 @@ localization_priority: Priority
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-- Strat_SP_server
+- SP2019
 ms.custom: 
 ms.assetid: 4d88c402-24f2-449b-86a6-6e7afcfec0cd
 description: "Find out the minimum hardware and software requirements you need to install and run SharePoint Server."
