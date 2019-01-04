@@ -10,6 +10,7 @@ localization_priority: Priority
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
+- SP2019
 description: "Learn the best practices for SharePoint Server installation and how it will get your servers ready for easy transition to the cloud."
 ---
 

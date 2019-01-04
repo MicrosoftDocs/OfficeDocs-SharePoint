@@ -11,6 +11,7 @@ localization_priority: Normal
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
+- SP2019
 ms.assetid: 78e2f208-e4b9-49cd-a036-89809fa24baf
 description: "Learn how site collection administrators can upgrade their sites to SharePoint Server 2019 and then review site collections for issues."
 ---

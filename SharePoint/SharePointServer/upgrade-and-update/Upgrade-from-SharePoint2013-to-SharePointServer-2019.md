@@ -10,6 +10,7 @@ localization_priority: Normal
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
+- SP2019
 description: "Learn the overview steps required to upgrade SharePoint Server 2013 environment to SharePoint Server 2019."
 ---
 

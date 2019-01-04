@@ -11,6 +11,7 @@ localization_priority: Priority
 ms.collection: 
 - IT_Sharepoint_Server_Top
 - Strat_SP_server
+- SP2019
 ms.custom: 
 ms.assetid: 9fc3a696-b2cb-435c-8199-7048953ec609
 description: "Learn about planning your SharePoint farm deployment using MinRole. MinRole helps administrators select the right server role when provisioning SharePoint Servers."
