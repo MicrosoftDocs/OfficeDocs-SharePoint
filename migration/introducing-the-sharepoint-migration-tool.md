@@ -19,19 +19,20 @@ description: ""
 
 
 >[!NOTE]
->Click here to download [SharePoint Migration tool V2](http://spmtreleasescus.blob.core.windows.net/install/default.htm).  <br>For more information release notes see:  [New and improved features in the SharePoint Migration Tool](new-and-improved-features-in-the-sharepoint-migration-tool.md).<br/><br/> *Important:*  If you are experiencing issues with the "first release" version of SPMT, please uninstall and reinstall the standard release. We are working to fix this problem.<br><br>
->Currently the SharePoint Migration Tool supports migrations from SharePoint Server 2013 and on-premises file shares to SharePoint Online and OneDrive.
+>Click here to download [SharePoint Migration tool V2](http://spmtreleasescus.blob.core.windows.net/install/default.htm).  
+<br><br>
+>The SharePoint Migration Tool currently only supports migrations from SharePoint Server 2013 and on-premises file shares to SharePoint Online and OneDrive.
 >
 >If you prefer using PowerShell, all SPMT functionality is supported. For more information see: [Migrate to SharePoint Online using PowerShell](overview-spmt-ps-cmdlets.md).
 >
->The **SharePoint Migration Tool** is not available for users of Office 365 operated by 21Vianet in China.  </br></br>It is also not available for users of Office 365 with the German cloud with the data trustee, *German Telekom*. However, it is supported for users in Germany whose data location is not in the German datacenter.
+>The **SharePoint Migration Tool** is not available for users of Office 365 operated by 21Vianet in China.  </br></br>It is also not available for users of Office 365 with the German cloud using the data trustee, *German Telekom*. However, it is supported for users in Germany whose data location is not in the German datacenter.
  
 The SharePoint Migration Tool lets you migrate lists or files from your SharePoint on-premises document libraries or from your on-premises file shares and easily move them to either SharePoint or OneDrive in Office 365. It is available to Office 365 users.
   
   
 Designed to be used for migrations ranging from the smallest set of files to a large scale enterprise migration, the SharePoint Migration Tool will let you bring your information to the cloud and take advantage of the latest collaboration, intelligence, and security solutions with Office 365.
   
-![SharePoint Migration Tool](media/a2a20032-f3ea-4248-8dd3-d3f079488503.png)
+![SharePoint Migration Tool](media/SPMT-welcome-screen-520.png)
   
 ## Download and Install the SharePoint Migration Tool
 
@@ -40,7 +41,7 @@ You can download and install the SharePoint Migration Tool using Internet Explor
 > [!IMPORTANT]
 > If you are using the Chrome browser, you need to install the **ClickOnce for Google Chrome** plug-in  *before*  installing the SharePoint Migration Tool. > To download and install the plug-in: Using Chrome, go to this site and then click **Add to Chrome**: [ClickOnce for Google Chrome plug-in](https://chrome.google.com/webstore/detail/clickonce-for-google-chro/kekahkplibinaibelipdcikofmedafmb?utm_source=chrome-app-launcher-info-dialog)
   
-1. To download the tool, go to [SharePoint Migration Tool Version 2](http://spmtreleasescus.blob.core.windows.net/install/default.htm).
+1. Download the current release here: [SharePoint Migration Tool](http://spmtreleasescus.blob.core.windows.net/install/default.htm).
     
 2. Click **Install**.
     
