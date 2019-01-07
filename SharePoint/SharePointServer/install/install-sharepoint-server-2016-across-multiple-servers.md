@@ -11,6 +11,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 - Strat_SP_server
+- SP2019
 ms.custom: 
 ms.assetid: 4982a861-ad5c-43e4-a49f-958afd4370aa
 description: "Learn how to install SharePoint Servers to create a SharePoint server farm."

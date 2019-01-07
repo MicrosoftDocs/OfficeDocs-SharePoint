@@ -12,6 +12,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 - Strat_SP_server
+- SP2019
 ms.custom: 
 ms.assetid: 6a13cd9f-4b44-40d6-85aa-c70a8e5c34fe
 

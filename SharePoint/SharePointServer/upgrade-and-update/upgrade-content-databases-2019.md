@@ -11,6 +11,7 @@ localization_priority: Normal
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
+- SP2019
 ms.assetid: d0a50e40-5322-4f7a-a3a4-c4660c879666
 description: "Learn how to upgrade content databases from SharePoint Server 2016 to SharePoint Server 2019."
 ---

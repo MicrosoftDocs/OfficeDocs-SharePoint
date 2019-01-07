@@ -11,6 +11,7 @@ localization_priority: Normal
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
+- SP2019
 ms.assetid: 55b99d80-3fa7-49f0-bdf4-adb5aa959019
 description: "Learn about the permissions and security settings to use with a deployment of SharePoint Server."
 ---
