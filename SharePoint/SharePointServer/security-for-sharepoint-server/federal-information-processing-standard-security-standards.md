@@ -28,7 +28,7 @@ Because SharePoint Server uses these algorithms, it does not support the Windows
     
 FIPS 140-2 defines security standards that the United States and Canadian governments use to validate security levels for products that implement cryptography. For more information about FIPS 140-2, see the following references:
   
-- [FIPS 140 Evaluation](https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/system-cryptography-use-fips-compliant-algorithms-for-encryption-hashing-and-signing)
+- [FIPS 140 Evaluation](/windows/security/threat-protection/security-policy-settings/system-cryptography-use-fips-compliant-algorithms-for-encryption-hashing-and-signing)
     
 - [FIPS Publications](https://go.microsoft.com/fwlink/p/?LinkId=209157)
     

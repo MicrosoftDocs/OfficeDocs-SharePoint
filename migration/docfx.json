@@ -39,6 +39,11 @@
     "globalMetadata": {
       "breadcrumb_path": "/sharepointmigration/breadcrumb/toc.json",
       "extendBreadcrumb": "true",
+      "contributors_to_exclude": [
+        "dstrome",
+        "daswifty",
+        "Reraghavan"
+      ],
       "searchScope": ["SharePoint Migration"],
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/OfficeDocs-SharePoint",

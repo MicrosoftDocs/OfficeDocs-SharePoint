@@ -42,9 +42,9 @@ You can avoid fine-grained permissions by doing the following:
 
 Before you begin this operation, review the following information about prerequisites:
   
-- [Fine-grained permission reference for SharePoint Server](https://technet.microsoft.com/library/d1410f72-1d58-48e6-9311-b1248f4a81f6)
+- [Fine-grained permission reference for SharePoint Server](/sharepoint/security-for-sharepoint-server/security-for-sharepoint-server)
     
-- [Troubleshoot common fine-grained permissions issues for SharePoint Server](https://technet.microsoft.com/library/d0768e2c-b733-4583-bbe6-c03af04fc5b7)
+- [Troubleshoot common fine-grained permissions issues for SharePoint Server](/SharePoint/administration/troubleshoot-common-fine-grained-permissions-issues)
     
 ## Best practices to avoid common limit issues of fine-grained permissions
 <a name="avoidcommonfgpissues"> </a>
@@ -92,7 +92,7 @@ Change the built-in scope limit by using a Microsoft PowerShell script.
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](https://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the **SharePoint Management Shell**. 
     

@@ -73,9 +73,9 @@ All of the following recommended assessments can be performed using Box’s Fold
 
 | |**Assess**|**Remediate**|
 |:-----|:-----|:-----|
-|**File extensions**|Find all files in the Folders and Files report whose Path ends in one of the extensions defined here: [Types of files that cannot be added to a list or library](https://support.office.com/en-us/article/Types-of-files-that-cannot-be-added-to-a-list-or-library-30BE234D-E551-4C2A-8DE8-F8546FFBF5B3)|If the blocked file types are scripting files, they are blocked because scripting capabilities are turned off by default in OneDrive. <br><br>If you want to allow these file types, turn on scripting capabilities as described here: [Allow or prevent custom script](https://support.office.com/en-us/article/allow-or-prevent-custom-script-1f2c515f-5d7e-448a-9fd7-835da935584f?ui=en-US&rs=en-001&ad=US). <br><br>Make sure you understand why these files are blocked by default as described here: [Security considerations of allowing custom script](https://support.office.com/en-us/article/security-considerations-of-allowing-custom-script-b0420ab0-aff2-4bbc-bf5e-03de9719627c)|
+|**File extensions**|Find all files in the Folders and Files report whose Path ends in one of the extensions defined here: [Types of files that cannot be added to a list or library](https://support.office.com/en-us/article/Types-of-files-that-cannot-be-added-to-a-list-or-library-30BE234D-E551-4C2A-8DE8-F8546FFBF5B3)|If the blocked file types are scripting files, they are blocked because scripting capabilities are turned off by default in OneDrive. <br><br>If you want to allow these file types, turn on scripting capabilities as described here: [Allow or prevent custom script](/sharepoint/allow-or-prevent-custom-script). <br><br>Make sure you understand why these files are blocked by default as described here: [Security considerations of allowing custom script](/sharepoint/security-considerations-of-allowing-custom-script)|
 |**File and folder name characters**|Find all items in the Folders and Files report whose name contains any of the characters detailed here: [Invalid file names and file types in OneDrive, OneDrive for Business, and SharePoint](https://support.office.com/article/64883a5d-228e-48f5-b3d2-eb39e07630fa)|Work with your migration vendor to substitute these characters in all file and folder names.<br><br>**Note:** The # and % characters are supported but not enabled by default. Follow these steps to enable them: [New support for # and % in SharePoint Online and OneDrive](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/New-support-for-and-in-SharePoint-Online-and-OneDrive-for/ba-p/60357)|
-|**File and folder path length**|Find all items in the *Folders and Files* report whose Path exceeds the file path length described here: [SharePoint Online limits](https://support.office.com/en-us/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498)|Work with your migration vendor to reorganize your file and folder structure such that it does not exceed this limit. Splitting large drives that serve several scenarios into multiple smaller, more focused drives may help here.|
+|**File and folder path length**|Find all items in the *Folders and Files* report whose Path exceeds the file path length described here: [SharePoint Online limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)|Work with your migration vendor to reorganize your file and folder structure such that it does not exceed this limit. Splitting large drives that serve several scenarios into multiple smaller, more focused drives may help here.|
 |**Large drives and complex sharing**|Scan for any drives that have a very large amount of content, or many different unique sharing permissions – this is usually a sign that the drive should be broken down into smaller, more focused sites. <br><br>Specifically, any drive that has more than 50,000 documents shared with different users must be broken up. Use Box’s Folders and Files report and Shared Links report to identify such drives.|Identify sets of content within these drives that are conceptually similar (same project area, all shared with the same users, etc). Move these sets of content out and into new drives before starting migration.|
 
 
@@ -83,8 +83,8 @@ All of the following recommended assessments can be performed using Box’s Fold
 ## Prepare your OneDrive environment
 
 Before migrating your Box content, you must pre-provision your users in OneDrive.  For guidance on pre-provisioning see: 
-- [Prepare to provision users through directory synchronization to Office 365](https://support.office.com/en-us/article/prepare-to-provision-users-through-directory-synchronization-to-office-365-01920974-9e6f-4331-a370-13aea4e82b3e)
-- [Pre-provision OneDrive for users in your organization](https://support.office.com/en-us/article/Pre-provision-OneDrive-for-users-in-your-organization-ceef6623-f54f-404d-8ee3-3ce1e338db07)
+- [Prepare to provision users through directory synchronization to Office 365](/office365/enterprise/prepare-for-directory-synchronization)
+- [Pre-provision OneDrive for users in your organization](/onedrive/pre-provision-accounts)
 
 
 
@@ -110,9 +110,9 @@ Currently, there are a variety of migration offerings available to you. They inc
 
 FastTrack is a Microsoft service included in your subscription cost that provides you with a set of best practices, tools, resources, and experts committed to making your experience with the Microsoft Cloud a great one. OneDrive onboarding guidance, migration benefits, and adoption guidance are included in the benefit offering. 
 
-Onboarding guidance includes: help to discover what’s possible, creating a plan for success, and onboarding new users and capabilities at a flexible pace. The [Data Migration](https://technet.microsoft.com/library/mt651702.aspx) benefit covers guidance on migrating content from file share, Box, or Google Drive source environments. 
+Onboarding guidance includes: help to discover what’s possible, creating a plan for success, and onboarding new users and capabilities at a flexible pace. The [Data Migration](/fasttrack/O365-data-migration) benefit covers guidance on migrating content from file share, Box, or Google Drive source environments. 
 
-This guidance covers enablement of both OneDrive for Business and the source environment. FastTrack will also perform specific data migration activities on behalf of the customer for those with 500 or more licenses. See more details in the provided [FastTrack Center Benefit Overview](https://technet.microsoft.com/library/mt651702.aspx). Interested in getting started? Visit [FastTrack.microsoft.com](https://fasttrack.microsoft.com/), review resources, and submit a Request for Assistance.
+This guidance covers enablement of both OneDrive for Business and the source environment. FastTrack will also perform specific data migration activities on behalf of the customer for those with 500 or more licenses. See more details in the provided [FastTrack Center Benefit Overview](/fasttrack/O365-data-migration). Interested in getting started? Visit [FastTrack.microsoft.com](https://fasttrack.microsoft.com/), review resources, and submit a Request for Assistance.
 
 **Migration service providers**
 
@@ -175,7 +175,7 @@ Microsoft’s recommendation is to not handle external sharing during the act of
 - If you decide the content is to remain externally shared, determine whether that content is suited for OneDrive personal libraries or shared libraries based on the *"What content goes where"* above guidance
 - For **OneDrive** personal libraries:  reshare files externally with the appropriate external users after the migration  
 - For **Shared libraries**:<br> 
-    - Where possible, leverage the collaboration and security benefits of grouping external partner specific content in a dedicated SharePoint team site. Read more details here: [Use Office 365 SharePoint Online as a business-to-business (B2B) extranet solution](https://support.office.com/en-us/article/Use-Office-365-SharePoint-Online-as-a-business-to-business-B2B-extranet-solution-7b087413-165a-4e94-8871-4393e0b9c037).<br>
+    - Where possible, leverage the collaboration and security benefits of grouping external partner specific content in a dedicated SharePoint team site. Read more details here: [Use Office 365 SharePoint Online as a business-to-business (B2B) extranet solution](/sharepoint/create-b2b-extranet).<br>
     - If content cannot be grouped as such, then externally reshare on the file or folder level in the target team library. 
 
 

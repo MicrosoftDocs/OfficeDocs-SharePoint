@@ -169,7 +169,7 @@ Use the following PowerShell script to perform a graceful shutdown of the Distri
   
 1. Verify that you meet the following minimum requirements:
     
-  - See [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx).
+  - See [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
     
   - You must read [about_Execution_Policies](https://go.microsoft.com/fwlink/p/?LinkId=193050).
     
@@ -218,7 +218,7 @@ Use the following PowerShell script to perform a graceful shutdown of the Distri
   ./GracefulShutdown.ps1
   ```
 
-    For additional information about PowerShell scripts and .ps1 files, see [Running Windows PowerShell Scripts](http://technet.microsoft.com/library/ee176949).
+    For additional information about PowerShell scripts and .ps1 files, see [Running Windows PowerShell Scripts](/previous-versions/windows/it-pro/windows-powershell-1.0/ee176949(v=technet.10)).
     
 ## Change the service account
 <a name="changesvcacct"> </a>
@@ -250,7 +250,7 @@ The Distributed Cache service setting for **MaxConnectionsToServer** is often tu
   
 1. Verify that you meet the following minimum requirements:
     
-  - See [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx).
+  - See [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
     
   - You need to read [about_Execution_Policies](https://go.microsoft.com/fwlink/p/?LinkId=193050).
     
@@ -453,7 +453,7 @@ The Distributed Cache service setting for **MaxConnectionsToServer** is often tu
   ./MaxConnections.ps1
   ```
 
-    For more information, see [Best Practices for using Windows Azure Cache/Windows Server Appfabric Cache](http://go.microsoft.com/fwlink/?LinkID=614969&amp;clcid=0x409) and [Application Configuration Settings (Windows Server AppFabric Caching)](http://go.microsoft.com/fwlink/?LinkID=614970&amp;clcid=0x409). For additional information about Windows PowerShell scripts and .ps1 files, see [Running Windows PowerShell Scripts](http://technet.microsoft.com/library/ee176949).
+    For more information, see [Best Practices for using Windows Azure Cache/Windows Server Appfabric Cache](http://go.microsoft.com/fwlink/?LinkID=614969&amp;clcid=0x409) and [Application Configuration Settings (Windows Server AppFabric Caching)](http://go.microsoft.com/fwlink/?LinkID=614970&amp;clcid=0x409). For additional information about Windows PowerShell scripts and .ps1 files, see [Running Windows PowerShell Scripts](/previous-versions/windows/it-pro/windows-powershell-1.0/ee176949(v=technet.10)).
     
 ## Repair a cache host
 <a name="repair"> </a>
@@ -464,9 +464,9 @@ There are two steps to repair a cache host.
   
 On the non-functioning Distributed Cache host, use the following procedures to restore the Distributed Cache host. 
   
-1. At the SharePoint Management Shell command prompt, run the [Remove-SPDistributedCacheServiceInstance](http://technet.microsoft.com/library/7cb14284-d0d8-4221-b81d-0a4470101880.aspx) cmdlet. 
+1. At the SharePoint Management Shell command prompt, run the [Remove-SPDistributedCacheServiceInstance](/powershell/module/sharepoint-server/Remove-SPDistributedCacheServiceInstance?view=sharepoint-ps) cmdlet. 
     
-2. At the SharePoint Management Shell command prompt, run the [Add-SPDistributedCacheServiceInstance](http://technet.microsoft.com/library/4f4dbede-70a4-4480-9d7a-4265a04c88d1.aspx) cmdlet. 
+2. At the SharePoint Management Shell command prompt, run the [Add-SPDistributedCacheServiceInstance](/powershell/module/sharepoint-server/Add-SPDistributedCacheServiceInstance?view=sharepoint-ps) cmdlet. 
     
     > [!NOTE]
     > If step 1 fails, manually remove the Distributed Cache service, use the following steps. 

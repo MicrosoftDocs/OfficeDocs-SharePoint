@@ -10,6 +10,7 @@ localization_priority: Normal
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
+- SP2019
 description: "This article explains the updated product servicing policy of SharePoint Server."
 ---
 

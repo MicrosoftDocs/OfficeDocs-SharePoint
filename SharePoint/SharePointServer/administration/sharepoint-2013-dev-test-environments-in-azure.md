@@ -400,12 +400,12 @@ This can take some time to complete.
 
 You can administer the servers of these farms through [Remote Desktop connections](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-connect-logon/).
   
-From the Central Administration SharePoint site, you can configure My sites, SharePoint applications, and other functionality. For more information, see [Configure SharePoint 2013](https://technet.microsoft.com/en-us/library/ee836142.aspx).
+From the Central Administration SharePoint site, you can configure My sites, SharePoint applications, and other functionality. For more information, see [Configure SharePoint 2013](/SharePoint/install/configure).
   
 ## Create a SharePoint 2016 dev/test farm
 <a name="powershell"> </a>
 
-See the instructions in [SharePoint Server 2016 dev/test environment in Azure](https://technet.microsoft.com/library/mt723354%28v=office.16%29.aspx) to create the following single-server, SharePoint 2016 dev/test farm:. 
+See the instructions in [SharePoint Server 2016 dev/test environment in Azure](/SharePoint/administration/sharepoint-server-2016-dev-test-environment-in-azure) to create the following single-server, SharePoint 2016 dev/test farm:. 
   
 ![The single-server SharePoint 2016 farm in Azure.](../media/8cf51483-ecef-4ba4-a9fc-952716ff8132.png)
   
@@ -413,5 +413,5 @@ See the instructions in [SharePoint Server 2016 dev/test environment in Azure](h
 
 [Technical diagrams for SharePoint Server](../technical-reference/technical-diagrams.md)
 
-[SharePoint Server 2016 dev/test environment in Azure](https://technet.microsoft.com/library/mt723354%28v=office.16%29.aspx)
+[SharePoint Server 2016 dev/test environment in Azure](/SharePoint/administration/sharepoint-server-2016-dev-test-environment-in-azure)
 

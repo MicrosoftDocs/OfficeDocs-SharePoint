@@ -36,10 +36,10 @@ If a user's Office 365 account is deleted, their OneDrive for Business files are
     
 ## See also
 
-[Delete a user from your organization](https://support.office.com/article/D5155593-3BAC-4D8D-9D8B-F4513A81479E)
+[Delete a user from your organization](/office365/admin/add-users/delete-a-user)
   
 [Set up OneDrive to alert managers and delegate access automatically when users leave your organization](http://go.microsoft.com/fwlink/p/?LinkId=798417&amp;clcid=0x409)
   
-[Overview of retention policies](https://support.office.com/article/5e377752-700d-4870-9b6d-12bfc12d2423#how)
+[Overview of retention policies](/office365/securitycompliance/retention-policies)
 
 

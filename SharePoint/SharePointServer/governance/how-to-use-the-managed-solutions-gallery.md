@@ -37,7 +37,7 @@ The Managed Solutions Gallery is a new feature in the September Public Update fo
 > The September Public Update includes the English-language version of the Managed Solutions Gallery. A future Public Update will include the Multi-language versions of the Managed Solutions Gallery. 
   
 > [!NOTE]
-> To initially setup and configure the Managed Solutions Gallery is only available by using the following Microsoft PowerShell cmdlets: [New-SPUserSolutionAllowList](http://technet.microsoft.com/library/8a5e186f-77d0-40b3-ae99-c847b52defc6.aspx), [Enable-SPUserSolutionAllowList](http://technet.microsoft.com/library/c145d90a-5c82-4f37-b1dd-3cee2d4c69ea.aspx). To use these cmdlets you must use elevated administrator privileges, by using RunAs Administrator. > Once the gallery is configured, it is treated as a document library (that is, SPList) and can be managed by using the user interface. 
+> To initially setup and configure the Managed Solutions Gallery is only available by using the following Microsoft PowerShell cmdlets: [New-SPUserSolutionAllowList](/powershell/module/sharepoint-server/New-SPUserSolutionAllowList?view=sharepoint-ps), [Enable-SPUserSolutionAllowList](/powershell/module/sharepoint-server/Enable-SPUserSolutionAllowList?view=sharepoint-ps). To use these cmdlets you must use elevated administrator privileges, by using RunAs Administrator. > Once the gallery is configured, it is treated as a document library (that is, SPList) and can be managed by using the user interface. 
   
 Before you can use the Managed Solutions Gallery, you must create a site collection on the Master Gallery, and then enable the functionality of the Managed Solutions Gallery.
   
@@ -51,7 +51,7 @@ Before you can use the Managed Solutions Gallery, you must create a site collect
     
   - You must be a member of the Administrators group on the server on which you are running the Microsoft PowerShell cmdlet.
     
-    An administrator can use the [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx) cmdlet to grant permissions to use SharePoint Server  cmdlets. 
+    An administrator can use the [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps) cmdlet to grant permissions to use SharePoint Server  cmdlets. 
     
 2. Start the SharePoint Management Shell.
     
@@ -87,7 +87,7 @@ SharePoint Add-ins are self-contained extensions of SharePoint websites that you
 
 #### Other Resources
 
-[Disable-SPUserSolutionAllowList](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Disable-SPUserSolutionAllowList)
+[Disable-SPUserSolutionAllowList](/powershell/module/sharepoint-server/Disable-SPUserSolutionAllowList?view=sharepoint-ps)
   
-[Get-SPUserSolutionAllowList](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Get-SPUserSolutionAllowList)
+[Get-SPUserSolutionAllowList](/powershell/module/sharepoint-server/Get-SPUserSolutionAllowList?view=sharepoint-ps)
 

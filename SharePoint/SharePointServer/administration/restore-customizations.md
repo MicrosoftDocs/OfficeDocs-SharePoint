@@ -77,7 +77,7 @@ Sandboxed solutions are solutions that site collection administrators can deploy
      An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -95,7 +95,7 @@ Sandboxed solutions are solutions that site collection administrators can deploy
     
    -  _\<SolutionPath\>_ is the path of the solution within the backup tree (usually farm\solutions\  _SolutionName_).
     
-For more information, see [Restore-SPFarm](http://technet.microsoft.com/library/a4a83bb0-0bab-4cad-9b59-0fd89a16f57b.aspx). 
+For more information, see [Restore-SPFarm](/powershell/module/sharepoint-server/Get-SPContentDatabase?view=sharepoint-ps). 
   
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 

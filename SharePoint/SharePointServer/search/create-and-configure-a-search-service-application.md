@@ -177,7 +177,7 @@ When you create a Search service application, the SharePoint Server Search servi
     
 - [Plan enterprise search architecture in SharePoint Server 2016](plan-enterprise-search-architecture.md)
     
-- [Plan your search architecture in SharePoint Server for cloud hybrid search](https://support.office.com/en-us/article/Plan-cloud-hybrid-search-for-SharePoint-33926857-302c-424f-ba78-03286cf5ac30?ui=en-US&amp;rs=en-US&amp;ad=US)
+- [Plan your search architecture in SharePoint Server for cloud hybrid search](/SharePoint/hybrid/plan-cloud-hybrid-search-for-sharepoint)
     
 ## See also
 <a name="begin"> </a>

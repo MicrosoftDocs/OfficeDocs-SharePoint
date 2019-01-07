@@ -32,7 +32,7 @@ This section describes key concepts that are related to managed navigation.
   
 ### Navigation term set
 
-A term is a word or phrase that can be associated with an item in SharePoint Server. A term set is a collection of related terms. The term set that managed navigation uses to build site navigation is called a navigation term set. For more information, see [Plan for managed metadata in SharePoint Server](../governance/managed-metadata-planning.md) and [Plan managed metadata (OLD)](http://technet.microsoft.com/library/522699b0-8a89-46ef-9c40-d4c222a863b8%28Office.14%29.aspx).
+A term is a word or phrase that can be associated with an item in SharePoint Server. A term set is a collection of related terms. The term set that managed navigation uses to build site navigation is called a navigation term set. For more information, see [Plan for managed metadata in SharePoint Server](../governance/managed-metadata-planning.md) and [Plan managed metadata (OLD)](/previous-versions/office/sharepoint-server-2010/ee530389(v=office.14)).
   
 The navigation term set is the backbone of the managed navigation feature. By default, as you create new pages in your publishing site, new terms are automatically added to the navigation term set. For example, when you create a new page named Company History, a term named Company History is added to the navigation term set. You can choose to turn off automatic term creation on the Navigation Settings page. You can also manually add terms to the navigation term set by using the Term Store Management Tool. For more information, see [Create and manage terms in a term set](https://go.microsoft.com/fwlink/?LinkId=286809) on Office.com. 
   
@@ -289,5 +289,5 @@ Because managed navigation uses term sets to build the site navigation, it has t
 [Estimate capacity and performance for Web Content Management (SharePoint Server 2013)](web-content-management-capacity-and-performance.md)
 #### Other Resources
 
-[Plan managed metadata (OLD)](http://technet.microsoft.com/library/522699b0-8a89-46ef-9c40-d4c222a863b8%28Office.14%29.aspx)
+[Plan managed metadata (OLD)](/previous-versions/office/sharepoint-server-2010/ee530389(v=office.14))
 

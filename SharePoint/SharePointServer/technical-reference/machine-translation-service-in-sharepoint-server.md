@@ -280,7 +280,7 @@ Resolution 2: Verify the SQL Server network connection:
     
 Resolution 3: Verify Server to Server Authentication is configured correctly:
   
-See [Configure server-to-server authentication in SharePoint Server](http://technet.microsoft.com/library/1aa67101-2441-4a1d-b594-9d5144620d67%28Office.14%29.aspx).
+See [Configure server-to-server authentication in SharePoint Server](/sharepoint/security-for-sharepoint-server/security-for-sharepoint-server).
   
 ## Machine Translation Service: Worker failure
 <a name="TransWorker"> </a>

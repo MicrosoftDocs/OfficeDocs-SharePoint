@@ -82,6 +82,6 @@ To get started setting up a SharePoint Online extranet site:
     
 2. Read [Securing a SharePoint Online extranet site](secure-extranet-site.md) to learn about the options for restricting your extranet site to only the users you want. 
     
-3. Deploy your extranet by using [standard SharePoint Online sharing options](external-sharing-overview.md) or by [importing external users into Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
+3. Deploy your extranet by using [standard SharePoint Online sharing options](external-sharing-overview.md) or by [importing external users into Azure AD](/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
     
 

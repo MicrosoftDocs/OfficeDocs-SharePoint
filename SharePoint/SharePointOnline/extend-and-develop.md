@@ -32,7 +32,7 @@ Methods for customization that work in SharePoint Server won't necessarily work 
 |**Header/Footer** <br/> |SharePoint Designer, w/unghosted pages  <br/> |No equivalent, unghosting pages requires ongoing maintenance  <br/> |
 |**Content Blocks** <br/> |CBQ (un-throttled)  <br/> |CBQ (throttled)  <br/> |
 |**General Branding (colors, logos, etc.)** <br/> |Sandboxed solutions, Customized/unghosted Master Pages  <br/> |Composed looks or inject styles via app model  <br/> |
-|**Navigation** <br/> |Start with out of the box tools  <br/> Structural, Managed, and Search-driven Navigation  <br/> |Start with out of the box tools  <br/> [Navigation options for SharePoint Online](https://support.office.com/article/adb92b80-b342-4ecb-99a1-da2a2b4782eb) <br/> |
+|**Navigation** <br/> |Start with out of the box tools  <br/> Structural, Managed, and Search-driven Navigation  <br/> |Start with out of the box tools  <br/> [Navigation options for SharePoint Online](/office365/enterprise/navigation-options-for-sharepoint-online) <br/> |
    
 ## Customizations: simple to complex
 <a name="__toc349226253"> </a>
@@ -120,7 +120,7 @@ After you finish developing a solution or a custom app, you may need a way to ma
 
 If you are interested in exploring services or applications from Microsoft partners that are available for SharePoint Online, browse Office 365 apps on [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=865097). There are also many open source solutions developed by the collective SharePoint Online community, including Microsoft, MVPs, Partners, and Customers on the [Office 365 Developer Patterns and Practices Github site](https://github.com/OfficeDev/PnP).
   
-For more technical guidance about when you should opt to develop custom apps instead of sandboxed solutions, see [Apps for SharePoint compared with SharePoint solutions](http://msdn.microsoft.com/en-us/library/jj163114%28v=office.15%29.aspx). See also [Get started developing apps for SharePoint](https://msdn.microsoft.com/en-us/library/jj163980.aspx), the [SharePoint solution packs](https://www.microsoft.com/en-us/download/details.aspx?id=42030), [SharePoint Online tuning guidance](https://technet.microsoft.com/library/f97c2f06-0426-443d-8a16-d98abb0da252#TuneSharePoint), and the [SharePoint Patterns and Practices on Github](https://github.com/OfficeDev/PnP).
+For more technical guidance about when you should opt to develop custom apps instead of sandboxed solutions, see [Apps for SharePoint compared with SharePoint solutions](http://msdn.microsoft.com/en-us/library/jj163114%28v=office.15%29.aspx). See also [Get started developing apps for SharePoint](https://msdn.microsoft.com/en-us/library/jj163980.aspx), the [SharePoint solution packs](https://www.microsoft.com/en-us/download/details.aspx?id=42030), and the [SharePoint Patterns and Practices on Github](https://github.com/OfficeDev/PnP).
  
 Return to [SharePoint Online Planning Guide for Office 365 for business](introduction.md).
   

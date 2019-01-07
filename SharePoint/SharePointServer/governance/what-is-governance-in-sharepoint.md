@@ -89,7 +89,7 @@ An effective governance plan anticipates the needs and goals of your organizatio
 [Application management and governance in SharePoint](application-management-and-governance-in-sharepoint.md)
 #### Other Resources
 
-[Governance planning in SharePoint](http://technet.microsoft.com/library/6cc9bc45-64aa-4e4c-8f2a-7831d6d89db9%28Office.14%29.aspx)
+[Governance planning in SharePoint](/previous-versions/office/sharepoint-server-2010/ff598584(v=office.14))
   
 [What is governance poster (Visio format)](https://go.microsoft.com/fwlink/?LinkId=331050)
   

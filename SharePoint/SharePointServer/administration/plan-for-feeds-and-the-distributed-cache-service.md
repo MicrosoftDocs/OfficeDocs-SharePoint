@@ -145,6 +145,6 @@ The Distributed Cache service uses the following communication ports:
 - 22236
     
 > [!NOTE]
-> If you are using more than one cache host in your server farm, you must configure the first cache host running the Distributed Cache service to allow Inbound ICMP (ICMPv4) traffic through the firewall. For more information, see [Create an Inbound ICMP Rule on Windows 8, Windows 7, Windows Vista, Windows Server 2012, Windows Server 2008, or Windows Server 2008 R2](https://technet.microsoft.com/en-us/library/jj717234.aspx). If an administrator removes the first cache host from the cluster which was configured to allow Inbound ICMP (ICMPv4) traffic through the firewall, you must configure the first server of the new cluster to allow Inbound ICMP (ICMPv4) traffic through the firewall. 
+> If you are using more than one cache host in your server farm, you must configure the first cache host running the Distributed Cache service to allow Inbound ICMP (ICMPv4) traffic through the firewall. For more information, see [Create an Inbound ICMP Rule on Windows 8, Windows 7, Windows Vista, Windows Server 2012, Windows Server 2008, or Windows Server 2008 R2](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj717234(v=ws.11)). If an administrator removes the first cache host from the cluster which was configured to allow Inbound ICMP (ICMPv4) traffic through the firewall, you must configure the first server of the new cluster to allow Inbound ICMP (ICMPv4) traffic through the firewall. 
   
 

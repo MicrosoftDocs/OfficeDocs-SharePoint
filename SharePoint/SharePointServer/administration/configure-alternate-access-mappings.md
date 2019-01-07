@@ -29,7 +29,7 @@ Each web application supports five collections of mappings per URL. The five col
     
 2. On the **System Settings** page, in the **Farm Management** section, click **Configure alternate access mappings**.
     
-For information about how to perform this procedure using a Microsoft PowerShell cmdlet, see [New-SPAlternateUrl](https://technet.microsoft.com/library/450f057d-1cb8-4680-b28d-0db4d1b7e09c.aspx).
+For information about how to perform this procedure using a Microsoft PowerShell cmdlet, see [New-SPAlternateUrl](/powershell/module/sharepoint-server/New-SPAlternateUrl?view=sharepoint-ps).
   
 ## Add an internal URL
 
@@ -64,7 +64,7 @@ For information about how to perform this procedure using a Microsoft PowerShell
     
 5. Click **Delete** to delete the internal URL. 
     
-For information about how to perform this procedure using a Microsoft PowerShell cmdlet, see [Remove-SPAlternateUrl](https://technet.microsoft.com/library/25af02dd-ae9f-4ec0-a099-3c6cd38f2187.aspx).
+For information about how to perform this procedure using a Microsoft PowerShell cmdlet, see [Remove-SPAlternateUrl](/powershell/module/sharepoint-server/Remove-SPAlternateUrl?view=sharepoint-ps).
   
 ## Edit public URLs
 

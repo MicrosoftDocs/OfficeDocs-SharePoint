@@ -41,15 +41,15 @@ On the **Timer Job Status** page, on the **View** menu, you can filter the timer
     
 - **Failed Jobs** Displays all the timer jobs on the farm that failed to finish.
  
-The SharePoint Timer service (SPTimerv4) is based on the Gregorian calendar for scheduling. For every job that you schedule, you specify when the timer job will run, specified in a 24-hour time format. You must specify the time in local time instead of as an offset from Coordinated Universal Time (UTC). The time is stored in that format. By default, daily, weekly, and monthly schedules also include a window of execution. The timer service selects a random time within the window of execution interval to start the job on each applicable server. This capability helps to reduce the overall load of resource-intensive timer jobs that run on multiple servers on the farm. You can specify timer job schedules on the **Edit Timer Job** page or by using Microsoft PowerShell. For more information, see [Get-SPTimerJob](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/get-sptimerjob?view=sharepoint-ps) and [Set-SPTimerJob](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/set-sptimerjob?view=sharepoint-ps).
+The SharePoint Timer service (SPTimerv4) is based on the Gregorian calendar for scheduling. For every job that you schedule, you specify when the timer job will run, specified in a 24-hour time format. You must specify the time in local time instead of as an offset from Coordinated Universal Time (UTC). The time is stored in that format. By default, daily, weekly, and monthly schedules also include a window of execution. The timer service selects a random time within the window of execution interval to start the job on each applicable server. This capability helps to reduce the overall load of resource-intensive timer jobs that run on multiple servers on the farm. You can specify timer job schedules on the **Edit Timer Job** page or by using Microsoft PowerShell. For more information, see [Get-SPTimerJob](/powershell/module/sharepoint-server/get-sptimerjob?view=sharepoint-ps) and [Set-SPTimerJob](/powershell/module/sharepoint-server/set-sptimerjob?view=sharepoint-ps).
 
 ## Default timer jobs
 <a name="DefaultJobs"> </a>
 
 The following articles list the default timer jobs for SharePoint Server 2019, SharePoint Server 2016, and SharePoint 2013.
 
-- [Default timer jobs in SharePoint Server 2019](https://docs.microsoft.com/en-us/Sharepoint/technical-reference/default-timer-jobs-in-sharepoint-server-2019)
+- [Default timer jobs in SharePoint Server 2019](/Sharepoint/technical-reference/default-timer-jobs-in-sharepoint-server-2019)
 
-- [Default timer jobs in SharePoint Server 2016](https://docs.microsoft.com/en-us/SharePoint/technical-reference/default-timer-jobs-in-sharepoint-server-2016)
+- [Default timer jobs in SharePoint Server 2016](/SharePoint/technical-reference/default-timer-jobs-in-sharepoint-server-2016)
 
-- [Default timer jobs in SharePoint 2013](https://docs.microsoft.com/en-us/SharePoint/technical-reference/default-timer-jobs-in-sharepoint-2013)
+- [Default timer jobs in SharePoint 2013](/SharePoint/technical-reference/default-timer-jobs-in-sharepoint-2013)

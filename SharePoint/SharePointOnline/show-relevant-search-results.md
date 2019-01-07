@@ -34,7 +34,7 @@ Query spelling suggestions are words that appear below the search box as a user 
   
 ## Using query transforms
   
-You can configure a query transform to replace properties of a query, such as the result source that the query will use to get search results, or the sort order that it will use when it displays search results. [Understanding query transforms](https://support.office.com/article/b31631a5-0c1f-436e-8061-fd807bb96ae1).
+You can configure a query transform to replace properties of a query, such as the result source that the query will use to get search results, or the sort order that it will use when it displays search results. [Understanding query transforms](/article/understanding-query-transforms-b31631a5-0c1f-436e-8061-fd807bb96ae1?ui=en-US&rs=en-US&ad=US).
   
 ## Manage result sources
   

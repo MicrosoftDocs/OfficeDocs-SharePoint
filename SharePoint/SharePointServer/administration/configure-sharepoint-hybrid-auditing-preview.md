@@ -60,7 +60,7 @@ Before you configure the SharePoint Hybrid Auditing feature, ensure you are:
   
 The configuration of Hybrid Auditing uses the Hybrid Picker in the SharePoint Online admin center.
   
-Please read [Hybrid picker in the SharePoint Online admin center](http://technet.microsoft.com/library/efce8417-c9bc-4a2c-ac9d-cce6c4e84a9c%28Office.14%29.aspx) to make sure you have met all the prerequisites before you configure the Hybrid Auditing feature. 
+Please read [Hybrid picker in the SharePoint Online admin center](/sharepoint/hybrid/hybrid-picker-in-the-sharepoint-online-admin-center) to make sure you have met all the prerequisites before you configure the Hybrid Auditing feature. 
   
 ## Part I: Turn On Audit Log Search Recording
 
@@ -97,7 +97,7 @@ Hybrid auditing uses the Hybrid Picker for configuration. Follow the steps in [H
 > [!NOTE]
 >  You may need to wait approximately 30 minutes before on-premise auditing events show up in this display. >  While SharePoint Hybrid Auditing is in preview mode, it is possible to have some missing auditing events. >  Only a subset of the file activities is currently being uploaded from on-premises to Office 365. 
   
-To learn more about O365 Auditing log search and how to use filtering to get tailored results, see [Search the audit log in the Office 365 Security &amp; Compliance Center](https://support.office.com/en-us/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c).
+To learn more about O365 Auditing log search and how to use filtering to get tailored results, see [Search the audit log in the Office 365 Security &amp; Compliance Center](/office365/securitycompliance/search-the-audit-log-in-security-and-compliance).
   
 ## How to turn off SharePoint Hybrid Auditing
 
@@ -152,7 +152,7 @@ Microsoft SharePoint Insights service must be restarted after an in-place-upgrad
 
 All the audit logs under the folder **SPUnifiedAuditEntry** are uploaded to Office 365 for generating reports. The location of the folder can be found in SharePoint 2016 Central Administration. 
   
-For more information see [Search the audit log in the Office 365 Security &amp; Compliance Center](https://support.office.com/en-us/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c)
+For more information see [Search the audit log in the Office 365 Security &amp; Compliance Center](/office365/securitycompliance/search-the-audit-log-in-security-and-compliance)
   
 1. On the SharePoint Server 2016 Central Administration website, click **Monitoring** under **Central Administration**. 
     
@@ -164,7 +164,7 @@ For more information see [Search the audit log in the Office 365 Security &amp; 
   
 ## Related Topics
 
-[Search the audit log in the Office 365 Security &amp; Compliance Center](https://support.office.com/en-us/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c)
+[Search the audit log in the Office 365 Security &amp; Compliance Center](/office365/securitycompliance/search-the-audit-log-in-security-and-compliance)
   
 [TechNet Forums: Hybrid Auditing](https://social.technet.microsoft.com/Forums/office/en-US/home?forum=hybridauditing)
   

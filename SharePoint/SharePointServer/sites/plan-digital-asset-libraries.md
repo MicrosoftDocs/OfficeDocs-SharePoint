@@ -81,7 +81,7 @@ As you plan the asset libraries, you decide where you should create them, how th
     
 - Decide how to organize the asset library
     
- **Determine how many asset libraries are needed.** This determination, as in the earlier analysis and planning steps, also depends on how the asset library will be used. For example, if you have individual teams that must use asset libraries for collaboration, and who must use content governance such as versioning while they work on assets, you can create an asset library for each team site. You can then let the teams manage their own assets. If you want the asset library to serve as a large-scale centralized repository that is used by many teams, you might create a single asset library. Then, you can adjust the permissions to manage how people use, manage, and search the library. For more information, see [Plan document libraries in SharePoint 2013](http://technet.microsoft.com/library/33b67ac7-54c3-42d8-87cd-5d7a00f7294b%28Office.14%29.aspx).
+ **Determine how many asset libraries are needed.** This determination, as in the earlier analysis and planning steps, also depends on how the asset library will be used. For example, if you have individual teams that must use asset libraries for collaboration, and who must use content governance such as versioning while they work on assets, you can create an asset library for each team site. You can then let the teams manage their own assets. If you want the asset library to serve as a large-scale centralized repository that is used by many teams, you might create a single asset library. Then, you can adjust the permissions to manage how people use, manage, and search the library. For more information, see [Plan document libraries in SharePoint 2013](/previous-versions/office/sharepoint-server-2010/cc262215(v=office.14)).
   
 > [!NOTE]
 > If you enable the disk-based cache for a web application, every site collection within that web application will use the cache. If you do not have to have the disk-based cache for most the sites, consider putting in a separate web application only those site collections that contain an asset library that requires the disk-based cache. 
@@ -95,12 +95,12 @@ As you plan the asset libraries, you decide where you should create them, how th
 ### Plan content types
 <a name="Section2d"> </a>
 
-The content types included in an asset library are image, audio, and video. You can either use these content types or create custom content types that are derived from them, depending on the classification needs of your organization. For example, you might create two separate content types for posters and product logos, and derive the base characteristics for those new content types from the image content type. This arrangement lets you associate separate properties for the two new content types, specify different workflows, or set different information management policies based on the content types. For more information, see [Plan content types and workflows in SharePoint 2013](http://technet.microsoft.com/library/63bb092a-00fe-45ff-a4b8-d8be998d1a3c%28Office.14%29.aspx).
+The content types included in an asset library are image, audio, and video. You can either use these content types or create custom content types that are derived from them, depending on the classification needs of your organization. For example, you might create two separate content types for posters and product logos, and derive the base characteristics for those new content types from the image content type. This arrangement lets you associate separate properties for the two new content types, specify different workflows, or set different information management policies based on the content types. For more information, see [Plan content types and workflows in SharePoint 2013](/previous-versions/office/sharepoint-server-2010/cc262735(v=office.14)).
   
 ### Plan content governance for digital assets
 <a name="Section2e"> </a>
 
-You plan the appropriate degree of control for each content type and storage location for digital assets. For example, if the asset library is a collaborative solution, you can use versioning to store successive iterations of assets in the library, and can require users to check assets in and out before working on assets. You can also specify an approval process by which assets must be approved before they can be made available to an audience. For more information, see [Plan document versioning, content approval, and check-out controls in SharePoint 2013](http://technet.microsoft.com/library/428b488e-2807-4ef0-b942-91cb09d8921c%28Office.14%29.aspx).
+You plan the appropriate degree of control for each content type and storage location for digital assets. For example, if the asset library is a collaborative solution, you can use versioning to store successive iterations of assets in the library, and can require users to check assets in and out before working on assets. You can also specify an approval process by which assets must be approved before they can be made available to an audience. For more information, see [Plan document versioning, content approval, and check-out controls in SharePoint 2013](/previous-versions/office/sharepoint-server-2010/cc262378(v=office.14)).
   
 ### Plan workflows
 <a name="Section2f"> </a>
@@ -113,7 +113,7 @@ You use workflows to perform management tasks on assets in the asset library in 
     
 - Are assets retained or deleted after expiration?
     
-For more information, see [Plan content types and workflows in SharePoint 2013](http://technet.microsoft.com/library/63bb092a-00fe-45ff-a4b8-d8be998d1a3c%28Office.14%29.aspx).
+For more information, see [Plan content types and workflows in SharePoint 2013](/previous-versions/office/sharepoint-server-2010/cc262735(v=office.14)).
   
 ### Plan policies
 <a name="Section2g"> </a>
@@ -138,7 +138,7 @@ The following table lists additional uses for an asset library in SharePoint Ser
 ## Plan for permissions and security
 <a name="Section3"> </a>
 
-Planning for permissions and security in an asset library is the same as planning for permissions and security in a document library. For information about the available default groups, permission levels, and when to use custom groups or levels, see [Determine permission levels and groups in SharePoint 2013](http://technet.microsoft.com/library/610a48d4-a805-4c47-8801-a8a912b294ea.aspx).
+Planning for permissions and security in an asset library is the same as planning for permissions and security in a document library. For information about the available default groups, permission levels, and when to use custom groups or levels, see [Determine permission levels and groups in SharePoint 2013](/SharePoint/sites/determine-permission-levels-and-groups-in-sharepoint-server).
   
 ## Plan for storage and performance
 <a name="Section4"> </a>
@@ -149,7 +149,7 @@ Depending on the type of digital asset files that will be stored in the asset li
   
 The video renditions feature lets users upload multiple renditions of a video. The video renditions can have different codecs and formats, or different bit rates. A user can choose the rendition to play. By default, the video with the lowest bit rate is chosen. 
   
-If you will be using the asset library to serve audio and video files to users, we recommend that you always enable the BLOB cache, and that you enable Bit Rate Throttling on the server. Bit Rate Throttling controls the rate at which audio and video files are downloaded to the client so that overall performance on the site is not affected. For more information about the disk-based cache, see [Plan for caching and performance (SharePoint Server 2010)](https://technet.microsoft.com/en-us/library/ee424404.aspx). For information about how to enable and configure Bit Rate Throttling, see [Bit Rate Throttling Readme](https://go.microsoft.com/fwlink/p/?LinkId=154962) (https://go.microsoft.com/fwlink/p/?LinkId=154962). 
+If you will be using the asset library to serve audio and video files to users, we recommend that you always enable the BLOB cache, and that you enable Bit Rate Throttling on the server. Bit Rate Throttling controls the rate at which audio and video files are downloaded to the client so that overall performance on the site is not affected. For more information about the disk-based cache, see [Plan for caching and performance (SharePoint Server 2010)](/SharePoint/administration/caching-and-performance-planning). For information about how to enable and configure Bit Rate Throttling, see [Bit Rate Throttling Readme](https://go.microsoft.com/fwlink/p/?LinkId=154962) (https://go.microsoft.com/fwlink/p/?LinkId=154962). 
   
 ## Plan for metadata and Search
 <a name="Section5"> </a>
@@ -161,7 +161,7 @@ SharePoint Server 2013 includes many improvements for video search. Users can us
 ## Plan for video thumbnails
 <a name="thumbnail"> </a>
 
-Thumbnail preview images are created automatically when a video is uploaded to an asset library. Content authors can also choose a frame from the video or upload a picture and use that as the thumbnail preview image. For automatic thumbnail creation to work, you must install the Desktop Experience feature on the front-end web server that hosts SharePoint Server 2013. For more information, see [Desktop Experience Overview](https://technet.microsoft.com/en-us/library/cc772567.aspx).
+Thumbnail preview images are created automatically when a video is uploaded to an asset library. Content authors can also choose a frame from the video or upload a picture and use that as the thumbnail preview image. For automatic thumbnail creation to work, you must install the Desktop Experience feature on the front-end web server that hosts SharePoint Server 2013. For more information, see [Desktop Experience Overview](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772567(v=ws.11)).
   
 ## Plan for Web Parts and web pages
 <a name="Section6"> </a>

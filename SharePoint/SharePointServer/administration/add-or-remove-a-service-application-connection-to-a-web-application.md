@@ -68,7 +68,7 @@ You can add or remove service application connections to a service application c
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -78,7 +78,7 @@ You can add or remove service application connections to a service application c
   Add-SPServiceApplicationProxyGroupMember -Identity < the service application proxy group > -Member <members to add to the service application proxy group>
   ```
 
-    For more information, see [Add-SPServiceApplicationProxyGroupMember](http://technet.microsoft.com/library/25ccffa1-84ae-4927-a1e5-4b2d55f6065f.aspx).
+    For more information, see [Add-SPServiceApplicationProxyGroupMember](/powershell/module/sharepoint-server/Add-SPServiceApplicationProxyGroupMember?view=sharepoint-ps).
     
 ### To remove a service application connection from a service application connection group by using PowerShell
 
@@ -95,7 +95,7 @@ You can add or remove service application connections to a service application c
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -105,7 +105,7 @@ You can add or remove service application connections to a service application c
   Remove-SPServiceApplicationProxyGroupMember -Identity <SPServiceApplicationProxyGroupPipeBind> -Member <SPServiceApplicationProxyPipeBind >
   ```
 
-    For more information, see [Remove-SPServiceApplicationProxyGroupMember](http://technet.microsoft.com/library/12545ac4-2bed-433e-aed5-b56bfb95c631.aspx).
+    For more information, see [Remove-SPServiceApplicationProxyGroupMember](/powershell/module/sharepoint-server/Remove-SPServiceApplicationProxyGroupMember?view=sharepoint-ps).
     
 ## See also
 <a name="Section2"> </a>

@@ -187,7 +187,7 @@ If you need a property of a different type, or one that has different characteri
     
 2. Click **Search Schema** under **Site Collection Administration**.
     
-2. On the Managed Properties page, find an unused managed property. By unused, we mean that the property is not mapped to a crawled property: the **Mapped Crawled Properties** column is empty. See the [Default unused managed properties](https://technet.microsoft.com/en-us/library/jj219667%28v=office.15%29.aspx#defaultunusedmps) table for more details. 
+2. On the Managed Properties page, find an unused managed property. By unused, we mean that the property is not mapped to a crawled property: the **Mapped Crawled Properties** column is empty. See the [Default unused managed properties](/SharePoint/search/manage-the-search-schema#defaultunusedmps) table for more details. 
     
     > [!IMPORTANT]
     > To be able to use the property as a refiner later, choose a managed property that is marked with **Refine**. 

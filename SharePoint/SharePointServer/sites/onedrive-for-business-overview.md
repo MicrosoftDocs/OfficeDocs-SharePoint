@@ -24,7 +24,7 @@ description: "Learn about OneDrive for Business in SharePoint Server."
 > [!NOTE]
 > While OneDrive for Business is used in both SharePoint Server on-premises and Office 365 environments, this article describes how it works in SharePoint Server. For more information about how it works in an Office 365 environment, see [What is OneDrive for Business?](https://go.microsoft.com/fwlink/?LinkId=747076). 
   
-OneDrive for Business is the default document library in a user's [What's new in social computing in SharePoint Server 2013](http://technet.microsoft.com/library/da420281-a5bf-4caa-bb77-73fbf5a97136%28Office.14%29.aspx#MySites) in SharePoint Server or in Office 365. The contents of this library can optionally be synchronized with one or more of the user's computers or devices. 
+OneDrive for Business is the default document library in a user's [What's new in social computing in SharePoint Server 2013](/sharepoint/what-s-new/what-s-new#MySites) in SharePoint Server or in Office 365. The contents of this library can optionally be synchronized with one or more of the user's computers or devices. 
   
 By using OneDrive for Business, you can help ensure that business files for your users are stored in a central location. Storing business files in one location makes it easy for users to share and collaborate on documents. If you're using OneDrive for Business in Office 365, you can also reduce your on-premises storage costs by moving your users' files to the cloud.
   

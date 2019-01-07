@@ -258,7 +258,7 @@ In our tests we found the following:
     
 - Performance gains when you add virtual web servers depend partly on host hardware resources and on the resource usage of other virtual computers that are running on the same host. Virtual servers require additional planning and management strategies that are specific to virtualization.
     
-    For more information about Hyper-V performance and capacity planning, see [Hyper-V virtualization requirements for SharePoint 2013](http://technet.microsoft.com/library/42c6357e-d7eb-40cb-b01a-31ee85416581%28Office.14%29.aspx) and [Use best practice configurations for the SharePoint 2013 virtual machines and Hyper-V environment](http://technet.microsoft.com/library/e7fc992d-3c51-4b65-bbf4-0c12100aa36e%28Office.14%29.aspx).
+    For more information about Hyper-V performance and capacity planning, see [Hyper-V virtualization requirements for SharePoint 2013](/previous-versions/office/sharepoint-server-2010/ff607795(v=office.14)) and [Use best practice configurations for the SharePoint 2013 virtual machines and Hyper-V environment](/previous-versions/office/sharepoint-server-2010/ff621103(v=office.14)).
     
 > [!NOTE]
 > Conclusions in this section are specific to the hardware that makes up the environment. The environment might have achieved the same throughput if the environment used more but less powerful Hyper-V host servers, or fewer but more powerful Hyper-V host servers. An increase of hardware resources on the database server wouldn't greatly affect the results. 

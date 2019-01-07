@@ -77,7 +77,7 @@ You can only restore a site collection in SharePoint Server by using PowerShell.
      An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -106,7 +106,7 @@ You can only restore a site collection in SharePoint Server by using PowerShell.
   
     For more information, see [Restore site collections in SharePoint Server](restore-site-collections.md)
     
-    For more information, see [Restore-SPSite](http://technet.microsoft.com/library/90f19a58-0455-470c-a8ee-3129fc341f62.aspx).
+    For more information, see [Restore-SPSite](/powershell/module/sharepoint-server/Restore-SPSite?view=sharepoint-ps).
     
     > [!NOTE]
     > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 

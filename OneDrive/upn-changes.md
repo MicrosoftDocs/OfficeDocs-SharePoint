@@ -62,7 +62,7 @@ After you change a UPN, any saved links to the user's OneDrive (such as desktop 
   
 ## Sync
 
-If a user has sync client build 18.212.1021.0008 or later on either Windows or Mac ([deployed to Prodction in November](https://support.office.com/article/new-onedrive-sync-client-release-notes-845dcf18-f921-435e-bf28-4e24b95e5fc0)), the sync client will automatically switch to sync with the new OneDrive location after a UPN change. While the UPN change is propagating through your environment, users may see an error in the OneDrive sync client that "One or more libraries could not be synced." If they click for more information, they will see "You don't have permission to sync this library." Users who see this error should restart the sync client. The error will go away when the UPN change has been fully propagated and the sync client is updated to use the user's new OneDrive URL.  
+If a user has sync client build 18.212.1021.0008 or later (on either Windows or Mac), the sync client will automatically switch to sync with the new OneDrive location after a UPN change. While the UPN change is propagating through your environment, users may see an error in the OneDrive sync client that "One or more libraries could not be synced." If they click for more information, they will see "You don't have permission to sync this library." Users who see this error should restart the sync client. The error will go away when the UPN change has been fully propagated and the sync client is updated to use the user's new OneDrive URL.  
 
 > [!NOTE]
 > Synced team sites are not impacted by the OneDrive URL change. 
@@ -83,6 +83,10 @@ After a UPN change, users will need to browse to re-open active OneDrive files i
 
 If a user shared OneDrive files with others, the links will no longer work after a UPN change. The user will need to re-share the files. 
 
+## Office Backstage View
+
+After a UPN change, although Office will continue to work as expected, the user's original UPN will continue to be displayed in the Office Backstage View. To update the Office Backstage View to display the changed UPN, the user will need to sign out and then sign in using the Office client.
+
 ## Search and Delve
 
 After a UPN change, it might take a while for files at the new OneDrive URL to be indexed. During this time, search results in OneDrive and SharePoint will use the old URL. Users can copy the URL, paste it in the address bar, and then update the portion for the new UPN. 
@@ -95,7 +99,7 @@ Any automated workflows that were created with Microsoft Flow or SharePoint 2013
 
 ## Recommendations
 
-- If you're changing many UPNs within your organization, make the UPN changes in batches to manage the load on the system.
+- If you're changing many UPNs within your organization, make the UPN changes in batches to manage the load on the system. Each SharePoint site to which a user has permission will need to be updated with the new UPN.
 
 - If possible, apply changes before a weekend or during non-peak hours to allow time for the change to propagate and not interfere with your users' work.
   

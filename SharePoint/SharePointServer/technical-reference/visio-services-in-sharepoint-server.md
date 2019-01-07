@@ -203,7 +203,7 @@ Resolution 5: Create a new Visio Services application:
 [Plan for monitoring in SharePoint Server](../administration/monitoring-planning.md)
 #### Other Resources
 
-[Plan for Visio Services in SharePoint Server](http://technet.microsoft.com/library/4385b870-c3ec-462f-a43d-49f18e4d8675%28Office.14%29.aspx)
+[Plan for Visio Services in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee663482(v=office.14))
   
 [System Center Monitoring Pack for SharePoint Foundation](http://go.microsoft.com/fwlink/p/?LinkId=272567)
   

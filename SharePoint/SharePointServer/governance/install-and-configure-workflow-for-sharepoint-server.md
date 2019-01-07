@@ -50,7 +50,7 @@ The only platform available when you first install SharePoint Server is the Shar
 ## Install and configure SharePoint Server
 <a name="section3"> </a>
 
-You must install and configure SharePoint Server. To do so, see [Install and deploy SharePoint 2013](http://technet.microsoft.com/en-us/sharepoint/fp142376.aspx).
+You must install and configure SharePoint Server. To do so, see [Install and deploy SharePoint 2013](/sharepoint/).
   
 > [!NOTE]
 > The SharePoint 2010 Workflow platform installs automatically when you install SharePoint Server. The SharePoint 2013 Workflow platform requires Workflow Manager and must be installed separately and then configured to work with your SharePoint Server farm. > To function correctly SharePoint 2013 Workflows require to have App Management Service and Site Subscription Service provisioned. It is not required to setup a wildcard certificate and DNS registration but both instances need to be running. 

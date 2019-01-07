@@ -31,7 +31,7 @@ To manage sites in the new SharePoint admin center, go to the current SharePoint
   
 1. Click **Create**.
     
-2. Select to create a team site (which will create an Office 365 group) or a communication site. To create a site site that uses a classic template, or to create a new team site that doesn't include an Office 365 group, click **Other options**. For info about the new site templates, see [Create a team site in SharePoint Online](https://support.office.com/article/ef10c1e7-15f3-42a3-98aa-b5972711777d) and [Create a communication site in SharePoint Online](https://support.office.com/article/7fb44b20-a72f-4d2c-9173-fc8f59ba50eb).
+2. Select to create a team site (which will create an Office 365 group) or a communication site. To create a classic site, or a new team site that doesn't include an Office 365 group, click **Other options**. For info about the new site templates, see [Create a team site in SharePoint Online](https://support.office.com/article/ef10c1e7-15f3-42a3-98aa-b5972711777d) and [Create a communication site in SharePoint Online](https://support.office.com/article/7fb44b20-a72f-4d2c-9173-fc8f59ba50eb).
     
     ![Create a group-connected team site, communication site, or other site from the admin center](media/c4c5173f-ca83-426f-a940-cb2869a3a64b.png)
   
@@ -149,9 +149,6 @@ Sorting and filtering the site list is just like sorting and filtering other lis
 <a name="search"> </a>
 
 You can search for a site by name, URL, primary admin, or template. To do this, enter keywords in the Search box and press Enter.
-
-> [!NOTE]
-> Search doesn't look in hub site display names for the keywords you enter. 
   
 ## Export to CSV
 <a name="export"> </a>

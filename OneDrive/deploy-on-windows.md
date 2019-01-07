@@ -140,7 +140,7 @@ odopen://sync/?siteId=SiteID_HERE&amp;webId=WebID_HERE&amp;listId=ListID_HERE&am
   
 ## Deploy the OneDrive app on mobile devices running iOS or Android
 
-You can use System Center Configuration Manager to deploy apps to mobile devices. Before you do, however, you need to complete a few prerequisite steps because integration with Intune is required to manage mobile devices in System Center Configuration Manager. For information about managing mobile devices with System Center Configuration Manager and Intune, see [Manage Mobile Devices with Configuration Manager and Microsoft Intune](https://technet.microsoft.com/library/jj884158.aspx).
+You can use System Center Configuration Manager to deploy apps to mobile devices. Before you do, however, you need to complete a few prerequisite steps because integration with Intune is required to manage mobile devices in System Center Configuration Manager. For information about managing mobile devices with System Center Configuration Manager and Intune, see [Manage Mobile Devices with Configuration Manager and Microsoft Intune](/previous-versions/system-center/system-center-2012-R2/jj884158(v=technet.10)).
 
 ### Deploy the OneDrive app for iOS
 

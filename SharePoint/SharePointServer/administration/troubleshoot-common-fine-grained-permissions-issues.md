@@ -93,7 +93,7 @@ As in the previous solution, the number of uniquely scoped children is not a sig
 
 #### Other Resources
 
-[Fine-grained permission reference for SharePoint Server](http://technet.microsoft.com/library/d1410f72-1d58-48e6-9311-b1248f4a81f6%28Office.14%29.aspx)
+[Fine-grained permission reference for SharePoint Server](/sharepoint/security-for-sharepoint-server/security-for-sharepoint-server)
   
-[Best practices for using fine-grained permissions in SharePoint Server](http://technet.microsoft.com/library/d46eae8a-5570-46e0-9800-6cde713b4828.aspx)
+[Best practices for using fine-grained permissions in SharePoint Server](/sharepoint/security-for-sharepoint-server/security-for-sharepoint-server)
 

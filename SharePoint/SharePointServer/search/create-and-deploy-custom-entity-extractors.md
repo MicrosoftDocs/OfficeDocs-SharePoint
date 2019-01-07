@@ -160,5 +160,5 @@ The following table shows what type of custom extraction dictionaries you can cr
 <a name="CustomDictionaryTypes"> </a>
 
 
-[Import-SPEnterpriseSearchCustomExtractionDictionary](http://technet.microsoft.com/library/5d6287c5-d439-4233-9ddb-9ee19f2d2112.aspx)
+[Import-SPEnterpriseSearchCustomExtractionDictionary](/powershell/module/sharepoint-server/Import-SPEnterpriseSearchCustomExtractionDictionary?view=sharepoint-ps)
 

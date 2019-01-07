@@ -38,7 +38,7 @@ The following table lists the default timer jobs for SharePoint 2013.
 |Change log  <br/> |Records many types of changes that you make to SharePoint sites. Removes expired entries from the change log of the web application.  <br/> |Weekly  <br/> |
 |Content organizer processing  <br/> |Processes documents in the drop-off library that match organizing rules.  <br/> |Daily  <br/> |
 |Content type hub  <br/> |Tracks content type log maintenance and manages unpublished content types.  <br/> |Daily  <br/> |
-|Content type subscriber  <br/> |Retrieves content type packages from the hub and applies them to the local content type gallery. For more information about content types, see [Plan to share term sets and content types in SharePoint Server 2013](http://technet.microsoft.com/library/57325cc3-bce2-4dd3-9b26-12fec99140ad%28Office.14%29.aspx).  <br/> |Hourly  <br/> |
+|Content type subscriber  <br/> |Retrieves content type packages from the hub and applies them to the local content type gallery. For more information about content types, see [Plan to share term sets and content types in SharePoint Server 2013](/previous-versions/office/sharepoint-server-2010/ee519603(v=office.14)).  <br/> |Hourly  <br/> |
 |Crawl log cleanup for Search service application  <br/> |Performs crawl log cleanup for Search service applications.  <br/> |Daily  <br/> |
 |Create upgrade evaluation site collections  <br/> |Creates upgrade evaluation site collections.  <br/> |Daily  <br/> |
 |Dead site delete  <br/> |When auto site cleanup is enabled, sites that are not used in a certain period of time are deleted.  <br/> |Weekly  <br/> |

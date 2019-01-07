@@ -37,7 +37,7 @@ an email message with a link to the list item will open.
   
 To enable our visitors to do something with the search results, without having to leave the search results page, we can add a custom action.
   
-In our Search Center scenario, we wanted to add a custom action that opens the published article. For example, for the search result "Customize search result types in SharePoint Server", we wanted to add an action that opens this link:\<need fwlink? http://technet.microsoft.com/en-us/library/dn135239.aspx\>
+In our Search Center scenario, we wanted to add a custom action that opens the published article. For example, for the search result "Customize search result types in SharePoint Server", we wanted to add an action that opens this link:\<need fwlink? /SharePoint/search/customize-search-result-types\>
   
 ## How to add an action to the hover panel
 <a name="BKMK_HowtoAddanActiontotheHoverPanel"> </a>

@@ -159,7 +159,7 @@ In another test case, we increased the percentage of the hashtag operations from
 [Plan for managed metadata in SharePoint Server](../governance/managed-metadata-planning.md)
 #### Other Resources
 
-[Overview of managed metadata service applications in SharePoint Server 2013](http://technet.microsoft.com/library/ecd9e1d1-3e56-4ab9-80e1-29972586c5a7%28Office.14%29.aspx)
+[Overview of managed metadata service applications in SharePoint Server 2013](/previous-versions/office/sharepoint-server-2010/ee424403(v=office.14))
   
-[Plan terms and term sets in SharePoint Server 2013](http://technet.microsoft.com/library/7f8f6beb-aaa6-4277-b522-d28a5b746087%28Office.14%29.aspx)
+[Plan terms and term sets in SharePoint Server 2013](/previous-versions/office/sharepoint-server-2010/ee519604(v=office.14))
 

@@ -64,7 +64,7 @@ Get-ChildItem -Recurse -Path "$env:LOCALAPPDATA\Microsoft\OneDrive" -Filter "One
 ```
 
 More information:
-[Learn how to manage OneDrive using Group Policy](https://docs.microsoft.com/onedrive/use-group-policy)
+[Learn how to manage OneDrive using Group Policy](/onedrive/use-group-policy)
 
 ### By setting the registry keys
 

@@ -50,7 +50,7 @@ For more information, see [Description of MinRole and associated services in Sha
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPDistributedCacheServiceInstance?view=sharepoint-ps). 
   
 2. Start the SharePoint 2016 Management Shell on each failing server.
     
@@ -60,6 +60,6 @@ For more information, see [Description of MinRole and associated services in Sha
   Remove-SPDistributedCacheServiceInstance
   ```
 
-For more information, see [Remove-SPDistributedCacheServiceInstance](https://technet.microsoft.com/en-us/library/jj730452%28v=office.16%29.aspx).
+For more information, see [Remove-SPDistributedCacheServiceInstance](/powershell/module/sharepoint-server/Remove-SPDistributedCacheServiceInstance?view=sharepoint-ps).
   
 

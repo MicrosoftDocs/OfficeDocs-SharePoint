@@ -11,6 +11,7 @@ localization_priority: Priority
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
+- SP2019
 ms.assetid: aa637ca9-d27b-463c-8691-a457e0988bf8
 
 description: "Learn about permissions, accounts, security settings, and what you have to do to prepare your environment for SharePoint Server."

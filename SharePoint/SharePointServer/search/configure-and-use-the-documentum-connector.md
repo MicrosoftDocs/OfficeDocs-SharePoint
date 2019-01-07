@@ -503,7 +503,7 @@ Continue with [Create a crawl rule for Documentum](configure-and-use-the-documen
 ## Create the Documentum crawled properties category
 <a name="BKMK_CrawledPropertiesCategory"> </a>
 
-You must create a crawled properties category that will contain the Documentum crawled properties. To do so, you use the [New-SPEnterpriseSearchMetadataCategory](http://technet.microsoft.com/library/86994e75-e13f-49a9-8147-42b3729ea328.aspx) cmdlet and specify the predefined value 34972762-7E3F-4f4f-AE5C-5ABBA92EC530 for the cmdlet's PropSet parameter. Use the following PowerShell code to create the crawled properties category in this way. 
+You must create a crawled properties category that will contain the Documentum crawled properties. To do so, you use the [New-SPEnterpriseSearchMetadataCategory](/powershell/module/sharepoint-server/New-SPEnterpriseSearchMetadataCategory?view=sharepoint-ps) cmdlet and specify the predefined value 34972762-7E3F-4f4f-AE5C-5ABBA92EC530 for the cmdlet's PropSet parameter. Use the following PowerShell code to create the crawled properties category in this way. 
   
 ```
 $ssa = Get-SPEnterpriseSearchServiceApplication
@@ -604,7 +604,7 @@ Use the following Microsoft PowerShell commands to display help and examples for
     
 The Set-SPEnterpriseSearchDCTMConnectorConfig cmdlet accepts three parameter sets. You use the  *Shared*  parameter set to change the configuration settings that affect all the Documentum repositories that you crawl. You use the  *Repository*  parameter set to change the configuration settings that affect only a specific repository. You use the  *Remove*  parameter set to remove a specific repository from the connector configuration. 
   
-The following table shows which parameters are mandatory and which are optional. For parameter descriptions and examples, see [Set-SPEnterpriseSearchDCTMConnectorConfig](http://technet.microsoft.com/library/639f678a-00bd-4866-a6a0-f178e2761ea8.aspx).
+The following table shows which parameters are mandatory and which are optional.
   
 |                  **Action**                  |  **Mandatory parameters**  |                                                                                           **Optional parameters**                                                                                           |
 | :------------------------------------------- | :------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -616,6 +616,3 @@ The following table shows which parameters are mandatory and which are optional.
 <a name="DCTM_cmdlet"> </a>
 
 [Supported and unsupported Documentum object types and properties in SharePoint Server](../technical-reference/supported-and-unsupported-documentum-object-types-and-properties.md)
-
-[Set-SPEnterpriseSearchDCTMConnectorConfig](http://technet.microsoft.com/library/639f678a-00bd-4866-a6a0-f178e2761ea8.aspx)
-

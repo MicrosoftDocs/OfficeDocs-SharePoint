@@ -122,7 +122,7 @@ However, if you are deploying "People Search", we recommend that you create a se
   
 A single continuous crawl includes all content sources in a Search service application for which continuous crawls are enabled. Similarly, the continuous crawl interval applies to all content sources in the Search service application for which continuous crawls are enabled. For more information, see [Manage continuous crawls in SharePoint Server](manage-continuous-crawls.md).
   
-Continuous crawls increase the load on the crawler and on crawl targets. Make sure that you plan and scale out accordingly for this increased consumption of resources. For each large content source for which you enable continuous crawls, we recommend that you configure one or more front-end web servers as dedicated targets for crawling. For more information, see [Manage crawl load (SharePoint Server 2010)](https://technet.microsoft.com/en-us/library/dd335962%28v=office.14%29.aspx).
+Continuous crawls increase the load on the crawler and on crawl targets. Make sure that you plan and scale out accordingly for this increased consumption of resources. For each large content source for which you enable continuous crawls, we recommend that you configure one or more front-end web servers as dedicated targets for crawling. For more information, see [Manage crawl load (SharePoint Server 2010)](/previous-versions/office/sharepoint-server-2010/dd335962(v=office.14)).
   
 ## Use crawl rules to exclude irrelevant content from being crawled
 <a name="BKMK_UseCrawlRules"> </a>
@@ -175,7 +175,7 @@ You can reduce the effect of crawling on SharePoint Server crawl targets (that i
     
 - Limit search database usage in Microsoft SQL Server to prevent the crawler from using shared SQL Server disk and processor resources during a crawl.
     
-For more information, see [Manage crawl load (SharePoint Server 2010)](https://technet.microsoft.com/en-us/library/dd335962%28v=office.14%29.aspx).
+For more information, see [Manage crawl load (SharePoint Server 2010)](/previous-versions/office/sharepoint-server-2010/dd335962(v=office.14)).
   
 ### Using crawler impact rules to limit the effect of crawling
 
@@ -201,7 +201,7 @@ For more information, see the following articles:
     
 - [Manage search components in SharePoint Server](manage-search-components.md)
     
-- [New-SPEnterpriseSearchCrawlComponent](http://technet.microsoft.com/library/98f86631-c6b5-4379-ab89-5d0884cb0fd0.aspx)
+- [New-SPEnterpriseSearchCrawlComponent](/powershell/module/sharepoint-server/New-SPEnterpriseSearchCrawlComponent?view=sharepoint-ps)
     
 ## Manage environment resources to improve crawl performance
 <a name="BKMK_ManageEnvironment"> </a>

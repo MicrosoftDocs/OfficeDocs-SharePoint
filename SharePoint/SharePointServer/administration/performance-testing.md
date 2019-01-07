@@ -37,7 +37,7 @@ These are the recommended sub steps you should follow for pre-production:
     
 - Deploy to the production environment.
     
-Before you read this article, you should read [Capacity management and sizing overview for SharePoint Server 2013](http://technet.microsoft.com/library/45dc078f-de39-425c-a94f-1de78b68052e%28Office.14%29.aspx).
+Before you read this article, you should read [Capacity management and sizing overview for SharePoint Server 2013](/previous-versions/office/sharepoint-server-2010/ff758647(v=office.14)).
   
     
 ## Create a Test Plan
@@ -171,5 +171,5 @@ Each time you run a load test remember that it is changing data in the database.
 [Software boundaries and limits for SharePoint Server 2016](../install/software-boundaries-and-limits-0.md)
 #### Other Resources
 
-[Capacity management and sizing overview for SharePoint Server 2013](http://technet.microsoft.com/library/45dc078f-de39-425c-a94f-1de78b68052e%28Office.14%29.aspx)
+[Capacity management and sizing overview for SharePoint Server 2013](/previous-versions/office/sharepoint-server-2010/ff758647(v=office.14))
 

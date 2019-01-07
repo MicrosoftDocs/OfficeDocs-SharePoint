@@ -39,7 +39,7 @@ You can use PowerShell to restore a site collection manually or as part of a scr
      An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -66,7 +66,7 @@ You can use PowerShell to restore a site collection manually or as part of a scr
     > [!NOTE]
     > If the site collection that you are restoring is 1 gigabyte or larger, you can use the **GradualDelete** parameter for better performance during the restore process. When this parameter is used, the site collection that is overwritten is marked as deleted, which immediately prevents any additional access to its content. The data in the marked site collection is then deleted gradually over time by a timer job instead of all at the same time, which reduces the impact on server performance. 
   
-For more information, see [Restore-SPSite](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/restore-spsite?view=sharepoint-ps).
+For more information, see [Restore-SPSite](/powershell/module/sharepoint-server/restore-spsite?view=sharepoint-ps).
   
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 

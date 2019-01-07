@@ -31,7 +31,7 @@ To upgrade a site collection, site collection administrators complete the follow
     
 4. Verify that upgrade was successful and the site works as expected. For more information, see [Review site collections upgraded to SharePoint 2013](review-site-collections-upgraded-to-sharepoint-2013.md).
     
-This article discusses the second and third steps, and includes procedures for performing these tasks from Site Settings. For information about using Microsoft PowerShell cmdlets to upgrade sites from the command line, see [Manage site collection upgrades (SharePoint 2013 Products)](http://technet.microsoft.com/library/550e4018-54a3-4e34-a647-7797b4244e80.aspx). 
+This article discusses the second and third steps, and includes procedures for performing these tasks from Site Settings. For information about using Microsoft PowerShell cmdlets to upgrade sites from the command line, see [Manage site collection upgrades (SharePoint 2013 Products)](/SharePoint/upgrade-and-update/manage-site-collection-upgrades-to-sharepoint-2013). 
   
 **Upgrade step 2: Request evaluation site collection and Step 3: Upgrade the site**
 
@@ -72,7 +72,7 @@ When you request an evaluation site collection, the request is added to a Timer 
     
 After you have reviewed the upgrade evaluation and made any necessary changes in your original site based on your evaluation, you can upgrade your site collection.
   
-Farm administrators can use PowerShell to request an upgrade evaluation site collection. For more information, see [Manage site collection upgrades (SharePoint 2013 Products)](http://technet.microsoft.com/library/550e4018-54a3-4e34-a647-7797b4244e80.aspx).
+Farm administrators can use PowerShell to request an upgrade evaluation site collection. For more information, see [Manage site collection upgrades (SharePoint 2013 Products)](/SharePoint/upgrade-and-update/manage-site-collection-upgrades-to-sharepoint-2013).
   
 ## Upgrade a site collection
 <a name="UpgradeSite"> </a>
@@ -80,7 +80,7 @@ Farm administrators can use PowerShell to request an upgrade evaluation site col
 After you run the pre-upgrade checks and optionally review an upgrade evaluation site collection, you can upgrade your site collection to SharePoint 2013.
   
 > [!IMPORTANT]
->  You cannot upgrade FAST Search Center sites to the 2013 experience. Existing FAST Search Center sites can continue to work in 2010 mode after upgrade. If you want the new functionality, you must create new enterprise Search Center sites in 2013 mode. >  To enable users to preview Word or PowerPoint search results in a SharePoint 2013 Search Center, do each of the following: >  Before you upgrade content site collections, upgrade the SharePoint Server 2010 enterprise Search Center site collection to 2013 mode. >  Ensure that SharePoint 2013 is configured to use Office Online. For more information, see [Deploy Office Web Apps Server](http://technet.microsoft.com/library/e4d51dc4-6460-437d-aa8e-0ae4d3aa8cc5.aspx) and [Configure SharePoint 2013 to use Office Web Apps](http://technet.microsoft.com/library/a5276781-133b-413c-beca-b851e17c2081.aspx). 
+>  You cannot upgrade FAST Search Center sites to the 2013 experience. Existing FAST Search Center sites can continue to work in 2010 mode after upgrade. If you want the new functionality, you must create new enterprise Search Center sites in 2013 mode. >  To enable users to preview Word or PowerPoint search results in a SharePoint 2013 Search Center, do each of the following: >  Before you upgrade content site collections, upgrade the SharePoint Server 2010 enterprise Search Center site collection to 2013 mode. >  Ensure that SharePoint 2013 is configured to use Office Online. For more information, see [Deploy Office Web Apps Server](/webappsserver/deploy-office-web-apps-server) and [Configure SharePoint 2013 to use Office Web Apps](/webappsserver/configure-office-web-apps-for-sharepoint-2013). 
   
  **To upgrade a site collection**
   
