@@ -93,7 +93,7 @@ You'll have to browse to each site collection that the user or guest visited, an
  
  	For example, the full URL will resemble the following: **https://&lt;contoso.sharepoint.com&gt;/_layouts/15/people.aspx/membershipGroupId=0**
 
-2. Select the person from the list, and then on the **Actions** menu, select�**Delete Users from Site Collection**.
+2. Select the person from the list, and then on the **Actions** menu, select **Delete Users from Site Collection**.
  
 ### Using the SharePoint Online Management Shell
 
@@ -107,7 +107,7 @@ You'll have to browse to each site collection that the user or guest visited, an
    Remove-SPOUser -Site https://&lt;contoso&gt;.sharepoint.com -LoginName outlook.com#jondoe@company.com
    ```
    > [!NOTE]
-   >  Replace the�outlook.com#jondoe@company.com�placeholder with the person in question.  
+   >  Replace the _\<outlook.com#jondoe@company.com\>_ placeholder with the person in question.  
 
 ## Clear browser history
 
