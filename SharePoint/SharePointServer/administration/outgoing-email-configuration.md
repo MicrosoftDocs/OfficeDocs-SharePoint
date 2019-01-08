@@ -28,7 +28,7 @@ After you have installed SharePoint Server and completed the initial configurati
   
 To configure outgoing email for a specific web application, first configure the default outgoing email for all web applications in the farm. If you configure the outgoing email for a specific web application, that configuration will override the default configuration for all web applications in the farm.
   
-You can also configure outgoing email for a specific web application by using Microsoft PowerShell. For more information, see the "Configure the settings for a specific web application" section in [SharePoint Server 2016 outgoing email configuration settings](https://social.technet.microsoft.com/wiki/contents/articles/34167.sharepoint-2016-outgoing-email-configuration-settings.aspx#Configure_using_the_PowerShell).
+You can also configure outgoing email for a specific web application by using Microsoft PowerShell. For more information, see the "Configure the settings for a specific web application" section in [SharePoint Server 2016 outgoing email configuration settings](https://social.technet.microsoft.com/wiki/contents/articles/34167.sharepoint-2016-outgoing-email-configuration-settings.aspx#Configure_using_the_PowerShell). 
   
     
 ## Before you begin
@@ -267,6 +267,9 @@ Set-SPWebApplication -Identity $WebApp -SMTPServer $SmtpServer -SMTPServerPort $
 
 > [!NOTE]
 > To specify credentials for SMTP authentication, use the Get-Credential cmdlet and pass it as the value for the -SMTPCredentials parameter. To specify that SharePoint should connect to the SMTP server anonymously, pass $null as the value for the -SMTPCredentials parameter. If you don't specify the -SMTPCredentials parameter, it will preserve the existing authentication settings.
+
+> [!NOTE]
+> After you've set up SMTP authentication in your farm, you can test to see if it's authenticating. For more information, see [[Is SMTP Auth Really Working?](https://techcommunity.microsoft.com/t5/SharePoint-Support-Blog/Is-SMTP-Auth-Really-Working/ba-p/303577).
 
 ## See also
 <a name="begin"> </a>
