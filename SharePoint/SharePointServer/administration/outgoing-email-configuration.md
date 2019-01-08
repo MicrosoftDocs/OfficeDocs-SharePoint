@@ -194,7 +194,6 @@ You can configure outgoing email for a farm by using the SharePoint Central Admi
 2. Run the following PowerShell commands to get the SharePoint Central Administration web application and then configure the outgoing email settings for that web application. The settings stored in that web application will apply to the entire farm.
 
 ```powershell
-...
 $CentralAdmin = Get-SPWebApplication -IncludeCentralAdministration | ? { $_.IsAdministrationWebApplication -eq $true }
 
 $SmtpServer = "mail.example.com"
@@ -252,25 +251,23 @@ You can configure outgoing email for a specific web application by using the Cen
   
 2. Run the following PowerShell commands to get the web application and then configure the outgoing email settings for that web application.
 
-```powershell
-```
-```
-$WebApp = Get-SPWebApplication -Identity &lt;web application URL&gt;
+   ```powershell
+   $WebApp = Get-SPWebApplication -Identity &lt;web application URL&gt;
 
-$SmtpServer = "mail.example.com"
-$SmtpServerPort = 587
-$FromAddress = "user@example.com"
-$ReplyToAddress = "replyto@example.com"
-$Credentials = Get-Credential
+   $SmtpServer = "mail.example.com"
+   $SmtpServerPort = 587
+   $FromAddress = "user@example.com"
+   $ReplyToAddress = "replyto@example.com"
+   $Credentials = Get-Credential
 
-Set-SPWebApplication -Identity $WebApp -SMTPServer $SmtpServer -SMTPServerPort $SmtpServerPort -OutgoingEmailAddress $FromAddress -ReplyToEmailAddress  $ReplyToAddress -SMTPCredentials $Credentials
-```
+   Set-SPWebApplication -Identity $CentralAdmin -SMTPServer $SmtpServer -SMTPServerPort $SmtpServerPort -OutgoingEmailAddress $FromAddress -ReplyToEmailAddress $ReplyToAddress -SMTPCredentials $Credentials
+   ```
 
 > [!NOTE]
 > To specify credentials for SMTP authentication, use the Get-Credential cmdlet and pass it as the value for the -SMTPCredentials parameter. To specify that SharePoint should connect to the SMTP server anonymously, pass $null as the value for the -SMTPCredentials parameter. If you don't specify the -SMTPCredentials parameter, it will preserve the existing authentication settings.
 
 > [!NOTE]
-> After you've set up SMTP authentication in your farm, you can test to see if it's authenticating. For more information, see [Is SMTP Auth Really Working?](https://techcommunity.microsoft.com/t5/SharePoint-Support-Blog/Is-SMTP-Auth-Really-Working/ba-p/303577).
+> After you've set up SMTP authentication in your farm, you can test to see if it's authenticating. For more information, see [[Is SMTP Auth Really Working?](https://techcommunity.microsoft.com/t5/SharePoint-Support-Blog/Is-SMTP-Auth-Really-Working/ba-p/303577).
 
 
 ## See also
