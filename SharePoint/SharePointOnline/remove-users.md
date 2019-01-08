@@ -39,7 +39,7 @@ For the steps to delete a user in the Microsoft 365 admin center, see [Delete a 
 > [!NOTE]
 >   If you're using directory synchronization, you must remove the user from the on-premises Active Directory environment.
 
- After you delete a user, a series of jobs will remove the user from SharePoint. After the next incremental profile import job, the user (or users) will be marked as deleted, the user�s profile page will be deleted, and the user's OneDrive will be marked for deletion by the MySite cleanup job.
+ After you delete a user, a series of jobs will remove the user from SharePoint. After the next incremental profile import job, the user (or users) will be marked as deleted, the user's profile page will be deleted, and the user's OneDrive will be marked for deletion by the MySite cleanup job.
 
 ## Delete a guest from the Microsoft 365 admin center
 
@@ -79,7 +79,7 @@ For the steps to delete a user in the Microsoft 365 admin center, see [Delete a 
 
 ## Remove people from the UserInfo list
 
-The preceding steps removed access to Office 365 and SharePoint Online. However, the user or guest still appears in people searches and in the SharePoint Online Management Shell when you use the�Get-SPOUser�cmdlet. To completely remove people from SharePoint, you must remove them from the UserInfo list. There are two ways to do this:
+The preceding steps removed access to Office 365 and SharePoint Online. However, the user or guest still appears in people searches and in the SharePoint Online Management Shell when you use the Get-SPOUser cmdlet. To completely remove people from SharePoint, you must remove them from the UserInfo list. There are two ways to do this:
 
 ### Site by site in SharePoint 
 
@@ -111,7 +111,7 @@ You'll have to browse to each site collection that the user or guest visited, an
 
 ## Clear browser history
 
-SharePoint uses browser caching in several scenarios, including in the people picker. Even when a user is fully removed, he or she may still remain in the browser cache. Clearing the browser history resolves this issue. For info about doing this in Edge, see�[View and delete browser history in Microsoft Edge](https://support.microsoft.com/help/10607/microsoft-edge-view-delete-browser-history).
+SharePoint uses browser caching in several scenarios, including in the people picker. Even when a user is fully removed, he or she may still remain in the browser cache. Clearing the browser history resolves this issue. For info about doing this in Edge, see [View and delete browser history in Microsoft Edge](https://support.microsoft.com/help/10607/microsoft-edge-view-delete-browser-history).
 
 When you clear the browser history, make sure that you also select to clear cookies and website data.
 
