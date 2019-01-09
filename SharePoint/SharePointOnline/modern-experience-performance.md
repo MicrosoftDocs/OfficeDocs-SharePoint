@@ -31,14 +31,20 @@ The SharePoint modern experience is designed to minimize the time required to re
 
 In the traditional SharePoint architecture, the SharePoint server farm executes data requests and other processing operations, returning results and rendered pages to the client. This model reduces the load on the the client machine and browser, and also reduces network traffic between the client and server, factors which were once critical performance bottlenecks.
 
-The SharePoint modern experience architecture leverages the computing power of contemporary user computers, high-bandwidth low-latency networks and modern web browser capabilities to allow the client computer to directly perform certain data requests and processor-intensive operations such as page rendering.
+The SharePoint modern experience architecture leverages the computing power of contemporary user computers, high-bandwidth low-latency networks and modern web browser capabilities to allow the client computer to directly perform certain data requests and processor-intensive operations such as page rendering. 
+
+Note that the SharePoint modern experience client-side processing model can provide dramatic improvement in perceived end user latency over the traditional SharePoint architecture, there will be a significant increase in client-to-server network traffic and a greater dependency on the client-side execution environment.
 
 ## Content delivery networks (CDNs)
 
-A Content delivery network, or CDN, is a worldwide network of servers that host the same files. Microsoft hosts a SharePoint CDN for common libraries (such as JavaScript and CSS files) that you may include in your SharePoint solution. 
+A Content delivery network, or CDN, is a worldwide network of servers that host the same files. Microsoft hosts an [Office 365 CDN](https://developer.microsoft.com/en-us/office/blogs/general-availability-of-office-365-cdn/) for common libraries (such as JavaScript and CSS files) that you may include in your SharePoint solution.
+
+SharePoint Online latency can be affected by the physical distance between your users and the location of the SharePoint Online instance. This is particularly important for organizations that have a global presence where a site may be hosted on one continent while users on the other side of the world are accessing its content. CDNs help mitigate this situation by hosting certain popular web assets in different locations closer to the end users.
 
 # Related topics
 
 [Performance guidance for SharePoint Online portals](https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/portal-performance)
+
 [Tune SharePoint Online performance](https://docs.microsoft.com/en-us/office365/enterprise/tune-sharepoint-online-performance)
+
 [Using content delivery networks with SharePoint Online](https://docs.microsoft.com/en-us/office365/enterprise/using-content-delivery-networks-with-sharepoint-online)
