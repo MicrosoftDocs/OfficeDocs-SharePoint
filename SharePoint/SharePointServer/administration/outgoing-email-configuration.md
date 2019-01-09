@@ -203,7 +203,6 @@ $ReplyToAddress = "replyto@example.com"
 $Credentials = Get-Credential
 
 Set-SPWebApplication -Identity $CentralAdmin -SMTPServer $SmtpServer -SMTPServerPort $SmtpServerPort -OutgoingEmailAddress $FromAddress -ReplyToEmailAddress $ReplyToAddress -SMTPCredentials $Credentials
-...
 ```
 
 > [!NOTE]
