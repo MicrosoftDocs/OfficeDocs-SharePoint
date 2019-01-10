@@ -19,7 +19,7 @@ description: "Learn how to customize refiners on search results pages by changin
 
 The Refinement Web Part filters search results into categories called refiners. Users can click these refiners to narrow search results to find what they're looking for more easily. 
   
-By default, the Refinement Web Part is used on all default search vertical pages, which are the search results pages for **Everything**, **People**, **Conversations**, and **Videos**.
+By default, the Refinement Web Part is used on all default search vertical pages in the Enterprise Search Center, which are the search results pages for **Everything**, **People**, **Conversations**, and **Videos**.
   
 As a SharePoint Online administrator, you can change how the Refinement Web Part is set up. You can:
   
@@ -58,7 +58,7 @@ As a SharePoint Online administrator, you can change how the Refinement Web Part
   
 8. Click **OK**.
     
-## Change the display name for a refiner
+## Change the display name for a refiner in the classic search experience
 <a name="__change_the_display"> </a>
 
 By default, the name of the managed property will be used as a display name for the refiner. In many cases, the managed property name is hard to understand—for example, **RefinableString00** or **ColorOWSTEXT**. You can fix this by changing the name of the refiner in a JavaScript file.

@@ -17,7 +17,7 @@ description: "Learn how you can customize the search experience in SharePoint On
 
 # Overview of search in SharePoint Online
 
-If you're responsible for search in your organization, learn how you can customize the classic search experience in SharePoint Online to make it easier for users to find the information they're looking for.
+If you're responsible for search in your organization, learn how you can customize and impact the search experience in SharePoint Online to make it easier for users to find the information they're looking for.
 
 SharePoint Online has both a classic and a modern search experience. You can customize the classic search experience, but **not** the modern. Both search experiences use the same search index to find search results, and some settings can impact both experiences. [Learn about the differences between the classic and modern experiences. ](differences-classic-modern-search.md)
   
@@ -36,7 +36,7 @@ See how you can make content searchable, and how you can crawl content to get it
   
 Presenting the search results the right way makes content easier to find.
   
-See how you can manage the Search Center in SharePoint Online, and how you can use the different search Web Parts to help each user find what they're looking for. [Learn more](make-search-results-look-great.md).
+See how you can manage the classic experience in the Search Center in SharePoint Online, and how you can use the different search Web Parts to help each user find what they're looking for. [Learn more](make-search-results-look-great.md).
   
 ## Show relevant search results
   

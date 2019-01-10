@@ -74,6 +74,7 @@
 #### [Use result types and display templates](use-result-types-and-display-templates.md)
 #### [About display templates](about-display-templates.md)
 #### [Make pages load faster](make-pages-load-faster.md)
+#### [Switch to an Enterprise Search Center in SharePoint Online](create-enterprise-search-center.md)
 ### [Show relevant search results](show-relevant-search-results.md)
 #### [Manage search schema](manage-search-schema.md)
 #### [Manage query rules](manage-query-rules.md)

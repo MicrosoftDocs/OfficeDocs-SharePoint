@@ -17,7 +17,7 @@ description: "Learn how to customize the Search Navigation Web Part. The Search 
 
 # Change settings for the Search Navigation Web Part
 
-The Search Navigation Web Parts shows links that let users move quickly between the different search pages, known as search verticals. Search verticals are predesigned to give users different search experiences depending on what they are looking for. For example, if users click the **People** link, they are taken to the people search vertical, which is a search page specifically set up to display people information. 
+The Search Navigation Web Parts shows links that let users move quickly between the different search pages, known as search verticals. Search verticals are predesigned to give users different search experiences depending on what they are looking for. For example, if users click the **People** link, they are taken to the people search vertical, which is a search page specifically set up to display people information.
   
 By default, the Search Navigation Web Part is set up to show links to the search verticals **Everything**, **People**, **Conversations** and **Videos**. The Search Navigation Web Part uses search results from the Search Results Web Part so that when users click a search vertical link, the search results are filtered and displayed according to how the search vertical is set up. 
   
