@@ -179,7 +179,7 @@ Set-SPAppPrincipalPermission -AppPrincipal $appPrincipal -Site $rootWeb -Scope S
 Write-Host
 Write-Host
 Write-Host "Verifying Site Mailbox Configuration"
-$warnings = &amp; $script:currentDirectory\Check-SiteMailboxConfig.ps1 -ReturnWarningState
+$warnings = & $script:currentDirectory\Check-SiteMailboxConfig.ps1 -ReturnWarningState
 if($warnings -and -not $Force)
 {
     Write-Warning "Pre-requisites not satisfied. Stopping Set-SiteMailboxConfig. Use -Force to override"
