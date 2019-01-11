@@ -22,9 +22,9 @@ The Search Center is a classic search experience. The Search Center is a site or
 SharePoint Online offers two types of Search Centers: the **Basic** Search Center and the **Enterprise** Search Center. By default SharePoint Online is set up with the Basic Search Center. 
 
 Both Search Centers search the same content and show the same search results. 
-The differences are that search administrators have more options for tailoring the look and feel of the Enterprise Search Center and that it automatically comes with links to four search pages, known as search verticals. Also, search administrators can add custom search results pages to an Enterprise Search Center. [Learn how to switch to an Enterprise Search Center](../SharePointServer/search/create-enterprise-search-center.md).
+The differences are that search administrators have more options for tailoring the look and feel of the Enterprise Search Center and that it automatically comes with links to four search pages, known as search verticals. These verticals display search results that are filtered and formatted for a specific content type or class. Search verticals help users move quickly between different types and classes of results. The Enterprise Search Center comes with the default verticals People, Conversations, and Videos. Also, search administrators can add custom search results pages to an Enterprise Search Center. [Learn how to switch to an Enterprise Search Center](create-enterprise-search-center.md).
 
-Search verticals are customized for searching specific content, such as the default verticals People, Conversations, and Videos that come with the Enterprise Search Center. These verticals display search results that are filtered and formatted for a specific content type or class. Search verticals help users move quickly between different types and classes of results.
+
 
  
  
