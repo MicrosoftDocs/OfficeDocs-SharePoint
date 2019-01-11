@@ -106,7 +106,7 @@ You can assign or remove service application administrators by using the SharePo
   
    ```
 
-  - To revoke administrative permissions, type the following command:
+   - To revoke administrative permissions, type the following command:
     
    ```
    Revoke-SPObjectSecurity $security $principal
