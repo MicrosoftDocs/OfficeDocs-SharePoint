@@ -27,6 +27,6 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: One or m
   
  **Resolution: Migrate Web applications from classic mode to claims-based authentication.**
   
-- You have to migrate Web applications from classic mode to claims-based authentication. For more information, see [Migrate from classic-mode to claims-based authentication in SharePoint Server](http://technet.microsoft.com/library/e3e3d0b8-8ba0-4495-8650-e2e9dfb5fa6a%28Office.14%29.aspx).
+- You have to migrate Web applications from classic mode to claims-based authentication. For more information, see [Migrate from classic-mode to claims-based authentication in SharePoint Server](/previous-versions/office/sharepoint-server-2010/gg251985(v=office.14)).
     
 

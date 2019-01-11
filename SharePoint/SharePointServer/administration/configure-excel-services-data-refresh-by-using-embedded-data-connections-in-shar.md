@@ -22,7 +22,7 @@ Excel Services in SharePoint Server 2013 supports three methods of using Secure 
     
 - You can use an unattended service account. For more information, see [Configure Excel Services data refresh by using the unattended service account in SharePoint Server 2016](configure-the-unattended-service-account-0.md).
     
-- You can use an Office Data Connection (ODC) file that specifies a Secure Store target application. For more information, see [Configure Excel Services data refresh by using external data connections](http://technet.microsoft.com/library/0d33c049-3f9e-42e9-be48-aeecd4ad7b66.aspx).
+- You can use an Office Data Connection (ODC) file that specifies a Secure Store target application. For more information, see [Configure Excel Services data refresh by using external data connections](/SharePoint/administration/excel-services-overview).
     
 To configure Excel Services data access to use embedded data connections, you use the following process:
   

@@ -57,7 +57,7 @@ To understand your environment before you upgrade it, and to plan for the time t
     
     Check your service applications and run a search crawl and review the log files. 
     
-For more information about how to test upgrade, see [Use a trial upgrade to SharePoint 2013 to find potential issues](http://technet.microsoft.com/library/2b5d3825-adba-4185-84f2-ef59e8110fac%28Office.14%29.aspx) and the [SharePoint 2013 Products Preview - Test Your Upgrade Process model](https://go.microsoft.com/fwlink/?LinkId=252098).
+For more information about how to test upgrade, see [Use a trial upgrade to SharePoint 2013 to find potential issues](/previous-versions/office/sharepoint-server-2010/cc262155(v=office.14)) and the [SharePoint 2013 Products Preview - Test Your Upgrade Process model](https://go.microsoft.com/fwlink/?LinkId=252098).
   
 ## Best practices for upgrading to SharePoint 2013
 
@@ -79,15 +79,15 @@ To guarantee a smooth upgrade from SharePoint 2010 Products to SharePoint 2013, 
     
   - The time to allow for the upgrade process
     
-    Try a full search indexing crawl. For more information, see [Use a trial upgrade to SharePoint 2013 to find potential issues](http://technet.microsoft.com/library/2b5d3825-adba-4185-84f2-ef59e8110fac%28Office.14%29.aspx).
+    Try a full search indexing crawl. For more information, see [Use a trial upgrade to SharePoint 2013 to find potential issues](/previous-versions/office/sharepoint-server-2010/cc262155(v=office.14)).
     
 3. Plan for capacity.
     
-    Ensure that you have enough disk, processor, and memory capacity to handle upgrade requirements. For more information about system requirements, see [Hardware and software requirements for SharePoint 2013](../install/hardware-and-software-requirements-0.md). For more information about how to plan the disk space that is required for upgrade, see [Plan for performance during upgrade to SharePoint 2013](http://technet.microsoft.com/library/7d9c454c-9300-42e5-a79f-1064266a2393%28Office.14%29.aspx) and [Performance planning in SharePoint Server 2013](../administration/performance-planning-in-sharepoint-server-2013.md)
+    Ensure that you have enough disk, processor, and memory capacity to handle upgrade requirements. For more information about system requirements, see [Hardware and software requirements for SharePoint 2013](../install/hardware-and-software-requirements-0.md). For more information about how to plan the disk space that is required for upgrade, see [Plan for performance during upgrade to SharePoint 2013](/previous-versions/office/sharepoint-server-2010/cc262891(v=office.14)) and [Performance planning in SharePoint Server 2013](../administration/performance-planning-in-sharepoint-server-2013.md)
     
 4. Clean up before you upgrade
     
-    Issues in your environment can affect the success of upgrade, and unnecessary or very large amounts of data can affect upgrade performance for both databases and site collections. If you don't need something in your environment, consider removing it before upgrade. If there are issues detected, try to resolve them before you start to upgrade. For more information, see [Clean up an environment before an upgrade to SharePoint 2013](http://technet.microsoft.com/library/bad0e5f7-44e1-40c7-8450-4c7069d4984b%28Office.14%29.aspx).
+    Issues in your environment can affect the success of upgrade, and unnecessary or very large amounts of data can affect upgrade performance for both databases and site collections. If you don't need something in your environment, consider removing it before upgrade. If there are issues detected, try to resolve them before you start to upgrade. For more information, see [Clean up an environment before an upgrade to SharePoint 2013](/previous-versions/office/sharepoint-server-2010/ff382641(v=office.14)).
     
 5. Back up your databases.
     
@@ -95,7 +95,7 @@ To guarantee a smooth upgrade from SharePoint 2010 Products to SharePoint 2013, 
     
 6. Optimize your environment before upgrade.
     
-    Be sure to optimize your SharePoint 2010 Products environment to meet any limits or restrictions, either from your business or governance needs or from the SharePoint 2013 boundaries and limits before upgrade. This will help reduce errors during the upgrade process and prevent broken lists or sites after upgrade. For more information about limits in the product, see [Software boundaries and limits for SharePoint 2013](../install/software-boundaries-and-limits.md). For more information about large lists and how to address the lower limit on site collections, see [Clean up an environment before an upgrade to SharePoint 2013](http://technet.microsoft.com/library/bad0e5f7-44e1-40c7-8450-4c7069d4984b%28Office.14%29.aspx).
+    Be sure to optimize your SharePoint 2010 Products environment to meet any limits or restrictions, either from your business or governance needs or from the SharePoint 2013 boundaries and limits before upgrade. This will help reduce errors during the upgrade process and prevent broken lists or sites after upgrade. For more information about limits in the product, see [Software boundaries and limits for SharePoint 2013](../install/software-boundaries-and-limits.md). For more information about large lists and how to address the lower limit on site collections, see [Clean up an environment before an upgrade to SharePoint 2013](/previous-versions/office/sharepoint-server-2010/ff382641(v=office.14)).
     
 7. (Optional) Set the original databases to read-only if you want to keep your original environment available while you upgrade.
     
@@ -119,5 +119,5 @@ To guarantee a smooth upgrade from SharePoint 2010 Products to SharePoint 2013, 
   
 [Get started with upgrades to SharePoint 2013](get-started-with-upgrade-0.md)
   
-[Plan for upgrade to SharePoint 2013](http://technet.microsoft.com/library/83079d8c-c64d-40b8-80c6-bab3c8bd44f6%28Office.14%29.aspx)
+[Plan for upgrade to SharePoint 2013](/previous-versions/office/sharepoint-server-2010/cc303429(v=office.14))
 

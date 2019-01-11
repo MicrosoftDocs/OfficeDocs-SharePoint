@@ -90,20 +90,18 @@ To install the current release download here: [SharePoint Migration Tool Version
   
  **Migrating data files from SharePoint Server document libraries**
   
-1. Start the SharePoint Migration Tool, and then click **Next**.
+1. Start the SharePoint Migration Tool, then enter your Office 365 username and password.
     
-2. Enter your Office 365 username and password, and then click **Sign in.**
+2. Select **Start your first migration**.
     
-3. Select **Choose a source and destination**.
+3. Select **SharePoint Server 2013.**
     
-4. Select **SharePoint Server (on-premises).**
-    
-5. Enter the SharePoint Server 2013 site URL where your data is currently located. Click **Next**.
+4. Enter the SharePoint Server 2013 site URL where your content is located. Click **Next**.
     
     > [!IMPORTANT]
     > Proxy connections are not supported. Using Proxy connections will yield errors such as "SharePoint login fail" or "cannot load document library". 
   
-6. Enter your username and password to the SharePoint Server site; username must use the format of someone@example.com. Click **Sign in**.
+5. Enter your username and password to the SharePoint Server site; username must use the format of someone@example.com. Click **Sign in**.
     
     > [!NOTE]
     > If you have already signed in to that site once while using this tool, you won't be prompted again for the same site. 
@@ -120,51 +118,53 @@ To install the current release download here: [SharePoint Migration Tool Version
 
         **Important Note:**  If the on-premesis server is configured to support multiple authentication providers including  Windows authentication, then Windows authentication will not be supported. If this describes your environment, use other authentication methods instead of Windows authentication. 
   
-7. Choose the document library where your files are located. The drop-down list will contain all your possible choices.
+6. Choose the document library where your files are located. The drop-down list will contain all your possible choices.
     
-8. Enter the URL of the SharePoint Online site where you want your files migrated.
+7. Enter the URL of the SharePoint Online site where you want your files migrated.
     
-9. Select the document library to where your files will be moved.
+8. Select the document library to where your files will be moved.
     
-10. Click **Add**. This task will be added to the list. If you want to select another set of data files to migrate, click **Choose a source and destination**.
+9. Click **Add**. This task will be added to the list. If you want to select another set of data files to migrate, click **Add a source**.
     
  **Migrating data files from a local file share**
-  
-1. Start the SharePoint Migration Tool, and then click **Next**.
+ 1. Start the SharePoint Migration Tool, then enter your Office 365 username and password.
     
-2. Enter your Office 365 username and password, and then click **Sign in.**
+2. Select **Start your first migration**.
     
-3. Select **Choose a source and destination**.
+3. Select **File Share.**
     
-4. Select **File share**.
+5. Enter the source path of the file share where your content is located. Click **Next**.
     
-5. Enter the path of the file share where your data is located. Click **Next**.
-    
-6. Enter the URL of the SharePoint Online site where you want your files migrated, and then enter your username and password to the SharePoint Server site. Click **Sign in**.
+6. Enter the URL of the SharePoint Online site where you want your files migrated. Click **Next**.
     
     > [!NOTE]
     > If you have already signed in to that site once while using this tool, you won't be prompted again for the same site. 
   
-7. Choose the document library to where your files will be moved.
+7. Choose the document library to where your files will be moved. Click **Next**.
+
+8. This task will be added to the list. If you want to select another set of data files to migrate, click **Add another source**.
     
-8. Click **Add**. This task will be added to the list. If you want to select another set of data files to migrate, click **Choose a source and destination**.
-    
-9. When you have finished selecting your sources, click **Migrate**.
+9. When you have finished selecting your sources, click **Next**.
+10. Review your settings.  Then click **Migrate**.
     
 ## Bulk migration using a JSON or CSV file
 
-If you have many sources to migrate, you can use either a JSON or CSV file to do a bulk migration.
-
->[!Note]
->The use of JSON files for bulk import are only supported in the V2 Beta release.
-  
-For more information on how to create a JSON or CSV file for data content migration, see [How to format your JSON or CSV file for data content migration](how-to-format-your-csv-file-for-data-content-migration.md).
+If you have many sources to migrate, you can use either a JSON or CSV file to do a bulk migration. To learn more on how to create a JSON or CSV file for data content migration, see [How to format your JSON or CSV file for data content migration](how-to-format-your-csv-file-for-data-content-migration.md).
   
  **To use a JSON or CSV file for bulk migration**
   
-1. Open the SharePoint Migration Tool, and then click **Next**.
+1. Start the SharePoint Migration Tool, then enter your Office 365 username and password.
     
-2. Enter your Office 365 username and password, and then click **Sign in**.
+2. Select **Start your first migration**.
+    
+3. Select **JSON or CSV file for bulk migration.**
+    
+5. Enter the full path of your .CSV or .JSON filewhere your content is located. Click **Add**.
+    
+6. Enter the URL of the SharePoint Online site where you want your files migrated. Click **Next**.
+    
+    > [!NOTE]
+    > If you have already signed in to that site once while using this tool, you won't be prompted again for the same site. 
     
 3. Select **JSON or CSV file for bulk migration**. Enter the location of your file, or click **Choose File** to locate it. Click **Add**.
     
@@ -179,9 +179,9 @@ For more information on how to create a JSON or CSV file for data content migrat
   
 5. If your JSON or CSV file is successfully added without errors, the job will be added to your list of sources and destinations.
     
-6. If you want to select another set of data files to migrate, click **Choose a source and destination**.
+6. If you want to select another set of data files to migrate, click **Add a source**. Otherwise, click **Next**.
     
-7. When you have finished selecting your sources, click **Migrate**.
+7. Review your settings. Then click **Migrate**.
     
 ## Monitoring and reporting status of migration jobs
 

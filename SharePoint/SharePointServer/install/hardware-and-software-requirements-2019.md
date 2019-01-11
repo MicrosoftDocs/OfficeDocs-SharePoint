@@ -11,7 +11,7 @@ localization_priority: Priority
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-- Strat_SP_server
+- SP2019
 ms.custom: 
 ms.assetid: 4d88c402-24f2-449b-86a6-6e7afcfec0cd
 description: "Find out the minimum hardware and software requirements you need to install and run SharePoint Server."
@@ -48,7 +48,7 @@ The values in the following table are minimum values for installations on server
   
 For all installation scenarios, you must have sufficient hard disk space for the base installation and sufficient space for diagnostics such as logging, debugging, creating memory dumps, and so on. For production use, you must also have additional free disk space for day-to-day operations. In addition, maintain two times as much free space as you have RAM for production environments.
   
-For information about hardware and software requirements for Microsoft SQL Server 2016 or higher, see [Hardware and Software Requirements for Installing SQL Server](https://docs.microsoft.com/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server?view=sql-server-2017).
+For information about hardware and software requirements for Microsoft SQL Server 2016 or higher, see [Hardware and Software Requirements for Installing SQL Server](/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server?view=sql-server-2017).
   
 |**Installation scenario**|**Deployment type and scale**|**RAM**|**Processor**|**Hard disk space**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -158,7 +158,7 @@ The Microsoft SharePoint Products Preparation Tool installs the following prereq
 ## Manually configure Windows Server Roles and Features
 To manually configure the required Windows Server Roles and Features, you can use one of two methods: 1. Server Manager 2. Microsoft PowerShell
 
-To configure by using Server Manager, see [Install or Uninstall Roles, Role Services, or Features](https://docs.microsoft.com/windows-server/administration/server-manager/install-or-uninstall-roles-role-services-or-features)
+To configure by using Server Manager, see [Install or Uninstall Roles, Role Services, or Features](/windows-server/administration/server-manager/install-or-uninstall-roles-role-services-or-features)
 
 
 To configure by using PowerShell:
@@ -209,7 +209,7 @@ In scenarios where installing prerequisites directly from the Internet is not po
     
 - [Microsoft Information Protection and Control Client (MSIPC)](https://go.microsoft.com/fwlink/p/?LinkId=544913)
    
-- [Microsoft SQL Server 2012 SP4 Feature Pack Native Client (sqlncli.msi)](https://www.microsoft.com/download/details.aspx?id=56041)
+- [Microsoft SQL Server 2012 SP4 Feature Pack - Native Client \x64\sqlncli.msi](https://www.microsoft.com/download/details.aspx?id=56041
     
 - [Microsoft Sync Framework Runtime v1.0 SP1 (x64)](https://go.microsoft.com/fwlink/p/?LinkId=618411)
     

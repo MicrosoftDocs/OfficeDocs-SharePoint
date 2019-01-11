@@ -55,7 +55,7 @@ For more information about claims-based authentication, see the following resour
   
 - [Claims-based Identity for Windows (white paper)](https://go.microsoft.com/fwlink/p/?LinkId=198942)
     
-- [Windows Identity Foundation home page](https://docs.microsoft.com/en-us/dotnet/framework/security/)
+- [Windows Identity Foundation home page](/dotnet/framework/security/)
     
 Due to the widespread use of claim-based authentication for user authentication, server-to-server authentication, and app authentication, we recommend claims-based authentication for all web applications and zones of a SharePoint Server farm. For more information, see [Plan for server-to-server authentication in SharePoint Server](plan-server-to-server-authentication.md). When you use claims-based authentication, all supported authentication methods are available for your web applications and you can take advantage of new features and scenarios in SharePoint Server that use server-to-server authentication and app authentication. 
   
@@ -71,11 +71,11 @@ To configure a web application to use classic mode authentication, you must use 
   
 A SharePoint 2013 farm can include a mix of web applications that use both modes. Some services do not differentiate between user accounts that are traditional Windows accounts and Windows claims accounts. 
   
-For more information about migrating before upgrading, see [Migrate from classic-mode to claims-based authentication](https://technet.microsoft.com/en-us/library/gg251985.aspx).
+For more information about migrating before upgrading, see [Migrate from classic-mode to claims-based authentication](/sharepoint/security-for-sharepoint-server/security-for-sharepoint-server).
   
-For more information about migrating after upgrading, see [Migrate from classic-mode to claims-based authentication in SharePoint Server](http://technet.microsoft.com/library/e3e3d0b8-8ba0-4495-8650-e2e9dfb5fa6a%28Office.14%29.aspx).
+For more information about migrating after upgrading, see [Migrate from classic-mode to claims-based authentication in SharePoint Server](/previous-versions/office/sharepoint-server-2010/gg251985(v=office.14)).
   
-For information about how to create web applications that use classic mode authentication in SharePoint 2013, see [Create web applications that use classic mode authentication in SharePoint Server](http://technet.microsoft.com/library/57c6d1ee-e2b7-4b48-9865-354fe8cc8fe2%28Office.14%29.aspx). Note that you cannot migrate a web application that uses claims-based authentication to use classic mode authentication.
+For information about how to create web applications that use classic mode authentication in SharePoint 2013, see [Create web applications that use classic mode authentication in SharePoint Server](/previous-versions/office/sharepoint-server-2010/gg276326(v=office.14)). Note that you cannot migrate a web application that uses claims-based authentication to use classic mode authentication.
   
 > [!IMPORTANT]
 > Office Online can be used only by SharePoint 2013 web applications that use claims-based authentication. Office Online rendering and editing will not work on SharePoint 2013 web applications that use classic mode authentication. If you migrate SharePoint 2010 web applications that use classic mode authentication to SharePoint 2013, you must migrate them to claims-based authentication to allow them to work with Office Online. 
@@ -218,9 +218,9 @@ Unlike the NTLM, Kerberos, and Anonymous authentication methods, you configure D
   
 If you are using claims-based authentication, see the following:
   
-- [Configure digest authentication for a claims-based web application in SharePoint Server](http://technet.microsoft.com/library/de49a030-60bc-49aa-979e-8b76678b63f0%28Office.14%29.aspx)
+- [Configure digest authentication for a claims-based web application in SharePoint Server](/previous-versions/office/sharepoint-server-2010/gg576966(v=office.14))
     
-- [Configure basic authentication for a claims-based web application in SharePoint Server](http://technet.microsoft.com/library/01587b2a-d290-4e95-98cc-3cce078d8340%28Office.14%29.aspx)
+- [Configure basic authentication for a claims-based web application in SharePoint Server](/previous-versions/office/sharepoint-server-2010/gg576953(v=office.14))
     
 ## Plan for forms-based authentication
 <a name="planfba"> </a>
@@ -229,7 +229,7 @@ To use forms-based authentication to authenticate users against an identity mana
   
 If you want to manage membership users or roles from the Central Administration website, you must register the membership provider and the role manager in the Web.config file for the Central Administration website. You must also register the membership provider and the role manager in the Web.config file for the web application that hosts the content.
   
-For detailed steps to configure forms-based authentication, see [Configure forms-based authentication for a claims-based web application in SharePoint Server](http://technet.microsoft.com/library/fd1391bb-c787-4742-b007-bf57e18dad66%28Office.14%29.aspx)
+For detailed steps to configure forms-based authentication, see [Configure forms-based authentication for a claims-based web application in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806890(v=office.14))
   
 ## Plan for SAML token-based authentication
 <a name="plansaml"> </a>
@@ -298,7 +298,7 @@ If you implement SAML token-based authentication with a partner company and your
 > [!NOTE]
 > When a web application is configured to use SAML token-based authentication, the **SPTrustedClaimProvider** class does not provide search functionality to the People Picker control. Any text entered in the People Picker control will automatically be displayed as if it resolves, regardless of whether it is a valid user, group, or claim. If your SharePoint Server solution uses SAML token-based authentication, plan to create a custom claims provider that implements custom search and name resolution. 
   
-For detailed steps to configure SAML token-based authentication using AD FS, see [Configure SAML-based claims authentication with AD FS in SharePoint Server](http://technet.microsoft.com/library/cb9ade1e-a3a1-4d99-a100-0b451f8272ea%28Office.14%29.aspx).
+For detailed steps to configure SAML token-based authentication using AD FS, see [Configure SAML-based claims authentication with AD FS in SharePoint Server](/previous-versions/office/sharepoint-server-2010/hh305235(v=office.14)).
   
 ## Planning zones for web applications
 <a name="planzone"> </a>

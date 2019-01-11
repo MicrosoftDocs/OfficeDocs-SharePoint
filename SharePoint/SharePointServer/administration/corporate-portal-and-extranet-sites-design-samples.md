@@ -167,7 +167,7 @@ Each server farm in the design sample is composed of six servers with the follow
     
 - Two database servers with SQL Server installed and configured to support SQL Server clustering, mirroring, or AlwaysOn. AlwaysOn requires SQL Server 2012.
     
-The concept of front-end and application server is different in SharePoint Server 2016, see [Overview of MinRole Server Roles in SharePoint Server](https://docs.microsoft.com/SharePoint/install/overview-of-minrole-server-roles-in-sharepoint-server)
+The concept of front-end and application server is different in SharePoint Server 2016, see [Overview of MinRole Server Roles in SharePoint Server](/sharepoint/install/overview-of-minrole-server-roles-in-sharepoint-server)
   
 The design sample illustrates the logical architecture of SharePoint Server by showing that the following:
   
@@ -175,12 +175,12 @@ The design sample illustrates the logical architecture of SharePoint Server by s
     
 - The Central Administration site is installed on an application server to protect it from direct user access. 
     
-In reality, the number of server computers and the topology of the server farm are important to the logical architecture only to increase capacity and improve performance. You can design the logical architecture independent of the server farm topology. The process of planning performance and capacity helps you plan the size the server farm to meet performance and capacity goals. For more information, see [Performance planning in SharePoint Server 2013](https://technet.microsoft.com/library/8dd52916-f77d-4444-b593-1f7d6f330e5f).
+In reality, the number of server computers and the topology of the server farm are important to the logical architecture only to increase capacity and improve performance. You can design the logical architecture independent of the server farm topology. The process of planning performance and capacity helps you plan the size the server farm to meet performance and capacity goals. For more information, see [Performance planning in SharePoint Server 2013](/SharePoint/administration/performance-planning-in-sharepoint-server-2013).
   
 ## Users, zones, and authentication
 <a name="section4"> </a>
 
-Claims is the default mode of authentication in SharePoint Server and each design sample incorporates claims-based authentication. You can use Windows PowerShell to implement classic-mode authentication; however, some features of SharePoint Server are not available in classic mode. For more information about design samples that incorporate classic-mode authentication, see [Design sample: Corporate deployment (SharePoint Server 2010)](https://technet.microsoft.com/library/cc261995%28office.14%29.aspx)
+Claims is the default mode of authentication in SharePoint Server and each design sample incorporates claims-based authentication. You can use Windows PowerShell to implement classic-mode authentication; however, some features of SharePoint Server are not available in classic mode. For more information about design samples that incorporate classic-mode authentication, see [Design sample: Corporate deployment (SharePoint Server 2010)](/previous-versions/office/sharepoint-server-2010/cc261995(v=office.14))
   
 The following table lists the differences in the two approaches that are represented by the Corporate Portal Design sample and the Extranet Design sample.
   
@@ -686,7 +686,7 @@ After a client browser receives the load-balanced IP address, the client browser
 In environments that have multiple domains, enter CNAME records for DNS in the domains that the sites do not reside in. For example, if the Fabrikam network environment includes a second domain named europe.fabrikam.com, CNAME records are entered for these sites in the Europe domain. For the Team Sites intranet site (http://teams), a CNAME record named teams is added to the europe.fabrikam.com domain that points to teams.fabrikam.com. Then, when a client computer's DNS suffix is appended to DNS lookup requests, a request for http://teams from the Europe domain will issue a DNS lookup of teams.europe.fabrikam.com, and will be directed by the CNAME record to teams.fabrikam.com.
   
 > [!NOTE]
-> There is a known issue with some clients that use Kerberos authentication and resolving CNAME records. For more information, see [Kerberos configuration known issues (SharePoint Server 2010)](https://technet.microsoft.com/library/ce320af4-baf1-4c52-a26e-8c6577e54453.aspx). 
+> There is a known issue with some clients that use Kerberos authentication and resolving CNAME records. For more information, see [Kerberos configuration known issues (SharePoint Server 2010)](/previous-versions/office/sharepoint-server-2010/gg502606(v=office.14)). 
   
 ## Zone policies
 <a name="section13"> </a>

@@ -24,7 +24,7 @@ description: "Learn how to change the custom script setting for SharePoint Onlin
 
 # Allow or prevent custom script
 
-As a global or SharePoint admin in Office 365, you can allow custom script as a way of letting users change the look, feel, and behavior of sites and pages to meet organizational objectives or individual needs. If you allow custom script, all users who have "Add and Customize Pages" permission to a site or page can add any script they want. (By default, users who create sites are site owners and therefore have this permission. For more info about SharePoint permission levels, see [Understanding permission levels in SharePoint](https://support.office.com/article/87ecbb0e-6550-491a-8826-c075e4859848).) 
+As a global or SharePoint admin in Office 365, you can allow custom script as a way of letting users change the look, feel, and behavior of sites and pages to meet organizational objectives or individual needs. If you allow custom script, all users who have "Add and Customize Pages" permission to a site or page can add any script they want. (By default, users who create sites are site owners and therefore have this permission. For more info about SharePoint permission levels, see [Understanding permission levels in SharePoint](/sharepoint/understanding-permission-levels).) 
   
 > [!NOTE]
 > For simple ways to change the look and feel of a site, see [Change the look of your SharePoint site](https://support.office.com/article/06bbadc3-6b04-4a60-9d14-894f6a170818). 
@@ -37,7 +37,7 @@ By default, script is allowed on sites that admins create. It is not allowed on 
 ## To allow custom script on OneDrive or user-created sites
 <a name="__top"> </a>
 
-In the SharePoint admin center, you can choose to allow users to run custom script on OneDrive (referred to as "personal sites") or on all user-created sites. For info about letting users create their own sites, see [Manage site creation in SharePoint Online](manage-site-creation.md).
+In the SharePoint admin center, you can choose to allow users to run custom script on OneDrive (referred to as "personal sites") or on all classic team sites they create. For info about letting users create their own sites, see [Manage site creation in SharePoint Online](manage-site-creation.md).
   
 > [!CAUTION]
 > Before you allow custom script on sites in your organization, make sure you understand the [security implications](security-considerations-of-allowing-custom-script.md). 
@@ -78,12 +78,12 @@ To allow custom script on a particular site collection immediately, follow these
  ```PowerShell
  Set-SPOsite <SiteURL> -DenyAddAndCustomizePages 0
  ``` 
-If you change this setting for a user's OneDrive or a user-created site, it will be overridden by the Custom Script setting in the admin center within 24 hours.
+If you change this setting for a user's OneDrive or a classic team site, it will be overridden by the Custom Script setting in the admin center within 24 hours.
   
 ## Features affected when custom script is blocked
 <a name="__top"> </a>
 
-When users are prevented from running custom script on OneDrive or user-created sites, site collection owners and site owners won't be able to create new items such as templates, solutions, themes, and help file collections. If you allowed custom script in the past, items that were already created will still work.
+When users are prevented from running custom script on OneDrive or the classic team sites they create, site collection owners and site owners won't be able to create new items such as templates, solutions, themes, and help file collections. If you allowed custom script in the past, items that were already created will still work.
   
 The following site settings are unavailable when users are prevented from running custom script:
   

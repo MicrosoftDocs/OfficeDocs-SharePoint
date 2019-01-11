@@ -95,7 +95,7 @@ The destination farm must be running the same version or a later version of Shar
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -231,7 +231,7 @@ The destination farm must be running the same version or a later version of Shar
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -243,7 +243,7 @@ The destination farm must be running the same version or a later version of Shar
 
     Where:  _\<http://SiteName\>_ is the URL of the web application. 
     
-For more information, see [Get-SPContentDatabase](http://technet.microsoft.com/library/a4a83bb0-0bab-4cad-9b59-0fd89a16f57b.aspx)
+For more information, see [Get-SPContentDatabase](/powershell/module/sharepoint-server/Get-SPContentDatabase?view=sharepoint-ps)
   
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
@@ -263,7 +263,7 @@ For more information, see [Get-SPContentDatabase](http://technet.microsoft.com/l
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -281,7 +281,7 @@ For more information, see [Get-SPContentDatabase](http://technet.microsoft.com/l
     
   -  _\<c:\timerjobfile.txt\>_ is the location of the file that you are creating that lists all timer jobs associated with the Web application. 
     
-For more information, see [Get-SPTimerJob](http://technet.microsoft.com/library/e2ec752d-7f04-457e-bc02-7213af5c14fe.aspx), [Out-File](http://go.microsoft.com/fwlink/p/?LinkID=717317&amp;clcid=0x409), [ForEach-Object](http://go.microsoft.com/fwlink/p/?LinkID=717315&amp;clcid=0x409), [Get-Content](http://go.microsoft.com/fwlink/p/?LinkID=717318&amp;clcid=0x409), and [Disable-SPTimerJob](http://technet.microsoft.com/library/8d8d7ec5-3f09-4b7e-9124-8d0c0afeb637.aspx).
+For more information, see [Get-SPTimerJob](/powershell/module/sharepoint-server/Get-SPTimerJob?view=sharepoint-ps), [Out-File](http://go.microsoft.com/fwlink/p/?LinkID=717317&amp;clcid=0x409), [ForEach-Object](http://go.microsoft.com/fwlink/p/?LinkID=717315&amp;clcid=0x409), [Get-Content](http://go.microsoft.com/fwlink/p/?LinkID=717318&amp;clcid=0x409), and [Disable-SPTimerJob](/powershell/module/sharepoint-server/Disable-SPTimerJob?view=sharepoint-ps).
   
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
@@ -301,7 +301,7 @@ For more information, see [Get-SPTimerJob](http://technet.microsoft.com/library/
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -316,7 +316,7 @@ For more information, see [Get-SPTimerJob](http://technet.microsoft.com/library/
     > [!NOTE]
     > If you have multiple content databases that have the same name, you must use the content database GUID in this command instead of using the content database name. To retrieve the GUID of the content database, run the **Get-SPContentDatabase** cmdlet without arguments. 
   
-    For more information, see [Dismount-SPContentDatabase](http://technet.microsoft.com/library/89eea901-8d3f-4d4d-9638-941a1cafe259.aspx) and [Get-SPContentDatabase](http://technet.microsoft.com/library/a4a83bb0-0bab-4cad-9b59-0fd89a16f57b.aspx). 
+    For more information, see [Dismount-SPContentDatabase](/powershell/module/sharepoint-server/Dismount-SPContentDatabase?view=sharepoint-ps) and [Get-SPContentDatabase](/powershell/module/sharepoint-server/Get-SPContentDatabase?view=sharepoint-ps). 
     
     > [!NOTE]
     > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
@@ -367,7 +367,7 @@ For more information, see [Get-SPTimerJob](http://technet.microsoft.com/library/
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -385,7 +385,7 @@ For more information, see [Get-SPTimerJob](http://technet.microsoft.com/library/
     
   -  _\<http://SiteName\>_ is the URL of the Web application to which the content database is being attached. 
     
-    For more information, see [Mount-SPContentDatabase](http://technet.microsoft.com/library/89eea901-8d3f-4d4d-9638-941a1cafe259.aspx).
+    For more information, see [Mount-SPContentDatabase](/powershell/module/sharepoint-server/Dismount-SPContentDatabase?view=sharepoint-ps).
     
     > [!NOTE]
     > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
@@ -405,7 +405,7 @@ For more information, see [Get-SPTimerJob](http://technet.microsoft.com/library/
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -418,7 +418,7 @@ For more information, see [Get-SPTimerJob](http://technet.microsoft.com/library/
 
     Where:  _\<c:\timerjobfile.txt\>_ is the location of the file that you created that lists all of the timer jobs associated with the Web application. 
     
-     For more information, see [Get-SPTimerJob](http://technet.microsoft.com/library/e2ec752d-7f04-457e-bc02-7213af5c14fe.aspx), [ForEach-Object](http://go.microsoft.com/fwlink/p/?LinkID=717315&amp;clcid=0x409), [Get-Content](http://go.microsoft.com/fwlink/p/?LinkID=717318&amp;clcid=0x409), and [Enable-SPTimerJob](http://technet.microsoft.com/library/ca2ce54c-1a9a-46d5-8055-a1f87c30a99a.aspx).
+     For more information, see [Get-SPTimerJob](/powershell/module/sharepoint-server/Get-SPTimerJob?view=sharepoint-ps), [ForEach-Object](http://go.microsoft.com/fwlink/p/?LinkID=717315&amp;clcid=0x409), [Get-Content](http://go.microsoft.com/fwlink/p/?LinkID=717318&amp;clcid=0x409), and [Enable-SPTimerJob](/powershell/module/sharepoint-server/Enable-SPTimerJob?view=sharepoint-ps).
     
     > [!NOTE]
     > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 

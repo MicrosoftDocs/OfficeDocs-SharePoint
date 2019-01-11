@@ -36,7 +36,7 @@ A couple of things to note as we discuss ZDP (we'll talk about these elements la
 It's important to remember that the goal of ZDP is uptime for your users, so, in this article, all the decisions involved in patching and rebooting your farm will be made with that bias in mind.
   
 > [!IMPORTANT]
-> Even if all the servers in your SharePoint Server 2016 farm were configured to use the 'Custom' role, you can still manually configure a highly available farm. There are [documents on TechNet](https://technet.microsoft.com/en-us/library/cc748824.aspx) that will help you construct highly available farms, and the principals of fault tolerance (having redundant hardware) and high availability (having systems and software in place to support failover and continuation of uptime) are the same. Be aware that in more complex Highly Available or Custom farms, you should take special care to patch the Search servers in a way that supports HA, for example, patch one index replica at a time and never patch or upgrade index replicas from the same partition at the same time.
+> Even if all the servers in your SharePoint Server 2016 farm were configured to use the 'Custom' role, you can still manually configure a highly available farm. There are [documents on TechNet](/SharePoint/administration/plan-for-high-availability) that will help you construct highly available farms, and the principals of fault tolerance (having redundant hardware) and high availability (having systems and software in place to support failover and continuation of uptime) are the same. Be aware that in more complex Highly Available or Custom farms, you should take special care to patch the Search servers in a way that supports HA, for example, patch one index replica at a time and never patch or upgrade index replicas from the same partition at the same time.
   
 ## The ZDP Process
 
@@ -51,7 +51,7 @@ Ideologically, you can draw a line through the middle of the farm in this diagra
 For the most part, everything you do on one side of the line (to the 01 servers) you'll exactly repeat for 02. Of all the steps involved in the relatively simple, two phase ZDP process, those taken with the WFEs (SPWeb01 and 02) are the most complex. We'll start there.
   
 > [!NOTE]
-> General information on Software Updates for SharePoint Server 2016 can be found [here](https://technet.microsoft.com/en-us/library/ff806329%28v=office.16%29.aspx). Notice that the article links out to documentation on [permissions settings](https://technet.microsoft.com/en-us/library/cc678863%28v=office.16%29.aspx) for SharePoint Server 2016. Review these articles as needed, and remember that part of patching involves database updates. If you've changed SQL Server permissions for SharePoint accounts post-installation, for example, you'll need to review these articles.
+> General information on Software Updates for SharePoint Server 2016 can be found [here](/SharePoint/upgrade-and-update/software-updates-overview). Notice that the article links out to documentation on [permissions settings](/SharePoint/install/account-permissions-and-security-settings-in-sharepoint-server-2016) for SharePoint Server 2016. Review these articles as needed, and remember that part of patching involves database updates. If you've changed SQL Server permissions for SharePoint accounts post-installation, for example, you'll need to review these articles.
   
 Make sure you've rebooted and tested your WFEs before you take either out of the load balancer to avoid situations where the WFE to be patched first is taken out of rotation, and other WFEs don't handle the resulting load. All servers in the farm should be fresh from a reboot and healthy before you patch. Also, consider stopping Search crawls and Profile Imports during the upgrade or patch window.
   
@@ -97,7 +97,7 @@ The first phase is getting the patch binaries on the servers and installing them
 Every node in the SharePoint Server 2016 farm has the patches installed, and all have been rebooted. It's time to do the build-to-build upgrade.
   
 > [!NOTE]
-> During the ZDP process, you can run [Upgrade-SPContentdatabase](https://technet.microsoft.com/en-us/library/ff607813.aspx) to reduce the overall time it will take to finish running PSCONFIG. Consider this if you have a large number of databases, or select large databases.
+> During the ZDP process, you can run [Upgrade-SPContentdatabase](/powershell/module/sharepoint-server/Upgrade-SPContentDatabase?view=sharepoint-ps) to reduce the overall time it will take to finish running PSCONFIG. Consider this if you have a large number of databases, or select large databases.
   
 1. ![Step 5 in the ZDP process s shown in a graphic.](../media/4c2c5d4d-f81c-40d8-b645-ba5bf8e9e1bc.png)
   
@@ -113,7 +113,7 @@ Every node in the SharePoint Server 2016 farm has the patches installed, and all
     > The last step in the PSCONFIG process ensures that updates to the User Interface (UI) are copied from the /layouts folder to a version-specific folder. This is part of the side-by-side UI update that lets users browsing your farm have one experience of the UI until the upgrade is completed, and you're ready to switch over to the new interface.  
     > To be sure the side-by-side copy was successful, check the associated logfile. By default, this is located under:  
     *C:\program files\common files\Microsoft shared\web server extensions\16\logs.*  (Your root drive letter may vary!)  
-    > If, for some reason, PSCONFIG didn't successfully copy UI files, please run this command to manually copy them [Copy-SidebySideFiles](https://technet.microsoft.com/en-us/library/mt604696%28v=office.16%29.aspx)!
+    > If, for some reason, PSCONFIG didn't successfully copy UI files, please run this command to manually copy them [Copy-SidebySideFiles](/powershell/module/sharepoint-server/Copy-SPSideBySideFiles?view=sharepoint-ps)!
   
 2. ![Step 6 in the ZDP process is shown in this graphic.](../media/0d89cbbf-e92c-4bda-b32c-c019ee6cbb29.png)
   
@@ -132,7 +132,7 @@ Every node in the SharePoint Server 2016 farm has the patches installed, and all
     For all remaining servers in column 1 (SPApp01, SPDCH01, SPSRCH01), run the same PSCONFIG command in the SharePoint 2016 Management Shell. Do this on each server, one at a time, until all servers in column 1 are upgraded.
 
     > [!IMPORTANT]
-    > Remember to gracefully [remove the Distributed Cache](https://technet.microsoft.com/en-us/library/jj730452.aspx?f=255&amp;MSPPError=-2147217396) before running PSCONFIG and [add the Distributed Cache to the server](https://technet.microsoft.com/en-us/library/jj730445.aspx) again after completion.
+    > Remember to gracefully [remove the Distributed Cache](/powershell/module/sharepoint-server/Remove-SPDistributedCacheServiceInstance?view=sharepoint-ps) before running PSCONFIG and [add the Distributed Cache to the server](/powershell/module/sharepoint-server/Add-SPDistributedCacheServiceInstance?view=sharepoint-ps) again after completion.
 
     ```powershell
     PSCONFIG.exe -cmd upgrade -inplace b2b -wait -cmd applicationcontent -install -cmd installfeatures -cmd secureresources -cmd services -install
@@ -143,7 +143,7 @@ Every node in the SharePoint Server 2016 farm has the patches installed, and all
     For all remaining servers in column 2 (SPApp02, SPDCH02, SPSRCH02), run the same PSCONFIG command in the SharePoint 2016 Management Shell. Do this on each server, one at a time, until all servers in column 2 are upgraded.
 
     > [!IMPORTANT]
-    > Remember to gracefully [remove the Distributed Cache](https://technet.microsoft.com/en-us/library/jj730452.aspx?f=255&amp;MSPPError=-2147217396) before running PSCONFIG and [add the Distributed Cache to the server](https://technet.microsoft.com/en-us/library/jj730445.aspx) again after completion.
+    > Remember to gracefully [remove the Distributed Cache](/powershell/module/sharepoint-server/Remove-SPDistributedCacheServiceInstance?view=sharepoint-ps) before running PSCONFIG and [add the Distributed Cache to the server](/powershell/module/sharepoint-server/Add-SPDistributedCacheServiceInstance?view=sharepoint-ps) again after completion.
 
     ```powershell
     PSCONFIG.exe -cmd upgrade -inplace b2b -wait -cmd applicationcontent -install -cmd installfeatures -cmd secureresources -cmd services -install
@@ -166,7 +166,7 @@ By default, WFEs are tweaked for low-latency, and the App servers for high-throu
 ## Why is High Availability required?
 <a name="BKMK_HA"> </a>
 
-HA is a broad topic in SharePoint. There are entire whitepapers and articles about it online, such as [this documentation](https://technet.microsoft.com/en-us/library/cc748824%28v=office.16%29.aspx) via TechNet. To simplify the concept, at least for this article, realize that ZDP (and also MinRole) originated in SharePoint Online (SPO). In SPO, virtualized servers have redundancies built in, so that two of the same role of server from the same SharePoint farm won't live on the same host or rack. This makes SPO more fault-tolerant. You can model the same situation by having two of each SharePoint Server role on separate hosts on different racks in your own datacenter, with a shared router or cabling between racks to make for quicker communication. You can also simply have two physical servers for each SharePoint Server role set up in a test environment (choosing separate power bars for each half of your farm, and making sure that routing between the set of servers is fast and, if possible, bypasses wider network traffic for lower latency). 
+HA is a broad topic in SharePoint. There are entire whitepapers and articles about it online, such as [this documentation](/SharePoint/administration/plan-for-high-availability) via TechNet. To simplify the concept, at least for this article, realize that ZDP (and also MinRole) originated in SharePoint Online (SPO). In SPO, virtualized servers have redundancies built in, so that two of the same role of server from the same SharePoint farm won't live on the same host or rack. This makes SPO more fault-tolerant. You can model the same situation by having two of each SharePoint Server role on separate hosts on different racks in your own datacenter, with a shared router or cabling between racks to make for quicker communication. You can also simply have two physical servers for each SharePoint Server role set up in a test environment (choosing separate power bars for each half of your farm, and making sure that routing between the set of servers is fast and, if possible, bypasses wider network traffic for lower latency). 
   
 The goals here are high availability and fault tolerance. That means top priorities are separating the roles across racks or servers, making sure you have two of every role, facilitating quick network traffic between these two tiers, and making sure your set up has systems in place to monitor and automatically failover database servers. In terms of manually installing services in SharePoint (as when choosing the 'Custom' role) it is important that the services have redundancy inside the farm. For example, Distributed Cache is clustered, your farm has multiple WFEs, you set up Application and Search servers in pairs. That way, in the event that one server has a serious issue, the other can handle user load.
   

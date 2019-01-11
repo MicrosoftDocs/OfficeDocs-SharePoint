@@ -140,7 +140,7 @@ After you have started PowerShell, the remaining steps to restrict access to a s
      An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -326,23 +326,23 @@ Set-SPServiceApplicationSecurity $spguid -ObjectSecurity $security
 [Account permissions and security settings in SharePoint Servers 2016 and 2019](../install/account-permissions-and-security-settings-in-sharepoint-server-2016.md)
 #### Other Resources
 
-[Create a web application in SharePoint Server](https://docs.microsoft.com/en-us/SharePoint/administration/create-a-web-application)
+[Create a web application in SharePoint Server](/SharePoint/administration/create-a-web-application)
   
-[Get-SPWebApplication](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Get-SPWebApplication?view=sharepoint-ps)
+[Get-SPWebApplication](/SharePoint/administration/create-a-web-application)
   
-[New-SPClaimsPrincipal](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/New-SPClaimsPrincipal?view=sharepoint-ps)
+[New-SPClaimsPrincipal](/powershell/module/sharepoint-server/New-SPClaimsPrincipal?view=sharepoint-ps)
   
-[Get-SPServiceApplication](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Get-SPServiceApplication?view=sharepoint-ps)
+[Get-SPServiceApplication](/powershell/module/sharepoint-server/Get-SPServiceApplication?view=sharepoint-ps)
   
-[Get-SPServiceApplicationSecurity](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/get-spserviceapplicationsecurity?view=sharepoint-ps)
+[Get-SPServiceApplicationSecurity](/powershell/module/sharepoint-server/get-spserviceapplicationsecurity?view=sharepoint-ps)
   
-[Grant-SPObjectSecurity](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Grant-SPObjectSecurity?view=sharepoint-ps)
+[Grant-SPObjectSecurity](/powershell/module/sharepoint-server/Grant-SPObjectSecurity?view=sharepoint-ps)
   
-[Revoke-SPObjectSecurity](http://technet.microsoft.com/library/4e7583ab-5b8d-47c2-a9eb-2cf525ae07d8.aspx)
+[Revoke-SPObjectSecurity](/powershell/module/sharepoint-online/revoke-spobjectsecurity)
   
-[Set-SPServiceApplicationSecurity](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Set-SPServiceApplicationSecurity?view=sharepoint-ps)
+[Set-SPServiceApplicationSecurity](/powershell/module/sharepoint-server/Set-SPServiceApplicationSecurity?view=sharepoint-ps)
   
-[Get-SPFarm](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Get-SPFarm?view=sharepoint-ps)
+[Get-SPFarm](/powershell/module/sharepoint-server/Get-SPFarm?view=sharepoint-ps)
   
-[Get-SPClaimProvider](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Get-SPClaimProvider?view=sharepoint-ps)
+[Get-SPClaimProvider](/powershell/module/sharepoint-server/Get-SPClaimProvider?view=sharepoint-ps)
 

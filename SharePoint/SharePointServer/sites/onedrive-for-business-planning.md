@@ -87,7 +87,7 @@ Data on local disks on both server and Windows client computers can be encrypted
   
 Once a document library is synchronized with a computer or mobile device, the files continue to exist there. Files remain on the computer or device even if the user's My Site and their user account are deleted. In this situation, although the files remain on the computer or device, the user can't synchronize the files with SharePoint Server again.
   
-If storing files on a client workstation is against your corporate policy, you can [remove synchronization functionality from document libraries](http://technet.microsoft.com/library/26de1fdc-d98b-4dfa-8d46-09fa1ee4e417%28Office.14%29.aspx) in SharePoint Server. 
+If storing files on a client workstation is against your corporate policy, you can [remove synchronization functionality from document libraries](/SharePoint/sharepoint-server) in SharePoint Server. 
   
 ## Moving to a hybrid environment
 <a name="section5"> </a>

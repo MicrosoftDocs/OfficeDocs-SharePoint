@@ -93,5 +93,5 @@ PerformancePoint Dashboard Designer is directly integrated with SharePoint Serve
 [Configure the Secure Store Service in SharePoint Server](configure-the-secure-store-service.md)
 #### Other Resources
 
-[Plan for Visio Services in SharePoint Server](http://technet.microsoft.com/library/4385b870-c3ec-462f-a43d-49f18e4d8675%28Office.14%29.aspx)
+[Plan for Visio Services in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee663482(v=office.14))
 

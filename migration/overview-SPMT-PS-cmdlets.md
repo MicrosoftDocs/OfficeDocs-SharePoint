@@ -65,28 +65,28 @@ The PowerShell cmdlets provide the same functionalities as [SharePoint Migration
 ### Create and initialize a migration session
 <a name="Step1CreateInitialize"> </a>
 
-- **[Register-SPMTMigration](https://docs.microsoft.com/en-us/powershell/module/spmt/register-spmtmigration)**<br> This cmdlet creates and then initializes a migration session. The initialization configures migration settings at the session level. If no specific setting parameters are defined, default settings will be used. 
+- **[Register-SPMTMigration](/powershell/module/spmt/register-spmtmigration)**<br> This cmdlet creates and then initializes a migration session. The initialization configures migration settings at the session level. If no specific setting parameters are defined, default settings will be used. 
 After a session is registered, you can add a task to the session and start migration.
 
   
 ### Add a migration task
-- **[Add-SPMTTask](https://docs.microsoft.com/en-us/powershell/module/spmt/Add-SPMTTask)**<br>
+- **[Add-SPMTTask](/powershell/module/spmt/Add-SPMTTask)**<br>
 Use this cmdlet to add a new migration task to the registered migration session. Currently there are three different types of tasks allowed:  File share task, SharePoint task and JSON defined task.  Note:  Duplicate tasks are not allowed.
   
  
   
 ### Remove a task
-- **[Remove-SPMTTask](https://docs.microsoft.com/en-us/powershell/module/spmt/Remove-SPMTtask)**<br>
+- **[Remove-SPMTTask](/powershell/module/spmt/Remove-SPMTtask)**<br>
 Use this cmdlet to remove an existing migration task from the registered migration.
 
 
   
 ### Start your migration
-- **[Start-SPMTMigration](https://docs.microsoft.com/en-us/powershell/module/spmt/start-spmtmigration)**<br>
+- **[Start-SPMTMigration](/powershell/module/spmt/start-spmtmigration)**<br>
 This cmdlet will start the registered SPMT migration.
  
 ### Return the object of current session
-- **[Get-SPMTMigration](https://docs.microsoft.com/en-us/powershell/module/spmt/Get-SPMTMigration)**<br>
+- **[Get-SPMTMigration](/powershell/module/spmt/Get-SPMTMigration)**<br>
 Return the object of the current session. This includes the status of current tasks and current session level settings. Current task status includes:
      - Count of scanned files
      - Count of migrated files
@@ -94,16 +94,16 @@ Return the object of the current session. This includes the status of current ta
 
 
 ### Stop your current migration
-- **[Stop-SPMTMigration](https://docs.microsoft.com/en-us/powershell/module/spmt/Stop-SPMTMigration)**<br>
+- **[Stop-SPMTMigration](/powershell/module/spmt/Stop-SPMTMigration)**<br>
 This cmdlet will cancel the current migration. 
 
 
 ### Show your migration status details in the console
-- **[Show-SPMTMigration](https://docs.microsoft.com/en-us/powershell/module/spmt/Show-SPMTMigration)**<br>
+- **[Show-SPMTMigration](/powershell/module/spmt/Show-SPMTMigration)**<br>
 If you start the migration in *NoShow* mode, running the **Show-SPMTMigration** cmdlet will display the task ID, data source location, target location and migration status in the console. Pressing Ctrl+C will return to *NoShow* mode.  
 
 ### Remove the migration session
-- **[Unregister-SPMTMigration](https://docs.microsoft.com/en-us/powershell/module/spmt/Unregister-SPMTMigration)**<br>
+- **[Unregister-SPMTMigration](/powershell/module/spmt/Unregister-SPMTMigration)**<br>
 Use this cmdlet to delete the migration session. 
 
 ## Sample Scenarios

@@ -24,7 +24,7 @@ SharePoint Server writes usage and health data to the logging folder and to the 
 <a name="begin"> </a>
 
 > [!NOTE]
->  Administrators typically use the SharePoint Central Administration website and the SharePoint Management Shell to manage deployments. For information about accessibility for administrators, see [Accessibility for SharePoint 2013](http://technet.microsoft.com/library/94ad4316-1077-400a-b17e-a2085a5a7312%28Office.14%29.aspx). >  Because SharePoint Server runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server supports the accessibility features of supported browsers. For more information, see the following resources: > [Plan browser support in SharePoint Server 2016](../install/browser-support-planning-0.md)> [Accessibility features in SharePoint](https://office.microsoft.com/en-us/sharepoint-foundation-help/accessibility-features-HA010369400.aspx)> [Keyboard shortcuts](https://office.microsoft.com/en-us/sharepoint-server-help/keyboard-shortcuts-HA010369395.aspx)> [Touch](https://msdn.microsoft.com/en-us/library/windows/desktop/cc872774.aspx)
+>  Administrators typically use the SharePoint Central Administration website and the SharePoint Management Shell to manage deployments. For information about accessibility for administrators, see [Accessibility for SharePoint 2013](/SharePoint/accessibility-guidelines). >  Because SharePoint Server runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server supports the accessibility features of supported browsers. For more information, see the following resources: > [Plan browser support in SharePoint Server 2016](../install/browser-support-planning-0.md)> [Accessibility features in SharePoint](https://office.microsoft.com/en-us/sharepoint-foundation-help/accessibility-features-HA010369400.aspx)> [Keyboard shortcuts](https://office.microsoft.com/en-us/sharepoint-server-help/keyboard-shortcuts-HA010369395.aspx)> [Touch](https://msdn.microsoft.com/en-us/library/windows/desktop/cc872774.aspx)
   
 ## Configure usage and health data collection by using Central Administration
 <a name="section1"> </a>
@@ -77,7 +77,7 @@ The usage and health data settings are farm-wide and cannot be set for individua
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 Products cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. On the **Start** menu, click **All Programs**.
     
@@ -121,7 +121,7 @@ The event types that are listed on the Configure usage and health data collectio
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 Products cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. On the **Start** menu, click **All Programs**.
     
@@ -135,7 +135,7 @@ The event types that are listed on the Configure usage and health data collectio
   Set-SPUsageDefinition -Identity <SPUsageDefinitionPipeBind> [-Enable] [-DaysRetained <0-31>] [-Verbose]
   ```
 
-    Where  _\<SPUsageDefinitionPipeBind\>_ specifies the usage definition object that you want to update. The type must be a valid GUID, in the form 12345678-90ab-cdef-1234-567890bcdefgh; a valid name of a usage definition (for example, SiteSubscriptionConfig1); or an instance of a valid **SPUsageDefinition** object. You can use the PowerShell **Get-SPUsageDefinition** cmdlet to obtain this GUID. For more information, see [Get-SPUsageDefinition](http://technet.microsoft.com/library/674e89f1-309b-4901-80db-6be02618e79f.aspx).
+    Where  _\<SPUsageDefinitionPipeBind\>_ specifies the usage definition object that you want to update. The type must be a valid GUID, in the form 12345678-90ab-cdef-1234-567890bcdefgh; a valid name of a usage definition (for example, SiteSubscriptionConfig1); or an instance of a valid **SPUsageDefinition** object. You can use the PowerShell **Get-SPUsageDefinition** cmdlet to obtain this GUID. For more information, see [Get-SPUsageDefinition](/powershell/module/sharepoint-server/Get-SPUsageDefinition?view=sharepoint-ps).
     
     Use the **Enable** parameter to enable usage logging for this usage definition. Use the **DaysRetained** parameter to specify how long the usage data is retained in the log before it is deleted. The range is 0 to 31 days. To view the progress of the command, use the **Verbose** parameter. 
     
@@ -159,7 +159,7 @@ You can use PowerShell to change this setting.
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 Products cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. On the **Start** menu, click **All Programs**.
     

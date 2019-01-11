@@ -11,6 +11,7 @@ localization_priority: Normal
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
+- SP2019
 ms.assetid: 99684f0b-f617-4c10-8420-d4d0adea3687
 
 description: "Create and configure a SharePoint Server 2019 farm so that you can upgrade databases from SharePoint 2016."
@@ -73,7 +74,7 @@ You also have to turn off or remove services or components in the SharePoint Ser
 ## Record the passphrase for the Secure Store service application
 <a name="passphrase"> </a>
 
-The Secure Store service application uses a passphrase to encrypt information. You have to know what this passphrase is so that you can use it in the new environment. Otherwise, you will not have access to the information in the Secure Store. If you do not know the passphrase, you can refresh the key, and then back up the Secure Store database. For more information, see **Work with encryption keys** in [ Configure the Secure Store Service in SharePoint Server ](https://docs.microsoft.com/en-us/SharePoint/administration/configure-the-secure-store-service).
+The Secure Store service application uses a passphrase to encrypt information. You have to know what this passphrase is so that you can use it in the new environment. Otherwise, you will not have access to the information in the Secure Store. If you do not know the passphrase, you can refresh the key, and then back up the Secure Store database. For more information, see **Work with encryption keys** in [ Configure the Secure Store Service in SharePoint Server ](/SharePoint/administration/configure-the-secure-store-service).
   
 ## Install SharePoint Server 2019 in a new environment
 <a name="Install"> </a>

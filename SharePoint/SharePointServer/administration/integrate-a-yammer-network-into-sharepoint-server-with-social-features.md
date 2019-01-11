@@ -72,5 +72,5 @@ After you disable the default SharePoint Server social features, [use the Yammer
 
 [Integrate Yammer with other applications](https://go.microsoft.com/fwlink/p/?LinkId=402150)
 
-[Yammer - Admin Help](https://docs.microsoft.com/yammer)
+[Yammer - Admin Help](/yammer/yammer-landing-page)
 

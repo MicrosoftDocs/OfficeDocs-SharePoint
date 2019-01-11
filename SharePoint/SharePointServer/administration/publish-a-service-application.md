@@ -65,7 +65,7 @@ Before you begin this operation, review [Share service applications across farms
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/add-spshelladmin). 
   
 2. Start the SharePoint Management Shell.
     
@@ -93,9 +93,9 @@ Before you begin this operation, review [Share service applications across farms
 
 #### Other Resources
 
-[Publish-SPServiceApplication](http://technet.microsoft.com/library/9ddfa710-05cd-4d1c-83b7-8528f6ed12ad.aspx)
+[Publish-SPServiceApplication](/powershell/module/sharepoint-server/Publish-SPServiceApplication?view=sharepoint-ps)
   
-[Get-SPServiceApplication](http://technet.microsoft.com/library/71a467dc-3b95-4b65-af93-0d0d6ebb8326.aspx)
+[Get-SPServiceApplication](/powershell/module/sharepoint-server/Get-SPServiceApplication?view=sharepoint-ps)
   
-[Get-SPTopologyServiceApplication](http://technet.microsoft.com/library/fc40e2b8-5710-4034-b37f-b4e61008410a.aspx)
+[Get-SPTopologyServiceApplication](/powershell/module/sharepoint-server/Get-SPTopologyServiceApplication?view=sharepoint-ps)
 

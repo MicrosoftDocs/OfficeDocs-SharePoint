@@ -145,7 +145,7 @@ Refer to the following table in step 2 below.
 
 3. Start the Machine Translation Service. For more information, see [Start or stop a service in SharePoint Server](start-or-stop-a-service.md).
     
-For more information, see [New-SPTranslationServiceApplication](http://technet.microsoft.com/library/aa838029-e6e3-4551-9fc3-1c3c4f596e0a.aspx).
+For more information, see [New-SPTranslationServiceApplication](/sharepoint/security-for-sharepoint-server/security-for-sharepoint-server).
   
 ## Step 2: Configure the Machine Translation Service
 <a name="step2"> </a>
@@ -261,7 +261,7 @@ Refer to the following table in step 2.
 
 3. If you changed any of the following parameters, restart the service now:  `KeepAliveTimeout`,  `MaximumTranslationTime`,  `TotalActiveProcesses`,  `RecycleProcessThreshold`,  `WebProxyAddress`,  `MachineTranslationAddress`, or  `UseDefaultInternetSettings`. For more information, see [Start or stop a service in SharePoint Server](start-or-stop-a-service.md).
     
-For more information, see [Set-SPTranslationServiceApplication](http://technet.microsoft.com/library/4632f359-9cb0-4d69-87fc-6ad19a95966d.aspx).
+For more information, see [Set-SPTranslationServiceApplication](/powershell/module/sharepoint-server/Set-SPTranslationServiceApplication?view=sharepoint-ps).
   
 ## Additional steps
 <a name="more"> </a>

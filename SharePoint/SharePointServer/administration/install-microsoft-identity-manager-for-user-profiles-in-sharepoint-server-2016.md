@@ -47,7 +47,7 @@ Which option is right for you?
 |Cons  <br/> |1. A separate MIM server is recommended for use with your SharePoint farm.  <br/> 2. The more customized the more complex the architecture, deployment, and management.  <br/> |1. Import is unidirectional (changes go from Active Directory to SharePoint Server Profile).  <br/> 2. Import from a single Active Directory forest only.  <br/> 3. Does not import user photos.  <br/> 4. Supports Active Directory LDAP only.  <br/> 5. Multi-forest scenarios are not supported.  <br/> |
    
 > [!TIP]
-> If you need details, or you need to set up Active Directory Import for your SharePoint Server installation? Try [these steps](https://technet.microsoft.com/en-us/library/jj219646.aspx). 
+> If you need details, or you need to set up Active Directory Import for your SharePoint Server installation? Try [these steps](/SharePoint/administration/configure-profile-synchronization-by-using-sharepoint-active-directory-import). 
   
 ## Choosing MIM for use with SharePoint Server 
 <a name="BKMK_ChooseMIM"> </a>
@@ -66,7 +66,7 @@ If you choose MIM, there are some **prerequisites** of which you should be aware
     > [!IMPORTANT]
     > If SQL Server is on the same server as MIM, you may use a local account for this service. However, if you use a  *remote*  SQL, you must use a domain account. If the account is in another domain from the SQL Server, it must be in the same forest. 
   
-4. A domain user account must be created and [permissioned properly](https://technet.microsoft.com/en-us/library/hh296982.aspx) for use in the Active Directory Connector. 
+4. A domain user account must be created and [permissioned properly](/SharePoint/administration/user-profile-service-administration) for use in the Active Directory Connector. 
     
 5. The account running setup for MIM must be a SQL Server Admin on the instance of SQL Server where the MIM sync database will be hosted. The account must have local administrator permissions on the machine where the MIM Synchronization service will be installed.
     

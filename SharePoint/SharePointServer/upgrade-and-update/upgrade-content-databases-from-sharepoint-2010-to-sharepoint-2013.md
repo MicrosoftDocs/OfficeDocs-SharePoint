@@ -110,16 +110,16 @@ SharePoint 2013 can host sites in both SharePoint 2010 Products and SharePoint 2
     
 There are also two versions of the IIS support directories: _Layouts, _Layouts/15 and _ControlTemplates, _ControlTemplates/15.
   
- Be sure to install customizations to the correct location in your new farm. For example, additional style sheets for SharePoint 2010 Products should be installed in the /14 path, not the new /15 path so that site collections that you haven't upgraded can use them. If you want a solution to be available to both paths, install it two times, and the second time use the **CompatibilityLevel** parameter when you install it, and it will be installed to the /15 path. For more information, see [Install-SPSolution](http://technet.microsoft.com/library/0133c53b-70c4-4dff-a2ae-3c94759ed25d.aspx).
+ Be sure to install customizations to the correct location in your new farm. For example, additional style sheets for SharePoint 2010 Products should be installed in the /14 path, not the new /15 path so that site collections that you haven't upgraded can use them. If you want a solution to be available to both paths, install it two times, and the second time use the **CompatibilityLevel** parameter when you install it, and it will be installed to the /15 path. For more information, see [Install-SPSolution](/powershell/module/sharepoint-server/install-spsolution?view=sharepoint-ps).
   
-For more information about how to update customizations for use in SharePoint 2013, see [Redeploying Customizations and Solutions in SharePoint Foundation 2010 and SharePoint Server 2010](https://msdn.microsoft.com/library/ee662217.aspx). For more information about how to deploy customizations to your environment, see [Install and manage solutions for SharePoint Server](http://technet.microsoft.com/library/be4ca20f-520e-4fd7-9c42-140af800cbc8%28Office.14%29.aspx).
+For more information about how to update customizations for use in SharePoint 2013, see [Redeploying Customizations and Solutions in SharePoint Foundation 2010 and SharePoint Server 2010](https://msdn.microsoft.com/library/ee662217.aspx). For more information about how to deploy customizations to your environment, see [Install and manage solutions for SharePoint Server](/previous-versions/office/sharepoint-server-2010/cc263205(v=office.14)).
   
 ## Verify custom components
 <a name="VerifyCustom"> </a>
 
-To make sure that you have identified all custom components for your environment, use the **Stsadm -o enumallwebs** operation in the SharePoint 2010 Products environment and use the **includefeatures** and **includewebparts** parameters. This operation can report the templates, features, Web Parts, and other custom elements that are used for each site. For more information about how to use the **enumallwebs** operation, see [Enumallwebs: Stsadm operation (Office SharePoint Server)](https://technet.microsoft.com/library/dd789634%28v=office.12%29.aspx) and [Clean up an environment before an upgrade to SharePoint 2013](clean-up-an-environment-before-an-upgrade-to-sharepoint-2013.md).
+To make sure that you have identified all custom components for your environment, use the **Stsadm -o enumallwebs** operation in the SharePoint 2010 Products environment and use the **includefeatures** and **includewebparts** parameters. This operation can report the templates, features, Web Parts, and other custom elements that are used for each site. For more information about how to use the **enumallwebs** operation, see [Enumallwebs: Stsadm operation (Office SharePoint Server)](/previous-versions/office/sharepoint-2007-products-and-technologies/dd789634(v=office.12)) and [Clean up an environment before an upgrade to SharePoint 2013](clean-up-an-environment-before-an-upgrade-to-sharepoint-2013.md).
   
-You can also use the **Get-SPWeb** Microsoft PowerShell cmdlet in your SharePoint 2010 Products environment to see template that are associated with each site and then verify that the template is installed in your SharePoint 2013 environment. For more information about this operation, see [Get-SPWeb](http://technet.microsoft.com/library/9bf9284f-e3b9-439d-8a5f-74020e1eccaf.aspx).
+You can also use the **Get-SPWeb** Microsoft PowerShell cmdlet in your SharePoint 2010 Products environment to see template that are associated with each site and then verify that the template is installed in your SharePoint 2013 environment. For more information about this operation, see [Get-SPWeb](/powershell/module/sharepoint-server/Get-SPWeb?view=sharepoint-ps).
   
 Before you attach the content databases to the web applications, use the **Test-SPContentDatabase** Microsoft PowerShell cmdlet to verify that you have all the custom components that you must have for that database. 
   
@@ -136,7 +136,7 @@ Before you attach the content databases to the web applications, use the **Test-
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -162,7 +162,7 @@ When you attach a content database, you upgrade the database and add the site co
 When you attach a content database, for a web application that spans multiple content databases, make sure that you attach the content database that contains the root site collection first. When you attach a content database, include the root site for the web application in the first content database that you attach. In other words, before you continue, examine the root of the web application in the SharePoint 2010 Products server farm to determine the first site collection. After you attach the database that contains the root site, attach the other content databases for the web application in any order. You do not have to create any site collections to store the content before you attach the database. This process attaches the content databases and the site collections inside that database. Make sure that you do not add new site collections until you have restored all the content databases. 
   
 > [!TIP]
-> Each site collection in a content database has a GUID that is registered in the configuration database and associated with the site collection. Therefore, you cannot add the same site collection two times to the farm, even in separate web applications. Although you can successfully attach the database in this situation, you will be unable to browse to the site collection. > If you must have a copy of a site collection in the same farm, first attach the database that contains the site collection to a separate farm, and then use the **Backup-SPSite** and **Restore-SPSite** PowerShell cmdlets to copy the site collection to the other farm. The backup and restore process creates a new GUID for the site collection. For more information about these cmdlets, see [Backup-SPSite](http://technet.microsoft.com/library/d4c31a1a-82a7-425f-b1bb-22e70bedd338.aspx) and [Restore-SPSite](http://technet.microsoft.com/library/90f19a58-0455-470c-a8ee-3129fc341f62.aspx). 
+> Each site collection in a content database has a GUID that is registered in the configuration database and associated with the site collection. Therefore, you cannot add the same site collection two times to the farm, even in separate web applications. Although you can successfully attach the database in this situation, you will be unable to browse to the site collection. > If you must have a copy of a site collection in the same farm, first attach the database that contains the site collection to a separate farm, and then use the **Backup-SPSite** and **Restore-SPSite** PowerShell cmdlets to copy the site collection to the other farm. The backup and restore process creates a new GUID for the site collection. For more information about these cmdlets, see [Backup-SPSite](/powershell/module/sharepoint-server/Backup-SPSite?view=sharepoint-ps) and [Restore-SPSite](/powershell/module/sharepoint-server/Restore-SPSite?view=sharepoint-ps). 
   
 For My Sites, attach the content database that contains the My Site host before attaching databases that contain the My Sites.
   
@@ -191,7 +191,7 @@ Ensure that the account that you use to attach the databases is a member of the 
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -259,7 +259,7 @@ After you attach a database, you can use the **Upgrade Status** page in Central 
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -288,7 +288,7 @@ After you upgrade the databases, you might want to perform additional steps to m
   
 - Verify that site collections are working as expecting in 2010 mode.
     
-    Visually review site collections. You can use a similar review list as the one provided for upgraded sites in [Review site collections upgraded to SharePoint Server 2016](http://technet.microsoft.com/library/1a2d3108-3b51-4837-a3c8-6a2cfbf961dd%28Office.14%29.aspx#Review).
+    Visually review site collections. You can use a similar review list as the one provided for upgraded sites in [Review site collections upgraded to SharePoint Server 2016](/SharePoint/upgrade-and-update/review-site-collections-upgraded-to-sharepoint-2013#Review).
     
 - Migrate user accounts to claims authentication, if it is necessary.
     

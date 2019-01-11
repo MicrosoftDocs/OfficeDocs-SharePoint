@@ -38,7 +38,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: The Appl
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -46,7 +46,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: The Appl
   
  `Get-SPServiceInstance -ALL`
     
-    For more information, see [Get-SPServiceInstance](http://technet.microsoft.com/library/14bbe36e-c73c-428a-955c-2c1e4d8a1d83.aspx).
+    For more information, see [Get-SPServiceInstance](/powershell/module/sharepoint-server/Get-SPServiceInstance?view=sharepoint-ps).
     
 4. Find the GUID of the Application Discovery and Load Balancer service.
     
@@ -54,6 +54,6 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: The Appl
   
  `Start-SPServiceInstance [-Identity]`
     
-    Where  _[-Identity]_ is the GUID for the Application Discovery and Load Balancer service. For more information, see [Start-SPServiceInstance](http://technet.microsoft.com/library/fcb4a4f8-a95f-468e-918b-d9a2d736cd2d.aspx).
+    Where  _[-Identity]_ is the GUID for the Application Discovery and Load Balancer service. For more information, see [Start-SPServiceInstance](/powershell/module/sharepoint-server/Start-SPServiceInstance?view=sharepoint-ps).
     
 

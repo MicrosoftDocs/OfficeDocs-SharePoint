@@ -51,8 +51,8 @@ Some SharePoint service applications have specific instructions for their creati
 |PerformancePoint  <br/> |[Configure PerformancePoint Services](configure-performancepoint-services.md) <br/> |
 |Search Service  <br/> |[Administer search in SharePoint Server](../search/search-administration.md) <br/> |
 |Secure Store  <br/> |[Configure the Secure Store Service in SharePoint Server](configure-the-secure-store-service.md) <br/> |
-|State Service  <br/> |[Manage the State Service](http://technet.microsoft.com/library/5765c57c-372b-4974-a60a-2277996550aa.aspx) <br/> |
-|Visio Graphics Service  <br/> |[Visio Graphics Service administration in SharePoint Server 2013](http://technet.microsoft.com/library/508bdc3e-ac93-4087-b09b-83b6d0412924%28Office.14%29.aspx) <br/> |
+|State Service  <br/> |[Manage the State Service](/previous-versions/office/sharepoint-server-2010/ee704548(v=office.14)) <br/> |
+|Visio Graphics Service  <br/> |[Visio Graphics Service administration in SharePoint Server 2013](/previous-versions/office/sharepoint-server-2010/ee524059(v=office.14)) <br/> |
 |User Profile Service  <br/> |[Administer the User Profile service in SharePoint Server](user-profile-service-administration.md) <br/> |
    
 ## See also

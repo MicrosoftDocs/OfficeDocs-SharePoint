@@ -11,6 +11,7 @@ localization_priority: Normal
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
+- SP2019
 ms.assetid: 6de4e8e0-5d27-4b1b-a87f-bebd8b9d6e77
 description: "Upgrade service applications (Business Connectivity Services, Managed Metadata, Secure Store, and Search) to SharePoint Server 2019."
 ---
@@ -36,7 +37,7 @@ Before you upgrade the service applications, review the following information an
   
 - Make sure that the account that you use to perform the steps in this article is a member of the Farm administrators group in the Central Administration web site.
     
-- Decide which service application pool to use for the upgraded service applications. The procedures below use the default application pool for service applications which is "SharePoint Web Services Default". You can view a list of available service application pools by using the **Get-SPServiceApplicationPool** cmdlet in PowerShell. Or you can create a service application pool by using the **New-SPServiceApplicationPool** cmdlet. For more information, see [Get-SPServiceApplicationPool](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Get-SPServiceApplicationPool?view=sharepoint-ps) and [New-SPServiceApplicationPool](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/New-SPServiceApplicationPool?view=sharepoint-ps).
+- Decide which service application pool to use for the upgraded service applications. The procedures below use the default application pool for service applications which is "SharePoint Web Services Default". You can view a list of available service application pools by using the **Get-SPServiceApplicationPool** cmdlet in PowerShell. Or you can create a service application pool by using the **New-SPServiceApplicationPool** cmdlet. For more information, see [Get-SPServiceApplicationPool](/powershell/module/sharepoint-server/Get-SPServiceApplicationPool?view=sharepoint-ps) and [New-SPServiceApplicationPool](/powershell/module/sharepoint-server/New-SPServiceApplicationPool?view=sharepoint-ps).
     
 > [!TIP]
 > Throughout this article, variables (such as $applicationPool, $sss, $upa, and so on) are used in the PowerShell cmdlets to save time and effort. You do not have to use these variables if you would prefer not to. However, if you do not use these variables, you must use IDs for the service applications and service application proxies when you specify the **Identity** parameters. Each procedure has information about the variables used, or the alternate cmdlets to use to look up any IDs that are required. > Also, many procedures in this article include a step to set the $applicationPool variable. If you are performing all of these procedures in the same session of PowerShell, and you want to use the same application pool for all service applications, you do not have to repeat this step in each procedure. Instead, you can set this variable once at the beginning and use it throughout the procedures in this article. 
@@ -113,7 +114,7 @@ The Search service instance must be started by using PowerShell because you cann
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2019 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint 2019 Management Shell.
       
@@ -129,7 +130,7 @@ The Search service instance must be started by using PowerShell because you cann
   # Starts the service instance
   ```
 
-For more information, see [Get-SPEnterpriseSearchServiceInstance](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/get-spenterprisesearchserviceinstance?view=sharepoint-ps) and [Start-SPServiceInstance](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/start-spserviceinstance?view=sharepoint-ps).
+For more information, see [Get-SPEnterpriseSearchServiceInstance](/powershell/module/sharepoint-server/get-spenterprisesearchserviceinstance?view=sharepoint-ps) and [Start-SPServiceInstance](/powershell/module/sharepoint-server/start-spserviceinstance?view=sharepoint-ps).
   
 ## Upgrade the Secure Store service application
 <a name="UpgradeSecureStore"> </a>
@@ -149,7 +150,7 @@ To upgrade the Secure Store service application, you create the new service appl
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint 2019 Management Shell.   
      
@@ -185,7 +186,7 @@ To upgrade the Secure Store service application, you create the new service appl
     
    This command sets a variable, $sss, that you use when you create the proxy later.
     
-   For more information, see [New-SPSecureStoreApplication](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/New-SPSecureStoreApplication?view=sharepoint-ps).
+   For more information, see [New-SPSecureStoreApplication](/powershell/module/sharepoint-server/New-SPSecureStoreApplication?view=sharepoint-ps).
     
 5. Type the following command to create a proxy for the Secure Store service application:
     
@@ -206,7 +207,7 @@ To upgrade the Secure Store service application, you create the new service appl
     
    This command sets a variable, $sssp, for the service application proxy that you use when you restore the passphrase.
     
-   For more information, see [New-SPSecureStoreServiceApplicationProxy](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/New-SPSecureStoreServiceApplicationProxy?view=sharepoint-ps).
+   For more information, see [New-SPSecureStoreServiceApplicationProxy](/powershell/module/sharepoint-server/New-SPSecureStoreServiceApplicationProxy?view=sharepoint-ps).
     
    After you create the Secure Store service application and the proxy, you have to refresh the encryption key. For information about how to refresh the encryption key, see [Refresh the Secure Store encryption key](../administration/configure-the-secure-store-service.md#refresh).
     
@@ -225,7 +226,7 @@ To upgrade the Secure Store service application, you create the new service appl
     > [!TIP]
     > If you do not use the variable $sssp, then you must use an ID to identify the Secure Store service application proxy instead of a name. To find the ID, you can run the **Get-SPServiceApplicationProxy** cmdlet to return a list of all service application proxy IDs. 
   
-    For more information, see [Update-SPSecureStoreApplicationServerKey](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Update-SPSecureStoreApplicationServerKey?view=sharepoint-ps).
+    For more information, see [Update-SPSecureStoreApplicationServerKey](/powershell/module/sharepoint-server/Update-SPSecureStoreApplicationServerKey?view=sharepoint-ps).
     
 ## Upgrade the Business Data Connectivity service application
 <a name="UpgradeBDC"> </a>
@@ -245,7 +246,7 @@ To upgrade the Business Data Connectivity service application, you create the ne
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint 2019 Management Shell.
     
@@ -279,7 +280,7 @@ To upgrade the Business Data Connectivity service application, you create the ne
   
   -  _BDC_Service_DB_ is name of the service application database that you want to upgrade. 
     
-   For more information, see [New-SPBusinessDataCatalogServiceApplication](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/New-SPBusinessDataCatalogServiceApplication?view=sharepoint-ps).
+   For more information, see [New-SPBusinessDataCatalogServiceApplication](/powershell/module/sharepoint-server/New-SPBusinessDataCatalogServiceApplication?view=sharepoint-ps).
     
 ## Upgrade the Managed Metadata service application
 <a name="UpgradeMetadata"> </a>
@@ -299,7 +300,7 @@ To upgrade the Managed Metadata service application, you create the new service 
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint 2019 Management Shell.
     
@@ -334,7 +335,7 @@ To upgrade the Managed Metadata service application, you create the new service 
     
    This command sets a variable, $mms, that you use when you create the proxy later.
     
-   For more information, see [New-SPMetadataServiceApplication](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/New-SPMetadataServiceApplication?view=sharepoint-ps).
+   For more information, see [New-SPMetadataServiceApplication](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
     
 5. At the PowerShell command prompt, type the following command to create a proxy for the Managed Metadata service application:
     
@@ -353,7 +354,7 @@ To upgrade the Managed Metadata service application, you create the new service 
   
   -  _DefaultProxyGroup_ adds the Managed Metadata service application proxy to the default proxy group for the local farm. 
     
-   For more information, see [New-SPMetadataServiceApplicationProxy](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/New-SPMetadataServiceApplicationProxy?view=sharepoint-ps).
+   For more information, see [New-SPMetadataServiceApplicationProxy](/powershell/module/sharepoint-server/New-SPMetadataServiceApplicationProxy?view=sharepoint-ps).
     
 ## Upgrade the PerformancePoint Services service application
 <a name="UpgradePPS"> </a>
@@ -373,7 +374,7 @@ To upgrade the PerformancePoint Services service application, you create the new
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint 2019 Management Shell.
     
@@ -409,7 +410,7 @@ To upgrade the PerformancePoint Services service application, you create the new
     
    This command sets a variable, $pps, that you use when you create the proxy later.
     
-   For more information, see [New-SPProfileServiceApplication](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/New-SPProfileServiceApplication?view=sharepoint-ps).
+   For more information, see [New-SPProfileServiceApplication](/powershell/module/sharepoint-server/New-SPProfileServiceApplication?view=sharepoint-ps).
     
 5. Type the following command to create a proxy for the PerformancePoint Services service application:
     
@@ -428,7 +429,7 @@ To upgrade the PerformancePoint Services service application, you create the new
   
   -  _Default_ adds the PerformancePoint Services service application proxy to the default proxy group for the local farm. 
     
-   For more information, see [New-SPPerformancePointServiceApplicationProxy](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/New-SPPerformancePointServiceApplicationProxy?view=sharepoint-ps).
+   For more information, see [New-SPPerformancePointServiceApplicationProxy](/powershell/module/sharepoint-server/New-SPPerformancePointServiceApplicationProxy?view=sharepoint-ps).
     
 ## Upgrade the Search service application
 <a name="UpgradeSearch"> </a>
@@ -466,7 +467,7 @@ SharePoint Server 2019 normally creates a new search topology with all the searc
         An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2019 cmdlets. 
         
         > [!NOTE]
-        > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+        > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
     - Start the SharePoint 2019 Management Shell.    
   
@@ -502,7 +503,7 @@ SharePoint Server 2019 normally creates a new search topology with all the searc
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2019 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 3. Start the SharePoint 2019 Management Shell.
        
@@ -547,7 +548,7 @@ SharePoint Server 2019 normally creates a new search topology with all the searc
         - [Set the databases to read-write](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2019.md#ReadWrite)
     - Type the command to upgrade the Search service application again at the PowerShell command prompt.
     
-     For more information, see [Restore-SPEnterpriseSearchServiceApplication](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Restore-SPEnterpriseSearchServiceApplication?view=sharepoint-ps).
+     For more information, see [Restore-SPEnterpriseSearchServiceApplication](/powershell/module/sharepoint-server/Restore-SPEnterpriseSearchServiceApplication?view=sharepoint-ps).
     
 6. Create the Search service application proxy and add it to the default proxy group by completing these actions:
     
@@ -557,7 +558,7 @@ SharePoint Server 2019 normally creates a new search topology with all the searc
       $ssa = Get-SPEnterpriseSearchServiceApplication
       ```
 
-      For more information, see [Get-SPEnterpriseSearchServiceApplication](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Get-SPEnterpriseSearchServiceApplication?view=sharepoint-ps).
+      For more information, see [Get-SPEnterpriseSearchServiceApplication](/powershell/module/sharepoint-server/Get-SPEnterpriseSearchServiceApplication?view=sharepoint-ps).
     
     - Type the following command to create a proxy for the Search service application:
     
@@ -573,7 +574,7 @@ SharePoint Server 2019 normally creates a new search topology with all the searc
     
         **Tip**: If you do not use the variable $ssa, then you must use an ID to identify the Search service application instead of a name. To find the ID, you can run the **Get-SPServiceApplication** cmdlet to return a list of all service application IDs. 
     
-        For more information, see [New-SPEnterpriseSearchServiceApplicationProxy](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/New-SPEnterpriseSearchServiceApplicationProxy?view=sharepoint-ps).
+        For more information, see [New-SPEnterpriseSearchServiceApplicationProxy](/powershell/module/sharepoint-server/New-SPEnterpriseSearchServiceApplicationProxy?view=sharepoint-ps).
     
     - Type the following command to get the Search service application proxy ID for the proxy you just created and set it as the variable $ssap:
     
@@ -581,7 +582,7 @@ SharePoint Server 2019 normally creates a new search topology with all the searc
       $ssap = Get-SPEnterpriseSearchServiceApplicationProxy 
       ```
 
-        For more information, see [Get-SPEnterpriseSearchServiceApplicationProxy](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Get-SPEnterpriseSearchServiceApplicationProxy?view=sharepoint-ps).
+        For more information, see [Get-SPEnterpriseSearchServiceApplicationProxy](/powershell/module/sharepoint-server/Get-SPEnterpriseSearchServiceApplicationProxy?view=sharepoint-ps).
     
     - Type the following command to add the Search service application proxy to the default proxy group:
     
@@ -597,17 +598,17 @@ SharePoint Server 2019 normally creates a new search topology with all the searc
     
       - You use an empty **Identity** parameter ("") to add it to the default group. 
     
-        For more information, see [Add-SPServiceApplicationProxyGroupMember](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Add-SPServiceApplicationProxyGroupMember?view=sharepoint-ps).
+        For more information, see [Add-SPServiceApplicationProxyGroupMember](/powershell/module/sharepoint-server/Add-SPServiceApplicationProxyGroupMember?view=sharepoint-ps).
     
-10. If the SharePoint Server 2016 farm uses a Links Database that is partitioned, partition the Links Database in the SharePoint Server 2019 farm the same way. Learn how in [Move-SPEnterpriseSearchLinksDatabases](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Move-SPEnterpriseSearchLinksDatabases?view=sharepoint-ps).
+10. If the SharePoint Server 2016 farm uses a Links Database that is partitioned, partition the Links Database in the SharePoint Server 2019 farm the same way. Learn how in [Move-SPEnterpriseSearchLinksDatabases](/powershell/module/sharepoint-server/Move-SPEnterpriseSearchLinksDatabases?view=sharepoint-ps).
     
 11. (Optional) Preserve search relevance settings from the SharePoint Server 2016 farm. Because the upgraded Search service application has a new, empty index, search analytics data from the SharePoint Server 2016 farm cannot be fully retained. Copy the Analytics Reporting database from the SharePoint Server 2016 farm and attach it to the new Search service application in the SharePoint Server 2019 farm:
     
-      - In the SharePoint Server 2016 farm, [backup](https://docs.microsoft.com/en-us/SharePoint/administration/move-or-rename-service-application-databases#Backup) the Analytics Reporting database. 
+      - In the SharePoint Server 2016 farm, [backup](/SharePoint/administration/move-or-rename-service-application-databases#Backup) the Analytics Reporting database. 
         
-      - In the SharePoint Server 2019 farm, [restore the backed up database](https://docs.microsoft.com/en-us/SharePoint/administration/move-or-rename-service-application-databases#Restore) to the new database server. 
+      - In the SharePoint Server 2019 farm, [restore the backed up database](/SharePoint/administration/move-or-rename-service-application-databases#Restore) to the new database server. 
         
-      - In the SharePoint Server 2019 farm, [attach the restored database](https://docs.microsoft.com/en-us/SharePoint/administration/move-or-rename-service-application-databases#PS) to the new Search service application. 
+      - In the SharePoint Server 2019 farm, [attach the restored database](/SharePoint/administration/move-or-rename-service-application-databases#PS) to the new Search service application. 
     
 12. Verify that the search topology on the new SharePoint Server 2019 farm is alike that of the SharePoint Server 2016 farm. If your requirements for search have changed, now is a good time to scale out the search topology of the new SharePoint Server 2019 farm.
     
@@ -641,7 +642,7 @@ Use the following procedure to verify that the steps to create the proxies and a
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
     
-    **Note**: If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
+    **Note**: If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
     
 2. Start the SharePoint 2019 Management Shell.
     

@@ -41,6 +41,6 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: Verify t
     
 7. Click the Web application you want to configure, and then click the **Authentication Providers** button on the ribbon. 
     
-8. Ensure that the Membership Provider Name for the **Default** zone is **Claims Based Authentication**. If not, you have to migrate the Web applications from classic mode to claims-based authentication. For more information, see [Migrate from classic-mode to claims-based authentication in SharePoint Server](http://technet.microsoft.com/library/e3e3d0b8-8ba0-4495-8650-e2e9dfb5fa6a%28Office.14%29.aspx).
+8. Ensure that the Membership Provider Name for the **Default** zone is **Claims Based Authentication**. If not, you have to migrate the Web applications from classic mode to claims-based authentication. For more information, see [Migrate from classic-mode to claims-based authentication in SharePoint Server](/previous-versions/office/sharepoint-server-2010/gg251985(v=office.14)).
     
 

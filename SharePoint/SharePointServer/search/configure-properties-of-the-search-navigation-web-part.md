@@ -38,7 +38,7 @@ For more information, see the following resources:
   
 - [Plan browser support](https://go.microsoft.com/fwlink/p/?LinkId=246502)
     
-- [Accessibility for SharePoint 2013](http://technet.microsoft.com/library/94ad4316-1077-400a-b17e-a2085a5a7312%28Office.14%29.aspx)
+- [Accessibility for SharePoint 2013](/SharePoint/accessibility-guidelines)
     
 - [Accessibility features in SharePoint 2013 Products](https://go.microsoft.com/fwlink/p/?LinkId=246501)
     

@@ -11,6 +11,7 @@ localization_priority: Normal
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
+- SP2019
 ms.assetid: 06765032-fedb-4b73-a019-f096b48cd2a8
 description: "Learn about the administrative and service accounts you need to initially install SharePoint Server."
 ---

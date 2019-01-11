@@ -62,7 +62,7 @@ You can only export and copy certificates by using Windows PowerShell 3.0 or lat
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -93,7 +93,7 @@ You can only export and copy certificates by using Windows PowerShell 3.0 or lat
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -124,7 +124,7 @@ You can only export and copy certificates by using Windows PowerShell 3.0 or lat
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -171,7 +171,7 @@ To establish trust on the consuming farm, you must import the root certificate t
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -211,7 +211,7 @@ To establish trust on the publishing farm, you must import the root certificate 
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -247,7 +247,7 @@ To establish trust on the publishing farm, you must import the root certificate 
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -270,13 +270,13 @@ To establish trust on the publishing farm, you must import the root certificate 
     
 For more information about these PowerShell cmdlets, see the following articles:
   
-- [Get-SPCertificateAuthority](http://technet.microsoft.com/library/ece4ce47-7d4c-4ecc-ad6d-a23edf822fe3.aspx)
+- [Get-SPCertificateAuthority](/powershell/module/sharepoint-server/Get-SPCertificateAuthority?view=sharepoint-ps)
     
-- [Get-SPSecurityTokenServiceConfig](http://technet.microsoft.com/library/4e26af64-e98c-4520-a578-ed0fd28bd3d6.aspx)
+- [Get-SPSecurityTokenServiceConfig](/powershell/module/sharepoint-server/Get-SPSecurityTokenServiceConfig?view=sharepoint-ps)
     
-- [New-SPTrustedRootAuthority](http://technet.microsoft.com/library/25458530-4f0d-491c-80d3-61b8f1f0dd7e.aspx)
+- [New-SPTrustedRootAuthority](/powershell/module/sharepoint-server/New-SPTrustedRootAuthority?view=sharepoint-ps)
     
-- [New-SPTrustedServiceTokenIssuer](http://technet.microsoft.com/library/cea600ae-0b64-4c2b-8943-c7c21884fffe.aspx)
+- [New-SPTrustedServiceTokenIssuer](/powershell/module/sharepoint-server/New-SPTrustedServiceTokenIssuer?view=sharepoint-ps)
     
 - [Get-PfxCertificate](http://go.microsoft.com/fwlink/?LinkID=717913&amp;clcid=0x409)
     
@@ -317,7 +317,7 @@ You can manage trusts on a farm only after the relevant certificates have alread
 [Plan for user authentication methods in SharePoint Server](../security-for-sharepoint-server/plan-user-authentication.md)
 #### Other Resources
 
-[Create a web application in SharePoint Server](http://technet.microsoft.com/library/121c8d83-a508-4437-978b-303096aa59df%28Office.14%29.aspx)
+[Create a web application in SharePoint Server](/previous-versions/office/sharepoint-server-2010/cc261875(v=office.14))
   
-[Configure SAML-based claims authentication with AD FS in SharePoint Server](http://technet.microsoft.com/library/cb9ade1e-a3a1-4d99-a100-0b451f8272ea%28Office.14%29.aspx)
+[Configure SAML-based claims authentication with AD FS in SharePoint Server](/previous-versions/office/sharepoint-server-2010/hh305235(v=office.14))
 

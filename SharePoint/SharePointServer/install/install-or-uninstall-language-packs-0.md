@@ -11,6 +11,7 @@ localization_priority: Priority
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
+- SP2019
 ms.assetid: 26c07867-0150-463d-b21a-a6d42aecf05a
 description: "Learn how to download, install, and uninstall language packs for SharePoint Server."
 ---
@@ -136,7 +137,7 @@ Dutch <br/> |nl-nl  <br/> |1043 <br/>||
 English <br/> |en-us  <br/> |1033 <br/>||
 Estonian <br/> |et-ee  <br/> |1061 <br/>||
 Finnish <br/> |fi-fi  <br/> |1035 <br/>||
-French <br/> |fr-fr  <br/> |1036 <br/>||
+French <br/> |fr-fr  <br/> |1036 <br/>
 Galician <br/> |gl-es  <br/> |1110 <br/>||
 German <br/> |de-de  <br/> |1031 <br/>||
 Greek <br/> |el-el  <br/> |1032 <br/>||

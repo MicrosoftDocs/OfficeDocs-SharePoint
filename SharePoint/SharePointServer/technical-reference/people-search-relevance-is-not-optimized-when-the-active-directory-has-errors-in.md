@@ -40,7 +40,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: People S
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -50,7 +50,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: People S
   $upaProxy = Get-SPServiceApplicationProxy <AppID>
   ```
 
-    where  *\<AppID\>*  is the GUID of the User Profile service application proxy. For more information, see [Get-SPProfileLeader](http://technet.microsoft.com/library/604f034f-f2bb-4bc3-a32d-66128a908360.aspx).
+    where  *\<AppID\>*  is the GUID of the User Profile service application proxy. For more information, see [Get-SPProfileLeader](/powershell/module/sharepoint-server/Get-SPProfileLeader?view=sharepoint-ps).
     
 4. Type the following command:
     
@@ -58,7 +58,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: People S
   Add-SPProfileLeader -ProfileServiceApplicationProxy $upaProxy -Name "<Domain\UserName> "
   ```
 
-    where  *\<Domain\UserName\>*  is the user account that you want to add as a leader — for example, Contoso\Joe.Healy. For more information, see [Add-SPProfileLeader](http://technet.microsoft.com/library/99675c8e-b164-4229-9b8f-eebfda5d5adb.aspx).
+    where  *\<Domain\UserName\>*  is the user account that you want to add as a leader — for example, Contoso\Joe.Healy. For more information, see [Add-SPProfileLeader](/powershell/module/sharepoint-server/Add-SPProfileLeader?view=sharepoint-ps).
     
 5. You are prompted to confirm. Type **Y** to confirm. 
     
@@ -70,5 +70,5 @@ Repeat the commands to add more user accounts as company leaders.
 
 #### Other Resources
 
-[Add-SPProfileLeader](http://technet.microsoft.com/library/99675c8e-b164-4229-9b8f-eebfda5d5adb.aspx)
+[Add-SPProfileLeader](/powershell/module/sharepoint-server/Add-SPProfileLeader?view=sharepoint-ps)
 

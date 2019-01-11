@@ -30,7 +30,7 @@ To provide the requested resources from an app for SharePoint, the server that r
     
 - Verify that the type of access that the app is requesting is authorized.
     
-    To authorize the access, SharePoint Server relies on the set of app permissions, which was specified in the app manifest file when it was installed, and the permissions that are associated with the user on whose behalf the app is acting. SharePoint Server also relies on the permissions that were granted to the SPAppPrincipal when the trust was established by using the [Set-SPAppPrincipalPermission](http://technet.microsoft.com/library/ada83c3d-dc0f-4b55-addf-8fde2c1e8457.aspx) PowerShell cmdlet. 
+    To authorize the access, SharePoint Server relies on the set of app permissions, which was specified in the app manifest file when it was installed, and the permissions that are associated with the user on whose behalf the app is acting. SharePoint Server also relies on the permissions that were granted to the SPAppPrincipal when the trust was established by using the [Set-SPAppPrincipalPermission](/powershell/module/sharepoint-server/Set-SPAppPrincipalPermission?view=sharepoint-ps) PowerShell cmdlet. 
     
 Note that app authentication in SharePoint Server is separate from user authentication and is not used as a sign-in authentication protocol by SharePoint users. App authentication uses the [Open Authorization (OAuth) 2.0 protocol](https://go.microsoft.com/fwlink/p/?LinkID=214783) and does not add to the set of user authentication or sign-on protocols, such as WS-Federation. There are no new user authentication protocols in SharePoint Server. App authentication and OAuth do not appear in the list of identity providers. 
   
@@ -61,7 +61,7 @@ You must configure the SharePoint farm to trust the access tokens that correspon
     
 - High-trust apps run on stand-alone servers on your intranet and use a signing certificate to digitally sign the access tokens that the app generates.
     
-    High-trust apps use the server-to-server protocol to request resources on behalf of a user. For high-trust apps, configure the SharePoint farm with the JavaScript Object Notation (JSON) metadata endpoint of the server that hosts the app. Or, you can manually configure the trust. For more information, see [Configure app authentication in SharePoint Server](http://technet.microsoft.com/library/419f6a21-4968-4645-8b66-361476fd1d65%28Office.14%29.aspx)
+    High-trust apps use the server-to-server protocol to request resources on behalf of a user. For high-trust apps, configure the SharePoint farm with the JavaScript Object Notation (JSON) metadata endpoint of the server that hosts the app. Or, you can manually configure the trust. For more information, see [Configure app authentication in SharePoint Server](/sharepoint/administration/install-and-manage-apps-for-sharepoint-server)
     
     For more information about high-trust apps, see [How to: Create high-trust apps for SharePoint 2013 using the server-to-server protocol](https://go.microsoft.com/fwlink/p/?LinkId=267561).
     

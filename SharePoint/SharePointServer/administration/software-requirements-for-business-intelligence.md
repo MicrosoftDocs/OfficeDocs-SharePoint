@@ -107,16 +107,16 @@ The requirements for Excel Online in Office Online Server for SharePoint Server 
   
 - If you plan to use Excel Online with advanced data models, at least one SQL Server Analysis Services in SharePoint mode must be registered in the Office Online Server configuration. Excel Online can use multiple Analysis Services servers, but they must all use SQL Server Management Studio. For more information, see [Download SQL Server Management Studio (SSMS)](https://go.microsoft.com/fwlink/?linkid=857511). Note that if you use multiple Analysis Services servers with Excel Online they don't need to be SQL Server 2016.
     
-    Configure each computer in your Office Online Server farm as an [Analysis Services administrator](https://go.microsoft.com/fwlink/p/?LinkId=717498). For more information, see "Configure an Analysis Services (data model) server for Excel Online" in [Configure Excel Online administrative settings](https://docs.microsoft.com/SharePoint/administration/configure-excel-services#SSAS).
+    Configure each computer in your Office Online Server farm as an [Analysis Services administrator](https://go.microsoft.com/fwlink/p/?LinkId=717498). For more information, see "Configure an Analysis Services (data model) server for Excel Online" in [Configure Excel Online administrative settings](/SharePoint/administration/configure-excel-services#SSAS).
     
-- The Secure Store Service must be configured in the farm if you want to use a Secure Store target application for data refresh scenarios, or if you want to use an Office Data Connection (ODC) file that specifies a Secure Store target application. For more information, see [Configure Excel Online data refresh by using embedded data connections in Office Online Server](https://docs.microsoft.com/SharePoint/administration/excel-services-overview) and [Plan the Secure Store Service in SharePoint Server](https://docs.microsoft.com/previous-versions/office/sharepoint-server-2010/ee806889(v=office.14)). 
+- The Secure Store Service must be configured in the farm if you want to use a Secure Store target application for data refresh scenarios, or if you want to use an Office Data Connection (ODC) file that specifies a Secure Store target application. For more information, see [Configure Excel Online data refresh by using embedded data connections in Office Online Server](/SharePoint/administration/excel-services-overview) and [Plan the Secure Store Service in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806889(v=office.14)). 
     
-- You can use Kerberos constrained delegation, Secure Store Service, or the EffectiveUserName option for authentication with Excel Online. For more information, see "Windows authentication" in [Data authentication for Excel Online in Office Online Server](https://docs.microsoft.com/en-us/officeonlineserver/data-authentication-for-excel-online-in-office-online-server) and [Configure Analysis Services EffectiveUserName in Excel Online](https://docs.microsoft.com/en-us/officeonlineserver/configure-excel-online-administrative-settings#configure-analysis-services-effectiveusername-in-excel-online).
+- You can use Kerberos constrained delegation, Secure Store Service, or the EffectiveUserName option for authentication with Excel Online. For more information, see "Windows authentication" in [Data authentication for Excel Online in Office Online Server](/officeonlineserver/data-authentication-for-excel-online-in-office-online-server) and [Configure Analysis Services EffectiveUserName in Excel Online](https://docs.microsoft.com/en-us/officeonlineserver/configure-excel-online-administrative-settings#configure-analysis-services-effectiveusername-in-excel-online).
     
 > [!NOTE]
-> For Analysis Services data, the EffectiveUserName option is an alternative method of accessing data. When it is enabled, all connections to Analysis Services data for individual users will be made by using the EffectiveUserName connection string property instead of Windows delegation. For more information, see "Configure Analysis Services EffectiveUserName in Excel Online in [Configure Excel Online administrative settings](http://technet.microsoft.com/library/9cb81758-9d0b-4970-9ca0-a75eedf6093b.aspx#EffectiveUserName). 
+> For Analysis Services data, the EffectiveUserName option is an alternative method of accessing data. When it is enabled, all connections to Analysis Services data for individual users will be made by using the EffectiveUserName connection string property instead of Windows delegation. For more information, see "Configure Analysis Services EffectiveUserName in Excel Online in [Configure Excel Online administrative settings](/SharePoint/administration/configure-excel-services#EffectiveUserName). 
   
-For information about planning for Excel Online, see [Plan Office Online Server](http://technet.microsoft.com/library/2e147f11-6f47-46bc-90bf-b2f179958d11.aspx). For information about configuring Excel Online, see [Configure Excel Online administrative settings](http://technet.microsoft.com/library/9cb81758-9d0b-4970-9ca0-a75eedf6093b.aspx).
+For information about planning for Excel Online, see [Plan Office Online Server](/webappsserver/plan-office-web-apps-server). For information about configuring Excel Online, see [Configure Excel Online administrative settings](/SharePoint/administration/configure-excel-services).
   
 ## Software requirements for Excel Services in SharePoint Server 2013
 <a name="section1a"> </a>
@@ -125,14 +125,14 @@ The requirements for Excel Services for SharePoint Server 2016 are as follows:
   
 - If you plan to use Excel Services with advanced data models, at least one Analysis Server in SharePoint mode must be registered in the Excel Services configuration. Excel Services can use multiple Analysis Services servers, but they must all be SQL Server 2012 SP1 Analysis Services (SSAS). 
     
-- The Secure Store Service must be configured in the farm if you want to store encrypted credentials for data refresh scenarios, or if you want to use the Excel Services unattended service account. For more information, see [Plan the Secure Store Service in SharePoint Server](https://docs.microsoft.com/en-us/sharepoint/administration/secure-store-service-planning).
+- The Secure Store Service must be configured in the farm if you want to store encrypted credentials for data refresh scenarios, or if you want to use the Excel Services unattended service account. For more information, see [Plan the Secure Store Service in SharePoint Server](/sharepoint/administration/secure-store-service-planning).
     
 - Kerberos constrained delegation must be configured if you want to delegate user credentials to an external data source for data refresh scenarios.
     
 > [!NOTE]
 > For Analysis Services data, the EffectiveUserName option is an alternative method of accessing data. When it is enabled, all connections to Analysis Services data for individual users will be made by using the EffectiveUserName connection string property instead of Windows delegation. For more information, see [Use Analysis Services EffectiveUserName in SharePoint Server](use-analysis-services-effectiveusername-in-sharepoint-server.md). 
   
-For information about planning for Excel Services, see [Overview of Excel Services in SharePoint Server 2013](excel-services-overview.md). For information about configuring Excel Services, see [Configure Excel Services in SharePoint Server 2013](http://technet.microsoft.com/library/9cb81758-9d0b-4970-9ca0-a75eedf6093b.aspx).
+For information about planning for Excel Services, see [Overview of Excel Services in SharePoint Server 2013](excel-services-overview.md). For information about configuring Excel Services, see [Configure Excel Services in SharePoint Server 2013](/SharePoint/administration/configure-excel-services).
   
 ## Software requirements for PerformancePoint Services in SharePoint Server 2016
 <a name="section1a"> </a>
@@ -149,7 +149,7 @@ The requirements for PerformancePoint Services in SharePoint Server 2016 are as 
 > [!NOTE]
 > ADOMD.net V11 is not installed as part of the SharePoint Server 2016 prerequisite installer tool. Install ADOMD.NET from the [SQL Server 2012 Feature Pack](https://go.microsoft.com/fwlink/p/?LinkId=275448). However, if you are installing the SQL Server 2016 Reporting Services in SharePoint mode on your application server, this file is included. 
   
-For information about how to plan for and configure PerformancePoint Services, see [PerformancePoint Services in SharePoint Server 2016 overview](https://docs.microsoft.com/en-us/sharepoint/administration/performancepoint-services-overview) and [Configure PerformancePoint Services](configure-performancepoint-services.md).
+For information about how to plan for and configure PerformancePoint Services, see [PerformancePoint Services in SharePoint Server 2016 overview](/sharepoint/administration/performancepoint-services-overview) and [Configure PerformancePoint Services](configure-performancepoint-services.md).
   
 ## Software requirements for PerformancePoint Services in SharePoint Server 2013
 <a name="section1a"> </a>
@@ -160,7 +160,7 @@ The requirements for PerformancePoint Services are as follows:
     
 - SQLSERVER2008_ASAMO10
     
-- Secure Store must be configured in the farm if you want to store encrypted credentials for data refresh scenarios, or if you want to use the PerformancePoint Services unattended service account. For more information, see [Plan the Secure Store Service in SharePoint Server](http://technet.microsoft.com/library/e1196de0-1eb9-4c50-aeca-93e0eba7be0d%28Office.14%29.aspx).
+- Secure Store must be configured in the farm if you want to store encrypted credentials for data refresh scenarios, or if you want to use the PerformancePoint Services unattended service account. For more information, see [Plan the Secure Store Service in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806889(v=office.14)).
     
 - Kerberos constrained delegation must be configured if you want to delegate user credentials to an external data source for data refresh scenarios.
     
@@ -170,18 +170,18 @@ The requirements for PerformancePoint Services are as follows:
 > [!NOTE]
 > ADOMD.net V11 is not installed as part of the SharePoint 2013 prerequisite installer tool. However, if you are installing the SQL Server 2012 Reporting Services SQL Server 2012 Reporting Services in SharePoint 2013 mode on your application server, this file is included. 
   
-For information about how to plan for PerformancePoint Services, see [PerformancePoint Services in SharePoint Server 2016 overview](http://technet.microsoft.com/library/0bcc4cd8-68cf-45b5-a880-d56fdaabe284%28Office.14%29.aspx). For information about how to configure PerformancePoint Services, see [Configure PerformancePoint Services](configure-performancepoint-services.md).
+For information about how to plan for PerformancePoint Services, see [PerformancePoint Services in SharePoint Server 2016 overview](/previous-versions/office/sharepoint-server-2010/ee424392(v=office.14)). For information about how to configure PerformancePoint Services, see [Configure PerformancePoint Services](configure-performancepoint-services.md).
   
 ## Software requirements for Visio Services in SharePoint
 <a name="section1a"> </a>
 
 The requirements for Visio Services in SharePoint are as follows:
   
-- Secure Store must be configured in the farm if you want to store encrypted credentials for data refresh scenarios. For more information, see [Plan the Secure Store Service in SharePoint Server](http://technet.microsoft.com/library/e1196de0-1eb9-4c50-aeca-93e0eba7be0d%28Office.14%29.aspx).
+- Secure Store must be configured in the farm if you want to store encrypted credentials for data refresh scenarios. For more information, see [Plan the Secure Store Service in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806889(v=office.14)).
     
 - Kerberos constrained delegation must be configured if you want to delegate user credentials to an external data source for data refresh scenarios.
     
-For information about how to plan for Visio Services, see [Overview of Visio Services in SharePoint Server](http://technet.microsoft.com/library/9e952b26-fb0e-48a5-89b1-054f54f9b986%28Office.14%29.aspx). For information about how to configure Visio Services, see [Configure Visio Services](configure-visio-services.md).
+For information about how to plan for Visio Services, see [Overview of Visio Services in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee663485(v=office.14)). For information about how to configure Visio Services, see [Configure Visio Services](configure-visio-services.md).
   
 ## See also
 <a name="section1a"> </a>

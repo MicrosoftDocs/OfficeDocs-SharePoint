@@ -11,6 +11,7 @@ localization_priority: Critical
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
+- SP2019
 ms.assetid: 47db8aed-7e2b-4ccb-b248-d71df3bffa99
 
 description: "Learn how to install SharePoint Server in various topologies."

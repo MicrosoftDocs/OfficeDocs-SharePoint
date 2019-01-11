@@ -40,7 +40,7 @@ By changing the properties and query in the Search Results Web Part you can you 
 > [!NOTE]
 > Because SharePoint Server runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server supports the accessibility features of supported browsers. For more information, see the following resources: 
 >- [Plan browser support](https://go.microsoft.com/fwlink/p/?LinkId=246502)
->- [Accessibility for SharePoint 2013](http://technet.microsoft.com/library/94ad4316-1077-400a-b17e-a2085a5a7312%28Office.14%29.aspx)
+>- [Accessibility for SharePoint 2013](/SharePoint/accessibility-guidelines)
 >- [Accessibility features in SharePoint 2013 Products](https://go.microsoft.com/fwlink/p/?LinkId=246501)
 >- [Keyboard shortcuts](https://go.microsoft.com/fwlink/p/?LinkID=246504)
 >- [Touch](https://go.microsoft.com/fwlink/p/?LinkId=246506)
@@ -164,7 +164,7 @@ By changing the properties and query in the Search Results Web Part you can you 
     
   - **Loading Behavior**
     
-    Select when the search results returned by the Search Results Web Part appear on the web page. The default option is **Async option: Issue query from the browser**. Queries will be issued from the end-users browser after the complete page is received (asynchronous). If you select the synchronous option, **Sync option: Issue query from the server**, queries are issued from the server, and the search results are included in the page response that is sent back from SharePoint (synchronous). Synchronous loading makes search vulnerable to cross-site request forgery attacks and you should **only** chose this option after carefully considering whether this vulnerability can be exploited. [Learn more](https://support.microsoft.com/en-us/help/4052414/loading-behavior-no-longer-available-in-search-results-web-part) 
+    Select when the search results returned by the Search Results Web Part appear on the web page. The default option is **Async option: Issue query from the browser**. Queries will be issued from the end-users browser after the complete page is received (asynchronous). If you select the synchronous option, **Sync option: Issue query from the server**, queries are issued from the server, and the search results are included in the page response that is sent back from SharePoint (synchronous). Synchronous loading makes search vulnerable to cross-site request forgery attacks and you should **only** chose this option after carefully considering whether this vulnerability can be exploited, learn more. 
     
 9. On the **TEST** tab, you can preview the query that is sent by the Search Results Web Part. 
     

@@ -84,7 +84,7 @@ If you're using [cross-site publishing](overview-of-cross-site-publishing.md), b
 
 #### Other Resources
 
-[New-SPWebApplicationExtension](http://technet.microsoft.com/library/0c407f36-6e3d-4213-bdb9-8298fa0c761c.aspx)
+[New-SPWebApplicationExtension](/powershell/module/sharepoint-server/New-SPWebApplicationExtension?view=sharepoint-ps)
   
-[Create claims-based web applications in SharePoint Server](http://technet.microsoft.com/library/83496762-172a-44a4-bf57-1d7ea8008d7d%28Office.14%29.aspx)
+[Create claims-based web applications in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806885(v=office.14))
 

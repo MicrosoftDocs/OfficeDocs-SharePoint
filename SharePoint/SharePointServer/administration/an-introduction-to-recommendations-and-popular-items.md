@@ -56,23 +56,22 @@ To view the usage event definitions, do the following:
 2. At the Microsoft PowerShell command prompt, type the following commands:
     
   ```
-  $ssp = Get-SPEnterpriseSearchServiceApplicationProxy
-  $ssp.GetAnalyticsEventTypeDefinitions([Guid]::Empty, 3) | ft
+  $SSP = Get-SPEnterpriseSearchServiceApplicationProxy
+  $SSP.GetAnalyticsEventTypeDefinitions([Guid]::Empty, 3) | ft
   ```
 
-The default usage event definitions are displayed. Some of the usage event settings will be explained later in this series. For now, just notice that each event has an **EventTypeId** and an **EventName**. 
+    The default usage event definitions are displayed. Some of the usage event settings will be explained later in this series. For now, just notice that each event has an **EventTypeId** and an **EventName**. 
     
-![Event Type ID](../media/OTCSP_EventTypeId.png)
+     ![Event Type ID](../media/OTCSP_EventTypeId.png)
   
-The default usage events have the following EventTypeID values:
+    The default usage events have the following EventTypeID values:
     
 |**EventTypeID**|**EventName**|
 |:-----|:-----|
 |1  <br/> |Views  <br/> |
 |2  <br/> |Recommendation Displayed  <br/> |
 |3  <br/> |Recommendation Clicked  <br/> |
-|4  <br/> |Search Queries  <br/> |
-
+   
 ## About Usage analytics in a cross-site publishing scenario
 <a name="BKMK_AboutUsageAnalyticsinaCrossSitePublishingScenario"> </a>
 
@@ -106,7 +105,7 @@ The two recommended keyboards are the same product, and so are the two mouse dev
   
 By default,  *UsageAnalyticsID*  is mapped to the crawled property  *ows_ProductCatalogItemNumber*  . If you used the Product Catalog site template when you created your authoring site collection (as explained in [Stage 1: Create site collections for cross-site publishing in SharePoint Server](stage-1-create-site-collections-for-cross-site-publishing.md)), this crawled property represents the site column  *Item Number*  in your  *Products*  list. 
   
-If you didn't use the Product Catalog site template when you created your authoring site collection, or, if you don't want to use the site column  *Item Number*  in the Usage analytics calculation, you must change the mapping of the  *UsageAnalyticsID*  managed property. But, when you change the mapping, you must make sure that the property that you map to  *UsageAnalyticsID*  is used in the friendly URL (FURL) of your catalog item page. Most likely, you specified this FURL when you [Specify URL details for a product page](stage-5-connect-your-publishing-site-to-a-catalog.md#specify-url-details-for-a-product-page). This is because the **Recommended Items Web Part** uses a value from the FURL to show the correct recommendations. A later article in this series will explain how to configure the **Recommended Items Web Part**. 
+If you didn't use the Product Catalog site template when you created your authoring site collection, or, if you don't want to use the site column  *Item Number*  in the Usage analytics calculation, you must change the mapping of the  *UsageAnalyticsID*  managed property. But, when you change the mapping, you must make sure that the property that you map to  *UsageAnalyticsID*  is used in the friendly URL (FURL) of your catalog item page. Most likely, you specified this FURL when you [Specify URL details for a product page](stage-5-connect-your-publishing-site-to-a-catalog.md#BKMK_SpecifyURLDetailsforaProductPage). This is because the **Recommended Items Web Part** uses a value from the FURL to show the correct recommendations. A later article in this series will explain how to configure the **Recommended Items Web Part**. 
   
 Remember, the color versions of our products are grouped under a common  *Group Number*  , and we use the value of  *Group Number*  in the FURL of our catalog item page. So, by mapping  *UsageAnalyticsID*  to the crawled property of  *Group Number*  , the Usage analytics calculation will be done on a group level. This means we can display one product per product group as a recommendation. 
   
