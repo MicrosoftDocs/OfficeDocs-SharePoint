@@ -19,12 +19,12 @@ description: "Learn how to customize the Search Center pages to improve the end 
 
 The Search Center is a classic search experience. The Search Center is a site or site collection that has a starting page where users enter search queries and a search results page where users can drill into and refine search results, or run a new query. 
 
-SharePoint Online offers two types of Search Centers: the Basic Search Center and the Enterprise Search Center. By default SharePoint Online is set up with the Basic Search Center. [Learn how to switch to an Enterprise Search Center](../SharePointServer/search/create-a-search-center-site.md).
+SharePoint Online offers two types of Search Centers: the **Basic** Search Center and the **Enterprise** Search Center. By default SharePoint Online is set up with the Basic Search Center. 
 
 Both Search Centers search the same content and show the same search results. 
-The differences are that search administrators have more options for tailoring the look and feel of the Enterprise Search Center and that it automatically comes with links to four search pages, known as search verticals. Also, search administrators can add custom search results pages. 
+The differences are that search administrators have more options for tailoring the look and feel of the Enterprise Search Center and that it automatically comes with links to four search pages, known as search verticals. Also, search administrators can add custom search results pages to an Enterprise Search Center. [Learn how to switch to an Enterprise Search Center](../SharePointServer/search/create-enterprise-search-center.md).
 
-Search verticals are customized for searching specific content, such as the default verticals People, Conversations, and Videos, and they display search results that are filtered and formatted for a specific content type or class. Search verticals help users move quickly between different types and classes of results.
+Search verticals are customized for searching specific content, such as the default verticals People, Conversations, and Videos that come with the Enterprise Search Center. These verticals display search results that are filtered and formatted for a specific content type or class. Search verticals help users move quickly between different types and classes of results.
 
  
  
@@ -38,19 +38,19 @@ These pages are located in the **Pages** library, and they contain predefined We
 |**Page**|**Description**|
 |:-----|:-----|
 |default.aspx  <br/> |The home page for Search Centers, and the page where users enter their queries.  <br/> |
-|results.aspx  <br/> |The default search results page for the Search Centers. When users type a query in the Search Box on a classic SharePoint site, this page displays their search results. <br/> If you have an Enterprise Search Center, this is also the search results page for the **Everything** search vertical.  <br/> |
+|results.aspx  <br/> |The default search results page for the Search Centers. <br/> If you have an Enterprise Search Center, this is also the search results page for the **Everything** search vertical.  <br/> |
 |peopleresults.aspx  <br/> |If you have an Enterprise Search Center, this is the search results page for the **People** search vertical.  <br/> |
 |conversationresults.aspx  <br/> |If you have an Enterprise Search Center, this is the search results page for the **Conversations** search vertical.  <br/> |
 |videoresults.aspx  <br/> |If you have an Enterprise Search Center, this is the search results page for the **Videos** search vertical.  <br/> |
-|advanced.aspx  <br/> |If you have an Enterprise Search Center, this is the search page where users can apply some restrictions to their search phrases — for example, they can limit the search to an exact phrase.  <br/> |
+|advanced.aspx  <br/> |This is the search page where users can apply some restrictions to their search phrases — for example, they can limit the search to an exact phrase.  <br/> |
    
-As a SharePoint Online administrator, you can also create your own search pages and add them to the Search Center as search verticals, see [Add a search vertical to the Search Navigation Web Part](search-navigation-web-part.md#add-a-search-vertical-to-the-search-navigation-web-part).
+As a SharePoint Online administrator, you can also create your own search pages and add them to the Enterprise Search Center as search verticals, see [Add a search vertical to the Search Navigation Web Part](search-navigation-web-part.md#add-a-search-vertical-to-the-search-navigation-web-part).
 
   
 ## About the Web Parts used on Search Center pages
 <a name="__top"> </a>
 
-The Search Center pages contain the following predefined Web Parts: Search Box Web Part, Search Results Web Part, Search Navigation Web Part, and Refinement Web Part.
+The Search Center pages can contain the following predefined Web Parts: Search Box Web Part, Search Results Web Part, Search Navigation Web Part, and Refinement Web Part.
   
 If you have an Enterprise Search Center, the Web Parts on the search result pages are by default set up the same way. The only difference is that the query in the **Search Results** Web Part is directed to different result sources for each search vertical page. For example, for the **People** search vertical page, the query in the **Search Results** Web Part is limited to the **Local People Results** result source. For the **Videos** search vertical page, the query in the **Search Results** Web Part is limited to the **Local Video Results** **.**
   

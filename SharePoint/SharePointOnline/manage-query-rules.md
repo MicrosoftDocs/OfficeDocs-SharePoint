@@ -17,23 +17,28 @@ description: "Improve search results by creating and managing query rules. Query
 
 # Manage query rules
 
-As a SharePoint Online administrator, you can improve search results by creating and managing query rules. Query rules help searches respond to the intent of users. 
+As a SharePoint Online administrator, you can help searches respond to the intent of your users by creating query rules, without any custom code.  
   
 In a query rule, you specify conditions and associated actions. When a query meets the conditions in a query rule, the search system performs the actions specified in the rule to improve the relevance of the search results. This could be by narrowing results or changing the order in which results are displayed. For example, a query rule condition could be that a term in a query matches a particular term in a SharePoint term set, or that a query is frequently performed on a particular result source in a search system, such as videos. When the query rule condition is met, an associated action could be to show a specific item at the top of the search results. Say you have an intranet site where all company events are maintained in a library, and you want to promote a first-aid seminar. To do this, you create a query rule that boosts the first-aid seminar to the top of the search results when someone searches for "seminar" or "event."
+
+A query rule can specify the following three types of actions:
+- Promote a search result to appear above ranked results. For example, for the query "sick leave", a query rule could specify a particular result, such as a link to a site that has a statement of company policy regarding time off work.
+- Add one or more groups of search results, called result blocks. For example, for a query that contains “Fabrikam sales report”, a query rule might use a taxonomy dictionary to recognize “Fabrikam” as a customer, and then display a result block with pertinent results about Fabrikam from your customer relationship management (CRM) system.
+- Change the ranking of search results. For example, for a query that contains “download toolbox”, a query rule could recognize the word “download” as an action term and boost search results that point to a particular download site on your intranet.
   
+You can create query rules at different levels: for the whole tenant, for a site collection, or for a site. When you create query rules at tenant level, the query rules can be used in all site collections. When you create query rules at site collection level, the rules can be used on all sites in the site collection. When you create query rules at site level, the rules can only be used on that site.
+
 You can configure query rules for one or more result sources, and you can specify a time period for when the query rule is active.
 
 SharePoint Online has both a classic and a modern search experience. In the modern search experience, only query rules that promote an individual result towards the top of search results and that are defined for the default result source have effect. Users can see such promoted results on the All tab on the search results page when they search across all of SharePoint. [Learn more about the differences between the classic and modern search experiences in SharePoint Online](differences-classic-modern-search.md).
-
   
-See also: [Understanding query rules](https://support.office.com/article/8ca2588d-9dc7-45aa-90a4-428d4d695d07)
-
-
+ 
   
-## Create a query rule
+## Promote a search result
 <a name="__toc343764778"> </a>
 
-You can create query rules at different levels: for the whole tenant, for a site collection, or for a site. When you create query rules at tenant level, the query rules can be used in all site collections. When you create query rules at site collection level, the rules can be used on all sites in the site collection. When you create query rules at site level, the rules can only be used on that site.
+You can add several individual promoted results. When there is more than one promoted result, you can specify the relative ranking. 
+
   
 1. Go to the **Manage Query Rules** page for the tenant, for a site collection, or a site: 
     
@@ -97,7 +102,7 @@ You can create query rules at different levels: for the whole tenant, for a site
 ## Create and display a result block
 <a name="__toc343764779"> </a>
 
-A result block is several search results that are displayed as a group. Just as you do to promote a specific result, you can promote a result block when a specified query condition applies. 
+A result block contains a small subset of results that are related to a query in a particular way. Like individual results, you can promote a result block or rank it with other search results. 
   
 When you configure a query condition for a result block, you use  *query variables*. Query variables are like placeholders for values that you don't yet know, when you specify the query. However, when the query's run, this information is available and the system uses it to send the query to the index. For example, {User.Name} stands for the display name of the user who typed in the query. Another one's {searchBoxQuery}, which stands for the query a user typed in a search box. When you use the Query Builder to configure the query, a list of query variables is shown. (See step 3 in the procedure right below.) 
   
@@ -147,7 +152,9 @@ When you configure a query condition for a result block, you use  *query variabl
 ## Change ranked search results by changing the query
 <a name="__toc343764780"> </a>
 
-The ranking model calculates a ranking order of search results. You can change this ranking by promoting or demoting items within the search results. For example, for a query that contains "download toolbox", you can create a query rule that recognizes the word "download" as an action term. Once you've done this, you can change the ranked search results and this will promote the URL of a specific download site on your intranet. You can also dynamically change the sorting order of the search results, based on several variables such as file name extension or specific keywords. When you change ranked search results by changing the query, you'll see that your results are security trimmed and refinable. Moreover, the search results don't show up if the document's no longer there.
+The ranking model calculates a ranking order of search results. You can change this ranking by promoting or demoting items within the search results. For example, for a query that contains "download toolbox", you can create a query rule that recognizes the word "download" as an action term. Once you've done this, you can change the ranked search results and this will promote the URL of a specific download site on your intranet. 
+
+You can also dynamically change the sorting order of the search results, based on several variables such as file name extension or specific keywords. When you change ranked search results by changing the query, you'll see that your results are security trimmed and refinable. Moreover, the search results don't show up if the document's no longer there.
   
 1. In step 9 of the procedure [Create a query rule](manage-query-rules.md#__toc343764778), on the **Add Query Rule** page, in the **Actions** section, click **Change ranked results by changing the query**. The **build your query** dialog box appears 
     

@@ -1,5 +1,5 @@
 ---
-title: "Switch to an Enterprise Search Center in SharePoint Online"
+title: "Switch from a Basic to an Enterprise Search Center in SharePoint Online"
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
@@ -15,7 +15,7 @@ ms.assetid: 7c1a7462-d3d8-4a14-92f4-981b0ade9963
 description: "Learn how to switch from the Basic Search Center to an Enterprise Search Center."
 ---
 
-# Switch to an Enterprise Search Center in SharePoint Online
+# Switch from a Basic to an Enterprise Search Center in SharePoint Online
 
 The Search Center is a classic search experience. It's a site or site collection with a starting page where users enter queries and a search result page where users can drill into and refine search results, or run a new query. It also offers an advanced search page.
 
@@ -25,10 +25,10 @@ As an administrator you can switch to an Enterprise Search Center if your organi
  
   
 ## Add an Enterprise Search Center
-Follow the steps in [Create a site collection](create-site-collection.md) to create a new site collection that uses the Enterprise Search Center template.
+Follow the steps in [Create a site collection](create-site-collection.md) to create a new site collection that uses the **Enterprise Search Center template**.
 
     
-## Convert the Basic Search Center to an Enterprise Search Center
+## Change the Basic Search Center to an Enterprise Search Center
 
 1. [Activate the site collection features](#activate-site-collection-features-for-the-search-center) that the Enterprise Search Center needs.
 2. [Verify that the search results page is set to display links](#verify-which-search-verticals-links-will-display) to the Everything, People, Conversations, and Videos search pages (verticals).
