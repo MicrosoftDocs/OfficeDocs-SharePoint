@@ -3,7 +3,6 @@ title: "Network utilization planning for the OneDrive sync client"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 06/29/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.service: one-drive
@@ -68,6 +67,8 @@ After the initial sync is complete, the network usage will decrease and then lev
   
 > [!NOTE]
 > Network usage varies depending on file types most frequently synced. When users change Office files, only the changes are uploaded or downloaded and not the whole file. For other types of files, the whole file is uploaded or downloaded. You should expect traffic to be higher during regular work hours when users are online and working on files. 
+
+A spike in upload traffic is expected if you deploy the Known Folder Move setting in your organization. If your organization is large and your users have a lot of files in their known folders, make sure you roll out the Group Policy objects slowly to minimize the network impact of uploading files.
   
 ## Control sync throughput
 <a name="ControlSyncThroughput"> </a>
