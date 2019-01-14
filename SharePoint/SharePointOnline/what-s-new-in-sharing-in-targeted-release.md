@@ -36,7 +36,7 @@ The following table shows the differences between sharing with external users wi
  This update also introduces some changes to the way that external sharing is audited. When using the share dialog to share with "specific people" and the recipients are all external users then a secure link will be created and the specified email addresses will be secured, or added, to the link. This appears in audit logs in the following ways: 
   
 > [!NOTE]
-> If the UsertType property of a User object is "guest", the user is outside of your organization but may be an ad-hoc external recipient that does not have a Guest account 
+> If the UserType property of a User object is "guest", the user is outside of your organization but may be an ad-hoc external recipient that does not have a Guest account 
   
 > [!NOTE]
 > Auditing operations related to sharing invitations can still appear in situations when SharePoint items other than files and folders are shared with external users (for example, when sharing a SharePoint site with external users). 

@@ -161,6 +161,24 @@ Help your users store, sync, and share work files in the cloud with OneDrive.
         </div>
         </a>
     </li>
+    <li>
+        <a href="https://resources.techcommunity.microsoft.com/resources/onedrive-adoption">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="/office/media/icons/task-checklist-planning-blue.svg" alt="checklist"/>
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Adoption resources</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
 </ul>
 
 ---
