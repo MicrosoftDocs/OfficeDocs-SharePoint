@@ -66,7 +66,7 @@ SharePoint Farm Administrator account|Personally identifiable account for a Shar
 SharePoint Farm Service Account| Timer Service, Insights, IIS App for CA, SP Web Services System, Security Token Service App Pool|1
 Default content access account|search crawling internal & external sources SP2016|1-n
 Content access accounts|search crawling internal & external sources SP2016 and SP2019|1-n
-Web Application Pool account|All Web Applications sans Central Administration|1
+Web Application Pool account|All Web Applications without Central Administration|1
 SharePoint Service Application Pool account|All Service Applications|1
 Portal Super Reader|Object caching|1
 Portal Super User|Object caching|1
