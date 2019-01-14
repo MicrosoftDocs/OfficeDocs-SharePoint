@@ -38,62 +38,17 @@ When you enable this feature, users will be able to sync the files in a SharePoi
     
 - Automatically transition from the existing OneDrive for Business sync client (Groove.exe)
     
-## Test the feature before you enable it for your organization
-<a name="TestFeature"> </a>
-
-Follow these steps if you want to preview the syncing of SharePoint Online files before enabling the feature for your entire organization.
-  
-> [!IMPORTANT]
-> You only need to follow these steps to set registry keys on computers you want to use to preview the functionality. When you're ready to enable SharePoint sync for your organization, you can remove these registry keys and follow the steps under [Set SharePoint to sync with the OneDrive sync client](let-users-use-new-onedrive-sync-client.md#admincenter). 
-  
- **Test SharePoint Online sync for Windows**
-  
-1. [Download and install the latest OneDrive sync client for Windows](https://go.microsoft.com/fwlink/?LinkId=844652).
-    
-2. Download and open [TeamSiteSyncPreview.reg](https://go.microsoft.com/fwlink/?LinkId=827743) to enable SharePoint document library sync. 
-    
-    > [!NOTE]
-    >  There are known issues when you use the registry keys to preview the feature using Internet Explorer on Windows 7, or on SharePoint sites that use the classic experience. These issues don't affect the feature when you enable it in the SharePoint admin center. Enabling TeamSiteSyncPreview.reg makes the OneDrive sync client update on the Insiders Ring. For info about the build currently released to this ring, see [New OneDrive sync client release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0). 
-  
-3. Restart the sync client:
-    
-  - Right-click the blue cloud icon in your system tray and click **Exit**.
-    
-  - Search for "OneDrive" in the Start menu and choose **OneDrive Desktop app**.
-    
-This preview automatically takes over syncing the libraries that are synced using the previous OneDrive for Business sync client (Groove.exe). For more information about how this works, see [Transition from the previous OneDrive for Business sync client](/onedrive/transition-from-previous-sync-client).
-  
- **Test SharePoint Online sync for Mac**
-  
-1. If you're using the OneDrive Mac Store app, uninstall it. To do this, open Finder and search for "OneDrive.app" or "OneDriveDF.app" from "This Mac." Move all returned items to the trash.
-    
-2. [Install the latest build of OneDrive for Mac](https://go.microsoft.com/fwlink/?linkid=823060).
-    
-3. Exit the OneDrive sync client by clicking on the OneDrive cloud icon in the Menu bar and selecting **Quit OneDrive**.
-    
-4. Open a terminal window by using cmd+space and searching for "Terminal."
-    
-5. Run the following commands:
-    
-     `Defaults write com.microsoft.OneDrive TeamSiteSyncPreview -bool True`
-    
-     `Defaults write com.microsoft.OneDriveUpdate Tier Team`
-    
-     `Killall cfprefsd`
-    
-    > [!NOTE]
-    > You must be an Administrator on your Mac to preview this feature. 
-  
-6. Restart the sync client and log in again if prompted.
-    
+   
 ## Deploy and configure the OneDrive sync client
 <a name="TestFeature"> </a>
 
 To enable users in your organization to sync SharePoint Online team sites with the OneDrive sync client, you first need to deploy the OneDrive sync client to your organization.
   
-See [Deploy the new OneDrive sync client for Windows](/onedrive/deploy-on-windows)
+See [Deploy the new OneDrive sync client using SCCM](/onedrive/deploy-on-windows)
   
 See [Deploy and configure the new OneDrive sync client for Mac](/onedrive/deploy-and-configure-on-macos)
+
+For info about the latest sync client releases, see [New OneDrive sync client release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0).
   
 ## Set SharePoint to sync with the OneDrive sync client
 <a name="admincenter"> </a>
