@@ -95,7 +95,7 @@ If the automatic password change process fails because there is a password misma
     
 3. From the PowerShell command prompt, type the following:
     
-   ```PowerShell
+   ```powershell
    Set-SPManagedAccount [-Identity] <SPManagedAccountPipeBind> -ExistingPassword <SecureString> -UseExistingPassword $true
    ```
 
@@ -128,11 +128,11 @@ If restarting the Timer Service does not resolve the issue, use PowerShell to re
     
 3. From the PowerShell command prompt, type the following:
     
-   ```PowerShell
+   ```powershell
    Repair-SPManagedAccountDeployment
    ```
 
-    For more information, see [Repair-SPManagedAccountDeployment](/powershell/module/sharepoint-server/Repair-SPManagedAccountDeployment?view=sharepoint-ps).
+For more information, see [Repair-SPManagedAccountDeployment](/powershell/module/sharepoint-server/Repair-SPManagedAccountDeployment?view=sharepoint-ps).
     
 If the previous procedure does not resolve a service account provisioning failure, it is likely because the farm encryption key cannot be decrypted. If this is the issue, use PowerShell to update the local server pass phrase to match the pass phrase for the farm.
   
@@ -157,11 +157,11 @@ If the previous procedure does not resolve a service account provisioning failur
     
 3. From the PowerShell command prompt, type the following:
     
-   ```PowerShell
+   ```powershell
    Set-SPPassPhrase -PassPhrase <SecureString> -ConfirmPassPhrase <SecureString> -LocalServerOnly $true
    ```
 
-    For more information, see [Set-SPPassPhrase](/powershell/module/sharepoint-server/Set-SPPassPhrase?view=sharepoint-ps).
+For more information, see [Set-SPPassPhrase](/powershell/module/sharepoint-server/Set-SPPassPhrase?view=sharepoint-ps).
     
 ### Imminent password expiration
 
@@ -191,11 +191,11 @@ If the password is about to expire, but automatic password change has not been c
     
 3. To update the account password to a new automatically generated value, from the PowerShell command prompt, type the following:
     
-   ```PowerShell
+   ```powershell
    Set-SPManagedAccount [-Identity] <SPManagedAccountPipeBind> -AutoGeneratePassword $true
    ```
 
-    For more information, see [Set-SPManagedAccount](/powershell/module/sharepoint-server/Set-SPManagedAccount?view=sharepoint-ps).
+For more information, see [Set-SPManagedAccount](/powershell/module/sharepoint-server/Set-SPManagedAccount?view=sharepoint-ps).
     
 ### Requirement to change the farm account to a different account
 
