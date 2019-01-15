@@ -49,11 +49,11 @@ To ensure that the service application is available for potential future use, co
 
 1. Verify that you meet the following minimum requirements:
     
-  - You must have membership in the **securityadmin** fixed server role on the SQL Server instance 
+   - You must have membership in the **securityadmin** fixed server role on the SQL Server instance 
     
-  - You must have membership in the **db_owner** fixed database role on all databases that are to be updated. 
+   - You must have membership in the **db_owner** fixed database role on all databases that are to be updated. 
     
-  - You must be a member of the Administrators group on the server on which you're running the PowerShell cmdlet.
+   - You must be a member of the Administrators group on the server on which you're running the PowerShell cmdlet.
     
     > [!NOTE]
     > If these permissions aren't satisfied, contact your Setup administrator or SQL Server administrator to request these permissions. 
@@ -66,9 +66,9 @@ To ensure that the service application is available for potential future use, co
     
 4. To retrieve the service application that you want to delete, type the following command: 
     
-  ```
-  $spapp = Get-SPServiceApplication -Name "<Service application display name>"
-  ```
+   ```posershell
+   $spapp = Get-SPServiceApplication -Name "<Service application display name>"
+   ```
 
     Where  _\<Service application display name\>_ is the display name of the service application that you want to delete. 
     
@@ -79,21 +79,21 @@ To ensure that the service application is available for potential future use, co
   
 5. To delete the selected service application, run either of the following commands. In both cases, you are prompted to confirm the deletion. 
     
-  - To delete the selected service application without removing the service application database, type the following command:
+   - To delete the selected service application without removing the service application database, type the following command:
     
-  ```
-  Remove-SPServiceApplication $spapp
-  ```
+   ```powershell
+   Remove-SPServiceApplication $spapp
+   ```
 
-  - To delete the selected service application and also delete the service application database, type the following command:
+   - To delete the selected service application and also delete the service application database, type the following command:
     
-  ```
-  Remove-SPServiceApplication $spapp -RemoveData
-  ```
+   ```powershell
+   Remove-SPServiceApplication $spapp -RemoveData
+   ```
 
 ### Example
 
-```
+```powershell
 $spapp = Get-SPServiceApplication -Name "Contoso BDC Service"
 Remove-SPServiceApplication $spapp -RemoveData
 ```
