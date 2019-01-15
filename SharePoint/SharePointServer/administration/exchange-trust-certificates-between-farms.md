@@ -50,13 +50,13 @@ You can only export and copy certificates by using Windows PowerShell 3.0 or lat
 
 1. On a server that is running SharePoint Server on the consuming farm, verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
-  - Add memberships that are required beyond the minimums above.
+   - Add memberships that are required beyond the minimums above.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
@@ -74,7 +74,7 @@ You can only export and copy certificates by using Windows PowerShell 3.0 or lat
    ```powershell
    $rootCert.Export("Cert") | Set-Content <C:\ConsumingFarmRoot.cer> -Encoding byte
    ```
-   Where  _\<C:\ConsumingFarmRoot.cer\>_ is the path of the root certificate. 
+    Where  _\<C:\ConsumingFarmRoot.cer\>_ is the path of the root certificate. 
     
 ### To export the STS certificate from the consuming farm
 
