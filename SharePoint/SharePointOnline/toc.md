@@ -29,6 +29,7 @@
 ### [Publishing](publishing-sites-classic-to-modern-experience.md)
 ### [Search](get-started-with-modern-search-experience.md)
 ### [Permissions and sharing](sharing-permissions-modern-experience.md)
+### [Performance](modern-experience-performance.md)
 ## [New admin center](get-started-new-admin-center.md)
 ### [What's new in admin center](what-s-new-in-admin-center.md)
 ### [Manage sites in new admin center](manage-sites-in-new-admin-center.md)
