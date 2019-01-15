@@ -39,9 +39,9 @@ If you haven't yet specified the external sharing settings you allow, do that fi
   
   - **Shareable links** (accessible by anyone with the link). This option is only available if your external sharing setting for SharePoint is set to **Anyone**. If the external sharing setting for OneDrive or a specific site collection isn't set to "Anyone," the default link type for OneDrive or the site collection will be "Internal."
     
-  - **Internal links** (accessible only by users within your organization, can be shared internally) 
+  - **Internal links** (accessible only by users within your organization, can be shared internally). If you allow external sharing, users will have to switch the link type every time they share externally. 
     
-  - **Direct links** (accessible only by users who already have permission to access the item) 
+  - **Direct links** (accessible only by the people specified when the user creates the link). Select this type if most of the time users will share with guests (who will need to authenticate) or with a small group of individuals in your organization.  
     
 3. Click **Save**.
     
