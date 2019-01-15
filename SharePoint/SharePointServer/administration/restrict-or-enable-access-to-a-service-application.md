@@ -149,7 +149,7 @@ After you have started PowerShell, the remaining steps to restrict access to a s
 
 1. At the PowerShell command prompt, type the following command to retrieve the service account (that is, the application pool identity account) of a web application: 
     
-   ```
+   ```powershell
    $webapp = Get-SPWebApplication <http://WebApplication>
    $webApp.ApplicationPool.UserName
    ```
@@ -160,7 +160,7 @@ After you have started PowerShell, the remaining steps to restrict access to a s
     
 2. To create a new claims principal, type the following command:
     
-   ```
+   ```powershell
    $principal = New-SPClaimsPrincipal <ServiceAccount> -IdentityType WindowsSamAccountName
    ```
 
@@ -171,7 +171,7 @@ After you have started PowerShell, the remaining steps to restrict access to a s
 
 1. To retrieve the security object of the service application, type the following commands. The  _$security_ variable will store the service application security object. 
     
-   ```
+   ```powershell
    $spapp = Get-SPServiceApplication -Name "<ServiceApplicationDisplayName>"
    $spguid = $spapp.id
    $security = Get-SPServiceApplicationSecurity $spguid
@@ -182,13 +182,13 @@ After you have started PowerShell, the remaining steps to restrict access to a s
     > [!IMPORTANT]
     > You must enclose the display name in quotation marks, and it must exactly match the service application display name. This includes capitalization. If you have more than one service application that has the same display name (we do not recommend this), you can run the **Get-SPServiceApplication** cmdlet without arguments to view all service applications. You can then identify the service application directly by its GUID.
 
-   ```
+   ```powershell
    Get-SpServiceApplication
    ```
 
    All service applications are listed. 
 
-   ```
+   ```powershell
    $spapp = Get-SpserviceApplication -Identity <GUID>
    $spguid = $spapp.id
    ```
@@ -200,7 +200,7 @@ After you have started PowerShell, the remaining steps to restrict access to a s
 
 1. The first step to update the service application security object is to add the new claims principal  _$principal_ to the service application security object  _$security_. To do this, type the following command: 
     
-   ```
+   ```powershell
    Grant-SPObjectSecurity $security $principal -Rights "<Rights>"
    ```
 
@@ -208,20 +208,20 @@ After you have started PowerShell, the remaining steps to restrict access to a s
     
    If you do not want to grant Full Control permissions, and you do not know what permissions can be granted to the service application, you can run the following commands to return the available permissions strings:
 
-   ```
+   ```powershell
    $rightslist = Get-SPServiceApplicationSecurity $spapp
    $rightslist.NamedAccessRights
    ```
 
 2. To remove the local farm ID (that is stored in the  _$farmID_ variable) from the service application security object  _$security_, type the following command:
     
-   ```
+   ```powershell
    Revoke-SPObjectSecurity $security $farmID
    ```
 
 3. To assign the updated  _$security_ security object to the service application and confirm that the security object for the service application is appropriately updated, type the following commands: 
     
-   ```
+   ```powershell
    Set-SPServiceApplicationSecurity $spapp -ObjectSecurity $security (Get-SPServiceApplicationSecurity $spapp).AccessRules
    ```
 
@@ -239,7 +239,7 @@ You can restore farm-wide access to a service application by adding the local fa
     
 2. The following command retrieves the local farm ID, stores it in the  _$farmID_ variable, and displays the ID at the command prompt: 
     
-   ```
+   ```powershell
    $farmID = Get-SPFarm | select id
    ```
 
@@ -247,7 +247,7 @@ You can restore farm-wide access to a service application by adding the local fa
     
    If you want to restore farm-wide access to the service application by using PowerShell, type the following additional commands at the PowerShell command prompt. You'll use the retrieved information in the following procedure.
     
-   ```
+   ```powershell
    $claimProvider = (Get-SPClaimProvider System).ClaimProvider 
    $principal = New-SPClaimsPrincipal -ClaimType "http://schemas.microsoft.com/sharepoint/2009/08/claims/farmid" -ClaimProvider $claimProvider -ClaimValue $farmid
    ```
@@ -268,7 +268,7 @@ You can restore farm-wide access to a service application by adding the local fa
     
 2. To restore the retrieved local farm ID to the service application security object $security, type the following commands:
     
-   ```
+   ```powershell
    $spapp = Get-SPServiceApplication -Name "<ServiceApplicationDisplayName>"
    $spguid = $spapp.id
    $security = Get-SPServiceApplicationSecurity $spguid
@@ -286,7 +286,7 @@ You can restore farm-wide access to a service application by adding the local fa
 
 In the following example, the administrator wants to restrict access to the "Contoso BDC" service application to the http://contoso/hawaii web application, which is managed by the service account "contoso\jane." By adding "contoso\jane" and removing the local farm service account from the service application, "Contoso BDC" is restricted to only those web applications that are managed by the service account "contoso\jane" - in this case, http://contoso/hawaii.
   
-```
+```powershell
 $farmid = Get-SPFarm | select id
 $claimProvider = (Get-SPClaimProvider System).ClaimProvider 
 $farmappId = New-SPClaimsPrincipal -ClaimType "http://schemas.microsoft.com/sharepoint/2009/08/claims/farmid" -ClaimProvider $claimProvider -ClaimValue $farmid 
@@ -304,7 +304,7 @@ Set-SPServiceApplicationSecurity $spguid -ObjectSecurity $security
 
 In the following example, access to the service application "Contoso BDC" is restored to all web applications in the local farm. 
   
-```
+```powershell
 $farmid = Get-SPFarm | select id
 $claimProvider = (Get-SPClaimProvider System).ClaimProvider 
 $farmappId = New-SPClaimsPrincipal -ClaimType "http://schemas.microsoft.com/sharepoint/2009/08/claims/farmid" -ClaimProvider $claimProvider -ClaimValue $farmid 
