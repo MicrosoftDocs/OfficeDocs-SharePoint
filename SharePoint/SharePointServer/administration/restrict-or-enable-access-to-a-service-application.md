@@ -154,7 +154,7 @@ After you have started PowerShell, the remaining steps to restrict access to a s
    $webApp.ApplicationPool.UserName
    ```
 
-   Where  _\<http://WebApplication\>_ is the web application URL. 
+   Where _\<http://WebApplication\>_ is the web application URL. 
     
    The web application service account name displays at the command prompt.
     
@@ -164,7 +164,7 @@ After you have started PowerShell, the remaining steps to restrict access to a s
    $principal = New-SPClaimsPrincipal <ServiceAccount> -IdentityType WindowsSamAccountName
    ```
 
-   Where  _\<ServiceAccount\>_ is the user name (in the form of jane@contoso.com or contoso\jane) that was retrieved by running the previous command. The  _$principal_ variable will contain the new claims principal. 
+   Where _\<ServiceAccount\>_ is the user name (in the form of jane@contoso.com or contoso\jane) that was retrieved by running the previous command. The  _$principal_ variable will contain the new claims principal. 
     
 ### To retrieve the security object of the service application
 <a name="Section2WPS"> </a>
@@ -177,7 +177,7 @@ After you have started PowerShell, the remaining steps to restrict access to a s
    $security = Get-SPServiceApplicationSecurity $spguid
    ```
 
-   Where  _\<ServiceApplicationDisplayName\>_is the display name of the service application.
+   Where _\<ServiceApplicationDisplayName\>_ is the display name of the service application.
     
     > [!IMPORTANT]
     > You must enclose the display name in quotation marks, and it must exactly match the service application display name. This includes capitalization. If you have more than one service application that has the same display name (we do not recommend this), you can run the **Get-SPServiceApplication** cmdlet without arguments to view all service applications. You can then identify the service application directly by its GUID.
@@ -193,7 +193,7 @@ After you have started PowerShell, the remaining steps to restrict access to a s
    $spguid = $spapp.id
    ```
 
-   Where  _\<GUID\>_ is the GUID for the service application for which you want to update permissions. 
+   Where _\<GUID\>_ is the GUID for the service application for which you want to update permissions. 
     
 ### To update the service application security object by using the preferred permissions
 <a name="Section2WPS"> </a>
@@ -204,7 +204,7 @@ After you have started PowerShell, the remaining steps to restrict access to a s
    Grant-SPObjectSecurity $security $principal -Rights "<Rights>"
    ```
 
-   Where  _\<Rights\>_ is the permissions that you want to grant. Typically, this will be Full Control. The available permissions can vary between service applications. 
+   Where _\<Rights\>_ is the permissions that you want to grant. Typically, this will be Full Control. The available permissions can vary between service applications. 
     
    If you do not want to grant Full Control permissions, and you do not know what permissions can be granted to the service application, you can run the following commands to return the available permissions strings:
 
@@ -276,7 +276,7 @@ You can restore farm-wide access to a service application by adding the local fa
    Set-SPServiceApplicationSecurity $spguid -ObjectSecurity $security
    ```
 
-   Where  _\<ServiceApplicationDisplayName\>_is the display name of the service application.
+   Where _\<ServiceApplicationDisplayName\>_ is the display name of the service application.
     
     > [!IMPORTANT]
     > You must enclose the display name in quotation marks, and it must exactly match the service application display name. This includes capitalization. If you have more than one service application that has the same display name (we do not recommend this), you can run the **Get-SPServiceApplication** cmdlet without arguments to view all service applications. You can then identify the service application directly by its GUID. 
