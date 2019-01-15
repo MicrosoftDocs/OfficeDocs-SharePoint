@@ -1,5 +1,5 @@
 ---
-title: "SharePoint Server 2016 hybrid configuration roadmaps"
+title: "SharePoint Server hybrid configuration roadmaps"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
@@ -16,7 +16,7 @@ ms.assetid: feedf4f0-0e18-4592-983b-8d769830bcac
 description: "Follow these roadmaps to set up your chosen SharePoint Server hybrid solution."
 ---
 
-# SharePoint Server 2016 hybrid configuration roadmaps
+# SharePoint Server hybrid configuration roadmaps
 
 [!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)] 
   
