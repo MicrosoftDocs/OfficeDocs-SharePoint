@@ -3,7 +3,6 @@ title: "Delete a service application in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 3/3/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -55,10 +54,10 @@ To ensure that the service application is available for potential future use, co
     
    - You must be a member of the Administrators group on the server on which you're running the PowerShell cmdlet.
     
-    > [!NOTE]
-    > If these permissions aren't satisfied, contact your Setup administrator or SQL Server administrator to request these permissions. 
+   > [!NOTE]
+   > If these permissions aren't satisfied, contact your Setup administrator or SQL Server administrator to request these permissions. 
   
-    For additional information about PowerShell permissions, see [Permissions](/powershell/module/sharepoint-server/?view=sharepoint-ps#section3) and [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps)
+   For additional information about PowerShell permissions, see [Permissions](/powershell/module/sharepoint-server/?view=sharepoint-ps#section3) and [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps)
     
 2. Start the SharePoint Management Shell.
     
@@ -66,16 +65,16 @@ To ensure that the service application is available for potential future use, co
     
 4. To retrieve the service application that you want to delete, type the following command: 
     
-   ```posershell
+   ```powershell
    $spapp = Get-SPServiceApplication -Name "<Service application display name>"
    ```
 
-    Where  _\<Service application display name\>_ is the display name of the service application that you want to delete. 
+   Where  _\<Service application display name\>_ is the display name of the service application that you want to delete. 
     
-    The service application information will be stored in the **$spapp** variable. 
+   The service application information will be stored in the **$spapp** variable. 
     
-    > [!IMPORTANT]
-    > You have to type the display name within quotation marks, and you have to type the exact service application display name. This includes capitalization. We recommend that you don't create multiple service applications that have the same display name. If you do have this situation, you can use the **Get-SPServiceApplication** cmdlet to list all service applications. You can then use the service application GUID and the **-Identity** parameter to specify the service application that you want to delete. For more information, see [Get-SPServiceApplication](/powershell/module/sharepoint-server/Get-SPServiceApplication?view=sharepoint-ps). 
+   > [!IMPORTANT]
+   > You have to type the display name within quotation marks, and you have to type the exact service application display name. This includes capitalization. We recommend that you don't create multiple service applications that have the same display name. If you do have this situation, you can use the **Get-SPServiceApplication** cmdlet to list all service applications. You can then use the service application GUID and the **-Identity** parameter to specify the service application that you want to delete. For more information, see [Get-SPServiceApplication](/powershell/module/sharepoint-server/Get-SPServiceApplication?view=sharepoint-ps). 
   
 5. To delete the selected service application, run either of the following commands. In both cases, you are prompted to confirm the deletion. 
     
