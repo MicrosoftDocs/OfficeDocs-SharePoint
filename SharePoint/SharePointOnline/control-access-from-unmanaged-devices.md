@@ -41,65 +41,67 @@ Limiting access allows users to remain productive while addressing the risk of a
   
 ## Block access using the new SharePoint admin center 
 
-1. Sign in to Office 365 as a global admin or SharePoint admin. 
+1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
+    
+    > [!NOTE]
+    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
+    
+2. In the left pane, select **Admin centers** \> **SharePoint**. 
 
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.)  
+3. In the classic SharePoint admin center, select **Try it now** to open the new SharePoint admin center preview. 
 
-3. In the left pane, choose **Admin centers** \> **SharePoint**. 
+4. Select **Access control** in the left pane, and then select **Unmanaged devices**. 
 
-4. In the classic SharePoint admin center, click **Try it now** to open the new SharePoint admin center preview. 
-
-5. Click **Access control**, and then select **Unmanaged devices**. 
-
-6. Select **Block access**, and then click **Save**.   
+5. Select **Block access**, and then select **Save**.   
 
     ![The Unmanaged devices pane in the new SharePoint admin center](media/unmanaged-devices-block-access.png) 
 
-7. Go to the Azure AD admin center, and click **Azure Active Directory** in the left pane. 
+6. Go to the Azure AD admin center, and select **Azure Active Directory** in the left pane. 
 
-8. Under **Security**, click **Conditional Access**. 
+7. Under **Security**, select **Conditional Access**. 
 
-9. Select the policy **[SharePoint admin center]Use app-enforced Restrictions for browser access**. 
+8. Select the policy **[SharePoint admin center]Use app-enforced Restrictions for browser access**. 
 
-10. Click **Conditions**, and then select **Client apps**. "Browser" should already be selected. Select **Mobile apps and desktop clients**, select **Modern authentication clients** and **Other clients**, and then click **Done** twice. 
+9. Select **Conditions**, and then select **Client apps**. "Browser" should already be selected. Select **Mobile apps and desktop clients**, select **Modern authentication clients** and **Other clients**, and then select **Done** twice. 
 
-11. Make sure that under **Session**, **Use app enforced restrictions** appears, and make sure that **Enable policy** is **On**. 
+10. Make sure that under **Session**, **Use app enforced restrictions** appears, and make sure that **Enable policy** is **On**. 
 
-12. Click **Save**. 
+11. Select **Save**. 
 
 > [!NOTE] 
 > It can take 5-10 minutes for the policy to take effect. It won't take effect for users who are already signed in from unmanaged devices. 
 
 > [!IMPORTANT] 
-> If you block or limit access from unmanaged devices, we recommend also blocking access from apps that don't use modern authentication. Some third-party apps and versions of Office prior to Office 2013 don't use modern authentication and can't enforce device-based restrictions. This means they allow users to bypass conditional access policies that you configure in Azure. In the new SharePoint admin center preview, on the Access control page, click **Apps that don't use modern authentication**, click **Block access**, and then click **Save**.  
+> If you block or limit access from unmanaged devices, we recommend also blocking access from apps that don't use modern authentication. Some third-party apps and versions of Office prior to Office 2013 don't use modern authentication and can't enforce device-based restrictions. This means they allow users to bypass conditional access policies that you configure in Azure. In the new SharePoint admin center preview, on the Access control page, select **Apps that don't use modern authentication**, select **Block access**, and then select **Save**.  
 
 ## Block access using the classic SharePoint admin center
 
-1. Sign in to Office 365 as a global admin or SharePoint admin.
+1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+    > [!NOTE]
+    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-3. In the left pane, choose **Admin centers** \> **SharePoint**.
+2. In the left pane, select **Admin centers** \> **SharePoint**. 
     
-4. In the SharePoint admin center, click **access control**.
+3. In the classic SharePoint admin center, select **access control** in the left pane.
     
-5. Select **Block Access**.
+4. Select **Block Access**.
     
-6. Click **OK**.
+5. Select **OK**.
     
     ![The block access setting on the access control page](media/ea0ee472-6fde-4d2d-bc7b-9d3b9eee0d96.PNG)
   
-7. Go to the Azure AD admin center, and click **Azure Active Directory** in the left pane. 
+6. Go to the Azure AD admin center, and select **Azure Active Directory** in the left pane. 
 
-8. Under **Security**, click **Conditional Access**. 
+7. Under **Security**, select **Conditional Access**. 
 
-9. Select the policy **[SharePoint admin center]Use app-enforced Restrictions for browser access**. 
+8. Select the policy **[SharePoint admin center]Use app-enforced Restrictions for browser access**. 
 
-10. Click **Conditions**, and then select **Client apps**. "Browser" should already be selected. Select **Mobile apps and desktop clients**, select **Modern authentication clients** and **Other clients**, and then click **Done** twice. 
+9. Select **Conditions**, and then select **Client apps**. "Browser" should already be selected. Select **Mobile apps and desktop clients**, select **Modern authentication clients** and **Other clients**, and then select **Done** twice. 
 
-11. Make sure that under **Session**, **Use app enforced restrictions** appears, and make sure that **Enable policy** is **On**. 
+10. Make sure that under **Session**, **Use app enforced restrictions** appears, and make sure that **Enable policy** is **On**. 
 
-12. Click **Save**.
+11. Select **Save**.
     
 > [!NOTE]
 > It can take 5-10 minutes for the policy to take effect. It won't take effect for users who are already signed in from unmanaged devices. 
@@ -109,43 +111,45 @@ Limiting access allows users to remain productive while addressing the risk of a
 
 ## Limit access using the new SharePoint admin center 
 
-1. Sign in to Office 365 as a global admin or SharePoint admin. 
+1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
+    
+    > [!NOTE]
+    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
+    
+2. In the left pane, select **Admin centers** \> **SharePoint**. 
 
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.)  
+3. In the classic SharePoint admin center, select **Try it now** to open the new SharePoint admin center preview. 
 
-3. In the left pane, choose **Admin centers** \> **SharePoint**. 
+4. Select **Access control**, and then select **Unmanaged devices**. 
 
-4. In the classic SharePoint admin center, click **Try it now** to open the new SharePoint admin center preview. 
-
-5. Click **Access control**, and then select **Unmanaged devices**. 
-
-6. Select **Allow limited, web-only access**, and then click **Save**.   
+5. Select **Allow limited, web-only access**, and then select **Save**.   
 
     ![The Unmanaged devices pane in the new SharePoint admin center](media/unmanaged-devices-limit-access.png) 
 
 > [!IMPORTANT] 
-> If you block or limit access from unmanaged devices, we recommend also blocking access from apps that don't use modern authentication. Some third-party apps and versions of Office prior to Office 2013 don't use modern authentication and can't enforce device-based restrictions. This means they allow users to bypass conditional access policies that you configure in Azure. In the new SharePoint admin center preview, on the Access control page, click **Apps that don't use modern authentication**, click **Block access**, and then click **Save**.  
+> If you block or limit access from unmanaged devices, we recommend also blocking access from apps that don't use modern authentication. Some third-party apps and versions of Office prior to Office 2013 don't use modern authentication and can't enforce device-based restrictions. This means they allow users to bypass conditional access policies that you configure in Azure. In the new SharePoint admin center preview, on the Access control page, select **Apps that don't use modern authentication**, select **Block access**, and then select **Save**.  
 
 ## Limit access using the classic SharePoint admin center
 
-1. Sign in to Office 365 as a global admin or SharePoint admin.
+1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+    > [!NOTE]
+    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-3. In the left pane, choose **Admin centers** \> **SharePoint**.
+2. In the left pane, select **Admin centers** \> **SharePoint**. If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
     
-4. In the SharePoint admin center, click **access control**.
+3. In the classic SharePoint admin center, select **access control** in the left pane.
     
-5. Select **Allow limited, web-only access**.
+4. Select **Allow limited, web-only access**.
     
-6. Click **OK**.
+5. Select **OK**.
     
     ![The limited access setting on the access control page](media/1ac2b9f4-32eb-4f21-85f1-e971c50f8b23.png)
   
     > [!NOTE]
     > It can take 5-10 minutes for the policies to take effect. They won't take effect for users who are already signed in from unmanaged devices. <br>By default, this policy allows users to view and edit files in their web browser. To change this, see [Advanced configurations](control-access-from-unmanaged-devices.md#advanced). 
   
-If you go to the Azure AD admin center and click **Conditional access**, you can see that two policies were created by the SharePoint admin center. By default, the policy applies to all users. To apply it to only specific security groups, make changes under **Users and groups**. Be careful not to create multiple conditional access polices in the Azure AD admin center that conflict with each other. You can disable the policies created by the SharePoint admin center and then manually create the conditional access policies you need.
+If you go to the Azure AD admin center and slect **Conditional access**, you can see that two policies were created by the SharePoint admin center. By default, the policy applies to all users. To apply it to only specific security groups, make changes under **Users and groups**. Be careful not to create multiple conditional access polices in the Azure AD admin center that conflict with each other. You can disable the policies created by the SharePoint admin center and then manually create the conditional access policies you need.
   
 ![Creating two policies in the Azure AD admin center to limit access](media/54c5106a-fd19-49b9-a997-4295e9f788be.png)
   
@@ -164,7 +168,7 @@ If you go to the Azure AD admin center and click **Conditional access**, you can
 
 To block or limit access to specific sites, you must set the organization-wide policy to "Allow full access from desktop apps, mobile apps, and the web." Then follow these steps to manually create a policy in the Azure AD admin center and run PowerShell cmdlets.
   
-1. In the Azure AD admin center, select **Conditional access**, and then click **Add**.
+1. In the Azure AD admin center, select **Conditional access**, and then select **Add**.
     
 2. Under **Users and groups**, select whether you want the policy to apply to all users or only specific security groups.
     

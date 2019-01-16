@@ -165,7 +165,7 @@ If a site collection is close to exceeding its storage limits and you want to in
     
 3. At the Microsoft PowerShell command prompt, type the following command:
     
-   ```
+   ```powershell
    Set-SPSite -Identity "<Site>" -QuotaTemplate "<Template>"
    ```
 
@@ -218,7 +218,7 @@ Use these procedures to change the storage limits for a site collection.
     
 3. At the Microsoft PowerShell command prompt, type the following command:
     
-   ```
+   ```powershell
    Set-SPSite -Identity "<Site>" -MaxSize <Limit>
    ```
 
