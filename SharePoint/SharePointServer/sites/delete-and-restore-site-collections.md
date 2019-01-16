@@ -103,7 +103,7 @@ After you perform this procedure, the site collection and all of its content and
     
 3. At the PowerShell command prompt, type the following command, and then press ENTER:
     
-   ```
+   ```powershell
    Remove-SPSite -Identity "<URL>" -GradualDelete
    ```
 

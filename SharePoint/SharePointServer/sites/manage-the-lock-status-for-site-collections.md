@@ -75,7 +75,7 @@ Use this procedure to lock or unlock a site collection by using PowerShell.
     
 3. At the PowerShell command prompt, type the following command, and then press **ENTER**:
     
-   ```
+   ```powershell
    Set-SPSite -Identity "<SiteCollection>" -LockState "<State>"
    ```
 
