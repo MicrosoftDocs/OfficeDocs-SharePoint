@@ -105,8 +105,7 @@ Use this procedure to reconfigure the memory allocation of the cache size of the
   Get-AFCacheHostConfiguration -ComputerName $Env:ComputerName -CachePort "22233"
   
   ```
-
-    Where:
+Where:
     
   -  _ComputerName_ is the computer name of the server that you are running the SharePoint Management Shell cmdlet on. 
     
@@ -117,8 +116,7 @@ Use this procedure to reconfigure the memory allocation of the cache size of the
   ```
   Update-SPDistributedCacheSize -CacheSizeInMB CacheSize
   ```
-
-    Where:
+Where:
     
   -  _CacheSize_ is the cache size's memory allocation assignment in MB. In the previous example, the cache size was calculated at 7168 MB for a server with 16 GB of total memory. 
     
@@ -206,7 +204,7 @@ Use the following PowerShell script to perform a graceful shutdown of the Distri
   }
   ```
 
-    Where  _sp2016App.contoso.com_ is the computer domain name of Distributed Cache server you use. 
+Where  _sp2016App.contoso.com_ is the computer domain name of Distributed Cache server you use. 
     
 3. Open the SharePoint Management Shell
     
@@ -218,7 +216,7 @@ Use the following PowerShell script to perform a graceful shutdown of the Distri
   ./GracefulShutdown.ps1
   ```
 
-    For additional information about PowerShell scripts and .ps1 files, see [Running Windows PowerShell Scripts](/previous-versions/windows/it-pro/windows-powershell-1.0/ee176949(v=technet.10)).
+For additional information about PowerShell scripts and .ps1 files, see [Running Windows PowerShell Scripts](/previous-versions/windows/it-pro/windows-powershell-1.0/ee176949(v=technet.10)).
     
 ## Change the service account
 <a name="changesvcacct"> </a>
@@ -239,7 +237,7 @@ When the server farm is first configured, the server farm account is set as the 
   $cacheService.ProcessIdentity.Deploy()
   ```
 
-    Where  _Domain_name\user_name_ is the domain name and user name of the managed account. 
+Where  _Domain_name\user_name_ is the domain name and user name of the SharePoint managed account. 
     
 ## Fine-tune the Distributed Cache service by using a PowerShell script
 <a name="finetune"> </a>
@@ -453,7 +451,7 @@ The Distributed Cache service setting for **MaxConnectionsToServer** is often tu
   ./MaxConnections.ps1
   ```
 
-    For more information, see [Best Practices for using Windows Azure Cache/Windows Server Appfabric Cache](http://go.microsoft.com/fwlink/?LinkID=614969&amp;clcid=0x409) and [Application Configuration Settings (Windows Server AppFabric Caching)](http://go.microsoft.com/fwlink/?LinkID=614970&amp;clcid=0x409). For additional information about Windows PowerShell scripts and .ps1 files, see [Running Windows PowerShell Scripts](/previous-versions/windows/it-pro/windows-powershell-1.0/ee176949(v=technet.10)).
+For more information, see [Best Practices for using Windows Azure Cache/Windows Server Appfabric Cache](http://go.microsoft.com/fwlink/?LinkID=614969&amp;clcid=0x409) and [Application Configuration Settings (Windows Server AppFabric Caching)](http://go.microsoft.com/fwlink/?LinkID=614970&amp;clcid=0x409). For additional information about Windows PowerShell scripts and .ps1 files, see [Running Windows PowerShell Scripts](/previous-versions/windows/it-pro/windows-powershell-1.0/ee176949(v=technet.10)).
     
 ## Repair a cache host
 <a name="repair"> </a>
@@ -475,13 +473,9 @@ On the non-functioning Distributed Cache host, use the following procedures to r
     
   ```
   $instanceName ="SPDistributedCacheService Name=AppFabricCachingService"
-  ```
-
-  ```
+ 
   $serviceInstance = Get-SPServiceInstance | ? {($_.service.tostring()) -eq $instanceName -and ($_.server.name) -eq $env:computername}
-  ```
 
-  ```
   If($serviceInstance -ne $null)
   {
   $serviceInstance.Delete()
@@ -490,7 +484,55 @@ On the non-functioning Distributed Cache host, use the following procedures to r
   ```
 
   - After the Distributed Cache Service has been manually deleted, run step 2 again.
-    
+
+## SharePoint 2019
+
+In some rare cases, right after the creation of a SharePoint 2019 farm, the Distributed Cache service could crash producing:
+- .NET Runtime Error with Event Id 1026
+- Application Error with Event Id 1000
+
+And none of the other solutions are able to fix the service. In this case try to :
+
+  1. stop the cache cluster
+  2. export the cache cluster settings
+  2. edit the settings by changing the partition count
+  3. import the settings 
+  4. start and stop the service again
+  5. revert back the configuration and start the cluster
+
+with following scripts:
+
+  ```
+  Use-CacheCluster
+
+  # Stop the Caching Services on all cache hosts in the cluster.
+  Stop-CacheCluster
+
+  # Export existing cache cluster configuration
+  Export-CacheClusterConfig -File c:\temp\appfabconfig.txt
+  
+  # make a copy of "appfabconfig.txt" and name it "appfabconfig2.txt"
+  # Edit appfabconfig2.txt
+  # Change <caches partitionCount="256" to "128"
+
+  # Import the changes.
+  Import-CacheClusterConfig c:\temp\appfabconfig2.txt
+
+  # Start the Caching Services on all cache hosts in the cluster.
+  Start-CacheCluster
+  
+  # Stop the Caching Services on all cache hosts in the cluster.
+  Stop-CacheCluster
+
+  # Import the original settings
+  Import-CacheClusterConfig c:\temp\appfabconfig.txt
+
+  # Start the Caching Services on all cache hosts in the cluster.
+  Start-CacheCluster
+  ```
+  
+This should fix it. Reference [Distributed Cache crashing under SharePoint 2019 running on WS2019](https://techcommunity.microsoft.com/t5/SharePoint/Distributed-Cache-crashing-under-SharePoint-2019-running-on/m-p/319683)
+
 ## See also
 <a name="repair"> </a>
 
