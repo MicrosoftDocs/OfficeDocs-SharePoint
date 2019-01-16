@@ -32,7 +32,7 @@ As a global or SharePoint admin in Office 365, you can allow custom script as a 
 By default, script is allowed on sites that admins create. It is not allowed on OneDrive, on sites users create themselves, and on the root site for your organization. You'll probably want to limit the amount of script you allow for security reasons. For more info about the security implications of custom script, see [Security considerations of allowing custom script](security-considerations-of-allowing-custom-script.md).
   
 > [!IMPORTANT]
-> If SharePoint Online was set up for your organization before 2015, your custom script settings might still be set to "Not Configured" even though in the SharePoint admin center they appear to be set to prevent users from running custom script. In this case, users won't be able to copy items between SharePoint sites and between OneDrive and SharePoint. On the settings page of the SharePoint admin center, click **OK** to accept the custom script settings as they appear and enable cross-site copying. For more info about copying items between OneDrive and SharePoint, see [Copy files and folders between OneDrive for Business and SharePoint sites](https://support.office.com/article/67a6323e-7fd4-4254-99a8-35613492a82f). 
+> If SharePoint Online was set up for your organization before 2015, your custom script settings might still be set to "Not Configured" even though in the SharePoint admin center they appear to be set to prevent users from running custom script. In this case, users won't be able to copy items between SharePoint sites and between OneDrive and SharePoint. On the settings page of the SharePoint admin center, select **OK** to accept the custom script settings as they appear and enable cross-site copying. For more info about copying items between OneDrive and SharePoint, see [Copy files and folders between OneDrive for Business and SharePoint sites](https://support.office.com/article/67a6323e-7fd4-4254-99a8-35613492a82f). 
   
 ## To allow custom script on OneDrive or user-created sites
 <a name="__top"> </a>
@@ -42,15 +42,16 @@ In the SharePoint admin center, you can choose to allow users to run custom scri
 > [!CAUTION]
 > Before you allow custom script on sites in your organization, make sure you understand the [security implications](security-considerations-of-allowing-custom-script.md). 
   
-1. Sign in to Office 365 as a global admin or SharePoint admin.
+1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+    > [!NOTE]
+    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-3. In the left pane, choose **Admin centers** \> **SharePoint**.
+2. In the left pane, select **Admin centers** \> **SharePoint**. If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
     
-4. Select **settings**.
+3. Select **settings**.
     
-5. Under **Custom Script** choose: 
+4. Under **Custom Script** choose: 
     
   - **Allow users to run custom script on personal sites**.
     
@@ -61,7 +62,7 @@ In the SharePoint admin center, you can choose to allow users to run custom scri
     > [!NOTE]
     > Because self-service site creation points to your organization's root site collection by default, changing the Custom Script setting allows custom script on your organization's root site collection. For info about changing where sites are created, see [Manage site creation in SharePoint Online](manage-site-creation.md). 
   
-6. Click **OK**. It can take up to 24 hours for the change to take effect.
+5. Select **OK**. It can take up to 24 hours for the change to take effect.
     
 ## To allow custom script on other SharePoint site collections
 <a name="__top"> </a>
