@@ -163,7 +163,7 @@ To help you with site and site collection planning, the Microsoft PowerShell com
     
 3. At the PowerShell command prompt, type the following command:
     
-   ```
+   ```powershell
    Get-SPWebApplication -IncludeCentralAdministration | Get-SPSite -Limit All | Get-SPWeb -Limit All | Select-Object URL, Title, Description, ParentWeb, AssociatedOwnerGroup, SiteAdministrators, WebTemplate, UIVersion, QuickLaunchEnabled, TreeViewEnabled, Language, Locale, Author, HasUniquePerm | Sort URL | export-csv <file location and name.csv>
    ```
 

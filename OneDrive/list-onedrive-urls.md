@@ -24,18 +24,19 @@ This article is for global and SharePoint admins in Office 365.
   
 ## View the list of OneDrive users and URLs in your organization
 
-1. Sign in to Office 365 as a global admin or SharePoint admin.
+1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+    > [!NOTE]
+    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-3. In the left pane, select **Reports**, and then select **Usage**.
+2. In the left pane, select **Reports**, and then select **Usage**.
     
-4. Click the **OneDrive files** tile, or click **Select a report**, and then click **OneDrive usage**.
+3. Select the **OneDrive files** tile, or select **Select a report** > **OneDrive usage**.
 
-> [!NOTE]
-> If you see GUIDs in the report instead of URLs and names, in the left pane, choose **Settings** > **Services & add-ins**, and then click **Reports**. Clear the box **Display anonymous identifiers instead of names in all reports**.
+    > [!NOTE]
+    > If you see GUIDs in the report instead of URLs and names, in the left pane, select **Settings** > **Services & add-ins**, and then select **Reports**. Clear the box **Display anonymous identifiers instead of names in all reports**.
     
-5. In the upper right of the table at the bottom, click **Export**.
+4. In the upper right of the table at the bottom, select **Export**.
     
 ## Create a list of all the OneDrive URLs in your organization using Microsoft PowerShell
 <a name="BKMK_Step2"> </a>
