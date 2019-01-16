@@ -112,7 +112,10 @@ One of the following server operating systems:
 - Windows Server 2016 Standard or Datacenter (Desktop Experience)
     
 - Windows Server 2019 Standard or Datacenter (Desktop Experience)
-    
+
+> [!NOTE]
+> We don't support installing or upgrading SharePoint 2019 RTM on a server that previously hosted a prerelease version of SharePoint. A new server build is required to host SharePoint 2019 RTM.
+
 > [!NOTE]
 > We don't support installing the Office 2019 client and SharePoint Server 2019 on the same computer. 
 
