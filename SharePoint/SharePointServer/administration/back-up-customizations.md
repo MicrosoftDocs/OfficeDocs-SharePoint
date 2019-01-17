@@ -120,7 +120,7 @@ We recommend that you keep a backup of the original .wsp file and the source cod
     
 3. At the PowerShell command prompt, type the following command to back up all of the solutions in the farm. To back up a single solution, add the name of the solution to the item path "farm\solutions".
     
-   ```
+   ```powershell
    Backup-SPFarm -backupmethod full -directory <UNC location> -item "farm\solutions"
    ```
 

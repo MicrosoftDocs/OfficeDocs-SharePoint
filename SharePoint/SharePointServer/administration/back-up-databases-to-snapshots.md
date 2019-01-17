@@ -51,7 +51,7 @@ If you want to back up databases to snapshots, you must use SQL Server tools. Th
     
 5. Copy the following text, and then paste it to the query pane.
     
-   ```
+   ```sql
    CREATE DATABASE <snapshot name>
    ON
    (
