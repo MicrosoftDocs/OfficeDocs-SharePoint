@@ -105,8 +105,7 @@ Use this procedure to reconfigure the memory allocation of the cache size of the
   Get-AFCacheHostConfiguration -ComputerName $Env:ComputerName -CachePort "22233"
   
   ```
-
-    Where:
+Where:
     
   -  _ComputerName_ is the computer name of the server that you are running the SharePoint Management Shell cmdlet on. 
     
@@ -117,8 +116,7 @@ Use this procedure to reconfigure the memory allocation of the cache size of the
   ```
   Update-SPDistributedCacheSize -CacheSizeInMB CacheSize
   ```
-
-    Where:
+Where:
     
   -  _CacheSize_ is the cache size's memory allocation assignment in MB. In the previous example, the cache size was calculated at 7168 MB for a server with 16 GB of total memory. 
     
@@ -206,7 +204,7 @@ Use the following PowerShell script to perform a graceful shutdown of the Distri
   }
   ```
 
-    Where  _sp2016App.contoso.com_ is the computer domain name of Distributed Cache server you use. 
+Where  _sp2016App.contoso.com_ is the computer domain name of Distributed Cache server you use. 
     
 3. Open the SharePoint Management Shell
     
@@ -218,7 +216,7 @@ Use the following PowerShell script to perform a graceful shutdown of the Distri
   ./GracefulShutdown.ps1
   ```
 
-    For additional information about PowerShell scripts and .ps1 files, see [Running Windows PowerShell Scripts](/previous-versions/windows/it-pro/windows-powershell-1.0/ee176949(v=technet.10)).
+For additional information about PowerShell scripts and .ps1 files, see [Running Windows PowerShell Scripts](/previous-versions/windows/it-pro/windows-powershell-1.0/ee176949(v=technet.10)).
     
 ## Change the service account
 <a name="changesvcacct"> </a>
@@ -239,7 +237,7 @@ When the server farm is first configured, the server farm account is set as the 
   $cacheService.ProcessIdentity.Deploy()
   ```
 
-    Where  _Domain_name\user_name_ is the domain name and user name of the managed account. 
+Where  _Domain_name\user_name_ is the domain name and user name of the SharePoint managed account. 
     
 ## Fine-tune the Distributed Cache service by using a PowerShell script
 <a name="finetune"> </a>
@@ -453,7 +451,7 @@ The Distributed Cache service setting for **MaxConnectionsToServer** is often tu
   ./MaxConnections.ps1
   ```
 
-    For more information, see [Best Practices for using Windows Azure Cache/Windows Server Appfabric Cache](http://go.microsoft.com/fwlink/?LinkID=614969&amp;clcid=0x409) and [Application Configuration Settings (Windows Server AppFabric Caching)](http://go.microsoft.com/fwlink/?LinkID=614970&amp;clcid=0x409). For additional information about Windows PowerShell scripts and .ps1 files, see [Running Windows PowerShell Scripts](/previous-versions/windows/it-pro/windows-powershell-1.0/ee176949(v=technet.10)).
+For more information, see [Best Practices for using Windows Azure Cache/Windows Server Appfabric Cache](http://go.microsoft.com/fwlink/?LinkID=614969&amp;clcid=0x409) and [Application Configuration Settings (Windows Server AppFabric Caching)](http://go.microsoft.com/fwlink/?LinkID=614970&amp;clcid=0x409). For additional information about Windows PowerShell scripts and .ps1 files, see [Running Windows PowerShell Scripts](/previous-versions/windows/it-pro/windows-powershell-1.0/ee176949(v=technet.10)).
     
 ## Repair a cache host
 <a name="repair"> </a>
@@ -475,13 +473,9 @@ On the non-functioning Distributed Cache host, use the following procedures to r
     
   ```
   $instanceName ="SPDistributedCacheService Name=AppFabricCachingService"
-  ```
-
-  ```
+ 
   $serviceInstance = Get-SPServiceInstance | ? {($_.service.tostring()) -eq $instanceName -and ($_.server.name) -eq $env:computername}
-  ```
 
-  ```
   If($serviceInstance -ne $null)
   {
   $serviceInstance.Delete()
@@ -490,7 +484,8 @@ On the non-functioning Distributed Cache host, use the following procedures to r
   ```
 
   - After the Distributed Cache Service has been manually deleted, run step 2 again.
-    
+
+
 ## See also
 <a name="repair"> </a>
 
