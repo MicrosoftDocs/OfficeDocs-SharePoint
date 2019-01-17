@@ -63,7 +63,7 @@ You can use PowerShell to back up one or more service applications manually or a
     
 3. At the PowerShell command prompt, type the following command:
     
-   ```
+   ```powershell
    Backup-SPFarm -Directory <BackupFolder> -BackupMethod {Full | Differential} -Item <ServiceApplicationName> [-Verbose]
    ```
 
@@ -75,7 +75,7 @@ You can use PowerShell to back up one or more service applications manually or a
     
     To back up all the service applications, at the PowerShell command prompt, type the following command:
     
-   ```
+   ```powershell
    Backup-SPFarm -Directory <BackupFolder> -BackupMethod {Full | Differential} -Item "Farm\Shared Services" [-Verbose]
    ```
 

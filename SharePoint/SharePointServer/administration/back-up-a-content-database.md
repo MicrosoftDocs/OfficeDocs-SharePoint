@@ -59,7 +59,7 @@ You can use PowerShell to back up a content database manually or as part of a sc
     
 3. At the PowerShell command prompt, type the following command:
     
-   ```
+   ```powershell
    Backup-SPFarm -Directory <BackupFolder> -BackupMethod {Full | Differential} -Item <ContentDatabaseName> [-Verbose]
    ```
 

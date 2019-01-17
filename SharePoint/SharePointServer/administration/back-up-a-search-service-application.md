@@ -67,7 +67,7 @@ You can use PowerShell to back up search manually or as part of a script that ca
     
 3. At the PowerShell command prompt, type the following command:
     
-   ```
+   ```powershell
    Backup-SPFarm -Directory <BackupFolder> -BackupMethod {Full | Differential} -Item "Farm\Shared Services\Shared Services Applications\<SearchServiceApplicationName>" [-Verbose]
    ```
 
@@ -146,7 +146,7 @@ To use SQL Server to back up the databases that are associated with the Search s
     
 3. At the PowerShell command prompt, type the following command:
     
-   ```
+   ```powershell
    $ssa = Get-SPEnterpriseSearchServiceApplication -Identity <SearchServiceApplicationName> 
    Suspend-SPEnterpriseSearchServiceApplication -Identity $ssa
    ```
@@ -206,7 +206,7 @@ To use SQL Server to back up the databases that are associated with the Search s
     
 3. At the PowerShell command prompt, type the following command:
     
-   ```
+   ```powershell
    $ssa = Get-SPEnterpriseSearchServiceApplication -Identity <SearchServiceApplicationName> 
    Resume-SPEnterpriseSearchServiceApplication -Identity $ssa
    ```
