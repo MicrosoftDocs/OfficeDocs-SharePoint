@@ -33,17 +33,18 @@ This setting applies only to modern sites.
 > [!NOTE]
 > This setting does not affect Outlook Web App, Outlook 2016, or Office clients prior to Office 2016. 
   
-To change the setting, navigate to the SharePoint Online admin center:
+To change the setting in the classic SharePoint Online admin center:
   
-1. Sign in to Office 365 as a global admin or SharePoint admin.
+1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+    > [!NOTE]
+    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-3. In the left pane, choose **Admin centers** \> **SharePoint**.
+2. In the left pane, select **Admin centers** \> **SharePoint**. If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
     
 ## Change the default link type (SharePoint Online global setting)
 
-1. In the left pane, choose **sharing**.
+1. In the left pane, select **sharing**.
     
 2. Under **Default link type** choose the option you want to show by default when a user gets a link. 
     
@@ -55,9 +56,9 @@ To change the setting, navigate to the SharePoint Online admin center:
   
 ## Change the default link type (site collection setting)
 
-1. In the left pane, choose **site collections**.
+1. In the left pane, select **site collections**.
     
-2. Select the site collection that you want to change, and then click **Sharing**.
+2. Select the site collection that you want to change, and then select **Sharing**.
     
 3. Under **Default link type**, clear the **Respect default organization setting** check box, and then choose the option you want to show by default when a user gets a link. 
     
@@ -67,6 +68,6 @@ To change the setting, navigate to the SharePoint Online admin center:
     
     ![Screenshot of default link permissions setting for a site collection](media/6e585416-019e-4c14-a057-0fd7e7b3e1f6.png)
   
-5. Click **Save**.
+5. Select **Save**.
     
 

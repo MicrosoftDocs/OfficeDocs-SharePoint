@@ -62,7 +62,7 @@ You can use PowerShell to back up the Secure Store Service manually or as part o
     
 3. At the PowerShell command prompt, type the following command:
     
-   ```
+   ```powershell
    Backup-SPFarm -Directory  <BackupFolder> -BackupMethod Full -Item <SecureStoreService > [-Verbose]
    ```
 

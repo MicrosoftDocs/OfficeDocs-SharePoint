@@ -3,7 +3,6 @@ title: "Create a site collection"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 6/19/2018
 ms.audience: Admin
 ms.topic: article
 f1_keywords:
@@ -22,38 +21,39 @@ search.appverid:
 - MBS150
 - MET150
 ms.assetid: 3a3d7ab9-5d21-41f1-b4bd-5200071dd539
-description: "Learn how to create and delete SharePoint Online site collections in the SharePoint admin center."
+description: "Learn how to create and delete SharePoint Online site collections in the classic SharePoint admin center."
 ---
 
 # Create a site collection
 
-This article shows how Office 365 global admins and SharePoint admins can create classic SharePoint Online site collections from the Microsoft 365 admin center.
+This article describes how global admins and SharePoint admins in Office 365 can create classic SharePoint Online site collections from the Microsoft 365 admin center.
   
 > [!NOTE]
-> For info about creating new team sites that are connected to Office 365 groups and communication sites in the new SharePoint admin center preview, see [Manage sites in the new SharePoint admin center](manage-sites-in-new-admin-center.md). For info about creating site collections in SharePoint Server, see [Create a site collection in SharePoint Server](/SharePoint/sites/create-a-site-collection).
+> For info about creating sites that use the new templates (team sites and communication sites) in the new SharePoint admin center preview, see [Manage sites in the new SharePoint admin center](manage-sites-in-new-admin-center.md). For info about creating site collections in SharePoint Server, see [Create a site collection in SharePoint Server](/SharePoint/sites/create-a-site-collection).
 
   
 ## Create a classic site collection
 <a name="__toc323551189_1"> </a>
 
-SharePoint Online has several templates for classic site collections. For example, you can create sites for blogs, wikis, record storage, and publishing. Some previous Office 365 plans can have only one site collection. For info, see [SharePoint Online limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits).
+SharePoint Online has several classic templates. For example, you can create sites for blogs, wikis, record storage, and publishing. 
   
-1. Sign in to Office 365 as a global admin or SharePoint admin.
+1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+    > [!NOTE]
+    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-3. In the left pane, select **Resources**, and then select **Sites**.
+2. In the left pane, select **Resources**, and then select **Sites**.
     
     ![Office 365 admin sites](media/d7757cbe-6531-492f-8547-e055b71d0abf.png)
   
-4. Select **Add a site**.
+3. Select **Add a site**.
     
     ![Microsoft 365 admin center create site collection](media/3026fd12-9d34-4948-a149-fcc8de7b7d83.png)
   
     > [!NOTE]
     > If you don't see the options above, select **Admin centers** \> **SharePoint** and then select **New** \> **Private Site Collection**. > ![Site Collection page with New selected](media/cf178205-b5bb-4152-a4c8-87d3099fc6ca.PNG)
   
-5. Fill out the new site collection properties:
+4. Fill out the new site collection properties:
     
     ![New Site Collection dialog box (top half)](media/1f30a4a6-27b7-42cd-97b0-bcef2e515902.PNG)
   
@@ -79,7 +79,7 @@ SharePoint Online has several templates for classic site collections. For exampl
     
   - In the **Server Resource Quota** box, accept the resource quota default. This setting no longer affects the resource amounts available for the site collection. 
     
-6. Click **OK**.
+5. Select **OK**.
     
     The new site collection will appear in the URL list. The URL is the site collection location at which the administrator can start to create and manage sites.
     

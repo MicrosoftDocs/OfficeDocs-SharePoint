@@ -64,7 +64,7 @@ You can use PowerShell to back the User Profile service application manually or 
     
 3. At the PowerShell command prompt, type the following command:
     
-   ```
+   ```powershell
    Backup-SPFarm -Directory <BackupFolder> -BackupMethod Full -Item Farm\Shared Services\Shared Service Applications\<ServiceApplicationName> [-Verbose]
    ```
 
@@ -80,7 +80,7 @@ You can use PowerShell to back the User Profile service application manually or 
   
 4. You must also back up the service application proxy. To do this, at the PowerShell command prompt, type the following command:
     
-   ```
+   ```powershell
    Backup-SPFarm -Directory <BackupFolder> -BackupMethod Full -Item Farm\Shared Services\Shared Service Proxies\<ServiceApplicationProxyName > [-Verbose]
    ```
 

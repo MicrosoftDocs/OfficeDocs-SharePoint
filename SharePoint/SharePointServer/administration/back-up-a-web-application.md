@@ -66,7 +66,7 @@ You can use PowerShell to back up a web application manually or as part of a scr
     
 3. At the PowerShell command prompt, type the following command:
     
-   ```
+   ```powershell
    Backup-SPFarm -Directory <BackupFolder> -BackupMethod {Full | Differential} -Item <WebApplicationName> [-Verbose]
    ```
 

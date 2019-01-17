@@ -58,7 +58,7 @@ You can use PowerShell to export a site, list, or document library manually or a
     
 3. At the PowerShell command prompt, type the following command:
     
-   ```
+   ```powershell
    Export-SPWeb -Identity <SiteURL> -Path <Path and File Name> [-ItemUrl <URL of Site, List, or Library>] [-IncludeUserSecurity] [-IncludeVersions] [-NoFileCompression] [-GradualDelete] [-Verbose]
    ```
 
