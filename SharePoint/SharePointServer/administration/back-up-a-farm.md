@@ -73,7 +73,7 @@ You can use PowerShell to back up the farm manually or as part of a script that 
     
 3. At the PowerShell command prompt, type the following command:
     
-   ```
+   ```powershell
    Backup-SPFarm -Directory <BackupFolder> -BackupMethod {Full | Differential} [-Verbose]
    ```
 

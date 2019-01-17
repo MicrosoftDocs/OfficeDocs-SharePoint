@@ -59,7 +59,7 @@ You can use PowerShell to back up the configuration from any configuration datab
     
 3. At the PowerShell command prompt, type the following command:
     
-   ```
+   ```powershell
    Backup-SPConfigurationDatabase -Directory <BackupFolder> -DatabaseServer <DatabaseServerName> -DatabaseName <DatabaseName> -DatabaseCredentials <WindowsPowerShellCredentialObject> [-Verbose]
    ```
 
