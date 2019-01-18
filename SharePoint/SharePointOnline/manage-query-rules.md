@@ -37,37 +37,31 @@ You can create query rules at different levels: for the whole tenant, for a site
   
 1. Go to the **Manage Query Rules** page for the tenant, for a site collection, or a site: 
     
-  - Sign in to Office 365 as a global admin or SharePoint admin.
+  - For a tenant, in the classic SharePoint admin center, select **search** in the left pane, and then on the search administration page, select **Manage Query Rules**
     
-  - Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+  - For a site collection, in your site collection, go to **Settings**, select **Site settings** and then under **Site Collection Administration**, select **Search Query Rules**.
     
-  - In the left pane, choose **Admin centers** \> **SharePoint**.
-    
-  - Click **search**, and then on the search administration page, click **Manage Query Rules**
-    
-  - For a site collection, in your site collection, go to **Settings**, click **Site settings** and then under **Site Collection Administration**, click **Search Query Rules**.
-    
-  - For a site, go to **Settings**, click **Site settings**, and then under **Search**, click **Query Rules**.
+  - For a site, go to **Settings**, select **Site settings**, and then under **Search**, select **Query Rules**.
     
 2. On the **Manage Query Rules** page, in the **Select a Result Source** list, select a result source for the new query rule. 
     
-3. Click **New Query Rule**.
+3. Select **New Query Rule**.
     
 4. On the **Add Query Rule** page, in the **General Information** section, in the **Rule name** field, type the name for the query rule. 
     
-5. Click to expand the **Context** section. 
+5. Select to expand the **Context** section. 
     
 6. In the **Context** section, do one of the following: 
     
   - To apply the query rule to all result sources, select **All sources**.
     
-  - To apply the query rule to one or more specific result sources, select **One of these sources**. By default, the result source that you specified earlier is selected. To add a result source to the query rule, click **Add Source**, select a result source in the dialog box, and then click **Save**.
+  - To apply the query rule to one or more specific result sources, select **One of these sources**. By default, the result source that you specified earlier is selected. To add a result source to the query rule, select **Add Source**, select a result source in the dialog box, and then select **Save**.
     
 7. To restrict the query rule to categories—for example, that a query rule should fire only when a term from your managed navigation term set is included in the query, do as follows: 
     
-  - To restrict the query rule to a category, click **Add category**. In the **Import from term store** dialog box, select a term which, when you include it in a query, will cause the query rule to fire, and then click **Save**.
+  - To restrict the query rule to a category, select **Add category**. In the **Import from term store** dialog box, select a term which, when you include it in a query, will cause the query rule to fire, and then select **Save**.
     
-  - To restrict the query rule to a user segment, click **Add User Segment**. In the dialog box, in the **Title** field, type the name for this rule, and then click **Add user segment term**. In the **Import from term store** dialog box, select a term that represents a user segment that will cause the query rule to fire when it appears in a query. Click **Save**
+  - To restrict the query rule to a user segment, select **Add User Segment**. In the dialog box, in the **Title** field, type the name for this rule, and then select **Add user segment term**. In the **Import from term store** dialog box, select a term that represents a user segment that will cause the query rule to fire when it appears in a query. Select **Save**
     
 8. In the **Query Conditions** section, do one of the following: 
     
@@ -76,23 +70,23 @@ You can create query rules at different levels: for the whole tenant, for a site
     > [!NOTE]
     >  The rule fires when any condition is true. 
   
-    To add more conditions, click **Add Alternate Condition**
+    To add more conditions, select **Add Alternate Condition**
     
-  - Click **Remove Condition** to configure this query rule to fire for every query that users type at the level at which you are creating the rule, and then go to the next step. For example, if you are creating this rule for a site collection, click **Remove Condition** if you want this rule to fire for every query that users type inside any search box in the site collection. 
+  - Select **Remove Condition** to configure this query rule to fire for every query that users type at the level at which you are creating the rule, and then go to the next step. For example, if you are creating this rule for a site collection, select **Remove Condition** if you want this rule to fire for every query that users type inside any search box in the site collection. 
     
 9. In the **Actions** section, specify the action to take when the query rule fires. Specify one of the following: 
     
-  - To promote individual results so that they appear towards the top of search results, click **Add Promoted Result** (in SharePoint 2010 Products this was called Best Bets). In the dialog box, in the **Title** field, type the name that you want to give this promoted result. In the **URL** field, type the URL of the result that should be promoted. Choose **Render the URL as a banner instead of as a hyperlink**. Click **Save**.
+  - To promote individual results so that they appear towards the top of search results, select **Add Promoted Result** (in SharePoint 2010 Products this was called Best Bets). In the dialog box, in the **Title** field, type the name that you want to give this promoted result. In the **URL** field, type the URL of the result that should be promoted. Choose **Render the URL as a banner instead of as a hyperlink**. Select **Save**.
     
     You can add several individual promoted results. When there's more than one promoted result, specify the relative ranking. 
     
-  - To promote a group of search results, click **Add Result Block**. For more information, see [Create and display a result block](manage-query-rules.md#__toc343764779) a bit further down. 
+  - To promote a group of search results, select **Add Result Block**. For more information, see [Create and display a result block](manage-query-rules.md#__toc343764779) a bit further down. 
     
-  - To change ranked search results, click **Change ranked results by changing the query**. For more information, see [Change ranked search results by changing the query](manage-query-rules.md#__toc343764780) a bit further down. 
+  - To change ranked search results, select **Change ranked results by changing the query**. For more information, see [Change ranked search results by changing the query](manage-query-rules.md#__toc343764780) a bit further down. 
     
-10. To make the query rule active during a particular time period, click **Publishing**, and then specify the period.
+10. To make the query rule active during a particular time period, select **Publishing**, and then specify the period.
     
-11. Click **Save**.
+11. Select **Save**.
     
 ## Create and display a result block
 <a name="__toc343764779"> </a>

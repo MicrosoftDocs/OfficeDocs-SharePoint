@@ -56,10 +56,10 @@ You can assign or remove service application administrators by using the SharePo
     
    - You must be a member of the Administrators group on the server on which you are running the PowerShell cmdlet.
     
-    > [!NOTE]
-    > If these permissions are not satisfied, contact your Setup administrator or SQL Server administrator to request these permissions. 
+> [!NOTE]
+> If these permissions are not satisfied, contact your Setup administrator or SQL Server administrator to request these permissions. 
   
-    For additional information about PowerShell permissions, see [Permissions](/powershell/module/sharepoint-server/?view=sharepoint-ps#section3) and [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps)
+For additional information about PowerShell permissions, see [Permissions](/powershell/module/sharepoint-server/?view=sharepoint-ps#section3) and [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps)
     
 2. Start the SharePoint Management Shell.
     
@@ -71,7 +71,7 @@ You can assign or remove service application administrators by using the SharePo
    ```
 
 
-    Where  _\<contoso\jane\>_ is the user name for which you want to assign administrative permissions. The user name should be entered in the form of **jane@contoso.com** or **contoso\jane**. The new claims principal is stored in the  _$principal_ variable. 
+Where  _contoso\jane_ is the user name for which you want to assign administrative permissions. The user name should be entered in the form of **jane@contoso.com** or **contoso\jane**. The new claims principal is stored in the  _$principal_ variable. 
     
 4. To retrieve the service application, type the following command:
     
@@ -80,10 +80,10 @@ You can assign or remove service application administrators by using the SharePo
    ```
 
 
-    Where  _\<ServiceApplicationDisplayName\>_ is the display name of the service application. The service application identification is stored in the  _$spapp_ variable. 
+Where  _ServiceApplicationDisplayName_ is the display name of the service application. The service application identification is stored in the  _$spapp_ variable. 
     
-    > [!IMPORTANT]
-    > The display name must be enclosed in quotation marks, and it must exactly match the service application display name. This includes capitalization. If you have more than one service application that has the identical display name (we do not recommend this), you can use the **Get-SPServiceApplication** cmdlet to view all service applications. You can then identify the service application by its GUID. For more information, see [Get-SPServiceApplication](/powershell/module/sharepoint-server/Get-SPServiceApplication?view=sharepoint-ps). 
+> [!IMPORTANT]
+> The display name must be enclosed in quotation marks, and it must exactly match the service application display name. This includes capitalization. If you have more than one service application that has the identical display name (we do not recommend this), you can use the **Get-SPServiceApplication** cmdlet to view all service applications. You can then identify the service application by its GUID. For more information, see [Get-SPServiceApplication](/powershell/module/sharepoint-server/Get-SPServiceApplication?view=sharepoint-ps). 
   
 5. To retrieve the administrator security object for the service application, type the following command:
     
@@ -91,11 +91,10 @@ You can assign or remove service application administrators by using the SharePo
    $security = Get-SPServiceApplicationSecurity $spapp -Admin
    ```
 
+The retrieved administrator security object is stored in the  _$security_ variable. 
 
-   The retrieved administrator security object is stored in the  _$security_ variable. 
-    
-    > [!CAUTION]
-    > It is important that you append the **-Admin** argument when you use this command. 
+> [!CAUTION]
+> It is important that you append the **-Admin** argument when you use this command. 
   
 6. To assign or revoke administrative permissions for the user who is identified by the new claims principal  _$principal_ (created in step 6 of this procedure) to the service application administrator security object  _$security_ (obtained in step 8 of this procedure), use the appropriate command as shown in the following example: 
     
@@ -118,10 +117,9 @@ You can assign or remove service application administrators by using the SharePo
    Set-SPServiceApplicationSecurity $spapp $security -Admin
    ```
 
+> [!CAUTION]
+> It is important that you append the **-Admin** argument when you use this command. 
 
-   > [!CAUTION]
-   > It is important that you append the **-Admin** argument when you use this command. 
-  
 8. To confirm that the service application's security object is updated appropriately, type the following command: 
     
    ```
