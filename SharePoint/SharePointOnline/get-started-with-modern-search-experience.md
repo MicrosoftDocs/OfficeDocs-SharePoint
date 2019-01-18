@@ -8,6 +8,7 @@ ms.topic: article
 ms.service: sharepoint-online
 search.appverid: MET150
 localization_priority: Priority
+ms.collection: Strat_SP_modern
 description: "Learn how to get your organization started with the modern search experience"
 ...
 
