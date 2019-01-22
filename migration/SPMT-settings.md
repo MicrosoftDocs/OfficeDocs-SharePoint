@@ -15,10 +15,17 @@ ms.collection:
 
 description: "A complete listing of the SharePoint Migration basic and advanced settings." 
 ---
->Note: Settings that are available only the SPMT V3 Initial Release are indicated below.  
-# SPMT Settings
 
-Advanced settings should only be changed or managed by your IT professional. 
+# SharePoint Migration Tool Settings
+
+The following table details the settings available in SPMT.  Advanced settings should only be changed or managed by your IT professional. 
+
+> [!Note] 
+> Some Settings that are available only in the SPMT V3 Initial Release are indicated below. 
+ 
+
+
+
   
 |**Setting**|**Description**|
 |:-----|:-----|
