@@ -11,6 +11,7 @@ localization_priority: Normal
 ms.collection:
 - Adm_SPO
 - SharePoint_Online
+- Strat_SP_modern
 ms.custom:
 - Adm_O365_FullSet
 - MiniMaven
