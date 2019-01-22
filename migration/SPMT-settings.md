@@ -16,10 +16,9 @@ ms.collection:
 description: "A complete listing of the SharePoint Migration basic and advanced settings." 
 ---
 
-# Settings
+# SPMT Settings
 
-
-Advanced settings should only be changed or managed by your IT professional. The advanced settings are in the following categories:
+Advanced settings should only be changed or managed by your IT professional. 
   
 |**Setting**|**Description**|
 |:-----|:-----|
