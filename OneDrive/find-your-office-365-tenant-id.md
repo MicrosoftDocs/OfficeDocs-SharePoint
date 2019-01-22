@@ -38,12 +38,12 @@ You can find your tenant ID in the Azure AD portal. You'll need to be an Azure A
     
 ## Use Windows PowerShell
   
-You can use Windows PowerShell to find the tenant ID. You'll need the [Microsoft Azure PowerShell module](https://go.microsoft.com/fwlink/p/?LinkId=717444).
+You can use Windows PowerShell to find the tenant ID. You'll need the [Microsoft Azure PowerShell Az module](https://docs.microsoft.com/powershell/azure/overview).
   
-Open a Microsoft Azure PowerShell command window and run the following script, entering your Office 365 credentials when prompted.
+Run the below cmdlet, logging in with the code provided by the cmdlet.
   
 ```
-Login-AzureRmAccount
+Connect-AzAccount
 ```
 
 Your tenant ID is listed in the output.
