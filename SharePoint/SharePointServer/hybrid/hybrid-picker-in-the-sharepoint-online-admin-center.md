@@ -48,6 +48,8 @@ The following are the account requirements to run the Hybrid Picker. You must be
 - Logged into Office 365 and SharePoint Server from a server in your SharePoint Server farm
     
 - Able to launch the Hybrid Picker as a Farm Administrator with elevated permissions
+ 
+The account that you use must not use multi-factor authentication.
     
 > [!IMPORTANT]
 > The Hybrid Picker wizard must be launched from an on-premises server with SharePoint Server 2013 or SharePoint Server 2016 installed. Launch it in the environment you want to use for your SharePoint hybrid. 
