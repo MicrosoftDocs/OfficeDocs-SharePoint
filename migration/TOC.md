@@ -1,14 +1,13 @@
 # [Migrate  to SharePoint Online](migrate-to-sharepoint-online.md)
+## [SharePoint Online and OneDrive Migration Speed](sharepoint-online-and-onedrive-migration-speed.md)
 ##  SharePoint Migration Tool (SPMT)
-
 ### [Overview of the SharePoint Migration Tool](introducing-the-sharepoint-migration-tool.md)
 ### [SharePoint Migration Tool Release Notes](new-and-improved-features-in-the-sharepoint-migration-tool.md)
 ### [How to use the SharePoint Migration Tool](how-to-use-the-sharepoint-migration-tool.md)
 ### [Understanding permissions and the SharePoint Migration Tool](understanding-permissions-when-migrating.md)
-### [Create a user mapping file for data content migration](create-a-user-mapping-file-for-data-content-migration.md)
-### [SharePoint Online and OneDrive Migration Speed](sharepoint-online-and-onedrive-migration-speed.md)
-### [Migrate to SharePoint Online using PowerShell](overview-SPMT-PS-cmdlets.md)
-### [Migrate to SharePoint Online using the Azure Data Box](how-to-migrate-file-share-content-to-SPO-using-AzureDataBox.md)
+### [Create a user mapping file when using the SharePoint Migration Tool](create-a-user-mapping-file-for-data-content-migration.md)
+## [Migrate to SharePoint Online using PowerShell](overview-SPMT-PS-cmdlets.md)
+## [Migrate to SharePoint Online using the Azure Data Box](how-to-migrate-file-share-content-to-SPO-using-AzureDataBox.md)
 ## SharePoint Migration Assessment Tool
 ### [Overview of the SharePoint Migration Assessment Tool](overview-of-the-sharepoint-migration-assessment-tool.md)
 ### [SharePoint Migration Assessment Tool:  Scan Reports Roadmap](sharepoint-migration-assessment-toolscan-reports-roadmap.md)
