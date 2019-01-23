@@ -13,8 +13,8 @@
 ## [Migrate to SharePoint Online using PowerShell](overview-SPMT-PS-cmdlets.md)
 ## [Migrate to SharePoint Online using the Azure Data Box](how-to-migrate-file-share-content-to-SPO-using-AzureDataBox.md)
 ## [Overview of the SharePoint Migration Assessment Tool](overview-of-the-sharepoint-migration-assessment-tool.md)
-## [SharePoint Migration Assessment Tool:  Scan Reports Roadmap](sharepoint-migration-assessment-toolscan-reports-roadmap.md)
-### [Migration Assessment Scan: Apps](migration-assessment-scan-apps.md)
+## [SharePoint Migration Assessment Tool]
+### [SharePoint Migration Assessment Tool:  Scan Reports Roadmap](sharepoint-migration-assessment-toolscan-reports-roadmap.md)### [Migration Assessment Scan: Apps](migration-assessment-scan-apps.md)
 ### [Migration Assessment Scan: Alerts](migration-assessment-scan-alerts.md)
 ### [Migration Assessment Scan: BCS](migration-assessment-scan-bcs.md)
 ### [Migration Assessment Scan: Browser File Handling](migration-assessment-scan-browser-file-handling.md)
