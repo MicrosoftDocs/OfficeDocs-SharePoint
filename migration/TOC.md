@@ -1,7 +1,8 @@
 # [Migrate  to SharePoint Online](migrate-to-sharepoint-online.md)
 ##  SharePoint Migration Tool (SPMT)
-### [SharePoint Migration Tool Release Notes](new-and-improved-features-in-the-sharepoint-migration-tool.md)
+
 ### [Overview of the SharePoint Migration Tool](introducing-the-sharepoint-migration-tool.md)
+### [SharePoint Migration Tool Release Notes](new-and-improved-features-in-the-sharepoint-migration-tool.md)
 ### [How to use the SharePoint Migration Tool](how-to-use-the-sharepoint-migration-tool.md)
 ### [Understanding permissions and the SharePoint Migration Tool](understanding-permissions-when-migrating.md)
 ### [Create a user mapping file for data content migration](create-a-user-mapping-file-for-data-content-migration.md)
