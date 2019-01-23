@@ -6,6 +6,8 @@
 ### [How to use the SharePoint Migration Tool](how-to-use-the-sharepoint-migration-tool.md)
 ### [Understanding permissions and the SharePoint Migration Tool](understanding-permissions-when-migrating.md)
 ### [Create a user mapping file when using the SharePoint Migration Tool](create-a-user-mapping-file-for-data-content-migration.md)
+### [SPMT Supported List Templates](sharepoint-migration-supported-list-templates.md)
+### [SPMT Supported Webparts](spmt-supported-webparts.md)
 ## [Migrate to SharePoint Online using PowerShell](overview-SPMT-PS-cmdlets.md)
 ## [Migrate to SharePoint Online using the Azure Data Box](how-to-migrate-file-share-content-to-SPO-using-AzureDataBox.md)
 ## SharePoint Migration Assessment Tool
