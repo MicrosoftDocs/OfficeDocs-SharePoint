@@ -69,7 +69,7 @@ Security groups are a recommended solution when a collection of people need comm
 
 SharePoint groups are groupings of users tied to specific SharePoint sites. SharePoint groups are not shared across the site collection boundary although SharePoint groups are inherited by default by sub sites.
 
-SharePoint groups are provided by default by all SharePoint sites including modern team sites and communication sites. SharePoint groups may include specific users, Office 365 Groups, and security groups, and may also include both internal and external users as well, depending on tenant and site level configuration. Since SharePoint groups are not shared across site collections, they cannot be used to provide unified access to groups of users across sites.
+SharePoint groups are provided by default by all SharePoint sites including modern team sites and communication sites. SharePoint groups may include specific users and security groups, and may also include both internal and external users as well, depending on tenant and site level configuration. Since SharePoint groups are not shared across site collections, they cannot be used to provide unified access to groups of users across sites.
 
 With modern team sites, the underlying Office 365 Group should be favored for providing access to a given site. Communication sites may utilize Office 365 Groups although the underlying grouping is handled by SharePoint groups.
 
@@ -89,7 +89,7 @@ Each Team sites is associated with an Office 365 Group. Office 365 Groups allow 
 
 Team site permissions are driven by SharePoint groups and may be administered by the group owners. The advanced permission settings allow for more granular control of permissions but is not recommended for general team use cases as the permissions will not extend back into the Office 365 Group or its related services.
 
-Communication sites look to “Share” a site, sharing a given site to individual users, Office 365 groups, or security groups. When sharing, the particular user or group may be granted full control, edit, or read only access.
+Communication sites look to “Share” a site, sharing a given site to individual users or security groups. When sharing, the particular user or group may be granted full control, edit, or read only access.
 
 Communication sites are not tied to an Office 365 Group. Advanced permissions options are also available to communication sites via the Sharing or Site permissions panels. It is important to note that underlying sharing and general permissions of communication sites also driven by SharePoint groups. Communication sites include three default SharePoint groups, Owners, Members, and Visitors, just as provided by traditional SharePoint sites.
 
@@ -97,13 +97,13 @@ Communication sites are not tied to an Office 365 Group. Advanced permissions op
 
 Sharing a site or asset within a site such as a library or document is essentially the same a granting permission for a particular person, user, or group to the shared asset. When sharing within SharePoint, you are also provided the ability to email the user directly with the UI as well.
 
-There are two primary forms for sharing within SharePoint, internal sharing and external sharing. Internal sharing includes sharing with users, Office 365 Groups, or security groups within your tenant. External sharing includes sharing with anyone else.
+There are two primary forms for sharing within SharePoint, internal sharing and external sharing. Internal sharing includes sharing with users or security groups within your tenant. External sharing includes sharing with anyone else.
 
 External sharing is controlled at two levels, both at the tenant wide level as well as at the site collection level. A common use case is allowing sharing at the tenant level so that some sites may be shared externally, while limiting external sharing with the HR or another internal only site. [Learn more about external sharing](/sharepoint/external-sharing-overview).
 
 By default, external sharing is enabled at both the tenant level and site collection level, although anonymous sharing is not allowed by default. If external sharing is blocked at the tenant level then no external sharing will be allowed on any site.
 
-When sharing a team site, you may invite users, Office 365 Groups, and security groups to be a member of the site. When shared via the site permissions interface on the site itself, be aware that inviting a new member will not join that member to the connected Office 365 Group. You can invite new members to the Office 365 Group, which will automatically provide that member the proper access to the team site.
+When sharing a team site, you may invite users and security groups to be a member of the site. When shared via the site permissions interface on the site itself, be aware that inviting a new member will not join that member to the connected Office 365 Group. You can invite new members to the Office 365 Group, which will automatically provide that member the proper access to the team site.
 
 ## Configuration options for sharing within SharePoint Online
 
@@ -127,15 +127,15 @@ If anonymous sharing is enabled at both the tenant level and site collection lev
 
 **People in your organization**
 
-You may quickly create a link to share a site or document with anyone in your organization. This will grant access to your site or document to everyone in your organization who has the link.
+You may quickly create a link to share document or folder with anyone in your organization. This will grant access to your site or document to everyone in your organization who has the link.
 
 **People with existing access**
 
-A SharePoint site or item may be shared with a group or user that already has existing access to the shared item in question. The primary purpose of this type of sharing is to generate the direct link to the item in question. The link generated by this option is a direct link without any expiration date, nor with any additional security trimming. This means that a user that utilizes such a link will only have their already granted permissions to the item in question.
+A SharePoint document or folder may be shared with a group or user that already has existing access to the shared item in question. The primary purpose of this type of sharing is to generate the direct link to the item in question. The link generated by this option is a direct link without any expiration date, nor with any additional security trimming. This means that a user that utilizes such a link will only have their already granted permissions to the item in question.
 
 **Specific people**
 
-When sharing a site or document, if enabled, you may share with specific people that you specify. This allows for both internal and external sharing, as well as sharing with specific people, Office 365 Groups, and security groups. A secure link may be generated that will provide read only or authoring access to the given shared item to one or more selected external users. Note that the external users will be granted restricted access to your tenant and may be added as an external user to your Azure Active Directory. They will only have access to the items that are explicitly shared with them.
+When sharing a document or folder, if enabled, you may share with specific people that you specify. This allows for both internal and external sharing, as well as sharing with specific people and security groups. A secure link may be generated that will provide read only or authoring access to the given shared item to one or more selected external users. Note that the external users will be granted restricted access to your tenant and may be added as an external user to your Azure Active Directory. They will only have access to the items that are explicitly shared with them.
 
 ### Expiration Date and enabled editing
 
