@@ -1,6 +1,6 @@
 # [Migrate  to SharePoint Online](migrate-to-sharepoint-online.md)
 ## [SharePoint Migration Tool Release Notes](new-and-improved-features-in-the-sharepoint-migration-tool.md)
-## [Introducing the SharePoint Migration Tool](introducing-the-sharepoint-migration-tool.md)
+## [Overview of the SharePoint Migration Tool](introducing-the-sharepoint-migration-tool.md)
 ## [How to use the SharePoint Migration Tool](how-to-use-the-sharepoint-migration-tool.md)
 ## [Understanding permissions and the SharePoint Migration Tool](understanding-permissions-when-migrating.md)
 ## [SharePoint List Templates supported by the SharePoint Migration Tool ](sharepoint-migration-supported-list-templates.md)
@@ -13,7 +13,7 @@
 ## [Migrate to SharePoint Online using PowerShell](overview-SPMT-PS-cmdlets.md)
 ## [Migrate to SharePoint Online using the Azure Data Box](how-to-migrate-file-share-content-to-SPO-using-AzureDataBox.md)
 ## [Overview of the SharePoint Migration Assessment Tool](overview-of-the-sharepoint-migration-assessment-tool.md)
-## [SharePoint Migration Assessment Tool]
+## SharePoint Migration Assessment Tool
 ### [SharePoint Migration Assessment Tool:  Scan Reports Roadmap](sharepoint-migration-assessment-toolscan-reports-roadmap.md)### [Migration Assessment Scan: Apps](migration-assessment-scan-apps.md)
 ### [Migration Assessment Scan: Alerts](migration-assessment-scan-alerts.md)
 ### [Migration Assessment Scan: BCS](migration-assessment-scan-bcs.md)
