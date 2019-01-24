@@ -21,6 +21,19 @@ The SharePoint Migration Tool lets you migrate lists or files from your SharePoi
 Designed to be used for migrations ranging from the smallest set of files to a large scale enterprise migration, the SharePoint Migration Tool will let you bring your information to the cloud and take advantage of the latest collaboration, intelligence, and security solutions with Office 365.
 
 ## What Migrates?
+The SPMT allows you to migrate the following:
+- On-premises fileshares
+- 
+SharePoint Point 2013
+-  Document libraries
+-  SharePoint list templates (see supported list here)
+-  "Out of the Box" SharePoint sites - sites that do not use any coding or 3rd party tools
+- Navigation and icons
+- Site description
+- SharePoint webparts (see supported list here)
+-  Pages, including any pages in site asset library
+- Managed metadata, including content types and term store
+
 
 
 >[!NOTE]
