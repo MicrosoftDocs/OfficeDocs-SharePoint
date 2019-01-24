@@ -21,13 +21,13 @@ The Search Center is a classic search experience. The Search Center is a site or
 
 SharePoint Online offers two types of Search Centers: the **Basic** Search Center and the **Enterprise** Search Center. By default SharePoint Online is set up with the Basic Search Center. 
 
-Both Search Centers search the same content and show the same search results. 
-The differences are that search administrators have more options for tailoring the look and feel of the Enterprise Search Center and that it automatically comes with links to four search pages, known as search verticals. These verticals display search results that are filtered and formatted for a specific content type or class. Search verticals help users move quickly between different types and classes of results. The Enterprise Search Center comes with the default verticals People, Conversations, and Videos. Also, search administrators can add custom search results pages to an Enterprise Search Center. [Learn how to switch to an Enterprise Search Center](create-enterprise-search-center.md).
+Both Search Centers search the same content and show the same search results. The main difference is that the Enterprise Search Center comes with the search verticals People, Conversations, and Videos. Search verticals are pages that are tailored for displaying search results that are filtered and formatted for a specific content type or class. Search verticals help users move quickly between such different types and classes of content. Also, as a search administrator you have more options for tailoring the look and feel of the Enterprise Search Center.
+
+If your organization needs an enterprise-wide search experience, [evaluate first whether the modern search experience covers your needs](get-started-with-modern-search-experience.md). Modern search also comes with verticals, it doesn't require any set up, and the results are personal. [Learn about the modern search experience for users](https://support.office.com/article/what-s-new-in-search-in-office-365-b81ab573-ec9c-4aa9-a369-b3c630f878a7?). 
+
+If modern search doesn't cover you needs, you can [switch from the Basic Search Center to an Enterprise Search Center](../SharePointServer/search/create-a-search-center-site.md).
 
 
-
- 
- 
 
   
 ## Search Center pages
