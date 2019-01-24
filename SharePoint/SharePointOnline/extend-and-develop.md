@@ -17,7 +17,7 @@ description: "This article describes the range of customizations you can apply t
 
 # Plan customizations, solutions, and apps for SharePoint Online
 
-Branding and customizing SharePoint Online is different than branding and customizing SharePoint Server products. SharePoint Online gets updated with new features on a regular basis and these updates can affect certain types of customizations. However, there are recommended customization and branding techniques available today that can streamline your branding and customization requirements. For example, if you are making structural changes to the master pages it's important to stay up to date with the ongoing product updates applied to SharePoint Online. The easiest way to stay informed is to watch the [Office 365 Roadmap](https://office.microsoft.com/en-us/products/office-365-roadmap-FX104343353.aspx) and monitor the [Office 365 blog](https://blogs.office.com/office365forbusiness/).
+Branding and customizing SharePoint Online is different than branding and customizing SharePoint Server products. SharePoint Online gets updated with new features on a regular basis and these updates can affect certain types of customizations. However, there are recommended customization and branding techniques available today that can streamline your branding and customization requirements. For example, if you are making structural changes to the master pages it's important to stay up to date with the ongoing product updates applied to SharePoint Online. The easiest way to stay informed is to watch the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap) and monitor the [Microsoft 365 Business blog](https://www.microsoft.com/microsoft-365/business).
   
 The software updates that Microsoft makes to SharePoint Online happen much faster than SharePoint Server and customizing or unghosting master pages, which are a core part of the product, will result in those customizations being affected by updates. To remedy the situation, those customizations will need to be re-applied to the updated pages. Staying up to date is possible, but needs to happen much more frequently in SharePoint Online.
   
@@ -28,7 +28,7 @@ Methods for customization that work in SharePoint Server won't necessarily work 
 ||||
 |:-----|:-----|:-----|
 |**Type of Customization** <br/> |**SharePoint Server** <br/> |**SharePoint Online** <br/> |
-|**Workflow** <br/> |Start with Out of the box Workflows  <br/> SharePoint Designer, or Visual Designer  <br/> |[Out of the box workflow changes](https://support.office.com/en-us/article/Whats-new-in-Microsoft-SharePoint-Online-02449ef0-027e-4089-8717-f0ae7ea58029?ui=en-US&amp;rs=en-US&amp;ad=US#__toc311029357) will not be overwritten by ongoing updates  <br/> Further customization will be overwritten by ongoing updates  <br/> |
+|**Workflow** <br/> |Start with Out of the box Workflows  <br/> SharePoint Designer, or Visual Designer  <br/> |[Out of the box workflow changes](https://support.office.com/en-us/article/02449ef0-027e-4089-8717-f0ae7ea58029#__toc311029357) will not be overwritten by ongoing updates  <br/> Further customization will be overwritten by ongoing updates  <br/> |
 |**Header/Footer** <br/> |SharePoint Designer, w/unghosted pages  <br/> |No equivalent, unghosting pages requires ongoing maintenance  <br/> |
 |**Content Blocks** <br/> |CBQ (un-throttled)  <br/> |CBQ (throttled)  <br/> |
 |**General Branding (colors, logos, etc.)** <br/> |Sandboxed solutions, Customized/unghosted Master Pages  <br/> |Composed looks or inject styles via app model  <br/> |
@@ -49,7 +49,7 @@ SharePoint Online customizations range from non-technical changes you can apply 
     
   - **Third-party apps** Third-party apps are found in the SharePoint Store, which is an Office.com-hosted marketplace accessible from SharePoint Online sites. Select the apps that you want to be available in your organization. Admins can also buy licenses for specific apps for all users in an organization (requires Site Owner permissions or greater). 
     
-  - **Custom apps** Your organization can also develop its own apps for SharePoint Online and make them available to users through the App Catalog site. If you know how to build a web application, then you know how to build an app for SharePoint. You can use any language, such as HTML, JavaScript, PHP, or .NET, and your favorite web development tools, including Microsoft Visual Studio. For more information, see [Get started developing apps for SharePoint](https://msdn.microsoft.com/en-us/library/jj163980.aspx).
+  - **Custom apps** Your organization can also develop its own apps for SharePoint Online and make them available to users through the App Catalog site. If you know how to build a web application, then you know how to build an app for SharePoint. You can use any language, such as HTML, JavaScript, PHP, or .NET, and your favorite web development tools, including Microsoft Visual Studio. For more information, see [Get started developing apps for SharePoint](/sharepoint/dev/sp-add-ins/get-started-creating-sharepoint-hosted-sharepoint-add-ins).
     
 ## Can I still develop sandboxed solutions?
 <a name="sandboxed"> </a>

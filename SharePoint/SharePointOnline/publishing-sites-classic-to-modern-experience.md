@@ -8,6 +8,7 @@ ms.topic: article
 ms.service: sharepoint-online
 search.appverid: MET150
 localization_priority: Priority
+ms.collection: Strat_SP_modern
 description: "Learn about how to move from publising sites to communication sites in the SharePoint modern experience"
 ...
 
@@ -15,13 +16,13 @@ description: "Learn about how to move from publising sites to communication site
 
 Being able to communicate broadly using attractive sites and pages is a key feature of organization intranets. For example, you might have an HR department home page that serves up important communication to hundreds or thousands of employees.
 
-In the modern experience, Communication sites fulfill the same purpose as traditional publishing sites: to communicate broadly to a large audience while maintaining a level of control on the creation side. Communication sites support most of the same scenarios as publishing sites, and more capabilities are coming soon. Best of all, Communication sites are easier to build and maintain, and include new features such as a modern authoring canvas. They allow you to share news, reports, statuses, and other information in a visually compelling format. To sum up: you can quickly create beautiful pages that look great on mobile devices and that are accessible by default - all without heavy developer investment.
+In the modern experience, Communication sites fulfill the same purpose as traditional publishing sites: to communicate broadly to a large audience while maintaining a level of control on the creation side. Communication sites support most of the same scenarios as publishing sites, and more capabilities are coming soon. Best of all, Communication sites are easier to build and maintain, and include new features such as a modern authoring canvas. They allow you to share news, reports, statuses, and other information in a visually compelling format. To sum up: you can quickly create beautiful pages that look great on mobile devices and that are accessible by default - all without heavy developer investment. You can get inspired with some great examples in the [SharePoint Lookbook](https://sharepointlookbook.azurewebsites.net/).
 
 Traditionally, sites and pages like this have been designed and built using the publishing features of SharePoint – either team sites with publishing enabled, or fully structured publishing sites. You could specify page layouts, design pages, and set up content approval workflows. Publishing features allowed for a tight level of control by a small number of people while allowing broad communication to many people. But with traditional design and deployment of publishing sites, developer involvement is usually required for customization of site functionality, navigation elements, and included investment in master pages, CSS, JavaScript, and web parts. Additionally, traditional site types designed for a PC browser may not work well or look attractive on mobile devices, and design and development efforts are needed to provide proper interaction with tools like screen readers or high-contrast color schemes. With all this, it commonly takes more time and resourcing to build, test and deploy when using the classic publishing infrastructure.
 
+So, how you do move from publishing sites to communication sites? First, know that you don't have to change all of your site collections and sites at once. If you have a very large collection of publishing sites, you can gradually begin using modern sites, pages, and web parts. For example, you can start with creating one or more new Communication sites as home pages for existing sites. If you have several departments in your organization, you can create modern sites and implement modern features one department at a time. You can choose a strategy that works best for the size and scale for your organization. To help with determining your strategy, you can use the SharePoint Modernization scanner tool to find out which classic publishing features are used in your tenant or in a subset of site collections. Find this tool and more information about it in [Modernize classic publishing portals.](/sharepoint/dev/transform/modernize-publishing-portal)
 
-
-So, how you do move from publishing sites to communication sites? Here are some areas to consider:
+When you are ready to begin creating new Communication sites and using modern features, here are some areas to consider:
 
 -   [Structure and navigation](#structure-and-navigation-use-a-hub-site)
 
@@ -37,7 +38,7 @@ So, how you do move from publishing sites to communication sites? Here are some 
 
 -   [Audience targeting](#audience-targeting)
 
-Additionally, the SharePoint Modernization scanner is a tool that you can use to find out which classic publishing features are used in your tenant or in a subset of site collections. Find this tool and more information about it in [Modernize classic publishing portals.](/sharepoint/dev/transform/modernize-publishing-portal)
+
 
 ## Structure and navigation – use a hub site
 
