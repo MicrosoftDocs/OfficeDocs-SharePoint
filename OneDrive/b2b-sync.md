@@ -28,122 +28,137 @@ For people outside your organization to sync shared libraries and folders:
 - External sharing must be enabled for your organization.
 - External sharing must be enabled for the site collection or OneDrive.
 - ADAL must not be enabled.
-- The site, library, or folder must be shared with the person outside the organization. If the folder is shared by the user, it must be through a "Specific people" link that requires sign-in.
+- The site, library, or folder must be shared with the person outside the organization. If the folder is shared by the user, it must be through a link that requires sign-in.
 
-This article describes these requirements in more detail and gives an overview of the B2B Sync experience.
+This article gives an overview of the B2B Sync experience and describes these requirements in more detail.
 
 ## Known issues with this release
 
 - On the Mac, Files On-Demand thumbnails will not display from external organization's sites. Thumbnails will display correctly for files from the user's own organization. 
 
-## Sharing requirements
-
-Users share sites, libraries, and folders in different ways in SharePoint and OneDrive:
-
-- If users are syncing a library or folder, they can right-click it in File Explorer to share it. 
-- Users can go to the SharePoint site, library, or folder and click the Share button to share the it. 
-- Admins can create guest accounts and use the admin center or PowerShell to add them to sites.
-
-B2B Sync works with all these methods of sharing. It has only the following requirements:
-
-- For guests to sync shared content, the content must be shared at the site, library, or folder level. Guests can't sync files that are shared individually. 
-- B2B sync works only when guest accounts are created in the organization, and when the recipient has an Azure AD account. It doesn't work when users share by creating an anonymous access link (also known as "anyone" link or "shareable" link), or when they share with people who have a Microsoft account or other personal account. 
-
-## Disabling ADAL
-
-- On PCs, the Azure AD Authentication Library (ADAL) is not currently supported for B2BSync. If your organization has enabled ADAL with OneDrive.exe or a user was configured using the OneDrive [silent account configuration](use-silent-account-configuration.md) feature (which enables ADAL), you'll need to disable ADAL to preview B2B Sync. 
- 
-    The following command will disable ADAL. OneDrive.exe will need to be restarted after you run this command. The user may need to enter their password after OneDrive restarts. 
-
-    REG ADD HKCU\Software\Microsoft\OneDrive /v EnableADAL /t REG_DWORD /d 0 /f 
- 
-
 
 ## Overview of the B2B Sync experience
 
-When external sharing is enabled in your organization, and for a site, users can share the site externally. 
+Here's an example of what happens after someone at "Contoso" shares a site, library, or folder with someone at "Fabrikam":
 
-[Learn how to share a site](https://support.office.com/article/958771a8-d041-4eb8-b51c-afea2eae3658)
+1. The Fabrikam recipient receives an email like the following. 
 
-[Learn how to share a folder](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c) 
+2. When the recipient clicks the link in the email to go to the shared item, they need to click "Organizational account" to sign in with their Fabrikam account. Behind the scenes, this creates the Contoso guest account in Azure AD.
 
-After the item shared, this happens:
-
-1. The recipient receives an email like the following. 
-
-2. When the recipient clicks the link in the email to go to the shared item, they need to click "Organizational account" to sign in with their work or school account. Behind the scenes, this creates the guest account in Azure AD.
-
-3. The recipient may need to enter their username or password, and then they can view the shared item. If they don't want to sync everything that was shared, they can browse to the library or folder they want to sync. To set up syncing, they need to click the Sync button. 
+3. The recipient may need to enter their Fabrikam username or password, and then they can view the shared item. If they don't want to sync everything that was shared, they can browse to the library or folder they want to sync. To set up syncing, they need to click the Sync button. 
 
 4. The guest’s browser will display up a message asking if they want to open "Microsoft OneDrive," and they will need to allow this. 
 
-5. If this is the first time the guest has used the sync client with this email address, they'll need to sign in. The email address will be automatically set to the account used in the previous steps. Click Sign in.
+5. If this is the first time the guest has used the sync client with their Fabrikam account, they'll need to sign in. The email address will be automatically set to the Fabrikam account used in the previous steps. The guest needs to select "Sign in."
 
-6. The sync client may be able to sign them in without entering password if they are signed into Windows with the same account. Otherwise they'll enter their password and proceed.
+6. The guest might be able to sign in to the sync client without entering their Fabrikam password if they're signed in to Windows with the same account. Otherwise they'll need to enter their password.
  
-7. They'll next confirm the location to place the sync files from the shared site. Note the content is placed in an organization name folder matching the organization owning the content. If the user is syncing content from their own organization’s SharePoint and this content from another organization, they'll have two folders matching the two organization’s names. Click Next to proceed.
+7. The guest will confirm where they want to sync the shard item on their computer. 
 
-8.	The next page will differ based on whether the user's computer has Files On-Demand enabled or not. But after proceeding they'll see the final page of the wizard confirming the site is ready to sync.
+    > [!NOTE]
+    > The content is placed in a folder whose name includes the name of the organization ("SharePoint - Contoso" in this example). If the user is syncing SharePoint content from Fabrikam as well, they'll also have a "SharePoint - Fabrikam" folder. 
 
-9.	After closing the wizard, the site will begin syncing. The user can click the blue cloud icon in the tray to open the OneDrive sync activity center to see the files syncing, open the local folder with the files, or open the SharePoint site in a web browser.
+8.	The next page will differ based on whether the user's computer has Files On-Demand enabled or not. But after proceeding they'll see the final page of the wizard, confirming the site is ready to sync.
+
+9.	After closing the wizard, the site will begin syncing. The user can click the blue cloud icon in the notification area to open the OneDrive sync activity center to see the files syncing, open the local folder with the files, or open the SharePoint site in a web browser.
 
 For more info, see [External sharing overview](/sharepoint/external-sharing-overview)
  
 ## Enable external sharing for your organization 
  
-SharePoint admins may configure both global settings affecting all sites of the organization and per site settings.  Per site settings can be used to restrict sharing further than the global setting but cannot be used to enable broader sharing than global allows.
+To enable B2B Sync, external sharing must be enabled at the organization level. To do this, you must be a global or SharePoint admin in Office 365. After you enable external sharing at the organization level, you can restrict it site by site. A site's settings can be the same as the organization setting, or more restrictive, but not more permissive.
 
-You can change your organization-wide sharing settings in three different places (all three control the same thing):
+You can change your organization-level sharing settings in three different places (all three control the same thing):
 
-•	In the Microsoft 365 admin center, under Settings > Services & add-ins> Sites, in the OneDrive admin center. 
-•	On the Sharing page in the OneDrive admin center (https://docs.microsoft.com/en-us/onedrive/manage-sharing#externalsharing)
-•	On the sharing page in the in the classic SharePoint admin center.
+- In the Microsoft 365 admin center, under Settings > Services & add-ins> Sites. 
+- On the [Sharing page in the OneDrive admin center](manage-sharing#externalsharing.md)
+- On the [sharing page in the in the classic SharePoint admin center](/sharepoint/turn-external-sharing-on-or-off).
 
-Note: If you allow “anyone” links (sometimes referred to as “anonymous access” or “shareable”), these links do not create guest accounts and therefore don’t enable B2B Sync.
+> [!IMPORTANT]
+> If you allow “anyone” links (sometimes referred to as “anonymous access” or “shareable”), these links do not create guest accounts and therefore don’t enable B2B Sync.
 
-For more information please see:
-•	https://docs.microsoft.com/en-us/sharepoint/turn-external-sharing-on-or-off 
+For more info, see:
+•	[External sharing overview](https://docs.microsoft.com/en-us/sharepoint/external-sharing-overview)
 
-## Controlling external sharing
+### Control external sharing
 
 When you allow users to share content from your organization externally, you can use several features in Office 365 to manage who has access to the content. Office 365 admins and site owners can review permissions and audit access to sites. For info, see [Searching for site content shared with external users](/office365/securitycompliance/keyword-queries-and-search-conditions) and [Turn on external sharing notifications](turn-on-external-sharing-notifications.md). You can enable external sharing with only specific internet domains, or you can block specific domains. For info, see [Restricted domains sharing](/sharepoint/restricted-domains-sharing). You can also allow only members of specific security groups to share externally. For info, see [Turn external sharing on or off](/sharepoint/turn-external-sharing-on-or-off)
  
-Microsoft encourages SharePoint users to create separate team sites, one per project, for content being shared externally. Sites can be clearly annotated to indicate that external users have access to avoid unintentional disclosure of information. For individual user's sharing content from their OneDrive for Business site, Microsoft recommends creating separate folders for different projects or collaboration groups. 
+We recommend creating separate sites (site collections, not subsites) for each unit of work that you want to share externally. This way, you can clearly annotate the sites to indicate that external users have access, and avoid unintentional disclosure of information. For individual users sharing content from their OneDrive, we recommend creating separate folders for different projects or collaboration groups. 
   
-External user's permissions can be removed at any time per site or folder, or from all of the organization’s content by deleting the guest account. Please remember that any synced content will remain on the user's computer after permissions have been removed. 
+You can remove a guest's permission to a site or folder, or you can delete the guest account to remove their permission from all of your organization’s content. 
+
+> [!IMPORTANT]
+> Any synced content will remain on the user's computer after permissions have been removed. 
  
 ## Enable external sharing for a site
+
 To view or change the sharing setting for any site, use the new SharePoint admin center.
+
 1.	Sign in to https://admin.microsoft.com as a global or SharePoint admin.
-Note: If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then use the app launcher to go to the admin center. 
-2.	In the left pane, choose Admin centers > SharePoint.
-3.	If the classic SharePoint admin center appears, click Try it now to open the new SharePoint admin center preview.
-4.	Under Sites, click Active sites, and customize the view as necessary to see the External sharing column.
 
+> [!NOTE]
+> If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then use the app launcher to go to the admin center. 
 
-If you need to, change the external sharing setting for a site (https://docs.microsoft.com/en-us/sharepoint/manage-sites-in-new-admin-center#change-the-external-sharing-setting-for-a-site)
- 
- 
-For more information please see:
-•	https://docs.microsoft.com/en-us/sharepoint/turn-external-sharing-on-or-off
-•	https://docs.microsoft.com/en-us/onedrive/manage-sharing
-•	https://docs.microsoft.com/en-us/sharepoint/change-default-sharing-link
- 
- 
-Use the Azure AD admin center to create guest users
-To create guest users individually in the Azure AD admin center, see https://docs.microsoft.com/en-us/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal. 
-8.	Once you've created your Guest accounts you can add them to a SharePoint team site via the site settings permissions dialog or by adding them to a security group that already has permissions to the site you want to share.  You'll need to take care of informing your invited guest by emailing them a link to the site you gave them permission to.
+2.	In the left pane, choose **Admin centers** > **SharePoint**.
+3.	If the classic SharePoint admin center appears, click **Try it now** to open the new SharePoint admin center preview.
+4.	Under **Sites**, click **Active sites**, and customize the view as necessary to see the External sharing column.
 
-You can also use the SharePoint share flow to share to these existing guest accounts by simply entering the same email address used to create the account.  In this case the share flow has an option to send an email to the share recipient.
+If you need to, [change the external sharing setting for a site](/sharepoint/manage-sites-in-new-admin-center#change-the-external-sharing-setting-for-a-site).
+ 
+## Disable ADAL
+
+On PCs, the Azure AD Authentication Library (ADAL) is not currently supported for B2B Sync. If your organization has enabled ADAL with OneDrive.exe, or a user was configured using the OneDrive [silent account configuration](use-silent-account-configuration.md) feature (which enables ADAL), you'll need to disable ADAL to preview B2B Sync. 
+
+> [!IMPORTANT]
+> If you have device-based conditional access features enabled in Azure AD (where Intune marks a device as being in compliance with IT policies by placing a certificate on the device), you should not disable ADAL to use B2B Sync. If you disable ADAL, the sync client won't be able to sign in. Location-based access policies and general MFA (multi-factor authentication) policies should still be compatible with the sync client's non-ADAL based authentication library.
+ 
+Run the following command to disable ADAL. 
+
+    REG ADD HKCU\Software\Microsoft\OneDrive /v EnableADAL /t REG_DWORD /d 0 /f 
+
+After you run the command, users will need to:
+
+1. Close the sync client (right-click the OneDrive icon in the notification area and select "Close OneDrive.")
+2. In the search box on the taskbar, enter "OneDrive," and then click OneDrive in the search results. Users may need to enter their password after OneDrive restarts. 
+
+If you need to re-enable ADAL in the future, run the following command:
+REG DELETE HKCU\Software\Microsoft\OneDrive /v EnableADAL
+
+The guest's PC also can't use ADAL. If ADAL is enabled on the guest's PC, the following error will appear. 
+
+## Methods of sharing
+
+Sites, libraries, and folders can be shared in different ways in SharePoint and OneDrive:
+
+- If users are syncing a library or folder, they can right-click it in File Explorer to share it. 
+- Users can go to the SharePoint site, library, or folder and click the Share button to share the it. 
+- Admins can create guest accounts and use the admin center or PowerShell to add them to sites.
+
+> [!NOTE]
+> For more info about these methods, see [Learn how to share a site](https://support.office.com/article/958771a8-d041-4eb8-b51c-afea2eae3658) and [Learn how to share a folder](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c). 
+
+B2B Sync works with all these methods of sharing. It has only the following requirements:
+
+- For guests to sync shared content, the content must be shared at the site, library, or folder level. Guests can't sync files that are shared individually (for example, from the Office desktop apps). 
+- B2B sync works only when guest accounts are created in the organization, and when the recipient has an Azure AD account. It doesn't work when users share by creating an anonymous access link (also known as "anyone" link or "shareable" link), or when they share with people who have a Microsoft account or other personal account. 
+
+ 
+### Add guests to SharePoint sites
+
+As an admin in Office 365, you can share with people outside the organization by [creating guest users individually in the Azure AD admin center](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal), and then adding them to a SharePoint team site individually or by adding them to a security group that already has permissions to the site you want to share. If you grant permissions by using the advanced permissions page (instead of by using the Share site button), you'll need to inform the guest that you've given them permission to the site. They won't receive an invitation email. 
+
+> [!IMPORTANT]
+> If you use the advanced permissions page, we recommend granting permissions at the site level, not at the document library or folder level.   
+ 
+### Use PowerShell to bulk create guest accounts and add them to a SharePoint group
+
+If you need to create and grant permissions to many guest accounts, you can use the following PowerShell script, which creates guest accounts and grants them permissions to a site. The script takes a CSV (comma separated value) file as input, which contains a list of user display names and email addresses. For each name and email address, a guest account is created and that account is added to a security group to grant it permission. The script is designed so that you can feed the resulting output CSV as input to the script on a subsequent run. This lets you add more users to your CSV file or retry creating any failed account.
+ 
+Once you've run the script, you'll need to email the users with a direct link to the SharePoint site you gave them permissions to. When they click the link, they'll be presented with the below UI to accept the terms of the invitation. Once they accept, they will be taken to the site you shared with them. At that point they can click the Sync button to begin syncing the sites files to their PC or Mac.
  
  
-Use PowerShell to bulk create guest accounts for external users and add them to a SharePoint site's group
-You may find you need to create and grant permissions to many external users.  Below is a PowerShell script which creates guess accounts and grants them permissions to a site.  The script takes an Excel CSV (comma separated value) file as input which contains a list of user display names and email addresses.  For each name and email address, a guest account is created and that account is added a security group to grant it permission.  The script is designed so that you can feed the resulting output CSV as input to the script on a subsequent run.  This enables you to add more users to your CSV file or to reattempt creating any failed account.
- 
-Once you've run the script, you'll need to email the users with a direct link to the SharePoint site you gave them permissions to.  When they click the link, they'll be presented with the below UI to accept the terms of the invitation.  Once they accept, they will be taken to the site you shared with them.  At that point they can click the sync button to begin syncing the sites files to their PC or Mac.
- 
- 
- 
+```PowerShell
 PowerShell InviteGuests.ps1
 # requires latest AzureADPreview
 # Get-Module -ListAvailable AzureAD*
@@ -216,14 +231,15 @@ foreach ($row in $csv)
 }
  
 # for more information please see
-# https://docs.microsoft.com/ azure/active-directory/b2b/b2b-tutorial-bulk-invite
+# https://docs.microsoft.com/azure/active-directory/b2b/b2b-tutorial-bulk-invite
 # end of InviteGuests.ps1 powershell script
+``` 
  
-For more information see:
-•	https://docs.microsoft.com/ azure/active-directory/b2b/redemption-experience
-•	https://docs.microsoft.com/ azure/active-directory/b2b/add-user-without-invite
+For more info, see:
+•	[Redemption experience](/azure/active-directory/b2b/redemption-experience)
+•	[Add user without invite](/azure/active-directory/b2b/add-user-without-invite)
 
-When a guest loses access to a shared library
+## When a guest loses access to a shared library
  
 If a person’s guest account is deleted or their permission to a library being synced is removed, the sync client will indicate there is a problem with the library.
  
@@ -237,3 +253,7 @@ When the guest clicks the icon, they will see an error banner in the activity ce
  
  
 When they click the “One or more libraries could not be synced” banner, they can learn how to resolve the issue.
+
+
+
+ 
