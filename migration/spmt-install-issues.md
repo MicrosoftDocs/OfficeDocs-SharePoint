@@ -28,7 +28,7 @@ If you are having issues loading the SharePoint Migration tool, here are a few i
 |Microsoft Visual C++ 2015 Redistributable for X64.|SPMT is trying to add all the redistributions in packages, but missing some system dlls. Trying to install the package might help to resolve all the dependencies. Download: [Microsoft Visual C++ 2015 Redistributable Update 3 RC](https://www.microsoft.com/en-us/download/details.aspx?id=52685).|
 
 
-### **Install Errors**
+### **Install errors**
 
 |**Error**|**Suggested action**|
 |:-----|:-----|
