@@ -56,7 +56,7 @@ Download and install the SharePoint Migration Tool using Internet Explorer, Edge
 1. Download the current release here: [SharePoint Migration Tool](http://spmtreleasescus.blob.core.windows.net/install/default.htm).
 
 >[!NOTE]
->New public preview release: Download here: [SPMT V3 Public Preview](http://spmtreleasescus.blob.core.windows.net/install/default.htm)  (insert updated link)
+>A new public preview release is now available: Download here: [SPMT V3 Public Preview](http://spmtreleasescus.blob.core.windows.net/install/default.htm)  (insert updated link)
     
 2. Click **Install**.
     
