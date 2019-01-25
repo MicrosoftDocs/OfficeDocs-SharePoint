@@ -3,7 +3,6 @@ title: "Plan incoming email for a SharePoint Server farm"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 3/12/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
