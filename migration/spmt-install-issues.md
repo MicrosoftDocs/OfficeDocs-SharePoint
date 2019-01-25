@@ -11,7 +11,7 @@ ms.collection:
 - Strat_SP_gtc
 ms.custom: 
 
-description: "Troubleshooting common installation errors in the SharePoint Migration Tool."
+description: "Troubleshoot common installation errors in the SharePoint Migration Tool."
 ---
 ## Troubleshooting SPMT installation issues
 
