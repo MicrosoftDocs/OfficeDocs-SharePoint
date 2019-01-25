@@ -43,9 +43,15 @@ Here's an example of what happens after someone at "Contoso" shares a site, libr
 
 1. The Fabrikam recipient receives an email like the following. 
 
+    ![A sharing invitation email](media/sharing-invitation.png)
+
 2. When the recipient clicks the link in the email to go to the shared item, they need to click "Organizational account" to sign in with their Fabrikam account. Behind the scenes, this creates the Contoso guest account in Azure AD.
 
+    ![Accepting an invitation](media/accept-invitation.png)
+
 3. The recipient may need to enter their Fabrikam username or password, and then they can view the shared item. If they don't want to sync everything that was shared, they can browse to the library or folder they want to sync. To set up syncing, they need to click the Sync button. 
+
+    ![The Sync button in a SharePoint document library](media/sync-button.png)
 
 4. The guest’s browser will display up a message asking if they want to open "Microsoft OneDrive," and they will need to allow this. 
 
@@ -53,16 +59,14 @@ Here's an example of what happens after someone at "Contoso" shares a site, libr
 
 6. The guest might be able to sign in to the sync client without entering their Fabrikam password if they're signed in to Windows with the same account. Otherwise they'll need to enter their password.
  
-7. The guest will confirm where they want to sync the shard item on their computer. 
+7. The guest will confirm where they want to sync the shared item on their computer. 
 
     > [!NOTE]
     > The content is placed in a folder whose name includes the name of the organization ("SharePoint - Contoso" in this example). If the user is syncing SharePoint content from Fabrikam as well, they'll also have a "SharePoint - Fabrikam" folder. 
 
-8.	The next page will differ based on whether the user's computer has Files On-Demand enabled or not. But after proceeding they'll see the final page of the wizard, confirming the site is ready to sync.
+8.	The guest will continue through the OneDrive sync client setup wizard.
 
-9.	After closing the wizard, the site will begin syncing. The user can click the blue cloud icon in the notification area to open the OneDrive sync activity center to see the files syncing, open the local folder with the files, or open the SharePoint site in a web browser.
-
-For more info, see [External sharing overview](/sharepoint/external-sharing-overview)
+9.	After closing the wizard, the site will begin syncing. The user can click the blue cloud icon in the notification area to open the OneDrive sync activity center and see the files syncing, open the local folder with the files, or open the SharePoint site in a web browser.
  
 ## Enable external sharing for your organization 
  
@@ -95,16 +99,15 @@ You can remove a guest's permission to a site or folder, or you can delete the g
 
 To view or change the sharing setting for any site, use the new SharePoint admin center.
 
-1.	Sign in to https://admin.microsoft.com as a global or SharePoint admin.
+1. Sign in to https://admin.microsoft.com as a global or SharePoint admin.
 
 > [!NOTE]
 > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then use the app launcher to go to the admin center. 
 
-2.	In the left pane, choose **Admin centers** > **SharePoint**.
-3.	If the classic SharePoint admin center appears, click **Try it now** to open the new SharePoint admin center preview.
-4.	Under **Sites**, click **Active sites**, and customize the view as necessary to see the External sharing column.
-
-If you need to, [change the external sharing setting for a site](/sharepoint/manage-sites-in-new-admin-center#change-the-external-sharing-setting-for-a-site).
+2. In the left pane, choose **Admin centers** > **SharePoint**.
+3. If the classic SharePoint admin center appears, click **Try it now** to open the new SharePoint admin center preview.
+4. Under **Sites**, click **Active sites**, and customize the view as necessary to see the External sharing column.
+5. If you need to, [change the external sharing setting for a site](/sharepoint/manage-sites-in-new-admin-center#change-the-external-sharing-setting-for-a-site).
  
 ## Disable ADAL
 
@@ -127,12 +130,15 @@ REG DELETE HKCU\Software\Microsoft\OneDrive /v EnableADAL
 
 The guest's PC also can't use ADAL. If ADAL is enabled on the guest's PC, the following error will appear. 
 
+![OneDrive can't add your folder right now message](media/guest-pc-adal.png) 
+
 ## Methods of sharing
 
 Sites, libraries, and folders can be shared in different ways in SharePoint and OneDrive:
 
-- If users are syncing a library or folder, they can right-click it in File Explorer to share it. 
-- Users can go to the SharePoint site, library, or folder and click the Share button to share the it. 
+- If users are syncing a folder, they can right-click it in File Explorer to share it. 
+- Users can go to the SharePoint site or folder on the web and click the Share button to share the it. 
+- Users can share sites and folders in the SharePoint and OneDrive mobile apps.
 - Admins can create guest accounts and use the admin center or PowerShell to add them to sites.
 
 > [!NOTE]
@@ -140,7 +146,7 @@ Sites, libraries, and folders can be shared in different ways in SharePoint and 
 
 B2B Sync works with all these methods of sharing. It has only the following requirements:
 
-- For guests to sync shared content, the content must be shared at the site, library, or folder level. Guests can't sync files that are shared individually (for example, from the Office desktop apps). 
+- For guests to sync shared content, the content must be shared at the site, library, or folder level. Guests can't sync files that are shared individually (for example, from the Office apps). 
 - B2B sync works only when guest accounts are created in the organization, and when the recipient has an Azure AD account. It doesn't work when users share by creating an anonymous access link (also known as "anyone" link or "shareable" link), or when they share with people who have a Microsoft account or other personal account. 
 
  
@@ -156,6 +162,8 @@ As an admin in Office 365, you can share with people outside the organization by
 If you need to create and grant permissions to many guest accounts, you can use the following PowerShell script, which creates guest accounts and grants them permissions to a site. The script takes a CSV (comma separated value) file as input, which contains a list of user display names and email addresses. For each name and email address, a guest account is created and that account is added to a security group to grant it permission. The script is designed so that you can feed the resulting output CSV as input to the script on a subsequent run. This lets you add more users to your CSV file or retry creating any failed account.
  
 Once you've run the script, you'll need to email the users with a direct link to the SharePoint site you gave them permissions to. When they click the link, they'll be presented with the below UI to accept the terms of the invitation. Once they accept, they will be taken to the site you shared with them. At that point they can click the Sync button to begin syncing the sites files to their PC or Mac.
+
+![Accepting a sharing invitation](media/accept-invitation-message.png)
  
  
 ```PowerShell
@@ -236,24 +244,27 @@ foreach ($row in $csv)
 ``` 
  
 For more info, see:
-•	[Redemption experience](/azure/active-directory/b2b/redemption-experience)
-•	[Add user without invite](/azure/active-directory/b2b/add-user-without-invite)
+- [Redemption experience](/azure/active-directory/b2b/redemption-experience)
+- [Add user without invite](/azure/active-directory/b2b/add-user-without-invite)
 
 ## When a guest loses access to a shared library
  
 If a person’s guest account is deleted or their permission to a library being synced is removed, the sync client will indicate there is a problem with the library.
  
-•	A notification will appear indicating that the library can’t be synced.
- 
- 
-•	The OneDrive icon in the notification area will show an error.
+- A notification will appear indicating that the library can’t be synced.
+
+    ![We can't sync your document library notification](media/cant-sync-notification.png) 
+- The OneDrive icon in the notification area will show an error.
+
+    ![OneDrive sync error icon](media/onedrive-error-icon.png) 
  
  
 When the guest clicks the icon, they will see an error banner in the activity center.
  
- 
+![OneDrive needs your attention message](media/error-activity-center.png) 
+
 When they click the “One or more libraries could not be synced” banner, they can learn how to resolve the issue.
 
-
+![Request access or stop syncing library](media/error-resolution.png) 
 
  
