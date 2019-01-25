@@ -22,7 +22,7 @@ Designed to be used for migrations ranging from the smallest set of files to a l
 
 If you prefer using PowerShell, all SPMT functionality is supported. For more information see: [Migrate to SharePoint Online using PowerShell](overview-spmt-ps-cmdlets.md).
 
-## What Migrates?
+## Features
 SPMT allows you to migrate the following:
 
 **On-premises fileshares**
