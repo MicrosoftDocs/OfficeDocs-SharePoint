@@ -22,9 +22,10 @@ Designed to be used for migrations ranging from the smallest set of files to a l
 
 ## What Migrates?
 The SPMT allows you to migrate the following:
-- On-premises fileshares
-- 
-SharePoint Point 2013
+
+**On-premises fileshares**
+
+**SharePoint Point 2013**
 -  Document libraries
 -  SharePoint list templates (see supported list here)
 -  "Out of the Box" SharePoint sites - sites that do not use any coding or 3rd party tools
