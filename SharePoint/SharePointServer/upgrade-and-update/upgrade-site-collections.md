@@ -22,7 +22,7 @@ description: "Learn how to upgrade a site collection to SharePoint Server 2016, 
   
 ## Articles about how to upgrade site collections
 
-|**        ![Building blocks](../media/mod_icon_buildingblock_M.png)          Content**|**Description**|
+|![Building blocks](../media/mod_icon_buildingblock_M.png)|**Description**|
 |:-----|:-----|
 |[Upgrade a site collection to SharePoint Server 2016](upgrade-a-site-collection.md) <br/> |Site collection administrators can preview a copy of their sites in SharePoint Server 2016 mode, upgrade their site collections, and then review them for issues.  <br/> |
 |[Upgrade My Sites to SharePoint Server 2016](upgrade-my-sites.md) <br/> |Learn how to upgrade My Sites in SharePoint Server 2016.  <br/> |
