@@ -75,7 +75,7 @@ To enable B2B Sync, external sharing must be enabled at the organization level. 
 You can change your organization-level sharing settings in three different places (all three control the same thing):
 
 - In the Microsoft 365 admin center, under Settings > Services & add-ins> Sites. 
-- On the [Sharing page in the OneDrive admin center](manage-sharing#externalsharing.md)
+- On the [Sharing page in the OneDrive admin center](/manage-sharing#control-external-sharing-for-onedrive-and-sharepoint.md)
 - On the [sharing page in the in the classic SharePoint admin center](/sharepoint/turn-external-sharing-on-or-off).
 
 > [!IMPORTANT]
