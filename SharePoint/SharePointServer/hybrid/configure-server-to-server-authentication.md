@@ -24,7 +24,10 @@ description: "Learn how to build a server-to server trust between SharePoint Ser
 [!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)] 
   
  **This article is part of a roadmap of procedures for configuring SharePoint hybrid solutions. Be sure you're [following a roadmap](configuration-roadmaps.md) when you do the procedures in this article. **
-  
+
+> [!NOTE] 
+> We recommend using the [SharePoint Hybrid Picker](hybrid-picker-in-the-sharepoint-online-admin-center.md) to establish the Server-to-Server authentication between SharePoint Server and SharePoint Online.
+
 ## Configure server-to-server authentication
 
 This article provides guidance for the SharePoint hybrid environment deployment process, which integrates SharePoint Server and SharePoint Online.
@@ -169,7 +172,7 @@ To install the online service management tools and configure the PowerShell wind
   Add-PSSnapin Microsoft.SharePoint.PowerShell
   Import-Module Microsoft.PowerShell.Utility
   Import-Module MSOnline -force
-  Import-Module MSOnlineExtended -force
+  Import-Module MSOnlineExt -force
   Import-Module Microsoft.Online.SharePoint.PowerShell -force
   ```
 
