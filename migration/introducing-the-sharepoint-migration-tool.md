@@ -44,7 +44,7 @@ You can download and install the SharePoint Migration Tool using Internet Explor
     
 ## See also
 
-Planning is the key to a successful data migration to SharePoint Online. The SharePoint Migration Assessment Tool (SMAT) is a simple command line executable that will scan the contents of your SharePoint farm to help identify any issues with data you plan to migrate to SharePoint Online. The results report points you to articles to help you fix any issues that were discovered. The tool runs in the background without impacting your production environment.
+Planning is the key to a successful data migration to SharePoint Online. The SharePoint Migration Assessment Tool (SMAT) is a simple command line executable that will scan the contents of your SharePoint Server farm to help identify any issues with data you plan to migrate to SharePoint Online. The results report points you to articles to help you fix any issues that were discovered. The tool runs in the background without impacting your production environment.
   
 To download the tool: [SharePoint Migration Assessment Tool (SMAT)](https://www.microsoft.com/en-us/download/details.aspx?id=53598&amp;751be11f-ede8-5a0c-058c-2ee190a24fa6=True)
   
