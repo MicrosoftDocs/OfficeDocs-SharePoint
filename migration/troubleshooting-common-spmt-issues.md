@@ -44,7 +44,7 @@ description: "How to troubleshoot common errors in the SharePoint Migration Tool
 |0x02050001|All files and folders in the SPMT working folder, *%appdata%\Microsoft\MigrationToolStorage*, must be closed. Restart your migration.|
 |0x02010002|Check your network status.  If you can access the source sites from a browser, then create a support case.|
 |0x02010010|Make sure the source list and target list have the same template. |
-|0x0204000D|All files and folders in the SPMT working folder, %appdata%\Microsoft\MigrationToolStorage, must be closed during migration. Restart your migration.|
+|0x0204000D|All files and folders in the SPMT working folder, *%appdata%\Microsoft\MigrationToolStorage*, must be closed during migration. Restart your migration.|
 |0x02080001|The file in the package has been changed or deleted while uploading. All files and folders in the SPMT working folder, %appdata%\Microsoft\MigrationToolStorage, must be closed. Restart your migration.|
 |0x02010006|The source SharePoint site does not have any defined role definitions. Check to see if your role exists when accessing source site.|
 |0x02040009|The package can’t be created because the directory cannot be found.  All files and folders in the SPMT working folder, %appdata%\Microsoft\MigrationToolStorage, must be closed. Restart your migration.|
