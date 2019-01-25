@@ -16,7 +16,7 @@ description: "Overview of the SharePoint Migration Tool."
 
 # Overview of the SharePoint Migration Tool
 
-The SharePoint Migration Tool lets you migrate content from your SharePoint Server 2013 on-premises document libraries or from your on-premises file shares and easily move them to either SharePoint or OneDrive in Office 365. 
+The SharePoint Migration Tool lets you migrate content from SharePoint Server 2013 or from on-premises file shares and easily move them to either SharePoint or OneDrive in Office 365. 
   
 Designed to be used for migrations ranging from the smallest set of files to a large scale enterprise migration, the SharePoint Migration Tool will let you bring your information to the cloud and take advantage of the latest collaboration, intelligence, and security solutions with Office 365.
 
