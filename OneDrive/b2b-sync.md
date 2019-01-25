@@ -21,6 +21,21 @@ The OneDrive sync client now lets users sync libraries or folders in SharePoint 
   
 Azure Active Directory (AAD) guest accounts play a key role in making B2B Collaboration possible. A guest account at one organization links to a member account at another organization. Once created, a guest account allows Office 365 services like OneDrive and SharePoint to grant a guest permission to sites and folders the same way a member within the organization is granted permission. Since the accounts at two organizations are linked, the user only needs to remember the username and password for the account at their organization. As a result, a single sign in to their account enables access to content from their own organization and from any other organization that have created guest accounts for them. 
  
+## B2B Sync requirements
+
+For people outside your organization to sync shared libraries and folders:
+
+- External sharing must be enabled for your organization.
+- External sharing must be enabled for the site collection or OneDrive.
+- ADAL must not be enabled.
+- The site, library, or folder must be shared with the person outside the organization. If the folder is shared by the user, it must be through a "Specific people" link that requires sign-in.
+
+This article describes these requirements in more detail and gives an overview of the B2B Sync experience.
+
+## Known issues with this release
+
+- On the Mac, Files On-Demand thumbnails will not display from external organization's sites. Thumbnails will display correctly for files from the user's own organization. 
+
 ## Sharing requirements
 
 Users share sites, libraries, and folders in different ways in SharePoint and OneDrive:
@@ -34,7 +49,7 @@ B2B Sync works with all these methods of sharing. It has only the following requ
 - For guests to sync shared content, the content must be shared at the site, library, or folder level. Guests can't sync files that are shared individually. 
 - B2B sync works only when guest accounts are created in the organization, and when the recipient has an Azure AD account. It doesn't work when users share by creating an anonymous access link (also known as "anyone" link or "shareable" link), or when they share with people who have a Microsoft account or other personal account. 
 
-## Known issues with this preview release
+## Disabling ADAL
 
 - On PCs, the Azure AD Authentication Library (ADAL) is not currently supported for B2BSync. If your organization has enabled ADAL with OneDrive.exe or a user was configured using the OneDrive [silent account configuration](use-silent-account-configuration.md) feature (which enables ADAL), you'll need to disable ADAL to preview B2B Sync. 
  
@@ -42,7 +57,7 @@ B2B Sync works with all these methods of sharing. It has only the following requ
 
     REG ADD HKCU\Software\Microsoft\OneDrive /v EnableADAL /t REG_DWORD /d 0 /f 
  
-- On the Mac, Files On-Demand thumbnails will not display from external organization's sites. Thumbnails will display correctly for files from the user's own organization. 
+
 
 ## Overview of the B2B Sync experience
 
