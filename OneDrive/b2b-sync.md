@@ -81,8 +81,7 @@ You can change your organization-level sharing settings in three different place
 > [!IMPORTANT]
 > If you allow “anyone” links (sometimes referred to as “anonymous access” or “shareable”), these links do not create guest accounts and therefore don’t enable B2B Sync.
 
-For more info, see:
-•	[External sharing overview](https://docs.microsoft.com/en-us/sharepoint/external-sharing-overview)
+For more info, see [External sharing overview](https://docs.microsoft.com/en-us/sharepoint/external-sharing-overview).
 
 ### Control external sharing
 
