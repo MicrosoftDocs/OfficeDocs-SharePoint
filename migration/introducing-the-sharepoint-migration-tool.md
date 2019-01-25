@@ -42,8 +42,6 @@ SPMT allows you to migrate the following:
 ** Available only in SPMT V3 Public Preview
 
 >[!NOTE]
->Click here to download [SharePoint Migration Tool](http://spmtreleasescus.blob.core.windows.net/install/default.htm).  
-<br>
 >The **SharePoint Migration Tool** is not available for users of Office 365 operated by 21Vianet in China. It is also not available for users of Office 365 with the German cloud using the data trustee, *German Telekom*. However, it is supported for users in Germany whose data location is not in the German datacenter.
  
 
