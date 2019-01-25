@@ -1,5 +1,4 @@
 # [Migrate  to SharePoint Online](migrate-to-sharepoint-online.md)
-## [SharePoint Online and OneDrive Migration Speed](sharepoint-online-and-onedrive-migration-speed.md)
 ##  SharePoint Migration Tool (SPMT)
 ### [Overview of the SharePoint Migration Tool](introducing-the-sharepoint-migration-tool.md)
 ### [SharePoint Migration Tool Release Notes](new-and-improved-features-in-the-sharepoint-migration-tool.md)
@@ -10,6 +9,7 @@
 ### [Troubleshooting SPMT installation issues](spmt-install-issues.md)
 ## [Migrate to SharePoint Online using PowerShell](overview-SPMT-PS-cmdlets.md)
 ## [Migrate to SharePoint Online using the Azure Data Box](how-to-migrate-file-share-content-to-SPO-using-AzureDataBox.md)
+## [SharePoint Online and OneDrive Migration Speed](sharepoint-online-and-onedrive-migration-speed.md)
 ## SharePoint Migration Assessment Tool
 ### [Overview of the SharePoint Migration Assessment Tool](overview-of-the-sharepoint-migration-assessment-tool.md)
 ### [SharePoint Migration Assessment Tool:  Scan Reports Roadmap](sharepoint-migration-assessment-toolscan-reports-roadmap.md)
