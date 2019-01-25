@@ -14,7 +14,7 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
 ms.custom: 
-description: "This article explains the factors that influence migration speed at each phase while using the SharePoint Online Migration API ."
+description: "This article explains the factors that influence migration speed at each phase while using the SharePoint Online Migration API."
 ---
 
 # Best practices for improving SharePoint and OneDrive migration performance
@@ -25,12 +25,9 @@ Migration performance can be impacted by network infrastructure, file size, migr
 
 Currently, Microsoft's [SharePoint Migration Tool (SPMT)](https://docs.microsoft.com/en-us/sharepointmigration/introducing-the-sharepoint-migration-tool) as well as several third party vendor tools utilize the SharePoint API for migration. It leverages Azure and uses channels for large content transfer.  Regardless of which migration tool you use, these factors will apply. Follow the recommendations listed below for each phase of your migration process.
 
-
-
 ## Before migration
 
-Planning is the key to optimizing your migration.  Determine what content you need to migrate,  prioritize when the content needs to be migrated, and decide on what the optimal migration infrastructure should be. 
-
+Planning is the key to optimizing your migration.  Determine what content you need to migrate,  prioritize when the content needs to be migrated, and decide on what the optimal migration infrastructure should be.
 
 ### I. Scan the source
 
