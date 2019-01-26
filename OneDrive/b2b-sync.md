@@ -32,7 +32,7 @@ For people outside your organization to sync shared libraries and folders:
 - External sharing must be enabled for your organization.
 - External sharing must be enabled for the site collection or OneDrive.
 - ADAL must not be enabled.
-- The site, library, or folder must be shared with the person outside the organization. If the folder is shared by the user, it must be through a link that requires sign-in.
+- The content must be shared with people outside the organization at the site, library, or folder level. If a folder is shared, it must be through a link that requires sign-in.
 
 This article gives an overview of the B2B Sync experience and describes these requirements in more detail.
 
