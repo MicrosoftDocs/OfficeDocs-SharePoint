@@ -101,12 +101,12 @@ You can remove a guest's permission to a site or folder, or you can delete the g
 
 To view or change the sharing setting for any site, use the new SharePoint admin center.
 
-1. Sign in to https://admin.microsoft.com as a global or SharePoint admin.
-
-> [!NOTE]
-> If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then use the app launcher to go to the admin center. 
-
-2. In the left pane, choose **Admin centers** > **SharePoint**.
+1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
+    
+    > [!NOTE]
+    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
+    
+2. In the left pane, choose **Admin centers** \> **SharePoint**. 
 3. If the classic SharePoint admin center appears, click **Try it now** to open the new SharePoint admin center preview.
 4. Under **Sites**, click **Active sites**, and customize the view as necessary to see the External sharing column.
 5. If you need to, [change the external sharing setting for a site](/sharepoint/manage-sites-in-new-admin-center#change-the-external-sharing-setting-for-a-site).
