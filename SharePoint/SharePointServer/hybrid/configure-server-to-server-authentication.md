@@ -169,7 +169,7 @@ To install the online service management tools and configure the PowerShell wind
   Add-PSSnapin Microsoft.SharePoint.PowerShell
   Import-Module Microsoft.PowerShell.Utility
   Import-Module MSOnline -force
-  Import-Module MSOnlineExtended -force
+  Import-Module MSOnlineExt -force
   Import-Module Microsoft.Online.SharePoint.PowerShell -force
   ```
 
