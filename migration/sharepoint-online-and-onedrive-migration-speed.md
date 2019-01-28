@@ -13,6 +13,8 @@ ms.collection:
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
+- SPMigration
+search.appverid: MET150
 ms.custom: 
 description: "This article explains the factors that influence migration speed at each phase while using the SharePoint Online Migration API."
 ---

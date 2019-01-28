@@ -9,6 +9,8 @@ localization_priority: Priority
 ms.collection: 
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
+- SPMigration
+search.appverid: MET150
 ms.custom: 
 
 description: "Troubleshoot common installation errors in the SharePoint Migration Tool."
