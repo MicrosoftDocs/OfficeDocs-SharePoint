@@ -11,6 +11,7 @@ localization_priority: Priority
 ms.collection: 
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
+- SPMigration
 ms.custom: 
 ms.assetid: 742b5502-08e8-47f8-83c4-afb521725cb2
 

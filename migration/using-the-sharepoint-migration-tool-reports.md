@@ -8,6 +8,8 @@ ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
+mscollection:  SPMigration
+search.appverid: MET150
 ms.assetid: 3b2c0f56-1a46-4b48-bee7-96bda469dc79
 
 ---

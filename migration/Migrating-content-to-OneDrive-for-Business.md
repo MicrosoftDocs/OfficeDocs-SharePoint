@@ -11,7 +11,9 @@ localization_priority: Priority
 ms.collection: 
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
-ms.custom: 
+- SPMigration
+search.appverid: MET150
+s.custom: 
 
 description: "Migrating Content to OneDrive for Business."
 ---
