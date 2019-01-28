@@ -11,6 +11,7 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
 - SPMigration
+search.appverid: MET150
 description: "Overview of the SharePoint Migration Tool"
 ---
 

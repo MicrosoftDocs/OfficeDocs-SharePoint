@@ -8,6 +8,8 @@ ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
+mscollection: SPMigration
+search.appverid: MET150
 ms.assetid: 
 description: "Understanding how permissions work when migrating data from on-premises to SPO using the SharePoint Migration Tool"
 ---
