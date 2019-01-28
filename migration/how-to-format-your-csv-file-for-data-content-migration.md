@@ -12,6 +12,8 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
 - Migration
+- SPMigration
+search.appverid: MET150
 ms.custom: 
 ms.assetid: 
 description: "How to format your JSON or CSV file for data content migration"

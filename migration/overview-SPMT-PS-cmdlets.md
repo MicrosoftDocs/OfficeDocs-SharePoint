@@ -13,7 +13,8 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
-ms.custom: 
+- SPMigration
+search.appverid: MET150
 description: "New Powershell cmdlets let you migrate to SharePoint Online."
 ---
 
