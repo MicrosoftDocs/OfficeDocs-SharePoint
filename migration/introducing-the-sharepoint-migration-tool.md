@@ -36,7 +36,7 @@ SPMT allows you to migrate the following:
 - Site description ** 
 - SharePoint webparts [(see supported list here)](spmt-supported-webparts.md) **
 -  Pages, including any pages in site asset library **
-- Managed metadata, including content types and Global and local term stores **
+- Managed metadata, including content types and term stores. Migration of global term store requires Global Tenant Admin permissions. **
 
 
 ** Available only in SPMT V3 Public Preview
