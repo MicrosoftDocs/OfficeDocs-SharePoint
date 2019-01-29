@@ -12,13 +12,39 @@ search.appverid: MET150
 description: "Learn about the new features and updates to existing features in SharePoint Migration Tool."
 ---
 
-# Release Notes:  New and improved features in the SharePoint Migration Tool
+# Release Notes:  New and improved features in the SharePoint Migration Tool (SPMT)
 
 Learn about the new features and updates to existing features in SharePoint Migration Tool.
   
 >[!NOTE]
->To install the current release download here: [SharePoint Migration Tool](http://spmtreleasescus.blob.core.windows.net/install/default.htm)
+>To install the current release download here: [SharePoint Migration Tool ](http://spmtreleasescus.blob.core.windows.net/install/default.htm)
 
+>[!NOTE]
+>To install the new public preview release: [SharePoint Migration Tool Public Preview V3.](http://spmtreleasescus.blob.core.windows.net/install/default.htm)
+
+### SPMT V3.0
+
+**New features**
+
+The following features were added to the SharePoint Migration Tool Public Preview V3.0.
+
+|**Feature**|**Description**|
+|:-----|:-----|
+|Site migration|SharePoint sites that are "out of the box" - sites that do not use any coding or 3rd party tools - can now be migrated. |
+|Navigation|Migration of navigation and icons is now supported.|
+|Site descriptions|Site description can now be migrated.|
+|SharePoint webparts|SPMT now supports the migration of SharePoint webparts. See the full list of SPMT supported web parts: [SPMT Supported SharePoint Webparts](spmt-supported-webparts.md).|
+|Page migration|Pages, including any pages in the site asset library, can now be migrated.|
+|Managed metadata|This release supports the migration of content types and term stores. Global term store migration requires global tenant admin permissions.|
+
+**Improvements**
+
+In addition to several minor fixes, here are the primary improvements made in this release:
+
+|**Issue**|**Fix**|
+|:----|:-----|
+|Stability|General improvements have been made to remove some errors in tool.|
+</br></br>
 ### SPMT V2.1.102.0
 
 **New features**

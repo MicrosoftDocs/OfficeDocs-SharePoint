@@ -7,8 +7,12 @@
 ### [Create a user mapping file when using the SharePoint Migration Tool](create-a-user-mapping-file-for-data-content-migration.md)
 ### [SPMT Supported List Templates](sharepoint-migration-supported-list-templates.md)
 ### [SPMT Supported Webparts](spmt-supported-webparts.md)
+### [Troubleshooting SPMT installation issues](spmt-install-issues.md)
 ## [Migrate to SharePoint Online using PowerShell](overview-SPMT-PS-cmdlets.md)
 ## [Migrate to SharePoint Online using the Azure Data Box](how-to-migrate-file-share-content-to-SPO-using-AzureDataBox.md)
+## Migration Guides
+### [Box to OneDrive Migration Guide](box-to-onedrive-and-sharepoint-migratioon-guide.md)
+### [MySites to OneDrive Migration Guide](mysites-to-onedrive-migration-guide.md)
 ## SharePoint Migration Assessment Tool
 ### [Overview of the SharePoint Migration Assessment Tool](overview-of-the-sharepoint-migration-assessment-tool.md)
 ### [SharePoint Migration Assessment Tool:  Scan Reports Roadmap](sharepoint-migration-assessment-toolscan-reports-roadmap.md)
