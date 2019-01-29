@@ -14,6 +14,8 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
+- SPMigration
+search.appverid: MET150
 ms.custom: 
 ms.assetid: 555049c6-15ef-45a6-9a1f-a1ef673b867c
 description: ""

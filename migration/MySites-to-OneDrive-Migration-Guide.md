@@ -9,6 +9,8 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Priority
 ms.collection: 
 - IT_Sharepoint_Server_Top
+- SPMigration
+search.appverid: MET150
 ms.custom: 
 ms.assetid: 
 

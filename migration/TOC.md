@@ -1,5 +1,4 @@
 # [Migrate  to SharePoint Online](migrate-to-sharepoint-online.md)
-## [SharePoint Online and OneDrive Migration Speed](sharepoint-online-and-onedrive-migration-speed.md)
 ##  SharePoint Migration Tool (SPMT)
 ### [Overview of the SharePoint Migration Tool](introducing-the-sharepoint-migration-tool.md)
 ### [SharePoint Migration Tool Release Notes](new-and-improved-features-in-the-sharepoint-migration-tool.md)
@@ -51,3 +50,4 @@
 ### [SharePoint Migration Identity Mapping Tool: SharePoint Identity Scan](sharepoint-migration-identity-mapping-tool-sharepoint-identity-scan.md)
 ### [SharePoint Migration Identity Mapping: Active Directory Identity Scan](sharepoint-migration-identity-mapping-active-directory-identity-scan.md)
 ### [SharePoint Migration Identity Mapping Tool: Azure Active Directory Identity Scan](sharepoint-migration-identity-mapping-tool-azure-active-directory-identity-scan.md)
+
