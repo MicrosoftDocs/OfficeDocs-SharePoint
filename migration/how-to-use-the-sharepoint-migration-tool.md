@@ -15,7 +15,7 @@ search.appverid: MET150
 description: "The SharePoint Migration Tool is a tool that migrates your files from SharePoint on-premises document libraries or regular file shares and easily moves them to your SharePoint Online tenant."
 ---
 
-# How to use the SharePoint Migration Tool
+# Using the SharePoint Migration Tool
 
 The SharePoint Migration Tool (SPMT) is a tool that migrates your files from SharePoint on-premises document libraries or regular file shares and easily moves them to your SharePoint Online tenant. It is available to all Office 365 users.
   
