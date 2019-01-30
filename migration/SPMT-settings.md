@@ -11,8 +11,6 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
 - SPMigration
-
-
 description: "A complete listing of the SharePoint Migration basic and advanced settings." 
 ---
 
@@ -24,21 +22,22 @@ The following table details the settings available in SPMT.  Advanced settings s
 > This list also includes settings available only in the SPMT V3 Public Preview and are noted. 
  
 
-
-**General** 
+**General**
+ 
 |**Setting**|**Description**|
 |:-----|:-----|
-|Only perform scanning  <br/> |If you wish to scan the files as a pre-assessment to migration, turn **Only perform scanning** on.  <br/> |
+|Only perform scanning|If you wish to scan the files as a pre-assessment to migration, turn **Only perform scanning** on.|
 |Start migration automatically if no scan issue found |If set to **On**, migration will start automatically if no scan issues are found. |
 |Preserve SharePoint permissions|If set to **On**, permissions on your source SharePoint files, folders, and items will be migrated. |
 |Preserve file share permissions.|Preserve permissions on the files migrated.|
 
 **Users**
+
 |**Setting**|**Description**|
 |:-----|:-----|
-|Azure Active Directory lookup  <br/> |By default, this is set to **On**. If no User mapping file is provided by the user, then Azure Active Directory is used as the default for user mapping.  <br/> |
-|User mapping file  <br/> |By default,  *Azure AD lookup*  is used to map users when submitting migration jobs. If you wish to use your own mapping file, select the file to be used by clicking **Choose file**. If you choose to use a custom user mapping file and want to preserve user permissions, turn off  *Azure Active Directory lookup*. By doing so, if a user isn't found in the mapping file, the tool won't look it up in AAD.  <br/> ||||
-|||
+|Azure Active Directory lookup |By default, this is set to **On**. If no User mapping file is provided by the user, then Azure Active Directory is used as the default for user mapping.|
+|User mapping file|By default,  *Azure AD lookup*  is used to map users when submitting migration jobs. If you wish to use your own mapping file, select the file to be used by clicking **Choose file**. If you choose to use a custom user mapping file and want to preserve user permissions, turn off  *Azure Active Directory lookup*. By doing so, if a user isn't found in the mapping file, the tool won't look it up in AAD.|
+
 
 **Filters**
 |**Setting**|**Description**|
@@ -59,6 +58,7 @@ The following table details the settings available in SPMT.  Advanced settings s
 </br>
 
 **SharePoint**
+
 |**Setting**|**Description**|
 |:-----|:-----|
 |Skip list with audience targeting enabled|Choose if you want to migrate SharePoint Server lists with audience targeted enabled. |
@@ -73,7 +73,7 @@ The following table details the settings available in SPMT.  Advanced settings s
 |:-----|:-----|
 |Migration auto re-run|Choose if you want to automatically rerun a migration task to look for changes or additions. Select either Run once, or Run up to 5 successive times.|
 |SharePoint Migration Tool work folder  <br/> |Choose if you want to create your own working folder.  By default, a temp folder will be created. <br/> **Note:** By default, the working folder is *%appdata%\Microsoft\MigrationTool* . Please make sure that your working folder has a minimum of 150 GB of free space. It may need more depending on the size of the data you plan to migrate.|
-|Use custom Azure storage|If you wish to use your own Azure storage, set this value to **On**.  Enter your account and key, select if you want to enable or disable encryption, and if you want temporary working files to be deleted when migration is complete.  <br/> **Note: ** This feature is supported only for  *General Purpose storage accounts*  as General Purpose accounts support Azure blobs and queues. This feature is not available for Blob Storage accounts.  <br/> |
+|Use custom Azure storage|If you wish to use your own Azure storage, set this value to **On**.  Enter your account and key, select if you want to enable or disable encryption, and if you want temporary working files to be deleted when migration is complete.  <br/> **Note: ** This feature is supported only for  *General Purpose storage accounts*  as General Purpose accounts support Azure blobs and queues. This feature is not available for Blob Storage accounts.|
    
 ## Related topics
 
