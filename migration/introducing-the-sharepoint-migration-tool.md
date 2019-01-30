@@ -23,7 +23,7 @@ Designed to be used for migrations ranging from the smallest set of files to a l
 If you prefer using PowerShell, all SPMT functionality is supported. For more information see: [Migrate to SharePoint Online using PowerShell](overview-spmt-ps-cmdlets.md).
 
 ## Features
-SPMT allows you to migrate the following:
+The SharePoint Migration Tool allows you to migrate the following:
 
 **On-premises fileshares**
 - Local and network fileshares
@@ -34,8 +34,8 @@ SPMT allows you to migrate the following:
 -  "Out of the Box" SharePoint sites - sites that do not use any coding or 3rd party tools **
 - Navigation and icons **
 - Site description ** 
-- SharePoint webparts [(see supported list here)](spmt-supported-webparts.md) **
--  Pages, including any pages in site asset library **
+- SharePoint web parts [(see supported list here)](spmt-supported-webparts.md) **
+- Pages, including any pages in site asset library **
 - Managed metadata, including content types and term stores. Migration of global term store requires Global Tenant Admin permissions. **
 
 
@@ -56,7 +56,7 @@ Download and install the SharePoint Migration Tool using Internet Explorer, Edge
 1. Download the current release here: [SharePoint Migration Tool](http://spmtreleasescus.blob.core.windows.net/install/default.htm).
 
 >[!NOTE]
->A new public preview release is now available: Download here: [SPMT V3 Public Preview](http://spmtreleasescus.blob.core.windows.net/install/default.htm)  (insert updated link)
+>A new public preview release is now available: Download here: [SPMT Public Preview V3.0.104.3 ](https://spmtreleasescus.blob.core.windows.net/betainstall/default.htm)  
     
 2. Click **Install**.
     
