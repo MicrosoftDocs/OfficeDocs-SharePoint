@@ -21,9 +21,7 @@ The SharePoint Migration Tool lets you migrate content from SharePoint Server 20
 Designed to be used for migrations ranging from the smallest set of files to a large scale enterprise migration, the SharePoint Migration Tool will let you bring your information to the cloud and take advantage of the latest collaboration, intelligence, and security solutions with Office 365.
 
 >[!NOTE]
->To install the current release download here: [SharePoint Migration Tool ](http://spmtreleasescus.blob.core.windows.net/install/default.htm)
-
->[!NOTE]
+>To install the current release download here: [SharePoint Migration Tool ](http://spmtreleasescus.blob.core.windows.net/install/default.htm)</br></br>
 >**NEW**: To download the new public preview release: [SharePoint Migration Tool Public Preview V3.](V3.0.104.3 )
     
 ## Download and Install
@@ -45,7 +43,7 @@ Download and install the SharePoint Migration Tool using Internet Explorer, Edge
 If you experience issues with your installation, see [Troubleshooting installation issues](spmt-install-issues.md).
 
 ## Features
-The SharePoint Migration Tool allows you to migrate the following:
+The SharePoint Migration Tool allows you to migrate from the following sources:
 
 **On-premises fileshares**
 - Local and network fileshares

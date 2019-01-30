@@ -30,6 +30,8 @@ The following table details the settings available in SPMT.  Advanced settings s
 |Preserve SharePoint permissions|If set to **On**, permissions on your source SharePoint files, folders, and items will be migrated. |
 |Preserve file share permissions.|Preserve permissions on the files migrated.|
 </br></br>
+
+
 **Users**
 
 |**Setting**|**Description**|
@@ -37,6 +39,8 @@ The following table details the settings available in SPMT.  Advanced settings s
 |Azure Active Directory lookup |By default, this is set to **On**. If no User mapping file is provided by the user, then Azure Active Directory is used as the default for user mapping.|
 |User mapping file|By default,  *Azure AD lookup*  is used to map users when submitting migration jobs. If you wish to use your own mapping file, select the file to be used by clicking **Choose file**. If you choose to use a custom user mapping file and want to preserve user permissions, turn off  *Azure Active Directory lookup*. By doing so, if a user isn't found in the mapping file, the tool won't look it up in AAD.|
 </br></br>
+
+
 **Filters**
 
 |**Setting**|**Description**|
@@ -54,6 +58,8 @@ The following table details the settings available in SPMT.  Advanced settings s
 |Filter lists and libraries|Enter the names of the lists and libraries you want to exclude from migration.|
 |Filter content type|Enter the content types you want to exclude from migration.|
 </br></br>
+
+
 **SharePoint**
 
 |**Setting**|**Description**|
@@ -64,6 +70,8 @@ The following table details the settings available in SPMT.  Advanced settings s
 |Migration of web parts and pages|Choose how to handle migration if the pages and webparts already exist in the destination.</br> Select one: Overwrite duplicate, Rename duplicate, Skip duplicate, or Do not migrate.|
 |Migrate site navigation|Migrate the navigation links of a site or page in SharePoint.|
 </br></br>
+
+
 **Advanced**
 
 |**Setting**|**Description**|

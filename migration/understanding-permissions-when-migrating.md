@@ -23,7 +23,7 @@ The location of your on-premises data, and whether you have synchronized your Ac
  **Syncing your environment:** In order to maintain existing on-premises file permissions, there must be a corresponding user in SPO. The easiest way to accomplish this is to synchronize your Active Directory accounts to Azure Active Directory (AAD). 
   
   
-||**File share**|**SharePoint on-prem files**|
+|How |**File share**|**SharePoint on-prem files**|
 |:-----|:-----|:-----|
 |User mapped between on-premises and SPO (either Dirsync has been run or a user mapping file provided)  <br/> |There are only two types of permissions that will be migrated: **Read** and **Write**.  <br/> If a file has **Write** permission for user1, then the file will be set to **Contribute** for user1 in SPO. If a file has **Read** permission for user1, then the file will be set to **Read** for user1 in SPO.           Note: At this time, the special permissions, such as **Deny**, will not be saved.  <br/> |All the unique permissions on a file will be migrated to SPO. Inherited permissions will not be migrated.  <br/> |
 |No user mapping (not synced, no user mapping file)  <br/> |Files will be assigned the default permission of the location to which it has been migrated in SPO.  <br/> |Files will be assigned the default permission of the location to which it has been migrated in SPO.  <br/> |
@@ -32,7 +32,7 @@ The location of your on-premises data, and whether you have synchronized your Ac
 
 The SharePoint Migration Tool permission control is effected by various conditions.  The following table lists all the conditions and the corresponding results.
 
-|**Source**|***Preserve user permissions* set to ON**|**Migrating to the Target library root folder or sub folder?**|**Target library permission before migration**|**Target library permission after migration**|**Note**|
+|**Source**|**Preserve user permissions setting set to On**|**Migrating to**|**Target library permission before migration**|**Target library permission after migration**|**Note**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |File share|No|Root folder|Inherited|Inherited|Role assignments of the target library and existing files won't be changed; migrated files have Inherited permission (Inherited role assignments from target library)|
 |File share|No|Root folder|Unique|Unique|Role assignments of the target library and existing files won't be changed; migrated files have Inherited permission (Inherited role assignments from target library)|
