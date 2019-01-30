@@ -71,6 +71,7 @@ The following table details the settings available in SPMT.  Advanced settings s
 </br>
 
 **Advanced**
+
 |**Setting**|**Description**|
 |:-----|:-----|
 |Migration auto re-run|Choose if you want to automatically rerun a migration task to look for changes or additions. Select either Run once, or Run up to 5 successive times.|
