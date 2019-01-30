@@ -22,13 +22,17 @@ description: "New Powershell cmdlets let you migrate to SharePoint Online."
 
 This article is about the new PowerShell cmdlets based on the SharePoint Migration Tool (SPMT) migration engine. They can be used to move files from SharePoint 2013 on-premises document libraries and list items, and file shares to Office 365.
 
-The PowerShell cmdlets provide the same functionalities as [SharePoint Migration Tool V2](introducing-the-sharepoint-migration-tool.md) .
+The PowerShell cmdlets provide the same functionalities as the [SharePoint Migration Tool](introducing-the-sharepoint-migration-tool.md) .
 
 
-> [!NOTE]
-> Currently these PowerShell cmdlets are not available for users of Office 365 operated by 21Vianet in China or for users of Office 365 Germany. 
+
+>[!NOTE]
+>These PowerShell cmdlets are currently not available for users of Office 365 operated by 21Vianet in China. They are also not available for users of Office 365 with the German cloud using the data trustee, *German Telekom*. However, they are supported for users in Germany whose data location is not in the German datacenter.
+
   
-### Recommended requirements for best performance
+## System requirements
+
+**Recommended requirements for best performance**
 
 
 |**Description**|**Recommendation**|
@@ -43,7 +47,8 @@ The PowerShell cmdlets provide the same functionalities as [SharePoint Migration
 > [!IMPORTANT]
 > PowerShell 5.0 and .NET Framework 4.6.2 or higher are required to support the migration of file paths of up to 400 characters. 
 
-### Minimum requirements (expect slow performance)
+
+**Minimum requirements (expect slow performance)**
 
 |**Description**|**Minimum requirement**|
 |:-----|:-----|
@@ -56,14 +61,14 @@ The PowerShell cmdlets provide the same functionalities as [SharePoint Migration
 |PowerShell|Powershell 5.0 or higher required to support migration of file paths of up to 400 characters.|<br/>
 
  
-### Before you begin
+## Before you begin
 
 
 - Provision your Office 365 with either your existing active directory or one of the other options for adding accounts to Office 365. See [Office 365 integration with on-premises environments](http://go.microsoft.com/fwlink/?LinkID=616610&amp;clcid=0x409) and [Add users to Office 365 for business](http://go.microsoft.com/fwlink/?LinkID=616611&amp;clcid=0x409) for more information. 
     
 <br><br>
   
-### Create and initialize a migration session
+## Create and initialize a migration session
 <a name="Step1CreateInitialize"> </a>
 
 - **[Register-SPMTMigration](/powershell/module/spmt/register-spmtmigration)**<br> This cmdlet creates and then initializes a migration session. The initialization configures migration settings at the session level. If no specific setting parameters are defined, default settings will be used. 
