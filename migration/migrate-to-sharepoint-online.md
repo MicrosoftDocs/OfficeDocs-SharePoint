@@ -15,7 +15,7 @@ ms.assetid: 77fa8327-220f-422d-93d9-88a51bbe9f36
 description: "Moving to SharePoint Online?"
 ---
 
-# Migrate to SharePoint Online
+# Migrate to SharePoint Online and OneDrive
 
 Moving to SharePoint Online or OneDrive for Business?
   
@@ -43,7 +43,8 @@ Microsoft FastTrack services can help you get started with your migration to the
 
 |**Method**|**Description**|
 |:-----|:-----|
-|SharePoint Migration Tool  <br/> |The SharePoint Migration Tool (SPMT) can easily migrate your files from SharePoint on-premises document libraries, lists or regular files shares. <br/><br/>To download the tool, go here: <a href="http://spmtreleasescus.blob.core.windows.net/install/default.htm">SharePoint Migration Tool</a>  <br/>or </br>To use the PowerShell version of the SPMT, see [Migrate to SharePoint Online using PowerShell](https://docs.microsoft.com/en-us/sharepointmigration/overview-spmt-ps-cmdlets)|
+|SharePoint Migration Tool|The SharePoint Migration Tool (SPMT) can easily migrate your files from SharePoint on-premises document libraries, lists or regular files shares.</br>Download the current release or the latest public preview: </br></br>[SharePoint Migration Tool (current release)](http://spmtreleasescus.blob.core.windows.net/install/default.htm) |
+|PowerShell|To use the PowerShell version of the SPMT, see [Migrate to SharePoint Online using PowerShell](https://docs.microsoft.com/en-us/sharepointmigration/overview-spmt-ps-cmdlets)|
 |OneDrive sync client  <br/> |After installing the OneDrive Sync client, you can drag and drop files to a folder on the computer and the content will automatically sync with either OneDrive or SharePoint Online.  <br/> |
 |Manual upload  <br/> |Uploading files one at a time from the SharePoint Online tenant.  <br/> |
    

@@ -11,7 +11,9 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
 - SPMigration
-search.appverid: MET150
+search.appverid:
+- MET150
+ms.custom: 
 ms.assetid: 5b22e9e3-9548-442e-bf21-bd753b72bffa
 description: "The SharePoint Migration Tool provides a wizard-like experience, prompting you for information to simplify migrating your data from your on-premises SharePoint Server document libraries and local file shares to SharePoint Online (SPO). You do not have to be a global administrator to run the tool, only have write access to the site collection to where you are migrating the data."
 ---
@@ -25,13 +27,9 @@ It is available to all Office 365 users.
 > [!NOTE]
 > The SharePoint Migration tool is available to all Office 365 users, with the exception of users of Office 365 operated by 21Vianet in China. 
   
->[!NOTE]
-> The new V2 beta release is now available for download. 
->To install the new V2 beta release, download it here: [SharePoint Migration Tool V2 Beta release](http://spmtreleasescus.blob.core.windows.net/betainstall/default.htm) 
-
 
 >[!NOTE]
->To install the current release download here: [SharePoint Migration Tool Version 1.1.90.1](http://spmtreleasescus.blob.core.windows.net/install/default.htm)
+>To install the current release download here: [SharePoint Migration Tool Version](http://spmtreleasescus.blob.core.windows.net/install/default.htm)
   
 ## How the SharePoint Migration Tool works
 
