@@ -20,12 +20,9 @@ description: "The SharePoint Migration Tool is a tool that migrates your files f
 The SharePoint Migration Tool (SPMT) is a tool that migrates your files from SharePoint on-premises document libraries or regular file shares and easily moves them to your SharePoint Online tenant. It is available to all Office 365 users.
   
 
-
 >[!NOTE]
 >To install the current release download here: [SharePoint Migration Tool](http://spmtreleasescus.blob.core.windows.net/install/default.htm).
 
-> [!NOTE]
-> Currently the **SharePoint Migration Tool** is not available for users of Office 365 operated by 21Vianet in China. </br></br> It is also not available for users of Office 365 with the German cloud with the data trustee, *German Telekom*. However, it is supported for users in Germany whose data location is not in the German datacenter.
   
 ## Before you begin
 
@@ -183,7 +180,11 @@ When this setting is on, an incremental check of the SharePoint Online target en
 |Time stamp on files or object in the source location changes during migration  <br/> |Only the changed file will be migrated.  <br/> |
 |Source is a file share.  <br/> |Validation for migration will be based on the file/folder path.  <br/> |
 |Source is an on-premises SharePoint Server/  <br/> |Validation for migration will be based on list item GUID. Use the folder path as a fallback.  <br/> |
-   
+
+## Availability  
+> [!NOTE]
+> Currently the **SharePoint Migration Tool** is not available for users of Office 365 operated by 21Vianet in China. </br></br> It is also not available for users of Office 365 with the German cloud with the data trustee, *German Telekom*. However, it is supported for users in Germany whose data location is not in the German datacenter.
+
    
 ## Related Topics
 <a name="BKMK_Settings"> </a>
