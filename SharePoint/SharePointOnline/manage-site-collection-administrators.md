@@ -29,28 +29,29 @@ This article describes how global admins and SharePoint admins in Office 365 can
 
 To change the owners of a communication site or new team site, you can use the new SharePoint admin center preview. For info, see [Manage sites in the new SharePoint admin center](manage-sites-in-new-admin-center.md#add-or-remove-owners). You can also add and remove group members in the Microsoft 365 admin center. For info, see [Add or remove members from Office 365 groups](/office365/admin/create-groups/add-or-remove-members-from-groups). 
   
-To add or remove site collection admins on classic sites, use the classic SharePoint admin center:
+To add or remove site collection admins on classic sites, you can use the classic SharePoint admin center:
   
-1. Sign in to Office 365 as a global admin or SharePoint admin.
+1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+    > [!NOTE]
+    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-3. In the left pane, choose **Admin centers** \> **SharePoint**.
+2. In the left pane, select **Admin centers** \> **SharePoint**. 
     
-4. Point to the site collection for which you want to change the administrators, and then select the check box in front of it. 
+3. In the classic SharePoint admin center, point to the site collection for which you want to change the administrators, and then select the check box in front of it. 
     
     ![SPO Selecting a collection from within the site collection list](media/6e5db026-befa-46b7-9e05-77c022919c88.PNG)
   
-5. Click **Owners**, and then click **Manage Administrators**.
+4. Select **Owners**, and then select **Manage Administrators**.
     
     ![SPO Site administrator owners button with Manage Administrators highlighted.](media/45326c50-d66f-44e7-b5f3-65ff85ca18f7.png)
   
-6. Change the name in the **Primary Site Collection Administrator** box, or add or remove names in the **Site Collection Administrators** box. 
+5. Change the name in the **Primary Site Collection Administrator** box, or add or remove names in the **Site Collection Administrators** box. 
     
     ![Site administrator dialog box.](media/488ca762-cbe2-458c-8e21-7f640471a565.PNG)
   
-7. Click **Check Names**![Check Names button](media/bfa3e094-27e7-4ded-b5b9-de97518f6375.png) to verify that the user names are valid. 
+6. Select **Check Names**![Check Names button](media/bfa3e094-27e7-4ded-b5b9-de97518f6375.png) to verify that the user names are valid. 
     
-8. Click **OK** **.**
+7. Select **OK**.
     
 
