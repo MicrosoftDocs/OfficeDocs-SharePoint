@@ -170,8 +170,7 @@ If you need to close the migration tool before a submitted job has completed, yo
 
 After a migration task has completed, it can also be saved to be rerun at a later date, allowing you to move only those new or updated files in the source location. 
   
-By default, the setting for Incremental migration is **on**. To change this, go to **Settings**,  *Enable incremental migration*  . 
-  
+
 > [!NOTE]
 > If you wish to make changes to this setting, do so before your initial migration job is submitted. This setting is global; it will apply to all subsequent tasks you submit. 
   
@@ -185,22 +184,6 @@ When this setting is on, an incremental check of the SharePoint Online target en
 |Source is a file share.  <br/> |Validation for migration will be based on the file/folder path.  <br/> |
 |Source is an on-premises SharePoint Server/  <br/> |Validation for migration will be based on list item GUID. Use the folder path as a fallback.  <br/> |
    
-> [!NOTE]
-> Excluding the first initial round, if there are newly updated source files or failed migration files, an SPMT run will be triggered up to 5 additional rounds. 
-  
-1. Start the SharePoint Migration Tool, and then click **Next**.
-    
-2. Enter your Office 365 username and password, and then click **Sign in.**
-    
-3. The screen titled "Where's your data" displays. Click **Cancel**.
-    
-4. Enter your tasks as usual, and then migrate.
-    
-5. After a task completes, click **Yes** when you see the following prompt: 
-    
-    ![Incremental migration save prompt](media/b365559d-fb07-467f-b59d-a0fd9ef360ed.png)
-  
-
    
 ## Related Topics
 <a name="BKMK_Settings"> </a>

@@ -24,7 +24,22 @@ Designed to be used for migrations ranging from the smallest set of files to a l
 >[!NOTE]
 >A new public preview release is now available: Download here: [SPMT Public Preview V3.0.104.3 ](https://spmtreleasescus.blob.core.windows.net/betainstall/default.htm)  
     
+## Download and Install
 
+Download and install the SharePoint Migration Tool using Internet Explorer, Edge or Chrome browser.
+  
+> [!IMPORTANT]
+> If you are using the Chrome browser, you must install the **ClickOnce for Google Chrome** plug-in  *before*  installing the SharePoint Migration Tool. > To download and install the plug-in: Using Chrome, go to this site and then click **Add to Chrome**: [ClickOnce for Google Chrome plug-in](https://chrome.google.com/webstore/detail/clickonce-for-google-chro/kekahkplibinaibelipdcikofmedafmb?utm_source=chrome-app-launcher-info-dialog)
+  
+1. Download the current release here: [SharePoint Migration Tool](http://spmtreleasescus.blob.core.windows.net/install/default.htm).
+
+
+2. Click **Install**.
+    
+3. Click **Yes** to allow this app. 
+    
+    After downloading and installing the SharePoint Migration Tool, read [How to use the SharePoint Migration Tool](how-to-use-the-sharepoint-migration-tool.md) to help you get started. 
+    
 ## Features
 The SharePoint Migration Tool allows you to migrate the following:
 
@@ -48,22 +63,7 @@ If you prefer using PowerShell, all SPMT functionality is supported. For more in
 
 
   
-## Download and Install
 
-Download and install the SharePoint Migration Tool using Internet Explorer, Edge or Chrome browser.
-  
-> [!IMPORTANT]
-> If you are using the Chrome browser, you must install the **ClickOnce for Google Chrome** plug-in  *before*  installing the SharePoint Migration Tool. > To download and install the plug-in: Using Chrome, go to this site and then click **Add to Chrome**: [ClickOnce for Google Chrome plug-in](https://chrome.google.com/webstore/detail/clickonce-for-google-chro/kekahkplibinaibelipdcikofmedafmb?utm_source=chrome-app-launcher-info-dialog)
-  
-1. Download the current release here: [SharePoint Migration Tool](http://spmtreleasescus.blob.core.windows.net/install/default.htm).
-
-
-2. Click **Install**.
-    
-3. Click **Yes** to allow this app. 
-    
-    After downloading and installing the SharePoint Migration Tool, read [How to use the SharePoint Migration Tool](how-to-use-the-sharepoint-migration-tool.md) to help you get started. 
-    
 ## See also
 
 >[!NOTE]
