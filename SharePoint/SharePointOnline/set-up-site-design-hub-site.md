@@ -26,6 +26,9 @@ A site design is one or more site scripts that SharePoint runs when a site is as
 > [!NOTE]
 > For organizations using Multi-Geo Capabilities in Office 365, hub site designs work only when sites are in the same geo location as the hub site.
 
+> [!NOTE]
+> These instructions require the SharePoint Administrator or Global Administrator role in Office 365.
+
 ## 1. Create a JSON script, add it, and create the site design 
 
 Follow the steps in [Get started creating site designs and site scripts](/sharepoint/dev/declarative-customization/get-started-create-site-design/). For the full list of supported actions, see [Site design JSON schema](/sharepoint/dev/declarative-customization/site-design-json-schema/). Note that when you create the site design, the site template you provide ("64" for team site or "68" for communication site) doesn't matter. 
