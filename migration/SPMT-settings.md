@@ -38,7 +38,9 @@ The following table details the settings available in SPMT.  Advanced settings s
 |User mapping file|By default,  *Azure AD lookup*  is used to map users when submitting migration jobs. If you wish to use your own mapping file, select the file to be used by clicking **Choose file**. If you choose to use a custom user mapping file and want to preserve user permissions, turn off  *Azure Active Directory lookup*. By doing so, if a user isn't found in the mapping file, the tool won't look it up in AAD.|
 
 
+
 **Filters**
+
 |**Setting**|**Description**|
 |:-----|:-----|
 |Migrate file version history |If set to **Off**, only the most recent version of the file will be migrated. If set to **On**, you can choose whether to keep all versions, or limit it to a specific number.|
@@ -57,6 +59,7 @@ The following table details the settings available in SPMT.  Advanced settings s
 </br>
 
 **SharePoint**
+
 
 |**Setting**|**Description**|
 |:-----|:-----|
