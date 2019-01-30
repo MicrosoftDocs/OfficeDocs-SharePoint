@@ -19,8 +19,7 @@ description: "A complete listing of the SharePoint Migration basic and advanced 
 The following table details the settings available in SPMT.  Advanced settings should only be changed or managed by your IT professional. 
 
 > [!Note] 
-> This list also includes settings available only in the SPMT V3 Public Preview and are noted. 
- 
+> This list includes settings only available in the SPMT V3 Public Preview. 
 
 **General**
  
