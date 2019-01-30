@@ -54,7 +54,6 @@ The following table details the settings available in SPMT.  Advanced settings s
 |Filter lists and libraries|Enter the names of the lists and libraries you want to exclude from migration.|
 |Filter content type|Enter the content types you want to exclude from migration.|
 
-
 **SharePoint**
 
 |**Setting**|**Description**|
@@ -64,7 +63,6 @@ The following table details the settings available in SPMT.  Advanced settings s
 |Migrate managed metadata|Choose if you want to migrate all managed metadata terms that are in use on the site.|
 |Migration of web parts and pages|Choose how to handle migration if the pages and webparts already exist in the destination.</br> Select one: Overwrite duplicate, Rename duplicate, Skip duplicate, or Do not migrate.|
 |Migrate site navigation|Migrate the navigation links of a site or page in SharePoint.|
-</br>
 
 **Advanced**
 
