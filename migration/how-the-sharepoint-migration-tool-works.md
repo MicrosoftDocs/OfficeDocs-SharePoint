@@ -10,6 +10,7 @@ localization_priority: Priority
 ms.collection: 
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
+- SPMigration
 search.appverid:
 - MET150
 ms.custom: 
@@ -26,13 +27,9 @@ It is available to all Office 365 users.
 > [!NOTE]
 > The SharePoint Migration tool is available to all Office 365 users, with the exception of users of Office 365 operated by 21Vianet in China. 
   
->[!NOTE]
-> The new V2 beta release is now available for download. 
->To install the new V2 beta release, download it here: [SharePoint Migration Tool V2 Beta release](http://spmtreleasescus.blob.core.windows.net/betainstall/default.htm) 
-
 
 >[!NOTE]
->To install the current release download here: [SharePoint Migration Tool Version 1.1.90.1](http://spmtreleasescus.blob.core.windows.net/install/default.htm)
+>To install the current release download here: [SharePoint Migration Tool Version](http://spmtreleasescus.blob.core.windows.net/install/default.htm)
   
 ## How the SharePoint Migration Tool works
 

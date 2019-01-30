@@ -23,9 +23,6 @@ Designed to be used for migrations ranging from the smallest set of files to a l
 >[!NOTE]
 >To install the current release download here: [SharePoint Migration Tool ](http://spmtreleasescus.blob.core.windows.net/install/default.htm)
 
->[!NOTE]
->**NEW**: To download the new public preview release: [SharePoint Migration Tool Public Preview V3.0.104.3](https://spmtreleasescus.blob.core.windows.net/betainstall/default.htm)
-    
 ## Download and Install
 
 Download and install the SharePoint Migration Tool using Internet Explorer, Edge or Chrome browser.
@@ -33,8 +30,7 @@ Download and install the SharePoint Migration Tool using Internet Explorer, Edge
 > [!IMPORTANT]
 > If you are using the Chrome browser, you must install the **ClickOnce for Google Chrome** plug-in  *before*  installing the SharePoint Migration Tool. > To download and install the plug-in: Using Chrome, go to this site and then click **Add to Chrome**: [ClickOnce for Google Chrome plug-in](https://chrome.google.com/webstore/detail/clickonce-for-google-chro/kekahkplibinaibelipdcikofmedafmb?utm_source=chrome-app-launcher-info-dialog)
   
-1. Download either the current release: [SharePoint Migration Tool](http://spmtreleasescus.blob.core.windows.net/install/default.htm)</br> or the latest public preview:  [SharePoint Migration Tool Public Preview V3.0.104.3](https://spmtreleasescus.blob.core.windows.net/betainstall/default.htm)
-
+1. Download the current release: [SharePoint Migration Tool](http://spmtreleasescus.blob.core.windows.net/install/default.htm)
 
 2. Click **Install**.
     
@@ -53,15 +49,7 @@ The SharePoint Migration Tool allows you to migrate from the following sources:
 **SharePoint Server 2013**
 -  Document lists and libraries
 -  SharePoint list templates [(see supported list here)](sharepoint-migration-supported-list-templates.md)
--  "Out of the Box" SharePoint sites - sites that do not use any coding or 3rd party tools **
-- Navigation and icons **
-- Site description ** 
-- SharePoint web parts [(see supported list here)](spmt-supported-webparts.md) **
-- Pages, including any pages in site asset library **
-- Managed metadata, including content types and term stores. Migration of global term store requires Global Tenant Admin permissions. **
 
-
-** Available only in SPMT V3 Public Preview
 
 If you prefer using PowerShell, all SPMT functionality is supported. For more information see: [Migrate to SharePoint Online using PowerShell](overview-spmt-ps-cmdlets.md).
 
