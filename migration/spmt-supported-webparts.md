@@ -3,7 +3,6 @@ title: "SharePoint Migration Tool supported SharePoint Webparts"
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
-ms.date: 1/31/2019
 ms.audience: Admin
 ms.topic: article
 ms.prod: sharepoint-server-itpro
