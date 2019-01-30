@@ -20,7 +20,7 @@ Learn about the new features and updates to existing features in SharePoint Migr
 >To install the current release download here: [SharePoint Migration Tool ](http://spmtreleasescus.blob.core.windows.net/install/default.htm)
 
 >[!NOTE]
->**NEW**: To download the new public preview release: [SharePoint Migration Tool Public Preview V3.](V3.0.104.3 )
+>**NEW**: To download the new public preview release: [SharePoint Migration Tool Public Preview V3.0.104.3](https://spmtreleasescus.blob.core.windows.net/betainstall/default.htm)
 
 ### SPMT V3.0.104.3 (Public Preview)
 
