@@ -11,7 +11,8 @@ localization_priority: Priority
 ms.collection: 
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
-ms.custom: 
+- SPMigration
+search.appverid: MET150
 ms.assetid: 28c42985-1fd6-49d6-b9c5-b7f35e83efa1
 description: "This article describes how to create a user mapping file for data content migration while using the SharePoint Online Migration Tool."
 ---
