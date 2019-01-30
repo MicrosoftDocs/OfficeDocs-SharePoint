@@ -37,15 +37,15 @@ When you first launch the SharePoint Migration Tool (SPMT), you will be prompted
 ### Authentication supported
 SPMT supports the following authentication methods:
 
-    - NTLM
-    - Kerberos
-    - Forms
-    - ADFS
-    - Multi-factor authentication
-    - SAML based claims
-    - Client certificate authentication
+- NTLM
+ - Kerberos
+ - Forms
+ - ADFS
+ - Multi-factor authentication
+ - SAML based claims
+ - Client certificate authentication
 
->[Important:]
+>[!Important]
 >If the on-premesis server is configured to support multiple authentication providers,including Windows authentication, then Windows authentication **will not be supported**. If this describes your environment, use other authentication methods instead of Windows authentication. 
 
 ### Where is your data currently located?

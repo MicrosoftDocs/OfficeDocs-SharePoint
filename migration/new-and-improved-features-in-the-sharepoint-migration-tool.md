@@ -41,10 +41,13 @@ The following features were added to the SharePoint Migration Tool Public Previe
 
 In addition to several minor fixes, here are the primary improvements made in this release:
 
+
 |**Issue**|**Fix**|
 |:----|:-----|
 |Stability|General improvements have been made to remove some errors in tool.|
-</br></br>
+
+
+
 ### SPMT V2.1.102.0
 
 **New features**
