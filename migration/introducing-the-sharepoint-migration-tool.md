@@ -20,7 +20,10 @@ The SharePoint Migration Tool lets you migrate content from SharePoint Server 20
   
 Designed to be used for migrations ranging from the smallest set of files to a large scale enterprise migration, the SharePoint Migration Tool will let you bring your information to the cloud and take advantage of the latest collaboration, intelligence, and security solutions with Office 365.
 
-If you prefer using PowerShell, all SPMT functionality is supported. For more information see: [Migrate to SharePoint Online using PowerShell](overview-spmt-ps-cmdlets.md).
+
+>[!NOTE]
+>A new public preview release is now available: Download here: [SPMT Public Preview V3.0.104.3 ](https://spmtreleasescus.blob.core.windows.net/betainstall/default.htm)  
+    
 
 ## Features
 The SharePoint Migration Tool allows you to migrate the following:
@@ -41,9 +44,8 @@ The SharePoint Migration Tool allows you to migrate the following:
 
 ** Available only in SPMT V3 Public Preview
 
->[!NOTE]
->The **SharePoint Migration Tool** is not available for users of Office 365 operated by 21Vianet in China. It is also not available for users of Office 365 with the German cloud using the data trustee, *German Telekom*. However, it is supported for users in Germany whose data location is not in the German datacenter.
- 
+If you prefer using PowerShell, all SPMT functionality is supported. For more information see: [Migrate to SharePoint Online using PowerShell](overview-spmt-ps-cmdlets.md).
+
 
   
 ## Download and Install
@@ -55,9 +57,7 @@ Download and install the SharePoint Migration Tool using Internet Explorer, Edge
   
 1. Download the current release here: [SharePoint Migration Tool](http://spmtreleasescus.blob.core.windows.net/install/default.htm).
 
->[!NOTE]
->A new public preview release is now available: Download here: [SPMT Public Preview V3.0.104.3 ](https://spmtreleasescus.blob.core.windows.net/betainstall/default.htm)  
-    
+
 2. Click **Install**.
     
 3. Click **Yes** to allow this app. 
@@ -66,6 +66,9 @@ Download and install the SharePoint Migration Tool using Internet Explorer, Edge
     
 ## See also
 
+>[!NOTE]
+>The **SharePoint Migration Tool** is not available for users of Office 365 operated by 21Vianet in China. It is also not available for users of Office 365 with the German cloud using the data trustee, *German Telekom*. However, it is supported for users in Germany whose data location is not in the German datacenter.
+ 
 Planning is the key to a successful data migration to SharePoint Online. The SharePoint Migration Assessment Tool (SMAT) is a simple command line executable that will scan the contents of your SharePoint Server 2013 farm to help identify any issues with data you plan to migrate to SharePoint Online. The results report points you to articles to help you fix any issues that were discovered. The tool runs in the background without impacting your production environment.
   
 To download the tool: [SharePoint Migration Assessment Tool (SMAT)](https://www.microsoft.com/en-us/download/details.aspx?id=53598&amp;751be11f-ede8-5a0c-058c-2ee190a24fa6=True)
