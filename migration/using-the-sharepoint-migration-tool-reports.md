@@ -16,7 +16,6 @@ ms.assetid: 3b2c0f56-1a46-4b48-bee7-96bda469dc79
 
 # Using the SharePoint Migration Tool Reports
 
-## Using the SharePoint Migration Tool reports
 
 The SharePoint Migration Tool generates log files, summary and task level reports to help you manage, audit and troubleshoot your migration process.
   
