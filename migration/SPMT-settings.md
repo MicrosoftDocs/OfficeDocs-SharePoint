@@ -55,11 +55,9 @@ The following table details the settings available in SPMT.  Advanced settings s
 |Filter subsites|Enter any subsite names you want to exclude from migration.|
 |Filter lists and libraries|Enter the names of the lists and libraries you want to exclude from migration.|
 |Filter content type|Enter the content types you want to exclude from migration.|
-
 </br>
 
 **SharePoint**
-
 
 |**Setting**|**Description**|
 |:-----|:-----|
