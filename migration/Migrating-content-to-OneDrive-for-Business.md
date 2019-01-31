@@ -3,7 +3,6 @@ title: "Migrating Content to OneDrive for Business"
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
-ms.date: 10/18/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -12,9 +11,6 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
 - SPMigration
-search.appverid: MET150
-s.custom: 
-
 description: "Migrating Content to OneDrive for Business."
 ---
 # Migrate content to OneDrive for Business 
