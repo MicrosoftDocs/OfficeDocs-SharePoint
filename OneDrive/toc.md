@@ -15,6 +15,7 @@
 ### [Redirect known folders](redirect-known-folders.md)
 ### [Sync client update process](sync-client-update-process.md)
 ### [Use Group Policy](use-group-policy.md)
+### [B2B Sync](b2b-sync.md)
 ### [Block file types](block-file-types.md)
 ### [Prevent installation](prevent-installation.md)
 ### [Exclude or uninstall previous sync client](exclude-or-uninstall-previous-sync-client.md)
