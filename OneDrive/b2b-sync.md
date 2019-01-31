@@ -20,10 +20,8 @@ description: "Learn how the OneDrive sync client allows users to sync libraries 
 The OneDrive sync client now lets users sync libraries or folders in SharePoint or OneDrive that have been shared from other organizations. This scenario is often referred to as Business-to-Business (B2B) Collaboration. We’re calling this new feature in the OneDrive sync client "B2B Sync". 
 
 > [!IMPORTANT]
-> - This feature is currently enabled in the Insiders ring only. To try it, join the [Windows Insider program](https://insider.windows.com/) or the [Office Insider](https://products.office.com/office-insider) program.
-> - Alternatively run the following to have only the sync client join insider program.
->   - PC:	reg.exe add HKCU\Software\Microsoft\OneDrive /v EnableTeamTier_Internal /t REG_DWORD /d 1 /f
->   - Mac: defaults write com.microsoft.OneDrive Tier "Insiders"
+> This feature is currently enabled in the Insiders ring only. To try it, join the [Windows Insider program](https://insider.windows.com/) or the [Office Insider](https://products.office.com/office-insider) program. <br>Alternatively, run the following command to have only the sync client join the Insider program:<br>
+PC:	reg.exe add HKCU\Software\Microsoft\OneDrive /v EnableTeamTier_Internal /t REG_DWORD /d 1 /f <br>Mac: defaults write com.microsoft.OneDrive Tier "Insiders"
 
 Azure Active Directory (AAD) guest accounts play a key role in making B2B Collaboration possible. A guest account at one organization links to a member account at another organization. Once created, a guest account allows Office 365 services like OneDrive and SharePoint to grant a guest permission to sites and folders the same way a member within the organization is granted permission. Since the accounts at two organizations are linked, the user only needs to remember the username and password for the account at their organization. As a result, a single sign in to their account enables access to content from their own organization and from any other organization that have created guest accounts for them. 
  
@@ -40,9 +38,9 @@ This article gives an overview of the B2B Sync experience and describes these re
 
 ## Known issues with this release
 
-- On the PC, if the guest's organization has applied Windows Information Protection (WIP) polices to their PC, the external organization's content will show as being owned by the guest's organization.  It will be possible to copy content from the guest's organization to the external organization when it would be expected this would be blocked.  This issue will be corrected in the next update. 
+- On the PC, if the guest's organization has applied Windows Information Protection (WIP) polices to their PC, the external organization's content will show as being owned by the guest's organization. It will be possible to copy content from the guest's organization to the external organization when it would be expected this would be blocked. This issue will be corrected in the next update. 
 - On the Mac, Files On-Demand thumbnails will not display from external organization's sites. Thumbnails will display correctly for files from the user's own organization. 
-- On the Mac, if the guest account was created with a different email address format than the form they are using with the sync client, the external site's content cannot be synced.  For example first.last@company.com vs alias@company.com.
+- On the Mac, if the guest account was created with a different email address format than the form they are using with the sync client, the external site's content cannot be synced. For example, first.last@fabrikam.com vs alias@fabrikam.com.
 - On the Mac, the external content may be placed on the local computer in the user's own organization's folder instead of one with the external organization's name.
 
 
@@ -119,7 +117,7 @@ To view or change the sharing setting for any site, use the new SharePoint admin
  
 ## Disable ADAL
 
-On PCs, the Azure AD Authentication Library (ADAL) is not currently supported for B2B Sync. If your guest's organization has enabled ADAL with OneDrive.exe, or a user was configured using the OneDrive [silent account configuration](use-silent-account-configuration.md) feature (which enables ADAL), the guest user will need to disable ADAL on their PC for the preview of B2B Sync to work. 
+On PCs, the Azure AD Authentication Library (ADAL) is not currently supported for B2B Sync. If your guest's organization has enabled ADAL with OneDrive.exe, or a user was configured using the OneDrive [silent account configuration](use-silent-account-configuration.md) feature (which enables ADAL), the guest will need to disable ADAL on their PC for the preview of B2B Sync to work. 
 
 > [!IMPORTANT]
 > If the guest's organization has device-based conditional access features enabled in Azure AD (where Intune marks a device as being in compliance with IT policies by placing a certificate on the device), they should not disable ADAL as the sync client won't be able to sign in. Location-based access policies and general MFA (multi-factor authentication) policies should still be compatible with the sync client's non-ADAL based authentication library.
@@ -128,7 +126,7 @@ Run the following command to disable ADAL.
 
     REG ADD HKCU\Software\Microsoft\OneDrive /v EnableADAL /t REG_DWORD /d 0 /f 
 
-After running the above command, the guest users will need to:
+After running the above command, the guests will need to:
 
 1. Close the sync client (right-click the OneDrive icon in the notification area and select "Close OneDrive.")
 2. In the search box on the taskbar, enter "OneDrive," and then click OneDrive in the search results. Users may need to enter their password after OneDrive restarts. 
@@ -157,7 +155,7 @@ B2B Sync works with all these methods of sharing. It has only the following requ
  
 ### Add guests to SharePoint sites
 
-As an admin in Office 365, you can share with people outside the organization by [creating guest users individually in the Azure AD admin center](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal), and then adding them to a SharePoint team site individually or by adding them to a security group that already has permissions to the site you want to share. If you grant permissions by using the advanced permissions page (instead of by using the Share site button), you'll need to inform the guest that you've given them permission to the site. They won't receive an invitation email. 
+As an admin in Office 365, you can share with people outside the organization by [creating guests individually in the Azure AD admin center](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal), and then adding them to a SharePoint team site individually or by adding them to a security group that already has permissions to the site you want to share. If you grant permissions by using the advanced permissions page (instead of by using the Share site button), you'll need to inform the guest that you've given them permission to the site. They won't receive an invitation email. 
 
 > [!IMPORTANT]
 > If you use the advanced permissions page, we recommend granting permissions at the site level, not at the document library or folder level.   
