@@ -16,7 +16,7 @@ search.appverid:
 - ODB150
 - MET150
 ms.assetid: 0ecb2cf5-8882-42b3-a6e9-be6bda30899c
-description: "Learn how to use group policy to administer settings for the OneDrive sync client."
+description: "Learn how to use Group Policy to administer settings for the OneDrive sync client."
 ---
 
 # Use Group Policy to control OneDrive sync client settings
@@ -46,11 +46,11 @@ This article is for IT admins managing the new OneDrive sync client in a Windows
     
 5. Link the Group Policy objects to an Active Directory container (site, domain, or organizational unit). For info, see [Link Group Policy objects to Active Directory containers](https://go.microsoft.com/fwlink/?linkid=871796).
     
-6. Use security filtering to narrow the scope of a policy. By default, a policy is applied to all user and computer objects within the container to which it's linked, but you can use security filtering to narrow the scope of the policy's application to a subset of users or computers. For info, see [Filtering the scope of a GPO](https://go.microsoft.com/fwlink/?linkid=2004146).
+6. Use security filtering to narrow the scope of a setting. By default, a setting is applied to all user and computer objects within the container to which it's linked, but you can use security filtering to narrow the scope of the policy's application to a subset of users or computers. For info, see [Filtering the scope of a GPO](https://go.microsoft.com/fwlink/?linkid=2004146).
     
 The OneDrive Group Policy objects work by setting registry keys on the computers in your domain.
   
-- When you enable or disable a policy, the corresponding registry key is updated on computers in your domain. If you later set the policy back to **Not configured**, the corresponding registry key is not modified and the effective policy setting does not change. So after you configure a policy, use the **Enabled** and **Disabled** settings for that policy going forward. 
+- When you enable or disable a setting, the corresponding registry key is updated on computers in your domain. If you later change the setting back to **Not configured**, the corresponding registry key is not modified and the change does not take effect. So after you configure a setting, set it to **Enabled** or **Disabled** going forward. 
     
 - The location where registry keys are written has been updated. When you use the latest files, you might delete registry keys that you set previously.
     
@@ -109,7 +109,7 @@ This policy sets the following registry key.
   
 To block specific organizations instead, use "Block syncing OneDrive accounts for specific organizations."
   
-This setting will take priority over the policy "Block syncing OneDrive accounts for specific organizations." Do not enable both policies at the same time.
+This setting will take priority over [Block syncing OneDrive accounts for specific organizations](use-group-policy.md#BlockTenantList). Do not enable both policies at the same time.
   
 ### Block syncing OneDrive accounts for specific organizations
 <a name="BlockTenantList"> </a>
