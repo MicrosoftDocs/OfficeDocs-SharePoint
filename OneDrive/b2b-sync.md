@@ -33,6 +33,7 @@ For people outside your organization to sync shared libraries and folders:
 - External sharing must be enabled for the site collection or OneDrive.
 - ADAL must not be enabled.
 - The content must be shared with people outside the organization at the site, library, or folder level. If a folder is shared, it must be through a link that requires sign-in.
+- External user(s) need to have an Office 365 commercial/AAD account
 
 This article gives an overview of the B2B Sync experience and describes these requirements in more detail.
 
@@ -137,7 +138,7 @@ If ADAL is enabled on the guest's PC, the following error will appear.
 
 ## Methods of sharing
 
-Sites, libraries, and folders can be shared in different ways in SharePoint and OneDrive:
+Sites and folders can be shared in different ways in SharePoint and OneDrive:
 
 - If users are syncing a folder, they can right-click it in File Explorer to share it. 
 - Users can go to the SharePoint site or folder on the web and click the Share button to share the it. 
@@ -149,7 +150,7 @@ Sites, libraries, and folders can be shared in different ways in SharePoint and 
 
 B2B Sync works with all these methods of sharing. It has only the following requirements:
 
-- For guests to sync shared content, the content must be shared at the site, library, or folder level. Guests can't sync files that are shared individually (for example, from the Office apps). 
+- For guests to sync shared content, the content must be shared at the site or folder level. Guests can't sync files that are shared individually (for example, from the Office apps). 
 - B2B sync works only when guest accounts are created in the organization, and when the recipient has an Azure AD account. It doesn't work when users share by creating an anonymous access link (also known as "anyone" link or "shareable" link), or when they share with people who have a Microsoft account or other personal account. 
 
  
