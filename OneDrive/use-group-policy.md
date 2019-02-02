@@ -150,6 +150,8 @@ If you enable this setting, files in currently syncing team sites will be change
 Enabling this policy sets the following registry key value to 1.
   
 [HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"DehydrateSyncedTeamSites"="dword:00000001"
+
+For info about querying and setting file and folder states, see [Set Files On-Demand states](files-on-demand-mac.md).
   
 ### Prevent the sync client from generating network traffic until users sign in
 <a name="PreventNetworkTraffic"> </a>
@@ -163,8 +165,6 @@ If you disable or do not configure this setting, the OneDrive sync client will s
 Enabling this policy sets the following registry key value to 1.
   
 [HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"PreventNetworkTrafficPreUserSignIn"="dword:00000001"
-
-For info about querying and setting file and folder states, see [Set Files On-Demand states](files-on-demand-mac.md).
   
 ### Limit the sync client upload rate to a percentage of throughput
 <a name="AutomaticUploadBandwidthPercentage"> </a>
