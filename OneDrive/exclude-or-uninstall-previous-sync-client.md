@@ -61,15 +61,14 @@ These changes will affect organizations who have deployed the previous OneDrive 
   
 The following table shows more detail about which Office installations are affected by these changes and when. All these changes are Office client-level changes rolled out across clients, and are not turned on organization by organization.
   
-|**Office version**|**When the installation default will change**|**When Groove.exe may be uninstalled**|
+|**Office version**|**Groove.exe is no longer installed by default**|**Groove.exe is uninstalled on next update if not in use for 30 days**|
 |:-----|:-----|:-----|
 |MSI (all versions)  <br/> |Not applicable  <br/> |Not applicable  <br/> |
-|Office - Consumer SKUs  <br/> |Not applicable  <br/> |Not applicable  <br/> |
 |Office 2013 Click-to-Run  <br/> |Not applicable  <br/> |Not applicable  <br/> |
-|Office 2016 Click-to-Run - Office Insider channel  <br/> |Sept. 2017  <br/> |Starting Oct. 2017  <br/> |
-|Office 2016 Click-to-Run - Monthly channel  <br/> |Oct. 2017  <br/> |Starting Nov. 2017  <br/> |
-|Office 2016 Click-to-Run - Semi-annual channel (Targeted)  <br/> |Mar. 2018  <br/> |Starting Apr. 2018  <br/> |
-|Office 2016 Click-to-Run - Semi-annual channel  <br/> |July 2018  <br/> |Starting Aug. 2018  <br/> |
+|Office 2016 Click-to-Run - Office Insider channel  <br/> |Sept. 2017 - Version 1710 (Build 8530.1000)  <br/> |Sept. 2017 - Version 1710 (Build 8530.1000)  <br/> |
+|Office 2016 Click-to-Run - Monthly channel  <br/> |Oct. 2017 - Version 1709 (Build 8528.2139)  <br/> |Oct. 2017 - Version 1709 (Build 8528.2139)  <br/> |
+|Office 2016 Click-to-Run - Semi-annual channel (Targeted)  <br/> |Sept. 2018 - Version 1808 (Build 10730.20102)  <br/> |Sept. 2018 - Version 1808 (Build 10730.20102)  <br/> |
+|Office 2016 Click-to-Run - Semi-annual channel  <br/> |Jan. 2019 - Version 1808 (Build 10730.20264)  <br/> |Jan. 2019 - Version 1808 (Build 10730.20264)  <br/> |
    
 For more information about Office channels, see [Overview of update channels for Office 365 ProPlus](/DeployOffice/overview-of-update-channels-for-office-365-proplus).
   
