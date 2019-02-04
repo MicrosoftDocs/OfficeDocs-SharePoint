@@ -3,7 +3,6 @@ title: "Prepare to back up and restore farms in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 10/6/2017
 ms.audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
@@ -69,11 +68,11 @@ Use this procedure to create a shared folder on the network that can receive and
     
 4. On the **Sharing** tab of the **Properties** dialog box, click **Advanced Sharing**, and then click **Permissions**, add the following accounts and assign them Full Control of the shared folder:
     
-  - SQL Server service account (MSSQLSERVER)
+   - SQL Server service account (MSSQLSERVER)
     
-  - The SharePoint Central Administration application pool identity account
+   - The SharePoint Central Administration application pool identity account
     
-  - The SharePoint Timer service account.
+   - The SharePoint Timer service account.
     
 ## See also
 
