@@ -19,23 +19,24 @@ description: "Learn how to manage your user's self-service site creation."
 
 # Manage site creation in SharePoint Online
 
-As a SharePoint admin or Office 365 global admin, you can let your users create and administer their own SharePoint sites, determine what kind of sites they can create, and specify the location of the sites. By default, users can create communication sites as well as team sites that include [Learn about Office 365 groups](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+As a global or SharePoint admin in Office 365, you can let your users create and administer their own SharePoint sites, determine what kind of sites they can create, and specify the location of the sites. By default, users can create communication sites and [Office 365 group-connected team sites](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2).
   
 Some functionality is introduced gradually to organizations that have signed up for the [Targeted release option](/office365/admin/manage/release-options-in-office-365). This means that you might not yet see this feature or it might look different than what is described in this article.
   
 ## Allow or prevent users from creating sites and subsites in SharePoint Online
 
-1. Sign in to Office 365 as a global admin or SharePoint admin.
+1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+    > [!NOTE]
+    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-3. In the left pane, choose **Admin centers** \> **SharePoint**.
+2. In the left pane, under **Admin centers**, select **SharePoint**.
     
-4. Click **settings**.
+3. In the left pane of the classic SharePoint admin center, select **settings**.
     
-5. Under **Site Creation**, select to show or hide the Create site command.
+4. Under **Site Creation**, select to show or hide the Create site command.
     
-6. If you select **Show the Create site command**, specify the type of site that users can create.
+5. If you select **Show the Create site command**, specify the type of site that users can create.
     
     ![Site creation settings](media/df009314-836b-4ed1-b656-c5c6dd07f1a5.png)
   
@@ -50,11 +51,11 @@ Some functionality is introduced gradually to organizations that have signed up 
     > [!NOTE]
     > For info about classifying Office 365 groups, see [Manage Office 365 Groups with PowerShell](/office365/enterprise/manage-office-365-groups-with-powershell). 
   
-7. Under **Subsite Creation**, specify whether users can create subsites for classic sites, all sites, or not at all. 
+6. Under **Subsite Creation**, specify whether users can create subsites for classic sites, all sites, or not at all. 
 
     ![Subsite creation settings](media/subsite-creation.png) 
 
     > [!NOTE] 
     > This setting controls only the New menu on modern pages. It doesn't prevent users from creating subsites through classic pages.
 
-8. Click **OK**.
+7. Select **OK**.

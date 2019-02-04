@@ -26,18 +26,19 @@ A typical use case is in eDiscovery, where you can grant a security group permis
 ## Grant users permission to view the crawl log information
 <a name="__top"> </a>
 
-1. Sign in to Office 365 as a global admin or SharePoint admin.
+1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+    > [!NOTE]
+    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-3. In the left pane, choose **Admin centers** \> **SharePoint**.
+2. In the left pane, under **Admin centers**, select **SharePoint**.
     
-4. Choose **search**.
+3. In the left pane of the classic SharePoint admin center, select **search**.
     
-5. On the search administration page, choose **Crawl Log Permissions**.
+4. On the search administration page, choose **Crawl Log Permissions**.
     
-6. In the **Crawl Log Permissions** box, enter names or email addresses. The names of valid users or user groups are shown in the list as you type letters in the box. 
+5. In the **Crawl Log Permissions** box, enter names or email addresses. The names of valid users or user groups are shown in the list as you type letters in the box. 
     
-7. Click **OK**.
+6. Select **OK**.
     
 
