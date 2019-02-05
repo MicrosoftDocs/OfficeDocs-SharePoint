@@ -29,18 +29,7 @@ If you're a global or SharePoint admin in Office 365, you can make a hub site no
 
 3. Click **OK**.  
 
-## Unregister a hub site by using PowerShell
+## See also
 
-1. Download and install the latest [SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251). If you already have a previous version installed, uninstall it first and then install the latest version.
-    
-2. Connect the SharePoint Online Management Shell to SharePoint Online for your organization. For info, see [Connect the SharePoint Online PowerShell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
-    
-3. Run the following command:
-    
-  ```PowerShell
-  Unregister-SPOHubSite URL
-  ```
-
-  (Where  *URL*  is the URL of the site.) 
-    
+To learn how to use Microsoft PowerShell to manage and delete hub sites, see [Manage SharePoint hub sites](/sharepoint/dev/features/hub-site/hub-site-powershell).
 
