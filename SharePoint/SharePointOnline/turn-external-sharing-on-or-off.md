@@ -22,6 +22,8 @@ If you're working with vendors, clients, or customers outside of your organizati
 External sharing is controlled at both the organization level (global settings that affect all of SharePoint Online) and the site collection level. The organization-level settings determine what options are available at the site collection level.
   
 The external sharing settings for individual site collections cannot be *less* restrictive than whatever is allowed at the organization level, but these settings can be *more* restrictive. For example, if external sharing is turned on at the organization level, but it is limited to allowing only authenticated users, then that will be the only kind of external sharing you can allow in a specific site collection. If external sharing through both sign-in and anonymous access links is allowed at the organization level, then those options are also available for each site collection. 
+
+For info about turning external sharing on or off for a site collection, see [Change the external sharing setting for a site](change-external-sharing-site.md).
   
  
 ## Change the organization-level external sharing setting
