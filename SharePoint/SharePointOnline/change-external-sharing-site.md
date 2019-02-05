@@ -19,7 +19,7 @@ description: "Learn how to change the external sharing setting for a site."
 
 You must be a global or SharePoint admin in Office 365 to change the external sharing setting for a site collection. Site collection administrators are not allowed to change this setting.
   
-Note that this procedure applies to both classic sites and Office 365 Group-connected sites.
+Note that this procedure applies to classic sites, communication sites, and new team sites. To learn how to change the external sharing setting for a user's OneDrive, see [Change the external sharing setting for a user's OneDrive](/onedrive/user-external-sharing-settings).
   
 1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
@@ -50,7 +50,7 @@ The settings available are dependent on your organization-level setting. If you 
 
 
 > [!NOTE]
-> To change the external sharing for an individual OneDrive, see [Change the external sharing setting for a user's OneDrive](/OneDrive/user-external-sharing-settings). <br>You might have site content shared with an Office 365 group that has guest members, and the group settings prevent guest members from accessing group resources. In this case, even if you turn on external sharing for the site collection, guests of the group may not be able to access site content. To enable or disable Office 365 Group guest member access, see [Manage guest access in Office 365 Groups](/office365/admin/create-groups/manage-guest-access-in-groups).
+> You might have site content shared with an Office 365 group that has guest members, and the group settings prevent guest members from accessing group resources. In this case, even if you turn on external sharing for the site collection, guests of the group may not be able to access site content. To enable or disable Office 365 Group guest member access, see [Manage guest access in Office 365 Groups](/office365/admin/create-groups/manage-guest-access-in-groups).
   
 ## See also
 

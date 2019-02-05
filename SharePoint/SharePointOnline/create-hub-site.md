@@ -41,37 +41,13 @@ If you're a global or SharePoint admin in Office 365, you can convert any existi
 
 4. Click **Save**.
 
-## Create a hub site using PowerShell
 
-1. Download and install the latest [SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251). If you already have a previous version installed, uninstall it first and then install the latest version.
     
-2. Connect the SharePoint Online Management Shell to SharePoint Online for your organization. For info, see [Connect the SharePoint Online PowerShell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online). 
+## See also
 
-    > [!NOTE]
-    > If your organization uses Multi-Geo in OneDrive and SharePoint, we recommend connecting to the central location. Hubs can be created in any geo location and can contain sites across all locations.
-    
-3. (Optional) If you want a group of people to be able to associate their sites to the hub, create a mail-enabled security group and add the users.
-    
-4. Run the following command to convert the site to a hub site and enable the hub site features:
-    
-  ```PowerShell
-  Register-SPOHubSite URL or Site ID
-  ```
+- For info about using a site design that gets applied when sites join the hub, see [Set up a site design for your hub site](set-up-site-design-hub-site.md). For more info about site designs and site scripts, see [SharePoint site design and site script overview](/sharepoint/dev/declarative-customization/site-design-overview).
 
-   (Where *URL* is the URL of the site. If your organization has Multi-Geo in OneDrive and SharePoint enabled, you must provide a Site ID.) 
-    
-5. When prompted with **Principals[0]**, provide the group created in step 3, or the UPN of an individual user. You can enter additional principals, one per line. Once you are finished assigning permissions, press Enter. If you want all site collection administrators in the organization to be able to associate their sites with the hub, press Enter at the first prompt.
-    
-    > [!NOTE]
-    > To restrict permission to associate sites to the hub after creation, run the following command: >  `Grant-SPOHubSiteRights -Identity URL -Principals GroupEmail -Rights Join`> (Where  *Identity*  is the URL of the site and  *GroupEmail*  is the email address of the mail-enabled security group.) 
-  
-6. Notify the hub site owners that their site has been converted to a hub site.
-
-7. Optionally, use a site design that gets applied when sites join the hub. For info, see [Set up a site design for your hub site](set-up-site-design-hub-site.md). For more info about site designs and site scripts, see [SharePoint site design and site script overview](/sharepoint/dev/declarative-customization/site-design-overview).
-    
-## More info
-
-- For info about the above PowerShell commands, as well as the other commands for managing hub sites, see [Manage SharePoint hub sites](https://go.microsoft.com/fwlink/?linkid=869058).
+- To learn how to use Microsoft PowerShell to create and manage hub sites, see [Manage SharePoint hub sites](/sharepoint/dev/features/hub-site/hub-site-powershell).
     
 - For info about how site owners can customize hub sites, see [Set up your SharePoint hub site](https://support.office.com/article/e2daed64-658c-4462-aeaf-7d1a92eba098).
 
