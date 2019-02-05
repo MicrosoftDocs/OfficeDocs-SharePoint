@@ -13,6 +13,7 @@
 ### [Transition from previous sync client](transition-from-previous-sync-client.md)
 ### [Network utilization planning](network-utilization-planning.md)
 ### [Redirect known folders](redirect-known-folders.md)
+### [B2B Sync](b2b-sync.md)
 ### [Sync client update process](sync-client-update-process.md)
 ### [Use Group Policy](use-group-policy.md)
 ### [Block file types](block-file-types.md)
