@@ -36,7 +36,7 @@ When sharing is turned on at the organization level, it can be allowed at the si
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
 
-2. In the left pane, under **Settings**, select **Services & add-ins**.
+2. In the left pane, under **Settings**, select **Services &amp; add-ins**. (You might need to select **Show all** to see the Settings option.) 
 
 3. Select **Sites**.
 
@@ -62,7 +62,7 @@ To specify additional sharing settings, go to the classic SharePoint admin cente
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-2. In the left pane, select **Admin centers** \> **SharePoint**. 
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
 
 3. In the classic SharePoint admin center, select **sharing** in the left pane.
 

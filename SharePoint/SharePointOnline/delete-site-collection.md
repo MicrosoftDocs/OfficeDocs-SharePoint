@@ -24,12 +24,33 @@ When you, as a global or SharePoint admin in Office 365, delete a site collectio
     
 - Any subsites and their contents.
     
-You should notify the site collection owners and subsite owners before you delete a site collection so they can move their data to another location, and also tell users when the sites will be deleted. 
+You should notify the site collection owners and any subsite owners before you delete a site collection so they can move their data to another location, and also tell users when the sites will be deleted. 
 
-> [!TIP] 
-> To delete a communication site or a team site that uses one of the new templates, use the new SharePoint admin center preview. For info, see [Manage sites in the new SharePoint admin center](manage-sites-in-new-admin-center.md).
+## Delete a site in the new SharePoint admin center
+
+By using the new SharePoint admin center, you can delete sites that use the new team site and communication site templates. 
+
+SharePoint admins can now delete sites that belong to an Office 365 group. Deleting these sites will delete the group and all its resources, including the Outlook mailbox and calendar, and any Teams channels.
   
-## Delete a site collection in the classic SharePoint admin center
+1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
+    
+    > [!NOTE]
+    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
+    
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
+
+3. If the classic SharePoint admin center appears, select **Try it now** to open the new SharePoint admin center preview. 
+
+4. In the left pane, select **Active sites**.
+
+5. In the left column, click to select a site.
+
+6. Select **Delete**, and then select **Delete** to confirm.
+
+> [!NOTE]
+> Deleted Office 365 groups are retained for only 30 days.
+ 
+## Delete a classic site in the classic SharePoint admin center
 <a name="__toc323551190"> </a>
 
 1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
@@ -37,7 +58,7 @@ You should notify the site collection owners and subsite owners before you delet
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-2. In the left pane, select **Admin centers** \> **SharePoint**. If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
     
 3. Select the check box next to the site collection or multiple site collections that you want to delete.
     
