@@ -9,6 +9,7 @@
 ### [Reports](using-the-sharepoint-migration-tool-reports.md)
 ### [Create User mapping files](create-a-user-mapping-file-for-data-content-migration.md)
 ### [Supported SharePoint list templates](sharepoint-migration-supported-list-templates.md)
+### [Supported SharePoint web parts](spmt-supported-webparts.md)
 ## [Migrate to SharePoint Online using PowerShell](overview-SPMT-PS-cmdlets.md)
 ## [Migrate to SharePoint Online using the Azure Data Box](how-to-migrate-file-share-content-to-SPO-using-AzureDataBox.md)
 ## [SharePoint Online and OneDrive Migration Speed](sharepoint-online-and-onedrive-migration-speed.md)
