@@ -36,16 +36,17 @@ To create a new site collection that uses the same URL as a site collection that
 ## Restore a deleted site collection
 <a name="__toc315681383"> </a>
 
-1. Sign in to Office 365 as a global admin or SharePoint admin.
+1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+    > [!NOTE]
+    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-3. In the left pane, choose **Admin centers** \> **SharePoint**.
+2. In the left pane, under **Admin centers**, select **SharePoint**. 
     
-4. On the ribbon, click **Recycle Bin**.
+3. On the site collection page of the classic SharePoint admin center, select **Recycle Bin**.
     
-5. In the Recycle Bin, select the check box next to the site collection that you want to restore.
+4. In the Recycle Bin, select the check box next to the site collection that you want to restore.
     
-6. On the ribbon, click **Restore Deleted Items**.
+5. On the ribbon, click **Restore Deleted Items**.
     
 

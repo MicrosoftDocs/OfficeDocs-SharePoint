@@ -590,7 +590,7 @@ To upgrade the User Profile service application, you copy the Profile and Social
     
 6. Create the User Profile service application proxy and add it to the default proxy group by completing these actions:
     
-    - Type the following command to get the ID for the Search service application and store it as a variable:
+    - Type the following command to get the ID for the User Profile service application and store it as a variable:
     
       ```
       $sa = Get-SPServiceApplication | ?{$_.TypeName -eq 'User Profile Service Application'}
@@ -598,7 +598,7 @@ To upgrade the User Profile service application, you copy the Profile and Social
 
       For more information, see [Get-SPServiceApplication](/powershell/module/sharepoint-server/get-spserviceapplication?view=sharepoint-ps).        
     
-    - Type the following command to create a proxy for the Search service application:
+    - Type the following command to create a proxy for the User Profile service application:
     
       ```
       New-SPProfileServiceApplicationProxy -Name ProxyName -ServiceApplication $sa
