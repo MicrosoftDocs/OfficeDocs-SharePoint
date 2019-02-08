@@ -26,9 +26,9 @@ Note that this procedure applies to classic sites, communication sites, and new 
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-2. In the left pane, select **Admin centers** \> **SharePoint**. 
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
 
-3. In the classic SharePoint admin center, select **Try it now** to open the new SharePoint admin center preview. 
+3. If the classic SharePoint admin center appears, select **Try it now** to open the new SharePoint admin center preview. 
     
 4. In the left pane, under **Sites** select **Active sites**.
     

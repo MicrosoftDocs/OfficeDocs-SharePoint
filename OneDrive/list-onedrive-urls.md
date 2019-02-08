@@ -29,7 +29,7 @@ This article is for global and SharePoint admins in Office 365.
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-2. In the left pane, select **Reports**, and then select **Usage**.
+2. In the left pane, select **Reports** \> **Usage**. (You might need to select **Show all** to see the Reports option.) 
     
 3. Select the **OneDrive files** tile, or select **Select a report** > **OneDrive usage**.
 
