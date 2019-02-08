@@ -23,14 +23,14 @@ As a global admin or SharePoint admin in Office 365, you can use the OneDrive ad
 To learn how to change the external sharing setting of an individual user's OneDrive, see [Change the external sharing setting for a user's OneDrive](user-external-sharing-settings.md). For info about how to share a file or folder in OneDrive, see [Share OneDrive files and folders](https://support.office.com/article/9fcc2f7d-de0c-4cec-93b0-a82024800c07#BKMK_BusinessTab).
   
 > [!NOTE]
-> Some sharing settings exist in multiple admin centers. When you change them in one place, the other admin centers will reflect the change. If you have multiple admins in your organization, make sure you communicate the changes you're making. In the Microsoft 365 admin center, under **Settings** \> **Services &amp; add-ins**\> **Sites**, the External sharing setting is the same as the SharePoint external sharing setting in the OneDrive admin center. The Sharing page in the OneDrive admin center and the [in the classic SharePoint admin center](/sharepoint/turn-external-sharing-on-or-off) control the same settings. 
+> Some sharing settings exist in multiple admin centers. When you change them in one place, the other admin centers will reflect the change. If you have multiple admins in your organization, make sure you communicate the changes you're making. In the Microsoft 365 admin center, under **Settings** \> **Services &amp; add-ins** \> **Sites**, the External sharing setting is the same as the SharePoint external sharing setting in the OneDrive admin center. The Sharing page in the OneDrive admin center and the in the classic SharePoint admin center control the same settings. 
   
 ## Change your sharing link settings
 <a name="defaultlink"> </a>
 
 If you haven't yet specified the external sharing settings you allow, do that first: [Control external sharing for OneDrive and SharePoint](manage-sharing.md#externalsharing). Then follow these steps to guide your users into creating the kind of sharing link you prefer.
   
-1. Open the [OneDrive admin center](https://admin.onedrive.com/?v=SharingSettings), and click the **Sharing** tab. 
+1. Open the [OneDrive admin center](https://admin.onedrive.com/?v=SharingSettings), and select **Sharing** in the left pane. 
     
 2. Under **Default link type**, choose the kind of link that's selected by default when users share items:
     
@@ -64,7 +64,7 @@ By default, users are allowed to share files in OneDrive and SharePoint with any
     
  **To configure external sharing for OneDrive**
   
-1. Open the [OneDrive admin center](https://admin.onedrive.com/?v=SharingSettings), and click the **Sharing** tab. 
+1. Open the [OneDrive admin center](https://admin.onedrive.com/?v=SharingSettings), and select **Sharing** in the left pane. 
     
 2. Under **External sharing**, move the sliders to the settings you want for SharePoint and OneDrive, as described in the table below.
     
@@ -96,7 +96,7 @@ By default, users are allowed to share files in OneDrive and SharePoint with any
 ## Other settings
 <a name="showfileviewers"> </a>
 
-1. Open the [OneDrive admin center](https://admin.onedrive.com/?v=SharingSettings), and click the **Sharing** tab. 
+1. Open the [OneDrive admin center](https://admin.onedrive.com/?v=SharingSettings), and select **Sharing** in the left pane. 
     
 2. Under **Other settings**, select or clear **Display to owners the names of people who viewed their files**.
     

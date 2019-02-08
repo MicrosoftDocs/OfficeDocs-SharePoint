@@ -19,7 +19,7 @@ description: "You can grant users or groups read access to crawl log information
 
 # Crawl log permissions
 
-As a SharePoint Online administrator, you can grant users read access to crawl log information for the tenant. The crawl log tracks information about the status of crawled content. 
+As a global or SharePoint admin in Office 365, you can grant users read access to crawl log information for the tenant. The crawl log tracks information about the status of crawled content. 
   
 A typical use case is in eDiscovery, where you can grant a security group permission to view the crawl log information for the tenant. The users in the security group can view the crawl log data via the eDiscovery portal to check whether crawled content was successfully added to the search index, or whether indexing failed because of an error.
   

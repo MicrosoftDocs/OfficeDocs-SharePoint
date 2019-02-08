@@ -33,7 +33,7 @@ These pages are located in the **Pages** library, and they contain predefined We
 |videoresults.aspx  <br/> |The search results page for the **Videos** search vertical.  <br/> |
 |advanced.aspx  <br/> |The search page where users can apply some restrictions to their search phrases — for example, they can limit the search to an exact phrase.  <br/> |
    
-As a SharePoint Online administrator, you can also create your own pages and add them to the Search Center as search verticals. 
+As a global or SharePoint admin, you can also create your own pages and add them to the Search Center as search verticals. 
   
 ## About the Web Parts used on Search Center pages
 <a name="__top"> </a>

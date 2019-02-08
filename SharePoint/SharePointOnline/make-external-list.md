@@ -12,7 +12,7 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: 466f3809-fde7-41f2-87f7-77d9fdadfc95
-description: "As a SharePoint Online Administrator, you can use services in SharePoint Online to access data from a Microsoft SQL Azure database. Because SQL Azure is a cloud-based relational database technology, this means the connection works completely in the cloud. This article describes how to use SharePoint technologies to access data from a SQL Azure database without having to write code."
+description: "Learn how to use SharePoint technologies to access data from a SQL Azure database without having to write code."
 ---
 
 # Make an External List from a SQL Azure table with Business Connectivity Services and Secure Store

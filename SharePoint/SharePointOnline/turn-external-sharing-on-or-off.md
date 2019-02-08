@@ -53,7 +53,7 @@ When sharing is turned on at the organization level, it can be allowed at the si
 > [!NOTE]
 >  If you turn off external sharing for your entire environment and later turn it back on, external users who previously had access to content or documents on sites will regain access to them. If you know that external sharing was previously turned on and in use for specific site collections and you do not want external users to be able to regain access if external sharing is ever turned on again globally, we recommend that you first turn off external sharing for those specific site collections.<br><br> If you disable external access, or limit external access to a more restrictive form, external users will typically lose access within one hour of the change. If you disable external access, access to resources will also be blocked to guests in Office 365 Groups. 
 
-### Additional settings
+## Additional settings
 
 To specify additional sharing settings, go to the classic SharePoint admin center.
 

@@ -20,14 +20,20 @@ If you're a global or SharePoint admin in Office 365, you can make a hub site no
   
 ## Unregister a hub site in the new SharePoint admin center 
 
-> [!NOTE] 
->  Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Office 365](/office365/admin/manage/release-options-in-office-365). This means that you may not yet see some features described in this article. 
+1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
+    
+    > [!NOTE]
+    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
+    
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
 
-1. In the new SharePoint admin center, under **Sites**, click **Active sites**. 
+3. If the classic SharePoint admin center appears, select **Try it now** to open the new SharePoint admin center preview. 
 
-2. Select the site, click **Hub site**, and then click **Unregister as hub site**. 
+4. In the left pane, select **Active sites**.
 
-3. Click **OK**.  
+5. Select the site, select **Hub site**, and then select **Unregister as hub site**. 
+
+6. Select **OK**.  
 
 ## See also
 
