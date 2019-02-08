@@ -12,12 +12,12 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: 187b73a8-02b5-4aa2-9db6-3b62cf2b8cd9
-description: "As a SharePoint Online administrator, you can specify where searches should go by specifying the URL of your Search Center."
+description: "Learn how to specify where searches should go by specifying the URL of your Search Center."
 ---
 
 # Search Center settings
 
-As a SharePoint Online administrator, you can specify where searches should go by specifying the URL of your Search Center. For example, if you have created an Enterprise Search Center where users can search everything in your company, you can enter the URL of that site here. 
+As a global or SharePoint admin in Office 365, you can specify where searches should go by specifying the URL of your Search Center. For example, if you have created an Enterprise Search Center where users can search everything in your company, you can enter the URL of that site here. 
   
 ## Enter the address of your Search Center
 <a name="__goback"> </a>

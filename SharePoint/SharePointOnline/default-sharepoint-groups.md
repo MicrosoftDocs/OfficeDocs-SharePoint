@@ -102,7 +102,7 @@ These users are the main contacts for a whole site collection. Site Collection A
   
 In SharePoint On-premises, you designate a site collection administrator when you install a site.
   
-In SharePoint Online, the account that you used when you set up SharePoint Online is automatically a site collection administrator. If you have to add more site collection administrators in SharePoint Online, an existing site collection administrator or the SharePoint online administrator can do so.
+In SharePoint Online, the account that you used when you set up SharePoint Online is automatically a site collection administrator. If you need to add more site collection administrators to a site, an existing site collection administrator or a SharePoint administrator can do so.
   
 SharePoint administrators
   
