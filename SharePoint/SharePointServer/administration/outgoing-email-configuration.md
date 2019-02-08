@@ -181,8 +181,9 @@ You can configure outgoing email for a farm by using the SharePoint Central Admi
     > If you're using a Windows account to autheticate to the SMTP server, you can specify the user name using either the Universal Principal Name (UPN) format (user@domain.com) or the NT4 login format (DOMAIN\user). If you're using a non-Windows account to authenticate to the SMTP server, contact your email administrator to determine the correct user name format.
 
 10. In the **Use TLS connection encryption** box, select the **Yes** radio button to require SharePoint to establish an encrypted connection to the SMTP server before sending email. Otherwise, select the **No** radio button.
-  > [!NOTE]
-  > The SMTP server must be configured with a valid TLS certificate (matching the SMTP server name entered above) that is trusted by the SharePoint server in order for email to be sent via TLS.
+    
+    > [!NOTE]
+    > The SMTP server must be configured with a valid TLS certificate (matching the SMTP server name entered above) that is trusted by the SharePoint server in order for email to be sent via TLS.
     
 11. Click **OK**.
     
