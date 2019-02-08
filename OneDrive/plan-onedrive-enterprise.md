@@ -393,7 +393,7 @@ You can update the OneDrive sync client in two waves:
 
 -   **Enterprise ring** – in this ring, changes are rolled out after they’ve been validated in the Production ring, reducing the risk of issues.
 
-This setting is configured by using group policy.
+This setting is configured by using Group Policy.
 
 For details about the update process for the OneDrive sync client, see [The OneDrive sync client update process](sync-client-update-process.md).
 
