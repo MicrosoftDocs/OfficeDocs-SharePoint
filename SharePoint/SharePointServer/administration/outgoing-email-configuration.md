@@ -114,11 +114,11 @@ If you enable anonymous access and relayed email messages, you increase the poss
     
 9. To accept relayed email messages from one or more specific servers, follow these steps:
     
-  - Click **Only the list below**.
+   - Click **Only the list below**.
     
-  - Click **Add**, and then add servers one at a time by IP address, or in groups by using a subnet or domain.
+   - Click **Add**, and then add servers one at a time by IP address, or in groups by using a subnet or domain.
     
-  - Click **OK** three times to close the **Computer**, **Relay Restrictions**, and **Properties** dialog boxes. 
+   - Click **OK** three times to close the **Computer**, **Relay Restrictions**, and **Properties** dialog boxes. 
     
 Ensure that the SMTP service is running and set to start automatically. To do this, use the following procedure.
   
@@ -241,7 +241,8 @@ You can configure outgoing email for a specific web application by using the Cen
    
    - If you selected the **Authenticated** radio button, provide the user name in the **User name** box and the password in the **Password** box.   
 
-     **NOTE:** If you're using a Windows account to authenticate to the SMTP server, you can specify the user name using either the Universal Principal Name (UPN) format (user@domain.com) or the NT4 login format (DOMAIN\user). If you're using a non-Windows account to authenticate to the SMTP server, contact your email administrator to determine the correct user name format.
+   > [!NOTE] 
+   > If you're using a Windows account to authenticate to the SMTP server, you can specify the user name using either the Universal Principal Name (UPN) format (user@domain.com) or the NT4 login format (DOMAIN\user). If you're using a non-Windows account to authenticate to the SMTP server, contact your email administrator to determine the correct user name format.
 
 10.  In the **Use TLS connection encryption** section, select the **Yes** radio button to require SharePoint to establish an encrypted connection to the SMTP server before sending email. Otherwise, select the **No** radio button.
     
