@@ -17,7 +17,7 @@ description: "As a search administrator, you can temporarily remove items from t
 
 # Remove search results
 
-If you're a  a SharePoint Online administrator, you can temporarily remove items from search results with immediate effect. The items that you can remove can be documents, pages, or sites that you don't want users to see. An example of this could be a Word document containing an invitation to an event that has been cancelled, but the organizer has not removed the document from the site yet. Removing a result removes it from both classic and modern search results. 
+As a global or SharePoint admin in Office 365, you can temporarily remove items from search results with immediate effect. The items that you can remove can be documents, pages, or sites that you don't want users to see. An example of this could be a Word document containing an invitation to an event that has been cancelled, but the organizer has not removed the document from the site yet. Removing a result removes it from both classic and modern search results. 
   
 > [!IMPORTANT]
 >  This is only a quick fix! Unless you delete the items or change the permissions of items manually, they will show up again in your search results after the next crawl. 
@@ -27,9 +27,9 @@ If you're a  a SharePoint Online administrator, you can temporarily remove items
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-2. In the left pane, under **Admin centers**, select **SharePoint**. 
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
       
-3. In the left pane of the classic SharePoint admin center, select **search**. 
+3. In the left pane, select **search**. 
     
 4. On the search administration page, choose **Remove Search Results**.
     

@@ -21,28 +21,48 @@ search.appverid:
 - MBS150
 - MET150
 ms.assetid: 3a3d7ab9-5d21-41f1-b4bd-5200071dd539
-description: "Learn how to create and delete SharePoint Online site collections in the classic SharePoint admin center."
+description: "Learn how to create SharePoint sites."
 ---
 
 # Create a site collection
 
-This article describes how global admins and SharePoint admins in Office 365 can create classic SharePoint Online site collections from the Microsoft 365 admin center.
+This article describes how global admins and SharePoint admins in Office 365 can create sites.
   
-> [!NOTE]
-> For info about creating sites that use the new templates (team sites and communication sites) in the new SharePoint admin center preview, see [Manage sites in the new SharePoint admin center](manage-sites-in-new-admin-center.md). For info about creating site collections in SharePoint Server, see [Create a site collection in SharePoint Server](/SharePoint/sites/create-a-site-collection).
+For info about creating site collections in SharePoint Server, see [Create a site collection in SharePoint Server](/SharePoint/sites/create-a-site-collection).
 
-  
-## Create a classic site collection
-<a name="__toc323551189_1"> </a>
+## Create a site in the new SharePoint admin center
 
-SharePoint Online has several classic templates. For example, you can create sites for blogs, wikis, record storage, and publishing. 
+By using the new SharePoint admin center, you can create sites that use one of the new team site or communication site templates. 
   
 1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-2. In the left pane, select **Resources**, and then select **Sites**.
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
+
+3. If the classic SharePoint admin center appears, select **Try it now** to open the new SharePoint admin center preview. 
+
+4. In the left pane, select **Active sites**.
+
+5. Select **Create**.
+
+6. Select **Team site** (to create an Office 365 group-connected team site), **Communication site**, or **Other options** (to create a new team site without an Office 365 group, or to create a classic site)
+
+7. Follow the steps to specify a site name, owner, language, and other settings. When you're done, select **Finish**.
+    
+ 
+## Create a classic site collection
+<a name="__toc323551189_1"> </a>
+
+If you want to create a site that uses a classic template, you can do so directly from the Microsoft 365 admin center. 
+  
+1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
+    
+    > [!NOTE]
+    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
+    
+2. In the left pane, select **Resources** \> **Sites**. (You might need to select **Show all** to see the Resources option.)
     
     ![Office 365 admin sites](media/d7757cbe-6531-492f-8547-e055b71d0abf.png)
   
@@ -51,7 +71,7 @@ SharePoint Online has several classic templates. For example, you can create sit
     ![Microsoft 365 admin center create site collection](media/3026fd12-9d34-4948-a149-fcc8de7b7d83.png)
   
     > [!NOTE]
-    > If you don't see the options above, select **Admin centers** \> **SharePoint** and then select **New** \> **Private Site Collection**. > ![Site Collection page with New selected](media/cf178205-b5bb-4152-a4c8-87d3099fc6ca.PNG)
+    > If you don't see the options above, under **Admin centers**, select **SharePoint** and then select **New** \> **Private Site Collection**. > ![Site Collection page with New selected](media/cf178205-b5bb-4152-a4c8-87d3099fc6ca.PNG)
   
 4. Fill out the new site collection properties:
     

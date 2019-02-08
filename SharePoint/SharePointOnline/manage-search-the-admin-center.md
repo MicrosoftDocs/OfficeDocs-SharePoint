@@ -17,7 +17,7 @@ description: "Use the SharePoint Online search administration page to customize 
 
 # SharePoint Online search administration overview
 
-SharePoint Online has both a classic and a modern search experience. As a SharePoint Online administrator, you can customize and impact the search experiences for users.  [Learn about the differences between the classic and modern search experiences](differences-classic-modern-search.md). You can define searchable managed properties in the search schema, identify high-quality pages to improve relevance, manage query rules and result sources, and remove individual results. You can also evaluate any changes by viewing reports about usage and search.
+SharePoint Online has both a classic and a modern search experience. As a global or SharePoint admin in Office 365, you can customize and impact the search experiences for users.  [Learn about the differences between the classic and modern search experiences](differences-classic-modern-search.md). You can define searchable managed properties in the search schema, identify high-quality pages to improve relevance, manage query rules and result sources, and remove individual results. You can also evaluate any changes by viewing reports about usage and search.
   
 The changes you make from the search administration page are valid for the whole tenant, but you can also customize search on site collection level and on site level.
   
@@ -29,7 +29,7 @@ The changes you make from the search administration page are valid for the whole
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-2. In the left pane, select **Admin centers** \> **SharePoint**. If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
     
 3. Select **search** in the left pane. 
     

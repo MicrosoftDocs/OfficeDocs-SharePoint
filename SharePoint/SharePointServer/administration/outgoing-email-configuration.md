@@ -182,6 +182,9 @@ You can configure outgoing email for a farm by using the SharePoint Central Admi
 
 10. In the **Use TLS connection encryption** box, select the **Yes** radio button to require SharePoint to establish an encrypted connection to the SMTP server before sending email. Otherwise, select the **No** radio button.
     
+    > [!NOTE]
+    > The SMTP server must be configured with a valid TLS certificate (matching the SMTP server name entered above) that is trusted by the SharePoint server in order for email to be sent via TLS.
+    
 11. Click **OK**.
     
 ### To configure outgoing email for a farm by using Microsoft PowerShell

@@ -36,7 +36,7 @@ When sharing is turned on at the organization level, it can be allowed at the si
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
 
-2. In the left pane, under **Settings**, select **Services & add-ins**.
+2. In the left pane, under **Settings**, select **Services &amp; add-ins**. (You might need to select **Show all** to see the Settings option.) 
 
 3. Select **Sites**.
 
@@ -53,7 +53,7 @@ When sharing is turned on at the organization level, it can be allowed at the si
 > [!NOTE]
 >  If you turn off external sharing for your entire environment and later turn it back on, external users who previously had access to content or documents on sites will regain access to them. If you know that external sharing was previously turned on and in use for specific site collections and you do not want external users to be able to regain access if external sharing is ever turned on again globally, we recommend that you first turn off external sharing for those specific site collections.<br><br> If you disable external access, or limit external access to a more restrictive form, external users will typically lose access within one hour of the change. If you disable external access, access to resources will also be blocked to guests in Office 365 Groups. 
 
-### Additional settings
+## Additional settings
 
 To specify additional sharing settings, go to the classic SharePoint admin center.
 
@@ -62,7 +62,7 @@ To specify additional sharing settings, go to the classic SharePoint admin cente
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-2. In the left pane, select **Admin centers** \> **SharePoint**. 
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
 
 3. In the classic SharePoint admin center, select **sharing** in the left pane.
 

@@ -82,14 +82,14 @@ To enable B2B Sync, external sharing must be enabled at the organization level. 
 
 You can change your organization-level sharing settings in three different places (all three control the same thing):
 
-- In the Microsoft 365 admin center, under Settings > Services & add-ins> Sites. 
-- On the [Sharing page in the OneDrive admin center](/manage-sharing#control-external-sharing-for-onedrive-and-sharepoint.md)
-- On the [sharing page in the in the classic SharePoint admin center](/sharepoint/turn-external-sharing-on-or-off).
+- In the Microsoft 365 admin center, under Settings \> Services &amp; add-ins \> Sites. For more info, see [Change the organization-level external sharing setting](/sharepoint/turn-external-sharing-on-or-off.md#change-the-organization-level-external-sharing-setting)
+- On the [Sharing page in the OneDrive admin center](manage-sharing.md#control-external-sharing-for-onedrive-and-sharepoint)
+- On the sharing page in the in the classic SharePoint admin center, where you can also specify detailed options. For more info, see [Additional settings](/sharepoint/turn-external-sharing-on-or-off.md#additional-settings).
 
 > [!IMPORTANT]
 > If you allow “anyone” links (sometimes referred to as “anonymous access” or “shareable”), these links do not create guest accounts and therefore don’t enable B2B Sync.
 
-For more info, see [External sharing overview](https://docs.microsoft.com/en-us/sharepoint/external-sharing-overview).
+For more info, see [External sharing overview](/sharepoint/external-sharing-overview).
 
 ### Control external sharing
 
@@ -111,7 +111,7 @@ To view or change the sharing setting for any site, use the new SharePoint admin
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-2. In the left pane, choose **Admin centers** \> **SharePoint**. 
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
 3. If the classic SharePoint admin center appears, click **Try it now** to open the new SharePoint admin center preview.
 4. Under **Sites**, click **Active sites**, and customize the view as necessary to see the External sharing column.
 5. If you need to, [change the external sharing setting for a site](/sharepoint/manage-sites-in-new-admin-center#change-the-external-sharing-setting-for-a-site).
