@@ -58,11 +58,15 @@ To use the following Group Policy objects, you need the OneDrive sync build 18.1
  
     A number of errors can prevent this setting from taking effect, such as:
     - A known folder contains an Outlook database file (.pst), or a OneNote file that isn't already stored in OneDrive.
-    - A file is too big to upload.
-    - A file name isn't allowed.
     - A known folder is on a different volume than the OneDrive folder.
+    - A file exceeds the maximum path length
+    - The known folders aren't in the default locations
+    - A folder isn't selected for syncing
+    - Folder protection is unavailable
+    - Known folders are prohibited from being redirected
+
     
-    For info about these errors, see [Fix problems with folder protection].(https://support.office.com/article/d61a7930-a6fb-4b95-b28a-6552e77c3057#BKMK_FixProblems)
+    For info about these errors, see [Fix problems with folder protection](https://support.office.com/article/d61a7930-a6fb-4b95-b28a-6552e77c3057#BKMK_FixProblems).
 
     We recommend using this setting together with "Prompt users to move Windows known folders to OneDrive." If moving the known folders silently does not succeed, users will be prompted to correct the error and continue. 
    
