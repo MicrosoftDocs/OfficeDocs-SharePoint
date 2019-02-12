@@ -32,9 +32,9 @@ Some functionality is introduced gradually to organizations that have signed up 
     
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
     
-3. If the classic SharePoint admin center appears, click **Try it now** to open the new SharePoint admin center preview.
+3. If the classic SharePoint admin center appears, click **Try it now** to open the new SharePoint admin center.
     
-4. In the left pane, select **Settings**, and then select **Site Creation**.
+4. In the left pane of the new SharePoint admin center, select **Settings**, and then select **Site Creation**.
 
 5. Select to create Office 365 group-connected team sites under /sites or /teams, select the default time zone and storage limit for new sites, and turn **Let users create new sites** On or Off. 
 

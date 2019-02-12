@@ -17,7 +17,7 @@ description: "Learn how to use PowerShell to manage communication sites as well 
 
 # Manage team sites and communication sites by using PowerShell
 
-This article describes how global admins and SharePoint admins in Office 365 can use Microsoft PowerShell cmdlets to manage communication sites as well as team sites that belong to Office 365 groups. You can't manage these new site types in the classic SharePoint admin center, but you can in the SharePoint admin center preview. [Learn how](manage-sites-in-new-admin-center.md)  
+This article describes how global admins and SharePoint admins in Office 365 can use Microsoft PowerShell cmdlets to manage communication sites as well as team sites that belong to Office 365 groups. You can't manage these new site types in the classic SharePoint admin center, but you can in the SharePoint admin center. [Learn how](manage-sites-in-new-admin-center.md)  
   
 ## Manage external sharing
 <a name="BKMK_GroupSiteCollections"> </a>

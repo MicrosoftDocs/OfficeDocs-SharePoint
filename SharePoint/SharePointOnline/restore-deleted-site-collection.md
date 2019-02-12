@@ -17,7 +17,7 @@ description: "Learn how to get back a deleted site collection in SharePoint Onli
 
 # Restore a deleted site collection
 
-This article describes how global admins and SharePoint admins can restore deleted site collections from the classic SharePoint admin center. For info about restoring deleted communication sites, group-connected team sites, and other sites in the new SharePoint admin center preview, see [View and restore deleted sites in the new SharePoint admin center](view-and-restore-deleted-sites-in-new-admin-center.md).
+This article describes how global admins and SharePoint admins can restore deleted site collections from the classic SharePoint admin center. For info about restoring deleted communication sites, group-connected team sites, and other sites in the new SharePoint admin center, see [View and restore deleted sites in the new SharePoint admin center](view-and-restore-deleted-sites-in-new-admin-center.md).
   
 If you're an admin for SharePoint Server, learn how to [Restore deleted site collections using Microsoft Powershell](https://go.microsoft.com/fwlink/?linkid=866959).
   

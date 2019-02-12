@@ -48,9 +48,9 @@ Limiting access allows users to remain productive while addressing the risk of a
     
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.)
 
-3. If the classic SharePoint admin center appears, select **Try it now** to open the new SharePoint admin center preview. 
+3. If the classic SharePoint admin center appears, select **Try it now** to open the new SharePoint admin center. 
 
-4. Select **Access control** in the left pane, and then select **Unmanaged devices**. 
+4. In the left pane of the new SharePoint admin center, select **Access control**, and then select **Unmanaged devices**. 
 
 5. Select **Block access**, and then select **Save**.   
 
@@ -72,7 +72,7 @@ Limiting access allows users to remain productive while addressing the risk of a
 > It can take 5-10 minutes for the policy to take effect. It won't take effect for users who are already signed in from unmanaged devices. 
 
 > [!IMPORTANT] 
-> If you block or limit access from unmanaged devices, we recommend also blocking access from apps that don't use modern authentication. Some third-party apps and versions of Office prior to Office 2013 don't use modern authentication and can't enforce device-based restrictions. This means they allow users to bypass conditional access policies that you configure in Azure. In the new SharePoint admin center preview, on the Access control page, select **Apps that don't use modern authentication**, select **Block access**, and then select **Save**.  
+> If you block or limit access from unmanaged devices, we recommend also blocking access from apps that don't use modern authentication. Some third-party apps and versions of Office prior to Office 2013 don't use modern authentication and can't enforce device-based restrictions. This means they allow users to bypass conditional access policies that you configure in Azure. In the new SharePoint admin center, on the Access control page, select **Apps that don't use modern authentication**, select **Block access**, and then select **Save**.  
 
 ## Block access using the classic SharePoint admin center
 
@@ -118,16 +118,16 @@ Limiting access allows users to remain productive while addressing the risk of a
     
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.)
 
-3. If the classic SharePoint admin center appears, select **Try it now** to open the new SharePoint admin center preview. 
+3. If the classic SharePoint admin center appears, select **Try it now** to open the new SharePoint admin center. 
 
-4. Select **Access control**, and then select **Unmanaged devices**. 
+4. In the left pane, select **Access control**, and then select **Unmanaged devices**. 
 
 5. Select **Allow limited, web-only access**, and then select **Save**.   
 
     ![The Unmanaged devices pane in the new SharePoint admin center](media/unmanaged-devices-limit-access.png) 
 
 > [!IMPORTANT] 
-> If you block or limit access from unmanaged devices, we recommend also blocking access from apps that don't use modern authentication. Some third-party apps and versions of Office prior to Office 2013 don't use modern authentication and can't enforce device-based restrictions. This means they allow users to bypass conditional access policies that you configure in Azure. In the new SharePoint admin center preview, on the Access control page, select **Apps that don't use modern authentication**, select **Block access**, and then select **Save**.  
+> If you block or limit access from unmanaged devices, we recommend also blocking access from apps that don't use modern authentication. Some third-party apps and versions of Office prior to Office 2013 don't use modern authentication and can't enforce device-based restrictions. This means they allow users to bypass conditional access policies that you configure in Azure. In the new SharePoint admin center, on the Access control page, select **Apps that don't use modern authentication**, select **Block access**, and then select **Save**.  
 
 ## Limit access using the classic SharePoint admin center
 
