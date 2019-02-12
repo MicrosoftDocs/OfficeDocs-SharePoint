@@ -6,7 +6,9 @@ manager: pamgreen
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-mscollection: SPMigration
+mscollection: 
+- SPMigration
+- M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
 description: "Learn about the new features and updates to existing features in SharePoint Migration Tool."

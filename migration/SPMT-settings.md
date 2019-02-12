@@ -11,6 +11,7 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
 - SPMigration
+- M365-collaboration
 description: "A complete listing of the SharePoint Migration basic and advanced settings." 
 ---
 

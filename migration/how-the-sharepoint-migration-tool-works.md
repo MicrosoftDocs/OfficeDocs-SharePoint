@@ -11,6 +11,7 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
 - SPMigration
+- M365-collaboration
 search.appverid:
 - MET150
 ms.custom: 

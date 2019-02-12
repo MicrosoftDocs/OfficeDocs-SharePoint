@@ -10,6 +10,7 @@ localization_priority: Priority
 ms.collection:
 - Strat_SP_gtc
 - SPMTMigration
+- M365-collaboration
 ms.custom: 
 ms.assetid: 
 description: "SharePoint Migration Tool table of supported webparts for migration."
