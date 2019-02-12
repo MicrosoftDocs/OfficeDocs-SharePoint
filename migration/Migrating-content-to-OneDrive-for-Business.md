@@ -11,6 +11,7 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
 - SPMigration
+- M365-collaboration
 description: "Migrating Content to OneDrive for Business."
 ---
 # Migrate content to OneDrive for Business 

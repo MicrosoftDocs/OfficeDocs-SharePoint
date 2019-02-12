@@ -7,7 +7,9 @@ ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
-mscollection: SPMigration
+mscollection:
+- SPMigration
+- M365-collaboration
 search.appverid: MET150
 ---
 
