@@ -48,7 +48,7 @@ For the steps to delete a user in the Microsoft 365 admin center, see [Delete a 
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-2. In the left pane, select **Users** > **Guest users**.
+2. In the left pane, select **Users** \> **Guest users**.
 
 3. Select **Delete a user**.
 

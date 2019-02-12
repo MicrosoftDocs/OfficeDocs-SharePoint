@@ -20,27 +20,22 @@ If you're a global or SharePoint admin in Office 365, you can make a hub site no
   
 ## Unregister a hub site in the new SharePoint admin center 
 
-> [!NOTE] 
->  Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Office 365](/office365/admin/manage/release-options-in-office-365). This means that you may not yet see some features described in this article. 
-
-1. In the new SharePoint admin center, under **Sites**, click **Active sites**. 
-
-2. Select the site, click **Hub site**, and then click **Unregister as hub site**. 
-
-3. Click **OK**.  
-
-## Unregister a hub site by using PowerShell
-
-1. Download and install the latest [SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251). If you already have a previous version installed, uninstall it first and then install the latest version.
+1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
-2. Connect the SharePoint Online Management Shell to SharePoint Online for your organization. For info, see [Connect the SharePoint Online PowerShell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+    > [!NOTE]
+    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-3. Run the following command:
-    
-  ```PowerShell
-  Unregister-SPOHubSite URL
-  ```
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
 
-  (Where  *URL*  is the URL of the site.) 
-    
+3. If the classic SharePoint admin center appears, select **Try it now** to open the new SharePoint admin center. 
+
+4. In the left pane of the new SharePoint admin center, select **Active sites**.
+
+5. Select the site, select **Hub site**, and then select **Unregister as hub site**. 
+
+6. Select **OK**.  
+
+## See also
+
+To learn how to use Microsoft PowerShell to manage and delete hub sites, see [Manage SharePoint hub sites](/sharepoint/dev/features/hub-site/hub-site-powershell).
 

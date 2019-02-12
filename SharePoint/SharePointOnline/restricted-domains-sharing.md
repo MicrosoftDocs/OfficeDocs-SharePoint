@@ -38,9 +38,9 @@ Organization-wide settings affect all SharePoint Online site collections, includ
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-2. In the left pane, under **Admin centers**, select **SharePoint**.
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
     
-3. In the left pane of the classic SharePoint admin center, select **sharing**. 
+3. In the left pane, select **sharing**. 
     
 4. Under **Additional settings**, select the **Limit external sharing using domains** check box. 
     
@@ -72,7 +72,7 @@ You can also use restricted domains at the site collection level. Note the follo
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-2. In the left pane, under **Admin centers**, select **SharePoint**.
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
     
 3. On the **site collections** page of the classic SharePoint admin center, select a site collection, and then select **Sharing**.
     

@@ -36,7 +36,7 @@ If you prefer to fine tune the storage space allocated to each site collection, 
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-2. In the left pane, select **Admin centers** \> **SharePoint**. If this opens the classic SharePoint admin center, select **Try it now** to open the new SharePoint admin center.
+2. In the left pane, under **Admin centers**, select **SharePoint**. If this opens the classic SharePoint admin center, select **Try it now** to open the new SharePoint admin center.
     
 3. Select **Settings** in the left pane.
     
@@ -54,16 +54,16 @@ Follow these steps to specify individual site collection storage limits when you
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-2. In the left pane, select **Admin centers** \> **SharePoint**. If this opens the classic SharePoint admin center, select **Try it now** to open the new SharePoint admin center.
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the classic SharePoint admin center, select **Try it now** to open the new SharePoint admin center.
     
 3. On the **Active sites** page, select a site and then select **Storage**. 
     
-5. Enter the maximum storage in GB for the site.
+4. Enter the maximum storage in GB for the site.
     
-6. Make sure **Notifications** is turned on to send an email to site collection administrators when the site  approaches the storage limit. Then enter a value as a percent for how full you want the storage to be when the email is sent. 
+5. Make sure **Notifications** is turned on to send an email to site collection administrators when the site  approaches the storage limit. Then enter a value as a percent for how full you want the storage to be when the email is sent. 
  
   
-7. Select **Save**.
+6. Select **Save**.
     
 ### Monitor site collection storage limits by using PowerShell
 

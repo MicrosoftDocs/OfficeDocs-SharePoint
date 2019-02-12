@@ -71,9 +71,9 @@ Please read [Hybrid picker in the SharePoint Online admin center](/sharepoint/hy
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-3. In the left pane, under **Admin centers**, select **Security &amp; Compliance**.
+3. In the left pane, under **Admin centers**, select **Security &amp; Compliance**. (You might need to select **Show all** to see the list of admin centers.) 
         
-4. In the left pane, select **Search &amp; investigation** > **Audit log search**. 
+4. In the left pane, select **Search &amp; investigation** \> **Audit log search**. 
     
 5. If the **Turn on auditing** button appears, select it. 
   

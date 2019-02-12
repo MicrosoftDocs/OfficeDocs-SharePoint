@@ -24,9 +24,9 @@ If a user's Office 365 account is deleted, their OneDrive for Business files are
   
  **To set the retention time for OneDrive accounts**
   
-1. Open the [OneDrive admin center](https://admin.onedrive.com/?v=StorageSettings), and click the **Storage** tab. 
+1. Open the [OneDrive admin center](https://admin.onedrive.com/?v=StorageSettings), and select **Storage** in the left pane. 
     
-    ![The Storage tab of the OneDrive admin center](media/15942b88-2f71-4c85-87ec-eb14b88f8f93.png)
+    ![The Storage page of the OneDrive admin center](media/15942b88-2f71-4c85-87ec-eb14b88f8f93.png)
   
 2. Enter the number of days you want to retain OneDrive files in the **Days to retain files in OneDrive after a user account is marked for deletion** box. 
     

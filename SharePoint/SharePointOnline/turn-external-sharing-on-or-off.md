@@ -22,6 +22,8 @@ If you're working with vendors, clients, or customers outside of your organizati
 External sharing is controlled at both the organization level (global settings that affect all of SharePoint Online) and the site collection level. The organization-level settings determine what options are available at the site collection level.
   
 The external sharing settings for individual site collections cannot be *less* restrictive than whatever is allowed at the organization level, but these settings can be *more* restrictive. For example, if external sharing is turned on at the organization level, but it is limited to allowing only authenticated users, then that will be the only kind of external sharing you can allow in a specific site collection. If external sharing through both sign-in and anonymous access links is allowed at the organization level, then those options are also available for each site collection. 
+
+For info about turning external sharing on or off for a site collection, see [Change the external sharing setting for a site](change-external-sharing-site.md).
   
  
 ## Change the organization-level external sharing setting
@@ -34,7 +36,7 @@ When sharing is turned on at the organization level, it can be allowed at the si
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
 
-2. In the left pane, under **Settings**, select **Services & add-ins**.
+2. In the left pane, under **Settings**, select **Services &amp; add-ins**. (You might need to select **Show all** to see the Settings option.) 
 
 3. Select **Sites**.
 
@@ -45,13 +47,13 @@ When sharing is turned on at the organization level, it can be allowed at the si
 |**Select this option:**|**If you want to:**|
 |:-----|:-----|
 |**Only existing external users (sign-in required)** <br/> |Allow sharing only for external users who are already in your directory. These users may exist in your directory because they previously accepted sharing invitations or because they were manually imported, such as through [Azure B2B collaboration](/azure/active-directory/b2b/what-is-b2b). (You can tell an external user because they have **#EXT#** in their user name.)  <br/> |
-|**New and existing external users (sign-in required)** <br/> | Require external users who have received invitations to view sites or content to sign-in with a Microsoft account before they can access the content.  <br/>  Site owners or others with full control permission can share sites with external users.  <br/>  Site owners or others with full control permissions on a site can share documents with external users.  <br/>  All external users will be required to sign in before they can view content.  <br/>  Invitations to view content can be redeemed only once. After an invitation has been accepted, it cannot be shared or used by others to gain access.  <br/> |
+|**New and existing external users (sign-in required)** <br/> | Require external users who have received invitations to view sites or content to sign-in with a Microsoft account before they can access the content.  <br/>  Site owners and members can share sites with external users.  <br/>  Site owners and members of a site can share documents with external users.  <br/>  All external users will be required to sign in before they can view content.  <br/>  Invitations to view content can be redeemed only once. After an invitation has been accepted, it cannot be shared or used by others to gain access.  <br/> |
 |**Anyone, including anonymous users** <br/> (Optionally, you can set links to expire in a specific number of days, and select how recipients can use the links .)  <br/> | Allow site users to share sites with people who sign in as authenticated users, but you also want to allow site users to share documents through the use of anonymous access links, which do not require invited recipients to sign in.  <br/>  Site owners or others with full control permissions can share sites with external users.  <br/>  All external users will be required to sign in before they can view content on a site that has been shared.  <br/>  When sharing documents, site owners or others with full control permissions can opt to require sign-in or send an anonymous access link.  <br/>  When users share a document, they can grant external users either view or edit permissions to the document.  <br/>  External users who receive anonymous access links can view or edit that content without signing in.  <br/>  Anonymous access links could potentially be forwarded or shared with other people, who might also be able to view or edit the content without signing in.  <br/> |
 
 > [!NOTE]
 >  If you turn off external sharing for your entire environment and later turn it back on, external users who previously had access to content or documents on sites will regain access to them. If you know that external sharing was previously turned on and in use for specific site collections and you do not want external users to be able to regain access if external sharing is ever turned on again globally, we recommend that you first turn off external sharing for those specific site collections.<br><br> If you disable external access, or limit external access to a more restrictive form, external users will typically lose access within one hour of the change. If you disable external access, access to resources will also be blocked to guests in Office 365 Groups. 
 
-### Additional settings
+## Additional settings
 
 To specify additional sharing settings, go to the classic SharePoint admin center.
 
@@ -60,7 +62,7 @@ To specify additional sharing settings, go to the classic SharePoint admin cente
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-2. In the left pane, select **Admin centers** \> **SharePoint**. 
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
 
 3. In the classic SharePoint admin center, select **sharing** in the left pane.
 

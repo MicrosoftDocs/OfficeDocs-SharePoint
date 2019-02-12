@@ -3,7 +3,6 @@ title: "Configure SQL Server AlwaysOn Availability Groups for SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 3/10/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -388,7 +387,7 @@ Use the following procedure to create an availability group on the primary repli
 At this point in the process, you can install SharePoint Server and create the farm. Use the following procedure as a guide to install and configure SharePoint Server.
   
 > [!NOTE]
-> For detailed installation and configuration instructions, see [Install SharePoint Server 2019](../install/install-for-sharepoint-server-2019), [Install SharePoint Server 2016](../install/install-for-sharepoint-server-2016.md), or [Install for SharePoint 2013](../install/install-for-sharepoint-2013.md). 
+> For detailed installation and configuration instructions, see [Install SharePoint Server 2019](../install/install-for-sharepoint-server-2019.md), [Install SharePoint Server 2016](../install/install-for-sharepoint-server-2016.md), or [Install for SharePoint 2013](../install/install-for-sharepoint-2013.md). 
   
  **To install SharePoint Server**
   

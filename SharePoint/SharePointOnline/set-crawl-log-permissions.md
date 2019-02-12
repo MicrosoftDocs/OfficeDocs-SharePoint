@@ -19,7 +19,7 @@ description: "You can grant users or groups read access to crawl log information
 
 # Crawl log permissions
 
-As a SharePoint Online administrator, you can grant users read access to crawl log information for the tenant. The crawl log tracks information about the status of crawled content. 
+As a global or SharePoint admin in Office 365, you can grant users read access to crawl log information for the tenant. The crawl log tracks information about the status of crawled content. 
   
 A typical use case is in eDiscovery, where you can grant a security group permission to view the crawl log information for the tenant. The users in the security group can view the crawl log data via the eDiscovery portal to check whether crawled content was successfully added to the search index, or whether indexing failed because of an error.
   
@@ -31,9 +31,9 @@ A typical use case is in eDiscovery, where you can grant a security group permis
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-2. In the left pane, under **Admin centers**, select **SharePoint**.
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
     
-3. In the left pane of the classic SharePoint admin center, select **search**.
+3. In the left pane, select **search**.
     
 4. On the search administration page, choose **Crawl Log Permissions**.
     

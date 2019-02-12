@@ -32,7 +32,27 @@ Review the system requirements, settings, and permissions behavior before beginn
 - [SPMT Settings](spmt-settings.md)</br>
 - [Understanding permissions when using the SharePoint Migration Tool](understanding-permissions-when-migrating.md)</br>
 
-When you first launch the SharePoint Migration Tool (SPMT), you will be prompted for your Office 365 username and password. The Office 365 credentials you provide will be to the migration destination.
+#### Allow or prevent Custom Script (NoScript)</br>
+In Office 365 tenants you can control whether users can run custom script on personal sites and self-service created sites. 
+
+During migration, some web parts require this setting set to **allow**.  Otherwise, the web part will not be migrated.
+
+At least 24 hours before you start migration, do the following:
+1. From the SharePoint Admin Center, select Settings.
+2. Scroll down to "Custom Script".
+3. Select both of the following:</br>
+*Allow users to run custom script on personal sites*</br>
+*Allow users to run customer script on self-service created sites*
+
+Leave these settings in place for the duration of your migration.
+
+ > [!NOTE]
+ > Changes to this setting might take up to 24 hours to take effect.
+
+For more information, see: [Allow or prevent custom script](https://docs.microsoft.com/en-us/sharepoint/allow-or-prevent-custom-script)</br>
+
+#### Note about logging in
+When you first launch the SharePoint Migration Tool (SPMT), you will be prompted for your Office 365 username and password. The Office 365 credentials you provide will be to the migration *destination*.
 
 ### Authentication supported
 SPMT supports the following authentication methods:

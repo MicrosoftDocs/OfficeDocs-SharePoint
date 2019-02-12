@@ -17,7 +17,7 @@ description: "Learn how to specify how search should behave for a site collectio
 
 # Specify search settings for a site collection or a site
 
-As a SharePoint Online administrator, you can specify how classic search should behave for a site collection or a site. The shared Search Box at the top of most classic pages uses these search settings. Any settings you specify on site collection level applies to all sites within that site collection, unless you specify other settings for the site.
+As a global or SharePoint admin in Office 365, you can specify how classic search should behave for a site collection or a site. The shared Search Box at the top of most classic pages uses these search settings. Any settings you specify on site collection level applies to all sites within that site collection, unless you specify other settings for the site.
   
 You can specify where classic searches should go by specifying the URL of your Search Center. For example, if you have created an Enterprise Search Center on your site where users can search everything in your company, you can enter the URL of that site here. If you do not enter a Search Center URL, searches will go to the default Search Center, available at \<host_name\>/search/.
   

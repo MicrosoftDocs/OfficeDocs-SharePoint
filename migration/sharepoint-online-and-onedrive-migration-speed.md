@@ -83,7 +83,7 @@ For more technical background and information, please see
 ## After migration
 After the migration is completed, verify that your content has been successfully moved to SharePoint Online or OneDrive.
 
-## FAQ & Troubleshooting
+## FAQ and Troubleshooting
 
 
 *Question:* My migration is going so slow or I am being throttled. What can I do?</br>

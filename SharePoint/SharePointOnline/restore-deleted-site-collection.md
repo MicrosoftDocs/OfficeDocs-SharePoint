@@ -17,7 +17,7 @@ description: "Learn how to get back a deleted site collection in SharePoint Onli
 
 # Restore a deleted site collection
 
-This article describes how global admins and SharePoint admins can restore deleted site collections from the classic SharePoint admin center. For info about restoring deleted communication sites, group-connected team sites, and other sites in the new SharePoint admin center preview, see [View and restore deleted sites in the new SharePoint admin center](view-and-restore-deleted-sites-in-new-admin-center.md).
+This article describes how global admins and SharePoint admins can restore deleted site collections from the classic SharePoint admin center. For info about restoring deleted communication sites, group-connected team sites, and other sites in the new SharePoint admin center, see [View and restore deleted sites in the new SharePoint admin center](view-and-restore-deleted-sites-in-new-admin-center.md).
   
 If you're an admin for SharePoint Server, learn how to [Restore deleted site collections using Microsoft Powershell](https://go.microsoft.com/fwlink/?linkid=866959).
   
@@ -36,16 +36,17 @@ To create a new site collection that uses the same URL as a site collection that
 ## Restore a deleted site collection
 <a name="__toc315681383"> </a>
 
-1. Sign in to Office 365 as a global admin or SharePoint admin.
+1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+    > [!NOTE]
+    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-3. In the left pane, choose **Admin centers** \> **SharePoint**.
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
     
-4. On the ribbon, click **Recycle Bin**.
+3. On the site collection page of the classic SharePoint admin center, select **Recycle Bin**.
     
-5. In the Recycle Bin, select the check box next to the site collection that you want to restore.
+4. In the Recycle Bin, select the check box next to the site collection that you want to restore.
     
-6. On the ribbon, click **Restore Deleted Items**.
+5. On the ribbon, click **Restore Deleted Items**.
     
 
