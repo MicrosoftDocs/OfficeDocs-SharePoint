@@ -13,23 +13,23 @@ search.appverid:
 - BSA160
 - MET150
 ms.assetid: 0bb250bb-1d3c-43f8-b751-b322522ccf33
-description: "Learn about the cards on the Home page of the new SharePoint admin center (preview)"
+description: "Learn about the cards on the Home page of the new SharePoint admin center"
 ---
 
 # Get started with the new SharePoint admin center
 
-As a global or SharePoint admin in Office 365, you can try the new SharePoint admin center (preview). To access it, go to the classic SharePoint admin center and click **Try it now** in the upper right. 
+As a global or SharePoint admin in Office 365, you can try the new SharePoint admin center. To access it, go to the classic SharePoint admin center and click **Try it now** in the upper right. 
   
 > [!NOTE]
 > Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Office 365](/office365/admin/manage/release-options-in-office-365). This means that you may not yet see some features or they may look different than what is described in this article. 
   
 ## Schedule for releasing the new SharePoint admin center
 
-The new SharePoint admin center (preview) is now available worldwide to customers who have selected the standard release option. The classic SharePoint admin center will continue to be the default for several weeks. You'll need to switch back to it to perform some tasks. You'll be able to continue using the classic SharePoint admin center for several months before we begin retiring it.
+The new SharePoint admin center is now available worldwide to customers who have selected the standard release option. You'll need to switch back to it to perform some tasks. You'll be able to continue using the classic SharePoint admin center for several months before we begin retiring it.
   
 To switch back to the classic SharePoint admin center:
   
-- In the left pane of the new SharePoint admin center, click **Classic SharePoint admin center**.
+- In the left pane of the new SharePoint admin center, select **Classic SharePoint admin center**.
     
 > [!IMPORTANT]
 > If a setting exists in both the new and classic SharePoint admin centers, and possibly other admin centers such as the OneDrive and Office 365 admin centers, when you change it in one place, the other admin centers will reflect the change. If you have multiple admins in your organization, make sure you communicate the changes you're making. 

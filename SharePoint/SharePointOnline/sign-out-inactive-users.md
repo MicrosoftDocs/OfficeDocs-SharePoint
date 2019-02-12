@@ -48,9 +48,9 @@ If they don't click **Continue**, they'll be automatically signed out and will s
     
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
 
-3. If the classic SharePoint admin center appears, click **Try it now** to open the new SharePoint admin center preview.
+3. If the classic SharePoint admin center appears, click **Try it now** to open the new SharePoint admin center.
 
-4. In the left pane, under **Policies**, select **Access control**. 
+4. In the left pane of the new SharePoint admin center, under **Policies**, select **Access control**. 
 
 5. Select **Idle session sign-out**.
 

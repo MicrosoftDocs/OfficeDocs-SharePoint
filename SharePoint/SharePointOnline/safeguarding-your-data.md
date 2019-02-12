@@ -34,7 +34,7 @@ Other things we recommend to increase security:
   
 - Use Azure Active Directory device-based conditional access to block or limit access on unmanaged devices like airport or hotel kiosks. See [Control access from unmanaged devices](control-access-from-unmanaged-devices.md).
     
-- Create policies to sign users out of Office 365 web sessions after a period of inactivity. For information, see [Idle Session Timeout (currently in preview).](https://go.microsoft.com/fwlink/?linkid=867121)
+- Create policies to sign users out of Office 365 web sessions after a period of inactivity. For information, see [Sign out inactive users](sign-out-inactive-users.md).
     
 - Evaluate the need for IP-based sessions. These simulate the access model of an on-premises deployment. Read more at [Control access based on network location or app](/onedrive/control-access-based-on-network-location-or-app).
     

@@ -22,7 +22,7 @@ Deleted sites are retained for 93 days. After 93 days, sites and all their conte
 > [!NOTE]
 > If you need to retain content for a minimum period of time to comply with industry regulations or internal policies, you can create a retention policy to keep a copy of it in the Preservation Hold library. For info, see [Overview of retention policies](/office365/securitycompliance/retention-policies). 
   
-To view deleted sites in the new SharePoint admin center (preview), go to the classic SharePoint admin center, select "Try it now" in the upper right, and then select **Deleted sites** in the left pane. 
+To view deleted sites in the new SharePoint admin center, go to the classic SharePoint admin center, select "Try it now" in the upper right, and then select **Deleted sites** in the left pane. 
   
 ![Deleted sites in the new SharePoint admin center](media/b195b8c7-ee2b-4a02-92cb-ed61899edd24.png)
 
