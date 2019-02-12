@@ -9,6 +9,7 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
 ms.collection: 
+- M365-collaboration
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
 - SPMigration

@@ -11,6 +11,7 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
 - SPMigration
+- M365-collaboration
 localization_priority: Normal
 description: "Learn how to migrate your file share content to SharePoint Online using the Azure Data Box"
 ---

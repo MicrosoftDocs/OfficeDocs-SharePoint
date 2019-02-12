@@ -12,6 +12,7 @@ ms.collection:
 - Strat_SP_gtc
 - Migration
 - SPMigration
+- M365-collaboration
 search.appverid: MET150
 ms.custom: 
 ms.assetid: 

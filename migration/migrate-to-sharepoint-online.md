@@ -8,7 +8,9 @@ ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 search.appverid: MET150
-msCollection: SPMigration
+msCollection: 
+- SPMigration
+- M365-collaboration
 search.appverid: MET150
 ms.assetid: 77fa8327-220f-422d-93d9-88a51bbe9f36
 description: "Moving to SharePoint Online?"
