@@ -3,7 +3,7 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
 ms.audience: ITPro
-ms.topic: article
+ms.topic: troubleshooting
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
 ms.collection: 

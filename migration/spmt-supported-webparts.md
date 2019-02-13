@@ -1,5 +1,5 @@
 ---
-title: "SharePoint Migration Tool supported SharePoint Webparts"
+title: "SharePoint Migration Tool supported SharePoint web parts"
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

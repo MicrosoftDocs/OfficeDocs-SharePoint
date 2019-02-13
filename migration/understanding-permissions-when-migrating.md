@@ -12,7 +12,7 @@ mscollection:
 - M365-collaboration
 search.appverid: MET150
 ms.assetid: 
-description: "Understanding how permissions work when migrating data from on-premises to SPO using the SharePoint Migration Tool"
+description: "File and folder permissions when using the SharePoint Migration Tool (SPMT)."
 ---
 
 # File and folder permissions when using the SharePoint Migration Tool
