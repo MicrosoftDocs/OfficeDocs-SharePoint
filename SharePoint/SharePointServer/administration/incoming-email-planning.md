@@ -3,7 +3,6 @@ title: "Plan incoming email for a SharePoint Server farm"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 3/12/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -33,6 +32,8 @@ MinRole now manages the incoming email feature in SharePoint Server 2016. The in
     
 - Application with Search
         
+- Single Server Farm
+
 - Custom
     
 MinRole doesn't manage the incoming email service on the Custom server role. However, SharePoint farm administrators can turn this service on and off on each server that is assigned the Custom server role. For more information see [Planning for a MinRole server deployment in SharePoint Server 2016](../install/planning-for-a-minrole-server-deployment-in-sharepoint-server.md).

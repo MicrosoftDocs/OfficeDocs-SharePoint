@@ -44,6 +44,7 @@
 ### [Plan your permissions strategy](plan-your-permissions-strategy.md)
 ### [External sharing overview](external-sharing-overview.md)
 ### [Turn external sharing on or off](turn-external-sharing-on-or-off.md)
+### [Change external sharing for a site](change-external-sharing-site.md)
 ### [Default SharePoint groups](default-sharepoint-groups.md)
 ### [Change default sharing link](change-default-sharing-link.md)
 ### [Advanced permissions customization]()

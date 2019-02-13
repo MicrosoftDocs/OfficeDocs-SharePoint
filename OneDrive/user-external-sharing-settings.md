@@ -27,7 +27,7 @@ After you set the organization-wide sharing settings for SharePoint and OneDrive
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center. 
     
-2. In the left pane, select **Users** > **Active users**.
+2. In the left pane, select **Users** \> **Active users**.
 
 3. Select the user.
 

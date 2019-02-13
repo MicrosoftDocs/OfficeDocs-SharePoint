@@ -57,6 +57,8 @@ The list above is in the order of most to least restrictive. Whichever option yo
  **Sharing and security**
   
 If you have confidential information that should never be shared with external users, consider having one or more site collections where external sharing is turned off where you keep your confidential information. Create additional site collections as needed to use for external sharing. This helps you to manage security risk by preventing external access to sensitive information.
+
+Note that when you share a folder with external users, the external users will be able to see each other's name and email address in the sharing properties.
   
 ## What is an external user?
 
