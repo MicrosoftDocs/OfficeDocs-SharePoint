@@ -90,7 +90,7 @@ On the application server that hosts the SharePoint ServerCentral Administration
     
 2. Connect to Office 365 as a global administrator.
     
-3. Navigate to [https://configure.office.com/scenario.aspx?Sid=54](https://configure.office.com/scenario.aspx?Sid=54) to download, install, and start the Hybrid Picker wizard. 
+3. Navigate to [https://go.microsoft.com/fwlink/?linkid=867176](https://go.microsoft.com/fwlink/?linkid=867176) to download, install, and start the Hybrid Picker wizard. 
     
 4. Follow the prompts in the Hybrid Picker and select the hybrid search feature.
   
