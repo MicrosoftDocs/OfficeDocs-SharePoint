@@ -71,7 +71,7 @@ You can assign or remove service application administrators by using the SharePo
    ```
 
 
-   Where  _contoso\jane_ is the user name for which you want to assign administrative permissions. The user name should be entered in the form of **jane@contoso.com** or **contoso\jane**. The new claims principal is stored in the  _$principal_ variable. 
+   Where  _contoso\jane_ is the user name for which you want to assign administrative permissions. The user name should be entered in the form of jane@contoso.com or **contoso\jane**. The new claims principal is stored in the  _$principal_ variable. 
     
 4. To retrieve the service application, type the following command:
     
