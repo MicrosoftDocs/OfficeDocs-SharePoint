@@ -14,6 +14,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
+- M365-collaboration
 ms.custom: 
 ms.assetid: eddba98c-dec8-4fc8-823d-d908bdf0bc83
 description: "Get Office 365 for enterprises set up for hybrid integration with SharePoint Server."
