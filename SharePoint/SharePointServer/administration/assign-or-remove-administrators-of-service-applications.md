@@ -113,7 +113,7 @@ You can assign or remove service application administrators by using the SharePo
 
 7. To assign the updated  _$security_ security object to the service application, type the following command: 
     
-   ```
+   ```powershell
    Set-SPServiceApplicationSecurity $spapp $security -Admin
    ```
 
