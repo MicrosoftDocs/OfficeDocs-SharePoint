@@ -13,6 +13,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_SharePoint_Hybrid_Top
 - Strat_SP_gtc
+- M365-collaboration
 ms.custom: 
 ms.assetid: 0809325c-9b99-46bf-b98d-6d2f5e3d2a4b
 description: "In this article, we look at how to configure hybrid SharePoint taxonomy and hybrid content types."
