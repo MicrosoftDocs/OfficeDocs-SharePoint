@@ -7,7 +7,9 @@ ms.audience: Admin
 ms.topic: get-started-article
 ms.service: one-drive
 localization_priority: Priority
-ms.collection: Strat_OD_admin
+ms.collection: 
+- Strat_OD_admin
+- M365-identity-device-management
 search.appverid:
 - MET150
 - ODB160
