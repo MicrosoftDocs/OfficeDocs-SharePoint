@@ -12,7 +12,7 @@ ms.assetid: 2093c146-c880-48c6-9526-24cdf80969ba
 description: "Learn how to plan for the People Picker web control in SharePoint Server."
 ---
 
-# Plan for People Picker in SharePoint 2013
+# Plan for People Picker in SharePoint
 
 [!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
