@@ -48,7 +48,7 @@ SharePoint admins can now delete sites that belong to an Office 365 group. Delet
 6. Select **Delete**, and then select **Delete** to confirm.
 
 > [!NOTE]
-> Deleted Office 365 groups are retained for only 30 days.<br>To learn how to permanently delete a deleted site by using PowerShell, see [Permanently delete a deleted site](restore-deleted-site-collection.md#permanently-delete-a-deleted-site).
+> Deleted Office 365 groups are retained for only 30 days.<br>To learn how to permanently delete a deleted site by using PowerShell, see [Permanently delete a deleted site](delete-site-collection.md#permanently-delete-a-site-by-using-powershell).
  
 ## Delete a classic site in the classic SharePoint admin center
 <a name="__toc323551190"> </a>
@@ -70,7 +70,7 @@ SharePoint admins can now delete sites that belong to an Office 365 group. Delet
     
     ![Delete Site Collection dialog box](media/9f0418d4-04a4-406a-9f61-9aac79ae28f8.PNG)
   
-To empty the deleted site collection from the Recycle Bin, use PowerShell to permanently delete the site. For info, see [Permanently delete a deleted site](restore-deleted-site-collection.md#permanently-delete-a-deleted-site).
+To empty the deleted site collection from the Recycle Bin, use PowerShell to permanently delete the site. For info, see the next section.
     
 ## Permanently delete a site by using PowerShell
 

@@ -19,7 +19,7 @@ description: "Learn how to restore deleted sites"
 Deleted sites are retained for 93 days. After 93 days, sites and all their content and settings are permanently deleted, including lists, libraries, pages, and any subsites.
   
 > [!NOTE]
-> If you need to retain content for a minimum period of time to comply with industry regulations or internal policies, you can create a retention policy to keep a copy of it in the Preservation Hold library. For info, see [Overview of retention policies](/office365/securitycompliance/retention-policies).<br> For info about restoring items within a site, see [Restore items in the Recycle Bin of a SharePoint site](https://support.office.com/article/6df466b6-55f2-4898-8d6e-c0dff851a0be). <br> To create a new site that uses the same URL as a deleted site, you must first permanently delete the deleted site. For info, see [Permanently delete a deleted site](restore-deleted-site-collection.md#permanently-delete-a-deleted-site).<br>For info about restoring deleted sites in SharePoint Server, see [Restore deleted site collections using Microsoft Powershell](/powershell/module/sharepoint-server/restore-spdeletedsite). 
+> If you need to retain content for a minimum period of time to comply with industry regulations or internal policies, you can create a retention policy to keep a copy of it in the Preservation Hold library. For info, see [Overview of retention policies](/office365/securitycompliance/retention-policies).<br> For info about restoring items within a site, see [Restore items in the Recycle Bin of a SharePoint site](https://support.office.com/article/6df466b6-55f2-4898-8d6e-c0dff851a0be). <br> To create a new site that uses the same URL as a deleted site, you must first permanently delete the deleted site. For info, see [Permanently delete a deleted site](restore-deleted-site-collection.md#permanently-delete-a-site-by-using-powershell).<br>For info about restoring deleted sites in SharePoint Server, see [Restore deleted site collections using Microsoft Powershell](/powershell/module/sharepoint-server/restore-spdeletedsite). 
   
  
 ## Restore a deleted site in the new SharePoint admin center
@@ -68,7 +68,7 @@ For more info about the new SharePoint admin center, see [Get started with the n
     
 5. On the ribbon, click **Restore Deleted Items**.
     
-## Permanently delete a site using PowerShell
+## Permanently delete a site by using PowerShell
 
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
