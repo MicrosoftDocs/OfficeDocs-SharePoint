@@ -44,7 +44,7 @@ Global admins and SharePoint admins can now delete sites that belong to an Offic
     
 2. Click **Delete**, and then click **Delete** to confirm. 
     
-You can recover deleted sites for 93 days. For more info, see [View and restore deleted sites](view-and-restore-deleted-sites-in-new-admin-center.md). Note that deleted groups must be restored within 30 days.
+You can recover deleted sites for 93 days. For more info, see [Restore deleted sites](/restore-deleted-site-collection.md). Note that deleted groups must be restored within 30 days.
   
 ## Add or remove owners
 <a name="addremoveadmins"> </a>
