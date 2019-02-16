@@ -9,7 +9,7 @@ search.appverid:
 - MET150
 localization_priority: Normal
 ms.assetid: 4dc86d69-84c9-426c-b83f-e6e674722d85
-description: "Learn how to delete classic site collections in the classic SharePoint admin center"
+description: "Learn how to delete SharePoint site collections"
 ---
 
 # Delete a site
@@ -28,9 +28,9 @@ You should notify the site collection admins and any subsite owners before you d
 
 ## Delete a site in the new SharePoint admin center
 
-By using the new SharePoint admin center, you can delete sites that use the new team site and communication site templates. 
+By using the new SharePoint admin center, you can delete both classic and modern sites. 
 
-SharePoint admins can now delete sites that belong to an Office 365 group. Deleting these sites will delete the group and all its resources, including the Outlook mailbox and calendar, and any Teams channels.
+SharePoint admins can now delete sites that belong to Office 365 groups. Deleting these sites will delete the group and all its resources, including the Outlook mailbox and calendar, and any Teams channels.
   
 1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
@@ -48,8 +48,34 @@ SharePoint admins can now delete sites that belong to an Office 365 group. Delet
 6. Select **Delete**, and then select **Delete** to confirm.
 
 > [!NOTE]
-> Deleted Office 365 groups are retained for only 30 days.<br>To learn how to permanently delete a deleted site by using PowerShell, see [Permanently delete a deleted site](delete-site-collection.md#permanently-delete-a-site-by-using-powershell).
+> Deleted Office 365 groups are retained for only 30 days.
  
+## Permanently delete a site
+
+On the Deleted sites page of the new SharePoint admin center, you can permanently delete all sites except those that belong to Office 365 groups. 
+
+1. In the left pane of the new SharePoint admin center, select **Deleted sites**.
+
+2. In the left column, click to select a site.
+
+3. Select **Delete**, and then select **Delete** to confirm.
+
+To permanently delete sites (including Office 365 group-connected team sites) by using PowerShell, follow these steps:
+
+1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
+
+    > [!NOTE]
+    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall “SharePoint Online Management Shell.” <br>On the Download Center page, select your language and then click the Download button. You’ll be asked to choose between downloading a x64 and x86 .msi file. Download the x64 file if you’re running the 64-bit version of Windows or the x86 file if you’re running the 32-bit version. If you don’t know, see https://support.microsoft.com/help/13443/windows-which-operating-system. After the file downloads, run it and follow the steps in the Setup Wizard. 
+
+2. Connect to SharePoint Online as a global admin or SharePoint admin in Office 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+    
+3. Run the following command:
+    
+      ```PowerShell
+      Remove-SPODeletedSite -Identity https://contoso.sharepoint.com/sites/sitetoremove
+      ```
+ (Where https://contoso.sharepoint.com/sites/sitetoremove is the URL of the site you want to permanently delete). For more info about using this command, see [Remove-SPODeletedSite](/powershell/module/sharepoint-online/remove-spodeletedsite).
+
 ## Delete a classic site in the classic SharePoint admin center
 <a name="__toc323551190"> </a>
 
@@ -70,26 +96,12 @@ SharePoint admins can now delete sites that belong to an Office 365 group. Delet
     
     ![Delete Site Collection dialog box](media/9f0418d4-04a4-406a-9f61-9aac79ae28f8.PNG)
   
-To empty the deleted site collection from the Recycle Bin, use PowerShell to permanently delete the site. For info, see the next section.
+To empty the deleted site collection from the Recycle Bin, you need to use the new SharePoint admin center or PowerShell. For info, see [Permanently delete a deleted site](delete-site-collection.md#permanently-delete-a-site).
     
-## Permanently delete a site by using PowerShell
 
-1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
-
-    > [!NOTE]
-    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall “SharePoint Online Management Shell.” <br>On the Download Center page, select your language and then click the Download button. You’ll be asked to choose between downloading a x64 and x86 .msi file. Download the x64 file if you’re running the 64-bit version of Windows or the x86 file if you’re running the 32-bit version. If you don’t know, see https://support.microsoft.com/help/13443/windows-which-operating-system. After the file downloads, run it and follow the steps in the Setup Wizard. 
-
-2. Connect to SharePoint Online as a global admin or SharePoint admin in Office 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
-    
-3. Run the following command:
-    
-      ```PowerShell
-      Remove-SPODeletedSite -Identity https://contoso.sharepoint.com/sites/sitetoremove
-      ```
- (Where https://contoso.sharepoint.com/sites/sitetoremove is the URL of the site you want to permanently delete). For more info about using this command, see [Remove-SPODeletedSite](/powershell/module/sharepoint-online/remove-spodeletedsite).
 
 ## See also
 <a name="__toc323551190"> </a>
 
-[Restore deleted items from the site collection recycle bin ](https://support.office.com/article/5fa924ee-16d7-487b-9a0a-021b9062d14b)
+[End user instructions for deleting sites and subsites](https://support.office.com/article/bc37b743-0cef-475e-9a8c-8fc4d40179fb)
 
