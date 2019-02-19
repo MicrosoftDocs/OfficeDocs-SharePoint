@@ -14,6 +14,7 @@ search.appverid:
 - GOB150
 - GOB160
 - MET150
+ms.collection: M365-collaboration
 ms.assetid: 8e200cb2-c768-49cb-88ec-53493e8ad80a
 description: "Learn how to display a list of every OneDrive in your organization."
 ---
@@ -31,7 +32,7 @@ This article is for global and SharePoint admins in Office 365.
     
 2. In the left pane, select **Reports** \> **Usage**. (You might need to select **Show all** to see the Reports option.) 
     
-3. Select the **OneDrive files** tile, or select **Select a report** > **OneDrive usage**.
+3. Select the **OneDrive files** tile, or select **Select a report** \> **OneDrive usage**.
 
     > [!NOTE]
     > If you see GUIDs in the report instead of URLs and names, in the left pane, select **Settings** > **Services & add-ins**, and then select **Reports**. Clear the box **Display anonymous identifiers instead of names in all reports**.
@@ -85,4 +86,4 @@ https://contoso-my.sharepoint.com/personal/hollyh_contoso_onmicrosoft_com/
 ## More information
 <a name="BKMK_MoreInfo"> </a>
 
-Once you have the Url for a user's OneDrive, you can get more info about it by using the [Get-SPOSite](https://go.microsoft.com/fwlink/?linkid=872326) cmdlet, and change settings by using the [Set-SPOSite](https://go.microsoft.com/fwlink/?linkid=872325) cmdlet.
+Once you have the URL for a user's OneDrive, you can get more info about it by using the [Get-SPOSite](https://go.microsoft.com/fwlink/?linkid=872326) cmdlet, and change settings by using the [Set-SPOSite](https://go.microsoft.com/fwlink/?linkid=872325) cmdlet.

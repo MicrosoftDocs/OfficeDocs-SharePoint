@@ -7,6 +7,8 @@ ms.audience: ITPro
 ms.topic: conceptual
 ms.service: one-drive
 localization_priority: Normal
+ms.collection: 
+- M365-subscription-management 
 search.appverid:
 - ODB160
 - ODB150
