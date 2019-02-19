@@ -82,7 +82,7 @@ The custom tile feature is not enabled by default. To enable the feature, do the
     
 11. Enter a **Url** for the tile. This is the location where you want your users to go when they select the tile. 
     
-12. Enter an **IconURL** for the tile. The recommended size for an icon is 50 x50 pixels, however the thumbnail will automatically scale. The image appears on the app launcher 
+12. Enter an **IconURL** for the tile. The recommended size for an icon is 50x50 pixels, however the thumbnail will automatically scale. The image appears on the app launcher.
     
 13. Type the name of an **Audience** you want to use this tile. For example, Marketing. 
     
