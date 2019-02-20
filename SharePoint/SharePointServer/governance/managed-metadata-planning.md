@@ -87,4 +87,7 @@ In addition to sharing managed metadata, you can also use the managed metadata s
   
 Before you configure managed metadata in SharePoint, decide if you want to create a content type hub. (You can also add one later.)
   
+## See also
+<a name="SeeAlso"> </a>
+For the SharePoint Online version of this article, see [Introduction to managed metadata](https://docs.microsoft.com/sharepoint/managed-metadata).
 
