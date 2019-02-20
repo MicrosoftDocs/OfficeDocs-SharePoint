@@ -89,5 +89,5 @@ Before you configure managed metadata in SharePoint, decide if you want to creat
   
 ## See also
 <a name="SeeAlso"> </a>
-For the SharePoint Online version of this article, see [Introduction to managed metadata](https://docs.microsoft.com/en-us/sharepoint/managed-metadata).
+For the SharePoint Online version of this article, see [Introduction to managed metadata](https://docs.microsoft.com/sharepoint/managed-metadata).
 
