@@ -54,8 +54,8 @@ The custom tile feature is not enabled by default. To enable the feature, do the
   Get-SPFeature -Identity CustomTiles
   ```
 
-    > [!NOTE]
-    > If the feature is not available, then ensure your SharePoint farm is patched with at least Feature Pack 1 contained in all cumulative updates of SharePoint 2016 of November 2016 and later. To validate this, you can run the following PowerShell command. Your SharePoint build version should be at 16.0.4456.1004 or later.
+  > [!NOTE]
+  > If the feature is not available, then ensure your SharePoint farm is patched with at least Feature Pack 1 contained in all cumulative updates of SharePoint 2016 of November 2016 and later. To validate this, you can run the following PowerShell command. Your SharePoint build version should be at 16.0.4456.1004 or later.
   
   ```
 (Get-SPFarm).BuildVersion
@@ -67,8 +67,8 @@ The custom tile feature is not enabled by default. To enable the feature, do the
   Enable-SPFeature -Identity CustomTiles -Url http://web_app -Force
   ```
 
-    > [!NOTE]
-    > The URL you provide will be the location of where the Custom Tile list is provisioned, so you may need to provide permission access to the list accordingly. Custom Tiles List will be Created on specified URL on feature enable command as hidden list. 
+  > [!NOTE]
+  > The URL you provide will be the location of where the Custom Tile list is provisioned, so you may need to provide permission access to the list accordingly. Custom Tiles List will be Created on specified URL on feature enable command as hidden list. 
   
 7. Since this list is Created as a Hidden List, browse to https://web_app/Lists/Custom%20Tiles/AllItems.aspx to access Custom tiles list.
     
