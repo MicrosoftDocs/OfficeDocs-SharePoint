@@ -602,9 +602,7 @@ SharePoint Server 2019 normally creates a new search topology with all the searc
         > [!NOTE]
         > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
-    - Start the SharePoint 2019 Management Shell.    
-  
-    - Set the Search Administration database to read-only. In the second phase of the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019, you set all the other databases to read-only. Follow [the same instructions](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2019.md) now for the Search Administration database.
+    - Start the SharePoint 2016 Management Shell.    
     
     - Pause the Search service application. At the PowerShell command prompt, type the following command:
     
@@ -619,6 +617,11 @@ SharePoint Server 2019 normally creates a new search topology with all the searc
     
         > [!NOTE]
         > While the Search service application is paused, the index in the SharePoint Server 2016 environment isn't updated. This means that during the upgrade to SharePoint Server 2019, search results might be less fresh. 
+        
+  
+    - Set the Search Administration database to read-only. In the second phase of the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019, you set all the other databases to read-only. Follow [the same instructions](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2019.md) now for the Search Administration database.
+    
+
   
     - Copy the search administration database in the SharePoint Server 2016 farm to the SharePoint Server 2019 farm, follow the procedures in [Copy databases to the new farm for upgrade to SharePoint Server 2019](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2016.md) for the search administration database only. 
     
