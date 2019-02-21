@@ -354,7 +354,7 @@
        "redirect_document_id": true
    },
    {
-      "source_path": "sharepoint/manage-team-and-communication-sites-in-powershell.md",
+      "source_path": "sharepoint/sharepointonline/manage-team-and-communication-sites-in-powershell.md",
         "redirect_url": "https://docs.microsoft.com/sharepoint/manage-sites-in-new-admin-center",
         "redirect_document_id": true
    },
