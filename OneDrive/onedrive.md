@@ -188,7 +188,7 @@ Help your users store, sync, and share work files in the cloud with OneDrive.
     
 - From your own OneDrive, click **OneDrive Admin** in the lower-left corner.
 
--or-
+\-or-
     
 - Go to https://admin.onedrive.com.
     

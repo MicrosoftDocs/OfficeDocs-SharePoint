@@ -9,7 +9,7 @@ ms.service: one-drive
 localization_priority: Priority
 ms.collection: 
 - Strat_OD_admin
-- M365-identity-device-management
+- M365-collaboration
 search.appverid:
 - MET150
 - ODB160

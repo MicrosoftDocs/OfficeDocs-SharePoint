@@ -7,7 +7,9 @@ ms.audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
-ms.collection: Strat_OD_share
+ms.collection:  
+- Strat_OD_share
+- M365-collaboration
 search.appverid:
 - SPO160
 - MET150

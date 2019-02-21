@@ -6,6 +6,9 @@ manager: pamgreen
 ms.audience: Admin
 ms.topic: article
 ms.service: one-drive
+ms.collection: 
+- Strat_OD_admin
+- M365-collaboration 
 localization_priority: Normal
 description: "Review features, plan, configure, deploy, and manage OneDrive in an enterprise."
 ---

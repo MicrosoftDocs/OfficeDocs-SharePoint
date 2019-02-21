@@ -8,6 +8,9 @@ ms.topic: overview
 ms.service: sharepoint-online
 localization_priority: Normal
 ms.custom: Adm_O365
+ms.collection:  
+- Strat_SP_admin
+- M365-collaboration
 search.appverid:
 - SPO160
 - MOE150

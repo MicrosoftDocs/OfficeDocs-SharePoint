@@ -8,7 +8,7 @@ ms.audience: Admin
 ms.topic: article
 ms.service: one-drive
 localization_priority: Priority
-ms.collection: Strat_OD_admin
+ms.collection: 
 search.appverid:
 - ODB160
 - ODB150
