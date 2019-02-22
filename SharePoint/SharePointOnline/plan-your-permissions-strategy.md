@@ -15,7 +15,6 @@ ms.collection:
 - SharePoint_Online
 ms.custom:
 - Adm_O365_FullSet
-- MiniMaven
 search.appverid:
 - WSU140
 - WSU150

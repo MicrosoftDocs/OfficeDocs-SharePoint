@@ -8,7 +8,6 @@ ms.audience: Admin
 ms.topic: article
 ms.service: one-drive
 localization_priority: Priority
-ms.collection: 
 search.appverid:
 - ODB160
 - ODB150
