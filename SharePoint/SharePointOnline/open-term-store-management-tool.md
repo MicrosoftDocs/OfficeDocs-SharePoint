@@ -11,6 +11,8 @@ localization_priority: Normal
 search.appverid:
 - SPO160
 - MET150
+ms.collection:  
+- M365-collaboration
 description: "Learn how to open the Term Store management tool from the Site Settings page or the SharePoint admin center."
 ---
 

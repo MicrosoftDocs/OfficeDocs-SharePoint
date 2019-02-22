@@ -7,12 +7,14 @@ ms.audience: Admin
 ms.topic: article
 ms.service: one-drive
 localization_priority: Normal
-ms.collection: Strat_OD_sync
 search.appverid:
 - ODB160
 - OFF160
 - ODB150
 - MET150
+ms.collection: 
+- Strat_OD_admin
+- M365-collaboration 
 ms.assetid: 3eff17b9-c709-462f-946c-17719af68aca
 description: "Learn about the changes to how the previous OneDrive for Business sync client is included in Office 2016 Click-to-Run installations."
 ---

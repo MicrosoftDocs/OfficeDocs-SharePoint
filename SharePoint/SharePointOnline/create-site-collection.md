@@ -13,7 +13,9 @@ f1_keywords:
 - 'How To'
 ms.service: sharepoint-online
 localization_priority: Priority
-ms.collection: Strat_SP_admin
+ms.collection:  
+- Strat_SP_admin
+- M365-collaboration
 search.appverid:
 - SPO160
 - MOE150

@@ -10,6 +10,9 @@ f1_keywords:
 - 'SimpleTA'
 ms.service: sharepoint-online
 localization_priority: Normal
+ms.collection:  
+- Strat_SP_admin
+- M365-collaboration
 search.appverid:
 - MET150
 - SPO160

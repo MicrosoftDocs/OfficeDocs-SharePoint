@@ -6,11 +6,13 @@ manager: pamgreen
 ms.audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.collection:  
+- Strat_SP_admin
+- M365-collaboration
 search.appverid:
 - SPO160
-- BSA160
 - MET150
+- BSA160
 ms.assetid: d8c63491-0410-405c-880a-8cef7fa4480a
 description: "Learn about tasks you can perform on the Active sites page of the new SharePoint admin center."
 ---

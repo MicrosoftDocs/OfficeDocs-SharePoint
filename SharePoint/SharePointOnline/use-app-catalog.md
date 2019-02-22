@@ -10,7 +10,9 @@ f1_keywords:
 - 'ManageAppCatalog'
 ms.service: sharepoint-online
 localization_priority: Normal
-ms.collection: Strat_SP_admin
+ms.collection:  
+- Strat_SP_admin
+- M365-collaboration
 search.appverid:
 - SPO160
 - BSA160

@@ -10,7 +10,8 @@ ms.service: sharepoint-online
 localization_priority: Normal
 ms.collection:
 - IT_SharePoint_Hybrid
-- Strat_OD_share
+- Strat_OD_share 
+- M365-collaboration
 search.appverid:
 - SPO160
 - MET150

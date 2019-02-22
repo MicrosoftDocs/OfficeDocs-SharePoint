@@ -7,7 +7,9 @@ ms.audience: Admin
 ms.topic: get-started-article
 ms.service: one-drive
 localization_priority: Normal
-ms.collection: Strat_OD_admin
+ms.collection: 
+- Strat_OD_admin
+- M365-collaboration 
 description: "Learn how to set up OneDrive in your small business."
 ---
 
