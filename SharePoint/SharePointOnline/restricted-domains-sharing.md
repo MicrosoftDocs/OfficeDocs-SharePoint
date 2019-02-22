@@ -11,6 +11,7 @@ localization_priority: Normal
 ms.collection:
 - Ent_O365_Hybrid
 - Strat_OD_share
+- M365-collaboration
 search.appverid:
 - ODB160
 - MOE150
