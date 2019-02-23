@@ -12,7 +12,7 @@ f1_keywords:
 - 'O365E_SitesMgmtModern'
 - 'How To'
 ms.service: sharepoint-online
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration

@@ -9,6 +9,7 @@ ms.topic: overview
 ms.service: sharepoint-online
 localization_priority: Normal
 search.appverid:
+- SPO160
 - MOE150
 - DEL150
 - FRP150

@@ -6,7 +6,7 @@ manager: pamgreen
 ms.audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:  
 - Strat_OD_share
 - M365-collaboration

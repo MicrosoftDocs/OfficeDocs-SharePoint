@@ -9,7 +9,7 @@ ms.service: one-drive
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration 
-localization_priority: Normal
+localization_priority: Priority
 description: "Review features, plan, configure, deploy, and manage OneDrive in an enterprise."
 ---
 

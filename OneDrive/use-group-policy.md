@@ -6,7 +6,7 @@ manager: pamgreen
 ms.audience: Admin
 ms.topic: article
 ms.service: one-drive
-localization_priority: Normal
+localization_priority: Priority
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration 
