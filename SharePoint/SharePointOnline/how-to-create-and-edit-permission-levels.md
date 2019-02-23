@@ -6,7 +6,7 @@ manager: pamgreen
 ms.audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Adm_SPO
 - SharePoint_Online

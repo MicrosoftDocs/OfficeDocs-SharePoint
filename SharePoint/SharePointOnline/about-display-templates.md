@@ -9,6 +9,7 @@ ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
 search.appverid:
+- SPO160
 - SPS150
 - MET150
 ms.assetid: c7cb0a7e-fb1e-45b1-b259-c0dae30f7528

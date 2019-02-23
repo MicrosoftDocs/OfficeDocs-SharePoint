@@ -13,6 +13,7 @@ ms.collection:
 - Strat_OD_share
 - M365-collaboration
 search.appverid:
+- SPO160
 - ODB160
 - MOE150
 - FRP150
