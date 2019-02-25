@@ -17,9 +17,8 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: Validate
 
 # Validate the My Site Host and individual My Sites are on a dedicated Web application and separate URL domain (SharePoint Server)
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
-, for SharePoint Server 2016 and SharePoint Server 2013.
   
  **Rule Name:** Validate the My Site Host and individual My Sites are on a dedicated Web application and separate URL domain. 
   
