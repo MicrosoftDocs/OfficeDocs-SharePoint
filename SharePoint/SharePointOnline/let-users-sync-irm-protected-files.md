@@ -23,7 +23,7 @@ This article is for Office 365 global or SharePoint admins who want their users 
 ## Prerequisites
 
 > [!NOTE]
-> Any IRM protected files using the sync process will maintain their IRM protection.  This is true for files being synced either to or from the cloud on their respective machines.
+> Any IRM-protected files will maintain their IRM protection during the sync process, both during upload and download.
 
 1. Users are running Windows 7 or later. This feature is not yet supported on Mac. 
     
