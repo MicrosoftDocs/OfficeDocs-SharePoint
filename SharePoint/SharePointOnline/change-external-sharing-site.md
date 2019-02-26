@@ -6,8 +6,10 @@ manager: pamgreen
 ms.audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Normal
-ms.collection: Strat_OD_share
+localization_priority: Priority
+ms.collection:  
+- Strat_OD_share
+- M365-collaboration
 search.appverid:
 - SPO160
 - MET150
@@ -19,7 +21,7 @@ description: "Learn how to change the external sharing setting for a site."
 
 You must be a global or SharePoint admin in Office 365 to change the external sharing setting for a site collection. Site collection administrators are not allowed to change this setting.
   
-Note that this procedure applies to classic sites, communication sites, and new team sites. To learn how to change the external sharing setting for a user's OneDrive, see [Change the external sharing setting for a user's OneDrive](/onedrive/user-external-sharing-settings).
+Note that this procedure applies to classic sites, communication sites, and new team sites. To learn how to change the external sharing setting for a user's OneDrive, see [Change the external sharing setting for a user's OneDrive](/onedrive/user-external-sharing-settings). For info about changing your organization-level settings, see [Turn external sharing on or off for SharePoint Online](turn-external-sharing-on-or-off.md).
   
 1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     

@@ -7,7 +7,7 @@ ms.date: 5/22/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+localization_priority: Normal
 search.appverid:
 - SPO160
 - MET150

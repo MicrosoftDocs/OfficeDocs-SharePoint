@@ -6,11 +6,13 @@ manager: pamgreen
 ms.audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Normal
+ms.collection:  
+- Strat_SP_admin
+- M365-collaboration
 search.appverid:
 - SPO160
-- BSA160
 - MET150
+- BSA160
 ms.assetid: d8c63491-0410-405c-880a-8cef7fa4480a
 description: "Learn about tasks you can perform on the Active sites page of the new SharePoint admin center."
 ---
@@ -72,21 +74,6 @@ You can recover deleted sites for 93 days. For more info, see [Restore deleted s
     > [!NOTE]
     > The options that are available depend on the organization-wide setting you've selected. The setting for a site can be more restrictive, but not more permissive. 
 
-## Email admins
-<a name="emailadmins"> </a>
-
-You can email the primary admins for the sites you select, except for sites that belong to an Office 365 group. Users who are the primary admin for more than one site will receive an email for each site.
-  
-1. In the left column, click to select one or more sites.
-    
-    > [!TIP]
-    >  To filter out group-connected team sites from your view, select the built-in view **Sites without a group**.  
-  
-2. Click **Email**.
-    
-3. Enter a subject and add a message, and then click **Send**.
-    
-    ![Email admins dialog box](media/28ecaf36-9e47-4757-8c12-8bbbc0c33daf.PNG)
   
 
   

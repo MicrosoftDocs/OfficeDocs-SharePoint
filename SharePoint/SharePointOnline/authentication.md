@@ -8,7 +8,9 @@ ms.audience: Admin
 ms.topic: conceptual
 ms.service: sharepoint-online
 localization_priority: Normal
-ms.collection: Ent_O365
+ms.collection: 
+- Ent_O365
+- M365-collaboration
 ms.custom: Adm_O365
 search.appverid:
 - MET150

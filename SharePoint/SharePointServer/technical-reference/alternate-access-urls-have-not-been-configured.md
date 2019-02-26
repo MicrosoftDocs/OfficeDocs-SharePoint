@@ -17,7 +17,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: Alternat
 
 # Alternate access URLs have not been configured (SharePoint Server)
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
  **Rule Name:** Alternate access URLs have not been configured. 
   

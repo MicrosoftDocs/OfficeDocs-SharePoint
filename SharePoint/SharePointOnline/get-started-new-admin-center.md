@@ -7,11 +7,13 @@ ms.audience: Admin
 ms.topic: overview
 ms.service: sharepoint-online
 localization_priority: Normal
-ms.collection: Strat_SP_admin
+ms.collection:  
+- Strat_SP_admin
+- M365-collaboration
 search.appverid:
 - SPO160
-- BSA160
 - MET150
+- BSA160
 ms.assetid: 0bb250bb-1d3c-43f8-b751-b322522ccf33
 description: "Learn about the cards on the Home page of the new SharePoint admin center"
 ---

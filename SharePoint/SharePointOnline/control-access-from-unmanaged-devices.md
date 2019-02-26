@@ -7,11 +7,14 @@ ms.audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
-ms.collection: Strat_SP_admin
+ms.collection:  
+- Strat_SP_admin
+- M365-collaboration
 search.appverid:
 - SPO160
-- BSA160
 - MET150
+- BSA160
+
 ms.assetid: 5ae550c4-bd20-4257-847b-5c20fb053622
 description: "Learn how to block or limit access to SharePoint and OneDrive content on devices that aren't compliant or joined to a domain."
 ---
