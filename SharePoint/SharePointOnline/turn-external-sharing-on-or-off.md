@@ -70,7 +70,7 @@ To specify additional sharing settings, go to the classic SharePoint admin cente
 
 **Specify who can share outside your organization**
 
-You can manage who can send sharing invitations to external users by limiting such sharing to members of a specified security group. Select  **Let only users in selected security groups share with authenticated external users** or **Let only users in selected security groups share with authenticated external users and using anonymous links** and specify the security group that you want to use.
+You can manage who can send sharing invitations to external users by limiting such sharing to members of a specified security group. Select  **Let only users in selected security groups share with authenticated external users** or **Let only users in selected security groups share with authenticated external users and using anonymous links** and specify any security group from your tenant. The full list of available security groups could be found [here](https://admin.microsoft.com/adminportal/home?ref=groups). 
 
 ![Screenshot of settings for who can share outside your organization](media/WhoCanShareOutsideYourOrganization.png)
 
@@ -95,6 +95,8 @@ When you choose to allow users to share outside your organization, you have some
  **Prevent external users from sharing files, folders, and sites they don't own**: External users cannot share anything they don't own with anyone else. 
   
  **External users must accept sharing invitations using the same account that the invitations were sent to**: External users cannot use a different account than the one that the sharing invitation was sent to get access. 
+ 
+ **Require recipients to continually prove account ownership when they access shared items**: External users should re-authenticate every time when they access shared items. 
   
  **Notifications**
   
