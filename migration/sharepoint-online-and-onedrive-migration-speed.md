@@ -88,14 +88,10 @@ After the migration is completed, verify that your content has been successfully
 
 
 *Question:* My migration is going so slow or I am being throttled. What can I do?</br>
-*Answer:* Check that you have configured your migration settings properly. Turn off any software that you do not need to use during migration. For example, disable any file synchronization program or antivirus program on the migrated content. This will help reduce throttle and improve performance.
+*Answer:*  Check that you have configured your migration settings properly. Turn off any software that you do not need to use during migration. For example, disable any file synchronization program or antivirus program on the migrated content. This will help reduce throttle and improve performance.
 
-*Question:* I continually getting throttled while I am attempting to migrate. Can Microsoft turn off the throttle to help me with migration?
-</br>
-*Answer:* Unfortunately, we are not able to disable throttle. Throttle is built into our server to protect the database from going down. 
-
->[!Important]
->If you are being throttled with a 429 error, it's an indication that your migration tool is overly aggressive and is over its allocated quota.  Please try to migrate during off-peak hours or reduce the number of VMs you are using.
+*Question:* I continually getting throttled while I am attempting to migrate. Can Microsoft turn off the throttle to help me with migration?</br>
+*Answer:* Unfortunately, we are not able to disable throttle. Throttle is built into our server to protect the database from going down. If you are being throttled with a 429 error, it's an indication that your migration tool is overly aggressive and is over its allocated quota.  Please try to migrate during off-peak hours or reduce the number of VMs you are using.
 
 If after several days you are still experiencing excessive throttling, please open a Microsoft support ticket.
 Include the following in your support ticket:
