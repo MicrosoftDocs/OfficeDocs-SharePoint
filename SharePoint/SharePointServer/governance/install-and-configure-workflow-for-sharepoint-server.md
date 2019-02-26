@@ -49,7 +49,7 @@ The only platform available when you first install SharePoint Server is the Shar
 
 ## Install Workflow Manager
 
-Workflow Manager may be installed on a co-located server(s) with SharePoint or on a separate, dedicated server(s). Workflow Manager can be deployed with the Web PI tool. For more information on Web PI, see [Using the Microsoft Web Platform Installer](https://docs.microsoft.com/en-us/iis/install/web-platform-installer/using-the-microsoft-web-platform-installer).
+Workflow Manager may be installed on the same servers as SharePoint or on separate, dedicated servers. Workflow Manager can be deployed with the Web PI tool. For more information on Web PI, see [Using the Microsoft Web Platform Installer](https://docs.microsoft.com/iis/install/web-platform-installer/using-the-microsoft-web-platform-installer).
    
 ## Install and configure SharePoint Server
 <a name="section3"> </a>
