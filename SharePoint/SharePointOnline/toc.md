@@ -113,4 +113,5 @@
 #### [Let users create modern site pages](let-users-create-modern-site-pages.md)
 #### [Let users connect classic sites to groups](let-users-connect-classic-sites-to-groups.md)
 #### [Enable or disable preview features](enable-or-disable-preview-features.md)
-
+### [Hybrid](https://docs.microsoft.com/sharepoint/hybrid/hybrid)
+### [SharePoint Migration Tool](https://docs.microsoft.com/sharepointmigration/migrate-to-sharepoint-online)
