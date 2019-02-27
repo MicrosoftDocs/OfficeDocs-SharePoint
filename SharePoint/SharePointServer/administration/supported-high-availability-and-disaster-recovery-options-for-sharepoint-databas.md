@@ -126,7 +126,7 @@ The following table describes the supported high availability and disaster recov
 |Supports SQL Server AlwaysOn Availability Group with asynchronous-commit for disaster recovery  <br/> |Yes  <br/> |
    
 > [!NOTE]
-> The Managed Metadata Service is the Taxonomy service. 
+> The Managed Metadata Service is the Taxonomy service. This database cannot be attached to a Managed Metadata Service Application in read only mode.
   
 ### PerformancePoint Services database
 
