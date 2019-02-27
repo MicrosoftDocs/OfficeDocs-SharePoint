@@ -14,7 +14,6 @@ ms.collection:
 - M365-collaboration
 search.appverid:
 - MET150
-
 description: "The SharePoint Migration Tool provides a wizard-like experience, prompting you for information to simplify migrating your data from your on-premises SharePoint Server document libraries and local file shares to SharePoint Online (SPO).
 ---
 
