@@ -65,7 +65,7 @@ Each of these standby data centers has specific characteristics and requirements
     
     **Cons:** The slowest option to recover. 
     
-- Warm standby disaster recovery strategy: A business ships backups or virtual machine images to local and regional disaster recovery farms.
+- Warm standby disaster recovery strategy with [Azure Site Recovery](https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-sharepoint).
     
     **Pros:** Often fairly inexpensive to recover, because a virtual server farm can require little configuration upon recovery. 
     
@@ -123,7 +123,7 @@ In a hot standby disaster recovery scenario, you set up a failover farm in the s
 The hot standby farm topology can be repeated across more than one data center, as long as you configure SQL Server log shipping to one or more additional data centers.
   
 > [!IMPORTANT]
-> Available network bandwidth and latency are major considerations when you are using a failover approach for disaster recovery. We recommend that you consult with your SAN vendor to determine whether you can use SAN replication or another supported mechanism to provide the hot standby level of availability across data centers. 
+> Available network bandwidth and latency are major considerations when you are using a failover approach for disaster recovery. We recommend that you consult with your SAN vendor to determine whether you can use SAN replication for SQL databases or another supported mechanism to provide the hot standby level of availability across data centers. Note that using SAN replication for SharePoint servers is not supported.
   
 ### Service application redundancy
 <a name="ServiceAppRedundancy"> </a>
