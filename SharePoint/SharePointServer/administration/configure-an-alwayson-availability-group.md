@@ -27,8 +27,11 @@ This article provides the required information and detailed procedures to create
 
 > [!IMPORTANT]
 > Verify the SQL Server version compatibility with the version of SharePoint you will be deploying.
+>
 > [Hardware and software requirements for SharePoint 2013](../install/hardware-and-software-requirements-0.md)
+>
 > [Hardware and software requirements for SharePoint Server 2016](../install/hardware-and-software-requirements.md)
+>
 > [Hardware and software requirements for SharePoint Server 2019](../install/hardware-and-software-requirements-2019.md)
 
 ## Process overview
@@ -42,7 +45,7 @@ We recommend following the installation and configuration steps in the order sho
     
 - Create and configure an availability group.
     
-- Install and configure SharePoint Server 2016, SharePoint Server 2013, or SharePoint Foundation 2013.
+- Install and configure SharePoint Server or SharePoint Foundation 2013.
     
 - Add the SharePoint databases to the availability group.
     
@@ -125,7 +128,7 @@ Failover clustering is based on a voting algorithm where more than one half of t
   
 For more information, see [WSFC Quorum Modes and Voting Configuration (SQL Server)](https://go.microsoft.com/fwlink/?LinkID=723838) and [Configure Cluster Quorum NodeWeight Settings](https://go.microsoft.com/fwlink/?LinkID=723839).
   
-### SharePoint Server 2016, SharePoint Foundation 2013, and SharePoint Server 2013
+### SharePoint Server and SharePoint Foundation 2013
 
 Some SharePoint Server databases do not support SQL Server Always On Availability Groups. We recommend that you review [Supported high availability and disaster recovery options for SharePoint databases](supported-high-availability-and-disaster-recovery-options-for-sharepoint-databas.md) before you configure an Always On environment.
   
