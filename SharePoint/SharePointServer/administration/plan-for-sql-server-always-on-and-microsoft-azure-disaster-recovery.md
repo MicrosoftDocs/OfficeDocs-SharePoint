@@ -24,11 +24,11 @@ description: "Use SQL Server 2014 and SQL Server Always On Availability Groups a
 Use SQL Server 2014 and SQL Server 2016 Always On Availability Groups and Microsoft Azure to create a hybrid disaster-recovery environment for your on-premises SharePoint Server farm. This article describes how to design and implement this solution.
   
 The solution in this article applies to the following:
-  
-**SharePoint Server 2013**
-  
+
 - Microsoft Azure
-    
+
+**SharePoint Server 2013**
+   
 - SQL Server 2014 Enterprise
     
 - Windows Server 2012 R2 Datacenter
@@ -235,8 +235,8 @@ Use the configurations in the following table when you deploy SQL Server for the
   
 |**Component**|**Settings**|
 |:-----|:-----|
-|Port  <br/> |Block UDP port 1434.  <br/> We recommend that you block TCP port 1433, and assign the port that is used by the default instance to a different port. However, this is not mandatory.  <br/> Make sure that the port number that is to be assigned to the default instance is not in the registered ports. Refer to [Service Name and Transport Protocol Port Number Registry](http://go.microsoft.com/fwlink/?LinkID=626877&amp;clcid=0x409) to avoid using the registered port.  <br/> Ensure that you follow the security guidance in [Configure SQL Server security for SharePoint Server](../security-for-sharepoint-server/configure-sql-server-security-for-sharepoint-environments.md).  <br/> Firewall Rules: Create new Inbound rules for the non-default port used by the SQL Server instance.  <br/> Hide instance: Hide the SQL Server instance from client computers.  <br/> |
-|Lock pages in memory  <br/> |Grant the SQL Server service account permissions to lock pages in memory. For more information, see [Enable the Lock Pages in Memory Option (Windows)](http://go.microsoft.com/fwlink/?LinkID=626878&amp;clcid=0x409) and [Server Memory Server Configuration Options](/sql/database-engine/configure-windows/server-memory-server-configuration-options?view=sql-server-2017).  <br/> |
+|Port  <br/> |Block UDP port 1434.  <br/> We recommend that you block TCP port 1433, and assign the port that is used by the default instance to a different port. However, this is not mandatory.  <br/> Make sure that the port number that is to be assigned to the default instance is not in the registered ports. Refer to [Service Name and Transport Protocol Port Number Registry](http://go.microsoft.com/fwlink/?LinkID=626877) to avoid using the registered port.  <br/> Ensure that you follow the security guidance in [Configure SQL Server security for SharePoint Server](../security-for-sharepoint-server/configure-sql-server-security-for-sharepoint-environments.md).  <br/> Firewall Rules: Create new Inbound rules for the non-default port used by the SQL Server instance.  <br/> Hide instance: Hide the SQL Server instance from client computers.  <br/> |
+|Lock pages in memory  <br/> |Grant the SQL Server service account permissions to lock pages in memory. For more information, see [Enable the Lock Pages in Memory Option (Windows)](http://go.microsoft.com/fwlink/?LinkID=626878) and [Server Memory Server Configuration Options](/sql/database-engine/configure-windows/server-memory-server-configuration-options?view=sql-server-2017).  <br/> |
 |Disable Auto-create statistics  <br/> |**Do not** enable auto-create statistics on SQL Server. This is not supported for SharePoint Server. For more information, see [Best practices for SQL Server in a SharePoint Server farm](best-practices-for-sql-server-in-a-sharepoint-server-farm.md).  <br/> |
 |Set Max Degree of Parallelism  <br/> |Set the max degree of parallelism (MAXDOP) to 1 in SQL Server instances that host SharePoint Server databases.  <br/> **Note:** SharePoint Server installation on SQL Server will fail by design unless the installer account has permission to change it.  <br/> For more information, see [Best practices for SQL Server in a SharePoint Server farm](best-practices-for-sql-server-in-a-sharepoint-server-farm.md).  <br/> |
 |Trace Flags  <br/> |Add the trace flags 1222 (return resources and types of locks participating in a deadlock) and 3226 (suppress log backup entries in the SQL error log).  <br/> DBCC TRACEON (1222,-1)  <br/> DBCC TRACEON (3226,-1)  <br/> |
@@ -482,14 +482,13 @@ The next table provides more information about the steps in Build phase 6.
 |4. Check the farm services  <br/> |Verify that all the farm services are running as expected.  <br/> |
 |5. Perform a farm health check  <br/> |Perform health checks on the farm to make sure that the farm is stable and working correctly.  <br/> |
    
- **(1):** Use the following PowerShell syntax for step 3 in the Build phase 6 table.
+ **(1)** Use the following PowerShell syntax for step 3 in the Build phase 6 table.
   
 ```
 # Refresh sites in the configuration database
-Get-SPContentDatabase -WebApplication http://webapplicationsitename | | ForEach {
+Get-SPContentDatabase -WebApplication http://webapplicationsitename | ForEach {
 Write-host "Refreshing sites in configuration database for database: " $_.Name
-$_.RefreshSitesInConfigurationDatabase()
-}
+$_.RefreshSitesInConfigurationDatabase()}
 ```
 
 ## Test farm failover and recovery
@@ -511,7 +510,7 @@ A disaster recovery decision is typically started based on management decisions 
   
 Perform a failover of the cluster and the availability groups by using the PowerShell cmdlets shown in the following list.
   
-1. Stop the Cluster Service by using the  `Stop-Service Clussvc`.
+1. Stop the Cluster Service by running `Stop-Service Clussvc`.
     
 2. Start the cluster node and fix the Quorum by using the following command:
     
@@ -522,7 +521,7 @@ Perform a failover of the cluster and the availability groups by using the Power
 3. Move the cluster group to an active SQL node in the disaster recovery data center by using the following command.
     
   ```
-  Move-ClusterGroup -Cluster  <CLIUSTER GROUP>  -node <ACTIVE SQL NODE>
+  Move-ClusterGroup -Cluster <CLIUSTER GROUP> -node <ACTIVE SQL NODE>
   ```
 
 4. Confirm the Cluster Service is started by using the following command.
@@ -576,10 +575,9 @@ We recommend that you refresh the sites in the SharePoint Configuration database
   
 ```
 # Refresh sites in the configuration database
-Get-SPContentDatabase -WebApplication http://webapplicationsitename | | ForEach {
+Get-SPContentDatabase -WebApplication http://webapplicationsitename | ForEach {
 Write-host "Refreshing sites in configuration database for database: " $_.Name
-$_.RefreshSitesInConfigurationDatabase()
-}
+$_.RefreshSitesInConfigurationDatabase() }
 ```
 
  **Failover step 4**
@@ -595,7 +593,7 @@ Log on as a member of the Farm Administrators SharePoint group and complete the 
 3. Perform a full import of the user profiles.
     
 > [!NOTE]
-> The Secure Store Service might require the SharePoint Farm Administrator to refresh the key in order to decrypt the applications that are registered in the Secure Store. The administrator must have full permissions to the Secure Store before refreshing the key. You can also use the  `Update-SPSecureStoreApplicationServerKey` cmdlet to update the Secure Store key. 
+> The Secure Store Service might require the SharePoint Farm Administrator to refresh the key in order to decrypt the applications that are registered in the Secure Store. The administrator must have full permissions to the Secure Store before refreshing the key. You can also use the `Update-SPSecureStoreApplicationServerKey` cmdlet to update the Secure Store key. 
   
 > [!NOTE]
 > The User Profile Synchronization timer job must be re-enabled and profile imports should be scheduled. Since the databases are now in write mode after a failover, the imports should be scheduled accordingly. 
@@ -631,7 +629,7 @@ Notify the appropriate business stakeholders once the recovery validation is com
 ## Conclusion
 <a name="end"> </a>
 
-After you failover and validate the recovery you are in a position to start configuring the farm to meet the current and future operational requirements, for example, capacity and high availability. These requirements are determined by the duration of the downtime and recovery of the farm in the on-premises datacenter.
+After you failover and validate the recovery, you are in a position to start configuring the farm to meet the current and future operational requirements such as capacity and high availability. These requirements are determined by the duration of the downtime and recovery of the farm in the on-premises datacenter.
   
 As a final note, you have to review and validate your plan for falling back to the on-premises farm when it's operational again.
   
