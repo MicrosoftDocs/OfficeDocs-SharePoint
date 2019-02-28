@@ -14,7 +14,7 @@ search.appverid:
 - SPO160
 - MET150
 description: "Learn how to get your organization started with the modern search experience"
-...
+---
 
 # Get started with the modern search experience
 

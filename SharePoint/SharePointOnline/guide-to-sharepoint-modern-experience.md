@@ -14,7 +14,7 @@ search.appverid:
 - SPO160
 - MET150
 description: "Learn about the SharePoint modern experience."
-...
+---
 
 # Guide to the Modern experience in SharePoint
 
