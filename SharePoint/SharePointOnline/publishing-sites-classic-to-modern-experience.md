@@ -9,7 +9,7 @@ ms.service: sharepoint-online
 search.appverid: MET150
 localization_priority: Priority
 description: "Learn about how to move from publising sites to communication sites in the SharePoint modern experience"
-...
+---
 
 # Moving from Publishing sites to Communication sites
 
