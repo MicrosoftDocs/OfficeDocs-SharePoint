@@ -14,7 +14,7 @@ search.appverid:
 - SPO160
 - MET150
 description: "Learn about how to plan navigation in the SharePoint modern experience"
-...
+---
 
 # Planning Navigation for the modern SharePoint experience
 
