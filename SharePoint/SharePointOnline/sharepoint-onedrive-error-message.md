@@ -29,10 +29,33 @@ Error OSE201 indicates that external sharing is turned off for all of your Share
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.   
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
 4. In the left pane of the new SharePoint admin center, select **sharing**.
-5. Under **Sharing outside your organization**, choose the type of sharing that you want to allow.
+5. Under **Sharing outside your organization**, choose **Allow users to invite and share with authenticated external users** or **Allow sharing to authenticated external users and using anonymous access links**.
+6. Click **OK**
 
 ## OSE202
 TenantOnlyAllowExistingUserSharing
+
+Error OSE202 indicates that you can only share with guest users who are already in your directory. You can [add guests directly through Azure Active Directory](https://docs.microsoft.com/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal), or you can change the setting by doing the following:
+
+First, change the external sharing setting for your organization.
+
+1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
+    
+    > [!NOTE]
+    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.   
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
+4. In the left pane of the new SharePoint admin center, select **sharing**.
+5. Under **Sharing outside your organization**, choose **Allow users to invite and share with authenticated external users** or **Allow sharing to authenticated external users and using anonymous access links**.
+6. Click **OK**
+
+Next, check the external sharing settings for the site that you want to share from.
+
+1. In the SharePoint admin center, click **Try it now** to open the new SharePoint admin center.
+2. In the left pane of the new SharePoint admin center, select **Active sites**.
+3. Click the site that you want to share from, and then under **External sharing** click **Change**.
+4. Make sure that either **New and existing guests** or **Anyone** is selected, and then click **Save** if you made changes.
+
+Try sharing again.
 
 ## OSE203
 TenantOnlyAllowAuthUserSharing
