@@ -100,7 +100,7 @@ One of the following:
   
 
 > [!NOTE]
-> SQL Server Express is not supported. SQL Azure (the SaaS service) is also not supported for any SharePoint databases 
+> SQL Server Express is not supported. Azure SQL Database (the DBaaS service) is also not supported for any SharePoint databases 
   
 One of the following server operating systems:
   

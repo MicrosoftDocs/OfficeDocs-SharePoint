@@ -14,7 +14,7 @@ search.appverid:
 - SPO160
 - MET150
 description: "Learn about branding your sites in the SharePoint modern experience."
-...
+---
 
 # Branding your SharePoint Online site
 
