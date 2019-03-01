@@ -42,8 +42,9 @@ public List <SPAsyncReadJobInfo> CreateSPAsyncReadJob(Uri url, SPAsyncReadOption
 
 The API is made up of two input parameters, a URL, an Optional Flag, and one output structure field. 
 Currently, all items specified in the URL are queried. This often results in unnecessary reads and creates an extra load to the database especially if your migration tool only wants to know the delta (e.g. incremental migration)
-To eliminate unnecessary reads, changeToken is being introduced.  It will read the metadata of specified duration. Only the objects specified in the changeToken range is read. (Please note for first release, changeToken may not be supported, still pending engineering review). 
-Also please note that asynchronous metadata read API returns only the metadata, no file or object transfer will take place
+To eliminate unnecessary reads, changeToken is being introduced.  It will read the metadata of specified duration. Only the objects specified in the changeToken range is read. (Note: changeToken may not be supported for the first release). 
+
+>[!Note] The Asynchronous Metadata Read API returns only metadata; no file or object transfer takes place.
 
 ### Input Parameters
 
