@@ -158,8 +158,9 @@ For the first release, the limits for all supported migration will cap at 1 mill
 
 By default, each URL supports up to 1 million limits. At the start of the migration, the asynchronous read migration function will check. If more than 1 million is detected an error will be thrown. The 1 million count includes items such as role assignment, alert but does not include versions. Multiple versions of a single file will count as one. (More information will be provided in future update). 
 
-**Asynchronous Read API Limitations**
-</br>
+**Asynchronous Read API Limitations**</br>
+
+
 |**Type**|**SharePoint Online Limit**|**Recommended limit for async read**|**Description**|
 |:-----|:-----|:-----|:-----|
 |Lists|30 million items|1 million|Per list URL, the migration read will process up to 1 million rea|
