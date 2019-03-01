@@ -14,7 +14,7 @@ search.appverid:
 - SPO160
 - MET150
 description: "Learn about information architecture in the SharePoint modern experience."
-...
+---
 
 # Information architecture in modern SharePoint
 
