@@ -94,7 +94,7 @@ If set, this indicates all the files and list item version history is to be incl
  { get; set; }</br>
 This flag indicates whether to include all user or group information from a site. By default, it assumes the security is not set, hence no user or group information is provided.
 
-#### ChangeToken(TBD, not supported in first release)
+#### ChangeToken (TBD, not supported in first release)
 
 The changeToken takes in a DateTime parameter. If specified, only the modified date larger than the ChangeToken will be exported. If Null, everything will be exported. ChangeToken can also be specified in past time ranges. This means both the start time and the end time needs to be less than the present time. If use in this format, the read asynchronous API will only read back the items that are specified within the time range.
 To maintain consistency, dateTime will be based on UTC time. The change token will be compared based off the last modified time of an object type (e.g. file/folder or list item). If last modified time attribute is not supported, the object will be read by default.
