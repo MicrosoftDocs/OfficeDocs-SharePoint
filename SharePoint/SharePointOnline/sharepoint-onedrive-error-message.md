@@ -15,7 +15,7 @@ description: "Find the solution to SharePoint and OneDrive sharing errors"
 
 # Sharing errors in SharePoint and OneDrive
 
-This article covers the different errors that you might encounter when sharing files or folders from SharePoint or OneDrive. You need to be a global administrator or a SharePoint Online administrator to fix these errors. If you are not an administrator, contact your help desk and give them your error code.
+This article covers the different errors that you might encounter when sharing files or folders from SharePoint Online or OneDrive for Business in Office 365. You need to be a global administrator or a SharePoint Online administrator to fix these errors. If you are not an administrator, contact your help desk and give them your error code.
 
 Note that changing these settings changes the types of external sharing that are allowed in your organization. In some cases, these settings may have been set by someone in your organization for business reasons.
 
