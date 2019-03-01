@@ -87,11 +87,11 @@ If there are special characters in the URL, please use the escape character to c
 The read asynchronous function will include the SPAsyncReadOptions structure which covers the optional flags to allow the user to specify version and security setting on the site level more is described below.
 
 #### IncludeVersions 
-{ get; set; }
+{ get; set; }</br>
 If set, this indicates all the files and list item version history is to be included in the export operation. If absent, only the default version is provided
 
 #### IncludeSecurity
- { get; set; }
+ { get; set; }</br>
 This flag indicates whether to include all user or group information from a site. By default, it assumes the security is not set, hence no user or group information is provided.
 
 #### ChangeToken(TBD, not supported in first release)
@@ -114,11 +114,11 @@ If end time provided is larger than present time, an error is also expected to b
 asyncMigrationRead is expected to return a list of fields including JobID of the unique URL, encryptionKey, azureContainerManifestUrl, and azureReportUri in the SPAsyncReadJobInfo structure.
 
 ### UniqueJobID
-public Guid JobId { get; set; }
+*public Guid JobId { get; set; }*</br>
 The unique job associates with this asynchronous read request.  You migration tool will leverage this unique ID per URL for status check and to query the read process.
 
 ### AzureContainerManifestUri
-public Uri ManifestContainerUri { get; set; }
+*public Uri ManifestContainerUri { get; set; }*</br>
 
 The server code creates an azureContainer for the manifest . The manifest container Uri is included as a part of the return code. After the asyncMigrationRead function finishes execution, the final manifest will be placed in the container specified. 
 Manifest export package structure will be like the createMigration Import Package structure. The general output structure is summarized in table below.
