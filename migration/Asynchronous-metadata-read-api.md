@@ -168,13 +168,13 @@ By default, each URL supports up to 1 million limits. At the start of the migrat
 
 
 ## Performance Expectation
-The preliminary performance test provides a rough estimate of 300-400 items per second throughput. This does not account of potential throttle over the network. If the read asynchronous function fails to reach the server due to throttle, then the performance is expected to reduce. 
-Furthermore, at the start of read asynchronous migration, there will be an overhead as the server will calculate the number of objects to ensure it’s less than 1 million limit. Hence, if only a small amount of object is migrated (e.g. 100 object), the throughput would be less than if 100,000 is migrated.
+The preliminary performance test provides a rough estimate of 300-400 items per second throughput. This does not account for any potential throttle over the network. If the read asynchronous function fails to reach the server due to throttling, then the performance will be reduced. 
+At the start of read asynchronous migration, there will be an overhead as the server calculates the number of objects to confirm that it is within the 1 million object limit. Therefore, the throughput for a small number of objects (e.g. 100 objects) is less than if 100,000 objects are migrated.
 
-## Set up Guideline
-The following provides high level guideline for implementing asynchronous metadata migration function. This documentation does not go into details on how to interact with SharePoint RESTful service, it is assumed that the ISV has prior knowledge and be able to access that target website with proper permission. For more information on how to access the Sharepoint website , please refer to https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/get-to-know-the-sharepoint-rest-service
+## Set up Guidelines
+The following provides high level guidelines for implementing the asynchronous metadata migration function. This documentation does not go into details on how to interact with SharePoint RESTful service. It is assumed that the ISV has prior knowledge and will be able to access the target website with proper permission. For more information on how to access the Sharepoint website , please refer to https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/get-to-know-the-sharepoint-rest-service
 
-1. Install and update the latest Microsoft.SharePointOnline.CSOM version, please ensure the version is larger than 16.1.8600 or version released after March 2019.
+1. Install and update the latest Microsoft.SharePointOnline.CSOM version. The minimum version requirement is V16.1.8600 or later.
 2. ISVs figure out the folder, document library or files of interested to be query and issued with CreateSPAsyncReadJob function. 
-3. If created successfully, Queried job status using the jobQueueUri. It will provide the job process status or any error logging. After job completion, parse Manifest to retrieve the metadata.
+3. Once successfully created, query the job status using the *jobQueueUri*. It provides the job process status and any error logging. After job completion, parse the Manifest to retrieve the metadata.
 
