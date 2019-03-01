@@ -162,7 +162,7 @@ By default, each URL supports up to 1 million limits. At the start of the migrat
 **Asynchronous Read API Limitations**</br>
 
 
-|**Type**|**SharePoint Online Limit**|**Recommended limit for async read**|**Description**|
+|**Type**|**SharePoint Online Limit**|**Recommended limit</br>for async read**|**Description**|
 |:-----|:-----|:-----|:-----|
 |Lists|30 million items|1 million|Per list URL, the migration read will process up to 1 million rea|
 |Document Library|30 million files/folders|1 million|Per list URL, the migration job will process up to 1 million reads|
