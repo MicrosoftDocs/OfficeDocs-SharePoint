@@ -121,13 +121,13 @@ If end time provided is larger than present time, an error is also expected to b
 
 ## Output Parameters
 
-asyncMigrationRead is expected to return a list of fields including JobID of the unique URL, encryptionKey, azureContainerManifestUrl, and azureReportUri in the SPAsyncReadJobInfo structure.
+AsyncMigrationRead is expected to return a list of fields including JobID of the unique URL, encryptionKey, azureContainerManifestUrl, and azureReportUri in the SPAsyncReadJobInfo structure.
 
-### UniqueJobID
+#### UniqueJobID
 *public Guid JobId { get; set; }*</br>
 The unique job associates with this asynchronous read request.  You migration tool will leverage this unique ID per URL for status check and to query the read process.
 
-### AzureContainerManifestUri
+#### AzureContainerManifestUri
 *public Uri ManifestContainerUri { get; set; }*</br>
 
 The server code creates an azureContainer for the manifest . The manifest container Uri is included as a part of the return code. After the asyncMigrationRead function finishes execution, the final manifest will be placed in the container specified. 
@@ -144,12 +144,12 @@ Manifest export package structure will be like the createMigration Import Packag
 |UserGroupMap.XML|DeploymentUserGroupMap Schema|Provides validation for the UserGroup.xml file exported into the content migration package. UserGroup.xml maintains a list of users and user security groups with respect to access security and permissions.|
 |ViewFormsList.XML|DeploymentViewFormsList Schema|Provides validation for the ViewFormsList.xml file exported into the content migration package.ViewFormsList.xml maintains a list of Web Parts and tracks whether each is a view or form.|
 
-### JobQueueUri:
+#### JobQueueUri:
 public Uri JobQueueUri { get; set; }
 The reporting features is the same as createMigrationJob. Logging will be provided to track the status of the asynchronous read.  In additional, the log will provide an estimate number of items to be read per url after scan through the database and a rough estimate for your tools.
 In terms of blob queue permission and settings, all access will be by default and the same as when the ISV called ProvisionMigrationContainer during the createMigrationJob.
 
-### EncryptionKey:
+#### EncryptionKey:
 public byte[] EncryptionKey { get; set; }
 It returns the AES256CBC encryption key used to decrypt the message in azureManifest container and azureReport Queue.
 
