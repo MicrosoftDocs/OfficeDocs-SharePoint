@@ -191,7 +191,7 @@ You can probably see that these approaches might be easier to implement with a s
   
 ## Know how your audience will consume SharePoint hub sites
 
-Your audience might consume SharePoint hub sites via the SharePoint home in Office 365—both the sites themselves and how news flows from hub to home. Also, consider SharePoint mobile apps, which could be used to access the hub home page, news, and navigation to associated sites. Consider the value of mobile app notifications. Encourage your users to stay connected on the go with the [SharePoint mobile app](https://products.office.com/en-US/SharePoint/mobile-app?wt.mc_id=AID638358_QSG_175660). Make sure that you consider operating systems, screen sizes, resolution, and form factors. All modern sites, pages, news, and lists should work well across all of these, and some will reflow as people consume content on small devices.
+Your audience might consume SharePoint hub sites via the SharePoint home in Office 365—both the sites themselves and how news flows from hub to home. Also, consider SharePoint mobile apps, which could be used to access the hub home page, news, and navigation to associated sites. Consider the value of mobile app notifications. Encourage your users to stay connected on the go with the [SharePoint mobile app](https://products.office.com/SharePoint/mobile-app?wt.mc_id=AID638358_QSG_175660). Make sure that you consider operating systems, screen sizes, resolution, and form factors. All modern sites, pages, news, and lists should work well across all of these, and some will reflow as people consume content on small devices.
   
 ## Additional important considerations
 
