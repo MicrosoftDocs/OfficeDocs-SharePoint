@@ -3,12 +3,13 @@ title: "Deploy and configure the new OneDrive sync client for Mac"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 06/28/2018
 ms.audience: Admin
 ms.topic: get-started-article
 ms.service: one-drive
-localization_priority: Priority
-ms.collection: Strat_OD_admin
+localization_priority: Normal
+ms.collection: 
+- Strat_OD_admin
+- M365-collaboration
 search.appverid:
 - ODB160
 - ODB150

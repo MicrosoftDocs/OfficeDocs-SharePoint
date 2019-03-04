@@ -7,8 +7,7 @@ ms.date: 06/21/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: one-drive
-localization_priority: Priority
-ms.collection: Strat_OD_admin
+localization_priority: Normal
 search.appverid:
 - ODB160
 - ODB150

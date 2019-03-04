@@ -17,7 +17,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: People S
 
 # People Search relevance is not optimized when the Active Directory has errors in the manager reporting structure (SharePoint Server)
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
  **Rule Name:** People Search relevance is not optimized when the Active Directory has errors in the manager reporting structure. 
   

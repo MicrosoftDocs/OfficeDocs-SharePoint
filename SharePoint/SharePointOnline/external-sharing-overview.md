@@ -13,8 +13,10 @@ f1_keywords:
 - 'O365E_EnableSPExtlUser'
 ms.service: sharepoint-online
 localization_priority: Priority
-ms.collection: Strat_OD_share
 ms.custom: Adm_O365
+ms.collection:  
+- Strat_OD_share
+- M365-collaboration
 search.appverid:
 - SPO160
 - MOE150

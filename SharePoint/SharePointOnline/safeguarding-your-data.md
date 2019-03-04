@@ -7,7 +7,9 @@ ms.audience: Admin
 ms.topic: conceptual
 ms.service: sharepoint-online
 localization_priority: Normal
-ms.collection: Strat_SP_admin
+ms.collection:  
+- Strat_SP_admin
+- M365-collaboration
 search.appverid:
 - SPO160
 - ODB160
@@ -92,7 +94,7 @@ The Office 365 "Red Team" within Microsoft is made up of intrusion specialists. 
   
 To monitor and observe activity in your Office 365 subscription:
   
-- If you have an on-premises security operations center or SIEM, you can monitor activity with the Management Activity API. For information, see [Office 365 Management APIs overview](https://msdn.microsoft.com/en-us/office-365/office-365-managment-apis-overview). This will show you activity from across SharePoint, Exchange, Azure Active Directory, DLP and more. If you don't have an on-premises security operations center or SIEM, you can use Cloud App Security. Cloud App Security uses the Management Activity API. For information, see [Overview of Office 365 Cloud App Security](/office365/securitycompliance/office-365-cas-overview). Through Cloud App Security, you can report, search, and alert on activity.
+- If you have an on-premises security operations center or SIEM, you can monitor activity with the Management Activity API. For information, see [Office 365 Management APIs overview](/office/office-365-management-api/office-365-management-apis-overview). This will show you activity from across SharePoint, Exchange, Azure Active Directory, DLP and more. If you don't have an on-premises security operations center or SIEM, you can use Cloud App Security. Cloud App Security uses the Management Activity API. For information, see [Overview of Office 365 Cloud App Security](/office365/securitycompliance/office-365-cas-overview). Through Cloud App Security, you can report, search, and alert on activity.
     
 - Use Azure Active Directory identity protection. This applies machine learning to detect suspicious account behavior, for example, simultaneous sign-ins from the same user in different parts of the world. You can configure identity protection to take action to block these sign-ins. For more information, see [Azure Active Directory Identity Protection](/azure/active-directory/identity-protection/overview).
     

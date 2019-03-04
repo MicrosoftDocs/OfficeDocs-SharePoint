@@ -182,6 +182,7 @@ Use the following PowerShell script to perform a graceful shutdown of the Distri
   $currentTime = $startTime
   $elapsedTime = $currentTime - $startTime
   $timeOut = 900
+  Use-CacheCluster
   try
   {
       Write-Host "Shutting down distributed cache host."

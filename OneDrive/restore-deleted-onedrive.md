@@ -8,6 +8,9 @@ ms.audience: Admin
 ms.topic: article
 ms.service: one-drive
 localization_priority: Normal
+ms.collection: 
+- Strat_OD_admin
+- M365-collaboration 
 search.appverid:
 - ODB160
 - MET150

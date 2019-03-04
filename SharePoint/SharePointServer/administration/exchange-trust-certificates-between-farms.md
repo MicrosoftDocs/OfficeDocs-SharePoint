@@ -105,7 +105,7 @@ You can only export and copy certificates by using Windows PowerShell 3.0 or lat
    $stsCert.Export("Cert") | Set-Content <C:\ConsumingFarmSTS.cer> -Encoding byte
    ```
 
-Where  _\<C:\ConsumingFarmSTS.cer\>_ is the path of the STS certificate. 
+   Where  _\<C:\ConsumingFarmSTS.cer\>_ is the path of the STS certificate. 
     
 ### To export the root certificate from the publishing farm
 

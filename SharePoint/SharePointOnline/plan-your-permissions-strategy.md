@@ -8,13 +8,13 @@ ms.audience: Admin
 ms.topic: conceptual
 ms.prod: sharepoint-online
 localization_priority: Normal
-ms.collection:
+ms.collection:  
+- Strat_OD_share
+- M365-collaboration
 - Adm_SPO
 - SharePoint_Online
-- Strat_SP_modern
 ms.custom:
 - Adm_O365_FullSet
-- MiniMaven
 search.appverid:
 - WSU140
 - WSU150

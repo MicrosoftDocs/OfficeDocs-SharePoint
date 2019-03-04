@@ -12,8 +12,10 @@ f1_keywords:
 - 'O365E_SitesMgmtModern'
 - 'How To'
 ms.service: sharepoint-online
-localization_priority: Priority
-ms.collection: Strat_SP_admin
+localization_priority: Normal
+ms.collection:  
+- Strat_SP_admin
+- M365-collaboration
 search.appverid:
 - SPO160
 - MOE150

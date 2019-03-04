@@ -8,10 +8,14 @@ ms.audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
+ms.collection:  
+- Strat_OD_admin
+- M365-collaboration
 search.appverid:
+- SPO160
+- MET150
 - ODB160
 - ODB150
-- MET150
 ms.assetid: 6778d4de-b5f8-423c-af43-a1b2449e9b99
 description: "Enable users in your organization to syinc IRM-protected locations using the new OneDrive sync client (OneDrive.exe)."
 ---
@@ -22,9 +26,12 @@ This article is for Office 365 global or SharePoint admins who want their users 
   
 ## Prerequisites
 
+> [!NOTE]
+> Any IRM-protected files will maintain their IRM protection during the sync process, both during upload and download.
+
 1. Users are running Windows 7 or later. This feature is not yet supported on Mac. 
     
-2. You have [Apply Information Rights Management (IRM) to a list or library](https://support.office.com/article/3bdb5c4e-94fc-4741-b02f-4e7cc3c54aa1). (On-premises SharePoint Server libraries can't be synced with the new OneDrive sync client.)
+2. You have to [Apply Information Rights Management (IRM) to a list or library](https://support.office.com/article/3bdb5c4e-94fc-4741-b02f-4e7cc3c54aa1). (On-premises SharePoint Server libraries can't be synced with the new OneDrive sync client.)
     
 3. Your users have disabled syncing using the previous OneDrive for Business sync client
     

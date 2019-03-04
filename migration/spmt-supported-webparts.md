@@ -1,5 +1,5 @@
 ---
-title: "SharePoint Migration Tool supported SharePoint Webparts"
+title: "SharePoint Migration Tool supported SharePoint web parts"
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
@@ -10,6 +10,7 @@ localization_priority: Priority
 ms.collection:
 - Strat_SP_gtc
 - SPMTMigration
+- M365-collaboration
 ms.custom: 
 ms.assetid: 
 description: "SharePoint Migration Tool table of supported webparts for migration."

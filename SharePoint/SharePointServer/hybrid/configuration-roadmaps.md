@@ -12,6 +12,7 @@ ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
+- M365-collaboration
 ms.assetid: feedf4f0-0e18-4592-983b-8d769830bcac
 description: "Follow these roadmaps to set up your chosen SharePoint Server hybrid solution."
 ---

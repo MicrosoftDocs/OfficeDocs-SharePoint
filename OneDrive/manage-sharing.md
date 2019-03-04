@@ -6,8 +6,10 @@ manager: pamgreen
 ms.audience: Admin
 ms.topic: article
 ms.service: one-drive
-localization_priority: Normal
-ms.collection: Strat_OD_admin
+localization_priority: Priority
+ms.collection: 
+- Strat_OD_admin
+- M365-collaboration
 search.appverid:
 - ODB160
 - ODB150
@@ -48,8 +50,14 @@ If you haven't yet specified the external sharing settings you allow, do that fi
     ![Link settings on the Sharing page of the OneDrive admin center](media/773e0df6-17ec-4433-ae50-62b14398317f.png)
   
  **Advanced settings for shareable links**
+ 
+  - **Links must expire within this number of days** This value sets the expiration time for links.  Entering a value of 0 will set it so that links do not expire.
   
-If your external sharing setting for SharePoint is set to allow shareable links (even if external sharing is currently turned off), you can set an expiration time for those links by choosing a value from the **Links expire within** drop-down list. You can also choose whether shareable links can give people permission to edit shared files and folders. 
+  - **Files and Folders**
+  
+    - **View** Using this setting will make it so that the shared files or folders can only be viewed or accessed.  Think of this as a "read only" option.
+    
+    - **View, edit, and upload** Using this setting will make it so that the shared files or folders can be edited by anyone who has the link.
   
 ## Control external sharing for OneDrive and SharePoint
 <a name="externalsharing"> </a>

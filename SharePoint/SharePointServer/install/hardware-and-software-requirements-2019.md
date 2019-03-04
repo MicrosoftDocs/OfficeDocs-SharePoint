@@ -74,6 +74,9 @@ The requirements in the following section apply to the following installations:
   
 > [!NOTE]
 > SharePoint Server 2019 supports drives that are formatted with the Resilient File System (ReFS). For additional information about ReFs, see [Resilient File System Overview](https://go.microsoft.com/fwlink/p/?LinkId=618431) and [Resilient File System](https://go.microsoft.com/fwlink/p/?LinkId=618432)
+
+> [!IMPORTANT]
+> SharePoint Server 2019 requires a minimum of an Active Directory 2003 native forest and domain functional level.
   
 > [!IMPORTANT]
 > SharePoint Server 2019 does not support single label domain names. For more information, see [Information about configuring Windows for domains with single-label DNS names](https://go.microsoft.com/fwlink/p/?LinkID=193849). 
@@ -97,7 +100,7 @@ One of the following:
   
 
 > [!NOTE]
-> SQL Server Express is not supported. SQL Azure (the SaaS service) is also not supported for any SharePoint databases 
+> SQL Server Express is not supported. Azure SQL Database (the DBaaS service) is also not supported for any SharePoint databases 
   
 One of the following server operating systems:
   

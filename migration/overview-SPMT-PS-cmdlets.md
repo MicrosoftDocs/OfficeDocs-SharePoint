@@ -4,7 +4,7 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
 ms.audience: ITPro
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
 ms.collection:
@@ -14,13 +14,14 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
 - SPMigration
+- M365-collaboration
 search.appverid: MET150
 description: "New Powershell cmdlets let you migrate to SharePoint Online."
 ---
 
 # Migrate to SharePoint Online using PowerShell
 
-This article is about the new PowerShell cmdlets based on the SharePoint Migration Tool (SPMT) migration engine. They can be used to move files from SharePoint 2013 on-premises document libraries and list items, and file shares to Office 365.
+This article is about the new PowerShell cmdlets based on the SharePoint Migration Tool (SPMT) migration engine. They can be used to move files from SharePoint 2013 on-premises document libraries and list items, and file shares to Office 365.  For information on all current PowerShell cmdlets relating to SharePoint Online migration, please see the [Microsoft SharePoint Migration Tool cmdlet reference](https://docs.microsoft.com/powershell/spmt/intro?view=spmt-ps).
 
 The PowerShell cmdlets provide the same functionalities as the [SharePoint Migration Tool](introducing-the-sharepoint-migration-tool.md) .
 
@@ -65,9 +66,10 @@ The PowerShell cmdlets provide the same functionalities as the [SharePoint Migra
 
 
 - Provision your Office 365 with either your existing active directory or one of the other options for adding accounts to Office 365. See [Office 365 integration with on-premises environments](http://go.microsoft.com/fwlink/?LinkID=616610&amp;clcid=0x409) and [Add users to Office 365 for business](http://go.microsoft.com/fwlink/?LinkID=616611&amp;clcid=0x409) for more information. 
-    
-<br><br>
-  
+- Open the folder `%userprofile%\Documents\WindowsPowerShell\Modules\Microsoft.SharePoint.MigrationTool.PowerShell` and make sure you have DLLs inside of it. From this location, run the the following PowerShell command<br>
+    ```powershell
+    Import-Module Microsoft.SharePoint.MigrationTool.PowerShell
+    ```  
 ## Create and initialize a migration session
 <a name="Step1CreateInitialize"> </a>
 

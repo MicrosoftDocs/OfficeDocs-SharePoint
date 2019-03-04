@@ -6,11 +6,15 @@ manager: pamgreen
 ms.audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
-search.appverid: MET150
 localization_priority: Priority
-ms.collection: Strat_SP_modern
+ms.collection:  
+- Strat_SP_modern
+- M365-collaboration
+search.appverid:
+- SPO160
+- MET150
 description: "Learn about how to plan navigation in the SharePoint modern experience"
-...
+---
 
 # Planning Navigation for the modern SharePoint experience
 

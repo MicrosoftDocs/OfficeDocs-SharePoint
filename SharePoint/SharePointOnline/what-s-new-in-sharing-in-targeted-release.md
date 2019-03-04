@@ -3,10 +3,16 @@ title: "Secure external sharing in SharePoint Online"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.audience: ITPro
+ms.audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
+ms.collection:  
+- Strat_SP_admin
+- M365-collaboration
+search.appverid:
+- SPO160
+- MET150
 ms.assetid: cc78357c-6d48-499c-9cc7-dae447d0d391
 description: "In SharePoint Online, if you share with a user who is not in the directory, they are sent a one-time code that they can use to verify their identity."
 ---

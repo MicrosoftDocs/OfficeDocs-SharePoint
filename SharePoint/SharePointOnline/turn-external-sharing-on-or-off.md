@@ -6,30 +6,30 @@ manager: pamgreen
 ms.audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Normal
-ms.collection: Strat_OD_share
+localization_priority: Priority
+ms.collection:  
+- Strat_OD_share
+- M365-collaboration
 search.appverid:
 - SPO160
 - MET150
 ms.assetid: 6288296a-b6b7-4ea4-b4ed-c297bf833e30
-description: "Learn how to turn sharing on and off for SharePoint Online."
+description: "Learn how to change your SharePoint sharing settings."
 ---
 
 # Turn external sharing on or off for SharePoint Online
 
-If you're working with vendors, clients, or customers outside of your organization, you might want to give them access to specific sites, folders, or files. In this article, we'll show you how to turn sharing on or off sharing for SharePoint Online. You must be a global or SharePoint admin in Office 365 to do this.
+If you're working with vendors, clients, or customers outside of your organization, you might want to give them access to specific sites, folders, or files. In this article, we'll show you how to set your organization-level external sharing setting for SharePoint Online. You must be a global or SharePoint admin in Office 365 to do this.
   
-External sharing is controlled at both the organization level (global settings that affect all of SharePoint Online) and the site collection level. The organization-level settings determine what options are available at the site collection level.
-  
-The external sharing settings for individual site collections cannot be *less* restrictive than whatever is allowed at the organization level, but these settings can be *more* restrictive. For example, if external sharing is turned on at the organization level, but it is limited to allowing only authenticated users, then that will be the only kind of external sharing you can allow in a specific site collection. If external sharing through both sign-in and anonymous access links is allowed at the organization level, then those options are also available for each site collection. 
+External sharing is controlled at both the organization level and the site collection level. The organization-level settings determine what options are available at the site collection level. The external sharing settings for individual site collections can be more restrictive than whatever is allowed at the organization level, but these settings can't be more permissive. 
 
-For info about turning external sharing on or off for a site collection, see [Change the external sharing setting for a site](change-external-sharing-site.md).
+For info about changing the external sharing setting for a site collection, see [Change the external sharing setting for a site](change-external-sharing-site.md).
   
  
 ## Change the organization-level external sharing setting
 <a name="__turn_external_sharing"> </a>
 
-When sharing is turned on at the organization level, it can be allowed at the site collection level.  
+When you turn on external sharing at the organization level, you can turn it on for the sites you want.  
   
 1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
@@ -51,7 +51,7 @@ When sharing is turned on at the organization level, it can be allowed at the si
 |**Anyone, including anonymous users** <br/> (Optionally, you can set links to expire in a specific number of days, and select how recipients can use the links .)  <br/> | Allow site users to share sites with people who sign in as authenticated users, but you also want to allow site users to share documents through the use of anonymous access links, which do not require invited recipients to sign in.  <br/>  Site owners or others with full control permissions can share sites with external users.  <br/>  All external users will be required to sign in before they can view content on a site that has been shared.  <br/>  When sharing documents, site owners or others with full control permissions can opt to require sign-in or send an anonymous access link.  <br/>  When users share a document, they can grant external users either view or edit permissions to the document.  <br/>  External users who receive anonymous access links can view or edit that content without signing in.  <br/>  Anonymous access links could potentially be forwarded or shared with other people, who might also be able to view or edit the content without signing in.  <br/> |
 
 > [!NOTE]
->  If you turn off external sharing for your entire environment and later turn it back on, external users who previously had access to content or documents on sites will regain access to them. If you know that external sharing was previously turned on and in use for specific site collections and you do not want external users to be able to regain access if external sharing is ever turned on again globally, we recommend that you first turn off external sharing for those specific site collections.<br><br> If you disable external access, or limit external access to a more restrictive form, external users will typically lose access within one hour of the change. If you disable external access, access to resources will also be blocked to guests in Office 365 Groups. 
+>  If you turn off external sharing for your entire organization and later turn it back on, external users who previously had access to content or documents on sites will regain access to them. If you know that external sharing was previously turned on and in use for specific site collections and you do not want external users to be able to regain access if external sharing is ever turned on again globally, we recommend that you first turn off external sharing for those specific site collections.<br><br> If you disable external access, or limit external access to a more restrictive form, external users will typically lose access within one hour of the change. If you disable external access, access to resources will also be blocked to guests in Office 365 Groups. 
 
 ## Additional settings
 
@@ -68,7 +68,7 @@ To specify additional sharing settings, go to the classic SharePoint admin cente
 
 **Specify who can share outside your organization**
 
-You can manage who can send sharing invitations to external users by limiting such sharing to members of a specified security group. Select  **Let only users in selected security groups share with authenticated external users** or **Let only users in selected security groups share with authenticated external users and using anonymous links** and specify the security group that you want to use.
+You can manage who can send sharing invitations to external users by limiting such sharing to members of a specified security group. Select  **Let only users in selected security groups share with authenticated external users** or **Let only users in selected security groups share with authenticated external users and using anonymous links** and specify any security group in your organization. The full list of available security groups could be found [here](https://admin.microsoft.com/adminportal/home?ref=groups). 
 
 ![Screenshot of settings for who can share outside your organization](media/WhoCanShareOutsideYourOrganization.png)
 
@@ -93,6 +93,8 @@ When you choose to allow users to share outside your organization, you have some
  **Prevent external users from sharing files, folders, and sites they don't own**: External users cannot share anything they don't own with anyone else. 
   
  **External users must accept sharing invitations using the same account that the invitations were sent to**: External users cannot use a different account than the one that the sharing invitation was sent to get access. 
+ 
+ **Require recipients to continually prove account ownership when they access shared items**: External users should re-authenticate every time when they access shared items. 
   
  **Notifications**
   
