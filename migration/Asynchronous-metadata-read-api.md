@@ -43,7 +43,6 @@ A migration performance study identified four areas where CSOM calls are heavily
 
 The migration asynchronous metadata read API aims to reduce the CSOM calls in areas: incremental migration, after migration verification and permission settings and potentially other use cases. 
 
-### New Migration Asynchronous Read API: 
 
 The new Migration Asynchronous Read API is:</br>
 
@@ -70,7 +69,7 @@ Only the root URL needs to be specified.  It is sent as a single read request.
 > [!Note]
 >The first version of the asyncMigrationRead supports files, folders, lists, list items, and the document library. Permission are expected to be covered in second version. The third version will extend to cover webpart and potentially taxonomy. 
 
-#### Corner Cases for URL 
+### Corner Cases for URL 
 
 #### Unsupported Type
 If an unsupported type is detected, the read operation for that URL will not be executed and an error information will be logged, but the rest of the supported URL will still be executed.
