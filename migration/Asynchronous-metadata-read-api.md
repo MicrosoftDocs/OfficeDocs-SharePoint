@@ -44,7 +44,7 @@ A migration performance study identified four areas where CSOM calls are heavily
 The migration asynchronous metadata read API aims to reduce the CSOM calls in areas: incremental migration, after migration verification and permission settings and potentially other use cases. 
 
 ### New Migration Asynchronous Read API: 
-> ![New]
+> [!]
 >The new Migration Asynchronous Read API is:</br>
 >
 >**public List <SPAsyncReadJobInfo> CreateSPAsyncReadJob(Uri url, SPAsyncReadOptions options)**
