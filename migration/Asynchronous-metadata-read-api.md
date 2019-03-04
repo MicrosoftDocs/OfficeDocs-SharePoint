@@ -56,9 +56,9 @@ To eliminate unnecessary reads, changeToken is being introduced.  It will read t
 > [!Note]
 >The Asynchronous Metadata Read API returns only metadata; no file or object transfer takes place.
 
-## Input Parameters
+### Input Parameters
 
-### URL 
+#### URL 
 The URL lets your migration tool to specify the root URL path of the SharePoint objects to be read.  The server-side code will read and return all the metadata of subfolders, files, and lists of that root URL.
 
 *Example:* 
@@ -72,7 +72,7 @@ Only the root URL needs to be specified.  It is sent as a single read request.
 
 #### Corner Cases for URL 
 
-### Unsupported Type
+#### Unsupported Type
 If an unsupported type is detected, the read operation for that URL will not be executed and an error information will be logged, but the rest of the supported URL will still be executed.
 
 *Example:* 
