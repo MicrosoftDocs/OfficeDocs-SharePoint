@@ -16,8 +16,9 @@ description: "Migration Asynchronous Metadata Read API"
 
 # Migration Asynchronous Metadata Read API
 
-> [!Important] This is a preliminary beta trial and not a full production release, hence not all features are tested and verified. Feature is subject to change.
->
+> [!Important]
+>This is a preliminary beta trial and not a full production release, hence not all features are tested and verified. Feature is subject to change.
+
  
 
 ## Overview
@@ -43,15 +44,17 @@ A migration performance study identified four areas where CSOM calls are heavily
 The migration asynchronous metadata read API aims to reduce the CSOM calls in areas: incremental migration, after migration verification and permission settings and potentially other use cases. 
 
 ### New Migration Asynchronous Read API: 
-> ![New] The new Migration Asynchronous Read API is:</br>
+> ![New]
+>The new Migration Asynchronous Read API is:</br>
 >
->*public List <SPAsyncReadJobInfo> CreateSPAsyncReadJob(Uri url, SPAsyncReadOptions options)*
+>**public List <SPAsyncReadJobInfo> CreateSPAsyncReadJob(Uri url, SPAsyncReadOptions options)**
 
 The API is made up of two input parameters, a URL, an Optional Flag, and one output structure field. 
 Currently, all items specified in the URL are queried. This often results in unnecessary reads and creates an extra load to the database especially if your migration tool only wants to know the delta (e.g. incremental migration)
-To eliminate unnecessary reads, changeToken is being introduced.  It will read the metadata of specified duration. Only the objects specified in the changeToken range is read. ChangeToken may not be supported be supported for the release, . 
+To eliminate unnecessary reads, changeToken is being introduced.  It will read the metadata of specified duration. Only the objects specified in the changeToken range is read. ChangeToken may not be supported be supported for the first release. 
 
-> [!Note] The Asynchronous Metadata Read API returns only metadata; no file or object transfer takes place.
+> [!Note]
+>The Asynchronous Metadata Read API returns only metadata; no file or object transfer takes place.
 
 ## Input Parameters
 
@@ -64,7 +67,8 @@ https://www.contoso.com/my-resource-document/file1.doc or
 https://www.contoso.com/my-resource-document/folderA/file2.doc 
 Only the root URL needs to be specified.  It is sent as a single read request.
 
-> [!Note]The first version of the asyncMigrationRead supports files, folders, lists, list items, and the document library. Permission are expected to be covered in second version. The third version will extend to cover webpart and potentially taxonomy. 
+> [!Note]
+>The first version of the asyncMigrationRead supports files, folders, lists, list items, and the document library. Permission are expected to be covered in second version. The third version will extend to cover webpart and potentially taxonomy. 
 
 #### Corner Cases for URL 
 
