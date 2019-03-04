@@ -161,7 +161,7 @@ It returns the AES256CBC encryption key used to decrypt the message in azureMani
 |JobQueueUri|URL for accessing Azure queue used for returning notification of migration job process|
 |EncryptionKey|AES256CBC encryption key used to decrypt messages from job/manifest queue|
 
-### Set up Guidelines
+## Set up Guidelines
 The following provides high level guidelines for implementing the asynchronous metadata migration function. This documentation does not go into details on how to interact with SharePoint RESTful service. It is assumed that the ISV has prior knowledge and will be able to access the target website with proper permission. For more information on how to access the Sharepoint website , please refer to https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/get-to-know-the-sharepoint-rest-service
 
 1. Install and update the latest Microsoft.SharePointOnline.CSOM version. The minimum version requirement is V16.1.8600 or later.
@@ -169,11 +169,11 @@ The following provides high level guidelines for implementing the asynchronous m
 3. Once successfully created, query the job status using the *jobQueueUri*. It provides the job process status and any error logging. After job completion, parse the Manifest to retrieve the metadata.
 
 
-### Metadata Support
+## Metadata Support
 
 We will be continually adding to the metadata fields that are available in the asynchronous read.  We will attempt  to provide metadata that is common to most ISVs. However, for the initial release only a limited set of metadata will be provided.  We will continue to work with ISV and add more as needed.
 
-### Limitations
+## Limitations
 For the first release, the limits for all supported migration will cap at 1 million. The 1 million count includes items such as role assignment and alerts. The only exception is for multiple versions of a single file, which will count as one. More information will be provided in future update.</br>
 
 By default, each URL supports up to 1 million limits. At the start of the migration, the asynchronous read migration function will check. If more than 1 million is detected an error will be thrown. The 1 million count includes items such as role assignment, alert but does not include versions. Multiple versions of a single file will count as one. (More information will be provided in future update). 
@@ -188,7 +188,7 @@ By default, each URL supports up to 1 million limits. At the start of the migrat
 |Users|2 million per site collection|1 million|Per site collection. This is only supported in a future permission setting.|
 
 
-### Performance Expectation
+## Performance Expectation
 The preliminary performance test provides a rough estimate of 300-400 items per second throughput. This does not account for any potential throttle over the network. If the read asynchronous function fails to reach the server due to throttling, then the performance will be reduced. 
 At the start of read asynchronous migration, there will be an overhead as the server calculates the number of objects to confirm that it is within the 1 million object limit. Therefore, the throughput for a small number of objects (e.g. 100 objects) is less than if 100,000 objects are migrated.
 
