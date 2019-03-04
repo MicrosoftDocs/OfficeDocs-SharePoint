@@ -15,6 +15,11 @@ description: "Migration Asynchronous Metadata Read API"
 ---
 
 # Migration Asynchronous Metadata Read API
+
+> [!Important] This is a preliminary beta trial and not a full production release, hence not all features are tested and verified. Feature is subject to change.
+>
+ 
+
 ## Overview
 The goal of the new Migration Asynchronous Metadata Read API is to reduce the number of CSOM calls by 50% or more, reduce throttling, reduce the cost to the database, and improve overall migration performance. 
 The new Migration Asynchronous Read API lets your tools perform a read operation of a provided URL. The Microsoft backend software then queries the database with the specified URL and its subdirectories aggregates all the information into a designated manifest. The ISV can read back from the manifest and parse the metadata without sending thousands of CSOM calls individually.
@@ -44,11 +49,11 @@ The migration asynchronous metadata read API aims to reduce the CSOM calls in ar
 
 The API is made up of two input parameters, a URL, an Optional Flag, and one output structure field. 
 Currently, all items specified in the URL are queried. This often results in unnecessary reads and creates an extra load to the database especially if your migration tool only wants to know the delta (e.g. incremental migration)
-To eliminate unnecessary reads, changeToken is being introduced.  It will read the metadata of specified duration. Only the objects specified in the changeToken range is read. (Note: changeToken may not be supported for the first release). 
+To eliminate unnecessary reads, changeToken is being introduced.  It will read the metadata of specified duration. Only the objects specified in the changeToken range is read. ChangeToken may not be supported be supported for the release, . 
 
 > [!Note] The Asynchronous Metadata Read API returns only metadata; no file or object transfer takes place.
 
-### Input Parameters
+## Input Parameters
 
 ### URL 
 The URL lets your migration tool to specify the root URL path of the SharePoint objects to be read.  The server-side code will read and return all the metadata of subfolders, files, and lists of that root URL.
@@ -61,7 +66,7 @@ Only the root URL needs to be specified.  It is sent as a single read request.
 
 > [!Note]The first version of the asyncMigrationRead supports files, folders, lists, list items, and the document library. Permission are expected to be covered in second version. The third version will extend to cover webpart and potentially taxonomy. 
 
-## Corner Cases for URL 
+#### Corner Cases for URL 
 
 ### Unsupported Type
 If an unsupported type is detected, the read operation for that URL will not be executed and an error information will be logged, but the rest of the supported URL will still be executed.
@@ -70,22 +75,22 @@ If an unsupported type is detected, the read operation for that URL will not be 
 In this example, URL A is the taxonomy and URL B is a file. 
 URL A will fail with an error until we support taxonomy. The error will be logged, but URL B will be executed.
 
-### Duplication
+#### Duplication
 If your migration tool passes duplicate URLs. 
 Example:
 In this example, URL A is link A and URL B is also link A. 
 Given URL A and URL B are sent in two different packets, the server code will execute both despite the fact they both pointed to the same root URL. The user has the option to cancel the second job. 
 
-### Unidentified URL
+#### Unidentified URL
 If your migration tool passes an incorrect, NULL, or unidentified URL, an error will be generated for that URL.
 
-### No Content to Read back 
+#### No Content to Read back 
 If the root site is empty and there is nothing to read back, the Asynchronous Read function will not return an error but no content will be recorded in the manifest.
 
-### Special Character 
+#### Special Character 
 If there are special characters in the URL, please use the escape character to circumvent the problem.
 
-### Optional Flag 
+#### Optional Flag 
 The read asynchronous function will include the SPAsyncReadOptions structure which covers the optional flags to allow the user to specify version and security setting on the site level more is described below.
 
 #### IncludeVersions 
@@ -101,11 +106,11 @@ This flag indicates whether to include all user or group information from a site
 The changeToken takes in a DateTime parameter. If specified, only the modified date larger than the ChangeToken will be exported. If Null, everything will be exported. ChangeToken can also be specified in past time ranges. This means both the start time and the end time needs to be less than the present time. If use in this format, the read asynchronous API will only read back the items that are specified within the time range.
 To maintain consistency, dateTime will be based on UTC time. The change token will be compared based off the last modified time of an object type (e.g. file/folder or list item). If last modified time attribute is not supported, the object will be read by default.
 
-## Corner Cases for ChangeToken
+#### Corner Cases for ChangeToken
 ### Invalid Time Format 
 If an invalid time format is detected, other than NULL, an error will be generated, and the operation will be terminated. 
 
-### Invalid Time Range 
+#### Invalid Time Range 
 If Invalid time range is detected. For example, the user specified start time in past but end time in future, an error will be thrown and not read will take place.
 
 ### Time Provided Larger than Present
@@ -152,6 +157,14 @@ It returns the AES256CBC encryption key used to decrypt the message in azureMani
 |JobQueueUri|URL for accessing Azure queue used for returning notification of migration job process|
 |EncryptionKey|AES256CBC encryption key used to decrypt messages from job/manifest queue|
 
+## Set up Guidelines
+The following provides high level guidelines for implementing the asynchronous metadata migration function. This documentation does not go into details on how to interact with SharePoint RESTful service. It is assumed that the ISV has prior knowledge and will be able to access the target website with proper permission. For more information on how to access the Sharepoint website , please refer to https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/get-to-know-the-sharepoint-rest-service
+
+1. Install and update the latest Microsoft.SharePointOnline.CSOM version. The minimum version requirement is V16.1.8600 or later.
+2. ISVs figure out the folder, document library or files of interested to be query and issued with CreateSPAsyncReadJob function. 
+3. Once successfully created, query the job status using the *jobQueueUri*. It provides the job process status and any error logging. After job completion, parse the Manifest to retrieve the metadata.
+
+
 ## Metadata Support
 
 We will be continually adding to the metadata fields that are available in the asynchronous read.  We will attempt  to provide metadata that is common to most ISVs. However, for the initial release only a limited set of metadata will be provided.  We will continue to work with ISV and add more as needed.
@@ -175,10 +188,4 @@ By default, each URL supports up to 1 million limits. At the start of the migrat
 The preliminary performance test provides a rough estimate of 300-400 items per second throughput. This does not account for any potential throttle over the network. If the read asynchronous function fails to reach the server due to throttling, then the performance will be reduced. 
 At the start of read asynchronous migration, there will be an overhead as the server calculates the number of objects to confirm that it is within the 1 million object limit. Therefore, the throughput for a small number of objects (e.g. 100 objects) is less than if 100,000 objects are migrated.
 
-## Set up Guidelines
-The following provides high level guidelines for implementing the asynchronous metadata migration function. This documentation does not go into details on how to interact with SharePoint RESTful service. It is assumed that the ISV has prior knowledge and will be able to access the target website with proper permission. For more information on how to access the Sharepoint website , please refer to https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/get-to-know-the-sharepoint-rest-service
-
-1. Install and update the latest Microsoft.SharePointOnline.CSOM version. The minimum version requirement is V16.1.8600 or later.
-2. ISVs figure out the folder, document library or files of interested to be query and issued with CreateSPAsyncReadJob function. 
-3. Once successfully created, query the job status using the *jobQueueUri*. It provides the job process status and any error logging. After job completion, parse the Manifest to retrieve the metadata.
 
