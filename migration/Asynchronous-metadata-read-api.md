@@ -55,9 +55,9 @@ To eliminate unnecessary reads, changeToken is being introduced.  It will read t
 > [!Note]
 >The Asynchronous Metadata Read API returns only metadata; no file or object transfer takes place.
 
-### Input Parameters
+## Input Parameters
 
-#### URL 
+### URL 
 The URL lets your migration tool to specify the root URL path of the SharePoint objects to be read.  The server-side code will read and return all the metadata of subfolders, files, and lists of that root URL.
 
 *Example:*</br></br> 
@@ -69,54 +69,54 @@ Only the root URL needs to be specified.  It is sent as a single read request.
 > [!Note]
 >The first version of the asyncMigrationRead supports files, folders, lists, list items, and the document library. Permission are expected to be covered in second version. The third version will extend to cover webpart and potentially taxonomy. 
 
-### Corner Cases for URL 
+#### Corner Cases for URL
 
-#### Unsupported Type
+##### Unsupported Type
 If an unsupported type is detected, the read operation for that URL will not be executed and an error information will be logged, but the rest of the supported URL will still be executed.
 
 *Example:* 
 In this example, URL A is the taxonomy and URL B is a file. 
 URL A will fail with an error until we support taxonomy. The error will be logged, but URL B will be executed.
 
-#### Duplication
+##### Duplication
 If your migration tool passes duplicate URLs. 
 Example:
 In this example, URL A is link A and URL B is also link A. 
 Given URL A and URL B are sent in two different packets, the server code will execute both despite the fact they both pointed to the same root URL. The user has the option to cancel the second job. 
 
-#### Unidentified URL
+##### Unidentified URL
 If your migration tool passes an incorrect, NULL, or unidentified URL, an error will be generated for that URL.
 
-#### No Content to Read back 
+##### No Content to Read back 
 If the root site is empty and there is nothing to read back, the Asynchronous Read function will not return an error but no content will be recorded in the manifest.
 
-#### Special Character 
+##### Special Character 
 If there are special characters in the URL, please use the escape character to circumvent the problem.
 
-#### Optional Flag 
+##### Optional Flag 
 The read asynchronous function will include the SPAsyncReadOptions structure which covers the optional flags to allow the user to specify version and security setting on the site level more is described below.
 
-#### IncludeVersions 
+##### IncludeVersions 
 { get; set; }</br>
 If set, this indicates all the files and list item version history is to be included in the export operation. If absent, only the default version is provided
 
-#### IncludeSecurity
+##### IncludeSecurity
  { get; set; }</br>
 This flag indicates whether to include all user or group information from a site. By default, it assumes the security is not set, hence no user or group information is provided.
 
-#### ChangeToken (TBD, not supported in first release)
+### ChangeToken (TBD, not supported in first release)
 
 The changeToken takes in a DateTime parameter. If specified, only the modified date larger than the ChangeToken will be exported. If Null, everything will be exported. ChangeToken can also be specified in past time ranges. This means both the start time and the end time needs to be less than the present time. If use in this format, the read asynchronous API will only read back the items that are specified within the time range.
 To maintain consistency, dateTime will be based on UTC time. The change token will be compared based off the last modified time of an object type (e.g. file/folder or list item). If last modified time attribute is not supported, the object will be read by default.
 
 #### Corner Cases for ChangeToken
-### Invalid Time Format 
+##### Invalid Time Format 
 If an invalid time format is detected, other than NULL, an error will be generated, and the operation will be terminated. 
 
-#### Invalid Time Range 
+##### Invalid Time Range 
 If Invalid time range is detected. For example, the user specified start time in past but end time in future, an error will be thrown and not read will take place.
 
-### Time Provided Larger than Present
+#### Time Provided Larger than Present
 If end time provided is larger than present time, an error is also expected to be generated and no content migration will take place.
 
 ## Output Parameters
