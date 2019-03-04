@@ -67,7 +67,7 @@ https://www.contoso.com/my-resource-document/folderA/file2.doc
 Only the root URL needs to be specified.  It is sent as a single read request.
 
 > [!Note]
->The first version of the asyncMigrationRead supports files, folders, lists, list items, and the document library. Permission are expected to be covered in second version. The third version will extend to cover webpart and potentially taxonomy. 
+>The first version of the AsyncMigrationRead supports files, folders, lists, list items, and the document library. Permission are expected to be covered in second version. The third version will extend to cover webpart and potentially taxonomy. 
 
 #### Corner Cases for URL
 
