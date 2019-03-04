@@ -46,7 +46,7 @@ The migration asynchronous metadata read API aims to reduce the CSOM calls in ar
 
 The new Migration Asynchronous Read API is:</br>
 
-    **public List <SPAsyncReadJobInfo> CreateSPAsyncReadJob(Uri url, SPAsyncReadOptions options)**
+   **public List <SPAsyncReadJobInfo> CreateSPAsyncReadJob(Uri url, SPAsyncReadOptions options)**
 
 The API is made up of two input parameters, a URL, an Optional Flag, and one output structure field. 
 Currently, all items specified in the URL are queried. This often results in unnecessary reads and creates an extra load to the database especially if your migration tool only wants to know the delta (e.g. incremental migration)
