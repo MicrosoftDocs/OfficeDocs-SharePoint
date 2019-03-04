@@ -85,21 +85,25 @@ $rgName="<your resource group name>"
 Get-AzureRmSubscription -SubscriptionName $subscrName | Select-AzureRmSubscription
 # Get the Azure location
 $sa=Get-AzureRMStorageaccount | where {$_.ResourceGroupName -eq $rgName}
+# Get the Azure location and storage account name
+$locName=(Get-AzureRmResourceGroup -Name $rgName).Location
+# Set the virtual network name
+$netName = 'XPrem'
 # Create an availability set for SQL Server virtual machines
 New-AzureRMAvailabilitySet -ResourceGroupName $rgName -Name sqlAvailabilitySet -Location $locName -Sku Aligned  -PlatformUpdateDomainCount 5 -PlatformFaultDomainCount 2
 # Create the SQL Server virtual machine
 $vmName="SQL1"
 $vmSize="Standard_D3_V2"
-$vnet=Get-AzureRMVirtualNetwork -Name "XPrem" -ResourceGroupName $rgName
+$vnet=Get-AzureRMVirtualNetwork -Name $netName -ResourceGroupName $rgName
 $nicName=$vmName + "-NIC"
 $pipName=$vmName + "-PIP"
 $pip=New-AzureRMPublicIpAddress -Name $pipName -ResourceGroupName $rgName -Location $locName -AllocationMethod Dynamic
 $nic=New-AzureRMNetworkInterface -Name $nicName -ResourceGroupName $rgName -Location $locName -SubnetId $vnet.Subnets[0].Id -PublicIpAddressId $pip.Id -PrivateIpAddress "192.168.0.10"
 $avSet=Get-AzureRMAvailabilitySet -Name sqlAvailabilitySet -ResourceGroupName $rgName 
 $vm=New-AzureRMVMConfig -VMName $vmName -VMSize $vmSize -AvailabilitySetId $avSet.Id
-$vm=Set-AzureRmVMOSDisk -VM $vm -Name ($vmName +"-OS") -DiskSizeInGB 128 -CreateOption FromImage -StorageAccountType "StandardLRS"
+$vm=Set-AzureRmVMOSDisk -VM $vm -Name ($vmName +"-OS") -DiskSizeInGB 128 -CreateOption FromImage -StorageAccountType Standard_LRS
 $diskSize=100
-$diskConfig=New-AzureRmDiskConfig -AccountType "StandardLRS" -Location $locName -CreateOption Empty -DiskSizeGB $diskSize
+$diskConfig=New-AzureRmDiskConfig -AccountType Standard_LRS -Location $locName -CreateOption Empty -DiskSizeGB $diskSize
 $dataDisk1=New-AzureRmDisk -DiskName ($vmName + "-SQLData") -Disk $diskConfig -ResourceGroupName $rgName
 $vm=Add-AzureRmVMDataDisk -VM $vm -Name ($vmName + "-SQLData") -CreateOption Attach -ManagedDiskId $dataDisk1.Id -Lun 1
 $cred=Get-Credential -Message "Type the name and password of the local administrator account of the SQL Server computer." 
@@ -226,7 +230,7 @@ $cred=Get-Credential -Message "Type the name and password of the local administr
 $vm=Set-AzureRMVMOperatingSystem -VM $vm -Windows -ComputerName $vmName -Credential $cred -ProvisionVMAgent -EnableAutoUpdate
 $vm=Set-AzureRMVMSourceImage -VM $vm -PublisherName $pubName -Offer $offerName -Skus $skuName -Version "latest"
 $vm=Add-AzureRMVMNetworkInterface -VM $vm -Id $nic.Id
-$vm=Set-AzureRmVMOSDisk -VM $vm -Name "DC1-OS" -DiskSizeInGB 128 -CreateOption FromImage -StorageAccountType "StandardLRS"
+$vm=Set-AzureRmVMOSDisk -VM $vm -Name "SP1-OS" -DiskSizeInGB 128 -CreateOption FromImage -StorageAccountType Standard_LRS
 New-AzureRMVM -ResourceGroupName $rgName -Location $locName -VM $vm
 
 ```

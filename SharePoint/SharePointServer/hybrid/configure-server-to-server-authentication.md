@@ -26,7 +26,7 @@ description: "Learn how to build a server-to server trust between SharePoint Ser
  **This article is part of a roadmap of procedures for configuring SharePoint hybrid solutions. Be sure you're [following a roadmap](configuration-roadmaps.md) when you do the procedures in this article. **
 
 > [!NOTE] 
-> We recommend using the [SharePoint Hybrid Picker](hybrid-picker-in-the-sharepoint-online-admin-center.md) to establish the Server-to-Server authentication between SharePoint Server and SharePoint Online.
+> We recommend using the [SharePoint Hybrid Picker](hybrid-picker-in-the-sharepoint-online-admin-center.md) to establish the Server-to-Server authentication between SharePoint Server and SharePoint Online. If you are unable to use the Hybrid Picker for any reason, follow the steps in this article to enable server-to-server authentication.
 
 ## Configure server-to-server authentication
 
