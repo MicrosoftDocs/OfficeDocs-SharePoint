@@ -28,7 +28,7 @@ The new Migration Asynchronous Read API lets your tools perform a read operation
 
 This document targets ISVs and any third party vendors/developers who is developing and maintaining migration tool.
 
-## Background:
+### Background:
 Currently, the SharePoint Online Migration API, CreateMigrationJob, lets your migration tool efficiently migrate large amounts data to SharePoint Online. However, the lack of an official API to read content from SharePoint Online means that these tools must rely on CSOM function calls to perform individual metadata read operations. 
 </br>
 Large numbers of CSOM calls increase the likelihood of throttling which impacts migration performance and customer experience. Ineffective CSOM usage results in large SQL round trip per function calls that can potentially bring down the database and impact its reliability.
@@ -61,7 +61,7 @@ To eliminate unnecessary reads, changeToken is being introduced.  It will read t
 #### URL 
 The URL lets your migration tool to specify the root URL path of the SharePoint objects to be read.  The server-side code will read and return all the metadata of subfolders, files, and lists of that root URL.
 
-*Example:* 
+*Example:*</br></br> 
 This document library URL: https://www.contoso.com/my-resource-document/ will be read back for any files or folder that shares the same root URL, or supporting content.
 https://www.contoso.com/my-resource-document/file1.doc or 
 https://www.contoso.com/my-resource-document/folderA/file2.doc 
