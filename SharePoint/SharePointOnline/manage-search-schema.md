@@ -2,9 +2,9 @@
 title: "Manage the search schema in SharePoint Online"
 ms.author: tlarsen
 author: tklarsen
+ms.author: tlarsen
 manager: arnek
-ms.date: 2/21/2018
-ms.audience: End User
+ms.audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
@@ -12,6 +12,7 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: d4fab46d-ba41-4c03-9d4c-32b5b33198b6
+ms.collection: M365-collaboration
 description: "Learn about the search schema and how you can view, create, or change managed properties, and map crawled properties to managed properties to create a customized search experience."
 ---
 
