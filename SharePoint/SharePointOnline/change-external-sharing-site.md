@@ -19,7 +19,7 @@ description: "Learn how to change the external sharing setting for a site."
 
 # Turn external sharing on or off for a site
 
-You must be a global or SharePoint admin in Office 365 to change the external sharing setting for a site collection. Site collection administrators are not allowed to change this setting.
+You must be a global or SharePoint admin in Office 365 to change the external sharing setting for a site (site collection). Site collection administrators are not allowed to change this setting.
   
 Note that this procedure applies to classic sites, communication sites, and new team sites. To learn how to change the external sharing setting for a user's OneDrive, see [Change the external sharing setting for a user's OneDrive](/onedrive/user-external-sharing-settings). For info about changing your organization-level settings, see [Turn external sharing on or off for SharePoint Online](turn-external-sharing-on-or-off.md).
   
@@ -45,14 +45,14 @@ Note that this procedure applies to classic sites, communication sites, and new 
 |Anyone  <br/> | Allow site users to share sites with people who sign in as authenticated users, but you also want to allow site users to share documents through the use of anonymous guest links, which do not require invited recipients to sign in.  <br/>  Site owners or others with full control permissions can share sites with external users.  <br/>  All external users will be required to sign in before they can view content on a site that has been shared.  <br/>  When sharing documents, site owners or others with full control permissions can opt to require sign-in or send an anonymous guest link.  <br/>  When users share a document, they can grant external users either view or edit permissions to the document.  <br/>  External users who receive anonymous guest links can view or edit that content without signing in.  <br/>  Anonymous guest links could potentially be forwarded or shared with other people, who might also be able to view or edit the content without signing in.  <br/> |
 |New and existing external users  <br/> | Require external users who have received invitations to view sites or content to sign-in with a Microsoft account before they can access the content.  <br/>  Site owners or others with full control permission can share sites with external users.  <br/>  Site owners or others with full control permissions on a site can share documents with external users by requiring sign-in.  <br/>  All external users will be required to sign in before they can view content.  <br/>  Invitations to view content can be redeemed only once. After an invitation has been accepted, it cannot be shared or used by others to gain access.  <br/> |
 |Existing external users  <br/> |Allow sharing only for external users who are already in your directory. These users may exist in your directory because they previously accepted sharing invitations or because they were [manually added](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal). (You can tell an external user because they have **#EXT#** in their user name.)  <br/> |
-|Only people in current organization  <br/> |Prevent all users on all sites from sharing sites or sharing content on sites with external users. Users will not be able to share sites or content with external users, even if those users are already in your directory. (This is the default setting for new classic site collections.)  <br/> |
+|Only people in current organization  <br/> |Prevent all users on all sites from sharing sites or sharing content on sites with external users. Users will not be able to share sites or content with external users, even if those users are already in your directory. (This is the default setting for new classic sites.)  <br/> |
 
 
 The settings available are dependent on your organization-level setting. If you enable external sharing for a site and it is later turned off for your organization, external sharing will become unavailable at the site level and any shared links will stop working. If it is turned back on for the organization, the site sharing setting will return to what it was before and the shared links will resume working.
 
 
 > [!NOTE]
-> You might have site content shared with an Office 365 group that has guest members, and the group settings prevent guest members from accessing group resources. In this case, even if you turn on external sharing for the site collection, guests of the group may not be able to access site content. To enable or disable Office 365 Group guest member access, see [Manage guest access in Office 365 Groups](/office365/admin/create-groups/manage-guest-access-in-groups).
+> You might have site content shared with an Office 365 group that has guest members, and the group settings prevent guest members from accessing group resources. In this case, even if you turn on external sharing for the site, guests of the group may not be able to access site content. To enable or disable Office 365 Group guest member access, see [Manage guest access in Office 365 Groups](/office365/admin/create-groups/manage-guest-access-in-groups).
   
 ## See also
 

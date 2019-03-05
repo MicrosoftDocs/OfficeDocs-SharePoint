@@ -28,7 +28,7 @@ As a SharePoint or global admin in Office 365, you can block or limit access to 
   
 - All users in the organization or only some users or security groups.
     
-- All sites in the organization or only some site collections.
+- All sites in the organization or only some sites.
     
 Blocking access helps provide security but comes at the cost of usability and productivity. When access is blocked, users will see the following error.
 
@@ -167,7 +167,7 @@ If you go to the Azure AD admin center and slect **Conditional access**, you can
 > [!NOTE]
 > By default, this policy allows users to view and edit files in their web browser. To change this, see [Advanced configurations](control-access-from-unmanaged-devices.md#advanced). 
   
-## Block or limit access to a specific SharePoint site collection or OneDrive 
+## Block or limit access to a specific SharePoint site or OneDrive 
 
 To block or limit access to specific sites, you must set the organization-wide policy to "Allow full access from desktop apps, mobile apps, and the web." Then follow these steps to manually create a policy in the Azure AD admin center and run PowerShell cmdlets.
   
@@ -194,7 +194,7 @@ To block or limit access to specific sites, you must set the organization-wide p
     To limit access, run  `Set-SPOSite -Identity https://<SharePoint online URL>/sites/<name of site collection or OneDrive account> -ConditionalAccessPolicy AllowLimitedAccess`.
     
 > [!NOTE]
-> The site collection-level setting must be at least as restrictive as the organization-wide setting. <br>By default, this policy allows users to view and edit files in their web browser. To change this, see [Advanced configurations](control-access-from-unmanaged-devices.md#advanced). 
+> The site-level setting must be at least as restrictive as the organization-level setting. <br>By default, this policy allows users to view and edit files in their web browser. To change this, see [Advanced configurations](control-access-from-unmanaged-devices.md#advanced). 
   
 ## Advanced configurations
 <a name="advanced"> </a>
@@ -216,7 +216,7 @@ External users will be affected when you use conditional access policies to bloc
  `Set-SPOTenant -ApplyAppEnforcedRestrictionsToAdHocRecipients $false`
   
 > [!NOTE]
-> Anonymous access links (shareable links that don't require sign-in) are not affected by these policies. Anyone who has an anonymous access link to an item will be able to download the item. For all site collections where you enable conditional access policies, you should disable anonymous access links. 
+> Anonymous access links (shareable links that don't require sign-in) are not affected by these policies. Anyone who has an anonymous access link to an item will be able to download the item. For all sites where you enable conditional access policies, you should disable anonymous access links. 
   
 ## App impact
 

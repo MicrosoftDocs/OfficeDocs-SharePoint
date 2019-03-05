@@ -36,22 +36,46 @@ When you turn on external sharing at the organization level, you can turn it on 
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
 
-2. In the left pane, under **Settings**, select **Services &amp; add-ins**. (You might need to select **Show all** to see the Settings option.) 
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
 
-3. Select **Sites**.
+3. If the classic SharePoint admin center appears, select **Try it now** to open the new SharePoint admin center. 
 
-4. To turn off external sharing, clear the box **Let users share SharePoint Online and OneDrive content with people outside the organization**. To turn it on, select the box and then select a subsetting. When you're done, select **Save changes**.
+4. In the left pane of the new SharePoint admin center, under **Policies**, select **Sharing**.
+
+5. Under **External sharing**, specify your sharing level for SharePoint and OneDrive.
+
+> [!NOTE]
+>  The SharePoint setting applies to all site types, including those connected to Office 365 groups. <br> The OneDrive setting can be more restrictive than the SharePoint setting, but not more permissive. <br> The SharePoint external sharing setting on this page is the same as the one in the Microsoft 365 admin center, under **Settings** \> **Services & add-ins** \> **Sites**. The external sharing settings on this page are also the same as those in the OneDrive admin center. 
   
 ### Which option to select...
 
 |**Select this option:**|**If you want to:**|
 |:-----|:-----|
-|**Only existing external users (sign-in required)** <br/> |Allow sharing only for external users who are already in your directory. These users may exist in your directory because they previously accepted sharing invitations or because they were manually imported, such as through [Azure B2B collaboration](/azure/active-directory/b2b/what-is-b2b). (You can tell an external user because they have **#EXT#** in their user name.)  <br/> |
-|**New and existing external users (sign-in required)** <br/> | Require external users who have received invitations to view sites or content to sign-in with a Microsoft account before they can access the content.  <br/>  Site owners and members can share sites with external users.  <br/>  Site owners and members of a site can share documents with external users.  <br/>  All external users will be required to sign in before they can view content.  <br/>  Invitations to view content can be redeemed only once. After an invitation has been accepted, it cannot be shared or used by others to gain access.  <br/> |
-|**Anyone, including anonymous users** <br/> (Optionally, you can set links to expire in a specific number of days, and select how recipients can use the links .)  <br/> | Allow site users to share sites with people who sign in as authenticated users, but you also want to allow site users to share documents through the use of anonymous access links, which do not require invited recipients to sign in.  <br/>  Site owners or others with full control permissions can share sites with external users.  <br/>  All external users will be required to sign in before they can view content on a site that has been shared.  <br/>  When sharing documents, site owners or others with full control permissions can opt to require sign-in or send an anonymous access link.  <br/>  When users share a document, they can grant external users either view or edit permissions to the document.  <br/>  External users who receive anonymous access links can view or edit that content without signing in.  <br/>  Anonymous access links could potentially be forwarded or shared with other people, who might also be able to view or edit the content without signing in.  <br/> |
+|**Anyone**  <br/> | Allow users to share files and folders by using links that let anyone who has the link access the files or folders anonymously. This setting also allows users to share sites with new and existing guests who authenticate. If you select this setting, you can restrict the Anyone links so that they must expire within a specific number of days, or so that they can give only View permission.<br>|
+|**New and existing guests** <br/> | Require people who have received invitations to sign in with a their work or school account (if their organization uses Office 365) or a Microsoft account, or to provide a one-time code to verify their identity. Users can share with guests already in your organization's directory, and they can send invitations to people who will be added to the directory if they sign in. For more info about verification codes, see [Secure external sharing in SharePoint Online](what-s-new-in-sharing-in-targeted-release.md)<br/>  Invitations to view content can be redeemed only once. After an invitation has been accepted, it cannot be shared or used by others to gain access.  <br/> |
+|**Only existing guests** <br/> |Allow sharing only with guests who are already in your directory. These users may exist in your directory because they previously accepted sharing invitations or because they were manually added, such as through [Azure B2B collaboration](/azure/active-directory/b2b/what-is-b2b). (To see the guests in your organization, in the Microsoft 365 admin center, go to **Users** \> **Guests**.)  <br/> |
+|**Only people in your organization** <br/> | Turn off external sharing.
+
 
 > [!NOTE]
->  If you turn off external sharing for your entire organization and later turn it back on, external users who previously had access to content or documents on sites will regain access to them. If you know that external sharing was previously turned on and in use for specific site collections and you do not want external users to be able to regain access if external sharing is ever turned on again globally, we recommend that you first turn off external sharing for those specific site collections.<br><br> If you disable external access, or limit external access to a more restrictive form, external users will typically lose access within one hour of the change. If you disable external access, access to resources will also be blocked to guests in Office 365 Groups. 
+>  If you turn off external sharing for your entire organization and later turn it back on, guests who previously had access will regain it. If you know that external sharing was previously turned on and in use for specific sites and you don't want guests to be able to regain access, first turn off external sharing for those specific sites.<br>If you restrict or turn off external sharing, guests will typically lose access within one hour of the change.  
+
+### Advanced settings for external sharing
+
+**Limit external sharing by domain**
+
+This is useful if you want to limit sharing with particular partners, or help prevent sharing with people at certain organizations. The organization-level setting on this page affects all SharePoint sites and each user's OneDrive. List the domains (maximum of 1000) in the box provided, using the format  *domain.com.*. If listing more than one domain, press Enter after adding each domain. 
+    
+You can also limit external sharing by domain by using the [Set-SPOTenant](/powershell/module/sharepoint-online/Set-SPOTenant) Microsoft PowerShell cmdlet with -SharingDomainRestrictionMode and either -SharingAllowedDomainList or -SharingBlockedDomainList. For info about limiting external sharing by domain at the site level, see [Restricted domains sharing](restricted-domains-sharing.md).
+
+**Guests must accept sharing invitations using the same account that the invitations were sent to**
+
+Guests must sign in using the same account to which the sharing invitation was sent 
+
+**Let guests share items they don't own**
+
+Guests can't share files, folders, or sites with anyone (including internal users) if they don't 
+
 
 ## Additional settings
 
