@@ -215,5 +215,5 @@ Your audience might consume SharePoint hub sites via the SharePoint home in Offi
     
 Use hub sites when they align with your business outcomes and solve a need for your users. The capabilities of hub sites are evolving, and we're working to implement some of the most requested features as soon as we can, such as the ability to target the navigation links in hub sites to specific groups of people.
   
-**Principal author: Susan Hanley, MVP<br>LinkedIn: [http://www.linkedin.com/in/susanhanley](http://www.linkedin.com/in/susanhanley)<br>Website: [www.susanhanley.com](http://http://www.susanhanley.com)<br>Blog: [http://www.computerworld.com/blog/essential-sharepoint](http://www.computerworld.com/blog/essential-sharepoint)**
+**Principal author: Susan Hanley, MVP<br>LinkedIn: [http://www.linkedin.com/in/susanhanley](http://www.linkedin.com/in/susanhanley)<br>Website: [www.susanhanley.com](http://www.susanhanley.com)<br>Blog: [http://www.computerworld.com/blog/essential-sharepoint](http://www.computerworld.com/blog/essential-sharepoint)**
 
