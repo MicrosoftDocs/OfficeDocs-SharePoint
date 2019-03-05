@@ -234,7 +234,7 @@ See the table [Search schema changes that require content to be reindexed](manag
     
 2. Go to the **Search Schema** page for the tenant or for a site collection. 
     
-  - For the tenant, sign in to the Office 365 Admin Center. Then, choose **Admin \> SharePoint**. You're now in the SharePoint admin center. Click **search**, and then on the search administration page, click **Manage Search Schema**.
+  - For the tenant, sign in to the Microsoft 365 Admin Center. Then, choose **Admin \> SharePoint**. You're now in the SharePoint admin center. Click **search**, and then on the search administration page, click **Manage Search Schema**.
     
   - For the site collection, on your site, go to **Settings**, click **Site settings** and then under **Site Collection Administration**, click **Search Schema**.
     
@@ -268,7 +268,7 @@ See the table [Search schema changes that require content to be reindexed](manag
     
 2. Go to the **Search Schema** page for the tenant or for a site collection. 
     
-  - For the tenant, sign in to the Office 365 Admin Center. Then, choose **Admin \> SharePoint**. You're now in the SharePoint admin center. Click **search**, and then on the search administration page, click **Manage Search Schema**.
+  - For the tenant, sign in to the Microsoft 365 Admin Center. Then, choose **Admin \> SharePoint**. You're now in the SharePoint admin center. Click **search**, and then on the search administration page, click **Manage Search Schema**.
     
   - For the site collection, on your site, go to **Settings**, click **Site settings** and then under **Site Collection Administration**, click **Search Schema**.
     
