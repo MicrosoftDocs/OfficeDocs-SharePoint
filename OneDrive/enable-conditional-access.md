@@ -13,7 +13,7 @@ search.appverid:
 - MET150
 ms.collection: 
 - Strat_OD_admin
-- M365-collaboration 
+- M365-collaboration
 ms.assetid: 028d73d7-4b86-4ee0-8fb7-9a209434b04e
 description: "Learn how to enable conditional access in the new OneDrive sync client."
 ---
