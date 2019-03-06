@@ -192,6 +192,9 @@ Minimum requirements for a single server with built-in database:
   - Windows Server AppFabric
     
   - Cumulative Update Package 1 for Microsoft AppFabric 1.1 for Windows Server (KB 2671763)
+  
+    >[!NOTE]
+    >The required software above will be supported when used by SharePoint via the SharePoint Product Lifecycle.
     
 Minimum requirements for front-end web servers and application servers in a farm:
   
