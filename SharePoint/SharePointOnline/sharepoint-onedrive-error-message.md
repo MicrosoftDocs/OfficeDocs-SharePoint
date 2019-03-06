@@ -20,7 +20,6 @@ This article covers the different errors that you might encounter when sharing f
 Note that changing these settings changes the types of external sharing that are allowed in your organization. In some cases, these settings may have been set by someone in your organization for business reasons.
 
 ## OSE201
-TenantDontAllowExternalSharing
 
 Error OSE201 indicates that external sharing is turned off for all of your SharePoint and OneDrive sites.
 
@@ -55,7 +54,6 @@ Try sharing again.
 Try sharing again.
 
 ## OSE202
-TenantOnlyAllowExistingUserSharing
 
 Error OSE202 indicates that you can only share with guest users who are already in your directory. You can [add guests directly through Azure Active Directory](https://docs.microsoft.com/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal), or you can change the setting by doing the following:
 
@@ -90,7 +88,6 @@ Try sharing again.
 Try sharing again.
 
 ## OSE204
-SiteDontAllowExternalSharing
 
 Error OSE204 indicates that sharing is turned off for the site that you're trying to share from. You can change the setting as follows:
 
@@ -108,7 +105,6 @@ Error OSE204 indicates that sharing is turned off for the site that you're tryin
 Try sharing again.
 
 ## OSE205
-SiteOnlyAllowExistingUserSharing
 
 Error OSE205 indicates that you can only share the site with guest users who are already in your directory. You can [add guests directly through Azure Active Directory](https://docs.microsoft.com/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal), or you can change the setting by doing the following:
 
@@ -124,7 +120,6 @@ Error OSE205 indicates that you can only share the site with guest users who are
 7. Select either **New and existing guests** or **Anyone**, and then click **Save**.
 
 ## OSE207
-AllMySitesDontAllowExternalSharing
 
 Error OSE207 indicates that external sharing is turned off for OneDrive. You can change this setting as follows:
 
@@ -139,7 +134,6 @@ Error OSE207 indicates that external sharing is turned off for OneDrive. You can
 Try sharing again.
 
 ## OSE208
-AllMySitesOnlyAllowExistingUserSharing
 
 Error OSE208 indicates that you can only share OneDrive sites with guest users who are already in your directory. You can [add guests directly through Azure Active Directory](https://docs.microsoft.com/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal), or you can change the setting by doing the following:
 
@@ -154,7 +148,6 @@ Error OSE208 indicates that you can only share OneDrive sites with guest users w
 Try sharing again.
 
 ## OSE303
-SharerNotInWhoCanShareGroup
 
 Error OSE303 indicates that the person sharing the file or folder is not a member of the security groups that are allowed to share with authenticated users and by using anonymous links. To change this setting:
 
@@ -178,7 +171,6 @@ To add a user to a security group:
 Try sharing again.
 
 ## OSE304
-SharerNotInGuestSharingGroup
 
 Error OSE304 indicates that the person sharing the file or folder is not a member of the security groups that are allowed to share with authenticated users. To change this setting:
 
@@ -202,7 +194,6 @@ To add a user to a security group:
 Try sharing again.
 
 ## OSE401
-TenantLevelNotInAllowDomainList
 
 Error OSE401 indicates that the user you are trying to share with a domain that is not on the allow list for your organization. To change this setting:
 
@@ -218,7 +209,6 @@ Error OSE401 indicates that the user you are trying to share with a domain that 
 Try sharing again.
 
 ## OSE402
-TenantLevelInDenyDomainList
 
 Error OSE402 indicates that the user you are trying to share with a domain that is on the deny list for your organization. To change this setting:
 
@@ -234,7 +224,6 @@ Error OSE402 indicates that the user you are trying to share with a domain that 
 Try sharing again.
 
 ## OSE403
-SiteLevelNotOnAllowDomainList
 
 Error OSE403 indicates that the user you are trying to share with a domain that is not on the allow list for the site that you're sharing from. To change this setting:
 
@@ -247,11 +236,9 @@ Error OSE403 indicates that the user you are trying to share with a domain that 
 4. Under **Site collection additional settings**, add the domain that you want to share with to the list of allowed domains. Alternatively, you can turn off domain filtering by clearing the **Limit external sharing using domains**. check box.
 5. Click **Save**.
 
-
 Try sharing again.
 
 ## OSE404
-SiteLevelInDenyDomainList
 
 Error OSE404 indicates that the user you are trying to share with a domain that is on the deny list for the site that you're sharing from. To change this setting:
 
