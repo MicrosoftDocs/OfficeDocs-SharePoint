@@ -37,6 +37,7 @@
 ### [Change external sharing for a site](change-external-sharing-site.md)
 ### [Default SharePoint groups](default-sharepoint-groups.md)
 ### [Change default sharing link](change-default-sharing-link.md)
+### [SharePoint and OneDrive error messages](sharepoint-onedrive-error-message.md)
 ### [B2B extranet](create-b2b-extranet.md)
 #### [Plan B2B extranet sites](plan-b2b-extranet-sites.md)
 #### [Create external business-sharing site](create-external-business-sharing-site.md)
