@@ -35,7 +35,7 @@ There aren't separate search settings for the modern search experience. Instead 
     - Refinable 
     - Company name extraction
 - The modern search experience only shows results from the default result source. If you change the default [result source](manage-result-sources.md), both search experiences are impacted.
-- If you temporarily [remove a search result](manage-result-sources.md), the result is removed in both search experiences.
+- If you temporarily [remove a search result](remove-search-results.md), the result is removed in both search experiences.
 - When you create a [promoted result](../SharePointServer/search/manage-query-rules.md) at the organization level, users can see it in both search experiences. In the modern search experience, users only see promoted results on the All tab on the search results page and only when they search across all of SharePoint. For example, when users search from the search box on a hub site, they don't see any promoted results even if they are on the All tab.
 
 

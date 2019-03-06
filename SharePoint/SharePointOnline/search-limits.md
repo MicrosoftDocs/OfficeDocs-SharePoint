@@ -27,8 +27,6 @@ There are two types of limits:
     
     If you exceed a supported limit, you might encounter unexpected results or see a significant decrease in performance.
     
-> [!NOTE]
-> Alphanumeric data in Microsoft Excel documents is indexed and searched, but numeric data is not. For example, the string "PO123456789" would be returned in search results, but the number "123456789" would not. 
   
 These limits apply to all SharePoint Online plans.
   
