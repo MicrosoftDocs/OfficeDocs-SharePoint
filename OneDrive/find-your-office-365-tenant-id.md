@@ -13,7 +13,7 @@ search.appverid:
 - BCS160
 ms.collection: 
 - Strat_OD_admin
-- M365-collaboration 
+- M365-collaboration
 ms.assetid: 6891b561-a52d-4ade-9f39-b492285e2c9b
 description: "Learn how to find the Office 365 tenant ID for your organization."
 ---

@@ -9,7 +9,7 @@ ms.service: one-drive
 localization_priority: Normal
 ms.collection: 
 - Strat_OD_admin
-- M365-collaboration 
+- M365-collaboration
 description: "Learn how to set up OneDrive in your small business."
 ---
 
