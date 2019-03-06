@@ -74,21 +74,21 @@ Guests must sign in using the same account to which the sharing invitation was s
 
 **Let guests share items they don't own**
 
-Guests can't share files, folders, or sites with anyone (including internal users) if they don't 
+Guests can't share files, folders, or sites externally unless they have full control permission to the item.
 
 
-## Additional settings
+## File and folder sharing links
 
-To specify additional sharing settings, go to the classic SharePoint admin center.
-
-1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
+Choose the option you want to show by default when a user gets a link. 
     
-    > [!NOTE]
-    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
-    
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
+### Advanced settings for "Anyone" links
 
-3. In the classic SharePoint admin center, select **sharing** in the left pane.
+3. Under **Default link permission** choose whether you want the default permission to be view or edit. 
+    
+    ![Screenshot of default link permissions which are view and edit.](media/17172082-7cc4-44e4-9b73-3a0ea9acc577.png)
+  
+> [!IMPORTANT]
+> If you select "Anyone with the link," but the site or OneDrive is set to allow sharing only with guests who sign in or provide a verification code, the default link will be "Only people in your organization." Users will need to change the link type to "Specific people" to share files and folders in the site or OneDrive externally. 
 
 **Specify who can share outside your organization**
 
@@ -96,7 +96,7 @@ You can manage who can send sharing invitations to external users by limiting su
 
 ![Screenshot of settings for who can share outside your organization](media/WhoCanShareOutsideYourOrganization.png)
 
-**Set a default link type and default permissions**
+**Set permissions for the default sharing link**
   
 To better manage the type of links users share, you can set the default type of link - and the permissions for that link - that shows when users select **Get a link** to share documents and folders. 
   
@@ -112,25 +112,12 @@ When you choose to allow users to share outside your organization, you have some
   
 ![Additional settings for sharing](media/04c2257b-3af1-4902-8946-e7e251481da3.png)
   
- **Limit external sharing using domains**: You can allow or restrict access to specific domains. For more information, see [Restricted Domains Sharing in Office 365 SharePoint Online and OneDrive for Business](restricted-domains-sharing.md).
-  
- **Prevent external users from sharing files, folders, and sites they don't own**: External users cannot share anything they don't own with anyone else. 
-  
- **External users must accept sharing invitations using the same account that the invitations were sent to**: External users cannot use a different account than the one that the sharing invitation was sent to get access. 
- 
- **Require recipients to continually prove account ownership when they access shared items**: External users should re-authenticate every time when they access shared items. 
-  
- **Notifications**
-  
-To help your OneDrive for Business users monitor and control which external users have access to their files, you can specify that owners of OneDrive for Business files and folders are emailed when:
-  
-- Another user invites external users to shared files
 
-- An anonymous access link is created or changed.
 
-> [!NOTE]
-> The **External users accept invitations to access files** notification no longer works for the new sharing experience that appears in most places. This setting will be removed.
-    
+  
+
+  
+
 
   
 ## See also
