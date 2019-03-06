@@ -35,7 +35,7 @@ If you are having issues loading the SharePoint Migration tool, here are a few i
 
 If you still are experiencing unexplained errors, try downloading the SPMT tool to your local computer.  
 
-1. Download zip package to your local computer:  [Download SPMT.zip package](https://spmtreleasescus.blob.core.windows.net/download/spmt.zip).
+1. Download zip package to your local computer:  [Download SPMT.zip package](https://aka.ms/spmt-zip).
 2. Right-click the zip file, and click properties.
 3. On the General tab, select **Unblock** and then click OK.</br></br>
  ![SPMT Properties](media/spmtzip.png)
