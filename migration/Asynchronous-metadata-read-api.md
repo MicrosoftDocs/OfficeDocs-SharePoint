@@ -150,7 +150,7 @@ The reporting features is the same as createMigrationJob. Logging will be provid
 In terms of blob queue permission and settings, all access will be by default and the same as when the ISV called ProvisionMigrationContainer during the createMigrationJob.
 
 #### EncryptionKey:
-public byte[] EncryptionKey { get; set; }
+public byte[] EncryptionKey { get; set; }</br></br>
 It returns the AES256CBC encryption key used to decrypt the message in azureManifest container and azureReport Queue.
 
 |**Output parameter**|**Description**|
