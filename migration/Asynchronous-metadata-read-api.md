@@ -49,8 +49,8 @@ The new Migration Asynchronous Read API is:</br>
    **public List <SPAsyncReadJobInfo> CreateSPAsyncReadJob(Uri url, SPAsyncReadOptions options)**
 
 The API is made up of two input parameters, a URL, an Optional Flag, and one output structure field. 
-Currently, all items specified in the URL are queried. This often results in unnecessary reads and creates an extra load to the database especially if your migration tool only wants to know the delta (e.g. incremental migration)
-To eliminate unnecessary reads, changeToken is being introduced.  It will read the metadata of specified duration. Only the objects specified in the changeToken range is read. ChangeToken may not be supported be supported for the first release. 
+Currently, all items specified in the URL are queried. This often results in unnecessary reads and creates an extra load to the database especially if your migration tool only wants to know the delta (e.g. incremental migration).
+To eliminate unnecessary reads, changeToken is being introduced.  It will read the metadata of specified duration. Only the objects specified in the changeToken range is read. ChangeToken may not be supported for the first release; decision pending.
 
 > [!Note]
 >The Asynchronous Metadata Read API returns only metadata; no file or object transfer takes place.
@@ -93,7 +93,7 @@ If the root site is empty and there is nothing to read back, the Asynchronous Re
 ##### Special Character 
 If there are special characters in the URL, please use the escape character to circumvent the problem.
 
-##### Optional Flag 
+### Optional Flag 
 The read asynchronous function will include the SPAsyncReadOptions structure which covers the optional flags to allow the user to specify version and security setting on the site level more is described below.
 
 ##### IncludeVersions 
@@ -121,7 +121,7 @@ If end time provided is larger than present time, an error is also expected to b
 
 ## Output Parameters
 
-AsyncMigrationRead is expected to return a list of fields including JobID of the unique URL, encryptionKey, azureContainerManifestUrl, and azureReportUri in the SPAsyncReadJobInfo structure.
+AsyncMigrationRead is expected to return a list of fields including JobID of the unique URL, encryptionKey, azureContainerManifestUrl, and jobQueueUri in the SPAsyncReadJobInfo structure.
 
 #### UniqueJobID
 *public Guid JobId { get; set; }*</br>
@@ -175,7 +175,7 @@ We will be continually adding to the metadata fields that are available in the a
 ## Limitations
 For the first release, the limits for all supported migration will cap at 1 million. The 1 million count includes items such as role assignment and alerts. The only exception is for multiple versions of a single file, which will count as one. More information will be provided in future update.</br>
 
-By default, each URL supports up to 1 million limits. At the start of the migration, the asynchronous read migration function will check. If more than 1 million is detected an error will be thrown. The 1 million count includes items such as role assignment, alert but does not include versions. Multiple versions of a single file will count as one. (More information will be provided in future update). 
+By default, each URL supports up to 1 million limits. At the start of the migration, the asynchronous read migration function will check. If more than 1 million is detected an error will be thrown. Multiple versions of a single file will count as one. (More information will be provided in future update). 
 
 **Asynchronous Read API Limitations**</br>
 
@@ -188,7 +188,7 @@ By default, each URL supports up to 1 million limits. At the start of the migrat
 
 
 ## Performance Expectation
-The preliminary performance test provides a rough estimate of 300-400 items per second throughput. This does not account for any potential throttle over the network. If the read asynchronous function fails to reach the server due to throttling, then the performance will be reduced. 
-At the start of read asynchronous migration, there will be an overhead as the server calculates the number of objects to confirm that it is within the 1 million object limit. Therefore, the throughput for a small number of objects (e.g. 100 objects) is less than if 100,000 objects are migrated.
+The preliminary performance test provides a rough estimate of 300-400 items per second throughput. This does not account for any potential throttle over the network. If the read asynchronous function fails to reach the server due to throttling, then performance will be impacted. 
+At the start of read asynchronous migration, the server calculates the number of objects to confirm that it is within the 1 million object limit and can impact performance depending on the size of your migration. Hense the throughput for a small number of objects (e.g. 100 objects) is less than if 100,000 objects are migrated.
 
 
