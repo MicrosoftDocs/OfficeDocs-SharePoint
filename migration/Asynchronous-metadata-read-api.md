@@ -17,7 +17,7 @@ description: "Migration Asynchronous Metadata Read API"
 # Migration Asynchronous Metadata Read API
 
 > [!Important]
->This is a preliminary beta trial and not a full production release, hence not all features are tested and verified. Feature is subject to change.
+>This is a preliminary beta trial and not a full production release, hence not all features are tested and verified. Features are subject to change without notice.
 
  
 
