@@ -162,7 +162,7 @@ It returns the AES256CBC encryption key used to decrypt the message in azureMani
 |EncryptionKey|AES256CBC encryption key used to decrypt messages from job/manifest queue|
 
 ## Set up Guidelines
-The following provides high level guidelines for implementing the asynchronous metadata migration function. This documentation does not go into details on how to interact with SharePoint RESTful service. It is assumed that the ISV has prior knowledge and will be able to access the target website with proper permission. For more information on how to access the Sharepoint website , please refer to https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/get-to-know-the-sharepoint-rest-service
+The following provides high level guidelines for implementing the asynchronous metadata migration function. This documentation does not go into details on how to interact with SharePoint RESTful service. It is assumed that the ISV has prior knowledge and will be able to access the target website with proper permission. For more information on how to access the Sharepoint website, refer to [Get to Know the SharePoint Rest Service](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/get-to-know-the-sharepoint-rest-service).
 
 1. Install and update the latest Microsoft.SharePointOnline.CSOM version. The minimum version requirement is V16.1.8600 or later.
 2. ISVs figure out the folder, document library or files of interested to be query and issued with CreateSPAsyncReadJob function. 
