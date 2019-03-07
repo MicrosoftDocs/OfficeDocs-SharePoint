@@ -50,7 +50,7 @@ The new Migration Asynchronous Read API is:</br>
 
 The API is made up of two input parameters, a URL, an Optional Flag, and one output structure field. 
 Currently, all items specified in the URL are queried. This often results in unnecessary reads and creates an extra load to the database especially if your migration tool only wants to know the delta (e.g. incremental migration).
-To eliminate unnecessary reads, changeToken is being introduced.  It will read the metadata of specified duration. Only the objects specified in the changeToken range is read. ChangeToken may not be supported for the first release; decision pending.
+To eliminate unnecessary reads, changeToken is being introduced.  It will read the metadata of specified duration. Only the objects specified in the changeToken range is read. ChangeToken will not be supported in the best test release, but will be included in the first official release.
 
 > [!Note]
 >The Asynchronous Metadata Read API returns only metadata; no file or object transfer takes place.
@@ -61,10 +61,10 @@ To eliminate unnecessary reads, changeToken is being introduced.  It will read t
 The URL lets your migration tool to specify the root URL path of the SharePoint objects to be read.  The server-side code will read and return all the metadata of subfolders, files, and lists of that root URL.
 
 *Example:*</br></br> 
-This document library URL: https://www.contoso.com/my-resource-document/ will be read back for any files or folder that shares the same root URL, or supporting content.
-https://www.contoso.com/my-resource-document/file1.doc or 
-https://www.contoso.com/my-resource-document/folderA/file2.doc 
-Only the root URL needs to be specified.  It is sent as a single read request.
+This document library URL: <span><span>https://www.contoso.com/my-resource-document<span><span> will be read back for any files or folder that shares the same root URL, or supporting content.</br></br>
+<span><span>https://www.contoso.com/my-resource-document/file1.doc<span><span> or 
+<span><span>https://www.contoso.com/my-resource-document/folderA/file2.doc<span><span> 
+</br></br>Only the root URL needs to be specified.  It is sent as a single read request.
 
 > [!Note]
 >The first version of the AsyncMigrationRead supports files, folders, lists, list items, and the document library. Permission are expected to be covered in second version. The third version will extend to cover webpart and potentially taxonomy. 
@@ -106,8 +106,9 @@ This flag indicates whether to include all user or group information from a site
 
 ### ChangeToken (TBD, not supported in first release)
 
-The changeToken takes in a DateTime parameter. If specified, only the modified date larger than the ChangeToken will be exported. If Null, everything will be exported. ChangeToken can also be specified in past time ranges. This means both the start time and the end time needs to be less than the present time. If use in this format, the read asynchronous API will only read back the items that are specified within the time range.
-To maintain consistency, dateTime will be based on UTC time. The change token will be compared based off the last modified time of an object type (e.g. file/folder or list item). If last modified time attribute is not supported, the object will be read by default.
+The changeToken uses the same SharePoint changeToken.  In the official release, a range will be specified;  startChangeToken and endChangeToken. If Null, everything will be exported. ChangeToken can also be specified in past time ranges. This means both the start time and the end time needs to be less than the present time. If use in this format, the read asynchronous API will only read back the items that are specified within the time range.
+More documentation will be provided one the feature is completed.
+
 
 #### Corner Cases for ChangeToken
 ##### Invalid Time Format 
@@ -170,7 +171,7 @@ The following provides high level guidelines for implementing the asynchronous m
 
 ## Metadata Support
 
-We will be continually adding to the metadata fields that are available in the asynchronous read.  We will attempt  to provide metadata that is common to most ISVs. However, for the initial release only a limited set of metadata will be provided.  We will continue to work with ISV and add more as needed.
+For the first release, a selected set of metadata will be provided for test purposes. We will be continually adding to the metadata fields that are available in the asynchronous read upon ISV feedback.
 
 ## Limitations
 For the first release, the limits for all supported migration will cap at 1 million. The 1 million count includes items such as role assignment and alerts. The only exception is for multiple versions of a single file, which will count as one. More information will be provided in future update.</br>
@@ -189,6 +190,6 @@ By default, each URL supports up to 1 million limits. At the start of the migrat
 
 ## Performance Expectation
 The preliminary performance test provides a rough estimate of 300-400 items per second throughput. This does not account for any potential throttle over the network. If the read asynchronous function fails to reach the server due to throttling, then performance will be impacted. 
-At the start of read asynchronous migration, the server calculates the number of objects to confirm that it is within the 1 million object limit and can impact performance depending on the size of your migration. Hense the throughput for a small number of objects (e.g. 100 objects) is less than if 100,000 objects are migrated.
+At the start of read asynchronous migration, the server calculates the number of objects to confirm that it is within the 1 million object limit and can impact performance depending on the size of your migration. Hence the throughput for a small number of objects (e.g. 100 objects) is less than if 100,000 objects are migrated.
 
 
