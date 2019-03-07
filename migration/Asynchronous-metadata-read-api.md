@@ -50,7 +50,7 @@ The new Migration Asynchronous Read API is:</br>
 
 The API is made up of two input parameters, a URL, an Optional Flag, and one output structure field. 
 Currently, all items specified in the URL are queried. This often results in unnecessary reads and creates an extra load to the database especially if your migration tool only wants to know the delta (e.g. incremental migration).
-To eliminate unnecessary reads, changeToken is being introduced.  It will read the metadata of specified duration. Only the objects specified in the changeToken range is read. ChangeToken will not be supported in the best test release, but will be included in the first official release.
+To eliminate unnecessary reads, changeToken is being introduced.  It will read the metadata of specified duration. Only the objects specified in the changeToken range is read. ChangeToken will not be supported in the beta test release, but will be included in the first official release.
 
 > [!Note]
 >The Asynchronous Metadata Read API returns only metadata; no file or object transfer takes place.
