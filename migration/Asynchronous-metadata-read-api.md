@@ -61,10 +61,10 @@ To eliminate unnecessary reads, changeToken is being introduced.  It will read t
 The URL lets your migration tool to specify the root URL path of the SharePoint objects to be read.  The server-side code will read and return all the metadata of subfolders, files, and lists of that root URL.
 
 *Example:*</br></br> 
-This document library URL: <span><span>https://www.contoso.com/my-resource-document<span><span> will be read back for any files or folder that shares the same root URL, or supporting content.</br></br>
-<span><span>https://www.contoso.com/my-resource-document/file1.doc<span><span> or 
-<span><span>https://www.contoso.com/my-resource-document/folderA/file2.doc<span><span> 
-</br></br>Only the root URL needs to be specified.  It is sent as a single read request.
+This document library URL: **<span><span>https://www.contoso.com/my-resource-document<span><span>**
+will be read back for any files or folder that shares the same root URL, or supporting content.</br></br>
+For **<span><span>https://www.contoso.com/my-resource-document/file1.doc<span><span>** or 
+**<span><span>https://www.contoso.com/my-resource-document/folderA/file2.doc<span><span>**, only the root URL needs to be specified.  It is sent as a single read request.
 
 > [!Note]
 >The first version of the AsyncMigrationRead supports files, folders, lists, list items, and the document library. Permission are expected to be covered in second version. The third version will extend to cover webpart and potentially taxonomy. 
@@ -162,7 +162,7 @@ It returns the AES256CBC encryption key used to decrypt the message in azureMani
 |EncryptionKey|AES256CBC encryption key used to decrypt messages from job/manifest queue|
 
 ## Set up Guidelines
-The following provides high level guidelines for implementing the asynchronous metadata migration function. This documentation does not go into details on how to interact with SharePoint RESTful service. It is assumed that the ISV has prior knowledge and will be able to access the target website with proper permission. For more information on how to access the Sharepoint website, refer to [Get to Know the SharePoint Rest Service](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/get-to-know-the-sharepoint-rest-service).
+The following provides high level guidelines for implementing the asynchronous metadata migration function. This documentation does not go into details on how to interact with SharePoint RESTful service. It is assumed that the ISV has prior knowledge and will be able to access the target website with proper permission. </br>,</br>For more information on how to access the Sharepoint website, refer to [Get to Know the SharePoint Rest Service](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/get-to-know-the-sharepoint-rest-service).
 
 1. Install and update the latest Microsoft.SharePointOnline.CSOM version. The minimum version requirement is V16.1.8600 or later.
 2. ISVs figure out the folder, document library or files of interested to be query and issued with CreateSPAsyncReadJob function. 
