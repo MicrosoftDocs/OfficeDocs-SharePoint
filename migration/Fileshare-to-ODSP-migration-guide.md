@@ -61,7 +61,7 @@ If you’re working on a file or folder intended for team consumption and collab
 
 
 
-![Sharing](media/Migration-WhatGoesWhere-filesharetoodsp.png)
+![Sharing](media/SP-Migration-WhatGoesWhere_filesharetoODSP.png)
 
 ### Permissions vs Sharing
 
