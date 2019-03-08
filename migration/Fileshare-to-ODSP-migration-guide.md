@@ -23,7 +23,7 @@ This guide will help you prepare to migrate from File shares to OneDrive and Sha
 
 Most migrations fall into regular phases as described below.  Proven success factors for migration include planning, assessing and remediating, preparing your target environment, migrating and onboarding your users. 
 
-![Migration process](media/migration-process.png)
+   ![Migration process](media/migrationprocess-fileshare.png)
 
 |**Migration planning**|**Assess and remediate**|**Prepare your OneDrive and SharePoint environment**|**Migrate**|**User onboarding**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -129,14 +129,15 @@ Below is a typical migration process that follows Microsoft’s best practices g
 Currently, there are a variety of migration offerings available to you. Which one is right for you?
 
 |**Customer Self service**|**FastTrack driven**|**Partner driven**|
+|:-----|:-----|:-----|
 |No cost for Microsoft provided tool|No cost; included in your Microsoft 365 subscription|Price dependent on complexity|
-|Looser structure|Highly structured |Customize to your need|
+|Looser structure|Highly structured|Customize to your need|
 |No need to configure complex infrastructure|Must set up infrastructure including external access rights, VPNs, test environment, admin environment, establish framework of contacts|Customized to your need|
-|Less time required involved in scheduling process and restrictions|
-Scheduling templates and questionnaires provided as part of the organization process|Customized to your need|
+|Less time required involved in scheduling process and restrictions|Scheduling templates and questionnaires provided as part of the organization process|Customized to your need|
 |Customer controls the pace based on their needs|Schedule is driven in partnership with the FastTrack team|Customized to your need|
 |May have to hire in expertise if you don’t have it in place already|Expertise provided by FastTrack|Expertise provided|
 |Customer controls the schedule flexibility; off hours and blackout hours are defined by them|Must hold to a set schedule|Customized to your need|
+
 
 
 
