@@ -19,6 +19,9 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: People S
 
 [!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
+>[!IMPORTANT]
+>This health analyzer rule only applies to SharePoint 2010 as this was removed in [KB4011601](https://support.microsoft.com/help/4011601) for SharePoint Server 2013 and [KB4011576](https://support.microsoft.com/help/4011576) for SharePoint Server 2016.
+
  **Rule Name:** People Search relevance is not optimized when the Active Directory has errors in the manager reporting structure. 
   
  **Summary:** In Active Directory Domain Services (AD DS), only company leaders should have the **Manager** property set to NULL. If the **Manager** property is set to NULL for other users, people search relevance is reduced. To optimize people search relevance, explicitly specify company leaders. People search can then use this information to improve relevance. 
