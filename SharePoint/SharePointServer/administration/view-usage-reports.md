@@ -29,7 +29,7 @@ The reports are broken down per usage event type. The default usage event types 
     
 - **Recommendations Displayed.** The number of times a single item, page or document was displayed as a recommendation. 
     
-- **Recommendations Clicked.** The number of times s single item, page or document was clicked when it was displayed as a recommendation. 
+- **Recommendations Clicked.** The number of times a single item, page or document was clicked when it was displayed as a recommendation. 
     
 If you have added any custom usage event types, these will also be displayed.
   
