@@ -177,7 +177,7 @@ For info about querying and setting file and folder states, see [Set Files On-De
 
 This setting lets you balance the performance of different upload tasks on a computer by specifying the percentage of the computer's upload throughput that the OneDrive sync client (OneDrive.exe) can use to upload files. Setting this as a percentage lets the sync client respond to both increases and decreases in throughput. The lower the percentage you set, the slower files will upload. We recommend a value of 50% or higher. The sync client will periodically upload without restriction for one minute and then slow down to the upload percentage you set. This lets small files upload quickly while preventing large uploads from dominating the computer’s upload throughput. We recommend enabling this setting temporarily when you roll out [Silently move Windows known folders to OneDrive](use-group-policy.md#KFMOptInNoWizard) or [Prompt users to move Windows known folders to OneDrive](use-group-policy.md#KFMOptInWithWizard) to control the network impact of uploading known folder contents.
 
-![Upload Throughput Calculation](media/4cf2e62a-7eb4-4107-92ce-fbc219816b9d.jpg)
+![Upload Throughput Calculation](media/limit-upload-rate-percentage-throughput.png)
   
 > [!NOTE]
 > The maximum throughput value detected by the sync client can sometimes be higher or lower than expected because of the different traffic throttling mechanisms that your Internet Service Provider (ISP) might use. <br>For info about estimating the network bandwidth you need for sync, see [Network utilization planning for the OneDrive sync client](network-utilization-planning.md).
