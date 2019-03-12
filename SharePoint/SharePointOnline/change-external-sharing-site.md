@@ -19,7 +19,7 @@ description: "Learn how to change the external sharing setting for a site."
 
 # Turn external sharing on or off for a site
 
-You must be a global or SharePoint admin in Office 365 to change the external sharing setting for a site (site collection). Site collection administrators are not allowed to change this setting.
+You must be a global or SharePoint admin in Office 365 to change the external sharing setting for a site (previously called a "site collection"). Site administrators are not allowed to change this setting.
   
 Note that this procedure applies to classic sites, communication sites, and new team sites. To learn how to change the external sharing setting for a user's OneDrive, see [Change the external sharing setting for a user's OneDrive](/onedrive/user-external-sharing-settings). For info about changing your organization-level settings, see [Turn external sharing on or off for SharePoint Online](turn-external-sharing-on-or-off.md).
   

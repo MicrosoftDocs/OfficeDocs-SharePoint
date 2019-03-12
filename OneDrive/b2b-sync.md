@@ -32,7 +32,7 @@ Azure Active Directory (AAD) guest accounts play a key role in making B2B Collab
 For people outside your organization to sync shared libraries and folders:
 
 - External sharing must be enabled for your organization.
-- External sharing must be enabled for the site collection or OneDrive.
+- External sharing must be enabled for the site or OneDrive.
 - ADAL must not be enabled.
 - The content must be shared with people outside the organization at the site or folder level. If a folder is shared, it must be through a link that requires sign-in.
 - Sharing recipients must have an Office 365 work or school account (in Azure AD). 

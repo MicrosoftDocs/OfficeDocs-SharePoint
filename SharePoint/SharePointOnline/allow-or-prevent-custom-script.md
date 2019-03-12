@@ -72,7 +72,7 @@ In the SharePoint admin center, you can choose to allow users to run custom scri
 > [!CAUTION]
 > Before you allow custom script on sites in your organization, make sure you understand the [security implications](security-considerations-of-allowing-custom-script.md). 
   
-To allow custom script on a particular site (site collection) immediately, follow these steps: 
+To allow custom script on a particular site (previously called "site collection") immediately, follow these steps: 
 
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
     

@@ -114,7 +114,7 @@ Site users who have at least Contribute permissions on the site can do the follo
     
 - Use managed terms or Enterprise Keywords in search queries, and then refine search results based on these terms
     
-In addition, site users who have appropriate permissions (such as site owners) can create new Managed Metadata columns for lists, libraries, or content types. When they create these columns, they can create new term sets that are apply only to the site (site collection), and they can manage the terms within these term sets. 
+In addition, site users who have appropriate permissions (such as site owners) can create new Managed Metadata columns for lists, libraries, or content types. When they create these columns, they can create new term sets that apply only to the site (previously called "site collection"), and they can manage the terms within these term sets. 
   
 
   

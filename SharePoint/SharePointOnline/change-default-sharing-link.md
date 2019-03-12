@@ -29,7 +29,7 @@ When a user wants to share a document or folder, they can get a link to it to se
   
 SharePoint Online supports three types of links: Anonymous access links (accessible by anyone), internal links (accessible only by users within your organization) and direct links (accessible only by users who you specify when you create the link). As a SharePoint admin, you may want to enable users to send anonymous access links (as these provide the smoothest experience) but you may not want it to be the default link when the user opens the **Get a link** dialog box. 
   
-You can set the default type of link to something more restrictive, while still allowing users to select other types of links as needed. This setting can be configured both at the organization level and at the site (site collection) level. The organization-level setting acts as a default for all sites. As a SharePoint admin, you can change this setting for any site.
+You can set the default type of link to something more restrictive, while still allowing users to select other types of links as needed. This setting can be configured both at the organization level and at the site (previously called "site collection") level. The organization-level setting acts as a default for all sites. As a SharePoint admin, you can change this setting for any site.
 
 This setting applies only to modern sites.
   

@@ -92,7 +92,7 @@ If users don't have any recently modified or viewed content in these content sou
   
 - Encourage your users to store and share documents in SharePoint Online and OneDrive for Business. For more information, see [Store your documents where Office Delve can get to them](https://support.office.com/article/49a0db49-5e6c-4dda-816e-e11dd77de49d) (the Discover view is powered by Delve) . 
     
-- Check the permission settings on the SharePoint Online sites and site collections to make sure that the user has access to the correct sites and their content.
+- Check the permission settings on the SharePoint sites to make sure that the user has access to the correct sites and their content.
     
 - Check that the user is in the Active Directory and that he or she is a member of the correct Active Directory groups. To verify, go to **Microsoft 365 admin center** \> **Users** \> **Active Users**.
     

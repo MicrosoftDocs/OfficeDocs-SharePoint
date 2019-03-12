@@ -58,7 +58,7 @@ If the user was deleted within 30 days, you can restore the user and all their d
   Restore-SPODeletedSite -Identity <URL>
   ```
 
-5. Assign a site collection administrator to the OneDrive to access the needed data:
+5. Assign an administrator to the OneDrive to access the needed data:
     
   ```PowerShell
   Set-SPOUser -Site <URL> -LoginName <UPNofDesiredAdmin> -IsSiteCollectionAdmin $True
