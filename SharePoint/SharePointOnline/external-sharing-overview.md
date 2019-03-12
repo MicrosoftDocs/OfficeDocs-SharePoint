@@ -86,7 +86,7 @@ What happens behind the scenes depends on the account of the person with whom yo
   
  **People who have a Microsoft account**
   
-When you share a site, folder, or file with a specific person who has a Microsoft account, an invitation is sent to the person in email, which contains a link to the shared item. When the person clicks the link, they are asked to sign in using the user name and password of their Microsoft account. When they sign in, they are added as a guest in your organization's directory (you'll see them listed with **#EXT#** in their user name) and given access to the item. 
+When you share with someone who has a Microsoft account, an invitation is sent to the person in email, which contains a link to the shared item. When the person clicks the link, they are asked to sign in using the user name and password of their Microsoft account. When they sign in, they are added as a guest in your organization's directory (you'll see them listed with **#EXT#** in their user name) and given access to the item. 
   
 Once they are in your organization's directory, you can grant them access to other resources without sending them additional invitations. (You may need to send them a link to the shared item so they can find it.) You can also assign them licenses if you want.
   
@@ -94,7 +94,7 @@ You can discontinue sharing with a guest by removing their permissions from the 
   
  **People who have a work or school account in Azure AD**
   
-When you share a file or folder with a specific person who has an Office 365 work or school account in another organization, an email is sent to them which contains a link to the file or folder. The first time they access the file or folder using the link, they are sent a code to verify their identity. They must enter the code to access the file or folder. Once they have accessed the file or folder for the first time, these people are added as guests to your directory and thereafter they can access the file using thier work or school account.
+When you share with someone who has an Office 365 work or school account in another organization, an email is sent to them which contains a link to the file or folder. If you're sharing a site, they are asked to sign in, and then they are added to your organization's directory. If you're sharing a file or folder, the first time they access the item using the link, they are sent a code to verify their identity. They must enter the code to access the file or folder. Once they have accessed the file or folder for the first time, these people are added as guests to your directory and thereafter they can access the file using their work or school account.
   
 **People who don't have a Microsoft account, or a work or school account**
 
