@@ -162,6 +162,9 @@ The Microsoft SharePoint Products Preparation Tool installs the following prereq
 - Visual C++ Redistributable Package for Visual Studio 2012
     
 - Visual C++ Redistributable Package for Visual Studio 2015
+
+    >[!NOTE]
+    >The required software above will be supported when used by SharePoint via the SharePoint Product Lifecycle.
     
 #### Minimum requirements for client computers
 
