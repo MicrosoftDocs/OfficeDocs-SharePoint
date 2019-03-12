@@ -32,47 +32,37 @@ description: "Learn about the external sharing options in SharePoint Online."
 
 # External sharing overview
 
-If your organization performs work that involves sharing documents or collaborating directly with vendors, clients, or customers, then you can use the external sharing features of SharePoint Online to share content with people outside your organization. Or, if this is not the case, you may want to limit the use of external sharing in your organization. In this article, we look at the SharePoint Online sharing options and how to plan for them.
+If your organization performs work that involves sharing documents or collaborating directly with vendors, clients, or customers, then you can use the external sharing features of SharePoint Online to share content with people outside your organization. Or, if this is not the case, you may want to limit the use of external sharing in your organization. Planning for external sharing should be included as part of your overall permissions planning for SharePoint Online. In this article, we look at the SharePoint Online sharing options and how to plan for them.
   
 (If you want to get straight to setting up sharing, see [Turn external sharing on or off for SharePoint Online](turn-external-sharing-on-or-off.md). If you're trying to share a file or folder, see [Share OneDrive files and folders](https://support.office.com/article/9fcc2f7d-de0c-4cec-93b0-a82024800c07) or [Share SharePoint files or folders in Office 365](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c).)
   
-Planning for external sharing should be included as part of your overall permissions planning for SharePoint Online.
-  
-Note that external sharing is turned on by default for your entire SharePoint Online environment and the site collections in it. You may want to [turn it off globally](turn-external-sharing-on-or-off.md) before people start using sites or until you know exactly how you want to use the feature. 
+> [!NOTE]
+> External sharing is turned on by default for your entire SharePoint Online environment and the sites in it. You may want to [turn it off globally](turn-external-sharing-on-or-off.md) before people start using sites or until you know exactly how you want to use the feature. 
   
 ## What are the external sharing features of SharePoint Online?
 
-SharePoint Online has both global (organization-wide) and site collection settings for external sharing. The organization-level settings override any settings at the site collection level, and also affect OneDrive.
+SharePoint Online has both global (organization-level) external sharing settings, and settings at the site level (previously called "site collection" level). The organization-level settings override any settings at the site level, and also affect OneDrive.
   
-For your organization and each individual site collection, you can choose from the following basic sharing options:
-  
-- No external sharing - sites and documents can only be shared with internal users in your Office 365 subscription.
-    
-- Sharing only with external users in your directory - sites, folders, and documents can only be shared with external users who are already in your Office 365 user directory. For example, users who have previously accepted a sharing invitation or users who you have imported from another Office 365 or Azure Active Directory tenant.
-    
-- Sharing with authenticated external users - sites can be shared with external users who have a Microsoft account or a work or school account from another Office 365 subscription or an Azure Active Directory subscription. When folders or documents are shared, the user is not required to log in using a Microsoft Account or a Work or School Account - they are sent a one-time code that they can use to verify their identity.
-    
-- Sharing with anonymous users - documents and folders (but not sites) can be shared via an anonymous link where anyone with the link can view or edit the document, or upload to the folder.
-    
-The list above is in the order of most to least restrictive. Whichever option you choose, the more restrictive functionality is still available to you. For example, if you choose to allow sharing with anonymous users, you can still share with authenticated external users and users already in your directory, including internal users.
+Whichever option you choose, the more restrictive functionality is still available. For example, if you choose to allow sharing using "Anyone" links (previously called "shareable" links or "anonymous access" links), users can still share with guests who sign in, and with internal users.
   
  **Sharing and security**
   
-If you have confidential information that should never be shared with external users, consider having one or more site collections where external sharing is turned off where you keep your confidential information. Create additional site collections as needed to use for external sharing. This helps you to manage security risk by preventing external access to sensitive information.
+If you have confidential information that should never be shared with external users, consider having one or more sites where external sharing is turned off where you keep your confidential information. Create additional sites as needed to use for external sharing. This helps you to manage security risk by preventing external access to sensitive information.
 
-Note that when you share a folder with external users, the external users will be able to see each other's name and email address in the sharing properties.
+> [!NOTE]
+> When users share a folder with multiple guests, the guests will be able to see each other's names and email addresses in the sharing properties.
   
-## What is an external user?
+## What is a guest?
 
-An external user is someone from outside your Office 365 subscription to whom you have given access to one or more sites, files, or folders. There are two types of external users:
+A guest (previously called an "external user") is someone from outside your organization to whom you have given access to one or more sites, files, or folders. 
   
- **Authenticated users with Microsoft accounts**
+ **Guests who sign in with a Microsoft account or a work or school account in Azure AD**
   
-You can share sites, files, and folders with users who have a Microsoft Account or a work or school account from another Office 365 subscription in much the same way that you share sites and documents with your internal users. Permissions and groups work the same for authenticated external users with Microsoft accounts as they do for internal users.
+You can share sites, files, and folders with users who have a Microsoft account or a work or school account from another organization in much the same way that you share sites and documents with your internal users. Permissions and groups work the same for these guests as they do for internal users.
   
-Because external users with Microsoft accounts do not have a license to your Office 365 subscription, they are limited to basic collaboration tasks:
+Because these guests do not have a license in your organization, they are limited to basic collaboration tasks:
   
-- They can perform tasks on a site consistent with the permission level that they are assigned. For example, if you add an external user to the Members group, they will have Edit permissions and they will be able to add, edit and delete lists; they will also be able to view, add, update and delete list items and documents.
+- They can perform tasks on a site consistent with the permission level that they are assigned. For example, if you add a guest to the Members group, they will have Edit permissions and they will be able to add, edit and delete lists; they will also be able to view, add, update and delete list items and documents.
     
 - They can use Office Online for viewing and editing documents. If your plan includes Office Professional Plus, they cannot install the desktop version of Office on their own computers unless you assign them a license. 
     

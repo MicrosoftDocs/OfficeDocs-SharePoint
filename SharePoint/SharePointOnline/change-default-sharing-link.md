@@ -61,7 +61,7 @@ To change the setting in the classic SharePoint Online admin center:
 
 1. In the left pane, select **site collections**.
     
-2. Select the site collection that you want to change, and then select **Sharing**.
+2. Select the site that you want to change, and then select **Sharing**.
     
 3. Under **Default link type**, clear the **Respect default organization setting** check box, and then choose the option you want to show by default when a user gets a link. 
     

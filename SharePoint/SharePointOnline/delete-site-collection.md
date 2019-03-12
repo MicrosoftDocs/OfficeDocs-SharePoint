@@ -100,7 +100,7 @@ To permanently delete sites (including Office 365 group-connected team sites) by
     
     ![Delete Site Collection dialog box](media/9f0418d4-04a4-406a-9f61-9aac79ae28f8.PNG)
   
-To empty the deleted site collection from the Recycle Bin, you need to use the new SharePoint admin center or PowerShell. For info, see [Permanently delete a deleted site](delete-site-collection.md#permanently-delete-a-site).
+To empty the deleted site from the Recycle Bin, you need to use the new SharePoint admin center or PowerShell. For info, see [Permanently delete a deleted site](delete-site-collection.md#permanently-delete-a-site).
     
 
 
