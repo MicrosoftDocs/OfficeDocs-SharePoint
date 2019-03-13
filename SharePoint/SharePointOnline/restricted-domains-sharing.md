@@ -48,7 +48,7 @@ Organization-wide settings affect all SharePoint Online site collections, includ
     
 5. From the drop-down list, choose either **Don't allow sharing with users from these blocked domains** to deny access to targeted domains or **Allow sharing only with users from these domains** to limit access to only to the domains you list. 
     
-6. List the domains (maximum of 1000) in the box provided, using the format  *domain.com.*  . If listing more than one domain, separate each domain with a space or a carriage return. 
+6. List the domains (maximum of 1000) in the box provided, using the format  *domain.com.* If listing more than one domain, separate each domain with a space or a carriage return. 
     
     ![Additional settings for limiting external sharing in Office 365 SPO](media/11e789b2-8aca-46b5-ad4f-d7310e02a80b.png)
   
@@ -82,7 +82,7 @@ You can also use restricted domains at the site collection level. Note the follo
     
 5. From the drop-down list, choose either **Don't allow sharing with users from these blocked domains** to deny access to targeted domains or **Allow sharing only with users from these domains** to limit access to only to the domains you list. 
     
-6. List the domains (maximum of 60) in the box provided, using the format  *domain.com.*  . If listing more than one domain, separate each domain with a space or a carriage return. 
+6. List the domains (maximum of 60) in the box provided, using the format  *domain.com.* If listing more than one domain, separate each domain with a space or a carriage return. 
     
     > [!NOTE]
     > Wildcards are not supported for domain entries. 
