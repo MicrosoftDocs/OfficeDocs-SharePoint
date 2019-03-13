@@ -79,6 +79,17 @@ Minimum requirements (expect slow performance)
 |Microsoft Visual C++ 2015 Redistributable|Required for OneNote migration.|
    
 
+### Required Endpoints
+
+https://spmtreleasescus.blob.core.windows.net</br>
+https://secure.aadcdn.microsoftonline-p.com</br>
+https://login.microsoftonline.com</br>
+https://api.office.com</br>
+https://graph.windows.net</br>
+https://*.queue.core.windows.net</br>
+https://*.blob.core.windows.net</br>
+https://*.pipe.aria.microsoft.com</br>
+https://*.sharepoint.com</br>
 
 
 
