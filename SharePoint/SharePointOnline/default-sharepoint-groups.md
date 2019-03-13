@@ -84,7 +84,7 @@ In addition, special SharePoint groups support high-level administration tasks, 
 
 The Company Administrator and Everyone except external users groups contain admins and users for Office 365. They provide access for Office 365 users on a SharePoint site. 
   
- **Everyone except external users** When a user is added to Office 365, the user automatically becomes a member of Everyone except external users. This group has a default permission level of Contribute. When you grant permissions to this group, all users who are added to Office 365 can view, add, update, and delete items from lists and libraries (unless you change the default permission level for the group). 
+ **Everyone except external users** When a user is added to Office 365, the user automatically becomes a member of "Everyone except external users". Please note that you cannot change default permissions granted to "Everyone except external users" on Group sites. If a Group site has its privacy settings set as "Public", "Everyone except external users" has a default permission level of "Edit". When a Group site is "Private", "Everyone except external users" cannot be granted any permissions in the site. Although the "Site permissions" tab will allow modifications to be granted, a background job will block such modifications to take effect, and automatically revert original permissions granted to "Everyone except external users" based on Group site privacy settings. In order to change Group site privacy settings, use "Site information" tab (under the gear icon) instead.  
   
  **Company Administrators**The Company Administrators group is added to the list of Site Collection administrators. This group has a permission level of Full Control. 
   
