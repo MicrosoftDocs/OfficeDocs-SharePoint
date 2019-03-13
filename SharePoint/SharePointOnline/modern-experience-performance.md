@@ -3,7 +3,7 @@ title: "Performance in the modern SharePoint experience"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 1/15/2019
+ms.date: 3/13/2019
 ms.audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
@@ -45,11 +45,8 @@ SharePoint Online latency is affected in part by the physical distance between y
 
 [Content Delivery Networks](https://docs.microsoft.com/en-us/Office365/Enterprise/content-delivery-networks)
 
-+ NEW
 [Use the Office 365 content delivery network with SharePoint Online](https://docs.microsoft.com/en-us/Office365/Enterprise/use-office-365-cdn-with-spo)
 
-+ OLD
-[Using content delivery networks with SharePoint Online (OLD)](https://docs.microsoft.com/en-us/office365/enterprise/using-content-delivery-networks-with-sharepoint-online)
+[Using content delivery networks with SharePoint Online](https://docs.microsoft.com/en-us/office365/enterprise/using-content-delivery-networks-with-sharepoint-online)
 
-+ BLOG
 [General availability of Office 365 CDN](https://developer.microsoft.com/en-us/office/blogs/general-availability-of-office-365-cdn/)
