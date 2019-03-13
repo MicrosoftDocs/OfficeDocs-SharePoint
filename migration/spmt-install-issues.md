@@ -81,6 +81,7 @@ Minimum requirements (expect slow performance)
 
 ### Required Endpoints
 
+The following are the required endpoints for using the SharePoint Migration Tool:
 |**Required Endpoints**|
 |:-----|
 |https://secure.aadcdn.microsoftonline-p.com|</br>
