@@ -8,7 +8,7 @@
 ### [Create sites](create-site-collection.md)
 ### [Delete sites](delete-site-collection.md)
 ### [Restore deleted sites](restore-deleted-site-collection.md)
-### [Manage site collection administrators](manage-site-collection-administrators.md)
+### [Manage site admins](manage-site-collection-administrators.md)
 ### [Manage site creation](manage-site-creation.md)
 ### [Manage site storage limits](manage-site-collection-storage-limits.md)
 ### [Change Links list on SharePoint home page](change-links-list-on-sharepoint-home-page.md)
