@@ -81,7 +81,8 @@ Minimum requirements (expect slow performance)
 
 ### Required Endpoints
 
-The following are the required endpoints for using the SharePoint Migration Tool:</br>
+The following table lists the required endpoints for using the SharePoint Migration Tool.</br>
+
 
 |**Required Endpoints**|
 |:-----|
