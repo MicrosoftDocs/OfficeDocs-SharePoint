@@ -41,9 +41,9 @@ If your organization performs work that involves sharing documents or collaborat
   
 ## How do the external sharing settings work?
 
-SharePoint Online has both global (organization-level) external sharing settings, and settings at the site level (previously called "site collection" level). The organization-level settings override any settings at the site level, and also affect OneDrive.
+SharePoint Online has both global (organization-level) external sharing settings, and settings at the site level (previously called "site collection" level). To allow external sharing on any site, you must allow it at the organization level. You can then restrict external sharing for other sites. If a site's external sharing option and the organization-level sharing option don't match, the most restrictive value will always be applied.
   
-Whichever option you choose, the more restrictive functionality is still available. For example, if you choose to allow sharing using "Anyone" links (previously called "shareable" links or "anonymous access" links), users can still share with guests who sign in, and with internal users. 
+Whichever option you choose at the organization or site level, the more restrictive functionality is still available. For example, if you choose to allow sharing using "Anyone" links (previously called "shareable" links or "anonymous access" links), users can still share with guests who sign in, and with internal users. 
   
  **Security and privacy**
   
@@ -93,7 +93,7 @@ If the recipient doesn't have a work or school account, they need to use a code 
   
  **Recipients who don't need to authenticate**
   
-If you allow "Anyone" links, people inside or outside your organization can access files and folders without having to sign in or provide a code. These links can be freely passed around and are valid until the link is deleted or expires (if you've set an expiration date). You cannot verify the identity of the people using these links, but their IP address is recorded in audit logs when they access or edit shared content.
+If you allow "Anyone" links, invitations aren't sent in email. Users can copy the link and share it however they like. Anyone with the link (inside or outside your organization) can access files and folders without having to sign in or provide a code. These links can be freely passed around and are valid until the link is deleted or expires (if you've set an expiration date). You cannot verify the identity of the people using these links, but their IP address is recorded in audit logs when they access or edit shared content.
   
 People who access files and folders anonymously through "Anyone" links aren't added to your organization's directory, and you can't assign them licenses. They also can't access sites anonymously. They can only view or edit the specific file or folder for which they have an "Anyone" link. 
   
