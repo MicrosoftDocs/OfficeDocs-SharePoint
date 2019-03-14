@@ -20,7 +20,7 @@ description: "Learn how to use the OneDrive admin center to control sharing sett
 
 # Manage sharing in OneDrive and SharePoint
 
-As a global admin or SharePoint admin in Office 365, you can use the OneDrive admin center to control how sharing works at the organization level in OneDrive and SharePoint Online. Because each OneDrive is a site collection within SharePoint, your organization's SharePoint settings and OneDrive settings are related.
+As a global admin or SharePoint admin in Office 365, you can use the OneDrive admin center to control how sharing works at the organization level in OneDrive and SharePoint Online. Because each OneDrive is a site (previously called "site collection") within SharePoint, your organization's SharePoint settings and OneDrive settings are related.
   
 To learn how to change the external sharing setting of an individual user's OneDrive, see [Change the external sharing setting for a user's OneDrive](user-external-sharing-settings.md). For info about how to share a file or folder in OneDrive, see [Share OneDrive files and folders](https://support.office.com/article/9fcc2f7d-de0c-4cec-93b0-a82024800c07#BKMK_BusinessTab).
   
@@ -39,7 +39,7 @@ If you haven't yet specified the external sharing settings you allow, do that fi
     > [!IMPORTANT]
     > The following setting applies to both SharePoint and OneDrive. It syncs with the setting in the SharePoint admin center. For more info about this setting in the SharePoint admin center, see [Change the default link type when users get links for sharing](/sharepoint/change-default-sharing-link). 
   
-  - **Shareable links** (accessible by anyone with the link). This option is only available if your external sharing setting for SharePoint is set to **Anyone**. If the external sharing setting for OneDrive or a specific site collection isn't set to "Anyone," the default link type for OneDrive or the site collection will be "Internal."
+  - **Shareable links** (accessible by anyone with the link). This option is only available if your external sharing setting for SharePoint is set to **Anyone**. If the external sharing setting for OneDrive or a specific site isn't set to "Anyone," the default link type for OneDrive or the site will be "Internal."
     
   - **Internal links** (accessible only by users within your organization, can be shared internally). If you allow external sharing, users will have to switch the link type every time they share externally. 
     
@@ -66,7 +66,7 @@ By default, users are allowed to share files in OneDrive and SharePoint with any
   
 - The external sharing setting for SharePoint can be **more** permissive than what you allow in OneDrive, but not **less** permissive. If you turn off external sharing for SharePoint in your organization, you can't turn it on for OneDrive. 
     
-- If you want to allow external file sharing on any sites, you need to turn it on globally (at the organization level). You can then turn it off for all other site collections.
+- If you want to allow external file sharing on any sites, you need to turn it on globally (at the organization level). You can then turn it off for all other sites.
     
 - If you turn off external sharing, any links shared externally will stop working. If you later turn it back on, the links will resume working.
     

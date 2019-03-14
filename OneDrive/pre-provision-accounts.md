@@ -53,7 +53,7 @@ This article describes how to pre-provision OneDrive for your users by using Pow
 $users = Get-Content -path "C:\Users.txt"
 ```    
 
-To verify that OneDrive has been created for your users, see [How to display a list of OneDrive for Business site collections](list-onedrive-urls.md).
+To verify that OneDrive has been created for your users, see [Get a list of all user OneDrive URLs in your organization](list-onedrive-urls.md).
   
 > [!NOTE]
 > If you are pre-provisioning OneDrive for many users, it might take up to 24 hours for the OneDrive locations to be created. If a user's OneDrive isn't ready after 24 hours, please contact Support.

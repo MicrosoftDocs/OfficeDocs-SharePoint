@@ -31,9 +31,9 @@ A Search Center is a classic site where users can enter search queries and view 
   
 Choose where searches should go by specifying the URL of your default Search Center. [Learn more](specify-default-search-center.md).
   
-## Specify the Search Center URL for a site or site collection
+## Specify the Search Center URL for a site or subsite
   
-For each site collection or site, you can specify the URL of the Search Center where you want the search results from the site to be displayed. [Learn more](override-default-search-center.md).
+For each site or subsite, you can specify the URL of the Search Center where you want the search results from the site to be displayed. [Learn more](override-default-search-center.md).
   
 ## The Search Box Web Part
   
