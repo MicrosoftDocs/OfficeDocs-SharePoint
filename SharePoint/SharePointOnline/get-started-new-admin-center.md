@@ -25,9 +25,9 @@ As a global or SharePoint admin in Office 365, you can try the new SharePoint ad
 > [!NOTE]
 > Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Office 365](/office365/admin/manage/release-options-in-office-365). This means that you may not yet see some features or they may look different than what is described in this article. 
   
-## Schedule for releasing the new SharePoint admin center
+## Go to the classic experience
 
-The new SharePoint admin center is now available worldwide to customers who have selected the standard release option. You'll need to switch back to it to perform some tasks. You'll be able to continue using the classic SharePoint admin center for several months before we begin retiring it.
+The new SharePoint admin center is now available worldwide to customers who have selected the standard release option. To perform some tasks, you'll still need to use the classic experience.
   
 To switch back to the classic SharePoint admin center:
   
