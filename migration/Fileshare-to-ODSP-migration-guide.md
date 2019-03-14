@@ -23,8 +23,7 @@ This guide will help you prepare to migrate from File shares to OneDrive and Sha
 
 Most migrations fall into regular phases as described below.  Proven success factors for migration include planning, assessing and remediating, preparing your target environment, migrating and onboarding your users. 
 
->[!NOTE]
->The SharePoint Migration Tool (SPMT) is a Microsoft developed migration tool available at no cost. To download: [SharePoint Migration Tool ](https://aka.ms/spmt-ga-page).
+**Note:**</br>The SharePoint Migration Tool (SPMT) is a Microsoft developed migration tool available at no cost. To download: [SharePoint Migration Tool ](https://aka.ms/spmt-ga-page).
 
    ![Migration process](media/migrationprocess-fileshare.png)
 
