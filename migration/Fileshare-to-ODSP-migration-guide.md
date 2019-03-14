@@ -17,14 +17,14 @@ ms.custom:
 ms.assetid: 
 
 ---
->[!NOTE]
->[Download the SharePoint Migration Tool ](https://aka.ms/spmt-ga-page)
+
 # File share to OneDrive and SharePoint Migration Guide
 This guide will help you prepare to migrate from File shares to OneDrive and SharePoint in Office 365.
 
 Most migrations fall into regular phases as described below.  Proven success factors for migration include planning, assessing and remediating, preparing your target environment, migrating and onboarding your users. 
 
-
+>[!NOTE]
+>The SharePoint Migration Tool (SPMT) is a Microsoft developed migration tool available at no cost. To download: [SharePoint Migration Tool ](https://aka.ms/spmt-ga-page).
 
    ![Migration process](media/migrationprocess-fileshare.png)
 
@@ -133,8 +133,8 @@ Currently, there are a variety of migration offerings available to you. Which on
 
 |**Customer Self service**|**FastTrack driven**|**Partner driven**|
 |:-----|:-----|:-----|
-|No cost for Microsoft provided tool|No cost; included in your Microsoft 365 subscription|Price dependent on complexity|
-|Looser structure|Highly structured|Customize to your need|
+|No cost for Microsoft provided tool</br>[SharePoint Migration Tool ](https://aka.ms/spmt-ga-page)|No cost; included in your [Microsoft 365 subscription](https://docs.microsoft.com/en-us/fasttrack/o365-data-migration)|Price dependent on complexity|
+|Process flexible, you set the pace|Highly structured process and schedule|Customized to your need|
 |No need to configure complex infrastructure|Must set up infrastructure including external access rights, VPNs, test environment, admin environment, establish framework of contacts|Customized to your need|
 |Less time required involved in scheduling process and restrictions|Scheduling templates and questionnaires provided as part of the organization process|Customized to your need|
 |Customer controls the pace based on their needs|Schedule is driven in partnership with the FastTrack team|Customized to your need|
@@ -147,7 +147,7 @@ Currently, there are a variety of migration offerings available to you. Which on
 
 **Self service**
 
-The benefit for self-service migration is that you have full control over your process and timing, and you determine the pace of migration. Microsoft provides the SharePoint Migration Tool (SPMT)  free of charge and you will be able to leverage your own IT resources rather than having to invest in outside expertise.  
+The benefit for self-service migration is that you have full control over your process and timing, and you determine the pace of migration. Microsoft provides the [SharePoint Migration Tool](https://aka.ms/spmt-ga-page)  free of charge and you will be able to leverage your own IT resources rather than having to invest in outside expertise.  
 
 
 
