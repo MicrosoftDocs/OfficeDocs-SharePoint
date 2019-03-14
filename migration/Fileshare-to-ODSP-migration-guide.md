@@ -17,11 +17,14 @@ ms.custom:
 ms.assetid: 
 
 ---
-
+>[!NOTE]
+>[Download the SharePoint Migration Tool ](https://aka.ms/spmt-ga-page)
 # File share to OneDrive and SharePoint Migration Guide
 This guide will help you prepare to migrate from File shares to OneDrive and SharePoint in Office 365.
 
 Most migrations fall into regular phases as described below.  Proven success factors for migration include planning, assessing and remediating, preparing your target environment, migrating and onboarding your users. 
+
+
 
    ![Migration process](media/migrationprocess-fileshare.png)
 
