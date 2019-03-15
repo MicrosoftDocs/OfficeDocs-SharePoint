@@ -12,7 +12,7 @@
 ### [Supported SharePoint web parts](spmt-supported-webparts.md)
 ## [Migrate to SharePoint Online using PowerShell](overview-SPMT-PS-cmdlets.md)
 ## [Migrate to SharePoint Online using the Azure Data Box](how-to-migrate-file-share-content-to-SPO-using-AzureDataBox.md)
-## [SharePoint Online and OneDrive Migration Speed](sharepoint-online-and-onedrive-migration-speed.md)
+## [Best practices for improving SharePoint and OneDrive migration performance](sharepoint-online-and-onedrive-migration-speed.md)
 ## Migration Guides
 ### [Box to OneDrive Migration Guide](box-to-onedrive-and-sharepoint-migration-guide.md)
 ### [MySites to OneDrive Migration Guide](mysites-to-onedrive-migration-guide.md)
