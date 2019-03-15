@@ -109,12 +109,15 @@ Include the following in your support ticket:
 *Answer:* Plan to migrate at a maximum of 2TB/day.
 
 *Question:* I have a very big migration (> 100 TB) and I would like some help, who should I contact?</br>
-*Answer:* For larger than a 100TB migration, please submit a support request with Microsoft indicating that you are doing a large migration (>100TB). Ask customer support to open an *internal ticket* to contact the migration team.  Include the following in your support ticket:
-
-- Your company name and Tenant URL
-- Estimated size of your migration
-- An estimate of when you would like to start and complete your migration
-- Describe where you are migrating your content from, such as SharePoint Server, Box, GDrive, File shares, etc.
+*Answer:* For larger than a 100TB migration, please submit a support request with Microsoft indicating that you are doing a large migration (>100TB).
+Follow these steps:
+1. Click on **Need help?**
+2. As the title, enter **"SharePoint Migration over 100TB"**
+3. Include the all of the following the support ticket:
+    - Your company name and Tenant URL
+    - Estimated size of your migration
+    - An estimate of when you would like to start and complete your migration
+    - Describe where you are migrating your content from, such as SharePoint Server, Box, GDrive, File shares, etc.
 
 *Question:* I have tried everything, but nothing works. Now what do I do?</br>
 *Answer:* Open a support ticket with [http://support.microsoft.com](http://support.microsoft.com).
