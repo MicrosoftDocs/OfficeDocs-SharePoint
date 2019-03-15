@@ -49,7 +49,7 @@ The following table provides estimates of the type of speed you may achieve base
 |Light  <br/> |ISO files, video files  <br/> |2 TB/day  <br/> |
 |Medium  <br/> |List items, Office files (~1.5MB)  <br/> |1 TB/day  <br/> |
 |Heavy  <br/> |List items with custom columns, small files (~50kb)  <br/> |250 GB /day  <br/> |
-
+</br></br>
 - Large file size migrates faster than smaller ones. Small file size can result in larger overhead and processing time which directly impacts the performance.
 
 - Files migrate faster than objects and list items.
@@ -112,8 +112,8 @@ Include the following in your support ticket:
 *Answer:* For larger than a 100TB migration, please submit a support request with Microsoft indicating that you are doing a large migration (>100TB).
 Follow these steps:
 1. Click on **Need help?**
-2. As the title, enter **"SharePoint Migration over 100TB"**
-3. Include the all of the following the support ticket:
+2. For the title, enter **"SharePoint Migration over 100TB"**.
+3. Include all of the following on the support ticket:
     - Your company name and Tenant URL
     - Estimated size of your migration
     - An estimate of when you would like to start and complete your migration
