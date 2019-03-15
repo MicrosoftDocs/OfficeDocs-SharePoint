@@ -46,9 +46,9 @@ The following table provides estimates of the type of speed you may achieve base
 
 |**Type of metadata**|**Examples**|**Maximum**|
 |:-----|:-----|:-----|
-|Light  <br/> |ISO files, video files  <br/> |2 TB/day  <br/> |
-|Medium  <br/> |List items, Office files (~1.5MB)  <br/> |1 TB/day  <br/>|
-|Heavy  <br/> |List items with custom columns, small files (~50kb)  <br/>|250 GB /day  <br/>|
+|Light|ISO files, video files |2 TB/day|
+|Medium |List items, Office files (~1.5MB)|1 TB/day|
+|Heavy|List items with custom columns, small files (~50kb)|250 GB /day|
 
 
 - Large file size migrates faster than smaller ones. Small file size can result in larger overhead and processing time which directly impacts the performance.
