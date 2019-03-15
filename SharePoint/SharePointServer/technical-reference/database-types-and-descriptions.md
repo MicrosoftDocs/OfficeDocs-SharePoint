@@ -3,7 +3,6 @@ title: "Database types and descriptions in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 3/6/2018
 ms.audience: ITPro
 ms.topic: reference
 ms.prod: sharepoint-server-itpro
@@ -12,16 +11,16 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 9b1e8b21-7675-4186-beb6-3adeef4360e6
-description: "Summary: Learn about sizing and location information for the databases that support SharePoint Server 2016 and SharePoint 2013."
+description: "Learn about sizing and location information for the databases that support SharePoint Server Databases."
 ---
 
 # Database types and descriptions in SharePoint Server
 
- **Summary:** Learn about sizing and location information for the databases that support SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 This article describes the databases that are installed for SharePoint Server. Each database description includes information about sizing and placement. For more information see [Storage and SQL Server capacity planning and configuration (SharePoint Server)](../administration/storage-and-sql-server-capacity-planning-and-configuration.md).
   
-Databases for SharePoint Server 2016 can be hosted in Microsoft SQL Server 2014 Service Pack 1 (SP1) and Microsoft SQL Server 2016. Databases for SharePoint Server 2013 can be hosted in SQL Server 2008 R2 with Service Pack 1 (SP1) or SQL Server 2012. For more information see [Hardware and software requirements for SharePoint Server 2016](../install/hardware-and-software-requirements.md) and [Hardware and software requirements for SharePoint 2013](../install/hardware-and-software-requirements-0.md).
+Databases for SharePoint Server 2019 can be hosted in Microsoft SQL Server 2016 and Microsoft SQL Server 2017. Databases for SharePoint Server 2016 can be hosted in SQL Server 2014 Service Pack 1 (SP1) and SQL Server 2016. Databases for SharePoint Server 2013 can be hosted in SQL Server 2008 R2 with Service Pack 1 (SP1) or SQL Server 2012. For more information see [System requirements for SharePoint Servers 2016 and 2019](/sharepoint/install/system-requirements-for-sharepoint-server-2016) and [Hardware and software requirements for SharePoint 2013](../install/hardware-and-software-requirements-0.md).
   
 All database names that are listed in this article are automatically created when you run the SharePoint Products Configuration Wizard. You do not have to use these naming conventions. You can either specify your own database names when you create them or change the names after they are created. For more information, see [Move or rename service application databases in SharePoint Server](../administration/move-or-rename-service-application-databases.md)
   
@@ -38,7 +37,7 @@ The database sizes listed in this article are based on the following ranges.
 |Extra-large  <br/> |More than 1 terabyte  <br/> |
    
     
-For a graphical overview of the databases that support SharePoint Server 2016, see [Quick reference guide: SharePoint Server 2016 databases](https://doc.co/qrafhS). You can also download this SharePoint Server 2016 database poster, as either a [PDF](http://download.microsoft.com/download/D/5/D/D5DC1121-8BC5-4953-834F-1B5BB03EB691/DBrefguideSPS2016_tabloid.pdf) or [Visio](http://download.microsoft.com/download/D/5/D/D5DC1121-8BC5-4953-834F-1B5BB03EB691/DBrefguideSPS2016_tabloid.vsdx) file. 
+You can download the SharePoint Server 2016 database poster, as either a [PDF](http://download.microsoft.com/download/D/5/D/D5DC1121-8BC5-4953-834F-1B5BB03EB691/DBrefguideSPS2016_tabloid.pdf) or [Visio](http://download.microsoft.com/download/D/5/D/D5DC1121-8BC5-4953-834F-1B5BB03EB691/DBrefguideSPS2016_tabloid.vsdx) file. 
   
 For a graphical overview of the databases that support SharePoint Server 2013, see [Database model](https://go.microsoft.com/fwlink/p/?LinkID=255376).
   
@@ -82,12 +81,12 @@ The configuration database also contains specific data for SharePoint Server far
 |Recommended scaling method  <br/> |Must scale-up because only one configuration database is supported per farm. (Significant growth is unlikely.)  <br/> |
 |Associated health rules  <br/> |None  <br/> |
 |Supported backup tools  <br/> |SharePoint Server backup and restore, SQL Server, and System Center Data Protection Manager. Backing up and restoring the configuration databases is special because of the transaction log. For more information, see [Additional notes](#notes).  <br/> |
-|Default recovery model  <br/> |Full. We recommend that you switch the configuration database to the simple recovery model to restrict growth of the log file.  <br/> |
+|Default recovery model  <br/> |Full. We recommend that you keep the configuration database on the full recovery model and take backups to truncate the log files.  <br/> |
    
 #### Additional notes
 <a name="notes"> </a>
 
- **Transaction log files**. We recommend that you back up the transaction log for the configuration database regularly to force truncation. If you are mirroring your system, then change the database to run in Full recovery mode. For more information, see [The Transaction Log (SQL Server)](http://go.microsoft.com/fwlink/p/?LinkID=715518&amp;clcid=0x409).
+ **Transaction log files**. We recommend that you back up the transaction log for the configuration database regularly to force truncation. If you are mirroring your system, you should also keep the database running in full recovery mode. For more information, see [The Transaction Log (SQL Server)](http://go.microsoft.com/fwlink/p/?LinkID=715518&amp;clcid=0x409).
   
  **Backup and Restore**. The configuration database is backed up when you perform a SharePoint farm configuration and content backup. Note that some configuration settings from the database are exported and stored as XML file. When a farm is restored, the configuration database is not restored. Instead, the saved configuration settings are imported. The configuration database can be successfully backed up and restored by using SQL Server or other tools if the SharePoint farm is first taken offline.
   
@@ -104,7 +103,7 @@ The Central Administration content database is considered to be a configuration 
 For more information, download [Deploying SQL Server 2016 PowerPivot and Power View in SharePoint 2016](http://go.microsoft.com/fwlink/p/?LinkID=717977&amp;clcid=0x409). For details about configuring and deploying business intelligence in a multiple server SharePoint Server 2016 farm, download [Deploying SQL Server 2016 PowerPivot and Power View in a Multi-Tier SharePoint 2016 Farm](http://go.microsoft.com/fwlink/p/?LinkID=723106&amp;clcid=0x409). 
   
 > [!NOTE]
-> Excel Services and its associated business intelligence capabilities are no longer hosted on SharePoint Server 2016. Excel Services functionality is now part of Excel Online in Office Online Server (this is the next version of Office Web Apps Server), and SharePoint users can use the services from there. For more information, see [Office Online Server](http://technet.microsoft.com/library/e75c9827-f5ce-4099-a08c-b42fde72ea98.aspx) and [Configure Excel Online administrative settings](http://technet.microsoft.com/library/9cb81758-9d0b-4970-9ca0-a75eedf6093b.aspx). 
+> Excel Services and its associated business intelligence capabilities are no longer hosted on SharePoint Server 2016. Excel Services functionality is now part of Excel Online in Office Online Server (this is the next version of Office Web Apps Server), and SharePoint users can use the services from there. For more information, see [Office Online Server](/webappsserver/office-web-apps-server) and [Configure Excel Online administrative settings](/SharePoint/administration/configure-excel-services). 
   
 If SQL Server 2012 Power Pivot for SharePoint 2013 is installed, the Central Administration content database also stores the Excel worksheets and Power Pivot data files used in the Power Pivot Management Dashboard. Note that Power Pivot for SharePoint 2013 can only be installed on SharePoint Server 2013.
   
@@ -143,7 +142,7 @@ Content databases also store the following:
   
 Power Pivot for SharePoint 2013 can't be installed on SharePoint Foundation 2013, only on SharePoint Server 2013.
   
-Note that to use the business intelligence (BI) tools in SharePoint Server 2013 you must install SQL Server 2012 with Service Pack 1 (SP1) or SQL Server 2014, 64-bit version. For more information, see [Hardware and software requirements for SharePoint Server 2016](../install/hardware-and-software-requirements.md) and [Software requirements for business intelligence in SharePoint Server](../administration/software-requirements-for-business-intelligence.md).
+Note that to use the business intelligence (BI) tools in SharePoint Server 2013 you must install SQL Server 2012 with Service Pack 1 (SP1) or SQL Server 2014, 64-bit version. For more information, see [System requirements for SharePoint Servers 2016 and 2019](/sharepoint/install/system-requirements-for-sharepoint-server-2016) and [Software requirements for business intelligence in SharePoint Server](../administration/software-requirements-for-business-intelligence.md).
   
 **Content database**
 
@@ -317,7 +316,7 @@ The Usage and Health Data Collection database is used by the Usage and Health Da
 
 |**Category**|**Description**|
 |:-----|:-----|
-|Default database name when installed by using the SharePoint Products Configuration Wizard  <br/> |SharePoint Server 2016 = WSS_Logging  <br/> SharePoint 2013 = SharePoint_Logging  <br/> |
+|Default database name when installed by using the SharePoint Products Configuration Wizard  <br/> |SharePoint Servers 2019 and 2016 = WSS_Logging  <br/> SharePoint 2013 = SharePoint_Logging  <br/> |
 |Location requirements  <br/> |The Usage and Health Data Collection database is very active, and should be put on a separate disk or spindle, if it is possible.  <br/> |
 |General size information and growth factors  <br/> |Extra large. Database size depends on the retention factor, number of items enabled for logging and external monitoring, how many Web applications are running in the environment, how many users are currently working, and which features are enabled.  <br/> |
 |Read/write characteristics  <br/> |Write-heavy  <br/> |
@@ -329,7 +328,7 @@ The Usage and Health Data Collection database is used by the Usage and Health Da
 ### Subscription Settings Service database
 <a name="Sec2"> </a>
 
-The Microsoft SharePoint Foundation Subscription Settings service application database stores features and settings for hosted customers. The Subscription Settings service application and database are not created by the SharePoint Products Configuration Wizard — they must be created by using PowerShell cmdlets or SQL Server. For more information, see [New-SPSubscriptionSettingsServiceApplication](http://technet.microsoft.com/library/a0056290-df8b-4167-9a11-59cbb619e194.aspx).
+The Microsoft SharePoint Foundation Subscription Settings service application database stores features and settings for hosted customers. The Subscription Settings service application and database are not created by the SharePoint Products Configuration Wizard — they must be created by using PowerShell cmdlets or SQL Server. For more information, see [New-SPSubscriptionSettingsServiceApplication](/powershell/module/sharepoint-server/New-SPSubscriptionSettingsServiceApplication?view=sharepoint-ps).
   
 **Subscription Settings database**
 
@@ -347,7 +346,7 @@ The Microsoft SharePoint Foundation Subscription Settings service application da
 ### SharePoint User Profile service application databases
 <a name="Sec2"> </a>
 
-The User Profile service has three databases that support SharePoint Server 2016. The three User Profile service databases are shown in the following list. The tables that follow the list display the relevant database information.
+The User Profile service has three databases that support SharePoint Servers 2019 and 2016. The three User Profile service databases are shown in the following list. The tables that follow the list display the relevant database information.
   
 - **Profile:** The Profile database stores and manages users and associated information. It also stores information about a user's social network in addition to memberships in distribution lists and sites. 
     
@@ -458,7 +457,7 @@ The Machine Translation Services stores information about pending and completed 
 <a name="Sec2"> </a>
 
 > [!IMPORTANT]
-> The Project Server service application database is only found in SharePoint Server 2013. Project Server 2016 doesn't create a database in SharePoint Server 2016 but uses the Content database (WSS_Content). 
+> The Project Server service application database is only found in SharePoint Server 2013. Project Servers 2019 and 2016 don't create a database in SharePoint Server but use the Content database (WSS_Content). 
   
 Project Server creates a separate database for each instance of Project Web App. Each Project Web App database contains the following data:
   
@@ -689,6 +688,8 @@ The Report Server Alerting database stores all Data Alerts metadata and runtime 
   
 [Manage databases in SharePoint Server](../administration/database-management.md)
 #### Other Resources
+
+[SQL Server 2017](https://www.microsoft.com/en-us/sql-server/sql-server-2017)
 
 [SQL Server 2016](https://www.microsoft.com/en-us/sql-server/sql-server-2016)
   

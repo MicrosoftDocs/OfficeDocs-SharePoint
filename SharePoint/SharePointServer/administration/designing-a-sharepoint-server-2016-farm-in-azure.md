@@ -14,13 +14,13 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 ms.custom: Ent_Solutions
 ms.assetid: f27522ca-6f78-4b97-b169-77066e965727
-description: "Summary: Step through a process to design Microsoft Azure infrastructure services to host SharePoint Server 2016 farms."
+description: "Step through a process to design Microsoft Azure infrastructure services to host SharePoint Server farms."
 ---
 
 # Designing a SharePoint Server 2016 farm in Azure
 
- **Summary:** Step through a process to design Microsoft Azure infrastructure services to host SharePoint Server 2016 farms. 
-  
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)] 
+ 
 This article provides an overview of the support for SharePoint Server 2016 farms in Azure infrastructure services and a step-by-step process and recommendations and best practices for designing the Azure environment, including network, storage, and compute resources.
   
 ## SharePoint Server 2016 farms in Azure infrastructure services
@@ -189,7 +189,7 @@ For the subnets of your VNet, fill in the following table before creating them, 
 
 All VMs in an Azure VNet by default are assigned a set of DNS servers to perform name registration and resolution. You can override this by assigning DNS servers to individual VM network interfaces.
   
-For a SharePoint Server 2016 farm in Azure that uses [Azure Active Directory (AD) Domain Services](https://docs.microsoft.com/azure/active-directory-domain-services/active-directory-ds-overview), assign the IP addresses of the service as the DNS servers.
+For a SharePoint Server 2016 farm in Azure that uses [Azure Active Directory (AD) Domain Services](/azure/active-directory-domain-services/active-directory-ds-overview), assign the IP addresses of the service as the DNS servers.
   
 For a SharePoint Server 2016 farm in Azure that contains a set of Windows Server AD domain controllers that are also acting as DNS servers, assign the IP addresses of the domain controllers as the DNS servers. For a cross-premises VNet, you need two sets of DNS servers:
   
@@ -270,11 +270,11 @@ Azure assigns public IP addresses at the time they are requested for the VM or l
 
 Storage resources for VMs in Azure, which include the disks that each VM uses, are [managed disks](https://azure.microsoft.com/services/managed-disks/).
   
-Azure supports [standard and premium types of storage](https://docs.microsoft.com/azure/storage/storage-introduction). To be in a supported configuration, you must use premium storage for the servers running SharePoint Server 2016 that host the search role. Microsoft recommends that you use premium storage for all VMs running SQL Server or SharePoint Server 2016. Other VMs in the farm, such as domain controllers and the VMs on the management subnet, can use standard storage.
+Azure supports [standard and premium types of storage](/azure/storage/common/storage-introduction). To be in a supported configuration, you must use premium storage for the servers running SharePoint Server 2016 that host the search role. Microsoft recommends that you use premium storage for all VMs running SQL Server or SharePoint Server 2016. Other VMs in the farm, such as domain controllers and the VMs on the management subnet, can use standard storage.
   
 ### Step 4: Identity
 
-SharePoint Server 2016 requires Windows Server AD domain membership. Therefore, a SharePoint Server 2016 farm in Azure must have access to an Windows Server AD domain either with VMs acting as domain controllers or with [Azure Active Directory (AD) Domain Services](https://docs.microsoft.com/azure/active-directory-domain-services/active-directory-ds-overview).
+SharePoint Server 2016 requires Windows Server AD domain membership. Therefore, a SharePoint Server 2016 farm in Azure must have access to an Windows Server AD domain either with VMs acting as domain controllers or with [Azure Active Directory (AD) Domain Services](/azure/active-directory-domain-services/active-directory-ds-overview).
   
 When using VMs acting as domain controllers:
   

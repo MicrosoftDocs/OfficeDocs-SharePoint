@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 0fe9d4a1-faf9-4941-a45a-b54f47a5dea5
 
-description: "Summary: Learn how to help secure a SharePoint mobile infrastructure, and learn about the different authentication types supported in SharePoint Server 2013."
+description: "Learn how to help secure a SharePoint mobile infrastructure, and learn about the different authentication types supported in SharePoint Server 2013."
 ---
 
 # Mobile security and authentication in SharePoint 2013
 
- **Summary:** Learn how to help secure a SharePoint mobile infrastructure, and learn about the different authentication types supported in SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 This article provides security guidance and recommendations to help ensure that access to SharePoint Server 2013 and specific data in SharePoint is not compromised on a mobile device. This article also details the supported authentication types for select devices, and authentication specifics for the SharePoint Newsfeed App. 
   
@@ -162,7 +162,7 @@ The SharePoint Newsfeed App is supported for both on-premises and SharePoint Onl
 |**On-premises** <br/> |![SPNewsfeed On-premises](../media/SP15Mobile_SPNewsOnPrem.jpg)| Supported Authentication Types  <br/>  Windows Authentication  <br/>  Forms Based Authentication  <br/>  SAML  <br/> |
 |**SharePoint Online** <br/> |![SPNewsfeed SPO](../media/SP15Mobile_SPNewsSPO.jpg)| Supported Authentication Types  <br/>  Forms Based Authentication  <br/>  SAML  <br/> |
    
-For more information on how to deploy the SharePoint Newsfeed App in your network, including configuring cross-firewall access, see [Configure external access for mobile devices in SharePoint Server](http://technet.microsoft.com/library/63d940ce-0a15-49b2-b703-36e37600aa1b%28Office.14%29.aspx).
+For more information on how to deploy the SharePoint Newsfeed App in your network, including configuring cross-firewall access, see [Configure external access for mobile devices in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ff393835(v=office.14)).
   
 ## See also
 <a name="section2"> </a>

@@ -3,22 +3,22 @@ title: "Exchange trust certificates between farms in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 3/3/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_server
+- Strat_SP_server
+ms.custom: 
 ms.assetid: 6d8a9d37-d400-4d7c-b4f1-bf3c5643c98c
-description: "Summary: Learn how to exchange trust certificates between the publishing farm and the consuming farm in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to exchange trust certificates between the publishing farm and the consuming farm in SharePoint Server."
 ---
 
 # Exchange trust certificates between farms in SharePoint Server
 
- **Summary:** Learn how to exchange trust certificates between the publishing farm and the consuming farm in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 In SharePoint Server, a farm can connect to and consume a service application that is published on another SharePoint Server farm. For this to occur, the farms must exchange trust certificates. 
   
@@ -50,94 +50,93 @@ You can only export and copy certificates by using Windows PowerShell 3.0 or lat
 
 1. On a server that is running SharePoint Server on the consuming farm, verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
-  - Add memberships that are required beyond the minimums above.
+   - Add memberships that are required beyond the minimums above.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  $rootCert = (Get-SPCertificateAuthority).RootCertificate
-  ```
+   ```powershell
+   $rootCert = (Get-SPCertificateAuthority).RootCertificate
+   ```
 
-  ```
-  $rootCert.Export("Cert") | Set-Content <C:\ConsumingFarmRoot.cer> -Encoding byte
-  ```
-
+   ```powershell
+   $rootCert.Export("Cert") | Set-Content <C:\ConsumingFarmRoot.cer> -Encoding byte
+   ```
     Where  _\<C:\ConsumingFarmRoot.cer\>_ is the path of the root certificate. 
     
 ### To export the STS certificate from the consuming farm
 
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
-  - Add memberships that are required beyond the minimums above.
+   - Add memberships that are required beyond the minimums above.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  $stsCert = (Get-SPSecurityTokenServiceConfig).LocalLoginProvider.SigningCertificate
-  ```
+   ```powershell
+   $stsCert = (Get-SPSecurityTokenServiceConfig).LocalLoginProvider.SigningCertificate
+   ```
 
-  ```
-  $stsCert.Export("Cert") | Set-Content <C:\ConsumingFarmSTS.cer> -Encoding byte
-  ```
+   ```powershell
+   $stsCert.Export("Cert") | Set-Content <C:\ConsumingFarmSTS.cer> -Encoding byte
+   ```
 
-    Where  _\<C:\ConsumingFarmSTS.cer\>_ is the path of the STS certificate. 
+   Where  _\<C:\ConsumingFarmSTS.cer\>_ is the path of the STS certificate. 
     
 ### To export the root certificate from the publishing farm
 
 1. On a server that is running SharePoint Server on the publishing farm, verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
-  - Add memberships that are required beyond the minimums above.
+   - Add memberships that are required beyond the minimums above.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  $rootCert = (Get-SPCertificateAuthority).RootCertificate
-  ```
+   ```powershell
+   $rootCert = (Get-SPCertificateAuthority).RootCertificate
+   ```
 
-  ```
-  $rootCert.Export("Cert") | Set-Content <C:\PublishingFarmRoot.cer> -Encoding byte
-  ```
+   ```powershell
+   $rootCert.Export("Cert") | Set-Content <C:\PublishingFarmRoot.cer> -Encoding byte
+   ```
 
-    Where  _\<C:\PublishingFarmRoot.cer\>_ is the path of the root certificate. 
+   Where  _\<C:\PublishingFarmRoot.cer\>_ is the path of the root certificate. 
     
 ### To copy the certificates
 
@@ -159,36 +158,36 @@ To establish trust on the consuming farm, you must import the root certificate t
 
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
-  - Add memberships that are required beyond the minimums above.
+   - Add memberships that are required beyond the minimums above.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
-    > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+   > [!NOTE]
+   > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  $trustCert = Get-PfxCertificate <C:\PublishingFarmRoot.cer>
-  ```
+   ```powershell
+   $trustCert = Get-PfxCertificate <C:\PublishingFarmRoot.cer>
+   ```
 
-  ```
-  New-SPTrustedRootAuthority <PublishingFarm> -Certificate $trustCert
-  ```
+   ```powershell
+   New-SPTrustedRootAuthority <PublishingFarm> -Certificate $trustCert
+   ```
 
-    Where:
+   Where:
     
-  -  _\<C:\PublishingFarmRoot.cer\>_ is the path of the root certificate that you copied to the consuming farm from the publishing farm. 
+   -  _\<C:\PublishingFarmRoot.cer\>_ is the path of the root certificate that you copied to the consuming farm from the publishing farm. 
     
-  -  _\<PublishingFarm\>_ is a unique name that identifies the publishing farm. Each trusted root authority must have a unique name. 
+   -  _\<PublishingFarm\>_ is a unique name that identifies the publishing farm. Each trusted root authority must have a unique name. 
     
 ### Establishing trust on the publishing farm
 <a name="Section3"> </a>
@@ -199,85 +198,85 @@ To establish trust on the publishing farm, you must import the root certificate 
 
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
-  - Add memberships that are required beyond the minimums above.
+   - Add memberships that are required beyond the minimums above.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
-    > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+   > [!NOTE]
+   > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  $trustCert = Get-PfxCertificate <C:\ConsumingFarmRoot.cer>
-  ```
+   ```powershell
+   $trustCert = Get-PfxCertificate <C:\ConsumingFarmRoot.cer>
+   ```
 
-  ```
-  New-SPTrustedRootAuthority <ConsumingFarm> -Certificate $trustCert
-  ```
+   ```powershell
+   New-SPTrustedRootAuthority <ConsumingFarm> -Certificate $trustCert
+   ```
 
-    Where:
+   Where:
     
-  -  _\<C:\ConsumingFarmRoot.cer\>_ is the name and location of the root certificate that you copied to the publishing farm from the consuming farm. 
+   -  _\<C:\ConsumingFarmRoot.cer\>_ is the name and location of the root certificate that you copied to the publishing farm from the consuming farm. 
     
-  -  _\<ConsumingFarm\>_ is a unique name that identifies the consuming farm. Each trusted root authority must have a unique name. 
+   -  _\<ConsumingFarm\>_ is a unique name that identifies the consuming farm. Each trusted root authority must have a unique name. 
     
 ### To import the STS certificate and create a trusted service token issuer on the publishing farm
 <a name="Section3"> </a>
 
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
-  - Add memberships that are required beyond the minimums above.
+   - Add memberships that are required beyond the minimums above.
     
-    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
+   An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
-    > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+   > [!NOTE]
+   > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  $stsCert = Get-PfxCertificate 
-  <c:\ConsumingFarmSTS.cer>
-  ```
+   ```powershell
+   $stsCert = Get-PfxCertificate 
+   <c:\ConsumingFarmSTS.cer>
+   ```
 
-  ```
-  New-SPTrustedServiceTokenIssuer <ConsumingFarm> -Certificate $stsCert
-  ```
+   ```powershell
+   New-SPTrustedServiceTokenIssuer <ConsumingFarm> -Certificate $stsCert
+   ```
 
     Where:
     
-  -  _\<C:\ConsumingFarmSTS.cer\>_ is the path of the STS certificate that you copied to the publishing farm from the consuming farm. 
+   -  _\<C:\ConsumingFarmSTS.cer\>_ is the path of the STS certificate that you copied to the publishing farm from the consuming farm. 
     
-  -  _\<ConsumingFarm\>_ is a unique name that identifies the consuming farm. Each trusted service token issuer must have a unique name. 
+   -  _\<ConsumingFarm\>_ is a unique name that identifies the consuming farm. Each trusted service token issuer must have a unique name. 
     
 For more information about these PowerShell cmdlets, see the following articles:
   
-- [Get-SPCertificateAuthority](http://technet.microsoft.com/library/ece4ce47-7d4c-4ecc-ad6d-a23edf822fe3.aspx)
+ - [Get-SPCertificateAuthority](/powershell/module/sharepoint-server/Get-SPCertificateAuthority?view=sharepoint-ps)
     
-- [Get-SPSecurityTokenServiceConfig](http://technet.microsoft.com/library/4e26af64-e98c-4520-a578-ed0fd28bd3d6.aspx)
+ - [Get-SPSecurityTokenServiceConfig](/powershell/module/sharepoint-server/Get-SPSecurityTokenServiceConfig?view=sharepoint-ps)
     
-- [New-SPTrustedRootAuthority](http://technet.microsoft.com/library/25458530-4f0d-491c-80d3-61b8f1f0dd7e.aspx)
+ - [New-SPTrustedRootAuthority](/powershell/module/sharepoint-server/New-SPTrustedRootAuthority?view=sharepoint-ps)
     
-- [New-SPTrustedServiceTokenIssuer](http://technet.microsoft.com/library/cea600ae-0b64-4c2b-8943-c7c21884fffe.aspx)
+ - [New-SPTrustedServiceTokenIssuer](/powershell/module/sharepoint-server/New-SPTrustedServiceTokenIssuer?view=sharepoint-ps)
     
-- [Get-PfxCertificate](http://go.microsoft.com/fwlink/?LinkID=717913&amp;clcid=0x409)
+ - [Get-PfxCertificate](http://go.microsoft.com/fwlink/?LinkID=717913&amp;clcid=0x409)
     
 For information about how to use a script to automate part of this process, see [Exchange trust certificates between farms](https://go.microsoft.com/fwlink/p/?LinkId=230666).
   
@@ -298,15 +297,15 @@ You can manage trusts on a farm only after the relevant certificates have alread
     
 5. On the Establish Trust Relationship page, do the following steps:
     
-  - Supply a name that describes the purpose of the trust relationship. 
+   - Supply a name that describes the purpose of the trust relationship. 
     
-  - Browse to and select the Root Authority Certificate for the trust relationship. This must be the Root Authority Certificate that was exported from the other farm by using Microsoft PowerShell, as described in [Exporting and copying certificates](exchange-trust-certificates-between-farms.md#Section2). 
+   - Browse to and select the Root Authority Certificate for the trust relationship. This must be the Root Authority Certificate that was exported from the other farm by using Microsoft PowerShell, as described in [Exporting and copying certificates](exchange-trust-certificates-between-farms.md#Section2). 
     
-  - If you are performing this task on the publishing farm, select the check box for **Provide Trust Relationship**. Type in a descriptive name for the token issuer and browse to and select the STS certificate that was copied from the consuming farm, as described in [Exporting and copying certificates](exchange-trust-certificates-between-farms.md#Section2).
+   - If you are performing this task on the publishing farm, select the check box for **Provide Trust Relationship**. Type in a descriptive name for the token issuer and browse to and select the STS certificate that was copied from the consuming farm, as described in [Exporting and copying certificates](exchange-trust-certificates-between-farms.md#Section2).
     
-  - Click **OK**.
+   - Click **OK**.
     
-    After a trust relationship is established, you can modify the Token Issuer description or the certificates that are used by clicking the trust, and then clicking **Edit**. You can delete a trust by clicking it, and then clicking **Delete**.
+   After a trust relationship is established, you can modify the Token Issuer description or the certificates that are used by clicking the trust, and then clicking **Edit**. You can delete a trust by clicking it, and then clicking **Delete**.
     
 ## See also
 <a name="Section4"> </a>
@@ -316,7 +315,7 @@ You can manage trusts on a farm only after the relevant certificates have alread
 [Plan for user authentication methods in SharePoint Server](../security-for-sharepoint-server/plan-user-authentication.md)
 #### Other Resources
 
-[Create a web application in SharePoint Server](http://technet.microsoft.com/library/121c8d83-a508-4437-978b-303096aa59df%28Office.14%29.aspx)
+[Create a web application in SharePoint Server](/previous-versions/office/sharepoint-server-2010/cc261875(v=office.14))
   
-[Configure SAML-based claims authentication with AD FS in SharePoint Server](http://technet.microsoft.com/library/cb9ade1e-a3a1-4d99-a100-0b451f8272ea%28Office.14%29.aspx)
+[Configure SAML-based claims authentication with AD FS in SharePoint Server](/previous-versions/office/sharepoint-server-2010/hh305235(v=office.14))
 

@@ -13,12 +13,12 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 ms.assetid: 9d70eb7f-9e84-4960-87a1-fce3c46114f1
 
-description: "Summary: Upgrade service applications (Business Connectivity Services, Managed Metadata, Secure Store, User Profiles, Search) to SharePoint 2013."
+description: "Upgrade service applications (Business Connectivity Services, Managed Metadata, Secure Store, User Profiles, Search) to SharePoint 2013."
 ---
 
 # Upgrade service applications to SharePoint 2013
 
- **Summary:** Upgrade service applications (Business Connectivity Services, Managed Metadata, Secure Store, User Profiles, Search) to SharePoint 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 When you upgrade from SharePoint 2010 Products to SharePoint 2013, you must use a database attach upgrade, which means that you upgrade only the content for your environment and not the configuration settings. After you have configured the SharePoint 2013 environment, and copied the content and service application databases, you can upgrade the service applications to SharePoint 2013. This article contains the steps that you take to upgrade the service applications.
   
@@ -45,7 +45,7 @@ Before you create the SharePoint 2013 farm, review the following information and
     
 - Make sure that the account that you use to perform the steps in this article is a member of the Farm administrators group in Central Administration.
     
-- Decide which service application pool to use for the upgraded service applications. The procedures below use the default application pool for service applications which is "SharePoint Web Services Default". You can view a list of available service application pools by using the **Get-SPServiceApplicationPool** cmdlet in PowerShell. Or you can create a service application pool by using the **New-SPServiceApplicationPool** cmdlet. For more information, see [Get-SPServiceApplicationPool](http://technet.microsoft.com/library/079fd20b-2542-4d03-8b45-2da83cebe0ff.aspx) and [New-SPServiceApplicationPool](http://technet.microsoft.com/library/2d653742-d173-4aeb-8c6c-78f32c711e59.aspx).
+- Decide which service application pool to use for the upgraded service applications. The procedures below use the default application pool for service applications which is "SharePoint Web Services Default". You can view a list of available service application pools by using the **Get-SPServiceApplicationPool** cmdlet in PowerShell. Or you can create a service application pool by using the **New-SPServiceApplicationPool** cmdlet. For more information, see [Get-SPServiceApplicationPool](/powershell/module/sharepoint-server/Get-SPServiceApplicationPool?view=sharepoint-ps) and [New-SPServiceApplicationPool](/powershell/module/sharepoint-server/New-SPServiceApplicationPool?view=sharepoint-ps).
     
 > [!TIP]
 > Throughout this article, variables (such as $applicationPool, $sss, $upa, and so on) are used in the PowerShell cmdlets to save time and effort. You do not have to use these variables if you would prefer not to. However, if you do not use these variables, you must use IDs for the service applications and service application proxies when you specify the **identity** parameters. Each procedure has information about the variables used, or the alternate cmdlets to use to look up any IDs that are required. > Also, many procedures in this article include a step to set the $applicationPool variable. If you are performing all of these procedures in the same session of PowerShell, and you want to use the same application pool for all service applications, you do not have to repeat this step in each procedure. Instead, you can set this variable once at the beginning and use it throughout the procedures in this article. 
@@ -122,7 +122,7 @@ The Search service instance must be started by using PowerShell because you cann
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell. .
     
@@ -158,7 +158,7 @@ To upgrade the Secure Store service application, you create the new service appl
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -193,7 +193,7 @@ To upgrade the Secure Store service application, you create the new service appl
     
     This command sets a variable, $sss, that you use when you create the proxy later.
     
-    For more information, see [New-SPSecureStoreApplication](http://technet.microsoft.com/library/71aa37f1-2a15-49bc-9427-64f9a10e6d42.aspx). 
+    For more information, see [New-SPSecureStoreApplication](/powershell/module/sharepoint-server/New-SPSecureStoreApplication?view=sharepoint-ps). 
     
 5. Type the following command to create a proxy for the Secure Store service application:
     
@@ -214,7 +214,7 @@ To upgrade the Secure Store service application, you create the new service appl
     
     This command sets a variable, $sssp, for the service application proxy that you use when you restore the passphrase.
     
-    For more information, see [New-SPSecureStoreServiceApplicationProxy](http://technet.microsoft.com/library/57dc65e4-a368-46d4-836d-9850d1215b4b.aspx).
+    For more information, see [New-SPSecureStoreServiceApplicationProxy](/powershell/module/sharepoint-server/New-SPSecureStoreServiceApplicationProxy?view=sharepoint-ps).
     
     After you create the Secure Store service application and the proxy, you have to refresh the encryption key. For information about how to refresh the encryption key, see [Refresh the Secure Store encryption key](../administration/configure-the-secure-store-service.md#refresh).
     
@@ -233,7 +233,7 @@ To upgrade the Secure Store service application, you create the new service appl
     > [!TIP]
     > If you do not use the variable $sssp, then you must use an ID to identify the Secure Store service application proxy instead of a name. To find the ID, you can run the **Get-SPServiceApplicationProxy** cmdlet to return a list of all service application proxy IDs. 
   
-    For more information, see [Update-SPSecureStoreApplicationServerKey](http://technet.microsoft.com/library/53234b26-d767-483a-a75f-0f2c195f8747.aspx).
+    For more information, see [Update-SPSecureStoreApplicationServerKey](/powershell/module/sharepoint-server/Update-SPSecureStoreApplicationServerKey?view=sharepoint-ps).
     
 ## Upgrade the Business Data Connectivity service application
 <a name="UpgradeBDC"> </a>
@@ -256,7 +256,7 @@ To upgrade the Business Data Connectivity service application, you create the ne
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -289,7 +289,7 @@ To upgrade the Business Data Connectivity service application, you create the ne
   
   -  _BDC_Service_DB_ is name of the service application database that you want to upgrade. 
     
-    For more information, see [New-SPBusinessDataCatalogServiceApplication](http://technet.microsoft.com/library/d35cefac-c55e-41ac-b193-9557f052897a.aspx). 
+    For more information, see [New-SPBusinessDataCatalogServiceApplication](/powershell/module/sharepoint-server/New-SPBusinessDataCatalogServiceApplication?view=sharepoint-ps). 
     
 ## Upgrade the Managed Metadata service application
 <a name="UpgradeMetadata"> </a>
@@ -309,7 +309,7 @@ To upgrade the Managed Metadata service application, you create the new service 
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/New-SPBusinessDataCatalogServiceApplication?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -344,7 +344,7 @@ To upgrade the Managed Metadata service application, you create the new service 
     
     This command sets a variable, $mms, that you use when you create the proxy later.
     
-    For more information, see [New-SPMetadataServiceApplication](http://technet.microsoft.com/library/03f561ed-ab75-4feb-bd55-b57f8638619f.aspx). 
+    For more information, see [New-SPMetadataServiceApplication](/powershell/module/sharepoint-server/New-SPMetadataServiceApplication?view=sharepoint-ps). 
     
 5. At the Microsoft PowerShell command prompt, type the following command to create a proxy for the Managed Metadata service application:
     
@@ -363,7 +363,7 @@ To upgrade the Managed Metadata service application, you create the new service 
   
   -  _DefaultProxyGroup_ adds the Managed Metadata service application proxy to the default proxy group for the local farm. 
     
-    For more information, see [New-SPMetadataServiceApplicationProxy](http://technet.microsoft.com/library/e2c96d7d-d443-4457-8348-16d0a84e0b8e.aspx).
+    For more information, see [New-SPMetadataServiceApplicationProxy](/powershell/module/sharepoint-server/New-SPMetadataServiceApplicationProxy?view=sharepoint-ps).
     
 ## Upgrade the User Profile service application
 <a name="UpgradeProfiles"> </a>
@@ -386,7 +386,7 @@ To upgrade the User Profile service application, you create the new service appl
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -429,7 +429,7 @@ To upgrade the User Profile service application, you create the new service appl
   
     This command sets a variable, $upa, that you use when you create the proxy later.
     
-    For more information, see [New-SPProfileServiceApplication](http://technet.microsoft.com/library/acf51379-1811-4ffe-b5a0-a660d7a58f10.aspx). 
+    For more information, see [New-SPProfileServiceApplication](/powershell/module/sharepoint-server/New-SPProfileServiceApplication?view=sharepoint-ps). 
     
 5. Type the following command to create a proxy for the User Profile service application:
     
@@ -448,7 +448,7 @@ To upgrade the User Profile service application, you create the new service appl
   
   -  _DefaultProxyGroup_ adds the User Profile service application proxy to the default proxy group for the local farm. 
     
-    For more information, see [New-SPProfileServiceApplicationProxy](http://technet.microsoft.com/library/3019f2e5-451e-4af7-a434-3661319dd3c0.aspx).
+    For more information, see [New-SPProfileServiceApplicationProxy](/powershell/module/sharepoint-server/New-SPProfileServiceApplicationProxy?view=sharepoint-ps).
     
 After you have created the User Profile Service service application, you can start the User Profile Synchronization service.
   
@@ -491,7 +491,7 @@ After you have started the User Profile Synchronization service, you must import
     > [!IMPORTANT]
     > Use the GUID as specified. This GUID is fixed. 
   
-For more information, see [Install a software update (SharePoint Server 2010)](https://technet.microsoft.com/library/ff806338.aspx).
+For more information, see [Install a software update (SharePoint Server 2010)](/SharePoint/upgrade-and-update/install-a-software-update).
   
 ## Upgrade the PerformancePoint Services service application
 <a name="UpgradePPS"> </a>
@@ -511,7 +511,7 @@ To upgrade the PerformancePoint Services service application, you create the new
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -546,7 +546,7 @@ To upgrade the PerformancePoint Services service application, you create the new
     
     This command sets a variable, $pps, that you use when you create the proxy later.
     
-    For more information, see [New-SPProfileServiceApplication](http://technet.microsoft.com/library/acf51379-1811-4ffe-b5a0-a660d7a58f10.aspx). 
+    For more information, see [New-SPProfileServiceApplication](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
     
 5. Type the following command to create a proxy for the PerformancePoint Services service application:
     
@@ -565,7 +565,7 @@ To upgrade the PerformancePoint Services service application, you create the new
   
   -  _Default_ adds the PerformancePoint Services service application proxy to the default proxy group for the local farm. 
     
-    For more information, see [New-SPPerformancePointServiceApplicationProxy](http://technet.microsoft.com/library/fcd8a8fa-bbc8-4f7c-9a15-58980bbc5925.aspx).
+    For more information, see [New-SPPerformancePointServiceApplicationProxy](/powershell/module/sharepoint-server/New-SPPerformancePointServiceApplicationProxy?view=sharepoint-ps).
     
 ## Upgrade the Search service application
 <a name="UpgradeSearch"> </a>
@@ -588,7 +588,7 @@ To upgrade the Search service application, you create the new service applicatio
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -628,7 +628,7 @@ To upgrade the Search service application, you create the new service applicatio
     > [!NOTE]
     > A Search service application upgrade might fail because of an issue that occurs during upgrade, such as network or SQL Server latency. If an error message appears during the Search service application upgrade, do the following: 
   
-    For more information, see [Restore-SPEnterpriseSearchServiceApplication](http://technet.microsoft.com/library/fb717b7b-53cd-44c4-b94d-348c6403d4b2.aspx). 
+    For more information, see [Restore-SPEnterpriseSearchServiceApplication](/powershell/module/sharepoint-server/Restore-SPEnterpriseSearchServiceApplication?view=sharepoint-ps). 
     
     You must follow several steps to create the Search service application proxy and add it to the default proxy group. You must complete separate actions to find the ID for the Search service application, create the new proxy, get the proxy ID, and then add the proxy to the default proxy group.
     
@@ -638,7 +638,7 @@ To upgrade the Search service application, you create the new service applicatio
   $ssa = Get-SPEnterpriseSearchServiceApplication
   ```
 
-    For more information, see [Get-SPEnterpriseSearchServiceApplication](http://technet.microsoft.com/library/b8030354-e62d-4723-a809-eb6cf8c301c5.aspx).
+    For more information, see [Get-SPEnterpriseSearchServiceApplication](/powershell/module/sharepoint-server/Get-SPEnterpriseSearchServiceApplication?view=sharepoint-ps).
     
 6. Type the following command to create a proxy for the Search service application:
     
@@ -655,7 +655,7 @@ To upgrade the Search service application, you create the new service applicatio
     > [!TIP]
     > If you do not use the variable $ssa, then you must use an ID to identify the Search service application instead of a name. To find the ID, you can run the **Get-SPServiceApplication** cmdlet to return a list of all service application IDs. 
   
-    For more information, see [New-SPEnterpriseSearchServiceApplicationProxy](http://technet.microsoft.com/library/2a074a5a-0af0-48fd-aa1f-edc875f93335.aspx).
+    For more information, see [New-SPEnterpriseSearchServiceApplicationProxy](/powershell/module/sharepoint-server/New-SPEnterpriseSearchServiceApplicationProxy?view=sharepoint-ps).
     
 7. Type the following command to get the Search service application proxy ID for the proxy you just created and set it as the variable $ssap:
     
@@ -664,7 +664,7 @@ To upgrade the Search service application, you create the new service applicatio
   
   ```
 
-    For more information, see [Get-SPEnterpriseSearchServiceApplicationProxy](http://technet.microsoft.com/library/233890cc-6571-4bd3-bb59-2b549a6098c3.aspx).
+    For more information, see [Get-SPEnterpriseSearchServiceApplicationProxy](/powershell/module/sharepoint-server/Get-SPEnterpriseSearchServiceApplicationProxy?view=sharepoint-ps).
     
 8. Type the following command to add the Search service application proxy to the default proxy group:
     
@@ -682,7 +682,7 @@ To upgrade the Search service application, you create the new service applicatio
   
   - You use an empty **identity** parameter (" ") to add it to the default group. 
     
-    For more information, see [Add-SPServiceApplicationProxyGroupMember](http://technet.microsoft.com/library/25ccffa1-84ae-4927-a1e5-4b2d55f6065f.aspx).
+    For more information, see [Add-SPServiceApplicationProxyGroupMember](/powershell/module/sharepoint-server/Add-SPServiceApplicationProxyGroupMember?view=sharepoint-ps).
     
 ## Verify that all of the new proxies are in the default proxy group
 <a name="VerifyProxies"> </a>
@@ -702,7 +702,7 @@ Use the following procedure to verify that the steps to create the proxies and a
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     

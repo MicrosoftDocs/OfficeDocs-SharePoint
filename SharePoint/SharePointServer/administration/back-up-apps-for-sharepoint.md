@@ -3,7 +3,6 @@ title: "Back up apps for SharePoint in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 2/17/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -12,12 +11,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: a193cfdb-ac5e-45fa-bf83-87849e38ac27
-description: "Summary: Learn how to back up apps for SharePoint in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to back up apps for SharePoint in SharePoint Server."
 ---
 
 # Back up apps for SharePoint in SharePoint Server
 
- **Summary:** Learn how to back up apps for SharePoint in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 We recommend that you regularly back up at the farm level. However, business or IT requirements might require you to back up the apps for SharePoint in addition to normal farm backups. If you regularly back up the apps for SharePoint environment, you reduce the possibility of data losses that might occur from hardware failures, power outages, or other problems. It is a simple process that helps make sure that data and configurations that compose the apps for SharePoint environment are available for recovery, if that is required. 
   
@@ -71,36 +70,36 @@ You may have multiple site collections that host apps for SharePoint in your env
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  Backup-SPSite -Identity <SiteCollectionGUIDorURL> -Path <BackupFile> [-Force] [-NoSiteLock] [-UseSqlSnapshot] [-Verbose]
-  ```
+   ```powershell
+   Backup-SPSite -Identity <SiteCollectionGUIDorURL> -Path <BackupFile> [-Force] [-NoSiteLock] [-UseSqlSnapshot] [-Verbose]
+   ```
 
     Where:
     
-  -  _\<SiteCollectionGUIDorURL\>_ is the ID or URL for the site collection you want to back up. 
+   -  _\<SiteCollectionGUIDorURL\>_ is the ID or URL for the site collection you want to back up. 
     
-  -  _\<BackupFile\>_ is the path of where the backup file is located. 
+   -  _\<BackupFile\>_ is the path of where the backup file is located. 
     
     If you want to overwrite a previously used backup file, use the  `Force` parameter. You can use the  `NoSiteLock` parameter to keep the read-only lock from being set on the site collection while it is being backed up. However, using this parameter can enable users to change the site collection while it is being backed up and could lead to possible data corruption during backup. To display the site collection GUID or URL at the PowerShell command prompt, type the following command: 
     
-  ```
-  Get-SPSite | format-list -property id,url
-  ```
+   ```powershell
+   Get-SPSite | format-list -property id,url
+   ```
 
     If the database server is running an Enterprise Edition of SQL Server, we recommend that you also use the  `UseSqlSnapshot` parameter for more consistent backups. You can also export sites or lists from these snapshots. 
     
@@ -111,7 +110,7 @@ You may have multiple site collections that host apps for SharePoint in your env
     
     For more details, see [Back up site collections in SharePoint Server](back-up-site-collections.md)
     
-    For more information, see [Backup-SPSite](http://technet.microsoft.com/library/d4c31a1a-82a7-425f-b1bb-22e70bedd338.aspx).
+    For more information, see [Backup-SPSite](/powershell/module/sharepoint-server/backup-spsite?view=sharepoint-ps).
     
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 

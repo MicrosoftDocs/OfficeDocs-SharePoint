@@ -13,12 +13,12 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 ms.assetid: 0ba93198-452f-4e84-9e48-e3f0e5ae8f5b
 
-description: "Summary: Use this checklist as you upgrade from SharePoint 2010 Products to SharePoint 2013."
+description: "Use this checklist as you upgrade from SharePoint 2010 Products to SharePoint 2013."
 ---
 
 # Checklist for database-attach upgrade (SharePoint 2013)
 
- **Summary:** Use this checklist as you upgrade from SharePoint 2010 Products to SharePoint 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 This checklist helps you confirm that you follow all the steps that you must follow as you prepare for upgrade, perform the upgrade, and perform post-upgrade steps. This checklist applies only to upgrade of the content and service application databases. It does not apply to upgrade of My Sites or other site collections. For more information, see [Upgrade a site collection to SharePoint 2013](upgrade-a-site-collection-to-sharepoint-2013.md).
   
@@ -91,7 +91,7 @@ Detailed steps for this phase: [Upgrade service applications to SharePoint 2013]
 
 |**Step**|**Notes**|
 |:-----|:-----|
-|[ ]  <br/> |**Create and configure web applications** <br/> Create a web application for each web application that existed in the old environment.  <br/> |Complete this step one time for the whole environment.  <br/> |
+|[ ]  <br/> |**Create and configure web applications** <br/> Create a web application for each web application that existed in the old environment.  If the desire is to use Windows Claims Authentication, create the new Web Applications in Windows Claims mode instead of Classic mode.<br/> |Complete this step one time for the whole environment.  <br/> |
 |[ ]  <br/> |**Reapply server-side customizations** <br/> Manually transfer all server-side customizations to your new farm. Refer to the inventory that you created in the upgrade worksheet to make sure that you install all components that your sites depend on to work correctly. When you install solutions, make sure that you add it to the appropriate path (/14 or /15). If you want a solution to be available to both paths, install it two times, and the second time use the **CompatibilityLevel** parameter when you install it, and it will be installed to the /15 path.  <br/> |Make sure that you reapply customizations to all web servers in the farm.  <br/> |
 |[ ]  <br/> |**Verify custom components** <br/> Use the **Test-SPContentDatabase** Microsoft PowerShell cmdlet to verify that you have all the custom components that you need for that database.  <br/> |Complete this step for each content database in your environment.  <br/> Running the cmdlet takes only a few minutes, but addressing issues might take longer.  <br/> |
    
@@ -118,8 +118,8 @@ Follow these steps in order after you perform a database-attach upgrade.
 
 |**Step**|**Notes**|
 |:-----|:-----|
-|[ ]  <br/> |**Verify that site collections are working as expecting in 2010 mode** <br/> Review the site collections and make sure that they work in 2010 mode before you begin to upgrade any site collections. You can use a similar review list as the one provided for upgraded sites in [Review site collections upgraded to SharePoint 2013](review-site-collections-upgraded-to-sharepoint-2013.md) <br/> |Complete this step one time for your whole environment.  <br/> |
-|[ ]  <br/> |**Migrate user accounts to claims authentication, if it is necessary** <br/> By default, new web applications in SharePoint 2013 use claims authentication. If you were using classic authentication in the previous environment, you must migrate the users to claims authentication. For more information, see [Migrate from classic-mode to claims-based authentication in SharePoint 2013](migrate-from-classic-mode-to-claims-based-authentication-in-sharepoint-2013.md).  <br/> |Complete this step one time for every web application that has changed authentication methods.  <br/> |
+|[ ]  <br/> |**Verify that site collections are working as expecting in 2010 mode** <br/> Review the site collections and make sure that they work in 2010 mode before you begin to upgrade any site collections. You can use a similar review list as the one provided for upgraded sites in [Review site collections upgraded to SharePoint 2013](review-site-collections-upgraded-to-sharepoint-2013.md) <br/> > [!NOTE]> If the SharePoint 2013 Web Application was created in Windows Claims mode, complete the next step prior to testing site collections.           |Complete this step one time for your whole environment.  <br/> |
+|[ ]  <br/> |**Migrate user accounts to claims authentication, if it is necessary** <br/> By default, new web applications in SharePoint 2013 use claims authentication. If you were using classic authentication in the previous environment, you must migrate the users to claims authentication. For more information, see [Migrate from classic-mode to claims-based authentication in SharePoint 2013](migrate-from-classic-mode-to-claims-based-authentication-in-sharepoint-2013.md).  <br/> |Complete this step one time for every web application that has changed authentication methods.<br/> |
 |[ ]  <br/> |**Update links that are used in any upgraded InfoPath form templates** <br/> For a database-attach upgrade, you exported and imported all InfoPath form templates in your environment when you created the new environment. After upgrade, you can now update the links that are used in those upgraded form templates to point to the correct URLs by using a Microsoft PowerShell cmdlet.  <br/> For more information, see [Configure InfoPath Forms Services (SharePoint Server 2010)](https://go.microsoft.com/fwlink/?LinkId=403876).  <br/> |Complete this step one time for your whole environment.  <br/> |
 |[ ]  <br/> |**Configure your Search topology** <br/> The architecture for the Search service has changed for SharePoint 2013. Plan and configure your Search topology to suit your environment and the new architecture. For more information, see [Scale search for Internet sites in SharePoint Server](../search/scale-search-for-internet-sites.md) and [Manage the search topology in SharePoint Server](../search/manage-the-search-topology.md).  <br/> |Complete this step one time for your whole environment.  <br/> |
 |[ ]  <br/> |**Start a full crawl** <br/> After all content is upgraded and all settings are configured, you can start a full search crawl of your content. For more information, see [Start, pause, resume, or stop a crawl in SharePoint Server](../search/start-pause-resume-or-stop-a-crawl.md).  <br/> |Complete this step one time for your whole environment.  <br/> A full crawl can take several hours or days to complete, depending on how much content is in your environment.  <br/> |

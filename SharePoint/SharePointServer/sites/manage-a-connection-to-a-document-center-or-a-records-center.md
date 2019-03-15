@@ -3,7 +3,6 @@ title: "Manage a connection to a document center or a records center in SharePoi
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 3/9/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -13,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - SharePoint_Online
 ms.assetid: 5f0402ca-90c6-4528-b1de-04d4f28fb2a6
-description: "Summary: How to connect a web application to a SharePoint Server 2016 and SharePoint 2013 document center or records center and how to modify and delete connections."
+description: "How to connect a web application to a SharePoint Server document center or records center and how to modify and delete connections."
 ---
 
 # Manage a connection to a document center or a records center in SharePoint Server
 
- **Summary:** How to connect a web application to a SharePoint Server 2016 and SharePoint 2013 document center or records center and how to modify and delete connections. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 A connection is a path used for sending documents to a document center or a records center. The connection specifies the web application that documents will be sent from, the document center or records center that they will be sent to, and certain aspects of how the documents are sent. A records center is a site that is designed for records management.
   
@@ -37,7 +36,7 @@ Use this procedure to create a connection to a document repository or a records 
 
 1. To create a connection, you must be a member of the Farm Administrators group.
     
-2. On the SharePoint Central Administration website, in the **General Application Settings** section, in the **External Service Connections** section, select **Configure Send To Connections**.
+2. On the SharePoint Central Administration website, click **General Application Settings** and in the **External Service Connections** section, select **Configure Send To Connections**.
     
 3. On the **Configure Send To Connections** page, in the **Web Application** field, select the web application that hosts the site collections from which documents will be sent. 
     
@@ -53,11 +52,11 @@ Use this procedure to create a connection to a document repository or a records 
     
 9. In the **Send To action** list, select one of the following values: 
     
-  - **Copy** Select this option to create a copy of the document and send the copy to the destination repository. 
+   - **Copy** Select this option to create a copy of the document and send the copy to the destination repository. 
     
-  - **Move** Select this option to delete the document from its current location and move the document to the destination repository. Users will no longer be able to access the document from its original location. 
+   - **Move** Select this option to delete the document from its current location and move the document to the destination repository. Users will no longer be able to access the document from its original location. 
     
-  - **Move and Leave a Link** Select this option to delete the document from its current location, move it to the destination repository, and leave a link at the current location indicating that the document has been moved. When a user clicks this link, a page will appear that displays the URL of the document and the document's metadata. 
+   - **Move and Leave a Link** Select this option to delete the document from its current location, move it to the destination repository, and leave a link at the current location indicating that the document has been moved. When a user clicks this link, a page will appear that displays the URL of the document and the document's metadata. 
     
 10. In the **Explanation** dialog box, type the information to be added to the audit log when the user sends a document by using this connection. If you selected **Move and Leave a Link** in the previous step, the page that appears when the user clicks the link will also display the explanation. 
     
@@ -75,7 +74,7 @@ Use this procedure to modify an existing connection to a document repository or 
 
 1. To modify a connection, you must be a member of the Farm Administrators group.
     
-2. On the Central Administration website, in the **General Application Settings** section, select **Configure Send To Connections**.
+2. On the Central Administration website, click **General Application Settings**, and select **Configure Send To Connections**.
     
 3. On the **Configure Send To Connections** page, in the **Web Application** field, select the web application that contains the site collections that use this connection. 
     
@@ -94,7 +93,7 @@ Use this procedure to delete an existing connection to a document repository or 
 
 1. To delete a connection, you must be a member of the Farm Administrators group.
     
-2. On the Central Administration website, in the **General Application Settings** section, select **Configure Send To Connections**.
+2. On the Central Administration website, click **General Application Settings**, and select **Configure Send To Connections**.
     
 3. On the **Configure Send To Connections** page, in the **Web Application** field, select the web application that contains the site collections that use this connection. 
     

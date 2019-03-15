@@ -10,14 +10,14 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 478be4b7-1480-4f97-87c5-b18cd2436bce
-description: "Summary: Learn how to configure the BLOB cache, page output cache profiles, and the object cache for a web application."
+description: "Learn how to configure the BLOB cache, page output cache profiles, and the object cache for a web application."
 ---
 
 # Configure cache settings for a web application in SharePoint Server
 
- **Summary:** Learn how to configure the BLOB cache, page output cache profiles, and the object cache for a web application. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
-This article describes how to configure the disk-based BLOB cache, the page output cache profiles, and the object cache for a web application in SharePoint Server 2016 and SharePoint Server 2013.
+This article describes how to configure the disk-based BLOB cache, the page output cache profiles, and the object cache for a web application in SharePoint Server.
   
 You enable and configure the BLOB cache, and make configuration changes to the page output cache profiles and the object cache in the Web.config file in the web application to which you want to apply those changes. The changes you make to the Web.config file will be applied to all site collections within the web application. 
   

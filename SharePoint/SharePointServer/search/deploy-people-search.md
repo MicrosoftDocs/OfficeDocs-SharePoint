@@ -10,14 +10,14 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 0864e3e6-37bc-4b43-ae38-6a01f8728e8b
-description: "Summary: Learn how to make people search work in SharePoint Server 2016 and SharePoint Server 2013."
+description: "Learn how to make classic people search work in SharePoint Server."
 ---
 
 # Deploy people search in SharePoint Server
 
- **Summary:** Learn how to make people search work in SharePoint Server 2016 and SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
-People search is a SharePoint Server feature that allows users to get information about people in the organization and to get links to the documents that they have authored. Users can access this feature by entering a search query in the enterprise Search Center search box and clicking the link for the **People**search vertical.
+People search is a SharePoint Server feature that allows users to get information about people in the organization and to get links to the documents that they have authored. Users can access this feature by entering a search query in the enterprise Search Center search box and clicking the link for the **People** search vertical.
   
 A search vertical filters search results so that only a certain subset of all relevant results is displayed. SharePoint Server provides four preconfigured search verticals: **Everything**, **People**, **Conversations**, and **Videos**. You can see the links for these search verticals in the Search Navigation Web Part, which is below the search box in the enterprise Search Center, as shown in the following screen shot.
   
@@ -35,7 +35,7 @@ People search has the following prerequisites:
   
 - A Search service application must be running in the farm. For more information, see [Create and configure a Search service application in SharePoint Server 2016](create-and-configure-a-search-service-application.md). The farm must also have a Search Center that uses the Enterprise Search Center template. For more information, see [Create a Search Center site in SharePoint Server](create-a-search-center-site.md).
     
-- A Managed Metadata service application must be running in the farm. For more information, see [Overview of managed metadata service applications in SharePoint Server 2013](http://technet.microsoft.com/library/ecd9e1d1-3e56-4ab9-80e1-29972586c5a7%28Office.14%29.aspx).
+- A Managed Metadata service application must be running in the farm. For more information, see [Overview of managed metadata service applications in SharePoint Server 2013](/previous-versions/office/sharepoint-server-2010/ee424403(v=office.14)).
     
 - User profile synchronization must be configured in the farm. If this has not been done yet, at a minimum you must complete the following procedures that are described in [Synchronize user and group profiles in SharePoint Server 2013](../administration/configure-profile-synchronization.md):
     
@@ -64,19 +64,19 @@ When you configure My Sites, the default content access account for search is au
 
 1. Verify that the user account that is performing this procedure is an administrator for the Search service application.
     
-2. Start SharePoint 2016 Central Administration.
+2. Start SharePoint Central Administration.
     
   - For Windows Server 2008 R2:
     
-    - Click **Start**, click **SharePoint 2016**, and then click **SharePoint 2016 Central Administration**.
+    - Click **Start**, click **SharePoint**, and then click **SharePoint Central Administration**.
     
   - For Windows Server 2012:
     
-    - On the **Start** screen, click **SharePoint 2016 Central Administration**.
+    - On the **Start** screen, click **SharePoint Central Administration**.
     
-      If **SharePoint 2016 Central Administration** is not on the **Start** screen: 
+      If **SharePoint Central Administration** is not on the **Start** screen: 
     
-    - Right-click **Computer**, click **All apps**, and then click **SharePoint 2016 Central Administration**.
+    - Right-click **Computer**, click **All apps**, and then click **SharePoint Central Administration**.
     
     For more information about how to interact with Windows Server 2012, see [Common Management Tasks and Navigation in Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkId=276950).
     
@@ -210,7 +210,7 @@ Before you can obtain meaningful people search results, you must add user profil
     
   - [Configure profile synchronization by using SharePoint Active Directory Import in SharePoint Server](../administration/configure-profile-synchronization-by-using-sharepoint-active-directory-import.md)
     
-- Copy user profiles from one farm to another by using the User Profile Replication Engine (UPRE). For more information, see [Use UPRE to replicate user profiles across multiple farms in SharePoint Server 2013](http://technet.microsoft.com/library/47b9f42a-7a5e-4d6e-b72e-f2cd0021040b%28Office.14%29.aspx). 
+- Copy user profiles from one farm to another by using the User Profile Replication Engine (UPRE). For more information, see [Use UPRE to replicate user profiles across multiple farms in SharePoint Server 2013](/SharePoint/administration/manage-profile-synchronization). 
     
 - Add user profiles manually.
     

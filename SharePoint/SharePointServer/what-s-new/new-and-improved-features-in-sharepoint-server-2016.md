@@ -3,20 +3,22 @@ title: "New and improved features in SharePoint Server 2016"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 3/8/2018
 ms.audience: ITPro
 ms.topic: overview
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_server
+- Strat_SP_server
+ms.custom: 
 ms.assetid: e81557fb-5046-4a67-8ec8-fdfda648af68
 description: "Learn about the new features and updates to existing features in SharePoint Server 2016."
 ---
 
 # New and improved features in SharePoint Server 2016
+
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]
 
 Learn about the new features and updates to existing features in SharePoint Server 2016.
   
@@ -94,9 +96,9 @@ You can provision or unprovision Central Administration on individual servers in
     
 - Microsoft PowerShell cmdlets:
     
-  - [New-SPCentralAdministration](http://technet.microsoft.com/library/b51e3b8d-b3de-4c35-bcb7-c0ade288c0e4.aspx)
+  - [New-SPCentralAdministration](/powershell/module/sharepoint-server/New-SPCentralAdministration?view=sharepoint-ps)
     
-  - [Remove-SPCentralAdministration](http://technet.microsoft.com/library/073f1758-9348-4df5-931d-a21d2ffca86d.aspx)
+  - [Remove-SPCentralAdministration](/powershell/module/sharepoint-server/Remove-SPCentralAdministration?view=sharepoint-ps)
     
 - The  `psconfig.exe -cmd adminvs` operation 
     
@@ -151,7 +153,7 @@ The following features are now available for working in SharePoint Server 2016 d
 When you set up an SSL binding in Internet Information Services (IIS) Manager to host your web application, SharePoint uses TLS 1.2 connection encryption if your client application supports it. SharePoint also supports TLS 1.2 connection encryption when connecting to other systems, for example when crawling websites.
   
 > [!NOTE]
-> A security vulnerability was identified in the SSL 3.0 protocol that can allow an attacker to decrypt data. For enhanced security, some SharePoint features now disable SSL 3.0 connection encryption by default, as well as certain encryption algorithms (for example RC4) with known weaknesses. SharePoint disables SSL 3.0 connection encryption by default for some, but not all features. To ensure that SSL 3.0 is disabled for all features, you should disable it in Windows by editing the Windows Registry. For more information, see the "Disable SSL 3.0 in Windows For Server Software", and "For Client Software", workarounds in [Microsoft Security Advisory 3009008](https://technet.microsoft.com/library/security/3009008.aspx). 
+> A security vulnerability was identified in the SSL 3.0 protocol that can allow an attacker to decrypt data. For enhanced security, some SharePoint features now disable SSL 3.0 connection encryption by default, as well as certain encryption algorithms (for example RC4) with known weaknesses. SharePoint disables SSL 3.0 connection encryption by default for some, but not all features. To ensure that SSL 3.0 is disabled for all features, you should disable it in Windows by editing the Windows Registry. For more information, see the "Disable SSL 3.0 in Windows For Server Software", and "For Client Software", workarounds in [Microsoft Security Advisory 3009008](/security-updates/SecurityAdvisories/2015/3009008). 
   
 ### Fast Site Collection Creation
 <a name="FSCC"> </a>
@@ -164,7 +166,7 @@ This new feature provides templates that work at same level as SQL Server, which
 SharePoint has historically blocked file names that included the **&amp;**, **~**, **{**, and **}** characters, file names that contained a **GUID**, file names with leading dots, and file names longer than 128 characters. These restrictions are removed in SharePoint Server 2016 and are now available to use. 
   
 > [!IMPORTANT]
-> Restricted characters such as **%** and **#** are still not allowed in file names. 
+> Restricted characters such as **%** and **#** are still not allowed in file names. Page file names, such as wiki pages, may not contain the following characters: " # % * : < > ? \ / | nor can they begin with a leading dot (period) character.
   
 ### Hybrid in SharePoint Server 2016
 <a name="hybrid"> </a>
@@ -179,7 +181,7 @@ In SharePoint Server 2016, new hybrid features are available to enable hybrid so
     
 - Users have a single profile in Office 365, where all of their profile information is stored.
     
-For more information, see [Plan for hybrid sites features](http://technet.microsoft.com/library/4bf21275-1b38-4299-b80d-5f12e8b87a47%28Office.14%29.aspx).
+For more information, see [SharePoint hybrid sites and search](../hybrid/sharepoint-hybrid-sites-and-search.md).
   
  **Hybrid OneDrive for Business**
   
@@ -199,7 +201,7 @@ Cloud hybrid search is a new hybrid search solution alternative. With cloud hybr
     
 For more information about cloud hybrid search, see the public Microsoft cloud hybrid search program on [Microsoft Office connection](http://go.microsoft.com/fwlink/p/?LinkID=624235&amp;clcid=0x409).
   
-For more information, see [Plan for hybrid OneDrive for Business](http://technet.microsoft.com/library/95fa5eaf-8130-4dca-814c-9c51eafae0d4%28Office.14%29.aspx).
+For more information, see [Plan for hybrid OneDrive for Business](/sharepoint/hybrid/plan-hybrid-onedrive-for-business).
   
 For more information about the hybrid solutions available today, please visit the [SharePoint Hybrid Solutions Center](https://go.microsoft.com/fwlink/p/?LinkID=613711).
   
@@ -253,7 +255,7 @@ The role of a server is specified when you create a new farm or join a server to
 |**Front-end with Distributed Cache** <br/> |Shared role that combines the Front-end and Distributed Cache roles on the same server.  <br/> **Note:** <br/> This shared role was introduced in the November Public Update for SharePoint Server 2016 (Feature Pack 1).  <br/> |
 |**Application with Search** <br/> |Shared role that combines the Application and Search roles on the same server.  <br/> **Note:** <br/> This shared role was introduced in the November Public Update for SharePoint Server 2016 (Feature Pack 1).  <br/> |
    
-For more information about the MinRole feature, see [Overview of MinRole Server Roles in SharePoint Server 2016](../install/overview-of-minrole-server-roles-in-sharepoint-server-2016.md) and [Planning for a MinRole server deployment in SharePoint Server 2016](../install/planning-for-a-minrole-server-deployment-in-sharepoint-server-2016.md).
+For more information about the MinRole feature, see [Overview of MinRole Server Roles in SharePoint Server 2016](../install/overview-of-minrole-server-roles-in-sharepoint-server.md) and [Planning for a MinRole server deployment in SharePoint Server 2016](../install/planning-for-a-minrole-server-deployment-in-sharepoint-server.md).
   
 ### Mobile experience
 <a name="mobile"> </a>
@@ -283,7 +285,7 @@ Project Server 2016 for SharePoint Server 2016 has many new capabilities and fea
     
 - **Cloud grade performance and scale:** Many performance and scalability improvements that have been added to Project Online have also been added to Project Server 2016. 
     
-For more information, see [What's new for IT pros in Project Server 2016 Preview](http://technet.microsoft.com/library/c400e683-d9a0-4865-8859-0f566292af17.aspx).
+For more information, see [What's new for IT pros in Project Server 2016 Preview](/project/what-s-new-for-it-pros-in-project-server-2016).
   
 > [!IMPORTANT]
 > Project Server 2016 is installed with SharePoint Server 2016 Enterprise, though is licensed separately. For more information about Project Server licensing, see [Licensing Project](http://go.microsoft.com/fwlink/p/?LinkID=761107&amp;clcid=0x409). 

@@ -10,19 +10,19 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: cd646bb3-28c6-4040-866c-7d7936837ade
-description: "Summary: Learn how to configure the Portal Super User and Portal Super Reader accounts that are used by the object cache in SharePoint Server 2016 and SharePoint Server 2013."
+description: "Learn how to configure the Portal Super User and Portal Super Reader accounts that are used by the object cache in SharePoint Server."
 ---
 
 # Configure object cache user accounts in SharePoint Server
 
- **Summary:** Learn how to configure the Portal Super User and Portal Super Reader accounts that are used by the object cache in SharePoint Server 2016 and SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 The object cache stores properties about items in SharePoint Server. Items in this cache are used by the publishing feature when it renders web pages. The goals of the object cache are to reduce the load on the computer on which SQL Server is running, and to improve request latency and throughput. The object cache makes its queries as one of two out-of-box user accounts: the Portal Super User and the Portal Super Reader. These user accounts must be properly configured to ensure that the object cache works correctly. The Portal Super User account must be an account that has Full Control access to the web application. The Portal Super Reader account must be an account that has Full Read access to the web application.
   
 > [!IMPORTANT]
 > The Portal Super User and Portal Super Reader accounts must be separate accounts, and they must not be accounts that will ever be used to log in to the site. 
   
-This article explains why these object cache user accounts must to be configured and describes how to configure the accounts. For information about the object cache, see [Cache settings operations in SharePoint Server](cache-settings-operations.md).
+This article explains why these object cache user accounts must be configured and describes how to configure the accounts. For information about the object cache, see [Cache settings operations in SharePoint Server](cache-settings-operations.md).
   
 In SharePoint Server, querying for items is linked with the user account that makes the query. Various parts of the publishing feature make queries for which the results are cached in the object cache. These results are cached based on the user making the query. To optimize the cache hit rate and memory requirements, the queries must be based on whether a user can see draft items. When a publishing control requests the object cache to make a query to get data for the control, the cache makes the query, not as the user making the request, but instead it makes the query twice: once as the Portal Super User account and once as the Portal Super Reader account. The results of these two queries are stored in the object cache. The results for the Portal Super User account include draft items, and the results for the Portal Super Reader account include only published items. The object cache then checks the access control lists (ACLs) for the user who initiated the request and returns the appropriate results to that user based on whether that user can see draft items. By adding the Portal Super User and Portal Super Reader accounts to the web application, the cache must store results for only two users. This increases the number of results that are returned for a query and decreases the amount of memory that is needed to store the cache.
   
@@ -79,7 +79,7 @@ You can configure the user accounts for the object cache by the the SharePoint C
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see Permissions and [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see Permissions and [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Paste the following code into a text editor, such as Notepad:
     
@@ -94,9 +94,9 @@ You can configure the user accounts for the object cache by the the SharePoint C
     
   -  _\<WebApplication\>_ is the name of the web application to which the accounts will be added. 
     
-  -  _\<SuperUser\>_ is the account to use for the Portal Super User account as you saw it displayed in the **User Column** field mentioned in Step 14 of the previous procedure. 
+  -  _\<SuperUser\>_ is the account to use for the Portal Super User account as you saw it displayed in the **User Name** column  mentioned in Step 11 of the previous procedure. 
     
-  -  _\<SuperReader\>_ is account to use for the Portal Super Reader account as you saw it displayed in the **User Column** field mentioned in Step 14 of the previous procedure. 
+  -  _\<SuperReader\>_ is account to use for the Portal Super Reader account as you saw it displayed in the **User Name** column  mentioned in Step 11 of the previous procedure. 
     
 4. Save the file, naming it SetUsers.ps1.
     

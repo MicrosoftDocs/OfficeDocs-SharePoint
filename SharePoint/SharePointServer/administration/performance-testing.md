@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: fe3d1a2a-6147-4d10-8d88-cba86ee2f436
-description: "Summary: Learn about how to plan and execute performance testing of a SharePoint Server 2013 environment."
+description: "Learn about how to plan and execute performance testing of a SharePoint Server 2013 environment."
 ---
 
 # Performance testing for SharePoint Server 2013
 
- **Summary:** Learn about how to plan and execute performance testing of a SharePoint Server 2013 environment. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 This article describes how to test the performance of SharePoint Server 2013. The testing and optimization stage is a critical component of effective capacity management. You should test new architectures before you deploy them to production and you should conduct acceptance testing in conjunction with following monitoring best practices in order to ensure the architectures you design achieve the performance and capacity targets. This allows you to identify and optimize potential bottlenecks before they impact users in a live deployment. If you are upgrading from an Office SharePoint Server 2007 environment and plan to make architectural changes, or are estimating user load of the new SharePoint Server 2013 features, then testing particularly important to make sure your new SharePoint Server 2013-based environment will meet performance and capacity targets. 
   
@@ -37,7 +37,7 @@ These are the recommended sub steps you should follow for pre-production:
     
 - Deploy to the production environment.
     
-Before you read this article, you should read [Capacity management and sizing overview for SharePoint Server 2013](http://technet.microsoft.com/library/45dc078f-de39-425c-a94f-1de78b68052e%28Office.14%29.aspx).
+Before you read this article, you should read [Capacity management and sizing overview for SharePoint Server 2013](/previous-versions/office/sharepoint-server-2010/ff758647(v=office.14)).
   
     
 ## Create a Test Plan
@@ -93,11 +93,11 @@ If you do have to create sample data, there are a few considerations to keep in 
 ## Create Tests and Tools
 <a name="createtests"> </a>
 
-After the test environment is functional, it is time to create and fine-tune the tests that will be used to measure the performance capacity of the farm. This section will at times make references specifically to Visual Studio Team System (Team Test Load Agent), but many of the concepts are applicable irrespective of which load test tool you use. For more information about Visual Studio Team System, see [Visual Studio Team System](https://msdn.microsoft.com/en-us/library/fda2bad5.aspx) at MSDN (https://msdn.microsoft.com/en-us/library/fda2bad5.aspx" ). 
+After the test environment is functional, it is time to create and fine-tune the tests that will be used to measure the performance capacity of the farm. This section will at times make references specifically to Visual Studio Team System (Team Test Load Agent), but many of the concepts are applicable irrespective of which load test tool you use. For more information about testing tools available for Azure DevOps (formerly VSTS), see [DevOps tools overview for Azure DevOps](/azure/devops/user-guide/devops-alm-overview). 
   
 You can also use the SharePoint Load Test Kit (LTK) in conjunction with VSTS for load testing of SharePoint 2010 farms. The Load Test Kit generates a Visual Studio Team System 2008 load test based on Windows SharePoint Services 3.0 and Microsoft Office SharePoint Server 2007 IIS logs. The VSTS load test can be used to generate synthetic load against SharePoint Foundation 2010 or SharePoint Server 2010 as part of a capacity planning exercise or a pre-upgrade stress test.
   
-The Load Test Kit is included in the Microsoft SharePoint 2010 Administration Toolkit v1.0, available from the [Microsoft Download Center](http://www.microsoft.com/downloads/details.aspx?FamilyId=718447d8-0814-427a-81c3-c9c3d84c456e&amp;displaylang=en) (http://www.microsoft.com/downloads/details.aspx?FamilyId=718447d8-0814-427a-81c3-c9c3d84c456e&amp;displaylang=en). 
+The Load Test Kit is included in the Microsoft SharePoint 2010 Administration Toolkit v2.0, available from the [Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=20022). 
   
 A key criterion to the success of the tests is to be able to effectively simulate a realistic workload by generating requests across a wide range of the test site data, just as users would access a wide range of content in a production SharePoint Server 2013 farm. In order to do that, you will typically need to construct your tests such that they are data driven. Rather than creating hundreds of individual tests that are hard-coded to access a specific page, you should use just a few tests that use data sources containing the URLs for those items to dynamically access that set of pages.
   
@@ -171,5 +171,5 @@ Each time you run a load test remember that it is changing data in the database.
 [Software boundaries and limits for SharePoint Server 2016](../install/software-boundaries-and-limits-0.md)
 #### Other Resources
 
-[Capacity management and sizing overview for SharePoint Server 2013](http://technet.microsoft.com/library/45dc078f-de39-425c-a94f-1de78b68052e%28Office.14%29.aspx)
+[Capacity management and sizing overview for SharePoint Server 2013](/previous-versions/office/sharepoint-server-2010/ff758647(v=office.14))
 

@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 8de5bc7f-026c-4685-a6f6-a8fd814c2b70
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleInfoPath Forms Services forms cannot be filled out in a Web browser because no State Service connection is configured, in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: InfoPath Forms Services forms cannot be filled out in a Web browser because no State Service connection is configured."
 ---
 
 # InfoPath Forms Services forms cannot be filled out in a Web browser because no State Service connection is configured (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "InfoPath Forms Services forms cannot be filled out in a Web browser because no State Service connection is configured", in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
  **Rule Name:** InfoPath Forms Services forms cannot be filled out in a Web browser because no State Service connection is configured. 
   
@@ -50,7 +50,7 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleI
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 Products cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -60,6 +60,6 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleI
   New-SPStateServiceDatabase -Name "State Service Database" | New-SPStateServiceApplication -Name "StateServiceApp1" | New-SPStateServiceApplicationProxy -DefaultProxyGroup
   ```
 
-    For more information, see [New-SPStateServiceApplication](http://technet.microsoft.com/library/d9fe0940-2f01-45be-be77-905b8589e1a4.aspx).
+    For more information, see [New-SPStateServiceApplication](/powershell/module/sharepoint-server/New-SPStateServiceApplication?view=sharepoint-ps).
     
 

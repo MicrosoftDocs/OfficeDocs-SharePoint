@@ -1,9 +1,8 @@
 ---
-title: "Deployment considerations for implementing Microsoft Identity Manager with SharePoint Server 2016"
+title: "Deployment considerations for implementing Microsoft Identity Manager with SharePoint Servers 2016 and 2019"
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
-ms.date: 3/13/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
@@ -12,14 +11,14 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 5020140d-24c4-4817-8bb4-05e1c225d1f2
-description: "Summary: Learn about deployment considerations of a Microsoft Identity Manager (MIM) deployment in a SharePoint Server 2016 farm."
+description: "Learn about deployment considerations of a Microsoft Identity Manager (MIM) deployment in a SharePoint Server farm."
 ---
 
-# Deployment considerations for implementing Microsoft Identity Manager with SharePoint Server 2016
+# Deployment considerations for implementing Microsoft Identity Manager with SharePoint Servers 2016 and 2019
 
- **Summary:** Learn about deployment considerations of a Microsoft Identity Manager (MIM) deployment in a SharePoint Server 2016 farm. 
-  
-To increase your chances of a successful MIM deployment in SharePoint Server 2016, follow these recommendations:
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)]
+ 
+To increase your chances of a successful MIM deployment in SharePoint Server, follow these recommendations:
   
 ## Plan the migration from your test environment to your production environment
 

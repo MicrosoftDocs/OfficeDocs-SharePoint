@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 0a785758-694c-4c5c-abe6-70a17b490c6e
-description: "Summary: Learn how to manage and share service applications across farms in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to manage and share service applications across farms in SharePoint Server."
 ---
 
 # Manage service applications in SharePoint Server
 
- **Summary:** Learn how to manage and share service applications across farms in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 SharePoint Server includes a set of service applications that you can use to share services across web applications. In some cases, you can also share service applications across farms. You can manage service applications by using the SharePoint Central Administration website or by using Windows PowerShell 3.0. 
   
@@ -51,8 +51,8 @@ Some SharePoint service applications have specific instructions for their creati
 |PerformancePoint  <br/> |[Configure PerformancePoint Services](configure-performancepoint-services.md) <br/> |
 |Search Service  <br/> |[Administer search in SharePoint Server](../search/search-administration.md) <br/> |
 |Secure Store  <br/> |[Configure the Secure Store Service in SharePoint Server](configure-the-secure-store-service.md) <br/> |
-|State Service  <br/> |[Manage the State Service](http://technet.microsoft.com/library/5765c57c-372b-4974-a60a-2277996550aa.aspx) <br/> |
-|Visio Graphics Service  <br/> |[Visio Graphics Service administration in SharePoint Server 2013](http://technet.microsoft.com/library/508bdc3e-ac93-4087-b09b-83b6d0412924%28Office.14%29.aspx) <br/> |
+|State Service  <br/> |[Manage the State Service](/previous-versions/office/sharepoint-server-2010/ee704548(v=office.14)) <br/> |
+|Visio Graphics Service  <br/> |[Visio Graphics Service administration in SharePoint Server 2013](/previous-versions/office/sharepoint-server-2010/ee524059(v=office.14)) <br/> |
 |User Profile Service  <br/> |[Administer the User Profile service in SharePoint Server](user-profile-service-administration.md) <br/> |
    
 ## See also

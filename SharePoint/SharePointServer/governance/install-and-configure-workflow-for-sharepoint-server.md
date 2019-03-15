@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: b37c1d36-5bfe-4f76-bb03-2c5436c043a2
 
-description: "Summary: Learn how to install and configure workflow in SharePoint Server."
+description: "Learn how to install and configure workflow in SharePoint Server."
 ---
 
 # Install and configure workflow for SharePoint Server
 
- **Summary:** Learn how to install and configure workflow in SharePoint Server. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 This article contains the information and procedures required to configure workflow in SharePoint Server.
   
@@ -41,21 +41,23 @@ The only platform available when you first install SharePoint Server is the Shar
 |**Platform Type**|**Platform Framework**|**Requirements**|
 |:-----|:-----|:-----|
 |**SharePoint 2010 Workflow** <br/> |Windows Workflow Foundation 3  <br/> |Installs automatically with SharePoint Server.  <br/> |
-|**SharePoint 2013 Workflow** <br/> |Windows Workflow Foundation 4  <br/> |Requires SharePoint Server and Workflow Manager.  <br/> > [!NOTE]> Workflow Manager must be downloaded and installed separately from SharePoint Server. It does not install automatically when you install SharePoint Server.           |
+|**SharePoint 2013 Workflow** <br/> |Windows Workflow Foundation 4  <br/> |Requires SharePoint Server and Workflow Manager.  <br/> |
 |**SharePoint 2013 Workflow - Project Server** <br/> |Windows Workflow Foundation 4  <br/> |Requires SharePoint Server, Workflow Manager, and Project Server.  <br/> |
+
+> [!NOTE]
+> Workflow Manager must be downloaded and installed separately from SharePoint Server. It does not install automatically when you install SharePoint Server.
+
+## Install Workflow Manager
+
+Workflow Manager may be installed on the same servers as SharePoint or on separate, dedicated servers. Workflow Manager can be deployed with the Web PI tool. For more information on Web PI, see [Using the Microsoft Web Platform Installer](https://docs.microsoft.com/iis/install/web-platform-installer/using-the-microsoft-web-platform-installer).
    
 ## Install and configure SharePoint Server
 <a name="section3"> </a>
 
-You must install and configure SharePoint Server. To do so, see [Install and deploy SharePoint 2013](http://technet.microsoft.com/en-us/sharepoint/fp142376.aspx).
+You must install and configure SharePoint Server. To do so, see [Install and deploy SharePoint 2013](/sharepoint/).
   
 > [!NOTE]
 > The SharePoint 2010 Workflow platform installs automatically when you install SharePoint Server. The SharePoint 2013 Workflow platform requires Workflow Manager and must be installed separately and then configured to work with your SharePoint Server farm. > To function correctly SharePoint 2013 Workflows require to have App Management Service and Site Subscription Service provisioned. It is not required to setup a wildcard certificate and DNS registration but both instances need to be running. 
-  
-## Install and configure Workflow Manager
-<a name="section4"> </a>
-
-You must install and configure Workflow Manager. To do so, see [Installing and Configuring Workflow Manager 1.0](http://msdn.microsoft.com/en-us/library/jj193478.aspx).
   
 ## Configure Workflow Manager to work with the SharePoint Server farm
 <a name="section5"> </a>
@@ -153,8 +155,8 @@ These factors translate into four scenarios. Each scenario configures a SharePoi
   Register-SPWorkflowService -SPSite "http://myserver/mysitecollection" -WorkflowHostUri "http://workflow.example.com:12291" -AllowOAuthHttp
   ```
 
-    > [!IMPORTANT]
-    > You must install the Workflow Manager Client on each server in the SharePoint farm before you run the pairing cmdlet. 
+> [!IMPORTANT]
+> You must install the Workflow Manager Client on each server in the SharePoint farm before you run the pairing cmdlet. 
   
  **To configure Workflow Manager on a server that is NOT part of the SharePoint Server farm and on which communication takes place by using HTTPS**
   
@@ -180,8 +182,8 @@ These factors translate into four scenarios. Each scenario configures a SharePoi
   Register-SPWorkflowService -SPSite "https://myserver/mysitecollection" -WorkflowHostUri "https://workflow.example.com:12290"
   ```
 
-    > [!IMPORTANT]
-    > You must install the Workflow Manager Client on each server in the SharePoint farm before you run the pairing cmdlet. 
+> [!IMPORTANT]
+> You must install the Workflow Manager Client on each server in the SharePoint farm before you run the pairing cmdlet. 
   
 ## Validate the installation
 <a name="section6"> </a>

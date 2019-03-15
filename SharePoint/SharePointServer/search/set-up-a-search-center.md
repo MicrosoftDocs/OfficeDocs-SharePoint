@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 29631b03-598b-49d0-83e5-bac61cfc643b
-description: "Summary: Learn how to set up a Search Center in SharePoint Server 2016 and SharePoint Server 2013."
+description: "Learn how to set up a Search Center in SharePoint Server."
 ---
 
 # Set up a Search Center in SharePoint Server
 
- **Summary:** Learn how to set up a Search Center in SharePoint Server 2016 and SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 A Search Center is a portal where you can search for content on your organization's intranet. This series of articles will present details of how to set up and manage a Search Center in SharePoint Server. But before we learn about the details, we'll give you some background information and some planning tips and tricks.
   

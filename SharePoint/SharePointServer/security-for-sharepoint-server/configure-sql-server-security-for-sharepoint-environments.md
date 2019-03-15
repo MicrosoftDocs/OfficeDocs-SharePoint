@@ -3,7 +3,6 @@ title: "Configure SQL Server security for SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 12/21/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
@@ -12,17 +11,17 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 2c727311-e83e-4f7b-b02c-9a0699a81e64
-description: "Summary: Learn how to improve the security of SQL Server for SharePoint Server 2016 and SharePoint 2013 environments."
+description: "Learn how to improve the security of SQL Server for SharePoint Server environments."
 ---
 
 # Configure SQL Server security for SharePoint Server
 
- **Summary:** Learn how to improve the security of SQL Server for SharePoint Server 2016 and SharePoint 2013 environments. 
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
   
 When you install SQL Server, the default settings help to provide a safe database. In addition, you can use SQL Server tools and Windows Firewall to add additional security to SQL Server for SharePoint Server environments. 
   
 > [!IMPORTANT]
-> The security steps in this topic are fully tested by the SharePoint team. There are other ways to help secure SQL Server in a SharePoint Server farm. For more information, see [Securing SQL Server](https://go.microsoft.com/fwlink/?linkid=865827) and [Securing SharePoint: Harden SQL Server in SharePoint Environments](https://blogs.technet.com/b/rycampbe/archive/2013/10/14/securing-sharepoint-harden-sql-server-in-sharepoint-environments.aspx). 
+> The security steps in this topic are fully tested by the SharePoint team. There are other ways to help secure SQL Server in a SharePoint Server farm. For more information, see [Securing SQL Server](https://go.microsoft.com/fwlink/?linkid=865827). 
   
     
 ## Before you begin
@@ -63,17 +62,17 @@ SQL Server provides the ability to reassign the ports that are used by the defau
     
 7. To globally change the port that the default instance is listening on, follow these steps:
     
-  - For each IP address except **IPAll**, clear all values for both **TCP dynamic ports** and **TCP Port**.
+   - For each IP address except **IPAll**, clear all values for both **TCP dynamic ports** and **TCP Port**.
     
-  - For **IPAll**, clear the value for **TCP dynamic ports**. In the **TCP Port** field, enter the port that you want the instance of SQL Server to listen on. For example, enter 40000. 
+   - For **IPAll**, clear the value for **TCP dynamic ports**. In the **TCP Port** field, enter the port that you want the instance of SQL Server to listen on. For example, enter 40000. 
     
 8. To globally change the port that a named instance is listening on, follow these steps:
     
-  - For each IP address including **IPAll**, clear all values for **TCP dynamic ports**. A value of 0 for this field indicates that SQL Server uses a dynamic TCP port for the IP address. A blank entry for this value means that SQL Server will not use a dynamic TCP port for the IP address.
+   - For each IP address including **IPAll**, clear all values for **TCP dynamic ports**. A value of 0 for this field indicates that SQL Server uses a dynamic TCP port for the IP address. A blank entry for this value means that SQL Server will not use a dynamic TCP port for the IP address.
     
-  - For each IP address except **IPAll**, clear all values for **TCP Port.**
+   - For each IP address except **IPAll**, clear all values for **TCP Port.**
     
-  - For **IPAll**, clear the value for **TCP dynamic ports**. In the **TCP Port** field, enter the port that you want the instance of SQL Server to listen on. For example, enter 40000. 
+   - For **IPAll**, clear the value for **TCP dynamic ports**. In the **TCP Port** field, enter the port that you want the instance of SQL Server to listen on. For example, enter 40000. 
     
 9. Click **OK**. 
     
@@ -145,9 +144,9 @@ If you block UDP port 1434 or TCP port 1433 on the computer that is running SQL 
     
 2. Run Setup for SQL Server on the target computer, and install the following client components:
     
-  - **Connectivity Components**
+   - **Connectivity Components**
     
-  - **Management Tools**
+   - **Management Tools**
     
 3. Open SQL Server Configuration Manager.
     
@@ -165,7 +164,7 @@ If you block UDP port 1434 or TCP port 1433 on the computer that is running SQL 
     
 10. **Verification:** You can test the SQL Server client alias by using SQL Server Management Studio, which is available when you install SQL Server client components. 
     
-11. Open SQL ServerManagement Studio.
+11. Open SQL Server Management Studio.
     
 12. When you are prompted to enter a server name, enter the name of the alias that you created, and then click **Connect**. If the connection is successful, SQL ServerManagement Studio is populated with objects that correspond to the remote database.
     
@@ -177,6 +176,8 @@ If you block UDP port 1434 or TCP port 1433 on the computer that is running SQL 
 #### Other Resources
 
 [SQL Server Security Blog](https://blogs.msdn.microsoft.com/sqlsecurity/)
+
+[SQL Vulnerability Assessment](/sql/relational-databases/security/sql-vulnerability-assessment?view=sql-server-2017)
   
 [Securing SharePoint: Harden SQL Server in SharePoint Environments](https://blogs.technet.com/b/rycampbe/archive/2013/10/14/securing-sharepoint-harden-sql-server-in-sharepoint-environments.aspx)
   

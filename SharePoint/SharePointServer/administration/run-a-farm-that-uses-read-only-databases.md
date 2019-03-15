@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 8b91dc0a-c37d-4ec8-aa75-deb3f268fb97
-description: "Summary: Learn how to run a read-only SharePoint Server 2016 and SharePoint 2013 farm with some or all databases set as read-only."
+description: "Learn how to run a read-only SharePoint Server farm with some or all databases set as read-only."
 ---
 
 # Run a farm that uses read-only databases in SharePoint Server
 
- **Summary:** Learn how to run a read-only SharePoint Server 2016 and SharePoint 2013 farm with some or all databases set as read-only. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 You can use Microsoft PowerShell or SQL Server tools to set your SharePoint Server databases to read-only. The tool that you use depends on the kind of environment that you have deployed, your schedule requirements, and service level agreements that you have made with your organization.
   
@@ -86,7 +86,7 @@ Before you set content databases to read-only, you may need to determine the con
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -102,7 +102,7 @@ Before you set content databases to read-only, you may need to determine the con
     
     The command returns the content database that is associated with the site.
     
-For more information, see [Get-SPContentDatabase](http://technet.microsoft.com/library/a4a83bb0-0bab-4cad-9b59-0fd89a16f57b.aspx).
+For more information, see [Get-SPContentDatabase](/powershell/module/sharepoint-server/Get-SPContentDatabase?view=sharepoint-ps).
   
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 

@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 86bb109d-865f-4f86-bb3d-87ecfc4e50ae
-description: "Summary: Learn how to prepare and move site collections between databases in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to prepare and move site collections between databases in SharePoint Server."
 ---
 
 # Move site collections between databases in SharePoint Server
 
- **Summary:** Learn how to prepare and move site collections between databases in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 Under some circumstances, you might want to move one or more site collections to a different content database. For example, a site collection can outgrow the content database on which it resides, and you would have to move the site collection to a larger content database. In SharePoint Server, you should view this procedure as moving the site collection to a larger database.
   
@@ -60,7 +60,7 @@ Regardless of the reason for moving a site collection, you should always begin t
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -83,7 +83,7 @@ Regardless of the reason for moving a site collection, you should always begin t
     > [!NOTE]
     > The amount of disk space that is displayed does not include the disk space that is used by the auditing data that will be moved with the site collection. 
   
-For more information, see [Get-SPSiteAdministration](http://technet.microsoft.com/library/a05769b1-7559-4af4-8524-5cbcc1bd4f25.aspx).
+For more information, see [Get-SPSiteAdministration](/powershell/module/sharepoint-server/Get-SPSiteAdministration?view=sharepoint-ps).
   
  <a name="proc2"></a>**To archive and trim audit data by using PowerShell**
   
@@ -98,7 +98,7 @@ For more information, see [Get-SPSiteAdministration](http://technet.microsoft.co
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -118,7 +118,7 @@ For more information, see [Get-SPSiteAdministration](http://technet.microsoft.co
   (Get-SPSite -Identity <http://ServerName/Sites/SiteName>).Audit.DeleteEntries(deleteEndDate)
   ```
 
-For more information, see [Get-SPSite](http://technet.microsoft.com/library/f3422bf4-0f9b-4f22-94c8-2a0606a31b16.aspx).
+For more information, see [Get-SPSite](/powershell/module/sharepoint-server/Get-SPSite?view=sharepoint-ps).
   
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
@@ -141,7 +141,7 @@ You can use the PowerShell command **Move-SPSite** to move site collections betw
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Get-SPSite?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -170,7 +170,7 @@ You can use the PowerShell command **Move-SPSite** to move site collections betw
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -188,7 +188,7 @@ You can use the PowerShell command **Move-SPSite** to move site collections betw
     
     This command moves all site collections from the source content database to the destination content database.
     
-For more information, see [Move-SPSite](http://technet.microsoft.com/library/e3bf1b34-78b9-4643-b0dd-24444e3cffc5.aspx).
+For more information, see [Move-SPSite](/powershell/module/sharepoint-server/Move-SPSite?view=sharepoint-ps).
   
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 

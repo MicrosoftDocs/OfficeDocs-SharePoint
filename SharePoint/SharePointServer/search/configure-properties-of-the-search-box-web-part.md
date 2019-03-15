@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 766e0169-1a5d-4730-9c9f-7e2b27ba7d5d
-description: "Summary: Learn how to configure properties of the Search Box Web Part."
+description: "Learn how to configure properties of the Search Box Web Part."
 ---
 
 # Configure properties of the Search Box Web Part in SharePoint Server
 
- **Summary:** Learn how to configure properties of the Search Box Web Part. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 By default, the Search Box Web Part is used on the home page for the Search Center (default.aspx), and all search results pages (results.aspx, peopleresults.aspx, conversationresults.aspx, videoresults.aspx). By changing properties in the Search Box Web Part you can you can do the following:
   
@@ -33,7 +33,7 @@ By default, the Search Box Web Part is used on the home page for the Search Cent
 > [!NOTE]
 > Because SharePoint Server runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server supports the accessibility features of supported browsers. For more information, see the following resources: 
 >- [Plan browser support](https://go.microsoft.com/fwlink/p/?LinkId=246502)
->- [Accessibility for SharePoint 2013](http://technet.microsoft.com/library/94ad4316-1077-400a-b17e-a2085a5a7312%28Office.14%29.aspx)
+>- [Accessibility for SharePoint 2013](/SharePoint/accessibility-guidelines)
 >- [Accessibility features in SharePoint 2013 Products](https://go.microsoft.com/fwlink/p/?LinkId=246501)
 >- [Keyboard shortcuts](https://go.microsoft.com/fwlink/p/?LinkID=246504)
 >- [Touch](https://go.microsoft.com/fwlink/p/?LinkId=246506)

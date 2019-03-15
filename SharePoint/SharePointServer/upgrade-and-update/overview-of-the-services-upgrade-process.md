@@ -12,12 +12,10 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 5aeff319-0a8f-4d6b-86d5-6086611c48ed
-description: "Summary: Create a plan to upgrade data for service applications when you upgrade from SharePoint Server 2013 to SharePoint Server 2016."
+description: "Create a plan to upgrade data for service applications when you upgrade from SharePoint Server 2013 to SharePoint Server 2016."
 ---
 
-# Services upgrade overview for SharePoint Server 2016
-
- **Summary: ** Create a plan to upgrade data for service applications when you upgrade from SharePoint Server 2013 to SharePoint Server 2016. 
+# Services upgrade overview for SharePoint Server 2016   
   
 The upgrade process for SharePoint Server 2016 uses the database attach upgrade method. When you move your databases to a new farm and upgrade the content, you must create your services infrastructure in the new farm, and configure the services appropriately for your new farm and new version. The following service applications have databases that can be upgraded when you upgrade from SharePoint Server 2013 to SharePoint Server 2016:
   
@@ -82,7 +80,7 @@ Specifically, the following service application databases can be upgraded:
 |Secure Store  <br/> |Secure_Store_Service_DB_\<GUID\>  <br/> |
 |User Profile: Profile and Social databases  <br/> |User Profile Service Application_ProfileDB_\<GUID\>  <br/> User Profile Service Application_SocialDB_\<GUID\>  <br/> User Profile Service Application_SyncDB_\<GUID\>  <br/> |
    
-The steps to upgrade these service application databases are included in [Upgrade service applications to SharePoint Server 2016](https://technet.microsoft.com/en-us/library/jj839719%28v=office.16%29.aspx).
+The steps to upgrade these service application databases are included in [Upgrade service applications to SharePoint Server 2016](/SharePoint/upgrade-and-update/upgrade-service-applications-to-sharepoint-server-2016).
   
 ## Considerations for specific services
 <a name="Considerations"> </a>
@@ -95,7 +93,7 @@ The following services in SharePoint Server 2016 also require additional steps t
     
 - **Office Online Server**
     
-    You must deploy Office Online Server and then connect SharePoint Server 2016 it to after the content databases are upgraded. You do not have to wait until the site collections are upgraded because Office Online Server supports both the 2013 and 2016 site collection modes in SharePoint Server 2016. For more information, see [Office Web Apps](http://technet.microsoft.com/library/e75c9827-f5ce-4099-a08c-b42fde72ea98.aspx).
+    You must deploy Office Online Server and then connect SharePoint Server 2016 it to after the content databases are upgraded. You do not have to wait until the site collections are upgraded because Office Online Server supports both the 2013 and 2016 site collection modes in SharePoint Server 2016. For more information, see [Office Web Apps](/webappsserver/office-web-apps-server).
     
 ## See also
 <a name="Considerations"> </a>

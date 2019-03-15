@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 73d7f970-c378-4b31-92d5-48cdeb8075e6
-description: "Summary: Learn how to document farm configuration settings in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to document farm configuration settings in SharePoint Server."
 ---
 
 # Document farm configuration settings in SharePoint Server
 
- **Summary:** Learn how to document farm configuration settings in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 You can document your farm configuration settings in SharePoint Server by using PowerShell. 
   
@@ -44,7 +44,7 @@ The following procedure describes how to create and run a PowerShell script for 
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see Permissions and [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see Permissions and [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Use a text editor, such as Notepad, to create a text file by pasting the following code into the file. The commands in the example create XML files that document the configurations of the Web applications and service applications in the current farm. Choose only those commands that are relevant to your environment.
     
@@ -247,7 +247,7 @@ The following procedure describes how to create and run a PowerShell script for 
   ./SuggestedFileName.ps1
   ```
 
-For more information, see [Export-Clixml](http://go.microsoft.com/fwlink/p/?LinkID=733400&amp;clcid=0x409), [Get-SPWebApplication](http://technet.microsoft.com/library/11d6521f-f99c-433e-9ab5-7cf9e953457a.aspx), [Get-SPServiceApplication](http://technet.microsoft.com/library/71a467dc-3b95-4b65-af93-0d0d6ebb8326.aspx).
+For more information, see [Export-Clixml](http://go.microsoft.com/fwlink/p/?LinkID=733400&amp;clcid=0x409), [Get-SPWebApplication](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps), [Get-SPServiceApplication](/powershell/module/sharepoint-server/Get-SPServiceApplication?view=sharepoint-ps).
   
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
@@ -353,9 +353,9 @@ Import-Clixml .\Get-SPAlternateURL.xml | %{$_.Uri | Get-Member}
   
 [Import-Clixml](http://go.microsoft.com/fwlink/p/?LinkID=733402&amp;clcid=0x409)
   
-[Get-SPAlternateURL](http://technet.microsoft.com/library/ea38119d-a535-48a3-b498-9daa443399fb.aspx)
+[Get-SPAlternateURL](/powershell/module/sharepoint-server/Get-SPAlternateURL?view=sharepoint-ps)
   
-[ForEach-Object](https://technet.microsoft.com/en-us/library/dd347608.aspx)
+[ForEach-Object](/previous-versions//dd347608(v=technet.10))
   
-[Get-Member](https://technet.microsoft.com/en-us/library/hh849928.aspx)
+[Get-Member](/powershell/module/Microsoft.PowerShell.Utility/Get-Member?view=powershell-5.1)
 

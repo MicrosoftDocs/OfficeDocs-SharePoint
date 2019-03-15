@@ -10,20 +10,20 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 92ba47ea-a881-4f31-9b8d-e2587edff16d
-description: "Summary: Learn about the new features that are included in the September 2017 Public Update for SharePoint Server 2016 (Feature Pack 2)."
+description: "Learn about the new features that are included in the September 2017 Public Update for SharePoint Server 2016 (Feature Pack 2)."
 ---
 
 # New features in September 2017 PU for SharePoint Server 2016 (Feature Pack 2)
 
- **Summary:** Learn about the new features that are included in the September 2017 Public Update for SharePoint Server 2016 (Feature Pack 2). 
-  
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]
+
 For a list of updates and associated KB articles for SharePoint Server 2016, SharePoint 2013, and SharePoint 2010, see [SharePoint Updates](../sharepoint-updates.md).
   
 SharePoint Framework client-side web part support with classic SharePoint pages is included in the September 2017 Public Update for SharePoint Server 2016 (Feature Pack 2).
   
 ## SharePoint Server 2016 (Feature Pack 2)
 
-SharePoint Server 2016 Feature Pack 2 contains SharePoint Framework client-side web part support with classic SharePoint pages. SharePoint Server 2016 only supports using one version of the SharePoint Framework because this version matches the server-side dependencies of the deployed packages. SharePoint Online always uses the latest version of the SharePoint Framework. The reason for this is because SharePoint Online and SharePoint Server 2016 don't have the same release cycles for new capabilities so they also need different resources from the SharePoint Framework. For more information, see [SharePoint Framework development with SharePoint 2016 Feature Pack 2](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-2016-support) and [Overview of the SharePoint Framework](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview).
+SharePoint Server 2016 Feature Pack 2 contains SharePoint Framework client-side web part support with classic SharePoint pages. SharePoint Server 2016 only supports using one version of the SharePoint Framework because this version matches the server-side dependencies of the deployed packages. SharePoint Online always uses the latest version of the SharePoint Framework. The reason for this is because SharePoint Online and SharePoint Server 2016 don't have the same release cycles for new capabilities so they also need different resources from the SharePoint Framework. For more information, see [SharePoint Framework development with SharePoint 2016 Feature Pack 2](/sharepoint/dev/spfx/sharepoint-2016-support) and [Overview of the SharePoint Framework](/sharepoint/dev/spfx/sharepoint-framework-overview).
   
 > [!IMPORTANT]
 > Feature Pack 2 contains all of the new features that shipped with Feature Pack 1. You don't need to separately install Feature Pack 1 and then install Feature Pack 2. Feature Pack 2 is included in all future Public Updates for SharePoint Server 2016, beginning with the September 2017 Public Update. 

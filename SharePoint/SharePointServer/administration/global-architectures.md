@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 23622f74-cc2c-4121-b22d-93e41af88b94
-description: "Summary: Learn about supported architectures for SharePoint Server 2013 and SharePoint Server 2016 in WAN environments, strategies for optimizing performance over WAN connections, and recommendations for service applications."
+description: "Learn about supported architectures for SharePoint Server in WAN environments, strategies for optimizing performance over WAN connections, and recommendations for service applications."
 ---
 
 # Global architectures for SharePoint Server
 
- **Summary:** Learn about supported architectures for SharePoint Server 2013 and SharePoint Server 2016 in WAN environments, strategies for optimizing performance over WAN connections, and recommendations for service applications. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 SharePoint Server is optimized to perform well over wide-area network (WAN) connections. For most customers, a centralized environment is the recommended architecture for serving a world-wide user base. Customers who have sites that are not well connected might benefit from deploying one or more regional farms. This article describes supported architectures, strategies to optimize SharePoint Server for WAN connections, and recommendations for service applications.
     
@@ -93,7 +93,7 @@ Several client tools can greatly improve the user experience over WAN connection
 
 Office Online Server is an Office server product that delivers browser-based versions of Word, PowerPoint, Excel, and OneNote. Office Online Server greatly improves performance in WAN environments because users don't upload or download files. A single Office Online Server farm can support users who access Office files through SharePoint Server 2016, Skype for Business Server 2015, and Exchange Server 2013. Office Online Server works well in environments that have high-latency connections, or low bandwidth connections, or both. It might not work well in environments that have intermittent connections. 
   
-A Office Online Server farm is typically located in the same datacenter as the SharePoint Server 2016 farm, although this is not a requirement. Locating a Office Online Server farm in a remote datacenter where SharePoint sites are not located will not improve performance. For more information, see [Office Web Apps Server overview](https://technet.microsoft.com/library/4b199a88-387f-4121-820d-7af580e2a3e8.aspx).
+A Office Online Server farm is typically located in the same datacenter as the SharePoint Server 2016 farm, although this is not a requirement. Locating a Office Online Server farm in a remote datacenter where SharePoint sites are not located will not improve performance. For more information, see [Office Web Apps Server overview](/webappsserver/office-web-apps-server-overview).
   
 ### OneDrive for Business
 

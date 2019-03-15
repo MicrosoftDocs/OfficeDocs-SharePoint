@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 86ffc7e1-293e-4ca9-8235-4480307f4210
-description: "Summary: Learn about best practices for fine-grained permissions and how to use them within your organization when you use SharePoint 2013 or SharePoint Server 2016."
+description: "Learn about best practices for fine-grained permissions and how to use them within your organization when you use SharePoint Server."
 ---
 
 # Best practices for using fine-grained permissions in SharePoint Server
 
- **Summary:** Learn about best practices for fine-grained permissions and how to use them within your organization when you use SharePoint 2013 or SharePoint Server 2016. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 Fine-grained permissions can influence security on a SharePoint farm. Potential performance issues can occur when you use fine-grained permissions. The following information helps you address issues when an environment is experiencing issues that incorrect use or scale of fine-grained permissions might have caused.
   
@@ -42,9 +42,9 @@ You can avoid fine-grained permissions by doing the following:
 
 Before you begin this operation, review the following information about prerequisites:
   
-- [Fine-grained permission reference for SharePoint Server](https://technet.microsoft.com/library/d1410f72-1d58-48e6-9311-b1248f4a81f6)
+- [Fine-grained permission reference for SharePoint Server](/sharepoint/security-for-sharepoint-server/security-for-sharepoint-server)
     
-- [Troubleshoot common fine-grained permissions issues for SharePoint Server](https://technet.microsoft.com/library/d0768e2c-b733-4583-bbe6-c03af04fc5b7)
+- [Troubleshoot common fine-grained permissions issues for SharePoint Server](/SharePoint/administration/troubleshoot-common-fine-grained-permissions-issues)
     
 ## Best practices to avoid common limit issues of fine-grained permissions
 <a name="avoidcommonfgpissues"> </a>
@@ -92,23 +92,23 @@ Change the built-in scope limit by using a Microsoft PowerShell script.
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](https://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the **SharePoint Management Shell**. 
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  $webapp = Get-SPWebApplication http://<serverName>
-  $webapp.MaxUniquePermScopesPerList
-  $webapp.MaxUniquePermScopesPerList = <Number of scope limit>
-  ```
+   ```
+   $webapp = Get-SPWebApplication http://<serverName>
+   $webapp.MaxUniquePermScopesPerList
+   $webapp.MaxUniquePermScopesPerList = <Number of scope limit>
+   ```
 
-    Where:
+   Where:
     
-  - Where  _\<serverName\>_ is the name of the application server in the SharePoint farm. 
+   - Where  _\<serverName\>_ is the name of the application server in the SharePoint farm. 
     
-  - Where  _\<Number of scope limit\>_ is the maximum number of unique permissions scopes that you want to allow per SharePoint list. Often, the effective limit is much smaller than 50,000 if many scopes exist at the same hierarchical level. This is because display checks for items below that hierarchical level must be checked against all scopes above them. This limitation can cause the effective number of scopes allowed in a particular query to be reduced to 1,000 to 2,000. 
+   - Where  _\<Number of scope limit\>_ is the maximum number of unique permissions scopes that you want to allow per SharePoint list. Often, the effective limit is much smaller than 50,000 if many scopes exist at the same hierarchical level. This is because display checks for items below that hierarchical level must be checked against all scopes above them. This limitation can cause the effective number of scopes allowed in a particular query to be reduced to 1,000 to 2,000. 
     
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 

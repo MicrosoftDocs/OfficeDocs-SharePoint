@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 5e44cf6c-2271-4ff1-af7f-4e73849ffdf6
-description: "Summary: Configure the AdventureWorks sample data for use with Excel, Excel Services in SharePoint Server 2013, and PerformancePoint Services business intelligence scenarios."
+description: "Configure the AdventureWorks sample data for use with Excel, Excel Services in SharePoint Server 2013, and PerformancePoint Services business intelligence scenarios."
 ---
 
 # Configure AdventureWorks for Business Intelligence solutions
 
- **Summary:** Configure the AdventureWorks sample data for use with Excel, Excel Services in SharePoint Server 2013, and PerformancePoint Services business intelligence scenarios. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
   
 The AdventureWorks sample data set provides a sample database, data warehouse, and OLAP cube. The subsequent articles in this section make use of this sample data to demonstrate Business Intelligence capabilities in Excel, Excel Services in SharePoint Server 2013, and PerformancePoint Services. This article describes how to install and configure the AdventureWorks sample data set and configure a Business Intelligence Center on your SharePoint Server 2013 farm.
   
@@ -40,9 +40,9 @@ Before starting, read the following information about permissions and software r
     
 - To create a Business Intelligence Center, you must be a farm administrator on the SharePoint Server 2013 farm.
     
-The subsequent articles make use of Excel Services and PerformancePoint Services. It is assumed that these are configured on your farm. For information about deploying Excel Services, see [Overview of Excel Services in SharePoint Server 2013](excel-services-overview.md) and [Configure Excel Services in SharePoint Server 2013](http://technet.microsoft.com/library/9cb81758-9d0b-4970-9ca0-a75eedf6093b.aspx). 
+The subsequent articles make use of Excel Services and PerformancePoint Services. It is assumed that these are configured on your farm. For information about deploying Excel Services, see [Overview of Excel Services in SharePoint Server 2013](excel-services-overview.md) and [Configure Excel Services in SharePoint Server 2013](/SharePoint/administration/configure-excel-services). 
   
-When using Excel Services or PerformancePoint Services, user access can be provided using Windows Authentication with Kerberos delegation, the Secure Store Service, or, with OLAP data sources, the EffectiveUserName feature. It is assumed that one or more of these options are configured on your farm. For information about configuring Secure Store, see [Plan the Secure Store Service in SharePoint Server](http://technet.microsoft.com/library/e1196de0-1eb9-4c50-aeca-93e0eba7be0d%28Office.14%29.aspx) and [Configure the Secure Store Service in SharePoint Server](configure-the-secure-store-service.md). For information about configuring the EffectiveUserName feature for OLAP data sources, see [Use Analysis Services EffectiveUserName in SharePoint Server](use-analysis-services-effectiveusername-in-sharepoint-server.md).
+When using Excel Services or PerformancePoint Services, user access can be provided using Windows Authentication with Kerberos delegation, the Secure Store Service, or, with OLAP data sources, the EffectiveUserName feature. It is assumed that one or more of these options are configured on your farm. For information about configuring Secure Store, see [Plan the Secure Store Service in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806889(v=office.14)) and [Configure the Secure Store Service in SharePoint Server](configure-the-secure-store-service.md). For information about configuring the EffectiveUserName feature for OLAP data sources, see [Use Analysis Services EffectiveUserName in SharePoint Server](use-analysis-services-effectiveusername-in-sharepoint-server.md).
   
 ## Video demonstration
 <a name="VideoDemonstration"> </a>

@@ -14,17 +14,17 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 56a95840-704c-4aa0-9d37-078e7ab4f83c
-description: "Summary: Learn about OneDrive for Business in SharePoint Server."
+description: "Learn about OneDrive for Business in SharePoint Server."
 ---
 
 # Overview of OneDrive for Business in SharePoint Server
 
- **Summary:** Learn about OneDrive for Business in SharePoint Server. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 > [!NOTE]
 > While OneDrive for Business is used in both SharePoint Server on-premises and Office 365 environments, this article describes how it works in SharePoint Server. For more information about how it works in an Office 365 environment, see [What is OneDrive for Business?](https://go.microsoft.com/fwlink/?LinkId=747076). 
   
-OneDrive for Business is the default document library in a user's [What's new in social computing in SharePoint Server 2013](http://technet.microsoft.com/library/da420281-a5bf-4caa-bb77-73fbf5a97136%28Office.14%29.aspx#MySites) in SharePoint Server or in Office 365. The contents of this library can optionally be synchronized with one or more of the user's computers or devices. 
+OneDrive for Business is the default document library in a user's [What's new in social computing in SharePoint Server 2013](/sharepoint/what-s-new/what-s-new#MySites) in SharePoint Server or in Office 365. The contents of this library can optionally be synchronized with one or more of the user's computers or devices. 
   
 By using OneDrive for Business, you can help ensure that business files for your users are stored in a central location. Storing business files in one location makes it easy for users to share and collaborate on documents. If you're using OneDrive for Business in Office 365, you can also reduce your on-premises storage costs by moving your users' files to the cloud.
   
@@ -70,6 +70,6 @@ Setting up OneDrive for Business hybrid requires [configuring Office 365](https:
 
 Setting up OneDrive for Business in SharePoint Server requires configuring a User Profile Service application and setting up My Sites. For detailed planning information, see [Plan for OneDrive for Business in SharePoint Server](onedrive-for-business-planning.md).
   
-For more information about how OneDrive for Business is used, see [Store, sync, and share your work files (OneDrive for Business)](https://support.office.com/en-us/article/Store-sync-and-share-your-work-files-OneDrive-for-Business-301817f6-9705-4525-ba3d-79082029b195).
+For more information about syncing OneDrive for Business files in SharePoint Server 2016 or 2013, see [Sync SharePoint files with the OneDrive for Business sync client (Groove.exe)](https://support.office.com/article/59b1de2b-519e-4d3a-8f45-51647cf291cd).
   
 

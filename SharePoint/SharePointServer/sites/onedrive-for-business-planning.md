@@ -14,12 +14,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: c033a091-2c08-4d20-8d3f-783317d718fa
-description: "Summary: Learn about things you need to consider when planning to setup OneDrive for Business in a SharePoint Server 2016 or a SharePoint Server 2013 on-premises environment."
+description: "Learn about things you need to consider when planning to setup OneDrive for Business in a SharePoint Server on-premises environment."
 ---
 
 # Plan for OneDrive for Business in SharePoint Server
 
- **Summary:** Learn about things you need to consider when planning to setup OneDrive for Business in a SharePoint Server 2016 or a SharePoint Server 2013 on-premises environment. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
     
 ## OneDrive for Business - Office 365 or SharePoint Server
@@ -87,7 +87,7 @@ Data on local disks on both server and Windows client computers can be encrypted
   
 Once a document library is synchronized with a computer or mobile device, the files continue to exist there. Files remain on the computer or device even if the user's My Site and their user account are deleted. In this situation, although the files remain on the computer or device, the user can't synchronize the files with SharePoint Server again.
   
-If storing files on a client workstation is against your corporate policy, you can [remove synchronization functionality from document libraries](http://technet.microsoft.com/library/26de1fdc-d98b-4dfa-8d46-09fa1ee4e417%28Office.14%29.aspx) in SharePoint Server. 
+If storing files on a client workstation is against your corporate policy, you can [remove synchronization functionality from document libraries](/SharePoint/sharepoint-server) in SharePoint Server. 
   
 ## Moving to a hybrid environment
 <a name="section5"> </a>

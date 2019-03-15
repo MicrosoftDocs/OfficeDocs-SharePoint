@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: e6600dfa-7f96-4c6f-a1be-b7ad348ac30f
-description: "Summary: Learn how to set up and configure My Sites in SharePoint Server 2013 and SharePoint Server 2016."
+description: "Learn how to set up and configure My Sites in SharePoint Server."
 ---
 
 # Configure My Sites in SharePoint Server
 
- **Summary:** Learn how to set up and configure My Sites in SharePoint Server 2013 and SharePoint Server 2016. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 This article describes how to set up My Sites in SharePoint Server. Like other tasks in SharePoint Server, there are multiple ways to complete a task. This article provides ordered tasks with prerequisites and procedures to help you set up My Sites in your enterprise.
   
@@ -37,7 +37,7 @@ Because My Sites have dependencies on other service applications and features in
 ### Web application
 <a name="webapp"> </a>
 
-Although you can use an existing web application, for optimal performance and security, we recommend that you create the My Site host site collection in a dedicated web application. For more information, see [Create a web application in SharePoint Server](http://technet.microsoft.com/library/121c8d83-a508-4437-978b-303096aa59df%28Office.14%29.aspx).
+Although you can use an existing web application, for optimal performance and security, we recommend that you create the My Site host site collection in a dedicated web application. For more information, see [Create a web application in SharePoint Server](/previous-versions/office/sharepoint-server-2010/cc261875(v=office.14)).
   
 > [!IMPORTANT]
 > If a My Site host site collection was created during initial deployment and configuration, we recommend that you do not use it because it was created in the default web application. Delete this site collection, and create a new web application that is dedicated to hosting My Sites. Then create a new My Site host site collection in the dedicated web application. 
@@ -147,15 +147,7 @@ Self-service site creation enables the automatic creation of a separate site col
     
 5. In the **Self-Service Site Creation Management** dialog box, in **Site Collections**, select **On**. Optionally, in **Quota template to apply**, select a quota template.
     
-6. In **Start a Site**, choose one of the following options: 
-    
-1. **Be hidden from users**
-    
-2. **Prompt users to create a team site under**
-    
-3. **Prompt users to create a site collection under any managed path**
-    
-4. **Display the custom form at**
+6. In **Start a Site** for SharePoint Server 2013 and 2016 or **Site Creation** in SharePoint Server 2019, any option may be selected, including hiding the Self-Service Site Creation process from the user.
     
 7. Click **OK** to finish. 
     
@@ -211,6 +203,9 @@ After you have a My Site host site collection and wildcard inclusion managed pat
 9. In the **Site Naming Format** section, select a naming format for the My Sites site collections that will be created when users view their My Sites for the first time. For more information about these formats, see [My Sites architecture](my-sites-planning.md#mysitesarch) in [Plan for My Sites in SharePoint Server](my-sites-planning.md).
     
 10. In the **Language Options** section, there is an option to specify whether users can select a preferred language for their My Site. However, the current behavior is to default to the installation language for SharePoint. [My Sites architecture](my-sites-planning.md#mysitesarch) in [Plan for My Sites in SharePoint Server](my-sites-planning.md)
+
+  > [!NOTE]
+  > This section is not present in SharePoint Server 2019.
     
 11. In the **Read Permission Level** section, specify the users or groups that can view other users' My Sites when they are created. By default, this includes all authenticated users. However, you can select a more specific group or users depending on the needs of your deployment. 
     

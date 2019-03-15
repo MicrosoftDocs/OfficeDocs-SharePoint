@@ -12,13 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: d9dac189-0736-448d-928c-68bf38603613
-description: "Summary: Learn how to move all databases associated with SharePoint Server 2016 and SharePoint 2013 to a new database server."
+description: "Learn how to move all databases associated with SharePoint Server to a new database server."
 ---
 
 # Move all databases in SharePoint Server
 
- **Summary:** Learn how to move all databases associated with SharePoint Server 2016 and SharePoint 2013 to a new database server. 
-  
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
 You can use the SharePoint Central Administration website, or SQL Server tools to move all databases that are associated with SharePoint Server to a new database server.
   
 ## Before you begin
@@ -93,7 +92,7 @@ Before you begin this operation, review the steps in this process:
     
   - [Scenario 1](#PS): Use this procedure to update the database connections if you use SharePoint Server and SQL Server AlwaysOn Availability Groups for high availability or disaster recovery. 
     
-  - [Scenario 2](#Man): Use this procedure if you must use manual steps or if you move the databases from a SharePoint Server Single-server farm role installation to a new Single-server farm role installation.
+  - [Scenario 2](#MAN): Use this procedure if you must use manual steps or if you move the databases from a SharePoint Server Single-server farm role installation to a new Single-server farm role installation.
     
 9. Restart all services that you stopped in step 3.
     
@@ -207,7 +206,10 @@ The version of the existing SharePoint Server and Windows Server must also suppo
     
 2. On the destination database server, attach the databases to the new instance. For more information, see [Attach a Database](http://go.microsoft.com/fwlink/p/?LinkID=717343) and [sp_attach_db (Transact-SQL)](http://go.microsoft.com/fwlink/p/?LinkID=717344).
     
-The following procedures provide methods to connect to the new SQL Server instance or update the database connections. Use the procedure that works best for your SharePoint Server farm environment. 
+The following procedures provide methods to connect to the new SQL Server instance or update the database connections. Use the procedure that works best for your SharePoint Server farm environment.
+
+> [!IMPORTANT]
+> If you're using SharePoint Server and SQL Server AlwaysOn Availability Groups before moving the databases, you should point to the AG Listner. If you're moving from a single-server farm to an AlwayOn Availability Group then you should use the cliconfg.exe.
   
 ### To point the web application to the new database server by setting up SQL Server connection aliases
 
@@ -219,23 +221,23 @@ The following procedures provide methods to connect to the new SQL Server instan
     
   - The **db_owner** fixed database role 
     
-3. Start the SQL Server Configuration Manager.
+3. Start the SQL Server Client Network Utility (cliconfg.exe). This utility is typically located in the C:\Windows\SysWOW64 and C:\Windows\System32 folder.
     
-4. Expand **SQL Server Native Client Configuration**, right-click **Aliases**, and then click **New Alias**.
+4. On the **General** tab, verify that TCP/IP is enabled.
     
-5. In the **Alias Name** box, enter the name of the new alias, which you are creating. 
+5. On the **Alias** tab, click **Add**. The Add Network Library Configuration window appears. 
     
-6. In the **Port Number** box, enter the number of the port the new alias will use to connect to SQL Server. 
+6. In the **Server alias** box, enter the name of the current instance of SQL Server. 
     
-7. In the **Protocol** box, click the drop-down arrow and select **TCP/IP**. This is the protocol the new alias will use to connect to the SQL Server.
+7. In the **Network libraries** area, click **TCP/IP**.
     
-8. In the **Server** box, enter the name of the current instance of SQL Server. 
+8. In the **Connection parameters** area, in the **Server name** box, enter the new server name and instance to associate with the alias, and then click **OK**. This is the name of the new server that is hosting the SharePoint Server databases. 
     
-9. Repeat steps 3 through 8 on all servers in the farm that connect to the new instance of SQL Server. For more information, see [Create or Delete a Server Alias for Use by a Client (SQL Server Configuration Manager](http://go.microsoft.com/fwlink/p/?LinkID=717391)
+9. Repeat steps 3 through 8 on all servers in the farm that connect to the new instance of SQL Server.
     
-10. Optional. If your environment relies on System Center 2012 - Data Protection Manager (DPM) or a third-party application that uses the Volume Shadow Copy Service framework for backup and recovery, you must install the SQL Server connectivity components on each web server or application server by running SQL Server setup. For more information, see [Install SQL Server 2014 from the Installation Wizard (Setup)](http://go.microsoft.com/fwlink/p/?LinkID=717350) and [Windows Server Installation and Upgrade](https://docs.microsoft.com/en-us/windows-server/get-started/installation-and-upgrade).
+10. Optional. If your environment relies on System Center 2012 - Data Protection Manager (DPM) or a third-party application that uses the Volume Shadow Copy Service framework for backup and recovery, you must install the SQL Server connectivity components on each web server or application server by running SQL Server setup. For more information, see [Install SQL Server 2014 from the Installation Wizard (Setup)](http://go.microsoft.com/fwlink/p/?LinkID=717350) and [Windows Server Installation and Upgrade](/windows-server/get-started/installation-and-upgrade).
     
-You can use these Microsoft PowerShell cmdlets to deploy, manage, and remove availability groups in SQL Server with SharePoint Server :
+You can use these Microsoft PowerShell cmdlets to deploy, manage, and remove availability groups in SQL Server with SharePoint Server:
   
 - **Add-DatabaseToAvailabilityGroup**
     
@@ -258,7 +260,7 @@ Use the following procedure to update the database connections if you use ShareP
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -268,7 +270,7 @@ Use the following procedure to update the database connections if you use ShareP
   Add-DatabaseToAvailabilityGroup -AGName "<AGGroupName>" -DatabaseName "<DatabaseName>" [-FileShare "<\\server\share>"]
   ```
 
-    Where:
+Where:
     
   - \<AGGroupName\> is the name of the Avaliability Group.
     
@@ -285,7 +287,7 @@ Use the next procedure for the following scenarios:
 - If you move the databases from a SharePoint Server 2016 Single-Server Farm role type to a new Single-Server Farm role type or from a SharePoint 2013 single-server installation to a new single-server installation.
     
     > [!NOTE]
-    > The Single-Server Farm role replaces the Standalone Install mode available in previous SharePoint Server releases. For more information, see [Overview of MinRole Server Roles in SharePoint Server 2016](../install/overview-of-minrole-server-roles-in-sharepoint-server-2016.md). 
+    > The Single-Server Farm role replaces the Standalone Install mode available in previous SharePoint Server releases. For more information, see [Overview of MinRole Server Roles in SharePoint Server 2016](../install/overview-of-minrole-server-roles-in-sharepoint-server.md). 
   
 - If you use Availability Groups then you must manually add the databases to the availability groups as appropriate to their high availability/disaster recovery support. For more information, see [Add a Database to an Availability Group (SQL Server)](http://go.microsoft.com/fwlink/p/?LinkID=717351)
     
@@ -298,25 +300,20 @@ Use the next procedure for the following scenarios:
 2. At the PowerShell command prompt, type the following commands:
     
   ```
-  $db = get-spdatabase -identity <guid>
+  $db = Get-SPDatabase -Identity <guid>
   ```
 
-    Where:
-    
-  - \<GUID\> is the ID of the database that you move.
+Where \<GUID\> is the ID of the database that you move.
     
     > [!NOTE]
-    > Use **Get-spdatabase** without parameters to see a list of all databases with GUIDs. 
+    > Use **Get-SPDatabase** without parameters to see a list of all databases with GUIDs. 
   
   ```
   $db.ChangeDatabaseInstance("<DBServerName>")
   ```
 
-    Where:
+Where \<DBServerName\> is the name or alias of the new SQL Server or is the AlwaysOn Availability Group listener DNS name.
     
-  - \<DBServerName\> is the name or alias of the new SQL Server or is the AlwaysOn Availability Group listener DNS name.
-    
-  - 
   ```
   $db.Update()
   ```
@@ -327,9 +324,7 @@ Use the next procedure for the following scenarios:
   $db.failoverserviceinstance("<DBServerName>")
   ```
 
-    Where:
-    
-  - \<DBServerName\> is the name or alias of the mirrored SQL Server.
+Where \<DBServerName\> is the name or alias of the mirrored SQL Server.
     
   ```
   $db.update()
@@ -367,9 +362,9 @@ Use the next procedure for the following scenarios:
 [Database types and descriptions in SharePoint Server](../technical-reference/database-types-and-descriptions.md)
 #### Other Resources
 
-[Quick reference guide: SharePoint Server 2016 databases](https://doc.co/qrafhS)
+[Quick reference guide: SharePoint Server 2016 databases](https://download.microsoft.com/download/D/5/D/D5DC1121-8BC5-4953-834F-1B5BB03EB691/DBrefguideSPS2016_tabloid.pdf)
   
 [Databases that support SharePoint 2013](https://go.microsoft.com/fwlink/p/?LinkId=257370)
   
-[Add a database server to an existing farm in SharePoint 2013](http://technet.microsoft.com/library/6925182e-82ff-4392-9297-f08525b9d96b%28Office.14%29.aspx)
+[Add a database server to an existing farm in SharePoint 2013](/previous-versions/office/sharepoint-server-2010/cc262781(v=office.14))
 

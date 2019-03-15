@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 80521ae8-be93-4d1c-9956-5f4bed1ac4a7
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleDedicated crawl target configuration has one or more invalid servers, in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: Dedicated crawl target configuration has one or more invalid servers, for SharePoint Server."
 ---
 
 # Dedicated crawl target configuration has one or more invalid servers (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "Dedicated crawl target configuration has one or more invalid servers", in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
  **Rule Name:** Dedicated crawl target configuration has one or more invalid servers. 
   
@@ -51,7 +51,7 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleD
     
   - Single-server farm or a stand-alone server in the SharePoint farm
     
-For more information, see [Overview of MinRole Server Roles in SharePoint Server 2016](../install/overview-of-minrole-server-roles-in-sharepoint-server-2016.md) and [Description of MinRole and associated services in SharePoint Server 2016](../administration/description-of-minrole-and-associated-services-in-sharepoint-server-2016.md).
+For more information, see [Overview of MinRole Server Roles in SharePoint Server 2016](../install/overview-of-minrole-server-roles-in-sharepoint-server.md) and [Description of MinRole and associated services in SharePoint Server 2016](../administration/description-of-minrole-and-associated-services-in-sharepoint-server-2016.md).
   
 ## See also
 

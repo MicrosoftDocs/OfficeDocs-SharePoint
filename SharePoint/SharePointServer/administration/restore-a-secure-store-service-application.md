@@ -3,7 +3,6 @@ title: "Restore Secure Store Service applications in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 3/10/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -12,12 +11,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 237d399e-b50b-42e6-90ff-e659a94d8099
-description: "Summary: Learn how to restore the Secure Store Service application in SharePoint Server 2016 and SharePoint Server 2013."
+description: "Learn how to restore the Secure Store Service application in SharePoint Server."
 ---
 
 # Restore Secure Store Service applications in SharePoint Server
 
- **Summary:** Learn how to restore the Secure Store Service application in SharePoint Server 2016 and SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 You can restore the Secure Store service application by using the SharePoint Central Administration website or PowerShell. The restore tool that you use depends on the kind of environment that you have deployed, your schedule requirements, and service level agreements that you have made with your organization.
   
@@ -82,49 +81,49 @@ You can use PowerShell to restore the Secure Store Service.
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  Restore-SPFarm -Directory <BackupFolder> -Item <SecureStoreServicename> -RecoveryMethod Overwrite [-BackupId <GUID>] [-Verbose]
-  ```
+   ```
+   Restore-SPFarm -Directory <BackupFolder> -Item <SecureStoreServicename> -RecoveryMethod Overwrite [-BackupId <GUID>] [-Verbose]
+   ```
 
     Where:
     
-  -  _\<BackupFolder\>_ is the path for the backup folder where the service application was backed up. 
+   -  _\<BackupFolder\>_ is the path for the backup folder where the service application was backed up. 
     
-  -  _\<SecureStoreServicename\>_ is the name of the Secure Store Service application. 
+   -  _\<SecureStoreServicename\>_ is the name of the Secure Store Service application. 
     
     If you have multiple backups use the  `BackupId` parameter to specify which backup to use. To view all of the backups for the farm, type the following command at the PowerShell command prompt: 
     
-  ```
-  Get-SPBackupHistory -Directory <BackupFolder> -ShowBackup
-  ```
+   ```
+   Get-SPBackupHistory -Directory <BackupFolder> -ShowBackup
+   ```
 
     > [!NOTE]
     > If you do not specify a value for the  `BackupId` parameter, the most recent backup will be used. You cannot restore the Secure Store Service from a configuration-only backup. 
   
 4. After the restore operation has successfully completed, you must refresh the passphrase. At the PowerShell command prompt, type the following command:
     
-  ```
-  Update-SPSecureStoreApplicationServerKey -Passphrase <Passphrase>
-  ```
+   ```
+   Update-SPSecureStoreApplicationServerKey -Passphrase <Passphrase>
+   ```
 
     Where  _\<Passphrase\>_, is the one that you currently use.
     
-For more information, see [Restore-SPFarm](http://technet.microsoft.com/library/8e18ea80-0830-4ffa-b6b6-ad18a5a7ab3e.aspx) and [Update-SPSecureStoreApplicationServerKey](http://technet.microsoft.com/library/53234b26-d767-483a-a75f-0f2c195f8747.aspx).
+For more information, see [Restore-SPFarm](/powershell/module/sharepoint-server/Restore-SPFarm?view=sharepoint-ps) and [Update-SPSecureStoreApplicationServerKey](/powershell/module/sharepoint-server/Update-SPSecureStoreApplicationServerKey?view=sharepoint-ps).
   
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 

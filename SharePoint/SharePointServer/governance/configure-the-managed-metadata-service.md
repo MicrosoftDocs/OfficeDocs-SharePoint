@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 76c08191-13da-4cdc-beee-82c30033b7dc
-description: "Summary: Learn how to configure a Managed Metadata service application in SharePoint Server 2016 and SharePoint Server 2013."
+description: "Learn how to configure a Managed Metadata service application in SharePoint Server."
 ---
 
 # Configure the Managed Metadata service
 
- **Summary:** Learn how to configure a Managed Metadata service application in SharePoint Server 2016 and SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 In this article we cover how to configure a Managed Metadata service application in SharePoint Server. Be sure you've [planned your configuration](managed-metadata-planning.md) before you follow the procedures below. 
   

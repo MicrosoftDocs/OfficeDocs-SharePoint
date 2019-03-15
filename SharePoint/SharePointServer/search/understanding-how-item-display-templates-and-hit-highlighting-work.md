@@ -1,5 +1,5 @@
 ---
-title: "Understanding how item display templates and hit highlighting work in SharePoint Server"
+title: "Understanding how item display templates and hit highlighting work in the classic search experience in SharePoint Server"
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen
@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: f8578d9f-2826-4d21-873e-607c53b5c040
-description: "Summary: Learn how item display templates and hit highlighting work in SharePoint Server 2016 and SharePoint Server 2013."
+description: "Learn how item display templates and hit highlighting work in the classic search experience in SharePoint Server."
 ---
 
-# Understanding how item display templates and hit highlighting work in SharePoint Server
+# Understanding how item display templates and hit highlighting work in the classic search experience in SharePoint Server
 
- **Summary:** Learn how item display templates and hit highlighting work in SharePoint Server 2016 and SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 In this article, you'll learn:
   

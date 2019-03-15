@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: de173e89-b6d8-4d9e-8516-865c2735bfff
-description: "Summary: Walks through the steps required to keep workflow up to date in SharePoint Server."
+description: "Walks through the steps required to keep workflow up to date in SharePoint Server."
 ---
 
 # Update Workflow in SharePoint Server
 
- **Summary:** Walks through the steps required to keep workflow up to date in SharePoint Server. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 ## Run cmdlets after software updates are installed
 

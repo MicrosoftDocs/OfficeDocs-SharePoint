@@ -9,12 +9,12 @@ ms.topic: interactive-tutorial
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 8198232e-8d49-46fa-b9f0-17b1d5ee6b62
-description: "Summary: Learn about the User Profile service architecture and how SharePoint Server uses it to enable features such as audiences and My Sites."
+description: "Learn about the User Profile service architecture and how SharePoint Server uses it to enable features such as audiences and My Sites."
 ---
 
 # User Profile service overview
 
- **Summary:** Learn about the User Profile service architecture and how SharePoint Server uses it to enable features such as audiences and My Sites. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]. 
   
 The User Profile service stores information about users in a central location. It enables My Sites, social computing features such as social tagging and newsfeeds, and creating and distributing profiles across multiple sites and farms. It is also required by most [SharePoint hybrid scenarios](../hybrid/hybrid.md).
   
@@ -42,7 +42,7 @@ The User Profile service application in SharePoint Server provides a central loc
     
 These features make it possible for users in an organization to share information and to stay informed about what happens within the organization. Social tags, for example, enable users to tag and track the information in which they are most interested. Users can be alerted when people with which they work author new blog posts or when there is a change in organizational metadata.
   
-Like other service applications in SharePoint Server, farm administrators can [delegate the administration of all or part of the User Profile service application](http://technet.microsoft.com/library/9136a204-9877-4591-a7e5-0cdeda60114e%28Office.14%29.aspx) to one or more service application administrators. This enables the User Profile service application to be managed by the appropriate business group. One administrator can manage all areas of the User Profile service application or areas can be isolated and managed by different administrators. For example, one administrator can manage My Sites while a different administrator manages social tags and notes. The User Profile service application can be restricted and made available only to certain departments or sets of sites based on business need, security restrictions, and budgets. 
+Like other service applications in SharePoint Server, farm administrators can [delegate the administration of all or part of the User Profile service application](/previous-versions/office/sharepoint-server-2010/ee721057(v=office.14)) to one or more service application administrators. This enables the User Profile service application to be managed by the appropriate business group. One administrator can manage all areas of the User Profile service application or areas can be isolated and managed by different administrators. For example, one administrator can manage My Sites while a different administrator manages social tags and notes. The User Profile service application can be restricted and made available only to certain departments or sets of sites based on business need, security restrictions, and budgets. 
   
 ## User profile databases
 <a name="architecture"> </a>

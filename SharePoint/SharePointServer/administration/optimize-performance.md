@@ -15,6 +15,8 @@ description: "Learn about the techniques and tools available for optimizing Shar
 
 # Optimize performance for SharePoint Server 2013
 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+
 Learn about the techniques and tools available for optimizing SharePoint Server 2013 performance.
   
 This article provides information about techniques and tools for optimizing SharePoint Server 2013 performance.
@@ -44,13 +46,13 @@ Every time a branch office user requests a cached file from SharePoint Server 20
 For more information about BranchCache, see the following resources: 
   
     
-- [BranchCache Overview](https://technet.microsoft.com/library/hh831696.aspx) for Windows 8 and Windows Server 2012 
+- [BranchCache Overview](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831696(v=ws.11)) for Windows 8 and Windows Server 2012 
     
-- [BranchCache Overview](https://technet.microsoft.com/library/dd996634.aspx) for Windows 7 and Windows Server 2008 R2 
+- [BranchCache Overview](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd996634(v=ws.10)) for Windows 7 and Windows Server 2008 R2 
     
-- [BranchCache Deployment Guide](https://technet.microsoft.com/en-us/library/jj572990.aspx) for Windows 8 and Windows Server 2012 
+- [BranchCache Deployment Guide](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj572990(v=ws.11)) for Windows 8 and Windows Server 2012 
     
-- [BranchCache Deployment Guide](https://technet.microsoft.com/library/ee649232.aspx) for Windows 7 and Windows Server 2008 R2 
+- [BranchCache Deployment Guide](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee649232(v=ws.10)) for Windows 7 and Windows Server 2008 R2 
     
 #### Configuring BranchCache for use with SharePoint Server 2013
 
@@ -68,15 +70,15 @@ This section describes how to install and configure BranchCache for use with Sha
     
 2. Deploy BranchCache on each web server in your SharePoint Server 2013 farm by following the instructions in the following topics:
     
-  - For Windows Server 2012, see [Install Content Servers that Use the BranchCache Feature](https://technet.microsoft.com/library/jj572976.aspx).
+  - For Windows Server 2012, see [Install Content Servers that Use the BranchCache Feature](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj572976(v=ws.11)).
     
-  - For Windows Server 2008 R2, see [Install content servers that use the BranchCache feature](https://technet.microsoft.com/library/ee649269.aspx).
+  - For Windows Server 2008 R2, see [Install content servers that use the BranchCache feature](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee649269(v=ws.10)).
     
 3. Deploy BranchCache in your branch office network environment by following the instructions in the following topics:
     
-  - For Windows 8 and Windows Server 2012, see the [BranchCache Deployment Guide](https://technet.microsoft.com/en-us/library/jj572990.aspx).
+  - For Windows 8 and Windows Server 2012, see the [BranchCache Deployment Guide](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj572990(v=ws.11)).
     
-  - For Windows 7 and Windows Server 2008 R2, see the [BranchCache Deployment Guide](https://technet.microsoft.com/library/ee649232.aspx)
+  - For Windows 7 and Windows Server 2008 R2, see the [BranchCache Deployment Guide](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee649232(v=ws.10))
     
 4. If you have deployed BranchCache in Distributed mode, and the AuthNoEncap policy is enabled in your environment, you must install the update described in [Performance issue when you enable the AuthNoEncap policy to handle large payloads in a network environment in Windows 7 or in Windows Server 2008 R2](https://go.microsoft.com/fwlink/p/?LinkId=263618) on all Windows 7 client computers. 
     
@@ -89,5 +91,5 @@ After you have installed and configured BranchCache in the operating system of e
 [Performance planning in SharePoint Server 2013](performance-planning-in-sharepoint-server-2013.md)
 #### Other Resources
 
-[Plan for SharePoint Server](http://technet.microsoft.com/library/0ed0b44c-d60d-4b85-87de-19065d968835%28Office.14%29.aspx)
+[Plan for SharePoint Server](/previous-versions/office/sharepoint-server-2010/cc261834(v=office.14))
 

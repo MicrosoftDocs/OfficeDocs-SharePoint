@@ -7,20 +7,22 @@ ms.date: 6/27/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - Ent_O365_Hybrid
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_gtc
+- Strat_SP_gtc
+- M365-collaboration
+ms.custom: 
 ms.assetid: d10d1262-7127-424e-a0a8-1f3c5d42dd85
-description: "Summary: Learn to run Hybrid Picker in Office 365 for enterprises."
+description: "Learn to run Hybrid Picker in Office 365 for enterprises."
 ---
 
 # Run Hybrid Picker
 
- **Summary:** Learn to run Hybrid Picker in Office 365 for enterprises. 
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)] 
   
  **This article is part of a roadmap of procedures for configuring SharePoint hybrid solutions. Be sure you're [following a roadmap](configuration-roadmaps.md) when you do the procedure in this article. **
   
@@ -35,7 +37,7 @@ Hybrid Picker is located in Office 365 for enterprises, and you can use it to he
     
 2. From the farm server, connect to Office 365 as a global administrator.
     
-3. Navigate to [https://configure.office.com/scenario.aspx?Sid=54](https://configure.office.com/scenario.aspx?Sid=54)
+3. Navigate to [https://go.microsoft.com/fwlink/?linkid=867176](https://go.microsoft.com/fwlink/?linkid=867176)
     
 4. Follow the prompts in Hybrid Picker to configure your hybrid features.
     

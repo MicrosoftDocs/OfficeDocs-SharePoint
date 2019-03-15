@@ -7,18 +7,19 @@ ms.date: 3/12/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_server
+- Strat_SP_server
+ms.custom: 
 ms.assetid: d454aed4-4e26-4ef1-9f72-a605af6ed2cd
-description: "Summary: Take a SharePoint tutorial that can help you learn how to patch a server in a SharePoint Server 2016 farm by using Zero Downtime Patching."
+description: "Take a SharePoint tutorial that can help you learn how to patch a server in a SharePoint Server 2016 farm by using Zero Downtime Patching."
 ---
 
 # Video demo of Zero Downtime Patching in SharePoint Server 2016
 
- **Summary:** Take a SharePoint tutorial that can help you learn how to patch a server in a SharePoint Server 2016 farm by using Zero Downtime Patching. 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]  
   
 ## Overview
 

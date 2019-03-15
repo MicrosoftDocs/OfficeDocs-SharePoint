@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: a2c1b8a0-68a2-4399-931f-cf58cfc3875d
-description: "Summary: Learn how to assign a category page and a catalog item page to a term in term store management."
+description: "Learn how to assign a category page and a catalog item page to a term in term store management."
 ---
 
 # Assign a category page and a catalog item page to a term in SharePoint Server
 
- **Summary:** Learn how to assign a category page and a catalog item page to a term in term store management. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 Category pages and catalog item pages are page layouts that you can use to show structured content consistently across a site. They are often used when displaying catalog content on a site that uses managed navigation. This saves you from having to create many individual pages for content that you want to show in the same manner across your site. You can assign a category page or a catalog item page to all terms in a term set, or to specific terms in a term set. For more information, see "Catalog pages and catalog item pages" in [Overview of cross-site publishing in SharePoint Server](overview-of-cross-site-publishing.md).
   
@@ -23,7 +23,7 @@ Category pages and catalog item pages are page layouts that you can use to show 
 <a name="BKMK_Before"> </a>
 
 > [!NOTE]
->  Because SharePoint Server runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server supports the accessibility features of supported browsers. For more information, see the following resources: > [Plan browser support](https://go.microsoft.com/fwlink/p/?LinkId=246502)> [Accessibility for SharePoint 2013](http://technet.microsoft.com/library/94ad4316-1077-400a-b17e-a2085a5a7312%28Office.14%29.aspx)> [Accessibility features in SharePoint 2013 Products](https://go.microsoft.com/fwlink/p/?LinkId=246501)> [Keyboard shortcuts](https://go.microsoft.com/fwlink/p/?LinkID=246504)> [Touch](https://go.microsoft.com/fwlink/p/?LinkId=246506)
+>  Because SharePoint Server runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server supports the accessibility features of supported browsers. For more information, see the following resources: > [Plan browser support](https://go.microsoft.com/fwlink/p/?LinkId=246502)> [Accessibility for SharePoint 2013](/SharePoint/accessibility-guidelines)> [Accessibility features in SharePoint 2013 Products](https://go.microsoft.com/fwlink/p/?LinkId=246501)> [Keyboard shortcuts](https://go.microsoft.com/fwlink/p/?LinkID=246504)> [Touch](https://go.microsoft.com/fwlink/p/?LinkId=246506)
   
 Before you assign a category page and a catalog item page in term store management, verify the following:
   

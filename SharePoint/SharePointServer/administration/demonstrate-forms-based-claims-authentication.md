@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 78df8a76-0dbc-403b-b54d-9572fc918531
-description: "Summary: Learn how to configure and demonstrate form-based authentication for SharePoint Server 2013 based on the Test Lab Guide: Configure SharePoint Server 2013 in a three-tier farm."
+description: "Learn how to configure and demonstrate form-based authentication for SharePoint Server 2013 based on the Test Lab Guide: Configure SharePoint Server in a three-tier farm."
 ---
 
 # Test Lab Guide: Demonstrate forms-based claims authentication for SharePoint Server 2013
 
- **Summary:** Learn how to configure and demonstrate form-based authentication for SharePoint Server 2013 based on the [Test Lab Guide: Configure SharePoint Server 2013 in a three-tier farm](configure-sharepoint-server-2013-in-a-three-tier-farm.md). 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
   
-This document is the [Test Lab Guide](https://go.microsoft.com/fwlink/p/?LinkId=202817) version of the configuration described in [Configure forms-based authentication for a claims-based web application in SharePoint Server](http://technet.microsoft.com/library/fd1391bb-c787-4742-b007-bf57e18dad66%28Office.14%29.aspx). 
+This document is the [Test Lab Guide](https://go.microsoft.com/fwlink/p/?LinkId=202817) version of the configuration described in [Configure forms-based authentication for a claims-based web application in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806890(v=office.14)). 
   
 This document contains instructions for the following: 
   
@@ -37,7 +37,7 @@ This document contains instructions for the following:
 
 #### Other Resources
 
-[Configure forms-based authentication for a claims-based web application in SharePoint Server](http://technet.microsoft.com/library/fd1391bb-c787-4742-b007-bf57e18dad66%28Office.14%29.aspx)
+[Configure forms-based authentication for a claims-based web application in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806890(v=office.14))
   
 [Test Lab Guides](https://go.microsoft.com/fwlink/p/?LinkId=202817)
 

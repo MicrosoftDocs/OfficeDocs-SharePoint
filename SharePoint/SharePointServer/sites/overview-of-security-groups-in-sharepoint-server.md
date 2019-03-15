@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 4cc0d9fc-943d-4c71-ab14-bda709f50f1a
-description: "Summary: Overview of SharePoint 2013 and SharePoint Server 2016 groups."
+description: "Overview of SharePoint Server groups."
 ---
 
 # Overview of security groups in SharePoint Server
 
- **Summary:** Overview of SharePoint 2013 and SharePoint Server 2016 groups. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 You can manage users of SharePoint sites more efficiently if you assign permission levels to groups instead of to individual users. A SharePoint group is a set of individual users and can also include Active Directory Domain Services (AD DS) groups.
     
@@ -87,14 +87,14 @@ Permission policies provide a centralized way to configure and manage a set of p
     
 - **Deny Write** Anonymous users cannot write content, even if the site administrator specifically attempts to grant the anonymous user account that permission. 
     
-- **Deny All** Anonymous users cannot have any access, even if site administrators specifically attempt to grant the anonymous user account access to their sites. For more information about permission policies, see [Manage permission policies for a web application in SharePoint Server](https://technet.microsoft.com/library/cba65279-cba5-46cb-aea1-f095365ed83a).
+- **Deny All** Anonymous users cannot have any access, even if site administrators specifically attempt to grant the anonymous user account access to their sites. For more information about permission policies, see [Manage permission policies for a web application in SharePoint Server](/SharePoint/administration/manage-permission-policies-for-a-web-application).
     
 ## See also
 <a name="section3"> </a>
 
 #### Other Resources
 
-[Permissions planning for sites and content in SharePoint Server](https://technet.microsoft.com/library/85a1866e-2743-4f98-a1ac-9ea61905c6d4)
+[Permissions planning for sites and content in SharePoint Server](/SharePoint/sites/permissions-planning-for-sites-and-content)
   
-[Manage permission policies for a web application in SharePoint Server](https://technet.microsoft.com/library/cba65279-cba5-46cb-aea1-f095365ed83a)
+[Manage permission policies for a web application in SharePoint Server](/SharePoint/administration/manage-permission-policies-for-a-web-application)
 

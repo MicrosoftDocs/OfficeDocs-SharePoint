@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 97384552-ef3d-48ba-be57-1abc7d4c7f0a
-description: "Summary: Learn about how to use performance data to plan and manage the capacity of a SharePoint Server 2013 environment."
+description: "Learn about how to use performance data to plan and manage the capacity of a SharePoint Server environment."
 ---
 
 # Capacity management and sizing overview for SharePoint Server 2013
 
- **Summary:** Learn about how to use performance data to plan and manage the capacity of a SharePoint Server 2013 environment. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 This article provides an overview of how to effectively plan and manage the capacity of SharePoint Server 2013 environments. This article also describes how to maintain a good understanding of the capacity needs and capabilities of your deployment, by analysis of performance and volume data. It also reviews the major application impacts that affect capacity, including content characteristics and usage.
   
@@ -102,7 +102,7 @@ For information about tools and techniques for optimizing SharePoint Server 2013
     
 For information about troubleshooting by using the health monitoring tools built into the Central Administration interface, see the following article:
   
-- [Solving problems and troubleshooting in SharePoint Server](http://technet.microsoft.com/library/7d7db565-d572-4fd3-a30c-2856d98c897c%28Office.14%29.aspx)
+- [Solving problems and troubleshooting in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee748639(v=office.14))
     
 For a list of capacity management articles that are available for specific SharePoint Server 2010 services and features (more articles will be added as they become available), see the following article:
   
@@ -146,11 +146,11 @@ For information about health monitoring and troubleshooting by using the health 
   
 - [Plan for monitoring in SharePoint Server](../administration/monitoring-planning.md)
     
-- [Solving problems and troubleshooting in SharePoint Server](http://technet.microsoft.com/library/7d7db565-d572-4fd3-a30c-2856d98c897c%28Office.14%29.aspx)
+- [Solving problems and troubleshooting in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee748639(v=office.14))
     
 For more information about how to virtualize SharePoint Server 2013-based servers, see the following article:
   
-- [Plan for on-premises or hosted virtualization in SharePoint 2013](http://technet.microsoft.com/library/71c203cd-7534-47b0-9122-657d72ff0080%28Office.14%29.aspx)
+- [Plan for on-premises or hosted virtualization in SharePoint 2013](/previous-versions/office/sharepoint-server-2010/ff607968(v=office.14))
     
 For more information about high availability and disaster recovery, see the following article:
   
@@ -186,7 +186,7 @@ Different organizations define different latency goals based on business require
   
 Some major factors that contribute to longer end-user perceived latencies, and examples of some common problems, are described in the following list. These factors are especially relevant in scenarios where the clients are geographically distant from the server farm, or are accessing the farm across a low-bandwidth network connection.
   
-- Features, services, or configuration parameters that are not optimized might delay the processing of requests and impact latency for both remote and local clients. For more information, see [Capacity management and sizing overview for SharePoint Server 2013](http://technet.microsoft.com/library/45dc078f-de39-425c-a94f-1de78b68052e%28Office.14%29.aspx#throughput) and [Capacity management and sizing overview for SharePoint Server 2013](http://technet.microsoft.com/library/45dc078f-de39-425c-a94f-1de78b68052e%28Office.14%29.aspx#reliability) later in this article. 
+- Features, services, or configuration parameters that are not optimized might delay the processing of requests and impact latency for both remote and local clients. For more information, see [Capacity management and sizing overview for SharePoint Server 2013](/previous-versions/office/sharepoint-server-2010/ff758647(v=office.14)#throughput) and [Capacity management and sizing overview for SharePoint Server 2013](/previous-versions/office/sharepoint-server-2010/ff758647(v=office.14)#reliability) later in this article. 
     
 - Web pages that generate unnecessary requests to the server to download required data and resources. Optimization would include downloading the minimum number of resources to draw the page, reducing the sizes of images, storing the static resources in folders that enable anonymous access, clustering requests and enabling page interactivity while resources are downloaded asynchronously from the server. These optimizations are important for achieving an acceptable first time visit browse experience.
     

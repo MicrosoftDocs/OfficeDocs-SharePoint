@@ -7,17 +7,21 @@ ms.date: 12/5/2017
 ms.audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server
 - IT_SharePoint_Hybrid_Top
-ms.custom: Strat_SP_gtc
+- Strat_SP_gtc
+- M365-collaboration
+ms.custom: 
 ms.assetid: dc7d1bd3-8ca0-412a-b7e5-f357afa84299
 description: "Setting up cloud hybrid search for SharePoint requires careful planning. This article helps you design a highly reliable, secure and scalable cloud hybrid search solution."
 ---
 
 # Plan cloud hybrid search for SharePoint
+
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
 
 Setting up [cloud hybrid search](learn-about-cloud-hybrid-search-for-sharepoint.md) for SharePoint requires careful planning. This article helps you design a highly reliable, secure and scalable cloud hybrid search solution. 
   
@@ -65,8 +69,7 @@ Some of the search features you might be familiar with from SharePoint Server ar
   
  **Thesaurus** - Thesauruses aren't available with cloud hybrid search because SharePoint Online in Office 365 doesn't support thesauruses. 
   
-## Plan your search architecture in SharePoint Server for cloud hybrid search
-<a name="BKMK_Plan_search_architecture"> </a>
+## <a name="BKMK_Plan_search_architecture"> </a>Plan your search architecture in SharePoint Server for cloud hybrid search
 
 When you set up cloud hybrid search, one of the steps is to create a cloud Search service application (cloud SSA) on your SharePoint Server 2013 orSharePoint Server 2016 search farm. When you create this cloud SSA, a default search architecture is created for you on the server running the cloud SSA. Each search farm can have only one cloud SSA, but can have multiple SSAs in combination with the cloud SSA.
   
@@ -157,7 +160,7 @@ There are two methods to synchronize Active Directories:
     
 - Directory synchronization with single sign-on (SSO)
     
-If you choose the SSO option, you can also configure password synchronization if you want to as a backup for SSO, but you must configure at least one of the two (password synchronization or SSO). Learn more and how to configure the two methods in [Office 365 integration with on-premises environments](https://support.office.com/en-us/article/Office-365-integration-with-on-premises-environments-263faf8d-aa21-428b-aed3-2021837a4b65?ui=en-US&amp;rs=en-US&amp;ad=US).
+If you choose the SSO option, you can also configure password synchronization if you want to as a backup for SSO, but you must configure at least one of the two (password synchronization or SSO). Learn more and how to configure the two methods in [Office 365 integration with on-premises environments](/office365/enterprise/office-365-integration).
   
 ### Why can't users get hybrid results with cloud hybrid search when they're members of the Domain Users security group?
 

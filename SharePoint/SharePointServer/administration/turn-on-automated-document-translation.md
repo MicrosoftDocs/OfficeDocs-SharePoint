@@ -13,12 +13,12 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 ms.assetid: 5005124c-09d0-435c-99a4-1f2cb1fdae91
 
-description: "Summary: Learn how to turn on the Machine Translation Service in SharePoint Server 2016 and SharePoint Server 2013 to let site owners automatically translate documents."
+description: "Learn how to turn on the Machine Translation Service in SharePoint Server to let site owners automatically translate documents."
 ---
 
 # Turn on automated document translation in SharePoint Server
 
- **Summary:** Learn how to turn on the Machine Translation Service in SharePoint Server 2016 and SharePoint Server 2013 to let site owners automatically translate documents. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 On a publishing site collection that uses variations, site owners can choose to export a file and have it translated by a person (human translation), or they can choose to have it be translated automatically (machine translation). By default, the Machine Translation Service is turned off. Turning it on is a two-step process:
   
@@ -145,7 +145,7 @@ Refer to the following table in step 2 below.
 
 3. Start the Machine Translation Service. For more information, see [Start or stop a service in SharePoint Server](start-or-stop-a-service.md).
     
-For more information, see [New-SPTranslationServiceApplication](http://technet.microsoft.com/library/aa838029-e6e3-4551-9fc3-1c3c4f596e0a.aspx).
+For more information, see [New-SPTranslationServiceApplication](/sharepoint/security-for-sharepoint-server/security-for-sharepoint-server).
   
 ## Step 2: Configure the Machine Translation Service
 <a name="step2"> </a>
@@ -261,7 +261,7 @@ Refer to the following table in step 2.
 
 3. If you changed any of the following parameters, restart the service now:  `KeepAliveTimeout`,  `MaximumTranslationTime`,  `TotalActiveProcesses`,  `RecycleProcessThreshold`,  `WebProxyAddress`,  `MachineTranslationAddress`, or  `UseDefaultInternetSettings`. For more information, see [Start or stop a service in SharePoint Server](start-or-stop-a-service.md).
     
-For more information, see [Set-SPTranslationServiceApplication](http://technet.microsoft.com/library/4632f359-9cb0-4d69-87fc-6ad19a95966d.aspx).
+For more information, see [Set-SPTranslationServiceApplication](/powershell/module/sharepoint-server/Set-SPTranslationServiceApplication?view=sharepoint-ps).
   
 ## Additional steps
 <a name="more"> </a>

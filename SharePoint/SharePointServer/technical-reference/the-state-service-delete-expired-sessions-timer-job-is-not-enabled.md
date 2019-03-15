@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 17d06bdf-69e1-4a85-86f9-da78a3c79952
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleThe State Service Delete Expired Sessions timer job is not enabled, for SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: The State Service Delete Expired Sessions timer job is not enabled, for SharePoint Server."
 ---
 
 # The State Service Delete Expired Sessions timer job is not enabled (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "The State Service Delete Expired Sessions timer job is not enabled", for SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
  **Rule Name:** The State Service Delete Expired Sessions timer job is not enabled. 
   
@@ -55,7 +55,7 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleT
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -65,6 +65,6 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleT
   Enable-SPTimerJob StateServiceExpiredSessionJobDefinition
   ```
 
-For more information, see [Enable-SPTimerJob](http://technet.microsoft.com/library/https://technet.microsoft.com/en-us/library/ff607892%28v=office.16%29.aspx.aspx). We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions.
+For more information, see [Enable-SPTimerJob](/powershell/module/sharepoint-server/enable-sptimerjob?view=sharepoint-ps). We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions.
   
 

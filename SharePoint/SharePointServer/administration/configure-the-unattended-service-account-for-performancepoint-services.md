@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 411e0fa7-2a27-4883-93ac-a2fd228e40d8
-description: "Summary: Learn how to configure the unattended service account for PerformancePoint Services."
+description: "Learn how to configure the unattended service account for PerformancePoint Services."
 ---
 
 # Configure the unattended service account for PerformancePoint Services
 
- **Summary:** Learn how to configure the unattended service account for PerformancePoint Services. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 The unattended service account is an Active Directory account that is used for accessing PerformancePoint Services data sources. This account is used by PerformancePoint Services on behalf of authorized users to provide access to external data sources for the purposes of creating and using dashboards and other PerformancePoint Services content. To configure the unattended service account, see [Configure the unattended service account for PerformancePoint Services](#section1) in this article. 
   

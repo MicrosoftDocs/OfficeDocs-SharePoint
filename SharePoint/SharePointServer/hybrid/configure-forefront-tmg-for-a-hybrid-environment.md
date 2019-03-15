@@ -12,16 +12,16 @@ ms.collection:
 - IT_Sharepoint_Server
 localization_priority: Normal
 ms.assetid: 46aecccb-6196-48b4-a889-cbd408354d56
-description: "Summary: Learn how to configure Forefront TMG 2010 as a reverse proxy device in a SharePoint hybrid environment."
+description: "Learn how to configure Forefront TMG 2010 as a reverse proxy device in a SharePoint hybrid environment."
 ---
 
 # Configure Forefront TMG for a hybrid environment
 
- **Summary:** Learn how to configure Forefront TMG 2010 as a reverse proxy device in a SharePoint hybrid environment. 
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
   
 This article tells you how to set up Forefront Threat Management Gateway (TMG) 2010 for use as a reverse proxy for a hybrid SharePoint Server environment.
   
-For complete information about Forefront Threat Management Gateway (TMG) 2010, see [Forefront Threat Management Gateway (TMG) 2010](https://technet.microsoft.com/en-us/library/ff355324.aspx).
+For complete information about Forefront Threat Management Gateway (TMG) 2010, see [Forefront Threat Management Gateway (TMG) 2010](/previous-versions/tn-archive/ff355324(v=technet.10)).
   
     
 ## Before you begin
@@ -34,17 +34,17 @@ Before you begin, there are a few things you need to know:
 - The TMG server has to be a domain member in the Active Directory domain forest that contains your Active Directory Federation Services (AD FS) 2.0 server. The TMG server has to be joined to this domain to use SSL client certificate authentication, which is used for authenticating inbound connections from SharePoint Online.
     
     > [!SECURITY NOTE]
-    > As a general best practice for edge deployments, you normally install Forefront TMG in a separate forest (rather than in the internal forest of your corporate network), with a one-way trust to the corporate forest. However, you can configure client certificate authentication only for users in the domain to which the TMG server is joined, so this practice cannot be followed for hybrid environments. > For more information on TMG network topology considerations, see [Workgroup and domain considerations](https://technet.microsoft.com/en-us/library/dd897048.aspx). 
+    > As a general best practice for edge deployments, you normally install Forefront TMG in a separate forest (rather than in the internal forest of your corporate network), with a one-way trust to the corporate forest. However, you can configure client certificate authentication only for users in the domain to which the TMG server is joined, so this practice cannot be followed for hybrid environments. > For more information on TMG network topology considerations, see [Workgroup and domain considerations](/previous-versions/tn-archive/dd897048(v=technet.10)). 
   
 - Deploying TMG 2010 for use in a SharePoint Server hybrid environment in a back-to-back configuration is theoretically possible but has not been tested and may not work.
     
 - TMG 2010 includes both diagnostic logging and a real-time logging interface. Logging plays an important role in troubleshooting issues with connectivity and authentication between SharePoint Server and SharePoint Online. Identifying the component that is causing a connection failure can be challenging, and TMG logs are the first place you should look for clues. Troubleshooting can involve comparing log events from TMG logs, SharePoint Server ULS logs, Windows Server event logs, and Internet Information Services (IIS) logs on multiple servers.
     
-For more information on how to configure and use logging in TMG 2010, see [Using diagnostic logging](https://technet.microsoft.com/en-us/library/dd897109.aspx).
+For more information on how to configure and use logging in TMG 2010, see [Using diagnostic logging](/previous-versions/tn-archive/dd897109(v=technet.10)).
   
-For more information on general TMG 2010 troubleshooting, see [Forefront TMG Troubleshooting](https://technet.microsoft.com/en-us/library/dd897100.aspx).
+For more information on general TMG 2010 troubleshooting, see [Forefront TMG Troubleshooting](/previous-versions/tn-archive/dd897100(v=technet.10)).
   
-For more information on troubleshooting techniques and tools for SharePoint Server hybrid environments, see [Troubleshooting hybrid environments](http://technet.microsoft.com/library/f8839959-90ba-4df6-811e-b85274ef0e12%28Office.14%29.aspx).
+For more information on troubleshooting techniques and tools for SharePoint Server hybrid environments, see [Troubleshooting hybrid environments](/SharePoint/hybrid/hybrid).
   
 ## Install TMG 2010
 <a name="install"> </a>
@@ -55,11 +55,11 @@ If you have not already installed TMG 2010 and configured it for your network, u
   
 1. Install Forefront TMG 2010 if it is not already installed. For more information on installing TMG 2010, see [Forefront TMG Deployment](https://go.microsoft.com/fwlink/p/?LinkId=403873).
     
-2. Install all the available service packs and updates for TMG 2010. For more information, see [Installing Forefront TMG Service Packs](https://technet.microsoft.com/en-us/library/ff717843.aspx).
+2. Install all the available service packs and updates for TMG 2010. For more information, see [Installing Forefront TMG Service Packs](/previous-versions/tn-archive/ff717843(v=technet.10)).
     
 3. Join the TMG server computer to the on-premises Active Directory domain if it is not already a domain member. 
     
-    For more information on deploying TMG 2010 in a domain environment, see [Workgroup and domain considerations](https://technet.microsoft.com/en-us/library/dd897048.aspx).
+    For more information on deploying TMG 2010 in a domain environment, see [Workgroup and domain considerations](/previous-versions/tn-archive/dd897048(v=technet.10)).
     
 ## Import the Secure Channel SSL certificate
 <a name="cert"> </a>
@@ -83,16 +83,16 @@ You must import the Secure Channel SSL certificate into both the Personal store 
     
 4. Import the Secure Channel SSL certificate to the **Personal** certificate store of the **fwsrv** service account. 
     
-For more information about how to import an SSL certificate, see [Import a Certificate](https://technet.microsoft.com/en-us/library/cc754489.aspx).
+For more information about how to import an SSL certificate, see [Import a Certificate](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc754489(v=ws.11)).
   
 ## Configure TMG 2010
 <a name="config"> </a>
 
 In this section, you configure a **web listener** and a **publishing rule** that will receive inbound requests from SharePoint Online and relay them to the primary web application of your SharePoint Server farm. The web listener and publishing rule work together to define the connection rules and to pre-authenticate and relay the requests. You configure the web listener to authenticate inbound connections using the Secure Channel certificate you installed in the last procedure. 
   
-For more information on configuring publishing rules in TMG, see [Configuring Web publishing](https://technet.microsoft.com/en-us/library/cc441546.aspx).
+For more information on configuring publishing rules in TMG, see [Configuring Web publishing](/previous-versions//cc441546(v=technet.10)).
   
-For more information on SSL bridging in TMG 2010, see [About SSL bridging and publishing](https://technet.microsoft.com/en-us/library/cc995200.aspx).
+For more information on SSL bridging in TMG 2010, see [About SSL bridging and publishing](/previous-versions/tn-archive/cc995200(v=technet.10)).
   
 Use the following procedure to create the publishing rule and web listener.
   
@@ -202,7 +202,7 @@ There are several settings that you must now verify or change in the publishing 
 [Configure a reverse proxy device for SharePoint Server hybrid](configure-a-reverse-proxy-device-for-sharepoint-server-hybrid.md)
 #### Other Resources
 
-[Configuring Web publishing](https://technet.microsoft.com/en-us/library/cc441546.aspx)
+[Configuring Web publishing](/previous-versions//cc441546(v=technet.10))
   
-[Forefront Threat Management Gateway (TMG) 2010](https://technet.microsoft.com/en-us/library/ff355324.aspx)
+[Forefront Threat Management Gateway (TMG) 2010](/previous-versions/tn-archive/ff355324(v=technet.10))
 

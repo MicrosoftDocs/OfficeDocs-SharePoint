@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 57d52c9e-5069-4bcf-87e3-24482198a462
-description: "Summary: Site owners can add apps for SharePoint to SharePoint sites so that they and other users of the site can use the app."
+description: "Site owners can add apps for SharePoint to SharePoint sites so that they and other users of the site can use the app."
 ---
 
 # Add apps for SharePoint to a SharePoint site
 
- **Summary:** Site owners can add apps for SharePoint to SharePoint sites so that they and other users of the site can use the app. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 Site owners can add apps for SharePoint from the SharePoint Store or an App Catalog to their sites. Adding an app installs an instance of that app to the site. This article covers how to add apps to your sites.
   
@@ -31,7 +31,7 @@ Site owners can add apps for SharePoint from the following sources to their site
     
 - from the SharePoint Store.
     
-Note that a user logged in as teh system account cannot install a app.
+Note that a user logged in as the system account cannot install an app.
   
 When you add an app for SharePoint, the app requests permissions that it needs to function (for example, access to Search, or to create a list). If you don't have those permissions, the app won't install. Contact your administrator to get the needed permissions or have someone with those permissions add the app.
   
@@ -61,7 +61,7 @@ The following procedures provide steps for adding apps from these sources.
     
 3. Click **From** _Name_.
     
-    Where  _Name_ is the name of your organization's App Catalog. For example, "From Contoso". 
+    Where _Name_ is the name of your organization's App Catalog. For example, "From Contoso". 
     
     > [!TIP]
     > Apps marked as Featured in the App Catalog will also appear in the main list of Apps. 
@@ -101,7 +101,7 @@ The following procedures provide steps for adding apps from these sources.
 [Install and manage apps for SharePoint Server](install-and-manage-apps-for-sharepoint-server.md)
 #### Other Resources
 
-[Import-SPAppPackage](http://technet.microsoft.com/library/be0c922a-ec67-484e-bf55-37b7ab94c624.aspx)
+[Import-SPAppPackage](/powershell/module/sharepoint-server/Import-SPAppPackage?view=sharepoint-ps)
   
-[Install-SPApp](http://technet.microsoft.com/library/2108d6a7-c17a-4c3a-86bb-1bfc282d60c1.aspx)
+[Install-SPApp](/powershell/module/sharepoint-server/Install-SPApp?view=sharepoint-ps)
 

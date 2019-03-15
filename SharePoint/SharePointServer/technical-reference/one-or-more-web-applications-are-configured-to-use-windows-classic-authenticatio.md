@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: cab37e59-7ae1-403a-8fa2-37fe0701961e
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleOne or more web applications are configured to use Windows Classic authentication, for SharePoint Server 2016 and SharePoint 2013"
+description: "Learn how to resolve the SharePoint Health Analyzer rule: One or more web applications are configured to use Windows Classic authentication, for SharePoint Server."
 ---
 
 # One or more web applications are configured to use Windows Classic authentication (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "One or more web applications are configured to use Windows Classic authentication", for SharePoint Server 2016 and SharePoint 2013 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
  **Rule Name:** One or more web applications are configured to use Windows Classic authentication. 
   
@@ -27,6 +27,6 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleO
   
  **Resolution: Migrate Web applications from classic mode to claims-based authentication.**
   
-- You have to migrate Web applications from classic mode to claims-based authentication. For more information, see [Migrate from classic-mode to claims-based authentication in SharePoint Server](http://technet.microsoft.com/library/e3e3d0b8-8ba0-4495-8650-e2e9dfb5fa6a%28Office.14%29.aspx).
+- You have to migrate Web applications from classic mode to claims-based authentication. For more information, see [Migrate from classic-mode to claims-based authentication in SharePoint Server](/previous-versions/office/sharepoint-server-2010/gg251985(v=office.14)).
     
 

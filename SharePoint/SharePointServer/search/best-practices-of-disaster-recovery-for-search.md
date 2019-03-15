@@ -3,20 +3,22 @@ title: "Disaster recovery best practices and strategies for SharePoint 2016 sear
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen
-ms.date: 1/3/2018
+ms.date: 01/3/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 9fae000c-26ad-400b-bd94-c9245d049f43
-description: "Learn how to implement best practice disaster recovery for search in a SharePoint Server 2016 or SharePoint Server 2013 farm."
+description: "Learn how to implement best practice disaster recovery for search in a SharePoint Server farm."
 ---
 
-# Disaster recovery best practices and strategies for SharePoint 2016 search
+# Disaster recovery best practices and strategies for SharePoint search
 
-Learn how to implement best practice disaster recovery for search in a SharePoint Server 2016 or SharePoint Server 2013 farm.
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]
+
+Learn how to implement best practice disaster recovery for search in a SharePoint Server farm.
   
-This article gives best practice guidance that you can use to develop a supported disaster recovery (DR) strategy for search in SharePoint Server. Many of the approaches used for disaster recovery in earlier versions of SharePoint Server don't provide the same level of recovery for SharePoint Server 2016 and SharePoint Server 2013. We examine these approaches and provide replacement options together with the benefits and limitations that you need to know about.
+This article gives best practice guidance that you can use to develop a supported disaster recovery (DR) strategy for search in SharePoint Server. Many of the approaches used for disaster recovery in earlier versions of SharePoint Server don't provide the same level of recovery for SharePoint Server. We examine these approaches and provide replacement options together with the benefits and limitations that you need to know about.
   
     
 ## Introduction
@@ -115,7 +117,7 @@ Other options for disaster recovery strategies did not offer the same level of s
     
 - **A full SSA backup and restore**. A full SSA backup and restore is performed using Microsoft PowerShell or using the the SharePoint Central Administration website interface. This backs up the SSA databases and search indexes, which enables them to be restored on the DR farm to populate the SSA on that farm.
     
-In SharePoint Server 2016 or SharePoint Server 2013, significant changes in the search architecture and how configuration elements are stored means we have to think differently about search disaster recovery. The following sections describe these changes and how they affect the disaster recovery choices that are available.
+Starting with SharePoint Server 2013, significant changes in the search architecture and how configuration elements are stored means we have to think differently about search disaster recovery. The following sections describe these changes and how they affect the disaster recovery choices that are available.
   
 ### Configuration and functional changes to the search experience
 
@@ -328,11 +330,11 @@ For additional information, we recommend that you use the following resources.
     
 In addition to the options that are provided in these articles and in this paper, there are other methods that you can use to back up and restore the search service application in SharePoint Server. These methods are more fine grained and involve independently restoring the search indexes and search databases to a new farm. We haven't covered these steps, but if you are considering a scripted approach, we recommend that you start by reviewing the following resources.
   
-- [Get-SPEnterpriseSearchServiceApplicationBackupStore](https://technet.microsoft.com/en-us/library/jj219725%28v=office.16%29.aspx)
+- [Get-SPEnterpriseSearchServiceApplicationBackupStore](/powershell/module/sharepoint-server/Get-SPEnterpriseSearchServiceApplicationBackupStore?view=sharepoint-ps)
     
-- [Restore-SPEnterpriseSearchServiceApplication](https://technet.microsoft.com/en-us/library/ff608131%28v=office.16%29.aspx)
+- [Restore-SPEnterpriseSearchServiceApplication](/powershell/module/sharepoint-server/Restore-SPEnterpriseSearchServiceApplication?view=sharepoint-ps)
     
-- [Restore-SPEnterpriseSearchServiceApplicationIndex](https://technet.microsoft.com/en-us/library/jj219649%28v=office.16%29.aspx)
+- [Restore-SPEnterpriseSearchServiceApplicationIndex](/powershell/module/sharepoint-server/Restore-SPEnterpriseSearchServiceApplicationIndex?view=sharepoint-ps)
     
 - [Back up and restore a search service application in SharePoint 2013 using VSS](http://go.microsoft.com/fwlink/?LinkID=506745&amp;clcid=0x409). .
     

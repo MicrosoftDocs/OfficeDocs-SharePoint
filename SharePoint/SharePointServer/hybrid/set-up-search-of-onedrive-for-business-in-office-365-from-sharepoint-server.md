@@ -11,16 +11,17 @@ ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server
 - IT_SharePoint_Hybrid_Top
+- M365-collaboration
 localization_priority: Normal
 ms.assetid: f0565d7f-3efd-46c5-9a73-e307bc2df669
-description: "Summary: Provide an easy way for users of on-premises SharePoint Server to search for documents that are in OneDrive for Business in Office 365."
+description: "Provide an easy way for users of on-premises SharePoint Server to search for documents that are in OneDrive for Business in Office 365."
 ---
 
 # Set up Search of OneDrive for Business in Office 365 from SharePoint Server
 
- **Summary:** Provide an easy way for users of on-premises SharePoint Server to search for documents that are in OneDrive for Business in Office 365. 
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
   
-After you install Service Pack 1 for SharePoint Server, when your users click **OneDrive** or **Sites** on the navigation bar, you can redirect them to OneDrive for Business in Office 365 for professionals and small businesses. To learn how to do this, see [OBSOLETE Redirect users to Office 365 with OneDrive for Business](http://technet.microsoft.com/library/979fd7f8-1994-476c-a2cf-a7f126ca5fc6%28Office.14%29.aspx).
+After you install Service Pack 1 for SharePoint Server, when your users click **OneDrive** or **Sites** on the navigation bar, you can redirect them to OneDrive for Business in Office 365 for professionals and small businesses. To learn how to do this, see [Plan hybrid OneDrive for Business](/sharepoint/hybrid/plan-hybrid-onedrive-for-business).
   
 This article describes how you can then set up an option in the SharePoint Server enterprise Search Center to return only search results from OneDrive for Business that is in Office 365. This option, called a search vertical, will provide an easy way for a user of on-premises SharePoint Server to search only the following items in OneDrive for Business in Office 365 for a match to the user's search query:
   

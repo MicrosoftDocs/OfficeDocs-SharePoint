@@ -1,7 +1,7 @@
 ---
 title: "Manage crawling in SharePoint Server"
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: tlarsen
+author: tklarsen
 manager: pamgreen
 ms.date: 3/6/2018
 ms.audience: ITPro
@@ -10,16 +10,16 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 6d980186-7f23-46e9-a2aa-750f1c24fc3d
-description: "Summary: Learn how to crawl content that you want users to be able to search for in SharePoint Server."
+description: "Learn how to crawl content that you want users to be able to search for in SharePoint Server."
 ---
 
 # Manage crawling in SharePoint Server
 
- **Summary:** Learn how to crawl content that you want users to be able to search for in SharePoint Server. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
-The following articles provide information about how to manage crawling in SharePoint Server.
+The following articles provide information about how to manage crawling in SharePoint Server and apply to both the classic and modern search experiences.
   
-## 
+
 
 |                                                                  **Content**                                                                   |                                                                                                      **Description**                                                                                                       |
 | :--------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -38,5 +38,5 @@ The following articles provide information about how to manage crawling in Share
    
 ## See also
 
-[Search in SharePoint Server 2016](https://go.microsoft.com/fwlink/p/?LinkID=261554)
+[Search in SharePoint Server](https://go.microsoft.com/fwlink/p/?LinkID=261554)
 

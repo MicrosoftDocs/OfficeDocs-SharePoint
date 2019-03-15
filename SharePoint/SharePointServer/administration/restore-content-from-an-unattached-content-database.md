@@ -3,7 +3,6 @@ title: "Restore content from unattached content databases in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 9/14/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -12,12 +11,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 40ed4458-d798-4aa1-82b9-2e5433991596
-description: "Summary: Learn how to restore content from an unattached content database in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to restore content from an unattached content database in SharePoint Server."
 ---
 
 # Restore content from unattached content databases in SharePoint Server
 
- **Summary:** Learn how to restore content from an unattached content database in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 You can restore content from an unattached content database in SharePoint Server by using the SharePoint Central Administration website or PowerShell. The restore tool that you use depends on the kind of environment that you have deployed, your schedule requirements, and service level agreements that you have made with your organization.
   
@@ -33,32 +32,32 @@ You can recover content from an unattached content database by using PowerShell.
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
-    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
+     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  Get-SPContentDatabase -ConnectAsUnattachedDatabase  -DatabaseName <DatabaseName> -DatabaseServer <DatabaseServer>
-  ```
+   ```
+   Get-SPContentDatabase -ConnectAsUnattachedDatabase  -DatabaseName <DatabaseName> -DatabaseServer <DatabaseServer>
+   ```
 
     Where:
     
-  -  _\<DatabaseName\>_ is the name of the unattached database from which you want to recover content. 
+   -  _\<DatabaseName\>_ is the name of the unattached database from which you want to recover content. 
     
-  -  _\<DatabaseServer\>_ is the name of the database server that hosts the unattached database from which you want to recover content. 
+   -  _\<DatabaseServer\>_ is the name of the database server that hosts the unattached database from which you want to recover content. 
     
-For more information, see [Get-SPContentDatabase](http://technet.microsoft.com/library/a4a83bb0-0bab-4cad-9b59-0fd89a16f57b.aspx).
+For more information, see [Get-SPContentDatabase](/powershell/module/sharepoint-server/Get-SPContentDatabase?view=sharepoint-ps).
   
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 

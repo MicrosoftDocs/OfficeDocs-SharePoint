@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: eb5d2d46-8bf6-43d7-add0-e9d61290a4d0
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleThe settings for the Machine Translation Service are not within the recommended limitsfor SharePoint Server 2016 and SharePoint Server 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: The settings for the Machine Translation Service are not within the recommended limits, for SharePoint Server."
 ---
 
 # The settings for the Machine Translation Service are not within the recommended limits (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "The settings for the Machine Translation Service are not within the recommended limits" for SharePoint Server 2016 and SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
  **Rule Name:** The settings for the Machine Translation Service are not within the recommended limits. 
   

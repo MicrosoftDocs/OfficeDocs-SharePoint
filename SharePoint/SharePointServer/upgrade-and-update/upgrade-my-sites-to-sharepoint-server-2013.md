@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 33012208-8ff7-4816-993a-bd38b6e82fec
-description: "Summary: Learn how to upgrade My Sites in SharePoint Server 2013."
+description: "Learn how to upgrade My Sites in SharePoint Server 2013."
 ---
 
 # Upgrade My Sites to SharePoint Server 2013
 
- **Summary:** Learn how to upgrade My Sites in SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 ## 
 
@@ -174,5 +174,5 @@ If users are experiencing issues, such as mixed user interface modes or they can
 
 [Upgrade a site collection to SharePoint 2013](upgrade-a-site-collection-to-sharepoint-2013.md)
   
-[Update-SPProfilePhotoStore](http://technet.microsoft.com/library/023652c5-e25d-493e-91a3-df5a0dc1b166.aspx)
+[Update-SPProfilePhotoStore](/powershell/module/sharepoint-server/Update-SPProfilePhotoStore?view=sharepoint-ps)
 

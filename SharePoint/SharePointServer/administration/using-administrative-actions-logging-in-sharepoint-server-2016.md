@@ -16,6 +16,8 @@ description: "The Administrative Actions logging feature is included in the Nove
 
 # Using Administrative Actions logging in SharePoint Server 2016
 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]
+
 The Administrative Actions logging feature is included in the November 2016 Public Update for SharePoint Server 2016 (Feature Pack 1). This feature enables logging of SharePoint Server 2016 administrative actions.
   
 ## Overview
@@ -153,7 +155,7 @@ select * from [WSS_Logging].[dbo].[AdministrativeActions_Partition31]
 You can also retrieve Administrative Actions logs using the Windows PowerShell cmdlet, ** Merge-SPUsageLog **. 
   
 > [!IMPORTANT]
-> Remote cmdlet execution must be enabled to use **Merge-SPUsageLog**. To configure the computer to receive remote commands, see [Enable-PSRemoting](https://technet.microsoft.com/en-us/library/hh849694.aspx). 
+> Remote cmdlet execution must be enabled to use **Merge-SPUsageLog**. To configure the computer to receive remote commands, see [Enable-PSRemoting](/powershell/module/Microsoft.PowerShell.Core/Enable-PSRemoting?view=powershell-5.1). 
   
 The **Merge-SPUsageLog** cmdlet gathers, filters, and aggregates logs based on the your specified criteria. We recommend that you filter by using the StartTime and EndTime parameters to optimize performance of this cmdlet. 
   
@@ -180,7 +182,7 @@ Merge-SPUsageLog -Identity <SPUsageDefinitionPipeBind> [-AssignmentCollection <S
 Merge-SPUsageLog -Identity "Administrative Actions" 
 ```
 
- **Example 2:** This example merges the log entries for the "Administrative Actions" usage provider from "06/09/2016 16:00" untill now from servers named "A-0606" and "A-0505". 
+ **Example 2:** This example merges the log entries for the "Administrative Actions" usage provider from "06/09/2016 16:00" until now from servers named "A-0606" and "A-0505". 
   
 ```
 Merge-SPUsageLog -Identity "Administrative Actions" -Servers "A-0606","A-0505" -StartTime "06/09/2008 16:00" 

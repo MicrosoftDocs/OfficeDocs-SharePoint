@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 6e2bcaab-58d3-47cb-b97e-34548732dfb8
-description: "Summary: Learn how to install SharePoint 2013 with a built-in database on a single server."
+description: "Learn how to install SharePoint with a built-in database on a single server."
 ---
 
 # Install SharePoint 2013 on a single server with a built-in database
 
- **Summary:** Learn how to install SharePoint 2013 with a built-in database on a single server. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
   
 You can quickly publish a SharePoint site by deploying SharePoint 2013 on a single server that has a built-in database. This configuration is useful if you want to evaluate SharePoint 2013 features and capabilities, such as collaboration, document management, and search. This configuration is also useful if you are deploying only a few websites and you want to minimize administrative overhead.
   
@@ -36,7 +36,7 @@ When you deploy SharePoint 2013 on a single server that has a built-in database 
 > This article does not describe how to install SharePoint 2013 in a farm environment, or how to upgrade from previous releases of SharePoint 2013. For more information about how to install SharePoint 2013 on a single-server farm, see [Install SharePoint 2013 on a single server with SQL Server](single-server-with-sql-server.md). For more information about how to install SharePoint 2013 on a multiple server farm, see [Install SharePoint 2013 across multiple servers for a three-tier farm](multiple-servers-for-a-three-tier-farm.md). For more information about upgrade, see [Upgrade from SharePoint 2010 to SharePoint 2013](../upgrade-and-update/upgrade-from-sharepoint-2010-to-sharepoint-2013.md). 
   
 > [!NOTE]
-> The Distributed Cache service gives you a complete social computing experience. For more information about the Distributed Cache service, see [Overview of microblog features, feeds, and the Distributed Cache service in SharePoint Server](http://technet.microsoft.com/library/9f928134-dec3-4750-8b99-1191716334b4%28Office.14%29.aspx), [Manage the Distributed Cache service in SharePoint Server](../administration/manage-the-distributed-cache-service.md), [Plan for feeds and the Distributed Cache service in SharePoint Server](../administration/plan-for-feeds-and-the-distributed-cache-service.md), and [What's new in authentication for SharePoint Server 2013](http://technet.microsoft.com/library/d4f4d7c7-916f-40b3-a5d8-bf290353bcf7%28Office.14%29.aspx)
+> The Distributed Cache service gives you a complete social computing experience. For more information about the Distributed Cache service, see [Overview of microblog features, feeds, and the Distributed Cache service in SharePoint Server](/sharepoint/administration/administration), [Manage the Distributed Cache service in SharePoint Server](../administration/manage-the-distributed-cache-service.md), [Plan for feeds and the Distributed Cache service in SharePoint Server](../administration/plan-for-feeds-and-the-distributed-cache-service.md), and [What's new in authentication for SharePoint Server 2013](/SharePoint/what-s-new/new-and-improved-features-in-sharepoint-server-2016)
   
 Consider the following restrictions of this method of installation:
   
@@ -156,7 +156,7 @@ Use the following procedure to install and configure the configuration database 
 8. Click **OK**.
     
 > [!NOTE]
-> If you are prompted for your user name and password, you might have to add the SharePoint Central Administration website to the list of trusted sites and configure user authentication settings in Internet Explorer. You might also want to disable the Internet Explorer Enhanced Security settings. If you see a proxy server error message, you might have to configure proxy server settings so that local addresses bypass the proxy server. For more information about how to configure browser and proxy settings, see [Install SharePoint 2013 on a single server with a built-in database](http://technet.microsoft.com/library/bd99c3a9-0333-4c1c-9793-a145769e48e6%28Office.14%29.aspx#configurebrowser). 
+> If you are prompted for your user name and password, you might have to add the SharePoint Central Administration website to the list of trusted sites and configure user authentication settings in Internet Explorer. You might also want to disable the Internet Explorer Enhanced Security settings. If you see a proxy server error message, you might have to configure proxy server settings so that local addresses bypass the proxy server. For more information about how to configure browser and proxy settings, see [Install SharePoint 2013 on a single server with a built-in database](/previous-versions/office/sharepoint-server-2010/cc263202(v=office.14)#configurebrowser). 
   
 ### Configure browser settings
 <a name="configurebrowser"> </a>

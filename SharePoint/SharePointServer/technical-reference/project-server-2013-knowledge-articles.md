@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: adcaa180-eafe-4636-9547-6edadabd4fed
-description: "Summary: Learn how to resolve alerts about Microsoft Project Server 2013 in the SharePoint Server 2013 management pack for Systems Center Operations Manager (SCOM)."
+description: "Learn how to resolve alerts about Microsoft Project Server 2013 in the SharePoint Server 2013 management pack for Systems Center Operations Manager (SCOM)."
 ---
 
 # Project Server 2013 knowledge articles for Systems Center Operations Manager
 
- **Summary:** Learn how to resolve alerts about Microsoft Project Server 2013 in the SharePoint Server 2013 management pack for Systems Center Operations Manager (SCOM). 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
   
 > [!NOTE]
 > The Project Server 2013 knowledge articles for Systems Center Operations Manager only appear in the SharePoint Server 2013 and SharePoint Foundation 2013 Monitoring Pack for System Center Operations Manager 2012. 

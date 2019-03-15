@@ -1,5 +1,5 @@
 ---
-title: "Plan enterprise search architecture in SharePoint Server 2016"
+title: "Plan enterprise search architecture in SharePoint Server"
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen
@@ -10,22 +10,22 @@ ms.prod:  sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 2b2c3b2a-49f3-4c96-9efd-0d557f0332db
-description: "Summary: Learn how to plan an enterprise search architecture."
+description: "Learn how to plan an enterprise search architecture."
 ---
 
-# Plan enterprise search architecture in SharePoint Server 2016
+# Plan enterprise search architecture in SharePoint Server
 
- **Summary:** Learn how to plan an enterprise search architecture. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 Before you set up your enterprise search architecture, there are quite a few things that require careful planning. Step by step, we'll help you to plan a small, a medium, large, or an extra large-size enterprise search architecture.
   
 Are you familiar with the components of the search system in SharePoint Server, and how they interact? By reading [Overview of search architecture in SharePoint Server](search-architecture-overview.md) and [Search architectures for SharePoint Server 2016](https://download.microsoft.com/download/2/0/8/2081E053-4E56-4B87-87A4-9380D042B95D/SP_2016_Search_Architecture_Model.pdf) (or [Search architectures for SharePoint Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=258643)) before you get going, you'll become familiar with search architecture, search components, search databases, and the search topology. When planning a search architecture, here are some suggestions about what to consider:
   
-1. [Step 1: How much content do I have?](plan-enterprise-search-architecture.md#BKMK_Step1)
+-  [Step 1: How much content do I have?](plan-enterprise-search-architecture.md#BKMK_Step1)
     
-2. [Step 2: What size search architecture for how much content?](plan-enterprise-search-architecture.md#BKMK_Step2)
+- [Step 2: What size search architecture for how much content?](plan-enterprise-search-architecture.md#BKMK_Step2)
     
-3. [Step 3: Which hardware requirements should I be aware of?](plan-enterprise-search-architecture.md#BKMK_AssignHW)
+- [Step 3: Which hardware requirements should I be aware of?](plan-enterprise-search-architecture.md#BKMK_AssignHW)
     
   - [Choose to run the servers physically or virtually](plan-enterprise-search-architecture.md#BKMK_ChoosePhysicalVirtual)
     
@@ -35,7 +35,7 @@ Are you familiar with the components of the search system in SharePoint Server, 
     
   - [Choose how your search architecture supports high availability](plan-enterprise-search-architecture.md#BKMK_HiAvail)
     
-4. [Step 4: How to check that my search architecture performs well?](plan-enterprise-search-architecture.md#BKMK_ConfirmTestPerf)
+- [Step 4: How to check that my search architecture performs well?](plan-enterprise-search-architecture.md#BKMK_ConfirmTestPerf)
     
   - [Test the storage I/O subsystem](plan-enterprise-search-architecture.md#BKMK_TestIOSystem)
     
@@ -126,7 +126,7 @@ Now that you've determined the volume of your content and chosen a sample search
 ### Choose to run the servers physically or virtually
 <a name="BKMK_ChoosePhysicalVirtual"> </a>
 
-If you're using one of the architectures that we've estimated for you, then you'll be running your search architecture on virtual machines. Note also that although a virtual environment is easier to manage, its performance level can sometimes be slightly lower than that of a physical environment. A physical server can host more search components on the same server than a virtual server. You'll find useful guidance in [Overview of farm virtualization and architectures for SharePoint 2013](http://technet.microsoft.com/library/490c2bcc-a192-48a2-888a-29c24cfb1bce%28Office.14%29.aspx).
+If you're using one of the architectures that we've estimated for you, then you'll be running your search architecture on virtual machines. Note also that although a virtual environment is easier to manage, its performance level can sometimes be slightly lower than that of a physical environment. A physical server can host more search components on the same server than a virtual server. You'll find useful guidance in [Overview of farm virtualization and architectures for SharePoint 2013](/previous-versions/office/sharepoint-server-2010/ff607811(v=office.14)).
   
 It's also possible to run your search architecture on physical servers. In the sample farm architectures, just move the search components from the virtual machines to the host server and take away the virtual machines. Each physical server can host up to four index components, but only one of each type of the other search components. If you for example change the medium sample search architecture to use physical servers, you'll find that you have two content processing components on Host E. The solution is to take away one of the content processing components. This works because crawling, processing of content, and processing of analytics depend on the amount of resources that are available, not the number of content processing components.
   
@@ -161,9 +161,9 @@ This table shows the minimum amount of hardware resources that each application 
    
 <sup>1</sup>The number of CPU cores is specified here, not the number of CPU threads.
   
-<sup>2</sup>With SharePoint Server 2013 the minimum amount of resources needed are 500 GB RAM, 16 GB RAM, and four CPU cores. 
+<sup>2</sup>With SharePoint Server 2013 the minimum amount of resources needed are 500 GB storage, 16 GB RAM, and four CPU cores. 
   
-<sup>3</sup>With SharePoint Server 2016 you can also use 500 GB storage, 16 GB RAM, and four CPU cores, but then each index component can only hold 10 million items and the search farm only supports the same volume of content as a SharePoint Server 2013 search farm. 
+<sup>3</sup>With SharePoint Server 2016 you can also use 250 GB storage, 16 GB RAM, and four CPU cores, but then each index component can only hold 10 million items and the search farm only supports the same volume of content as a SharePoint Server 2013 search farm. 
   
 #### Minimum hardware resources for the medium search farm
 <a name="BKMK_MinHWMedium"> </a>
@@ -180,9 +180,9 @@ This table shows the minimum amount of hardware resources that each application 
    
 <sup>1</sup>The number of CPU cores is specified here, not the number of CPU threads.
   
-<sup>2</sup>With SharePoint Server 2013 the minimum amount of resources needed are 500 GB RAM, 16 GB RAM, and four CPU cores. 
+<sup>2</sup>With SharePoint Server 2013 the minimum amount of resources needed are 500 GB storage, 16 GB RAM, and four CPU cores. 
   
-<sup>3</sup>With SharePoint Server 2016 you can also use 500 GB storage, 16 GB RAM, and four CPU cores, but then each index component can only hold 10 million items and the search farm only supports the same volume of content as a SharePoint Server 2013 search farm. 
+<sup>3</sup>With SharePoint Server 2016 you can also use 250 GB storage, 16 GB RAM, and four CPU cores, but then each index component can only hold 10 million items and the search farm only supports the same volume of content as a SharePoint Server 2013 search farm. 
   
 #### Minimum hardware resources for the large search farm
 <a name="BKMK_MinHWLarge"> </a>
@@ -199,9 +199,9 @@ This table shows the minimum amount of hardware resources that each application 
    
 <sup>1</sup>The number of CPU cores is specified here, not the number of CPU threads.
   
-<sup>2</sup>With SharePoint Server 2013 the minimum amount of resources needed are 500 GB RAM, 16 GB RAM, and four CPU cores. 
+<sup>2</sup>With SharePoint Server 2013 the minimum amount of resources needed are 500 GB storage, 16 GB RAM, and four CPU cores. 
   
-<sup>3</sup>With SharePoint Server 2016 you can also use 500 GB storage, 16 GB RAM, and four CPU cores, but then each index component can only hold 10 million items and the search farm only supports the same volume of content as a SharePoint Server 2013 search farm. 
+<sup>3</sup>With SharePoint Server 2016 you can also use 250 GB storage, 16 GB RAM, and four CPU cores, but then each index component can only hold 10 million items and the search farm only supports the same volume of content as a SharePoint Server 2013 search farm. 
   
 #### Minimum hardware resources for the extra large search farm
 <a name="BKMK_MinHWExtraLarge"> </a>

@@ -10,15 +10,16 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: d6845f9b-7c1e-4220-a24d-1e5cade8f0d8
-description: "Summary: Learn how to create and manage result sources in .SharePoint Server 2016 and SharePoint Server 2013."
+description: "Learn how to create and manage result sources in SharePoint Server."
 ---
 
 # Configure result sources for search in SharePoint Server
 
- **Summary:**Learn how to create and manage result sources in .SharePoint Server 2016 and SharePoint Server 2013.
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
-Result sources limit searches to certain content or to a subset of search results. SharePoint Server provides 16 pre-defined result sources. The pre-configured default result source is **Local SharePoint Results**. You can specify a different result source as the default. For more information, see [Understanding result sources for search in SharePoint Server](understanding-result-sources-for-search.md).
-  
+Result sources limit searches to certain content or to a subset of search results. SharePoint Server provides 16 pre-defined result sources for the classic search experience. The pre-configured default result source is **Local SharePoint Results**. You can specify a different result source as the default. The modern search experience uses the default results source, so if you change the default result source for classic search, you also change it for modern search. For more information, see [Understanding result sources for search in SharePoint Server](understanding-result-sources-for-search.md).
+
+ 
     
 ## Create a result source
 <a name="BKMK_CreateResutlSource"> </a>
@@ -87,7 +88,7 @@ Next:
   - **Exchange** provides results from Exchange Server through a SharePoint Server eDiscovery Center. Click **Use AutoDiscover** to have the search system find an Exchange Server endpoint automatically, or type the URL of the Exchange web service to retrieve results from — for example, https://contoso.com/ews/exchange.asmx.
     
     > [!NOTE]
-    >  The Exchange protocol only enables you to discover Exchange Server content, and only from a SharePoint Server eDiscovery Center. For more information, see [Configure communication between SharePoint Server and Exchange Server](https://technet.microsoft.com/en-us/library/fp161514%28v=office.16%29.aspx) . >  The Exchange Web Services Managed API must be installed on the computer on which the search service is running. For more information, see [Optional software supported in SharePoint Server 2016](../install/hardware-and-software-requirements.md#OptionalSoftware) in [Hardware and software requirements for SharePoint Server 2016](../install/hardware-and-software-requirements.md). 
+    >  The Exchange protocol only enables you to discover Exchange Server content, and only from a SharePoint Server eDiscovery Center. For more information, see [Configure communication between SharePoint Server and Exchange Server](/SharePoint/governance/configure-ediscovery-0) . >  The Exchange Web Services Managed API must be installed on the computer on which the search service is running. For more information, see [Optional software supported in SharePoint Server 2016](../install/hardware-and-software-requirements.md#OptionalSoftware) in [Hardware and software requirements for SharePoint Server 2016](../install/hardware-and-software-requirements.md). 
   
 4. In the previous step, if you selected either **Local SharePoint** or **Remote SharePoint** for the protocol, then in the **Type** section, select **SharePoint Search Results** to search the whole index, or select **People Search Results** to enable query processing that is specific to people search. 
     
@@ -139,6 +140,9 @@ Finally, on the **Add Result Source** page, in the **Credentials Information** s
 <a name="BKMK_Default"> </a>
 
  You can set any result source as the default result source. Specifying a result source as default can make it easier to edit the query in Search Web Parts. For example, when you add a Content Search Web Part to a page, the Web Part automatically uses the default result source. For more information, see [Configure Search Web Parts in SharePoint Server](../administration/configure-search-web-parts.md).
+
+> [!NOTE]
+> The modern search experience in SharePoint Server 2019 gets results from the default result source. If you change the default result source it impacts both the classic and modern search experiences.
   
  **To set a result source as default**
   

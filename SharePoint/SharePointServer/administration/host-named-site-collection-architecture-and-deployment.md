@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 3ea30845-37e4-4a9e-badd-b1c8313e4bf3
-description: "Summary: Plan and implement host-named site collections in SharePoint 2013 and SharePoint Server 2016 . Learn how path-based site collections might affect your environment."
+description: "Plan and implement host-named site collections in SharePoint Server. Learn how path-based site collections might affect your environment."
 ---
 
 # Host-named site collection architecture and deployment in SharePoint Server
 
- **Summary:** Plan and implement host-named site collections in SharePoint 2013 and SharePoint Server 2016 . Learn how path-based site collections might affect your environment. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 Host-named site collections are the preferred method to deploy sites in SharePoint Server. Because the Office 365 environment uses host-named site collections, new features are optimized for these site collections and they are expected to be more reliable. Learn how to plan for and implement host-named site collections, design URLs, and manage URLs.
     
@@ -150,7 +150,7 @@ Although we recommend host-named site collections for most architectures, you sh
     
 - You plan to use different application pools for the additional security that these provide or you need to use multiple proxy groups. 
     
-    In these cases, you can use host-named site collections. However, the additional configuration that is required to map URLs for host-named site collections across multiple web applications greatly outweigh the benefits of using host-named site collections. For more information, see [Use multiple web applications with host-named site collections](host-named-site-collection-architecture-and-deployment.md#section4). For more information about creating path-based site collections, see [Create a site collection in SharePoint Server](https://technet.microsoft.com/library/a5c66813-3523-40d1-99d8-86e8359b6c73).
+    In these cases, you can use host-named site collections. However, the additional configuration that is required to map URLs for host-named site collections across multiple web applications greatly outweigh the benefits of using host-named site collections. For more information, see [Use multiple web applications with host-named site collections](host-named-site-collection-architecture-and-deployment.md#section4). For more information about creating path-based site collections, see [Create a site collection in SharePoint Server](/SharePoint/sites/create-a-site-collection).
     
 ### Use host headers and host-named site collections
 <a name="section1e"> </a>
@@ -196,7 +196,7 @@ If you do not intend to configure two or more IIS websites that share the same p
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](https://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Open the **SharePoint Management Shell**.
     
@@ -242,7 +242,7 @@ You can create a host-named site collection by using the Microsoft PowerShell Ne
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](https://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Open the **SharePoint Management Shell**.
     
@@ -253,12 +253,12 @@ You can create a host-named site collection by using the Microsoft PowerShell Ne
   
   ```
 
-This creates a host-named site collection that has the URL, http://webapp.contoso.com, in the SharePoint Server web application that has the URL, http://webapp.contoso.com.
+This creates a host-named site collection that has the URL, http://portal.contoso.com, in the SharePoint Server web application that has the URL, http://portal.contoso.com.
   
 ### Use managed paths with host-named site collections
 <a name="section2d"> </a>
 
-You can implement managed paths with host-named site collections. Hosters can provide multiple site collections to the same customer with each site collection sharing the customer's unique host name but differentiated by the URL path after the host name. Managed paths for host-named site collections are limited to 20 per farm. For more information, see [Software boundaries and limits for SharePoint Server 2016](https://technet.microsoft.com/library/6a13cd9f-4b44-40d6-85aa-c70a8e5c34fe#WebApplication).
+You can implement managed paths with host-named site collections. Hosters can provide multiple site collections to the same customer with each site collection sharing the customer's unique host name but differentiated by the URL path after the host name. Managed paths for host-named site collections are limited to 20 per farm. For more information, see [Software boundaries and limits for SharePoint Server 2016](/SharePoint/install/software-boundaries-and-limits#WebApplication).
   
 Managed paths for host-named site collections behave differently from managed paths for path-based site collections. Managed paths for host-named site collections are available to all host-named site collections within the farm regardless of the web application that the host-named site collection is in. In contrast, managed paths for path-based site collections only apply to sites within the same web application. Managed paths for path-based site collections do not apply to path-based site collections in other web applications. Managed paths for one type of site collection do not apply to the other type of site collection.
   
@@ -379,7 +379,7 @@ This example creates a host-named site collection that has the URL, https://port
   
 The March 2013 Public Update enables you to configure an app domain for each web application zone and use alternate access mapping and host-header web application configuration. Before the release of this update, you could only host one app domain and it had to be in the Default zone. You could not use the app domain on alternate access mappings or host-header web application configurations. 
   
-To resolve this issue, apply the SharePoint Server Cumulative Update Server Hotfix Package: March 12, 2013, see [Updates for SharePoint 2013](https://technet.microsoft.com/en-US/sharepoint/jj891062).
+To resolve this issue, apply the SharePoint Server Cumulative Update Server Hotfix Package: March 12, 2013, see [Updates for SharePoint 2013](/sharepoint/).
   
 ## Migrate path-based site collections to host-named site collections
 <a name="section3"> </a>
@@ -405,19 +405,14 @@ else
 ### Convert path-based site collections to host-named site collections
 <a name="section3b"> </a>
 
-You can convert path-based site collections to host-named site collections and host-named site collections to path-based site collections. You have to use the PowerShell backup and restore cmdlets to convert site collections. You cannot use the the SharePoint Central Administration website or PowerShell cmdlets that attach and detach, or mount and dismount content databases to convert site collections.
+You can convert path-based site collections to host-named site collections and host-named site collections to path-based site collections by using the PowerShell cmdlet Set-SPSite. After the site rename, an app pool recycle is recommended to force refreshing the cache. You cannot use the SharePoint Central Administration website or Windows PowerShell cmdlets that attach and detach, or mount and dismount content databases to convert site collections.
   
 The following example converts a standard site collection to a host-named site collection:
   
 ```
-Backup-SPSite -Identity 'http://portalOld.contoso.com' -Path 'c:\Backup\portalContoso.bak' -Force -UseSQLSnapShot
-Restore-SPSite -Identity 'http://portal.contoso.com' -Path 'c:\Backup\portalContoso.bak' -DatabaseName 'portal_content' -Force -HostHeaderWebApplication 'http://webapp.contoso.com' -Confirm:$false
-
+Get-SPSite https://SP2013content.contoso.com/sites/PathBasedSiteCollection | Set-SPSite -url https://HostNamedSiteCollection.contoso.com 
 ```
 
-> [!IMPORTANT]
-> You cannot run the **Backup-SPSite** cmdlet on a SharePoint Server 2010 environment and use the **Restore-SPSite** cmdlet from the SharePoint Server environment. The Backup and Restore operation need to be from the same major product versions. You can convert path based site collections in SharePoint Server 2010 to host-named site collections before migration or attach path-based site collections in SharePoint Server before converting to host-named site collections. 
-  
 ## Use multiple web applications with host-named site collections
 <a name="section4"> </a>
 
@@ -505,11 +500,11 @@ Get-WebBinding -Name 'webapp' -HostHeader 'webapp.contoso.com' | Remove-WebBindi
 
 #### Other Resources
 
-[Get-SPSiteUrl](https://technet.microsoft.com/library/c04ee745-fb05-4bef-a7df-807d2c6df977.aspx)
+[Get-SPSiteUrl](/powershell/module/sharepoint-server/Get-SPSiteUrl?view=sharepoint-ps)
   
-[Set-SPSiteUrl](https://technet.microsoft.com/library/67e66f44-2522-4f00-aae5-5eb2db1aa90f.aspx)
+[Set-SPSiteUrl](/powershell/module/sharepoint-server/Set-SPSiteUrl?view=sharepoint-ps)
   
-[Remove-SPSiteUrl](https://technet.microsoft.com/library/f5724e3c-3027-4194-9ecf-217ce9bc2882.aspx)
+[Remove-SPSiteUrl](/powershell/module/sharepoint-server/Remove-SPSiteUrl?view=sharepoint-ps)
   
-[Plan logical architectures for SharePoint Server](https://technet.microsoft.com/library/bc5991d1-c187-495c-8057-3bf2c5653aff)
+[Plan logical architectures for SharePoint Server](/SharePoint/administration/administration)
 

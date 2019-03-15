@@ -3,7 +3,6 @@ title: "System Center Operations Manager knowledge articles for SharePoint Serve
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 9/7/2017
 ms.audience: ITPro
 ms.topic: hub-page
 ms.prod: sharepoint-server-itpro
@@ -12,19 +11,31 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: f58bdfdc-0c7e-481e-b3ac-194423f37262
-description: "Navigate to SharePoint Server 2016 and SharePoint 2013 articles about resolving alerts from the Systems Center Operations Manager (SCOM) management pack."
+description: "Navigate to SharePoint Server articles about resolving alerts from the Systems Center Operations Manager (SCOM) management pack."
 ---
 
 # System Center Operations Manager knowledge articles for SharePoint Server
 
-Navigate to SharePoint Server 2016 and SharePoint 2013 articles about resolving alerts from the Systems Center Operations Manager (SCOM) management pack.
+[!INCLUDE[appliesto-2013-2016-xxx-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+
+Navigate to SharePoint Server 2019. 2016, and 2013 articles about resolving alerts from the Systems Center Operations Manager (SCOM) management pack.
   
 The articles in this section are knowledge articles for the SharePoint Server 2016 Monitoring Pack for System Center Operations Manager 2016. These articles are also knowledge articles for the SharePoint Server 2013 and SharePoint Foundation 2013 Monitoring Pack for System Center Operations Manager 2012. 
   
 > [!NOTE]
 > The Project Server 2013 knowledge articles for Systems Center Operations Manager only appear in the SharePoint Server 2013 and SharePoint Foundation 2013 Monitoring Pack for System Center Operations Manager 2012. 
   
-Typically, you would see these articles after you click a link in an alert in the Operations Manager console. You can use these articles to help you troubleshoot problems in SharePoint Server. Download and install [System Center Monitoring Pack for SharePoint Server 2016](http://go.microsoft.com/fwlink/?LinkID=746863&amp;clcid=0x409), [System Center Monitoring Pack for SharePoint Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=272568), or [System Center Monitoring Pack for SharePoint Foundation 2013](https://go.microsoft.com/fwlink/p/?LinkId=272567).
+Typically, you would see these articles after you click a link in an alert in the Operations Manager console. You can use these articles to help you troubleshoot problems in SharePoint Server. 
+
+Download and install:
+
+- [System Center Management Pack for SharePoint Server 2019](https://www.microsoft.com/en-us/download/details.aspx?id=57776)
+
+- [System Center Monitoring Pack for SharePoint Server 2016](http://go.microsoft.com/fwlink/?LinkID=746863&amp;clcid=0x409) 
+
+- [System Center Monitoring Pack for SharePoint Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=272568) 
+
+- [System Center Monitoring Pack for SharePoint Foundation 2013](https://go.microsoft.com/fwlink/p/?LinkId=272567)
   
 In this section:
   

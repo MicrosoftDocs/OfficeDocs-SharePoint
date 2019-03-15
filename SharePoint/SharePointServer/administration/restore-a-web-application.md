@@ -3,7 +3,6 @@ title: "Restore web applications in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 2/21/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -12,12 +11,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: cbb3b242-76ed-4539-b454-4685a84d57c5
-description: "Summary: Learn how to restore a web application in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to restore a web application in SharePoint Server."
 ---
 
 # Restore web applications in SharePoint Server
 
- **Summary:** Learn how to restore a web application in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 You can restore a web application in SharePoint Server by using the SharePoint Central Administration website, Microsoft PowerShell, or SQL Server tools. Which backup tool you use depends on what kind of environment you have deployed, what your backup schedule requires, and what service level agreements you have made with your organization. 
   
@@ -46,40 +45,40 @@ You can use PowerShell to restore a web application manually or as part of a scr
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
-    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
+     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  Restore-SPFarm -Directory <BackupFolderName> -RestoreMethod Overwrite -Item  <WebApplicationName> [-BackupId <GUID>] [-Verbose]
-  ```
+   ```
+   Restore-SPFarm -Directory <BackupFolderName> -RestoreMethod Overwrite -Item  <WebApplicationName> [-BackupId <GUID>] [-Verbose]
+   ```
 
-    Where:
+   Where:
     
-  -  _\<BackupFolderName\>_ is the full path of the folder that you use for backup files. 
+   -  _\<BackupFolderName\>_ is the full path of the folder that you use for backup files. 
     
-  -  _\<WebApplicationName\>_ is the name of the web application that was backed up. 
+   -  _\<WebApplicationName\>_ is the name of the web application that was backed up. 
     
-  -  _\<GUID\>_ is the identifier of the back up to use for the restore operation. 
+   -  _\<GUID\>_ is the identifier of the back up to use for the restore operation. 
     
-    If you do not specify the value of the  `BackupID` parameter, the most recent backup will be used. You cannot restore a web application by using a configuration-only backup. You can view the backups for the farm by typing the following: 
+   If you do not specify the value of the  `BackupID` parameter, the most recent backup will be used. You cannot restore a web application by using a configuration-only backup. You can view the backups for the farm by typing the following: 
     
-  ```
-  Get-SPBackupHistory -Directory <BackupFolderName> -ShowBackup
-  ```
+   ```
+   Get-SPBackupHistory -Directory <BackupFolderName> -ShowBackup
+   ```
 
-For more information, see [Restore-SPFarm](http://technet.microsoft.com/library/8e18ea80-0830-4ffa-b6b6-ad18a5a7ab3e.aspx). 
+For more information, see [Restore-SPFarm](/powershell/module/sharepoint-server/Restore-SPFarm?view=sharepoint-ps). 
   
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 

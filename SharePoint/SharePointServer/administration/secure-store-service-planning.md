@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: e1196de0-1eb9-4c50-aeca-93e0eba7be0d
-description: "Summary: Plan to store authorization credentials in an encrypted database by using the Secure Store Service in SharePoint Server 2013 and SharePoint Server 2016."
+description: "Plan to store authorization credentials in an encrypted database by using the Secure Store Service in SharePoint Server."
 ---
 
 # Plan the Secure Store Service in SharePoint Server
 
- **Summary:** Plan to store authorization credentials in an encrypted database by using the Secure Store Service in SharePoint Server 2013 and SharePoint Server 2016. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 The Secure Store Service is a claims-aware authorization service that includes an encrypted database for storing credentials.
     
@@ -89,5 +89,5 @@ The Secure Store Service is a claims-aware service. It can accept security token
 
 #### Other Resources
 
-[Configure the Secure Store Service in SharePoint Server](https://technet.microsoft.com/library/29c0bc76-d835-401b-a2fb-abb069e84125)
+[Configure the Secure Store Service in SharePoint Server](/SharePoint/administration/configure-the-secure-store-service)
 

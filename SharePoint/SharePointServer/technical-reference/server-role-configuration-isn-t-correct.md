@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 23829b00-db4c-4400-b236-e86ea60fa193
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleServer role configuration isn't correctfor SharePoint Server 2016."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: Server role configuration isn't correct, for SharePoint Server."
 ---
 
 # Server role configuration isn't correct (SharePoint Server 2016)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "Server role configuration isn't correct" for SharePoint Server 2016. 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)] 
   
  **Rule Name:** Server role configuration isn't correct. 
   
@@ -35,6 +35,6 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleS
     
 4. If the health rule detects that a server is out of compliance and the automatic repair functionality is disabled, it generates a health report in Central Administration. The health report identifies which servers are out of compliance and offers the ability to automatically repair the server and also provide instructions about how to manually fix the servers.
     
-    For more information, see the Health monitoring section in [Overview of MinRole Server Roles in SharePoint Server 2016](../install/overview-of-minrole-server-roles-in-sharepoint-server-2016.md).
+    For more information, see the Health monitoring section in [Overview of MinRole Server Roles in SharePoint Server 2016](../install/overview-of-minrole-server-roles-in-sharepoint-server.md).
     
 

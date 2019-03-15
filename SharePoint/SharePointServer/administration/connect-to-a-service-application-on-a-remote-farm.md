@@ -3,7 +3,6 @@ title: "Connect to service applications on remote farms in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 3/3/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -12,12 +11,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: e8f2c08c-8e9f-40b4-b066-747d65dcb0e4
-description: "Summary: Learn how to connect to and consume a published service application in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to connect to and consume a published service application in SharePoint Server."
 ---
 
 # Connect to service applications on remote farms in SharePoint Server
 
- **Summary:** Learn how to connect to and consume a published service application in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 In SharePoint Server, you can publish some service applications to make them available over remote connections. By publishing a service application, you can optimize resources and avoid redundancy, and provide enterprise-wide services without installing a dedicated enterprise services farm.
   
@@ -55,49 +54,47 @@ Before you begin this operation, review [Share service applications across farms
 
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
-  - Add memberships that are required beyond the minimums above.
+   - Add memberships that are required beyond the minimums above.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  Receive-SPServiceApplicationConnectionInfo -FarmUrl <PublishingFarmTopologyURL>
-  ```
+   ```powershell
+   Receive-SPServiceApplicationConnectionInfo -FarmUrl <PublishingFarmTopologyURL>
+   ```
 
-    Where:
-    
-  -  _\<PublishingFarmTopologyURL\>_ is the information that is retrieved by running the **Get-SPTopologyServiceApplication** cmdlet on the publishing farm. For more information, see [Publish service applications in SharePoint Server](publish-a-service-application.md).
+   Where _\<PublishingFarmTopologyURL\>_ is the information that is retrieved by running the **Get-SPTopologyServiceApplication** cmdlet on the publishing farm. For more information, see [Publish service applications in SharePoint Server](publish-a-service-application.md).
     
 4. At the PowerShell command prompt, type the following command: 
     
-  ```
-  New-SPServiceApplicationProxy -Name " <ServiceApplicationProxyName>" -Url "<PublishingFarmTopologyURL>"
-  ```
+   ```powershell
+   New-SPServiceApplicationProxy -Name " <ServiceApplicationProxyName>" -Url "<PublishingFarmTopologyURL>"
+   ```
 
-    Where:
+   Where:
     
-  -  _\<ServiceApplicationProxyName\>_ is a unique name for a service application connection on the consuming farm. 
+   -  _\<ServiceApplicationProxyName\>_ is a unique name for a service application connection on the consuming farm. 
     
-  -  _\<PublishingFarmTopologyURL\>_ is the service application topology URL that was also used in the previous command. 
+   -  _\<PublishingFarmTopologyURL\>_ is the service application topology URL that was also used in the previous command. 
     
-    Each kind of service application has a specific PowerShell cmdlet that should be used instead of  _New-SPServiceApplicationProxy_. (These cmdlets are listed in the See Also section.) For example, the following command creates a new Managed Metadata service application proxy named "MetadataServiceProxy1" that connects to the service application located at the stated URL.
+   Each kind of service application has a specific PowerShell cmdlet that should be used instead of  _New-SPServiceApplicationProxy_. (These cmdlets are listed in the See Also section.) For example, the following command creates a new Managed Metadata service application proxy named "MetadataServiceProxy1" that connects to the service application located at the stated URL.
     
-  ```
-  New-SPMetadataServiceApplicationProxy -Name "MetadataServiceProxy1" -Uri "
-  urn:schemas-microsoft-com:sharepoint:service:9c1870b7ee97445888d9e846519cfa27#authority=urn:uuid:02a493b92a5547828e21386e28056cba&amp;authority=https://ua_powershell:32844/Topology/topology.svc  "
-  ```
+   ```powershell
+   New-SPMetadataServiceApplicationProxy -Name "MetadataServiceProxy1" -Uri "
+   urn:schemas-microsoft-com:sharepoint:service:9c1870b7ee97445888d9e846519cfa27#authority=urn:uuid:02a493b92a5547828e21386e28056cba&amp;authority=https://ua_powershell:32844/Topology/topology.svc  "
+   ```
 
 5. You must associate the new service application connection with a local Web application. For information about how to do this, see [Add or remove service application connections from a web application in SharePoint Server](add-or-remove-a-service-application-connection-to-a-web-application.md).
     
@@ -105,13 +102,13 @@ Before you begin this operation, review [Share service applications across farms
 
 #### Other Resources
 
-[New-SPBusinessDataCatalogServiceApplicationProxy](http://technet.microsoft.com/library/f73ddc6f-78ca-4736-b827-7df10cad3838.aspx)
+[New-SPBusinessDataCatalogServiceApplicationProxy](/powershell/module/sharepoint-server/New-SPBusinessDataCatalogServiceApplicationProxy?view=sharepoint-ps)
   
-[New-SPEnterpriseSearchServiceApplicationProxy](http://technet.microsoft.com/library/2a074a5a-0af0-48fd-aa1f-edc875f93335.aspx)
+[New-SPEnterpriseSearchServiceApplicationProxy](/powershell/module/sharepoint-server/New-SPEnterpriseSearchServiceApplicationProxy?view=sharepoint-ps)
   
-[New-SPMetadataServiceApplicationProxy](http://technet.microsoft.com/library/e2c96d7d-d443-4457-8348-16d0a84e0b8e.aspx)
+[New-SPMetadataServiceApplicationProxy](/powershell/module/sharepoint-server/New-SPMetadataServiceApplicationProxy?view=sharepoint-ps)
   
-[New-SPProfileServiceApplicationProxy](http://technet.microsoft.com/library/3019f2e5-451e-4af7-a434-3661319dd3c0.aspx)
+[New-SPProfileServiceApplicationProxy](/powershell/module/sharepoint-server/New-SPProfileServiceApplicationProxy?view=sharepoint-ps)
   
-[New-SPSecureStoreServiceApplicationProxy](http://technet.microsoft.com/library/57dc65e4-a368-46d4-836d-9850d1215b4b.aspx)
+[New-SPSecureStoreServiceApplicationProxy](/powershell/module/sharepoint-server/New-SPSecureStoreServiceApplicationProxy?view=sharepoint-ps)
 

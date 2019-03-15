@@ -3,19 +3,18 @@ title: "Plan incoming email for a SharePoint Server farm"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 3/12/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: ca092ed2-4aa2-4c2e-b273-661ca6a76e01
-description: "Summary: Learn how to configure incoming email for SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to configure incoming email for SharePoint Server."
 ---
 
 # Plan incoming email for a SharePoint Server farm
 
- **Summary:** Learn how to configure incoming email for SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 The incoming email feature of SharePoint Server enables SharePoint sites to receive and store email messages and attachments in lists and libraries. This article helps administrators understand the choices they need to make before deploying the incoming email feature.
   
@@ -32,16 +31,12 @@ MinRole now manages the incoming email feature in SharePoint Server 2016. The in
 - Application
     
 - Application with Search
-    
-- Front-end
-    
-- Search - (You need to create an SMTP smarthost for the servers in the farm, which then relays those emails to your normal SMTP server.)
-    
+        
+- Single Server Farm
+
 - Custom
     
-MinRole now manages the incoming email feature in SharePoint Server 2016. The incoming email feature can only be used on the following MinRole roles:
-  
-MinRole doesn't manage the incoming email service on the Custom server role. However, SharePoint farm administrators can turn this service on and off on each server that is assigned the Custom server role. For more information see [Planning for a MinRole server deployment in SharePoint Server 2016](../install/planning-for-a-minrole-server-deployment-in-sharepoint-server-2016.md).
+MinRole doesn't manage the incoming email service on the Custom server role. However, SharePoint farm administrators can turn this service on and off on each server that is assigned the Custom server role. For more information see [Planning for a MinRole server deployment in SharePoint Server 2016](../install/planning-for-a-minrole-server-deployment-in-sharepoint-server.md).
   
 Before configuring incoming email, you must perform the following tasks:
   
@@ -192,6 +187,10 @@ If the SMTP service is running on another server than on the SharePoint server, 
 
 As a farm administrator, you have two settings modes from which to choose when enabling incoming email: automatic and advanced. As described in the "Using a basic scenario" section, you can choose the automatic settings mode with default settings. However, the automatic settings mode has additional options that you can choose.
   
+  
+> [!NOTE]
+> Automatic mode is not available in SharePoint Server 2019.
+
 The following table describes the configuration options and whether they are configured on the **Configure Incoming E-Mail Settings** page in Central Administration by using the automatic settings mode or the advanced settings mode. 
   
 |**Configuration option**|**Automatic settings mode**|**Advanced settings mode**|

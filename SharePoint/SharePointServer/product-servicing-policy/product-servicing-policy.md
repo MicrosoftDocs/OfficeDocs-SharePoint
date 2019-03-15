@@ -9,12 +9,12 @@ ms.topic: reference
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 3824d521-ee4f-408e-b3fd-51da34e20538
-description: "Summary: These articles explain the updated product servicing policies of SharePoint Server 2016 and SharePoint Server 2013."
+description: "These articles explain the updated product servicing policies of SharePoint Server."
 ---
 
 # Product Servicing Policy
 
- **Summary:** These articles explain the updated product servicing policies of SharePoint Server 2016 and SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 During mainstream support, Microsoft releases new Public Update (PU) builds for SharePoint Server and SharePoint Foundation each month that contain the latest functionality, performance, and stability improvements for the product.
   

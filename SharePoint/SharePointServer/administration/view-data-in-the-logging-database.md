@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: c5c6fd31-d747-49c0-9784-b4f29bd82809
-description: "Summary: Learn about the SharePoint logging database, how to view monitoring information, use custom SQL views, and export into Excel."
+description: "Learn about the SharePoint logging database, how to view monitoring information, use custom SQL views, and export into Excel."
 ---
 
 # View data in the logging database in SharePoint Server
 
- **Summary:** Learn about the SharePoint logging database, how to view monitoring information, use custom SQL views, and export into Excel. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 - [Introduction to the SharePoint logging database](#section1)
     
@@ -46,7 +46,7 @@ A single place that stores various monitoring information helps you efficiently 
 > [!NOTE]
 > A SQL view is a virtual table. One difference between a table and a SQL view is that you can modify the data inside a table but you cannot modify the data inside a SQL view. 
   
-You use SharePoint Server 2016Central Administration to configure logs imported into the logging database. For more information about how to configure log categories, log levels, and trace (ULS) log path, see [Configure diagnostic logging in SharePoint Server](configure-diagnostic-logging.md). For more information about how to enable what is written into the logging database, see [Configure usage and health data collection in SharePoint Server](configure-usage-and-health-data-collection.md). For more information about how to specify the logging database server, name and database authentication information, the events to be written to the logging database, and the frequency that logs are written to the logging database (that is, timer jobs related to usage database importing), see [Configure SharePoint Health Analyzer timer jobs in SharePoint Server 2016](configure-sharepoint-health-analyzer-timer-jobs.md). 
+You use SharePoint Server 2016 Central Administration to configure logs imported into the logging database. For more information about how to configure log categories, log levels, and trace (ULS) log path, see [Configure diagnostic logging in SharePoint Server](configure-diagnostic-logging.md). For more information about how to enable what is written into the logging database, see [Configure usage and health data collection in SharePoint Server](configure-usage-and-health-data-collection.md). For more information about how to specify the logging database server, name and database authentication information, the events to be written to the logging database, and the frequency that logs are written to the logging database (that is, timer jobs related to usage database importing), see [Configure SharePoint Health Analyzer timer jobs in SharePoint Server 2016](configure-sharepoint-health-analyzer-timer-jobs.md). 
   
 The procedures in this article use SQL Server Management Studio to access the logging database. Management Studio is a component of SQL Server 2008.
   

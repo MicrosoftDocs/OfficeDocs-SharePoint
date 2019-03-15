@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 8386d324-816a-42ee-aff2-ce135ca2f241
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleAll State Service databases are paused for a State Service Application."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: All State Service databases are paused for a State Service Application."
 ---
 
 # All State Service databases are paused for a State Service Application (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "All State Service databases are paused for a State Service Application." 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
  **Rule Name:** All State Service databases are paused for a State Service Application 
   
@@ -38,7 +38,7 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleA
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -76,6 +76,6 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleA
     
   -  _\<Credential\>_ is SQL Server authentication credentials for the database server. If this parameter is not specified, Windows authentication will be used. 
     
-For more information, see [Resume-SPStateServiceDatabase](http://technet.microsoft.com/library/5a608d7b-80e3-482b-832a-e2033d403249.aspx) or [New-SPStateServiceDatabase](http://technet.microsoft.com/library/221e439c-c501-4d4c-9d8a-171a01e67e25.aspx). 
+For more information, see [Resume-SPStateServiceDatabase](/powershell/module/sharepoint-server/Resume-SPStateServiceDatabase?view=sharepoint-ps) or [New-SPStateServiceDatabase](/powershell/module/sharepoint-server/New-SPStateServiceDatabase?view=sharepoint-ps). 
   
 

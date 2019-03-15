@@ -56,6 +56,7 @@
           "**/*.png",
           "**/*.jpg",
           "**/*.gif",
+          "**/*.chm",
           "**/*.svg"
         ],
         "exclude": [
@@ -66,15 +67,25 @@
     ],
     "overwrite": [],
     "externalReference": [],
+    "markdownEngineName": "markdig",    
     "globalMetadata": {
       "breadcrumb_path": "/sharepoint/breadcrumb/toc.json",
       "extendBreadcrumb": "true",
+      "contributors_to_exclude": [
+        "dstrome",
+        "daswifty",
+        "Reraghavan"
+      ],
       "searchScope": ["SharePoint Server"],
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/OfficeDocs-SharePoint",
       "feedback_product_url": "https://sharepoint.uservoice.com/" 
     },
-    "fileMetadata": {},
+    "fileMetadata": {
+        "feedback_product_url": { 
+            "SharePointServer/search/*.md": "https://sharepoint.uservoice.com/forums/330321-sharepoint-search" },
+        "searchScope": { 
+            "SharePointOnline/*.md": ["SharePoint Online"] }},
     "template": [],
     "dest": "OfficeDocs-SharePoint"
   }

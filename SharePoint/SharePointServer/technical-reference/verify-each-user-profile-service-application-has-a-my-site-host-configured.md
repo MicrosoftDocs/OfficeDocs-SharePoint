@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 2689bb6a-fd05-4273-87eb-daac5b2722f3
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleVerify each User Profile service application has a My Site Host configuredin SharePoint Server 2016 and SharePoint Server 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: Verify each User Profile service application has a My Site Host configured, for SharePoint Server."
 ---
 
 # Verify each User Profile service application has a My Site host configured (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "Verify each User Profile service application has a My Site Host configured" in SharePoint Server 2016 and SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
  **Rule Name:** Verify each User Profile service application has a My Site Host configured. 
   
@@ -44,7 +44,7 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleV
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -65,5 +65,5 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleV
 
 #### Other Resources
 
-[Set-SPProfileServiceApplication](http://technet.microsoft.com/library/92948ad5-2100-4b49-a59e-99dfb6a9d1ed.aspx)
+[Set-SPProfileServiceApplication](/powershell/module/sharepoint-server/Set-SPProfileServiceApplication?view=sharepoint-ps)
 

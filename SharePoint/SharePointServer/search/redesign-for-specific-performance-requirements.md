@@ -1,5 +1,5 @@
 ---
-title: "Redesign enterprise search topology for specific performance requirements in SharePoint 2016"
+title: "Redesign enterprise search topology for specific performance requirements in SharePoint"
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen
@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: e1c3fe21-9110-4861-9fc9-715745c9197a
-description: "Summary: Learn how to redesign enterprise search topology so you can scale search performance to meet specific performance requirements."
+description: "Learn how to redesign enterprise search topology so you can scale search performance to meet specific performance requirements."
 ---
 
-# Redesign enterprise search topology for specific performance requirements in SharePoint 2016
+# Redesign enterprise search topology for specific performance requirements in SharePoint
 
- **Summary:** Learn how to redesign enterprise search topology so you can scale search performance to meet specific performance requirements. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 If your search environment has specific performance requirements that weren't met by following the guidance in [Plan enterprise search architecture in SharePoint Server 2016](plan-enterprise-search-architecture.md), then the solution is to scale the topology of your enterprise search architecture:
   
@@ -95,9 +95,9 @@ When the amount of indexed items increases while the indexed items change at the
 | Link database                    | Use one link database for each 60 million items in the content corpus. For example, an index with 100 million items requires two link databases.  <br/> If the added content implies a higher crawl rate, you might need more IOPS resources to serve the link databases.                                                                                                                                                                                                                                                                                             |
 | Analytics reporting database     | How many analytics reporting databases you need, depends on how the search environment uses analytics, and how often. In general, add an analytics reporting database when the analytics performance starts decreasing. For example, when the nightly update of the database starts to take more time. This might happen when the database reaches a size of 250 GB, or 20 million rows in total, or when the number of views per day reaches 500,000 unique items.                                                                                                   |
    
-<sup>1</sup>10 million items with SharePoint Server 2013, or with SharePoint Server 2016 running with less resources than 500 GB RAM, 32 GB RAM, and eight CPU cores.
+<sup>1</sup>10 million items with SharePoint Server 2013, or with SharePoint Server 2016 running with less resources than 500 GB storage, 32 GB RAM, and eight CPU cores.
   
-<sup>2</sup>40 million items with SharePoint Server 2013, or with SharePoint Server 2016 running with less resources than 500 GB RAM, 32 GB RAM, and eight CPU cores.
+<sup>2</sup>40 million items with SharePoint Server 2013, or with SharePoint Server 2016 running with less resources than 500 GB storage, 32 GB RAM, and eight CPU cores.
   
 ### How to increase the ingestion rate and the freshness of results
 <a name="BKMK_HowIncreaseIngestion"> </a>
@@ -143,19 +143,19 @@ Check the crawl schedule, and identify which content sources that search crawls 
   
 - Increase the speed of the connection between the server hosting the crawl component and that content source. It's the crawl rate, downloading items from content sources, and passing items to the content processing component that drives the need for network bandwidth for the crawl component.
     
-- If the content source is SharePoint, that farm might need more, and dedicated, crawl targets. Read about crawl targets in [Manage crawl load (SharePoint 2010)](https://technet.microsoft.com/en-us/library/dd335962%28v=office.14%29.aspx).
+- If the content source is SharePoint, that farm might need more, and dedicated, crawl targets. Read about crawl targets in [Manage crawl load (SharePoint 2010)](/previous-versions/office/sharepoint-server-2010/dd335962(v=office.14)).
     
-- Improve the performance of the content database. Learn how in [Best practices for SQL Server in a SharePoint Server farm](https://technet.microsoft.com/en-us/library/hh292622%28v=office.16%29.aspx).
+- Improve the performance of the content database. Learn how in [Best practices for SQL Server in a SharePoint Server farm](/SharePoint/administration/best-practices-for-sql-server-in-a-sharepoint-server-farm).
     
 #### Increase processing resources for crawling
 <a name="BKMK_ProcessingCrawl"> </a>
 
-If the crawl component often uses 100% of the processor resources, consider adding another crawl component or adding more processor resources to the servers hosting crawl components. It's the crawl rate, discovery of links, and management of crawling that drives the need for processor resources. Normally, crawling is fast enough when you use two crawl components in search architectures like the small and medium [sample search architectures](https://technet.microsoft.com/en-us/library/dn342836%28v=office.16%29.aspx) that Microsoft has estimated. Search architectures like the large and extra-large samples might need more than two crawl components. 
+If the crawl component often uses 100% of the processor resources, consider adding another crawl component or adding more processor resources to the servers hosting crawl components. It's the crawl rate, discovery of links, and management of crawling that drives the need for processor resources. Normally, crawling is fast enough when you use two crawl components in search architectures like the small and medium [sample search architectures](/SharePoint/search/plan-enterprise-search-architecture) that Microsoft has estimated. Search architectures like the large and extra-large samples might need more than two crawl components. 
   
 #### Increase processing resources for the crawl database
 <a name="BKMK_ProcessingCrawlDB"> </a>
 
-Check whether the SQL servers hosting crawl databases have enough resources. Read how to do this in [Best practices for SQL Server in a SharePoint Server farm](https://technet.microsoft.com/en-us/library/hh292622%28v=office.16%29.aspx).
+Check whether the SQL servers hosting crawl databases have enough resources. Read how to do this in [Best practices for SQL Server in a SharePoint Server farm](/SharePoint/administration/best-practices-for-sql-server-in-a-sharepoint-server-farm).
   
 If all the crawl databases use a lot of processor resources, consider adding more processor resources to the SQL server hosting the databases or add another SQL server with the same number of crawl databases as the existing SQL servers. If you for example have two SQL servers that each has three crawl databases, add another SQL server with three crawl databases.
   
@@ -267,7 +267,7 @@ To make your search databases redundant, use the high availability alternatives 
 ## Step 3: Choose to run the servers physically or virtually
 <a name="BKMK_Step3"> </a>
 
-When you originally planned your search architecture, you decided to use physical servers or virtual machines, or a mix. Consider whether that decision still is valid. If you now have many more search components, you might want to use virtual machines to make managing the architecture easier. For example, it's easier to replace a faulted virtual machine than a physical machine. Note also that although a virtual environment is easier to manage, its performance level can sometimes be slightly lower than that of a physical environment. A physical server can host more search components on the same server than a virtual server. You'll find useful guidance in [Overview of farm virtualization and architectures for SharePoint 2013](http://technet.microsoft.com/library/490c2bcc-a192-48a2-888a-29c24cfb1bce%28Office.14%29.aspx).
+When you originally planned your search architecture, you decided to use physical servers or virtual machines, or a mix. Consider whether that decision still is valid. If you now have many more search components, you might want to use virtual machines to make managing the architecture easier. For example, it's easier to replace a faulted virtual machine than a physical machine. Note also that although a virtual environment is easier to manage, its performance level can sometimes be slightly lower than that of a physical environment. A physical server can host more search components on the same server than a virtual server. You'll find useful guidance in [Overview of farm virtualization and architectures for SharePoint 2013](/previous-versions/office/sharepoint-server-2010/ff607811(v=office.14)).
   
 ## Step 4: Which server to host which search component or database?
 <a name="BKMK_Step4"> </a>
@@ -277,7 +277,7 @@ Now that you've redesigned your search topology, your next step is to assign the
 ### One search component type per server
 <a name="BKMK_HostOne"> </a>
 
-Each physical server or virtual machine can only host one search component of each type. The index component is an exception. Physical servers or virtual machines can host up to four index components. You can read about these limits in [Search limits](https://technet.microsoft.com/en-us/library/cc262787%28v=office.16%29.aspx).
+Each physical server or virtual machine can only host one search component of each type. The index component is an exception. Physical servers or virtual machines can host up to four index components. You can read about these limits in [Search limits](/SharePoint/install/software-boundaries-and-limits-0).
   
 ### Separate bulk processing and real-time components from each other
 <a name="BKMK_HostBulkRealtime"> </a>
@@ -353,7 +353,7 @@ These are the minimum resources a server or virtual machine must have to host on
 | **Storage**                      | **Memory**        | **Processor**                                      | **Network bandwidth** |
 | 500 GB for the index<sup>1</sup> | 32 GB<sup>1</sup> | 64-bit, 8 cores minimum<sup>1</sup>, <sup>2</sup>. | 2 Gbps                |
    
-<sup>1</sup>With SharePoint Server 2013 the minimum amount of resources are 500 GB storage,16 GB RAM, and four CPU cores. 
+<sup>1</sup>With SharePoint Server 2013 the minimum amount of resources are 500 GB storage, 16 GB RAM, and four CPU cores. 
   
 <sup>2</sup>You can use 16 GB RAM and four CPU cores with SharePoint Server 2016, but then each index component can maximum hold 10 million items (instead of 20 million items).
   
@@ -410,7 +410,7 @@ The way that you decide to distribute data from the search components and from t
 #### Choose type of storage
 <a name="BKMK_ChooseStoragePerf"> </a>
 
-For an overview of storage architectures and disk types, see [Storage and SQL Server capacity planning and configuration (SharePoint Server 2016)](https://technet.microsoft.com/en-us/library/cc298801%28v=office.16%29.aspx). The servers that host the index, analytics processing, and the search administration components, or search databases, require storage that can maintain low latency, while providing sufficient I/O operations per second (IOPS). The following tables show how many IOPS each of these search components and databases require.
+For an overview of storage architectures and disk types, see [Storage and SQL Server capacity planning and configuration (SharePoint Server 2016)](/SharePoint/administration/storage-and-sql-server-capacity-planning-and-configuration). The servers that host the index, analytics processing, and the search administration components, or search databases, require storage that can maintain low latency, while providing sufficient I/O operations per second (IOPS). The following tables show how many IOPS each of these search components and databases require.
   
 If you deploy shared storage like SAN/NAS, the peak disk load of one search component typically coincides with the peak disk load of another search component. To get the number of IOPS search requires from the shared storage, you need to add up the IOPS requirement of each of these components.
   

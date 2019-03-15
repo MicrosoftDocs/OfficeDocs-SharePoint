@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 1f2997aa-6bfe-441e-a100-2466c527468f
-description: "Summary: Create a plan to upgrade data for service applications when you upgrade from SharePoint Server 2010 to SharePoint Server 2013."
+description: "Create a plan to upgrade data for service applications when you upgrade from SharePoint Server 2010 to SharePoint Server 2013."
 ---
 
 # Services upgrade overview from SharePoint 2010 to SharePoint Server 2013
 
- **Summary: ** Create a plan to upgrade data for service applications when you upgrade from SharePoint Server 2010 to SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 The upgrade process for SharePoint Server 2013 uses the database attach upgrade method. When you move your databases to a new farm and upgrade the content, you must create your services infrastructure in the new farm, and configure the services appropriately for your new farm and new version. The following service applications have databases that can be upgraded when you upgrade from SharePoint Server 2010 to SharePoint Server 2013:
   
@@ -102,7 +102,7 @@ The following services in SharePoint Server 2013 also require additional steps t
     
 - **Office Web Apps**
     
-    If you installed Office Online with SharePoint 2010 Products, Office Online will not be available after you upgrade to SharePoint 2013 Products. You must deploy Office Online Server and then connect SharePoint 2013 Products it to after the content databases are upgraded. You do not have to wait until the site collections are upgraded because Office Online Server supports both the 2010 and 2013 site collection modes in SharePoint 2013 Products. For more information, see [Office Web Apps](http://technet.microsoft.com/library/e75c9827-f5ce-4099-a08c-b42fde72ea98.aspx).
+    If you installed Office Online with SharePoint 2010 Products, Office Online will not be available after you upgrade to SharePoint 2013 Products. You must deploy Office Online Server and then connect SharePoint 2013 Products it to after the content databases are upgraded. You do not have to wait until the site collections are upgraded because Office Online Server supports both the 2010 and 2013 site collection modes in SharePoint 2013 Products. For more information, see [Office Web Apps](/webappsserver/office-web-apps-server).
     
 ## See also
 <a name="Considerations"> </a>

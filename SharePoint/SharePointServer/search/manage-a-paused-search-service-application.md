@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 18b1dbaf-d8e1-416b-b2fb-fe6cd0a369f1
-description: "Summary: Learn why the Search service application is paused and what you can do to resume it in SharePoint Server 2016 and SharePoint Server 2013."
+description: "Learn why the Search service application is paused and what you can do to resume it in SharePoint Server."
 ---
 
 # Manage a paused Search service application in SharePoint Server
 
- **Summary:** Learn why the Search service application is paused and what you can do to resume it in SharePoint Server 2016 and SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 Most operations that require the Search service application to be paused have to complete before the Search service application automatically resumes.
   
@@ -33,9 +33,9 @@ We'll show you how you can find out if and why the Search service application is
   $ssa.IsPaused() -ne 0
   ```
 
-    If this command returns **False**, the Search service application is running.
+If this command returns **False**, the Search service application is running.
     
-    If this command returns **True**, the Search service application is paused. Go to step 4 to find out why, and what action you should take.
+If this command returns **True**, the Search service application is paused. Go to step 4 to find out why, and what action you should take.
     
 4. At the Microsoft PowerShell command prompt, type the following command(s) until you find the reason why the Search service application is paused.
     
@@ -61,4 +61,10 @@ If this command returns **False**, the Search service application is running.
   
 If this command returns **True**, the Search service application is paused. Re-run the commands from step 4 to find out why.
   
+**Resume a paused Search service application in SharePoint Server**
 
+To resume a paused Search service application, use the following PowerShell.
+
+```
+$ssa = Get-SPEnterpriseSearchServiceApplication -Identity MySSA
+$ssa | Resume-SPEnterpriseSearchServiceApplication

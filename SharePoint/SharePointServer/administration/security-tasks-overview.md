@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: ec012300-2ebe-48f0-b110-a5bc9166e353
-description: "Summary: Understand Microsoft Business Connectivity Services security in SharePoint Server 2016 and SharePoint Server 2013."
+description: "Understand Microsoft Business Connectivity Services security in SharePoint Server."
 ---
 
 # Overview of Business Connectivity Services security tasks in SharePoint Server
 
- **Summary:** Understand Microsoft Business Connectivity Services security in SharePoint Server 2016 and SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 Providing security for the data that you work with through Microsoft Business Connectivity Services (BCS) is a critical part of every BCS solution. Unlike regular SharePoint data, which is stored in a SharePoint content database, the data that BCS solutions make visible live outside of SharePoint in external systems. BCS provides the channel that SharePoint uses to get to the external data. In addition to working within the usual SharePoint Server security controls such as site access permissions and list permissions, BCS solutions have to deal with additional communication and security layers. For example, the external system might use a different authentication mechanism or provider, and require different credentials than the ones your users use to access SharePoint Server with. Because there are more security layers in a BCS solution, there are more security configuration tasks involved.
   
@@ -68,7 +68,7 @@ You can directly apply four permissions:
     
  **Mapping accounts and groups in Secure Store Service**
   
-BCS cannot pass a user's credentials outside of the SharePoint Server farm to the external system where the data resides unless you've configured Kerberos Constrained Delegation. Kerberos Constrained Delegation can be challenging to configure and maintain. As an alternative, you can use the [Secure Store Service](http://technet.microsoft.com/library/e1196de0-1eb9-4c50-aeca-93e0eba7be0d%28Office.14%29.aspx). With Secure Store, you can map a group of users to a set of credentials that BCS can use to access the external system.
+BCS cannot pass a user's credentials outside of the SharePoint Server farm to the external system where the data resides unless you've configured Kerberos Constrained Delegation. Kerberos Constrained Delegation can be challenging to configure and maintain. As an alternative, you can use the [Secure Store Service](/previous-versions/office/sharepoint-server-2010/ee806889(v=office.14)). With Secure Store, you can map a group of users to a set of credentials that BCS can use to access the external system.
   
 There are two ways to configure your mappings:
   

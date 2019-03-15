@@ -3,7 +3,6 @@ title: "Back up User Profile service applications in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 2/17/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -12,17 +11,17 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 80f7df54-738e-49ba-9ff9-2f312d77a271
-description: "Summary: Learn how to back up the User Profile Service service application in SharePoint Server 2016 and SharePoint Server 2013."
+description: "Learn how to back up the User Profile Service service application in SharePoint Server."
 ---
 
 # Back up User Profile service applications in SharePoint Server
 
- **Summary:** Learn how to back up the User Profile Service service application in SharePoint Server 2016 and SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 You can back up the User Profile service application by using the SharePoint Central Administration website, Microsoft PowerShell, or SQL Server tools. Which backup tool you use depends on what kind of environment you have deployed, what your backup schedule requires, and what service level agreements you have made with your organization.
   
 > [!IMPORTANT]
-> The steps in this article apply to only SharePoint Server 2016 and SharePoint Server 2013. 
+> The steps in this article apply to only SharePoint Servers 2019, 2016, and 2013. 
   
     
 ## Before you begin
@@ -50,49 +49,48 @@ You can use PowerShell to back the User Profile service application manually or 
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 Products cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  Backup-SPFarm -Directory <BackupFolder> -BackupMethod Full -Item Farm\Shared Services\Shared Service Applications\<ServiceApplicationName> [-Verbose]
-  ```
+   ```powershell
+   Backup-SPFarm -Directory <BackupFolder> -BackupMethod Full -Item Farm\Shared Services\Shared Service Applications\<ServiceApplicationName> [-Verbose]
+   ```
 
     Where:
     
-  -  _\<BackupFolder\>_ is the path of a folder on the local computer or on the network in which you want to store the backups. 
+   -  _\<BackupFolder\>_ is the path of a folder on the local computer or on the network in which you want to store the backups. 
     
-  -  _\<ServiceApplicationName\>_ is the name of the User Profile Service service application that you want to back up. 
+   -  _\<ServiceApplicationName\>_ is the name of the User Profile Service service application that you want to back up. 
     
-    The User Profile Service service application always requires a full backup,
     
     > [!NOTE]
     > The User Profile Service service application always requires a full backup, 
   
 4. You must also back up the service application proxy. To do this, at the PowerShell command prompt, type the following command:
     
-  ```
-  Backup-SPFarm -Directory <BackupFolder> -BackupMethod Full -Item Farm\Shared Services\Shared Service Proxies\<ServiceApplicationProxyName > [-Verbose]
-  ```
+   ```powershell
+   Backup-SPFarm -Directory <BackupFolder> -BackupMethod Full -Item Farm\Shared Services\Shared Service Proxies\<ServiceApplicationProxyName > [-Verbose]
+   ```
 
     Where:
     
-  -  _\<BackupFolder\>_ is the path of a folder on the local computer or on the network in which you want to store the backups. 
+   -  _\<BackupFolder\>_ is the path of a folder on the local computer or on the network in which you want to store the backups. 
     
-  -  _\<ServiceApplicationProxyName\>_ is the name of the User Profile Service service application proxy that you want to back up. 
+   -  _\<ServiceApplicationProxyName\>_ is the name of the User Profile Service service application proxy that you want to back up. 
     
-For more information, see [Backup-SPFarm](http://technet.microsoft.com/library/c37704b5-5361-4090-a84d-fcdd17bbe345.aspx). 
+For more information, see [Backup-SPFarm](/powershell/module/sharepoint-server/Backup-SPFarm?view=sharepoint-ps). 
   
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
@@ -145,9 +143,9 @@ You cannot back up the whole User Profile service application or service applica
     
 2. Before you back up the User Profile Service service application databases, you must export the Microsoft Identity Integration Server Key (MIIS) encryption key. You will import this exported key before you restore the databases. By default, the key is located on the server that runs SharePoint Server 2016 that is hosting the Microsoft Forefront Identity Manager services in the following directory:  _\<root directory drive\>_\Program Files\Microsoft Office Servers\16.0\Synchronization Service\Bin or  _\<root directory drive\>_\Program Files\Microsoft Office Servers\15.0\Synchronization Service\Bin. To export the key, type the following at the command prompt:
     
-  ```
-  miiskmu.exe
-  ```
+   ```
+   miiskmu.exe
+   ```
 
     Use the Microsoft Identity Integration Server Key Management Utility Wizard to export the key set.
     
@@ -159,7 +157,7 @@ You cannot back up the whole User Profile service application or service applica
     
 6. In the **Back Up Database** dialog box, confirm the database name. 
     
-7. Next, select the kind of backup that you want to perform from the **Backup type** list. For more information about which backup type to use, see [Recovery Models (SQL Server)]( http://go.microsoft.com/fwlink/p/?LinkID=715706&amp;clcid=0x409).
+7. Next, select the kind of backup that you want to perform from the **Backup type** list. For more information about which backup type to use, see [Recovery Models (SQL Server)](http://go.microsoft.com/fwlink/p/?LinkID=715706&amp;clcid=0x409).
     
 8. In the **Backup component** area, click **Database**.
     
@@ -181,5 +179,5 @@ You cannot back up the whole User Profile service application or service applica
 [Restore service applications in SharePoint Server](restore-a-service-application.md)
 #### Other Resources
 
-[Windows PowerShell for SharePoint Server reference](http://technet.microsoft.com/library/24f40b8f-58e2-4ed8-948c-51c08073997d.aspx)
+[Windows PowerShell for SharePoint Server reference](/powershell/module/sharepoint-server/?view=sharepoint-ps)
 

@@ -3,7 +3,6 @@ title: "Prepare to back up and restore farms in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 10/6/2017
 ms.audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
@@ -12,12 +11,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 56ea0f40-426b-43da-aff5-187fe5adc946
-description: "Summary: Learn how to prepare to back up and restore your SharePoint Server 2016 and SharePoint Server 2013 farm."
+description: "Learn how to prepare to back up and restore your SharePoint Server farm."
 ---
 
 # Prepare to back up and restore farms in SharePoint Server
 
- **Summary:** Learn how to prepare to back up and restore your SharePoint Server 2016 and SharePoint Server 2013 farm. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 It is important to make sure that you have backed up and can recover the data that you need if a failure occurs. Consider the information, procedures, and precautions in this article before you back up and restore your environment. This article discusses restrictions and requirements for backup and recovery and how to create a shared folder on the network that can receive backed-up data.
   
@@ -69,11 +68,11 @@ Use this procedure to create a shared folder on the network that can receive and
     
 4. On the **Sharing** tab of the **Properties** dialog box, click **Advanced Sharing**, and then click **Permissions**, add the following accounts and assign them Full Control of the shared folder:
     
-  - SQL Server service account (MSSQLSERVER)
+   - SQL Server service account (MSSQLSERVER)
     
-  - The SharePoint Central Administration application pool identity account
+   - The SharePoint Central Administration application pool identity account
     
-  - The SharePoint Timer service account.
+   - The SharePoint Timer service account.
     
 ## See also
 

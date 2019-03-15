@@ -13,12 +13,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: ae92f528-9768-4ea1-9b19-110fb4c88c7f
-description: "Summary: Read about SharePoint hybrid solutions. Get details on cloud hybrid search for SharePoint, using hybrid OneDrive for Business, and more."
+description: "Read about SharePoint hybrid solutions. Get details on cloud hybrid search for SharePoint, using hybrid OneDrive for Business, and more."
 ---
 
 # Plan SharePoint Server hybrid
 
- **Summary:** Read about SharePoint hybrid solutions. Get details on cloud hybrid search for SharePoint, using hybrid OneDrive for Business, and more. 
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)] 
   
 After you have determined which hybrid solution is right for you, follow the associated planning article below to guide you through the planning and organization process.
   

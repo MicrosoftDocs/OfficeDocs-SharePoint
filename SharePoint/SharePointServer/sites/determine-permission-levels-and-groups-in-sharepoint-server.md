@@ -13,12 +13,12 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 ms.assetid: 8409bf0e-3ddd-4837-b415-23255952f0bb
 
-description: "Summary: Learn how to define the correct SharePoint 2013 and SharePoint Server 2016 permission levels at the site collection level."
+description: "Learn how to define the correct SharePoint Server permission levels at the site collection level."
 ---
 
 # Determine permission levels and groups in SharePoint Server
 
- **Summary:** Learn how to define the correct SharePoint 2013 and SharePoint Server 2016 permission levels at the site collection level. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 A SharePoint group is a set of users that can be managed together. A permission level is a set of permissions that can be assigned to a specific group for a specific securable object. SharePoint groups and permission levels are defined at the site collection level and are inherited from the parent object by default. This article describes default groups and permission levels and helps you decide whether to use them as they are, customize them, or create different groups and permission levels. 
     
@@ -123,7 +123,7 @@ You should customize the default permission levels if either of the following si
 - A default permission level includes a permission that the users do not have to have.
     
     > [!NOTE]
-    > Do not customize the default permission levels if your organization has security or other concerns about a specific permission that is part of the permission level. If you want to make that permission unavailable for all users assigned to the permission level or levels that include that permission, turn off the permission for all Web applications in your server farm, instead of change all of the permission levels To manage permissions for a web application, see [Manage permissions for a web application in SharePoint Server](https://technet.microsoft.com/library/28a53440-2adc-4957-84bd-99ed97f0c430). 
+    > Do not customize the default permission levels if your organization has security or other concerns about a specific permission that is part of the permission level. If you want to make that permission unavailable for all users assigned to the permission level or levels that include that permission, turn off the permission for all Web applications in your server farm, instead of change all of the permission levels To manage permissions for a web application, see [Manage permissions for a web application in SharePoint Server](/SharePoint/administration/manage-permissions-for-a-web-application). 
   
 If you must make several changes to a permission level, create a custom permission level that includes all of the permissions that you need.
   

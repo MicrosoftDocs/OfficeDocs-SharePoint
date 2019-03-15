@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 7021185c-1f2b-44a6-ba4a-8355dd8409e1
-description: "Summary: Learn how to use Excel to create and share a connection to SQL Server Analysis Services data that people can use to create data models, reports, scorecards, and dashboards."
+description: "Learn how to use Excel to create and share a connection to SQL Server Analysis Services data that people can use to create data models, reports, scorecards, and dashboards."
 ---
 
 # Share a SQL Server Analysis Services data connection using Excel Services (SharePoint Server 2013)
 
- **Summary:** Learn how to use Excel to create and share a connection to SQL Server Analysis Services data that people can use to create data models, reports, scorecards, and dashboards. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 You can use Excel to create connections to databases such as SQL Server Analysis Services, and then share those connections with others. When you can upload a data connection to an Excel Services in SharePoint Server 2013 trusted data connection library, the data connection is available for you and others to use to create data models, reports, scorecards, and dashboards. Depending on the particular data source that is used, people can easily refresh data in Excel Services workbooks so that the most current information is displayed.
   
@@ -26,13 +26,13 @@ Before you begin this task, review the following information about prerequisites
   
 - You must be using Excel 2016 and SharePoint Server 2013.
     
-- Excel Services must be configured to include a trusted data connections library and a trusted documents library. Ideally, you'll have a Business Intelligence Center site configured that you can use for your data connections and workbooks. For more information, see [Configure a Business Intelligence Center in SharePoint Server 2013](http://technet.microsoft.com/library/7c52a0e8-81fa-43af-aec8-d3ed3febdbf1%28Office.14%29.aspx).
+- Excel Services must be configured to include a trusted data connections library and a trusted documents library. Ideally, you'll have a Business Intelligence Center site configured that you can use for your data connections and workbooks. For more information, see [Configure a Business Intelligence Center in SharePoint Server 2013](/SharePoint/sharepoint-server).
     
 - You must have at least Contribute permissions assigned in SharePoint Server 2013.
     
 - You will need information from a SharePoint administrator about how data authentication is configured for the databases your organization uses. This can affect how you connect to different data sources. 
     
-- If you plan to publish workbooks that contain data models to SharePoint Server 2013, Excel Services must be configured to support data models. For more information, see [Configure Excel Services in SharePoint Server 2013 Preview](http://technet.microsoft.com/library/9cb81758-9d0b-4970-9ca0-a75eedf6093b.aspx).
+- If you plan to publish workbooks that contain data models to SharePoint Server 2013, Excel Services must be configured to support data models. For more information, see [Configure Excel Services in SharePoint Server 2013 Preview](/SharePoint/administration/configure-excel-services).
     
 ## Step 1: Use Excel to create connections to SQL Server Analysis Services data
 <a name="part1"> </a>

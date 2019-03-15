@@ -7,21 +7,21 @@ ms.date: 03/15/2019
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - Ent_O365
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-ms.custom:
 - Strat_O365_Enterprise
+ms.custom:
 - Ent_TLGs
 ms.assetid: 7fda5f6e-ffbc-40af-9e5d-62f055a9c9b0
-description: "Summary: Create an intranet SharePoint Server 2016 farm running in Microsoft Azure as a dev/test environment."
+description: "Create an intranet SharePoint Server farm running in Microsoft Azure as a dev/test environment."
 ---
 
 # Intranet SharePoint Server 2016 in Azure dev/test environment
 
- **Summary:** Create an intranet SharePoint Server 2016 farm running in Microsoft Azure as a dev/test environment. 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]
   
 This topic steps you through creating a simulated intranet SharePoint farm hosted in Azure. Here is the resulting configuration:
   
@@ -58,7 +58,7 @@ There are three major phases to setting up this dev/test environment:
   
 ## Phase 1: Set up the simulated cross-premises environment
 
-Use the instructions in [Simulated cross-premises virtual network in Azure](http://technet.microsoft.com/library/0a3555dc-6f96-49a5-b9e2-7760e16630b3.aspx) to create the following configuration: 
+Use the instructions in [Simulated cross-premises virtual network in Azure](/office365/enterprise/simulated-cross-premises-virtual-network-in-azure) to create the following configuration: 
   
 **Figure 2: The simulated cross-premises environment**
 

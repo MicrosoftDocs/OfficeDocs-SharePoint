@@ -1,5 +1,5 @@
 ---
-title: "Configure Excel Services data refresh by using the unattended service account in SharePoint Server 2016"
+title: "Configure Excel Services data refresh by using the unattended service account in SharePoint Server 2013"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
@@ -9,20 +9,20 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: fcfdb2ad-9d0e-43ca-8bfa-45064eeca5af
-description: "Summary: Configure Excel Services in SharePoint Server 2013 to use the unattended service account for authentication to external data."
+description: "Configure Excel Services in SharePoint Server to use the unattended service account for authentication to external data."
 ---
 
-# Configure Excel Services data refresh by using the unattended service account in SharePoint Server 2016
+# Configure Excel Services data refresh by using the unattended service account in SharePoint Server 2013
 
- **Summary:** Configure Excel Services in SharePoint Server 2013 to use the unattended service account for authentication to external data. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
   
 Excel Services in SharePoint Server 2013 provides three methods of using Secure Store Service to refresh the external data source in a workbook:
   
 - You can use an unattended service account. This article describes how to do this. 
     
-- You can specify a Secure Store target application in a workbook. (This is known as an embedded connection.) For more information, see [Configure Excel Services data refresh by using embedded data connections](http://technet.microsoft.com/library/9a78496b-50c0-471c-b112-6dbc7231635d.aspx). 
+- You can specify a Secure Store target application in a workbook. (This is known as an embedded connection.) For more information, see [Configure Excel Services data refresh by using embedded data connections](/SharePoint/administration/excel-services-overview). 
     
-- You can use an Office Data Connection (ODC) file that specifies a Secure Store target application. For more information, see [Configure Excel Services data refresh by using external data connections](http://technet.microsoft.com/library/0d33c049-3f9e-42e9-be48-aeecd4ad7b66.aspx).
+- You can use an Office Data Connection (ODC) file that specifies a Secure Store target application. For more information, see [Configure Excel Services data refresh by using external data connections](/SharePoint/administration/excel-services-overview).
     
 Using the unattended service account involves configuring an Active Directory account and granting it access to your data, storing the credentials for this account in Secure Store, and configuring Excel Services to use the stored credentials when it needs to refresh the data in a workbook.
   

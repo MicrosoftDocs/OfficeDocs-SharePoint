@@ -12,13 +12,13 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 0889004d-6820-4282-a63c-863f4796ff85
-description: "Summary: Learn how to add a content database to your SharePoint Server 2016 and SharePoint 2013 farm."
+description: "Learn how to add a content database to your SharePoint Server farm."
 ---
 
 # Add content databases in SharePoint Server
 
- **Summary:** Learn how to add a content database to your SharePoint Server 2016 and SharePoint 2013 farm. 
-  
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+
 You can add a content database to a SharePoint Server farm by using the SharePoint Central Administration website or Microsoft PowerShell. The tool that you use depends on the kind of environment that you have deployed, your schedule requirements, and service level agreements that you have made with your organization.
   
     
@@ -82,7 +82,7 @@ You can use the procedures that are described in this article to create a new co
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Open **SharePoint Management Shell**.
     
@@ -98,10 +98,10 @@ You can use the procedures that are described in this article to create a new co
     
   -  _\<WebApplicationName\>_ is the name of the web application to which the new database is attached. 
     
-For more information, see [New-SPContentDatabase](http://technet.microsoft.com/library/18cf18cd-8fb7-4561-be71-41c767f27b51.aspx).
+For more information, see [New-SPContentDatabase](/powershell/module/sharepoint-server/New-SPContentDatabase?view=sharepoint-ps).
   
 > [!NOTE]
-> To attach an existing content database to a web application, use the Microsoft PowerShell cmdlet **Mount-SPContentDatabase**. For more information, see [Mount-SPContentDatabase](http://technet.microsoft.com/library/20d1bc07-805c-44d3-a278-e2793370e237.aspx). 
+> To attach an existing content database to a web application, use the Microsoft PowerShell cmdlet **Mount-SPContentDatabase**. For more information, see [Mount-SPContentDatabase](/powershell/module/sharepoint-server/Mount-SPContentDatabase?view=sharepoint-ps). 
   
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 

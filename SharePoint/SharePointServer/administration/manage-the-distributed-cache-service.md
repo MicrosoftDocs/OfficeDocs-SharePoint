@@ -12,18 +12,19 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 5d120a41-37e5-4711-b31e-33e82b034af0
-description: "Summary: Learn how to configure and manage the Distributed Cache service in SharePoint Server 2013 and SharePoint Server 2016."
+description: "Learn how to configure and manage the Distributed Cache service in SharePoint Server."
 ---
 
 # Manage the Distributed Cache service in SharePoint Server
 
- **Summary:** Learn how to configure and manage the Distributed Cache service in SharePoint Server 2013 and SharePoint Server 2016. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 To perform management and operational tasks on the Distributed Cache service in SharePoint Server, an administrator must perform specific, ordered procedures. This article describes how to conduct several management and operational tasks on the Distributed Cache service. 
   
 > [!IMPORTANT]
-> The Distributed Cache service can end up in a nonfunctioning or unrecoverable state if you do not follow the procedures that are listed in this article. In extreme scenarios, you might have to rebuild the server farm. The Distributed Cache depends on Windows Server AppFabric as a prerequisite. Do not administer the **AppFabric Caching Service** from the **Services** window in **Administrative Tools** in **Control Panel**. Do not use the applications in the folder named **AppFabric for Windows Server** on the **Start** menu. 
-  
+> The Distributed Cache service can end up in a nonfunctioning or unrecoverable state if you do not follow the procedures that are listed in this article. In extreme scenarios, you might have to rebuild the server farm. The Distributed Cache depends on Windows Server AppFabric as a prerequisite. Do not administer the **AppFabric Caching Service** from the **Services** window in **Administrative Tools** in **Control Panel**. Do not use the applications in the folder named **AppFabric for Windows Server** on the **Start** menu. Adding security for AppFabric with SharePoint distributed cache is not supported.
+
+ 
 > [!IMPORTANT]
 > Do not use service account names that contain the symbol $. 
   
@@ -52,7 +53,7 @@ Stopping the cache results in partial data loss. The Feed Cache depends on the D
     
 4. If the Distributed Cache service is started and you want to stop the service, under **Action**, click **Stop**. If the Distributed Cache service is stopped and you want to start the service, under **Action**, click **Start**.
     
-### To start the Distributed Cache service by using SharePoint 2016 Management Shell
+### To start the Distributed Cache service by using SharePoint Management Shell
 
 At the SharePoint Management Shell command prompt, run the following command:
   
@@ -63,7 +64,7 @@ $serviceInstance.Provision()
 
 ```
 
-### To stop the Distributed Cache service by using SharePoint 2016 Management Shell
+### To stop the Distributed Cache service by using SharePoint Management Shell
 
 At the SharePoint Management Shell command prompt, run the following command:
   
@@ -101,11 +102,10 @@ Use this procedure to reconfigure the memory allocation of the cache size of the
     
   ```
   Use-CacheCluster
-  Get-AFCacheHostConfiguration -ComputerName ComputerName -CachePort "22233"
+  Get-AFCacheHostConfiguration -ComputerName $Env:ComputerName -CachePort "22233"
   
   ```
-
-    Where:
+Where:
     
   -  _ComputerName_ is the computer name of the server that you are running the SharePoint Management Shell cmdlet on. 
     
@@ -116,8 +116,7 @@ Use this procedure to reconfigure the memory allocation of the cache size of the
   ```
   Update-SPDistributedCacheSize -CacheSizeInMB CacheSize
   ```
-
-    Where:
+Where:
     
   -  _CacheSize_ is the cache size's memory allocation assignment in MB. In the previous example, the cache size was calculated at 7168 MB for a server with 16 GB of total memory. 
     
@@ -133,7 +132,7 @@ Use the following procedures to add and remove a server from a cache cluster. Th
 > [!NOTE]
 > Before performing the following procedures, ensure the firewall allows Inbound ICMP (ICMPv4) traffic through it. For more information, see [Firewall configuration considerations](plan-for-feeds-and-the-distributed-cache-service.md#firewall). 
   
-### Add a server to the cache cluster and starting the Distributed Cache service by using SharePoint 2016 Management Shell
+### Add a server to the cache cluster and starting the Distributed Cache service by using SharePoint Management Shell
 
 At the SharePoint Management Shell command prompt, run the following command:
   
@@ -142,7 +141,7 @@ Add-SPDistributedCacheServiceInstance
 
 ```
 
-### Remove a server from the cache cluster by using SharePoint 2016 Management Shell
+### Remove a server from the cache cluster by using SharePoint Management Shell
 
 At the SharePoint Management Shell command prompt, run the following command:
   
@@ -157,7 +156,7 @@ Remove-SPDistributedCacheServiceInstance
 ## Perform a graceful shutdown of the Distributed Cache service by using a PowerShell script
 <a name="graceful"> </a>
 
-In a SharePoint Server 2016 farm, a cache cluster exists when one or more cache hosts run the Distributed Cache service. In a SharePoint Server 2016 farm, one cache exists, and the cache spans the cache cluster. An administrator may need to move the cached contents to another cache host when applying updates to the server. To prevent data loss associated with moving the cached contents you need to perform a graceful shutdown of the server using the PowerShell script in the following procedure. The graceful shutdown procedure transfers all cached data from the cache host on which the graceful shutdown procedure is being run on to another cache host in the farm. The transfer process takes 15 minutes or more to run depending on how many items exist in the cache. 
+In a SharePoint Server farm, a cache cluster exists when one or more cache hosts run the Distributed Cache service. In a SharePoint Server farm, one cache exists, and the cache spans the cache cluster. An administrator may need to move the cached contents to another cache host when applying updates to the server. To prevent data loss associated with moving the cached contents you need to perform a graceful shutdown of the server using the PowerShell script in the following procedure. The graceful shutdown procedure transfers all cached data from the cache host on which the graceful shutdown procedure is being run on to another cache host in the farm. The transfer process takes 15 minutes or more to run depending on how many items exist in the cache. 
   
 ### To perform a graceful shutdown of the Distributed Cache by using a PowerShell script
 
@@ -168,7 +167,7 @@ Use the following PowerShell script to perform a graceful shutdown of the Distri
   
 1. Verify that you meet the following minimum requirements:
     
-  - See [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx).
+  - See [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
     
   - You must read [about_Execution_Policies](https://go.microsoft.com/fwlink/p/?LinkId=193050).
     
@@ -183,6 +182,7 @@ Use the following PowerShell script to perform a graceful shutdown of the Distri
   $currentTime = $startTime
   $elapsedTime = $currentTime - $startTime
   $timeOut = 900
+  Use-CacheCluster
   try
   {
       Write-Host "Shutting down distributed cache host."
@@ -205,7 +205,7 @@ Use the following PowerShell script to perform a graceful shutdown of the Distri
   }
   ```
 
-    Where  _sp2016App.contoso.com_ is the computer domain name of Distributed Cache server you use. 
+Where  _sp2016App.contoso.com_ is the computer domain name of Distributed Cache server you use. 
     
 3. Open the SharePoint Management Shell
     
@@ -217,7 +217,7 @@ Use the following PowerShell script to perform a graceful shutdown of the Distri
   ./GracefulShutdown.ps1
   ```
 
-    For additional information about PowerShell scripts and .ps1 files, see [Running Windows PowerShell Scripts](http://technet.microsoft.com/library/ee176949).
+For additional information about PowerShell scripts and .ps1 files, see [Running Windows PowerShell Scripts](/previous-versions/windows/it-pro/windows-powershell-1.0/ee176949(v=technet.10)).
     
 ## Change the service account
 <a name="changesvcacct"> </a>
@@ -238,18 +238,18 @@ When the server farm is first configured, the server farm account is set as the 
   $cacheService.ProcessIdentity.Deploy()
   ```
 
-    Where  _Domain_name\user_name_ is the domain name and user name of the managed account. 
+Where  _Domain_name\user_name_ is the domain name and user name of the SharePoint managed account. 
     
 ## Fine-tune the Distributed Cache service by using a PowerShell script
 <a name="finetune"> </a>
 
-The Distributed Cache service setting for **MaxConnectionsToServer** is often tuned based on the number of CPUs that are used in the host computer. If, for instance you use multiple cores and then set the **MaxConnectionsToServer** setting to the same number of CPUs then the computer often uses too much memory and freezes. Similar issues happen when tuning the **DistributedLogonTokenCache** and **DistributedViewStateCache** settings. The default setting is 20ms but often exceptions are found when the token caching doesn't happen in the 20ms setting. Use the following PowerShell script to change the settings for max connections and timeouts. 
+The Distributed Cache service setting for **MaxConnectionsToServer** is often tuned based on the number of CPUs that are used in the host computer. If, for instance you use multiple cores and then set the **MaxConnectionsToServer** setting to the same number of CPUs then the computer often uses too much memory and freezes. Similar issues happen when tuning the **DistributedLogonTokenCache** and **DistributedViewStateCache** settings. The default setting is 20ms but often exceptions are found when the token caching doesn't happen in the 20ms setting. Use the following PowerShell scripts to change the settings for max connections and timeouts in SharePoint Server 2016 and SharePoint Server 2013. 
   
  **To fine-tune the Distributed Cache service by using a PowerShell script**
   
 1. Verify that you meet the following minimum requirements:
     
-  - See [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx).
+  - See [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
     
   - You need to read [about_Execution_Policies](https://go.microsoft.com/fwlink/p/?LinkId=193050).
     
@@ -258,104 +258,190 @@ The Distributed Cache service setting for **MaxConnectionsToServer** is often tu
     > [!NOTE]
     > You can use a different file name, but you must save the file as an ANSI-encoded text file with the extension .ps1. 
   
+  **SharePoint Server PowerShell script**
   ```
-  Add-PSSnapin Microsoft.Sharepoint.Powershell
+  Add-PSSnapin Microsoft.Sharepoint.Powershell -ea 0
+
   #DistributedLogonTokenCache
   $DLTC = Get-SPDistributedCacheClientSetting -ContainerType DistributedLogonTokenCache
   $DLTC.MaxConnectionsToServer = 1
   $DLTC.requestTimeout = "3000"
   $DLTC.channelOpenTimeOut = "3000"
   Set-SPDistributedCacheClientSetting -ContainerType DistributedLogonTokenCache $DLTC
+
   #DistributedViewStateCache
   $DVSC = Get-SPDistributedCacheClientSetting -ContainerType DistributedViewStateCache
   $DVSC.MaxConnectionsToServer = 1
   $DVSC.requestTimeout = "3000"
   $DVSC.channelOpenTimeOut = "3000"
   Set-SPDistributedCacheClientSetting -ContainerType DistributedViewStateCache $DVSC
+
   #DistributedAccessCache
   $DAC = Get-SPDistributedCacheClientSetting -ContainerType DistributedAccessCache
   $DAC.MaxConnectionsToServer = 1
   $DAC.requestTimeout = "3000"
   $DAC.channelOpenTimeOut = "3000"
   Set-SPDistributedCacheClientSetting -ContainerType DistributedAccessCache $DAC
+
   #DistributedActivityFeedCache
   $DAF = Get-SPDistributedCacheClientSetting -ContainerType DistributedActivityFeedCache
   $DAF.MaxConnectionsToServer = 1
   $DAF.requestTimeout = "3000"
   $DAF.channelOpenTimeOut = "3000"
   Set-SPDistributedCacheClientSetting -ContainerType DistributedActivityFeedCache $DAF
+
   #DistributedActivityFeedLMTCache
   $DAFC = Get-SPDistributedCacheClientSetting -ContainerType DistributedActivityFeedLMTCache
   $DAFC.MaxConnectionsToServer = 1
   $DAFC.requestTimeout = "3000"
   $DAFC.channelOpenTimeOut = "3000"
   Set-SPDistributedCacheClientSetting -ContainerType DistributedActivityFeedLMTCache $DAFC
+
   #DistributedBouncerCache
   $DBC = Get-SPDistributedCacheClientSetting -ContainerType DistributedBouncerCache
   $DBC.MaxConnectionsToServer = 1
   $DBC.requestTimeout = "3000"
   $DBC.channelOpenTimeOut = "3000"
   Set-SPDistributedCacheClientSetting -ContainerType DistributedBouncerCache $DBC
+
   #DistributedDefaultCache
   $DDC = Get-SPDistributedCacheClientSetting -ContainerType DistributedDefaultCache
   $DDC.MaxConnectionsToServer = 1
   $DDC.requestTimeout = "3000"
   $DDC.channelOpenTimeOut = "3000"
   Set-SPDistributedCacheClientSetting -ContainerType DistributedDefaultCache $DDC
+
   #DistributedSearchCache
   $DSC = Get-SPDistributedCacheClientSetting -ContainerType DistributedSearchCache
   $DSC.MaxConnectionsToServer = 1
   $DSC.requestTimeout = "3000"
   $DSC.channelOpenTimeOut = "3000"
   Set-SPDistributedCacheClientSetting -ContainerType DistributedSearchCache $DSC
+
   #DistributedSecurityTrimmingCache
   $DTC = Get-SPDistributedCacheClientSetting -ContainerType DistributedSecurityTrimmingCache
   $DTC.MaxConnectionsToServer = 1
   $DTC.requestTimeout = "3000"
   $DTC.channelOpenTimeOut = "3000"
   Set-SPDistributedCacheClientSetting -ContainerType DistributedSecurityTrimmingCache $DTC
+
   #DistributedServerToAppServerAccessTokenCache
   $DSTAC = Get-SPDistributedCacheClientSetting -ContainerType DistributedServerToAppServerAccessTokenCache
   $DSTAC.MaxConnectionsToServer = 1
   $DSTAC.requestTimeout = "3000"
   $DSTAC.channelOpenTimeOut = "3000"
   Set-SPDistributedCacheClientSetting -ContainerType DistributedServerToAppServerAccessTokenCache $DSTAC
+
   #DistributedFileLockThrottlerCache
   $DFLTC = Get-SPDistributedCacheClientSetting -ContainerType DistributedFileLockThrottlerCache
   $DFLTC.MaxConnectionsToServer = 1
   $DFLTC.requestTimeout = "3000"
   $DFLTC.channelOpenTimeOut = "3000"
   Set-SPDistributedCacheClientSetting -ContainerType DistributedFileLockThrottlerCache $DFLTC
-   
+
   #DistributedSharedWithUserCache
   $DSWUC = Get-SPDistributedCacheClientSetting -ContainerType DistributedSharedWithUserCache
   $DSWUC.MaxConnectionsToServer = 1
   $DSWUC.requestTimeout = "3000"
   $DSWUC.channelOpenTimeOut = "3000"
   Set-SPDistributedCacheClientSetting -ContainerType DistributedSharedWithUserCache $DSWUC
-   
+
   #DistributedUnifiedGroupsCache
   $DUGC = Get-SPDistributedCacheClientSetting -ContainerType DistributedUnifiedGroupsCache
   $DUGC.MaxConnectionsToServer = 1
   $DUGC.requestTimeout = "3000"
   $DUGC.channelOpenTimeOut = "3000"
   Set-SPDistributedCacheClientSetting -ContainerType DistributedUnifiedGroupsCache $DUGC 
+
   #DistributedResourceTallyCache
   $DRTC = Get-SPDistributedCacheClientSetting -ContainerType DistributedResourceTallyCache
   $DRTC.MaxConnectionsToServer = 1
   $DRTC.requestTimeout = "3000"
   $DRTC.channelOpenTimeOut = "3000"
   Set-SPDistributedCacheClientSetting -ContainerType DistributedResourceTallyCache $DRTC
-   
+
   #DistributedHealthScoreCache
   $DHSC = Get-SPDistributedCacheClientSetting -ContainerType DistributedHealthScoreCache
   $DHSC.MaxConnectionsToServer = 1
   $DHSC.requestTimeout = "3000"
   $DHSC.channelOpenTimeOut = "3000"
-  Set-SPDistributedCacheClientSetting -ContainerType DistributedHealthScoreCache $DHSC 
-  
+  Set-SPDistributedCacheClientSetting -ContainerType DistributedHealthScoreCache $DHSC  
   ```
+  **SharePoint Server 2013 PowerShell script**
 
+  ```
+  Add-PSSnapin Microsoft.Sharepoint.Powershell -ea 0
+
+  #DistributedLogonTokenCache
+  $DLTC = Get-SPDistributedCacheClientSetting -ContainerType DistributedLogonTokenCache
+  $DLTC.MaxConnectionsToServer = 1
+  $DLTC.requestTimeout = "3000"
+  $DLTC.channelOpenTimeOut = "3000"
+  Set-SPDistributedCacheClientSetting -ContainerType DistributedLogonTokenCache $DLTC
+
+  #DistributedViewStateCache
+  $DVSC = Get-SPDistributedCacheClientSetting -ContainerType DistributedViewStateCache
+  $DVSC.MaxConnectionsToServer = 1
+  $DVSC.requestTimeout = "3000"
+  $DVSC.channelOpenTimeOut = "3000"
+  Set-SPDistributedCacheClientSetting -ContainerType DistributedViewStateCache $DVSC
+
+  #DistributedAccessCache
+  $DAC = Get-SPDistributedCacheClientSetting -ContainerType DistributedAccessCache
+  $DAC.MaxConnectionsToServer = 1
+  $DAC.requestTimeout = "3000"
+  $DAC.channelOpenTimeOut = "3000"
+  Set-SPDistributedCacheClientSetting -ContainerType DistributedAccessCache $DAC
+
+  #DistributedActivityFeedCache
+  $DAF = Get-SPDistributedCacheClientSetting -ContainerType DistributedActivityFeedCache
+  $DAF.MaxConnectionsToServer = 1
+  $DAF.requestTimeout = "3000"
+  $DAF.channelOpenTimeOut = "3000"
+  Set-SPDistributedCacheClientSetting -ContainerType DistributedActivityFeedCache $DAF
+
+  #DistributedActivityFeedLMTCache
+  $DAFC = Get-SPDistributedCacheClientSetting -ContainerType DistributedActivityFeedLMTCache
+  $DAFC.MaxConnectionsToServer = 1
+  $DAFC.requestTimeout = "3000"
+  $DAFC.channelOpenTimeOut = "3000"
+  Set-SPDistributedCacheClientSetting -ContainerType DistributedActivityFeedLMTCache $DAFC
+
+  #DistributedBouncerCache
+  $DBC = Get-SPDistributedCacheClientSetting -ContainerType DistributedBouncerCache
+  $DBC.MaxConnectionsToServer = 1
+  $DBC.requestTimeout = "3000"
+  $DBC.channelOpenTimeOut = "3000"
+  Set-SPDistributedCacheClientSetting -ContainerType DistributedBouncerCache $DBC
+
+  #DistributedDefaultCache
+  $DDC = Get-SPDistributedCacheClientSetting -ContainerType DistributedDefaultCache
+  $DDC.MaxConnectionsToServer = 1
+  $DDC.requestTimeout = "3000"
+  $DDC.channelOpenTimeOut = "3000"
+  Set-SPDistributedCacheClientSetting -ContainerType DistributedDefaultCache $DDC
+
+  #DistributedSearchCache
+  $DSC = Get-SPDistributedCacheClientSetting -ContainerType DistributedSearchCache
+  $DSC.MaxConnectionsToServer = 1
+  $DSC.requestTimeout = "3000"
+  $DSC.channelOpenTimeOut = "3000"
+  Set-SPDistributedCacheClientSetting -ContainerType DistributedSearchCache $DSC
+
+  #DistributedSecurityTrimmingCache
+  $DTC = Get-SPDistributedCacheClientSetting -ContainerType DistributedSecurityTrimmingCache
+  $DTC.MaxConnectionsToServer = 1
+  $DTC.requestTimeout = "3000"
+  $DTC.channelOpenTimeOut = "3000"
+  Set-SPDistributedCacheClientSetting -ContainerType DistributedSecurityTrimmingCache $DTC
+
+  #DistributedServerToAppServerAccessTokenCache
+  $DSTAC = Get-SPDistributedCacheClientSetting -ContainerType DistributedServerToAppServerAccessTokenCache
+  $DSTAC.MaxConnectionsToServer = 1
+  $DSTAC.requestTimeout = "3000"
+  $DSTAC.channelOpenTimeOut = "3000"
+  Set-SPDistributedCacheClientSetting -ContainerType DistributedServerToAppServerAccessTokenCache $DSTAC
+  ```
 3. Open the SharePoint Management Shell
     
 4. Change to the directory to which you saved the file.
@@ -366,7 +452,7 @@ The Distributed Cache service setting for **MaxConnectionsToServer** is often tu
   ./MaxConnections.ps1
   ```
 
-    For more information, see [Best Practices for using Windows Azure Cache/Windows Server Appfabric Cache](http://go.microsoft.com/fwlink/?LinkID=614969&amp;clcid=0x409) and [Application Configuration Settings (Windows Server AppFabric Caching)](http://go.microsoft.com/fwlink/?LinkID=614970&amp;clcid=0x409). For additional information about Windows PowerShell scripts and .ps1 files, see [Running Windows PowerShell Scripts](http://technet.microsoft.com/library/ee176949).
+For more information, see [Best Practices for using Windows Azure Cache/Windows Server Appfabric Cache](http://go.microsoft.com/fwlink/?LinkID=614969&amp;clcid=0x409) and [Application Configuration Settings (Windows Server AppFabric Caching)](http://go.microsoft.com/fwlink/?LinkID=614970&amp;clcid=0x409). For additional information about Windows PowerShell scripts and .ps1 files, see [Running Windows PowerShell Scripts](/previous-versions/windows/it-pro/windows-powershell-1.0/ee176949(v=technet.10)).
     
 ## Repair a cache host
 <a name="repair"> </a>
@@ -377,9 +463,9 @@ There are two steps to repair a cache host.
   
 On the non-functioning Distributed Cache host, use the following procedures to restore the Distributed Cache host. 
   
-1. At the SharePoint Management Shell command prompt, run the [Remove-SPDistributedCacheServiceInstance](http://technet.microsoft.com/library/7cb14284-d0d8-4221-b81d-0a4470101880.aspx) cmdlet. 
+1. At the SharePoint Management Shell command prompt, run the [Remove-SPDistributedCacheServiceInstance](/powershell/module/sharepoint-server/Remove-SPDistributedCacheServiceInstance?view=sharepoint-ps) cmdlet. 
     
-2. At the SharePoint Management Shell command prompt, run the [Add-SPDistributedCacheServiceInstance](http://technet.microsoft.com/library/4f4dbede-70a4-4480-9d7a-4265a04c88d1.aspx) cmdlet. 
+2. At the SharePoint Management Shell command prompt, run the [Add-SPDistributedCacheServiceInstance](/powershell/module/sharepoint-server/Add-SPDistributedCacheServiceInstance?view=sharepoint-ps) cmdlet. 
     
     > [!NOTE]
     > If step 1 fails, manually remove the Distributed Cache service, use the following steps. 
@@ -388,13 +474,9 @@ On the non-functioning Distributed Cache host, use the following procedures to r
     
   ```
   $instanceName ="SPDistributedCacheService Name=AppFabricCachingService"
-  ```
-
-  ```
+ 
   $serviceInstance = Get-SPServiceInstance | ? {($_.service.tostring()) -eq $instanceName -and ($_.server.name) -eq $env:computername}
-  ```
 
-  ```
   If($serviceInstance -ne $null)
   {
   $serviceInstance.Delete()
@@ -403,7 +485,8 @@ On the non-functioning Distributed Cache host, use the following procedures to r
   ```
 
   - After the Distributed Cache Service has been manually deleted, run step 2 again.
-    
+
+
 ## See also
 <a name="repair"> </a>
 

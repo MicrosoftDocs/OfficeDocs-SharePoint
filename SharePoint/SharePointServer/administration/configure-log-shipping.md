@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 482aeb81-e2aa-419f-a269-5b349a6c4721
-description: "Summary: Learn how to implement log shipping for SharePoint Server 2016 and SharePoint Server 2013 in a disaster-recovery scenario."
+description: "Learn how to implement log shipping for SharePoint Server in a disaster-recovery scenario."
 ---
 
 # Configure log shipping in SharePoint Server
 
- **Summary:** Learn how to implement log shipping for SharePoint Server 2016 and SharePoint Server 2013 in a disaster-recovery scenario. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 With log shipping, you back up the transaction logs from a primary database to a secondary database on a separate instance of SQL Server. In the scenario described here, SQL Server log shipping is used together with Distributed File System Replication (DFSR) to copy databases and transaction logs to the recovery farm in Microsoft Azure as illustrated below. 
   
@@ -49,7 +49,7 @@ The following diagram shows the seven phases that the complete SharePoint Server
 
 Log shipping enables you to automatically send transaction log files for databases from a primary database server instance to a secondary database server instance. In our on-premises test environment, we use AlwaysOn availability groups with two replicas for high availability. We configured log shipping on both replicas. Each replica must be able to ship transaction logs. Only the replica that is active and owns the database can ship logs. However, if a failover event occurred and the secondary replica became active, it would have to ship transaction logs instead of the failed replica.
   
-After the transaction logs are received in the Azure environment, they are restored, one at a time, to each SharePoint database on the secondary database server. For more information about our test environment, see [Microsoft proof of concept environment](http://technet.microsoft.com/library/e9d14cb2-ff28-4a18-a444-cebf891880ea.aspx#POC).
+After the transaction logs are received in the Azure environment, they are restored, one at a time, to each SharePoint database on the secondary database server. For more information about our test environment, see [Microsoft proof of concept environment](/office365/enterprise/sharepoint-server-2013-disaster-recovery-in-microsoft-azure#POC).
   
 > [!NOTE]
 > Some organizations use a third database server as a monitor to record the history and status of backup and restore operations. This optional monitor server creates alerts when backup operations fail. 

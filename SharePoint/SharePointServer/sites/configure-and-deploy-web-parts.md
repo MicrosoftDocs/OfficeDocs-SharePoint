@@ -13,13 +13,12 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - SharePoint_Online
 ms.assetid: 0810018d-188b-4d42-b908-d794faeacd0a
-description: "Summary: Learn about securing and deploying web parts in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn about securing and deploying web parts in SharePoint Server."
 ---
 
 # Configure and deploy web parts in SharePoint Server
 
- **Summary:** Learn about securing and deploying web parts in SharePoint Server 2016 and SharePoint 2013. 
-  
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
 SharePoint Server includes a set of web parts that users can add to pages after installing the product. If an organization needs custom web parts, a developer can write custom ASP.NET web parts and ask you to install them. This process typically requires testing and approval of the code before the web part can be deployed in a full-trust environment. A developer who uses Visual Studio can deploy a web part to SharePoint Server by right clicking the project and selecting **Deploy**. The destination for the web part is determined by the trust level established with the SharePoint server when the developer created the project in Visual Studio.
   
 SharePoint Server uses some of the configuration management settings that are provided by the Microsoft .NET Framework. Some of these settings are stored in XML configuration files and they provide a broad range of settings that server administrators use to manage the Web application and its environment. For more information about ASP.NET configuration files, see [Machine.Config and Web.Config Explained](https://go.microsoft.com/fwlink/p/?LinkId=103450) in "Securing Your ASP.NET Application and Web Services". 
@@ -86,7 +85,7 @@ The method that you use to deploy a new web part will depend on the finished pac
   
 1. Verify that you have the following administrative credentials:
     
-  - You must be a member of the local Administrators group on the server hosting SharePoint Server.
+   - You must be a member of the local Administrators group on the server hosting SharePoint Server.
     
 2. Copy the  _\<YourWebPartName\>_.dll assembly in the project's Bin directory to the Bin directory in your Web application root directory. For example: C:\inetpub\wwwroot\wss\VirtualDirectories\80\.
     
@@ -94,37 +93,39 @@ The method that you use to deploy a new web part will depend on the finished pac
     
 4. Add the following safe-control entry for your custom assembly to the Web.config file: 
     
-  ```
-  <SafeControl Assembly="<YourWebPartName>, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" Namespace="<YourWebPartNamespace>" TypeName="*" Safe="True" AllowRemoteDesigner="True"/>
-  ```
+   ```
+   <SafeControl Assembly="<YourWebPartName>, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" Namespace="<YourWebPartNamespace>" TypeName="*" Safe="True" AllowRemoteDesigner="True"/>
+   ```
 
-    Where:
+   Where:
     
-1.  _\<YourWebPartName\>_ is the name of the web part that is being deployed. 
+   -   _\<YourWebPartName\>_ is the name of the web part that is being deployed. 
     
-2.  _\<YourWebPartNamespace\>_ is the namespace that is associated with your web part. 
+   -  _\<YourWebPartNamespace\>_ is the namespace that is associated with your web part. 
     
 An alternative to manually installing a web part to the Bin folder or manually changing the Web.config file is to use PowerShell to install the web part package. For this process to work, a developer or system administrator must create a CAB solution package for the web part. After you create a CAB file, follow these steps to deploy the web part.
   
  **To deploy the web part by using Microsoft PowerShell**
   
-1. Verify that you meet the following minimum requirements: See [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/add-spshelladmin).
+1. Verify that you meet the following minimum requirements: See [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
     
 2. Open SharePoint Management Shell.
     
 3. At the PowerShell command prompt (PS C:\\>), type the following command, and then press ENTER:
     
-  ```
-  Install-SPWebPartPack -LiteralPath "<PathToCabFile>" -Name "<WebPartName>"
-  ```
+   ```
+   Install-SPWebPartPack -LiteralPath "<PathToCabFile>" -Name "<WebPartName>"
+   ```
 
-    Where:
+   Where:
     
-  -  _\<PathToCabFile\>_ is the full path to the CAB file that is being deployed. 
+   -  _\<PathToCabFile\>_ is the full path to the CAB file that is being deployed. 
     
-  -  _\<WebPartName\>_ is the name of the web part that is being deployed. 
+   -  _\<WebPartName\>_ is the name of the web part that is being deployed. 
     
-The previous procedure shows a common way to use **Install-SPWebPartPack** to deploy a web part. You can specify additional parameters to change the way the web part is deployed. For more information, see [Install-SPWebPartPack](http://technet.microsoft.com/library/b4245f30-c369-4b91-b4bd-1048a2abd384.aspx). We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions.
+The previous procedure shows a common way to use **Install-SPWebPartPack** to deploy a web part. You can specify additional parameters to change the way the web part is deployed. For more information, see [Install-SPWebPartPack](/powershell/module/sharepoint-server/Install-SPWebPartPack?view=sharepoint-ps). 
+
+We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions.
   
 ## Add a component to the Web Part Gallery
 <a name="BKMK_AddWebGallery"> </a>
@@ -135,9 +136,9 @@ Every web part should have a .webpart file, which is an XML file that describes 
   
 1. Verify that you have the following administrative credentials:
     
-  - You must be a member of the Farm Administrators group.
+   - You must be a member of the Farm Administrators group.
     
-2. To create a .webpart file, navigate to http:// _\<MyServer\>_/_layouts/newdwp.aspx, where  _\<MyServer\>_ is the name of the server on which your SharePoint site is deployed. 
+2. To create a .webpart file, navigate to http://\<MyServer\>/_layouts/newdwp.aspx, where \<MyServer\> is the name of the server on which your SharePoint site is deployed. 
     
 3. Select the check box next to  _\<YourWebPartNamespace\>.\<YourWebPartName\>_.
     

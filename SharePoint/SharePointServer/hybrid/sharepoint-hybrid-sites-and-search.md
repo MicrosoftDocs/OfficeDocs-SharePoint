@@ -7,17 +7,21 @@ ms.date: 9/12/2017
 ms.audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server
 - IT_SharePoint_Hybrid_Top
-ms.custom: Strat_SP_gtc
+- Strat_SP_gtc
+- M365-collaboration
+ms.custom: 
 ms.assetid: 11a23c57-af13-4b73-8f01-1de70775fc65
 description: "A hybrid environment can help your company get started in the cloud, taking a first step to explore the cloud functionality at own your own pace. It also enables enterprise users to be connected from almost anywhere to the resources and content they need."
 ---
 
 # SharePoint hybrid sites and search
+
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
 
 A hybrid environment can help your company get started in the cloud, taking a first step to explore the cloud functionality at own your own pace. It also enables enterprise users to be connected from almost anywhere to the resources and content they need.
   
@@ -38,8 +42,8 @@ This table gives a quick overview of hybrid integration between SharePoint Serve
 |**Document following** <br/> |If you've deployed MySites, the followed documents list in SharePoint Server tracks followed SharePoint Server documents.  <br/> |Hybrid document following is not available. If you use hybrid OneDrive for Business, the SharePoint Server followed documents list will be hidden from users. (Note that if you configure hybrid search and you have Delve, you can favorite SharePoint Server documents.)  <br/> |
 |**Profiles** <br/> |Users have separate profiles in SharePoint Server and in Office 365.  <br/> |Profiles exist in both locations, but SharePoint Server links to users' profiles redirect profiles in Office 365.  <br/> (See [Plan hybrid profiles](plan-hybrid-profiles.md) for detailed information.)  <br/> |
 |**Extensible app launcher** <br/> |Users see a different app launcher in Office 365 and in SharePoint Server.  <br/> |There are still separate app launchers, but the SharePoint Server app launcher includes several tiles from Office 365.  <br/> (See [The extensible hybrid app launcher](the-extensible-hybrid-app-launcher.md) for detailed information.)  <br/> |
-|**Hybrid self-service site creation (SharePoint Server 2013 only)** <br/> |Users see separate self-service site creation experiences in SharePoint Server and SharePoint Online, as configured by the administrator.  <br/> |Users going to the default SharePoint Server site creation page are redirected to the SharePoint Online Group Creation page, allowing them to create sites in SharePoint Online.  <br/> (See [Hybrid self-service site creation](hybrid-self-service-site-creation.md) for detailed information.)  <br/> |
-|**Search** <br/> |Separate search indexes and search centers for SharePoint Server and Office 365. Users must search from SharePoint Server to find items stored there and they must search form Office 365 to find items stored there.  <br/> |Search results between the two locations are combined in one of two ways. Cloud hybrid search crawls on-premises content and indexes it in the search index in Office 365. Users can search the Office 365 index from either location. Hybrid federated search combines search results from each search index in a single search center.  <br/> (See [Hybrid search in SharePoint](https://support.office.com/article/1a7269ba-5aa7-481b-b608-030c58fa932e) for detailed information.)  <br/> |
+|**Hybrid self-service site creation** <br/> |Users see separate self-service site creation experiences in SharePoint Server and SharePoint Online, as configured by the administrator.  <br/> |Users going to the default SharePoint Server site creation page are redirected to the SharePoint Online Group Creation page, allowing them to create sites in SharePoint Online.  <br/> (See [Hybrid self-service site creation](hybrid-self-service-site-creation.md) for detailed information.)  <br/> |
+|**Search** <br/> |Separate search indexes and search centers for SharePoint Server and Office 365. Users must search from SharePoint Server to find items stored there and they must search form Office 365 to find items stored there.  <br/> |Search results between the two locations are combined in one of two ways. Cloud hybrid search crawls on-premises content and indexes it in the search index in Office 365. Users can search the Office 365 index from either location. Hybrid federated search combines search results from each search index in a single search center.  <br/> (See [Hybrid search in SharePoint](/SharePoint/hybrid/hybrid-search-in-sharepoint) for detailed information.)  <br/> |
    
 ## What is redirection?
 

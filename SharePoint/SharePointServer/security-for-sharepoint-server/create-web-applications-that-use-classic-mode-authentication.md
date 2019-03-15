@@ -12,19 +12,19 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 57c6d1ee-e2b7-4b48-9865-354fe8cc8fe2
-description: "Summary: Learn how to create a web application that uses classic mode (Windows-classic) authentication in SharePoint Server 2016 and SharePoint Server 2013."
+description: "Learn how to create a web application that uses classic mode (Windows-classic) authentication in SharePoint Server."
 ---
 
 # Create web applications that use classic mode authentication in SharePoint Server
 
- **Summary:** Learn how to create a web application that uses classic mode (Windows-classic) authentication in SharePoint Server 2016 and SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)] 
   
 In SharePoint Server, claims-based authentication is the default and preferred method of user authentication and is required to take advantage of server-to-server authentication and app authentication. In Central Administration, you can only configure claims-based authentication when you manage web applications. You can also use Microsoft PowerShell cmdlets. The use of classic mode authentication, also known as Windows classic authentication, is discouraged in SharePoint Server and you can only create or configure web applications for classic mode authentication with Microsoft PowerShell cmdlets.
   
 > [!IMPORTANT]
-> Office Online can be used only by SharePoint Server web applications that use claims-based authentication. Office Online rendering and editing will not work on SharePoint Server web applications that use classic mode authentication. If you migrate SharePoint 2010 web applications that use classic mode authentication to SharePoint Server 2016, you must migrate them to claims-based authentication to allow them to work with Office Online. For more information, see [Use Office Web Apps with SharePoint 2013](https://technet.microsoft.com/library/8a58e6c2-9a0e-4355-ae41-4df25e5e6eee.aspx). 
+> Office Online can be used only by SharePoint Server web applications that use claims-based authentication. Office Online rendering and editing will not work on SharePoint Server web applications that use classic mode authentication. If you migrate SharePoint 2010 web applications that use classic mode authentication to SharePoint Server 2016, you must migrate them to claims-based authentication to allow them to work with Office Online. For more information, see [Use Office Web Apps with SharePoint 2013](/webappsserver/use-office-web-apps-with-sharepoint-2013). 
   
-To use Windows claims-based authentication instead (recommended), see [Create a web application that uses Windows-claims authentication](create-claims-based-web-applications.md). To convert a web application that uses classic mode to use claims-based authentication, see [Migrate from classic-mode to claims-based authentication in SharePoint Server](https://technet.microsoft.com/library/e3e3d0b8-8ba0-4495-8650-e2e9dfb5fa6a).
+To use Windows claims-based authentication instead (recommended), see [Create a web application that uses Windows-claims authentication](create-claims-based-web-applications.md). To convert a web application that uses classic mode to use claims-based authentication, see [Migrate from classic-mode to claims-based authentication in SharePoint Server](/sharepoint/security-for-sharepoint-server/security-for-sharepoint-server).
   
 > [!IMPORTANT]
 > The steps in this article apply to both SharePoint Foundation 2013 and SharePoint Server. 
@@ -36,11 +36,11 @@ Before you perform this procedure, confirm the following:
   
 - You have determined the design of your logical architecture.
     
-    For additional information, see [Logical architecture components](https://technet.microsoft.com/library/aaed3a01-f4dc-4353-abda-0beced2080b6.aspx).
+    For additional information, see [Logical architecture components](/previous-versions/office/sharepoint-server-2010/cc263121(v=office.14)).
     
 - You have planned authentication for your web application.
     
-    For additional information, see [Plan for user authentication methods in SharePoint Server](https://technet.microsoft.com/library/40117fda-70a0-4e3d-8cd3-0def768da16c).
+    For additional information, see [Plan for user authentication methods in SharePoint Server](/SharePoint/security-for-sharepoint-server/plan-user-authentication).
     
 - If you use Secure Sockets Layer (SSL), you must associate the SSL certificate with the web application's IIS website after the IIS website is created. SSL is required by default for web applications that are used in server-to-server authentication and app authentication scenarios. 
     
@@ -67,7 +67,7 @@ Perform the following procedure to use PowerShell to create a web application th
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 Products cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](https://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -99,7 +99,7 @@ Perform the following procedure to use PowerShell to create a web application th
 
 For more information, see New-SPWebApplication.PShell_stsadm_deprecated
   
-After this procedure is complete, you can create one or more site collections for this web application. For more information, see [Create a site collection in SharePoint Server](https://technet.microsoft.com/library/a5c66813-3523-40d1-99d8-86e8359b6c73).
+After this procedure is complete, you can create one or more site collections for this web application. For more information, see [Create a site collection in SharePoint Server](/SharePoint/sites/create-a-site-collection).
   
 After you successfully create the web application, when you open the Central Administration page, you see a health rule warning that indicates that one or more web applications is enabled with classic authentication mode. This is a reflection of our recommendation to use claims-based authentication instead of classic mode authentication.
   
@@ -111,5 +111,5 @@ After you successfully create the web application, when you open the Central Adm
 [Create a Web application that uses Windows-claims authentication)](create-claims-based-web-applications.md)
 #### Other Resources
 
-[Plan for user authentication methods in SharePoint Server](https://technet.microsoft.com/library/40117fda-70a0-4e3d-8cd3-0def768da16c)
+[Plan for user authentication methods in SharePoint Server](/SharePoint/security-for-sharepoint-server/plan-user-authentication)
 

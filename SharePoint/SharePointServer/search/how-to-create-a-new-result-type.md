@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: cc3686d1-e786-478b-aa0c-68796c02e198
-description: "Summary: Learn how to create a new result type in SharePoint Server."
+description: "Learn how to create a new result type in SharePoint Server."
 ---
 
-# How to create a new result type in SharePoint Server
+# How to create a new result type for classic search in SharePoint Server
 
- **Summary:** Learn how to create a new result type in SharePoint Server. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 In this article, you'll learn:
   

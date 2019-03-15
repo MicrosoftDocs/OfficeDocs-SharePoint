@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: c0adc0b5-ea84-46ae-b2a1-9d8d05dbac03
-description: "Summary: Learn how to configure SSL certificates for encrypted communication between Workflow Manager and SharePoint Server."
+description: "Learn how to configure SSL certificates for encrypted communication between Workflow Manager and SharePoint Server."
 ---
 
 # Install Workflow Manager certificates in SharePoint Server
 
- **Summary: ** Learn how to configure SSL certificates for encrypted communication between Workflow Manager and SharePoint Server. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 Secure Socket Layer (SSL) is an encrypted communication protocol which uses encryption certificates. Workflow Manager and SharePoint Server can communicate in a secure manor using SSL. This article describes the steps required to setup and configure SSL certificates.
   
@@ -27,9 +27,9 @@ The following sections provide instructions for configuring SSL communication wi
 
 Enable Secure Sockets Layer (SSL) in IIS Manager. For guidance on completing the configuration, see the following:
   
-- [Configuring SSL in IIS Manager](https://docs.microsoft.com/en-us/iis/manage/configuring-security/configuring-ssl-in-iis-manager)
+- [Configuring SSL in IIS Manager](/iis/manage/configuring-security/configuring-ssl-in-iis-manager)
     
-- [How to Set Up SSL on IIS 7](https://docs.microsoft.com/en-us/iis/manage/configuring-security/how-to-set-up-ssl-on-iis)
+- [How to Set Up SSL on IIS 7](/iis/manage/configuring-security/how-to-set-up-ssl-on-iis)
     
 ### Install Workflow Manager certificates in SharePoint
 <a name="appendix2"> </a>

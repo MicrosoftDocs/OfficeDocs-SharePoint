@@ -3,7 +3,6 @@ title: "Visio Services in SharePoint Server knowledge articles"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 8/15/2017
 ms.audience: ITPro
 ms.topic: troubleshooting
 ms.prod: sharepoint-server-itpro
@@ -12,14 +11,29 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: e8eb4d14-cb99-4f43-b845-0cc0963fab47
-description: "Resolve alerts in Visio Services in SharePoint Server 2016 and SharePoint Server 2013: symptoms, causes, and possible resolutions."
+description: "Resolve alerts in Visio Services in SharePoint Server: symptoms, causes, and possible resolutions."
 ---
 
 # Visio Services in SharePoint Server knowledge articles
 
-Resolve alerts in Visio Services in SharePoint Server 2016 and SharePoint Server 2013: symptoms, causes, and possible resolutions.
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+
+Resolve alerts in Visio Services in SharePoint Servers 2019, 2016, and 2013: symptoms, causes, and possible resolutions.
+
+> [!NOTE]
+> The Microsoft Silverlight-based rendering will no longer be supported as of October 12, 2012. This means that, Silverlight-based rendering will no longeer be supported in SharePoint Server 2019. Visio Services will only render Visio diagrams using the PNG-based technology.
   
-The articles in this section are knowledge articles for Visio Services in SharePoint Server 2016. Typically, you would see these articles after clicking a link in an alert in the Systems Center Operations Manager console. You can use these articles to help you troubleshoot and resolve problems in Visio Services. Download and install [System Center Monitoring Pack for SharePoint Server 2016](http://go.microsoft.com/fwlink/?LinkID=746863&amp;clcid=0x409).
+The articles in this section are knowledge articles for Visio Services in SharePoint Servers 2019 and 2016. Typically, you would see these articles after clicking a link in an alert in the Systems Center Operations Manager console. You can use these articles to help you troubleshoot and resolve problems in Visio Services. 
+
+Download and install:
+
+- [System Center Management Pack for SharePoint Server 2019](https://www.microsoft.com/en-us/download/details.aspx?id=57776)
+
+- [System Center Monitoring Pack for SharePoint Server 2016](http://go.microsoft.com/fwlink/?LinkID=746863&amp;clcid=0x409) 
+
+- [System Center Monitoring Pack for SharePoint Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=272568) 
+
+- [System Center Monitoring Pack for SharePoint Foundation 2013](https://go.microsoft.com/fwlink/p/?LinkId=272567)
   
 In this section:
   
@@ -201,7 +215,7 @@ Resolution 5: Create a new Visio Services application:
 [Plan for monitoring in SharePoint Server](../administration/monitoring-planning.md)
 #### Other Resources
 
-[Plan for Visio Services in SharePoint Server](http://technet.microsoft.com/library/4385b870-c3ec-462f-a43d-49f18e4d8675%28Office.14%29.aspx)
+[Plan for Visio Services in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee663482(v=office.14))
   
 [System Center Monitoring Pack for SharePoint Foundation](http://go.microsoft.com/fwlink/p/?LinkId=272567)
   

@@ -1,7 +1,7 @@
 ---
 title: "Configure time-out values for crawler connections in SharePoint Server"
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: tlarsen
+author: tklarsen
 manager: pamgreen
 ms.date: 3/7/2018
 ms.audience: ITPro
@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 5978d831-4070-4b03-a81c-dfce3b7d594e
-description: "Summary: Change how long the SharePoint Server 2016 or SharePoint Server 2013 search crawler will wait for a connection to a content repository or for a response to a connection attempt."
+description: "Change how long the SharePoint Server search crawler will wait for a connection to a content repository or for a response to a connection attempt."
 ---
 
 # Configure time-out values for crawler connections in SharePoint Server
 
- **Summary:** Change how long the SharePoint Server 2016 or SharePoint Server 2013 search crawler will wait for a connection to a content repository or for a response to a connection attempt. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 By default, when the crawler attempts to connect to a content repository, it waits 60 seconds for a connection or for a response to a connection attempt. Use the procedure in this article to change these crawler time-out values. 
   

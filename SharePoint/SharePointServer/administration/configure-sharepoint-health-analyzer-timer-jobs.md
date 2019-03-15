@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 0fb9616f-3877-4ba8-a7a7-9f00b6d896cb
-description: "Summary: Learn to configure health data collection timer jobs by using the SharePoint Central Administration website or Windows PowerShell."
+description: "Learn to configure health data collection timer jobs by using the SharePoint Central Administration website or Windows PowerShell."
 ---
 
 # Configure SharePoint Health Analyzer timer jobs in SharePoint Server 2016
 
- **Summary:** Learn to configure health data collection timer jobs by using the SharePoint Central Administration website or Windows PowerShell. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 SharePoint Health Analyzer uses timer jobs to collect health data and then writes the data to the logging folder and to the Logging database. This data is used in reports to display health of the farm servers. You can reschedule these timer jobs, run them immediately, or enable or disable them. 
   
@@ -66,7 +66,7 @@ You can configure the health data collection timer job schedule by using PowerSh
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. On the **Start** menu, click **All Programs**. 
     
@@ -108,7 +108,7 @@ You can configure the health data collection timer job schedule by using PowerSh
   Get-SPTimerJob | Format-Table -property id,title,schedule
   ```
 
-For more information, see [Get-SPTimerJob](http://technet.microsoft.com/library/e2ec752d-7f04-457e-bc02-7213af5c14fe.aspx) and [Set-SPTimerJob](http://technet.microsoft.com/library/e40a6017-0bf0-4912-befb-3510084a0487.aspx). 
+For more information, see [Get-SPTimerJob](/powershell/module/sharepoint-server/Get-SPTimerJob?view=sharepoint-ps) and [Set-SPTimerJob](/powershell/module/sharepoint-server/Set-SPTimerJob?view=sharepoint-ps). 
   
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 

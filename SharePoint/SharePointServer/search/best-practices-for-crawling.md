@@ -10,12 +10,14 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 73f19541-9321-4abd-b014-98df79f84d2a
-description: "Learn about best practices for crawling in SharePoint Server 2016 and SharePoint Server 2013."
+description: "Learn about best practices for crawling in SharePoint Server."
 ---
 
 # Best practices for crawling in SharePoint Server
 
-Learn about best practices for crawling in SharePoint Server 2016 and SharePoint Server 2013.
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+
+Learn about best practices for crawling in SharePoint Server.
   
 The Search system crawls content to build a search index that users can run search queries against. This article contains suggestions as to how to manage crawls most effectively.
   
@@ -91,11 +93,11 @@ Crawling content can significantly decrease the performance of the servers that 
 
 By default, in the first Search service application in a farm, the preconfigured content source **Local SharePoint sites** contains at least the following two start addresses: 
   
-- http://Web_application_public_URL, which is for crawling all SharePoint Server sites in a web application
+- https://webAppUrl, which is for crawling the Default Zone URL specified for the existing Web Application(s)
     
-- sps3:// _My_Site_host_URL_, which is for crawling user profiles
+- sps3s://myWebAppUrl, which is for crawling user profiles
     
-However, if you are deploying "people search", we recommend that you create a separate content source for the start address sps3:// _My_Site_host_URL_ and run a crawl for that content source first. The reason for doing this is that after the crawl finishes, the search system generates a list to standardize people's names. This is so that when a person's name has different forms in one set of search results, all results for that person are displayed in a single group (known as a **result block**). For example, for the search query "Anne Weiler", all documents authored by Anne Weiler or A. Weiler or alias AnneW can be displayed in a result block that is labeled "Documents by Anne Weiler". Similarly, all documents authored by any of those identities can be displayed under the heading "Anne Weiler" in the refinement panel if "Author" is one of the categories there.
+However, if you are deploying "People Search", we recommend that you create a separate content source for the start address sps3s://myWebAppUrl and run a crawl for that content source first. The reason for doing this is that after the crawl finishes, the search system generates a list to standardize people's names. This is so that when a person's name has different forms in one set of search results, all results for that person are displayed in a single group (known as a **result block**). For example, for the search query "Anne Weiler", all documents authored by Anne Weiler or A. Weiler or alias AnneW can be displayed in a result block that is labeled "Documents by Anne Weiler". Similarly, all documents authored by any of those identities can be displayed under the heading "Anne Weiler" in the refinement panel if "Author" is one of the categories there.
   
  **To crawl user profiles and then crawl SharePoint Server sites**
   
@@ -103,11 +105,11 @@ However, if you are deploying "people search", we recommend that you create a se
     
 2. Follow the instructions in [Deploy people search in SharePoint Server](deploy-people-search.md). As part of those instructions, you do the following:
     
-  - Create a content source that is only for crawling user profiles (the profile store). You might give that content source a name such as People. In the new content source, in the **Start Addresses** section, type sps3://  _My_Site_Host_URL_, where  _My_Site_host_URL_ is the URL of the My Site host. 
+  - Create a content source that is only for crawling user profiles (the profile store). You might give that content source a name such as People. In the new content source, in the **Start Addresses** section, type sps3s:// myWebAppUrl, where myWebAppUrl is the URL of the My Site host. 
     
   - Start a crawl for the People content source that you just created. 
     
-  - Delete the start address sps3:// _My_Site_Host_URL_ from the preconfigured content source **Local SharePoint sites**.
+  - Delete the start address sps3s://myWebAppUrl from the preconfigured content source **Local SharePoint sites**.
     
 3. Wait about two hours after the crawl for the People content source finishes. 
     
@@ -120,7 +122,7 @@ However, if you are deploying "people search", we recommend that you create a se
   
 A single continuous crawl includes all content sources in a Search service application for which continuous crawls are enabled. Similarly, the continuous crawl interval applies to all content sources in the Search service application for which continuous crawls are enabled. For more information, see [Manage continuous crawls in SharePoint Server](manage-continuous-crawls.md).
   
-Continuous crawls increase the load on the crawler and on crawl targets. Make sure that you plan and scale out accordingly for this increased consumption of resources. For each large content source for which you enable continuous crawls, we recommend that you configure one or more front-end web servers as dedicated targets for crawling. For more information, see [Manage crawl load (SharePoint Server 2010)](https://technet.microsoft.com/en-us/library/dd335962%28v=office.14%29.aspx).
+Continuous crawls increase the load on the crawler and on crawl targets. Make sure that you plan and scale out accordingly for this increased consumption of resources. For each large content source for which you enable continuous crawls, we recommend that you configure one or more front-end web servers as dedicated targets for crawling. For more information, see [Manage crawl load (SharePoint Server 2010)](/previous-versions/office/sharepoint-server-2010/dd335962(v=office.14)).
   
 ## Use crawl rules to exclude irrelevant content from being crawled
 <a name="BKMK_UseCrawlRules"> </a>
@@ -173,7 +175,7 @@ You can reduce the effect of crawling on SharePoint Server crawl targets (that i
     
 - Limit search database usage in Microsoft SQL Server to prevent the crawler from using shared SQL Server disk and processor resources during a crawl.
     
-For more information, see [Manage crawl load (SharePoint Server 2010)](https://technet.microsoft.com/en-us/library/dd335962%28v=office.14%29.aspx).
+For more information, see [Manage crawl load (SharePoint Server 2010)](/previous-versions/office/sharepoint-server-2010/dd335962(v=office.14)).
   
 ### Using crawler impact rules to limit the effect of crawling
 
@@ -199,7 +201,7 @@ For more information, see the following articles:
     
 - [Manage search components in SharePoint Server](manage-search-components.md)
     
-- [New-SPEnterpriseSearchCrawlComponent](http://technet.microsoft.com/library/98f86631-c6b5-4379-ab89-5d0884cb0fd0.aspx)
+- [New-SPEnterpriseSearchCrawlComponent](/powershell/module/sharepoint-server/New-SPEnterpriseSearchCrawlComponent?view=sharepoint-ps)
     
 ## Manage environment resources to improve crawl performance
 <a name="BKMK_ManageEnvironment"> </a>

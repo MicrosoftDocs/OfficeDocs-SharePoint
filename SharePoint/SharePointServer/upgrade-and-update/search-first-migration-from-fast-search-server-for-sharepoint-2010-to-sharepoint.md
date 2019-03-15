@@ -18,6 +18,8 @@ description: "This article describes how to perform a search-first migration fro
 
 # Search-first migration from FAST Search Server for SharePoint 2010 to SharePoint Server 2013
 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+
 This article describes how to perform a search-first migration from Microsoft FAST Search Server 2010 for SharePoint to SharePoint Server 2013.
   
 ## Introduction to search-first migration (SharePoint Server 2013)
@@ -37,7 +39,7 @@ Your organization can complete the product upgrade at any time.
   
 For more information, see:
   
-- [Search-first migration from FAST Search Server for SharePoint 2010 to SharePoint Server 2013](http://technet.microsoft.com/library/4de5887b-b6b0-42a9-a6b2-c92e6ee960d6%28Office.14%29.aspx#features_limitations)
+- [Features with limitations](#features_limitations)
     
 ## Supported migration path
 
@@ -54,7 +56,7 @@ To complete a search-first migration:
   
 1. Install SharePoint 2013 on a single server with an additional dedicated SQL Server.
     
-    See also: [Install SharePoint 2013 on a single server with SQL Server](https://technet.microsoft.com/en-us/library/cc262243.aspx)
+    See also: [Install SharePoint 2013 on a single server with SQL Server](/SharePoint/install/single-server-with-sql-server)
     
 2. On the SharePoint 2013 SQL Server, install:
     
@@ -85,7 +87,7 @@ To complete a search-first migration:
 8. On the SharePoint 2013, start crawling.
     
 > [!NOTE]
-> For information about limitations, see [Search-first migration from FAST Search Server for SharePoint 2010 to SharePoint Server 2013](http://technet.microsoft.com/library/4de5887b-b6b0-42a9-a6b2-c92e6ee960d6%28Office.14%29.aspx#features_limitations). 
+> For information about limitations, see [Search-first migration from FAST Search Server for SharePoint 2010 to SharePoint Server 2013](#features_limitations). 
   
 ## Summary of search-first migrated features
 <a name="seacrh_first_migration"> </a>
@@ -121,9 +123,9 @@ To complete a search-first migration:
 
 When you run SharePoint 2013 in mixed mode, certain features will function with limitations. You'll have to use manual workarounds for these features to work correctly. The following sections explain:
   
-- [Search-first migration from FAST Search Server for SharePoint 2010 to SharePoint Server 2013](http://technet.microsoft.com/library/4de5887b-b6b0-42a9-a6b2-c92e6ee960d6%28Office.14%29.aspx#limitations_FSS)
+- [Limitations when you migrate from FAST Search Server 2010 for SharePoint Search Center to SharePoint Server 2013](#limitations_FSS)
     
-- [Search-first migration from FAST Search Server for SharePoint 2010 to SharePoint Server 2013](http://technet.microsoft.com/library/4de5887b-b6b0-42a9-a6b2-c92e6ee960d6%28Office.14%29.aspx#limitations_after_migration)
+- [Limitations after a full migration to SharePoint Server 2013](#limitations_after_migration)
     
 ### Limitations when you migrate from FAST Search Server 2010 for SharePoint Search Center to SharePoint Server 2013
 <a name="limitations_FSS"> </a>

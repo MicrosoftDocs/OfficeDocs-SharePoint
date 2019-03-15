@@ -3,7 +3,6 @@ title: "Machine Translation service in SharePoint Server knowledge articles"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 8/15/2017
 ms.audience: ITPro
 ms.topic: troubleshooting
 ms.prod: sharepoint-server-itpro
@@ -12,14 +11,28 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 38095e9b-5b48-4d2a-a787-3f7900b138e0
-description: "Learn how to resolve alerts about the Machine Translation service in the SharePoint Server 2016 and SharePoint Server 2013 management pack for Systems Center Operations Manager (SCOM)."
+description: "Learn how to resolve alerts about the Machine Translation service in the SharePoint Server management pack for Systems Center Operations Manager (SCOM)."
 ---
 
 # Machine Translation service in SharePoint Server knowledge articles
 
-Learn how to resolve alerts about the Machine Translation service in the SharePoint Server 2016 and SharePoint Server 2013 management pack for Systems Center Operations Manager (SCOM).
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+
+Learn how to resolve alerts about the Machine Translation service in the SharePoint Servers 2019, 2016, and 2013 management pack for Systems Center Operations Manager (SCOM).
   
-The articles in this section are knowledge articles for the Machine Translation service in SharePoint Server. Typically, you would see these articles after clicking a link in an alert in the Operations Manager console. You can use these articles to help you troubleshoot and resolve problems that involve the Machine Translation service. Download and install [System Center Monitoring Pack for SharePoint Server 2016](http://go.microsoft.com/fwlink/?LinkID=746863&amp;clcid=0x409), [System Center Monitoring Pack for SharePoint Server](https://go.microsoft.com/fwlink/p/?LinkId=272568), or [System Center Monitoring Pack for SharePoint Foundation](https://go.microsoft.com/fwlink/p/?LinkId=272567).
+The articles in this section are knowledge articles for the Machine Translation service in SharePoint Server. Typically, you would see these articles after clicking a link in an alert in the Operations Manager console. You can use these articles to help you troubleshoot and resolve problems that involve the Machine Translation service. 
+
+Download and install:
+
+- [System Center Management Pack for SharePoint Server 2019](https://www.microsoft.com/en-us/download/details.aspx?id=57776)
+
+- [System Center Monitoring Pack for SharePoint Server 2016](http://go.microsoft.com/fwlink/?LinkID=746863&amp;clcid=0x409) 
+
+- [System Center Monitoring Pack for SharePoint Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=272568) 
+
+- [System Center Monitoring Pack for SharePoint Foundation 2013](https://go.microsoft.com/fwlink/p/?LinkId=272567)
+
+Use the following to resolve alerts about the Machine Translation service:
   
 - [Machine Translation Service: Queue database not accessible ](#QueueDB)
     
@@ -278,7 +291,7 @@ Resolution 2: Verify the SQL Server network connection:
     
 Resolution 3: Verify Server to Server Authentication is configured correctly:
   
-See [Configure server-to-server authentication in SharePoint Server](http://technet.microsoft.com/library/1aa67101-2441-4a1d-b594-9d5144620d67%28Office.14%29.aspx).
+See [Configure server-to-server authentication in SharePoint Server](/sharepoint/security-for-sharepoint-server/security-for-sharepoint-server).
   
 ## Machine Translation Service: Worker failure
 <a name="TransWorker"> </a>

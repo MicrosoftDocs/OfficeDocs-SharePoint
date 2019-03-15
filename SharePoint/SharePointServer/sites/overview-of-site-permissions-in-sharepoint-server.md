@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: f6d711da-6157-4ae3-9dbb-82eb64a4968f
-description: "Summary: Learn about the concepts behind SharePoint 2013 and SharePoint Server 2016 access control at the site collection, site, subsite, and site content (list or library, folder, item or document) levels."
+description: "Learn about the concepts behind SharePoint Server access control at the site collection, site, subsite, and site content (list or library, folder, item or document) levels."
 ---
 
 # Overview of site permissions in SharePoint Server
 
- **Summary:** Learn about the concepts behind SharePoint 2013 and SharePoint Server 2016 access control at the site collection, site, subsite, and site content (list or library, folder, item or document) levels. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 This article helps you understand the concepts behind access control at the site collection, site, subsite, and site content (list or library, folder, item or document) levels.
   
@@ -39,7 +39,7 @@ Before developing your plan for site and content access, you should consider the
     
 - How do you want to categorize and manage the users by using SharePoint groups? Groups have no permission until they are assigned a permission level for a specific site or for specific site content. When you assign permission levels to SharePoint groups at the site collection level, by default, all sites and site content inherit those permission levels. 
     
- For more information about how to use groups to help manage permissions, see [Choose security groups (SharePoint Server 2010)](https://technet.microsoft.com/library/1a45c752-a485-439a-a19b-340a5bd7a6f3.aspx).
+ For more information about how to use groups to help manage permissions, see [Choose security groups (SharePoint Server 2010)](/sharepoint/sites/sites).
   
 ## About site permissions
 <a name="section1"> </a>
@@ -54,7 +54,7 @@ You should understand the following concepts before designing your permissions p
     
 - **Permission level** Permission levels are collections of permissions that allow users to perform a set of related tasks. For example, the Read permission level includes the View Items, Open Items, View Pages, and View Versions permissions (and others), all of which are needed to view pages, documents, and items in a SharePoint site. Permissions can be included in more than one permission level. 
     
-    Permission levels are defined at the site collection level and can be customized by any user or group whose permission level includes the Manage Permissions permission. For more information about how to customize permission levels, see [Configure custom permissions in SharePoint Server](https://technet.microsoft.com/library/c5dd8b7e-202d-4d33-8535-5c03f88ea1ff).
+    Permission levels are defined at the site collection level and can be customized by any user or group whose permission level includes the Manage Permissions permission. For more information about how to customize permission levels, see [Configure custom permissions in SharePoint Server](/sharepoint/security-for-sharepoint-server/security-for-sharepoint-server).
     
     The default permission levels are Limited Access, Read, Contribute, Design, and Full Control. For information about default permission levels and the permissions included in each level, see [User permissions and permission levels (SharePoint Server 2010)](user-permissions-and-permission-levels.md).
     

@@ -1,5 +1,5 @@
 ---
-title: "Manage the search index in SharePoint Server 2016"
+title: "Manage the search index in SharePoint Server"
 ms.author: tlarsen
 author: tklarsen
 ms.date: 3/6/2018
@@ -9,18 +9,20 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 626fc816-cd0e-44e1-8ea7-0d0b536b379b
-description: "Summary:Learn how to manage collection of content in the search index and retrieval from the search index."
+description: "Learn how to manage collection of content in the search index and retrieval from the search index."
 ---
 
-# Manage the search index in SharePoint Server 2016
+# Manage the search index in SharePoint Server
 
- **Summary:** Learn how to manage collection of content in the search index and retrieval from the search index.
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
-The following articles describe how you can manage the search index .
+The following articles describe how you can manage the search index. 
+
+SharePoint Server 2019 has both a classic and a modern search experience. Both search experiences use the same search index to find search results. [Learn about the differences between the search experiences in SharePoint Server](differences-search-2016-2019.md).
   
 ## Articles about managing the search index
 
-The following articles about managing the search index in SharePoint Server 2016 are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
+The following articles about managing the search index in SharePoint Server are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
   
 |                                                                  **Content**                                                                   |                                                              **Description**                                                               |
 | :--------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------- |

@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 7eea752e-5bdc-48b1-99cb-05e6c3669c4a
-description: "Summary: Learn how to limit PerformancePoint Services features that use trusted locations by allowing only designated sites, lists or document libraries rather than the entire site collection."
+description: "Learn how to limit PerformancePoint Services features that use trusted locations by allowing only designated sites, lists or document libraries rather than the entire site collection."
 ---
 
 # Enable trusted locations for PerformancePoint Services
 
- **Summary:** Learn how to limit PerformancePoint Services features that use trusted locations by allowing only designated sites, lists or document libraries rather than the entire site collection. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 After you enable a feature on a site collection in SharePoint Server, the content types or PerformancePoint Services objects are made available for others to use on any site within that site collection. An administrator may want to limit PerformancePoint Services features that use trusted locations by allowing one or more sites, lists, or document libraries rather than an entire site collection. In this way the administrator can limit use of PerformancePoint Services to specific locations in the farm to prevent unauthorized access to data sources. See [To add a trusted data source location](#proc1).
   

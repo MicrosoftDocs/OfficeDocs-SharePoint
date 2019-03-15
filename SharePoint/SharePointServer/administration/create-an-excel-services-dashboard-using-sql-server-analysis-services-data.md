@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 144baa85-cbd8-45d6-9141-e6e688cac210
-description: "Summary: Learn how to create, publish and use a basic sales dashboard by using Excel and Excel Services in SharePoint Server 2013."
+description: "Learn how to create, publish and use a basic sales dashboard by using Excel and Excel Services in SharePoint Server 2013."
 ---
 
 # Create an Excel Services dashboard using SQL Server Analysis Services data
 
- **Summary:** Learn how to create, publish and use a basic sales dashboard by using Excel and Excel Services in SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
   
 This article describes, step by step, how to use Excel 2016 to create a basic sales dashboard that contains several reports and a filter using an external data connection. The example dashboard described in this article resembles the following image:
   
@@ -38,7 +38,7 @@ Before you begin this operation, review the following information about prerequi
     
 - You must have some information about what authentication settings are used for Excel Services. User access can be provided using Windows Authentication with Kerberos delegation, the Secure Store Service, or, with OLAP data sources, the EffectiveUserName feature. 
     
-    For information about how to configure Secure Store, see [Plan the Secure Store Service in SharePoint Server](http://technet.microsoft.com/library/e1196de0-1eb9-4c50-aeca-93e0eba7be0d%28Office.14%29.aspx) and [Configure the Secure Store Service in SharePoint Server](configure-the-secure-store-service.md). For information about how to configure the EffectiveUserName feature for OLAP data sources, see [Use Analysis Services EffectiveUserName in SharePoint Server](use-analysis-services-effectiveusername-in-sharepoint-server.md).
+    For information about how to configure Secure Store, see [Plan the Secure Store Service in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806889(v=office.14)) and [Configure the Secure Store Service in SharePoint Server](configure-the-secure-store-service.md). For information about how to configure the EffectiveUserName feature for OLAP data sources, see [Use Analysis Services EffectiveUserName in SharePoint Server](use-analysis-services-effectiveusername-in-sharepoint-server.md).
     
 ## Plan the dashboard
 <a name="part1"> </a>

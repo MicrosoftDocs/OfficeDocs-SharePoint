@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: f7fcf9d3-c895-4f91-b9c2-4036519a2fd5
-description: "Summary:This article describes the versions of the Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocol that SharePoint Server supports."
+description: "This article describes the versions of the Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocol that SharePoint Server supports."
 ---
 
 # Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocol support in SharePoint Server
 
- **Summary:**This article describes the versions of the Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocol that SharePoint Server supports.
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 SharePoint Server supports the following versions of the TLS protocol:
   
@@ -27,12 +27,12 @@ SharePoint Server supports the following versions of the TLS protocol:
     
 - TLS 1.2
     
-- TLS 3.0\*
+- SSL 3.0\*
     
 \*Note that SharePoint Server 2016 does not fully support SSL 3.0. This is because SharePoint Server 2016 disables SSL 3.0 connection encryption by default for some, but not all features.
   
 > [!IMPORTANT]
-> We recommend completely disabling the SSL 3.0 protocol due to its security vulnerability. > For additional information on how to completely disable SSL 3.0, see the "Disabled SSL 3.0 in Windows For Server Software" and "Disabled SSL 3.0 in Windows For Client Software" sections in [Microsoft Security Advisory 3009008](https://technet.microsoft.com/library/security/3009008.aspx)
+> We recommend completely disabling the SSL 3.0 protocol due to its security vulnerability. > For additional information on how to completely disable SSL 3.0, see the "Disabled SSL 3.0 in Windows For Server Software" and "Disabled SSL 3.0 in Windows For Client Software" sections in [Microsoft Security Advisory 3009008](/security-updates/SecurityAdvisories/2015/3009008)
   
 For information about how to enable TLS support, see:
   

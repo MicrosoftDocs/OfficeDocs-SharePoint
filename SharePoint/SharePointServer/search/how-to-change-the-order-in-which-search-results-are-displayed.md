@@ -1,5 +1,5 @@
 ---
-title: "How to change the order in which search results are displayed in SharePoint Server"
+title: "How to change the order in which classic search results are displayed in SharePoint Server"
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen
@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 552fcfbd-efd6-457e-924d-1d3bacea37dd
-description: "Summary: Learn how to change the order in which search results are displayed in SharePoint Server."
+description: "Learn how to change the order in which search results are displayed in SharePoint Server."
 ---
 
-# How to change the order in which search results are displayed in SharePoint Server
+# How to change the order in which classic search results are displayed in SharePoint Server
 
- **Summary:** Learn how to change the order in which search results are displayed in SharePoint Server. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 In the series [How to change the way search results are displayed in SharePoint Server](how-to-change-the-way-search-results-are-displayed.md) we explained how to customize the way search results are displayed by adding custom icons and properties. 
   
@@ -22,7 +22,7 @@ When it comes to displaying search results, design and content are indeed very i
   
 Think of your own behavior when looking at search results. How often do you click to view the second page of search results? Often, the answer is "rarely."
   
-So, when displaying search results, it is important that the results that your users are looking for are displayed as high up in the search results list as possible. This article, an addendum to the [How to change the way search results are displayed in SharePoint Server](how-to-change-the-way-search-results-are-displayed.md) series, explains how to use a query rule to change the order in which search results are displayed. To demonstrate how query rules work, we'll use an example from an internal Microsoft Search Center. 
+So, when displaying search results, it is important that the results that your users are looking for are displayed as high up in the search results list as possible. This article, an addendum to the [How to change the way search results are displayed in SharePoint Server](how-to-change-the-way-search-results-are-displayed.md) series, explains how to use a query rule to change the order in which classic search results are displayed. To demonstrate how query rules work, we'll use an example from an internal Microsoft Search Center. 
   
 In this article, you'll learn:
   
@@ -30,7 +30,7 @@ In this article, you'll learn:
     
 - [When using query rules: define before you assign](how-to-change-the-order-in-which-search-results-are-displayed.md#BKMK_WhenUsingQueryRulesDefineBeforeYouAssign)
     
-- [How to create a query rule that will change the order in which search results are displayed](how-to-change-the-order-in-which-search-results-are-displayed.md#BKMK_HowtoCreateaQueryRulethatWillChangetheOrderinwhichSearchResultsareDisplayed)
+- [How to create a query rule that will change the order in which classic search results are displayed](how-to-change-the-order-in-which-search-results-are-displayed.md#BKMK_HowtoCreateaQueryRulethatWillChangetheOrderinwhichSearchResultsareDisplayed)
     
 - [How do I know that the query rule's been applied?](how-to-change-the-order-in-which-search-results-are-displayed.md#BKMK_HowdoIKnowthattheQueryRulesBeenApplied)
     
@@ -183,7 +183,7 @@ In our Search Center scenario, we could verify that our query rule was working b
 ## Think two times before you apply a query rule
 <a name="BKMK_ThinkTwiceBeforeApplyingaQueryRule"> </a>
 
-Even though this was a fairly simple query rule, we saw that the effect was very noticeable. So a word of warning: even though query rules are great for changing the order in which search results are displayed, you should think carefully before you apply too many of them. The effects can be very large, and the more complex query rules that you have, the more performance resources each query will require.
+Even though this was a fairly simple query rule, we saw that the effect was very noticeable. So a word of warning: even though query rules are great for changing the order in which classic search results are displayed, you should think carefully before you apply too many of them. The effects can be very large, and the more complex query rules that you have, the more performance resources each query will require.
   
 But, if they are used with caution, you can make the users of your Search Center very happy customers.
   

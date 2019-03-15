@@ -10,21 +10,26 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 81890ff0-e2f9-4752-8e8e-2e8502c76311
-description: "Summary: Learn how to view, add, edit, map, and delete crawled properties, crawled property categories and managed properties in the search schema."
+description: "Learn how to view, add, edit, map, and delete crawled properties, crawled property categories and managed properties in the search schema."
 ---
 
 # Manage the search schema in SharePoint Server
 
- **Summary:** Learn how to view, add, edit, map, and delete crawled properties, crawled property categories and managed properties in the search schema. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 The search schema in SharePoint Server determines how content is collected in and retrieved from the search index in SharePoint Server.
   
 Crawled properties are metadata that is extracted from content during crawls. Metadata can be structured content (such as the title or the author from a Word document), or unstructured content (such as a detected language or extracted keywords).
   
 You decide which crawled metadata to index by mapping the crawled property to a managed property. Users can only search on managed properties. You can map multiple crawled properties to a single managed property or map a single crawled property to multiple managed properties.
+> [!NOTE]
+> The search schema applies to both the classic and the modern search experiences, except for the following settings which **don't** apply to modern search:
+> - Refinable. Modern search has built-in refiners.
+> - Sortable. Not supported in modern search.
+> - Custom entity extraction. Modern search has built-in refiners.
+> - Company name extraction. Not supported in modern search.
   
-> [!IMPORTANT]
-> The steps in this article apply to SharePoint Server and use the Central Administration, unless specified otherwise. 
+ 
   
     
 ## Before you begin
@@ -84,7 +89,7 @@ Before you begin this operation, review the following information about prerequi
     
   - Searchable
     
-  - Advanced Searchable Settings (optional, if Searchable is selected)
+  - Advanced searchable settings (optional, if Searchable is selected)
     
   - Queryable
     
@@ -98,9 +103,13 @@ Before you begin this operation, review the following information about prerequi
     
   - Alias
     
-  - Token Normalization
+  - Token normalization
     
-  - Complete Matching
+  - Complete matching
+
+  - Language neutral tokenization
+
+  - Finer query tokenization
     
   > [!IMPORTANT]
   > If you want to be able to use this managed property as a refiner, you must select both Refinable and Queryable. 
@@ -121,7 +130,7 @@ Before you begin this operation, review the following information about prerequi
     
 14. Click **OK**.
     
-You have to perform a full crawl of the content source or sources that contain this new managed property to include it in the search index. If the new managed property is in a SharePoint Server library or list, you have to reindex that library or list.For more information see, Overview of the search schema in SharePoint Server 2016.
+You have to perform a full crawl of the content source or sources that contain this new managed property to include it in the search index. If the new managed property is in a SharePoint Server library or list, you have to reindex that library or list.For more information see, [Overview of the search schema in SharePoint Server](search-schema-overview.md).
   
 ## To edit a managed property
 <a name="proc3"> </a>
@@ -225,7 +234,7 @@ See the table [Search schema changes that require content to be reindexed](manag
     
 2. Go to the **Search Schema** page for the tenant or for a site collection. 
     
-  - For the tenant, sign in to the Office 365 Admin Center. Then, choose **Admin \> SharePoint**. You're now in the SharePoint admin center. Click **search**, and then on the search administration page, click **Manage Search Schema**.
+  - For the tenant, sign in to the Microsoft 365 Admin Center. Then, choose **Admin \> SharePoint**. You're now in the SharePoint admin center. Click **search**, and then on the search administration page, click **Manage Search Schema**.
     
   - For the site collection, on your site, go to **Settings**, click **Site settings** and then under **Site Collection Administration**, click **Search Schema**.
     
@@ -259,7 +268,7 @@ See the table [Search schema changes that require content to be reindexed](manag
     
 2. Go to the **Search Schema** page for the tenant or for a site collection. 
     
-  - For the tenant, sign in to the Office 365 Admin Center. Then, choose **Admin \> SharePoint**. You're now in the SharePoint admin center. Click **search**, and then on the search administration page, click **Manage Search Schema**.
+  - For the tenant, sign in to the Microsoft 365 Admin Center. Then, choose **Admin \> SharePoint**. You're now in the SharePoint admin center. Click **search**, and then on the search administration page, click **Manage Search Schema**.
     
   - For the site collection, on your site, go to **Settings**, click **Site settings** and then under **Site Collection Administration**, click **Search Schema**.
     
@@ -330,6 +339,7 @@ Say that you want to create a managed property that contains employee numbers, a
 | Mapping a crawled to a managed property | Add/Delete mapping                | Yes                                  |
 | Token normalization                     | Enable/Disable                    | Yes                                  |
 | Complete matching                       | Enable/Disable                    | Yes                                  |
+| Lanugage neutral tokenization           | Enable/Disable                    | Yes                                  |
 | Company name extraction                 | Enable/Disable                    | Yes                                  |
 | Custom entity extraction                | Enable/Disable                    | Yes                                  |
 | Searchable                              | Enable/Disable                    | Yes                                  |

@@ -7,23 +7,27 @@ ms.date: 6/21/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 - Ent_O365_Hybrid
-ms.custom: Strat_SP_gtc
+- Strat_SP_gtc
+ms.custom: 
 ms.assetid: 9cd888dc-9104-422e-8d8a-d795f0b1c0d0
-description: "Summary: Learn how to build a server-to server trust between SharePoint Server and SharePoint Online."
+description: "Learn how to build a server-to server trust between SharePoint Server and SharePoint Online."
 ---
 
 # Configure server-to-server authentication from SharePoint Server to SharePoint Online
 
- **Summary:** Learn how to build a server-to server trust between SharePoint Server and SharePoint Online. 
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)] 
   
  **This article is part of a roadmap of procedures for configuring SharePoint hybrid solutions. Be sure you're [following a roadmap](configuration-roadmaps.md) when you do the procedures in this article. **
-  
+
+> [!NOTE] 
+> We recommend using the [SharePoint Hybrid Picker](hybrid-picker-in-the-sharepoint-online-admin-center.md) to establish the Server-to-Server authentication between SharePoint Server and SharePoint Online. If you are unable to use the Hybrid Picker for any reason, follow the steps in this article to enable server-to-server authentication.
+
 ## Configure server-to-server authentication
 
 This article provides guidance for the SharePoint hybrid environment deployment process, which integrates SharePoint Server and SharePoint Online.
@@ -58,7 +62,7 @@ For example, you have to make sure that the on-premises search center site(s) th
 By default, OAuth in SharePoint Server requires **HTTPS**. If you configured your primary web application to use **HTTP** instead of SSL, you have to enable OAuth over **HTTP** on every web server in your SharePoint Server farm. 
   
 > [!NOTE]
-> If you configured your primary web application to use SSL, this step is not required, and you can skip ahead to [OBSOLETE Configure a two-way hybrid topology](http://technet.microsoft.com/library/76cba2da-f120-48c4-8aa7-a5ba2c9cc7b9%28Office.14%29.aspx#configurespo). 
+> If you configured your primary web application to use SSL, this step is not required. 
   
 To enable OAuth over HTTP, run the following commands as a farm administrator account from the SharePoint 2016 Management Shell command prompt on each web server in your SharePoint Server farm.
   
@@ -144,11 +148,7 @@ To install the online service management tools and configure the PowerShell wind
     
     For additional information, see [Microsoft Online Services Sign-In Assistant for IT Professionals RTW](https://go.microsoft.com/fwlink/?LinkId=392322) (https://go.microsoft.com/fwlink/?LinkId=392322). 
     
-2. Install the Azure Active Directory Module for Windows PowerShell:
-    
-    [Azure Active Directory Module for Windows PowerShell (64 bit version)](https://go.microsoft.com/fwlink/p/?linkid=236297) (https://go.microsoft.com/fwlink/p/?linkid=236297) 
-    
-    For additional information about Azure Active Directory Module for Windows PowerShell, see [Manage Azure Active Directory by using Windows PowerShell](https://aka.ms/aadposh) (https://aka.ms/aadposh). 
+2. Install the [latest version of the Azure Active Directory Module for Windows PowerShell](https://social.technet.microsoft.com/wiki/contents/articles/28552.microsoft-azure-active-directory-powershell-module-version-release-history.aspx)
     
 3. Install the SharePoint Online Management Shell:
     
@@ -172,7 +172,7 @@ To install the online service management tools and configure the PowerShell wind
   Add-PSSnapin Microsoft.SharePoint.PowerShell
   Import-Module Microsoft.PowerShell.Utility
   Import-Module MSOnline -force
-  Import-Module MSOnlineExtended -force
+  Import-Module MSOnlineExt -force
   Import-Module Microsoft.Online.SharePoint.PowerShell -force
   ```
 

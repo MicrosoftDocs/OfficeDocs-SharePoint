@@ -9,18 +9,18 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 0853bed9-1084-413b-bf91-427dc643a5e5
-description: "Summary: Configure Excel Services in SharePoint Server 2013 data refresh by using Secure Store and an external Office Data Connection (ODC) file."
+description: "Configure Excel Services in SharePoint Server data refresh by using Secure Store and an external Office Data Connection (ODC) file."
 ---
 
 # Configure Excel Services data refresh by using external data connections in SharePoint Server 2013
 
- **Summary:** Configure Excel Services in SharePoint Server 2013 data refresh by using Secure Store and an external Office Data Connection (ODC) file. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
   
 Excel Services in SharePoint Server 2013 provides three methods of using Secure Store Service to refresh the external data source in a workbook:
   
-- You can use an unattended service account. For more information, see [Configure Excel Services data refresh by using the unattended service account in SharePoint Server 2016](configure-the-unattended-service-account-0.md).
+- You can use an unattended service account. For more information, see [Configure Excel Services data refresh by using the unattended service account in SharePoint Server 2013](configure-the-unattended-service-account-0.md).
     
-- You can specify a Secure Store target application in a workbook. (This is known as an embedded connection.) For more information, see [Configure Excel Services data refresh by using embedded data connections](http://technet.microsoft.com/library/9a78496b-50c0-471c-b112-6dbc7231635d.aspx).
+- You can specify a Secure Store target application in a workbook. (This is known as an embedded connection.) For more information, see [Configure Excel Services data refresh by using embedded data connections](/SharePoint/administration/excel-services-overview).
     
 - You can use an Office Data Connection (ODC) file that specifies a Secure Store target application. This article describes how to do this. 
     
@@ -30,11 +30,11 @@ Using Excel Services with an ODC file consists of the following steps:
   
 1. [Configure a data access account](#part1)
     
-2. [Create a Secure Store target application](http://technet.microsoft.com/library/0d33c049-3f9e-42e9-be48-aeecd4ad7b66.aspx#part2)
+2. [Create a Secure Store target application](/SharePoint/administration/excel-services-overview#part2)
     
 3. [Create and publish an ODC file](#part3)
     
-4. [Configure an Excel workbook to use the published ODC file as a data connection](http://technet.microsoft.com/library/0d33c049-3f9e-42e9-be48-aeecd4ad7b66.aspx#part4)
+4. [Configure an Excel workbook to use the published ODC file as a data connection](/SharePoint/administration/excel-services-overview#part4)
     
 ## Configure a data access account
 <a name="part1"> </a>

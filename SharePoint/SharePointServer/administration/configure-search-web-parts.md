@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 76ca8205-2508-42b0-9c8e-36e1081a7fd4
 
-description: "Summary: Learn how to configure the different Web Parts that use search technology in a publishing environment."
+description: "Learn how to configure the different Web Parts that use search technology in a publishing environment."
 ---
 
 # Configure Search Web Parts in SharePoint Server
 
- **Summary:** Learn how to configure the different Web Parts that use search technology in a publishing environment. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 Web Parts that use search technology to show content in a publishing environment (referred to in this article as Search Web Parts) show content that was crawled and added to the search index, as described in "Understanding how content is added to and managed in the search index" in [Overview of cross-site publishing in SharePoint Server](overview-of-cross-site-publishing.md). These Web Parts have queries defined in them, and when users browse to a page that contains a Web Part that uses search technology, the Web Part issues the query automatically. The query result is then displayed in the Web Part. You can modify the query in the search Web Part to fit your content needs. 
   
@@ -25,7 +25,7 @@ Web Parts that use search technology to show content in a publishing environment
 <a name="BKMK_AvailableOOTRefiners"> </a>
 
 > [!NOTE]
->  Because SharePoint Server runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server supports the accessibility features of supported browsers. For more information, see the following resources: > [Plan browser support](https://go.microsoft.com/fwlink/p/?LinkId=246502)> [Accessibility for SharePoint 2013](http://technet.microsoft.com/library/94ad4316-1077-400a-b17e-a2085a5a7312%28Office.14%29.aspx)> [Accessibility features in SharePoint 2013 Products](https://go.microsoft.com/fwlink/p/?LinkId=246501)> [Keyboard shortcuts](https://go.microsoft.com/fwlink/p/?LinkID=246504)> [Touch](https://go.microsoft.com/fwlink/p/?LinkId=246506)
+>  Because SharePoint Server runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server supports the accessibility features of supported browsers. For more information, see the following resources: > [Plan browser support](https://go.microsoft.com/fwlink/p/?LinkId=246502)> [Accessibility for SharePoint 2013](/SharePoint/accessibility-guidelines)> [Accessibility features in SharePoint 2013 Products](https://go.microsoft.com/fwlink/p/?LinkId=246501)> [Keyboard shortcuts](https://go.microsoft.com/fwlink/p/?LinkID=246504)> [Touch](https://go.microsoft.com/fwlink/p/?LinkId=246506)
   
 There are many Search Web Parts available in SharePoint Server. These Web Parts have predefined queries, such as what type of content to search for, where to search for content, and how to show content. For information about different Search Web Parts, see "Plan to add search Web Parts to pages" in [Plan publishing sites for cross-site publishing in SharePoint Server](plan-sharepoint-publishing-sites-for-cross-site-publishing.md). Many of the Search Web Parts use result sources and have query rules that are applied to them. Result sources narrow the scope of search results that are retrieved. A query rule is a set of conditions that will cause the query to be changed in a specific way. For more information about result sources and query rules, see [Plan result sources and query rules](plan-search-for-sharepoint-cross-site-publishing-sites.md#BKMK_PlanResultSourcesAndQueryRules).
   

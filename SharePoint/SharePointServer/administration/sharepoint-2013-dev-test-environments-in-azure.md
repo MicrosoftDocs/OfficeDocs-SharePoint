@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 9cf0367c-ed53-4f14-9864-4ab984e40819
-description: "Summary: Create a basic or high-availability SharePoint 2013 dev/test farm in Microsoft Azure."
+description: "Create a basic or high-availability SharePoint dev/test farm in Microsoft Azure."
 ---
 
 # SharePoint 2013 dev/test environments in Azure
 
- **Summary:** Create a basic or high-availability SharePoint 2013 dev/test farm in Microsoft Azure. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 You can quickly create SharePoint 2013 dev/test environments in Microsoft Azure with the **SharePoint 2013 non-HA Farm** and **SharePoint 2013 HA Farm** Azure Resource Manager templates. These templates can save you a lot of time when you need a basic or high-availability SharePoint farm for a dev/test environment or if you are evaluating SharePoint Server 2013 as a collaboration solution for your organization. 
   
@@ -400,12 +400,12 @@ This can take some time to complete.
 
 You can administer the servers of these farms through [Remote Desktop connections](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-connect-logon/).
   
-From the Central Administration SharePoint site, you can configure My sites, SharePoint applications, and other functionality. For more information, see [Configure SharePoint 2013](https://technet.microsoft.com/en-us/library/ee836142.aspx).
+From the Central Administration SharePoint site, you can configure My sites, SharePoint applications, and other functionality. For more information, see [Configure SharePoint 2013](/SharePoint/install/configure).
   
 ## Create a SharePoint 2016 dev/test farm
 <a name="powershell"> </a>
 
-See the instructions in [SharePoint Server 2016 dev/test environment in Azure](https://technet.microsoft.com/library/mt723354%28v=office.16%29.aspx) to create the following single-server, SharePoint 2016 dev/test farm:. 
+See the instructions in [SharePoint Server 2016 dev/test environment in Azure](/SharePoint/administration/sharepoint-server-2016-dev-test-environment-in-azure) to create the following single-server, SharePoint 2016 dev/test farm:. 
   
 ![The single-server SharePoint 2016 farm in Azure.](../media/8cf51483-ecef-4ba4-a9fc-952716ff8132.png)
   
@@ -413,5 +413,5 @@ See the instructions in [SharePoint Server 2016 dev/test environment in Azure](h
 
 [Technical diagrams for SharePoint Server](../technical-reference/technical-diagrams.md)
 
-[SharePoint Server 2016 dev/test environment in Azure](https://technet.microsoft.com/library/mt723354%28v=office.16%29.aspx)
+[SharePoint Server 2016 dev/test environment in Azure](/SharePoint/administration/sharepoint-server-2016-dev-test-environment-in-azure)
 

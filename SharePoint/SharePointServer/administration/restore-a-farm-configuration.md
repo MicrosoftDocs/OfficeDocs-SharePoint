@@ -3,7 +3,6 @@ title: "Restore farm configurations in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 9/14/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -12,12 +11,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: d849b7df-b26d-45f6-a74f-6641f18788cf
-description: "Summary: Learn how to restore configuration information (such as antivirus, IRM, outbound email, and some customizations) for SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to restore configuration information (such as antivirus, IRM, outbound email, and some customizations) for SharePoint Server."
 ---
 
 # Restore farm configurations in SharePoint Server
 
- **Summary:** Learn how to restore configuration information (such as antivirus, IRM, outbound email, and some customizations) for SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 You can restore a farm configuration in SharePoint Server by using the SharePoint Central Administration website or Microsoft PowerShell. Which backup tool you use depends on what kind of environment you have deployed, what your backup schedule requires, and what service level agreements you have made with your organization.
   
@@ -48,24 +47,20 @@ You can use PowerShell to restore a farm's configuration.
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
-  
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+     
 2. Start the SharePoint Management Shell.
     
-3. At the PowerShell command prompt, type the following command:
+3. At the PowerShell command prompt, type the following command:  
     
-  ```
-  Restore-SPFarm -Directory <RestoreShare> -RestoreMethod Overwrite -ConfigurationOnly
-  ```
+   ```
+   Restore-SPFarm -Directory <RestoreShare> -RestoreMethod Overwrite -ConfigurationOnly
+   ```
 
-    Where:
-    
-  -  _\<RestoreShare\>_ is network location where the backup file is stored. 
-    
-    For more information, see [Restore-SPFarm](http://technet.microsoft.com/library/8e18ea80-0830-4ffa-b6b6-ad18a5a7ab3e.aspx). 
-    
-    > [!NOTE]
-    > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
+   Where _\<RestoreShare\>_ is network location where the backup file is stored. For more information, see [Restore-SPFarm](/powershell/module/sharepoint-server/Restore-SPFarm?view=sharepoint-ps). 
+
+   > [!NOTE]
+   > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
   
 ## Using Central Administration to restore a farm's configuration in SharePoint
 <a name="proc2"> </a>

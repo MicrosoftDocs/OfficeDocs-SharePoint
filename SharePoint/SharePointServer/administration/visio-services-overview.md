@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 9e952b26-fb0e-48a5-89b1-054f54f9b986
-description: "Summary: Visio Services lets users share and view Visio diagrams. It also enables data-connected Visio diagrams to be refreshed and updated from various data sources."
+description: "Visio Services lets users share and view Visio diagrams. It also enables data-connected Visio diagrams to be refreshed and updated from various data sources."
 ---
 
 # Overview of Visio Services in SharePoint Server
 
- **Summary:** Visio Services lets users share and view Visio diagrams. It also enables data-connected Visio diagrams to be refreshed and updated from various data sources. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 Visio Services runs as a SharePoint Server service application. It uses the Visio Graphics Service which runs under the Front-end server role.
   
@@ -81,6 +81,6 @@ The standard diagram format in later versions of Visio (\*.vsdx files) can be re
 
 Before you configure Visio Services, be sure to review [Plan Visio Services deployment in SharePoint Server 2013](plan-visio-services-deployment.md), [Plan Visio Services security in SharePoint Server 2013](visio-services-security-planning.md), and [Data authentication for Visio Services in SharePoint Server 2013](data-authentication-for-visio-services.md). These articles contain important information about planning your Visio Services infrastructure.
   
-To get started deploying Visio Services, see [Configure Visio Services](https://technet.microsoft.com/library/2db321b3-1d59-4b3a-a242-8daabfde367c).
+To get started deploying Visio Services, see [Configure Visio Services](/SharePoint/administration/configure-visio-services).
   
 

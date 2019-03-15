@@ -3,7 +3,6 @@ title: "Back up service applications in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 3/9/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -12,12 +11,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 96dc4ef1-cec8-47d0-b995-46bca3e8eda2
-description: "Summary: Learn how to back up a service application in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to back up a service application in SharePoint Server."
 ---
 
 # Back up service applications in SharePoint Server
 
- **Summary:** Learn how to back up a service application in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 You can back up a service application by using the SharePoint Central Administration website or Microsoft PowerShell. Which backup tool you use depends on what kind of environment you have deployed, what your backup schedule requires, and what service level agreements you have made with your organization.
   
@@ -49,41 +48,41 @@ You can use PowerShell to back up one or more service applications manually or a
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  Backup-SPFarm -Directory <BackupFolder> -BackupMethod {Full | Differential} -Item <ServiceApplicationName> [-Verbose]
-  ```
+   ```powershell
+   Backup-SPFarm -Directory <BackupFolder> -BackupMethod {Full | Differential} -Item <ServiceApplicationName> [-Verbose]
+   ```
 
     Where:
     
-  -  _\<BackupFolder\>_ is the path of a folder on the local computer or on the network in which you want to store the backups. 
+   -  _\<BackupFolder\>_ is the path of a folder on the local computer or on the network in which you want to store the backups. 
     
-  -  _\<ServiceApplicationName\>_ is the name of the service application that you want to back up. To display the name of the service application, at the PowerShell command prompt, type the following command:  `Backup-SPFarm -ShowTree`.
+   -  _\<ServiceApplicationName\>_ is the name of the service application that you want to back up. To display the name of the service application, at the PowerShell command prompt, type the following command:  `Backup-SPFarm -ShowTree`.
     
     To back up all the service applications, at the PowerShell command prompt, type the following command:
     
-  ```
-  Backup-SPFarm -Directory <BackupFolder> -BackupMethod {Full | Differential} -Item "Farm\Shared Services" [-Verbose]
-  ```
+   ```powershell
+   Backup-SPFarm -Directory <BackupFolder> -BackupMethod {Full | Differential} -Item "Farm\Shared Services" [-Verbose]
+   ```
 
     > [!NOTE]
     > If you are backing up the service application for the first time, you must use the **Full** option. You must perform a full backup before you can perform a differential backup. Some service applications always require a full backup. For these service applications, even if you select the **Differential** option, the system performs a full backup. 
   
-For more information, see [Backup-SPFarm](http://technet.microsoft.com/library/c37704b5-5361-4090-a84d-fcdd17bbe345.aspx).
+For more information, see [Backup-SPFarm](/powershell/module/sharepoint-server/Backup-SPFarm?view=sharepoint-ps).
   
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 

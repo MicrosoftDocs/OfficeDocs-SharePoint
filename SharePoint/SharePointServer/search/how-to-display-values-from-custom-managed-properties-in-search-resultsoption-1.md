@@ -1,5 +1,5 @@
 ---
-title: "How to display values from custom managed properties in search results - option 1 in SharePoint Server"
+title: "How to display values from custom managed properties in classic search results - option 1 in SharePoint Server"
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen
@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 383d6e18-d108-45b3-afb2-194fc3de2206
-description: "Summary: Learn one option for displaying values from custom managed properties in SharePoint Server."
+description: "Learn one option for displaying values from custom managed properties in SharePoint Server."
 ---
 
-# How to display values from custom managed properties in search results - option 1 in SharePoint Server
+# How to display values from custom managed properties in classic search results - option 1 in SharePoint Server
 
- **Summary:** Learn one option for displaying values from custom managed properties in SharePoint Server. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 In this article, you'll learn:
   
@@ -29,11 +29,11 @@ In this article, you'll learn:
 ## How to display a custom icon
 <a name="BKMK_HowtoDisplayaCustomIcon"> </a>
 
-In [Understanding how search results are displayed in SharePoint Server](understanding-how-search-results-are-displayed.md) we explained how the icons Word, PDF, and Excel are displayed for each search result. In our Search Center scenario, we wanted to add the following custom icon next to all search results that belong to the newly created  *TechNet content*  result type: 
+In [Understanding how search results are displayed in SharePoint Server](understanding-how-search-results-are-displayed.md) we explained how the icons Word, PDF, and Excel are displayed for classic search results. In our Search Center scenario, we wanted to add the following custom icon next to all search results that belong to the newly created  *TechNet content*  result type: 
   
 TN
   
-To display a custom icon for search results, here's what you should do:
+To display a custom icon for classic search results, here's what you should do:
   
 1. Add the custom icon to a SharePoint Server library.
     
@@ -166,20 +166,20 @@ The search result would then look like this:
   
 ![Results Without Common Reference](../media/OTCSP_ResultWithoutCommonReference.png)
   
-By working a bit more on the styling, you could have a good enough result. But, by deleting the reference to  `_#=ctx.RenderBody(ctx)=#_` ,the  *Item_CommonItem_Body*  display template is no longer used to display results. The  *Item_CommonItem_Body*  display template contains some functionality that will automatically improve the relevancy of your search results. So, before you delete the  `_#=ctx.RenderBody(ctx)=#_` reference, you should consider whether automatically improved relevancy is something that the users of your search site would benefit from. 
+By working a bit more on the styling, you could have a good enough result. But, by deleting the reference to  `_#=ctx.RenderBody(ctx)=#_` ,the  *Item_CommonItem_Body*  display template is no longer used to display results. The  *Item_CommonItem_Body*  display template contains some functionality that will automatically improve the relevancy of your classic search results. So, before you delete the  `_#=ctx.RenderBody(ctx)=#_` reference, you should consider whether automatically improved relevancy is something that the users of your search site would benefit from. 
   
 ## About click tracking and automatically improved relevancy
 <a name="BKMK_AboutClickTrackingandAutomaticallyImprovedRelevancy"> </a>
 
-The  *Item_CommonItem_Body*  display template contains an  *onlick*  method that tracks the click behavior of users. This tracking influences the relevancy of search results. For example, a search result that is often clicked by users will automatically be displayed higher up in the search results. 
+The  *Item_CommonItem_Body*  display template contains an  *onlick*  method that tracks the click behavior of users. This tracking influences the relevancy of classic search results. For example, a search result that is often clicked by users will automatically be displayed higher up in the search results. 
   
 > [!IMPORTANT]
-> If you want your search results to receive automatically improved relevancy based on the click behavior of users, do not delete the reference to  `_#=ctx.RenderBody(ctx)=#_`from the item display template. 
+> If you want your classic search results to receive automatically improved relevancy based on the click behavior of users, do not delete the reference to  `_#=ctx.RenderBody(ctx)=#_`from the item display template. 
   
-In the next article, we'll explain how you can keep this reference, display custom properties between the title and link in the search results, and also apply hit highlighting to your custom properties.
+In the next article, we'll explain how you can keep this reference, display custom properties between the title and link in the classic search results, and also apply hit highlighting to your custom properties.
   
 ### Next article in this series
 
-[How to display values from custom managed properties in search results - option 2 in SharePoint Server](how-to-display-values-from-custom-managed-properties-in-search-results-–-option.md)
+[How to display values from custom managed properties in search results - option 2 in SharePoint Server](how-to-display-values-from-custom-managed-properties-in-search-resultsoption-2.md)
   
 

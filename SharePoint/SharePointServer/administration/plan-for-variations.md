@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 45264de9-6859-45c1-9d6d-70035c471a2a
-description: "Summary: Learn how to plan for variations, identify the source and target variation sites, and decide how content will be synced on target variation sites in SharePoint Server 2016, SharePoint Server 2013, and SharePoint Online."
+description: "Learn how to plan for variations, identify the source and target variation sites, and decide how content will be synced on target variation sites in SharePoint Server and SharePoint Online."
 ---
 
 # Plan for variations in SharePoint Server
 
- **Summary:** Learn how to plan for variations, identify the source and target variation sites, and decide how content will be synced on target variation sites in SharePoint Server 2016, SharePoint Server 2013, and SharePoint Online. 
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)] 
   
 The variations feature in SharePoint Server and SharePoint Online makes content available to specific audiences on different sites by syncing content from a source variation site to each target variation site. Content on a target variation site can be translated into other languages before it is published. Variations can be used only on sites that are created by using one of the Publishing site templates, or on a site for which the SharePoint Server Publishing Infrastructure feature was activated.
   
@@ -66,7 +66,7 @@ Content approval has unique factors that you should consider when you are planni
 - If a page is published on the source variation site, when the page is synced to target variation sites, the **Approval** status is set to **Draft**. If **Content Approval** and **Document Version History** are enabled in the Pages library on target variation sites, the page must be approved on each target variation site before the page is available to readers. 
     
 > [!NOTE]
-> Changes made to content that originates on the source variation site can supersede changes made to the content on the target variation site. For example, if the source variation site is in one language and the target variation site is in another, the following situation might occur: An editor changes a localized page on the target variation site, assigning it a new minor version, 1.1. Then, a writer on the source variation site makes different changes to the same page, which is synced to the target variation site as version 1.2. This supersedes the version 1.1 changes to the page. In this example, an editor for the target variation site would have to restore the previous version of the page from the **Version History**, accept the new version, or use the **View Changes** button to view differences between the current version and previous versions of the page, and manually merge the new and previous versions into a new version. For more information about versioning, see [Plan document versioning, content approval, and check-out controls in SharePoint 2013](http://technet.microsoft.com/library/428b488e-2807-4ef0-b942-91cb09d8921c%28Office.14%29.aspx). 
+> Changes made to content that originates on the source variation site can supersede changes made to the content on the target variation site. For example, if the source variation site is in one language and the target variation site is in another, the following situation might occur: An editor changes a localized page on the target variation site, assigning it a new minor version, 1.1. Then, a writer on the source variation site makes different changes to the same page, which is synced to the target variation site as version 1.2. This supersedes the version 1.1 changes to the page. In this example, an editor for the target variation site would have to restore the previous version of the page from the **Version History**, accept the new version, or use the **View Changes** button to view differences between the current version and previous versions of the page, and manually merge the new and previous versions into a new version. For more information about versioning, see [Plan document versioning, content approval, and check-out controls in SharePoint 2013](/previous-versions/office/sharepoint-server-2010/cc262378(v=office.14)). 
   
 ### Site navigation
 <a name="Section2b"> </a>
@@ -205,7 +205,7 @@ Target pages can have different page layouts independent of the source variation
 
 You must use the same content type (either the Page content type, or a content type based on the Page content type) for all pages that are stored in the Pages library of the source variation site. The easiest way to do this is to use a content type that is defined on the **Site Content Type** page in the top-level site of the site collection. 
   
-If you must have custom columns for one or more pages on the variation sites, add them to the content type that you are using in your Pages libraries. For example, you can add a column that indicates whether the page was localized. For more information about how to plan content types and columns, see [Plan content types and workflows in SharePoint 2013](http://technet.microsoft.com/library/63bb092a-00fe-45ff-a4b8-d8be998d1a3c%28Office.14%29.aspx).
+If you must have custom columns for one or more pages on the variation sites, add them to the content type that you are using in your Pages libraries. For example, you can add a column that indicates whether the page was localized. For more information about how to plan content types and columns, see [Plan content types and workflows in SharePoint 2013](/previous-versions/office/sharepoint-server-2010/cc262735(v=office.14)).
   
 ## Decide how sites, lists, and pages will be created on target variation sites
 <a name="bkm_targetcreation"> </a>

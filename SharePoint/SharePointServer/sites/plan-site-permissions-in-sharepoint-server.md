@@ -12,16 +12,16 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: c1ffc9a1-29ec-4482-b391-f2e0c7f5d1b6
-description: "Summary: Learn about how to plan site permissions for SharePoint 2013 and SharePoint Server 2016 to provide secure access to sites and content."
+description: "Learn about how to plan site permissions for SharePoint Server to provide secure access to sites and content."
 ---
 
 # Plan site permissions in SharePoint Server
 
- **Summary:** Learn about how to plan site permissions for SharePoint 2013 and SharePoint Server 2016 to provide secure access to sites and content. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 This article helps you plan access control at the site collection, site, subsite, and site content (list or library, folder, item or document) levels.
   
-This article does not address planning the security of your entire server or server farm. For more information about planning other aspects of security, such as authentication methods and authentication modes, see [Plan authentication in SharePoint Server](https://technet.microsoft.com/library/a0f2c651-e353-4197-b0dd-0cbe6f18c811).
+This article does not address planning the security of your entire server or server farm. For more information about planning other aspects of security, such as authentication methods and authentication modes, see [Plan authentication in SharePoint Server](/SharePoint/install/install).
   
 ## Plan for site permissions
 <a name="section4"> </a>

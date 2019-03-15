@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 144e5f6e-0c9c-4f01-9b1f-26190d527e85
-description: "Summary: Learn how to synchronize user and group profile information by using the SharePoint Server 2013 profile synchronization method."
+description: "Learn how to synchronize user and group profile information by using the SharePoint Server 2013 profile synchronization method."
 ---
 
 # Synchronize user and group profiles in SharePoint Server 2013
 
- **Summary:** Learn how to synchronize user and group profile information by using the SharePoint Server 2013 profile synchronization method. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 Configuring profile synchronization (or profile sync) is a process that involves many steps. This article divides the process into shorter phases, both so that you can see progress and to reduce the number of steps through which you have to backtrack if you make an error. There are four phases to configuring profile synchronization. Depending on your situation, you might not have to perform all of the phases. This article also includes Phase 0, which contains instructions for configuring the prerequisites that are required before you can configure profile synchronization.
   
@@ -74,7 +74,8 @@ This phase involves the following tasks:
     
 4. [Create a User Profile service application](configure-profile-synchronization.md#UPSAProc)
     
-5. [Enable NetBIOS domain names for user profile synchronization by using PowerShell](configure-profile-synchronization.md#NetBIOSProc)
+5. [Enable NetBIOS domain names for user profile synchronization by using PowerShell](configure-profile-synchronization.md#
+Proc)
     
 6. [Start the User Profile service](configure-profile-synchronization.md#StartUPSProc)
     
@@ -83,7 +84,7 @@ To perform the tasks in this phase, you must be a member of the Farm Administrat
 ### Create a web application to host My Sites
 <a name="WebAppProc"> </a>
 
-In this procedure, you create the web application in which My Sites will reside. We recommend that My Sites be in a separate web application, although the web application may be in an application pool that is shared with other collaboration sites, or it may be in a separate application pool but in a shared IIS website. For more information about SharePoint Server 2013 sites, application pools, and IIS websites, see [Architecture design for SharePoint 2013 IT pros](https://technet.microsoft.com/en-us/sharepoint/fp123594.aspx). For more detailed instructions about how to create a web application, see [Create a web application in SharePoint Server](http://technet.microsoft.com/library/121c8d83-a508-4437-978b-303096aa59df%28Office.14%29.aspx).
+In this procedure, you create the web application in which My Sites will reside. We recommend that My Sites be in a separate web application, although the web application may be in an application pool that is shared with other collaboration sites, or it may be in a separate application pool but in a shared IIS website. For more information about SharePoint Server 2013 sites, application pools, and IIS websites, see [Architecture design for SharePoint 2013 IT pros](/sharepoint/). For more detailed instructions about how to create a web application, see [Create a web application in SharePoint Server](/previous-versions/office/sharepoint-server-2010/cc261875(v=office.14)).
   
  **To create a web application**
   
@@ -228,7 +229,7 @@ If the NetBIOS name of any domain with which you are synchronizing differs from 
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see Permissions and [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see Permissions and [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Paste the following code into a text editor, such as Notepad:
     
@@ -258,7 +259,7 @@ If the NetBIOS name of any domain with which you are synchronizing differs from 
 8. At the PowerShell command prompt, type the following command:
     
   ```
-  ./EnableNetBIOS.ps1
+  & .\EnableNetBIOS.ps1
   ```
 
 > [!NOTE]
@@ -515,7 +516,7 @@ In this procedure, you define filters for the connection to indicate which user 
 7. In the **Operator** list, select the comparison operator to use. 
     
     > [!NOTE]
-    > The operators that are available depend on the data type of the attribute that you selected. For a list of which operators are available for each data type, see [Connection filter data types and operators in SharePoint Server 2013](http://technet.microsoft.com/library/c62e80b9-505d-435d-9dae-3cfc84502aa5%28Office.14%29.aspx). 
+    > The operators that are available depend on the data type of the attribute that you selected. For a list of which operators are available for each data type, see [Connection filter data types and operators in SharePoint Server 2013](/previous-versions/office/sharepoint-server-2010/hh227258(v=office.14)). 
   
 8. In the **Filter** box, type the value to which you want to compare the attribute. 
     
@@ -563,7 +564,7 @@ You will come back to this procedure in later phases to map user profile propert
 2. In the **Attribute** list, select the name of the attribute in the external system to which you want to map the property. 
     
     > [!TIP]
-    > You can only map a user profile property to an attribute of an external system if the data types are compatible. If an attribute that you want to map to a user profile is not listed when you try to create a new mapping, it might be due to a data type mismatch between the user profile property and the attribute. For more information about which data types are compatible, see [User profile property data types in SharePoint Server 2013](http://technet.microsoft.com/library/bae66754-e0a4-46e0-b727-f7002c69ccd6%28Office.14%29.aspx). 
+    > You can only map a user profile property to an attribute of an external system if the data types are compatible. If an attribute that you want to map to a user profile is not listed when you try to create a new mapping, it might be due to a data type mismatch between the user profile property and the attribute. For more information about which data types are compatible, see [User profile property data types in SharePoint Server 2013](/previous-versions/office/sharepoint-server-2010/hh227257(v=office.14)). 
   
 3. In the **Direction** list, select the mapping direction. 
     
@@ -591,7 +592,7 @@ Use this procedure to synchronize profile information between SharePoint Server 
     
   - The user account that performs this procedure is a member of the Administrators group on the computer that is running SharePoint Server 2013.
     
-2. If you have already imported users or created My Sites, and you have enabled NetBIOS domain names, you must disable the My Site cleanup timer job before you start profile synchronization. For information about this timer job, see the [Timer job reference for SharePoint Server 2016](../technical-reference/timer-job-reference-for-sharepoint-server-2016.md). For information about the PowerShell cmdlets that you use to enable and disable this timer job, see [Timer jobs cmdlets (SharePoint Server 2010)](http://technet.microsoft.com/library/4ad542f7-84ad-456b-bfc4-6200c949e9f7.aspx).
+2. If you have already imported users or created My Sites, and you have enabled NetBIOS domain names, you must disable the My Site cleanup timer job before you start profile synchronization. For information about this timer job, see the [Default timer jobs in SharePoint Server 2016](../technical-reference/default-timer-jobs-in-sharepoint-server-2016.md). For information about the PowerShell cmdlets that you use to enable and disable this timer job, see [Timer jobs cmdlets (SharePoint Server 2010)](/powershell/module/sharepoint-server/?view=sharepoint-ps).
     
 3. If the user account that is performing this procedure is a farm administrator, complete these steps. Otherwise, if the user account is not a farm administrator go to the next step: 
     
@@ -621,7 +622,7 @@ Use this procedure to synchronize profile information between SharePoint Server 
     
 6. In the **Find Profiles** box, type the domain for the profiles, and then click **Find**.
     
-7. For each profile that is returned, check the originating directory service, such as Active Directory, for the status of that profile. If the status of any of the returned profiles in the directory is not disabled or is not deleted, do not enable the My Site cleanup timer job. Contact Microsoft support for more assistance. Otherwise, enable the My Site cleanup timer job. For information about the PowerShell cmdlets that you use to enable and disable this timer job, see [Timer jobs cmdlets (SharePoint Server 2010)](http://technet.microsoft.com/library/4ad542f7-84ad-456b-bfc4-6200c949e9f7.aspx).
+7. For each profile that is returned, check the originating directory service, such as Active Directory, for the status of that profile. If the status of any of the returned profiles in the directory is not disabled or is not deleted, do not enable the My Site cleanup timer job. Contact Microsoft support for more assistance. Otherwise, enable the My Site cleanup timer job. For information about the PowerShell cmdlets that you use to enable and disable this timer job, see [Timer jobs cmdlets (SharePoint Server 2010)](/powershell/module/sharepoint-server/?view=sharepoint-ps).
     
 A full synchronization can take a long time. If you refresh the **Manage Profile Service** page, the right side of the page displays the progress of the synchronization job. Be aware that profile synchronization consists of several stages, and the profiles will not be imported immediately. The **Manage Profile Service** page is not refreshed automatically as synchronization progresses. 
   
@@ -647,7 +648,7 @@ This phase involves the following tasks:
 ### Give the User Profile service application permission to use the external content type
 <a name="ECTPermProc"> </a>
 
-Use this procedure to give the farm account permission to execute operations on the external content type. For more information about how to set permissions on an external content type, see [Set permissions on an external content type](http://technet.microsoft.com/library/bede95e8-e7a2-4d38-bef8-0027a1e1c223.aspx#setpermissions).
+Use this procedure to give the farm account permission to execute operations on the external content type. For more information about how to set permissions on an external content type, see [Set permissions on an external content type](/previous-versions/office/sharepoint-server-2010/ee524076(v=office.14)#setpermissions).
   
 > [!NOTE]
 > Business Connectivity Services uses the permissions on the external content type and the permissions on the business system to determine authorization rules. You must make sure that the farm account also has permission to access the business system. For more information about authentication and permissions, see [Overview of Business Connectivity Services security tasks in SharePoint Server](security-tasks-overview.md). 

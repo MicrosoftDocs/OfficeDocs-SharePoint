@@ -10,16 +10,17 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 055e27eb-3e02-4470-a037-5896bab44736
-description: "Summary: Learn to create custom entity extractors and how to use them to set up custom refiners. Create one or more custom entity extraction dictionaries and connect them to managed properties."
+description: "Learn to create custom entity extractors and how to use them to set up custom refiners. Create one or more custom entity extraction dictionaries and connect them to managed properties."
 ---
 
 # Create and deploy custom entity extractors in SharePoint Server
 
- **Summary:** Learn to create custom entity extractors and how to use them to set up custom refiners. Create one or more custom entity extraction dictionaries and connect them to managed properties. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 You create and maintain the custom entity extractor file in a system external to SharePoint Server before you import it into SharePoint Server to make the custom entity extractor available to the search system.
   
-To use custom entities as refiners, you first create a custom entity extraction dictionary and deploy it. Then, you configure a managed property to use a custom entity extractor and run a full crawl. After that, you can configure the Refinement Web Part on the search results page to use the custom entity as a refiner. 
+To use custom entities as refiners in classic search, you first create a custom entity extraction dictionary and deploy it. Then, you configure a managed property to use a custom entity extractor and run a full crawl. After that, you can configure the Refinement Web Part on the search results page to use the custom entity as a refiner. 
+
   
     
 ## Before you begin
@@ -159,5 +160,5 @@ The following table shows what type of custom extraction dictionaries you can cr
 <a name="CustomDictionaryTypes"> </a>
 
 
-[Import-SPEnterpriseSearchCustomExtractionDictionary](http://technet.microsoft.com/library/5d6287c5-d439-4233-9ddb-9ee19f2d2112.aspx)
+[Import-SPEnterpriseSearchCustomExtractionDictionary](/powershell/module/sharepoint-server/Import-SPEnterpriseSearchCustomExtractionDictionary?view=sharepoint-ps)
 

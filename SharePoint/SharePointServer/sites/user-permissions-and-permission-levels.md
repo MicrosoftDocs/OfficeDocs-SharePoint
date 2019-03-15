@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: ff13b917-5236-48e6-89d5-8c78e61a72a8
-description: "Summary: Learn about the default permission levels and user permissions in SharePoint 2013 and SharePoint Server 2016."
+description: "Learn about the default permission levels and user permissions in SharePoint Server."
 ---
 
 # User permissions and permission levels in SharePoint Server
 
- **Summary:** Learn about the default permission levels and user permissions in SharePoint 2013 and SharePoint Server 2016. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 Default permission levels are predefined sets of permissions that you can assign to individual users, groups of users, or security groups, based on the functional requirements of the users and on security considerations. SharePoint Server permission levels are defined at the site collection level and are inherited from the parent object by default.
     
@@ -24,7 +24,7 @@ Default permission levels are predefined sets of permissions that you can assign
 Default permission levels are made up of a set of permissions that enable users to perform a collection of related tasks. SharePoint Server includes seven permission levels. You can customize the permissions contained within five of these permission levels. You cannot customize the permissions within the Limited Access and Full Control permission levels.
   
 > [!NOTE]
-> Although you cannot directly edit the Limited Access and Full Control permission levels, you can make individual permissions unavailable for the entire web application, which removes those permissions from the Limited Access and Full Control permission levels. For more information, see [Manage permissions for a web application in SharePoint Server](https://technet.microsoft.com/library/28a53440-2adc-4957-84bd-99ed97f0c430). 
+> Although you cannot directly edit the Limited Access and Full Control permission levels, you can make individual permissions unavailable for the entire web application, which removes those permissions from the Limited Access and Full Control permission levels. For more information, see [Manage permissions for a web application in SharePoint Server](/SharePoint/administration/manage-permissions-for-a-web-application). 
   
 The following table lists the default permission levels for team sites in SharePoint Server.
   
@@ -106,5 +106,5 @@ Permissions are categorized as list permissions, site permissions, and personal 
 
 #### Other Resources
 
-[Manage permissions for a web application in SharePoint Server](https://technet.microsoft.com/library/28a53440-2adc-4957-84bd-99ed97f0c430)
+[Manage permissions for a web application in SharePoint Server](/SharePoint/administration/manage-permissions-for-a-web-application)
 

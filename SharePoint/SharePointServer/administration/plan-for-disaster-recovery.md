@@ -7,23 +7,24 @@ ms.date: 3/10/2018
 ms.audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_server
+- Strat_SP_server
+ms.custom: 
 ms.assetid: 723dba65-4887-4ef2-9971-c51c8669cbac
-description: "Summary: Understand the disaster recovery options and supported technologies for recovering a SharePoint Server 2016 and SharePoint 2013 farm if there is a disaster."
+description: "Understand the disaster recovery options and supported technologies for recovering a SharePoint Server farm if there is a disaster."
 ---
 
 # Choose a disaster recovery strategy for SharePoint Server
 
- **Summary:** Understand the disaster recovery options and supported technologies for recovering a SharePoint Server 2016 and SharePoint 2013 farm if there is a disaster. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 We define disaster recovery as the ability to recover from a situation in which the primary data center that hosts a SharePoint Server farm is unable to continue to operate. Regardless of the nature of event and its cause, the data center outage is significant enough to set into motion the actions defined in your organization's disaster recovery plan. This means putting a fully operational farm into production using computer resources that are located in a data center that is not affected by the event.
   
     
-SharePoint Server 2016 and SQL Server 2014 with Service Pack 1 (SP1) or SQL Server 2016, and SharePoint 2013 and SQL Server 2008 R2 with Service Pack 1 (SP1) or SQL Server 2012 provide configuration and content recovery options that can meet the Recovery Time Objective (RTO) and Recovery Point Objective (RPO) that are required for your business if there is a disaster. For more information about these and other disaster recovery concepts, see [High availability and disaster recovery concepts in SharePoint Server](high-availability-and-disaster-recovery-concepts.md).
+SharePoint Servers 2019, 2016, 2013, and the SQL Servers that support them provide configuration and content recovery options that can meet the Recovery Time Objective (RTO) and Recovery Point Objective (RPO) that are required for your business if there is a disaster. For more information about these and other disaster recovery concepts, see [High availability and disaster recovery concepts in SharePoint Server](high-availability-and-disaster-recovery-concepts.md).
   
 ## Introduction
 <a name="Intro"> </a>
@@ -41,7 +42,7 @@ Downtime costs vary significantly between and within industries, especially due 
     
 Most organizations will incur a downtime cost from both of the previous types of loss but the nature of the business will determine which type of loss has the biggest effect. The following article, written by Chris Preimesberger at eWEEK, highlights the financial effect of data center downtime. [Unplanned IT Downtime Can Cost $5K Per Minute: Report](https://go.microsoft.com/fwlink/p/?LinkId=272806).
   
-In most scenarios, SharePoint products is one of several applications that must be recovered in the event of a data center shutdown that qualifies as a disaster. For this reason we have not included information about disaster recovery planning but focus on options for making sure that you can recover your SharePoint Server 2016 farm at another location.
+In most scenarios, SharePoint products is one of several applications that must be recovered in the event of a data center shutdown that qualifies as a disaster. For this reason we have not included information about disaster recovery planning but focus on options for making sure that you can recover your SharePoint Server farm at another location.
   
 Regardless of the type and scale of a disaster, recovery involves the use of a standby data center that you can recover the farm to.
   
@@ -64,7 +65,7 @@ Each of these standby data centers has specific characteristics and requirements
     
     **Cons:** The slowest option to recover. 
     
-- Warm standby disaster recovery strategy: A business ships backups or virtual machine images to local and regional disaster recovery farms.
+- Warm standby disaster recovery strategy with [Azure Site Recovery](https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-sharepoint).
     
     **Pros:** Often fairly inexpensive to recover, because a virtual server farm can require little configuration upon recovery. 
     
@@ -81,7 +82,7 @@ Each of these standby data centers has specific characteristics and requirements
   
 ### Cold standby recovery
 
-In a cold standby disaster recovery scenario, you recover by setting up a new farm in a new location, (preferably by using a scripted deployment), and restoring backups. Or, you can recover by restoring the farm using a backup solution such as System Center 2016 - Data Protection Manager (DPM) or System Center 2012 - Data Protection Manager (DPM). System Center Data Protection Manager protects your data at the computer operating system level and lets you restore each server individually. This article does not contain detailed instructions for how to create and recover in cold standby scenarios. For more information, see:
+In a cold standby disaster recovery scenario, you recover by setting up a new farm in a new location (preferably by using a scripted deployment) and restoring backups. Or, you can recover by restoring the farm using a backup solution such as System Center - Data Protection Manager (DPM). DPM protects your data at the computer operating system level and lets you restore each server individually. This article does not contain detailed instructions for how to create and recover in cold standby scenarios. For more information, see:
   
 - [Overview of backup and recovery in SharePoint Server](backup-and-recovery-overview.md)
     
@@ -115,14 +116,14 @@ In a hot standby disaster recovery scenario, you set up a failover farm in the s
     > [!NOTE]
     > SQL Server mirroring can only be used to copy databases to a single mirror server, but you can log-ship to multiple secondary servers. 
   
-    The SQL Server database mirroring feature will be removed in future versions. We recommend that you avoid using this feature in new development work. Plan to change applications that currently use this feature. Use AlwaysOn Availability Groups instead.
+    The SQL Server database mirroring feature will be removed in future versions. We recommend that you avoid using this feature in new deployments. Plan to change applications that currently use this feature. Use AlwaysOn Availability Groups instead.
     
 - Service applications vary in whether they can be log-shipped to a farm. For more information, see [Service application redundancy](#ServiceAppRedundancy) later in this article. 
     
 The hot standby farm topology can be repeated across more than one data center, as long as you configure SQL Server log shipping to one or more additional data centers.
   
 > [!IMPORTANT]
-> Available network bandwidth and latency are major considerations when you are using a failover approach for disaster recovery. We recommend that you consult with your SAN vendor to determine whether you can use SAN replication or another supported mechanism to provide the hot standby level of availability across data centers. 
+> Available network bandwidth and latency are major considerations when you are using a failover approach for disaster recovery. We recommend that you consult with your SAN vendor to determine whether you can use SAN replication for SQL databases or another supported mechanism to provide the hot standby level of availability across data centers. Note that using SAN replication for SharePoint servers is not supported.
   
 ### Service application redundancy
 <a name="ServiceAppRedundancy"> </a>
@@ -163,3 +164,8 @@ In addition to the previous requirements, farm recovery time will also be affect
 
 [High availability and disaster recovery concepts in SharePoint Server](high-availability-and-disaster-recovery-concepts.md)
 
+#### Other Resources
+
+[What workloads can you protect with Azure Site Recovery?](/azure/site-recovery/site-recovery-workload)
+
+[Replicate a multi-tier SharePoint application for disaster recovery using Azure Site Recovery](/azure/site-recovery/site-recovery-sharepoint)

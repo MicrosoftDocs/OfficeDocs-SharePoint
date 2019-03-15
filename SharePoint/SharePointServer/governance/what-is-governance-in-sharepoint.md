@@ -7,18 +7,19 @@ ms.date: 3/1/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_gtc
+- Strat_SP_gtc
+ms.custom: 
 ms.assetid: df399658-84ac-4ca6-aaf4-378eef361cbb
-description: "Summary: Learn about governance as an essential part of a successful SharePoint deployment and the various components of an organizational governance plan."
+description: "Learn about governance as an essential part of a successful SharePoint deployment and the various components of an organizational governance plan."
 ---
 
 # What is governance in SharePoint?
 
- **Summary:** Learn about governance as an essential part of a successful SharePoint deployment and the various components of an organizational governance plan. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 Governance is the set of policies, roles, responsibilities, and processes that control how an organization's business divisions and IT teams work together to achieve its goals. Every organization has unique needs and goals that influence its approach to governance. Larger organizations will probably require more—and more detailed—governance than smaller organizations. A good governance plan can:
   
@@ -29,7 +30,7 @@ Governance is the set of policies, roles, responsibilities, and processes that c
 - Help ensure the best return on your investment in technology.
     
 > [!NOTE]
-> The What is governance? poster gives a summary of this content. Download the [PDF version](https://go.microsoft.com/fwlink/?LinkId=331051) or [Visio version](https://go.microsoft.com/fwlink/?LinkId=331050), or [Zoom into the model in full detail with Zoom.it from Microsoft](https://go.microsoft.com/fwlink/?LinkId=331052). 
+> The What is governance? poster gives a summary of this content. Download the [PDF version](https://go.microsoft.com/fwlink/?LinkId=331051) or [Visio version](https://go.microsoft.com/fwlink/?LinkId=331050).
   
 ## Governance team
 <a name="GovernanceTeam"> </a>
@@ -88,7 +89,7 @@ An effective governance plan anticipates the needs and goals of your organizatio
 [Application management and governance in SharePoint](application-management-and-governance-in-sharepoint.md)
 #### Other Resources
 
-[Governance planning in SharePoint](http://technet.microsoft.com/library/6cc9bc45-64aa-4e4c-8f2a-7831d6d89db9%28Office.14%29.aspx)
+[Governance planning in SharePoint](/previous-versions/office/sharepoint-server-2010/ff598584(v=office.14))
   
 [What is governance poster (Visio format)](https://go.microsoft.com/fwlink/?LinkId=331050)
   

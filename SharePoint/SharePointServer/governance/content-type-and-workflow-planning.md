@@ -9,12 +9,12 @@ ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 7af845bc-f245-459f-871d-0ee06c64a184
-description: "Summary: Learn how to integrate content types and workflows into your SharePoint Server document management solution."
+description: "Learn how to integrate content types and workflows into your SharePoint Server document management solution."
 ---
 
 # Plan content types and workflows in SharePoint Server
 
- **Summary:** Learn how to integrate content types and workflows into your SharePoint Server document management solution. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 This article describes content types and workflows and provides guidance about how to plan to integrate them into your SharePoint Server document management solution. A content type is a reusable collection of metadata (columns), workflow, behavior, and other settings for a category of items or documents in a SharePoint Server list or document library. Content types enable you to manage the settings for a category of information in a centralized, reusable way. A workflow lets you attach a business process to items in SharePoint Server. 
   
@@ -93,7 +93,7 @@ You can define views in a list or library that are available only in folders of 
   
 By using the SharePoint Server object model, you can customize the **New** command for a folder content type so that when a user creates a new folder of that type, the folder is prepopulated with multiple files and documents based on templates that are stored on the server. This is useful, for example, for implementing a compound document type that requires multiple files to contribute to a single deliverable document. 
   
-Document sets is a feature in SharePoint Server that lets you use Office to manage deliverables that span multiple documents. Document sets are special kinds of folders that are used to manage a single deliverable, or work product, which can include multiple documents in multiple locations. You create document sets by using extensible templates that are provided with SharePoint Server. You can also customize Document Set templates to represent the work products that are relevant to your organization. Document sets also include version control, which lets you capture the status of the complete document set at various points in its life cycle. For more information about document sets, see [Plan document sets in SharePoint Server 2013](http://technet.microsoft.com/library/41f29775-f3f6-4eb7-ab2f-56f9fe331f8a%28Office.14%29.aspx).
+Document sets is a feature in SharePoint Server that lets you use Office to manage deliverables that span multiple documents. Document sets are special kinds of folders that are used to manage a single deliverable, or work product, which can include multiple documents in multiple locations. You create document sets by using extensible templates that are provided with SharePoint Server. You can also customize Document Set templates to represent the work products that are relevant to your organization. Document sets also include version control, which lets you capture the status of the complete document set at various points in its life cycle. For more information about document sets, see [Plan document sets in SharePoint Server 2013](/previous-versions/office/sharepoint-server-2010/ff603637(v=office.14)).
   
 ## Plan document content types
 <a name="PlanDocContentTypes"> </a>

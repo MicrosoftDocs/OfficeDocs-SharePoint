@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: a6a42ac0-abad-44ce-98f3-508c531a29b2
-description: "Summary: Learn about the types of navigation controls that are available in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn about the types of navigation controls that are available in SharePoint Server."
 ---
 
 # Overview of site navigation in SharePoint Server
 
- **Summary:** Learn about the types of navigation controls that are available in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 Site navigation are the sets of controls and links in your site collections, sites and pages that help orient users to where they are and help them easily get to other relevant locations. For example, you can configure site navigation to help users get to other sites in the site collection or you can configure it so that the top navigation and the vertical navigation controls are dynamically generated based on context of what the user is looking at. A well planned site navigation strategy make SharePoint Server sites easier to use.
   

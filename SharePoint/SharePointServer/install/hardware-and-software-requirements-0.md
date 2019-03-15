@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: a88d3f72-7ac3-4f08-b302-c4ca0a796268
-description: "Summary: Lists the minimum hardware and software requirements to install and run SharePoint 2013."
+description: "Lists the minimum hardware and software requirements to install and run SharePoint."
 ---
 
 # Hardware and software requirements for SharePoint 2013
 
- **Summary:** Lists the minimum hardware and software requirements to install and run SharePoint 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 > [!IMPORTANT]
 > If you contact Microsoft Customer Support Services about a production system that does not meet the minimum hardware specifications described in this document, support will be limited until the system is upgraded to the minimum requirements. 
@@ -36,16 +36,16 @@ SharePoint 2013 provides for several installation scenarios. Currently, these in
 
 If you plan to use capabilities that are offered through SharePoint 2013 or through other integration channels, such as SQL Server or Exchange Server, you also need to meet the hardware and software requirements that are specific to that capability. The following list provides links to hardware and software requirements for some SharePoint 2013 capabilities:
   
-- [Hardware and software requirements (Project Server 2013)](http://technet.microsoft.com/library/32d82f51-546a-42a3-ade5-54cc4dfdcb87.aspx)
+- [Hardware and software requirements (Project Server 2013)](/project/hardware-and-software-requirements-for-project-server-2013)
     
 - For eDiscovery, each front-end web server must have the Exchange Web Services Managed API, version 1.2 installed. For more information, see the following articles:
     
   - [Configure eDiscovery in SharePoint Server](../governance/configure-ediscovery-0.md)
     
-  - [Configure Exchange for SharePoint eDiscovery Center](https://technet.microsoft.com/en-us/library/jj218665%28v=exchg.150%29)
+  - [Configure Exchange for SharePoint eDiscovery Center](/exchange/configure-exchange-for-sharepoint-ediscovery-center-exchange-2013-help)
     
     
-- Hardware requirements for search in UNRESOLVED_TOKEN_VAL(SharePoint Server 2013):
+- Hardware requirements for search in SharePoint Server 2013:
     
   - [Step 3: Which hardware requirements should I be aware of?](../search/plan-enterprise-search-architecture.md#BKMK_AssignHW)
     
@@ -111,7 +111,7 @@ The requirements in the following section apply to the following installations:
 The Microsoft SharePoint Products Preparation Tool can assist you in the installation of the software prerequisites for SharePoint 2013. Ensure that you have an Internet connection, because some prerequisites are installed from the Internet. For more information about how to use the Microsoft SharePoint Products Preparation Tool, see [Install SharePoint 2013 across multiple servers for a three-tier farm](multiple-servers-for-a-three-tier-farm.md) and [Install SharePoint 2013 across multiple servers for a three-tier farm](multiple-servers-for-a-three-tier-farm.md).
   
 > [!NOTE]
-> SQL Server 2014 requires the May 2014 Cumulative Update to be installed. To install the May 2014 Cumulative Update see [Updates to SharePoint 2013](https://technet.microsoft.com/en-us/jj891062). 
+> SQL Server 2014 requires the May 2014 Cumulative Update to be installed. To install the May 2014 Cumulative Update see [Updates to SharePoint 2013](/officeupdates/). 
   
 > [!NOTE]
 > At this time, SQL Server 2016 RTM is not supported. 
@@ -153,7 +153,7 @@ Minimum requirements for a single server with built-in database:
 - The 64-bit edition of Windows Server 2008 R2 Service Pack 1 (SP1) Standard, Enterprise, or Datacenter or the 64-bit edition of Windows Server 2012 R2 Standard or Datacenter
     
     > [!NOTE]
-    > Windows Server 2012 R2 is only supported on a UNRESOLVED_TOKEN_VAL(SharePoint Server 2013) Service Pack 1 environment. For additional information about Windows Server 2012 R2 support, see [SharePoint 2013 SP1 support in Windows Server 2012 R2](https://support.microsoft.com/kb/2891274/en-us). 
+    > Windows Server 2012 R2 is only supported on a SharePoint Server 2013 Service Pack 1 environment. For additional information about Windows Server 2012 R2 support, see [SharePoint 2013 SP1 support in Windows Server 2012 R2](https://support.microsoft.com/kb/2891274/en-us). 
   
 - The SharePoint parsing process crashes in Windows Server 2008 R2 (KB 2554876)
     
@@ -192,6 +192,9 @@ Minimum requirements for a single server with built-in database:
   - Windows Server AppFabric
     
   - Cumulative Update Package 1 for Microsoft AppFabric 1.1 for Windows Server (KB 2671763)
+  
+    >[!NOTE]
+    >The required software above will be supported when used by SharePoint via the SharePoint Product Lifecycle.
     
 Minimum requirements for front-end web servers and application servers in a farm:
   
@@ -201,7 +204,7 @@ Minimum requirements for front-end web servers and application servers in a farm
 - The 64-bit edition of Windows Server 2008 R2 Service Pack 1 (SP1) Standard, Enterprise, or Datacenter or the 64-bit edition of Windows Server 2012 R2 Standard or Datacenter.
     
     > [!NOTE]
-    > Windows Server 2012 R2 is only supported on a UNRESOLVED_TOKEN_VAL(SharePoint Server 2013) Service Pack 1 environment. For additional information about Windows Server 2012 R2 support, see [SharePoint 2013 SP1 support in Windows Server 2012 R2](https://support.microsoft.com/kb/2891274/en-us). 
+    > Windows Server 2012 R2 is only supported on a SharePoint Server 2013 Service Pack 1 environment. For additional information about Windows Server 2012 R2 support, see [SharePoint 2013 SP1 support in Windows Server 2012 R2](https://support.microsoft.com/kb/2891274/en-us). 
   
 - The SharePoint parsing process crashes in Windows Server 2008 R2 (KB 2554876) 
     
@@ -258,7 +261,7 @@ The following are the minimum SharePoint 2013 services and service applications 
     
 - Secure Store Service
     
-- User Profile service application (UNRESOLVED_TOKEN_VAL(SharePoint Server 2013) only)
+- User Profile service application (SharePoint Server 2013 only)
     
 ## Optional software
 <a name="OptionalSoftware"> </a>
@@ -335,7 +338,7 @@ In scenarios where installing prerequisites directly from the Internet is not po
     
 - Microsoft SQL Server 2012 with Service Pack 1 (SP1) LocalDB 64-bit edition, which is also a component of SQL Server 2012 with Service Pack 1 (SP1) Express - [ENU\x64\SqlLocalDB.msi](http://go.microsoft.com/fwlink/p/?LinkId=262352)
     
-- [Microsoft SQL Server 2014](https://technet.microsoft.com/en-us/sqlserver/dn135309.aspx)
+- [Microsoft SQL Server 2014](/sql/sql-server/sql-server-technical-documentation?view=sql-server-2017)
     
 ## Prerequisite installer operations and command-line options
 <a name="section7"> </a>

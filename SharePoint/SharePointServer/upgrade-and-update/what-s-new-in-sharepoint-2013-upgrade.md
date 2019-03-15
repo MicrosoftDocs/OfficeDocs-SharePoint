@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 2a78e133-5228-4ab6-9d9b-cf318c0e3883
-description: "Summary: SharePoint 2013 includes new upgrade features, such as upgrade for service applications, a site health checker, and upgrade for site collections."
+description: "SharePoint 2013 includes new upgrade features, such as upgrade for service applications, a site health checker, and upgrade for site collections."
 ---
 
 # What's new in SharePoint 2013 upgrade
 
- **Summary: ** SharePoint 2013 includes new upgrade features, such as upgrade for service applications, a site health checker, and upgrade for site collections. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 SharePoint 2013 does not support in-place upgrade for an existing environment. You must use the database-attach upgrade method to upgrade your databases to a new environment that is based on SharePoint 2013. Also, to provide more flexibility to farm administrators and site administrators, the upgrade process has changed to separate upgrade of the software and databases from upgrade of the sites. 
   
@@ -74,27 +74,27 @@ For more information, see [Services upgrade overview from SharePoint 2010 to Sha
 ## Deferred site collection upgrade
 <a name="SiteCollUpgrade"> </a>
 
-In SharePoint 2010 Products, farm administrators use either the in-place upgrade process to upgrade sites immediately, or the command line to upgrade all sites at the same time or individually. In SharePoint 2013, farm administrators can now allow site collection owners to upgrade their sites to the new user interface on their own timeline. The commands for upgrading a site collection are on the Site Settings page in the Site Collection Administration section. There are also Microsoft PowerShell cmdlets to upgrade site collections to the new user interface. For more information, see [Plan for site collection upgrades in SharePoint 2013](http://technet.microsoft.com/library/e7455e3f-6770-4785-8d3e-da72cb7de261%28Office.14%29.aspx), [Upgrade a site collection to SharePoint 2013](upgrade-a-site-collection-to-sharepoint-2013.md) and [Manage site collection upgrades (SharePoint 2013 Products)](http://technet.microsoft.com/library/550e4018-54a3-4e34-a647-7797b4244e80.aspx).
+In SharePoint 2010 Products, farm administrators use either the in-place upgrade process to upgrade sites immediately, or the command line to upgrade all sites at the same time or individually. In SharePoint 2013, farm administrators can now allow site collection owners to upgrade their sites to the new user interface on their own timeline. The commands for upgrading a site collection are on the Site Settings page in the Site Collection Administration section. There are also Microsoft PowerShell cmdlets to upgrade site collections to the new user interface. For more information, see [Plan for site collection upgrades in SharePoint 2013](/previous-versions/office/sharepoint-server-2010/ff191199(v=office.14)), [Upgrade a site collection to SharePoint 2013](upgrade-a-site-collection-to-sharepoint-2013.md) and [Manage site collection upgrades (SharePoint 2013 Products)](/SharePoint/upgrade-and-update/manage-site-collection-upgrades-to-sharepoint-2013).
   
 ## Site collection health checker
 <a name="HealthChecker"> </a>
 
-Site collection owners or administrators can use a site collection health checker to detect any potential issues with their site collections and address them before they upgrade sites to the new version. The checker is available after upgrade also to detect any health issues on an ongoing basis. Note that some issues can be repaired automatically, but others require manual steps to repair. During a site collection upgrade, if the checker finds issues that can be repaired automatically, they are repaired at that time. For more information, see [Run site collection health checks in SharePoint 2013](http://technet.microsoft.com/library/b22bc7aa-3ce5-4529-96c2-8d0cc59d4148%28Office.14%29.aspx).
+Site collection owners or administrators can use a site collection health checker to detect any potential issues with their site collections and address them before they upgrade sites to the new version. The checker is available after upgrade also to detect any health issues on an ongoing basis. Note that some issues can be repaired automatically, but others require manual steps to repair. During a site collection upgrade, if the checker finds issues that can be repaired automatically, they are repaired at that time. For more information, see [Run site collection health checks in SharePoint 2013](/SharePoint/sharepoint-server).
   
 ## Upgrade evaluation site collections
 <a name="EvalSites"> </a>
 
-In SharePoint 2013, the upgrade of the software and data was separated from the upgrade of the site. This means that the sites can truly remain running in SharePoint 2010 mode until a site owner or administrator explicitly upgrades the site to the new user interface. Site collection owners can request an evaluation site, which is a separate copy of the site, to review the new interface and functionality. After they have reviewed the site and made necessary changes in their original site, they can then upgrade their sites to the new version. Evaluation sites are set to automatically expire and be deleted. For more information, see [Plan for site collection upgrades in SharePoint 2013](http://technet.microsoft.com/library/e7455e3f-6770-4785-8d3e-da72cb7de261%28Office.14%29.aspx#EvalSites), [Upgrade a site collection](upgrade-a-site-collection.md), and [Manage site collection upgrades (SharePoint 2013 Products)](http://technet.microsoft.com/library/550e4018-54a3-4e34-a647-7797b4244e80.aspx).
+In SharePoint 2013, the upgrade of the software and data was separated from the upgrade of the site. This means that the sites can truly remain running in SharePoint 2010 mode until a site owner or administrator explicitly upgrades the site to the new user interface. Site collection owners can request an evaluation site, which is a separate copy of the site, to review the new interface and functionality. After they have reviewed the site and made necessary changes in their original site, they can then upgrade their sites to the new version. Evaluation sites are set to automatically expire and be deleted. For more information, see [Plan for site collection upgrades in SharePoint 2013](/previous-versions/office/sharepoint-server-2010/ff191199(v=office.14)#EvalSites), [Upgrade a site collection](upgrade-a-site-collection.md), and [Manage site collection upgrades (SharePoint 2013 Products)](/SharePoint/upgrade-and-update/manage-site-collection-upgrades-to-sharepoint-2013).
   
 ## Notifications for life-cycle events
 <a name="Notifications"> </a>
 
-An email message and a status bar notification in a site collection notifies site collection owners when an upgrade is available. Site collection owners can create an evaluation site from email and control the expiration and deletion of that site by using email also. A status bar notification in the site collection also informs all users if a site is in read-only mode. For more information, see [Plan for site collection upgrades in SharePoint 2013](http://technet.microsoft.com/library/e7455e3f-6770-4785-8d3e-da72cb7de261%28Office.14%29.aspx#Notifications) and [Manage site collection upgrades (SharePoint 2013 Products)](http://technet.microsoft.com/library/550e4018-54a3-4e34-a647-7797b4244e80.aspx).
+An email message and a status bar notification in a site collection notifies site collection owners when an upgrade is available. Site collection owners can create an evaluation site from email and control the expiration and deletion of that site by using email also. A status bar notification in the site collection also informs all users if a site is in read-only mode. For more information, see [Plan for site collection upgrades in SharePoint 2013](/previous-versions/office/sharepoint-server-2010/ff191199(v=office.14)#Notifications) and [Manage site collection upgrades (SharePoint 2013 Products)](/SharePoint/upgrade-and-update/manage-site-collection-upgrades-to-sharepoint-2013).
   
 ## Throttles for site collection upgrade
 <a name="Notifications"> </a>
 
-To make sure that site collection upgrades do not cause an outage on your farm, there are throttles built in at the web application, database, and content level. This means that even if 100 site collection owners decide to upgrade their site collections at the same time, only some are run at the same time, and the rest are put into a queue to run later. For more information, see [Plan for site collection upgrades in SharePoint 2013](http://technet.microsoft.com/library/e7455e3f-6770-4785-8d3e-da72cb7de261%28Office.14%29.aspx#Throttling) and [Manage site collection upgrades (SharePoint 2013 Products)](http://technet.microsoft.com/library/550e4018-54a3-4e34-a647-7797b4244e80.aspx).
+To make sure that site collection upgrades do not cause an outage on your farm, there are throttles built in at the web application, database, and content level. This means that even if 100 site collection owners decide to upgrade their site collections at the same time, only some are run at the same time, and the rest are put into a queue to run later. For more information, see [Plan for site collection upgrades in SharePoint 2013](/previous-versions/office/sharepoint-server-2010/ff191199(v=office.14)#Throttling) and [Manage site collection upgrades (SharePoint 2013 Products)](/SharePoint/upgrade-and-update/manage-site-collection-upgrades-to-sharepoint-2013).
   
 ## True "SharePoint 2010" instead of visual upgrade
 <a name="SiteMode"> </a>
@@ -121,7 +121,7 @@ SharePoint 2013 can host sites in both SharePoint 2010 and SharePoint 2013 modes
     
     Note that existing SharePoint 2010 Products solutions can be deployed to SharePoint 2013 and continue to function for 2010 sites, usually without requiring any changes. 
     
-Because of these directories, you can continue hosting unupgraded sites in an upgraded environment until all site collections are ready to upgrade. For more information, see [Plan for site collection upgrades in SharePoint 2013](http://technet.microsoft.com/library/e7455e3f-6770-4785-8d3e-da72cb7de261%28Office.14%29.aspx#SiteModes).
+Because of these directories, you can continue hosting unupgraded sites in an upgraded environment until all site collections are ready to upgrade. For more information, see [Plan for site collection upgrades in SharePoint 2013](/previous-versions/office/sharepoint-server-2010/ff191199(v=office.14)#SiteModes).
   
 ## Log files now in ULS format
 <a name="SiteMode"> </a>

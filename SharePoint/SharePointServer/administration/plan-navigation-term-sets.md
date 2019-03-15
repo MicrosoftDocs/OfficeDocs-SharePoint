@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 16fdd865-105f-47e6-8a3a-6b37092a463c
-description: "Summary: Learn how to create the navigation term set to provide site navigation for SharePoint Server publishing sites."
+description: "Learn how to create the navigation term set to provide site navigation for SharePoint Server publishing sites."
 ---
 
 # Plan navigation term sets in SharePoint Server
 
- **Summary:** Learn how to create the navigation term set to provide site navigation for SharePoint Server publishing sites. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 The managed navigation feature in SharePoint Server and SharePoint Online enables you to build navigation for a publishing site that is derived from a SharePoint Server managed metadata taxonomy. If your publishing site uses managed navigation, then a navigation term set is associated with the site. You can configure the global navigation control and the current navigation control to use the navigation term set to determine what to display. This article explains the information that you will need to provide for each node in the navigation hierarchy, explains how to record this information in a worksheet, and provides links to other articles that explain how to implement your plan.
   
@@ -40,29 +40,29 @@ On the worksheet, in the **Navigation term** column, enter the navigation hierar
     
   - Cameras
     
-  - Digital
+    - Digital
     
-  - Film
+    - Film
     
   - Computers
     
-  - Laptop
+    - Laptop
     
-  - Gaming
+      - Gaming
     
-  - High-performance
+      - High-performance
     
-  - Ultra-light
+      - Ultra-light
     
-  - Slate
+    - Slate
     
-  - Desktop
+    - Desktop
     
   - Printers
     
-  - Inkjet
+    - Inkjet
     
-  - Laser
+    - Laser
     
 - Customer service
     
@@ -72,7 +72,7 @@ On the worksheet, in the **Navigation term** column, enter the navigation hierar
     
   - Press releases
     
-  - Contact us
+    - Contact us
     
 **Table: Sample navigation term set**
 

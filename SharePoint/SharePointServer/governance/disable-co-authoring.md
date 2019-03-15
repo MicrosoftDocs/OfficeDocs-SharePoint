@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 7d2cbe64-5888-415e-81be-98b6921929de
-description: "Summary: Learn how to disable co-authoring functionality in SharePoint Server by using Group Policy or by using PowerShell."
+description: "Learn how to disable co-authoring functionality in SharePoint Server by using Group Policy or by using PowerShell."
 ---
 
 # Disable co-authoring in SharePoint Server
 
- **Summary:** Learn how to disable co-authoring functionality in SharePoint Server by using Group Policy or by using PowerShell. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 Co-authoring in SharePoint Server makes it possible for multiple users to work on a document, at any time, without interfering with each other's changes. Although we have engineered co-authoring to be scalable and efficient, some organizations that have hardware limitations may want to turn off co-authoring to minimize any additional effects on server performance. 
   
@@ -24,7 +24,7 @@ This article describes how to disable co-authoring functionality in SharePoint S
 
 There are three ways to disable co-authoring:
   
-- You can use Group Policy to disable co-authoring functionality on the client-side. For more information, see [Group Policy overview for Office 2013](http://technet.microsoft.com/library/c8cec707-2afa-4964-b0f8-611e4709bd79.aspx).
+- You can use Group Policy to disable co-authoring functionality on the client-side. For more information, see [Group Policy overview for Office 2013](/previous-versions/office/office-2013-resource-kit/cc179176(v=office.15)).
     
 - You can use Microsoft PowerShell to set the DisableCoauthoring server property. This disables the co-authoring property for Word and PowerPoint documents on the server. This property applies to documents or presentations that are authored in Word 2010, Word 2013, Word Online, PowerPoint 2010, PowerPoint 2013 and PowerPoint Web App.
     
@@ -65,7 +65,7 @@ Procedures in this task:
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see Permissions and [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see Permissions and [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Paste the following code into a text editor, such as Notepad:
     
@@ -110,7 +110,7 @@ Procedures in this task:
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see Permissions and [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see Permissions and [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Paste the following code into a text editor, such as Notepad:
     

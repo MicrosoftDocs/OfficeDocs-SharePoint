@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: e580fcae-b768-4b81-afda-c037fbd7bd6d
-description: "Summary: Learn about the decisions you need to make when planning for the managed metadata service in SharePoint Server."
+description: "Learn about the decisions you need to make when planning for the managed metadata service in SharePoint Server."
 ---
 
 # Plan for managed metadata in SharePoint Server
 
- **Summary:** Learn about the decisions you need to make when planning for the managed metadata service in SharePoint Server. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 With managed metadata in SharePoint Server, you can create a unified taxonomy of terms that you can use throughout your SharePoint farm. In this article, we walk through the configuration decisions that you need to make before you configure the managed metadata service application in SharePoint Server.
   
@@ -87,4 +87,7 @@ In addition to sharing managed metadata, you can also use the managed metadata s
   
 Before you configure managed metadata in SharePoint, decide if you want to create a content type hub. (You can also add one later.)
   
+## See also
+<a name="SeeAlso"> </a>
+For the SharePoint Online version of this article, see [Introduction to managed metadata](https://docs.microsoft.com/sharepoint/managed-metadata).
 

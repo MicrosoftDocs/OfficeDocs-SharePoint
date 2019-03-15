@@ -3,7 +3,6 @@ title: "Back up databases to snapshots in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 9/13/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -12,12 +11,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 101dd661-8843-4b98-bab7-89c14abe65b8
-description: "Summary: Learn how to back up databases to snapshots in SharePoint Server 2016 and SharePoint Server 2013 by using SQL Server Enterprise."
+description: "Learn how to back up databases to snapshots in SharePoint Server by using SQL Server Enterprise."
 ---
 
 # Back up databases to snapshots in SharePoint Server
 
- **Summary:** Learn how to back up databases to snapshots in SharePoint Server 2016 and SharePoint Server 2013 by using SQL Server Enterprise. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 You can only back up databases to snapshots in SharePoint Server by using SQL Server Enterprise tools.
   
@@ -52,14 +51,14 @@ If you want to back up databases to snapshots, you must use SQL Server tools. Th
     
 5. Copy the following text, and then paste it to the query pane.
     
-  ```
-  CREATE DATABASE <snapshot name>
-  ON
-  (
-  NAME=<logical name of the database file>,
-  FILENAME = 'c:\WSS_Backup1.ss')
-  AS SNAPSHOT OF <database name>;
-  ```
+   ```sql
+   CREATE DATABASE <snapshot name>
+   ON
+   (
+   NAME=<logical name of the database file>,
+   FILENAME = 'c:\WSS_Backup1.ss')
+   AS SNAPSHOT OF <database name>;
+   ```
 
 ## See also
 <a name="proc1"> </a>

@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 73ceb46e-d3aa-45bd-ac3e-77f58a9ab34d
-description: "Summary: Learn how to import user profiles from Active Directory to SharePoint Server 2013 and SharePoint Server 2016 by using the Active Directory import tool for user profiles."
+description: "Learn how to import user profiles from Active Directory to SharePoint Server by using the Active Directory import tool for user profiles."
 ---
 
 # Configure profile synchronization by using SharePoint Active Directory Import in SharePoint Server
 
- **Summary:** Learn how to import user profiles from Active Directory to SharePoint Server 2013 and SharePoint Server 2016 by using the Active Directory import tool for user profiles. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 You can use the SharePoint Active Directory import option (AD import) as an alternative to using Microsoft Identity Manager (MIM) to import user profile data from Active Directory Domain Services (AD DS) in your domain.
   
@@ -45,7 +45,7 @@ Consider the following situations and note what the AD import option does not su
     
   - If you have a trust between two forests, the trusted forest objects will not be imported.
     
-  - If you need to import users from multiple domains, you must create multiple synchronization connections. If you have multiple domains to manage, using MIM.
+  - AD import does support importing users from multiple forests provided you create one synchronization connection per forest. As an alternative, consider using Microsoft Identity Manager.
     
 - The AD import option does not support Contact objects (also known as cross-object pointers).
     
@@ -195,5 +195,5 @@ To import profiles, you must have at least one synchronization connection to AD 
 [Schedule profile synchronization in SharePoint Server](schedule-profile-synchronization.md)
 #### Other Resources
 
-[Update-SPProfilePhotoStore](http://technet.microsoft.com/library/023652c5-e25d-493e-91a3-df5a0dc1b166.aspx)
+[Update-SPProfilePhotoStore](/powershell/module/sharepoint-server/Update-SPProfilePhotoStore?view=sharepoint-ps)
 

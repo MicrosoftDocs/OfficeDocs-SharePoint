@@ -7,20 +7,20 @@ ms.date: 03/15/2019
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-ms.custom:
 - Strat_O365_Enterprise
+ms.custom:
 - Ent_TLGs
 ms.assetid: 056e74ea-9428-45f8-abed-1040d8e413dd
-description: "Summary: Create a single-server SharePoint 2016 dev/test farm in Microsoft Azure infrastructure services."
+description: "Create a single-server SharePoint 2016 dev/test farm in Microsoft Azure infrastructure services."
 ---
 
 # SharePoint Server 2016 dev/test environment in Azure
 
- **Summary:** Create a single-server SharePoint 2016 dev/test farm in Microsoft Azure infrastructure services. 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)] 
   
 This article steps you through the creation of a SharePoint Server 2016 dev/test farm hosted in Azure. Here is the resulting configuration.
   
@@ -44,7 +44,7 @@ There are three major phases to setting up this dev/test environment:
 In this phase, you create a new Azure virtual network and a domain controller with Azure PowerShell. You run the PowerShell commands from a Windows PowerShell command prompt or in the PowerShell Integrated Script Environment (ISE) on your local computer. 
   
 > [!NOTE]
-> The following command sets use the latest version of Azure PowerShell. See [Get started with Azure PowerShell cmdlets](https://docs.microsoft.com/powershell/azureps-cmdlets-docs/). 
+> The following command sets use the latest version of Azure PowerShell. See [Get started with Azure PowerShell cmdlets](/powershell/azure/overview?view=azurermps-6.13.0). 
   
 First, sign into your Azure account.
   
@@ -222,6 +222,7 @@ $vm=Set-AzVMOperatingSystem -VM $vm -Windows -ComputerName $vmName -Credential $
 $vm=Set-AzVMSourceImage -VM $vm -PublisherName MicrosoftSQLServer -Offer SQL2014SP1-WS2012R2 -Skus Standard -Version "latest"
 $vm=Add-AzVMNetworkInterface -VM $vm -Id $nic.Id
 New-AzVM -ResourceGroupName $rgName -Location $locName -VM $vm
+
 ```
 
 > [!NOTE]
@@ -428,6 +429,8 @@ From a browser on your local computer, access **http://**\<DNS name of the spVM 
 When you are ready to design a production SharePoint Server 2016 farm in Azure, see [Designing a SharePoint Server 2016 farm in Azure](designing-a-sharepoint-server-2016-farm-in-azure.md).
   
 When you are ready to deploy a production-ready, high availability SharePoint Server 2016 farm in Azure, see [Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](deploying-sharepoint-server-2016-with-sql-server-alwayson-availability-groups-in.md).
+
+To start developing Low or High Trust Addins, you must first configure an App Domain. See [Configure an environment for apps for SharePoint Server](configure-an-environment-for-apps-for-sharepoint.md).
   
 ## Stop and start the virtual machines in the farm
 
@@ -462,4 +465,4 @@ Start-AzVM -Name spVM -ResourceGroupName $rgName
   
 [Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](deploying-sharepoint-server-2016-with-sql-server-alwayson-availability-groups-in.md)
 
-[Cloud adoption Test Lab Guides (TLGs)](https://technet.microsoft.com/library/dn635308.aspx) 
+[Cloud adoption Test Lab Guides (TLGs)](/office365/enterprise/cloud-adoption-test-lab-guides-tlgs) 

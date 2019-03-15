@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: db4bea29-65fb-4c48-828a-f96502fed697
-description: "Summary: Learn about different kinds of data sources that you can use in Excel and Excel Services."
+description: "Learn about different kinds of data sources that you can use in Excel and Excel Services."
 ---
 
 # Data sources supported in Excel Services (SharePoint Server 2013)
 
- **Summary:** Learn about different kinds of data sources that you can use in Excel and Excel Services. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 You can bring data into Excel using lots of data sources and connections. Many, but not all, of the data connections that you can use in Excel are supported in Excel Services. In addition, if your organization is using Office Web Apps Server, some data sources that you can use in Excel are not supported in Excel Web App.
   
@@ -159,5 +159,5 @@ Native data is data that is imported into Excel and does not keep connections to
 [Business intelligence capabilities in Excel Service (SharePoint Server 2013)](bi-capabilities-in-excel-and-excel-services.md)
 #### Other Resources
 
-[Data authentication for Excel Services in SharePoint Server ](http://technet.microsoft.com/library/7ced238b-2866-4961-af1c-6b597a55ce7a.aspx)
+[Data authentication for Excel Services in SharePoint Server ](/SharePoint/administration/excel-services-overview)
 

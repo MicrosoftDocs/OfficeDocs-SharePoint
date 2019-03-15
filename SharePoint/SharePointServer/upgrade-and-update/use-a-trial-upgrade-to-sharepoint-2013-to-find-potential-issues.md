@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 87e7fcf5-2759-4c4f-9248-15103e9b9f64
-description: "Summary: Prepare for upgrade to SharePoint 2013 by testing the upgrade process on copies of real data."
+description: "Prepare for upgrade to SharePoint 2013 by testing the upgrade process on copies of real data."
 ---
 
 # Use a trial upgrade to SharePoint 2013 to find potential issues
 
- **Summary:** Prepare for upgrade to SharePoint 2013 by testing the upgrade process on copies of real data. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
   
 Before you start an upgrade from SharePoint 2010 Products to SharePoint 2013, you should test the upgrade process to make sure that you know exactly what you have to do to have a successful upgrade. A trial upgrade to test the process can reveal the following issues:
   
@@ -107,7 +107,7 @@ When you test by using a physical environment, you must replicate your proposed 
 ## Identify and install customizations
 <a name="Customizations"> </a>
 
-To have an accurate test process, you must find all the customizations in your current environment and copy them to the test environment. For more information about the types of customizations that you have to identify, see [Create a plan for current customizations during upgrade to SharePoint 2013](http://technet.microsoft.com/library/be1de0da-addb-4e6a-852c-0e68072d7f95%28Office.14%29.aspx). 
+To have an accurate test process, you must find all the customizations in your current environment and copy them to the test environment. For more information about the types of customizations that you have to identify, see [Create a plan for current customizations during upgrade to SharePoint 2013](/previous-versions/office/sharepoint-server-2010/cc263203(v=office.14)). 
   
 - Use the **Stsadm -o enumallwebs** operation on all content databases in your SharePoint 2010 Products environment to identify specific customizations in subsites. This operation lists an ID for each site collection and subsite in your environment and the templates that the site relies on. For more information, see [Enumallwebs: Stsadm operation](https://go.microsoft.com/fwlink/?LinkId=403887).
     
@@ -122,7 +122,7 @@ To have an accurate test process, you must find all the customizations in your c
   
 After you identify all the customizations, copy them to the appropriate servers in your test farm. Ensure that the following customizations are deployed:
   
-- Solutions - by default legacy solutions are deployed to the /14 directories. Use the **CompatibilityLevel** parameter when you install the solutions to deploy them to the /15 directories. For more information, see [Install-SPSolution](http://technet.microsoft.com/library/0133c53b-70c4-4dff-a2ae-3c94759ed25d.aspx).
+- Solutions - by default legacy solutions are deployed to the /14 directories. Use the **CompatibilityLevel** parameter when you install the solutions to deploy them to the /15 directories. For more information, see [Install-SPSolution](/powershell/module/sharepoint-server/install-spsolution?view=sharepoint-ps).
     
 - Custom Master Pages
     
@@ -193,7 +193,7 @@ Verify that the site collections that were not upgraded work as expected in 2010
   
 ### Run upgrade again, if it is necessary
 
-If you have to, you can restart the upgrade process for a database by using the **Upgrade-SPContentDatabase** Microsoft PowerShell cmdlet. For more information about this cmdlet, see [Upgrade-SPContentDatabase](http://technet.microsoft.com/library/9c7f1a52-02a7-452d-9746-a4e89aa54874.aspx). For more information, see [Restart a database-attach upgrade or a site collection upgrade to SharePoint 2013](http://technet.microsoft.com/library/391b59bc-eb1e-4f6c-aed8-5f71e6ca7ade%28Office.14%29.aspx).
+If you have to, you can restart the upgrade process for a database by using the **Upgrade-SPContentDatabase** Microsoft PowerShell cmdlet. For more information about this cmdlet, see [Upgrade-SPContentDatabase](/powershell/module/sharepoint-server/Upgrade-SPContentDatabase?view=sharepoint-ps). For more information, see [Restart a database-attach upgrade or a site collection upgrade to SharePoint 2013](/previous-versions/office/sharepoint-server-2010/ff382638(v=office.14)).
   
 ## Upgrade site collections and My Sites
 <a name="UpgradeSites"> </a>
@@ -222,7 +222,7 @@ Repeat the testing process until you are sure that you have found all the issues
 
 [Best practices for upgrading from SharePoint 2010 to SharePoint 2013](best-practices-for-upgrading-from-sharepoint-2010-to-sharepoint-2013.md)
   
-[Plan for performance during upgrade to SharePoint 2013](http://technet.microsoft.com/library/7d9c454c-9300-42e5-a79f-1064266a2393%28Office.14%29.aspx)
+[Plan for performance during upgrade to SharePoint 2013](/previous-versions/office/sharepoint-server-2010/cc262891(v=office.14))
   
 [Upgrade databases from SharePoint 2010 to SharePoint 2013](upgrade-databases-0.md)
   

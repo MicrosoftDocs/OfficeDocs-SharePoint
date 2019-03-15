@@ -13,14 +13,14 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 ms.assetid: 4045020c-6ed2-4139-84f4-4bf7d099918d
 
-description: "Summary: Learn how to plan to implement microblog features, the Newsfeed, and the Distributed Cache service in SharePoint Server 2013 and SharePoint Server 2016."
+description: "Learn how to plan to implement microblog features, the Newsfeed, and the Distributed Cache service in SharePoint Server."
 ---
 
 # Plan for feeds and the Distributed Cache service in SharePoint Server
 
- **Summary:** Learn how to plan to implement microblog features, the Newsfeed, and the Distributed Cache service in SharePoint Server 2013 and SharePoint Server 2016. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
-In SharePoint Server, microblog functionality enables users to have short, public conversations about topics they are interested in. The Newsfeed and the Distributed Cache service support this microblog functionality in SharePoint Server. .
+In SharePoint Server, microblog functionality enables users to have short, public conversations about topics they are interested in. The Newsfeed and the Distributed Cache service support this microblog functionality in SharePoint Server.
   
     
 ## Plan for the feeds
@@ -145,6 +145,6 @@ The Distributed Cache service uses the following communication ports:
 - 22236
     
 > [!NOTE]
-> If you are using more than one cache host in your server farm, you must configure the first cache host running the Distributed Cache service to allow Inbound ICMP (ICMPv4) traffic through the firewall. For more information, see [Create an Inbound ICMP Rule on Windows 8, Windows 7, Windows Vista, Windows Server 2012, Windows Server 2008, or Windows Server 2008 R2](https://technet.microsoft.com/en-us/library/jj717234.aspx). If an administrator removes the first cache host from the cluster which was configured to allow Inbound ICMP (ICMPv4) traffic through the firewall, you must configure the first server of the new cluster to allow Inbound ICMP (ICMPv4) traffic through the firewall. 
+> If you are using more than one cache host in your server farm, you must configure the first cache host running the Distributed Cache service to allow Inbound ICMP (ICMPv4) traffic through the firewall. For more information, see [Create an Inbound ICMP Rule on Windows 8, Windows 7, Windows Vista, Windows Server 2012, Windows Server 2008, or Windows Server 2008 R2](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj717234(v=ws.11)). If an administrator removes the first cache host from the cluster which was configured to allow Inbound ICMP (ICMPv4) traffic through the firewall, you must configure the first server of the new cluster to allow Inbound ICMP (ICMPv4) traffic through the firewall. 
   
 

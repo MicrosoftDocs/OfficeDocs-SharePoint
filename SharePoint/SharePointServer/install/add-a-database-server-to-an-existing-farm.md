@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 0b35af11-ad5b-4a62-922d-125194d3f606
-description: "Summary: Learn how to add a new database server to an existing SharePoint farm."
+description: "Learn how to add a new database server to an existing SharePoint farm."
 ---
 
 # Add a database server to an existing farm in SharePoint 2013
 
- **Summary:** Learn how to add a new database server to an existing SharePoint farm. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 You can add more database servers at any time to respond to business or operations requirements. Because a database server contains the farm content, which can consist of diverse types of data and can have a fast growing document collection, the size of the farm databases can grow quickly. Storage capacity is often the key reason to add more database servers. Other reasons can include adding new features, improving performance and high availability.
   
@@ -121,7 +121,7 @@ For detailed instruction, see Create a web application (SharePoint 2013).
     
   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
-    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx).
+    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 cmdlets. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
     
 3. Verify that the following conditions are true:
     
@@ -133,9 +133,9 @@ For detailed instruction, see Create a web application (SharePoint 2013).
     
 4. Determine the size of the source site collection and verify that the destination hard disk has at least three times more free space than is required for the site collection.
     
-    Use the **Get-SPSiteAdministration** cmdlet to determine the size of a site collection. For more information, see [Get-SPSiteAdministration](http://technet.microsoft.com/library/a05769b1-7559-4af4-8524-5cbcc1bd4f25.aspx)
+    Use the **Get-SPSiteAdministration** cmdlet to determine the size of a site collection. For more information, see [Get-SPSiteAdministration](/powershell/module/sharepoint-server/Get-SPSiteAdministration?view=sharepoint-ps)
     
-5. Use the **Move-SPSite** cmdlet to move a site collection from the source content database to the new content database. For more information, see [Move-SPSite](http://technet.microsoft.com/library/e3bf1b34-78b9-4643-b0dd-24444e3cffc5.aspx).
+5. Use the **Move-SPSite** cmdlet to move a site collection from the source content database to the new content database. For more information, see [Move-SPSite](/powershell/module/sharepoint-server/Move-SPSite?view=sharepoint-ps).
     
     For detailed instructions, see [Move site collections between databases in SharePoint Server](../administration/move-site-collections-between-databases.md).
     
@@ -146,7 +146,7 @@ For detailed instruction, see Create a web application (SharePoint 2013).
 
 [Deploy Windows Server 2008 R2](https://go.microsoft.com/fwlink/p/?LinkID=166501)
   
-[Install and Deploy Windows Server 2012](https://technet.microsoft.com/en-us/library/hh831620.aspx)
+[Install and Deploy Windows Server 2012](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831620(v=ws.11))
   
 [SQL Server Installation (SQL Server 2008 R2)](https://go.microsoft.com/fwlink/p/?LinkID=264940)
   

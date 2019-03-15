@@ -3,7 +3,6 @@ title: "Backup and restore best practices in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 11/23/2017
 ms.audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
@@ -12,12 +11,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: d7d2dff9-c7a9-402b-958a-d233cbacab8f
-description: "Summary: Learn how to implement best practices before you back up and restore a SharePoint Server 2016 and SharePoint 2013 farm."
+description: "Learn how to implement best practices before you back up and restore a SharePoint Server farm."
 ---
 
 # Backup and restore best practices in SharePoint Server
 
- **Summary:** Learn how to implement best practices before you back up and restore a SharePoint Server 2016 and SharePoint 2013 farm. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 Best practices for backup and restore help make sure that backup and restore operations in SharePoint Server are successful and that the environment is protected against data loss or continuity gaps.
   
@@ -34,7 +33,7 @@ In general, it is efficient to back up to a local disk on the database server in
 > [!NOTE]
 > If you cannot back up to local drives, use network drives with similar latency. Because network backups are subject to network errors, verify the backup action after it finishes. For more information, see "Backing Up to a File on a Network Share" in [Backup Devices (SQL Server)](http://go.microsoft.com/fwlink/p/?LinkID=717189&amp;clcid=0x409). 
   
-To avoid I/O bottlenecks, perform the main backup to a separate disk from the disk running SQL Server 2008 R2 with Service Pack 1 (SP1) and SQL Server 2012, SQL Server 2014 or, SQL Server 2008 R2 with Service Pack 1 (SP1) and SQL Server 2012. For more information, see [Define a Logical Backup Device for a Disk File (SQL Server)](http://go.microsoft.com/fwlink/p/?LinkID=717191&amp;clcid=0x409).
+To avoid I/O bottlenecks, perform the main backup to a separate disk from the disk running SQL Servers 2017 RTM, 2016, 2014, 2012, or 2008 R2 with Service Pack 1 (SP1). For more information, see [Define a Logical Backup Device for a Disk File (SQL Server)](http://go.microsoft.com/fwlink/p/?LinkID=717191&amp;clcid=0x409).
   
 By design, most backup jobs consume all available I/O resources to complete the job. Therefore, you might see disk queuing, which can result in greater than usual latency for I/O requests. This is typical and should not be considered a problem. For more information, see [Monitor Disk Usage](http://go.microsoft.com/fwlink/p/?LinkID=717192&amp;clcid=0x409).
   
@@ -46,7 +45,7 @@ Do not run backup jobs during times when users need access to the system. Typica
 
 Keep databases small to speed both backup and restore. For example, use multiple content databases for a web application instead of one large content database. For more information, see [Database types and descriptions in SharePoint Server](../technical-reference/database-types-and-descriptions.md). 
   
-For a graphical overview of the databases that support SharePoint Server 2016, see [Quick reference guide: SharePoint Server 2016 databases](https://doc.co/qrafhS). You can also download this SharePoint Server 2016 database poster, as either a [PDF](https://download.microsoft.com/download/D/5/D/D5DC1121-8BC5-4953-834F-1B5BB03EB691/DBrefguideSPS2016_tabloid.pdf) or [Visio](https://download.microsoft.com/download/D/5/D/D5DC1121-8BC5-4953-834F-1B5BB03EB691/DBrefguideSPS2016_tabloid.vsdx) file. 
+For a graphical overview of the databases that support SharePoint Server 2016, see [Quick reference guide: SharePoint Server 2016 databases](/SharePoint/technical-reference/technical-diagrams#sharepoint-server-2016-databases). 
   
 ### Use incremental backups for large databases
 
@@ -140,14 +139,14 @@ Use PowerShell backup and recovery cmdlets to create a script file (\*.ps1) and 
   
 - [Running Scripts](https://go.microsoft.com/fwlink/p/?LinkID=178144)
     
-- [Backup and recovery cmdlets in SharePoint Server 2016](http://technet.microsoft.com/library/2ec8e3d1-f9f7-45b7-980a-d3c19d726d33.aspx)
+- [Backup and recovery cmdlets in SharePoint Server 2016](/powershell/module/sharepoint-server/?view=sharepoint-ps)
     
 ### Use the SQL FILESTREAM provider with BLOB storage
 
 Remote BLOB Storage (RBS) is supported in a SharePoint Server farm. There are both pros and cons associated with using RBS in SharePoint Server. One related limitation of RBS with a SharePoint farm is that System Center Data Protection Manager cannot use the FILESTREAM provider to back up or restore RBS. SharePoint Server supports the FILESTREAM provider for backup and restore operations. A benefit of RBS with a SharePoint farm is that you can use either SharePoint tools or SQL Server tools to back up and restore the content database with the Remote BLOB Store (RBS) defined. This backs up and restores both the RBS and the content database. We do not recommend that you use RBS with other restore methods. For more information about the benefits and limitations of using RBS, see [Deciding to use RBS in SharePoint Server](rbs-planning.md). Download [Microsoft SQL Server 2014 Feature Pack](http://go.microsoft.com/fwlink/p/?LinkID=733635&amp;clcid=0x409)that includes RBS.
   
 > [!NOTE]
-> SharePoint Server 2016 supports the FILESTREAM provider that is included with SQL Server 2014. For more information, see [Enable and Configure FILESTREAM](http://go.microsoft.com/fwlink/p/?LinkID=733464&amp;clcid=0x409). 
+> SharePoint Server 2019 supports the FILESTREAM provider that is included with SQL Server 2017. SharePoint Server 2016 supports the FILESTREAM provider that is included with SQL Server 2014. For more information, see [Enable and Configure FILESTREAM](http://go.microsoft.com/fwlink/p/?LinkID=733464&amp;clcid=0x409). 
   
 > [!NOTE]
 > SharePoint Server 2013 supports the FILESTREAM provider that is included in the [Microsoft® SQL Server® 2008 R2 Feature Pack](https://go.microsoft.com/fwlink/p/?LinkID=177388). The SQL Server 2012 and SQL Server 2014 installation media includes RBS as an optional add-on component. 

@@ -12,16 +12,16 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: a7334c45-7741-41d6-b354-3e3c5631521e
-description: "Summary: Learn how to address problems that may occur after you upgrade a database to SharePoint 2013."
+description: "Learn how to address problems that may occur after you upgrade a database to SharePoint 2013."
 ---
 
 # Troubleshoot database upgrade issues in SharePoint 2013
 
- **Summary:** Learn how to address problems that may occur after you upgrade a database to SharePoint 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
   
 Even after you test the upgrade process to identify potential issues, you might experience unexpected issues during an upgrade from SharePoint 2010 Products to SharePoint 2013. If you experience issues after upgrade, the sooner you detect and fix them, the better the end-user experience will be. 
   
-This article includes a list of common issues and describes general principles to help you identify and address upgrade issues. After you identify and address the issues, you can resume upgrade. For more information about how to resume upgrade, see [Restart a database-attach upgrade or a site collection upgrade to SharePoint 2013](http://technet.microsoft.com/library/391b59bc-eb1e-4f6c-aed8-5f71e6ca7ade%28Office.14%29.aspx).
+This article includes a list of common issues and describes general principles to help you identify and address upgrade issues. After you identify and address the issues, you can resume upgrade. For more information about how to resume upgrade, see [Restart a database-attach upgrade or a site collection upgrade to SharePoint 2013](/previous-versions/office/sharepoint-server-2010/ff382638(v=office.14)).
   
 ## General principles to identify issues
 <a name="Principles"> </a>
@@ -140,11 +140,11 @@ A mismatch in authentication methods can cause problems when you upgrade. The fo
   
 - **Classic-to-claims authentication**
     
-    Make sure that the web applications that you created in SharePoint 2013 use the same authentication method that was used in SharePoint 2010 Products. Claims-based authentication is the default authentication method for web applications in SharePoint 2013. If the web application was using classic mode, you can either update it to claims before you upgrade the database, or create the web application in classic mode and then migrate it to claims. For more information about how to create a web application that uses classic mode, and then migrating to claims, see [Create web applications that use classic mode authentication in SharePoint Server](http://technet.microsoft.com/library/57c6d1ee-e2b7-4b48-9865-354fe8cc8fe2%28Office.14%29.aspx) and [Migrate from classic-mode to claims-based authentication in SharePoint 2013](migrate-from-classic-mode-to-claims-based-authentication-in-sharepoint-2013.md)
+    Make sure that the web applications that you created in SharePoint 2013 use the same authentication method that was used in SharePoint 2010 Products. Claims-based authentication is the default authentication method for web applications in SharePoint 2013. If the web application was using classic mode, you can either update it to claims before you upgrade the database, or create the web application in classic mode and then migrate it to claims. For more information about how to create a web application that uses classic mode, and then migrating to claims, see [Create web applications that use classic mode authentication in SharePoint Server]/previous-versions/office/sharepoint-server-2010/gg276326(v=office.14)) and [Migrate from classic-mode to claims-based authentication in SharePoint 2013](migrate-from-classic-mode-to-claims-based-authentication-in-sharepoint-2013.md)
     
 - **Forms-based authentication**
     
-    Additional steps are necessary if you are upgrading an environment that uses forms-based authentication. Follow the steps in [Configure forms-based authentication for a claims-based web application in SharePoint Server](http://technet.microsoft.com/library/fd1391bb-c787-4742-b007-bf57e18dad66%28Office.14%29.aspx) to upgrade forms-based authentication providers. 
+    Additional steps are necessary if you are upgrading an environment that uses forms-based authentication. Follow the steps in [Configure forms-based authentication for a claims-based web application in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806890(v=office.14)) to upgrade forms-based authentication providers. 
     
 ### Q: SQL Server says I don't have permissions
 <a name="Perms"> </a>
@@ -201,11 +201,11 @@ A mismatch in authentication methods can cause problems when you upgrade. The fo
 
 #### Other Resources
 
-[Use a trial upgrade to SharePoint 2013 to find potential issues](http://technet.microsoft.com/library/2b5d3825-adba-4185-84f2-ef59e8110fac%28Office.14%29.aspx)
+[Use a trial upgrade to SharePoint 2013 to find potential issues](/previous-versions/office/sharepoint-server-2010/cc262155(v=office.14))
   
 [Verify database upgrades in SharePoint 2013](verify-upgrade.md)
   
 [Review site collections upgraded to SharePoint 2013](review-site-collections-upgraded-to-sharepoint-2013.md)
   
-[Restart a database-attach upgrade or a site collection upgrade to SharePoint 2013](http://technet.microsoft.com/library/391b59bc-eb1e-4f6c-aed8-5f71e6ca7ade%28Office.14%29.aspx)
+[Restart a database-attach upgrade or a site collection upgrade to SharePoint 2013](/previous-versions/office/sharepoint-server-2010/ff382638(v=office.14)
 

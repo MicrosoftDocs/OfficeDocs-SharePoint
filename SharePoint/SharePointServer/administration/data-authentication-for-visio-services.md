@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 918a570e-ce86-4ff7-857f-d08dbb35d08d
-description: "Summary: Visio Services supports connections with Excel workbooks, SharePoint lists, SQL Server databases, and OLE DB and ODBC data sources."
+description: "Visio Services supports connections with Excel workbooks, SharePoint lists, SQL Server databases, and OLE DB and ODBC data sources."
 ---
 
 # Data authentication for Visio Services in SharePoint Server
 
- **Summary:** Visio Services supports connections with Excel workbooks, SharePoint lists, SQL Server databases, and OLE DB and ODBC data sources. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 Data sources are categorized as internal or external as follows: 
   
@@ -58,7 +58,7 @@ Visio Services supports data-connected diagrams that are connected to data hoste
 
 Visio Services uses the diagram viewer's SharePoint Server credentials to connect to an .xlsx Excel workbook. For the authentication operation to succeed, the following conditions must be met:
   
-- [Office Online Server Preview](https://technet.microsoft.com/library/e75c9827-f5ce-4099-a08c-b42fde72ea98) must be provisioned correctly and configured on the SharePoint farm. 
+- [Office Online Server Preview](/webappsserver/office-web-apps-server) must be provisioned correctly and configured on the SharePoint farm. 
     
 - The workbook must be hosted on the same farm as the diagram.
     
@@ -177,7 +177,7 @@ The Unattended Service Account is used by Visio Services in the following circum
   
 Choose the Unattended Service Account when you connect to small ad-hoc deployments in which security is less important or for which speed of deployment is very important.
   
-For information about how to use the Unattended Service Account with Visio Services, see [Secure Store for Business Intelligence service applications](https://technet.microsoft.com/library/a19e8cb8-4b41-492b-b33c-bc490f911f1d). 
+For information about how to use the Unattended Service Account with Visio Services, see [Secure Store for Business Intelligence service applications](/SharePoint/administration/secure-store-for-business-intelligence-service-applications). 
   
 ### SQL Server Authentication
 
@@ -217,6 +217,6 @@ Refresh can be triggered in one of following ways from the browser:
     > [!NOTE]
     > A SharePoint site designer must place the Visio Web Access Web Part on a page and configure it to refresh periodically. 
   
-If there are no previously cached versions of this diagram, any of these actions will trigger a refresh and update the diagram. For information about how to configure cache settings for Visio Services, see [Configure Visio Services](https://technet.microsoft.com/library/2db321b3-1d59-4b3a-a242-8daabfde367c).
+If there are no previously cached versions of this diagram, any of these actions will trigger a refresh and update the diagram. For information about how to configure cache settings for Visio Services, see [Configure Visio Services](/SharePoint/administration/configure-visio-services).
   
 

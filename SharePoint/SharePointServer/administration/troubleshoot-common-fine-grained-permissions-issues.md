@@ -15,7 +15,7 @@ description: ""
 
 # Troubleshoot common fine-grained permissions issues for SharePoint Server
 
- **Summary:** Learn about how to troubleshoot issues that include fine-grained permission in SharePoint Server and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 After you implement fine-grained permission, a SharePoint environment could experience security or performance issues. Review the following information to help resolve issues that might be related to fine-grained permissions.
   
@@ -92,8 +92,6 @@ As in the previous solution, the number of uniquely scoped children is not a sig
 <a name="fgpperfissuesolutions"> </a>
 
 #### Other Resources
-
-[Fine-grained permission reference for SharePoint Server](http://technet.microsoft.com/library/d1410f72-1d58-48e6-9311-b1248f4a81f6%28Office.14%29.aspx)
   
-[Best practices for using fine-grained permissions in SharePoint Server](http://technet.microsoft.com/library/d46eae8a-5570-46e0-9800-6cde713b4828.aspx)
+[Best practices for using fine-grained permissions in SharePoint Server](/sharepoint/sites/best-practices-for-using-fine-grained-permissions-in-sharepoint-server)
 

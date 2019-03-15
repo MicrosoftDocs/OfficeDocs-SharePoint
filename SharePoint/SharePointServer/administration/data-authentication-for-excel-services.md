@@ -5,16 +5,16 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 7/7/2017
 ms.audience: ITPro
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 8fe00c69-317f-49c9-8669-832a5f85e42c
-description: "Summary Learn how Excel Services in SharePoint Server 2013 supports connections with SQL Server Analysis Services (SSAS), SQL Server databases, and OLE DB and ODBC data sources."
+description: "Summary Learn how Excel Services in SharePoint Server supports connections with SQL Server Analysis Services (SSAS), SQL Server databases, and OLE DB and ODBC data sources."
 ---
 
 # Data authentication for Excel Services in SharePoint Server 2013
 
- **Summary ** Learn how Excel Services in SharePoint Server 2013 supports connections with SQL Server Analysis Services (SSAS), SQL Server databases, and OLE DB and ODBC data sources. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 Retrieving data from a data source requires a user to be authenticated by the data source and then authorized to access the data that is contained therein. In the case of a workbook, Excel Services authenticates to the data source on behalf of the user who is viewing it in order to refresh the data to which the workbook is connected.
   
@@ -129,7 +129,7 @@ Choose Kerberos delegation for secure and fast authentication to enterprise-scal
   
 - [Configuring Kerberos Authentication for Microsoft SharePoint 2010 Products](https://go.microsoft.com/fwlink/p/?LinkId=196600) (https://go.microsoft.com/fwlink/p/?LinkId=196600) 
     
-- [Configure Kerberos authentication (SharePoint Server 2010)](http://technet.microsoft.com/library/3f849874-1580-47d3-af88-042a3494909f.aspx)
+- [Configure Kerberos authentication (SharePoint Server 2010)](/SharePoint/security-for-sharepoint-server/kerberos-authentication-planning)
     
 #### Secure Store
 

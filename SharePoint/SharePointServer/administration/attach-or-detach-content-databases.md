@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: bfa2f924-f411-4b13-8c24-bf251d7e4c91
-description: "Summary: Learn how to attach and detach content databases to your SharePoint Server 2016 and SharePoint 2013 farm."
+description: "Learn how to attach and detach content databases to your SharePoint Server farm."
 ---
 
 # Attach or detach content databases in SharePoint Server
 
- **Summary:** Learn how to attach and detach content databases to your SharePoint Server 2016 and SharePoint 2013 farm. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 You can attach or detach SharePoint Server content databases by using the SharePoint Central Administration website or Microsoft PowerShell
   
@@ -100,7 +100,7 @@ The steps to add a database and to attach a database are very similar. For more 
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Open **SharePoint Management Shell**.
     
@@ -133,7 +133,8 @@ The steps to add a database and to attach a database are very similar. For more 
   
     The **Dismount-SPContentDatabase** cmdlet detaches the content database from the web application, but it does not delete the content database from SQL Server. After a content database is detached, you cannot delete it by using PowerShell. You can only remove it by using SQL Server tools. If you want to delete the content database from SQL Server while you detach it, use the **Remove-SPContentDatabase** cmdlet instead. 
     
-For more information, see [Dismount-SPContentDatabase](http://technet.microsoft.com/library/89eea901-8d3f-4d4d-9638-941a1cafe259.aspx) and [Mount-SPContentDatabase](http://technet.microsoft.com/library/20d1bc07-805c-44d3-a278-e2793370e237.aspx). 
+For more information, see [Dismount-SPContentDatabase](/powershell/module/sharepoint-server/Dismount-SPContentDatabase?view=sharepoint-ps
+) and [Mount-SPContentDatabase](/powershell/module/sharepoint-server/Mount-SPContentDatabase?view=sharepoint-ps). 
   
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
@@ -143,9 +144,9 @@ For more information, see [Dismount-SPContentDatabase](http://technet.microsoft.
 
 #### Other Resources
 
-[Get-SPContentDatabase](http://technet.microsoft.com/library/a4a83bb0-0bab-4cad-9b59-0fd89a16f57b.aspx)
+[Get-SPContentDatabase](/powershell/module/sharepoint-server/Get-SPContentDatabase?view=sharepoint-ps)
   
-[New-SPContentDatabase](http://technet.microsoft.com/library/18cf18cd-8fb7-4561-be71-41c767f27b51.aspx)
+[New-SPContentDatabase](/powershell/module/sharepoint-server/New-SPContentDatabase?view=sharepoint-ps)
   
-[Remove-SPContentDatabase](http://technet.microsoft.com/library/e8c337b6-37af-4fdd-8469-a32f4d45c040.aspx)
+[Remove-SPContentDatabase](/powershell/module/sharepoint-server/New-SPContentDatabase?view=sharepoint-ps)
 

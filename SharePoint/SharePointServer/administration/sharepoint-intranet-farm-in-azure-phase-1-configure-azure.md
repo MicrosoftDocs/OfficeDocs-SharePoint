@@ -13,14 +13,14 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 ms.custom: Ent_Solutions
 ms.assetid: f957e1ce-0a39-490c-b533-4ddab4f5bb7a
-description: "Summary: Configure the Microsoft Azure infrastructure to host a high-availability SharePoint Server 2016 farm."
+description: "Configure the Microsoft Azure infrastructure to host a high-availability SharePoint Server 2016 farm."
 ---
 
 # SharePoint Intranet Farm in Azure Phase 1: Configure Azure
 
- **Summary:** Configure the Microsoft Azure infrastructure to host a high-availability SharePoint Server 2016 farm. 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)] 
   
-In this phase of deploying an intranet-only SharePoint Server 2016 farm in Azure, you build out the Azure infrastructure. You must complete this phase before moving on to [SharePoint Intranet Farm in Azure Phase 2: Configure domain controllers](sharepoint-intranet-farm-in-azure-phase-2-configure-domain-controllers.md). See [Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](https://technet.microsoft.com/library/af7cf3e7-94b1-4a5d-8cb9-80c5a0b397f2) for all of the phases. 
+In this phase of deploying an intranet-only SharePoint Server 2016 farm in Azure, you build out the Azure infrastructure. You must complete this phase before moving on to [SharePoint Intranet Farm in Azure Phase 2: Configure domain controllers](sharepoint-intranet-farm-in-azure-phase-2-configure-domain-controllers.md). See [Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](/SharePoint/administration/deploying-sharepoint-server-2016-with-sql-server-alwayson-availability-groups-in) for all of the phases. 
   
 Azure must be provisioned with these basic components for networking and storage:
   
@@ -81,7 +81,7 @@ Next, fill in Table I for the static IP addresses assigned to virtual machines a
 |4.  <br/> |Static IP address of the internal load balancer for the listener address of the SQL server cluster  <br/> |The fourth possible IP address for the address space of the subnet defined in Item 2 of Table S.  <br/> |![](../media/TableLine.png)  <br/> |
 |5.  <br/> |Static IP address of the first SQL server  <br/> |The fifth possible IP address for the address space of the subnet defined in Item 2 of Table S.  <br/> |![](../media/TableLine.png)  <br/> |
 |6.  <br/> |Static IP address of the second SQL server  <br/> |The sixth possible IP address for the address space of the subnet defined in Item 2 of Table S.  <br/> |![](../media/TableLine.png)  <br/> |
-|7.  <br/> |Static IP address of the minority node server  <br/> Note that this is not needed if you are using a [cloud witness](https://docs.microsoft.com/windows-server/failover-clustering/deploy-cloud-witness).  <br/> |The seventh possible IP address for the address space of the subnet defined in Item 2 of Table S.  <br/> |![](../media/TableLine.png)  <br/> |
+|7.  <br/> |Static IP address of the minority node server  <br/> Note that this is not needed if you are using a [cloud witness](/windows-server/failover-clustering/deploy-cloud-witness).  <br/> |The seventh possible IP address for the address space of the subnet defined in Item 2 of Table S.  <br/> |![](../media/TableLine.png)  <br/> |
 |8.  <br/> |Static IP address of the first application and search SharePoint server  <br/> |The fourth possible IP address for the address space of the subnet defined in Item 3 of Table S.  <br/> |![](../media/TableLine.png)  <br/> |
 |9.  <br/> |Static IP address of the second application and search SharePoint server  <br/> |The fifth possible IP address for the address space of the subnet defined in Item 3 of Table S.  <br/> |![](../media/TableLine.png)  <br/> |
 |10.  <br/> |Static IP address of the first front end and distributed cache SharePoint server  <br/> |The fourth possible IP address for the address space of the subnet defined in Item 4 of Table S.  <br/> |![](../media/TableLine.png)  <br/> |
@@ -99,7 +99,7 @@ For the two Domain Name System (DNS) servers in your on-premises network that yo
  **Table D: On-premises DNS servers**
   
 > [!NOTE]
-> If you are using [Azure Active Directory (AD) Domain Services](https://docs.microsoft.com/azure/active-directory-domain-services/active-directory-ds-overview) as a substitute for virtual machines running as domain replicas, you do not need these DNS server IP addresses. 
+> If you are using [Azure Active Directory (AD) Domain Services](/azure/active-directory-domain-services/active-directory-ds-overview) as a substitute for virtual machines running as domain replicas, you do not need these DNS server IP addresses. 
   
 To route packets from the cross-premises network to your organization network across the site-to-site VPN connection, you must configure the virtual network with a local network that contains a list of the address spaces (in CIDR notation) for all of the reachable locations on your organization's on-premises network. The list of address spaces that define your local network must be unique and must not overlap with the address space used for other virtual networks or other local networks.
   
@@ -116,7 +116,7 @@ For the set of local network address spaces, fill in Table L. Note that three bl
 Now let's begin building the Azure infrastructure to host your SharePoint farm.
   
 > [!NOTE]
-> The following command sets use the latest version of Azure PowerShell. See [Get started with Azure PowerShell cmdlets](https://docs.microsoft.com/powershell/azureps-cmdlets-docs/). 
+> The following command sets use the latest version of Azure PowerShell. See [Get started with Azure PowerShell cmdlets](/powershell/azure/overview?view=azurermps-6.13.0). 
   
 First, start an Azure PowerShell prompt and login to your account.
   
@@ -256,7 +256,7 @@ Next, record the public IPv4 address of the Azure VPN gateway for your virtual n
 Get-AzPublicIpAddress -Name $publicGatewayVipName -ResourceGroupName $rgName
 ```
 
-Next, configure your on-premises VPN device to connect to the Azure VPN gateway. For more information, see [Configure your VPN device](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-devices).
+Next, configure your on-premises VPN device to connect to the Azure VPN gateway. For more information, see [Configure your VPN device](/azure/vpn-gateway/vpn-gateway-about-vpn-devices).
   
 To configure your on-premises VPN device, you will need the following:
   
@@ -311,11 +311,11 @@ Use [SharePoint Intranet Farm in Azure Phase 2: Configure domain controllers](sh
 
 #### Other Resources
 
-[Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](https://technet.microsoft.com/library/af7cf3e7-94b1-4a5d-8cb9-80c5a0b397f2)
+[Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](/SharePoint/administration/deploying-sharepoint-server-2016-with-sql-server-alwayson-availability-groups-in)
   
-[SharePoint Server 2016 in Microsoft Azure](https://technet.microsoft.com/library/8da53a30-27f2-4297-95c2-54eff999e863)
+[SharePoint Server 2016 in Microsoft Azure](/SharePoint/administration/sharepoint-server-2016-in-microsoft-azure)
   
-[Designing a SharePoint Server 2016 farm in Azure](https://technet.microsoft.com/library/f27522ca-6f78-4b97-b169-77066e965727)
+[Designing a SharePoint Server 2016 farm in Azure](/SharePoint/administration/designing-a-sharepoint-server-2016-farm-in-azure)
   
-[Install SharePoint Server](https://technet.microsoft.com/library/8a911115-de8a-4cf3-9701-f5ba78fa8bfc)
+[Install SharePoint Server](/SharePoint/install/install)
 

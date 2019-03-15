@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: faab1eb4-5848-4970-b13f-ba6df14272fe
-description: "Summary: Learn to configure diagnostic logging in SharePoint Server 2013 and SharePoint Server 2016 from the SharePoint Central Administration website or by using Windows PowerShell."
+description: "Learn to configure diagnostic logging in SharePoint Server from the SharePoint Central Administration website or by using Microsoft PowerShell."
 ---
 
 # Configure diagnostic logging in SharePoint Server
 
- **Summary:** Learn to configure diagnostic logging in SharePoint Server 2013 and SharePoint Server 2016 from the SharePoint Central Administration website or by using Windows PowerShell. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
     
 ## Prerequisites
@@ -129,12 +129,12 @@ You can use the SharePoint Central Administration website to configure diagnosti
     
 8. After you have made the changes that you want on the Diagnostic Logging page, click **OK**.
     
-## Configure diagnostic logging by using Windows PowerShell
+## Configure diagnostic logging by using PowerShell
 <a name="section3"> </a>
 
 You can use PowerShell to configure diagnostic logging.
   
- **To configure diagnostic logging by using Windows PowerShell**
+ **To configure diagnostic logging by using PowerShell**
   
 1. Verify that you have the following memberships:
     
@@ -147,7 +147,7 @@ You can use PowerShell to configure diagnostic logging.
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use PowerShell cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. From the SharePoint Management Shell, change the drive to which the server writes logs.
     
@@ -193,7 +193,7 @@ You can use PowerShell to configure diagnostic logging.
   Set-SPDiagnosticConfig -EventLogFloodProtectionEnabled
   ```
 
-For more information, see [Set-SPDiagnosticConfig](http://technet.microsoft.com/library/1b6026e1-ef05-4c88-908b-2aed041bcb06.aspx), [Set-SPLogLevel](http://technet.microsoft.com/library/c8ede92a-f685-4140-8587-96700d1a45de.aspx) and [Get-SPLogLevel](https://technet.microsoft.com/en-us/library/ff607576). 
+For more information, see [Set-SPDiagnosticConfig](/powershell/module/sharepoint-server/Set-SPDiagnosticConfig?view=sharepoint-ps), [Set-SPLogLevel](/powershell/module/sharepoint-server/Set-SPLogLevel?view=sharepoint-ps) and [Get-SPLogLevel](/powershell/module/sharepoint-server/Get-SPLogLevel?view=sharepoint-ps). 
   
 ## See also
 <a name="section3"> </a>

@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: d8d31277-7cce-4302-a198-de5ae4cef1ca
-description: "Summary: Use test results and recommendations in this article to estimate performance and capacity requirements for an enterprise intranet collaboration solution for SharePoint Server 2013."
+description: "Use test results and recommendations in this article to estimate performance and capacity requirements for an enterprise intranet collaboration solution for SharePoint Server."
 ---
 
 # Estimate performance and capacity requirements for enterprise intranet collaboration environments (SharePoint Server 2013)
 
- **Summary:** Use test results and recommendations in this article to estimate performance and capacity requirements for an enterprise intranet collaboration solution for SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 This article contains guidance on performance and capacity planning for an enterprise intranet collaboration solution that is based on SharePoint Server 2013. It includes the following: 
   
@@ -264,11 +264,11 @@ In our testing, we found the following:
   
 - When performance testing was conducted for SharePoint Server 2010, the database server became a bottleneck at maximum throughput using four web servers. Because of improvements in caching and database usage characteristics in SharePoint Server 2013, the average load on the database server layer is significantly lower than it was in SharePoint Server 2010, and it was not necessary to scale out the database servers during testing.
     
-    For more information about SharePoint Server 2010 test results for this scenario, see [Enterprise intranet collaboration environment lab study (SharePoint Server 2010)](http://technet.microsoft.com/en-us/library/ff758657%28v=office.14%29.aspx)
+    For more information about SharePoint Server 2010 test results for this scenario, see [Enterprise intranet collaboration environment lab study (SharePoint Server 2010)](/previous-versions/office/sharepoint-server-2010/ff758657(v=office.14))
     
 - Performance gains when you add virtual web servers depend partly on host hardware resources and on the resource usage of other virtual computers that are running on the same host. Capacity planning for virtual servers requires additional planning and management strategies specific to virtualization.
     
-    For more information on Hyper-V performance and capacity planning, see [Hyper-V virtualization requirements for SharePoint 2013](http://technet.microsoft.com/library/42c6357e-d7eb-40cb-b01a-31ee85416581%28Office.14%29.aspx) and [Use best practice configurations for the SharePoint 2013 virtual machines and Hyper-V environment](http://technet.microsoft.com/library/e7fc992d-3c51-4b65-bbf4-0c12100aa36e%28Office.14%29.aspx).
+    For more information on Hyper-V performance and capacity planning, see [Hyper-V virtualization requirements for SharePoint 2013](/previous-versions/office/sharepoint-server-2010/ff607795(v=office.14)) and [Use best practice configurations for the SharePoint 2013 virtual machines and Hyper-V environment](/previous-versions/office/sharepoint-server-2010/ff621103(v=office.14)).
     
 > [!NOTE]
 > The conclusions described in this section are specific to the hardware that comprises the environment. The environment might have achieved the same throughput by using more but less powerful Hyper-V host servers, or fewer but more powerful Hyper-V host servers. An increase of hardware resources on the database server would not materially affect the results. 

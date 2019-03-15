@@ -10,36 +10,23 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: bd9db767-6b87-450d-a8e6-9dc684d59ae4
-description: "Summary: Learn how to create a Search Center site and grant site access to users in SharePoint Server ."
+description: "Learn how to create a Search Center site and grant site access to users in SharePoint Server."
 ---
 
 # Create a Search Center site in SharePoint Server
 
- **Summary:** Learn how to create a Search Center site and grant site access to users in SharePoint Server . 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
-A Search Center site, or Search Center, provides an interface for users to submit search queries and view search results. A Search Center site is the top-level site of a site collection that a farm administrator creates by using the Enterprise Search Center template or Basic Search Center template.
+A Search Center site, or Search Center, provides a classic interface for users to submit search queries and view search results. A Search Center site is the top-level site of a site collection that a farm administrator creates by using the Enterprise Search Center template or Basic Search Center template.
   
 ## Before you begin
 <a name="begin"> </a>
 
 Depending on the kind of installation that you performed and the site collection template that you selected at that time, the farm might already have a Search Center site. To check this, browse to the top-level site for the site collection that you created during installation. In either case, you can create a Search Center site and grant users access to it by using the procedures in this article.
   
-> [!NOTE]
-> Because SharePoint Server 2016 runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server 2016 supports the accessibility features of supported browsers. 
-  
-For more information, see the following resources:
-  
-- [Plan browser support](https://go.microsoft.com/fwlink/p/?LinkId=246502)
+
     
-- [Accessibility for SharePoint 2013](http://technet.microsoft.com/library/94ad4316-1077-400a-b17e-a2085a5a7312%28Office.14%29.aspx)
-    
-- [Accessibility features in SharePoint 2013 Products](https://go.microsoft.com/fwlink/p/?LinkId=246501)
-    
-- [Keyboard shortcuts](https://go.microsoft.com/fwlink/p/?LinkID=246504)
-    
-- [Touch](https://go.microsoft.com/fwlink/p/?LinkId=246506)
-    
-## 
+
 <a name="begin"> </a>
 
  **To create a SharePoint Search Center site**

@@ -12,13 +12,16 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 982d3ab2-d1a6-4625-b4c6-e12a1f4532d5
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer rulePeople Search relevance is not optimized when the Active Directory has errors in the manager reporting structure, for SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: People Search relevance is not optimized when the Active Directory has errors in the manager reporting structure, for SharePoint Server."
 ---
 
 # People Search relevance is not optimized when the Active Directory has errors in the manager reporting structure (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "People Search relevance is not optimized when the Active Directory has errors in the manager reporting structure", for SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
+>[!IMPORTANT]
+>This health analyzer rule only applies to SharePoint 2010 as this was removed in [KB4011601](https://support.microsoft.com/help/4011601) for SharePoint Server 2013 and [KB4011576](https://support.microsoft.com/help/4011576) for SharePoint Server 2016.
+
  **Rule Name:** People Search relevance is not optimized when the Active Directory has errors in the manager reporting structure. 
   
  **Summary:** In Active Directory Domain Services (AD DS), only company leaders should have the **Manager** property set to NULL. If the **Manager** property is set to NULL for other users, people search relevance is reduced. To optimize people search relevance, explicitly specify company leaders. People search can then use this information to improve relevance. 
@@ -40,7 +43,7 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleP
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -50,7 +53,7 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleP
   $upaProxy = Get-SPServiceApplicationProxy <AppID>
   ```
 
-    where  *\<AppID\>*  is the GUID of the User Profile service application proxy. For more information, see [Get-SPProfileLeader](http://technet.microsoft.com/library/604f034f-f2bb-4bc3-a32d-66128a908360.aspx).
+    where  *\<AppID\>*  is the GUID of the User Profile service application proxy. For more information, see [Get-SPProfileLeader](/powershell/module/sharepoint-server/Get-SPProfileLeader?view=sharepoint-ps).
     
 4. Type the following command:
     
@@ -58,7 +61,7 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleP
   Add-SPProfileLeader -ProfileServiceApplicationProxy $upaProxy -Name "<Domain\UserName> "
   ```
 
-    where  *\<Domain\UserName\>*  is the user account that you want to add as a leader — for example, Contoso\Joe.Healy. For more information, see [Add-SPProfileLeader](http://technet.microsoft.com/library/99675c8e-b164-4229-9b8f-eebfda5d5adb.aspx).
+    where  *\<Domain\UserName\>*  is the user account that you want to add as a leader — for example, Contoso\Joe.Healy. For more information, see [Add-SPProfileLeader](/powershell/module/sharepoint-server/Add-SPProfileLeader?view=sharepoint-ps).
     
 5. You are prompted to confirm. Type **Y** to confirm. 
     
@@ -70,5 +73,5 @@ Repeat the commands to add more user accounts as company leaders.
 
 #### Other Resources
 
-[Add-SPProfileLeader](http://technet.microsoft.com/library/99675c8e-b164-4229-9b8f-eebfda5d5adb.aspx)
+[Add-SPProfileLeader](/powershell/module/sharepoint-server/Add-SPProfileLeader?view=sharepoint-ps)
 

@@ -1,7 +1,7 @@
 ---
 title: "Configure and use the Lotus Notes connector for SharePoint Server"
-ms.author: stevhord
-author: bentoncity
+ms.author: tlarsen
+author: tklarsen
 manager: pamgreen
 ms.date: 3/7/2018
 ms.audience: ITPro
@@ -10,13 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: a7960bf4-d5be-4ad7-a430-724ef194ad39
-description: "Summary: Learn about the administrative roles, required software, user accounts, and processes that are required to install and operate the Lotus Notes Client and the Lotus Notes Connector to work with SharePoint Server 2016 and SharePoint Server 2013 search."
+description: "Learn about the administrative roles, required software, user accounts, and processes that are required to install and operate the Lotus Notes Client and the Lotus Notes Connector to work with SharePoint Server search."
 ---
 
 # Configure and use the Lotus Notes connector for SharePoint Server
 
- **Summary:** Learn about the administrative roles, required software, user accounts, and processes that are required to install and operate the Lotus Notes Client and the Lotus Notes Connector to work with SharePoint Server 2016 and SharePoint Server 2013 search. 
-  
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
     
 ## Before you begin
 <a name="begin"> </a>

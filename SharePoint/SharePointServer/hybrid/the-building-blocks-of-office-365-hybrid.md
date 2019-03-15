@@ -12,13 +12,14 @@ ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server
 - IT_SharePoint_Hybrid_Top
+- M365-collaboration
 ms.assetid: bbb62edb-def7-45dd-931c-78746c3d9fa5
-description: "Summary: Watch this video to learn about the major pieces of an Office 365 hybrid deployment."
+description: "Watch this video to learn about the major pieces of an Office 365 hybrid deployment."
 ---
 
 # The building blocks of Office 365 hybrid
 
- **Summary:** Watch this video to learn about the major pieces of an Office 365 hybrid deployment. 
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
   
 This chalk talk video covers the major pieces of Office 365 hybrid deployments. This includes identity management, and a look at SharePoint, Exchange, and Skype for Business hybrid.
   

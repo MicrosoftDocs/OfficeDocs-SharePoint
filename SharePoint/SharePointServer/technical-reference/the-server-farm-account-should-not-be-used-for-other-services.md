@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 57592cbe-47c1-44c7-8f57-38fa192df4f7
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleThe server farm account should not be used for the other servicesfor SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: The server farm account should not be used for the other services, for SharePoint Server."
 ---
 
 # The server farm account should not be used for other services (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "The server farm account should not be used for the other services" for SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
  **Rule Name:** The server farm account should not be used for the other services. 
   

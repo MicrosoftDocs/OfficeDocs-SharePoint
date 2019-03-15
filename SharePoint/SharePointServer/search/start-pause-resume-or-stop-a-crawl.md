@@ -1,7 +1,7 @@
 ---
 title: "Start, pause, resume, or stop a crawl in SharePoint Server"
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: tlarsen
+author: tklarsen
 manager: pamgreen
 ms.date: 7/26/2017
 ms.audience: ITPro
@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: fbfd98f1-403f-4648-9850-f7bd37f2255e
-description: "Summary: Learn how to start, pause, resume or stop a full or incremental crawl for a content source."
+description: "Learn how to start, pause, resume or stop a full or incremental crawl for a content source."
 ---
 
 # Start, pause, resume, or stop a crawl in SharePoint Server
 
- **Summary:** Learn how to start, pause, resume or stop a full or incremental crawl for a content source. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 When you perform a full crawl for a content source, all content specified by the content source is crawled even if the content already exists in the search index. You can start a full crawl for each content source separately. Alternatively, clicking the **Start all crawls** link on the Manage Content Sources page causes the content specified in all content sources to be crawled using an incremental crawl, unless either of the following conditions is true: 
   

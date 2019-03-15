@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: bf94ede1-79cc-4016-99f3-a1eef244fdf3
-description: "Summary: Configure domain names, service applications, and URLs for apps for SharePoint Server 2016 and SharePoint Server 2013."
+description: "Configure domain names, service applications, and URLs for apps for SharePoint Server."
 ---
 
 # Configure an environment for apps for SharePoint Server
 
- **Summary:** Configure domain names, service applications, and URLs for apps for SharePoint Server 2016 and SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 To enable users to install and use apps for SharePoint in their sites, you must configure your environment to support them. This article describes how to configure your environment to support apps. Use the [Plan for apps for SharePoint Server](plan-for-apps-for-sharepoint.md) article to review options and determine the values to use for configuration settings in this article. 
   
@@ -26,7 +26,7 @@ To enable users to install and use apps for SharePoint in their sites, you must 
     
 - You must be a member of the Farm Administrators group to perform the steps in this article. For some steps, you must also be a domain administrator.
     
-- If you have a multi-tenant environment, you need to do some steps by using Microsoft PowerShell. Make sure you have [permissions to administer SharePoint Server using Windows PowerShell](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa%28Office.14%29.aspx).
+- If you have a multi-tenant environment, you need to do some steps by using Microsoft PowerShell. Make sure you have [permissions to administer SharePoint Server using Windows PowerShell](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
     
 ## Configure the domain names in DNS
 <a name="CreateAppDomain"> </a>
@@ -114,10 +114,9 @@ Note that in order to allow support for SSL offloading with SharePoint Server Ap
   
 ```
 $contentService = [Microsoft.SharePoint.Administration.SPWebService]::ContentService
-    $contentService.SupportMultipleAppDomains = $true
-    $contentService.Update()
-    Iisreset
-
+$contentService.SupportMultipleAppDomains = $true
+$contentService.Update()
+iisreset
 ```
 
 ## Configure the Subscription Settings and App Management service applications
@@ -131,7 +130,7 @@ Apps rely on the App Management and Microsoft SharePoint Foundation Subscription
     
 2. For the **Microsoft SharePoint Foundation Subscription Settings Service**, click **Enable Auto Provision**
     
-Next, create a Subscription Settings service application and proxy. These must be created by using Microsoft PowerShell. Use the example script provided at [New-SPSubscriptionSettingsServiceApplication](http://technet.microsoft.com/library/a0056290-df8b-4167-9a11-59cbb619e194.aspx).
+Next, create a Subscription Settings service application and proxy. These must be created by using Microsoft PowerShell. Use the example script provided at [New-SPSubscriptionSettingsServiceApplication](/powershell/module/sharepoint-server/New-SPSubscriptionSettingsServiceApplication?view=sharepoint-ps).
   
 You also need an App Management service application. The following procedures provide the steps to configure it.
   
@@ -171,7 +170,7 @@ Use the following procedure to configure app URLs.
 6. If you will install apps and you have changed the App prefix (also known as the site subscription name), you must perform additional steps that involve restarting the World Wide Web Publishing Service (WWW Service) that hosts the apps.
     
     > [!IMPORTANT]
-    >  Restarting the WWW Service will also restart the IIS Admin Service and the Windows Process Activation Service. This will also shut down all Web sites and applications that depend on these services and they may lose existing state and will be unavailable until the services successfully restart. You should plan to perform these steps during a planned maintenance time. >  To complete the App prefix rename tasks, perform these steps: >  Stop the SharePoint Timer service. >  Restart the World Wide Web Publishing Service that hosts the apps. >  Start the SharePoint Timer service. 
+    > Restarting the WWW Service will also restart the IIS Admin Service and the Windows Process Activation Service. This will also shut down all Web sites and applications that depend on these services and they may lose existing state and will be unavailable until the services successfully restart. You should plan to perform these steps during a planned maintenance time. >  To complete the App prefix rename tasks, perform these steps: >  Stop the SharePoint Timer service. >  Restart the World Wide Web Publishing Service that hosts the apps. >  Start the SharePoint Timer service. 
   
 ## Multi-tenant settings (Optional)
 <a name="ConfigureAppURLs"> </a>
@@ -183,18 +182,14 @@ If you host multiple tenants in your environment, you must use Microsoft PowerSh
 1. Open the SharePoint Management Shell.
     
 2. At the Microsoft PowerShell command prompt, type the following commands and press **ENTER** after each one: 
+    ```
+    Set-SPAppDomain <appDomain>
     
-  ```
-  Set-SPAppDomain <appDomain>
-  ```
-
-  ```
-  Set-SPAppSiteSubscriptionName -Name "app" -Confirm:$false
-  ```
-
+    Set-SPAppSiteSubscriptionName -Name "app" -Confirm:$false
+    ```
     Where:
     
-  -  _\<appDomain\>_ is the domain name that you created. 
+    -  _\<appDomain\>_ is the domain name that you created. 
     
 3. If you will install apps and you have changed the App prefix (also known as the site subscription name), you must perform additional steps that involve restarting the World Wide Web Publishing Service (WWW Service) that hosts the apps.
     
@@ -223,8 +218,8 @@ The SharePoint Store contains apps for SharePoint intended for use with sites th
 6. Click **OK**.
     
 In some cases, for example, when you have an on-premises SharePoint Server farm where updates are installed infrequently, you will need to run a cmdlet to update the URL used to point to the SharePoint Store:
-  
- `Set-SPAppStoreConfiguration -Url http://office.microsoft.com -Enable $true`
+
+    Set-SPAppStoreConfiguration -Url http://office.microsoft.com -Enable $true
   
 ## See also
 <a name="ConfigureAppURLs"> </a>

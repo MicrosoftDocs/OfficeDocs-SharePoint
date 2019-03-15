@@ -12,13 +12,14 @@ ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server
 - IT_SharePoint_Hybrid_Top
+- M365-collaboration
 ms.assetid: 3b4c9519-b68c-4247-8b58-674537f0c5fe
-description: "Summary: Learn how to prepare the on-premises account and security group to control access to an OData endpoint for the Business Connectivity Services (BCS) hybrid scenario."
+description: "Learn how to prepare the on-premises account and security group to control access to an OData endpoint for the Business Connectivity Services (BCS) hybrid scenario."
 ---
 
 # Prepare your environment for the Business Connectivity Services hybrid scenario
 
- **Summary:** Learn how to prepare the on-premises account and security group to control access to an OData endpoint for the Business Connectivity Services (BCS) hybrid scenario. 
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)] 
   
 This example of the Microsoft Business Connectivity Services (BCS) hybrid scenario shows you how to use standard Windows domain security to control access to the on-premises OData service endpoint. You configure one domain account with which to access the OData service endpoint, and one global security group for your federated user accounts. Then, you map the group to the account by using a Secure Store Service target application.
   

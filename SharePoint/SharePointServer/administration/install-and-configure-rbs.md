@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 4cf30b48-f908-4774-920c-d2f2916f2c1b
-description: "Summary: Learn how use the FILESTREAM provider to enable Remote BLOB Storage (RBS) in a SharePoint Server 2016 and SharePoint 2013 farm."
+description: "Learn how use the FILESTREAM provider to enable Remote BLOB Storage (RBS) in a SharePoint Server farm."
 ---
 
 # Install and configure RBS with FILESTREAM in a SharePoint Server farm
 
- **Summary:** Learn how use the FILESTREAM provider to enable Remote BLOB Storage (RBS) in a SharePoint Server 2016 and SharePoint 2013 farm. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 SharePoint Server uses the RBS feature to store binary large objects (BLOBs) outside the content database. For more information about RBS, see [Overview of RBS in SharePoint Server](rbs-overview.md).
   
@@ -219,11 +219,11 @@ You must install RBS client library on the SQL Server node and all Front-end or 
     > [!NOTE]
     > If you attempt to install SQL Server 2012 Remote Blob Store for an additional database on the same instance of SQL Server, you will receive an error. For more information, see [KB2767183](https://support.microsoft.com/en-us/kb/2767183). 
   
-    After receiving this error, copy and paste the following command into the Command Prompt window without the  `/qn` switch. This opens the RBS installer window where you can change only the database name and then follow the default options. You will then see the RBS tables are created in the second database. 
+For subsequent content databases for which you want to enable RBS, change the `msiexec` command similar to below.
     
-  ```
-  msiexec  /lvx* rbs_install_log.txt /i RBS.msi TRUSTSERVERCERTIFICATE=true FILEGROUP=PRIMARY DBNAME="WSS_Content_RBS" DBINSTANCE="SQL2012SERVER" FILESTREAMFILEGROUP=RBSFilestreamProvider FILESTREAMSTORENAME=FilestreamProvider
-  ```
+```
+msiexec /qn /lvx* rbs_install_log_ContentDbName.txt /i RBS_amd64.msi REMOTEBLOBENABLE=1 FILESTREAMPROVIDERENABLE=1 DBNAME="WSS_Content_2" ADDLOCAL="EnableRBS,FilestreamRunScript" DBINSTANCE="DBInstanceName"
+```
 
 4. Repeat this procedure for all Front-end servers and Application servers in the SharePoint farm.
     
@@ -269,7 +269,7 @@ You must enable RBS on one web server in the SharePoint farm. It is not importan
 
     Where:  _\<ContentDatabaseName\>_ is the name of the content database. 
     
-For more information, see [Get-SPContentDatabase](http://technet.microsoft.com/library/a4a83bb0-0bab-4cad-9b59-0fd89a16f57b.aspx).
+For more information, see [Get-SPContentDatabase](/powershell/module/sharepoint-server/Get-SPContentDatabase?view=sharepoint-ps).
   
 ## Assign db_owner permissions to the web application
 <a name="dbOwnPerm"> </a>

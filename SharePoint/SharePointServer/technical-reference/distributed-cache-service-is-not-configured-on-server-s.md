@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 0e24bb6a-8977-467f-bf69-0cfef1c8e288
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleDistributed cache service is not configured on server(s)in SharePoint Server 2016."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: Distributed cache service is not configured on server(s), for SharePoint Server."
 ---
 
 # Distributed cache service is not configured on server(s) (SharePoint Server 2016)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "Distributed cache service is not configured on server(s)" in SharePoint Server 2016. 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]
   
  **Rule Name:** Distributed cache service is not configured on server(s). 
 
@@ -38,7 +38,7 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleD
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint 2016 Management Shell on each failing server.
     
@@ -48,7 +48,7 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleD
   Add-SPDistributedCacheServiceInstance
   ```
 
-For more information, see [Add-SPDistributedCacheServiceInstance](https://technet.microsoft.com/en-us/library/jj730445%28v=office.16%29.aspx).
+For more information, see [Add-SPDistributedCacheServiceInstance](/powershell/module/sharepoint-server/Add-SPDistributedCacheServiceInstance?view=sharepoint-ps).
   
 ## Related Topics
 

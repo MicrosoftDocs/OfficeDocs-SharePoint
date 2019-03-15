@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 0112182a-6246-4d8a-8c07-39622be3c4a1
-description: "Summary: Learn how to export and import customized search configuration settings."
+description: "Learn how to export and import customized search configuration settings."
 ---
 
 # Export and import customized search configuration settings in SharePoint Server
 
- **Summary:** Learn how to export and import customized search configuration settings. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 You can export and import customized search configuration settings between site collections and sites. The settings that you export and import include all customized query rules, result sources, result types, ranking models, and site search settings. It is also possible to export customized search configuration settings from a Search service application and import the settings to site collections and sites, but you cannot import customized search configuration settings to a Search service application. You can't export the default search configuration settings, and you can't import customized search configurations from SharePoint Server to SharePoint Online, or the other way around.
   
@@ -44,7 +44,7 @@ Before you begin this operation, review the information in [Overview of customiz
 > [!NOTE]
 > Because SharePoint Server runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server supports the accessibility features of supported browsers. For more information, see the following resources: 
 >- [Plan browser support](https://go.microsoft.com/fwlink/p/?LinkId=246502)
->- [Accessibility for SharePoint 2013](http://technet.microsoft.com/library/94ad4316-1077-400a-b17e-a2085a5a7312%28Office.14%29.aspx)
+>- [Accessibility for SharePoint 2013](/SharePoint/accessibility-guidelines)
 >- [Accessibility features in SharePoint 2013 Products](https://go.microsoft.com/fwlink/p/?LinkId=246501)
 >- [Keyboard shortcuts](https://go.microsoft.com/fwlink/p/?LinkID=246504)
 >- [Touch](https://go.microsoft.com/fwlink/p/?LinkId=246506)

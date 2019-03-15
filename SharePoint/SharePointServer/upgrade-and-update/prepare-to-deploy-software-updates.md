@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 97febdea-6ee3-42c1-bc64-a701ae901fcd
-description: "Summary: Determine an approach to use to update servers or server farms in your environment, and learn how to prepare for updates before you install them."
+description: "Determine an approach to use to update servers or server farms in your environment, and learn how to prepare for updates before you install them."
 ---
 
 # Prepare to deploy software updates for SharePoint 2013
 
- **Summary:** Determine an approach to use to update servers or server farms in your environment, and learn how to prepare for updates before you install them. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]  
   
 This article describes the required and recommended tasks to complete before you install software updates on servers in a SharePoint 2013 farm.
   
@@ -38,7 +38,7 @@ Read and follow these sections sequentially to prepare for updates:
 ## Verify account permissions and security settings
 <a name="Permissions"> </a>
 
-Verify that you have the required account permissions and know the security settings that are in place on the farm. For more information, see [Account permissions and security settings in SharePoint 2013](https://technet.microsoft.com/library/1c52404b-9221-4486-a74b-f7e1330c21df).
+Verify that you have the required account permissions and know the security settings that are in place on the farm. For more information, see [Account permissions and security settings in SharePoint 2013](/SharePoint/install/account-permissions-and-security-settings-in-sharepoint-2013).
   
 ## Determine an update approach
 <a name="updateapproach"> </a>
@@ -99,7 +99,7 @@ You can back up all or part of a farm. The following list summarizes the farm co
     
 - Apps
     
-For more information about how to determine what you need to back up and the method to use, see [Prepare to back up and restore farms in SharePoint Server](https://technet.microsoft.com/library/56ea0f40-426b-43da-aff5-187fe5adc946). After you determine the farm elements that you will back up, refer to the articles listed in [Backup solutions in SharePoint Server](https://technet.microsoft.com/library/79d47308-a90a-4c51-a1ae-93567e978236). These articles provide detailed instructions and guidance to back up all or part of a farm.
+For more information about how to determine what you need to back up and the method to use, see [Prepare to back up and restore farms in SharePoint Server](/SharePoint/administration/prepare-to-back-up-and-restore). After you determine the farm elements that you will back up, refer to the articles listed in [Backup solutions in SharePoint Server](/SharePoint/administration/backup). These articles provide detailed instructions and guidance to back up all or part of a farm.
   
 > [!IMPORTANT]
 > Test the farm backups before you start to deploy the software update. You have to be sure that these backups are valid so that you can recover if there is a hardware failure or data corruption during the update process. 
@@ -107,7 +107,7 @@ For more information about how to determine what you need to back up and the met
 ## Document the environment
 <a name="docrequirements"> </a>
 
-Be sure to document the farm, including all custom components in the farm, in case you need to rebuild. For more information about how to create an inventory of customizations, see [Create a plan for current customizations during upgrade to SharePoint 2013](https://technet.microsoft.com/library/be1de0da-addb-4e6a-852c-0e68072d7f95). In addition, document unique things about your farm, such as the following:
+Be sure to document the farm, including all custom components in the farm, in case you need to rebuild. For more information about how to create an inventory of customizations, see [Create a plan for current customizations during upgrade to SharePoint 2013](/SharePoint/upgrade-and-update/create-a-communication-plan-for-the-upgrade-to-sharepoint-2013). In addition, document unique things about your farm, such as the following:
   
 - Large lists
     
@@ -168,14 +168,28 @@ You can now use this location as an installation point, or you can create an ima
   
 ### Slipstream package
 
-In server farm deployments, all web servers must have the same software update version applied. This means that, before you add a new web server to an existing server farm, the new web server must have the same software updates as the rest of the web servers in your server farm. Likewise, when you create a farm, all servers in the farm must have the same software updates. To make sure that all new servers have the same software updates applied, we recommend that you create an installation source that contains a copy of the release version of the software and software updates that match those installed on your server farm (also known as a slipstreamed installation source). When you run Setup from this updated installation source, the new web server will have the same software update version as the rest of the web servers in your server farm. 
+SharePoint farm deployments require that all servers have the same patch level when joining the farm. It may also be desired to have a specific patch level when building a new farm. To do this, the update packages can be slipstreamed into the SharePoint installation media. The steps to slipstream an update are outlined below.
+
+* Copy the SharePoint installation media to a read-write location, such as the local disk of the SharePoint server, for example, C:\SharePointInstall.
+
+* Within the extracted SharePoint installation folder, there is an Updates folder, C:\SharePointInstall\Updates. This is the folder where the slipstreamed packages will reside.
+
+* Download the necessary package(s) to bring the new server to the desired patch level.
+
+* Extract each package to the target location. This can be done via the Command Prompt/PowerShell using the following example.
+
+```
+PS C:\>ubersrv2013-kb4092476-fullfile-x64-glb.exe /extract:C\SharePointInstall\Updates
+```
+
+With the extraction complete, run the Setup from the installation location, `C:\SharePointInstall\setup.exe`. Setup will automatically apply the update during the installation process of SharePoint.
   
 ## See also
 <a name="obtainupdate"> </a>
 
 #### Other Resources
 
-[Deploy software updates for SharePoint 2013](https://technet.microsoft.com/library/848b8f29-1deb-4ee8-92d3-8e3090ec83b0)
+[Deploy software updates for SharePoint 2013](/SharePoint/upgrade-and-update/deploy-software-updates-for-sharepoint-2013)
   
 [Install a software update](install-a-software-update.md)
 

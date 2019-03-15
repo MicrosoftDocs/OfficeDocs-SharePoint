@@ -9,17 +9,17 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 7c82bdf9-453f-4ee9-a2e6-20adf05ad59c
-description: "Summary: Secure Store can be used to store encrypted credentials for use in refreshing data-connected Visio diagrams in Visio Services."
+description: "Secure Store can be used to store encrypted credentials for use in refreshing data-connected Visio diagrams in Visio Services."
 ---
 
 # Use Visio Services with Secure Store Service in SharePoint Server
 
- **Summary:** Secure Store can be used to store encrypted credentials for use in refreshing data-connected Visio diagrams in Visio Services. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 Visio Services can be configured to use the Secure Store Service to provide user authentication for data-connected diagrams that use an external data source such as SQL Server.
   
 > [!NOTE]
-> This article assumes that you have already deployed a Secure Store Service service application. If you have not deployed Secure Store, see [Plan the Secure Store Service in SharePoint Server](http://technet.microsoft.com/library/e1196de0-1eb9-4c50-aeca-93e0eba7be0d%28Office.14%29.aspx) and [Configure the Secure Store Service in SharePoint Server](configure-the-secure-store-service.md). 
+> This article assumes that you have already deployed a Secure Store Service service application. If you have not deployed Secure Store, see [Plan the Secure Store Service in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806889(v=office.14)) and [Configure the Secure Store Service in SharePoint Server](configure-the-secure-store-service.md). 
   
 Secure Store provides a method of mapping users who do not have direct data access to an account that does have data access. Secure Store and Visio Services work together in the following basic sequence of events:
   

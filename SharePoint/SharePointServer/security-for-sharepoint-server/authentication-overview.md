@@ -7,18 +7,19 @@ ms.date: 6/21/2017
 ms.audience: ITPro
 ms.topic: overview
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_server
+- Strat_SP_server
+ms.custom: 
 ms.assetid: 403e75f3-9e53-4d5b-a476-365e6e4bc92e
-description: "Summary: Learn about how user authentication, app authentication, and server-to-server authentication work in SharePoint Server 2013 and SharePoint Server 2016 ."
+description: "Learn about how user authentication, app authentication, and server-to-server authentication work in SharePoint Server."
 ---
 
 # Authentication overview for SharePoint Server
 
- **Summary:** Learn about how user authentication, app authentication, and server-to-server authentication work in SharePoint Server 2013 and SharePoint Server 2016 . 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 SharePoint Server requires authentication for the following types of interactions:
   
@@ -119,7 +120,7 @@ For SharePoint App Catalog apps, an example of the authentication process is as 
 > [!NOTE]
 > App Catalog apps can use either ACS or a self-signed certificate for their access tokens. 
   
-For more information, see [Plan for app authentication in SharePoint 2013 Preview](http://technet.microsoft.com/library/f559ebc4-a5ef-4446-9b8e-7fab864d79dc.aspx).
+For more information, see [Plan for app authentication in SharePoint 2013 Preview](/SharePoint/security-for-sharepoint-server/plan-for-app-authentication-in-sharepoint-server).
   
 ## Server-to-server authentication in SharePoint Server
 <a name="s2sauth"> </a>

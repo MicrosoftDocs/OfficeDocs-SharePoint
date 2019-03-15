@@ -9,18 +9,18 @@ ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: d7abd498-7bc4-44fe-a086-d9b1c5a340d2
-description: "Summary: Learn how to plan document library use, access, and workflow in SharePoint Server."
+description: "Learn how to plan document library use, access, and workflow in SharePoint Server."
 ---
 
 # Plan document libraries in SharePoint Server
 
- **Summary:** Learn how to plan document library use, access, and workflow in SharePoint Server. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 This article describes how to plan document libraries in your SharePoint Server document management solution.
   
 Document libraries are collections of files on SharePoint Server that you share with other site users. Most document management features are delivered through document libraries. As part of document management planning, you should determine the kind of document libraries that best fit your organization's needs. If you plan document libraries for multiple sites, you might have to plan the flow of content from one site to another. If you plan to use document libraries as storage locations, you can customize the Office **Open** dialog box and the **Save** dialog box to ensure that documents are stored in the preferred location. 
   
-Before reading this article, you should understand the document management process described in [Overview of document management in SharePoint 2013](http://technet.microsoft.com/library/15e6e3a3-9d35-47af-b287-13aec95d247e%28Office.14%29.aspx) . 
+Before reading this article, you should understand the document management process described in [Overview of document management in SharePoint 2013](/previous-versions/office/sharepoint-server-2010/cc261933(v=office.14)) . 
   
 > [!NOTE]
 > The publishing feature, Document Center, Records Center, and Published Links web service are not available in SharePoint Foundation 2013. All other content in this topic applies to SharePoint Server 2016, SharePoint Server 2013 and SharePoint Foundation 2013 unless otherwise noted. 
@@ -100,7 +100,7 @@ The following figure shows how these libraries might be distributed. The sites a
 
 Content in a document management solution is often dynamic, moving from one site to another as needed to meet users' needs. When you plan document libraries, therefore, you often plan the flow of content from one library or site to another. SharePoint Server 2013 includes the following ways to move content, either manually or dynamically:
   
-- You can create custom workflows that copy or move content from one site or library to another. A workflow guides a document through a business process and assigns tasks to participants when their role in the document's life cycle becomes active. A workflow can be designed to move a document from one site or library to another. For information about how to plan workflows, see [Plan content types and workflows in SharePoint 2013](http://technet.microsoft.com/library/63bb092a-00fe-45ff-a4b8-d8be998d1a3c%28Office.14%29.aspx).
+- You can create custom workflows that copy or move content from one site or library to another. A workflow guides a document through a business process and assigns tasks to participants when their role in the document's life cycle becomes active. A workflow can be designed to move a document from one site or library to another. For information about how to plan workflows, see [Plan content types and workflows in SharePoint 2013](/previous-versions/office/sharepoint-server-2010/cc262735(v=office.14)).
     
 - Authors can copy a document to a library in any site in which they have authoring permissions. The relationship between the source and the destination document is maintained so that the copy can be refreshed as needed.
     

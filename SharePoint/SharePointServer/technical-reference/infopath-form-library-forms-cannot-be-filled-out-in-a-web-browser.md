@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 7ebd1422-4f3d-44b9-8df6-75274c65b7e5
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleInfoPath form library forms cannot be filled out in a Web browser, in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: InfoPath form library forms cannot be filled out in a Web browser, for SharePoint Server."
 ---
 
 # InfoPath form library forms cannot be filled out in a Web browser (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "InfoPath form library forms cannot be filled out in a Web browser", in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
  **Rule Name:** InfoPath form library forms cannot be filled out in a Web browser 
   
@@ -59,7 +59,7 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleI
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -69,6 +69,6 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleI
   Set-SPInfoPathFormsService -AllowUserFormBrowserRendering $true
   ```
 
-For more information, see [Set-SPInfoPathFormsService](http://technet.microsoft.com/library/ac13cd00-c372-4159-943d-98c016c7e96a.aspx).
+For more information, see [Set-SPInfoPathFormsService](/powershell/module/sharepoint-server/Set-SPInfoPathFormsService?view=sharepoint-ps).
   
 

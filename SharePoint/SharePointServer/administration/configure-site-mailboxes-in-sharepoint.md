@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 57b7618a-2ca4-450d-aa8b-77bce21a9884
-description: "Summary: Configure Exchange Server, SharePoint Server 2016 and SharePoint Server 2013for team email by using the Site Mailboxes feature."
+description: "Configure Exchange Server, SharePoint Server for team email by using the Site Mailboxes feature."
 ---
 
 # Configure site mailboxes in SharePoint Server
 
- **Summary:** Configure Exchange Server, SharePoint Server 2016 and SharePoint Server 2013 for team email by using the Site Mailboxes feature. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 This article describes how to configure Site Mailboxes in SharePoint Server and Exchange Server. The Site Mailboxes feature provides SharePoint Server users with team email on a site. Site Mailboxes also provides links to SharePoint document libraries in Microsoft Outlook, enabling users to share files and email messages with other members of a team that are working on a joint project. 
   
@@ -33,9 +33,9 @@ Before you begin this operation, review the following information about prerequi
   
 - Site Mailboxes feature requires that user profile synchronization be configured in the farm. For information about configuring user profile synchronization, see [User profiles and identities](user-profiles-and-identities.md), and [Manage user profile synchronization in SharePoint Server](manage-profile-synchronization.md).
     
-- Site Mailboxes feature requires that the app management service application be configured in the farm. For information about configuring the app management service application, see [New-SPAppManagementServiceApplication](http://technet.microsoft.com/library/98d0241e-5423-481e-b08e-00b369681212.aspx).
+- Site Mailboxes feature requires that the app management service application be configured in the farm. For information about configuring the app management service application, see [New-SPAppManagementServiceApplication](/powershell/module/sharepoint-server/New-SPAppManagementServiceApplication?view=sharepoint-ps).
     
-- Secure Sockets Layer (SSL) configured for the Default Zone is a requirement for web applications that are deployed in scenarios that support server-to-server authentication and app authentication. This is such a scenario. As a prerequisite for configuring Site Mailboxes, the computer that is running SharePoint Server must have SSL configured. For more information, see [Create claims-based web applications in SharePoint Server](http://technet.microsoft.com/library/83496762-172a-44a4-bf57-1d7ea8008d7d%28Office.14%29.aspx) and follow the steps for creating an SSL site collection and server certificate. 
+- Secure Sockets Layer (SSL) configured for the Default Zone is a requirement for web applications that are deployed in scenarios that support server-to-server authentication and app authentication. This is such a scenario. As a prerequisite for configuring Site Mailboxes, the computer that is running SharePoint Server must have SSL configured. For more information, see [Create claims-based web applications in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806885(v=office.14)) and follow the steps for creating an SSL site collection and server certificate. 
     
 Note that you may need to import the Exchange Server SSL certificate from Exchange Server to SharePoint Server, and from SharePoint Server to Exchange Server. This is only necessary if the certificate is not trusted for the API endpoints (such as a Self-SSL Certificate in a lab environment). 
 To import an untrusted SSL certificate to a new server: 
@@ -65,9 +65,9 @@ The first step in configuring Site Mailboxes is to install the Exchange Server W
     
 3. Run the following command:
     
-  ```
-  msiexec /I EwsManagedApi.msi addlocal="ExchangeWebServicesApi_Feature,ExchangeWebServicesApi_Gac"
-  ```
+   ```
+   msiexec /I EwsManagedApi.msi addlocal="ExchangeWebServicesApi_Feature"
+   ```
 
 4. Reset IIS from the command line by typing IISReset.
     
@@ -179,7 +179,7 @@ Set-SPAppPrincipalPermission -AppPrincipal $appPrincipal -Site $rootWeb -Scope S
 Write-Host
 Write-Host
 Write-Host "Verifying Site Mailbox Configuration"
-$warnings = &amp; $script:currentDirectory\Check-SiteMailboxConfig.ps1 -ReturnWarningState
+$warnings = & $script:currentDirectory\Check-SiteMailboxConfig.ps1 -ReturnWarningState
 if($warnings -and -not $Force)
 {
     Write-Warning "Pre-requisites not satisfied. Stopping Set-SiteMailboxConfig. Use -Force to override"
@@ -418,17 +418,18 @@ Save the two .ps1 files to the same folder on a SharePoint Server Front-end or A
 The Check-SiteMailboxConfig.ps1 is called as part of the Set-SiteMailboxConfig script, and it confirms that the configuration has been successful (it can also be run separately).
   
 The format should be as follows:
-  
-.\Set-SiteMailboxConfig.ps1 -ExchangeSiteMailboxDomain \<Domain\> -ExchangeAutodiscoverDomain [Exchange Server] -WebApplicationUrl [URL]
-  
+
+```
+   .\Set-SiteMailboxConfig.ps1 -ExchangeSiteMailboxDomain \<Domain\> -ExchangeAutodiscoverDomain [Exchange Server] -WebApplicationUrl [URL]
+```  
 Where \<Domain\> equals the FQDN of the domain your Exchange Server is in, and \<Exchange Server\> is the Exchange Server that you intend to connect to. This is a required parameter.
   
 Optional parameters are [Exchange Server], which is the Exchange Server you intend to connect to (this is needed if Autodiscover is not enabled or properly configured) and [URL], which would be a specific URL that you may be configuring (typically used in an environment with SSL and non-SSL web applications).
   
-> Example: 
-
-> .\Set-SiteMailboxConfig.ps1 -ExchangeSiteMailboxDomain tailspintoys.com -ExchangeAutodiscoverDomain exchange1.tailspintoys.com -WebApplicationUrl https://tailspintoys.com
-
+Example: 
+```
+   .\Set-SiteMailboxConfig.ps1 -ExchangeSiteMailboxDomain tailspintoys.com -ExchangeAutodiscoverDomain exchange1.tailspintoys.com -WebApplicationUrl https://tailspintoys.com
+```
 If you encounter an error while running the script, refer to the "Troubleshooting" section in this article for guidance.
   
 ## Configure Exchange Server for Site Mailboxes
@@ -442,11 +443,11 @@ The final step is to establish OAuth trust, and service permissions, on the Exch
     
 2. Run the following command:
     
-  ```
-  .\Configure-EnterprisePartnerApplication.ps1 -ApplicationType Sharepoint -AuthMetadataUrl https://<SP_FQDN>/_layouts/15/metadata/json/1
-  ```
+   ```
+   .\Configure-EnterprisePartnerApplication.ps1 -ApplicationType Sharepoint -AuthMetadataUrl https://<SP_FQDN>/_layouts/15/metadata/json/1
+   ```
 
-    Where \<SP_FQDN\> is the URL to the SharePoint SSL root site collection that you want to configure.
+    Where \<SP_FQDN> is the URL to the SharePoint SSL root site collection that you want to configure.
     
 ## Troubleshooting
 <a name="touble"> </a>
@@ -484,7 +485,7 @@ Please review the following table if you encounter issues.
 [Configure email integration for a SharePoint Server farm](configure-email-integration.md)
 #### Other Resources
 
-[Site mailboxes](https://technet.microsoft.com/en-us/library/mt577268%28v=exchg.160%29.aspx)
+[Site mailboxes](/Exchange/collaboration/site-mailboxes?view=exchserver-2019)
   
-[Collaboration](https://technet.microsoft.com/en-us/library/mt577263%28v=exchg.160%29.aspx)
+[Collaboration](/Exchange/collaboration/collaboration?view=exchserver-2019)
 

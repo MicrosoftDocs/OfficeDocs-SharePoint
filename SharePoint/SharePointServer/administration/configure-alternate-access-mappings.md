@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: be9d31d2-b9cb-4442-bfc6-2adcdbff8fae
-description: "Summary: Learn how to configure alternate access mappings in SharePoint 2013 or SharePoint Server 2016."
+description: "Learn how to configure alternate access mappings in SharePoint Server."
 ---
 
 # Configure alternate access mappings for SharePoint Server
 
- **Summary:** Learn how to configure alternate access mappings in SharePoint 2013 or SharePoint Server 2016. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 Each web application can be associated with a collection of mappings between internal and public URLs. Both internal and public URLs consist of the protocol and domain portions of the full URL (for example, https://www.fabrikam.com). A public URL is what users type to access the SharePoint site, and that URL is what appears in the links on the pages. Internal URLs are in the URL requests that are sent to the SharePoint site. Many internal URLs can be associated with a single public URL in multi-server farms (for example, when a load balancer routes requests to specific IP addresses to various servers in the load-balancing cluster).
   
@@ -29,7 +29,7 @@ Each web application supports five collections of mappings per URL. The five col
     
 2. On the **System Settings** page, in the **Farm Management** section, click **Configure alternate access mappings**.
     
-For information about how to perform this procedure using a Microsoft PowerShell cmdlet, see [New-SPAlternateUrl](https://technet.microsoft.com/library/450f057d-1cb8-4680-b28d-0db4d1b7e09c.aspx).
+For information about how to perform this procedure using a Microsoft PowerShell cmdlet, see [New-SPAlternateUrl](/powershell/module/sharepoint-server/New-SPAlternateUrl?view=sharepoint-ps).
   
 ## Add an internal URL
 
@@ -64,7 +64,7 @@ For information about how to perform this procedure using a Microsoft PowerShell
     
 5. Click **Delete** to delete the internal URL. 
     
-For information about how to perform this procedure using a Microsoft PowerShell cmdlet, see [Remove-SPAlternateUrl](https://technet.microsoft.com/library/25af02dd-ae9f-4ec0-a099-3c6cd38f2187.aspx).
+For information about how to perform this procedure using a Microsoft PowerShell cmdlet, see [Remove-SPAlternateUrl](/powershell/module/sharepoint-server/Remove-SPAlternateUrl?view=sharepoint-ps).
   
 ## Edit public URLs
 

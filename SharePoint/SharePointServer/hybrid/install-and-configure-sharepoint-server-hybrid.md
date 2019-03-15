@@ -12,13 +12,14 @@ ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
+- M365-collaboration
 ms.assetid: ea492d95-d2de-4db2-a848-96cb12dc9eaa
-description: "Summary: Learn about the installation and configuration tasks that are required to set up your chosen SharePoint hybrid solution."
+description: "Learn about the installation and configuration tasks that are required to set up your chosen SharePoint hybrid solution."
 ---
 
 # Install and configure SharePoint Server hybrid
 
- **Summary:** Learn about the installation and configuration tasks that are required to set up your chosen SharePoint hybrid solution. 
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)] 
   
 By now, you've reviewed the [planning information for your hybrid solution](plan-sharepoint-server-hybrid.md). It's time to get started with the installation and configuration tasks for your chosen solution.
   

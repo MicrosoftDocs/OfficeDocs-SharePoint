@@ -3,18 +3,18 @@ title: "Yammer networks, groups, and users overview"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 3/9/2018
+ms.date: 9/7/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 85ba39ff-5dd3-4a88-98c2-5ec9d6928d2e
-description: "Summary: Learn about the roles of networks, groups, and users in Yammer."
+description: "Learn about the roles of networks, groups, and users in Yammer."
 ---
 
 # Yammer networks, groups, and users overview
 
- **Summary:** Learn about the roles of networks, groups, and users in Yammer. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 This article describes Yammer networks, groups, and users, which together serve as a foundation for providing you with a rich Yammer experience within SharePoint.
   
@@ -45,32 +45,23 @@ By using Yammer groups, you can create a workspace dedicated to a certain topic,
 - By using **private groups**, you can limit membership and participation to invitation or approval only from group administrators. You can hide private groups from the group's directory.
     
 > [!NOTE]
-> Yammer groups aren't security principals like SharePoint groups, or Active Directory Domain Services (AD DS) groups, and synchronizing groups with AD DS isn't supported. > With Yammer Enterprise, if you [Enforce Office 365 identity for Yammer users](http://technet.microsoft.com/library/008f940b-6bec-47fc-bcc6-9c6133467562%28Office.14%29.aspx), groups can be [Yammer and Office 365 Groups](http://technet.microsoft.com/library/d8c239dc-a48b-47ab-b85e-6b4b8191a869%28Office.14%29.aspx). 
+>Yammer groups aren't security principals like SharePoint groups, or Active Directory Domain Services (AD DS) groups, and synchronizing groups with AD DS isn't supported. With Yammer Enterprise, if you [Enforce Office 365 identity for Yammer users](/yammer/configure-your-yammer-network/enforce-office-365-identity), groups can be [Yammer and Office 365 Groups](/yammer/manage-yammer-groups/yammer-and-office-365-groups). 
   
 ## Yammer users
 
-Users are the core of the enterprise social network, and you can add users individually or in bulk from the Yammer **Admin** page. Yammer Enterprise users can be [Manage Yammer users across their life cycle from Office 365](http://technet.microsoft.com/library/6c4c8fff-6444-404a-bffc-f9da0bcc3039%28Office.14%29.aspx).
+Users are the core of the enterprise social network, and you can add users individually or in bulk from the Yammer **Admin** page. Yammer Enterprise users can be [Manage Yammer users across their life cycle from Office 365](/yammer/manage-yammer-users/manage-users-across-their-lifecycle).
   
 Yammer users exist in a limited number of states, as shown in the following diagram:
   
-**Yammer user states**
-
-![Yammer user states diagram](../media/YammerUserStates.gif)
-  
-**Table: Yammer user states**
-
-|**User state**|**Description**|
-|:-----|:-----|
-|Pending  <br/> |Invited users who are not yet active. Pending users can be activated or deleted.  <br/> |
-|Active  <br/> |Users that have joined the network and that can use Yammer features. Active users can be suspended or deleted.  <br/> |
-|Suspended  <br/> |Users can be deactivated either through the **Admin** page or directory sync. Suspended users can be reactivated or deleted.  <br/> |
-|Deleted  <br/> |After some time, the state of the user account changes from Suspended to Deleted. If a user is deleted, you can invite or add the email address again, and the user is pending until activated.  <br/> |
-   
 ## See also
+
+[About Yammer networks and Office 365 tenants](/yammer/configure-your-yammer-network/yammer-and-office-365)
+
+[Create and manage an external network in Yammer](/yammer/work-with-external-users/create-and-manage-an-external-network)
 
 #### Concepts
 
-[Integrate Yammer with on-premises SharePoint 2013 environments](integrate-yammer-with-on-premises-sharepoint-2013-environments.md)
+[Integrate Yammer with on-premises SharePoint Server environments](integrate-yammer-with-on-premises-sharepoint-server-environments.md)
   
-[Social scenarios with Yammer and SharePoint Server 2013](social-scenarios-with-yammer-and-sharepoint-server-2013.md)
+[Social scenarios with Yammer and SharePoint Server](social-scenarios-with-yammer-and-sharepoint-server.md)
 

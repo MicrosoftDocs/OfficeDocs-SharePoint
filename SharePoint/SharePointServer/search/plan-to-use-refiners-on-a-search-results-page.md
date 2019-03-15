@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 71322660-64f2-4d34-9b63-a39fc9548dfc
-description: "Summary: Learn how to plan to use refiners on a search results page in SharePoint Server 2016 or SharePoint Server 2013."
+description: "Learn how to plan to use refiners on a search results page in SharePoint Server."
 ---
 
 # Plan to use refiners on a search results page in SharePoint Server
 
- **Summary:** Learn how to plan to use refiners on a search results page in SharePoint Server 2016 or SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 In this article, you'll learn:
   

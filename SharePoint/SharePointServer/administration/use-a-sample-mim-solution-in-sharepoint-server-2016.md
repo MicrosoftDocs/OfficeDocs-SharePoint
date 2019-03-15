@@ -1,5 +1,5 @@
 ---
-title: "Use a sample MIM solution in SharePoint Server 2016"
+title: "Use a sample MIM solution in SharePoint Servers 2016 and 2019"
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
@@ -12,14 +12,14 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: b4c2dace-97fc-43c7-8991-44279a4fe05d
-description: "Summary: How to configure SharePoint Server 2016 profile synchronization with Microsoft Identity Manager (MIM)."
+description: "How to configure SharePoint Server profile synchronization with Microsoft Identity Manager (MIM)."
 ---
 
-# Use a sample MIM solution in SharePoint Server 2016
+# Use a sample MIM solution in SharePoint Servers 2016 and 2019
 
- **Summary:** How to configure SharePoint Server 2016 profile synchronization with Microsoft Identity Manager (MIM). 
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)]
   
-The article outlines a solution that will help you to install and synchronize accounts to SharePoint Server using Microsoft Identity Management, or MIM. MIM 2016 is the successor to a profile synchronization technology leveraged by previous versions of SharePoint Server that was known as Forefront Identity Manager, or FIM. FIM is no longer included as part of the product as of SharePoint Server 2016. However, MIM is not the only synchronization solution that SharePoint Server 2016 offers. If you would prefer to use the Active Directory Direct Import that is built-in with SharePoint Server 2016, please see the configuration article [here](https://technet.microsoft.com/en-us/library/jj219646.aspx). Otherwise, follow the steps in this article to configure a new installation of MIM for your User Profile Synchronization.
+The article outlines a solution that will help you to install and synchronize accounts to SharePoint Server using Microsoft Identity Management, or MIM. MIM 2016 is the successor to a profile synchronization technology leveraged by previous versions of SharePoint Server that was known as Forefront Identity Manager, or FIM. FIM is no longer included as part of the product as of SharePoint Server 2016. However, MIM is not the only synchronization solution that SharePoint Server 2016 offers. If you would prefer to use the Active Directory Direct Import that is built-in with SharePoint Server 2016, please see the configuration article [here](/SharePoint/administration/configure-profile-synchronization-by-using-sharepoint-active-directory-import). Otherwise, follow the steps in this article to configure a new installation of MIM for your User Profile Synchronization.
   
 - [Download the solutions files that you need](use-a-sample-mim-solution-in-sharepoint-server-2016.md#BKMK_Download)
     
@@ -30,7 +30,7 @@ The article outlines a solution that will help you to install and synchronize ac
 - [The Microsoft PowerShell to start the SharePoint Synchronization Configuration](use-a-sample-mim-solution-in-sharepoint-server-2016.md#BKMK_StartSyncConfig)
     
 > [!IMPORTANT]
-> The solutions files referenced in this article are available for download [here](https://github.com/OfficeDev/PnP-Tools/tree/master/Solutions/UserProfile.MIMSync). You will need a GitHub account for access. See the section 'Download the solutions files that you need' for more details. > Microsoft Identity Manager 2016 is available for download from the [Microsoft Volume Licensing Center](https://www.microsoft.com/Licensing/servicecenter/default.aspx). (Log in and search on the product name.) > On your MIM server, be sure to install [KB3092179](https://support.microsoft.com/en-us/kb/3092179). 
+> The solutions files referenced in this article are available for download [here](https://github.com/OfficeDev/PnP-Tools/tree/master/Solutions/UserProfile.MIMSync). You will need a GitHub account for access. See the section 'Download the solutions files that you need' for more details. > Microsoft Identity Manager 2016 is available for download from the [Microsoft Volume Licensing Center](https://www.microsoft.com/Licensing/servicecenter/default.aspx). (Log in and search on the product name.) > On your MIM server, be sure to install Service Pack 1 (https://aka.ms/mim2016sp1upgrade). 
   
 ## Download the solutions files that you need
 <a name="BKMK_Download"> </a>

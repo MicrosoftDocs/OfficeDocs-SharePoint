@@ -12,13 +12,16 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 0ffd36db-3f34-4f9f-b3fe-c8bea09a9d8f
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleSearch - One or more crawl databases may have fragmented indicesfor SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: Search - One or more crawl databases may have fragmented indices, for SharePoint Server."
 ---
 
 # Search - One or more crawl databases may have fragmented indices (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "Search - One or more crawl databases may have fragmented indices" for SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
+>[!IMPORTANT]
+>This health analyzer rule only applies to SharePoint 2010 as this was removed in [KB4011601](https://support.microsoft.com/help/4011601) for SharePoint Server 2013 and [KB4011576](https://support.microsoft.com/help/4011576) for SharePoint Server 2016.
+
  **Rule Name:** Search - One or more crawl databases may have fragmented indices. 
   
  **Summary:** This article describes the SharePoint Health Analyzer rule for Search service application crawl database defragmentation. The fragmentation of crawl data indexes occurs on a different level than regular disk fragmentation. It occurs in each crawl database as data is created, updated, or deleted during normal crawl activity. When you run the health rule, the system makes used storage contiguous, eliminates unused storage, and compacts the database. 

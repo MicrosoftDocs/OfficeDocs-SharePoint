@@ -1,7 +1,7 @@
 ---
 title: "Configure and use the Exchange connector for SharePoint Server"
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: tlarsen
+author: tklarsen
 manager: pamgreen
 ms.date: 3/6/2018
 ms.audience: ITPro
@@ -10,13 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: ffec2e36-9142-45ae-866e-308d6efbc114
-description: "Summary: Learn how to create a crawl rule and add a content source to crawl Exchange Server public folders."
+description: "Learn how to create a crawl rule and add a content source to crawl Exchange Server public folders."
 ---
 
 # Configure and use the Exchange connector for SharePoint Server
 
- **Summary:** Learn how to create a crawl rule and add a content source to crawl Exchange Server public folders. 
-  
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
     
 ## Before you begin
 <a name="begin"> </a>

@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: bdb3b575-7c20-490d-9a28-e7108edabad5
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleCached objects have been evicted."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: Cached objects have been evicted."
 ---
 
 # Cached objects have been evicted (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "Cached objects have been evicted." 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
  **Rule Name:** Cached objects have been evicted 
   
@@ -44,7 +44,7 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleC
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
@@ -52,7 +52,7 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleC
     
      `Get-SPDistributedCacheClientSetting`
     
-    For more information, see [Get-SPDistributedCacheClientSetting](http://technet.microsoft.com/library/e35ab9af-c244-47ad-8d8b-61c3bb91686f.aspx)
+    For more information, see [Get-SPDistributedCacheClientSetting](/powershell/module/sharepoint-server/Get-SPDistributedCacheClientSetting?view=sharepoint-ps)
     
 4. Stop the Distributed Cache service on all cache hosts in the farm. To do this, run the following command on each cache host:
     
@@ -80,7 +80,7 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleC
 [Plan for feeds and the Distributed Cache service in SharePoint Server](../administration/plan-for-feeds-and-the-distributed-cache-service.md)
 #### Other Resources
 
-[Update-SPDistributedCacheSize](http://technet.microsoft.com/library/8e483d89-60a9-48b8-a2e3-2e848159833b.aspx)
+[Update-SPDistributedCacheSize](/powershell/module/sharepoint-server/Update-SPDistributedCacheSize?view=sharepoint-ps)
   
 [Planning and using the Distributed Cache service](http://go.microsoft.com/fwlink/p/?LinkID=271302)
 

@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 4c50e9d2-a1f9-45a5-8466-829e056a92d0
 
-description: "Summary: Learn how to create, publish and use a basic Excel Services dashboard using a Data Model that is created in Excel."
+description: "Learn how to create, publish and use a basic Excel Services dashboard using a Data Model that is created in Excel."
 ---
 
 # Create an Excel Services dashboard using a Data Model (SharePoint Server 2013)
 
- **Summary:** Learn how to create, publish and use a basic Excel Services dashboard using a Data Model that is created in Excel. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 This article describes, step by step, how to create a Data Model, how to create some reports and a slicer, and then how to publish the dashboard to SharePoint Server 2013. The example dashboard described in this article resembles the following image:
   
@@ -35,11 +35,11 @@ Before you begin this operation, review the following information about prerequi
     
 - This scenario uses Adventure Works sample data and a Business Intelligence Center site in SharePoint Server 2013. If you do not have the sample data and a Business Intelligence Center site, have an IT administrator configure them for you using the instructions in [Configure AdventureWorks for Business Intelligence solutions](configure-adventureworks.md).
     
-- Excel Services must be configured to support Data Models in the SharePoint environment that you are using. For information about how to deploy Excel Services, see [Configure Excel Services in SharePoint Server 2013](http://technet.microsoft.com/library/9cb81758-9d0b-4970-9ca0-a75eedf6093b.aspx) and [Manage Excel Services data model settings (SharePoint Server 2013)](manage-excel-services-data-model-settings.md).
+- Excel Services must be configured to support Data Models in the SharePoint environment that you are using. For information about how to deploy Excel Services, see [Configure Excel Services in SharePoint Server 2013](/SharePoint/administration/configure-excel-services) and [Manage Excel Services data model settings (SharePoint Server 2013)](manage-excel-services-data-model-settings.md).
     
 - You must have some information about what authentication settings are used for Excel Services. For example, if your organization is using Secure Store Service, you will need the Secure Store target application ID for Excel Services data access. 
     
-    For information about how to configure Secure Store, see [Plan the Secure Store Service in SharePoint Server](http://technet.microsoft.com/library/e1196de0-1eb9-4c50-aeca-93e0eba7be0d%28Office.14%29.aspx) and [Configure the Secure Store Service in SharePoint Server](configure-the-secure-store-service.md).
+    For information about how to configure Secure Store, see [Plan the Secure Store Service in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806889(v=office.14)) and [Configure the Secure Store Service in SharePoint Server](configure-the-secure-store-service.md).
     
 ## Plan the dashboard
 <a name="part1"> </a>

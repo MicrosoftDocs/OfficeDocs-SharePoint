@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 39f9eaa2-867e-47b9-b7ea-bff74f9f8c6a
-description: "Summary: The articles in this section help you operate and maintain servers, server farms, sites, and solutions in a SharePoint Server 2016 and a SharePoint Server 2013 environment."
+description: "The articles in this section help you operate and maintain servers, server farms, sites, and solutions in a SharePoint Server environment."
 ---
 
 # Administration of SharePoint Server
 
- **Summary:** The articles in this section help you operate and maintain servers, server farms, sites, and solutions in a SharePoint Server 2016 and a SharePoint Server 2013 environment. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
   
 ## Articles about operations and maintenance in SharePoint Server
@@ -36,7 +36,7 @@ description: "Summary: The articles in this section help you operate and maintai
    
 ## Related operations and maintenance articles for SharePoint Server
 
-- [Windows PowerShell Reference for SharePoint](https://docs.microsoft.com/en-us/powershell/sharepoint/?view=sharepoint-ps)
+- [Microsoft PowerShell Reference for SharePoint](/powershell/sharepoint/?view=sharepoint-ps)
     
 - [System Center Operations Manager knowledge articles for SharePoint Server](../technical-reference/system-center-operations-manager-knowledge-articles.md)
     

@@ -12,14 +12,14 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 52e844d0-5f65-4091-8c16-549b1f25a587
-description: "Summary: Administrator guidance for multi-tenant hosts in SharePoint Server 2013."
+description: "Administrator guidance for multi-tenant hosts in SharePoint Server."
 ---
 
 # General guidance for hosters in SharePoint Server 2013
 
- **Summary:** Administrator guidance for multi-tenant hosts in SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
-This article describes general guidance and concepts related to multi-tenancy in SharePoint Server 2013 
+This article describes general guidance and concepts related to multi-tenancy in SharePoint Server 2013. 
   
 For information about architectural, security, operational, and management guidance to help service providers in gaining an understanding of multi-tenancy in SharePoint Server 2013, see [Understanding Multi-Tenancy in Microsoft SharePoint Server 2013](understanding-multi-tenancy.md).
   
@@ -127,7 +127,7 @@ Depending upon authentication requirements, custom code may be required. When us
 > [!NOTE]
 > The previous considerations are valid for both single-tenant per farm and multi-tenant per farm. 
   
-For additional information about SAML authentication and FBA authentication in SharePoint Server 2013, see [Configure SAML-based claims authentication with AD FS in SharePoint Server](https://technet.microsoft.com/library/cb9ade1e-a3a1-4d99-a100-0b451f8272ea) and [Configure forms-based authentication for a claims-based web application in SharePoint Server](https://technet.microsoft.com/library/fd1391bb-c787-4742-b007-bf57e18dad66).
+For additional information about SAML authentication and FBA authentication in SharePoint Server 2013, see [Configure SAML-based claims authentication with AD FS in SharePoint Server](/sharepoint/security-for-sharepoint-server/security-for-sharepoint-server) and [Configure forms-based authentication for a claims-based web application in SharePoint Server](/sharepoint/security-for-sharepoint-server/security-for-sharepoint-server).
   
 #### The Tenant Administrator Experience
 

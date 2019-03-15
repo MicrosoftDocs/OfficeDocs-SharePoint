@@ -12,15 +12,16 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: b5f098eb-219a-4483-adee-75d7b6b3089a
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleValidate the My Site Host and individual My Sites are on a dedicated Web application and separate URL domain."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: Validate the My Site Host and individual My Sites are on a dedicated Web application and separate URL domain."
 ---
 
 # Validate the My Site Host and individual My Sites are on a dedicated Web application and separate URL domain (SharePoint Server)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "Validate the My Site Host and individual My Sites are on a dedicated Web application and separate URL domain. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
-, for SharePoint Server 2016 and SharePoint Server 2013.
-  
+>[!IMPORTANT]
+>This health analyzer rule only applies to SharePoint 2010 as this was removed in [KB4011601](https://support.microsoft.com/help/4011601) for SharePoint Server 2013 and [KB4011576](https://support.microsoft.com/help/4011576) for SharePoint Server 2016.
+
  **Rule Name:** Validate the My Site Host and individual My Sites are on a dedicated Web application and separate URL domain. 
   
  **Summary:** For performance and manageability reasons, we recommend that the My Site host and individual My Sites be deployed in a dedicated Web application. The owner of each individual My Site is the site collection administrator for that My Site. Having a dedicated Web application for the My Site host and individual My Sites reduces the security risk that a My Site owner can introduce same-domain scripting attacks on other sites that are hosted on the same Web application. 
@@ -31,7 +32,7 @@ description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleV
   
 - We recommend that you have a separate, dedicated Web application to host the My Site host and individual My Sites.
     
-    For more information, see [Create a web application in SharePoint Server](http://technet.microsoft.com/library/121c8d83-a508-4437-978b-303096aa59df%28Office.14%29.aspx).
+    For more information, see [Create a web application in SharePoint Server](/previous-versions/office/sharepoint-server-2010/cc261875(v=office.14)).
     
 ## See also
 <a name="server"> </a>

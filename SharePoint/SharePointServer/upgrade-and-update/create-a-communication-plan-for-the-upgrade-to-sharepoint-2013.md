@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 6633015d-3938-4d83-b814-f3af85101f49
-description: "Summary: Communicate timelines, requirements, and how to obtain help with site owners and users during upgrade to SharePoint 2013."
+description: "Communicate timelines, requirements, and how to obtain help with site owners and users during upgrade to SharePoint 2013."
 ---
 
 # Create a communication plan for the upgrade to SharePoint 2013
 
- **Summary:** Communicate timelines, requirements, and how to obtain help with site owners and users during upgrade to SharePoint 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
   
 It is important that you communicate with users during the upgrade process from SharePoint 2010 Products to SharePoint 2013. Site users have to know what to expect when they visit their sites again after you have upgraded the environment. Site owners have to know how they can help prepare for upgrade and what they have to do to upgrade their site collections in SharePoint 2013 and My Sites in SharePoint 2013. Both site users and site owners have to know when the upgrade will occur. As part of the planning process, determine the following:
   
@@ -53,7 +53,7 @@ For small deployments in which sites were not customized extensively, the upgrad
     
 - **Site collection owners** You must notify site collection owners when the upgrade process is about to occur. Warn them about any issues that you find when you run the pre-upgrade checker or when you upgrade their sites. You must also communicate with site collection owners about their role in upgrade. Site collection owners can upgrade their own sites in SharePoint 2013. Site collection owners can run health checks and review upgrade evaluation sites before they upgrade their sites. 
     
-- **Site designers and developers and third-party solution providers** If you have custom templates, Web Parts, Web services, or other custom elements that are associated with your sites, you must work with the associated site designers and developers or third-party solution providers. Because custom elements can fail or perform differently in an upgraded environment, you have to make sure that designers or developers can create new versions of these custom elements or verify that these elements were upgraded correctly. Because their work can have a big influence on the upgrade schedule, work with these stakeholders early in the process. For more information about potential issues with custom elements, see [Use a trial upgrade to SharePoint 2013 to find potential issues](http://technet.microsoft.com/library/2b5d3825-adba-4185-84f2-ef59e8110fac%28Office.14%29.aspx).
+- **Site designers and developers and third-party solution providers** If you have custom templates, Web Parts, Web services, or other custom elements that are associated with your sites, you must work with the associated site designers and developers or third-party solution providers. Because custom elements can fail or perform differently in an upgraded environment, you have to make sure that designers or developers can create new versions of these custom elements or verify that these elements were upgraded correctly. Because their work can have a big influence on the upgrade schedule, work with these stakeholders early in the process. For more information about potential issues with custom elements, see [Use a trial upgrade to SharePoint 2013 to find potential issues](/previous-versions/office/sharepoint-server-2010/cc262155(v=office.14)).
     
 - **Site users** Although you do not have to include site users in making decisions about the upgrade process, you must tell site users when it will occur and what they should expect. 
     
@@ -92,7 +92,7 @@ It is equally important to communicate with the users of the sites to tell them 
     
 - **How to obtain help** If they find an issue with their site after upgrade, how can they obtain help in addressing it? 
     
-You can use the new system status bar in the site collections to notify users of these items. For more information about how to set notifications for the status bar, see [Plan for site collection upgrades in SharePoint 2013](http://technet.microsoft.com/library/e7455e3f-6770-4785-8d3e-da72cb7de261%28Office.14%29.aspx#Notifications) in the article [Plan for site collection upgrades in SharePoint 2013](http://technet.microsoft.com/library/e7455e3f-6770-4785-8d3e-da72cb7de261%28Office.14%29.aspx).
+You can use the new system status bar in the site collections to notify users of these items. For more information about how to set notifications for the status bar, see [Plan for site collection upgrades in SharePoint 2013](/previous-versions/office/sharepoint-server-2010/ff191199(v=office.14)#Notifications) in the article [Plan for site collection upgrades in SharePoint 2013](/previous-versions/office/sharepoint-server-2010/ff191199(v=office.14)).
   
 ## See also
 <a name="CommtoSiteUsers"> </a>

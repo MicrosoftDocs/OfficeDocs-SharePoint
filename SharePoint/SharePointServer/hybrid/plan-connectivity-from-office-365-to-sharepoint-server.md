@@ -13,12 +13,12 @@ ms.collection:
 - IT_SharePoint_Hybrid_Top
 localization_priority: Normal
 ms.assetid: b291ea58-cfda-48ec-92d7-5180cb7e9469
-description: "Summary: Plan and prepare to configure inbound connectivity from Office 365 to SharePoint Server hybrid environment."
+description: "Plan and prepare to configure inbound connectivity from Office 365 to SharePoint Server hybrid environment."
 ---
 
 # Plan connectivity from Office 365 to SharePoint Server
 
- **Summary:** Plan and prepare to configure inbound connectivity from Office 365 to SharePoint Server hybrid environment. 
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)] 
   
 This article is designed to help you plan and prepare to configure inbound connectivity from Office 365 for enterprises to SharePoint Server through a reverse proxy device. This is required for the following hybrid environments: 
   
@@ -94,7 +94,7 @@ A web application's public URL is always used as the root URL in all links to si
   
 Alternate access mapping (AAM) is needed **only** when you are configuring inbound connectivity using a path-based site collection with a public URL that is different than the external URL. AAM lets you associate the external URL with the internal URL of a SharePoint site inside your organization. This enables SharePoint Server to route requests for internal URLs configured in AAM to the corresponding primary web application. 
   
-For more information about claims-based web applications, see [Create claims-based web applications in SharePoint Server](http://technet.microsoft.com/library/83496762-172a-44a4-bf57-1d7ea8008d7d%28Office.14%29.aspx).
+For more information about claims-based web applications, see [Create claims-based web applications in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806885(v=office.14)).
   
 For more information about how to extend a web application, see [Extend claims-based web applications in SharePoint](../administration/extend-a-claims-based-web-application.md).
   
@@ -133,7 +133,7 @@ Site collections used for hybrid functionality must meet all these requirements,
     
     To create a host-named site collection, the web application must be created to enable them. You cannot enable this functionality after the web application has been created.
     
-    For more information about how to create a host-named site collection, see [Host-named site collection architecture and deployment in SharePoint Server](http://technet.microsoft.com/library/3ea30845-37e4-4a9e-badd-b1c8313e4bf3%28Office.14%29.aspx).
+    For more information about how to create a host-named site collection, see [Host-named site collection architecture and deployment in SharePoint Server](/previous-versions/office/sharepoint-server-2010/cc424952(v=office.14)).
     
     > [!NOTE]
     > Although this is a web application requirement, it is listed here because it applies only to environments that have host-named site collections. 
@@ -188,8 +188,6 @@ If you decide to use an existing web application as the primary web application,
 |||
 |:-----|:-----|
 |![Edit icon](../media/mod_icon_edit_m.png)| Record the following information on the worksheet:  <br/>  Depending on your site collection strategy, record the URL of the primary web application in the **Primary web application URL** row of Table 5a, 5b, or 5c.  <br/>  If you are using an existing host-named site collection, record the URL of the top-level site collection in the **Host-named site collection URL** row in Table 5a.  <br/> |
-   
-After you record this information, go to the section [OBSOLETE Plan a two-way hybrid topology](http://technet.microsoft.com/library/b42cf0ce-9442-441b-ac63-b1aa2b56c4bc%28Office.14%29.aspx#certificates).
   
 #### Plan to create a new web application
 <a name="newwebapp"> </a>
@@ -237,36 +235,11 @@ Get a Secure Channel SSL wildcard or SAN (Subject Alternative Name) certificate 
 > [!NOTE]
 >  This certificate must support multiple names and must be at least 2048 bits. >  The **Subject** or **Subject Name** field of the certificate must contain a wildcard entry of the domain name in the External URL. For example, if your external URL is https://spexternal.public.adventureworks.com, the subject of your wildcard certificate should be **\*.public.adventureworks.com**. >  Certificates typically expire at one-year intervals. So it's important to plan in advance for certificate renewals to avoid service interruptions. SharePoint Administrators should schedule a reminder for certificate replacement that gives you enough lead-in time to prevent a work stoppage. 
   
-|||
-|:-----|:-----|
-|![Edit icon](../media/mod_icon_edit_m.png)| Record the following on the worksheet in **Table 4b: Secure Channel SSL Certificate**:  <br/>  The name of this certificate and the location where you stored it in the **Secure Channel Certificate location and file name** row.  <br/>  The friendly name of this certificate in the **Secure Channel SSL Certificate Friendly Name** row.  <br/>  Specify the type of certificate (wildcard or SAN) in the **Type of certificate** row.  <br/>  The expiration date of the certificate in the **Expiration date** row.  <br/>  If this certificate has a .pfx file name extension, record the certificate's password in the **Secure Channel SSL Certificate Password** row. Remember to help secure the worksheet with password protection if you update it with password information.  <br/> |
    
 ### About STS certificates
 <a name="AboutSTS"> </a>
 
-The STS certificate of the on-premises SharePoint farm requires a default certificate to validate incoming tokens. In a SharePoint hybrid environment, Azure Active Directory acts as a trusted token signing service and uses the STS certificate as the signing certificate. Azure Active Directory cannot use the default STS certificate from SharePoint Server as a signing certificate because it cannot verify the trust chain.
-  
-Therefore, you must replace the default STS certificate on each server in the on-premises SharePoint farm with one of the following:
-  
-- A certificate issued by a public certification authority (CA) that's trusted by Azure Active Directory
-    
-- A self-signed certificate
-    
-The default STS certificate is replaced later when you configure the identify management infrastructure.
-  
-> [!IMPORTANT]
->  This certificate must be at least 2048 bits. >  You'll have to replace the STS certificate on each web and application server in the SharePoint Server farm. >  Certificates typically expire at one-year intervals. So it's important to plan in advance for certificate renewals to avoid service interruptions. 
-  
-If you choose to use a self-signed certificate, you'll create it during the deployment configuration. The steps for creating a new self-signed certificate for SharePoint are included in the [Configure server-to-server authentication from SharePoint Server to SharePoint Online](configure-server-to-server-authentication.md) topic. 
-  
-### Obtain an STS certificate
-<a name="ObtainSTS"> </a>
-
-Get your STS certificate before you begin the configuration process.
-  
-|||
-|:-----|:-----|
-|![Edit icon](../media/mod_icon_edit_m.png)| Record the following on the worksheet in in **Table 4a: STS Certificate**:  <br/>  STS Certificate Friendly Name  <br/>  STS Certificate path\file name (\*.pfx file)  <br/>  STS Certificate Password  <br/>  STS Certificate path\file name (\*.cer file)  <br/>  Subject Name  <br/>  STS Certificate Start Date  <br/>  STS Certificate End Date  <br/> |
+The STS certificate of the on-premises SharePoint farm requires a default certificate to validate incoming tokens. In a SharePoint hybrid environment, Azure Active Directory acts as a trusted token signing service and uses the STS certificate as the signing certificate. If you choose to use a certificate other than the default STS certificate (for example, a certificate from a public certificate authority), replace the default certificate before you begin the hybrid configuration process.
    
 ## Record the accounts needed for configuration and testing
 <a name="certificates"> </a>

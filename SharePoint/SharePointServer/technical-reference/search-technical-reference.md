@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 4192cf8b-0f17-43ad-8e79-87acfc96e935
-description: "Summary: Learn about default crawled file name extensions and parsed file types, default crawled and managed properties, default connectors and linguistics features per language for search in SharePoint Server 2016 and SharePoint Server 2013."
+description: "Learn about default crawled file name extensions and parsed file types, default crawled and managed properties, default connectors and linguistics features per language for search in SharePoint Server."
 ---
 
 # Search technical reference for SharePoint Server
 
- **Summary:** Learn about default crawled file name extensions and parsed file types, default crawled and managed properties, default connectors and linguistics features per language for search in SharePoint Server 2016 and SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 The following articles provide technical reference information for search in SharePoint Server.
   

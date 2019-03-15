@@ -13,19 +13,19 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 ms.custom: Ent_Solutions
 ms.assetid: 5f80cdb8-d6d1-45f0-9710-d30544fcb3e6
-description: "Summary: Configure the domain controllers for your high-availability SharePoint Server 2016 farm in Microsoft Azure."
+description: "Configure the domain controllers for your high-availability SharePoint Server 2016 farm in Microsoft Azure."
 ---
 
 # SharePoint Intranet Farm in Azure Phase 2: Configure domain controllers
 
- **Summary:** Configure the domain controllers for your high-availability SharePoint Server 2016 farm in Microsoft Azure. 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)] 
   
 In this phase of deploying an intranet-only SharePoint Server 2016 farm in Azure infrastructure services, you configure two replica domain controllers in the Azure virtual network (VNet). Client web requests for SharePoint farm resources can then be authenticated in the VNet, rather than sending that authentication traffic across the site-to-site VPN or ExpressRoute connection to your on-premises network.
   
 > [!NOTE]
-> SharePoint Server 2016 also supports the use of [Azure Active Directory (AD) Domain Services](https://docs.microsoft.com/azure/active-directory-domain-services/active-directory-ds-overview) as a substitute for virtual machines running as domain replicas. However, at this time, this deployment guide only describes the use of virtual machine-based replica domain controllers. 
+> SharePoint Server 2016 also supports the use of [Azure Active Directory (AD) Domain Services](/azure/active-directory-domain-services/active-directory-ds-overview) as a substitute for virtual machines running as domain replicas. However, at this time, this deployment guide only describes the use of virtual machine-based replica domain controllers. 
   
-You must complete this phase before moving on to [SharePoint Intranet Farm in Azure Phase 3: Configure SQL Server Infrastructure](sharepoint-intranet-farm-in-azure-phase-3-configure-sql-server-infrastructure.md). See [Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](https://technet.microsoft.com/library/af7cf3e7-94b1-4a5d-8cb9-80c5a0b397f2) for all of the phases. 
+You must complete this phase before moving on to [SharePoint Intranet Farm in Azure Phase 3: Configure SQL Server Infrastructure](sharepoint-intranet-farm-in-azure-phase-3-configure-sql-server-infrastructure.md). See [Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](/SharePoint/administration/deploying-sharepoint-server-2016-with-sql-server-alwayson-availability-groups-in) for all of the phases. 
   
 ## Create the domain controller virtual machines in Azure
 
@@ -45,7 +45,7 @@ First, you need to fill out the **Virtual machine name** column of Table M and m
    
  **Table M - Virtual machines for the SharePoint Server 2016 intranet farm in Azure**
   
-For the complete list of virtual machine sizes, see [Sizes for virtual machines](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-sizes).
+For the complete list of virtual machine sizes, see [Sizes for virtual machines](/azure/virtual-machines/windows/sizes).
   
 Use the following Azure PowerShell command block creates the virtual machines for the two domain controllers. Specify the values for the variables, removing the \< and \> characters. Note that this Azure PowerShell command block uses values from the following:
   
@@ -64,7 +64,7 @@ Use the following Azure PowerShell command block creates the virtual machines fo
 Recall that you defined Tables R, V, S, I, and A in [SharePoint Intranet Farm in Azure Phase 1: Configure Azure](sharepoint-intranet-farm-in-azure-phase-1-configure-azure.md).
   
 > [!NOTE]
-> The following command sets use the latest version of Azure PowerShell. See [Get started with Azure PowerShell cmdlets](https://docs.microsoft.com/powershell/azureps-cmdlets-docs/). 
+> The following command sets use the latest version of Azure PowerShell. See [Get started with Azure PowerShell cmdlets](/powershell/azure/overview?view=azurermps-6.13.0). 
   
 When you have supplied all the correct values, run the resulting block at the Azure PowerShell prompt or in the PowerShell Integrated Script Environment (ISE) on your local computer.
   
@@ -278,11 +278,11 @@ Use [SharePoint Intranet Farm in Azure Phase 3: Configure SQL Server Infrastruct
 
 #### Other Resources
 
-[Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](https://technet.microsoft.com/library/af7cf3e7-94b1-4a5d-8cb9-80c5a0b397f2)
+[Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](/SharePoint/administration/deploying-sharepoint-server-2016-with-sql-server-alwayson-availability-groups-in)
   
-[SharePoint Server 2016 in Microsoft Azure](https://technet.microsoft.com/library/8da53a30-27f2-4297-95c2-54eff999e863)
+[SharePoint Server 2016 in Microsoft Azure](/SharePoint/administration/sharepoint-server-2016-in-microsoft-azure)
   
-[Designing a SharePoint Server 2016 farm in Azure](https://technet.microsoft.com/library/f27522ca-6f78-4b97-b169-77066e965727)
+[Designing a SharePoint Server 2016 farm in Azure](/SharePoint/administration/designing-a-sharepoint-server-2016-farm-in-azure)
   
-[Install SharePoint Server](https://technet.microsoft.com/library/8a911115-de8a-4cf3-9701-f5ba78fa8bfc)
+[Install SharePoint Server](/SharePoint/install/install)
 

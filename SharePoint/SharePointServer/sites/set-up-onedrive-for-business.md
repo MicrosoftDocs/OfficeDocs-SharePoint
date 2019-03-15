@@ -14,12 +14,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 42e7a722-1e13-4f48-b866-2548cff05225
-description: "Summary: Learn the steps needed to set up OneDrive for Business in a SharePoint Server 2016 or a SharePoint Server 2013 on-premises environment."
+description: "Learn the steps needed to set up OneDrive for Business in a SharePoint Server on-premises environment."
 ---
 
 # Set up OneDrive for Business in a SharePoint Server on-premises environment
 
- **Summary:** Learn the steps needed to set up OneDrive for Business in a SharePoint Server 2016 or a SharePoint Server 2013 on-premises environment. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 > [!NOTE]
 > This article describes how to set up OneDrive for Business in a SharePoint Server on-premises environment, and does not describe OneDrive for Business in an Office 365 environment. For more information about administering OneDrive for Business in Office 365, see [OneDrive for Business admin help](https://go.microsoft.com/fwlink/p/?LinkId=824831). 
@@ -159,7 +159,7 @@ This step allows your users to immediately view files that are shared explicitly
   
 The Shared with Me view in OneDrive for Business lets users to see which documents and folders that users have shared directly with them. By default, the Shared with Me view is populated once a shared item is crawled and re-indexed through search. This means that your crawling/indexing schedule may cause some latency between the when the item was shared and when the it appears in the user's Shared with Me View.
   
-Your users will still be able to open the shared items or folder if they are sent a link (for example, through an email notification), they just won't be able to see the items listed in the Shared with me View until the items have been crawled and indexed. For more information about how files are shared in OneDrive for Business, see [Share OneDrive files and folders](http://technet.microsoft.com/library/9fcc2f7d-de0c-4cec-93b0-a82024800c07%28Office.14%29.aspx).
+Your users will still be able to open the shared items or folder if they are sent a link (for example, through an email notification), they just won't be able to see the items listed in the Shared with me View until the items have been crawled and indexed. For more information about how files are shared in OneDrive for Business, see [Share OneDrive files and folders](https://support.office.com/article/9fcc2f7d-de0c-4cec-93b0-a82024800c07).
   
 To eliminate this latency in your SharePoint Server environment, your IT administrator can enable the Recently Shared Items (RSI) cache. The RSI cache is provisioned on the My Site host and it is used to populate the Shared with Me view until the file permission changes resulting from the sharing action are crawled. The RSI cache is disabled by default in SharePoint Server.
   

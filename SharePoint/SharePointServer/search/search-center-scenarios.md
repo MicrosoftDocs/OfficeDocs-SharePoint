@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 3380e554-d1f8-46d6-9df0-cc102945f922
-description: "Summary: Use the information in this section to learn how to develop Search Center scenarios in SharePoint Server 2016 and SharePoint Server 2013."
+description: "Use the information in this section to learn how to develop Search Center scenarios in SharePoint Server."
 ---
 
 # Search center scenarios in SharePoint Server
 
- **Summary:** Use the information in this section to learn how to develop Search Center scenarios in SharePoint Server 2016 and SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
  **Applies to:**
   
@@ -22,14 +22,14 @@ The "how to" articles in this section provide step-by-step information on how yo
   
 ## In this section
 
-- [Set up a Search Center in SharePoint Server](set-up-a-search-center.md)
+- [Set up a Search Center](set-up-a-search-center.md)
     
-- [How to change the way search results are displayed in SharePoint Server](how-to-change-the-way-search-results-are-displayed.md)
+- [How to change the way search results are displayed](how-to-change-the-way-search-results-are-displayed.md)
     
-- [Create and import a thesaurus in SharePoint Server](create-and-import-a-thesaurus.md)
+- [Create and import a thesaurus](create-and-import-a-thesaurus.md)
     
-- [Create and import query suggestions in SharePoint Server](create-and-import-query-suggestions.md)
+- [Create and import query suggestions](create-and-import-query-suggestions.md)
     
-- [Changing the ranking of search results in SharePoint Server](changing-the-ranking-of-search-results.md)
+- [Changing the ranking of search results](changing-the-ranking-of-search-results.md)
     
 

@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 5dee7e15-3b81-40c5-978e-c10357bb7a3d
-description: "Summary: Use Secure Store in SharePoint Server 2013 or SharePoint Server 2016 to store SQL Server credentials."
+description: "Use Secure Store in SharePoint Server to store SQL Server credentials."
 ---
 
 # Use Secure Store with SQL Server Authentication
 
- **Summary:** Use Secure Store in SharePoint Server 2013 or SharePoint Server 2016 to store SQL Server credentials. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 You can use the Secure Store Service to store credentials for data sources that require SQL Server Authentication. You can then use these credentials to access data sources that require SQL Server Authentication (such as Azure SQL Database) through Excel Services in SharePoint Server 2013 or Visio Services.
   
@@ -299,9 +299,9 @@ Once you have published the diagram to a SharePoint document library, you can re
   
 #### Other Resources
 
-[Plan the Secure Store Service in SharePoint Server](http://technet.microsoft.com/library/e1196de0-1eb9-4c50-aeca-93e0eba7be0d%28Office.14%29.aspx)
+[Plan the Secure Store Service in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806889(v=office.14))
   
-[Plan for Visio Services in SharePoint Server](http://technet.microsoft.com/library/4385b870-c3ec-462f-a43d-49f18e4d8675%28Office.14%29.aspx)
+[Plan for Visio Services in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee663482(v=office.14))
   
-[Visio Graphics Service administration in SharePoint Server 2013](http://technet.microsoft.com/library/508bdc3e-ac93-4087-b09b-83b6d0412924%28Office.14%29.aspx)
+[Visio Graphics Service administration in SharePoint Server 2013](/previous-versions/office/sharepoint-server-2010/ee524059(v=office.14))
 

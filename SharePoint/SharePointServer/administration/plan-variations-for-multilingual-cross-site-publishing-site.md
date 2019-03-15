@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 1bb10de1-2b80-48b3-a9f7-9745cb725e6c
-description: "Summary: Learn how to plan your site architecture when you want to use variations on your multilingual cross-site publishing site."
+description: "Learn how to plan your site architecture when you want to use variations on your multilingual cross-site publishing site."
 ---
 
 # Plan variations for multilingual cross-site publishing site in SharePoint Server
 
- **Summary:** Learn how to plan your site architecture when you want to use variations on your multilingual cross-site publishing site. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 You can use variations features to create and maintain your multilingual SharePoint sites. For more information, see [Variations overview in SharePoint Server](variations-overview.md). When you use cross-site publishing and variations, you should set up your site architecture according to one of three scenarios.
   
@@ -101,7 +101,7 @@ The following diagram shows how you should set up your site architecture so that
 |6  <br/> |The German publishing site, which is connected to the catalog on the German target variation site (3).  <br/> |
 |D  <br/> |The term set that drives managed navigation for the German publishing site. This term set has pinned the terms from the term set (A) on the authoring site, and displays the German versions of the terms.  <br/> |
    
-In the article [Case Study: Mavention and web content management in SharePoint Server 2013](http://technet.microsoft.com/library/74e578fb-d42e-4c02-b1f5-04c0aa727126%28Office.14%29.aspx) you can see an example of how Mavention used this scenario for their multilingual cross-site publishing website. 
+In the article [Case Study: Mavention and web content management in SharePoint Server 2013](/SharePoint/sharepoint-server) you can see an example of how Mavention used this scenario for their multilingual cross-site publishing website. 
   
 ## Scenario 3: Your publishing site should contain a mix of catalog content and non-catalog content, and you want to use variations on all your content
 <a name="BKMK_Scenario3"> </a>

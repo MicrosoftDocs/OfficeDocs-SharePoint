@@ -7,18 +7,19 @@ ms.date: 3/1/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server_Top
-ms.custom: Strat_SP_gtc
+- Strat_SP_gtc
+ms.custom: 
 ms.assetid: 7c75dc80-6910-4c10-a9a0-d821bedd602d
-description: "Summary: Learn about key factors in governing a SharePoint 2013 service and what to include in a service-level agreement."
+description: "Learn about key factors in governing a SharePoint service and what to include in a service-level agreement."
 ---
 
 # IT governance in SharePoint
 
- **Summary:** Learn about key factors in governing a SharePoint 2013 service and what to include in a service-level agreement. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 How will you control the services that you offer? What will you provide with each service? What will you include in service-level agreements for each service? And how do you prevent proliferation of unmanaged servers? These questions should be answered as part of your IT governance plan. 
   
@@ -55,7 +56,7 @@ Determine limits and policies for the areas shown in the following table.
 
 |**Area**|**Recommendation**|
 |:-----|:-----|
-|Security, infrastructure, and [web application policies](../administration/manage-permission-policies-for-a-web-application.md) <br/> |How is the system and infrastructure maintained and who has access at what levels? What's the maximum upload size you want to allow? Are you controlling the use of [fine-grained permissions](http://technet.microsoft.com/library/d46eae8a-5570-46e0-9800-6cde713b4828%28Office.14%29.aspx)?  <br/> |
+|Security, infrastructure, and [web application policies](../administration/manage-permission-policies-for-a-web-application.md) <br/> |How is the system and infrastructure maintained and who has access at what levels? What's the maximum upload size you want to allow? Are you controlling the use of [fine-grained permissions](/previous-versions/office/sharepoint-server-2010/gg128955(v=office.14))?  <br/> |
 |Data protection ([backup and recovery](../administration/backup-and-recovery-overview.md))  <br/> |Vary the level of data protection that you offer based on service levels. Plan how often you back up the farms and how quickly you can guarantee the data is restored.  <br/> |
 |Site policies  <br/> |Use [site policies](../sites/site-policy-overview.md) to help control site proliferation. A site policy defines the life cycle of a site by specifying when the site will be closed and when it will be deleted. When you close or delete a site, any subsites are also closed or deleted. If an Exchange mailbox is associated with a site, the mailbox is deleted from Exchange Server 2013 when the site is deleted.  <br/> |
 |Quotas  <br/> |[Quota templates](../sites/create-edit-and-delete-quota-templates.md) define how much data can be stored in a site collection and the maximum size of uploaded files. Associate different quota templates with site collections at different service levels.  <br/> |
@@ -93,10 +94,10 @@ In addition to governing services that you offer, you also need to govern instal
   
 - **Track installations** An Active Directory Domain Services (AD DS) marker named Service Connection Point identifies the SharePoint servers in an organization. Set this marker for each domain in your organization if you want to track installations in all domains. See [Track or block SharePoint Server 2010 installations](https://go.microsoft.com/fwlink/?LinkId=403888).
     
-- **Block installations** You can block installations of SharePoint Server 2016 to prevent users from installing it to unauthorized servers that you don't want to support. Use a Group Policy in Active Directory Domain Services (AD DS) to set a registry key on all servers to block installations. This registry key existed by default in SharePoint Server 2010, but is not included in SharePoint Server 2016. You can create it yourself in the registry if you want to block installations. See [Track or block SharePoint Server 2010 installations](http://technet.microsoft.com/library/c8dfb182-2cd9-45f2-9e42-baa522a9c33d.aspx).
+- **Block installations** You can block installations of SharePoint Server 2016 to prevent users from installing it to unauthorized servers that you don't want to support. Use a Group Policy in Active Directory Domain Services (AD DS) to set a registry key on all servers to block installations. This registry key existed by default in SharePoint Server 2010, but is not included in SharePoint Server 2016. You can create it yourself in the registry if you want to block installations. See [Track or block SharePoint Server 2010 installations](/previous-versions/office/sharepoint-server-2010/ff730261(v=office.14)).
     
 - **Keep current with software updates** Keep your servers current. Test and install recommended software updates. See the [Updates Resource Center](https://go.microsoft.com/fwlink/?LinkId=330874) for SharePoint Server 2016. 
     
-- **Site collection upgrades** Site collections can now be upgraded independently from the content databases. Determine who, when, and how to upgrade site collections when a new version or an update is available. See [Plan for site collection upgrades in SharePoint 2013](http://technet.microsoft.com/library/e7455e3f-6770-4785-8d3e-da72cb7de261%28Office.14%29.aspx).
+- **Site collection upgrades** Site collections can now be upgraded independently from the content databases. Determine who, when, and how to upgrade site collections when a new version or an update is available. See [Plan for site collection upgrades in SharePoint 2013](/previous-versions/office/sharepoint-server-2010/ff191199(v=office.14)).
     
 

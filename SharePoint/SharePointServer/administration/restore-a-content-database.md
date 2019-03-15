@@ -3,7 +3,6 @@ title: "Restore content databases in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 9/14/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -12,12 +11,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 240f8caa-afb3-44ce-90bb-861cfa258b09
-description: "Summary: Learn how to restore a content database in SharePoint Server 2016 and SharePoint 2013."
+description: "Learn how to restore a content database in SharePoint Server."
 ---
 
 # Restore content databases in SharePoint Server
 
- **Summary:** Learn how to restore a content database in SharePoint Server 2016 and SharePoint 2013. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 You can restore a content database in SharePoint Server by using the SharePoint Central Administration website, PowerShell, or SQL Server tools. The restore tool that you use depends on the kind of environment that you have deployed, your schedule requirements, and service level agreements that you have made with your organization.
   
@@ -51,21 +50,21 @@ You can use PowerShell to restore a content database.
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  Restore-SPFarm -Directory <BackupFolder> -RestoreMethod Overwrite -Item <ContentDatabase> [-BackupId <GUID>] [-Verbose]
-  ```
+   ```
+   Restore-SPFarm -Directory <BackupFolder> -RestoreMethod Overwrite -Item <ContentDatabase> [-BackupId <GUID>] [-Verbose]
+   ```
 
     Where:
     
-  -  _\<BackupFolder\>_ is the name and path for the backup folder where the service application was backed up. 
+   -  _\<BackupFolder\>_ is the name and path for the backup folder where the service application was backed up. 
     
-  -  _\<ContentDatabase\>_ is the name of the content database. 
+   -  _\<ContentDatabase\>_ is the name of the content database. 
     
     If you do not use the  `BackupId` parameter, the most recent backup will be used. To view all of the backups for the farm, type the following command at the PowerShell command prompt: 
     
@@ -73,7 +72,7 @@ You can use PowerShell to restore a content database.
   Get-SPBackupHistory -Directory <Backup folder>
   ```
 
-For more information, see [Restore-SPFarm](http://technet.microsoft.com/library/8e18ea80-0830-4ffa-b6b6-ad18a5a7ab3e.aspx).
+For more information, see [Restore-SPFarm](/powershell/module/sharepoint-server/Restore-SPFarm?view=sharepoint-ps).
   
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
@@ -146,11 +145,11 @@ You can use SQL Server tools to restore a content database by following these st
     
 9. In the **Recovery state** section: 
     
-  - If you have included all the transaction logs that you must restore, select **RECOVER WITH RECOVERY**.
+   - If you have included all the transaction logs that you must restore, select **RECOVER WITH RECOVERY**.
     
-  - If you must restore additional transaction logs, select **RECOVER WITH NORECOVERY**.
+   - If you must restore additional transaction logs, select **RECOVER WITH NORECOVERY**.
     
-  - The third option, **RECOVER WITH STANDBY** is not used in this scenario. 
+   - The third option, **RECOVER WITH STANDBY** is not used in this scenario. 
     
     > [!NOTE]
     > For more information about these recovery options, see [Restore Database (Options Page)](http://go.microsoft.com/fwlink/p/?LinkID=717106&amp;clcid=0x409). 

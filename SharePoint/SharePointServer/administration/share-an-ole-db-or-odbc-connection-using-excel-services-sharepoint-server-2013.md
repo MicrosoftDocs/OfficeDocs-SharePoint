@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: cdaaf121-3fd3-4889-9020-9cf7606c8f6b
-description: "Summary: Learn how to use Excel to create and share OLE DB or ODBC connections that people can use to create data models, reports, scorecards, and dashboards."
+description: "Learn how to use Excel to create and share OLE DB or ODBC connections that people can use to create data models, reports, scorecards, and dashboards."
 ---
 
 # Share an OLE DB or ODBC connection using Excel Services (SharePoint Server 2013)
 
- **Summary:** Learn how to use Excel to create and share OLE DB or ODBC connections that people can use to create data models, reports, scorecards, and dashboards. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 You can use Excel to create OLE DB or ODBC connections and then share those connections with others. An OLE DB or ODBC connection is useful for connecting to data sources, such as Excel workbooks, legacy databases, or non-Microsoft databases. When you can upload a data connection to an Excel Services trusted data connection library in SharePoint Server 2013, the data connection is available for you and others to use to create data models, reports, scorecards, and dashboards. Depending on the particular data source that is used, people can easily refresh data in Excel Services workbooks so that the most current information is displayed.
   
@@ -26,7 +26,7 @@ Before you begin this task, review the following information about prerequisites
   
 - You must be using Excel 2016 and SharePoint Server 2013.
     
-- Excel Services must be configured to include a trusted data connections library and a trusted documents library. Ideally, you'll have a Business Intelligence Center site configured that you can use for your data connections and workbooks. For more information, see [Configure a Business Intelligence Center in SharePoint Server 2013](http://technet.microsoft.com/library/7c52a0e8-81fa-43af-aec8-d3ed3febdbf1%28Office.14%29.aspx).
+- Excel Services must be configured to include a trusted data connections library and a trusted documents library. Ideally, you'll have a Business Intelligence Center site configured that you can use for your data connections and workbooks. For more information, see [Configure a Business Intelligence Center in SharePoint Server 2013](/SharePoint/sharepoint-server).
     
 - You must have at least Contribute permissions assigned in SharePoint Server 2013.
     
@@ -34,7 +34,7 @@ Before you begin this task, review the following information about prerequisites
     
 - You will need information about the data source that you want to use. In particular, you must know the data source name, user name, and password to connect to the data source.
     
-- If you plan to publish workbooks that contain data models to SharePoint Server 2013, Excel Services must be configured to support data models. For more information, see [Configure Excel Services in SharePoint Server 2013 Preview](http://technet.microsoft.com/library/9cb81758-9d0b-4970-9ca0-a75eedf6093b.aspx).
+- If you plan to publish workbooks that contain data models to SharePoint Server 2013, Excel Services must be configured to support data models. For more information, see [Configure Excel Services in SharePoint Server 2013 Preview](/SharePoint/administration/configure-excel-services).
     
 ## Step 1: Use Excel to create OLE DB or ODBC data connections
 <a name="proc1"> </a>

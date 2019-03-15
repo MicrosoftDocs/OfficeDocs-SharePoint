@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 0ed3c559-86c1-40d0-8804-8adb7038492f
-description: "Summary: Learn which linguistic features search by default uses, and for which languages."
+description: "Learn which linguistic features search by default uses, and for which languages."
 ---
 
 # Linguistic search features in SharePoint Server
 
- **Summary:** Learn which linguistic features search by default uses, and for which languages. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 SharePoint Server use several linguistic features to help improve search relevance. 
   

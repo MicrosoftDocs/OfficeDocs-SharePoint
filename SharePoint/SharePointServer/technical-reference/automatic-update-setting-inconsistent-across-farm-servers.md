@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 2ddb9cfe-38fc-477c-88d1-beb190e36ab0
-description: "Summary: Learn how to resolve the SharePoint Health Analyzer ruleAutomatic update setting inconsistent across farm servers, for SharePoint Server 2016."
+description: "Learn how to resolve the SharePoint Health Analyzer rule: Automatic update setting inconsistent across farm servers, for SharePoint Server."
 ---
 
 # Automatic Update setting inconsistent across farm servers (SharePoint Server 2016)
 
- **Summary:** Learn how to resolve the SharePoint Health Analyzer rule "Automatic update setting inconsistent across farm servers", for SharePoint Server 2016. 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]. 
   
  **Rule Name:** Automatic update setting inconsistent across farm servers. 
   

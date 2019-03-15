@@ -12,12 +12,12 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 3a4f69c8-8b19-488c-92e8-9a80e8f37d8b
-description: "Summary: View this series of short overview videos to understand how upgrade works for SharePoint 2013."
+description: "View this series of short overview videos to understand how upgrade works for SharePoint 2013."
 ---
 
 # Upgrade overview videos for SharePoint 2013
 
- **Summary:** View this series of short overview videos to understand how upgrade works for SharePoint 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 The following six videos (each video is less than five minutes) can help you understand how to upgrade to SharePoint 2013.
   
@@ -104,5 +104,5 @@ This video provides a quick explanation of how to upgrade site collections to Sh
 
 [Upgrade from SharePoint 2010 to SharePoint 2013](upgrade-from-sharepoint-2010-to-sharepoint-2013.md)
   
-[Checklist for database-attach upgrade (SharePoint 2013)](http://technet.microsoft.com/library/14f7c2d1-5cea-4575-9fad-414b76df3d2e%28Office.14%29.aspx)
+[Checklist for database-attach upgrade (SharePoint 2013)](/previous-versions/office/sharepoint-server-2010/ff607663(v=office.14))
 

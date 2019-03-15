@@ -10,12 +10,12 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 4de99997-edda-4414-85f2-d210ea717d1a
-description: "Summary: Learn how to plan SharePoint Server publishing sites, multilingual support, and SharePoint Server cross-site publishing or author-in-place."
+description: "Learn how to plan SharePoint Server publishing sites, multilingual support, and SharePoint Server cross-site publishing or author-in-place."
 ---
 
 # Plan for Internet, intranet, and extranet publishing sites in SharePoint Server
 
- **Summary:** Learn how to plan SharePoint Server publishing sites, multilingual support, and SharePoint Server cross-site publishing or author-in-place. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 You can use the publishing features in SharePoint Server to create branded Internet, intranet, and extranet sites. However, some publishing features are available only in SharePoint Server.
   
@@ -67,15 +67,15 @@ Use the following flowchart to help you determine which publishing method to use
 
 After you have determined the publishing method to use, there are additional planning tasks to perform. The following resources will help you make additional planning decisions about your publishing solution.
   
-- [Plan information architecture for Web content management (SharePoint Server 2010)](https://technet.microsoft.com/en-us/library/cc262873%28v=office.14%29.aspx) provides general recommendations for planning the information architecture for a Web content management solution. 
+- [Plan information architecture for Web content management (SharePoint Server 2010)](/previous-versions/office/sharepoint-server-2010/cc262873(v=office.14)) provides general recommendations for planning the information architecture for a Web content management solution. 
     
-- [Plan Web page authoring (SharePoint Server 2010)](https://technet.microsoft.com/en-us/library/cc263367%28v=office.14%29.aspx) describes the steps that are involved in planning how Web pages are authored. 
+- [Plan Web page authoring (SharePoint Server 2010)](/previous-versions/office/sharepoint-server-2010/cc263367(v=office.14)) describes the steps that are involved in planning how Web pages are authored. 
     
-- [Plan content approval and scheduling (SharePoint Server 2010)](https://technet.microsoft.com/en-us/library/cc263156%28v=office.14%29.aspx) contains general guidance about how to plan content approval and scheduling for use with SharePoint Server publishing sites. 
+- [Plan content approval and scheduling (SharePoint Server 2010)](/previous-versions/office/sharepoint-server-2010/cc263156(v=office.14)) contains general guidance about how to plan content approval and scheduling for use with SharePoint Server publishing sites. 
     
 - [Plan for caching and performance in SharePoint Server](caching-and-performance-planning.md) provides information about how and when to use the BLOB cache, and it lists key considerations for planning to use it. This article also describes performance considerations for when to use Bit Rate Throttling, and it describes the limitations of upload file size restrictions. 
     
-- [Plan for large Pages libraries (SharePoint Server 2010)](https://technet.microsoft.com/en-us/library/ee721053%28v=office.14%29.aspx) describes the use of large Pages libraries in SharePoint Server publishing sites. Also, this article contains information to help you determine whether to use large Pages libraries with your publishing solution and information about how to plan for them. 
+- [Plan for large Pages libraries (SharePoint Server 2010)](/previous-versions/office/sharepoint-server-2010/ee721053(v=office.14)) describes the use of large Pages libraries in SharePoint Server publishing sites. Also, this article contains information to help you determine whether to use large Pages libraries with your publishing solution and information about how to plan for them. 
     
 - [Plan for variations in SharePoint Server](plan-for-variations.md) provides information about important items that you should consider when you are using variations in publishing sites, and it describes the tasks that are involved in planning a solution that uses variations in SharePoint Server. 
     

@@ -10,14 +10,17 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: f3855245-795f-4a77-bc70-5456511eaadd
-description: "Summary: Use a result source in SharePoint Server 2016 and SharePoint Server 2013 to specify a provider to get search results from, and optionally to narrow a search to a subset of those results."
+description: "Use a result source in SharePoint Server to specify a provider to get search results from for the classic search experience, and optionally to narrow a search to a subset of those results."
 ---
 
 # Understanding result sources for search in SharePoint Server
 
- **Summary:** Use a result source in SharePoint Server 2016 and SharePoint Server 2013 to specify a provider to get search results from, and optionally to narrow a search to a subset of those results. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 This article provides a brief overview of result sources in SharePoint Server. 
+
+> [!NOTE]
+> The modern search experience in SharePoint Server 2019 gets its results from the default result source. If you change the default result source it impacts both the classic and modern search experiences.
     
 ## What is a result source?
 <a name="BKMK_What"> </a>

@@ -10,27 +10,27 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 52966fa3-1654-41b2-aea5-d1d5d007534e
-description: "Summary: Learn how to apply a disaster recovery strategy for Access Services in SharePoint Server 2013 and SharePoint Server 2016."
+description: "Learn how to apply a disaster recovery strategy for Access Services in SharePoint Server."
 ---
 
 # Disaster Recovery best practices for SharePoint Server and Access Services
 
- **Summary:** Learn how to apply a disaster recovery strategy for Access Services in SharePoint Server 2013 and SharePoint Server 2016. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
-The article explains how to successfully implement a disaster recovery (DR) strategy for Access Services service applications for SharePoint Server 2013 and SharePoint Server 2016 .
+The article explains how to successfully implement a disaster recovery (DR) strategy for Access Services service applications for SharePoint Server.
   
 Thanks to Neil Hodgkinson, Microsoft Senior Program Manager for testing this disaster recovery strategy and providing the content for this article.
   
 ## Overview of Access Services and Disaster Recovery
 
-SharePoint 2010 introduced the concept of Access Services as an integrated service application in [Introduction to Access Services](https://technet.microsoft.com/en-us/library/ee748634%28v=office.14%29.aspx). The data was held in SharePoint lists and could be accessed with a browser or the Microsoft Access 2010 Client. In SharePoint 2013 the Access Services architecture changed, and introduced the concept of Contained databases, moving the data out of SharePoint lists and instead into a SQL Server 2012 Application database. This architecture remains in place for the SharePoint Server 2016 release. 
+SharePoint 2010 introduced the concept of Access Services as an integrated service application in [Introduction to Access Services](/previous-versions/office/sharepoint-server-2010/ee748634(v=office.14)). The data was held in SharePoint lists and could be accessed with a browser or the Microsoft Access 2010 Client. In SharePoint 2013 the Access Services architecture changed, and introduced the concept of Contained databases, moving the data out of SharePoint lists and instead into a SQL Server 2012 Application database. This architecture remains in place for the SharePoint Server 2016 release. 
   
 There are multiple ways to configure your SharePoint Server farm for disaster recovery. The method you choose will depend entirely on your requirements for allowed data loss and minimum downtime in your organization. Microsoft has documented various approaches in [Choose a disaster recovery strategy for SharePoint Server](plan-for-disaster-recovery.md).
   
 Regardless of your choice of technologies there are a few requirements and best-practices for configuring a disaster recovery farm to support Access Services. These are detailed below.
   
 > [!IMPORTANT]
-> Before you can use any of the Microsoft PowerShell cmdlets detailed in the steps below, verify that you meet all of the requirements in [Permissions](http://technet.microsoft.com/library/ae4901b4-505a-42a9-b8d4-fca778abc12e.aspx#section3). 
+> Before you can use any of the Microsoft PowerShell cmdlets detailed in the steps below, verify that you meet all of the requirements in [Permissions](/powershell/module/sharepoint-server/?view=sharepoint-ps#section3). 
   
 ## Step 1: Setting up SharePoint Server for Disaster Recovery
 
@@ -104,7 +104,7 @@ You can reference as many Access Services Application Database Servers as you ne
   
 ### c. Know the databases that support the Access Services Service Application
 
-Rather than having their own service application databases, Access Services in SharePoint Server 2013 and SharePoint Server 2016 have tight dependencies on multiple databases in a SharePoint farm.
+Rather than having their own service application databases, Access Services in SharePoint Server have tight dependencies on multiple databases in a SharePoint farm.
   
 These databases need to be managed as a part of your Disaster Recovery strategy.
   
@@ -174,7 +174,7 @@ Also note that if you are using the secure store in the secondary farm you will 
 
 Mount the failover content databases can to the appropriate web application on the DR farm by using PowerShell:
   
-Before you can use any of the Microsoft PowerShell cmdlets, verify that you meet all of the requirements in [Permissions](http://technet.microsoft.com/library/ae4901b4-505a-42a9-b8d4-fca778abc12e.aspx#section3).
+Before you can use any of the Microsoft PowerShell cmdlets, verify that you meet all of the requirements in [Permissions](/powershell/module/sharepoint-server/?view=sharepoint-ps#section3).
   
 ```
  Mount-SPContentDatabase -WebApplication "<http://DRWebApp>"  -Name "<Database name>" -DatabaseServer "<SecondaryDatabaseServerName>"

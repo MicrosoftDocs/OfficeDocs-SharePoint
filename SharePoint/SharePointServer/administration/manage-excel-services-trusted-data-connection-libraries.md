@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 4e26b32c-f5f8-40b7-a240-bad147c33402
-description: "Summary: Add, configure, or delete trusted data connection libraries in Excel Services in SharePoint Server 2013."
+description: "Add, configure, or delete trusted data connection libraries in Excel Services in SharePoint Server."
 ---
 
 # Manage Excel Services trusted data connection libraries (SharePoint Server 2013)
 
- **Summary:** Add, configure, or delete trusted data connection libraries in Excel Services in SharePoint Server 2013. 
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
 > [!IMPORTANT]
 > The steps in this article apply to SharePoint Server 2013 Enterprise. 
@@ -85,5 +85,5 @@ Use the following procedure to delete a trusted data connection library.
 
 #### Other Resources
 
-[Configure Excel Services in SharePoint](http://technet.microsoft.com/library/9cb81758-9d0b-4970-9ca0-a75eedf6093b.aspx)
+[Configure Excel Services in SharePoint](/SharePoint/administration/configure-excel-services)
 

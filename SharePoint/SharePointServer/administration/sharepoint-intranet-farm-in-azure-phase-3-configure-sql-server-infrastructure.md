@@ -13,16 +13,16 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 ms.custom: Ent_Solutions
 ms.assetid: b71ccbbf-37c0-46c2-a403-20934e1e104e
-description: "Summary: Configure the SQL Server infrastructure to host a high-availability SharePoint Server 2016 farm in Microsoft Azure."
+description: "Configure the SQL Server infrastructure to host a high-availability SharePoint Server 2016 farm in Microsoft Azure."
 ---
 
 # SharePoint Intranet Farm in Azure Phase 3: Configure SQL Server Infrastructure
 
- **Summary:** Configure the SQL Server infrastructure to host a high-availability SharePoint Server 2016 farm in Microsoft Azure. 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)] 
   
 In this phase of deploying an intranet-only SharePoint Server 2016 farm in Azure infrastructure services, you create and configure the two SQL Server virtual machines and the cluster majority node, and then combine them into a Windows Server cluster.
   
-You must complete this phase before moving on to [SharePoint Intranet Farm in Azure Phase 4: Configure SharePoint servers](sharepoint-intranet-farm-in-azure-phase-4-configure-sharepoint-servers.md). See [Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](https://technet.microsoft.com/library/af7cf3e7-94b1-4a5d-8cb9-80c5a0b397f2) for all of the phases. 
+You must complete this phase before moving on to [SharePoint Intranet Farm in Azure Phase 4: Configure SharePoint servers](sharepoint-intranet-farm-in-azure-phase-4-configure-sharepoint-servers.md). See [Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](/SharePoint/administration/deploying-sharepoint-server-2016-with-sql-server-alwayson-availability-groups-in) for all of the phases. 
   
 > [!NOTE]
 > These instructions use a SQL Server image in the Azure image gallery and you are charged ongoing costs for the use of the SQL Server license. It is also possible to create virtual machines in Azure and install your own SQL Server licenses, but you must have Software Assurance and License Mobility to use your SQL Server license on a virtual machine, including an Azure virtual machine. 
@@ -48,7 +48,7 @@ Use the following blocks of PowerShell commands to create the components in Azur
 Recall that you defined Table M in [SharePoint Intranet Farm in Azure Phase 2: Configure domain controllers](sharepoint-intranet-farm-in-azure-phase-2-configure-domain-controllers.md) and Tables R, V, S, I, and A in [SharePoint Intranet Farm in Azure Phase 1: Configure Azure](sharepoint-intranet-farm-in-azure-phase-1-configure-azure.md).
   
 > [!NOTE]
-> The following command sets use the latest version of Azure PowerShell. See [Get started with Azure PowerShell cmdlets](https://docs.microsoft.com/powershell/azureps-cmdlets-docs/). 
+> The following command sets use the latest version of Azure PowerShell. See [Get started with Azure PowerShell cmdlets](/powershell/azure/overview?view=azurermps-6.13.0). 
   
 First, you create an Azure internal load balancer for the two virtual machines running SQL Server. When you have supplied all the correct values, run the resulting block at the Azure PowerShell command prompt or in the PowerShell Integrated Script Environment (ISE) on your local computer.
   
@@ -253,14 +253,14 @@ New-NetFirewallRule -DisplayName "SQL Server ports 1433, 1434, and 5022, and 599
 
 For each of the SQL server virtual machines, sign out as the local administrator.
   
-For information about optimizing SQL Server performance in Azure, see [Performance Best Practices for SQL Server in Azure Virtual Machines](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-sql-performance). 
+For information about optimizing SQL Server performance in Azure, see [Performance Best Practices for SQL Server in Azure Virtual Machines](/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-performance). 
   
 ## Configure the cluster majority node server
 
 Use the remote desktop client of your choice and create a remote desktop connection to the cluster majority node server. Use its intranet DNS or computer name and the credentials of the local administrator account.
   
 > [!NOTE]
-> Note that this is not needed if you are using a [cloud witness](https://docs.microsoft.com/windows-server/failover-clustering/deploy-cloud-witness). 
+> Note that this is not needed if you are using a [cloud witness](/windows-server/failover-clustering/deploy-cloud-witness). 
   
 Join the cluster majority node server to the appropriate Windows Server AD domain with these commands at the Windows PowerShell prompt.
   
@@ -283,7 +283,7 @@ SQL Server AlwaysOn Availability Groups rely on the Windows Server Failover Clus
     
 - The cluster majority node (if needed)
     
-The failover cluster requires at least three VMs. Two machines host SQL Server. The second SQL Server VM is a synchronous secondary replica, ensuring zero data loss if the primary machine fails. The third machine does not need to host SQL Server. The cluster majority node provides a quorum in the WSFC. Because the WSFC cluster relies on a quorum to monitor health, there must always be a majority to ensure that the WSFC cluster is online. If only two machines are in a cluster, and one fails, there can be no majority when only one out of two fails. For more information, see [WSFC Quorum Modes and Voting Configuration (SQL Server)](https://msdn.microsoft.com/library/hh270280.aspx). As an alternative to using a cluster majority node virtual machine, you can use a [cloud witness](https://docs.microsoft.com/windows-server/failover-clustering/deploy-cloud-witness).
+The failover cluster requires at least three VMs. Two machines host SQL Server. The second SQL Server VM is a synchronous secondary replica, ensuring zero data loss if the primary machine fails. The third machine does not need to host SQL Server. The cluster majority node provides a quorum in the WSFC. Because the WSFC cluster relies on a quorum to monitor health, there must always be a majority to ensure that the WSFC cluster is online. If only two machines are in a cluster, and one fails, there can be no majority when only one out of two fails. For more information, see [WSFC Quorum Modes and Voting Configuration (SQL Server)](https://msdn.microsoft.com/library/hh270280.aspx). As an alternative to using a cluster majority node virtual machine, you can use a [cloud witness](/windows-server/failover-clustering/deploy-cloud-witness).
   
 For both SQL server computers and for the cluster majority node, run the following command at an administrator-level Windows PowerShell command prompt.
   
@@ -291,7 +291,7 @@ For both SQL server computers and for the cluster majority node, run the followi
 Install-WindowsFeature Failover-Clustering -IncludeManagementTools
 ```
 
-Due to current non-RFC-compliant behavior by DHCP in Azure, creation of a WSFC cluster can fail. For details, search for "WSFC cluster behavior in Azure networking" in [High Availability and Disaster Recovery for SQL Server in Azure Virtual Machines](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-sql-high-availability-dr). However, there is a workaround. Use the following steps to create the cluster.
+Due to current non-RFC-compliant behavior by DHCP in Azure, creation of a WSFC cluster can fail. For details, search for "WSFC cluster behavior in Azure networking" in [High Availability and Disaster Recovery for SQL Server in Azure Virtual Machines](/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-high-availability-dr). However, there is a workaround. Use the following steps to create the cluster.
   
 1. Connect to the primary SQL Server virtual machine with the sp_install account credentials.
     
@@ -329,9 +329,9 @@ Due to current non-RFC-compliant behavior by DHCP in Azure, creation of a WSFC c
     
 18. On the **Before You Begin** page, click **Next**.
     
-19. On the **Select Servers** page, type the name and then click **Add** to add the secondary SQL server and cluster majority node to the cluster. Note that the majority node is not needed if you are using a [cloud witness](https://docs.microsoft.com/windows-server/failover-clustering/deploy-cloud-witness).
+19. On the **Select Servers** page, type the name and then click **Add** to add the secondary SQL server and cluster majority node to the cluster. Note that the majority node is not needed if you are using a [cloud witness](/windows-server/failover-clustering/deploy-cloud-witness).
     
-20.  After adding the computers, click **Next**. If a machine cannot be added, and the error message is "the Remote Registry is not running," do the following. Log on to the machine, open the Services snap-in (services.msc), and enable the Remote Registry. For more information, see [Unable to connect to Remote Registry service](https://technet.microsoft.com/en-us/library/bb266998%28v=exchg.80%29.aspx).
+20.  After adding the computers, click **Next**. If a machine cannot be added, and the error message is "the Remote Registry is not running," do the following. Log on to the machine, open the Services snap-in (services.msc), and enable the Remote Registry. For more information, see [Unable to connect to Remote Registry service](/previous-versions/office/exchange-server-analyzer/bb266998(v=exchg.80)).
     
 21. On the **Validation Warning** page, click **No, I do not require support from Microsoft for this cluster, and therefore do not want to run the validation tests. When I click Next, continue creating the cluster**, and then click **Next**.
     
@@ -341,11 +341,11 @@ Due to current non-RFC-compliant behavior by DHCP in Azure, creation of a WSFC c
     
 24. In the left pane, click **Nodes**. You should see all three computers listed.
     
-If you are using a cloud witness, see [Deploy a Cloud Witness for a Failover Cluster](https://docs.microsoft.com/windows-server/failover-clustering/deploy-cloud-witness).
+If you are using a cloud witness, see [Deploy a Cloud Witness for a Failover Cluster](/windows-server/failover-clustering/deploy-cloud-witness).
   
 ## Enable AlwaysOn Availability Groups
 
-The next step is to enable AlwaysOn Availability Groups using the SQL Server Configuration Manager. Note that an availability group in SQL Server differs from an Azure availability set. An availability group contains databases that are highly-available and recoverable. An Azure availability set allocates virtual machines to different fault domains. For more information about fault domains, see [Manage the Availability of Virtual Machines](https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-windows-manage-availability).
+The next step is to enable AlwaysOn Availability Groups using the SQL Server Configuration Manager. Note that an availability group in SQL Server differs from an Azure availability set. An availability group contains databases that are highly-available and recoverable. An Azure availability set allocates virtual machines to different fault domains. For more information about fault domains, see [Manage the Availability of Virtual Machines](/azure/virtual-machines/windows/manage-availability).
   
 Use these steps to enable AlwaysOn Availability Groups on SQL Server:
   
@@ -379,11 +379,11 @@ Use [SharePoint Intranet Farm in Azure Phase 4: Configure SharePoint servers](sh
 
 #### Other Resources
 
-[Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](https://technet.microsoft.com/library/af7cf3e7-94b1-4a5d-8cb9-80c5a0b397f2)
+[Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](/SharePoint/administration/deploying-sharepoint-server-2016-with-sql-server-alwayson-availability-groups-in)
   
-[SharePoint Server 2016 in Microsoft Azure](https://technet.microsoft.com/library/8da53a30-27f2-4297-95c2-54eff999e863)
+[SharePoint Server 2016 in Microsoft Azure](/SharePoint/administration/sharepoint-server-2016-in-microsoft-azure)
   
-[Designing a SharePoint Server 2016 farm in Azure](https://technet.microsoft.com/library/f27522ca-6f78-4b97-b169-77066e965727)
+[Designing a SharePoint Server 2016 farm in Azure](/SharePoint/administration/designing-a-sharepoint-server-2016-farm-in-azure)
   
-[Install SharePoint Server](https://technet.microsoft.com/library/8a911115-de8a-4cf3-9701-f5ba78fa8bfc)
+[Install SharePoint Server](/SharePoint/install/install)
 

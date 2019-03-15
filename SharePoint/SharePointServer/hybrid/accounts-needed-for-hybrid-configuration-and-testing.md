@@ -12,13 +12,14 @@ ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
+- M365-collaboration
 ms.assetid: c824fa0f-bae9-4791-92ee-38d8e70140ec
-description: "Summary: Learn about the accounts you need to use when you configure a SharePoint Server hybrid solution."
+description: "Learn about the accounts you need to use when you configure a SharePoint Server hybrid solution."
 ---
 
 # Accounts needed for hybrid configuration and testing
 
- **Summary:** Learn about the accounts you need to use when you configure a SharePoint Server hybrid solution. 
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
   
 When you configure a SharePoint Server hybrid environment, you need several user accounts in both your on-premises Active Directory and Office 365. These accounts also need different permissions and group or role memberships. Some of these accounts are used to deploy and configure software, and some are used to test specific functionality to help ensure that security and authentication systems are working as expected.
   

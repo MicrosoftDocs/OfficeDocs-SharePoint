@@ -10,14 +10,14 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: eabe099e-5eea-4b33-8241-8079d9409095
-description: "Summary: Learn how to include single words in or exclude single words from query spelling corrections to help correct spelling errors in queries."
+description: "Learn how to include single words in or exclude single words from query spelling corrections to help correct spelling errors in queries."
 ---
 
 # Manage query spelling correction in SharePoint Server
 
- **Summary:** Learn how to include single words in or exclude single words from query spelling corrections to help correct spelling errors in queries. 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
-If a user enters a word in a search query that appears to be misspelled, the search results page displays query spelling corrections. This is also known as "Did you mean?". For example, if someone enters a query that contains the word "ampitheater", the query spelling correction would be "amphitheater".
+In the classic search experience, if a user enters a word in a search query that appears to be misspelled, the search results page displays query spelling corrections. This is also known as "Did you mean?". For example, if someone enters a query that contains the word "ampitheater", the query spelling correction would be "amphitheater".
   
 These query spelling suggestions are based on the closest matches in the default spelling dictionaries and the Query Spelling Inclusions list. For terms that you enter in the Query Spelling Exclusions list, query spelling suggestions will never be displayed. You can edit the Query Spelling Inclusions and the Query Spelling Exclusions list, but you can't edit the default spelling dictionaries. It takes up to 10 minutes for any changes to the Query Spelling Exclusions or the Query Spelling Inclusions list to take effect.
   
@@ -100,7 +100,7 @@ You can edit the names of terms in the Query Spelling Exclusions and Query Spell
 
 [Linguistic search features in SharePoint Server](../technical-reference/linguistic-search-features.md)
 
-[Set-SPEnterpriseSearchQuerySpellingCorrection](http://technet.microsoft.com/library/0c0d069e-d7a8-4341-901a-922188a17705.aspx)
+[Set-SPEnterpriseSearchQuerySpellingCorrection](/powershell/module/sharepoint-server/Set-SPEnterpriseSearchQuerySpellingCorrection?view=sharepoint-ps)
   
-[Get-SPEnterpriseSearchQuerySpellingCorrection](http://technet.microsoft.com/library/4a00b085-917b-48c2-a2cc-8252410b2a24.aspx)
+[Get-SPEnterpriseSearchQuerySpellingCorrection](/powershell/module/sharepoint-server/Get-SPEnterpriseSearchQuerySpellingCorrection?view=sharepoint-ps)
 
