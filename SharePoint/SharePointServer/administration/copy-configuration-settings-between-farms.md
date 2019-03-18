@@ -102,7 +102,7 @@ To copy configuration settings by using a farm backup, we recommend that you fir
     
     -  _\<http://servername\>_ is \<the URL of the Web Application\>. 
     
-For more information, see [Mount-SPContentDatabase](/powershell/module/sharepoint-server/Get-SPAlternateURL?view=sharepoint-ps). 
+For more information, see [Mount-SPContentDatabase](/powershell/module/sharepoint-server/mount-spcontentdatabase?view=sharepoint-ps). 
   
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
