@@ -34,7 +34,7 @@ Download and install the SharePoint Migration Tool using Internet Explorer, Edge
 > [!IMPORTANT]
 > If you are using the Chrome browser, you must install the **ClickOnce for Google Chrome** plug-in  *before*  installing the SharePoint Migration Tool. > To download and install the plug-in: Using Chrome, go to this site and then click **Add to Chrome**: [ClickOnce for Google Chrome plug-in](https://chrome.google.com/webstore/detail/clickonce-for-google-chro/kekahkplibinaibelipdcikofmedafmb?utm_source=chrome-app-launcher-info-dialog)
   
-1. Download either the current release: [SharePoint Migration Tool](https://aka.ms/spmt-ga-page)</br> or the latest public preview:  [SharePoint Migration Tool Public Preview V3.0.104.3](https://aka.ms/spmt-beta-page)
+1. Download either the current release: [SharePoint Migration Tool](https://aka.ms/spmt-ga-page)</br> or the latest public preview:  [SharePoint Migration Tool Public Preview](https://aka.ms/spmt-beta-page)
 
 
 2. Click **Install**.
