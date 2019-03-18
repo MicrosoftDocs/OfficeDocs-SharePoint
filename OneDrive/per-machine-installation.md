@@ -28,6 +28,8 @@ The new per-machine sync client provides:
 - Automatic conversion from per-user to per-machine
 - Automatic updates when a new version is available
 
+The per-machine sync client supports syncing OneDrive and SharePoint files in Microsoft 365 and in SharePoint Server 2019. 
+
 ## Requirements
 
 - Windows 7 or later
