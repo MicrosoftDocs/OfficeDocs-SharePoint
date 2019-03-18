@@ -61,7 +61,7 @@ Yes, the per-machine sync client will auto-update on the same cadence as the per
 The sync client is an extension of the service and a very thin client so auto-updating to the latest version is critical to maintaining a high-quality sync experience. As a result, we recommend that you keep your users in the default Production ring and rely on auto-update to take care of updating to the latest version. If your organization requires you to deploy updates manually through SCCM, we recommend that you select the Enterprise ring and deploy the upcoming builds before auto-update takes effect as described here. 
  
 **How do I revert back to the per-user sync client if required?** 
-We do not support automated migration from per-machine to per-user. To revert back after installing per-machine, please uninstall the sync client and install the sync client without the “/allusers” parameter from https://go.microsoft.com/fwlink/?linkid=844652.  
+We do not support automated migration from per-machine to per-user. To revert back after installing per-machine, please uninstall the sync client and [install the latest released version](https://go.microsoft.com/fwlink/?linkid=844652) without the “/allusers” parameter.  
  
 
   
