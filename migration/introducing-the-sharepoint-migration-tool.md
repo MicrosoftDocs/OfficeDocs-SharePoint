@@ -25,7 +25,7 @@ Designed to be used for migrations ranging from the smallest set of files to a l
 >To install the current release download here: [SharePoint Migration Tool ](https://aka.ms/spmt-ga-page)
 
 >[!NOTE]
->**NEW**: To download the new public preview release: [SharePoint Migration Tool Public Preview V3.0.104.3](https://aka.ms/spmt-beta-page)
+>**NEW**: To download the new public preview release: [SharePoint Migration Tool Public Preview](https://aka.ms/spmt-beta-page)
     
 ## Download and Install
 
