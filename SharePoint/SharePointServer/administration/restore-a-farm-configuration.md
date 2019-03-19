@@ -53,7 +53,7 @@ You can use PowerShell to restore a farm's configuration.
     
 3. At the PowerShell command prompt, type the following command:  
     
-   ```
+   ```powershell
    Restore-SPFarm -Directory <RestoreShare> -RestoreMethod Overwrite -ConfigurationOnly
    ```
 
