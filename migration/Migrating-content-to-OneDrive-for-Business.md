@@ -18,11 +18,11 @@ description: "Migrating Content to OneDrive for Business."
  
 **Migrate to OneDrive for FREE**
 
-If you have files and folders on your computer or on a network drive, you can now use the [SharePoint Migration tool](http://spmtreleasescus.blob.core.windows.net/install/default.htm) to migrate that content to your own OneDrive for **FREE!**
+If you have files and folders on your computer or on a network drive, you can now use the [SharePoint Migration tool](https://aka.ms/SPMT-ODB-Page) to migrate that content to your own OneDrive for **FREE!**
 
 As an admin, you can also run the tool on behalf of your users.
 
-To learn more, see  [SharePoint and OneDrive Migration Tool](http://spmtreleasescus.blob.core.windows.net/install/default.htm). 
+To learn more, see  [SharePoint and OneDrive Migration Tool](https://aka.ms/SPMT-ODB2). 
  <br><br>
 
 **Microsoft FastTrack**
