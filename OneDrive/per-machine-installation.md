@@ -1,5 +1,5 @@
 ---
-title: "Install the sync client per machine"
+title: "Install the sync client per machine (preview)"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
