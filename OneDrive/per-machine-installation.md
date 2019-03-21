@@ -1,5 +1,5 @@
 ---
-title: "Install the sync client per machine (preview)"
+title: "Install the sync client per machine"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
@@ -18,7 +18,7 @@ ms.assetid: 6891b561-a52d-4ade-9f39-b492285e2c9b
 description: "Learn how to install the OneDrive sync client for every user account on a Windows PC."
 ---
 
-# Install the sync client per machine
+# Install the sync client per machine (preview)
 
 By default, the OneDrive sync client installs per user, meaning OneDrive.exe needs to be installed for each user account on the PC under the %localappdata% folder. With the new per-machine installation option, you can install OneDrive under the “Program Files (x86)” directory, meaning all profiles on the computer will use the same OneDrive.exe binary. Other than where the sync client is installed, everything else stays the same.  
 
