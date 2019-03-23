@@ -32,7 +32,7 @@ The per-machine sync client supports syncing OneDrive and SharePoint files in Mi
 
 ## Requirements
 
-- Windows 7 or later
+- All Windows versions supported by the sync client. [Learn more](https://support.office.com/article/onedrive-system-requirements-cc0cb2b8-f446-445c-9b52-d3c2627d681e)
 - Sync client build [19.043.0304.0003](https://go.microsoft.com/fwlink/?linkid=2083517) or later. For info about which sync client build is available in each ring, see [New OneDrive sync client release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0).
   
 ## Deployment instructions
@@ -52,7 +52,7 @@ No, although a single version of OneDrive.exe is installed, a new process is cre
 **Will the same update rings apply to per-machine?** 
 If you selected the Insiders ring (via the [Windows Insider program](https://insider.windows.com/) or [Office Insider](https://products.office.com/office-insider) programs) or are in the default Production ring, you will continue to be in the same ring as before. 
  
-For the Enterprise ring, until recently, the group policy set a reistry key under HKCU. If you have the HCKU version of the policy set, it will not be respected by the per-machine sync client. To select the Enterprise ring, you will need to use the HKLM policy, [Set the sync client update ring](use-group-policy.md#GPOSetUpdateRing), released with build 19.002.0107.0008. 
+For the Enterprise ring, until recently, the group policy set a registry key under HKCU. If you have the HCKU version of the policy set, it will not be respected by the per-machine sync client. To select the Enterprise ring, you will need to use the HKLM policy, [Set the sync client update ring](use-group-policy.md#GPOSetUpdateRing), released with build 19.002.0107.0008. 
 
 > [!NOTE]
 > We do not recommend selecting the Enterprise ring while this feature is in preview because you will not receive bug fixes for any issues we find until several months later.  
@@ -61,7 +61,10 @@ For the Enterprise ring, until recently, the group policy set a reistry key unde
 Yes, the per-machine sync client will auto-update on the same cadence as the per-user sync client and the same rings are supported (see question above). The [release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0) are the same. [More info about the sync client update process](sync-client-update-process.md)
  
 The sync client is an extension of the service and a very thin client so auto-updating to the latest version is critical to maintaining a high-quality sync experience. As a result, we recommend that you keep your users in the default Production ring and rely on auto-update to take care of updating to the latest version. If your organization requires you to deploy updates manually through SCCM, we recommend that you select the Enterprise ring and deploy the upcoming builds before auto-update takes effect as described here. 
- 
+
+**Do automatic updates of the per-machine sync client require user intervention?**
+User intervention is not required for the per-machine sync client to update itself. Elevation is required when you first set it up. During setup, we install a scheduled task and a Windows service, which are used to perform the updates silently without user intervention since they run in elevated mode.
+
 **How do I revert back to the per-user sync client if required?** 
 We do not support automated migration from per-machine to per-user. To revert back after installing per-machine, please uninstall the sync client and [install the latest released version](https://go.microsoft.com/fwlink/?linkid=844652) without the “/allusers” parameter.  
  
