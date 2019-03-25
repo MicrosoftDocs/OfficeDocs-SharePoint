@@ -49,7 +49,11 @@ By using the new SharePoint admin center, you can create sites that use one of t
 
 5. Select **Create**.
 
-6. Select **Team site** (to create an Office 365 group-connected team site), **Communication site**, or **Other options** (to create a new team site without an Office 365 group, or to create a classic site)
+    ![The Create button on the Active sites page](media/create-site-button.png)
+
+6. Select **Team site** (to create an Office 365 group-connected team site), **Communication site**, or **Other options** (to create a new team site without an Office 365 group, or to create a classic site).
+
+    ![The Create a site panel](media/c4c5173f-ca83-426f-a940-cb2869a3a64b.png)
 
 7. Follow the steps to specify a site name, owner, language, and other settings. When you're done, select **Finish**.
     

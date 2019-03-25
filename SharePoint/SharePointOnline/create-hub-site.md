@@ -39,10 +39,14 @@ If you're a global or SharePoint admin in Office 365, you can convert any existi
 
 5. Select the site, select **Hub site**, and then select **Register as hub site**.
 
+    ![Registering a site as a hub site](media/register-hub-site.png)
+
     > [!TIP] 
     > Using the Hub site menu, you can also associate a site with the hub site, change a site's association to a different hub site, or disassociate a site from a hub site. 
 
 6. Enter a display name for the hub site and specify the individual users or security groups you want to allow to associate sites with the hub.
+
+    ![The Register as hub site panel](media/register-hub-site-panel.png)
 
 
     > [!IMPORTANT] 
