@@ -51,6 +51,8 @@ SharePoint admins can now delete sites that belong to Office 365 groups. Deletin
 
 6. Select **Delete**, and then select **Delete** to confirm.
 
+    ![Deleting a site on the Active sites page](media/delete-site.png)
+
 > [!NOTE]
 > Deleted Office 365 groups are retained for only 30 days.
  

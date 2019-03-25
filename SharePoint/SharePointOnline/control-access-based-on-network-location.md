@@ -54,7 +54,9 @@ Here are some important considerations for setting a location-based policy:
     
 4. In the left pane, select **Access control**.
     
-5. Select **Network location** and turn on **Allow access only from specific IP address ranges**
+5. Select **Network location** and turn on **Allow access only from specific IP address ranges**.
+
+    ![The Network location panel](media/access-control-network-location.png)
     
 6. Enter IP addresses and address ranges separated by commas. 
   

@@ -26,7 +26,7 @@ As a global or SharePoint admin in Office 365, you can let your users create and
 Some functionality is introduced gradually to organizations that have signed up for the [Targeted release option](/office365/admin/manage/release-options-in-office-365). This means that you might not yet see this feature or it might look different than what is described in this article.
 
 >[!NOTE]
->Disabling Site Creation for users does not remove their ability to create Office 365 Groups or resources, such as Microsoft Teams, which rely on Groups. When an Office 365 Group is created a SharePoint Site is also created. To restrict creation of Office 365 Groups and the resources that rely on Groups see [Manage who can create Office 365 Groups](https://docs.microsoft.com/en-us/office365/admin/create-groups/manage-creation-of-groups).
+>Disabling site creation for users does not remove their ability to create Office 365 groups or resources, such as Microsoft Teams, which rely on a group. When an Office 365 group is created, a SharePoint site is also created. To restrict creation of Office 365 groups and the resources that rely on groups see [Manage who can create Office 365 Groups](/office365/admin/create-groups/manage-creation-of-groups).
   
 ## Manage site creation in the new SharePoint admin center
 
@@ -39,7 +39,9 @@ Some functionality is introduced gradually to organizations that have signed up 
     
 3. If the classic SharePoint admin center appears, click **Try it now** to open the new SharePoint admin center.
     
-4. In the left pane of the new SharePoint admin center, select **Settings**, and then select **Site Creation**.
+4. In the left pane of the new SharePoint admin center, select **Settings**, and then select **Site creation**.
+
+    ![Site creation settings in the new SharePoint admin center](media/site-creation.png)
 
 5. Select to create Office 365 group-connected team sites under /sites or /teams, select the default time zone and storage limit for new sites, and turn **Let users create new sites** On or Off. 
 

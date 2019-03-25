@@ -15,6 +15,7 @@
 ### [Network utilization planning](network-utilization-planning.md)
 ### [Redirect known folders](redirect-known-folders.md)
 ### [B2B Sync](b2b-sync.md)
+### [How sync works](sync-process.md)
 ### [Sync client update process](sync-client-update-process.md)
 ### [Use Group Policy](use-group-policy.md)
 ### [Find your tenant ID](find-your-office-365-tenant-id.md)
