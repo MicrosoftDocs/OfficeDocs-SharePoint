@@ -35,11 +35,13 @@ SharePoint Online latency is affected in part by the physical distance between y
 
 You can use the built-in Office 365 Content Delivery Network (CDN) to host static assets to provide better performance for your SharePoint Online pages. The Office 365 CDN improves performance by caching static assets closer to the browsers requesting them, which helps to speed up downloads and reduce latency. Also, the Office 365 CDN uses the [HTTP/2 protocol](https://en.wikipedia.org/wiki/HTTP/2) for improved compression and download speeds.
 
-The Office 365 CDN is composed of multiple CDNs of two distinct classes of CDN: **public** and **private**. Both public and private CDNs allow you to host static assets in multiple locations, or _origins_, and serve them from global high-speed networks. The Office 365 CDN service is included as part of your SharePoint Online subscription.
+The Office 365 CDN is composed of multiple CDNs that allow you to host static assets in multiple locations, or _origins_, and serve them from global high-speed networks. Depending on the kind of content you want to host in the Office 365 CDN, you can add **public** origins, **private** origins or both.
 
-The **Private CDN** within the Office 365 CDN provides fast, secure access to user content such as SharePoint Online document libraries, sites and media such as videos. Unlike public CDNs, access to content in the Office 365 CDN is secured by default so it can only be accessed by users with permissions to the original document library or storage location.
+Content in **public** origins within the Office 365 CDN is accessible anonymously, and can be accessed by anyone who has URLs to hosted assets. Because access to content in public origins is anonymous, you should only use them to cache non-sensitive generic content such as javascript files, scripts, icons and images. The Office 365 CDN is used by default for downloading generic resource assets like the Office 365 client applications from a public origin.
 
-**Public CDNs** within the Office 365 CDN are hosted by 3rd-party CDN providers like Akamai and Verizon and Microsoft Azure. Content on a public CDN is accessible anonymously, and can be accessed by anyone who has URLs to hosted assets.
+**Private** origins within the Office 365 CDN provide private access to user content such as SharePoint Online document libraries, sites and media such as videos. Access to content in private origins is secured with dynamically generated tokens so it can only be accessed by users with permissions to the original document library or storage location. Private origins in the Office 365 CDN can only be used for SharePoint Online content, and you can only access assets through redirection from your SharePoint Online tenant.
+
+The Office 365 CDN service is included as part of your SharePoint Online subscription.
 
 For information about how to use the Office 365 CDN, see [Use the Office 365 Content Delivery Network (CDN) with SharePoint Online](https://docs.microsoft.com/en-us/Office365/Enterprise/use-office-365-cdn-with-spo).
 
@@ -52,3 +54,5 @@ For more information about the Office 365 CDN, see [Office 365 CDN](https://docs
 [Tune SharePoint Online performance](https://docs.microsoft.com/en-us/office365/enterprise/tune-sharepoint-online-performance)
 
 [Content Delivery Networks](https://docs.microsoft.com/en-us/Office365/Enterprise/content-delivery-networks)
+
+[Use the Office 365 Content Delivery Network (CDN) with SharePoint Online](https://docs.microsoft.com/en-us/Office365/Enterprise/use-office-365-cdn-with-spo)
