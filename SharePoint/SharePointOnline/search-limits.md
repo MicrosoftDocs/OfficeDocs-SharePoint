@@ -17,7 +17,7 @@ description: "As an admin who manages SharePoint Online (for more information, s
 
 # Search limits for SharePoint Online
 
-As an admin who manages SharePoint Online (for more information, see [SharePoint Online search administration overview](manage-search-the-admin-center.md)), you should also be aware of limits to search. For example, there are limits to the number of entries you can have in a custom search dictionary or the number of rows that are returned as part of a search. 
+As an admin who manages SharePoint Online (for more information, see [SharePoint Online search administration overview](manage-search-the-admin-center.md)), you should also be aware of limits to search. For example, there are limits to the number of entries you can have in a custom search dictionary or the number of rows that are returned as part of a search.
   
 There are two types of limits:
   
