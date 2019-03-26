@@ -681,22 +681,34 @@ In some environments, you must coordinate the rename and move procedures with th
    -  _\<NewDbName\>_ is the name of the database. 
     
    -  _\<NewServerName\>_ is the new database location. 
-    
-3. Point the CrawlStore database to the new location. At the PowerShell command prompt, type the following commands:
+   
+3. Point the Analytics Reporting database to the new location. At the PowerShell command prompt, type the following commands:
+
+  ```powershell
+  Add-SPServerScaleOutDatabase -ServiceApplication $ssa -DatabaseServer <OriginalServerName> [-DatabaseName <NewDbName>] 
+  $temp = Get-SPServerScaleOutDatabase -ServiceApplication $ssa 
+  Remove-SPServerScaleOutDatabase -Database $temp[0] -ServiceApplication $ssa
+  ```
+  
+  Where:
+  
+  - _\<OriginalServerName\>_ is the name of the original SQL server.
+     
+4. Point the CrawlStore database to the new location. At the PowerShell command prompt, type the following commands:
     
    ```powershell
    $CrawlDatabase0 = ([array]($ssa | Get-SPEnterpriseSearchCrawlDatabase))[0] 
    $CrawlDatabase0 | Set-SPEnterpriseSearchCrawlDatabase [-DatabaseName "<NewDbName>"] -DatabaseServer "<NewServerName>"
    ```
 
-4. Point the LinkStore database to the new location. At the PowerShell command prompt, type the following commands:
+5. Point the LinkStore database to the new location. At the PowerShell command prompt, type the following commands:
     
    ```powershell
    $LinksDatabase0 = ([array]($ssa | Get-SPEnterpriseSearchLinksDatabase))[0] 
    $LinksDatabase0 | Set-SPEnterpriseSearchLinksDatabase [-DatabaseName "<NewDbName>"] -DatabaseServer "<NewServerName>"
    ```
 
-5. Set all Search service instances to Online. Run the following commands for each search service in the farm, until the Search service instance is reported as Online. At the PowerShell command prompt, type the following commands:
+6. Set all Search service instances to Online. Run the following commands for each search service in the farm, until the Search service instance is reported as Online. At the PowerShell command prompt, type the following commands:
     
    ```powershell
    Get-SPEnterpriseSearchServiceInstance -Identity <Search Server> Do {write-host -NoNewline .;Sleep 10; $searchInstance = Get-SPEnterpriseSearchServiceInstance -Identity <Search Server>} while ($searchInstance.Status -ne "Online")
@@ -704,7 +716,7 @@ In some environments, you must coordinate the rename and move procedures with th
 
    Where  _\<Search Server\>_ is the name of the server that hosts the search components. 
     
-6. Resume the Search service application. At the PowerShell command prompt, type the following commands:
+7. Resume the Search service application. At the PowerShell command prompt, type the following commands:
     
    ```powershell
    $ssa = Get-SPEnterpriseSearchServiceApplication <SearchServiceApplicationName>
@@ -713,7 +725,7 @@ In some environments, you must coordinate the rename and move procedures with th
 
    Where  _\<SearchServiceApplicationName\>_ is the name of the Search service application associated with the database move. 
     
-7. Restart each server that hosts a search component.
+8. Restart each server that hosts a search component.
     
 ## See also
 <a name="Search"> </a>

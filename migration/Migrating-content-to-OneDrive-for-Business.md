@@ -9,7 +9,6 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Priority
 ms.collection: 
 - IT_Sharepoint_Server_Top
-- Strat_SP_gtc
 - SPMigration
 - M365-collaboration
 description: "Migrating Content to OneDrive for Business."
@@ -18,11 +17,11 @@ description: "Migrating Content to OneDrive for Business."
  
 **Migrate to OneDrive for FREE**
 
-If you have files and folders on your computer or on a network drive, you can now use the [SharePoint Migration tool](http://spmtreleasescus.blob.core.windows.net/install/default.htm) to migrate that content to your own OneDrive for **FREE!**
+If you have files and folders on your computer or on a network drive, you can now use the [SharePoint Migration tool](https://aka.ms/SPMT-ODB-Page) to migrate that content to your own OneDrive for **FREE!**
 
 As an admin, you can also run the tool on behalf of your users.
 
-To learn more, see  [SharePoint and OneDrive Migration Tool](http://spmtreleasescus.blob.core.windows.net/install/default.htm). 
+To learn more, see  [SharePoint and OneDrive Migration Tool](https://aka.ms/SPMT-ODB2). 
  <br><br>
 
 **Microsoft FastTrack**
@@ -33,3 +32,4 @@ Additionally, Microsoft offers [Fast Track services](https://fasttrack.microsoft
 **Migration service providers**
 
 You may decide that your organization has specific business needs that require you to use third-party services or applications to help you execute your migration. Explore the professional services and applications available from partners in the Microsoft Partner Center. There you can find experts to help you in your enterprise content migration to Office 365.  For more information see: [Microsoft Partner Center](https://partnercenter.microsoft.com/en-us/partner/home).
+

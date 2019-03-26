@@ -35,6 +35,8 @@ Note that this procedure applies to classic sites, communication sites, and new 
 4. In the left pane of the new SharePoint admin center, under **Sites** select **Active sites**.
     
 5. Select the site, and then select **Sharing**.
+
+    ![Changing the external sharing setting for a site](media/external-sharing-site.png)
      
 6. Select an external sharing option (see the following table), and select **Save**.
     

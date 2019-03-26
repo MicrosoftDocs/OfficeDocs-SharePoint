@@ -57,6 +57,8 @@ If they don't click **Continue**, they'll be automatically signed out and will s
 
 5. Select **Idle session sign-out**.
 
+    ![The Idle session sign-out panel](media/idle-session-sign-out.png)
+
 6. Turn on **Sign out inactive users automatically**, and then select when you want to sign out users and how much notice you want to give them before signing them out.
 
 7. Select **Save**.
