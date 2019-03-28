@@ -18,13 +18,13 @@ description: "Migrating Managed Metadata "
 
 The SharePoint Migration Tool (SPMT) lets you migrate managed metadata from SharePoint Server 2013 to SharePoint in Office 365.
 
-### What is supported
+## What is supported
 
 Currently, only the migration of the default site collection term store is supported. This is the term store which contains the site collection group. 
 
 You should have only one default site collection term store in SharePoint Managed Metadata Services. If more than one term store is marked as the default, the SharePoint Migration Tool (SPMT) will not be able to determine which term store to migrate.
 
-### Troubleshooting
+## Troubleshooting
 
 If your managed metadata column list and library is not migrating correctly when using SPMT:
 
@@ -35,7 +35,7 @@ If your managed metadata column list and library is not migrating correctly when
 
 
 
-#### To configure a managed metadata service connection
+### To configure a managed metadata service connection
 
 1. In SharePoint Server 2013 Central Administration, under Application Management, click **Manage service applications**.
 2. Find the managed metadata service connection for the service application that you want to configure. (Look for Managed Metadata Service Connection in the Type column.)
