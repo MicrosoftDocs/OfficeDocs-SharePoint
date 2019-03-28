@@ -16,17 +16,17 @@ description: "Migrating Managed Metadata "
 
 # Migrating Managed Metadata to SharePoint Online Using the SPMT
 
-The SharePoint Migration Tool lets you migrate managed metadata from SharePoint Server 2013 to SharePoint in Office 365.
+The SharePoint Migration Tool (SPMT) lets you migrate managed metadata from SharePoint Server 2013 to SharePoint in Office 365.
 
 ## What is supported
 
-Currently, we only support the migration of the default site collection term store. This is the term store which contains the site collection group. 
+Currently, only the migration of the default site collection term store is supported. This is the term store which contains the site collection group. 
 
-You should have only one default site collection term store in SharePoint Managed Metadata Services. If more than one term stores are marked as default term store, the SharePoint Migration Tool will not be able to determine which term store to migrate.
+You should have only one default site collection term store in SharePoint Managed Metadata Services. If more than one term store is marked as the default, the SharePoint Migration Tool (SPMT) will not be able to determine which term store to migrate.
 
 ### Troubleshooting
 
-If your managed metadata column list and library is not migrating correctly when using SPMT, verify the following:
+If your managed metadata column list and library is not migrating correctly when using SPMT:
 
 * Confirm that the SPO account you are using for migration has been added to the term store admin.
 * Confirm that you have a Managed Metadata Service connected to the web application. If not, create one.
@@ -45,4 +45,9 @@ If your managed metadata column list and library is not migrating correctly when
  ![Default site collection term store](media/managed-metadata-issue1.png)
 
 To learn more:</br></br>
- [Configure the SharePoint Server Managed Metadata service](https://docs.microsoft.com/en-us/SharePoint/governance/configure-the-managed-metadata-service). 
+ [Configure the SharePoint Server Managed Metadata service](https://docs.microsoft.com/en-us/SharePoint/governance/configure-the-managed-metadata-service).
+ 
+[Overview, including download links to SPMT](https://docs.microsoft.com/en-us/sharepointmigration/introducing-the-sharepoint-migration-tool)
+
+
+
