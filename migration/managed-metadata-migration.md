@@ -23,17 +23,17 @@ The SharePoint Migration Tool (SPMT) lets you migrate managed metadata from Shar
 The SharePoint Migration Tool supports having only **one** Managed Metadata Service (MMS) term store *set as the default*. This is the term store which contains the site collection group. 
 
 > [!NOTE]
-> If more than one term store is marked as the default, the SharePoint Migration Tool (SPMT) will not be able to determine which term store to migrate. This can result in breaking managed metadata columns which refer to the term store content.
+> If more than one site collection term store is marked as the default, the SharePoint Migration Tool (SPMT) will not be able to determine which term store to migrate. This can result in breaking managed metadata columns which refer to the term store content.
 
 ## Troubleshooting
 
-**Symptom:**  Your Managed Metadata term store and its content (term groups/terms sets/terms) fails to migrate.  
+**Symptom:**  Your Managed Metadata Service (MMS) term store and its content (term groups/terms sets/terms) fails to migrate.  
 
-**Likely cause:** More than one term store is set as default.
+**Likely cause:** More than one term store is set as the default.
 
 **Action:**  
 - If you want to migrate a Managed Metadata Service (MMS) term store, set it as the default. 
-- If you have more than one MMS, decide on the the one you want to migrate and set it as the default. Remove the default setting from all others.
+- If you have more than one MMS term store, decide on the the one you want to migrate and set it as the default. Remove the default setting from all others.
 
 
 
