@@ -11,7 +11,7 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - SPMigration
 - M365-collaboration
-description: "Migrating Managed Metadata "
+description: "Migrating Managed Metadata using the SPMT"
 ---
 
 # Migrating Managed Metadata to SharePoint Online Using the SPMT
@@ -20,18 +20,20 @@ The SharePoint Migration Tool (SPMT) lets you migrate managed metadata from Shar
 
 ## What is supported
 
-Currently, only the migration of the default site collection term store is supported. This is the term store which contains the site collection group. 
+The SharePoint Migration Tool supports having only **one** Managed Metadata Service (MMS) term store set as the default. This is the term store which contains the site collection group. 
 
-You should have only one default site collection term store in SharePoint Managed Metadata Services. If more than one term store is marked as the default, the SharePoint Migration Tool (SPMT) will not be able to determine which term store to migrate.
+> [!NOTE]
+> If more than one term store is marked as the default, the SharePoint Migration Tool (SPMT) will not be able to determine which term store to migrate. This can result in breaking managed metadata columns which refer to the term store content.
 
 ## Troubleshooting
 
-If your managed metadata column list and library is not migrating correctly when using SPMT:
+**Symptom:**  Your term term store and its content (term groups/terms sets/terms) fails to migrate.  
 
-* Confirm that the SPO account you are using for migration has been added to the term store admin.
-* Confirm that you have a Managed Metadata Service connected to the web application. If not, create one.
-* Verify that only one term store in connected to the web application and only one term store is set to *This is the default storage location for column specific term sets*. Uncheck any others.
+**Likely cause:** More than one term store is set as default.
 
+**Action:**  
+- If you want to migrate a Managed Metadata Service (MMS), set it as the default. 
+- If you have more than one MMS, decide on the the one you want to migrate and set is as the default. Remove the default setting all others.
 
 
 
@@ -47,7 +49,7 @@ If your managed metadata column list and library is not migrating correctly when
 To learn more:</br></br>
  [Configure the SharePoint Server Managed Metadata service](https://docs.microsoft.com/en-us/SharePoint/governance/configure-the-managed-metadata-service).
  
-[Overview, including download links to SPMT](https://docs.microsoft.com/en-us/sharepointmigration/introducing-the-sharepoint-migration-tool)
+[SharePoint Migration Tool:  Overview and download](https://docs.microsoft.com/en-us/sharepointmigration/introducing-the-sharepoint-migration-tool)
 
 
 
