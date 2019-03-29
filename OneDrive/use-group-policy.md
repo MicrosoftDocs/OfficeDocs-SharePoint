@@ -366,7 +366,9 @@ Enabling this policy sets the following registry key value to 1.
   
 [HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"FilesOnDemandEnabled"="dword:00000001"
  
+Meet Windows and OneDrive sync client requirements and still can't see Files On-Demand option available at "Settings"? Make sure service "Windows Cloud Files Filter Driver" start type is set to 2 (AUTO_START). Enabling this feature sets the following registry key value to 2.
 
+[HKLM\SYSTEM\CurrentControlSet\Services\CldFlt]"Start"="dword:00000002"
 
 ## User Configuration policies
 <a name="Glob"> </a>
