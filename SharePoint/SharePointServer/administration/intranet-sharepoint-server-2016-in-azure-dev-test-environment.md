@@ -3,7 +3,7 @@ title: "Intranet SharePoint Server 2016 in Azure dev/test environment"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/30/2018
+ms.date: 03/15/2019
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
@@ -58,7 +58,7 @@ There are three major phases to setting up this dev/test environment:
   
 ## Phase 1: Set up the simulated cross-premises environment
 
-Use the instructions in [Simulated cross-premises virtual network in Azure](http://technet.microsoft.com/library/0a3555dc-6f96-49a5-b9e2-7760e16630b3.aspx) to create the following configuration: 
+Use the instructions in [Simulated cross-premises virtual network in Azure](/office365/enterprise/simulated-cross-premises-virtual-network-in-azure) to create the following configuration: 
   
 **Figure 2: The simulated cross-premises environment**
 
@@ -77,36 +77,36 @@ To create the SQL Server 2016 virtual machine with Azure PowerShell, supply the 
   
 ```
 # Log in to Azure
-Login-AzureRmAccount
+Connect-AzAccount
 # Set up key variables
 $subscrName="<name of your Azure subscription>"
 $rgName="<your resource group name>"
 # Set the Azure subscription
-Get-AzureRmSubscription -SubscriptionName $subscrName | Select-AzureRmSubscription
+Select-AzSubscription -SubscriptionName $subscrName -Current
 # Get the Azure location
-$sa=Get-AzureRMStorageaccount | where {$_.ResourceGroupName -eq $rgName}
+$sa=Get-AzStorageaccount | where {$_.ResourceGroupName -eq $rgName}
 # Create an availability set for SQL Server virtual machines
-New-AzureRMAvailabilitySet -ResourceGroupName $rgName -Name sqlAvailabilitySet -Location $locName -Sku Aligned  -PlatformUpdateDomainCount 5 -PlatformFaultDomainCount 2
+New-AzAvailabilitySet -ResourceGroupName $rgName -Name sqlAvailabilitySet -Location $locName -Sku Aligned  -PlatformUpdateDomainCount 5 -PlatformFaultDomainCount 2
 # Create the SQL Server virtual machine
 $vmName="SQL1"
 $vmSize="Standard_D3_V2"
-$vnet=Get-AzureRMVirtualNetwork -Name "XPrem" -ResourceGroupName $rgName
+$vnet=Get-AzVirtualNetwork -Name "XPrem" -ResourceGroupName $rgName
 $nicName=$vmName + "-NIC"
 $pipName=$vmName + "-PIP"
-$pip=New-AzureRMPublicIpAddress -Name $pipName -ResourceGroupName $rgName -Location $locName -AllocationMethod Dynamic
-$nic=New-AzureRMNetworkInterface -Name $nicName -ResourceGroupName $rgName -Location $locName -SubnetId $vnet.Subnets[0].Id -PublicIpAddressId $pip.Id -PrivateIpAddress "192.168.0.10"
-$avSet=Get-AzureRMAvailabilitySet -Name sqlAvailabilitySet -ResourceGroupName $rgName 
-$vm=New-AzureRMVMConfig -VMName $vmName -VMSize $vmSize -AvailabilitySetId $avSet.Id
-$vm=Set-AzureRmVMOSDisk -VM $vm -Name ($vmName +"-OS") -DiskSizeInGB 128 -CreateOption FromImage -StorageAccountType "StandardLRS"
+$pip=New-AzPublicIpAddress -Name $pipName -ResourceGroupName $rgName -Location $locName -AllocationMethod Dynamic
+$nic=New-AzNetworkInterface -Name $nicName -ResourceGroupName $rgName -Location $locName -SubnetId $vnet.Subnets[0].Id -PublicIpAddressId $pip.Id -PrivateIpAddress "192.168.0.10"
+$avSet=Get-AzAvailabilitySet -Name sqlAvailabilitySet -ResourceGroupName $rgName 
+$vm=New-AzVMConfig -VMName $vmName -VMSize $vmSize -AvailabilitySetId $avSet.Id
+$vm=Set-AzVMOSDisk -VM $vm -Name ($vmName +"-OS") -DiskSizeInGB 128 -CreateOption FromImage -StorageAccountType "StandardLRS"
 $diskSize=100
-$diskConfig=New-AzureRmDiskConfig -AccountType "StandardLRS" -Location $locName -CreateOption Empty -DiskSizeGB $diskSize
-$dataDisk1=New-AzureRmDisk -DiskName ($vmName + "-SQLData") -Disk $diskConfig -ResourceGroupName $rgName
-$vm=Add-AzureRmVMDataDisk -VM $vm -Name ($vmName + "-SQLData") -CreateOption Attach -ManagedDiskId $dataDisk1.Id -Lun 1
+$diskConfig=New-AzDiskConfig -AccountType "StandardLRS" -Location $locName -CreateOption Empty -DiskSizeGB $diskSize
+$dataDisk1=New-AzDisk -DiskName ($vmName + "-SQLData") -Disk $diskConfig -ResourceGroupName $rgName
+$vm=Add-AzVMDataDisk -VM $vm -Name ($vmName + "-SQLData") -CreateOption Attach -ManagedDiskId $dataDisk1.Id -Lun 1
 $cred=Get-Credential -Message "Type the name and password of the local administrator account of the SQL Server computer." 
-$vm=Set-AzureRMVMOperatingSystem -VM $vm -Windows -ComputerName $vmName -Credential $cred -ProvisionVMAgent -EnableAutoUpdate
-$vm=Set-AzureRMVMSourceImage -VM $vm -PublisherName MicrosoftSQLServer -Offer SQL2016-WS2016 -Skus Standard -Version "latest"
-$vm=Add-AzureRMVMNetworkInterface -VM $vm -Id $nic.Id
-New-AzureRMVM -ResourceGroupName $rgName -Location $locName -VM $vm
+$vm=Set-AzVMOperatingSystem -VM $vm -Windows -ComputerName $vmName -Credential $cred -ProvisionVMAgent -EnableAutoUpdate
+$vm=Set-AzVMSourceImage -VM $vm -PublisherName MicrosoftSQLServer -Offer SQL2016-WS2016 -Skus Standard -Version "latest"
+$vm=Add-AzVMNetworkInterface -VM $vm -Id $nic.Id
+New-AzVM -ResourceGroupName $rgName -Location $locName -VM $vm
 
 ```
 
@@ -202,32 +202,32 @@ Next, to create the SharePoint Server 2016 virtual machine with Azure PowerShell
 $subscrName="<name of your Azure subscription>"
 $rgName="<your resource group name>"
 # Set the Azure subscription
-Get-AzureRmSubscription -SubscriptionName $subscrName | Select-AzureRmSubscription
+Select-AzSubscription -SubscriptionName $subscrName -Current
 # Get the Azure location and storage account name
-$locName=(Get-AzureRmResourceGroup -Name $rgName).Location
-$saName=(Get-AzureRMStorageaccount | Where {$_.ResourceGroupName -eq $rgName}).StorageAccountName
+$locName=(Get-AzResourceGroup -Name $rgName).Location
+$saName=(Get-AzStorageaccount | Where {$_.ResourceGroupName -eq $rgName}).StorageAccountName
 # Create an availability set for SharePoint virtual machines
-New-AzureRMAvailabilitySet -ResourceGroupName $rgName -Name spAvailabilitySet -Location $locName -Sku Aligned  -PlatformUpdateDomainCount 5 -PlatformFaultDomainCount 2
+New-AzAvailabilitySet -ResourceGroupName $rgName -Name spAvailabilitySet -Location $locName -Sku Aligned  -PlatformUpdateDomainCount 5 -PlatformFaultDomainCount 2
 # Create the SharePoint virtual machine
 $vmName="SP1"
 $vmSize="Standard_D3_V2"
-$vm=New-AzureRMVMConfig -VMName $vmName -VMSize $vmSize
+$vm=New-AzVMConfig -VMName $vmName -VMSize $vmSize
 $nicName=$vmName + "-NIC"
 $pipName=$vmName + "-PIP"
-$pip=New-AzureRMPublicIpAddress -Name $pipName -ResourceGroupName $rgName -Location $locName -AllocationMethod Dynamic
-$vnet=Get-AzureRMVirtualNetwork -Name "XPrem" -ResourceGroupName $rgName
-$nic=New-AzureRMNetworkInterface -Name $nicName -ResourceGroupName $rgName -Location $locName -SubnetId $vnet.Subnets[0].Id -PublicIpAddressId $pip.Id -PrivateIpAddress "192.168.0.11"
-$avSet=Get-AzureRMAvailabilitySet -Name spAvailabilitySet -ResourceGroupName $rgName 
-$vm=New-AzureRMVMConfig -VMName $vmName -VMSize $vmSize -AvailabilitySetId $avSet.Id
+$pip=New-AzPublicIpAddress -Name $pipName -ResourceGroupName $rgName -Location $locName -AllocationMethod Dynamic
+$vnet=Get-AzVirtualNetwork -Name "XPrem" -ResourceGroupName $rgName
+$nic=New-AzNetworkInterface -Name $nicName -ResourceGroupName $rgName -Location $locName -SubnetId $vnet.Subnets[0].Id -PublicIpAddressId $pip.Id -PrivateIpAddress "192.168.0.11"
+$avSet=Get-AzAvailabilitySet -Name spAvailabilitySet -ResourceGroupName $rgName 
+$vm=New-AzVMConfig -VMName $vmName -VMSize $vmSize -AvailabilitySetId $avSet.Id
 $pubName="MicrosoftSharePoint"
 $offerName="MicrosoftSharePointServer"
 $skuName="2016"
 $cred=Get-Credential -Message "Type the name and password of the local administrator account of the SharePoint server."
-$vm=Set-AzureRMVMOperatingSystem -VM $vm -Windows -ComputerName $vmName -Credential $cred -ProvisionVMAgent -EnableAutoUpdate
-$vm=Set-AzureRMVMSourceImage -VM $vm -PublisherName $pubName -Offer $offerName -Skus $skuName -Version "latest"
-$vm=Add-AzureRMVMNetworkInterface -VM $vm -Id $nic.Id
-$vm=Set-AzureRmVMOSDisk -VM $vm -Name "DC1-OS" -DiskSizeInGB 128 -CreateOption FromImage -StorageAccountType "StandardLRS"
-New-AzureRMVM -ResourceGroupName $rgName -Location $locName -VM $vm
+$vm=Set-AzVMOperatingSystem -VM $vm -Windows -ComputerName $vmName -Credential $cred -ProvisionVMAgent -EnableAutoUpdate
+$vm=Set-AzVMSourceImage -VM $vm -PublisherName $pubName -Offer $offerName -Skus $skuName -Version "latest"
+$vm=Add-AzVMNetworkInterface -VM $vm -Id $nic.Id
+$vm=Set-AzVMOSDisk -VM $vm -Name "DC1-OS" -DiskSizeInGB 128 -CreateOption FromImage -StorageAccountType "StandardLRS"
+New-AzVM -ResourceGroupName $rgName -Location $locName -VM $vm
 
 ```
 

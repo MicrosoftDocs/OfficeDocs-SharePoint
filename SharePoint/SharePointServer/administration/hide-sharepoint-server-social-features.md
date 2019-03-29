@@ -310,7 +310,7 @@ If your My Site uses a custom Master Page, follow the steps in _Register the CSS
     
 20. Choose **Build** > **Deploy Solution**.
     
-    The control has to be deployed on each web server in the farm. For information about how to deploy and install a solution to the farm, see [Add-SPSolution](http://technet.microsoft.com/library/0c64c1ac-39c0-4d5e-923f-27d0c48b006a.aspx) and [Install-SPSolution](http://technet.microsoft.com/library/0133c53b-70c4-4dff-a2ae-3c94759ed25d.aspx).
+    The control has to be deployed on each web server in the farm. For information about how to deploy and install a solution to the farm, see [Add-SPSolution](/powershell/module/sharepoint-server/Add-SPSolution?view=sharepoint-ps) and [Install-SPSolution](/powershell/module/sharepoint-server/Install-SPSolution?view=sharepoint-ps).
     
     The result is a SharePoint solution package that can be deployed and activated on the My Site Host site. 
     

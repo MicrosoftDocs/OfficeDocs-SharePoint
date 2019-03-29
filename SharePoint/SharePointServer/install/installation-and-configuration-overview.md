@@ -138,7 +138,7 @@ In this phase, you prepare the farm to host your site content by completing the 
     
 - Configure global settings. For more information, see [Configure SharePoint Server](configure.md)
     
-- Create and populate the sites. For more information, see [Create a web application in SharePoint Server](http://technet.microsoft.com/library/121c8d83-a508-4437-978b-303096aa59df%28Office.14%29.aspx)
+- Create and populate the sites. For more information, see [Create a web application in SharePoint Server](/previous-versions/office/sharepoint-server-2010/cc261875(v=office.14))
     
 > [!NOTE]
 > Farm configuration steps are not isolated to a specific tier in the server infrastructure. 
@@ -180,7 +180,7 @@ Before you can deploy a farm, you must plan the solution that you want to deploy
     
 - An understanding of how the solution will be messaged to the user to drive adoption of the solution
     
-We recommend that you use the planning resources and articles described in [Plan for SharePoint Server](http://technet.microsoft.com/library/0ed0b44c-d60d-4b85-87de-19065d968835%28Office.14%29.aspx).
+We recommend that you use the planning resources and articles described in [Plan for SharePoint Server](/previous-versions/office/sharepoint-server-2010/cc261834(v=office.14)).
   
 > [!IMPORTANT]
 > Resource and time issues may pressure you to be less rigorous during the planning stage. We recommend that you try to be as diligent as possible because missed or lightly touched planning elements can resurface as significant issues after you are in production. These issues can create much additional work, consume unbudgeted resources, and potentially take away from the success of your SharePoint Server 2013. 

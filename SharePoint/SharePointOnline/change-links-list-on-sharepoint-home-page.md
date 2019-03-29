@@ -10,7 +10,9 @@ f1_keywords:
 - 'WSSEndUser_SPMobileAndroid_LinksTabEmptyState_FL827915'
 ms.service: sharepoint-online
 localization_priority: Normal
-ms.collection: Strat_SP_modern
+ms.collection:  
+- Strat_SP_admin
+- M365-collaboration
 search.appverid:
 - SPO160
 - MOE150
@@ -25,7 +27,7 @@ description: "Here is how SharePoint Online company administrators can change th
  As a global or SharePoint admin in Office 365, you can feature the sites and content you want on the SharePoint home page by changing the **Links** list on the left side. To add links to a SharePoint Server page, see [Video: Add a link to a page](https://support.office.com/article/F9B329F9-67BB-4258-A686-9CD98415E7CA).
   
 > [!NOTE]
-> Some functionality is introduced gradually to organizations that have opted in to the [Set up the Standard or Targeted release options in Office 365](https://support.office.com/article/3b3adfa4-1777-4ff0-b606-fb8732101f47). This means that you may not yet see this feature or it may look different than what is described in the help articles. <br>To learn more about the SharePoint home page, see [Find news, sites, and portals in Office 365](https://support.office.com/article/6b85097a-87e0-4611-a29a-dfd49b1a1220). 
+> Some functionality is introduced gradually to organizations that have opted in to the [Set up the Standard or Targeted release options in Office 365](/office365/admin/manage/release-options-in-office-365). This means that you may not yet see this feature or it may look different than what is described in the help articles. <br>To learn more about the SharePoint home page, see [Find news, sites, and portals in Office 365](https://support.office.com/article/6b85097a-87e0-4611-a29a-dfd49b1a1220). 
   
 To view the SharePoint home page in Office 365:
   

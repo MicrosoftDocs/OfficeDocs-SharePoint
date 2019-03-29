@@ -14,6 +14,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
+- M365-collaboration
 ms.custom: 
 ms.assetid: 70e043ef-8908-436e-92bf-abbcd89874f7
 description: "Learn how to set up the SharePoint Server services you'll need for a hybrid environment."
@@ -238,7 +239,7 @@ Hybrid uses the Microsoft SharePoint Foundation Subscription Settings Service wh
     
 2. For the **Microsoft SharePoint Foundation Subscription Settings Service**, click **Enable Auto Provision**
     
-You must also have a Subscription Settings service application and proxy. These must be created by using Microsoft PowerShell. Use the example script provided at [New-SPSubscriptionSettingsServiceApplication](http://technet.microsoft.com/library/a0056290-df8b-4167-9a11-59cbb619e194.aspx).
+You must also have a Subscription Settings service application and proxy. These must be created by using Microsoft PowerShell. Use the example script provided at [New-SPSubscriptionSettingsServiceApplication](/powershell/module/sharepoint-server/New-SPSubscriptionSettingsServiceApplication?view=sharepoint-ps).
   
  ** Active Directory Domain Services synchronization connection **
   

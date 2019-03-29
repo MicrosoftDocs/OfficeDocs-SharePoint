@@ -77,5 +77,5 @@ You create and maintain the thesaurus file in a file external to SharePoint Serv
 
 [Linguistic search features in SharePoint Server](../technical-reference/linguistic-search-features.md)
 
-[Import-SPEnterpriseSearchThesaurus](http://technet.microsoft.com/library/eb1fdf2f-324d-4023-b534-93664b45d17d.aspx)
+[Import-SPEnterpriseSearchThesaurus](/powershell/module/sharepoint-server/Import-SPEnterpriseSearchThesaurus?view=sharepoint-ps)
 

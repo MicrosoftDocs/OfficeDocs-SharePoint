@@ -7,7 +7,9 @@ ms.audience: Admin
 ms.topic: conceptual
 ms.service: sharepoint-online
 localization_priority: Normal
-ms.collection: Strat_SP_admin
+ms.collection:  
+- Strat_SP_admin
+- M365-collaboration
 search.appverid:
 - SPO160
 - ODB160
@@ -24,29 +26,29 @@ You control your data. When you put your data in SharePoint Online and OneDrive,
 
 Microsoft engineers administer SharePoint Online and OneDrive using a Windows PowerShell console that requires two-factor authentication. We perform day-to-day tasks by running workflows so we can rapidly respond to new situations. Check-ins to the service require code review and management approval.
   
-No engineer has standing access to the service. When engineers need access, they must request it. Eligibility is checked, and if engineer access is approved, it's only for a limited time. In the rare cases where Microsoft engineers need access to content, (for example if you submit a support ticket because a user can't access an important file that we believe is damaged), the engineers must check in a special workflow that requires business justification and manager approval. An audit event is generated that you can view in the Microsoft 365 admin center. You can also turn on a feature called Customer Lockbox so you need to grant approval. The engineer gets access only to the file in question. Learn how to turn on or off Customer Lockbox and approve and deny requests: [Office 365 Customer Lockbox Requests](https://support.office.com/en-us/article/Office-365-Customer-Lockbox-Requests-36f9cdd1-e64c-421b-a7e4-4a54d16440a2).
+No engineer has standing access to the service. When engineers need access, they must request it. Eligibility is checked, and if engineer access is approved, it's only for a limited time. In the rare cases where Microsoft engineers need access to content, (for example if you submit a support ticket because a user can't access an important file that we believe is damaged), the engineers must check in a special workflow that requires business justification and manager approval. An audit event is generated that you can view in the Microsoft 365 admin center. You can also turn on a feature called Customer Lockbox so you need to grant approval. The engineer gets access only to the file in question. Learn how to turn on or off Customer Lockbox and approve and deny requests: [Office 365 Customer Lockbox Requests](/office365/admin/manage/customer-lockbox-requests).
   
 ## How you can safeguard your data
 
-One of the most important things you can do to safeguard your data is to require two-factor authentication for your identities in Office 365. This prevents credentials from being used without a second factor and mitigates the impact of compromised passwords. The second factor can be made through a phone call, text message, or app. When you roll out two-factor authentication, start with your global admins, and then other admins and site collection admins. For information on how to do this, see [Set up multi-factor authentication for Office 365 users](https://support.office.com/article/8f0454b2-f51a-4d9c-bcde-2c48e41621c6).
+One of the most important things you can do to safeguard your data is to require two-factor authentication for your identities in Office 365. This prevents credentials from being used without a second factor and mitigates the impact of compromised passwords. The second factor can be made through a phone call, text message, or app. When you roll out two-factor authentication, start with your global admins, and then other admins and site collection admins. For information on how to do this, see [Set up multi-factor authentication for Office 365 users](/office365/admin/security-and-compliance/set-up-multi-factor-authentication).
   
 Other things we recommend to increase security: 
   
 - Use Azure Active Directory device-based conditional access to block or limit access on unmanaged devices like airport or hotel kiosks. See [Control access from unmanaged devices](control-access-from-unmanaged-devices.md).
     
-- Create policies to sign users out of Office 365 web sessions after a period of inactivity. For information, see [Idle Session Timeout (currently in preview).](https://go.microsoft.com/fwlink/?linkid=867121)
+- Create policies to sign users out of Office 365 web sessions after a period of inactivity. For information, see [Sign out inactive users](sign-out-inactive-users.md).
     
-- Evaluate the need for IP-based sessions. These simulate the access model of an on-premises deployment. Read more at [Control access based on network location or app](https://support.office.com/article/59b83701-cefd-4bf8-b4d1-d4659b60da08).
+- Evaluate the need for IP-based sessions. These simulate the access model of an on-premises deployment. Read more at [Control access based on network location or app](/onedrive/control-access-based-on-network-location-or-app).
     
 - Empower workers to share broadly but safely. You can require sign-in or use links that expire or grant limited privileges. See [Manage external sharing for your SharePoint Online environment](external-sharing-overview.md).
     
-- Prevent accidental exposure of sensitive content. Create DLP policies to identify documents and prevent them from being shared. See [Overview of data loss prevention policies](https://support.office.com/article/1966b2a7-d1e2-4d92-ab61-42efbb137f5e#office).
+- Prevent accidental exposure of sensitive content. Create DLP policies to identify documents and prevent them from being shared. See [Overview of data loss prevention policies](/office365/securitycompliance/data-loss-prevention-policies).
     
 ## Protected in transit and at rest
 
 ### Protected in transit
 
-When data transits into the service from clients, and between datacenters, it's protected using best-in-class encryption. For info, see [Data Encryption in OneDrive for Business and SharePoint Online](https://support.office.com/article/6501b5ef-6bf7-43df-b60d-f65781847d6c). We only permit secure access. We won't make authenticated connections over HTTP, but instead redirect to HTTPS.
+When data transits into the service from clients, and between datacenters, it's protected using best-in-class encryption. For info, see [Data Encryption in OneDrive for Business and SharePoint Online](/office365/securitycompliance/data-encryption-in-odb-and-spo). We only permit secure access. We won't make authenticated connections over HTTP, but instead redirect to HTTPS.
   
 ### Protected at rest
 
@@ -56,19 +58,19 @@ When data transits into the service from clients, and between datacenters, it's 
   
  **Application security**: Engineers who build features follow the security development lifecycle. Automated and manual analyses help identify possible vulnerabilities. The Microsoft security response center ( [Microsoft Security Response Center](https://technet.microsoft.com/en-us/security/dn440717.aspx)) helps triage incoming vulnerability reports and evaluate mitigations. Through the Microsoft Cloud Bug Bounty, people across the world can earn money by reporting vulnerabilities. Read more about this at [Microsoft Cloud Bug Bounty Terms](https://technet.microsoft.com/en-us/dn800983).
   
- **Content protection**: You data is encrypted at the disk level using BitLocker encryption and at the file level using keys. For info, see [Data Encryption in OneDrive for Business and SharePoint Online](https://support.office.com/article/6501b5ef-6bf7-43df-b60d-f65781847d6c). For information about using Customer Key to provide and control the keys that are used to encrypt your data at rest in Office 365, see [Service encryption with Customer Key for Office 365 FAQ](https://support.office.com/article/41ae293a-bd5c-4083-acd8-e1a2b4329da6).
+ **Content protection**: You data is encrypted at the disk level using BitLocker encryption and at the file level using keys. For info, see [Data Encryption in OneDrive for Business and SharePoint Online](/office365/securitycompliance/data-encryption-in-odb-and-spo). For information about using Customer Key to provide and control the keys that are used to encrypt your data at rest in Office 365, see [Service encryption with Customer Key for Office 365 FAQ](/office365/securitycompliance/service-encryption-with-customer-key-faq).
   
-The Office 365 anti-malware engine scans documents at upload time for content matching an AV signature (updated hourly). For information, see [Virus detection in SharePoint Online](https://support.office.com/article/e3c6df61-8513-499d-ad8e-8a91770bff63). For more advanced protection, use Office 365 Advanced Threat Protection (ATP). ATP analyzes content that's shared and applies threat intelligence and analysis to identify sophisticated threats. For information, see [Office 365 Advanced Threat Protection](https://support.office.com/article/e100fe7c-f2a1-4b7d-9e08-622330b83653).
+The Office 365 anti-malware engine scans documents at upload time for content matching an AV signature (updated hourly). For information, see [Virus detection in SharePoint Online](/office365/securitycompliance/virus-detection-in-spo). For more advanced protection, use Office 365 Advanced Threat Protection (ATP). ATP analyzes content that's shared and applies threat intelligence and analysis to identify sophisticated threats. For information, see [Office 365 Advanced Threat Protection](/office365/securitycompliance/office-365-atp).
   
 To limit the risk of content being downloaded to untrusted devices: 
   
-- Limit sync to devices on the domains you specify: [Allow syncing only on computers joined to specific domains](https://support.office.com/article/a3b03efd-ccd0-4d3c-b9ae-7f8f3f9485bc).
+- Limit sync to devices on the domains you specify: [Allow syncing only on computers joined to specific domains](/onedrive/allow-syncing-only-on-specific-domains).
     
-- Use Intune to limit access to content in the OneDrive and SharePoint mobile apps: [Control access to features in the OneDrive and SharePoint mobile apps](https://support.office.com/article/d25713bb-5cf8-4874-9b5b-e8bee3b94f13).
+- Use Intune to limit access to content in the OneDrive and SharePoint mobile apps: [Control access to features in the OneDrive and SharePoint mobile apps](/onedrive/control-access-to-mobile-app-features).
     
 To manage content at rest: 
   
-- Configure IRM policies on SharePoint document libraries to limit download of content. See [Set up Information Rights Management (IRM) in SharePoint admin center](https://support.office.com/article/239ce6eb-4e81-42db-bf86-a01362fed65c).
+- Configure IRM policies on SharePoint document libraries to limit download of content. See [Set up Information Rights Management (IRM) in SharePoint admin center](/office365/securitycompliance/set-up-irm-in-sp-admin-center).
     
 - Evaluate the use of Azure Information Protection (AIP). Classification and labeling lets you track and control how data is used. Visit [Azure Information Protection](https://www.microsoft.com/en-us/cloud-platform/azure-information-protection).
     
@@ -92,21 +94,21 @@ The Office 365 "Red Team" within Microsoft is made up of intrusion specialists. 
   
 To monitor and observe activity in your Office 365 subscription:
   
-- If you have an on-premises security operations center or SIEM, you can monitor activity with the Management Activity API. For information, see [Office 365 Management APIs overview](https://msdn.microsoft.com/en-us/office-365/office-365-managment-apis-overview). This will show you activity from across SharePoint, Exchange, Azure Active Directory, DLP and more. If you don't have an on-premises security operations center or SIEM, you can use Cloud App Security. Cloud App Security uses the Management Activity API. For information, see [Overview of Office 365 Cloud App Security](https://support.office.com/en-us/article/Overview-of-Office-365-Cloud-App-Security-81f0ee9a-9645-45ab-ba56-de9cbccab475?ui=en-US&amp;rs=en-US&amp;ad=US). Through Cloud App Security, you can report, search, and alert on activity.
+- If you have an on-premises security operations center or SIEM, you can monitor activity with the Management Activity API. For information, see [Office 365 Management APIs overview](/office/office-365-management-api/office-365-management-apis-overview). This will show you activity from across SharePoint, Exchange, Azure Active Directory, DLP and more. If you don't have an on-premises security operations center or SIEM, you can use Cloud App Security. Cloud App Security uses the Management Activity API. For information, see [Overview of Office 365 Cloud App Security](/office365/securitycompliance/office-365-cas-overview). Through Cloud App Security, you can report, search, and alert on activity.
     
-- Use Azure Active Directory identity protection. This applies machine learning to detect suspicious account behavior, for example, simultaneous sign-ins from the same user in different parts of the world. You can configure identity protection to take action to block these sign-ins. For more information, see [Azure Active Directory Identity Protection](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-identityprotection).
+- Use Azure Active Directory identity protection. This applies machine learning to detect suspicious account behavior, for example, simultaneous sign-ins from the same user in different parts of the world. You can configure identity protection to take action to block these sign-ins. For more information, see [Azure Active Directory Identity Protection](/azure/active-directory/identity-protection/overview).
     
-- Use Secure Score to evaluate the security profile of your subscription against a known good baseline and identify opportunities to increase protection: [Introducing the Office 365 Secure Score](https://support.office.com/en-us/article/Introducing-the-Office-365-Secure-Score-c9e7160f-2c34-4bd0-a548-5ddcc862eaef).
+- Use Secure Score to evaluate the security profile of your subscription against a known good baseline and identify opportunities to increase protection: [Introducing the Office 365 Secure Score](/office365/securitycompliance/office-365-secure-score).
     
 ## Audited and compliant
 
-Regulatory compliance is fundamental to Office 365. We make sure the service complies with regulatory and compliance standards. We also help you meet your audit and compliance obligations. The [Service Trust Portal](https://servicetrust.microsoft.com) is a one-stop shop for compliance and trust information for Microsoft enterprise services. The portal contains reports, whitepapers, vulnerability assessments, and compliance guides. The portal also includes the Compliance Manager which evaluates the configuration of your subscription against a set of compliance criteria. For more info about the Service Trust Portal, see [Get started with the Microsoft Service Trust Portal](https://support.office.com/article/f30e2353-0bd6-41ed-8347-eea1fb8d2662).
+Regulatory compliance is fundamental to Office 365. We make sure the service complies with regulatory and compliance standards. We also help you meet your audit and compliance obligations. The [Service Trust Portal](https://servicetrust.microsoft.com) is a one-stop shop for compliance and trust information for Microsoft enterprise services. The portal contains reports, whitepapers, vulnerability assessments, and compliance guides. The portal also includes the Compliance Manager which evaluates the configuration of your subscription against a set of compliance criteria. For more info about the Service Trust Portal, see [Get started with the Microsoft Service Trust Portal](/office365/securitycompliance/get-started-with-service-trust-portal).
   
 To meet your regulatory requirements: 
   
-- Audit Office 365 activity in the Security &amp; Compliance Center: [Search the audit log in the Office 365 Security &amp; Compliance Center](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c).
+- Audit Office 365 activity in the Security &amp; Compliance Center: [Search the audit log in the Office 365 Security &amp; Compliance Center](/office365/securitycompliance/search-the-audit-log-in-security-and-compliance).
     
-- Create eDiscovery cases: [Manage eDiscovery cases in the Office 365 Security &amp; Compliance Center](https://support.office.com/article/9a00b9ea-33fd-4772-8ea6-9d3c65e829e6)
+- Create eDiscovery cases: [Manage eDiscovery cases in the Office 365 Security &amp; Compliance Center](/Office365/SecurityCompliance/ediscovery-cases)
     
 - Apply retention policies: [Create and apply information management policies](https://support.office.com/article/eb501fe9-2ef6-4150-945a-65a6451ee9e9).
     

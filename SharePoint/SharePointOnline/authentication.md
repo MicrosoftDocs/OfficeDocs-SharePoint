@@ -8,7 +8,9 @@ ms.audience: Admin
 ms.topic: conceptual
 ms.service: sharepoint-online
 localization_priority: Normal
-ms.collection: Ent_O365
+ms.collection: 
+- Ent_O365
+- M365-collaboration
 ms.custom: Adm_O365
 search.appverid:
 - MET150
@@ -38,6 +40,6 @@ By default, all SharePoint Online cookies are **session** cookies. These cookies
   
 Persistent cookies have a huge impact on the sign-in experience by reducing the number of authentication prompts users see. Persistent cookies are also required for some SharePoint Online features, such as **Open with Explorer** and **Mapped Drives**. 
   
-For more information about session timeouts see our article reviewing [Session timeouts for Office 365](https://support.office.com/article/37a5c116-5b07-4f70-8333-5b86fd2c3c40).
+For more information about session timeouts see our article reviewing [Session timeouts for Office 365](/office365/enterprise/session-timeouts).
   
 

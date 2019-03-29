@@ -38,10 +38,10 @@ Download the following content for information about upgrade.
 |**Content**|**Description**|
 |:-----|:-----|
 |[Get started with upgrades to SharePoint 2013](get-started-with-upgrade-0.md) <br/> |Find resources to help you understand how to upgrade databases and site collections from SharePoint 2010 Products to SharePoint 2013.  <br/> |
-|[Plan for upgrade to SharePoint 2013](http://technet.microsoft.com/library/83079d8c-c64d-40b8-80c6-bab3c8bd44f6%28Office.14%29.aspx) <br/> |Find resources about how to plan to upgrade from SharePoint 2010 Products to SharePoint 2013.  <br/> |
+|[Plan for upgrade to SharePoint 2013](/previous-versions/office/sharepoint-server-2010/cc303429(v=office.14)) <br/> |Find resources about how to plan to upgrade from SharePoint 2010 Products to SharePoint 2013.  <br/> |
 |[Test and troubleshoot an upgrade to SharePoint 2013](test-and-troubleshoot-an-upgrade-0.md) <br/> |Find resources about how to test and troubleshoot an upgrade from SharePoint 2010 Products to SharePoint 2013.  <br/> |
 |[Upgrade databases from SharePoint 2013 to SharePoint Server 2016](upgrade-databases.md) <br/> |Find resources to help you perform the steps to upgrade databases from SharePoint 2010 Products to SharePoint 2013.  <br/> |
 |[Upgrade site collections to SharePoint 2013](upgrade-site-collections-0.md) <br/> |Find out how to upgrade a site collection to SharePoint 2013.  <br/> |
-|[Advanced upgrade scenarios for SharePoint 2013](http://technet.microsoft.com/library/74e1c006-11fa-47f5-adf7-a598bb83bc12%28Office.14%29.aspx) <br/> |Learn how to upgrade to SharePoint 2013 in advanced scenarios, such as from Office SharePoint Server 2007 or Windows SharePoint Services 3.0, from FAST Search Server, or when using content type syndication.  <br/> |
+|[Advanced upgrade scenarios for SharePoint 2013](/previous-versions/office/sharepoint-server-2010/ff730260(v=office.14)) <br/> |Learn how to upgrade to SharePoint 2013 in advanced scenarios, such as from Office SharePoint Server 2007 or Windows SharePoint Services 3.0, from FAST Search Server, or when using content type syndication.  <br/> |
    
 

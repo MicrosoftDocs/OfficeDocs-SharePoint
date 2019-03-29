@@ -56,31 +56,31 @@ To copy configuration settings by using a farm backup, we recommend that you fir
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
 3. At the PowerShell command prompt, type the following command to document the current Web application URLs and content database mappings.
     
-   ```
+   ```powershell
    Get-SPWebApplication | %{$_.Name;$_.Url;%{$_.ContentDatabases|%{$_.Name};Write-Host ""}}
    ```
 
 4. Either unmount all content databases, as in the following example:
     
-   ```
+   ```powershell
    Get-SPContentDatabase | Dismount-SPContentDatabase
    ```
 
    Or unmount a specific content database, as in the following example:
     
-   ```
+   ```powershell
    Get-SPContentDatabase WSS_Content | Dismount-SPContentDatabase
    ```
 
 5. Back up the farm.
     
-   ```
+   ```powershell
    Backup-SPFarm -Directory \\servername\share -BackupMethod Full
   
    ```
@@ -90,7 +90,7 @@ To copy configuration settings by using a farm backup, we recommend that you fir
   
 6. After the backup is complete, re-mount the content databases.
     
-   ```
+   ```powershell
    Mount-SPContentDatabase -Name <WSS_Content> -WebApplication <http://servername>
    ```
 
@@ -102,7 +102,7 @@ To copy configuration settings by using a farm backup, we recommend that you fir
     
     -  _\<http://servername\>_ is \<the URL of the Web Application\>. 
     
-For more information, see [Mount-SPContentDatabase](http://technet.microsoft.com/library/ea38119d-a535-48a3-b498-9daa443399fb.aspx). 
+For more information, see [Mount-SPContentDatabase](/powershell/module/sharepoint-server/mount-spcontentdatabase?view=sharepoint-ps). 
   
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 

@@ -4,7 +4,7 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
 ms.date: 9/13/2017
-ms.audience: Admin
+ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
@@ -27,7 +27,7 @@ On the source environment it is possible to configure list view throttling so th
   
 ## Data Migration
 
-The lists and their data will be migrated. However, the list views called out in the scan report may not be viewable post migration without performing the remediation documented in the following section, Preparing for Migration. Any list views containing over 12 lookup columns may also be throttled and require remediation. For more information, see [Designing large lists and maximizing list performance.](https://technet.microsoft.com/en-us/library/cc262813%28v=office.14%29.aspx).
+The lists and their data will be migrated. However, the list views called out in the scan report may not be viewable post migration without performing the remediation documented in the following section, Preparing for Migration. Any list views containing over 12 lookup columns may also be throttled and require remediation. For more information, see [Designing large lists and maximizing list performance.](/previous-versions/office/sharepoint-server-2010/cc262813(v=office.14)).
   
 > [!IMPORTANT]
 > Any site that is configured as "No Access" (locked), in SharePoint will be skipped. To see a list of locked site collections see the Locked Sites scan output. 

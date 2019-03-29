@@ -102,7 +102,7 @@ The following services in SharePoint Server 2013 also require additional steps t
     
 - **Office Web Apps**
     
-    If you installed Office Online with SharePoint 2010 Products, Office Online will not be available after you upgrade to SharePoint 2013 Products. You must deploy Office Online Server and then connect SharePoint 2013 Products it to after the content databases are upgraded. You do not have to wait until the site collections are upgraded because Office Online Server supports both the 2010 and 2013 site collection modes in SharePoint 2013 Products. For more information, see [Office Web Apps](http://technet.microsoft.com/library/e75c9827-f5ce-4099-a08c-b42fde72ea98.aspx).
+    If you installed Office Online with SharePoint 2010 Products, Office Online will not be available after you upgrade to SharePoint 2013 Products. You must deploy Office Online Server and then connect SharePoint 2013 Products it to after the content databases are upgraded. You do not have to wait until the site collections are upgraded because Office Online Server supports both the 2010 and 2013 site collection modes in SharePoint 2013 Products. For more information, see [Office Web Apps](/webappsserver/office-web-apps-server).
     
 ## See also
 <a name="Considerations"> </a>

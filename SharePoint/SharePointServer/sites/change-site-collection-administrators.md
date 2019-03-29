@@ -3,7 +3,6 @@ title: "Change site collection administrators in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 3/9/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -47,13 +46,13 @@ Use this procedure when you want to make a user a primary or secondary site coll
     
 ### To add a primary or secondary site collection administrator by using Microsoft PowerShell
 
-1. Verify that you meet the following minimum requirements: See [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/add-spshelladmin).
+1. Verify that you meet the following minimum requirements: See [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
     
 2. Open the SharePoint Management Shell.
     
 3. At the PowerShell command prompt, type the following command to replace the secondary site collection administrator:
     
-   ```
+   ```powershell
    Set-SPSite -Identity "<SiteCollection>" -SecondaryOwnerAlias "<User>"
    ```
 
@@ -63,7 +62,7 @@ Use this procedure when you want to make a user a primary or secondary site coll
     
    -  _\<User\>_ is name of the user whom you want to add in the format  _\<domain\>_\ _\<username\>_.
     
-The previous procedure shows a common way to use the **Set-SPSite** cmdlet to add a secondary site collection administrator. You can specify different parameters to configure different settings for a site collection. For more information, see [Set-SPSite](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/set-spsite?view=sharepoint-ps). 
+The previous procedure shows a common way to use the **Set-SPSite** cmdlet to add a secondary site collection administrator. You can specify different parameters to configure different settings for a site collection. For more information, see [Set-SPSite](/powershell/module/sharepoint-server/set-spsite?view=sharepoint-ps). 
 
 We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions.
   

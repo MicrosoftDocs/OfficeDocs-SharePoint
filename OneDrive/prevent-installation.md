@@ -7,8 +7,7 @@ ms.date: 06/21/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: one-drive
-localization_priority: Priority
-ms.collection: Strat_OD_admin
+localization_priority: Normal
 search.appverid:
 - ODB160
 - ODB150
@@ -25,7 +24,7 @@ The Sync button helps users install and set up the new OneDrive sync client. If 
   
 1. Open the [OneDrive admin center](https://admin.onedrive.com/?v=SyncSettings), and click **Sync** in the left pane. 
     
-    ![The Sync tab of the OneDrive admin center](media/1c3bf6d6-7b82-4c73-9df7-c8551a0c2922.png)
+    ![The Sync page of the OneDrive admin center](media/1c3bf6d6-7b82-4c73-9df7-c8551a0c2922.png)
   
 2. Clear the **Show the Sync button on the OneDrive website** check box. 
     

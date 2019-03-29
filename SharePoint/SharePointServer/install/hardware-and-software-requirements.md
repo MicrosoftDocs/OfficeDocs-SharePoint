@@ -49,7 +49,7 @@ The following table lists minimum hardware requirements for installing and runni
   
 For all installation scenarios, you must have sufficient hard disk space for the base installation and sufficient space for diagnostics such as logging, debugging, creating memory dumps, and so on. For production use, you must also have additional free disk space for day-to-day operations. In addition, maintain two times as much free space as you have RAM for production environments.
   
-For information about hardware and software requirements for Microsoft SQL Server 2014, see [Hardware and Software Requirements for Installing SQL Server 2014](https://technet.microsoft.com/library/ms143506%28v=sql.120%29.aspx).
+For information about hardware and software requirements for Microsoft SQL Server 2014, see [Hardware and Software Requirements for Installing SQL Server 2014](/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server?view=sql-server-2014).
   
 |**Installation scenario**|**Deployment type and scale**|**RAM**|**Processor**|**Hard disk space**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -128,7 +128,7 @@ One of the following server operating systems:
 > Installing the Office 2016 client and SharePoint Server 2016 on the same computer is not supported.
   
 > [!NOTE]
-> SharePoint Server 2016 only supports the "Server with Desktop Experience" installation option of Windows Server 2016 and Windows Server 2019. For additional information about Windows Server offerings, see [Windows Server Semi-annual Channel Overview](https://docs.microsoft.com/windows-server/get-started/semi-annual-channel-overview)
+> SharePoint Server 2016 only supports the "Server with Desktop Experience" installation option of Windows Server 2016 and Windows Server 2019. For additional information about Windows Server offerings, see [Windows Server Semi-annual Channel Overview](/windows-server/get-started/semi-annual-channel-overview)
 
 > [!NOTE]
 > SharePoint Server 2016 supports Windows Server 2019 starting with the [Security Update for Microsoft SharePoint Enterprise Server 2016 (KB4011244)](https://support.microsoft.com/help/4011244/descriptionofthesecurityupdateforsharepointserver2016november14-2017), also known as the November 2017 Public Update for SharePoint Server 2016.  This update (or a newer Public Update for SharePoint Server 2016) must be installed before you can create a new SharePoint farm or join a server to an existing SharePoint farm using Windows Server 2019.
@@ -162,6 +162,9 @@ The Microsoft SharePoint Products Preparation Tool installs the following prereq
 - Visual C++ Redistributable Package for Visual Studio 2012
     
 - Visual C++ Redistributable Package for Visual Studio 2015
+
+    >[!NOTE]
+    >The required software above will be supported when used by SharePoint via the SharePoint Product Lifecycle.
     
 #### Minimum requirements for client computers
 

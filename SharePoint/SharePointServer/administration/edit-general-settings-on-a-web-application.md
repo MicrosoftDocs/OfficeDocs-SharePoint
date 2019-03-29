@@ -44,7 +44,7 @@ Use the procedure described in this section to edit a SharePoint Server web appl
     
   - Right-click **Computer**, click **All apps**, and then click **SharePoint 2016 Central Administration**.
     
-    For more information about how to interact with Windows Server 2012, see [Common Management Tasks and Navigation in Windows Server 2012](https://technet.microsoft.com/en-us/library/hh831491.aspx).
+    For more information about how to interact with Windows Server 2012, see [Common Management Tasks and Navigation in Windows Server 2012](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831491(v=ws.11)).
     
 3. On the Central Administration home page, click **Application Management**.
     
@@ -95,5 +95,5 @@ Use the procedure described in this section to edit a SharePoint Server web appl
 <a name="section1"> </a>
 
 
-[Extend claims-based web applications in SharePoint](https://technet.microsoft.com/library/265ace67-3115-4987-ab2d-80c55e452d4b)
+[Extend claims-based web applications in SharePoint](/SharePoint/administration/extend-a-claims-based-web-application)
 

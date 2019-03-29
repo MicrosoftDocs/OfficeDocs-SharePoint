@@ -6,8 +6,10 @@ manager: pamgreen
 ms.audience: Admin
 ms.topic: get-started-article
 ms.service: one-drive
-localization_priority: Priority
-ms.collection: Strat_OD_admin
+localization_priority: Normal
+ms.collection: 
+- Strat_OD_admin
+- M365-collaboration
 search.appverid:
 - MET150
 - ODB160
@@ -23,10 +25,7 @@ description: "Learn how to deploy OneDrive apps by using System Center Configura
 
 You can use System Center Configuration Manager (SCCM) to deploy the new OneDrive sync client (OneDrive.exe), as well as the mobile apps for iOS and Android. Before you begin deploying, make sure you have reviewed the planning information and deployment options in the [OneDrive guide for enterprises](plan-onedrive-enterprise.md).
 
-> [!VIDEO https://videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=RE2CnSr&AutoPlayVideo=false]
-
-> [!TIP]
-> Video not in your language? Try selecting **Closed Captioning**.
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2CnSr]
   
 ## Deploy the OneDrive sync client for Windows
 
@@ -39,7 +38,10 @@ The new OneDrive sync client can be used with SharePoint Server 2019, but not ea
 
 ### Check if users already have the OneDrive sync client
 
-If the computers in your organization are running Windows 10, they already have the new sync client installed. If the computers have Office 2016 or Office 2013 (Home &amp; Student, Home &amp; Business, Professional, Personal, Home, or University) installed, they might also have the new sync client. Office is installed per machine, whereas OneDrive needs to be installed per user. If you plan on deploying Office to your organization, you will need to deploy OneDrive.exe separately for additional users on individual machines.
+If the computers in your organization are running Windows 10, they already have the new sync client installed. If the computers have Office 2016 or Office 2013 (Home &amp; Student, Home &amp; Business, Professional, Personal, Home, or University) installed, they might also have the new sync client. 
+
+> [!NOTE]
+> Office is installed per machine, whereas OneDrive needs to be installed per user. If you plan on deploying Office to your organization, you will need to deploy OneDrive.exe separately for additional users on individual machines.
   
 ### Deploy any administrative settings
 
@@ -143,7 +145,7 @@ odopen://sync/?siteId=SiteID_HERE&amp;webId=WebID_HERE&amp;listId=ListID_HERE&am
   
 ## Deploy the OneDrive app on mobile devices running iOS or Android
 
-You can use System Center Configuration Manager to deploy apps to mobile devices. Before you do, however, you need to complete a few prerequisite steps because integration with Intune is required to manage mobile devices in System Center Configuration Manager. For information about managing mobile devices with System Center Configuration Manager and Intune, see [Manage Mobile Devices with Configuration Manager and Microsoft Intune](https://technet.microsoft.com/library/jj884158.aspx).
+You can use System Center Configuration Manager to deploy apps to mobile devices. Before you do, however, you need to complete a few prerequisite steps because integration with Intune is required to manage mobile devices in System Center Configuration Manager. For information about managing mobile devices with System Center Configuration Manager and Intune, see [Manage Mobile Devices with Configuration Manager and Microsoft Intune](/previous-versions/system-center/system-center-2012-R2/jj884158(v=technet.10)).
 
 ### Deploy the OneDrive app for iOS
 

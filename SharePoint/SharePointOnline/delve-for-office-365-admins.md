@@ -9,6 +9,7 @@ ms.topic: overview
 ms.service: sharepoint-online
 localization_priority: Normal
 search.appverid:
+- SPO160
 - MOE150
 - DEL150
 - FRP150
@@ -37,22 +38,10 @@ Delve is designed to work with the current or immediately previous version of In
 ## Get new Delve features quicker
 <a name="BKMK_DelveFirstRelease"> </a>
 
-If you want to receive new functionality in Delve before it's made available in standard releases, you can opt in to the  *Targeted release*  program. You'll receive new feature updates a minimum of two weeks before customers in the  *Standard release*  program. To learn more, see [Office 365 release options](https://support.office.com/article/HA104204958). 
-  
- **To opt in to the Targeted release program:**
-  
-1. Sign in to Office 365 as a global admin or SharePoint admin.
-    
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
-    
-3. Go to **Settings** \> **Organization profile**.
-    
-4. Next to **Release preferences**, click **Edit**. 
-    
-5. To enable targeted release for all users in your organization, choose **Targeted release for everyone**. To enable targeted release for some users in your organization, choose **Targeted release for selected users**.
-    
-    > [!TIP]
-    > It takes some time to build personalized Delve views for users in your organization. If you opt in to the targeted release program just before the start of a weekend, it's more likely that people have a good Delve experience at the start of the next work week. 
+If you want to receive new functionality in Delve before it's made available in standard releases, you can opt in to the  *Targeted release*  program. You'll receive new feature updates a minimum of two weeks before customers in the  *Standard release*  program. To learn more, see [Office 365 release options](/office365/admin/manage/release-options-in-office-365). 
+   
+   > [!TIP]
+   > It takes some time to build personalized Delve views for users in your organization. If you opt in to the targeted release program just before the start of a weekend, it's more likely that people have a good Delve experience at the start of the next work week. 
   
 What users see in Delve is influenced by which release program you've chosen for your organization. See [My Office Delve looks different from what you describe](https://support.office.com/article/8fe977a0-cc37-4845-a75d-96994dffca5d) for an overview of the main differences. 
   
@@ -63,15 +52,16 @@ You control access to the Office Graph from the SharePoint admin center.
   
 If you don't allow access to the Office Graph, you disable the functionality in Office 365 that is powered by the Office Graph, such as Delve. If you disable access to Delve, you also affect the relevance of the content displayed elsewhere in Office 365, for example in SharePoint Home and the **Discover** view in OneDrive for Business. See [What is the effect of allowing or not allowing access to the Office Graph?](delve-for-office-365-admins.md#BKMK_EffectOfficegraphOnOff) for more information. 
   
-1. Sign in to Office 365 as a global admin or SharePoint admin.
+1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+    > [!NOTE]
+    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-3. In the left pane, choose **Admin centers** > **SharePoint**.
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
 
-4. Choose **Settings**.
+3. Select **settings** in the left pane.
     
-5.  Under Office Graph, select one of the following: 
+4.  Under Office Graph, select one of the following: 
     
   - **Allow access to the Office Graph**
     
@@ -84,7 +74,7 @@ Here are some resources that you can use to get your organization started with D
   
  **Before you announce Delve**
   
-- SharePoint Online and OneDrive for Business are the primary sources of content in Delve. How you and users manage permissions on documents and sites affects what users see in Delve. Check out [Overview: best practices for managing how people use your team site](https://support.office.com/article/95e83c3d-e1b0-4aae-9d08-e94dcaa4942e) and [Plan your permissions strategy](https://support.office.com/article/c6183e49-9287-4689-999e-0d3f817a41a3) for more information. 
+- SharePoint Online and OneDrive for Business are the primary sources of content in Delve. How you and users manage permissions on documents and sites affects what users see in Delve. Check out [Overview: best practices for managing how people use your team site](https://support.office.com/article/95e83c3d-e1b0-4aae-9d08-e94dcaa4942e) and [Plan your permissions strategy](/sharepoint/plan-your-permissions-strategy) for more information. 
     
  **Using Delve on a day-to-day basis**
   
@@ -129,11 +119,16 @@ There are a few things you should check if one or more users in your organizatio
  **Check that you allow your organization to access the Office Graph**
 <a name="#BKMK_OfficeGraphAcces"> </a>
   
-1. Sign in to Office 365 as a global admin or SharePoint admin.
+1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+    > [!NOTE]
+    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-3. Go to **Settings** \> **Office Graph** and make sure that you've selected **Allow access to the Office Graph**. 
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
+    
+3. Select **Settings** in the left pane.
+
+4. Under **Office Graph**, make sure that you've selected **Allow access to the Office Graph**. 
     
     > [!NOTE]
     > If you have a SharePoint Online standalone service (SharePoint Online Plan 1 or SharePoint Online Plan 2) you'll see the Office Graph setting in the SharePoint admin center. However, users won't be able to use Delve or see Delve in the app launcher, because Delve is not available for standalone services yet. 
@@ -141,13 +136,14 @@ There are a few things you should check if one or more users in your organizatio
  **Check that you're using an Office 365 plan that supports Delve**
 <a name="#BKMK_CheckPlan"> </a>
   
-1. Sign in to Office 365 as a global admin or SharePoint admin.
+1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+    > [!NOTE]
+    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-3. Go to **Billing** \> **Subscriptions**.
+2. In the left pane, select **Billing** \> **Products &amp; services**. 
     
-4. Verify that you have one of the following subscriptions: 
+3. Verify that you have one of the following subscriptions: 
     
   - Office 365 Enterprise (E1, E3, or E5)
     
@@ -162,15 +158,16 @@ There are a few things you should check if one or more users in your organizatio
  **Check that you've assigned the correct user licenses**
 <a name="#BKMK_CheckLicense"> </a>
   
-1. Sign in to Office 365 as a global admin or SharePoint admin.
+1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+    > [!NOTE]
+    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-3. Go to **Users** \> **Active Users**.
+2. Select **Users** \> **Active users**.
     
-4. Check the box in front of the name of the user who you want to check the licenses for.
+3. Select the box in front of the name of the user who you want to check the licenses for.
     
-5. Verify that the user has one of the following combinations of licenses: 
+4. Verify that the user has one of the following combinations of licenses: 
     
   - Microsoft Office 365 Plan E1 plus SharePoint Online (Plan 1 or Plan 2)
     
@@ -182,7 +179,7 @@ There are a few things you should check if one or more users in your organizatio
     
   - Microsoft Office 365 Business Premium plus SharePoint Online (Plan 1 or Plan 2)
     
-    For more information on how to manage licenses, see [Assign licenses to users in Office 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
+    For more information on how to manage licenses, see [Assign licenses to users in Office 365 for business](/office365/admin/subscriptions-and-billing/assign-licenses-to-users).
     
 ### Users see incorrect colleagues in Delve
 <a name="BKMK_DelveIncorrectColleague"> </a>
@@ -230,9 +227,9 @@ If users don't have any recently modified or viewed content in these content sou
   
  **Solution(s)**
   
-- Encourage your users to store and share documents in SharePoint Online and OneDrive for Business. For more information, point users to [Store your documents where Office Delve can get to them](https://support.office.com/article/49a0db49-5e6c-4dda-816e-e11dd77de49d). 
+- Encourage your users to store and share documents in SharePoint and OneDrive. For more information, point users to [Store your documents where Office Delve can get to them](https://support.office.com/article/49a0db49-5e6c-4dda-816e-e11dd77de49d). 
     
-- Check the permission settings on the SharePoint Online sites and site collections to make sure that the user has access to the correct sites and their content.
+- Check the permission settings on SharePoint sites to make sure that the user has access to the correct sites and their content.
     
 - Check that the user is in the Active Directory and that he or she is a member of the correct Active Directory groups. To verify, go to **Microsoft 365 admin center** \> **Users** \> **Active Users**. 
     
@@ -307,18 +304,18 @@ Admins
     
 - [Manage SharePoint Online user profiles from the SharePoint admin center](manage-user-profiles.md)
     
-- [Office 365 integration with on-premises environments](https://support.office.com/article/263faf8d-aa21-428b-aed3-2021837a4b65)
+- [Office 365 integration with on-premises environments](/office365/enterprise/office-365-integration)
     
-- [User Account Management](https://technet.microsoft.com/library/office-365-user-account-management.aspx)
+- [User Account Management](/office365/servicedescriptions/office-365-platform-service-description/user-account-management)
     
-- [Directory synchronization roadmap](https://technet.microsoft.com/library/hh967642.aspx)
+- [Directory synchronization roadmap](/azure/active-directory/hybrid/whatis-hybrid-identity)
     
 - [Manage your Office 365 Video portal](https://support.office.com/article/c059465b-eba9-44e1-b8c7-8ff7793ff5da)
     
 - [Yammer - Admin Help](https://support.office.com/article/e1464355-1f97-49ac-b2aa-dd320b179dbe)
     
-- [Office 365 Plan Options](https://technet.microsoft.com/library/office-365-plan-options.aspx)
+- [Office 365 Plan Options](/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options)
     
-- [Set up the Standard or Targeted release options in Office 365](https://support.office.com/article/3b3adfa4-1777-4ff0-b606-fb8732101f47)
+- [Set up the Standard or Targeted release options in Office 365](/office365/admin/manage/release-options-in-office-365)
     
 

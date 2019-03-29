@@ -29,7 +29,7 @@ This section provides detailed descriptions of the new updated features in Share
 
 ### Access Services 2013 now supports Send Email
 
-The Access Services 2013 service application now supports the SendEmail action for sending email messages from apps. See [Introducing Send Email in Access 2013 web apps](https://blogs.office.com/2015/01/12/introducing-send-email-access-2013-web-apps/) for more details.
+The Access Services 2013 service application now supports the SendEmail action for sending email messages from apps. See [Introducing Send Email in Access 2013 web apps](https://www.microsoft.com/en-us/microsoft-365/blog/2015/01/12/introducing-send-email-access-2013-web-apps/) for more details.
 
 ### Additional documentation links for Central Administration site
 
@@ -90,6 +90,9 @@ Modern team sites bring a fresh and responsive user experience to team collabora
 
 SharePoint Server 2019 will continue to support creating classic team sites.
 
+### Integration with PowerApps, Power BI and MS Flow
+SharePoint Server 2019 brings cloud closer to the Customers and Customers closer to the cloud. The cloud features PowerApps, Power BI and MS Flow are now available. SharePoint Server 2019 includes process automation and forms technologies like PowerApps and Flow to connect with your on-premises data. These features needs to be configured via gateway.
+
 ### SharePoint using modern Internet Information Services (IIS) APIs
 
 SharePoint has modernized its integration with IIS by removing all of our dependencies on the legacy IIS6 APIs.  SharePoint now uses the IIS7+ APIs to manage IIS, which are the latest and best supported APIs from the IIS team.  This allows us to more easily adopt new IIS features and stay compatible with future Windows Server releases.
@@ -108,7 +111,7 @@ The SharePoint home  page is a modern UI experience that gives users unified acc
 
 The SharePoint home page is also the launching point for users to create new, modern sites on a self-service basis. 
 
-You can reach the SharePoint home page by clicking on the "SharePoint" icon in the SharePoint app launcher. The SharePoint home page replaces the old sites.aspx experience. For more information, see [Enable SharePoint home page in SharePoint Server 2019 farms](https://docs.microsoft.com/en-us/SharePoint/sites/enable-sharepoint-home-page-in-sharepoint-server-2019-farms).
+You can reach the SharePoint home page by clicking on the "SharePoint" icon in the SharePoint app launcher. The SharePoint home page replaces the old sites.aspx experience. For more information, see [Enable SharePoint home page in SharePoint Server 2019 farms](/SharePoint/sites/enable-sharepoint-home-page-in-sharepoint-server-2019-farms).
 
 ### From the SharePoint home page, you can create sites in different web applications
 
@@ -132,17 +135,17 @@ To create sites in a different web application on a remote farm, follow these st
 
 The self-service site creation experience on the SharePoint home page now fully supports non-Default Alternate Access Mapping (AAM) zones. When creating sites in a different web application on a remote farm, make sure that an external resource has been created in AAM on both the local farm and the remote farm. This applies to sites created in the same web application, sites created in a different web application on the local farm, and sites created in a different web application on a remote farm. 
 
-SharePoint will treat the external resource as an external web application. The external resource on the local farm should be fully populated with the URLs and zones of the web application on the remote farm. And conversely, the external resource on the remote farm should be fully populated with the URLs and zones of the web application on the local farm. Be sure that the zones of the local web application and the remote web application are synchronized. For more information, see [Configure self-service site creation in SharePoint Server 2019](https://docs.microsoft.com/en-us/SharePoint/sites/configure-self-service-site-creation-in-sharepoint-server-2019).
+SharePoint will treat the external resource as an external web application. The external resource on the local farm should be fully populated with the URLs and zones of the web application on the remote farm. And conversely, the external resource on the remote farm should be fully populated with the URLs and zones of the web application on the local farm. Be sure that the zones of the local web application and the remote web application are synchronized. For more information, see [Configure self-service site creation in SharePoint Server 2019](/SharePoint/sites/enable-sharepoint-home-page-in-sharepoint-server-2019-farms).
 
 <a name="smtpauth"> </a>
 ### SMTP authentication when sending emails
 
 
-SharePoint Server 2019 now supports authenticating to SMTP servers when sending email messages. Authentication can be configured through the Central Administration website and through PowerShell. SharePoint Server 2019 will still support anonymous connections to SMTP servers that don't require authentication. This makes it easier for customers to integrate SharePoint into highly secure environments where authentication is required to send emails. Customers no longer need to configure smart host relays for SharePoint in these environments. For more information, see [Plan outgoing email for a SharePoint Server farm](https://docs.microsoft.com/en-us/SharePoint/administration/outgoing-email-planning) and [Configure outgoing email for a SharePoint Server farm](https://docs.microsoft.com/en-us/SharePoint/administration/outgoing-email-configuration).
+SharePoint Server 2019 now supports authenticating to SMTP servers when sending email messages. Authentication can be configured through the Central Administration website and through PowerShell. SharePoint Server 2019 will still support anonymous connections to SMTP servers that don't require authentication. This makes it easier for customers to integrate SharePoint into highly secure environments where authentication is required to send emails. Customers no longer need to configure smart host relays for SharePoint in these environments. For more information, see [Plan outgoing email for a SharePoint Server farm](/SharePoint/administration/outgoing-email-planning) and [Configure outgoing email for a SharePoint Server farm](/SharePoint/administration/outgoing-email-configuration).
 
 ### Sync files with OneDrive sync client (NGSC)
 
-Users can use the new OneDrive sync client (NGSC – Next Generation Sync Client) instead of Groove.exe to sync files in your SharePoint Server 2019 team sites and personal sites with your devices. The OneDrive sync client supports advanced features such as Files On-Demand, push notification, and IRM protection, while still being easy to use. For more information, see [Deploy the new OneDrive sync client for Windows](https://support.office.com/en-us/article/deploy-the-new-onedrive-sync-client-for-windows-3f3a511c-30c6-404a-98bf-76f95c519668) and [Deploy and configure the new OneDrive sync client for Mac](https://support.office.com/en-us/article/deploy-and-configure-the-new-onedrive-sync-client-for-mac-eadddc4e-edc0-4982-9f50-2aef5038c307).
+Users can use the new OneDrive sync client (NGSC – Next Generation Sync Client) instead of Groove.exe to sync files in your SharePoint Server 2019 team sites and personal sites with your devices. The OneDrive sync client supports advanced features such as Files On-Demand, push notification, and IRM protection, while still being easy to use. For more information, see [Deploy the new OneDrive sync client for Windows](/onedrive/deploy-on-windows) and [Deploy and configure the new OneDrive sync client for Mac](/onedrive/deploy-and-configure-on-macos).
 
 ### Use of # and % characters in file and folder names
 
@@ -183,11 +186,11 @@ This section lists the new Health Analyzer rules for SharePoint Server 2019.
 
 ### People Picker health rule
 
-SharePoint has added a new health analyzer rule for the People Picker. This health analyzer rule detects if servers in the farm are missing the encryption key needed to retrieve People Picker credentials, such as when the People Picker is configured to search for users in another forest or domain with a one-way trust to the SharePoint farm's domain. If so, it will notify the SharePoint farm administrator so that they can correct the problem. For more information, see [One or more servers can't retrieve People Picker credentials](https://docs.microsoft.com/en-us/SharePoint/technical-reference/one-or-more-servers-can-t-retrieve-people-picker-credentials).
+SharePoint has added a new health analyzer rule for the People Picker. This health analyzer rule detects if servers in the farm are missing the encryption key needed to retrieve People Picker credentials, such as when the People Picker is configured to search for users in another forest or domain with a one-way trust to the SharePoint farm's domain. If so, it will notify the SharePoint farm administrator so that they can correct the problem. For more information, see [One or more servers can't retrieve People Picker credentials](/SharePoint/technical-reference/one-or-more-servers-can-t-retrieve-people-picker-credentials).
 
 ### SMTP authentication health rule
 
-SharePoint has added a new health analyzer rule for SMTP authentication. This health analyzer rule detects if servers in the farm are missing the encryption key needed to retrieve the credentials for authentication. If so, it will notify the SharePoint farm administrator so that they can correct the problem. For more information, see [One or more servers can't retrieve the outgoing email credentials](https://docs.microsoft.com/en-us/SharePoint/technical-reference/one-or-more-servers-can-t-retrieve-the-outgoing-email-credentials).
+SharePoint has added a new health analyzer rule for SMTP authentication. This health analyzer rule detects if servers in the farm are missing the encryption key needed to retrieve the credentials for authentication. If so, it will notify the SharePoint farm administrator so that they can correct the problem. For more information, see [One or more servers can't retrieve the outgoing email credentials](/SharePoint/technical-reference/one-or-more-servers-can-t-retrieve-the-outgoing-email-credentials).
 
 ## Detailed description of improved features
 
@@ -244,4 +247,4 @@ Customers can opt in and opt out of the telemetry experience at any time.
 
 [What is SharePoint?](https://support.office.com/en-us/article/What-is-SharePoint-97b915e6-651b-43b2-827d-fb25777f446f?ui=en-US&amp;rs=en-US&amp;ad=US)
 
-[New development capabilities for SharePoint 2019](https://docs.microsoft.com/en-us/sharepoint/dev/general-development/sharepoint-2019-development-platform)
+[New development capabilities for SharePoint 2019](/sharepoint/dev/general-development/sharepoint-2019-development-platform)

@@ -3,7 +3,6 @@ title: "Configure backup and restore permissions in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 10/7/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
@@ -71,13 +70,13 @@ You can run the **Add-SPShellAdmin** cmdlet to add a user account to this role. 
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
 3. At the PowerShell command prompt, type the following command:
     
-   ```
+   ```powershell
    Add-SPShellAdmin -Username <User account> -Database <Database ID>
    ```
 
@@ -87,7 +86,7 @@ You can run the **Add-SPShellAdmin** cmdlet to add a user account to this role. 
     
     To add a user account to all the databases in the farm, type the following command:
     
-   ```
+   ```powershell
    ForEach ($db in Get-SPDatabase) {Add-SPShellAdmin -Username <User account> -Database $db}
    ```
 
@@ -97,7 +96,7 @@ You can run the **Add-SPShellAdmin** cmdlet to add a user account to this role. 
     
     To remove a user account from all the databases in the farm, type the following command:
     
-   ```
+   ```powershell
    ForEach ($db in Get-SPDatabase) {Remove-SPShellAdmin -Username <User account> -Database $db}
    ```
 
@@ -107,11 +106,11 @@ You can run the **Add-SPShellAdmin** cmdlet to add a user account to this role. 
     
     To view the user accounts currently added to the databases in the farm, type the following command:
     
-   ```
+   ```powershell
    ForEach ($db in Get-SPDatabase) {Get-SPShellAdmin -Database $db}
    ```
 
-For more information, see [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
+For more information, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
   
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 

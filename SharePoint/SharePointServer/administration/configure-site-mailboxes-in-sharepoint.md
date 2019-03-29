@@ -33,9 +33,9 @@ Before you begin this operation, review the following information about prerequi
   
 - Site Mailboxes feature requires that user profile synchronization be configured in the farm. For information about configuring user profile synchronization, see [User profiles and identities](user-profiles-and-identities.md), and [Manage user profile synchronization in SharePoint Server](manage-profile-synchronization.md).
     
-- Site Mailboxes feature requires that the app management service application be configured in the farm. For information about configuring the app management service application, see [New-SPAppManagementServiceApplication](http://technet.microsoft.com/library/98d0241e-5423-481e-b08e-00b369681212.aspx).
+- Site Mailboxes feature requires that the app management service application be configured in the farm. For information about configuring the app management service application, see [New-SPAppManagementServiceApplication](/powershell/module/sharepoint-server/New-SPAppManagementServiceApplication?view=sharepoint-ps).
     
-- Secure Sockets Layer (SSL) configured for the Default Zone is a requirement for web applications that are deployed in scenarios that support server-to-server authentication and app authentication. This is such a scenario. As a prerequisite for configuring Site Mailboxes, the computer that is running SharePoint Server must have SSL configured. For more information, see [Create claims-based web applications in SharePoint Server](http://technet.microsoft.com/library/83496762-172a-44a4-bf57-1d7ea8008d7d%28Office.14%29.aspx) and follow the steps for creating an SSL site collection and server certificate. 
+- Secure Sockets Layer (SSL) configured for the Default Zone is a requirement for web applications that are deployed in scenarios that support server-to-server authentication and app authentication. This is such a scenario. As a prerequisite for configuring Site Mailboxes, the computer that is running SharePoint Server must have SSL configured. For more information, see [Create claims-based web applications in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806885(v=office.14)) and follow the steps for creating an SSL site collection and server certificate. 
     
 Note that you may need to import the Exchange Server SSL certificate from Exchange Server to SharePoint Server, and from SharePoint Server to Exchange Server. This is only necessary if the certificate is not trusted for the API endpoints (such as a Self-SSL Certificate in a lab environment). 
 To import an untrusted SSL certificate to a new server: 
@@ -179,7 +179,7 @@ Set-SPAppPrincipalPermission -AppPrincipal $appPrincipal -Site $rootWeb -Scope S
 Write-Host
 Write-Host
 Write-Host "Verifying Site Mailbox Configuration"
-$warnings = &amp; $script:currentDirectory\Check-SiteMailboxConfig.ps1 -ReturnWarningState
+$warnings = & $script:currentDirectory\Check-SiteMailboxConfig.ps1 -ReturnWarningState
 if($warnings -and -not $Force)
 {
     Write-Warning "Pre-requisites not satisfied. Stopping Set-SiteMailboxConfig. Use -Force to override"
@@ -485,7 +485,7 @@ Please review the following table if you encounter issues.
 [Configure email integration for a SharePoint Server farm](configure-email-integration.md)
 #### Other Resources
 
-[Site mailboxes](https://technet.microsoft.com/en-us/library/mt577268%28v=exchg.160%29.aspx)
+[Site mailboxes](/Exchange/collaboration/site-mailboxes?view=exchserver-2019)
   
-[Collaboration](https://technet.microsoft.com/en-us/library/mt577263%28v=exchg.160%29.aspx)
+[Collaboration](/Exchange/collaboration/collaboration?view=exchserver-2019)
 

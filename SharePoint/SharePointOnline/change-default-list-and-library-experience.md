@@ -2,155 +2,47 @@
 title: "Change the default list and library experience"
 ms.author: kaarins
 author: kaarins
-ms.date: 6/4/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
+ms.collection:  
+- Strat_SP_admin
+- M365-collaboration
 search.appverid:
 - SPO160
 - BSA160
 - GSP150
 - MET150
 ms.assetid: a0d90eaf-5755-4b8d-96ee-9e25bdf9114e
-description: "Admin instructions for how to switch SharePoint Online libraries from new to classic experience and back, using the Admin center or Windows PowerShell. "
+description: "How admins can choose the modern or classic list and library experience as the default in their organization. "
 ---
 
 # Change the default list and library experience
 
-As a global administrator or SharePoint administrator in Office 365, you may want some or all sites to continue using the classic list and library experience by default for a while. Keep in mind that users can switch to the new experience in specific libraries or sites if they choose. When users change the list or library settings, it overrides changes at the site, site collection, and organization level.
-  
-> [!NOTE]
-> If you're not an admin, see [Switch the default experience for lists or document libraries from new or classic](https://support.office.com/article/66dac24b-4177-4775-bf50-3d267318caa9). 
+As a global or SharePoint admin in Office 365, you can decide whether to use the new or classic list and library experience by default in your organization. This setting is soon going away. Instead of selecting the classic experience for all sites, we recommend setting it for only the specific sites that need it by using PowerShell. (For info about doing this, see [Opting out of the modern list and library experience](/sharepoint/dev/transform/modernize-userinterface-lists-and-libraries-optout).)
+
+Note that users can select the default experience for an individual list or library, overriding what you set. For info, see [Switch the default experience for lists or document libraries from new or classic](https://support.office.com/article/66dac24b-4177-4775-bf50-3d267318caa9). 
+
+It's best to use the new experience by default wherever possible because it's faster, simpler, and responsive on mobile devices. It also supports many new capabilities that are not available in classic, including Flow and PowerApps integration, the Filters pane, and column formatting. Many sites that have features or customizations that don’t work in the new experience will automatically switch back to the classic experience. For more information about this behavior, see [Differences between the new and classic experiences for lists and libraries](https://support.office.com/article/30e1aab0-a5cc-4363-b7f2-09e2ae07d4dc). To detect lists that won't work well with the new experience, run the [SharePoint Modernization scanner](https://aka.ms/sppnp-modernizationscanner). 
   
 ## Change the default experience for all lists and document libraries
 
-1. Sign in to Office 365 as a global admin or SharePoint admin.
+1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+    > [!NOTE]
+    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-3. In the left pane, choose **Admin centers** \> **SharePoint**.
-    
-4. Choose **settings**.
-    
-5. Next to **SharePoint Lists and Libraries experience**, select either **Classic experience** or **New experience (auto-detect)**.
-    
-    ![Setting for default List and Library experience](media/e153485c-9351-4b09-8989-c00395246b66.png)
-  
-## Change the default experience for sites and site collections by using Microsoft PowerShell
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
 
- **Check for customizations that affect lists or library pages**
-  
-One reason you may want to change the default experience at the site and site collection level is because you have customizations that affect list or library pages and represent business-critical functionality. If you want to check for these kinds of customizations to help you determine which sites and site collections you want to change the default for, you must use a Windows PowerShell script with a CSOM (Client-side object model) wrapper. The following script detects custom actions that deploy custom scripts.
-  
-1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
+3. If the classic SharePoint admin center appears, select **Try it now** to open the new SharePoint admin center.
     
-2. Connect to SharePoint Online as a global admin or SharePoint admin in Office 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+4. In the left pane of the new SharePoint admin center, select **Settings**.
     
-3. [Download the SharePoint and Project Client Object Model libraries](https://go.microsoft.com/fwlink/?linkid=872342).
+5. Select **Lists &amp; libraries**, and turn **Use the new experience** to On to use the new experience.
     
-4. Copy the following code and paste it into a text editor, such as Notepad. For this article, we will name the script file, CustomActions.ps1.
-    
-    > [!NOTE]
-    > This script needs to be run separately for each website you want to check CustomActions for. The placeholder names indicated in \< \> need to be change to meet your organizational requirements. <br>> There are commented lines, denoted by the pound sign (#), in the sections of script for site collection level and site levels. To run the appropriate script, remove the pound sign (#) in front of the lines in the section that you want to change the experience for. 
-  
-  ```
-  # This file uses CSOM. Replace the paths below with the path to CSOM on this computer.
-  # If CSOM is in the user's downloads folder, you only have to replace the <username> placeholder.
-  Add-Type -Path "C:\Users\<username>\downloads\Microsoft.SharePointOnline.CSOM.16.1.5026.1200\lib\net45\Microsoft.SharePoint.Client.dll"
-  Add-Type -Path "C:\Users\<username>\downloads\Microsoft.SharePointOnline.CSOM.16.1.5026.1200\lib\net45\Microsoft.SharePoint.Client.Runtime.dll"
-  # All strings in braces < >are placeholders that you must replace with the appropriate strings.
-  $webUrl = 'https://<domain>.sharepoint.com/<relative-path-to-website>'
-  $username = '<username>@<domain>.onmicrosoft.com'
-  $password = Read-Host -Prompt "Password for $username" -AsSecureString
-  [Microsoft.SharePoint.Client.ClientContext]$clientContext = New-Object Microsoft.SharePoint.Client.ClientContext($webUrl)    
-  $clientContext.Credentials = New-Object Microsoft.SharePoint.Client.SharePointOnlineCredentials($username, $password)
-  $site = $clientContext.Site;
-  $customActions = $site.UserCustomActions
-  $clientContext.Load($customActions)
-  $clientContext.ExecuteQuery()
-  $first = $true
-  foreach($customAction in $customActions)
-  {
-      if($customAction.Location -eq "scriptlink" -and -Not ([string]::IsNullOrEmpty($customAction.ScriptBlock)))
-      {
-          if ($first)
-          {
-              Echo " "
-                  Echo ($webUrl + " has the following inline JavaScript custom actions")
-          $first = $false
-          }
-          Echo $customAction.Title
-      }
-  }
-  
-  ```
 
-5. Save the file, naming it  `CustomActions.ps1`.
-    
-    > [!NOTE]
-    > You can use a different file name, but you must save the file as an ANSI-encoded text file whose extension is  `.ps1`
   
-6. Change to the directory where you saved the file.
-    
-7. At the PowerShell command prompt, type the following command:
-    
-     `./CustomActions.ps1`
-    
-    > [!NOTE]
-    > If you get an error message about being unable to run scripts, you might need to change your execution policies. For info, see [About Execution Policies](https://go.microsoft.com/fwlink/?linkid=869255). 
-  
- **Change the default experience for sites and site collections**
-  
-To change the default experience for document libraries on a site collection or site level, you must use a Windows PowerShell script with a CSOM (Client-side object model) wrapper, as follows.
-  
-1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
-    
-2. Connect to SharePoint Online as a global admin or SharePoint admin in Office 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
-    
-3. [Download the SharePoint and Project Client Object Model libraries](https://go.microsoft.com/fwlink/?linkid=872342).
-    
-4. Copy the following code and paste it into a text editor, such as Notepad. For this article, we will name the script file, DocLib.ps1.
-    
-    > [!NOTE]
-    > There are commented lines, denoted by the pound sign (#), in the sections of script for site collection level and site levels. To run the appropriate script, remove the pound sign (#) in front of the lines in the section that you want to change the experience for. 
-  
-  ```
-  ##The first two lines of the script load the CSOM model:
-  Add-Type -Path "C:\Users\{username}\downloads\Microsoft.SharePointOnline.CSOM.16.1.5026.1200\lib\net45\Microsoft.SharePoint.Client.dll"
-  Add-Type -Path "C:\Users\{username}\downloads\Microsoft.SharePointOnline.CSOM.16.1.5026.1200\lib\net45\Microsoft.SharePoint.Client.Runtime.dll"
-  $webUrl = 'https://{domain}.sharepoint.com/[optional path to subweb]'
-  $username = Read-Host -Prompt "Enter or paste the site collection administrator's full O365 email, for example, name@domain.onmicrosoft.com" 
-  $password = Read-Host -Prompt "Password for $username" -AsSecureString
-  [Microsoft.SharePoint.Client.ClientContext]$clientContext = New-Object Microsoft.SharePoint.Client.ClientContext($webUrl)
-  $clientContext.Credentials = New-Object Microsoft.SharePoint.Client.SharePointOnlineCredentials($username, $password)
-  # To apply the script to the site collection level, uncomment the next two lines.
-  #$site = $clientContext.Site; 
-  #$featureguid = new-object System.Guid "E3540C7D-6BEA-403C-A224-1A12EAFEE4C4"
-  # To apply the script to the website level, uncomment the next two lines, and comment the preceding two lines.
-  #$site = $clientContext.Web;
-  #$featureguid = new-object System.Guid "52E14B6F-B1BB-4969-B89B-C4FAA56745EF" 
-  # To turn off the new UI by default in the new site, uncomment the next line.
-  #$site.Features.Add($featureguid, $true, [Microsoft.SharePoint.Client.FeatureDefinitionScope]::None);
-  # To re-enable the option to use the new UI after having first disabled it, uncomment the next line.
-  # and comment the preceding line.
-  #$site.Features.Remove($featureguid, $true);
-  $clientContext.ExecuteQuery();
-  
-  ```
 
-5. Save the file, naming it  `DocLib.ps1`.
-    
-    > [!NOTE]
-    > You can use a different file name, but you must save the file as an ANSI-encoded text file whose extension is  `.ps1`
-  
-6. Change to the directory where you saved the file.
-    
-7. At the PowerShell command prompt, type the following command:
-    
-     `./DocLib.ps1`
-    
-    > [!NOTE]
-    > If you get an error message about being unable to run scripts, you might need to change your execution policies. For info, see [About Execution Policies](https://go.microsoft.com/fwlink/?linkid=869255). 
-  
+
 

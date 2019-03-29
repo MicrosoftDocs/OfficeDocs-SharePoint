@@ -24,7 +24,7 @@ Help your users store, sync, and share work files in the cloud with OneDrive.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/download-blue.svg" alt="Download" />
+                            <img src="/office/media/icons/download-blue.svg" alt="Download" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -42,7 +42,7 @@ Help your users store, sync, and share work files in the cloud with OneDrive.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/success.svg" alt="Success" />
+                            <img src="/office/media/icons/success.svg" alt="Success" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -54,13 +54,13 @@ Help your users store, sync, and share work files in the cloud with OneDrive.
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/en-us/sharepointmigration/migrate-to-sharepoint-online">
+        <a href="/sharepointmigration/migrate-to-sharepoint-online">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/migration-blue.svg" alt="Migrate" />
+                            <img src="/office/media/icons/migration-blue.svg" alt="Migrate" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -78,7 +78,7 @@ Help your users store, sync, and share work files in the cloud with OneDrive.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/lightbulb-idea-capture-blue.svg" alt="Lightbulb" />
+                            <img src="/office/media/icons/lightbulb-idea-capture-blue.svg" alt="Lightbulb" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -96,7 +96,7 @@ Help your users store, sync, and share work files in the cloud with OneDrive.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/blog-site-blue.svg" alt="Blog" />
+                            <img src="/office/media/icons/blog-site-blue.svg" alt="Blog" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -114,7 +114,7 @@ Help your users store, sync, and share work files in the cloud with OneDrive.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/walkthrough-map-blue.svg" alt="Roadmap" />
+                            <img src="/office/media/icons/walkthrough-map-blue.svg" alt="Roadmap" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -132,7 +132,7 @@ Help your users store, sync, and share work files in the cloud with OneDrive.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/blocks-blue.svg" alt="Connected blocks" />
+                            <img src="/office/media/icons/blocks-blue.svg" alt="Connected blocks" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -150,11 +150,29 @@ Help your users store, sync, and share work files in the cloud with OneDrive.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/toolbox.svg" alt="toolbox" />
+                            <img src="/office/media/icons/toolbox.svg" alt="toolbox" />
                         </div>
                     </div>
                     <div class="cardText">
                         <h3>Troubleshoot issues</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://resources.techcommunity.microsoft.com/resources/onedrive-adoption">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="/office/media/icons/task-checklist-planning-blue.svg" alt="checklist"/>
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Adoption resources</h3>
                     </div>
                 </div>
             </div>
@@ -166,11 +184,11 @@ Help your users store, sync, and share work files in the cloud with OneDrive.
 ---
 
 <p>The OneDrive admin center helps you quickly and easily manage your organization's OneDrive for Business settings in one place.</p>
-<p>You can access the OneDrive admin center in three ways:</p>
-
-- From the Microsoft 365 admin center, click **Admin centers** in the left pane, and then click **OneDrive**.
+<p>To access the OneDrive admin center:</p>
     
 - From your own OneDrive, click **OneDrive Admin** in the lower-left corner.
+
+\-or-
     
 - Go to https://admin.onedrive.com.
     
@@ -178,5 +196,6 @@ Help your users store, sync, and share work files in the cloud with OneDrive.
 
 > [!IMPORTANT]
 > To use the OneDrive admin center, you must allow access to onedrive.com. You must also be a global admin for your organization, or a custom admin with the SharePoint administrator role. 
+
 > [!TIP]
 > To access a user's OneDrive, open the Microsoft 365 admin center, go to **Active users**, select the user, expand **OneDrive Settings** in the user details pane, and then click **Access files**.

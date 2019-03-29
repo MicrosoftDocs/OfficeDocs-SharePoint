@@ -1,12 +1,12 @@
 ---
-title: "How to create and edit Permission Levels"
+title: "How to create and edit permission levels"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 ms.audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Adm_SPO
 - SharePoint_Online
@@ -23,7 +23,7 @@ ms.assetid: 53c86040-07fa-4ea7-bc55-34ee96b437fe
 description: "Learn how to create different permission levels for different groups of people within a site collection."
 ---
 
-# How to create and edit Permission Levels
+# How to create and edit permission levels
 
 If you are a SharePoint Online admin, you probably want to control who can make changes on your site. For example, you might want employees in Finance to be able to edit lists, but employees in Marketing to only view those lists. That's where permissions and permissions levels come in.
   

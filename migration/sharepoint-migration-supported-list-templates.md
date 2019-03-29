@@ -10,6 +10,9 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Priority
 ms.collection:
 - Strat_SP_gtc
+- SPMigration
+- M365-collaboration
+search.appverid: MET150
 ms.custom: 
 ms.assetid: 
 description: "SharePoint Migration Tool table of supported list templates for migration."

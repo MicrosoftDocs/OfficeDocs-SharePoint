@@ -104,5 +104,5 @@ This video provides a quick explanation of how to upgrade site collections to Sh
 
 [Upgrade from SharePoint 2010 to SharePoint 2013](upgrade-from-sharepoint-2010-to-sharepoint-2013.md)
   
-[Checklist for database-attach upgrade (SharePoint 2013)](http://technet.microsoft.com/library/14f7c2d1-5cea-4575-9fad-414b76df3d2e%28Office.14%29.aspx)
+[Checklist for database-attach upgrade (SharePoint 2013)](/previous-versions/office/sharepoint-server-2010/ff607663(v=office.14))
 

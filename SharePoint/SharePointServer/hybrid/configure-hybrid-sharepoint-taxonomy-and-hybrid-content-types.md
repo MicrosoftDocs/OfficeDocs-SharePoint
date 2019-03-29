@@ -13,6 +13,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_SharePoint_Hybrid_Top
 - Strat_SP_gtc
+- M365-collaboration
 ms.custom: 
 ms.assetid: 0809325c-9b99-46bf-b98d-6d2f5e3d2a4b
 description: "In this article, we look at how to configure hybrid SharePoint taxonomy and hybrid content types."
@@ -28,7 +29,7 @@ Hybrid SharePoint taxonomy allows you to have a shared taxonomy between SharePoi
   
 Be sure to read [Plan hybrid SharePoint taxonomy and hybrid content types](plan-hybrid-sharepoint-taxonomy-and-hybrid-content-types.md) before you follow the procedures in this article. 
   
-This feature is available in SharePoint Server 2013 and SharePoint Server 2016 with the following [SharePoint updates](https://technet.microsoft.com/en-us/library/mt715807%28v=office.16%29.aspx):
+This feature is available in SharePoint Server 2013 and SharePoint Server 2016 with the following [SharePoint updates](/officeupdates/sharepoint-updates):
   
 - Hybrid taxonomy requires the November 2016 public update or later.
     
@@ -47,7 +48,7 @@ This video shows a walkthrough of configuring hybrid taxonomy and hybrid content
 
 If you have an existing taxonomy in SharePoint Server, the best practice is to copy any term groups you want to be part of the shared taxonomy to SharePoint Online before you configure hybrid SharePoint taxonomy. You can migrate additional taxonomy groups from SharePoint Server to SharePoint Online to add to the shared taxonomy later, but if you do you may need to run the configuration wizard again to include them in the shared taxonomy.
   
-The migration process copies taxonomy groups from SharePoint Server to SharePoint Online. This is done by using the [Copy-SPTaxonomyGroups](https://technet.microsoft.com/en-us/library/mt764067.aspx) PowerShell cmdlet. 
+The migration process copies taxonomy groups from SharePoint Server to SharePoint Online. This is done by using the [Copy-SPTaxonomyGroups](/powershell/module/sharepoint-server/Copy-SPTaxonomyGroups?view=sharepoint-ps) PowerShell cmdlet. 
   
  **Active Directory groups**
   
@@ -65,7 +66,9 @@ Copying taxonomy groups is done using the Copy-SPTaxonomyGroups PowerShell cmdle
     
 - The URL of the SharePoint Server site where your taxonomy store is located.
     
-- The URL of the location of the SharePoint Online site where your term store is located (http://\<TenantName\>.sharepoint.com).
+- The URL of the SharePoint Online site where your term store is located (http://\<TenantName\>.sharepoint.com).
+
+- Taxonomy groups in SharePoint Server to be copied to SharePoint Online.
     
 - Your Office 365 global administrator credentials.
 
@@ -83,7 +86,7 @@ $credential = Get-Credential
 ```
 
 ```
-Copy-SPTaxonomyGroups -LocalTermStoreName "<ManagedMetadataServiceApplicatoin>" -LocalSiteUrl "<OnPremisesSiteURL>" -RemoteSiteUrl "SharePointOnlineSiteURL" -GroupNames "Group1","Group2" -Credential $credential
+Copy-SPTaxonomyGroups -LocalTermStoreName "<ManagedMetadataServiceApplication>" -LocalSiteUrl "<OnPremisesSiteURL>" -RemoteSiteUrl "SharePointOnlineSiteURL" -GroupNames "Group1","Group2" -Credential $credential
 ```
 
 For example:
@@ -100,7 +103,7 @@ Note that you can also simply run Copy-SPTaxonomyGroups and you will be prompted
   
  **Copying content types**
   
-If you're planning to use hybrid content types, you can copy your SharePoint Server content types to SharePoint Online by using the [Copy-SPContentTypes](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/copy-spcontenttypes?view=sharepoint-ps) cmdlet. For example: 
+If you're planning to use hybrid content types, you can copy your SharePoint Server content types to SharePoint Online by using the [Copy-SPContentTypes](/powershell/module/sharepoint-server/copy-spcontenttypes?view=sharepoint-ps) cmdlet. For example: 
   
 ```
 Copy-SPContentTypes -LocalSiteUrl http://localsite/ -LocalTermStoreName "managed metadata service application proxy" -RemoteSiteUrl https://contoso.sharepoint.com/ -ContentTypeNames @("ContentTypeA", "ContentTypeB") -Credential $credential
@@ -164,7 +167,7 @@ Like other timer jobs in SharePoint, you can configure the Taxonomy Groups Repli
 
 If at any time you want to stop taxonomy replication between SharePoint Online and SharePoint Server, you can do so by using PowerShell. 
   
-The [Stop-SPTaxonomyReplication](https://technet.microsoft.com/en-us/library/mt764068.aspx) cmdlet will stop taxonomy replication. For example: 
+The [Stop-SPTaxonomyReplication](/powershell/module/sharepoint-server/Stop-SPTaxonomyReplication?view=sharepoint-ps) cmdlet will stop taxonomy replication. For example: 
   
 ```
 $credential = Get-Credential
@@ -174,7 +177,7 @@ $credential = Get-Credential
 Stop-SPTaxonomyReplication -Credential $credential
 ```
 
-The [Stop-SPContentTypeReplication](https://technet.microsoft.com/en-us/library/mt784463.aspx) cmdlet will stop content type replication: 
+The [Stop-SPContentTypeReplication](/powershell/module/sharepoint-server/?view=sharepoint-ps) cmdlet will stop content type replication: 
   
 ```
 Stop-SPContentTypeReplication

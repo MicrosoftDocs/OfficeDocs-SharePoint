@@ -35,7 +35,7 @@ People search has the following prerequisites:
   
 - A Search service application must be running in the farm. For more information, see [Create and configure a Search service application in SharePoint Server 2016](create-and-configure-a-search-service-application.md). The farm must also have a Search Center that uses the Enterprise Search Center template. For more information, see [Create a Search Center site in SharePoint Server](create-a-search-center-site.md).
     
-- A Managed Metadata service application must be running in the farm. For more information, see [Overview of managed metadata service applications in SharePoint Server 2013](http://technet.microsoft.com/library/ecd9e1d1-3e56-4ab9-80e1-29972586c5a7%28Office.14%29.aspx).
+- A Managed Metadata service application must be running in the farm. For more information, see [Overview of managed metadata service applications in SharePoint Server 2013](/previous-versions/office/sharepoint-server-2010/ee424403(v=office.14)).
     
 - User profile synchronization must be configured in the farm. If this has not been done yet, at a minimum you must complete the following procedures that are described in [Synchronize user and group profiles in SharePoint Server 2013](../administration/configure-profile-synchronization.md):
     
@@ -210,7 +210,7 @@ Before you can obtain meaningful people search results, you must add user profil
     
   - [Configure profile synchronization by using SharePoint Active Directory Import in SharePoint Server](../administration/configure-profile-synchronization-by-using-sharepoint-active-directory-import.md)
     
-- Copy user profiles from one farm to another by using the User Profile Replication Engine (UPRE). For more information, see [Use UPRE to replicate user profiles across multiple farms in SharePoint Server 2013](http://technet.microsoft.com/library/47b9f42a-7a5e-4d6e-b72e-f2cd0021040b%28Office.14%29.aspx). 
+- Copy user profiles from one farm to another by using the User Profile Replication Engine (UPRE). For more information, see [Use UPRE to replicate user profiles across multiple farms in SharePoint Server 2013](/SharePoint/administration/manage-profile-synchronization). 
     
 - Add user profiles manually.
     

@@ -101,7 +101,7 @@ The following procedures provide steps for adding apps from these sources.
 [Install and manage apps for SharePoint Server](install-and-manage-apps-for-sharepoint-server.md)
 #### Other Resources
 
-[Import-SPAppPackage](http://technet.microsoft.com/library/be0c922a-ec67-484e-bf55-37b7ab94c624.aspx)
+[Import-SPAppPackage](/powershell/module/sharepoint-server/Import-SPAppPackage?view=sharepoint-ps)
   
-[Install-SPApp](http://technet.microsoft.com/library/2108d6a7-c17a-4c3a-86bb-1bfc282d60c1.aspx)
+[Install-SPApp](/powershell/module/sharepoint-server/Install-SPApp?view=sharepoint-ps)
 

@@ -3,7 +3,7 @@ title: "SharePoint 2013 dev/test environments in Azure"
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
-ms.date: 04/06/2018
+ms.date: 03/15/2019
 ms.audience: ITPro
 ms.topic: hub-page
 ms.prod: sharepoint-server-itpro
@@ -91,7 +91,7 @@ Executing a local copy of the template with the parameters file with Azure Power
 In this procedure, you download copies of the basic SharePoint 2013 farm template files, modify them as needed, and then execute the template with Azure PowerShell.
   
 > [!NOTE]
-> These commands use [Azure PowerShell 1.0.0 and later](https://azure.microsoft.com/documentation/articles/powershell-install-configure/). 
+> These commands use [the latest version of Azure PowerShell](https://azure.microsoft.com/documentation/articles/powershell-install-configure/). 
   
 Create a local folder to store the ARM template files for the basic SharePoint 2013 farm. Fill in the **$myFolder** variable value (removing the text and the "<" and ">" characters between the quotes) and run the following commands from Azure PowerShell: 
   
@@ -155,20 +155,20 @@ Modify the **azuredeploy.json** file as needed for your basic SharePoint 2013 fa
 Next, sign in to Azure PowerShell.
   
 ```
-Login-AzureRmAccount
+Connect-AzAccount
 ```
 
 Determine the Azure subscription for the basic SharePoint farm with this command.
   
 ```
-Get-AzureRMSubscription | Sort SubscriptionName | Select SubscriptionName
+Get-AzSubscription | Sort SubscriptionName | Select SubscriptionName
 ```
 
 Set your subscription to the correct one with these commands.
   
 ```
 $subscrName="<subscription name>"
-Get-AzureRmSubscription -SubscriptionName $subscrName | Select-AzureRmSubscription
+Select-AzSubscription -SubscriptionName $subscrName -Current
 ```
 
 Next, specify the resource group name and Azure location for the deployment with these commands.
@@ -181,7 +181,7 @@ $locName="<Azure location, such as West US>"
 You can get a list of existing resource groups with this command.
   
 ```
-Get-AzureRMResourceGroup | Sort ResourceGroupName | Select ResourceGroupName
+Get-AzResourceGroup | Sort ResourceGroupName | Select ResourceGroupName
 ```
 
 If needed, create a new resource group.
@@ -190,7 +190,7 @@ If needed, create a new resource group.
 > If you are using an existing resource group, the resources and settings of the template can impact the resources within the group. You should perform a careful analysis of the existing resources of the resource group to ensure that do not overlap in an undesirable way. 
   
 ```
-New-AzureRMResourceGroup -Name $rgName -Location $locName
+New-AzResourceGroup -Name $rgName -Location $locName
 ```
 
 Next, determine the following values, for which you may be prompted when you execute the template:
@@ -223,14 +223,14 @@ Use these commands to specify a deployment name and execute the template **witho
   
 ```
 $deployName="<deployment name>"
-New-AzureRMResourceGroupDeployment -Name $deployName -ResourceGroupName $rgName -TemplateFile $myFolder\azuredeploy.json
+New-AzResourceGroupDeployment -Name $deployName -ResourceGroupName $rgName -TemplateFile $myFolder\azuredeploy.json
 ```
 
 Use these commands to specify a deployment name and execute the template **with** the azuredeploy.parameters.json file: 
   
 ```
 $deployName="<deployment name>"
-New-AzureRMResourceGroupDeployment -Name $deployName -ResourceGroupName $rgName -TemplateFile $myFolder\azuredeploy.json -TemplateParameterFile $myFolder\azuredeploy.parameters.json
+New-AzResourceGroupDeployment -Name $deployName -ResourceGroupName $rgName -TemplateFile $myFolder\azuredeploy.json -TemplateParameterFile $myFolder\azuredeploy.parameters.json
 ```
 
 When you run the **New-AzureResourceGroupDeployment** command, you will be prompted to supply some values, such as passwords. When you have specified all the needed values, the command creates the three-server, basic SharePoint 2013 farm in Azure. 
@@ -311,20 +311,20 @@ Modify the **azuredeploy.json** file as needed for your high-availability ShareP
 Next, sign in to Azure PowerShell.
   
 ```
-Login-AzureRmAccount
+Connect-AzAccount
 ```
 
 Determine the Azure subscription for the high-availability SharePoint farm with this command.
   
 ```
-Get-AzureRMSubscription | Sort SubscriptionName | Select SubscriptionName
+Get-AzSubscription | Sort SubscriptionName | Select SubscriptionName
 ```
 
 Set your subscription to the correct one with these commands.
   
 ```
 $subscrName="<subscription name>"
-Get-AzureRmSubscription -SubscriptionName $subscrName | Select-AzureRmSubscription
+Select-AzSubscription -SubscriptionName $subscrName -Current
 ```
 
 Next, specify the resource group name and Azure location for the deployment with these commands.
@@ -337,7 +337,7 @@ $locName="<Azure location, such as West US>"
 You can get a list of existing resource groups with this command.
   
 ```
-Get-AzureRMResourceGroup | Sort ResourceGroupName | Select ResourceGroupName
+Get-AzResourceGroup | Sort ResourceGroupName | Select ResourceGroupName
 ```
 
 If needed, create a new resource group.
@@ -346,7 +346,7 @@ If needed, create a new resource group.
 > If you are using an existing resource group, the resources and settings of the template can impact the resources within the group. You should perform a careful analysis of the existing resources of the resource group to ensure that do not overlap in an undesirable way. 
   
 ```
-New-AzureRMResourceGroup -Name $rgName -Location $locName
+New-AzResourceGroup -Name $rgName -Location $locName
 ```
 
 Next, determine the following values, for which you may be prompted when you execute the template:
@@ -379,14 +379,14 @@ Use these commands to specify a deployment name and execute the template **witho
   
 ```
 $deployName="<deployment name>"
-New-AzureRMResourceGroupDeployment -Name $deployName -ResourceGroupName $rgName -TemplateFile $myFolder\azuredeploy.json
+New-AzResourceGroupDeployment -Name $deployName -ResourceGroupName $rgName -TemplateFile $myFolder\azuredeploy.json
 ```
 
 Use these commands to specify a deployment name and execute the template **with** the azuredeploy.parameters.json file: 
   
 ```
 $deployName="<deployment name>"
-New-AzureRMResourceGroupDeployment -Name $deployName -ResourceGroupName $rgName -TemplateFile $myFolder\azuredeploy.json -TemplateParameterFile $myFolder\azuredeploy.parameters.json
+New-AzResourceGroupDeployment -Name $deployName -ResourceGroupName $rgName -TemplateFile $myFolder\azuredeploy.json -TemplateParameterFile $myFolder\azuredeploy.parameters.json
 ```
 
 When you run the **New-AzureResourceGroupDeployment** command, you will be prompted to supply some values, such as passwords. When you have specified all the needed values, the command creates the nine-server, high-availability SharePoint 2013 farm in Azure. 
@@ -400,12 +400,12 @@ This can take some time to complete.
 
 You can administer the servers of these farms through [Remote Desktop connections](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-connect-logon/).
   
-From the Central Administration SharePoint site, you can configure My sites, SharePoint applications, and other functionality. For more information, see [Configure SharePoint 2013](https://technet.microsoft.com/en-us/library/ee836142.aspx).
+From the Central Administration SharePoint site, you can configure My sites, SharePoint applications, and other functionality. For more information, see [Configure SharePoint 2013](/SharePoint/install/configure).
   
 ## Create a SharePoint 2016 dev/test farm
 <a name="powershell"> </a>
 
-See the instructions in [SharePoint Server 2016 dev/test environment in Azure](https://technet.microsoft.com/library/mt723354%28v=office.16%29.aspx) to create the following single-server, SharePoint 2016 dev/test farm:. 
+See the instructions in [SharePoint Server 2016 dev/test environment in Azure](/SharePoint/administration/sharepoint-server-2016-dev-test-environment-in-azure) to create the following single-server, SharePoint 2016 dev/test farm:. 
   
 ![The single-server SharePoint 2016 farm in Azure.](../media/8cf51483-ecef-4ba4-a9fc-952716ff8132.png)
   
@@ -413,5 +413,5 @@ See the instructions in [SharePoint Server 2016 dev/test environment in Azure](h
 
 [Technical diagrams for SharePoint Server](../technical-reference/technical-diagrams.md)
 
-[SharePoint Server 2016 dev/test environment in Azure](https://technet.microsoft.com/library/mt723354%28v=office.16%29.aspx)
+[SharePoint Server 2016 dev/test environment in Azure](/SharePoint/administration/sharepoint-server-2016-dev-test-environment-in-azure)
 

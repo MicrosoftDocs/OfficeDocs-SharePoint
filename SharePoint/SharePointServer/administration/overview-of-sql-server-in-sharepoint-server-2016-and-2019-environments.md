@@ -54,9 +54,9 @@ SharePoint Server 2019 supports the following:
 - SQL Server 2016 Analysis Services (SSAS)
 
 > [!NOTE]
-> SQL Server Reporting Services integration with SharePoint Server 2019 is no longer supported. For more information, see [Reporting Services Report Server (SharePoint Mode)](https://docs.microsoft.com/en-us/sql/reporting-services/report-server-sharepoint/reporting-services-report-server-sharepoint-mode?view=sql-server-2016&viewFallbackFrom=sql-server-2017) and [Supported combinations of SharePoint and Reporting Services server](https://docs.microsoft.com/en-us/sql/reporting-services/install-windows/supported-combinations-of-sharepoint-and-reporting-services-server?view=sql-server-2016).
+> SQL Server Reporting Services integration with SharePoint Server 2019 is no longer supported. For more information, see [Reporting Services Report Server (SharePoint Mode)](/sql/reporting-services/report-server-sharepoint/reporting-services-report-server-sharepoint-mode?view=sql-server-2016&viewFallbackFrom=sql-server-2017) and [Supported combinations of SharePoint and Reporting Services server](/sql/reporting-services/install-windows/supported-combinations-of-sharepoint-and-reporting-services-server?view=sql-server-2016).
 
-You can use the Report Viewer web part that has much of the same functionality as integrated mode. for more information, see [Add the Report Viewer web part to a web page](https://docs.microsoft.com/en-us/sql/reporting-services/report-server-sharepoint/add-the-report-viewer-web-part-to-a-web-page?view=sql-server-2017) and [Report Viewer web part on a SharePoint site - Reporting Services](https://docs.microsoft.com/en-us/sql/reporting-services/report-server-sharepoint/report-viewer-web-part-sharepoint-site?view=sql-server-2017)
+You can use the Report Viewer web part that has much of the same functionality as integrated mode. for more information, see [Add the Report Viewer web part to a web page](/sql/reporting-services/report-server-sharepoint/add-the-report-viewer-web-part-to-a-web-page?view=sql-server-2017) and [Report Viewer web part on a SharePoint site - Reporting Services](/sql/reporting-services/report-server-sharepoint/report-viewer-web-part-sharepoint-site?view=sql-server-2017)
     
 > [!NOTE]
 > If you want to use Microsoft SQL Server Power Pivot for SharePoint or Microsoft Power View for SharePoint for BI solutions you must install the Power Pivot or Power View add-ins for SQL Server 2016 RTM. The SQL Server 2014 (SP1) Power Pivot for SharePoint and Power View for SharePoint BI solutions do not work with SharePoint Server 2016. 
@@ -73,7 +73,7 @@ The SharePoint Server 2016 application is built on the SQL Server database engin
 |Content  <br/> | Content databases store all site content:  <br/>  Site documents, such as files in document libraries  <br/>  List data  <br/>  Web Part properties  <br/>  Data for apps for SharePoint  <br/>  Data and objects for Project Server 2016  <br/>  User names and permissions  <br/>  Each web application can contain many content databases. Each site collection can be associated with only one content database, although a content database can be associated with many site collections.  <br/> |
 |Service application  <br/> |Databases for service applications store the data that service applications use.  <br/> |
    
-For a full list of all of the databases that support SharePoint Servers 2016 and 2019, see [Database types and descriptions in SharePoint Server](../technical-reference/database-types-and-descriptions.md). For a graphical representation of the databases that support SharePoint Server 2016, see the SharePoint Server 2016 database poster as either a [PDF](https://download.microsoft.com/download/D/5/D/D5DC1121-8BC5-4953-834F-1B5BB03EB691/DBrefguideSPS2016_tabloid.pdf) or [Visio](https://download.microsoft.com/download/D/5/D/D5DC1121-8BC5-4953-834F-1B5BB03EB691/DBrefguideSPS2016_tabloid.vsdx) file. 
+For a full list of all of the databases that support SharePoint Servers 2016 and 2019, see [Database types and descriptions in SharePoint Server](../technical-reference/database-types-and-descriptions.md). The **Quick reference guide: SharePoint Servers 2016 and 2019 Databases**, is available to download as either a [PDF](http://download.microsoft.com/download/7/9/7/79700E8E-9896-4657-B9E6-4940B295B71A/DBrefguideSPS2019_tabloid.pdf) or [Visio](http://download.microsoft.com/download/7/9/7/79700E8E-9896-4657-B9E6-4940B295B71A/DBrefguideSPS2019_tabloid.vsdx) file. 
 
 ## Working with the SQL Server databases that support SharePoint Servers 2016 and 2019
 <a name="sec2"> </a>
@@ -91,7 +91,7 @@ The SQL Server databases that support SharePoint Server 2016 are subject to sizi
 
 SQL Server 2014 (SP1) provides greater performance, availability, and manageability with SharePoint Server 2016 than SQL Server 2014. While you can't use SQL Server Power Pivot for SharePoint or Power View for SharePoint with SQL Server 2014 (SP1), you can use some business intelligence solutions with SharePoint Server 2016. For example, you can install Office Online Server to use Excel Online.
   
-For more information, see [Features Supported by the Editions of SQL Server 2014](http://go.microsoft.com/fwlink/?LinkID=524888&amp;clcid=0x409). For detailed information about Office Online Server, see [Configure Office Online Server for SharePoint Server 2016](http://technet.microsoft.com/library/a5276781-133b-413c-beca-b851e17c2081.aspx).
+For more information, see [Features Supported by the Editions of SQL Server 2014](http://go.microsoft.com/fwlink/?LinkID=524888&amp;clcid=0x409). For detailed information about Office Online Server, see [Configure Office Online Server for SharePoint Server 2016](/webappsserver/configure-office-web-apps-for-sharepoint-2013).
   
 ### High Availability Solutions
 <a name="HA"> </a>

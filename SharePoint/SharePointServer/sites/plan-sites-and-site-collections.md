@@ -25,7 +25,7 @@ Every SharePoint Server site belongs to only one site collection and a site coll
 
 ![Diagram of a site collection](../media/DiagramOfSiteCollection.gif)
   
-The SharePoint Server 2019 modern experience is similar to the experience in SharePoint Online. The main difference is Hub sites aren't available in SharePoint Server. We do recommend that you use the same process as in SharePOint Online, create site collections for each unit of work instead of creating subsites. This will make it easier when migrating your SharePoint farm to SharePoint Online and set up a hybrid environment.
+The SharePoint Server 2019 modern experience is similar to the experience in SharePoint Online. The modern experience is compelling, flexible, and easier to use. The main difference is hub sites aren't available in SharePoint Server. We do recommend in SharePoint Server 2019 that you create site collections for each unit of work instead of creating subsites. This will make it easier when migrating your SharePoint farm to SharePoint Online. For more information about the modern experience in SharePoint Server 2019, see [Differences between SharePoint Server 2016 and 2019](https://support.office.com/en-us/article/differences-between-sharepoint-server-2016-and-2019-ba84c8a3-3ce2-4252-926e-c67654ceb4a3?ui=en-US&rs=en-US&ad=US).
     
 ## Sites and site collections planning principles
 <a name="section1"> </a>
@@ -47,7 +47,7 @@ There are many ways your sites can be organized. Having a plan in place to help 
   
 ### Understand business needs
 
-The first step in planning your site structure is to inventory the business problems and needs that you are using SharePoint Server 2016 to address. Then map your business needs to the site type best suited to meet them. This mapping will tell you the types of sites you will need. At the highest level, you will need sites that fall under the Collaboration category, the Enterprise category, the Publishing category, or the Custom category. For more information about the types of sites and how they are categorized, see [Overview of sites and site collections in SharePoint Server](sites-and-site-collections-overview.md).
+The first step in planning your site structure is to inventory the business problems and needs that you are using SharePoint Server to address. Then map your business needs to the site type best suited to meet them. This mapping will tell you the types of sites you will need. At the highest level, you will need sites that fall under the Collaboration category, the Enterprise category, the Publishing category, or the Custom category. For more information about the types of sites and how they are categorized, see [Overview of sites and site collections in SharePoint Server](sites-and-site-collections-overview.md).
   
 ### Models for site collections
 
@@ -63,13 +63,13 @@ After you determine which types of sites your solution requires, the next step i
     
 - Often share a common navigation scheme
     
-The main goal of site collection planning is to put a structure in place that your organization can grow in without creating unnecessary management overhead. Here is a generic model for an intranet SharePoint Server 2016 farm that will meet many needs.
+The main goal of site collection planning is to put a structure in place that your organization can grow in without creating unnecessary management overhead. Here is a generic model for an intranet SharePoint Server farm that meets many needs.
   
 **Figure: Model of an intranet SharePoint Server farm**
 
-![A suggested model for site collections](../media/SiteCollectionModelSharePoint2013.jpg)
+![A traditional model for site collections](../media/SiteCollectionModelSharePoint2013.jpg)
   
- **Internal Collaboration and Publishing** You can create a site collection to host your internal team and communication sites. These can be broken down into two major categories. One branch can be organized around your company's internal hierarchy, with divisional portals hosting subsites for the individual long standing teams to use to store their content, collaborate, and publish their work out to the rest of the organization. Another peer branch can be for ad hoc or v-teams or project teams. These teams have members from across the long standing teams and need to have a collaboration and publishing space for a limited period of time. 
+ **Internal Collaboration and Publishing** You can create a site collection to host your internal team and communication sites. In SharePoint Server 2019 you can create either new modern experience, or classic experience, team and community site collections. These can be broken down into two major categories. One branch can be organized around your company's internal hierarchy, with divisional portals hosting subsites for the individual long standing teams to use to store their content, collaborate, and publish their work out to the rest of the organization. Another peer branch can be for ad hoc or v-teams or project teams. These teams have members from across the long standing teams and need to have a collaboration and publishing space for a limited period of time.  
   
  **Internal Enterprise Applications** You can create a site collection to host sites and resources that everyone in your company will use. For example, your company intranet, enterprise search, My Sites, and records repositories. It is best practice to keep document center sites and records center sites in separate site collections.
   
@@ -133,7 +133,7 @@ You can use one of two ways to make published content available to users: author
 ### Plan other sites
 <a name="Section2e"> </a>
 
-You can plan to make it possible for site users to create additional sites. For example, you can plan to give a My Site to each team member who uses a site. A My Site is a team site that is based on SharePoint Server and has public and private views. You can also make it possible for team members to create other sites, such as Document Workspace sites, when they collaborate on documents and other projects. Similarly, you can give users of an Internet site access to collaboration sites as part of a web-based service. For example, you can give them permissions to create Meeting Workspace sites and participate in online meetings as part of their experience of using your site. For more information, see [Configure self-service site creation in SharePoint Server 2019](https://docs.microsoft.com/en-us/SharePoint/sites/configure-self-service-site-creation-in-sharepoint-server-2019).
+You can plan to make it possible for site users to create additional sites. For example, you can plan to give a My Site to each team member who uses a site. A My Site is a team site that is based on SharePoint Server and has public and private views. You can also make it possible for team members to create other sites, such as Document Workspace sites, when they collaborate on documents and other projects. Similarly, you can give users of an Internet site access to collaboration sites as part of a web-based service. For example, you can give them permissions to create Meeting Workspace sites and participate in online meetings as part of their experience of using your site. For more information, see [Configure self-service site creation in SharePoint Server 2019](/SharePoint/sites/configure-self-service-site-creation-in-sharepoint-server-2019).
   
 For information about the kinds of sites that you can create, see [Overview of sites and site collections in SharePoint Server](sites-and-site-collections-overview.md).
   
@@ -156,14 +156,13 @@ To help you with site and site collection planning, the Microsoft PowerShell com
     
      An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
-     > [!NOTE]
-     > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+     If you don't have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Open the **SharePoint Management Shell**.
     
 3. At the PowerShell command prompt, type the following command:
     
-   ```
+   ```powershell
    Get-SPWebApplication -IncludeCentralAdministration | Get-SPSite -Limit All | Get-SPWeb -Limit All | Select-Object URL, Title, Description, ParentWeb, AssociatedOwnerGroup, SiteAdministrators, WebTemplate, UIVersion, QuickLaunchEnabled, TreeViewEnabled, Language, Locale, Author, HasUniquePerm | Sort URL | export-csv <file location and name.csv>
    ```
 
@@ -199,7 +198,7 @@ To help you with site and site collection planning, the Microsoft PowerShell com
     
    -  _\<file location and name.csv\>_ is the location where you want to save the csv file and the name you want to give it. For example, 'C:\FarmReports\1.csv'. 
     
-For more information, see the PowerShell reference for SharePoint Server article, [SharePointServer](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/?view=sharepoint-ps). 
+For more information, see the PowerShell reference for SharePoint Server article, [SharePointServer](/powershell/module/sharepoint-server/?view=sharepoint-ps). 
   
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 

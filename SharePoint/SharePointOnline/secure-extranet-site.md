@@ -48,7 +48,7 @@ The following sections look more closely at these options.
 
 In option 2, the sharing setting **Allow sharing only with the external users that already exist in your organization's directory** allows sharing only with existing users in your Office 365 directory. This turns off the user-based invitations approach within SharePoint Online. 
   
-If you're partnering with another organization that uses Office 365 or has an Azure AD, you can import users from their organization into your organization, and then grant them access to your extranet site. For more information, see [What is Azure AD B2B collaboration?](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
+If you're partnering with another organization that uses Office 365 or has an Azure AD, you can import users from their organization into your organization, and then grant them access to your extranet site. For more information, see [What is Azure AD B2B collaboration?](/azure/active-directory/b2b/what-is-b2b).
   
 ### Sharing with authenticated users
 

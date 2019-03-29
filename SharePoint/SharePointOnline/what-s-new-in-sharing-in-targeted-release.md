@@ -3,19 +3,25 @@ title: "Secure external sharing in SharePoint Online"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.audience: ITPro
+ms.audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
+ms.collection:  
+- Strat_SP_admin
+- M365-collaboration
+search.appverid:
+- SPO160
+- MET150
 ms.assetid: cc78357c-6d48-499c-9cc7-dae447d0d391
 description: "In SharePoint Online, if you share with a user who is not in the directory, they are sent a one-time code that they can use to verify their identity."
 ---
 
 # Secure external sharing recipient experience
 
-A new method of securely sharing files and folders with external users is being implemented. Previously, when securely sharing with users who were not in the organization's directory, these users were sent an invitation and had to log in using a Microsoft Account or a Work or School Account. They were then added to the directory as guests and given permissions to the file or folder.
+A new method of securely sharing files and folders with external users is being implemented. Previously, when securely sharing with users who were not in the organization's directory, these users were sent an invitation and had to sign in using a Microsoft account or a work or school account in Azure AD. They were then added to the directory as guests and given permissions to the file or folder.
   
-Now, if you share with a user who is not in the directory, they are sent a one-time code that they can use to verify their identity. They are not required to log in using a Microsoft Account or a Work or School Account.
+Going forward, recipients of secure external sharing who also use Office 365 in their organization will be able to sign in using their work or school account to access the document. After they have entered the one-time passcode for verification the first time, they will authenticate with their work or school account and have a full guest account created in the host's organization. This means that IT admins can manage them like any other guest account in their directory. 
   
 The procedures for sharing files and folders remain the same. They can be found in [Share SharePoint files or folders in Office 365](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c). The procedures for [changing permissions and seeing who you've shared with](https://support.office.com/article/0a36470f-d7fe-40a0-bd74-0ac6c1e13323) also remain the same, though users who use the new external sharing experience appear underneath the link that was shared with them, not as a top-level user. 
   
@@ -36,7 +42,7 @@ The following table shows the differences between sharing with external users wi
  This update also introduces some changes to the way that external sharing is audited. When using the share dialog to share with "specific people" and the recipients are all external users then a secure link will be created and the specified email addresses will be secured, or added, to the link. This appears in audit logs in the following ways: 
   
 > [!NOTE]
-> If the UsertType property of a User object is "guest", the user is outside of your organization but may be an ad-hoc external recipient that does not have a Guest account 
+> If the UserType property of a User object is "guest", the user is outside of your organization but may be an ad-hoc external recipient that does not have a Guest account 
   
 > [!NOTE]
 > Auditing operations related to sharing invitations can still appear in situations when SharePoint items other than files and folders are shared with external users (for example, when sharing a SharePoint site with external users). 

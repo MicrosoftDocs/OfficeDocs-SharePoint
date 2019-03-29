@@ -6,6 +6,9 @@ ms.audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
+ms.collection:  
+- Strat_SP_admin
+- M365-collaboration
 search.appverid:
 - SPO160
 - ODB160
@@ -41,21 +44,24 @@ If they don't click **Continue**, they'll be automatically signed out and will s
   
 ## Specify idle session sign-out settings in the new SharePoint admin center
 
-1. Sign in to Office 365 as a global admin or SharePoint admin.
+1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+    > [!NOTE]
+    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-3. In the left pane, choose **Admin centers** \> **SharePoint** to open the classic SharePoint admin center.
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
 
-4. In the upper right, click **Try it now** to open the new SharePoint admin center.
+3. If the classic SharePoint admin center appears, click **Try it now** to open the new SharePoint admin center.
 
-5. In the left pane, under **Policies**, click **Access control**. 
+4. In the left pane of the new SharePoint admin center, under **Policies**, select **Access control**. 
 
-6. Click **Idle session sign-out**.
+5. Select **Idle session sign-out**.
 
-7. Turn on **Sign out inactive users automatically**, and then select when you want to sign out users and how much notice you want to give them before signing them out.
+    ![The Idle session sign-out panel](media/idle-session-sign-out.png)
 
-8. Click **Save**.
+6. Turn on **Sign out inactive users automatically**, and then select when you want to sign out users and how much notice you want to give them before signing them out.
+
+7. Select **Save**.
 
 ## Specify idle session sign-out settings using PowerShell
   
@@ -78,6 +84,6 @@ If they don't click **Continue**, they'll be automatically signed out and will s
   - -SignOutAfter specifies the amount of time after which is a user is signed out of Office 365 if they do not respond to the -WarnAfter prompt.
     
 > [!NOTE]
-> You must specify values for both WarnAfter and SignOutAfter. The SignOutAfter must be greater than the WarnAfter value. <br>It takes about 15 minutes for the policy to take effect across your organization. The policy doesn't affect existing sessions. To view the idle session sign-out values you've set, use the Get-SPOBrowserIdleSignOut cmdlet.<br>For info about Office 365 session lengths (regardless of activity), see [Session timeouts for Office 365](https://support.office.com/article/37a5c116-5b07-4f70-8333-5b86fd2c3c40). 
+> You must specify values for both WarnAfter and SignOutAfter. The SignOutAfter must be greater than the WarnAfter value. <br>It takes about 15 minutes for the policy to take effect across your organization. The policy doesn't affect existing sessions. To view the idle session sign-out values you've set, use the Get-SPOBrowserIdleSignOut cmdlet.<br>For info about Office 365 session lengths (regardless of activity), see [Session timeouts for Office 365](/office365/enterprise/session-timeouts). 
   
 

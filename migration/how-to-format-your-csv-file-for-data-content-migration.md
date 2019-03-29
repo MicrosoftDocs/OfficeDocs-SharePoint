@@ -3,7 +3,6 @@ title: "How to format your CSV or JSon file for data content migration"
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
-ms.date: 5/9/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -11,6 +10,10 @@ localization_priority: Priority
 ms.collection: 
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
+- Migration
+- SPMigration
+- M365-collaboration
+search.appverid: MET150
 ms.custom: 
 ms.assetid: 
 description: "How to format your JSON or CSV file for data content migration"

@@ -4,7 +4,7 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
 ms.date: 7/5/2017
-ms.audience: Admin
+ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
@@ -55,7 +55,7 @@ In the July 2017 update, the full trust components are split into two separate s
     
 The output for full trust solution scans are now focused on reporting areas of your environment that are leveraging functionality provided by farm level WSP files deployed to your farm. If there are orphaned full trust solution references in your content, this tool will not report that information. You could leverage the Test-SPContentDatabase PowerShell cmdlet that ships with SharePoint to look for those if they are of concern for your migration.
   
-https://technet.microsoft.com/en-us/library/ff607941.aspx
+/powershell/module/sharepoint-server/Test-SPContentDatabase?view=sharepoint-ps
   
 It is important to understand both levels [Farm and Content] of full trust code﻿ to build a comprehensive plan to avoid disruptions to your business or delays in your migration project.
   

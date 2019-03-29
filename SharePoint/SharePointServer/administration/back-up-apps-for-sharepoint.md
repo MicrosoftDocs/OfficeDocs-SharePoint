@@ -79,13 +79,13 @@ You may have multiple site collections that host apps for SharePoint in your env
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
 3. At the PowerShell command prompt, type the following command:
     
-   ```
+   ```powershell
    Backup-SPSite -Identity <SiteCollectionGUIDorURL> -Path <BackupFile> [-Force] [-NoSiteLock] [-UseSqlSnapshot] [-Verbose]
    ```
 
@@ -97,7 +97,7 @@ You may have multiple site collections that host apps for SharePoint in your env
     
     If you want to overwrite a previously used backup file, use the  `Force` parameter. You can use the  `NoSiteLock` parameter to keep the read-only lock from being set on the site collection while it is being backed up. However, using this parameter can enable users to change the site collection while it is being backed up and could lead to possible data corruption during backup. To display the site collection GUID or URL at the PowerShell command prompt, type the following command: 
     
-   ```
+   ```powershell
    Get-SPSite | format-list -property id,url
    ```
 
@@ -110,7 +110,7 @@ You may have multiple site collections that host apps for SharePoint in your env
     
     For more details, see [Back up site collections in SharePoint Server](back-up-site-collections.md)
     
-    For more information, see [Backup-SPSite](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/backup-spsite?view=sharepoint-ps).
+    For more information, see [Backup-SPSite](/powershell/module/sharepoint-server/backup-spsite?view=sharepoint-ps).
     
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 

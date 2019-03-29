@@ -14,7 +14,7 @@ f1_keywords:
 - 'O365E_DomainsProp_SPO'
 - 'O365E_DomainsMain_PublicWebsite'
 ms.service: sharepoint-online
-localization_priority: Priority
+localization_priority: Normal
 search.appverid:
 - SPO160
 - MOE150

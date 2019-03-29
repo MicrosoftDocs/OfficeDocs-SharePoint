@@ -24,7 +24,7 @@ Help your users share, organize, and discover information with SharePoint.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/download-blue.svg" alt="Download" />
+                            <img src="/office/media/icons/download-blue.svg" alt="Download" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -42,7 +42,7 @@ Help your users share, organize, and discover information with SharePoint.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/cell-phone-generic.svg" alt="Cell phone" />
+                            <img src="/office/media/icons/cell-phone-generic.svg" alt="Cell phone" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -60,7 +60,7 @@ Help your users share, organize, and discover information with SharePoint.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/success.svg" alt="Success" />
+                            <img src="/office/media/icons/success.svg" alt="Success" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -78,7 +78,7 @@ Help your users share, organize, and discover information with SharePoint.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/users-people.svg" alt="People" />
+                            <img src="/office/media/icons/users-people.svg" alt="People" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -96,7 +96,7 @@ Help your users share, organize, and discover information with SharePoint.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/globe-internet.svg" alt="Globe" />
+                            <img src="/office/media/icons/globe-internet.svg" alt="Globe" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -114,7 +114,7 @@ Help your users share, organize, and discover information with SharePoint.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/lightbulb-idea-capture-blue.svg" alt="Lightbulb" />
+                            <img src="/office/media/icons/lightbulb-idea-capture-blue.svg" alt="Lightbulb" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -137,7 +137,7 @@ Help your users share, organize, and discover information with SharePoint.
                 <div class="card">
                     <div class="cardText">
                         <h3>Share and work together</h3>
-                        <p><a href="/sharepoint/turn-external-sharing-on-or-off">Turn external sharing on or off </a></p><p><a href="https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3">Small business: Create a company-wide team </a></p><p><a href="/sharepoint/manage-site-creation">Manage site creation </a></p><p><a href="/MicrosoftTeams/sharepoint-onedrive-interact">How SharePoint interacts with Teams </a></p><p><a href="">Administer OneDrive</a></p>
+                        <p><a href="/sharepoint/turn-external-sharing-on-or-off">Turn external sharing on or off </a></p><p><a href="https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3">Small business: Create a company-wide team </a></p><p><a href="/sharepoint/manage-site-creation">Manage site creation </a></p><p><a href="/MicrosoftTeams/sharepoint-onedrive-interact">How SharePoint interacts with Teams </a></p><p><a href="/onedrive/onedrive">Administer OneDrive</a></p>
                     </div>
                 </div>
             </div>

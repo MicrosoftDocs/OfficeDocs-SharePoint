@@ -8,7 +8,9 @@ ms.audience: Admin
 ms.topic: article
 ms.service: one-drive
 localization_priority: Normal
-ms.collection: Strat_OD_admin
+ms.collection: 
+- Strat_OD_admin
+- M365-collaboration
 search.appverid:
 - ODB160
 - MOE150
@@ -31,13 +33,13 @@ To help your OneDrive users monitor and control which external users have access
 If external sharing is enabled in your organization, these notifications are enabled by default.
   
 > [!NOTE]
-> Office 365 admins can use [Search the audit log in the Office 365 Security &amp; Compliance Center](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c) to monitor content that is shared externally. 
+> Office 365 admins can use [Search the audit log in the Office 365 Security &amp; Compliance Center](/office365/securitycompliance/search-the-audit-log-in-security-and-compliance) to monitor content that is shared externally. 
   
 ## Turn on external sharing notifications
 
-1. Open the [OneDrive admin center](https://admin.onedrive.com/?v=NotificationSettings) and click the **Notifications** tab. 
+1. Open the [OneDrive admin center](https://admin.onedrive.com/?v=NotificationSettings) and select **Notifications** in the left pane. 
     
-    ![The Notifications tab of the OneDrive admin center](media/1ac4d2c3-e8b8-45f1-a638-a4c7e72d3a1d.png)
+    ![The Notifications page of the OneDrive admin center](media/1ac4d2c3-e8b8-45f1-a638-a4c7e72d3a1d.png)
   
 2. Under **Email OneDrive owners when**, make sure the following check boxes are selected: 
     

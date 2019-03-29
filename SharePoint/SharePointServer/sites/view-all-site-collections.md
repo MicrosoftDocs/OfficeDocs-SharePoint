@@ -3,7 +3,6 @@ title: "View all site collections in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 3/12/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -54,20 +53,20 @@ Refer to the following table in step 3.
     
 ### To view all site collections by using Microsoft PowerShell
 
-1. Verify that you meet the following minimum requirements: See [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/add-spshelladmin).
+1. Verify that you meet the following minimum requirements: See [Add-SPShellAdmin](/SharePoint/administration/manage-permissions-for-a-web-application).
     
 2. Open **SharePoint Management Shell**.
     
 3. At the PowerShell command prompt, type the following command, and then press ENTER:
     
-   ```
+   ```powershell
    Get-SPWebApplication | Get-SPSite -Limit All | Format-Table -Property URL,ContentDatabase
    ```
 
    > [!NOTE]
    > This command displays the URLs of all the web applications in a server farm and the site collections in each web application.
     
-For more information, see [Get-SPWebApplication](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Get-SPWebApplication?view=sharepoint-ps) and [Get-SPSite](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/get-spsite?view=sharepoint-ps). 
+For more information, see [Get-SPWebApplication](/powershell/module/sharepoint-server/Get-SPWebApplication?view=sharepoint-ps) and [Get-SPSite](/powershell/module/sharepoint-server/get-spsite?view=sharepoint-ps). 
 
 We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions.
   

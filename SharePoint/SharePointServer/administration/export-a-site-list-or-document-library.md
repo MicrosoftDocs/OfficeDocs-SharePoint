@@ -52,13 +52,13 @@ You can use PowerShell to export a site, list, or document library manually or a
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
 3. At the PowerShell command prompt, type the following command:
     
-   ```
+   ```powershell
    Export-SPWeb -Identity <SiteURL> -Path <Path and File Name> [-ItemUrl <URL of Site, List, or Library>] [-IncludeUserSecurity] [-IncludeVersions] [-NoFileCompression] [-GradualDelete] [-Verbose]
    ```
 
@@ -76,7 +76,7 @@ You can use PowerShell to export a site, list, or document library manually or a
     
     The  `NoFileCompression` parameter lets you specify that no file compression is performed during the export process. Using this parameter can lower resource usage up to 30% during the export process. Using this parameter will result in a backup folder being created instead of a compressed file. If you use the  `NoFileCompression` parameter in the  `Export-SPWeb` command, you must also use it when you import the content by using the  `Import-SPWeb` command. 
     
-For more information, see [Export-SPWeb](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Export-SPWeb?view=sharepoint-ps). 
+For more information, see [Export-SPWeb](/powershell/module/sharepoint-server/Export-SPWeb?view=sharepoint-ps). 
   
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
@@ -130,5 +130,5 @@ You can use Central Administration to export a site, list, or document library. 
 [Plan for backup and recovery in SharePoint Server](backup-and-recovery-planning.md)
 #### Other Resources
 
-[Use Windows PowerShell to administer SharePoint Server](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/?view=sharepoint-ps)
+[Use Windows PowerShell to administer SharePoint Server](/powershell/module/sharepoint-server/?view=sharepoint-ps)
 

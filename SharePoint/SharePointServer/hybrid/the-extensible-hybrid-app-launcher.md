@@ -13,6 +13,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_SharePoint_Hybrid_Top
 - Strat_SP_gtc
+- M365-collaboration
 ms.custom: 
 ms.assetid: 50c7ba0d-67bb-4e0a-a173-ab2c5756fadf
 description: "The extensible hybrid app launcher helps users to have a more seamless experience when navigating between SharePoint Server and Office 365."
@@ -32,7 +33,7 @@ The extensible hybrid app launcher is designed to help you get to your Office 36
   
 ## How do I customize tiles in my app launcher?
 
-[Custom tiles that you've pinned to your Office 365 app launcher](https://support.office.com/article/1136115a-75af-4497-b693-640c4ce70bc6) will also appear in your SharePoint Server app launcher. 
+[Custom tiles that you've pinned to your Office 365 app launcher](/office365/admin/manage/customize-the-app-launcher) will also appear in your SharePoint Server app launcher. 
   
 If you want to change what you see in your SharePoint Server app launcher, make the change in the Office 365 app launcher, and the changes will be reflected in the SharePoint Server app launcher within a day or so.
   

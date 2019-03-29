@@ -9,7 +9,9 @@ f1_keywords:
 - 'O365E_ODACStorage'
 ms.service: one-drive
 localization_priority: Normal
-ms.collection: Strat_OD_admin
+ms.collection: 
+- Strat_OD_admin
+- M365-collaboration
 search.appverid:
 - ODB160
 - ODB150
@@ -24,9 +26,9 @@ If a user's Office 365 account is deleted, their OneDrive for Business files are
   
  **To set the retention time for OneDrive accounts**
   
-1. Open the [OneDrive admin center](https://admin.onedrive.com/?v=StorageSettings), and click the **Storage** tab. 
+1. Open the [OneDrive admin center](https://admin.onedrive.com/?v=StorageSettings), and select **Storage** in the left pane. 
     
-    ![The Storage tab of the OneDrive admin center](media/15942b88-2f71-4c85-87ec-eb14b88f8f93.png)
+    ![The Storage page of the OneDrive admin center](media/15942b88-2f71-4c85-87ec-eb14b88f8f93.png)
   
 2. Enter the number of days you want to retain OneDrive files in the **Days to retain files in OneDrive after a user account is marked for deletion** box. 
     
@@ -36,10 +38,10 @@ If a user's Office 365 account is deleted, their OneDrive for Business files are
     
 ## See also
 
-[Delete a user from your organization](https://support.office.com/article/D5155593-3BAC-4D8D-9D8B-F4513A81479E)
+[Delete a user from your organization](/office365/admin/add-users/delete-a-user)
   
 [Set up OneDrive to alert managers and delegate access automatically when users leave your organization](http://go.microsoft.com/fwlink/p/?LinkId=798417&amp;clcid=0x409)
   
-[Overview of retention policies](https://support.office.com/article/5e377752-700d-4870-9b6d-12bfc12d2423#how)
+[Overview of retention policies](/office365/securitycompliance/retention-policies)
 
 

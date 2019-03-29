@@ -45,7 +45,7 @@ Example: An accountancy company wants Excel workbooks (file type) to have higher
   
 Learn more about ranking and ranking models: 
   
-- [Overview of search result ranking in SharePoint Server](https://technet.microsoft.com/en-us/library/dn169065.aspx)
+- [Overview of search result ranking in SharePoint Server](/SharePoint/search/overview-of-search-result-ranking)
     
 - [Customizing ranking models to improve relevance in SharePoint](https://msdn.microsoft.com/en-us/library/dn169052.aspx)
     
@@ -57,7 +57,7 @@ Learn more about ranking and ranking models:
 > [!IMPORTANT]
 > For SharePoint Server 2013 we recommend that you have installed the SharePoint Server 2013 cumulative update from March 2014.  
   
-- Install the app and prepare the SharePoint farm to allow apps by using the same standard processes as for all SharePoint Server apps: [Install and manage apps for SharePoint](https://technet.microsoft.com/en-us/library/fp161232.aspx).
+- Install the app and prepare the SharePoint farm to allow apps by using the same standard processes as for all SharePoint Server apps: [Install and manage apps for SharePoint](/SharePoint/administration/install-and-manage-apps-for-sharepoint-server).
     
 - To use the app, you must be a Search service application administrator.
     
@@ -242,16 +242,16 @@ When you publish your ranking model, you'll get a GUID that identifies the ranki
 ## More info about ranking and ranking models
 <a name="__toc369771605"> </a>
 
-- [Overview of search result ranking in SharePoint Server](https://technet.microsoft.com/en-us/library/dn169065.aspx) 
+- [Overview of search result ranking in SharePoint Server](/SharePoint/search/overview-of-search-result-ranking) 
     
 - [Customizing ranking models to improve relevance in SharePoint Server](https://msdn.microsoft.com/en-us/library/dn169052.aspx) 
     
    
-- [Manage query rules in SharePoint Server](https://technet.microsoft.com/en-us/library/jj871676.aspx)
+- [Manage query rules in SharePoint Server](/SharePoint/search/manage-query-rules)
     
-- [Configure properties of the Search Results Web Part in SharePoint Server](https://technet.microsoft.com/en-us/library/gg549987.aspx)
+- [Configure properties of the Search Results Web Part in SharePoint Server](/SharePoint/search/configure-properties-of-the-search-results-web-part)
     
-- [Manage the search schema in SharePoint Server](https://technet.microsoft.com/en-us/library/jj219667.aspx)
+- [Manage the search schema in SharePoint Server](/SharePoint/search/manage-the-search-schema)
     
   
 

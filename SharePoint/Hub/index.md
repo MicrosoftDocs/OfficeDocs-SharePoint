@@ -21,7 +21,7 @@ description: SharePoint documentation
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/SharePoint-Server-400x140.svg" alt="A monitor and a server symbol" />
+                                                        <img src="/office/media/hub-tiles/SharePoint-Server-400x140.svg" alt="A monitor and a server symbol" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -34,13 +34,13 @@ description: SharePoint documentation
                                 </a>
                             </li>
                             <li>
-                                <a href="https://docs.microsoft.com/en-us/powershell/sharepoint/">
+                                <a href="/powershell/sharepoint/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/SharePoint-Powershell-400x140.svg" alt="PowerShell logo over a book symbol" />
+                                                        <img src="/office/media/hub-tiles/SharePoint-Powershell-400x140.svg" alt="PowerShell logo over a book symbol" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -53,13 +53,13 @@ description: SharePoint documentation
                                 </a>
                             </li>                            
                             <li>
-                                <a href="https://docs.microsoft.com/en-us/sharepoint/dev/">
+                                <a href="/sharepoint/dev/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/SharePoint-Developer-400x140.svg" alt="Gear symbols inside brackets" />
+                                                        <img src="/office/media/hub-tiles/SharePoint-Developer-400x140.svg" alt="Gear symbols inside brackets" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -78,7 +78,7 @@ description: SharePoint documentation
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/SharePoint-Online-400x140.svg" alt="A monitor symbol and a cloud symbol" />
+                                                        <img src="/office/media/hub-tiles/SharePoint-Online-400x140.svg" alt="A monitor symbol and a cloud symbol" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -97,7 +97,7 @@ description: SharePoint documentation
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/SharePoint-Hybrid-400x140.svg" alt="Server and cloud symbols with sync arrows between them" />
+                                                        <img src="/office/media/hub-tiles/SharePoint-Hybrid-400x140.svg" alt="Server and cloud symbols with sync arrows between them" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -116,7 +116,7 @@ description: SharePoint documentation
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/SharePoint-Migrate-400x140.svg" alt="Server and cloud symbols with an arrow pointing from the server to the cloud" />
+                                                        <img src="/office/media/hub-tiles/SharePoint-Migrate-400x140.svg" alt="Server and cloud symbols with an arrow pointing from the server to the cloud" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -135,7 +135,7 @@ description: SharePoint documentation
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/SharePoint-EndUser-400x140.svg" alt="A call agent, a graduation cap, and a list symbol" />
+                                                        <img src="/office/media/hub-tiles/SharePoint-EndUser-400x140.svg" alt="A call agent, a graduation cap, and a list symbol" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">

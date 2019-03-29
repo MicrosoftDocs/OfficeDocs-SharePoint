@@ -6,7 +6,10 @@ manager: pamgreen
 ms.audience: Admin
 ms.topic: article
 ms.service: one-drive
-localization_priority: Normal
+ms.collection: 
+- Strat_OD_admin
+- M365-collaboration
+localization_priority: Priority
 description: "Review features, plan, configure, deploy, and manage OneDrive in an enterprise."
 ---
 
@@ -121,7 +124,7 @@ The Office 365 admin center handles reporting for cloud services, including One
 
 ![Screenshot of the 30-day file usage report](media/onedrive-feature-overview_image2.png)
 
-You can also consume this information in Power BI by using the Microsoft 365 usage analytics content pack. Using this content pack, you can visualize and analyze Office 365 usage data by using prebuilt graphs and charts or by creating custom reports to gain insights into how specific regions or departments within your organization are using Office 365. For more information this content pack, see [Microsoft 365 usage analytics](https://support.office.com/article/77ff780d-ab19-4553-adea-09cb65ad0f1f).
+You can also consume this information in Power BI by using the Microsoft 365 usage analytics content pack. Using this content pack, you can visualize and analyze Office 365 usage data by using prebuilt graphs and charts or by creating custom reports to gain insights into how specific regions or departments within your organization are using Office 365. For more information this content pack, see [Microsoft 365 usage analytics](/office365/admin/usage-analytics/usage-analytics).
 
 ### Encryption of data in transit and at rest
 
@@ -135,7 +138,7 @@ By using an Office 365 feature called *service encryption with Customer Key,* y
 
 ### Office 365 Customer Lockbox
 
-If a Microsoft support engineer needs to access your data to resolve an issue, that engineer is required to obtain approval from a Microsoft manager first. The Office 365 Customer Lockbox feature adds a requirement to that process: you must approve or reject that access before the support engineer can access your data. With Customer Lockbox, you can also set boundaries on how long the engineer can access your data, and all activity during that time is logged for auditing purposes. For more information about how to configure and use the Customer Lockbox feature, see [Office 365 Customer Lockbox Requests](https://support.office.com/article/office-365-customer-lockbox-requests-36f9cdd1-e64c-421b-a7e4-4a54d16440a2).
+If a Microsoft support engineer needs to access your data to resolve an issue, that engineer is required to obtain approval from a Microsoft manager first. The Office 365 Customer Lockbox feature adds a requirement to that process: you must approve or reject that access before the support engineer can access your data. With Customer Lockbox, you can also set boundaries on how long the engineer can access your data, and all activity during that time is logged for auditing purposes. For more information about how to configure and use the Customer Lockbox feature, see [Office 365 Customer Lockbox Requests](/office365/admin/manage/customer-lockbox-requests).
 
 ### Microsoft Trust Center
 
@@ -203,7 +206,7 @@ When you've identified the devices that require access to OneDrive, you then ide
 
 ### Deploy, secure, and manage OneDrive
 
-You deploy, manage, and secure OneDrive based on the tools you chose in the previous steps. Each technology has different deployment, update, and management options, so when deploying OneDrive, you must first consider whether you need to upgrade existing client machines. Also, securing OneDrive may include both client-side and cloud service–side configuration. Finally, be sure to consider data compliance requirements, such as dedicated storage regions.
+You deploy, manage, and secure OneDrive based on the tools you chose in the previous steps. Each technology has different deployment, update, and management options, so when deploying OneDrive, you must first consider whether you need to upgrade existing devices. Also, securing OneDrive may include both client-side and cloud service–side configuration. Finally, be sure to consider data compliance requirements, such as dedicated storage regions.
 
 ## OneDrive limitations
 
@@ -211,7 +214,7 @@ Because OneDrive provides access to files on many kinds of devices, it restricts
 
 ## Feature releases and requests
 
-If you want to see the functionality currently under development for OneDrive and Office 365, check out the [Office 365 Roadmap](https://products.office.com/business/office-365-roadmap?filters=) or the [Microsoft OneDrive Blog](https://techcommunity.microsoft.com/onedrive). Finally, if you want to request new functionality or vote on great community ideas for OneDrive, visit [OneDrive UserVoice](https://onedrive.uservoice.com).
+If you want to see the functionality currently under development for OneDrive and Office 365, check out the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap) or the [Microsoft OneDrive Blog](https://techcommunity.microsoft.com/onedrive). Finally, if you want to request new functionality or vote on great community ideas for OneDrive, visit [OneDrive UserVoice](https://onedrive.uservoice.com).
 
 ## Keys to successful user adoption
 
@@ -350,8 +353,6 @@ Key decisions:
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2CyhW]
 
-> [!TIP]
-> Video not in your language? Try selecting **Closed Captioning**.
 
 ### Files in on-premises OneDrive or MySites libraries
 
@@ -395,7 +396,7 @@ You can update the OneDrive sync client in two waves:
 
 -   **Enterprise ring** – in this ring, changes are rolled out after they’ve been validated in the Production ring, reducing the risk of issues.
 
-This setting is configured by using group policy.
+This setting is configured by using Group Policy.
 
 For details about the update process for the OneDrive sync client, see [The OneDrive sync client update process](sync-client-update-process.md).
 
@@ -436,10 +437,8 @@ The OneDrive sync client is included as part of Windows 10 and Office 2016. You 
 
 Although not particularly scalable, you always have the option of installing OneDrive manually on a device. For some devices, this process may be as simple as installing an app. For others, you may need to delete older versions of OneDrive first. This section walks you through the manual installation and configuration of OneDrive on iOS and Android mobile devices, Windows devices, and computers running macOS.
 
-> [!VIDEO https://videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=RE2CvJE&AutoPlayVideo=false]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2CvJE]
 
-> [!TIP]
-> Video not in your language? Try selecting **Closed Captioning**.
 
 ### Manually install and configure OneDrive on a mobile device
 
@@ -492,19 +491,14 @@ For an overview of Windows AutoPilot, see [Overview of Windows AutoPilot](/windo
 
 To deploy the OneDrive sync client to Windows 10 or the mobile apps to Android or iOS, follow the steps in [Deploy OneDrive apps by using Intune](deploy-intune.md), or take a look at the following video.
 
-> [!VIDEO https://videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=RE2CnSk&AutoPlayVideo=false]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2CnSk]
 
-> [!TIP]
-> Video not in your language? Try selecting **Closed Captioning**.
 
 ## Deploy OneDrive by using System Center Configuration Manager
 
 To deploy the OneDrive sync client to Windows or the mobile apps to Android or iOS by using System Center Configuration Manager, see [Deploy OneDrive apps by using SCCM](deploy-on-windows.md).
 
-> [!VIDEO https://videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=RE2CnSr&AutoPlayVideo=false]
-
-> [!TIP]
-> Video not in your language? Try selecting **Closed Captioning**.
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2CnSr]
 
 Before you can deploy applications to computers running macOS, you need to complete some prerequisite tasks on the System Center Configuration Manager site. For detailed information about these prerequisites and how to prepare a System Center Configuration Manager environment for Mac management, see [Prepare to deploy client software to Macs](/sccm/core/clients/deploy/prepare-to-deploy-mac-clients/). When you’ve completed the prerequisites, you can deploy applications to Macs by completing the steps described in [How to Create and Deploy Applications for Mac Computers in Configuration Manager](/previous-versions/system-center/system-center-2012-R2/jj884158(v%3dtechnet.10)/). For  information about configuring the OneDrive sync client for macOS, see [Deploy and configure the new OneDrive sync client for Mac](deploy-and-configure-on-macos.md).
 
@@ -523,26 +517,23 @@ The tools and technologies you use to manage OneDrive are based on the individua
 
 The OneDrive admin center [https://admin.onedrive.com](https://admin.onedrive.com) in Office 365 enables you to manage OneDrive settings and device access from one central location. Some settings in the OneDrive admin center you’ll use regardless of any other technologies you use to manage OneDrive (for example, to configure storage space settings). Others may overlap management apps in use (for example, the MDM section). Most organizations will use the OneDrive admin center for some of their settings, but only those organizations without an MDM application would likely use the device access functionality in the OneDrive admin center.
 
-> [!VIDEO https://videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=RE2CnSt&AutoPlayVideo=false]
-
-> [!TIP]
-> Video not in your language? Try selecting **Closed Captioning**.
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2CnSt]
 
 For more info about the admin center, see [OneDrive for Business for admins](onedrive.md)
 
 Settings in the OneDrive admin center are grouped into six categories:
 
--   **Sharing** - On the **Sharing** tab, you can configure the default sharing link users send out to colleagues to share a file as well as external sharing settings. These settings are organization-wide and applicable to all organizations, regardless of the device management tool in use. Use this page to configure the sharing option based on the sharing decisions you made in Part 2, [Plan for OneDrive for enterprises](plan-onedrive-enterprise.md).
+-   **Sharing** - On the **Sharing** page, you can configure the default sharing link users send out to colleagues to share a file as well as external sharing settings. These settings are organization-wide and applicable to all organizations, regardless of the device management tool in use. Use this page to configure the sharing option based on the sharing decisions you made in Part 2, [Plan for OneDrive for enterprises](plan-onedrive-enterprise.md).
 
--   **Sync** - On the **Sync** tab, you can configure sync restrictions based on file types, require that synced devices be domain joined, or restrict synchronization from computers running macOS. Depending on your device management tool, the PC device restrictions in this section may overlap other management settings.
+-   **Sync** - On the **Sync** page, you can configure sync restrictions based on file types, require that synced devices be domain joined, or restrict synchronization from computers running macOS. Depending on your device management tool, the PC device restrictions in this section may overlap other management settings.
 
--   **Storage** - On the **Storage** tab, you specify the default OneDrive storage limit for users within your Office 365 organization. You can also configure data retention settings for users whose accounts have been deleted (the maximum value is 10 years). These organization-wide configuration settings are applicable to all organizations, regardless of the device management tool they use. Use this page to configure the data retention value based on the decisions you made in Part 2, [Plan for OneDrive for enterprises](plan-onedrive-enterprise.md).
+-   **Storage** - On the **Storage** page, you specify the default OneDrive storage limit for users within your Office 365 organization. You can also configure data retention settings for users whose accounts have been deleted (the maximum value is 10 years). These organization-wide configuration settings are applicable to all organizations, regardless of the device management tool they use. Use this page to configure the data retention value based on the decisions you made in Part 2, [Plan for OneDrive for enterprises](plan-onedrive-enterprise.md).
 
--   **Device Access** - On the **Device Access** tab, you can restrict device access to OneDrive based on network location and apps that don’t use modern authentication among other application management options. Depending on your device management tool, the restrictions configurable on this tab may overlap with other management settings. If a conflict occurs with an Intune policy, for example, the Intune policy will take precedence for the users that policy targets.
+-   **Device Access** - On the **Device Access** page, you can restrict device access to OneDrive based on network location and apps that don’t use modern authentication among other application management options. Depending on your device management tool, the restrictions configurable on this page may overlap with other management settings. If a conflict occurs with an Intune policy, for example, the Intune policy will take precedence for the users that policy targets.
 
--   **Compliance** - The **Compliance** tab provides a centralized list of links to auditing, DLP, retention, eDiscovery, and alerting capabilities within Office 365 that are applicable to OneDrive. Selecting an item’s link redirects you to the Office 365 Security & Compliance Center, where you can configure that item. You can create DLP policies from templates that protect certain types of data, such as Social Security numbers, banking information, and other financial and medical content. Some capabilities won’t be available if you’re using Intune (for example, device management). For a walkthrough of how to create DLP policies in Office 365 and apply them to OneDrive, see [Create a DLP policy from a template](/office365/securitycompliance/create-a-dlp-policy-from-a-template/).
+-   **Compliance** - The **Compliance** page provides a centralized list of links to auditing, DLP, retention, eDiscovery, and alerting capabilities within Office 365 that are applicable to OneDrive. Selecting an item’s link redirects you to the Office 365 Security & Compliance Center, where you can configure that item. You can create DLP policies from templates that protect certain types of data, such as Social Security numbers, banking information, and other financial and medical content. Some capabilities won’t be available if you’re using Intune (for example, device management). For a walkthrough of how to create DLP policies in Office 365 and apply them to OneDrive, see [Create a DLP policy from a template](/office365/securitycompliance/create-a-dlp-policy-from-a-template/).
 
--   **Notifications** - On the **Notifications** tab, you define when OneDrive owners should receive notifications about sharing or accessing their data. For information about enabling these options, see [Turn on external sharing notifications for OneDrive](turn-on-external-sharing-notifications.md).
+-   **Notifications** - On the **Notifications** page, you define when OneDrive owners should receive notifications about sharing or accessing their data. For information about enabling these options, see [Turn on external sharing notifications for OneDrive](turn-on-external-sharing-notifications.md).
 
 
 ## Manage OneDrive settings by using Intune
@@ -573,12 +564,9 @@ Intune isn’t the only MDM option you can use to manage OneDrive apps and setti
 
 ## Manage OneDrive by using Group Policy
 
-You can use Group Policy to manage OneDrive settings for domain-joined machines in your environment. For information, see [Use Group Policy to control OneDrive sync client settings](use-group-policy.md). Using Group Policy, you can [redirect and move Windows known folders to OneDrive](redirect-known-folders.md), [enable silent account configuration](use-silent-account-configuration.md),  [configure the maximum size that will be downloaded automatically](use-group-policy.md#configure-the-maximum-onedrive-size-for-downloading-all-files-automatically), and much more. 
+You can use Group Policy to manage OneDrive settings for domain-joined computers in your environment. For information, see [Use Group Policy to control OneDrive sync client settings](use-group-policy.md). Using Group Policy, you can [redirect and move Windows known folders to OneDrive](redirect-known-folders.md), and [enable silent account configuration](use-silent-account-configuration.md). 
 
-> [!VIDEO https://videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=RE2CnSx&AutoPlayVideo=false]
-
-> [!TIP]
-> Video not in your language? Try selecting **Closed Captioning**.
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2CnSx]
 
 
 ## Manage OneDrive by using System Center Configuration Manager

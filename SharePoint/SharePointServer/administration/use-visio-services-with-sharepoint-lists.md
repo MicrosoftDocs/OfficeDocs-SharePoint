@@ -21,7 +21,7 @@ You can connect a Visio diagram to the data in a SharePoint list and maintain th
 To connect to the SharePoint list from Visio, you must have at least Read access to the SharePoint list. Likewise, once the diagram has been published to a SharePoint document library, viewers must have Read access to the list in order to refresh the data from the list.
   
 > [!NOTE]
-> This scenario requires you to have Visio Services deployed. For information about how to deploy Visio Services, see [Plan for Visio Services in SharePoint Server](http://technet.microsoft.com/library/4385b870-c3ec-462f-a43d-49f18e4d8675%28Office.14%29.aspx). 
+> This scenario requires you to have Visio Services deployed. For information about how to deploy Visio Services, see [Plan for Visio Services in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee663482(v=office.14)). 
   
 ## Publishing a diagram connected to a SharePoint list
 

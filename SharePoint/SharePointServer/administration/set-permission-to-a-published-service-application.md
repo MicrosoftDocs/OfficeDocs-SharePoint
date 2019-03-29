@@ -3,7 +3,6 @@ title: "Set permissions to published service applications in SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 3/3/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -36,99 +35,99 @@ The first procedure explains how to set permission to the Application Discovery 
 
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
-    > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+   > [!NOTE]
+   > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  Get-SPFarm | Select Id
-  ```
+   ```powershell
+   Get-SPFarm | Select Id
+   ```
 
-    For more information, see [Get-SPFarm](http://technet.microsoft.com/library/fe68fb39-f5dc-4e80-b7f2-ac203a71cc82.aspx).
+   For more information, see [Get-SPFarm](/powershell/module/sharepoint-server/Get-SPFarm?view=sharepoint-ps).
     
 4. On a server in the publishing farm, access the SharePoint Management Shell and at the PowerShell command prompt, type the following commands:
     
-  ```
-  $security=Get-SPTopologyServiceApplication | Get-SPServiceApplicationSecurity
-  $claimprovider=(Get-SPClaimProvider System).ClaimProvider
-  $principal=New-SPClaimsPrincipal -ClaimType "http://schemas.microsoft.com/sharepoint/2009/08/claims/farmid" -ClaimProvider $claimprovider -ClaimValue <consumingfarmid>
-  Grant-SPObjectSecurity -Identity $security -Principal $principal -Rights "Full Control"
-  Get-SPTopologyServiceApplication | Set-SPServiceApplicationSecurity -ObjectSecurity $security
-  ```
+   ```powershell
+   $security=Get-SPTopologyServiceApplication | Get-SPServiceApplicationSecurity
+   $claimprovider=(Get-SPClaimProvider System).ClaimProvider
+   $principal=New-SPClaimsPrincipal -ClaimType "http://schemas.microsoft.com/sharepoint/2009/08/claims/farmid" -ClaimProvider $claimprovider -ClaimValue <consumingfarmid>
+   Grant-SPObjectSecurity -Identity $security -Principal $principal -Rights "Full Control"
+   Get-SPTopologyServiceApplication | Set-SPServiceApplicationSecurity -ObjectSecurity $security
+   ```
 
-    Where  _Consumingfarmid_ is the GUID value of the consuming farm. This is the ID of the consuming farm that you need in the Central Administration section. 
+   Where  _Consumingfarmid_ is the GUID value of the consuming farm. This is the ID of the consuming farm that you need in the Central Administration section. 
     
     For more information, see the following:
     
-  - [Get-SPTopologyServiceApplication](http://technet.microsoft.com/library/fc40e2b8-5710-4034-b37f-b4e61008410a.aspx)
+  - [Get-SPTopologyServiceApplication](/powershell/module/sharepoint-server/Get-SPTopologyServiceApplication?view=sharepoint-ps)
     
-  - [Set-SPServiceApplicationSecurity](http://technet.microsoft.com/library/8d769193-f126-43f7-8c1e-4bec75c8446d.aspx)
+  - [Set-SPServiceApplicationSecurity](/powershell/module/sharepoint-server/Set-SPServiceApplicationSecurity?view=sharepoint-ps)
     
-  - [Get-SPServiceApplicationSecurity](http://technet.microsoft.com/library/4f433fea-ddbf-4843-a11c-d936ce51c6bb.aspx)
+  - [Get-SPServiceApplicationSecurity](/powershell/module/sharepoint-server/Get-SPServiceApplicationSecurity?view=sharepoint-ps)
     
-  - [New-SPClaimsPrincipal](http://technet.microsoft.com/library/0831e64b-3ec0-4016-8128-639991530172.aspx)
+  - [New-SPClaimsPrincipal](/powershell/module/sharepoint-server/New-SPClaimsPrincipal?view=sharepoint-ps)
     
-  - [Get-SPClaimProvider](http://technet.microsoft.com/library/43aa9964-e7bb-48d3-b6ab-91a9c2edba88.aspx)
+  - [Get-SPClaimProvider](/powershell/module/sharepoint-server/Get-SPClaimProvider?view=sharepoint-ps)
     
-  - [Grant-SPObjectSecurity](http://technet.microsoft.com/library/496caa92-2ff4-4048-ab7d-57d8c835bf2b.aspx)
+  - [Grant-SPObjectSecurity](/powershell/module/sharepoint-server/Grant-SPObjectSecurity?view=sharepoint-ps)
     
 ### To set permission to a published service application for a consuming farm by using PowerShell
 
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
-  - Add memberships that are required beyond the minimums above.
+   - Add memberships that are required beyond the minimums above.
     
-    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
+   An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
-    > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](http://technet.microsoft.com/library/2ddfad84-7ca8-409e-878b-d09cb35ed4aa.aspx). 
+   > [!NOTE]
+   > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  $sa = Get-SPServiceApplication -Name '<Service Application DisplayName>'
-  $security=Get-SPServiceApplication $sa | Get-SPServiceApplicationSecurity
-  $claimprovider=(Get-SPClaimProvider System).ClaimProvider
-  $principal=New-SPClaimsPrincipal -ClaimType "http://schemas.microsoft.com/sharepoint/2009/08/claims/farmid" -ClaimProvider $claimprovider -ClaimValue <consumingfarmid>
-  Grant-SPObjectSecurity -Identity $security -Principal $principal -Rights <NamedAccessRights>
-  Set-SPServiceApplicationSecurity $sa -ObjectSecurity $security
-  ```
+   ```powershell
+   $sa = Get-SPServiceApplication -Name '<Service Application DisplayName>'
+   $security=Get-SPServiceApplication $sa | Get-SPServiceApplicationSecurity
+   $claimprovider=(Get-SPClaimProvider System).ClaimProvider
+   $principal=New-SPClaimsPrincipal -ClaimType "http://schemas.microsoft.com/sharepoint/2009/08/claims/farmid" -ClaimProvider $claimprovider -ClaimValue <consumingfarmid>
+   Grant-SPObjectSecurity -Identity $security -Principal $principal -Rights <NamedAccessRights>
+   Set-SPServiceApplicationSecurity $sa -ObjectSecurity $security
+   ```
 
-Where:
-* \<Service Application DisplayName\> is the DisplayName value of the published Service Application from `Get-SPServiceApplication`.
-* \<Consumingfarmid\> is the GUID value of the consuming farm. This is the ID of the consuming farm that you need in Step 5 of the Central Administration section. 
-* \<NamedAccessRights\> is the name of the access right from `(Get-SPServiceApplicationSecurity $sa).NamedAccessRights`. 
+   Where:
+    * \<Service Application DisplayName\> is the DisplayName value of the published Service Application from `Get-SPServiceApplication`.
+    * \<Consumingfarmid\> is the GUID value of the consuming farm. This is the ID of the consuming farm that you need in Step 5 of the Central  Administration section. 
+    * \<NamedAccessRights\> is the name of the access right from `(Get-SPServiceApplicationSecurity $sa).NamedAccessRights`. 
     
     For more information, see the following:
     
-  - [Get-SPServiceApplication](http://technet.microsoft.com/library/71a467dc-3b95-4b65-af93-0d0d6ebb8326.aspx)
+  - [Get-SPServiceApplication](/powershell/module/sharepoint-server/Get-SPServiceApplication?view=sharepoint-ps)
     
-  - [New-SPClaimsPrincipal](http://technet.microsoft.com/library/0831e64b-3ec0-4016-8128-639991530172.aspx)
+  - [New-SPClaimsPrincipal](/powershell/module/sharepoint-server/New-SPClaimsPrincipal?view=sharepoint-ps)
     
-  - [Get-SPServiceApplicationSecurity](http://technet.microsoft.com/library/4f433fea-ddbf-4843-a11c-d936ce51c6bb.aspx)
+  - [Get-SPServiceApplicationSecurity](/powershell/module/sharepoint-server/Get-SPServiceApplicationSecurity?view=sharepoint-ps)
     
-  - [Grant-SPObjectSecurity](http://technet.microsoft.com/library/496caa92-2ff4-4048-ab7d-57d8c835bf2b.aspx)
+  - [Grant-SPObjectSecurity](/powershell/module/sharepoint-server/Grant-SPObjectSecurity?view=sharepoint-ps)
     
-  - [Set-SPServiceApplicationSecurity](http://technet.microsoft.com/library/8d769193-f126-43f7-8c1e-4bec75c8446d.aspx)
+  - [Set-SPServiceApplicationSecurity](/powershell/module/sharepoint-server/Set-SPServiceApplicationSecurity?view=sharepoint-ps)
     
 ## Set permission to the Application Discovery and Load Balancing Service Application and any other published service application for a consuming farm by using Central Administration
 <a name="section2"> </a>
@@ -150,13 +149,13 @@ This procedure explains how to set permission to any service application, but mo
     
 5. In the **Connection Permissions** dialog box, do the following: 
     
-  - Manually paste the ID of the consuming farm. You found the ID earlier in the PowerShell section when you used  _\<consumingfarmid\>_.
+   - Manually paste the ID of the consuming farm. You found the ID earlier in the PowerShell section when you used  _\<consumingfarmid\>_.
     
-  - Click **Add**.
+   - Click **Add**.
     
-  - Select the consuming farm ID, and then select the **Full Control** check box. 
+   - Select the consuming farm ID, and then select the **Full Control** check box. 
     
-  - Click **OK**.
+   - Click **OK**.
     
 6. Repeat steps 2 through 5 for any published service applications for which you want to enable access from the consuming farm and assign the necessary permission.
     

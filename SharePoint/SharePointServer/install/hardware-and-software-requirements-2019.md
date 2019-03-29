@@ -11,7 +11,7 @@ localization_priority: Priority
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-- Strat_SP_server
+- SP2019
 ms.custom: 
 ms.assetid: 4d88c402-24f2-449b-86a6-6e7afcfec0cd
 description: "Find out the minimum hardware and software requirements you need to install and run SharePoint Server."
@@ -48,7 +48,7 @@ The values in the following table are minimum values for installations on server
   
 For all installation scenarios, you must have sufficient hard disk space for the base installation and sufficient space for diagnostics such as logging, debugging, creating memory dumps, and so on. For production use, you must also have additional free disk space for day-to-day operations. In addition, maintain two times as much free space as you have RAM for production environments.
   
-For information about hardware and software requirements for Microsoft SQL Server 2016 or higher, see [Hardware and Software Requirements for Installing SQL Server](https://docs.microsoft.com/en-us/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server?view=sql-server-2017).
+For information about hardware and software requirements for Microsoft SQL Server 2016 or higher, see [Hardware and Software Requirements for Installing SQL Server](/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server?view=sql-server-2017).
   
 |**Installation scenario**|**Deployment type and scale**|**RAM**|**Processor**|**Hard disk space**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -74,6 +74,9 @@ The requirements in the following section apply to the following installations:
   
 > [!NOTE]
 > SharePoint Server 2019 supports drives that are formatted with the Resilient File System (ReFS). For additional information about ReFs, see [Resilient File System Overview](https://go.microsoft.com/fwlink/p/?LinkId=618431) and [Resilient File System](https://go.microsoft.com/fwlink/p/?LinkId=618432)
+
+> [!IMPORTANT]
+> SharePoint Server 2019 requires a minimum of an Active Directory 2003 native forest and domain functional level.
   
 > [!IMPORTANT]
 > SharePoint Server 2019 does not support single label domain names. For more information, see [Information about configuring Windows for domains with single-label DNS names](https://go.microsoft.com/fwlink/p/?LinkID=193849). 
@@ -97,7 +100,7 @@ One of the following:
   
 
 > [!NOTE]
-> SQL Server Express is not supported. SQL Azure (the SaaS service) is also not supported for any SharePoint databases 
+> SQL Server Express is not supported. Azure SQL Database (the DBaaS service) is also not supported for any SharePoint databases 
   
 One of the following server operating systems:
   
@@ -112,7 +115,10 @@ One of the following server operating systems:
 - Windows Server 2016 Standard or Datacenter (Desktop Experience)
     
 - Windows Server 2019 Standard or Datacenter (Desktop Experience)
-    
+
+> [!NOTE]
+> We don't support installing or upgrading SharePoint 2019 RTM on a server that previously hosted a prerelease version of SharePoint. A new server build is required to host SharePoint 2019 RTM.
+
 > [!NOTE]
 > We don't support installing the Office 2019 client and SharePoint Server 2019 on the same computer. 
 
@@ -150,6 +156,8 @@ The Microsoft SharePoint Products Preparation Tool installs the following prereq
     
 - Visual C++ Redistributable Package for Visual Studio 2017
     
+    >[!NOTE]
+    >The required software above will be supported when used by SharePoint via the SharePoint Product Lifecycle.
     
 #### Minimum requirements for client computers
 
@@ -158,7 +166,7 @@ The Microsoft SharePoint Products Preparation Tool installs the following prereq
 ## Manually configure Windows Server Roles and Features
 To manually configure the required Windows Server Roles and Features, you can use one of two methods: 1. Server Manager 2. Microsoft PowerShell
 
-To configure by using Server Manager, see [Install or Uninstall Roles, Role Services, or Features](https://docs.microsoft.com/en-us/windows-server/administration/server-manager/install-or-uninstall-roles-role-services-or-features)
+To configure by using Server Manager, see [Install or Uninstall Roles, Role Services, or Features](/windows-server/administration/server-manager/install-or-uninstall-roles-role-services-or-features)
 
 
 To configure by using PowerShell:
@@ -168,7 +176,9 @@ From a PowerShell command prompt window, type:
 ```Install-WindowsFeature NET-HTTP-Activation,NET-Non-HTTP-Activ,NET-WCF-Pipe-Activation45,NET-WCF-HTTP-Activation45,Web-Server,Web-WebServer,Web-Common-Http,Web-Static-Content,Web-Default-Doc,Web-Dir-Browsing,Web-Http-Errors,Web-App-Dev,Web-Asp-Net,Web-Asp-Net45,Web-Net-Ext,Web-Net-Ext45,Web-ISAPI-Ext,Web-ISAPI-Filter,Web-Health,Web-Http-Logging,Web-Log-Libraries,Web-Request-Monitor,Web-Http-Tracing,Web-Security,Web-Basic-Auth,Web-Windows-Auth,Web-Filtering,Web-Performance,Web-Stat-Compression,Web-Dyn-Compression,Web-Mgmt-Tools,Web-Mgmt-Console,WAS,WAS-Process-Model,WAS-NET-Environment,WAS-Config-APIs,Windows-Identity-Foundation,Xps-Viewer -IncludeManagementTools -Verbose```
 
 > [!NOTE]
-> Some Windows features being installed are “Features On Demand (FOD)”, which are downloaded from Windows Update.  If the computer doesn’t have access to Windows Update, you can specify local installation files by adding the **Source** parameter and pointing to the \sources\sxs folder on the Windows Server installation media.  For example:   -Source D:\sources\sxs
+> Some Windows features being installed are “Features On Demand (FOD)”, which are downloaded from Windows Update.  If the computer doesn’t have access to Windows Update, you can specify local installation files by adding the **Source** parameter and pointing to the \sources\sxs folder on the Windows Server installation media.
+>
+> For example: -Source D:\sources\sxs
 
     
 ## Optional software supported in SharePoint Server 2019
@@ -193,21 +203,21 @@ In scenarios where installing prerequisites directly from the Internet is not po
     
 - [Windows Server 2016](https://www.microsoft.com/evalcenter/evaluate-windows-server-2016)
     
-- [Windows Server 2019]()
+- [Windows Server 2019](https://www.microsoft.com/evalcenter/evaluate-windows-server-2019)
     
 - [Office 365 Enterprise](https://go.microsoft.com/fwlink/p/?LinkId=258856)
     
 - [Microsoft SQL Server 2016](https://www.microsoft.com/evalcenter/evaluate-sql-server-2016) 
 
-- [Microsoft SQL Server 2017 RTM](https://www.microsoft.com/sql-server/sql-server-downloads)
+- [Microsoft SQL Server 2017 RTM](https://www.microsoft.com/evalcenter/evaluate-sql-server-2017-rtm)
     
 - [Microsoft .NET Framework version 4.7.2](https://www.microsoft.com/net/download/dotnet-framework-runtime)
     
 - [Microsoft WCF Data Services 5.6](https://go.microsoft.com/fwlink/p/?LinkId=320724 )
     
 - [Microsoft Information Protection and Control Client (MSIPC)](https://go.microsoft.com/fwlink/p/?LinkId=544913)
-    
-- [Microsoft SQL Server 2012 Service Pack 4 (SP4) Native Client (installs with Microsoft SQL Server 2012 Feature Pack)](https://www.microsoft.com/download/details.aspx?id=56040)
+   
+- [Microsoft SQL Server 2012 SP4 Feature Pack - Native Client \x64\sqlncli.msi](https://www.microsoft.com/download/details.aspx?id=56041
     
 - [Microsoft Sync Framework Runtime v1.0 SP1 (x64)](https://go.microsoft.com/fwlink/p/?LinkId=618411)
     
@@ -261,25 +271,25 @@ You can run prerequisiteinstaller.exe at a command prompt with the following opt
     
 The installer installs from the file that you specify in the command-line options described in the following list. In this list, < _file_> signifies the file from which you want to install. If you do not specify the < _file_> option, the installer downloads the file from the Internet and installs it. If the option does not apply to the current operating system, it is ignored.
   
-- **/SQLNCli:< _file_>** Install Microsoft SQL Server 2012 SP4 Native Client from <  _file_>.
+- **/SQLNCli:<_file_>** Install Microsoft SQL Server 2012 SP4 Native Client from <_file_>.
     
-- **/Sync:< _file_>** Install Microsoft Sync Framework Runtime SP1 v1.0 (x64) from <  _file_>.
+- **/Sync:<_file_>** Install Microsoft Sync Framework Runtime SP1 v1.0 (x64) from <_file_>.
     
-- **/AppFabric:< _file_>** Install Windows Server AppFabric from <  _file_> (AppFabric must be installed with the options /i CacheClient,CachingService,CacheAdmin /gac).
+- **/AppFabric:<_file_>** Install Windows Server AppFabric from <_file_> (AppFabric must be installed with the options /i CacheClient,CachingService,CacheAdmin /gac).
 
-- **/IDFX11:< _file_>** Install Microsoft Identity Extensions from <  _file_>.
+- **/IDFX11:<_file_>** Install Microsoft Identity Extensions from <_file_>.
    
-- **/MSIPCClient:< _file_>** Install Microsoft Information Protection and Control Client from <  _file_>.
+- **/MSIPCClient:<_file_>** Install Microsoft Information Protection and Control Client from <_file_>.
 
-- **/KB3092423:< _file_>** Install Cumulative Update Package 7 for Microsoft AppFabric 1.1 for Windows Server (KB3092423) from <  _file_>.
+- **/KB3092423:<_file_>** Install Cumulative Update Package 7 for Microsoft AppFabric 1.1 for Windows Server (KB3092423) from <_file_>.
     
-- **/WCFDataServices56:< _file_>** Install Microsoft WCF Data Services 5.6 from <  _file_>.
+- **/WCFDataServices56:<_file_>** Install Microsoft WCF Data Services 5.6 from <_file_>.
     
-- **/DotNet472:< _file_>**Install Microsoft .NET Framework 4.7.2 from < _file_>.
+- **/DotNet472:<_file_>** Install Microsoft .NET Framework 4.7.2 from <_file_>.
     
-- **/MSVCRT11:< _file_>** Install Visual C++ Redistributable Package for Visual Studio 2012 from <  _file_>.
+- **/MSVCRT11:<_file_>** Install Visual C++ Redistributable Package for Visual Studio 2012 from <_file_>.
 
-- /MSVCRT141:<_file_> Install Visual C++ Redistributable Package for Visual Studio 2017 from < _file_>.
+- **/MSVCRT141:<_file_>** Install Visual C++ Redistributable Package for Visual Studio 2017 from <_file_>.
     
    
 ### Installation options
@@ -295,5 +305,3 @@ Certain prerequisites are installed by the prerequisite installer with specific 
     /quiet
     
 The prerequisite installer creates log files at %TEMP%\prerequisiteinstaller.\<date\>.\<time\>.log. You can check these log files for specific details about all changes the installer makes to the target computer.
-  
-

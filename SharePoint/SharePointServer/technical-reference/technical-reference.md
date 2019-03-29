@@ -26,17 +26,17 @@ The following articles provide information about reference content for SharePoin
 
 The following technical reference articles about SharePoint Server are available to view online. Writers update articles on a continuing basis as new information becomes available and as users provide feedback.
   
-|**        ![Behind the scenes icon](../media/mod_icon_behindscenes.PNG)                 **|**Content**|**Description**|
-|:-----|:-----|:-----|
-||[Microsoft PowerShell for SharePoint Server](http://technet.microsoft.com/library/93ca2966-8000-498d-8539-83c59ddad4d8.aspx) <br/> |Learn about how to use PowerShell to administer SharePoint Server.  <br/> |
-||[System Center Operations Manager knowledge articles for SharePoint Server](system-center-operations-manager-knowledge-articles.md) <br/> |Learn about resolving alerts from the Systems Center Operations Manager (SCOM) management pack.  <br/> |
-||[Database types and descriptions in SharePoint Server](database-types-and-descriptions.md) <br/> |Learn about the databases that support SharePoint Server.  <br/> |
-||[Timer job reference for SharePoint Server](timer-job-reference-for-sharepoint-server.md) <br/> |Learn about the default timer jobs for SharePoint Server 2019, SharePoint Server 2016, and SharePoint 2013.  <br/> |
-||[Search technical reference for SharePoint Server](search-technical-reference.md) <br/> |Learn about default crawled file name extensions and parsed file types, default crawled and managed properties, default connectors and linguistics features per language for search.  <br/> |
-||[Publishing technical reference for SharePoint Server](publishing-technical-reference.md) <br/> |Learn about SharePoint Server 2013 publishing sites.  <br/> |
-||[Stsadm to Microsoft PowerShell mapping in SharePoint Server](stsadm-to-microsoft-powershell-mapping.md) <br/> |Learn about Stsadm operations and their equivalent PowerShell cmdlets.  <br/> |
-||[Display template reference in SharePoint Server](display-template-reference-in-sharepoint-server.md) <br/> |Learn about different display templates available in SharePoint Server 2013.  <br/> |
-||[Index of Microsoft PowerShell cmdlets for SharePoint Server](http://technet.microsoft.com/library/f049a805-767c-41a8-b43e-c736a9979520.aspx) <br/> |Displays a listing of Microsoft PowerShell cmdlets for SharePoint Server.  <br/> |
+|**Content**|**Description**|
+|:-----|:-----|
+|[Microsoft PowerShell for SharePoint Server](/powershell/module/sharepoint-server/?view=sharepoint-ps) <br/> |Learn about how to use PowerShell to administer SharePoint Server.  <br/> |
+|[System Center Operations Manager knowledge articles for SharePoint Server](system-center-operations-manager-knowledge-articles.md) <br/> |Learn about resolving alerts from the Systems Center Operations Manager (SCOM) management pack.  <br/> |
+|[Database types and descriptions in SharePoint Server](database-types-and-descriptions.md) <br/> |Learn about the databases that support SharePoint Server.  <br/> |
+|[Timer job reference for SharePoint Server](timer-job-reference-for-sharepoint-server.md) <br/> |Learn about the default timer jobs for SharePoint Server 2019, SharePoint Server 2016, and SharePoint 2013.  <br/> |
+|[Search technical reference for SharePoint Server](search-technical-reference.md) <br/> |Learn about default crawled file name extensions and parsed file types, default crawled and managed properties, default connectors and linguistics features per language for search.  <br/> |
+|[Publishing technical reference for SharePoint Server](publishing-technical-reference.md) <br/> |Learn about SharePoint Server 2013 publishing sites.  <br/> |
+|[Stsadm to Microsoft PowerShell mapping in SharePoint Server](stsadm-to-microsoft-powershell-mapping.md) <br/> |Learn about Stsadm operations and their equivalent PowerShell cmdlets.  <br/> |
+|[Display template reference in SharePoint Server](display-template-reference-in-sharepoint-server.md) <br/> |Learn about different display templates available in SharePoint Server 2013.  <br/> |
+|[Index of Microsoft PowerShell cmdlets for SharePoint Server](/powershell/module/sharepoint-server/?view=sharepoint-ps) <br/> |Displays a listing of Microsoft PowerShell cmdlets for SharePoint Server.  <br/> |
    
 ## See also
 

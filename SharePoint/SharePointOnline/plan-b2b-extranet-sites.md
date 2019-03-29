@@ -10,7 +10,8 @@ ms.service: sharepoint-online
 localization_priority: Normal
 ms.collection:
 - IT_SharePoint_Hybrid
-- Strat_OD_share
+- Strat_OD_share 
+- M365-collaboration
 search.appverid:
 - SPO160
 - MET150
@@ -48,7 +49,7 @@ See [Securing a SharePoint Online extranet site](secure-extranet-site.md) for de
   
 ## Assigning licenses to partner users
 
-Guest user accounts have limited capabilities in SharePoint Online. See [Manage external sharing for your SharePoint Online environment](external-sharing-overview.md) for details on those features and what additional capabilities can be provided. If you determine that your partner users need additional functionality, such as the ability to create team sites, you can [assign SharePoint Online licenses to these user accounts](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
+Guest user accounts have limited capabilities in SharePoint Online. See [Manage external sharing for your SharePoint Online environment](external-sharing-overview.md) for details on those features and what additional capabilities can be provided. If you determine that your partner users need additional functionality, such as the ability to create team sites, you can [assign SharePoint Online licenses to these user accounts](/office365/admin/subscriptions-and-billing/assign-licenses-to-users).
   
 > [!NOTE]
 > Assigning an Exchange Online license to guest partner users is not supported. 
@@ -57,7 +58,7 @@ Guest user accounts have limited capabilities in SharePoint Online. See [Manage 
 
 The **Office 365 activity report** in the Office 365 Compliance Center is used to view Office 365 user and admin activity within your company. The report can be filtered by date and user activity events to monitor SharePoint Online extranet invitation status, who has sent invitations, and who has accepted. 
   
-To monitor the status of your extranet account invitations, including changes to the domain allow or deny list; who sent a sharing invitation, requested it, and if it was accepted, revoked or expired, see [Search the audit log in the Office 365 Security &amp; Compliance Center](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c).
+To monitor the status of your extranet account invitations, including changes to the domain allow or deny list; who sent a sharing invitation, requested it, and if it was accepted, revoked or expired, see [Search the audit log in the Office 365 Security &amp; Compliance Center](/office365/securitycompliance/search-the-audit-log-in-security-and-compliance).
   
  **Example 1:**
   
@@ -78,7 +79,7 @@ When a contract with a business partner ends, it is important that you remove an
   
 - **Remove permissions** - Remove permissions from the partner users accounts that allowed access to the site(s). This can be done by either removing the security group of which they were a member, or by removing their user identity from the **Site Settings** \> **Site Permissions** \> **Members** page. 
     
-- **Delete partner user accounts** - Delete the partner users from Office 365 provided they no longer need access to any other resources in your organization. See [Delete a user from your organization](https://support.office.com/article/d5155593-3bac-4d8d-9d8b-f4513a81479e).
+- **Delete partner user accounts** - Delete the partner users from Office 365 provided they no longer need access to any other resources in your organization. See [Delete a user from your organization](/office365/admin/add-users/delete-a-user).
     
 - **Archive** - Archive the site that you created for your partner in SharePoint Online. 
     
@@ -91,5 +92,5 @@ When a contract with a business partner ends, it is important that you remove an
   
 [Organizational relationships in Exchange Server](https://go.microsoft.com/fwlink/?linkid=2003469)
   
-[Allow users to contact external Skype for Business users](https://support.office.com/article/b414873a-0059-4cd5-aea1-e5d0857dbc94)
+[Allow users to contact external Skype for Business users](/SkypeForBusiness/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users)
 

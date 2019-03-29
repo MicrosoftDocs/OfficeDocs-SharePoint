@@ -127,7 +127,7 @@ Depending upon authentication requirements, custom code may be required. When us
 > [!NOTE]
 > The previous considerations are valid for both single-tenant per farm and multi-tenant per farm. 
   
-For additional information about SAML authentication and FBA authentication in SharePoint Server 2013, see [Configure SAML-based claims authentication with AD FS in SharePoint Server](https://technet.microsoft.com/library/cb9ade1e-a3a1-4d99-a100-0b451f8272ea) and [Configure forms-based authentication for a claims-based web application in SharePoint Server](https://technet.microsoft.com/library/fd1391bb-c787-4742-b007-bf57e18dad66).
+For additional information about SAML authentication and FBA authentication in SharePoint Server 2013, see [Configure SAML-based claims authentication with AD FS in SharePoint Server](/sharepoint/security-for-sharepoint-server/security-for-sharepoint-server) and [Configure forms-based authentication for a claims-based web application in SharePoint Server](/sharepoint/security-for-sharepoint-server/security-for-sharepoint-server).
   
 #### The Tenant Administrator Experience
 

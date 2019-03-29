@@ -58,13 +58,13 @@ You can use PowerShell to back the User Profile service application manually or 
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 2013 Products cmdlets. 
     
     > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
 3. At the PowerShell command prompt, type the following command:
     
-   ```
+   ```powershell
    Backup-SPFarm -Directory <BackupFolder> -BackupMethod Full -Item Farm\Shared Services\Shared Service Applications\<ServiceApplicationName> [-Verbose]
    ```
 
@@ -80,7 +80,7 @@ You can use PowerShell to back the User Profile service application manually or 
   
 4. You must also back up the service application proxy. To do this, at the PowerShell command prompt, type the following command:
     
-   ```
+   ```powershell
    Backup-SPFarm -Directory <BackupFolder> -BackupMethod Full -Item Farm\Shared Services\Shared Service Proxies\<ServiceApplicationProxyName > [-Verbose]
    ```
 
@@ -90,7 +90,7 @@ You can use PowerShell to back the User Profile service application manually or 
     
    -  _\<ServiceApplicationProxyName\>_ is the name of the User Profile Service service application proxy that you want to back up. 
     
-For more information, see [Backup-SPFarm](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Backup-SPFarm?view=sharepoint-ps). 
+For more information, see [Backup-SPFarm](/powershell/module/sharepoint-server/Backup-SPFarm?view=sharepoint-ps). 
   
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
@@ -179,5 +179,5 @@ You cannot back up the whole User Profile service application or service applica
 [Restore service applications in SharePoint Server](restore-a-service-application.md)
 #### Other Resources
 
-[Windows PowerShell for SharePoint Server reference](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/?view=sharepoint-ps)
+[Windows PowerShell for SharePoint Server reference](/powershell/module/sharepoint-server/?view=sharepoint-ps)
 

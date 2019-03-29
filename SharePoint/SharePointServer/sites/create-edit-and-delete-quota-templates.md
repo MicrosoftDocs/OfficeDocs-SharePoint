@@ -159,13 +159,13 @@ If a site collection is close to exceeding its storage limits and you want to in
     
 ### To change the quota template for a site collection by using Microsoft PowerShell
 
-1. Verify that you meet the following minimum requirements: See [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/add-spshelladmin).
+1. Verify that you meet the following minimum requirements: See [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
     
 2. Open the SharePoint Management Shell.
     
 3. At the Microsoft PowerShell command prompt, type the following command:
     
-   ```
+   ```powershell
    Set-SPSite -Identity "<Site>" -QuotaTemplate "<Template>"
    ```
 
@@ -175,7 +175,7 @@ If a site collection is close to exceeding its storage limits and you want to in
     
    -  _\<Template\>_ is the name or GUID of the replacement quota template. 
     
-For more information, see [Set-SPSite](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/set-spsite?view=sharepoint-ps). 
+For more information, see [Set-SPSite](/powershell/module/sharepoint-server/set-spsite?view=sharepoint-ps). 
 
 We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions.
   
@@ -212,13 +212,13 @@ Use these procedures to change the storage limits for a site collection.
     
 ### To change the storage limits for a site collection by using PowerShell
 
-1. Verify that you meet the following minimum requirements: See [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/add-spshelladmin).
+1. Verify that you meet the following minimum requirements: See [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
     
 2. Open the SharePoint Management Shell.
     
 3. At the Microsoft PowerShell command prompt, type the following command:
     
-   ```
+   ```powershell
    Set-SPSite -Identity "<Site>" -MaxSize <Limit>
    ```
 
@@ -231,7 +231,7 @@ Use these procedures to change the storage limits for a site collection.
     > [!NOTE]
     > The new storage limit overrides the limit set in the quota template that is currently applied to the site collection. 
   
-    For more information, see [Set-SPSite](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/set-spsite?view=sharepoint-ps).
+    For more information, see [Set-SPSite](/powershell/module/sharepoint-server/set-spsite?view=sharepoint-ps).
     
     For information about how to use PowerShell and the SharePoint object model to set the maximum usage per day and the warning level threshold for sandboxed solutions, see "Using Windows PowerShell for Administration" in [Chapter 4: Sandboxed Solutions](https://go.microsoft.com/fwlink/p/?LinkId=219528), an excerpt from the book  *Inside Microsoft SharePoint 2010*  on MSDN. 
     

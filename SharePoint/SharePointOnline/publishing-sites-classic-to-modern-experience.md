@@ -6,22 +6,27 @@ manager: pamgreen
 ms.audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
-search.appverid: MET150
 localization_priority: Priority
+ms.collection:  
+- Strat_SP_modern
+- M365-collaboration
+search.appverid:
+- SPO160
+- MET150
 description: "Learn about how to move from publising sites to communication sites in the SharePoint modern experience"
-...
+---
 
 # Moving from Publishing sites to Communication sites
 
 Being able to communicate broadly using attractive sites and pages is a key feature of organization intranets. For example, you might have an HR department home page that serves up important communication to hundreds or thousands of employees.
 
-In the modern experience, Communication sites fulfill the same purpose as traditional publishing sites: to communicate broadly to a large audience while maintaining a level of control on the creation side. Communication sites support most of the same scenarios as publishing sites, and more capabilities are coming soon. Best of all, Communication sites are easier to build and maintain, and include new features such as a modern authoring canvas. They allow you to share news, reports, statuses, and other information in a visually compelling format. To sum up: you can quickly create beautiful pages that look great on mobile devices and that are accessible by default - all without heavy developer investment.
+In the modern experience, Communication sites fulfill the same purpose as traditional publishing sites: to communicate broadly to a large audience while maintaining a level of control on the creation side. Communication sites support most of the same scenarios as publishing sites, and more capabilities are coming soon. Best of all, Communication sites are easier to build and maintain, and include new features such as a modern authoring canvas. They allow you to share news, reports, statuses, and other information in a visually compelling format. To sum up: you can quickly create beautiful pages that look great on mobile devices and that are accessible by default - all without heavy developer investment. You can get inspired with some great examples in the [SharePoint Lookbook](https://sharepointlookbook.azurewebsites.net/).
 
 Traditionally, sites and pages like this have been designed and built using the publishing features of SharePoint – either team sites with publishing enabled, or fully structured publishing sites. You could specify page layouts, design pages, and set up content approval workflows. Publishing features allowed for a tight level of control by a small number of people while allowing broad communication to many people. But with traditional design and deployment of publishing sites, developer involvement is usually required for customization of site functionality, navigation elements, and included investment in master pages, CSS, JavaScript, and web parts. Additionally, traditional site types designed for a PC browser may not work well or look attractive on mobile devices, and design and development efforts are needed to provide proper interaction with tools like screen readers or high-contrast color schemes. With all this, it commonly takes more time and resourcing to build, test and deploy when using the classic publishing infrastructure.
 
+So, how you do move from publishing sites to communication sites? First, know that you don't have to change all of your site collections and sites at once. If you have a very large collection of publishing sites, you can gradually begin using modern sites, pages, and web parts. For example, you can start with creating one or more new Communication sites as home pages for existing sites. If you have several departments in your organization, you can create modern sites and implement modern features one department at a time. You can choose a strategy that works best for the size and scale for your organization. To help with determining your strategy, you can use the SharePoint Modernization scanner tool to find out which classic publishing features are used in your organization or in a subset of site collections. Find this tool and more information about it in [Modernize classic publishing portals.](/sharepoint/dev/transform/modernize-publishing-portal)
 
-
-So, how you do move from publishing sites to communication sites? Here are some areas to consider:
+When you are ready to begin creating new Communication sites and using modern features, here are some areas to consider:
 
 -   [Structure and navigation](#structure-and-navigation-use-a-hub-site)
 
@@ -37,7 +42,7 @@ So, how you do move from publishing sites to communication sites? Here are some 
 
 -   [Audience targeting](#audience-targeting)
 
-Additionally, the SharePoint Modernization scanner is a tool that you can use to find out which classic publishing features are used in your tenant or in a subset of site collections. Find this tool and more information about it in [Modernize classic publishing portals.](https://docs.microsoft.com/en-us/sharepoint/dev/transform/modernize-publishing-portal)
+
 
 ## Structure and navigation – use a hub site
 
@@ -61,7 +66,7 @@ This structure is no longer hierarchical in the technical sense. Instead, it is 
 
 The best part about hub sites is that they are so flexible. As your organization changes, your intranet organization can change just as quickly, just by associating or disassociating a site.
 
-To learn more about planning hub sites, see [Planning your SharePoint hub sites.](https://docs.microsoft.com/en-us/sharepoint/planning-hub-sites) To create a hub site, see [Create a hub site](https://docs.microsoft.com/en-us/sharepoint/create-hub-site). To learn more about navigation options and planning, see [Planning navigation for modern SharePoint](plan-navigation-modern-experience.md).
+To learn more about planning hub sites, see [Planning your SharePoint hub sites.](/sharepoint/planning-hub-sites) To create a hub site, see [Create a hub site](/sharepoint/create-hub-site). To learn more about navigation options and planning, see [Planning navigation for modern SharePoint](plan-navigation-modern-experience.md).
 
 ## Branding and site design
 
@@ -72,7 +77,7 @@ To learn more about branding options, see [Branding your SharePoint Online site]
 
 ### Classic site templates and modern site designs
 
-[*SharePoint Online handles branding differently*](https://docs.microsoft.com/sharepoint/dev/transform/modernize-branding) for classic site templates like the publishing site. Instead of a site template, Communication sites have three out-of-the-box layout designs: Topic and Showcase, and one open layout: Blank.
+[*SharePoint Online handles branding differently*](/sharepoint/dev/transform/modernize-branding) for classic site templates like the publishing site. Instead of a site template, Communication sites have three out-of-the-box layout designs: Topic and Showcase, and one open layout: Blank.
 
 When you [create a Communication site in SharePoint Online](https://support.office.com/en-us/article/create-a-communication-site-in-sharepoint-online-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb), you can start with a blank site or choose one of the other site designs, each of which comes with a default set of [web parts](https://support.office.com/en-us/article/using-web-parts-on-sharepoint-online-pages-336e8e92-3e2d-4298-ae01-d404bbe751e0). The options available are:
 
@@ -84,7 +89,7 @@ When you [create a Communication site in SharePoint Online](https://support.offi
 
 > ![Types of communication sites](media/publishing-sites-classic-to-modern-experience_image3.png)
 
-If you want more customized branding and theming applied to each new site, you can use site designs with site scripts to provide custom configurations to apply when new sites are created. They can be used each time a new site is created to apply a consistent set of actions. Common site design actions typically affect the site itself, such as setting the theme or logo, creating lists, or configuration navigation. You can find more information on how to use site designs and scripts at [SharePoint site design and site script overview](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/site-design-overview).
+If you want more customized branding and theming applied to each new site, you can use site designs with site scripts to provide custom configurations to apply when new sites are created. They can be used each time a new site is created to apply a consistent set of actions. Common site design actions typically affect the site itself, such as setting the theme or logo, creating lists, or configuration navigation. You can find more information on how to use site designs and scripts at [SharePoint site design and site script overview](/sharepoint/dev/declarative-customization/site-design-overview).
 
 ## Pages
 
@@ -125,7 +130,7 @@ Content approval ensures that edits to pages meet company policies or standards.
 
 Scheduling content to “go live” at specific times is a feature of classic publishing sites. This capability is coming soon to the modern experience. Check the [Office 365 Roadmap](https://products.office.com/en-US/business/office-365-roadmap) for this and other features that are in development, rolling out, or launched.
 
-**Moving from classic to modern pages** At this time, there is not a way to change a classic page into a modern page without using a [multi-step code solution,](https://docs.microsoft.com/en-us/sharepoint/dev/transform/modernize-userinterface-site-pages) which may work well for IT Admins and developers. If you are neither of those, we recommend you gradually start planning for and creating modern pages as needed.
+**Moving from classic to modern pages** At this time, there is not a way to change a classic page into a modern page without using a [multi-step code solution,](/sharepoint/dev/transform/modernize-userinterface-site-pages) which may work well for IT Admins and developers. If you are neither of those, we recommend you gradually start planning for and creating modern pages as needed.
 
 If you are using a classic publishing site, you should know that it is possible to create modern pages in a classic publishing site, but there is not an automated way to move from a publishing site to a communication site. To move to a communication site, we recommend you begin creating modern pages in a new communication site rather than in a classic publishing site.
 
@@ -141,7 +146,7 @@ Important: Classic web parts cannot be used on modern pages and modern out-of-th
 
 To learn about all of the modern web parts, see [Using web parts on SharePoint Online pages](https://support.office.com/en-us/article/using-web-parts-on-sharepoint-online-pages-336e8e92-3e2d-4298-ae01-d404bbe751e0). To learn about modern web parts that have similar purposes to classic web parts, see [Classic and modern web part experiences](https://support.office.com/en-us/article/classic-and-modern-web-part-experiences-3fdae6c3-8fc1-49ab-8708-8c104b882e64).
 
-For developers, the [SharePoint Framework](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview) allows for the building of custom modern web parts that appear alongside out-of-the-box web parts in the web part toolbox. The SharePoint Framework also allows for custom extensions, the [use of the Microsoft Graph API](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/use-aad-tutorial), as well as [secure access to 3^rd^ party solutions and API’s secured by Azure Active Directory](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/use-aadhttpclient). Developers are encouraged to consult the [SharePoint starter kit](https://github.com/SharePoint/sp-starter-kit), where you'll find a fully built sample solution that includes numerous web parts, extensions, and other components that you can use as an example and inspiration for your own customizations. Additionally, you can find design guidance and standards for web parts and at [Designing great SharePoint experiences](https://docs.microsoft.com/en-us/sharepoint/dev/design/design-guidance-overview).
+For developers, the [SharePoint Framework](/sharepoint/dev/spfx/sharepoint-framework-overview) allows for the building of custom modern web parts that appear alongside out-of-the-box web parts in the web part toolbox. The SharePoint Framework also allows for custom extensions, the [use of the Microsoft Graph API](/sharepoint/dev/spfx/use-aad-tutorial), as well as [secure access to third party solutions and API’s secured by Azure Active Directory](/sharepoint/dev/spfx/use-aadhttpclient). Developers are encouraged to consult the [SharePoint starter kit](https://github.com/SharePoint/sp-starter-kit), where you'll find a fully built sample solution that includes numerous web parts, extensions, and other components that you can use as an example and inspiration for your own customizations. Additionally, you can find design guidance and standards for web parts and at [Designing great SharePoint experiences](/sharepoint/dev/design/design-guidance-overview).
 
 ### Web parts unique to publishing sites
 

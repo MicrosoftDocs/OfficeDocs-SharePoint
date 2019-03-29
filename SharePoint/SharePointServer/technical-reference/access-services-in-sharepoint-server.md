@@ -3,7 +3,6 @@ title: "Access Services in SharePoint Server knowledge articles"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 2/22/2018
 ms.audience: ITPro
 ms.topic: troubleshooting
 ms.prod: sharepoint-server-itpro
@@ -17,11 +16,26 @@ description: "Learn how to resolve alerts about Access Services in the SharePoin
 
 # Access Services in SharePoint Server knowledge articles
 
-[!INCLUDE[appliesto-2013-2016-xxx-xxx-md](../includes/appliesto-2013-2016-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-xxx-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
 
-Learn how to resolve alerts about Access Services in the SharePoint Server 2016 and SharePoint Server 2013 management pack for Systems Center Operations Manager (SCOM).
+Learn how to resolve alerts about Access Services in the SharePoint Servers 2019, 2016 and 2013 management pack for Systems Center Operations Manager (SCOM).
   
-The articles in this section are knowledge articles for Access Services in SharePoint Server. Typically, you would see these articles after clicking a link in an alert in the Operations Manager console. You can use these articles to help you troubleshoot and resolve problems in Access Services in SharePoint Server. Download and install [System Center Monitoring Pack for SharePoint Server 2016](http://go.microsoft.com/fwlink/?LinkID=746863&amp;clcid=0x409), [System Center Monitoring Pack for SharePoint Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=272568), or [System Center Monitoring Pack for SharePoint Foundation](http://go.microsoft.com/fwlink/p/?LinkId=272567).
+The articles in this section are knowledge articles for Access Services in SharePoint Server. Typically, you would see these articles after clicking a link in an alert in the Operations Manager console. You can use these articles to help you troubleshoot and resolve problems in Access Services in SharePoint Server.
+
+> [!NOTE]
+>  Access Services 2010 and 2013 are deprecated but will remain supported for SharePoint Server 2019. We recommend to explore Microsoft [PowerApps](https://powerapps.microsoft.com/) and [Flows](http://flow.microsoft.com/) as potential alternatives to Access Services 2010 and 2013.
+
+Download and install:
+
+- [System Center Management Pack for SharePoint Server 2019](https://www.microsoft.com/en-us/download/details.aspx?id=57776)
+
+- [System Center Monitoring Pack for SharePoint Server 2016](http://go.microsoft.com/fwlink/?LinkID=746863&amp;clcid=0x409) 
+
+- [System Center Monitoring Pack for SharePoint Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=272568) 
+
+- [System Center Monitoring Pack for SharePoint Foundation 2013](https://go.microsoft.com/fwlink/p/?LinkId=272567)
+
+Use the following information to resolve the Access Services error messages:
   
 - [No application info from content database](#NoAppInfo)
     
@@ -128,11 +142,11 @@ No SQL database servers are configured for Access to provision new databases.
     
 ### Related topics
 
-[Get-SPAccessServicesDatabaseServerGroupMapping](http://technet.microsoft.com/library/2f5ccb65-cd38-446d-91df-a872f735f293.aspx)
+[Get-SPAccessServicesDatabaseServerGroupMapping](/powershell/module/sharepoint-server/Get-SPAccessServicesDatabaseServerGroupMapping?view=sharepoint-ps)
   
-[Get-SPAccessServicesDatabaseServerGroup](http://technet.microsoft.com/library/a8c1d550-1a00-47dc-a31d-7833b7ab0f05.aspx)
+[Get-SPAccessServicesDatabaseServerGroup](/powershell/module/sharepoint-server/Get-SPAccessServicesDatabaseServerGroup?view=sharepoint-ps)
   
-[Get-SPAccessServicesDatabaseServer](http://technet.microsoft.com/library/a1aa90e1-04b6-4e4b-8237-74876c4c6507.aspx)
+[Get-SPAccessServicesDatabaseServer](/powershell/module/sharepoint-server/Get-SPAccessServicesDatabaseServer?view=sharepoint-ps)
   
 ## Partitioned SSS communication failure
 <a name="SSSFail"> </a>
@@ -326,7 +340,7 @@ Use  `new-SPAccessServicesApplicationProxy` to create a new default proxy.
   
 ### Related topics
 
-[New-SPAccessServicesApplication](http://technet.microsoft.com/library/2866e9dd-61df-4e45-a0ce-23d9ff0583cc.aspx)
+[New-SPAccessServicesApplication](/powershell/module/sharepoint-server/New-SPAccessServicesApplication?view=sharepoint-ps)
   
 ## Failed to register database server
 <a name="NoDBServ"> </a>

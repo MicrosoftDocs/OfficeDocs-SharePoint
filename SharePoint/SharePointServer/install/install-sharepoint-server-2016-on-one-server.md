@@ -12,6 +12,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 - Strat_SP_server
+- SP2019
 ms.custom: 
 ms.assetid: 356d3a0b-fc26-455c-9afb-6d2ffdceef84
 description: "Learn how to install SharePoint Server on a single server."

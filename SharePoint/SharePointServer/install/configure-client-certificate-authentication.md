@@ -47,11 +47,11 @@ The following topics explain how to configure SharePoint Server with client cert
     
 2. Configure SharePoint Server to support SAML-based claims authentication using AD FS.
     
-    For more information, see [Configure SAML-based claims authentication with AD FS in SharePoint Server](http://technet.microsoft.com/library/cb9ade1e-a3a1-4d99-a100-0b451f8272ea%28Office.14%29.aspx) and [Improved interiperability with SAML 2.0](https://go.microsoft.com/fwlink/?linkid=865442).
+    For more information, see [Configure SAML-based claims authentication with AD FS in SharePoint Server](/previous-versions/office/sharepoint-server-2010/hh305235(v=office.14)) and [Improved interoperability with SAML 2.0](https://go.microsoft.com/fwlink/?linkid=865442).
     
 3. Create a web application that uses SAML-based claims authentication.
     
-    For more information, see [Create claims-based web applications in SharePoint Server](http://technet.microsoft.com/library/83496762-172a-44a4-bf57-1d7ea8008d7d%28Office.14%29.aspx).
+    For more information, see [Create claims-based web applications in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806885(v=office.14)).
     
 > [!NOTE]
 > These steps will be similar for a third-party STS. 
@@ -60,7 +60,7 @@ The following topics explain how to configure SharePoint Server with client cert
 
 #### Other Resources
 
-[Configure SAML-based claims authentication with AD FS in SharePoint Server](http://technet.microsoft.com/library/cb9ade1e-a3a1-4d99-a100-0b451f8272ea%28Office.14%29.aspx)
+[Configure SAML-based claims authentication with AD FS in SharePoint Server](/previous-versions/office/sharepoint-server-2010/hh305235(v=office.14))
   
 [Planning and Architecture: AD FS 2.0](https://go.microsoft.com/fwlink/p/?LinkId=212521)
   

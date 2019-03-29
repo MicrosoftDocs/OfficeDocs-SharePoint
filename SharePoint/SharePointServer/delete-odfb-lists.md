@@ -15,11 +15,11 @@ description: "Learn about deleting OneDrive for Business experience settings."
 
 The recommended way to delete all OneDrive for Business experience settings and information is to remove the user's OneDrive for Business site, after reassigning any retained files to other users.
 
-An admin can delete these lists by using [PowerShell Script](https://docs.microsoft.com/en-us/powershell/scripting/powershell-scripting?view=powershell-6) and [SharePoint Client-Side Object Model (CSOM)](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/complete-basic-operations-using-sharepoint-client-library-code) commands. All of the needed CSOM assemblies are included in the SharePointPnPPowerShellOnline Microsoft PowerShell module.
+An admin can delete these lists by using [PowerShell Script](/powershell/scripting/powershell-scripting?view=powershell-6) and [SharePoint Client-Side Object Model (CSOM)](/sharepoint/dev/sp-add-ins/complete-basic-operations-using-sharepoint-client-library-code) commands. All of the needed CSOM assemblies are included in the SharePointPnPPowerShellOnline Microsoft PowerShell module.
 
 You can adapt the script included in this article to meet the your needs. For example, you can extract the information for user1@contoso.com as follows:
 
-1.	Assign yourself permissions to the user's OneDrive for Business account. This can be done in the Office 365 admin center as described here.
+1.	Assign yourself permissions to the user's OneDrive for Business account. This can be done in the Microsoft 365 admin center as described here.
 
 2.  Install the required Microsoft PowerShell modules:
 

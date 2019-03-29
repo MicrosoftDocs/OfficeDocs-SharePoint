@@ -89,5 +89,5 @@ The Secure Store Service is a claims-aware service. It can accept security token
 
 #### Other Resources
 
-[Configure the Secure Store Service in SharePoint Server](https://technet.microsoft.com/library/29c0bc76-d835-401b-a2fb-abb069e84125)
+[Configure the Secure Store Service in SharePoint Server](/SharePoint/administration/configure-the-secure-store-service)
 
