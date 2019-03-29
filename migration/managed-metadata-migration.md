@@ -32,7 +32,7 @@ The SharePoint Migration Tool supports having only **one** Managed Metadata Serv
 **Likely cause:** More than one term store is set as default.
 
 **Action:**  
-- If you want to migrate a Managed Metadata Service (MMS), set it as the default. 
+- If you want to migrate a Managed Metadata Service (MMS) term store, set it as the default. 
 - If you have more than one MMS, decide on the the one you want to migrate and set it as the default. Remove the default setting from all others.
 
 
