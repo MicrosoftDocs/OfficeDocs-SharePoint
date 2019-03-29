@@ -33,7 +33,7 @@ The SharePoint Migration Tool supports having only **one** Managed Metadata Serv
 
 **Action:**  
 - If you want to migrate a Managed Metadata Service (MMS), set it as the default. 
-- If you have more than one MMS, decide on the the one you want to migrate and set is as the default. Remove the default setting all others.
+- If you have more than one MMS, decide on the the one you want to migrate and set it as the default. Remove the default setting from all others.
 
 
 
@@ -43,7 +43,7 @@ The SharePoint Migration Tool supports having only **one** Managed Metadata Serv
 2. Find the managed metadata service connection for the service application that you want to configure. (Look for Managed Metadata Service Connection in the Type column.)
 3. Highlight that row, and then click Properties.
 4. Set the default site collection term store by selecting **This is the default storage location for column specific term sets**.</br>
-
+</br></br>
  ![Default site collection term store](media/managed-metadata-issue1.png)
 
 To learn more:</br></br>
