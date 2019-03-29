@@ -27,7 +27,7 @@ The SharePoint Migration Tool supports having only **one** Managed Metadata Serv
 
 ## Troubleshooting
 
-**Symptom:**  Your term term store and its content (term groups/terms sets/terms) fails to migrate.  
+**Symptom:**  Your Managed Metadata term store and its content (term groups/terms sets/terms) fails to migrate.  
 
 **Likely cause:** More than one term store is set as default.
 
