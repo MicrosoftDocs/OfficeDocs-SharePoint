@@ -26,7 +26,7 @@ The amount of SharePoint Online space your organization has is based on your num
 ## Set automatic or manual site storage limits
 <a name="__toc365547981"> </a>
 
-By default, your SharePoint storage is available in a central pool from which all sites can draw. You, as a global or SharePoint admin, don't need to divvy up storage space or reallocate space based on usage. That's all handled automatically: sites use what they need when they need it, up to a maximum of 25 terabytes (TB) per site (previously called "site collection"). If you previously set storage limits manually and switch to using pooled storage, SharePoint resets all the limits to 1 TB. 
+By default, your SharePoint storage is available in a central pool from which all sites can draw. You, as a global or SharePoint admin, don't need to divvy up storage space or reallocate space based on usage. That's all handled automatically: sites use what they need when they need it, up to a maximum of 25 terabytes (TB) per site (previously called "site collection"). If you previously set storage limits manually and switch to using pooled storage, SharePoint resets all the limits to 25 TB. 
 
 If you prefer to fine tune the storage space allocated to each site, you can set your storage management option to "manual" and specify individual site storage limits. 
   
