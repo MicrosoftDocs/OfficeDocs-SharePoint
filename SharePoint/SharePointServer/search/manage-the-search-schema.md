@@ -313,13 +313,16 @@ The following table provides an overview of the default unused managed propertie
 | :------------------------ | :-------- | :------------------------------------------------------- | :--------------------------------------- |
 | Date                      | 10        | Queryable                                                | Date00 to Date09                         |
 | Date                      | 20        | Multivalued, Queryable, Refinable, Sortable, Retrievable | RefinableDate00 to RefinableDate19       |
+| Date (SharePoint Server 2019) |  2    | Queryable, Refinable, Sortable, Retrievable              | RefinableDateInvariant00 to RefinableDateInvariant01 |
+| Date (SharePoint Server 2019) |  5    | Queryable, Refinable, Sortable, Retrievable              | RefinableDateSingle00 to RefinableDateSingle04 |
 | Decimal                   | 10        | Queryable                                                | Decimal00 to Decimal09                   |
 | Decimal                   | 10        | Multivalued, Queryable, Refinable, Sortable, Retrievable | RefinableDecimal00 to RefinableDecimal09 |
 | Double                    | 10        | Queryable                                                | Double00 to Double09                     |
 | Double                    | 10        | Multivalued, Queryable, Refinable, Sortable, Retrievable | RefinableDouble00 to RefinableDouble09   |
 | Integer                   | 50        | Queryable                                                | Int00 to Int49                           |
 | Integer                   | 50        | Multivalued, Queryable, Refinable, Sortable, Retrievable | RefinableInt00 to RefinableInt49         |
-| String                    | 100       | Multivalued, Queryable, Refinable, Sortable, Retrievable | RefinableString00 to RefinableString99   |
+| String (SharePoint Server 2013) | 100 | Multivalued, Queryable, Refinable, Sortable, Retrievable | RefinableString00 to RefinableString99   |
+| String (SharePoint Server 2019) | 200 | Multivalued, Queryable, Refinable, Sortable, Retrievable | RefinableString00 to RefinableString199  |
    
  **How to use an Alias: an example**
   
@@ -352,5 +355,3 @@ Say that you want to create a managed property that contains employee numbers, a
 | Sortable                                | Enable (if not already Refinable) | Yes                                  |
 | Sortable                                | Disable                           | No                                   |
 | Alias                                   | Add/Delete                        | No                                   |
-   
-
