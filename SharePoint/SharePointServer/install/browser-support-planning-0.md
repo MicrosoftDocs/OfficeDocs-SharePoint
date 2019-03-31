@@ -102,7 +102,7 @@ For SharePoint Server 2016 and 2019, Browsers other than Internet Explorer 11 ha
 |PPActiveX  <br/> |PPSLAX.dll  <br/> |Starts PowerPoint to open presentations from a slide library or publish individual slides to a slide library.  <br/> | |Does not work on Click-to-Run installations of Office and version of Office that run on Windows for ARM.  <br/> |
 |BCSLauncher  <br/> |BCSLaunch.dll  <br/> |Starts the Visual Studio Tools for Office installer to install a Visual Studio Tools for Office package that has been generated on the server.  <br/> | ||
 
-Other functionality, such as **Form settings* in **List settings* only function with Internet Explorer.
+Other functionality, such as **Form settings** in **List settings* only function with Internet Explorer.
    
 ## Mobile browser support
 <a name="mobile"> </a>
