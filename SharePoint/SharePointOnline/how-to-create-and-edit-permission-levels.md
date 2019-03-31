@@ -38,21 +38,22 @@ You create and make changes to permission levels on the **Permissions Levels** p
   
 To create or make changes to permission levels, you must belong to a SharePoint group that includes the permission to Manage Permissions. By default, you have this permission if you belong to the Owners group or if you are a Site Collection Administrator.
   
-1. On the top-level site of the site collection, click **Settings**![Small Settings gear that took the place of Site Settings.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png) \> **Site Settings**.
+1. On the top-level site of the site collection, click **Settings**![Small Settings gear that took the place of Site Settings.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png).
+
+  * For a Classic site, click **Site Settings**. On the **Site Settings** page, in the **Users and Permissions** section, choose **Site permissions**.
+  * For a Modern site, click **Site Permissions** followed by **Advanced permissions settings**.
     
-2. On the **Site Settings** page, in the **Users and Permissions** section, choose **Site permissions**.
-    
-3. On the **Permissions** tab, in the Manage group, choose **Permission Levels**. 
+2. On the **Permissions** tab, in the Manage group, choose **Permission Levels**. 
     
     ![Choose Permission Levels page.](media/8cb4fa7f-d94f-4e15-b1c0-7f46e331bc02.jpg)
   
-4. On the **Permission Levels** page, choose **Add a Permission Level**. 
+3. On the **Permission Levels** page, choose **Add a Permission Level**. 
     
-5. On the **Add a Permission Level** page provide the name and the description. 
+4. On the **Add a Permission Level** page provide the name and the description. 
     
-6. In the **Permissions area**, select the check boxes next to the list, site, and personal permissions that you want this permission level to include.
+5. In the **Permissions area**, select the check boxes next to the list, site, and personal permissions that you want this permission level to include.
     
-7. Click **Create**.
+6. Click **Create**.
     
 You can make changes to any of the listed permissions levels, except **Full Control** and **Limited Access**.
   
