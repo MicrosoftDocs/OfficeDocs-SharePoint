@@ -14,7 +14,7 @@ description: "Learn how to implement best practice disaster recovery for search 
 
 # Disaster recovery best practices and strategies for SharePoint search
 
-[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]
 
 Learn how to implement best practice disaster recovery for search in a SharePoint Server farm.
   
