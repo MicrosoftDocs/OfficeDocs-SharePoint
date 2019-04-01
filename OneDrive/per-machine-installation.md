@@ -20,7 +20,7 @@ description: "Learn how to install the OneDrive sync client for every user accou
 
 # Install the sync client per machine (preview)
 
-By default, the OneDrive sync client installs per user, meaning OneDrive.exe needs to be installed for each user account on the PC under the %localappdata% folder. With the new per-machine installation option, you can install OneDrive under the “Program Files (x86)” directory, meaning all profiles on the computer will use the same OneDrive.exe binary. Other than where the sync client is installed, everything else stays the same.  
+By default, the OneDrive sync client installs per user, meaning OneDrive.exe needs to be installed for each user account on the PC under the %localappdata% folder. With the new per-machine installation option, you can install OneDrive under the “Program Files (x86)” directory, meaning all profiles on the computer will use the same OneDrive.exe binary. Other than where the sync client is installed, the behavior is the same.  
 
 The new per-machine sync client provides:
 
@@ -52,10 +52,10 @@ No, although a single version of OneDrive.exe is installed, a new process is cre
 **Will the same update rings apply to per-machine?** 
 If you selected the Insiders ring (via the [Windows Insider program](https://insider.windows.com/) or [Office Insider](https://products.office.com/office-insider) programs) or are in the default Production ring, you will continue to be in the same ring as before. 
  
-For the Enterprise ring, until recently, the group policy set a registry key under HKCU. If you have the HCKU version of the policy set, it will not be respected by the per-machine sync client. To select the Enterprise ring, you will need to use the HKLM policy, [Set the sync client update ring](use-group-policy.md#GPOSetUpdateRing), released with build 19.002.0107.0008. 
+In the past you may have used a user group policy (under HKCU) to select the Enterprise ring ([Receive OneDrive sync client updates on the Enterprise ring](https://docs.microsoft.com/en-us/OneDrive/use-group-policy#EnableEnterpriseUpdate)). This group policy will not work with the per-machine install. To select the ring, use the computer group policy (under HKLM) instead ([Set the sync client update ring](use-group-policy.md#GPOSetUpdateRing)).
 
 > [!NOTE]
-> We do not recommend selecting the Enterprise ring while this feature is in preview because you will not receive bug fixes for any issues we find until several months later.  
+> We do not recommend selecting the Enterprise ring while this feature is in preview because you will not receive bug fixes for any issues we find.  
  
 **Does the per-machine sync client follow the same update process/cadence as the per-user sync client?** 
 Yes, the per-machine sync client will auto-update on the same cadence as the per-user sync client and the same rings are supported (see question above). The [release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0) are the same. [More info about the sync client update process](sync-client-update-process.md)
