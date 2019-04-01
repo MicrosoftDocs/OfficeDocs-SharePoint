@@ -86,7 +86,7 @@ Review the details of the web browser that you have or plan to use in your organ
 
 Some functionality in SharePoint Server requires ActiveX controls. This produces limitations on browsers which do not support ActiveX. Currently only 32-bit versions of Internet Explorer support this functionality. In SharePoint Server 2016, all other supported browsers, including Microsoft Edge and the Immersive mode of Internet Explorer 10 have the following limitations. 
 
-For SharePoint Server 2016 and 2019, Browsers other than Internet Explorer 11 have the following limitations.
+For SharePoint Server 2016 and 2019, browsers other than Internet Explorer 11 have the following limitations.
   
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
