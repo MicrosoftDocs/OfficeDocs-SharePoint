@@ -37,7 +37,7 @@ Learn more:
   
 [What are the benefits](#BKMK_Benefits)
   
-[Which search experiences can you iffer with cloud hybrid search?](#BKMK_SearchExperiences)
+[Which search experiences can you offer with cloud hybrid search?](#BKMK_SearchExperiences)
   
 [Where do you manage cloud hybrid search?](#BKMK_WhereManage)
   
