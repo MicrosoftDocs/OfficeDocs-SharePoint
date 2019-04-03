@@ -118,7 +118,7 @@ By default, navigation links on modern SharePoint sites open as follows:
 
 -   **Link points to a document (same site or different site)**: Links open in a new tab
 
--   **Link points to an external (internet) site or document**: Links in a new tab
+-   **Link points to an external (internet) site or document**: Links open in a new tab
 
 In classic SharePoint sites with publishing features, you can choose to open navigation links in a new window. This allows you to consider the context for your site visitors and determine whether it might be helpful to open a link in a new window. There is no way to select how navigation links open in modern SharePoint sites. This means that your navigation links will follow most usability guidelines, but you will still want to be especially careful about the *labels* for navigation links to make sure that your visitors know that they are leaving your site context when they click the link. Make sure that the navigation label accurately describes the destination – a place on a completely different site or an application – and if you know that the back button may not work, consider using an alternative way to present the link, such as the text web part where you can open elect to open a link in a new window.
 
