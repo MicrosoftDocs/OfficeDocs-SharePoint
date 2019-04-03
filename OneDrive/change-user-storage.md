@@ -40,12 +40,12 @@ As a global or SharePoint admin in Office 365, you can set the OneDrive storage 
       Set-SPOSite -Identity <user's OneDrive URL> -StorageQuota <quota>
       ```
 
-      (Where  _\<user's OneDrive URL\>_ is the URL of the user's OneDrive and  _\<quota\>_ is the value in megabytes for the storage space. 
+      (Where  _\<user's OneDrive URL\>_ is the URL of the user's OneDrive and  _\<quota\>_ is the value in gigabytes for the storage space. 
       
       A user’s OneDrive URL is based on their username. For example,     
       https://microsoft-my.sharepoint.com/personal/user1_contoso_com. You can find their username on the Active users (or Deleted users) page in the Microsoft 365 admin center. 
 
-      For storage space, you would enter 1048576 for 1 TB or 5242880 for 5 TB. You can specify any value 1024 MB (1 GB) or greater, however, if you specify a value bigger than that allowed by a given user's license, that user's storage space will be rounded down to the maximum value allowed by their license. 
+      For storage space, you would enter 1000 for 1 TB or 5000 for 5 TB. You can specify any value 1 GB or greater, however, if you specify a value bigger than that allowed by a given user's license, that user's storage space will be rounded down to the maximum value allowed by their license. 
     
     > [!NOTE]
     > If you want to change the storage space for multiple users, you can use PowerShell to [Display a list of OneDrive accounts by using PowerShell](list-onedrive-urls.md). To disable OneDrive creation for specific users, see [Manage user profiles in the SharePoint admin center](/sharepoint/manage-user-profiles). 
