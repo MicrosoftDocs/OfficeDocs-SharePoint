@@ -449,7 +449,7 @@ If you enable this setting, the OneDrive sync client will automatically sync the
 
 If you disable this setting, team site libraries that you've specified won't be automatically synced for new users. Existing users can choose to stop syncing the libraries, but the libraries won't stop syncing automatically. 
 
-To configure the setting, in the Options box, click **Show**, and then enter the entire library ID (tenantId=xxx&siteId=xxx&webId=xxx&listId=xxx&webUrl=httpsxxx&version=1) in the **Value** field and a friendly name to identify the library in the **Value Name** field. 
+To configure the setting, in the Options box, click **Show**, and then enter a friendly name to identify the library in the **Value Name** field and the entire library ID (tenantId=xxx&siteId=xxx&webId=xxx&listId=xxx&webUrl=httpsxxx&version=1) in the **Value** field. 
 
 To find the library ID, sign in as a global or SharePoint admin in Office 365, browse to the library, and click the **Sync** button. In the "Starting sync" dialog box, click the **Copy library ID** link.
 
