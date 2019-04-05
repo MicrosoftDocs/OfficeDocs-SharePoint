@@ -92,7 +92,7 @@ Limiting access allows users to remain productive while addressing the risk of a
     
 5. Select **OK**.
     
-    ![The block access setting on the access control page](media/ea0ee472-6fde-4d2d-bc7b-9d3b9eee0d96.PNG)
+    ![The block access setting on the access control page](media/ea0ee472-6fde-4d2d-bc7b-9d3b9eee0d96.png)
   
 6. Go to the Azure AD admin center, and select **Azure Active Directory** in the left pane. 
 
