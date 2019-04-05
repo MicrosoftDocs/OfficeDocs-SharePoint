@@ -188,11 +188,10 @@ Help your users store, sync, and share work files in the cloud with OneDrive.
     
 - From your own OneDrive, click **OneDrive Admin** in the lower-left corner.
 
-\-or-
+    Or
+
+-  Go to https://admin.onedrive.com.
     
-- Go to https://admin.onedrive.com.
-    
-    ![The Sharing page of the OneDrive admin center](media/773e0df6-17ec-4433-ae50-62b14398317f.png)
 
 > [!IMPORTANT]
 > To use the OneDrive admin center, you must allow access to onedrive.com. You must also be a global admin for your organization, or a custom admin with the SharePoint administrator role. 
