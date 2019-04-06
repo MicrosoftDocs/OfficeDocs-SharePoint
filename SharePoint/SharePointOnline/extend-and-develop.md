@@ -3,7 +3,6 @@ title: "Plan customizations, solutions, and apps for SharePoint Online"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 5/25/2018
 ms.audience: Admin
 ms.topic: conceptual
 ms.service: sharepoint-online
@@ -12,7 +11,7 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: b7898ebf-69b7-4196-81e3-b04e1a4e7d67
-description: "Learn about the range of options available for branding and provisioning SharePoint sites."
+description: "Learn about the range of options available for configuring and customizing SharePoint sites."
 ---
 
 # Customizing SharePoint
@@ -67,7 +66,7 @@ If you want to change the settings for whether or not site users can acquire app
 
 If you are interested in exploring services or applications from Microsoft partners that are available for SharePoint Online, browse Office 365 apps on [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=865097). There are also many open source solutions developed by the collective SharePoint Online community, including Microsoft, MVPs, Partners, and Customers on the [Office 365 Developer Patterns and Practices Github site](https://github.com/OfficeDev/PnP).
 
-# Examples of Modern Customization Approaches
+## Examples of Modern Customization Approaches
 
 The following table gives an example of older methods for customizing sites along with a current recommended approach:
 
