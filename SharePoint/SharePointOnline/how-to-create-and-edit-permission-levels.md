@@ -25,7 +25,7 @@ description: "Learn how to create different permission levels for different grou
 
 # How to create and edit permission levels
 
-If you are a SharePoint Online admin, you probably want to control who can make changes on your site. For example, you might want employees in Finance to be able to edit lists, but employees in Marketing to only view those lists. That's where permissions and permissions levels come in.
+If you're a global or SharePoint admin in your organization, you probably want to control who can make changes on your site. For example, you might want employees in Finance to be able to edit lists, but employees in Marketing to only view those lists. That's where permissions and permissions levels come in.
   
 Permissions allow SharePoint users to perform certain actions, such as edit items in a list or create a site. But you can't assign individual permissions to individual users in SharePoint. Instead, you group related permissions together into a [permission level](understanding-permission-levels.md). Then you assign that permission level to a [SharePoint group](customize-sharepoint-site-permissions.md) that includes the people you are assigning permissions for. 
   

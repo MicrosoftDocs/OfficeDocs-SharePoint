@@ -12,7 +12,7 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: cefcab58-d2ce-4823-91fe-ccdc59da64e9
-description: "This article explains how the SharePoint Online admin can manage app licenses and do things like assign licenses, buy more licenses, recover licneses, or add license managers."
+description: "Learn how to assign licenses, buy more licenses, recover licenses, and add license managers."
 ---
 
 # Manage app licenses for a SharePoint Online environment
