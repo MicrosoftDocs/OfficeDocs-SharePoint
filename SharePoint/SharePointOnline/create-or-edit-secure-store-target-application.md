@@ -48,7 +48,7 @@ Another benefit of the Secure Store Service is that it eliminates authentication
     
 4. In the **Manage Target Applications** group on the ribbon, select **New**.
     
-    ![Screenshot of the SharePoint Online Administration Center page for configuring a SecureStore Target Application.](media/c3ba43ae-b8df-4b63-b187-9ce1bd6cb42f.png)
+    ![Configuring a Secure Store Target Application in the SharePoint admin center](media/c3ba43ae-b8df-4b63-b187-9ce1bd6cb42f.png)
   
 5. In the **Target Application Settings** section, enter values for the following fields: 
     

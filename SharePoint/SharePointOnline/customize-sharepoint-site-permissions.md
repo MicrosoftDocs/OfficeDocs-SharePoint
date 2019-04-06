@@ -145,21 +145,21 @@ If you have customized a permission level or created a new permission level, you
 ### Add, change, or remove a site collection administrator
 <a name="__toc340230108"> </a>
 
-1. On your website or team site, click **Settings**![Small Settings gear that took the place of Site Settings.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and click **Site settings**. If you don't see **Site settings**, click **Site information**, and then click **View all site settings**. On some pages, you may need to click **Site contents**, then click **Site settings**.
+1. On the site, click **Settings**![Settings icon](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and click **Site settings**. If you don't see **Site settings**, click **Site information**, and then click **View all site settings**. On some pages, you may need to click **Site contents**, then click **Site settings**.
     
 2. On the **Site Settings** page, under **Users and Permissions**, click **Site Collection Administrators**.
     
 3. In the **Site Collection Administrators** box, do one of the following: 
     
-1. To add a site collection administrator, enter the name or user alias of the person who you want to add.
+    - To add a site collection administrator, enter the name or user alias of the person who you want to add.
     
-2. To change a site collection administrator, click the **X** next to the name of the person, and then enter a new name. 
+    - To change a site collection administrator, click the **X** next to the name of the person, and then enter a new name.
     
-3. To remove a site collection administrator, click the **X** next to the name of the person. 
+    - To remove a site collection administrator, click the **X** next to the name of the person.
     
 4. Click **OK**.
     
     > [!NOTE]
-    >  To view the Site Collection Administrators link, you must be a site collection administrator, a SharePoint Online Admin, or a Global admin. This link is not displayed to Site Owners. 
+    >  To see the Site Collection Administrators link, you must be a site collection administrator, or a global or SharePoint admin in your organization. This link is not displayed to site owners. 
   
 
