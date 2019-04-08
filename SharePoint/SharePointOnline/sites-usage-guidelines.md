@@ -12,11 +12,12 @@ search.appverid:
 - SPO160
 - MET150
 
-description: "This checklist is intended to be used by Microsoft 365 and SharePoint Admins or whomever mnages your organization's overall SharePoint site governance."
+description: "This article is intended to be used by Microsoft 365 and SharePoint Admins or whomever manages your organization's overall SharePoint site governance."
 ---
 # Sites Usage Guidelines
+This checklist is intended to be used by Microsoft 365 and SharePoint Admins, or whomever manages your organization's overall SharePoint site governance. Use the questions below and sample text to help build your own site usage guidelines that will educate your site owners about how sites are set up and managed at your organization. See the “Success Kit Setup Guide” for more details about using this checklist and setting up a SharePoint Success Site.
 
-## Introduction
+## Short introduction to frame your guidelines
 Provide a short introduction to frame your guidelines. If you have broader business or digital resource use policy, link to it if it applies to SharePoint sites as well.
 
 **Sample text:**</br> 
@@ -35,7 +36,7 @@ These may ionclude key busienss uses you have defined for sites, internal commun
 
 ## II. Guidelines for creating your site
 
-Provide basic procedural guidance. How does someone get a SharePoint site? It may be via the “create site” link on SharePoint home or you may have a unique provisioning process for your organization. </br>
+Provide basic procedural guidance. How does someone get a SharePoint site? It may be via the “create site” link on SharePoint home or you may have a unique provisioning process for your organization.
 
 Supporting resources for admins: Manage site creation in SharePoint Online (including letting users create their own sites and letting you disable turning off subsite creation.
 
@@ -50,11 +51,11 @@ Supporting resources for admins:For guidance see: Secure SharePoint Online Sites
 Sample text:  
 Sites can be created via the “create site” link at https://<ourorg>.sharepoint.com. 
 
-See the “Plan your site” page in this site for more on how to create your site. (For those using this for their ‘SharePoint Success Site’   site.)
+See the “Plan your site” page in this site for more on how to create your site. (For those using this for their ‘SharePoint Success Site’ site.)
 
 You should have two site owners who are both full time employees at Contoso. 
 
-When you set up your site, it’s important to select the appropriate site classification level. <Insert Link to your organization’s data classification guidelines.>
+When you set up your site, it’s important to select the appropriate site classification level. Insert Link to your organization’s data classification guidelines.
 
 
 
