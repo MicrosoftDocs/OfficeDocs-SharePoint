@@ -1,19 +1,18 @@
 ---
 title: Best practices for internal communication and awareness 
 description: Tips for communicating internally about an enterprise freelancer program.
-author: matthewrmottola1
-manager: samanro
+author: jhendr
+manager: pamgreen
 layout: LandingPage
 ms.assetid: 
 ms.prod: microsoft-365-enterprise
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: landing-page
-ms.author: matthewrmottola1
+ms.author: jhendr
 localization_priority: None 
-ms.custom: M365freelancetoolkit
 ---
-Best practices for internal communication
+Sites usage guidelines checklist
 =========================================
 
 This checklist is intended to be used by Microsoft 365 and SharePoint Admins, or whomever manages your organization's overall SharePoint site governance.
