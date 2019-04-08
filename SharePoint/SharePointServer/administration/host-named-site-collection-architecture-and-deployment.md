@@ -51,7 +51,7 @@ This recommended configuration in the diagram includes the following elements:
     
   - Team sites (http://teams.contoso.com) with subsites for Team 1, Team 2, and Team 3.
     
-  - My Sites with site URLs in the following format: webapp.contoso.comhttp://my.contoso.com/personal/\<site_name\>.
+  - My Sites with site URLs in the following format: http://my.contoso.com/personal/\<site_name\>.
     
 The number of sites within the web application and the URLs for sites are not important for this example.
   
