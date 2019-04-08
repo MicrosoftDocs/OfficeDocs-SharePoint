@@ -136,11 +136,11 @@ Settings in the OneDrive admin center are grouped into six categories:
 
 -   **Sharing.** On the **Sharing** page, you can configure the default sharing link users send out to colleagues to share a file. For example, when users share a file, you can specify that the default sharing type is **Internal**.
 
-    ![Screenshot of the Sharing page in the OneDrive admin center showing default link settings](media/One-Drive-Quickstart-Small-Business_image1.png)
+    ![Screenshot of the Sharing page in the OneDrive admin center showing default link settings](media/773e0df6-17ec-4433-ae50-62b14398317f.png)
 
     You can also change the external sharing settings to prevent users from sharing files with people outside your organization. This is useful if you have a lot of confidential information.
 
-    ![Screenshot of the Sharing page in the OneDrive admin center showing external sharing settings](media/One-Drive-Quickstart-Small-Business_image2.png)
+    ![Screenshot of the Sharing page in the OneDrive admin center showing external sharing settings](media/b7b3215c-3b01-40c2-b9cb-d363228ecacf.png)
 
 <!-- -->
 
