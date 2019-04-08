@@ -17,7 +17,7 @@ Sites usage guidelines checklist
 
 This checklist is intended to be used by Microsoft 365 and SharePoint Admins, or whomever manages your organization's overall SharePoint site governance.
 
-Follow the format below to help build your own site usage guidelines that will educate your site owners about how sites are set up and managed at your organization. See the <b>Success Kit Setup Guide</b> for more details about using this checklist and setting up a SharePoint Success Site.
+Follow the format below to build your own site usage guidance to instruct your your site owners on how sites are set up and managed at your organization. See the <b>Success Kit Setup Guide</b> for more details about using this checklist and setting up a SharePoint Success Site.
 
 <ul class="panelContent cardsJ">
     <li>
@@ -31,7 +31,7 @@ Follow the format below to help build your own site usage guidelines that will e
                     </div>
                     <div class="cardText">
                         <h3>Short introduction to frame your guidelines</h3>
-                        <p>Provide a short introduction to frame your guidelines. If you have broader business or digital resource use policy, link to it if it applies to SharePoint sites as well.</p>Sample Text:</p><i> A SharePoint site is designed to be a powerful tool for team collaboration and communication. Our <name of your IT/productivity service org> administers the Microsoft 365 service your site is built on with the goal of making it easy for you to accomplish your business goals.</p>Here are some things to keep in mind as you work with your SharePoint sites.</p> Refer to <your orgs name> business resource use policy. These policies apply to all SharePoint site usage.</i></p>
+                        <p>Provide a short introduction to frame your guidelines. If you have broader business or digital resource use policy, link to it if it applies to SharePoint sites as well.</p></p><b>Sample Text:</b></p><i> A SharePoint site is designed to be a powerful tool for team collaboration and communication. Our <name of your IT/productivity service org> administers the Microsoft 365 service your site is built on with the goal of making it easy for you to accomplish your business goals.</p>Here are some things to keep in mind as you work with your SharePoint sites.</p> Refer to <your orgs name> business resource use policy. These policies apply to all SharePoint site usage.</i></p>
                     </div>
                 </div>
             </div>
@@ -48,7 +48,7 @@ Follow the format below to help build your own site usage guidelines that will e
                     </div>
                     <div class="cardText">
                         <h3>General guidelines</h3>
-                        <p>Provide general policy statements that you wnt your users to follow.</p>  These may include key business uses you have defined for sites, internal communication policies, or security and privacy guidelines.</p>
+                        <p>Provide general policy statements that you want your users to follow. These may include key business uses you have defined for sites, internal communication policies, or security and privacy guidelines.</p>
                     </div>
                 </div>
             </div>
