@@ -136,7 +136,27 @@ Supporting resources for admins: Office 365 Group Expiration Policy (Notes: Sett
 Does your org take extra measures related to site backup and restore? 
 Let your site owners know how long the backup is available and how to get a site restored, if needed.
 
-
+|||
+|:-----|:-----|
+| ![Map](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/walkthrough-map-blue-32.png)|Introduction
+Provide a short introduction to frame your guidelines. If you have broader business or digital resource use policy, link to it if it applies to SharePoint sites as well.
+Sample Text: A SharePoint site is designed to be a powerful tool for team collaboration and communication. Our [enter your IT/productivity service org] administers the Microsoft 365 service your site is built on. The goal is to make it easy to accomplish your business goals.
+Here are some things to keep in mind as you work with your SharePoint sites.
+Refer to [ insert your orgs name] business resource use policy. These policies apply to all SharePoint site usage.</b></P>|
+|![Map](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/walkthrough-map-blue-32.png)|General guidelines
+Provide general policy statements that you want your users to follow. These may include key business uses you have defined for sites, internal communication policies, or security and privacy guidelines.</b></b>|
+|![Map](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/walkthrough-map-blue-32.png)|Guidelines for creating your site
+Provide basic procedural guidance. How does someone get a SharePoint site? It may be via the “create site” link on SharePoint home or you may have a unique provisioning process for your organization. Include direct links to content to help them get started such as Manage site creation in SharePoint Online . letting users create their own sites and letting you disable turning off subsite creation.
+If you have specific site templates that you want your site owners to select during self-provisioning, include that info in this section. 
+Information on custom provisioning solutions Branding and site provisioning solutions for SharePoint.
+Are there any ownership or site classification requirements your organization has implemented? Include links to guidance such as: Secure SharePoint Online Sites and Files. 
+When you set up your site, it’s important to select the appropriate site classification level. Include references or links to your your organization’s data classification guidelines.
+Sample text: Sites can be created via the “create site” link at [insert your SharePoint link]. See the “Guidelines for creating your site” page in this guide for more on how to create your site. (For those using this for their ‘SharePoint Success Site’ site.) You should have two site owners who are both full time employees at your org.</b></b> |
+|![Map](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/walkthrough-map-blue-32.png)||
+|![Map](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/walkthrough-map-blue-32.png)||
+|![Map](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/walkthrough-map-blue-32.png)||
+|![Map](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/walkthrough-map-blue-32.png)||
+|![Map](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/walkthrough-map-blue-32.png)||
 
 
 
