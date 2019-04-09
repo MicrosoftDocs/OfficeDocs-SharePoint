@@ -116,7 +116,7 @@ Follow the format below to build your own site usage guidance to instruct your y
                     </div>
                     <div class="cardText">
                         <h3>Capacity guidelines </h3>
-                        <p>Provide info on capacity. Do you have set space limits? Tell your site owners how much space they get and if you have a process and policy for requesting more.</p> </p> Resource for admins: How to manage storage limits: Manage site collection storage limits</p></p>Sample text:<i> Your site allows for XX mb of storage. You’re encouraged to remove unused sites and files.</i></p>
+                        <p>Provide info on capacity. Do you have set space limits? Tell your site owners how much space they get and if you have a process and policy for requesting more.</p> </p> Resource for admins: <a href="https://docs.microsoft.com/en-us/sharepoint/manage-site-collection-storage-limits">Manage site storage limits</a></p></p>Sample text:<i> Your site allows for XX MB/GB of storage. You’re encouraged to remove unused sites and files.</i></p>
                     </div>
                 </div>
             </div>
