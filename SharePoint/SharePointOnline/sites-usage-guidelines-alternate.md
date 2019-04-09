@@ -1,6 +1,6 @@
 ---
-title: Best practices for internal communication and awareness 
-description: Tips for communicating internally about an enterprise freelancer program.
+title: Sites usage guideliens checklist
+description: A checklist to help guide users to create their site usage guidance.
 author: jhendr
 manager: pamgreen
 layout: LandingPage
