@@ -1,9 +1,8 @@
 ---
-title: "Change the Featured links list on the SharePoint home page"
+title: "Add featured links to the SharePoint home page"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 6/21/2018
 ms.audience: Admin
 ms.topic: article
 f1_keywords:
@@ -22,7 +21,7 @@ ms.assetid: aa93f89b-ffce-4edb-aa89-22b16d6915a7
 description: "Learn how admins can change the Featured links list on the SharePoint home page."
 ---
 
-# Change the Featured links list on the SharePoint home page
+# Add featured links to the SharePoint home page
 
  As a global or SharePoint admin in Office 365, you can feature the sites and content you want on the SharePoint home page by changing the **Featured links** list in the left pane. To add links to a SharePoint Server page, see [Video: Add a link to a page](https://support.office.com/article/F9B329F9-67BB-4258-A686-9CD98415E7CA).
   
@@ -35,7 +34,7 @@ To view the SharePoint home page:
     
 2. Select SharePoint from the list of apps. 
     
-    ![Office 365 start page with SharePoint selected]((media/4ff2c093-2b26-4d28-a65b-4d02e66818df.png)
+    ![Office 365 start page with SharePoint selected](media/4ff2c093-2b26-4d28-a65b-4d02e66818df.png)
   
     If you don't see the list of apps, select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the top left corner of the page, and then select **SharePoint**.
     
