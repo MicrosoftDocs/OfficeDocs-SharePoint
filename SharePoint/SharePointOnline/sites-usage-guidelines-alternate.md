@@ -43,7 +43,7 @@ Follow the format below to build your own site usage guidance to instruct your y
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/walkthrough-map-blue.svg" alt="a map" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/document.svg" alt="a map" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -60,7 +60,7 @@ Follow the format below to build your own site usage guidance to instruct your y
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/Office/media/icons/layout-navigation-blue.svg" alt="a graduation cap" />
+                            <img src="https://docs.microsoft.com/en-us/Office/media/icons/subsite.svg" alt="a graduation cap" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -78,7 +78,7 @@ Follow the format below to build your own site usage guidance to instruct your y
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/Office/media/icons/subsite.svg" alt="a check mark" />
+                            <img src="https://docs.microsoft.com/en-us/Office/media/icons/layout-navigation-blue.svg" alt="a check mark" />
                         </div>
                     </div>
                     <div class="cardText">
