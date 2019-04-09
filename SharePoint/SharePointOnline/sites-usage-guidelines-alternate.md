@@ -83,7 +83,7 @@ Follow the format below to build your own site usage guidance to instruct your y
                     </div>
                     <div class="cardText">
                         <h3>Your sites designs and customizations</h3>
-                        <p>Provide information on design guidelines. Does your organization have or allow custom themes? Or do you stick with out of the box options?</p>Including resources for your admins. How to set up site creation: Manage site creation</p> Information for devs on custom site themes: SharePoint site theming overview</p>Do you have specific templates or web parts you want site owners to use? Explain those so they understand why and how. </p>Does your organization allow custom scripts and add-ins? Include links to resources such as <a href="https://docs.microsoft.com/en-us/sharepoint/extend-and-develop">Customizing SharePoint </a>.</p></p>We recommend creating a way for site owners to engage with your team when they want to customize a site. Set up a service ticket category or form to make it easy to contact you. </p></p>Sample text:  <i>It’s important that your site meet your business needs. If you need to create a custom add-in or deploy a resource intensive app, work with our internal team. For more information, contact [insert your own link]. </i></p>
+                        <p>Provide information on design guidelines. Does your organization have or allow custom themes? Or do you stick with out of the box options?</p>Including resources for your admins. How to set up site creation: Manage site creation</p> Information for devs on custom site themes: SharePoint site theming overview</p>Do you have specific templates or web parts you want site owners to use? Explain those so they understand why and how. </p>Does your organization allow custom scripts and add-ins? Include links to resources such as <b><a href="https://docs.microsoft.com/en-us/sharepoint/extend-and-develop">Customizing SharePoint </a></b>.</p></p>We recommend creating a way for site owners to engage with your team when they want to customize a site. Set up a service ticket category or form to make it easy to contact you. </p></p>Sample text:  <i>It’s important that your site meet your business needs. If you need to create a custom add-in or deploy a resource intensive app, work with our internal team. For more information, contact [insert your own link]. </i></p>
                     </div>
                 </div>
             </div>
@@ -100,7 +100,7 @@ Follow the format below to build your own site usage guidance to instruct your y
                     </div>
                     <div class="cardText">
                         <h3>Sharing guidelines</h3>
-                        <p>Provide info on how your company has set up sharing. If you have modified the settings from the defaults you can tell your site owners what the sharing settings are for your organization, including for external sharing. </p>Supporting resources for admins: <a href="https://docs.microsoft.com/en-us/sharepoint/plan-your-permissions-strategy">Plan your permissions strategy</a> </p></p>Sample text: <i>Your site and its contents can be shared with anyone in the organization. As site owner, you will receive access requests when someone shares your site. You can approve or decline any requests sent to you.</i></p>    </div>
+                        <p>Provide info on how your company has set up sharing. If you have modified the settings from the defaults you can tell your site owners what the sharing settings are for your organization, including for external sharing. </p>Supporting resources for admins: <b><a href="https://docs.microsoft.com/en-us/sharepoint/plan-your-permissions-strategy">Plan your permissions strategy</a></b>. </p></p>Sample text: <i>Your site and its contents can be shared with anyone in the organization. As site owner, you will receive access requests when someone shares your site. You can approve or decline any requests sent to you.</i></p>    </div>
                 </div>
             </div>
         </div>
@@ -116,7 +116,7 @@ Follow the format below to build your own site usage guidance to instruct your y
                     </div>
                     <div class="cardText">
                         <h3>Capacity guidelines </h3>
-                        <p>Provide info on capacity. Do you have set space limits? Tell your site owners how much space they get and if you have a process and policy for requesting more.</p> </p> Resource for admins: <a href="https://docs.microsoft.com/en-us/sharepoint/manage-site-collection-storage-limits">Manage site storage limits</a></p></p>Sample text:<i> Your site allows for XX MB/GB of storage. You’re encouraged to remove unused sites and files.</i></p>
+                        <p>Provide info on capacity. Do you have set space limits? Tell your site owners how much space they get and if you have a process and policy for requesting more.</p> </p> Resource for admins: <b><a href="https://docs.microsoft.com/en-us/sharepoint/manage-site-collection-storage-limits">Manage site storage limits</a></b>.</p></p>Sample text:<i> Your site allows for XX MB/GB of storage. You’re encouraged to remove unused sites and files.</i></p>
                     </div>
                 </div>
             </div>
