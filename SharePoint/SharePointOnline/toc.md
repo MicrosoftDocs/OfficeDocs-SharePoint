@@ -96,6 +96,7 @@
 ### [Measuring impact](SP-Success-Site-Measure.md)
 ### [Troubleshooting](SP-Success-Site-Troubleshooting.md)
 ### [FAQ](SP-Success-Site-FAQ.md)
+### [Sites Usage Guideline Checklist](sites-usage-guidelines.md)
 ## [Advanced]()
 ### [User profiles](manage-user-profiles.md)
 #### [Add and edit user profile properties](add-and-edit-user-profile-properties.md)

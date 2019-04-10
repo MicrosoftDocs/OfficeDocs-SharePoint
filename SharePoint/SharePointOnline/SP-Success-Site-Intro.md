@@ -16,17 +16,17 @@ description: "Introduction to the SharePoint Success Site solution."
 # SharePoint Success Site
 
 ## What is it?
-The SharePoint Success Site is a ready to implement, up-to-date and customizable SharePoint Online site that helps your organization maximize its adoption and value realization of SharePoint Online. The SharePoint Success Site  enables all end users to improve the quality and impact of the communication and team sites they build for internal audiences, while helping ensure they follow your organization’s governance policies.
+The SharePoint Success Site is a ready to deploy, up-to-date, and customizable SharePoint Online site that helps your organization maximize its adoption and value of SharePoint Online. The SharePoint Success Site lets end users improve the quality and impact of the communication and team sites they build for internal audiences, while helping ensure they follow your organization’s governance policies.
  
-The SharePoint Success Site is an open source solution published by Microsoft that is available for our SharePoint Online customers to install in their tenant environment, customize and make available to end users. It is to be used as a company provided resource for building effective SharePoint Online sites and solutions. 
+The SharePoint Success Site is an open source solution published by Microsoft for our SharePoint Online customers to install in their tenant environment, customize and make available to end users. It is to be used as a company provided resource for building effective SharePoint Online sites and solutions. 
  
 The SharePoint Success Site offers:
  
-- A fully customizable SharePoint Online communication site - the SharePoint Success Site can be customized to add your organization's help, support, success stories and community content
+- **A fully customizable SharePoint Online communication site.**  The SharePoint Success Site can be customized to add your organization's help, support, success stories and community content
 
-- Easy provisioning - provision the SharePoint Success Site from the SharePoint Online Provisioning Service with just a few easy steps
+- **Easy provisioning** - provision the SharePoint Success Site from the SharePoint Online Provisioning Service with just a few easy steps
 
-- The ability to create your own training playlists - with the Custom Learning web part, you can create targeted training playlists to meet the unique needs of your environment
+- **Playlists**.  Create your own training playlists. With the Custom Learning web part, you can create targeted training playlists to meet the unique needs of your environment
 
 - Up-to-date content feed – SharePoint Success provides content through a Microsoft online content catalog, so the content at your site is regularly updated
 
