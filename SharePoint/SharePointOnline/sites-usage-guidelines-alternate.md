@@ -1,5 +1,5 @@
 ---
-title: Sites usage guideliens checklist
+title: Sites usage guidelines checklist
 description: A checklist to help guide users to create their site usage guidance.
 author: jhendr
 manager: pamgreen
