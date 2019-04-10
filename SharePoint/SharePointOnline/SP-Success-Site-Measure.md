@@ -22,3 +22,11 @@ What is your goal? What is the business value?  How do you measure it?
 |Help departments, teams and employees build successful solutions on SharePoint that deliver value"|Site creation|SharePoint Site Usage report (available in Office 365 Admin Center)|Number of new sites (post portal launch) created | 1. View Sites chart in SharePoint Site Usage report </br> 2. Subtract the total sites prior to SharePoint Success Site launch from the total sites post SharePoint Success Site launch </br></br>  See here for instructions on how to access the SharePoint Site Usage report in Admin Center |
 |Increase adoption & value realization from your investment in SPO|SPO adoption|SharePoint Activity report (available in Office 365 Admin Center)|SPO Active Usage (post portal launch) |1. View User chart in SharePoint Activity report </br></br>2. Subtract the total user prior to SharePoint Success Site launch from the total user post SharePoint Success Site launch </br></br> See here for instructions on how to access the SharePoint Activity report in Admin Center|
 |Enable site owners to effectively communicate broadly, share knowledge or improve a process|End user readiness|End user survey|End User Readiness to create SPO sites|1.  Create end user survey with Microsoft Forms – http://forms.office.com </br></br> 2. Include rating question in survey that quantifies level of readiness end users feel they have gained from the SharePoint Success Site to create effective SharePoint sites |
+
+
+are users finding what they need?
+Are they they finding the site easy to use?
+Are they using it?
+
+What does active usage mean?  ask Matt what this really means?  and add that as a measure to the table.
+
