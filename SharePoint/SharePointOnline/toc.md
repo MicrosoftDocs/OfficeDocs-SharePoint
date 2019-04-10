@@ -87,7 +87,7 @@
 #### [Query throttling](query-throttling.md)
 #### [Search limits](search-limits.md)
 #### [View Popularity Trends and Most Popular Items](view-popularity-trends-and-most-popular-items.md)
-## [SharePoint Sucess Site]()
+## [SharePoint Success Site]()
 ### [Overview](SP-Success-Site-Intro.md)
 ### [Prerequisites](SP-Success-Site-Prereq.md)
 ### [Installation](SP-Success-Site-Install.md)
