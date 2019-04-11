@@ -17,7 +17,7 @@ Sites usage guidelines checklist
 
 This checklist is intended to be used by Microsoft 365 and SharePoint Admins, or whomever manages your organization's overall SharePoint site governance.
 
-Follow the format below to build your own site usage guidance to instruct your your site owners on how sites are set up and managed at your organization. See the <b>Success Kit Setup Guide</b> for more details about using this checklist and setting up a SharePoint Success Site.
+Using the steps below, create your own site usage guidance for your site owners on how sites are set up and managed at your organization. See the <b>Success Kit Setup Guide</b> for more details about using this checklist and setting up a SharePoint Success Site.
 
 <ul class="panelContent cardsJ">
     <li>
