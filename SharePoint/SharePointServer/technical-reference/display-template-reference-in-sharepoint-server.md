@@ -3,7 +3,6 @@ title: "Display template reference in SharePoint Server"
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
-ms.date: 8/25/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -16,7 +15,7 @@ description: "Learn about the different display templates that are available in 
 
 # Display template reference in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-SharePoint Online-md](../includes/appliesto-2013-2016-2019-SharePoint Online-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
   
 ## Display templates for the Content Search Web Part
 
