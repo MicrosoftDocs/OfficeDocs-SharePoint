@@ -29,6 +29,8 @@ Global administrators in Microsoft 365 can assign users the SharePoint administr
 
 > [!TIP]
 > When you assign someone the SharePoint admin role, you may also want to assign them to Service administrator role. This way they can see important information in the Microsoft 365 admin center, such as the health of the SharePoint Online service, and change and release notifications. 
+
+   ![Manage admin roles in the Microsoft 365 admin center](media/sharepoint-admin-role.png)
   
 Users assigned the SharePoint admin role have access to the SharePoint admin center and can create and manage site collections, designate site collection administrators, manage user profiles, and more. 
 

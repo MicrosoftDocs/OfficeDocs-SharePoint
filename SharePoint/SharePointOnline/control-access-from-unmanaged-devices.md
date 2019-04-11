@@ -92,7 +92,7 @@ Limiting access allows users to remain productive while addressing the risk of a
     
 5. Select **OK**.
     
-    ![The block access setting on the access control page](media/ea0ee472-6fde-4d2d-bc7b-9d3b9eee0d96.PNG)
+    ![The block access setting on the access control page](media/ea0ee472-6fde-4d2d-bc7b-9d3b9eee0d96.png)
   
 6. Go to the Azure AD admin center, and select **Azure Active Directory** in the left pane. 
 
@@ -189,13 +189,21 @@ To block or limit access to specific sites, you must set the organization-wide p
     
 8. Connect to SharePoint Online as a global admin or SharePoint admin in Office 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
     
-9. To block access, run  `Set-SPOSite -Identity https://<SharePoint online URL>/sites/<name of site or OneDrive account> -ConditionalAccessPolicy BlockAccess`.
+9. To block access to a single site, run `Set-SPOSite -Identity https://<SharePoint online URL>/sites/<name of site or OneDrive account> -ConditionalAccessPolicy BlockAccess`.
     
-    To limit access, run  `Set-SPOSite -Identity https://<SharePoint online URL>/sites/<name of site or OneDrive account> -ConditionalAccessPolicy AllowLimitedAccess`.
+    To limit access to a single site, run `Set-SPOSite -Identity https://<SharePoint online URL>/sites/<name of site or OneDrive account> -ConditionalAccessPolicy AllowLimitedAccess`.
+
+    To update multiple sites at once, use the following PowerShell cmdlet as an example:
+
+    ```PowerShell
+    , (Get-SPOSite -IncludePersonalSite $true -Limit all -Filter "Url -like '-my.spgrid.com/personal/") | Set-SPOTenant -ConditionalAccessPolicy AllowLimitedAccess
+    ```
+
+    This example gets the OneDrive for every user and passes it as an array to Set-SPOTenant to limit access. The initial comma and the parentheses are required for running this cmdlet as a batch request.
     
 > [!NOTE]
 > The site-level setting must be at least as restrictive as the organization-level setting. <br>By default, this policy allows users to view and edit files in their web browser. To change this, see [Advanced configurations](control-access-from-unmanaged-devices.md#advanced). 
-  
+ 
 ## Advanced configurations
 <a name="advanced"> </a>
 

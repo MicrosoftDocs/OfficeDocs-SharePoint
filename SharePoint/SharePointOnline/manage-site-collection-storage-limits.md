@@ -26,7 +26,7 @@ The amount of SharePoint Online space your organization has is based on your num
 ## Set automatic or manual site storage limits
 <a name="__toc365547981"> </a>
 
-By default, your SharePoint storage is available in a central pool from which all sites can draw. You, as a global or SharePoint admin, don't need to divvy up storage space or reallocate space based on usage. That's all handled automatically: sites use what they need when they need it, up to a maximum of 25 terabytes (TB) per site (previously called "site collection"). If you previously set storage limits manually and switch to using pooled storage, SharePoint resets all the limits to 1 TB. 
+By default, your SharePoint storage is available in a central pool from which all sites can draw. You, as a global or SharePoint admin, don't need to divvy up storage space or reallocate space based on usage. That's all handled automatically: sites use what they need when they need it, up to a maximum of 25 terabytes (TB) per site (previously called "site collection"). If you previously set storage limits manually and switch to using pooled storage, SharePoint resets all the limits to 25 TB. 
 
 If you prefer to fine tune the storage space allocated to each site, you can set your storage management option to "manual" and specify individual site storage limits. 
   
@@ -43,6 +43,8 @@ If you prefer to fine tune the storage space allocated to each site, you can set
 3. In the left pane of the new SharePoint admin center, select **Settings**.
     
 4. Select **Site storage limits**.
+
+![Managing site storage limits](media/site-storage-limits.png)
      
 5. Select **Automatic** or **Manual**, and then select **Save**.
     
@@ -59,8 +61,13 @@ Follow these steps to specify individual site storage limits when your storage m
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the classic SharePoint admin center, select **Try it now** to open the new SharePoint admin center.
     
 3. On the **Active sites** page of the new SharePoint admin center, select a site and then select **Storage**. 
+
+![Changing the storage limit for a site](media/site-storage-limit.png)
     
-4. Enter the maximum storage in GB for the site.
+4. Enter the maximum storage in GB for the site. 
+
+  > [!NOTE]
+  > The max value you can enter is 25600 GB, although this may be more space than your organization has. To see how much space comes with your subscription, see [SharePoint Online Limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits).
     
 5. Make sure **Notifications** is turned on to send an email to site admins when the site approaches the storage limit. Then enter a value as a percent for how full you want the storage to be when the email is sent. 
  

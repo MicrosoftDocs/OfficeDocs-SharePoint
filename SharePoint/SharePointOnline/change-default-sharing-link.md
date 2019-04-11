@@ -3,7 +3,6 @@ title: "Change the default link type when users get links for sharing"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 5/17/2018
 ms.audience: Admin
 ms.topic: article
 f1_keywords:
@@ -20,7 +19,7 @@ search.appverid:
 - GSP150
 - MET150
 ms.assetid: 81b763af-f301-4226-8842-8d13bd07face
-description: "When a user wants to share a document or folder, they can get a link and send it to others."
+description: "Learn how to change the default link type for your organization, or for a specific site collection."
 ---
 
 # Change the default link type when users get links for sharing
@@ -36,7 +35,7 @@ This setting applies only to modern sites.
 > [!NOTE]
 > This setting does not affect Outlook Web App, Outlook 2016, or Office clients prior to Office 2016. 
   
-To change the setting in the classic SharePoint Online admin center:
+To change the setting in the classic SharePoint admin center:
   
 1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
@@ -45,21 +44,19 @@ To change the setting in the classic SharePoint Online admin center:
     
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
     
-## Change the default link type (SharePoint Online global setting)
-
-1. In the left pane, select **sharing**.
+3. In the left pane, select **sharing**.
     
-2. Under **Default link type** choose the option you want to show by default when a user gets a link. 
+4. Under **Default link type** choose the option you want to show by default when a user gets a link. 
     
     ![Default link type dialog box](media/4dc58d77-dccd-474f-b0fb-8ff8b3f1c088.png)
   
-3. Under **Default link permission** choose whether you want the default permission to be view or edit. 
+5. Under **Default link permission** choose whether you want the default permission to be view or edit. 
     
     ![Screenshot of default link permissions which are view and edit.](media/17172082-7cc4-44e4-9b73-3a0ea9acc577.png)
   
 ## Change the default link type (site-level setting)
 
-1. In the left pane, select **site collections**.
+1. In the left pane of the classic SharePoint admin center, select **site collections**.
     
 2. Select the site that you want to change, and then select **Sharing**.
     

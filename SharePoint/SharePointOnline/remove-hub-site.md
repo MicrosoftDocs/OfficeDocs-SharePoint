@@ -36,7 +36,12 @@ If you're a global or SharePoint admin in Office 365, you can make a hub site no
 
 5. Select the site, select **Hub site**, and then select **Unregister as hub site**. 
 
+    ![Unregistering a hub site](media/unregister-hub-site.png)
+
 6. Select **OK**.  
+
+> [!NOTE]
+> If a hub site has associated sites then you unregister it, it might take a while for the sites to be disassociated. If you re-register the hub site, the sites may remain associated.
 
 ## See also
 

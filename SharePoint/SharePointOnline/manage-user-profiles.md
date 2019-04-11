@@ -39,7 +39,7 @@ Most organizations don't need to change any user profile settings in the SharePo
 In Office 365, identity is managed by Azure Active Directory. For info about this, see [Understanding Office 365 identity and Azure Active Directory](/office365/enterprise/about-office-365-identity). SharePoint Online receives this profile information. If you need to store additional info about your users, you can create custom properties in the SharePoint admin center. For info about doing this, see [Add and edit user profile properties in SharePoint Online](add-and-edit-user-profile-properties.md).
   
 > [!NOTE]
-> Instead of creating user sub-types in the SharePoint Online admin center, we recommend using the Microsoft 365 admin center to [Compare groups](/office365/admin/create-groups/compare-groups) or using the Azure AD admin center to [create groups with dynamic membership](/azure/active-directory/users-groups-roles/groups-dynamic-membership). 
+> Instead of creating user sub-types in the SharePoint admin center, we recommend using the Microsoft 365 admin center to [Compare groups](/office365/admin/create-groups/compare-groups) or using the Azure AD admin center to [create groups with dynamic membership](/azure/active-directory/users-groups-roles/groups-dynamic-membership). 
   
 ## Add and remove admins for a user's OneDrive
 <a name="addremoveadmins"> </a>
@@ -134,7 +134,7 @@ If some users are licensed to use OneDrive, but you don't want them to create a 
     ![The permissions dialog box for controlling who can create a OneDrive](media/a23b4ec4-7862-4fd4-895a-983fed62c24d.png)
 
 > [!NOTE]
-> To block access to OneDrive for your entire organization, select the **Disable OneDrive** check box. We recommend keeping the Create Personal Site box selected so you don't affect the SharePoint home page experience for your users.  
+> The **Disable OneDrive** check box has no effect. Use the "Create Personal Site" check box to specify the security groups that have permission to create a OneDrive.  
   
 6. Select **OK**.
     
