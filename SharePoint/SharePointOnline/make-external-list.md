@@ -49,9 +49,9 @@ Business Connectivity Services (BCS) connects to data in an external data store.
     
 - A WCF web service that acts as an end-point for some other kind of data store 
     
-In SharePoint Online, BCS enables you to access an external data source by using the Secure Store. Secure Store keeps encrypted copies of credentials. It enables a SharePoint Online admin to associate a SharePoint group that uses a single SQL Azure account that can access the target database. When a SharePoint user browses the data in the External List, Secure Store uses the associated SQL Azure account to request the data from SQL.
+In SharePoint Online, BCS enables you to access an external data source by using the Secure Store. Secure Store keeps encrypted copies of credentials. It enables a SharePoint admin to associate a SharePoint group that uses a single SQL Azure account that can access the target database. When a SharePoint user browses the data in the External List, Secure Store uses the associated SQL Azure account to request the data from SQL.
   
-To make this possible, a SharePoint Online admin defines an External Content Type (ECT) in SharePoint Designer or in Visual Studio. Then, someone with appropriate permissions creates an External List on a SharePoint Online site by referencing the ECT. Users who have appropriate permission can view or update the list. 
+To make this possible, a SharePoint admin defines an External Content Type (ECT) in SharePoint Designer or in Visual Studio. Then, someone with appropriate permissions creates an External List on a SharePoint Online site by referencing the ECT. Users who have appropriate permission can view or update the list. 
   
 > [!NOTE]
 >  SharePoint Online doesn't support offline use of external lists. 
@@ -115,7 +115,7 @@ To create a Secure Store Target Application, follow these steps.
     
     ![Screenshot of the Credential Fields section of the Secure Store Target Application properties page. These fields allow you to specify the logon credentials for the target](media/404c21d4-8677-474c-ad01-5cdd8af06cbf.png)
   
-7. In the **Target Application Administrators** section, in the **Target Application Administrators** field, enter the name of a group or a list of users who can edit this Target Application. You can also search for the name of a group in Microsoft Online Directory Server. Typically, this section usually contains the name of the SharePoint Online admin, or a global administrator. 
+7. In the **Target Application Administrators** section, in the **Target Application Administrators** field, enter the name of a group or a list of users who can edit this Target Application. You can also search for the name of a group in Microsoft Online Directory Server. Typically, this section usually contains the name of the SharePoint or global admin. 
     
 8. In the **Members** section, in the **Members** field enter the name of the group that will use the Target Application. Generally, this is a group from the Microsoft Online Directory Service (MSODS). 
   
@@ -151,7 +151,7 @@ After you create the Target Application, you are ready to enter the credentials 
 
 You can create an External Content Type (ECT) by using Microsoft Visual Studio, or by using Microsoft SharePoint Designer 2010. This procedure describes how to create an ECT in SharePoint Designer 2010. Microsoft SharePoint Designer 2010 is available as a [free download](https://www.microsoft.com/download/en/details.aspx?id=16573) from the Microsoft Download Center. 
   
-You should be a SharePoint Online admin or a Global admin to perform this task.
+You must be a SharePoint or global admin in your organization to perform this task.
   
 To create an ECT, follow these steps.
   
@@ -160,7 +160,7 @@ To create an ECT, follow these steps.
 2. Select the **Open Site** button to open the SharePoint Online team site at the root collection. The URL for the root collection will resemble this example URL: https://tailspintoys.sharepoint.com. SharePoint Online might display a prompt for valid credentials. 
     
     > [!NOTE]
-    >  If SharePoint displays a prompt for you to add a new user, ensure the user account you use has sufficient permissions. The user account must be able to make and test BCS changes to the SharePoint Online site. Typically, the SharePoint Online admin or Global admin should perform these steps. <br> If you want to change to a different user, select **Add a new user**, select **Personal** or **Organization**, and then sign in to the site as the SharePoint or global admin, and **Sign In**. 
+    >  If SharePoint displays a prompt for you to add a new user, ensure the user account you use has sufficient permissions. The user account must be able to make and test BCS changes to the SharePoint Online site. Typically, a SharePoint or global admin performs these steps. <br> If you want to change to a different user, select **Add a new user**, select **Personal** or **Organization**, and then sign in to the site as the SharePoint or global admin, and **Sign In**. 
   
 3. After the site opens, in the **Site Objects** tree on the left of the application window, select **External Content Types**.
     
@@ -280,11 +280,11 @@ To finish setting up the External List, you have to grant permissions to the peo
 5. Select the check box next to the name of the ECT that you just created, and then select the **Set Object Permissions**. 
     
     > [!IMPORTANT]
-    >  You must manually assign permissions to manage the ECT to a SharePoint Online admin or Global admin with the ** Set Object Permissions ** command. If you do not assign these permissions explicitly, the admins won't have permission to manage the ECT. 
+    >  You must manually assign permissions to manage the ECT to a global or SharePoint admin by using the **Set Object Permissions** command. If you do not assign these permissions explicitly, the admins won't have permission to manage the ECT. 
   
-    ![Screenshot of SharePoint Online Admin Center under BCS. Shows the Set Object Permissions button in the ribbon.](media/719d5798-9ec7-45c0-951b-f3a2ba73a6bf.png)
+    ![The Set Object Permissions button in the ribbon on the BCS page of the SharePoint admin center](media/719d5798-9ec7-45c0-951b-f3a2ba73a6bf.png)
   
-6. In the **set object permissions** dialog, select the check boxes for all the permissions (( **Edit, Execute, Selectable in Clients, and Set Permissions**) that the SharePoint Online admin needs. 
+6. In the **set object permissions** dialog, select the check boxes for all the permissions (( **Edit, Execute, Selectable in Clients, and Set Permissions**) that the SharePoint admin needs. 
     
     > [!NOTE]
     >  Make sure that at least one user or group has **Set Permissions** rights. If you don't assign someone this right, you might create an unmanageable BCS connection. 
