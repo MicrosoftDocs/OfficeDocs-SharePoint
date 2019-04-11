@@ -48,7 +48,7 @@ Using the steps below, create your own site usage guidance for your site owners 
                     </div>
                     <div class="cardText">
                         <h2>General guidelines</h2>
-                        <p><b>Guidance:<b/> </p>Provide general policy statements that you want your users to follow. These may include key business uses you have defined for sites, internal communication policies, or security and privacy guidelines.</p><b>Resources:<b/></p></p><b>Sample text:</b></p>
+                        <p><b>Guidance:</b> </p>Provide general policy statements that you want your users to follow. These may include key business uses you have defined for sites, internal communication policies, or security and privacy guidelines.</p><b>Resources:</b></p></p><b>Sample text:</b></p>
                     </div>
                 </div>
             </div>
