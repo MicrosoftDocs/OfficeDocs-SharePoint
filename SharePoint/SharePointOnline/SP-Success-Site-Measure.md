@@ -13,6 +13,8 @@ search.appverid:
 - MET150
 description: "Measuring the impact of your SharePoint Success Site."
 ---
+# How to measure the impact of your SharePoint Success Site
+
 To measure the impact of the SharePoint Site Owner Success Portal (SharePoint Success Site in your organization consider the following measures.
 
 What is your goal? What is the business value?  How do you measure it?
