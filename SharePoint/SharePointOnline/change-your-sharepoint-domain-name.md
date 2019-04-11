@@ -33,6 +33,6 @@ Unfortunately, it isn't possible to change the SharePoint Online domain name for
 To use the domain name  *fourthcoffee.sharepoint.com*  , you would need to purchase a new Office 365 subscription and move all email, files, and any other data you want to keep to the new subscription. 
   
 > [!NOTE]
-> To change the name of a site, for example, from  *https://contoso.sharepoint.com/sites/sample1*  to  *https://contoso.sharepoint.com/sites/sample2*, you need to create a new site and then move all the content from the old site to the new one. For info about moving items in document libraries, see [Move or copy items from a SharePoint document library](https://support.office.com/article/00e2f483-4df3-46be-a861-1f5f0c1a87bc). 
+> To change the name of a site, for example, from  *https://contoso.sharepoint.com/sites/sample1*  to  *https://contoso.sharepoint.com/sites/sample2*, you need to leverage the PowerShell commandlet Start-SPOSiteRename. Details can be found here: https://docs.microsoft.com/en-us/powershell/module/sharepoint-online/start-spositerename?view=sharepoint-ps 
   
 
