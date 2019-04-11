@@ -100,7 +100,7 @@ Using the steps below, create your own site usage guidance for your site owners 
                     </div>
                     <div class="cardText">
                         <h2>Sharing guidelines</h2>
-                        <p><b>Guidance:</p><b/>Provide info on how your company has set up sharing. If you have modified the settings from the defaults you can tell your site owners what the sharing settings are for your organization, including for external sharing. </p></p></p> <b>Resources:</b></p>Supporting resources for admins: <b><a href="https://docs.microsoft.com/en-us/sharepoint/plan-your-permissions-strategy">Plan your permissions strategy</a></b>. </p></p><b>Sample text:</b> </p><i>Your site and its contents can be shared with anyone in the organization. As site owner, you will receive access requests when someone shares your site. You can approve or decline any requests sent to you.</i></p>    </div>
+                        <p><b>Guidance:</b></p>Provide info on how your company has set up sharing. If you have modified the settings from the defaults you can tell your site owners what the sharing settings are for your organization, including for external sharing. </p></p> <b>Resources:  </b></p><a href="https://docs.microsoft.com/en-us/sharepoint/plan-your-permissions-strategy">Plan your permissions strategy</a></b>. </p></p><b>Sample text:</b> </p><i>Your site and its contents can be shared with anyone in the organization. As site owner, you will receive access requests when someone shares your site. You can approve or decline any requests sent to you.</i></p>    </div>
                 </div>
             </div>
         </div>
@@ -116,7 +116,7 @@ Using the steps below, create your own site usage guidance for your site owners 
                     </div>
                     <div class="cardText">
                         <h2>Capacity guidelines </h2>
-                        <p><b>Guidance:<b/>Provide info on capacity. Do you have set space limits? Tell your site owners how much space they get and if you have a process and policy for requesting more.</p> </p> </p></p> <b>Resources: </b><a href="https://docs.microsoft.com/en-us/sharepoint/manage-site-collection-storage-limits">Manage site storage limits</a></b>.</p></p>Sample text:<i> Your site allows for XX MB/GB of storage. You’re encouraged to remove unused sites and files.</i></p>
+                        <p><b>Guidance:</b></p>Provide info on capacity. Do you have set space limits? Tell your site owners how much space they get and if you have a process and policy for requesting more.</p></p><b>Resources: </b><a href="https://docs.microsoft.com/en-us/sharepoint/manage-site-collection-storage-limits">Manage site storage limits</a></b>.</p></p><b>Sample text: </b></p><i> Your site allows for XX MB/GB of storage. You’re encouraged to remove unused sites and files.</i></p>
                     </div>
                 </div>
             </div>
@@ -133,7 +133,7 @@ Using the steps below, create your own site usage guidance for your site owners 
                     </div>
                     <div class="cardText">
                         <h2>Managing Access</h2>
-                        <p><b>Guidance:<b/>Provide detailed info on site access.What are your processes and policies for managing site access? What level of control do your site owners have? If you manage access on behalf of your site owners, let them know that you will be reviewing site permissions regularly to keep them in line with your organization’s policies. Explain how you will communicate changes to permissions to them.</p></p></p></p> <b>Resources:</b></p>For guidance, see <a href="https://docs.microsoft.com/en-us/office365/securitycompliance/secure-sharepoint-online-sites-and-files"> Secure SharePoint Online Sites and Files </a></p></p><b>Sample text:</b>  <i>Plan to review your site’s permissions on a regular basis and set the level of access appropriately.</i></p></div>
+                        <p><b>Guidance:</b></p>Provide detailed info on site access.What are your processes and policies for managing site access? What level of control do your site owners have? If you manage access on behalf of your site owners, let them know that you will be reviewing site permissions regularly to keep them in line with your organization’s policies. Explain how you will communicate changes to permissions to them.</p></p><b>Resources: </b></p><a href="https://docs.microsoft.com/en-us/office365/securitycompliance/secure-sharepoint-online-sites-and-files"> Secure SharePoint Online Sites and Files </a></p></p><b>Sample text:</b> </p> <i>Plan to review your site’s permissions on a regular basis and set the level of access appropriately.</i></p></div>
                 </div>
             </div>
         </div>
@@ -149,7 +149,7 @@ Using the steps below, create your own site usage guidance for your site owners 
                     </div>
                     <div class="cardText">
                         <h2>Site lifecycle policy</h2>
-                        <p><b>Guidance:<b/>Provide your lifecycle policy. Does your organization set site expirations automatically or with a managed process? Do you set Office 365 Group expiration policies that impact SharePoint team sites? Let your site owners know when their site will expire, how they will be notified, what will happen and what they need to do to extend their site.</p></p> <b>Resources: </b>   <a href="https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy?view=o365-worldwide">Office 365 Group Expiration Policy</a>.  Note: Setting this policy requires Microsoft 365 global admin perms.</p></p>Does your org take extra measures related to site backup and restore? Let your site owners know how long the backup is available and if needed, how to get a site restored.</p>
+                        <p><b>Guidance:</b></p>Provide your lifecycle policy. Does your organization set site expirations automatically or with a managed process? Do you set Office 365 Group expiration policies that impact SharePoint team sites? Let your site owners know when their site will expire, how they will be notified, what will happen and what they need to do to extend their site.</p></p> <b>Resources: </b> </p>  <a href="https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy?view=o365-worldwide">Office 365 Group Expiration Policy</a>.  </p>Note: Setting this policy requires Microsoft 365 global admin perms.</p></p>Does your org take extra measures related to site backup and restore? Let your site owners know how long the backup is available and if needed, how to get a site restored.</p></p><b>Sample text: </b></p>
                     </div>
                 </div>
             </div>
