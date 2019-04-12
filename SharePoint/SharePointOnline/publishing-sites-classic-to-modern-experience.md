@@ -13,7 +13,7 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-description: "Learn about how to move from publising sites to communication sites in the SharePoint modern experience"
+description: "Learn about how to move from publishing sites to communication sites in the SharePoint modern experience"
 ---
 
 # Moving from Publishing sites to Communication sites
@@ -28,7 +28,7 @@ So, how you do move from publishing sites to communication sites? First, know th
 
 When you are ready to begin creating new Communication sites and using modern features, here are some areas to consider:
 
--   [Structure and navigation](#structure-and-navigation-use-a-hub-site)
+-   [Structure and navigation](#structure-and-navigation)
 
 -   [Branding and site design](#branding-and-site-design)
 
@@ -44,7 +44,7 @@ When you are ready to begin creating new Communication sites and using modern fe
 
 
 
-## Structure and navigation – use a hub site
+## Structure and navigation
 
 Let’s say your organization has a publishing site for Human Resources, with subsites for Benefits, Policies, Training, and Careers. It might be organized like this:
 
