@@ -79,11 +79,11 @@ To learn more about branding options, see [Branding your SharePoint Online site]
 
 [*SharePoint Online handles branding differently*](/sharepoint/dev/transform/modernize-branding) for classic site templates like the publishing site. Instead of a site template, Communication sites have three out-of-the-box layout designs: Topic and Showcase, and one open layout: Blank.
 
-When you [create a Communication site in SharePoint Online](https://support.office.com/en-us/article/create-a-communication-site-in-sharepoint-online-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb), you can start with a blank site or choose one of the other site designs, each of which comes with a default set of [web parts](https://support.office.com/en-us/article/using-web-parts-on-sharepoint-online-pages-336e8e92-3e2d-4298-ae01-d404bbe751e0). The options available are:
+When you [create a Communication site in SharePoint Online](https://support.office.com/article/7fb44b20-a72f-4d2c-9173-fc8f59ba50eb), you can start with a blank site or choose one of the other site designs, each of which comes with a default set of [web parts](https://support.office.com/article/336e8e92-3e2d-4298-ae01-d404bbe751e0). The options available are:
 
--   **Topic** to share information such as news, events, and other content. It includes a [Hero web part](https://support.office.com/en-us/article/use-the-hero-web-part-d57f449b-19a0-4b0d-8ce3-be5866430645), to highlight and link to important content; a [News web part](https://support.office.com/en-us/article/use-the-news-web-part-on-a-sharepoint-page-c2dcee50-f5d7-434b-8cb9-a7feefd9f165), to distribute announcements, reports, status, and more; an [Events web part](https://support.office.com/en-us/article/use-the-events-web-part-5fe4da93-5fa9-4695-b1ee-b0ae4c981909) based on a calendar list; and a [Highlighted content](https://support.office.com/en-us/article/use-the-highlighted-content-web-part-e34199b0-ff1a-47fb-8f4d-dbcaed329efd) web part to dynamically show documents based on your criteria.
+-   **Topic** to share information such as news, events, and other content. It includes a [Hero web part](https://support.office.com/article/d57f449b-19a0-4b0d-8ce3-be5866430645), to highlight and link to important content; a [News web part](https://support.office.com/article/c2dcee50-f5d7-434b-8cb9-a7feefd9f165), to distribute announcements, reports, status, and more; an [Events web part](https://support.office.com/article/5fe4da93-5fa9-4695-b1ee-b0ae4c981909) based on a calendar list; and a [Highlighted content](https://support.office.com/article/e34199b0-ff1a-47fb-8f4d-dbcaed329efd) web part to dynamically show documents based on your criteria.
 
--   **Showcase** to use photos or images to showcase a product, team, or event. This is a highly visual design that includes a [Hero web part](https://support.office.com/en-us/article/use-the-hero-web-part-d57f449b-19a0-4b0d-8ce3-be5866430645) with large imagery in a layered structure, and an [Image gallery](https://support.office.com/en-us/article/use-the-image-gallery-web-part-bbcbe560-14a7-4369-8ef5-3255845e3bfd) that can be shown in several different layouts, such as a tiled layout or carousel layout.
+-   **Showcase** to use photos or images to showcase a product, team, or event. This is a highly visual design that includes a [Hero web part](https://support.office.com/article/d57f449b-19a0-4b0d-8ce3-be5866430645) with large imagery in a layered structure, and an [Image gallery](https://support.office.com/article/bbcbe560-14a7-4369-8ef5-3255845e3bfd) that can be shown in several different layouts, such as a tiled layout or carousel layout.
 
 -   **Blank** to create your own design.
 
@@ -120,15 +120,15 @@ Currently there are three basic out-of-box page templates available when you cre
 
 ![Publish button](media/publishing-sites-classic-to-modern-experience_image8.png)
 
-To learn more about how to create and edit pages, see [Add a page to a site](https://support.office.com/en-us/article/add-a-page-to-a-site-b3d46deb-27a6-4b1e-87b8-df851e503dec).
+To learn more about how to create and edit pages, see [Add a page to a site](https://support.office.com/article/b3d46deb-27a6-4b1e-87b8-df851e503dec).
 
 ### Content approval for pages
 
-Content approval ensures that edits to pages meet company policies or standards. Classic publishing allows for content approval on pages using out-of-the-box workflows. Modern pages also provide for content approval, and once it is enabled, users need only to press a Submit button on the page to start the approval flow. The recommended way to do this is to use the built-in Microsoft Flow commands. Learn more at [Page approval flow](https://support.office.com/en-us/article/page-approval-flow-a8b2e689-d4a1-4639-8028-333c0ece30d9?ui=en-US&rs=en-US&ad=US).
+Content approval ensures that edits to pages meet company policies or standards. Classic publishing allows for content approval on pages using out-of-the-box workflows. Modern pages also provide for content approval, and once it is enabled, users need only to press a Submit button on the page to start the approval flow. The recommended way to do this is to use the built-in Microsoft Flow commands. Learn more at [Page approval flow](https://support.office.com/article/a8b2e689-d4a1-4639-8028-333c0ece30d9).
 
 ### Scheduling
 
-Scheduling content to “go live” at specific times is a feature of classic publishing sites. This capability is coming soon to the modern experience. Check the [Office 365 Roadmap](https://products.office.com/en-US/business/office-365-roadmap) for this and other features that are in development, rolling out, or launched.
+Scheduling content to “go live” at specific times is a feature of classic publishing sites. This capability is coming soon to the modern experience. Check the [Office 365 Roadmap](https://products.office.com/business/office-365-roadmap) for this and other features that are in development, rolling out, or launched.
 
 **Moving from classic to modern pages** At this time, there is not a way to change a classic page into a modern page without using a [multi-step code solution,](/sharepoint/dev/transform/modernize-userinterface-site-pages) which may work well for IT Admins and developers. If you are neither of those, we recommend you gradually start planning for and creating modern pages as needed.
 
@@ -136,7 +136,7 @@ If you are using a classic publishing site, you should know that it is possible 
 
 ### Wiki pages
 
-Wiki pages are a content type available in publishing sites, but they are not available in Communication sites. However, you can create modern pages using the [Text web part](https://support.office.com/en-us/article/Add-text-and-tables-to-your-page-with-the-Text-web-part-729c0aa1-bc0d-41e3-9cde-c60533f2c801) to cover many of the same scenarios as Wiki pages. Note that Wiki syntax is not available in a Text web part.
+Wiki pages are a content type available in publishing sites, but they are not available in Communication sites. However, you can create modern pages using the [Text web part](https://support.office.com/article/729c0aa1-bc0d-41e3-9cde-c60533f2c801) to cover many of the same scenarios as Wiki pages. Note that Wiki syntax is not available in a Text web part.
 
 ## Web parts
 
@@ -144,7 +144,7 @@ Modern pages use modern web parts. Modern web parts are designed to be easier to
 
 Important: Classic web parts cannot be used on modern pages and modern out-of-the-box web parts cannot be used on classic pages. Developers may create custom modern web parts that may work on both classic and modern pages. Additionally, there is not a 1:1 mapping of classic to modern web parts, but there are web parts that have similar purposes.
 
-To learn about all of the modern web parts, see [Using web parts on SharePoint Online pages](https://support.office.com/en-us/article/using-web-parts-on-sharepoint-online-pages-336e8e92-3e2d-4298-ae01-d404bbe751e0). To learn about modern web parts that have similar purposes to classic web parts, see [Classic and modern web part experiences](https://support.office.com/en-us/article/classic-and-modern-web-part-experiences-3fdae6c3-8fc1-49ab-8708-8c104b882e64).
+To learn about all of the modern web parts, see [Using web parts on SharePoint Online pages](https://support.office.com/article/336e8e92-3e2d-4298-ae01-d404bbe751e0). To learn about modern web parts that have similar purposes to classic web parts, see [Classic and modern web part experiences](https://support.office.com/article/3fdae6c3-8fc1-49ab-8708-8c104b882e64).
 
 For developers, the [SharePoint Framework](/sharepoint/dev/spfx/sharepoint-framework-overview) allows for the building of custom modern web parts that appear alongside out-of-the-box web parts in the web part toolbox. The SharePoint Framework also allows for custom extensions, the [use of the Microsoft Graph API](/sharepoint/dev/spfx/use-aad-tutorial), as well as [secure access to third party solutions and API’s secured by Azure Active Directory](/sharepoint/dev/spfx/use-aadhttpclient). Developers are encouraged to consult the [SharePoint starter kit](https://github.com/SharePoint/sp-starter-kit), where you'll find a fully built sample solution that includes numerous web parts, extensions, and other components that you can use as an example and inspiration for your own customizations. Additionally, you can find design guidance and standards for web parts and at [Designing great SharePoint experiences](/sharepoint/dev/design/design-guidance-overview).
 
@@ -152,27 +152,27 @@ For developers, the [SharePoint Framework](/sharepoint/dev/spfx/sharepoint-fram
 
 Publishing sites include a variety of web parts that enable authors to insert video, rich text, forms, and dynamic content onto a site page. Three web parts that have been unique to publishing sites are the Content Query web part to show dynamic content; and the Summary links web part and the Table of contents web part to display links to important content. The following are a selection of modern web parts that help fulfill the same purposes as these web parts.
 
-**Content query web part**: The [Highlighted content](https://support.office.com/en-us/article/use-the-highlighted-content-web-part-e34199b0-ff1a-47fb-8f4d-dbcaed329efd) web part serves a similar purpose as the Content Query web part. It dynamically displays content from a document library, a site, a site collection, or multiple sites. With the Highlighted content web part, many of the advanced and confusing search/query options of the Content Query web part have been replaced with streamlined query options. However, unlike its classic counterparts, custom display templates are not allowed.
+**Content query web part**: The [Highlighted content](https://support.office.com/article/e34199b0-ff1a-47fb-8f4d-dbcaed329efd) web part serves a similar purpose as the Content Query web part. It dynamically displays content from a document library, a site, a site collection, or multiple sites. With the Highlighted content web part, many of the advanced and confusing search/query options of the Content Query web part have been replaced with streamlined query options. However, unlike its classic counterparts, custom display templates are not allowed.
 
 **Summary links, Table of contents**: There is not a 1:1 mapping of these web parts to modern web parts. However, there are several modern web parts that can fulfill the same purpose, which is to help your users navigate from a page level to important content. These are:
 
-> [Quick links](https://support.office.com/en-us/article/use-the-quick-links-web-part-e1df7561-209d-4362-96d4-469f85ab2a82)
+> [Quick links](https://support.office.com/article/e1df7561-209d-4362-96d4-469f85ab2a82)
 >
 > With Quick links, you can add links to a page and set display options like a carousel format called filmstrip, list, or a smaller compact format. Each of the links in the compact format can be arranged and displayed with or without images. It is currently not possible to populate Quick links based on a SharePoint list.
 >
-> [Link](https://support.office.com/en-us/article/use-the-link-web-part-19c37587-118a-4813-b25a-192f3bd829d9)
+> [Link](https://support.office.com/article/19c37587-118a-4813-b25a-192f3bd829d9)
 >
 > The Link web part shows one complete URL link, and adds the ability to show or hide a preview pane with the link target. 
 >
-> [Hero web part](https://support.office.com/en-us/article/Use-the-Hero-web-part-D57F449B-19A0-4B0D-8CE3-BE5866430645)
+> [Hero web part](https://support.office.com/article/D57F449B-19A0-4B0D-8CE3-BE5866430645)
 >
 > The Hero web part is, by default, included on both the Topic and Showcase communication site templates. It is an attractive way to bring focus and visual interest to your page. You can display up to five items in the Hero web part and use compelling images, text, and links to draw attention to each.
 >
-> [Text web part](https://support.office.com/en-us/article/add-text-and-tables-to-your-page-with-the-text-web-part-729c0aa1-bc0d-41e3-9cde-c60533f2c801)
+> [Text web part](https://support.office.com/article/729c0aa1-bc0d-41e3-9cde-c60533f2c801)
 >
 > In the Text web part, you can add links within your content using the toolbar. Additionally, with the Text web part you can create a link that opens in a new tab.
 
-To learn more about modern web parts that have similar purposes to classic web parts, see [Classic and modern web part experiences](https://support.office.com/en-us/article/classic-and-modern-web-part-experiences-3fdae6c3-8fc1-49ab-8708-8c104b882e64).
+To learn more about modern web parts that have similar purposes to classic web parts, see [Classic and modern web part experiences](https://support.office.com/article/3fdae6c3-8fc1-49ab-8708-8c104b882e64).
 
 ## Sharing news
 
