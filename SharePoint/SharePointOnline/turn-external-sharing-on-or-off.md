@@ -44,6 +44,8 @@ For info about changing the external sharing setting for a site, see [Change the
 
 > [!NOTE]
 >  The SharePoint setting applies to all site types, including those connected to Office 365 groups. <br> The OneDrive setting can be more restrictive than the SharePoint setting, but not more permissive. <br> The SharePoint external sharing setting on this page is the same as the one in the Microsoft 365 admin center, under **Settings** \> **Services & add-ins** \> **Sites**. These settings are also the same as those in the OneDrive admin center. 
+
+![External sharing settings in the new SharePoint admin center](media/externalsharing.png)
   
 ### Which option to select...
 
@@ -51,7 +53,7 @@ For info about changing the external sharing setting for a site, see [Change the
 |:-----|:-----|
 |**Anyone**  <br/> | Allow users to share files and folders by using links that let anyone who has the link access the files or folders anonymously. This setting also allows users to share sites with new and existing guests who authenticate. If you select this setting, you can restrict the Anyone links so that they must expire within a specific number of days, or so that they can give only View permission.<br>|
 |**New and existing guests** <br/> | Require people who have received invitations to sign in with a their work or school account (if their organization uses Office 365) or a Microsoft account, or to provide a code to verify their identity. Users can share with guests already in your organization's directory, and they can send invitations to people who will be added to the directory if they sign in. For more info about verification codes, see [Secure external sharing in SharePoint Online](what-s-new-in-sharing-in-targeted-release.md)<br/>  Invitations to view content can be redeemed only once. After an invitation has been accepted, it cannot be shared or used by others to gain access.  <br/> |
-|**Only existing guests** <br/> |Allow sharing only with guests who are already in your directory. These guests may exist in your directory because they previously accepted sharing invitations or because they were manually added, such as through [Azure B2B collaboration](/azure/active-directory/b2b/what-is-b2b). (To see the guests in your organization, go to the [Guests page in the Microsoft 365 admin center](https://admin.microsoft.com/Adminportal/Home#/GuestUsers)).  <br/> |
+|**Existing guests** <br/> |Allow sharing only with guests who are already in your directory. These guests may exist in your directory because they previously accepted sharing invitations or because they were manually added, such as through [Azure B2B collaboration](/azure/active-directory/b2b/what-is-b2b). (To see the guests in your organization, go to the [Guests page in the Microsoft 365 admin center](https://admin.microsoft.com/Adminportal/Home#/GuestUsers)).  <br/> |
 |**Only people in your organization** <br/> | Turn off external sharing.
 
 
@@ -60,13 +62,15 @@ For info about changing the external sharing setting for a site, see [Change the
 
 ### Advanced settings for external sharing
 
+![External sharing settings in the new SharePoint admin center](media/advanced-external-sharing.png)
+
 **Limit external sharing by domain**
 
 This is useful if you want to limit sharing with particular partners, or help prevent sharing with people at certain organizations. The organization-level setting on this page affects all SharePoint sites and each user's OneDrive. To use this setting, list the domains (maximum of 1000) in the box, using the format *domain.com*. To list multiple domains, press Enter after adding each domain. 
     
 You can also limit external sharing by domain by using the [Set-SPOTenant](/powershell/module/sharepoint-online/Set-SPOTenant) Microsoft PowerShell cmdlet with -SharingDomainRestrictionMode and either -SharingAllowedDomainList or -SharingBlockedDomainList. For info about limiting external sharing by domain at the site level, see [Restricted domains sharing](restricted-domains-sharing.md).
 
-**Guests must accept sharing invitations using the same account that the invitations were sent to**
+**Guests must sign in using the same account to which sharing invitations are sent**
 
 By default, guests can receive an invitation at one account but sign in with a different account. After they redeem the invitation, it can't be used with any other account.
 
@@ -75,9 +79,11 @@ By default, guests can receive an invitation at one account but sign in with a d
 By default, guests must have full control permission to share items externally.
 
 
-## File and folder sharing links
+## File and folder links
 
 Choose the option you want to show by default when a user gets a link. 
+
+![External sharing settings in the new SharePoint admin center](media/defaultlinks.png)
 
 > [!NOTE]
 > This setting specifies the default for your organization, but site owners can choose a different default link type for a site.
@@ -93,11 +99,15 @@ Choose the option you want to show by default when a user gets a link.
 
 ### Advanced settings for "Anyone" links
 
+![External sharing settings in the new SharePoint admin center](media/advanced-settings-anyone-links.png)
+
 **Link expiration** - You can require all "Anyone" links to expire, and specify the maximum number of days allowed
 
 **Link permissions** - You can restrict "Anyone" links so that they can only provide view permission for files or folders.
 
 ## Other
+
+![External sharing settings in the new SharePoint admin center](media/othersettings.png)
 
 **Display to owners the names of people who viewed their files**
 
