@@ -44,7 +44,7 @@ From the admin center, you can also add users to an app, or delegate management 
 |****To do this:****|****Do this:****|
 |:-----|:-----|
 |Assign licenses to specific users  <br/> | Under **People with a License**, select **assign licenses**, enter the name(s) of the people you want to add, and then select **Add User**.  <br/> |
-|Buy more licenses  <br/> | Under **People with a License**, select **buy**, and then follow the steps to log in with your [ Microsoft account ](http://windows.microsoft.com/en-us/windows-live/sign-up-create-account-how) to buy the additional number of licenses than you want.  <br/> |
+|Buy more licenses  <br/> | Under **People with a License**, select **buy**, and then follow the steps to sign in with your [Microsoft account](https://support.microsoft.com/help/4026324/microsoft-account-how-to-create) to buy the additional number of licenses than you want.  <br/> |
 |Remove app licenses  <br/> | Under **View a purchase**, select the arrow next to **Actions** and then select **Remove this license**.  <br/> |
 |Recover app licenses  <br/> | When you recover a license, you basically reacquire it from the SharePoint Store. You might need to do this if your license gets out of sync with Office.com or if you are moving the license to a new deployment (for example, in a disaster recovery scenario).  <br/> 
 Under View a purchase, select the arrow next to Actions, and then select Recover license. On the Details page for the app in the SharePoint Store, select More Actions, and then select Recover license again. When prompted, sign-in with your Microsoft account. |
