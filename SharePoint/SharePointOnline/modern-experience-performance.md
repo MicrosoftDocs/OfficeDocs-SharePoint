@@ -43,16 +43,16 @@ Content in **public** origins within the Office 365 CDN is accessible anonymousl
 
 The Office 365 CDN service is included as part of your SharePoint Online subscription.
 
-For information about how to use the Office 365 CDN, see [Use the Office 365 Content Delivery Network (CDN) with SharePoint Online](https://docs.microsoft.com/en-us/Office365/Enterprise/use-office-365-cdn-with-spo).
+For information about how to use the Office 365 CDN, see [Use the Office 365 Content Delivery Network (CDN) with SharePoint Online](/Office365/Enterprise/use-office-365-cdn-with-spo).
 
-For more information about the Office 365 CDN, see [Office 365 CDN](https://docs.microsoft.com/en-us/Office365/Enterprise/content-delivery-networks).
+For more information about the Office 365 CDN, see [Office 365 CDN](/Office365/Enterprise/content-delivery-networks).
 
 # Related topics
 
-[Performance guidance for SharePoint Online portals](https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/portal-performance)
+[Performance guidance for SharePoint Online portals](/sharepoint/dev/solution-guidance/portal-performance)
 
-[Tune SharePoint Online performance](https://docs.microsoft.com/en-us/office365/enterprise/tune-sharepoint-online-performance)
+[Tune SharePoint Online performance](/office365/enterprise/tune-sharepoint-online-performance)
 
-[Content Delivery Networks](https://docs.microsoft.com/en-us/Office365/Enterprise/content-delivery-networks)
+[Content Delivery Networks](/Office365/Enterprise/content-delivery-networks)
 
-[Use the Office 365 Content Delivery Network (CDN) with SharePoint Online](https://docs.microsoft.com/en-us/Office365/Enterprise/use-office-365-cdn-with-spo)
+[Use the Office 365 Content Delivery Network (CDN) with SharePoint Online](/Office365/Enterprise/use-office-365-cdn-with-spo)

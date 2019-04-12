@@ -36,7 +36,7 @@ Help your users share, organize, and discover information with SharePoint.
         </a>
     </li>
     <li>
-        <a href="https://products.office.com/en-us/sharepoint/mobile-app">
+        <a href="https://products.office.com/sharepoint/mobile-app">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -72,7 +72,7 @@ Help your users share, organize, and discover information with SharePoint.
         </a>
     </li>
     <li>
-        <a href="https://products.office.com/en-us/sharepoint/sharepoint-partners-sharepoint-support">
+        <a href="https://products.office.com/sharepoint/sharepoint-partners-sharepoint-support">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
