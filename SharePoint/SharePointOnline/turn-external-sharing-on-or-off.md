@@ -19,9 +19,7 @@ description: "Learn how to change your SharePoint sharing settings."
 
 # Turn external sharing on or off
 
-If you're working with vendors, clients, or customers outside of your organization, you might want to give them access to specific sites, folders, or files. This article describes how to set your organization-level sharing settings for SharePoint and OneDrive. You must be a global or SharePoint admin in Office 365 to do this.
-  
-External sharing is controlled at both the organization level and the site level (previously referred to as the site collection level). The organization-level settings determine what options are available at the site level. The external sharing settings for individual sites (site collections) can be more restrictive than whatever is allowed at the organization level, but these settings can't be more permissive. 
+This article describes how global and SharePoint admins in Office 365 can change their organization-level sharing settings for SharePoint and OneDrive.
 
 For info about changing the external sharing setting for a site, see [Change the external sharing setting for a site](change-external-sharing-site.md). To learn how to change the external sharing setting for a user's OneDrive, see [Change the external sharing setting for a user's OneDrive](/onedrive/user-external-sharing-settings). 
   

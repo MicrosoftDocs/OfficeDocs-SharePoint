@@ -184,17 +184,17 @@ There are a few things you should check if one or more users in your organizatio
 ### Users see incorrect colleagues in Delve
 <a name="BKMK_DelveIncorrectColleague"> </a>
 
-If the Windows Azure Active Directory has outdated information or if hasn't been synced with the SharePoint Online user profiles, Delve may not show the most relevant colleagues. 
+If Azure Active Directory has outdated information or if hasn't been synced with the SharePoint Online user profiles, Delve may not show the most relevant colleagues. 
   
-Delve uses information from user profiles in Office 365 to determine who users in your organization work with most closely. These profiles contain information from the Windows Azure Active Directory and from SharePoint Online user profiles. Every 24 hours, people information from the Windows Azure Active Directory is automatically added to SharePoint Online user profiles. 
+Delve uses information from user profiles in Office 365 to determine who users in your organization work with most closely. These profiles contain information from Azure Active Directory and from SharePoint Online user profiles. Every 24 hours, people information from Azure Active Directory is automatically added to SharePoint Online user profiles. 
   
  **Solution(s)**
   
-- Check and clean up your Windows Azure Active Directory, and wait for the information to sync to SharePoint Online user profiles. 
+- Check and clean up your Azure Active Directory, and wait for the information to sync to SharePoint Online user profiles. 
     
-- If you're an academic organization, the sync between the Windows Azure Active Directory and user profiles is not automatic. Your users will need to log in to SharePoint Online at least once to create user profiles.
+- If you're an academic organization, the sync between Azure Active Directory and user profiles is not automatic. Your users will need to sign in to SharePoint Online at least once to create user profiles.
     
-- If you have an on-premises Active Directory and if you've set up Active Directory synchronization, make sure it's synced correctly with the Windows Azure Active Directory. 
+- If you have an on-premises Active Directory and if you've set up Active Directory synchronization, make sure it's synced correctly with Azure Active Directory. 
     
 ### Users don't see user pictures in Delve
 <a name="BKMK_DelvePictures"> </a>
