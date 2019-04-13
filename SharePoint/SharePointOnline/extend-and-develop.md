@@ -58,7 +58,7 @@ Legacy versions of SharePoint Server relied on solution packages to deploy conte
 
 The [SharePoint Framework (SPFx)](/sharepoint/dev/spfx/sharepoint-framework-overview?view=sp-typescript-latest) can be used to render custom web parts on a modern SharePoint page. Additionally, [Extensions to the SPFx](/sharepoint/dev/spfx/extensions/overview-extensions) provide the ability to add scripts to pages, create modified views of data, and surface new commands in the SharePoint user interface. SPFx application packages can be deployed to SharePoint Online sites using the [SharePoint App Catalog](use-app-catalog.md).
 
-## Using third-party sdd-ins and solutions
+## Using third-party add-ins and solutions
 
 Not only can you deploy custom apps (also known as add-ins) to your environment, but you can also purchase add-ins from the SharePoint Store. You can make these add-ins available to all users across the sites in your organization by acquiring licenses for all users in your organization. Or, you can acquire licenses for only those who need to use it, and assign those licenses to the designated users. For more information, see [Buy an app from the SharePoint Store](https://support.office.com/article/dd98e50e-d3db-4ecb-9bb7-82b189822d43) and [Manage app licenses for a SharePoint Online environment](manage-app-licenses.md).
 
