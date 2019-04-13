@@ -18,7 +18,7 @@ description: "Learn about SharePoint intranet hub sites and how to -plan for the
 
 # Planning your SharePoint hub sites
 
-[What is a SharePoint hub site?](https://support.office.com/article/fe26ae84-14b7-45b6-a6d1-948b3966427f) help you organize your intranet. Getting the most value from hub sites requires some up-front planning. Read on to find out more about hub sites and how you can plan for them. 
+[Hub sites](https://support.office.com/article/fe26ae84-14b7-45b6-a6d1-948b3966427f) help you organize your intranet. Getting the most value from hub sites requires some up-front planning. Read on to find out more about hub sites and how you can plan for them. 
   
 ## Setting the stage
 
@@ -151,7 +151,7 @@ Hub sites provide two primary organizational experiences that you should think a
     
 ### Association
 
-A site becomes part of a hub family by [Associate a SharePoint site with a hub site](https://support.office.com/article/ae0009fd-af04-4d3d-917d-88edb43efc05). When creating a hub site, SharePoint admins should [allow only certain site owners to associate sites with the hub](create-hub-site.md).
+A site becomes part of a hub family by [Associating a SharePoint site with a hub site](https://support.office.com/article/ae0009fd-af04-4d3d-917d-88edb43efc05). When creating a hub site, SharePoint admins should [allow only certain site owners to associate sites with the hub](create-hub-site.md).
   
 After a SharePoint admin gives a site owner permission to associate their sites with a hub site, the site owner can then choose to associate the sites with the hub. When they do, the site inherits the hub site theme and shared navigation. Content from their site will roll up to the hub site, and the site will be included in the hub site search scope.
   
@@ -184,7 +184,7 @@ One thing that you will miss out on if you have only one hub is the ability to e
   
 If you want to get started with a single organizational hub and you also want to be able to provide context for the information users see, you can do it, but it will require a publishing "contract" with content authors. Here are a few ways to achieve that outcome with a single hub:
   
-- **Naming conventions**: Add a prefix to news article titles and use a [Use the Highlighted content web part](https://support.office.com/article/E34199B0-FF1A-47FB-8F4D-DBCAED329EFD) to roll up news that, for example, starts with HR on the HR site and Sales on the Sales site or to group news on the hub site. 
+- **Naming conventions**: Add a prefix to news article titles and use a [Highlighted content web part](https://support.office.com/article/E34199B0-FF1A-47FB-8F4D-DBCAED329EFD) to roll up news that, for example, starts with HR on the HR site and Sales on the Sales site or to group news on the hub site. 
     
 - **Page metadata**: Map [a custom property to a managed property](manage-search-schema.md) and apply it to pages. Use your custom page metadata in a Highlighted Content web part on a page on any site. This approach gives you increased flexibility in information presentation. 
     
