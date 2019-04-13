@@ -97,7 +97,7 @@ Next, select someone in your own company to be the site owner, someone who will 
     
 6. Select **Share**.
     
-Once you have a site owner set up, have that owner invite External users to the site. Be sure your users have a [work or school account](https://support.office.com/article/37da662b-5da6-4b56-a091-2731b2ecc8b4) (an account that they can use to log in to Office 365) or a [Microsoft account](https://support.microsoft.com/instantanswers/d18cc497-d839-cf50-dea8-f99c95f2bd16) (such as an Outlook.com or Hotmail account). You must send the invitation to one of these types of accounts. 
+Once you have a site owner set up, have that owner invite External users to the site. Be sure your users have a [work or school account](https://support.office.com/article/37da662b-5da6-4b56-a091-2731b2ecc8b4) (an account that they can use to sign in to Office 365) or a [Microsoft account](https://support.microsoft.com/instantanswers/d18cc497-d839-cf50-dea8-f99c95f2bd16) (such as an Outlook.com or Hotmail account). You must send the invitation to one of these types of accounts. 
   
  **To invite users to the site**
   

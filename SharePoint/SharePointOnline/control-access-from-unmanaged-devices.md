@@ -162,7 +162,11 @@ If you go to the Azure AD admin center and slect **Conditional access**, you can
     
 2. Connect to SharePoint Online as a global admin or SharePoint admin in Office 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
     
-3. Run  `Set-SPOTenant -ConditionalAccessPolicy AllowLimitedAccess`.
+3. Run the following command:
+
+    ```PowerShell
+    Set-SPOTenant -ConditionalAccessPolicy AllowLimitedAccess`
+    ```
     
 > [!NOTE]
 > By default, this policy allows users to view and edit files in their web browser. To change this, see [Advanced configurations](control-access-from-unmanaged-devices.md#advanced). 
@@ -189,11 +193,19 @@ To block or limit access to specific sites, you must set the organization-wide p
     
 8. Connect to SharePoint Online as a global admin or SharePoint admin in Office 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
     
-9. To block access to a single site, run `Set-SPOSite -Identity https://<SharePoint online URL>/sites/<name of site or OneDrive account> -ConditionalAccessPolicy BlockAccess`.
-    
-    To limit access to a single site, run `Set-SPOSite -Identity https://<SharePoint online URL>/sites/<name of site or OneDrive account> -ConditionalAccessPolicy AllowLimitedAccess`.
+9. To block access to a single site, run the following command:
 
-    To update multiple sites at once, use the following PowerShell cmdlet as an example:
+    ```PowerShell
+    Set-SPOSite -Identity https://<SharePoint online URL>/sites/<name of site or OneDrive account> -ConditionalAccessPolicy BlockAccess
+    ```
+    
+    To limit access to a single site, run the following command:
+
+    ```PowerShell
+    Set-SPOSite -Identity https://<SharePoint online URL>/sites/<name of site or OneDrive account> -ConditionalAccessPolicy AllowLimitedAccess
+    ```
+
+    To update multiple sites at once, use the following command as an example:
 
     ```PowerShell
     , (Get-SPOSite -IncludePersonalSite $true -Limit all -Filter "Url -like '-my.spgrid.com/personal/") | Set-SPOTenant -ConditionalAccessPolicy AllowLimitedAccess
