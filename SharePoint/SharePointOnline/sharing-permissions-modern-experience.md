@@ -90,7 +90,7 @@ In a scenario where common permissions may want to be applied across all or a su
 
 Modern SharePoint Team sites and Communication sites are built on the same foundation yet have important differences that should be considered.
 
-Each Team sites is associated with an Office 365 Group. Office 365 Groups allow for two types of users, Owners and Members. As such, there are two primary types of users that are given access to a team site, those that are owners and have full control of the site, and members, which are users that only have editing capabilities, but not general configuration permissions.
+Each Team site is associated with an Office 365 Group. Office 365 Groups allow for two types of users, Owners and Members. As such, there are two primary types of users that are given access to a team site, those that are owners and have full control of the site, and members, which are users that only have editing capabilities, but not general configuration permissions.
 
 Team site permissions are driven by SharePoint groups and may be administered by the group owners. The advanced permission settings allow for more granular control of permissions but is not recommended for general team use cases as the permissions will not extend back into the Office 365 Group or its related services.
 
