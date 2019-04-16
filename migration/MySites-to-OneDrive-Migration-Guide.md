@@ -145,15 +145,8 @@ The following articles will help your users “make the switch” from My Sites 
 ## Advanced
 
 ### Migration offerings
-Currently, there are a variety of migration offerings available to you. They include:
+Currently, migration offerings available to you include:
 
-**Microsoft FastTrack**
-
-FastTrack is a Microsoft service included in your subscription cost that provides you with a set of best practices, tools, resources, and experts committed to making your experience with the Microsoft Cloud a great one. OneDrive onboarding guidance, migration benefits, and adoption guidance are included in the benefit offering. 
-
-Onboarding guidance includes: help to discover what’s possible, creating a plan for success,and onboarding new users and capabilities at a flexible pace.
-
-Interested in getting started? Visit [FastTrack.microsoft.com](https://fasttrack.microsoft.com/) to review resources and submit a Request for Assistance.
 
 **Migration service providers**
 
