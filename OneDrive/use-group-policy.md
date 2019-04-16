@@ -149,7 +149,7 @@ This setting lets you prevent users from easily uploading files to another organ
 
 If you enable this setting, users will get an error if they attempt to add an account from an organization that is blocked. If a user has already added the account, the files will stop syncing.
   
-In the **Options** box, click **Show** to enter the tenant ID. 
+In the **Options** box, click **Show** to enter the tenant ID.
   
 This policy sets the following registry key.
   
