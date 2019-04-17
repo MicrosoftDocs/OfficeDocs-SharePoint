@@ -148,12 +148,12 @@ When the content across sites in an organization has consistent metadata, it is 
 ### Metadata navigation for sites
 <a name="__migbm_12"></a>
 
-Metadata navigation for sites enables a site administrator to create navigation elements based on metadata terms. For more information including performance recommendations, see [Navigation options for SharePoint Online](https://docs.microsoft.com/en-us/office365/enterprise/navigation-options-for-sharepoint-online).
+Metadata navigation for sites enables a site administrator to create navigation elements based on metadata terms. For more information including performance recommendations, see [Navigation options for SharePoint Online](/office365/enterprise/navigation-options-for-sharepoint-online).
   
 ### Metadata navigation for lists and libraries
 <a name="__migbm_13"> </a>
 
-Metadata navigation enables users to create views of information dynamically, based on specific metadata fields. Then, users can locate libraries by using folders or by using metadata pivots, and refine the results by using additional Key Filters. To learn how to set this up, see [Set up metadata navigation for a list or library](https://support.office.com/article/c222a75d-8b18-44e2-9ed8-7ee4e0d23cfc) and [Use grouping to modify a SharePoint view](https://support.office.com/en-us/article/Use-grouping-to-modify-a-SharePoint-view-18548b63-a869-4fcf-89b1-ba3d04784df7).
+Metadata navigation enables users to create views of information dynamically, based on specific metadata fields. Then, users can locate libraries by using folders or by using metadata pivots, and refine the results by using additional Key Filters. To learn how to set this up, see [Set up metadata navigation for a list or library](https://support.office.com/article/c222a75d-8b18-44e2-9ed8-7ee4e0d23cfc) and [Use grouping to modify a SharePoint view](https://support.office.com/article/18548b63-a869-4fcf-89b1-ba3d04784df7).
   
 ### Increased flexibility
 <a name="__migbm_14"> </a>

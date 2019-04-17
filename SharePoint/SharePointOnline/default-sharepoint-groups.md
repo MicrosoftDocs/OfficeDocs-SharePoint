@@ -84,9 +84,6 @@ The following table describes the SharePoint groups that are created when you us
   
  **Company Administrator** This group contains all users who are assigned the global admin role. For more info about this role and its permissions in Azure AD, see [Company administrator](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#company-administrator). The root site for your organization is created with "Company Administrator" as the primary admin. 
   
-> [!NOTE]
->  You can **Company Administrator** as an admin to any site, but you can't add it as a primary admin. If you remove it as the primary admin for your root site, you can't add it back. 
-  
 ## Site administrators 
   
 ||**SharePoint Online**|**SharePoint On-premises**|
