@@ -58,6 +58,6 @@ A: You can do two things. First, ensure that your internal and external sites ar
   
 ### Q: What do I need to do to take advantage of auto acceleration on externally shared sites?
 
-A: Guests can potentially authenticate in one of three places: Azure Active Directory (if their organization is a "cloud" organization or they use a Microsoft Account), the IdP of the user's organization, or your IdP (if you use an on-premises extranet solution). If you want to enable auto-acceleration for externally shared sites, your IdP needs to be capable of supporting these use cases (or at least the ones that you want your guests to use). To support guests in Azure AD, Microsoft Account, or other IdPs, your IdP will need to be capable of returning the user to the Azure AD signin screen for authentication.
+A: Guests can potentially authenticate in one of three places: Azure Active Directory (if their organization is a "cloud" organization or they use a Microsoft account), the IdP of the user's organization, or your IdP (if you use an on-premises extranet solution). If you want to enable auto-acceleration for externally shared sites, your IdP needs to be capable of supporting these use cases (or at least the ones that you want your guests to use). To support guests in Azure AD, Microsoft account, or other IdPs, your IdP will need to be capable of returning the user to the Azure AD signin screen for authentication.
   
 

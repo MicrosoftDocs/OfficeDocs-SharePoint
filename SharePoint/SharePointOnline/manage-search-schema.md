@@ -374,7 +374,7 @@ If you don't want a document to show up in Delve, you can create a HideFromDelve
   
  **Add a site column to the library or list where the document is stored**
   
-1. Log in as a site collection administrator and go to the site where the document that you want to hide from Delve is stored.
+1. Sign in as a site collection administrator and go to the site where the document that you want to hide from Delve is stored.
     
 2. On the ribbon, click the **List** or **Library** tab. 
     

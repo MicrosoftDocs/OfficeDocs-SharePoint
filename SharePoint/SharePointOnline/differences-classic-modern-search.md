@@ -20,7 +20,7 @@ SharePoint Online has both a classic and a modern search experience. Both search
 
 As a search administrator, you can’t enable or disable either classic or modern search. Users get the classic search experience on publishing sites, classic team sites, and in the Search Center. Users get the modern search experience on the SharePoint home page, hub sites, communication sites, and modern team sites.
 
-The most visible difference is that modern search is personal and the results you see are different from what other people see, even when you search for the same words. You'll see results before you start typing, and the results update as you type. [Learn more about the modern search experience](https://support.office.com/en-us/article/What-s-new-in-search-in-Office-365-b81ab573-ec9c-4aa9-a369-b3c630f878a7)​.
+The most visible difference is that modern search is personal and the results you see are different from what other people see, even when you search for the same words. You'll see results before you start typing, and the results update as you type. [Learn more about the modern search experience](https://support.office.com/article/b81ab573-ec9c-4aa9-a369-b3c630f878a7)​.
 
 ​
 Another difference is that search administrators can customize the *classic* search experience, but only impact some aspects of the modern search experience. See [Overview of search](overview-of-search.md) to learn about the main areas where you can customize and impact the search experience and make sure that search is performing the way you want.​
