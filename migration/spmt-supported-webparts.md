@@ -16,7 +16,7 @@ ms.assetid:
 description: "SharePoint Migration Tool table of supported webparts for migration."
 ---
 
-# SharePoint Webparts supported by the SharePoint Migration Tool
+# SharePoint web parts supported by the SharePoint Migration Tool
 
 > [!Important]
 >**Allow or prevent Custom Script (NoScript)** </br>
