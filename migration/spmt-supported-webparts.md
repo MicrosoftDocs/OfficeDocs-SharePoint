@@ -18,6 +18,27 @@ description: "SharePoint Migration Tool table of supported webparts for migratio
 
 # SharePoint Webparts supported by the SharePoint Migration Tool
 
+> [!Important]
+>**Allow or prevent Custom Script (NoScript)** </br>
+>In Office 365 tenants you can control whether users can run custom script on personal sites and self-service created sites. 
+>
+>During migration, some web parts require this setting set to **allow**.  Otherwise, the web part will not be migrated.
+
+>At least 24 hours before you start migration, do the following:
+>1. From the SharePoint Admin Center, select Settings.
+>2. Scroll down to "Custom Script".
+>3. Select both of the following:</br>
+>*Allow users to run custom script on personal sites*</br>
+>*Allow users to run customer script on self-service created sites*
+
+>Leave these settings in place for the duration of your migration.
+
+ > [!NOTE]
+ > Changes to this setting might take up to 24 hours to take effect.
+
+For more information, see: [Allow or prevent custom script](https://docs.microsoft.com/en-us/sharepoint/allow-or-prevent-custom-script)</br>
+
+
 The following table details the SharePoint Webparts that are currently supported by the SharePoint Migration Tool (SPMT). 
 
 |**Category**|**Webpart Name**|**Supported**|
