@@ -148,7 +148,7 @@ description: SharePoint documentation
                                 </a>
                             </li>
                             <li>
-                                <a href="/sharepoint/support/index">
+                                <a href="/sharepoint/support">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
