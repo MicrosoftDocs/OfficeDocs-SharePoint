@@ -72,6 +72,14 @@ Limiting access allows users to remain productive while addressing the risk of a
 11. Select **Save**. 
 
 > [!NOTE] 
+> **Conditional Access Session Control has two options:**
+- **Use app-enforced Restrictions** 
+  - This control only works with supported apps. Currently Exchange Online and SharePoint Online are the only cloud apps that support app enforced restrictions. Click here to learn more. [Use app enforced restrictions](https://docs.microsoft.com/azure/active-directory/conditional-access/controls#use-app-enforced-restrictions)
+
+- **Conditional Access App control**
+  - This control only works with featured apps. Click here to learn more. [Supported apps and clients](https://docs.microsoft.com/cloud-app-security/proxy-intro-aad#supported-apps-and-clients)
+
+> [!NOTE] 
 > It can take 5-10 minutes for the policy to take effect. It won't take effect for users who are already signed in from unmanaged devices. 
 
 > [!IMPORTANT] 
