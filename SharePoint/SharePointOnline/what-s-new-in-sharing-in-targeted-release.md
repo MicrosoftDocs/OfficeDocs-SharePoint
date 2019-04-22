@@ -53,5 +53,9 @@ The following table shows the differences between sharing with external users wi
 |SecureLinkDeleted  <br/> |A link that only works for specific people was deleted. It is usually preceded by a series of RemovedFromSecureLink operations which signify the users who used to be secured to the link. The value in the **Detail** column for this activity identifies the UniqueSharingId for this link which can be used to match against future AddedToSecureLink and RemovedFromSecureLink operations. <br/> |
 |AddedToSecureLink  <br/> |A link that only works for specific people was secured to a user. The value in the **Detail** column for this activity identifies the name or email of the user the link was secured to and whether this user is an external user. The value also has a UniqueSharingId column that identifies the link they were secured to.  <br/> |
 |RemovedFromSecureLink  <br/> |A user was removed from a link that only works for specific people. The value in the **Detail** column for this activity identifies the name or email of the user the link was previously secured to and whether this user is an external user. The value also has a UniqueSharingId column that identifies the link they were secured to.  <br/> |
-   
+
+## See also
+[External sharing overview](external-sharing-overview.md)
+
+[Tenant-wide settings for SharePoint Online and OneDrive for Business](https://docs.microsoft.com/office365/securitycompliance/secure-sharepoint-online-sites-and-files)
 
