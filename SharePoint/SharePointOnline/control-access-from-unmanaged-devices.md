@@ -152,7 +152,7 @@ Limiting access allows users to remain productive while addressing the risk of a
     > [!NOTE]
     > It can take 5-10 minutes for the policies to take effect. They won't take effect for users who are already signed in from unmanaged devices. <br>By default, this policy allows users to view and edit files in their web browser. To change this, see [Advanced configurations](control-access-from-unmanaged-devices.md#advanced). 
   
-If you go to the Azure AD admin center and slect **Conditional access**, you can see that two policies were created by the SharePoint admin center. By default, the policy applies to all users. To apply it to only specific security groups, make changes under **Users and groups**. Be careful not to create multiple conditional access polices in the Azure AD admin center that conflict with each other. You can disable the policies created by the SharePoint admin center and then manually create the conditional access policies you need.
+If you go to the Azure AD admin center and select **Conditional access**, you can see that two policies were created by the SharePoint admin center. By default, the policy applies to all users. To apply it to only specific security groups, make changes under **Users and groups**. Be careful not to create multiple conditional access polices in the Azure AD admin center that conflict with each other. You can disable the policies created by the SharePoint admin center and then manually create the conditional access policies you need.
   
 ![Creating two policies in the Azure AD admin center to limit access](media/54c5106a-fd19-49b9-a997-4295e9f788be.png)
   
