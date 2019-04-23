@@ -36,4 +36,6 @@ The sync client also supports non-persistent environments that use [Windows Virt
 
 For info about creating virtual hard disks, see [Manage virtual hard disks](/windows-server/storage/disk-management/manage-virtual-hard-disks)
 
+## See also
 
+[OneDrive for Business and VDI environments](/deployoffice/rds-onedrive-business-vdi)
