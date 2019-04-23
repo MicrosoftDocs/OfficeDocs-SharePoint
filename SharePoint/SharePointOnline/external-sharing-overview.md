@@ -39,7 +39,7 @@ The external sharing features of SharePoint Online let users in your organizatio
 > [!NOTE]
 > External sharing is turned on by default for your entire SharePoint Online environment and the sites in it. You may want to [turn it off globally](turn-external-sharing-on-or-off.md) before people start using sites or until you know exactly how you want to use the feature. 
   
-## How do the external sharing settings work?
+## How the external sharing settings work
 
 SharePoint Online has external sharing settings at both the organization level and the site level (previously called the "site collection" level). To allow external sharing on any site, you must allow it at the organization level. You can then restrict external sharing for other sites. If a site's external sharing option and the organization-level sharing option don't match, the most restrictive value will always be applied.
   

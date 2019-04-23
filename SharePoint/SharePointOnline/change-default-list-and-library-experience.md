@@ -20,9 +20,10 @@ description: "How admins can choose the modern or classic list and library exper
 
 # Change the default list and library experience
 
-As a global or SharePoint admin in Office 365, you can decide whether to use the new or classic list and library experience by default in your organization. This setting is soon going away. Instead of selecting the classic experience for all sites, we recommend setting it for only the specific sites that need it by using PowerShell. (For info about doing this, see [Opting out of the modern list and library experience](/sharepoint/dev/transform/modernize-userinterface-lists-and-libraries-optout).)
+As a global or SharePoint admin in Office 365, you can decide whether to use the new or classic list and library experience by default in your organization. 
 
-Note that users can select the default experience for an individual list or library, overriding what you set. For info, see [Switch the default experience for lists or document libraries from new or classic](https://support.office.com/article/66dac24b-4177-4775-bf50-3d267318caa9). 
+> [!NOTE]
+> This setting is soon going away. Instead of selecting the classic experience for all sites, we recommend setting it for only the specific sites that need it. To learn how to turn off the new list and library experience for a site collection, see [Enable or disable site collection features](https://support.office.com/article/a2f2a5c2-093d-4897-8b7f-37f86d83df04). For info about changing this setting using PowerShell, see [Opting out of the modern list and library experience](/sharepoint/dev/transform/modernize-userinterface-lists-and-libraries-optout).)<br>Users can select the default experience for an individual list or library, overriding what you set. For info, see [Switch the default experience for lists or document libraries from new or classic](https://support.office.com/article/66dac24b-4177-4775-bf50-3d267318caa9). 
 
 It's best to use the new experience by default wherever possible because it's faster, simpler, and responsive on mobile devices. It also supports many new capabilities that are not available in classic, including Flow and PowerApps integration, the Filters pane, and column formatting. Many sites that have features or customizations that don’t work in the new experience will automatically switch back to the classic experience. For more information about this behavior, see [Differences between the new and classic experiences for lists and libraries](https://support.office.com/article/30e1aab0-a5cc-4363-b7f2-09e2ae07d4dc). To detect lists that won't work well with the new experience, run the [SharePoint Modernization scanner](https://aka.ms/sppnp-modernizationscanner). 
   
@@ -40,9 +41,4 @@ It's best to use the new experience by default wherever possible because it's fa
 4. In the left pane of the new SharePoint admin center, select **Settings**.
     
 5. Select **Lists &amp; libraries**, and turn **Use the new experience** to On to use the new experience.
-    
-
-  
-
-
 
