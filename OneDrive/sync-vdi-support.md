@@ -27,8 +27,8 @@ The sync client also supports non-persistent environments that use [Windows Virt
 - [FSLogix Apps 2.8 or later](https://fslogix.com/products/fslogix-apps). [Request an evaluation copy](http://info.fslogix.com/request-an-evaluation)
 - [FSLogix Office 365 Container](https://fslogix.com/products/office-365-container)
 - A Microsoft 365 or Office 365 subscription
-- Windows 10 32 or 64-bit (supports VHDX files) [Info about VHDX](/openspecs/windows_protocols/ms-vhdx/83f6b700-6216-40f0-aa99-9fcb421206e2)
-- Windows 7 32 or 64-bit (supports VHD files) [Info about VHD](/windows/desktop/vstor/about-vhd).
+- Windows 10, 32 or 64-bit (supports VHDX files) [Info about VHDX](/openspecs/windows_protocols/ms-vhdx/83f6b700-6216-40f0-aa99-9fcb421206e2)
+- Windows 7, 32 or 64-bit (supports VHD files) [Info about VHD](/windows/desktop/vstor/about-vhd)
 - Windows Server 2016 R2 (supports VHDX)
 - Windows Server 2012 R2 (supports VHDX)
 - Windows Server 2008 R2 (supports VHD and VHDX)
