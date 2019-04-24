@@ -181,7 +181,7 @@ The following table lists the recommended guidelines for lists and libraries. Fo
 #### Column limits
 <a name="Column"> </a>
 
-SharePoint Server 2013 data is stored in SQL Server tables. Each column type has a size value listed in bytes. The sum of all columns in a SharePoint list cannot exceed 8,000 bytes.
+SharePoint Server 2013 data is stored in SQL Server tables. To allow for the maximum number of possible columns in a SharePoint list, SharePoint Server 2013 will create several rows in the database when data will not fit on a single row. This is called row wrapping. Each time that a row is wrapped in SQL Server, an additional query load is put on the server when that item is queried because a SQL join must be included in the query. This design requires to set limits for column size per data type, and based on the sum of bytes allocated per list definition. Each column type has a size value listed in bytes. The sum of all columns in a SharePoint list cannot exceed 8,000 bytes.
   
 |**Limit**|**Maximum # columns**|**Limit type**|**Size per column**|**Notes**|
 |:-----|:-----|:-----|:-----|:-----|
