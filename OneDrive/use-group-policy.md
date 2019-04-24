@@ -23,7 +23,7 @@ description: "Learn how to use Group Policy to administer settings for the OneDr
 
 # Use Group Policy to control OneDrive sync client settings
 
-This article is for IT admins managing the new OneDrive sync client in a Windows Server enterprise environment that uses Active Directory Domain Services (AD DS).
+This article is for IT admins who manage the new OneDrive sync client in a Windows Server enterprise environment that uses Active Directory Domain Services (AD DS).
   
 > [!NOTE]
 > If you're not an IT admin, see [Sync files with the new OneDrive sync client in Windows](https://support.office.com/article/615391c4-2bd3-4aae-a42a-858262e42a49) for info about OneDrive sync settings. 
@@ -43,7 +43,7 @@ This article is for IT admins managing the new OneDrive sync client in a Windows
   
 3. Copy the .adml and .admx files.
 
-4. Paste the .admx file in your domain's Central Store, \\*domain*\sysvol\domain\Policies\PolicyDefinitions, (where  *domain*  is your domain name, such as corp.contoso.com), and the .adml in the appropriate language subfolder (such as en-us).  If the PolicyDefinitions folder does not exist, see [How to create and manage the Central Store for Group Policy Administrative Templates in Windows](https://support.microsoft.com/en-us/help/3087759).
+4. Paste the .admx file in your domain's Central Store, \\*domain*\sysvol\domain\Policies\PolicyDefinitions (where *domain* is your domain name, such as corp.contoso.com), and the .adml in the appropriate language subfolder (such as en-us). If the PolicyDefinitions folder does not exist, see [How to create and manage the Central Store for Group Policy Administrative Templates in Windows](https://support.microsoft.com/en-us/help/3087759).
     
 5. Configure settings from the domain controller or on a Windows computer by running the [Remote Server Administration Tools](https://go.microsoft.com/fwlink/?linkid=871794). 
     
@@ -162,7 +162,7 @@ This setting will NOT work if you have [Allow syncing OneDrive accounts for only
 ### Convert synced team site files to online-only files
 <a name="DehydrateSyncedTeamSites"> </a>
 
-This setting lets you convert synced SharePoint files to online-only files when you enable OneDrive Files On-Demand. Enabling this setting helps you minimize network traffic and local storage usage if you have many PCs syncing the same team site.
+This setting lets you convert synced SharePoint files to online-only files when you enable OneDrive Files On-Demand. If you have many PCs syncing the same team site, enabling this setting helps you minimize network traffic and local storage usage.
   
 If you enable this setting, files in currently syncing team sites will be changed to online-only files by default. Files later added or updated in the team site will also be downloaded as online-only files. 
 
@@ -215,7 +215,7 @@ Enabling this policy sets the following registry key value to 1.
 ### Prevent users from fetching files remotely
 <a name="RemoteAccessGPOEnabled"> </a>
 
-This setting lets you block users from using the fetch feature when they’re signed in to the OneDrive sync client (OneDrive.exe) with their personal OneDrive account. The fetch feature lets users to go to OneDrive.com, select a Windows computer that's currently online and running the OneDrive sync client, and access all files from that computer. By default, users can use the fetch feature.
+This setting lets you block users from using the fetch feature when they’re signed in to the OneDrive sync client (OneDrive.exe) with their personal OneDrive account. The fetch feature lets users go to OneDrive.com, select a Windows computer that's currently online and running the OneDrive sync client, and access all files from that computer. By default, users can use the fetch feature.
 
 If you enable this setting, users will be prevented from using the fetch feature.
   
@@ -233,7 +233,7 @@ This setting prevents users from moving their Documents, Pictures, and Desktop f
 > [!NOTE]
 > Moving known folders to personal OneDrive accounts is already blocked on domain-joined PCs. 
   
-If you enable this setting, users won't be prompted with the a window to protect their important folders, and the "Start protection" command will be disabled. If the user has already moved their known folders, the files in those folders will remain in OneDrive. This setting will not take effect if you've enabled "Prompt users to move Windows known folders to OneDrive" or "Silently move Windows known folders to OneDrive."
+If you enable this setting, users won't be prompted with a window to protect their important folders, and the "Start protection" command will be disabled. If the user has already moved their known folders, the files in those folders will remain in OneDrive. This setting will not take effect if you've enabled "Prompt users to move Windows known folders to OneDrive" or "Silently move Windows known folders to OneDrive."
   
 If you disable or do not configure this setting, users can choose to move their known folders.
   
@@ -268,7 +268,7 @@ This setting displays the following window that prompts users to move their Docu
   
 ![Window prompting users to protect important folders](media/protect-important-folders-gpo.png)
   
-If you enable this setting and provide your tenant ID, users who are syncing their OneDrive will see the the window above when they're signed in. If they close the window, a reminder notification will appear in the activity center until they move all three known folders. If a user has already redirected their known folders to a different OneDrive account, they will be prompted to direct the folders to the account for your organization (leaving existing files behind).
+If you enable this setting and provide your tenant ID, users who are syncing their OneDrive will see the window above when they're signed in. If they close the window, a reminder notification will appear in the activity center until they move all three known folders. If a user has already redirected their known folders to a different OneDrive account, they will be prompted to direct the folders to the account for your organization (leaving existing files behind).
   
 If you disable or do not configure this setting, the window that prompts users to protect their important folders won't appear. 
   
@@ -443,7 +443,7 @@ If you disable this setting, the **Office** tab is hidden in the sync client, an
 > [!IMPORTANT]
 > This feature is currently enabled in the Insiders ring only. To try it, join the [Windows Insider program](https://insider.windows.com/) or the [Office Insider](https://products.office.com/office-insider) program.
 
-This setting allows you to specify SharePoint team site libraries to sync automatically the next time users signs in to the OneDrive sync client (OneDrive.exe). It may take up to 8 hours after a users signs in before the library begins to sync. To use the setting, you must enable OneDrive Files On-Demand, and the setting applies only for users on computers running Windows 10 Fall Creators Update (version 1709) or later. Do not enable this setting for the same library to more than 1,000 devices. This feature is not enabled for on-premises SharePoint sites. 
+This setting allows you to specify SharePoint team site libraries to sync automatically the next time users sign in to the OneDrive sync client (OneDrive.exe). It may take up to 8 hours after a user signs in before the library begins to sync. To use the setting, you must enable OneDrive Files On-Demand, and the setting applies only for users on computers running Windows 10 Fall Creators Update (version 1709) or later. Do not enable this setting for the same library to more than 1,000 devices. This feature is not enabled for on-premises SharePoint sites. 
 
 If you enable this setting, the OneDrive sync client will automatically sync the contents of the libraries you specified as online-only files the next time the user signs in. The user won't be able to stop syncing the libraries.  
 
