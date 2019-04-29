@@ -1,3 +1,4 @@
+---
 title: Sites usage guidelines checklist - test alternate
 description: A checklist to help guide users to create their site usage guidance.
 author: jhendr
@@ -10,8 +11,7 @@ ms.devlang: na
 ms.topic: landing-page
 ms.author: jhendr
 localization_priority: None 
----
-=========================================
+-----
 
 # Sites usage guideslines checklist TEST TEST
 
