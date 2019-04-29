@@ -47,7 +47,7 @@ Using the steps below, create your own site usage guidance for your site owners 
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>General guidelines</h3>
+                        <h2>General guidelines</h2>
                         <p><b>Guidance:</b> </p>Provide general policy statements that you want your users to follow. These may include key business uses you have defined for sites, internal communication policies, or security and privacy guidelines.</p><b>Resources:</b></p></p><b>Sample text:</b></p>
                     </div>
                 </div>
@@ -64,7 +64,7 @@ Using the steps below, create your own site usage guidance for your site owners 
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Guidelines for creating your site</h3>
+                        <h2>Guidelines for creating your site</h2>
                         <p><b>Guidance:</b></p>Provide basic procedural guidance. How does someone get a SharePoint site? It may be via the “create site” link on SharePoint home or you may have a unique provisioning process for your organization.</p>If you have specific site templates that you want your site owners to select during self-provisioning, include that info in this section.</p>Information on custom provisioning solutions Branding and site provisioning solutions for SharePoint.</p>Are there any ownership or site classification requirements your organization has implemented?  </P>When you set up your site, it’s important to select the appropriate site classification level. Include references or links to your your organization’s data classification guidelines.</p> <b>Resources:</b></p> <a href="https://docs.microsoft.com/en-us/sharepoint/manage-site-creation">Manage site creation in SharePoint Online </a>. </p></p>  <a href="https://docs.microsoft.com/en-us/office365/securitycompliance/secure-sharepoint-online-sites-and-files">Secure SharePoint Online Sites and Files.</a>  </p></p></p></p><b>Sample text:</b></p> <i>Sites can be created via the “create site” link at [insert your SharePoint link].  See the “Guidelines for creating your site” page in this guide for more on how to create your site. (For those using this for their ‘SharePoint Success Site’ site.)  You should have two site owners who are both full time employees at your org.</i>
 </p>
                     </div>
@@ -82,7 +82,7 @@ Using the steps below, create your own site usage guidance for your site owners 
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Your sites designs and customizations</h3>
+                        <h2>Your sites designs and customizations</h2>
                         <p><b>Guidance:</b></p>Provide information on design guidelines. Does your organization have or allow custom themes? Or do you stick with out of the box options?</p></p></p> <b>Resources:</b></p>Manage site creation</p> Information for devs on custom site themes: SharePoint site theming overview</p>Do you have specific templates or web parts you want site owners to use? Explain those so they understand why and how. </p>Does your organization allow custom scripts and add-ins? <a href="https://docs.microsoft.com/en-us/sharepoint/extend-and-develop">Customizing SharePoint </a>.</p></p>We recommend creating a way for site owners to engage with your team when they want to customize a site. Set up a service ticket category or form to make it easy to contact you. </p></p><b>Sample text:</b></p>  <i>It’s important that your site meet your business needs. If you need to create a custom add-in or deploy a resource intensive app, work with our internal team. For more information, contact [insert your own link]. </i></p>
                     </div>
                 </div>
@@ -99,7 +99,7 @@ Using the steps below, create your own site usage guidance for your site owners 
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Sharing guidelines</h3>
+                        <h2>Sharing guidelines</h2>
                         <p><b>Guidance:</b></p>Provide info on how your company has set up sharing. If you have modified the settings from the defaults you can tell your site owners what the sharing settings are for your organization, including for external sharing. </p></p> <b>Resources:  </b></p><a href="https://docs.microsoft.com/en-us/sharepoint/plan-your-permissions-strategy">Plan your permissions strategy</a></b>. </p></p><b>Sample text:</b> </p><i>Your site and its contents can be shared with anyone in the organization. As site owner, you will receive access requests when someone shares your site. You can approve or decline any requests sent to you.</i></p>    </div>
                 </div>
             </div>
@@ -115,7 +115,7 @@ Using the steps below, create your own site usage guidance for your site owners 
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Capacity guidelines </h3>
+                        <h2>Capacity guidelines </h2>
                         <p><b>Guidance:</b></p>Provide info on capacity. Do you have set space limits? Tell your site owners how much space they get and if you have a process and policy for requesting more.</p></p><b>Resources: </b><a href="https://docs.microsoft.com/en-us/sharepoint/manage-site-collection-storage-limits">Manage site storage limits</a></b>.</p></p><b>Sample text: </b></p><i> Your site allows for XX MB/GB of storage. You’re encouraged to remove unused sites and files.</i></p>
                     </div>
                 </div>
@@ -132,7 +132,7 @@ Using the steps below, create your own site usage guidance for your site owners 
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Managing Access</h3>
+                        <h2>Managing Access</h2>
                         <p><b>Guidance:</b></p>Provide detailed info on site access.What are your processes and policies for managing site access? What level of control do your site owners have? If you manage access on behalf of your site owners, let them know that you will be reviewing site permissions regularly to keep them in line with your organization’s policies. Explain how you will communicate changes to permissions to them.</p></p><b>Resources: </b></p><a href="https://docs.microsoft.com/en-us/office365/securitycompliance/secure-sharepoint-online-sites-and-files"> Secure SharePoint Online Sites and Files </a></p></p><b>Sample text:</b> </p> <i>Plan to review your site’s permissions on a regular basis and set the level of access appropriately.</i></p></div>
                 </div>
             </div>
@@ -148,7 +148,7 @@ Using the steps below, create your own site usage guidance for your site owners 
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Site lifecycle policy</h3>
+                        <h2>Site lifecycle policy</h2>
                         <p><b>Guidance:</b></p>Provide your lifecycle policy. Does your organization set site expirations automatically or with a managed process? Do you set Office 365 Group expiration policies that impact SharePoint team sites? Let your site owners know when their site will expire, how they will be notified, what will happen and what they need to do to extend their site.</p></p> <b>Resources: </b> </p>  <a href="https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy?view=o365-worldwide">Office 365 Group Expiration Policy</a>.  </p>Note: Setting this policy requires Microsoft 365 global admin perms.</p></p>Does your org take extra measures related to site backup and restore? Let your site owners know how long the backup is available and if needed, how to get a site restored.</p></p><b>Sample text: </b></p>
                     </div>
                 </div>
