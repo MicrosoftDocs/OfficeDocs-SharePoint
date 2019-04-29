@@ -100,6 +100,8 @@ The OneDrive Group Policy objects work by setting registry keys on the computers
     
 - [Receive OneDrive sync client updates on the Enterprise ring](use-group-policy.md#EnableEnterpriseUpdate)
 
+- [Require users to confirm large delete operations](use-group-policy.md#ForcedLocalMassDeleteDetection)
+
 - [Set the default location for the OneDrive folder](use-group-policy.md#DefaultRootDir)
  
 - [Set the maximum size of a user's OneDrive that can download automatically](use-group-policy.md#DiskSpaceCheckThresholdMB)
@@ -279,6 +281,19 @@ Enabling this policy sets the following registry key:
 (where "1111-2222-3333-4444" is the [tenant ID](find-your-office-365-tenant-id.md))
 
 [More info about known folder move](redirect-known-folders.md) 
+
+### Require users to confirm large delete operations
+<a name="ForcedLocalMassDeleteDetection"> </a>
+
+This setting makes users confirm that they want to delete files in the cloud when they delete a large number of synced files.
+
+If you enable this setting, a warning will always appear when users delete a large number of synced files. If a user does not confirm a delete operation within 7 days, the files will not be deleted.
+
+If you disable or do not configure this setting, users can choose to hide the warning and always delete files in the cloud.
+
+Enabling this policy sets the following registry key value to 1.
+  
+[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"ForcedLocalMassDeleteDetection"="dword:00000001"
 
 ### Set the maximum size of a user's OneDrive that can download automatically
 <a name="DiskSpaceCheckThresholdMB"> </a>
