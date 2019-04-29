@@ -30,7 +30,7 @@ Using the steps below, create your own site usage guidance for your site owners 
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Introduction</h3>
+                        <h2>Introduction</h2>
                         <p><b>Guidance:</b></p>Provide a short introduction to frame your guidelines. If you have broader business or digital resource use policy, link to it if it applies to SharePoint sites as well.</p></p><b>Resources:</b></p></p><b>Sample Text:</b></p>  <i> A SharePoint site is designed to be a powerful tool for team collaboration and communication. Our [enter your IT/productivity service org] administers the Microsoft 365 service your site is built on. The goal is to make it easy to accomplish your business goals.</p>Here are some things to keep in mind as you work with your SharePoint sites.</p> Refer to [ insert your orgs name] business resource use policy. These policies apply to all SharePoint site usage.</i></p>
                     </div>
                 </div>
