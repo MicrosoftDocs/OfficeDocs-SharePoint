@@ -30,9 +30,7 @@ By default, your SharePoint storage is available in a central pool from which al
 
 If you prefer to fine tune the storage space allocated to each site, you can set your storage management option to "manual" and specify individual site storage limits. 
   
-> [!IMPORTANT]
-> SharePoint Online storage is now calculated in gigabytes (GB). [More info](manage-site-collection-storage-limits.md#storagecalculation). 
-    
+   
 1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
     > [!NOTE]
@@ -67,7 +65,7 @@ Follow these steps to specify individual site storage limits when your storage m
 4. Enter the maximum storage in GB for the site. 
 
   > [!NOTE]
-  > The max value you can enter is 25600 GB, although this may be more space than your organization has. To see how much space comes with your subscription, see [SharePoint Online Limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits).
+  > The max value you can enter is 25600 GB, although this may be more space than your organization has. To see how much space comes with your subscription, see [SharePoint Online Limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits).<br> If you set site storage limits in PowerShell, you enter them in MB. The values are converted and rounded down to the nearest integer to appear in GB in both the new and classic SharePoint admin centers. So a value of 5000 MB becomes 4 GB. The minimum storage limit is 1 GB, so if you set a value of less than 1024 MB by using PowerShell, it will be rounded up to 1 GB.
     
 5. Make sure **Notifications** is turned on to send an email to site admins when the site approaches the storage limit. Then enter a value as a percent for how full you want the storage to be when the email is sent. 
  
@@ -90,24 +88,68 @@ You can use the following Microsoft PowerShell script to monitor your sites. Thi
     > You can use a different file name, but you must save the file as an ANSI-encoded text file with the extension .ps1. 
   
   ```PowerShell
-  #Connect to SharePoint admin center using admin account  $username = "<global or SharePoint admin account>"  $password = ConvertTo-SecureString "<Password>" -AsPlainText -Force  $cred = New-Object Microsoft.SharePoint.Client.SharePointOnlineCredentials($username, $password)  Connect-SPOService -Url <SharePoint admin center URL> -Credential $cred  #Local variable to create and store output file  $filename = Get-Date -Format o | foreach {$_ -replace ":", ""}  $result = "<Local folder path>"+$filename+".txt"  #SMTP and Inbox details  $smtp = "<smtpserver>"  $from = "<sender email>"  $to = "<recipient email>"  $subject = "Site storage warning"  $body = "Storage usage details"  #Enumerating all sites and calculating storage usage  $sites = Get-SPOSite -detailed  foreach ($site in $sites)  {  $percent = $site.StorageUsageCurrent / $site.StorageQuota * 100  $percentage = [math]::Round($percent,2)  Write-Output "$percentage %         $($site.StorageUsageCurrent)kb of $($site.StorageQuota)kb        $($site.url)" | Out-File $result -Append  }  #Sending email with output file as attachment  sleep 5  Send-MailMessage -SmtpServer $smtp -to $to -from $from -subject $subject -Attachments $result -body $body -Priority high
-  ```
+#Connect to SharePoint admin center using an admin account
+#Specify the URL to your SharePoint Tenant Admin site, e.g. https://contoso-admin.sharepoint.com
+
+$url = 'https://contoso-admin.sharepoint.com'
+
+#Specify a folder path to output the results into
+$path = '.\'
+
+#SMTP details
+$Smtp = '<SmtpServer>'
+$From = '<SenderEmailAddress>'  
+$To = '<RecipientEmailAddress>'
+$Subject = 'Site Storage Warning'  
+$Body = 'Storage Usage Details'
+
+if($url -eq '') {
+    $url = Read-Host -Prompt 'Enter the SharePoint Online Tenant Admin URL'
+}
+
+Connect-SPOService -Url $url
+
+#Local variable to create and store output file  
+$filename = (Get-Date -Format o | foreach {$_ -Replace ":", ""})+'.csv'  
+$fullpath = $path+$filename
+
+#Enumerating all sites and calculating storage usage  
+$sites = Get-SPOSite
+$results = @()
+
+foreach ($site in $sites) {
+    $siteStorage = New-Object PSObject
+    
+    $percent = $site.StorageUsageCurrent / $site.StorageQuota * 100  
+    $percentage = [math]::Round($percent,2)
+
+    $siteStorage | Add-Member -MemberType NoteProperty -Name "Site Title" -Value $site.Title
+    $siteStorage | Add-Member -MemberType NoteProperty -Name "Site Url" -Value $site.Url
+    $siteStorage | Add-Member -MemberType NoteProperty -Name "Percentage Used" -Value $percentage
+    $siteStorage | Add-Member -MemberType NoteProperty -Name "Storage Used (MB)" -Value $site.StorageUsageCurrent
+    $siteStorage | Add-Member -MemberType NoteProperty -Name "Storage Quota (MB)" -Value $site.StorageQuota
+
+    $results += $siteStorage
+    $siteStorage = $null
+}
+
+$results | Export-Csv -Path $fullpath -NoTypeInformation
+
+Sending email with output file as attachment  
+Send-MailMessage -SmtpServer $Smtp -To $To -From $From -Subject $Subject -Attachments $fullpath -Body $Body -Priority high
+```
 
 4. Where:
+
+  - **$url** is the URL of your Tenant Admin. If the `$url` variable is left empty, you will be prompted to enter the URL of your tenant admin site.
+  
+  - **$path** is the file system path you want the CSV file to output to.
+   
+  - **\<SmtpServer\>** is the name of your SMTP mail server. 
     
-  - **\<global or SharePoint admin account\>** is the username for the account that has the global admin or SharePoint admin role in Office 365. 
+  - **\<SenderEmailAddress\>** is the global admin or SharePoint admin account that appears in the From line in the warning email. 
     
-  - **\<password\>** is the password for the global or SharePoint admin account. 
-    
-  - **\<SharePoint admin center URL\>** is the URL for your SharePoint admin center. 
-    
-  - **\<local folder path\>** is the local path for the folder where you want the data saved. 
-    
-  - **\<smtpserver\>** is the name of your SMTP mail server. 
-    
-  - **\<sender email\>** is the global admin or SharePoint admin account that appears in the From line in the warning email. 
-    
-  - **\<recipient email\>** is the admin account that will receive the email warning. 
+  - **\<RecipientEmailAddress\>** is the admin account that will receive the email warning. 
     
 5. In SharePoint Online Management Shell, change to the local directory where you saved the script file.
     
@@ -115,18 +157,13 @@ You can use the following Microsoft PowerShell script to monitor your sites. Thi
   ./GetEmailWarning.ps1
   ```
 
-   After the script successfully completes, a text file is created in the location that you specified in the **\<Local folder path\>** variable in the script. 
+   After the script successfully completes, a text file is created in the location that you specified in the **$path** variable in the script. 
     
    > [!NOTE]
    > If you get an error message about being unable to run scripts, you might need to change your execution policies. For info, see [About Execution Policies](https://go.microsoft.com/fwlink/?linkid=869255). 
   
-## How SharePoint storage is calculated
-<a name="storagecalculation"> </a>
-
-SharePoint storage was previously calculated in megabytes (MB). It's now calculated in gigabytes (GB) using only full integers. If you previously set your storage quota in MB, it will be converted to GB (1024 MB=1 GB) and rounded down to the nearest integer. So a value of 5000 MB becomes 4 GB. A minimum of 1 GB can be set per site. If you set your SharePoint storage quota by using PowerShell, that value will be rounded up to the nearest integer GB to prevent a value of less than one GB turning into 0 GB.
   
 ## See also
-<a name="storagecalculation"> </a>
 
 [SharePoint Online limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)
 
