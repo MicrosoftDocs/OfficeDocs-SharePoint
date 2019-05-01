@@ -198,7 +198,7 @@ Hub site navigation is displayed above the local navigation on each site, just b
 
 ![Hub site navigation](media/plan-navigation-modern-experience_image2.png)
 
-Hub site navigation is established in the on the site that is declared to be the hub. It is defined by the hub site owner and is shared by all the associated sites. You cannot currently “turn off” hub navigation on an individual site that is associated to a hub, so you will want to carefully think about which sites are reflected in your hub navigation.
+Hub site navigation is established in the site that is declared to be the hub. It is defined by the hub site owner and is shared by all the associated sites. You cannot currently “turn off” hub navigation on an individual site that is associated to a hub, so you will want to carefully think about which sites are reflected in your hub navigation.
 
 There are three special considerations for planning hub site navigation:
 
