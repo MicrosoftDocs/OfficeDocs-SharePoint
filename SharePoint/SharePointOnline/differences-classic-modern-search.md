@@ -28,7 +28,7 @@ Another difference is that search administrators can customize the *classic* sea
 
 Unlike the classic search results page, the modern search results page isn’t built with web parts. You can’t customize the modern search results page or create additional search results pages.
 
-There aren't separate search settings for the modern search experience. Instead certain of the classic search settings **also** apply to the modern search experience: 
+There aren't separate search settings for the modern search experience. Instead, certain aspects of the classic search settings **also** apply to the modern search experience: 
 
 - The [search schema](manage-search-schema.md) determines how content is collected in and retrieved from the search index. Because both search experiences use the same search index to find search results, any changes you make to the search schema, apply to both experiences. The modern search experience doesn't support changing the sort order of results or building refiners based on metadata. Therefore, the following search schema settings don’t affect the modern search experience:
     - Sortable

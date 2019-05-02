@@ -196,4 +196,7 @@ Use the following procedure to check if OneDrive for Business is available to yo
     
 ![OneDrive for Business tile in SharePoint Server 2016](../media/d38459ac-be0d-4823-b504-fddc8aadc0f3.jpg)
   
+## See Also
+<a name="also"> </a>
 
+[Create a User Profile service applications in SharePoint Server](../install/create-a-user-profile-service-application.md)

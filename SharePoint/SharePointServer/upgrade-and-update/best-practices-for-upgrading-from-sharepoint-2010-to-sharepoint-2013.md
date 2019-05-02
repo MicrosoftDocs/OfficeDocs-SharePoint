@@ -109,7 +109,7 @@ To guarantee a smooth upgrade from SharePoint 2010 Products to SharePoint 2013, 
     
     If you wait until the customizations are available, you can complete the initial upgrade of database and services without significantly affecting use of the existing sites in 2010 mode.
     
-10. Make sure that the appropriate service pack or update is applied to your 2010 environment. If you are using remote blog storage (RBS) in your environment, you must be running Service Pack 1 for SharePoint 2010 Products in your environment before you start the upgrade process.
+10. Make sure that the appropriate service pack or update is applied to your 2010 environment. If you are using remote blob storage (RBS) in your environment, you must be running Service Pack 1 for SharePoint 2010 Products in your environment before you start the upgrade process.
     
 ## See also
 

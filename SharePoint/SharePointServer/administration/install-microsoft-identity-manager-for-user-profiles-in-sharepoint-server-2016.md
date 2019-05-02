@@ -61,7 +61,7 @@ If you choose MIM, there are some **prerequisites** of which you should be aware
     > [!NOTE]
     > If you have SQL Server running on a  *separate*  server from MIM, you'll need to install SQL Server native client (either for [2008](https://msdn.microsoft.com/en-us/sqlserver/aa937733.aspx) or [2012](https://www.microsoft.com/en-us/download/details.aspx?id=29065)) where you installed MIM. 
   
-3. You'll need to create a service account in your domain to run the MIM Synchronization Service. This account should have the "Log on as a service" and "Run as a service" permissions granted to it on the machine where the MIM Synchronization Service will be installed. (These permissions will normally be assigned automatically during setup of the service.)
+3. You'll need to create a service account in your domain to run the MIM Synchronization Service. This account should have the "Log on as a service" permissions granted to it on the machine where the MIM Synchronization Service will be installed. These permissions will normally be assigned automatically during setup of the service but can be manually assigned via the Local Security Policy (secpol.msc).
     
     > [!IMPORTANT]
     > If SQL Server is on the same server as MIM, you may use a local account for this service. However, if you use a  *remote*  SQL, you must use a domain account. If the account is in another domain from the SQL Server, it must be in the same forest. 
