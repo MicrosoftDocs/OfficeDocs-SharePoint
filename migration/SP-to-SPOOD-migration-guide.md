@@ -1,5 +1,5 @@
 ---
-title: "SharePoint Server to SharePoint Online and OneDrive Migration Guide"
+title: "SharePoint Server Team Sites Migration Guide"
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
@@ -18,8 +18,8 @@ ms.assetid:
 
 ---
 
-# SharePoint Server OneDrive and SharePoint Migration Guide
-This guide will help you prepare to migrate from SharePoint Server to OneDrive and SharePoint in Office 365.
+# SharePoint Server Teams Sites Migration Guide
+This guide will help you prepare to migrate from SharePoint Server teams sites to SharePoint Online in Office 365.
 
 Most migrations fall into regular phases as described below.  Proven success factors for migration include planning, assessing and remediating, preparing your target environment, migrating and onboarding your users. 
 
@@ -27,7 +27,7 @@ Most migrations fall into regular phases as described below.  Proven success fac
 
    ![Migration process](media/migrationprocess-fileshare.png)
 
-|**Planning**|**Assess and remediate**|**Prepare your SharePoint OneDrive environment**|**Migrate**|**User onboarding**|
+|**Planning**|**Assess and remediate**|**Prepare your SharePoint environment**|**Migrate**|**User onboarding**|
 |:-----|:-----|:-----|:-----|:-----|
 |What to expect before and after|Run SMAT|User creation |Migration steps|Send regular emails to users|
 |Migration and network performance considerations|Assess key areas|Site creation|Migration service providers|Provide training|
@@ -40,14 +40,14 @@ Most migrations fall into regular phases as described below.  Proven success fac
 ## Migration planning
 Before beginning your migration, it is important that you plan your outcome by performing an assessment of your current source environment. What you discover will influence your overall strategy and timing, including:
 
-- The mapping of content from your source My Sites to the destination OneDrive.
+- The mapping of content from your source site to the destination site.
 
 - The amount of content you migrate. Determine if content is redundant, out of date, or still relevant. See this article for more info on speed [Best practices for improving SharePoint and OneDrive migration performance](https://docs.microsoft.com/en-us/sharepointmigration/sharepoint-online-and-onedrive-migration-speed) 
 
 - Set permissions so IT can read/write from source to target destination
 
 - We highly recommend that you consider setting up a hybrid environment at the beginning.
- Learn more at:   [SharePoint and OneDrive Configuration Roadmaps](https://docs.microsoft.com/en-us/sharepoint/hybrid/configuration-roadmaps).
+ Learn more at:   [SharePoint Hybrid Configuration Roadmaps](https://docs.microsoft.com/en-us/sharepoint/hybrid/configuration-roadmaps).
 
 
 ### Planning for modernization
@@ -79,23 +79,13 @@ To learn more about Microsoft hubs:
 - [Planning your SharePoint hub sites](https://docs.microsoft.com/en-us/sharepoint/planning-hub-sites)
 
 ### Transforming your Workflow
-In Office 365, **Microsoft Flow** is the product that allows you to easily create and manage workflow. As you transition your content to OneDrive and SharePoint online, we highly recommend looking at the workflows you want to keep and recreate into Flows for better integration into the platform. 
+In Office 365, **Microsoft Flow** is the product that allows you to easily create and manage workflow. As you transition your content to SharePoint online, we highly recommend looking at the workflows you want to keep and recreate into Flows for better integration into the platform. 
 
 For cases where Flow doesn’t accomplish your need, classic workflow will still be supported and available until 2026. We recommend taking this in considerations as you plan for your workflow lifetime.
 
 To learn more:
 
 - [Get started with Microsoft Flow](https://docs.microsoft.com/en-us/flow/getting-started)
-
-
-
-### What content goes where
-Include in your planning how to make this transition to Office 365 will make for a more collaborative experience for your users.
- 
-Review how you use the content stored in your file shares today. Does the file belong to a single user, even though they may share it with others? If so, save it in your OneDrive. Your OneDrive is private by default, but you can share files with others, which is particularly useful if you aren’t working as a team yet.
-
-If you’re working on a file or folder intended for team consumption and collaboration, move it to a **shared library** where team members have access by default. OneDrive gives you access to all your shared libraries in Microsoft Teams, SharePoint or Outlook. When you need a new shared library for team files, you can create on right from OneDrive, add members, and start working together.
-
 
 
 ## Assess and remediate your content
@@ -121,9 +111,9 @@ Also included is the SharePoint Migration Identity Management Tool, that does id
 
 
 
-## Prepare your OneDrive environment
+## Prepare your SharePoint environment
 
-Before migrating your file share content, you must pre-provision your users in Office 365.  For guidance on pre-provisioning see: 
+Before migrating your team site content, you must pre-provision your users in Office 365.  For guidance on pre-provisioning see: 
 - [Prepare to provision users through directory synchronization to Office 365](/office365/enterprise/prepare-for-directory-synchronization)
 - [Pre-provision OneDrive for users in your organization](/onedrive/pre-provision-accounts)
 
@@ -135,9 +125,9 @@ Before migrating your file share content, you must pre-provision your users in O
 Below is a typical migration process that follows Microsoft’s best practices guidance.
 
 1. Select a small set of users for a pilot migration. The goal of the pilot is to validate the process, including performance, user communication, and to get a sample of user feedback.</br></br>
-2.	Perform the pilot migration. This should use an incremental migration method, in which migration happens in the background with no user impact, followed by a cutover event in which network file shares and local file shares are disabled and they are directed to use the SharePoint or OneDrive environment. This method is preferred as it reduces user impact.</br></br>
+2.	Perform the pilot migration. This should use an incremental migration method, in which migration happens in the background with no user impact, followed by a cutover event in which SharePoint Server team sites are disabled and they are directed to use the SharePoint Online environment. This method is preferred as it reduces user impact.</br></br>
 3.	Understand the data from the pilot migration to determine the remainder of your migration schedule and make any changes. For example, you may update your user communication template to address a question you received from a pilot user.</br></br>
-4.	Perform the remainder of the migration. This should also follow an incremental migration method, just like the pilot. Microsoft recommends a single cutover event for all users to switch to using their OneDrive accounts and SharePoint sites. This helps eliminate users from updating duplicate copies of content.</br></br>
+4.	Perform the remainder of the migration. This should also follow an incremental migration method, just like the pilot. Microsoft recommends a single cutover event for all users to switch to using their SharePoint sites. This helps eliminate users from updating duplicate copies of content.</br></br>
 
 
 
@@ -145,33 +135,11 @@ Below is a typical migration process that follows Microsoft’s best practices g
 ### Migration offerings
 Currently, there are a variety of migration offerings available to you. Which one is right for you?
 
-|**Customer Self service**|**FastTrack driven**|**Partner driven**|
-|:-----|:-----|:-----|
-|No cost for Microsoft provided tool</br>[SharePoint Migration Tool ](https://aka.ms/spmt-ga-page)|No cost; included in your [Microsoft 365 subscription](https://docs.microsoft.com/en-us/fasttrack/o365-data-migration)|Price dependent on complexity|
-|Process flexible, you set the pace|Highly structured process and schedule|Customized to your need|
-|No need to configure complex infrastructure|Must set up infrastructure including external access rights, VPNs, test environment, admin environment, establish framework of contacts|Customized to your need|
-|Less time required involved in scheduling process and restrictions|Scheduling templates and questionnaires provided as part of the organization process|Customized to your need|
-|Customer controls the pace based on their needs|Schedule is driven in partnership with the FastTrack team|Customized to your need|
-|May have to hire in expertise if you don’t have it in place already|Expertise provided by FastTrack|Expertise provided|
-|Customer controls the schedule flexibility; off hours and blackout hours are defined by them|Must hold to a set schedule|Customized to your need|
-
-
-
-
 
 **Self service**
 
 The benefit for self-service migration is that you have full control over your process and timing, and you determine the pace of migration. Microsoft provides the [SharePoint Migration Tool](https://aka.ms/spmt-ga-page)  free of charge and you will be able to leverage your own IT resources rather than having to invest in outside expertise.  
 
-
-
-**Microsoft FastTrack**
-
-FastTrack is a Microsoft service included in your subscription cost that provides you with a set of best practices, tools, resources, and experts committed to making your experience with the Microsoft Cloud a great one. OneDrive onboarding guidance, migration benefits, and adoption guidance are included in the benefit offering. 
-
-Onboarding guidance includes: help to discover what’s possible, creating a plan for success, and onboarding new users and capabilities at a flexible pace. The [Data Migration](/fasttrack/O365-data-migration) benefit covers guidance on migrating content from file share, Box, or Google Drive source environments. 
-
-This guidance covers enablement of both OneDrive for Business and the source environment. FastTrack will also perform specific data migration activities on behalf of the customer for those with 500 or more licenses. See more details in the provided [FastTrack Center Benefit Overview](/fasttrack/O365-data-migration). Interested in getting started? Visit [FastTrack.microsoft.com](https://fasttrack.microsoft.com/), review resources, and submit a Request for Assistance.
 
 **Migration service providers**
 
