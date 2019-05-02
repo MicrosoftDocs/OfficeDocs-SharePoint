@@ -41,35 +41,51 @@ Most migrations fall into regular phases as described below.  Proven success fac
 Before beginning your migration, it is important that you plan your outcome by performing an assessment of your current source environment. What you discover will influence your overall strategy and timing, including:
 
 - The mapping of content from your source My Sites to the destination OneDrive.
-- The amount of content you migrate. Determine if content is redundant, out of date, or still relevant. See this article for more info on speed https://docs.microsoft.com/en-us/sharepointmigration/sharepoint-online-and-onedrive-migration-speed 
+
+- The amount of content you migrate. Determine if content is redundant, out of date, or still relevant. See this article for more info on speed [Best practices for improving SharePoint and OneDrive migration performance](https://docs.microsoft.com/en-us/sharepointmigration/sharepoint-online-and-onedrive-migration-speed) 
+
 - Set permissions so IT can read/write from source to target destination
-- We highly recommend that you consider setting up a hybrid environment at the beginning. Learn more: SharePoint and OneDrive Configuration Roadmaps.
+
+- We highly recommend that you consider setting up a hybrid environment at the beginning.
+ Learn more at:   [SharePoint and OneDrive Configuration Roadmaps](https://docs.microsoft.com/en-us/sharepoint/hybrid/configuration-roadmaps).
 
 
 ### Planning for modernization
-SharePoint Online brings the latest and greatest to its users. This implies that some features available on premise have been revamped and improved. Here is a list of things to consider has you plan for your migration.
+SharePoint Online, is continually being improved. New features are rolled out first in SharePoint Online and existing features revamped and improved.  As a result, features and their functionality that are available in SharePoint Server may be different in SharePoint Online. Here is a list of things to consider as you plan for your migration.
 
-### Modern team sites and modern pages
-When you will be moving your team site we recommend to create team sites in SharePoint Online that are moderns ( Template STS#3)  This does not means that they are group connected yet or Teams connected but you will be able to connect them in the future if your users desires. Additionally, those Modern team sites comes with a more user-friendly look and feel and a new home page.   Some tools can create those sites for you such has the SharePoint Migration Tool (SPMT) making this seamless for you. 
+#### Modern team sites and modern pages
+When moving your team site, we recommend that you create team sites in SharePoint Online that are "Modern", using template STS#3. This does not automatically make them group or Teams connected but you will be able to connect them in the future. Modern team sites come with a more user-friendly look and feel and a new home page. Migration tools such as the SharePoint Migration Tool (SPMT) can create these sites for you.
+ 
 
-More guidance on modernization of sites
+#### More guidance on modernization of sites
+
 - [Modernize your classic SharePoint sites](https://aka.ms/sppnp-modernize) 
+
 - [Transform classic pages to modern client-side pages](https://docs.microsoft.com/en-us/sharepoint/dev/transform/modernize-userinterface-site-pages):     How to use it from .Net, PowerShell and the SharePoint UI 
+
 - [Transforming to modern site pages from inside the SharePoint UI](https://aka.ms/sppnp-pagetransformationui) How to setup and use the Page Transformation UI solution 
+
 - [SharePoint Monthly Call Video](https://www.youtube.com/watch?v=NppqtPo4-bo&index=2&list=PLR9nK3mnD-OVC4_ut9bUi6ffRXLVuF0_g) Powershell usage shown at 34:27
+
 - [Video: Preview of the page transformation UI integration](https://www.youtube.com/watch?v=y9SeZ9vBh7U&t=81s) 
 
 ### Moving to Microsoft hubs
 
-As you plan your migration, there is another architectural change that can be applied relating to your site structure. In SharePoint online, Hubs is the best way to create relationships between sites. We highly recommend taking this opportunity to bring those subsites to be their own site collections in order to connect them through Hubs.
+As you plan your migration, there is another architectural change that can be applied relating to your site structure. In SharePoint online, **Hubs** is the best way to create relationships between sites. We highly recommend taking this opportunity to bring those subsites to be their own site collections in order to connect them through Hubs.
+
+To learn more about Microsoft hubs:
+- [What is a SharePoint hub site?](https://support.office.com/en-us/article/what-is-a-sharepoint-hub-site-fe26ae84-14b7-45b6-a6d1-948b3966427f?ui=en-US&rs=en-US&ad=US)
+
+- [Planning your SharePoint hub sites](https://docs.microsoft.com/en-us/sharepoint/planning-hub-sites)
 
 ### Transforming your Workflow
-In Office 365, Flow is the product that allows you to easily create and manage workflow. As your transition your content to OneDrive and SharePoint online we highly recommend looking at the workflows you want to keep and recreate them into Flows for better integration into the platform. For cases where Flow doesn’t yet accomplish your need, classic workflow will still be available until 2026. We recommend taking this in considerations as you plan for your workflow lifetime.
+In Office 365, **Microsoft Flow** is the product that allows you to easily create and manage workflow. As you transition your content to OneDrive and SharePoint online, we highly recommend looking at the workflows you want to keep and recreate into Flows for better integration into the platform. 
 
-To learn more see:
+For cases where Flow doesn’t accomplish your need, classic workflow will still be supported and available until 2026. We recommend taking this in considerations as you plan for your workflow lifetime.
+
+To learn more:
 
 - [Get started with Microsoft Flow](https://docs.microsoft.com/en-us/flow/getting-started)
-
 
 
 
