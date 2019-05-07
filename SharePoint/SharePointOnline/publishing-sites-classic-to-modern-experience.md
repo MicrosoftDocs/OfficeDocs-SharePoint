@@ -93,7 +93,7 @@ If you want more customized branding and theming applied to each new site, you c
 
 ## Pages
 
-Master pages and page layouts are components of a publishing site. Page layouts and master pages work together to create the layout for a traditional SharePoint webpage. Modern Communication sites do not utilize master pages or page layouts, but do provide a greater level of flexibility for site owners and page authors.
+Master pages and page layouts are components of a publishing site. Page layouts and master pages work together to create the layout for a traditional SharePoint web page. Modern Communication sites do not utilize master pages or page layouts, but do provide a greater level of flexibility for site owners and page authors.
 
 In the classic experience, you may have created web part pages based on page layouts. Page layouts can be locked down to control what is authored on a page. However, they are inflexible in that pages based on page layouts are confined to the layout and options provided by the page layout.
 
@@ -112,7 +112,7 @@ Pages are made up of a title area and sections. Sections can include a full-widt
 
 > [!VIDEO https://videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=RWlZJM&AutoPlayVideo=false]
 
-Currently there are three basic out-of-box page templates available when you create a page within a Communication site, and additional new page designs are expected. Also coming is the ability to create your own page designs, while for now, you can create pages based on copies of your previously added and designed pages.
+Currently there are three basic out-of-box page templates available when you create a page (blank, visual, and basic text). And, you can create your own templates. In addition, you can create pages based on copies of your previously added and designed pages.
 
 ![Page templates](media/publishing-sites-classic-to-modern-experience_image7.png)
 
@@ -178,13 +178,13 @@ To learn more about modern web parts that have similar purposes to classic web p
 
 Newly available in the modern experience, the News feature is an effective distribution system created to deliver relevant content across your organization.
 
-Built on modern pages and web parts, you can tell stories with rich, attractive content that can be dynamically shown on the SharePoint Home page, on team sites, communication sites, hub sites, and even on the SharePoint mobile app. You can also choose to show News in a Teams channel.
+Built on modern pages and web parts, you can tell stories with rich, attractive content that can be dynamically shown on the SharePoint start page, on team sites, communication sites, hub sites, and even on the SharePoint mobile app. You can also choose to show News in a Teams channel.
 
 ### Where news can be distributed
 
 ![Places where news is shown](media/publishing-sites-classic-to-modern-experience_image9.png)
 
-News posts can be created from the SharePoint home page, from a team site or communication site, and from pages that have the News web part on them already. You can customize sources and layouts of news, and soon you’ll be able to organize and order news posts as well as target specific audiences for news.
+News posts can be created from the SharePoint start page, from a team site or communication site, and from pages that have the News web part on them already. You can customize sources and layouts of news, and soon you’ll be able to organize and order news posts as well as target specific audiences for news.
 To learn more about how to create and share News, see [Create and share news on your SharePoint sites](https://support.office.com/article/create-and-share-news-on-your-sharepoint-sites-495f8f1a-3bef-4045-b33a-55e5abe7aed7).
 
 ## Users and permissions
