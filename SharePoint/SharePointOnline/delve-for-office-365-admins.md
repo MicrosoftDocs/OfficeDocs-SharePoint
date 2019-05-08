@@ -50,7 +50,7 @@ What users see in Delve is influenced by which release program you've chosen for
 
 You control access to the Office Graph from the SharePoint admin center. 
   
-If you don't allow access to the Office Graph, you disable the functionality in Office 365 that is powered by the Office Graph, such as Delve. If you disable access to Delve, you also affect the relevance of the content displayed elsewhere in Office 365, for example in SharePoint Home and the **Discover** view in OneDrive for Business. See [What is the effect of allowing or not allowing access to the Office Graph?](delve-for-office-365-admins.md#BKMK_EffectOfficegraphOnOff) for more information. 
+If you don't allow access to the Office Graph, you disable the functionality in Office 365 that is powered by the Office Graph, such as Delve. If you disable access to Delve, you also affect the relevance of the content displayed elsewhere in Office 365, for example on the SharePoint start page and the **Discover** view in OneDrive. See [What is the effect of allowing or not allowing access to the Office Graph?](delve-for-office-365-admins.md#BKMK_EffectOfficegraphOnOff) for more information. 
   
 1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
