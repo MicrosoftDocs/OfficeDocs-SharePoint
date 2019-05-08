@@ -9,16 +9,13 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Priority
 ms.collection: 
 - M365-collaboration
-- IT_Sharepoint_Server_Top
-- Strat_SP_gtc
 - SPMigration
 search.appverid: MET150
-ms.custom: 
-ms.assetid: 
+
 
 ---
 
-# SharePoint Server Teams Sites Migration Guide
+# SharePoint Server Team Sites Migration Guide
 This guide will help you prepare to migrate from SharePoint Server teams sites to SharePoint Online in Office 365.
 
 Most migrations fall into regular phases as described below.  Proven success factors for migration include planning, assessing and remediating, preparing your target environment, migrating and onboarding your users. 
