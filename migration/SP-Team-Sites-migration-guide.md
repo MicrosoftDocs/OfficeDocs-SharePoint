@@ -46,9 +46,9 @@ Before beginning your migration, it is important that you plan your outcome by p
 
 
 ### Planning for modernization
-SharePoint Online is continually being improved. New features and improvements to existing features are rolled out in SharePoint Online before SharePoint Server.  As a result, features and functionality that are available in SharePoint Server may be different than those in SharePoint Online.
+New features and enhancements are continually being rolled in SharePoint Online before being included in SharePoint Server.  As a result, features and functionality that are available in SharePoint Server may be different than those in SharePoint Online.
 
-The modern experience in SharePoint is designed to not only be compelling but flexible, making it easier for anyone to create mobile-ready sites and pages. Improvements in navigation, branding, publishing, search, and sharing make it a
+The modern experience in SharePoint is designed to not only be compelling but flexible, making it easier for anyone to create mobile-ready sites and pages. We highly recommend that you take advantage of the additional improvements in navigation, branding, publishing, search, and sharing.
 
 
 #### Modern team sites and modern pages
