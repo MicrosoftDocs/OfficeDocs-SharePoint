@@ -40,7 +40,7 @@ Limiting access allows users to remain productive while addressing the risk of a
 
   
 > [!NOTE]
-> Blocking or limiting access on unmanaged devices relies on Azure AD conditional access policies. [Learn about Azure AD licensing](https://azure.microsoft.com/pricing/details/active-directory/) For an overview of conditional access in Azure AD, see [Conditional access in Azure Active Directory](https://go.microsoft.com/fwlink/?linkid=857717). For info about recommended SharePoint access policies, see [Policy recommendations for securing SharePoint sites and files](https://go.microsoft.com/fwlink/?linkid=871728). If you limit access on unmanaged devices, users on managed devices who have the following browser and operating system combinations will also have limited access: <br>Chrome, Firefox, or any other browser besides Microsoft Edge and Microsoft Internet Explorer on Windows 10 or Windows Server 2016 <br>Firefox in Windows 8.1, Windows 7, Windows Server 2012 R2, Windows Server 2012, or Windows Server 2008 R2 
+> Blocking or limiting access on unmanaged devices relies on Azure AD conditional access policies. [Learn about Azure AD licensing](https://azure.microsoft.com/pricing/details/active-directory/) For an overview of conditional access in Azure AD, see [Conditional access in Azure Active Directory](https://go.microsoft.com/fwlink/?linkid=857717). For info about recommended SharePoint access policies, see [Policy recommendations for securing SharePoint sites and files](https://go.microsoft.com/fwlink/?linkid=871728). If you limit access on unmanaged devices, users on managed devices who have the following browser and operating system combinations will have unlimited access: <br>Chrome, Firefox, or any other browser besides Microsoft Edge and Microsoft Internet Explorer on Windows 10 or Windows Server 2016 <br>Firefox in Windows 8.1, Windows 7, Windows Server 2012 R2, Windows Server 2012, or Windows Server 2008 R2 
   
 ## Block access using the new SharePoint admin center 
 
@@ -70,6 +70,14 @@ Limiting access allows users to remain productive while addressing the risk of a
 10. Make sure that under **Session**, **Use app enforced restrictions** appears, and make sure that **Enable policy** is **On**. 
 
 11. Select **Save**. 
+
+> [!NOTE] 
+> **Conditional Access Session Control has two options:**
+- **Use app-enforced Restrictions** 
+  - This control only works with supported apps. Currently Exchange Online and SharePoint Online are the only cloud apps that support app enforced restrictions. Click here to learn more. [Use app enforced restrictions](https://docs.microsoft.com/azure/active-directory/conditional-access/controls#use-app-enforced-restrictions)
+
+- **Conditional Access App control**
+  - This control only works with featured apps. Click here to learn more. [Supported apps and clients](https://docs.microsoft.com/cloud-app-security/proxy-intro-aad#supported-apps-and-clients)
 
 > [!NOTE] 
 > It can take 5-10 minutes for the policy to take effect. It won't take effect for users who are already signed in from unmanaged devices. 
@@ -152,7 +160,7 @@ Limiting access allows users to remain productive while addressing the risk of a
     > [!NOTE]
     > It can take 5-10 minutes for the policies to take effect. They won't take effect for users who are already signed in from unmanaged devices. <br>By default, this policy allows users to view and edit files in their web browser. To change this, see [Advanced configurations](control-access-from-unmanaged-devices.md#advanced). 
   
-If you go to the Azure AD admin center and slect **Conditional access**, you can see that two policies were created by the SharePoint admin center. By default, the policy applies to all users. To apply it to only specific security groups, make changes under **Users and groups**. Be careful not to create multiple conditional access polices in the Azure AD admin center that conflict with each other. You can disable the policies created by the SharePoint admin center and then manually create the conditional access policies you need.
+If you go to the Azure AD admin center and select **Conditional access**, you can see that two policies were created by the SharePoint admin center. By default, the policy applies to all users. To apply it to only specific security groups, make changes under **Users and groups**. Be careful not to create multiple conditional access polices in the Azure AD admin center that conflict with each other. You can disable the policies created by the SharePoint admin center and then manually create the conditional access policies you need.
   
 ![Creating two policies in the Azure AD admin center to limit access](media/54c5106a-fd19-49b9-a997-4295e9f788be.png)
   
@@ -208,7 +216,7 @@ To block or limit access to specific sites, you must set the organization-wide p
     To update multiple sites at once, use the following command as an example:
 
     ```PowerShell
-    , (Get-SPOSite -IncludePersonalSite $true -Limit all -Filter "Url -like '-my.spgrid.com/personal/") | Set-SPOTenant -ConditionalAccessPolicy AllowLimitedAccess
+    ,(Get-SPOSite -IncludePersonalSite $true -Limit all -Filter "Url -like '-my.spgrid.com/personal/") | Set-SPOTenant -ConditionalAccessPolicy AllowLimitedAccess
     ```
 
     This example gets the OneDrive for every user and passes it as an array to Set-SPOTenant to limit access. The initial comma and the parentheses are required for running this cmdlet as a batch request.

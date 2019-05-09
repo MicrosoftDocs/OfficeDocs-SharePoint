@@ -39,7 +39,7 @@ The external sharing features of SharePoint Online let users in your organizatio
 > [!NOTE]
 > External sharing is turned on by default for your entire SharePoint Online environment and the sites in it. You may want to [turn it off globally](turn-external-sharing-on-or-off.md) before people start using sites or until you know exactly how you want to use the feature. 
   
-## How do the external sharing settings work?
+## How the external sharing settings work
 
 SharePoint Online has external sharing settings at both the organization level and the site level (previously called the "site collection" level). To allow external sharing on any site, you must allow it at the organization level. You can then restrict external sharing for other sites. If a site's external sharing option and the organization-level sharing option don't match, the most restrictive value will always be applied.
   
@@ -86,7 +86,7 @@ Because these guests do not have a license in your organization, they are limite
     
 - They will be able to see other types of content on sites, depending on the permissions they've been given. For example, they can navigate to different subsites within a shared site. They will also be able to do things like view site feeds.
     
-If your authenticated guests need greater capability such as OneDrive storage or creating a Microsoft Flow, you must assign them an appropriate license. To do this, go to the **Active users** page of the Microsoft 365 admin center, select the guest, click **More**, and then click **Edit product licenses**.
+If your authenticated guests need greater capability such as OneDrive storage or creating a Microsoft Flow, you must assign them an appropriate license. To do this, sign in to the [Microsoft 365 admin center](https://admin.microsoft.com) as a global admin, make sure the Preview is off, go to the **Active users** page, select the guest, click **More**, and then click **Edit product licenses**.
 
  **Recipients who provide a verification code**
 
