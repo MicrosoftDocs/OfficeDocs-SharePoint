@@ -54,6 +54,9 @@ The following table shows the differences between sharing with external users wi
 |AddedToSecureLink  <br/> |A link that only works for specific people was secured to a user. The value in the **Detail** column for this activity identifies the name or email of the user the link was secured to and whether this user is an external user. The value also has a UniqueSharingId column that identifies the link they were secured to.  <br/> |
 |RemovedFromSecureLink  <br/> |A user was removed from a link that only works for specific people. The value in the **Detail** column for this activity identifies the name or email of the user the link was previously secured to and whether this user is an external user. The value also has a UniqueSharingId column that identifies the link they were secured to.  <br/> |
 
+> [!NOTE]
+> Secure links is a default way to allow external recipients to access files and folders securely without requiring them to create or maintain a Microsoft account. Email-based verification codes are a simple and effective way to provide secure access, familiar to users who access secure internet sites that verify identity by sending a code by email or text message.
+
 ## See also
 [External sharing overview](external-sharing-overview.md)
 
