@@ -46,13 +46,21 @@ Before beginning your migration, it is important that you plan your outcome by p
 
 
 ### Planning for modernization
-SharePoint Online, is continually being improved. New features are rolled out first in SharePoint Online and existing features revamped and improved.  As a result, features and their functionality that are available in SharePoint Server may be different in SharePoint Online. Here is a list of things to consider as you plan for your migration.
+SharePoint Online is continually being improved. New features and improvements to existing features are rolled out in SharePoint Online before SharePoint Server.  As a result, features and functionality that are available in SharePoint Server may be different than those in SharePoint Online.
+
+
 
 #### Modern team sites and modern pages
-When moving your team site, we recommend that you create team sites in SharePoint Online that are "Modern", using template STS#3. This does not automatically make them group or Teams connected but you will be able to connect them in the future. Modern team sites come with a more user-friendly look and feel and a new home page. Migration tools such as the SharePoint Migration Tool (SPMT) can create these sites for you.
+Classic SharePoint architecture is typically built using a hierarchical system of site collections and sub-sites, with inherited navigation, permissions, and site designs. Once built, this structure can be inflexible and difficult to maintain. 
+
+In the modern SharePoint experience, every site is a site collection and all can be associated to a hub site.  That hub site is a flat structure of sites that share navigation, branding, and other elements. This type of structure is far more flexible and adaptive to the changing needs of your organization.  Modern team sites also come with a more user-friendly look and feel and a new home page. 
+ 
+When moving your team site, we recommend that you create team sites in SharePoint Online that are "Modern".  While this does not automatically make them group or **Microsoft Teams** connected, you will be able to connect them in the future. You can either provision them using PowerShell using template #STS3, or use a migration tool such as the SharePoint Migration Tool (SPMT) that can create these sites for you.
  
 
 #### More guidance on modernization of sites
+
+- [Guide to the Modern experience in SharePoint](https://docs.microsoft.com/en-us/sharepoint/guide-to-sharepoint-modern-experience)
 
 - [Modernize your classic SharePoint sites](https://aka.ms/sppnp-modernize) 
 
