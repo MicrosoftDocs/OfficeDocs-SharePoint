@@ -458,7 +458,12 @@ If you disable this setting, the **Office** tab is hidden in the sync client, an
 > [!IMPORTANT]
 > This feature is currently enabled in the Insiders ring only. To try it, join the [Windows Insider program](https://insider.windows.com/) or the [Office Insider](https://products.office.com/office-insider) program.
 
-This setting allows you to specify SharePoint team site libraries to sync automatically the next time users sign in to the OneDrive sync client (OneDrive.exe). It may take up to 8 hours after a user signs in before the library begins to sync. To use the setting, you must enable OneDrive Files On-Demand, and the setting applies only for users on computers running Windows 10 Fall Creators Update (version 1709) or later. Do not enable this setting for the same library to more than 1,000 devices. This feature is not enabled for on-premises SharePoint sites. 
+This setting allows you to specify SharePoint team site libraries to sync automatically the next time users sign in to the OneDrive sync client (OneDrive.exe). It may take up to eight hours after a user signs in before the library begins to sync. To use this setting, the computer must be running Windows 10 Fall Creators Update (version 1709) or later, and OneDrive Files On-Demand must be enabled.
+This feature is not enabled for on-premises SharePoint sites. 
+
+> [!IMPORTANT]
+> Do not enable this setting for libraries with more than 5,000 files or folders.
+> Do not enable this setting for the same library to more than 1,000 devices.
 
 If you enable this setting, the OneDrive sync client will automatically sync the contents of the libraries you specified as online-only files the next time the user signs in. The user won't be able to stop syncing the libraries.  
 
