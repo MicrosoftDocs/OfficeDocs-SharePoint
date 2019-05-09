@@ -56,5 +56,9 @@ The following table shows the differences between sharing with external users wi
 
 > [!NOTE]
 > Secure links is a default way to allow external recipients to access files and folders securely without requiring them to create or maintain a Microsoft account. Email-based verification codes are a simple and effective way to provide secure access, familiar to users who access secure internet sites that verify identity by sending a code by email or text message.
-   
+
+## See also
+[External sharing overview](external-sharing-overview.md)
+
+[Tenant-wide settings for SharePoint Online and OneDrive for Business](https://docs.microsoft.com/office365/securitycompliance/secure-sharepoint-online-sites-and-files)
 
