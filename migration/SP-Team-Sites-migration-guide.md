@@ -48,12 +48,11 @@ Before beginning your migration, it is important that you plan your outcome by p
 ### Planning for modernization
 SharePoint Online is continually being improved. New features and improvements to existing features are rolled out in SharePoint Online before SharePoint Server.  As a result, features and functionality that are available in SharePoint Server may be different than those in SharePoint Online.
 
+The modern experience in SharePoint is designed to not only be compelling but flexible, making it easier for anyone to create mobile-ready sites and pages. Improvements in navigation, branding, publishing, search, and sharing make it a
 
 
 #### Modern team sites and modern pages
-Classic SharePoint architecture is typically built using a hierarchical system of site collections and sub-sites, with inherited navigation, permissions, and site designs. Once built, this structure can be inflexible and difficult to maintain. 
 
-In the modern SharePoint experience, every site is a site collection and all can be associated to a hub site.  That hub site is a flat structure of sites that share navigation, branding, and other elements. This type of structure is far more flexible and adaptive to the changing needs of your organization.  Modern team sites also come with a more user-friendly look and feel and a new home page. 
  
 When moving your team site, we recommend that you create team sites in SharePoint Online that are "Modern".  While this does not automatically make them group or **Microsoft Teams** connected, you will be able to connect them in the future. You can either provision them using PowerShell using template #STS3, or use a migration tool such as the SharePoint Migration Tool (SPMT) that can create these sites for you.
  
@@ -74,7 +73,13 @@ When moving your team site, we recommend that you create team sites in SharePoin
 
 ### Moving to Microsoft hubs
 
-As you plan your migration, there is another architectural change that can be applied relating to your site structure. In SharePoint online, **Hubs** is the best way to create relationships between sites. We highly recommend taking this opportunity to bring those subsites to be their own site collections in order to connect them through Hubs.
+Classic SharePoint architecture is typically built using a hierarchical system of site collections and sub-sites, with inherited navigation, permissions, and site designs. Once built, this structure can be inflexible and difficult to maintain. 
+
+In the modern SharePoint experience, every site is a site collection, and all can be associated to a **hub** site which is a flat structure of sites that share navigation, branding, and other elements. This type of structure is far more flexible and adaptive to the changing needs of your organization. 
+
+As you plan your migration, we recommend that **Hubs** is the best way to create relationships between sites. We highly recommend taking this opportunity to bring those subsites to be their own site collections in order to connect them through **Hubs**.
+
+
 
 To learn more about Microsoft hubs:
 - [What is a SharePoint hub site?](https://support.office.com/en-us/article/what-is-a-sharepoint-hub-site-fe26ae84-14b7-45b6-a6d1-948b3966427f?ui=en-US&rs=en-US&ad=US)
@@ -116,12 +121,11 @@ Also included is the SharePoint Migration Identity Management Tool, that does id
 
 
 
-
 ## Prepare your SharePoint environment
 
 Before migrating your team site content, you must pre-provision your users in Office 365.  For guidance on pre-provisioning see: 
 - [Prepare to provision users through directory synchronization to Office 365](/office365/enterprise/prepare-for-directory-synchronization)
-- [Pre-provision OneDrive for users in your organization](/onedrive/pre-provision-accounts)
+- [Transform classic pages to modern client-side pages](https://docs.microsoft.com/en-us/sharepoint/dev/transform/modernize-userinterface-site-pages)
 
 
 
@@ -134,7 +138,6 @@ Below is a typical migration process that follows Microsoft’s best practices g
 2.	Perform the pilot migration. This should use an incremental migration method, in which migration happens in the background with no user impact, followed by a cutover event in which SharePoint Server team sites are disabled and they are directed to use the SharePoint Online environment. This method is preferred as it reduces user impact.</br></br>
 3.	Understand the data from the pilot migration to determine the remainder of your migration schedule and make any changes. For example, you may update your user communication template to address a question you received from a pilot user.</br></br>
 4.	Perform the remainder of the migration. This should also follow an incremental migration method, just like the pilot. Microsoft recommends a single cutover event for all users to switch to using their SharePoint sites. This helps eliminate users from updating duplicate copies of content.</br></br>
-
 
 
 
@@ -166,12 +169,11 @@ Develop a plan to prepare your users for the upcoming change. Consideration fact
 
 ### Onboarding related resources
 - [Microsoft 365 adoption guide](https://devfasttrackv4storage.blob.core.windows.net/marketing/en-us/resources/Microsoft%20365%20User%20Adoption%20Guide.pdf): Outlining methodology and resources for implementing proven adoption success factors
-- [Posters, email templates](https://fasttrack.microsoft.com/microsoft365/resourcehub): customizable templates to generate internal awareness and excitement
+
 - [Ways to work online with SharePoint](https://support.office.com/en-us/article/ways-to-work-with-sharepoint-11de936c-8fed-4474-ac58-583d0c38ac12)
-- [OneDrive](https://support.office.com/en-us/article/onedrive-video-training-1f608184-b7e6-43ca-8753-2ff679203132?ocmsassetID=1f608184-b7e6-43ca-8753-2ff679203132&ui=en-US&rs=en-US&ad=US) and [team library](https://support.office.com/en-us/article/video-create-a-team-or-communication-site-551e190a-8fbe-47ae-a88a-798b443c46b1?ui=en-US&rs=en-US&ad=US) video training
-- [OneDrive](https://support.office.com/en-us/article/upload-files-to-onedrive-for-business-a1397e56-61ec-4ed2-9dac-727bf8ac3357?ui=en-US&rs=en-US&ad=US) and [team library](https://support.office.com/en-us/article/sign-in-to-sharepoint-online-324a89ec-e77b-4475-b64a-13a0c14c45ec?ui=en-US&rs=en-US&ad=US) Quick start training guides: get up and running quickly with the basic info you need to be productive right away 
+- [Team library video training](https://support.office.com/en-us/article/video-create-a-team-or-communication-site-551e190a-8fbe-47ae-a88a-798b443c46b1?ui=en-US&rs=en-US&ad=US)
+- [Quick start training ](https://support.office.com/en-us/article/sign-in-to-sharepoint-online-324a89ec-e77b-4475-b64a-13a0c14c45ec?ui=en-US&rs=en-US&ad=US) 
 - [SharePoint Online video training](https://support.office.com/en-us/article/SharePoint-Online-video-training-cb8ef501-84db-4427-ac77-ec2009fb8e23)
-- [Work together with OneDrive](https://support.office.com/en-us/article/work-together-with-onedrive-626cff9f-9a56-472b-a77d-b019d97eec8d?ui=en-US&rs=en-US&ad=US)
-- [Learn more about OneDrive](https://support.office.com/en-us/article/learn-more-about-onedrive-38acc14b-fd86-466e-b802-baece8107c86?ui=en-US&rs=en-US&ad=US)
+
 
 
