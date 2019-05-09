@@ -11,8 +11,6 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 search.appverid: MET150
-
-
 ---
 
 # SharePoint Server Team Sites Migration Guide
@@ -76,9 +74,12 @@ To learn more about Microsoft hubs:
 - [Planning your SharePoint hub sites](https://docs.microsoft.com/en-us/sharepoint/planning-hub-sites)
 
 ### Transforming your Workflow
-In Office 365, **Microsoft Flow** is the product that allows you to easily create and manage workflow. As you transition your content to SharePoint online, we highly recommend looking at the workflows you want to keep and recreate into Flows for better integration into the platform. 
+In Office 365, **Microsoft Flow** is the product that allows you to easily create and manage workflow. If you are currently using SharePoint workflows, we recommend that you consider "future-proofing" your environment by identifying the workflows you want to keep and recreate them using **Microsoft Flow** to allow for better platform integration. 
 
-For cases where Flow doesn’t accomplish your need, classic workflow will still be supported and available until 2026. We recommend taking this in considerations as you plan for your workflow lifetime.
+
+>[!Note]
+>Classic workflow will still be supported and available until 2026. We recommend taking this in considerations as you plan for your workflow lifetime.
+
 
 To learn more:
 
