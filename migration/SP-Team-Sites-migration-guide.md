@@ -64,17 +64,12 @@ When moving your team site, we recommend that you create team sites in SharePoin
 
 #### More guidance on modernization of sites
 
-- 
-
 - [Modernize your classic SharePoint sites](https://aka.ms/sppnp-modernize) 
 
-- [Transform classic pages to modern client-side pages](https://docs.microsoft.com/en-us/sharepoint/dev/transform/modernize-userinterface-site-pages):     How to use it from .Net, PowerShell and the SharePoint UI 
+- [Transform classic pages to modern client-side pages](https://docs.microsoft.com/en-us/sharepoint/dev/transform/modernize-userinterface-site-pages)
 
 - [Transforming to modern site pages from inside the SharePoint UI](https://aka.ms/sppnp-pagetransformationui) How to setup and use the Page Transformation UI solution 
 
-- [SharePoint Monthly Call Video](https://www.youtube.com/watch?v=NppqtPo4-bo&index=2&list=PLR9nK3mnD-OVC4_ut9bUi6ffRXLVuF0_g) Powershell usage shown at 34:27
-
-- [Video: Preview of the page transformation UI integration](https://www.youtube.com/watch?v=y9SeZ9vBh7U&t=81s) 
 
 ### Moving to Microsoft hubs
 
