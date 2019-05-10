@@ -244,10 +244,9 @@ External users will be affected when you use conditional access policies to bloc
  `Set-SPOTenant -ApplyAppEnforcedRestrictionsToAdHocRecipients $false`
   
 > [!NOTE]
-> Anonymous access links (shareable links that don't require sign-in) are not affected by these policies. Anyone who has an anonymous access link to an item will be able to download the item. For all sites where you enable conditional access policies, you should disable anonymous access links. 
+> "Anyone" links (shareable links that don't require sign-in) are not affected by these policies. People who have an "Anyone" link to a file or folder will be able to download the item. For all sites where you enable conditional access policies, you should disable "Anyone" links. 
   
 ## App impact
-
 
 Blocking access and blocking download may impact the user experience in some apps, including some Office apps. We recommend that you turn on the policy for some users and test the experience with the apps used in your organization. In Office, make sure to check the behavior in Flow and PowerApps when your policy is on.
   
