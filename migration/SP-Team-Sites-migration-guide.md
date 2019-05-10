@@ -52,31 +52,24 @@ Begin by reading:
 
 
 
+### Planning the modern framework 
 
-#### Modern team sites and modern pages
+**Modern team sites, pages and hubs**
 
+When moving your team site, we recommend that you create team sites in SharePoint Online that are "Modern".  While this does not automatically make them group or **Microsoft Teams** connected, you will be able to connect them in the future. You can either create them using the user interface, PowerShell, or by using a migration tool such as the SharePoint Migration Tool (SPMT) that can create these sites for you.
  
-When moving your team site, we recommend that you create team sites in SharePoint Online that are "Modern".  While this does not automatically make them group or **Microsoft Teams** connected, you will be able to connect them in the future. You can either provision them using PowerShell using template #STS3, or use a migration tool such as the SharePoint Migration Tool (SPMT) that can create these sites for you.
- 
+**Moving to hub sites**
 
-#### More guidance on modernization of sites
+As you plan your migration, we recommend that a **hub site** the best way to create relationships between sites. We highly recommend taking this opportunity to bring those subsites to be their own site collections in order to connect them through a hub.
+
+#### More guidance on modernization
 
 - [Modernize your classic SharePoint sites](https://aka.ms/sppnp-modernize) 
 
 - [Transform classic pages to modern client-side pages](https://docs.microsoft.com/en-us/sharepoint/dev/transform/modernize-userinterface-site-pages)
 
-- [Transforming to modern site pages from inside the SharePoint UI](https://aka.ms/sppnp-pagetransformationui) How to setup and use the Page Transformation UI solution 
+- [Transforming to modern site pages from inside the SharePoint UI](https://aka.ms/sppnp-pagetransformationui)
 
-
-### Moving to Microsoft hubs
-
-
-
-As you plan your migration, we recommend that **Hubs** is the best way to create relationships between sites. We highly recommend taking this opportunity to bring those subsites to be their own site collections in order to connect them through **Hubs**.
-
-
-
-To learn more about Microsoft hubs:
 - [What is a SharePoint hub site?](https://support.office.com/en-us/article/what-is-a-sharepoint-hub-site-fe26ae84-14b7-45b6-a6d1-948b3966427f?ui=en-US&rs=en-US&ad=US)
 
 - [Planning your SharePoint hub sites](https://docs.microsoft.com/en-us/sharepoint/planning-hub-sites)
@@ -84,14 +77,11 @@ To learn more about Microsoft hubs:
 ### Workflows and planning for the future
 In Office 365, **Microsoft Flow** is the product that allows you to easily create and manage workflow. If you are currently using SharePoint workflows, we recommend that you consider "future-proofing" your environment by identifying the workflows you want to keep and recreate them using **Microsoft Flow** to allow for better platform integration. 
 
+To learn more: **[Get started with Microsoft Flow](https://docs.microsoft.com/en-us/flow/getting-started)**
 
 >[!Note]
 >Classic workflow will be supported and available until 2026. We recommend taking this into consideration as you plan for your workflow lifetime.
 
-
-To learn more:
-
-- [Get started with Microsoft Flow](https://docs.microsoft.com/en-us/flow/getting-started)
 
 
 ## Assess and remediate your content
