@@ -29,7 +29,7 @@ Most migrations fall into regular phases as described below.  Proven success fac
 
 
 
-## Migration planning
+## Planning
 Before beginning your migration, it is important that you plan your outcome by performing an assessment of your current source environment. What you discover will influence your overall strategy and timing, including:
 
 - The mapping of content from your source site to the destination site.
