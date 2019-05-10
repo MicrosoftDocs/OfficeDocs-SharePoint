@@ -51,16 +51,15 @@ Begin by reading:
 - **[Guide to the Modern experience in SharePoint](https://docs.microsoft.com/en-us/sharepoint/guide-to-sharepoint-modern-experience)**
 
 
-
 ### Planning a modern framework before you migrate
 
 **Modern team sites, pages and hubs**
 
-When moving your team site, we recommend that you create team sites in SharePoint Online that are "Modern".  While this does not automatically make them group or **Microsoft Teams** connected, you will be able to connect them in the future. You can either create them using the user interface, PowerShell, or by using a migration tool such as the SharePoint Migration Tool (SPMT) that can create these sites for you.
+When moving your team site, we recommend that you create team sites in SharePoint Online that are "modern".  While this does not automatically make them group or **Microsoft Teams** connected, you will be able to connect them in the future. You can either create them using the user interface, PowerShell, or by using a migration tool such as the SharePoint Migration Tool (SPMT) that can create these sites for you.
  
-**Moving to hub sites**
-
 As you plan your migration, we recommend that a **hub site** the best way to create relationships between sites. We highly recommend taking this opportunity to bring those subsites to be their own site collections in order to connect them through a hub.
+
+Decide how your team sites map to a modern hub architecture. It isn't necessary to group connect every site you are moving, but strategize your site plan to optimize the structure to be flexible for continuous change.
 
 #### More guidance on modernization
 
@@ -114,7 +113,9 @@ Before migrating your team site content, you must first pre-provision your users
 - [Prepare to provision users through directory synchronization to Office 365](/office365/enterprise/prepare-for-directory-synchronization)
 
 
-What you have decided regardeingyuour teams creation, setup for your hub architecture, you need to map your hubs.
+Create modern sites & hub sites 
+
+setup for your hub architecture, you need to map your hubs.
 
 
 
