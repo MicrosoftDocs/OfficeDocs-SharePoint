@@ -45,13 +45,10 @@ Before beginning your migration, it is important that you plan your outcome by p
 ### Understanding the modern architecture
 New features and enhancements are continually being rolled in SharePoint Online before being included in SharePoint Server.  As a result, features and functionality that are available in SharePoint Server may be different than those in SharePoint Online.
 
-As you plan your migration it is important to understand the modern architecture and plan on how to leverage this new expereience.  
-
+As you plan your migration strategy, it is important to understand the modern architecture.
 Begin by reading:
 
 - **[Guide to the Modern experience in SharePoint](https://docs.microsoft.com/en-us/sharepoint/guide-to-sharepoint-modern-experience)**
-
-The modern experience in SharePoint is designed to not only be compelling but flexible, making it easier for anyone to create mobile-ready sites and pages. We highly recommend that you take advantage of the additional improvements in navigation, branding, publishing, search, and sharing.
 
 
 
@@ -73,9 +70,7 @@ When moving your team site, we recommend that you create team sites in SharePoin
 
 ### Moving to Microsoft hubs
 
-Classic SharePoint architecture is typically built using a hierarchical system of site collections and sub-sites, with inherited navigation, permissions, and site designs. Once built, this structure can be inflexible and difficult to maintain. 
 
-In the modern SharePoint experience, every site is a site collection, and all can be associated to a **hub** site which is a flat structure of sites that share navigation, branding, and other elements. This type of structure is far more flexible and adaptive to the changing needs of your organization. 
 
 As you plan your migration, we recommend that **Hubs** is the best way to create relationships between sites. We highly recommend taking this opportunity to bring those subsites to be their own site collections in order to connect them through **Hubs**.
 
@@ -86,12 +81,12 @@ To learn more about Microsoft hubs:
 
 - [Planning your SharePoint hub sites](https://docs.microsoft.com/en-us/sharepoint/planning-hub-sites)
 
-### Transforming your Workflow
+### Workflows and planning for the future
 In Office 365, **Microsoft Flow** is the product that allows you to easily create and manage workflow. If you are currently using SharePoint workflows, we recommend that you consider "future-proofing" your environment by identifying the workflows you want to keep and recreate them using **Microsoft Flow** to allow for better platform integration. 
 
 
 >[!Note]
->Classic workflow will still be supported and available until 2026. We recommend taking this in considerations as you plan for your workflow lifetime.
+>Classic workflow will be supported and available until 2026. We recommend taking this into consideration as you plan for your workflow lifetime.
 
 
 To learn more:
@@ -123,7 +118,9 @@ Also included is the SharePoint Migration Identity Management Tool, that does id
 
 ## Prepare your SharePoint environment
 
-Before migrating your team site content, you must pre-provision your users in Office 365.  For guidance on pre-provisioning see: 
+Before migrating your team site content, you must pre-provision your users in Office 365.
+
+  For guidance on pre-provisioning see: 
 - [Prepare to provision users through directory synchronization to Office 365](/office365/enterprise/prepare-for-directory-synchronization)
 - [Transform classic pages to modern client-side pages](https://docs.microsoft.com/en-us/sharepoint/dev/transform/modernize-userinterface-site-pages)
 
