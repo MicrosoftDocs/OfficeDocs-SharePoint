@@ -52,7 +52,7 @@ Begin by reading:
 
 
 
-### Planning the modern framework 
+### Planning a modern framework before you migrate
 
 **Modern team sites, pages and hubs**
 
@@ -108,12 +108,13 @@ Also included is the SharePoint Migration Identity Management Tool, that does id
 
 ## Prepare your SharePoint environment
 
-Before migrating your team site content, you must pre-provision your users in Office 365.
+Before migrating your team site content, you must first pre-provision your users in Office 365.
 
   For guidance on pre-provisioning see: 
 - [Prepare to provision users through directory synchronization to Office 365](/office365/enterprise/prepare-for-directory-synchronization)
-- [Transform classic pages to modern client-side pages](https://docs.microsoft.com/en-us/sharepoint/dev/transform/modernize-userinterface-site-pages)
 
+
+What you have decided regardeingyuour teams creation, setup for your hub architecture, you need to map your hubs.
 
 
 
