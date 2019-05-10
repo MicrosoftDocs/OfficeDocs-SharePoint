@@ -20,7 +20,7 @@ Most migrations fall into regular phases as described below.  Proven success fac
 
 **Note:**</br>The SharePoint Migration Tool (SPMT) is a Microsoft developed migration tool available at no cost. To download: [SharePoint Migration Tool ](https://aka.ms/spmt-ga-page).
 
-   ![Migration process](media/migrationprocess-fileshare.png)
+   ![Migration process](media/migration-process-SPonly.png)
 
 |**Planning**|**Assess and remediate**|**Prepare your SharePoint environment**|**Migrate**|**User onboarding**|
 |:-----|:-----|:-----|:-----|:-----|
