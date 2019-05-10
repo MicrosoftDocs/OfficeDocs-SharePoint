@@ -42,10 +42,18 @@ Before beginning your migration, it is important that you plan your outcome by p
  Learn more at:   [SharePoint Hybrid Configuration Roadmaps](https://docs.microsoft.com/en-us/sharepoint/hybrid/configuration-roadmaps).
 
 
-### Planning for modernization
+### Understanding the modern architecture
 New features and enhancements are continually being rolled in SharePoint Online before being included in SharePoint Server.  As a result, features and functionality that are available in SharePoint Server may be different than those in SharePoint Online.
 
+As you plan your migration it is important to understand the modern architecture and plan on how to leverage this new expereience.  
+
+Begin by reading:
+
+- **[Guide to the Modern experience in SharePoint](https://docs.microsoft.com/en-us/sharepoint/guide-to-sharepoint-modern-experience)**
+
 The modern experience in SharePoint is designed to not only be compelling but flexible, making it easier for anyone to create mobile-ready sites and pages. We highly recommend that you take advantage of the additional improvements in navigation, branding, publishing, search, and sharing.
+
+
 
 
 #### Modern team sites and modern pages
@@ -56,7 +64,7 @@ When moving your team site, we recommend that you create team sites in SharePoin
 
 #### More guidance on modernization of sites
 
-- [Guide to the Modern experience in SharePoint](https://docs.microsoft.com/en-us/sharepoint/guide-to-sharepoint-modern-experience)
+- 
 
 - [Modernize your classic SharePoint sites](https://aka.ms/sppnp-modernize) 
 
