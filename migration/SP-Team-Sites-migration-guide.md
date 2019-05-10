@@ -59,9 +59,9 @@ When moving your team site, we recommend that you create team sites in SharePoin
  
 As you plan your migration, we recommend that a **hub site** the best way to create relationships between sites. We highly recommend taking this opportunity to bring those subsites to be their own site collections in order to connect them through a hub.
 
-- **[What is a SharePoint hub site?](https://support.office.com/en-us/article/what-is-a-sharepoint-hub-site-fe26ae84-14b7-45b6-a6d1-948b3966427f?ui=en-US&rs=en-US&ad=US)**
+- [What is a SharePoint hub site?](https://support.office.com/en-us/article/what-is-a-sharepoint-hub-site-fe26ae84-14b7-45b6-a6d1-948b3966427f?ui=en-US&rs=en-US&ad=US)
 
-- **[Planning your SharePoint hub sites](https://docs.microsoft.com/en-us/sharepoint/planning-hub-sites)**
+- [Planning your SharePoint hub sites](https://docs.microsoft.com/en-us/sharepoint/planning-hub-sites)
 
 Decide how your team sites map to a modern hub architecture. It isn't necessary to group connect every site you are moving, but strategize your site plan to optimize the structure to be flexible for continuous change.
 
@@ -78,7 +78,8 @@ Decide how your team sites map to a modern hub architecture. It isn't necessary 
 ### Workflows and planning for the future
 In Office 365, **Microsoft Flow** is the product that allows you to easily create and manage workflow. If you are currently using SharePoint workflows, we recommend that you consider "future-proofing" your environment by identifying the workflows you want to keep and recreate them using **Microsoft Flow** to allow for better platform integration. 
 
-To learn more: **[Get started with Microsoft Flow](https://docs.microsoft.com/en-us/flow/getting-started)**
+To learn more:
+- [Get started with Microsoft Flow](https://docs.microsoft.com/en-us/flow/getting-started)
 
 >[!Note]
 >Classic workflow will be supported and available until 2026. We recommend taking this into consideration as you plan for your workflow lifetime.
