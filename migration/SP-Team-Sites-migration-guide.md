@@ -24,10 +24,7 @@ Most migrations fall into regular phases as described below.  Proven success fac
 
 |**Planning**|**Assess and remediate**|**Prepare your SharePoint environment**|**Migrate**|**User onboarding**|
 |:-----|:-----|:-----|:-----|:-----|
-|What to expect before and after|Run SMAT|User creation |Migration steps|Send regular emails to users|
-|Migration and network performance considerations|Assess key areas|Site creation|Migration service providers|Provide training|
-|Change management and communications|Remediate issues|Tenant settings| Let users know how they are impacted|
-|Plan for Modernization: Modern team sites| Hubs| Workflow (Flow)"|Hybrid| Provide documentation for making the switch|
+|What to expect before and after </br></br>Migration and network performance considerations</br></br>Change management and communications</br></br>Plan for Modernization: Modern team sites|Run SMAT</br></br>Assess key areas</br></br>Remediate issues</br></br>Workflows|User creation</br></br>Site creation</br></br>Tenant settings</br></br>Hybrid|Migration service providers</br></br>Let users know how they are impacted|Send regular emails to users</br></br>Provide training</br></br>Provide documentation for making the switch|
 
 
 
