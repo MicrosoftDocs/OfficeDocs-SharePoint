@@ -193,3 +193,7 @@ The preliminary performance test provides a rough estimate of 300-400 items per 
 At the start of read asynchronous migration, the server calculates the number of objects to confirm that it is within the 1 million object limit and can impact performance depending on the size of your migration. Hence the throughput for a small number of objects (e.g. 100 objects) is less than if 100,000 objects are migrated.
 
 
+## See also
+[SharePoint Online Migration API](https://docs.microsoft.com/sharepoint/dev/apis/migration-api-overview)
+
+[SPO provided Migration Azure container and queue](https://docs.microsoft.com/en-us/sharepoint/dev/apis/migration-api-azure-container-and-queue)
