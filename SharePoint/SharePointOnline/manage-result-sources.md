@@ -34,7 +34,7 @@ For the classic search experience, you can create your own result sources, or us
     
   - For the **tenant**: In the classic SharePoint admin center, in the left pane select **search**, and then on the search administration page, select **Manage Result Sources**.
     
-  - For a **site collection**: In your site collection, go to **Settings**, select **Site settings** and then under **Site Collection Administration**, select **Search Result Sources**
+  - For a **site collection**: In your site collection, go to **Settings**, select **Site settings** and then under **Site Collection Administration**, select **Search Result Sources**.
     
   - For a **site**: On your site, go to **Settings**, select **Site settings**, and then under **Search**, select **Result Sources**.
     
@@ -44,7 +44,7 @@ For the classic search experience, you can create your own result sources, or us
     
 4. In the **Protocol** section, select one of the following protocols for retrieving search results: 
     
-  - **Local SharePoint**, the default protocol, provides results from the search index of this tenant (Search Service)
+  - **Local SharePoint**, the default protocol, provides results from the search index of this tenant (Search Service).
     
   - **Remote SharePoint** provides results from the index of a search service in a different farm (external source). In the **Remote Service URL** box, type the address of the root site collection of the remote SharePoint farm. 
     

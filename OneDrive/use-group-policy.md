@@ -100,6 +100,8 @@ The OneDrive Group Policy objects work by setting registry keys on the computers
     
 - [Receive OneDrive sync client updates on the Enterprise ring](use-group-policy.md#EnableEnterpriseUpdate)
 
+- [Require users to confirm large delete operations](use-group-policy.md#ForcedLocalMassDeleteDetection)
+
 - [Set the default location for the OneDrive folder](use-group-policy.md#DefaultRootDir)
  
 - [Set the maximum size of a user's OneDrive that can download automatically](use-group-policy.md#DiskSpaceCheckThresholdMB)
@@ -280,6 +282,19 @@ Enabling this policy sets the following registry key:
 
 [More info about known folder move](redirect-known-folders.md) 
 
+### Require users to confirm large delete operations
+<a name="ForcedLocalMassDeleteDetection"> </a>
+
+This setting makes users confirm that they want to delete files in the cloud when they delete a large number of synced files.
+
+If you enable this setting, a warning will always appear when users delete a large number of synced files. If a user does not confirm a delete operation within 7 days, the files will not be deleted.
+
+If you disable or do not configure this setting, users can choose to hide the warning and always delete files in the cloud.
+
+Enabling this policy sets the following registry key value to 1.
+  
+[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"ForcedLocalMassDeleteDetection"="dword:00000001"
+
 ### Set the maximum size of a user's OneDrive that can download automatically
 <a name="DiskSpaceCheckThresholdMB"> </a>
 
@@ -346,7 +361,7 @@ Setting this value to 1 displays a notification after successful redirection.
 > [!IMPORTANT]
 > ADAL is now enabled automatically when you enable this setting through Group Policy or by using the registry key, so you don't have to download and enable it separately.
   
-If you enable this setting, users who are signed in on a PC with their domain credentials can set up the sync client without entering their account credentials. Users will still be shown OneDrive Setup so they can select folders to sync and change the location of their OneDrive folder. If a user is using the previous OneDrive for Business sync client (Groove.exe), the new sync client will attempt to take over syncing the user's OneDrive from the previous client and preserve the user's sync settings. This setting is frequently used together with [Set the maximum size of a user's OneDrive that can download automatically](use-group-policy.md#DiskSpaceCheckThresholdMB) on PCs that don't have Files On-Demand, and with [Set the default location for the OneDrive folder](use-group-policy.md#DefaultRootDir).
+If you enable this setting, users who are signed in on a PC that's joined to Azure AD can set up the sync client without entering their account credentials. Users will still be shown OneDrive Setup so they can select folders to sync and change the location of their OneDrive folder. If a user is using the previous OneDrive for Business sync client (Groove.exe), the new sync client will attempt to take over syncing the user's OneDrive from the previous client and preserve the user's sync settings. This setting is frequently used together with [Set the maximum size of a user's OneDrive that can download automatically](use-group-policy.md#DiskSpaceCheckThresholdMB) on PCs that don't have Files On-Demand, and with [Set the default location for the OneDrive folder](use-group-policy.md#DefaultRootDir).
 
 Enabling this policy sets the following registry key value to 1.
   
@@ -443,7 +458,12 @@ If you disable this setting, the **Office** tab is hidden in the sync client, an
 > [!IMPORTANT]
 > This feature is currently enabled in the Insiders ring only. To try it, join the [Windows Insider program](https://insider.windows.com/) or the [Office Insider](https://products.office.com/office-insider) program.
 
-This setting allows you to specify SharePoint team site libraries to sync automatically the next time users sign in to the OneDrive sync client (OneDrive.exe). It may take up to 8 hours after a user signs in before the library begins to sync. To use the setting, you must enable OneDrive Files On-Demand, and the setting applies only for users on computers running Windows 10 Fall Creators Update (version 1709) or later. Do not enable this setting for the same library to more than 1,000 devices. This feature is not enabled for on-premises SharePoint sites. 
+This setting allows you to specify SharePoint team site libraries to sync automatically the next time users sign in to the OneDrive sync client (OneDrive.exe). It may take up to eight hours after a user signs in before the library begins to sync. To use this setting, the computer must be running Windows 10 Fall Creators Update (version 1709) or later, and OneDrive Files On-Demand must be enabled.
+This feature is not enabled for on-premises SharePoint sites. 
+
+> [!IMPORTANT]
+> Do not enable this setting for libraries with more than 5,000 files or folders.
+> Do not enable this setting for the same library to more than 1,000 devices.
 
 If you enable this setting, the OneDrive sync client will automatically sync the contents of the libraries you specified as online-only files the next time the user signs in. The user won't be able to stop syncing the libraries.  
 
