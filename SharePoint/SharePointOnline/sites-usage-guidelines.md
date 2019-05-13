@@ -15,7 +15,7 @@ localization_priority: None
 
 # Sites usage guidelines
 
-## ![Alt image text](media/map.png "A map") Introduction
+### ![Alt image text](media/map.png "A map") Introduction
 **Guidance:**</br>
 Provide a short introduction to frame your guidelines. If you have broader business or digital resource use policy, link to it if it applies to SharePoint sites as well.
 
@@ -30,7 +30,9 @@ Refer to [ insert your orgs name] business resource use policy. These policies a
 ## ![Alt image text](media/document.png "Guidelines") General guidelines
 **Guidance:**</br> 
 Provide general policy statements that you want your users to follow. These may include key business uses you have defined for sites, internal communication policies, or security and privacy guidelines.
+
 **Resources:**</br>
+
 **Sample text:**</br>
  
 ## ![Alt image text](media/subsite.png "Site")  Guidelines for creating your site
