@@ -15,16 +15,21 @@ localization_priority: None
 
 # Sites usage guidelines
 
+Using the steps below, create your own site usage guidance for your site owners on how sites are set up and managed at your organization.
+
+
+
 ## ![Alt image text](media/map.png "A map") Introduction
 **Guidance:**</br>
 Provide a short introduction to frame your guidelines. If you have broader business or digital resource use policy, link to it if it applies to SharePoint sites as well.
 
 **Resources:**</br>
 
+
 **Sample text:**</br>
-A SharePoint site is designed to be a powerful tool for team collaboration and communication. Our [enter your IT/productivity service org] administers the Microsoft 365 service your site is built on. The goal is to make it easy to accomplish your business goals.
-Here are some things to keep in mind as you work with your SharePoint sites.
-Refer to [ insert your orgs name] business resource use policy. These policies apply to all SharePoint site usage.
+*A SharePoint site is designed to be a powerful tool for team collaboration and communication. Our [enter your IT/productivity service org] administers the Microsoft 365 service your site is built on. The goal is to make it easy to accomplish your business goals.*</br>
+*Here are some things to keep in mind as you work with your SharePoint sites.
+Refer to [ insert your orgs name] business resource use policy. These policies apply to all SharePoint site usage.*
 
  
 ## ![Alt image text](media/document.png "Guidelines") General guidelines
@@ -38,11 +43,11 @@ Provide general policy statements that you want your users to follow. These may 
 ## ![Alt image text](media/subsite.png "Site")  Guidelines for creating your site
 
 **Guidance:**</br>
-Provide basic procedural guidance. How does someone get a SharePoint site? It may be via the “create site” link on SharePoint home or you may have a unique provisioning process for your organization.
-If you have specific site templates that you want your site owners to select during self-provisioning, include that info in this section.
-Information on custom provisioning solutions Branding and site provisioning solutions for SharePoint.
-Are there any ownership or site classification requirements your organization has implemented? 
-When you set up your site, it’s important to select the appropriate site classification level. Include references or links to your your organization’s data classification guidelines.
+Provide basic procedural guidance. How does someone get a SharePoint site? It may be via the “create site” link on SharePoint home or you may have a unique provisioning process for your organization.</br>
+If you have specific site templates that you want your site owners to select during self-provisioning, include that info in this section.</br>
+Information on custom provisioning solutions Branding and site provisioning solutions for SharePoint.</br>
+Are there any ownership or site classification requirements your organization has implemented? </br>
+When you set up your site, it’s important to select the appropriate site classification level. Include references or links to your your organization’s data classification guidelines.</br>
 
 **Resources:**</br>
 Manage site creation in SharePoint Online . 
