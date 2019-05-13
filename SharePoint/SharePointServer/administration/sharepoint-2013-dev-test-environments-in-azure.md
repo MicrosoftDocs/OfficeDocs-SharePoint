@@ -168,7 +168,7 @@ Set your subscription to the correct one with these commands.
   
 ```
 $subscrName="<subscription name>"
-Select-AzSubscription -SubscriptionName $subscrName -Current
+Select-AzSubscription -SubscriptionName $subscrName
 ```
 
 Next, specify the resource group name and Azure location for the deployment with these commands.
@@ -324,7 +324,7 @@ Set your subscription to the correct one with these commands.
   
 ```
 $subscrName="<subscription name>"
-Select-AzSubscription -SubscriptionName $subscrName -Current
+Select-AzSubscription -SubscriptionName $subscrName
 ```
 
 Next, specify the resource group name and Azure location for the deployment with these commands.

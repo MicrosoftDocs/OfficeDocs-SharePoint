@@ -194,7 +194,7 @@ If you need a property of a different type, or one that has different characteri
     
 2. Click **Search Schema** under **Site Collection Administration**.
     
-2. On the Managed Properties page, find an unused managed property. By unused, we mean that the property is not mapped to a crawled property: the **Mapped Crawled Properties** column is empty. See the [Default unused managed properties](/SharePoint/search/manage-the-search-schema#defaultunusedmps) table for more details. 
+2. On the Managed Properties page, find an unused managed property. By unused, we mean that the property is not mapped to a crawled property: the **Mapped Crawled Properties** column is empty. See the [Default unused managed properties](manage-search-schema.md#DefaultUnusedMPs) table for more details. 
     
     > [!IMPORTANT]
     > To be able to use the property as a refiner later, choose a managed property that is marked with **Refine**. 
@@ -366,6 +366,25 @@ If you need a property of a different type, or one that has different characteri
 1. To view which crawled properties belong to a category, and which managed properties they are mapped to, click the crawled property category in the Categories page.
     
 2. To edit a category, point to the crawled property category that you want to edit, click the arrow, and then click **Edit category**.
+
+## Default unused managed properties
+<a name="DefaultUnusedMPs"> </a>
+
+The following table provides an overview of the default unused managed properties that you can reuse and rename using an Alias.
+  
+| **Managed property type** | **Count** |           **Managed property characteristics**           |     **Managed property name range**      |
+| :------------------------ | :-------- | :------------------------------------------------------- | :--------------------------------------- |
+| Date                      | 10        | Queryable                                                | Date00 to Date09                         |
+| Date                      | 20        | Multivalued, Queryable, Refinable, Sortable, Retrievable | RefinableDate00 to RefinableDate19       |
+| Date                      |  2        | Queryable, Refinable, Sortable, Retrievable              | RefinableDateInvariant00 to RefinableDateInvariant01 |
+| Date                      |  5        | Queryable, Refinable, Sortable, Retrievable              | RefinableDateSingle00 to RefinableDateSingle04 |
+| Decimal                   | 10        | Queryable                                                | Decimal00 to Decimal09                   |
+| Decimal                   | 10        | Multivalued, Queryable, Refinable, Sortable, Retrievable | RefinableDecimal00 to RefinableDecimal09 |
+| Double                    | 10        | Queryable                                                | Double00 to Double09                     |
+| Double                    | 10        | Multivalued, Queryable, Refinable, Sortable, Retrievable | RefinableDouble00 to RefinableDouble09   |
+| Integer                   | 50        | Queryable                                                | Int00 to Int49                           |
+| Integer                   | 50        | Multivalued, Queryable, Refinable, Sortable, Retrievable | RefinableInt00 to RefinableInt49         |
+| String                    | 200 | Multivalued, Queryable, Refinable, Sortable, Retrievable | RefinableString00 to RefinableString199  |
     
 ## Hide documents from Delve
 <a name="BKMK_HideFromDelveSteps"> </a>
@@ -427,5 +446,3 @@ After the next scheduled crawl, or after you [Request re-indexing of a document 
 [Overview of the search schema in SharePoint Server](https://go.microsoft.com/fwlink/p/?LinkID=733498)
   
 [Manually request crawling and re-indexing of a site](crawl-site-content.md)
-  
-

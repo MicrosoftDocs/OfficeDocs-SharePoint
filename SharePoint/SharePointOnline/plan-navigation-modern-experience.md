@@ -198,7 +198,7 @@ Hub site navigation is displayed above the local navigation on each site, just b
 
 ![Hub site navigation](media/plan-navigation-modern-experience_image2.png)
 
-Hub site navigation is established in the on the site that is declared to be the hub. It is defined by the hub site owner and is shared by all the associated sites. You cannot currently “turn off” hub navigation on an individual site that is associated to a hub, so you will want to carefully think about which sites are reflected in your hub navigation.
+Hub site navigation is established in the site that is declared to be the hub. It is defined by the hub site owner and is shared by all the associated sites. You cannot currently “turn off” hub navigation on an individual site that is associated to a hub, so you will want to carefully think about which sites are reflected in your hub navigation.
 
 There are three special considerations for planning hub site navigation:
 
@@ -260,7 +260,7 @@ Global navigation is not yet available. Until it is available, there are several
 
 -   Create a custom [SharePoint Framework Extension](/sharepoint/dev/spfx/sharepoint-framework-overview) to deliver and apply global navigation to each new site as it is created.
 
--   Create a “navigation” site (e.g. your intranet “home” site) and use the logo in the suite bar and a Featured Site link on SharePoint Home to make it easy for people to navigate to the “home” site from every destination site in your tenant.
+-   Create a “navigation” site (e.g. your intranet “home” site) and use the logo in the suite bar and a Featured Site link on the SharePoint start page to make it easy for people to navigate to the “home” site from every destination site in your tenant.
 
 -   Manually add a link to the “home” site in the local navigation in each or key site collections.
 
