@@ -15,7 +15,7 @@ localization_priority: None
 
 # Sites usage guidelines
 
-### ![Alt image text](media/map.png "A map") Introduction
+## ![Alt image text](media/map.png "A map") Introduction
 **Guidance:**</br>
 Provide a short introduction to frame your guidelines. If you have broader business or digital resource use policy, link to it if it applies to SharePoint sites as well.
 
