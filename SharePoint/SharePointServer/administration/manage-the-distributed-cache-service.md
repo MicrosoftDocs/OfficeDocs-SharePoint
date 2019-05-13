@@ -246,7 +246,7 @@ Where  _Domain_name\user_name_ is the domain name and user name of the SharePoin
 **Monitoring**
 
 There is also a good set of performance counters on the cache servers that you can monitor to get a better understanding of cache performance issues. 
-Some of the [counters](https://docs.microsoft.com/en-us/previous-versions/appfabric/ff637725(v=azure.10)) that are typically useful to troubleshoot issues include:
+Some of the [counters](https://docs.microsoft.com/previous-versions/appfabric/ff637725(v=azure.10)) that are typically useful to troubleshoot issues include:
 
 1. %cpu used up by cache service
 
