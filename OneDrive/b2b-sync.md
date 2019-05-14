@@ -257,7 +257,7 @@ When they click the “One or more libraries could not be synced” banner, they
 
 ## Policy Setting to Prevent B2B Sync
 
-The B2B Sync feature of the OneDrive sync client allows users at an organization to sync content shared with them from another organization. If you wish to prevent users at your organization from being able to use B2BSync, you may set a policy value on your user's Windows PC or Mac to block external sync.
+The B2B Sync feature of the OneDrive sync client allows users at an organization to sync content shared with them from another organization. If you wish to prevent users at your organization from being able to use B2B Sync, you may set a policy value on your users' Windows PC or Mac to block external sync.
 
 You only need to take these actions if you wish to prevent users at your organization from using the B2B Sync feature (to prevent syncing libraries and folders shared from other organizations).
 
