@@ -263,7 +263,7 @@ You only need to take these actions if you wish to prevent users at your organiz
 
 The new BlockExternalSync setting is described in the adm\OneDrive.admx and OneDrive.adml files installed as part of the OneDrive sync product build 19.086.* or higher.  If you use ADM to manage your OneDrive sync client policies, import the new files as you normally would to see the new setting.
 
-If you are using other management systems to deploy policies to your user’s Windows PCs, do the equivalent of the following command to prevent B2B Sync:
+If you are using other management systems to deploy policies to your users' Windows PCs, use the equivalent of the following command to prevent B2B Sync:
 reg add "HKLM\SOFTWARE\Policies\Microsoft\OneDrive" /v BlockExternalSync /t REG_DWORD /d 1
  
 On a Mac with the Apple Store version of OneDrive, do the equivalent of the following command to prevent B2B Sync:
