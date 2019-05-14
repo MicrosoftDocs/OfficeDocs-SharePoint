@@ -269,5 +269,5 @@ reg add "HKLM\SOFTWARE\Policies\Microsoft\OneDrive" /v BlockExternalSync /t REG_
 On a Mac with the Apple Store version of OneDrive, use the equivalent of the following command to prevent B2B Sync:
 defaults write com.microsoft.OneDrive-mac BlockExternalSync -bool YES
 
-On a Mac with the Standalone version of OneDrive, do the equivalent of the following command to prevent B2B Sync:
+On a Mac with the Standalone version of OneDrive, use the equivalent of the following command to prevent B2B Sync:
 defaults write com.microsoft.OneDrive BlockExternalSync -bool YES
