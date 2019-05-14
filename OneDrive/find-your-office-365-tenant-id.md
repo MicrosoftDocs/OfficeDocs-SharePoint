@@ -29,7 +29,7 @@ Your Office 365 tenant ID is a globally unique identifier (GUID) that is differe
 2. Under **Manage**, select **Properties**. The tenant ID is shown in the **Directory ID** box. 
     
 > [!NOTE]
-> For info about finding your tenant ID by using PowerShell instead, first read [Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0) and then use[Get-AzureADTenantDetail](/powershell/module/azuread/Get-AzureADTenantDetail).
+> For info about finding your tenant ID by using PowerShell instead, first read [Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0) and then use [Get-AzureADTenantDetail](/powershell/module/azuread/Get-AzureADTenantDetail).
 
   
 
