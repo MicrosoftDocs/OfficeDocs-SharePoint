@@ -194,6 +194,8 @@ At the start of read asynchronous migration, the server calculates the number of
 
 
 ## See also
+>
+
 [SharePoint Online Migration API](https://docs.microsoft.com/sharepoint/dev/apis/migration-api-overview)
 
-[SPO provided Migration Azure container and queue](https://docs.microsoft.com/en-us/sharepoint/dev/apis/migration-api-azure-container-and-queue)
+[SPO provided Migration Azure container and queue](https://docs.microsoft.com/sharepoint/dev/apis/migration-api-azure-container-and-queue)
