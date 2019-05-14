@@ -80,7 +80,7 @@ Here's an example of what happens after someone at "Contoso" shares a site or fo
  
 ## Enable external sharing for your organization 
  
-In order for users at your orgnaization to be able to share with their partners at other orgnaizations, external sharing must be enabled at the organization level. To do this, you must be a global or SharePoint admin in Office 365. After you enable external sharing at the organization level, you can restrict it site by site. A site's settings can be the same as the organization setting, or more restrictive, but not more permissive.
+In order for users at your organization to be able to share with their partners at other organizations, external sharing must be enabled at the organization level. To do this, you must be a global or SharePoint admin in Office 365. After you enable external sharing at the organization level, you can restrict it site by site. A site's settings can be the same as the organization setting, or more restrictive, but not more permissive.
 
 You can change your organization-level sharing settings in three different places (all three control the same thing):
 
