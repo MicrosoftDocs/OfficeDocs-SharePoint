@@ -15,7 +15,9 @@ localization_priority: None
 
 # Sites usage guidelines
 
-Using the steps below as a template, create your own site usage guidance for your site owners on how sites are set up and managed at your organization. To download this list: [insert link to PDF download]()
+Using the steps below as a template, create your own site usage guidance for your site owners on how sites are set up and managed at your organization. 
+
+To download: [PDF]()
 
 
 ## ![Alt image text](media/map.png "A map") Introduction
