@@ -25,7 +25,7 @@ Going forward, recipients of secure external sharing who also use Office 365 in 
   
 The procedures for sharing files and folders remain the same. They can be found in [Share SharePoint files or folders in Office 365](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c). The procedures for [changing permissions and seeing who you've shared with](https://support.office.com/article/0a36470f-d7fe-40a0-bd74-0ac6c1e13323) also remain the same, though users who use the new external sharing experience appear underneath the link that was shared with them, not as a top-level user. 
   
-Guest accounts are still used for sharing sites, and you can always add guest users to your directory if you need to give them access to more than just a file or folder. Anonymous links remain available and are unchanged.
+Guest accounts are still used for sharing sites, and you can always add guest users to your directory if you need to give them access to more than just a file or folder. "Anyone" links remain available and are unchanged.
   
 The following table shows the differences between sharing with external users with guest accounts and with ad-hoc external recipients.
   
@@ -56,5 +56,9 @@ The following table shows the differences between sharing with external users wi
 
 > [!NOTE]
 > Secure links is a default way to allow external recipients to access files and folders securely without requiring them to create or maintain a Microsoft account. Email-based verification codes are a simple and effective way to provide secure access, familiar to users who access secure internet sites that verify identity by sending a code by email or text message.
-   
+
+## See also
+[External sharing overview](external-sharing-overview.md)
+
+[Secure SharePoint Online sites and files](/office365/securitycompliance/secure-sharepoint-online-sites-and-files)
 
