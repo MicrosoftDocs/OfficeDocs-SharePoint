@@ -26,7 +26,6 @@ Using the steps below as a template, create your own site usage guidance for you
 **Sample text:**</br>
 *A SharePoint site is designed to be a powerful tool for team collaboration and communication. [enter your IT/productivity service org] administers the Microsoft 365 service your site is built on. The goal is to make it easy to accomplish your business goals.*</br>
 
-*Here are some things to keep in mind as you work with your SharePoint sites. Refer to [**insert your organizations name**] business resource use policy. These policies apply to all SharePoint site usage.*
 
  
 ## ![Alt image text](media/document.png "Guidelines") General guidelines
@@ -37,6 +36,8 @@ Using the steps below as a template, create your own site usage guidance for you
 - [Plan your SharePoint site](https://support.office.com/en-us/article/plan-your-sharepoint-site-35d9adfe-d5cc-462f-a63a-bae7f2529182)
 - [Guide to the Modern Experience in SharePoint](https://docs.microsoft.com/en-us/sharepoint/guide-to-sharepoint-modern-experience)
 
+**Sample text:**</br>
+*Here are some things to keep in mind as you work with your SharePoint sites. Refer to [**insert your organizations name**] business resource use policy. These policies apply to all SharePoint site usage.*
 
  
 ## ![Alt image text](media/subsite.png "Site")  Guidelines for creating your site
@@ -54,7 +55,9 @@ Using the steps below as a template, create your own site usage guidance for you
 - [Branding and site provisioning solutions for SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/branding-and-site-provisioning-solutions-for-sharepoint)
 
 **Sample text:**</br>
-*Sites can be created via the “create site” link at [**insert your SharePoint link**]. See the “Guidelines for creating your site” page in this guide for more on how to create your site. You should have two site owners who are both full time employees at your org.*
+*Sites can be created via the “create site” link at [**insert your SharePoint link**].* 
+
+*You should have two site owners who are both full time employees at your org.*
 
 *When you set up your site, it’s important to select the appropriate site classification level. [**Insert Link to your organization’s data classification guidelines**].*
 
@@ -87,7 +90,7 @@ Using the steps below as a template, create your own site usage guidance for you
 
 
 **Sample text:** </br>
-*Your site and its contents can be shared with anyone in the organization.* 
+*Your site and its contents can be shared internally within our organization or externally with your users.* 
 
 *As site owner, you will receive access requests when someone shares your site. You can approve or decline any requests sent to you.*
 
