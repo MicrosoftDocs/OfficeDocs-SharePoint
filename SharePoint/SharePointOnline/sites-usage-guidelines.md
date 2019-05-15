@@ -18,7 +18,6 @@ localization_priority: None
 Using the steps below as a template, create your own site usage guidance for your site owners on how sites are set up and managed at your organization. To download this list: [insert link to PDF download]()
 
 
-
 ## ![Alt image text](media/map.png "A map") Introduction
 **Guidance:**</br>
 - Provide a short introduction to frame your guidelines. If you have broader business or digital resource use policy, link to it if it applies to SharePoint sites as well.
