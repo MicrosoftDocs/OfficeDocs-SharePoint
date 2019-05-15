@@ -36,7 +36,7 @@ You must perform the following tasks to configure eDiscovery:
 If you will use a SharePoint eDiscovery Center to discover content in Exchange Server, you must configure SharePoint Server and Exchange Server to interact.
   
 > [!IMPORTANT]
-> To discover content in Exchange Server from a SharePoint eDiscovery Center, you must be running Exchange Server 2019, 2016, or 2013. 
+> To discover content in Exchange Server from a SharePoint eDiscovery Center, you must be running Exchange Server versions 2019, 2016, or 2013. 
   
 Perform the following steps:
   
