@@ -25,7 +25,7 @@ A single continuous crawl includes all content sources in a Search service appli
   
 You cannot run multiple full crawls or multiple incremental crawls for the same content source at the same time. However, multiple continuous crawls can run at the same time. Therefore, even if one continuous crawl is processing a large content update, another continuous crawl can start at the predefined time interval and crawl other updates. Continuous crawls of a particular content repository can also occur while a full or incremental crawl is in progress for the same repository.
   
-A continuous crawl does not process or retry items that return errors more than three times. A "clean-up" incremental crawl automatically runs every four hours for content sources that have continuous crawl enabled to re-crawl any items that repeatedly return errors. This incremental crawl will try to crawl the item again and then will postpone retries if the error persists.
+A continuous crawl doesn't process or retry items that repeatedly return errors. Such errors are retried during a "clean-up" incremental crawl, which automatically runs every four hours for content sources that have continuous crawl enabled. Items that continue to return errors during the incremental crawl will be retried during future incremental crawls, but will not be picked up by the continuous crawls until the errors are resolved.
   
 You can set incremental crawl times on the  _Search_Service_Application_Name_: Add/Edit Content Source page, but you can change the frequency interval for continuous crawls only by using Microsoft PowerShell.
   
