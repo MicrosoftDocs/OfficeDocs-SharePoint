@@ -89,7 +89,7 @@ Using the steps below as a template, create your own site usage guidance for you
 
 
 **Sample text:** </br>
-*Your site and its contents can be shared internally within our organization or externally with your users.* 
+*Your site and its contents can be shared internally within our organization or externally with your customers or partners.* 
 
 *As site owner, you will receive access requests when someone shares your site. You can approve or decline any requests sent to you.*
 
