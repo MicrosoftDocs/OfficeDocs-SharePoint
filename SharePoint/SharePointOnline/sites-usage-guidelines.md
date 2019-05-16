@@ -1,6 +1,6 @@
 ---
-title: Sites usage guidelines checklist - test alternate
-description: A checklist to help guide users to create their site usage guidance.
+title: Sites usage guidelines checklist
+description: Checklist to help guide users to create their site usage guidance.
 author: jhendr
 manager: pamgreen
 layout: LandingPage
@@ -15,9 +15,9 @@ localization_priority: None
 
 # Sites usage guidelines
 
-Using the steps below as a template, create your own site usage guidance for your site owners on how sites are set up and managed at your organization. 
+Using the steps below as a template, create your own site usage guidance for your site owners on how sites are set up and managed at your organization.  Each section 
 
-To download: [PDF](downloads/sites-usage-guidelines.pdf)
+To download: [PDF](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/raw/live/SharePoint/downloads/sites-usage-guidelines.pdf)
 
 
 ## ![Alt image text](media/map.png "A map") Introduction
