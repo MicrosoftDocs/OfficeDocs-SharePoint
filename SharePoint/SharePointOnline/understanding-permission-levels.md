@@ -204,7 +204,7 @@ The following sections contain tables that describe SharePoint permissions for e
 - [Personal permissions and dependent permissions](understanding-permission-levels.md#BKMK_personaldependent)
     
  **Site permissions and dependent permissions**
-<a name="Site_Dependent"> </a>
+<a name="BKMK_Site_Dependent"> </a>
   
 The following table describes the permissions that apply to sites, and show the permissions that depend on them.
   
@@ -229,7 +229,7 @@ The following table describes the permissions that apply to sites, and show the 
 |Edit Personal User Information  <br/> |Allow a user to change personal information, such as adding a picture.  <br/> |Browse User Information, Open  <br/> |
    
  **List permissions and dependent permissions**
-<a name="List_Dependent"> </a>
+<a name="BKMK_listdependent"> </a>
   
 The following table describes the permissions that apply to lists and libraries, and show the permissions that depend on them.
   
@@ -249,7 +249,7 @@ The following table describes the permissions that apply to lists and libraries,
 |View Application Pages  <br/> |View documents and views in a list or document library.  <br/> |Open  <br/> |
    
  **Personal permissions and dependent permissions**
-<a name="personaldependent"> </a>
+<a name="BKMK_personaldependent"> </a>
   
 The following table describes the permissions that apply to personal views and web parts, and show the permissions that depend on them.
   
