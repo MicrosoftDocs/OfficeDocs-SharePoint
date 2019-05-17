@@ -24,6 +24,7 @@ The OneDrive sync client now lets users sync libraries or folders in SharePoint 
 > [!IMPORTANT]
 > This feature is currently enabled in the Insiders ring only (build 19.012.0121.0005 or later - [see the release notes for rollout info](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0)). To try this feature, join the [Windows Insider program](https://insider.windows.com/) or the [Office Insider](https://products.office.com/office-insider) program. <br>Alternatively, run the following command to have only the sync client join the Insider program:<br>
 PC:	reg.exe add HKCU\Software\Microsoft\OneDrive /v EnableTeamTier_Internal /t REG_DWORD /d 1 /f <br>Mac: defaults write com.microsoft.OneDrive Tier "Insiders"
+> This feature is expected to be enabled for most customers on or after June 17, 2019.  Customers who have opted into the Enterprise audience will see the feature enabled when build 19.086.* or later is available to them.
 
 Azure Active Directory (AAD) guest accounts play a key role in making B2B Collaboration possible. A guest account at one organization links to a member account at another organization. Once created, a guest account allows Office 365 services like OneDrive and SharePoint to grant a guest permission to sites and folders the same way a member within the organization is granted permission. Since the accounts at two organizations are linked, the user only needs to remember the username and password for the account at their organization. As a result, a single sign in to their account enables access to content from their own organization and from any other organization that have created guest accounts for them. 
  
@@ -33,7 +34,7 @@ For people outside your organization to sync shared libraries and folders:
 
 - External sharing must be enabled for your organization.
 - External sharing must be enabled for the site or OneDrive.
-- ADAL must not be enabled.
+- ADAL must not be enabled if using builds before 19.086.*.
 - The content must be shared with people outside the organization at the site or folder level. If a folder is shared, it must be through a link that requires sign-in.
 - Sharing recipients must have an Office 365 work or school account (in Azure AD). 
 
@@ -41,7 +42,6 @@ This article gives an overview of the B2B Sync experience and describes these re
 
 ## Known issues with this release
 
-- On the PC, if the guest's organization has applied Windows Information Protection (WIP) polices to their PC, the external organization's content will show as being owned by the guest's organization. It will be possible to copy content from the guest's organization to the external organization when it would be expected this would be blocked. This issue will be corrected in the next update. 
 - On the Mac, Files On-Demand thumbnails will not display from external organization's sites. Thumbnails will display correctly for files from the user's own organization. 
 - On the Mac, if the guest account was created with a different email address format than the form they are using with the sync client, the external site's content cannot be synced. For example, first.last@fabrikam.com vs alias@fabrikam.com.
 - On the Mac, the external content may be placed on the local computer in the user's own organization's folder instead of one with the external organization's name.
@@ -80,7 +80,7 @@ Here's an example of what happens after someone at "Contoso" shares a site or fo
  
 ## Enable external sharing for your organization 
  
-To enable B2B Sync, external sharing must be enabled at the organization level. To do this, you must be a global or SharePoint admin in Office 365. After you enable external sharing at the organization level, you can restrict it site by site. A site's settings can be the same as the organization setting, or more restrictive, but not more permissive.
+In order for users at your organization to be able to share with their partners at other organizations, external sharing must be enabled at the organization level. To do this, you must be a global or SharePoint admin in Office 365. After you enable external sharing at the organization level, you can restrict it site by site. A site's settings can be the same as the organization setting, or more restrictive, but not more permissive.
 
 You can change your organization-level sharing settings in three different places (all three control the same thing):
 
@@ -89,7 +89,7 @@ You can change your organization-level sharing settings in three different place
 - On the sharing page in the in the classic SharePoint admin center, where you can also specify detailed options. For more info, see [Additional settings](/sharepoint/turn-external-sharing-on-or-off#additional-settings).
 
 > [!IMPORTANT]
-> If you allow “anyone” links (sometimes referred to as “anonymous access” or “shareable”), these links do not create guest accounts and therefore don’t enable B2B Sync.
+> If you allow “anyone” links (sometimes referred to as “anonymous access” or “shareable”), these links do not create guest accounts and therefore the external share recipient will not be able to leverage B2B Sync when receiving that link type.
 
 For more info, see [External sharing overview](/sharepoint/external-sharing-overview).
 
@@ -117,26 +117,6 @@ To view or change the sharing setting for any site, use the new SharePoint admin
 3. If the classic SharePoint admin center appears, click **Try it now** to open the new SharePoint admin center preview.
 4. Under **Sites**, click **Active sites**, and customize the view as necessary to see the External sharing column.
 5. If you need to, [change the external sharing setting for a site](/sharepoint/manage-sites-in-new-admin-center#change-the-external-sharing-setting-for-a-site).
- 
-## Disable ADAL
-
-On PCs, the Azure AD Authentication Library (ADAL) is not currently supported for B2B Sync. If your guest's organization has enabled ADAL with OneDrive.exe, or a user was configured using the OneDrive [silent account configuration](use-silent-account-configuration.md) feature (which enables ADAL), the guest will need to disable ADAL on their PC for the preview of B2B Sync to work. 
-
-> [!IMPORTANT]
-> If the guest's organization has device-based conditional access features enabled in Azure AD (where Intune marks a device as being in compliance with IT policies by placing a certificate on the device), they should not disable ADAL as the sync client won't be able to sign in. Location-based access policies and general MFA (multi-factor authentication) policies should still be compatible with the sync client's non-ADAL based authentication library.
- 
-Run the following command to disable ADAL. 
-
-    REG ADD HKCU\Software\Microsoft\OneDrive /v EnableADAL /t REG_DWORD /d 0 /f 
-
-After running the above command, the guests will need to:
-
-1. Close the sync client (right-click the OneDrive icon in the notification area and select "Close OneDrive.")
-2. In the search box on the taskbar, enter "OneDrive," and then click OneDrive in the search results. Users may need to enter their password after OneDrive restarts. 
-
-If ADAL is enabled on the guest's PC, the following error will appear. 
-
-![OneDrive can't add your folder right now message](media/guest-pc-adal.png) 
 
 ## Methods of sharing
 
@@ -275,4 +255,19 @@ When they click the “One or more libraries could not be synced” banner, they
 
 ![Request access or stop syncing library](media/error-resolution.png) 
 
+## Policy Setting to Prevent B2B Sync
+
+The B2B Sync feature of the OneDrive sync client allows users at an organization to sync content shared with them from another organization. If you wish to prevent users at your organization from being able to use B2B Sync, you may set a policy value on your users' Windows PC or Mac to block external sync.
+
+You only need to take these actions if you wish to prevent users at your organization from using the B2B Sync feature (to prevent syncing libraries and folders shared from other organizations).
+
+The new BlockExternalSync setting is described in the adm\OneDrive.admx and OneDrive.adml files installed as part of the OneDrive sync product build 19.086.* or higher.  If you use ADM to manage your OneDrive sync client policies, import the new files as you normally would to see the new setting.
+
+If you are using other management systems to deploy policies to your users' Windows PCs, use the equivalent of the following command to prevent B2B Sync:
+reg add "HKLM\SOFTWARE\Policies\Microsoft\OneDrive" /v BlockExternalSync /t REG_DWORD /d 1
  
+On a Mac with the Apple Store version of OneDrive, use the equivalent of the following command to prevent B2B Sync:
+defaults write com.microsoft.OneDrive-mac BlockExternalSync -bool YES
+
+On a Mac with the Standalone version of OneDrive, use the equivalent of the following command to prevent B2B Sync:
+defaults write com.microsoft.OneDrive BlockExternalSync -bool YES
