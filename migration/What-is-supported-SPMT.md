@@ -25,6 +25,8 @@ The SharePoint Migration Tool (SPMT) supports the migration of the following loc
 - Local and network fileshares
 
 **SharePoint Server 2013**
+
+|
 - File, folder, list items:  [Supported list templates](sharepoint-migration-supported-list-templates.md)
 
 - Permissions: See [File & Folder Permissions](understanding-permissions-when-migrating.md)
