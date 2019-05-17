@@ -82,7 +82,7 @@ Connect-AzAccount
 $subscrName="<name of your Azure subscription>"
 $rgName="<your resource group name>"
 # Set the Azure subscription
-Select-AzSubscription -SubscriptionName $subscrName -Current
+Select-AzSubscription -SubscriptionName $subscrName
 # Get the Azure location
 $sa=Get-AzStorageaccount | where {$_.ResourceGroupName -eq $rgName}
 # Create an availability set for SQL Server virtual machines
@@ -202,7 +202,7 @@ Next, to create the SharePoint Server 2016 virtual machine with Azure PowerShell
 $subscrName="<name of your Azure subscription>"
 $rgName="<your resource group name>"
 # Set the Azure subscription
-Select-AzSubscription -SubscriptionName $subscrName -Current
+Select-AzSubscription -SubscriptionName $subscrName
 # Get the Azure location and storage account name
 $locName=(Get-AzResourceGroup -Name $rgName).Location
 $saName=(Get-AzStorageaccount | Where {$_.ResourceGroupName -eq $rgName}).StorageAccountName

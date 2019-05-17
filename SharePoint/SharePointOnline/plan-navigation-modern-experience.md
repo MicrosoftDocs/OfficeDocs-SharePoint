@@ -260,7 +260,7 @@ Global navigation is not yet available. Until it is available, there are several
 
 -   Create a custom [SharePoint Framework Extension](/sharepoint/dev/spfx/sharepoint-framework-overview) to deliver and apply global navigation to each new site as it is created.
 
--   Create a “navigation” site (e.g. your intranet “home” site) and use the logo in the suite bar and a Featured Site link on SharePoint Home to make it easy for people to navigate to the “home” site from every destination site in your tenant.
+-   Create a “navigation” site (e.g. your intranet “home” site) and use the logo in the suite bar and a Featured Site link on the SharePoint start page to make it easy for people to navigate to the “home” site from every destination site in your tenant.
 
 -   Manually add a link to the “home” site in the local navigation in each or key site collections.
 
