@@ -3,7 +3,6 @@ title: "Let users sync IRM-protected files with the OneDrive sync client"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 6/29/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
@@ -17,7 +16,7 @@ search.appverid:
 - ODB160
 - ODB150
 ms.assetid: 6778d4de-b5f8-423c-af43-a1b2449e9b99
-description: "Enable users in your organization to syinc IRM-protected locations using the new OneDrive sync client (OneDrive.exe)."
+description: "Enable users in your organization to sync IRM-protected locations using the new OneDrive sync client (OneDrive.exe)."
 ---
 
 # Let users sync IRM-protected files with the OneDrive sync client
@@ -29,11 +28,9 @@ This article is for Office 365 global or SharePoint admins who want their users 
 > [!NOTE]
 > Any IRM-protected files will maintain their IRM protection during the sync process, both during upload and download.
 
-1. Users are running Windows 7 or later. This feature is not yet supported on Mac. 
+- You've applied [Information Rights Management (IRM) to a list or library](https://support.office.com/article/3bdb5c4e-94fc-4741-b02f-4e7cc3c54aa1). (On-premises SharePoint Server libraries can't be synced with the new OneDrive sync client.)
     
-2. You have to [Apply Information Rights Management (IRM) to a list or library](https://support.office.com/article/3bdb5c4e-94fc-4741-b02f-4e7cc3c54aa1). (On-premises SharePoint Server libraries can't be synced with the new OneDrive sync client.)
-    
-3. Your users have disabled syncing using the previous OneDrive for Business sync client
+- Your users have disabled syncing using the previous OneDrive for Business sync client
     
 ## Known issues
 
@@ -57,9 +54,9 @@ To prevent reliability issues, any users that are using the previous OneDrive fo
   
 ## Setup instructions
 
-﻿To enable this feature, you need to install the RMS client to your users' computers. [Download the Rights Management Service client](https://aka.ms/odirm).
+To enable this feature, you need to install the RMS client on your users' computers. [Download the Rights Management Service client](https://aka.ms/odirm).
   
-To silently install the client on computers, use the /qn switch as part of the command-line options of the Microsoft Windows Installer Tool (Msiexec.exe). For example, the following command shows the silent mode installation (assuming the RMS Client installer package is already downloaded to C:\Downloads)
+To silently install the client on computers, use the /qn switch as part of the command-line options of the Microsoft Windows Installer Tool (Msiexec.exe). For example, the following command shows the silent mode installation (assuming the RMS Client installer package is already downloaded to C:\Downloads).
   
 msiexec /qn c:\downloads\setup.msi
   
