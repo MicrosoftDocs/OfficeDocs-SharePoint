@@ -28,8 +28,8 @@ The SharePoint Migration Tool (SPMT) supports the migration of the following loc
 
 |**Supported**|**Description**|**Additional info**|
 |:-----|:-----|:-----|
-|File, folder, list items||[Supported list templates](sharepoint-migration-supported-list-templates.md)|
-|Permissions||[File & Folder Permissions](understanding-permissions-when-migrating.md)|
+|File, folder, list items|Supports migration of files, folders and lists.|[Supported list templates](sharepoint-migration-supported-list-templates.md)|
+|Permissions|Separate settings are available to set file share permissions and the SharePoint on-premises permissions. |[File & Folder Permissions](understanding-permissions-when-migrating.md)|
 |Versions|We will preserve your file history, as determined by you.|[SPMT Settings](spmt-settings.md)|
 |Managed Metadata & Taxonomy|SPMT supports the migration of content types and term stores. Global term store migration requires global tenant admin permissions.||
 |Navigation & icons|Site navigation for out of box sites is preserved and migrated||
