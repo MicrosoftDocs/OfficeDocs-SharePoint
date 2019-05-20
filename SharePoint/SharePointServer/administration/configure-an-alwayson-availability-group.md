@@ -3,7 +3,7 @@ title: "Configure SQL Server AlwaysOn Availability Groups for SharePoint Server"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority

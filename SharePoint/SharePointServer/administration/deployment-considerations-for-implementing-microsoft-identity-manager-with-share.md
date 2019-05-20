@@ -3,7 +3,7 @@ title: "Deployment considerations for implementing Microsoft Identity Manager wi
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal

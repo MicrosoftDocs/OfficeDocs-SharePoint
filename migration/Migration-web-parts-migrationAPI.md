@@ -3,7 +3,7 @@ title: "Migration of Web parts in the migration API"
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority

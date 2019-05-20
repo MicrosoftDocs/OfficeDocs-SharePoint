@@ -4,7 +4,7 @@ ms.author: MARKJJO
 author: MARKJJO
 manager: pamgreen
 ms.date: 
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal

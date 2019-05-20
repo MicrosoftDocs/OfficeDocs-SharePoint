@@ -3,7 +3,7 @@ title: "The OneDrive sync client update process"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: reference
 ms.service: one-drive
 localization_priority: Normal

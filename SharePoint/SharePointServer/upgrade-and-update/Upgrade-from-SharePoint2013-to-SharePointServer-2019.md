@@ -3,7 +3,7 @@ title: "High level overview to upgrade from SharePoint 2013 to SharePoint Server
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal

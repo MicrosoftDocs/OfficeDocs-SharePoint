@@ -2,7 +2,7 @@
 title: "Delete a site"
 ms.author: kaarins
 author: kaarins
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 ms.collection:  

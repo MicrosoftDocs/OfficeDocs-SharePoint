@@ -4,7 +4,7 @@ ms.author: kirks
 author: Techwriter40
 manager: pamgreen
 ms.date: 7/19/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: interactive-tutorial
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
