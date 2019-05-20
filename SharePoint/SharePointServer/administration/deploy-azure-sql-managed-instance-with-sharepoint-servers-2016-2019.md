@@ -24,7 +24,7 @@ SharePoint Servers 2016 and 2019 now support Azure SQL Managed Instance (MI). SQ
 > [!IMPORTANT]
 > SharePoint Server farms must be hosted in Microsoft Azure to support Azure SQL Managed Instance. The SharePoint Server farm and the managed instance must be hosted in the same Azure region. SharePoint Server farms don't support managed instances when hosted in customer datacenters.
 
-Deploying a managed instance with SharePoint Server lets you move your SQL Server on-premises application to the cloud with little or no application and database changes. The following procedure shows how to deploy an Azure SQL Database managed instance with SharePoint Servers 2016 and 2019.  
+Deploying a managed instance with SharePoint Server lets you move your SQL Server on-premises application to the cloud with little or no application and database changes. The following procedure shows how to deploy an Azure SQL Database Managed Instance with SharePoint Servers 2016 and 2019.  
 
 ## Ehnvironment
 
@@ -66,7 +66,7 @@ Deploying a managed instance with SharePoint Server lets you move your SQL Serve
    - _\<ConfigDB\>_ is the name of the SharePoint configuration database to be created.
    - _\<ServerRole\>_ is the SharePoint MinRole server role for this server in the SharePoint farm.
 
-5. Run either the **SharePoint 2016 or 2019 Products Configuration Wizard** to complete the configuration. Next open Central Administration to complete the **Farm Configuration Wizard**.
+5. Run the **SharePoint Products Configuration Wizard** to complete the configuration. Next open Central Administration to complete the **Farm Configuration Wizard**.
 
 > [!NOTE]
 > Access Services isn't supported with Azure SQL Managed Instances.
