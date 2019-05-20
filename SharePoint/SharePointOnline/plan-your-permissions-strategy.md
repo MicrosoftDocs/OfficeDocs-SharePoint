@@ -4,7 +4,7 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 3/2/2016
-ms.audience: Admin
+audience: Admin
 ms.topic: conceptual
 ms.prod: sharepoint-online
 localization_priority: Normal

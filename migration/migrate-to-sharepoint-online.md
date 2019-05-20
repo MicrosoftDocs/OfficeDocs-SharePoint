@@ -3,7 +3,7 @@ title: "Migrate to SharePoint Online"
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal

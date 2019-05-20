@@ -3,7 +3,7 @@ title: "SharePoint Migration Tool supported SharePoint web parts"
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority

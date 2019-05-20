@@ -4,7 +4,7 @@ ms.author: toresing
 author: tomresing
 manager: pamgreen
 ms.date: 10/31/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal

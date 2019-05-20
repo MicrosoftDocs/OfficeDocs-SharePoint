@@ -4,7 +4,7 @@ ms.author: tlarsen
 author: tklarsen
 ms.author: tlarsen
 manager: arnek
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
