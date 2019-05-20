@@ -6,7 +6,6 @@
 #### [Supported SharePoint list templates](sharepoint-migration-supported-list-templates.md) 
 #### [File and folder permissions](understanding-permissions-when-migrating.md)
 #### [Supported SharePoint web parts](spmt-supported-webparts.md)
-#### [Site features]()
 ### [Troubleshooting installation issues](spmt-install-issues.md)
 ### [Release Notes](new-and-improved-features-in-the-sharepoint-migration-tool.md)
 ### [How the Sharepoint Migration Tool works](how-the-sharepoint-migration-tool-works.md)
