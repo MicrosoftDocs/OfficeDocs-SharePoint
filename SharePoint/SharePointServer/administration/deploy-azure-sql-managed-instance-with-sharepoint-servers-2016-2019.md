@@ -62,8 +62,8 @@ Deploying a managed instance with SharePoint Server lets you move your SQL Serve
 
     Where:
     
-   - _\<DBServer\>_ is the name you gave the Azure SQL Managed Instance in step 3.
-   - _\<ConfigDB\>_ is the name of the SharePoint configurati8on database to be created.
+   - _\<DBServer\>_ is the name you gave the Azure SQL Managed Instance in step 4.
+   - _\<ConfigDB\>_ is the name of the SharePoint configuration database to be created.
    - _\<ServerRole\>_ is the SharePoint MinRole server role for this server in the SharePoint farm.
 
 5. Run either the **SharePoint 2016 or 2019 Products Configuration Wizard** to complete the configuration. Next open Central Administration to complete the **Farm Configuration Wizard**.
