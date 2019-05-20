@@ -28,17 +28,17 @@ The SharePoint Migration Tool (SPMT) supports the migration of the following loc
 
 |**Supported**|**Description**|**Additional info**|
 |:-----|:-----|:-----|
-|File, folder, list items||  [Supported list templates](sharepoint-migration-supported-list-templates.md)|
+|File, folder, list items||[Supported list templates](sharepoint-migration-supported-list-templates.md)|
 |Permissions||[File & Folder Permissions](understanding-permissions-when-migrating.md)|
 |Versions|We will preserve your file history, as determined by you.|[SPMT Settings](spmt-settings.md)|
-|Metadata & Taxonomy|SPMT supports the migration of content types and term stores. Global term store migration requires global tenant admin permissions.||
+|Managed Metadata & Taxonomy|SPMT supports the migration of content types and term stores. Global term store migration requires global tenant admin permissions.||
 |Navigation & icons|Site navigation for out of box sites is preserved and migrated||
-|Site features|We support ||
+|Site features|We support an extensive number of site features|[SPMT supported SharePoint site features](spmt-supported-site-features.md)|
 |SharePoint web parts|SPMT supports the migration of SharePoint webparts| [Full list of SPMT Supported SharePoint Webparts](spmt-supported-webparts.md)|
-|"Out of the Box" SharePoint sites|sites that do not use any coding or 3rd party tools||
+|Site migration|SharePoint sites that are "out of the box"; sites that do not use any coding or 3rd party tools can be migrated||
 |Site description|Site descriptions can be migrated||
 |Incremental|Tasks can also be saved to be rerun at a later date, allowing you to move only those new or updated files in the source location.||
-|Pages, including any pages in the site asset library||
+|Pages|Pages in the site asset library||
 
 
 > [!Note]

@@ -12,7 +12,7 @@ ms.collection:
 - M365-collaboration
 description: "List of SharePoint Server site features suppored by the SharePoint Migration Tool (SPMT)"
 ---
-# SPMT Supported SharePoint site features
+# SPMT supported SharePoint site features
 
 |**Display Name**|**ID**|
 |:-----|:-----|
