@@ -3,7 +3,7 @@ title: "Silently configure user accounts"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: one-drive
 localization_priority: Normal

@@ -4,7 +4,7 @@ ms.author: MARKJJO
 author: MARKJJO
 manager: pamgreen
 ms.date: 2/12/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - DiscoverySearchSyntaxTips

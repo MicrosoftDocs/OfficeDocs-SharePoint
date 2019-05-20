@@ -4,7 +4,7 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
 ms.date: 5/9/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority

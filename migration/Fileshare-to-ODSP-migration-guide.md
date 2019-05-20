@@ -3,7 +3,7 @@ title: "File share to OneDrive and SharePoint Migration Guide"
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority

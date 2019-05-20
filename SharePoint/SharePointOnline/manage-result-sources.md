@@ -4,7 +4,7 @@ ms.author: tlarsen
 author: tklarsen
 manager: arnek
 ms.date: 7/3/2018
-ms.audience: End User
+audience: End User
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal

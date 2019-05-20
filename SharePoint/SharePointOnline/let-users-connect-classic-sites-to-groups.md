@@ -3,7 +3,7 @@ title: "Let users connect classic team sites to new Office 365 groups"
 ms.author: kaarins
 author: kaarins
 ms.date: 5/1/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal

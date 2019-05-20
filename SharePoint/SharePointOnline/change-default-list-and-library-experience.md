@@ -2,7 +2,7 @@
 title: "Change the default list and library experience"
 ms.author: kaarins
 author: kaarins
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
