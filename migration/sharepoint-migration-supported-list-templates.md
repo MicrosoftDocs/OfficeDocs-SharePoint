@@ -18,7 +18,7 @@ ms.assetid:
 description: "SharePoint Migration Tool table of supported list templates for migration."
 ---
 
-# SharePoint List Templates supported by the SharePoint Migration Tool
+# SPMT supported SharePoint List Templates
 
 The following table details SharePoint List templates and which ones are supported by the SharePoint Migration Tool (SPMT). 
 

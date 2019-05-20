@@ -1,6 +1,6 @@
 ---
-title: Sites usage guidelines checklist - test alternate
-description: A checklist to help guide users to create their site usage guidance.
+title: Sites usage guidelines checklist
+description: Checklist to help guide users to create their site usage guidance.
 author: jhendr
 manager: pamgreen
 layout: LandingPage
