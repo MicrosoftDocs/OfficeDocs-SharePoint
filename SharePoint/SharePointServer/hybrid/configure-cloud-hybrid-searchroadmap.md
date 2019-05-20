@@ -4,7 +4,7 @@ ms.author: tlarsen
 author: tklarsen
 manager: pamgreen
 ms.date: 3/9/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority

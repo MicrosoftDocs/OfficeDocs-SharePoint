@@ -3,7 +3,7 @@ title: "Set the OneDrive retention for deleted users"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 f1_keywords:
 - 'O365E_ODACStorage'

@@ -3,7 +3,7 @@ title: "Configure syncing with the new OneDrive sync client for Sharepoint 2019"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal

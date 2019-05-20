@@ -4,7 +4,7 @@ ms.author: kaarins
 author: kaarins
 manager: pamgreen
 ms.date: 06/7/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: overview
 ms.service: one-drive
 localization_priority: Normal

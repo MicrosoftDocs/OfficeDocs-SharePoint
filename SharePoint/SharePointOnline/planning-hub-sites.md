@@ -2,7 +2,7 @@
 title: "Planning your SharePoint hub sites"
 ms.author: kaarins
 author: kaarins
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal

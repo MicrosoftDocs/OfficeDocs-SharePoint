@@ -4,7 +4,7 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 5/22/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: reference
 ms.service: sharepoint-online
 localization_priority: Normal

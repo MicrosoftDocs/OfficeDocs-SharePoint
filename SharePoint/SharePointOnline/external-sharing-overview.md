@@ -3,7 +3,7 @@ title: "External sharing overview"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 f1_keywords:
 - 'quickshare'

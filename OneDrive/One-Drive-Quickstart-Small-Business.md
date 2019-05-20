@@ -3,7 +3,7 @@ title: OneDrive QuickStart guide for small businesses
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: get-started-article
 ms.service: one-drive
 localization_priority: Normal
