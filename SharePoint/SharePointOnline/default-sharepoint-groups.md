@@ -35,7 +35,7 @@ Here are links to information on understanding and setting SharePoint permission
 ## Permission levels for default SharePoint groups
 <a name="__toc352237424"> </a>
 
-SharePoint groups enable you to control access for sets of users instead of individual users. SharePoint groups are usually composed of many individual users. They can also hold Windows Active Directory security groups (created in Office 365), or can be a combination of individual users and security groups. 
+SharePoint groups enable you to control access for sets of users instead of individual users. SharePoint groups are usually composed of many individual users. They can also hold Azure Active Directory security groups (created in Office 365 or Azure AD), or can be a combination of individual users and security groups. 
   
 Each SharePoint group has a permission level. A permission level is simply a collection of individual permissions, such as Open, View, Edit or Delete. All the users in a group automatically have the permission level of the group. You can organize users into any number of groups, depending on the complexity of your organization, or your needs.
   
@@ -86,13 +86,13 @@ The following table describes the SharePoint groups that are created when you us
   
 ## Site administrators 
   
-||**SharePoint Online**|**SharePoint On-premises**|
+||**SharePoint Online**|**SharePoint on-premises**|
 |:-----|:-----|:-----|
 |Who can use this group?  <br/> |Yes  <br/> |Yes  <br/> |
    
 A site can have several site admins, but must have one and only one primary administrator. Any site admin can add or remove other admins. Site admins have full control of the site root and any subsites in the site, and can audit all site content. 
   
-In SharePoint On-premises, you designate a site collection administrator when you install a site.
+In SharePoint on-premises, you designate a site collection administrator when you create a site.
   
 ## SharePoint administrators
   
