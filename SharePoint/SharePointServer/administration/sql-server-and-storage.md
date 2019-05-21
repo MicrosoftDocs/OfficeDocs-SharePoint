@@ -3,7 +3,6 @@ title: "SQL Server and storage (SharePoint Server)"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 9/20/2017
 audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
