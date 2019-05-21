@@ -359,6 +359,11 @@
         "redirect_document_id": true
    },
    {
+      "source_path": "sharepoint/sharepointonline/plan-your-permissions-strategy.md",
+        "redirect_url": "https://docs.microsoft.com/sharepoint/default-sharepoint-groups",
+        "redirect_document_id": true
+   },
+   {
    "source_path": "sharepoint/sharepointonline/view-and-restore-deleted-sites-in-new-admin-center.md",
      "redirect_url": "https://docs.microsoft.com/sharepoint/restore-deleted-site-collection",
      "redirect_document_id": true
