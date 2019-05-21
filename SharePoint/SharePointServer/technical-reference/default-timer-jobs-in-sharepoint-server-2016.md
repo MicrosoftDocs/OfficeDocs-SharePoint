@@ -3,7 +3,7 @@ title: "Default timer jobs in SharePoint Server 2016"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: reference
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal

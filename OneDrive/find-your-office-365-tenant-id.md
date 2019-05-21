@@ -3,7 +3,7 @@ title: "Find your Office 365 tenant ID"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: one-drive
 localization_priority: Normal

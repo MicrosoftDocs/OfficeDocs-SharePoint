@@ -3,7 +3,7 @@ title: Sharing and permissions in the SharePoint modern experience
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 ms.collection:  
@@ -106,17 +106,17 @@ There are two primary forms for sharing within SharePoint, internal sharing and 
 
 External sharing is controlled at two levels, both at the organization wide level as well as at the site collection level. A common use case is allowing sharing at the organization level so that some sites may be shared externally, while limiting external sharing with the HR or another internal only site. [Learn more about external sharing](/sharepoint/external-sharing-overview).
 
-By default, external sharing is enabled at both the organization level and site collection level, although anonymous sharing is not allowed by default. If external sharing is blocked at the organization level then no external sharing will be allowed on any site.
+By default, external sharing is enabled at the tenant level, although anonymous sharing is not allowed by default. If external sharing is blocked at the tenant level then no external sharing will be allowed on any site.
 
 When sharing a team site, you may invite users and security groups to be a member of the site. When shared via the site permissions interface on the site itself, be aware that inviting a new member will not join that member to the connected Office 365 Group. You can invite new members to the Office 365 Group, which will automatically provide that member the proper access to the team site.
 
 ## Configuration options for sharing within SharePoint Online
 
-By default, internal sharing is available on all SharePoint sites including team sites and communication sites. By default, external sharing is also allowed.
+By default, internal sharing is available on all SharePoint sites including team sites and communication sites.
 
 The availability of external sharing is controlled at different levels within SharePoint Online. At the organization level, external sharing may be enabled or disabled for all sites. When disabling sharing at the organization admin level, all sites will not allow any sharing of content with external users.
 
-When external sharing is enabled at the organization level, this enables the ability for sites within the organization to allow for external sharing on a site by site basis. By default, with external sharing enabled at the organization level, each modern site will by default have external sharing enabled as well. [Learn how to configure external sharing in SharePoint](/sharepoint/external-sharing-overview).
+When external sharing is enabled at the organization level, this enables the ability for sites within the organization to allow for external sharing on a site by site basis. [Learn how to configure external sharing in SharePoint](/sharepoint/external-sharing-overview).
 
 Only a global or SharePoint admin can change the external sharing setting for a site.
 

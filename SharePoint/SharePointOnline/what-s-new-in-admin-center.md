@@ -3,7 +3,7 @@ title: "What's new in the SharePoint admin center"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: reference
 ms.service: sharepoint-online
 localization_priority: Normal

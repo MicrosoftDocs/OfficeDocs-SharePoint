@@ -3,7 +3,7 @@ title: "Sharing errors in SharePoint and OneDrive"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Priority

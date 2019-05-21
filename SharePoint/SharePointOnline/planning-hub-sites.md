@@ -2,7 +2,7 @@
 title: "Planning your SharePoint hub sites"
 ms.author: kaarins
 author: kaarins
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
@@ -44,7 +44,7 @@ Before you start making hubs sites, let's recap the three things hub sites give 
     
 Now let's think about the information you're trying to share throughout your intranet, and consider the business outcomes you're trying to enable.
   
-An intranet can play many roles in an organization. It's an internally-facing site, a place to communicate important news, and a collaboration platform. It's also a way to showcase your corporate culture. It can be the foundation of your digital workplace. An intranet lets you tell stories and share information. Empowering employees with a voice on your intranet can provide a way to move to a culture of collaboration that enables your organization to transform and adapt to change.
+An intranet can play many roles in an organization. It's an internally facing site, a place to communicate important news, and a collaboration platform. It's also a way to showcase your corporate culture. It can be the foundation of your digital workplace. An intranet lets you tell stories and share information. Empowering employees with a voice on your intranet can provide a way to move to a culture of collaboration that enables your organization to transform and adapt to change.
   
 Many successful intranets include the following elements:
   

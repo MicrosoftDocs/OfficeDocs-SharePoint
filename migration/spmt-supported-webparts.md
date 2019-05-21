@@ -3,7 +3,7 @@ title: "SharePoint Migration Tool supported SharePoint web parts"
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
@@ -16,7 +16,7 @@ ms.assetid:
 description: "SharePoint Migration Tool table of supported webparts for migration."
 ---
 
-# SharePoint web parts supported by the SharePoint Migration Tool
+# SPMT supported SharePoint web parts
 
 > [!Important]
 >**Allow or prevent Custom Script (NoScript)** </br>

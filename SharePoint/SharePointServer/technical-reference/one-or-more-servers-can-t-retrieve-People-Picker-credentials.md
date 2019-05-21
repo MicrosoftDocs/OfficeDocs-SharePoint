@@ -4,7 +4,7 @@ ms.author: stevhord
 author: bentoncity
 manager: pamgreen
 ms.date: 7/12/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: troubleshooting
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
