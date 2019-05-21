@@ -26,7 +26,7 @@ SharePoint Servers 2016 and 2019 now support Azure SQL Managed Instance (MI). SQ
 
 Deploying a managed instance with SharePoint Server lets you move your SQL Server on-premises application to the cloud with little or no application and database changes. The following procedure shows how to deploy an Azure SQL Database Managed Instance with SharePoint Servers 2016 and 2019.  
 
-## Ehnvironment
+## Environment
 
 1. Create a resource group with a vNet and then create two subnets. You can use the [SQL Managed Instance Virtual Network Environment](https://github.com/Azure/azure-quickstart-templates/tree/master/101-sql-managed-instance-azure-environment) template to create an Azure Virtual Network with two subnets.
  
