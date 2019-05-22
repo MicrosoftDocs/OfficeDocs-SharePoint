@@ -118,7 +118,9 @@ On the classic sharing page, you can choose whether you want the default link pe
 
 You can also allow only users in specific security groups to share externally. To see the security groups in your organization, go to the [Groups page in the Microsoft 365 admin center](https://admin.microsoft.com/Adminportal/Home#/groups).
 
+## Need more help?
 
+[!INCLUDE[discussionforums.md](includes/discussionforums.md)]
 
   
 ## See also
