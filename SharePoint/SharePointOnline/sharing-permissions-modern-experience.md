@@ -148,6 +148,11 @@ Links can provide specific access to the shared asset including the ability for 
 
 Anyone links can be configured to expire after a certain date or to never expire.
 
+## Need more help?
+
+[!INCLUDE[discussionforums.md](includes/discussionforums.md)]
+
+
 **Principal author: Eric Overfield, MVP<br>Website: [ericoverfield.com](http://ericoverfield.com)<br>LinkedIn: [https://linkedin.com/in/ericoverfield](https://linkedin.com/in/ericoverfield)<br>Twitter: @ericoverfield<br>**
 
 ## See also
