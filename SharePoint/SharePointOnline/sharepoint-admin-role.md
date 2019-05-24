@@ -3,7 +3,7 @@ title: "About the SharePoint admin role in Microsoft 365"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: overview
 ms.service: sharepoint-online
 localization_priority: Normal

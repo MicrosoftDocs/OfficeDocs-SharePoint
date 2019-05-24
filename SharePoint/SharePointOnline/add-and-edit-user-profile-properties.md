@@ -4,7 +4,7 @@ ms.author: kaarins
 author: kaarins
 manager: pamgreen
 ms.date: 6/19/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
@@ -96,3 +96,7 @@ If your organization uses the cloud identity model, your Office 365 user account
 <a name="__top"> </a>
 
 Custom properties from Active Directory or Azure AD are not synchronized with SharePoint Online. For info about bulk updating custom user profile properties by using PowerShell, see [Call the import API from PowerShell](/sharepoint/dev/solution-guidance/bulk-user-profile-update-api-for-sharepoint-online#call-the-import-api-from-powershell).
+
+## Need more help?
+
+[!INCLUDE[discussionforums.md](includes/discussionforums.md)]

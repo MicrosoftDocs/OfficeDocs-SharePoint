@@ -42,7 +42,8 @@
       "contributors_to_exclude": [
         "dstrome",
         "daswifty",
-        "Reraghavan"
+        "Reraghavan",
+        "denisebmsft"
       ],
       "searchScope": ["SharePoint Migration"],
       "feedback_system": "GitHub",

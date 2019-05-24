@@ -4,7 +4,7 @@ ms.author: kirks
 author: Techwriter40
 manager: pamgreen
 layout: LandingPage
-ms.audience: ITPro
+audience: ITPro
 ms.topic: landing-page
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal

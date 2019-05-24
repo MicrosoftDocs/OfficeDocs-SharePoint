@@ -3,7 +3,7 @@ title: Branding your SharePoint Online site
 ms.author: clake
 author: spowriter
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Priority

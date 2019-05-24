@@ -3,7 +3,7 @@ title: "Install Microsoft Identity Manager for User Profiles in SharePoint Serve
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority

@@ -3,7 +3,7 @@ title: Sharing and permissions in the SharePoint modern experience
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 ms.collection:  
@@ -147,6 +147,11 @@ This type of link allows for both internal and external sharing, with both indiv
 Links can provide specific access to the shared asset including the ability for both internal or external users the right to edit the shared asset.
 
 Anyone links can be configured to expire after a certain date or to never expire.
+
+## Need more help?
+
+[!INCLUDE[discussionforums.md](includes/discussionforums.md)]
+
 
 **Principal author: Eric Overfield, MVP<br>Website: [ericoverfield.com](http://ericoverfield.com)<br>LinkedIn: [https://linkedin.com/in/ericoverfield](https://linkedin.com/in/ericoverfield)<br>Twitter: @ericoverfield<br>**
 

@@ -3,7 +3,7 @@ title: "Control access from unmanaged devices"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
@@ -253,6 +253,10 @@ Blocking access and blocking download may impact the user experience in some app
 > [!NOTE]
 > Apps that run in "app-only" mode in the service, like antivirus apps and search crawlers, are exempted from the policy.</br>If you're using classic SharePoint site templates, site images may not render correctly. This is because the policy prevents the original image files from being downloaded to the browser. 
   
+## Need more help?
+
+[!INCLUDE[discussionforums.md](includes/discussionforums.md)]
+
 ## See also
 
 
