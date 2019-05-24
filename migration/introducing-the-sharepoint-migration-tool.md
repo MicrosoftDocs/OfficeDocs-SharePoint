@@ -47,7 +47,7 @@ If you experience issues with your installation, see [Troubleshooting installati
 
 ## Supported features
 
-For a complete description of features see:  [What does SPMT support?](what-is-supported.md) 
+For a complete description of features see:  [What does SPMT support?](what-is-supported-SPMT.md) 
 
 If you prefer using PowerShell, all SPMT functionality is supported. For more information see: [Migrate to SharePoint Online using PowerShell](overview-spmt-ps-cmdlets.md).
 
@@ -63,7 +63,7 @@ To download the tool: [SharePoint Migration Assessment Tool (SMAT)](https://www.
 
 ## Related Topics
 
-[What does SPMT support?](what-is-supported.md)
+[What does SPMT support?](what-is-supported-SPMT.md)
 
 [How the SharePoint Migration Tool works](how-the-sharepoint-migration-tool-works.md)
   
