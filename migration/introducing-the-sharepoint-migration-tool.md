@@ -27,6 +27,20 @@ The SharePoint Migration Tool lets you migrate content to SharePoint OnLine and 
 
 Designed to be used for migrations ranging from the smallest set of files to a large scale enterprise migration, the SharePoint Migration Tool will let you bring your information to the cloud and take advantage of the latest collaboration, intelligence, and security solutions with Office 365.
 
+## Supported features
+
+For a complete description of features see:  [What does SPMT support?](what-is-supported-SPMT.md) 
+
+If you prefer using PowerShell, all SPMT functionality is supported. For more information see: [Migrate to SharePoint Online using PowerShell](overview-spmt-ps-cmdlets.md).
+
+
+## Download and Install
+
+
+Download and install the SharePoint Migration Tool using Internet Explorer, Edge or Chrome browser.  After downloading and installing the SharePoint Migration Tool, read [How to use the SharePoint Migration Tool](how-to-use-the-sharepoint-migration-tool.md) to help you get started.
+
+If you experience issues with your installation, see [Troubleshooting installation issues](spmt-install-issues.md).
+
 >[!NOTE]
 >To install the current release download here: 
 >
@@ -37,29 +51,12 @@ Designed to be used for migrations ranging from the smallest set of files to a l
 >
 >- [SharePoint Migration Tool Public Preview](https://aka.ms/spmt-beta-page)
     
-## Download and Install
 
-Download and install the SharePoint Migration Tool using Internet Explorer, Edge or Chrome browser.
-  
 > [!IMPORTANT]
 > If you are using the Chrome browser, you must install the **ClickOnce for Google Chrome** plug-in  *before*  installing the SharePoint Migration Tool. > To download and install the plug-in: Using Chrome, go to this site and then click **Add to Chrome**: [ClickOnce for Google Chrome plug-in](https://chrome.google.com/webstore/detail/clickonce-for-google-chro/kekahkplibinaibelipdcikofmedafmb?utm_source=chrome-app-launcher-info-dialog)
-  
-1. Download either the current release: [SharePoint Migration Tool](https://aka.ms/spmt-ga-page)</br> or the latest public preview:  [SharePoint Migration Tool Public Preview](https://aka.ms/spmt-beta-page)
 
 
-2. Click **Install**.
-    
-3. Click **Yes** to allow this app. 
-    
-    After downloading and installing the SharePoint Migration Tool, read [How to use the SharePoint Migration Tool](how-to-use-the-sharepoint-migration-tool.md) to help you get started. 
 
-If you experience issues with your installation, see [Troubleshooting installation issues](spmt-install-issues.md).
-
-## Supported features
-
-For a complete description of features see:  [What does SPMT support?](what-is-supported-SPMT.md) 
-
-If you prefer using PowerShell, all SPMT functionality is supported. For more information see: [Migrate to SharePoint Online using PowerShell](overview-spmt-ps-cmdlets.md).
 
 ## Planning and assessment
 
