@@ -36,18 +36,19 @@ When a user adds a web part to any modern page in SharePoint and that web part o
     
 5. Run the following command:
   
-```PowerShell
-Add-SPOOrgAssetsLibrary [[-LibraryURL] <Object>] [[-ThumbnailURL] <Object>] 
-  ```
+    ```PowerShell
+    Add-SPOOrgAssetsLibrary [[-LibraryURL] <Object>] [[-ThumbnailURL] <Object>] 
+    ```
 
 > [!NOTE]
 > We use a content delivery network (CDN) for organization assets to provide improved performance. Assets are stored on servers closer to the browsers requesting them, which helps speed up downloads and reduce latency. This won't affect other aspects of your organization unless you explicitly opt in. When you specify your first organization assets library, you'll see two confirmations - one to allow CDN in your organization, and another to specifically enable CDN for that library. For every new library you add, you'll see a confirmation to specifically enable CDN for that library. 
-Example: Add-SPOOrgAssetsLibrary -LibraryURL https://contoso.sharepoint.com/sites/branding/Products -ThumbnailURL https://contoso.sharepoint.com/sites/branding/Products/surfacestudio.jpg    
+Example: `Add-SPOOrgAssetsLibrary -LibraryURL https://contoso.sharepoint.com/sites/branding/Products -ThumbnailURL https://contoso.sharepoint.com/sites/branding/Products/surfacestudio.jpg`    
  
 Other useful commands: 
-See existing associated libraries, if any: Get-SPOOrgAssetsLibrary 
-Update thumbnail URL: Set-SPOOrgAssetsLibrary [[-LibraryURL] <Object>] [[-ThumbnailURL] <Object>] 
-Remove a library: Remove-SPOOrgAssetsLibrary [[-LibraryURL] <Object>] 
+
+- See existing associated libraries, if any: `Get-SPOOrgAssetsLibrary` 
+- Update thumbnail URL: `Set-SPOOrgAssetsLibrary [[-LibraryURL] <Object>] [[-ThumbnailURL] <Object>]` 
+- Remove a library: `Remove-SPOOrgAssetsLibrary [[-LibraryURL] <Object>]` 
  
 ## Known issues
 
