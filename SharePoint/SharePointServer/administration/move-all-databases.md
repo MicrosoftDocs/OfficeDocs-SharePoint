@@ -100,7 +100,7 @@ Before you begin this operation, review the steps in this process:
 
 Use the procedures in [Configure SQL Server security for SharePoint Server](../security-for-sharepoint-server/configure-sql-server-security-for-sharepoint-environments.md) to configure the new database server. 
   
-The new database server must run either the same version of Windows Server and SQL Server as the existing database server or one of the following versions:
+The new database server must run either the same version of Windows Server and SQL Server as the existing database server, or one of the following versions:
 
 For SharePoint Server 2019:
 
