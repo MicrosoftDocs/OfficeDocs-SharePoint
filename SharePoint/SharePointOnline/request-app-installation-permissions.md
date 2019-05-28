@@ -67,6 +67,12 @@ The app catalog is where you store and manage all apps for the organization. The
     ![Screen shot showing the App Request link](media/43dc9a1b-61da-4304-acd1-70e16e06907b.png)
   
 4. Click the title of each pending request to review it. Once the request is approved or denied, it is removed from the view. If you change your mind about allowing an app or apps to be added to you sites, you can revoke approval on the request. To revoke approval for a request, choose the request and click **Remove Approvals**.
+
+## Make the application available
+
+Once the status has been changed to **Approved** the you will need to go to the SharePoint Store and acquire the app. This is done by clicking the link next to **View App Details** on the App Request entry.
+
+At that point, site owners can check the **Your Requests** list and notice the status of their request. After the application has been acquired and approved the it will show up in the **Apps you've requested** list.
     
 ## Delegate approval authority
 
