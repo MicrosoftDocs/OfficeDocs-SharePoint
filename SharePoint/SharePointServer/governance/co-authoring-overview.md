@@ -51,7 +51,7 @@ When a user saves a Word, PowerPoint, or Word Online document, other current use
   
 In OneNote and OneNote Web App, shared notebooks enable users to share notes seamlessly. When a user edits a page of the notebook, those edits are automatically synchronized with other users of that notebook so that everybody has a complete set of notes. Edits made by multiple users on the same page appear automatically, which enables near real-time collaboration. Versioning and other shared features in OneNote make it possible for users to roll back edits, show what edits are new, and determine who made a specific edit. 
   
-The Excel client application now support co-authoring workbooks in SharePoint Server. 
+The Excel client application now supports co-authoring workbooks in SharePoint Server. 
   
 ## Important planning considerations for co-authoring in SharePoint Server and SharePoint Online
 <a name="bkmk_imp_consid"> </a>
