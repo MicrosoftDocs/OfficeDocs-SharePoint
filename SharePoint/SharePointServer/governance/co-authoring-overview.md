@@ -77,7 +77,7 @@ Unlike Word and PowerPoint, OneNote stores version information within the file i
   
 - Do not enable minor versioning. By default, minor versioning is not enabled in SharePoint Server.
     
-- Major versioning is enabled in SharePoint Server by default, set a reasonable maximum number of versions to store.  
+- Major versioning is enabled in SharePoint Server by default. Set a reasonable maximum number of versions to store.  
     
 ## Performance and scalability considerations for co-authoring in SharePoint Server and SharePoint Online
 <a name="bkmk_perf"> </a>
