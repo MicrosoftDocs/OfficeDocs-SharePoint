@@ -24,11 +24,16 @@ Learn about the new features and updates to existing features in SharePoint Migr
 >[!NOTE]
 >**NEW**: To download the new public preview release: [SharePoint Migration Tool Public Preview V3.0.104.3](https://spmtreleasescus.blob.core.windows.net/betainstall/default.htm)
 
-### SPMT V3.0.104.3 (Public Preview)
+### SPMT Public Preview 3.1.111.1 
+
+- Support for SharePoint Server 2010 site migration
+
+
+### SPMT V3.1.110.1
 
 **New features**
 
-The following features were added to the SharePoint Migration Tool Public Preview V3.0.
+The following features were added to the SharePoint Migration Tool V3.0.
 
 |**Feature**|**Description**|
 |:-----|:-----|
@@ -38,6 +43,11 @@ The following features were added to the SharePoint Migration Tool Public Previe
 |SharePoint webparts|SPMT now supports the migration of SharePoint webparts. See the full list of SPMT supported web parts: [SPMT Supported SharePoint Webparts](spmt-supported-webparts.md).|
 |Page migration|Only pages in the site asset library can now be migrated.|
 |Managed metadata|This release supports the migration of content types and term stores. Global term store migration requires global tenant admin permissions.|
+|SharePoint group migration||
+|JSON improvements|Task level settings supported in JSON|
+|Site audit settings||
+|Filtering|Added Site and list filtering in settings|
+
 
 **Improvements**
 
