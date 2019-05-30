@@ -86,7 +86,7 @@ Choose the option you want to show by default when a user gets a link.
 > [!NOTE]
 > This setting specifies the default for your organization, but site owners can choose a different default link type for a site.
 
-- **Specific people** - This option allows users to enter external email addresses, but it's best for very targeted sharing because forwarded links won't work. 
+- **Specific people** - This option allows users to enter external email addresses. This is the best option for external sharing of sensitive or proprietary information because it requires that the recipient verify their identity before they can access the file.
 - **Only people in your organization** - If links are forwarded, they'll work for anyone in the organization. This option is best if your organization shares broadly internally and rarely shares externally.
 - **Anyone with the link** - This option is available only if your external sharing setting is set to "Anyone." Forwarded links will work internally or externally, but you won't be able to track who has access to shared items or who has accessed shared items. This is best for friction-free sharing if most files and folders in SharePoint and OneDrive aren't sensitive. 
   
@@ -118,7 +118,9 @@ On the classic sharing page, you can choose whether you want the default link pe
 
 You can also allow only users in specific security groups to share externally. To see the security groups in your organization, go to the [Groups page in the Microsoft 365 admin center](https://admin.microsoft.com/Adminportal/Home#/groups).
 
+## Need more help?
 
+[!INCLUDE[discussionforums.md](includes/discussionforums.md)]
 
   
 ## See also

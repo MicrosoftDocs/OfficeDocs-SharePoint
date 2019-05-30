@@ -3,7 +3,6 @@ title: "SQL Server and storage (SharePoint Server)"
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 9/20/2017
 audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
@@ -27,6 +26,7 @@ The following articles provide information about SQL Server and storage configur
 |:-----|:-----|
 |[Overview of SQL Server in SharePoint Server 2016 and 2019 environments](overview-of-sql-server-in-sharepoint-server-2016-and-2019-environments.md) <br/> |Describes the relationship between SharePoint Servers 2016 and 2019, the supported versions of SQL Server and how you can interact with the databases.  <br/> |
 |[Overview of SQL Server in a SharePoint Server 2013 environment](overview-of-sql-server-in-a-sharepoint-server-2013-environment.md) <br/> |Describes the relationship between SharePoint Server 2013 and supported versions of SQL Server and how you can interact with the databases.  <br/> |
+|[Deploy Azure SQL Managed Instance with SharePoint Server 2016 and 2019](../administration/deploy-azure-sql-managed-instance-with-sharepoint-servers-2016-2019.md) <br/> |Describes how to deploy Azure SQL Managed Instance with SharePoint Servers 2016 and 2019 that are hosted in Microsoft Azure.  <br/> |
 |[Storage and SQL Server capacity planning and configuration (SharePoint Server)](storage-and-sql-server-capacity-planning-and-configuration.md) <br/> |Describes a process for planning storage and SQL Server capacity for a SharePoint Server deployment.  <br/> |
    
 
