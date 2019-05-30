@@ -38,6 +38,7 @@ If you will use a SharePoint eDiscovery Center to discover content in Exchange S
 > [!IMPORTANT]
 > To discover content in Exchange Server from a SharePoint eDiscovery Center, you must be running Exchange Server versions 2019, 2016, or 2013. 
   
+  
 Perform the following steps:
   
 1. Ensure that the Exchange Web Service managed API is installed on every front-end server that is running SharePoint Server. 
