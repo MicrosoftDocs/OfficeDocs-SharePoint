@@ -4,7 +4,7 @@ ms.author: kaarins
 author: kaarins
 manager: pamgreen
 ms.date: 5/22/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 f1_keywords:
 - 'ManageAppCatalog'

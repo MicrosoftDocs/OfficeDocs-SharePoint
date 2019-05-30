@@ -4,7 +4,7 @@ ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
 ms.date: 3/19/2019
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Priority

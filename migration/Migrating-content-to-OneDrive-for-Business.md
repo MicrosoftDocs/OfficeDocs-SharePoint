@@ -3,7 +3,7 @@ title: "Migrating Content to OneDrive for Business"
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority

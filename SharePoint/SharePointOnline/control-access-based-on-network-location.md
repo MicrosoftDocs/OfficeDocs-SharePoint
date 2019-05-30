@@ -3,7 +3,7 @@ title: "Control access to SharePoint Online and OneDrive data based on network l
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal

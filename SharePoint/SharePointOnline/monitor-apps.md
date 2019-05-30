@@ -3,7 +3,7 @@ title: "Monitor apps for your SharePoint Online environment"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
