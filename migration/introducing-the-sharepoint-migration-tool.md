@@ -15,7 +15,7 @@ ms.collection:
 description: "Overview of the SharePoint Migration Tool."
 ---
 
-# Install and download the SharePoint Migration Tool
+# Download and install the SharePoint Migration Tool
 
 Designed to be used for migrations ranging from the smallest set of files to a large scale enterprise migration, the SharePoint Migration Tool will let you bring your information to the cloud and take advantage of the latest collaboration, intelligence, and security solutions with Office 365.
 
@@ -27,7 +27,7 @@ The SharePoint Migration Tool (SPMT) lets you migrate content to SharePoint OnLi
   
 ** Now in public preview.
 
-## Download and Install
+## Download and install
 
 Download and install the SharePoint Migration Tool using Internet Explorer, Edge or Chrome browser.  After downloading and installing the SharePoint Migration Tool, read [How to use the SharePoint Migration Tool](how-to-use-the-sharepoint-migration-tool.md) to help you get started.
 
