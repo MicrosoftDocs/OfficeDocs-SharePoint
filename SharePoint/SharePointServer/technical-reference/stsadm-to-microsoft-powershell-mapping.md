@@ -47,18 +47,18 @@ description: "Lists Stsadm operations and their equivalent PowerShell cmdlets."
 |**Blockedfilelist**  |None   |
 |**Canceldeployment**  |None   |
 |**Changepermissionpolicy**  |None   |
-|**Copyappbincontent**  |None   |
+|**Copyappbincontent**  |[Install-SPApplicationContent](/powershell/module/sharepoint-server/Install-SPApplicationContent?view=sharepoint-ps)  |
 |**Createadminvs**  |[New-SPCentralAdministration](/powershell/module/sharepoint-server/New-SPCentralAdministration?view=sharepoint-ps)  |
 |**Creategroup**  |None   |
 |**Createsite**  |[New-SPSite](/powershell/module/sharepoint-server/New-SPSite?view=sharepoint-ps)  |
 |**Createsiteinnewdb**  |[New-SPSite](/powershell/module/sharepoint-server/New-SPSite?view=sharepoint-ps) Use the **ContentDatabase** parameter.  [New-SPContentDatabase](/powershell/module/sharepoint-server/New-SPContentDatabase?view=sharepoint-ps)  |
 |**Createweb**  |[New-SPWeb](/powershell/module/sharepoint-server/New-SPWeb?view=sharepoint-ps)  |
-|**Databaserepair**  |None   |
+|**Databaserepair**  |Use [Get-SPContentDatabaseOrphanedData](/powershell/module/sharepoint-server/Get-SPContentDatabaseOrphanedData?view=sharepoint-ps) to detect orphaned data, but note that it does not repair orphaned data.  |
 |**Deactivatefeature**  |[Disable-SPFeature](/powershell/module/sharepoint-server/Disable-SPFeature?view=sharepoint-ps)  |
 |**Deactivateformtemplate**  |[Disable-SPInfoPathFormTemplate](/powershell/module/sharepoint-server/Disable-SPInfoPathFormTemplate?view=sharepoint-ps)  |
-|**Deleteadminvs**  |None   |
+|**Deleteadminvs**  |[Remove-SPCentralAdministration](/powershell/module/sharepoint-server/Remove-SPCentralAdministration?view=sharepoint-ps)  |
 |**Deletealternatedomain**  |[Remove-SPAlternateUrl](/powershell/module/sharepoint-server/Remove-SPAlternateUrl?view=sharepoint-ps)  |
-|**Deleteconfigdb**  |[Remove-SPConfigurationDatabase](/powershell/module/sharepoint-server/Remove-SPConfigurationDatabase?view=sharepoint-ps)  |
+|**Deleteconfigdb**  |[Disconnect-SPConfigurationDatabase](/powershell/module/sharepoint-server/Disconnect-SPConfigurationDatabase?view=sharepoint-ps)  |
 |**Deletecontentdb**  |[Dismount-SPContentDatabase](/powershell/module/sharepoint-server/Dismount-SPContentDatabase?view=sharepoint-ps)  |
 |**Deletegroup**  |None   |
 |**Deletepath**  |[Remove-SPManagedPath](/powershell/module/sharepoint-server/Remove-SPManagedPath?view=sharepoint-ps)  |
@@ -75,8 +75,9 @@ description: "Lists Stsadm operations and their equivalent PowerShell cmdlets."
 |**Disablessc**  |None   |
 |**Displaysolution**  |[Get-SPSolution](/powershell/module/sharepoint-server/Get-SPSolution?view=sharepoint-ps)  |
 |**Editcontentdeploymentpath**  |[Set-SPContentDeploymentPath](/powershell/module/sharepoint-server/Set-SPContentDeploymentPath?view=sharepoint-ps)  |
-|**Email**  |None   |
+|**Email**  |Use [Set-SPWebApplication](/powershell/module/sharepoint-server/Set-SPWebApplication?view=sharepoint-ps) with the -SMTPServer parameter set.  |
 |**Enablessc**  |None   |
+|**Enumallwebs**  |[Get-SPContentDatabaseOrphanedData](/powershell/module/sharepoint-server/Get-SPContentDatabaseOrphanedData?view=sharepoint-ps)  |
 |**Enumalternatedomains**  |[Get-SPAlternateURL](/powershell/module/sharepoint-server/Get-SPAlternateURL?view=sharepoint-ps)  |
 |**Enumcontentdbs**  |[Get-SPContentDatabase](/powershell/module/sharepoint-server/Get-SPContentDatabase?view=sharepoint-ps)  |
 |**Enumdataconnectionfiledependants**  |[Get-SPDataConnectionFileDependent](/powershell/module/sharepoint-server/Get-SPDataConnectionFileDependent?view=sharepoint-ps)  |
@@ -142,7 +143,7 @@ description: "Lists Stsadm operations and their equivalent PowerShell cmdlets."
 |**Runcontentdeploymentjob**  |[Start-SPContentDeploymentJob](/powershell/module/sharepoint-server/Start-SPContentDeploymentJob?view=sharepoint-ps)  |
 |**Scanforfeatures**  |[Install-SPFeature](/powershell/module/sharepoint-server/Install-SPFeature?view=sharepoint-ps)  Use the **Scanforfeatures** parameter.   |
 |**Setadminport**  |[Set-SPCentralAdministration](/powershell/module/sharepoint-server/Set-SPCentralAdministration?view=sharepoint-ps)  |
-|**Setapppassword**  |None   |
+|**Setapppassword**  |[Set-SPApplicationCredentialKey](/powershell/module/sharepoint-server/Set-SPApplicationCredentialKey?view=sharepoint-ps) [Remove-SPApplicationCredentialKey](/powershell/module/sharepoint-server/Remove-SPApplicationCredentialKey?view=sharepoint-ps)  |
 |**Setconfigdb**  |[Connect-SPConfigurationDatabase](/powershell/module/sharepoint-server/Connect-SPConfigurationDatabase?view=sharepoint-ps)  |
 |**Setcontentdeploymentjobschedule**  |[Set-SPContentDeploymentJob](/powershell/module/sharepoint-server/Set-SPContentDeploymentJob?view=sharepoint-ps)  |
 |**Setdataconnectionfileproperty**  |[Set-SPDataConnectionFile](/powershell/module/sharepoint-server/Set-SPDataConnectionFile?view=sharepoint-ps)  |
@@ -155,6 +156,7 @@ description: "Lists Stsadm operations and their equivalent PowerShell cmdlets."
 |**Setsiteuseraccountdirectorypath**  |[Get-SPSiteSubscription](/powershell/module/sharepoint-server/Get-SPSiteSubscription?view=sharepoint-ps)  [New-SPSiteSubscription](/powershell/module/sharepoint-server/New-SPSiteSubscription?view=sharepoint-ps)  [Remove-SPSiteSubscription](/powershell/module/sharepoint-server/Remove-SPSiteSubscription?view=sharepoint-ps)  |
 |**Setworkflowconfig**  |[Set-SPWorkflowConfig](/powershell/module/sharepoint-server/Set-SPWorkflowConfig?view=sharepoint-ps)  |
 |**Siteowner**  |[Set-SPSiteAdministration](/powershell/module/sharepoint-server/Set-SPSiteAdministration?view=sharepoint-ps)  |
+|**Sync**  |[Update-SPProfileSync](/powershell/module/sharepoint-server/Update-SPProfileSync?view=sharepoint-ps) [Clear-SPContentDatabaseSyncData](/powershell/module/sharepoint-server/Clear-SPContentDatabaseSyncData?view=sharepoint-ps) [Get-SPContentDatabase](/powershell/module/sharepoint-server/Get-SPContentDatabase?view=sharepoint-ps) (with the -DaysSinceLastProfileSync parameter)  |
 |**Syncsolution**  |[Install-SPSolution](/powershell/module/sharepoint-server/Install-SPSolution?view=sharepoint-ps)  Use the **Synchronize** parameter.   |
 |**Unextendvs**  |[Remove-SPWebApplication](/powershell/module/sharepoint-server/Remove-SPWebApplication?view=sharepoint-ps)  |
 |**Uninstallfeature**  |[Uninstall-SPFeature](/powershell/module/sharepoint-server/Uninstall-SPFeature?view=sharepoint-ps)  |

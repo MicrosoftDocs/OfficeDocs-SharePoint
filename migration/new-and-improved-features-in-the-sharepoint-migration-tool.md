@@ -14,7 +14,7 @@ search.appverid: MET150
 description: "Learn about the new features and updates to existing features in SharePoint Migration Tool."
 ---
 
-# Release Notes:  New and improved features in the SharePoint Migration Tool (SPMT)
+# Release Notes:  SharePoint Migration Tool (SPMT)
 
 Learn about the new features and updates to existing features in SharePoint Migration Tool.
   
