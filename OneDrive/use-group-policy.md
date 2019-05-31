@@ -488,6 +488,8 @@ To configure the setting, in the Options box, click **Show**, and then enter a f
 
 To find the library ID, sign in as a global or SharePoint admin in Office 365, browse to the library, and click the **Sync** button. In the "Starting sync" dialog box, click the **Copy library ID** link.
 
+![The Getting ready to sync dialog box](media/copy-library-id.png)
+
 Enabling this policy sets the following registry key, using the entire URL from the library you copied:
 
 [HKCU\Software\Policies\Microsoft\OneDrive\TenantAutoMount]"LibraryName"="LibraryID" 
