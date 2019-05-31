@@ -50,7 +50,7 @@ As a site owner, you can choose whether or not the content on your site can appe
 > [!NOTE]
 > To change this setting, you must have the Manage Permissions permission level. This permission level is included in the " *Site Name*  " Owner group. 
   
-1. On the site, click **Settings** \> **Site Settings**.
+1. On the site, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**.
     
 2. Under **Search**, click **Search and offline availability**.
     
@@ -68,7 +68,7 @@ As a site owner, you can decide whether items in lists and libraries on your sit
   
 1. On the site, find and click the list or library you want to customize.
     
-2. Click **Settings** \> **Site Settings**.
+2. Select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**.
     
 3. Under **Site Administration**, click **Site Libraries and lists**.
     
@@ -94,7 +94,7 @@ You have the option of ignoring this setting to display all content in search re
 > [!NOTE]
 > To change this setting, you must have the Manage Permissions permission level. This permission level is included in the " *Site Name*  " Owner group. 
   
-1. On the site, click **Settings** \> **Site Settings**.
+1. On the site, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**.
     
 2. Under **Search**, click **Search and offline availability**.
     
