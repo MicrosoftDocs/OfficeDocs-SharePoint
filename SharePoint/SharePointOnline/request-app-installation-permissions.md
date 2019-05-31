@@ -70,7 +70,7 @@ The app catalog is where you store and manage all apps for the organization. The
 
 ## Make the application available
 
-Once the status has been changed to **Approved** the you will need to go to the SharePoint Store and acquire the app. This is done by clicking the link next to **View App Details** on the App Request entry.
+Once the status has been changed to **Approved**, go to the SharePoint Store and acquire the app. This is done by clicking the link next to **View App Details** on the App Request entry.
 
 At that point, site owners can check the **Your Requests** list and notice the status of their request. After the application has been acquired and approved the it will show up in the **Apps you've requested** list.
     
