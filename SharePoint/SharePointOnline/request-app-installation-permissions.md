@@ -60,7 +60,7 @@ The app catalog is where you store and manage all apps for the organization. The
   
 1. Browse to your app catalog. (In the SharePoint admin center, select **apps** in the left pane and then click the **App Catalog** link.) 
     
-2. Click **Settings**![Office 365 Settings button](media/a9a59c0f-2e67-4cbf-9438-af273b0d552b.png)\> **Site settings** \> **Site Collection Administration** \> **Manage App Requests**.
+2. Click **Settings** ![Settings icon](media/a9a59c0f-2e67-4cbf-9438-af273b0d552b.png)\> **Site settings** \> **Site Collection Administration** \> **Manage App Requests**.
     
 3. In the left nav, select **App Requests**.
     
@@ -85,7 +85,7 @@ As a global admin or SharePoint admin in your organization, you can delegate app
   
 1. Browse to your app catalog. (In the SharePoint admin center, select **apps** in the left pane and then click the **App Catalog** link.) 
     
-2. Select **Settings**![Office 365 Settings button](media/a9a59c0f-2e67-4cbf-9438-af273b0d552b.png) \> **Site settings** \> **Users and Permissions** \> **Site collection administrators**.
+2. Select **Settings** ![Settings icon](media/a9a59c0f-2e67-4cbf-9438-af273b0d552b.png) \> **Site settings** \> **Users and Permissions** \> **Site collection administrators**.
     
 3. Type the name of the group or individuals who you want to add as site collection administrators.
     

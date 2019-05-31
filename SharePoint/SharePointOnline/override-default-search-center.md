@@ -35,11 +35,13 @@ You can also configure search navigation for a site. With search navigation, use
 ## Specify search settings for a site collection
 <a name="__toc349306989"> </a>
 
-1. In your site collection, go to **Settings**, click **Site settings** and then under **Site Collection Administration**, click **Search Settings**.
+1. On the site, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**.
+
+2. Under **Site Collection Administration**, click **Search Settings**.
     
-2. To specify a Search Center, in the **Search Center URL** box, type the URL of the Search Center site. 
+3. To specify a Search Center, in the **Search Center URL** box, type the URL of the Search Center site. 
     
-3. To change which search result page queries are sent to, in the section **Which search results page should queries be sent to?**, clear **Use the same results page settings as my parent**, and then select one of the following: 
+4. To change which search result page queries are sent to, in the section **Which search results page should queries be sent to?**, clear **Use the same results page settings as my parent**, and then select one of the following: 
     
   - **Send queries to a custom results page URL**. Enter the URL. Custom URLs can be relative or absolute, and can also include special tokens, such as {SearchCenterURL}. 
     
@@ -47,18 +49,20 @@ You can also configure search navigation for a site. With search navigation, use
     
   - **Turn on the drop-down menu inside the search box, and use the first Search Navigation node as the destination results page**. If you choose this option, users can choose search vertical in the search box when they enter a query. 
     
-4. Click **OK**.
+5. Click **OK**.
     
 ## Specify search settings for a site
 <a name="__toc349306990"> </a>
 
 By default, a site has the same search settings as the site collection that the site belongs to. You can, however, override these settings by defining specific search settings for the site.
   
-1. On your site, go to **Settings**, click **Site settings**, and then under **Search**, click **Search Settings**.
+1. On the site, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**.
+
+2. Under **Search**, click **Search Settings**.
     
-2. To specify a Search Center, in the **Search Center URL** box, type the URL of the Search Center site. 
+3. To specify a Search Center, in the **Search Center URL** box, type the URL of the Search Center site. 
     
-3. To change which search result page queries are sent to, in the section **Which search results page should queries be sent to?**, clear **Use the same results page settings as my parent**, and then select one of the following: 
+4. To change which search result page queries are sent to, in the section **Which search results page should queries be sent to?**, clear **Use the same results page settings as my parent**, and then select one of the following: 
     
   - **Send queries to a custom results page URL**. Enter the URL. Custom URLs can be relative or absolute, and can also include special tokens, such as {SearchCenterURL}. 
     
@@ -66,7 +70,7 @@ By default, a site has the same search settings as the site collection that the 
     
   - **Turn on the drop-down menu inside the search box, and use the first Search Navigation node as the destination results page**. Make sure that the search vertical you want as a default is the first option in the **Configure Search Navigation** section. 
     
-4. To configure search navigation, edit settings in the **Configure Search Navigation** section as required. You can, for example: 
+5. To configure search navigation, edit settings in the **Configure Search Navigation** section as required. You can, for example: 
     
   - Change the display name or the URL of a search vertical
     
@@ -76,6 +80,6 @@ By default, a site has the same search settings as the site collection that the 
     
     See [Change settings for the Search Navigation Web Part](search-navigation-web-part.md) for steps. 
     
-5. Click **OK**.
+6. Click **OK**.
     
 
