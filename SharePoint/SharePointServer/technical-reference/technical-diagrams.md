@@ -42,7 +42,7 @@ This poster shows the recommended MinRole topologies in a SharePoint on-premises
   
 |**Item**|**Description**|
 |:-----|:-----|
-|[![Click to view and download this poster about SharePoint Server MinRole topologies.](../media/9f753f44-a084-4a98-9ed4-e233d5cdf9e8.png)          ](http://download.microsoft.com/download/5/F/4/5F4107F5-ECFA-49EA-A02A-799D9EAFB03C/MinRole_Topology_Tabloid_Nov2018.pdf) <br/> ![PDF file](../media/ITPro_Other_PDFicon.png)[PDF](http://download.microsoft.com/download/5/F/4/5F4107F5-ECFA-49EA-A02A-799D9EAFB03C/MinRole_Topology_Tabloid_Nov2018.pdf) | ![Visio file](../media/ITPro_Other_VisioIcon.jpg)[Visio](https://go.microsoft.com/fwlink/?linkid=837452) <br/> |This poster shows the different recommended MinRole topologies that can be deployed in a SharePoint Servers 2016 and 2019 environments. It also shows the associated services that are provisioned with each role type.  <br/> |
+|[![Click to view and download this poster about SharePoint Server MinRole topologies.](../media/9f753f44-a084-4a98-9ed4-e233d5cdf9e8.png)](http://download.microsoft.com/download/5/F/4/5F4107F5-ECFA-49EA-A02A-799D9EAFB03C/MinRole_Topology_Tabloid_Nov2018.pdf) <br/> ![PDF file](../media/ITPro_Other_PDFicon.png)[PDF](http://download.microsoft.com/download/5/F/4/5F4107F5-ECFA-49EA-A02A-799D9EAFB03C/MinRole_Topology_Tabloid_Nov2018.pdf) | ![Visio file](../media/ITPro_Other_VisioIcon.jpg)[Visio](https://go.microsoft.com/fwlink/?linkid=837452) <br/> |This poster shows the different recommended MinRole topologies that can be deployed in SharePoint Servers 2016 and 2019 environments. It also shows the associated services that are provisioned with each role type.  <br/> |
    
 ## SharePoint Servers 2016 and 2019 Databases
 
