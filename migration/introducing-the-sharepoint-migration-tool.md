@@ -19,7 +19,7 @@ description: "Overview of the SharePoint Migration Tool."
 
 Designed to be used for migrations ranging from the smallest set of files to a large scale enterprise migration, the SharePoint Migration Tool will let you bring your information to the cloud and take advantage of the latest collaboration, intelligence, and security solutions with Office 365.
 
-The SharePoint Migration Tool (SPMT) lets you migrate content to SharePoint OnLine and OneDrive from the following locations:
+The SharePoint Migration Tool (SPMT) lets you migrate content to SharePoint Online and OneDrive from the following locations:
 
 - SharePoint Server 2013
 - SharePoint Server 2010 **
