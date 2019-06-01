@@ -26,10 +26,8 @@ Authentication is one aspect of security that you must consider to make sure tha
   
 - [Mobile security and authentication in SharePoint 2013](mobile-security-and-authentication.md) (/SharePoint/administration/mobile-security-and-authentication) 
     
-- [Microsoft Safety &amp; Security Center - Mobile and wireless](http://go.microsoft.com/fwlink/?LinkID=533039&amp;clcid=0x409 ) (http://go.microsoft.com/fwlink/?LinkID=533039&amp;clcid=0x409) 
-    
-- [Microsoft Safety &amp; Security Center - Get smart about mobile phone safety](https://www.microsoft.com/security/online-privacy/mobile-phone-safety.aspx) (https://www.microsoft.com/security/online-privacy/mobile-phone-safety.aspx) 
-    
+- [The Importance of Smartphone Security](https://www.microsoft.com/security/blog/2013/06/19/the-importance-of-smartphone-security/) 
+  
 SharePoint Server 2013 supports multiple authentication methods and authentication modes. Not all mobile browsers and devices work with all the available authentication methods. When you plan for mobile device access, you must do the following:
   
 - Determine the mobile devices that you must support. Then, learn the authentication methods that are supported by the mobile devices. This information varies by manufacturer.
