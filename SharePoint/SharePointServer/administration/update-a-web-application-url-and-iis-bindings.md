@@ -99,7 +99,7 @@ If you are using a load balancer or a reverse proxy, make sure that your interna
   
 ### Apply an SSL certificate
 
-If the new IIS bindings use SSL, apply an SSL certificate to the new IIS website assigned to your zone. For more information about how to configure SSL, see [Configuring Secure Sockets Layer (IIS 7.0)](https://docs.microsoft.com/en-us/iis/manage/configuring-security/how-to-set-up-ssl-on-iis).
+If the new IIS bindings use SSL, apply an SSL certificate to the new IIS website assigned to your zone.  See [How to Set Up SSL on IIS 7)](https://docs.microsoft.com/en-us/iis/manage/configuring-security/how-to-set-up-ssl-on-iis) for more information about configuring SSL.
   
 ### Apply an authentication method
 
