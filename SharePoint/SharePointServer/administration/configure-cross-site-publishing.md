@@ -24,7 +24,7 @@ Before you configure cross-site publishing, make sure that you understand the co
 <a name="BKMK_Accessibility"> </a>
 
 > [!NOTE]
->  Because SharePoint Server runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server supports the accessibility features of supported browsers. For more information, see the following resources: > [Plan browser support](https://go.microsoft.com/fwlink/p/?LinkId=246502)> [Accessibility for SharePoint 2013](/SharePoint/accessibility-guidelines)> [Accessibility features in SharePoint 2013 Products](https://go.microsoft.com/fwlink/p/?LinkId=246501)> [Keyboard shortcuts](https://go.microsoft.com/fwlink/p/?LinkID=246504)> [Touch](https://go.microsoft.com/fwlink/p/?LinkId=246506)
+>  Because SharePoint Server runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server supports the accessibility features of supported browsers. For more information, see the following resources: > [Plan browser support](https://go.microsoft.com/fwlink/p/?LinkId=246502)> [Accessibility for SharePoint 2013](/SharePoint/accessibility-guidelines)> [Accessibility features in SharePoint 2013 Products](https://go.microsoft.com/fwlink/p/?LinkId=246501)> [Keyboard shortcuts](https://support.office.com/en-us/article/keyboard-shortcuts-86d68234-7f1a-40fc-a3d6-4c39c7a5ddaf?ocmsassetID=HA010369395&CorrelationId=1313c2d0-6e28-43a4-bc2b-d7be614597f3&ui=en-US&rs=en-US&ad=US)> [Touch](https://go.microsoft.com/fwlink/p/?LinkId=246506)
   
 ## Create site collections for cross-site publishing
 <a name="BKMK_Create_site_collections"> </a>
