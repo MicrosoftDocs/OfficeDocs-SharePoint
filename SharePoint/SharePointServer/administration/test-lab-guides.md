@@ -38,7 +38,7 @@ You might need additional software to view these files. See the following table 
   
 |**File type**|**Software**|
 |:-----|:-----|
-|.pptx  <br/> |Microsoft PowerPoint 2016, Microsoft PowerPoint 2013, PowerPoint 2010 Or Powerpoint Viewer.
+|.pptx  <br/> |Microsoft PowerPoint 2016, Microsoft PowerPoint 2013, Microsoft PowerPoint 2010, or PowerPoint Viewer.
    
  **SharePoint 2013 test lab guide stack**
   
