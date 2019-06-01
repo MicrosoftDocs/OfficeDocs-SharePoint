@@ -14,7 +14,7 @@ search.appverid: MET150
 description: "Learn about the new features and updates to existing features in SharePoint Migration Tool."
 ---
 
-# Release Notes:  New and improved features in the SharePoint Migration Tool (SPMT)
+# Release Notes:  SharePoint Migration Tool (SPMT)
 
 Learn about the new features and updates to existing features in SharePoint Migration Tool.
   
@@ -22,7 +22,7 @@ Learn about the new features and updates to existing features in SharePoint Migr
 >To install the current release download here: [SharePoint Migration Tool ](http://spmtreleasescus.blob.core.windows.net/install/default.htm)
 
 >[!NOTE]
->**NEW**: To download the new public preview release: [SharePoint Migration Tool Public Preview V3.0.104.3](https://spmtreleasescus.blob.core.windows.net/betainstall/default.htm)
+>**NEW**: To download the new public preview release: [SharePoint Migration Tool Public Preview](https://spmtreleasescus.blob.core.windows.net/betainstall/default.htm)
 
 ### SPMT Public Preview 3.0.111.1 
 
