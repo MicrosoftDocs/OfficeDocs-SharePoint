@@ -68,7 +68,7 @@ Before you create content for authoring sites, review "Plan term sets for taggin
 
 You create and manage term sets by using the Term Store Management Tool. For information about how to create and manage term sets, see the following articles:
   
-- [Set up a new term set](https://office.microsoft.com/en-us/sharepoint-help/set-up-a-new-term-set-HA102922634.aspx?CTT=1)
+- [Set up a new term set](https://docs.microsoft.com/en-us/sharepoint/set-up-new-term-set)
     
 - [Create and manage terms in a term set](https://office.microsoft.com/en-us/office365-sharepoint-online-enterprise-help/create-and-manage-terms-in-a-term-set-HA102771989.aspx?CTT=1)
     
