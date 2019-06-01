@@ -19,9 +19,9 @@ description: "Learn how you can customize the search experience in SharePoint On
 
 If you're responsible for search in your organization, learn how you can tailor the search experience to your organization and make search even better for your users.
 
-SharePoint Online has both a classic and a modern search experience. Modern search shows you results based on your previous activity in Office 365 and the search results are easy to explore without any effort from you. [Which search experience is right for your organization?](get-started-with-modern-search-experience.md)
+SharePoint Online has both a classic and a modern search experience. The modern search experience is Microsoft Search in SharePoint. Microsoft Search in SharePoint shows you results based on your previous activity in Office 365 and the search results are easy to explore without any effort from you. [Which search experience is right for your organization?](get-started-with-modern-search-experience.md)
 
-You can customize the classic search experience, but not the modern. Both search experiences use the same search index to find search results, and some settings can impact both experiences. [Learn about the differences between the classic and modern experiences. ](differences-classic-modern-search.md)
+You can customize the classic search experience in more ways than Microsoft Search in SharePoint. Both search experiences use the same search index to find search results, and some settings can impact both experiences. [Learn about the differences between the classic and modern experiences. ](differences-classic-modern-search.md)
   
 Below are the main areas where you can customize and impact the search experience and make sure that search is performing the way you want. The high-level overview of [How search works](overview-of-search.md#howsearchworks) can also help you understand where and how you can impact the search experience in SharePoint Online.
   

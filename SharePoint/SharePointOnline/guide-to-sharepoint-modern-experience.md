@@ -40,7 +40,7 @@ If you’ve implemented publishing sites or publishing-enabled sites in your org
 
 ## Search
 
-Search is an important part of any site – you want people to be able to find what they are looking for quickly and easily. SharePoint Online has both a classic and a modern search experience. The most visible difference is that modern search is personal and the results you see are different from what other people see, even when you search for the same words. For example, users see only the results that they already have access to, and other users can’t find documents that are private to users. There are other differences, especially around customization, that you can learn about in [Get started with the modern search experience](get-started-with-modern-search-experience.md)
+Search is an important part of any site – you want people to be able to find what they are looking for quickly and easily. SharePoint Online has both a classic and a modern search experience. The most visible difference is that modern search is personal and the results you see are different from what other people see, even when you search for the same words. Users see only the results that they already have access to, and other users can’t find documents that are private to users. There are other differences, especially around customization, that you can learn about in [When to use which search experience](get-started-with-modern-search-experience.md)
 
 ## Sharing and permissions
 
