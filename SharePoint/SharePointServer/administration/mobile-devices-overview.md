@@ -22,7 +22,7 @@ SharePoint Server 2013 offers new, optimized viewing experiences across differen
 > [!IMPORTANT]
 > For more information about supported mobile browsers with SharePoint Server 2013, see [Mobile device browsers supported in SharePoint 2013](supported-mobile-device-browsers.md). 
   
-For an end-to-end look and understanding of the SharePoint Server 2013 mobile landscape, see the poster [Mobile architecture in SharePoint 2013](https://docs.microsoft.com/en-us/sharepoint/administration/mobile-devices-overview). Also, for more information about how to administer your mobile environment, see [Administer mobile devices in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ff393820(v=office.14)).
+For an end-to-end look and understanding of the SharePoint Server 2013 mobile landscape, see the poster [Overview of mobile devices and SharePoint 2013](https://docs.microsoft.com/en-us/sharepoint/administration/mobile-devices-overview). Also, for more information about how to administer your mobile environment, see [Mobile administration (SharePoint Server 2010)](https://docs.microsoft.com/en-us/previous-versions/office/sharepoint-server-2010/ff393820(v=office.14)).
   
 ## Mobile browser experience
 <a name="MBE"> </a>
