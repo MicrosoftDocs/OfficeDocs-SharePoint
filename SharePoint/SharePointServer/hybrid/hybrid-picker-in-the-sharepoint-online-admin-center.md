@@ -118,7 +118,7 @@ The results of this testing can be viewed as a report if any prerequisite isn't 
   
 ## How we use your data
 
-Hybrid Picker is part of the Office 365 Support Assistant. Hybrid Picker may use your information in the ways outlined by our Privacy statement seen [here](https://privacy.microsoft.com/en-us/privacystatement) (please remember to click on 'How we use personal data' link ). You'll find a more detailed discussion of Microsoft's privacy policies, right [here](https://www.microsoft.com/EN-US/privacystatement/OnlineServices/Default.aspx) (please remember to click the 'Privacy Statement' link in the privacy policies article)! 
+Hybrid Picker is part of the Office 365 Support Assistant. Hybrid Picker may use your information in the ways outlined by our Privacy Statement seen [here](https://privacy.microsoft.com/en-us/privacystatement) (click on the **How we use personal data** link ). 
   
 ## Authentication realm update
 
