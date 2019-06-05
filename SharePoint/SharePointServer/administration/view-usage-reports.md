@@ -48,7 +48,7 @@ The Popularity Trends report is an Excel report that shows daily and monthly hit
   
  **To view the Popularity Trends report for a site collection**
   
-1. Verify that the user account that is performing this procedure is a member of the Owners group. 
+1. Verify that the user account that is performing this procedure is a member of the Site Collection Administrators group. 
     
 2. In the site collection, on the **Settings** menu, click **Site Settings**.
     
@@ -65,7 +65,7 @@ The Popularity Trends report is an Excel report that shows daily and monthly hit
   
  **To view the Popularity Trends report for a site**
   
-1. Verify that the user account that is performing this procedure is a member of the Site Collection Administrators group.
+1. Verify that the user account that is performing this procedure is a member of the default Owners group.
     
 2. In the site collection, on the **Settings** menu, click **Site Settings**.
     
