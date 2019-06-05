@@ -137,7 +137,7 @@ Before you connect the publishing site collection to a catalog, review the infor
 If you want to remove the content of a connected catalog from a publishing site, you have to disconnect the publishing site from the catalog.
   
 > [!IMPORTANT]
-> If you have integrated a catalog tagging term set into the publishing site navigation term set, the tagging terms will not be removed from the navigation when you disconnect from the catalog. To remove the tagging terms from the navigation, you have to delete the terms in Term Store Management. For more information, see [Create and manage terms in a term set](https://docs.microsoft.com/en-us/sharepoint/create-and-manage-terms).
+> If you have integrated a catalog tagging term set into the publishing site navigation term set, the tagging terms will not be removed from the navigation when you disconnect from the catalog. To remove the tagging terms from the navigation, you have to delete the terms in Term Store Management. For more information, see [Create and manage terms in a term set](https://docs.microsoft.com/sharepoint/create-and-manage-terms).
   
 Also, if you had SharePoint Server automatically create a category page and an item details page for the catalog pages, these will not be deleted from the Pages library when you disconnect from the catalog.
   
