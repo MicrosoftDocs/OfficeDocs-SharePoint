@@ -20,7 +20,7 @@ ms.assetid:
 ## Introduction
 
 The Migration API now support to migrate web parts via PRIME package. You can now call CSOM/REST/SOAP WS to get web part data/properties and build the PRIME packages (refer to PRIME web part schema in appendix). 
-However, there is a technical challenge to generate the property values for 'AllUsersProperties' and 'PerUserProperties' when building the PRIME package. These two This is because these property values are BASE64 encoded blob, which are serialized web part properties and web part connection info. 
+However, it is a technical challenge to generate the property values for 'AllUsersProperties' and 'PerUserProperties' when building the PRIME package. This is because these two property values are BASE64 encoded blobs, which are serialized web part properties and web part connection information. 
 This document describes how to solve this serialization problem with WebPart User Properties Serialization API provided by SharePoint migration team.
 
 Schema :
