@@ -135,7 +135,7 @@ foreach ($site in $sites) {
 
 $results | Export-Csv -Path $fullpath -NoTypeInformation
 
-Sending email with output file as attachment  
+#Sending email with output file as attachment  
 Send-MailMessage -SmtpServer $Smtp -To $To -From $From -Subject $Subject -Attachments $fullpath -Body $Body -Priority high
 ```
 

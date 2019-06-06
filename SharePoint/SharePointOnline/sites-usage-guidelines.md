@@ -1,5 +1,5 @@
 ---
-title: Sites usage guidelines checklist
+title: Create guidelines for sites usage
 description: Checklist to help guide users to create their site usage guidance.
 author: jhendr
 manager: pamgreen
@@ -13,7 +13,7 @@ ms.author: jhendr
 localization_priority: None 
 ---
 
-# Creating guidelines for sites usage
+# Create guidelines for sites usage
 
 Using the steps below as a template, create your own customized guidance for your site owners on how sites are set up and managed at your organization. Each section provides guidance about what to include, sample text to help you get started, and links to resources to learn more about each area.
 
