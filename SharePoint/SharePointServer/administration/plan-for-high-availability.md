@@ -1,5 +1,6 @@
 ---
 title: "Create a high availability architecture and strategy for SharePoint Server"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

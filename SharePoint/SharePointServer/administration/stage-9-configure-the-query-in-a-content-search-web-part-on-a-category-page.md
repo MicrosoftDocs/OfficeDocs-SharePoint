@@ -1,5 +1,6 @@
 ---
 title: "Stage 9 Configure the query in a Content Search Web Part on a category page in SharePoint Server"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

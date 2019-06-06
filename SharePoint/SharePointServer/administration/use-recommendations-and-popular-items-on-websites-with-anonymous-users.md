@@ -1,5 +1,6 @@
 ---
 title: "Use recommendations and popular items on websites with anonymous users in SharePoint Server"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

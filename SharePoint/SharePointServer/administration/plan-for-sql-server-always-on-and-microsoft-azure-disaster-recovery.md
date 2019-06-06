@@ -1,5 +1,6 @@
 ---
 title: "Plan for SQL Server Always On and Microsoft Azure for SharePoint Server Disaster Recovery"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

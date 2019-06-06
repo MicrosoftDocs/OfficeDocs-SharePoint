@@ -1,5 +1,6 @@
 ---
 title: "Set permissions to published service applications in SharePoint Server"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

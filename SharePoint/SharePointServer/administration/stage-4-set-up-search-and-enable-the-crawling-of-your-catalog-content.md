@@ -1,5 +1,6 @@
 ---
 title: "Stage 4 Set up search and enable the crawling of your catalog content in SharePoint Server"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

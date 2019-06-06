@@ -1,5 +1,6 @@
 ---
 title: "SharePoint Intranet Farm in Azure Phase 3 Configure SQL Server Infrastructure"
+ms.reviewer: 
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi

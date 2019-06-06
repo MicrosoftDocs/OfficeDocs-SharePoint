@@ -1,5 +1,6 @@
 ---
 title: "Overview of mobile devices and SharePoint Server 2013"
+ms.reviewer: 
 ms.author: toresing
 author: tomresing
 manager: pamgreen

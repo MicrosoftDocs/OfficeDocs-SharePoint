@@ -1,5 +1,6 @@
 ---
 title: "Replace the STS certificate for SharePoint Server"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen

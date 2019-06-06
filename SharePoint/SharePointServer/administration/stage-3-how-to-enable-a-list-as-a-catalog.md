@@ -1,5 +1,6 @@
 ---
 title: "Stage 3 How to enable a list as a catalog in SharePoint Server"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

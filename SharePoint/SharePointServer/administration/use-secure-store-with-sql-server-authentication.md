@@ -1,5 +1,6 @@
 ---
 title: "Use Secure Store with SQL Server Authentication"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

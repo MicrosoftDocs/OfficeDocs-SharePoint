@@ -1,5 +1,6 @@
 ---
 title: "Update a web application URL and IIS bindings for SharePoint Server"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
