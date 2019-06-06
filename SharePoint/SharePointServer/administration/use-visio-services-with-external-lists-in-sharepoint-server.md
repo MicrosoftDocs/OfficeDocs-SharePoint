@@ -1,5 +1,6 @@
 ---
 title: "Use Visio Services with external lists in SharePoint Server"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

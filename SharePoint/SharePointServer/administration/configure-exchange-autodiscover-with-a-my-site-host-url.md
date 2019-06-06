@@ -1,5 +1,6 @@
 ---
 title: "Configure Exchange Autodiscover with a My Site Host URL in SharePoint Server"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen

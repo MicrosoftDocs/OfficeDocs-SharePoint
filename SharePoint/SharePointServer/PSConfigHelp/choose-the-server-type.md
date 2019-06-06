@@ -1,5 +1,6 @@
 ---
 title: "Choose the server type"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen

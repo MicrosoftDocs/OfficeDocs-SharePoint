@@ -1,5 +1,6 @@
 ---
 title: "Configure outgoing email for a SharePoint Server farm"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

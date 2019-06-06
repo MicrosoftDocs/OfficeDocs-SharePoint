@@ -1,5 +1,6 @@
 ---
 title: "Yammer networks, groups, and users overview"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

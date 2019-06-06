@@ -1,5 +1,6 @@
 ---
 title: "How to set up a product-centric website in SharePoint Server"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

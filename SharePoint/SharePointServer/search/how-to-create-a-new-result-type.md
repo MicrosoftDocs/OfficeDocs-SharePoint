@@ -1,5 +1,6 @@
 ---
 title: "How to create a new result type in SharePoint Server"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen

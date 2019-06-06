@@ -1,5 +1,6 @@
 ---
 title: "Migration Assessment Scan Secure Store"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

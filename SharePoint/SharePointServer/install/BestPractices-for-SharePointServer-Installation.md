@@ -1,5 +1,6 @@
 ---
 title: "Best Practices for SharePoint Server Installation"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen

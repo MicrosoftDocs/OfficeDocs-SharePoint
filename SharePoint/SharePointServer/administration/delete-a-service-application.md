@@ -1,5 +1,6 @@
 ---
 title: "Delete a service application in SharePoint Server"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

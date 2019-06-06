@@ -1,5 +1,6 @@
 ---
 title: "Create and import query suggestions for the classic search experience in SharePoint Server"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen

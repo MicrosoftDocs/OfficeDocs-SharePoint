@@ -1,5 +1,6 @@
 ---
 title: "Create or edit a Secure Store Target Application"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen

@@ -1,5 +1,6 @@
 ---
 title: "The settings for the Machine Translation Service are not within the recommended limits (SharePoint Server)"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

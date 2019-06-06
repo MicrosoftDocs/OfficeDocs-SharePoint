@@ -1,5 +1,6 @@
 ---
 title: "Migration Assessment Scan Publishing Pages"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

@@ -1,5 +1,6 @@
 ---
 title: "Migration Assessment Scan Custom Profile Property Mappings"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

@@ -1,5 +1,6 @@
 ---
 title: "Enable conditional access support in the OneDrive sync client for Windows"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen

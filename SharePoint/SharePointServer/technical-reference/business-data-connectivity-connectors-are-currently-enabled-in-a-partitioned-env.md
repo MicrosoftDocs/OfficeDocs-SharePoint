@@ -1,5 +1,6 @@
 ---
 title: "Business Data Connectivity connectors are currently enabled in a partitioned environment (SharePoint Server)"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

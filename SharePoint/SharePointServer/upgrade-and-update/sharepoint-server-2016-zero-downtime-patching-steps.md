@@ -1,5 +1,6 @@
 ---
 title: "SharePoint Server 2016 zero downtime patching steps"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen

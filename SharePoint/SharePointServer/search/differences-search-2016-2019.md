@@ -1,5 +1,6 @@
 ---
 title: "Differences between the search experiences in SharePoint Server"
+ms.reviewer: 
 author: tklarsen
 ms.author: tlarsen
 manager: pamgreen

@@ -1,5 +1,6 @@
 ---
 title: "Share a SQL Server Analysis Services data connection using Excel Services (SharePoint Server 2013)"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

@@ -1,5 +1,6 @@
 ---
 title: "The number of Distributed Cache hosts in the farm exceeds the recommended value (SharePoint Server)"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

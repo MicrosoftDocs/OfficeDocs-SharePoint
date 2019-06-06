@@ -1,5 +1,6 @@
 ---
 title: "Configure the hybrid infrastructure"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

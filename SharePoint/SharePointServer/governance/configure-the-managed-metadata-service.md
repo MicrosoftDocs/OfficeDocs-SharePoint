@@ -1,5 +1,6 @@
 ---
 title: "Configure the Managed Metadata service"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

@@ -1,5 +1,6 @@
 ---
 title: "Cached objects have been evicted (SharePoint Server)"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

@@ -1,5 +1,6 @@
 ---
 title: "Configure cross-site publishing in SharePoint Server"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

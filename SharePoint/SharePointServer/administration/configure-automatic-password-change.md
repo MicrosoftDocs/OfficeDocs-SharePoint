@@ -1,5 +1,6 @@
 ---
 title: "Configure automatic password change in SharePoint Server"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

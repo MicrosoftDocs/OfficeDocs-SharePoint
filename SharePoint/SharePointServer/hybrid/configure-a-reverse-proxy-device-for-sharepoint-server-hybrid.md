@@ -1,5 +1,6 @@
 ---
 title: "Configure a reverse proxy device for SharePoint Server hybrid"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

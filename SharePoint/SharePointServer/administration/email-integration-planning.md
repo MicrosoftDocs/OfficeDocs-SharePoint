@@ -1,5 +1,6 @@
 ---
 title: "Plan email integration for a SharePoint Server farm"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

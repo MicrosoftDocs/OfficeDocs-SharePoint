@@ -1,5 +1,6 @@
 ---
 title: "Change settings for the Search Navigation Web Part"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: arnek

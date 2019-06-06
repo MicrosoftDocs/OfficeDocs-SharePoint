@@ -1,5 +1,6 @@
 ---
 title: "People Search relevance is not optimized when the Active Directory has errors in the manager reporting structure (SharePoint Server)"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

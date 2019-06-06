@@ -1,5 +1,6 @@
 ---
 title: "Run scripted monitoring configuration in SharePoint Server"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

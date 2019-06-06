@@ -1,5 +1,6 @@
 ---
 title: Create guidelines for sites usage
+ms.reviewer: 
 description: Checklist to help guide users to create their site usage guidance.
 author: jhendr
 manager: pamgreen

@@ -1,5 +1,6 @@
 ---
 title: "Set the OneDrive retention for deleted users"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen

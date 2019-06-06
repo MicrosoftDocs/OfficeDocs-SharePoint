@@ -1,5 +1,6 @@
 ---
 title: "Configure Office 365 for SharePoint hybrid"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

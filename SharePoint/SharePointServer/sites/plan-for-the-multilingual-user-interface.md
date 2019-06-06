@@ -1,5 +1,6 @@
 ---
 title: "Plan for the multilingual user interface in SharePoint Server"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

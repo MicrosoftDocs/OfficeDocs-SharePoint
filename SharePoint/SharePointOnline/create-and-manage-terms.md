@@ -1,5 +1,6 @@
 ---
 title: "Create and manage terms in a term set"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

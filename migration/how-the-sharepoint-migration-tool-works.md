@@ -1,5 +1,6 @@
 ---
 title: "How the SharePoint Migration Tool works"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

@@ -1,5 +1,6 @@
 ---
 title: "How to configure the Search Results Web Part to use a new result source in SharePoint Server"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen

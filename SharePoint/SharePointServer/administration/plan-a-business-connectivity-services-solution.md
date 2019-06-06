@@ -1,5 +1,6 @@
 ---
 title: "Plan a Business Connectivity Services solution in SharePoint Server"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

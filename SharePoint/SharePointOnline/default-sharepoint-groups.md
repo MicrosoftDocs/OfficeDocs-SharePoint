@@ -1,5 +1,6 @@
 ---
 title: "Default SharePoint groups"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

@@ -1,5 +1,6 @@
 ---
 title: "Control access to SharePoint Online and OneDrive data based on network location"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen

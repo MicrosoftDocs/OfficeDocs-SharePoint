@@ -1,5 +1,6 @@
 ---
 title: "Overview of Business Connectivity Services security tasks in SharePoint Server"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

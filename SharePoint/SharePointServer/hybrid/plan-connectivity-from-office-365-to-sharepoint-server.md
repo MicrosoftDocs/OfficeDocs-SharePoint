@@ -1,5 +1,6 @@
 ---
 title: "Plan connectivity from Office 365 to SharePoint Server"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

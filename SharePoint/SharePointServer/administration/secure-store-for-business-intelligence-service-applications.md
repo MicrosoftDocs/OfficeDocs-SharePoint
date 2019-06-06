@@ -1,5 +1,6 @@
 ---
 title: "Secure Store for Business Intelligence service applications"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

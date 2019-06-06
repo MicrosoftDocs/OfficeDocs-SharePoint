@@ -1,5 +1,6 @@
 ---
 title: "How to use the SharePoint Migration Tool"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

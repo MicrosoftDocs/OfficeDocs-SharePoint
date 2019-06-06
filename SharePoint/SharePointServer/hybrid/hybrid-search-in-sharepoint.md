@@ -1,5 +1,6 @@
 ---
 title: "Hybrid search in SharePoint"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: arnek

@@ -1,5 +1,6 @@
 ---
 title: "Manage search dictionaries"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen
