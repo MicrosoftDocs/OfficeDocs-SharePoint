@@ -1,5 +1,6 @@
 ---
 title: "How to add refiners to your search results page in SharePoint Server"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen

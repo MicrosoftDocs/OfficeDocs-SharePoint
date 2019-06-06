@@ -1,5 +1,6 @@
 ---
 title: "Create, edit, and delete quota templates in SharePoint Server"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

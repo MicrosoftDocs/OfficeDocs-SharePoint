@@ -1,5 +1,6 @@
 ---
 title: "Create a communication plan for the upgrade to SharePoint 2013"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen

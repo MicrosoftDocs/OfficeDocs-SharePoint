@@ -1,5 +1,6 @@
 ---
 title: "Review site collections upgraded to SharePoint 2013"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen

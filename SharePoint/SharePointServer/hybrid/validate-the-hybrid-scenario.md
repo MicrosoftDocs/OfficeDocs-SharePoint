@@ -1,5 +1,6 @@
 ---
 title: "Validate the Business Connectivity Services hybrid scenario"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

@@ -1,5 +1,6 @@
 ---
 title: "Administer search in SharePoint Server"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen

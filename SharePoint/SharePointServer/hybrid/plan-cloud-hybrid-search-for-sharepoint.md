@@ -1,5 +1,6 @@
 ---
 title: "Plan cloud hybrid search for SharePoint"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: arnek

@@ -1,5 +1,6 @@
 ---
 title: "One or more categories are configured with Verbose trace logging (SharePoint Server)"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

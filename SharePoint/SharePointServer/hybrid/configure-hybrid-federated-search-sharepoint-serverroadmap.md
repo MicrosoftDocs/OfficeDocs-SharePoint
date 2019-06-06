@@ -1,5 +1,6 @@
 ---
 title: "Configure hybrid federated search from SharePoint Server to SharePoint Online - roadmap"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

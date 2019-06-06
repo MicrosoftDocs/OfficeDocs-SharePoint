@@ -1,5 +1,6 @@
 ---
 title: "Manage a paused Search service application in SharePoint Server"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen

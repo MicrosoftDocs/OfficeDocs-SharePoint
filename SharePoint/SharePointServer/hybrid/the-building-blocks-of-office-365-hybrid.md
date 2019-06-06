@@ -1,5 +1,6 @@
 ---
 title: "The building blocks of Office 365 hybrid"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

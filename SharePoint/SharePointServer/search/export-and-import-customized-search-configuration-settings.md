@@ -1,5 +1,6 @@
 ---
 title: "Export and import customized search configuration settings in SharePoint Server"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen

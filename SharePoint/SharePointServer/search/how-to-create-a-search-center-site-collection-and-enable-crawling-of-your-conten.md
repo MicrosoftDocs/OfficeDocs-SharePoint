@@ -1,5 +1,6 @@
 ---
 title: "How to create a Search Center Site Collection and enable crawling of your content in SharePoint Server"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen

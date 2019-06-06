@@ -1,5 +1,6 @@
 ---
 title: "Upgrade a site collection to SharePoint 2013"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen

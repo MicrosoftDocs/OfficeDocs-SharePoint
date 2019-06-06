@@ -1,5 +1,6 @@
 ---
 title: "Start, pause, resume, or stop a crawl in SharePoint Server"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen

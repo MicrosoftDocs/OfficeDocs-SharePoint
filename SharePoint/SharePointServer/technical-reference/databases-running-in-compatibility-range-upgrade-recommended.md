@@ -1,5 +1,6 @@
 ---
 title: "Databases running in compatibility range, upgrade recommended (SharePoint Server)"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

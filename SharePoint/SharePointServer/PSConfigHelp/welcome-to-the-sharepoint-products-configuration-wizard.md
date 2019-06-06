@@ -1,5 +1,6 @@
 ---
 title: "Welcome to the SharePoint Products Configuration Wizard"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen

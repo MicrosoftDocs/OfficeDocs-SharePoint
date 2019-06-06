@@ -1,5 +1,6 @@
 ---
 title: "Add, edit, or delete a content source in SharePoint Server"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen

@@ -1,5 +1,6 @@
 ---
 title: "The Machine Translation Service is not running when it should be running (SharePoint Server)"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

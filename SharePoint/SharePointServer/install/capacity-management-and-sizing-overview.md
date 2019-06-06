@@ -1,5 +1,6 @@
 ---
 title: "Capacity management and sizing overview for SharePoint Server 2013"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen

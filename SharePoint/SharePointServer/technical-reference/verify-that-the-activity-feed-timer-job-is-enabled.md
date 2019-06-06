@@ -1,5 +1,6 @@
 ---
 title: "Verify that the Activity Feed Timer Job is enabled (SharePoint Server)"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

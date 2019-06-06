@@ -1,5 +1,6 @@
 ---
 title: "Migrate from classic-mode to claims-based authentication in SharePoint 2013"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen

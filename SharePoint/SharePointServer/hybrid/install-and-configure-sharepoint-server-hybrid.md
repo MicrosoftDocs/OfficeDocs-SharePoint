@@ -1,5 +1,6 @@
 ---
 title: "Install and configure SharePoint Server hybrid"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

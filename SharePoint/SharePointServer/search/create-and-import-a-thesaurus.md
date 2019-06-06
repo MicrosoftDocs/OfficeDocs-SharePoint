@@ -1,5 +1,6 @@
 ---
 title: "Create and import a thesaurus in SharePoint Server"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen

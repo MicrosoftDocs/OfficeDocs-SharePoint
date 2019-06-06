@@ -1,5 +1,6 @@
 ---
 title: "How to Start the SharePoint Products Configuration wizard"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen

@@ -1,5 +1,6 @@
 ---
 title: "How to Configure proxy server settings"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
