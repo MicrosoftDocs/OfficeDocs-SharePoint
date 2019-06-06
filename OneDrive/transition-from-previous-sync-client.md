@@ -1,5 +1,6 @@
 ---
 title: "Transition from the previous OneDrive for Business sync client"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen

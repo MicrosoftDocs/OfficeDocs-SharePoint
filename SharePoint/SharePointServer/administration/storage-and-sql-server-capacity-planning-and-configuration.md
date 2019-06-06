@@ -1,5 +1,6 @@
 ---
 title: "Storage and SQL Server capacity planning and configuration (SharePoint Server)"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

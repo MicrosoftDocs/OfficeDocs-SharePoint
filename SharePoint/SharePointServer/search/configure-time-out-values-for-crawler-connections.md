@@ -1,5 +1,6 @@
 ---
 title: "Configure time-out values for crawler connections in SharePoint Server"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen

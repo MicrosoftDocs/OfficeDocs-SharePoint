@@ -1,5 +1,6 @@
 ---
 title: "Set a content database to use RBS with FILESTREAM in SharePoint Server"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

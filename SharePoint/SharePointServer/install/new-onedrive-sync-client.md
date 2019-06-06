@@ -1,5 +1,6 @@
 ---
 title: "Configure syncing with the new OneDrive sync client for Sharepoint 2019"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen

@@ -1,5 +1,6 @@
 ---
 title: "Change the default search topology in SharePoint Server"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen

@@ -1,5 +1,6 @@
 ---
 title: "Set up a new term set"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

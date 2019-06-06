@@ -1,5 +1,6 @@
 ---
 title: "Install or uninstall language packs for SharePoint 2013"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen

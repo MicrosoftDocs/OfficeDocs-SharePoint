@@ -1,5 +1,6 @@
 ---
 title: "PerformancePoint Services in SharePoint Server overview"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

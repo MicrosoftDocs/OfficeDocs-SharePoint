@@ -1,5 +1,6 @@
 ---
 title: "Application management and governance in SharePoint"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

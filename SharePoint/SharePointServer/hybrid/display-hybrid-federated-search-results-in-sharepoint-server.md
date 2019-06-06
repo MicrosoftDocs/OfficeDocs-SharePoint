@@ -1,5 +1,6 @@
 ---
 title: "Display hybrid federated search results in SharePoint Server"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: arnek

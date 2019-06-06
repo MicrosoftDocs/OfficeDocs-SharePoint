@@ -1,5 +1,6 @@
 ---
 title: "Plan document sets in SharePoint Server 2013"
+ms.reviewer: 
 ms.author: toresing
 author: tomresing
 manager: pamgreen

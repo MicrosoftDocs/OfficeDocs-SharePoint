@@ -1,5 +1,6 @@
 ---
 title: "One or more web applications are configured to use Windows Classic authentication (SharePoint Server)"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

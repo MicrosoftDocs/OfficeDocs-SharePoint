@@ -1,5 +1,6 @@
 ---
 title: "Default crawled file name extensions and parsed file types in SharePoint Server"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen

@@ -1,5 +1,6 @@
 ---
 title: "Use a SharePoint Server records archive or manage records in place"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

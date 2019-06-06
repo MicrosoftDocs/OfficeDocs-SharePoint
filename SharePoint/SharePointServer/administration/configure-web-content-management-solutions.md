@@ -1,5 +1,6 @@
 ---
 title: "Configure web content management solutions in SharePoint Server"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

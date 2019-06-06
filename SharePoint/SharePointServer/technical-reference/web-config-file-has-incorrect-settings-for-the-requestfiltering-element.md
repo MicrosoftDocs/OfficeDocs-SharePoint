@@ -1,5 +1,6 @@
 ---
 title: "Web.config file has incorrect settings for the requestFiltering element (SharePoint Server)"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

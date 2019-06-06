@@ -1,5 +1,6 @@
 ---
 title: "Customize SharePoint site permissions"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

@@ -1,5 +1,6 @@
 ---
 title: "Change site collection administrators in SharePoint Server"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

@@ -1,5 +1,6 @@
 ---
 title: "More cache hosts are running in this deployment than are registered with SharePoint (SharePoint Server)"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

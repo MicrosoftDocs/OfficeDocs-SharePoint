@@ -1,5 +1,6 @@
 ---
 title: "What's new in SharePoint 2013 upgrade"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen

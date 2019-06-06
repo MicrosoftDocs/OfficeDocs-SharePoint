@@ -1,5 +1,6 @@
 ---
 title: "Troubleshoot site collection upgrade issues in SharePoint Server 2016"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen

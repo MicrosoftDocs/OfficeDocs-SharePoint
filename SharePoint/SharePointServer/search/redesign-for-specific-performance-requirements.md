@@ -1,5 +1,6 @@
 ---
 title: "Redesign enterprise search topology for specific performance requirements in SharePoint"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen

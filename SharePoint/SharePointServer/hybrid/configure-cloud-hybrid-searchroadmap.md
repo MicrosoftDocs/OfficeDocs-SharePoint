@@ -1,5 +1,6 @@
 ---
 title: "Configure cloud hybrid search - roadmap"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen

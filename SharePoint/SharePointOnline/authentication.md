@@ -1,5 +1,6 @@
 ---
 title: "SharePoint Online authentication"
+ms.reviewer: 
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi

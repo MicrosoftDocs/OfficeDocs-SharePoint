@@ -1,5 +1,6 @@
 ---
 title: "Stage 6 Upload and apply a new master page to a publishing site in SharePoint Server"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

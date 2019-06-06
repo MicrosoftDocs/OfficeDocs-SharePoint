@@ -1,5 +1,6 @@
 ---
 title: "Databases require upgrade or not supported (SharePoint Server)"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

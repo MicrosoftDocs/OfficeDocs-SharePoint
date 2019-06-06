@@ -1,5 +1,6 @@
 ---
 title: "Plan navigation term sets in SharePoint Server"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

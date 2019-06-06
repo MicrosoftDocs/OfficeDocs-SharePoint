@@ -1,5 +1,6 @@
 ---
 title: "Plan to use refiners on a search results page in SharePoint Server"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen

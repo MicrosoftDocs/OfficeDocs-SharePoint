@@ -1,5 +1,6 @@
 ---
 title: "Troubleshoot common fine-grained permissions issues for SharePoint Server"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

@@ -1,5 +1,6 @@
 ---
 title: "One or more app domains for web applications aren't configured correctly (SharePoint Server)"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

@@ -1,5 +1,6 @@
 ---
 title: "Remove a hub site"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen

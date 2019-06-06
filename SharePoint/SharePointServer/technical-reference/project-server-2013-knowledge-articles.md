@@ -1,5 +1,6 @@
 ---
 title: "Project Server 2013 knowledge articles for Systems Center Operations Manager"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

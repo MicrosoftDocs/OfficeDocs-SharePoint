@@ -1,5 +1,6 @@
 ---
 title: "Verify that OAuth is configured correctly for the Machine Translation Service application proxy (SharePoint Server)"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

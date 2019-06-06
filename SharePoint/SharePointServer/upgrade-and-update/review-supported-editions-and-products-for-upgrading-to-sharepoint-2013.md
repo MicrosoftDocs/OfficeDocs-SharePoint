@@ -1,5 +1,6 @@
 ---
 title: "Review supported editions and products for upgrading to SharePoint 2013"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen

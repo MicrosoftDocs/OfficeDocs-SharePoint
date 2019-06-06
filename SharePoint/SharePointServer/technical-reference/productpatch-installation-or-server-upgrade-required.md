@@ -1,5 +1,6 @@
 ---
 title: "Product / patch installation or server upgrade required (SharePoint Server)"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

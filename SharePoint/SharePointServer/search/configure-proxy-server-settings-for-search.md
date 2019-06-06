@@ -1,5 +1,6 @@
 ---
 title: "Configure proxy server settings for Search in SharePoint Server"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen

@@ -1,5 +1,6 @@
 ---
 title: "Plan for information management policy in SharePoint Server"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen

@@ -1,5 +1,6 @@
 ---
 title: "SharePoint Migration Identity Mapping Tool Azure Active Directory Identity Scan"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

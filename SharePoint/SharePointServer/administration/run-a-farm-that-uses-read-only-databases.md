@@ -1,5 +1,6 @@
 ---
 title: "Run a farm that uses read-only databases in SharePoint Server"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

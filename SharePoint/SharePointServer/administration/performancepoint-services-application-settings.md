@@ -1,5 +1,6 @@
 ---
 title: "PerformancePoint Services application settings"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

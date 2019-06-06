@@ -1,5 +1,6 @@
 ---
 title: "Specify search settings for a site collection or a site"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: arnek

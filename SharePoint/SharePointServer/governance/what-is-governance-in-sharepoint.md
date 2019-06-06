@@ -1,5 +1,6 @@
 ---
 title: "What is governance in SharePoint?"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

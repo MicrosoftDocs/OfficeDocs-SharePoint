@@ -1,5 +1,6 @@
 ---
 title: "Add and configure the Recommended Items and Popular Items Web Part in SharePoint Server"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

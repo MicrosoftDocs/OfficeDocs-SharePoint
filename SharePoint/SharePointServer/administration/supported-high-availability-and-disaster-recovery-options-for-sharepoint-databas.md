@@ -1,5 +1,6 @@
 ---
 title: "Supported high availability and disaster recovery options for SharePoint databases"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

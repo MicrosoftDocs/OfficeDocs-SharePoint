@@ -1,5 +1,6 @@
 ---
 title: "Verify each User Profile service application has a My Site host configured (SharePoint Server)"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

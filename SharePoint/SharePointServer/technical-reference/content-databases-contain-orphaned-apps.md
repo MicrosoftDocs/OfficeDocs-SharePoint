@@ -1,5 +1,6 @@
 ---
 title: "Content databases contain orphaned Apps (SharePoint Server)"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

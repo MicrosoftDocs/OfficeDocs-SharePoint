@@ -1,5 +1,6 @@
 ---
 title: "Supporting the SharePoint mobile apps online and on-premises"
+ms.reviewer: 
 ms.author: toresing
 author: tomresing
 manager: pamgreen

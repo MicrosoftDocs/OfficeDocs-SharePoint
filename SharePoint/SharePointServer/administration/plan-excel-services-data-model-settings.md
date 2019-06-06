@@ -1,5 +1,6 @@
 ---
 title: "Plan Excel Services Data Model settings in SharePoint Server 2013"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

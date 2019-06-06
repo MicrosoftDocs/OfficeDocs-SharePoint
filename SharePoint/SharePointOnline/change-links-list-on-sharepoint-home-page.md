@@ -1,5 +1,6 @@
 ---
 title: "Add featured links to the SharePoint start page"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen

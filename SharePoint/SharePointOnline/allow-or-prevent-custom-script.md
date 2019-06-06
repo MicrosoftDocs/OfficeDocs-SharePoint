@@ -1,5 +1,6 @@
 ---
 title: "Allow or prevent custom script"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
