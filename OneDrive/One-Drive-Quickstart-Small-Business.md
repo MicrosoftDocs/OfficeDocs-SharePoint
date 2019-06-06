@@ -1,5 +1,6 @@
 ---
 title: OneDrive QuickStart guide for small businesses
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen

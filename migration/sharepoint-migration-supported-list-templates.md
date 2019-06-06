@@ -1,5 +1,6 @@
 ---
 title: "SharePoint Migration Tool supported SharePoint List templates"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

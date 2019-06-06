@@ -1,5 +1,6 @@
 ---
 title: "Install the sync client per machine"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen

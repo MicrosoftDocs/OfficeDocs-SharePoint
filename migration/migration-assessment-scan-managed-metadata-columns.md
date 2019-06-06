@@ -1,5 +1,6 @@
 ---
 title: "Migration Assessment Scan Managed Metadata Columns"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

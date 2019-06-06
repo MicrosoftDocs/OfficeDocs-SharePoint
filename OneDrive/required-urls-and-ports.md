@@ -1,5 +1,6 @@
 ---
 title: "Required URLs and ports for OneDrive consumer"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen

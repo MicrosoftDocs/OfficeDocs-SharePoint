@@ -1,5 +1,6 @@
 ---
 title: "Help users use the Discover view in OneDrive"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
