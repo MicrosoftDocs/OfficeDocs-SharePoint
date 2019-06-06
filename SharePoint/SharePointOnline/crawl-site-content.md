@@ -25,7 +25,7 @@ In SharePoint Online, content is automatically crawled based on a defined crawl 
 > [!CAUTION]
 >  Re-indexing a site can cause a massive load on the search system. Don't re-index your site unless you've made changes that require all items to be re-indexed. 
   
-1. On the site, click **Settings** \> **Site Settings**.
+1. On the site, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**. 
     
 2. Under **Search**, click **Search and offline availability**.
     

@@ -34,9 +34,9 @@ For the classic search experience, you can create your own result sources, or us
     
   - For the **tenant**: In the classic SharePoint admin center, in the left pane select **search**, and then on the search administration page, select **Manage Result Sources**.
     
-  - For a **site collection**: In your site collection, go to **Settings**, select **Site settings** and then under **Site Collection Administration**, select **Search Result Sources**.
+  - For a site collection, in your site collection, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**. Under **Site Collection Administration**, select **Search Result Sources**.
     
-  - For a **site**: On your site, go to **Settings**, select **Site settings**, and then under **Search**, select **Result Sources**.
+  - For a site, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**. Under **Search**, select **Result Sources**.
     
 2. On the **Manage Result Sources** page, select **New Result Source**.
     
