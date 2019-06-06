@@ -1,5 +1,6 @@
 ---
 title: "Customize query suggestions in SharePoint search"
+ms.reviewer: 
 ms.author: arnek
 author: arnek
 manager: arnek

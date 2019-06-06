@@ -1,5 +1,6 @@
 ---
 title: "Let users sync IRM-protected files with the OneDrive sync client"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen

@@ -1,5 +1,6 @@
 ---
 title: "Request app installation permissions"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen

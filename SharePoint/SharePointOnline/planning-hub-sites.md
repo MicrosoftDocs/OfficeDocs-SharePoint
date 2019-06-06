@@ -1,5 +1,7 @@
 ---
 title: "Planning your SharePoint hub sites"
+ms.reviewer: 
+manager: 
 ms.author: kaarins
 author: kaarins
 audience: Admin

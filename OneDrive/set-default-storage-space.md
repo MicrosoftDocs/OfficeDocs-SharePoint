@@ -1,5 +1,6 @@
 ---
 title: "Set the default storage space for OneDrive users"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen

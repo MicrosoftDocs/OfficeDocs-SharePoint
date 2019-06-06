@@ -1,5 +1,7 @@
 ---
 title: "Change the default list and library experience"
+ms.reviewer: 
+manager: 
 ms.author: kaarins
 author: kaarins
 audience: ITPro

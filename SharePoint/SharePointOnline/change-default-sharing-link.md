@@ -1,5 +1,6 @@
 ---
 title: "Change the default link type for sharing files and folders"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

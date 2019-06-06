@@ -1,5 +1,6 @@
 ---
 title: "Manage result types"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: arnek

@@ -1,5 +1,6 @@
 ---
 title: "Manage site admins"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen

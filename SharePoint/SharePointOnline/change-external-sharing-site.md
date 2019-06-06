@@ -1,5 +1,6 @@
 ---
 title: "Change the external sharing setting for a site"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
