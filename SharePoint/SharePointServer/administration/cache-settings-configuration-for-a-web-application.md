@@ -1,5 +1,6 @@
 ---
 title: "Configure cache settings for a web application in SharePoint Server"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

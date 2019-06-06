@@ -1,5 +1,6 @@
 ---
 title: "Exchange trust certificates between farms in SharePoint Server"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

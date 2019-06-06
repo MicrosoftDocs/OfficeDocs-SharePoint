@@ -1,5 +1,6 @@
 ---
 title: "Designing a SharePoint Server 2016 farm in Azure"
+ms.reviewer: 
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi

@@ -1,5 +1,6 @@
 ---
 title: "Getting started"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

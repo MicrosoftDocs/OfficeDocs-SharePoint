@@ -1,5 +1,6 @@
 ---
 title: "General guidance for hosters in SharePoint Server 2013"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
