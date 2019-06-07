@@ -31,7 +31,7 @@ The sync client also supports non-persistent environments that have [FSLogix App
 - Windows 10, 32 or 64-bit (supports VHDX files) 
 - Windows 7, 32 or 64-bit (supports VHD files) 
 - Windows Server 2016 R2 or Windows Server 2012 R2 (both support VHDX)
-- Windows Server 2008 R2 (supports VHDX and VHD)
+- Windows Server 2008 R2 (supports VHD)
 
 > [!NOTE]
 > For Windows Server, the [SMB network file sharing protocol](/windows-server/storage/file-server/file-server-smb-overview) is also required. 
