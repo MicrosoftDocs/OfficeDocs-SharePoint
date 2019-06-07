@@ -60,7 +60,7 @@ For most languages, search changes text to lower-case, removes diacritics, repla
   
 Breaking on white spaces works fine for a language like English, but not so well for East Asian languages. Let's say you have a document library that contains product datasheets both in English and Chinese. Each datasheet has a product identifier with non-alphanumerical characters, such as "11.132-84-115#4". When search processes the datasheet, it **detects** its language, and tokenizes everything in it according to that language. So, the product identifier in a Chinese data sheet is tokenized as if it was Chinese text, and in an English data sheet the product identifier is tokenized as if it was English text. When users search for a product identifier, search tokenizes their query according to the language setting of the SharePoint site they're on. If the site is set to English, and the user searches for a product identifier that was tokenized as Chinese text, the tokens might not match, and the users get no results. 
   
-Here's how you can make results better for users: When search crawls the datasheet, it extracts the product identifier. Map the crawled property for the product identifier to a new managed property, "ProductID". Enable **language neutral tokenization** for the "ProductID" managed property, and instruct users to search for product identifiers against the "ProductID"managed property, like this:  *ProductID:"11.132-8"*  . Because you've enabled language neutral tokenization for "ProductID", search uses language neutral tokenization for the query and can find matching results for the query. 
+Here's how you can make results better for users: When search crawls the datasheet, it extracts the product identifier. Map the crawled property for the product identifier to a new managed property, "ProductID". Enable **language neutral tokenization** for the "ProductID" managed property, and instruct users to search for product identifiers against the "ProductID" managed property, like this:  *ProductID:"11.132-8"*  . Because you've enabled language neutral tokenization for "ProductID", search uses language neutral tokenization for the query and can find matching results for the query. 
   
  **Get better search results when you have metadata with special characters**
   
@@ -392,7 +392,7 @@ If you don't want a document to show up in Delve, you can create a HideFromDelve
     
 2. On the ribbon, click the **List** or **Library** tab. 
     
-3. Click **Create Column** in the **Manage Views** group,. 
+3. Click **Create Column** in the **Manage Views** group. 
     
 4. Type HideFromDelve in the **Column name** box under the Name and Type section, and then select **Yes/No (check box)**.
     
