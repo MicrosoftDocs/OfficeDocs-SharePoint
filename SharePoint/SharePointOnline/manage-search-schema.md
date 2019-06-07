@@ -216,7 +216,7 @@ If you need a property of a different type, or one that has different characteri
 ## View crawled properties and managed properties
 <a name="__toc351360843"> </a>
 
-**Go to the Search Schema page for the Tenant**
+**Go to the Search Schema page for the tenant**
     
 1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
@@ -245,7 +245,6 @@ If you need a property of a different type, or one that has different characteri
 > [!NOTE]
 > Not all options are available in SharePoint Online. 
   
- **Edit a managed property**
   
 **Go to the Search Schema page for the tenant**
     
