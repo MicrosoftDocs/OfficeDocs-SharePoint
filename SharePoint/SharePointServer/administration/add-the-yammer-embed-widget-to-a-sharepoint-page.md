@@ -1,5 +1,6 @@
 ---
 title: "Add the Yammer Embed widget to a SharePoint page"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

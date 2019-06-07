@@ -1,5 +1,6 @@
 ---
 title: "The settings for Word Automation Services are not within the recommended limits (SharePoint Server)"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

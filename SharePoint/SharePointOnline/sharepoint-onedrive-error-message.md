@@ -1,5 +1,6 @@
 ---
 title: "Sharing errors in SharePoint and OneDrive"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

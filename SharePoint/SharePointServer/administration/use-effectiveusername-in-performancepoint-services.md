@@ -1,5 +1,6 @@
 ---
 title: "Use EffectiveUserName in PerformancePoint Services"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

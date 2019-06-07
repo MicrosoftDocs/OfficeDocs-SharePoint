@@ -1,5 +1,6 @@
 ---
 title: "Plan for custom claims providers for People Picker in SharePoint"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen

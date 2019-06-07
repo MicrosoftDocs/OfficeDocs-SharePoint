@@ -1,5 +1,6 @@
 ---
 title: "The OneDrive sync client update process"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen

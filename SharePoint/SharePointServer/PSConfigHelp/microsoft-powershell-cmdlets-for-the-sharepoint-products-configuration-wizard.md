@@ -1,5 +1,6 @@
 ---
 title: "Microsoft PowerShell cmdlets for the SharePoint Products Configuration wizard"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen

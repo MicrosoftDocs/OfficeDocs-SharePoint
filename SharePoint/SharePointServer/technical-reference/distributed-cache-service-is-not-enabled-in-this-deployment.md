@@ -1,5 +1,6 @@
 ---
 title: "Distributed cache service is not enabled in this deployment (SharePoint Server)"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

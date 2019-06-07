@@ -1,5 +1,6 @@
 ---
 title: "Server Management"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

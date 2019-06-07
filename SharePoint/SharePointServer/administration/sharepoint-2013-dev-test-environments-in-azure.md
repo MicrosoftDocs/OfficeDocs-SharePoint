@@ -1,5 +1,6 @@
 ---
 title: "SharePoint 2013 dev/test environments in Azure"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen

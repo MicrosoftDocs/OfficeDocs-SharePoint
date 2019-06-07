@@ -1,5 +1,6 @@
 ---
 title: "Built-in accounts are used as application pool or service identities (SharePoint Server)"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

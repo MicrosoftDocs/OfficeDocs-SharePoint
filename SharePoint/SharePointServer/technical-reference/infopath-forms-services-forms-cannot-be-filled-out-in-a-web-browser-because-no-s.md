@@ -1,5 +1,6 @@
 ---
 title: "InfoPath Forms Services forms cannot be filled out in a Web browser because no State Service connection is configured (SharePoint Server)"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

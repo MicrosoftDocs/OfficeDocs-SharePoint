@@ -1,5 +1,6 @@
 ---
 title: "The current server is running low on memory (SharePoint Server)"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

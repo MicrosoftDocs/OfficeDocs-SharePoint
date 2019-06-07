@@ -1,5 +1,6 @@
 ---
 title: "Plan document versioning, content approval, and check-out controls in SharePointServer"
+ms.reviewer: 
 ms.author: toresing
 author: tomresing
 manager: pamgreen

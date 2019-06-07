@@ -1,5 +1,6 @@
 ---
 title: "Deploy and configure the new OneDrive sync client for Mac"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen

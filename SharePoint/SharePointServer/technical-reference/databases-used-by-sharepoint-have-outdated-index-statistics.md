@@ -1,5 +1,6 @@
 ---
 title: "Databases used by SharePoint have outdated index statistics (SharePoint Server)"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

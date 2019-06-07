@@ -1,5 +1,6 @@
 ---
 title: "Configure digest authentication for a claims-based web application in SharePoint Server"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen

@@ -1,5 +1,6 @@
 ---
 title: "Deactivated controls in SharePoint Designer 2013"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

@@ -1,5 +1,6 @@
 ---
 title: "Plan self-service site creation in SharePoint Server"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

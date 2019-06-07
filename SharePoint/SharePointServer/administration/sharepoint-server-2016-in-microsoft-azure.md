@@ -1,5 +1,6 @@
 ---
 title: "SharePoint Server 2016 in Microsoft Azure"
+ms.reviewer: 
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi

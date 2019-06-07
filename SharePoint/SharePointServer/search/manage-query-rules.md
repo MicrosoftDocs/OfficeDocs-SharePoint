@@ -1,5 +1,6 @@
 ---
 title: "Manage query rules in SharePoint Server"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen

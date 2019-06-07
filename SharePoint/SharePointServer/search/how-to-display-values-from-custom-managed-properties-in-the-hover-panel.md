@@ -1,5 +1,6 @@
 ---
 title: "How to display values from custom managed properties in the hover panel in SharePoint Server"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen

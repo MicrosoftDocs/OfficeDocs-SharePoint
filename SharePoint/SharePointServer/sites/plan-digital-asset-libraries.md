@@ -1,5 +1,6 @@
 ---
 title: "Plan digital asset libraries in SharePoint Server 2013"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

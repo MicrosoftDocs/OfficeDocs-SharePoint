@@ -1,5 +1,6 @@
 ---
 title: "Specify configuration database settings"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen

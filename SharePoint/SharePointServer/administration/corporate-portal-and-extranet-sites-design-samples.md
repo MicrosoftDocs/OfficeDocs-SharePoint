@@ -1,5 +1,6 @@
 ---
 title: "SharePoint Server design samples Corporate portal and extranet sites"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen

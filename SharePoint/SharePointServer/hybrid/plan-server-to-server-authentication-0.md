@@ -1,5 +1,6 @@
 ---
 title: "Plan server-to-server authentication"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

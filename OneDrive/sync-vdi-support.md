@@ -1,5 +1,6 @@
 ---
 title: "Use the sync client on virtual desktops"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen

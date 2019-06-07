@@ -1,5 +1,6 @@
 ---
 title: "Hardware and software requirements for SharePoint hybrid"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

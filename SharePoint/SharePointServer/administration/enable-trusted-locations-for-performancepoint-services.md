@@ -1,5 +1,6 @@
 ---
 title: "Enable trusted locations for PerformancePoint Services"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

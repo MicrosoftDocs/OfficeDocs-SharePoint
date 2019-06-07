@@ -1,5 +1,6 @@
 ---
 title: "Overview of SQL Server in a SharePoint Server 2016 environment"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

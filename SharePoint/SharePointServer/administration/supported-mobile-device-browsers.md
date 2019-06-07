@@ -1,5 +1,6 @@
 ---
 title: "Mobile device browsers supported in SharePoint 2013"
+ms.reviewer: 
 ms.author: toresing
 author: tomresing
 manager: pamgreen

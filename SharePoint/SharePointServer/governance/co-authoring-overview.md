@@ -1,5 +1,6 @@
 ---
 title: "Overview of co-authoring in SharePoint Server"
+ms.reviewer: 
 ms.author: toresing
 author: tomresing
 manager: pamgreen

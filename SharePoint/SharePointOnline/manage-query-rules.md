@@ -1,5 +1,6 @@
 ---
 title: "Manage query rules"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: arnek

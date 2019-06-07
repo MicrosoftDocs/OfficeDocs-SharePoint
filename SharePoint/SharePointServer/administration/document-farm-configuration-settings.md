@@ -1,5 +1,6 @@
 ---
 title: "Document farm configuration settings in SharePoint Server"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

@@ -1,5 +1,6 @@
 ---
 title: "Software updates overview for SharePoint Server 2016"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen

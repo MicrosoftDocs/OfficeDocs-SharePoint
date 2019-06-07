@@ -1,5 +1,6 @@
 ---
 title: "Create a hub site in SharePoint Online"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen

@@ -1,5 +1,6 @@
 ---
 title: "Change your installation"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen

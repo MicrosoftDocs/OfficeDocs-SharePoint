@@ -1,5 +1,6 @@
 ---
 title: "All State Service databases are paused for a State Service Application (SharePoint Server)"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

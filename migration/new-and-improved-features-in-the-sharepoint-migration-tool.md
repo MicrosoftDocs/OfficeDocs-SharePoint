@@ -1,5 +1,6 @@
 ---
 title: "New and improved features in the SharePoint Migration Tool"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

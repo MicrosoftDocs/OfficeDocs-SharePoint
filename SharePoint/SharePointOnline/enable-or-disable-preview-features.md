@@ -1,5 +1,6 @@
 ---
 title: "Enable or disable preview features in SharePoint"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen

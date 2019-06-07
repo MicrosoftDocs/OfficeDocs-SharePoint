@@ -1,5 +1,6 @@
 ---
 title: "Control access from unmanaged devices"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen

@@ -1,5 +1,6 @@
 ---
 title: "Restore Secure Store Service applications in SharePoint Server"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

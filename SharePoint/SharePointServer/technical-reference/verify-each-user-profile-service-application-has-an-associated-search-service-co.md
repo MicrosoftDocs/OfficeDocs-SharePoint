@@ -1,5 +1,6 @@
 ---
 title: "Verify each User Profile Service Application has an associated Search Service Connection (SharePoint Server)"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

@@ -1,5 +1,6 @@
 ---
 title: "Add and edit user profile properties in SharePoint Online"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen

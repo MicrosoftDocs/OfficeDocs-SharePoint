@@ -1,5 +1,6 @@
 ---
 title: "One or more servers is not responding (SharePoint Server)"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

@@ -1,5 +1,6 @@
 ---
 title: "Social scenarios with Yammer and SharePoint Server"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

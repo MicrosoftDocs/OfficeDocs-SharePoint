@@ -1,5 +1,6 @@
 ---
 title: "Overview of crawled and managed properties in SharePoint Server"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen

@@ -1,5 +1,6 @@
 ---
 title: "Understanding how item display templates and hit highlighting work in the classic search experience in SharePoint Server"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen

@@ -1,5 +1,6 @@
 ---
 title: "About the SharePoint admin role in Microsoft 365"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen

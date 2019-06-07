@@ -1,5 +1,6 @@
 ---
 title: "Create a site collection in SharePoint Server"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

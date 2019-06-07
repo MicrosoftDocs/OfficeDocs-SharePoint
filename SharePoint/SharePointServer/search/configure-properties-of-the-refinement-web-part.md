@@ -1,5 +1,6 @@
 ---
 title: "Configure properties of the Refinement Web Part in SharePoint Server"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen
