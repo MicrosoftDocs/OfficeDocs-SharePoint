@@ -186,7 +186,7 @@ You can also dynamically change the sorting order of the search results, based o
 
 Query rules that are created at the tenant level are inherited by site collections and sites. Similarly, query rules that are created at the site collection level are inherited by sites in the site collection. If you don't want a query rule to apply to a site that inherits it, you can make the query rule inactive for the site.
   
-1. On your site, in the **Settings** menu, click **Site Settings**. 
+1. On your site, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**. 
     
 2. On the **Site Settings** page, in the **Search** section, click **Query Rules**.
     
@@ -199,7 +199,7 @@ Query rules that are created at the tenant level are inherited by site collectio
 
 When multiple query rules are active for a tenant, a site collection, or a site, more than one rule can fire for a query that is performed at that level. By default, the rules don't fire in a given order. However, if you want to control the order in which the rules fire, you have to add the query rules that you create to query groups. To do this, you select rules to add to a group, and then you specify the order in which the rules in the group will fire if they're triggered. You can also prevent query rules that rank lowest in a group from firing even if they do get triggered.
   
-1. In the site collection, on the **Settings** menu, click **Site Settings**. 
+1. In the site collection, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**.
     
 2. On the **Site Settings** page, in the **Site Collection Administration** section, click **Search Query Rules**.
     
