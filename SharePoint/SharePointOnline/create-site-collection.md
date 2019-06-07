@@ -29,7 +29,7 @@ description: "Learn how to create SharePoint site collections."
 
 # Create a site
 
-This article describes how global admins and SharePoint admins in Office 365 can create sites (previously called "site collections").
+This article describes how global admins and SharePoint admins in Office 365 can create sites, previously called "site collections".
   
 For info about creating site collections in SharePoint Server, see [Create a site collection in SharePoint Server](/SharePoint/sites/create-a-site-collection).
 
