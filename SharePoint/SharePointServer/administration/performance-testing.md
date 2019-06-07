@@ -1,5 +1,6 @@
 ---
 title: "Performance testing for SharePoint Server 2013"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

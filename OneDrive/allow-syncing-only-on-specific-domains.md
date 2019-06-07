@@ -1,5 +1,6 @@
 ---
 title: "Allow syncing only on computers joined to specific domains"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen

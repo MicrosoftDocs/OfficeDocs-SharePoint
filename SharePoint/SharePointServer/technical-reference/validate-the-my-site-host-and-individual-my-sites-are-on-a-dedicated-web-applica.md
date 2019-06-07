@@ -1,5 +1,6 @@
 ---
 title: "Validate the My Site Host and individual My Sites are on a dedicated Web application and separate URL domain (SharePoint Server)"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

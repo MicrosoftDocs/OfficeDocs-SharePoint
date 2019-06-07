@@ -1,5 +1,6 @@
 ---
 title: "Databases used by SharePoint have fragmented indices (SharePoint Server)"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

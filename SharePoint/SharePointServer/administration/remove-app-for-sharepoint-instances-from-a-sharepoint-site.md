@@ -1,5 +1,6 @@
 ---
 title: "Remove app for SharePoint instances from a SharePoint site"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

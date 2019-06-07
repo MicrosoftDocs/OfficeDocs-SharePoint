@@ -1,5 +1,6 @@
 ---
 title: "Manage app licenses for a SharePoint Online environment"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen

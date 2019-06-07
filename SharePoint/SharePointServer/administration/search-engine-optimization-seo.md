@@ -1,5 +1,6 @@
 ---
 title: "Search Engine Optimization (SEO) in SharePoint Server"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

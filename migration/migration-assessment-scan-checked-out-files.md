@@ -1,5 +1,6 @@
 ---
 title: "Migration Assessment Scan Checked-out files"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

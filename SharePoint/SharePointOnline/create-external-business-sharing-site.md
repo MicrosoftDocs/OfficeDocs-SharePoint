@@ -1,5 +1,6 @@
 ---
 title: "Create an external business-sharing site in SharePoint Online"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

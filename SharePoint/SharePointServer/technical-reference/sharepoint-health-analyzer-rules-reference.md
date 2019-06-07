@@ -1,5 +1,6 @@
 ---
 title: "SharePoint Health Analyzer rules reference for SharePoint Server 2016"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

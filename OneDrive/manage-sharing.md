@@ -1,5 +1,6 @@
 ---
 title: "Manage sharing in OneDrive and SharePoint"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen

@@ -1,5 +1,6 @@
 ---
 title: "SharePoint Migration Tool Settings"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

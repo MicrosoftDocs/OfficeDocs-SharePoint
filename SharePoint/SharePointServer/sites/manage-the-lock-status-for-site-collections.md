@@ -1,5 +1,6 @@
 ---
 title: "Manage the lock status for site collections in SharePoint Server"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

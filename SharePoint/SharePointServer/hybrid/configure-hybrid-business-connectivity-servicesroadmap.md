@@ -1,5 +1,6 @@
 ---
 title: "Configure hybrid Business Connectivity Services - roadmap"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

@@ -1,5 +1,6 @@
 ---
 title: "Immediate translations for the Machine Translation service are disabled (SharePoint Server)"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

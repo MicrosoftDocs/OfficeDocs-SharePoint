@@ -1,5 +1,6 @@
 ---
 title: "One or more services have started or stopped unexpectedly (SharePoint Server)"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

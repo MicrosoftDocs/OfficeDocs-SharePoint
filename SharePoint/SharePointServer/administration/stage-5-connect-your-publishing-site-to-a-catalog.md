@@ -1,5 +1,6 @@
 ---
 title: "Stage 5 Connect your publishing site to a catalog in SharePoint Server"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

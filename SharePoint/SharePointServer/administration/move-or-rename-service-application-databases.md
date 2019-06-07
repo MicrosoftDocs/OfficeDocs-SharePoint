@@ -1,5 +1,6 @@
 ---
 title: "Move or rename service application databases in SharePoint Server"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

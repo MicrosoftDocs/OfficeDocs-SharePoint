@@ -1,5 +1,6 @@
 ---
 title: "Enable auto-acceleration in SharePoint Online"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen

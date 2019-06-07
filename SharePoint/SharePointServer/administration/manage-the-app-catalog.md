@@ -1,5 +1,6 @@
 ---
 title: "Manage the App Catalog in SharePoint Server"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

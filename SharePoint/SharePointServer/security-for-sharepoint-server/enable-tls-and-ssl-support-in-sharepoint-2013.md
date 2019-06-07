@@ -1,5 +1,6 @@
 ---
 title: "Enable TLS and SSL support in SharePoint 2013"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen

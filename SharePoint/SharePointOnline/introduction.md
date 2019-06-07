@@ -1,5 +1,6 @@
 ---
 title: "Introduction to SharePoint Online"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
@@ -45,7 +46,7 @@ Here are some articles that provide key information you may want to refer to dur
 |:-----|:-----|
 |What SharePoint features are available in different Office 365 plans, or how different SharePoint Online plans compare to SharePoint Server on-premises  <br/> |[SharePoint Online Service Description](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-service-description) <br/> |
 |SharePoint Online video training  <br/> |[SharePoint training](https://support.office.com/article/cb8ef501-84db-4427-ac77-ec2009fb8e23) <br/> |
-|Storage space, number of supported sitess, number of supported users  <br/> |[SharePoint Online Limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits) <br/> |
+|Storage space, number of supported sites, number of supported users  <br/> |[SharePoint Online Limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits) <br/> |
 |How to use the SharePoint Online Management Shell to perform administrative tasks from the command line  <br/> |[Getting started with the SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online) <br/> |
 |How to integrate an on-premises deployment of SharePoint Server with SharePoint Online  <br/> |[Hybrid for SharePoint Server](/sharepoint/hybrid/hybrid) <br/> |
 |Where to find partners who provide solutions or services for Office 365  <br/> |[Microsoft Partner Center](https://partnercenter.microsoft.com/pcv/search) <br/> |

@@ -1,5 +1,6 @@
 ---
 title: "Migrate to SharePoint Online"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

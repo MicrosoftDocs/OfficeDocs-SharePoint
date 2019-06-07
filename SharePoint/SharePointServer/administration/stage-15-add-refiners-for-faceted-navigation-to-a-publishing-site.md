@@ -1,5 +1,6 @@
 ---
 title: "Stage 15 Add refiners for faceted navigation to a publishing site in SharePoint Server"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

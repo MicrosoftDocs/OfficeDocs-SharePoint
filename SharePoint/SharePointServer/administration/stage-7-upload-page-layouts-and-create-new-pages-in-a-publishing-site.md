@@ -1,5 +1,6 @@
 ---
 title: "Stage 7 Upload page layouts and create new pages in a publishing site in SharePoint Server"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

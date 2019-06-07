@@ -1,5 +1,6 @@
 ---
 title: "Performance and capacity test results and recommendations (SharePoint Server 2013)"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

@@ -1,5 +1,6 @@
 ---
 title: "Search technical reference for SharePoint Server"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen

@@ -1,5 +1,6 @@
 ---
 title: "B2B Sync"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen

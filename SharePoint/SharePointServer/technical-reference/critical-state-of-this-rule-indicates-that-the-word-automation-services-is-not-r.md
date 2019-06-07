@@ -1,5 +1,6 @@
 ---
 title: "Critical state of this rule indicates that the Word Automation Services is not running when it should be running (SharePoint Server)"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

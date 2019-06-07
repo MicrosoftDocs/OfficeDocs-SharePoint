@@ -1,5 +1,6 @@
 ---
 title: "About display templates in the Content Search Web Part and other search-driven Web Parts"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: arnek

@@ -1,5 +1,6 @@
 ---
 title: "Initial deployment administrative and service accounts in SharePoint Server"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen

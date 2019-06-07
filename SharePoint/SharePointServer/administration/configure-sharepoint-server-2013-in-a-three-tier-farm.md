@@ -1,5 +1,6 @@
 ---
 title: "Test Lab Guide Configure SharePoint Server 2013 in a three-tier farm"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen

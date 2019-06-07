@@ -1,5 +1,6 @@
 ---
 title: "Change site collection version and upgrade settings"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen

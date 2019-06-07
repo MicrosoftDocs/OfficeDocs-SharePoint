@@ -1,5 +1,6 @@
 ---
 title: "Planning SharePoint Online business-to-business (B2B) extranet sites"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

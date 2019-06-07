@@ -1,5 +1,6 @@
 ---
 title: "Stsadm to Microsoft PowerShell mapping in SharePoint Server"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen

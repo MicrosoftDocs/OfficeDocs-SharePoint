@@ -1,5 +1,6 @@
 ---
 title: "Prepare to back up and restore farms in SharePoint Server"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

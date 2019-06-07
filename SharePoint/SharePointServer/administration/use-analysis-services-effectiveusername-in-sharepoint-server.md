@@ -1,5 +1,6 @@
 ---
 title: "Use Analysis Services EffectiveUserName in SharePoint Server"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

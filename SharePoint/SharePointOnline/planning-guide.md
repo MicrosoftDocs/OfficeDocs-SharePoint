@@ -1,5 +1,6 @@
 ---
 title: "SharePoint Online planning guide"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen

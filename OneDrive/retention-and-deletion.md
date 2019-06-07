@@ -1,5 +1,6 @@
 ---
 title: "OneDrive retention and deletion"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen

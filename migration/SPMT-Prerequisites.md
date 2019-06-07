@@ -1,5 +1,6 @@
 ---
 title: "SharePoint Migration Tool Prerequisites"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

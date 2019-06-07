@@ -1,5 +1,6 @@
 ---
 title: "Manage query spelling correction in SharePoint Server"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen

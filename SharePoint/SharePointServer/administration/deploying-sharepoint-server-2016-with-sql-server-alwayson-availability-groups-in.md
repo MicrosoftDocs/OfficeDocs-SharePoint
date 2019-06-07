@@ -1,5 +1,6 @@
 ---
 title: "Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure"
+ms.reviewer: 
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi

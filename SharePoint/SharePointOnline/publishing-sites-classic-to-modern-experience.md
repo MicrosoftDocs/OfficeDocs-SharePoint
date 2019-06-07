@@ -1,5 +1,6 @@
 ---
 title: Moving from Publishing sites to Communication sites
+ms.reviewer: 
 ms.author: loreenl
 author: loreenla
 manager: pamgreen

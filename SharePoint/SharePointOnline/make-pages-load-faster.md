@@ -1,5 +1,6 @@
 ---
 title: "Make pages load faster with caching in the Content Search Web Part"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: arnek

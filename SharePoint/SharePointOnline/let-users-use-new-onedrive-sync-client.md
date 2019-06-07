@@ -1,5 +1,6 @@
 ---
 title: "Let users sync SharePoint files with the new OneDrive sync client"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen

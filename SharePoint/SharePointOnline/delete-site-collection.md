@@ -1,5 +1,7 @@
 ---
 title: "Delete a site"
+ms.reviewer: 
+manager: 
 ms.author: kaarins
 author: kaarins
 audience: Admin

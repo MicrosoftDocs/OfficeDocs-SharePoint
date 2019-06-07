@@ -1,5 +1,6 @@
 ---
 title: "Create a custom ranking model by using the Ranking Model Tuning App"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: arnek

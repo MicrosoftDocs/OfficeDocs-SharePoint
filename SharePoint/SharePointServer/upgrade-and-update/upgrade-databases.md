@@ -1,5 +1,6 @@
 ---
 title: "Upgrade databases from SharePoint 2013 to SharePoint Server 2016"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen

@@ -1,5 +1,6 @@
 ---
 title: "Restore deleted sites"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen

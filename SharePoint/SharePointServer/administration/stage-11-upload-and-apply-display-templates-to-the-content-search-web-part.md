@@ -1,5 +1,6 @@
 ---
 title: "Stage 11 Upload and apply display templates to the Content Search Web Part in SharePoint Server"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

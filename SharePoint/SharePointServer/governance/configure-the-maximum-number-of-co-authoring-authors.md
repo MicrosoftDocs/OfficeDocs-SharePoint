@@ -1,5 +1,6 @@
 ---
 title: "Configure the maximum number of co-authoring authors in SharePoint Server"
+ms.reviewer: 
 ms.author: toresing
 author: tomresing
 manager: pamgreen

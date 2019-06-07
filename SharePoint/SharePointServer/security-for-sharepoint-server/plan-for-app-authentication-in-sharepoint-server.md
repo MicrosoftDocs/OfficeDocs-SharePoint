@@ -1,5 +1,6 @@
 ---
 title: "Plan for app authentication in SharePoint Server"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
