@@ -1,5 +1,6 @@
 ---
 title: "Redesign enterprise search topology for more content and users in SharePoint"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen

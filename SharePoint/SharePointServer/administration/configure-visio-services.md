@@ -1,5 +1,6 @@
 ---
 title: "Configure Visio Services"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

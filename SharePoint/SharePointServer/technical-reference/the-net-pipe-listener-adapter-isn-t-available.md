@@ -1,5 +1,6 @@
 ---
 title: "The Net.Pipe Listener Adapter isn't available (SharePoint Server)"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

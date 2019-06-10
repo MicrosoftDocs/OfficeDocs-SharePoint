@@ -1,5 +1,6 @@
 ---
 title: "Back up content databases in SharePoint Server"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

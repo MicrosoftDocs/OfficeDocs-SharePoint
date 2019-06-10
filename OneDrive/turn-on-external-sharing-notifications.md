@@ -1,5 +1,6 @@
 ---
 title: "Turn on external sharing notifications for OneDrive"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen

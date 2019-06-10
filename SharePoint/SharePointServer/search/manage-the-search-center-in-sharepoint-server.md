@@ -1,5 +1,6 @@
 ---
 title: "Manage the Search Center in SharePoint Server"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen

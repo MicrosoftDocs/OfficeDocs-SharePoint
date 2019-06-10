@@ -1,5 +1,6 @@
 ---
 title: "Create a User Profile service applications in SharePoint Server"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen

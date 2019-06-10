@@ -1,5 +1,6 @@
 ---
 title: "Plan for caching and performance in SharePoint Server"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

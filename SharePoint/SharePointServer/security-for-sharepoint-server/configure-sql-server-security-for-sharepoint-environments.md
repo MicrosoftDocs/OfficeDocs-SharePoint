@@ -1,5 +1,6 @@
 ---
 title: "Configure SQL Server security for SharePoint Server"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

@@ -1,5 +1,6 @@
 ---
 title: "Use Group Policy to control OneDrive sync client settings"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
@@ -487,6 +488,8 @@ If you disable this setting, team site libraries that you've specified won't be 
 To configure the setting, in the Options box, click **Show**, and then enter a friendly name to identify the library in the **Value Name** field and the entire library ID (tenantId=xxx&siteId=xxx&webId=xxx&listId=xxx&webUrl=httpsxxx&version=1) in the **Value** field. 
 
 To find the library ID, sign in as a global or SharePoint admin in Office 365, browse to the library, and click the **Sync** button. In the "Starting sync" dialog box, click the **Copy library ID** link.
+
+![The Getting ready to sync dialog box](media/copy-library-id.png)
 
 Enabling this policy sets the following registry key, using the entire URL from the library you copied:
 

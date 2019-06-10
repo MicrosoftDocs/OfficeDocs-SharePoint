@@ -1,5 +1,7 @@
 ---
 title: "Planning your SharePoint hub sites"
+ms.reviewer: 
+manager: 
 ms.author: kaarins
 author: kaarins
 audience: Admin
@@ -125,7 +127,7 @@ You don't have to have a hub site for every function. However, when a function p
 Some organizational functions have an enterprise-wide scope but a regional or product execution. For example, think about a Sales department that may have sites for sales regions and sites for location-based offices. This type of function has always presented a challenge to hierarchical intranet content organization using subsites. Do we make the Southeast Sales site a subsite of the Southeast Region site or the Sales site? And, what happens when a state within the southeast region moves; for example, from the southeast region to the northeast region? This type of dynamic organizational movement creates a nightmare for intranet organization if you use subsites, but not with hub sites. Picking a hub may create some angst because an individual site can be associated with only one hub, but keep in mind that news, activity, and highlighted content is based on search, so it's possible to have content from one site appear on multiple hub home pages. A hub will default to only showing content from its own associated sites, but it's easy to configure it to include other related sites as well, even if those sites are associated with different hubs.
   
 > [!NOTE]
-> Initially, your organization is limited to 100 hub sites. You may not need a hub site for every function, so it's important to do some planning before you create hubs. 
+> Your organization is limited to 2,000 hub sites. You may not need a hub site for every function and it's important to do some planning before you create hubs. 
   
 There is no "one size fits all" way to determine how to align sites to a hub in this scenario. Always start by answering these questions:
   

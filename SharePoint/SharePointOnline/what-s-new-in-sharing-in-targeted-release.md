@@ -1,5 +1,6 @@
 ---
 title: "Secure external sharing in SharePoint Online"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

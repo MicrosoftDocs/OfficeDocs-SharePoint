@@ -1,5 +1,6 @@
 ---
 title: "Manage result types"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
@@ -36,9 +37,9 @@ There are many preconfigured result types to choose from, and you can also creat
 
 1. Go to the **Manage Result Types** page for a site collection or a site: 
     
-  - For a site collection, go to **Settings**, click **Site settings** and then under **Site Collection Administration**, click **Search Result Types**.
+  - For a site collection, in your site collection, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**. Under **Site Collection Administration**, select **Search Result Types**.
     
-  - For a site, go to **Settings**, click **Site settings**, and then under **Search**, click **Result Types**.
+  - For a site, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**. Under **Search**, select **Result Types**.
     
 2. On the **Manage Result Types** page, do one of the following: 
     

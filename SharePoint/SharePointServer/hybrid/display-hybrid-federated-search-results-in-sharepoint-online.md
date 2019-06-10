@@ -1,5 +1,6 @@
 ---
 title: "Display hybrid federated search results in SharePoint Online"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
@@ -49,7 +50,7 @@ In this procedure, you create a result source in SharePoint Online. This result 
     
 Result sources can be created at the SharePoint Admin Center level, the site collection level, or the site level. In this procedure, you create the result source at the SharePoint Admin Center level. This makes the result source available to any query rule that is created at the same level, and also to any query rule that is created for a site collection or site.
   
-For more information about result sources, see [Understanding result sources](http://office.microsoft.com/en-us/support/sharepoint-help/sharepointsearch/understanding-result-sources-HA102848849.aspx?CTT=5&amp;origin=HA103639370) and [Manage result sources](https://go.microsoft.com/fwlink/p/?LinkId=294360).
+For more information about result sources, see [Understanding result sources](http://office.microsoft.com/support/sharepoint-help/sharepointsearch/understanding-result-sources-HA102848849.aspx?CTT=5&amp;origin=HA103639370) and [Manage result sources](https://docs.microsoft.com/sharepoint/manage-result-sources).
   
 1. Verify that the user account that you use to perform this procedure is a global administrator for the Office 365 subscription that you want to configure.
     

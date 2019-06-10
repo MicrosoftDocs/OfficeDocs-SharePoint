@@ -1,5 +1,6 @@
 ---
 title: "Create the SharePoint 2013 farm for a database attach upgrade"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen

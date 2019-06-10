@@ -1,5 +1,6 @@
 ---
 title: "Create and deploy custom entity extractors in SharePoint Server"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen

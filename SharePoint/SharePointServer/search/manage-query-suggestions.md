@@ -1,5 +1,6 @@
 ---
 title: "Manage query suggestions in SharePoint Server"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen

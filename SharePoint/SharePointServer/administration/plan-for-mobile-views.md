@@ -1,5 +1,6 @@
 ---
 title: "Plan for mobile views in SharePoint Server 2013"
+ms.reviewer: 
 ms.author: toresing
 author: tomresing
 manager: pamgreen

@@ -1,5 +1,6 @@
 ---
 title: "Remove search results"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: arnek

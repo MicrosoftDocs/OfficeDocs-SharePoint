@@ -1,5 +1,6 @@
 ---
 title: "Export and import customized search configuration settings"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
@@ -79,7 +80,7 @@ If the import fails, remove the condition that caused the failure and reimport t
 ## Export customized search configuration settings from a site
 <a name="__toc351540660"> </a>
 
-1. On your site, in the **Settings** menu, select **Site Settings**.
+1. On the site, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**.
     
 2. On the **Site Settings** page, in the **Search** section, select **Configuration Export**.
     
@@ -88,7 +89,7 @@ If the import fails, remove the condition that caused the failure and reimport t
 ## Export customized search configuration settings from a site collection
 <a name="__toc351540661"> </a>
 
-1. In the site collection, on the **Settings** menu, select **Site Settings**. 
+1. On the site, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**.
     
 2. On the **Site Settings** page, in the **Site Collection Administration** section, select **Search Configuration Export**.
     
@@ -121,7 +122,7 @@ If the import fails, remove the condition that caused the failure and reimport t
 ## Import customized search configuration settings to a site
 <a name="__toc351540663"> </a>
 
-1. On your site, in the **Settings** menu, select **Site Settings**.
+1. On the site, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**.
     
 2. On the **Site Settings** page, in the **Search** section, select **Configuration Import**.
     
@@ -140,7 +141,7 @@ If the import fails, remove the condition that caused the failure and reimport t
 ## Import customized search configuration settings to a site collection
 <a name="__toc351540664"> </a>
 
-1. In the site collection, in the **Settings** menu, select **Site Settings**.
+1. On the site, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**.
     
 2. On the **Site Settings** page, in the **Site Collection Administration** section, select **Search Configuration Import**.
     

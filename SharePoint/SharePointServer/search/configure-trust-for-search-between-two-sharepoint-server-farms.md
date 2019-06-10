@@ -1,5 +1,6 @@
 ---
 title: "Configure trust for search between two SharePoint Server farms"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen

@@ -1,5 +1,6 @@
 ---
 title: "Manage user profiles in the SharePoint admin center"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen

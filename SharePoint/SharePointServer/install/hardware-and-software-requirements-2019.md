@@ -1,5 +1,6 @@
 ---
 title: "Hardware and software requirements for SharePoint Server 2019"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
@@ -94,6 +95,8 @@ One of the following:
 - Microsoft SQL Server 2016 RTM Standard or Enterprise Editions
     
 - Microsoft SQL Server 2017 RTM Standard or Enterprise Editions for Windows
+
+- Microsoft Azure SQL Managed Instance (MI) - For more information, see [Deploy Azure SQL Managed Instance with SharePoint Servers 2016 and 2019](../administration/deploy-azure-sql-managed-instance-with-sharepoint-servers-2016-2019.md).
     
 > [!NOTE]
 > SQL Server products and all future public updates are supported through the SQL Server product lifecycle. 

@@ -1,5 +1,6 @@
 ---
 title: "Configure the co-authoring versioning period in SharePoint Server"
+ms.reviewer: 
 ms.author: toresing
 author: tomresing
 manager: pamgreen

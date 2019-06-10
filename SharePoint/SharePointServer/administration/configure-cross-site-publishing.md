@@ -1,5 +1,6 @@
 ---
 title: "Configure cross-site publishing in SharePoint Server"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
@@ -24,7 +25,7 @@ Before you configure cross-site publishing, make sure that you understand the co
 <a name="BKMK_Accessibility"> </a>
 
 > [!NOTE]
->  Because SharePoint Server runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server supports the accessibility features of supported browsers. For more information, see the following resources: > [Plan browser support](https://go.microsoft.com/fwlink/p/?LinkId=246502)> [Accessibility for SharePoint 2013](/SharePoint/accessibility-guidelines)> [Accessibility features in SharePoint 2013 Products](https://go.microsoft.com/fwlink/p/?LinkId=246501)> [Keyboard shortcuts](https://go.microsoft.com/fwlink/p/?LinkID=246504)> [Touch](https://go.microsoft.com/fwlink/p/?LinkId=246506)
+>  Because SharePoint Server runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server supports the accessibility features of supported browsers. For more information, see the following resources: > [Plan browser support in SharePoint 2013](https://go.microsoft.com/fwlink/p/?LinkId=246502)> [Accessibility guidelines in SharePoint Server 2016](https://docs.microsoft.com/en-us/sharepoint/accessibility-guidelines)> [Accessibility features in SharePoint Online](https://go.microsoft.com/fwlink/p/?LinkId=246501)> [Keyboard shortcuts](https://support.office.com/en-us/article/keyboard-shortcuts-86d68234-7f1a-40fc-a3d6-4c39c7a5ddaf?ocmsassetID=HA010369395&CorrelationId=1313c2d0-6e28-43a4-bc2b-d7be614597f3&ui=en-US&rs=en-US&ad=US)> [Windows Touch Gestures Overview](https://go.microsoft.com/fwlink/p/?LinkId=246506)
   
 ## Create site collections for cross-site publishing
 <a name="BKMK_Create_site_collections"> </a>
@@ -68,7 +69,7 @@ Before you create content for authoring sites, review "Plan term sets for taggin
 
 You create and manage term sets by using the Term Store Management Tool. For information about how to create and manage term sets, see the following articles:
   
-- [Set up a new term set](https://office.microsoft.com/en-us/sharepoint-help/set-up-a-new-term-set-HA102922634.aspx?CTT=1)
+- [Set up a new term set](https://docs.microsoft.com/sharepoint/set-up-new-term-set)
     
 - [Create and manage terms in a term set](https://office.microsoft.com/en-us/office365-sharepoint-online-enterprise-help/create-and-manage-terms-in-a-term-set-HA102771989.aspx?CTT=1)
     

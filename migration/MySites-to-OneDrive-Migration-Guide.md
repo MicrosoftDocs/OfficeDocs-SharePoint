@@ -1,5 +1,6 @@
 ---
 title: "MySites to OneDrive and SharePoint Migration Guide"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
@@ -67,7 +68,7 @@ Your environment will not be impacted while SMAT performs a scan of your environ
 |**Scan**|**Description**|
 |:-----|:-----|:-----|
 |**File Versions** |The more versions of a file you have, the longer it will take to migrate. Note: By default, versioning is enabled for all lists and libraries on the target platform. In the destination SPO site, there is no limit when versioning is enabled.</br></br>[Learn more](https://docs.microsoft.com/en-us/sharepointmigration/migration-assessment-scan-file-versions)|
-|**Large Lists** |Lists over 20,000 items have caused issues with migration, making it more difficult to predict how long it takes to migrate sites. List data is migrated, but the larger the list the more unpredictable the migration process has proven. Extremely large lists can result in an extended migration.</br></br>[Learn more](https://docs.microsoft.com/en-us/sharepointmigration/migration-assessment-scan-large-list)|
+|**Large Lists** |Lists over 20,000 items have caused issues with migration, making it more difficult to predict how long it takes to migrate sites. List data is migrated, but the larger the list the more unpredictable the migration process has proven. Extremely large lists can result in an extended migration.</br></br>[Learn more](https://docs.microsoft.com/en-us/sharepointmigration/migration-assessment-scan-large-lists).|
 |**Long OneDrive URLs** |Content with long URLs exceeding the limit will be skipped.  They will not migrate.</br></br>[Learn more](https://docs.microsoft.com/en-us/sharepointmigration/migration-assessment-scan-long-onedrive-urls)|
 |**Checked out files** |Only checked-in content will be migrated. Have users check in their files prior to migration to avoid data loss.</br></br>[Learn more](https://docs.microsoft.com/en-us/sharepointmigration/migration-assessment-scan-checked-out-files)|
 |**Large Excel Files** |If you attempt to open a file larger than 10MB from OneDrive (online), it will prompt you to open the file in the Excel client application.</br></br>[Learn more](https://docs.microsoft.com/en-us/sharepointmigration/migration-assessment-scan-large-excel-files)|

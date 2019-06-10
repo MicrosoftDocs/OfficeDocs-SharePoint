@@ -1,5 +1,6 @@
 ---
 title: "Automatic Update setting inconsistent across farm servers (SharePoint Server 2016)"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

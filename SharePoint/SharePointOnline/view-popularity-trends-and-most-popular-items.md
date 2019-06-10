@@ -1,5 +1,6 @@
 ---
 title: "View Popularity Trends and Most Popular Items"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
@@ -27,7 +28,7 @@ You can also view the [most popular items](view-popularity-trends-and-most-popul
 ## View Popularity Trends for a site
 <a name="__view_popularity_trends_1"> </a>
 
-1. On the site, click **Settings** \> **Site Settings**.
+1. On the site, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**.
     
 2. Under **Site Administration**, click **Popularity Trends**.
     
@@ -38,7 +39,7 @@ You can also view the [most popular items](view-popularity-trends-and-most-popul
 ## View Popularity Trends for a site collection
 <a name="__view_popularity_trends_2"> </a>
 
-1. In the site collection, click **Settings** \> **Site Settings**.
+1. On the site, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**.
     
 2. Under **Site Collection Administration**, click **Popularity and Search Reports**.
     

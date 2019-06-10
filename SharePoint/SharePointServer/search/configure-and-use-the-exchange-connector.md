@@ -1,5 +1,6 @@
 ---
 title: "Configure and use the Exchange connector for SharePoint Server"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen

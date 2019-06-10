@@ -1,5 +1,6 @@
 ---
 title: "Create web applications that use classic mode authentication in SharePoint Server"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen

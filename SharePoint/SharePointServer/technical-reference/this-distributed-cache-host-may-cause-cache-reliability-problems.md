@@ -1,5 +1,6 @@
 ---
 title: "This Distributed Cache host may cause cache reliability problems (SharePoint Server)"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

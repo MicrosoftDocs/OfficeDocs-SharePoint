@@ -1,5 +1,6 @@
 ---
 title: "Testing WAN connections for SharePoint 2013 architectures"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

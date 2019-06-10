@@ -1,9 +1,9 @@
 ---
 title: "What's new"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
-ms.date: 2/6/2018
 audience: ITPro
 ms.topic: hub-page
 ms.prod: sharepoint-server-itpro

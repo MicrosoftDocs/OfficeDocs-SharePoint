@@ -1,5 +1,6 @@
 ---
 title: "Firewall client settings on the cache host are incorrect (SharePoint Server)"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

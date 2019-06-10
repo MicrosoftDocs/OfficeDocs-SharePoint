@@ -1,5 +1,6 @@
 ---
 title: "Set up SharePoint services for hybrid environments"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

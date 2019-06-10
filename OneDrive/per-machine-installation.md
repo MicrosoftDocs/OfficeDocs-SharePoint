@@ -1,5 +1,6 @@
 ---
 title: "Install the sync client per machine"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
@@ -66,8 +67,20 @@ The sync client is an extension of the service and a very thin client so auto-up
 User intervention is not required for the per-machine sync client to update itself. Elevation is required when you first set it up. During setup, we install a scheduled task and a Windows service, which are used to perform the updates silently without user intervention since they run in elevated mode.
 
 **How do I revert back to the per-user sync client if required?** 
-We do not support automated migration from per-machine to per-user. To revert back after installing per-machine, please uninstall the sync client and [install the latest released version](https://go.microsoft.com/fwlink/?linkid=844652) without the “/allusers” parameter.  
- 
+We do not support automated migration from per-machine to per-user. To revert back after installing per-machine, please uninstall the sync client and [install the latest released version](https://go.microsoft.com/fwlink/?linkid=844652) without the “/allusers” parameter.
+
+**How can I detect the installation through SCCM?** 
+
+For SCCM, to detect the install we used the following two registry detection rules with an OR() connector;
+
+
+[HKLM\SOFTWARE\Wow6432Node\Microsoft\OneDrive]"1111-2222-3333-4444"=dword:0005000
+
+HKLM\SOFTWARE\Wow6432Node\Microsoft\OneDrive | Version | 32bit on 64bit TRUE | Type=Version | = 19.043.0304.0007
+HKLM\SOFTWARE\Microsoft\OneDrive | Version | 32bit on 64bit FALSE | Type=Version | = 19.043.0304.0007
+
+This allows the per-machine version to be detected independent of the underlying client architecture.
+
 
   
 

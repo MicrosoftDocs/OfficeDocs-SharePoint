@@ -1,5 +1,6 @@
 ---
 title: "Dedicated crawl target configuration has one or more invalid servers (SharePoint Server)"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

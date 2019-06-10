@@ -1,5 +1,6 @@
 ---
 title: "Expired sessions are not being deleted from the ASP.NET Session State database (SharePoint Server)"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

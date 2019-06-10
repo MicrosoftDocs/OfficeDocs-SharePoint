@@ -1,5 +1,6 @@
 ---
 title: "View and configure usage analytics reports in SharePoint Server"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

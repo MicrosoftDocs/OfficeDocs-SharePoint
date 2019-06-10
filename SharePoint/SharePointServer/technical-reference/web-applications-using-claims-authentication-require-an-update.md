@@ -1,5 +1,6 @@
 ---
 title: "Web Applications using Claims authentication require an update (SharePoint Server)"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

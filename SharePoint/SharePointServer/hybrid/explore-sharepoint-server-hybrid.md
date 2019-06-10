@@ -1,5 +1,6 @@
 ---
 title: "Explore SharePoint Server hybrid"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

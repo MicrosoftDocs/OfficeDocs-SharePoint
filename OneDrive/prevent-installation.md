@@ -1,5 +1,6 @@
 ---
 title: "Prevent users from installing the OneDrive sync client"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen

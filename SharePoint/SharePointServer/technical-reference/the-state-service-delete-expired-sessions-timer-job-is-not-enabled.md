@@ -1,5 +1,6 @@
 ---
 title: "The State Service Delete Expired Sessions timer job is not enabled (SharePoint Server)"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

@@ -1,5 +1,6 @@
 ---
 title: "Install prerequisites for SharePoint Server from a network share"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen

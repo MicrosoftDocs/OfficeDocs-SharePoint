@@ -1,5 +1,6 @@
 ---
 title: "Integrating social media with public-facing websites in SharePoint"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
@@ -209,7 +210,7 @@ Facebook offers several standard plugins that you can use to integrate with Face
 
 When integrating with Facebook, you can add one or more widgets to your website. Although this will allow your visitors to interact with your website using Facebook plugins, it will give you very little feedback about how your visitors use the social media capabilities that you have provided them with. The great news is that if you want to learn more information about the usage of Facebook social plugins on your website, you can benefit from the Insights capability that Facebook offers you. After registering your website as a Facebook application and including the application ID in your website, you'll be able to access analytics information about the usage of Facebook on your website from all the widgets.
   
-More information, see [Facebook Insights](https://go.microsoft.com/fwlink/p/?LinkId=400788).
+More information, see [Facebook Insights](https://www.facebook.com/business/news/audience-insights).
   
 ## Like Button
 

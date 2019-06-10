@@ -1,5 +1,6 @@
 ---
 title: "The paging file size should exceed the amount of physical RAM in the system (SharePoint Server)"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

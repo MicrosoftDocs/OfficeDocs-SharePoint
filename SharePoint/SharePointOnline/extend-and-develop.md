@@ -1,5 +1,6 @@
 ---
 title: "Plan customizations, solutions, and apps for SharePoint Online"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen

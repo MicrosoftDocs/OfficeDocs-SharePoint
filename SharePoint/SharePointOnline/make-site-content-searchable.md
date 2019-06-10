@@ -1,5 +1,6 @@
 ---
 title: "Enable content on a site to be searchable"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
@@ -12,12 +13,12 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: 2a420d01-4706-4d23-980e-c4c877113670
-description: "Change search settings to control whether or not content on a site may appear in search results."
+description: "Change search settings to control whether content on a site can appear in search results."
 ---
 
 # Enable content on a site to be searchable
 
-When users search on a site, results can come from many places such as columns, libraries, and pages. A site owner can change search settings to decide whether or not content is allowed to appear in search results. Permissions on content also affects whether users are allowed to see the content in search results. A good understanding of how permissions and search settings work can help you ensure that users can see the right documents and sites in the search results.
+When users search on a site, results can come from many places such as columns, libraries, and pages. A site owner can change search settings to decide whether content is allowed to appear in search results. Permissions on content also affect whether users are allowed to see the content in search results. A good understanding of how permissions and search settings work can help you ensure that users can see the right documents and sites in the search results.
   
 > [!NOTE]
 > Search results are always security trimmed, so users will only see content they have permission to see. The search settings only define what content is included in the search index. 
@@ -25,9 +26,9 @@ When users search on a site, results can come from many places such as columns, 
 ## Plan to make your content available in search results
 <a name="__toc356211699"> </a>
 
-As a site owner you can use settings to control whether or not content appears in search results. Content is stored in many places including sites, lists, libraries, Web Parts, and columns. By default, most content contained in a site, list, library, Web Part page, or column will be crawled and added to the search index. What's in the search index decides what content can appear in search results. The permissions that are set on items, lists, libraries, sites, and so forth, also affect whether or not users can see the content in search results.
+As a site owner, you can use settings to control whether content can appear in search results. Content is stored in many places including sites, lists, libraries, Web Parts, and columns. By default, most content contained in a site, list, library, Web Part page, or column will be crawled and added to the search index. What's in the search index decides what content can appear in search results. The permissions that are set on items, lists, libraries, sites, and so forth, also affect whether users can see the content in search results.
   
-Site owners and site collection administrators can choose whether or not content can appear in search results. By default, the content of a site can appear in search results. If a site owner or site collection administrator specifies that the content from a particular site can't appear in search results, then the other search results settings such as those for lists, libraries, ASPX pages, and columns set on that site wouldn't have any effect.
+Site owners and site collection administrators can choose whether content can appear in search results. By default, the content of a site can appear in search results. If a site owner or site collection administrator specifies that the content from a particular site can't appear in search results, then the other search results settings such as those for lists, libraries, ASPX pages, and columns set on that site wouldn't have any effect.
   
 Similarly, if a site owner or site collection administrator prevents list or library content from appearing in search results, then excluding columns wouldn't have any effect. It's important to know what settings are inherited from higher levels in order to plan search effectively
   
@@ -45,12 +46,12 @@ See also: [Default SharePoint Groups in SharePoint Online](default-sharepoint-gr
 ## Show content on a site in search results
 <a name="__toc356211701"> </a>
 
-As a site owner, you can choose whether or not the content on your site can appear in search results. By default, all site content can appear in search results. The person who's viewing search results must have permission to view the content.
+As a site owner, you can choose whether the content on your site can appear in search results. By default, all site content can appear in search results. The person who's viewing search results must have permission to view the content.
   
 > [!NOTE]
 > To change this setting, you must have the Manage Permissions permission level. This permission level is included in the " *Site Name*  " Owner group. 
   
-1. On the site, click **Settings** \> **Site Settings**.
+1. On the site, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**.
     
 2. Under **Search**, click **Search and offline availability**.
     
@@ -68,7 +69,7 @@ As a site owner, you can decide whether items in lists and libraries on your sit
   
 1. On the site, find and click the list or library you want to customize.
     
-2. Click **Settings** \> **Site Settings**.
+2. Select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**.
     
 3. Under **Site Administration**, click **Site Libraries and lists**.
     
@@ -89,12 +90,12 @@ By default, when a Web Part displayed on an ASPX page uses information from a li
   
 For example, let's say five documents are displayed in a Shared Documents Web Part on a team site with 50 members. One of the documents has restricted permissions; only a few people are allowed to see it. Content is automatically hidden from that site in search results so that the content from that document does not appear when users search. This prevents the content of the ASPX page from unintentionally being exposed to people who are not supposed to see it.
   
-You have the option of ignoring this setting to display all content in search results regardless of permissions. In this case, all content can appear in the search results, but unauthorized users will not be able to access the actual documents. Another option is to not to include any ASPX content in search results, regardless of permissions.
+You have the option of ignoring this setting to display all content in search results regardless of permissions. In this case, all content can appear in the search results, but unauthorized users will not be able to access the actual documents. Another option is to not include any ASPX content in search results, regardless of permissions.
   
 > [!NOTE]
 > To change this setting, you must have the Manage Permissions permission level. This permission level is included in the " *Site Name*  " Owner group. 
   
-1. On the site, click **Settings** \> **Site Settings**.
+1. On the site, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**.
     
 2. Under **Search**, click **Search and offline availability**.
     
@@ -114,7 +115,7 @@ As a site owner you can control whether the content in specific columns in lists
 > [!NOTE]
 > To change this setting, you must have the Manage Permissions permission level. This permission level is included in the  *"Site Name"*  Owner group. 
   
-1. On the site that contains the list or library, click **Settings** \> **Site Settings**.
+1. On the site that contains the list or library, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**.
     
 2. Under **Search**, click **Searchable columns**.
     
@@ -126,7 +127,7 @@ As a site owner you can control whether the content in specific columns in lists
 ## Crawl and re-index a site
 <a name="__toc356211705"> </a>
 
-When people search for content on your SharePoint sites, what's in your search index decides what they'll find. The search index contains information from all documents and pages on your site In SharePoint Online, content is automatically crawled based on a defined crawl schedule. The crawler picks up content that has changed since the last crawl and updates the index.
+When people search for content on your SharePoint sites, what's in your search index decides what they'll find. The search index contains information from all documents and pages on your site. In SharePoint Online, content is automatically crawled based on a defined crawl schedule. The crawler picks up content that has changed since the last crawl and updates the index.
   
 In some cases, you may want to specifically request a full re-indexing of a site. See [Manually request crawling and re-indexing of a site](crawl-site-content.md) for more information. 
   

@@ -1,5 +1,6 @@
 ---
 title: "Alternate access URLs have not been configured (SharePoint Server)"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

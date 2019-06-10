@@ -1,5 +1,6 @@
 ---
 title: "Monitor apps for your SharePoint Online environment"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen

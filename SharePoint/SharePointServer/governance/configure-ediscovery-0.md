@@ -1,5 +1,6 @@
 ---
 title: "Configure eDiscovery in SharePoint Server"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
@@ -37,6 +38,7 @@ If you will use a SharePoint eDiscovery Center to discover content in Exchange S
   
 > [!IMPORTANT]
 > To discover content in Exchange Server from a SharePoint eDiscovery Center, you must be running Exchange Server versions 2019, 2016, or 2013. 
+  
   
 Perform the following steps:
   

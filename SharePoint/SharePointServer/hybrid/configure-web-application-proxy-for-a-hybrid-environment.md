@@ -1,5 +1,6 @@
 ---
 title: "Configure Web Application Proxy for a hybrid environment"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

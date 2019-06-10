@@ -1,5 +1,6 @@
 ---
 title: "Plan hybrid profiles"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
@@ -57,7 +58,7 @@ For more information about the bulk update API, see [Introducing Bulk UPA Custom
 ## Working with Delve in SharePoint hybrid deployments
 <a name="MovingProfileData"> </a>
 
-If Delve is part of your Office 365 tenant, user profiles will be integrated with Delve, otherwise you'll have standard Office 365 profiles. If you haven't used Delve before, you'll want to [learn more about it](/article/what-is-office-delve-1315665a-c6af-4409-a28d-49f8916878ca?ui=en-US&rs=en-US&ad=US) and [how to administer it](/sharepoint/delve-for-office-365-admins). Delve user profiles contain the same properties as SharePoint Online profiles and can be imported in the same manner, as described above in [Moving custom profile properties to Office 365](plan-hybrid-profiles.md#MovingProfileData).
+If Delve is part of your Office 365 tenant, user profiles will be integrated with Delve, otherwise you'll have standard Office 365 profiles. If you haven't used Delve before, you'll want to [learn more about it](https://support.office.com/article/What-is-Office-Delve-1315665a-c6af-4409-a28d-49f8916878ca) and [how to administer it](/sharepoint/delve-for-office-365-admins). Delve user profiles contain the same properties as SharePoint Online profiles and can be imported in the same manner, as described above in [Moving custom profile properties to Office 365](plan-hybrid-profiles.md#MovingProfileData).
   
 ## Setting up hybrid profiles
 <a name="MovingProfileData"> </a>

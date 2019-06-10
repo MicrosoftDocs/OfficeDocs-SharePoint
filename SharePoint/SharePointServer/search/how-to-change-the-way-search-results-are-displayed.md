@@ -1,5 +1,6 @@
 ---
 title: "How to change the way search results are displayed in SharePoint Server"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen

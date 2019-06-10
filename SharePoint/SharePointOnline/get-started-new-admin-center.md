@@ -1,5 +1,6 @@
 ---
 title: "Get started with the new SharePoint admin center"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen

@@ -1,5 +1,6 @@
 ---
 title: "How to use the Managed Solutions Gallery"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen

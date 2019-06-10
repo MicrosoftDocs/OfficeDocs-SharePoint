@@ -1,5 +1,6 @@
 ---
 title: "The Security Token Service is not available (SharePoint Server)"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

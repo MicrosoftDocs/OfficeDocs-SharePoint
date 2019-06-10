@@ -1,5 +1,6 @@
 ---
 title: "SharePoint Online admin"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
