@@ -51,7 +51,7 @@ Example: `Add-SPOOrgAssetsLibrary -LibraryURL https://contoso.sharepoint.com/sit
 > Adding an organization assets library will enable a content delivery network (CDN) for your organization to provide fast and reliable performance for shared assets. You'll be prompted to enable CDN for each organization asset library you add. [More information about CDNs](https://go.microsoft.com/fwlink/?linkid=2077392)
 
  
-Other useful commands: 
+## Related commands 
 
 - See all organization asset libraries on the site: `Get-SPOOrgAssetsLibrary` 
 - Update thumbnail URL: `Set-SPOOrgAssetsLibrary [[-LibraryURL] <Object>] [[-ThumbnailURL] <Object>]` 
