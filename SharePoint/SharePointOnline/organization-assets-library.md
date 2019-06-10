@@ -20,7 +20,7 @@ description: "Specify a library as a location for assets that are centrally stor
 If your organization needs to store and manage files like templates, photos, or logos centrally for all your users to use, you can specify one or more document libraries as an "organization assets library."
 
 > [!NOTE]
-> Currently, all organization asset libraries must be on the same site.  
+> Currently, all organization asset libraries must be on the same site. <br>This feature is not available for Office 365 Germany, Office 365 operated by 21Vianet (China), or Office 365 US Government plans.  
 
 When a user adds a web part to any modern page in SharePoint and that web part opens the file picker, the user can select "Your organization" in the left pane to browse the libraries you've specified. 
 
@@ -40,13 +40,17 @@ When a user adds a web part to any modern page in SharePoint and that web part o
     Add-SPOOrgAssetsLibrary [[-LibraryURL] <Object>] [[-ThumbnailURL] <Object>] 
     ```
 
+(Where ThumbnailURL is an image file that you want to appear in the file picker. The image must be on the same site as the library.)
+
+Example: `Add-SPOOrgAssetsLibrary -LibraryURL https://contoso.sharepoint.com/sites/branding/Products -ThumbnailURL https://contoso.sharepoint.com/sites/branding/Products/surfacestudio.jpg`    
+
 > [!NOTE]
 > We use a content delivery network (CDN) for organization assets to provide improved performance. Assets are stored on servers closer to the browsers requesting them, which helps speed up downloads and reduce latency. This won't affect other aspects of your organization unless you explicitly opt in. When you specify your first organization assets library, you'll see two confirmations - one to allow CDN in your organization, and another to specifically enable CDN for that library. For every new library you add, you'll see a confirmation to specifically enable CDN for that library. 
-Example: `Add-SPOOrgAssetsLibrary -LibraryURL https://contoso.sharepoint.com/sites/branding/Products -ThumbnailURL https://contoso.sharepoint.com/sites/branding/Products/surfacestudio.jpg`    
+
  
 Other useful commands: 
 
-- See existing associated libraries, if any: `Get-SPOOrgAssetsLibrary` 
+- See all organization asset libraries on the site: `Get-SPOOrgAssetsLibrary` 
 - Update thumbnail URL: `Set-SPOOrgAssetsLibrary [[-LibraryURL] <Object>] [[-ThumbnailURL] <Object>]` 
 - Remove a library: `Remove-SPOOrgAssetsLibrary [[-LibraryURL] <Object>]` 
  
