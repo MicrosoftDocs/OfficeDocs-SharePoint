@@ -1,10 +1,11 @@
 ---
 title: "Manage query rules"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
 ms.date: 6/29/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
@@ -45,9 +46,9 @@ You can add several individual promoted results. When there is more than one pro
     
   - For a tenant, in the classic SharePoint admin center, select **search** in the left pane, and then on the search administration page, select **Manage Query Rules**
     
-  - For a site collection, in your site collection, go to **Settings**, select **Site settings** and then under **Site Collection Administration**, select **Search Query Rules**.
+  - For a site collection, in your site collection, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**. Under **Site Collection Administration**, select **Search Query Rules**.
     
-  - For a site, go to **Settings**, select **Site settings**, and then under **Search**, select **Query Rules**.
+  - For a site, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**. Under **Search**, select **Query Rules**.
     
 2. On the **Manage Query Rules** page, in the **Select a Result Source** list, select a result source for the new query rule. 
     
@@ -186,7 +187,7 @@ You can also dynamically change the sorting order of the search results, based o
 
 Query rules that are created at the tenant level are inherited by site collections and sites. Similarly, query rules that are created at the site collection level are inherited by sites in the site collection. If you don't want a query rule to apply to a site that inherits it, you can make the query rule inactive for the site.
   
-1. On your site, in the **Settings** menu, click **Site Settings**. 
+1. On your site, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**. 
     
 2. On the **Site Settings** page, in the **Search** section, click **Query Rules**.
     
@@ -199,7 +200,7 @@ Query rules that are created at the tenant level are inherited by site collectio
 
 When multiple query rules are active for a tenant, a site collection, or a site, more than one rule can fire for a query that is performed at that level. By default, the rules don't fire in a given order. However, if you want to control the order in which the rules fire, you have to add the query rules that you create to query groups. To do this, you select rules to add to a group, and then you specify the order in which the rules in the group will fire if they're triggered. You can also prevent query rules that rank lowest in a group from firing even if they do get triggered.
   
-1. In the site collection, on the **Settings** menu, click **Site Settings**. 
+1. In the site collection, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**.
     
 2. On the **Site Settings** page, in the **Site Collection Administration** section, click **Search Query Rules**.
     
@@ -229,7 +230,7 @@ When multiple query rules are active for a tenant, a site collection, or a site,
 
 |**Query condition**|**Description**|**Configuration**|**Example**|
 |:-----|:-----|:-----|:-----|
-|**Query Matches Keyword Exactly** <br/> |The query rule fires when a query exactly matches a word or phrase that you specify.  <br/> |If the **Query exactly matches one of these phrases** text box, type one or more phrases separated by semicolons.  <br/> |Type "picture; pic" in the box. The query rule fires when a user types "picture" or "pic" in a search box. The rule doesn't fire if a user types "pictures" or "sunny picture."  <br/> |
+|**Query Matches Keyword Exactly** <br/> |The query rule fires when a query exactly matches a word or phrase that you specify.  <br/> |In the **Query exactly matches one of these phrases** text box, type one or more phrases separated by semicolons.  <br/> |Type "picture; pic" in the box. The query rule fires when a user types "picture" or "pic" in a search box. The rule doesn't fire if a user types "pictures" or "sunny picture."  <br/> |
 |Query Contains Action Term  <br/> |The query rule fires when a query contains a term for something that the user wants to do. The term must be at the beginning or end of the query.  <br/> |Enter the action term that causes the query rule to fire by doing one of the following:  <br/> Select **Action term is one of these phrases**, and type one or more phrases.  <br/> Select **Action term is an entry in this dictionary**, and then click **Import from term store**. In the dialog box, select a term from a term set, and then click **Save**.  <br/> |Type the word "download" in the **Action term is one of these phrases** box. When a user types "download Contoso Electronics datasheet" in a search box, there are chances the user isn't searching for a document that contains the words "download," "Contoso," "Electronics," and "datasheet." Instead, the user most likely wants to download a Contoso Electronics datasheet. The query rule fires, and only the words "Contoso," "Electronics," and "datasheet" are sent to the search index.  <br/> |
 |Query Matches Dictionary Exactly  <br/> |The query rule fires when the query is an exact match of a dictionary entry.  <br/> |From the **Query exactly matches an entry in this dictionary** list, select a dictionary. To specify a different dictionary, click **Import from term store**, select a term from a term set in the dialog box, and then click **Save**.  <br/> |A word that a user types in a search box perfectly matches an entry in the preconfigured **People Names** dictionary.  <br/> |
 |Query More Common in Source  <br/> |The query rule fires if users frequently sent this query from another source that you have already specified.  <br/> |In the **Query is more likely to be used in this source** list, select a result source.  <br/> |You selected **Local Video Results** in the list. The query rule fires if a user types the word "training" in a search box and if that word had already been frequently typed in a search box in the Videos vertical.  <br/> |

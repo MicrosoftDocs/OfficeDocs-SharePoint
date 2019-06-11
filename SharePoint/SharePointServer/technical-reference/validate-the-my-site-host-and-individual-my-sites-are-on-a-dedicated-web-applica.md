@@ -1,10 +1,11 @@
 ---
 title: "Validate the My Site Host and individual My Sites are on a dedicated Web application and separate URL domain (SharePoint Server)"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
 ms.date: 8/30/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: troubleshooting
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal

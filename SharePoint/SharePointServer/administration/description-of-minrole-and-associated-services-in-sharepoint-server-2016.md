@@ -1,10 +1,11 @@
 ---
 title: "Description of MinRole and associated services in SharePoint Servers 2016 and 2019"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
 ms.date: 7/24/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: overview
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal

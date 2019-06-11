@@ -1,10 +1,11 @@
 ---
 title: "Overview of managed navigation in SharePoint Server"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
 ms.date: 3/12/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -34,7 +35,7 @@ This section describes key concepts that are related to managed navigation.
 
 A term is a word or phrase that can be associated with an item in SharePoint Server. A term set is a collection of related terms. The term set that managed navigation uses to build site navigation is called a navigation term set. For more information, see [Plan for managed metadata in SharePoint Server](../governance/managed-metadata-planning.md) and [Plan managed metadata (OLD)](/previous-versions/office/sharepoint-server-2010/ee530389(v=office.14)).
   
-The navigation term set is the backbone of the managed navigation feature. By default, as you create new pages in your publishing site, new terms are automatically added to the navigation term set. For example, when you create a new page named Company History, a term named Company History is added to the navigation term set. You can choose to turn off automatic term creation on the Navigation Settings page. You can also manually add terms to the navigation term set by using the Term Store Management Tool. For more information, see [Create and manage terms in a term set](https://go.microsoft.com/fwlink/?LinkId=286809) on Office.com. 
+The navigation term set is the backbone of the managed navigation feature. By default, as you create new pages in your publishing site, new terms are automatically added to the navigation term set. For example, when you create a new page named Company History, a term named Company History is added to the navigation term set. You can choose to turn off automatic term creation on the Navigation Settings page. You can also manually add terms to the navigation term set by using the Term Store Management Tool. For more information, see [Create and manage terms in a term set](https://docs.microsoft.com/sharepoint/create-and-manage-terms). 
   
 > [!NOTE]
 > If automatic term creation is enabled, a new term will only be created if you choose **Add a page** on the **Settings** menu. Adding a page by using the **New Document** button on the **Files** tab in the ribbon does not create a new term in the navigation term set. 

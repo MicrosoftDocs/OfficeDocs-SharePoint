@@ -1,10 +1,11 @@
 ---
 title: "Overview of the SharePoint Migration Assessment Tool"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
 ms.date: 01/11/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -52,7 +53,7 @@ The tool is built to be run from within a SharePoint 2010 or 2013 farm.
 
 You can modify two config files for SMAT.
   
- **SkipSitesList.csv** is installed in same directory as SMAT.exe. Adding sites to this CSV will tell SMAT not to include these sites in the report output. See SkipSitesList.csv for examples of how to add sites to the skip list. 
+ **SiteSkipList.csv** is installed in same directory as SMAT.exe. Adding sites to this CSV will tell SMAT not to include these sites in the report output. See SiteSkipList.csv for examples of how to add sites to the skip list. 
   
  **ScanDef.json** is installed in the same directory as the SMAT tool. You can use ScanDef.json to enable or disable individual scans for the assessment tool. This file contains configurations for assessment on both SharePoint 2010 and 2013 as well as Identity Mapping. 
   

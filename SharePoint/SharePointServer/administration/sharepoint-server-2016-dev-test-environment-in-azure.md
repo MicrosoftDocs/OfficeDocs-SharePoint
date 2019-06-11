@@ -1,10 +1,11 @@
 ---
 title: "SharePoint Server 2016 dev/test environment in Azure"
+ms.reviewer: 
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: pamgreen
 ms.date: 03/15/2019
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
@@ -65,7 +66,7 @@ Set your Azure subscription with the following commands. Set the **$subscr** var
   
 ```
 $subscr="<subscription name>"
-Select-AzSubscription -SubscriptionName $subscrName -Current
+Select-AzSubscription -SubscriptionName $subscr
 ```
 
 Next, create a new resource group. To determine a unique resource group name, use this command to list your existing resource groups.
@@ -95,6 +96,7 @@ New-AzNetworkSecurityGroup -Name SP2016Subnet -ResourceGroupName $rgName -Locati
 $vnet=Get-AzVirtualNetwork -ResourceGroupName $rgName -Name SP2016Vnet
 $nsg=Get-AzNetworkSecurityGroup -Name SP2016Subnet -ResourceGroupName $rgName
 Set-AzVirtualNetworkSubnetConfig -VirtualNetwork $vnet -Name SP2016Subnet -AddressPrefix "10.0.0.0/24" -NetworkSecurityGroup $nsg
+$vnet | Set-AzVirtualNetwork
 ```
 
 Next, we create the adVM virtual machine in Azure. adVM is a domain controller for the corp.contoso.com Windows Server Active Directory (AD) domain and a DNS server for the virtual machines of the SP2016Vnet virtual network.
@@ -200,7 +202,7 @@ Connect-AzAccount
 $subscrName="<name of your Azure subscription>"
 $rgName="<your resource group name>"
 # Set the Azure subscription and location
-Select-AzSubscription -SubscriptionName $subscrName -Current
+Select-AzSubscription -SubscriptionName $subscrName
 $locName=(Get-AzResourceGroup -Name $rgName).Location
 # Create an availability set for SQL Server virtual machines
 New-AzAvailabilitySet -ResourceGroupName $rgName -Name sqlAvailabilitySet -Location $locName -Sku Aligned  -PlatformUpdateDomainCount 5 -PlatformFaultDomainCount 2
@@ -304,7 +306,7 @@ $subscrName="<name of your Azure subscription>"
 $rgName="<your resource group name>"
 $dnsName="<unique, public domain name label for the SharePoint server>"
 # Set the Azure subscription
-Get-AzSubscription -Name $subscrName | Select-AzSubscription
+Select-AzSubscription -SubscriptionName $subscrName
 # Get the location
 $locName=(Get-AzResourceGroup -Name $rgName).Location
 # Create an availability set for SharePoint virtual machines

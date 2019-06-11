@@ -1,10 +1,11 @@
 ---
 title: "Manage the search schema in SharePoint Server"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen
 ms.date: 3/8/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -218,7 +219,7 @@ You have to perform a full crawl of the content source that includes the crawled
 ## Add a managed property using tenant administration or site collection administration
 <a name="proc7"> </a>
 
-Tenant administrators and site collection administrators can create a search schema that is specific for their tenant or site collection. For more information how to manage the search schema for tenants and site collections, see [Manage the search schema in SharePoint Online](https://office.microsoft.com/redir/HA103628856.aspx).
+Tenant administrators and site collection administrators can create a search schema that is specific for their tenant or site collection. For more information how to manage the search schema for tenants and site collections, see [Manage the search schema in SharePoint Online](https://docs.microsoft.com/sharepoint/manage-search-schema).
   
 You can create new managed properties for a tenant or a site collection and map crawled properties to them. Alternatively, you can reuse existing, unused managed properties that do not have crawled properties mapped to them, and rename them using an **Alias**. Then, you must map crawled properties to the renamed managed property with the defined alias. 
   
@@ -313,13 +314,16 @@ The following table provides an overview of the default unused managed propertie
 | :------------------------ | :-------- | :------------------------------------------------------- | :--------------------------------------- |
 | Date                      | 10        | Queryable                                                | Date00 to Date09                         |
 | Date                      | 20        | Multivalued, Queryable, Refinable, Sortable, Retrievable | RefinableDate00 to RefinableDate19       |
+| Date (SharePoint Server 2019) |  2    | Queryable, Refinable, Sortable, Retrievable              | RefinableDateInvariant00 to RefinableDateInvariant01 |
+| Date (SharePoint Server 2019) |  5    | Queryable, Refinable, Sortable, Retrievable              | RefinableDateSingle00 to RefinableDateSingle04 |
 | Decimal                   | 10        | Queryable                                                | Decimal00 to Decimal09                   |
 | Decimal                   | 10        | Multivalued, Queryable, Refinable, Sortable, Retrievable | RefinableDecimal00 to RefinableDecimal09 |
 | Double                    | 10        | Queryable                                                | Double00 to Double09                     |
 | Double                    | 10        | Multivalued, Queryable, Refinable, Sortable, Retrievable | RefinableDouble00 to RefinableDouble09   |
 | Integer                   | 50        | Queryable                                                | Int00 to Int49                           |
 | Integer                   | 50        | Multivalued, Queryable, Refinable, Sortable, Retrievable | RefinableInt00 to RefinableInt49         |
-| String                    | 100       | Multivalued, Queryable, Refinable, Sortable, Retrievable | RefinableString00 to RefinableString99   |
+| String (SharePoint Server 2013) | 100 | Multivalued, Queryable, Refinable, Sortable, Retrievable | RefinableString00 to RefinableString99   |
+| String (SharePoint Server 2019) | 200 | Multivalued, Queryable, Refinable, Sortable, Retrievable | RefinableString00 to RefinableString199  |
    
  **How to use an Alias: an example**
   
@@ -352,5 +356,3 @@ Say that you want to create a managed property that contains employee numbers, a
 | Sortable                                | Enable (if not already Refinable) | Yes                                  |
 | Sortable                                | Disable                           | No                                   |
 | Alias                                   | Add/Delete                        | No                                   |
-   
-

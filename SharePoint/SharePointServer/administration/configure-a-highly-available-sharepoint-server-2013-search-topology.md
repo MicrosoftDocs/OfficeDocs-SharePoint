@@ -1,10 +1,11 @@
 ---
 title: "Test Lab Guide Configure a highly available SharePoint Server 2013 Search topology"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen
 ms.date: 12/29/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal

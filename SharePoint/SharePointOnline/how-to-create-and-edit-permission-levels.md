@@ -1,9 +1,10 @@
 ---
 title: "How to create and edit permission levels"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
@@ -38,10 +39,10 @@ You create and make changes to permission levels on the **Permissions Levels** p
   
 To create or make changes to permission levels, you must belong to a SharePoint group that includes the permission to Manage Permissions. By default, you have this permission if you belong to the Owners group or if you are a Site Collection Administrator.
   
-1. On the top-level site of the site collection, click **Settings**![Small Settings gear that took the place of Site Settings.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png).
+1. On the top-level site of the site collection, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png).
 
-  * For a Classic site, click **Site Settings**. On the **Site Settings** page, in the **Users and Permissions** section, choose **Site permissions**.
-  * For a Modern site, click **Site Permissions** followed by **Advanced permissions settings**.
+  - For a classic site, select **Site settings**. On the **Site Settings** page, in the **Users and Permissions** section, select **Site permissions**.
+  - For a modern site, select **Site permissions**, and then **Advanced permissions settings**.
     
 2. On the **Permissions** tab, in the Manage group, choose **Permission Levels**. 
     

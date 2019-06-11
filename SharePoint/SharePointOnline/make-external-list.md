@@ -1,10 +1,11 @@
 ---
 title: "Make an External List from a SQL Azure table with Business Connectivity Services and Secure Store"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
 ms.date: 6/29/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal

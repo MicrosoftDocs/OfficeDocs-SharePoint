@@ -1,10 +1,11 @@
 ---
 title: "Restricted domains sharing in SharePoint Online and OneDrive for Business"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 6/25/2018
-ms.audience: End User
+audience: End User
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal

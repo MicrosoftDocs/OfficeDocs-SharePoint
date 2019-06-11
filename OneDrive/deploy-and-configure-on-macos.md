@@ -1,9 +1,10 @@
 ---
 title: "Deploy and configure the new OneDrive sync client for Mac"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: get-started-article
 ms.service: one-drive
 localization_priority: Normal
@@ -65,6 +66,7 @@ The following table lists all the settings that are currently exposed for the On
 |SharePoint Server Front Door URL  <br/> |Specifies the SharePoint Server 2019 on-premises URL that the OneDrive sync client should try to authenticate and sync against  <br/> |SharePointOnPremFrontDoorUrl (string): The URL of the on-premises SharePoint Server.  <br/> |\<key\>SharePointOnPremFrontDoorUrl</key\> <br/>\<string\>https://Contoso.SharePoint.com\</string\> <br/> |
 |SharePoint Server Tenant Name  <br/> |Specifies the name of the folder created for syncing the SharePoint Server 2019 files specified in the Front Door URL.  <br/> | SharePointOnPremTenantName (string): The name that will be used when creating a folder to sync the on-premises SharePoint Server files. If specified, the folder names will take the form of:<br/> OneDrive – TenantName <br/> TenantName<br/> If not specified, the folder names will use the first segment of the FrontDoorURL as the Tenant Name.<br/> Example - https://Contoso.SharePoint.com will use Contoso as the Tenant Name   <br/> |\<key\>SharePointOnPremTenantName</key\> <br/> \<string\>Contoso</string\> <br/> |
 |SharePoint OnPrem Prioritization   <br/> |For hybrid scenarios where the email is the same for both SharePoint Server on-premises and SharePoint Online, determines whether or not the client should set up sync for SharePoint Server or SharePoint Online first during the first-run scenario.   <br/> |SharePointOnPremPrioritizationPolicy (int): This parameter determines which service to attempt to authenticate against for setting up sync.<br/> 1 indicates OneDrive should setup SharePoint Server on-premises first, followed by SharePoint Online.  <br/> |\<key\>SharePointOnPremPrioritizationPolicy</key\> <br/> \<int\>(0 or 1)</int\> <br/> |   
+|BlockExternalSync|Prevents the sync client from syncing libraries and folders shared from other organizations.|BlockExternalSync (Bool): Set to true to prevent syncing OneDrive for Business and SharePoint libraries and folders from organizations other than the user's own organization. Set to false or do not include the setting to allow.<br/>[Learn about OneDrive B2B Sync](b2b-sync.md).|\<key\>BlockExternalSync\</key\><br/>\<(Bool)/\>|
 
 You can also configure the OneDrive Standalone sync client to receive delayed updates.
   

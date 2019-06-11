@@ -1,9 +1,10 @@
 ---
 title: "SharePoint Online admin"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 layout: LandingPage
 ms.topic: landing-page
 ms.service: sharepoint-online

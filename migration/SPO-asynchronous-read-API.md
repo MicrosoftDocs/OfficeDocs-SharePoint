@@ -1,9 +1,10 @@
 ---
 title: "Migration Asynchronous Read API"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: Overview
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority

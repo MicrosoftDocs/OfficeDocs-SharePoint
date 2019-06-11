@@ -1,9 +1,10 @@
 ---
 title: "SharePoint Migration Tool Settings"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
@@ -36,7 +37,7 @@ The following table details the settings available in SPMT.  Advanced settings s
 
 |**Setting**|**Description**|
 |:-----|:-----|
-|Azure Active Directory lookup |By default, this is set to **On**. If no User mapping file is provided by the user, then Azure Active Directory is used as the default for user mapping.|
+|Azure Active Directory lookup |By default, this is set to **On**. If no user mapping file is provided by the user, then Azure Active Directory is used as the default for user mapping.|
 |User mapping file|By default,  *Azure AD lookup*  is used to map users when submitting migration jobs. If you wish to use your own mapping file, select the file to be used by clicking **Choose file**. If you choose to use a custom user mapping file and want to preserve user permissions, turn off  *Azure Active Directory lookup*. By doing so, if a user isn't found in the mapping file, the tool won't look it up in AAD.|
 
 
@@ -49,9 +50,9 @@ The following table details the settings available in SPMT.  Advanced settings s
 |Number of versions to migrate|Enter a number to limit the number of file versions migrated.|
 |Migrate hidden files|If set to **Off**, hidden system files will **not** be migrated. |
 |Migrate files created after|Only migrate files created after the selected date. This may be to limit the number of files migrated or to adhere to overall company governance policy regarding file retention.|
-|Migrate files modified after|Only migrate files modified after the selected date.This may be to limit the number of files migrated or to adhere to overall company governance policy regarding file retention. |
-|Do not migrate files with these extensions|Enter a list of of file extensions of the types of files you do not want to migrate. Separate each extension entered with a colon. Do not include the dot.  For example, **.txt** is entered as **txt**. </br> **Note** For files with multiple file extensions, eg. .ext1.ext2, add only the last extension, .ext2, to the exclusion list.|
-|Migrate files and folders with invalid characters|By default, the setting is set to **Off**. This is the recommended setting. The tool will attempt to move all the files without filtering on characters. If any file can't be accepted into SPO, a failure message will be generated for that file.  <br/><br/>  If set to **On**, the tool will skip any potential special characters. While this can improve performance when the source potentially contains a high number of files containing invalid characters, it also has drawbacks. To prevent malicious activities, source packages that generate more than 100 errors to the destination server will be blocked. As a result, all valid files in that package would also be blocked.  <br/> |
+|Migrate files modified after|Only migrate files modified after the selected date. This may be to limit the number of files migrated or to adhere to overall company governance policy regarding file retention. |
+|Do not migrate files with these extensions|Enter a list of file extensions of file types you do not want to migrate. Separate each extension entered with a colon. Do not include the dot.  For example, **.txt** is entered as **txt**. </br> **Note** For files with multiple file extensions, eg. .ext1.ext2, add only the last extension, .ext2, to the exclusion list.|
+|Migrate files and folders with invalid characters|By default, the setting is set to **On**. This is the recommended setting. The tool will attempt to move all the files without filtering on characters. If any file can't be accepted into SPO, a failure message will be generated for that file.  <br/><br/>  If set to **Off**, the tool will skip any potential special characters. While this can improve performance when the source potentially contains a high number of files containing invalid characters, it also has drawbacks. To prevent malicious activities, source packages that generate more than 100 errors to the destination server will be blocked. As a result, all valid files in that package would also be blocked.  <br/> |
 |Migrate OneNote folder as OneNote notebook <br/>|By default, this is set to **Off**. When set to **Off**, OneNote folders will not migrate over as a notebook.  At this time the ability to migrate notebooks on SharePoint on-premises is disabled.<br/>|
 |Filter subsites|Enter any subsite names you want to exclude from migration.|
 |Filter lists and libraries|Enter the names of the lists and libraries you want to exclude from migration.|

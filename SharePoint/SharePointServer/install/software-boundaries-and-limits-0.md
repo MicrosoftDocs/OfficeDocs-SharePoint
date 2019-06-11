@@ -1,10 +1,11 @@
 ---
 title: "Software boundaries and limits for SharePoint Servers 2016 and 2019"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
 ms.date: 01/8/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: interactive-tutorial
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority

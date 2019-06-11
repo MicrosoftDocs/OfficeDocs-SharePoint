@@ -1,9 +1,10 @@
 ---
 title: "Create a site"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 f1_keywords:
 - 'TellMe_Admin'

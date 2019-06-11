@@ -1,10 +1,11 @@
 ---
 title: "Change site collection version and upgrade settings"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
 ms.date: 6/29/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: get-started-article
 ms.service: sharepoint-online
 localization_priority: Normal

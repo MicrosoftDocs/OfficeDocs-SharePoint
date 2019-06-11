@@ -1,10 +1,11 @@
 ---
 title: "Overview of co-authoring in SharePoint Server"
+ms.reviewer: 
 ms.author: toresing
 author: tomresing
 manager: pamgreen
 ms.date: 3/7/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -77,7 +78,7 @@ Unlike Word and PowerPoint, OneNote stores version information within the file i
   
 - Do not enable minor versioning. By default, minor versioning is not enabled in SharePoint Server.
     
-- If major versioning is enabled, set a reasonable maximum number of versions to store. By default, major versioning is not enabled in SharePoint Server.
+- Major versioning is enabled in SharePoint Server by default. Set a reasonable maximum number of versions to store.  
     
 ## Performance and scalability considerations for co-authoring in SharePoint Server and SharePoint Online
 <a name="bkmk_perf"> </a>

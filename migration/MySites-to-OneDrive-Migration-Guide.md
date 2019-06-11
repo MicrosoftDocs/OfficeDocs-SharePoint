@@ -1,9 +1,10 @@
 ---
 title: "MySites to OneDrive and SharePoint Migration Guide"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
@@ -44,16 +45,6 @@ Before beginning your migration, it is important that you plan your outcome by p
 When you migrate to OneDrive using the [SharePoint Migration Tool (SPMT)](https://docs.microsoft.com/en-us/sharepointmigration/introducing-the-sharepoint-migration-tool), you will be migrating your content stored in your MySites document library into OneDrive.
 
 
-## Prepare your OneDrive environment
-Before migrating your My Sites content, you must pre-provision your users in OneDrive: 
-
-1. [Prepare to provision users through directory synchronization to Office 365](https://support.office.com/en-us/article/prepare-to-provision-users-through-directory-synchronization-to-office-365-01920974-9e6f-4331-a370-13aea4e82b3e).  Provisioning users with directory synchronization requires more planning and preparation than simply managing your work or school account directly in Office 365. The additional planning and preparation tasks are required to ensure that your on-premises Active Directory synchronizes properly to Azure Active Directory. 
-
-2. [Pre-provision OneDrive for users in your organization](https://support.office.com/en-us/article/Pre-provision-OneDrive-for-users-in-your-organization-ceef6623-f54f-404d-8ee3-3ce1e338db07).  
-By default, the first time that a user browses to their OneDrive it's automatically provisioned for them. In some cases, such as when your organization plans to migrate from your on-premises MySites, you want your users' OneDrive locations to be ready beforehand -- pre-provisioned.
-
-3. [Configure Office 365 for SharePoint Hybrid](https://docs.microsoft.com/en-us/sharepoint/hybrid/configure-office-365-for-sharepoint-hybrid) (optional). With SharePoint Server hybrid, productivity services in SharePoint Online can be integrated with on-premises SharePoint Server to provide unified functionality and access to data. For enterprises that want to gradually move their existing on-premises SharePoint Server services to the cloud, SharePoint Server hybrid provides a staged migration path by extending high-impact SharePoint Server workloads to SharePoint Online. </br></br>A SharePoint Server hybrid environment enables trusted communications between SharePoint Online and SharePoint Server. When you have established this trust framework, you can configure integrated functionality between services and features such as Search, Follow, and user profiles. You will need to set up some basic integration between Office 365 for enterprises and SharePoint Server before you can configure a hybrid environment.
-
 
 
 ## Assess and remediate your content
@@ -77,13 +68,28 @@ Your environment will not be impacted while SMAT performs a scan of your environ
 |**Scan**|**Description**|
 |:-----|:-----|:-----|
 |**File Versions** |The more versions of a file you have, the longer it will take to migrate. Note: By default, versioning is enabled for all lists and libraries on the target platform. In the destination SPO site, there is no limit when versioning is enabled.</br></br>[Learn more](https://docs.microsoft.com/en-us/sharepointmigration/migration-assessment-scan-file-versions)|
-|**Large Lists** |Lists over 20,000 items have caused issues with migration, making it more difficult to predict how long it takes to migrate sites. List data is migrated, but the larger the list the more unpredictable the migration process has proven. Extremely large lists can result in an extended migration.</br></br>[Learn more](https://docs.microsoft.com/en-us/sharepointmigration/migration-assessment-scan-large-list)|
+|**Large Lists** |Lists over 20,000 items have caused issues with migration, making it more difficult to predict how long it takes to migrate sites. List data is migrated, but the larger the list the more unpredictable the migration process has proven. Extremely large lists can result in an extended migration.</br></br>[Learn more](https://docs.microsoft.com/en-us/sharepointmigration/migration-assessment-scan-large-lists).|
 |**Long OneDrive URLs** |Content with long URLs exceeding the limit will be skipped.  They will not migrate.</br></br>[Learn more](https://docs.microsoft.com/en-us/sharepointmigration/migration-assessment-scan-long-onedrive-urls)|
 |**Checked out files** |Only checked-in content will be migrated. Have users check in their files prior to migration to avoid data loss.</br></br>[Learn more](https://docs.microsoft.com/en-us/sharepointmigration/migration-assessment-scan-checked-out-files)|
 |**Large Excel Files** |If you attempt to open a file larger than 10MB from OneDrive (online), it will prompt you to open the file in the Excel client application.</br></br>[Learn more](https://docs.microsoft.com/en-us/sharepointmigration/migration-assessment-scan-large-excel-files)|
 |**Large List Views**|In your My Site, you can configure list view throttling so there are a set number of hours per day where the throttle on views is lifted. In OneDrive, the limit is in place continuously (24x7). While your lists and data will be migrated, some of your list views be throttled.</br></br>[Learn more](https://docs.microsoft.com/en-us/sharepointmigration/migration-assessment-scan-large-list-views)|
 |**Browser File Handling**|SharePoint Server allows you to set it from “strict” to “permissive”.  However, in SharePoint Online and OneDrive, the “strict” setting is enforced and can’t be modified.  Data will be migrated, but the behavior with the HTM and HTML files will change from opening within the browser to prompting the user to download.</br></br>[Learn more](https://docs.microsoft.com/en-us/sharepointmigration/migration-assessment-scan-browser-file-handling)|
 |**InfoPath** |InfoPath lets developers build custom forms for accepting user input in a variety of locations throughout SharePoint. However,certain features of custom InfoPath forms will not be migrated.</br></br>[Learn more](https://docs.microsoft.com/en-us/sharepointmigration/migration-assessment-scan-infopath)|
+
+
+
+
+## Prepare your OneDrive environment
+Before migrating your My Sites content, you must pre-provision your users in OneDrive: 
+
+1. [Prepare to provision users through directory synchronization to Office 365](https://support.office.com/article/prepare-to-provision-users-through-directory-synchronization-to-office-365-01920974-9e6f-4331-a370-13aea4e82b3e).  Provisioning users with directory synchronization requires more planning and preparation than simply managing your work or school account directly in Office 365. The additional planning and preparation tasks are required to ensure that your on-premises Active Directory synchronizes properly to Azure Active Directory. 
+
+2. [Pre-provision OneDrive for users in your organization](https://support.office.com/article/Pre-provision-OneDrive-for-users-in-your-organization-ceef6623-f54f-404d-8ee3-3ce1e338db07).  
+By default, the first time that a user browses to their OneDrive it's automatically provisioned for them. In some cases, such as when your organization plans to migrate from your on-premises MySites, you want your users' OneDrive locations to be ready beforehand -- pre-provisioned.
+
+3. [Configure Office 365 for SharePoint Hybrid](https://docs.microsoft.com/sharepoint/hybrid/configure-office-365-for-sharepoint-hybrid) (optional). With SharePoint Server hybrid, productivity services in SharePoint Online can be integrated with on-premises SharePoint Server to provide unified functionality and access to data. For enterprises that want to gradually move their existing on-premises SharePoint Server services to the cloud, SharePoint Server hybrid provides a staged migration path by extending high-impact SharePoint Server workloads to SharePoint Online. 
+
+A SharePoint Server hybrid environment enables trusted communications between SharePoint Online and SharePoint Server. When you have established this trust framework, you can configure integrated functionality between services and features such as Search, Follow, and user profiles. You will need to set up some basic integration between Office 365 for enterprises and SharePoint Server before you can configure a hybrid environment.
 
 
 

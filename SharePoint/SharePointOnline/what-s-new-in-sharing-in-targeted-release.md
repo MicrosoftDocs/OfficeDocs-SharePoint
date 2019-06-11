@@ -1,9 +1,10 @@
 ---
 title: "Secure external sharing in SharePoint Online"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
@@ -25,7 +26,7 @@ Going forward, recipients of secure external sharing who also use Office 365 in 
   
 The procedures for sharing files and folders remain the same. They can be found in [Share SharePoint files or folders in Office 365](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c). The procedures for [changing permissions and seeing who you've shared with](https://support.office.com/article/0a36470f-d7fe-40a0-bd74-0ac6c1e13323) also remain the same, though users who use the new external sharing experience appear underneath the link that was shared with them, not as a top-level user. 
   
-Guest accounts are still used for sharing sites, and you can always add guest users to your directory if you need to give them access to more than just a file or folder. Anonymous links remain available and are unchanged.
+Guest accounts are still used for sharing sites, and you can always add guest users to your directory if you need to give them access to more than just a file or folder. "Anyone" links remain available and are unchanged.
   
 The following table shows the differences between sharing with external users with guest accounts and with ad-hoc external recipients.
   
@@ -53,5 +54,12 @@ The following table shows the differences between sharing with external users wi
 |SecureLinkDeleted  <br/> |A link that only works for specific people was deleted. It is usually preceded by a series of RemovedFromSecureLink operations which signify the users who used to be secured to the link. The value in the **Detail** column for this activity identifies the UniqueSharingId for this link which can be used to match against future AddedToSecureLink and RemovedFromSecureLink operations. <br/> |
 |AddedToSecureLink  <br/> |A link that only works for specific people was secured to a user. The value in the **Detail** column for this activity identifies the name or email of the user the link was secured to and whether this user is an external user. The value also has a UniqueSharingId column that identifies the link they were secured to.  <br/> |
 |RemovedFromSecureLink  <br/> |A user was removed from a link that only works for specific people. The value in the **Detail** column for this activity identifies the name or email of the user the link was previously secured to and whether this user is an external user. The value also has a UniqueSharingId column that identifies the link they were secured to.  <br/> |
-   
+
+> [!NOTE]
+> Secure links is a default way to allow external recipients to access files and folders securely without requiring them to create or maintain a Microsoft account. Email-based verification codes are a simple and effective way to provide secure access, familiar to users who access secure internet sites that verify identity by sending a code by email or text message.
+
+## See also
+[External sharing overview](external-sharing-overview.md)
+
+[Secure SharePoint Online sites and files](/office365/securitycompliance/secure-sharepoint-online-sites-and-files)
 

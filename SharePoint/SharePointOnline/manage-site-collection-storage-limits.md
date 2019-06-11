@@ -1,9 +1,10 @@
 ---
 title: "Manage site storage limits"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
@@ -88,24 +89,68 @@ You can use the following Microsoft PowerShell script to monitor your sites. Thi
     > You can use a different file name, but you must save the file as an ANSI-encoded text file with the extension .ps1. 
   
   ```PowerShell
-  #Connect to SharePoint admin center using admin account  $username = "<global or SharePoint admin account>"  $password = ConvertTo-SecureString "<Password>" -AsPlainText -Force  $cred = New-Object Microsoft.SharePoint.Client.SharePointOnlineCredentials($username, $password)  Connect-SPOService -Url <SharePoint admin center URL> -Credential $cred  #Local variable to create and store output file  $filename = Get-Date -Format o | foreach {$_ -replace ":", ""}  $result = "<Local folder path>"+$filename+".txt"  #SMTP and Inbox details  $smtp = "<smtpserver>"  $from = "<sender email>"  $to = "<recipient email>"  $subject = "Site storage warning"  $body = "Storage usage details"  #Enumerating all sites and calculating storage usage  $sites = Get-SPOSite -detailed  foreach ($site in $sites)  {  $percent = $site.StorageUsageCurrent / $site.StorageQuota * 100  $percentage = [math]::Round($percent,2)  Write-Output "$percentage %         $($site.StorageUsageCurrent)kb of $($site.StorageQuota)kb        $($site.url)" | Out-File $result -Append  }  #Sending email with output file as attachment  sleep 5  Send-MailMessage -SmtpServer $smtp -to $to -from $from -subject $subject -Attachments $result -body $body -Priority high
-  ```
+#Connect to SharePoint admin center using an admin account
+#Specify the URL to your SharePoint admin center site, e.g. https://contoso-admin.sharepoint.com
+
+$url = 'https://contoso-admin.sharepoint.com'
+
+#Specify a folder path to output the results into
+$path = '.\'
+
+#SMTP details
+$Smtp = '<SmtpServer>'
+$From = '<SenderEmailAddress>'  
+$To = '<RecipientEmailAddress>'
+$Subject = 'Site Storage Warning'  
+$Body = 'Storage Usage Details'
+
+if($url -eq '') {
+    $url = Read-Host -Prompt 'Enter the SharePoint admin center URL'
+}
+
+Connect-SPOService -Url $url
+
+#Local variable to create and store output file  
+$filename = (Get-Date -Format o | foreach {$_ -Replace ":", ""})+'.csv'  
+$fullpath = $path+$filename
+
+#Enumerating all sites and calculating storage usage  
+$sites = Get-SPOSite
+$results = @()
+
+foreach ($site in $sites) {
+    $siteStorage = New-Object PSObject
+    
+    $percent = $site.StorageUsageCurrent / $site.StorageQuota * 100  
+    $percentage = [math]::Round($percent,2)
+
+    $siteStorage | Add-Member -MemberType NoteProperty -Name "Site Title" -Value $site.Title
+    $siteStorage | Add-Member -MemberType NoteProperty -Name "Site Url" -Value $site.Url
+    $siteStorage | Add-Member -MemberType NoteProperty -Name "Percentage Used" -Value $percentage
+    $siteStorage | Add-Member -MemberType NoteProperty -Name "Storage Used (MB)" -Value $site.StorageUsageCurrent
+    $siteStorage | Add-Member -MemberType NoteProperty -Name "Storage Quota (MB)" -Value $site.StorageQuota
+
+    $results += $siteStorage
+    $siteStorage = $null
+}
+
+$results | Export-Csv -Path $fullpath -NoTypeInformation
+
+#Sending email with output file as attachment  
+Send-MailMessage -SmtpServer $Smtp -To $To -From $From -Subject $Subject -Attachments $fullpath -Body $Body -Priority high
+```
 
 4. Where:
+
+  - **$url** is the URL of your SharePoint admin center. If the `$url` variable is left empty, you will be prompted to enter the URL of your admin center site.
+  
+  - **$path** is the file system path you want the CSV file to output to.
+   
+  - **\<SmtpServer\>** is the name of your SMTP mail server. 
     
-  - **\<global or SharePoint admin account\>** is the username for the account that has the global admin or SharePoint admin role in Office 365. 
+  - **\<SenderEmailAddress\>** is the global admin or SharePoint admin account that appears in the From line in the warning email. 
     
-  - **\<password\>** is the password for the global or SharePoint admin account. 
-    
-  - **\<SharePoint admin center URL\>** is the URL for your SharePoint admin center. 
-    
-  - **\<local folder path\>** is the local path for the folder where you want the data saved. 
-    
-  - **\<smtpserver\>** is the name of your SMTP mail server. 
-    
-  - **\<sender email\>** is the global admin or SharePoint admin account that appears in the From line in the warning email. 
-    
-  - **\<recipient email\>** is the admin account that will receive the email warning. 
+  - **\<RecipientEmailAddress\>** is the admin account that will receive the email warning. 
     
 5. In SharePoint Online Management Shell, change to the local directory where you saved the script file.
     
@@ -113,7 +158,7 @@ You can use the following Microsoft PowerShell script to monitor your sites. Thi
   ./GetEmailWarning.ps1
   ```
 
-   After the script successfully completes, a text file is created in the location that you specified in the **\<Local folder path\>** variable in the script. 
+   After the script successfully completes, a text file is created in the location that you specified in the **$path** variable in the script. 
     
    > [!NOTE]
    > If you get an error message about being unable to run scripts, you might need to change your execution policies. For info, see [About Execution Policies](https://go.microsoft.com/fwlink/?linkid=869255). 

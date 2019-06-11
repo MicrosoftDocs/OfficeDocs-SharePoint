@@ -1,9 +1,10 @@
 ---
 title: "Plan for the multilingual user interface in SharePoint Server"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -30,7 +31,7 @@ By default, when a new site is created, it is created in the default language of
   
 After language packs are installed on the server, the **Language settings** link is added to the **Site Settings** page. Site collection administrators and site owners use the **Language Settings** page to specify which alternate languages the site will support. After the site collection administrator or site owner has enabled alternate languages for a site, the next time that a user logs on to the site, SharePoint Server uses one of the following rules to determine the language in which to display content to the user: 
   
-1. If the User Profile service application is started on the SharePoint Server farm, the language preferences stored in the user profile are used. For information about how to add a list of languages to user profile settings in SharePoint Server, see [Add, edit, or delete custom properties in SharePoint Server user profiles](../administration/add-edit-or-delete-custom-properties-for-a-user-profile.md). For information about how to add a list of languages to user profile settings in SharePoint Online Administration Center, see [Add and edit user profile properties](https://go.microsoft.com/fwlink/p/?LinkId=307139).
+1. If the User Profile service application is started on the SharePoint Server farm, the language preferences stored in the user profile are used. For information about how to add a list of languages to user profile settings in SharePoint Server, see [Add, edit, or delete custom properties in SharePoint Server user profiles](https://docs.microsoft.com/sharepoint/administration/add-edit-or-delete-custom-properties-for-a-user-profile). For information about how to add a list of languages to user profile settings in SharePoint Online Administration Center, see [Add and edit user profile properties](https://docs.microsoft.com/sharepoint/add-and-edit-user-profile-properties).
     
 2. If no language preference is defined in the user profile, the language preferences stored in the user's language settings for the site collection are used.
     

@@ -1,10 +1,11 @@
 ---
 title: "Redesign enterprise search topology for more content and users in SharePoint"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen
 ms.date: 9/8/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal

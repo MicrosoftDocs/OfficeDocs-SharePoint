@@ -1,10 +1,11 @@
 ---
 title: "Update a web application URL and IIS bindings for SharePoint Server"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
 ms.date: 8/10/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -99,7 +100,7 @@ If you are using a load balancer or a reverse proxy, make sure that your interna
   
 ### Apply an SSL certificate
 
-If the new IIS bindings use SSL, apply an SSL certificate to the new IIS website assigned to your zone. For more information about how to configure SSL, see [Configuring Secure Sockets Layer (IIS 6.0)](http://go.microsoft.com/fwlink/p/?LinkId=110300&amp;clcid=0x409).
+If the new IIS bindings use SSL, apply an SSL certificate to the new IIS website assigned to your zone. See [How to Set Up SSL on IIS 7)](https://docs.microsoft.com/iis/manage/configuring-security/how-to-set-up-ssl-on-iis) for more on configuring SSL.
   
 ### Apply an authentication method
 

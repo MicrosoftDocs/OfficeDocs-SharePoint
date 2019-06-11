@@ -1,9 +1,10 @@
 ---
 title: "File and folder permissions when using the SharePoint Migration Tool"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal

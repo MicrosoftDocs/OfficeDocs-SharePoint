@@ -1,9 +1,10 @@
 ---
 title: "Minimum public update levels for SharePoint hybrid features"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: reference
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority

@@ -1,10 +1,11 @@
 ---
 title: "Plan digital asset libraries in SharePoint Server 2013"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
 ms.date: 7/13/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
