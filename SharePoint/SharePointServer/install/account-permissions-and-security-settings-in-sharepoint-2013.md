@@ -45,7 +45,7 @@ One of the following SharePoint components automatically configures most of the 
     
 ### Farm administrator user  account
 
-This account is a uniquely identifiable account assigned to the SharePoint administrator and is used to set up each server in your farm by running the SharePoint Configuration Wizard, the initial Farm Creation Wizard, and PowerShell. The account must be a domain user. For the examples in this article, the farm administrator account is used for farm administration, and you can use Central Administration to manage it. Some configuration options such as configuration of the SharePoint 2013 Search query server, require local administration permissions. The farm administrator user account requires the following permissions:
+This account is a uniquely identifiable account assigned to the SharePoint administrator and is used to set up each server in your farm by running the SharePoint Configuration Wizard, the initial Farm Creation Wizard, and PowerShell. The account must be a domain user. For the examples in this article, the farm administrator account is used for farm administration, and you can use Central Administration to manage it. Some configuration options such as configuration of the SharePoint 2013 Search query server require local administration permissions. The farm administrator user account requires the following permissions:
   
 - It must be a member of the Local Administrators group on each server in the SharePoint farm.
     
