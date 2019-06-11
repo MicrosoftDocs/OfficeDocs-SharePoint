@@ -37,14 +37,14 @@ By using the new SharePoint admin center, you can change the owners for sites th
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.)
+
+If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
     
-3. If the classic SharePoint admin center appears, select **Try it now** to open the new SharePoint admin center. 
+3. In the left pane of the new SharePoint admin center, select **Active sites**.
 
-4. In the left pane of the new SharePoint admin center, select **Active sites**.
-
-5. In the left column, click to select a site.
+4. In the left column, click to select a site.
   
-6. Select **Owners**. For a group-connected team site, you can add and remove group owners. For other sites, you can change the primary admin and add and remove other admins. Note that if you remove a person as a primary admin, they will still be listed as an additional admin.
+5. Select **Owners**. For a group-connected team site, you can add and remove group owners. For other sites, you can change the primary admin and add and remove other admins. Note that if you remove a person as a primary admin, they will still be listed as an additional admin.
 
 ![Changing admins for a communication site](media/change-admins.png)
   
@@ -59,17 +59,19 @@ To add or remove site collection admins on classic sites, you can use the classi
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
+ 
+3. Select **Active sites.**
     
-3. Point to the site collection for which you want to change the administrators, and then select the check box in front of it. 
+4. Point to the site collection for which you want to change the administrators, and then select the check box in front of it. 
     
     ![SPO Selecting a collection from within the site collection list](media/6e5db026-befa-46b7-9e05-77c022919c88.PNG)
   
-4. Select **Owners**, and then select **Manage Administrators**.
+5. Select **Owners**, and then select **Manage Administrators**.
     
     ![SPO Site administrator owners button with Manage Administrators highlighted.](media/45326c50-d66f-44e7-b5f3-65ff85ca18f7.png)
   
-5. Change the name in the **Primary Site Collection Administrator** box, or add or remove names in the **Site Collection Administrators** box. 
+6. Change the name in the **Primary Site Collection Administrator** box, or add or remove names in the **Site Collection Administrators** box. 
     
     ![Site administrator dialog box.](media/488ca762-cbe2-458c-8e21-7f640471a565.PNG)
   

@@ -34,11 +34,11 @@ If you're a global or SharePoint admin in Office 365, you can convert any existi
     
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
 
-3. If the classic SharePoint admin center appears, select **Try it now** to open the new SharePoint admin center. 
+3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. . 
 
 4. In the left pane of the new SharePoint admin center, select **Active sites**.
 
-5. Select the site, select **Hub site**, and then select **Register as hub site**.
+5. Select the site, select **Hub**, and then select **Register as hub site**.
 
     ![Registering a site as a hub site](media/register-hub-site.png)
 

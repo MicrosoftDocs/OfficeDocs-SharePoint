@@ -49,7 +49,7 @@ As a global or SharePoint admin, you may want to enable users to send "Anyone" l
 
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
 
-3. If the classic SharePoint admin center appears, select **Try it now** to open the new SharePoint admin center. 
+3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
 
 4. In the left pane of the new SharePoint admin center, under **Policies**, select **Sharing**.
 
@@ -66,32 +66,42 @@ For more info about the settings on this page, see [File and folder links](turn-
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
+
+3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
+
+4. In the left pane of the new SharePoint admin center, select **Classic features**. 
     
-3. In the left pane, select **sharing**.
+5. In the left pane, select **sharing**.
+
+6. Select **Limit external sharing to specific security groups**. 
     
-4. Under **Default link type** choose the option you want to show by default when a user gets a link. 
+7. Under **Default link type** choose the option you want to show by default when a user gets a link. 
     
     ![Default link type dialog box](media/4dc58d77-dccd-474f-b0fb-8ff8b3f1c088.png)
   
-5. Under **Default link permission** choose whether you want the default permission to be view or edit. 
+8. Under **Default link permission** choose whether you want the default permission to be view or edit. 
     
     ![Screenshot of default link permissions which are view and edit.](media/17172082-7cc4-44e4-9b73-3a0ea9acc577.png)
   
 ## Change the default link type (site-level setting)
 
-1. In the left pane of the classic SharePoint admin center, select **site collections**.
+1. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
+
+2. In the left pane of the new SharePoint admin center, select **Classic features**
+
+3. Select **Classic site collections page**, and then select **Open**.
     
-2. Select the site that you want to change, and then select **Sharing**.
+4. Select the site that you want to change, and then select **Sharing**.
     
-3. Under **Default link type**, clear the **Respect default organization setting** check box, and then choose the option you want to show by default when a user gets a link. 
+5. Under **Default link type**, clear the **Respect default organization setting** check box, and then choose the option you want to show by default when a user gets a link. 
     
     ![Screenshot of default link type settings for a site](media/348a8751-421c-4591-9b6b-6d1d381521cd.png)
   
-4. Under **Default link permission**, clear the **Respect default organization setting** check box, and then choose whether you want the default permission to be view or edit. 
+6. Under **Default link permission**, clear the **Respect default organization setting** check box, and then choose whether you want the default permission to be view or edit. 
     
     ![Screenshot of default link permissions setting for a site](media/6e585416-019e-4c14-a057-0fd7e7b3e1f6.png)
   
-5. Select **Save**.
+7. Select **Save**.
     
 

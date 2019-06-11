@@ -69,13 +69,15 @@ If the import fails, remove the condition that caused the failure and reimport t
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the **Admin** tile to open the admin center.  
     
-2. In the left pane of the admin center, under **Admin centers**, select **SharePoint** to open the SharePoint admin center. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
+2. In the left pane of the admin center, under **Admin centers**, select **SharePoint** to open the SharePoint admin center. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
+ 
+3. In the left pane of the new SharePoint admin center, select **Classic features**.
+ 
+4. Under **search**, select Open.
     
-3. Select **search**.
+5. Select **Export Search Configuration**.
     
-4. Select **Export Search Configuration**.
-    
-5. In the dialog box, select **Save**.
+6. In the dialog box, select **Save**.
     
 ## Export customized search configuration settings from a site
 <a name="__toc351540660"> </a>
@@ -102,22 +104,24 @@ If the import fails, remove the condition that caused the failure and reimport t
     
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the **Admin** tile to open the admin center.  
+
+In the left pane of the admin center, under **Admin centers**, select **SharePoint** to open the SharePoint admin center. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
+ 
+3. In the left pane of the new SharePoint admin center, select **Classic features**.
+ 
+4. Under **search**, select Open.
+   
+5. On the **Import Search Configuration** page, browse to the file you want to import. 
     
-2. In the left pane of the admin center, under **Admin centers**, select **SharePoint** to open the SharePoint admin center. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
+6. Select **Import**.
     
-3. Choose **search**.
+7. On the **Search Config List** page verify that: 
     
-4. On the **Import Search Configuration** page, browse to the file you want to import. 
-    
-5. Select **Import**.
-    
-6. On the **Search Config List** page verify that: 
-    
-7. The search configuration file you imported is in the list, and that its status is **Imported Successfully**.
+8. The search configuration file you imported is in the list, and that its status is **Imported Successfully**.
     
     If the file hasn't been imported successfully, then the **Notes** column provides more details about what happened. 
     
-8. The **Scope** column shows that the settings you imported are at the right level, that is, at the level you meant to import the file to. For example, if you imported your settings at the site collection level instead of at the site level, you'd see this information in the **Scope** column. The **Scope** column shows at which level the search configuration settings were enabled. The levels are: tenant (Tenant), site collection (SPSite), or site level (SPWeb). 
+9. The **Scope** column shows that the settings you imported are at the right level, that is, at the level you meant to import the file to. For example, if you imported your settings at the site collection level instead of at the site level, you'd see this information in the **Scope** column. The **Scope** column shows at which level the search configuration settings were enabled. The levels are: tenant (Tenant), site collection (SPSite), or site level (SPWeb). 
     
 ## Import customized search configuration settings to a site
 <a name="__toc351540663"> </a>

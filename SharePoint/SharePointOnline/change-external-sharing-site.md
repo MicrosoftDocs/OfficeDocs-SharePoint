@@ -31,7 +31,7 @@ Note that this procedure applies to classic sites, communication sites, and new 
     
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
 
-3. If the classic SharePoint admin center appears, select **Try it now** to open the new SharePoint admin center. 
+3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. . 
     
 4. In the left pane of the new SharePoint admin center, under **Sites** select **Active sites**.
     

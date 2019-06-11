@@ -47,9 +47,9 @@ You can choose whether to allow versions in your subscription and decide how use
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
     
-3. Choose **settings**.
+3. Choose **classic settings page**.
     
 4. In **Global Experience Version Settings**, select the desired option.
     
@@ -65,15 +65,23 @@ You can choose whether to allow versions in your subscription and decide how use
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
+ 
+3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
     
-3. Select **site collections** in the left pane, and select the site you want. 
+4. In the left pane of the new SharePoint admin center, select **Classic features**. 
+. 
+5. Choose **More classic features**
+. 
+6. Under **Classic site collections page**, select **Open**. 
+
+7. Select the site collection
     
-4. On the ribbon, select **Upgrade** \> **Site collection upgrade settings**. 
+8. On the ribbon, select **Upgrade notifications** \> **Site collection upgrade settings**. 
     
-5. For **Allow Upgrade**, choose **Yes** or **No**.
+9. For **Allow Upgrade**, choose **Yes** or **No**.
     
-6. Select **Save**.
+10. Select **Save**.
     
 ## See also
 

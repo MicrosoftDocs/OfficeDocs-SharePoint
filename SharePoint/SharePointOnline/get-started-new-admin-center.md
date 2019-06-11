@@ -32,7 +32,7 @@ The new SharePoint admin center is now available worldwide to customers who have
   
 To switch back to the classic SharePoint admin center:
   
-- In the left pane of the new SharePoint admin center, select **Classic SharePoint admin center**.
+- If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. .
     
 > [!IMPORTANT]
 > If a setting exists in both the new and classic SharePoint admin centers, and possibly other admin centers such as the OneDrive and Microsoft 365 admin centers, when you change it in one place, the other admin centers will reflect the change. If you have multiple admins in your organization, make sure you communicate the changes you're making. 

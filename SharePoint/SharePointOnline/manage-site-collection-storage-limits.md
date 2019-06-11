@@ -37,7 +37,7 @@ If you prefer to fine tune the storage space allocated to each site, you can set
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-2. In the left pane, under **Admin centers**, select **SharePoint**. If this opens the classic SharePoint admin center, select **Try it now** to open the new SharePoint admin center.
+2. In the left pane, under **Admin centers**, select **SharePoint**. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
     
 3. In the left pane of the new SharePoint admin center, select **Settings**.
     
@@ -57,9 +57,9 @@ Follow these steps to specify individual site storage limits when your storage m
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the classic SharePoint admin center, select **Try it now** to open the new SharePoint admin center.
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
     
-3. On the **Active sites** page of the new SharePoint admin center, select a site and then select **Storage**. 
+3. On the **Active sites** page of the new SharePoint admin center, select a site, select the ellipsis (...), and then select **Storage**. 
 
 ![Changing the storage limit for a site](media/site-storage-limit.png)
     

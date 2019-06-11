@@ -52,19 +52,21 @@ Follow these steps to transfer ownership of a OneDrive to a different user, or g
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
       
-3. In the left pane, select **user profiles**. 
+3. In the left pane, select **Classic features**.
+ 
+4. Under **user profiles**, select **Open**. 
     
-4. Under **People**, select **Manage User Profiles**.
+5. Under **People**, select **Manage User Profiles**.
     
     ![The Manage User Profiles link on the user profiles page](media/de423783-b0dd-4742-a937-c634936f0dca.PNG)
   
-5. Enter the user's name and select **Find**.
+6. Enter the user's name and select **Find**.
     
-6. Right-click the user, and then select **Manage site collection owners**.
+7. Right-click the user, and then select **Manage site collection owners**.
     
-7. Add and remove admins for the OneDrive, and then select **OK**.
+8. Add and remove admins for the OneDrive, and then select **OK**.
     
     ![Manage the owners of a OneDrive](media/120f7c8c-262f-4a41-a484-e830c662f534.png)
   
@@ -121,11 +123,13 @@ If some users are licensed to use OneDrive, but you don't want them to create a 
     
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
-    
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane. 
+
+In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
       
-3. In the left pane, select **user profiles**. 
-      
+2. In the left pane, select **Classic features**.
+ 
+3. Under **user profiles**, select **Open**. 
+
 4. Under **People**, select **Manage User Permissions**.
     
     ![The Manage User Permissions link on the user profiles page](media/946e0564-2e7d-40a6-8603-cc3534a557be.PNG)

@@ -45,7 +45,7 @@ SharePoint admins can now delete sites that belong to Office 365 groups. Deletin
     
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
 
-3. If the classic SharePoint admin center appears, select **Try it now** to open the new SharePoint admin center. 
+3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
 
 4. In the left pane of the new SharePoint admin center, select **Active sites**.
 
@@ -92,15 +92,21 @@ To permanently delete sites (including Office 365 group-connected team sites) by
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
+. 
+3. In the left pane of the new SharePoint admin center, select **Classic features**.
+. 
+4. Select **More classic features**
+. 
+5. Under **Classic site collections page**, select **Open**.
     
-3. Select the check box next to the site collection or multiple site collections that you want to delete.
+6. Select the check box next to the site collection or multiple site collections that you want to delete.
     
-4. On the **Site Collections** tab, select **Delete**.
+7. On the **Site Collections** tab, select **Delete**.
     
     ![Site Collection page with Delete selected](media/77f46941-957e-4521-87d6-7ed9e8da866c.PNG)
   
-5. Confirm the information in the **Delete Site Collections** dialog box, and then select **Delete**.
+8. Confirm the information in the **Delete Site Collections** dialog box, and then select **Delete**.
     
     ![Delete Site Collection dialog box](media/9f0418d4-04a4-406a-9f61-9aac79ae28f8.PNG)
   

@@ -52,7 +52,7 @@ Limiting access allows users to remain productive while addressing the risk of a
     
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.)
 
-3. If the classic SharePoint admin center appears, select **Try it now** to open the new SharePoint admin center. 
+3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
 
 4. In the left pane of the new SharePoint admin center, select **Access control**, and then select **Unmanaged devices**. 
 
@@ -95,11 +95,13 @@ Limiting access allows users to remain productive while addressing the risk of a
     
 2. In the left pane, under **Admin centers**, select **SharePoint**. 
     
-3. In the classic SharePoint admin center, select **access control** in the left pane.
+3. If the classic SharePoint admin center appears, select **Open it** now at the top of the page to open the new SharePoint admin center.
+. 
+4. Select **access control** in the left pane, and then select **Unmanaged devices**.
     
-4. Select **Block Access**.
+5. Select **Block Access**.
     
-5. Select **OK**.
+6. Select **OK**.
     
     ![The block access setting on the access control page](media/ea0ee472-6fde-4d2d-bc7b-9d3b9eee0d96.png)
   
@@ -130,7 +132,7 @@ Limiting access allows users to remain productive while addressing the risk of a
     
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.)
 
-3. If the classic SharePoint admin center appears, select **Try it now** to open the new SharePoint admin center. 
+3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
 
 4. In the left pane, select **Access control**, and then select **Unmanaged devices**. 
 
@@ -150,11 +152,13 @@ Limiting access allows users to remain productive while addressing the risk of a
     
 2. In the left pane, under **Admin centers**, select **SharePoint**. 
     
-3. In the classic SharePoint admin center, select **access control** in the left pane.
+3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
+
+4. Select **access control** in the left pane, and the select **Unmanaged devices**.
     
-4. Select **Allow limited, web-only access**.
+5. Select **Allow limited, web-only access**.
     
-5. Select **OK**.
+6. Select **OK**.
     
     ![The limited access setting on the access control page](media/1ac2b9f4-32eb-4f21-85f1-e971c50f8b23.png)
   

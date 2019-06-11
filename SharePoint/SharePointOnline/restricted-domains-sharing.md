@@ -40,12 +40,12 @@ Organization-wide settings affect all SharePoint Online site collections, includ
     
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
-    
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
+
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
     
 3. In the left pane, select **sharing**. 
     
-4. Under **Additional settings**, select the **Limit external sharing using domains** check box. 
+4. Under **Advanced settings for external sharing**, select the **Limit external sharing using domains** check box. 
     
 5. From the drop-down list, choose either **Don't allow sharing with users from these blocked domains** to deny access to targeted domains or **Allow sharing only with users from these domains** to limit access to only to the domains you list. 
     
@@ -75,15 +75,21 @@ You can also use restricted domains at the site collection level. Note the follo
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
+ 
+3. Select **Classic features**.
+
+4. Select **More classic features**.
     
-3. On the **site collections** page of the classic SharePoint admin center, select a site collection, and then select **Sharing**.
+3. Under **Classic site collections page**, and then select **Open**.
+ 
+5. Select a site collection, and then select **Sharing**.
     
-4. Under **Site collection additional settings**, select the **Limit external sharing using domain** check box. 
+6. Under **Site collection additional settings**, select the **Limit external sharing using domain** check box. 
     
-5. From the drop-down list, choose either **Don't allow sharing with users from these blocked domains** to deny access to targeted domains or **Allow sharing only with users from these domains** to limit access to only to the domains you list. 
+7. From the drop-down list, choose either **Don't allow sharing with users from these blocked domains** to deny access to targeted domains or **Allow sharing only with users from these domains** to limit access to only to the domains you list. 
     
-6. List the domains (maximum of 60) in the box provided, using the format  *domain.com.* If listing more than one domain, separate each domain with a space or a carriage return. 
+8. List the domains (maximum of 60) in the box provided, using the format  *domain.com.* If listing more than one domain, separate each domain with a space or a carriage return. 
     
     > [!NOTE]
     > Wildcards are not supported for domain entries. 

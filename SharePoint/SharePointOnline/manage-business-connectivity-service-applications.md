@@ -44,22 +44,26 @@ To set object permissions for an object, follow these steps.
     
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the **Admin** tile to open the admin center.  
+
+2. In the left pane of the admin center, under **Admin centers**, select **SharePoint** to open the SharePoint admin center. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
+ 
+3. In the left pane of the new SharePoint admin center, select **Classic features**.
+ 
+4. Select **More classic features**.
+ 
+5. Under **bcs**, select **Open**.
+  
+6. In the **business data catalog** section, select **Manage BDC Models and External Content Types**.
     
-2. In the left pane of the admin center, under **Admin centers**, select **SharePoint** to open the SharePoint admin center. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
+7. Select the check box next to the name of the ECT or external system that you want to manage. 
     
-3. In the left pane, select **bcs**.
-    
-4. In the **business data catalog** section, select **Manage BDC Models and External Content Types**.
-    
-5. Select the check box next to the name of the ECT or external system that you want to manage. 
-    
-6. On the ribbon, select **Set Object Permissions**.
+8. On the ribbon, select **Set Object Permissions**.
     
     ![A screenshot of the Set Object Permissions dialog for Business Connectivity Services in SharePoint Online.](media/6af13f29-5126-470e-b2b9-a59d0ad569ca.png)
   
-7. Enter a user account or group name in the text box, and then select **Add**. You can also select **Browse** to look for the name that you want. 
+9. Enter a user account or group name in the text box, and then select **Add**. You can also select **Browse** to look for the name that you want. 
     
-8. Select the name of the account or group for which you want to set access to the ECT or external system. You can set permissions for only one account at a time. If you have multiple accounts or groups, you have to set levels of access for each account separately, by selecting them one at a time. 
+10. Select the name of the account or group for which you want to set access to the ECT or external system. You can set permissions for only one account at a time. If you have multiple accounts or groups, you have to set levels of access for each account separately, by selecting them one at a time. 
     
     The following table describes the permissions and their associated access levels.
     
@@ -80,16 +84,22 @@ Metadata Store permissions apply to many objects, such as BDC Models, ECTs, and 
 ![A graphic of the Set Metadata Store Permissions dialog in SPO's BCS.](media/3cb11390-25ea-48df-a1f7-dd51e831146d.png)
   
 To set Metadata Store permissions, follow these steps.
-  
-1. In the left pane of the classic SharePoint admin center, select **bcs**.
+
+1. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
+ 
+2. In the left pane of the new SharePoint admin center, select **Classic features**.
+ 
+3. Select **More classic features**.
+ 
+4. Under **bcs**, select **Open**.
+
+5. Select **Manage BDC Models and External Content Types**.
     
-2. In the **business data catalog** section, select **Manage BDC Models and External Content Types**.
+6. On the ribbon, select **Set Metadata Store Permissions**.
     
-3. On the ribbon, select **Set Metadata Store Permissions**.
+7. Enter a user account or group into the text box, and then select **Add**. You can also select **Browse** to look for the account that you want. 
     
-4. Enter a user account or group into the text box, and then select **Add**. You can also select **Browse** to look for the account that you want. 
-    
-5. The account or group will appear in the second text box. If you have multiple accounts or groups, you must select them one at a time to set the level of access.
+8. The account or group will appear in the second text box. If you have multiple accounts or groups, you must select them one at a time to set the level of access.
     
 |**Permission**|**Notes**|
 |:-----|:-----|
