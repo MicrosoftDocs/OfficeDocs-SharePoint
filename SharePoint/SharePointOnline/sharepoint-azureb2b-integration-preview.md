@@ -64,7 +64,7 @@ Note that after preview, this feature will replace the Office one-time passcode 
 
 ## Feedback
 
-We're interested in your feedback about this preview. Please fill out the [Feedback on SharePoint integration with Azure AD B2B Preview survey](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR2JklDeWHptFqoV2KEW0bYxUQTMxTzYxV1NST0VQSEFLSUY4NVZIVlk0OC4u).
+We're interested in your feedback about this preview. Please fill out the [Feedback on SharePoint integration with Azure AD B2B Preview] (https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR2JklDeWHptFqoV2KEW0bYxUQTMxTzYxV1NST0VQSEFLSUY4NVZIVlk0OC4u) survey.
 
 ## See also
 
