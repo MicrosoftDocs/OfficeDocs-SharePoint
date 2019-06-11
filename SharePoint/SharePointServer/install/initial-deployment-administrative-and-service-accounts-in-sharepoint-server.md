@@ -24,22 +24,60 @@ description: "Learn about the administrative and service accounts you need to in
 This article provides information about the administrative and service accounts that you need for an initial SharePoint Server deployment. Additional accounts and permissions are required to fully implement all aspects of a production farm.
   
 > [!NOTE]
-> For a complete list of permissions for SharePoint Servers 2016 and 2019, see [Account permissions and security settings in SharePoint Servers 2016 and 2019](account-permissions-and-security-settings-in-sharepoint-server-2016.md). > For a complete list of permissions for SharePoint Server 2013, see [Account permissions and security settings in SharePoint 2013](account-permissions-and-security-settings-in-sharepoint-2013.md). 
+> For a complete list of permissions for SharePoint Servers 2013, 2016 and 2019, see [Account permissions and security settings in SharePoint Servers 2013, 2016 and 2019](account-permissions-and-security-settings-in-sharepoint-server.md).
   
 > [!IMPORTANT]
-> Do not use service account names that contain the symbol $ with the exception of using a Group Managed Service Account for SQL Server.
-  
-## Required accounts in SharePoint Server
+> Do not use service account names that contain the symbol $. 
 
-To deploy SharePoint Server on a server farm, you must provide credentials for several different accounts.
-  
-The following table describes the accounts that you can use to install and configure SharePoint Server.
-  
-|**Account**|**Purpose**|**Requirements**|
-|:-----|:-----|:-----|
-|SQL Server service account  <br/> | The SQL Server service account is used to run SQL Server. It is the service account for the following SQL Server services:  <br/>  MSSQLSERVER  <br/>  SQLSERVERAGENT  <br/>  If you do not use the default SQL Server instance, in the Windows Services console, these services will be shown as the following:  <br/>  MSSQL\<InstanceName\>  <br/>  SQLAgent\<InstanceName\>  <br/> |Use either a domain user account or preferably, a [Group Managed Service Account](https://docs.microsoft.com/en-us/windows-server/security/group-managed-service-accounts/group-managed-service-accounts-overview).  <br/> If you plan to back up to or restore from an external resource, permissions to the external resource must be granted to the appropriate account. If you use a domain user account or Group Managed Service Account for the SQL Server service account, grant permissions to that domain user account. However, if you use the Network Service or the Local System account, grant permissions to the external resource to the machine account (\<domain_name\>\\<SQL_hostname\>).  <br/> The instance name is arbitrary and was created when SQL Server was installed.  <br/> |
-|Farm administrator user account  <br/> | The farm administrator user account is a uniquely identifiable account assigned to a SharePoint administrator. It is used to run the following:  <br/>  Setup  <br/>  SharePoint Products Configuration Wizard  <br/> | Domain user account.  <br/>  Member of the Administrators group on each SharePoint server in the farm.  <br/>  Member of the following SQL Server role (optional): **sysadmin** fixed server role.  <br/>  If you run Windows PowerShell cmdlets that affect a database, this account must be a member of the **db_owner** fixed database role for the database or a member of the **sysadmin** fixed server role on SQL.  <br/> |
-|Farm service account <br/> | The farm service account is used to perform the following tasks:  <br/>  Act as the application pool identity for the SharePoint Central Administration website.  <br/>  Run the Microsoft SharePoint Foundation Workflow Timer Service.  <br/> | Domain user account.  <br/>  Additional permissions are automatically granted for the server farm account on Web servers and application servers that are joined to a server farm.  <br/>  The server farm account is automatically added as a SQL Server login on the computer that runs SQL Server. The account is added to the following SQL Server security roles:  <br/> * **dbcreator** fixed server role  <br/> * **securityadmin** fixed server role  <br/> * **db_owner** fixed database role for all SharePoint databases in the server farm  <br/> This account should not be used interactively by an administrator. |
-   
+## SharePoint Server account recommendations
+<a name="Section2"> </a>
+
+The following sections describe recommendations on SharePoint Service accounts.
+
+Microsoft recommends using a minimal number of Service Application Pool accounts in the farm. This is to reduce memory usage and increase performance while maintaining the appropriate level of security.
+
+- Use an elevated, personally identifiable account for SharePoint installation, maintenance, and upgrades. This account will hold the roles required as outlined by the **SharePoint Farm Administrator account** outlined below. Each SharePoint administrator should use a separate account to clearly identify activity performed by the administrator on the farm.
+
+- If possible use a security group, **SharePoint Farm Administrators Groups**, to unify all individual SharePoint Farm Administrator accounts and grant permissions as outlined below. This simplify the management of the SharePoint Farm Administrator accounts significally.
+
+- The **SharePoint Farm Service account** should only run the SharePoint Timer service, SharePoint Inights (if applicable), the IIS Application Pools for Central Administration, SharePoint Web Services System (used for the topology service), and SecurityTokenServiceApplicationPool (used for the Security Token Service).
+
+- A single account should be used for all Service Applications, named **Service Application Pool account**. This allows the administrator to use a single IIS Application Pool for all Service Applications. In addition, this account should run the following Windows Services: SharePoint Search Host Controller, SharePoint Server Search, and Distributed Cache (AppFabric Caching Service).
+
+- A single account should be used for all Web Applications, named **Web Application pool account**. This allows the administrator to use a single IIS Application Pool for all Web Applications. The exception is the Central Administration Web Application, which as noted above, is run by the SharePoint farm service account.
+
+- With the exception of the Claims to Windows Token Service account, no Service Application Pool account should have Local Administrator access to any SharePoint server, nor any elevated SQL Server role, for example, the *sysadmin* fixed role. The SharePoint Farm Administrator account will require the *dbcreator* and *securityadmin* fixed roles unless you pre-provision SharePoint databases and manually assign permissions to each database.
+
+- Service Application Pool accounts, with the exception of the account running the Claims to Windows Token Service, should have *Deny logon locally* and *Deny logon through Remote Desktop Services* in the Local *Security Policy\User Rights Assignment*. This is set via *secpol.msc*.
+
+- Use separate accounts for the **Content access** (Search crawler), **Portal Super Reader**, **Portal Super User**, and **User Profile Service Application Synchronization**, if applicable.
+
+- The Claims to Windows Token Service account is a highly privledged account on the farm. Prior to deploying this service, verify it is required. If required, use a separate account for this service.
+
+### Service accounts recommendations overview
+
+Service account name|What is it used for?|How many should be used?
+----|----|----
+SharePoint Farm Administrator account|Personally identifiable account for a SharePoint Administrator|1-n
+SharePoint Farm Service Account| Timer Service, Insights, IIS App for CA, SP Web Services System, Security Token Service App Pool|1
+Default content access account|search crawling internal and external sources SP2016|1-n
+Content access accounts|search crawling internal and external sources SP2016 and SP2019|1-n
+Web Application Pool account|All Web Applications without Central Administration|1
+SharePoint Service Application Pool account|All Service Applications|1
+Portal Super Reader|Object caching|1
+Portal Super User|Object caching|1
+User Profile Service Application Synchronization|Used for Active Directory Import|1-n
+
+## SharePoint Server least-privilege administration
+
 > [!NOTE]
-> We recommend that you install SharePoint Server by using least-privilege administration.
+> We recommend that you install SharePoint Server by using least-privilege administration. 
+
+> [!IMPORTANT]
+> Please keep in mind, there is a difference between SharePoint least-privilege administration and making SharePoint Server least-privilege. Due to the product design of SharePoint, it's close to impossible to make SharePoint Server use least-privilege.
+
+The table above gives an overview of the current recommended SharePoint service and administrative accounts. Please be aware of the following remakrs:
+- It's highly recommended to use these distinct accounts and ActiveDirectory groups to assign permissions to users.
+- Please make yourself familiar with the permission management within SharePoint Server Central Administration. The recommendations above do not necessarily lead to least-privilege administration.
+- Use personalized accounts for adminsitrators
+- Tailor the set of permissions given to an administrator according to the target service applications and this administrators responsibility..
