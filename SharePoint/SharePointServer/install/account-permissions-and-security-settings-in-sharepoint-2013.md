@@ -53,7 +53,7 @@ This account is a uniquely identifiable account assigned to the SharePoint admin
     
 - If you use any PowerShell operations that affect a database, the setup user administrator account must be a member of the **db_owner** role or **sysadmin** fixed server role.
     
-- This account must be assigned to the **securityadmin** and **dbcreator** fixed server roles during setup and configuration or the **sysadmin** fix server role in SQL Server.
+- This account must be assigned to the **securityadmin** and **dbcreator** fixed server roles during setup and configuration or the **sysadmin** fixed server role in SQL Server.
     
 > [!NOTE]
 > The **securityadmin** and **dbcreator** SQL Server security roles might be required for this account during a complete version-to-version upgrade because new databases might have to be created and secured for services. 
