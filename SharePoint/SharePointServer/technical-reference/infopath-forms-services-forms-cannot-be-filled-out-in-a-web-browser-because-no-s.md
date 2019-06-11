@@ -61,6 +61,6 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: InfoPath
   New-SPStateServiceDatabase -Name "State Service Database" | New-SPStateServiceApplication -Name "StateServiceApp1" | New-SPStateServiceApplicationProxy -DefaultProxyGroup
   ```
 
-    For more information, see [New-SPStateServiceApplication](/powershell/module/sharepoint-server/New-SPStateServiceApplication?view=sharepoint-ps).
+For more information, see [New-SPStateServiceApplication](/powershell/module/sharepoint-server/New-SPStateServiceApplication?view=sharepoint-ps).
     
 
