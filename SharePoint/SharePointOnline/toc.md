@@ -48,6 +48,7 @@
 ## [Sharing and permissions]()
 ### [External sharing overview](external-sharing-overview.md)
 ### [Turn external sharing on or off](turn-external-sharing-on-or-off.md)
+### [SharePoint integration with Azure AD B2B](sharepoint-azureb2b-integration-preview.md)
 ### [Change external sharing for a site](change-external-sharing-site.md)
 ### [Default SharePoint groups](default-sharepoint-groups.md)
 ### [Change default sharing link](change-default-sharing-link.md)
