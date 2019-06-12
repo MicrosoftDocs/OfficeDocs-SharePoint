@@ -1,5 +1,5 @@
 ---
-title: Learn when to use which search experience
+title: When to use which search experience in SharePoint
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen
@@ -13,27 +13,25 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-description: "Learn when to use the classic or the modern search experience in SharePoint"
+description: "Learn when to use the classic or the Microsoft Search experience in SharePoint"
 ---
 
-# When to use which search experience
+# When to use which search experience in SharePoint
 
-Microsoft Search in SharePoint is the modern search experience in SharePoint Online. Microsoft Search in SharePoint is a personalized experience. It uses the insights of the Microsoft Graph to show results that are relevant to you. Routine tasks such as finding the right version of a document, getting back to a presentation you were editing, or learning about a topic you are not familiar with by locating experts and content, are simpler and faster.
+Microsoft Search in SharePoint is the modern search experience in SharePoint Online and is a personalized experience. It uses the insights of the Microsoft Graph to show results that are relevant to you. Routine tasks such as finding the right version of a document, getting back to a presentation you were editing, or a document you were collaborating with others on, are easy. [Learn more about Microsoft Search for users](https://support.office.com/article/find-what-you-need-with-microsoft-search-d5ed5d11-9e5d-4f1d-b8b4-3d371fe0cb87). The classic search experience, on the other hand, can be tailored more to your organization. [Learn about the differences between the search experiences](https://docs.microsoft.com/sharepoint/differences-classic-modern-search). 
 
-SharePoint Online also offers a classic search experience. [Learn about the differences between the experiences](https://docs.microsoft.com/sharepoint/differences-classic-modern-search). As a search administrator you can’t turn on or off either the search experience. They are both on by default.
+Both search experiences are turned on by default and as a search administrator you can’t turn either search experience off. 
+Which search experience your users see depends on where they search from:
+- Users get the classic search experience on publishing sites, classic team sites, and in the Search Center.
+- Users get the Microsoft Search in SharePoint experience on the SharePoint start page, hub sites, communication sites, and modern team sites. [Learn about classic and modern sites](https://support.office.com/article/SharePoint-classic-and-modern-experiences-5725c103-505d-4a6e-9350-300d3ec7d73f).
 
-Which search experience your users get depends on where they search from:
-Users get the classic search experience on publishing sites, classic team sites, and in the Search Center. Users get the Microsoft Search in SharePoint experience on the SharePoint start page, hub sites, communication sites, and modern team sites. [Learn about classic and modern sites](https://support.office.com/article/SharePoint-classic-and-modern-experiences-5725c103-505d-4a6e-9350-300d3ec7d73f).
+## Benefits of Microsoft Search in SharePoint
 
-## Benefits of the Microsoft search experience
-
-**Easy to search** - Microsoft Search suggests results based on users’ previous activity in Office 365, right in the search box. On the search results page the results are ordered by relevance. .
+**Easy to search** - Microsoft Search suggests results based on users’ previous activity in Office 365, right in the search box. On the search results page the results are ordered by relevance.
 
 **Find shared files** - Microsoft Search uses advanced query understanding to make finding shared files simple. Users can easily find files they’re collaborating on.
 
 **Show relevant content** - Promote the information and answers your users need to complete tasks, for example policies, benefits, resources, tools, and more. You can also target specific groups, like new hires or remote workers.
-
-**Microsoft Search evolves** – The set of content types users can search for and the intelligence of the search box will grow over time.
 
 **Administer across all apps** - Microsoft Search is on by default and any administration you do applies to Microsoft Search in all the apps.
 
@@ -41,12 +39,12 @@ Users get the classic search experience on publishing sites, classic team sites,
 
 **Mobile friendly** - The Microsoft Search in SharePoint results page is mobile friendly.
 
-**User friendly interface** - Microsoft Search in SharePoint offers a great user interface without a search administrator configuring anything. [Learn more](https://support.office.com/article/find-what-you-need-with-microsoft-search-d5ed5d11-9e5d-4f1d-b8b4-3d371fe0cb87?ui=en-US&rs=en-US&ad=US).
+**User friendly interface** - Microsoft Search in SharePoint offers a great user interface without a search administrator configuring anything. [Learn more](https://support.office.com/article/find-what-you-need-with-microsoft-search-d5ed5d11-9e5d-4f1d-b8b4-3d371fe0cb87?ui=en-US&rs=en-US&ad=US)
 
-We’ll continue to invest in Microsoft Search in SharePoint, but not in classic search. [Learn what’s coming next for Microsoft Search](http://aka.ms/MicrosoftSearch).
+**Microsoft Search evolves** – The set of content types users can search for and the intelligence of the search box will grow over time. [Learn what’s coming next for Microsoft Search](http://aka.ms/MicrosoftSearch).
 
 ## When to use which search experience?
-Which experience your users see depends on whether your organization mostly uses classic or modern sites. Classic sites have classic search boxes and modern sites have Microsoft Search boxes. If you believe that Microsoft Search in SharePoint gives your users the best experience, [learn how to get started with Microsoft Search in SharePoint Online](https://docs.microsoft.com/microsoftsearch/get-started-search-in-sharepoint-online).
+Which experience your users see depends on whether your organization mostly uses classic or modern sites.  If you believe that Microsoft Search in SharePoint gives your users the best experience, [learn how to get started with Microsoft Search in SharePoint Online](https://docs.microsoft.com/microsoftsearch/get-started-search-in-sharepoint-online).
 
 ### Should you use the Search Center or the SharePoint start page as your portal?
 If you need custom refiners or search verticals for organization-specific content, or you need to display results for organization-specific content differently than other content. Use the Search Center (classic search) as your portal. If not, we recommend promoting the SharePoint start page (Microsoft Search) to your users.
