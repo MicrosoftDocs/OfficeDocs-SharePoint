@@ -34,7 +34,7 @@ The per-machine sync client supports syncing OneDrive and SharePoint files in Mi
 ## Requirements
 
 - All Windows versions supported by the sync client. [Learn more](https://support.office.com/article/onedrive-system-requirements-cc0cb2b8-f446-445c-9b52-d3c2627d681e)
-- Sync client build [19.043.0304.0003](https://go.microsoft.com/fwlink/?linkid=2083517) or later. For info about which sync client build is available in each ring, see [New OneDrive sync client release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0).
+- Sync client build 19.043.0304.0006 or later. For info about which sync client build is available in each ring, see [New OneDrive sync client release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0).
   
 ## Deployment instructions
 
