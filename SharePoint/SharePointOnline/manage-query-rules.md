@@ -44,11 +44,11 @@ You can add several individual promoted results. When there is more than one pro
   
 1. Go to the **Manage Query Rules** page for the tenant, for a site collection, or a site: 
     
-  - For a tenant, in the classic SharePoint admin center, select **Open it now** at the top of the page to open the new SharePoint admin center.  Under **search**, select **Open**, and then on the search administration page, select **Manage Query Rules**.
+  - For a tenant, in the classic SharePoint admin center, select **Open it now** at the top of the page to open the new SharePoint admin center.  Select **Classic features**. Under **search**, select **Open**, and then on the search administration page, select **Manage Query Rules**.
     
-  - For a site collection, in your site collection, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**. Under **Site Collection Administration**, select **Search Query Rules**.
+  - For a site collection, in the classic SharePoint admin center, select **Open it now** at the top of the page to open the new SharePoint admin center.  Select **Classic features**. Under **search**, select **Open**, and then on the search administration page, select **Manage Query Rules**.
     
-  - For a site, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**. Under **Search**, select **Query Rules**.
+  - For a site, in the classic SharePoint admin center, select **Open it now** at the top of the page to open the new SharePoint admin center.  Select **Classic features**. Under **search**, select **Open**, and then on the search administration page, select **Manage Query Rules**.
     
 2. On the **Manage Query Rules** page, in the **Select a Result Source** list, select a result source for the new query rule. 
     

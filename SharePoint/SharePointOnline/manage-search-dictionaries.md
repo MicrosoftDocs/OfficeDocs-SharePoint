@@ -39,17 +39,19 @@ Once you have done this, you can then use the managed property **companies** to 
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
     
-3. In the left pane of the classic SharePoint admin center, select **search**, and then click **Manage Search Dictionaries** to open the term store. 
+3. In the left pane, select **Classic features**. 
+ 
+4. Under **search**, select **Open**, and then select **Manage Search Dictionaries** to open the term store. 
     
-4. On the **Site Settings: Term Store Management Tool** page, click the arrow to expand the **Search Dictionaries** menu. 
+5. On the **Site Settings: Term Store Management Tool** page, click the arrow to expand the **Search Dictionaries** menu. 
     
-5. Click **Company Inclusions**, click the arrow and then click **Create Term**.
+6. Click **Company Inclusions**, click the arrow and then click **Create Term**.
     
-6. Type the name of the company that you want to include in the box that appears.
+7. Type the name of the company that you want to include in the box that appears.
     
-7. Click anywhere on the page to add the term to the **Company Inclusions** list. 
+8. Click anywhere on the page to add the term to the **Company Inclusions** list. 
     
 ## Exclude company names
 <a name="__toc342653323"> </a>
@@ -58,18 +60,22 @@ Once you have done this, you can then use the managed property **companies** to 
     
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
+
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
     
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
+3. In the left pane, select **Classic features**. 
+ 
+4. Under **search**, select **Open**. 
+ 
+5. Select **Manage Search Dictionaries** to open the term store.
+   
+6. On the **Taxonomy Term Store** page, click the arrow to expand the **Search Dictionaries** menu. 
     
-3. In the left pane of the classic SharePoint admin center, select **search**, and then click **Manage Search Dictionaries** to open the term store. 
+7. Click **Company Exclusions**, click the arrow and then click **Create Term**.
     
-4. On the **Taxonomy Term Store** page, click the arrow to expand the **Search Dictionaries** menu. 
+8. Type the name of the company that you want to exclude in the box that appears.
     
-5. Click **Company Exclusions**, click the arrow and then click **Create Term**.
-    
-6. Type the name of the company that you want to exclude in the box that appears.
-    
-7. Click anywhere on the page to add the term to the **Company Exclusions** list. 
+9. Click anywhere on the page to add the term to the **Company Exclusions** list. 
     
 ## Manage query spelling correction
 <a name="__toc342653324"> </a>
@@ -85,18 +91,22 @@ For example, if you enter a query that contains the word "ampitheater", the quer
     
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
+
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
     
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
+3. In the left pane, select **Classic features**. 
+ 
+4. Under **search**, select **Open**. 
+ 
+5. Select **Manage Search Dictionaries** to open the term store.
+
+5. On the **Site Settings: Term Store Management Tool** page, click the arrow to expand the **Search Dictionaries** menu. 
     
-3. In the left pane of the classic SharePoint admin center, select **search**, and then click **Manage Search Dictionaries** to open the term store. 
+6. Click **Query Spelling Inclusions**, click the arrow and then click **Create Term**.
     
-4. On the **Site Settings: Term Store Management Tool** page, click the arrow to expand the **Search Dictionaries** menu. 
+7. Type the query spelling that you want to include in the box that appears.
     
-5. Click **Query Spelling Inclusions**, click the arrow and then click **Create Term**.
-    
-6. Type the query spelling that you want to include in the box that appears.
-    
-7. Click anywhere on the page to add the term to the **Query Spelling Inclusions.**
+8. Click anywhere on the page to add the term to the **Query Spelling Inclusions.**
     
 ## Exclude a term from query spelling corrections
 <a name="__toc342653326"> </a>
@@ -105,18 +115,23 @@ For example, if you enter a query that contains the word "ampitheater", the quer
     
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
+
+
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
     
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
+3. In the left pane, select **Classic features**. 
+ 
+4. Under **search**, select **Open**. 
+ 
+5. Select **Manage Search Dictionaries** to open the term store.
+  
+6. On the **Site Settings: Term Store Management Tool** page, click the arrow to expand the **Search Dictionaries** menu.
     
-3. In the left pane of the classic SharePoint admin center, select **search**, and then click **Manage Search Dictionaries** to open the term store. 
+7. Click **Query Spelling Exclusions**, click the arrow and then click **Create Term**.
     
-4. On the **Site Settings: Term Store Management Tool** page, click the arrow to expand the **Search Dictionarie**s menu.
+8. Type the query spelling that you want to exclude in the box that appears.
     
-5. Click **Query Spelling Exclusions**, click the arrow and then click **Create Term**.
-    
-6. Type the query spelling that you want to exclude in the box that appears.
-    
-7. Click anywhere on the page to add the term to the **Query Spelling Exclusions** list. 
+9. Click anywhere on the page to add the term to the **Query Spelling Exclusions** list. 
     
 ## Edit query spelling corrections or company names
 <a name="__toc342653327"> </a>
@@ -126,17 +141,22 @@ For example, if you enter a query that contains the word "ampitheater", the quer
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
+
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
     
-3. In the left pane of the classic SharePoint admin center, select **search**, and then click **Manage Search Dictionaries** to open the term store. 
+3. In the left pane, select **Classic features**. 
+ 
+4. Under **search**, select **Open**.
+ 
+5. Select **Manage Search Dictionaries** to open the term store.
+   
+6. On the **Site Settings: Term Store Management Tool** page, click the arrow to expand the **Search Dictionaries** menu.
     
-4. On the **Site Settings: Term Store Management Tool** page, click the arrow to expand the **Search Dictionarie**s menu.
+7. Depending on which dictionary the term is in, click **Company Exclusions**, **Company Inclusions**, **Query Spelling Exclusions** or **Query Spelling Inclusions**.
     
-5. Depending on which dictionary the term is in, click **Company Exclusions**, **Company Inclusions**, **Query Spelling Exclusions** or **Query Spelling Inclusions**.
+8. Double-click the term that you want to edit.
     
-6. Double-click the term that you want to edit.
-    
-7. Type the new name for the term.
+9. Type the new name for the term.
     
 8. Click anywhere on the page to save the edited term.
     

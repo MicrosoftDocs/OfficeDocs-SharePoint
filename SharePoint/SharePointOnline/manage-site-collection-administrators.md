@@ -49,34 +49,3 @@ If the classic SharePoint admin center appears, select **Open it now** at the to
 ![Changing admins for a communication site](media/change-admins.png)
   
 
-## Add or remove site collection admins in the classic SharePoint admin center
-<a name="__toc341786265"> </a>
-
-To add or remove site collection admins on classic sites, you can use the classic SharePoint admin center:
-  
-1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
-    
-    > [!NOTE]
-    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
-    
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
- 
-3. Select **Active sites.**
-    
-4. Point to the site collection for which you want to change the administrators, and then select the check box in front of it. 
-    
-    ![SPO Selecting a collection from within the site collection list](media/6e5db026-befa-46b7-9e05-77c022919c88.PNG)
-  
-5. Select **Owners**, and then select **Manage Administrators**.
-    
-    ![SPO Site administrator owners button with Manage Administrators highlighted.](media/45326c50-d66f-44e7-b5f3-65ff85ca18f7.png)
-  
-6. Change the name in the **Primary Site Collection Administrator** box, or add or remove names in the **Site Collection Administrators** box. 
-    
-    ![Site administrator dialog box.](media/488ca762-cbe2-458c-8e21-7f640471a565.PNG)
-  
-6. Select **Check Names**![Check Names button](media/bfa3e094-27e7-4ded-b5b9-de97518f6375.png) to verify that the user names are valid. 
-    
-7. Select **OK**.
-    
-

@@ -108,9 +108,10 @@ The default result source is **Local SharePoint Results**, but you can choose to
 
     For a tenant, in the classic SharePoint admin center, select **Open it now** at the top of the page to open the new SharePoint admin center.  Under **search**, select **Open**, and then on the search administration page, select **Manage Result Sources**.
     
-    For a **site collection**: In your site collection, go to **Settings**, select **Site settings** and then under **Site Collection Administration**, select **Search Result Sources**.
-    
-    For a **site**: On your site, go to **Settings**, select **Site settings**, and then under **Search**, select **Result Sources**.
+    For a **site collection**: in the classic SharePoint admin center, select **Open it now** at the top of the page to open the new SharePoint admin center.  Select **Classic features**. Under **search**, select **Open**, and then on the search administration page, select **Manage Result Rules**.
+
+    For a **site**: On your site, in the classic SharePoint admin center, select **Open it now** at the top of the page to open the new SharePoint admin center.  Under **search**, select **Open**, and then on the search administration page, select **Manage Result Sources**.
+
     
 2. On the **Manage Result Sources** page, point to the result source that you want to set as the default, select the arrow that appears, and then select **Set as Default**.
     
