@@ -1,10 +1,11 @@
 ---
 title: "Search Center settings"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
 ms.date: 6/29/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal

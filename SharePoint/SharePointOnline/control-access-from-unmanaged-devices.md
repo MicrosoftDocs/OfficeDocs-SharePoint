@@ -1,9 +1,10 @@
 ---
 title: "Control access from unmanaged devices"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
@@ -40,7 +41,7 @@ Limiting access allows users to remain productive while addressing the risk of a
 
   
 > [!NOTE]
-> Blocking or limiting access on unmanaged devices relies on Azure AD conditional access policies. [Learn about Azure AD licensing](https://azure.microsoft.com/pricing/details/active-directory/) For an overview of conditional access in Azure AD, see [Conditional access in Azure Active Directory](/azure/active-directory/conditional-access/overview). For info about recommended SharePoint access policies, see [Policy recommendations for securing SharePoint sites and files](/microsoft-365/enterprise/sharepoint-file-access-policies). If you limit access on unmanaged devices, users on managed devices will also have limited access when they use the following browser and operating system combinations: <br>Chrome, Firefox, or any other browser besides Microsoft Edge and Microsoft Internet Explorer on Windows 10 or Windows Server 2016 <br>Firefox in Windows 8.1, Windows 7, Windows Server 2012 R2, Windows Server 2012, or Windows Server 2008 R2 
+> Blocking or limiting access on unmanaged devices relies on Azure AD conditional access policies. [Learn about Azure AD licensing](https://azure.microsoft.com/pricing/details/active-directory/) For an overview of conditional access in Azure AD, see [Conditional access in Azure Active Directory](/azure/active-directory/conditional-access/overview). For info about recommended SharePoint access policies, see [Policy recommendations for securing SharePoint sites and files](/microsoft-365/enterprise/sharepoint-file-access-policies). If you limit access on unmanaged devices, users on managed devices must use one of the [supported OS and browser combinations](/azure/active-directory/conditional-access/technical-reference#client-apps-condition), or they will also have limited access.  
   
 ## Block access using the new SharePoint admin center 
 
@@ -55,7 +56,7 @@ Limiting access allows users to remain productive while addressing the risk of a
 
 4. In the left pane of the new SharePoint admin center, select **Access control**, and then select **Unmanaged devices**. 
 
-5. Select **Block access**, and then select **Save**.   
+5. Select **Block access**, and then select **Save**. (Note that selecting this option will disable any previous conditional access policies you created from this page and create a new conditional access policy that applies to all users. Any customizations you made to previous policies will not be carried over.)
 
     ![The Unmanaged devices pane in the new SharePoint admin center](media/unmanaged-devices-block-access.png) 
 
@@ -133,7 +134,7 @@ Limiting access allows users to remain productive while addressing the risk of a
 
 4. In the left pane, select **Access control**, and then select **Unmanaged devices**. 
 
-5. Select **Allow limited, web-only access**, and then select **Save**.   
+5. Select **Allow limited, web-only access**, and then select **Save**. (Note that selecting this option will disable any previous conditional access policies you created from this page and create a new conditional access policy that applies to all users. Any customizations you made to previous policies will not be carried over.)
 
     ![The Unmanaged devices pane in the new SharePoint admin center](media/unmanaged-devices-limit-access.png) 
 
@@ -253,6 +254,10 @@ Blocking access and blocking download may impact the user experience in some app
 > [!NOTE]
 > Apps that run in "app-only" mode in the service, like antivirus apps and search crawlers, are exempted from the policy.</br>If you're using classic SharePoint site templates, site images may not render correctly. This is because the policy prevents the original image files from being downloaded to the browser. 
   
+## Need more help?
+
+[!INCLUDE[discussionforums.md](includes/discussionforums.md)]
+
 ## See also
 
 

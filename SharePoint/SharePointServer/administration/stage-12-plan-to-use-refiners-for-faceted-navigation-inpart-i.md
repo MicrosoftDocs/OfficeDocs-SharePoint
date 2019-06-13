@@ -1,10 +1,11 @@
 ---
 title: "Stage 12 Plan to use refiners for faceted navigation in SharePoint Server - Part I"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
 ms.date: 9/17/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal

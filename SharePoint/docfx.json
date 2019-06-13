@@ -74,7 +74,8 @@
       "contributors_to_exclude": [
         "dstrome",
         "daswifty",
-        "Reraghavan"
+        "Reraghavan",
+        "denisebmsft"
       ],
       "searchScope": ["SharePoint Server"],
       "feedback_system": "GitHub",

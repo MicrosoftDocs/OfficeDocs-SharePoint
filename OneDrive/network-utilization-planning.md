@@ -1,9 +1,10 @@
 ---
 title: "Network utilization planning for the OneDrive sync client"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.service: one-drive
 localization_priority: Normal

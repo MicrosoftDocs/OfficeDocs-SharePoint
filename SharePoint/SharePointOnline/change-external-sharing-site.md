@@ -1,9 +1,10 @@
 ---
 title: "Change the external sharing setting for a site"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Priority
@@ -19,7 +20,7 @@ description: "Learn how to change the external sharing setting for a site."
 
 # Turn external sharing on or off for a site
 
-You must be a global or SharePoint admin in Office 365 to change the external sharing setting for a site (previously called a "site collection"). Site administrators are not allowed to change this setting.
+You must be a global or SharePoint admin in Office 365 to change the external sharing setting for a site (previously called a "site collection"). Site owners are not allowed to change this setting.
   
 Note that this procedure applies to classic sites, communication sites, and new team sites. To learn how to change the external sharing setting for a user's OneDrive, see [Change the external sharing setting for a user's OneDrive](/onedrive/user-external-sharing-settings). For info about changing your organization-level settings, see [Turn external sharing on or off for SharePoint Online](turn-external-sharing-on-or-off.md).
   
@@ -45,7 +46,7 @@ Note that this procedure applies to classic sites, communication sites, and new 
 |**Select this option:**|**If you want to:**|
 |:-----|:-----|
 |Anyone  <br/> | Allow site owners and others with full control permission to share the site with people who authenticate. Allow site users to decide when sharing files and folders to require authentication or allow people to access the item anonymously. Anyone links to files and folders can be freely forwarded. <br/> |
-|New and existing guests  <br/> | Allow site owners and others with full control permission to share the site with people outside the organization. These people will need to sign in and will be added to the directory. Allow site users to share files and folders with people who aren't in the organization's directory. Invitations to view content can be redeemed only once. After an invitation has been accepted, it can't be shared or used by others to gain access.  <br/> |
+|New and existing guests  <br/> | Allow site owners and others with full control permission to share the site with people outside the organization. These people will need to sign in and will be added to the directory. Allow site users to share files and folders with people who aren't in the organization's directory. <br/> |
 |Existing guests  <br/> |Allow sharing with only people already in your directory. These users may exist in your directory because they previously accepted sharing invitations or because they were [manually added](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal). (You can tell an external user because they have **#EXT#** in their user name.)  <br/> |
 |Only people in your organization  <br/> |Prevent all site users from sharing any site content externally. (This is the default setting for new classic sites.)  <br/> |
 

@@ -1,10 +1,11 @@
 ---
 title: "Install prerequisites for SharePoint Server from a network share"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
 ms.date: 7/24/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
 localization_priority: Critical

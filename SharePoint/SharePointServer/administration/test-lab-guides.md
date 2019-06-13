@@ -1,10 +1,11 @@
 ---
 title: "Test lab guides for SharePoint Server 2013"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
 ms.date: 7/7/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -38,8 +39,7 @@ You might need additional software to view these files. See the following table 
   
 |**File type**|**Software**|
 |:-----|:-----|
-|.pptx  <br/> |Microsoft PowerPoint 2013, PowerPoint 2010, or the [free PowerPoint viewer](https://go.microsoft.com/fwlink/p/?LinkId=272415) <br/> If you use the PowerPoint viewer, right-click the **PowerPoint version** link, click **Save Target As**, save the file to your computer, and then open the file from your computer.  <br/> |
-|.pdf  <br/> |Any PDF viewer, such as [Adobe Reader](https://go.microsoft.com/fwlink/p/?LinkId=134751) <br/> |
+|.pptx  <br/> |Microsoft PowerPoint 2016, Microsoft PowerPoint 2013, Microsoft PowerPoint 2010, or PowerPoint Viewer.
    
  **SharePoint 2013 test lab guide stack**
   

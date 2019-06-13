@@ -1,9 +1,10 @@
 ---
 title: "Change the default link type for sharing files and folders"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 f1_keywords:
 - 'WSSCentralAdmin_SharingLinkTypeLearnMore'

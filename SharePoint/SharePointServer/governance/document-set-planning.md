@@ -1,10 +1,11 @@
 ---
 title: "Plan document sets in SharePoint Server 2013"
+ms.reviewer: 
 ms.author: toresing
 author: tomresing
 manager: pamgreen
 ms.date: 3/1/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal

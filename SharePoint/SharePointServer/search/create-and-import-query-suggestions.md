@@ -1,10 +1,11 @@
 ---
 title: "Create and import query suggestions for the classic search experience in SharePoint Server"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen
 ms.date: 9/5/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal

@@ -1,10 +1,11 @@
 ---
 title: "Plan browser support in SharePoint Servers 2016 and 2019"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
 ms.date: 7/24/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: interactive-tutorial
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal

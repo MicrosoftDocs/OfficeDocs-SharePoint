@@ -1,9 +1,10 @@
 ---
 title: "Get started with the new SharePoint admin center"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: overview
 ms.service: sharepoint-online
 localization_priority: Normal

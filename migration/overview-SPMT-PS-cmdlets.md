@@ -1,9 +1,10 @@
 ---
 title: "Using PowerShell cmdlets to migrate to SharePoint Online"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority

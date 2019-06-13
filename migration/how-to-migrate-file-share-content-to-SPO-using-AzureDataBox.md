@@ -1,9 +1,10 @@
 ---
 title: "How to migrate your file share content to SharePoint Online using the Azure Data Box"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 search.appverid: MET150

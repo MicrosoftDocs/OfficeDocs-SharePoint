@@ -1,10 +1,11 @@
 ---
 title: "Create an external business-sharing site in SharePoint Online"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 6/29/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
@@ -148,9 +149,9 @@ When you are done collaborating with your external users, you can remove their a
   
  **Removing a user from having access to the site**
   
-1. On your website or team site, select **Settings**, and then select **Site settings**. 
+1. On the site, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**.
     
-2. On the Site settings page, under **Users and Permissions**, select **People and Groups**.
+2. On the Site Settings page, under **Users and Permissions**, select **People and Groups**.
     
 3. On the People and Groups page, select the name of the group to which you added the user.
     

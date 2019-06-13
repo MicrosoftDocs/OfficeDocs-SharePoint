@@ -1,10 +1,11 @@
 ---
 title: "Office Delve for Office 365 admins"
+ms.reviewer: 
 ms.author: gretel
 author: gretel
 manager: arnek
 ms.date: 6/7/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: overview
 ms.service: sharepoint-online
 localization_priority: Normal

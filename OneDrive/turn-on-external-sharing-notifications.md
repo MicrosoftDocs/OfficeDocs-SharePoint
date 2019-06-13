@@ -1,10 +1,11 @@
 ---
 title: "Turn on external sharing notifications for OneDrive"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
 ms.date: 06/21/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: one-drive
 localization_priority: Normal

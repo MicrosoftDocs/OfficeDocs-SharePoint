@@ -1,10 +1,11 @@
 ---
 title: "Manage the Search Center in SharePoint Online"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
 ms.date: 4/5/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal

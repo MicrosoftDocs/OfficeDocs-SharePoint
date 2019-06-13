@@ -1,10 +1,11 @@
 ---
 title: "Request app installation permissions"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
 ms.date: 5/22/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
@@ -60,13 +61,19 @@ The app catalog is where you store and manage all apps for the organization. The
   
 1. Browse to your app catalog. (In the SharePoint admin center, select **apps** in the left pane and then click the **App Catalog** link.) 
     
-2. Click **Settings**![Office 365 Settings button](media/a9a59c0f-2e67-4cbf-9438-af273b0d552b.png)\> **Site settings** \> **Site Collection Administration** \> **Manage App Requests**.
+2. Click **Settings** ![Settings icon](media/a9a59c0f-2e67-4cbf-9438-af273b0d552b.png)\> **Site settings** \> **Site Collection Administration** \> **Manage App Requests**.
     
 3. In the left nav, select **App Requests**.
     
     ![Screen shot showing the App Request link](media/43dc9a1b-61da-4304-acd1-70e16e06907b.png)
   
 4. Click the title of each pending request to review it. Once the request is approved or denied, it is removed from the view. If you change your mind about allowing an app or apps to be added to you sites, you can revoke approval on the request. To revoke approval for a request, choose the request and click **Remove Approvals**.
+
+## Make the application available
+
+Once the status has been changed to **Approved**, go to the SharePoint Store and acquire the app. This is done by clicking the link next to **View App Details** on the App Request entry.
+
+At this point, site owners can check the **Your Requests** list to view the status of their request. After the application has been acquired and approved, it will show up in the **Apps you've requested** list.
     
 ## Delegate approval authority
 
@@ -79,7 +86,7 @@ As a global admin or SharePoint admin in your organization, you can delegate app
   
 1. Browse to your app catalog. (In the SharePoint admin center, select **apps** in the left pane and then click the **App Catalog** link.) 
     
-2. Select **Settings**![Office 365 Settings button](media/a9a59c0f-2e67-4cbf-9438-af273b0d552b.png) \> **Site settings** \> **Users and Permissions** \> **Site collection administrators**.
+2. Select **Settings** ![Settings icon](media/a9a59c0f-2e67-4cbf-9438-af273b0d552b.png) \> **Site settings** \> **Users and Permissions** \> **Site collection administrators**.
     
 3. Type the name of the group or individuals who you want to add as site collection administrators.
     

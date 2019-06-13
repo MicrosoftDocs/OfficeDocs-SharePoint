@@ -1,10 +1,11 @@
 ---
 title: "Search"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen
 ms.date: 3/12/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: hub-page
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal

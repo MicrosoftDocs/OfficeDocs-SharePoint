@@ -1,10 +1,11 @@
 ---
 title: "SharePoint 2013 dev/test environments in Azure"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
 ms.date: 03/15/2019
-ms.audience: ITPro
+audience: ITPro
 ms.topic: hub-page
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal

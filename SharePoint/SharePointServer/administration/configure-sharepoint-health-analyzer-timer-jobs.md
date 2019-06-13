@@ -1,10 +1,11 @@
 ---
 title: "Configure SharePoint Health Analyzer timer jobs in SharePoint Server 2016"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
 ms.date: 7/31/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
