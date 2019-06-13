@@ -1,6 +1,4 @@
 ﻿
-  
-
 # [SharePoint Online](sharepoint-online.md)
 ## [Get started]()
 ### [Introduction](introduction.md)
