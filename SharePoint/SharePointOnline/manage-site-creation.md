@@ -50,20 +50,11 @@ Some functionality is introduced gradually to organizations that have signed up 
  
 ## Manage detailed site and subsite creation settings in the classic SharePoint admin center
 
-1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
+1.  In the left pane of the new SharePoint admin center, select **Settings**. At the bottom of the page, select **classic settings page**.  
     
-    > [!NOTE]
-    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
+2. Under **Site Creation**, select to show or hide the Create site command.
     
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
- 
-3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. .
-    
-4. In the left pane, select **settings**.
-    
-5. Under **Site Creation**, select to show or hide the Create site command.
-    
-6. If you select **Show the Create site command**, specify the type of site that users can create.
+3. If you select **Show the Create site command**, specify the type of site that users can create.
     
     ![Site creation settings](media/df009314-836b-4ed1-b656-c5c6dd07f1a5.png)
   
@@ -78,4 +69,4 @@ Some functionality is introduced gradually to organizations that have signed up 
     > [!NOTE]
     > For info about classifying Office 365 groups, see [Manage Office 365 Groups with PowerShell](/office365/enterprise/manage-office-365-groups-with-powershell). 
   
-7. Select **OK**.
+4. Select **OK**.

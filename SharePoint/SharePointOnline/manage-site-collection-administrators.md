@@ -38,13 +38,13 @@ By using the new SharePoint admin center, you can change the owners for sites th
     
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.)
 
-If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
+3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
     
-3. In the left pane of the new SharePoint admin center, select **Active sites**.
+4. In the left pane of the new SharePoint admin center, select **Active sites**.
 
-4. In the left column, click to select a site.
+5. In the left column, click to select a site.
   
-5. Select **Owners**. For a group-connected team site, you can add and remove group owners. For other sites, you can change the primary admin and add and remove other admins. Note that if you remove a person as a primary admin, they will still be listed as an additional admin.
+6. Select **Owners**. For a group-connected team site, you can add and remove group owners. For other sites, you can change the primary admin and add and remove other admins. Note that if you remove a person as a primary admin, they will still be listed as an additional admin.
 
 ![Changing admins for a communication site](media/change-admins.png)
   

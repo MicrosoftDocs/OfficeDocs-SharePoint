@@ -57,21 +57,22 @@ Follow these steps to specify individual site storage limits when your storage m
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
+
+3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
     
-3. On the **Active sites** page of the new SharePoint admin center, select a site, select the ellipsis (...), and then select **Storage**. 
+4. On the **Active sites** page of the new SharePoint admin center, select a site, select the ellipsis (...), and then select **Storage**. 
 
 ![Changing the storage limit for a site](media/site-storage-limit.png)
     
-4. Enter the maximum storage in GB for the site. 
+5. Enter the maximum storage in GB for the site. 
 
   > [!NOTE]
   > The max value you can enter is 25600 GB, although this may be more space than your organization has. To see how much space comes with your subscription, see [SharePoint Online Limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits).<br> If you set site storage limits in PowerShell, you enter them in MB. The values are converted and rounded down to the nearest integer to appear in GB in both the new and classic SharePoint admin centers. So a value of 5000 MB becomes 4 GB. The minimum storage limit is 1 GB, so if you set a value of less than 1024 MB by using PowerShell, it will be rounded up to 1 GB.
     
-5. Make sure **Notifications** is turned on to send an email to site admins when the site approaches the storage limit. Then enter a value as a percent for how full you want the storage to be when the email is sent. 
+6. Make sure **Notifications** is turned on to send an email to site admins when the site approaches the storage limit. Then enter a value as a percent for how full you want the storage to be when the email is sent. 
  
-  
-6. Select **Save**.
+7. Select **Save**.
     
 ### Monitor site storage limits by using PowerShell
 
