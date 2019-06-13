@@ -30,7 +30,14 @@ Most migrations fall into regular phases as described below.  Proven success fac
 
 
 ## Planning
-Before beginning your migration, it is important that you plan your outcome by performing an assessment of your current source environment. What you discover will influence your overall strategy and timing, including:
+Before beginning your migration, it is important that you plan your outcome by performing an assessment of your current source environment. 
+
+Plan your User Onboarding efforts to prepare your users for change and how it will impact them.  See "User Onboarding" section.
+
+We highly recommend that you consider setting up a hybrid environment at the beginning.
+ Learn more at:   [SharePoint Hybrid Configuration Roadmaps](https://docs.microsoft.com/en-us/sharepoint/hybrid/configuration-roadmaps).
+
+What you discover will influence your overall strategy and timing, including:
 
 - The mapping of content from your source site to the destination site.
 
@@ -38,8 +45,7 @@ Before beginning your migration, it is important that you plan your outcome by p
 
 - Set permissions so IT can read/write from source to target destination
 
-- We highly recommend that you consider setting up a hybrid environment at the beginning.
- Learn more at:   [SharePoint Hybrid Configuration Roadmaps](https://docs.microsoft.com/en-us/sharepoint/hybrid/configuration-roadmaps).
+
 
 
 ### Understanding the modern architecture
@@ -127,7 +133,7 @@ Create modern hub sites based on how you have mapped your sites to a system of h
 
 Below is a typical migration process that follows Microsoft’s best practices guidance.
 
-1. Select a small set of users for a pilot migration. The goal of the pilot is to validate the process, including performance, user communication, and to get a sample of user feedback.</br></br>
+1. Select a small set of sites for a pilot migration. The goal of the pilot is to validate the process, including performance, user communication, and to get a sample of user feedback.</br></br>
 2.	Perform the pilot migration. This should use an incremental migration method, in which migration happens in the background with no user impact, followed by a cutover event in which SharePoint Server team sites are disabled and they are directed to use the SharePoint Online environment. This method is preferred as it reduces user impact.</br></br>
 3.	Understand the data from the pilot migration to determine the remainder of your migration schedule and make any changes. For example, you may update your user communication template to address a question you received from a pilot user.</br></br>
 4.	Perform the remainder of the migration. This should also follow an incremental migration method, just like the pilot. Microsoft recommends a single cutover event for all users to switch to using their SharePoint sites. This helps eliminate users from updating duplicate copies of content.</br></br>
@@ -161,12 +167,15 @@ Develop a plan to prepare your users for the upcoming change. Consideration fact
 - Let them know whether individuals can opt-out of the migration process
 
 ### Onboarding related resources
-- [Microsoft 365 adoption guide](https://devfasttrackv4storage.blob.core.windows.net/marketing/en-us/resources/Microsoft%20365%20User%20Adoption%20Guide.pdf): Outlining methodology and resources for implementing proven adoption success factors
 
-- [Ways to work online with SharePoint](https://support.office.com/en-us/article/ways-to-work-with-sharepoint-11de936c-8fed-4474-ac58-583d0c38ac12)
-- [Team library video training](https://support.office.com/en-us/article/video-create-a-team-or-communication-site-551e190a-8fbe-47ae-a88a-798b443c46b1?ui=en-US&rs=en-US&ad=US)
-- [Quick start training ](https://support.office.com/en-us/article/sign-in-to-sharepoint-online-324a89ec-e77b-4475-b64a-13a0c14c45ec?ui=en-US&rs=en-US&ad=US) 
-- [SharePoint Online video training](https://support.office.com/en-us/article/SharePoint-Online-video-training-cb8ef501-84db-4427-ac77-ec2009fb8e23)
+   ![User onboarding](media/SP-User-Onboard.png)
+
+The SharePoint adoption resource center serves as a one stop shop for all adoption and change management related content.  The Success Factors detailed on the SharePoint Adoption Resource website will help make sure you’re set up for a successful roll-out of SharePoint. 
+
+- **[SharePoint Adoption Resource Center](https://resources.techcommunity.microsoft.com/resources/SharePoint-adoption/)**
+
+ ![SharePoint Adoption](media/SP-Adoption-Success-Factors.png)
+
 
 
 
