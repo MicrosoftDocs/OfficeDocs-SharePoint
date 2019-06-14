@@ -11,7 +11,7 @@
 ### [Manage site creation](manage-site-creation.md)
 ### [Manage site storage limits](manage-site-collection-storage-limits.md)
 ### [Add featured links to SharePoint start page](change-links-list-on-sharepoint-home-page.md)
-### [Create guidelines for site usage](sites-usage-guidelines.md)
+### [Create guidelines for site usage ](sites-usage-guidelines.md)
 ## [Guide to the modern experience]()
 ### [Overview](guide-to-sharepoint-modern-experience.md)
 ### [Information architecture](information-architecture-modern-experience.md)
