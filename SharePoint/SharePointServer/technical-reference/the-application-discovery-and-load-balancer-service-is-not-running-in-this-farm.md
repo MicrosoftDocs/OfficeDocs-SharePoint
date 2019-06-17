@@ -55,6 +55,6 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: The Appl
   
    `Start-SPServiceInstance [-Identity]`
     
-   Where  _[-Identity]_ is the GUID for the Application Discovery and Load Balancer service. For more information, see [Start-SPServiceInstance](/powershell/module/sharepoint-server/Start-SPServiceInstance?view=sharepoint-ps).
+   Where  _[-Identity]_ is the GUID for the Application Discovery and Load Balancer service. You can run the Get-SPServiceInstance cmdlet to see the GUID of the service instance. For more information, see [Start-SPServiceInstance](/powershell/module/sharepoint-server/Start-SPServiceInstance?view=sharepoint-ps).
     
 
