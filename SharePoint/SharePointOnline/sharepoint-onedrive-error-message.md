@@ -56,7 +56,7 @@ Try sharing again.
 
 ## OSE202
 
-Error OSE202 indicates that you can only share with guest users who are already in your directory. You can [add guests directly through Azure Active Directory](https://docs.microsoft.com/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal), or you can change the setting by doing the following:
+Error OSE202 indicates that you can only share with guests who are already in your directory. You can [add guests directly through Azure Active Directory](https://docs.microsoft.com/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal), or you can change the setting by doing the following:
 
 First, change the external sharing setting for your organization.
 
@@ -108,7 +108,7 @@ Try sharing again.
 
 ## OSE205
 
-Error OSE205 indicates that you can only share the site with guest users who are already in your directory. You can [add guests directly through Azure Active Directory](https://docs.microsoft.com/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal), or you can change the setting by doing the following:
+Error OSE205 indicates that you can only share the site with guests who are already in your directory. You can [add guests directly through Azure Active Directory](https://docs.microsoft.com/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal), or you can change the setting by doing the following:
 
 1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
@@ -138,104 +138,128 @@ Try sharing again.
 
 ## OSE208
 
-Error OSE208 indicates that you can only share OneDrive sites with guest users who are already in your directory. You can [add guests directly through Azure Active Directory](https://docs.microsoft.com/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal), or you can change the setting by doing the following:
+Error OSE208 indicates that you can only share OneDrive files and folders with guests who are already in your directory. You can [add guests directly through Azure Active Directory](https://docs.microsoft.com/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal), or you can change the setting by doing the following:
 
 1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
-2. In the left pane, under **Admin centers**, select **OneDrive**. (You might need to select **Show all** to see the list of admin centers.) 
-3. Select **Sharing**. 
-4. Under **External sharing**, select either **New and existing external users** or **Anyone** for **OneDrive**.
-5. Click **Save**.
+
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
+
+3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
+
+4. In the left pane of the new SharePoint admin center, under **Policies**, select **Sharing**.
+
+5. Under **External sharing**, change the OneDrive setting to either **Anyone** or **New and existing external users**.
+
+6. Select **Save**.
 
 Try sharing again.
 
 ## OSE303
 
-Error OSE303 indicates that the person sharing the file or folder is not a member of the security groups that are allowed to share with authenticated users and by using anonymous links. To change this setting:
+Error OSE303 indicates that the person sharing the file or folder is not a member of the security groups that are allowed to share with guests who sign in and by using Anyone links. To change this setting:
 
 1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
+
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
-3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
-4. In the left pane, click **sharing**.
+
+3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
+
+4. In the left pane of the new SharePoint admin center, under **Policies**, select **Sharing**.
+
 5. Select **Limit external sharing to specific security groups**.
-6. Under **Who can share outside your organization**. note the security groups listed for **Let only users in selected security groups share with authenticated external users and using anonymous links**. You need to add the user to one of the listed security groups. (Alternatively, you can uncheck the check box and remove the sharing restriction.)
+
+6. Under **Who can share outside your organization**, note the security groups listed for **Let only users in selected security groups share with authenticated external users and using anonymous links**. You need to add the user to one of the listed security groups. (Alternatively, you can clear the check box and remove the sharing restriction.)
 
 To add a user to a security group:
 
-1. In the Microsoft 365 admin center, in the left pane, expand **Groups** and then click **Groups**.
-2. Scroll through the list of groups to find the one that you want to edit.
-3. Click the group, and then in the details pane, click **Edit** for **Members**.
-4. Click **Add members**.
-5. Type the user's name in the search box, select the check box in the results list, and then click **Save**.
-6. Click **Close** three times.
+1. On the [Groups page of the Microsoft 365 admin center](https://admin.microsoft.com/Adminportal/Home#/groups), find the group you want to edit.
+2. Select the group, and then on the Members tab, select **View all and manage members**.
+3. Select **Add members**.
+4. Enter the user's name in the search box, select the check box in the results list, and then click **Save**.
+5. Click **Close** three times.
 
 Try sharing again.
 
 ## OSE304
 
-Error OSE304 indicates that the person sharing the file or folder is not a member of the security groups that are allowed to share with authenticated users. To change this setting:
+Error OSE304 indicates that the person sharing the file or folder is not a member of the security groups that are allowed to share with guests who sign in. To change this setting:
 
 1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
+
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
-3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
-4. In the left pane, click **sharing**.
+
+3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
+
+4. In the left pane of the new SharePoint admin center, under **Policies**, select **Sharing**.
+
 5. Select **Limit external sharing to specific security groups**.
-6. Under **Who can share outside your organization**. note the security groups listed for **Let only users in selected security groups share with authenticated external users**. You need to add the user to one of the listed security groups. (Alternatively, you can uncheck the check box and remove the sharing restriction.)
+
+6. Under **Who can share outside your organization**, note the security groups listed for **Let only users in selected security groups share with authenticated external users**. You need to add the user to one of the listed security groups. (Alternatively, you can clear the check box and remove the sharing restriction.)
 
 To add a user to a security group:
 
-1. In the Microsoft 365 admin center, in the left pane, expand **Groups** and then click **Groups**.
-2. Scroll through the list of groups to find the one that you want to edit.
-3. Click the group, and then in the details pane, click **Edit** for **Members**.
-4. Click **Add members**.
-5. Type the user's name in the search box, select the check box in the results list, and then click **Save**.
-6. Click **Close** three times.
+1. On the [Groups page of the Microsoft 365 admin center](https://admin.microsoft.com/Adminportal/Home#/groups), find the group you want to edit.
+2. Select the group, and then on the Members tab, select **View all and manage members**.
+3. Select **Add members**.
+4. Enter the user's name in the search box, select the check box in the results list, and then click **Save**.
+5. Click **Close** three times.
 
 Try sharing again.
 
 ## OSE401
 
-Error OSE401 indicates that the user you are trying to share with a domain that is not on the allow list for your organization. To change this setting:
+Error OSE401 indicates that your organization-level setting lets you share with only people on specific domains. The person you're trying to share with is not on one of the listed domains. To change this setting:
 
 1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
+
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
-3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
-4. In the left pane, click **sharing**.
-5. Under **Advanced settings for external sharing**, add the domain that you want to share with to the list of allowed domains. Alternatively, you can turn off domain filtering by clearing the **Limit external sharing using domains**. check box.
-6. Click **OK**.
+
+3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
+
+4. In the left pane of the new SharePoint admin center, under **Policies**, select **Sharing**.
+
+5. Under **Advanced settings for external sharing**, select **Add domains**, add the domain that you want to share with to the list of allowed domains, and select **OK**. Alternatively, you can turn off domain filtering by clearing the **Limit external sharing by domain** check box.
+6. Select **Save**.
 
 Try sharing again.
 
 ## OSE402
 
-Error OSE402 indicates that the user you are trying to share with a domain that is on the deny list for your organization. To change this setting:
+Error OSE402 indicates that your organization-level setting blocks sharing with people on specific domains. The person you're trying to share with is on one of the listed domains. To change this setting:
 
 1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
+
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
-3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
-4. In the left pane, click **sharing**.
-5. Under **Advanced settings for external sharing**, remove the domain that you want to share with from the list of denied domains. Alternatively, you can turn off domain filtering by clearing the **Limit external sharing using domains**. check box.
-6. Click **OK**.
+
+3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
+
+4. In the left pane of the new SharePoint admin center, under **Policies**, select **Sharing**.
+
+5. Under **Advanced settings for external sharing**, select **Add domains**, remove the domain from the list of blocked domains, and select **OK**. Alternatively, you can turn off domain filtering by clearing the **Limit external sharing by domain** check box.
+
+6. Select **Save**.
+
 
 Try sharing again.
 
 ## OSE403
 
-Error OSE403 indicates that the user you are trying to share with a domain that is not on the allow list for the site that you're sharing from. To change this setting:
+Error OSE403 indicates that the site from which you're sharing lets you share with only people on specific domains. The person you're trying to share with is not on one of the listed domains. To change this setting:
 
 1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
@@ -247,14 +271,14 @@ Error OSE403 indicates that the user you are trying to share with a domain that 
 5. Select **More classic features**.
 6. Under **Classic site collections page**, select **Open**.
 7. Select the site that you're sharing from, and then click **Sharing** in the ribbon.
-8. Under **Site collection additional settings**, add the domain that you want to share with to the list of allowed domains. Alternatively, you can turn off domain filtering by clearing the **Limit external sharing using domains**. check box.
+8. Under **Site collection additional settings**, add the domain that you want to share with to the list of allowed domains. Alternatively, you can turn off domain filtering by clearing the **Limit external sharing using domains** check box.
 9. Click **Save**.
 
 Try sharing again.
 
 ## OSE404
 
-Error OSE404 indicates that the user you are trying to share with a domain that is on the deny list for the site that you're sharing from. To change this setting:
+Error OSE404 indicates that the site from which you're sharing blocks sharing with people on specific domains. The person you're trying to share with is on one of the listed domains. To change this setting:
 
 1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
@@ -266,7 +290,7 @@ Error OSE404 indicates that the user you are trying to share with a domain that 
 5. Select **More classic features**.
 6. Under **Classic site collections page**, select **Open**.
 7. Select the site that you're sharing from, and then click **Sharing** in the ribbon.
-8. Under **Site collection additional settings**, remove the domain that you want to share with from the list of denied domains. Alternatively, you can turn off domain filtering by clearing the **Limit external sharing using domains**. check box.
+8. Under **Site collection additional settings**, remove the domain that you want to share with from the list of blocked domains. Alternatively, you can turn off domain filtering by clearing the **Limit external sharing using domains**. check box.
 9. Click **Save**.
 
 Try sharing again.
