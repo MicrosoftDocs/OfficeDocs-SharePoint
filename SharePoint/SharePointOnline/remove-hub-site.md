@@ -29,15 +29,17 @@ If you're a global or SharePoint admin in Office 365, you can make a hub site no
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
 
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
-      
-3. In the left pane of the new SharePoint admin center, select **Active sites**.
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
 
-4. Select the site, select **Hub**, and then select **Unregister as hub site**. 
+3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
+      
+4. In the left pane of the new SharePoint admin center, select **Active sites**.
+
+5. Select the site, select **Hub**, and then select **Unregister as hub site**. 
 
     ![Unregistering a hub site](media/unregister-hub-site.png)
 
-5. Select **OK**.  
+6. Select **OK**.  
 
 > [!NOTE]
 > If a hub site has associated sites then you unregister it, it might take a while for the sites to be disassociated. If you re-register the hub site, the sites may remain associated.

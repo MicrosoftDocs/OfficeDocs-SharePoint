@@ -21,7 +21,7 @@ description: "Learn about the cards on the Home page of the new SharePoint admin
 
 # Get started with the new SharePoint admin center
 
-The Home page of the new SharePoint admin center gives you an overview of SharePoint in your organization. To get access the new SharePoint admin center:
+The Home page of the new SharePoint admin center gives you an overview of SharePoint in your organization. To access the new SharePoint admin center:
 
 1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
@@ -33,6 +33,9 @@ The Home page of the new SharePoint admin center gives you an overview of ShareP
 3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
   
 Help us improve the new SharePoint admin center! Tell us what you like or don't like, send a suggestion, or file a bug. To send us feedback, click **Feedback** in the lower-right corner. 
+
+> [!TIP]
+> To set the new SharePoint admin center as the default experience, select **Settings** in the left pane, select **Default admin experience**, turn on **Open the new SharePoint admin center by default**, and then select **Save**.
 
 ## View reports
 
@@ -62,6 +65,38 @@ In the Service health section of the home page, you can see whether the SharePoi
   
 ![The Service health card on the Home page](media/0336aab6-aecb-494c-9cd2-f279f452cc79.PNG)
   
+## Where to find things in the new SharePoint admin center
+
+If you're used to working in the classic SharePoint admin center, use the following table to learn where you can find features and tasks in the new admin center.
+
+
+|Classic  |New  |Notes  |
+|---------|---------|---------|
+|site collections page     |    Active sites page     |      The new SharePoint admin center refers to site collections as "sites."   |
+|On the site collections page, select New > Private Site Collection    |    Active sites > Create     |     In the new SharePoint admin center, you can create Office 365 Group-connected team sites and communication sites, as well as classic sites.    |
+|Select site collections on the site collections page, and select Delete     |    On the Active sites page, select sites and then select Delete      |         |
+|Select a site collection on the site collections page and select Properties    |   On the Active sites page, select the site's name to open the details pane |    In the new SharePoint admin center, you can edit site details.     |
+|Select a site collection on the site collections page and select Owners > Manage Administrators     |    Active Sites -> Select site-> Owners button in command bar     |    The new experience also lets you view and edit Office 365 Group owners      |
+|Site Collections > Select site(s) > Sharing     |     Active Sites -> Select site(s) > Sharing button in command bar    |    The new experience now allows you to edit site-level sharing settings in bulk.   <As of June 2019, there are still a few site-level settings which we have not yet brought to the modern experience>     |
+|Site Collections > Buy Storage     |  [Buy a file storage add-on from the Microsoft 365 admin center](/office365/admin/subscriptions-and-billing/buy-or-edit-an-add-on?view=o365-worldwide)       |         |
+|Site Collections > Recycle Bin    |    Deleted sites     |         |
+|Term store, User profiles, Search, Apps |   Classic features page      |         |
+|BCS, Secure store, Records management, InfoPath, Hybrid picker  |  Classic features page > More classic features       |         |
+|Row11     |         |         |
+|Row12     |         |         |
+|Row13     |         |         |
+|Row14     |         |         |
+|Row15     |         |         |
+|Row16     |         |         |
+|Row17     |         |         |
+|Row18     |         |         |
+|Row19     |         |         |
+|Row20     |         |         |
+|Row21     |         |         |
+|Row22     |         |         |
+
+
+
 ## See also
 
 [Manage sites in the new SharePoint admin center](manage-sites-in-new-admin-center.md)
