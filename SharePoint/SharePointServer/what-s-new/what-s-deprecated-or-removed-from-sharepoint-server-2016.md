@@ -80,7 +80,7 @@ The following Excel Services functionality requires Excel Online in Office Onlin
     
 ## SharePoint BI capabilities
 
-If you want to use Microsoft SQL Server Power Pivot for SharePoint or Microsoft Power View for SharePoint for BI solutions with SharePoint Server 2016 you must install the Power Pivot or Power View add-ins for SQL Server 2016 RTM. The SQL Server 2014 (SP1) Power Pivot for SharePoint and Power View for SharePoint add-ins cannot be deployed or used withSharePoint Server 2016. To deploy these add-ins you need to upgrade to SQL Server 2016 RTM. For more information, see [New and improved features in SharePoint Server 2016](new-and-improved-features-in-sharepoint-server-2016.md). The following business intelligence features are available with SharePoint Server 2016 when you download SQL Server 2016 RTM:
+If you want to use Microsoft SQL Server Power Pivot for SharePoint or Microsoft Power View for SharePoint for BI solutions with SharePoint Server 2016 you must install the Power Pivot or Power View add-ins for SQL Server 2016 RTM. The SQL Server 2014 (SP1) Power Pivot for SharePoint and Power View for SharePoint add-ins cannot be deployed or used with SharePoint Server 2016. To deploy these add-ins you need to upgrade to SQL Server 2016 RTM. For more information, see [New and improved features in SharePoint Server 2016](new-and-improved-features-in-sharepoint-server-2016.md). The following business intelligence features are available with SharePoint Server 2016 when you download SQL Server 2016 RTM:
   
 - Power Pivot Gallery
     
