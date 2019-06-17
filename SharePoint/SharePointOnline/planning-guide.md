@@ -60,7 +60,7 @@ When you think about how to structure and govern your site collections, consider
 ### Delete and restore site collections
 <a name="metadata"> </a>
 
-As a SharePoint admin, you can delete and restore classic site collections using the SharePoint admin center. For info, see [Delete a site collection](delete-site-collection.md) and [Restore a deleted site collection](restore-deleted-site-collection.md).
+As a SharePoint admin, you can delete and restore site collections by using the SharePoint admin center. For info, see [Delete a site collection](delete-site-collection.md) and [Restore a deleted site collection](restore-deleted-site-collection.md).
   
 ## Manage permissions and help secure content
 <a name="__toc349560423"> </a>
