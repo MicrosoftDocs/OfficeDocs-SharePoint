@@ -73,27 +73,21 @@ If you're used to working in the classic SharePoint admin center, use the follow
 |Classic  |New  |Notes  |
 |---------|---------|---------|
 |site collections page     |    Active sites page     |      The new SharePoint admin center refers to site collections as "sites."   |
-|On the site collections page, select New > Private Site Collection    |    Active sites > Create     |     In the new SharePoint admin center, you can create Office 365 Group-connected team sites and communication sites, as well as classic sites.    |
-|Select site collections on the site collections page, and select Delete     |    On the Active sites page, select sites and then select Delete      |         |
+|On the site collections page, select New > Private Site Collection    |    Active sites > Create     |     In the new SharePoint admin center, you can create Office 365 group-connected team sites and communication sites, as well as classic sites.    |
+|Select site collections on the site collections page and select Delete     |    On the Active sites page, select sites and then select Delete      |         |
 |Select a site collection on the site collections page and select Properties    |   On the Active sites page, select the site's name to open the details pane |    In the new SharePoint admin center, you can edit site details.     |
-|Select a site collection on the site collections page and select Owners > Manage Administrators     |    Active Sites -> Select site-> Owners button in command bar     |    The new experience also lets you view and edit Office 365 Group owners      |
-|Site Collections > Select site(s) > Sharing     |     Active Sites -> Select site(s) > Sharing button in command bar    |    The new experience now allows you to edit site-level sharing settings in bulk.   <As of June 2019, there are still a few site-level settings which we have not yet brought to the modern experience>     |
-|Site Collections > Buy Storage     |  [Buy a file storage add-on from the Microsoft 365 admin center](/office365/admin/subscriptions-and-billing/buy-or-edit-an-add-on?view=o365-worldwide)       |         |
-|Site Collections > Recycle Bin    |    Deleted sites     |         |
+|Select a site collection on the site collections page and select Owners > Manage Administrators     |    On the Active sites page, select a site, and then select Owners      |    The new experience also lets you view and edit Office 365 Group owners      |
+|Select a site collection on the site collections page and select Sharing     |     On the Active sites page, select a site, and then select Sharing (or select multiple sites, and then select Bulk edit > Sharing)    |    Some site-level sharing settings are still coming to the new SharePoint admin center     |
+|On the site collections page, select Buy Storage     |  [Buy a file storage add-on from the Microsoft 365 admin center](/office365/admin/subscriptions-and-billing/buy-or-edit-an-add-on?view=o365-worldwide)       |         |
+|On the site collections page, select Recycle Bin    |    Deleted sites page    |         |
+|   Sharing page |       Sharing page  |        The new page includes the most common settings, and others are coming soon. |
+|Settings page     |    Settings page     |      The new page includes the most common settings, and others are coming soon.   |
+|Access control page     |    Access control page     |     The new SharePoint admin center contains all the classic settings and more.    |
 |Term store, User profiles, Search, Apps |   Classic features page      |         |
-|BCS, Secure store, Records management, InfoPath, Hybrid picker  |  Classic features page > More classic features       |         |
-|Row11     |         |         |
-|Row12     |         |         |
-|Row13     |         |         |
-|Row14     |         |         |
-|Row15     |         |         |
-|Row16     |         |         |
-|Row17     |         |         |
-|Row18     |         |         |
-|Row19     |         |         |
-|Row20     |         |         |
-|Row21     |         |         |
-|Row22     |         |         |
+|BCS, Secure store, Records management, InfoPath, Configure hybrid (hybrid picker)  |  Classic features page > More classic features       |         |
+
+
+
 
 
 
