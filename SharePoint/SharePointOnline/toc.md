@@ -1,6 +1,4 @@
 ﻿
-  
-
 # [SharePoint Online](sharepoint-online.md)
 ## [Get started]()
 ### [Introduction](introduction.md)
@@ -13,7 +11,7 @@
 ### [Manage site creation](manage-site-creation.md)
 ### [Manage site storage limits](manage-site-collection-storage-limits.md)
 ### [Add featured links to SharePoint start page](change-links-list-on-sharepoint-home-page.md)
-### [Create guidelines for site usage](sites-usage-guidelines.md)
+### [Create guidelines for site usage ](sites-usage-guidelines.md)
 ## [Guide to the modern experience]()
 ### [Overview](guide-to-sharepoint-modern-experience.md)
 ### [Information architecture](information-architecture-modern-experience.md)
@@ -107,6 +105,16 @@
 #### [Query throttling](query-throttling.md)
 #### [Search limits](search-limits.md)
 #### [View Popularity Trends and Most Popular Items](view-popularity-trends-and-most-popular-items.md)
+## [SharePoint Success Site]()
+### [Overview](SP-Success-Site-Intro.md)
+### [Prerequisites](SP-Success-Site-Prereq.md)
+### [Installation](SP-Success-Site-Install.md)
+### [Customize](SP-Success-Site-Custom.md)
+### [User Adoption](SP-Success-Site-Adoption.md)
+### [Measuring impact](SP-Success-Site-Measure.md)
+### [Troubleshooting](SP-Success-Site-Troubleshooting.md)
+### [FAQ](SP-Success-Site-FAQ.md)
+### [Sites Usage Guideline Checklist](sites-usage-guidelines.md)
 ## [Advanced]()
 ### [User profiles]()
 #### [Manage user profiles](manage-user-profiles.md)
