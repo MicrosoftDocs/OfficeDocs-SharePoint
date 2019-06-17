@@ -121,7 +121,7 @@ As with any extranet sharing scenario it's important to consider the lifecycle o
   
 ## See also
 
-[Manage external sharing for your SharePoint Online environment](external-sharing-overview.md)
+[External sharing overview](external-sharing-overview.md)
   
 [Extranet for Partners with Office 365](create-b2b-extranet.md)
   

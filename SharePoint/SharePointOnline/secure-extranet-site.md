@@ -23,7 +23,7 @@ description: "Learn how to restrict guest access to your SharePoint extranet sit
 
 Depending on your business needs, there are different approaches you can take to secure and restrict access to your SharePoint Online B2B extranet site. In SharePoint Online, you can control how and if invitations are sent to external users. These settings can be set at the organization level, globally controlling all sites. Some settings can also be set at the individual site collection level, allowing you tailor the settings based on the unique requirements for your partner relationship while keeping control on sites intended for internal corporate use only.
   
-For information about how to configure the sharing settings discussed in this article, see [Manage external sharing for your SharePoint Online environment](external-sharing-overview.md).
+For information about how to configure the sharing settings discussed in this article, see [External sharing overview](external-sharing-overview.md).
   
 > [!IMPORTANT]
 > Any organization-wide sharing settings that you configure also affect OneDrive for Business. 
