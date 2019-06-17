@@ -45,7 +45,7 @@ The API is made up of two input parameters url,  and an Optional Flag  and one o
 #### URL 
 The URL allows SPMT or third party tools to specify the root URL path of the Sharepoint objects to be read.  The server side code will read and return all the subfolder/files/list of that root URL.
 
-For example, if a document library URL is https://www.contoso.com/my-resource-document/, any files or folders share the same root URL, their individual URLs will look like https://www.contoso.com/my-resource-document/file1.doc or https://www.contoso.com/my-resource-document/folderA/file2.doc. Only the root url needs to be specified and it should be sent as a single request.
+For example, if a document library URL is https://www.contoso.com/my-resource-document/, any files or folders share the same root URL, and their individual URLs will look like this: https://www.contoso.com/my-resource-document/file1.doc or https://www.contoso.com/my-resource-document/folderA/file2.doc. Only the root URL needs to be specified and it should be sent as a single request.
 
 In terms of coverage, for the first version of the asyncMigrationRead covers the File/folder, list/list item and document library. Permission are expected to be covered in second version. The third version will extend to cover webpart and potentially taxonomy.
  
