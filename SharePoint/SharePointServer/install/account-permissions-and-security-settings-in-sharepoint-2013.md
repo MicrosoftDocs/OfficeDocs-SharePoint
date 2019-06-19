@@ -23,13 +23,12 @@ description: "Learn what permissions and security settings to use with a deploym
 This article describes SharePoint administrative and services account permissions for the following areas: Microsoft SQL Server, the file system, file shares, and registry entries.
   
 > [!IMPORTANT]
-> Do not use service account names that contain the symbol $. 
-  
-    
+> Do not use service account names that contain the symbol $ with the exception of using a Group Managed Service Account for SQL Server.
+   
 ## About account permissions and security settings
 <a name="Section1"> </a>
 
-The SharePoint Configuration Wizard (Psconfig) and the Farm Creation Wizard, both of which are run during a Complete installation, configure many of the SharePoint baseline account permissions and security settings.
+The SharePoint Configuration Wizard (psconfig) and the Farm Creation Wizard, both of which are run during a Complete installation, configure many of the SharePoint baseline account permissions and security settings.
   
 ## SharePoint administrative accounts
 <a name="Section2"> </a>
@@ -44,19 +43,17 @@ One of the following SharePoint components automatically configures most of the 
     
 - PowerShell.
     
-### Setup user administrator account
+### Farm administrator user  account
 
-This account is used to set up each server in your farm by running the SharePoint Configuration Wizard, the initial Farm Creation Wizard, and PowerShell. For the examples in this article, the setup user administrator account is used for farm administration, and you can use Central Administration to manage it. Some configuration options, for example, configuration of the SharePoint 2013 Search query server, require local administration permissions. The setup user administrator account requires the following permissions:
+This account is a uniquely identifiable account assigned to the SharePoint administrator and is used to set up each server in your farm by running the SharePoint Configuration Wizard, the initial Farm Creation Wizard, and PowerShell. The account must be a domain user. For the examples in this article, the farm administrator account is used for farm administration, and you can use Central Administration to manage it. Some configuration options such as configuration of the SharePoint 2013 Search query server require local administration permissions. The farm administrator user account requires the following permissions:
   
-- It must have domain user account permissions.
-    
-- It must be a member of the local administrators group on each server in the SharePoint farm.
+- It must be a member of the Local Administrators group on each server in the SharePoint farm.
     
 - This account must have access to the SharePoint databases.
     
-- If you use any PowerShell operations that affect a database, the setup user administrator account must be a member of the **db_owner** role. 
+- If you use any PowerShell operations that affect a database, the setup user administrator account must be a member of the **db_owner** role or **sysadmin** fixed server role.
     
-- This account must be assigned to the **securityadmin** and **dbcreator** SQL Server security roles during setup and configuration. 
+- This account must be assigned to the **securityadmin** and **dbcreator** fixed server roles during setup and configuration or the **sysadmin** fixed server role in SQL Server.
     
 > [!NOTE]
 > The **securityadmin** and **dbcreator** SQL Server security roles might be required for this account during a complete version-to-version upgrade because new databases might have to be created and secured for services. 
@@ -78,22 +75,18 @@ After you run the configuration wizards, database permissions include:
   
 ### SharePoint farm service account
 
-The server farm account, which is also referred to as the database access account, is used as the application pool identity for Central Administration and as the process account for the SharePoint Foundation 2013 Timer service. The server farm account requires the following permissions:
-  
-- It must have domain user account permissions.
+The server farm account, which is also referred to as the database access account, is used as the application pool identity for Central Administration and as the process account for the SharePoint Foundation 2013 Timer service. The server farm account must be a domain user account.
+
+Permissions are automatically granted to the server farm account on web servers and application servers that are joined to a server farm.
     
-Additional permissions are automatically granted to the server farm account on web servers and application servers that are joined to a server farm.
-  
-After you run Setup, machine-level permissions include:
-  
+After you run the configuration wizards, SQL Server and database permissions include:
+      
 - Membership in the WSS_ADMIN_WPG Windows security group for the SharePoint Foundation 2013 Timer service.
     
 - Membership in WSS_RESTRICTED_WPG for the Central Administration and Timer service application pools.
     
 - Membership in WSS_WPG for the Central Administration application pool.
-    
-After you run the configuration wizards, SQL Server and database permissions include:
-  
+
 - **Dbcreator** fixed server role. 
     
 - **Securityadmin** fixed server role. 
@@ -111,9 +104,11 @@ This section describes the service application accounts that are set up by defau
   
 ### Application pool account
 
-The application pool account is used for application pool identity. The application pool account requires the following permission configuration settings:
+The application pool account is used for application pool identity. The application pool account must be a domain user account.
   
-The following machine-level permission is configured automatically: The application pool account is a member of WSS_WPG.
+The following machine-level permission is configured automatically: 
+
+- The application pool account is a member of WSS_WPG.
   
 The following SQL Server and database permissions for this account are configured automatically:
   
@@ -144,6 +139,8 @@ The default content access account is used within a specific service application
 Content access accounts are configured to access content by using the Search administration crawl rules feature. This type of account is optional and you can configure it when you create a new crawl rule. For example, external content (such as a file share) might require this separate content access account. This account requires the following permission configuration settings:
   
 - The content access account must have read access to external or secure content sources that this account is configured to access.
+
+- The content access account must hold the **Manage auditing and security log** right in the Local User Policy on Windows file servers it is configured to crawl.
     
 - For SharePoint Server sites that are not part of the server farm, you have to explicitly grant this account full read permissions to the web applications that host the sites. 
     
@@ -161,7 +158,9 @@ Excel Services uses the Excel Services unattended service account to connect to 
   
 The My Sites application pool account must be a domain user account. This account must not be a member of the Farm Administrators group. 
   
-The following machine-level permission is configured automatically: This account is a member of WSS_WPG.
+The following machine-level permission is configured automatically: 
+
+- This account is a member of WSS_WPG.
   
 The following SQL Server and database permissions are configured automatically:
   
@@ -175,7 +174,9 @@ The following SQL Server and database permissions are configured automatically:
 
 The other application pool account must be a domain user account. This account must not be a member of the Administrators group on any computer in the server farm.
   
-The following machine-level permission is configured automatically: This account is a member of WSS_WPG.
+The following machine-level permission is configured automatically: 
+
+- This account is a member of WSS_WPG.
   
 The following SQL Server and database permissions are configured automatically:
   
@@ -188,7 +189,10 @@ The following SQL Server and database permissions are configured automatically:
 - This account is assigned to the WSS_CONTENT_APPLICATION_POOLS role that is associated with the farm configuration database.
     
 - This account is assigned to the WSS_CONTENT_APPLICATION_POOLS role that is associated with the SharePoint_Admin content database.
-    
+
+> [!NOTE]
+> We strongly recommend you use a single Web Application Pool account for all Web Applications in the farm, including the My Sites Web Application. The exception is the Central Administration Web Application which uses the Farm service account.
+
 ## SharePoint database roles
 <a name="Section4"> </a>
 
@@ -200,13 +204,13 @@ The WSS_CONTENT_APPLICATION_POOLS database role applies to the application pool 
   
 - The SharePoint_Config database (the configuration database).
     
-- The SharePoint_AdminContent database.
+- The SharePoint_Admin content database.
     
-Members of the WSS_CONTENT_APPLICATION_POOLS role have the execute permission for a subset of the stored procedures for the database. In addition, members of this role have the select permission to the Versions table (dbo.Versions) in the SharePoint_AdminContent database. For other databases, the accounts planning tool indicates that access to read these databases is automatically configured. In some cases, limited access to write to a database is also automatically configured. To provide this access, permissions for stored procedures are configured. 
+Members of the WSS_CONTENT_APPLICATION_POOLS role have the execute permission for a subset of the stored procedures for the database. In addition, members of this role have the select permission to the Versions table (dbo.Versions) in the SharePoint_Admin content database. For other databases, the accounts planning tool indicates that access to read these databases is automatically configured. In some cases, limited access to write to a database is also automatically configured. To provide this access, permissions for stored procedures are configured. 
   
 #### WSS_SHELL_ACCESS database role
 
-The secure WSS_SHELL_ACCESS database role on the configuration database replaces the need to add an administration account as a **db_owner** on the configuration database. By default, the setup account is assigned to the WSS_SHELL_ACCESS database role. You can use a PowerShell command to grant or remove memberships to this role. Setup assigns the WSS_SHELL_ACCESS role to the following databases: 
+The secure WSS_SHELL_ACCESS database role on the configuration database replaces the need to add an administration account as a **db_owner** on the configuration database. By default, the farm administrator account which initially ran the Configuration Wizard is assigned to the WSS_SHELL_ACCESS database role. You can use a PowerShell command to grant or remove memberships to this role. Setup assigns the WSS_SHELL_ACCESS role to the following databases: 
   
 - The SharePoint_Config database (the configuration database).
     
@@ -428,4 +432,3 @@ The following table shows the all SharePoint 2013 service accounts file system p
 #### Concepts
 
 [Install SharePoint Server](install.md)
-
