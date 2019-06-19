@@ -78,7 +78,7 @@ To create a report showing all file access activities for a external partner, se
 
 When a contract with a business partner ends, it is important that you remove any access that the external business partner has to SharePoint Online. Here is the checklist of administrative actions you need to take:
   
-- **Remove permissions** - [Remove partner users from security groups](create-external-business-sharing-site.md#managing-your-site), or [remove them as site members](https://support.office.com/article/8376034d-d0c7-446e-9178-6ab51c58df42). 
+- **Remove permissions** - [Remove partners from security groups](create-external-business-sharing-site.md#managing-your-site) or [remove them if they were individually added as site members](https://support.office.com/article/8376034d-d0c7-446e-9178-6ab51c58df42). 
     
 - **Delete partner user accounts** - Delete the partner users from Office 365 provided they no longer need access to any other resources in your organization. See [Delete a user from your organization](/office365/admin/add-users/delete-a-user).
     
