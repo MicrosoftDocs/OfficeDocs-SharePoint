@@ -1,10 +1,11 @@
 ---
 title: "SharePoint Online authentication"
+ms.reviewer: 
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 6/21/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: conceptual
 ms.service: sharepoint-online
 localization_priority: Normal

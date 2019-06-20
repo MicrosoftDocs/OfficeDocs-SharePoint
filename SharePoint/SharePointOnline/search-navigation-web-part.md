@@ -1,10 +1,11 @@
 ---
 title: "Change settings for the Search Navigation Web Part"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
 ms.date: 6/29/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
@@ -47,7 +48,7 @@ Here's how you can change the set-up of the Search Navigation Web Part. You can 
 ## Change the display name or the URL of a search vertical
 <a name="__toc347912379"> </a>
 
-1. On the **Settings** menu for the site, click **Site Settings**.
+1. On the site, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**.
     
 2. On the **Site Settings** page, in the **Search** section, click **Search Settings**.
     
@@ -67,7 +68,7 @@ Here's how you can change the set-up of the Search Navigation Web Part. You can 
 ## Change the order of the search vertical links
 <a name="__toc347912380"> </a>
 
-1. On the **Settings** menu for the site, click **Site Settings**.
+1. On the site, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**.
     
 2. On the **Site Settings** page, in the **Search** section, click **Search Settings**.
     
@@ -84,7 +85,7 @@ As a global or SharePoint admin in Office 365, you can create a new search verti
   
 Here's how you can add a link to the new search vertical page in the Web Part:
   
-1. On the **Settings** menu for the site, click **Site Settings**.
+1. On the site, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**.
     
 2. On the **Site Settings** page, in the **Search** section, click **Search Settings**.
     

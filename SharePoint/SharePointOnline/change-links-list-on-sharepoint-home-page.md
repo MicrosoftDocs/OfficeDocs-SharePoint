@@ -1,9 +1,10 @@
 ---
 title: "Add featured links to the SharePoint start page"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 f1_keywords:
 - 'WSSEndUser_SPMobileAndroid_LinksTabEmptyState_FL827915'

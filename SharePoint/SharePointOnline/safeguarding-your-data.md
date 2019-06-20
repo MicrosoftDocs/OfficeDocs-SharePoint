@@ -1,9 +1,11 @@
 ---
 title: "How SharePoint Online and OneDrive safeguard your data in the cloud"
+ms.reviewer: 
+manager: 
 ms.author: kaarins
 author: kaarins
 ms.date: 5/25/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: conceptual
 ms.service: sharepoint-online
 localization_priority: Normal

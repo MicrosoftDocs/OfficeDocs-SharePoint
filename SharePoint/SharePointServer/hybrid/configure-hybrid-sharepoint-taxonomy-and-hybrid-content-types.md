@@ -1,10 +1,11 @@
 ---
 title: "Configure hybrid SharePoint taxonomy and hybrid content types"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 01/23/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority

@@ -1,10 +1,11 @@
 ---
 title: "Install and configure SharePoint Server hybrid"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 6/20/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: hub-page
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority

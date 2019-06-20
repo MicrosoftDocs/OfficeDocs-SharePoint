@@ -1,9 +1,10 @@
 ---
 title: "Use Group Policy to control OneDrive sync client settings"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: one-drive
 localization_priority: Priority
@@ -93,7 +94,9 @@ The OneDrive Group Policy objects work by setting registry keys on the computers
 - [Prevent users from moving their Windows known folders to OneDrive](use-group-policy.md#BlockKnownFolderMove)
 
 - [Prevent users from redirecting their Windows known folders to their PC](use-group-policy.md#KFMBlockOptOut)
-    
+
+- [Prevent users from syncing libraries and folders shared from other organizations](use-group-policy.md#BlockExternalSync)
+
 - [Prevent users from syncing personal OneDrive accounts](use-group-policy.md#DisablePersonalSync)
  
 - [Prompt users to move Windows known folders to OneDrive](use-group-policy.md#KFMOptInWithWizard)
@@ -111,11 +114,11 @@ The OneDrive Group Policy objects work by setting registry keys on the computers
 - [Silently move Windows known folders to OneDrive](use-group-policy.md#KFMOptInNoWizard)
 
 - [Silently sign in users to the OneDrive sync client with their Windows credentials](use-group-policy.md#SilentAccountConfig)
- 
-> [!NOTE]
-> "Specify SharePoint Server URL and organization name" and "Specify the OneDrive location in a hybrid environment" are for customers who have SharePoint Server 2019. [More info about using the new OneDrive sync client with SharePoint Server 2019](/SharePoint/install/new-onedrive-sync-client/)
 
 - [Use OneDrive Files On-Demand](use-group-policy.md#FilesOnDemandEnabled)
+
+> [!NOTE]
+> "Specify SharePoint Server URL and organization name" and "Specify the OneDrive location in a hybrid environment" are for customers who have SharePoint Server 2019. [More info about using the new OneDrive sync client with SharePoint Server 2019](/SharePoint/install/new-onedrive-sync-client/)
 
     
 ## Computer Configuration policies
@@ -385,6 +388,19 @@ Meet Windows and OneDrive sync client requirements and still can't see Files On-
 
 [HKLM\SYSTEM\CurrentControlSet\Services\CldFlt]"Start"="dword:00000002"
 
+### Prevent users from syncing libraries and folders shared from other organizations
+<a name="BlockExternalSync"> </a>
+
+The B2B Sync feature of the OneDrive sync client allows users at an organization to sync OneDrive for Business and SharePoint libraries and folders shared with them from another organization. [Learn about OneDrive B2B Sync](b2b-sync.md).
+
+Enabling this setting will prevent users at your organization from being able to use B2B Sync. Once the setting is enabled (value 1) on a computer, the sync client will not sync libraries and folders shared from other organizations. Modify the setting to the disabled state (value 0) in order to restore B2B Sync capability for your users.
+
+prevent B2B Sync with:
+[HKLM\SOFTWARE\Policies\Microsoft\OneDrive] "BlockExternalSync"="dword:1"
+
+restore B2B Sync with:
+[HKLM\SOFTWARE\Policies\Microsoft\OneDrive] "BlockExternalSync"="dword:0"
+
 ## User Configuration policies
 <a name="Glob"> </a>
 
@@ -458,7 +474,7 @@ If you disable this setting, the **Office** tab is hidden in the sync client, an
 > [!IMPORTANT]
 > This feature is currently enabled in the Insiders ring only. To try it, join the [Windows Insider program](https://insider.windows.com/) or the [Office Insider](https://products.office.com/office-insider) program.
 
-This setting allows you to specify SharePoint team site libraries to sync automatically the next time users sign in to the OneDrive sync client (OneDrive.exe). It may take up to eight hours after a user signs in before the library begins to sync. To use this setting, the computer must be running Windows 10 Fall Creators Update (version 1709) or later, and OneDrive Files On-Demand must be enabled.
+This setting allows you to specify SharePoint team site libraries to sync automatically the next time users sign in to the OneDrive sync client (OneDrive.exe), within an eight-hour window, to help distribute network load. To use this setting, the computer must be running Windows 10 Fall Creators Update (version 1709) or later, and OneDrive Files On-Demand must be enabled.
 This feature is not enabled for on-premises SharePoint sites. 
 
 > [!IMPORTANT]
@@ -472,6 +488,8 @@ If you disable this setting, team site libraries that you've specified won't be 
 To configure the setting, in the Options box, click **Show**, and then enter a friendly name to identify the library in the **Value Name** field and the entire library ID (tenantId=xxx&siteId=xxx&webId=xxx&listId=xxx&webUrl=httpsxxx&version=1) in the **Value** field. 
 
 To find the library ID, sign in as a global or SharePoint admin in Office 365, browse to the library, and click the **Sync** button. In the "Starting sync" dialog box, click the **Copy library ID** link.
+
+![The Getting ready to sync dialog box](media/copy-library-id.png)
 
 Enabling this policy sets the following registry key, using the entire URL from the library you copied:
 
@@ -598,7 +616,6 @@ If you disable this setting, the local  *OneDrive - {organization name}*  folder
 > [!NOTE]
 > The %logonuser% environment variable won't work through Group Policy. We recommend you use %username% instead. 
   
-
 ## See also
 <a name="Glob"> </a>
 
@@ -610,3 +627,4 @@ If you disable this setting, the local  *OneDrive - {organization name}*  folder
   
 [Block syncing of specific file types ](block-file-types.md)
 
+[Deploy and configure the new OneDrive sync client for Mac](deploy-and-configure-on-macos.md)

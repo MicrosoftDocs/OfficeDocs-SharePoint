@@ -1,10 +1,11 @@
 ---
 title: "Configure server-to-server authentication from SharePoint Server to SharePoint Online"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 6/21/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority

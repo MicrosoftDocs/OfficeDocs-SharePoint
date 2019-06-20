@@ -1,9 +1,10 @@
 ---
 title: "OneDrive for Business"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 layout: LandingPage
 ms.topic: landing-page
 ms.service: one-drive

@@ -1,10 +1,11 @@
 ---
 title: "Overview of profile synchronization in SharePoint Server 2013"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
 ms.date: 2/27/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: interactive-tutorial
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal

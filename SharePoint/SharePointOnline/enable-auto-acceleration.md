@@ -1,9 +1,10 @@
 ---
 title: "Enable auto-acceleration in SharePoint Online"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal

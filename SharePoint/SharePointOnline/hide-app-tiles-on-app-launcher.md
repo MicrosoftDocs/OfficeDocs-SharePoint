@@ -1,10 +1,11 @@
 ---
 title: "Hide the OneDrive and SharePoint app tiles"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
 ms.date: 6/29/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 f1_keywords:
 - 'SimpleTA'

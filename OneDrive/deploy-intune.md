@@ -1,9 +1,10 @@
 ---
 title: "Deploy OneDrive apps using Intune"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: get-started-article
 ms.service: one-drive
 localization_priority: Normal
@@ -42,7 +43,9 @@ You can use Intune to deploy the mobile apps for iOS and Android and to deploy t
 6. Select it, click **Select**, and then click **Add**.
 7. Select **Assignments** and choose the group you created. For info about this, see [How to assign apps to groups with Microsoft Intune](/intune/apps-deploy/).
 
-For more info about using Intune to deploy apps to iOS devices, see [How to add iOS store apps to Microsoft Intune](/intune/store-apps-ios/). 
+For more information about using Intune to deploy apps to iOS devices, see [How to add iOS store apps to Microsoft Intune](https://github.com/MicrosoftDocs/IntuneDocs/blob/master/intune/store-apps-ios.md). 
+
+For more information about deploying Office 365 apps to MacOS devices using Intune, see [How to assign Office 365 to MacOS devices with Microsoft Intune](https://docs.microsoft.com/intune/apps-add-office365-macos).
 
 ### Deploy OneDrive to Android devices by using Intune
 
@@ -57,7 +60,7 @@ For more info about using Intune to deploy apps to iOS devices, see [How to add 
 5. Select **Assignments** and choose the group you created. For info about this, see [How to assign apps to groups with Microsoft Intune](/intune/apps-deploy/).
 
 
-For more info about using Intune to deploy OneDrive to Android devices, see [How to add Android store apps to Microsoft Intune](/intune/store-apps-android). 
+For more information about using Intune to deploy OneDrive to Android devices, see [How to add Android store apps to Microsoft Intune](/intune/store-apps-android). 
 
 
 

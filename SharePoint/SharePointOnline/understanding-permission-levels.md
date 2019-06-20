@@ -1,10 +1,11 @@
 ---
 title: "Understanding permission levels in SharePoint"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 6/29/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: reference
 f1_keywords:
 - 'O365M_AdminHm_SPOPermissions'
@@ -98,7 +99,9 @@ You can make changes to any of the default permissions levels, except **Full Con
 |||
    
 > [!NOTE]
-> Office 365 plans create a security group called "Everyone except external users" that contains every person you add into the Office 365 directory (except people who you add explicitly as External Users). This security group added to the Members group automatically, so that users in Office 365 can access and edit the SharePoint Online site. In addition, Office 365 plans create a security group called "Company Administrators", which contains Office 365 Admins (such as Global and Billing Admins). This security group is added to the Site Collection Administrators group. 
+> Office 365 plans create a security group called "Everyone except external users" that contains every person you add into the Office 365 directory (except people who you add explicitly as External Users). This security group added to the Members group automatically on Modern Team sites with *Public* privacy settings, so that users in Office 365 can access and edit the SharePoint Online site. Also, for Modern Team sites created as *Private*, "Everyone except external users" cannot be granted any permissions and people must be explicitly granted permissions.  In addition, Office 365 plans create a security group called "Company Administrators", which contains Office 365 Admins (such as Global and Billing Admins). This security group is added to the Site Collection Administrators group. For more information, please see [Default SharePoint groups](/sharepoint/default-sharepoint-groups). 
+
+To learn more about "Everyone except external users" permission, see [Special SharePoint Groups](https://docs.microsoft.com/sharepoint/default-sharepoint-groups#special-sharepoint-groups)
   
 ## Permission levels and SharePoint groups
 <a name="__migbm_0"> </a>
@@ -203,6 +206,7 @@ The following sections contain tables that describe SharePoint permissions for e
 - [Personal permissions and dependent permissions](understanding-permission-levels.md#BKMK_personaldependent)
     
  **Site permissions and dependent permissions**
+<a name="BKMK_Site_Dependent"> </a>
   
 The following table describes the permissions that apply to sites, and show the permissions that depend on them.
   
@@ -227,6 +231,7 @@ The following table describes the permissions that apply to sites, and show the 
 |Edit Personal User Information  <br/> |Allow a user to change personal information, such as adding a picture.  <br/> |Browse User Information, Open  <br/> |
    
  **List permissions and dependent permissions**
+<a name="BKMK_listdependent"> </a>
   
 The following table describes the permissions that apply to lists and libraries, and show the permissions that depend on them.
   
@@ -246,6 +251,7 @@ The following table describes the permissions that apply to lists and libraries,
 |View Application Pages  <br/> |View documents and views in a list or document library.  <br/> |Open  <br/> |
    
  **Personal permissions and dependent permissions**
+<a name="BKMK_personaldependent"> </a>
   
 The following table describes the permissions that apply to personal views and web parts, and show the permissions that depend on them.
   

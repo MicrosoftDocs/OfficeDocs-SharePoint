@@ -1,9 +1,10 @@
 ---
 title: "External sharing overview"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 f1_keywords:
 - 'quickshare'
@@ -44,6 +45,9 @@ The external sharing features of SharePoint Online let users in your organizatio
 SharePoint Online has external sharing settings at both the organization level and the site level (previously called the "site collection" level). To allow external sharing on any site, you must allow it at the organization level. You can then restrict external sharing for other sites. If a site's external sharing option and the organization-level sharing option don't match, the most restrictive value will always be applied.
   
 Whichever option you choose at the organization or site level, the more restrictive functionality is still available. For example, if you choose to allow sharing using "Anyone" links (previously called "shareable" links or "anonymous access" links), users can still share with guests who sign in, and with internal users. 
+
+> [!IMPORTANT]
+> Even if your organization-level setting allows external sharing, not all new sites allow it by default. The default sharing setting for Office 365 group-connected team sites is "New and existing guests." The default for communication sites and classic sites is "Only people in your organization." 
   
 **Security and privacy**
   
@@ -106,7 +110,7 @@ If the recipient doesn't have a work or school account, they need to use a code 
   
  **Recipients who don't need to authenticate**
   
-If you allow "Anyone" links, invitations aren't sent in email. Users can copy the link and share it however they like. Anyone with the link (inside or outside your organization) can access files and folders without having to sign in or provide a code. These links can be freely passed around and are valid until the link is deleted or expires (if you've set an expiration date). You cannot verify the identity of the people using these links, but their IP address is recorded in audit logs when they access or edit shared content.
+Anyone with the link (inside or outside your organization) can access files and folders without having to sign in or provide a code. These links can be freely passed around and are valid until the link is deleted or expires (if you've set an expiration date). You cannot verify the identity of the people using these links, but their IP address is recorded in audit logs when they access or edit shared content.
   
 ![Sharing a folder by using an "Anyone" link](media/anyone-link.png)
 
@@ -123,6 +127,10 @@ You can stop sharing with people who have an "Anyone" link by going to the file 
 ## Collaborating with external business partners
 
 If you have business partners or vendors with whom you need to collaborate or share documents, consider setting up a SharePoint Online extranet site. An extranet site is a dedicated site where you limit external sharing to guests on specific domains only. For details, see [Use Office 365 SharePoint Online as a business-to-business (B2B) extranet solution](create-b2b-extranet.md).
+
+## Need more help?
+
+[!INCLUDE[discussionforums.md](includes/discussionforums.md)]
   
 ## See also
 

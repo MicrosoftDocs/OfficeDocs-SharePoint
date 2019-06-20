@@ -1,10 +1,11 @@
 ---
 title: "The Visio Graphics Service has a maximum cache age setting that will adversely impact performance (SharePoint Server)"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
 ms.date: 8/30/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: troubleshooting
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal

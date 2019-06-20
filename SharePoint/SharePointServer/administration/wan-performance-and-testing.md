@@ -1,10 +1,11 @@
 ---
 title: "Testing WAN connections for SharePoint 2013 architectures"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
 ms.date: 2/16/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal

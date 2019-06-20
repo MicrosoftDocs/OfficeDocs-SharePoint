@@ -1,10 +1,11 @@
 ---
 title: "Overview of backup and recovery in SharePoint Server"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
 ms.date: 2/16/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: overview
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal

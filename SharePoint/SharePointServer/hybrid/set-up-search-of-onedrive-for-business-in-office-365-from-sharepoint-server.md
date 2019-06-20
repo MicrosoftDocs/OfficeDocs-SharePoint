@@ -1,10 +1,11 @@
 ---
 title: "Set up Search of OneDrive for Business in Office 365 from SharePoint Server"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 12/5/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 ms.collection:

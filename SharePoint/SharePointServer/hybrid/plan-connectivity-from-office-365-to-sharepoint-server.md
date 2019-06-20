@@ -1,10 +1,11 @@
 ---
 title: "Plan connectivity from Office 365 to SharePoint Server"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 6/20/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 ms.collection:
@@ -69,8 +70,6 @@ In this section, you record information about URLs and host names in your enviro
 |||
 |:-----|:-----|
 |![Edit icon](../media/mod_icon_edit_m.png)| Record the following information in Table 3 of the SharePoint Hybrid worksheet:  <br/>  The domain name of the public-facing corporate DNS domain in the **Public Internet Domain name** row.  <br/>  The URL of the public-facing endpoint of the reverse proxy device in the **External URL** row.  <br/>  The IP address of the external endpoint of the reverse proxy device in the **IP Address of the external endpoint** row.  <br/> |
-   
-For more information about the relationship between URLs and host names in a hybrid environment, watch the video [Understanding URLs and host names](https://go.microsoft.com/fwlink/?LinkId=392020). Length: 6 minutes.
   
 ## Plan your web application architecture
 <a name="planwebapp"> </a>

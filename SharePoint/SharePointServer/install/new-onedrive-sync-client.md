@@ -1,9 +1,10 @@
 ---
 title: "Configure syncing with the new OneDrive sync client for Sharepoint 2019"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -38,16 +39,16 @@ To set up OneDrive with SharePoint Server 2019, you can either use a Group Polic
 
 Configure the following two Group Policy objects to configure OneDrive to be used with SharePoint 2019:
   
-**SharePoint on-premises server URL and tenant folder name**
+**Specify SharePoint Server URL and organization name**
 
 The URL will help the sync client locate the SharePoint Server and allows the sync client to authenticate and set up sync.
-The tenant folder name lets you specify the name of the root folder that will be created in File Explorer. If you don’t supply a tenant name, the sync client will use the first segment of the URL as the name. For example, office.sharepoint.com would become “office”.
+The organization name lets you specify the name of the root folder that will be created in File Explorer. If you don’t supply an organization name, the sync client will use the first segment of the URL as the name. For example, office.sharepoint.com would become “office”.
 
-**SharePoint prioritization setting for hybrid customers that use SharePoint Online (SPO) and SharePoint on-premises server**
+**Specify the OneDrive location in a hybrid environment**
 
 This setting lets you specify if the sync client should authenticate against SharePoint Online or the SharePoint on-premises server if the identity exists in both identity providers.
 
-You should be able to find these Group Policy objects using the Group Policy Editor (gpedit.msc) when navigating to Computer Configuration\Administrative Templates\OneDrive. If the OneDrive folder is not present, you can add the OneDrive Group Policy template by coping the following two files from the OneDrive installation folder after you have installed the latest OneDrive Sync client on that machine:
+You should be able to find these Group Policy objects using the Group Policy Editor (gpedit.msc) when navigating to Computer Configuration\Administrative Templates\OneDrive. If the OneDrive folder is not present, you can add the OneDrive Group Policy template by coping the following two files from the OneDrive installation folder after you have installed the latest OneDrive sync client on that computer:
 
 - C:\Users\\*username*\AppData\Local\Microsoft\OneDrive\\*onedrivesyncclientversion*\adm\OneDrive.admx
 to
@@ -85,7 +86,7 @@ The OneDrive sync client creates the following folders on users’ computers:
 OneDrive – Contoso (for syncing personal My Site files)
 Contoso (for syncing SharePoint team site files)
 
-In SharePoint Online, “Contoso” is the tenant name that has been set for the SharePoint Online instance. In SharePoint on-premises, there is no tenant name associated to the instance of SharePoint. You can set the this with the “SharePoint on-premises server URL and tenant folder name” group policy, or the sync client will use the first segment of your SharePoint URL. 
+In SharePoint Online, “Contoso” is the tenant name that has been set for the SharePoint Online instance. In SharePoint on-premises, there is no tenant name associated to the instance of SharePoint. You can set the this with the “Specify SharePoint Server URL and organization name” group policy, or the sync client will use the first segment of your SharePoint URL. 
    
 ### File thumbnails and previews
 Thumbnails don’t appear in File Explorer for files synced from SharePoint on-premises. If you enable Files On-Demand, and a file is online-only, a file preview won’t be available. Image files and Office files will not have a thumbnail in File Explorer until the file is downloaded.

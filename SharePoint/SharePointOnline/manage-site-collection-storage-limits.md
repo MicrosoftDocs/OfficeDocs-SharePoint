@@ -1,9 +1,10 @@
 ---
 title: "Manage site storage limits"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
@@ -89,7 +90,7 @@ You can use the following Microsoft PowerShell script to monitor your sites. Thi
   
   ```PowerShell
 #Connect to SharePoint admin center using an admin account
-#Specify the URL to your SharePoint Tenant Admin site, e.g. https://contoso-admin.sharepoint.com
+#Specify the URL to your SharePoint admin center site, e.g. https://contoso-admin.sharepoint.com
 
 $url = 'https://contoso-admin.sharepoint.com'
 
@@ -104,7 +105,7 @@ $Subject = 'Site Storage Warning'
 $Body = 'Storage Usage Details'
 
 if($url -eq '') {
-    $url = Read-Host -Prompt 'Enter the SharePoint Online Tenant Admin URL'
+    $url = Read-Host -Prompt 'Enter the SharePoint admin center URL'
 }
 
 Connect-SPOService -Url $url
@@ -135,13 +136,13 @@ foreach ($site in $sites) {
 
 $results | Export-Csv -Path $fullpath -NoTypeInformation
 
-Sending email with output file as attachment  
+#Sending email with output file as attachment  
 Send-MailMessage -SmtpServer $Smtp -To $To -From $From -Subject $Subject -Attachments $fullpath -Body $Body -Priority high
 ```
 
 4. Where:
 
-  - **$url** is the URL of your Tenant Admin. If the `$url` variable is left empty, you will be prompted to enter the URL of your tenant admin site.
+  - **$url** is the URL of your SharePoint admin center. If the `$url` variable is left empty, you will be prompted to enter the URL of your admin center site.
   
   - **$path** is the file system path you want the CSV file to output to.
    

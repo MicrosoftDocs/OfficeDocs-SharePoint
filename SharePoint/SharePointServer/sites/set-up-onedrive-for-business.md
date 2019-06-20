@@ -1,10 +1,11 @@
 ---
 title: "Set up OneDrive for Business in a SharePoint Server on-premises environment"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 3/1/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal

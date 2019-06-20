@@ -1,9 +1,10 @@
 ---
 title: Get started with the modern search experience
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Priority

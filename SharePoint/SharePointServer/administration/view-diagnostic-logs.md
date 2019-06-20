@@ -1,10 +1,11 @@
 ---
 title: "View diagnostic logs in SharePoint Server"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
 ms.date: 3/12/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -181,6 +182,6 @@ PowerShell provides a powerful and easy-to-use feature that displays tabular dat
     
 3. Open the spreadsheet workbook page, and then paste the copied rows into it by using CTRL+V.
     
-For more information, see [Out-GridView](https://go.microsoft.com/fwlink/p/?LinkId=181248) (https://go.microsoft.com/fwlink/p/?LinkId=181248) and [Out-GridView Revisited](https://go.microsoft.com/fwlink/p/?LinkId=181249) (https://go.microsoft.com/fwlink/p/?LinkId=181249). 
+For more information, see [Out-GridView](https://go.microsoft.com/fwlink/p/?LinkId=181248) and [Out-GridView Revisited](https://devblogs.microsoft.com/powershell/out-gridview-revisited/). 
   
 

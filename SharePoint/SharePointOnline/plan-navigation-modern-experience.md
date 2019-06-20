@@ -1,9 +1,10 @@
 ---
 title: Planning Navigation for the modern SharePoint experience
+ms.reviewer: 
 ms.author: loreenl
 author: loreenla
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Priority
@@ -44,7 +45,7 @@ Planning site navigation involves thinking about:
 
 -   Usability and findability
 
-Navigation should always be planned from the perspective of the *user* of information – the visitors to your site. Planning effective navigation involves considering not just the information you want to *present*, but also thinking about the information your readers want or need to *consume*. This is why organizing and labeling your navigation links is so critical usability and findability. If 70% of visitors come to your sites expecting to *browse* for information, the usability of your site depends on creating a great browsing (navigating) experience.
+Navigation should always be planned from the perspective of the *user* of information – the visitors to your site. Planning effective navigation involves considering not just the information you want to *present*, but also thinking about the information your readers want or need to *consume*. This is why organizing and labeling your navigation links is critical for the purposes of usability and findability. If 70% of visitors come to your sites expecting to *browse* for information, the usability of your site depends on creating a great browsing (navigating) experience.
 
 ### Organizing
 
@@ -72,7 +73,7 @@ To ensure that your labels keep their promises, make sure they are:
 
 -   **Comprehensive**. Describe all the content with your collection of labels. You should not plan to link to every single page or document in your navigation, but your navigation should provide a complete picture of the content on your site.
 
--   **Consistent.** When we have a lot of content on sites, we often need to use a combination category and sub-links on pages. On desktops, hovering the mouse over a category exposes the menu while clicking the category takes you to a “category landing page.” However, hover is not a gesture available on mobile or touch screens so “split” links as shown below can be confusing for site visitors. The top link for Latin America has sub-links. While it is awkward that Latin America has sub-links and the other regions do not, you may find that you need to present navigation where not every top category has sub-links or even where all top links have sub-links. When you have split links, think about the user expectations for the link associated with each category and how it relates to its associated sub-links. Is there a category landing page for Latin America? If so, how much experience will your visitors need to know that there is content only visible if they click on the category link? One option is to make Latin America simply a category *label* (by targeting the URL to an existing page) but another option is to think about providing consistent category and sub-link experiences. Consider creating a category landing page whenever you have sub-links and/or having the category landing page be the first link below the category label.<br>![Example of navigation](media/plan-navigation-modern-experience_image3.png)
+-   **Consistent**. When we have a lot of content on sites, we often need to use a combination of category and sub-links on pages. On desktops, hovering the mouse over a category exposes the menu, while clicking the category takes you to a “category landing page.” However, hovering is not a feature available on mobile or touch screens, so “split” links as shown below can be confusing for site visitors. The top link for Latin America has sub-links. While it is awkward that Latin America has sub-links and the other regions do not, you may find that you need to present navigation where not every top category has sub-links or even where all top links have sub-links. When you have split links, think about the user expectations for the link associated with each category and how it relates to its associated sub-links. Is there a category landing page for Latin America? If so, how much experience will your visitors need to know that there is content only visible if they click on the category link? One option is to make Latin America simply a category *label* (by targeting the URL to an existing page), but another option is to think about providing consistent category and sub-link experiences. Consider creating a category landing page whenever you have sub-links and/or having the category landing page be the first link below the category label.<br>![Example of navigation](media/plan-navigation-modern-experience_image3.png)
 
 -   **Concise**. Keep your labels short and to the point. For example: News, History, Services.
 
@@ -120,7 +121,7 @@ By default, navigation links on modern SharePoint sites open as follows:
 
 -   **Link points to an external (internet) site or document**: Links open in a new tab
 
-In classic SharePoint sites with publishing features, you can choose to open navigation links in a new window. This allows you to consider the context for your site visitors and determine whether it might be helpful to open a link in a new window. There is no way to select how navigation links open in modern SharePoint sites. This means that your navigation links will follow most usability guidelines, but you will still want to be especially careful about the *labels* for navigation links to make sure that your visitors know that they are leaving your site context when they click the link. Make sure that the navigation label accurately describes the destination – a place on a completely different site or an application – and if you know that the back button may not work, consider using an alternative way to present the link, such as the text web part where you can open elect to open a link in a new window.
+In classic SharePoint sites with publishing features, you can choose to open navigation links in a new window. This allows you to consider the context for your site visitors and determine whether it might be helpful to open a link in a new window. There is no way to select how navigation links open in modern SharePoint sites. This means that your navigation links will follow most usability guidelines, but you still need to be especially careful about the *labels* for navigation links to make sure that your visitors know that they are leaving your site context when they click the link. Make sure that the navigation label accurately describes the destination – a place on a completely different site or an application – and if you know that the back button may not work, consider using an alternative way to present the link, such as the text web part where you can elect to open a link in a new window.
 
 ## Navigation in the Flat World
 
@@ -170,7 +171,7 @@ In addition to the general guidelines for link labels, consider the following fo
 
         -   Trip Reports
 
--   **Link to pages, not individual documents**. Document links open in a new window – which is helpful if someone wants to close the document after reading – but document links take visitors to a new context – the online viewer for how the document was created (such as Word or PowerPoint). In some cases, this may be the experience you want. But when navigation points to a page with an embedded instead of directly to a document, you have an opportunity to provide *context* for the document and retain the navigational context for the site. Think about the following alternatives if you want to use a navigation link to open to a single document:
+-  **Link to pages, not individual documents**. Document links open in a new window, which is helpful if someone wants to close the document after reading, but document links take visitors to a new context – the online viewer for how the document was created (such as Word or PowerPoint). In some cases, this may be the experience you want. But when navigation points to a page with an embedded document instead of directly to a document, you have an opportunity to provide *context* for the document and retain the navigational context for the site. Think about the following alternatives if you want to use a navigation link to open to a single document:
 
     -   Can you re-create the document content as a page instead of a document? Pages are easier to read online and especially for communication sites, where visitors are not editing but just consuming content, presenting content on a page instead of a document can provide a better experience, especially on mobile devices. Documents are great when readers need to download or print – but when all they need to do is read, a short, well-crafted page is a great way to present and maintain information.
 

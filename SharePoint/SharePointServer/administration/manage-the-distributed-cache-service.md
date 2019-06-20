@@ -1,10 +1,11 @@
 ---
 title: "Manage the Distributed Cache service in SharePoint Server"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
 ms.date: 12/5/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -243,6 +244,28 @@ Where  _Domain_name\user_name_ is the domain name and user name of the SharePoin
 ## Fine-tune the Distributed Cache service by using a PowerShell script
 <a name="finetune"> </a>
 
+**Monitoring**
+
+You can monitor performance counters on the Distributed Cache servers to get a better understanding of cache performance issues.
+Some of the [counters](https://docs.microsoft.com/previous-versions/appfabric/ff637725(v=azure.10)) that are typically useful to troubleshoot issues include:
+
+1. %cpu used up by cache service
+
+2. %time spent in GC by cache service
+
+3. Total cache misses/sec - A high value here can indicate your application performance might suffer because it is not able to fetch data from cache. Possible causes for this include eviction and/or expiry
+of items from cache.
+
+4. Total object count - Gives an idea of how many items are in the cache. A big drop in object count could mean eviction or expiry is taking place.
+
+5. Total client reqs/sec - This counter is useful in giving an idea of how much load is being generated on the cache servers from the application. A low value here usually means some sort of a bottleneck
+outside of the cache server (perhaps in the application or network) and hence very little load is being placed on cache servers.
+
+6. Total Evicted Objects - If cache servers are constantly evicting items to make room for newer objects in cache, it is usually a good indication that you will need more memory on the cache servers to hold
+the dataset for your application.
+
+7. Total failure exceptions/sec and Total Retry exceptions/sec
+
 The Distributed Cache service setting for **MaxConnectionsToServer** is often tuned based on the number of CPUs that are used in the host computer. If, for instance you use multiple cores and then set the **MaxConnectionsToServer** setting to the same number of CPUs then the computer often uses too much memory and freezes. Similar issues happen when tuning the **DistributedLogonTokenCache** and **DistributedViewStateCache** settings. The default setting is 20ms but often exceptions are found when the token caching doesn't happen in the 20ms setting. Use the following PowerShell scripts to change the settings for max connections and timeouts in SharePoint Server 2016 and SharePoint Server 2013. 
   
  **To fine-tune the Distributed Cache service by using a PowerShell script**
@@ -258,7 +281,7 @@ The Distributed Cache service setting for **MaxConnectionsToServer** is often tu
     > [!NOTE]
     > You can use a different file name, but you must save the file as an ANSI-encoded text file with the extension .ps1. 
   
-  **SharePoint Server PowerShell script**
+  **SharePoint Server 2016 PowerShell script**
   ```
   Add-PSSnapin Microsoft.Sharepoint.Powershell -ea 0
 
@@ -452,7 +475,7 @@ The Distributed Cache service setting for **MaxConnectionsToServer** is often tu
   ./MaxConnections.ps1
   ```
 
-For more information, see [Best Practices for using Windows Azure Cache/Windows Server Appfabric Cache](http://go.microsoft.com/fwlink/?LinkID=614969&amp;clcid=0x409) and [Application Configuration Settings (Windows Server AppFabric Caching)](http://go.microsoft.com/fwlink/?LinkID=614970&amp;clcid=0x409). For additional information about Windows PowerShell scripts and .ps1 files, see [Running Windows PowerShell Scripts](/previous-versions/windows/it-pro/windows-powershell-1.0/ee176949(v=technet.10)).
+For more information, see [Application Configuration Settings (Windows Server AppFabric Caching)](http://go.microsoft.com/fwlink/?LinkID=614970&amp;clcid=0x409). For additional information about Windows PowerShell scripts and .ps1 files, see [Running Windows PowerShell Scripts](/previous-versions/windows/it-pro/windows-powershell-1.0/ee176949(v=technet.10)).
     
 ## Repair a cache host
 <a name="repair"> </a>

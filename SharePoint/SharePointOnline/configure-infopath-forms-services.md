@@ -1,10 +1,11 @@
 ---
 title: "Configure InfoPath Forms Services"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
 ms.date: 4/20/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 f1_keywords:
 - 'SPOTACfgInfoPathWebSrvcPrx'

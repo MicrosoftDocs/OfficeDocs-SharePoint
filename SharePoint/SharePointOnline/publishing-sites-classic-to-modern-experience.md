@@ -1,9 +1,10 @@
 ---
 title: Moving from Publishing sites to Communication sites
+ms.reviewer: 
 ms.author: loreenl
 author: loreenla
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Priority
@@ -110,11 +111,7 @@ Modern pages provide a fast, easy way to build responsive pages using the functi
 Pages are made up of a title area and sections. Sections can include a full-width column for full-bleed images or hero web parts, or up to three regular columns. You can add a variety of web parts to the page, and easily move them around on the page to get the look you want. Check out this short video to see how to create, layout, and publish a page:
 
 
-> [!VIDEO https://videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=RWlZJM&AutoPlayVideo=false]
-
-Currently there are three basic out-of-box page templates available when you create a page (blank, visual, and basic text). And, you can create your own templates. In addition, you can create pages based on copies of your previously added and designed pages.
-
-![Page templates](media/publishing-sites-classic-to-modern-experience_image7.png)
+> [!VIDEO https://videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=RE2ZpSP&AutoPlayVideo=false]
 
 **Publishing** On a classic publishing site, commands for Publish and Check in/Check out are available on the ribbon. In the modern experience, it is even easier for authors to discover how to edit and make their content visible with buttons to Edit, Save, and Publish right on the page. When a modern page is in edit mode, it is automatically checked out to the person who is editing. When a page is saved or published, it is automatically checked in. If someone has a page open for editing but hasn’t made any changes to it for at least 5 minutes, it is automatically saved and taken out of Edit mode so that others can access and edit the page.
 

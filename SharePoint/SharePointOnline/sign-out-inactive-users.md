@@ -1,8 +1,10 @@
 ---
 title: "Sign out inactive users"
+ms.reviewer: 
+manager: 
 ms.author: kaarins
 author: kaarins
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal

@@ -1,10 +1,11 @@
 ---
 title: "SharePoint 2013 dev/test environments in Azure"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
 ms.date: 03/15/2019
-ms.audience: ITPro
+audience: ITPro
 ms.topic: hub-page
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -168,7 +169,7 @@ Set your subscription to the correct one with these commands.
   
 ```
 $subscrName="<subscription name>"
-Select-AzSubscription -SubscriptionName $subscrName -Current
+Select-AzSubscription -SubscriptionName $subscrName
 ```
 
 Next, specify the resource group name and Azure location for the deployment with these commands.
@@ -324,7 +325,7 @@ Set your subscription to the correct one with these commands.
   
 ```
 $subscrName="<subscription name>"
-Select-AzSubscription -SubscriptionName $subscrName -Current
+Select-AzSubscription -SubscriptionName $subscrName
 ```
 
 Next, specify the resource group name and Azure location for the deployment with these commands.

@@ -1,10 +1,11 @@
 ---
 title: "View search usage reports"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
 ms.date: 5/17/2017
-ms.audience: End User
+audience: End User
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal

@@ -1,10 +1,11 @@
 ---
 title: "Introduction to managed metadata"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 5/22/2018
-ms.audience: End User
+audience: End User
 ms.topic: overview
 ms.service: sharepoint-online
 localization_priority: Normal

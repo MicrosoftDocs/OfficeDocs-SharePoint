@@ -1,10 +1,11 @@
 ---
 title: "Let users create modern site pages"
+ms.reviewer: 
 ms.author: loreenl
 author: LoreenLa
 manager: pamgreen
 ms.date: 4/19/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal

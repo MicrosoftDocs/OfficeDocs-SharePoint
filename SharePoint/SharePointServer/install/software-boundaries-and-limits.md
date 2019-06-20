@@ -1,10 +1,11 @@
 ---
 title: "Software boundaries and limits for SharePoint 2013"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
 ms.date: 2/15/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: interactive-tutorial
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -427,12 +428,14 @@ The following table lists the recommended guidelines for managed metadata term s
 |**Limit**|**Maximum value**|**Limit type**|**Notes**|
 |:-----|:-----|:-----|:-----|
 |Maximum number of levels of nested terms in a term store  <br/> |7  <br/> |Supported  <br/> |Terms in a term set can be represented hierarchically. A term set can have up to seven levels of terms (a parent term, and six levels of nesting below it.)  <br/> |
-|Maximum number of term sets in a term store  <br/> |1,000  <br/> |Supported  <br/> |You can have up to 1,000 term sets in a term store.  <br/> |
+|Maximum number of term sets in a term store  <br/> |1,000  <br/> |Supported  <br/> |You can have up to 1,000 term sets in a term store.  <br/> Note: Both local term set and global term set follow the limit of 30,000 terms per term site. Use global term sets to store the reusable data for all site collections, instead of using a large amount of site collection term sets or creating a new Managed Metadata service. A web application can have connections to multiple services.           ||
 |Maximum number of terms in a term set  <br/> |30,000  <br/> |Supported  <br/> |30,000 is the maximum number of terms in a term set.  <br/> Note: Additional labels for the same term, such as synonyms and translations, do not count as separate terms.           |
 |Total number of items in a term store  <br/> |1,000,000  <br/> |Supported  <br/> |An item is either a term or a term set. The sum of the number of terms and term sets cannot exceed 1,000,000. Additional labels for the same term, such as synonyms and translations, do not count as separate terms.  <br/> Note: You cannot have both the maximum number of term sets and the maximum number of terms simultaneously in a term store.           |
 |Number of Variation Labels  <br/> |209 per term store  <br/> |Supported  <br/> |The maximum number of Variation Labels per term store is 209.  <br/> |
 |Number of terms in managed navigation term set  <br/> |2,000  <br/> |Supported  <br/> |The maximum supported number of terms in a managed navigation term set is 2,000.  <br/> |
-   
+
+See also [Overview of Managed Metadata service in SharePoint 2013](https://technet.microsoft.com/library/ee424403.aspx) and [The impact of having multiple Managed Metadata services per farm](http://technet.microsoft.com/library/gg681889.aspx)
+
 #### Visio Services limits
 <a name="Visio"> </a>
 
