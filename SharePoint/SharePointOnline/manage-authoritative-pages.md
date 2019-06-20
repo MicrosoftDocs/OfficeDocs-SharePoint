@@ -4,7 +4,6 @@ ms.reviewer:
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
-ms.date: 6/29/2018
 audience: End User
 ms.topic: article
 ms.service: sharepoint-online
@@ -33,7 +32,8 @@ In the same way, you can also add non-authoritative pages. A typical example of 
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the **Admin** tile to open the admin center.  
 
 2. In the left pane of the admin center, under **Admin centers**, select **SharePoint** to open the SharePoint admin center. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
-3. Under **search**, select **Open**.
+
+3. Under **Search**, select **Open**.
 
 4. On the search administration page, choose **Manage Authoritative Pages**.
     

@@ -4,7 +4,6 @@ ms.reviewer:
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
-ms.date: 4/5/2018
 audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
@@ -36,7 +35,7 @@ A typical use case is in eDiscovery, where you can grant a security group permis
     
 3. Choose **Classic features**. 
  
-4. Under **search**, select **Open**.
+4. Under **Search**, select **Open**.
     
 5. On the search administration page, choose **Crawl Log Permissions**.
     

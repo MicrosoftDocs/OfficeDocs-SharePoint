@@ -4,7 +4,6 @@ ms.reviewer:
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
-ms.date: 6/29/2018
 audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
@@ -73,7 +72,7 @@ If the import fails, remove the condition that caused the failure and reimport t
  
 3. In the left pane of the new SharePoint admin center, select **Classic features**.
  
-4. Under **search**, select Open.
+4. Under **Search**, select Open.
     
 5. Select **Export Search Configuration**.
     
@@ -109,7 +108,7 @@ In the left pane of the admin center, under **Admin centers**, select **SharePoi
  
 3. In the left pane of the new SharePoint admin center, select **Classic features**.
  
-4. Under **search**, select Open.
+4. Under **Search**, select Open.
    
 5. On the **Import Search Configuration** page, browse to the file you want to import. 
     

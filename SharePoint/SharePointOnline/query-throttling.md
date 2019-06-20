@@ -4,7 +4,6 @@ ms.reviewer:
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
-ms.date: 6/29/2018
 audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
@@ -43,7 +42,7 @@ The client sets the client type as a label in the query. The administrator confi
       
 3. Select **Classic features**.
  
-4. Under **search**, select **Open**.
+4. Under **Search**, select **Open**.
     
 5. On the search administration page, choose **Manage Query Client Types**.
     
@@ -72,7 +71,7 @@ You can use throttling tiers to prioritize query processing. When the resource l
       
 3. Select **Classic features**.
  
-4. Under **search**, select **Open**.
+4. Under **Search**, select **Open**.
     
 5. On the search administration page, choose **Manage Query Client Types**.
     

@@ -4,7 +4,6 @@ ms.reviewer:
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 6/29/2018
 audience: Admin
 ms.topic: get-started-article
 ms.service: sharepoint-online
@@ -31,7 +30,7 @@ Limit upgrade options when you want to arrange a coordinated rollout of new feat
 
 If you're rolling out an upgrade, you don't want it to affect workday tasks or prevent users from creating sites when and where they need them. With versions, you can update your subscription to the new environment but allow your users to continue creating sites that look and feel like the old version. 
 
-You can choose whether to allow versions in your subscription and decide how users can upgrade their own site collections. The classic SharePoint admin center lets you choose from the following version options.
+You can choose whether to allow versions in your subscription and decide how users can upgrade their own site collections. The classic settings page lets you choose from the following version options.
   
 |
 |
@@ -75,7 +74,7 @@ You can choose whether to allow versions in your subscription and decide how use
 . 
 6. Under **Classic site collections page**, select **Open**. 
 
-7. Select the site collection
+7. Select the site collection.
     
 8. On the ribbon, select **Upgrade notifications** \> **Site collection upgrade settings**. 
     

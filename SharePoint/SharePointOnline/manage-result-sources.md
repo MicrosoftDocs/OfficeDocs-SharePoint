@@ -4,7 +4,6 @@ ms.reviewer:
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
-ms.date: 7/3/2018
 audience: End User
 ms.topic: article
 ms.service: sharepoint-online
@@ -33,9 +32,8 @@ For the classic search experience, you can create your own result sources, or us
 
 1. Go to the **Manage Result Sources** page for the tenant, for a site collection, or a site: 
 
-  -For a tenant, in the classic SharePoint admin center, select **Open it now** at the top of the page to open the new SharePoint admin center.  Under **search**, select **Open**, and then on the search administration page, select **Manage Result Sources**.
+  - For a tenant, in the new SharePoint admin center, select **Classic features**. Under **Search**, select **Open**, and then on the search administration page, select **Manage Result Sources**.
 
-   
   - For a site collection, in your site collection, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**. Under **Site Collection Administration**, select **Search Result Sources**.
     
   - For a site, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**. Under **Search**, select **Result Sources**.
@@ -106,11 +104,12 @@ The default result source is **Local SharePoint Results**, but you can choose to
   
 1. Go to the **Manage Result Sources** page for the tenant, for a site collection, or a site: 
 
-    For a tenant, in the classic SharePoint admin center, select **Open it now** at the top of the page to open the new SharePoint admin center.  Under **search**, select **Open**, and then on the search administration page, select **Manage Result Sources**.
+    - For a **tenant**, in the new SharePoint admin center, select **Classic features**. Under **Search**, select **Open**, and then on the search administration page, select **Manage Result Sources**.
     
-    For a **site collection**: in the classic SharePoint admin center, select **Open it now** at the top of the page to open the new SharePoint admin center.  Select **Classic features**. Under **search**, select **Open**, and then on the search administration page, select **Manage Result Rules**.
+     - For a site collection, in your site collection, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**. Under **Site Collection Administration**, select **Search Result Sources**.
+    
+      - For a site, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**. Under **Search**, select **Result Sources**.
 
-    For a **site**: On your site, in the classic SharePoint admin center, select **Open it now** at the top of the page to open the new SharePoint admin center.  Under **search**, select **Open**, and then on the search administration page, select **Manage Result Sources**.
 
     
 2. On the **Manage Result Sources** page, point to the result source that you want to set as the default, select the arrow that appears, and then select **Set as Default**.

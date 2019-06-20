@@ -4,7 +4,6 @@ ms.reviewer:
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 6/19/2018
 audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
@@ -37,7 +36,7 @@ If your organization uses the cloud identity model, your Office 365 user account
  
 3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. In the left pane of the new SharePoint admin center, select **Classic features**.
     
-4. Under **user profiles** , select **Open**. 
+4. Under **User profiles** , select **Open**. 
     
 5. Under **People**, select **Manage User Properties**. 
     
@@ -84,7 +83,7 @@ If your organization uses the cloud identity model, your Office 365 user account
 
 2. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. In the left pane of the new SharePoint admin center, select **Classic features**.
     
-3. Select **user profiles**, and then select **Open**. Under **People**, choose **Manage User Properties**. 
+3. Select **User profiles**, and then select **Open**. Under **People**, choose **Manage User Properties**. 
     
     ![Manage User Properties link under Admin user profiles.](media/ab8985da-a2f9-4839-b4a2-f0feeb379f31.png)
   

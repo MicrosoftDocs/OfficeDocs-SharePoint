@@ -31,7 +31,7 @@ As a SharePoint or global admin in Office 365, you can monitor information such 
       
 3. Select **Classic features**.
  
-4. Under **apps**, click **Open**.
+4. Under **Apps**, click **Open**.
     
 5. Select **Monitor Apps**.
     
@@ -51,7 +51,7 @@ As a SharePoint or global admin in Office 365, you can monitor information such 
       
 3. Select **Classic features**.
  
-4. Under **apps**, click **Open**. 
+4. Under **Apps**, click **Open**. 
   
 5. Select **Monitor Apps**.
     

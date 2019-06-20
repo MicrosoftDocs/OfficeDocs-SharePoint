@@ -4,7 +4,6 @@ ms.reviewer:
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 6/29/2018
 audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
@@ -102,7 +101,7 @@ To create a Secure Store Target Application, follow these steps.
  
 4. Select **More classic features**.
  
-5. Under **secure store**, select **Open**.
+5. Under **Secure store**, select **Open**.
     
 6. On the ribbon, select **New** to open the page where you can specify settings for a Target Application. 
     
@@ -144,7 +143,7 @@ After you create the Target Application, you are ready to enter the credentials 
  
 4. Select **More classic features**.
  
-5. Under **secure store**, select **Open**.
+5. Under **Secure store**, select **Open**.
   
 6. Select the arrow next to the new Target Application and then select **Set Credentials**. 
     
@@ -287,7 +286,7 @@ To finish setting up the External List, you have to grant permissions to the peo
  
 4. Select **More classic features**.
  
-5. Under **bcs**, select **Open**.
+5. Under **BCS**, select **Open**.
     
 5. Select **Manage BDC Models and External Content Types**. 
     

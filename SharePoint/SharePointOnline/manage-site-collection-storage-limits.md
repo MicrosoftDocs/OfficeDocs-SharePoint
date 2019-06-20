@@ -68,7 +68,7 @@ Follow these steps to specify individual site storage limits when your storage m
 5. Enter the maximum storage in GB for the site. 
 
   > [!NOTE]
-  > The max value you can enter is 25600 GB, although this may be more space than your organization has. To see how much space comes with your subscription, see [SharePoint Online Limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits).<br> If you set site storage limits in PowerShell, you enter them in MB. The values are converted and rounded down to the nearest integer to appear in GB in both the new and classic SharePoint admin centers. So a value of 5000 MB becomes 4 GB. The minimum storage limit is 1 GB, so if you set a value of less than 1024 MB by using PowerShell, it will be rounded up to 1 GB.
+  > The max value you can enter is 25600 GB, although this may be more space than your organization has. To see how much space comes with your subscription, see [SharePoint Online Limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits).<br> If you set site storage limits in PowerShell, you enter them in MB. The values are converted and rounded down to the nearest integer to appear in GB in both the SharePoint admin center. So a value of 5000 MB becomes 4 GB. The minimum storage limit is 1 GB, so if you set a value of less than 1024 MB by using PowerShell, it will be rounded up to 1 GB.
     
 6. Make sure **Notifications** is turned on to send an email to site admins when the site approaches the storage limit. Then enter a value as a percent for how full you want the storage to be when the email is sent. 
  

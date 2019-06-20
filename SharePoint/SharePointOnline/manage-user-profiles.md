@@ -56,7 +56,7 @@ Follow these steps to transfer ownership of a OneDrive to a different user, or g
       
 3. In the left pane, select **Classic features**.
  
-4. Under **user profiles**, select **Open**. 
+4. Under **User profiles**, select **Open**. 
     
 5. Under **People**, select **Manage User Profiles**.
     
@@ -95,7 +95,7 @@ To add, edit, or delete an audience or an audience rule, go to the Manage Audien
     
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
       
-3. In the left pane, select **user profiles**. 
+3. In the left pane, select **User profiles**. 
     
 4. Under **People**, select **Manage Audiences**.
     
@@ -128,7 +128,7 @@ In the left pane, under **Admin centers**, select **SharePoint**. (You might nee
       
 2. In the left pane, select **Classic features**.
  
-3. Under **user profiles**, select **Open**. 
+3. Under **User profiles**, select **Open**. 
 
 4. Under **People**, select **Manage User Permissions**.
     

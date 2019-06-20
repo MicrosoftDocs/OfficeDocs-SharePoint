@@ -4,7 +4,6 @@ ms.reviewer:
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
-ms.date: 5/17/2017
 audience: End User
 ms.topic: article
 ms.service: sharepoint-online
@@ -42,7 +41,7 @@ This article describes how you can use search reports in the SharePoint admin ce
     
 3. In the left pane, select **Classic features**.
     
-4. Under **search**, select **Open**.
+4. Under **Search**, select **Open**.
 
 5. Choose **View Usage Reports**.
     

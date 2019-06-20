@@ -4,7 +4,6 @@ ms.reviewer:
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 6/29/2018
 audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
@@ -49,7 +48,7 @@ Another benefit of the Secure Store Service is that it eliminates authentication
  
 4. Select **More classic features**.
     
-3. Under **secure store**, select **Open**.
+3. Under **Secure store**, select **Open**.
     
 4. In the **Manage Target Applications** group on the ribbon, select **New**.
     
@@ -87,7 +86,7 @@ In the left pane, under **Admin centers**, select **SharePoint**. (You might nee
  
 3. Select **More classic features**.
     
-4. Under **secure store**, select **Open**.
+4. Under **Secure store**, select **Open**.
 
 5. Select an existing Target Application from the list of Target Applications.
     
@@ -122,7 +121,7 @@ In the left pane, under **Admin centers**, select **SharePoint**. (You might nee
  
 3. Select **More classic features**.
     
-4. Under **secure store**, select **Open**.
+4. Under **Secure store**, select **Open**.
   
 5. Select a single Target Application from the list if you have created more than one.
     

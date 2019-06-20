@@ -4,7 +4,6 @@ ms.reviewer:
 ms.author: arnek
 author: arnek
 manager: arnek
-ms.date: 6/20/2018
 audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
@@ -44,7 +43,7 @@ Query suggestions are turned on by default. To turn them off, go to **Search Sug
     
 4. Select **Classic features**.
  
-5. Under **search**, select **Open**.
+5. Under **Search**, select **Open**.
 
 6. Select **Query Suggestion Settings** on the search administration page.
 

@@ -4,7 +4,6 @@ ms.reviewer:
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 5/22/2018
 audience: Admin
 ms.topic: article
 f1_keywords:
@@ -46,7 +45,7 @@ Even if you don't plan to make internal custom apps available, you will not be a
     
 3. In the left pane, select **Classic features**
  
-4. Under **apps**, select **Open**.
+4. Under **Apps**, select **Open**.
  
 5. Select **App Catalog**.
     

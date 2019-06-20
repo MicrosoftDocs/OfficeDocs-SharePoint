@@ -4,7 +4,6 @@ ms.reviewer:
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen
-ms.date: 6/20/2018
 audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
@@ -43,7 +42,7 @@ Once you have done this, you can then use the managed property **companies** to 
     
 3. In the left pane, select **Classic features**. 
  
-4. Under **search**, select **Open**, and then select **Manage Search Dictionaries** to open the term store. 
+4. Under **Search**, select **Open**, and then select **Manage Search Dictionaries** to open the term store. 
     
 5. On the **Site Settings: Term Store Management Tool** page, click the arrow to expand the **Search Dictionaries** menu. 
     
@@ -65,7 +64,7 @@ Once you have done this, you can then use the managed property **companies** to 
     
 3. In the left pane, select **Classic features**. 
  
-4. Under **search**, select **Open**. 
+4. Under **Search**, select **Open**. 
  
 5. Select **Manage Search Dictionaries** to open the term store.
    
@@ -96,7 +95,7 @@ For example, if you enter a query that contains the word "ampitheater", the quer
     
 3. In the left pane, select **Classic features**. 
  
-4. Under **search**, select **Open**. 
+4. Under **Search**, select **Open**. 
  
 5. Select **Manage Search Dictionaries** to open the term store.
 
@@ -121,7 +120,7 @@ For example, if you enter a query that contains the word "ampitheater", the quer
     
 3. In the left pane, select **Classic features**. 
  
-4. Under **search**, select **Open**. 
+4. Under **Search**, select **Open**. 
  
 5. Select **Manage Search Dictionaries** to open the term store.
   
@@ -146,7 +145,7 @@ For example, if you enter a query that contains the word "ampitheater", the quer
     
 3. In the left pane, select **Classic features**. 
  
-4. Under **search**, select **Open**.
+4. Under **Search**, select **Open**.
  
 5. Select **Manage Search Dictionaries** to open the term store.
    
