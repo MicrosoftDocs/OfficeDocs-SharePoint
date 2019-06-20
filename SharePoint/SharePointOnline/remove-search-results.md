@@ -4,7 +4,6 @@ ms.reviewer:
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
-ms.date: 6/29/2018
 audience: End User
 ms.topic: article
 ms.service: sharepoint-online
@@ -28,16 +27,18 @@ As a global or SharePoint admin in Office 365, you can temporarily remove items 
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
 
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
+
+3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
       
-3. Select **Classic features**.
+4. Select **Classic features**.
  
-4. Under **search**, select **Open**.
+5. Under **Search**, select **Open**.
    
-5. On the search administration page, choose **Remove Search Results**.
+6. On the search administration page, choose **Remove Search Results**.
     
-6. On the Remove Search Results page, in the **URLs to remove** box, type the URLs that you want to remove from the search results. Type one URL on each line. 
+7. On the Remove Search Results page, in the **URLs to remove** box, type the URLs that you want to remove from the search results. Type one URL on each line. 
     
-7. Select **Remove Now**. The URLs are immediately removed from your search results.
+8. Select **Remove Now**. The URLs are immediately removed from your search results.
     
 

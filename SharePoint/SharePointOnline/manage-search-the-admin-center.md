@@ -4,7 +4,6 @@ ms.reviewer:
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
-ms.date: 6/21/2018
 audience: Admin
 ms.topic: overview
 ms.service: sharepoint-online
@@ -34,7 +33,7 @@ The changes you make from the search administration page are valid for the whole
 
 3. In the left pane of the new SharePoint admin center, select **Classic features**. 
 
-4. Under **search**, select **Open**.
+4. Under **Search**, select **Open**.
 
     
 ## What do you want to do?

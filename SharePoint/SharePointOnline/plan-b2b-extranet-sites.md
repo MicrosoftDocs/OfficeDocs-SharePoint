@@ -4,7 +4,6 @@ ms.reviewer:
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 6/25/2018
 audience: Admin
 ms.topic: conceptual
 ms.service: sharepoint-online
@@ -80,7 +79,7 @@ When a contract with a business partner ends, it is important that you remove an
   
 - **Remove permissions** - [Remove partners from security groups](create-external-business-sharing-site.md#managing-your-site) or [remove them if they were individually added as site members](https://support.office.com/article/8376034d-d0c7-446e-9178-6ab51c58df42). 
     
-- **Delete partner user accounts** - Delete the partner users from Office 365 provided they no longer need access to any other resources in your organization. See [Delete a user from your organization](/office365/admin/add-users/delete-a-user).
+- **Delete partner accounts** - Delete the partner users from Office 365 provided they no longer need access to any other resources in your organization. See [Delete a user from your organization](/office365/admin/add-users/delete-a-user).
     
 - **Archive** - Archive the site that you created for your partner in SharePoint Online. 
     

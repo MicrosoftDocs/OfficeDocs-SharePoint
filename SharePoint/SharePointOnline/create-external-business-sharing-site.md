@@ -4,7 +4,6 @@ ms.reviewer:
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 6/29/2018
 audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
@@ -44,11 +43,7 @@ Before you create a site for external sharing, there are some organization-level
 
 4. In the left pane of the new SharePoint admin center, under **Policies**, select **Sharing**.
 
-5. At the bottom of the page, select **Limit external sharing to specific security groups**.
-  
-6. Under **Sharing outside your organization**, ensure that either **Allow users to invite and share with authenticated external users** or **Allow sharing to authenticated external users and using anonymous access links** is selected. This will allow you to properly configure sharing on your extranet site once you create it. 
-  
-7. Under **Additional settings**, we recommend that you select the **External users must accept sharing invitations using the same account that the invitations were sent to** check box. This ensures that the users that you invite to your site are the users who accept the invitation. If you don't enable this setting, invitations that you send could be forwarded to other users. 
+5. Under **External sharing**, set SharePoint to **Anyone** or **New and existing guests**.
   
 ## Create a site for your extranet
 
@@ -56,7 +51,7 @@ To begin, create a site collection in SharePoint Online.
   
  **To create an extranet site**
 
-On the Active sites page of the new SharePoint admin center, select **Create**, and then select **Team site**. 
+On the Active sites page of the new SharePoint admin center, select **Create**, and then select **Other options**, **More templates**, and **Team site (classic experience)**. 
     
 Next, configure it to allow invited users outside of your company to be able to access the site.
   
@@ -64,11 +59,13 @@ Next, configure it to allow invited users outside of your company to be able to 
   
 1. On the Active sites page of the new SharePoint admin center, select the site you created, and then select **Sharing**.
     
-2. Select **New and existing guests**.
+2. Select **Anyone** or **New and existing guests**.
 
-3. At the bottom of the page, select **Limit external sharing to specific security groups**.
+3. On the Classic features page of the new SharePoint admin center, select **More classic features**. Under **Classic site collections page**, select **Open**.
+
+4. Select the site, and then select **Sharing**.
     
-4. On the classic Sharing page, under **Allowing non-owners to invite new users**, select **Turn off sharing for non-owners on all sites in this site collection**.
+5. Under **Allowing non-owners to invite new users**, select **Turn off sharing for non-owners on all sites in this site collection**.
     
 Once you've set up external access, add any content that you want to the site for your External users to work on.
   

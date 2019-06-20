@@ -143,7 +143,7 @@ If you need a property of a different type, or one that has different characteri
     
 3. Select **Classic features**.
  
-4. Under **search**, select **Open**.
+4. Under **Search**, select **Open**.
  
 5. Select **Manage Search Schema** on the search administration page. 
     
@@ -193,7 +193,7 @@ If you need a property of a different type, or one that has different characteri
     
 3. Select **Classic features**.
  
-4. Under **search**, select **Open**.
+4. Under **Search**, select **Open**.
 
 5. Select **Manage Search Schema** on the search administration page. 
     
@@ -235,7 +235,7 @@ In the left pane, under **Admin centers**, select **SharePoint**. (You might nee
     
 3. Select **Classic features**.
  
-4. Under **search**, select **Open**.
+4. Under **Search**, select **Open**.
 
 5. Select **Manage Search Schema** on the search administration page.
 
@@ -270,7 +270,7 @@ In the left pane, under **Admin centers**, select **SharePoint**. (You might nee
     
 3. Select **Classic features**.
  
-4. Under **search**, select **Open**.
+4. Under **Search**, select **Open**.
 
 5. Select **Manage Search Schema** on the search administration page.
 
@@ -301,7 +301,7 @@ In the left pane, under **Admin centers**, select **SharePoint**. (You might nee
     
 3. Select **Classic features**.
  
-4. Under **search**, select **Open**.
+4. Under **Search**, select **Open**.
 
 5. Select **Manage Search Schema** on the search administration page.
 
@@ -334,7 +334,7 @@ In the left pane, under **Admin centers**, select **SharePoint**. (You might nee
     
 3. Select **Classic features**.
  
-4. Under **search**, select **Open**.
+4. Under **Search**, select **Open**.
 
 5. Select **Manage Search Schema** on the search administration page.
 
@@ -374,7 +374,7 @@ In the left pane, under **Admin centers**, select **SharePoint**. (You might nee
     
 3. Select **Classic features**.
  
-4. Under **search**, select **Open**.
+4. Under **Search**, select **Open**.
 
 5. Select **Manage Search Schema** on the search administration page.
 

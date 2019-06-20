@@ -4,7 +4,6 @@ ms.reviewer:
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
-ms.date: 6/29/2018
 audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
@@ -28,19 +27,21 @@ As a global or SharePoint admin in Office 365, you can specify where searches sh
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
+
+3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
     
-3. Select **Classic features**. 
+4. Select **Classic features**. 
  
-4. Under **search**, select **Open**.
+5. Under **Search**, select **Open**.
     
-5. On the search administration page, choose **Search Center Settings**.
+6. On the search administration page, choose **Search Center Settings**.
     
-6. In the **Search Center URL** box, type the URL of the Search Center site. 
+7. In the **Search Center URL** box, type the URL of the Search Center site. 
   
-Example: http://companyportal/searchcenter/pages.
+    Example: http://companyportal/searchcenter/pages.
     
-7. Select **OK**.
+8. Select **OK**.
     
 > [!NOTE]
 >  It may take up to 30 minutes before changes take effect. 
