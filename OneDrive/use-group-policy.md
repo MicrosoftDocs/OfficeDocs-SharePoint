@@ -34,7 +34,7 @@ This article is for IT admins who manage the new OneDrive sync client in a Windo
  
 ## Manage OneDrive using Group Policy
 
-1. Install the OneDrive sync client on a PC running Windows 10. (To see which builds are releasing and download builds, go to the [release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0?).) Installing the sync client downloads the .adml and .admx files.
+1. Install the OneDrive sync client for Windows. (To see which builds are releasing and download builds, go to the [release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0?).) Installing the sync client downloads the .adml and .admx files.
     
 2. Browse to %localappdata%\Microsoft\OneDrive\BuildNumber\adm\, to the subfolder for your language as necessary. 
     
