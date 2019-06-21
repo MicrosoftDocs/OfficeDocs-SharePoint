@@ -32,7 +32,9 @@ When you, as a global or SharePoint admin in Office 365, delete a site (previous
     
 You should notify the site admins and any subsite owners before you delete a site so they can move their data to another location, and also tell users when the sites will be deleted. 
 
-Important: It is not recommended to delete the root site collection. If you delete the root site collection, all SharePoint sites in your organization will be inaccessible until you restore the site or create a new site at <Root URL>
+> [!IMPORTANT] 
+> It is not recommended to delete the root site collection. If you delete the root site collection, all SharePoint sites in your
+> organization will be inaccessible until you restore the site or create a new root site collection.
 
 ## Delete a site in the new SharePoint admin center
 
