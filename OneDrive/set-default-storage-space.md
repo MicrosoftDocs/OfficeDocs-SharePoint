@@ -81,7 +81,7 @@ This storage space setting applies to all new and existing users who are license
       ```
    
     > [!NOTE]
-    >  When you set site storage limits in PowerShell, you enter them in MB. The values are converted and rounded down to the nearest integer to appear in the admin centers in GB. So a value of 5000 MB becomes 4 GB. If you set a value of less than 1024 MB by using PowerShell, it will be rounded up to 1 GB.
+    > When you set site storage limits in PowerShell, you enter them in MB. The values are converted and rounded down to the nearest integer to appear in the admin centers in GB, so a value of 5000 MB becomes 5 GB. If you set a value of less than 1024 MB using PowerShell, it will be rounded up to 1 GB.
 
 ## See also
  
