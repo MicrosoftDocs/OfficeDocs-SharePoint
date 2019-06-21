@@ -78,7 +78,7 @@ If you want to create a site that uses a classic template, you can do so directl
     ![Create a classic site from the Microsoft 365 admin center](media/3026fd12-9d34-4948-a149-fcc8de7b7d83.png)
   
     > [!NOTE]
-    > If you don't see the options above, under **Admin centers**, select **SharePoint** and then select **New** \> **Private Site Collection**. > ![Site Collection page with New selected](media/cf178205-b5bb-4152-a4c8-87d3099fc6ca.PNG)
+    > If you don't see the options above, under **Admin centers**, select **SharePoint** and then select **New** \> **Private Site Collection**. ![Site Collection page with New selected](media/cf178205-b5bb-4152-a4c8-87d3099fc6ca.PNG)
   
 4. Fill out the properties for the site:
     
