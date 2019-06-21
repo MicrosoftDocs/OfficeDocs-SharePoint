@@ -1,10 +1,11 @@
 ---
 title: "Configure Visio Services data refresh in SharePoint Server by using external data connections"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 7/6/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal

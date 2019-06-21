@@ -1,9 +1,10 @@
 ---
 title: "Back up the Secure Store Service in SharePoint Server"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -62,7 +63,7 @@ You can use PowerShell to back up the Secure Store Service manually or as part o
     
 3. At the PowerShell command prompt, type the following command:
     
-   ```
+   ```powershell
    Backup-SPFarm -Directory  <BackupFolder> -BackupMethod Full -Item <SecureStoreService > [-Verbose]
    ```
 

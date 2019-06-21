@@ -1,10 +1,11 @@
 ---
 title: "Manage app licenses for a SharePoint Online environment"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
 ms.date: 5/2/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
@@ -12,7 +13,7 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: cefcab58-d2ce-4823-91fe-ccdc59da64e9
-description: "This article explains how the SharePoint Online admin can manage app licenses and do things like assign licenses, buy more licenses, recover licneses, or add license managers."
+description: "Learn how to assign licenses, buy more licenses, recover licenses, and add license managers."
 ---
 
 # Manage app licenses for a SharePoint Online environment
@@ -26,11 +27,14 @@ From the admin center, you can also add users to an app, or delegate management 
 > [!NOTE]
 > The Office and SharePoint App Stores are optional services operated by Microsoft Corporation or its affiliate from any of Microsoft's worldwide facilities. The apps available in the Store are provided by various app publishers, and are subject to the app publisher's terms and conditions and privacy statement. Your use of any of these apps may result in your data being transferred to, stored, or processed in any country where the app publisher, its affiliates or service providers maintain facilities. Availability of specific apps and payment methods depends on your region and service. You can review the app publisher's terms and conditions and privacy statements before downloading and using such apps. 
   
-1. Sign in to Office 365 as a global admin or SharePoint admin. 
+1. Sign in to https://admin.microsoft.com as a global or SharePoint admin to open the Microsoft 365 admin center. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+    > [!NOTE]
+    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the **Admin** tile to open the admin center.  
     
-3. Select **Apps** on the left, and then select **Manage Licenses**. 
+2. In the left pane of the admin center, under **Admin centers**, select **SharePoint** to open the SharePoint admin center. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
+    
+3. In the left pane, select **apps**, and then select **Manage Licenses**. 
     
 4. In the list of apps, select the app you want to update or view. 
     
@@ -41,7 +45,7 @@ From the admin center, you can also add users to an app, or delegate management 
 |****To do this:****|****Do this:****|
 |:-----|:-----|
 |Assign licenses to specific users  <br/> | Under **People with a License**, select **assign licenses**, enter the name(s) of the people you want to add, and then select **Add User**.  <br/> |
-|Buy more licenses  <br/> | Under **People with a License**, select **buy**, and then follow the steps to log in with your [ Microsoft account ](http://windows.microsoft.com/en-us/windows-live/sign-up-create-account-how) to buy the additional number of licenses than you want.  <br/> |
+|Buy more licenses  <br/> | Under **People with a License**, select **buy**, and then follow the steps to sign in with your [Microsoft account](https://support.microsoft.com/help/4026324/microsoft-account-how-to-create) to buy the additional number of licenses than you want.  <br/> |
 |Remove app licenses  <br/> | Under **View a purchase**, select the arrow next to **Actions** and then select **Remove this license**.  <br/> |
 |Recover app licenses  <br/> | When you recover a license, you basically reacquire it from the SharePoint Store. You might need to do this if your license gets out of sync with Office.com or if you are moving the license to a new deployment (for example, in a disaster recovery scenario).  <br/> 
 Under View a purchase, select the arrow next to Actions, and then select Recover license. On the Details page for the app in the SharePoint Store, select More Actions, and then select Recover license again. When prompted, sign-in with your Microsoft account. |

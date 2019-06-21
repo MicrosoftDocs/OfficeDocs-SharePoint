@@ -1,10 +1,11 @@
 ---
 title: "Configure the OneDrive for Business modern user experience"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 11/15/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -15,7 +16,7 @@ description: "Learn how to turn the OneDrive for Business modern user experience
 
 # Configure the OneDrive for Business modern user experience
 
-[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]
   
 As part of the November 2016 public update for SharePoint Server 2016 (Feature Pack 1), a new modern user experience for OneDrive for Business is included. This modern user experience is turned on automatically when you install the public update. However, you can use Microsoft PowerShell to toggle the user experience off and on if you need to.
   

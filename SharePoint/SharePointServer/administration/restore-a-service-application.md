@@ -1,9 +1,10 @@
 ---
 title: "Restore service applications in SharePoint Server"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -65,7 +66,7 @@ You can use PowerShell to restore a service application.
     
 3. At the PowerShell command prompt, type the following command:
     
-   ```
+   ```powershell
    Restore-SPFarm -Directory 
    <BackupFolder>
     -Item "
@@ -87,7 +88,7 @@ You can use PowerShell to restore a service application.
     
     To restore all the service applications, at the PowerShell command prompt, type the following command:
     
-   ```
+   ```powershell
    Restore-SPFarm -Directory 
    <BackupFolder>
     -Item "Farm\Shared Service Applications" -RestoreMethod Overwrite [-BackupId 

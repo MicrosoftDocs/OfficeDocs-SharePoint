@@ -1,10 +1,11 @@
 ---
 title: "Host-named site collection architecture and deployment in SharePoint Server"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
 ms.date: 8/18/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -51,7 +52,7 @@ This recommended configuration in the diagram includes the following elements:
     
   - Team sites (http://teams.contoso.com) with subsites for Team 1, Team 2, and Team 3.
     
-  - My Sites with site URLs in the following format: webapp.contoso.comhttp://my.contoso.com/personal/\<site_name\>.
+  - My Sites with site URLs in the following format: http://my.contoso.com/personal/\<site_name\>.
     
 The number of sites within the web application and the URLs for sites are not important for this example.
   

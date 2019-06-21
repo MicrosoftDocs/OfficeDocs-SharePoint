@@ -1,10 +1,11 @@
 ---
 title: "Configure hybrid OneDrive for Business"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 10/20/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
@@ -16,6 +17,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
+- M365-collaboration
 ms.custom: 
 ms.assetid: f1dfdac2-81ad-452f-b5b6-df9e5a8e976e
 description: "Connect your on-premises SharePoint Server environment with OneDrive for Business in Office 365."

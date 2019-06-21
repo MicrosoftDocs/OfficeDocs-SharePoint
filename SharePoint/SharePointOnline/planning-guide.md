@@ -1,21 +1,24 @@
 ---
 title: "SharePoint Online planning guide"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
 ms.date: 6/29/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
-ms.collection: Strat_SP_admin
+ms.collection:  
+- Strat_SP_admin
+- M365-collaboration
 search.appverid:
 - SPO160
 - BSA160
 - GSP150
 - MET150
 ms.assetid: abacd1bb-295d-4235-afdd-15f5e4cc2e6c
-description: "Learn important details that a SharePoint Online admin should consider when planning to build out, configure, and manage SharePoint Online site collections."
+description: "Learn important details that a SharePoint admin should consider when planning to build out, configure, and manage SharePoint Online site collections."
 ---
 
 # SharePoint Online planning guide
@@ -43,7 +46,7 @@ A site collection has the same owner and shares administrative settings, such as
 ![SharePoint admin center site collections settings](media/3edc4ae1-cf3c-430b-9afb-d09fe5045cf0.png)
   
   
-Communication sites and new team sites that belong to Office 365 groups can't be created or managed in the classic SharePoint admin center. For info about creating and managing these sites using the new SharePoint admin center preview, see [Manage sites in the new SharePoint admin center](manage-sites-in-new-admin-center.md). 
+Communication sites and new team sites that belong to Office 365 groups can't be created or managed in the classic SharePoint admin center. For info about creating and managing these sites using the new SharePoint admin center, see [Manage sites in the new SharePoint admin center](manage-sites-in-new-admin-center.md). 
   
 ### Plan your site collection details
 

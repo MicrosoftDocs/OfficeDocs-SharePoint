@@ -1,9 +1,10 @@
 ---
 title: "SharePoint Online admin"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 layout: LandingPage
 ms.topic: landing-page
 ms.service: sharepoint-online
@@ -36,7 +37,7 @@ Help your users share, organize, and discover information with SharePoint.
         </a>
     </li>
     <li>
-        <a href="https://products.office.com/en-us/sharepoint/mobile-app">
+        <a href="https://products.office.com/sharepoint/mobile-app">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -72,7 +73,7 @@ Help your users share, organize, and discover information with SharePoint.
         </a>
     </li>
     <li>
-        <a href="https://products.office.com/en-us/sharepoint/sharepoint-partners-sharepoint-support">
+        <a href="https://products.office.com/sharepoint/sharepoint-partners-sharepoint-support">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -137,7 +138,7 @@ Help your users share, organize, and discover information with SharePoint.
                 <div class="card">
                     <div class="cardText">
                         <h3>Share and work together</h3>
-                        <p><a href="/sharepoint/turn-external-sharing-on-or-off">Turn external sharing on or off </a></p><p><a href="https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3">Small business: Create a company-wide team </a></p><p><a href="/sharepoint/manage-site-creation">Manage site creation </a></p><p><a href="/MicrosoftTeams/sharepoint-onedrive-interact">How SharePoint interacts with Teams </a></p><p><a href="">Administer OneDrive</a></p>
+                        <p><a href="/sharepoint/turn-external-sharing-on-or-off">Turn external sharing on or off </a></p><p><a href="https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3">Small business: Create a company-wide team </a></p><p><a href="/sharepoint/manage-site-creation">Manage site creation </a></p><p><a href="/MicrosoftTeams/sharepoint-onedrive-interact">How SharePoint interacts with Teams </a></p><p><a href="/onedrive/onedrive">Administer OneDrive</a></p>
                     </div>
                 </div>
             </div>

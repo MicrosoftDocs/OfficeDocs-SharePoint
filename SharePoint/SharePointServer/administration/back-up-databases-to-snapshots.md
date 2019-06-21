@@ -1,9 +1,10 @@
 ---
 title: "Back up databases to snapshots in SharePoint Server"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -51,7 +52,7 @@ If you want to back up databases to snapshots, you must use SQL Server tools. Th
     
 5. Copy the following text, and then paste it to the query pane.
     
-   ```
+   ```sql
    CREATE DATABASE <snapshot name>
    ON
    (

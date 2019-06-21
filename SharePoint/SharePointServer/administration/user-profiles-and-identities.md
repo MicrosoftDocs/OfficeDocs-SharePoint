@@ -1,10 +1,11 @@
 ---
 title: "User profiles and identities"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
 ms.date: 8/1/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -21,7 +22,7 @@ The following articles cover user profiles and identities in SharePoint Server .
 ||**Content**|**Description**|
 |:-----|:-----|:-----|
 |![Building blocks](../media/mod_icon_buildingblock_M.png)|[Overview of profile synchronization in SharePoint Server 2013](overview-of-profile-synchronization-in-sharepoint-server-2013.md) <br/> |Learn about profile synchronization in SharePoint Server 2013.  <br/> |
-|![Building blocks](../media/mod_icon_buildingblock_M.png)|[Overview of profile synchronization in SharePoint Server 2013](profile-synchronization-in-sharepoint-server-2013.md) <br/> |Learn about profile synchronization in SharePoint Server 2016.  <br/> |
+|![Building blocks](../media/mod_icon_buildingblock_M.png)|[Overview of profile synchronization in SharePoint Server 2016](profile-synchronization-in-sharepoint-server-2013.md) <br/> |Learn about profile synchronization in SharePoint Server 2016.  <br/> |
 |![Building blocks](../media/mod_icon_buildingblock_M.png)|[Plan profile synchronization for SharePoint Server 2013](plan-profile-synchronization-for-sharepoint-server-2013.md) <br/> |Learn how to plan for profile synchronization in SharePoint Server 2013.  <br/> |
 |![Building blocks](../media/mod_icon_buildingblock_M.png)|[User Profile service architecture](../install/user-profile-service-overview.md) <br/> |Learn about the User Profile service application and how SharePoint Server uses it to enable features such as audiences and My Sites.  <br/> |
 |![Checklist icon (not checked)](../media/mod_icon_checklist_.png)|[Plan user profiles in SharePoint Server](plan-user-profiles.md) <br/> |Plan user profiles for SharePoint Server.  <br/> |

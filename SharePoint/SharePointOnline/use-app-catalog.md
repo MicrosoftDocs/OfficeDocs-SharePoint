@@ -1,16 +1,19 @@
 ---
 title: "Use the App Catalog to make custom business apps available for your SharePoint Online environment"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
 ms.date: 5/22/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 f1_keywords:
 - 'ManageAppCatalog'
 ms.service: sharepoint-online
 localization_priority: Normal
-ms.collection: Strat_SP_admin
+ms.collection:  
+- Strat_SP_admin
+- M365-collaboration
 search.appverid:
 - SPO160
 - BSA160
@@ -34,19 +37,20 @@ The first step is to create the App Catalog site collection if it hasn't already
   
 Even if you don't plan to make internal custom apps available, you will not be able to do things like change the purchase settings for the SharePoint Store until you create the App Catalog site collection. You can have only one App Catalog site collection for your organization, and you only need to create it once. 
   
-1. Sign in to Office 365 as a global admin or SharePoint admin.
+1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
-  
-3. In the left pane, choose **Admin centers** \> **SharePoint**.
+    > [!NOTE]
+    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-4. Select **apps** in the left pane, and then select **App Catalog**.
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
     
-5. If the App Catalog site doesn't open, select **Create a new app catalog site**, and then select **OK**.
+3. In the left pane, select **apps**, and then select **App Catalog**.
+    
+4. If the App Catalog site doesn't open, select **Create a new app catalog site**, and then select **OK**.
     
     ![App catalog site dialog with Create a new app catalog site selected.](media/a7b6b416-5e02-43a8-a15a-f996b95dcc8f.PNG)
   
-6. On the Create App Catalog Site Collection page, enter the required information, and then select **OK**.
+5. On the Create App Catalog Site Collection page, enter the required information, and then select **OK**.
     
     ![Create App Catalog dialog box](media/0ee3e6a9-b293-4de4-a648-782d8f2f717e.PNG)
   

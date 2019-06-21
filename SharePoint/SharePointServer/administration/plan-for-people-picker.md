@@ -1,10 +1,11 @@
 ---
-title: "Plan for People Picker in SharePoint 2013"
+title: "Plan for People Picker in SharePoint"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
 ms.date: 8/1/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: interactive-tutorial
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -12,11 +13,11 @@ ms.assetid: 2093c146-c880-48c6-9526-24cdf80969ba
 description: "Learn how to plan for the People Picker web control in SharePoint Server."
 ---
 
-# Plan for People Picker in SharePoint 2013
+# Plan for People Picker in SharePoint
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
-You use the People Picker control to find and select people, groups, and claims when a site, list, or library owner assigns permissions in SharePoint Server 2013. This article describes how to plan for People Picker. For information about how to configure People Picker, see [Configure People Picker in SharePoint Server](/previous-versions/office/sharepoint-server-2010/gg602075(v=office.14)).
+You use the People Picker control to find and select people, groups, and claims when a site, list, or library owner assigns permissions in SharePoint Server. This article describes how to plan for People Picker. For information about how to configure People Picker, see [Configure People Picker in SharePoint Server](/previous-versions/office/sharepoint-server-2010/gg602075(v=office.14)).
   
 Before reading this article, you should understand the concepts described in the following articles: 
   
@@ -34,12 +35,12 @@ Before reading this article, you should understand the concepts described in the
 
 A claims provider lists, resolves, searches, and determines the "friendly" display of users, groups, and claims in the People Picker when claims-based authentication is used. If your web application uses claims-based authentication, you must decide whether to use one of the default claims providers or create a custom claims provider that will meet the business needs of your organization.
   
-For more information about how claims providers are related to the People Picker control, see [Plan for custom claims providers for People Picker in SharePoint 2013](plan-for-custom-claims-providers-for-people-picker.md).
+For more information about how claims providers are related to the People Picker control, see [Plan for custom claims providers for People Picker in SharePoint](plan-for-custom-claims-providers-for-people-picker.md).
   
 ## Using People Picker with multiple forests or domains
 <a name="forests"> </a>
 
-By default, People Picker will return users, groups, and claims from the domain on which SharePoint Server 2013 is installed, only. If you want People Picker to return query results from more than one forest or domain, you must configure People Picker to use an encrypted account and password even if you have a one- or two-way trust between the forests or domains. For more information about trusts, see [Managing Trusts](https://go.microsoft.com/fwlink/p/?LinkId=207573).
+By default, People Picker will return users, groups, and claims from the domain on which SharePoint Server is installed, only. If you want People Picker to return query results from more than one forest or domain, you must configure People Picker to use an encrypted account and password even if you have a one- or two-way trust between the forests or domains. For more information about trusts, see [Managing Trusts](https://go.microsoft.com/fwlink/p/?LinkId=207573).
   
 To configure People Picker for a one-way trust, see [Configure People Picker in SharePoint Server](/previous-versions/office/sharepoint-server-2010/gg602075(v=office.14)).
   
@@ -73,7 +74,7 @@ Planning for the users, groups, and claims you want to display in the query resu
   
 [People Picker and claims providers overview](people-picker-and-claims-providers-overview.md)
   
-[Plan for custom claims providers for People Picker in SharePoint 2013](plan-for-custom-claims-providers-for-people-picker.md)
+[Plan for custom claims providers for People Picker in SharePoint](plan-for-custom-claims-providers-for-people-picker.md)
 #### Other Resources
 
 [Configure People Picker in SharePoint Server](/previous-versions/office/sharepoint-server-2010/gg602075(v=office.14))

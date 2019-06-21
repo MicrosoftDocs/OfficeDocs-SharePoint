@@ -1,10 +1,11 @@
 ---
 title: "Migration Assessment Scan Large Sites"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
 ms.date: 9/13/2017
-ms.audience: Admin
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority

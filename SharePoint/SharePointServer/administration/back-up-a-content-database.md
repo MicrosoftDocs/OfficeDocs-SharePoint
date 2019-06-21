@@ -1,9 +1,10 @@
 ---
 title: "Back up content databases in SharePoint Server"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -59,7 +60,7 @@ You can use PowerShell to back up a content database manually or as part of a sc
     
 3. At the PowerShell command prompt, type the following command:
     
-   ```
+   ```powershell
    Backup-SPFarm -Directory <BackupFolder> -BackupMethod {Full | Differential} -Item <ContentDatabaseName> [-Verbose]
    ```
 

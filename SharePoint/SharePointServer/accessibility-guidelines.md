@@ -1,10 +1,11 @@
 ---
 title: "Accessibility guidelines in SharePoint Server 2016"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
 ms.date: 3/12/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -27,7 +28,7 @@ Users who don't use a mouse can use a keyboard to navigate the user interface an
   
 ## SharePoint Server 2016 conformance statement
 
-The following SharePoint Server 2016 conformance statement, VPAT, and EN 301 549 reports are available on the [Section 508 VPAT](https://enterprise.microsoft.com/en-us/industries/government/section-508-vpats-for-microsoft-products/), [WCAG conformance statement](https://enterprise.microsoft.com/en-us/industries/government/wcag-2-0-reports-for-microsoft-products/) and [EN 301 549](https://www.microsoft.com/en301549) sites. You can download the WCAG Conformance Statement and the Section 508 VPAT for SharePoint Server 2016, click any of these links and search for SharePoint Server 2016. 
+The following SharePoint Server 2016 conformance statement, VPAT, and EN 301 549 reports are available at [Microsoft Accessibility Conformance Reports](https://cloudblogs.microsoft.com/industry-blog/government/2018/09/11/accessibility-conformance-reports/) You can download the WCAG Conformance Statement and the Section 508 VPAT for SharePoint Server 2016, click the provided link and search for SharePoint Server 2016.  
   
 ## Accessibility features in SharePoint Server
 

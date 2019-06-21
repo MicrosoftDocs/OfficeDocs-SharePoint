@@ -1,10 +1,11 @@
 ---
 title: "SharePoint Intranet Farm in Azure Phase 3 Configure SQL Server Infrastructure"
+ms.reviewer: 
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 04/06/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -62,13 +63,13 @@ $vnetName="<Table V - Item 1 - Value column>"
 $subnetName="<Table S - Item 2 - Subnet name column>"
 $privIP="<Table I - Item 4 - Value column>"
 $rgName="<Table R - Item 5 - Resource group name column>"
-$vnet=Get-AzureRMVirtualNetwork -Name $vnetName -ResourceGroupName $rgName
-$subnet=Get-AzureRmVirtualNetworkSubnetConfig -VirtualNetwork $vnet -Name $subnetName
-$frontendIP=New-AzureRMLoadBalancerFrontendIpConfig -Name "SQLServers-LBFE" -PrivateIPAddress $privIP -Subnet $subnet
-$beAddressPool=New-AzureRMLoadBalancerBackendAddressPoolConfig -Name "SQLServers-LBBE"
-$healthProbe=New-AzureRMLoadBalancerProbeConfig -Name WebServersProbe -Protocol "TCP" -Port 59999 -IntervalInSeconds 5 -ProbeCount 2
-$lbrule=New-AzureRMLoadBalancerRuleConfig -Name "SQLTraffic" -FrontendIpConfiguration $frontendIP -BackendAddressPool $beAddressPool -Probe $healthProbe -Protocol "TCP" -FrontendPort 1433 -BackendPort 1433 -EnableFloatingIP
-New-AzureRMLoadBalancer -ResourceGroupName $rgName -Name "SQLServers" -Location $locName -LoadBalancingRule $lbrule -BackendAddressPool $beAddressPool -Probe $healthProbe -FrontendIpConfiguration $frontendIP
+$vnet=Get-AzVirtualNetwork -Name $vnetName -ResourceGroupName $rgName
+$subnet=Get-AzVirtualNetworkSubnetConfig -VirtualNetwork $vnet -Name $subnetName
+$frontendIP=New-AzLoadBalancerFrontendIpConfig -Name "SQLServers-LBFE" -PrivateIPAddress $privIP -Subnet $subnet
+$beAddressPool=New-AzLoadBalancerBackendAddressPoolConfig -Name "SQLServers-LBBE"
+$healthProbe=New-AzLoadBalancerProbeConfig -Name WebServersProbe -Protocol "TCP" -Port 59999 -IntervalInSeconds 5 -ProbeCount 2
+$lbrule=New-AzLoadBalancerRuleConfig -Name "SQLTraffic" -FrontendIpConfiguration $frontendIP -BackendAddressPool $beAddressPool -Probe $healthProbe -Protocol "TCP" -FrontendPort 1433 -BackendPort 1433 -EnableFloatingIP
+New-AzLoadBalancer -ResourceGroupName $rgName -Name "SQLServers" -Location $locName -LoadBalancingRule $lbrule -BackendAddressPool $beAddressPool -Probe $healthProbe -FrontendIpConfiguration $frontendIP
 
 ```
 
@@ -91,76 +92,76 @@ $rgNameTier="<Table R - Item 2 - Resource group name column>"
 $rgNameInfra="<Table R - Item 5 - Resource group name column>"
 $sqlSKU="SQL2016-WS2016"
 $rgName=$rgNameInfra
-$vnet=Get-AzureRMVirtualNetwork -Name $vnetName -ResourceGroupName $rgName
-$subnet=Get-AzureRmVirtualNetworkSubnetConfig -VirtualNetwork $vnet -Name $subnetName
-$backendSubnet=Get-AzureRMVirtualNetworkSubnetConfig -Name $subnetName -VirtualNetwork $vnet
-$webLB=Get-AzureRMLoadBalancer -ResourceGroupName $rgName -Name "SQLServers"
+$vnet=Get-AzVirtualNetwork -Name $vnetName -ResourceGroupName $rgName
+$subnet=Get-AzVirtualNetworkSubnetConfig -VirtualNetwork $vnet -Name $subnetName
+$backendSubnet=Get-AzVirtualNetworkSubnetConfig -Name $subnetName -VirtualNetwork $vnet
+$webLB=Get-AzLoadBalancer -ResourceGroupName $rgName -Name "SQLServers"
 $rgName=$rgNameTier
-$avSet=Get-AzureRMAvailabilitySet -Name $avName -ResourceGroupName $rgName
+$avSet=Get-AzAvailabilitySet -Name $avName -ResourceGroupName $rgName
 # Create the first SQL Server virtual machine
 $vmName="<Table M - Item 3 - Virtual machine name column>"
 $vmSize="<Table M - Item 3 - Minimum size column>"
 $staticIP="<Table I - Item 5 - Value column>"
 $diskStorageType="<Table M - Item 3 - Storage type column>"
-$nic=New-AzureRMNetworkInterface -Name ($vmName +"-NIC") -ResourceGroupName $rgName -Location $locName -Subnet $backendSubnet -LoadBalancerBackendAddressPool $webLB.BackendAddressPools[0] -PrivateIpAddress $staticIP
-$vm=New-AzureRMVMConfig -VMName $vmName -VMSize $vmSize -AvailabilitySetId $avset.Id
-$vm=Set-AzureRmVMOSDisk -VM $vm -Name ($vmName +"-OS") -DiskSizeInGB 128 -CreateOption FromImage -StorageAccountType $diskStorageType
+$nic=New-AzNetworkInterface -Name ($vmName +"-NIC") -ResourceGroupName $rgName -Location $locName -Subnet $backendSubnet -LoadBalancerBackendAddressPool $webLB.BackendAddressPools[0] -PrivateIpAddress $staticIP
+$vm=New-AzVMConfig -VMName $vmName -VMSize $vmSize -AvailabilitySetId $avset.Id
+$vm=Set-AzVMOSDisk -VM $vm -Name ($vmName +"-OS") -DiskSizeInGB 128 -CreateOption FromImage -StorageAccountType $diskStorageType
 $diskSize=1000
-$diskConfig=New-AzureRmDiskConfig -AccountType $diskStorageType -Location $locName -CreateOption Empty -DiskSizeGB $diskSize
-$dataDisk1=New-AzureRmDisk -DiskName ($vmName + "-SQLData") -Disk $diskConfig -ResourceGroupName $rgName
-$vm=Add-AzureRmVMDataDisk -VM $vm -Name ($vmName + "-SQLData") -CreateOption Attach -ManagedDiskId $dataDisk1.Id -Lun 1
+$diskConfig=New-AzDiskConfig -AccountType $diskStorageType -Location $locName -CreateOption Empty -DiskSizeGB $diskSize
+$dataDisk1=New-AzDisk -DiskName ($vmName + "-SQLData") -Disk $diskConfig -ResourceGroupName $rgName
+$vm=Add-AzVMDataDisk -VM $vm -Name ($vmName + "-SQLData") -CreateOption Attach -ManagedDiskId $dataDisk1.Id -Lun 1
 $diskSize=1000
-$diskConfig=New-AzureRmDiskConfig -AccountType $diskStorageType -Location $locName -CreateOption Empty -DiskSizeGB $diskSize
-$dataDisk1=New-AzureRmDisk -DiskName ($vmName + "-SQLLogs") -Disk $diskConfig -ResourceGroupName $rgName
-$vm=Add-AzureRmVMDataDisk -VM $vm -Name ($vmName + "-SQLLogs") -CreateOption Attach -ManagedDiskId $dataDisk1.Id -Lun 2
+$diskConfig=New-AzDiskConfig -AccountType $diskStorageType -Location $locName -CreateOption Empty -DiskSizeGB $diskSize
+$dataDisk1=New-AzDisk -DiskName ($vmName + "-SQLLogs") -Disk $diskConfig -ResourceGroupName $rgName
+$vm=Add-AzVMDataDisk -VM $vm -Name ($vmName + "-SQLLogs") -CreateOption Attach -ManagedDiskId $dataDisk1.Id -Lun 2
 $diskSize=1000
-$diskConfig=New-AzureRmDiskConfig -AccountType $diskStorageType -Location $locName -CreateOption Empty -DiskSizeGB $diskSize
-$dataDisk1=New-AzureRmDisk -DiskName ($vmName + "-SQLTemp") -Disk $diskConfig -ResourceGroupName $rgName
-$vm=Add-AzureRmVMDataDisk -VM $vm -Name ($vmName + "-SQLTemp") -CreateOption Attach -ManagedDiskId $dataDisk1.Id -Lun 3
+$diskConfig=New-AzDiskConfig -AccountType $diskStorageType -Location $locName -CreateOption Empty -DiskSizeGB $diskSize
+$dataDisk1=New-AzDisk -DiskName ($vmName + "-SQLTemp") -Disk $diskConfig -ResourceGroupName $rgName
+$vm=Add-AzVMDataDisk -VM $vm -Name ($vmName + "-SQLTemp") -CreateOption Attach -ManagedDiskId $dataDisk1.Id -Lun 3
 $cred=Get-Credential -Message "Type the name and password of the local administrator account for the first SQL Server computer." 
-$vm=Set-AzureRMVMOperatingSystem -VM $vm -Windows -ComputerName $vmName -Credential $cred -ProvisionVMAgent -EnableAutoUpdate
-$vm=Set-AzureRMVMSourceImage -VM $vm -PublisherName MicrosoftSQLServer -Offer $sqlSKU -Skus Enterprise -Version "latest"
-$vm=Add-AzureRMVMNetworkInterface -VM $vm -Id $nic.Id
-New-AzureRMVM -ResourceGroupName $rgName -Location $locName -VM $vm
+$vm=Set-AzVMOperatingSystem -VM $vm -Windows -ComputerName $vmName -Credential $cred -ProvisionVMAgent -EnableAutoUpdate
+$vm=Set-AzVMSourceImage -VM $vm -PublisherName MicrosoftSQLServer -Offer $sqlSKU -Skus Enterprise -Version "latest"
+$vm=Add-AzVMNetworkInterface -VM $vm -Id $nic.Id
+New-AzVM -ResourceGroupName $rgName -Location $locName -VM $vm
 # Create the second SQL Server virtual machine
 $vmName="<Table M - Item 4 - Virtual machine name column>"
 $vmSize="<Table M - Item 4 - Minimum size column>"
 $staticIP="<Table I - Item 6 - Value column>"
 $diskStorageType="<Table M - Item 4 - Storage type column>"
-$nic=New-AzureRMNetworkInterface -Name ($vmName +"-NIC") -ResourceGroupName $rgName -Location $locName  -Subnet $backendSubnet -LoadBalancerBackendAddressPool $webLB.BackendAddressPools[0] -PrivateIpAddress $staticIP
-$vm=New-AzureRMVMConfig -VMName $vmName -VMSize $vmSize -AvailabilitySetId $avset.Id
-$vm=Set-AzureRmVMOSDisk -VM $vm -Name ($vmName +"-OS") -DiskSizeInGB 128 -CreateOption FromImage -StorageAccountType $diskStorageType
+$nic=New-AzNetworkInterface -Name ($vmName +"-NIC") -ResourceGroupName $rgName -Location $locName  -Subnet $backendSubnet -LoadBalancerBackendAddressPool $webLB.BackendAddressPools[0] -PrivateIpAddress $staticIP
+$vm=New-AzVMConfig -VMName $vmName -VMSize $vmSize -AvailabilitySetId $avset.Id
+$vm=Set-AzVMOSDisk -VM $vm -Name ($vmName +"-OS") -DiskSizeInGB 128 -CreateOption FromImage -StorageAccountType $diskStorageType
 $diskSize=1000
-$diskConfig=New-AzureRmDiskConfig -AccountType $diskStorageType -Location $locName -CreateOption Empty -DiskSizeGB $diskSize
-$dataDisk1=New-AzureRmDisk -DiskName ($vmName + "-SQLData") -Disk $diskConfig -ResourceGroupName $rgName
-$vm=Add-AzureRmVMDataDisk -VM $vm -Name ($vmName + "-SQLData") -CreateOption Attach -ManagedDiskId $dataDisk1.Id -Lun 1
+$diskConfig=New-AzDiskConfig -AccountType $diskStorageType -Location $locName -CreateOption Empty -DiskSizeGB $diskSize
+$dataDisk1=New-AzDisk -DiskName ($vmName + "-SQLData") -Disk $diskConfig -ResourceGroupName $rgName
+$vm=Add-AzVMDataDisk -VM $vm -Name ($vmName + "-SQLData") -CreateOption Attach -ManagedDiskId $dataDisk1.Id -Lun 1
 $diskSize=1000
-$diskConfig=New-AzureRmDiskConfig -AccountType $diskStorageType -Location $locName -CreateOption Empty -DiskSizeGB $diskSize
-$dataDisk1=New-AzureRmDisk -DiskName ($vmName + "-SQLLogs") -Disk $diskConfig -ResourceGroupName $rgName
-$vm=Add-AzureRmVMDataDisk -VM $vm -Name ($vmName + "-SQLLogs") -CreateOption Attach -ManagedDiskId $dataDisk1.Id -Lun 2
+$diskConfig=New-AzDiskConfig -AccountType $diskStorageType -Location $locName -CreateOption Empty -DiskSizeGB $diskSize
+$dataDisk1=New-AzDisk -DiskName ($vmName + "-SQLLogs") -Disk $diskConfig -ResourceGroupName $rgName
+$vm=Add-AzVMDataDisk -VM $vm -Name ($vmName + "-SQLLogs") -CreateOption Attach -ManagedDiskId $dataDisk1.Id -Lun 2
 $diskSize=1000
-$diskConfig=New-AzureRmDiskConfig -AccountType $diskStorageType -Location $locName -CreateOption Empty -DiskSizeGB $diskSize
-$dataDisk1=New-AzureRmDisk -DiskName ($vmName + "-SQLTemp") -Disk $diskConfig -ResourceGroupName $rgName
-$vm=Add-AzureRmVMDataDisk -VM $vm -Name ($vmName + "-SQLTemp") -CreateOption Attach -ManagedDiskId $dataDisk1.Id -Lun 3
+$diskConfig=New-AzDiskConfig -AccountType $diskStorageType -Location $locName -CreateOption Empty -DiskSizeGB $diskSize
+$dataDisk1=New-AzDisk -DiskName ($vmName + "-SQLTemp") -Disk $diskConfig -ResourceGroupName $rgName
+$vm=Add-AzVMDataDisk -VM $vm -Name ($vmName + "-SQLTemp") -CreateOption Attach -ManagedDiskId $dataDisk1.Id -Lun 3
 $cred=Get-Credential -Message "Type the name and password of the local administrator account for the second SQL Server computer." 
-$vm=Set-AzureRMVMOperatingSystem -VM $vm -Windows -ComputerName $vmName -Credential $cred -ProvisionVMAgent -EnableAutoUpdate
-$vm=Set-AzureRMVMSourceImage -VM $vm -PublisherName MicrosoftSQLServer -Offer $sqlSKU -Skus Enterprise -Version "latest"
-$vm=Add-AzureRMVMNetworkInterface -VM $vm -Id $nic.Id
-New-AzureRMVM -ResourceGroupName $rgName -Location $locName -VM $vm
+$vm=Set-AzVMOperatingSystem -VM $vm -Windows -ComputerName $vmName -Credential $cred -ProvisionVMAgent -EnableAutoUpdate
+$vm=Set-AzVMSourceImage -VM $vm -PublisherName MicrosoftSQLServer -Offer $sqlSKU -Skus Enterprise -Version "latest"
+$vm=Add-AzVMNetworkInterface -VM $vm -Id $nic.Id
+New-AzVM -ResourceGroupName $rgName -Location $locName -VM $vm
 # Create the cluster majority node server
 #  Note that this virtual machine is not needed if you are using a cloud witness.
 $vmName="<Table M - Item 5 - Virtual machine name column>"
 $vmSize="<Table M - Item 5 - Minimum size column>"
 $staticIP="<Table I - Item 7 - Value column>"
 $diskStorageType="<Table M - Item 5 - Storage type column>"
-$nic=New-AzureRMNetworkInterface -Name ($vmName +"-NIC") -ResourceGroupName $rgName -Location $locName -Subnet $subnet -PrivateIpAddress $staticIP
-$vm=New-AzureRMVMConfig -VMName $vmName -VMSize $vmSize -AvailabilitySetId $avset.Id
-$vm=Set-AzureRmVMOSDisk -VM $vm -Name ($vmName +"-OS") -DiskSizeInGB 128 -CreateOption FromImage -StorageAccountType $diskStorageType
+$nic=New-AzNetworkInterface -Name ($vmName +"-NIC") -ResourceGroupName $rgName -Location $locName -Subnet $subnet -PrivateIpAddress $staticIP
+$vm=New-AzVMConfig -VMName $vmName -VMSize $vmSize -AvailabilitySetId $avset.Id
+$vm=Set-AzVMOSDisk -VM $vm -Name ($vmName +"-OS") -DiskSizeInGB 128 -CreateOption FromImage -StorageAccountType $diskStorageType
 $cred=Get-Credential -Message "Type the name and password of the local administrator account for the cluster majority node server." 
-$vm=Set-AzureRMVMOperatingSystem -VM $vm -Windows -ComputerName $vmName -Credential $cred -ProvisionVMAgent -EnableAutoUpdate
-$vm=Set-AzureRMVMSourceImage -VM $vm -PublisherName MicrosoftWindowsServer -Offer WindowsServer -Skus 2016-Datacenter -Version "latest"
-$vm=Add-AzureRMVMNetworkInterface -VM $vm -Id $nic.Id
-New-AzureRMVM -ResourceGroupName $rgName -Location $locName -VM $vm
+$vm=Set-AzVMOperatingSystem -VM $vm -Windows -ComputerName $vmName -Credential $cred -ProvisionVMAgent -EnableAutoUpdate
+$vm=Set-AzVMSourceImage -VM $vm -PublisherName MicrosoftWindowsServer -Offer WindowsServer -Skus 2016-Datacenter -Version "latest"
+$vm=Add-AzVMNetworkInterface -VM $vm -Id $nic.Id
+New-AzVM -ResourceGroupName $rgName -Location $locName -VM $vm
 
 ```
 

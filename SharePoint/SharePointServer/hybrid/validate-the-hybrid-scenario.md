@@ -1,10 +1,11 @@
 ---
 title: "Validate the Business Connectivity Services hybrid scenario"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 6/22/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -12,6 +13,7 @@ ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server
 - IT_SharePoint_Hybrid_Top
+- M365-collaboration
 ms.assetid: 48a1c449-7bf6-4f12-a5f3-1933caadf713
 description: "How to validate the Business Connectivity Services (BCS) hybrid solution is working."
 ---

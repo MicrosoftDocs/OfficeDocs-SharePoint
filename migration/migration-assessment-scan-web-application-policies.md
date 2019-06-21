@@ -1,10 +1,11 @@
 ---
 title: "Migration Assessment Scan Web Application Policies"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
 ms.date: 7/5/2017
-ms.audience: Admin
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority

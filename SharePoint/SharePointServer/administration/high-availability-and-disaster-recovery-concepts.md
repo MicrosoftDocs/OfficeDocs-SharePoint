@@ -1,10 +1,11 @@
 ---
 title: "High availability and disaster recovery concepts in SharePoint Server"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
 ms.date: 8/2/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal

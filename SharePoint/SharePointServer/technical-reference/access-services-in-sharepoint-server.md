@@ -1,10 +1,10 @@
 ---
 title: "Access Services in SharePoint Server knowledge articles"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 2/22/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: troubleshooting
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -17,11 +17,26 @@ description: "Learn how to resolve alerts about Access Services in the SharePoin
 
 # Access Services in SharePoint Server knowledge articles
 
-[!INCLUDE[appliesto-2013-2016-xxx-xxx-md](../includes/appliesto-2013-2016-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-xxx-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
 
-Learn how to resolve alerts about Access Services in the SharePoint Server 2016 and SharePoint Server 2013 management pack for Systems Center Operations Manager (SCOM).
+Learn how to resolve alerts about Access Services in the SharePoint Servers 2019, 2016 and 2013 management pack for Systems Center Operations Manager (SCOM).
   
-The articles in this section are knowledge articles for Access Services in SharePoint Server. Typically, you would see these articles after clicking a link in an alert in the Operations Manager console. You can use these articles to help you troubleshoot and resolve problems in Access Services in SharePoint Server. Download and install [System Center Monitoring Pack for SharePoint Server 2016](http://go.microsoft.com/fwlink/?LinkID=746863&amp;clcid=0x409), [System Center Monitoring Pack for SharePoint Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=272568), or [System Center Monitoring Pack for SharePoint Foundation](http://go.microsoft.com/fwlink/p/?LinkId=272567).
+The articles in this section are knowledge articles for Access Services in SharePoint Server. Typically, you would see these articles after clicking a link in an alert in the Operations Manager console. You can use these articles to help you troubleshoot and resolve problems in Access Services in SharePoint Server.
+
+> [!NOTE]
+>  Access Services 2010 and 2013 are deprecated but will remain supported for SharePoint Server 2019. We recommend to explore Microsoft [PowerApps](https://powerapps.microsoft.com/) and [Flows](http://flow.microsoft.com/) as potential alternatives to Access Services 2010 and 2013.
+
+Download and install:
+
+- [System Center Management Pack for SharePoint Server 2019](https://www.microsoft.com/en-us/download/details.aspx?id=57776)
+
+- [System Center Monitoring Pack for SharePoint Server 2016](http://go.microsoft.com/fwlink/?LinkID=746863&amp;clcid=0x409) 
+
+- [System Center Monitoring Pack for SharePoint Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=272568) 
+
+- [System Center Monitoring Pack for SharePoint Foundation 2013](https://go.microsoft.com/fwlink/p/?LinkId=272567)
+
+Use the following information to resolve the Access Services error messages:
   
 - [No application info from content database](#NoAppInfo)
     

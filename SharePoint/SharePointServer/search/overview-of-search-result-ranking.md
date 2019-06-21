@@ -1,10 +1,11 @@
 ---
 title: "Overview of search result ranking in SharePoint Server"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen
 ms.date: 7/24/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -226,5 +227,5 @@ You can read more about how to create, deploy and use a custom ranking model in 
   
 [Overview of the search schema in SharePoint Server](search-schema-overview.md)
   
-[Create a custom ranking model by using the Ranking Model Tuning App](https://office.microsoft.com/en-us/office365-sharepoint-online-enterprise-help/create-a-custom-ranking-model-by-using-the-ranking-model-tuning-app-HA104104860.aspx?CTT=1)
+[Create a custom ranking model by using the Ranking Model Tuning App](https://docs.microsoft.com/en-us/sharepoint/search/create-custom-ranking-model)
 

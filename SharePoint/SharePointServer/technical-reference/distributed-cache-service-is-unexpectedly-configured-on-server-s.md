@@ -1,10 +1,11 @@
 ---
 title: "Distributed cache service is unexpectedly configured on server(s) (SharePoint Server 2016)"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
 ms.date: 10/24/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: troubleshooting
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal

@@ -1,13 +1,17 @@
 ---
 title: "How SharePoint Online and OneDrive safeguard your data in the cloud"
+ms.reviewer: 
+manager: 
 ms.author: kaarins
 author: kaarins
 ms.date: 5/25/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: conceptual
 ms.service: sharepoint-online
 localization_priority: Normal
-ms.collection: Strat_SP_admin
+ms.collection:  
+- Strat_SP_admin
+- M365-collaboration
 search.appverid:
 - SPO160
 - ODB160
@@ -18,7 +22,7 @@ description: "Learn what Microsoft does to protect your data in SharePoint Onlin
 
 # How SharePoint Online and OneDrive safeguard your data in the cloud
 
-You control your data. When you put your data in SharePoint Online and OneDrive, you remain the owner of the data. For more info about the ownership of your data, see [Office 365 Privacy by Design](https://products.office.com/en-us/business/office-365-trust-center-privacy).
+You control your data. When you put your data in SharePoint Online and OneDrive, you remain the owner of the data. For more info about the ownership of your data, see [Office 365 Privacy by Design](https://www.microsoft.com/trustcenter/privacy/privacy-overview).
   
 ## How we treat your data
 
@@ -34,7 +38,7 @@ Other things we recommend to increase security:
   
 - Use Azure Active Directory device-based conditional access to block or limit access on unmanaged devices like airport or hotel kiosks. See [Control access from unmanaged devices](control-access-from-unmanaged-devices.md).
     
-- Create policies to sign users out of Office 365 web sessions after a period of inactivity. For information, see [Idle Session Timeout (currently in preview).](https://go.microsoft.com/fwlink/?linkid=867121)
+- Create policies to sign users out of Office 365 web sessions after a period of inactivity. For information, see [Sign out inactive users](sign-out-inactive-users.md).
     
 - Evaluate the need for IP-based sessions. These simulate the access model of an on-premises deployment. Read more at [Control access based on network location or app](/onedrive/control-access-based-on-network-location-or-app).
     
@@ -52,9 +56,10 @@ When data transits into the service from clients, and between datacenters, it's 
 
  **Physical protection**: Only a limited number of essential personnel can gain access to datacenters. Their identities are verified with multiple factors of authentication including smart cards and biometrics. There are on-premises security officers, motion sensors, and video surveillance. Intrusion detection alerts monitor anomalous activity. 
   
- **Network protection**: The networks and identities are isolated from the Microsoft corporate network. We administer the service with dedicated Active Directory domains, we have separate domains for test and production, and the production domain is divided into multiple isolated domains for reliability and security. For more information about the built-in physical and logical security from Office 365, see [Built in Security from Office 365](https://products.office.com/en-us/business/office-365-trust-center-security).
+ **Network protection**: The networks and identities are isolated from the Microsoft corporate network. We administer the service with dedicated Active Directory domains, we have separate domains for test and production, and the production domain is divided into multiple isolated domains for reliability and security. For more information about the built-in physical and logical security from Office 365, see [Built in Security from Office 365](https://www.microsoft.com/security).
   
- **Application security**: Engineers who build features follow the security development lifecycle. Automated and manual analyses help identify possible vulnerabilities. The Microsoft security response center ( [Microsoft Security Response Center](https://technet.microsoft.com/en-us/security/dn440717.aspx)) helps triage incoming vulnerability reports and evaluate mitigations. Through the Microsoft Cloud Bug Bounty, people across the world can earn money by reporting vulnerabilities. Read more about this at [Microsoft Cloud Bug Bounty Terms](https://technet.microsoft.com/en-us/dn800983).
+ **Application security**: Engineers who build features follow the security development lifecycle. Automated and manual analyses help identify possible vulnerabilities. The Microsoft security response center ([Microsoft Security Response Center](https://www.microsoft.com/msrc?rtc=1)) helps triage incoming vulnerability reports and evaluate mitigations. Through the Microsoft Cloud Bug Bounty, people across the world can earn money by reporting vulnerabilities. Read more about this at [Microsoft Cloud Bug Bounty Terms](https://www.microsoft.com/msrc/bounty-microsoft-cloud?rtc=1
+).
   
  **Content protection**: You data is encrypted at the disk level using BitLocker encryption and at the file level using keys. For info, see [Data Encryption in OneDrive for Business and SharePoint Online](/office365/securitycompliance/data-encryption-in-odb-and-spo). For information about using Customer Key to provide and control the keys that are used to encrypt your data at rest in Office 365, see [Service encryption with Customer Key for Office 365 FAQ](/office365/securitycompliance/service-encryption-with-customer-key-faq).
   
@@ -70,7 +75,7 @@ To manage content at rest:
   
 - Configure IRM policies on SharePoint document libraries to limit download of content. See [Set up Information Rights Management (IRM) in SharePoint admin center](/office365/securitycompliance/set-up-irm-in-sp-admin-center).
     
-- Evaluate the use of Azure Information Protection (AIP). Classification and labeling lets you track and control how data is used. Visit [Azure Information Protection](https://www.microsoft.com/en-us/cloud-platform/azure-information-protection).
+- Evaluate the use of Azure Information Protection (AIP). Classification and labeling lets you track and control how data is used. Visit [Azure Information Protection](https://azure.microsoft.com/services/information-protection/).
     
 ## Highly available, always recoverable
 
@@ -88,11 +93,11 @@ After we have an inventory, we can monitor and remediate the health of machines.
   
 We have an automated workflow to identify machines that don't meet policies and queue them for replacement.
   
-The Office 365 "Red Team" within Microsoft is made up of intrusion specialists. They look for any opportunity to gain unauthorized access. The "Blue Team" is made up of defense engineers who focus on prevention, detection, and recovery. They build intrusion detection and response technologies. To keep up with the learnings of the security teams at Microsoft, see [Security Office 365 (blog)](https://blogs.technet.microsoft.com/office365security/).
+The Office 365 "Red Team" within Microsoft is made up of intrusion specialists. They look for any opportunity to gain unauthorized access. The "Blue Team" is made up of defense engineers who focus on prevention, detection, and recovery. They build intrusion detection and response technologies. To keep up with the learnings of the security teams at Microsoft, see [Security, Privacy, and Compliance Blog](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/bg-p/securityprivacycompliance).
   
 To monitor and observe activity in your Office 365 subscription:
   
-- If you have an on-premises security operations center or SIEM, you can monitor activity with the Management Activity API. For information, see [Office 365 Management APIs overview](https://msdn.microsoft.com/en-us/office-365/office-365-managment-apis-overview). This will show you activity from across SharePoint, Exchange, Azure Active Directory, DLP and more. If you don't have an on-premises security operations center or SIEM, you can use Cloud App Security. Cloud App Security uses the Management Activity API. For information, see [Overview of Office 365 Cloud App Security](/office365/securitycompliance/office-365-cas-overview). Through Cloud App Security, you can report, search, and alert on activity.
+- If you have an on-premises security operations center or SIEM, you can monitor activity with the Management Activity API. For information, see [Office 365 Management APIs overview](/office/office-365-management-api/office-365-management-apis-overview). This will show you activity from across SharePoint, Exchange, Azure Active Directory, DLP and more. If you don't have an on-premises security operations center or SIEM, you can use Cloud App Security. Cloud App Security uses the Management Activity API. For information, see [Overview of Office 365 Cloud App Security](/office365/securitycompliance/office-365-cas-overview). Through Cloud App Security, you can report, search, and alert on activity.
     
 - Use Azure Active Directory identity protection. This applies machine learning to detect suspicious account behavior, for example, simultaneous sign-ins from the same user in different parts of the world. You can configure identity protection to take action to block these sign-ins. For more information, see [Azure Active Directory Identity Protection](/azure/active-directory/identity-protection/overview).
     

@@ -1,10 +1,11 @@
 ---
 title: "Run Hybrid Picker"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 6/27/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
@@ -14,6 +15,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
+- M365-collaboration
 ms.custom: 
 ms.assetid: d10d1262-7127-424e-a0a8-1f3c5d42dd85
 description: "Learn to run Hybrid Picker in Office 365 for enterprises."

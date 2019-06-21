@@ -1,10 +1,11 @@
 ---
 title: "Plan for SQL Server Always On and Microsoft Azure for SharePoint Server Disaster Recovery"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
 ms.date: 3/10/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
@@ -24,11 +25,11 @@ description: "Use SQL Server 2014 and SQL Server Always On Availability Groups a
 Use SQL Server 2014 and SQL Server 2016 Always On Availability Groups and Microsoft Azure to create a hybrid disaster-recovery environment for your on-premises SharePoint Server farm. This article describes how to design and implement this solution.
   
 The solution in this article applies to the following:
-  
-**SharePoint Server 2013**
-  
+
 - Microsoft Azure
-    
+
+**SharePoint Server 2013**
+   
 - SQL Server 2014 Enterprise
     
 - Windows Server 2012 R2 Datacenter
@@ -42,9 +43,21 @@ The solution in this article applies to the following:
 - Windows Server 2012 R2
     
 - Windows Server 2016 Datacenter edition
+
+**SharePoint Server 2019 Enterprise**
+  
+- SQL Server 2016
+    
+- SQL Server 2017
+    
+- Windows Server 2016
+    
+- Windows Server 2019
     
 **Acknowledgments:** This SharePoint Server disaster recovery solution is the result of the design, testing, and writing done by Tejinder Rai (MCS). This solution combines Microsoft best practices with hands-on, real world customer experiences. David Williams and Matthew Robertshaw also made significant contributions to this article by their work with SQL Server failover automation and recovery testing. 
   
+>[!NOTE]
+>The references and instructions for SharePoint Server 2016 in this article also apply to SharePoint Server 2019.
     
 ## Introduction to hybrid disaster recovery for SharePoint Server
 <a name="intro"> </a>
@@ -223,8 +236,8 @@ Use the configurations in the following table when you deploy SQL Server for the
   
 |**Component**|**Settings**|
 |:-----|:-----|
-|Port  <br/> |Block UDP port 1434.  <br/> We recommend that you block TCP port 1433, and assign the port that is used by the default instance to a different port. However, this is not mandatory.  <br/> Make sure that the port number that is to be assigned to the default instance is not in the registered ports. Refer to [Service Name and Transport Protocol Port Number Registry](http://go.microsoft.com/fwlink/?LinkID=626877&amp;clcid=0x409) to avoid using the registered port.  <br/> Ensure that you follow the security guidance in [Configure SQL Server security for SharePoint Server](../security-for-sharepoint-server/configure-sql-server-security-for-sharepoint-environments.md).  <br/> Firewall Rules: Create new Inbound rules for the non-default port used by the SQL Server instance.  <br/> Hide instance: Hide the SQL Server instance from client computers.  <br/> |
-|Lock pages in memory  <br/> |Grant the SQL Server service account permissions to lock pages in memory. For more information, see [Enable the Lock Pages in Memory Option (Windows)](http://go.microsoft.com/fwlink/?LinkID=626878&amp;clcid=0x409) and [Server Memory Server Configuration Options](/sql/database-engine/configure-windows/server-memory-server-configuration-options?view=sql-server-2017).  <br/> |
+|Port  <br/> |Block UDP port 1434.  <br/> We recommend that you block TCP port 1433, and assign the port that is used by the default instance to a different port. However, this is not mandatory.  <br/> Make sure that the port number that is to be assigned to the default instance is not in the registered ports. Refer to [Service Name and Transport Protocol Port Number Registry](http://go.microsoft.com/fwlink/?LinkID=626877) to avoid using the registered port.  <br/> Ensure that you follow the security guidance in [Configure SQL Server security for SharePoint Server](../security-for-sharepoint-server/configure-sql-server-security-for-sharepoint-environments.md).  <br/> Firewall Rules: Create new Inbound rules for the non-default port used by the SQL Server instance.  <br/> Hide instance: Hide the SQL Server instance from client computers.  <br/> |
+|Lock pages in memory  <br/> |Grant the SQL Server service account permissions to lock pages in memory. For more information, see [Enable the Lock Pages in Memory Option (Windows)](http://go.microsoft.com/fwlink/?LinkID=626878) and [Server Memory Server Configuration Options](/sql/database-engine/configure-windows/server-memory-server-configuration-options?view=sql-server-2017).  <br/> |
 |Disable Auto-create statistics  <br/> |**Do not** enable auto-create statistics on SQL Server. This is not supported for SharePoint Server. For more information, see [Best practices for SQL Server in a SharePoint Server farm](best-practices-for-sql-server-in-a-sharepoint-server-farm.md).  <br/> |
 |Set Max Degree of Parallelism  <br/> |Set the max degree of parallelism (MAXDOP) to 1 in SQL Server instances that host SharePoint Server databases.  <br/> **Note:** SharePoint Server installation on SQL Server will fail by design unless the installer account has permission to change it.  <br/> For more information, see [Best practices for SQL Server in a SharePoint Server farm](best-practices-for-sql-server-in-a-sharepoint-server-farm.md).  <br/> |
 |Trace Flags  <br/> |Add the trace flags 1222 (return resources and types of locks participating in a deadlock) and 3226 (suppress log backup entries in the SQL error log).  <br/> DBCC TRACEON (1222,-1)  <br/> DBCC TRACEON (3226,-1)  <br/> |
@@ -405,7 +418,7 @@ The next table provides more information about the steps in Build phase 2.
   
 |**Step**|**Notes and guidance**|
 |:-----|:-----|
-|1. Create build scripts  <br/> |We recommend that you develop a set of build scripts to install SharePoint Server 2016. These scripts can also be used to build out the recovery farm (and future SharePoint farms). Because the recovery farm will have service applications that are identical to those in the on-premises farm, it's a best practice to use identical service application and database names. Scripting reduces configuration errors and ensures consistency in farm configuration.  <br/> **Note:** Service applications reference their databases by the database name, unlike the Content databases, which also have a database ID that's stored in the SharePoint configuration database.  <br/> There are several examples of scripted SharePoint installations that you might be able to leverage in your environment. For example, [AutoSPInstaller](http://autospinstaller.codeplex.com/) is an end-to-end open source program available at Codeplex.  <br/> Ensure that the farm configuration database, the content databases, and service application databases point to the DNS alias of the SQL Server instance that you use. The SharePoint Server 2016 databases will be created with a connection string mapped to the SQL Server instance. Later they will be moved to availability groups using SharePoint Server PowerShell cmdlets.  <br/> After you create the farm configuration databases, we recommend scripting the following common tasks:  <br/> Join a SharePoint Server to the farm by using the  `Join-SharePointFarm` cmdlet  <br/> Register Managed Accounts by using the  `New-SPManagedAccount` cmdlet  <br/> Create Web Applications  <br/> Create Site Collections  <br/> Create Service Applications  <br/> Set the SharePoint App domain and Prefix  <br/> |
+|1. Create build scripts  <br/> |We recommend that you develop a set of build scripts to install SharePoint Server 2016. These scripts can also be used to build out the recovery farm (and future SharePoint farms). Because the recovery farm will have service applications that are identical to those in the on-premises farm, it's a best practice to use identical service application and database names. Scripting reduces configuration errors and ensures consistency in farm configuration.  <br/> **Note:** Service applications reference their databases by the database name, unlike the Content databases, which also have a database ID that's stored in the SharePoint configuration database.  <br/> There are several examples of scripted SharePoint installations that you might be able to leverage in your environment. For example, [SharePointDsc](https://github.com/PowerShell/SharePointDSC) or [AutoSPInstaller](https://github.com/brianlala/AutoSPInstaller) is an end-to-end open source program available at Codeplex.  <br/> Ensure that the farm configuration database, the content databases, and service application databases point to the DNS alias of the SQL Server instance that you use. The SharePoint Server 2016 databases will be created with a connection string mapped to the SQL Server instance. Later they will be moved to availability groups using SharePoint Server PowerShell cmdlets.  <br/> After you create the farm configuration databases, we recommend scripting the following common tasks:  <br/> Join a SharePoint Server to the farm by using the  `Join-SharePointFarm` cmdlet  <br/> Register Managed Accounts by using the  `New-SPManagedAccount` cmdlet  <br/> Create Web Applications  <br/> Create Site Collections  <br/> Create Service Applications  <br/> Set the SharePoint App domain and Prefix  <br/> |
 |2. Install prerequisites and binaries  <br/> |For more information, see [Install prerequisites for SharePoint Server from a network share](../install/install-prerequisites-from-network-share.md).  <br/> |
 |3. Configure Farm SMTP Settings, Web Apps, and Site Collections  <br/> |Use the  `New-SPWebApplication` cmdlet to create Web Applications and use the  `New-SPSite` cmdlet to create Site Collections.  <br/> |
 |4. Configure Service Applications  <br/> |Use the Service Application cmdlets in [Index of Windows PowerShell cmdlets for SharePoint Server 2016](/powershell/module/sharepoint-server/?view=sharepoint-ps) to configure service applications.  <br/> |
@@ -434,7 +447,7 @@ The next table provides more information about the steps in Build phase 4.
   
 |**Step**|**Notes and guidance**|
 |:-----|:-----|
-|1. Create build scripts  <br/> |We recommend that you develop a set of build scripts to install SharePoint Server. These scripts can also be used to build out the recovery farm (and future SharePoint farms). Because the recovery farm will have service applications that are identical to those in the on-premises farm, it's a best practice to use identical service application and database names. Scripting reduces configuration errors and ensures consistency in farm configuration.  <br/> **Note:** Service applications reference their databases by the database name, unlike the Content databases which also have a database ID that's stored in the SharePoint configuration database.  <br/> There are several examples of scripted SharePoint installations that use PowerShell. For example, [AutoSPInstaller](http://autospinstaller.codeplex.com/) is an end-to-end open source program available at Codeplex.  <br/> Ensure that the farm configuration database, the content databases, and service application databases point to the DNS alias of the SQL Server instance that you use. The SharePoint Server databases will be created with a connection string mapped to the SQL Server instance. Later they will be moved to availability groups using SharePoint PowerShell cmdlets.  <br/> After you create the farm configuration databases, we recommend scripting the following common tasks:  <br/> Join a SharePoint Server to the farm by using the  `Join-SharePointFarm` cmdlet. Register Managed Accounts by using the  `New-SPManagedAccount` cmdlet. Create Web applications, site collections, and service applications. Finally, set the SharePoint App domain and prefix.  <br/> |
+|1. Create build scripts  <br/> |We recommend that you develop a set of build scripts to install SharePoint Server. These scripts can also be used to build out the recovery farm (and future SharePoint farms). Because the recovery farm will have service applications that are identical to those in the on-premises farm, it's a best practice to use identical service application and database names. Scripting reduces configuration errors and ensures consistency in farm configuration.  <br/> **Note:** Service applications reference their databases by the database name, unlike the Content databases which also have a database ID that's stored in the SharePoint configuration database.  <br/> There are several examples of scripted SharePoint installations that use PowerShell. For example, [SharePointDsc](https://github.com/PowerShell/SharePointDSC) or [AutoSPInstaller](https://github.com/brianlala/AutoSPInstaller) is an end-to-end open source program available at Codeplex.  <br/> Ensure that the farm configuration database, the content databases, and service application databases point to the DNS alias of the SQL Server instance that you use. The SharePoint Server databases will be created with a connection string mapped to the SQL Server instance. Later they will be moved to availability groups using SharePoint PowerShell cmdlets.  <br/> After you create the farm configuration databases, we recommend scripting the following common tasks:  <br/> Join a SharePoint Server to the farm by using the  `Join-SharePointFarm` cmdlet. Register Managed Accounts by using the  `New-SPManagedAccount` cmdlet. Create Web applications, site collections, and service applications. Finally, set the SharePoint App domain and prefix.  <br/> |
 |2. Install the prerequisites and binaries  <br/> |For more information, see [Install prerequisites for SharePoint Server from a network share](../install/install-prerequisites-from-network-share.md).  <br/> |
 |3. Configure farm SMTP settings, Web Applications, and Site Collections  <br/> |Use the  `New-SPWebApplication` cmdlet to create Web Applications and use the  `New-SPSite` cmdlet to create Site Collections.  <br/> |
 |4. Configure Service Applications  <br/> |Use the Service Application cmdlets in [Index of Windows PowerShell cmdlets for SharePoint Server 2016](/powershell/module/sharepoint-server/?view=sharepoint-ps) to configure service applications.  <br/> **Note:** Service Applications are created in the disaster recovery farm, with the exact same name as the primary farm. Ensure the database names are also named exactly the same as the primary farm, as the database will be referenced by the Service Applications in the disaster recovery farm, where the service application databases will eventually be created as replicas. As part of the process, the databases in the disaster recovery farm will be restored from the primary replicas, when the asynchronous replicas are added to the SQL Availability Group.  <br/> The content databases in the disaster recovery farm can be removed from the SharePoint configuration as the primary farm content databases will have a read-only replica available in the disaster recovery SQL Server instance.  <br/> Use the SharePoint 2016 Management Shell to run the following PowerShell cmdlet to dismount any content databases from the disaster recovery farm  `Remove-SPContentDatabase`.  <br/> If any additional content databases exist on the SQL Server instances in the disaster recovery farm, delete all of them. You can use any of these methods, [DROP DATABASE (Transact-SQL)](http://go.microsoft.com/fwlink/?LinkID=626908&amp;clcid=0x409), [Database.Drop Method ()](https://msdn.microsoft.com/en-us/library/microsoft.sqlserver.management.smo.database.drop%28v=sql.160%29.aspx), or [Delete a Database](/sql/relational-databases/databases/delete-a-database?view=sql-server-2017).  <br/> |
@@ -470,14 +483,13 @@ The next table provides more information about the steps in Build phase 6.
 |4. Check the farm services  <br/> |Verify that all the farm services are running as expected.  <br/> |
 |5. Perform a farm health check  <br/> |Perform health checks on the farm to make sure that the farm is stable and working correctly.  <br/> |
    
- **(1):** Use the following PowerShell syntax for step 3 in the Build phase 6 table.
+ **(1)** Use the following PowerShell syntax for step 3 in the Build phase 6 table.
   
 ```
 # Refresh sites in the configuration database
-Get-SPContentDatabase -WebApplication http://webapplicationsitename | | ForEach {
+Get-SPContentDatabase -WebApplication http://webapplicationsitename | ForEach {
 Write-host "Refreshing sites in configuration database for database: " $_.Name
-$_.RefreshSitesInConfigurationDatabase()
-}
+$_.RefreshSitesInConfigurationDatabase()}
 ```
 
 ## Test farm failover and recovery
@@ -499,7 +511,7 @@ A disaster recovery decision is typically started based on management decisions 
   
 Perform a failover of the cluster and the availability groups by using the PowerShell cmdlets shown in the following list.
   
-1. Stop the Cluster Service by using the  `Stop-Service Clussvc`.
+1. Stop the Cluster Service by running `Stop-Service Clussvc`.
     
 2. Start the cluster node and fix the Quorum by using the following command:
     
@@ -510,7 +522,7 @@ Perform a failover of the cluster and the availability groups by using the Power
 3. Move the cluster group to an active SQL node in the disaster recovery data center by using the following command.
     
   ```
-  Move-ClusterGroup -Cluster  <CLIUSTER GROUP>  -node <ACTIVE SQL NODE>
+  Move-ClusterGroup -Cluster <CLIUSTER GROUP> -node <ACTIVE SQL NODE>
   ```
 
 4. Confirm the Cluster Service is started by using the following command.
@@ -564,10 +576,9 @@ We recommend that you refresh the sites in the SharePoint Configuration database
   
 ```
 # Refresh sites in the configuration database
-Get-SPContentDatabase -WebApplication http://webapplicationsitename | | ForEach {
+Get-SPContentDatabase -WebApplication http://webapplicationsitename | ForEach {
 Write-host "Refreshing sites in configuration database for database: " $_.Name
-$_.RefreshSitesInConfigurationDatabase()
-}
+$_.RefreshSitesInConfigurationDatabase() }
 ```
 
  **Failover step 4**
@@ -583,7 +594,7 @@ Log on as a member of the Farm Administrators SharePoint group and complete the 
 3. Perform a full import of the user profiles.
     
 > [!NOTE]
-> The Secure Store Service might require the SharePoint Farm Administrator to refresh the key in order to decrypt the applications that are registered in the Secure Store. The administrator must have full permissions to the Secure Store before refreshing the key. You can also use the  `Update-SPSecureStoreApplicationServerKey` cmdlet to update the Secure Store key. 
+> The Secure Store Service might require the SharePoint Farm Administrator to refresh the key in order to decrypt the applications that are registered in the Secure Store. The administrator must have full permissions to the Secure Store before refreshing the key. You can also use the `Update-SPSecureStoreApplicationServerKey` cmdlet to update the Secure Store key. 
   
 > [!NOTE]
 > The User Profile Synchronization timer job must be re-enabled and profile imports should be scheduled. Since the databases are now in write mode after a failover, the imports should be scheduled accordingly. 
@@ -619,7 +630,7 @@ Notify the appropriate business stakeholders once the recovery validation is com
 ## Conclusion
 <a name="end"> </a>
 
-After you failover and validate the recovery you are in a position to start configuring the farm to meet the current and future operational requirements, for example, capacity and high availability. These requirements are determined by the duration of the downtime and recovery of the farm in the on-premises datacenter.
+After you failover and validate the recovery, you are in a position to start configuring the farm to meet the current and future operational requirements such as capacity and high availability. These requirements are determined by the duration of the downtime and recovery of the farm in the on-premises datacenter.
   
 As a final note, you have to review and validate your plan for falling back to the on-premises farm when it's operational again.
   

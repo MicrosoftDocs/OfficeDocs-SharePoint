@@ -1,0 +1,2 @@
+{:allowed-branchname-matches ["master"]
+ :allowed-filename-matches ["migration/" "OneDrive/" "SharePoint/SharePointOnline/" "SharePoint/SharePointServer/hybrid/"]}

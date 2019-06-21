@@ -1,9 +1,10 @@
 ---
 title: "Enable conditional access support in the OneDrive sync client for Windows"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: get-started-article
 ms.service: one-drive
 localization_priority: Normal
@@ -11,6 +12,9 @@ search.appverid:
 - ODB160
 - ODB150
 - MET150
+ms.collection: 
+- Strat_OD_admin
+- M365-collaboration
 ms.assetid: 028d73d7-4b86-4ee0-8fb7-9a209434b04e
 description: "Learn how to enable conditional access in the new OneDrive sync client."
 ---
@@ -46,8 +50,6 @@ If you want to disable this feature, you can delete the registry key by running 
 The following are known issues with this release:
   
 - If you create a new access policy after the device has authenticated, it may take up to twenty-four hours for the policy to take effect.
-    
-- Conditional access is not supported for MacOS.
     
 - In some cases, the user may be prompted for credentials twice. We are working on a fix for this issue.
     

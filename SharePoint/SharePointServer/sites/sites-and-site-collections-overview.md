@@ -1,9 +1,10 @@
 ---
 title: "Overview of sites and site collections in SharePoint Server"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -53,7 +54,7 @@ Because site collections and sites exist in a parent-child relationship, there a
     
 - For site collection administrators, a site collection provides a unified mechanism and scope for administration. For example, security, policies, and features can be managed for a whole site collection; Site Collection Web Analytics Reports, audit log reports, and other data can help administrators track site collection security and performance.
 
-  SharePoint Server 2019 offers the choice to create modern Team and Communication sites like in SharePoint Online, or keep the classic experience. Using the modern experience site collections in in line with our recommendation to create site collections for each unit of work to make it easier when you decide to migrate to SharePoint Online.     
+  SharePoint Server 2019 offers the choice to create modern Team and Communication sites like in SharePoint Online, or keep the classic experience. Using the modern experience site collections is inline with our recommendation to create site collections for each unit of work to make it easier when you decide to migrate to SharePoint Online.     
     
 - For farm administrators, site collections can be moved between content databases. By doing this, farm administrators can manage the size of their content databases.
     
@@ -174,7 +175,7 @@ You can configure the following items for a site:
   
 - **Templates** Sites in a site collection can each use different templates. 
     
-- **Language** If language packs were installed on the web server, you can select a specific language to use together with the site template when you create a new site. The user interface that appears on the site is displayed in the language that was selected when the site was created. Content and other items created by users are displayed in the language in which they are created. For more information, see [Plan for multilingual sites in SharePoint Server](plan-for-multilingual-sites.md) and [Install or uninstall language packs for SharePoint Server 2016](../install/install-or-uninstall-language-packs-0.md). 
+- **Language** If language packs were installed on the web server, you can select a specific language to use together with the site template when you create a new site. The user interface that appears on the site is displayed in the language that was selected when the site was created. Content and other items created by users are displayed in the language in which they are created. For more information, see [Plan for multilingual sites in SharePoint Server](plan-for-multilingual-sites.md) and [Install or uninstall language packs for SharePoint Servers 2016 and 2019](../install/install-or-uninstall-language-packs-0.md). 
     
 - **Security** You can define unique user groups and permissions for each site. 
     

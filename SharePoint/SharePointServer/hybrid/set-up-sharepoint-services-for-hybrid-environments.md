@@ -1,10 +1,11 @@
 ---
 title: "Set up SharePoint services for hybrid environments"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 6/21/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
@@ -14,6 +15,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
+- M365-collaboration
 ms.custom: 
 ms.assetid: 70e043ef-8908-436e-92bf-abbcd89874f7
 description: "Learn how to set up the SharePoint Server services you'll need for a hybrid environment."

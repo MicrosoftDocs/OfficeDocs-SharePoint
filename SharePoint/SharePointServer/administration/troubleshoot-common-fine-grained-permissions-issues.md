@@ -1,10 +1,11 @@
 ---
 title: "Troubleshoot common fine-grained permissions issues for SharePoint Server"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
 ms.date: 9/6/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -92,8 +93,6 @@ As in the previous solution, the number of uniquely scoped children is not a sig
 <a name="fgpperfissuesolutions"> </a>
 
 #### Other Resources
-
-[Fine-grained permission reference for SharePoint Server](/sharepoint/security-for-sharepoint-server/security-for-sharepoint-server)
   
-[Best practices for using fine-grained permissions in SharePoint Server](/sharepoint/security-for-sharepoint-server/security-for-sharepoint-server)
+[Best practices for using fine-grained permissions in SharePoint Server](/sharepoint/sites/best-practices-for-using-fine-grained-permissions-in-sharepoint-server)
 

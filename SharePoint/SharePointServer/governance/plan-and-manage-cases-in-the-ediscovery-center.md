@@ -1,9 +1,10 @@
 ---
 title: "Plan and manage cases in the eDiscovery Center"
+ms.reviewer: 
 ms.author: MARKJJO
 author: MARKJJO
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: concetpual
 ms.prod: office-online-server
 localization_priority: Normal

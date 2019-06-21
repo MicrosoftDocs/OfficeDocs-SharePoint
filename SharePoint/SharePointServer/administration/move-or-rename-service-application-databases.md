@@ -1,10 +1,10 @@
 ---
 title: "Move or rename service application databases in SharePoint Server"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 3/9/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -31,7 +31,7 @@ Both moving and renaming service application databases follow the same basic pro
     
 2. Point the SharePoint service application to the moved or renamed database using either the SharePoint Central Administration website or PowerShell.
     
-    Depending on how many service application databases you move or rename, pointing the service application to the database can be complex. Different service applications require different methods to point to the moved or renamed database.
+   Depending on how many service application databases you move or rename, pointing the service application to the database can be complex. Different service applications require different methods to point to the moved or renamed database.
     
 These service application databases use the following steps:
   
@@ -139,13 +139,13 @@ When you move or rename service application databases, the first step is to stop
     
 4. At the PowerShell command prompt, type the following command:
     
-  ```
-  Stop-SPServiceInstance -Identity <ServiceGUID>
-  ```
+   ```powershell
+   Stop-SPServiceInstance -Identity <ServiceGUID>
+   ```
 
-    Where  _\<ServiceGUID\>_ is the GUID of the service. 
+   Where  _\<ServiceGUID\>_ is the GUID of the service. 
     
-    For more information, see [Stop-SPServiceInstance](/powershell/module/sharepoint-server/Stop-SPServiceInstance?view=sharepoint-ps).
+   For more information, see [Stop-SPServiceInstance](/powershell/module/sharepoint-server/Stop-SPServiceInstance?view=sharepoint-ps).
     
 ### Move a database by using SQL Server Management Studio and File Explorer
 <a name="MoveFull"> </a>
@@ -221,16 +221,16 @@ Pointing to the moved or renamed database is the next step. You can do this with
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  $app = Get-SPServiceApplication -Name "<ServiceApplicationName>"
-  Set-SPMetadataServiceApplication -Identity "<Name/GUID of service application>" $app -DatabaseName "<DatabaseName>" -DatabaseCredentials PSCredential object>
-  ```
+   ```powershell
+   $app = Get-SPServiceApplication -Name "<ServiceApplicationName>"
+   Set-SPMetadataServiceApplication -Identity "<Name/GUID of service application>" $app -DatabaseName "<DatabaseName>" -DatabaseCredentials PSCredential object>
+   ```
 
-    Where:
+   Where:
     
-  -  _\<ServiceApplicationName\>_ is the name of the Managed Metadata service application. 
+   -  _\<ServiceApplicationName\>_ is the name of the Managed Metadata service application. 
     
-  -  _\<DatabaseName\>_ is the name of the renamed database. 
+   -  _\<DatabaseName\>_ is the name of the renamed database. 
     
 #### To point the PerformancePoint service application to a renamed or moved database by using PowerShell
 
@@ -249,15 +249,15 @@ Pointing to the moved or renamed database is the next step. You can do this with
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  Set-SPPerformancePointServiceApplication -Identity "<ServiceApplicationName>" -SettingsDatabase "<DatabaseServerName\DatabaseName>"
-  ```
+   ```powershell
+   Set-SPPerformancePointServiceApplication -Identity "<ServiceApplicationName>" -SettingsDatabase "<DatabaseServerName\DatabaseName>"
+   ```
 
-    Where:
+   Where:
     
-  -  _\<ServiceApplicationName\>_ is the name of the PerformancePoint service application. 
+   -  _\<ServiceApplicationName\>_ is the name of the PerformancePoint service application. 
     
-  -  _\<DatabaseServerName\DatabaseName\>_ is the location of and the name of the renamed or moved database. Do not include the location if you are just renaming the database. 
+   -  _\<DatabaseServerName\DatabaseName\>_ is the location of and the name of the renamed or moved database. Do not include the location if you are just renaming the database. 
     
 The State Service database stores temporary state information data. You can use PowerShell to point the State Service service application to a moved database by performing one of the following procedures: 
   
@@ -288,21 +288,21 @@ The State Service database stores temporary state information data. You can use 
     
 3. At the PowerShell command prompt, type the following command to create a new database:
     
-  ```
-  New-SPStateServiceDatabase -Name "<NewDatabaseName>" 
-  ```
+   ```powershell
+   New-SPStateServiceDatabase -Name "<NewDatabaseName>" 
+   ```
 
-    Then type the following command to remove the old database:
+   Then type the following command to remove the old database:
     
-  ```
-  Remove-SPStateServiceDatabase -Name "<OldDatabaseName>"
-  ```
+   ```powershell
+   Remove-SPStateServiceDatabase -Name "<OldDatabaseName>"
+   ```
 
-    Where:
+   Where:
     
-  -  _\<NewDatabaseName\>_ is the name of the new database that you want to create. 
+   -  _\<NewDatabaseName\>_ is the name of the new database that you want to create. 
     
-  -  _\<OldDatabaseName\>_ is the name of the old database that you want to disassociate with the State service and detach from SQL Server. 
+   -  _\<OldDatabaseName\>_ is the name of the old database that you want to disassociate with the State service and detach from SQL Server. 
     
 #### <a name="PS"></a>To point the State Service service application to a moved database by using PowerShell
 
@@ -310,118 +310,117 @@ The State Service database stores temporary state information data. You can use 
     
 2. At the PowerShell command prompt, type the following command to dismount the database:
     
-  ```
-  Dismount-SPStateServiceDatabase -Identity <DatabaseID>
-  ```
+   ```powershell
+   Dismount-SPStateServiceDatabase -Identity <DatabaseID>
+   ```
 
-    Where  _\<DatabaseID\>_ is the State Service database to remove from the service application. The type must be a valid GUID in the form 12345678-90ab-cdef-1234-567890bcdefgh, a valid name of a state database, or an instance of a valid **SPStateServiceDatabase** object. 
+   Where  _\<DatabaseID\>_ is the State Service database to remove from the service application. The type must be a valid GUID in the form 12345678-90ab-cdef-1234-567890bcdefgh, a valid name of a state database, or an instance of a valid **SPStateServiceDatabase** object. 
     
-    For more information, see [Dismount-SPStateServiceDatabase](/powershell/module/sharepoint-server/Dismount-SPStateServiceDatabase?view=sharepoint-ps).
+   For more information, see [Dismount-SPStateServiceDatabase](/powershell/module/sharepoint-server/Dismount-SPStateServiceDatabase?view=sharepoint-ps).
     
 3. Move the database. For details, see [Move a database by using SQL Server Management Studio and File Explorer](#MoveFull).
     
 4. At the PowerShell command prompt, type the following command to mount the renamed or moved database:
     
-  ```
-  Mount-SPStateServiceDatabase -Name "<DatabaseName>" -DatabaseServer "<ServerName>"
-  ```
+   ```powershell
+   Mount-SPStateServiceDatabase -Name "<DatabaseName>" -DatabaseServer "<ServerName>"
+   ```
 
-    Where:
+   Where:
     
-  -  _\<DatabaseName\>_ is the name of the database to associate with the State service. 
+   -  _\<DatabaseName\>_ is the name of the database to associate with the State service. 
     
-  -  _\<ServerName\>_ is the name of the SQL Server that hosts the State service database. 
+   -  _\<ServerName\>_ is the name of the SQL Server that hosts the State service database. 
     
 #### To point the Usage and Health data collection service application to a moved database by using PowerShell
 
 1. Use an account with these memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
-    > [!NOTE]
-    > For additional information about Microsoft PowerShell permissions, see [Permissions](/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps). 
+   > [!NOTE]
+   > For additional information about Microsoft PowerShell permissions, see [Permissions](/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  Set-SPUsageApplication -Identity "<ServiceApplicationName>" -DatabaseName "<DbName>" -DatabaseServer "<SQLServerName>"
+   ```powershell
+   Set-SPUsageApplication -Identity "<ServiceApplicationName>" -DatabaseName "<DbName>" -DatabaseServer "<SQLServerName>"
   
-  ```
+   ```
 
-    Where:
+   Where:
     
-  -  _\<ServiceApplicationName\>_ is the name of the usage and health data collection service application. 
+   -  _\<ServiceApplicationName\>_ is the name of the usage and health data collection service application. 
     
-  -  _\<DatabaseName\>_ is the name of the database. 
+   -  _\<DatabaseName\>_ is the name of the database. 
     
-  -  _\<SQLServerName\>_ is the name of the database server. 
+   -  _\<SQLServerName\>_ is the name of the database server. 
     
 #### To point the Word Automation service application to a renamed or moved database by using PowerShell
 
 1. Use an account with these memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
-    > [!NOTE]
-    > For additional information about Microsoft PowerShell permissions, see [Permissions](/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps). 
+   > [!NOTE]
+   > For additional information about Microsoft PowerShell permissions, see [Permissions](/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  $app = Get-SPServiceApplication -Name "<ServiceApplicationName>"
-  Set-SPWordConversionServiceApplication -Identity $app -DatabaseName "<DatabaseName>" -DatabaseServer "<DatabaseServer>"
-  ```
+   ```powershell
+   $app = Get-SPServiceApplication -Name "<ServiceApplicationName>"
+   Set-SPWordConversionServiceApplication -Identity $app -DatabaseName "<DatabaseName>" -DatabaseServer "<DatabaseServer>"
+   ```
 
-    Where:
+   Where:
     
-  -  _\<ServiceApplicationName\>_ is the name of the Word Automation service application. 
+   -  _\<ServiceApplicationName\>_ is the name of the Word Automation service application. 
     
-  -  _\<DatabaseName\>_ is the name of the renamed or moved database. 
+   -  _\<DatabaseName\>_ is the name of the renamed or moved database. 
     
-  -  _\<DatabaseServer\>_ is the location of the renamed or moved database. Do not include this parameter if you are pointing to a renamed database in the same location. 
+   -  _\<DatabaseServer\>_ is the location of the renamed or moved database. Do not include this parameter if you are pointing to a renamed database in the same location. 
     
 #### To point the Subscription Settings Services service application to a moved database by using PowerShell
 
 1. Use an account with these memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
-    > [!NOTE]
-    > For additional information about Microsoft PowerShell permissions, see [Permissions](/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps). 
+   > [!NOTE]
+   > For additional information about Microsoft PowerShell permissions, see [Permissions](/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps). 
   
 2. Start the SharePoint Management Shell.
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  Set-SPSubscriptionSettingsServiceApplication -Identity "<ServiceApplicationName>" -DatabaseName "<DatabaseName>" -DatabaseServer "<DatabaseServer>"
-  ```
+   ```powershell
+   Set-SPSubscriptionSettingsServiceApplication -Identity "<ServiceApplicationName>" -DatabaseName "<DatabaseName>" -DatabaseServer "<DatabaseServer>"
+   ```
 
-    Where:
+   Where:
     
-  -  _\<ServiceApplicationName\>_ is the name of the Subscription Settings service application. 
+   -  _\<ServiceApplicationName\>_ is the name of the Subscription Settings service application. 
     
-  -  _\<DatabaseName\>_ is the name of the renamed database. 
+   -  _\<DatabaseName\>_ is the name of the renamed database. 
     
-  -  _\<DatabaseServer\>_ is the name of the renamed database. 
+   -  _\<DatabaseServer\>_ is the name of the renamed database. 
     
-Using PowerShell to point the moved or renamed database differs with each service application. Each service application uses slightly different commands and cmdlets as shown in the following table.
   
 #### Step 6: To start the service application by using Central Administration
 
@@ -438,7 +437,7 @@ Using PowerShell to point the moved or renamed database differs with each servic
 
 When moving or renaming the Business Data Connectivity service application and User Profile service application databases requires extra steps. The extra steps required for both service application databases is that after you move or rename the databases we recommend that you delete the service application and then re-create it. 
   
-The following procedures shows how to move or delete the Business Data Connectivity service application.
+The following procedures show how to move or delete the Business Data Connectivity service application.
   
 ### To stop the Business Data Connectivity service application
 
@@ -456,11 +455,11 @@ The following procedures shows how to move or delete the Business Data Connectiv
     
 2. At the PowerShell command prompt, type the following command:
     
-  ```
-  Stop-SPServiceInstance -Identity <ServiceGUID>
-  ```
+   ```powershell
+   Stop-SPServiceInstance -Identity <ServiceGUID>
+   ```
 
-    Where  _\<ServiceGUID\>_ is the GUID of the service. If you don't know the service GUID, you can retrieve a list of all services in the farm together with their GUIDs by using the **Get-SPServiceInstance** cmdlet. 
+   Where  _\<ServiceGUID\>_ is the GUID of the service. If you don't know the service GUID, you can retrieve a list of all services in the farm together with their GUIDs by using the **Get-SPServiceInstance** cmdlet. 
     
     For more information, see [Stop-SPServiceInstance](/powershell/module/sharepoint-server/Stop-SPServiceInstance?view=sharepoint-ps) and [Get-SPServiceInstance](/powershell/module/sharepoint-server/Get-SPServiceInstance?view=sharepoint-ps).
     
@@ -498,7 +497,7 @@ The method for pointing a service application to a moved database that works for
 ### To document service application settings
 <a name="Point"> </a>
 
-1. Before you delete and re-create a service application, document the settings for the service application. To do this, use the recommended PowerShell cmdlets that are described in the article [Document farm configuration settings in SharePoint Server](document-farm-configuration-settings.md).
+Before you delete and re-create a service application, document the settings for the service application. To do this, use the recommended PowerShell cmdlets that are described in the article [Document farm configuration settings in SharePoint Server](document-farm-configuration-settings.md).
     
 ### To delete the service application by using Central Administration
 <a name="Point"> </a>
@@ -520,7 +519,7 @@ The method for pointing a service application to a moved database that works for
 ### To create the service application
 <a name="Point"> </a>
 
-1. To create a Business Data Connectivity service application, follow the procedure in [Configure a Business Data Connectivity service application in SharePoint Server](configure-a-business-data-connectivity-service-application.md).
+To create a Business Data Connectivity service application, follow the procedure in [Configure a Business Data Connectivity service application in SharePoint Server](configure-a-business-data-connectivity-service-application.md).
     
 ### To start the service application
 <a name="Point"> </a>
@@ -560,12 +559,12 @@ In some environments, you must coordinate the rename and move procedures with th
     
 2. At the PowerShell command prompt, type the following command:
     
-  ```
-  $ssa = Get-SPEnterpriseSearchServiceApplication <SearchServiceApplicationName>
-  Suspend-SPEnterpriseSearchServiceApplication -Identity $ssa
-  ```
+   ```powershell
+   $ssa = Get-SPEnterpriseSearchServiceApplication <SearchServiceApplicationName>
+   Suspend-SPEnterpriseSearchServiceApplication -Identity $ssa
+   ```
 
-    Where  _\<SearchServiceApplicationName\>_ is the name of the Search service application associated with the database move. 
+   Where  _\<SearchServiceApplicationName\>_ is the name of the Search service application associated with the database move. 
     
 ### <a name="ReadOnly"></a>To change the read-only mode for Search service application databases
 
@@ -577,19 +576,19 @@ In some environments, you must coordinate the rename and move procedures with th
     
 4. Set the following databases to read-only mode:
     
-  - Search Administration
+   - Search Administration
     
-  - Analytics Reporting
+   - Analytics Reporting
     
-  - Crawl
+   - Crawl
     
-  - Link
+   - Link
     
-  - Right-click the database that you want to set to read/write or read-only, and then click **Properties**.
+   - Right-click the database that you want to set to read/write or read-only, and then click **Properties**.
     
-  - In the **Database Properties** dialog box, on the **Options** properties page, in the **State** section, select **True** or **False** in the list next to Database Read-Only, and then click **OK**.
+   - In the **Database Properties** dialog box, on the **Options** properties page, in the **State** section, select **True** or **False** in the list next to Database Read-Only, and then click **OK**.
     
-  - Click **Yes**.
+   - Click **Yes**.
     
 ### To back up the Search service application databases
 
@@ -619,13 +618,13 @@ In some environments, you must coordinate the rename and move procedures with th
     
 11. Repeat steps 1-10 for the following databases:
     
-  - Search Administration
+    - Search Administration
     
-  - Analytics Reporting
+    - Analytics Reporting
     
-  - Crawl
+    - Crawl
     
-  - Link
+    - Link
     
 ### To set the value of max degree of parallelism to 1 in the new server that hosts SQL Server
 
@@ -673,49 +672,61 @@ In some environments, you must coordinate the rename and move procedures with th
     
 2. Point the Search Service Application database to the new location. At the PowerShell command prompt, type the following commands:
     
-  ```
-  $ssa = Get-SPEnterpriseSearchServiceApplication <SearchServiceApplicationName>
-  $ssa | Set-SPEnterpriseSearchServiceApplication [-DatabaseName "<NewDbName>"] -DatabaseServer "<NewServerName>"
-  ```
+   ```powershell
+   $ssa = Get-SPEnterpriseSearchServiceApplication <SearchServiceApplicationName>
+   $ssa | Set-SPEnterpriseSearchServiceApplication [-DatabaseName "<NewDbName>"] -DatabaseServer "<NewServerName>"
+   ```
 
-    Where:
+   Where:
     
-  -  _\<NewDbName\>_ is the name of the database. 
+   -  _\<NewDbName\>_ is the name of the database. 
     
-  -  _\<NewServerName\>_ is the new database location. 
-    
-3. Point the CrawlStore database to the new location. At the PowerShell command prompt, type the following commands:
-    
-  ```
-  $CrawlDatabase0 = ([array]($ssa | Get-SPEnterpriseSearchCrawlDatabase))[0] 
-  $CrawlDatabase0 | Set-SPEnterpriseSearchCrawlDatabase [-DatabaseName "<NewDbName>"] -DatabaseServer "<NewServerName>"
-  ```
+   -  _\<NewServerName\>_ is the new database location. 
+   
+3. Point the Analytics Reporting database to the new location. At the PowerShell command prompt, type the following commands:
 
-4. Point the LinkStore database to the new location. At the PowerShell command prompt, type the following commands:
+  ```powershell
+  Add-SPServerScaleOutDatabase -ServiceApplication $ssa -DatabaseServer <OriginalServerName> [-DatabaseName <NewDbName>] 
+  $temp = Get-SPServerScaleOutDatabase -ServiceApplication $ssa 
+  Remove-SPServerScaleOutDatabase -Database $temp[0] -ServiceApplication $ssa
+  ```
+  
+  Where:
+  
+  - _\<OriginalServerName\>_ is the name of the original SQL server.
+     
+4. Point the CrawlStore database to the new location. At the PowerShell command prompt, type the following commands:
     
-  ```
-  $LinksDatabase0 = ([array]($ssa | Get-SPEnterpriseSearchLinksDatabase))[0] 
-  $LinksDatabase0 | Set-SPEnterpriseSearchLinksDatabase [-DatabaseName "<NewDbName>"] -DatabaseServer "<NewServerName>"
-  ```
+   ```powershell
+   $CrawlDatabase0 = ([array]($ssa | Get-SPEnterpriseSearchCrawlDatabase))[0] 
+   $CrawlDatabase0 | Set-SPEnterpriseSearchCrawlDatabase [-DatabaseName "<NewDbName>"] -DatabaseServer "<NewServerName>"
+   ```
 
-5. Set all Search service instances to Online. Run the following commands for each search service in the farm, until the Search service instance is reported as Online. At the PowerShell command prompt, type the following commands:
+5. Point the LinkStore database to the new location. At the PowerShell command prompt, type the following commands:
     
-  ```
-  Get-SPEnterpriseSearchServiceInstance -Identity <Search Server> Do {write-host -NoNewline .;Sleep 10; $searchInstance = Get-SPEnterpriseSearchServiceInstance -Identity <Search Server>} while ($searchInstance.Status -ne "Online")
-  ```
+   ```powershell
+   $LinksDatabase0 = ([array]($ssa | Get-SPEnterpriseSearchLinksDatabase))[0] 
+   $LinksDatabase0 | Set-SPEnterpriseSearchLinksDatabase [-DatabaseName "<NewDbName>"] -DatabaseServer "<NewServerName>"
+   ```
 
-    Where  _\<Search Server\>_ is the name of the server that hosts the search components. 
+6. Set all Search service instances to Online. Run the following commands for each search service in the farm, until the Search service instance is reported as Online. At the PowerShell command prompt, type the following commands:
     
-6. Resume the Search service application. At the PowerShell command prompt, type the following commands:
-    
-  ```
-  $ssa = Get-SPEnterpriseSearchServiceApplication <SearchServiceApplicationName>
-  Resume-SPEnterpriseSearchServiceApplication -Identity $ssa
-  ```
+   ```powershell
+   Get-SPEnterpriseSearchServiceInstance -Identity <Search Server> Do {write-host -NoNewline .;Sleep 10; $searchInstance = Get-SPEnterpriseSearchServiceInstance -Identity <Search Server>} while ($searchInstance.Status -ne "Online")
+   ```
 
-    Where  _\<SearchServiceApplicationName\>_ is the name of the Search service application associated with the database move. 
+   Where  _\<Search Server\>_ is the name of the server that hosts the search components. 
     
-7. Restart each server that hosts a search component.
+7. Resume the Search service application. At the PowerShell command prompt, type the following commands:
+    
+   ```powershell
+   $ssa = Get-SPEnterpriseSearchServiceApplication <SearchServiceApplicationName>
+   Resume-SPEnterpriseSearchServiceApplication -Identity $ssa
+   ```
+
+   Where  _\<SearchServiceApplicationName\>_ is the name of the Search service application associated with the database move. 
+    
+8. Restart each server that hosts a search component.
     
 ## See also
 <a name="Search"> </a>

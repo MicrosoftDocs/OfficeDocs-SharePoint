@@ -1,10 +1,10 @@
 ---
 title: "Monitor apps for your SharePoint Online environment"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 5/22/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
@@ -12,7 +12,7 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: 81daca87-ef0c-4602-af89-9a749dbef377
-description: "This article explains how a SharePoint admin can monitor things like app usage and error information for the apps that are in use in a SharePoint Online environment."
+description: "Learn how to monitor app usage and error information for the apps being used in your SharePoint Online environment."
 ---
 
 # Monitor apps for your SharePoint Online environment
@@ -22,26 +22,36 @@ As a SharePoint or global admin in Office 365, you can monitor information such 
 ## Select apps to monitor
 <a name="__top"> </a>
 
-1. Sign in to Office 365 as a global admin or SharePoint admin.
+1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+    > [!NOTE]
+    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-3. Select **Apps** on the left, and then select **Monitor Apps**.
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
+      
+3. In the left pane, select **apps**. 
     
-4. To add apps to the list, select **Add App**. 
+4. Select **Monitor Apps**.
     
-5. Search for the app(s) you want to add, or select from the list of available apps, and then select **Add**.
+5. To add apps to the list, select **Add App**. 
+    
+6. Search for the app(s) you want to add, or select from the list of available apps, and then select **Add**.
     
 ## View app details or errors
 <a name="__top"> </a>
 
-1. Sign in to Office 365 as a global admin or SharePoint admin.
+1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+    > [!NOTE]
+    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-3. Select **Apps** on the left, and then select **Monitor Apps**.
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
+      
+3. In the left pane, select **apps**. 
     
-4. Point to the app for which you want to view information, select the check box that appears, and then do one of the following
+4. Select **Monitor Apps**.
+    
+5. Point to the app for which you want to view information, select the check box that appears, and then do one of the following
     
 |****To do this:****|****Do this:****|
 |:-----|:-----|

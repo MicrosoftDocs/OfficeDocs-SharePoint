@@ -1,9 +1,10 @@
 ---
 title: "What's new in the SharePoint admin center"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: reference
 ms.service: sharepoint-online
 localization_priority: Normal
@@ -18,14 +19,14 @@ description: "Learn about the features currently in the new SharePoint admin cen
 
 # What's new in the SharePoint admin center
 
-We're continuously adding new features to the new SharePoint admin center (preview) and fixing issues we learn about. Here's a summary of what's included, and what's coming up. You can help us improve the admin center by sending us your suggestions and reporting bugs you encounter. In the lower-right corner of the admin center, click the **Feedback** button. 
+We're continuously adding new features to the new SharePoint admin center and fixing issues we learn about. Here's a summary of what's included, and what's coming up. You can help us improve the admin center by sending us your suggestions and reporting bugs you encounter. In the lower-right corner of the admin center, click the **Feedback** button. 
   
 > [!NOTE]
-> The new SharePoint admin center (preview) is supported in Microsoft Edge, Internet Explorer, Chrome, Firefox, and Safari. <br>Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Office 365](/office365/admin/manage/release-options-in-office-365). This means that you may not yet see some features described in this article. 
+> The new SharePoint admin center is supported in Microsoft Edge, Internet Explorer, Chrome, Firefox, and Safari. <br>Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Office 365](/office365/admin/manage/release-options-in-office-365). This means that you may not yet see some features described in this article. 
   
 ## Available now
 
- **Home page and left pane**
+### Home page and left pane
   
 - Two charts, along with messages and service health filtered to SharePoint Online
     
@@ -35,7 +36,7 @@ We're continuously adding new features to the new SharePoint admin center (previ
     
 - A geo location selector for organizations that have set up Multi-Geo in OneDrive and SharePoint
     
- **Active sites page**
+### Active sites page
   
 - A list that includes the new types of sites that users create: team sites that belong to Office 365 groups and communication sites
     
@@ -55,23 +56,27 @@ We're continuously adding new features to the new SharePoint admin center (previ
     
 - Support for locked sites and sites on hold
     
-- The ability to select multiple sites and email site admins
-    
- **Deleted sites page**
+### Deleted sites page
   
 - A list of deleted sites with time deleted
     
 - The ability to restore sites individually
+
+- The ability to permanently delete sites, except sites connected to an Office 365 group
     
- **Access control page**
+### Sharing page
+  
+- Organization-level external sharing settings, and file and folder link settings
+
+### Access control page
   
 - The ability to create policies that restrict access from unmanaged devices, sign out users from inactive browser sessions, allow access from only specific IP addresses, and block access from apps that don't use modern authentication. 
 
-- **Settings page**
+### Settings page
   
-- Settings for list and library experience, sync (if your organization used the previous sync client), notifications, site storage limits, default admin experience, and site creation
+- Settings for sync (if your organization used the previous sync client), notifications, site storage limits, default admin experience, and site creation
 
- **API management page**
+### API management page
   
 - The ability to view pending and approved web API permissions and approve or reject access requests
     
@@ -95,10 +100,8 @@ Here's a short list of some of the larger features we're working on. Use the Fee
   
 - Batch restore
     
-- The ability to permanently delete sites
+
     
- **Sharing**
-  
-- A new page for organization-wide settings
+
     
 

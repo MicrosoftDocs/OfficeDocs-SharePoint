@@ -1,10 +1,11 @@
 ---
 title: "Configure outgoing email for a SharePoint Server farm"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
 ms.date: 3/12/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - WSSCentralAdmin_ConfigEmail
@@ -28,7 +29,7 @@ After you have installed SharePoint Server and completed the initial configurati
   
 To configure outgoing email for a specific web application, first configure the default outgoing email for all web applications in the farm. If you configure the outgoing email for a specific web application, that configuration will override the default configuration for all web applications in the farm.
   
-You can also configure outgoing email for a specific web application by using Microsoft PowerShell. For more information, see the "Configure the settings for a specific web application" section in [SharePoint Server 2016 outgoing email configuration settings](https://social.technet.microsoft.com/wiki/contents/articles/34167.sharepoint-2016-outgoing-email-configuration-settings.aspx#Configure_using_the_PowerShell).
+You can also configure outgoing email for a specific web application by using Microsoft PowerShell. For more information, see the "Configure the settings for a specific web application" section in [SharePoint Server 2016 outgoing email configuration settings](https://social.technet.microsoft.com/wiki/contents/articles/34167.sharepoint-2016-outgoing-email-configuration-settings.aspx#Configure_using_the_PowerShell). 
   
     
 ## Before you begin
@@ -114,11 +115,11 @@ If you enable anonymous access and relayed email messages, you increase the poss
     
 9. To accept relayed email messages from one or more specific servers, follow these steps:
     
-  - Click **Only the list below**.
+   - Click **Only the list below**.
     
-  - Click **Add**, and then add servers one at a time by IP address, or in groups by using a subnet or domain.
+   - Click **Add**, and then add servers one at a time by IP address, or in groups by using a subnet or domain.
     
-  - Click **OK** three times to close the **Computer**, **Relay Restrictions**, and **Properties** dialog boxes. 
+   - Click **OK** three times to close the **Computer**, **Relay Restrictions**, and **Properties** dialog boxes. 
     
 Ensure that the SMTP service is running and set to start automatically. To do this, use the following procedure.
   
@@ -182,6 +183,9 @@ You can configure outgoing email for a farm by using the SharePoint Central Admi
 
 10. In the **Use TLS connection encryption** box, select the **Yes** radio button to require SharePoint to establish an encrypted connection to the SMTP server before sending email. Otherwise, select the **No** radio button.
     
+    > [!NOTE]
+    > The SMTP server must be configured with a valid TLS certificate (matching the SMTP server name entered above) that is trusted by the SharePoint server in order for email to be sent via TLS.
+    
 11. Click **OK**.
     
 ### To configure outgoing email for a farm by using Microsoft PowerShell
@@ -194,7 +198,6 @@ You can configure outgoing email for a farm by using the SharePoint Central Admi
 2. Run the following PowerShell commands to get the SharePoint Central Administration web application and then configure the outgoing email settings for that web application. The settings stored in that web application will apply to the entire farm.
 
 ```powershell
-...
 $CentralAdmin = Get-SPWebApplication -IncludeCentralAdministration | ? { $_.IsAdministrationWebApplication -eq $true }
 
 $SmtpServer = "mail.example.com"
@@ -204,7 +207,6 @@ $ReplyToAddress = "replyto@example.com"
 $Credentials = Get-Credential
 
 Set-SPWebApplication -Identity $CentralAdmin -SMTPServer $SmtpServer -SMTPServerPort $SmtpServerPort -OutgoingEmailAddress $FromAddress -ReplyToEmailAddress $ReplyToAddress -SMTPCredentials $Credentials
-...
 ```
 
 > [!NOTE]
@@ -240,7 +242,8 @@ You can configure outgoing email for a specific web application by using the Cen
    
    - If you selected the **Authenticated** radio button, provide the user name in the **User name** box and the password in the **Password** box.   
 
-     **NOTE:** If you're using a Windows account to authenticate to the SMTP server, you can specify the user name using either the Universal Principal Name (UPN) format (user@domain.com) or the NT4 login format (DOMAIN\user). If you're using a non-Windows account to authenticate to the SMTP server, contact your email administrator to determine the correct user name format.
+   > [!NOTE] 
+   > If you're using a Windows account to authenticate to the SMTP server, you can specify the user name using either the Universal Principal Name (UPN) format (user@domain.com) or the NT4 login format (DOMAIN\user). If you're using a non-Windows account to authenticate to the SMTP server, contact your email administrator to determine the correct user name format.
 
 10.  In the **Use TLS connection encryption** section, select the **Yes** radio button to require SharePoint to establish an encrypted connection to the SMTP server before sending email. Otherwise, select the **No** radio button.
     
@@ -252,21 +255,24 @@ You can configure outgoing email for a specific web application by using the Cen
   
 2. Run the following PowerShell commands to get the web application and then configure the outgoing email settings for that web application.
 
-```powershell
-```
-$WebApp = Get-SPWebApplication -Identity &lt;web application URL&gt;
+   ```powershell
+   $WebApp = Get-SPWebApplication -Identity &lt;web application URL&gt;
 
-$SmtpServer = "mail.example.com"
-$SmtpServerPort = 587
-$FromAddress = "user@example.com"
-$ReplyToAddress = "replyto@example.com"
-$Credentials = Get-Credential
+   $SmtpServer = "mail.example.com"
+   $SmtpServerPort = 587
+   $FromAddress = "user@example.com"
+   $ReplyToAddress = "replyto@example.com"
+   $Credentials = Get-Credential
 
-Set-SPWebApplication -Identity $WebApp -SMTPServer $SmtpServer -SMTPServerPort $SmtpServerPort -OutgoingEmailAddress $FromAddress -ReplyToEmailAddress $ReplyToAddress -SMTPCredentials $Credentials
-```
+   Set-SPWebApplication -Identity $CentralAdmin -SMTPServer $SmtpServer -SMTPServerPort $SmtpServerPort -OutgoingEmailAddress $FromAddress -ReplyToEmailAddress $ReplyToAddress -SMTPCredentials $Credentials
+   ```
 
 > [!NOTE]
 > To specify credentials for SMTP authentication, use the Get-Credential cmdlet and pass it as the value for the -SMTPCredentials parameter. To specify that SharePoint should connect to the SMTP server anonymously, pass $null as the value for the -SMTPCredentials parameter. If you don't specify the -SMTPCredentials parameter, it will preserve the existing authentication settings.
+
+> [!NOTE]
+> After you've set up SMTP authentication in your farm, you can test to see if it's authenticating. For more information, see [[Is SMTP Auth Really Working?](https://techcommunity.microsoft.com/t5/SharePoint-Support-Blog/Is-SMTP-Auth-Really-Working/ba-p/303577).
+
 
 ## See also
 <a name="begin"> </a>

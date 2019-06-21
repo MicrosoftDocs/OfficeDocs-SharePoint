@@ -1,13 +1,17 @@
 ---
 title: "Restore a deleted OneDrive"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
 ms.date: 05/15/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: one-drive
 localization_priority: Normal
+ms.collection: 
+- Strat_OD_admin
+- M365-collaboration
 search.appverid:
 - ODB160
 - MET150
@@ -24,6 +28,9 @@ When you delete a user in the Microsoft 365 admin center (or when a user is remo
 If the user was deleted within 30 days, you can restore the user and all their data from the Microsoft 365 admin center. To learn how, see [Restore a user in Office 365](/office365/admin/add-users/restore-user). If you deleted the user more than 30 days ago, the user will no longer appear in the Microsoft 365 admin center, and you'll need to use PowerShell to restore the OneDrive. 
   
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
+
+    > [!NOTE]
+    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall “SharePoint Online Management Shell.” <br>On the Download Center page, select your language and then click the Download button. You’ll be asked to choose between downloading a x64 and x86 .msi file. Download the x64 file if you’re running the 64-bit version of Windows or the x86 file if you’re running the 32-bit version. If you don’t know, see https://support.microsoft.com/help/13443/windows-which-operating-system. After the file downloads, run it and follow the steps in the Setup Wizard.
     
 2. Connect to SharePoint Online as a global admin or SharePoint admin in Office 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
     
@@ -34,6 +41,9 @@ If the user was deleted within 30 days, you can restore the user and all their d
   ```PowerShell
   Get-SPODeletedSite -Identity <URL>
   ```
+
+    A user’s OneDrive URL is based on their username. For example, 
+    https://microsoft-my.sharepoint.com/personal/user1_contoso_com. You can find their username on the Active users (or Deleted users) page in the Microsoft 365 admin center. 
 
   - If you don't know the URL of the deleted OneDrive, run the following command:
     
@@ -49,7 +59,7 @@ If the user was deleted within 30 days, you can restore the user and all their d
   Restore-SPODeletedSite -Identity <URL>
   ```
 
-5. Assign a site collection administrator to the OneDrive to access the needed data:
+5. Assign an administrator to the OneDrive to access the needed data:
     
   ```PowerShell
   Set-SPOUser -Site <URL> -LoginName <UPNofDesiredAdmin> -IsSiteCollectionAdmin $True

@@ -1,10 +1,11 @@
 ---
 title: "Plan for OneDrive for Business in SharePoint Server"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
 ms.date: 7/27/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal

@@ -1,9 +1,10 @@
 ---
 title: "New and improved features in SharePoint Server 2019"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: overview
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
@@ -29,7 +30,7 @@ This section provides detailed descriptions of the new updated features in Share
 
 ### Access Services 2013 now supports Send Email
 
-The Access Services 2013 service application now supports the SendEmail action for sending email messages from apps. See [Introducing Send Email in Access 2013 web apps](https://blogs.office.com/2015/01/12/introducing-send-email-access-2013-web-apps/) for more details.
+The Access Services 2013 service application now supports the SendEmail action for sending email messages from apps. See [Introducing Send Email in Access 2013 web apps](https://www.microsoft.com/en-us/microsoft-365/blog/2015/01/12/introducing-send-email-access-2013-web-apps/) for more details.
 
 ### Additional documentation links for Central Administration site
 
@@ -89,6 +90,9 @@ There are some differences between the search experiences from a search administ
 Modern team sites bring a fresh and responsive user experience to team collaboration. The redesigned homepage improves the discoverability of the most common collaboration tasks while putting your team’s news front and center. Users can easily create modern team sites for themselves from SharePoint Home without needing to contact IT.
 
 SharePoint Server 2019 will continue to support creating classic team sites.
+
+### Integration with PowerApps, Power BI and MS Flow
+SharePoint Server 2019 brings cloud closer to the Customers and Customers closer to the cloud. The cloud features PowerApps, Power BI and MS Flow are now available. SharePoint Server 2019 includes process automation and forms technologies like PowerApps and Flow to connect with your on-premises data. These features needs to be configured via gateway.
 
 ### SharePoint using modern Internet Information Services (IIS) APIs
 

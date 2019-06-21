@@ -1,10 +1,10 @@
 ---
 title: "Change site collection administrators in SharePoint Server"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 3/9/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -53,7 +53,7 @@ Use this procedure when you want to make a user a primary or secondary site coll
     
 3. At the PowerShell command prompt, type the following command to replace the secondary site collection administrator:
     
-   ```
+   ```powershell
    Set-SPSite -Identity "<SiteCollection>" -SecondaryOwnerAlias "<User>"
    ```
 

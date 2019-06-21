@@ -1,9 +1,10 @@
 ---
 title: "OneDrive for Business"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 layout: LandingPage
 ms.topic: landing-page
 ms.service: one-drive
@@ -161,20 +162,36 @@ Help your users store, sync, and share work files in the cloud with OneDrive.
         </div>
         </a>
     </li>
+    <li>
+        <a href="https://resources.techcommunity.microsoft.com/resources/onedrive-adoption">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="/office/media/icons/task-checklist-planning-blue.svg" alt="checklist"/>
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Adoption resources</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
 </ul>
 
 ---
 
 <p>The OneDrive admin center helps you quickly and easily manage your organization's OneDrive for Business settings in one place.</p>
-<p>You can access the OneDrive admin center in three ways:</p>
+<p>To access the OneDrive admin center:</p>
 
-- From the Microsoft 365 admin center, click **Admin centers** in the left pane, and then click **OneDrive**.
-    
 - From your own OneDrive, click **OneDrive Admin** in the lower-left corner.
-    
+
+    Or
+
 - Go to https://admin.onedrive.com.
-    
-    ![The Sharing page of the OneDrive admin center](media/773e0df6-17ec-4433-ae50-62b14398317f.png)
 
 > [!IMPORTANT]
 > To use the OneDrive admin center, you must allow access to onedrive.com. You must also be a global admin for your organization, or a custom admin with the SharePoint administrator role. 

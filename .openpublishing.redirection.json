@@ -352,6 +352,21 @@
     "source_path": "enterprise/overview-of-sql-server-in-a-sharepoint-server-2016-environment.md",
        "redirect_url": "https://docs.microsoft.com/en-us/SharePoint/administration/overview-of-sql-server-in-sharepoint-server-2016-and-2019-environments",
        "redirect_document_id": true
+   },
+   {
+      "source_path": "sharepoint/sharepointonline/manage-team-and-communication-sites-in-powershell.md",
+        "redirect_url": "https://docs.microsoft.com/sharepoint/manage-sites-in-new-admin-center",
+        "redirect_document_id": true
+   },
+   {
+      "source_path": "sharepoint/sharepointonline/plan-your-permissions-strategy.md",
+        "redirect_url": "https://docs.microsoft.com/sharepoint/default-sharepoint-groups",
+        "redirect_document_id": true
+   },
+   {
+   "source_path": "sharepoint/sharepointonline/view-and-restore-deleted-sites-in-new-admin-center.md",
+     "redirect_url": "https://docs.microsoft.com/sharepoint/restore-deleted-site-collection",
+     "redirect_document_id": true
    }
   ]
   } 

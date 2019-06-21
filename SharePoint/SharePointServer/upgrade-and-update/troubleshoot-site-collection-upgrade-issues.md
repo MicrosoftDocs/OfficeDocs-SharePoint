@@ -1,10 +1,11 @@
 ---
 title: "Troubleshoot site collection upgrade issues in SharePoint Server 2016"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
 ms.date: 12/30/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: troubleshooting
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal

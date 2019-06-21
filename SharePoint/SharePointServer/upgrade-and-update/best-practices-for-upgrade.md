@@ -1,10 +1,11 @@
 ---
 title: "Best practices for upgrading to SharePoint Server 2016"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
 ms.date: 9/17/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -59,13 +60,15 @@ To understand your environment before you upgrade it, and to plan for the time t
     
 ## Best practices for upgrading to SharePoint Server 2016
 
-To guarantee a smooth upgrade from SharePoint Server 2013 with Service Pack 1 (SP1) to SharePoint Server 2016, follow these best practices:
+To guarantee a smooth upgrade from SharePoint Server 2013 to SharePoint Server 2016, follow these best practices:
   
-1. Ensure that the environment is fully functioning before you begin to upgrade.
+1. Install the latest [Cumulative Update for SharePoint Server 2013](https://docs.microsoft.com/en-us/officeupdates/sharepoint-updates#sharepoint-2013-update-history) and latest [Public Update for SharePoint Server 2016](https://docs.microsoft.com/en-us/officeupdates/sharepoint-updates#sharepoint-2016-update-history) (but at a minimum, SharePoint Server 2013 must be running the March 2013 PU (15.0.4481.1005)).
+
+2. Ensure that the environment is fully functioning before you begin to upgrade.
     
     An upgrade does not solve problems that already exist in your environment. Therefore, make sure that the environment is fully functioning before you start to upgrade. For example, if you are not using web applications, unextend them before you upgrade. If you want to delete a web application in Internet Information Services (IIS), unextend the web application before you delete it. Otherwise, SharePoint Server 2016 will try to upgrade the web application even though it does not exist, and the upgrade will fail. If you find and solve problems beforehand, you are more likely to meet the estimated upgrade schedule.
     
-2. Perform a trial upgrade on a test farm first.
+3. Perform a trial upgrade on a test farm first.
     
     Copy your databases to a test environment and perform a trial upgrade. Examine the results to determine the following: 
     
@@ -79,30 +82,30 @@ To guarantee a smooth upgrade from SharePoint Server 2013 with Service Pack 1 (S
     
     Try a full search indexing crawl.
     
-3. Plan for capacity.
+4. Plan for capacity.
     
     Ensure that you have enough disk, processor, and memory capacity to handle upgrade requirements. For more information about system requirements, see [System requirements for SharePoint Server 2016](../install/system-requirements-for-sharepoint-server-2016.md). 
     
-4. Clean up before you upgrade
+5. Clean up before you upgrade
     
     Issues in your environment can affect the success of upgrade, and unnecessary or very large amounts of data can affect upgrade performance for both databases and site collections. If you don't need something in your environment, consider removing it before upgrade. If there are issues detected, try to resolve them before you start to upgrade. .
     
-5. Back up your databases.
+6. Back up your databases.
     
     Perform a full backup of your databases before you upgrade. That way, you can try upgrade again if it fails. 
     
-6. Optimize your environment before upgrade.
+7. Optimize your environment before upgrade.
     
     Be sure to optimize your SharePoint Server 2013 with Service Pack 1 (SP1) environment to meet any limits or restrictions, either from your business or governance needs or from the SharePoint Server 2016 boundaries and limits before upgrade. This will help reduce errors during the upgrade process and prevent broken lists or sites after upgrade. 
     
-7. (Optional) Set the original databases to read-only if you want to keep your original environment available while you upgrade.
+8. (Optional) Set the original databases to read-only if you want to keep your original environment available while you upgrade.
     
     If you expect a long outage period while you upgrade, you can set the databases in the original environment to read-only. Users can continue to access the data but cannot change it. For more information, see [Upgrade content databases to SharePoint Server 2016](upgrade-content-databases.md).
     
-8. After upgrade, review the Upgrade Status page and upgrade logs to determine whether you must address issues. Then review the upgraded sites.
+9. After upgrade, review the Upgrade Status page and upgrade logs to determine whether you must address issues. Then review the upgraded sites.
     
     The Upgrade Status page reports on the upgrade progress, and the upgrade logs list any errors or warnings that occurred during the upgrade process. Verify all the sites and test them before you consider the upgrade finished. For more information, see [Verify database upgrades in SharePoint Server 2016](verify-upgrade-for-databases.md) and the **Review site collections upgraded** section in [Upgrade site collections to SharePoint Server 2016](upgrade-site-collections.md).
     
-9. Make sure that the appropriate service pack or update is applied to your 2013 environment. If you are using remote blob storage (RBS) in your environment, you must be running SharePoint Server 2013 with Service Pack 1 (SP1) in your environment before you start the upgrade process.
+10. Make sure that the appropriate service pack or update is applied to your 2013 environment. If you are using remote blob storage (RBS) in your environment, you must be running SharePoint Server 2013 with Service Pack 1 (SP1) in your environment before you start the upgrade process.
     
 

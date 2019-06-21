@@ -1,10 +1,10 @@
 ---
 title: "Configure automatic password change in SharePoint Server"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 9/15/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -79,13 +79,13 @@ If the automatic password change process fails because there is a password misma
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
-  - Add memberships that are required beyond the minimums above.
+   - Add memberships that are required beyond the minimums above.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
@@ -96,11 +96,11 @@ If the automatic password change process fails because there is a password misma
     
 3. From the PowerShell command prompt, type the following:
     
-  ```
-  Set-SPManagedAccount [-Identity] <SPManagedAccountPipeBind> -ExistingPassword <SecureString> -UseExistingPassword $true
-  ```
+   ```powershell
+   Set-SPManagedAccount [-Identity] <SPManagedAccountPipeBind> -ExistingPassword <SecureString> -UseExistingPassword $true
+   ```
 
-    For more information, see [Set-SPManagedAccount](/powershell/module/sharepoint-server/Set-SPManagedAccount?view=sharepoint-ps).
+   For more information, see [Set-SPManagedAccount](/powershell/module/sharepoint-server/Set-SPManagedAccount?view=sharepoint-ps).
     
 ### Service account provisioning failure
 
@@ -112,13 +112,13 @@ If restarting the Timer Service does not resolve the issue, use PowerShell to re
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
-  - Add memberships that are required beyond the minimums above.
+   - Add memberships that are required beyond the minimums above.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
@@ -129,11 +129,11 @@ If restarting the Timer Service does not resolve the issue, use PowerShell to re
     
 3. From the PowerShell command prompt, type the following:
     
-  ```
-  Repair-SPManagedAccountDeployment
-  ```
+   ```powershell
+   Repair-SPManagedAccountDeployment
+   ```
 
-    For more information, see [Repair-SPManagedAccountDeployment](/powershell/module/sharepoint-server/Repair-SPManagedAccountDeployment?view=sharepoint-ps).
+For more information, see [Repair-SPManagedAccountDeployment](/powershell/module/sharepoint-server/Repair-SPManagedAccountDeployment?view=sharepoint-ps).
     
 If the previous procedure does not resolve a service account provisioning failure, it is likely because the farm encryption key cannot be decrypted. If this is the issue, use PowerShell to update the local server pass phrase to match the pass phrase for the farm.
   
@@ -141,13 +141,13 @@ If the previous procedure does not resolve a service account provisioning failur
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
-  - Add memberships that are required beyond the minimums above.
+   - Add memberships that are required beyond the minimums above.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
@@ -158,11 +158,11 @@ If the previous procedure does not resolve a service account provisioning failur
     
 3. From the PowerShell command prompt, type the following:
     
-  ```
-  Set-SPPassPhrase -PassPhrase <SecureString> -ConfirmPassPhrase <SecureString> -LocalServerOnly $true
-  ```
+   ```powershell
+   Set-SPPassPhrase -PassPhrase <SecureString> -ConfirmPassPhrase <SecureString> -LocalServerOnly $true
+   ```
 
-    For more information, see [Set-SPPassPhrase](/powershell/module/sharepoint-server/Set-SPPassPhrase?view=sharepoint-ps).
+For more information, see [Set-SPPassPhrase](/powershell/module/sharepoint-server/Set-SPPassPhrase?view=sharepoint-ps).
     
 ### Imminent password expiration
 
@@ -175,13 +175,13 @@ If the password is about to expire, but automatic password change has not been c
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
-  - Add memberships that are required beyond the minimums above.
+   - Add memberships that are required beyond the minimums above.
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
@@ -192,11 +192,11 @@ If the password is about to expire, but automatic password change has not been c
     
 3. To update the account password to a new automatically generated value, from the PowerShell command prompt, type the following:
     
-  ```
-  Set-SPManagedAccount [-Identity] <SPManagedAccountPipeBind> -AutoGeneratePassword $true
-  ```
+   ```powershell
+   Set-SPManagedAccount [-Identity] <SPManagedAccountPipeBind> -AutoGeneratePassword $true
+   ```
 
-    For more information, see [Set-SPManagedAccount](/powershell/module/sharepoint-server/Set-SPManagedAccount?view=sharepoint-ps).
+For more information, see [Set-SPManagedAccount](/powershell/module/sharepoint-server/Set-SPManagedAccount?view=sharepoint-ps).
     
 ### Requirement to change the farm account to a different account
 

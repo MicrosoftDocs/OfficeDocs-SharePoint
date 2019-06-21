@@ -1,10 +1,11 @@
 ---
 title: "Overview of mobile devices and SharePoint Server 2013"
+ms.reviewer: 
 ms.author: toresing
 author: tomresing
 manager: pamgreen
 ms.date: 7/20/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -22,7 +23,7 @@ SharePoint Server 2013 offers new, optimized viewing experiences across differen
 > [!IMPORTANT]
 > For more information about supported mobile browsers with SharePoint Server 2013, see [Mobile device browsers supported in SharePoint 2013](supported-mobile-device-browsers.md). 
   
-For an end-to-end look and understanding of the SharePoint Server 2013 mobile landscape, see the poster [Mobile architecture in SharePoint 2013](https://zoom.it/E1BL). Also, for more information about how to administer your mobile environment, see [Administer mobile devices in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ff393820(v=office.14)).
+For an end-to-end look and understanding of the SharePoint Server 2013 mobile landscape, see the poster [Overview of mobile devices and SharePoint 2013](https://docs.microsoft.com/sharepoint/administration/mobile-devices-overview). For more information about how to administer your mobile environment, see [Mobile administration (SharePoint Server 2010)](https://docs.microsoft.com/previous-versions/office/sharepoint-server-2010/ff393820(v=office.14)).
   
 ## Mobile browser experience
 <a name="MBE"> </a>

@@ -1,10 +1,11 @@
 ---
 title: "Stage 10 Configure the query in a Content Search Web Part on a catalog item page in SharePoint Server"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
 ms.date: 12/29/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal

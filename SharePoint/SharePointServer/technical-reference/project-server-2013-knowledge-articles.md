@@ -1,10 +1,11 @@
 ---
 title: "Project Server 2013 knowledge articles for Systems Center Operations Manager"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
 ms.date: 9/20/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: troubleshooting
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal

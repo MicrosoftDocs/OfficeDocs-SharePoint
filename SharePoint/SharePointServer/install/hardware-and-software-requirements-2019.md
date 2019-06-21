@@ -1,10 +1,11 @@
 ---
 title: "Hardware and software requirements for SharePoint Server 2019"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
 ms.date: 7/24/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: interactive-tutorial
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
@@ -74,6 +75,9 @@ The requirements in the following section apply to the following installations:
   
 > [!NOTE]
 > SharePoint Server 2019 supports drives that are formatted with the Resilient File System (ReFS). For additional information about ReFs, see [Resilient File System Overview](https://go.microsoft.com/fwlink/p/?LinkId=618431) and [Resilient File System](https://go.microsoft.com/fwlink/p/?LinkId=618432)
+
+> [!IMPORTANT]
+> SharePoint Server 2019 requires a minimum of an Active Directory 2003 native forest and domain functional level.
   
 > [!IMPORTANT]
 > SharePoint Server 2019 does not support single label domain names. For more information, see [Information about configuring Windows for domains with single-label DNS names](https://go.microsoft.com/fwlink/p/?LinkID=193849). 
@@ -91,13 +95,15 @@ One of the following:
 - Microsoft SQL Server 2016 RTM Standard or Enterprise Editions
     
 - Microsoft SQL Server 2017 RTM Standard or Enterprise Editions for Windows
+
+- Microsoft Azure SQL Managed Instance (MI) - For more information, see [Deploy Azure SQL Managed Instance with SharePoint Servers 2016 and 2019](../administration/deploy-azure-sql-managed-instance-with-sharepoint-servers-2016-2019.md).
     
 > [!NOTE]
 > SQL Server products and all future public updates are supported through the SQL Server product lifecycle. 
   
 
 > [!NOTE]
-> SQL Server Express is not supported. SQL Azure (the SaaS service) is also not supported for any SharePoint databases 
+> SQL Server Express is not supported. Azure SQL Database (the DBaaS service) is also not supported for any SharePoint databases 
   
 One of the following server operating systems:
   
@@ -112,7 +118,10 @@ One of the following server operating systems:
 - Windows Server 2016 Standard or Datacenter (Desktop Experience)
     
 - Windows Server 2019 Standard or Datacenter (Desktop Experience)
-    
+
+> [!NOTE]
+> We don't support installing or upgrading SharePoint 2019 RTM on a server that previously hosted a prerelease version of SharePoint. A new server build is required to host SharePoint 2019 RTM.
+
 > [!NOTE]
 > We don't support installing the Office 2019 client and SharePoint Server 2019 on the same computer. 
 
@@ -150,6 +159,8 @@ The Microsoft SharePoint Products Preparation Tool installs the following prereq
     
 - Visual C++ Redistributable Package for Visual Studio 2017
     
+    >[!NOTE]
+    >The required software above will be supported when used by SharePoint via the SharePoint Product Lifecycle.
     
 #### Minimum requirements for client computers
 

@@ -1,9 +1,10 @@
 ---
 title: "New and improved features in SharePoint Server 2016"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: overview
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority

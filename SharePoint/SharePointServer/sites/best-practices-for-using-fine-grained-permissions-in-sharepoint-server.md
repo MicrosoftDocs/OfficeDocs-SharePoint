@@ -1,10 +1,11 @@
 ---
 title: "Best practices for using fine-grained permissions in SharePoint Server"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
 ms.date: 9/27/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -98,17 +99,17 @@ Change the built-in scope limit by using a Microsoft PowerShell script.
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  $webapp = Get-SPWebApplication http://<serverName>
-  $webapp.MaxUniquePermScopesPerList
-  $webapp.MaxUniquePermScopesPerList = <Number of scope limit>
-  ```
+   ```
+   $webapp = Get-SPWebApplication http://<serverName>
+   $webapp.MaxUniquePermScopesPerList
+   $webapp.MaxUniquePermScopesPerList = <Number of scope limit>
+   ```
 
-    Where:
+   Where:
     
-  - Where  _\<serverName\>_ is the name of the application server in the SharePoint farm. 
+   - Where  _\<serverName\>_ is the name of the application server in the SharePoint farm. 
     
-  - Where  _\<Number of scope limit\>_ is the maximum number of unique permissions scopes that you want to allow per SharePoint list. Often, the effective limit is much smaller than 50,000 if many scopes exist at the same hierarchical level. This is because display checks for items below that hierarchical level must be checked against all scopes above them. This limitation can cause the effective number of scopes allowed in a particular query to be reduced to 1,000 to 2,000. 
+   - Where  _\<Number of scope limit\>_ is the maximum number of unique permissions scopes that you want to allow per SharePoint list. Often, the effective limit is much smaller than 50,000 if many scopes exist at the same hierarchical level. This is because display checks for items below that hierarchical level must be checked against all scopes above them. This limitation can cause the effective number of scopes allowed in a particular query to be reduced to 1,000 to 2,000. 
     
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 

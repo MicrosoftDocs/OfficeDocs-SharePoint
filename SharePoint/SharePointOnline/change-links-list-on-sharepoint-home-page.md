@@ -1,35 +1,37 @@
 ---
-title: "Change the Links list on the SharePoint home page"
+title: "Add featured links to the SharePoint start page"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 6/21/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 f1_keywords:
 - 'WSSEndUser_SPMobileAndroid_LinksTabEmptyState_FL827915'
 ms.service: sharepoint-online
 localization_priority: Normal
-ms.collection: Strat_SP_modern
+ms.collection:  
+- Strat_SP_admin
+- M365-collaboration
 search.appverid:
 - SPO160
 - MOE150
 - FRP150
 - MET150
 ms.assetid: aa93f89b-ffce-4edb-aa89-22b16d6915a7
-description: "Here is how SharePoint Online company administrators can change the featured links on SharePoint Home."
+description: "Learn how admins can change the Featured links list on the SharePoint start page."
 ---
 
-# Change the Links list on the SharePoint home page
+# Add featured links to the SharePoint start page
 
- As a global or SharePoint admin in Office 365, you can feature the sites and content you want on the SharePoint home page by changing the **Links** list on the left side. To add links to a SharePoint Server page, see [Video: Add a link to a page](https://support.office.com/article/F9B329F9-67BB-4258-A686-9CD98415E7CA).
+ As a global or SharePoint admin in Office 365, you can feature the sites and content you want on the SharePoint start page by changing the **Featured links** list in the left pane. To add links to a SharePoint Server page, see [Video: Add a link to a page](https://support.office.com/article/F9B329F9-67BB-4258-A686-9CD98415E7CA).
   
 > [!NOTE]
-> Some functionality is introduced gradually to organizations that have opted in to the [Set up the Standard or Targeted release options in Office 365](/office365/admin/manage/release-options-in-office-365). This means that you may not yet see this feature or it may look different than what is described in the help articles. <br>To learn more about the SharePoint home page, see [Find news, sites, and portals in Office 365](https://support.office.com/article/6b85097a-87e0-4611-a29a-dfd49b1a1220). 
+To learn more about the SharePoint start page, see [Find news, sites, and portals in Office 365](https://support.office.com/article/6b85097a-87e0-4611-a29a-dfd49b1a1220). 
   
-To view the SharePoint home page in Office 365:
+To view the SharePoint start page:
   
-1. Sign in to Office 365. For help, see [Where do I sign in?](https://support.office.com/article/17e859dc-88be-45a0-97be-a8837efb2c24.aspx#BKMK_WhereSignIn).
+1. Sign in with your work or school account. For help, see [Where do I sign in?](https://support.office.com/article/17e859dc-88be-45a0-97be-a8837efb2c24.aspx#BKMK_WhereSignIn).
     
 2. Select SharePoint from the list of apps. 
     
@@ -41,9 +43,9 @@ To view the SharePoint home page in Office 365:
   
 Can't find the app you're looking for? From the app launcher, select **All apps** to see an alphabetical list of the Office 365 apps available to you. From there, you can search for a specific app. 
   
-You'll see the **Links** list on the left side of the page. 
+You'll see the **Featured links** list on the left side of the page. 
   
-![Links list on SharePoint online home page](media/1bfded4a-2e65-47f5-95c2-ad3cf7e890fe.png)
+![Featured links list on the SharePoint start page](media/1bfded4a-2e65-47f5-95c2-ad3cf7e890fe.png)
   
 ## Add a link
 
@@ -52,7 +54,7 @@ You'll see the **Links** list on the left side of the page.
     ![Featured links with Edit selected](media/65008327-fb4d-4229-93a5-9b69e8d77660.png)
   
     > [!NOTE]
-    > If you do not see **Edit**, you don't have permissions to change the **Links** list. Contact your administrator. 
+    > If you do not see **Edit**, you don't have permissions to change the Featured links list. Contact your administrator. 
   
 2. To add a link, choose **+ Add**.
     
@@ -77,7 +79,7 @@ You'll see the **Links** list on the left side of the page.
     ![Featured list with edit selected](media/966fd31e-c5f5-4d5f-beac-742b10dcdc41.png)
   
     > [!NOTE]
-    > If you do not see **Edit**, you don't have permissions to change the **Links** list. Contact your administrator. 
+    > If you do not see **Edit**, you don't have permissions to change the Featured links list. Contact your administrator. 
   
 2. Click the link you want to change.
     
@@ -102,9 +104,9 @@ You'll see the **Links** list on the left side of the page.
     ![Featured list with edit selected](media/966fd31e-c5f5-4d5f-beac-742b10dcdc41.png)
   
     > [!NOTE]
-    > If you do not see **Edit**, you don't have permissions to change the **Links** list. Contact your administrator. 
+    > If you do not see **Edit**, you don't have permissions to change the Featured links list. Contact your administrator. 
   
-2. Drag and drop each link to the place you want within the list.
+2. Drag each link to the place you want within the list.
     
 3. To leave edit mode, click **Done** when you're finished. 
     
@@ -115,7 +117,7 @@ You'll see the **Links** list on the left side of the page.
     ![Featured list with edit selected](media/966fd31e-c5f5-4d5f-beac-742b10dcdc41.png)
   
     > [!NOTE]
-    > If you do not see **Edit**, you don't have permissions to change the **Links** list. Contact your administrator. 
+    > If you do not see **Edit**, you don't have permissions to change the Featured links list. Contact your administrator. 
   
 2. Click **X**. 
     
@@ -126,6 +128,6 @@ You'll see the **Links** list on the left side of the page.
 4. To leave edit mode, click **Done** when you're finished. 
     
 > [!NOTE]
-> If you had custom promoted sites in classic view of the SharePoint Sites page, the Links section of the SharePoint home page is pre-populated with those sites. The pre-population of promoted sites in the Links list happens only once when the first user visits the new SharePoint home page. If you go back to classic view and change the promoted sites, the changes will not be reflected in the Links list on the SharePoint home page. 
+> If you had custom promoted sites in classic view of the SharePoint Sites page, the Featured links section of the SharePoint start page is pre-populated with those sites. The pre-population of promoted sites in the Featured links list happens only once when the first user visits the new SharePoint start page. If you go back to classic view and change the promoted sites, the changes will not be reflected in the Featured links list on the SharePoint start page. 
   
 

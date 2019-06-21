@@ -1,10 +1,11 @@
 ---
 title: "Configure Exchange task synchronization in SharePoint Server 2013"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
 ms.date: 9/21/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -30,7 +31,7 @@ Configuring task Synchronization can be relatively complex. By following the gui
 
 What you need to know before you begin:
   
-- For SharePoint, **User profile synchronization** needs to be up and running, this typically means having a **User Profile service application** working in Central Administration, with the **synchronization service** running as well. There's further reading on this ate the following links: [User profiles and identities](user-profiles-and-identities.md), and [Manage user profile synchronization in SharePoint Server](manage-profile-synchronization.md).
+- For SharePoint, **User profile synchronization** needs to be up and running, this typically means having a **User Profile service application** working in Central Administration, with the **synchronization service** running as well. There's further reading on this at the following links: [User profiles and identities](user-profiles-and-identities.md), and [Manage user profile synchronization in SharePoint Server](manage-profile-synchronization.md).
     
 - You'll also need to have the **Work Management service application** running for your SharePoint farm. 
     

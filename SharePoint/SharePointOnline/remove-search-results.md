@@ -1,10 +1,11 @@
 ---
 title: "Remove search results"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
 ms.date: 6/29/2018
-ms.audience: End User
+audience: End User
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
@@ -17,23 +18,24 @@ description: "As a search administrator, you can temporarily remove items from t
 
 # Remove search results
 
-If you're a  a SharePoint Online administrator, you can temporarily remove items from search results with immediate effect. The items that you can remove can be documents, pages, or sites that you don't want users to see. An example of this could be a Word document containing an invitation to an event that has been cancelled, but the organizer has not removed the document from the site yet. Removing a result removes it from both classic and modern search results. 
+As a global or SharePoint admin in Office 365, you can temporarily remove items from search results with immediate effect. The items that you can remove can be documents, pages, or sites that you don't want users to see. An example of this could be a Word document containing an invitation to an event that has been cancelled, but the organizer has not removed the document from the site yet. Removing a result removes it from both classic and modern search results. 
   
 > [!IMPORTANT]
 >  This is only a quick fix! Unless you delete the items or change the permissions of items manually, they will show up again in your search results after the next crawl. 
   
-1. Sign in to Office 365 as a global admin or SharePoint admin.
+1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+    > [!NOTE]
+    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-3. In the left pane, choose **Admin centers** \> **SharePoint**.
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
+      
+3. In the left pane, select **search**. 
     
-4. Choose **search**.
+4. On the search administration page, choose **Remove Search Results**.
     
-5. On the search administration page, choose **Remove Search Results**.
+5. On the Remove Search Results page, in the **URLs to remove** box, type the URLs that you want to remove from the search results. Type one URL on each line. 
     
-6. On the Remove Search Results page, in the **URLs to remove** box, type the URLs that you want to remove from the search results. Type one URL on each line. 
-    
-7. Click **Remove Now**. The URLs are immediately removed from your search results.
+6. Select **Remove Now**. The URLs are immediately removed from your search results.
     
 

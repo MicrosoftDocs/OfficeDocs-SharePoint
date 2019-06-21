@@ -1,10 +1,11 @@
 ---
 title: "Updated Product Servicing Policy for SharePoint 2013"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
 ms.date: 10/25/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: reference
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal

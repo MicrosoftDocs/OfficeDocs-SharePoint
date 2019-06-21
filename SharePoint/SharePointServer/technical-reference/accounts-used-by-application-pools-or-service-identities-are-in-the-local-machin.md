@@ -1,10 +1,11 @@
 ---
 title: "Accounts used by application pools or service identities are in the local machine Administrators group (SharePoint Server)"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
 ms.date: 2/22/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: troubleshooting
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal

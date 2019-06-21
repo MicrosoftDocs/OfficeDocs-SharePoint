@@ -1,10 +1,11 @@
 ---
 title: "Configure cloud hybrid search - roadmap"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen
 ms.date: 3/9/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
@@ -14,6 +15,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
+- M365-collaboration
 ms.custom: 
 ms.assetid: 0bba350d-ec33-43db-a873-930559c78dee
 description: "Learn how to configure cloud hybrid search for SharePoint Server by setting up a cloud Search service application in your SharePoint Server environment and connecting it to your search index in Office 365."
@@ -90,7 +92,7 @@ On the application server that hosts the SharePoint ServerCentral Administration
     
 2. Connect to Office 365 as a global administrator.
     
-3. Navigate to [https://configure.office.com/scenario.aspx?Sid=54](https://configure.office.com/scenario.aspx?Sid=54) to download, install, and start the Hybrid Picker wizard. 
+3. Navigate to [https://go.microsoft.com/fwlink/?linkid=867176](https://go.microsoft.com/fwlink/?linkid=867176) to download, install, and start the Hybrid Picker wizard. 
     
 4. Follow the prompts in the Hybrid Picker and select the hybrid search feature.
   

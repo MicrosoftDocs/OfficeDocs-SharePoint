@@ -1,9 +1,10 @@
 ---
 title: "Deleting OneDrive for Business experience settings"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 ms.custom: 
@@ -19,7 +20,7 @@ An admin can delete these lists by using [PowerShell Script](/powershell/scripti
 
 You can adapt the script included in this article to meet the your needs. For example, you can extract the information for user1@contoso.com as follows:
 
-1.	Assign yourself permissions to the user's OneDrive for Business account. This can be done in the Office 365 admin center as described here.
+1.	Assign yourself permissions to the user's OneDrive for Business account. This can be done in the Microsoft 365 admin center as described here.
 
 2.  Install the required Microsoft PowerShell modules:
 

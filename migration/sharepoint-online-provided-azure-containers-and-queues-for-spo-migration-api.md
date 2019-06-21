@@ -1,16 +1,19 @@
 ---
 title: "SharePoint Online provided Azure containers and queues for SPO Migration API"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
 ms.date: 7/18/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
 ms.collection: 
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
+- SPMigration
+- M365-collaboration
 ms.custom: 
 ms.assetid: 742b5502-08e8-47f8-83c4-afb521725cb2
 

@@ -1,9 +1,10 @@
 ---
 title: "Export OneDrive for Business experience settings"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 ms.custom: 
@@ -28,7 +29,7 @@ An admin can export these lists by using [PowerShell Script](/powershell/scripti
 
 This is a sample script and can be adapted to meet your organization’s needs. For example, an admin can extract the information for user1@contoso.com by using the following procedure.
 
-1.	Assign yourself admin permissions to the user's OneDrive for Business account. This can be done [in the Office 365 admin center](/office365/admin/add-users/get-access-to-and-back-up-a-former-user-s-data).
+1.	Assign yourself admin permissions to the user's OneDrive for Business account. This can be done [in the Microsoft 365 admin center](/office365/admin/add-users/get-access-to-and-back-up-a-former-user-s-data).
 
 2.  Install the required Microsoft PowerShell modules:
 

@@ -1,9 +1,10 @@
 ---
 title: "Sync"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: one-drive
 localization_priority: Normal
@@ -19,8 +20,6 @@ To upload files to OneDrive, users can simply copy or move them to OneDrive in F
 Windows 10 devices come with the OneDrive sync client installed. Office 2016 and later installations also have the sync client installed.
 
 [Read the release notes and install the latest fully released versions](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0)
-
-[How the OneDrive sync client works (poster)](https://go.microsoft.com/fwlink/p/?LinkId=829044)
 
 [Invalid file names and file types in OneDrive, OneDrive for Business, and SharePoint](https://support.office.com/article/64883a5d-228e-48f5-b3d2-eb39e07630fa)
 

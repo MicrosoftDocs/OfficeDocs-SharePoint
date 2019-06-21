@@ -1,10 +1,11 @@
 ---
 title: "Plan hybrid profiles"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 9/12/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
@@ -13,6 +14,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_SharePoint_Hybrid_Top
 - Strat_SP_gtc
+- M365-collaboration
 ms.custom: 
 ms.assetid: ec40c4af-0344-43d3-97ac-5f91282db978
 description: "When you have both SharePoint Server and Office 365, by default users have a different profile in each location. This can lead to a confusing profile experience for your users. With hybrid profiles, user have a single profile in Office 365 where they can maintain all of their profile information."
@@ -56,7 +58,7 @@ For more information about the bulk update API, see [Introducing Bulk UPA Custom
 ## Working with Delve in SharePoint hybrid deployments
 <a name="MovingProfileData"> </a>
 
-If Delve is part of your Office 365 tenant, user profiles will be integrated with Delve, otherwise you'll have standard Office 365 profiles. If you haven't used Delve before, you'll want to [learn more about it](/article/what-is-office-delve-1315665a-c6af-4409-a28d-49f8916878ca?ui=en-US&rs=en-US&ad=US) and [how to administer it](/sharepoint/delve-for-office-365-admins). Delve user profiles contain the same properties as SharePoint Online profiles and can be imported in the same manner, as described above in [Moving custom profile properties to Office 365](plan-hybrid-profiles.md#MovingProfileData).
+If Delve is part of your Office 365 tenant, user profiles will be integrated with Delve, otherwise you'll have standard Office 365 profiles. If you haven't used Delve before, you'll want to [learn more about it](https://support.office.com/article/What-is-Office-Delve-1315665a-c6af-4409-a28d-49f8916878ca) and [how to administer it](/sharepoint/delve-for-office-365-admins). Delve user profiles contain the same properties as SharePoint Online profiles and can be imported in the same manner, as described above in [Moving custom profile properties to Office 365](plan-hybrid-profiles.md#MovingProfileData).
   
 ## Setting up hybrid profiles
 <a name="MovingProfileData"> </a>

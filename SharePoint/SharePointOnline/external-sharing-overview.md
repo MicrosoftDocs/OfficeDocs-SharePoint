@@ -1,9 +1,10 @@
 ---
 title: "External sharing overview"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 f1_keywords:
 - 'quickshare'
@@ -13,8 +14,10 @@ f1_keywords:
 - 'O365E_EnableSPExtlUser'
 ms.service: sharepoint-online
 localization_priority: Priority
-ms.collection: Strat_OD_share
 ms.custom: Adm_O365
+ms.collection:  
+- Strat_OD_share
+- M365-collaboration
 search.appverid:
 - SPO160
 - MOE150
@@ -30,99 +33,110 @@ description: "Learn about the external sharing options in SharePoint Online."
 
 # External sharing overview
 
-If your organization performs work that involves sharing documents or collaborating directly with vendors, clients, or customers, then you can use the external sharing features of SharePoint Online to share content with people outside your organization. Or, if this is not the case, you may want to limit the use of external sharing in your organization. In this article, we look at the SharePoint Online sharing options and how to plan for them.
+The external sharing features of SharePoint Online let users in your organization share content with people outside the organization (such as partners, vendors, clients, or customers). Planning for external sharing should be included as part of your overall permissions planning for SharePoint Online. This article describes what happens when users share, depending on what they're sharing and with whom. 
   
 (If you want to get straight to setting up sharing, see [Turn external sharing on or off for SharePoint Online](turn-external-sharing-on-or-off.md). If you're trying to share a file or folder, see [Share OneDrive files and folders](https://support.office.com/article/9fcc2f7d-de0c-4cec-93b0-a82024800c07) or [Share SharePoint files or folders in Office 365](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c).)
   
-Planning for external sharing should be included as part of your overall permissions planning for SharePoint Online.
+> [!NOTE]
+> External sharing is turned on by default for your entire SharePoint Online environment and the sites in it. You may want to [turn it off globally](turn-external-sharing-on-or-off.md) before people start using sites or until you know exactly how you want to use the feature. 
   
-Note that external sharing is turned on by default for your entire SharePoint Online environment and the site collections in it. You may want to [turn it off globally](turn-external-sharing-on-or-off.md) before people start using sites or until you know exactly how you want to use the feature. 
-  
-## What are the external sharing features of SharePoint Online?
+## How the external sharing settings work
 
-SharePoint Online has both global (organization-wide) and site collection settings for external sharing. The organization-level settings override any settings at the site collection level, and also affect OneDrive.
+SharePoint Online has external sharing settings at both the organization level and the site level (previously called the "site collection" level). To allow external sharing on any site, you must allow it at the organization level. You can then restrict external sharing for other sites. If a site's external sharing option and the organization-level sharing option don't match, the most restrictive value will always be applied.
   
-For your organization and each individual site collection, you can choose from the following basic sharing options:
-  
-- No external sharing - sites and documents can only be shared with internal users in your Office 365 subscription.
-    
-- Sharing only with external users in your directory - sites, folders, and documents can only be shared with external users who are already in your Office 365 user directory. For example, users who have previously accepted a sharing invitation or users who you have imported from another Office 365 or Azure Active Directory tenant.
-    
-- Sharing with authenticated external users - sites can be shared with external users who have a Microsoft account or a work or school account from another Office 365 subscription or an Azure Active Directory subscription. When folders or documents are shared, the user is not required to log in using a Microsoft Account or a Work or School Account - they are sent a one-time code that they can use to verify their identity.
-    
-- Sharing with anonymous users - documents and folders (but not sites) can be shared via an anonymous link where anyone with the link can view or edit the document, or upload to the folder.
-    
-The list above is in the order of most to least restrictive. Whichever option you choose, the more restrictive functionality is still available to you. For example, if you choose to allow sharing with anonymous users, you can still share with authenticated external users and users already in your directory, including internal users.
-  
- **Sharing and security**
-  
-If you have confidential information that should never be shared with external users, consider having one or more site collections where external sharing is turned off where you keep your confidential information. Create additional site collections as needed to use for external sharing. This helps you to manage security risk by preventing external access to sensitive information.
-  
-## What is an external user?
+Whichever option you choose at the organization or site level, the more restrictive functionality is still available. For example, if you choose to allow sharing using "Anyone" links (previously called "shareable" links or "anonymous access" links), users can still share with guests who sign in, and with internal users. 
 
-An external user is someone from outside your Office 365 subscription to whom you have given access to one or more sites, files, or folders. There are two types of external users:
+> [!IMPORTANT]
+> Even if your organization-level setting allows external sharing, not all new sites allow it by default. The default sharing setting for Office 365 group-connected team sites is "New and existing guests." The default for communication sites and classic sites is "Only people in your organization." 
   
- **Authenticated users with Microsoft accounts**
+**Security and privacy**
   
-You can share sites, files, and folders with users who have a Microsoft Account or a work or school account from another Office 365 subscription in much the same way that you share sites and documents with your internal users. Permissions and groups work the same for authenticated external users with Microsoft accounts as they do for internal users.
-  
-Because external users with Microsoft accounts do not have a license to your Office 365 subscription, they are limited to basic collaboration tasks:
-  
-- They can perform tasks on a site consistent with the permission level that they are assigned. For example, if you add an external user to the Members group, they will have Edit permissions and they will be able to add, edit and delete lists; they will also be able to view, add, update and delete list items and documents.
-    
-- They can use Office Online for viewing and editing documents. If your plan includes Office Professional Plus, they cannot install the desktop version of Office on their own computers unless you assign them a license. 
-    
-- They will be able to see other types of content on sites, depending on the permissions you give them. For example, they can navigate to different subsites within the site collection to which they were invited. They will also be able to do things like view site feeds.
-    
-If your authenticated external users need greater capability such as OneDrive for Business storage or creating a Microsoft Flow, you must assign them an appropriate Office 365 license. To do this, go to the Active users page of the Microsoft 365 admin center, select the external user, click **More**, and then click **Edit product licenses**.
+If you have confidential information that should never be shared externally, we recommend storing the information in a site that has external sharing turned off. Create additional sites as needed to use for external sharing. This helps you to manage security risk by preventing external access to sensitive information.
 
- **Authenticated users without Microsoft accounts**
+> [!NOTE]
+> To limit *internal* sharing of contents on a site, you can prevent site members from sharing, and enable access requests. For info, see [Set up and manage access requests](https://support.office.com/article/94B26E0B-2822-49D4-929A-8455698654B3). <br>When users share a folder with multiple guests, the guests will be able to see each other's names in the Manage Access panel for the folder (and any items within it).
+  
+## Sharing Office 365 group-connected team sites
 
-You can share files and folders with anyone who has an email address. If the person you're sharing with doesn't have a Microsoft Account or a work or school account, they will be sent a one-time access code for authentication each time they access the file or folder. You can't share sites with users unless they have a Microsoft account.
-  
- **Anonymous users**
-  
-Anonymous users are users who have a shareable link to a folder or document and can view or edit the document or upload to the folder (depending on the type of link) without having to log in with a username or password. Anonymous links can be freely passed around between users and are valid until you disable them or they expire (if you've set an expiration date).
-  
-Anonymous users cannot access sites, and you cannot assign them licenses. They can only view or edit the specific document or folder for which they have an anonymous access link. You cannot verify the identity of anonymous users, but their IP address is recorded in audit logs when they access or edit shared content.
-  
-## What happens when I share a site or document?
+When you or your users create Office 365 groups (for example in Outlook, or by creating a team in Microsoft Teams), a SharePoint team site is created. Admins and users can also create team sites in SharePoint, which creates an Office 365 group. For group-connected team sites, the group owners are added as site owners, and the group members are added as site members. In most cases, you'll want to share these sites by adding people to the Office 365 group. However, you can share only the site. 
 
-When you share a site, folder, or document, what happens behind the scenes depends on whether you choose to share with authenticated external users or anonymous users.
+> [!IMPORTANT]
+> It's important that all group members have permission to access the team site. If you remove the group's permission, many collaboration tasks (such as sharing files in Teams chats) won't work. Only add guests to the group if you want them to be able to access the site. For info about guest access to Office 365 groups, see [Manage guest access in Groups](/office365/admin/create-groups/manage-guest-access-in-groups).  
+
+## What happens when users share
+
+When users share with people outside the organization, an invitation is sent to the person in email, which contains a link to the shared item.
+
+![A sharing invitation in email](media/sharing-invitation.png)
   
- **Sharing sites with authenticated external users**
+ **Recipients who sign in**
   
-When you share a site with an authenticated external user, an invitation is sent to them via email which contains a link to the site or document. When they click the link, they are asked to log in using the username and password of their Microsoft account or their work or school account. When they log in, they are added to the users list in your Office 365 subscription (you'll see them listed with **#EXT#** in their user name) and given access to the site or document. 
+When users share *sites*, recipients will be prompted to sign in with:
+- A Microsoft account
+- A work or school account in Azure AD from another organization
+
+![Sign-in screen](media/sign-in-msa-org.png)
+
+When users share *files and folders*, recipients will also be prompted to sign in if they have:
+- A Microsoft account
+
+These recipients will typically be added to your directory as guests, and then permissions and groups work the same for these guests as they do for internal users.
   
-Once they are in the user list in your Office 365 subscription, you can grant them access to other sites or documents without sending them additional invitations. (You may need to send them a link to the site or document so they can find it.) You can also assign them an Office 365 license if you want.
+Because these guests do not have a license in your organization, they are limited to basic collaboration tasks:
   
-You can discontinue sharing with an authenticated external user by removing their permissions from the site, or by removing them from the user list in Office 365.
+- They can use Office Online for viewing and editing documents. If your plan includes Office Professional Plus, they can't install the desktop version of Office on their own computers unless you assign them a license. 
+
+- They can perform tasks on a site based on the permission level that they've been given. For example, if you add a guest as a site member, they will have Edit permissions and they will be able to add, edit and delete lists; they will also be able to view, add, update and delete list items and files.
+    
+- They will be able to see other types of content on sites, depending on the permissions they've been given. For example, they can navigate to different subsites within a shared site. They will also be able to do things like view site feeds.
+    
+If your authenticated guests need greater capability such as OneDrive storage or creating a Microsoft Flow, you must assign them an appropriate license. To do this, sign in to the [Microsoft 365 admin center](https://admin.microsoft.com) as a global admin, make sure the Preview is off, go to the **Active users** page, select the guest, click **More**, and then click **Edit product licenses**.
+
+ **Recipients who provide a verification code**
+
+When users share files or folders, recipients will be asked to enter a verification code if they have:
+
+- A work or school account in Azure AD from another organization
+- An email address that isn't a Microsoft account or a work or school account in Azure AD
+
+![Enter Verification Code screen](media/verification-code.png)
+
+If the recipient has a work or school account, they only need to enter the code the first time. Then they will be added as a guest and can sign in with their organization's user name and password.
+
+If the recipient doesn't have a work or school account, they need to use a code each time they access the file or folder, and they are not added to your directory.
+
+> [!NOTE]
+> Sites can't be shared with people unless they have a Microsoft account or a work or school account in Azure AD.
   
- **Sharing files and folders with authenticated external users**
+ **Recipients who don't need to authenticate**
   
-When you share a file or folder with an external user who has their own Office 365 email address (a work or school account), an email is sent to them which contains a link to the file or folder. The first time they access the file or folder using the link, they are sent a time-sensitive code via email that they can use to verify their identity. They must enter the code to access the file or folder. Once they have accessed the file or folder for the first time, these external users are added as guests to your Office 365 directory and thereafter they can access the file using thier work or school account.
+Anyone with the link (inside or outside your organization) can access files and folders without having to sign in or provide a code. These links can be freely passed around and are valid until the link is deleted or expires (if you've set an expiration date). You cannot verify the identity of the people using these links, but their IP address is recorded in audit logs when they access or edit shared content.
   
-When you share a file or folder with an authenticated external user who does not have a work or school account, an email is sent to them which contains a link to the file or folder. Each time they access the file or folder using the link, they are sent a time-sensitive code via email that they can use to verify their identity. They must enter the code to access the file or folder. These external users are not added to your Office 365 directory.
+![Sharing a folder by using an "Anyone" link](media/anyone-link.png)
+
+People who access files and folders anonymously through "Anyone" links aren't added to your organization's directory, and you can't assign them licenses. They also can't access sites anonymously. They can only view or edit the specific file or folder for which they have an "Anyone" link. 
   
-You can [discontinue sharing with an authenticated external user](https://support.office.com/article/0a36470f-d7fe-40a0-bd74-0ac6c1e13323) by deleting the sharing link that was sent to them. 
+## Stopping sharing
+
+You can stop sharing with guests by removing their permissions from the shared item, or by removing them as a guest in your directory.
   
- **Sharing with anonymous users**
-  
-When you share with anonymous users, you can allow them to edit or to view a document or upload to a folder. View and edit links are created separately and can be set to expire at a specified time. Once you have created these links, they can be reused and passed around freely. Anyone with the link can access the document.
-  
-Anonymous users are not added to the user list in Office 365. You can discontinue sharing with them by going to the document or folder that you shared and deleting the anonymous link.
+You can stop sharing with people who have an "Anyone" link by going to the file or folder that you shared and deleting the link.
+
+ [Learn how to stop sharing an item](https://support.office.com/article/0a36470f-d7fe-40a0-bd74-0ac6c1e13323) 
   
 ## Collaborating with external business partners
 
-If you have business partners or vendors with whom you need to collaborate or share documents, consider setting up a SharePoint Online extranet site. An extranet site is a dedicate site collection that you use for business-to-business collaboration with a particular partner or vendor. You can lock this site down so that only site owners can invite external users and only external users from specific domains can be invited.
-  
-SharePoint Online extranet sites are very easy to set up and much easier and less expensive to maintain than on-premises extranet sites. For details, see [Use Office 365 SharePoint Online as a business-to-business (B2B) extranet solution](create-b2b-extranet.md).
+If you have business partners or vendors with whom you need to collaborate or share documents, consider setting up a SharePoint Online extranet site. An extranet site is a dedicated site where you limit external sharing to guests on specific domains only. For details, see [Use Office 365 SharePoint Online as a business-to-business (B2B) extranet solution](create-b2b-extranet.md).
+
+## Need more help?
+
+[!INCLUDE[discussionforums.md](includes/discussionforums.md)]
   
 ## See also
 
-[Coaching your guest users through the External Sharing Experience](https://techcommunity.microsoft.com/t5/SharePoint-Support-Blog/Coaching-your-guest-users-through-the-External-Sharing/ba-p/182739)
+[Coaching your guests through the external sharing experience](https://techcommunity.microsoft.com/t5/SharePoint-Support-Blog/Coaching-your-guest-users-through-the-External-Sharing/ba-p/182739)
   
 [Set up and manage access requests](https://support.office.com/article/94b26e0b-2822-49d4-929a-8455698654b3)
   
-[Searching for site content shared with external users](https://go.microsoft.com/fwlink/?LinkId=620778)
+[Searching for site content shared externally](/office365/securitycompliance/keyword-queries-and-search-conditions)
 

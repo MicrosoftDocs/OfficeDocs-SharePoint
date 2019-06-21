@@ -1,38 +1,41 @@
 ---
 title: "Get started with the new SharePoint admin center"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: overview
 ms.service: sharepoint-online
 localization_priority: Normal
-ms.collection: Strat_SP_admin
+ms.collection:  
+- Strat_SP_admin
+- M365-collaboration
 search.appverid:
 - SPO160
-- BSA160
 - MET150
+- BSA160
 ms.assetid: 0bb250bb-1d3c-43f8-b751-b322522ccf33
-description: "Learn about the cards on the Home page of the new SharePoint admin center (preview)"
+description: "Learn about the cards on the Home page of the new SharePoint admin center"
 ---
 
 # Get started with the new SharePoint admin center
 
-As a global or SharePoint admin in Office 365, you can try the new SharePoint admin center (preview). To access it, go to the classic SharePoint admin center and click **Try it now** in the upper right. 
+As a global or SharePoint admin in Office 365, you can try the new SharePoint admin center. To access it, go to the classic SharePoint admin center and click **Try it now** in the upper right. 
   
 > [!NOTE]
 > Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Office 365](/office365/admin/manage/release-options-in-office-365). This means that you may not yet see some features or they may look different than what is described in this article. 
   
-## Schedule for releasing the new SharePoint admin center
+## Go to the classic experience
 
-The new SharePoint admin center (preview) is now available worldwide to customers who have selected the standard release option. The classic SharePoint admin center will continue to be the default for several weeks. You'll need to switch back to it to perform some tasks. You'll be able to continue using the classic SharePoint admin center for several months before we begin retiring it.
+The new SharePoint admin center is now available worldwide to customers who have selected the standard release option. To perform some tasks, you'll still need to use the classic experience.
   
 To switch back to the classic SharePoint admin center:
   
-- In the left pane of the new SharePoint admin center, click **Classic SharePoint admin center**.
+- In the left pane of the new SharePoint admin center, select **Classic SharePoint admin center**.
     
 > [!IMPORTANT]
-> If a setting exists in both the new and classic SharePoint admin centers, and possibly other admin centers such as the OneDrive and Office 365 admin centers, when you change it in one place, the other admin centers will reflect the change. If you have multiple admins in your organization, make sure you communicate the changes you're making. 
+> If a setting exists in both the new and classic SharePoint admin centers, and possibly other admin centers such as the OneDrive and Microsoft 365 admin centers, when you change it in one place, the other admin centers will reflect the change. If you have multiple admins in your organization, make sure you communicate the changes you're making. 
   
 Help us improve the new SharePoint admin center! Tell us what you like or don't like, send a suggestion, or file a bug. To send us feedback, click **Feedback** in the lower-right corner. 
   

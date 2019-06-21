@@ -1,13 +1,16 @@
 ---
 title: "Network utilization planning for the OneDrive sync client"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 06/29/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.service: one-drive
 localization_priority: Normal
+ms.collection: 
+- Strat_OD_admin
+- M365-collaboration
 search.appverid:
 - ODB160
 - ODB150
@@ -68,6 +71,8 @@ After the initial sync is complete, the network usage will decrease and then lev
   
 > [!NOTE]
 > Network usage varies depending on file types most frequently synced. When users change Office files, only the changes are uploaded or downloaded and not the whole file. For other types of files, the whole file is uploaded or downloaded. You should expect traffic to be higher during regular work hours when users are online and working on files. 
+
+A spike in upload traffic is expected if you deploy the Known Folder Move setting in your organization. If your organization is large and your users have a lot of files in their known folders, make sure you roll out the Group Policy objects slowly to minimize the network impact of uploading files.
   
 ## Control sync throughput
 <a name="ControlSyncThroughput"> </a>
@@ -118,11 +123,11 @@ You can also use policies included with the OneDrive sync client to control netw
   
 For info about these policies, see:
   
-[Set the maximum upload bandwidth that OneDrive.exe uses](use-group-policy.md#UploadBandwidthLimit)
+[Limit the sync client upload speed to a fixed rate](use-group-policy.md#UploadBandwidthLimit)
   
-[Set the maximum download bandwidth that OneDrive.exe uses](use-group-policy.md#DownloadBandwidthLimit)
+[Limit the sync client download speed to a fixed rate](use-group-policy.md#DownloadBandwidthLimit)
   
-[Set the maximum percentage of upload bandwidth that OneDrive.exe uses](use-group-policy.md#AutomaticUploadBandwidthPercentage)
+[Limit the sync client upload rate to a percentage of throughput](use-group-policy.md#AutomaticUploadBandwidthPercentage)
   
 ## See also
 <a name="ControlSyncThroughput"> </a>

@@ -1,10 +1,11 @@
 ---
 title: "Overview of the upgrade process to SharePoint Server 2016"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
 ms.date: 10/3/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
@@ -26,6 +27,9 @@ SharePoint Server 2016 supports an upgrade from SharePoint Server 2013 with the 
   
 > [!NOTE]
 >  All database must be upgraded to version 15.0.4481.1005 or higher, otherwise upgrade to SharePoint Server 2016 will be blocked. 
+
+> [TIP]
+> As a best practice, we recommend that you apply the latest Cumulative Update to SharePoint 2013 prior to upgrading to SharePoint 2016.
   
 After you've configured a new SharePoint Server 2016 environment, you can copy the content and service application databases from the SharePoint Server 2013 with the March 2013 Cumulative Update environment to the SharePoint Server 2016 environment. You use a backup and restore process to copy the database. You can also choose to set the databases to read-only in the SharePoint Server 2013 with the March 2013 Cumulative Update environment so that users can continue to access their information, but not change it.
   

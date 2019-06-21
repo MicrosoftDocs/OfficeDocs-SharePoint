@@ -1,10 +1,10 @@
 ---
 title: "View all site collections in SharePoint Server"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 3/12/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -60,7 +60,7 @@ Refer to the following table in step 3.
     
 3. At the PowerShell command prompt, type the following command, and then press ENTER:
     
-   ```
+   ```powershell
    Get-SPWebApplication | Get-SPSite -Limit All | Format-Table -Property URL,ContentDatabase
    ```
 

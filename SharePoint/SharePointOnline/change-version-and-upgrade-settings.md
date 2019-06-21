@@ -1,13 +1,17 @@
 ---
 title: "Change site collection version and upgrade settings"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
 ms.date: 6/29/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: get-started-article
 ms.service: sharepoint-online
 localization_priority: Normal
+ms.collection:  
+- Strat_SP_admin
+- M365-collaboration
 search.appverid:
 - SPO160
 - MET150
@@ -38,36 +42,38 @@ You can choose whether to allow versions in your subscription and decide how use
    
  **To configure version and upgrade settings for all site collections**
   
-1. Sign in to Office 365 as a global admin or SharePoint admin.
+1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+    > [!NOTE]
+    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-3. In the left pane, choose **Admin centers** \> **SharePoint**.
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
     
-4. Choose **settings**.
+3. Choose **settings**.
     
-5. In **Global Experience Version Settings**, select the desired option.
+4. In **Global Experience Version Settings**, select the desired option.
     
-6. Select **OK**.
+5. Select **OK**.
     
     > [!NOTE]
     > Options appear dimmed (unavailable) if this is a new subscription or if the root (organization) level of an existing subscription hasn't been upgraded yet. 
   
  **To enable or disable upgrades on select site collections**
   
-1. Sign in to Office 365 as a global admin or SharePoint admin.
+1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+    > [!NOTE]
+    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-3. In the left pane, choose **Admin centers** \> **SharePoint**.
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
     
-4. Go to **site collections** and select the one you want. 
+3. Select **site collections** in the left pane, and select the site you want. 
     
-5. On the ribbon, select **Upgrade** \> **Site collection upgrade settings**. 
+4. On the ribbon, select **Upgrade** \> **Site collection upgrade settings**. 
     
-6. For **Allow Upgrade**, choose **Yes** or **No**.
+5. For **Allow Upgrade**, choose **Yes** or **No**.
     
-7. Select **Save**.
+6. Select **Save**.
     
 ## See also
 

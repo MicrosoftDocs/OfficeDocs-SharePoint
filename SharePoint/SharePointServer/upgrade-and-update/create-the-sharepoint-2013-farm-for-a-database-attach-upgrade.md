@@ -1,10 +1,11 @@
 ---
 title: "Create the SharePoint 2013 farm for a database attach upgrade"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
 ms.date: 2/20/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal

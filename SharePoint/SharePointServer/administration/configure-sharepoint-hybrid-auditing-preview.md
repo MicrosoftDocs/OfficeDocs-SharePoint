@@ -1,10 +1,11 @@
 ---
 title: "Configure SharePoint Hybrid Auditing in SharePoint 2016 (Preview)"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
 ms.date: 9/11/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -23,7 +24,7 @@ Learn about how SharePoint 2016 Auditing generates reports for on-premises serve
   
 ## Microsoft SharePoint Auditing (Preview)
 
-Microsoft SharePoint Hybrid Auditing is a new hybrid feature for SharePoint Server 2016 to help SharePoint administrators have visibility to user activities in their SharePoint environments. With this feature, SharePoint 2016 on-premise user activity logs can be uploaded to Office 365 and useful reports are generated. Configuration is simple and you can start viewing regularly updated reports in the Office 365 admin center.
+Microsoft SharePoint Hybrid Auditing is a new hybrid feature for SharePoint Server 2016 to help SharePoint administrators have visibility to user activities in their SharePoint environments. With this feature, SharePoint 2016 on-premise user activity logs can be uploaded to Office 365 and useful reports are generated. Configuration is simple and you can start viewing regularly updated reports in the Microsoft 365 admin center.
   
 SharePoint Hybrid Auditing is currently in **Preview** mode: 
   
@@ -66,42 +67,37 @@ Please read [Hybrid picker in the SharePoint Online admin center](/sharepoint/hy
 
 1. Log in to your SharePoint Server 2016 on-premises as a Farm administrator.
     
-2. Browse to your O365 online tenant admin website and login with your tenant admin username and password.
+2. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
-3. Select the app launcher icon  in the upper left corner and choose **Admin**. 
+    > [!NOTE]
+    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-4. In the Office 365 Admin center, scroll down to Admin Centers select **Compliance**. 
+3. In the left pane, under **Admin centers**, select **Security &amp; Compliance**. (You might need to select **Show all** to see the list of admin centers.) 
+        
+4. In the left pane, select **Search &amp; investigation** \> **Audit log search**. 
     
-5. From the navigation pane, select **Search &amp; investigation**, and then click **Audit log search**. 
-    
-6. Under Audit log search, select **Start recording user and admin activities** link (if you have already performed this action, the link will not show up). 
-    
-7. Click **Turn on**. 
-    
-     ![Start recording user and admin activities](../media/7c57f24c-4e0a-4a23-88c6-e89588661966.png)
+5. If the **Turn on auditing** button appears, select it. 
   
 ## Part II: Turn On SharePoint Hybrid Auditing
 
 Hybrid auditing uses the Hybrid Picker for configuration. Follow the steps in [Hybrid picker in the SharePoint Online admin center](https://go.microsoft.com/fwlink/?LinkID=537692).
   
 ## Part III: Check Audit Log Report
-
-1. In the Office 365 Admin center, select **Compliance**. 
     
-2. In the Security &amp; Compliance Center, click **Search &amp; Investigation**. 
+1. In the Security &amp; Compliance Center, select **Search &amp; investigation**. 
     
-3. Click **Audit Log Search**. 
+2. Select **Audit log search**. 
     
-4. You can now start searching for on-premises auditing events in this same search UX alongside your Office365 auditing events.
+3. Use this page to search for on-premises auditing events alongside your Office 365 auditing events.
     
 > [!NOTE]
->  You may need to wait approximately 30 minutes before on-premise auditing events show up in this display. >  While SharePoint Hybrid Auditing is in preview mode, it is possible to have some missing auditing events. >  Only a subset of the file activities is currently being uploaded from on-premises to Office 365. 
+>  You may need to wait approximately 30 minutes before on-premises auditing events show up in this display. <br>  While SharePoint Hybrid Auditing is in preview mode, it is possible to have some missing auditing events. <br>  Only a subset of the file activities is currently being uploaded from on-premises to Office 365. 
   
-To learn more about O365 Auditing log search and how to use filtering to get tailored results, see [Search the audit log in the Office 365 Security &amp; Compliance Center](/office365/securitycompliance/search-the-audit-log-in-security-and-compliance).
+To learn more about Office 365 Auditing log search and how to use filtering to get tailored results, see [Search the audit log in the Office 365 Security &amp; Compliance Center](/office365/securitycompliance/search-the-audit-log-in-security-and-compliance).
   
 ## How to turn off SharePoint Hybrid Auditing
 
-The SharePoint Hybrid Auditing feature uses the **Microsoft SharePoint Insights** service to upload activity logs to the O365. To discontinue uploading the logs to Office 365 you must stop the Microsoft SharePoint Insights service. 
+The SharePoint Hybrid Auditing feature uses the **Microsoft SharePoint Insights** service to upload activity logs to Office 365. To discontinue uploading the logs to Office 365 you must stop the Microsoft SharePoint Insights service. 
   
 Make sure you have SharePoint OnPrem Farm Administrator privilege and Local Administrator privilege in SharePoint OnPrem VM.
   
@@ -113,7 +109,7 @@ Select one of the two following ways to stop the service in SharePoint 2016.
     
 2. Run the following cmdlet:
     
-  ```
+  ```PowerShell
   Add-PSSnapin Microsoft.SharePoint.PowerShell
   (Get-SPService "Microsoft SharePoint Insights").Instances | Stop-SPServiceInstance 
   ```
@@ -142,7 +138,7 @@ Microsoft SharePoint Insights service must be restarted after an in-place-upgrad
     
 2. Run the following:
     
-  ```
+  ```PowerShell
   Add-PSSnapin Microsoft.SharePoint.PowerShell 
   Stop-SPService -Identity "Microsoft SharePoint Insights" -IncludeCustomServerRole 
   Start-SPService -Identity "Microsoft SharePoint Insights" -IncludeCustomServerRole 

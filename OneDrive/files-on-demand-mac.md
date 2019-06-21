@@ -1,60 +1,47 @@
 ---
-title: "Configure Files On-Demand for Mac"
+title: "Set Files On-Demand states"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: one-drive
 localization_priority: Normal
-ms.collection: Strat_OD_sync
+ms.collection: 
+- Strat_OD_admin
+- M365-collaboration
 search.appverid:
 - ODB160
 - OFF160
 - ODB150
 - MET150
 ms.assetid: 3eff17b9-c709-462f-946c-17719af68aca
-description: "Learn how to configure Files On-Demand for Mac."
+description: "Learn how to query and set file and folder states when you use Files On-Demand."
 ---
 
-# Configure Files On-Demand for Mac
+# Query and set Files On-Demand states
 
-This article describes the preferences and scriptable commands you can use to set up OneDrive Files On-Demand for Mac. For more info about using Files On-Demand on a Mac, see [Try Files On-Demand for Mac](https://support.office.com/article/529f6d53-e572-4922-a585-e7a318c135f0).
+With OneDrive Files On-Demand, files can be in one of three states. Each of these states corresponds to a file attribute state.
+To query the current state of a file or folder, use the following commands:
 
-> [!NOTE]
-> The following configurations are subject to change. 
-
-## Preferences  
-
-PList Location 
-- ~/Library/Preferences/com.microsoft.OneDrive.plist
-
-Domain
-- com.microsoft.OneDrive
-
-|**Setting**|**Description**|**Parameters**|**Example Plist Entry**|
-|:-----|:-----|:-----|:-----|
-|FilesOnDemandPolicy  <br/> |This setting determines whether Files On-Demand should be enabled based on the OneDrive controlled rollout or the FilesOnDemandEnabled setting.  <br/> |FilesOnDemandPolicy (Bool): When set to true, Files On-Demand will be enabled or disabled based on FilesOnDemandEnabled.  <br/> |\<key\>FilesOnDemandPolicy\</key\>  <br/> \<(Bool)/\>  <br/> |
-|FilesOnDemandEnabled  <br/> |This setting determines whether Files On-Demand should be enabled.    <br/> |FilesOnDemandEnabled (Bool): When set to true, Files On-Demand will be enabled or disabled.  <br/> |\<key\>FilesOnDemandEnabled\</key\>  <br/> \<(Bool)/\>  <br/> |
-|IsHydrationToastAllowed  <br/> |This setting determines if a toast should appear when an application causes file contents to be downloaded.   <br/> |IsHydrationToastAllowed (Bool): When set to false, toasts will not appear when applications trigger the download of file contents.  <br/> |\<key\>IsHydrationToastAllowed\</key\>  <br/> \<(Bool)/\>  <br/> |
-|HydrationDisallowedApps  <br/> |Applications will not be allowed to trigger the download of cloud-only files. You can use this setting to lock down applications that don't work correctly with your deployment of Files On-Demand.   <br/> |HydrationDisallowedApps (String): Json in the following format <br/>'[{"ApplicationId":"appId","MaxBundleVersion":"1.1","MaxBuildVersion":"1.0"}]'<br/> AppID can be either the BSD process name or the bundle display name. <br/> MaxBuildVersion denotes the maximum build version of the application that will be blocked <br/> MaxBundleVersion denotes the maximum bundle version of the application that will be blocked  <br/> |\<key\>HydrationDisallowedApps \</key\>  <br/> \<string> [{"ApplicationId":"appId","MaxBundleVersion":"1.1","MaxBuildVersion":"1.0"}, {"ApplicationId":"appId2","MaxBundleVersion":"3.2","MaxBuildVersion":"2.0"},]] 
-</string>   <br/> |
+- Windows: attrib <Path to file or folder>
+- Mac: /Applications/OneDrive.App/Contents/MacOS/OneDrive /getpin <Path to file or folder>
 
 ## Scriptable commands
 
-To query and set the file and folder status, use:
+Use the following commands to set file and folder states.
  
-Query file status 
+|**Files On-Demand state**|**File attribute state**|**Windows command**|**Mac command**|
+|:-----|:-----|:-----|:-----|
+|Always available	<br/> |Pinned	<br/> |attrib +p <path\><br/> |	/Applications/OneDrive.App/Contents/MacOS/OneDrive /setpin <path\><br/> |
+|Locally available 	<br/> |Clearpin	<br/> |attrib -p <path\>	<br/> |/Applications/OneDrive.App/Contents/MacOS/OneDrive /clearpin <path\>|
+|Online-only	<br/> |Unpinned	<br/> |attrib +u <path\><br/> |	/Applications/OneDrive.App/Contents/MacOS/OneDrive /unpin <path\>|
 
-/Applications/OneDrive.app/Contents/MacOS/OneDrive /getpin <path> 
+ > [!NOTE]
+> To set the file attribute state for all items within a folder on Mac, add the /r parameter.<br>Pinning an online-only file makes the sync client download the file contents, and unpinning a downloaded file frees up space on the device by not storing the file contents locally.<br>
+To set an online-only file or folder to "locally available," you must first set it to "always available."
  
-Set file status  
-
-/Applications/OneDrive.app/Contents/MacOS/OneDrive /pin <path> 
-/Applications/OneDrive.app/Contents/MacOS/OneDrive /unpin <path> 
-/Applications/OneDrive.app/Contents/MacOS/OneDrive /clearpin <path> 
-
-(where "pin" sets the file to always available on the device, "unpin" to locally available, and "clearpin" to online-only)
- 
-For folders, add the /r parameter to set the status for all items within the folder.
+<br/>Meet [Windows and OneDrive sync client requirements](https://docs.microsoft.com/en-us/OneDrive/per-machine-installation) and still can't see Files On-Demand option available at "Settings"? Make sure service "Windows Cloud Files Filter Driver" start type is set to 2 (AUTO_START). Enabling this feature sets the following registry key value to 2.
+[HKLM\SYSTEM\CurrentControlSet\Services\CldFlt]"Start"="dword:00000002"
 

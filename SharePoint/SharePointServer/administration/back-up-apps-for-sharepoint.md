@@ -1,9 +1,10 @@
 ---
 title: "Back up apps for SharePoint in SharePoint Server"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -85,7 +86,7 @@ You may have multiple site collections that host apps for SharePoint in your env
     
 3. At the PowerShell command prompt, type the following command:
     
-   ```
+   ```powershell
    Backup-SPSite -Identity <SiteCollectionGUIDorURL> -Path <BackupFile> [-Force] [-NoSiteLock] [-UseSqlSnapshot] [-Verbose]
    ```
 
@@ -97,7 +98,7 @@ You may have multiple site collections that host apps for SharePoint in your env
     
     If you want to overwrite a previously used backup file, use the  `Force` parameter. You can use the  `NoSiteLock` parameter to keep the read-only lock from being set on the site collection while it is being backed up. However, using this parameter can enable users to change the site collection while it is being backed up and could lead to possible data corruption during backup. To display the site collection GUID or URL at the PowerShell command prompt, type the following command: 
     
-   ```
+   ```powershell
    Get-SPSite | format-list -property id,url
    ```
 

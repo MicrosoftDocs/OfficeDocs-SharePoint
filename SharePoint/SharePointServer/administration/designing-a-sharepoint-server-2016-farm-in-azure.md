@@ -1,10 +1,11 @@
 ---
 title: "Designing a SharePoint Server 2016 farm in Azure"
+ms.reviewer: 
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 10/19/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -57,7 +58,7 @@ Microsoft supports the following SharePoint Server 2016 deployment scenarios on 
     
 Production farms running SharePoint 2013 are also supported. SharePoint 2010 is no longer in mainstream support, however it can be installed on Azure VMs for testing and validation of migration scenarios.
   
-As with other Microsoft workloads, licensing is handled with Licensing Mobility through Software Assurance. For more information, see [Licensing Microsoft server products for use in virtual environments](http://aka.ms/LicenseServerVirt) and [License Mobility through Software Assurance](http://aka.ms/LicenseMobilityThroughSA).
+As with other Microsoft workloads, licensing is handled with Licensing Mobility through Software Assurance. For more information, see [Licensing Microsoft server products for use in virtual environments](http://download.microsoft.com/download/3/d/4/3d42bdc2-6725-4b29-b75a-a5b04179958b/microsoftservervirtualization_licensemobility_vlbrief.pdf).
   
 ## The design process for SharePoint Server 2016 farms in Azure
 

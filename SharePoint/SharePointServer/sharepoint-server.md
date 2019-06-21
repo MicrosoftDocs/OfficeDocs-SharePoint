@@ -1,10 +1,11 @@
 ---
 title: "SharePoint Server"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
 layout: LandingPage
-ms.audience: ITPro
+audience: ITPro
 ms.topic: landing-page
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -141,7 +142,7 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server 2016 and 201
                     <div class="cardText">
                         <h3>Learn about SharePoint</h3>
                         <p><a href="https://products.office.com/en-us/sharepoint/collaboration">What is SharePoint?</a></p>
-                        <p><a href="https://www.youtube.com/watch?v=Bz4kdOiJrpE">Discover SharePoint Server 2016: Feature Pack 2 & Beyond</a></p>
+                        <p><a href="https://www.youtube.com/watch?v=igkJVtG6eus">SharePoint Server 2019 overview</a></p>
                         <p><a href="https://techcommunity.microsoft.com/t5/SharePoint-Blog/bg-p/SPBlog">SharePoint blog</a></p>
                     </div>
                 </div>
@@ -183,12 +184,12 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server 2016 and 201
                 <div class="card">
                     <div class="cardText">
                         <h3>Install</h3>
-                        <p>SharePoint Server 2016 & 2019
-                        <p> - <a href="/SharePoint/install/install-sharepoint-server-2016-across-multiple-servers">Large scale farms</a></p>
-                        <p> - <a href="/SharePoint/install/install-sharepoint-server-2016-on-one-server">Small scale farms</a></p>
+                        <p>SharePoint Server 2016 and 2019
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/SharePoint/install/install-sharepoint-server-2016-across-multiple-servers">Large scale farms</a></p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/SharePoint/install/install-sharepoint-server-2016-on-one-server">Small scale farms</a></p>
                         <p>SharePoint Server 2013
-                        <p> - <a href="/SharePoint/install/multiple-servers-for-a-three-tier-farm">Large scale farms</a></p>
-                        <p> - <a href="/SharePoint/install/single-server-with-sql-server">Small scale farms</a></p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/SharePoint/install/multiple-servers-for-a-three-tier-farm">Large scale farms</a></p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/SharePoint/install/single-server-with-sql-server">Small scale farms</a></p>
                     </div>
                 </div>
             </div>

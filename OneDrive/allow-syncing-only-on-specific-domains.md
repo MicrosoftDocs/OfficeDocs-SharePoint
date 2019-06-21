@@ -1,13 +1,16 @@
 ---
 title: "Allow syncing only on computers joined to specific domains"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: one-drive
 localization_priority: Normal
-ms.collection: Strat_OD_admin
+ms.collection: 
+- Strat_OD_admin
+- M365-collaboration
 search.appverid:
 - ODB160
 - ODB150
@@ -22,9 +25,9 @@ To make sure that users sync OneDrive files only on managed computers, you can c
   
  **To allow syncing only on PCs joined to specific domains**
   
-1. Open the [OneDrive admin center](https://admin.onedrive.com/?v=SyncSettings) and click **Sync** in the left pane. 
+1. Open the [OneDrive admin center](https://admin.onedrive.com/?v=SyncSettings) and select **Sync** in the left pane. 
     
-    ![The Sync tab of the OneDrive admin center](media/1c3bf6d6-7b82-4c73-9df7-c8551a0c2922.png)
+    ![The Sync page of the OneDrive admin center](media/blocksyncdomain.png)
   
 2. Select the **Allow syncing only on PCs joined to specific domains** check box. 
     
@@ -42,5 +45,5 @@ To make sure that users sync OneDrive files only on managed computers, you can c
     
 6. Click **Save** on the Sync page. 
     
-
+For info about setting this sync client restriction by using PowerShell, see [Set-SPOTenantSyncClientRestriction](/powershell/module/sharepoint-online/set-spotenantsyncclientrestriction)
 

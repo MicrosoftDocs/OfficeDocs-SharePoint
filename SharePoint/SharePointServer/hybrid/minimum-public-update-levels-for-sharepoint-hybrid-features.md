@@ -1,9 +1,10 @@
 ---
 title: "Minimum public update levels for SharePoint hybrid features"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: reference
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
@@ -12,6 +13,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_SharePoint_Hybrid_Top
 - Strat_SP_gtc
+- M365-collaboration
 ms.custom: 
 ms.assetid: 67eac5ad-42bd-4c08-9c1f-b4c93fec60e8
 description: "This article is a reference for which public updates are required for each SharePoint hybrid feature."

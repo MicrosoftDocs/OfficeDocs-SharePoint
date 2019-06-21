@@ -1,10 +1,11 @@
 ---
 title: "Create and run queries in the eDiscovery Center"
+ms.reviewer: 
 ms.author: MARKJJO
 author: MARKJJO
 manager: pamgreen
 ms.date: 2/12/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal

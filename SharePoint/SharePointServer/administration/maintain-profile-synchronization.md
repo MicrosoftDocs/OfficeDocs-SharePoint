@@ -1,10 +1,11 @@
 ---
 title: "Maintain user profile synchronization settings in SharePoint Server 2013"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
 ms.date: 8/2/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -12,11 +13,11 @@ ms.assetid: 26f02074-af0b-4548-ab68-9d46dd05b8ff
 description: "Learn how to maintain User Profile synchronization settings in SharePoint Server  after you configure User Profile synchronization."
 ---
 
-# Maintain user profile synchronization settings in SharePoint Server 2013
+# Maintain user profile synchronization settings in SharePoint Server
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
-Profile synchronization in SharePoint Server 2013 enables an administrator of an instance of the User Profile service to synchronize user and group profile information that is stored in the SharePoint Server 2013 profile store with profile information that is stored in directory services across the enterprise. After you have configured User Profile synchronization, you must complete tasks to maintain those settings. These tasks include, for example, removing users whose accounts are disabled or deleted, moving or renaming a server, and starting or stopping the User Profile Synchronization service. For more information, see [Plan profile synchronization for SharePoint Server 2013](plan-profile-synchronization-for-sharepoint-server-2013.md).
+Profile synchronization in SharePoint Server enables an administrator of an instance of the User Profile service to synchronize user and group profile information that is stored in the SharePoint Server profile store with profile information that is stored in directory services across the enterprise. After you have configured User Profile synchronization, you must complete tasks to maintain those settings. These tasks include, for example, removing users whose accounts are disabled or deleted, moving or renaming a server, and starting or stopping the User Profile Synchronization service. For more information, see [Plan profile synchronization for SharePoint Server 2013](plan-profile-synchronization-for-sharepoint-server-2013.md).
   
 To run the PowerShell cmdlets in this article, verify that you have the following memberships:
   
@@ -27,19 +28,22 @@ To run the PowerShell cmdlets in this article, verify that you have the followin
 - Administrators group on the server on which you are running the PowerShell cmdlets.
     
 > [!IMPORTANT]
-> This article applies to only SharePoint Server 2013. 
+> Each section is noted as to the version of SharePoint Server it applies to.
   
     
 ## Rename users or change user domains
 <a name="acctName"> </a>
 
-SharePoint Server 2013 lets you handle several different user migration scenarios. The following are examples of the scenarios handled for Active Directory Domain Services (AD DS):
+> [!NOTE]
+> This section applies to SharePoint Server 2013, 2016, and 2019.
+
+SharePoint Server lets you handle several different user migration scenarios. The following are examples of the scenarios handled for Active Directory Domain Services (AD DS):
   
 -  Account name ( **sAMAccountName**) changes in the AD DS where the user exists.
     
 - Security Identifier (SID) changes.
     
-- Distinguished name (DN) changes that include changes in the organizational unit (OU) container in the AD DS where the user account exists. For example, if a user's distinguished name is moved in AD DS from "User= EUROPE\John Smith, Manager=CN=John Rodman, OU=Users, DC=EMEA1, DC=corp, DC=contoso, DC=com" to "User= EUROPE\John Smith, Manager=CN=John Rodman, OU=Managers, DC=EMEA1, DC=corp, DC=contoso,DC=com", the **MigrateUser** command updates the user profile store for this user. The user profile for John Smith is updated when synchronizing user profiles from the EMEA1.corp.contoso.com AD DS to the SharePoint Server 2013 user profile store. 
+- Distinguished name (DN) changes that include changes in the organizational unit (OU) container in the AD DS where the user account exists. For example, if a user's distinguished name is moved in AD DS from "User= EUROPE\John Smith, Manager=CN=John Rodman, OU=Users, DC=EMEA1, DC=corp, DC=contoso, DC=com" to "User= EUROPE\John Smith, Manager=CN=John Rodman, OU=Managers, DC=EMEA1, DC=corp, DC=contoso,DC=com", the **MigrateUser** command updates the user profile store for this user. The user profile for John Smith is updated when synchronizing user profiles from the EMEA1.corp.contoso.com AD DS to the SharePoint Server user profile store. 
     
  **To rename users or to change user domains**
   
@@ -53,7 +57,10 @@ SharePoint Server 2013 lets you handle several different user migration scenario
     
 3. Disable the User Profile Incremental Synchronization timer job.
     
-4. Ensure that user migration by using  `stsadm -o migrateuser` has succeeded. 
+4. Ensure that user migration by using  `stsadm -o migrateuser` has succeeded.
+
+>[!NOTE]
+>[Move-SPUser](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/move-spuser) can also be used to migrate users.
     
 5. Ensure that the profile of the migrated user can be accessed by browsing to the My Site for that user, for example, http://mysite/person.aspx?accountname=\<new account name\>.
     
@@ -66,16 +73,22 @@ SharePoint Server 2013 lets you handle several different user migration scenario
 ## Exclude users whose accounts are disabled
 <a name="disabledUsers"> </a>
 
+> [!NOTE]
+> This section applies to SharePoint Server 2013.
+
 You can exclude users whose accounts are disabled in AD DS by using exclusion filters in SharePoint Server 2013. For the steps that are needed to exclude users whose accounts are disabled, see [Synchronize user and group profiles in SharePoint Server 2013](configure-profile-synchronization.md).
   
 ## Remove obsolete users and groups
 <a name="RemoveObsUsers"> </a>
 
-There are two reasons why obsolete users or groups can exist in the SharePoint Server 2013 user profile store:
+> [!NOTE]
+> This section applies to SharePoint Server 2013, 2016, and 2019.
+
+There are two reasons why obsolete users or groups can exist in the SharePoint Server user profile store:
   
 - **Obsolete users**: The My Site cleanup timer job is not active. The User Profile Synchronization timer job marks for deletion users who have been deleted from the directory source. When the My Site cleanup job runs, it looks for all users marked for deletion and deletes their profiles. Respective My Sites are then assigned to the manager for the deleted user and an e-mail message notifies the manager of this deletion.
     
-- **Obsolete users and groups**: Users and groups that were not imported by Profile Synchronization exist in the user profile store. This can occur, for example, if you upgraded from an earlier version of SharePoint Server 2013 and chose to only synchronize a subset of domains with SharePoint Server 2013.
+- **Obsolete users and groups**: Users and groups that were not imported by Profile Synchronization exist in the user profile store. This can occur, for example, if you upgraded from an earlier version of SharePoint Server and chose to only synchronize a subset of domains with SharePoint Server.
     
  **To find and remove obsolete users and groups by using PowerShell**
   
@@ -115,10 +128,16 @@ For more information, see [Get-SPServiceApplication](/powershell/module/sharepoi
 ## Maintain profile schema changes
 <a name="schemaChanges"> </a>
 
+> [!NOTE]
+> This section applies to SharePoint Server 2013.
+
 Profile schema changes include things such as adding a new user profile property, changing a user profile property mapping, or changing a Profile Synchronization connection filter. When the profile schema changes, you must first perform a full nonrecurring synchronization before scheduling recurring profile synchronization. For the steps that are needed to perform full nonrecurring profile synchronization, see[Start profile synchronization manually in SharePoint Server](start-profile-synchronization-manually.md).
   
 ## Rename a server that is running the User Profile synchronization service
 <a name="RenameServer"> </a>
+
+> [!NOTE]
+> This section applies to SharePoint Server 2013.
 
 Use the following procedure to rename a profile synchronization server.
   
@@ -142,6 +161,9 @@ For more information about renaming a server by using Microsoft PowerShell, see 
   
 ## Move the User Profile Synchronization service to a new server
 <a name="moveService"> </a>
+
+> [!NOTE]
+> This section applies to SharePoint Server 2013.
 
 Use the following procedure to move the User Profile Synchronization service to a new server.
   
@@ -199,6 +221,9 @@ For more information, see Get-SPServiceApplication and Set-SPProfileServiceAppli
   
 ## Adjust User Profile synchronization time-outs
 <a name="timeouts"> </a>
+
+> [!NOTE]
+> This section applies to SharePoint Server 2013.
 
 A time-out can occur on the following occasions:
   

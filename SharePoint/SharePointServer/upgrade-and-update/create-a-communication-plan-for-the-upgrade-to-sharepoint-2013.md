@@ -1,10 +1,11 @@
 ---
 title: "Create a communication plan for the upgrade to SharePoint 2013"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
 ms.date: 2/20/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal

@@ -1,10 +1,11 @@
 ---
 title: "Plan server-to-server authentication"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 6/20/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -12,6 +13,7 @@ ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
+- M365-collaboration
 ms.assetid: 6951d670-e2a8-4a7e-b3ea-ccc9c00a0ffc
 description: "Plan and prepare to configure server-to-server authentication from SharePoint Server to Office 365 for SharePoint hybrid."
 ---

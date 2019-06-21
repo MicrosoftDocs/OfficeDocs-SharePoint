@@ -1,10 +1,11 @@
 ---
 title: "Copy databases to the new farm for upgrade to SharePoint Server 2016"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
 ms.date: 5/30/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -12,14 +13,14 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 93327a06-ed2c-43f2-a40a-d7257f61f915
-description: "How to copy SharePoint Server 2013 with Service Pack 1 (SP1) content and service databases to a SharePoint Server 2016 farm."
+description: "How to copy SharePoint Server 2013 content and service databases to a SharePoint Server 2016 farm."
 ---
 
 # Copy databases to the new farm for upgrade to SharePoint Server 2016
 
 
   
-When you upgrade from SharePoint Server 2013 with Service Pack 1 (SP1) to SharePoint Server 2016, you must use a database attach upgrade, which means that you upgrade only the content for your environment and not the configuration settings. After you have configured a new SharePoint Server 2016 environment, you can copy the content and service application databases from the SharePoint Server 2013 with Service Pack 1 (SP1) environment to the SharePoint Server 2016 environment. You use a backup and restore process to copy the database, and you can also choose to set the databases to read-only in the SharePoint Server 2013 with Service Pack 1 (SP1) environment so that users can continue to access their information, but not change it. This article contains the steps that you take to copy the databases.
+When you upgrade from SharePoint Server 2013 to SharePoint Server 2016, you must use a database attach upgrade, which means that you upgrade only the content for your environment and not the configuration settings. After you have configured a new SharePoint Server 2016 environment, you can copy the content and service application databases from the SharePoint Server 2013 environment to the SharePoint Server 2016 environment. You use a backup and restore process to copy the database, and you can also choose to set the databases to read-only in the SharePoint Server 2013 environment so that users can continue to access their information, but not change it. This article contains the steps that you take to copy the databases.
   
 **Phase 2 of the upgrade process: Copy databases to the new farm**
 
@@ -27,31 +28,31 @@ When you upgrade from SharePoint Server 2013 with Service Pack 1 (SP1) to ShareP
   
 |||
 |:-----|:-----|
-|![123 steps](../media/mod_icon_howTo_numeric_M.png)|This is the second phase in the process to upgrade SharePoint Server 2013 with Service Pack 1 (SP1) data and sites to SharePoint Server 2016. The process includes the following phases that must be completed in order:  <br/> Create the SharePoint Server 2016 farm for a database attach upgradeCopy databases to the new farm for upgrade to SharePoint Server 2016  (this phase) Upgrade service applications to SharePoint Server 2016Upgrade content databases to SharePoint Server 2016For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server 2016](overview-of-the-upgrade-process.md).  <br/> |
+|![123 steps](../media/mod_icon_howTo_numeric_M.png)|This is the second phase in the process to upgrade SharePoint Server 2013 data and sites to SharePoint Server 2016. The process includes the following phases that must be completed in order:  <br/> Create the SharePoint Server 2016 farm for a database attach upgradeCopy databases to the new farm for upgrade to SharePoint Server 2016  (this phase) Upgrade service applications to SharePoint Server 2016Upgrade content databases to SharePoint Server 2016For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server 2016](overview-of-the-upgrade-process.md).  <br/> |
    
 ## Before you begin
 <a name="begin"> </a>
 
 Before you copy the databases, review the following information and take any recommended actions.
   
-- Make sure that the account that you use to copy the databases has access to SQL Server Management Studio on both the SharePoint Server 2013 with Service Pack 1 (SP1) and SharePoint Server 2016 environments and has access to a network location that can be accessed from both environments to store the copies of the databases.
+- Make sure that the account that you use to copy the databases has access to SQL Server Management Studio on both the SharePoint Server 2013 and SharePoint Server 2016 environments and has access to a network location that can be accessed from both environments to store the copies of the databases.
     
 - Make sure that the account that you use to set the databases to read-only and read-write is a member of the **db_owner** fixed database role for the content databases that you want to upgrade. 
     
 - Before you back up the databases, check for and repair all database consistency errors. 
     
-- Make sure that the appropriate service pack or update is applied to your 2013 environment. If you are using remote blog storage (RBS) in your environment, you must be running SharePoint Server 2013 with Service Pack 1 (SP1) in your environment before you start the upgrade process.
+- Make sure that the appropriate service pack or update is applied to your 2013 environment. If you are using remote blog storage (RBS) in your environment, you must be running SharePoint Server 2013 in your environment before you start the upgrade process.
     
 ## Set the earlier version databases to be read-only
 <a name="readonly"> </a>
 
-To maintain user access to your original environment, set the SharePoint Server 2013 with Service Pack 1 (SP1) databases to read-only before you back up the databases. Even if you don't want to maintain access over the long term, set the databases to read-only to make sure that you capture all the data in the backup so that you restore and upgrade the current state of the environment without allowing additional changes to be made. If the databases are set to read-only, users can continue to view content. However, they will be unable to add or change content. 
+To maintain user access to your original environment, set the SharePoint Server 2013 databases to read-only before you back up the databases. Even if you don't want to maintain access over the long term, set the databases to read-only to make sure that you capture all the data in the backup so that you restore and upgrade the current state of the environment without allowing additional changes to be made. If the databases are set to read-only, users can continue to view content. However, they will be unable to add or change content. 
   
 > [!NOTE]
-> Don't set search databases to read-only at this point. It's best not to interrupt the search experience until you're ready to upgrade the Search service applications. You will handle these databases when you [upgrade service applications](/SharePoint/upgrade-and-update/upgrade-service-applications-to-sharepoint-server-2016) (the fourth phase in the process to upgrade SharePoint Server 2013 with Service Pack 1 (SP1) data and sites to SharePoint Server 2016). 
+> Don't set search databases to read-only at this point. It's best not to interrupt the search experience until you're ready to upgrade the Search service applications. You will handle these databases when you [upgrade service applications](/SharePoint/upgrade-and-update/upgrade-service-applications-to-sharepoint-server-2016) (the fourth phase in the process to upgrade SharePoint Server 2013 data and sites to SharePoint Server 2016). 
   
 > [!IMPORTANT]
-> Perform this step in the SharePoint Server 2013 with Service Pack 1 (SP1) environment. 
+> Perform this step in the SharePoint Server 2013 environment. 
   
  **To set a database to read-only by using SQL Server tools**
   
@@ -67,10 +68,10 @@ To maintain user access to your original environment, set the SharePoint Server 
     
 You can use Transact-SQL to configure the **READ_ONLY** database availability option. For more information about how to use the **SET** clause of the **ALTER DATABASE** statement, see [Setting Database Options](https://go.microsoft.com/fwlink/p/?LinkId=148362).
   
-## Back up the SharePoint Server 2013 with Service Pack 1 (SP1) databases by using SQL Server tools
+## Back up the SharePoint Server 2013 databases by using SQL Server tools
 <a name="backup"> </a>
 
-You back up the databases in SQL Server Management Studio. A backup copy of the database guarantees that you have the data in a safe state if you must enable the original farm again and is required for a database-attach upgrade. Repeat the procedure for the following databases in the SharePoint Server 2013 with Service Pack 1 (SP1) server farm: 
+You back up the databases in SQL Server Management Studio. A backup copy of the database guarantees that you have the data in a safe state if you must enable the original farm again and is required for a database-attach upgrade. Repeat the procedure for the following databases in the SharePoint Server 2013 server farm: 
   
 - All content databases (default database name: WSS_Content_ _ID_
     
@@ -88,7 +89,7 @@ You do not have to back up the configuration or admin content databases, because
 After you complete this procedure, you will have created backups of the read-only content databases.
   
 > [!IMPORTANT]
-> Perform this step in the SharePoint Server 2013 with Service Pack 1 (SP1) environment. 
+> Perform this step in the SharePoint Server 2013 environment. 
   
  **To back up a database by using SQL Server tools**
   
@@ -112,12 +113,12 @@ After you complete this procedure, you will have created backups of the read-onl
     
 9. Click **OK** to start the backup process. 
     
-Repeat the previous procedure to back up all the content and appropriate service application databases that SharePoint Server 2013 with Service Pack 1 (SP1) uses in your environment.
+Repeat the previous procedure to back up all the content and appropriate service application databases that SharePoint Server 2013 uses in your environment.
   
 ## Copy the backup files to the SharePoint Server 2016 environment
 <a name="backup"> </a>
 
-Copy the backup files that you created in the previous procedure from the SharePoint Server 2013 with Service Pack 1 (SP1) environment to the SharePoint Server 2016 environment.
+Copy the backup files that you created in the previous procedure from the SharePoint Server 2013 environment to the SharePoint Server 2016 environment.
   
 ## Restore a backup copy of the database
 <a name="restore"> </a>
@@ -178,7 +179,7 @@ You cannot upgrade a database that is set to read-only. You must set the databas
     
 |||
 |:-----|:-----|
-|![123 steps](../media/mod_icon_howTo_numeric_M.png)| This is the second phase in the process to upgrade SharePoint Server 2013 with Service Pack 1 (SP1) data and sites to SharePoint Server 2016.  <br/>  Next phase: [Upgrade service applications to SharePoint Server 2016](upgrade-service-applications-to-sharepoint-server-2016.md) <br/>  For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server 2016](overview-of-the-upgrade-process.md).  <br/> |
+|![123 steps](../media/mod_icon_howTo_numeric_M.png)| This is the second phase in the process to upgrade SharePoint Server 2013 data and sites to SharePoint Server 2016.  <br/>  Next phase: [Upgrade service applications to SharePoint Server 2016](upgrade-service-applications-to-sharepoint-server-2016.md) <br/>  For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server 2016](overview-of-the-upgrade-process.md).  <br/> |
    
 ## See also
 <a name="ReadWrite"> </a>

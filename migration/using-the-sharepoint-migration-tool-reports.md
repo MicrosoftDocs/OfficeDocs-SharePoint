@@ -1,20 +1,21 @@
 ---
 title: "Using the SharePoint Migration Tool Reports"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
-ms.date: 3/9/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
-ms.assetid: 3b2c0f56-1a46-4b48-bee7-96bda469dc79
-
+mscollection:
+- SPMigration
+- M365-collaboration
+search.appverid: MET150
 ---
 
 # Using the SharePoint Migration Tool Reports
 
-## Using the SharePoint Migration Tool reports
 
 The SharePoint Migration Tool generates log files, summary and task level reports to help you manage, audit and troubleshoot your migration process.
   
@@ -24,18 +25,14 @@ These reports can be viewed while the migration is taking place or after the job
   
  **Viewing task level reports:**
   
-1. After the migration has begun, click **View task report**.
+1. After the migration has begun, click **View reports**.
     
-     ![View the task report for SharePoint Migration Tool job run.](media/d7126223-885a-48bf-af93-583821c5aaec.jpg)
-  
 2. A file folder will open listing the task level reports that have been generated for that specific task.
     
  **Viewing summary reports:**
   
-1. After migration completes, click **Open Report**.
-    
-    ![View the task report for SharePoint Migration Tool job run.](media/d7126223-885a-48bf-af93-583821c5aaec.jpg)
-  
+1. After migration completes, click **Migration details**.
+     
 2. A folder with the summary reports opens.
     
 ## Summary Reports

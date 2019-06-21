@@ -1,13 +1,17 @@
 ---
 title: "Set up a site design for your hub site"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: overview
 ms.service: sharepoint-online
 localization_priority: Normal
 ms.custom: Adm_O365
+ms.collection:  
+- Strat_SP_admin
+- M365-collaboration
 search.appverid:
 - SPO160
 - MOE150
@@ -25,6 +29,9 @@ A site design is one or more site scripts that SharePoint runs when a site is as
 
 > [!NOTE]
 > For organizations using Multi-Geo Capabilities in Office 365, hub site designs work only when sites are in the same geo location as the hub site.
+
+> [!NOTE]
+> These instructions require the SharePoint Administrator or Global Administrator role in Office 365.
 
 ## 1. Create a JSON script, add it, and create the site design 
 

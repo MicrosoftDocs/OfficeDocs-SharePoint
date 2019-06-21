@@ -1,10 +1,11 @@
 ---
 title: "SharePoint Intranet Farm in Azure Phase 4 Configure SharePoint servers"
+ms.reviewer: 
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 04/06/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -67,16 +68,16 @@ $vnetName="<Table V - Item 1 - Value column>"
 $subnetName="<Table S - Item 4 - Subnet name column>"
 $privIP="<Table I - Item 3 - Value column>"
 $rgName="<Table R - Item 5 - Resource group name column>"
-$vnet=Get-AzureRMVirtualNetwork -Name $vnetName -ResourceGroupName $rgName
-$subnet=Get-AzureRmVirtualNetworkSubnetConfig -VirtualNetwork $vnet -Name $subnetName
-$frontendIP=New-AzureRMLoadBalancerFrontendIpConfig -Name "SharePointWebServers-LBFE" -PrivateIPAddress $privIP -Subnet $subnet
-$beAddressPool=New-AzureRMLoadBalancerBackendAddressPoolConfig -Name "SharePointWebServers-LBBE"
+$vnet=Get-AzVirtualNetwork -Name $vnetName -ResourceGroupName $rgName
+$subnet=Get-AzVirtualNetworkSubnetConfig -VirtualNetwork $vnet -Name $subnetName
+$frontendIP=New-AzLoadBalancerFrontendIpConfig -Name "SharePointWebServers-LBFE" -PrivateIPAddress $privIP -Subnet $subnet
+$beAddressPool=New-AzLoadBalancerBackendAddressPoolConfig -Name "SharePointWebServers-LBBE"
 # This example assumes unsecured (HTTP-based) web traffic to the front end servers.
-$healthProbe=New-AzureRMLoadBalancerProbeConfig -Name "WebServersProbe" -Protocol "TCP" -Port 80 -IntervalInSeconds 15 -ProbeCount 2
-$lbrule=New-AzureRMLoadBalancerRuleConfig -Name "WebTraffic" -FrontendIpConfiguration $frontendIP -BackendAddressPool $beAddressPool -Probe $healthProbe -Protocol "TCP" -FrontendPort 80 -BackendPort 80
+$healthProbe=New-AzLoadBalancerProbeConfig -Name "WebServersProbe" -Protocol "TCP" -Port 80 -IntervalInSeconds 15 -ProbeCount 2
+$lbrule=New-AzLoadBalancerRuleConfig -Name "WebTraffic" -FrontendIpConfiguration $frontendIP -BackendAddressPool $beAddressPool -Probe $healthProbe -Protocol "TCP" -FrontendPort 80 -BackendPort 80
 # To use TCP 443, comment the previous line and un-comment the next line
-# $lbrule=New-AzureRMLoadBalancerRuleConfig -Name "WebTraffic" -FrontendIpConfiguration $frontendIP -BackendAddressPool $beAddressPool -Probe $healthProbe -Protocol "TCP" -FrontendPort 443 -BackendPort 443
-New-AzureRMLoadBalancer -ResourceGroupName $rgName -Name "SharePointWebServers" -Location $locName -LoadBalancingRule $lbrule -BackendAddressPool $beAddressPool -Probe $healthProbe -FrontendIpConfiguration $frontendIP
+# $lbrule=New-AzLoadBalancerRuleConfig -Name "WebTraffic" -FrontendIpConfiguration $frontendIP -BackendAddressPool $beAddressPool -Probe $healthProbe -Protocol "TCP" -FrontendPort 443 -BackendPort 443
+New-AzLoadBalancer -ResourceGroupName $rgName -Name "SharePointWebServers" -Location $locName -LoadBalancingRule $lbrule -BackendAddressPool $beAddressPool -Probe $healthProbe -FrontendIpConfiguration $frontendIP
 
 ```
 
@@ -93,52 +94,52 @@ $avName="<Table A - Item 3 - Availability set name column>"
 $rgNameTier="<Table R - Item 3 - Resource group name column>"
 $rgNameInfra="<Table R - Item 5 - Resource group name column>"
 $rgName=$rgNameInfra
-$vnet=Get-AzureRMVirtualNetwork -Name $vnetName -ResourceGroupName $rgName
-$subnet=Get-AzureRmVirtualNetworkSubnetConfig -VirtualNetwork $vnet -Name $subnetName
+$vnet=Get-AzVirtualNetwork -Name $vnetName -ResourceGroupName $rgName
+$subnet=Get-AzVirtualNetworkSubnetConfig -VirtualNetwork $vnet -Name $subnetName
 $rgName=$rgNameTier
-$avSet=Get-AzureRMAvailabilitySet -Name $avName -ResourceGroupName $rgName
+$avSet=Get-AzAvailabilitySet -Name $avName -ResourceGroupName $rgName
 # Create the first application/search server
 $vmName="<Table M - Item 6 - Virtual machine name column>"
 $vmSize="<Table M - Item 6 - Minimum size column>"
 $staticIP="<Table I - Item 8 - Value column>"
 $diskStorageType="<Table M - Item 6 - Storage type column>"
-$nic=New-AzureRMNetworkInterface -Name ($vmName +"-NIC") -ResourceGroupName $rgName -Location $locName -Subnet $subnet -PrivateIpAddress $staticIP
-$vm=New-AzureRMVMConfig -VMName $vmName -VMSize $vmSize -AvailabilitySetId $avset.Id
-$vm=Set-AzureRmVMOSDisk -VM $vm -Name ($vmName +"-OS") -DiskSizeInGB 128 -CreateOption FromImage -StorageAccountType $diskStorageType
+$nic=New-AzNetworkInterface -Name ($vmName +"-NIC") -ResourceGroupName $rgName -Location $locName -Subnet $subnet -PrivateIpAddress $staticIP
+$vm=New-AzVMConfig -VMName $vmName -VMSize $vmSize -AvailabilitySetId $avset.Id
+$vm=Set-AzVMOSDisk -VM $vm -Name ($vmName +"-OS") -DiskSizeInGB 128 -CreateOption FromImage -StorageAccountType $diskStorageType
 $diskSize=100
-$diskConfig=New-AzureRmDiskConfig -AccountType $diskStorageType -Location $locName -CreateOption Empty -DiskSizeGB $diskSize
-$dataDisk1=New-AzureRmDisk -DiskName ($vmName + "-SPLogData") -Disk $diskConfig -ResourceGroupName $rgName
-$vm=Add-AzureRmVMDataDisk -VM $vm -Name ($vmName + "-SPLogData") -CreateOption Attach -ManagedDiskId $dataDisk1.Id -Lun 1
+$diskConfig=New-AzDiskConfig -AccountType $diskStorageType -Location $locName -CreateOption Empty -DiskSizeGB $diskSize
+$dataDisk1=New-AzDisk -DiskName ($vmName + "-SPLogData") -Disk $diskConfig -ResourceGroupName $rgName
+$vm=Add-AzVMDataDisk -VM $vm -Name ($vmName + "-SPLogData") -CreateOption Attach -ManagedDiskId $dataDisk1.Id -Lun 1
 $diskSize=200
-$diskConfig=New-AzureRmDiskConfig -AccountType $diskStorageType -Location $locName -CreateOption Empty -DiskSizeGB $diskSize
-$dataDisk1=New-AzureRmDisk -DiskName ($vmName + "-SPSearchData") -Disk $diskConfig -ResourceGroupName $rgName
-$vm=Add-AzureRmVMDataDisk -VM $vm -Name ($vmName + "-SPSearchData") -CreateOption Attach -ManagedDiskId $dataDisk1.Id -Lun 2
+$diskConfig=New-AzDiskConfig -AccountType $diskStorageType -Location $locName -CreateOption Empty -DiskSizeGB $diskSize
+$dataDisk1=New-AzDisk -DiskName ($vmName + "-SPSearchData") -Disk $diskConfig -ResourceGroupName $rgName
+$vm=Add-AzVMDataDisk -VM $vm -Name ($vmName + "-SPSearchData") -CreateOption Attach -ManagedDiskId $dataDisk1.Id -Lun 2
 $cred=Get-Credential -Message "Type the name and password of the local administrator account for the first application server." 
-$vm=Set-AzureRMVMOperatingSystem -VM $vm -Windows -ComputerName $vmName -Credential $cred -ProvisionVMAgent -EnableAutoUpdate
-$vm=Set-AzureRMVMSourceImage -VM $vm -PublisherName MicrosoftSharePoint -Offer MicrosoftSharePointServer -Skus 2016 -Version "latest"
-$vm=Add-AzureRMVMNetworkInterface -VM $vm -Id $nic.Id
-New-AzureRMVM -ResourceGroupName $rgName -Location $locName -VM $vm
+$vm=Set-AzVMOperatingSystem -VM $vm -Windows -ComputerName $vmName -Credential $cred -ProvisionVMAgent -EnableAutoUpdate
+$vm=Set-AzVMSourceImage -VM $vm -PublisherName MicrosoftSharePoint -Offer MicrosoftSharePointServer -Skus 2016 -Version "latest"
+$vm=Add-AzVMNetworkInterface -VM $vm -Id $nic.Id
+New-AzVM -ResourceGroupName $rgName -Location $locName -VM $vm
 # Create the second application server
 $vmName="<Table M - Item 7 - Virtual machine name column>"
 $vmSize="<Table M - Item 7 - Minimum size column>"
 $staticIP="<Table I - Item 9 - Value column>"
 $diskStorageType="<Table M - Item 7 - Storage type column>"
-$nic=New-AzureRMNetworkInterface -Name ($vmName +"-NIC") -ResourceGroupName $rgName -Location $locName -Subnet $subnet -PrivateIpAddress $staticIP
-$vm=New-AzureRMVMConfig -VMName $vmName -VMSize $vmSize -AvailabilitySetId $avset.Id
-$vm=Set-AzureRmVMOSDisk -VM $vm -Name ($vmName +"-OS") -DiskSizeInGB 128 -CreateOption FromImage -StorageAccountType $diskStorageType
+$nic=New-AzNetworkInterface -Name ($vmName +"-NIC") -ResourceGroupName $rgName -Location $locName -Subnet $subnet -PrivateIpAddress $staticIP
+$vm=New-AzVMConfig -VMName $vmName -VMSize $vmSize -AvailabilitySetId $avset.Id
+$vm=Set-AzVMOSDisk -VM $vm -Name ($vmName +"-OS") -DiskSizeInGB 128 -CreateOption FromImage -StorageAccountType $diskStorageType
 $diskSize=100
-$diskConfig=New-AzureRmDiskConfig -AccountType $diskStorageType -Location $locName -CreateOption Empty -DiskSizeGB $diskSize
-$dataDisk1=New-AzureRmDisk -DiskName ($vmName + "-SPLogData") -Disk $diskConfig -ResourceGroupName $rgName
-$vm=Add-AzureRmVMDataDisk -VM $vm -Name ($vmName + "-SPLogData") -CreateOption Attach -ManagedDiskId $dataDisk1.Id -Lun 1
+$diskConfig=New-AzDiskConfig -AccountType $diskStorageType -Location $locName -CreateOption Empty -DiskSizeGB $diskSize
+$dataDisk1=New-AzDisk -DiskName ($vmName + "-SPLogData") -Disk $diskConfig -ResourceGroupName $rgName
+$vm=Add-AzVMDataDisk -VM $vm -Name ($vmName + "-SPLogData") -CreateOption Attach -ManagedDiskId $dataDisk1.Id -Lun 1
 $diskSize=200
-$diskConfig=New-AzureRmDiskConfig -AccountType $diskStorageType -Location $locName -CreateOption Empty -DiskSizeGB $diskSize
-$dataDisk1=New-AzureRmDisk -DiskName ($vmName + "-SPSearchData") -Disk $diskConfig -ResourceGroupName $rgName
-$vm=Add-AzureRmVMDataDisk -VM $vm -Name ($vmName + "-SPSearchData") -CreateOption Attach -ManagedDiskId $dataDisk1.Id -Lun 2
+$diskConfig=New-AzDiskConfig -AccountType $diskStorageType -Location $locName -CreateOption Empty -DiskSizeGB $diskSize
+$dataDisk1=New-AzDisk -DiskName ($vmName + "-SPSearchData") -Disk $diskConfig -ResourceGroupName $rgName
+$vm=Add-AzVMDataDisk -VM $vm -Name ($vmName + "-SPSearchData") -CreateOption Attach -ManagedDiskId $dataDisk1.Id -Lun 2
 $cred=Get-Credential -Message "Type the name and password of the local administrator account for the second application server." 
-$vm=Set-AzureRMVMOperatingSystem -VM $vm -Windows -ComputerName $vmName -Credential $cred -ProvisionVMAgent -EnableAutoUpdate
-$vm=Set-AzureRMVMSourceImage -VM $vm -PublisherName MicrosoftSharePoint -Offer MicrosoftSharePointServer -Skus 2016 -Version "latest"
-$vm=Add-AzureRMVMNetworkInterface -VM $vm -Id $nic.Id
-New-AzureRMVM -ResourceGroupName $rgName -Location $locName -VM $vm
+$vm=Set-AzVMOperatingSystem -VM $vm -Windows -ComputerName $vmName -Credential $cred -ProvisionVMAgent -EnableAutoUpdate
+$vm=Set-AzVMSourceImage -VM $vm -PublisherName MicrosoftSharePoint -Offer MicrosoftSharePointServer -Skus 2016 -Version "latest"
+$vm=Add-AzVMNetworkInterface -VM $vm -Id $nic.Id
+New-AzVM -ResourceGroupName $rgName -Location $locName -VM $vm
 
 ```
 
@@ -153,46 +154,46 @@ $avName="<Table A - Item 4 - Availability set name column>"
 $rgNameTier="<Table R - Item 4 - Resource group name column>"
 $rgNameInfra="<Table R - Item 5 - Resource group name column>"
 $rgName=$rgNameInfra
-$vnet=Get-AzureRMVirtualNetwork -Name $vnetName -ResourceGroupName $rgName
-$subnet=Get-AzureRmVirtualNetworkSubnetConfig -VirtualNetwork $vnet -Name $subnetName
-$backendSubnet=Get-AzureRMVirtualNetworkSubnetConfig -Name $subnetName -VirtualNetwork $vnet
-$webLB=Get-AzureRMLoadBalancer -ResourceGroupName $rgName -Name "SharePointWebServers" 
+$vnet=Get-AzVirtualNetwork -Name $vnetName -ResourceGroupName $rgName
+$subnet=Get-AzVirtualNetworkSubnetConfig -VirtualNetwork $vnet -Name $subnetName
+$backendSubnet=Get-AzVirtualNetworkSubnetConfig -Name $subnetName -VirtualNetwork $vnet
+$webLB=Get-AzLoadBalancer -ResourceGroupName $rgName -Name "SharePointWebServers" 
 $rgName=$rgNameTier
-$avSet=Get-AzureRMAvailabilitySet -Name $avName -ResourceGroupName $rgName
+$avSet=Get-AzAvailabilitySet -Name $avName -ResourceGroupName $rgName
 # Create the first front end  and distributed cache server virtual machine
 $vmName="<Table M - Item 8 - Virtual machine name column>"
 $vmSize="<Table M - Item 8 - Minimum size column>"
 $staticIP="<Table I - Item 10 - Value column>"
 $diskStorageType="<Table M - Item 8 - Storage type column>"
-$nic=New-AzureRMNetworkInterface -Name ($vmName + "-NIC") -ResourceGroupName $rgName -Location $locName -Subnet $backendSubnet -LoadBalancerBackendAddressPool $webLB.BackendAddressPools[0] -PrivateIpAddress $staticIP
-$vm=New-AzureRMVMConfig -VMName $vmName -VMSize $vmSize -AvailabilitySetId $avset.Id
-$vm=Set-AzureRmVMOSDisk -VM $vm -Name ($vmName +"-OS") -DiskSizeInGB 128 -CreateOption FromImage -StorageAccountType $diskStorageType
+$nic=New-AzNetworkInterface -Name ($vmName + "-NIC") -ResourceGroupName $rgName -Location $locName -Subnet $backendSubnet -LoadBalancerBackendAddressPool $webLB.BackendAddressPools[0] -PrivateIpAddress $staticIP
+$vm=New-AzVMConfig -VMName $vmName -VMSize $vmSize -AvailabilitySetId $avset.Id
+$vm=Set-AzVMOSDisk -VM $vm -Name ($vmName +"-OS") -DiskSizeInGB 128 -CreateOption FromImage -StorageAccountType $diskStorageType
 $diskSize=100
-$diskConfig=New-AzureRmDiskConfig -AccountType $diskStorageType -Location $locName -CreateOption Empty -DiskSizeGB $diskSize
-$dataDisk1=New-AzureRmDisk -DiskName ($vmName + "-SPLogData") -Disk $diskConfig -ResourceGroupName $rgName
-$vm=Add-AzureRmVMDataDisk -VM $vm -Name ($vmName + "-SPLogData") -CreateOption Attach -ManagedDiskId $dataDisk1.Id -Lun 1
+$diskConfig=New-AzDiskConfig -AccountType $diskStorageType -Location $locName -CreateOption Empty -DiskSizeGB $diskSize
+$dataDisk1=New-AzDisk -DiskName ($vmName + "-SPLogData") -Disk $diskConfig -ResourceGroupName $rgName
+$vm=Add-AzVMDataDisk -VM $vm -Name ($vmName + "-SPLogData") -CreateOption Attach -ManagedDiskId $dataDisk1.Id -Lun 1
 $cred=Get-Credential -Message "Type the name and password of the local administrator account for the first front end and distributed cache server." 
-$vm=Set-AzureRMVMOperatingSystem -VM $vm -Windows -ComputerName $vmName -Credential $cred -ProvisionVMAgent -EnableAutoUpdate
-$vm=Set-AzureRMVMSourceImage -VM $vm -PublisherName MicrosoftSharePoint -Offer MicrosoftSharePointServer -Skus 2016 -Version "latest"
-$vm=Add-AzureRMVMNetworkInterface -VM $vm -Id $nic.Id
-New-AzureRMVM -ResourceGroupName $rgName -Location $locName -VM $vm
+$vm=Set-AzVMOperatingSystem -VM $vm -Windows -ComputerName $vmName -Credential $cred -ProvisionVMAgent -EnableAutoUpdate
+$vm=Set-AzVMSourceImage -VM $vm -PublisherName MicrosoftSharePoint -Offer MicrosoftSharePointServer -Skus 2016 -Version "latest"
+$vm=Add-AzVMNetworkInterface -VM $vm -Id $nic.Id
+New-AzVM -ResourceGroupName $rgName -Location $locName -VM $vm
 # Create the second front end and distributed cache server virtual machine
 $vmName="<Table M - Item 9 - Virtual machine name column>"
 $vmSize="<Table M - Item 9 - Minimum size column>"
 $staticIP="<Table I - Item 11 - Value column>"
 $diskStorageType="<Table M - Item 9 - Storage type column>"
-$nic=New-AzureRMNetworkInterface -Name ($vmName + "-NIC") -ResourceGroupName $rgName -Location $locName -Subnet $backendSubnet -LoadBalancerBackendAddressPool $webLB.BackendAddressPools[0] -PrivateIpAddress $staticIP
-$vm=New-AzureRMVMConfig -VMName $vmName -VMSize $vmSize -AvailabilitySetId $avset.Id
-$vm=Set-AzureRmVMOSDisk -VM $vm -Name ($vmName +"-OS") -DiskSizeInGB 128 -CreateOption FromImage -StorageAccountType $diskStorageType
+$nic=New-AzNetworkInterface -Name ($vmName + "-NIC") -ResourceGroupName $rgName -Location $locName -Subnet $backendSubnet -LoadBalancerBackendAddressPool $webLB.BackendAddressPools[0] -PrivateIpAddress $staticIP
+$vm=New-AzVMConfig -VMName $vmName -VMSize $vmSize -AvailabilitySetId $avset.Id
+$vm=Set-AzVMOSDisk -VM $vm -Name ($vmName +"-OS") -DiskSizeInGB 128 -CreateOption FromImage -StorageAccountType $diskStorageType
 $diskSize=100
-$diskConfig=New-AzureRmDiskConfig -AccountType $diskStorageType -Location $locName -CreateOption Empty -DiskSizeGB $diskSize
-$dataDisk1=New-AzureRmDisk -DiskName ($vmName + "-SPLogData") -Disk $diskConfig -ResourceGroupName $rgName
-$vm=Add-AzureRmVMDataDisk -VM $vm -Name ($vmName + "-SPLogData") -CreateOption Attach -ManagedDiskId $dataDisk1.Id -Lun 1
+$diskConfig=New-AzDiskConfig -AccountType $diskStorageType -Location $locName -CreateOption Empty -DiskSizeGB $diskSize
+$dataDisk1=New-AzDisk -DiskName ($vmName + "-SPLogData") -Disk $diskConfig -ResourceGroupName $rgName
+$vm=Add-AzVMDataDisk -VM $vm -Name ($vmName + "-SPLogData") -CreateOption Attach -ManagedDiskId $dataDisk1.Id -Lun 1
 $cred=Get-Credential -Message "Type the name and password of the local administrator account for the second front end and distributed cache server." 
-$vm=Set-AzureRMVMOperatingSystem -VM $vm -Windows -ComputerName $vmName -Credential $cred -ProvisionVMAgent -EnableAutoUpdate
-$vm=Set-AzureRMVMSourceImage -VM $vm -PublisherName MicrosoftSharePoint -Offer MicrosoftSharePointServer -Skus 2016 -Version "latest"
-$vm=Add-AzureRMVMNetworkInterface -VM $vm -Id $nic.Id
-New-AzureRMVM -ResourceGroupName $rgName -Location $locName -VM $vm
+$vm=Set-AzVMOperatingSystem -VM $vm -Windows -ComputerName $vmName -Credential $cred -ProvisionVMAgent -EnableAutoUpdate
+$vm=Set-AzVMSourceImage -VM $vm -PublisherName MicrosoftSharePoint -Offer MicrosoftSharePointServer -Skus 2016 -Version "latest"
+$vm=Add-AzVMNetworkInterface -VM $vm -Id $nic.Id
+New-AzVM -ResourceGroupName $rgName -Location $locName -VM $vm
 
 ```
 

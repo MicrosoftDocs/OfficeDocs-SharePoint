@@ -1,10 +1,11 @@
 ---
 title: "Configure Forefront TMG for a hybrid environment"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 6/22/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 ms.collection:

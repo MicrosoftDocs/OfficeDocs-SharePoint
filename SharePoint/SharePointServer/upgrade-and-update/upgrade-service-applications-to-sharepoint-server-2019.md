@@ -1,10 +1,11 @@
 ---
 title: "Upgrade service applications to SharePoint Server 2019"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
 ms.date: 7/24/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -100,6 +101,8 @@ The following procedures start the service instances.
 6. Next to the **Secure Store Service**, click **Start**.
     
 The Search service instance must be started by using PowerShell because you cannot start it from Central Administration unless a Search Service application already exists.
+
+> [!TIP] When using MinRoles, **Start** may not be available as it is managed by the farm. When the associated Service Application has been created, it automatically starts the Service Instance.
   
  **To start the Search service instance by using PowerShell**
   
@@ -430,7 +433,140 @@ To upgrade the PerformancePoint Services service application, you create the new
   -  _Default_ adds the PerformancePoint Services service application proxy to the default proxy group for the local farm. 
     
    For more information, see [New-SPPerformancePointServiceApplicationProxy](/powershell/module/sharepoint-server/New-SPPerformancePointServiceApplicationProxy?view=sharepoint-ps).
+
+## Upgrade the User Profile service application
+<a name="UpgradeUserProfile"> </a>
+
+Upgrade the Managed Metadata service application before you upgrade the User Profile service application.
+  
+To upgrade the User Profile service application, you copy the Profile and Social databases in your SharePoint Server 2016 farm to your SharePoint Server 2019 farm and create a new User Profile service application from your SharePoint Server 2016 farm in your SharePoint Server 2019 farm. The restore triggers SharePoint Server 2019 to create a new User Profile service application in the SharePoint Server 2019 farm and point it to the copied User Profile databases. To complete the upgrade of the User Profile service application, you create a proxy and add it to the default proxy group.
+
+ **To upgrade the User Profile service application by using PowerShell**
+  
+1. Copy the Profile and Social databases in the SharePoint Server 2016 farm to the SharePoint Server 2019 farm by following these steps:
+ 
+    > [!IMPORTANT]
+    > Perform these steps in the SharePoint Server 2016 environment.
     
+      - Verify that you have the following memberships:
+        
+      - **securityadmin** fixed server role on the SQL Server instance. 
+        
+      - **db_owner** fixed database role on all databases that are to be updated. 
+        
+      - Administrators group on the server on which you are running the PowerShell cmdlets.
+        
+        An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
+        
+        > [!NOTE]
+        > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps). 
+  
+    - Start the SharePoint Management Shell.
+        
+    - Set the User Profile databases to read-only. In the second phase of the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019, you set all the other databases to read-only.   
+    
+    - Copy the Profile and Social databases in the SharePoint Server 2016 farm to the SharePoint Server 2019 farm, follow the procedures in [Copy databases to the new farm for upgrade to SharePoint Server 2019](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2019.md).
+        
+        > [!IMPORTANT]
+        > Perform the next steps in the SharePoint Server 2019 environment. 
+  
+2. Verify that you have the following memberships:
+    
+      - **securityadmin** fixed server role on the SQL Server instance. 
+        
+      - **db_owner** fixed database role on all databases that are to be updated. 
+        
+      - Administrators group on the server on which you are running the PowerShell cmdlets.
+    
+    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
+    
+    > [!NOTE]
+    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps). 
+  
+3. Start the SharePoint 2019 Management Shell.
+
+4. To store the application pool that you want to use as a variable for this service application, at the Microsoft PowerShell command prompt, type the following command:
+    
+      ```
+      $applicationPool = Get-SPServiceApplicationPool -Identity 'SharePoint Web Services default'
+      ```
+
+    Where:
+    
+     _SharePoint Web Services default_ is the name of the service application pool that will contain the new service applications. 
+    
+    This cmdlet sets the service application pool as a variable that you can use again in the cmdlets that follow. If you have multiple application pools and have to use a different application pool for a particular service application, repeat this step in the procedure to create each service application to use the appropriate application pool.
+    
+5. To restore the User Profile service application and upgrade the Profile and Social databases, at the Microsoft PowerShell command prompt, type the following command:
+    
+      ```
+      New-SPProfileServiceApplication -Name '<UserProfileApplicationName>' -ApplicationPool $applicationPool -ProfileDBName '<ProfileDBName>' -SocialDBName '<SocialDBName>' -ProfileSyncDBName '<SyncDBName>'
+      ```
+
+    Where:
+    
+      -  _UserProfileApplicationName_ is the name of the User Profile service application. 
+        
+      - $applicationpool is the variable that you set to identify the service application pool to use.
+        
+        **Note**: If you do not use the variable $applicationPool, then you must specify the name of an existing service application pool in the format '_Application Pool Name_'. To view a list of service application pools, you can run the **Get-SPServiceApplicationPool** cmdlet. 
+        
+      -  _ProfileDBName_ is the name of the Profile database that you want to upgrade.
+        
+      -  _SocialDBName_ is the name of the Social database that you want to upgrade.
+
+      -  _SyncDBName_ is the name of the new Synchronization database.
+    
+6. Create the User Profile service application proxy and add it to the default proxy group by completing these actions:
+    
+    - Type the following command to get the ID for the Search service application and store it as a variable:
+    
+      ```
+      $sa = Get-SPServiceApplication | ?{$_.TypeName -eq 'User Profile Service Application'}
+      ```
+
+      For more information, see [Get-SPServiceApplication](/powershell/module/sharepoint-server/get-spserviceapplication?view=sharepoint-ps).        
+    
+    - Type the following command to create a proxy for the Search service application:
+    
+      ```
+      New-SPProfileServiceApplicationProxy -Name ProxyName -ServiceApplication $sa
+      ```
+
+        Where:
+    
+      -  _ProxyName_ is the proxy name that you want to use. 
+        
+      - $sa is the variable that you set earlier to identify the new User Profile service application.
+        
+        **Tip**: If you do not use the variable $sa, then you must use an ID to identify the User Profile service application instead of a name. To find the ID, you can run the **Get-SPServiceApplication** cmdlet to return a list of all service application IDs. 
+    
+       For more information, see [New-SPProfileServiceApplicationProxy](/powershell/module/sharepoint-server/new-spprofileserviceapplicationproxy?view=sharepoint-ps).
+    
+    - Type the following command to get the Search service application proxy ID for the proxy you just created and set it as the variable $ssap:
+    
+      ```
+      $proxy = Get-SPServiceApplicationProxy | ?{$_.TypeName -eq 'User Profile Service Application Proxy'}
+      ```
+
+        For more information, see [Get-SPServiceApplicationProxy](/powershell/module/sharepoint-server/get-spserviceapplicationproxy?view=sharepoint-ps).
+    
+    - Type the following command to add the User Profile service application proxy to the default proxy group:    
+    
+        ```
+        Add-SPServiceApplicationProxyGroupMember -member $proxy -identity ""
+        ```
+
+       Where:
+    
+        - $proxy is the variable that you set earlier to identify the ID for the proxy you just created for the User Profile service application.
+          
+          **Tip**: If you do not use the variable $proxy, then you must use an ID to identify the User Profile service application proxy instead of a name. To find the ID, you can run the **Get-SPServiceApplicationProxy** cmdlet to return a list of all service application proxy IDs. 
+          
+        - You use an empty **Identity** parameter ("") to add it to the default group. 
+          
+       For more information, see [Add-SPServiceApplicationProxyGroupMember](/powershell/module/sharepoint-server/add-spserviceapplicationproxygroupmember?view=sharepoint-ps).
+
 ## Upgrade the Search service application
 <a name="UpgradeSearch"> </a>
 
@@ -469,9 +605,7 @@ SharePoint Server 2019 normally creates a new search topology with all the searc
         > [!NOTE]
         > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
-    - Start the SharePoint 2019 Management Shell.    
-  
-    - Set the Search Administration database to read-only. In the second phase of the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019, you set all the other databases to read-only. Follow [the same instructions](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2019.md) now for the Search Administration database.
+    - Start the SharePoint 2016 Management Shell.    
     
     - Pause the Search service application. At the PowerShell command prompt, type the following command:
     
@@ -486,6 +620,11 @@ SharePoint Server 2019 normally creates a new search topology with all the searc
     
         > [!NOTE]
         > While the Search service application is paused, the index in the SharePoint Server 2016 environment isn't updated. This means that during the upgrade to SharePoint Server 2019, search results might be less fresh. 
+        
+  
+    - Set the Search Administration database to read-only. In the second phase of the process to upgrade SharePoint Server 2016 data and sites to SharePoint Server 2019, you set all the other databases to read-only. Follow [the same instructions](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2019.md) now for the Search Administration database.
+    
+
   
     - Copy the search administration database in the SharePoint Server 2016 farm to the SharePoint Server 2019 farm, follow the procedures in [Copy databases to the new farm for upgrade to SharePoint Server 2019](copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2016.md) for the search administration database only. 
     

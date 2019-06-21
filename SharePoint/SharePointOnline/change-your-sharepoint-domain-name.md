@@ -1,10 +1,11 @@
 ---
 title: "Change your SharePoint domain name"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
 ms.date: 2/21/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: troubleshooting
 f1_keywords:
 - 'SPOTADNS'
@@ -14,7 +15,7 @@ f1_keywords:
 - 'O365E_DomainsProp_SPO'
 - 'O365E_DomainsMain_PublicWebsite'
 ms.service: sharepoint-online
-localization_priority: Priority
+localization_priority: Normal
 search.appverid:
 - SPO160
 - MOE150

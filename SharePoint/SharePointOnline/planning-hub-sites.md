@@ -1,11 +1,16 @@
 ---
 title: "Planning your SharePoint hub sites"
+ms.reviewer: 
+manager: 
 ms.author: kaarins
 author: kaarins
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
+ms.collection:  
+- Strat_SP_admin
+- M365-collaboration
 search.appverid:
 - SPO160
 - MET150
@@ -15,7 +20,7 @@ description: "Learn about SharePoint intranet hub sites and how to -plan for the
 
 # Planning your SharePoint hub sites
 
-[What is a SharePoint hub site?](https://support.office.com/article/fe26ae84-14b7-45b6-a6d1-948b3966427f) help you organize your intranet. Getting the most value from hub sites requires some up-front planning. Read on to find out more about hub sites and how you can plan for them. 
+[Hub sites](https://support.office.com/article/fe26ae84-14b7-45b6-a6d1-948b3966427f) help you organize your intranet. Getting the most value from hub sites requires some up-front planning. Read on to find out more about hub sites and how you can plan for them. 
   
 ## Setting the stage
 
@@ -41,7 +46,7 @@ Before you start making hubs sites, let's recap the three things hub sites give 
     
 Now let's think about the information you're trying to share throughout your intranet, and consider the business outcomes you're trying to enable.
   
-An intranet can play many roles in an organization. It's an internally-facing site, a place to communicate important news, and a collaboration platform. It's also a way to showcase your corporate culture. It can be the foundation of your digital workplace. An intranet lets you tell stories and share information. Empowering employees with a voice on your intranet can provide a way to move to a culture of collaboration that enables your organization to transform and adapt to change.
+An intranet can play many roles in an organization. It's an internally facing site, a place to communicate important news, and a collaboration platform. It's also a way to showcase your corporate culture. It can be the foundation of your digital workplace. An intranet lets you tell stories and share information. Empowering employees with a voice on your intranet can provide a way to move to a culture of collaboration that enables your organization to transform and adapt to change.
   
 Many successful intranets include the following elements:
   
@@ -93,7 +98,7 @@ One of the biggest challenges with intranet design is figuring out how the intra
     
 - I don't know if it exists
     
-These scenarios are enabled with a combination of navigation, search, and discovery (or serendipity) and should be a factor in how you design and organize your hub sites. One of the important capabilities that hub sites enable is the serendipitous discovery of information because they can surface contextually relevant content from sites you may not follow but are associated with the hub. SharePoint Home was built to support discovery and search across the entire organization's content, but if you already have a particular context in mind, hub sites can be very helpful in narrowing those experiences down to a handful of related sites.
+These scenarios are enabled with a combination of navigation, search, and discovery (or serendipity) and should be a factor in how you design and organize your hub sites. One of the important capabilities that hub sites enable is the serendipitous discovery of information because they can surface contextually relevant content from sites you may not follow but are associated with the hub. The SharePoint start page was built to support discovery and search across the entire organization's content, but if you already have a particular context in mind, hub sites can be very helpful in narrowing those experiences down to a handful of related sites.
   
 As a starting point in your hub planning, think about hub sites for key functions that your users need to get work done—for example: HR, Finance, Communications or Public Relations, Legal, and IT. These functions may be represented in different organizational departments or business units in large organizations or combined into the role of a few people in smaller organizations.
   
@@ -122,7 +127,7 @@ You don't have to have a hub site for every function. However, when a function p
 Some organizational functions have an enterprise-wide scope but a regional or product execution. For example, think about a Sales department that may have sites for sales regions and sites for location-based offices. This type of function has always presented a challenge to hierarchical intranet content organization using subsites. Do we make the Southeast Sales site a subsite of the Southeast Region site or the Sales site? And, what happens when a state within the southeast region moves; for example, from the southeast region to the northeast region? This type of dynamic organizational movement creates a nightmare for intranet organization if you use subsites, but not with hub sites. Picking a hub may create some angst because an individual site can be associated with only one hub, but keep in mind that news, activity, and highlighted content is based on search, so it's possible to have content from one site appear on multiple hub home pages. A hub will default to only showing content from its own associated sites, but it's easy to configure it to include other related sites as well, even if those sites are associated with different hubs.
   
 > [!NOTE]
-> Initially, your organization is limited to 100 hub sites. You may not need a hub site for every function, so it's important to do some planning before you create hubs. 
+> Your organization is limited to 2,000 hub sites. You may not need a hub site for every function and it's important to do some planning before you create hubs. 
   
 There is no "one size fits all" way to determine how to align sites to a hub in this scenario. Always start by answering these questions:
   
@@ -130,7 +135,8 @@ There is no "one size fits all" way to determine how to align sites to a hub in 
     
 - How do the people who need the information get their work done?
     
-Align your hub to create experiences that enable the user first. You may want to think about how people in each work group think about the work they do by aligning regional sites with the  *function*  , since sales content for the northeast is more likely to be organized similarly to sales content for the southeast than it will be for the southeast regional office. But this is very much an "it depends" situation. In some organizations, it will make much more sense to organize all functions around a regional hub than a functional hub. Even though hub sites do not initially support multi-geo capabilities, you can envision a scenario in which it would create a better user experience to associate Austria Sales with the Austria hub and not the global Sales hub. In this type of scenario, you can use a link on the Austria sales site to connect it to the global Sales hub and add each regional sales site to the Hub navigation for global sales. 
+Align your hub to create experiences that enable the user first. You may want to think about how people in each work group think about the work they do by aligning regional sites with the  *function*  , since sales content for the northeast is more likely to be organized similarly to sales content for the southeast than it will be for the southeast regional office. But this is very much an "it depends" situation. In some organizations, it will make much more sense to organize all functions around a regional hub than a functional hub. 
+With hub sites multi-geo capabilities, you can create a better user experience associating Austria Sales with the Austria hub and not the global Sales hub. In this type of scenario, you can use a link on the Austria sales site to connect it to the global Sales hub and add each regional sales site to the Hub navigation for global sales. 
   
 > [!NOTE]
 > A site can only associate with a hub family. However, hub families can be connected to one another using links either on the page or in hub navigation. 
@@ -147,7 +153,7 @@ Hub sites provide two primary organizational experiences that you should think a
     
 ### Association
 
-A site becomes part of a hub family by [Associate a SharePoint site with a hub site](https://support.office.com/article/ae0009fd-af04-4d3d-917d-88edb43efc05). When creating a hub site, SharePoint admins should [allow only certain site owners to associate sites with the hub](create-hub-site.md).
+A site becomes part of a hub family by [Associating a SharePoint site with a hub site](https://support.office.com/article/ae0009fd-af04-4d3d-917d-88edb43efc05). When creating a hub site, SharePoint admins should [allow only certain site owners to associate sites with the hub](create-hub-site.md).
   
 After a SharePoint admin gives a site owner permission to associate their sites with a hub site, the site owner can then choose to associate the sites with the hub. When they do, the site inherits the hub site theme and shared navigation. Content from their site will roll up to the hub site, and the site will be included in the hub site search scope.
   
@@ -180,7 +186,7 @@ One thing that you will miss out on if you have only one hub is the ability to e
   
 If you want to get started with a single organizational hub and you also want to be able to provide context for the information users see, you can do it, but it will require a publishing "contract" with content authors. Here are a few ways to achieve that outcome with a single hub:
   
-- **Naming conventions**: Add a prefix to news article titles and use a [Use the Highlighted content web part](https://support.office.com/article/E34199B0-FF1A-47FB-8F4D-DBCAED329EFD) to roll up news that, for example, starts with HR on the HR site and Sales on the Sales site or to group news on the hub site. 
+- **Naming conventions**: Add a prefix to news article titles and use a [Highlighted content web part](https://support.office.com/article/E34199B0-FF1A-47FB-8F4D-DBCAED329EFD) to roll up news that, for example, starts with HR on the HR site and Sales on the Sales site or to group news on the hub site. 
     
 - **Page metadata**: Map [a custom property to a managed property](manage-search-schema.md) and apply it to pages. Use your custom page metadata in a Highlighted Content web part on a page on any site. This approach gives you increased flexibility in information presentation. 
     
@@ -188,13 +194,13 @@ You can probably see that these approaches might be easier to implement with a s
   
 ## Know how your audience will consume SharePoint hub sites
 
-Your audience might consume SharePoint hub sites via the SharePoint home in Office 365—both the sites themselves and how news flows from hub to home. Also, consider SharePoint mobile apps, which could be used to access the hub home page, news, and navigation to associated sites. Consider the value of mobile app notifications. Encourage your users to stay connected on the go with the [SharePoint mobile app](https://products.office.com/en-US/SharePoint/mobile-app?wt.mc_id=AID638358_QSG_175660). Make sure that you consider operating systems, screen sizes, resolution, and form factors. All modern sites, pages, news, and lists should work well across all of these, and some will reflow as people consume content on small devices.
+Your audience might consume SharePoint hub sites via the SharePoint start page in Office 365—both the sites themselves and how news flows from the hub to the start page. Also, consider SharePoint mobile apps, which could be used to access the hub home page, news, and navigation to associated sites. Consider the value of mobile app notifications. Encourage your users to stay connected on the go with the [SharePoint mobile app](https://products.office.com/SharePoint/mobile-app?wt.mc_id=AID638358_QSG_175660). Make sure that you consider operating systems, screen sizes, resolution, and form factors. All modern sites, pages, news, and lists should work well across all of these, and some will reflow as people consume content on small devices.
   
 ## Additional important considerations
 
 - **Finding hubs if you have more than one**. Hub sites are an important building block for your intranet. But for most organizations, hub sites are not going to provide the type of global navigation that intranet designers want. Here are some ways you can make your hub sites discoverable: 
     
-  - **On SharePoint home**. Pin your hub sites to the Featured links area of SharePoint home. Encourage all users to "follow" hub sites. 
+  - **On the SharePoint start page**. Pin your hub sites to the Featured links area of the SharePoint start page. Encourage all users to "follow" hub sites. 
     
   - **On the SharePoint mobile app**. Hub sites can also be found on the SharePoint mobile app and are even more discoverable if users follow hub sites. 
     
@@ -211,6 +217,10 @@ Your audience might consume SharePoint hub sites via the SharePoint home in Offi
 - **Subsites**. Hub sites solve many or most of the use cases for which you previously used subsites. We recommend using hub sites going forward to organize the sites in your intranet. However, subsites will continue to be supported as a classic feature, and we'll add the new team site template as a subsite option. 
     
 Use hub sites when they align with your business outcomes and solve a need for your users. The capabilities of hub sites are evolving, and we're working to implement some of the most requested features as soon as we can, such as the ability to target the navigation links in hub sites to specific groups of people.
+
+## Need more help?
+
+[!INCLUDE[discussionforums.md](includes/discussionforums.md)]
   
-**Principal author: Susan Hanley, MVP<br>LinkedIn: [http://www.linkedin.com/in/susanhanley](http://www.linkedin.com/in/susanhanley)<br>Website: [www.susanhanley.com](http://http://www.susanhanley.com)<br>Blog: [http://www.computerworld.com/blog/essential-sharepoint](http://www.computerworld.com/blog/essential-sharepoint)**
+**Principal author: Susan Hanley, MVP<br>LinkedIn: [http://www.linkedin.com/in/susanhanley](http://www.linkedin.com/in/susanhanley)<br>Website: [www.susanhanley.com](http://www.susanhanley.com)<br>Blog: [http://www.computerworld.com/blog/essential-sharepoint](http://www.computerworld.com/blog/essential-sharepoint)**
 

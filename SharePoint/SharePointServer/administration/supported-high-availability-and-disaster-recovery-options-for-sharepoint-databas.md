@@ -1,10 +1,10 @@
 ---
 title: "Supported high availability and disaster recovery options for SharePoint databases"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 3/10/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
@@ -126,7 +126,7 @@ The following table describes the supported high availability and disaster recov
 |Supports SQL Server AlwaysOn Availability Group with asynchronous-commit for disaster recovery  <br/> |Yes  <br/> |
    
 > [!NOTE]
-> The Managed Metadata Service is the Taxonomy service. 
+> The Managed Metadata Service is the Taxonomy service. This database cannot be attached to a Managed Metadata Service Application in read only mode.
   
 ### PerformancePoint Services database
 
@@ -349,8 +349,8 @@ The following tables describe the supported high availability and disaster recov
 |Purpose  <br/> |Stores configuration and staging data for use when profile data is synchronized with directory services such as Active Directory.  <br/> |
 |Supports SQL Server 2014 (SP1), SQL Server 2016, and SQL Server 2017 RTM synchronous mirroring in a farm for availability  <br/> Supports SQL Server 2008 R2 and SQL Server 2012 synchronous mirroring in a farm for availability  <br/> |Yes  <br/> |
 |Supports SQL Server AlwaysOn Availability Group with synchronous-commit for availability  <br/> |Yes  <br/> |
-|Supports SQL Server 2014 (SP1), SQL Server 2016, and SQL Server 2017 RTM asynchronous mirroring or log-shipping to another farm for disaster recovery  <br/> Supports SQL Server 2008 R2 and SQL Server 2012 asynchronous mirroring or log-shipping to another farm for disaster recovery  <br/> |No  <br/> |
-|Supports SQL Server AlwaysOn Availability Group with asynchronous-commit for disaster recovery  <br/> |No  <br/> |
+|Supports SQL Server 2014 (SP1), SQL Server 2016, and SQL Server 2017 RTM asynchronous mirroring or log-shipping to another farm for disaster recovery  <br/> Supports SQL Server 2008 R2 and SQL Server 2012 asynchronous mirroring or log-shipping to another farm for disaster recovery  <br/> |Yes  <br/> |
+|Supports SQL Server AlwaysOn Availability Group with asynchronous-commit for disaster recovery  <br/> |Yes  <br/> |
    
 **Social Tagging database**
 
