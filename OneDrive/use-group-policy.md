@@ -169,7 +169,8 @@ This setting will NOT work if you have [Allow syncing OneDrive accounts for only
 
 This setting lets you convert synced SharePoint files to online-only files when you enable OneDrive Files On-Demand. If you have many PCs syncing the same team site, enabling this setting helps you minimize network traffic and local storage usage.
   
-If you enable this setting, files in currently syncing team sites will be changed to online-only files by default. Files later added or updated in the team site will also be downloaded as online-only files. 
+If you enable this setting, files in currently syncing team sites will be changed to online-only files by default. Files later added or updated in the team site will also be downloaded as online-only files. To use this setting, the computer must be running Windows 10 Fall Creators Update (version 1709) or later, and OneDrive Files On-Demand must be enabled.
+This feature is not enabled for on-premises SharePoint sites. 
 
 Enabling this policy sets the following registry key value to 1.
   
