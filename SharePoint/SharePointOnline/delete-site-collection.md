@@ -20,7 +20,7 @@ description: "Learn how to delete SharePoint site collections"
 
 # Delete a site
 
-When you, as a global or SharePoint admin in Office 365, delete a site (previously called a "site collection"), it's moved to the site collection Recycle Bin and retained for 93 days. Deleting the site deletes everything within it, including:
+When you, as a global or SharePoint admin in Office 365, delete a site (previously called a "site collection"), it's retained as a deleted site for 93 days. Deleting a site deletes everything within it, including:
   
 - Document libraries and files.
     
@@ -32,7 +32,8 @@ When you, as a global or SharePoint admin in Office 365, delete a site (previous
     
 You should notify the site admins and any subsite owners before you delete a site so they can move their data to another location, and also tell users when the sites will be deleted. 
 
-Important: It is not recommended to delete the root site collection. If you delete the root site collection, all SharePoint sites in your organization will be inaccessible until you restore the site or create a new site at <Root URL>
+> [!WARNING]
+> If you delete the root site for your organization, all your SharePoint sites will be inaccessible until you restore the site or create a new root site.
 
 ## Delete a site in the new SharePoint admin center
 
