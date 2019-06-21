@@ -19,7 +19,7 @@ description: "Learn how to migrate Windows claims authentication to SAML based c
 
 [!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]  
 
-Identifies the steps required to migrate a web application that is going from Windows claims authentication to SAML-based authentication in SharePoint 2013.
+Identifies the steps required to migrate a web application that is going from Windows claims authentication to SAML-based authentication in SharePoint Server.
 
 ## Identity migration ##
 
@@ -48,7 +48,9 @@ An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to
 2.	To migrate a web application to include all content databases, type the following at the Windows PowerShell command prompt.
 
 ```
-$wa = Get-SPWebApplication -Identity <Name of web application> $tp= Get-SPTrustedIdentityTokenIssuer “RegularUsers” Convert-SPWebApplication -Identity $wa -TO CLAIMSTRUSTEDDEFAULT -FROM CLAIMSWINDOWS -TrustedProvider $tp -sourceskiplist skip.csv.
+$wa = Get-SPWebApplication -Identity <Name of web application> 
+$tp= Get-SPTrustedIdentityTokenIssuer “RegularUsers” Convert-SPWebApplication -Identity
+$wa -TO CLAIMSTRUSTEDDEFAULT -FROM CLAIMSWINDOWS -TrustedProvider $tp -sourceskiplist skip.csv.
 ```
 
 To migrate specific web applications and content databases by using Windows PowerShell.
@@ -67,7 +69,8 @@ An administrator can use the Add-SPShellAdmin cmdlet to grant permissions to use
 2.	To migrate specific web applications and content databases, type the following at the Windows PowerShell command prompt.
 
 ```
-$database = Get-SPContentDatabase -Identity <DB_Name> Convert-SPWebApplication -Identity $app -from CLAIMS-WINDOWS -to CLAIMS-TRUSTED-DEFAULT -database $database -sourceskiplist skip.csv 
+$database = Get-SPContentDatabase -Identity <DB_Name> Convert-SPWebApplication -Identity 
+$app -from CLAIMS-WINDOWS -to CLAIMS-TRUSTED-DEFAULT -database $database -sourceskiplist skip.csv 
 ```
 Where: *Identity* is the name of the content database, for example, DB_Name.
 

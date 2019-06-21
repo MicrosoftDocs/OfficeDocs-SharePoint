@@ -93,7 +93,7 @@ $adfsCertName = "< Input ADFS Cert Name >"
 ```
 **Note**: You can use a different file name, but you must save the file as an ANSI-encoded text file that has the extension .ps1.
 
-4.	On the Start menu, click All Programs > Microsoft SharePoint Products > SharePoint  Management Shell.
+4.	On the **Start** menu, click **All Programs** > **Microsoft SharePoint Products** > **SharePoint  Management Shell**.
 5.	Change the command prompt to the directory to which you saved the file.
 6.	At the Windows PowerShell command prompt, type the following command:  ./Add-ADFSCerts.ps1.
 
@@ -115,9 +115,11 @@ $adfsCertName = "< Input ADFS Certificate Name >" $MACertName = "< Input Machine
 
 This script configures SharePoint Server with ADFS certificates and claim type maps and creates a Trusted Identity Token Issuer that enables SAML claims support in SharePoint web applications.
 
+## Variables that need to be change before you run script:
+
   The directory that contains this script 
 
-## Variables that need to be change before you run script:
+
 
 $ScriptDir = Split-Path -parent $MyInvocation.MyCommand.Path 
 
@@ -146,7 +148,7 @@ New-SPTrustedRootAuthority -Name $adfsCertName -Certificate $adfsCert New-SPTrus
 
 **Note**: You can use a different file name, but you must save the file as an ANSI-encoded text file that has the extension .ps1.
 
-4.	On the **Start** menu, click All Programs > Microsoft SharePoint Products > SharePoint Management Shell.
+4.	On the **Start** menu, click **All Programs** > **Microsoft SharePoint Products** > **SharePoint Management Shell**.
 5.	Change the command prompt to the directory to which you saved the file.
 6.	At the Windows PowerShell command prompt, type the following command, .Add-ADFSCerts.ps1.
 
