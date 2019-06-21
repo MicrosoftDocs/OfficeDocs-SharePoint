@@ -1,10 +1,10 @@
 ---
 title: "Publish service applications in SharePoint Server"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 2/21/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -38,15 +38,15 @@ Before you begin this operation, review [Share service applications across farms
     
 5. In the **Publish Service Application** dialog box do the following tasks: 
     
-  - Select the **Connection Type** that you want from the drop-down list. 
+   - Select the **Connection Type** that you want from the drop-down list. 
     
-  - If you want the service application to be available to remote farms, select the check box for **Publish this Service Application to other farms**.
+   - If you want the service application to be available to remote farms, select the check box for **Publish this Service Application to other farms**.
     
-  - We recommend that you use the instructions in [Exchange trust certificates between farms in SharePoint Server](exchange-trust-certificates-between-farms.md) to establish trust between the two farms. 
+   - We recommend that you use the instructions in [Exchange trust certificates between farms in SharePoint Server](exchange-trust-certificates-between-farms.md) to establish trust between the two farms. 
     
-  - Copy the Published URL into Notepad or another text editor. You must provide this URL to remote farms to connect the remote farms to the published service application. The URL will be similar to the following:
+   - Copy the Published URL into Notepad or another text editor. You must provide this URL to remote farms to connect the remote farms to the published service application. The URL will be similar to the following:
     
-    **urn:schemas-microsoft-com:sharepoint:service:9c1870b7ee97445888d9e846519cfa27#authority=urn:uuid:02a493b92a5547828e21386e28056cba&amp;authority=https://ua_powershell:32844/Topology/topology.svc**
+   **urn:schemas-microsoft-com:sharepoint:service:9c1870b7ee97445888d9e846519cfa27#authority=urn:uuid:02a493b92a5547828e21386e28056cba&amp;authority=https://ua_powershell:32844/Topology/topology.svc**
     
 6. You can optionally provide descriptive text and a link to a Web page that will be visible to administrators of remote farms. After you have specified the publication options that you want, click **OK** to publish the service application. 
     
@@ -56,38 +56,38 @@ Before you begin this operation, review [Share service applications across farms
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
+   - **securityadmin** fixed server role on the SQL Server instance. 
     
-  - **db_owner** fixed database role on all databases that are to be updated. 
+   - **db_owner** fixed database role on all databases that are to be updated. 
     
-  - Administrators group on the server on which you are running the PowerShell cmdlets.
+   - Administrators group on the server on which you are running the PowerShell cmdlets.
     
-    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
+   An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
-    > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/add-spshelladmin). 
+   > [!NOTE]
+   > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/add-spshelladmin). 
   
 2. Start the SharePoint Management Shell.
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  Publish-SPServiceApplication -Identity <ServiceApplicationGUID>
-  ```
+   ```powershell
+   Publish-SPServiceApplication -Identity <ServiceApplicationGUID>
+   ```
 
-    If you do not know the GUID of the service application, you can use the following PowerShell cmdlet to list all service applications in the farm, together with their GUIDS:
+   If you do not know the GUID of the service application, you can use the following PowerShell cmdlet to list all service applications in the farm, together with their GUIDS:
     
-  ```
-  Get-SPServiceApplication
-  ```
+   ```powershell
+   Get-SPServiceApplication
+   ```
 
 4. To view the published service application load balancer URL, type the following command and record the output: 
     
-  ```
-  Get-SPTopologyServiceApplication
-  ```
+   ```powershell
+   Get-SPTopologyServiceApplication
+   ```
 
-    Any connecting remote farms will need the information that is generated by this command.
+   Any connecting remote farms will need the information that is generated by this command.
     
 ## See also
 

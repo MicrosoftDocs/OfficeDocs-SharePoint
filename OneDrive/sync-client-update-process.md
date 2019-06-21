@@ -1,12 +1,16 @@
 ---
 title: "The OneDrive sync client update process"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: reference
 ms.service: one-drive
 localization_priority: Normal
+ms.collection: 
+- Strat_OD_admin
+- M365-collaboration
 search.appverid:
 - ODB160
 - MET150
@@ -38,7 +42,7 @@ However, as the slowest ring, the Enterprise ring receives performance improveme
 > [!NOTE]
 > Microsoft reserves the right to bypass the 60-day grace period for critical updates. 
   
-To learn how to set the Enterprise ring for the Windows sync client using Group Policy, see [Delay updating OneDrive.exe until the second release wave](use-group-policy.md#EnableEnterpriseUpdate). To learn how to set it for the Mac sync client, see [Configure the new OneDrive sync client on macOS](deploy-and-configure-on-macos.md). For info about the Office 365 update process, see [Overview of update channels for Office 365 ProPlus](/DeployOffice/overview-of-update-channels-for-office-365-proplus). For info about the Windows 10 update process, see [Build deployment rings for Windows 10 updates](/windows/deployment/update/waas-deployment-rings-windows-10-updates).
+To learn how to set the Enterprise ring for the Windows sync client using Group Policy, see [Set the sync client update ring](use-group-policy.md#GPOSetUpdateRing). To learn how to set it for the Mac sync client, see [Configure the new OneDrive sync client on macOS](deploy-and-configure-on-macos.md). For info about the Office 365 update process, see [Overview of update channels for Office 365 ProPlus](/DeployOffice/overview-of-update-channels-for-office-365-proplus). For info about the Windows 10 update process, see [Build deployment rings for Windows 10 updates](/windows/deployment/update/waas-deployment-rings-windows-10-updates).
   
 ## How the sync client checks for and applies updates
 

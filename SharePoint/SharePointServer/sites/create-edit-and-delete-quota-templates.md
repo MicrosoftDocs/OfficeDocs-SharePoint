@@ -1,9 +1,10 @@
 ---
 title: "Create, edit, and delete quota templates in SharePoint Server"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -165,7 +166,7 @@ If a site collection is close to exceeding its storage limits and you want to in
     
 3. At the Microsoft PowerShell command prompt, type the following command:
     
-   ```
+   ```powershell
    Set-SPSite -Identity "<Site>" -QuotaTemplate "<Template>"
    ```
 
@@ -218,7 +219,7 @@ Use these procedures to change the storage limits for a site collection.
     
 3. At the Microsoft PowerShell command prompt, type the following command:
     
-   ```
+   ```powershell
    Set-SPSite -Identity "<Site>" -MaxSize <Limit>
    ```
 

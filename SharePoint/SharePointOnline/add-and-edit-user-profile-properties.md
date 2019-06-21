@@ -1,13 +1,17 @@
 ---
 title: "Add and edit user profile properties in SharePoint Online"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
 ms.date: 6/19/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
+ms.collection:  
+- Strat_SP_admin
+- M365-collaboration
 search.appverid:
 - SPO160
 - BSA160
@@ -24,77 +28,76 @@ If your organization uses the cloud identity model, your Office 365 user account
 ## Add a property for a user profile
 <a name="__top"> </a>
 
-1. Sign in to Office 365 as a global admin or SharePoint admin.
+1. Sign in to https://admin.microsoft.com as a global or SharePoint admin to open the Microsoft 365 admin center. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+    > [!NOTE]
+    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the **Admin** tile to open the admin center.  
     
-3. In the left pane, choose **Admin centers** \> **SharePoint**.
+2. In the left pane of the admin center, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane. 
     
-4. Click **user profiles** in the left pane. 
+3. Select **user profiles** in the left pane. 
     
-5. Under **People**, choose **Manage User Properties**. 
+4. Under **People**, select **Manage User Properties**. 
     
     ![Manage User Properties link under Admin user profiles.](media/ab8985da-a2f9-4839-b4a2-f0feeb379f31.png)
   
-6. Select **New Property**.
+5. Select **New Property**.
     
-7. In the **Name** box, enter a unique name for the property. 
+6. In the **Name** box, enter a unique name for the property. 
     
     ![Property settings under User Profile in Admin](media/b18946ee-7db7-4587-9f0b-2ea1d892415f.png)
   
-8. In the **Display Name** box, enter the profile property name that will be displayed to all users. (This name doesn't have to be unique.) 
+7. In the **Display Name** box, enter the profile property name that will be displayed to all users. (This name doesn't have to be unique.) 
     
-9. In the **Type** list, select the data type for the property. 
+8. In the **Type** list, select the data type for the property. 
     
     > [!NOTE]
     >  If you select **string (Multi Value)**, the property will be permanently set as a multi-valued property. You cannot change this setting after you select **OK**. You can only delete the property and add it again as a new single-value property. 
   
-10. If you selected binary, HTML, or string, use the **Length** box to enter the maximum number of characters allowed for property values. 
+9. If you selected binary, HTML, or string, use the **Length** box to enter the maximum number of characters allowed for property values. 
     
-11. If you selected string and want to associate the profile property with a [managed metadata term set](managed-metadata.md), select **Configure a Term Set to be used for this property**. Then select a term set from the list. 
+10. If you selected string and want to associate the profile property with a [managed metadata term set](managed-metadata.md), select **Configure a Term Set to be used for this property**. Then select a term set from the list. 
     
-12. Make sure **Default User Profile Subtype** is selected so the default user profile subtype is associated with this user profile property. 
+121. Make sure **Default User Profile Subtype** is selected so the default user profile subtype is associated with this user profile property. 
     
-13. In the **Description** box, enter the instructions or information that is displayed to users about this profile property. 
+12. In the **Description** box, enter the instructions or information that is displayed to users about this profile property. 
     
-14. In the **Policy Settings** section, select the policy setting and default privacy setting that you want for this property. Click the **User can override** box to enable users to override these settings. 
+13. In the **Policy Settings** section, select the policy setting and default privacy setting that you want for this property. Select the **User can override** box to enable users to override these settings. 
     
-15. If you want users to be able to change this profile information for themselves, select **Allow users to edit values for this property**.
+14. If you want users to be able to change this profile information for themselves, select **Allow users to edit values for this property**.
     
-16. In the **Display Settings** section, specify whether and how the property will be viewed by users. 
+15. In the **Display Settings** section, specify whether and how the property will be viewed by users. 
     
-17. In the **Search Settings** section, select **Alias** if the property is the equivalent of a user's name. For example, you might do this if you create a property for a "Stage name" and want searches for all documents by John Kane to return the same results as searches for the user's real name. Select the **Indexed** if you want searches to return all the user profiles matching that property. For example, if you have a property for "University," a search for that value would return all alumni from that university. 
+16. In the **Search Settings** section, select **Alias** if the property is the equivalent of a user's name. For example, you might do this if you create a property for a "Stage name" and want searches for all documents by John Kane to return the same results as searches for the user's real name. Select the **Indexed** if you want searches to return all the user profiles matching that property. For example, if you have a property for "University," a search for that value would return all alumni from that university. 
     
     > [!NOTE]
     >  The **Alias** check box is available only if you set the **Default Privacy Setting** \> **Everyone**. 
   
-18. Click **OK**.
+17. Select **OK**.
     
 ## Edit or delete a property you added
 <a name="__top"> </a>
 
-1. In the SharePoint admin center, click **user profiles** in the left pane. 
+1. In the classic SharePoint admin center, select **user profiles** in the left pane. 
     
 2. Under **People**, choose **Manage User Properties**. 
     
     ![Manage User Properties link under Admin user profiles.](media/ab8985da-a2f9-4839-b4a2-f0feeb379f31.png)
   
-3. In the **Property Name** column, click the profile property that you want to change, and then click **Edit** or **Delete**.
+3. In the **Property Name** column, select the profile property that you want to change, and then select **Edit** or **Delete**.
     
 4. Edit the elements you want to change. 
     
     > [!NOTE]
     >  Some elements of profile properties, such as the **Type** element, are unavailable because they can't be edited. To define these elements, create a new property. The exception is the Source Data Connection property. It's predefined in SharePoint Online and can't be changed. 
   
-5. When you're done, click **OK**.
+5. When you're done, select **OK**.
     
  ## Synchronize custom properties
 <a name="__top"> </a>
 
-Custom properties from Active Directory or Azure AD are not synchronized with SharePoint Online. In order to maintain property synchronization, a custom application must be developed.
+Custom properties from Active Directory or Azure AD are not synchronized with SharePoint Online. For info about bulk updating custom user profile properties by using PowerShell, see [Call the import API from PowerShell](/sharepoint/dev/solution-guidance/bulk-user-profile-update-api-for-sharepoint-online#call-the-import-api-from-powershell).
 
-The Patterns and Practices GitHub has options available from synchronizing Azure AD and/or Active Directory with SharePoint Online. These applications must be compiled using Visual Studio or msbuild.exe.
+## Need more help?
 
- * [Core.UserProfiles.Sync](https://github.com/SharePoint/PnP/tree/master/Samples/Core.UserProfiles.Sync) is used to synchronize from Azure AD to SharePoint Online.
- 
- * [UserProfile.BatchUpdate.API](https://github.com/SharePoint/PnP/tree/master/Samples/UserProfile.BatchUpdate.API) updates profile properites from LOB system output to CSV. This includes a PowerShell script as an example.
+[!INCLUDE[discussionforums.md](includes/discussionforums.md)]

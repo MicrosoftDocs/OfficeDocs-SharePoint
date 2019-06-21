@@ -1,10 +1,11 @@
 ---
 title: "View Popularity Trends and Most Popular Items"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
 ms.date: 6/21/2018
-ms.audience: End User
+audience: End User
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
@@ -20,11 +21,14 @@ description: "Learn how to view popularity trends for an item, page, site, or si
 To identify usage trends and find out at what times activity is high or low, you can view **Popularity Trends** reports for a [site](view-popularity-trends-and-most-popular-items.md#__view_popularity_trends_1) or a [site collection](view-popularity-trends-and-most-popular-items.md#__view_popularity_trends_2). The reports show historical usage information, such as number of views (hits) and unique users per day or month. Popularity Trends for [a page or item in a library](view-popularity-trends-and-most-popular-items.md#__view_popularity_trends) in a library show how many views the page or item has had recently. 
   
 You can also view the [most popular items](view-popularity-trends-and-most-popular-items.md#__view_the_most) in a library. You'll see which items have the most views, either recently or ever (from the first time the item became available.) 
+
+>[!NOTE]
+> For SharePoint Modern sites, please see [View usage data for your SharePoint site](https://support.office.com/article/view-usage-data-for-your-sharepoint-site-2fa8ddc2-c4b3-4268-8d26-a772dc55779e).
   
 ## View Popularity Trends for a site
 <a name="__view_popularity_trends_1"> </a>
 
-1. On the site, click **Settings** \> **Site Settings**.
+1. On the site, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**.
     
 2. Under **Site Administration**, click **Popularity Trends**.
     
@@ -35,7 +39,7 @@ You can also view the [most popular items](view-popularity-trends-and-most-popul
 ## View Popularity Trends for a site collection
 <a name="__view_popularity_trends_2"> </a>
 
-1. In the site collection, click **Settings** \> **Site Settings**.
+1. On the site, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**.
     
 2. Under **Site Collection Administration**, click **Popularity and Search Reports**.
     
@@ -82,6 +86,6 @@ To see more details for each item, click the **Popularity Trends** link under ea
 ## View Usage and Search reports for all sites
 <a name="__view_the_most"> </a>
 
-If you're a SharePoint Online administrator, you can view usage and search reports for the whole tenant. See [View usage and search reports](view-search-usage-reports.md).
+If you're a global or SharePoint admin in Office 365, you can view search usage reports for the whole organization. See [View usage and search reports](view-search-usage-reports.md).
   
 

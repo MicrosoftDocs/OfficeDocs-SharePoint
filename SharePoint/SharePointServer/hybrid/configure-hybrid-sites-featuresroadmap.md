@@ -1,9 +1,10 @@
 ---
 title: "Configure hybrid sites features - roadmap"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
@@ -13,6 +14,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
+- M365-collaboration
 ms.custom: 
 ms.assetid: 4bd426f4-105c-41cf-a4b8-815db62191ce
 description: "Learn how to configure hybrid sites features for SharePoint hybrid with Office 365."

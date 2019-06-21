@@ -1,10 +1,11 @@
 ---
 title: "Choose a disaster recovery strategy for SharePoint Server"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
 ms.date: 3/10/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
@@ -24,7 +25,7 @@ description: "Understand the disaster recovery options and supported technologie
 We define disaster recovery as the ability to recover from a situation in which the primary data center that hosts a SharePoint Server farm is unable to continue to operate. Regardless of the nature of event and its cause, the data center outage is significant enough to set into motion the actions defined in your organization's disaster recovery plan. This means putting a fully operational farm into production using computer resources that are located in a data center that is not affected by the event.
   
     
-SharePoint Servers 2019, 2016, and 2013 and the SQL Servers that support them provide configuration and content recovery options that can meet the Recovery Time Objective (RTO) and Recovery Point Objective (RPO) that are required for your business if there is a disaster. For more information about these and other disaster recovery concepts, see [High availability and disaster recovery concepts in SharePoint Server](high-availability-and-disaster-recovery-concepts.md).
+SharePoint Servers 2019, 2016, 2013, and the SQL Servers that support them provide configuration and content recovery options that can meet the Recovery Time Objective (RTO) and Recovery Point Objective (RPO) that are required for your business if there is a disaster. For more information about these and other disaster recovery concepts, see [High availability and disaster recovery concepts in SharePoint Server](high-availability-and-disaster-recovery-concepts.md).
   
 ## Introduction
 <a name="Intro"> </a>
@@ -65,7 +66,7 @@ Each of these standby data centers has specific characteristics and requirements
     
     **Cons:** The slowest option to recover. 
     
-- Warm standby disaster recovery strategy: A business ships backups or virtual machine images to local and regional disaster recovery farms.
+- Warm standby disaster recovery strategy with [Azure Site Recovery](https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-sharepoint).
     
     **Pros:** Often fairly inexpensive to recover, because a virtual server farm can require little configuration upon recovery. 
     
@@ -82,7 +83,7 @@ Each of these standby data centers has specific characteristics and requirements
   
 ### Cold standby recovery
 
-In a cold standby disaster recovery scenario, you recover by setting up a new farm in a new location, (preferably by using a scripted deployment), and restoring backups. Or, you can recover by restoring the farm using a backup solution such as System Center - Data Protection Manager (DPM). DPM protects your data at the computer operating system level and lets you restore each server individually. This article does not contain detailed instructions for how to create and recover in cold standby scenarios. For more information, see:
+In a cold standby disaster recovery scenario, you recover by setting up a new farm in a new location (preferably by using a scripted deployment) and restoring backups. Or, you can recover by restoring the farm using a backup solution such as System Center - Data Protection Manager (DPM). DPM protects your data at the computer operating system level and lets you restore each server individually. This article does not contain detailed instructions for how to create and recover in cold standby scenarios. For more information, see:
   
 - [Overview of backup and recovery in SharePoint Server](backup-and-recovery-overview.md)
     
@@ -116,14 +117,14 @@ In a hot standby disaster recovery scenario, you set up a failover farm in the s
     > [!NOTE]
     > SQL Server mirroring can only be used to copy databases to a single mirror server, but you can log-ship to multiple secondary servers. 
   
-    The SQL Server database mirroring feature will be removed in future versions. We recommend that you avoid using this feature in new development work. Plan to change applications that currently use this feature. Use AlwaysOn Availability Groups instead.
+    The SQL Server database mirroring feature will be removed in future versions. We recommend that you avoid using this feature in new deployments. Plan to change applications that currently use this feature. Use AlwaysOn Availability Groups instead.
     
 - Service applications vary in whether they can be log-shipped to a farm. For more information, see [Service application redundancy](#ServiceAppRedundancy) later in this article. 
     
 The hot standby farm topology can be repeated across more than one data center, as long as you configure SQL Server log shipping to one or more additional data centers.
   
 > [!IMPORTANT]
-> Available network bandwidth and latency are major considerations when you are using a failover approach for disaster recovery. We recommend that you consult with your SAN vendor to determine whether you can use SAN replication or another supported mechanism to provide the hot standby level of availability across data centers. 
+> Available network bandwidth and latency are major considerations when you are using a failover approach for disaster recovery. We recommend that you consult with your SAN vendor to determine whether you can use SAN replication for SQL databases or another supported mechanism to provide the hot standby level of availability across data centers. Note that using SAN replication for SharePoint servers is not supported.
   
 ### Service application redundancy
 <a name="ServiceAppRedundancy"> </a>

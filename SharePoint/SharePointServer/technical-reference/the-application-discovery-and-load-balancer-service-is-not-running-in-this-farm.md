@@ -1,10 +1,11 @@
 ---
 title: "The Application Discovery and Load Balancer Service is not running in this farm (SharePoint Server)"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
 ms.date: 12/5/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: troubleshooting
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -44,7 +45,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: The Appl
     
 3. At the PowerShell command prompt, type the following command: 
   
- `Get-SPServiceInstance -ALL`
+   `Get-SPServiceInstance -ALL`
     
     For more information, see [Get-SPServiceInstance](/powershell/module/sharepoint-server/Get-SPServiceInstance?view=sharepoint-ps).
     
@@ -52,8 +53,8 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: The Appl
     
 5. Type the following command: 
   
- `Start-SPServiceInstance [-Identity]`
+   `Start-SPServiceInstance [-Identity]`
     
-    Where  _[-Identity]_ is the GUID for the Application Discovery and Load Balancer service. For more information, see [Start-SPServiceInstance](/powershell/module/sharepoint-server/Start-SPServiceInstance?view=sharepoint-ps).
+   Where  _[-Identity]_ is the GUID for the Application Discovery and Load Balancer service. You can run the Get-SPServiceInstance cmdlet to see the GUID of the service instance. For more information, see [Start-SPServiceInstance](/powershell/module/sharepoint-server/Start-SPServiceInstance?view=sharepoint-ps).
     
 

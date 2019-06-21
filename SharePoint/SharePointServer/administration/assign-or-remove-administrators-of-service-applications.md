@@ -1,10 +1,10 @@
 ---
 title: "Assign or remove administrators of service applications in SharePoint Server"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 3/3/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -38,99 +38,101 @@ You can assign or remove service application administrators by using the SharePo
     
 5. To add an administrator:
     
- - In the first text box on the page, type the user accounts or groups that you want to add. You can click the **People** icon to validate a name. You can click the **Address book** icon to search for users to add. You can add multiple administrators into the text box.
- - After you have added the administrators, click **OK**.
+   - In the first text box on the page, type the user accounts or groups that you want to add. You can click the **People** icon to validate a name. You can click the **Address book** icon to search for users to add. You can add multiple administrators into the text box.
+   - After you have added the administrators, click **OK**.
     
 6. To remove an administrator:
     
-  - In the second text box on the page, select the administrator whom you want to remove. Note that this step does not remove the user from the system—it merely revokes the user's administrative permissions to the selected service application.
-  - Click **Remove**.
-  - After you have finished removing administrators, click **OK**.
+   - In the second text box on the page, select the administrator whom you want to remove. Note that this step does not remove the user from the system—it merely revokes the user's administrative permissions to the selected service application.
+   - Click **Remove**.
+   - After you have finished removing administrators, click **OK**.
     
 ## To assign or remove administrators to a service application by using PowerShell
 
 1. Verify that you meet the following minimum requirements:
     
-  - You must have membership in the **securityadmin** fixed server role on the SQL Server instance 
+   - You must have membership in the **securityadmin** fixed server role on the SQL Server instance 
     
-  - You must have membership in the **db_owner** fixed database role on all databases that are to be updated. 
+   - You must have membership in the **db_owner** fixed database role on all databases that are to be updated. 
     
-  - You must be a member of the Administrators group on the server on which you are running the PowerShell cmdlet.
+   - You must be a member of the Administrators group on the server on which you are running the PowerShell cmdlet.
     
-    > [!NOTE]
-    > If these permissions are not satisfied, contact your Setup administrator or SQL Server administrator to request these permissions. 
+   > [!NOTE]
+   > If these permissions are not satisfied, contact your Setup administrator or SQL Server administrator to request these permissions. 
   
-    For additional information about PowerShell permissions, see [Permissions](/powershell/module/sharepoint-server/?view=sharepoint-ps#section3) and [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps)
+   For additional information about PowerShell permissions, see [Permissions](/powershell/module/sharepoint-server/?view=sharepoint-ps#section3) and [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps)
     
 2. Start the SharePoint Management Shell.
     
 3. To create a claims principal, at the PowerShell command prompt, type the following command:
     
-  ```
-  $principal = New-SPClaimsPrincipal "<contoso\jane>" -IdentityType WindowsSamAccountName
+   ```powershell
+   $principal = New-SPClaimsPrincipal "<contoso\jane>" -IdentityType WindowsSamAccountName
   
-  ```
+   ```
 
-    Where  _\<contoso\jane\>_ is the user name for which you want to assign administrative permissions. The user name should be entered in the form of **jane@contoso.com** or **contoso\jane**. The new claims principal is stored in the  _$principal_ variable. 
+
+   Where  _contoso\jane_ is the user name for which you want to assign administrative permissions. The user name should be entered in the form of jane@contoso.com or **contoso\jane**. The new claims principal is stored in the  _$principal_ variable. 
     
 4. To retrieve the service application, type the following command:
     
-  ```
-  $spapp = Get-SPServiceApplication -Name "<ServiceApplicationDisplayName>"
-  ```
+   ```powershell
+   $spapp = Get-SPServiceApplication -Name "<ServiceApplicationDisplayName>"
+   ```
 
-    Where  _\<ServiceApplicationDisplayName\>_ is the display name of the service application. The service application identification is stored in the  _$spapp_ variable. 
+
+   Where  _ServiceApplicationDisplayName_ is the display name of the service application. The service application identification is stored in the  _$spapp_ variable. 
     
-    > [!IMPORTANT]
-    > The display name must be enclosed in quotation marks, and it must exactly match the service application display name. This includes capitalization. If you have more than one service application that has the identical display name (we do not recommend this), you can use the **Get-SPServiceApplication** cmdlet to view all service applications. You can then identify the service application by its GUID. For more information, see [Get-SPServiceApplication](/powershell/module/sharepoint-server/Get-SPServiceApplication?view=sharepoint-ps). 
+   > [!IMPORTANT]
+   > The display name must be enclosed in quotation marks, and it must exactly match the service application display name. This includes capitalization. If you have more than one service application that has the identical display name (we do not recommend this), you can use the **Get-SPServiceApplication** cmdlet to view all service applications. You can then identify the service application by its GUID. For more information, see [Get-SPServiceApplication](/powershell/module/sharepoint-server/Get-SPServiceApplication?view=sharepoint-ps). 
   
 5. To retrieve the administrator security object for the service application, type the following command:
     
-  ```
-  $security = Get-SPServiceApplicationSecurity $spapp -Admin
-  ```
+   ```powershell
+   $security = Get-SPServiceApplicationSecurity $spapp -Admin
+   ```
 
-    The retrieved administrator security object is stored in the  _$security_ variable. 
-    
-    > [!CAUTION]
-    > It is important that you append the **-Admin** argument when you use this command. 
+   The retrieved administrator security object is stored in the  _$security_ variable. 
+
+   > [!CAUTION]
+   > It is important that you append the **-Admin** argument when you use this command. 
   
 6. To assign or revoke administrative permissions for the user who is identified by the new claims principal  _$principal_ (created in step 6 of this procedure) to the service application administrator security object  _$security_ (obtained in step 8 of this procedure), use the appropriate command as shown in the following example: 
     
-  - To assign administrative permissions, type the following command: 
+   - To assign administrative permissions, type the following command: 
     
-  ```
-  Grant-SPObjectSecurity $security $principal "Full Control"
+   ```powershell
+   Grant-SPObjectSecurity $security $principal "Full Control"
   
-  ```
+   ```
 
-  - To revoke administrative permissions, type the following command:
+   - To revoke administrative permissions, type the following command:
     
-  ```
-  Revoke-SPObjectSecurity $security $principal
-  ```
+   ```powershell
+   Revoke-SPObjectSecurity $security $principal
+   ```
 
 7. To assign the updated  _$security_ security object to the service application, type the following command: 
     
-  ```
-  Set-SPServiceApplicationSecurity $spapp $security -Admin
-  ```
+   ```powershell
+   Set-SPServiceApplicationSecurity $spapp $security -Admin
+   ```
 
-    > [!CAUTION]
-    > It is important that you append the **-Admin** argument when you use this command. 
-  
+   > [!CAUTION]
+   > It is important that you append the **-Admin** argument when you use this command. 
+
 8. To confirm that the service application's security object is updated appropriately, type the following command: 
     
-  ```
-  (Get-SPServiceApplicationSecurity $spapp -Admin).AccessRules
+   ```powershell
+   (Get-SPServiceApplicationSecurity $spapp -Admin).AccessRules
   
-  ```
+   ```
 
 ### Examples
 
 In the following example, the service account user "contoso\jane" is added to the administrators security object for the service application named "Contoso Visio Graphics".
   
-```
+```powershell
 $principal = New-SPClaimsPrincipal "contoso\jane" -IdentityType WindowsSamAccountName
 $spapp = Get-SPServiceApplication -Name "Contoso Visio Graphics"
 $security = Get-SPServiceApplicationSecurity $spapp -Admin
@@ -141,7 +143,7 @@ Set-SPServiceApplicationSecurity $spapp $security -Admin
 
 In the following example, the service account user "contoso\jane" is removed from the administrators security object for the service application named "Contoso Visio Graphics".
   
-```
+```powershell
 $principal = New-SPClaimsPrincipal "contoso\jane" -IdentityType WindowsSamAccountName
 $spapp = Get-SPServiceApplication -Name "Contoso Visio Graphics"
 $security = Get-SPServiceApplicationSecurity $spapp -Admin

@@ -1,10 +1,11 @@
 ---
 title: "Search limits for SharePoint Online"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
 ms.date: 9/1/2017
-ms.audience: End User
+audience: End User
 ms.topic: reference
 ms.service: sharepoint-online
 localization_priority: Normal
@@ -17,7 +18,7 @@ description: "As an admin who manages SharePoint Online (for more information, s
 
 # Search limits for SharePoint Online
 
-As an admin who manages SharePoint Online (for more information, see [SharePoint Online search administration overview](manage-search-the-admin-center.md)), you should also be aware of limits to search. For example, there are limits to the number of entries you can have in a custom search dictionary or the number of rows that are returned as part of a search. 
+As an admin who manages SharePoint Online (for more information, see [SharePoint Online search administration overview](manage-search-the-admin-center.md)), you should also be aware of limits to search. For example, there are limits to the number of entries you can have in a custom search dictionary or the number of rows that are returned as part of a search.
   
 There are two types of limits:
   
@@ -27,8 +28,6 @@ There are two types of limits:
     
     If you exceed a supported limit, you might encounter unexpected results or see a significant decrease in performance.
     
-> [!NOTE]
-> Alphanumeric data in Microsoft Excel documents is indexed and searched, but numeric data is not. For example, the string "PO123456789" would be returned in search results, but the number "123456789" would not. 
   
 These limits apply to all SharePoint Online plans.
   
@@ -50,7 +49,6 @@ The following table lists the limits for SharePoint Online search.
 |Authoritative pages  <br/> |1 top level and minimal second- and third-level pages per tenant  <br/> |Supported  <br/> |Use as few second- and third-level pages as possible while still achieving the desired relevance.  <br/> If you add additional pages you may not achieve the desired relevance. Add the key site to the first relevance level. Add more key sites at either second or third relevance levels, one at a time. Evaluate relevance after each addition to ensure that you have achieved the desired relevance effect.  <br/> |
 |Text length for queries using Keyword Query Language  <br/> |4 KB (4,096 characters)  <br/> |Boundary  <br/> |For Discovery queries the maximum text length is 16 KB (16,384 characters).  <br/> |
 |Number of rows in a result set  <br/> |500  <br/> |Boundary  <br/> |To display the entire result set, issue more paging queries.  <br/> For Discovery queries the maximum number of rows in a result set is 10,000.  <br/> |
-|Ranking models  <br/> |1,000 per tenant  <br/> |Boundary  <br/> |Approaching this limit can have negative effect on the overall system performance.  <br/> |
 |User-defined full-text indexes  <br/> |3  <br/> |Boundary  <br/> ||
 |Maximum number of on-premises items indexed in Office 365  <br/> |20 million items  <br/> |Threshold  <br/> |For each 1 TB of storage space your tenant has in Office 365, you can index 1 million items of on-premises content in your tenant's search index in Office 365 with the cloud hybrid search solution. This quota is by default limited upwards to 20 million items. To increase the number of items that can be indexed beyond 20 million items, contact Microsoft Support.  <br/> |
    

@@ -1,10 +1,11 @@
 ---
 title: "Configure hybrid SharePoint taxonomy and hybrid content types"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 01/23/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
@@ -13,6 +14,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_SharePoint_Hybrid_Top
 - Strat_SP_gtc
+- M365-collaboration
 ms.custom: 
 ms.assetid: 0809325c-9b99-46bf-b98d-6d2f5e3d2a4b
 description: "In this article, we look at how to configure hybrid SharePoint taxonomy and hybrid content types."
@@ -47,7 +49,7 @@ This video shows a walkthrough of configuring hybrid taxonomy and hybrid content
 
 If you have an existing taxonomy in SharePoint Server, the best practice is to copy any term groups you want to be part of the shared taxonomy to SharePoint Online before you configure hybrid SharePoint taxonomy. You can migrate additional taxonomy groups from SharePoint Server to SharePoint Online to add to the shared taxonomy later, but if you do you may need to run the configuration wizard again to include them in the shared taxonomy.
   
-The migration process copies taxonomy groups from SharePoint Server to SharePoint Online. This is done by using the [Copy-SPTaxonomyGroups](/powershell/module/sharepoint-server/Copy-SPTaxonomyGroups?view=sharepoint-ps) PoShell cmdlet. 
+The migration process copies taxonomy groups from SharePoint Server to SharePoint Online. This is done by using the [Copy-SPTaxonomyGroups](/powershell/module/sharepoint-server/Copy-SPTaxonomyGroups?view=sharepoint-ps) PowerShell cmdlet. 
   
  **Active Directory groups**
   
@@ -65,7 +67,9 @@ Copying taxonomy groups is done using the Copy-SPTaxonomyGroups PowerShell cmdle
     
 - The URL of the SharePoint Server site where your taxonomy store is located.
     
-- The URL of the location of the SharePoint Online site where your term store is located (http://\<TenantName\>.sharepoint.com).
+- The URL of the SharePoint Online site where your term store is located (http://\<TenantName\>.sharepoint.com).
+
+- Taxonomy groups in SharePoint Server to be copied to SharePoint Online.
     
 - Your Office 365 global administrator credentials.
 
@@ -83,7 +87,7 @@ $credential = Get-Credential
 ```
 
 ```
-Copy-SPTaxonomyGroups -LocalTermStoreName "<ManagedMetadataServiceApplicatoin>" -LocalSiteUrl "<OnPremisesSiteURL>" -RemoteSiteUrl "SharePointOnlineSiteURL" -GroupNames "Group1","Group2" -Credential $credential
+Copy-SPTaxonomyGroups -LocalTermStoreName "<ManagedMetadataServiceApplication>" -LocalSiteUrl "<OnPremisesSiteURL>" -RemoteSiteUrl "SharePointOnlineSiteURL" -GroupNames "Group1","Group2" -Credential $credential
 ```
 
 For example:

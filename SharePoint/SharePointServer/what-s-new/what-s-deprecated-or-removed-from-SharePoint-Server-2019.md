@@ -1,9 +1,10 @@
 ---
 title: "What's deprecated or removed from SharePoint Server 2019"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: overview
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
@@ -121,9 +122,17 @@ As announced by the Windows Server team, Microsoft is [deprecating](/windows-ser
 
 As Microsoft continues to innovate in SharePoint Online, an increasing amount of SharePoint multi-tenancy capabilities are taking dependencies on cloud technologies that aren’t available in on-premises environments. The cost and complexity of providing an on-premises alternative has become prohibitive, so we will no longer support multi-tenancy in the SharePoint Server 2019 release. Existing SharePoint Server customers who depend on multi-tenancy are recommended to explore migrating to SharePoint Online. Other options include migrating to a non-multi-tenancy farm configuration or remaining with SharePoint Server 2016.
 
+### PDF Viewer (SharePoint Server 2019 Preview)
+
+SharePoint Server 2019 Preview included a built-in PDF viewer which allowed SharePoint to render PDF documents. This feature was removed from the RTM release of SharePoint Server 2019. Customers can instead use the native PDF rendering capabilities available in most web browsers and client devices.
+
 ### PowerPivot Gallery and Refresh
 
 Since the feature was first introduced in SharePoint, Microsoft BI strategy has shifted away from heavy integration to a standalone BI solution, Power BI, to give customers a flexible, optional integration with SharePoint along with standalone capabilities.  Both [PowerBI.com](https://powerbi.com/) and [Power BI Report Server](https://powerbi.microsoft.com/report-server/) offer the option to host and view Excel Workbooks with PowerPivot models today and is the preferred method for customers going forward to host and use their Excel Workbooks with PowerPivot models, or simply to migrate to PBIX files using the migration option in Power BI Desktop for Excel Workbooks.
+
+### SharePoint Workflow Manager (SharePoint Server 2019 Preview)
+
+Microsoft announced that SharePoint Server 2019 Preview would support a new workflow management application called SharePoint Workflow Manager to run SharePoint Server 2013 workflows. However, the SharePoint Workflow Manager application was canceled before its final release. The RTM release of SharePoint Server 2019 supports [Service Bus 1.1](https://support.microsoft.com/help/4077554/add-support-for-tls-1-1-and-tls-1-2-on-service-bus-for-windows-server) and [Microsoft Workflow Manager 1.0 CU5](https://support.microsoft.com/help/4055730/description-of-the-cumulative-update-5-for-workflow-manager-1-0) to run SharePoint Server 2013 workflows. For more information, see [Install and configure workflow in SharePoint Server](/sharepoint/governance/install-and-configure-workflow-for-sharepoint-server).
 
 ### Visio Services - Silverlight Based Rendering
 

@@ -1,15 +1,21 @@
 ---
 title: Guide to the Modern experience in SharePoint
+ms.reviewer: 
 ms.author: loreenl
 author: loreenla
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
-search.appverid: MET150
 localization_priority: Priority
+ms.collection:  
+- Strat_SP_modern
+- M365-collaboration
+search.appverid:
+- SPO160
+- MET150
 description: "Learn about the SharePoint modern experience."
-...
+---
 
 # Guide to the Modern experience in SharePoint
 
@@ -39,5 +45,5 @@ Search is an important part of any site – you want people to be able to find w
 
 ## Sharing and permissions
 
-SharePoint Online continues to provide both SharePoint groups as well as security groups maintained by Azure Active Directory. Office 365 also provides a third grouping option for SharePoint, [Office 365 Groups](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2). Office 365 Groups are similar to security groups, although Office 365 Groups include many additional benefits. Office 365 groups are provided a group email address as well as additional tools such as a group calendar, notebook, Planner, and a SharePoint Team site. Users assigned to an Office 365 Group may also be classified as either a group owner or a group reader, in comparison to security groups where all group members have equal access under the group. Learn about the differences, benefits, and best practices for permissions and sharing in the modern experience in [Sharing and permissions in the SharePoint modern experience](sharing-permissions-modern-experience.md).
+SharePoint Online continues to provide both SharePoint groups as well as security groups maintained by Azure Active Directory. Office 365 also provides a third grouping option for SharePoint, [Office 365 Groups](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2). Office 365 Groups are similar to security groups, although Office 365 Groups include many additional benefits. Office 365 groups are provided a group email address as well as additional tools such as a group calendar, notebook, Planner, and a SharePoint Team site. Users assigned to an Office 365 Group may also be classified as either a group owner or a group member, in comparison to security groups where all group members have equal access under the group. Learn about the differences, benefits, and best practices for permissions and sharing in the modern experience in [Sharing and permissions in the SharePoint modern experience](sharing-permissions-modern-experience.md).
 

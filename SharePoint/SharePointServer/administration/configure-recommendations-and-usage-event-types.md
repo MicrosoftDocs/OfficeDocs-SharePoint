@@ -1,10 +1,11 @@
 ---
 title: "Configure recommendations and usage event types in SharePoint Server"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
 ms.date: 9/11/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -67,11 +68,11 @@ There are three default usage event types in SharePoint Server. You can create u
   
   ```
 
-    Where:
+   Where:
     
   -  \<SiteName\> is the name of the site for which you want to create a custom usage event. 
     
-  - <EventTypeName> is the name of the new custom usage event type that you want to create — for example,  *BuyEventType*  . 
+  - \<EventTypeName\> is the name of the new custom usage event type that you want to create — for example,  *BuyEventType*  . 
     
     This procedure creates a random GUID for the usage event type. Use this GUID when you add code to record the custom usage event, as described in [Record a custom usage event](configure-recommendations-and-usage-event-types.md#BKMK_RecordCustomUsageEvent).
     
@@ -133,7 +134,7 @@ If you are using cross-site publishing, where you show catalog content on a publ
 
   - <CustomUsageEventType> is the name of the custom event — for example,  *BuyEventType*  . 
     
-  - <GUID> is the numeric ID of the usage event type — for example,  *4e605543-63cf-4b5f-aab6-99a10b8fb257*  . 
+  - <GUID> is the numeric ID of the usage event type — for example,  *4e605543-63cf-4b5f-aab6-99a10b8fb257*. 
     
 5. In an HTML editor, open the file that refers to the custom usage event, and add the following code:
     
@@ -143,11 +144,11 @@ If you are using cross-site publishing, where you show catalog content on a publ
   
   ```
 
-    Where:
+   Where:
     
   - \<CustomUsageEventType\> is the name of the custom event type.
     
-  - <URL> is the full URL of the item to which the usage event should be logged — for example,  *http://contoso.com/faq*  . 
+  - \<URL\> is the full URL of the item to which the usage event should be logged — for example,  *http://contoso.com/faq*  . 
     
  **To add code to record a custom usage event and override site settings**
   
@@ -193,11 +194,11 @@ If you are using cross-site publishing, where you show catalog content on a publ
   
   ```
 
-    Where:
+   Where:
     
-  - <CustomUsageEventType> is the name of the custom event type — for example,  *BuyEventType*  . 
+  - \<CustomUsageEventType\> is the name of the custom event type — for example,  *BuyEventType*  . 
     
-  - <GUID> is the numeric ID of the usage event type — for example,  *4e605543-63cf-4b5f-aab6-99a10b8fb257*  . 
+  - \<GUID\> is the numeric ID of the usage event type — for example, *4e605543-63cf-4b5f-aab6-99a10b8fb257*  . 
     
 5. In an HTML editor, open the file that refers to the custom usage event type, and add the following code:
     
@@ -207,15 +208,15 @@ If you are using cross-site publishing, where you show catalog content on a publ
   
   ```
 
-    Where:
+   Where:
     
   - \<CustomUsageEventType\> is the name of the custom event type — for example, BuyEventType.
     
   - \<URL\> is the URL found in the managed property OriginalPath.
     
-  - <SiteId GUID> is the SiteId GUID of the authoring site. For information about how to get the SiteId GUID, see [Get SiteId GUID and WebId GUID for a site](configure-recommendations-and-usage-event-types.md#BKMK_GetGUID).
+  - \<SiteId GUID\> is the SiteId GUID of the authoring site. For information about how to get the SiteId GUID, see [Get SiteId GUID and WebId GUID for a site](configure-recommendations-and-usage-event-types.md#BKMK_GetGUID).
     
-  - <WebId GUID> is the WebId GUID of the authoring site. For information about how to get the WebId GUID, see [Get SiteId GUID and WebId GUID for a site](configure-recommendations-and-usage-event-types.md#BKMK_GetGUID).
+  - \<WebId GUID\> is the WebId GUID of the authoring site. For information about how to get the WebId GUID, see [Get SiteId GUID and WebId GUID for a site](configure-recommendations-and-usage-event-types.md#BKMK_GetGUID).
     
   - \<UserName\> can be a cookie ID that is used to identify users on a site that has anonymous users.
     
@@ -269,11 +270,11 @@ If you are using cross-site publishing, which shows catalog content on a publish
   
   ```
 
-    Where:
+   Where:
     
-  - <DefaultUsageEventType> is the name of the default usage event type — for example,  *Views*  . 
+  - \<DefaultUsageEventType\> is the name of the default usage event type — for example, *Views*. 
     
-  - <EventTypeId> is the numeric ID of the usage event type — for example,  *1*  . 
+  - \<EventTypeId\> is the numeric ID of the usage event type — for example, *1*. 
     
 5. In an HTML editor, open the file that refers to the default usage event, and add the following code:
     
@@ -282,9 +283,9 @@ If you are using cross-site publishing, which shows catalog content on a publish
   <body onload="Log<DefaultUsageEventType>ToEventStore('<URL>')"> 
   ```
 
-    Where:
+   Where:
     
-  - <DefaultUsageEventType> is the name of the default usage event type — for example,  *Views*  . 
+  - \<DefaultUsageEventType\> is the name of the default usage event type — for example,  *Views*  . 
     
   - \<URL\> is the full URL of the item to which the usage event should be logged, — for example,  *http://contoso.com/careers* 
     
@@ -333,11 +334,11 @@ If you are using cross-site publishing, which shows catalog content on a publish
   
   ```
 
-    Where:
+   Where:
     
-  - <DefaultUsageEventType> is the name of the default event type — for example,  *Views*  . 
+  - \<DefaultUsageEventType\> is the name of the default event type — for example,  *Views*  . 
     
-  - <EventTypeId> is the numeric ID of the usage event type — for example,  *1*  . 
+  - \<EventTypeId\> is the numeric ID of the usage event type — for example,  *1*  . 
     
 5. In an HTML editor, open the file that refers to the default usage event type, and add the following code:
     
@@ -347,15 +348,15 @@ If you are using cross-site publishing, which shows catalog content on a publish
   
   ```
 
-    Where:
+   Where:
     
-  - <DefaultUsageEventType> is the name of the default event type — for example,  *Views*  . 
+  - \<DefaultUsageEventType\> is the name of the default event type — for example,  *Views*  . 
     
-  - <URL> is the URL in the managed property  *OriginalPath*  . 
+  - \<URL\> is the URL in the managed property  *OriginalPath*  . 
     
-  - <SiteId GUID> is the SiteId GUID of the authoring site. For information on how to get the SiteId GUID, see [Get SiteId GUID and WebId GUID for a site](configure-recommendations-and-usage-event-types.md#BKMK_GetGUID).
+  - \<SiteId GUID\> is the SiteId GUID of the authoring site. For information on how to get the SiteId GUID, see [Get SiteId GUID and WebId GUID for a site](configure-recommendations-and-usage-event-types.md#BKMK_GetGUID).
     
-  - <WebId GUID> is the WebId GUID of the authoring site. For information on how to get the WebId GUID, see [Get SiteId GUID and WebId GUID for a site](configure-recommendations-and-usage-event-types.md#BKMK_GetGUID).
+  - \<WebId GUID\> is the WebId GUID of the authoring site. For information on how to get the WebId GUID, see [Get SiteId GUID and WebId GUID for a site](configure-recommendations-and-usage-event-types.md#BKMK_GetGUID).
     
   - \<UserName\> can be a cookie ID that is used to identify users on a site that has anonymous users, for example.
     
@@ -405,11 +406,11 @@ The usage event type property, **RecommendationWeight**, is a numeric value that
   
   ```
 
-    Where:
+   Where:
     
-  - <EventTypeId> is the numeric ID of the usage event type for which you want to change the weight — for example,  *256*  . 
-    
-  - <RecommendationWeightNumber> is the level of importance that you want to apply to the user event type — for example,  *4*  . 
+  - \<EventTypeId\> is the numeric ID of the usage event type for which you want to change the weight — for example, *256*. 
+ 
+  - \<RecommendationWeightNumber\> is the level of importance that you want to apply to the user event type — for example, *4*. 
     
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
@@ -457,11 +458,11 @@ The usage event type property **RecentPopularityTimeframe** is a numeric value t
   
   ```
 
-    Where:
+   Where:
     
-  - <EventTypeId> is the numeric ID of the usage event type for which you want to change the **Recent** time frame — for example,  *256*  . 
+  - \<EventTypeId\> is the numeric ID of the usage event type for which you want to change the **Recent** time frame — for example,  *256*  . 
     
-  - <TimeFrame> is the new **Recent** time frame that you want to apply to the user event type — for example,  *7*  . 
+  - \<TimeFrame\> is the new **Recent** time frame that you want to apply to the user event type — for example, *7*. 
     
     > [!NOTE]
     > The system updates any changes to the Recent time period only after the Usage Analytics Timer Job has run. 
@@ -512,9 +513,9 @@ Users that are browsing the contents of a site without being connected to an acc
   
   ```
 
-    Where:
+   Where:
     
-  - <EventTypeId> is the numeric ID of the usage event type that you want to enable for the logging of anonymous users — for example,  *256*  . 
+  - \<EventTypeId\> is the numeric ID of the usage event type that you want to enable for the logging of anonymous users — for example, *256*. 
     
  **To disable the logging of usage events of anonymous users**
   
@@ -552,9 +553,9 @@ Users that are browsing the contents of a site without being connected to an acc
   
   ```
 
-    Where:
+   Where:
     
-  - <EventTypeId> is the numeric ID of the usage event type that you want to disable for the logging of anonymous users — for example,  *256*  . 
+  - \<EventTypeId\> is the numeric ID of the usage event type that you want to disable for the logging of anonymous users — for example, *256*. 
     
     > [!NOTE]
     > For the default usage event type  *Views*  , you cannot disable the logging of anonymous users. 
@@ -601,7 +602,7 @@ You can use the following PowerShell commands to get the SiteId GUID and the Web
   
   ```
 
-    Where:
+   Where:
     
   -  _\<RootSiteURL\>_ is the URL of the root site that you want to get the SiteId GUID and the WebId GUID of — for example,  _http://contoso.com/sites/catalog_.
     

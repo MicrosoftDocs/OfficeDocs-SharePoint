@@ -1,10 +1,11 @@
 ---
 title: "Best practices for crawling in SharePoint Server"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen
 ms.date: 3/7/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -118,8 +119,8 @@ However, if you are deploying "People Search", we recommend that you create a se
 ## Use continuous crawls to help ensure that search results are fresh
 <a name="BKMK_UseContinuousCrawls"> </a>
 
- **Enable continuous crawls** is a crawl schedule option that you can select when you add or edit a content source of type **SharePoint Sites**. A continuous crawl crawls content that was added, changed, or deleted since the last crawl. A continuous crawl starts at predefined time intervals. The default interval is every 15 minutes, but you can set continuous crawls to occur at shorter intervals by using Microsoft PowerShell. Because continuous crawls occur so often, they help ensure search-index freshness, even for SharePoint Server content that is frequently updated. Also, while an incremental or full crawl is delayed by multiple crawl attempts that are returning an error for a particular item, a continuous crawl can be crawling other content and contributing to index freshness, because a continuous crawl does not process or retry items that return errors more than three times. (For content sources that have continuous crawls enabled, a "clean-up" incremental crawl automatically runs every four hours to re-crawl any items that repeatedly return errors.)
-  
+ **Enable continuous crawls** is a crawl schedule option that you can select when you add or edit a content source of type **SharePoint Sites**. A continuous crawl crawls content that was added, changed, or deleted since the last crawl. A continuous crawl starts at predefined time intervals. The default interval is every 15 minutes, but you can set continuous crawls to occur at shorter intervals by using Microsoft PowerShell. Because continuous crawls occur so often, they help ensure search-index freshness, even for SharePoint Server content that is frequently updated. Also, while an incremental or full crawl is delayed by multiple crawl attempts that are returning an error for a particular item, a continuous crawl can be crawling other content and contributing to index freshness, because a continuous crawl doesn't process or retry items that repeatedly return errors. Such errors are retried during a "clean-up" incremental crawl, which automatically runs every four hours for content sources that have continuous crawl enabled. Items that continue to return errors during the incremental crawl will be retried during future incremental crawls, but will not be picked up by the continuous crawls until the errors are resolved.
+
 A single continuous crawl includes all content sources in a Search service application for which continuous crawls are enabled. Similarly, the continuous crawl interval applies to all content sources in the Search service application for which continuous crawls are enabled. For more information, see [Manage continuous crawls in SharePoint Server](manage-continuous-crawls.md).
   
 Continuous crawls increase the load on the crawler and on crawl targets. Make sure that you plan and scale out accordingly for this increased consumption of resources. For each large content source for which you enable continuous crawls, we recommend that you configure one or more front-end web servers as dedicated targets for crawling. For more information, see [Manage crawl load (SharePoint Server 2010)](/previous-versions/office/sharepoint-server-2010/dd335962(v=office.14)).

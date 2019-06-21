@@ -1,16 +1,20 @@
 ---
 title: "How to format your CSV or JSon file for data content migration"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
-ms.date: 5/9/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
 ms.collection: 
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
+- Migration
+- SPMigration
+- M365-collaboration
+search.appverid: MET150
 ms.custom: 
 ms.assetid: 
 description: "How to format your JSON or CSV file for data content migration"
@@ -44,7 +48,7 @@ https://sharepoint2013.com/sites/contosoteamsite/,DocumentLibraryName,DocLibrary
 >  *Do not*  include a header row in your CSV file. The second example included headers to demonstrate the order of the fields. Remember to account for all six columns in the file, even if you are not needing a value for a given field. 
   
 > [!IMPORTANT]
-> If you use the standard out-of-the-box Document library ("Shared Documents"), you must use the internal name "Documents" as the placeholder value for the  *Source Document Library*  (Column B) OR your  *Target Document Library*  (Column E) in your CSV file. If you enter "Shared Documents" in that column, you will receive an "invalid document library" error. 
+> If you use the standard out-of-the-box Document library ("Shared Documents"), you must use the internal name "Documents" as the placeholder value for the  *Source Document Library*  (Column B) in your CSV file. If you enter "Shared Documents" in that column, you will receive an "invalid document library" error. 
   
 > [!IMPORTANT]
 > Proxy connections are not supported. Using Proxy connections will yield errors such as "SharePoint login fail" or "cannot load document library". 

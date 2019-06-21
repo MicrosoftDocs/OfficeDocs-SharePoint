@@ -1,10 +1,11 @@
 ---
 title: "Change settings for the Refinement Web Part"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
 ms.date: 6/29/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
@@ -19,9 +20,9 @@ description: "Learn how to customize refiners on search results pages by changin
 
 The Refinement Web Part filters search results into categories called refiners. Users can click these refiners to narrow search results to find what they're looking for more easily. 
   
-By default, the Refinement Web Part is used on all default search vertical pages, which are the search results pages for **Everything**, **People**, **Conversations**, and **Videos**.
+By default, the Refinement Web Part is used on all default search vertical pages in the Enterprise Search Center, which are the search results pages for **Everything**, **People**, **Conversations**, and **Videos**.
   
-As a SharePoint Online administrator, you can change how the Refinement Web Part is set up. You can:
+As a global or SharePoint admin in Office 365, you can change how the Refinement Web Part is set up. You can:
   
 - Filter search results from a different Search Results Web Part.
     
@@ -58,12 +59,12 @@ As a SharePoint Online administrator, you can change how the Refinement Web Part
   
 8. Click **OK**.
     
-## Change the display name for a refiner
+## Change the display name for a refiner in the classic search experience
 <a name="__change_the_display"> </a>
 
 By default, the name of the managed property will be used as a display name for the refiner. In many cases, the managed property name is hard to understand—for example, **RefinableString00** or **ColorOWSTEXT**. You can fix this by changing the name of the refiner in a JavaScript file.
   
-1. On the page that contains the Refinement Web Part, on the **Settings** menu, click **Site Settings**.
+1. On the page that contains the Refinement Web Part, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**.
     
 2. On the **Site Settings** page, in the **Web Designer Galleries** section, click **Master pages and page layouts**. 
     
@@ -90,7 +91,7 @@ By default, the name of the managed property will be used as a display name for 
 
 By default, the Refinement Web Part doesn't show refiner counts — that is, the number of results for each refiner value. For example, if you've enabled the managed property Color as a refiner, the refiner values will be colors, such as Red, Green, and Blue. You can add refiner counts by changing a value in an HTML file so that the refiner values are shown as Red (10), Green (12), and Blue (8).
   
-1. On the page that contains the Refinement Web Part, on the **Settings** menu, click **Site Settings**.
+1. On the page that contains the Refinement Web Part, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**.
     
 2. On the **Site Settings** page, in the **Web Designer Galleries** section, click **Master pages and page layouts**. 
     

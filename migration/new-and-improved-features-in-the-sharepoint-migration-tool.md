@@ -1,21 +1,63 @@
 ---
 title: "New and improved features in the SharePoint Migration Tool"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
+mscollection: 
+- SPMigration
+- M365-collaboration
 localization_priority: Normal
+search.appverid: MET150
 description: "Learn about the new features and updates to existing features in SharePoint Migration Tool."
 ---
 
-# Release Notes:  New and improved features in the SharePoint Migration Tool
+# Release Notes:  SharePoint Migration Tool (SPMT)
 
 Learn about the new features and updates to existing features in SharePoint Migration Tool.
   
 >[!NOTE]
->To install the current release download here: [SharePoint Migration Tool](http://spmtreleasescus.blob.core.windows.net/install/default.htm)
+>To install the current release download here: [SharePoint Migration Tool ](http://spmtreleasescus.blob.core.windows.net/install/default.htm)
+
+>[!NOTE]
+>**NEW**: To download the new public preview release: [SharePoint Migration Tool Public Preview](https://spmtreleasescus.blob.core.windows.net/betainstall/default.htm)
+
+### SPMT Public Preview 3.0.111.1 
+
+- Support for SharePoint Server 2010 site migration
+
+
+### SPMT V3.1.110.1 (Current release)
+
+**New features**
+
+The following features were added to the SharePoint Migration Tool V3.0.
+
+|**Feature**|**Description**|
+|:-----|:-----|
+|Site migration|SharePoint sites that are "out of the box" - sites that do not use any coding or 3rd party tools - can now be migrated. SPMT now preserves site audits. |
+|Navigation|Migration of navigation and icons is now supported.|
+|Site descriptions|Site description can now be migrated.|
+|SharePoint webparts|SPMT now supports the migration of SharePoint webparts. See the full list of SPMT supported web parts: [SPMT Supported SharePoint Webparts](spmt-supported-webparts.md).|
+|Page migration|Pages in the site asset library can now be migrated.|
+|Managed metadata|This release supports the migration of content types and term stores. Global term store migration requires global tenant admin permissions.|
+|JSON improvements|Task level settings are now supported for bulk upload using JSON.|
+|Filtering|Added Site and list filtering in settings|
+
+
+**Improvements**
+
+In addition to several minor fixes, here are the primary improvements made in this release:
+
+
+|**Issue**|**Fix**|
+|:----|:-----|
+|Stability|General improvements have been made to remove some errors in tool.|
+
+
 
 ### SPMT V2.1.102.0
 

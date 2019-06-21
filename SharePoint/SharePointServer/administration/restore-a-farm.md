@@ -1,9 +1,10 @@
 ---
 title: "Restore farms in SharePoint Server"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -94,40 +95,38 @@ You can use Microsoft PowerShell to restore a farm.
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  Restore-SPFarm -Directory <BackupFolder> -RestoreMethod Overwrite [-BackupId <GUID>]
-  ```
+   ```powershell
+   Restore-SPFarm -Directory <BackupFolder> -RestoreMethod Overwrite [-BackupId <GUID>]
+   ```
 
-Where:
+   Where:
     
-  -  _\<BackupFolder\>_ is the path of the folder you use for storing backup files. 
+   -  _\<BackupFolder\>_ is the path of the folder you use for storing backup files. 
     
-  -  _\<GUID\>_ is the identifier of the backup to restore from. 
+   -  _\<GUID\>_ is the identifier of the backup to restore from. 
     
    > [!NOTE]
    > If you are not logged on as the Farm account, you are prompted for the Farm account's credentials. 
   
-If you do not specify the `BackupId`, the most recent backup will be used. To view the backups for the farm, at the Microsoft PowerShell command prompt, type the following command: 
+   If you do not specify the `BackupId`, the most recent backup will be used. To view the backups for the farm, at the Microsoft PowerShell command prompt,type the following command: 
     
-  ```
+   ```powershell
    Get-SPBackupHistory -Directory <BackupFolder> -ShowBackup [-Verbose]
-  ```
+   ```
 
-Where:
+   Where:
     
-  -  _\<BackupFolder\>_ is the path of the folder you use for storing backup files. 
+   -  _\<BackupFolder\>_ is the path of the folder you use for storing backup files. 
     
-     You cannot use a configuration-only backup to restore content databases together with the configuration. 
+    You cannot use a configuration-only backup to restore content databases together with the configuration. 
     
 4. To restart a service application, at the PowerShell command prompt, type the following command:
     
-  ```
+   ```powershell
    Start-SPServiceInstance -Identity <ServiceApplicationID>
-  ```
+   ```
 
-Where:
-    
- -  _\<ServiceApplicationID\>_ is the GUID of the service application. 
+   Where _\<ServiceApplicationID\>_ is the GUID of the service application. 
     
 For more information about how to restart service applications by using PowerShell, see [Start-SPServiceInstance](/powershell/module/sharepoint-server/Start-SPServiceInstance?view=sharepoint-ps).
     

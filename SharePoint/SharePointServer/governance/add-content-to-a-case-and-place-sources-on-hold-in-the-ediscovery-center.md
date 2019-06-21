@@ -1,10 +1,11 @@
 ---
 title: "Add content to a case and place sources on hold in the eDiscovery Center"
+ms.reviewer: 
 ms.author: MARKJJO
 author: MARKJJO
 manager: pamgreen
-ms.date: 2/12/2018
-ms.audience: ITPro
+ms.date: 
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -27,7 +28,6 @@ After you have defined content sources, you can run queries and export the conte
 >  Once you add content sources or queries to an eDiscovery case, changing the regional settings for the site is not supported. 
   
 ## Create an eDiscovery Set to manage content sources
-<a name="__top"> </a>
 
 This procedure creates an eDiscovery Set and adds content sources to it. To also place content on hold, follow the next procedure, Place content sources on hold.
   
@@ -63,10 +63,7 @@ This procedure creates an eDiscovery Set and adds content sources to it. To also
 > [!NOTE]
 >  You can add and remove content sources after you create an eDiscovery Set. To see a list of content sources in an eDiscovery Set, click **Sources**. 
   
-[Content that is part of an eDiscovery case - such as potential evidence for litigation, audits and investigations -can be managed in an eDiscovery Set. Each case can have multiple eDiscovery Sets. You can also filter the source content you include, such as by author or sender, by a date range, or by search keywords. When a content source is part of a case, you can place it on hold so that a copy is preserved. This includes SharePoint sites, documents, or pages . In SharePoint Server, you can also hold content on searchable file shares. When items are placed on hold, people can continue to work on them without disruption. Content that is being managed by policies will not expire when it is placed on hold.After you have defined content sources, you can run queries and export the content to provide to authorities. The exported content includes a load file based on the Electronic Discovery Reference Model standard. Once you add content sources or queries to an eDiscovery case, changing the regional settings for the site is not supported.](add-content-to-a-case-and-place-sources-on-hold-in-the-ediscovery-center.md#__top)
-  
 ## Place content sources on hold
-<a name="__top"> </a>
 
 > [!NOTE]
 >  To include sources in a case, they must first be indexed by the SharePoint search service. For more information, see the person that manages the sites and mailboxes you want to include. 
@@ -101,7 +98,6 @@ This procedure creates an eDiscovery Set and adds content sources to it. To also
 >  After you've placed content on hold, if you want to see a list of content sources for a case, click **Sources**. 
   
 ## Remove a hold from content sources
-<a name="__toc326069632"> </a>
 
 1. If your case is not already open, in an eDiscovery Center, click **Cases**, and then click the case in which you want to remove a hold.
     
@@ -110,11 +106,9 @@ This procedure creates an eDiscovery Set and adds content sources to it. To also
 3. Under **Sources**, click the name of the source whose hold you want to remove. 
     
 4. Click **Disable In-Place Hold**.
-    
-[Content that is part of an eDiscovery case - such as potential evidence for litigation, audits and investigations -can be managed in an eDiscovery Set. Each case can have multiple eDiscovery Sets. You can also filter the source content you include, such as by author or sender, by a date range, or by search keywords. When a content source is part of a case, you can place it on hold so that a copy is preserved. This includes SharePoint sites, documents, or pages . In SharePoint Server, you can also hold content on searchable file shares. When items are placed on hold, people can continue to work on them without disruption. Content that is being managed by policies will not expire when it is placed on hold.After you have defined content sources, you can run queries and export the content to provide to authorities. The exported content includes a load file based on the Electronic Discovery Reference Model standard. Once you add content sources or queries to an eDiscovery case, changing the regional settings for the site is not supported.](add-content-to-a-case-and-place-sources-on-hold-in-the-ediscovery-center.md#__top)
+
   
 ## Remove an eDiscovery Set from a case
-<a name="__toc326069632"> </a>
 
 1. If your case is not already open, in an eDiscovery Center, click **Cases**, and then click the case in which you want to remove an eDiscovery Set.
     
@@ -125,11 +119,9 @@ This procedure creates an eDiscovery Set and adds content sources to it. To also
 4. Click **Delete Item**.
     
 5. When prompted whether to send the item to the Recycle Bin, click **OK**.
-    
-[Content that is part of an eDiscovery case - such as potential evidence for litigation, audits and investigations -can be managed in an eDiscovery Set. Each case can have multiple eDiscovery Sets. You can also filter the source content you include, such as by author or sender, by a date range, or by search keywords. When a content source is part of a case, you can place it on hold so that a copy is preserved. This includes SharePoint sites, documents, or pages . In SharePoint Server, you can also hold content on searchable file shares. When items are placed on hold, people can continue to work on them without disruption. Content that is being managed by policies will not expire when it is placed on hold.After you have defined content sources, you can run queries and export the content to provide to authorities. The exported content includes a load file based on the Electronic Discovery Reference Model standard. Once you add content sources or queries to an eDiscovery case, changing the regional settings for the site is not supported.](add-content-to-a-case-and-place-sources-on-hold-in-the-ediscovery-center.md#__top)
+
   
 ## Learn more about holds
-<a name="__toc326069633"> </a>
 
 - These types of content can be placed on hold as part of a case: 
     
@@ -168,7 +160,6 @@ This procedure creates an eDiscovery Set and adds content sources to it. To also
 - If you remove a hold from a site, all files in the preservation hold library will be deleted (moved to the first-stage Recycle Bin) within 7 seven days of removing the hold. That's because a timer job for the preservation hold library runs once every 7 days and identifies items to delete. Files will be deleted the next time the timer job runs after the hold is removed from the site.
     
 ## Find more information about eDiscovery
-<a name="__goback"> </a>
 
 For more information about eDiscovery cases, see the following articles:
   
@@ -181,7 +172,3 @@ For more information about eDiscovery cases, see the following articles:
 [Searching and using keywords in the eDiscovery Center](searching-and-using-keywords-in-the-ediscovery-center.md)
   
 [Export content and create reports in the eDiscovery Center](export-content-and-create-reports-in-the-ediscovery-center.md)
-  
-[Content that is part of an eDiscovery case - such as potential evidence for litigation, audits and investigations -can be managed in an eDiscovery Set. Each case can have multiple eDiscovery Sets. You can also filter the source content you include, such as by author or sender, by a date range, or by search keywords. When a content source is part of a case, you can place it on hold so that a copy is preserved. This includes SharePoint sites, documents, or pages . In SharePoint Server, you can also hold content on searchable file shares. When items are placed on hold, people can continue to work on them without disruption. Content that is being managed by policies will not expire when it is placed on hold.After you have defined content sources, you can run queries and export the content to provide to authorities. The exported content includes a load file based on the Electronic Discovery Reference Model standard. Once you add content sources or queries to an eDiscovery case, changing the regional settings for the site is not supported.](add-content-to-a-case-and-place-sources-on-hold-in-the-ediscovery-center.md#__top)
-  
-

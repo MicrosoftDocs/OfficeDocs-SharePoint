@@ -1,10 +1,11 @@
 ---
 title: "SharePoint Migration Assessment Tool Scan Reports Roadmap"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
 ms.date: 12/6/2017
-ms.audience: Admin
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority

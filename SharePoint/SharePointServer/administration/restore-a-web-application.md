@@ -1,9 +1,10 @@
 ---
 title: "Restore web applications in SharePoint Server"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -60,7 +61,7 @@ You can use PowerShell to restore a web application manually or as part of a scr
     
 3. At the PowerShell command prompt, type the following command:
     
-   ```
+   ```powershell
    Restore-SPFarm -Directory <BackupFolderName> -RestoreMethod Overwrite -Item  <WebApplicationName> [-BackupId <GUID>] [-Verbose]
    ```
 
@@ -74,7 +75,7 @@ You can use PowerShell to restore a web application manually or as part of a scr
     
    If you do not specify the value of the  `BackupID` parameter, the most recent backup will be used. You cannot restore a web application by using a configuration-only backup. You can view the backups for the farm by typing the following: 
     
-   ```
+   ```powershell
    Get-SPBackupHistory -Directory <BackupFolderName> -ShowBackup
    ```
 

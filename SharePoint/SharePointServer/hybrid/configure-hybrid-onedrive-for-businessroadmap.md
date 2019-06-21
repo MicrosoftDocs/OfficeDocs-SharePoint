@@ -1,10 +1,11 @@
 ---
 title: "Configure hybrid OneDrive for Business - roadmap"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 6/21/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
@@ -16,6 +17,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
+- M365-collaboration
 ms.custom: 
 ms.assetid: 81ea6763-c331-453b-80f7-8028c3e551f8
 description: "Learn how to configure hybrid OneDrive for Business with Office 365."

@@ -146,7 +146,26 @@ description: SharePoint documentation
                                         </div>
                                     </div>
                                 </a>
-                            </li>                
+                            </li>
+                            <li>
+                                <a href="/sharepoint/support">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="/office/media/hub-tiles/TroubleshootingForITProsAndAdmins-blue-400x140.svg" alt="A user, a wrench, and a traffic cone symbol" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Troubleshoot</h3>
+                                                    <p>Find troubleshooting and support resources for IT Professionals and admins.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
                         </ul>
                     </li>
                 </ul>

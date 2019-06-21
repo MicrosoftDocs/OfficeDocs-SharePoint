@@ -1,10 +1,11 @@
 ---
 title: "Make an External List from a SQL Azure table with Business Connectivity Services and Secure Store"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
 ms.date: 6/29/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
@@ -12,7 +13,7 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: 466f3809-fde7-41f2-87f7-77d9fdadfc95
-description: "As a SharePoint Online Administrator, you can use services in SharePoint Online to access data from a Microsoft SQL Azure database. Because SQL Azure is a cloud-based relational database technology, this means the connection works completely in the cloud. This article describes how to use SharePoint technologies to access data from a SQL Azure database without having to write code."
+description: "Learn how to use SharePoint technologies to access data from a SQL Azure database without having to write code."
 ---
 
 # Make an External List from a SQL Azure table with Business Connectivity Services and Secure Store
@@ -49,9 +50,9 @@ Business Connectivity Services (BCS) connects to data in an external data store.
     
 - A WCF web service that acts as an end-point for some other kind of data store 
     
-In SharePoint Online, BCS enables you to access an external data source by using the Secure Store. Secure Store keeps encrypted copies of credentials. It enables a SharePoint Online admin to associate a SharePoint group that uses a single SQL Azure account that can access the target database. When a SharePoint user browses the data in the External List, Secure Store uses the associated SQL Azure account to request the data from SQL.
+In SharePoint Online, BCS enables you to access an external data source by using the Secure Store. Secure Store keeps encrypted copies of credentials. It enables a SharePoint admin to associate a SharePoint group that uses a single SQL Azure account that can access the target database. When a SharePoint user browses the data in the External List, Secure Store uses the associated SQL Azure account to request the data from SQL.
   
-To make this possible, a SharePoint Online admin defines an External Content Type (ECT) in SharePoint Designer or in Visual Studio. Then, someone with appropriate permissions creates an External List on a SharePoint Online site by referencing the ECT. Users who have appropriate permission can view or update the list. 
+To make this possible, a SharePoint admin defines an External Content Type (ECT) in SharePoint Designer or in Visual Studio. Then, someone with appropriate permissions creates an External List on a SharePoint Online site by referencing the ECT. Users who have appropriate permission can view or update the list. 
   
 > [!NOTE]
 >  SharePoint Online doesn't support offline use of external lists. 
@@ -90,17 +91,18 @@ Typically, when you create a credentials mapping in Secure Store, you map multip
 
 To create a Secure Store Target Application, follow these steps.
   
-1. Sign in to Office 365 as a global admin or SharePoint admin.
+1. Sign in to https://admin.microsoft.com as a global or SharePoint admin to open the Microsoft 365 admin center. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+    > [!NOTE]
+    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the **Admin** tile to open the admin center.  
     
-3. In the left pane, choose **Admin centers** \> **SharePoint**.
+2. In the left pane of the admin center, under **Admin centers**, select **SharePoint** to open the SharePoint admin center. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
     
-4. Click **secure store**.
+3. In the left pane, select **secure store**.
     
-5. In the ribbon, click **New** to open the page where you can specify settings for a Target Application. 
+4. On the ribbon, select **New** to open the page where you can specify settings for a Target Application. 
     
-6. In the **Target Application Settings** section, do the following: 
+5. In the **Target Application Settings** section, do the following: 
     
   - Under **Target Application ID**, specify a value for a unique ID. This ID maps the External Content type to credentials that are required to authenticate the user. You cannot change the Target Application ID once you create the Target Application.
     
@@ -110,34 +112,35 @@ To create a Secure Store Target Application, follow these steps.
     
   - Under **Target Application Type**, verify that the value is set to **Group Restricted**. Group Restricted means that the Secure Store contains a mapping that connects a group of SharePoint users to a single, external data account that can act on their behalf. In addition, a Group Restricted application type is restricted to the specified external data system.
     
-7. In **Credential Fields** section, enter the field names that you want to use for the user name and password of the external data system. By default, the Secure Store uses the **Windows User Name** and **Windows Password**. We recommend that you accept these values. You cannot edit these Field Types after you finish creating the application.
+6. In **Credential Fields** section, enter the field names that you want to use for the user name and password of the external data system. By default, the Secure Store uses the **Windows User Name** and **Windows Password**. We recommend that you accept these values. You cannot edit these Field Types after you finish creating the application.
     
     ![Screenshot of the Credential Fields section of the Secure Store Target Application properties page. These fields allow you to specify the logon credentials for the target](media/404c21d4-8677-474c-ad01-5cdd8af06cbf.png)
   
-8. In the **Target Application Administrators** section, in the **Target Application Administrators** field, enter the name of a group or a list of users who can edit this Target Application. You can also search for the name of a group in Microsoft Online Directory Server. Typically, this section usually contains the name of the SharePoint Online admin, or a global administrator. 
+7. In the **Target Application Administrators** section, in the **Target Application Administrators** field, enter the name of a group or a list of users who can edit this Target Application. You can also search for the name of a group in Microsoft Online Directory Server. Typically, this section usually contains the name of the SharePoint or global admin. 
     
-9. In the **Members** section, in the **Members** field enter the name of the group that will use the Target Application. Generally, this is a group from the Microsoft Online Directory Service (MSODS). 
+8. In the **Members** section, in the **Members** field enter the name of the group that will use the Target Application. Generally, this is a group from the Microsoft Online Directory Service (MSODS). 
   
      If you are a global administrator, you can create groups in MSODS in the Microsoft 365 admin center. 
     
-10. Click **OK** to create the Target Application and return to the Secure Store Service page. 
+9. Select **OK** to create the Target Application and return to the Secure Store Service page. 
     
 ### Store credentials for the Target Application
 <a name="__toc350352769"> </a>
 
 After you create the Target Application, you are ready to enter the credentials that Secure Store uses to access the external data. To set the credentials, follow these steps
   
-1. Sign in to Office 365 as a global admin or SharePoint admin.
+1. Sign in to https://admin.microsoft.com as a global or SharePoint admin to open the Microsoft 365 admin center. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+    > [!NOTE]
+    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the **Admin** tile to open the admin center.  
     
-3. In the left pane, choose **Admin centers** \> **SharePoint**.
+2. In the left pane of the admin center, under **Admin centers**, select **SharePoint** to open the SharePoint admin center. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
     
-4. Click **secure store**.
+3. In the left pane, select **secure store**.
     
-5. Click the arrow next to the new Target Application and then select **Set Credentials**. 
+4. Select the arrow next to the new Target Application and then select **Set Credentials**. 
     
-6. In the **Set Credentials for Secure Store Target Applications (Group)** dialog box, enter the user name and password of the account. The account must have access to the target database. In the following illustration, the user name is **Windows User Name** and the password is **Windows Password**.
+5. In the **Set Credentials for Secure Store Target Applications (Group)** dialog box, enter the user name and password of the account. The account must have access to the target database. In the following illustration, the user name is **Windows User Name** and the password is **Windows Password**.
     
     > [!IMPORTANT]
     >  Keep a secure record of this information. After you set these credentials, an administrator cannot retrieve them. 
@@ -149,20 +152,20 @@ After you create the Target Application, you are ready to enter the credentials 
 
 You can create an External Content Type (ECT) by using Microsoft Visual Studio, or by using Microsoft SharePoint Designer 2010. This procedure describes how to create an ECT in SharePoint Designer 2010. Microsoft SharePoint Designer 2010 is available as a [free download](https://www.microsoft.com/download/en/details.aspx?id=16573) from the Microsoft Download Center. 
   
-You should be a SharePoint Online admin or a Global admin to perform this task.
+You must be a SharePoint or global admin in your organization to perform this task.
   
 To create an ECT, follow these steps.
   
 1. Start Microsoft SharePoint Designer.
     
-2. Click the **Open Site** button to open the SharePoint Online team site at the root collection. The URL for the root collection will resemble this example URL: https://tailspintoys.sharepoint.com. SharePoint Online might display a prompt for valid credentials. 
+2. Select the **Open Site** button to open the SharePoint Online team site at the root collection. The URL for the root collection will resemble this example URL: https://tailspintoys.sharepoint.com. SharePoint Online might display a prompt for valid credentials. 
     
     > [!NOTE]
-    >  If SharePoint displays a prompt for you to add a new user, ensure the user account you use has sufficient permissions. The user account must be able to make and test BCS changes to the SharePoint Online site. Typically, the SharePoint Online admin or Global admin should perform these steps. > If you want to change to a different user, click **Add a new user**, click **Personal** or **Organization**, and then log on to the site as the SharePoint Online admin or Global admin, and **Sign In**. 
+    >  If SharePoint displays a prompt for you to add a new user, ensure the user account you use has sufficient permissions. The user account must be able to make and test BCS changes to the SharePoint Online site. Typically, a SharePoint or global admin performs these steps. <br> If you want to change to a different user, select **Add a new user**, select **Personal** or **Organization**, and then sign in to the site as the SharePoint or global admin, and **Sign In**. 
   
-3. After the site opens, in the **Site Objects** tree on the left of the application window, click **External Content Types**.
+3. After the site opens, in the **Site Objects** tree on the left of the application window, select **External Content Types**.
     
-4. Select the **External Content Types** tab and then, in the ribbon, click **External Content Type**, to begin the creation process.
+4. Select the **External Content Types** tab and then, in the ribbon, select **External Content Type**, to begin the creation process.
     
 5. In the **External Content Type Information** section of the page, change the **Name** and **Display Name**. Make certain that the **Name** is descriptive. The **Display Name** is a friendly name for the ECT. 
     
@@ -170,7 +173,7 @@ To create an ECT, follow these steps.
     
     ![Screenshot of the External Content Type Information panel, and the link Click here to discover external data sources and define operations, which is used to make a BCS connection.](media/9b6c66c9-9e95-40aa-8b99-459ec16070fd.png)
   
-7. Click **Add Connection** to open the **External Data Source Type Selection** dialog box. 
+7. Select **Add Connection** to open the **External Data Source Type Selection** dialog box. 
     
 8. Select **SQL Server** to access the SQL Azure database. 
     
@@ -188,13 +191,13 @@ To create an ECT, follow these steps.
     - **Name**
     
     > [!IMPORTANT]
-    >  The URL you use to access the database contains the Fully Qualified Server Name. For example, if you access the database via https://aaapbj1mtc.database.windows.net your Fully Qualified Server Name is **aaapbj1mtc.database.windows.net**. > If you log on at a higher level, such as the Management Portal for Microsoft Azure, you can discover the Fully Qualified Server Name. On the portal page, under **Subscriptions**, click the name of your subscription. Then, under **Fully Qualified Server Name**, expand your subscription and the server name. Names of databases appear under each server name. 
+    >  The URL you use to access the database contains the Fully Qualified Server Name. For example, if you access the database via https://aaapbj1mtc.database.windows.net your Fully Qualified Server Name is **aaapbj1mtc.database.windows.net**. > If you log on at a higher level, such as the Management Portal for Microsoft Azure, you can discover the Fully Qualified Server Name. On the portal page, under **Subscriptions**, select the name of your subscription. Then, under **Fully Qualified Server Name**, expand your subscription and the server name. Names of databases appear under each server name. 
   
     ![Screenshot of the SQL Server Connection dialog where you can fill in the name of your SQL Azure database server and use Connect with Impersonated Custom ID to enter your Secure Store Application ID.](media/b99c06d1-046e-43c4-984f-c120d746e30a.png)
   
-    In the **SQL Server Connection** dialog box, select **Connect with Impersonated Custom Identity**. Then, in the **Secure Store Application ID** text box, type the Secure Store Application ID that stores credentials for the target database and then click **OK**.
+    In the **SQL Server Connection** dialog box, select **Connect with Impersonated Custom Identity**. Then, in the **Secure Store Application ID** text box, type the Secure Store Application ID that stores credentials for the target database and then select **OK**.
     
-10. If you see a prompt for credentials to access the external data source, enter the correct **User name** and **Password** credentials to access the external data system. Then, click **OK** to connect. 
+10. If you see a prompt for credentials to access the external data source, enter the correct **User name** and **Password** credentials to access the external data system. Then, select **OK** to connect. 
     
     The **Data Source Explorer** tab, you can view a list of tables that are available from the SQL Azure database. To see a list of possible operations for this table, open the shortcut menu for the table. 
     
@@ -202,7 +205,7 @@ To create an ECT, follow these steps.
     
     ![Screenshot that shows the Tailspintoys database in SharePoint Designer. If you right clik on the table name, a menu appears where you can select operations to create.](media/e9d027a3-89f0-49fe-ac71-5bdbfd3af82c.png)
   
-11. Click **Create All Operations** to open a wizard, and then click **Next**.
+11. Select **Create All Operations** to open a wizard, and then select **Next**.
     
     On the **Operation Properties** page of the wizard, in the **Errors and Warnings** pane, read about any issues. It is important to resolve reported issues that you see. For example, you may have to choose a field to show in an external item picker control. For a customer table, you could choose the customer name. 
     
@@ -230,7 +233,7 @@ You can create an External List by using SharePoint Designer, or by adding an Ex
 
 1. Go to the home page of the SharePoint Online team site.
     
-2. Click **Settings**![Office 365 Settings button](media/a9a59c0f-2e67-4cbf-9438-af273b0d552b.png) \> **Add an app**.
+2. Select **Settings**![Office 365 Settings button](media/a9a59c0f-2e67-4cbf-9438-af273b0d552b.png) \> **Add an app**.
     
 3. On the **Your Apps** page, type **External List** in the search dialog box, and search. 
     
@@ -238,16 +241,16 @@ You can create an External List by using SharePoint Designer, or by adding an Ex
     
 5. In the **Name** box, enter a name for the list. 
     
-6. In the **External Content Type** box, enter the name that you want to use. For example, you might use the name of the ECT that you created in SharePoint Designer. Alternatively, you can click the database icon to browse for the name of an ECT. 
+6. In the **External Content Type** box, enter the name that you want to use. For example, you might use the name of the ECT that you created in SharePoint Designer. Alternatively, you can select the database icon to browse for the name of an ECT. 
     
-7. Click **Create**,
+7. Select **Create**,
     
 ### Create an External List by Using SharePoint Designer 2010
 <a name="__toc350352773"> </a>
 
-1. In SharePoint Designer 2010, on the ribbon, click **Create Lists and Forms**.
+1. In SharePoint Designer 2010, on the ribbon, select **Create Lists and Forms**.
     
-     SharePoint Designer might display a message that states, "Creating lists and forms requires the external content type to be saved". Click **Yes** to save the ECT. 
+     SharePoint Designer might display a message that states, "Creating lists and forms requires the external content type to be saved". select **Yes** to save the ECT. 
     
     In the **Create List and Forms for databasename Customers** dialog, type a meaningful name for the External List in the **List Name** text box. For example, if you created an ECT for the "Customers" database table, you might use "Tailspintoys Customers" in the list name. 
     
@@ -257,38 +260,39 @@ You can create an External List by using SharePoint Designer, or by adding an Ex
     
     ![The Create List and Form dialog with the selection made to create an External List, with all four fields filled out.](media/ab3907e2-f802-4e6e-a2df-73b678e1bae8.png)
   
-4. Click **OK** and then **Save** to create the External List in the SharePoint Online site. 
+4. Select **OK** and then **Save** to create the External List in the SharePoint Online site. 
     
 ## Step 5: Grant permissions to manage the ECT
 <a name="__toc350352774"> </a>
 
 To finish setting up the External List, you have to grant permissions to the people who will use the list. To grant permissions, follow these steps.
   
-1. Sign in to Office 365 as a global admin or SharePoint admin.
+1. Sign in to https://admin.microsoft.com as a global or SharePoint admin to open the Microsoft 365 admin center. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+    > [!NOTE]
+    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the **Admin** tile to open the admin center.  
     
-3. In the left pane, choose **Admin centers** \> **SharePoint**.
+2. In the left pane of the admin center, under **Admin centers**, select **SharePoint** to open the SharePoint admin center. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
     
-4. Click **bcs**.
+3. In the left pane, select **bcs**.
     
-5. Select **Manage BDC Models and External Content Types**. 
+4. Select **Manage BDC Models and External Content Types**. 
     
-6. Select the check box next to the name of the ECT that you just created, and then click the **Set Object Permissions**. 
+5. Select the check box next to the name of the ECT that you just created, and then select the **Set Object Permissions**. 
     
     > [!IMPORTANT]
-    >  You must manually assign permissions to manage the ECT to a SharePoint Online admin or Global admin with the ** Set Object Permissions ** command. If you do not assign these permissions explicitly, the admins won't have permission to manage the ECT. 
+    >  You must manually assign permissions to manage the ECT to a global or SharePoint admin by using the **Set Object Permissions** command. If you do not assign these permissions explicitly, the admins won't have permission to manage the ECT. 
   
-    ![Screenshot of SharePoint Online Admin Center under BCS. Shows the Set Object Permissions button in the ribbon.](media/719d5798-9ec7-45c0-951b-f3a2ba73a6bf.png)
+    ![The Set Object Permissions button in the ribbon on the BCS page of the SharePoint admin center](media/719d5798-9ec7-45c0-951b-f3a2ba73a6bf.png)
   
-7. In the **set object permissions** dialog, select the check boxes for all the permissions (( **Edit, Execute, Selectable in Clients, and Set Permissions**) that the SharePoint Online admin needs. 
+6. In the **set object permissions** dialog, select the check boxes for all the permissions (( **Edit, Execute, Selectable in Clients, and Set Permissions**) that the SharePoint admin needs. 
     
     > [!NOTE]
     >  Make sure that at least one user or group has **Set Permissions** rights. If you don't assign someone this right, you might create an unmanageable BCS connection. 
   
     ![Screenshot of the SetObject Permissions dialog box in SharePoint Online. Use this dialog to set permissions for a specified External Content Type.](media/5e760b77-b0cc-4be9-870e-217e902d9245.png)
   
-8. Select **Propagate permissions to all methods of this external content type**. Doing this overwrites any existing permissions. 
+7. Select **Propagate permissions to all methods of this external content type**. Doing this overwrites any existing permissions. 
     
     > [!NOTE]
     >  If you want to add a group that can use the External Lists, you must also give the group **Execute** rights. That enables users in the group to run a query to the external source, and view the results in SharePoint. 

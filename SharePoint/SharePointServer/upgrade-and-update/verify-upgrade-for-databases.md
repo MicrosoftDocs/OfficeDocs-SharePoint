@@ -1,10 +1,11 @@
 ---
 title: "Verify database upgrades in SharePoint Server 2016"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
 ms.date: 5/30/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -77,7 +78,7 @@ After you determine whether upgrade was completed successfully, validate your en
     
 - Search
     
-  - Check that the search configuration settings are alike those in the SharePoint Server 2013 with Service Pack 1 (SP1) farm.
+  - Check that the search configuration settings are alike those in the SharePoint Server 2013 farm.
     
   - Run search queries, and verify that the queries work as expected and provide appropriate results. Twenty-four hours later, view the query reports and look for issues.
     

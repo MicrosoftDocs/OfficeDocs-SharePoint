@@ -1,10 +1,11 @@
 ---
 title: "Accounts needed for hybrid configuration and testing"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 6/20/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -12,6 +13,7 @@ ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
+- M365-collaboration
 ms.assetid: c824fa0f-bae9-4791-92ee-38d8e70140ec
 description: "Learn about the accounts you need to use when you configure a SharePoint Server hybrid solution."
 ---

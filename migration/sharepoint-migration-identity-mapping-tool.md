@@ -1,10 +1,11 @@
 ---
 title: "SharePoint Migration Identity Mapping Tool"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
 ms.date: 01/11/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -21,11 +22,11 @@ Use the Identity Mapping feature of the SharePoint Migration Assessment Tool to 
   
 ## Introduction
 
-Identity Migration is the process of mapping identities from the current-state Dedicated SharePoint environment to the target-state Azure AD.
+Identity Migration is the process of mapping identities from the SharePoint on-premises environment to the target-state Azure AD.
   
 ![Identity Mappping](media/acd1e636-0644-4848-bc2c-480b9cb29100.png)
   
-Since the synchronization of users and groups from AD to Azure AD is new to many customers, it is imperative that you assign appropriate resources, perform internal planning, and execute all Identity Migration-related tasks in unison with your overall Dedicated vNext migration plan. 
+Since the synchronization of users and groups from AD to Azure AD is new to many customers, it is imperative that you assign appropriate resources, perform internal planning, and execute all Identity Migration-related tasks in unison with your overall on-premises migration plan. 
   
 The most important aspect of the identity project is verification that all needed users and groups are synchronized to Azure Active Directory. If this analysis is not conducted and migration takes place, you may have an issue with users losing access to content if they have not been migrated. 
   

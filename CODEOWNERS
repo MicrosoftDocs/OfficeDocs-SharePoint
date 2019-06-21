@@ -1,18 +1,12 @@
-# This is a comment.
+# Lines starting with '#' are comments.
 # Each line is a file pattern followed by one or more owners.
 
-# These owners will be the default owners for everything in
-# the repo. Unless a later match takes precedence,
-# the owners below will be requested for
-# review when someone opens a pull request.
-*       @dstrome
+# These owners will be the default owners for everything in the repo.
+docfx.json                          @microsoftdocs/officedocs-admin
+.openpublishing.build.ps1           @microsoftdocs/officedocs-admin
+.openpublishing.publish.config.json @microsoftdocs/officedocs-admin
+CODEOWNERS                          @microsoftdocs/officedocs-admin
 
-# Order is important. The last matching pattern has the most precedence.
-# So if a pull request only touches javascript files, only these owners
-# will be requested to review.
-# *.js    @octocat @github/js
-
-# You can also use email addresses if you prefer.
-/OneDrive/ @kaarins @AndreaBarr
-/SharePoint/ @AndreaBarr
-/migration/ @JoanneHendrickson @AndreaBarr
+/OneDrive/                          @kaarins
+/SharePoint/                        
+/migration/                         @JoanneHendrickson

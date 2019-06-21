@@ -1,9 +1,10 @@
 ---
 title: "Copy configuration settings between farms in SharePoint Server"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -62,25 +63,25 @@ To copy configuration settings by using a farm backup, we recommend that you fir
     
 3. At the PowerShell command prompt, type the following command to document the current Web application URLs and content database mappings.
     
-   ```
+   ```powershell
    Get-SPWebApplication | %{$_.Name;$_.Url;%{$_.ContentDatabases|%{$_.Name};Write-Host ""}}
    ```
 
 4. Either unmount all content databases, as in the following example:
     
-   ```
+   ```powershell
    Get-SPContentDatabase | Dismount-SPContentDatabase
    ```
 
    Or unmount a specific content database, as in the following example:
     
-   ```
+   ```powershell
    Get-SPContentDatabase WSS_Content | Dismount-SPContentDatabase
    ```
 
 5. Back up the farm.
     
-   ```
+   ```powershell
    Backup-SPFarm -Directory \\servername\share -BackupMethod Full
   
    ```
@@ -90,7 +91,7 @@ To copy configuration settings by using a farm backup, we recommend that you fir
   
 6. After the backup is complete, re-mount the content databases.
     
-   ```
+   ```powershell
    Mount-SPContentDatabase -Name <WSS_Content> -WebApplication <http://servername>
    ```
 
@@ -102,7 +103,7 @@ To copy configuration settings by using a farm backup, we recommend that you fir
     
     -  _\<http://servername\>_ is \<the URL of the Web Application\>. 
     
-For more information, see [Mount-SPContentDatabase](/powershell/module/sharepoint-server/Get-SPAlternateURL?view=sharepoint-ps). 
+For more information, see [Mount-SPContentDatabase](/powershell/module/sharepoint-server/mount-spcontentdatabase?view=sharepoint-ps). 
   
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 

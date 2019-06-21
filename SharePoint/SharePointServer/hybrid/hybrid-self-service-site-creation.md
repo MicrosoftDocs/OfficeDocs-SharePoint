@@ -1,10 +1,11 @@
 ---
 title: "Hybrid self-service site creation"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 9/12/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
@@ -13,6 +14,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_SharePoint_Hybrid_Top
 - Strat_SP_gtc
+- M365-collaboration
 ms.custom: 
 ms.assetid: 27d3e6b8-7922-4015-a5fd-8c240eaa6357
 description: "Hybrid self-service site creation redirects the default self-service site creation page in SharePoint Server to the SharePoint Online Group Creation page. By configuring this feature, you can help your users to create their sites in SharePoint Online instead of SharePoint Server."

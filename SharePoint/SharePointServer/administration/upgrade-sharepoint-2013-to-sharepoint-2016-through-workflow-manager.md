@@ -1,9 +1,10 @@
 ---
 title: "Upgrade SharePoint 2013 to SharePoint 2016 through Workflow Manager"
+ms.reviewer: 
 ms.author: toresing
 author: bentoncity
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal

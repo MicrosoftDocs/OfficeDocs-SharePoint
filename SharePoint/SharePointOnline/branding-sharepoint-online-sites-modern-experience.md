@@ -1,15 +1,21 @@
 ---
 title: Branding your SharePoint Online site
+ms.reviewer: 
 ms.author: clake
 author: spowriter
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
-search.appverid: MET150
 localization_priority: Priority
+ms.collection:  
+- Strat_SP_modern
+- M365-collaboration
+search.appverid:
+- SPO160
+- MET150
 description: "Learn about branding your sites in the SharePoint modern experience."
-...
+---
 
 # Branding your SharePoint Online site
 
@@ -18,7 +24,7 @@ In the modern SharePoint Online experience, you can easily [change the look](htt
 ![](media/branding-sharepoint-online-sites-modern-experience_image1.png)
 
 > [!NOTE]
-> Branding your SharePoint Online site will not change the overall look of your Office 365 service For more information about branding Office 365, see [Customize your theme in the Office 365 admin center](/office365/admin/setup/customize-your-organization-theme).
+> Branding your SharePoint Online site will not change the overall look of your Office 365 service For more information about branding Office 365, see [Customize the Office 365 theme for your organization](/office365/admin/setup/customize-your-organization-theme).
 
 ## Site branding in the classic experience
 
@@ -47,7 +53,7 @@ Some things to consider before branding your classic experience sites in SharePo
 
 -   Do you need a consistent brand across all sites or will different divisions, departments, or groups in your organization have their own?
 
--   You should compile a list of all current sites, what site templates they use, any customizations that have been made to the master pages or CSS, and decide which of these customizations you need to keep. You can run the [SharePoint “Modern” user interface experience scanner](https://github.com/SharePoint/PnP-Tools/tree/master/Solutions/SharePoint.UIExperience.Scanner) which will do a deep analysis of all the sites in your tenant and create reports that give you details about sites that have incompatible master pages or alternate CSS settings. [SharePoint Online handles branding differently](/sharepoint/dev/transform/modernize-branding) for classic site templates such as the publishing site. You’ll want to [troubleshoot any custom theme issues](/sharepoint/dev/declarative-customization/site-theming/sharepoint-site-theming-overview#troubleshoot-custom-theme-issues) you run into.
+-   You should compile a list of all current sites, what site templates they use, any customizations that have been made to the master pages or CSS, and decide which of these customizations you need to keep. You can run the [SharePoint “Modern” user interface experience scanner](https://github.com/SharePoint/PnP-Tools/tree/master/Solutions/SharePoint.UIExperience.Scanner) which will do a deep analysis of all the sites in your organization and create reports that give you details about sites that have incompatible master pages or alternate CSS settings. [SharePoint Online handles branding differently](/sharepoint/dev/transform/modernize-branding) for classic site templates such as the publishing site. You’ll want to [troubleshoot any custom theme issues](/sharepoint/dev/declarative-customization/site-theming/sharepoint-site-theming-overview#troubleshoot-custom-theme-issues) you run into.
 
 -   What areas do you want to customize (logo, colors, fonts, header/footer, navigation)?
 

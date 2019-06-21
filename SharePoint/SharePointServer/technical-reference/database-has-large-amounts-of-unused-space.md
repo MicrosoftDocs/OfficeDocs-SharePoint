@@ -1,10 +1,11 @@
 ---
 title: "Database has large amounts of unused space (SharePoint Server)"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
 ms.date: 8/28/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: troubleshooting
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -17,8 +18,11 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: Database
 
 # Database has large amounts of unused space (SharePoint Server)
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
+>[!IMPORTANT]
+>This health analyzer rule only applies to SharePoint 2010 as this was removed in [KB4011601](https://support.microsoft.com/help/4011601) for SharePoint Server 2013 and [KB4011576](https://support.microsoft.com/help/4011576) for SharePoint Server 2016.
+
  **Rule Name:** Database has large amounts of unused space. 
   
  **Summary:** The database has large amounts of unused space allocated on the disk. This database uses a large amount of space on the file system unless it is shrunk down to a small size. This event occurs if the unused space is more than 20% of the disk space and the unused space is greater than the auto-growth size plus 50 megabytes (MB). 

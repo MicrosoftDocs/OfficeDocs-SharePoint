@@ -1,10 +1,11 @@
 ---
 title: "The extensible hybrid app launcher"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 9/12/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
@@ -13,6 +14,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_SharePoint_Hybrid_Top
 - Strat_SP_gtc
+- M365-collaboration
 ms.custom: 
 ms.assetid: 50c7ba0d-67bb-4e0a-a173-ab2c5756fadf
 description: "The extensible hybrid app launcher helps users to have a more seamless experience when navigating between SharePoint Server and Office 365."

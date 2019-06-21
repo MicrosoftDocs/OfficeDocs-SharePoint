@@ -1,10 +1,11 @@
 ---
 title: "Help users use the Discover view in OneDrive"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
 ms.date: 06/7/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: overview
 ms.service: one-drive
 localization_priority: Normal
@@ -92,7 +93,7 @@ If users don't have any recently modified or viewed content in these content sou
   
 - Encourage your users to store and share documents in SharePoint Online and OneDrive for Business. For more information, see [Store your documents where Office Delve can get to them](https://support.office.com/article/49a0db49-5e6c-4dda-816e-e11dd77de49d) (the Discover view is powered by Delve) . 
     
-- Check the permission settings on the SharePoint Online sites and site collections to make sure that the user has access to the correct sites and their content.
+- Check the permission settings on the SharePoint sites to make sure that the user has access to the correct sites and their content.
     
 - Check that the user is in the Active Directory and that he or she is a member of the correct Active Directory groups. To verify, go to **Microsoft 365 admin center** \> **Users** \> **Active Users**.
     
@@ -124,10 +125,10 @@ For developers, the Office Graph insights and rich relationships are exposed thr
   
 ### What is the effect of allowing or not allowing access to the Office Graph?
 
-If you don't allow access to the Office Graph, you affect the relevance of the content displayed in the Discover view and in experiences elsewhere in Office 365, for example in SharePoint Home. Allowing and not allowing access to the Office Graph will also affect Delve functionality.
+If you don't allow access to the Office Graph, you affect the relevance of the content displayed in the Discover view and in experiences elsewhere in Office 365, for example on the SharePoint start page. Allowing and not allowing access to the Office Graph will also affect Delve functionality.
   
 > [!NOTE]
-> For more information, see the [Office Delve for Office 365 admins](/sharepoint/delve-for-office-365-admins) section of [Office Delve for Office 365 admins](/sharepoint/delve-for-office-365-admins). 
+> For more information, see [Office Delve for Office 365 admins](/sharepoint/delve-for-office-365-admins). 
   
 ## Additional resources
 <a name="AddRes"> </a>

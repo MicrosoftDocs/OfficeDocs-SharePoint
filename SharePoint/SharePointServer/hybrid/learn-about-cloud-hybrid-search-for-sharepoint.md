@@ -1,10 +1,11 @@
 ---
 title: "Learn about cloud hybrid search for SharePoint"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
 ms.date: 10/4/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
@@ -13,6 +14,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_SharePoint_Hybrid_Top
 - Strat_SP_gtc
+- M365-collaboration
 ms.custom: 
 ms.assetid: 53566956-a4c7-478a-b23b-e389b7de2eaa
 description: "With the cloud hybrid search solution for SharePoint, you index all your crawled content, including on-premises content, in your search index in Office 365. When users query your search index in Office 365, they get search results from both on-premises and Office 365 content."
@@ -36,7 +38,7 @@ Learn more:
   
 [What are the benefits](#BKMK_Benefits)
   
-[Which search experiences can you iffer with cloud hybrid search?](#BKMK_SearchExperiences)
+[Which search experiences can you offer with cloud hybrid search?](#BKMK_SearchExperiences)
   
 [Where do you manage cloud hybrid search?](#BKMK_WhereManage)
   

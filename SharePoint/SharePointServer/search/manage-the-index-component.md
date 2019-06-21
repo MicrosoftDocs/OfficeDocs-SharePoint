@@ -1,10 +1,11 @@
 ---
 title: "Manage the index component in SharePoint Server"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen
 ms.date: 3/7/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -57,78 +58,77 @@ You add an index replica to the search topology to achieve fault tolerance for a
     
 3. Start a search service instance on the server that you want to create the index replica on and create a reference to the search service instance Id. At the Microsoft PowerShell command prompt, type the following command(s):
     
-  ```
-  $<host n > = Get-SPEnterpriseSearchServiceInstance -Identity "<Server name>"
-  Start-SPEnterpriseSearchServiceInstance -Identity $<host n >
-  ```
+    ```PowerShell
+    $<host n > = Get-SPEnterpriseSearchServiceInstance -Identity "<Server name>"
+    Start-SPEnterpriseSearchServiceInstance -Identity $<host n >
+    ```
 
     Where:
     
-  -  _$\<host n\>_ specifies the PowerShell object reference for the search service instance. 
+    -  _$\<host n\>_ specifies the PowerShell object reference for the search service instance. 
     
-  -  _\<Server name\>_ specifies the server on which you want to add an index component. The input must be a valid GUID, in the form  `12345678-90ab-cdef-1234-567890bcdefgh`; a valid name of a server (for example, **myserver1** ); or an instance of a valid **SearchServiceInstance** object. 
+    -  _\<Server name\>_ specifies the server on which you want to add an index component. The input must be a valid GUID, in the form  `12345678-90ab-cdef-1234-567890bcdefgh`; a valid name of a server (for example, **myserver1** ); or an instance of a valid **SearchServiceInstance** object. 
     
-  For example:
+    For example:
     
-  ```
-  $hostA = Get-SPEnterpriseSearchServiceInstance -Identity "myserver1"
-  Start-SPEnterpriseSearchServiceInstance -Identity $hostA
-  
-  ```
+    ```PowerShell
+    $hostA = Get-SPEnterpriseSearchServiceInstance -Identity "myserver1"
+    Start-SPEnterpriseSearchServiceInstance -Identity $hostA
+    ```
 
 4. Wait until the search service instance is running. At the Microsoft PowerShell command prompt, type the following command until the command returns the status **Online**: 
     
-  ```
-  Get-SPEnterpriseSearchServiceInstance -Identity $<host n >
-  ```
+    ```PowerShell
+    Get-SPEnterpriseSearchServiceInstance -Identity $<host n >
+    ```
 
 5. Clone the active search topology. At the Microsoft PowerShell command prompt, type the following command(s):
     
-  ```
-  $ssa = Get-SPEnterpriseSearchServiceApplication
-  $active = Get-SPEnterpriseSearchTopology -SearchApplication $ssa -Active
-  $clone = New-SPEnterpriseSearchTopology -SearchApplication $ssa -Clone -SearchTopology $active
-  ```
+    ```PowerShell
+    $ssa = Get-SPEnterpriseSearchServiceApplication
+    $active = Get-SPEnterpriseSearchTopology -SearchApplication $ssa -Active
+    $clone = New-SPEnterpriseSearchTopology -SearchApplication $ssa -Clone -SearchTopology $active
+    ```
 
 6. Add a new index component and associate it with a partition. At the Windows PowerShell command prompt, type the following command(s):
     
-  ```
-  New-SPEnterpriseSearchIndexComponent -SearchTopology $clone -SearchServiceInstance <host n > -IndexPartition <Index partition number>
-  ```
+    ```PowerShell
+    New-SPEnterpriseSearchIndexComponent -SearchTopology $clone -SearchServiceInstance <host n > -IndexPartition <Index partition number>
+    ```
 
     Where:
     
-  -  _$clone_ is the cloned topology that you are changing. 
+    -  _$clone_ is the cloned topology that you are changing. 
     
-  -  _$\<host n\>_ is the PowerShell object reference to the running search service instance on the server that you want to add the index replica to. 
+    -  _$\<host n\>_ is the PowerShell object reference to the running search service instance on the server that you want to add the index replica to. 
     
-  -  _\<Index partition number\>_ is the number of the existing index partition that you are creating a replica of. For example, to create an index replica of index partition 0, choose "0" as the parameter value. 
+    -  _\<Index partition number\>_ is the number of the existing index partition that you are creating a replica of. For example, to create an index replica of index partition 0, choose "0" as the parameter value. 
     
-  For example:
+    For example:
     
-  ```
-  New-SPEnterpriseSearchIndexComponent -SearchTopology $clone -SearchServiceInstance $hostA -IndexPartition 0
-  ```
+    ```PowerShell
+    New-SPEnterpriseSearchIndexComponent -SearchTopology $clone -SearchServiceInstance $hostA -IndexPartition 0
+    ```
 
 7. Activate the clone topology. At the Microsoft PowerShell command prompt, type the following command(s):
     
-  ```
-  Set-SPEnterpriseSearchTopology -Identity $clone
-  ```
+    ```PowerShell
+    Set-SPEnterpriseSearchTopology -Identity $clone
+    ```
 
 8. Verify that your new topology is active and that the index component representing the new index replica is added. At the Microsoft PowerShell command prompt, type the following command(s):
     
-  ```
-  Get-SPEnterpriseSearchTopology -Active -SearchApplication $ssa
-  ```
+    ```PowerShell
+    Get-SPEnterpriseSearchTopology -Active -SearchApplication $ssa
+    ```
 
 9. Monitor the distribution of the existing index to the new replica. The added index replica will have the state **Degraded** until the distribution is finished. At the Microsoft PowerShell command prompt, type the following command(s): 
     
-  ```
-  Get-SPEnterpriseSearchStatus -SearchApplication $ssa -Text
-  ```
+    ```PowerShell
+    Get-SPEnterpriseSearchStatus -SearchApplication $ssa -Text
+    ```
 
-    Repeat this command until all search components, including the new index component, output the state **Active**. For a large search index, this could take several hours. 
+   Repeat this command until all search components, including the new index component, output the state **Active**. For a large search index, this could take several hours. 
     
 ## Add a new index partition
 <a name="Search_Index_Part"> </a>
@@ -158,73 +158,72 @@ Before you add a new index partition to the search topology and start repartitio
     
 3. Start a search service instance on all the servers where you want to add an index replica for the new index partition. You create a PowerShell object reference to the search service instance that is used later in the procedure. For each server, at the Microsoft PowerShell command prompt, type the following command(s):
     
-  ```
-  $<host n > = Get-SPEnterpriseSearchServiceInstance -Identity "<Server name>"
-  Start-SPEnterpriseSearchServiceInstance -Identity $<host n >
-  ```
+    ```PowerShell
+    $<host n > = Get-SPEnterpriseSearchServiceInstance -Identity "<Server name>"
+    Start-SPEnterpriseSearchServiceInstance -Identity $<host n >
+    ```
 
     Where:
     
-  -  _\<host n\>_ specifies the PowerShell object reference for the search service instance. 
+    -  _\<host n\>_ specifies the PowerShell object reference for the search service instance. 
     
-  -  _\<Server name\>_ specifies the server on which you want to add an index component. The input must be a valid GUID, in the form  `12345678-90ab-cdef-1234-567890bcdefgh`; a valid name of a server (for example, **myserver1** ); or an instance of a valid **SearchServiceInstance** object. 
+    -  _\<Server name\>_ specifies the server on which you want to add an index component. The input must be a valid GUID, in the form  `12345678-90ab-cdef-1234-567890bcdefgh`; a valid name of a server (for example, **myserver1** ); or an instance of a valid **SearchServiceInstance** object. 
     
-  For example:
+    For example:
     
-  ```
-  $hostC = Get-SPEnterpriseSearchServiceInstance -Identity "myserver3"
-  Start-SPEnterpriseSearchServiceInstance -Identity $hostC
-  $hostD = Get-SPEnterpriseSearchServiceInstance -Identity "myserver4"
-  Start-SPEnterpriseSearchServiceInstance -Identity $hostD
-  
-  ```
+    ```PowerShell
+    $hostC = Get-SPEnterpriseSearchServiceInstance -Identity "myserver3"
+    Start-SPEnterpriseSearchServiceInstance -Identity $hostC
+    $hostD = Get-SPEnterpriseSearchServiceInstance -Identity "myserver4"
+    Start-SPEnterpriseSearchServiceInstance -Identity $hostD
+    ```
 
 4. Wait until the search service instances are running. For each server, at the Microsoft PowerShell command prompt, type the following command until the command returns the status **Online**: 
     
-  ```
-  Get-SPEnterpriseSearchServiceInstance -Identity $<host n >
-  ```
+    ```PowerShell
+    Get-SPEnterpriseSearchServiceInstance -Identity $<host n >
+    ```
 
 5. Clone the active search topology. At the Microsoft PowerShell command prompt, type the following command(s):
-    
-  ```
-  $ssa = Get-SPEnterpriseSearchServiceApplication
-  $active = Get-SPEnterpriseSearchTopology -SearchApplication $ssa -Active
-  $clone = New-SPEnterpriseSearchTopology -SearchApplication $ssa -Clone -SearchTopology $active
-  ```
+   
+    ```PowerShell
+    $ssa = Get-SPEnterpriseSearchServiceApplication
+    $active = Get-SPEnterpriseSearchTopology -SearchApplication $ssa -Active
+    $clone = New-SPEnterpriseSearchTopology -SearchApplication $ssa -Clone -SearchTopology $active
+    ```
 
     The command creates a clone search topology that can be referenced with  _$clone_ and returns information about the clone topology. Make a note of the topology Id of the cloned topology, in case you have to cancel the repartitioning process. 
     
 6. Add a new index partition by adding one or more index components and associate them with the new index partition. We recommend that you create the same number of index replicas for the new index partition as you have for the existing partitions. For each new index component, at the Windows PowerShell command prompt, type the following command(s):
     
-  ```
-  New-SPEnterpriseSearchIndexComponent -SearchTopology $clone -SearchServiceInstance <host n > -IndexPartition <Index partition number>
-  ```
+    ```PowerShell
+    New-SPEnterpriseSearchIndexComponent -SearchTopology $clone -SearchServiceInstance <host n > -IndexPartition <Index partition number>
+    ```
 
     Where:
     
-  -  _$clone_ is the cloned topology that you are changing. 
+    -  _$clone_ is the cloned topology that you are changing. 
     
-  -  _$\<host n\>_ specifies the PowerShell object reference for the search service instance. 
+    -  _$\<host n\>_ specifies the PowerShell object reference for the search service instance. 
     
-  -  _\<Index partition number\>_ is the number of the index partition that you are creating. By default, you have one index partition, which is called index partition 0. If you want to create a new index partition, enter the IndexPartition parameter value 1, followed by 2, then 3 and so forth. 
+    -  _\<Index partition number\>_ is the number of the index partition that you are creating. By default, you have one index partition, which is called index partition 0. If you want to create a new index partition, enter the IndexPartition parameter value 1, followed by 2, then 3 and so forth. 
     
-  For example, if you have an existing index partition 0 with index replicas on Host A and Host B, and you want to add a new index partition with index replicas on Host C and Host D:
+    For example, if you have an existing index partition 0 with index replicas on Host A and Host B, and you want to add a new index partition with index replicas on Host C and Host D:
     
-  ```
-  New-SPEnterpriseSearchIndexComponent -SearchTopology $clone -SearchServiceInstance $hostC -IndexPartition 1
-  New-SPEnterpriseSearchIndexComponent -SearchTopology $clone -SearchServiceInstance $hostD -IndexPartition 1
-  ```
+    ```PowerShell
+    New-SPEnterpriseSearchIndexComponent -SearchTopology $clone -SearchServiceInstance $hostC -IndexPartition 1
+    New-SPEnterpriseSearchIndexComponent -SearchTopology $clone -SearchServiceInstance $hostD -IndexPartition 1
+    ```
 
 7. Verify that the Search service application is running. At the Microsoft PowerShell command prompt, type the following command(s):
-    
-  ```
-  $ssa.IsPaused() -ne 0
-  ```
+   
+    ```PowerShell
+    $ssa.IsPaused() -ne 0
+    ```
 
-  - If this command returns **False**, the Search service application is running. Continue with step 9. 
+    - If this command returns **False**, the Search service application is running. Continue with step 9. 
     
-  - If this command returns **True**, the Search service application is paused. Continue with step 8. 
+    - If this command returns **True**, the Search service application is paused. Continue with step 8. 
     
 8. If the Search service application is paused, find out why and if you have to wait for any operation to complete before you can continue with step 9. See [Manage a paused Search service application in SharePoint Server](manage-a-paused-search-service-application.md) for more information. 
     
@@ -238,79 +237,79 @@ Before you add a new index partition to the search topology and start repartitio
   
     At the Windows PowerShell command prompt, type the following command(s):
     
-  ```
-  $ssa.PauseForIndexRepartitioning()
-  Set-SPEnterpriseSearchTopology -Identity $clone
-  ```
+    ```PowerShell
+    $ssa.PauseForIndexRepartitioning()
+    Set-SPEnterpriseSearchTopology -Identity $clone
+    ```
 
 10. Monitor the progress of the index repartitioning process. You can only monitor the progress of the repartitioning process on the primary index components of the existing topology. The following steps show you how to find the primary index components.
     
     > [!NOTE]
     > You will not be able to run any commands in the existing SharePoint Management Shell until the topology activation, including the index repartitioning process, is finished. Run the following commands in a second SharePoint Management Shell. 
   
-  - Start a second SharePoint Management Shell.
+    - Start a second SharePoint Management Shell.
     
-  - Find the primary index replica for each of the existing index partitions. At the Windows PowerShell command prompt of the second SharePoint Management Shell, type the following command(s):
+    - Find the primary index replica for each of the existing index partitions. At the Windows PowerShell command prompt of the second SharePoint Management Shell, type the following command(s):
     
-  ```
-  $ssa = Get-SPEnterpriseSearchServiceApplication
-  Get-SPEnterpriseSearchStatus -SearchApplication $ssa -Text
-  ```
+    ```PowerShell
+    $ssa = Get-SPEnterpriseSearchServiceApplication
+    Get-SPEnterpriseSearchStatus -SearchApplication $ssa -Text
+    ```
 
-  The command returns a list of index components and their properties. Make a note of the names of the primary index component(s). These are the index components that have the property **Primary: True**. 
+    The command returns a list of index components and their properties. Make a note of the names of the primary index component(s). These are the index components that have the property **Primary: True**. 
   
-  For example, the output could look like this. In this example, IndexComponent2 is the primary index component:
+    For example, the output could look like this. In this example, IndexComponent2 is the primary index component:
     
-  ```
-  Name      : IndexComponent1
-  State     : Active
-  Primary   : False
-  Partition : 0
-  Host      : MyMachine1
-  Name      : Cell:IndexComponent1-SPd32cdffb08a2I.0.0
-  State     : Active
-  Primary   : False
-  Partition : 0
-  Name      : IndexComponent2
-  State     : Active
-  Primary   : True
-  Partition : 0
-  Host      : MyMachine2
-  Name      : Cell:IndexComponent2-SPd32cdffb08a2I.1.0
-  State     : Active
-  Primary   : True
-  Partition : 0
-  ```
+    ```
+    Name      : IndexComponent1
+    State     : Active
+    Primary   : False
+    Partition : 0
+    Host      : MyMachine1
+    Name      : Cell:IndexComponent1-SPd32cdffb08a2I.0.0
+    State     : Active
+    Primary   : False
+    Partition : 0
+    Name      : IndexComponent2
+    State     : Active
+    Primary   : True
+    Partition : 0
+    Host      : MyMachine2
+    Name      : Cell:IndexComponent2-SPd32cdffb08a2I.1.0
+    State     : Active
+    Primary   : True
+    Partition : 0
+    ```
 
 11. For each primary index component, monitor the index repartitioning progress. At the Windows PowerShell command prompt of the second SharePoint Management Shell, type the following command(s):
     
-  ```
-  Get-SPEnterpriseSearchStatus -SearchApplication $ssa -Healthreport -Component <Index component name> | ? { ($_.name -match "repart") -or ( $_.name -match "splitting") } | ft -AutoSize Name, Message
-  ```
+    ```PowerShell
+    Get-SPEnterpriseSearchStatus -SearchApplication $ssa -Healthreport -Component <Index component name> | ? { ($_.name -match "repart") -or ( $_.name -match "splitting") } | ft -AutoSize Name, Message
+    ```
 
     Where:
     
-  -  _\<Index component name\>_ is the name of the primary index component that you want to monitor the progress of, for instance **IndexComponent2**. 
+    -  _\<Index component name\>_ is the name of the primary index component that you want to monitor the progress of, for instance **IndexComponent2**. 
     
     Monitor the output of the command for each primary index component. The output of the command contains progress information about the repartitioning of the index.
     
     During the initial phase of the index repartitioning process, the output will look something like this:
     
-  ```
-  Name                                              Message
-  ----                                              -------
-  repartition_component_state[SP...]                Pending
-  ```
+    ```
+    Name                                              Message
+    ----                                              -------
+    repartition_component_state[SP...]                Pending
+    ```
 
     The index partitions are split during the main phase of the index repartitioning process. During this phase, the output will look something like this:
     
-  ```
-  Name                                              Message
-  ----                                              -------
-  index splitting: current fusion progress[SP...]   <Percentage value>
-  index splitting: splitting state [SP...]          Index splitter running fusion, building: <Folder>
-  repartition_component_state [SP...]               Splitting
-  ```
+    ```
+    Name                                              Message
+    ----                                              -------
+    index splitting: current fusion progress[SP...]   <Percentage value>
+    index splitting: splitting state [SP...]          Index splitter running fusion, building: <Folder>
+    repartition_component_state [SP...]               Splitting
+    ```
 
     The percentage value in the output indicates the approximate progress of the repartitioning process.
     
@@ -318,14 +317,14 @@ Before you add a new index partition to the search topology and start repartitio
     
 12. Monitor the progress of the distribution of the index to the new index replicas. To do this, verify that your new topology is active, and that all search components are healthy. At the Windows PowerShell command prompt of the second SharePoint Management Shell, type the following command(s):
     
-  ```
-  Get-SPEnterpriseSearchStatus -SearchApplication $ssa | ft -AutoSize Name, State, Details
-  ```
+    ```PowerShell
+    Get-SPEnterpriseSearchStatus -SearchApplication $ssa | ft -AutoSize Name, State, Details
+    ```
 
     During the distribution of the index to the new index replicas, the added index replicas will return the state **Degraded**. The distribution is finished when all index components return the state **Active** in the output. This could take several hours. 
     
     > [!NOTE]
-    > The query processing components are suspended because you have paused the Search service application for index repartitioning. In the output, the query processing components will be listed with the state **Unknown**. 
+    > The query processing components are suspended because you have paused the Search service application for index repartitioning. In the output, the query processing components will be listed with the state **Unknown**.
   
 13. In the SharePoint Management Shell that you used to start the topology activation process, verify that the search topology activation command has completed.
     
@@ -339,7 +338,7 @@ Before you add a new index partition to the search topology and start repartitio
     > [!IMPORTANT]
     > Do not use the Services on Server page on the SharePoint Server Central Administration Web site to restart this service. 
   
-  - To restart the SharePoint Search Host Controller, open a command prompt window on each of the servers that host index components for existing index partitions.
+    - To restart the SharePoint Search Host Controller, open a command prompt window on each of the servers that host index components for existing index partitions.
     
     - To stop the SharePoint Search Host Controller, type this command: **net stop spsearchhostcontroller**
     
@@ -347,9 +346,9 @@ Before you add a new index partition to the search topology and start repartitio
     
 15. Resume the Search service application. At the Windows PowerShell command prompt, type the following command(s):
     
-  ```
-  $ssa.ResumeAfterIndexRepartitioning()
-  ```
+    ```PowerShell
+    $ssa.ResumeAfterIndexRepartitioning()
+    ```
 
 ## Cancel the repartitioning process
 <a name="Search_Index_Cancel"> </a>
@@ -362,19 +361,19 @@ If you have to cancel an ongoing repartitioning process, use the following proce
     
 2. Retrieve the activating topology Id. At the Windows PowerShell command prompt, type the following command(s):
     
-  ```
-  $activating = Get-SPEnterpriseSearchTopology -Identity <Id of the activating topology> -SearchApplication $ssa
-  ```
+    ```PowerShell
+    $activating = Get-SPEnterpriseSearchTopology -Identity <Id of the activating topology> -SearchApplication $ssa
+    ```
 
     Where:
     
-  -  _\<Id of the activating topology\>_ is the identity (GUID) of the clone topology that you wrote down when you cloned the search topology. 
+    -  _\<Id of the activating topology\>_ is the identity (GUID) of the clone topology that you wrote down when you cloned the search topology. 
     
 3. Cancel the topology activation. At the Windows PowerShell command prompt, type the following command(s):
     
-  ```
-  $activating.CancelTopologyActivation()
-  ```
+    ```PowerShell
+    $activating.CancelTopologyActivation()
+    ```
 
 ## Remove an index component
 <a name="Search_Index_Remove"> </a>

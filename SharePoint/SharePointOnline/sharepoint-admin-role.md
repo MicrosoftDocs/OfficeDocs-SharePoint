@@ -1,13 +1,17 @@
 ---
-title: "About the SharePoint admin role in Office 365"
+title: "About the SharePoint admin role in Microsoft 365"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: overview
 ms.service: sharepoint-online
 localization_priority: Normal
 ms.custom: Adm_O365
+ms.collection:  
+- Strat_SP_admin
+- M365-collaboration
 search.appverid:
 - SPO160
 - MOE150
@@ -20,12 +24,14 @@ ms.assetid: f08144d5-9d50-4922-8e77-4e1a27b40705
 description: "SharePoint admins manage your document storage. They also assign site collection administrators and Term Store Administrators.  "
 ---
 
-# About the SharePoint admin role in Office 365
+# About the SharePoint admin role in Microsoft 365
 
-Global administrators in Office 365 can assign users the SharePoint administrator role for help with administering SharePoint Online. The global admin already has all the permissions of a SharePoint admin. When you purchase Office 365, a team site is automatically created, and the global admin is set as the primary site collection administrator. For info about assigning a user the SharePoint administrator role, see [Assign admin roles in Office 365 for business](/office365/admin/add-users/assign-admin-roles).
+Global administrators in Microsoft 365 can assign users the SharePoint administrator role for help with administering SharePoint Online. The global admin already has all the permissions of a SharePoint admin. When you purchase a Microsoft 365 or Office 365 subscription, a team site is automatically created, and the global admin is set as the primary site collection administrator. For info about assigning a user the SharePoint administrator role, see [Assign admin roles in Office 365 for business](/office365/admin/add-users/assign-admin-roles).
 
 > [!TIP]
 > When you assign someone the SharePoint admin role, you may also want to assign them to Service administrator role. This way they can see important information in the Microsoft 365 admin center, such as the health of the SharePoint Online service, and change and release notifications. 
+
+   ![Manage admin roles in the Microsoft 365 admin center](media/sharepoint-admin-role.png)
   
 Users assigned the SharePoint admin role have access to the SharePoint admin center and can create and manage site collections, designate site collection administrators, manage user profiles, and more. 
 
@@ -34,7 +40,7 @@ Users assigned the SharePoint admin role have access to the SharePoint admin cen
 
 Global admins and SharePoint admins don't have automatic access to all sites and each user's OneDrive, but they can give themselves access to any site or OneDrive. They can also use Microsoft PowerShell to manage SharePoint and OneDrive. See more about this role's [Key tasks of the SharePoint administrator](sharepoint-admin-role.md#BK_KeyTasks) below. 
   
-Site collection administrators are users that have permission to manage a site collection. They don't need to have an admin role in Office 365, and don't have access to the SharePoint admin center. A site collection can have several administrators, but must have one and only one primary administrator. 
+Site admins are users that have permission to manage sites (previously called "site collections"), including the site root and any subsites. They don't need to have an admin role in Microsoft 365, and don't have access to the SharePoint admin center. A site can have several site administrators, but must have one and only one primary administrator. 
   
 > [!NOTE]
 > Global admins, SharePoint admins, and site collection admins all need to be assigned a SharePoint Online license. <br>There is a separate role within SharePoint called the **Term Store Administrator**. Users assigned this role can add or change terms in the term store (a directory of common terms you want to use across your organization). To learn more, see [Assign roles and permissions to manage term sets](assign-roles-and-permissions-to-manage-term-sets.md). 
@@ -44,15 +50,15 @@ Site collection administrators are users that have permission to manage a site c
 
 Here are some of the key tasks users can do when they are assigned to the SharePoint admin role: 
   
-- [Create site collections](create-site-collection.md)
+- [Create sites](create-site-collection.md)
     
-- [Delete site collections](delete-site-collection.md)
+- [Delete sites](delete-site-collection.md)
     
 - [Manage site collections and global settings](planning-guide.md)
     
 - [Turn external sharing on or off for SharePoint Online](turn-external-sharing-on-or-off.md)
     
-- [Add and remove site collection administrators](manage-site-collection-administrators.md)
+- [Add and remove site admins](manage-site-collection-administrators.md)
     
 - [Manage site collection storage limits](manage-site-collection-storage-limits.md)
     

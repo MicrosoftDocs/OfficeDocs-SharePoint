@@ -1,10 +1,11 @@
 ---
 title: "Install and configure workflow for SharePoint Server"
+ms.reviewer: 
 ms.author: toresing
 author: tomresing
 manager: pamgreen
 ms.date: 3/8/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -46,6 +47,10 @@ The only platform available when you first install SharePoint Server is the Shar
 
 > [!NOTE]
 > Workflow Manager must be downloaded and installed separately from SharePoint Server. It does not install automatically when you install SharePoint Server.
+
+## Install Workflow Manager
+
+Workflow Manager may be installed on the same servers as SharePoint or on separate, dedicated servers. Workflow Manager can be deployed with the Web PI tool. For more information on Web PI, see [Using the Microsoft Web Platform Installer](https://docs.microsoft.com/iis/install/web-platform-installer/using-the-microsoft-web-platform-installer).
    
 ## Install and configure SharePoint Server
 <a name="section3"> </a>
@@ -151,8 +156,8 @@ These factors translate into four scenarios. Each scenario configures a SharePoi
   Register-SPWorkflowService -SPSite "http://myserver/mysitecollection" -WorkflowHostUri "http://workflow.example.com:12291" -AllowOAuthHttp
   ```
 
-    > [!IMPORTANT]
-    > You must install the Workflow Manager Client on each server in the SharePoint farm before you run the pairing cmdlet. 
+> [!IMPORTANT]
+> You must install the Workflow Manager Client on each server in the SharePoint farm before you run the pairing cmdlet. 
   
  **To configure Workflow Manager on a server that is NOT part of the SharePoint Server farm and on which communication takes place by using HTTPS**
   
@@ -178,8 +183,8 @@ These factors translate into four scenarios. Each scenario configures a SharePoi
   Register-SPWorkflowService -SPSite "https://myserver/mysitecollection" -WorkflowHostUri "https://workflow.example.com:12290"
   ```
 
-    > [!IMPORTANT]
-    > You must install the Workflow Manager Client on each server in the SharePoint farm before you run the pairing cmdlet. 
+> [!IMPORTANT]
+> You must install the Workflow Manager Client on each server in the SharePoint farm before you run the pairing cmdlet. 
   
 ## Validate the installation
 <a name="section6"> </a>

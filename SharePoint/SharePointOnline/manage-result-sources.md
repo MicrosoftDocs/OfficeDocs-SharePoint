@@ -1,10 +1,11 @@
 ---
 title: "Manage result sources"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
 ms.date: 7/3/2018
-ms.audience: End User
+audience: End User
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
@@ -20,7 +21,7 @@ description: "Result sources limit searches to certain content or to a subset of
 
 Result sources limit searches to certain content or to a subset of search results. You can also use result sources to send queries to external providers such as Bing. 
   
-A SharePoint Online administrator can manage result sources for all site collections and sites in the tenant. A site collection administrator or a site owner can manage result sources for a site collection or a site, respectively. 
+A global or SharePoint admin can manage result sources for all site collections and sites in the tenant. A site collection administrator or a site owner can manage result sources for a site collection or a site, respectively. 
 
 SharePoint Online has both a classic and a modern search experience. The modern search experience gets results from the default result source. If you change the default result source, this impacts both the classic and modern search experiences. [Learn more about the differences between the classic and modern search experiences in SharePoint Online](differences-classic-modern-search.md).
   
@@ -32,33 +33,25 @@ For the classic search experience, you can create your own result sources, or us
 
 1. Go to the **Manage Result Sources** page for the tenant, for a site collection, or a site: 
     
-  - For the **tenant**: 
+  - For the **tenant**: In the classic SharePoint admin center, in the left pane select **search**, and then on the search administration page, select **Manage Result Sources**.
     
-    Log in to Office 365.
+  - For a site collection, in your site collection, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**. Under **Site Collection Administration**, select **Search Result Sources**.
     
-    Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+  - For a site, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**. Under **Search**, select **Result Sources**.
     
-    In the left pane, choose **Admin centers** \> **SharePoint**.
-    
-    Click **search**, and then on the search administration page, click **Manage Result Sources**.
-    
-  - For a **site collection**: In your site collection, go to **Settings**, click **Site settings** and then under **Site Collection Administration**, click **Search Result Sources**
-    
-  - For a **site**: On your site, go to **Settings**, click **Site settings**, and then under **Search**, click **Result Sources**.
-    
-2. On the **Manage Result Sources** page, click **New Result Source**.
+2. On the **Manage Result Sources** page, select **New Result Source**.
     
 3. In the **General Information** section, type a name and a description for the new result source. 
     
 4. In the **Protocol** section, select one of the following protocols for retrieving search results: 
     
-  - **Local SharePoint**, the default protocol, provides results from the search index of this tenant (Search Service)
+  - **Local SharePoint**, the default protocol, provides results from the search index of this tenant (Search Service).
     
   - **Remote SharePoint** provides results from the index of a search service in a different farm (external source). In the **Remote Service URL** box, type the address of the root site collection of the remote SharePoint farm. 
     
   - **OpenSearch 1.0/1.1** provides results from a search engine that uses the OpenSearch 1.0/1.1 protocol. 
     
-  - **Exchange** provides results from Microsoft Exchange Server. Click **Use AutoDiscover** to have the search system find an Exchange Server endpoint automatically, or type the URL of the Exchange web service to retrieve results from — for example, https://contoso.com/ews/exchange.asmx 
+  - **Exchange** provides results from Microsoft Exchange Server. Select **Use AutoDiscover** to have the search system find an Exchange Server endpoint automatically, or type the URL of the Exchange web service to retrieve results from — for example, https://contoso.com/ews/exchange.asmx 
     
     > [!NOTE]
     >  The Exchange Web Services Managed API must be installed on the computer where the search service is running. 
@@ -75,11 +68,11 @@ For the classic search experience, you can create your own result sources, or us
     
 2. Type a different query transform in the box. See [Understanding query transforms](https://support.office.com/article/b31631a5-0c1f-436e-8061-fd807bb96ae1).
     
-3. Build your own query. Click **Launch Query Builder** and build your query by specifying filters on the **BASICS**, sorting on the **SORTING** tab, and then testing the query on the **TEST** tab. Each of these tabs are described in the following sections. 
+3. Build your own query. Select **Launch Query Builder** and build your query by specifying filters on the **BASICS**, sorting on the **SORTING** tab, and then testing the query on the **TEST** tab. Each of these tabs are described in the following sections. 
     
 7. In the **Credentials Information** section, choose an authentication type for users to connect to the result source. 
     
-8. Click **Save**.
+8. Select **Save**.
     
 ### The BASICS tab
 
@@ -112,25 +105,13 @@ The default result source is **Local SharePoint Results**, but you can choose to
   
 1. Go to the **Manage Result Sources** page for the tenant, for a site collection, or a site: 
     
-    For the **tenant**: 
+    For the **tenant**: In the classic SharePoint admin center, in the left pane, select **search**, and then on the search administration page, select **Manage Result Sources**.
     
-1. Sign in to Office 365 as a global admin or SharePoint admin.
+    For a **site collection**: In your site collection, go to **Settings**, select **Site settings** and then under **Site Collection Administration**, select **Search Result Sources**.
     
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+    For a **site**: On your site, go to **Settings**, select **Site settings**, and then under **Search**, select **Result Sources**.
     
-3. In the left pane, choose **Admin centers** \> **SharePoint**.
-    
-4. Click **search**, and then on the search administration page, click **Manage Result Sources**.
-    
-    For a **site collection**: 
-    
-    In your site collection, go to **Settings**, click **Site settings** and then under **Site Collection Administration**, click **Search Result Sources**.
-    
-    For a **site**: 
-    
-    On your site, go to **Settings**, click **Site settings**, and then under **Search**, click **Result Sources**.
-    
-2. On the **Manage Result Sources** page, point to the result source that you want to set as the default, click the arrow that appears, and then click **Set as Default**.
+2. On the **Manage Result Sources** page, point to the result source that you want to set as the default, select the arrow that appears, and then select **Set as Default**.
     
 ## See also
 <a name="__toc342634788"> </a>

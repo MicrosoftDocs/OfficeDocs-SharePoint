@@ -1,10 +1,11 @@
 ---
 title: "Set up OneDrive for Business in a SharePoint Server on-premises environment"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 3/1/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -196,4 +197,7 @@ Use the following procedure to check if OneDrive for Business is available to yo
     
 ![OneDrive for Business tile in SharePoint Server 2016](../media/d38459ac-be0d-4823-b504-fddc8aadc0f3.jpg)
   
+## See Also
+<a name="also"> </a>
 
+[Create a User Profile service applications in SharePoint Server](../install/create-a-user-profile-service-application.md)

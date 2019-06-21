@@ -1,10 +1,10 @@
 ---
 title: "Visio Services in SharePoint Server knowledge articles"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 8/15/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: troubleshooting
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -17,11 +17,24 @@ description: "Resolve alerts in Visio Services in SharePoint Server: symptoms, c
 
 # Visio Services in SharePoint Server knowledge articles
 
-[!INCLUDE[appliesto-2013-2016-xxx-xxx-md](../includes/appliesto-2013-2016-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
 
-Resolve alerts in Visio Services in SharePoint Server 2016 and SharePoint Server 2013: symptoms, causes, and possible resolutions.
+Resolve alerts in Visio Services in SharePoint Servers 2019, 2016, and 2013: symptoms, causes, and possible resolutions.
+
+> [!NOTE]
+> The Microsoft Silverlight-based rendering will no longer be supported as of October 12, 2012. This means that, Silverlight-based rendering will no longeer be supported in SharePoint Server 2019. Visio Services will only render Visio diagrams using the PNG-based technology.
   
-The articles in this section are knowledge articles for Visio Services in SharePoint Server 2016. Typically, you would see these articles after clicking a link in an alert in the Systems Center Operations Manager console. You can use these articles to help you troubleshoot and resolve problems in Visio Services. Download and install [System Center Monitoring Pack for SharePoint Server 2016](http://go.microsoft.com/fwlink/?LinkID=746863&amp;clcid=0x409).
+The articles in this section are knowledge articles for Visio Services in SharePoint Servers 2019 and 2016. Typically, you would see these articles after clicking a link in an alert in the Systems Center Operations Manager console. You can use these articles to help you troubleshoot and resolve problems in Visio Services. 
+
+Download and install:
+
+- [System Center Management Pack for SharePoint Server 2019](https://www.microsoft.com/en-us/download/details.aspx?id=57776)
+
+- [System Center Monitoring Pack for SharePoint Server 2016](http://go.microsoft.com/fwlink/?LinkID=746863&amp;clcid=0x409) 
+
+- [System Center Monitoring Pack for SharePoint Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=272568) 
+
+- [System Center Monitoring Pack for SharePoint Foundation 2013](https://go.microsoft.com/fwlink/p/?LinkId=272567)
   
 In this section:
   

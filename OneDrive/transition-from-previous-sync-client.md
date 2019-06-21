@@ -1,13 +1,16 @@
 ---
 title: "Transition from the previous OneDrive for Business sync client"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: get-started-article
 ms.service: one-drive
-localization_priority: Priority
-ms.collection: Strat_OD_sync
+localization_priority: Normal
+ms.collection: 
+- Strat_OD_admin
+- M365-collaboration
 search.appverid:
 - ODB160
 - ODB150

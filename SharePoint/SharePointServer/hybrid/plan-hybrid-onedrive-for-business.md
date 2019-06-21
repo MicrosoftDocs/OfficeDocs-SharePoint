@@ -1,10 +1,11 @@
 ---
 title: "Plan hybrid OneDrive for Business"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 9/12/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
@@ -13,6 +14,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_SharePoint_Hybrid_Top
 - Strat_SP_gtc
+- M365-collaboration
 ms.custom: 
 ms.assetid: 080d0fb6-3182-4233-abe7-e0f60799c0e5
 description: "In SharePoint Server, you can redirect users to OneDrive for Business in Office 365 when they choose OneDrive in the navigation bar (SharePoint Server 2010 and SharePoint Server 2013) or in the app launcher (SharePoint Server 2016). This is known as hybrid OneDrive for Business."

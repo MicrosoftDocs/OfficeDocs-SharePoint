@@ -1,10 +1,11 @@
 ---
 title: "Hardware and software requirements for SharePoint Server 2016"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
 ms.date: 3/7/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: interactive-tutorial
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
@@ -96,6 +97,8 @@ One of the following:
 - Microsoft SQL Server 2016 RTM
     
 - Microsoft SQL Server 2017 RTM for Windows
+
+- Microsoft Azure SQL Managed Instance (MI) - For more information, see [Deploy Azure SQL Managed Instance with SharePoint Servers 2016 and 2019](../administration/deploy-azure-sql-managed-instance-with-sharepoint-servers-2016-2019.md).  
     
 > [!NOTE]
 > SQL Server products and all future public updates are supported through the SQL Server product lifecycle. 
@@ -162,6 +165,9 @@ The Microsoft SharePoint Products Preparation Tool installs the following prereq
 - Visual C++ Redistributable Package for Visual Studio 2012
     
 - Visual C++ Redistributable Package for Visual Studio 2015
+
+    >[!NOTE]
+    >The required software above will be supported when used by SharePoint via the SharePoint Product Lifecycle.
     
 #### Minimum requirements for client computers
 

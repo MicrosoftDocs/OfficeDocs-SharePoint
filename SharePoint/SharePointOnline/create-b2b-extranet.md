@@ -1,14 +1,17 @@
 ---
 title: "Use SharePoint Online as a business-to-business (B2B) extranet solution"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 5/22/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: overview
 ms.service: sharepoint-online
 localization_priority: Normal
-ms.collection: Ent_O365_Hybrid
+ms.collection:  
+- Ent_O365_Hybrid
+- M365-collaboration
 search.appverid:
 - SPO160
 - MOE150
@@ -16,9 +19,7 @@ search.appverid:
 - GSP150
 - MET150
 ms.assetid: 7b087413-165a-4e94-8871-4393e0b9c037
-description: "Learn how to use Office 365 SharePoint Online and OneDrive for Business as a Business to Business (B2B) Extranet solution 
-
-"
+description: "Learn how to use Office 365 SharePoint Online and OneDrive for Business as a Business to Business (B2B) Extranet solution"
 ---
 
 # Use SharePoint Online as a business-to-business (B2B) extranet solution

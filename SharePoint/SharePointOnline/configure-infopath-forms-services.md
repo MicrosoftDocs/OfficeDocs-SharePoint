@@ -1,10 +1,11 @@
 ---
 title: "Configure InfoPath Forms Services"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
 ms.date: 4/20/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 f1_keywords:
 - 'SPOTACfgInfoPathWebSrvcPrx'
@@ -48,50 +49,52 @@ By default, browser-enabled user form templates can be published and rendered.
   
 To configure browser-enabled user form templates
   
-1. Sign in to Office 365 as a global admin or SharePoint admin.
+1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+    > [!NOTE]
+    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-3. In the left pane, choose **Admin centers** \> **SharePoint**.
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
     
-4. In the left pane, click **infopath**.
+3. In the left pane, select **infopath**.
     
-5. In the **User Browser-enabled Form Templates** section, specify how you want user form templates to be processed by InfoPath Forms Services by completing the following steps: 
+4. In the **User Browser-enabled Form Templates** section, specify how you want user form templates to be processed by InfoPath Forms Services by completing the following steps: 
     
     > [!NOTE]
     > These settings apply only to form templates published to form libraries. Workflow form templates and list forms are not affected. 
   
-1. Select the **Allow users to browser-enable form templates** check box to allow users to publish browser-enabled form templates. 
+    1. Select the **Allow users to browser-enable form templates** check box to allow users to publish browser-enabled form templates. 
     
     > [!NOTE]
     > Clearing this check box disables browser-enabled form templates across the entire site collection. 
   
-2. Select the **Render form templates that are browser-enabled by users** check box to allow browser-enabled form templates that users publish to be rendered in a web browser. 
+    2. Select the **Render form templates that are browser-enabled by users** check box to allow browser-enabled form templates that users publish to be rendered in a web browser. 
     
     > [!NOTE]
     > If this option is not selected, users can still publish browser-compatible form templates to form libraries, but these form templates cannot be filled out in a web browser. 
   
-6. Click **OK**.
+5. Select **OK**.
     
 ## Configure exempt user agents
 <a name="__toc336423364"> </a>
 
 To make indexing InfoPath forms faster and easier, you can specify which user agents to exempt from receiving an entire webpage to index. This means that when a user agent you've specified as exempt encounters an InfoPath form, the form will be returned as an XML file (which looks like a hierarchical text file) instead of an entire webpage. You can use the procedure below to select this option and populate the agent list.
   
-1. Sign in to Office 365 as a global admin or SharePoint admin.
+1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+    > [!NOTE]
+    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-3. In the left pane, choose **Admin centers** \> **SharePoint**.
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
     
-4. In the left pane, click **infopath**.
+3. In the left pane, select **infopath**.
     
-5. In the **Exempt User Agents** section, select the **Customize the list of exempt user agents** check box, and then do one of the following: 
+4. In the **Exempt User Agents** section, select the **Customize the list of exempt user agents** check box, and then do one of the following: 
     
-6. To add a user agent to the exempt list, type a name in the **Name** box, and then click **Add**.
+5. To add a user agent to the exempt list, type a name in the **Name** box, and then select **Add**.
     
-7. To remove a user agent from the list, select the name, and then click **Remove**.
+6. To remove a user agent from the list, select the name, and then select **Remove**.
     
-8. Click **OK**.
+7. Select **OK**.
     
 

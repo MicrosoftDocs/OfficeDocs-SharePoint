@@ -1,10 +1,11 @@
 ---
 title: "Install a software update for SharePoint Server 2016"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
 ms.date: 4/30/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -31,6 +32,9 @@ Before you begin the software update process, review the following information a
 - [Software updates overview for SharePoint 2016](/sharepoint/upgrade-and-update/software-updates-overview)
     
 - [Prepare to deploy software updates for SharePoint 2016](/sharepoint/upgrade-and-update/deploy-updates-for-sharepoint-server-2016)
+
+>[!NOTE]
+>While the steps in this article refer to SharePoint Server 2016, they are applicable to SharePoint Foundation 2013, SharePoint Server 2013, and SharePoint Server 2019 unless otherwise noted.
     
 To perform the procedures in this article, you must have the following memberships and roles:
   
@@ -50,7 +54,7 @@ Before you install an update, verify that the following conditions are satisfied
     
 Do not start the update if any of the preceding conditions are not satisfied. Resolve all issues before you continue.
   
-SharePoint 2013 can handle certain upgrade failures after the patching phase finishes. However, if the build-to-build upgrade fails, you might have to restore from a backup. Therefore, make sure that you perform a full backup before you start the update process. After the restore is complete, you can resume the update. Completed tasks do not run again. For more information, see the following resources:
+SharePoint Server 2016 can handle certain upgrade failures after the patching phase finishes. However, if the build-to-build upgrade fails, you might have to restore from a backup. Therefore, make sure that you perform a full backup before you start the update process. After the restore is complete, you can resume the update. Completed tasks do not run again. For more information, see the following resources:
   
    
 - [Test and troubleshoot an upgrade to SharePoint 2016](/sharepoint/upgrade-and-update/test-and-troubleshoot-an-upgrade)
@@ -108,7 +112,7 @@ The following illustration shows the steps that are required to install the upda
     
 5. Review the upgrade log files to verify that all the application servers were updated successfully.
     
-    The upgrade log file and the upgrade error log file are located at %COMMONPROGRAMFILES%\Microsoft Shared\Web server extensions\15\LOGS. Upgrade log file names are in the following format: Upgrade- _YYYYMMDD-HHMMSS-SSS_.log, where  _YYYYMMDD_ is the date and  _HHMMSS-SSS_ is the time (hours in 24-hour clock format, minutes, seconds, and milliseconds). The upgrade error log file combines all errors and warnings in a shorter file that is named Upgrade-  _YYYYMMDD-HHMMSS-SSS_-error.log.
+    The upgrade log file and the upgrade error log file are located at %COMMONPROGRAMFILES%\Microsoft Shared\Web server extensions\16\LOGS. Upgrade log file names are in the following format: Upgrade-_YYYYMMDD-HHMMSS-SSS_.log, where _YYYYMMDD_ is the date and _HHMMSS-SSS_ is the time (hours in 24-hour clock format, minutes, seconds, and milliseconds). The upgrade error log file combines all errors and warnings in a shorter file that is named Upgrade-_YYYYMMDD-HHMMSS-SSS_-error.log.
     
 6. Log on to the first web server (WEB-1).
     
@@ -124,8 +128,8 @@ The following illustration shows the steps that are required to install the upda
     
 12. Run the SharePoint Products Configuration Wizard on the first web server (WEB-1).
     
-    > [!NOTE]
-    > Run the configuration wizard to ensure that if an update fails for a specific server, the error is not propagated to the other web servers. For example, a failed update for one server could make the update fail for one or more site collections. 
+    >[!NOTE]
+    >Run the configuration wizard to ensure that if an update fails for a specific server, the error is not propagated to the other web servers. For example, a failed update for one server could make the update fail for one or more site collections. 
   
 13. Repeat the preceding step for each remaining web server.
     
@@ -146,8 +150,8 @@ This update scenario uses two phases to install the update on farm servers. Thes
     
 2. Perform a build-to-build upgrade to complete the patching process.
     
-> [!IMPORTANT]
-> During the update phase, the farm can continue to be in production with minimal downtime. However, during the build-to-build upgrade phase, the farm will be unavailable. If users attempt to access content while the farm is upgrading, the result could be failed upgrades or excessive slowdowns in the upgrade process because of resource contention and locking. Such an attempt is unsupported and untested. 
+>[!IMPORTANT]
+>During the update phase, the farm can continue to be in production with minimal downtime. However, during the build-to-build upgrade phase, the farm will be unavailable. If users attempt to access content while the farm is upgrading, the result could be failed upgrades or excessive slowdowns in the upgrade process because of resource contention and locking. Such an attempt is unsupported and untested. 
   
 For more information, see the [Software updates overview for SharePoint Server 2016](/SharePoint/upgrade-and-update/software-updates-overview-for-sharepoint-server-2013#updateprocess) section in [Overview of the upgrade process from SharePoint 2013 to SharePoint Server 2016](/sharepoint/upgrade-and-update/verify-upgrade-for-databases).
   
@@ -163,7 +167,7 @@ The following illustration shows the steps that are required to install the upda
     
 2. On each web server that is out of the load-balancing rotation (WEB-1 and WEB-2), run the executable file to install the update. Do not run the SharePoint Products Configuration Wizard on these servers. Verify that these web servers were updated successfully by reviewing the upgrade log files.
     
-    The upgrade log file and the upgrade error log file are located at %COMMONPROGRAMFILES%\Microsoft Shared\Web server extensions\16\LOGS. Upgrade log file names are in the following format: Upgrade- _YYYYMMDD-HHMMSS-SSS_.log, where  _YYYYMMDD_ is the date and  _HHMMSS-SSS_ is the time (hours in 24-hour clock format, minutes, seconds, and milliseconds). The upgrade error log file combines all errors and warnings in a shorter file that is named Upgrade-  _YYYYMMDD-HHMMSS-SSS_-error.log.
+    The upgrade log file and the upgrade error log file are located at %COMMONPROGRAMFILES%\Microsoft Shared\Web server extensions\16\LOGS. Upgrade log file names are in the following format: Upgrade-_YYYYMMDD-HHMMSS-SSS_.log, where  _YYYYMMDD_ is the date and  _HHMMSS-SSS_ is the time (hours in 24-hour clock format, minutes, seconds, and milliseconds). The upgrade error log file combines all errors and warnings in a shorter file that is named Upgrade- _YYYYMMDD-HHMMSS-SSS_-error.log.
     
 3. Remove the remaining web servers (WEB-3 and WEB-4) from rotation in the load balancer, or pause the load balancer to stop incoming requests to the servers.
     
@@ -189,8 +193,8 @@ The following illustration shows the steps that upgrade the farm servers to fini
   
 Use the preceding illustration as a guide to follow the steps in the following procedure.
   
-> [!IMPORTANT]
-> Monitor the status of the upgrade on each server before you upgrade the next server in the sequence. We recommend that you create a backup of the farm before you begin to upgrade. 
+>[!IMPORTANT]
+>Monitor the status of the upgrade on each server before you upgrade the next server in the sequence. We recommend that you create a backup of the farm before you begin to upgrade. 
   
 The following procedure shows all the steps to upgrade the farm. You can upgrade all components within the same outage window, or you can take some smaller outage windows and upgrade separate parts of the farm at different times. If you want to break up the upgrade stage, you can upgrade the following components in separate outage windows:
   
@@ -208,8 +212,8 @@ The following procedure shows all the steps to upgrade the farm. You can upgrade
   
 1. Remove the web servers (WEB-1 to WEB-4) from rotation in the load balancer, or pause the load balancer to stop incoming requests to the servers.
     
-    > [!IMPORTANT]
-    > The sites and services will not be available until upgrade is complete and the servers are returned to an active load-balancing state. 
+    >[!IMPORTANT]
+    >The sites and services will not be available until upgrade is complete and the servers are returned to an active load-balancing state. 
   
 2. Upgrade specific services, as needed. 
     
@@ -221,8 +225,8 @@ The following procedure shows all the steps to upgrade the farm. You can upgrade
     
     This is an optional step, but it will help ensure that all content databases are upgraded first. It has the advantage of enabling some parallelism to reduce the outage time. If it is not performed, all remaining non-upgraded content databases will be upgraded serially when you run the SharePoint Products Configuration Wizard to upgrade the farm servers. 
     
-    > [!IMPORTANT]
-    > Run the **Upgrade-SPContentDatabase** cmdlet for each database. You can run this cmdlet from any of the upgraded web servers or application servers. Note that the content for each database will be unavailable while this process is running on that database. 
+    >[!IMPORTANT]
+    >Run the **Upgrade-SPContentDatabase** cmdlet for each database. You can run this cmdlet from any of the upgraded web servers or application servers. Note that the content for each database will be unavailable while this process is running on that database. 
   
 4. On the Central Administration server (APP-1), do one of the following:
     
@@ -230,14 +234,13 @@ The following procedure shows all the steps to upgrade the farm. You can upgrade
     
   - Run the following commands at the PowerShell command prompt:
     
-  ```
-  cd \Program Files\Common Files\Microsoft Shared\web server extensions\15\bin
-  .\PSConfig.exe -cmd upgrade -inplace b2b -wait -cmd applicationcontent -install -cmd installfeatures -cmd secureresources
-  
-  ```
+```
+cd \Program Files\Common Files\Microsoft Shared\web server extensions\16\bin
+PSConfig.exe -cmd upgrade -inplace b2b -wait -cmd applicationcontent -install -cmd installfeatures -cmd secureresources
+```
 
-    > [!IMPORTANT]
-    > The SharePoint Products Configuration Wizard also starts an immediate upgrade of the configuration database and all other databases that are not already upgraded. Because it is likely that the content databases are the only databases that have already been upgraded, as described in the previous step, all the service application databases are also upgraded in this step. Your sites will not be available while this process runs. 
+   >[!IMPORTANT]
+   >The SharePoint Products Configuration Wizard also starts an immediate upgrade of the configuration database and all other databases that are not already upgraded. Because it is likely that the content databases are the only databases that have already been upgraded, as described in the previous step, all the service application databases are also upgraded in this step. Your sites will not be available while this process runs. 
   
 5. Run the SharePoint Products Configuration Wizard or PSConfig (as in step 4 of this procedure) on the remaining application server (APP-2).
     
@@ -264,19 +267,22 @@ Use the preceding illustration as a guide to follow the recommended steps in the
   
 1. Create a new farm where you will install the software update. This farm does not require front-end web servers. For more information, see [Create the SharePoint 2016 farm for a database attach upgrade](/sharepoint/upgrade-and-update/create-the-sharepoint-server-2016-farm-for-a-database-attach-upgrade).
     
-    > [!NOTE]
-    > If the original farm uses a database mirror, configure mirroring after you deploy the software update on the new farm. 
+    >[!NOTE]
+    >If the original farm uses a database mirror, configure mirroring after you deploy the software update on the new farm. 
   
 2. Configure the databases on the existing farm so that they are in a read-only state.
     
-    > [!NOTE]
-    > If the existing farm is mirrored, pause mirroring before setting the databases to read-only. 
+    >[!NOTE]
+    >If the existing farm is mirrored, pause mirroring before setting the databases to read-only. 
   
     For more information about how to configure read-only databases, see the "Set the Previous Version Databases to Be Read-Only (Database Attach with Read-Only Databases)" section in [Upgrade content databases from SharePoint 2013 to SharePoint Server 2016](/sharepoint/upgrade-and-update/upgrade-content-databases) and [Run a farm that uses read-only databases in SharePoint Server](/SharePoint/administration/run-a-farm-that-uses-read-only-databases).
     
 3. Configure the service application databases on the existing farm so that they are in a read-only state. This prevents unexpected changes to service applications.
     
-4. If you are patching the User Profile Service service application database, which is not in SharePoint Foundation 2013, you must export the User Profile Synchronization Service encryption key from the old database and then import the key to the new database. This key is also known as the Microsoft Identity Integration Server (MIIS) key, the Synchronization Service encryption key, and the Forefront Identity Manager 2010 (FIM 2010) key. If you do not export and then import the key correctly, the Synchronization Service will not start. To export the encryption key, complete these steps:
+	>[!NOTE]
+	>Steps 4 through 14 do not apply to SharePoint Foundation 2013, SharePoint Server 2016, and SharePoint Server 2019.
+	
+4. If you are patching the User Profile Service service application database, you must export the User Profile Synchronization Service encryption key from the old database and then import the key to the new database. This key is also known as the Microsoft Identity Integration Server (MIIS) key, the Synchronization Service encryption key, and the Forefront Identity Manager 2010 (FIM 2010) key. If you do not export and then import the key correctly, the Synchronization Service will not start. To export the encryption key, complete these steps:
     
 1. Use farm administrator credentials to log on to the computer that contains the old User Profile Service service application database.
     
@@ -304,7 +310,7 @@ Use the preceding illustration as a guide to follow the recommended steps in the
     
 4. Type the following command, and then press Enter:
     
-    **miiskmu.exe /i** _\<Path\>_ ** {0E19E162-827E-4077-82D4-E6ABD531636E} **
+    **miiskmu.exe /i** _\<Path\>_ **{0E19E162-827E-4077-82D4-E6ABD531636E}**
     
     Where  _\<Path\>_ is the full path of the file to which you exported the key. 
     
@@ -379,7 +385,7 @@ Perform the procedures in this section only when they are pointed to from other 
   
   ```
 
-    Rerun the command until no Search components are listed in the output.
+  Rerun the command until no Search components are listed in the output.
     
 6. Resume the Search service application by typing the following command at the PowerShell command prompt:
     
@@ -431,7 +437,7 @@ Perform the procedures in this section only when they are pointed to from other 
   
   ```
 
-    Rerun the command until all Search components that are associated with availability group 1 are listed in the output.
+   Rerun the command until all Search components that are associated with availability group 1 are listed in the output.
     
 8. On each server in availability group 2, run the update executable file to install the update.
     
@@ -444,7 +450,7 @@ Perform the procedures in this section only when they are pointed to from other 
   
   ```
 
-    Rerun the command until all Search components that are associated with availability group 2 are listed in the output.
+   Rerun the command until all Search components that are associated with availability group 2 are listed in the output.
     
 11. Resume the Search service application by typing the following command at the PowerShell command prompt:
     
@@ -494,7 +500,7 @@ Perform the procedures in this section only when they are pointed to from other 
   - **Resolution:** Run the following command: 
     
   ```
-  cd\Program Files\Common Files\Microsoft Shared\web server extensions\16\bin.\PSConfig.exe -cmd secureresources
+  Initialize-SPResourceSecurity
   ```
 
 ## See also

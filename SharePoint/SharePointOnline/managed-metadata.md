@@ -1,13 +1,16 @@
 ---
 title: "Introduction to managed metadata"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 5/22/2018
-ms.audience: End User
+audience: End User
 ms.topic: overview
 ms.service: sharepoint-online
 localization_priority: Normal
+ms.collection:  
+- M365-collaboration
 search.appverid:
 - SPO160
 - MET150
@@ -95,26 +98,7 @@ To learn how to work with a Managed Metadata column, see [Create a managed metad
 <a name="__migbm_6"> </a>
 
 The enterprise Keywords column is a column that you can add to content types, lists, or libraries to enable users to tag items with words or phrases that they choose. By default, it is a multi-value column. When users type a word or phrase into the column, SharePoint presents type-ahead suggestions. Type-ahead suggestions might include items from managed term sets and the Keywords term set. Users can select an existing value, or enter something new.
-  
-### Social Tags
-<a name="__migbm_7"> </a>
 
-Social tags are words or phrases that site users can apply to content to help them categorize information in ways that are meaningful to them. Social tagging is useful because it helps site users to improve the discoverability of information on a site. Users can add social tags to information on a SharePoint site and to URLs outside a SharePoint site. 
-  
-A social tag contains pointers to three types of information: 
-  
-- A user identity 
-    
-- An item URL
-    
-- A term
-    
-When you add a social tag to an item, you can specify whether you want to make your identity and the item URL private. However, the term part of the social tag is always public, because it is stored in the Term Store.
-  
-When you create a social tag, you can choose from a set of existing terms or enter something new. If you select an existing term, your social tag contains a pointer to that term. 
-  
-If, instead, you enter a new term, SharePoint creates a new keyword for it in the Keywords term set. The new social tag points to this term. In in this manner, social tags support folksonomy-based tagging. Additionally, when users update an enterprise Keywords or Managed Metadata column, SharePoint can create social tags automatically. These terms then become visible as tags in newsfeeds, tag clouds, or My Site profiles. 
-  
 List or library owners can enable or disable metadata publishing by updating the **Enterprise Metadata and Keywords Settings** for a list or library. 
   
 To learn how to add a special keywords column, see [Add an enterprise keywords column to a list or library](https://support.office.com/article/314ce556-e4bf-4ef7-9939-6a1bedfc434a).
@@ -161,14 +145,19 @@ When the same terms are used consistently across sites, it is easier to build ro
 When the content across sites in an organization has consistent metadata, it is easier to find business information and data by using search. Search features such as the refinement panel, which displays on the left-hand side of the search results page, enable users to filter search results based on metadata.
   
 ![The refinement panel displays metadata that can be used to filter search results.](media/a59edf28-c158-4ee3-8b6c-404546049bb8.png)
+
+### Metadata navigation for sites
+<a name="__migbm_12"></a>
+
+Metadata navigation for sites enables a site administrator to create navigation elements based on metadata terms. For more information including performance recommendations, see [Navigation options for SharePoint Online](/office365/enterprise/navigation-options-for-sharepoint-online).
   
 ### Metadata navigation for lists and libraries
-<a name="__migbm_11"> </a>
+<a name="__migbm_13"> </a>
 
-Metadata navigation enables users to create views of information dynamically, based on specific metadata fields. Then, users can locate libraries by using folders or by using metadata pivots, and refine the results by using additional Key Filters. To learn how to set this up, see [Set up metadata navigation for a list or library](https://support.office.com/article/c222a75d-8b18-44e2-9ed8-7ee4e0d23cfc).
+Metadata navigation enables users to create views of information dynamically, based on specific metadata fields. Then, users can locate libraries by using folders or by using metadata pivots, and refine the results by using additional Key Filters. To learn how to set this up, see [Set up metadata navigation for a list or library](https://support.office.com/article/c222a75d-8b18-44e2-9ed8-7ee4e0d23cfc) and [Use grouping to modify a SharePoint view](https://support.office.com/article/18548b63-a869-4fcf-89b1-ba3d04784df7).
   
 ### Increased flexibility
-<a name="__migbm_12"> </a>
+<a name="__migbm_14"> </a>
 
 Managed metadata makes it easier for Term Store Administrators to maintain and adapt your metadata as business needs evolve. You can update a term set easily. And, new or updated terms automatically become available when you associate a Managed Metadata column with that term set. For example, if you merge multiple terms into one term, content that is tagged with these terms is automatically updated to reflect this change. You can specify multiple synonyms (or labels) for individual terms. If your site is multilingual, you can also specify multilingual labels for individual terms.
   

@@ -1,10 +1,11 @@
 ---
 title: "Make the search results look great"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
 ms.date: 6/14/2017
-ms.audience: Admin
+audience: Admin
 ms.topic: overview
 ms.service: sharepoint-online
 localization_priority: Normal
@@ -17,19 +18,23 @@ description: "Presenting the search results the right way makes content easier t
 
 # Make the search results look great
 
-Presenting the search results the right way makes content easier to find. SharePoint Online has both a classic and a modern search experience. If you're responsible for search in your organization, you can customize how results are presented on classic search results pages.  Read about how you can use the search web parts in SharePoint Online to make it easier for users find what they're looking for in the classic search experience. [Learn about the differences between the classic and modern search experiences in SharePoint Online](differences-classic-modern-search.md).  
+Presenting the search results the right way makes content easier to find for users.
+
+SharePoint Online has both a classic and a modern search experience. [Learn about the differences between the classic and modern search experiences in SharePoint Online](differences-classic-modern-search.md).
+
+If you're responsible for search in your organization, you can customize how results are presented on **classic** search results pages. Read about how you can use the search web parts in SharePoint Online to make it easier for users find what they're looking for in the classic search experience.  
   
  ## Manage the Search Center
   
-A Search Center is a site where users can enter search queries and view search results. [Learn more](manage-search-center.md).
+A Search Center is a classic site where users can enter search queries and view search results. [Learn more](manage-search-center.md).
   
 ## Specify the default Search Center URL
   
 Choose where searches should go by specifying the URL of your default Search Center. [Learn more](specify-default-search-center.md).
   
-## Specify the Search Center URL for a site or site collection
+## Specify the Search Center URL for a site or subsite
   
-For each site collection or site, you can specify the URL of the Search Center where you want the search results from the site to be displayed. [Learn more](override-default-search-center.md).
+For each site or subsite, you can specify the URL of the Search Center where you want the search results from the site to be displayed. [Learn more](override-default-search-center.md).
   
 ## The Search Box Web Part
   

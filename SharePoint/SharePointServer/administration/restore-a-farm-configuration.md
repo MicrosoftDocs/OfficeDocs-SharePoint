@@ -1,9 +1,10 @@
 ---
 title: "Restore farm configurations in SharePoint Server"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -53,7 +54,7 @@ You can use PowerShell to restore a farm's configuration.
     
 3. At the PowerShell command prompt, type the following command:  
     
-   ```
+   ```powershell
    Restore-SPFarm -Directory <RestoreShare> -RestoreMethod Overwrite -ConfigurationOnly
    ```
 

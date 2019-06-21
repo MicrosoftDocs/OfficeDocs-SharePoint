@@ -1,16 +1,18 @@
 ---
 title: "Planning SharePoint Online business-to-business (B2B) extranet sites"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 6/25/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: conceptual
 ms.service: sharepoint-online
 localization_priority: Normal
 ms.collection:
 - IT_SharePoint_Hybrid
-- Strat_OD_share
+- Strat_OD_share 
+- M365-collaboration
 search.appverid:
 - SPO160
 - MET150

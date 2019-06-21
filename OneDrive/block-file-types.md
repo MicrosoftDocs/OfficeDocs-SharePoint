@@ -1,13 +1,16 @@
 ---
 title: "Block syncing of specific file types"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: one-drive
 localization_priority: Normal
-ms.collection: Strat_OD_admin
+ms.collection: 
+- Strat_OD_admin
+- M365-collaboration
 search.appverid:
 - ODB160
 - ODB150
@@ -27,7 +30,7 @@ You can prevent users from uploading specific file types when they sync their On
   
 1. Open the [OneDrive admin center](https://admin.onedrive.com/?v=SyncSettings), and click **Sync** in the left pane. 
     
-    ![The Sync tab of the OneDrive admin center](media/1c3bf6d6-7b82-4c73-9df7-c8551a0c2922.png)
+    ![The Sync page of the OneDrive admin center](media/1c3bf6d6-7b82-4c73-9df7-c8551a0c2922.png)
   
 2. Select the **Block syncing of specific file types** check box. 
     
@@ -40,5 +43,5 @@ You can prevent users from uploading specific file types when they sync their On
   
 5. Click **Save** on the Sync page. 
     
-
+For info about setting this sync client restriction by using PowerShell, see [Set-SPOTenantSyncClientRestriction](/powershell/module/sharepoint-online/set-spotenantsyncclientrestriction)
 

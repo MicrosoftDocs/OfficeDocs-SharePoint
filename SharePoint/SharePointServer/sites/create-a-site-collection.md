@@ -1,9 +1,10 @@
 ---
 title: "Create a site collection in SharePoint Server"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -84,15 +85,15 @@ You typically use Microsoft PowerShell to create a site collection when you want
     
 3. At the command prompt, type the following commands:
     
-   ```
+   ```powershell
    Get-SPWebTemplate
    ```
 
-   ```
+   ```powershell
    $template = Get-SPWebTemplate "STS#0"
    ```
 
-   ```
+   ```powershell
    New-SPSite -Url "<URL for the new site collection>" -OwnerAlias "<domain\user>" -Template $template
    ```
 

@@ -1,15 +1,21 @@
 ---
 title: Planning Navigation for the modern SharePoint experience
+ms.reviewer: 
 ms.author: loreenl
 author: loreenla
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
-search.appverid: MET150
 localization_priority: Priority
+ms.collection:  
+- Strat_SP_modern
+- M365-collaboration
+search.appverid:
+- SPO160
+- MET150
 description: "Learn about how to plan navigation in the SharePoint modern experience"
-...
+---
 
 # Planning Navigation for the modern SharePoint experience
 
@@ -39,7 +45,7 @@ Planning site navigation involves thinking about:
 
 -   Usability and findability
 
-Navigation should always be planned from the perspective of the *user* of information – the visitors to your site. Planning effective navigation involves considering not just the information you want to *present*, but also thinking about the information your readers want or need to *consume*. This is why organizing and labeling your navigation links is so critical usability and findability. If 70% of visitors come to your sites expecting to *browse* for information, the usability of your site depends on creating a great browsing (navigating) experience.
+Navigation should always be planned from the perspective of the *user* of information – the visitors to your site. Planning effective navigation involves considering not just the information you want to *present*, but also thinking about the information your readers want or need to *consume*. This is why organizing and labeling your navigation links is critical for the purposes of usability and findability. If 70% of visitors come to your sites expecting to *browse* for information, the usability of your site depends on creating a great browsing (navigating) experience.
 
 ### Organizing
 
@@ -67,7 +73,7 @@ To ensure that your labels keep their promises, make sure they are:
 
 -   **Comprehensive**. Describe all the content with your collection of labels. You should not plan to link to every single page or document in your navigation, but your navigation should provide a complete picture of the content on your site.
 
--   **Consistent.** When we have a lot of content on sites, we often need to use a combination category and sub-links on pages. On desktops, hovering the mouse over a category exposes the menu while clicking the category takes you to a “category landing page.” However, hover is not a gesture available on mobile or touch screens so “split” links as shown below can be confusing for site visitors. The top link for Latin America has sub-links. While it is awkward that Latin America has sub-links and the other regions do not, you may find that you need to present navigation where not every top category has sub-links or even where all top links have sub-links. When you have split links, think about the user expectations for the link associated with each category and how it relates to its associated sub-links. Is there a category landing page for Latin America? If so, how much experience will your visitors need to know that there is content only visible if they click on the category link? One option is to make Latin America simply a category *label* (by targeting the URL to an existing page) but another option is to think about providing consistent category and sub-link experiences. Consider creating a category landing page whenever you have sub-links and/or having the category landing page be the first link below the category label.<br>![Example of navigation](media/plan-navigation-modern-experience_image3.png)
+-   **Consistent**. When we have a lot of content on sites, we often need to use a combination of category and sub-links on pages. On desktops, hovering the mouse over a category exposes the menu, while clicking the category takes you to a “category landing page.” However, hovering is not a feature available on mobile or touch screens, so “split” links as shown below can be confusing for site visitors. The top link for Latin America has sub-links. While it is awkward that Latin America has sub-links and the other regions do not, you may find that you need to present navigation where not every top category has sub-links or even where all top links have sub-links. When you have split links, think about the user expectations for the link associated with each category and how it relates to its associated sub-links. Is there a category landing page for Latin America? If so, how much experience will your visitors need to know that there is content only visible if they click on the category link? One option is to make Latin America simply a category *label* (by targeting the URL to an existing page), but another option is to think about providing consistent category and sub-link experiences. Consider creating a category landing page whenever you have sub-links and/or having the category landing page be the first link below the category label.<br>![Example of navigation](media/plan-navigation-modern-experience_image3.png)
 
 -   **Concise**. Keep your labels short and to the point. For example: News, History, Services.
 
@@ -77,7 +83,7 @@ To ensure that your labels keep their promises, make sure they are:
 
 -   **Clear**. As much as possible, you want your navigation labels to be mutually exclusive – at least for the major categories. It is perfectly fine to have a sub-link show up in multiple categories – especially if visitors might expect to find it in more than one place – but the major categories need to be easily distinguished from one another.
 
--   **Targeted**. It is generally not a good idea to “tease” people with links to private sites to which they do not have access. Where appropriate, use the audience targeting features for SharePoint to target navigation links to visitors for whom the link will work. (Audience targeting for modern pages and web parts is coming soon. Check the [Office 365 Roadmap](https://products.office.com/en-US/business/office-365-roadmap) *for this and other features that are in development*, rolling out, or launched). Note that there are exceptions to this guideline. For example, you may want to use your navigation to help people discover sites that they may not have access to *today* but could be approved to join. If you do provide links in navigation to private sites, be sure that the owner of the site knows that they may be getting a lot of access requests!
+-   **Targeted**. It is generally not a good idea to “tease” people with links to private sites to which they do not have access. Where appropriate, use the audience targeting features for SharePoint to target navigation links to visitors for whom the link will work. (Audience targeting for modern pages and web parts is coming soon. Check the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap) *for this and other features that are in development*, rolling out, or launched). Note that there are exceptions to this guideline. For example, you may want to use your navigation to help people discover sites that they may not have access to *today* but could be approved to join. If you do provide links in navigation to private sites, be sure that the owner of the site knows that they may be getting a lot of access requests!
 
 Many sites use labels that tend to break promises – and you should try to avoid them if you can. For example, think twice before you use these labels:
 
@@ -113,9 +119,9 @@ By default, navigation links on modern SharePoint sites open as follows:
 
 -   **Link points to a document (same site or different site)**: Links open in a new tab
 
--   **Link points to an external (internet) site or document**: Links in a new tab
+-   **Link points to an external (internet) site or document**: Links open in a new tab
 
-In classic SharePoint sites with publishing features, you can choose to open navigation links in a new window. This allows you to consider the context for your site visitors and determine whether it might be helpful to open a link in a new window. There is no way to select how navigation links open in modern SharePoint sites. This means that your navigation links will follow most usability guidelines, but you will still want to be especially careful about the *labels* for navigation links to make sure that your visitors know that they are leaving your site context when they click the link. Make sure that the navigation label accurately describes the destination – a place on a completely different site or an application – and if you know that the back button may not work, consider using an alternative way to present the link, such as the text web part where you can open elect to open a link in a new window.
+In classic SharePoint sites with publishing features, you can choose to open navigation links in a new window. This allows you to consider the context for your site visitors and determine whether it might be helpful to open a link in a new window. There is no way to select how navigation links open in modern SharePoint sites. This means that your navigation links will follow most usability guidelines, but you still need to be especially careful about the *labels* for navigation links to make sure that your visitors know that they are leaving your site context when they click the link. Make sure that the navigation label accurately describes the destination – a place on a completely different site or an application – and if you know that the back button may not work, consider using an alternative way to present the link, such as the text web part where you can elect to open a link in a new window.
 
 ## Navigation in the Flat World
 
@@ -165,13 +171,13 @@ In addition to the general guidelines for link labels, consider the following fo
 
         -   Trip Reports
 
--   **Link to pages, not individual documents**. Document links open in a new window – which is helpful if someone wants to close the document after reading – but document links take visitors to a new context – the online viewer for how the document was created (such as Word or PowerPoint). In some cases, this may be the experience you want. But when navigation points to a page with an embedded instead of directly to a document, you have an opportunity to provide *context* for the document and retain the navigational context for the site. Think about the following alternatives if you want to use a navigation link to open to a single document:
+-  **Link to pages, not individual documents**. Document links open in a new window, which is helpful if someone wants to close the document after reading, but document links take visitors to a new context – the online viewer for how the document was created (such as Word or PowerPoint). In some cases, this may be the experience you want. But when navigation points to a page with an embedded document instead of directly to a document, you have an opportunity to provide *context* for the document and retain the navigational context for the site. Think about the following alternatives if you want to use a navigation link to open to a single document:
 
     -   Can you re-create the document content as a page instead of a document? Pages are easier to read online and especially for communication sites, where visitors are not editing but just consuming content, presenting content on a page instead of a document can provide a better experience, especially on mobile devices. Documents are great when readers need to download or print – but when all they need to do is read, a short, well-crafted page is a great way to present and maintain information.
 
     -   Embed the document on a page. When a visitor clicks the link to a page, the site navigation remains visible. The page allows you to provide context for the document and it also and keeps the reader in the context of your site.
 
--   **Plan for up to three levels of navigation**. Local navigation supports up to three levels and a new mega-menu layout for sites and hub sites is coming soon (check the [Office 365 Roadmap](https://products.office.com/en-US/business/office-365-roadmap) *for this and other features that are in development*, rolling out, or launched). A top link can have a sub-link and a sub-link can have and additional level of links. Links to external sites (not on your tenant) automatically open in a new window. Links to pages and sites in the same tenant or on the same site always open in the same window.
+-   **Plan for up to three levels of navigation**. Local navigation supports up to three levels and a new megamenu layout for sites and hub sites is being rolled out (check the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap) *for this and other features that are in development*, rolling out, or launched). A top link can have a sub-link and a sub-link can have and additional level of links. Links to external sites (not on your tenant) automatically open in a new window. Links to pages and sites in the same tenant or on the same site always open in the same window. With megamenus, links can be either a Category or a URL - so you can have a label that provides a way to group related links. **If you use the megamenu style of navigation, you will want to use three levels of links.** Use the first level (Header - a category for your links) for the tabs in your navigation. Plan to have at least two second level Header links for each first level link. Use the third level of links within each of your second level Header links to add a URL link that points to your target page or document.
 
 -   **Be comprehensive and progressive**. It’s a good practice to use your top navigation to provide a comprehensive experience for site visitors. Navigation should answer the question, “What can I do on this site?” But, limited real estate on the navigation bar or quick launch means you need to apply the principle of [progressive disclosure](https://www.nngroup.com/articles/progressive-disclosure/). This approach suggests that you group your content into logical categories and provide a limited set of choices for your readers to allow them to explore each content category to learn more. Progressive disclosure applies to all types of navigation and not just top or site navigation. It also applies to page content. For example, you can refer to a term in text (just like the link to the progressive disclosure article in this paragraph) to allow readers who need to know more to read more – but allow readers who know what the term means to continue in the context of the page. Keep in mind: you don’t need to have a link to every bit of content on your site in the navigation – but your readers should be able to get a sense of the entire site by exploring your navigation options. Great navigation experiences help visitors understand:
 
@@ -193,7 +199,7 @@ Hub site navigation is displayed above the local navigation on each site, just b
 
 ![Hub site navigation](media/plan-navigation-modern-experience_image2.png)
 
-Hub site navigation is established in the on the site that is declared to be the hub. It is defined by the hub site owner and is shared by all the associated sites. You cannot currently “turn off” hub navigation on an individual site that is associated to a hub, so you will want to carefully think about which sites are reflected in your hub navigation.
+Hub site navigation is established in the site that is declared to be the hub. It is defined by the hub site owner and is shared by all the associated sites. You cannot currently “turn off” hub navigation on an individual site that is associated to a hub, so you will want to carefully think about which sites are reflected in your hub navigation.
 
 There are three special considerations for planning hub site navigation:
 
@@ -209,7 +215,7 @@ Showcasing sites associated to the hub allows visitors to discover the members o
 
 When you choose to show all associated sites in the hub navigation, think about whether all the people who have access to the hub will *also* have access to each of the sites associated to the hub. For example, if you add links to private sites in the navigation, you are increasing their “discoverability,” which can be a good thing – if the site owners for those private sites are prepared to get access requests. However, you may not *want* to show restricted sites in the navigation if the site owner does not want the site or the content to be discovered. To ensure that your hub site navigation links keep their promises, consider the following options:
 
--   For links that should not be discoverable to all visitors, target the link so that it only shows up for audiences who have access to the content. (Audience targeting for modern pages and web parts is coming soon. Check the [Office 365 Roadmap](https://products.office.com/en-US/business/office-365-roadmap) *for this and other features that are in development*, rolling out, or launched).
+-   For links that should not be discoverable to all visitors, target the link so that it only shows up for audiences who have access to the content. (Audience targeting for modern pages and web parts is coming soon. Check the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap) for this and other features that are in development, rolling out, or launched).
 
 -   For “discoverable” but restricted links, consider adding the word (Restricted) or (Request Access) or (Private) to the label and having a conversation with those site owners to make sure that they are prepared for potentially more frequent access requests.
 
@@ -255,7 +261,7 @@ Global navigation is not yet available. Until it is available, there are several
 
 -   Create a custom [SharePoint Framework Extension](/sharepoint/dev/spfx/sharepoint-framework-overview) to deliver and apply global navigation to each new site as it is created.
 
--   Create a “navigation” site (e.g. your intranet “home” site) and use the logo in the suite bar and a Featured Site link on SharePoint Home to make it easy for people to navigate to the “home” site from every destination site in your tenant.
+-   Create a “navigation” site (e.g. your intranet “home” site) and use the logo in the suite bar and a Featured Site link on the SharePoint start page to make it easy for people to navigate to the “home” site from every destination site in your tenant.
 
 -   Manually add a link to the “home” site in the local navigation in each or key site collections.
 
@@ -271,4 +277,4 @@ Curating a navigation experience for intranets and digital workplaces comprised 
 
 “Information scent” on SharePoint sites can be achieved with **clear, mutually exclusive labels** for links and labels lists and libraries that clearly tell visitors what they will find. You can improve your navigation by spending time testing to make sure that the navigation labels resonate with your visitors and following the guidance for labels recommended in this document. Your navigation outcomes will be most successful if you take the time to understand your visitors, their key “tasks and asks,” and design navigation experiences that keep their promises.
 
-**Principal author: Susan Hanley, MVP<br>LinkedIn: [http://www.linkedin.com/in/susanhanley](http://www.linkedin.com/in/susanhanley)<br>Website: [www.susanhanley.com](http://http://www.susanhanley.com)<br>Blog: [http://www.computerworld.com/blog/essential-sharepoint](http://www.computerworld.com/blog/essential-sharepoint)**
+**Principal author: Susan Hanley, MVP<br>LinkedIn: [http://www.linkedin.com/in/susanhanley](http://www.linkedin.com/in/susanhanley)<br>Website: [www.susanhanley.com](http://www.susanhanley.com)<br>Blog: [http://www.computerworld.com/blog/essential-sharepoint](http://www.computerworld.com/blog/essential-sharepoint)**

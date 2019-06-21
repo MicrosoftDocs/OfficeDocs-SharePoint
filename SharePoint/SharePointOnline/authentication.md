@@ -1,14 +1,17 @@
 ---
 title: "SharePoint Online authentication"
+ms.reviewer: 
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 6/21/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: conceptual
 ms.service: sharepoint-online
 localization_priority: Normal
-ms.collection: Ent_O365
+ms.collection: 
+- Ent_O365
+- M365-collaboration
 ms.custom: Adm_O365
 search.appverid:
 - MET150

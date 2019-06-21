@@ -1,10 +1,11 @@
 ---
 title: "Plan browser support in SharePoint Servers 2016 and 2019"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
 ms.date: 7/24/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: interactive-tutorial
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -86,21 +87,23 @@ Review the details of the web browser that you have or plan to use in your organ
 
 Some functionality in SharePoint Server requires ActiveX controls. This produces limitations on browsers which do not support ActiveX. Currently only 32-bit versions of Internet Explorer support this functionality. In SharePoint Server 2016, all other supported browsers, including Microsoft Edge and the Immersive mode of Internet Explorer 10 have the following limitations. 
 
-For SharePoint Server 2019, Browsers other than Internet Explorer 11 have the following limitations.
+For SharePoint Server 2016 and 2019, browsers other than Internet Explorer 11 have the following limitations.
   
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
 |**Plugin name** <br/> |**DLL file name** <br/> |**What it does** <br/> | |**Known limitations** <br/> |
 |Digital Signature  <br/> |Dsigctrl.dll, dsigres.dll  <br/> | Digital signing takes place in both the InfoPath client and on the InfoPath Forms Services server. Make sure that the following conditions exist:  <br/>  Forms that are signed on the client can be verified on the server.  <br/>  Forms that are signed on the server can be verified on the client.  <br/> | <br/> |An inability to verify a form produces an error that states that the form cannot be signed.  <br/> |
-|NameCtrl  <br/> |Name.dll  <br/> |Enables a webpage to display a contact card and presence status for people. Integrates through client-side APIs with Office 2016.  <br/> | ||
-|TaskLauncher  <br/> |Nameext.dll  <br/> |Used to export items in a task list to Project Server if Project 2010 is installed on the client computer.  <br/> | |If software requirements are not met, an error message states that you need to install Project Server.  <br/> |
-|SpreadSheetLauncher  <br/> |Owssupp.dll  <br/> |Used to verify whether Excel is installed for Export to Excel feature.  <br/> | |If Excel is not installed, an error message states that a list cannot be imported because a compatible spreadsheet application is not installed or is not compatible with the browser.  <br/> |
-|StssyncHandler  <br/> |Owssupp.dll  <br/> |Enables synchronization of lists of events and lists of contacts in SharePoint with a messaging application such as Outlook 2016.  <br/> |||
+|NameCtrl  <br/> |Name.dll  <br/> |Enables a webpage to display a contact card and presence status for people. Integrates through client-side APIs with Office client and Skype for Business client.  <br/> | ||
+|TaskLauncher  <br/> |Nameext.dll  <br/> |Used to export items in a task list to Project Server if Project client is installed on the client computer.  <br/> | |If software requirements are not met, an error message states that you need to install Project client.  <br/> |
+|SpreadSheetLauncher  <br/> |Owssupp.dll  <br/> |Used to verify whether Excel is installed for Export to Excel feature.  <br/> | |If Excel is not installed, the user may be prompted to download the file "query.iqy" which can then be opened in Excel.  <br/> |
+|StssyncHandler  <br/> |Owssupp.dll  <br/> |Enables synchronization of lists of events and lists of contacts in SharePoint with a messaging application such as Outlook. Non-IE clients may have an additional prompt to open the calendar in Outlook.  <br/> |||
 |ExportDatabase  <br/> |Owssupp.dll  <br/> |Enables a user to use an application such as Access to create or open a database that contains SharePoint list data.  <br/> | |To export a list, the client computer must have a SharePoint compatible application.  <br/> |
 |OpenDocuments  <br/> |Owssupp.dll  <br/> |Starts Office client applications so that a user can create a or edit a document. Enables users to create documents that are based on a specified template, open documents as read-only, or open documents as read/write.  <br/> | |If a compatible Office application or browser is not installed on a client, an error message states that the feature requires a SharePoint compatible application and web browser.  <br/> |
 |CopyCtl  <br/> |Stsupld.dll  <br/> |Enables a user to copy a document on a SharePoint site to one or more locations on a server.  <br/> | |In Firefox, Google Chrome, and immersive mode of Internet Explorer version 10, the copy progress dialog box is not displayed.  <br/> |
 |PPActiveX  <br/> |PPSLAX.dll  <br/> |Starts PowerPoint to open presentations from a slide library or publish individual slides to a slide library.  <br/> | |Does not work on Click-to-Run installations of Office and version of Office that run on Windows for ARM.  <br/> |
 |BCSLauncher  <br/> |BCSLaunch.dll  <br/> |Starts the Visual Studio Tools for Office installer to install a Visual Studio Tools for Office package that has been generated on the server.  <br/> | ||
+
+Other functionality, such as **Form settings** in **List settings** only function with Internet Explorer.
    
 ## Mobile browser support
 <a name="mobile"> </a>

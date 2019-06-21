@@ -1,10 +1,10 @@
 ---
 title: "Plan customizations, solutions, and apps for SharePoint Online"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 5/25/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: conceptual
 ms.service: sharepoint-online
 localization_priority: Normal
@@ -12,116 +12,70 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: b7898ebf-69b7-4196-81e3-b04e1a4e7d67
-description: "This article describes the range of customizations you can apply to SharePoint Online for Office 365 Enterprise sites. These customizations move from browser-based configuration to developer-created apps and solutions. It also helps you identify the types of customization most appropriate to your needs."
+description: "Learn about the range of options available for configuring and customizing SharePoint sites."
 ---
 
-# Plan customizations, solutions, and apps for SharePoint Online
+# Customizing SharePoint
 
-Branding and customizing SharePoint Online is different than branding and customizing SharePoint Server products. SharePoint Online gets updated with new features on a regular basis and these updates can affect certain types of customizations. However, there are recommended customization and branding techniques available today that can streamline your branding and customization requirements. For example, if you are making structural changes to the master pages it's important to stay up to date with the ongoing product updates applied to SharePoint Online. The easiest way to stay informed is to watch the [Office 365 Roadmap](https://office.microsoft.com/en-us/products/office-365-roadmap-FX104343353.aspx) and monitor the [Office 365 blog](https://blogs.office.com/office365forbusiness/).
-  
-The software updates that Microsoft makes to SharePoint Online happen much faster than SharePoint Server and customizing or unghosting master pages, which are a core part of the product, will result in those customizations being affected by updates. To remedy the situation, those customizations will need to be re-applied to the updated pages. Staying up to date is possible, but needs to happen much more frequently in SharePoint Online.
-  
-## I'm used to customizing SharePoint Server products, what's different in SharePoint Online?
+In earlier versions of SharePoint, it was possible to make changes to a SharePoint environment by deploying custom code that would run in the physical SharePoint server environment. Changes made to SharePoint that didn&#39;t require the deployment of custom code were referred to as &quot;customizations&quot;, because the changes were not fundamentally changing the product&#39;s functioning but were rather configuring the existing product in a unique way. Examples of customizing SharePoint Server have included deploying custom branding elements such as master pages and style sheets to a site collection; deploying pre-configured web parts to a web part gallery; creating custom workflows in SharePoint Designer; changing the look and feel of list forms using InfoPath; and more. Because of the shared nature of the SharePoint Online infrastructure, Microsoft does not allow the deployment of custom code to its environment. As a result, the concept of customizing SharePoint Online as opposed to deploying custom code is no longer a relevant paradigm. However, it&#39;s still helpful to think of ways that SharePoint Online can be customized, or configured uniquely, in a broader sense of the word.
 
-Methods for customization that work in SharePoint Server won't necessarily work in SharePoint Online. Some of the methods used for customizing and extending SharePoint Server, for example, rely on the fact that the underlying platform is not constantly being updated - as is the case with SharePoint Online. SharePoint Online is continuously being improved, and any files that have been customized or unghosted may be affected by updates. Here are some recommendations for common SharePoint customizations, as compared to private SharePoint deployments vs. the SharePoint Online service.
-  
-||||
-|:-----|:-----|:-----|
-|**Type of Customization** <br/> |**SharePoint Server** <br/> |**SharePoint Online** <br/> |
-|**Workflow** <br/> |Start with Out of the box Workflows  <br/> SharePoint Designer, or Visual Designer  <br/> |[Out of the box workflow changes](https://support.office.com/en-us/article/Whats-new-in-Microsoft-SharePoint-Online-02449ef0-027e-4089-8717-f0ae7ea58029?ui=en-US&amp;rs=en-US&amp;ad=US#__toc311029357) will not be overwritten by ongoing updates  <br/> Further customization will be overwritten by ongoing updates  <br/> |
-|**Header/Footer** <br/> |SharePoint Designer, w/unghosted pages  <br/> |No equivalent, unghosting pages requires ongoing maintenance  <br/> |
-|**Content Blocks** <br/> |CBQ (un-throttled)  <br/> |CBQ (throttled)  <br/> |
-|**General Branding (colors, logos, etc.)** <br/> |Sandboxed solutions, Customized/unghosted Master Pages  <br/> |Composed looks or inject styles via app model  <br/> |
-|**Navigation** <br/> |Start with out of the box tools  <br/> Structural, Managed, and Search-driven Navigation  <br/> |Start with out of the box tools  <br/> [Navigation options for SharePoint Online](/office365/enterprise/navigation-options-for-sharepoint-online) <br/> |
-   
-## Customizations: simple to complex
-<a name="__toc349226253"> </a>
+The purpose of this document is to help you understand how you can customize your SharePoint Online environment using modern tools and techniques.
 
-SharePoint Online customizations range from non-technical changes you can apply quickly in the browser using site commands or features to custom app development using developer tools:
-  
-1. **Customization using the browser** You can use the browser-based settings SharePoint Online to apply simpler customizations like changing title and logo, updating navigation links, applying a new site theme, changing the contents of a page, or changing views for lists and libraries. Browser-based customizations are the easiest customizations to apply, and they require minimal technical expertise. 
-    
-2. **Customizations using supported tools and applications** You can use supported SharePoint tools to perform more extensive customizations. For example, Office applications like Access, Excel, and Visio help you create highly dynamic, data-rich pages on your site. You can even create a SharePoint app as a no-code solution by using Access. 
-    
-3. **Customizations using remote provisioning** In SharePoint Online, you can use custom CSOM code in apps for SharePoint to provision SharePoint site collections, sites, and sub-sites with branding elements. This site provisioning pattern is called remote provisioning. 
-    
-4. **Customizations using add-insfor SharePoint** The new Cloud App Model in SharePoint Online enables you to add apps to your sites, and is the recommended replacement for Sandboxed solutions going forward. You can use existing third-party apps or build your own. Add apps to a site when you want to customize it with specific functionality or information. For example, you can add apps that perform general tasks like time and expense tracking. Or you can use apps and remote provisioning to apply branding elements to sites. You can also add apps that display news or information from third-party providers, or that connect to social websites. 
-    
-  - **Third-party apps** Third-party apps are found in the SharePoint Store, which is an Office.com-hosted marketplace accessible from SharePoint Online sites. Select the apps that you want to be available in your organization. Admins can also buy licenses for specific apps for all users in an organization (requires Site Owner permissions or greater). 
-    
-  - **Custom apps** Your organization can also develop its own apps for SharePoint Online and make them available to users through the App Catalog site. If you know how to build a web application, then you know how to build an app for SharePoint. You can use any language, such as HTML, JavaScript, PHP, or .NET, and your favorite web development tools, including Microsoft Visual Studio. For more information, see [Get started developing apps for SharePoint](https://msdn.microsoft.com/en-us/library/jj163980.aspx).
-    
-## Can I still develop sandboxed solutions?
-<a name="sandboxed"> </a>
+## Branding
 
-Sandboxed solutions have been deprecated in SharePoint Online, as the representative architecture is not economically scalable across the shared multi-tenant environment. The effort required to maintain sandboxed solutions across all of the sites for any customer is incredibly high. Alternative solutions such as remote provisioning offers similar capabilities without the ongoing maintenance requirements.
-  
-Sandboxed solutions carried over as part of a migration will continue to work for a limited period; however, Microsoft is focusing on alternative solutions for SharePoint Online and it is highly recommended that all Sandboxed solutions be replaced with alternative functionality such as online apps. In the meantime be aware that ongoing updates to SharePoint Online may affect some sandboxed solutions.
-  
-With the introduction of the cloud app model (CAM) and apps for SharePoint, there are now viable alternatives to older, more established ways of branding and provisioning SharePoint sites.
-  
-You can perform all types of site branding using apps for SharePoint to provision site branding throughout the enterprise and manage branding at scale: a pattern known as [remote provisioning](https://blogs.msdn.com/b/vesku/archive/2013/08/23/site-provisioning-techniques-and-remote-provisioning-in-sharepoint-2013.aspx). While SharePoint developers have historically used the SharePoint feature framework, site templates, web templates, and site definitions to provision sites and site collections, the remote provisioning pattern shows you how to create custom [apps for SharePoint](https://msdn.microsoft.com/en-US/office/dn448479) that provision site branding and perform other site provisioning tasks. 
-  
-## Why Apps?
-<a name="sandboxed"> </a>
+Modern SharePoint Online sites allow you [to change the look of the site](https://support.office.com/article/06bbadc3-6b04-4a60-9d14-894f6a170818) by modifying elements such as the site logo and the colors used throughout the site. [Branding your SharePoint Online site](/sharepoint/branding-sharepoint-online-sites-modern-experience) can help you match a site to a brand as well as help users differentiate between multiple SharePoint sites. While several themes options are available by default, it&#39;s also possible to [specify unique theme colors](/sharepoint/dev/declarative-customization/site-theming/sharepoint-site-theming-overview) by supplying SharePoint with a custom configuration file. Older, &quot;classic&quot; SharePoint Online sites allow administrators to [apply custom branding](/sharepoint/dev/general-development/master-pages-the-master-page-gallery-and-page-layouts-in-sharepoint) and page layouts to a SharePoint site by applying a custom master page, [applying a custom theme](/sharepoint/dev/declarative-customization/site-theming/sharepoint-site-theming-overview) to a site, deploying custom page layouts, and more. Because classic sites are not as fast and mobile-friendly as modern sites, Microsoft recommends using modern sites going forward.
 
-Apps for SharePoint offer several advantages over sandboxed solutions. Apps provide users with a way to extend SharePoint sites without creating additional operational burden for admins. Apps are also easy for end users to discover and add. Apps for SharePoint Online are architected for the cloud, so they better integrate with the respective cloud-based resources in smoother and more flexible ways than sandboxed solutions.
-  
-For more technical guidance about when you should opt to develop custom apps instead of sandboxed solutions, see [Apps for SharePoint compared with SharePoint solutions](http://msdn.microsoft.com/en-us/library/jj163114%28v=office.15%29.aspx). See also [Get started developing apps for SharePoint](https://msdn.microsoft.com/en-us/library/jj163980.aspx), the [SharePoint solution packs](https://www.microsoft.com/en-us/download/details.aspx?id=42030), and the [SharePoint Patterns and Practices on Github](https://github.com/OfficeDev/PnP).
-  
-## Examples of common SharePoint Online customizations
-<a name="__toc349226255"> </a>
+## Navigation
 
-In order to determine the method of customization or development that is appropriate for your organization, think about what you want to customize and what kinds of solutions you want to develop.
-  
-There are several different ways you can achieve the same outcome on a SharePoint site. For example, if your goal is to create a highly-customized list, you can achieve this by using different List Settings in the browser to configure a list and its views. You might even be able to perform all of the desired customization this way.
-  
-It is a good practice to first start with browser-based customizations before using supported tools and applications to achieve similar customizations.
-  
-    
- **I want to change the look and feel or site design**
-  
-|**First, try browser-based options:**|**Then, try no-code solutions :**|**Then, consider custom code solutions:**|
-|:-----|:-----|:-----|
-| Use the Site Settings page to:  <br/> [Change the look of your SharePoint site](https://support.office.com/article/06bbadc3-6b04-4a60-9d14-894f6a170818) <br/> [Customize the navigation on your SharePoint site](https://support.office.com/article/3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca) <br/> [Choose a theme for your publishing site](https://support.office.com/article/a56da772-55fa-4765-b0a8-32a3b80005d3) <br/>  Apply custom CSS files to the site  <br/>  Change the primary and publishing master pages  <br/> | Use Design Manager to leverage your expertise in HTML, CSS, and JavaScript (available only for publishing sites):  <br/>  Easily design HTML master pages and page layouts in your HTML editor of choice.  <br/>  Convert the HTML file to an ASP.NET master page.  <br/>  Add key functionality to your pages, such as a search box or navigation control, from the Snippet Gallery.  <br/>  Design unique UI experiences for different devises by [creating device channels](https://msdn.microsoft.com/en-us/library/office/jj862343.aspx).  <br/>  For more information about using the Design Manager, see [MSDN: Develop the site design in SharePoint 2013](https://msdn.microsoft.com/en-us/library/jj733518.aspx).  <br/>  Use InfoPath Designer to:  <br/>  Customize list forms, workflow forms, and form library forms  <br/>  Apply new layout, colors, and themes to the forms  <br/>  For more information about working with InfoPath, see [Find content about InfoPath 2010 and 2013](https://support.office.com/article/a7bdd91d-02b4-4596-a22a-2bad4de69835).  <br/> | Develop apps for SharePoint that feature App Parts or custom UI actions, such as ribbon or menu commands.  <br/>  Use Visual Studio to:  <br/>  Create custom site pages  <br/>  Create custom ribbon enhancements  <br/>  Create custom dialog box or ribbon controls  <br/>  Deploy custom design solutions as features  <br/> |
-   
-> [!NOTE]
-> If possible, try to customize your site using custom CSS elements and themes rather than custom master pages. Custom master pages will block upgrade to the latest user interface experience when upgrades are rolled out to customers. This may introduce unexpected costs for your organization at upgrade time. 
-  
- **I want to customize the appearance of information on sites**
-  
-|**First, try browser-based options:**|**Then, try no-code solutions:**|**Then, consider custom code solutions:**|
-|:-----|:-----|:-----|
-| Customize individual pages on the site:  <br/>  Add and edit text, images, video, and other objects  <br/>  Add and customize Web Parts  <br/>  Add and customize new lists and libraries  <br/>  Create custom views and forms for lists and libraries  <br/>  Create and edit content and publishing pages  <br/>  Enable or disable features  <br/> | Add third-party apps for SharePoint to integrate information into sites. See [Buy an app from the SharePoint Store](https://support.office.com/article/dd98e50e-d3db-4ecb-9bb7-82b189822d43).  <br/>  Create SharePoint apps with Access 2013. For more info, see [Create an Access app](https://support.office.com/article/25f3ab3e-510d-44b0-accf-b976c0813e71).  <br/>  Use SharePoint Designer to:  <br/>  Add text, images, scripts, and Web Parts to pages  <br/>  Create and customize site and Web Part pages  <br/>  Add custom actions  <br/>  Add Custom navigation  <br/>  Use Microsoft InfoPath 2013 to:  <br/>  Add text, images, and links to list and workflow forms  <br/>  Add custom data connections and functionality to list and workflow forms  <br/>  For more information about working with InfoPath, see [Find content about InfoPath 2010 and 2013](https://support.office.com/article/a7bdd91d-02b4-4596-a22a-2bad4de69835).  <br/>  Use supported Microsoft Office applications to:  <br/>  Publish workbooks with data, charts, and visualizations using Excel 2013 and Excel Services  <br/>  Publish data visualizations with Visio 2013 and Visio Services  <br/> | Use the Script Editor Web Part to add JavaScript code to site pages.  <br/>  Develop apps for SharePoint that feature App Parts designed to display information  <br/>  Use Visual Studio to:  <br/>  Create custom site pages  <br/>  Create custom Web Parts  <br/> |
-   
- **I want to display content from different data sources**
-  
-|**First, try browser-based options:**|**Then, try no-code solutions:**|**Then, consider custom code solutions:**|
-|:-----|:-----|:-----|
-| Add Web Parts that retrieve content from external sites or data sources  <br/>  Customize list views and forms from various data sources  <br/> | Use Excel 2013 and Excel Services to display and visualize data from a wide variety of data sources.  <br/>  Use Access 2013 to quickly create sophisticated database-like no-code solutions with SQL Server as the backend database.  <br/>  Add third-party apps for SharePoint to integrate information into sites. See [Buy an app from the SharePoint Store](https://support.office.com/article/dd98e50e-d3db-4ecb-9bb7-82b189822d43).  <br/>  Configure Business Connectivity Services and to connect to data sources such as SQL Azure databases or Windows Communication Foundation web services.  <br/>  Use InfoPath 2013 to display data from lists and form libraries with:  <br/>  Custom list forms  <br/>  Custom form library forms  <br/>  Custom form-based applications  <br/>  For more information about working with InfoPath, see [Find content about InfoPath 2010 and 2013](https://support.office.com/article/a7bdd91d-02b4-4596-a22a-2bad4de69835).  <br/> | Develop custom apps for SharePoint to integrate and display information.  <br/>  Use Visual Studio to:  <br/>  Create custom list definitions  <br/>  Create custom site pages  <br/>  Create custom Web Parts  <br/>  Create custom dialog box or ribbon controls  <br/> |
-   
-## Making solutions or apps available to users
-<a name="__toc349226256"> </a>
+Navigation helps users find the information they need quickly by providing links to pertinent information in a persistent manner. [Planning your navigational strategy in modern sites](/sharepoint/plan-navigation-modern-experience) is a critical element in the usability of your SharePoint environment. Modern SharePoint sites provide a streamlined model for [adding navigational elements](https://support.office.com/article/3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca) using the browser. The position of the navigation is determined by the kind of site being viewed, the size of a user&#39;s screen, and whether the [megamenu option](https://support.office.com/article/06bbadc3-6b04-4a60-9d14-894f6a170818) has been enabled for the site. Additionally, modern sites can take advantage of hub site navigation.
 
-After you finish developing a solution or a custom app, you may need a way to make it available on one or more sites or site collections in your SharePoint Online environment. Here are some ways you can do that:
-  
-- If your solution is a customized list or a specialized site or page, you can share a link to that page or site with users.
-    
-- If you have developed a custom SharePoint or Office app, you can make it available by uploading it to the App Catalog site. For more information about making custom apps available, see [Use the App Catalog to make custom business apps available for your SharePoint Online environment](use-app-catalog.md).
-    
-- If you add a third-party app from the SharePoint Store, you can make it available to all users across the site collections in your SharePoint Online environment by acquiring licenses for all users in your organization. Or, you can acquire licenses for only those who need to use it, and assign those licenses to the designated users. For more information, see [Buy an app from the SharePoint Store](https://support.office.com/article/dd98e50e-d3db-4ecb-9bb7-82b189822d43) and [Manage app licenses for a SharePoint Online environment](manage-app-licenses.md).
-    
-- If you want to change the settings for whether or not site users can acquire apps from the SharePoint Store, see [Configure settings for the SharePoint Store](configure-sharepoint-store-settings.md).
-    
-- Custom solutions can be made available as well; however, if users are selectively using sandboxed solutions it will be difficult to ensure those sites are refreshed with updated solutions after the SharePoint Online update process affects the site.
-    
-## Exploring partner solutions and services
-<a name="__toc349226257"> </a>
+Note that legacy versions of SharePoint allowed navigational elements to be dynamically generated using the structured navigation and managed metadata navigation providers. These options are no longer available in modern sites. However, if you are using a classic site with modern pages, you can still use these providers and the modern pages will reflect the correct navigational links. In terms of layout, because modern sites do not allow you to customize the site&#39;s master page or style sheet, it&#39;s not possible to move the position of the navigation elements on the page as could be done in classic SharePoint sites.
 
-If you are interested in exploring services or applications from Microsoft partners that are available for SharePoint Online, browse Office 365 apps on [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=865097). There are also many open source solutions developed by the collective SharePoint Online community, including Microsoft, MVPs, Partners, and Customers on the [Office 365 Developer Patterns and Practices Github site](https://github.com/OfficeDev/PnP).
-  
-For more technical guidance about when you should opt to develop custom apps instead of sandboxed solutions, see [Apps for SharePoint compared with SharePoint solutions](http://msdn.microsoft.com/en-us/library/jj163114%28v=office.15%29.aspx). See also [Get started developing apps for SharePoint](https://msdn.microsoft.com/en-us/library/jj163980.aspx), the [SharePoint solution packs](https://www.microsoft.com/en-us/download/details.aspx?id=42030), and the [SharePoint Patterns and Practices on Github](https://github.com/OfficeDev/PnP).
- 
-Return to [SharePoint Online Planning Guide for Office 365 for business](introduction.md).
-  
+## Page content
 
+Nearly every version of SharePoint has had a way of creating custom layouts for web pages, whether that was by selecting a web part page, a wiki page layout, or a publishing page layout. Modern sites also provide a similar functionality. However, rather than providing a static layout that provides a set number of editable regions on the page, modern pages provide the ability for page editors to [&quot;stack&quot; column layouts on a row-by-row basis](https://support.office.com/article/fc491eb4-f733-4825-8fe2-e1ed80bd0899). Page editors can also choose various options related to [how the title region of the page](https://support.office.com/article/b3d46deb-27a6-4b1e-87b8-df851e503dec#bkmk_customizetitle) is displayed. Finally, the most fundamentally way to customize a modern page is to place custom content on the page. This can be done [by adding modern web parts](https://support.office.com/article/336e8e92-3e2d-4298-ae01-d404bbe751e0) to the page. Note that web parts used in classic web sites will not work in modern sites. However, it is possible [to create and deploy custom (&quot;client-side&quot;) web parts](/sharepoint/dev/spfx/web-parts/get-started/build-a-hello-world-web-part) that were created using the SharePoint Framework.
+
+## Workflows
+
+Microsoft recommends using [Microsoft Flow](https://flow.microsoft.com) for configuring and executing all workflows in your Office 365 environment, including SharePoint Online. For example, it&#39;s possible to create [unique approval workflows](/flow/modern-approvals) for content stored in SharePoint. Additionally, it&#39;s possible to use Flow as the default workflow engine [for approving SharePoint page content](https://support.office.com/article/a8b2e689-d4a1-4639-8028-333c0ece30d9), directly from the SharePoint user interface. Flows can be [triggered by SharePoint](/connectors/sharepointonline/#triggers) actions (such as when an item is created in a list), or perform [actions within SharePoint](/connectors/sharepointonline/#actions) (such as update a list item). While SharePoint Designer workflows are still supported, new workflows should be created using Flow.
+
+## Forms
+
+[PowerApps](https://powerapps.microsoft.com) can be used to create custom forms for use in modern SharePoint sites. There are several ways in which these PowerApps forms can be used in your SharePoint site:
+
+- [As a custom SharePoint list form](/powerapps/maker/canvas-apps/customize-list-form)
+- [As a custom SharePoint list view](https://support.office.com/article/9338b2d2-67ac-4b81-8e67-97da27e5e9ab)
+- [As a stand-alone app that uses a SharePoint as its data source](/powerapps/maker/canvas-apps/connections/connection-sharepoint-online)
+
+You can [embed a PowerApp form in a modern page](https://support.office.com/article/6285f05e-e441-408a-99d7-aa688195cd1c) using the PowerApps web part.
+
+Forms that were previously created using InfoPath and hosted in SharePoint using InfoPath Forms Services should be converted to PowerApps forms, as Microsoft has announced [the deprecation of InfoPath](https://www.microsoft.com/microsoft-365/blog/2014/01/31/update-on-infopath-and-sharepoint-forms/).
+
+[Microsoft Forms](https://forms.office.com/) can also be used for [easily creating light-weight forms](https://support.office.com/forms). Like PowerApps, it&#39;s possible to [embed a Microsoft Form in a page](https://support.office.com/article/d4b4d3ce-7860-41e4-8a98-76380efe7256) using the Microsoft Forms web part.
+
+## Customizing your SharePoint site programmatically
+
+Legacy versions of SharePoint Server relied on solution packages to deploy content and make configuration changes to SharePoint sites. It&#39;s still possible [to programmatically provision sites](/sharepoint/dev/solution-guidance/modern-experience-customizations-provisioning-sites) as well as customize [team sites](/sharepoint/dev/solution-guidance/modern-experience-customizations-customize-sites), [lists and libraries](/sharepoint/dev/solution-guidance/modern-experience-customizations-customize-lists-and-libraries), and [site pages](/sharepoint/dev/solution-guidance/modern-experience-customizations-customize-pages). There are [various methods](/sharepoint/dev/solution-guidance/office-365-development-patterns-and-practices-solution-guidance) for making programmatic changes to your SharePoint environment, including using the [Office Developer Patterns and Practices APIs,](https://github.com/SharePoint/PnP) the [Office 365 CLI](https://pnp.github.io/office365-cli/), the [Microsoft Graph API](https://developer.microsoft.com/graph/), the [SharePoint Framework](/sharepoint/dev/spfx/sharepoint-framework-overview?view=sp-typescript-latest) and more.
+
+The [SharePoint Framework (SPFx)](/sharepoint/dev/spfx/sharepoint-framework-overview?view=sp-typescript-latest) can be used to render custom web parts on a modern SharePoint page. Additionally, [Extensions to the SPFx](/sharepoint/dev/spfx/extensions/overview-extensions) provide the ability to add scripts to pages, create modified views of data, and surface new commands in the SharePoint user interface. SPFx application packages can be deployed to SharePoint Online sites using the [SharePoint App Catalog](use-app-catalog.md).
+
+## Using third-party add-ins and solutions
+
+Not only can you deploy custom apps (also known as add-ins) to your environment, but you can also purchase add-ins from the SharePoint Store. You can make these add-ins available to all users across the sites in your organization by acquiring licenses for all users in your organization. Or, you can acquire licenses for only those who need to use it, and assign those licenses to the designated users. For more information, see [Buy an app from the SharePoint Store](https://support.office.com/article/dd98e50e-d3db-4ecb-9bb7-82b189822d43) and [Manage app licenses for a SharePoint Online environment](manage-app-licenses.md).
+
+If you want to change the settings for whether or not site users can acquire apps from the SharePoint Store, see [Configure settings for the SharePoint Store](configure-sharepoint-store-settings.md).
+
+If you are interested in exploring services or applications from Microsoft partners that are available for SharePoint Online, browse Office 365 apps on [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=865097). There are also many open-source solutions developed by the collective SharePoint Online community, including Microsoft, MVPs, Partners, and Customers on the [Office 365 Developer Patterns and Practices GitHub site](https://github.com/OfficeDev/PnP).
+
+## Examples of modern customization approaches
+
+The following table gives an example of older methods for customizing sites along with a current recommended approach:
+
+| Legacy | Modern |
+| --- | --- |
+| Implement branding using custom master pages, page layouts, and themes | Use the &quot;apply a look&quot; option to customize branding elements like logo, header, footer and colors |
+| Use custom navigation providers such as structured navigation or managed metadata navigation to dynamically generate navigational elements | Manually specify navigational links |
+| Create a wiki page and choose a text layout option to modify the layout of the page | Create a modern page and add section layouts to the page to arrange web parts on the page. |
+| Create a workflow using SharePoint Designer | Create a workflow using Flow |
+| Customize a SharePoint form using InfoPath | Customize a SharePoint form using a PowerApp |
+| Deploy a web part to a site using a sandbox solution | Use the SharePoint App Catalog to deploy a client-side web part to a site |

@@ -1,10 +1,11 @@
 ---
 title: "Disaster recovery best practices and strategies for SharePoint 2016 search"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen
 ms.date: 01/3/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -14,7 +15,7 @@ description: "Learn how to implement best practice disaster recovery for search 
 
 # Disaster recovery best practices and strategies for SharePoint search
 
-[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]
+[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]
 
 Learn how to implement best practice disaster recovery for search in a SharePoint Server farm.
   

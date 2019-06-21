@@ -1,10 +1,11 @@
 ---
 title: "Manage a paused Search service application in SharePoint Server"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen
 ms.date: 3/7/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -33,9 +34,9 @@ We'll show you how you can find out if and why the Search service application is
   $ssa.IsPaused() -ne 0
   ```
 
-    If this command returns **False**, the Search service application is running.
+If this command returns **False**, the Search service application is running.
     
-    If this command returns **True**, the Search service application is paused. Go to step 4 to find out why, and what action you should take.
+If this command returns **True**, the Search service application is paused. Go to step 4 to find out why, and what action you should take.
     
 4. At the Microsoft PowerShell command prompt, type the following command(s) until you find the reason why the Search service application is paused.
     
@@ -61,4 +62,10 @@ If this command returns **False**, the Search service application is running.
   
 If this command returns **True**, the Search service application is paused. Re-run the commands from step 4 to find out why.
   
+**Resume a paused Search service application in SharePoint Server**
 
+To resume a paused Search service application, use the following PowerShell.
+
+```
+$ssa = Get-SPEnterpriseSearchServiceApplication -Identity MySSA
+$ssa | Resume-SPEnterpriseSearchServiceApplication

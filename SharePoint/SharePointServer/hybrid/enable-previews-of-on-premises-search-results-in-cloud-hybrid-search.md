@@ -1,10 +1,11 @@
 ---
 title: "Enable previews of on-premises search results in cloud hybrid search"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
 ms.date: 3/7/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
@@ -49,7 +50,7 @@ Follow these procedures:
     
 2. [Configure Office Online Server for SharePoint Server](/officeonlineserver/configure-office-online-server-for-sharepoint-server-2016/configure-office-online-server-for-sharepoint-server-2016)
     
-3. Optional: Make the Office Online Server accessible outside the corporate network.
+3. Optional: Make the Office Online Server accessible outside the corporate network. You can configure your corporate firewall to allow access from the public Internet to your Office Online Server. To do this, set the public DNS to match the `ExternalUrl` value in your Office Online Server farm. This value can be set when creating a farm using `New-OfficeWebAppsFarm -ExternalUrl <value>` or `Set-OfficeWebAppsFarm -ExternalUrl <value>`. You must use SSL when allowing Internet access to your Office Online Server.
     
 ### Deploy the Office Online Server farm
 <a name="BKMK_Deploy_Web_Apps_Server"> </a>

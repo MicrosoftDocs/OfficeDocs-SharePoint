@@ -1,10 +1,11 @@
 ---
 title: "Configure a hybrid solution for SharePoint Server"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 6/22/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: hub-page
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -12,6 +13,7 @@ ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
+- M365-collaboration
 ms.assetid: ad39b1b5-a73b-4a48-af5e-4f032ea52e1d
 description: "Configure a SharePoint hybrid solution between SharePoint Server and SharePoint Online in Office 365."
 ---

@@ -1,10 +1,10 @@
 ---
 title: "Start or stop a service in SharePoint Server"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 2/21/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -61,11 +61,11 @@ You can manage services by using Central Administration or by using PowerShell.
     
 3. At the PowerShell command prompt, type the following command:
     
-  ```
-  Start-SPServiceInstance -Identity <ServiceGUID>
-  ```
+   ```powershell
+   Start-SPServiceInstance -Identity <ServiceGUID>
+   ```
 
-    Where  _\<ServiceGUID\>_ is the GUID of the service. If you do not know the service GUID, you can retrieve a list of all services in the farm together with their GUIDs by using the **Get-SPServiceInstance** cmdlet. 
+   Where _\<ServiceGUID\>_ is the GUID of the service. If you do not know the service GUID, you can retrieve a list of all services in the farm together with their GUIDs by using the **Get-SPServiceInstance** cmdlet. 
     
 For more information, see [Start-SPServiceInstance](/powershell/module/sharepoint-server/start-spserviceinstance?view=sharepoint-ps).
   
@@ -75,9 +75,9 @@ For more information, see [Start-SPServiceInstance](/powershell/module/sharepoin
     
 2. At the PowerShell command prompt, type the following command:
     
-  ```
-  Stop-SPServiceInstance -Identity <ServiceGUID>
-  ```
+   ```powershell
+   Stop-SPServiceInstance -Identity <ServiceGUID>
+   ```
 
     Where  _\<ServiceGUID\>_ is the GUID of the service. If you do not know the service GUID, you can retrieve a list of all services in the farm together with their GUIDs by using the **Get-SPServiceInstance** cmdlet. 
     

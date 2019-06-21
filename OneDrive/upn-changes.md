@@ -1,13 +1,16 @@
 ---
 title: "How UPN changes affect OneDrive"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: one-drive
 localization_priority: Normal
-ms.collection: Strat_OD_admin
+ms.collection: 
+- Strat_OD_admin
+- M365-collaboration
 search.appverid:
 - ODB160
 - MOE150
@@ -62,7 +65,7 @@ After you change a UPN, any saved links to the user's OneDrive (such as desktop 
   
 ## Sync
 
-If a user has sync client build 18.212.1021.0008 or later (on either Windows or Mac), the sync client will automatically switch to sync with the new OneDrive location after a UPN change. While the UPN change is propagating through your environment, users may see an error in the OneDrive sync client that "One or more libraries could not be synced." If they click for more information, they will see "You don't have permission to sync this library." Users who see this error should restart the sync client. The error will go away when the UPN change has been fully propagated and the sync client is updated to use the user's new OneDrive URL.  
+If a user has sync client build 18.212.1021.0008 or later on either Windows or Mac ([released to Production in November, 2018](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0), the sync client will automatically switch to sync with the new OneDrive location after a UPN change. While the UPN change is propagating through your environment, users may see an error in the OneDrive sync client that "One or more libraries could not be synced." If they click for more information, they will see "You don't have permission to sync this library." Users who see this error should restart the sync client. The error will go away when the UPN change has been fully propagated and the sync client is updated to use the user's new OneDrive URL.  
 
 > [!NOTE]
 > Synced team sites are not impacted by the OneDrive URL change. 
@@ -99,7 +102,7 @@ Any automated workflows that were created with Microsoft Flow or SharePoint 2013
 
 ## Recommendations
 
-- If you're changing many UPNs within your organization, make the UPN changes in batches to manage the load on the system. Each SharePoint site to which a user has permission will need to be updated with the new UPN.
+- If you're changing many UPNs within your organization, make the UPN changes in batches to manage the load on the system. 
 
 - If possible, apply changes before a weekend or during non-peak hours to allow time for the change to propagate and not interfere with your users' work.
   

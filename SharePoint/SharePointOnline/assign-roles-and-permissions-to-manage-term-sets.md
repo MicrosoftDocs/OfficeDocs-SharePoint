@@ -1,13 +1,16 @@
 ---
 title: "Assign roles and permissions to manage term sets"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 5/22/2018
-ms.audience: End User
+audience: End User
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
+ms.collection:  
+- M365-collaboration
 search.appverid:
 - SPO160
 - OSU150
@@ -112,7 +115,7 @@ Site users who have at least Contribute permissions on the site can do the follo
     
 - Use managed terms or Enterprise Keywords in search queries, and then refine search results based on these terms
     
-In addition, site users who have appropriate permissions (such as Site Owners) can create new Managed Metadata columns for lists, libraries, or content types. When they create these columns, they can create new term sets that are local to the Site Collection, and they can manage the terms within these term sets. 
+In addition, site users who have appropriate permissions (such as site owners) can create new Managed Metadata columns for lists, libraries, or content types. When they create these columns, they can create new term sets that apply only to the site (previously called "site collection"), and they can manage the terms within these term sets. 
   
 
   

@@ -1,10 +1,11 @@
 ---
 title: "Show results from Office 365 in on-premises SharePoint with cloud hybrid search"
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
 ms.date: 7/21/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
@@ -14,6 +15,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
+- M365-collaboration
 ms.custom: 
 ms.assetid: 1a11cbf3-ab19-4aa0-ae9c-8e4b793154a2
 description: "Learn how to show results from the Office 365 search index when searching from SharePoint Server sites with cloud hybrid search."

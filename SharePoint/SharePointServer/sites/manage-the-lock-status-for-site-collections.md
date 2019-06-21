@@ -1,9 +1,10 @@
 ---
 title: "Manage the lock status for site collections in SharePoint Server"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -75,7 +76,7 @@ Use this procedure to lock or unlock a site collection by using PowerShell.
     
 3. At the PowerShell command prompt, type the following command, and then press **ENTER**:
     
-   ```
+   ```powershell
    Set-SPSite -Identity "<SiteCollection>" -LockState "<State>"
    ```
 

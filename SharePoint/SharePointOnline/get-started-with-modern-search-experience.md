@@ -1,15 +1,21 @@
 ---
 title: Get started with the modern search experience
+ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
-search.appverid: MET150
 localization_priority: Priority
+ms.collection:  
+- Strat_SP_modern
+- M365-collaboration
+search.appverid:
+- SPO160
+- MET150
 description: "Learn how to get your organization started with the modern search experience"
-...
+---
 
 # Get started with the modern search experience
 
@@ -17,7 +23,7 @@ In addition to the classic search experience, SharePoint Online offers a modern 
 
 As a search administrator, you can’t enable or disable neither classic nor modern search. But you can influence which experience your users see most often.
 
-Users get the classic search experience on publishing sites, classic team sites, and in the Search Center. Users get the modern search experience on the SharePoint home page, hub sites, communication sites, and modern team sites. [Learn about classic and modern sites](https://support.office.com/article/SharePoint-classic-and-modern-experiences-5725c103-505d-4a6e-9350-300d3ec7d73f).
+Users get the classic search experience on publishing sites, classic team sites, and in the Search Center. Users get the modern search experience on the SharePoint start page, hub sites, communication sites, and modern team sites. [Learn about classic and modern sites](https://support.office.com/article/SharePoint-classic-and-modern-experiences-5725c103-505d-4a6e-9350-300d3ec7d73f).
 
 
 
@@ -40,22 +46,22 @@ We’ll continue to invest in modern search, but not in classic search. [Learn w
 
 Users can only find content that’s been indexed. Modern search uses the same index as classic search, so if your organization already uses classic search you don’t have to act. Otherwise, follow guidance in [Make sure content can be found](make-sure-content-can-be-found.md).
 
-As a search administrator you don’t have to configure modern search, the modern search boxes appear on the SharePoint home page and modern sites by default.
+As a search administrator you don’t have to configure modern search, the modern search boxes appear on the SharePoint start page and modern sites by default.
 
 You can [customize the classic search experience](overview-of-search.md), for example by adding custom refiners to the search results page or displaying a certain type of result differently. You can’t customize the modern search experience like that but note that some of the customizations you make for classic search also impact modern search. [Learn how modern search is impacted](differences-classic-modern-search.md).
 
 
 ## When to use which search experience?
-Which experience your users see depends on whether your organization mostly uses classic or modern sites. Classic sites have classic search boxes and modern sites have modern search boxes. If you believe that modern search gives your users the best experience, influence your organization to start using modern sites. In addition, promote searching from the SharePoint home page (modern search) to your users.
+Which experience your users see depends on whether your organization mostly uses classic or modern sites. Classic sites have classic search boxes and modern sites have modern search boxes. If you believe that modern search gives your users the best experience, influence your organization to start using modern sites. In addition, promote searching from the SharePoint start page (modern search) to your users.
 
-### Should you use the Search Center or the SharePoint home page as your portal?
-If you need custom refiners or search verticals for organization-specific content, or you need to display results for organization-specific content differently than other content. Use the Search Center (classic search) as your portal. If not, we recommend promoting the SharePoint home page (modern search) to your users. 
+### Should you use the Search Center or the SharePoint start page as your portal?
+If you need custom refiners or search verticals for organization-specific content, or you need to display results for organization-specific content differently than other content. Use the Search Center (classic search) as your portal. If not, we recommend promoting the SharePoint start page (modern search) to your users. 
 
 ### Is the search experience impacted if you migrate from classic to modern sites?
 Yes, if you have customized search. A classic site has a classic search box. For example, you’ve set up the search box to redirect to a custom Search Center in order show results that are filtered and formatted for organization-specific content types. The modern site has a modern search box. You can't customize the modern search experience. If you don’t need to customize search, we recommend using modern sites.
 
 ### Can users search across all sites of an administrative unit?
-It’s possible, but it takes some effort to do this with classic search. It's better to use a hub site to oganize the sites. Hub sites use modern search boxes, which are scoped to search for news, people, files, and sites across all the sites that are associated with the hub. [Learn more about hub sites](https://support.office.com/article/what-is-a-sharepoint-hub-site-fe26ae84-14b7-45b6-a6d1-948b3966427f?).
+It’s possible, but it takes some effort to do this with classic search. It's better to use a hub site to organize the sites. Hub sites use modern search boxes, which are scoped to search for news, people, files, and sites across all the sites that are associated with the hub. [Learn more about hub sites](https://support.office.com/article/what-is-a-sharepoint-hub-site-fe26ae84-14b7-45b6-a6d1-948b3966427f?).
 
 ### Can you use modern search in combination with cloud hybrid search?
 Yes. With [cloud hybrid search](/sharepoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint), both on-premises and online content go into the same index, which both the classic and modern search experiences use.

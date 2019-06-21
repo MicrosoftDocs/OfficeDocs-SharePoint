@@ -1,9 +1,10 @@
 ---
 title: "Replace the STS certificate for SharePoint Server"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -86,7 +87,7 @@ _continue_ = "%szOID_PKIX_KP_CLIENT_AUTH%"
 From an elevated Command Prompt, run the following to create and install the certificate in the local machine store. When the certificate has been installed, a save dialog will appear. Change the Save as type to `Certificate Files` and save the file as `C:\sts.cer`.
 
 ```
-certreq -new request.inf
+certreq -net request.inf
 certutil -store My "sts.contoso.com"
 certutil -exportPFX -p "P@ssw0rd1!" CA 1f4758121a6ede8c4b81c8ca60a2d72a C:\sts.pfx
 ```

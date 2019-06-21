@@ -1,10 +1,11 @@
 ---
 title: "Add a server to a SharePoint Server 2016 or SharePoint Server 2019 farm"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
 ms.date: 6/1/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal

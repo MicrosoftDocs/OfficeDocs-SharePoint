@@ -1,10 +1,11 @@
 ---
 title: "SharePoint Server 2016 zero downtime patching steps"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
 ms.date: 10/21/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -12,20 +13,23 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 169ef750-0c8c-471d-b04e-79bf8b4d5ec7
-description: "Zero downtime patching (ZDP) is available in SharePoint Server 2016. Let users keep working on, saving, and searching documents as you patch your SharePoint Server 2016 farm."
+description: "Zero downtime patching (ZDP) is available in SharePoint Server 2016 and SharePoint Server 2019. Let users keep working on, saving, and searching documents as you patch your SharePoint Server 2016 farm."
 ---
 
-# SharePoint Server 2016 zero downtime patching steps
+# SharePoint Server zero downtime patching steps
 
-[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)] 
 
-Zero downtime patching (ZDP) is available in SharePoint Server 2016. Let users keep working on, saving, and searching documents as you patch your SharePoint Server 2016 farm.
+Zero downtime patching (ZDP) is available in SharePoint Server 2016 and SharePoint Server 2019. Let users keep working on, saving, and searching documents as you patch your SharePoint Server 2016 or SharePoint Server 2019 farm.
+
+>[!NOTE]
+>The steps in this article and information about Zero downtime patching also apply to SharePoint Server 2019.
   
 Zero downtime patching is a method of patching and upgrade developed in SharePoint Online. It was made to let administrators patch the service at the same time as users kept using their subscriptions. In other words, this tested method is designed to allow patching while people actively work with their files, and search crawls and renders results, on the SharePoint Server farm. That's what's meant by 'zero down time'.
   
 A couple of things to note as we discuss ZDP (we'll talk about these elements later in the article).
   
-- Your ZDP experience could be enhanced by using MinRole in SharePoint Server 2016, but MinRole is  *not*  a requirement.
+- Your ZDP experience could be enhanced by using MinRole in SharePoint Server 2016 or 2019, but MinRole is *not* a requirement.
 
     [Why could MinRole help?](sharepoint-server-2016-zero-downtime-patching-steps.md#BKMK_Min)
 
@@ -36,7 +40,7 @@ A couple of things to note as we discuss ZDP (we'll talk about these elements la
 It's important to remember that the goal of ZDP is uptime for your users, so, in this article, all the decisions involved in patching and rebooting your farm will be made with that bias in mind.
   
 > [!IMPORTANT]
-> Even if all the servers in your SharePoint Server 2016 farm were configured to use the 'Custom' role, you can still manually configure a highly available farm. There are [documents on TechNet](/SharePoint/administration/plan-for-high-availability) that will help you construct highly available farms, and the principals of fault tolerance (having redundant hardware) and high availability (having systems and software in place to support failover and continuation of uptime) are the same. Be aware that in more complex Highly Available or Custom farms, you should take special care to patch the Search servers in a way that supports HA, for example, patch one index replica at a time and never patch or upgrade index replicas from the same partition at the same time.
+> Even if all the servers in your SharePoint Server 2016 or 2019 farm were configured to use the 'Custom' role, you can still manually configure a highly available farm. There are [documents on TechNet](/SharePoint/administration/plan-for-high-availability) that will help you construct highly available farms, and the principals of fault tolerance (having redundant hardware) and high availability (having systems and software in place to support failover and continuation of uptime) are the same. Be aware that in more complex Highly Available or Custom farms, you should take special care to patch the Search servers in a way that supports HA, for example, patch one index replica at a time and never patch or upgrade index replicas from the same partition at the same time.
   
 ## The ZDP Process
 

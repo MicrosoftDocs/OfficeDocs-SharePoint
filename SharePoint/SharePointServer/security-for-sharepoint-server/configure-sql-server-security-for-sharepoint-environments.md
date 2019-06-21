@@ -1,9 +1,10 @@
 ---
 title: "Configure SQL Server security for SharePoint Server"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -21,7 +22,7 @@ description: "Learn how to improve the security of SQL Server for SharePoint Ser
 When you install SQL Server, the default settings help to provide a safe database. In addition, you can use SQL Server tools and Windows Firewall to add additional security to SQL Server for SharePoint Server environments. 
   
 > [!IMPORTANT]
-> The security steps in this topic are fully tested by the SharePoint team. There are other ways to help secure SQL Server in a SharePoint Server farm. For more information, see [Securing SQL Server](https://go.microsoft.com/fwlink/?linkid=865827) and [Securing SharePoint: Harden SQL Server in SharePoint Environments](https://blogs.technet.com/b/rycampbe/archive/2013/10/14/securing-sharepoint-harden-sql-server-in-sharepoint-environments.aspx). 
+> The security steps in this topic are fully tested by the SharePoint team. There are other ways to help secure SQL Server in a SharePoint Server farm. For more information, see [Securing SQL Server](https://go.microsoft.com/fwlink/?linkid=865827). 
   
     
 ## Before you begin

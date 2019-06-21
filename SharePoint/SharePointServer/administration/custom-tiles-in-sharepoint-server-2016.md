@@ -1,10 +1,11 @@
 ---
 title: "Custom Tiles in SharePoint Servers 2016 and 2019"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
 ms.date: 5/30/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -54,8 +55,8 @@ The custom tile feature is not enabled by default. To enable the feature, do the
   Get-SPFeature -Identity CustomTiles
   ```
 
-    > [!NOTE]
-    > If the feature is not available, then ensure your SharePoint farm is patched with at least Feature Pack 1 contained in all cumulative updates of SharePoint 2016 of November 2016 and later. To validate this, you can run the following PowerShell command. Your SharePoint build version should be at 16.0.4456.1004 or later.
+  > [!NOTE]
+  > If the feature is not available, then ensure your SharePoint farm is patched with at least Feature Pack 1 contained in all cumulative updates of SharePoint 2016 of November 2016 and later. To validate this, you can run the following PowerShell command. Your SharePoint build version should be at 16.0.4456.1004 or later.
   
   ```
 (Get-SPFarm).BuildVersion
@@ -67,8 +68,8 @@ The custom tile feature is not enabled by default. To enable the feature, do the
   Enable-SPFeature -Identity CustomTiles -Url http://web_app -Force
   ```
 
-    > [!NOTE]
-    > The URL you provide will be the location of where the Custom Tile list is provisioned, so you may need to provide permission access to the list accordingly. Custom Tiles List will be Created on specified URL on feature enable command as hidden list. 
+  > [!NOTE]
+  > The URL you provide will be the location of where the Custom Tile list is provisioned, so you may need to provide permission access to the list accordingly. Custom Tiles List will be Created on specified URL on feature enable command as hidden list. 
   
 7. Since this list is Created as a Hidden List, browse to https://web_app/Lists/Custom%20Tiles/AllItems.aspx to access Custom tiles list.
     
@@ -82,7 +83,7 @@ The custom tile feature is not enabled by default. To enable the feature, do the
     
 11. Enter a **Url** for the tile. This is the location where you want your users to go when they select the tile. 
     
-12. Enter an **IconURL** for the tile. The recommended size for an icon is 50 x50 pixels, however the thumbnail will automatically scale. The image appears on the app launcher 
+12. Enter an **IconURL** for the tile. The recommended size for an icon is 50x50 pixels, however the thumbnail will automatically scale. The image appears on the app launcher.
     
 13. Type the name of an **Audience** you want to use this tile. For example, Marketing. 
     
@@ -90,6 +91,9 @@ The custom tile feature is not enabled by default. To enable the feature, do the
     > List or library items in SharePoint Server can be targeted to appear only to people who are members of a particular group or audience. An audience can be identified by using SharePoint groups, distribution lists, or security groups or by using a rules-based system to create a global audience. 
   
 After you add a new item in the custom tiles list due to caching, it may take up to 24 hours before you can see it appear in the app launcher. If you want to see it immediately, you can run **ClearSuiteLinksCache()** function in the developer browser's console which is displayed by pressing **F12** while in a browser session as displayed in the following diagram. 
+
+  > [!NOTE]
+  > The **ClearSuiteLinksCache()** function is not available in SharePoint Server 2019 and will generate an error if used.
   
 ![Displays the developer browser's console in a browser session](../media/313b5ce5-07df-4fd3-8861-59d3c7635970.jpg)
   

@@ -1,9 +1,10 @@
 ---
 title: "Delete and restore site collections in SharePoint Server"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -103,7 +104,7 @@ After you perform this procedure, the site collection and all of its content and
     
 3. At the PowerShell command prompt, type the following command, and then press ENTER:
     
-   ```
+   ```powershell
    Remove-SPSite -Identity "<URL>" -GradualDelete
    ```
 

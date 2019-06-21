@@ -1,16 +1,18 @@
 ---
 title: "Create an external business-sharing site in SharePoint Online"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 6/29/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
 ms.collection:
 - Ent_O365_Hybrid
 - Strat_OD_share
+- M365-collaboration
 search.appverid:
 - SPO160
 - MOE150
@@ -38,11 +40,18 @@ This video shows some of the options for configuring an extranet site in SharePo
 
 Before you create a site for external sharing, there are some SharePoint Online sharing settings to configure.
   
-In the SharePoint Online admin center, select the **sharing** tab. 
+1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
+    
+    > [!NOTE]
+    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
+    
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
+
+3. In the left pane, select **sharing**. 
   
-Under **Sharing outside your organization**, ensure that either **Allow users to invite and share with authenticated external users** or **Allow sharing to authenticated external users and using anonymous access links** is selected. This will allow you to properly configure sharing on your extranet site once you create it. 
+4. Under **Sharing outside your organization**, ensure that either **Allow users to invite and share with authenticated external users** or **Allow sharing to authenticated external users and using anonymous access links** is selected. This will allow you to properly configure sharing on your extranet site once you create it. 
   
-Under **Additional settings**, we recommend that you select the **External users must accept sharing invitations using the same account that the invitations were sent to** check box. This ensures that the users that you invite to your site are the users who accept the invitation. If you don't enable this setting, invitations that you send could be forwarded to other users. 
+5. Under **Additional settings**, we recommend that you select the **External users must accept sharing invitations using the same account that the invitations were sent to** check box. This ensures that the users that you invite to your site are the users who accept the invitation. If you don't enable this setting, invitations that you send could be forwarded to other users. 
   
 ## Create a site for your extranet
 
@@ -50,29 +59,24 @@ To begin, create a site collection in SharePoint Online.
   
  **To create an extranet site**
   
-1. Sign in to Office 365 as a global admin or SharePoint admin.
+
+1. On the site collections page of the classic SharePoint admin center, select **New**, and then select **Private Site Collection**.
     
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+2. Type a title and a web site address.
     
-3. In the left pane, choose **Admin centers** \> **SharePoint**.
+3. Choose the **Team Site** template. 
     
-4. On the site collections page, click **New**, and then click **Private Site Collection**.
-    
-5. Type a title and a web site address.
-    
-6. Choose the **Team Site** template. 
-    
-7. Choose an Administrator, and then click **OK**.
+4. Choose an Administrator, and then select **OK**.
     
 Next, configure it to allow invited users outside of your company to be able to access the site.
   
  **To set up external access**
   
-1. Select the check box for the site collection that you created, and click **Sharing**.
+1. Select the check box for the site collection that you created, and select **Sharing**.
     
 2. Under **Sharing outside your company**, choose **Allow external users who accept sharing invitations and sign in as authenticated users**.
     
-3. Under **Allowing non-owners to invite new users**, click **Turn off sharing for non-owners on all sites in this site collection**.
+3. Under **Allowing non-owners to invite new users**, select **Turn off sharing for non-owners on all sites in this site collection**.
     
 Once you've set up external access, add any content that you want to the site for your External users to work on.
   
@@ -84,7 +88,7 @@ Next, select someone in your own company to be the site owner, someone who will 
   
 1. Navigate to the site that you created.
     
-2. Click **Share**.
+2. Select **Share**.
     
 3. Type the name of the user who you want to make a site owner.
     
@@ -92,13 +96,13 @@ Next, select someone in your own company to be the site owner, someone who will 
     
 5. Under **Select a permission level** choose **[Full Control]**.
     
-6. Click **Share**.
+6. Select **Share**.
     
-Once you have a site owner set up, have that owner invite External users to the site. Be sure your users have a [work or school account](https://support.office.com/article/37da662b-5da6-4b56-a091-2731b2ecc8b4) (an account that they can use to log in to Office 365) or a [Microsoft account](https://support.microsoft.com/instantanswers/d18cc497-d839-cf50-dea8-f99c95f2bd16) (such as an Outlook.com or Hotmail account). You must send the invitation to one of these types of accounts. 
+Once you have a site owner set up, have that owner invite External users to the site. Be sure your users have a [work or school account](https://support.office.com/article/37da662b-5da6-4b56-a091-2731b2ecc8b4) (an account that they can use to sign in to Office 365) or a [Microsoft account](https://support.microsoft.com/instantanswers/d18cc497-d839-cf50-dea8-f99c95f2bd16) (such as an Outlook.com or Hotmail account). You must send the invitation to one of these types of accounts. 
   
  **To invite users to the site**
   
-1. On the site that you created, click **Share**.
+1. On the site that you created, select **Share**.
     
 2. Type the email addresses of the people who you want to share the site with.
     
@@ -106,7 +110,7 @@ Once you have a site owner set up, have that owner invite External users to the 
     
 4. Confirm that **[Edit]** is selected under **Select a permission level**.
     
-5. Click **Share**.
+5. Select **Share**.
     
 ## External user access
 
@@ -124,25 +128,20 @@ You can monitor the activity of your external users to ensure that they're compl
   
  **Show who has been sent invitations to your extranet site and if they accepted**
   
-1. Sign in to Office 365 as a global admin or SharePoint admin.
+1. Sign in to https://protection.office.com/?rfr=AdminCenter as a global admin or other admin who has permission to access the Security & Compliance admin center. (If you see a message that you don't have permission to access the page, you don't have necessary Office 365 administrator permissions in your organization.)
     
-2. Under **Admin centers**, click **Security &amp; Compliance**.
+    > [!NOTE]
+    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center, and under **Admin centers**, select **Security &amp; Compliance**.  
     
-3. Click **Search &amp; investigation**. 
+2. Under **Search &amp; investigation**, select **Audit log search**. 
     
-4. Click **Audit log search**. 
-    
-5. In the Activities box, select **Accepted Sharing Invitation** and then click **Search**. 
+3. In the **Activities** box, select **Accepted sharing invitation** and then select **Search**. 
     
  **Show what activities your external users have done on the site**
   
-1. In Office 365, click **Admin**, and then **Admin Centers**.
+1. In the Security &amp; Compliance admin center, under **Search &amp; investigation**, select **Audit log search**. 
     
-2. Click **Security and Compliance** and then **Search &amp; investigation**. 
-    
-3. Click **Audit log search**. 
-    
-4. In the activities box, select **show results for all activities** and then click **Search**. 
+2. In the **Activities** box, select **show results for all activities** and then select **Search**. 
     
 ## Managing your site
 
@@ -150,14 +149,14 @@ When you are done collaborating with your external users, you can remove their a
   
  **Removing a user from having access to the site**
   
-1. On your website or team site, click ** Settings **, and then click **Site settings**. 
+1. On the site, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**.
     
-2. On the Site settings page, under **Users and Permissions**, click **People and Groups**.
+2. On the Site Settings page, under **Users and Permissions**, select **People and Groups**.
     
-3. On the People and Groups page, click the name of the group to which you added the user.
+3. On the People and Groups page, select the name of the group to which you added the user.
     
-4. Select the check boxes next to the user who you want to remove, click **Actions**, and then click **Remove Users from Group**. 
+4. Select the check boxes next to the user who you want to remove, select **Actions**, and then select **Remove Users from Group**. 
     
-5. In the confirmation window, click OK.
+5. In the confirmation window, select **OK**.
     
 

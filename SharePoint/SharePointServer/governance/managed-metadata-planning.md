@@ -1,10 +1,11 @@
 ---
 title: "Plan for managed metadata in SharePoint Server"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 7/6/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -87,4 +88,7 @@ In addition to sharing managed metadata, you can also use the managed metadata s
   
 Before you configure managed metadata in SharePoint, decide if you want to create a content type hub. (You can also add one later.)
   
+## See also
+<a name="SeeAlso"> </a>
+For the SharePoint Online version of this article, see [Introduction to managed metadata](https://docs.microsoft.com/sharepoint/managed-metadata).
 

@@ -1,10 +1,10 @@
 ---
 title: "Configure backup and restore permissions in SharePoint Server"
+ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen
-ms.date: 10/7/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -77,7 +77,7 @@ You can run the **Add-SPShellAdmin** cmdlet to add a user account to this role. 
     
 3. At the PowerShell command prompt, type the following command:
     
-   ```
+   ```powershell
    Add-SPShellAdmin -Username <User account> -Database <Database ID>
    ```
 
@@ -87,7 +87,7 @@ You can run the **Add-SPShellAdmin** cmdlet to add a user account to this role. 
     
     To add a user account to all the databases in the farm, type the following command:
     
-   ```
+   ```powershell
    ForEach ($db in Get-SPDatabase) {Add-SPShellAdmin -Username <User account> -Database $db}
    ```
 
@@ -97,7 +97,7 @@ You can run the **Add-SPShellAdmin** cmdlet to add a user account to this role. 
     
     To remove a user account from all the databases in the farm, type the following command:
     
-   ```
+   ```powershell
    ForEach ($db in Get-SPDatabase) {Remove-SPShellAdmin -Username <User account> -Database $db}
    ```
 
@@ -107,7 +107,7 @@ You can run the **Add-SPShellAdmin** cmdlet to add a user account to this role. 
     
     To view the user accounts currently added to the databases in the farm, type the following command:
     
-   ```
+   ```powershell
    ForEach ($db in Get-SPDatabase) {Get-SPShellAdmin -Database $db}
    ```
 

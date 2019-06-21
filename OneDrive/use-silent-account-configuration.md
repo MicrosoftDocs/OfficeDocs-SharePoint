@@ -1,12 +1,16 @@
 ---
 title: "Silently configure user accounts"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: one-drive
 localization_priority: Normal
+ms.collection: 
+- Strat_OD_admin
+- M365-collaboration
 search.appverid:
 - ODB160
 - MET150
@@ -20,13 +24,13 @@ This article is for IT admins who would like to silently configure user accounts
   
 ## Overview
 
-If you enable this feature, OneDrive.exe will attempt to sign in to the work or school account on the device that's joined to Azure AD. Before if begins syncing, it will check the available disk space. If syncing the user's entire OneDrive would cause the available space to drop below 1 GB or if the size exceeds the threshold you set, OneDrive will prompt the user to choose folders to sync. [Learn how to set the size threshold by using Group Policy](use-group-policy.md#DiskSpaceCheckThresholdMB). 
+If you enable this feature, OneDrive.exe will attempt to sign in to the work or school account on the device that's joined to Azure AD. Before if begins syncing, it will check the available disk space. If syncing the user's entire OneDrive would cause the available space to drop below 1 GB or if the size exceeds the threshold you set (on devices that don't have Files On-Demand enabled), OneDrive will prompt the user to choose folders to sync. For info about setting this threshold using Group Policy, see [Set the maximum size of a user's OneDrive that can download automatically](use-group-policy.md#DiskSpaceCheckThresholdMB). 
   
 If you enable this setting and the user is syncing files with the previous OneDrive for Business sync client (Groove.exe), the new sync client (OneDrive.exe) will attempt to take over syncing and import the user's sync settings. 
   
 ## Prerequisites
 
-Before you can enable silent account configuration, you need to join your devices to Azure AD. You can join devices running Windows 10 and Windows Server 2016 directly to Azure AD. To learn how, see [Join your work device to your organization's network](/azure/active-directory/user-help/user-help-join-device-on-network).
+Before you can enable silent account configuration, you need to join your devices to Azure AD. You can join devices running Windows 10 and Windows Server 2016 directly to Azure AD. To learn how, see [Join your work device to your organization's network](/azure/active-directory/user-help/user-help-join-device-on-network). 
   
 If you have an on-premises environment that uses Active Directory, you can enable [hybrid Azure AD joined devices](/azure/active-directory/devices/hybrid-azuread-join-plan) to join devices on your domain to Azure AD. Devices must be running one of the following operating systems:
   
@@ -55,9 +59,9 @@ If the computers on your network are joined to Active Directory on-premises, you
 
 Using Group Policy:
   
-1. Enable silent account configuration. For info, see [Silently configure OneDrive using Windows 10 or domain credentials](use-group-policy.md#SilentAccountConfig).
+1. Enable silent account configuration. For info, see [Silently sign in users to the OneDrive sync client with their Windows credentials](use-group-policy.md#SilentAccountConfig). If a device is not already joined to Azure AD, enabling this setting will join it.
     
-2. Optionally, specify the maximum OneDrive size that will download automatically in silent configuration. For info, see [Configure the maximum OneDrive size for downloading all files automatically](use-group-policy.md#DiskSpaceCheckThresholdMB). Note that if you enable Files ON-Demand, OneDrive will ignore the maximum size value.
+2. Optionally, specify the maximum OneDrive size that will download automatically in silent configuration. For info, see [Set the maximum size of a user's OneDrive that can download automatically](use-group-policy.md#DiskSpaceCheckThresholdMB). Note that if you enable Files On-Demand, OneDrive will ignore the maximum size value.
     
 3. Optionally, set the default location for the OneDrive folder. For info, see [Set the default location for the OneDrive folder](use-group-policy.md#DefaultRootDir).
     
@@ -65,7 +69,7 @@ Using Group Policy:
 > To test single sign-on, run OneDrive setup using the /silent parameter and enter your user name. Setup should not prompt for credentials. 
   
 > [!NOTE]
-> Silent account configuration won't work on devices for which you've required multi-factor authentication. 
+> Silent account configuration won't work on devices for which you've required multi-factor authentication. Select third-party identity providers (IdPs) are supported, but there are caveats. For more information, make sure to check out the [Azure AD federation compatibility list](/azure/active-directory/hybrid/how-to-connect-fed-compatibility).
 
 If the computers on your network are not connected to Active Directory on-premises, but only to Azure AD, we recommend using Intune and a Microsoft PowerShell script to set the registry keys required to enable silent config. Be sure you have [automatic enrollment set up for Windows 10 devices](/intune/quickstart-setup-auto-enrollment). 
 

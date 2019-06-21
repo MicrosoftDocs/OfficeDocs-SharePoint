@@ -1,11 +1,11 @@
 ---
 title: "Upload on-premises content to SharePoint Online using PowerShell cmdlets"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
-ms.date: 01/22/2018
-ms.audience: End User
-ms.topic: get-started-article
+audience: ITPro
+ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
 ms.collection:
@@ -14,6 +14,9 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
+- SPMigration
+- M365-collaboration
+search.appverid: MET150
 ms.custom: 
 ms.assetid: 555049c6-15ef-45a6-9a1f-a1ef673b867c
 description: ""

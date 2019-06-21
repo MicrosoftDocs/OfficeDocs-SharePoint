@@ -1,10 +1,11 @@
 ---
 title: "Hardware and software requirements for SharePoint hybrid"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 2/5/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -12,6 +13,7 @@ ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
+- M365-collaboration
 ms.assetid: 43e52f2f-2586-451d-814d-edf43f3459ab
 
 description: "Learn what prerequisites you'll need to configure hybrid for SharePoint Server."

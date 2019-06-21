@@ -1,13 +1,16 @@
 ---
 title: "Create and manage terms in a term set"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 5/1/2018
-ms.audience: End User
+audience: End User
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
+ms.collection:  
+- M365-collaboration
 search.appverid:
 - SPO160
 - MET150
@@ -27,7 +30,7 @@ You can use the Term Store management tool to create terms in a term set, or man
 To create a term in a term set, follow these steps
   
 > [!NOTE]
->  If you are adding a term to a local term set, you must start this procedure from the site collection to which the term set belongs. If you are updating a global term set, you can open the Term Store management tool from any site. 
+>  If you are adding a term to a local term set, you must start this procedure from the site to which the term set belongs. If you are updating a global term set, you can open the Term Store management tool from any site. 
   
 1. Open the Term Store management tool. To learn how, see [Open the Term Store management tool](open-term-store-management-tool.md).
     

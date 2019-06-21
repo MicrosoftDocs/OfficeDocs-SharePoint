@@ -1,10 +1,11 @@
 ---
 title: "Hybrid for SharePoint Server"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 6/20/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: hub-page
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -12,6 +13,7 @@ ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
+- M365-collaboration
 ms.assetid: f26ad022-5c99-4a27-a093-52cc9ee71296
 description: "Learn about SharePoint Server hybrid environments and the hybrid solutions available for SharePoint Server and SharePoint Online."
 ---

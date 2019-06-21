@@ -1,10 +1,11 @@
 ---
 title: "Hybrid picker in the SharePoint Online admin center"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 12/5/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
@@ -13,6 +14,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_SharePoint_Hybrid_Top
 - Strat_SP_gtc
+- M365-collaboration
 ms.custom: 
 ms.assetid: dcac4cbf-7840-470a-9712-3b968c4f06d0
 description: Learn how to use the Hybrid Picker wizard in the SharePoint Online admin center.
@@ -48,6 +50,8 @@ The following are the account requirements to run the Hybrid Picker. You must be
 - Logged into Office 365 and SharePoint Server from a server in your SharePoint Server farm
     
 - Able to launch the Hybrid Picker as a Farm Administrator with elevated permissions
+ 
+The account that you use must not use multi-factor authentication.
     
 > [!IMPORTANT]
 > The Hybrid Picker wizard must be launched from an on-premises server with SharePoint Server 2013 or SharePoint Server 2016 installed. Launch it in the environment you want to use for your SharePoint hybrid. 
@@ -112,11 +116,7 @@ While running the Hybrid Picker, the wizard will check basic SharePoint farm set
 - The SPO365LinkSettings cmdlet (used to set the MySiteHostURL) is accessible on the server 
     
 The results of this testing can be viewed as a report if any prerequisite isn't met. If all prerequisites are met you will see green check-marks beside all the prerequisites, and will be able to continue your hybrid configuration.
-  
-## How we use your data
-
-Hybrid Picker is part of the Office 365 Support Assistant. Hybrid Picker may use your information in the ways outlined by Office 365 Support Assistant documentation seen [here](https://configure.office.com/SharedPages/WhatThisApplicationDoes.aspx). You'll find a more detailed discussion of Microsoft's privacy policies, right [here](https://www.microsoft.com/EN-US/privacystatement/OnlineServices/Default.aspx) (please remember to click the 'Privacy Statement' link in the privacy policies article)! 
-  
+ 
 ## Authentication realm update
 
 As part of hybrid configuration, the hybrid picker updates the on-premises farm's authentication realm to match the Office 365 tenant context ID. After the authentication realm is changed, existing SharePoint add-ins fail to authenticate. The hybrid picker will attempt to fix this issue automatically. If the hybrid picker is not able to fix this issue or if you choose to fix it manually, follow the steps in [Fix the HTTP 401 error with provider-hosted add-ins and issues with workflow and cross farm trust scenarios in SharePoint](https://support.microsoft.com/help/4010011).

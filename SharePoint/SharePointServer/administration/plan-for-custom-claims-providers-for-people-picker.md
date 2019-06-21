@@ -1,24 +1,25 @@
 ---
-title: "Plan for custom claims providers for People Picker in SharePoint 2013"
+title: "Plan for custom claims providers for People Picker in SharePoint"
+ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
 ms.date: 8/1/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: interactive-tutorial
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 3fca2556-ebca-4395-8f66-b3a645c05878
-description: "Learn about how to plan for custom claims providers for the People Picker web control in SharePoint Server 2013."
+description: "Learn about how to plan for custom claims providers for the People Picker web control in SharePoint Server."
 ---
 
-# Plan for custom claims providers for People Picker in SharePoint 2013
+# Plan for custom claims providers for People Picker in SharePoint
 
-[!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
-You can use the claims providers that are included with SharePoint Server 2013, or you can create your own custom claims providers to connect to additional sources of claims and provide additional claims in the security token for a user. For example, if you have a customer relationship management (CRM) application that contains roles that are not found in the user repository in Active Directory Domain Services (AD DS), you can create a custom claims provider to connect to the CRM database and add CRM role data to a user's original security token. For more information about claims provider usage scenarios, see [Claims Provider](/sharepoint/dev/general-development/claims-provider-in-sharepoint).
+You can use the claims providers that are included with SharePoint Server, or you can create your own custom claims providers to connect to additional sources of claims and provide additional claims in the security token for a user. For example, if you have a customer relationship management (CRM) application that contains roles that are not found in the user repository in Active Directory Domain Services (AD DS), you can create a custom claims provider to connect to the CRM database and add CRM role data to a user's original security token. For more information about claims provider usage scenarios, see [Claims Provider](/sharepoint/dev/general-development/claims-provider-in-sharepoint).
   
-A claims provider in SharePoint Server 2013 is used to augment claims and to provide name resolution. In the claims augmentation role, a claims provider augments a user security token with additional claims during sign-in. For more information about claims augmentation, see [Claims Provider](/sharepoint/dev/general-development/claims-provider-in-sharepoint). In the name resolution role, a claims provider lists, resolves, searches, and determines the "friendly" display of users, groups, and claims in the People Picker. Claims picking enables an application to surface claims in the People Picker, for example when you configure the security of a SharePoint site or SharePoint service. For more information about People Picker, see [Plan for People Picker in SharePoint 2013](plan-for-people-picker.md).
+A claims provider in SharePoint Server is used to augment claims and to provide name resolution. In the claims augmentation role, a claims provider augments a user security token with additional claims during sign-in. For more information about claims augmentation, see [Claims Provider](/sharepoint/dev/general-development/claims-provider-in-sharepoint). In the name resolution role, a claims provider lists, resolves, searches, and determines the "friendly" display of users, groups, and claims in the People Picker. Claims picking enables an application to surface claims in the People Picker, for example when you configure the security of a SharePoint site or SharePoint service. For more information about People Picker, see [Plan for People Picker in SharePoint](plan-for-people-picker.md).
   
 By default, the information that is resolved in People Picker when a query is performed depends on the information supplied by the claims provider. You can't change what information is supplied and how it is displayed when you use an out-of-box claims provider. To do this, you must create a custom claims provider that will meet the needs of your solution for finding and selecting users, groups, and claims when a user assigns permissions to items such as a site, list, or library.
   
@@ -30,13 +31,13 @@ Before reading this article, you should understand the concepts described in [Pl
 ## Architecture
 <a name="architecture"> </a>
 
-When a web application is configured to use claims-based authentication, SharePoint Server 2013 automatically uses two default claims providers:
+When a web application is configured to use claims-based authentication, SharePoint Server automatically uses two default claims providers:
   
-- The [SPSystemClaimProvider](https://msdn.microsoft.com/library/Microsoft.SharePoint.Administration.Claims.SPSystemClaimProvider.aspx) class provides claims information related to the server farm where SharePoint Server 2013 is installed. 
+- The [SPSystemClaimProvider](https://msdn.microsoft.com/library/Microsoft.SharePoint.Administration.Claims.SPSystemClaimProvider.aspx) class provides claims information related to the server farm where SharePoint Server is installed. 
     
 - The [SPAllUserClaimProvider](https://msdn.microsoft.com/library/Microsoft.SharePoint.Administration.Claims.SPAllUserClaimProvider.aspx) class provides an All Users claim. 
     
-Depending on the authentication method selected for a zone of a web application, SharePoint Server 2013 also uses one or more of the default claims providers that are listed in Table 1.
+Depending on the authentication method selected for a zone of a web application, SharePoint Server also uses one or more of the default claims providers that are listed in Table 1.
   
 **Table 1. Authentication methods and default claims providers**
 
@@ -49,7 +50,7 @@ Depending on the authentication method selected for a zone of a web application,
 You can see a list of claims providers for a farm by using the [Get-SPClaimProvider](/powershell/module/sharepoint-server/Get-SPClaimProvider?view=sharepoint-ps) Microsoft PowerShell cmdlet. 
   
 > [!NOTE]
-> When a web application is configured to use SAML token-based authentication, the SPTrustedClaimProvider class does not provide search functionality to the People Picker web control. Any text entered in the People Picker control will automatically be displayed as if it was resolved, regardless of whether it is a valid user, group, or claim. If your SharePoint Server 2013 solution will use SAML token-based authentication, you should plan to create a custom claims provider to implement custom search and name resolution. 
+> When a web application is configured to use SAML token-based authentication, the SPTrustedClaimProvider class does not provide search functionality to the People Picker web control. Any text entered in the People Picker control will automatically be displayed as if it was resolved, regardless of whether it is a valid user, group, or claim. If your SharePoint Server solution will use SAML token-based authentication, you should plan to create a custom claims provider to implement custom search and name resolution. 
   
 Claims providers are registered on a server farm as features that are deployed to the farm. They are scoped at the farm level. Each claims provider object uses the SPClaimProviderDefinition class to include information about the claims provider, such as display name, description, assembly, and type. Two important properties of the SPClaimProviderDefinition class are IsEnabled and IsUsedByDefault. These properties determine whether a registered claims provider is enabled for use in the farm, and whether the claims provider is used by default in a particular zone. By default, all claims providers are enabled when they are deployed to a server farm. For information about the SPClaimProviderDefinition class, see [SPClaimProviderDefinition](https://msdn.microsoft.com/library/Microsoft.SharePoint.Administration.Claims.SPClaimProviderDefinition.aspx) . 
   
@@ -58,7 +59,7 @@ For more information about zones and authentication, see [Plan for user authenti
 ## Example custom claims provider configuration
 <a name="deploying"> </a>
 
-By default, when you register a custom claims provider on the farm, the IsEnabled and IsUsedByDefault properties are both set to True. Depending on the number of zones needed for your SharePoint Server 2013 solution, the authentication methods that are used by each zone, and the users for each zone, you may want to limit the zones in which your custom claims provider is displayed in People Picker.
+By default, when you register a custom claims provider on the farm, the IsEnabled and IsUsedByDefault properties are both set to True. Depending on the number of zones needed for your SharePoint Server solution, the authentication methods that are used by each zone, and the users for each zone, you may want to limit the zones in which your custom claims provider is displayed in People Picker.
   
 Because claims providers are scoped at the farm level and enabled at the zone level, you must carefully plan the zones in which you want the custom claims provider to be displayed. In general, you should ensure that the IsUsedByDefault property is set to False, and then configure the [SPIisSettings](https://msdn.microsoft.com/library/Microsoft.SharePoint.Administration.SPIisSettings.aspx) class for each zone in which you want to use the custom claims provider. To configure a custom claims provider for select zones, you can create a PowerShell script that sets the claims provider for a zone by using the [ClaimsProviders()](https://msdn.microsoft.com/library/Microsoft.SharePoint.Administration.SPIisSettings.ClaimsProviders.aspx) property, or you can create a custom application to allow you to enable a custom claims provider for select zones. 
   
@@ -107,7 +108,7 @@ As you plan custom claims providers for use with People Picker in your SharePoin
     
 - What will be the source of the values for the users and roles that will be displayed in People Picker query results?
     
-The SharePoint Server 2013 Content Publishing team wants to thank Steve Peschka for contributing to this article. Take a look at Steve Peschka's [Share-n-dipity TechNet blog](https://go.microsoft.com/fwlink/p/?LinkId=210274).
+The SharePoint Server Content Publishing team wants to thank Steve Peschka for contributing to this article. Take a look at Steve Peschka's [Share-n-dipity TechNet blog](https://go.microsoft.com/fwlink/p/?LinkId=210274).
   
 ## See also
 <a name="planning"> </a>
