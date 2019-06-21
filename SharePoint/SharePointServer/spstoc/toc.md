@@ -26,7 +26,7 @@
 #### [Create claims-based web applications in SharePoint Server](../security-for-sharepoint-server/create-claims-based-web-applications.md)
 #### [Create web applications that use classic mode authentication in SharePoint Server](../security-for-sharepoint-server/create-web-applications-that-use-classic-mode-authentication.md)
 #### [Implement SAML based authentication in SharePoint Server](../security-for-sharepoint-server/implement-saml-based-authentication-in-sharepoint-server.md)
-#### [Migration of Windows claims authenticatio to SAML based claims authentication in SharePoint Server](../security-for-sharepoint-server/Migration-of-Windows-claims-authentication-to-SAML-based-claims-authentication-in-sharepoint-server.md)
+#### [Migration of Windows claims authenticatio to SAML based claims authentication in SharePoint Server](../security-for-sharepoint-server/migration-of-windows-claims-authentication-to-saml-based-claims-authentication-in-sharepoint-server.md)
 
 
 ### [Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocol support in SharePoint Server](../security-for-sharepoint-server/secure-sockets-layer-ssl-and-transport-layer-security-tls-protocol-support-in-sh.md)
