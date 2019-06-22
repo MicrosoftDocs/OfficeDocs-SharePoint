@@ -116,11 +116,7 @@ While running the Hybrid Picker, the wizard will check basic SharePoint farm set
 - The SPO365LinkSettings cmdlet (used to set the MySiteHostURL) is accessible on the server 
     
 The results of this testing can be viewed as a report if any prerequisite isn't met. If all prerequisites are met you will see green check-marks beside all the prerequisites, and will be able to continue your hybrid configuration.
-  
-## How we use your data
-
-Hybrid Picker is part of the Office 365 Support Assistant. Hybrid Picker may use your information in the ways outlined by Office 365 Support Assistant documentation seen [here](https://configure.office.com/SharedPages/WhatThisApplicationDoes.aspx). You'll find a more detailed discussion of Microsoft's privacy policies, right [here](https://www.microsoft.com/EN-US/privacystatement/OnlineServices/Default.aspx) (please remember to click the 'Privacy Statement' link in the privacy policies article)! 
-  
+ 
 ## Authentication realm update
 
 As part of hybrid configuration, the hybrid picker updates the on-premises farm's authentication realm to match the Office 365 tenant context ID. After the authentication realm is changed, existing SharePoint add-ins fail to authenticate. The hybrid picker will attempt to fix this issue automatically. If the hybrid picker is not able to fix this issue or if you choose to fix it manually, follow the steps in [Fix the HTTP 401 error with provider-hosted add-ins and issues with workflow and cross farm trust scenarios in SharePoint](https://support.microsoft.com/help/4010011).
