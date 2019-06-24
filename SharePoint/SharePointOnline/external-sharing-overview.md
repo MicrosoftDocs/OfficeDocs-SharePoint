@@ -110,7 +110,7 @@ If the recipient doesn't have a work or school account, they need to use a code 
   
  **Recipients who don't need to authenticate**
   
-If you allow "Anyone" links, invitations aren't sent in email. Users can copy the link and share it however they like. Anyone with the link (inside or outside your organization) can access files and folders without having to sign in or provide a code. These links can be freely passed around and are valid until the link is deleted or expires (if you've set an expiration date). You cannot verify the identity of the people using these links, but their IP address is recorded in audit logs when they access or edit shared content.
+Anyone with the link (inside or outside your organization) can access files and folders without having to sign in or provide a code. These links can be freely passed around and are valid until the link is deleted or expires (if you've set an expiration date). You cannot verify the identity of the people using these links, but their IP address is recorded in audit logs when they access or edit shared content.
   
 ![Sharing a folder by using an "Anyone" link](media/anyone-link.png)
 
