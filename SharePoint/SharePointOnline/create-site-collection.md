@@ -83,7 +83,7 @@ If you want to create a site that uses a classic template, you can do so directl
   
   - In the **Title** box, enter a name for the site. 
     
-  - In the **Web Site Address** drop-down lists **,** select a domain name and a URL path — either **/sites/** or **/teams/** — and then type a URL name for the site. 
+  - In the **Web Site Address** drop-down lists, select a domain name and a URL path — either **/sites/** or **/teams/** — and then type a URL name for the site. 
     
   - In the **Template Selection** section, in the **Select a language** drop-down list, select a language for the site. You can enable the SharePoint multiple language interface on your sites, but the primary language for the site will remain the one you select here. 
     
