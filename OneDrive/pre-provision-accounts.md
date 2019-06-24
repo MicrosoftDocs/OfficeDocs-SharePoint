@@ -52,6 +52,8 @@ This article describes how to pre-provision OneDrive for your users by using Pow
 
 ```PowerShell
 $users = Get-Content -path "C:\Users.txt"
+
+Request-SPOPersonalSite -UserEmails $users
 ```    
 
 To verify that OneDrive has been created for your users, see [Get a list of all user OneDrive URLs in your organization](list-onedrive-urls.md).
