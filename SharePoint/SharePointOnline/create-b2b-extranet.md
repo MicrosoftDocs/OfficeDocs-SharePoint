@@ -19,7 +19,7 @@ search.appverid:
 - GSP150
 - MET150
 ms.assetid: 7b087413-165a-4e94-8871-4393e0b9c037
-description: "Learn how to use Office 365 SharePoint Online and OneDrive for Business as a Business to Business (B2B) Extranet solution"
+description: "Learn how to use Office 365 SharePoint Online and OneDrive for Business as a Business to Business (B2B) extranet solution"
 ---
 
 # Use SharePoint Online as a business-to-business (B2B) extranet solution
@@ -28,21 +28,21 @@ An extranet site in SharePoint Online is a site that you create to let external 
   
 Traditionally, deploying a SharePoint  *on-premises*  extranet site involves complex configuration to establish security measures and governance, including granting access inside the corporate firewall, and expensive initial and on-going cost. 
   
-But with Office 365, partners connect directly to a members-only site in SharePoint Online, without access to your on-premises environment or any other SharePoint Online sites. Office 365 Extranet sites can be accessed anywhere there's an Internet connection.
+But with Office 365, partners connect directly to a members-only site in SharePoint Online, without access to your on-premises environment or any other SharePoint Online sites. Office 365 extranet sites can be accessed anywhere there's an Internet connection.
   
 Industry verticals where business-to-business (B2B) collaboration is key to their business success include automotive, manufacturing, retail and energy. The following example shows how Contoso Ltd uses a separate extranet site for collaboration with each of their partners and vendors.
   
-![Office 365 Extranet example](media/b4d2c726-9f16-4000-9671-e1200106c52d.png)
+![Office 365 extranet example](media/b4d2c726-9f16-4000-9671-e1200106c52d.png)
   
 ## SharePoint Online collaboration features
 
  Key features offered in SharePoint Online collaboration include: 
   
-- **Allow users to Invite new partner users:** In certain site collections, admins can optionally allow users to invite new partner users. In this model, an email invite is sent to the partner user and the user must redeem that invite to access the resource. See [Manage external sharing for your SharePoint Online environment](external-sharing-overview.md) for details. 
+- **Allow users to invite new partners:** In certain site collections, admins can optionally allow users to invite new partners. In this model, an email invitation is sent to the partner and the person must redeem it to access the resource. See [External sharing overview](external-sharing-overview.md) for details. 
     
-- **Sharing by site owners only:** Ability to have site collections where only site owners can bring in or share with new users. Site members, who are typically external partner users, can see only the existing site members in the site. This helps in governing what partners can see and with whom they can share documents. 
+- **Sharing by site owners only:** Only site owners can share with new partners. Site members, who are typically external partners, can see only the existing site members in the site. This helps in governing what partners can see and with whom they can share documents. 
     
-- **Restricted domains sharing:** Admins can control the list of partner domains that their employees can share with outside the organization. Either an allow list of email domains or a deny list of email domains can be configured. See [Restricted Domains Sharing in O365 SharePoint Online and OneDrive for Business](restricted-domains-sharing.md) more details. 
+- **Restricted domains sharing:** Admins can control the list of partner domains that their employees can share with outside the organization. Either an allow list of email domains or a deny list of email domains can be configured. See [Restricted Domains Sharing in SharePoint Online and OneDrive for Business](restricted-domains-sharing.md) more details. 
     
 - **Auditing &amp; Reporting:** Activities of the business partner users are audited and reports can be viewed in Office 365 Activity Reports. 
     
@@ -62,11 +62,11 @@ Industry verticals where business-to-business (B2B) collaboration is key to thei
   
  **Governance and Audit Reporting**. Office 365 B2B extranet offers visibility into the access of your content by external partner users. One of the key IT benefits is to be able to audit usage, including being able to see who is inviting whom and when an external user logs in to access the content.
   
-## Compare Office 365 Hybrid Extranet with a traditional SharePoint On-premises Extranet
+## Compare Office 365 hybrid extranet with a traditional SharePoint on-premises extranet
 
 ||||
 |:-----|:-----|:-----|
-||**Office 365 Hybrid Extranet** <br/> |**SharePoint "on-premises" Extranet** <br/> |
+||**Office 365 hybrid extranet** <br/> |**SharePoint "on-premises" extranet** <br/> |
 |Firewall access required for external users  <br/> |No  <br/> |Yes  <br/> |
 |Complex network and infrastructure configuration required  <br/> |No  <br/> |Yes  <br/> |
 |Security hardening  <br/> |Managed through Office 365 configurations  <br/> |Manually configured by IT staff  <br/> |
