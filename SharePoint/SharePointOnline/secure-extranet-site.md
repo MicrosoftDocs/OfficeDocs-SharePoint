@@ -4,7 +4,6 @@ ms.reviewer:
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 6/25/2018
 audience: End User
 ms.topic: article
 ms.service: sharepoint-online
@@ -23,7 +22,7 @@ description: "Learn how to restrict guest access to your SharePoint extranet sit
 
 Depending on your business needs, there are different approaches you can take to secure and restrict access to your SharePoint Online B2B extranet site. In SharePoint Online, you can control how and if invitations are sent to external users. These settings can be set at the organization level, globally controlling all sites. Some settings can also be set at the individual site collection level, allowing you tailor the settings based on the unique requirements for your partner relationship while keeping control on sites intended for internal corporate use only.
   
-For information about how to configure the sharing settings discussed in this article, see [Manage external sharing for your SharePoint Online environment](external-sharing-overview.md).
+For information about how to configure the sharing settings discussed in this article, see [External sharing overview](external-sharing-overview.md).
   
 > [!IMPORTANT]
 > Any organization-wide sharing settings that you configure also affect OneDrive for Business. 
@@ -38,16 +37,16 @@ With any of these options, you can also choose to require that sharing invitatio
   
 ||**1**|**2**|**3**|**4**|**5**|**6**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|**Sharing setting** <br/> |Don't allow sharing outside your organization  <br/> |Allow sharing only with the external users that already exist in your organization's directory  <br/> |Allow users to invite and share with authenticated external users  <br/> |Allow users to invite and share with authenticated external users  <br/> |Allow users to invite and share with authenticated external users  <br/> |Allow sharing to authenticated external users and using anonymous access links  <br/> |
-|**Domain filtering (allow/deny list)** <br/> |N/A  <br/> |N/A  <br/> |Allow list  <br/> |Deny list  <br/> |None  <br/> |None  <br/> |
-|**Notes** <br/> |No external sharing - used for intranet sites.  <br/> |Sharing only allowed with existing users in the directory  <br/> |Sharing only allowed with users who are from the specified Microsoft-hosted domains.  <br/> |Sharing allowed with users who are from all but the specified domains.  <br/> |Sharing allowed with users who are from all Microsoft-hosted domains.  <br/> |No restrictions on sharing.  <br/> |
+|**Sharing setting** <br/> |Only people in your organization  <br/> |Existing guests  <br/> |New and existing guests  <br/> |New and existing guests  <br/> |New and existing guests  <br/> |Anyone  <br/> |
+|**Limit sharing by domain** <br/> |N/A  <br/> |N/A  <br/> |Allow only specific domains  <br/> |Block specific domains list  <br/> |None  <br/> |None  <br/> |
+|**Notes** <br/> |No external sharing - used for intranet sites.  <br/> |Sharing only allowed with guests already in the directory  <br/> |Sharing only allowed with guests who are from the specified Microsoft-hosted domains.  <br/> |Sharing allowed with guests who are from all but the specified domains.  <br/> |Sharing allowed with guests who are from all Microsoft-hosted domains.  <br/> |No restrictions on sharing.  <br/> |
 ||Most restricted  <br/> |||||Least restricted  <br/> |
    
 The following sections look more closely at these options.
   
 ### Restrict sharing only to existing guests in the directory
 
-In option 2, the sharing setting **Allow sharing only with the external users that already exist in your organization's directory** allows sharing only with existing users in your Office 365 directory. This turns off the user-based invitations approach within SharePoint Online. 
+In option 2, the sharing setting **Existing guests** allows sharing only with existing users in your Office 365 directory. This turns off the user-based invitations approach within SharePoint Online. 
   
 If you're partnering with another organization that uses Office 365 or has an Azure AD, you can import users from their organization into your organization, and then grant them access to your extranet site. For more information, see [What is Azure AD B2B collaboration?](/azure/active-directory/b2b/what-is-b2b).
   
@@ -59,7 +58,7 @@ Options 4 and 5 use domain filtering:
   
 - **Allow list** - Allows sharing invitations to be sent only to those domains listed. This is the best way to narrow down the scope of who can be invited to a site. 
     
-- **Deny list** - Allows sharing invitations to be sent to any domain except those listed. 
+- **Block list** - Allows sharing invitations to be sent to any domain except those listed. 
     
 To set up domain filtering, see [Restricted Domains Sharing in Office 365 SharePoint Online and OneDrive for Business](restricted-domains-sharing.md).
   
