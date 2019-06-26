@@ -150,7 +150,7 @@ Help your users share, organize, and discover information with SharePoint.
                 <div class="card">
                     <div class="cardText">
                         <h3>Inform and engage</h3>
-                        <p><a href="/sharepoint/guide-to-sharepoint-modern-experience">Modern intranet</a></p><p><a href="/sharepoint/planning-hub-sites">Plan your hub sites</a></p><p><a href="/sharepoint/create-hub-site">Create a hub site</a></p><p><a href="/sharepoint/change-links-list-on-sharepoint-home-page">Change the links list</a></p><p><a href="https://support.office.com/article/e1464355-1f97-49ac-b2aa-dd320b179dbe">Admin help for Yammer</a></p>
+                        <p><a href="/sharepoint/guide-to-sharepoint-modern-experience">Modern intranet</a></p><p><a href="/sharepoint/planning-hub-sites">Plan your hub sites</a></p><p><a href="/sharepoint/change-links-list-on-sharepoint-home-page">Add featured links</a></p><p><a href="https://support.office.com/article/e1464355-1f97-49ac-b2aa-dd320b179dbe">Admin help for Yammer</a></p>
                     </div>
                 </div>
             </div>
@@ -174,7 +174,7 @@ Help your users share, organize, and discover information with SharePoint.
                 <div class="card">
                     <div class="cardText">
                         <h3>Harness collective knowledge</h3>
-                        <p><a href="/sharepoint/overview-of-search">Overview of search</a></p><p><a href="/sharepoint/delve-for-office-365-admins">Delve for O365 admins</a></p>
+                        <p><a href="/sharepoint/overview-of-search">Overview of search</a></p><p><a href="/sharepoint/delve-for-office-365-admins">Delve for Office 365 admins</a></p>
                     </div>
                 </div>
             </div>
@@ -198,7 +198,7 @@ Help your users share, organize, and discover information with SharePoint.
                 <div class="card">
                     <div class="cardText">
                         <h3>Extend and develop</h3>
-                        <p><a href="/sharepoint/dev/spfx/sharepoint-framework-overview">SharePoint Framework</a></p><p><a href="/sharepoint/dev/sp-add-ins/sharepoint-add-ins">SharePoint add-ins</a></p><p><a href="/sharepoint/dev/solution-guidance/office-365-development-patterns-and-practices-solution-guidance">Patterns and practices (PnP) solution guidance</a></p>
+                        <p><a href="/sharepoint/extend-and-develop">Customizing SharePoint</a><p><a href="/sharepoint/dev/spfx/sharepoint-framework-overview">SharePoint Framework</a></p><p><a href="/sharepoint/dev/sp-add-ins/sharepoint-add-ins">SharePoint add-ins</a></p><p><a href="/sharepoint/dev/solution-guidance/office-365-development-patterns-and-practices-solution-guidance">Patterns and practices (PnP) solution guidance</a></p>
                     </div>
                 </div>
             </div>
