@@ -30,7 +30,7 @@ The SharePoint Migration Tool (SPMT) lets you migrate content to SharePoint Onli
 
 ## Download and install
 
-Download and install the SharePoint Migration Tool using Internet Explorer, Edge or Chrome browser.  After downloading and installing the SharePoint Migration Tool, read [How to use the SharePoint Migration Tool](how-to-use-the-sharepoint-migration-tool.md) to help you get started.
+Download and install the SharePoint Migration Tool using one of the download links below.  After downloading and installing the SharePoint Migration Tool, read [How to use the SharePoint Migration Tool](how-to-use-the-sharepoint-migration-tool.md) to help you get started.
 
 If you experience issues with your installation, see [Troubleshooting installation issues](spmt-install-issues.md).
 
