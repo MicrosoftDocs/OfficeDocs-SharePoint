@@ -56,30 +56,37 @@ The following provides CSOM implementation guidelines will help to improve migra
 
 #### Enumeration Query Ordering guidance 
 There are two kinds of enumeration queries, assuming the client intends to read every item with no server-side filtering.
- To query for every item in the list, recursively – in other words, the order does not depend on which folder(s) the items are contained in – the query should sort by ID.
-     <OrderBy Override="TRUE"><FieldRef name="ID"/></OrderBy>
+
+To query for every item in the list, recursively – in other words, the order does not depend on which folder(s) the items are contained in – the query should sort by ID.
+
+    <OrderBy Override="TRUE"><FieldRef name="ID"/></OrderBy>
  
-To query for every item in a specific folder, the query should sort by FileLeafRef, which is the filename.
+To query for every item in a specific folder, the query should sort by the filename, **FileLeafRef**.
+
     <OrderBy Override="TRUE"><FieldRef name="FileLeafRef"/></OrderBy>
 
 
 ## Follow the migration best practices 
 Please follow the guidance provided here:
-•	Best practices for improving SharePoint and OneDrive migration performance. 
+
+• [Best practices for improving SharePoint and OneDrive migration performance](https://docs.microsoft.com/en-us/sharepointmigration/sharepoint-online-and-onedrive-migration-speed). 
 
 For customers migrating greater than 100TB of data, please follow the instructions on how to create a support ticket to help the product team to prepare the backend for the customers. 
  
 ## Escalation and throttling
  
-Throttling is used to protect the database and to ensure a good user experience for our customers. To avoid being throttled, follow all of the steps above 
-1.	Transitioned to app based authentication 
-2.	Follow API guidance 
-3.	switch to graph API 
-4.	Follow best migration practice 
+Throttling is used to protect the database and to ensure a good user experience for our customers. To avoid being throttled, follow all of the steps above:
+ 
+- Transition to app-based authentication 
+- Follow API guidance 
+- Switch to Graph API 
+- Follow best migration practice 
 
 
-To read the official throttling guidance, see Avoid getting throttled or blocked in SharePoint Online 
+To read the official throttling guidance, see:
 
-We continue to work identify issues and seek room for improvement. The asynchronous metadata read API is a direct result from ISV feedback. If there is any specific escalation you as an ISV/partner would like us to bring up, we are happy to take a closer look.
+- [Avoid getting throttled or blocked in SharePoint Online](https://myignite.techcommunity.microsoft.com/sessions/65661)
+
+We continue to work to identify issues and improve the API. The asynchronous metadata read API is a direct result of ISV feedback. As an ISV/partner, let us know if you want us to look at any specific escalations.
 
 
