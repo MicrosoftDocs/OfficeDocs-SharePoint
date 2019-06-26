@@ -81,7 +81,7 @@ If you're used to working in the classic SharePoint admin center, use the follow
 |On the site collections page, select **Buy Storage**     |  [Buy a file storage add-on from the Microsoft 365 admin center](/office365/admin/subscriptions-and-billing/buy-or-edit-an-add-on?view=o365-worldwide)       |         |
 |On the site collections page, select **Recycle Bin**    |    Deleted sites page    |         |
 |   Sharing page |       Sharing page  |        The new page includes the most common settings, and others are coming soon. |
-|Settings page     |    Settings page     |      The new page includes the most common settings, and others are coming soon.   |
+|Settings page     |    Settings page     |      The new page includes the most common settings, and others are coming soon. At the bottom of the new Settings page, you can select **classic settings page** to access all the classic settings.    |
 |Access control page     |    Access control page     |     The new SharePoint admin center contains all the classic settings and more.    |
 |Term store, User profiles, Search, Apps |   Classic features page      |         |
 |BCS, Secure store, Records management, InfoPath, Configure hybrid (hybrid picker)  |  Classic features page > More classic features       |         |
