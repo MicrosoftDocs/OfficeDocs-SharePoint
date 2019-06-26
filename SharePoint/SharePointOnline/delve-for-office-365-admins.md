@@ -112,11 +112,11 @@ There are a few things you should check if one or more users in your organizatio
   
  **Solution(s)**
   
-- [Check that you allow your organization to access the Office Graph](delve-for-office-365-admins.md#BKMK_OfficeGraphAcces).
+- [Check that you allow your organization to access the Office Graph](#BKMK_OfficeGraphAcces).
     
-- [Check that you're using an Office 365 plan that supports Delve](delve-for-office-365-admins.md#BKMK_CheckPlan).
+- [Check that you're using an Office 365 plan that supports Delve](#BKMK_CheckPlan).
     
-- [Check that you've assigned the correct user licenses](delve-for-office-365-admins.md#BKMK_CheckLicense). 
+- [Check that you've assigned the correct user licenses](#BKMK_CheckLicense). 
     
  **Check that you allow your organization to access the Office Graph**
 <a name="#BKMK_OfficeGraphAcces"> </a>
