@@ -28,7 +28,6 @@
 #### [Implement SAML based authentication in SharePoint Server](../security-for-sharepoint-server/implement-saml-based-authentication-in-sharepoint-server.md)
 #### [Migration of Windows claims authentication to SAML based claims authentication in SharePoint Server](../security-for-sharepoint-server/migration-of-windows-claims-authentication-to-saml-based-claims-authentication-in-sharepoint-server.md)
 
-
 ### [Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocol support in SharePoint Server](../security-for-sharepoint-server/secure-sockets-layer-ssl-and-transport-layer-security-tls-protocol-support-in-sh.md)
 #### [Enable TLS and SSL support in SharePoint 2013](../security-for-sharepoint-server/enable-tls-and-ssl-support-in-sharepoint-2013.md)
 #### [Enable TLS 1.1 and TLS 1.2 support in SharePoint Server 2016](../security-for-sharepoint-server/enable-tls-1-1-and-tls-1-2-support-in-sharepoint-server-2016.md)
@@ -384,10 +383,12 @@
 #### [Update Workflow in SharePoint Server](../governance/update-workflow-in-sharepoint-server.md)
 ## [Administration](../administration/administration.md)
 ### [Server Management](../administration/server-management.md)
+#### [Configure Request Manager in SharePoint Server](../security-for-sharepoint-server/configure-request-manager-in-sharepoint-server.md)
 #### [Global deployment of multiple farms](../administration/global-deployment-of-multiple-farms.md)
 ##### [Global architectures for SharePoint Server](../administration/global-architectures.md)
 ##### [WAN performance and testing](../administration/wan-performance-and-testing.md)
 #### [SQL Server and storage](../administration/sql-server-and-storage.md)
+
 ##### [Overview of SQL Server in SharePoint Server 2016 and 2019 environments](../administration/overview-of-sql-server-in-sharepoint-server-2016-and-2019-environments.md)
 ##### [Deploy Azure SQL Managed Instance with SharePoint Server 2016 and 2019](../administration/deploy-azure-sql-managed-instance-with-sharepoint-servers-2016-2019.md)
 ##### [Overview of SQL Server in a SharePoint Server 2013 environment](../administration/overview-of-sql-server-in-a-sharepoint-server-2013-environment.md)

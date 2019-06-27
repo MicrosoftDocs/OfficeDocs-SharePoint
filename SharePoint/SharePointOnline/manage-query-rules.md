@@ -4,7 +4,6 @@ ms.reviewer:
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
-ms.date: 6/29/2018
 audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
@@ -44,10 +43,10 @@ You can add several individual promoted results. When there is more than one pro
   
 1. Go to the **Manage Query Rules** page for the tenant, for a site collection, or a site: 
     
-  - For a tenant, in the classic SharePoint admin center, select **search** in the left pane, and then on the search administration page, select **Manage Query Rules**
+  - For a tenant, in the new SharePoint admin center, select **Classic features**. Under **Search**, select **Open**, and then on the search administration page, select **Manage Query Rules**.
     
   - For a site collection, in your site collection, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**. Under **Site Collection Administration**, select **Search Query Rules**.
-    
+
   - For a site, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**. Under **Search**, select **Query Rules**.
     
 2. On the **Manage Query Rules** page, in the **Select a Result Source** list, select a result source for the new query rule. 

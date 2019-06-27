@@ -4,7 +4,6 @@ ms.reviewer:
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
-ms.date: 6/21/2018
 audience: Admin
 ms.topic: overview
 ms.service: sharepoint-online
@@ -29,10 +28,13 @@ The changes you make from the search administration page are valid for the whole
     
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
-    
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
-    
-3. Select **search** in the left pane. 
+
+2. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
+
+3. In the left pane of the new SharePoint admin center, select **Classic features**. 
+
+4. Under **Search**, select **Open**.
+
     
 ## What do you want to do?
 <a name="__top"> </a>

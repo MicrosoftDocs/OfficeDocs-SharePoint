@@ -21,24 +21,22 @@ description: "Learn about the cards on the Home page of the new SharePoint admin
 
 # Get started with the new SharePoint admin center
 
-As a global or SharePoint admin in Office 365, you can try the new SharePoint admin center. To access it, go to the classic SharePoint admin center and click **Try it now** in the upper right. 
-  
-> [!NOTE]
-> Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Office 365](/office365/admin/manage/release-options-in-office-365). This means that you may not yet see some features or they may look different than what is described in this article. 
-  
-## Go to the classic experience
+The Home page of the new SharePoint admin center gives you an overview of SharePoint in your organization. To access the new SharePoint admin center:
 
-The new SharePoint admin center is now available worldwide to customers who have selected the standard release option. To perform some tasks, you'll still need to use the classic experience.
-  
-To switch back to the classic SharePoint admin center:
-  
-- In the left pane of the new SharePoint admin center, select **Classic SharePoint admin center**.
+1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
-> [!IMPORTANT]
-> If a setting exists in both the new and classic SharePoint admin centers, and possibly other admin centers such as the OneDrive and Microsoft 365 admin centers, when you change it in one place, the other admin centers will reflect the change. If you have multiple admins in your organization, make sure you communicate the changes you're making. 
+    > [!NOTE]
+    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
+    
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
+
+3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
   
 Help us improve the new SharePoint admin center! Tell us what you like or don't like, send a suggestion, or file a bug. To send us feedback, click **Feedback** in the lower-right corner. 
-  
+
+> [!TIP]
+> To set the new SharePoint admin center as the default experience, select **Settings** in the left pane, select **Default admin experience**, turn on **Open the new SharePoint admin center by default**, and then select **Save**.
+
 ## View reports
 
 On the Home page, you can see at a glance:
@@ -67,6 +65,32 @@ In the Service health section of the home page, you can see whether the SharePoi
   
 ![The Service health card on the Home page](media/0336aab6-aecb-494c-9cd2-f279f452cc79.PNG)
   
+## Where to find things in the new SharePoint admin center
+
+If you're used to working in the classic SharePoint admin center, use the following table to learn where you can find features and tasks in the new admin center.
+
+
+|Classic  |New  |Notes  |
+|---------|---------|---------|
+|site collections page     |    Active sites page     |      The new SharePoint admin center refers to site collections as "sites."   |
+|On the site collections page, select **New** > **Private Site Collection**    |    Active sites > Create     |     In the new SharePoint admin center, you can create Office 365 group-connected team sites and communication sites, as well as classic sites.    |
+|Select site collections on the site collections page and select **Delete**     |    On the Active sites page, select sites and then select Delete      |         |
+|Select a site collection on the site collections page and select **Properties**    |   On the Active sites page, select the site's name to open the details pane |    In the new SharePoint admin center, you can edit site details.     |
+|Select a site collection on the site collections page and select **Owners** > **Manage Administrators**     |    On the Active sites page, select a site, and then select Owners      |    The new experience also lets you view and edit Office 365 Group owners.      |
+|Select a site collection on the site collections page and select **Sharing**     |     On the Active sites page, select a site, and then select Sharing (or select multiple sites, and then select Bulk edit > Sharing)    |    Some site-level sharing settings are still coming to the new SharePoint admin center.     |
+|On the site collections page, select **Buy Storage**     |  [Buy a file storage add-on from the Microsoft 365 admin center](/office365/admin/subscriptions-and-billing/buy-or-edit-an-add-on?view=o365-worldwide)       |         |
+|On the site collections page, select **Recycle Bin**    |    Deleted sites page    |         |
+|   Sharing page |       Sharing page  |        The new page includes the most common settings, and others are coming soon. |
+|Settings page     |    Settings page     |      The new page includes the most common settings, and others are coming soon.   |
+|Access control page     |    Access control page     |     The new SharePoint admin center contains all the classic settings and more.    |
+|Term store, User profiles, Search, Apps |   Classic features page      |         |
+|BCS, Secure store, Records management, InfoPath, Configure hybrid (hybrid picker)  |  Classic features page > More classic features       |         |
+
+
+
+
+
+
 ## See also
 
 [Manage sites in the new SharePoint admin center](manage-sites-in-new-admin-center.md)
