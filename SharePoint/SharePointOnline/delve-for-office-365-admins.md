@@ -63,7 +63,7 @@ If you don't allow access to the Office Graph, you disable the functionality in 
  
 4. At the bottom of the page, select **classic settings page**.
     
-5.  Under Office Graph, select one of the following: 
+5.  Under Office Graph, select one of the following:    
     
   - **Allow access to the Office Graph**
     
@@ -112,14 +112,14 @@ There are a few things you should check if one or more users in your organizatio
   
  **Solution(s)**
   
-- [Check that you allow your organization to access the Office Graph](delve-for-office-365-admins.md#BKMK_OfficeGraphAcces).
+- [Check that you allow your organization to access the Office Graph](#BKMK_OfficeGraphAccess).
     
-- [Check that you're using an Office 365 plan that supports Delve](delve-for-office-365-admins.md#BKMK_CheckPlan).
+- [Check that you're using an Office 365 plan that supports Delve](#BKMK_CheckPlan).
     
-- [Check that you've assigned the correct user licenses](delve-for-office-365-admins.md#BKMK_CheckLicense). 
+- [Check that you've assigned the correct user licenses](#BKMK_CheckLicense). 
     
  **Check that you allow your organization to access the Office Graph**
-<a name="#BKMK_OfficeGraphAcces"> </a>
+<a name="#BKMK_OfficeGraphAccess"></a>
   
 1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
@@ -138,7 +138,7 @@ There are a few things you should check if one or more users in your organizatio
     > If you have a SharePoint Online standalone service (SharePoint Online Plan 1 or SharePoint Online Plan 2) you'll see the Office Graph setting in the SharePoint admin center. However, users won't be able to use Delve or see Delve in the app launcher, because Delve is not available for standalone services yet. 
   
  **Check that you're using an Office 365 plan that supports Delve**
-<a name="#BKMK_CheckPlan"> </a>
+<a name="#BKMK_CheckPlan"></a>
   
 1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
@@ -160,7 +160,7 @@ There are a few things you should check if one or more users in your organizatio
   - Office 365 Business Premium 
     
  **Check that you've assigned the correct user licenses**
-<a name="#BKMK_CheckLicense"> </a>
+<a name="#BKMK_CheckLicense"></a>
   
 1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
