@@ -63,7 +63,7 @@ If you don't allow access to the Office Graph, you disable the functionality in 
  
 4. At the bottom of the page, select **classic settings page**.
     
-5.  Under Office Graph, select one of the following: 
+5.  Under Office Graph, select one of the following:    
     
   - **Allow access to the Office Graph**
     
