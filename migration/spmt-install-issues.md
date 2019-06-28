@@ -88,7 +88,6 @@ The following table lists the required endpoints for using the SharePoint Migrat
 |:-----|
 |https://secure.aadcdn.microsoftonline-p.com|</br>
 |https://login.microsoftonline.com|</br>
-|https://login.live.com|</br>
 |https://api.office.com|</br>
 |https://graph.windows.net|</br>
 |https://*.queue.core.windows.net|</br>
