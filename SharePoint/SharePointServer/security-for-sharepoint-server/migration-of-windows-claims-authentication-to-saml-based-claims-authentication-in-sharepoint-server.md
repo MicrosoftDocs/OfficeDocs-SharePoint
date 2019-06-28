@@ -47,10 +47,11 @@ An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to
 
 2.	To migrate a web application to include all content databases, type the following at the Windows PowerShell command prompt.
 
-```
-$wa = Get-SPWebApplication -Identity <Name of web application> 
-$tp= Get-SPTrustedIdentityTokenIssuer “RegularUsers” Convert-SPWebApplication -Identity
-$wa -TO CLAIMSTRUSTEDDEFAULT -FROM CLAIMSWINDOWS -TrustedProvider $tp -sourceskiplist skip.csv.
+```powershell
+$skipFile = "FileName.csv"
+$wa = Get-SPWebApplication -Identity "Name of web application"
+$tp = Get-SPTrustedIdentityTokenIssuer "RegularUsers"
+Convert-SPWebApplication -Identity $wa -From CLAIMS-WINDOWS -To CLAIMS-TRUSTED-DEFAULT -TrustedProvider $tp -SourceSkipList $skipFile
 ```
 
 To migrate specific web applications and content databases by using Windows PowerShell.
@@ -68,20 +69,19 @@ An administrator can use the Add-SPShellAdmin cmdlet to grant permissions to use
  
 2.	To migrate specific web applications and content databases, type the following at the Windows PowerShell command prompt.
 
+```powershell
+$skipFile = "FileName.csv"
+$wa = Get-SPWebApplication -Identity "Name of web application"
+$database = Get-SPContentDatabase -Identity "DB_Name"
+Convert-SPWebApplication -Identity $wa -Database $database -From CLAIMS-WINDOWS -To CLAIMS-TRUSTED-DEFAULT -SourceSkipList $skipFile
 ```
-$database = Get-SPContentDatabase -Identity <DB_Name> Convert-SPWebApplication -Identity 
-$app -from CLAIMS-WINDOWS -to CLAIMS-TRUSTED-DEFAULT -database $database -sourceskiplist skip.csv 
-```
-Where: *Identity* is the name of the content database, for example, DB_Name.
 
 If you want to reverse the migration process, type the following at the Windows PowerShell command prompt.
 
-```
-Convert-SPWebApplication -Identity $wa -From CLAIMS-TRUSTED-DEFAULT -To CLAIMS-WINDOWS -SourceSkipList $skipFile -database $database 
+```powershell
+$skipFile = "FileName.csv"
+$wa = Get-SPWebApplication -Identity "Name of web application"
+Convert-SPWebApplication -Identity $wa -From CLAIMS-TRUSTED-DEFAULT -To CLAIMS-WINDOWS -SourceSkipList $skipFile -Database $database 
 ```
 
 **NOTE**:   For more information, see [Get-SPContentDatabase](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/get-spcontentdatabase?view=sharepoint-ps), [Get-SPWebApplication](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/get-spwebapplication?view=sharepoint-ps), and [Convert-SPWebApplication](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/convert-spwebapplication?view=sharepoint-ps).
-
-
- 
-
