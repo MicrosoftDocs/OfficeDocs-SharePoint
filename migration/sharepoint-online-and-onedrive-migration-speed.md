@@ -21,7 +21,7 @@ ms.custom:
 description: "This article explains the factors that influence migration speed at each phase while using the SharePoint Online Migration API."
 ---
 
-# Best practices for improving SharePoint and OneDrive migration performance
+# General guidance for improving SharePoint and OneDrive migration performance
 
 This article explains the factors that influence performance when migrating content to SharePoint Online and OneDrive.
 
