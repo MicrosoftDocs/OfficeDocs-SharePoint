@@ -28,7 +28,7 @@ When you upgrade from SharePoint Server 2013 to SharePoint Server 2016, you must
   
 |||
 |:-----|:-----|
-|![123 steps](../media/mod_icon_howTo_numeric_M.png)|This is the second phase in the process to upgrade SharePoint Server 2013 data and sites to SharePoint Server 2016. The process includes the following phases that must be completed in order:  <br/> Create the SharePoint Server 2016 farm for a database attach upgradeCopy databases to the new farm for upgrade to SharePoint Server 2016  (this phase) Upgrade service applications to SharePoint Server 2016Upgrade content databases to SharePoint Server 2016For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server 2016](overview-of-the-upgrade-process.md).  <br/> |
+|![123 steps](../media/mod_icon_howTo_numeric_M.png)|This is the second phase in the process to upgrade SharePoint Server 2013 data and sites to SharePoint Server 2016. The process includes the following phases that must be completed in order:  <br/> Create the SharePoint Server 2016 farm for a database attach upgrade.  Copy databases to the new farm for upgrade to SharePoint Server 2016  (this phase) Upgrade service applications to SharePoint Server 2016.  Upgrade content databases to SharePoint Server 2016.  For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server 2016](overview-of-the-upgrade-process.md).  <br/> |
    
 ## Before you begin
 <a name="begin"> </a>
