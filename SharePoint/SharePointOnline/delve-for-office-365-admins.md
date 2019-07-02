@@ -45,12 +45,18 @@ If you want to receive new functionality in Delve before it's made available in 
   
 What users see in Delve is influenced by which release program you've chosen for your organization. See [My Office Delve looks different from what you describe](https://support.office.com/article/8fe977a0-cc37-4845-a75d-96994dffca5d) for an overview of the main differences. 
   
-## Control access to the Office Graph
+## Control access to Delve and features in other apps powered by Office Graph
 <a name="BKMK_DelveOnOff"> </a>
 
-You control access to the Office Graph from the SharePoint admin center. 
+You control access to Delve and related features powered by the Office Graph from the SharePoint admin center. 
   
-If you don't allow access to the Office Graph, you disable the functionality in Office 365 that is powered by the Office Graph, such as Delve. If you disable access to Delve, you also affect the relevance of the content displayed elsewhere in Office 365, for example on the SharePoint start page and the **Discover** view in OneDrive. See [What is the effect of allowing or not allowing access to the Office Graph?](delve-for-office-365-admins.md#BKMK_EffectOfficegraphOnOff) for more information. 
+By default, users in your organization can access Delve and related features within other apps. If you disable Delve, users will no longer see:
+- The Delve app tile in the app launcher
+- The "Suggested" list on the SharePoint start page
+- The "Discover" list in OneDrive, in the Outlook mobile app, and on the Microsoft Office Home page
+- Documents on other users' profile cards and pages
+
+ See [What is the effect of allowing or not allowing access to the Office Graph?](delve-for-office-365-admins.md#BKMK_EffectOfficegraphOnOff) for more information. 
   
 1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
@@ -63,11 +69,11 @@ If you don't allow access to the Office Graph, you disable the functionality in 
  
 4. At the bottom of the page, select **classic settings page**.
     
-5.  Under Office Graph, select one of the following:    
+5.  Under Delve (powered by Office Graph), select one of the following:  
     
-  - **Allow access to the Office Graph**
+  - **Enable Delve and related features**
     
-  - **Don't allow access to the Office Graph**
+  - **Disable Delve and related features**
     
 ## Introducing Delve in your organization
 <a name="BKMK_DelveIntroduce"> </a>
@@ -80,7 +86,7 @@ Here are some resources that you can use to get your organization started with D
     
  **Using Delve on a day-to-day basis**
   
-- You can point users to the Delve help articles. [What is Office Delve?](https://support.office.com/article/1315665a-c6af-4409-a28d-49f8916878ca) is a great starting point, and users may be particularly interested in the information in the articles [Are my documents safe in Office Delve?](https://support.office.com/article/f5f409a2-37ed-4452-8f61-681e5e1836f3), [Connect and collaborate in Office Delve](https://support.office.com/article/46f92806-b52c-4187-b60e-b3bf8d25f73e), [Connect and collaborate in Office Delve](https://support.office.com/article/46f92806-b52c-4187-b60e-b3bf8d25f73e) and [Store your documents where Office Delve can get to them](https://support.office.com/article/49a0db49-5e6c-4dda-816e-e11dd77de49d).
+- You can point users to the Delve help articles. [What is Office Delve?](https://support.office.com/article/1315665a-c6af-4409-a28d-49f8916878ca) is a great starting point, and users may be particularly interested in the information in the articles [Are my documents safe in Office Delve?](https://support.office.com/article/f5f409a2-37ed-4452-8f61-681e5e1836f3), [Connect and collaborate in Office Delve](https://support.office.com/article/46f92806-b52c-4187-b60e-b3bf8d25f73e) and [Store your documents where Office Delve can get to them](https://support.office.com/article/49a0db49-5e6c-4dda-816e-e11dd77de49d).
     
  **Data and geographic region**
   
@@ -276,22 +282,19 @@ To present the most relevant content in different contexts, for example in Delve
   
 For developers, the Office Graph insights and rich relationships are exposed through the Microsoft Graph, a single REST API endpoint ([https://graph.microsoft.com](https://graph.microsoft.com)) that exposes multiple APIs from Microsoft cloud services. For more information, see [Microsoft Graph](https://graph.microsoft.io/).
   
-### What is the effect of allowing or not allowing access to the Office Graph?
+### What is the effect of enabling or disabling Delve and related features?
 <a name="BKMK_EffectOfficegraphOnOff"> </a>
 
- What information users in your organization see in Delve depends on the release program your organization is in, and on whether or not you allow access to the Office Graph. 
-  
-#### Standard release program
+Delve is powered by the Office Graph. If Delve is enabled (default), users in your organization will have Delve in the Office 365 app launcher and they can use all the functionality in Delve. Clicking on a person in Delve will open that person's page. The person page contains user profile information such as contact information and org chart details, and also documents relating to the person. 
 
-If you allow access to the Office Graph, users in your organization will have Delve in the Office 365 app launcher and they can use all the functionality in Delve. Clicking on a person in Delve will open that person's page. The person page contains user profile information such as contact information and org chart details, and also documents relating to the person. 
-  
-If you don't allow access to the Office Graph, Delve will be removed from the Office 365 app launcher. When users visit a person's page, for example by clicking on a person in OneDrive for Business, that person's page will contain only user profile information. No documents will be shown. Users can still search for other people, but not for documents or boards.
-  
-#### Targeted release program
+If you choose to disable Delve and related features for your organization, Delve will be removed from the Office 365 app launcher for all users. When users visit a person's page, for example by clicking on a person in OneDrive for Business, that person's page will contain only user profile information. No documents will be shown. Users can still search for other people, but not for documents or boards. 
 
-If you opt in to the  *Targeted release*  program and allow access to the Office Graph, users in your organization will have earlier access to new Delve functionality. For an overview of the differences in what users see in Delve between targeted release and standard release, see [My Office Delve looks different from what you describe](https://support.office.com/article/8fe977a0-cc37-4845-a75d-96994dffca5d) . 
-  
-If you don't allow access to the Office Graph, Delve will be removed from the Office 365 app launcher. When users visit a person's page in Delve, no documents will be shown. 
+If Delve is enabled, users can also see similar features in other apps:
+- The "Suggested" list on the SharePoint start page
+- The "Discover" list in OneDrive, in the Outlook mobile app (if relevant), and on the Microsoft Office Home page
+- Documents on other users' profile cards
+
+These features are all powered by the Office Graph, and users will no longer see them if you choose to disable Delve and related features.
   
 ## Additional resources
 <a name="BKMK_DelveAdditionalResources"> </a>
