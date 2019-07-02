@@ -156,14 +156,14 @@ You may decide that your organization has specific business needs that require y
 ## User Onboarding
 Develop a plan to prepare your users for the upcoming change. Consideration factors to include in your plan: 
 - **Evangelize the move.** Underscore the benefits, the collaborative capabilities, and the reasons for making the move.
-- **End user training.**  Provide training to your users on the features in OneDrive.
+- **End user training.**  Provide training to your users on the features in SharePoint.
 - **Train your helpdesk.**  Before the cutover, train your helpdesk in key features and common user questions.
 - **Prepare for any possible downtime** the migration may incur.
   
  Develop a plan for sending communications to your user base, providing clear statements of timing, expectations and impact to the individual. Include:
 
 - The migration timeline and how it will impact them. Include any end user calls to action. 
-- Assure them that if they have content already in OneDrive, that their content is safe and won’t be overwritten. 
+- Assure them that if they have content already in SharePoint, that their content is safe and won’t be overwritten. 
 - Let them know whether individuals can opt-out of the migration process
 
 ### Onboarding related resources
