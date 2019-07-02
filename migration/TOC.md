@@ -17,7 +17,7 @@
 ## [Migrate to SharePoint Online using PowerShell](overview-SPMT-PS-cmdlets.md)
 ## [Migrate to SharePoint Online using the Azure Data Box](how-to-migrate-file-share-content-to-SPO-using-AzureDataBox.md)
 ## Migration performance
-### [Improve SharePoint and OneDrive migration performance](sharepoint-online-and-onedrive-migration-speed.md)
+### [General migration performance guidance](sharepoint-online-and-onedrive-migration-speed.md)
 ### [Migration performance guidance for ISVs](migration-performance-isv-guide.md)
 ## Migration Scenario Guides
 ### [Box to OneDrive Migration Guide](box-to-onedrive-and-sharepoint-migration-guide.md)
