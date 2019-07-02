@@ -53,25 +53,6 @@ description: SharePoint documentation
                                 </a>
                             </li>                
                             <li>
-                                <a href="/sharepoint/hybrid/hybrid">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
-                                                        <img src="/office/media/hub-tiles/SharePoint-Hybrid-400x140.svg" alt="Server and cloud symbols with sync arrows between them" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>SharePoint Hybrid</h3>
-                                                    <p>Learn about solutions for the SharePoint hybrid environment, and how to connect SharePoint Server and Office 365.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>                
-                            <li>
                                 <a href="/sharepoint/dev/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
@@ -91,6 +72,24 @@ description: SharePoint documentation
                                 </a>
                             </li>                            
                             <li>
+                                <a href="/sharepoint/hybrid/hybrid">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="/office/media/hub-tiles/SharePoint-Hybrid-400x140.svg" alt="Server and cloud symbols with sync arrows between them" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>SharePoint Hybrid</h3>
+                                                    <p>Learn about solutions for the SharePoint hybrid environment, and how to connect SharePoint Server and Office 365.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>   <li>
                                 <a href="/powershell/sharepoint/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
