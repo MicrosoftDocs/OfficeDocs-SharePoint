@@ -1,9 +1,8 @@
 ---
-title: "Deploying SharePoint Server Virtual Machines"
+title: "Deploying SharePoint Server on virtual machines"
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
-ms.date: 
 ms.audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -11,8 +10,6 @@ localization_priority: Normal
 ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
-ms.assetid: 
- 
 description: "Learn about deploying and managing virtual machines for SharePoint Server."
 ---
 
@@ -41,7 +38,7 @@ SharePoint Server also does not support dynamic/ballooning memory and we recomme
 
 SharePoint Server supports virtual machine templates. Templates can be created by installing SharePoint Server prerequisites, SharePoint Server, and any applicable public updates. As long as the Configuration Wizard has not been run, the virtual machine can be saved as a template following your virtualization software guidance.
 
-Do not create a template from a SharePoint Server that is already joined to a farm.
+Do not create a template from a virtual machine running SharePoint Server that is already joined to a farm.
 
 ## See also
 <a name="Section3"> </a>
