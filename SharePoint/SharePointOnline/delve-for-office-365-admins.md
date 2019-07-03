@@ -45,12 +45,10 @@ If you want to receive new functionality in Delve before it's made available in 
   
 What users see in Delve is influenced by which release program you've chosen for your organization. See [My Office Delve looks different from what you describe](https://support.office.com/article/8fe977a0-cc37-4845-a75d-96994dffca5d) for an overview of the main differences. 
   
-## Control access to Delve and related features in other apps
+## Control access to Delve and related features
 <a name="BKMK_DelveOnOff"> </a>
 
-You control access to Delve from the SharePoint admin center. 
-  
-By default, users in your organization have access to Delve. They also have access to certain features in other apps that are powered by the Office Graph, such as the "Suggested" list on the SharePoint start page, and the "Discover" list in OneDrive. When you enable or disable Delve, these other features are also affected. 
+You control access to Delve from the SharePoint admin center. By default, users in your organization have access to Delve. They also have access to certain features in other apps that are powered by the Office Graph, such as the "Suggested" list on the SharePoint start page, and the "Discover" list in OneDrive. When you enable or disable Delve, these other features are also affected. 
 
 If you disable Delve, users will no longer see:
 - The Delve app tile in the app launcher
@@ -58,7 +56,7 @@ If you disable Delve, users will no longer see:
 - The "Discover" list in OneDrive, in the Outlook mobile app, and on the Microsoft Office Home page
 - Documents on other users' profile cards and pages
 
- See [What is the effect of allowing or not allowing access to the Office Graph?](delve-for-office-365-admins.md#BKMK_EffectOfficegraphOnOff) for more information. 
+ See [What is the effect of enabling or disabling Delve and related features?](delve-for-office-365-admins.md#BKMK_EffectOfficegraphOnOff) for more information. 
   
 1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
@@ -71,7 +69,7 @@ If you disable Delve, users will no longer see:
  
 4. At the bottom of the page, select **classic settings page**.
     
-5.  Under Delve (powered by Office Graph), select one of the following:  
+5.  Under **Delve (powered by Office Graph)**, select one of the following:  
     
   - **Enable Delve and related features**
     
@@ -120,13 +118,13 @@ There are a few things you should check if one or more users in your organizatio
   
  **Solution(s)**
   
-- [Check that you allow your organization to access the Office Graph](#BKMK_OfficeGraphAccess).
+- [Check that you allow your organization to access Delve](#BKMK_OfficeGraphAccess).
     
 - [Check that you're using an Office 365 plan that supports Delve](#BKMK_CheckPlan).
     
 - [Check that you've assigned the correct user licenses](#BKMK_CheckLicense). 
     
- **Check that you allow your organization to access the Office Graph**
+ **Check that you allow your organization to access Delve**
 <a name="#BKMK_OfficeGraphAccess"></a>
   
 1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
@@ -140,10 +138,10 @@ There are a few things you should check if one or more users in your organizatio
  
 4. At the bottom of the page, select **classic settings page**.
 
-5. Under **Office Graph**, make sure that you've selected **Allow access to the Office Graph**. 
+5. Under **Delve (powered by Office Graph)**, make sure that you've selected **Enable Delve and related features**. 
     
     > [!NOTE]
-    > If you have a SharePoint Online standalone service (SharePoint Online Plan 1 or SharePoint Online Plan 2) you'll see the Office Graph setting in the SharePoint admin center. However, users won't be able to use Delve or see Delve in the app launcher, because Delve is not available for standalone services yet. 
+    > If you have a SharePoint Online standalone service (SharePoint Online Plan 1 or SharePoint Online Plan 2) you'll see the Delve setting in the SharePoint admin center. However, users won't be able to use Delve or see Delve in the app launcher, because Delve is not available for standalone services yet. 
   
  **Check that you're using an Office 365 plan that supports Delve**
 <a name="#BKMK_CheckPlan"></a>
@@ -289,20 +287,13 @@ For developers, the Office Graph insights and rich relationships are exposed thr
 
 Delve is powered by the Office Graph. If Delve is enabled, users in your organization will have Delve in the Office 365 app launcher and they can use all the functionality in Delve. Clicking on a person in Delve will open that person's page. The person page contains user profile information such as contact information and org chart details, and also documents relating to the person. 
 
-If Delve is enabled, users also have access to related features in other apps that are powered by the Office Graph:
+If you choose to disable Delve for your organization, Delve will be removed from the Office 365 app launcher for all users. When users visit a person's page, for example by clicking on a person in OneDrive for Business, that person's page will contain only user profile information. No documents will be shown. Users can still search for other people, but not for documents or boards. 
+
+If Delve is enabled, users also have access to related features in other apps that are powered by the Office Graph. If you disable Delve, users can no longer see these features:
 
 - The "Suggested" list on the SharePoint start page
 - The "Discover" list in OneDrive, in the Outlook mobile app (if relevant), and on the Microsoft Office Home page
 - Documents on other users' profile cards
-
-If you choose to disable Delve for your organization, Delve will be removed from the Office 365 app launcher for all users. When users visit a person's page, for example by clicking on a person in OneDrive for Business, that person's page will contain only user profile information. No documents will be shown. Users can still search for other people, but not for documents or boards. 
-
-If you disable Delve, users can also no longer see the other features powered by the Office Graph, as described above.
-
-
-
-
-
   
 ## Additional resources
 <a name="BKMK_DelveAdditionalResources"> </a>
