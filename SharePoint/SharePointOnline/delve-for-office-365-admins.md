@@ -294,6 +294,15 @@ If Delve is enabled, users also have access to related features in other apps th
 - The "Suggested" list on the SharePoint start page
 - The "Discover" list in OneDrive and on the Microsoft Office Home page
 - Documents on other users' profile cards and profile pages
+
+If you disable Delve, users will not have access to the following API's:
+
+- **Trending Insight API** (trending documents for all users) 
+- **Used Insight API** (what documents other users have viewed or modified) 
+
+**NOTE:** Office Graph and Microsoft Graph are not the same. Disabling Delve does not disable **Microsoft Graph**. For more information about Microsoft Graph, see [Overview of Microsoft Graph](https://docs.microsoft.com/en-us/graph/overview)
+
+
   
 ## Additional resources
 <a name="BKMK_DelveAdditionalResources"> </a>
