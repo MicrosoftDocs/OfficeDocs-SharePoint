@@ -55,6 +55,12 @@ Some SharePoint service applications have specific instructions for their creati
 |State Service  <br/> |[Manage the State Service](/previous-versions/office/sharepoint-server-2010/ee704548(v=office.14)) <br/> |
 |Visio Graphics Service  <br/> |[Visio Graphics Service administration in SharePoint Server 2013](/previous-versions/office/sharepoint-server-2010/ee524059(v=office.14)) <br/> |
 |User Profile Service  <br/> |[Administer the User Profile service in SharePoint Server](user-profile-service-administration.md) <br/> |
+|Excel Service <br/> |[Configure Excel Services (SharePoint Server 2013)](configure-excel-services.md) <br/> |
+|Subscription Settings and App Management service <br/> |[Configure the Subscription Settings and App Management service applications](configure-an-environment-for-apps-for-sharepoint.md) <br/> |
+|Business Data Connectivity service <br/> |[Configure a Business Data Connectivity service application in SharePoint Server](configure-a-business-data-connectivity-service-application.md) <br/> |
+|Machine Translation service <br/> |[Turn on automated document translation in SharePoint Server](turn-on-automated-document-translation.md) <br/> |
+|Word Automation Service <br/> |[Configuring Word Automation Services](https://docs.microsoft.com/previous-versions/office/developer/sharepoint-2010/ee557330(v=office.14)) <br/> |
+|PowerPoint Automation Service <br/> |[PowerPoint Automation Services in SharePoint](powerpoint-automation-services-in-sharepoint.md) <br/> |
    
 ## See also
 

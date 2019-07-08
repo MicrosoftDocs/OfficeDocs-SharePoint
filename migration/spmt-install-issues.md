@@ -41,7 +41,7 @@ If you still are experiencing unexplained errors, try downloading the SPMT tool 
  ![SPMT Properties](media/spmtzip.png)
 </br></br>
 4. Open the zip file and extract all files.
-5. Run the build.application file.
+5. Run the microsoft.sharepoint.migrationtool.advancedapp.exe file.
 
 ### **Install errors**
 
@@ -88,7 +88,6 @@ The following table lists the required endpoints for using the SharePoint Migrat
 |:-----|
 |https://secure.aadcdn.microsoftonline-p.com|</br>
 |https://login.microsoftonline.com|</br>
-|https://login.live.com|</br>
 |https://api.office.com|</br>
 |https://graph.windows.net|</br>
 |https://*.queue.core.windows.net|</br>
