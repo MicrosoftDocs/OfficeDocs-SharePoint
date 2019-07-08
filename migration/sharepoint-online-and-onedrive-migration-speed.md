@@ -92,19 +92,22 @@ After the migration is completed, verify that your content has been successfully
 *Question:* My migration is going so slow or I am being throttled. What can I do?</br>
 *Answer:*  Check that you have configured your migration settings properly. Turn off any software that you do not need to use during migration. For example, disable any file synchronization program or antivirus program on the migrated content. This will help reduce throttle and improve performance.
 
-*Question:* I continually getting throttled while I am attempting to migrate. Can Microsoft turn off the throttle to help me with migration?</br>
+*Question:* I'm continually getting throttled while I am attempting to migrate. Can Microsoft turn off the throttle to help me with migration?</br>
 *Answer:* Unfortunately, we are not able to disable throttle. Throttle is built into our server to protect the database from going down. If you are being throttled with a 429 error, it's an indication that your migration tool is overly aggressive and is over its allocated quota.  Please try to migrate during off-peak hours or reduce the number of VMs you are using.
 
-If after several days you are still experiencing excessive throttling, please open a Microsoft support ticket.
-Include the following in your support ticket:
+*Question:* I tried to follow the best practice, but I have been getting an *Http 503* error (“Server Too Busy”) for days and it’s blocking me from doing migration. What do I do? 
 
-- How often are you seeing the throttle (e.g. throttle count/hour)
-- How much data were you being able to migrate (e.g., 2MB per hour or per day)
-- The name of the third party app are you running
-- The total size of the content you wish to migrate
-- Your migration schedule
-- Your Company name and Tenant URL
-
+Answer: If you are experiencing a large amount of HTTP 503s for days that are blocking your migration, please follow the steps below in creating support ticket. 
+1.	Navigate to the Microsoft 365 Admin homepage. On the left navigation pane, click **Support > New service Request**. 
+2.  In the lower right hand corner of the screen click **Need Help?** A **Contact Support** pane will display.
+3.  For the title, enter "Migration Throttling with 503". 
+4.	Include all of the following on the support ticket:  
+•	Your company name and Tenant URL 
+•	How much left to migration (x TB?) 
+•	Your migration start date and end date 
+•	Describe where you are migrating your content from, such as SharePoint Server, Box, GDrive, File shares, etc. 
+•	Estimate number of throttling (e.g. x throttle per hour) and when (specific time and date) did the throttling happened 
+•	Which migration tool you are using (e.g. SPMT, Sharegate, Mover, etc.)
 
 
 *Question:* How much can I migrate per day?</br>
@@ -113,9 +116,10 @@ Include the following in your support ticket:
 *Question:* I have a very big migration (> 100 TB) and I would like some help, who should I contact?</br>
 *Answer:* For larger than a 100TB migration, please submit a support request with Microsoft indicating that you are doing a large migration (>100TB).
 Follow these steps:
-1. Click on **Need help?**
-2. For the title, enter **"SharePoint Migration over 100TB"**.
-3. Include all of the following on the support ticket:
+1.	Navigate to the Microsoft 365 Admin homepage. On the left navigation pane, click **Support > New service Request**. 
+2.  In the lower right hand corner of the screen click **Need Help?** A **Contact Support** pane displays.
+3. For the title, enter **"SharePoint Migration over 100TB"**.
+4. Include all of the following on the support ticket:
     - Your company name and Tenant URL
     - Estimated size of your migration
     - An estimate of when you would like to start and complete your migration
