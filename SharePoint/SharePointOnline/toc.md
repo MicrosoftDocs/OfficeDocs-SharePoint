@@ -2,7 +2,7 @@
 # [SharePoint Online](sharepoint-online.md)
 ## [Get started]()
 ### [Introduction](introduction.md)
-### [Planning guide](planning-guide.md)
+### [File collaboration](deploy-file-collaboration.md)
 ### [SharePoint admin role](sharepoint-admin-role.md)
 ### [Create sites](create-site-collection.md)
 ### [Delete sites](delete-site-collection.md)
