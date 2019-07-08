@@ -329,7 +329,7 @@ Enabling this policy sets the following registry key:
  
 [HKLM\SOFTWARE\Policies\Microsoft\OneDrive] ﻿"GPOSetUpdateRing"
 
-Set the value 4 for Insider, 5 for Production, or 0 for Enterprise
+Set the value 4 for Insider, 5 for Production, or 0 for Enterprise. Note that when you configure this setting to 5 for Production, or 0 for Enterprise, the "Get OneDrive Insider preview updates before release" checkbox will not appear on the client Settings > About tab.
   
 For more info on the builds currently available in each ring, see the [release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0?). For more info about the update rings and how the sync client checks for updates, see [The OneDrive sync client update process](sync-client-update-process.md).
 
