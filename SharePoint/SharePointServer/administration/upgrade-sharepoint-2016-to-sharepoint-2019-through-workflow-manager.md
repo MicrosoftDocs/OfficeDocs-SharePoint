@@ -30,7 +30,7 @@ SharePoint stores the workflow history and workflow task information for SharePo
 
 ### Prerequisites
 
-The following prrequisites must be done installed this upgrade:
+The following prequisites must be done installed this upgrade:
 
 - Install the latest cumulative update for Workflow Manager by using Web Platform Installer (Web PI).
 
@@ -46,7 +46,7 @@ Use the following steps to register Workflow Manager with SharePoint Server 2019
 
 1. In the SharePoint 2016 farm, on the Central Administration website click **Application Management** and click **Manage Service Applications**, and then delete **Workflow Service Applidcation Proxy**.
 
-2. In the SharePoint Server 2016 farm, run the following Microsoft PowerShell cmdlet to pair SharePoint 2016 together with the same Workflow Manager installation:
+2. In the SharePoint Server 2019 farm, run the following Microsoft PowerShell cmdlet to pair SharePoint 2016 together with the same Workflow Manager installation:
 
 ```powershell
    Register-SPWorkflowService -SPSite <SharePoint site URL> -
