@@ -1,8 +1,8 @@
 ---
 title: "File collaboration in SharePoint with Microsoft 365"
 ms.reviewer: 
-ms.author: kaarins
-author: kaarins
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 audience: Admin
 ms.topic: article
@@ -145,7 +145,7 @@ When users share files and folders, a shareable link is created which has permis
 
   - *People in your organization* links work for only people inside your Office 365 organization. (They do not work for guests in the directory, only members).  
       
-    Like an *anyone* link, a *people in my organization* link is a transferrable, secret key. Unlike an *anyone* link, these links only work for people inside your Office 365 organization. When somebody opens a *people in my organization* link, they need to be authenticated as a member in your directory. If they're not currently signed-in, they'll be prompted to sign-in.  
+    Like an *anyone* link, a *people in my organization* link is a transferrable, revocable secret key. Unlike an *anyone* link, these links only work for people inside your Office 365 organization. When somebody opens a *people in my organization* link, they need to be authenticated as a member in your directory. If they're not currently signed-in, they'll be prompted to sign-in.  
 
   - *Specific people* links only work for the people that users specify when they share the item.  
       
@@ -311,7 +311,7 @@ For information on how to migrate content with the SharePoint Migration Tool, se
 
 ## Related topics
 
-[Welcome to Teams](https://docs.microsoft.com/microsoftteams/teams-overview). 
+[Welcome to Teams](https://docs.microsoft.com/microsoftteams/teams-overview)
 
 [Understanding how Microsoft Information Protection capabilities work together](https://youtu.be/FcOMnAL_LKA)
 
