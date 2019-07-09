@@ -98,16 +98,24 @@ After the migration is completed, verify that your content has been successfully
 *Question:* I tried to follow the best practice, but I have been getting an *Http 503* error (“Server Too Busy”) for days and it’s blocking me from doing migration. What do I do? 
 
 Answer: If you are experiencing a large amount of HTTP 503s for days that are blocking your migration, please follow the steps below in creating support ticket. 
-1.	Navigate to the Microsoft 365 Admin homepage. On the left navigation pane, click **Support > New service Request**. 
-2.  In the lower right hand corner of the screen click **Need Help?** A **Contact Support** pane will display.
-3.  For the title, enter "Migration Throttling with 503". 
-4.	Include all of the following on the support ticket:  
-•	Your company name and Tenant URL 
-•	How much left to migration (x TB?) 
-•	Your migration start date and end date 
-•	Describe where you are migrating your content from, such as SharePoint Server, Box, GDrive, File shares, etc. 
-•	Estimate number of throttling (e.g. x throttle per hour) and when (specific time and date) did the throttling happened 
-•	Which migration tool you are using (e.g. SPMT, Sharegate, Mover, etc.)
+1. Navigate to https://admin.microsoft.com
+2. Ensure you are using the new admin center preview. 
+
+>[!Note]
+>If you are using the old M365 admin center you can skip step 8 as the “Description” field will not exist.
+
+ 
+3. On the left navigation pane click **Support** and then **New Service Request**.  This will activate the “Need Help?” pane on the right-hand side of your screen.
+4. In the “Briefly describe your issue” area, enter "SharePoint Migration Throttling with 503".
+5. Click **Contact Support**.
+6. Under “Description” enter “SharePoint Migration Throttling with 503”.  Fill out the remaining information and click **Contact me**.
+8.	Include all of the following on the support ticket:  
+•	Your company name and Tenant URL</br>
+•	How much left to migration (x TB?) </br>
+•	Your migration start date and end date </br>
+•	Describe where you are migrating your content from, such as SharePoint Server, Box, GDrive, File shares, etc. </br>
+•	Estimate number of throttling (e.g. x throttle per hour) and when (specific time and date) the throttling happened </br>
+•	Provide the name of the migration tool you are using (e.g. SPMT, Sharegate, Mover, etc.)</br>
 
 
 *Question:* How much can I migrate per day?</br>
