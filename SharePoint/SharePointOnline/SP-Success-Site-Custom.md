@@ -14,18 +14,68 @@ search.appverid:
 description: "Customizing a SharePoint Success Site solution."
 ---
 # Customizing a SharePoint Success Site
+Introducing the SharePoint Success Site, a new solution from Microsoft designed to helps end users improve the quality and impact of the communication and team sites they build for internal audiences, while helping ensure they follow your organization’s governance site usage guidelines. With the SharePoint Success Site, you can:
 
-## Overview 
-The following sections of the SharePoint Success Site (SharePoint Success Site) should be customized to meet your requirements, prior to rolling out to end users: 
+- Tailor the SharePoint Success Site content for your environment
+- Hide or show content to reflect the services or features supported in your organization
+- Keep your content and users current with an up-to-date feed of SharePoint success learning content from Microsoft
+- Build custom playlists and categories crafted specifically for your user's needs
 
-- SharePoint site template 
+![Success site](media/sp-success-plan-site.png)
 
-•	Up-to-date content feed
-•	Custom playlists
-•	Boilerplate SharePoint usage policies
-•	Success stories
-•	Portal team
+## How does the SharePoint Success Site work? 
+
+The SharePoint Success Site consists of three parts:
+1. Live feed of content from a Microsoft online catalog
+2. SharePoint communication site
+3. SharePoint web part called Microsoft 365 learning pathways
+<Matt to provide graphic in future based on M365LP>
+
+
+## Requirements and Permissions
+
+Before getting started with this guide, ensure that the SharePoint Success Site has been set up by your SharePoint Tenant Administrator. If you’re not sure if it's been set up, contact your SharePoint tenant administrator to verify that the SharePoint Success Site has been provisioned. Also be sure to get the URL of the SharePoint Success Site. If you are the Tenant Administrator and learning pathways has not been provisioned, see Provision SharePoint Success Site.
+
+### Permissions to provision the SharePoint Success Site
+
+- Tenant Administrator, also known as Office 365 Global Administrator
+- SharePoint Site Collection Administrator with Owner permissions on the site
+
+### Permissions to use SharePoint Success Site Administration features to be able to customize site
+
+- Site Collection Administrator
+- SharePoint Owner or Member permissions
+
+
+### Permissions to use the SharePoint Success Site as a user
+•	Office 365 user permissions/SharePoint Site Visitor permissions or higher
+
+## Get started with customization
+
+Once you've ensured you have the necessary permissions to customize the site and web part, it's time to get started with the customization process.
+
+To get started, see Go to the SharePoint Success Site.
+
+
+### Go to the SharePoint Success Site
+The SharePoint Success Site is hosted in your Office 365 tenant, so you'll need to sign in to Office 365 to get to the site. If you haven’t already signed into Office 365, sign in now.
+
+#### Sign in
+
+1.	Open your Web browser and navigate to office.com or your organization’s sign-in location.
+2.	Sign in with your username and password.
+3.	Navigate to the location of the site using the URL supplied by your tenant administrator or select SharePoint from the Office 365 Home page, and then select the SharePoint Success Site.
+4.	Review the Plan your site, Create your site, Share and manage your site sections to see the full suite of Microsoft curated and maintained training playlist available with the SharePoint Success Site.
+5.	Kick the tires a bit. Click a few subcategories, and then click a few playlists to get a feel for how the SharePoint Success Site content is organized.
+
+## Customize the site
+The following sections of the SharePoint Success Site can be customized to meet your requirements, prior to rolling out to end users:
+•	SharePoint site template
+•	Site usage guidelines 
+•	Success stories 
+•	Intranet team 
 •	Champions community
+
 
 ## SharePoint Site Template
 
