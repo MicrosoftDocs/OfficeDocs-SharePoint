@@ -81,9 +81,9 @@ The API is made up of five input parameters and one output structure field.
 The full path URL  lets your migration tool to specify the root URL path of the SharePoint list, files/folder document library to be read. By default, the server-side code will read and return all the metadata of files, folders and root objects including subfolders and their children content.
 
 *Example:*
-This document library URL, https://www.contoso.com/my-resource-document, will be read back for metadata of any files or folders that live under the root URL.
+This document library URL, https://<spam><spam>www.contoso.com/my-resource-document<spam>, will be read back for metadata of any files or folders that live under the root URL.
 
-https://www.contoso.com/Shared%20Documents/FolderA/,  will be read back for children metadata in FolderA.
+<spam><spam>https://www.contoso.com/Shared%20Documents/FolderA/<spam><spam>, will be read back for children metadata in FolderA.
 
 #### readOptions Flag
 The read asynchronous function will include the SPAsyncReadOptions structure which covers the optional flags to allow the user to specify version and security setting on the site level more is described below.
@@ -198,29 +198,29 @@ The following provides high level guidelines for implementing the asynchronous m
 Suggestion:
 
 1. Issue CreateSPAsyncReadJob:</br>
-    a. URL = root URL (e.g. www.contoso.com/my-resource-document)</br>
+    a. URL = root URL (e.g. <spam><spam>www.contoso.com/my-resource-document<spam><spam>)</br>
     b. Optional Flag: IncludeDirectDescendantsOnly(true)
 
 2. For each of the sub folders, issues createSPAsyncReadJob , for example if there are sub folder A and B</br>
-    a. Issue CreateSPAsyncReadJob with URL = root URL (e.g. www.contoso.com/my-resource-document/a) </br>
-    b. Issue CreateSPAsyncReadJob with URL = root URL (e.g. www.contoso.com/my-resource-document/b) 
+    a. Issue CreateSPAsyncReadJob with URL = root URL (e.g. <spam><spam>www.contoso.com/my-resource-document/a<spam><spam>) </br>
+    b. Issue CreateSPAsyncReadJob with URL = root URL (e.g. <spam><spam>www.contoso.com/my-resource-document/b<spam><spam>) 
 
 
 #### Scenario: Tenant to tenant or large Sharepoint Migration
  
 1. Issue CreateSPAsyncReadJob: </br>
-    a. URL = root URL (e.g. www.contoso.com/my-resource-item)</br>
+    a. URL = root URL (e.g. <spam><spam>www.contoso.com/my-resource-item<spam><spam>)</br>
     b. Optional Flag: IncludeDirectDescendantsOnly(true) , IncludeFullMetadata(true)
 
 
 #### Scenario: Incremental Migration of FileShare for a sub folder
 
 1. Issue CreateSPAsyncReadJob:</br>
-    a. URL = root URL (e.g. www.contoso.com/my-resource-document/a)</br>
+    a. URL = root URL (e.g. <spam><spam>www.contoso.com/my-resource-document/a<spam><spam>)</br>
     b. Remembered the CurrentChangeToken 
     
 2. After some time, the software wishes to perform incremental migration. Issue CreateSPAsyncReadJob with following term:</br>
-    a. URL = root URL (e.g. www.contoso.com/my-resource-document/a)</br>
+    a. URL = root URL (e.g. <spam><spam>www.contoso.com/my-resource-document/a<spam><spam>)</br>
     b. Optional Flag: StartChangeToken(CurrentChangeToken)
 
 
