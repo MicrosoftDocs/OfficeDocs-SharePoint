@@ -25,7 +25,7 @@ description: "Migration Asynchronous Metadata Read API"
 ## Overview
 The goal of the new Migration Asynchronous Metadata Read API is to reduce the number of CSOM calls, reduce throttling, and improve overall migration performance. Instead of calling thousands of CSOM calls to query information from SPO, the new Migration Asynchronous Metadata Read can return the same amount of data in a single read. 
  
-When the new Migration Asynchronous Read API performs a read operation of a provided URL, the Microsoft backend software queries the database with the specified URL. It’s subdirectories aggregates all the information into a designated manifest. The ISV can read back from the manifest and parse the metadata without sending thousands of CSOM calls individually.
+When the new Migration Asynchronous Read API performs a read operation of a provided URL, the Microsoft backend software queries the database with the specified URL. It’s subdirectories aggregate all the information into a designated manifest. The ISV can read back from the manifest and parse the metadata without sending thousands of CSOM calls individually.
 
 This document targets ISVs and any third-party vendors/developers who are developing and maintaining a migration tool.
 
