@@ -50,10 +50,10 @@ The migration asynchronous metadata read API aims to reduce the CSOM calls in ar
 
 Key supported features:
 
-1. Ability to read up to 1 million items with a single API call. More information please refer to Limitation section below 
-2. Incremental migration feature support returning of item changed since last query with changeToken feature
-3. Ability to include rich set of metadata per item 
-4. Ability to return only top-level structure without subfolders or children.
+- Ability to read up to 1 million items with a single API call. More information please refer to Limitation section below 
+- Incremental migration feature support returning of item changed since last query with changeToken feature
+- Ability to include rich set of metadata per item 
+- Ability to return only top-level structure without subfolders or children.
 
 More detailed information about the features and the API description is covered in the section below.
 
@@ -138,8 +138,7 @@ The valid URL including SAS token for accessing the Azure Blob Storage Container
 #### azureQueueReportUri
 The valid URL including SAS token for accessing the user provided Azure Queue used for returning notifications of asynchronous metadata read job progress. This value can be null if no notification queue will be used during import. If this value is not null and proper access is granted in the SAS token in this URI, it will be used for real time status update. The SAS token must have been created with only Add, Read and Update permissions or the migration job will be unable to add events to the queue. The required permissions are as follows in the Azure Storage API:
 
-Copy
-(SharedAccessQueuePermissions.Add | SharedAccessQueuePermissions.Read | SharedAccessQueuePermissions.Update)
+    (SharedAccessQueuePermissions.Add | SharedAccessQueuePermissions.Read | SharedAccessQueuePermissions.Update)
 
 
 Once accepted, the job ID will be written to the notification queue if it was provided and access is valid. The notification queue can be used for multiple migration jobs at the same time, as each job will identify itself in values sent back to the notification queue.
