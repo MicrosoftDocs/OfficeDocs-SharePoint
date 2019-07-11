@@ -124,8 +124,6 @@ During incremental migration, instead of query everything again, by populating S
 Below is a sample of how the *startChangeToken* might work. This example uses the optional feature setting for initial call and the parameter setting for incremental passes.  
 
 ![AMR flow](media/async-read-api-flow.png)
- 
-### Corner Cases for ChangeToken
 
 #### Invalid Value
 
@@ -136,7 +134,6 @@ If an invalid value is detected, other than NULL, an error will be generated, an
 This is an optional parameter. If it is specified, the AES256CBCKey is used to encrypt output files and queue messages. Otherwise, there is no encryption. 
 
 For more information, see [EncryptionOption Class](https://docs.microsoft.com/en-us/dotnet/api/microsoft.sharepoint.client.encryptionoption).
-
 
 
 #### azureContainerManifestUri
