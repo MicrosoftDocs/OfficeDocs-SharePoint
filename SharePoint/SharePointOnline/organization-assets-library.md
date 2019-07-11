@@ -49,7 +49,7 @@ Example: `Add-SPOOrgAssetsLibrary -LibraryURL https://contoso.sharepoint.com/sit
 
 
 > [!NOTE]
-> Adding an organization assets library will enable a content delivery network (CDN) for your organization to provide fast and reliable performance for shared assets. You'll be prompted to enable CDN for each organization asset library you add. [More info about CDNs](/office365/enterprise/content-delivery-networks#is-my-data-safe)
+> Adding an organization assets library will enable a content delivery network (CDN) for your organization to provide fast and reliable performance for shared assets. You'll be prompted to enable CDN for each organization asset library you add. [More info about CDNs](/office365/enterprise/content-delivery-networks)
 
  
 ## Related commands 
