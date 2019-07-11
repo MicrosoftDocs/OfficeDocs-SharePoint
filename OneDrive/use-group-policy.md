@@ -34,7 +34,7 @@ This article is for IT admins who manage the new OneDrive sync client in a Windo
  
 ## Manage OneDrive using Group Policy
 
-1. Install the OneDrive sync client on a PC running Windows 10. (To see which builds are releasing and download builds, go to the [release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0?).) Installing the sync client downloads the .adml and .admx files.
+1. Install the OneDrive sync client for Windows. (To see which builds are releasing and download builds, go to the [release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0?).) Installing the sync client downloads the .adml and .admx files.
     
 2. Browse to %localappdata%\Microsoft\OneDrive\BuildNumber\adm\, to the subfolder for your language as necessary. 
     
@@ -169,7 +169,8 @@ This setting will NOT work if you have [Allow syncing OneDrive accounts for only
 
 This setting lets you convert synced SharePoint files to online-only files when you enable OneDrive Files On-Demand. If you have many PCs syncing the same team site, enabling this setting helps you minimize network traffic and local storage usage.
   
-If you enable this setting, files in currently syncing team sites will be changed to online-only files by default. Files later added or updated in the team site will also be downloaded as online-only files. 
+If you enable this setting, files in currently syncing team sites will be changed to online-only files by default. Files later added or updated in the team site will also be downloaded as online-only files. To use this setting, the computer must be running Windows 10 Fall Creators Update (version 1709) or later, and OneDrive Files On-Demand must be enabled.
+This feature is not enabled for on-premises SharePoint sites. 
 
 Enabling this policy sets the following registry key value to 1.
   
@@ -328,7 +329,7 @@ Enabling this policy sets the following registry key:
  
 [HKLM\SOFTWARE\Policies\Microsoft\OneDrive] ﻿"GPOSetUpdateRing"
 
-Set the value 4 for Insider, 5 for Production, or 0 for Enterprise
+Set the value 4 for Insider, 5 for Production, or 0 for Enterprise. Note that when you configure this setting to 5 for Production, or 0 for Enterprise, the "Get OneDrive Insider preview updates before release" checkbox will not appear on the client Settings > About tab.
   
 For more info on the builds currently available in each ring, see the [release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0?). For more info about the update rings and how the sync client checks for updates, see [The OneDrive sync client update process](sync-client-update-process.md).
 

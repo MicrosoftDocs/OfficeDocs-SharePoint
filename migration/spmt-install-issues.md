@@ -41,7 +41,7 @@ If you still are experiencing unexplained errors, try downloading the SPMT tool 
  ![SPMT Properties](media/spmtzip.png)
 </br></br>
 4. Open the zip file and extract all files.
-5. Run the build.application file.
+5. Run the microsoft.sharepoint.migrationtool.advancedapp.exe file.
 
 ### **Install errors**
 

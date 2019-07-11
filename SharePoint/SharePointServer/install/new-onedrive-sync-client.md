@@ -1,5 +1,5 @@
 ---
-title: "Configure syncing with the new OneDrive sync client for Sharepoint 2019"
+title: "Configure syncing with the new OneDrive sync client for SharePoint 2019"
 ms.reviewer: 
 ms.author: kaarins
 author: kaarins
@@ -33,9 +33,12 @@ If your users are already syncing document libraries with the previous OneDrive 
   
 ## Configure OneDrive for SharePoint Server 2019
 
-To set up OneDrive with SharePoint Server 2019, you can either use a Group Policy or set the registry keys directly. 
+To set up OneDrive with SharePoint Server 2019, you can either use Group Policy or set the registry keys directly. 
 
-### Using a Group Policy
+> [!NOTE]
+> For settings that require a tenant ID, you can use **OP1** if you sync a single domain. Do not use this if you sync multiple domains. <br>The Known Folder Move settings don't work for SharePoint Server.
+
+### Using Group Policy
 
 Configure the following two Group Policy objects to configure OneDrive to be used with SharePoint 2019:
   

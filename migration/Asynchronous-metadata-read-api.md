@@ -20,14 +20,15 @@ description: "Migration Asynchronous Metadata Read API"
 > [!Important]
 >This is a preliminary beta trial and not a full production release, hence not all features are tested and verified. Features are subject to change without notice.
 
- 
+
 
 ## Overview
-The goal of the new Migration Asynchronous Metadata Read API is to reduce the number of CSOM calls by 50% or more, reduce throttling, reduce the cost to the database, and improve overall migration performance. 
-The new Migration Asynchronous Read API lets your tools perform a read operation of a provided URL. The Microsoft backend software then queries the database with the specified URL and its subdirectories aggregates all the information into a designated manifest. The ISV can read back from the manifest and parse the metadata without sending thousands of CSOM calls individually.
+The goal of the new Migration Asynchronous Metadata Read API is to reduce the number of CSOM calls, reduce throttling, and improve overall migration performance. Instead of calling thousands of CSOM calls to query information from SPO, the new Migration Asynchronous Metadata Read can return the same amount of data in a single read. 
+ 
+When the new Migration Asynchronous Read API performs a read operation of a provided URL, the Microsoft backend software queries the database with the specified URL. It’s subdirectories aggregates all the information into a designated manifest. The ISV can read back from the manifest and parse the metadata without sending thousands of CSOM calls individually.
 
+This document targets ISVs and any third-party vendors/developers who are developing and maintaining a migration tool.
 
-This document targets ISVs and any third party vendors/developers who is developing and maintaining migration tool.
 
 ### Background:
 Currently, the SharePoint Online Migration API, CreateMigrationJob, lets your migration tool efficiently migrate large amounts data to SharePoint Online. However, the lack of an official API to read content from SharePoint Online means that these tools must rely on CSOM function calls to perform individual metadata read operations. 
@@ -42,19 +43,36 @@ A migration performance study identified four areas where CSOM calls are heavily
 
 ## Migration Asynchronous Metadata Read API
 
-The migration asynchronous metadata read API aims to reduce the CSOM calls in areas: incremental migration, after migration verification and permission settings and potentially other use cases. 
+The migration asynchronous metadata read API aims to reduce the CSOM calls in areas: incremental migration, after migration verification and permission settings. 
+
+>[!Note]
+>The first version of the Asynchronous Metadata Read supports files, folders, lists, list items, and the document library. Permission are expected to be covered in secondsubsequent version.
+
+Key supported features:
+
+1. Ability to read up to 1 million items with a single API call. More information please refer to Limitation section below 
+2. Incremental migration feature support returning of item changed since last query with changeToken feature
+3. Ability to include rich set of metadata per item 
+4. Ability to return only top-level structure without subfolders or children.
+
+More detailed information about the features and the API description is covered in the section below.
+
+The new Migration Asynchronous Read API is:
+
+```csharp
+
+    public SPAsyncReadJobInfo CreateSPAsyncReadJob(
+            Uri rootObjectUri,            
+            SPAsyncReadOptions readOptions,
+            EncryptionOption encryptionOption,
+            string azureContainerManifestUri,
+            string azureQueueReportUri)
+ 
+```
+
+The API is made up of five input parameters and one output structure field. 
 
 
-The new Migration Asynchronous Read API is:</br>
-
-   **public SPAsyncReadJobInfo CreateSPAsyncReadJob(Uri url, SPAsyncReadOptions options)**
-
-The API is made up of two input parameters, a URL, an Optional Flag, and one output structure field. 
-Currently, all items specified in the URL are queried. This often results in unnecessary reads and creates an extra load to the database especially if your migration tool only wants to know the delta (e.g. incremental migration).
-To eliminate unnecessary reads, changeToken is being introduced.  It will read the metadata of specified duration. Only the objects specified in the changeToken range is read. ChangeToken will not be supported in the beta test release, but will be included in the first official release.
-
-> [!Note]
->The Asynchronous Metadata Read API returns only metadata; no file or object transfer takes place.
 
 ## Input Parameters
 

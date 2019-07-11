@@ -4,7 +4,6 @@ ms.reviewer:
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
-ms.date: 5/17/2017
 audience: End User
 ms.topic: article
 ms.service: sharepoint-online
@@ -38,13 +37,15 @@ This article describes how you can use search reports in the SharePoint admin ce
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
     
-3. In the left pane, select **search**.
+3. In the left pane, select **Classic features**.
     
-4. Choose **View Usage Reports**.
+4. Under **Search**, select **Open**.
+
+5. Choose **View Usage Reports**.
     
-5. Click a link on the page to retrieve a report. The report opens in an Excel spreadsheet or in another program that you can find online.
+6. Click a link on the page to retrieve a report. The report opens in an Excel spreadsheet or in another program that you can find online.
     
 ### Overview of search reports
 

@@ -4,7 +4,6 @@ ms.reviewer:
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 6/29/2018
 audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
@@ -43,9 +42,13 @@ Another benefit of the Secure Store Service is that it eliminates authentication
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
+ 
+3. In the left pane of the new SharePoint admin center, select **Classic features**. 
+ 
+4. Select **More classic features**.
     
-3. In the left pane, select **secure store**
+3. Under **Secure store**, select **Open**.
     
 4. In the **Manage Target Applications** group on the ribbon, select **New**.
     
@@ -76,19 +79,23 @@ Another benefit of the Secure Store Service is that it eliminates authentication
     
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
+
+In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
+ 
+2. In the left pane of the new SharePoint admin center, select **Classic features**. 
+ 
+3. Select **More classic features**.
     
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
+4. Under **Secure store**, select **Open**.
+
+5. Select an existing Target Application from the list of Target Applications.
     
-3. In the left pane, select **secure store**.
-    
-4. Select an existing Target Application from the list of Target Applications.
-    
-5. On the ribbon, select **Edit**.
+6. On the ribbon, select **Edit**.
     
     > [!NOTE]
     >  Some fields on the Edit page are not available. These elements cannot be edited. After you create a Target Application, you can't change the **Target Application ID**, **Target Application Type**, or **Credentials Fields**. 
   
-6. Select any of the following to edit the contents:
+7. Select any of the following to edit the contents:
     
   - Display Name
     
@@ -98,7 +105,7 @@ Another benefit of the Secure Store Service is that it eliminates authentication
     
   - Members
     
-7. Select **OK**.
+8. Select **OK**.
     
 ## Set credentials for a Target Application
 <a name="__toc346879713"> </a>
@@ -107,18 +114,22 @@ Another benefit of the Secure Store Service is that it eliminates authentication
     
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
+
+In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
+ 
+2. In the left pane of the new SharePoint admin center, select **Classic features**. 
+ 
+3. Select **More classic features**.
     
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
+4. Under **Secure store**, select **Open**.
+  
+5. Select a single Target Application from the list if you have created more than one.
     
-3. In the left pane, select **secure store.**
-    
-4. Select a single Target Application from the list if you have created more than one.
-    
-5. In the **Credentials** group on the ribbon, select **Set**. This opens the **Set Credentials for Secure Store Target Application (Group)** dialog box. When you set credentials, you map a Target Application Group to a single set of credentials for an external data system. 
+6. In the **Credentials** group on the ribbon, select **Set**. This opens the **Set Credentials for Secure Store Target Application (Group)** dialog box. When you set credentials, you map a Target Application Group to a single set of credentials for an external data system. 
     
     ![Screenshot of the "Set credentials for a Secure Store Target Application" dialog. You can use this dialog to set the logon credentials for an external data source](media/ca3584ac-34d5-431d-a803-a6888b3a451d.png)
   
-6. In the **Set Credentials for Secure Store Target Application (Group)** dialog box, enter the credential values that you want. The credential fields that you enter apply to the external data system. 
+7. In the **Set Credentials for Secure Store Target Application (Group)** dialog box, enter the credential values that you want. The credential fields that you enter apply to the external data system. 
     
     > [!NOTE]
     >  The following fields cannot be edited. These fields specify the Secure Store mapping for the Target Application: **Target Application Name**, **Target Application ID**, and **Credential Owners**. 
@@ -126,6 +137,6 @@ Another benefit of the Secure Store Service is that it eliminates authentication
     > [!IMPORTANT]
     >  Be careful when you enter the password. If you enter a password that is incorrect, you won't see a message about the error. Instead, you'll be able to continue with configuration. However, errors can occur later, when you attempt to access data through BCS. Also, if the password for the external data source is updated, you have to return to this page to manually update the password credentials. 
   
-7. When you finish entering values for credential fields, select **OK**.
+8. When you finish entering values for credential fields, select **OK**.
     
 

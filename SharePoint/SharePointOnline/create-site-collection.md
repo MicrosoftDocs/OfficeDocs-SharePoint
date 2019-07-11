@@ -44,7 +44,7 @@ By using the new SharePoint admin center, you can create sites that use one of t
     
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
 
-3. If the classic SharePoint admin center appears, select **Try it now** to open the new SharePoint admin center. 
+3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
 
 4. In the left pane of the new SharePoint admin center, select **Active sites**.
 
@@ -77,16 +77,13 @@ If you want to create a site that uses a classic template, you can do so directl
     
     ![Create a classic site from the Microsoft 365 admin center](media/3026fd12-9d34-4948-a149-fcc8de7b7d83.png)
   
-    > [!NOTE]
-    > If you don't see the options above, under **Admin centers**, select **SharePoint** and then select **New** \> **Private Site Collection**. > ![Site Collection page with New selected](media/cf178205-b5bb-4152-a4c8-87d3099fc6ca.PNG)
-  
 4. Fill out the properties for the site:
     
     ![New Site Collection dialog box (top half)](media/1f30a4a6-27b7-42cd-97b0-bcef2e515902.PNG)
   
   - In the **Title** box, enter a name for the site. 
     
-  - In the **Web Site Address** drop-down lists **,** select a domain name and a URL path—either **/sites/** or **/teams/** —and then type a URL name for the site. 
+  - In the **Web Site Address** drop-down lists, select a domain name and a URL path — either **/sites/** or **/teams/** — and then type a URL name for the site. 
     
   - In the **Template Selection** section, in the **Select a language** drop-down list, select a language for the site. You can enable the SharePoint multiple language interface on your sites, but the primary language for the site will remain the one you select here. 
     
@@ -96,11 +93,11 @@ If you want to create a site that uses a classic template, you can do so directl
   - In the **Template Selection** section, under **Select a template**, choose the template that most closely describes the purpose of your site. 
     
     > [!TIP]
-    > For more information on templates, see [Using templates to create different kinds of SharePoint sites](https://support.office.com/article/449eccec-ff99-4cf3-b62e-dcfee37e8da4). 
+    > For more information about the classic templates, see [Using templates to create different kinds of SharePoint sites](https://support.office.com/article/449eccec-ff99-4cf3-b62e-dcfee37e8da4). 
   
   - In the **Time Zone** box, select the time zone that's appropriate for the location of the site. 
     
-  - In the **Administrator** box, type the user name of your site administrator. You can also use the **Check Names** or **Browse** button to find a user to make site administrator. 
+  - In the **Administrator** box, type the user name of the person you want to be the site administrator. You can also use the **Check Names** or **Browse** button to find a user to make site administrator. 
     
   - In the **Storage Quota** box, type the number of megabytes (MB) you want to allocate to this site. Do not exceed the available amount that is displayed next to the box. 
     
@@ -108,12 +105,7 @@ If you want to create a site that uses a classic template, you can do so directl
     
 5. Select **OK**.
     
-    The new site will appear in the URL list. 
-    
-## See also
-<a name="__toc323551189_1"> </a>
 
-[Enable or disable site collection features](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04)
-  
-[Introduction to multilingual features](https://support.office.com/article/53411469-53e3-4570-95e2-3651f166174f)
+    
+
 
