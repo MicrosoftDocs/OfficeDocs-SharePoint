@@ -20,7 +20,6 @@ ms.assetid:
 
 The top performance request we receive from both customers and ISVs is how to improve migration speed and avoid throttling. This document provides guidance for ISVs on how to improve migration performance and reliability. It has the latest Microsoft migration performance guidance including authentication, high level coding guidance, how to handle throttling, and more.
 
-
 ## Use app-based authentication
 There are different usage patterns between end user traffic and an application doing background activities such as migration. It is important to identify user traffic versus application traffic. 
 
@@ -54,9 +53,14 @@ For service-based migration tool that run without a signed-in user present such 
 
 Questions have been raised by ISV on whether to have a single App ID covering all migration offering products or having multiple App ID per software offering. There is no hard guidance provided the ISVs can identify all of their App IDs. Please contact Microsoft for any corner case scenarios. 
 
+>[!Note]
+> Please register all your migration app IDs with Microsoft to ensure that you receive adequate throughput for your migration jobs.
+
 
 ## Use the Migration API 
-For migration jobs, the first guidance is to use existing published migration API, [SharePoint Migration API](https://docs.microsoft.com/en-us/sharepoint/dev/apis/migration-api-overview), such as the *CreateMigrationJob*. There is also a new migration API, [Asynchronous Metadata Read API](https://docs.microsoft.com/en-us/sharepointmigration/asynchronous-metadata-read-api) that will be available August 2019. Once the new API becomes available, we will recommend that you transition to the new API for migration to avoid throttling.
+For migration jobs, the first guidance is to use existing published migration API, [Create Migration Job (Import API)](https://docs.microsoft.com/en-us/sharepoint/dev/apis/migration-api-overview). 
+
+A new migration API, [Asynchronous Metadata Read API (Export API)](https://docs.microsoft.com/en-us/sharepointmigration/asynchronous-metadata-read-api) will be available August 2019. Once the new API becomes available, we recommend that you transition to the new API to avoid throttling.
 
 ## Switch to the Microsoft Graph API 
 If a feature is not supported by the migration API, we recommend that you use the Graph API.  If the Graph API does not support the needed migration feature, then use CSOM. However, using CSOM increases the likelihood of being throttled. 
