@@ -88,54 +88,47 @@ After the migration is completed, verify that your content has been successfully
 
 ## FAQ and Troubleshooting
 
+*Question:* I am experiencing poor performance or throttling during migration.
+*Answer:*  Please check up guidance in this document and refers to aka.ms/spo429 for Microsoft throttling guidance. For specific tools configuration or questions, please contact your third party tools vendor for more information.
 
-*Question:* My migration is going so slow or I am being throttled. What can I do?</br>
-*Answer:*  Check that you have configured your migration settings properly. Turn off any software that you do not need to use during migration. For example, disable any file synchronization program or antivirus program on the migrated content. This will help reduce throttle and improve performance.
 
-*Question:* I'm continually getting throttled while I am attempting to migrate. Can Microsoft turn off the throttle to help me with migration?</br>
-*Answer:* Unfortunately, we are not able to disable throttle. Throttle is built into our server to protect the database from going down. If you are being throttled with a 429 error, it's an indication that your migration tool is overly aggressive and is over its allocated quota.  Please try to migrate during off-peak hours or reduce the number of VMs you are using.
+*Question:* I'm continually getting throttled while I am attempting to migrate. Can Microsoft turn off the throttle to help me with migration?
+*Answer:*  Throttling is in place to protect the reliability and availability of the service. Throttling rules cannot be disable. Please refer to [Avoid getting throttled or blocked in SharePoint Online](https://docs.microsoft.com/en-us/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online) for more information.
 
-*Question:* I tried to follow the best practice, but I have been getting an *Http 503* error (“Server Too Busy”) for days and it’s blocking me from doing migration. What do I do? 
 
-Answer: If you are experiencing a large amount of HTTP 503s for days that are blocking your migration, please follow the steps below in creating support ticket. 
-1. Navigate to https://admin.microsoft.com
-2. Ensure you are using the new admin center preview. 
+*Question:* My migration is blocked with consistent high volume of Http 503 error (“Server Too Busy”) ?
+*Answer:* If you are experiencing high volume of HTTP 503s response blocking your migration for extended period of time, please follow the steps below in creating support ticket.
+1.	Navigate to https://admin.microsoft.com
+2.	Ensure you are using the new admin center preview.
 
 >[!Note]
 >If you are using the old M365 admin center you can skip step 8 as the “Description” field will not exist.
 
- 
-3. On the left navigation pane click **Support** and then **New Service Request**.  This will activate the “Need Help?” pane on the right-hand side of your screen.
-4. In the “Briefly describe your issue” area, enter "SharePoint Migration Throttling with 503".
-5. Click **Contact Support**.
-6. Under “Description” enter “SharePoint Migration Throttling with 503”.  Fill out the remaining information and click **Contact me**.
-8.	Include all of the following on the support ticket:  
-•	Your company name and Tenant URL</br>
-•	How much left to migration (x TB?) </br>
-•	Your migration start date and end date </br>
-•	Describe where you are migrating your content from, such as SharePoint Server, Box, GDrive, File shares, etc. </br>
-•	Estimate number of throttling (e.g. x throttle per hour) and when (specific time and date) the throttling happened </br>
-•	Provide the name of the migration tool you are using (e.g. SPMT, Sharegate, Mover, etc.)</br>
+3.	On the left navigation pane click Support and then New Service Request. This will activate the **Need Help?** pane on the right-hand side of your screen.
+4.	In the **Briefly describe your issue** area, enter "SharePoint Migration Throttling with 503".
+5.	Click Contact Support.
+6.	Under **Description** enter “SharePoint Migration Throttling with 503”. Fill out the remaining information and click Contact me.
+7.	Include all of the following on the support ticket:
+    -Your company name and Tenant URL
+    -How much left to migration (x TB?) 
+    -Your migration start date and end date 
+    -Describe where you are migrating your content from, such as SharePoint Server, Box, GDrive, File shares, etc. 
+    -Estimate number of throttling (e.g. x throttle per hour) and when (specific time and date) the throttling happened 
+    -Provide the name of the migration tool you are using (e.g. SPMT, Sharegate, Mover, etc.)
 
 
-*Question:* How much can I migrate per day?</br>
-*Answer:* Plan to migrate at a maximum of 2TB/day.
+*Question:* I am planning to migrate (> 100 TB), is there any preparation needed?
+*Answer:* For larger than a 100TB migration, please submit a support request with following steps and please include the information below. 
 
-*Question:* I have a very big migration (> 100 TB) and I would like some help, who should I contact?</br>
-*Answer:* For larger than a 100TB migration, please submit a support request with Microsoft indicating that you are doing a large migration (>100TB).
 Follow these steps:
-1.	Navigate to the Microsoft 365 Admin homepage. On the left navigation pane, click **Support > New service Request**. 
-2.  In the lower right hand corner of the screen click **Need Help?** A **Contact Support** pane displays.
-3. For the title, enter **"SharePoint Migration over 100TB"**.
-4. Include all of the following on the support ticket:
-    - Your company name and Tenant URL
-    - Estimated size of your migration
-    - An estimate of when you would like to start and complete your migration
-    - Describe where you are migrating your content from, such as SharePoint Server, Box, GDrive, File shares, etc.
-
-*Question:* I have tried everything, but nothing works. Now what do I do?</br>
-*Answer:* Open a support ticket with [http://support.microsoft.com](http://support.microsoft.com).
-
+1. Navigate to the Microsoft 365 Admin homepage. On the left navigation pane, click Support > New service Request.
+2. In the lower right hand corner of the screen click Need Help? A Contact Support pane displays.
+3.	For the title, enter "SharePoint Migration over 100TB".
+4.	Include all of the following on the support ticket: 
+    -Your company name and Tenant URL
+    -Estimated size of your migration
+    -An estimate of when you would like to start and complete your migration
+    -Describe where you are migrating your content from, such as SharePoint Server, Box, GDrive, File shares, etc.
 
 
 

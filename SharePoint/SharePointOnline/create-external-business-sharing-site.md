@@ -39,11 +39,9 @@ Before you create a site for external sharing, there are some organization-level
 
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
 
-3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
+3. In the left pane of the new SharePoint admin center, under **Policies**, select **Sharing**.
 
-4. In the left pane of the new SharePoint admin center, under **Policies**, select **Sharing**.
-
-5. Under **External sharing**, set SharePoint to **Anyone** or **New and existing guests**.
+4. Under **External sharing**, set SharePoint to **Anyone** or **New and existing guests**.
   
 ## Create a site for your extranet
 
@@ -66,6 +64,7 @@ Next, configure it to allow invited users outside of your company to be able to 
 4. Select the site, and then select **Sharing**.
     
 5. Under **Allowing non-owners to invite new users**, select **Turn off sharing for non-owners on all sites in this site collection**.
+6. Click **Save**.
     
 Once you've set up external access, add any content that you want to the site for your External users to work on.
   
