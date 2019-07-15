@@ -21,7 +21,7 @@ An advantage in using the Migration API for your web part migration is the abili
 
 ## Using the Serializer DLL
 
-There are two attributes that are handled in a unique way that requires using the WebPart User Properties Serializer .dll.
+There are two attributes that are handled in a unique way that requires using the WebPart User Properties Serializer DLL.
 
 There is a technical challenge to generate the property values for *AllUsersProperties* and *PerUserProperties* when building the PRIME package. This is because these the property values are BASE64 encoded blob, which are serialized web part properties and web part connection info.
  
@@ -29,13 +29,9 @@ There is a technical challenge to generate the property values for *AllUsersProp
 To get the Serializer .dll, do the following:
 
 
-1. Download the SPMT zip package to your local computer:  [Download SPMT.zip package](https://aka.ms/spmt-zip).
-2. Right-click the zip file, and click properties.
-3. On the General tab, select **Unblock** and then click OK.</br></br>
- ![SPMT Properties](media/spmtzip.png)
-</br></br>
-4. Open the zip file and extract all files.
-5. Lopcate and copy the *microsoft.sharepoint.migration.webpart.serializer.dll* and paste it into your Prime package.
+1. Install the SPMT Client on your local computer:  [Install SPMT](https://aka.ms/spmt-GA-page).
+2. Browse to the install location of SPMT
+5. Locate and copy the *microsoft.sharepoint.migration.webpart.serializer.dll* and you can copy it into your project.
 
 For a complete list of the supported webparts, see:
 
@@ -175,26 +171,26 @@ Due the security control design on the server side, the following behavior:
  
 Here is the list of web parts that will be ignored by server side code (treated as untrusted webpart) when NoScript is turned ON:
 
-- "Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c|Microsoft.SharePoint.WebPartPages.XsltListViewWebPart",
-- "Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c|Microsoft.SharePoint.WebPartPages.ContentEditorWebPart",
-- "Microsoft.SharePoint.Publishing, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c|Microsoft.SharePoint.Publishing.WebControls.ContentByQueryWebPart",
-- "Microsoft.SharePoint.Portal, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c|Microsoft.SharePoint.Portal.WebControls.SiteFeedWebPart",
-- "Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c|Microsoft.SharePoint.WebPartPages.ScriptEditorWebPart",
-- "Microsoft.SharePoint.Portal, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c|Microsoft.SharePoint.Portal.WebControls.ContactFieldControl",
-- "Microsoft.Office.Server.Search, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c|Microsoft.Office.Server.Search.WebControls.SearchBoxScriptWebPart",
-- "Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c|Microsoft.SharePoint.WebPartPages.PageViewerWebPart",
-- "Microsoft.SharePoint.Portal, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c|Microsoft.SharePoint.Portal.WebControls.ProfileBrowser",
-- "Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c|Microsoft.SharePoint.WebPartPages.UserTasksWebPart",
-- "Microsoft.SharePoint.Portal, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c|Microsoft.SharePoint.Portal.WebControls.SocialCommentWebPart",
-- "Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c|Microsoft.SharePoint.WebPartPages.SilverlightWebPart",
-- "Microsoft.SharePoint.Portal, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c|Microsoft.SharePoint.Portal.WebControls.RSSAggregatorWebPart",
-- "Microsoft.SharePoint.Publishing, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c|Microsoft.SharePoint.Publishing.WebControls.SummaryLinkWebPart",
-- "Microsoft.SharePoint.Publishing, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c|Microsoft.SharePoint.Publishing.WebControls.TableOfContentsWebPart",
-- "Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c|Microsoft.SharePoint.WebPartPages.UserDocsWebPart",
-- "Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c|Microsoft.SharePoint.WebPartPages.SPTimelineWebPart",
-- "Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c|Microsoft.SharePoint.WebPartPages.XmlWebPart",
-- "Microsoft.SharePoint.Portal, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c|Microsoft.SharePoint.Portal.WebControls.SiteDocuments",
-- "Microsoft.SharePoint.Portal, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c|Microsoft.SharePoint.Portal.WebControls.CategoryResultsWebPart"
+- XsltListViewWebPart
+- ContentEditorWebPart
+- ContentByQueryWebPart
+- SiteFeedWebPart
+- ScriptEditorWebPart
+- ContactFieldControl
+- SearchBoxScriptWebPart
+- PageViewerWebPart
+- ProfileBrowser
+- UserTasksWebPart
+- SocialCommentWebPart
+- SilverlightWebPart
+- RSSAggregatorWebPart
+- SummaryLinkWebPart
+- TableOfContentsWebPart
+- UserDocsWebPart
+- SPTimelineWebPart
+- XmlWebPart
+- SiteDocuments
+- CategoryResultsWebPart
 
 ## FAQ
 
