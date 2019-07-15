@@ -327,7 +327,7 @@ If you disable or do not configure this setting, users can join the [Windows Ins
 
 Enabling this policy sets the following registry key: 
  
-[HKLM\SOFTWARE\Policies\Microsoft\OneDrive] ﻿"GPOSetUpdateRing"
+[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"GPOSetUpdateRing"="dword:0000000X"
 
 Set the value 4 for Insider, 5 for Production, or 0 for Enterprise. Note that when you configure this setting to 5 for Production, or 0 for Enterprise, the "Get OneDrive Insider preview updates before release" checkbox will not appear on the client Settings > About tab.
   
