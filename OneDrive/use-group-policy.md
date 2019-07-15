@@ -472,9 +472,6 @@ If you disable this setting, the **Office** tab is hidden in the sync client, an
 ### Configure team site libraries to sync automatically
 <a name="AutoMountTeamSites"> </a> 
 
-> [!IMPORTANT]
-> This feature is currently enabled in the Insiders ring only. To try it, join the [Windows Insider program](https://insider.windows.com/) or the [Office Insider](https://products.office.com/office-insider) program.
-
 This setting allows you to specify SharePoint team site libraries to sync automatically the next time users sign in to the OneDrive sync client (OneDrive.exe), within an eight-hour window, to help distribute network load. To use this setting, the computer must be running Windows 10 Fall Creators Update (version 1709) or later, and OneDrive Files On-Demand must be enabled.
 This feature is not enabled for on-premises SharePoint sites. 
 
