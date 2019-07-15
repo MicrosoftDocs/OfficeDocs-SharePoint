@@ -233,7 +233,8 @@ This section lists account requirements by scenario:
 ### Single server standard requirements
 <a name="Subsection1"> </a>
 
-> [!IMPORTANT] We do not recommend this configuration in a production environment.
+> [!IMPORTANT]
+> We do not recommend this configuration in a production environment.
 
 #### Server farm-level accounts
 
@@ -264,10 +265,6 @@ This section lists account requirements by scenario:
    
 ### Server farm standard requirements
 <a name="Subsection2"> </a>
-
-#### 
-
-#### 
 
 #### Server farm-level accounts
   
