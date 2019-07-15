@@ -40,8 +40,6 @@ You can limit domains by allowing only the domains you specify or by allowing al
 
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
 
-3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
-    
 4. In the left pane, select **Sharing**. 
     
 5. Under **Advanced settings for external sharing**, select the **Limit external sharing by domain** check box, and then select **Add domains**. 
@@ -53,7 +51,7 @@ You can limit domains by allowing only the domains you specify or by allowing al
     > [!NOTE]
     > Wildcards are not supported for domain entries. 
   
-You can also configure the organization-wide setting by using the [Set-SPOTenant](https://go.microsoft.com/fwlink/?linkid=2003900) PowerShell cmdlet. 
+You can also configure the organization-wide setting by using the [Set-SPOTenant](https://docs.microsoft.com/en-us/powershell/module/sharepoint-online/Set-SPOTenant) PowerShell cmdlet. 
   
 You can also limit domains at the site collection level. Note the following considerations:
   
@@ -63,7 +61,7 @@ You can also limit domains at the site collection level. Note the following cons
     
 - If an organization-wide deny list is configured, then you can configure either an allow list or a deny list at the site collection level.
     
-- For individual OneDrive for Business site collections, you can only configure this setting by using the [Set-SPOSite](https://go.microsoft.com/fwlink/?linkid=2003901) Windows PowerShell cmdlet. 
+- For individual OneDrive for Business site collections, you can only configure this setting by using the [Set-SPOSite](https://docs.microsoft.com/en-us/powershell/module/sharepoint-online/Set-SPOSite) Windows PowerShell cmdlet. 
     
  **To limit domains for a classic site collection**
   
@@ -72,7 +70,7 @@ You can also limit domains at the site collection level. Note the following cons
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.)
  
 3. Select **Classic features**.
 

@@ -60,7 +60,7 @@ Some SharePoint service applications have specific instructions for their creati
 |Business Data Connectivity service <br/> |[Configure a Business Data Connectivity service application in SharePoint Server](configure-a-business-data-connectivity-service-application.md) <br/> |
 |Machine Translation service <br/> |[Turn on automated document translation in SharePoint Server](turn-on-automated-document-translation.md) <br/> |
 |Word Automation Service <br/> |[Configuring Word Automation Services](https://docs.microsoft.com/previous-versions/office/developer/sharepoint-2010/ee557330(v=office.14)) <br/> |
-|PowerPoint Automation Service <br/> |[PowerPoint Automation Services in SharePoint](powerpoint-automation-services-in-sharepoint.md) <br/> |
+|PowerPoint Automation Service <br/> |[PowerPoint Automation Services in SharePoint](https://docs.microsoft.com/sharepoint/dev/general-development/powerpoint-automation-services-in-sharepoint) <br/> |
    
 ## See also
 
