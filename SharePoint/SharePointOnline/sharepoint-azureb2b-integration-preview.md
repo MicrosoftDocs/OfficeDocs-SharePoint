@@ -15,8 +15,6 @@ description: "Learn about the SharePoint and OneDrive integration with Azure AD 
 
 # SharePoint and OneDrive integration with Azure AD B2B (Preview)
 
-(This feature is currently rolling out and should be fully available by mid July.)
-
 This article describes how to enable SharePoint and OneDrive integration with Azure AD B2B.
 
 Azure AD B2B provides authentication and management of guest users. Authentication happens via one-time passcode when they don't already have a work or school account or a Microsoft account (MSA).
