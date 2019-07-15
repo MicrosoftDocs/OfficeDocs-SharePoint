@@ -20,7 +20,6 @@ ms.assetid:
 
 The top performance request we receive from both customers and ISVs is how to improve migration speed and avoid throttling. This document provides guidance for ISVs on how to improve migration performance and reliability. It has the latest Microsoft migration performance guidance including authentication, high level coding guidance, how to handle throttling, and more.
 
-
 ## Use app-based authentication
 There are different usage patterns between end user traffic and an application doing background activities such as migration. It is important to identify user traffic versus application traffic. 
 
