@@ -102,7 +102,8 @@ The following procedures start the service instances.
     
 The Search service instance must be started by using PowerShell because you cannot start it from Central Administration unless a Search Service application already exists.
 
-> [!TIP] When using MinRoles, **Start** may not be available as it is managed by the farm. When the associated Service Application has been created, it automatically starts the Service Instance.
+> [!TIP]
+> When using MinRoles, **Start** may not be available as it is managed by the farm. When the associated Service Application has been created, it automatically starts the Service Instance.
   
  **To start the Search service instance by using PowerShell**
   
