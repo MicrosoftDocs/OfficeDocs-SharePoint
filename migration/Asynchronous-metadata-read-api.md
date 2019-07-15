@@ -47,13 +47,13 @@ A migration performance study identified four areas where CSOM calls are heavily
 The migration asynchronous metadata read API aims to reduce the CSOM calls in areas: incremental migration, after migration verification and permission settings. 
 
 >[!Note]
->The first version of the Asynchronous Metadata Read supports files, folders, lists, list items, and the document library. Permission are expected to be covered in secondsubsequent version.
+>The first version of the Asynchronous Metadata Read supports files, folders, lists, list items, and the document library. Permission are expected to be covered in a subsequent version.
 
 Key supported features:
 
 - Ability to read up to 1 million items with a single API call. More information please refer to Limitation section below 
 - Incremental migration feature support returning of item changed since last query with changeToken feature
-- Ability to include rich set of metadata per item 
+- Ability to include a rich set of metadata per item 
 - Ability to return only top-level structure without subfolders or children.
 
 More detailed information about the features and the API description is covered in the section below.
@@ -82,7 +82,7 @@ The API is made up of five input parameters and one output structure field.
 The full path URL  lets your migration tool to specify the root URL path of the SharePoint list, files/folder document library to be read. By default, the server-side code will read and return all the metadata of files, folders and root objects including subfolders and their children content.
 
 *Example:*
-This document library URL, https://<spam><spam>www.contoso.com/my-resource-document<spam>, will be read back for metadata of any files or folders that live under the root URL.
+This document library URL, https://<spam><spam>www.contoso.com/Shared%20Document<spam>, will be read back for metadata of any files or folders that live under the root URL.
 
 <spam><spam>https://www.contoso.com/Shared%20Documents/FolderA/<spam><spam>, will be read back for children metadata in FolderA.
 
@@ -102,9 +102,9 @@ This flag indicates whether to include all user or group information from a site
 
     public bool IncludeDirectDescendantsOnly { get; set;}
 
-If specified only the top level metadata item is read back. For example if root URL contains file A, folder B. If this flag is specified, manifest returns only  file A and folder B metadata , it will not return any metadata included inside folder B.
+If specified only the top level metadata item is read back. Example: The root URL contains file A and folder B. If this flag is specified, the manifest returns only file A and folder B metadata. It will not return any metadata included inside folder B.
 
-The use case for this function is ISV can issue a default read to retrieve the top-level items and then issues multiples *CreateSPAsyncReadJob* to read back all the sub folder content in parallel to improve throughput.
+The use case for this function:  The ISV can issue a default read to retrieve the top-level items and then issue multiple *CreateSPAsyncReadJob* to read back all the sub folder content in parallel to improve throughput.
 
 
     public bool IncludeExtendedMetadata { get; set; }
@@ -121,26 +121,27 @@ One of the key CSOM contributor is incremental migration. ChangeToken idea is in
  
 During incremental migration, instead of query everything again, by populating StartChangeToken with the change token received from the CurrentChangeToken output in returning job info, createSPAsyncReadJob then returns only the items that got changed since the specified StartChangeToken, reducing the overall CSOM calls. 
 
+Below is a sample of how the *startChangeToken* might work. This example uses the optional feature setting for initial call and the parameter setting for incremental passes.  
+
 ![AMR flow](media/async-read-api-flow.png)
- 
-### Corner Cases for ChangeToken
 
 #### Invalid Value
 
 If an invalid value is detected, other than NULL, an error will be generated, and the operation will be terminated.
 
-#### encryptionOption (TBD)
+#### encryptionOption
+
+This is an optional parameter. If it is specified, the AES256CBCKey is used to encrypt output files and queue messages. Otherwise, there is no encryption. 
+
+For more information, see [EncryptionOption Class](https://docs.microsoft.com/en-us/dotnet/api/microsoft.sharepoint.client.encryptionoption).
 
 
-#### azureContainerManifestUri (This parameter is the same as createMigration Job)
+#### azureContainerManifestUri
 
 The valid URL including SAS token for accessing the Azure Blob Storage Container which contains the block blobs for the manifest and other package describing XML files. This location will also be used for the log output response. The SAS token must have been created with only Read, List and Write permissions or the asynchronous metadata read job will fail. The SAS token should at least have a lifetime that starts at from no later than when the job was submitted, until a reasonable time for successful import to have concluded.
  
 #### azureQueueReportUri
-The valid URL including SAS token for accessing the user provided Azure Queue used for returning notifications of asynchronous metadata read job progress. This value can be null if no notification queue will be used during import. If this value is not null and proper access is granted in the SAS token in this URI, it will be used for real time status update. The SAS token must have been created with only Add, Read and Update permissions or the migration job will be unable to add events to the queue. The required permissions are as follows in the Azure Storage API:
-
-    (SharedAccessQueuePermissions.Add | SharedAccessQueuePermissions.Read | SharedAccessQueuePermissions.Update)
-
+The valid URL including SAS token for accessing the user provided Azure Queue used for returning notifications of asynchronous metadata read job progress. If this value is not null and proper access is granted in the SAS token in this URI, it will be used for real time status update. The SAS token must have been created with Add permissions or the migration job will be unable to add events to the queue. 
 
 Once accepted, the job ID will be written to the notification queue if it was provided and access is valid. The notification queue can be used for multiple migration jobs at the same time, as each job will identify itself in values sent back to the notification queue.
 
@@ -155,7 +156,7 @@ This function returns the changeToken associates with this query. By specifying 
 
 #### Manifest Output
 
- After the asyncMigrationRead function finishes execution, the final manifest will be placed in the container specified. Manifest export package structure will be like the createMigration Import Package structure. The general output structure is summarized in table below.
+After the asyncMigrationRead function finishes execution, the final manifest will be placed in the container specified, with naming convention of “<jobid>/<filename>”.  Manifest export package structure will be like the *createMigration* Import Package structure. The general output structure is summarized in table below.
 
 
 |**XML file**|**Schema File**|**Description**|
@@ -169,8 +170,10 @@ This function returns the changeToken associates with this query. By specifying 
 |UserGroupMap.XML|DeploymentUserGroupMap Schema|Provides validation for the UserGroup.xml file exported into the content migration package. UserGroup.xml maintains a list of users and user security groups with respect to access security and permissions.|
 |ViewFormsList.XML|DeploymentViewFormsList Schema|Provides validation for the ViewFormsList.xml file exported into the content migration package.ViewFormsList.xml maintains a list of Web Parts and tracks whether each is a view or form.|
 
-#### JobQueueUri:
-public Uri JobQueueUri { get; set; }
+#### JobQueueUri
+
+    public Uri JobQueueUri { get; set; }
+
 The reporting features is the same as createMigrationJob. Logging will be provided to track the status of the asynchronous read.  In additional, the log will provide an estimate number of items to be read per url after scan through the database and a rough estimate for your tools.
 In terms of blob queue permission and settings, all access will be by default and the same as when the ISV called ProvisionMigrationContainer during the createMigrationJob.
 
@@ -227,7 +230,7 @@ Suggestion:
 
 ## Limitations
 
-By default, each URL supports up to 1 million limits. At the start of the migration, the asynchronous read migration function will check. If more than 1 million is detected an error will be thrown. Multiple versions of a single file will count as one. (More information will be provided in future update). 
+By default, each URL supports up to 1 million limits. At the start of the migration, the asynchronous read migration function will check. If more than 1 million is detected an error will be thrown. Multiple versions of a single file will count as one. This limit may be changed in the future.
 
 **Asynchronous Read API Limitations**</br>
 
