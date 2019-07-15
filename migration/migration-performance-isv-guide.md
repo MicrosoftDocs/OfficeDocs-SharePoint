@@ -70,6 +70,7 @@ The lastest supported features are:
 
 - Migrate web parts using the Migration API
 
+
 ### Export API (Asynchronous Metadata Read)
 
 A new migration API, [Asynchronous Metadata Read API (Export API)](https://docs.microsoft.com/en-us/sharepointmigration/asynchronous-metadata-read-api) will be available August 2019. 
