@@ -1,157 +1,253 @@
 ---
-title: "Migration Asynchronous Read API"
+title: "Migration Asynchronous Metadata Read API"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
 audience: ITPro
-ms.topic: Overview
+ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
-ms.collection:
+ROBOTS: NOINDEX, NOFOLLOW
+ms.collection: 
 - Strat_SP_gtc
 - SPMigration
-search.appverid: MET150
-ms.custom: 
-description: "This article explains the SharePoint Migration asynchonrous read API that allows the SPMT/third party tools to perform a read operation of a provided URL. "
+description: "Migration Asynchronous Metadata Read API"
 ---
+
+# Migration Asynchronous Metadata Read API
+
+> [!Important]
+>This is a preliminary beta trial and not a full production release, hence not all features are tested and verified. Features are subject to change without notice.
+
+
+
 ## Overview
-Sharepoint Online Migration API CreateMigrationJob has allowed the SPMT/ third party tools to move large migration data to Sharepoint Online at an efficient pace. However, lack of official API to read content from Sharepoint Online means the SPMT/third party tools rely on CSOM function calls to perform individual read operations. Large number of CSOM calls increase the likelihood of throttling which impacts migration performance and customer experience. Furthermore, ineffective CSOM usage results in large SQL round trip per function call and can potentially bring down the database impacting the database reliability.
-A migration performance study was done and identified three areas where CSOM calls are heavily used: incremental migration, after migration verification and permission setting.
+The goal of the new Migration Asynchronous Metadata Read API is to reduce the number of CSOM calls, reduce throttling, and improve overall migration performance. Instead of calling thousands of CSOM calls to query information from SPO, the new Migration Asynchronous Metadata Read can return the same amount of data in a single read. 
  
-1.	Incremental migration relies on CSOM calls to retrieve the Sharepoint online (SPO) content and compare with source location to determine whether there had been any changes to the content and whether to proceed with migration.  
-2.	After migration verification is done when migration is completed and is used to ensure the source and destination file metadata matches.
-3.	Permission setting are CSOM function calls made either getting user permission information.
+When the new Migration Asynchronous Read API performs a read operation of a provided URL, the Microsoft backend software queries the database with the specified URL. It’s subdirectories aggregate all the information into a designated manifest. The ISV can read back from the manifest and parse the metadata without sending thousands of CSOM calls individually.
 
-The goal of the new migration asynchronous read API is to reduce the number of CSOM calls by 50% , reduce throttling and to improve overall migration performance.
+This document targets ISVs and any third-party vendors/developers who are developing and maintaining a migration tool.
 
-Please note, this is a preliminary beta trial and not a full production release, hence not all features are tested and verified.
+
+### Background:
+Currently, the SharePoint Online Migration API, CreateMigrationJob, lets your migration tool efficiently migrate large amounts data to SharePoint Online. However, the lack of an official API to read content from SharePoint Online means that these tools must rely on CSOM function calls to perform individual metadata read operations.
+
+</br>
+Large numbers of CSOM calls increase the likelihood of throttling which impacts migration performance and customer experience. Ineffective CSOM usage results in large SQL round trip per function calls that can potentially bring down the database and impact its reliability.
+
+A migration performance study identified four areas where CSOM calls are heavily used: 
+- **Incremental migration** relies on CSOM calls to retrieve the SharePoint online (SPO) content. It compares it with source location to determine if there have been any changes to the content and whether to proceed with migration.  
+- **Structure creation** leverages CSOM calls for site ,webpart and navigation creation.
+- **After migration verification** is done when migration is completed and is used to ensure the source and destination file metadata matches.
+- **Permission settings** are CSOM function calls made getting user permission information.
+
+## Migration Asynchronous Metadata Read API
+
+The migration asynchronous metadata read API aims to reduce the CSOM calls in areas: incremental migration, after migration verification and permission settings. 
+
+>[!Note]
+>The first version of the Asynchronous Metadata Read supports files, folders, lists, list items, and the document library. Permission are expected to be covered in a subsequent version.
+
+Key supported features:
+
+- Ability to read up to 1 million items with a single API call. More information please refer to Limitation section below 
+- Incremental migration feature support returning of item changed since last query with changeToken feature
+- Ability to include a rich set of metadata per item 
+- Ability to return only top-level structure without subfolders or children.
+
+More detailed information about the features and the API description is covered in the section below.
+
+The new Migration Asynchronous Read API is:
+
+```csharp
+
+    public SPAsyncReadJobInfo CreateSPAsyncReadJob(
+            Uri rootObjectUri,            
+            SPAsyncReadOptions readOptions,
+            EncryptionOption encryptionOption,
+            string azureContainerManifestUri,
+            string azureQueueReportUri)
  
-## Migration Asynchronous Read API
-The asynchonrous read API allows the SPMT/third party tools to perform a read operation of a provided URL. The Microsoft server then queries Sharepoint Online with the specified URL and its subdirectories aggregates all the information into designated manifest container specified by the SPMT/third-party tools. This eliminates thousands of CSOM calls sent individually to retrieve a root folder metadata information.
-
-By default, all the item specified in the URL will be queried. This may incur unnecessary read and create extra load to the database especially if SPMT/third-party tool are performing incremental migration.  To eliminate unnecessary read, changeToken is introduced to read metadata of Sharepoint objects if the modified date is larger than the one provided by the changeToken. (Please note for first release, change Token is not supported)
-
-The new migration asynchronous read API is shown below: 
-
-```xml
-public SPAsyncReadJobInfo CreateSPAsyncReadJob(Uri url, SPAsyncReadOptions options)
 ```
 
-The API is made up of two input parameters url,  and an Optional Flag  and one output structure field.  Details breakdown arecovered below.
+The API is made up of five input parameters and one output structure field. 
 
-### Input Parameters
 
-#### URL 
-The URL allows SPMT or third party tools to specify the root URL path of the Sharepoint objects to be read.  The server side code will read and return all the subfolder/files/list of that root URL.
 
-For example, if a document library URL is https://www.contoso.com/my-resource-document/, any files or folders share the same root URL, and their individual URLs will look like this: https://www.contoso.com/my-resource-document/file1.doc or https://www.contoso.com/my-resource-document/folderA/file2.doc. Only the root URL needs to be specified and it should be sent as a single request.
+## Input Parameters
 
-In terms of coverage, for the first version of the asyncMigrationRead covers the File/folder, list/list item and document library. Permission are expected to be covered in second version. The third version will extend to cover webpart and potentially taxonomy.
+### URL
  
-#### Corner Cases for URL
+The full path URL  lets your migration tool to specify the root URL path of the SharePoint list, files/folder document library to be read. By default, the server-side code will read and return all the metadata of files, folders and root objects including subfolders and their children content.
+
+*Example:*
+This document library URL, https://<spam><spam>www.contoso.com/Shared%20Document<spam>, will be read back for metadata of any files or folders that live under the root URL.
+
+<spam><spam>https://www.contoso.com/Shared%20Documents/FolderA/<spam><spam>, will be read back for children metadata in FolderA.
+
+#### readOptions Flag
+The read asynchronous function will include the SPAsyncReadOptions structure which covers the optional flags to allow the user to specify version and security setting on the site level more is described below.
+
+    IncludeVersions{ get; set; }
+
+If set, this indicates all the files and list item version history is to be included in the export operation. If absent, only the most recent version is provided.
+<br>
+<br>
+
+    IncludeSecurity{ get; set; }
+
+This flag indicates whether to include all user or group information from a site. By default, it assumes the security is not set, hence no user or group information is provided.
+
+
+    public bool IncludeDirectDescendantsOnly { get; set;}
+
+If specified only the top level metadata item is read back. Example: The root URL contains file A and folder B. If this flag is specified, the manifest returns only file A and folder B metadata. It will not return any metadata included inside folder B.
+
+The use case for this function:  The ISV can issue a default read to retrieve the top-level items and then issue multiple *CreateSPAsyncReadJob* to read back all the sub folder content in parallel to improve throughput.
+
+
+    public bool IncludeExtendedMetadata { get; set; }
+
+This flag indicates whether to return the extended set of metadata content of object query. By default this option is off and only basic content is provided (e.g. names, URL, author, modifier, dates) . Turning  this flag on provides all the metadata content; however, it will also impact the performance as query will take longer. 
+
+Recommendation is to keep the default for file share migration, but consider setting this flag on for Sharepoint on-prem or other more complex migration.
+
+    public string StartChangeToken { get; set; }
+
+This option applies to input URL of list or document library only.
  
-##### Unsupported Type
-If unsupported type is detected, the read operation for that URL will not be executed and an error information will be logged, but the rest of the supported URL will still be executed.
-For example, url_a= taxonomy and url_b = file. url_a will fail with an error until we start support taxonomy and the error will be logged to the log, but url_b , it will be executed.
+One of the key CSOM contributor is incremental migration. ChangeToken idea is introduced to reduce the unnecessary CSOM calls. If StartChangeToken is not specified, the CreateSPAsyncReadJob will query and read back all the items specified by the API function. Once specified with the ChangeToken value, only the item changed since last query is returned.
+ 
+During incremental migration, instead of query everything again, by populating StartChangeToken with the change token received from the CurrentChangeToken output in returning job info, createSPAsyncReadJob then returns only the items that got changed since the specified StartChangeToken, reducing the overall CSOM calls. 
 
-##### Duplication
-If SPMT/third-party tools pass duplicated URLs. For example url_a = link_a and url_b= link_a . Given url_a and url_b are sent in two different packet, the server code will execute both despite the fact they both pointed to the same root url. User has the option to cancel the second job if desired. 
+Below is a sample of how the *startChangeToken* might work. This example uses the optional feature setting for initial call and the parameter setting for incremental passes.  
 
-##### Unidentified URL
-If the SPMT or third-party tools pass incorrect, NULL or unidentified URL, then an error will be thrown for that URL.
+![AMR flow](media/async-read-api-flow.png)
 
-##### No Content to Read back 
-If the root site is empty and there is nothing to read back. The asyn read function will still return with good status but no content will be recorded in the manifest 
+#### Invalid Value
 
-#### Optional Flag 
+If an invalid value is detected, other than NULL, an error will be generated, and the operation will be terminated.
 
-The read async function will include the SPAsyncReadOptions structure which covers the optional flags to allow the user to specify version and security setting on the site level more is described below.
+#### encryptionOption
 
-##### IncludeVersions { get; set; }
+This is an optional parameter. If it is specified, the AES256CBCKey is used to encrypt output files and queue messages. Otherwise, there is no encryption. 
 
-If set, this indicates all the files/list item version history to be included in the export operation. If absent then only the default version is provided
+For more information, see [EncryptionOption Class](https://docs.microsoft.com/en-us/dotnet/api/microsoft.sharepoint.client.encryptionoption).
 
-##### IncludeSecurity { get; set; }
 
-This flag indicates whether to include all user/group information from a site. By default, it assumes the security is not set, hence no user/group information is provided.
+#### azureContainerManifestUri
 
-#### ChangeToken(TBD, do not support in the first release)
-The changeToken takes in a DateTime parameter. If specified, only the modified date larger than the ChangeToken will be exported. If Null, everything will be exported. To keep consistency, dateTime will be based on UTC time. The change token will be compared based off the last modified time of an object type (e.g. file/folder or list item). If last modified time attribute is not supported, the object will be read by default.
+The valid URL including SAS token for accessing the Azure Blob Storage Container which contains the block blobs for the manifest and other package describing XML files. This location will also be used for the log output response. The SAS token must have been created with only Read, List and Write permissions or the asynchronous metadata read job will fail. The SAS token should at least have a lifetime that starts at from no later than when the job was submitted, until a reasonable time for successful import to have concluded.
+ 
+#### azureQueueReportUri
+The valid URL including SAS token for accessing the user provided Azure Queue used for returning notifications of asynchronous metadata read job progress. If this value is not null and proper access is granted in the SAS token in this URI, it will be used for real time status update. The SAS token must have been created with Add permissions or the migration job will be unable to add events to the queue. 
 
-### Corner Cases for ChangeToken
+Once accepted, the job ID will be written to the notification queue if it was provided and access is valid. The notification queue can be used for multiple migration jobs at the same time, as each job will identify itself in values sent back to the notification queue.
 
-#### Invalid Time Format 
-If Invalid time format is detected, other than NULL, an error will be thrown and then operation will be terminated. 
-Time Provided Larger than Present
-If current time provided is larger than present time, an error is also expected to be thrown and no content migration will take place.
 
 ## Output Parameters
 
-*asyncMigrationRead* is expected to return a list of fields including job ID of the unique URL, encryptionKey, azureContainerManifstUrl, and azureReportUri including in the SPAsyncReadJobInfo structure.
+### CurrentChangeToken
 
-#### UniqueJobID
+    public string CurrentChangeToken { get; set; }
+ 
+This function returns the changeToken associates with this query. By specifying this changeToken in the input field with subsequent read, the API will return only items changed since this last query.
 
-public Guid JobId { get; set; }
+#### Manifest Output
 
-The unique job associates with this asynchronous read request. SPMT/third party tools leverage this unique ID per URL for status check and to query the read process. 
+After the asyncMigrationRead function finishes execution, the final manifest will be placed in the container specified, with naming convention of “<jobid>/<filename>”.  Manifest export package structure will be like the *createMigration* Import Package structure. The general output structure is summarized in table below.
 
-#### AzureContainerManifestUri
-
-public Uri ManifestContainerUri { get; set; }
-The server code creates an azureContainer for the manifest . The manifest container Uri is included as a part of the return code. After the asyncMigrationRead function finishes execution, the final manifest will be placed in the container specified. 
-Manifest export package structure will be similar to createMigration Import Package structure. 
-
-The general output structure is summarized in table below.
 
 |**XML file**|**Schema File**|**Description**|
 |:-----|:-----|:-----|
-|ExportSettings.XML|DeploymentExportSettings Schema|ExportSettings.XML does the following: </br>Contains the export settings specified by using the SPExportSettings class and other classes that are part of the content migration object model. </br>Ensures that the subsequent export process (at the migration target site) enforces the directives specified in the export settings.</br>Maintains a catalog of all objects exported to the migration package.|
+|ExportSettings.XML|DeploymentExportSettings Schema|ExportSettings.XML does the following:</br></br>- Contains the export settings specified by using the SPExportSettings class and other classes that are part of the content migration object model. </br></br>- Ensures that the subsequent export process (at the migration target site) enforces the directives specified in the export settings.</br></br>- Maintains a catalog of all objects exported to the migration package.|
 |LookupListMap.XML|DeploymentLookupListMap Schema|Provides validation for the LookupListMap.XML file exported into the content migration package. LookupListMap.XML maintains a simple lookup list that records SharePoint list item (list item to list item) references.|
 |Manifest.XML|DeploymentManifest Schema|Provides validation for the Manifest.xml file that is exported into the content migration package.Provides a comprehensive manifest containing listings of both the contents and the structure of the destination site (E.g. SPO) . |
-|Requirements.XML|DeploymentRequirements Schema|Provides validation for the Requirements.xml file exported into the content migration package. Requirements.xml maintains list of deployment requirements in the form of installation requirements on the migration target, such as feature definitions, template versions, Web Part assemblies, and language packs.|
-|RootObjectMap.XML|DeploymentRootObjectMap Schema|Provides validation for the RootObjectMap.xml file exported into the content migration package.RootObjectMap.xml maintains a list of mappings of secondary (dependent) objects, which allows the import phase of the migration operation to correctly place the dependent objects relative to the locations of the root object mappings.|
+|Requirements.XML|DeploymentRequirements Schema|"Provides validation for the Requirements.xml file exported into the content migration package. Requirements.xml maintains list of deployment requirements in the form of installation requirements on the migration target, such as feature definitions,  template versions, Web Part assemblies, and language packs."|
+|RootObjectMap.XML|DeploymentRootObjectMap Schema|"Provides validation for the RootObjectMap.xml file exported into the content migration package.RootObjectMap.xml maintains a list of mappings of secondary (dependent) objects, which allows the import phase of the migration operation to correctly place the dependent objects relative to the locations of the root object mappings."|
 |SystemData.XML|DeploymentSystemData Schema|Provides validation for the SystemData.xml file exported into the content migration package.SystemData.xml does the following: Collects a variety of low-level system data. Records the number and names of Manifest.xml files (in cases where the migration uses multiple manifests).|
 |UserGroupMap.XML|DeploymentUserGroupMap Schema|Provides validation for the UserGroup.xml file exported into the content migration package. UserGroup.xml maintains a list of users and user security groups with respect to access security and permissions.|
 |ViewFormsList.XML|DeploymentViewFormsList Schema|Provides validation for the ViewFormsList.xml file exported into the content migration package.ViewFormsList.xml maintains a list of Web Parts and tracks whether each is a view or form.|
 
-### AzureQueueReportUri
+#### JobQueueUri
 
-```xml
-public Uri JobQueueUri { get; set; }
+    public Uri JobQueueUri { get; set; }
 
-```
+The reporting features is the same as createMigrationJob. Logging will be provided to track the status of the asynchronous read.  In additional, the log will provide an estimate number of items to be read per url after scan through the database and a rough estimate for your tools.
+In terms of blob queue permission and settings, all access will be by default and the same as when the ISV called ProvisionMigrationContainer during the createMigrationJob.
 
-The reporting features is the same as createMigrationJob. Logging will be provided to track the status of the asynchronous read.  In additional, the log will provide an estimate number of items to be read per url after scan through the database and a rough estimate for SPMT/third party tools.
-
-### EncryptionKey
-```xml
-public byte[] EncryptionKey { get; set; }
-
-```
+#### EncryptionKey:
+public byte[] EncryptionKey { get; set; }</br></br>
 It returns the AES256CBC encryption key used to decrypt the message in azureManifest container and azureReport Queue.
 
-#### Other functions
-Aside from asyncMigrationRead, two additional functions are provided to support the new features: deleteMigrationJob and getReadAsyncStatus.
+|**Output parameter**|**Description**|
+|:-----|:-----|
+|JobID/GUID|Return a unique Job ID associated with this asynchronous read|
+|AzureContainerManifest|Return the URL for accessing the async read manifest|
+|JobQueueUri|URL for accessing Azure queue used for returning notification of migration job process|
+|EncryptionKey|AES256CBC encryption key used to decrypt messages from job/manifest queue|
 
-*deleteMigrationJob(GUID readID)*
+## Set up Guidelines
+The following provides high level guidelines for implementing the asynchronous metadata migration function. This documentation does not go into details on how to interact with SharePoint RESTful service. It is assumed that the ISV has prior knowledge and will be able to access the target website with proper permission. </br>,</br>For more information on how to access the Sharepoint website, refer to [Get to Know the SharePoint Rest Service](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/get-to-know-the-sharepoint-rest-service).
 
-The existing deleteMigrationJob will also be used to delete any pending read request.  SPMT/third party tools pass the unique GUID per asyncMigrationRead. The same implementation details as published.
+1. Install and update the latest Microsoft.SharePointOnline.CSOM version. The minimum version requirement is V16.1.8600 or later.
+2. ISVs figure out the folder, document library or files of interested to be query and issued with CreateSPAsyncReadJob function. 
+3. Once successfully created, query the job status using the *jobQueueUri*. It provides the job process status and any error logging. After job completion, parse the Manifest to retrieve the metadata.
 
-*getReadAsyncStatus(GUID readID)*
+### Asynchronous Metadata Read Example 
 
-getReadAsyncStatus allows the SPMT/third party tools to query the asyncReadstatus for the specified read GUID. SPMT/third party tools should only query getReadAsyncStatus if no progress is received through the azureQueueReportUri or no azureQueueReportUri is defined. This function serves as a backup and provided minimal job status (e.g. job started, job in progress and job completed).
+#### Scenario: Large FileShare with nested files/folders
 
-## Metadata Support
-In the first release, the asynchronous read manifest would support similar metadata output as export-spweb. As previously mentioned, the first migration coverages include file, folder, list/document library and list items. 
+Suggestion:
+
+1. Issue CreateSPAsyncReadJob:</br>
+    a. URL = root URL (e.g. <spam><spam>www.contoso.com/my-resource-document<spam><spam>)</br>
+    b. Optional Flag: IncludeDirectDescendantsOnly(true)
+
+2. For each of the sub folders, issues createSPAsyncReadJob , for example if there are sub folder A and B</br>
+    a. Issue CreateSPAsyncReadJob with URL = root URL (e.g. <spam><spam>www.contoso.com/my-resource-document/a<spam><spam>) </br>
+    b. Issue CreateSPAsyncReadJob with URL = root URL (e.g. <spam><spam>www.contoso.com/my-resource-document/b<spam><spam>) 
+
+
+#### Scenario: Tenant to tenant or large Sharepoint Migration
  
+1. Issue CreateSPAsyncReadJob: </br>
+    a. URL = root URL (e.g. <spam><spam>www.contoso.com/my-resource-item<spam><spam>)</br>
+    b. Optional Flag: IncludeDirectDescendantsOnly(true) , IncludeFullMetadata(true)
 
-## Limitation
 
-For the first release, the limits for all supported migration will cap at 1 million.  For performance reasons, do not migrate more than 1 million of the table. 
+#### Scenario: Incremental Migration of FileShare for a sub folder
 
-|**Type**|**SharePoint Online Limit**|**Recommended async read limit**|**Description**|
+1. Issue CreateSPAsyncReadJob:</br>
+    a. URL = root URL (e.g. <spam><spam>www.contoso.com/my-resource-document/a<spam><spam>)</br>
+    b. Remembered the CurrentChangeToken 
+    
+2. After some time, the software wishes to perform incremental migration. Issue CreateSPAsyncReadJob with following term:</br>
+    a. URL = root URL (e.g. <spam><spam>www.contoso.com/my-resource-document/a<spam><spam>)</br>
+    b. Optional Flag: StartChangeToken(CurrentChangeToken)
+
+
+## Limitations
+
+By default, each URL supports up to 1 million limits. At the start of the migration, the asynchronous read migration function will check. If more than 1 million is detected an error will be thrown. Multiple versions of a single file will count as one. This limit may be changed in the future.
+
+**Asynchronous Read API Limitations**</br>
+
+
+|**Type**|**SharePoint Online Limit**|**Recommended limit</br>for async read**|**Description**|
 |:-----|:-----|:-----|:-----|
-|Lists|30 million items|1 million|Per list URL, the migration read will process up to 1 million read|
-|Document library|30 million files/folders|1 million|
-|Users|2 million per site collection|1 million|Per site collections.  This only applies/spports fo future permission setting|
+|Lists|30 million items|1 million|Per list URL, the migration read will process up to 1 million rea|
+|Document Library|30 million files/folders|1 million|Per list URL, the migration job will process up to 1 million reads|
+|Users|2 million per site collection|1 million|Per site collection. This is only supported in a future permission setting.|
+
+
+## Performance Expectation
+The preliminary performance test provides a rough estimate of more than 200 items per second throughput. This does not account for any potential throttle over the network. If the read asynchronous function fails to reach the server due to throttling, then performance will be impacted. At the start of read asynchronous migration, the server calculates the number of objects to confirm that it is within the 1 million object limit, hence there is an overhead.
+ 
+For single read query or small items read (e.g. hundreds of items), it is faster to use Graph API or RESTful/CSOM query as the asynchronous read metadata will have the overhead cost.
+
+However, one of the key performance benefits of the asynchronous metadata read is the ability to balance the server-side load and the backend query is much more efficient than individual CSOM load reducing your chance of throttling. 
+
+
+
