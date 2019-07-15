@@ -8,12 +8,9 @@ audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
-ms.collection: 
-- SPMigration
-- M365-collaboration
+ms.collection: SPMigration
 search.appverid: MET150
 ms.custom: 
-ms.assetid: 
 
 ---
 # Migration of Web parts in the migration API
