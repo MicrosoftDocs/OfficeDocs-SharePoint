@@ -129,6 +129,6 @@ As a site owner you can control whether the content in specific columns in lists
 
 When people search for content on your SharePoint sites, what's in your search index decides what they'll find. The search index contains information from all documents and pages on your site. In SharePoint Online, content is automatically crawled based on a defined crawl schedule. The crawler picks up content that has changed since the last crawl and updates the index.
   
-In some cases, you may want to specifically request a full re-indexing of a site. See [Manually request crawling and re-indexing of a site](crawl-site-content.md) for more information. 
+For cases in which the Search schema has changed where a managed property has been added/removed/changed, you will want to specifically request a full re-indexing of a site. See [Manually request crawling and re-indexing of a site](crawl-site-content.md) for more information. 
   
 
