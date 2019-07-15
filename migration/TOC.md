@@ -1,6 +1,7 @@
 # [Migrate  to SharePoint Online](migrate-to-sharepoint-online.md)
 ##  SharePoint Migration Tool (SPMT)
 ### [Overview and Download](introducing-the-sharepoint-migration-tool.md)
+###  [Release Notes](new-and-improved-features-in-the-sharepoint-migration-tool.md)
 ### What is supported by SPMT?
 #### [Supported features](what-is-supported-spmt.md)
 #### [Supported SharePoint list templates](sharepoint-migration-supported-list-templates.md) 
@@ -8,7 +9,6 @@
 #### [Supported SharePoint web parts](spmt-supported-webparts.md)
 #### [Supported Site features](spmt-supported-site-features.md)
 ### [Troubleshooting installation issues](spmt-install-issues.md)
-### [Release Notes](new-and-improved-features-in-the-sharepoint-migration-tool.md)
 ### [How the Sharepoint Migration Tool works](how-the-sharepoint-migration-tool-works.md)
 ### [Settings](spmt-settings.md)
 ### [How to use the SharePoint Migration Tool](how-to-use-the-sharepoint-migration-tool.md)
