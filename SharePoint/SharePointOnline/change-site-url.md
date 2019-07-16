@@ -43,19 +43,45 @@ It can take about 10 minutes to change the site address (depending on the size o
 
 For this preview, you can change the address of up to 10 sites at a time. To change an additional site address, wait for another change to finish. 
 
-## Effects of changing a site address
+## Change a site address in the new SharePoint admin center
 
-Make sure to communicate to users when the address will change, what the new address will be, and what to expect during and after the change. A redirect will be put in place for the previous URL. File permissions will not change. Any sharing links will be automatically redirected. The OneDrive sync client (Version 17.3.6943.0625 or later) will automatically switch to syncing folders at the new URL. During the URL change, users may see that uploads are pending. The Recent lists in the Office Desktop apps and in Office Online will be updated with the new URL. The OneNote Windows Store app (version 16.0.8431.1006 and later), desktop app (version 16.0.8326.2096 and later), and mobile app (version 16.0.8431.1011 and later) will automatically detect the address change and sync notebooks at the new URL. The latest mobile apps for Android and iOS will detect the new site address
+1. Sign in to https://admin.microsoft.com as a global or SharePoint admin to open the Microsoft 365 admin center. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
+    
+    > [!NOTE]
+    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the **Admin** tile to open the admin center.  
+    
+2. In the left pane of the admin center, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.).
+ 
+3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
 
-## Known issues
+4. In the left pane of the new SharePoint admin center, select **Active sites**.
 
-Users will be able to open team files through the Teams app, but only by selecting to open the library in SharePoint. 
+5. Click the site name to open the details pane.
 
-### SharePoint mobile apps
+6. In the Properties list, next to URL, select **Edit**.
 
+    ![Changing the address of a site from /teams](media/change-site-address.png)
 
+7. Enter the new site address, and then select **Save**.
 
-### Apps
+## Rename site addresses by using Microsoft PowerShell
 
-If an app refers to   
+1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
+    
+2. Connect to SharePoint Online as a global admin or SharePoint admin in Office 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+
+3. Run the following command to verify that the site can be renamed:
+
+    ```PowerShell
+    Start-SPOSiteContentRename -Identity <SiteUrL> -NewSiteUrl <NewSiteUrl> -ValidationOnly
+    ```
+
+4. Run the following command to rename the site:
+
+    ```PowerShell
+    Start-SPOSiteContentRename -Identity <SiteUrL> -NewSiteUrl <NewSiteUrl> -ValidationOnly
+    ```
+
+For more info about this cmdlet, see <link to PowerShell reference article>
+
 
