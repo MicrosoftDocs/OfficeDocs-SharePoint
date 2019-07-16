@@ -43,19 +43,19 @@ When a user adds a web part to any modern page in SharePoint and that web part o
     Add-SPOOrgAssetsLibrary [[-LibraryURL] <Object>] [[-ThumbnailURL] <Object>] 
     ```
 
-(Where ThumbnailURL is an image file that you want to appear in the file picker. The image must be on the same site as the library.)
+(Where ThumbnailURL is an image file that you want to appear in the file picker). The image must be on the same site as the library. [Learn more about the Add-SPOOrgAssetsLibrary cmdlet](/powershell/module/sharepoint-online/add-spoorgassetslibrary)
 
-Example: `Add-SPOOrgAssetsLibrary -LibraryURL https://contoso.sharepoint.com/sites/branding/Products -ThumbnailURL https://contoso.sharepoint.com/sites/branding/Products/surfacestudio.jpg`    
+Example: `Add-SPOOrgAssetsLibrary -LibraryURL https://contoso.sharepoint.com/sites/branding/Products -ThumbnailURL https://contoso.sharepoint.com/sites/branding/Products/surfacestudio.jpg`
+
 
 > [!NOTE]
-> Adding an organization assets library will enable a content delivery network (CDN) for your organization to provide fast and reliable performance for shared assets. You'll be prompted to enable CDN for each organization asset library you add. [More information about CDNs](https://go.microsoft.com/fwlink/?linkid=2077392)
+> Adding an organization assets library will enable a content delivery network (CDN) for your organization to provide fast and reliable performance for shared assets. You'll be prompted to enable CDN for each organization asset library you add. [More info about CDNs](/office365/enterprise/content-delivery-networks)
 
  
 ## Related commands 
 
-- See all organization asset libraries on the site: `Get-SPOOrgAssetsLibrary` 
-- Update thumbnail URL: `Set-SPOOrgAssetsLibrary [[-LibraryURL] <Object>] [[-ThumbnailURL] <Object>]` 
-- Remove a library: `Remove-SPOOrgAssetsLibrary [[-LibraryURL] <Object>]` 
- 
-  
+- See all organization asset libraries on the site: `Get-SPOOrgAssetsLibrary` [Learn more about this cmdlet](/powershell/module/sharepoint-online/get-spoorgassetslibrary) 
+- Update thumbnail URL: `Set-SPOOrgAssetsLibrary [[-LibraryURL] <Object>] [[-ThumbnailURL] <Object>]` [Learn more about this cmdlet](/powershell/module/sharepoint-online/set-spoorgassetslibrary) 
+- Remove a library: `Remove-SPOOrgAssetsLibrary [[-LibraryURL] <Object>]` [Learn more about this cmdlet](/powershell/module/sharepoint-online/remove-spoorgassetslibrary)
+
 
