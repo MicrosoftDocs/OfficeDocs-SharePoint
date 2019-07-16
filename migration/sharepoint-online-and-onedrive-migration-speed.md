@@ -89,15 +89,15 @@ After the migration is completed, verify that your content has been successfully
 ## FAQ and Troubleshooting
 
 *Question:* I am experiencing poor performance or throttling during migration.
-*Answer:*  Please check up guidance in this document and refers to aka.ms/spo429 for Microsoft throttling guidance. For specific tools configuration or questions, please contact your third party tools vendor for more information.
+*Answer:*  Please check up guidance in this document, plus refer to Please refer to [Avoid getting throttled or blocked in SharePoint Online](https://docs.microsoft.com/en-us/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online) for more information on Microsoft throttling guidance. For specific tools configuration or questions, please contact your third party tools vendor for more information.
 
 
-*Question:* I'm continually getting throttled while I am attempting to migrate. Can Microsoft turn off the throttle to help me with migration?
-*Answer:*  Throttling is in place to protect the reliability and availability of the service. Throttling rules cannot be disable. Please refer to [Avoid getting throttled or blocked in SharePoint Online](https://docs.microsoft.com/en-us/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online) for more information.
+*Question:* I'm continually getting throttled while I am attempting to migrate. Can Microsoft turn off the throttle to help me with migration?</br>
+*Answer:*  Throttling is in place to protect the reliability and availability of the service. Throttling rules cannot be disabled or suspended. Please refer to [Avoid getting throttled or blocked in SharePoint Online](https://docs.microsoft.com/en-us/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online) for more information.
+</br></br>
 
-
-*Question:* My migration is blocked with consistent high volume of Http 503 error (“Server Too Busy”) ?
-*Answer:* If you are experiencing high volume of HTTP 503s response blocking your migration for extended period of time, please follow the steps below in creating support ticket.
+*Question:* My migration is blocked with consistent high volume of Http 503 error (“Server Too Busy”) ?</br>
+*Answer:* If you are experiencing a high volume of HTTP 503 responses blocking your migration for extended period of time, please follow the steps below to create a support ticket.
 1.	Navigate to https://admin.microsoft.com
 2.	Ensure you are using the new admin center preview.
 
@@ -115,9 +115,9 @@ After the migration is completed, verify that your content has been successfully
     -Describe where you are migrating your content from, such as SharePoint Server, Box, GDrive, File shares, etc. 
     -Estimate number of throttling (e.g. x throttle per hour) and when (specific time and date) the throttling happened 
     -Provide the name of the migration tool you are using (e.g. SPMT, Sharegate, Mover, etc.)
+</br></br>
 
-
-*Question:* I am planning to migrate (> 100 TB), is there any preparation needed?
+*Question:* I am planning to migrate (> 100 TB), is there any preparation needed?</br>
 *Answer:* For larger than a 100TB migration, please submit a support request with following steps and please include the information below. 
 
 Follow these steps:
@@ -129,7 +129,7 @@ Follow these steps:
     -Estimated size of your migration
     -An estimate of when you would like to start and complete your migration
     -Describe where you are migrating your content from, such as SharePoint Server, Box, GDrive, File shares, etc.
-
+</br></br>
 
 
 
