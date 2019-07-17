@@ -59,7 +59,7 @@ Visio Services supports data-connected diagrams that are connected to data hoste
 
 Visio Services uses the diagram viewer's SharePoint Server credentials to connect to an .xlsx Excel workbook. For the authentication operation to succeed, the following conditions must be met:
   
-- [Office Online Server Preview](/webappsserver/office-web-apps-server) must be provisioned correctly and configured on the SharePoint farm. 
+- [Office Online Server](/webappsserver/office-web-apps-server) must be provisioned correctly and configured on the SharePoint farm. 
     
 - The workbook must be hosted on the same farm as the diagram.
     
