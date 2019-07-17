@@ -114,7 +114,7 @@ By default, users are allowed to share files in OneDrive and SharePoint with any
     This setting lets you control whether the owner of a shared file can see the people who only view (and don't edit) the file in OneDrive file access statistics. File access statistics appear on a card when users hover over a file name or thumbnail in OneDrive. The statistics include the number of views on the file, the number of people who viewed it, and the list of people who viewed it.
     
     > [!NOTE]
-    > This setting is selected by default. If you clear it, file viewer info is still recorded and available to you to audit as an admin. OneDrive owners will also still be able to see people viewing their shared Office files by opening the files from Office.com or from the Office desktop apps. 
+    > This setting is selected by default. If you clear it, file viewer info is still recorded and available to you to audit as an admin. OneDrive owners will also still be able to see people who viewed their shared Office files by opening the files from Office.com or from the Office desktop apps. 
   
 3. Click **Save**.
     
