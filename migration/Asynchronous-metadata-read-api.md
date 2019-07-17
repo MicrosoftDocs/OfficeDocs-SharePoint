@@ -47,11 +47,11 @@ A migration performance study identified four areas where CSOM calls are heavily
 The migration asynchronous metadata read API aims to reduce the CSOM calls in areas: incremental migration, after migration verification and permission settings. 
 
 >[!Note]
->The first version of the Asynchronous Metadata Read supports files, folders, lists, list items, and the document library. Permission are expected to be covered in a subsequent version.
+>The first version of the Asynchronous Metadata Read supports files, folders, lists, list items, and the document library. Permissions are expected to be covered in a subsequent version.
 
 Key supported features:
 
-- Ability to read up to 1 million items with a single API call. More information please refer to Limitation section below 
+- Ability to read up to 1 million items with a single API call. For more information, see **Limitations** section. 
 - Incremental migration feature support returning of item changed since last query with changeToken feature
 - Ability to include a rich set of metadata per item 
 - Ability to return only top-level structure without subfolders or children.
