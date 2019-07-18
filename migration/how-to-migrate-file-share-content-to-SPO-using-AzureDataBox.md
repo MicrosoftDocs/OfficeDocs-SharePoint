@@ -52,11 +52,12 @@ This workflow requires you to perform steps on Data Box as well as on SharePoint
 5.  Wait for the data to completely upload to Azure.
 
 The following steps relate to SharePoint Online.
-5.	Create a VM in the Azure portal and mount the Azure file share on it.
-6.	Install the SPMT tool on the Azure VM.
-7.	Run the SPMT tool using the Azure file share as the SOURCE.
-8.	Complete the final steps of the tool.
-9.	Verify and confirm your data.
+
+6. Create a VM in the Azure portal and mount the Azure file share on it.
+7. Install the SPMT tool on the Azure VM.
+8. Run the SPMT tool using the Azure file share as the SOURCE.
+9. Complete the final steps of the tool.
+10. Verify and confirm your data.
 
 
 ## Use Data Box to copy data
