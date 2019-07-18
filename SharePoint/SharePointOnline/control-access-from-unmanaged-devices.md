@@ -134,7 +134,7 @@ To block or limit access to specific sites, you must set the organization-wide p
     
 3. Under **Cloud apps**, select **Office 365 SharePoint Online**.
     
-4. Under **Conditions**, select both **Mobile apps and desktop clients** and **Browser**.
+4. Under **Conditions**, select ***Client apps***, then select both **Mobile apps and desktop clients** and **Browser**.
     
 5. Under **Session**, select **Use app enforced restrictions**. This tells Azure to use the settings you'll specify in SharePoint.
     
