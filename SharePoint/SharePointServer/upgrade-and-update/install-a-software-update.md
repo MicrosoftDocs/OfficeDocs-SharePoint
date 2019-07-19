@@ -153,7 +153,7 @@ This update scenario uses two phases to install the update on farm servers. Thes
 >[!IMPORTANT]
 >During the update phase, the farm can continue to be in production with minimal downtime. However, during the build-to-build upgrade phase, the farm will be unavailable. If users attempt to access content while the farm is upgrading, the result could be failed upgrades or excessive slowdowns in the upgrade process because of resource contention and locking. Such an attempt is unsupported and untested. 
   
-For more information, see the [Software updates overview for SharePoint Server 2016](/SharePoint/upgrade-and-update/software-updates-overview-for-sharepoint-server-2013#updateprocess) section in [Overview of the upgrade process from SharePoint 2013 to SharePoint Server 2016](/sharepoint/upgrade-and-update/verify-upgrade-for-databases).
+For more information, see the [Software updates overview for SharePoint Server 2016](/SharePoint/upgrade-and-update/software-updates-overview) section in [Overview of the upgrade process from SharePoint 2013 to SharePoint Server 2016](/sharepoint/upgrade-and-update/verify-upgrade-for-databases).
   
 ### Update phase
 
