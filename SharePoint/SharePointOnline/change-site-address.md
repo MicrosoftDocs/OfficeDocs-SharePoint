@@ -22,14 +22,12 @@ description: "Learn how to change the URL of a SharePoint site."
 
 # Change a site address
 
-As a global or SharePoint admin in your organization, you can change the URL for the following types of sites:
+As a global or SharePoint admin in your organization, you can change the URL for the following types of sites (previously called "site collections"):
 
 - Office 365 group-connected team sites
 - Modern team sites that don't belong to an Office 365 group
 - Communication sites
 - Classic team sites
-
-You can't change the address of sites that are locked or on hold, or of sites that have BCS connections. 
 
 You can change only the address of the site within the URL, for example:
 
@@ -41,10 +39,11 @@ You can't change the domain ("contoso" in the previous example) or any other par
 
 It can take about 10 minutes to change the site address (depending on the size of the site), and the site will be read-only during this time. We recommend changing addresses during times when the site is not heavily used. 
 
-For this preview, you can change the address of up to 10 sites at a time. To change an additional site address, wait for another change to finish. 
+For this preview, you can change the address of up to 100 sites at a time. To change an additional site address, wait for another change to finish. 
 
-## Communicating the address change to users  
-Before you change a site's address, it's important to communicate the change to the site’s users (generally anyone with the ability to edit or view the site). This can help reduce user confusion and calls to your help desk. Review the impact of changing a site address and let users know the following information:
+## Communicating the address change to users
+
+Before you change a site's address, it's important to communicate the change to the site’s users (generally anyone with the ability to edit or view the site). This can help reduce user confusion and calls to your help desk. [Review the effects](#effects-of-changing-a-site-address) of changing a site address and let users know the following information:
 
 - When the change will happen  
 - What the new URL will be  
@@ -72,6 +71,9 @@ Before you change a site's address, it's important to communicate the change to 
 
 7. Enter the new site address, and then select **Save**.
 
+> [!NOTE]
+> You can't change the address of hub sites, sites that are locked or on hold, or of sites that have BCS connections. 
+
 ## Change site addresses by using Microsoft PowerShell
 
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
@@ -92,24 +94,24 @@ Before you change a site's address, it's important to communicate the change to 
 
 For more info about this cmdlet, see <link to PowerShell reference article>
 
-## Impact of changing a site address
+## Effects of changing a site address
 
-While the change is in progress, the site is set to read-only. After the change is complete, users are redirected to the new URL if they've saved the site as a favorite or if they click a link to the site.
+While the change is in progress, the site is set to read-only, and a redirect is created. After the change is complete, users are redirected to the new URL if they've saved the site as a favorite or if they click a link to the site.
  
-**Permissions**  
+**Permissions**<br>
 People who have permission to access the site will be able to access the site during and after the site address change.  
 
-**Sharing links** 
+**Sharing links**<br>
 After the site address is changed, sharing links will automatically redirect to the new URL. 
 
-**Synced locations**
+**Synced locations**<br>
 The OneDrive sync client will automatically detect and seamlessly transfer syncing to the new site URL after the site address has been changed. Users don't need to sign in again or take any other action. (Version 17.3.6943.0625 or later of the sync client required.) 
 If a user updates a file while the site address is being changed, they'll see a message that file uploads are pending during the change. 
 
-**Recent lists in Office apps** 
+**Recent lists in Office apps**<br>
 The Word, Excel, and PowerPoint desktop apps and apps for the web will show the new URL after the change.  
 
-**OneNote**
+**OneNote**<br>
 If users have a notebook open during the site address change, they'll see a notebook sync error. After the address is changed, the following OneNote apps will automatically detect and seamlessly sync notebooks to the new site URL:
 
 - OneNote desktop app – Version 16.0.8326.2096 and later 
@@ -118,28 +120,28 @@ If users have a notebook open during the site address change, they'll see a note
 
 Users don't need to sign in again or take any other action.
 
-**Teams (for Office 365 group-connected sites)** 
+**Teams (for Office 365 group-connected sites)**<br>
 After the site address is changed, users won't be able to view the team's files within the Teams app, but they will be able to access them from Teams by selecting **Open in SharePoint**. 
 
-**SharePoint mobile apps for Android and iOS**
+**SharePoint mobile apps for Android and iOS**<br>
 The SharePoint mobile apps will detect the site’s new URL. Make sure that users have updated their apps to the latest version.  
 
-**Apps** 
+**Apps**<br>
 If apps in your organization refer to the site's URL, you might need to republish the apps when you change the site's address.  
 
-**Flow** 
+**Flow**<br>
 Flows will need to be recreated after the site address change.  
 
-**PowerApps** 
+**PowerApps**<br>
 PowerApps will need to be recreated after the site address change. 
 
-**Hub sites**
+**Hub sites**<br>
 If the site is associated with a hub, it will need to be reassociated after the site address is changed. 
 
-**InfoPath forms** 
+**InfoPath forms**<br>
 InfoPath forms that refer to URLs might not work after the site address is changed. 
 
-**SharePoint workflow 2013** 
+**SharePoint workflow 2013**<br>
 SharePoint workflow 2013 will need to be re-published after the site address is changed. 
   
 **Site customizations and embedded code**
