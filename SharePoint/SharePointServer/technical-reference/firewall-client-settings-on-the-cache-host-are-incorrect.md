@@ -42,7 +42,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: Firewall
     
 By default, the **Repair Automatically** option is enabled for this rule. You can restore the default setting for this rule by doing the following: 
   
-1. On the the SharePoint Central Administration website, click **Monitoring**.
+1. On the SharePoint Central Administration website, click **Monitoring**.
     
 2. On the Monitoring page, in the **Health Analyzer** section, click **Review rule definitions**.
     
