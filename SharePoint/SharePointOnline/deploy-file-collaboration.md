@@ -139,15 +139,21 @@ You can configure these settings for the entire organization, or for each site i
 
 When users share files and folders, a shareable link is created which has permissions to the item. There are three primary link types:
 
-  - *Anyone* links give access to the item to anyone who has the link. People using an *Anyone* link do not have to authenticate, and their access cannot be audited.  
+  - *Anyone* links give access to the item to anyone who has the link. People using an *Anyone* link do not have to authenticate, and their access cannot be audited.
+  
+    ![Diagram showing how anyone links can be passed from user to user](media/DMC_SharePointSharingLinks_Anyone.png)
       
     An *anyone* link is a transferrable, revocable secret key. It's transferrable because it can be forwarded to others. It's revocable because by deleting the link, you can revoke the access of everyone who got it through the link. It's secret because it can't be guessed or derived. The only way to get access is to get the link, and the only way to get the link is for somebody to give it to you.  
 
   - *People in your organization* links work for only people inside your Office 365 organization. (They do not work for guests in the directory, only members).  
+
+    ![Diagram showing how people in my organization links can be passed from user to user inside the company](media/DMC_SharePointSharingLinks_PeopleInYourOrganization.png)
       
     Like an *anyone* link, a *people in my organization* link is a transferrable, revocable secret key. Unlike an *anyone* link, these links only work for people inside your Office 365 organization. When somebody opens a *people in my organization* link, they need to be authenticated as a member in your directory. If they're not currently signed-in, they'll be prompted to sign-in.  
 
   - *Specific people* links only work for the people that users specify when they share the item.  
+
+    ![Diagram showing how specific people links only work for the people specified](media/DMC_SharePointSharingLinks_Specific.png)
       
     A *specific people* link is a non-transferable, revocable secret key. Unlike *anyone* and *people in my organization* links, a *specific people* link will not work if it's opened by anybody except for the person specified by the sender.  
       

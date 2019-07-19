@@ -176,7 +176,7 @@ The following services in SharePoint 2013 also require additional steps to enabl
     
 - **Office Web Apps**
     
-    Office Online Server is a new stand-alone server product that delivers Office Online functionality on your private network. You install and managed it separately from SharePoint 2013. It cannot be installed on the same server or virtual machine instance as SharePoint 2013. For more information, see [Deploy Office Web Apps Server 2013](/webappsserver/deploy-office-web-apps-server).
+    Office Online Server is a new stand-alone server product that delivers Office on the web functionality on your private network. You install and managed it separately from SharePoint 2013. It cannot be installed on the same server or virtual machine instance as SharePoint 2013. For more information, see [Deploy Office Web Apps Server 2013](/webappsserver/deploy-office-web-apps-server).
     
 ## Configure farm settings
 <a name="configfarmsettings"> </a>
