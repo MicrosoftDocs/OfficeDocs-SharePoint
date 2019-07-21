@@ -39,10 +39,15 @@ Information in this article applies to the following products:
     
 - SharePoint Server 2016 language pack
     
-- Microsoft Filter Pack
-    
 > [!NOTE]
-> The process that installs software updates in stand-alone environments of SharePoint Server 2016 is a simpler process than the process that installs software updates in a server farm and does not require all the steps that are required for a server farm. 
+> The process that installs software updates in stand-alone environments of SharePoint Server 2016 is a simpler process than the process that installs software updates in a server farm and does not require all the steps that are required for a server farm.
+
+Micrososft releases Public Updates each month. The first update is known as the language independent update. This update will often include both feature and security fixes. It is also known as the 'sts-x-none' patch.
+
+The second type of patch is the language dependent patch. This patch covers all language packs, including English installations. This patch is required to fully update the farm, although may not be released every month. This patch is also known as the 'wssloc' patch.
+
+> [!IMPORTANT]
+> If a lanaguage dependent patch isn't available for a given month, update to the latest previosuly available language dependent patch. For example, if applying the July 2019 Public Update for SharePoint Server 2016, install the language indepdendnt update for July 2019 and the language dependent patch from April 2019. If you do not install the language dependent patch, you may encounter missing or incorrect functionality.
   
 ## Software update terminology
 <a name="terms"> </a>
