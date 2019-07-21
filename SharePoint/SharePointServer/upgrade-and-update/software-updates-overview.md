@@ -1,5 +1,5 @@
 ---
-title: "Software updates overview for SharePoint Server 2016"
+title: "Software updates overview for SharePoint Server 2016 and 2019"
 ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
@@ -13,14 +13,15 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 4cbe141a-095f-4c09-82f4-dec8af16c590
-description: "Learn how to deploy a software update to a SharePoint Server 2016 farm."
+description: "Learn how to deploy a software update to a SharePoint Server 2016 or 2019 farm."
 ---
 
-# Software updates overview for SharePoint Server 2016
+# Software updates overview for SharePoint Server 2016 and 2019
 
- 
-  
-Administrators update SharePoint Server 2016 to deploy or update assemblies that provide functionality and to upgrade databases. A successful update follows a methodical approach that minimizes interruptions in service. Review information in this article to learn about the process before you begin the update process.
+Administrators update SharePoint Server 2016 or SharePoint Server 2019 to deploy or update assemblies that provide functionality and to upgrade databases. A successful update follows a methodical approach that minimizes interruptions in service. Review information in this article to learn about the process before you begin the update process.
+
+> [!NOTE]
+> This article applies to both SharePoint Server 2016 and SharePoint Server 2019.
   
 ## Before you begin software updates
 <a name="begin"> </a>
@@ -37,10 +38,14 @@ Information in this article applies to the following products:
   
 - SharePoint Server 2016
     
-- SharePoint Server 2016 language pack
+- SharePoint Server 2016 Language Packs
+
+- SharePoint Server 2019
+
+- SharePoint Server 2019 Language Packs
     
 > [!NOTE]
-> The process that installs software updates in stand-alone environments of SharePoint Server 2016 is a simpler process than the process that installs software updates in a server farm and does not require all the steps that are required for a server farm.
+> The process that installs software updates in stand-alone environments of SharePoint Server 2016 or 2019 is a simpler process than the process that installs software updates in a server farm and does not require all the steps that are required for a server farm.
 
 Micrososft releases Public Updates each month. The first update is known as the language independent update. This update will often include both feature and security fixes. It is also known as the 'sts-x-none' patch.
 
