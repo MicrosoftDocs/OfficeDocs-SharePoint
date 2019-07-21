@@ -24,7 +24,7 @@ description: "Learn about the five steps for planning your SharePoint Online env
 SharePoint Online is a cloud-based service that helps organizations share and manage content, knowledge, and applications to: 
 
 - Empower teamwork
-- Quickly find information
+- Quickly find the information
 - Seamlessly collaborate across the organization
   
 Before you dive into building and configuring your organization's SharePoint environment, there are a few things you should think about. For example, how will you manage sites with the objective to collaborate (team sites) and those with the objective to broadcast and share content for viewing (communication sites)?
