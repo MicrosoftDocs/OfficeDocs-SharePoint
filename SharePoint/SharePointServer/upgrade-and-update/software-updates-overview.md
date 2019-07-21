@@ -95,6 +95,11 @@ Each phase has specific steps and results. It is possible to postpone the build-
   
 ### Patch phase
 
+The patch phase involves running the update on each SharePoint Server in the farm. There may be one or two patches that are required to be run, the language independent update and language dependent update.
+
+> [!NOTE]
+> No specific order of installation in a farm is required.
+
 The patch phase has two steps, the patch deployment step and the binaries deployment step. During the patch deployment step, new binary files are copied to the server running SharePoint Server 2016. Services that use files that the patch has to replace are temporarily stopped. Stopping services reduces the requirement to restart the server to replace files that are being used. However, in some instances you have to restart the server.
   
 The second step in the patch phase is the binaries deployment step. In this step, the installer copies support dynamic link library (.dll) files to the appropriate directories on the server that is running SharePoint Server 2016. This step ensures that all the web applications are running the correct version of the binary files and will function correctly after the update is installed. The update phase is complete after the binaries deployment step.
@@ -102,6 +107,11 @@ The second step in the patch phase is the binaries deployment step. In this step
 The next and final phase to deploy software updates is the build-to-build upgrade phase. This phase modifies database schemas, updates objects in the farm, and updates site collections.
   
 ### Build-to-build upgrade phase
+
+The build-to-build upgrade phase requires the administrator to run the Configuration Wizard or `psconfig` from the SharePoint Managmeent Shell.
+
+> [!NOTE]
+> No specific order of execution of the Configuration Wizard in a farm is required.
 
 After you finish the patch phase, you must complete the update installation by starting the build-to-build upgrade phase. The build-to-build upgrade phase is task intensive and, therefore, takes the most time to finish. The first action is to upgrade all the SharePoint processes that are running. After you upgrade the processes, the databases are crawled and upgraded. After you complete a farm upgrade on one server, you have to complete the process on all other servers to maintain compatibility.
   
