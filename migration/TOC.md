@@ -12,6 +12,7 @@
 ### [How the Sharepoint Migration Tool works](how-the-sharepoint-migration-tool-works.md)
 ### [Settings](spmt-settings.md)
 ### [How to use the SharePoint Migration Tool](how-to-use-the-sharepoint-migration-tool.md)
+### [How to format your CSV or JSON file for data content migration](how-to-format-your-csv-file-for-data-content-migration.md)
 ### [Reports](using-the-sharepoint-migration-tool-reports.md)
 ### [Create User mapping files](create-a-user-mapping-file-for-data-content-migration.md)
 ## [Migrate to SharePoint Online using PowerShell](overview-SPMT-PS-cmdlets.md)
