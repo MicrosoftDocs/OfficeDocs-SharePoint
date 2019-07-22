@@ -41,7 +41,7 @@ Organizations create taxonomies in too many ways to list. They create Chart of A
 ### Folksonomy
 <a name="__migbm_1"> </a>
 
-A folksonomy is an informal classification system. It is evolves gradually as web site users collaborate on words, labels, and terms on a site. Originally, folksonomies developed from popular applications such as bookmarking.
+A folksonomy is an informal classification system. It evolves gradually as web site users collaborate on words, labels, and terms on a site. Originally, folksonomies developed from popular applications such as bookmarking.
   
 If you have ever seen a tag cloud on a website, then you have seen a visualization of a folksonomy. The following figure shows a tag cloud on a SharePoint site. 
   
