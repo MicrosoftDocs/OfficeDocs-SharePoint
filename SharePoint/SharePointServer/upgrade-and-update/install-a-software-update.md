@@ -142,7 +142,7 @@ The following illustration shows the steps that are required to install the upda
 ## Use the in-place method with backward compatibility
 <a name="inplacewithbackcompatibility"> </a>
 
-This scenario takes advantage of the backward compatibility of SharePoint 2013 and the deferred upgrade feature to reduce the farm downtime that is required to deploy a software update. However, downtime is not completely eliminated. The sites and services will not be available while the database content is being upgraded.
+This scenario takes advantage of the backward compatibility of SharePoint and the deferred upgrade feature to reduce the farm downtime that is required to deploy a software update. However, downtime is not completely eliminated. The sites and services will not be available while the database content is being upgraded.
   
 This update scenario uses two phases to install the update on farm servers. These phases are as follows:
   
