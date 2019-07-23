@@ -142,7 +142,7 @@ The following illustration shows the steps that are required to install the upda
 ## Use the in-place method with backward compatibility
 <a name="inplacewithbackcompatibility"> </a>
 
-This scenario takes advantage of the backward compatibility of SharePoint 2013 and the deferred upgrade feature to reduce the farm downtime that is required to deploy a software update. However, downtime is not completely eliminated. The sites and services will not be available while the database content is being upgraded.
+This scenario takes advantage of the backward compatibility of SharePoint and the deferred upgrade feature to reduce the farm downtime that is required to deploy a software update. However, downtime is not completely eliminated. The sites and services will not be available while the database content is being upgraded.
   
 This update scenario uses two phases to install the update on farm servers. These phases are as follows:
   
@@ -153,7 +153,7 @@ This update scenario uses two phases to install the update on farm servers. Thes
 >[!IMPORTANT]
 >During the update phase, the farm can continue to be in production with minimal downtime. However, during the build-to-build upgrade phase, the farm will be unavailable. If users attempt to access content while the farm is upgrading, the result could be failed upgrades or excessive slowdowns in the upgrade process because of resource contention and locking. Such an attempt is unsupported and untested. 
   
-For more information, see the [Software updates overview for SharePoint Server 2016](/SharePoint/upgrade-and-update/software-updates-overview-for-sharepoint-server-2013#updateprocess) section in [Overview of the upgrade process from SharePoint 2013 to SharePoint Server 2016](/sharepoint/upgrade-and-update/verify-upgrade-for-databases).
+For more information, see the [Software updates overview for SharePoint Server 2016](/SharePoint/upgrade-and-update/software-updates-overview) section in [Overview of the upgrade process from SharePoint 2013 to SharePoint Server 2016](/sharepoint/upgrade-and-update/verify-upgrade-for-databases).
   
 ### Update phase
 
