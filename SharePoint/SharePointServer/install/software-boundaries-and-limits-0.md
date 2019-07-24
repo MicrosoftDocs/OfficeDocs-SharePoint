@@ -22,10 +22,6 @@ description: "Learn about the tested performance and capacity limits of SharePoi
 
 # Software boundaries and limits for SharePoint Servers 2016 and 2019
 
- > [!NOTE]
- > For Sharepoint 2007 & 2010 historical support reasons, see [SharePoint Server 2010 capacity management: Software boundaries and limits](https://technet.microsoft.com/library/cc262787%28v=office.14%29.aspx).
-
-
 [!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)]
 
   
@@ -555,4 +551,4 @@ The following table lists limits and recommended guidelines for services and fea
   
 [Performance planning in SharePoint Server 2013](../administration/performance-planning-in-sharepoint-server-2013.md)
   
-
+[SharePoint Server 2010 capacity management: Software boundaries and limits](https://docs.microsoft.com/previous-versions/office/sharepoint-server-2010/cc262787(v=office.14))
