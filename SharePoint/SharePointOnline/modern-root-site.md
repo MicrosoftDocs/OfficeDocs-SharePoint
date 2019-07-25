@@ -21,7 +21,7 @@ description: "Learn about modernizing the root site for your organization."
 
 # Create a modern root site
   
-Previously, when SharePoint was set up for an organization, a classic team site was created as the root (or top-level) SharePoint site. Now, a communication site is set up as the root site for new organizations. If your environment was set up before **DATE**, you can change your root site to a modern site in one of two ways by using Microsoft PowerShell:
+Previously, when SharePoint was set up for an organization, a classic team site was created as the root (or top-level) SharePoint site. Now, a communication site is set up as the root site for new organizations. If your environment was set up before April 2019, you can change your root site to a modern site in one of two ways by using Microsoft PowerShell:
 
 - If you have a different site that you want to use as your root site, you can replace (swap) the root site with it.
 - To keep using the content on the site, you can convert the existing site to a communication site. 
@@ -35,14 +35,14 @@ Before you begin, make sure you:
 2. Review your source site to make sure it has the same policies, permissions, and external sharing settings as your current root site.
 
 > [!NOTE]
-> If you've enabled auditing, you can record the following events:
-<br> SiteSwapScheduled: A site swap was scheduled at this time
-<br> SiteSwapped: A site swap completed successfully at this time
-<br> SiteSwapFailed: A site swap failed at this time and will not retry
+> If you've enabled auditing, the following events can be recorded :
+<br> Scheduled site swap: A site swap was scheduled at this time
+<br> Swapped site: A site swap completed successfully at this time
+<br> Failed site swap: A site swap failed at this time and will not retry
  
 ### Limitations
 
-- Only sites within the same domain, for example, https://<tenant-name>.sharepoint.com can be swapped.
+- Only sites within the same domain, for example, https://contoso.sharepoint.com can be swapped.
 - The source site must be a modern team site (STS#3), a communication site (SITEPAGEPUBLISHING#0), or a classic team site (STS#0).
 - The source and target sites can't be connected to an Office 365 group or associated with a hub. 
   
