@@ -21,6 +21,7 @@
 ### [Search](get-started-with-modern-search-experience.md)
 ### [Permissions and sharing](sharing-permissions-modern-experience.md)
 ### [Performance](modern-experience-performance.md)
+### [Root site](modern-root-site.md)
 ### [Lists and libraries](change-default-list-and-library-experience.md)
 ## [New admin center]()
 ### [Home page](get-started-new-admin-center.md)
