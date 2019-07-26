@@ -32,12 +32,13 @@ Invoke-SPOSiteSwap
   --ArchiveUrl  
 ```
 
+|**Parameter** <br/> |**Description** <br/> |
+|:-----|:-----|
+|-SourceUrl <br/> |The site you want to promote. <br/> |
+|-TargetUrl   <br/> |Resource ID of the user.  <br/> |
+|-ArchiveUrl  <br/> |The site you want to replace. <br/> |
 
-| Parameter | Description | 
-| ------------- |-------------| 
-|-SourceUrl    | The site you want to promote.  | 
-|-TargetUrl     | The site you want to replace.      |   
-|-ArchiveUrl | URL that the target site will be archived to.      |  
+  
 Here's an example of how to use these parameters when switching from an existing Enterprise Search Center to Basic:
 
 - **For your -SourceUrl**, you need the URL of your Basic Search Center site. The site must exist before running the cmdlet. For our example, we'll use <spam><spam>https://contoso.sharepoint.com/sites/SiteSearch<spam><spam>.
