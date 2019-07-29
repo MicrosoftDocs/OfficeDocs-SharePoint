@@ -496,7 +496,7 @@ Perform the procedures in this section only when they are pointed to from other 
 ## Install a software update on servers that host Distributed Cache
 <a name="HostCache"> </a>
 
-Prior to restarting a server from running a software update or Configuration Wizard, you must stop Distributed Cache to prevent unallocated cache fractions. Follow the process outlined at [](/sharepoint/administration/manage-the-distributed-cache-service#perform-a-graceful-shutdown-of-the-distributed-cache-service-by-using-a-powershell-script) to gracefully shut down Distributed Cache.
+Prior to restarting a server from running a software update or Configuration Wizard, you must stop Distributed Cache to prevent unallocated cache fractions. Follow the process outlined [here](/sharepoint/administration/manage-the-distributed-cache-service#perform-a-graceful-shutdown-of-the-distributed-cache-service-by-using-a-powershell-script) to gracefully shut down Distributed Cache.
 
 >[!IMPORTANT]
 > Do not use `Stop-SPDistributedCacheServiceInstance -Graceful` as this will terminate Distributed Cache prior to the cache being transferred to another server in the farm.
