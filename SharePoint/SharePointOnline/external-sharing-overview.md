@@ -131,6 +131,8 @@ If you have business partners or vendors with whom you need to collaborate or sh
 ## Need more help?
 
 [!INCLUDE[discussionforums.md](includes/discussionforums.md)]
+
+You can also find help from SharePoint community experts on the [Microsoft Creators YouTube channel](https://www.youtube.com/playlist?list=PLKurDp05sqD0oE3KnohD69dkP5fHmrfuN).
   
 ## See also
 
