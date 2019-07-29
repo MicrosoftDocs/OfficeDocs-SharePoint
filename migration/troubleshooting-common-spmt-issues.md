@@ -23,8 +23,8 @@ This article describes some common issues and errors that you may encounter when
 
 >[!Note]
 > For help on SPMT installation issues, see:
-
-- [Troubleshooting SPMT installation issues](https://docs.microsoft.com/en-us/sharepointmigration/spmt-install-issues)
+>
+>- [Troubleshooting SPMT installation issues](https://docs.microsoft.com/en-us/sharepointmigration/spmt-install-issues)
 
 ## Common error messages
 
