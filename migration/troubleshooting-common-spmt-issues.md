@@ -17,6 +17,8 @@ search.appverid: MET150
 ms.custom: 
 description: "How to troubleshoot common errors in the SharePoint Migration Tool."
 ---
+# Troubleshooting common SPMT issues and errors
+
 ## Common issues and actions:
 
 **We are unable to connect to the site you provided**
