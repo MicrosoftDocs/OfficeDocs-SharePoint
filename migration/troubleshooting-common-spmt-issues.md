@@ -31,29 +31,6 @@ description: "How to troubleshoot common errors in the SharePoint Migration Tool
 |**Scan file failure: Target path is too long**|See [Invalid file names and file types in OneDrive and SharePoint](https://support.office.com/en-us/article/Invalid-file-names-and-file-types-in-OneDrive-OneDrive-for-Business-and-SharePoint-64883a5d-228e-48f5-b3d2-eb39e07630fa)</br></br>The entire path, including the file name, must contain fewer than 400 characters for OneDrive, OneDrive for Business and SharePoint Online.|
 
 
-</br></br>
-**We are unable to connect to the site you provided**
-- Check if the list exists or if you can access it in the source site and target site from your machine
-- Confirm you have signed into SPMT with a user that has access to the site.
-- Confirm the URL was correct Example :  <spam><spam>https://<spam><spam>contoso.sharepoint.com/teams/SiteTitle<spam><spam> 
-
-- **Invalid source folder**
-- Confirm the path is correct
-- Confirm the user of the tool has read access to the folder
-
-**The site cannot be created or updated**
-- Confirm you have permission to create that site and that the URL is valid
-- If it exist confirm you are the site collection administrator
-- If it still fails you can create the site manually and point the migration tool to this newly created site.
-
-**Scan file failure: The folder name is invalid**
-- See [Invalid file names and file types in OneDrive and SharePoint](https://support.office.com/en-us/article/Invalid-file-names-and-file-types-in-OneDrive-OneDrive-for-Business-and-SharePoint-64883a5d-228e-48f5-b3d2-eb39e07630fa)
-
-**Scan file failure: Target path is too long** 
-- See [Invalid file names and file types in OneDrive and SharePoint](https://support.office.com/en-us/article/Invalid-file-names-and-file-types-in-OneDrive-OneDrive-for-Business-and-SharePoint-64883a5d-228e-48f5-b3d2-eb39e07630fa)
-- The entire path, including the file name, must contain fewer than 400 characters for OneDrive, OneDrive for Business and SharePoint Online.
-
-
 
 
 ## Common SPMT errors
