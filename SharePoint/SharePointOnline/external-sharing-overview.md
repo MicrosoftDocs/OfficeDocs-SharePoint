@@ -131,8 +131,12 @@ If you have business partners or vendors with whom you need to collaborate or sh
 ## Need more help?
 
 [!INCLUDE[discussionforums.md](includes/discussionforums.md)]
+
+You can also find help on security and permissions in these [YouTube videos from SharePoint community experts](https://www.youtube.com/playlist?list=PLKurDp05sqD0oE3KnohD69dkP5fHmrfuN).
   
 ## See also
+
+[How Microsoft manages and enables external sharing and collaboration with SharePoint (Microsoft Ignite)](https://www.youtube.com/watch?v=dK5uky1bJ1Y)
 
 [Coaching your guests through the external sharing experience](https://techcommunity.microsoft.com/t5/SharePoint-Support-Blog/Coaching-your-guest-users-through-the-External-Sharing/ba-p/182739)
   
