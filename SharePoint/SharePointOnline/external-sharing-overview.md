@@ -132,7 +132,7 @@ If you have business partners or vendors with whom you need to collaborate or sh
 
 [!INCLUDE[discussionforums.md](includes/discussionforums.md)]
 
-You can also find help from SharePoint community experts on the [Microsoft Creators YouTube channel](https://www.youtube.com/playlist?list=PLKurDp05sqD0oE3KnohD69dkP5fHmrfuN).
+You can also find help on security and permissions in these [YouTube videos from SharePoint community experts](https://www.youtube.com/playlist?list=PLKurDp05sqD0oE3KnohD69dkP5fHmrfuN).
   
 ## See also
 
