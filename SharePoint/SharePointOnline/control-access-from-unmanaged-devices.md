@@ -128,13 +128,13 @@ Limiting access allows users to remain productive while addressing the risk of a
 
 To block or limit access to specific sites, you must set the organization-wide policy to "Allow full access from desktop apps, mobile apps, and the web." Then follow these steps to manually create a policy in the Azure AD admin center and run PowerShell cmdlets.
   
-1. In the Azure AD admin center, select **Conditional access**, and then select **Add**.
+1. In the Azure AD admin center, select **Conditional access**, and then select **New policy**.
     
 2. Under **Users and groups**, select whether you want the policy to apply to all users or only specific security groups.
     
 3. Under **Cloud apps**, select **Office 365 SharePoint Online**.
     
-4. Under **Conditions**, select ***Client apps***, then select both **Mobile apps and desktop clients** and **Browser**.
+4. Under **Conditions**, select **Client apps**, then select both **Mobile apps and desktop clients** and **Browser**.
     
 5. Under **Session**, select **Use app enforced restrictions**. This tells Azure to use the settings you'll specify in SharePoint.
     
