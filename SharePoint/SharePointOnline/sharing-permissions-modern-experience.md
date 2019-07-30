@@ -97,11 +97,11 @@ Team site permissions are driven by SharePoint groups and may be administered by
 
 Communication sites look to “Share” a site, sharing a given site to individual users or security groups. When sharing, the particular user or group may be granted full control, edit, or read only access.
 
-Communication sites are not tied to an Office 365 Group. Advanced permissions options are also available to communication sites via the Sharing or Site permissions panels. It is important to note that underlying sharing and general permissions of communication sites also driven by SharePoint groups. Communication sites include three default SharePoint groups, Owners, Members, and Visitors, just as provided by traditional SharePoint sites.
+Communication sites are not tied to an Office 365 Group. Advanced permissions options are also available to communication sites via the Sharing or Site permissions panels. It is important to note that the underlying sharing and general permissions of communication sites are also driven by SharePoint groups. Communication sites include three default SharePoint groups, Owners, Members, and Visitors, just as provided by traditional SharePoint sites.
 
 ## Internal and external sharing within SharePoint Online 
 
-Sharing a site or asset within a site such as a library or document is essentially the same a granting permission for a particular person, user, or group to the shared asset. When sharing within SharePoint, you are also provided the ability to email the user directly with the UI as well.
+Sharing a site or asset within a site such as a library or document is essentially the same as granting permission for a particular person, user, or group to the shared asset. When sharing within SharePoint, you are also provided the ability to email the user directly with the UI as well.
 
 There are two primary forms for sharing within SharePoint, internal sharing and external sharing. Internal sharing includes sharing with users or security groups within your organization. External sharing includes sharing with anyone else.
 
