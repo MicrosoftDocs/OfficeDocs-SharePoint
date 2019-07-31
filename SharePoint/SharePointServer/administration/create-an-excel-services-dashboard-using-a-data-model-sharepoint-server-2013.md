@@ -1,6 +1,5 @@
 ---
 title: "Create an Excel Services dashboard using a Data Model (SharePoint Server 2013)"
-ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

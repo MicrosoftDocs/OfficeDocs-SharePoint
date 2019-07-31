@@ -1,6 +1,5 @@
 ---
 title: "View search usage reports"
-ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: arnek

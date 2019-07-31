@@ -1,6 +1,5 @@
 ---
 title: "Create Test and Developer Environments"
-ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

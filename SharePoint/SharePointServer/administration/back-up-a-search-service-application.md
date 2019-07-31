@@ -1,6 +1,5 @@
 ---
 title: "Back up Search service applications in SharePoint Server"
-ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

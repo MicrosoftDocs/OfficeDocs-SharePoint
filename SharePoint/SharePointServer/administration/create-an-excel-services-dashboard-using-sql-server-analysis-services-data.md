@@ -1,6 +1,5 @@
 ---
 title: "Create an Excel Services dashboard using SQL Server Analysis Services data"
-ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

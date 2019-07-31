@@ -1,6 +1,5 @@
 ---
 title: "View Popularity Trends and Most Popular Items"
-ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: arnek

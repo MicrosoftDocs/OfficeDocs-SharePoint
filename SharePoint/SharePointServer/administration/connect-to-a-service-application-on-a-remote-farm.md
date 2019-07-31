@@ -1,6 +1,5 @@
 ---
 title: "Connect to service applications on remote farms in SharePoint Server"
-ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

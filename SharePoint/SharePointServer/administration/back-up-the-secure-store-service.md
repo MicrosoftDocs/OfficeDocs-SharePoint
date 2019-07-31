@@ -1,6 +1,5 @@
 ---
 title: "Back up the Secure Store Service in SharePoint Server"
-ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

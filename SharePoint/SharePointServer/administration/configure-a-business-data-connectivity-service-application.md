@@ -1,6 +1,5 @@
 ---
 title: "Configure a Business Data Connectivity service application in SharePoint Server"
-ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

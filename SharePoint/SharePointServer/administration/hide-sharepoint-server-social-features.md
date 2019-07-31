@@ -1,6 +1,5 @@
 ---
 title: "Hide SharePoint Server social features"
-ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

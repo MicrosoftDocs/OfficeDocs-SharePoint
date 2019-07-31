@@ -1,6 +1,5 @@
 ---
 title: "High availability and disaster recovery concepts in SharePoint Server"
-ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

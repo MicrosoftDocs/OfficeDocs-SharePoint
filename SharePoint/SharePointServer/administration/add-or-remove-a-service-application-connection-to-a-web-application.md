@@ -1,6 +1,5 @@
 ---
 title: "Add or remove service application connections from a web application in SharePoint Server"
-ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

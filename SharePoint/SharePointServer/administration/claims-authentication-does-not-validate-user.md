@@ -1,6 +1,5 @@
 ---
 title: "Claims authentication does not validate user in SharePoint Server"
-ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

@@ -1,6 +1,5 @@
 ---
 title: "Manage Excel Services trusted data connection libraries (SharePoint Server 2013)"
-ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

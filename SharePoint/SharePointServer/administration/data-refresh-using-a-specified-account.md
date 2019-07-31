@@ -1,6 +1,5 @@
 ---
 title: "Configure scheduled data refresh for Power Pivot by using a specified account (SharePoint Server 2013)"
-ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

@@ -1,6 +1,5 @@
 ---
 title: "Manage Excel Services trusted data providers (SharePoint Server 2013)"
-ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

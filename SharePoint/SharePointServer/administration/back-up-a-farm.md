@@ -1,6 +1,5 @@
 ---
 title: "Back up farms in SharePoint Server"
-ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

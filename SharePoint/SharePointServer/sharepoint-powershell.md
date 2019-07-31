@@ -1,6 +1,5 @@
 ---
 title: "SharePoint PowerShell"
-ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen

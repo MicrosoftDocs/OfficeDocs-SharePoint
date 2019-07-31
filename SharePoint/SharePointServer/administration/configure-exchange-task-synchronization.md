@@ -1,6 +1,5 @@
 ---
 title: "Configure Exchange task synchronization in SharePoint Server 2013"
-ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

@@ -1,6 +1,5 @@
 ---
 title: "Configure object cache user accounts in SharePoint Server"
-ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

@@ -1,6 +1,5 @@
 ---
 title: "Integrate a Yammer network into SharePoint Server with social features"
-ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

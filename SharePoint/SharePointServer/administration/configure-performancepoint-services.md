@@ -1,6 +1,5 @@
 ---
 title: "Configure PerformancePoint Services"
-ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

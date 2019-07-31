@@ -1,6 +1,5 @@
 ---
 title: "Configure server-to-server authentication between publishing and consuming farms"
-ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

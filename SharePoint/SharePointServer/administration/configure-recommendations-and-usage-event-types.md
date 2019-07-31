@@ -1,6 +1,5 @@
 ---
 title: "Configure recommendations and usage event types in SharePoint Server"
-ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

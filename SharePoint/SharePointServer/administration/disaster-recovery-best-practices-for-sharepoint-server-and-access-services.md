@@ -1,6 +1,5 @@
 ---
 title: "Disaster Recovery best practices for SharePoint Server and Access Services"
-ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

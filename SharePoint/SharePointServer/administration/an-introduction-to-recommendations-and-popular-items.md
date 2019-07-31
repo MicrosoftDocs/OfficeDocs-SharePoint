@@ -1,6 +1,5 @@
 ---
 title: "An introduction to recommendations and popular items in SharePoint Server"
-ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

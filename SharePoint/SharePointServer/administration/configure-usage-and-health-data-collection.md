@@ -1,6 +1,5 @@
 ---
 title: "Configure usage and health data collection in SharePoint Server"
-ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

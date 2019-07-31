@@ -1,6 +1,5 @@
 ---
 title: "Understanding permission levels in SharePoint"
-ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

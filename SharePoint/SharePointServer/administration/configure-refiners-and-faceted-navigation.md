@@ -1,6 +1,5 @@
 ---
 title: "Configure refiners and faceted navigation in SharePoint Server"
-ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

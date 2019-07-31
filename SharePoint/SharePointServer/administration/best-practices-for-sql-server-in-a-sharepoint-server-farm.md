@@ -1,6 +1,5 @@
 ---
 title: "Best practices for SQL Server in a SharePoint Server farm"
-ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

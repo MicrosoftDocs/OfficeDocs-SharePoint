@@ -1,6 +1,5 @@
 ---
 title: "Maintain user profile synchronization settings in SharePoint Server 2013"
-ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen

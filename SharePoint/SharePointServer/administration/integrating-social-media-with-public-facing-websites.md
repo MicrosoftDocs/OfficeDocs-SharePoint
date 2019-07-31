@@ -1,6 +1,5 @@
 ---
 title: "Integrating social media with public-facing websites in SharePoint"
-ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

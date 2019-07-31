@@ -1,6 +1,5 @@
 ---
 title: "Integrate a Yammer network into SharePoint Server and Office 365"
-ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

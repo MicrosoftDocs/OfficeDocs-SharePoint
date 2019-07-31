@@ -1,6 +1,5 @@
 ---
 title: "Turn external sharing on or off"
-ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

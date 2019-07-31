@@ -1,6 +1,5 @@
 ---
 title: "Test Lab Guide Demonstrate Social Features for SharePoint Server 2013"
-ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen

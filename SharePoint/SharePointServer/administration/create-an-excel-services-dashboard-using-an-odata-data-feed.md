@@ -1,6 +1,5 @@
 ---
 title: "Create an Excel Services dashboard using an OData data feed"
-ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

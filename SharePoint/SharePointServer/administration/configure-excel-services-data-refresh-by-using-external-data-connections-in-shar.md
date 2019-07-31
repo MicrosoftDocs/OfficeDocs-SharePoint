@@ -1,6 +1,5 @@
 ---
 title: "Configure Excel Services data refresh by using external data connections in SharePoint Server 2013"
-ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

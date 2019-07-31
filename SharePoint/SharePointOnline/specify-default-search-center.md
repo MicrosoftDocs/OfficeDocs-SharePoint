@@ -1,6 +1,5 @@
 ---
 title: "Search Center settings"
-ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: arnek

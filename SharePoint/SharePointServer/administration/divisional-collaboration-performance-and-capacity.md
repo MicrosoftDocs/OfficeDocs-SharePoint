@@ -1,6 +1,5 @@
 ---
 title: "Estimate performance and capacity requirements for divisional collaboration environments (SharePoint Server 2013)"
-ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

@@ -1,6 +1,5 @@
 ---
 title: "Securing a SharePoint Online extranet site"
-ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

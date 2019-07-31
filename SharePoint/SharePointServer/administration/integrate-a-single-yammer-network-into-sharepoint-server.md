@@ -1,6 +1,5 @@
 ---
 title: "Integrate a single Yammer network into SharePoint Server"
-ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

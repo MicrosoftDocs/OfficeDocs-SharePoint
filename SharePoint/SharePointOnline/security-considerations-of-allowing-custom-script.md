@@ -1,6 +1,5 @@
 ---
 title: "Security considerations of allowing custom script"
-ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen

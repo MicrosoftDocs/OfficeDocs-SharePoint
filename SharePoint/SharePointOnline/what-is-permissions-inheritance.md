@@ -1,6 +1,5 @@
 ---
 title: "What is permissions inheritance?"
-ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

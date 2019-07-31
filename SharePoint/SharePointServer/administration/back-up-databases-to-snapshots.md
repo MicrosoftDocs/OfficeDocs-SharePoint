@@ -1,6 +1,5 @@
 ---
 title: "Back up databases to snapshots in SharePoint Server"
-ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

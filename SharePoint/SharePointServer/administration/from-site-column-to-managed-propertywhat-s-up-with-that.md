@@ -1,6 +1,5 @@
 ---
 title: "From site column to managed property - What's up with that?"
-ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

@@ -1,6 +1,5 @@
 ---
 title: "Integrate Yammer with on-premises SharePoint Server environments"
-ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

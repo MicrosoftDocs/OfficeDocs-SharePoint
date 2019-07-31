@@ -1,6 +1,5 @@
 ---
 title: "Configure Search Web Parts in SharePoint Server"
-ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

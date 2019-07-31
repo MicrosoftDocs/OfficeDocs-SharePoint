@@ -1,6 +1,5 @@
 ---
 title: "Install and configure RBS with FILESTREAM in a SharePoint Server farm"
-ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

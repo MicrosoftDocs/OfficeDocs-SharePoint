@@ -1,6 +1,5 @@
 ---
 title: "Estimate capacity and performance for compliance and eDiscovery for SharePoint Server 2013"
-ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

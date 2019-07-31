@@ -1,6 +1,5 @@
 ---
 title: "Crawl log permissions"
-ms.reviewer: 
 ms.author: tlarsen
 author: tklarsen
 manager: arnek

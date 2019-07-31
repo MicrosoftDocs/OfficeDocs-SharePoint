@@ -1,6 +1,5 @@
 ---
 title: "Authentication for mobile devices in SharePoint 2013"
-ms.reviewer: 
 ms.author: toresing
 author: tomresing
 manager: pamgreen

@@ -1,6 +1,5 @@
 ---
 title: "Configure AdventureWorks for Business Intelligence solutions"
-ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

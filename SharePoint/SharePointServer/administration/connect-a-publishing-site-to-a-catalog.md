@@ -1,6 +1,5 @@
 ---
 title: "Connect a publishing site to a catalog in SharePoint Server"
-ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

@@ -1,6 +1,5 @@
 ---
 title: "Global deployment of multiple farms (SharePoint 2013)"
-ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

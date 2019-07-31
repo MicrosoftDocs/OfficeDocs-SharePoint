@@ -1,6 +1,5 @@
 ---
 title: "Configure SharePoint Hybrid Auditing in SharePoint 2016 (Preview)"
-ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

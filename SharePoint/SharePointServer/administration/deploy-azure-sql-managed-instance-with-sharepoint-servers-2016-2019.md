@@ -1,6 +1,5 @@
 ---
 title: "Deploy Azure SQL Managed Instance with SharePoint Servers 2016 and 2019"
-ms.reviewer: 
 ms.author: stevhord
 author: bentoncity
 manager: pamgreen

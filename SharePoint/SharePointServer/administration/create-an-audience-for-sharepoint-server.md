@@ -1,6 +1,5 @@
 ---
 title: "Create an audience for SharePoint Server"
-ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
 manager: pamgreen
