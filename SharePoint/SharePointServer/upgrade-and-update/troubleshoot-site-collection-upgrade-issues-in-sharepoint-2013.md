@@ -58,7 +58,7 @@ To reset the page, you can use the **Reset to site definition** link under **Sit
 
 - **A:** Create indexed columns, folders, or new views for large lists. You might have to add the indexed column to your existing views. 
     
-If a list is very large, and users use a view or perform a query that exceeds the limit or throttling threshold, the view or query will not be permitted. You can create indexed columns with filtered views, organize items into folders, set an item limit on the page for a large view, or use an external list. For more information about large list throttling and how to address issues with large lists, see [Manage lists and libraries with many items](https://go.microsoft.com/fwlink/p/?LinkId=251456) on Office Online. 
+If a list is very large, and users use a view or perform a query that exceeds the limit or throttling threshold, the view or query will not be permitted. You can create indexed columns with filtered views, organize items into folders, set an item limit on the page for a large view, or use an external list. For more information about large list throttling and how to address issues with large lists, see [Manage lists and libraries with many items](https://go.microsoft.com/fwlink/p/?LinkId=251456). 
   
 ### Q: I see an error about a duplicate content type name
 <a name="UI"> </a>
@@ -71,7 +71,7 @@ In the upgrade log files, you may see an error such as the following:
   
 - Failed to activate site collection features on site Site Url. Exception: A duplicate content type name  _"name"_ was found. 
     
-This error indicates that a third-party content type was added to the specified site in SharePoint Server 2010. During upgrade to SharePoint 2013 its name conflicted with the default content type by the same name. Rename the third-party content type in the specified site to a different name and run upgrade again. For more information, see [Create or customize a content type](http://office.microsoft.com/en-us/office365-sharepoint-online-enterprise-help/create-or-customize-a-content-type-HA102773269.aspx?CTT=5&amp;origin=HA103591373) on Office Online. 
+This error indicates that a third-party content type was added to the specified site in SharePoint Server 2010. During upgrade to SharePoint 2013 its name conflicted with the default content type by the same name. Rename the third-party content type in the specified site to a different name and run upgrade again. For more information, see [Create or customize a content type](http://office.microsoft.com/en-us/office365-sharepoint-online-enterprise-help/create-or-customize-a-content-type-HA102773269.aspx?CTT=5&amp;origin=HA103591373). 
   
 > [!NOTE]
 > Either renaming or removing a content type can cause any customizations dependent on that content type to stop working. 
@@ -101,7 +101,7 @@ This error indicates that a third-party content type was added to the specified 
     
     A Web Part or other control might have been added to the page that is not installed or is no longer supported. Either a Web Part was added to a zone or the page was directly edited to add a control or Web Part reference directly inline (possibly on a master page).
     
-    A SharePoint feature may need to be activated. For more information, see [Enable or disable site collection features](https://office.microsoft.com/en-us/office365-sharepoint-online-enterprise-help/enable-or-disable-site-collection-features-HA102772720.aspx?CTT=1) and [Open and use the Web Part Maintenance Page](https://office.microsoft.com/en-us/sharepoint-help/open-and-use-the-web-part-maintenance-page-HA104046809.aspx?CTT=1) on Office Online. 
+    A SharePoint feature may need to be activated. For more information, see [Enable or disable site collection features](https://office.microsoft.com/en-us/office365-sharepoint-online-enterprise-help/enable-or-disable-site-collection-features-HA102772720.aspx?CTT=1) and [Open and use the Web Part Maintenance Page](https://office.microsoft.com/en-us/sharepoint-help/open-and-use-the-web-part-maintenance-page-HA104046809.aspx?CTT=1). 
     
 ### Q: I receive an error that I cannot create a subsite based on a site template because the site template uses the 2010 experience version and my site collection is in the 2013 experience version
 <a name="UI"> </a>

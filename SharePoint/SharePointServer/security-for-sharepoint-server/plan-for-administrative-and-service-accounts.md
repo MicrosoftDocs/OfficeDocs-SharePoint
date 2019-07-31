@@ -76,14 +76,16 @@ For more information about service application endpoints, see [Using Service End
 |PerformancePoint Service|X||
 |Search Service|X||
  
->[!NOTE]This account is used as the identity for the service application endpoint application pool. Unless there are specific isolation requirements, the application pool can be used to host multiple service application endpoints. For Excel Services, Managed Metadata service, PerformancePoint service, and Search service you must be a domain user account. Also Excel Services is only available in SharePoint Server 2013.
+> [!NOTE]
+> This account is used as the identity for the service application endpoint application pool. Unless there are specific isolation requirements, the application pool can be used to host multiple service application endpoints. For Excel Services, Managed Metadata service, PerformancePoint service, and Search service you must be a domain user account. Also Excel Services is only available in SharePoint Server 2013.
 
 |**Service name**|**In SharePoint Server**|**In SharePoint Foundation**|
 |:-----|:-----|:-----|
 |Security Token Service|X||
 |Application Discovery and Load Balancer Service|X|X|
    
->[!NOTE]This account is used as the identity for the service application endpoint application pool. This account must be the Farm Service Account and the SharePoint Products Configuration Wizard automatically creates the application pool.  
+> [!NOTE]
+> This account is used as the identity for the service application endpoint application pool. This account must be the Farm Service Account and the SharePoint Products Configuration Wizard automatically creates the application pool.  
 
 |**Account**|**Service**|**Purpose**|**Requirements**|
 |:-----|:-----|:-----|:-----|
@@ -95,7 +97,8 @@ For more information about service application endpoints, see [Using Service End
  |PerformancePoint Service|X||
  |Visio Graphics Service|X||
 
->[!NOTE]Excel Services used with workbooks to refresh data. It is required when workbook connections specify "None" for authentication, or when any credentials that are notWindows credentials are used to refresh data. PerformancePoint service is used for authenticating with data sources. Visio service is used with documents to refresh data. It is required when connecting to data sources that are external to SharePoint Server, such as SQL Server.
+> [!NOTE]
+> Excel Services used with workbooks to refresh data. It is required when workbook connections specify "None" for authentication, or when any credentials that are notWindows credentials are used to refresh data. PerformancePoint service is used for authenticating with data sources. Visio service is used with documents to refresh data. It is required when connecting to data sources that are external to SharePoint Server, such as SQL Server.
    
 |**Account**|**Service**|**Purpose**|**Requirements**|
 |:-----|:-----|:-----|:-----|
@@ -105,7 +108,8 @@ For more information about service application endpoints, see [Using Service End
 |:-----|:-----|:-----|
 |SharePoint Server Search|X||
    
->[!NOTE]The default account for crawling content. A Search service application administrator can create crawl rules to specify other accounts to crawl specific content.  Must have Read Access to the content being crawled.  Full Read permissions must be granted explicitly to content that is outside the local farm.  Full Read permissions are automatically configured for content databases in the local farm. Requires **Manage auditing and security log** right in the Local User Policy on Windows file servers it is configured to crawl.
+> [!NOTE]
+> The default account for crawling content. A Search service application administrator can create crawl rules to specify other accounts to crawl specific content.  Must have Read Access to the content being crawled.  Full Read permissions must be granted explicitly to content that is outside the local farm.  Full Read permissions are automatically configured for content databases in the local farm. Requires **Manage auditing and security log** right in the Local User Policy on Windows file servers it is configured to crawl.
 
 |**Account**|**Service**|**Purpose**|**Requirements**|
 |:-----|:-----|:-----|:-----|
@@ -131,7 +135,8 @@ For more information about service application endpoints, see [Using Service End
 |:-----|:-----|:-----|
 |User Profile Service|X|N/A|
    
->[!NOTE]Replicating Directory Changes permissions on the configuration partition of the domains being synchronized if the NetBIOS and fully qualified domain name (FQDN) names do not match. 
+> [!NOTE]
+> Replicating Directory Changes permissions on the configuration partition of the domains being synchronized if the NetBIOS and fully qualified domain name (FQDN) names do not match. 
 
 |**Account**|**Service**|**Purpose**|**Requirements**|
 |:-----|:-----|:-----|:-----|
@@ -181,8 +186,9 @@ For more information about service application endpoints, see [Using Service End
 |:-----|:-----|:-----|
 |Distributed Cache   |X   |X   |
    
->[!NOTE] Some of the features that use the Distributed Cache service include:Newsfeeds, Authentication, OneNote client access, Security Trimming, and improves Page load performance. At least one Distributed Cache server is required in the farm.
-   
+> [!NOTE]
+> Some of the features that use the Distributed Cache service include:Newsfeeds, Authentication, OneNote client access, Security Trimming, and improves Page load performance. At least one Distributed Cache server is required in the farm.
+ 
 ### Additional application pool identity accounts
 
 If you create additional application pools to host sites, plan for additional application pool identity accounts. The following table describes the application pool identity account. Plan one application pool account for each application pool that you plan to implement.
@@ -227,7 +233,8 @@ This section lists account requirements by scenario:
 ### Single server standard requirements
 <a name="Subsection1"> </a>
 
-> [!IMPORTANT] We do not recommend this configuration in a production environment.
+> [!IMPORTANT]
+> We do not recommend this configuration in a production environment.
 
 #### Server farm-level accounts
 
@@ -258,10 +265,6 @@ This section lists account requirements by scenario:
    
 ### Server farm standard requirements
 <a name="Subsection2"> </a>
-
-#### 
-
-#### 
 
 #### Server farm-level accounts
   

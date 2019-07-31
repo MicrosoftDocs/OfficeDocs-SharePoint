@@ -1,5 +1,5 @@
 ---
-title: "Migration performance guide for ISVs"
+title: "Migration guide for ISVs"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -13,12 +13,13 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
+ROBOTS: NOINDEX, NOFOLLOW
 ms.custom: 
 ms.assetid: 
 ---
-# Migration performance guidance for ISVs
+# Migration guidance for ISVs
 
-The top performance request we receive from both customers and ISVs is how to improve migration speed and avoid throttling. This document provides guidance for ISVs on how to improve migration performance and reliability. It has the latest Microsoft migration performance guidance including authentication, high level coding guidance, how to handle throttling, and more.
+This document provides guidance for ISVs to deliver a fast and reliable migration experience to customers. It has the latest Microsoft migration practices and addresses common concerns or questions raised by ISV. The page will be updated on regular basis and the priority of the guidance is listed in the order of publication.
 
 ## Use app-based authentication
 There are different usage patterns between end user traffic and an application doing background activities such as migration. It is important to identify user traffic versus application traffic. 
@@ -51,16 +52,31 @@ For service-based migration tool that run without a signed-in user present such 
 
 #### Number of App IDs
 
-Questions have been raised by ISV on whether to have a single App ID covering all migration offering products or having multiple App ID per software offering. There is no hard guidance provided the ISVs can identify all of their App IDs. Please contact Microsoft for any corner case scenarios. 
+Questions have been raised by ISV on whether to have a single App ID covering all migration offering products or having multiple App ID per software offering. There is no specific guidance where the ISVs can identify all of their App IDs. Please contact Microsoft for any corner case scenarios. 
 
 >[!Note]
 > Please register all your migration app IDs with Microsoft to ensure that you receive adequate throughput for your migration jobs.
 
 
 ## Use the Migration API 
-For migration jobs, the first guidance is to use existing published migration API, [Create Migration Job (Import API)](https://docs.microsoft.com/en-us/sharepoint/dev/apis/migration-api-overview). 
+For migration jobs, the first guidance is to use existing published migration APIs.
 
-A new migration API, [Asynchronous Metadata Read API (Export API)](https://docs.microsoft.com/en-us/sharepointmigration/asynchronous-metadata-read-api) will be available August 2019. Once the new API becomes available, we recommend that you transition to the new API to avoid throttling.
+### Import API (CreateMigrationJob)
+
+The *CreateMigrationJob* helps the ISVs to import to SharePoint and OneDrive faster and more reliably. 
+
+- [Create Migration Job (Import API)](https://docs.microsoft.com/en-us/sharepoint/dev/apis/migration-api-overview)
+
+The lastest supported features are:
+
+- Migrate web parts using the Migration API
+
+
+### Export API (Asynchronous Metadata Read)
+
+A new migration API, Asynchronous Metadata Read API (Export API) is currently being made available to ISVs for testing.  If you are interested, please contact Microsoft with your test tenant information.
+
+The *AsynchronousMetadataRead* helps the ISVs export content from SharePoint and OneDrive.  Once the new API becomes available, we recommend that you transition to the new API to avoid throttling.
 
 ## Switch to the Microsoft Graph API 
 If a feature is not supported by the migration API, we recommend that you use the Graph API.  If the Graph API does not support the needed migration feature, then use CSOM. However, using CSOM increases the likelihood of being throttled. 

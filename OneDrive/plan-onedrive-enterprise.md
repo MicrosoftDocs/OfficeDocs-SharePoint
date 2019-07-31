@@ -203,7 +203,7 @@ For Windows 10 client devices that are joined to a domain, you have the addition
 
 ### Align technologies
 
-When you've identified the devices that require access to OneDrive, you then identify the technology options available to you or that align with your organization’s size. If you’re considering implementing a new deployment and management solution, the table in [How organizations deploy and manage OneDrive](#how-organizations-deploy-and-manage-onedrive) lists the technologies that make the most sense based on organization size. Using this information, you can align the technologies you need or already have with the deployment and management capabilities that fit the devices you need to manage.
+When you've identified the devices that require access to OneDrive, you then identify the technology options available to you or that align with your organization’s size. If you’re considering implementing a new deployment and management solution, the table in [How organizations deploy and manage OneDrive](#deployment-and-management-options) lists the technologies that make the most sense based on organization size. Using this information, you can align the technologies you need or already have with the deployment and management capabilities that fit the devices you need to manage.
 
 ### Deploy, secure, and manage OneDrive
 

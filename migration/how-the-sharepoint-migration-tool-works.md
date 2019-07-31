@@ -55,11 +55,11 @@ During the upload and import phases, data is encrypted and Azure containers and 
 > [!IMPORTANT]
 > The Sharepoint Online service and a select number of engineers can run maintenance commands against them, but they do not have direct access to the accounts. Datacenter technicians are not prepped with knowledge of how data is laid out on disk and do not have ready access to equipment to mount disks. All drives are physically destroyed before leaving the datacenter. Physical security is also in place across all of our datacenters. 
   
-Each container is dedicated to the customer and not reused. The data is stored in the Azure blob anywhere from 30 to 90 days after which it is deleted. When the data is deleted, the files are de-linked and later soft-deleted from disk. A file in an account and on-disk may be shared across many servers. The same process is used for replicas, including backup copies (geo-replicated data if applicable).
+Each container is dedicated to the customer and not reused. The data is stored in the Azure blob anywhere from 4 to 30 days after which it is deleted. When the data is deleted, the files are de-linked and later soft-deleted from disk. A file in an account and on-disk may be shared across many servers. The same process is used for replicas, including backup copies (geo-replicated data if applicable).
   
 The random, single-use default container key is generated programmatically and is only valid for three days. This key is the only way to gain access to the container. SharePoint Online never stores the key.
   
-The container itself lives longer than the key. The container is purged anywhere from 30 to 90 days from its creation date.  The container is housed in a shared Microsoft storage outside the tenant but within the region and is protected using the container key.
+The container itself lives longer than the key. The container is purged anywhere from 30 to 90 days from its creation date.  The container is housed in a shared Microsoft storage outside the tenant but within the region and is protected using the container key. For multi-Geo customers, The containers are generated based on the destination URL to dictate in what Geo it will be stored. 
   
 If your key is lost or obtained by someone else, there are two defenses in place that protect you. First, the container only enables read/write operations. The container has no list, which means you would need to know the details of the files stored in the container in order to read or write to them. Secondly, the files are encrypted at rest with AES-256-CBC.
   
