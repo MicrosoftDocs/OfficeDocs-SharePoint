@@ -1,4 +1,5 @@
 ---
+title: Troubleshooting SPMT installation issues
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
