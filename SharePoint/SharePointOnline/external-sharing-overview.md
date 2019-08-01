@@ -131,6 +131,8 @@ If you have business partners or vendors with whom you need to collaborate or sh
 ## Need more help?
 
 [!INCLUDE[discussionforums.md](includes/discussionforums.md)]
+
+You can also find help on security and permissions in these [YouTube videos from SharePoint community experts](https://www.youtube.com/playlist?list=PLKurDp05sqD0oE3KnohD69dkP5fHmrfuN).
   
 ## See also
 
