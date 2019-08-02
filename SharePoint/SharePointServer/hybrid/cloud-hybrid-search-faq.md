@@ -442,6 +442,3 @@ Below are some links to Hybrid articles at TechNet
 
 Yes , you can download the eBook on Configuring Microsoft SharePoint Hybrid Capabilities (ISBN 9781509302437) from this *[link](https://blogs.msdn.microsoft.com/microsoft_press/2016/07/06/free-ebook-configuring-microsoft-sharepoint-hybrid-capabilities/).*
 
-* *
-
-If you have questions or suggestions around topics we should add to this article, please leave a comment and Neil and or I will be happy to address them and include in this article.
