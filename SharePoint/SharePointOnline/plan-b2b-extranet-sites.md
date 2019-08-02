@@ -4,7 +4,6 @@ ms.reviewer:
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 6/25/2018
 audience: Admin
 ms.topic: conceptual
 ms.service: sharepoint-online
@@ -50,7 +49,7 @@ See [Securing a SharePoint Online extranet site](secure-extranet-site.md) for de
   
 ## Assigning licenses to partner users
 
-Guest user accounts have limited capabilities in SharePoint Online. See [Manage external sharing for your SharePoint Online environment](external-sharing-overview.md) for details on those features and what additional capabilities can be provided. If you determine that your partner users need additional functionality, such as the ability to create team sites, you can [assign SharePoint Online licenses to these user accounts](/office365/admin/subscriptions-and-billing/assign-licenses-to-users).
+Guest user accounts have limited capabilities in SharePoint Online. See [External sharing overview](external-sharing-overview.md) for details on those features and what additional capabilities can be provided. If you determine that your partner users need additional functionality, such as the ability to create team sites, you can [assign SharePoint Online licenses to these user accounts](/office365/admin/subscriptions-and-billing/assign-licenses-to-users).
   
 > [!NOTE]
 > Assigning an Exchange Online license to guest partner users is not supported. 
@@ -63,7 +62,7 @@ To monitor the status of your extranet account invitations, including changes to
   
  **Example 1:**
   
-To create a report that shows who has been sent invitations to your Extranet site and who issued the invitation, set your report filters this way:
+To create a report that shows who has been sent invitations to your extranet site and who issued the invitation, set your report filters this way:
   
 ![Office 365 Activity Report filtered for invitation creation](media/cead092c-9131-4e56-b22f-b06339e915e1.png)
   
@@ -71,23 +70,23 @@ To create a report that shows who has been sent invitations to your Extranet sit
   
 To create a report showing all file access activities for a external partner, set your event filters as follows:
   
-![Office 365 Activity report showing all activity for an Extranet Partner](media/9034b1da-164e-49dd-ba58-9c1b471bc097.png)
+![Office 365 Activity report showing all activity for an extranet Partner](media/9034b1da-164e-49dd-ba58-9c1b471bc097.png)
   
 ## Lifecycle management of business partner users
 <a name="LifeCycle"> </a>
 
 When a contract with a business partner ends, it is important that you remove any access that the external business partner has to SharePoint Online. Here is the checklist of administrative actions you need to take:
   
-- **Remove permissions** - Remove permissions from the partner users accounts that allowed access to the site(s). This can be done by either removing the security group of which they were a member, or by removing their user identity from the **Site Settings** \> **Site Permissions** \> **Members** page. 
+- **Remove permissions** - [Remove partners from security groups](create-external-business-sharing-site.md#managing-your-site) or [remove them if they were individually added as site members](https://support.office.com/article/8376034d-d0c7-446e-9178-6ab51c58df42). 
     
-- **Delete partner user accounts** - Delete the partner users from Office 365 provided they no longer need access to any other resources in your organization. See [Delete a user from your organization](/office365/admin/add-users/delete-a-user).
+- **Delete partner accounts** - Delete the partner users from Office 365 provided they no longer need access to any other resources in your organization. See [Delete a user from your organization](/office365/admin/add-users/delete-a-user).
     
 - **Archive** - Archive the site that you created for your partner in SharePoint Online. 
     
 ## See also
 <a name="LifeCycle"> </a>
 
-[Manage external sharing for your SharePoint Online environment](external-sharing-overview.md)
+[External sharing overview](external-sharing-overview.md)
   
 [Azure Active Directory B2B collaboration](https://go.microsoft.com/fwlink/?linkid=2003564)
   

@@ -208,8 +208,6 @@ In scenarios where installing prerequisites directly from the Internet is not po
     
 - [Windows Server 2019](https://www.microsoft.com/evalcenter/evaluate-windows-server-2019)
     
-- [Office 365 Enterprise](https://go.microsoft.com/fwlink/p/?LinkId=258856)
-    
 - [Microsoft SQL Server 2016](https://www.microsoft.com/evalcenter/evaluate-sql-server-2016) 
 
 - [Microsoft SQL Server 2017 RTM](https://www.microsoft.com/evalcenter/evaluate-sql-server-2017-rtm)
@@ -220,7 +218,7 @@ In scenarios where installing prerequisites directly from the Internet is not po
     
 - [Microsoft Information Protection and Control Client (MSIPC)](https://go.microsoft.com/fwlink/p/?LinkId=544913)
    
-- [Microsoft SQL Server 2012 SP4 Feature Pack - Native Client \x64\sqlncli.msi](https://www.microsoft.com/download/details.aspx?id=56041
+- [Microsoft SQL Server 2012 SP4 Feature Pack - Native Client \x64\sqlncli.msi](https://www.microsoft.com/download/details.aspx?id=56041)
     
 - [Microsoft Sync Framework Runtime v1.0 SP1 (x64)](https://go.microsoft.com/fwlink/p/?LinkId=618411)
     

@@ -4,7 +4,6 @@ ms.reviewer:
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 5/22/2018
 audience: Admin
 ms.topic: overview
 ms.service: sharepoint-online
@@ -34,12 +33,12 @@ The **Preview Features** setting in the SharePoint admin center lets you enable 
 
 Use the Preview Features setting to enable the following features, and others that are added in the future.
   
-### Power BI integration with Excel Online
+### Power BI integration with Excel on the web
 
 When you use Power BI, your data is sent to the Power BI service. If you have implemented compliance policies for your SharePoint environment, these policies won't extend to the data as it's processed in Power BI. If this is a concern, select **Disable preview features** for this setting. 
   
 > [!IMPORTANT]
-> When you disable preview features, your users will no longer be able to use Excel Online to view and edit workbooks that rely on Power BI. 
+> When you disable preview features, your users will no longer be able to use Excel on the web to view and edit workbooks that rely on Power BI. 
   
 ## To enable or disable preview features for your organization
 
@@ -47,11 +46,13 @@ When you use Power BI, your data is sent to the Power BI service. If you have im
     
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
-    
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane. 
-    
-3. Select **settings** in the left pane.
-    
-4. Next to **Preview Features**, select **Enable preview features** or **Disable preview features**.
+
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
+
+3. Select **Settings** in the left pane.
+ 
+4. At the bottom of the page, select **classic settings page**.
+  
+5. Next to **Preview Features**, select **Enable preview features** or **Disable preview features**.
     
 

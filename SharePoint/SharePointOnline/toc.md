@@ -1,10 +1,8 @@
 ﻿
-  
-
 # [SharePoint Online](sharepoint-online.md)
 ## [Get started]()
 ### [Introduction](introduction.md)
-### [Planning guide](planning-guide.md)
+### [File collaboration](deploy-file-collaboration.md)
 ### [SharePoint admin role](sharepoint-admin-role.md)
 ### [Create sites](create-site-collection.md)
 ### [Delete sites](delete-site-collection.md)
@@ -13,7 +11,7 @@
 ### [Manage site creation](manage-site-creation.md)
 ### [Manage site storage limits](manage-site-collection-storage-limits.md)
 ### [Add featured links to SharePoint start page](change-links-list-on-sharepoint-home-page.md)
-### [Create guidelines for site usage](sites-usage-guidelines.md)
+### [Create guidelines for site usage ](sites-usage-guidelines.md)
 ## [Guide to the modern experience]()
 ### [Overview](guide-to-sharepoint-modern-experience.md)
 ### [Information architecture](information-architecture-modern-experience.md)
@@ -48,6 +46,7 @@
 ## [Sharing and permissions]()
 ### [External sharing overview](external-sharing-overview.md)
 ### [Turn external sharing on or off](turn-external-sharing-on-or-off.md)
+### [Integration with Azure AD B2B](sharepoint-azureb2b-integration-preview.md)
 ### [Change external sharing for a site](change-external-sharing-site.md)
 ### [Default SharePoint groups](default-sharepoint-groups.md)
 ### [Change default sharing link](change-default-sharing-link.md)

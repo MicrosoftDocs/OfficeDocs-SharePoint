@@ -4,7 +4,6 @@ ms.reviewer:
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 6/29/2018
 audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
@@ -15,7 +14,7 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: 2ced10aa-db9a-4828-a7a5-e47a57c3a823
-description: "In SharePoint Online, you can create Business Connectivity Services (BCS) connections to data sources, such as SQL Azure databases or Windows Communication Foundation (WCF) web services, that are outside the SharePoint site. Once you've created these connections, you can manage or edit BCS information in the SharePoint admin center."
+description: "Learn how to create BCS connections to data sources, such as SQL Azure databases or Windows Communication Foundation (WCF) web services, that are outside the SharePoint site"
 ---
 
 # Manage Business Connectivity Service Applications
@@ -44,22 +43,26 @@ To set object permissions for an object, follow these steps.
     
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the **Admin** tile to open the admin center.  
+
+2. In the left pane of the admin center, under **Admin centers**, select **SharePoint** to open the SharePoint admin center. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
+ 
+3. In the left pane of the new SharePoint admin center, select **Classic features**.
+ 
+4. Select **More classic features**.
+ 
+5. Under **BCS**, select **Open**.
+  
+6. In the **business data catalog** section, select **Manage BDC Models and External Content Types**.
     
-2. In the left pane of the admin center, under **Admin centers**, select **SharePoint** to open the SharePoint admin center. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
+7. Select the check box next to the name of the ECT or external system that you want to manage. 
     
-3. In the left pane, select **bcs**.
-    
-4. In the **business data catalog** section, select **Manage BDC Models and External Content Types**.
-    
-5. Select the check box next to the name of the ECT or external system that you want to manage. 
-    
-6. On the ribbon, select **Set Object Permissions**.
+8. On the ribbon, select **Set Object Permissions**.
     
     ![A screenshot of the Set Object Permissions dialog for Business Connectivity Services in SharePoint Online.](media/6af13f29-5126-470e-b2b9-a59d0ad569ca.png)
   
-7. Enter a user account or group name in the text box, and then select **Add**. You can also select **Browse** to look for the name that you want. 
+9. Enter a user account or group name in the text box, and then select **Add**. You can also select **Browse** to look for the name that you want. 
     
-8. Select the name of the account or group for which you want to set access to the ECT or external system. You can set permissions for only one account at a time. If you have multiple accounts or groups, you have to set levels of access for each account separately, by selecting them one at a time. 
+10. Select the name of the account or group for which you want to set access to the ECT or external system. You can set permissions for only one account at a time. If you have multiple accounts or groups, you have to set levels of access for each account separately, by selecting them one at a time. 
     
     The following table describes the permissions and their associated access levels.
     
@@ -80,16 +83,20 @@ Metadata Store permissions apply to many objects, such as BDC Models, ECTs, and 
 ![A graphic of the Set Metadata Store Permissions dialog in SPO's BCS.](media/3cb11390-25ea-48df-a1f7-dd51e831146d.png)
   
 To set Metadata Store permissions, follow these steps.
-  
-1. In the left pane of the classic SharePoint admin center, select **bcs**.
+
+1. In the left pane of the new SharePoint admin center, select **Classic features**.
+ 
+2. Select **More classic features**.
+ 
+3. Under **BCS**, select **Open**.
+
+4. Select **Manage BDC Models and External Content Types**.
     
-2. In the **business data catalog** section, select **Manage BDC Models and External Content Types**.
+5. On the ribbon, select **Set Metadata Store Permissions**.
     
-3. On the ribbon, select **Set Metadata Store Permissions**.
+6. Enter a user account or group into the text box, and then select **Add**. You can also select **Browse** to look for the account that you want. 
     
-4. Enter a user account or group into the text box, and then select **Add**. You can also select **Browse** to look for the account that you want. 
-    
-5. The account or group will appear in the second text box. If you have multiple accounts or groups, you must select them one at a time to set the level of access.
+7. The account or group will appear in the second text box. If you have multiple accounts or groups, you must select them one at a time to set the level of access.
     
 |**Permission**|**Notes**|
 |:-----|:-----|
@@ -98,7 +105,7 @@ To set Metadata Store permissions, follow these steps.
 |Selectable in clients  <br/> |Allow the user or group to create external lists for any ECTs, and to view the ECTs in the external item picker.  <br/> |
 |Set Permissions  <br/> |Allows the user, group, or claim to set permissions on the Metadata Store.  <br/> At least one user or group must have this permission on every BCS connection so that permissions management can occur.  <br/> With this permission, a user can grant Edit permissions to the Metadata Store. This setting should be reserved for highly privileged users.  <br/> |
    
-6. To propagate permissions to all items in the Metadata Store, select **Propagate permissions to all BDC Models, External Systems and External content types in the BDC Metadata Store**. If you select this option, you'll replace all existing permissions (including object permissions) that you may have set anywhere else in your selected BCS Application.
+8. To propagate permissions to all items in the Metadata Store, select **Propagate permissions to all BDC Models, External Systems and External content types in the BDC Metadata Store**. If you select this option, you'll replace all existing permissions (including object permissions) that you may have set anywhere else in your selected BCS Application.
     
 ## Import or export a Business Data Connectivity (BDC) Model
 <a name="__toc338059709"> </a>
@@ -123,14 +130,11 @@ Imported permissions for a BDC Model are added to the store of existing permissi
   
 To import a BDC Model, follow these steps:
   
-1. Sign in to https://admin.microsoft.com as a global or SharePoint admin to open the Microsoft 365 admin center. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
-    
-    > [!NOTE]
-    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the **Admin** tile to open the admin center.  
-    
-2. In the left pane of the admin center, under **Admin centers**, select **SharePoint** to open the SharePoint admin center. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
-    
-3. In the left pane, select **bcs**.
+1. In the left pane of the new SharePoint admin center, select **Classic features**.
+ 
+2. Select **More classic features**.
+ 
+3. Under **BCS**, select **Open**.
     
 4. In the business connectivity services section, select **Manage BDC Models and External Content Types**.
     
@@ -161,19 +165,23 @@ You can export a BDC Model and then read its contents to determine differences b
   
 To export a BDC Model or Resource file, follow these steps:
    
-1. In the left pane of the classic SharePoint admin center, select **bcs**.
+1. In the left pane of the new SharePoint admin center, select **Classic features**.
+ 
+2. Select **More classic features**.
+ 
+3. Under **BCS**, select **Open**.
     
-2. Select **Manage BDC Models and External Content Types**.
+4. Select **Manage BDC Models and External Content Types**.
     
-3. Select the drop down list and select **BDC Model** in the **View** group. 
+5. Select the drop down list and select **BDC Model** in the **View** group. 
     
-4. Select the name of the BDC Model that you want to export and then select **Export** in the ribbon. 
+6. Select the name of the BDC Model that you want to export and then select **Export** in the ribbon. 
     
-5. On the Business Data Connectivity Models page, select the model or resource file to export.
+7. On the Business Data Connectivity Models page, select the model or resource file to export.
     
-6. On the Export page, in the **File Type** section, select **Model** or **Resource** to specify the type of file that you want to export. 
+8. On the Export page, in the **File Type** section, select **Model** or **Resource** to specify the type of file that you want to export. 
     
-7. In the **Advanced Settings** section, select one or more of the following to further refine the data export. 
+9. In the **Advanced Settings** section, select one or more of the following to further refine the data export. 
     
   - Select **Localized names** to export localized names for the ECTs in a particular locale. 
     
@@ -183,9 +191,9 @@ To export a BDC Model or Resource file, follow these steps:
     
   - Select **Proxies** to export an implementation-specific proxy that is used to connect to the external system. 
     
-8. If you saved a file of resource settings for later use, type the name of the file to export in the **Use Custom Environment Settings** field. 
+10. If you saved a file of resource settings for later use, type the name of the file to export in the **Use Custom Environment Settings** field. 
     
-9. Select **Export** to start a dialog that enables you to save a \*.bdcm file to your local drive. You can open the \*.bdcm file in a text editor. 
+11. Select **Export** to start a dialog that enables you to save a \*.bdcm file to your local drive. You can open the \*.bdcm file in a text editor. 
     
 ## Add actions to external content types
 <a name="__toc338059712"> </a>
@@ -199,14 +207,11 @@ Actions can specify parameters that are based on one or more fields in an ECT. F
   
 To add an action to an ECT, follow these steps.
   
-1. Sign in to https://admin.microsoft.com as a global or SharePoint admin to open the Microsoft 365 admin center. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
-    
-    > [!NOTE]
-    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the **Admin** tile to open the admin center.  
-    
-2. In the left pane of the admin center, under **Admin centers**, select **SharePoint** to open the SharePoint admin center. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
-    
-3. In the left pane, select **bcs**.
+1. In the left pane of the new SharePoint admin center, select **Classic features**.
+ 
+2. Select **More classic features**.
+ 
+3. Under **BCS**, select **Open**.
     
 4. Select **Manage BDC Models and External Content Types**.
     
