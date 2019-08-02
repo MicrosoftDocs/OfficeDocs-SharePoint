@@ -63,7 +63,7 @@ Some things to consider before branding your classic experience sites in SharePo
 
 Check out the below resources that provide more details about how to use the modern SharePoint experience to brand your site.
 
-[Branding SharePoint: The New Normal](https://blogs.msdn.microsoft.com/bobgerman/2018/09/04/branding-sharepoint-the-new-normal/)
+[Branding SharePoint: The New Normal](https://bob1german.com/2018/09/04/branding-sharepoint-the-new-normal/)
 
 [Change the look of your SharePoint Online site](https://support.office.com/article/06bbadc3-6b04-4a60-9d14-894f6a170818)
 
