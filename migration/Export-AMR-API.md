@@ -1,5 +1,5 @@
 ---
-title: "SharePoint Migration Export API (Asynchronous Metadata Read API)"
+title: "Sharepoint Migration Export (Asynchronous Metadata Read) API"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -12,16 +12,16 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.collection: 
 - Strat_SP_gtc
 - SPMigration
-description: "SharePoint Migration Export API (Asynchronous Metadata Read API)"
+description: "Sharepoint Migration Export (Asynchronous Metadata Read) API"
 ---
 
-# SharePoint Migration Export API (Migration Asynchronous Metadata Read)
+# Sharepoint Migration Export (Asynchronous Metadata Read) API
 
 
 ## Overview
 The goal of the new Migration Asynchronous Metadata Read API is to reduce the number of CSOM calls, reduce throttling, and improve overall migration performance. Instead of calling thousands of CSOM calls to query information from SPO, the new Migration Asynchronous Metadata Read can return the same amount of data in a single read.
 
-When the new Migration Asynchronous Read API performs a read operation of a provided URL, the Microsoft backend software aggregates all the information into a designated manifest. The ISV can read back from the manifest and parse the metadata without sending thousands of CSOM calls individually.
+When the new Sharepoint Migration Export (Asynchronous Metadata Read) API performs a read operation of a provided URL, the Microsoft backend software aggregates all the information into a designated manifest. The ISV can read back from the manifest and parse the metadata without sending thousands of CSOM calls individually.
 
 This document targets ISVs and any third-party vendors/developers who are developing and maintaining a migration tool.
 
@@ -39,12 +39,12 @@ A migration performance study identified four areas where CSOM calls are heavily
 - **After migration verification** is done when migration is completed and is used to ensure the source and destination file metadata matches.
 - **Permission settings** are CSOM function calls made getting user permission information.
 
-## SharePoint Migration Export API (Migration Asynchronous Metadata Read)
+## Sharepoint Migration Export (Asynchronous Metadata Read) API
 
-The SharePoint Migration Export API (migration asynchronous metadata read) aims to reduce the CSOM calls in areas: incremental migration, after migration verification and permission settings. 
+The Sharepoint Migration Export (Asynchronous Metadata Read) API aims to reduce the CSOM calls in areas: incremental migration, after migration verification and permission settings. 
 
 >[!Note]
->The first version of the Migration Asynchronous Metadata Read API supports files, folders, lists, list items, and the document library. Permissions are expected to be covered in a subsequent version.
+>The first version of the Sharepoint Migration Export (Asynchronous Metadata Read) API supports files, folders, lists, list items, and the document library. Permissions are expected to be covered in a subsequent version.
 
 Key supported features:
 
@@ -192,7 +192,7 @@ The following provides high level guidelines for implementing the asynchronous m
 2. ISVs figure out the folder, document library or files of interested to be query and issued with CreateSPAsyncReadJob function. 
 3. Once successfully created, query the job status using the *jobQueueUri*. It provides the job process status and any error logging. After job completion, parse the Manifest to retrieve the metadata.
 
-### Asynchronous Metadata Read Example 
+### Sharepoint Migration Export (Asynchronous Metadata Read) API Example 
 
 #### Scenario: Large FileShare with nested files/folders
 
@@ -230,7 +230,7 @@ Suggestion:
 
 By default, each URL supports up to 1 million limits. At the start of the migration, the asynchronous read migration function will check. If more than 1 million is detected an error will be thrown. Multiple versions of a single file will count as one. This limit may be changed in the future.
 
-**Asynchronous Read API Limitations**</br>
+**Sharepoint Migration Export (Asynchronous Metadata Read) API Limitations**</br>
 
 
 |**Type**|**SharePoint Online Limit**|**Recommended limit</br>for async read**|**Description**|
