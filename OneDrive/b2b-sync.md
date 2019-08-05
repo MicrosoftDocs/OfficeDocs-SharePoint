@@ -26,16 +26,19 @@ The OneDrive sync client now lets users sync libraries or folders in SharePoint 
 > This feature is not yet enabled for our customers in our Enterprise ring. Once build 19.086.* or newer is available to Enterprise ring users, the B2B Sync feature will be enabled.  [See the release notes for rollout info](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0).
 
 Azure Active Directory (AAD) guest accounts play a key role in making B2B Collaboration possible. A guest account at one organization links to a member account at another organization. Once created, a guest account allows Office 365 services like OneDrive and SharePoint to grant a guest permission to sites and folders the same way a member within the organization is granted permission. Since the accounts at two organizations are linked, the user only needs to remember the username and password for the account at their organization. As a result, a single sign in to their account enables access to content from their own organization and from any other organization that have created guest accounts for them. 
- 
+
+> [!IMPORTANT]
+> We recommend that you sign up for the [SharePoint and OneDrive integration with Azure AD B2B Preview](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview) to help ensure that the required Azure AD guest account for the share recipient is created in your organization's directory.
+
 ## B2B Sync requirements
 
 For people outside your organization to sync shared libraries and folders:
 
 - External sharing must be enabled for your organization.
 - External sharing must be enabled for the site or OneDrive.
-- ADAL must not be enabled if using builds before 19.086.*.
 - The content must be shared with people outside the organization at the site or folder level. If a folder is shared, it must be through a link that requires sign-in.
-- Sharing recipients must have an Office 365 work or school account (in Azure AD). 
+- Sharing recipients must have an Office 365 work or school account (in Azure AD).
+- ADAL must not be enabled if using builds before 19.086.*.
 
 This article gives an overview of the B2B Sync experience and describes these requirements in more detail.
 
