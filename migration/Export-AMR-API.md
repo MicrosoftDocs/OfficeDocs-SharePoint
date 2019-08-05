@@ -15,7 +15,7 @@ ms.collection:
 description: "SharePoint Migration Export API (Asynchronous Metadata Read API)"
 ---
 
-# Migration Asynchronous Metadata Read API
+# SharePoint Migration Export API (Migration Asynchronous Metadata Read)
 
 
 ## Overview
@@ -44,7 +44,7 @@ A migration performance study identified four areas where CSOM calls are heavily
 The SharePoint Migration Export API (migration asynchronous metadata read) aims to reduce the CSOM calls in areas: incremental migration, after migration verification and permission settings. 
 
 >[!Note]
->The first version of the Asynchronous Metadata Read supports files, folders, lists, list items, and the document library. Permissions are expected to be covered in a subsequent version.
+>The first version of the Migration Asynchronous Metadata Read API supports files, folders, lists, list items, and the document library. Permissions are expected to be covered in a subsequent version.
 
 Key supported features:
 
