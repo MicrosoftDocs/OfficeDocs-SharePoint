@@ -58,7 +58,8 @@ The OneDrive Group Policy objects work by setting registry keys on the computers
     
 - The location where registry keys are written has been updated. When you use the latest files, you might delete registry keys that you set previously.
 
-> [!NOTE] For information about storage see [OneDrive Files On-Demand and Storage Sense for Windows 10](https://support.office.com/article/onedrive-files-on-demand-and-storage-sense-for-windows-10-de5faa9a-6108-4be1-87a6-d90688d08a48) and [Policy CSP - Storage](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-storage).
+> [!NOTE]
+> For information about storage see [OneDrive Files On-Demand and Storage Sense for Windows 10](https://support.office.com/article/onedrive-files-on-demand-and-storage-sense-for-windows-10-de5faa9a-6108-4be1-87a6-d90688d08a48) and [Policy CSP - Storage](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-storage).
 
 ## List of policies
 
