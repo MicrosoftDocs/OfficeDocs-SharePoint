@@ -59,7 +59,7 @@ Follow these steps for each language that you want to support. If you decide to 
 > [!IMPORTANT]
 > By default, the Microsoft PowerShell Help files are installed in English (en-us). To view these files in the same language as the operating system, install the language pack for the same language in which the operating system was installed. 
   
-You can download language packs from the [Microsoft Download Center](http://go.microsoft.com/fwlink/?LinkId=746633&amp;clcid=0x409).
+You can download language packs from the Microsoft Download Center for [SharePoint Server 2016](http://go.microsoft.com/fwlink/?LinkId=746633&amp;clcid=0x409) and [SharePoint Server 2019](https://www.microsoft.com/download/details.aspx?id=57463).
   
 ## Installing language packs on the SharePoint servers
 <a name="section4"> </a>
