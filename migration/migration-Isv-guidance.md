@@ -14,8 +14,6 @@ ms.collection:
 - M365-collaboration
 search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
-ms.custom: 
-ms.assetid: 
 ---
 # Migration guidance for ISVs
 
