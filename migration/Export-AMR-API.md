@@ -48,7 +48,7 @@ The Sharepoint Migration Export (Asynchronous Metadata Read) API aims to reduce 
 
 Key supported features:
 
-- Ability to read up to 1 million items with a single API call. For more information, see [Limitations](asynchronous-metadata-read-api.md#limitations). 
+- Ability to read up to 1 million items with a single API call. For more information, see Limitations. 
 - Incremental migration feature support returning of item changed since last query with changeToken feature
 - Ability to include a rich set of metadata per item 
 - Ability to return only top-level structure without subfolders or children.
