@@ -113,7 +113,7 @@ Choose the option you want to show by default when a user gets a link.
 This setting lets you control whether the owner of a shared file can see the people who only view (and don't edit) the file in OneDrive file access statistics. File access statistics appear on a card when users hover over a file name or thumbnail in OneDrive. The statistics include the number of views on the file, the number of people who viewed it, and the list of people who viewed it.
 
 > [!NOTE]
-> This setting is selected by default. If you clear it, file viewer info is still recorded and available to you to audit as an admin. OneDrive owners will also still be able to see people viewing their shared Office files by using Office Online or the Office desktop apps.
+> This setting is selected by default. If you clear it, file viewer info is still recorded and available to you to audit as an admin. OneDrive owners will also still be able to see people who have viewed their shared Office files by opening the files from Office.com or from the Office desktop apps.
 
 On the classic sharing page, you can choose whether you want the default link permission to be view or edit. 
 
@@ -123,7 +123,8 @@ You can also allow only users in specific security groups to share externally. T
 
 [!INCLUDE[discussionforums.md](includes/discussionforums.md)]
 
-  
+You can also find help on security and permissions in these [YouTube videos from SharePoint community experts](https://www.youtube.com/playlist?list=PLKurDp05sqD0oE3KnohD69dkP5fHmrfuN).
+
 ## See also
 
 [Stop sharing files or folders or change permissions](https://support.office.com/article/0a36470f-d7fe-40a0-bd74-0ac6c1e13323)

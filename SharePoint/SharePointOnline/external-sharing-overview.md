@@ -84,7 +84,7 @@ These recipients will typically be added to your directory as guests, and then p
   
 Because these guests do not have a license in your organization, they are limited to basic collaboration tasks:
   
-- They can use Office Online for viewing and editing documents. If your plan includes Office Professional Plus, they can't install the desktop version of Office on their own computers unless you assign them a license. 
+- They can use Office.com for viewing and editing documents. If your plan includes Office Professional Plus, they can't install the desktop version of Office on their own computers unless you assign them a license. 
 
 - They can perform tasks on a site based on the permission level that they've been given. For example, if you add a guest as a site member, they will have Edit permissions and they will be able to add, edit and delete lists; they will also be able to view, add, update and delete list items and files.
     
@@ -131,8 +131,12 @@ If you have business partners or vendors with whom you need to collaborate or sh
 ## Need more help?
 
 [!INCLUDE[discussionforums.md](includes/discussionforums.md)]
+
+You can also find help on security and permissions in these [YouTube videos from SharePoint community experts](https://www.youtube.com/playlist?list=PLKurDp05sqD0oE3KnohD69dkP5fHmrfuN).
   
 ## See also
+
+[How Microsoft manages and enables external sharing and collaboration with SharePoint (Microsoft Ignite)](https://www.youtube.com/watch?v=dK5uky1bJ1Y)
 
 [Coaching your guests through the external sharing experience](https://techcommunity.microsoft.com/t5/SharePoint-Support-Blog/Coaching-your-guest-users-through-the-External-Sharing/ba-p/182739)
   

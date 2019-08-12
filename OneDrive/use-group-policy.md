@@ -58,6 +58,9 @@ The OneDrive Group Policy objects work by setting registry keys on the computers
     
 - The location where registry keys are written has been updated. When you use the latest files, you might delete registry keys that you set previously.
 
+> [!NOTE]
+> For information about storage see [OneDrive Files On-Demand and Storage Sense for Windows 10](https://support.office.com/article/onedrive-files-on-demand-and-storage-sense-for-windows-10-de5faa9a-6108-4be1-87a6-d90688d08a48) and [Policy CSP - Storage](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-storage).
+
 ## List of policies
 
   
@@ -327,7 +330,7 @@ If you disable or do not configure this setting, users can join the [Windows Ins
 
 Enabling this policy sets the following registry key: 
  
-[HKLM\SOFTWARE\Policies\Microsoft\OneDrive] ﻿"GPOSetUpdateRing"
+[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"GPOSetUpdateRing"="dword:0000000X"
 
 Set the value 4 for Insider, 5 for Production, or 0 for Enterprise. Note that when you configure this setting to 5 for Production, or 0 for Enterprise, the "Get OneDrive Insider preview updates before release" checkbox will not appear on the client Settings > About tab.
   
@@ -471,9 +474,6 @@ If you disable this setting, the **Office** tab is hidden in the sync client, an
 
 ### Configure team site libraries to sync automatically
 <a name="AutoMountTeamSites"> </a> 
-
-> [!IMPORTANT]
-> This feature is currently enabled in the Insiders ring only. To try it, join the [Windows Insider program](https://insider.windows.com/) or the [Office Insider](https://products.office.com/office-insider) program.
 
 This setting allows you to specify SharePoint team site libraries to sync automatically the next time users sign in to the OneDrive sync client (OneDrive.exe), within an eight-hour window, to help distribute network load. To use this setting, the computer must be running Windows 10 Fall Creators Update (version 1709) or later, and OneDrive Files On-Demand must be enabled.
 This feature is not enabled for on-premises SharePoint sites. 

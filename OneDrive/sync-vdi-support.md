@@ -33,6 +33,8 @@ The sync client also supports non-persistent environments that have [FSLogix App
 - Windows Server 2016 R2 or Windows Server 2012 R2 (both support VHDX)
 - Windows Server 2008 R2 (supports VHD)
 
+ Using the OneDrive sync client with non-persistent environments requires that you [install the sync client per machine](https://docs.microsoft.com/onedrive/per-machine-installation).
+
 > [!NOTE]
 > For Windows Server, the [SMB network file sharing protocol](/windows-server/storage/file-server/file-server-smb-overview) is also required. 
 

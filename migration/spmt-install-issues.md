@@ -1,4 +1,5 @@
 ---
+title: Troubleshooting SPMT installation issues
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
@@ -90,6 +91,7 @@ The following table lists the required endpoints for using the SharePoint Migrat
 |https://login.microsoftonline.com|</br>
 |https://api.office.com|</br>
 |https://graph.windows.net|</br>
+|https://spmtreleasescus.blob.core.windows.net/</br>
 |https://*.queue.core.windows.net|</br>
 |https://*.blob.core.windows.net|</br>
 |https://*.pipe.aria.microsoft.com|</br>

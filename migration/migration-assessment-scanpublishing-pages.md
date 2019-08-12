@@ -64,4 +64,3 @@ The following table describes the columns in the **PublishingPages-detail.csv** 
 |PageLayoutURL  <br/> |Url to the page layout associated with the publishing page.  <br/> |
 |ScanID  <br/> |Unique identifier assigned to a specific execution of the SharePoint Migration Assessment Tool.  <br/> |
    
-

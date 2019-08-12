@@ -33,12 +33,12 @@ The **Preview Features** setting in the SharePoint admin center lets you enable 
 
 Use the Preview Features setting to enable the following features, and others that are added in the future.
   
-### Power BI integration with Excel Online
+### Power BI integration with Excel on the web
 
 When you use Power BI, your data is sent to the Power BI service. If you have implemented compliance policies for your SharePoint environment, these policies won't extend to the data as it's processed in Power BI. If this is a concern, select **Disable preview features** for this setting. 
   
 > [!IMPORTANT]
-> When you disable preview features, your users will no longer be able to use Excel Online to view and edit workbooks that rely on Power BI. 
+> When you disable preview features, your users will no longer be able to use Excel on the web to view and edit workbooks that rely on Power BI. 
   
 ## To enable or disable preview features for your organization
 

@@ -1,5 +1,5 @@
 ---
-title: "Software updates overview for SharePoint Server 2016"
+title: "Software updates overview for SharePoint Server 2016 and 2019"
 ms.reviewer: 
 ms.author: kirks
 author: Techwriter40
@@ -13,14 +13,15 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 4cbe141a-095f-4c09-82f4-dec8af16c590
-description: "Learn how to deploy a software update to a SharePoint Server 2016 farm."
+description: "Learn how to deploy a software update to a SharePoint Server 2016 or 2019 farm."
 ---
 
-# Software updates overview for SharePoint Server 2016
+# Software updates overview for SharePoint Server 2016 and 2019
 
- 
-  
-Administrators update SharePoint Server 2016 to deploy or update assemblies that provide functionality and to upgrade databases. A successful update follows a methodical approach that minimizes interruptions in service. Review information in this article to learn about the process before you begin the update process.
+Administrators update SharePoint Server 2016 or SharePoint Server 2019 to deploy or update assemblies that provide functionality and to upgrade databases. A successful update follows a methodical approach that minimizes interruptions in service. Review information in this article to learn about the process before you begin the update process.
+
+> [!NOTE]
+> This article applies to both SharePoint Server 2016 and SharePoint Server 2019.
   
 ## Before you begin software updates
 <a name="begin"> </a>
@@ -37,12 +38,21 @@ Information in this article applies to the following products:
   
 - SharePoint Server 2016
     
-- SharePoint Server 2016 language pack
-    
-- Microsoft Filter Pack
+- SharePoint Server 2016 Language Packs
+
+- SharePoint Server 2019
+
+- SharePoint Server 2019 Language Packs
     
 > [!NOTE]
-> The process that installs software updates in stand-alone environments of SharePoint Server 2016 is a simpler process than the process that installs software updates in a server farm and does not require all the steps that are required for a server farm. 
+> The process that installs software updates in stand-alone environments of SharePoint Server 2016 or 2019 is a simpler process than the process that installs software updates in a server farm and does not require all the steps that are required for a server farm.
+
+Micrososft releases Public Updates each month. The first update is known as the language independent update. This update will often include both feature and security fixes. It is also known as the 'sts-x-none' patch.
+
+The second type of patch is the language dependent patch. This patch covers all language packs, including English installations. This patch is required to fully update the farm, although may not be released every month. This patch is also known as the 'wssloc' patch.
+
+> [!IMPORTANT]
+> If a lanaguage dependent patch isn't available for a given month, update to the latest previosuly available language dependent patch. For example, if applying the July 2019 Public Update for SharePoint Server 2016, install the language indepdendnt update for July 2019 and the language dependent patch from April 2019. If you do not install the language dependent patch, you may encounter missing or incorrect functionality.
   
 ## Software update terminology
 <a name="terms"> </a>
@@ -85,6 +95,11 @@ Each phase has specific steps and results. It is possible to postpone the build-
   
 ### Patch phase
 
+The patch phase involves running the update on each SharePoint Server in the farm. There may be one or two patches that are required to be run, the language independent update and language dependent update.
+
+> [!NOTE]
+> No specific order of installation in a farm is required.
+
 The patch phase has two steps, the patch deployment step and the binaries deployment step. During the patch deployment step, new binary files are copied to the server running SharePoint Server 2016. Services that use files that the patch has to replace are temporarily stopped. Stopping services reduces the requirement to restart the server to replace files that are being used. However, in some instances you have to restart the server.
   
 The second step in the patch phase is the binaries deployment step. In this step, the installer copies support dynamic link library (.dll) files to the appropriate directories on the server that is running SharePoint Server 2016. This step ensures that all the web applications are running the correct version of the binary files and will function correctly after the update is installed. The update phase is complete after the binaries deployment step.
@@ -92,6 +107,11 @@ The second step in the patch phase is the binaries deployment step. In this step
 The next and final phase to deploy software updates is the build-to-build upgrade phase. This phase modifies database schemas, updates objects in the farm, and updates site collections.
   
 ### Build-to-build upgrade phase
+
+The build-to-build upgrade phase requires the administrator to run the Configuration Wizard or `psconfig` from the SharePoint Managmeent Shell.
+
+> [!NOTE]
+> No specific order of execution of the Configuration Wizard in a farm is required.
 
 After you finish the patch phase, you must complete the update installation by starting the build-to-build upgrade phase. The build-to-build upgrade phase is task intensive and, therefore, takes the most time to finish. The first action is to upgrade all the SharePoint processes that are running. After you upgrade the processes, the databases are crawled and upgraded. After you complete a farm upgrade on one server, you have to complete the process on all other servers to maintain compatibility.
   
