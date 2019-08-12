@@ -98,7 +98,7 @@ Farm administrators can use the following PowerShell cmdlets to run the site col
   Test-SPSite -Identity  <RuleID>]
   ```
 
-    Where:
+  Where:
     
   -  _\<RuleID\>_ is ID for a specific rule that you want to run. 
     
@@ -127,7 +127,7 @@ Farm administrators can use the following PowerShell cmdlets to run the site col
   Repair-SPSite -Identity  <RuleID>]
   ```
 
-    Where:
+  Where:
     
   -  _\<RuleID\>_ is ID for a specific rule that you want to run. 
     
