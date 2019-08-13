@@ -190,7 +190,7 @@ Verify that you have the following memberships:
   Connect-SPConfigurationDatabase -DatabaseServer <SqlServerName> -DatabaseName <ConfigDbName> -Passphrase <FarmPassphrase>  -LocalServerRole <ServerRole>
   ```
 
-    Where:
+  Where:
     
   -  _\<$DatabaseServer\>_ is the name of the server that hosts the configuration database 
     
