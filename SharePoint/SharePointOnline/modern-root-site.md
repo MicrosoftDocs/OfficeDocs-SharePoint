@@ -31,8 +31,9 @@ Previously, when SharePoint was set up for an organization, a classic team site 
 
 Before you begin, make sure you:
 
-1. Note any "Featured links" that have been added on the SharePoint start page. You'll need to add them again after the swap. [Learn how](change-links-list-on-sharepoint-home-page.md)
-2. Review your source site to make sure it has the same policies, permissions, and external sharing settings as your current root site.
+1. Ensure that the source site that you want to swap to the root has followed the recommended guidance. [Building SharePoint Online portals](/sharepoint/dev/solution-guidance/portal-overview) 
+2. Note any "Featured links" that have been added on the SharePoint start page. You'll need to add them again after the swap. [Learn how](change-links-list-on-sharepoint-home-page.md)
+3. Review your source site to make sure it has the same policies, permissions, and external sharing settings as your current root site.
 
 > [!NOTE]
 > If you've enabled auditing, the following events can be recorded :
@@ -65,7 +66,7 @@ For more info about this cmdlet, see [Invoke-SPOSiteSwap](/powershell/module/sha
 ### Known issues with swapping sites
 
 - The target site may return a "not found" (HTTP 404) error for a short period of time.
-- Content will need to be recrawled to update the search index.
+- Content will need to be recrawled to update the search index for the sites that have been swapped. This may take a period of time depending on various factors such as the amount of content in these sites. Anything dependent on the search index, may return incomplete results until the swapped sites have been recrawled.
 - Anything dependent on "static" links (such as File Sync and OneNote files) will need to be manually corrected.
 - If the source site was an organizational news site, update the URL. [Get a list of all organizational news sites](/powershell/module/sharepoint-online/get-spoorgnewssite?view=sharepoint-ps)
 - Project Server sites may need to be validated to ensure that they are still associated correctly.
