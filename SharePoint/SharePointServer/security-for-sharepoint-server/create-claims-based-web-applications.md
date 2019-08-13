@@ -19,7 +19,7 @@ description: "Illustrates how to create SharePoint Server web applications that 
 
 # Create claims-based web applications in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)] 
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 Claims-based authentication is a requirement to enable the advanced functionality of SharePoint Server. This article explains how to use either Central Administration or PowerShell to create a SharePoint Server web application that uses claims-based authentication. Claims-based authentication is a requirement for web applications that are deployed in scenarios that support server-to-server authentication and app authentication. However, this article also provides guidance for using PowerShell to create classic-mode web applications if you have a specific scenario that cannot support claims-based authentication. Be aware that classic-mode authentication is deprecated in this release, and it will not be available in the next version. For more information, see [Plan for server-to-server authentication in SharePoint Server](/SharePoint/security-for-sharepoint-server/plan-server-to-server-authentication)
   
