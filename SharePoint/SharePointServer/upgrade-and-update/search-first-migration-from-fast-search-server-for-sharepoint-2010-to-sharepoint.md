@@ -119,7 +119,8 @@ To complete a search-first migration:
 |Custom connectors and their associated configuration  <br/> |No  <br/> |
 |Rank profile  <br/> |No  <br/> |
 
->[!NOTE] A FAST Search Server 2010 for SharePoint rank profile can't be converted to a SharePoint 2013 ranking model.          
+> [!NOTE]
+> A FAST Search Server 2010 for SharePoint rank profile can't be converted to a SharePoint 2013 ranking model.          
    
 ## Features with limitations
 <a name="features_limitations"> </a>
