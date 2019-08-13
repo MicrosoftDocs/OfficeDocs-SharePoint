@@ -174,7 +174,7 @@ Use the procedure in this section to create a new claims-based SharePoint Server
   -URL <URL> -Port <Port> -AuthenticationProvider $ap
   ```
 
-    Where:
+  Where:
     
   -  _\<Name\>_ is the name of the new web application that uses claims-based authentication. 
     
@@ -229,7 +229,7 @@ Use the procedure in this section to create a new classic-mode SharePoint Server
   -Port <Port> -URL <URL>
   ```
 
-    Where:
+  Where:
     
   -  _\<Name\>_ is the name of the new web application that uses classic-mode authentication. 
     
