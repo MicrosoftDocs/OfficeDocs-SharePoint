@@ -123,7 +123,8 @@ You can also allow only users in specific security groups to share externally. T
 
 [!INCLUDE[discussionforums.md](includes/discussionforums.md)]
 
-  
+You can also find help on security and permissions in these [YouTube videos from SharePoint community experts](https://www.youtube.com/playlist?list=PLKurDp05sqD0oE3KnohD69dkP5fHmrfuN).
+
 ## See also
 
 [Stop sharing files or folders or change permissions](https://support.office.com/article/0a36470f-d7fe-40a0-bd74-0ac6c1e13323)

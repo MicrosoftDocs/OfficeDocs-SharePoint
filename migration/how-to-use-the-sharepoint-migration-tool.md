@@ -72,12 +72,12 @@ SPMT supports the following authentication methods:
 
 ### Where is your data currently located?
 
-Before you start using the SharePoint Migration Tool (SPMT), note where your data is located and where you want those files located after migration. You will be prompted for the current location of your data files and the location of the SharePoint Online site collection where you want them copied. The SharePoint Migration Tool lets you select from two sources from which to migrate your data: from an on-premises SharePoint Server 2013 site or from a local file share or network path.
+Before you start using the SharePoint Migration Tool (SPMT), note where your data is located and where you want those files located after migration. You will be prompted for the current location of your data files and the location of the SharePoint Online site collection where you want them copied. The SharePoint Migration Tool lets you select from two sources from which to migrate your data: from an on-premises SharePoint Server 2010 or 2013 site or from a local file share or network path.
   
 - **SharePoint on-premises:** If you select the SharePoint on-premises option, you will be asked to enter the name of the SharePoint Server site where your files are located and prompted for your credentials for that site. You will indicate what document library you wish to migrate. 
     
     > [!NOTE]
-    > The SharePoint Migration Tool supports SharePoint Server 2013. 
+    > The SharePoint Migration Tool supports SharePoint Server 2010* and 2013.  **Support for 2010 is currently in Public Preview release.
   
 - **File share:** If you select the file share option, you will be asked to enter the location of the file share, the URL of the SharePoint Online site, and the document library where they will be copied. The files are not deleted from the source.
     
@@ -91,9 +91,9 @@ To install the current release download here: [SharePoint Migration Tool Version
     
 2. Select **Start your first migration**.
     
-3. Select **SharePoint Server 2013.**
+3. Select **SharePoint Server**.
     
-4. Enter the SharePoint Server 2013 site URL where your content is located. Click **Next**.
+4. Enter the SharePoint Server site URL where your content is located. Click **Next**.
     
     > [!IMPORTANT]
     > Proxy connections are not supported. Using Proxy connections will yield errors such as "SharePoint login fail" or "cannot load document library". 

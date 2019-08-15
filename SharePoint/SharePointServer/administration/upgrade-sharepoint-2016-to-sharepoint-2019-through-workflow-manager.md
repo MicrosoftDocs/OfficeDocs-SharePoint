@@ -117,7 +117,7 @@ To get the SPAuthenticationRealm value of ApplicationID that's stored in the sco
     WHERE Description like '%<WebID>%'
 
     ```
-
+ 
     Where \<WebID> is the placeholder for the ID of the SPWeb object.
 
 2.	In the query result, click the value in the SecuritySettings column to open the XML on a separate tab in SQL Server Management Studio.

@@ -78,6 +78,7 @@ For the steps to delete a user in the Microsoft 365 admin center, see [Delete a 
  
    ```PowerShell
    Remove-SPOExternalUser -UniqueIDs @($ExtUser.UniqueId)
+    ```
 
 ## Remove people from the UserInfo list
 

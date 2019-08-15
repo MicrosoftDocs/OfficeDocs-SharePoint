@@ -84,7 +84,7 @@ You can also limit domains at the site collection level. Note the following cons
     
 7. From the drop-down list, choose either **Don't allow sharing with users from these blocked domains** to deny access to targeted domains or **Allow sharing only with users from these domains** to limit access to only to the domains you list. 
     
-8. List the domains (maximum of 60) in the box provided, using the format  *domain.com.* If listing more than one domain, separate each domain with a space or a carriage return. 
+8. List the domains (maximum of 100) in the box provided, using the format  *domain.com.* If listing more than one domain, separate each domain with a space or a carriage return. 
     
     > [!NOTE]
     > Wildcards are not supported for domain entries. 
