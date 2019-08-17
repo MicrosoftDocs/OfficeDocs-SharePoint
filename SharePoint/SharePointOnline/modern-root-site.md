@@ -1,5 +1,5 @@
 ---
-title: "Create a modern root site"
+title: "Modernize your root site"
 ms.reviewer: 
 ms.author: kaarins
 author: kaarins
@@ -19,13 +19,17 @@ search.appverid:
 description: "Learn about modernizing the root site for your organization."
 ---
 
-# Create a modern root site
+# Modernize your root site
   
-Previously, when SharePoint was set up for an organization, a classic team site was created as the root (or top-level) SharePoint site. Now, a communication site is set up as the root site for new organizations. If your environment was set up before April 2019, you can change your root site to a modern site in one of two ways by using Microsoft PowerShell:
+Previously, when SharePoint was set up for an organization, a classic team site was created as the root (or top-level) SharePoint site. Now, a communication site is set up as the root site for new organizations. If your environment was set up before April 2019, you can change your root site to a modern site in one of three ways:
 
+- Enable the modern site pages library experience and set a modern page as the home page of the root site. This gives users a modern team site experience with the left navigation. 
 - If you have a different site that you want to use as your root site, you can replace (swap) the root site with it.
 - To keep using the content on the site, you can convert the existing site to a communication site. 
 
+## What's the root site?
+
+The root site is one of the site collections provisioned automatically for an organization when they signup for any Office 365 or Microsft 365 products that include a SharePoint license. Typically that site's URL is of the format .sharepoint.com. 
 
 ## Swap your root site
 
