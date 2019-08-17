@@ -21,29 +21,34 @@ description: "Learn about modernizing the root site for your organization."
 
 # Modernize your root site
   
-Previously, when SharePoint was set up for an organization, a classic team site was created as the root (or top-level) SharePoint site. Now, a communication site is set up as the root site for new organizations. If your environment was set up before April 2019, you can change your root site to a modern site in one of three ways:
+Previously, when SharePoint was set up for an organization, a classic team site was created as the root (or top-level) SharePoint site. Now, a communication site is set up as the root site for new organizations. If your environment was set up before April 2019, you can modernize your root site three ways:
 
-- Enable the modern site pages library experience and set a modern page as the home page of the root site. This gives users a modern team site experience with the left navigation. 
-- If you have a different site that you want to use as your root site, you can replace (swap) the root site with it.
-- To keep using the content on the site, you can convert the existing site to a communication site. 
+- If you want to continue using the classic team site, [enable the modern site pages library experience](/sharepoint/dev/transform/modernize-userinterface-lists-and-libraries) and [set a modern page as the home page](/sharepoint/dev/transform/modernize-userinterface-site-pages) of the root site. This gives users a modern team site experience with the left navigation.
+- If you have a different site that you want to use as your root site, or you want to use a modern team site instead of a communication site, replace (swap) the root site with it.
+- If you want the content on your classic team site to be displayed with the layout of a communication site, apply the communication site experience to the root site.
+
+> [!NOTE]
+> Regardless of how you modernize your root site, make sure you [review performance considerations and other guidance](/sharepoint/dev/solution-guidance/portal-overview) for the site.
 
 ## What's the root site?
 
-The root site is one of the site collections provisioned automatically for an organization when they signup for any Office 365 or Microsft 365 products that include a SharePoint license. Typically that site's URL is of the format .sharepoint.com. 
+The root site for your organization is one of the sites that's provisioned automatically when you purchase and set up an Office 365 or Microsoft 365 plan that includes SharePoint. The URL of this site is typically *domain*.sharepoint.com. The root site can't be connected to an Office 365 group.
+
+> [!WARNING]
+> Do not delete the root site for your organization. If you do, users will not be able to access any SharePoint sites until you restore the root site or create a new site at the root. 
 
 ## Swap your root site
 
 Before you begin, make sure you:
 
-1. Ensure that the source site that you want to swap to the root has followed the recommended guidance. [Building SharePoint Online portals](/sharepoint/dev/solution-guidance/portal-overview) 
-2. Note any "Featured links" that have been added on the SharePoint start page. You'll need to add them again after the swap. [Learn how](change-links-list-on-sharepoint-home-page.md)
-3. Review your source site to make sure it has the same policies, permissions, and external sharing settings as your current root site.
+1. Note any "Featured links" that have been added on the SharePoint start page. You'll need to add them again after the swap. [Learn how](change-links-list-on-sharepoint-home-page.md)
+2. Review your source site to make sure it has the same policies, permissions, and external sharing settings as your current root site.
 
-> [!NOTE]
-> If you've enabled auditing, the following events can be recorded :
-<br> Scheduled site swap: A site swap was scheduled at this time
-<br> Swapped site: A site swap completed successfully at this time
-<br> Failed site swap: A site swap failed at this time and will not retry
+If you've enabled auditing, the following events can be recorded:
+
+- Scheduled site swap: A site swap was scheduled at this time
+- Swapped site: A site swap completed successfully at this time
+- Failed site swap: A site swap failed at this time and will not retry
  
 ### Limitations
 
@@ -65,7 +70,7 @@ Invoke-SPOSiteSwap -SourceUrl https://contoso.sharepoint.com/sites/Communication
 
 (Where SourceUrl is the site you want to use, TargetUrl is the root site you want to replace, and ArchiveUrl is the location where you want to archive the current root site.)
 
-For more info about this cmdlet, see [Invoke-SPOSiteSwap](/powershell/module/sharepoint-online/invoke-spositeswap).
+For more info about using this cmdlet and what happens with the previous root site, see [Invoke-SPOSiteSwap](/powershell/module/sharepoint-online/invoke-spositeswap).
 
 ### Known issues with swapping sites
 
@@ -75,9 +80,9 @@ For more info about this cmdlet, see [Invoke-SPOSiteSwap](/powershell/module/sha
 - If the source site was an organizational news site, update the URL. [Get a list of all organizational news sites](/powershell/module/sharepoint-online/get-spoorgnewssite?view=sharepoint-ps)
 - Project Server sites may need to be validated to ensure that they are still associated correctly.
 
-## Convert your root site to a communication site
+## Apply the communication site experience to the root site
 
-When you convert your root site to a communication site:
+When you apply the communication site experience to the root site:
 
 - A new modern home page will be created for the root site (only the site at the root, not any subsites)
 - Full-width pages with horizontal navigation will be available (the top navigation from classic view will be hidden, but can be seen on classic pages like the Site settings page)
@@ -85,7 +90,7 @@ When you convert your root site to a communication site:
 - Minor Versioning on the Site Pages library will be enabled
 - Site Pages will be the default content type in the Site Pages library
 
-The permissions and content of the root site won't be changed.
+The permissions and content of the root site won't be changed, and the root site will still appear as having the template "team site (classic experience)" or STS#0.
 
 ### Limitations
 
