@@ -21,21 +21,21 @@ description: "Learn about modernizing the root site for your organization."
 
 # Modernize your root site
   
-Previously, when SharePoint was set up for an organization, a classic team site was created as the root (or top-level) SharePoint site. Now, a communication site is set up as the root site for new organizations. If your environment was set up before April 2019, you can modernize your root site three ways:
+When SharePoint is set up for an organization, a root (or top-level) site is created. Before April 2019, the site was created as a classic team site. Now, a communication site is set up as the root site for new organizations. If your environment was set up before April 2019, you can modernize your root site three ways:
 
 - If you want to continue using the classic team site, [enable the modern site pages library experience](/sharepoint/dev/transform/modernize-userinterface-lists-and-libraries) and [set a modern page as the home page](/sharepoint/dev/transform/modernize-userinterface-site-pages) of the root site. This gives users a modern team site experience with the left navigation.
 - If you have a different site that you want to use as your root site, or you want to use a modern team site instead of a communication site, replace (swap) the root site with it.
 - If you want the content on your classic team site to be displayed with the layout of a communication site, apply the communication site experience to the root site.
 
 > [!NOTE]
-> Regardless of how you modernize your root site, make sure you [review performance considerations and other guidance](/sharepoint/dev/solution-guidance/portal-overview) for the site.
+> Typically, organizations launch their intranet landing page at the root site location. It's a clear choice for a portal since it has the shortest URL that is easiest to remember. By modernizing the root site, you can  have a great portal experience powered by modern SharePoint. We strongly encourage you to [review performance considerations and other guidance](/sharepoint/dev/solution-guidance/portal-overview) before launching portals at the root site location. 
 
 ## What's the root site?
 
-The root site for your organization is one of the sites that's provisioned automatically when you purchase and set up an Office 365 or Microsoft 365 plan that includes SharePoint. The URL of this site is typically *domain*.sharepoint.com. The root site can't be connected to an Office 365 group.
+The root site for your organization is one of the sites that's provisioned automatically when you purchase and set up an Office 365 or Microsoft 365 plan that includes SharePoint. The URL of this site is typically *contoso*.sharepoint.com. The root site can't be connected to an Office 365 group. The owner for the root site is Company Administrator (all global admins in the organization).
 
 > [!WARNING]
-> Do not delete the root site for your organization. If you do, users will not be able to access any SharePoint sites until you restore the root site or create a new site at the root. 
+> Do not delete the root site for your organization. If you do, users will not be able to access any SharePoint sites until you restore the root site. 
 
 ## Swap your root site
 
@@ -44,7 +44,7 @@ Before you begin, make sure you:
 1. Note any "Featured links" that have been added on the SharePoint start page. You'll need to add them again after the swap. [Learn how](change-links-list-on-sharepoint-home-page.md)
 2. Review your source site to make sure it has the same policies, permissions, and external sharing settings as your current root site.
 
-If you've enabled auditing, the following events can be recorded:
+If you've [turned on audit log search](/office365/securitycompliance/turn-audit-log-search-on-or-off), the following events can be recorded:
 
 - Scheduled site swap: A site swap was scheduled at this time
 - Swapped site: A site swap completed successfully at this time
@@ -56,7 +56,8 @@ If you've enabled auditing, the following events can be recorded:
 - The source site must be a modern team site (STS#3), a communication site (SITEPAGEPUBLISHING#0), or a classic team site (STS#0).
 - All subsites contained with the source and target sites will be swapped.
 - The source and target sites can't be connected to an Office 365 group or associated with a hub. 
-  - If the site is associated to a hub, then the association can be removed, the swap performed, and the hub re-associated after performing the swap.
+- If a site is associated with a hub, disassociate the site, perform the swap, and then reassociate the site.
+- Any sharing links or bookmarks will no longer work. 
   
 ### Run the PowerShell cmdlet
 
@@ -88,7 +89,7 @@ When you apply the communication site experience to the root site:
 
 - A new modern home page will be created for the root site (only the site at the root, not any subsites)
 - Full-width pages with horizontal navigation will be available (the top navigation from classic view will be hidden, but can be seen on classic pages like the Site settings page)
-- Custom script will be disabled
+- [Custom script](allow-or-prevent-custom-script.md) will be disabled
 - Minor Versioning on the Site Pages library will be enabled
 - Site Pages will be the default content type in the Site Pages library
 
