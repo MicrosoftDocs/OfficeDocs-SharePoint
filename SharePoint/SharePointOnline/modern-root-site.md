@@ -54,7 +54,9 @@ If you've enabled auditing, the following events can be recorded:
 
 - Only sites within the same domain, for example, https://contoso.sharepoint.com can be swapped.
 - The source site must be a modern team site (STS#3), a communication site (SITEPAGEPUBLISHING#0), or a classic team site (STS#0).
+- All subsites contained with the source and target sites will be swapped.
 - The source and target sites can't be connected to an Office 365 group or associated with a hub. 
+  - If the site is associated to a hub, then the association can be removed, the swap performed, and the hub re-associated after performing the swap.
   
 ### Run the PowerShell cmdlet
 
