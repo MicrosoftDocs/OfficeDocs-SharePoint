@@ -111,7 +111,7 @@ In a general sense, tagging refers to the act of applying metadata to an item, w
 ## Metadata scenarios: from taxonomies to folksonomies
 <a name="__toc262648167"> </a>
 
-SharePoint metadata management supports a range of approaches to metadata, from formal taxonomies to user-driver folksonomies. You can implement formal taxonomies through managed terms and term sets. You can also use enterprise keywords and social tagging, which enable site users to tag content with keywords that they choose.
+SharePoint metadata management supports a range of approaches to metadata, from formal taxonomies to user-driven folksonomies. You can implement formal taxonomies through managed terms and term sets. You can also use enterprise keywords and social tagging, which enable site users to tag content with keywords that they choose.
   
 In addition, SharePoint products offer flexibility. You can choose how much structure and control to use with metadata, and you can choose the scope of control and structure. For example:
   
