@@ -35,6 +35,8 @@ The per-machine sync client supports syncing OneDrive and SharePoint files in Mi
 
 - All Windows versions supported by the sync client. [Learn more](https://support.office.com/article/onedrive-system-requirements-cc0cb2b8-f446-445c-9b52-d3c2627d681e)
 - Sync client build 19.043.0304.0006 or later. For info about which sync client build is available in each ring, see [New OneDrive sync client release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0).
+- To apply sync client updates, computers in your organization must be able to reach the following: "oneclient.sfx.ms" and "g.live.com." Make sure you don't block these URLs. They are also used to enable and disable features and apply bug fixes. [More info about the URLs and IP address ranges used in Office 365](/office365/enterprise/urls-and-ip-address-ranges).
+
   
 ## Deployment instructions
 
@@ -71,13 +73,26 @@ We do not support automated migration from per-machine to per-user. To revert ba
 
 **How can I detect the installation through SCCM?** 
 
-For SCCM, to detect the install we used the following two registry detection rules with an OR() connector;
+For SCCM, to detect the install we used the following two registry detection rules with an OR() connector:
+
+|Field|Value|
+|---|---|
+|Hive|   HKEY_LOCAL_MACHINE|
+|Key|    SOFTWARE\Wow6432Node\Microsoft\OneDrive|
+|Value|  Version|
+|32bit on 64bit| TRUE|
+|Type|   Version|
+|Value|  19.043.0304.0007|
 
 
-[HKLM\SOFTWARE\Wow6432Node\Microsoft\OneDrive]"1111-2222-3333-4444"=dword:0005000
-
-HKLM\SOFTWARE\Wow6432Node\Microsoft\OneDrive | Version | 32bit on 64bit TRUE | Type=Version | = 19.043.0304.0007
-HKLM\SOFTWARE\Microsoft\OneDrive | Version | 32bit on 64bit FALSE | Type=Version | = 19.043.0304.0007
+|Field|Value|
+|---|---|
+|Hive|   HKEY_LOCAL_MACHINE|
+|Key|    SOFTWARE\Microsoft\OneDrive|
+|Value|  Version|
+|32bit on 64bit| FALSE|
+|Type|   Version|
+|Value|  19.043.0304.0007|
 
 This allows the per-machine version to be detected independent of the underlying client architecture.
 

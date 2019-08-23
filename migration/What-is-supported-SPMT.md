@@ -44,3 +44,6 @@ The SharePoint Migration Tool (SPMT) supports the migration of the following loc
 
 > [!Note]
 > Do you have a suggestion or feature request to improve the SPMT? Share it with us at [User Voice](https://sharepoint.uservoice.com/forums/282887-sharepoint-hybrid-or-migration-to-office365)
+
+> [!Note]
+> For a detailed list of features available in each release of SPMT, please read [Release Notes: SharePoint Migration Tool (SPMT)](new-and-improved-features-in-the-sharepoint-migration-tool.md)

@@ -120,9 +120,9 @@ There are a few things you should check if one or more users in your organizatio
   
 - [Check that you allow your organization to access Delve](#BKMK_OfficeGraphAccess).
     
-- [Check that you're using an Office 365 plan that supports Delve](#BKMK_CheckPlan).
+- Check that you're using an Office 365 plan that supports Delve
     
-- [Check that you've assigned the correct user licenses](#BKMK_CheckLicense). 
+- Check that you've assigned the correct user licenses
     
  **Check that you allow your organization to access Delve**
 <a name="#BKMK_OfficeGraphAccess"></a>
@@ -292,7 +292,7 @@ If you choose to disable Delve for your organization, Delve will be removed from
 If Delve is enabled, users also have access to related features in other apps that are powered by the Office Graph. If you disable Delve, users can no longer see these features:
 
 - The "Suggested" list on the SharePoint start page
-- The "Discover" list in OneDrive and on the Microsoft Office Home page
+- The "Discover" list in OneDrive, in the Outlook mobile app, and on the Microsoft Office Home page
 - Documents on other users' profile cards and profile pages
 
 If you disable Delve, users will not have access to the following API's:

@@ -41,7 +41,7 @@ Organizations create taxonomies in too many ways to list. They create Chart of A
 ### Folksonomy
 <a name="__migbm_1"> </a>
 
-A folksonomy is an informal classification system. It is evolves gradually as web site users collaborate on words, labels, and terms on a site. Originally, folksonomies developed from popular applications such as bookmarking.
+A folksonomy is an informal classification system. It evolves gradually as web site users collaborate on words, labels, and terms on a site. Originally, folksonomies developed from popular applications such as bookmarking.
   
 If you have ever seen a tag cloud on a website, then you have seen a visualization of a folksonomy. The following figure shows a tag cloud on a SharePoint site. 
   
@@ -111,7 +111,7 @@ In a general sense, tagging refers to the act of applying metadata to an item, w
 ## Metadata scenarios: from taxonomies to folksonomies
 <a name="__toc262648167"> </a>
 
-SharePoint metadata management supports a range of approaches to metadata, from formal taxonomies to user-driver folksonomies. You can implement formal taxonomies through managed terms and term sets. You can also use enterprise keywords and social tagging, which enable site users to tag content with keywords that they choose.
+SharePoint metadata management supports a range of approaches to metadata, from formal taxonomies to user-driven folksonomies. You can implement formal taxonomies through managed terms and term sets. You can also use enterprise keywords and social tagging, which enable site users to tag content with keywords that they choose.
   
 In addition, SharePoint products offer flexibility. You can choose how much structure and control to use with metadata, and you can choose the scope of control and structure. For example:
   

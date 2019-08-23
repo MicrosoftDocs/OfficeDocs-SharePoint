@@ -27,7 +27,17 @@ A component of your Office 365 enterprise subscription, SharePoint Online (SPO) 
   
 ## Planning your move to SharePoint online
 
-The method you select to move your data depends on a number of factors including the amount of data and the size. What data do you want or need to move? Where is the content currently stored? Taking the time to plan your migration, including taking an inventory and assessment of your data, is key to a successful migration.
+The method you select to move your data depends on a number of factors including the amount of data and the size. What data do you want or need to move? Where is the content currently stored? Taking the time to plan your migration, including taking an inventory and assessment of your data, is key to a successful migration. 
+
+### Migration scenario guides
+
+Most migrations fall into regular phases as described below. Proven success factors for migration include planning, assessing and remediating, preparing your target environment, migrating and onboarding your users.  See our migration guides to assist you in planning your migration.
+
+- [Box to OneDrive Migration Guide](https://docs.microsoft.com/en-us/sharepointmigration/box-to-onedrive-and-sharepoint-migration-guide)
+- [MySites to OneDrive Migration Guide](https://docs.microsoft.com/en-us/sharepointmigration/mysites-to-onedrive-migration-guide)
+- [File share to OneDrive and SharePoint Migration Guide](https://docs.microsoft.com/en-us/sharepointmigration/fileshare-to-odsp-migration-guide)
+- [SharePoint Server team sites Migration Guide](https://docs.microsoft.com/en-us/sharepointmigration/sp-teams-sites-migration-guide)
+
 
 ## Assess your data ##
 
@@ -47,3 +57,5 @@ Microsoft FastTrack services can help you get started with your migration to the
 |OneDrive sync client  <br/> |After installing the OneDrive Sync client, you can drag and drop files to a folder on the computer and the content will automatically sync with either OneDrive or SharePoint Online.  <br/> |
 |Manual upload  <br/> |Uploading files one at a time from the SharePoint Online tenant. <br/> |
    
+>[!Note]
+>When you migrate your content to SharePoint Online or OneDrive using the SPMT or the Migration API, you are copying the files.  Your source files are not deleted.
