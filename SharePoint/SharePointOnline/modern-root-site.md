@@ -28,11 +28,11 @@ When SharePoint is set up for an organization, a root (or top-level) site is cre
 - If you want the content on your classic team site to be displayed with the layout of a communication site, apply the communication site experience to the root site.
 
 > [!NOTE]
-> Typically, organizations launch their intranet landing page at the root site location. It's a clear choice for a portal since it has the shortest URL that is easiest to remember. By modernizing the root site, you can  have a great portal experience powered by modern SharePoint. We strongly encourage you to [review performance considerations and other guidance](/sharepoint/dev/solution-guidance/portal-overview) before launching portals at the root site location. 
+> Typically, organizations launch their intranet landing page at the root site location. It's a clear choice for a portal since it has the shortest URL that is easiest to remember. We strongly encourage you to [review performance considerations and other guidance](/sharepoint/dev/solution-guidance/portal-overview) before launching portals at the root site location. 
 
 ## What's the root site?
 
-The root site for your organization is one of the sites that's provisioned automatically when you purchase and set up an Office 365 or Microsoft 365 plan that includes SharePoint. The URL of this site is typically *contoso*.sharepoint.com. The root site can't be connected to an Office 365 group. The owner for the root site is Company Administrator (all global admins in the organization).
+The root site for your organization is one of the sites that's provisioned automatically when you purchase and set up an Office 365 or Microsoft 365 plan that includes SharePoint. The URL of this site is typically *contoso*.sharepoint.com, and the owner is Company Administrator (all global admins in the organization). The root site can't be connected to an Office 365 group. 
 
 > [!WARNING]
 > Do not delete the root site for your organization. If you do, users will not be able to access any SharePoint sites until you restore the root site. 
@@ -55,8 +55,8 @@ If you've [turned on audit log search](/office365/securitycompliance/turn-audit-
 - Only sites within the same domain, for example, https://contoso.sharepoint.com can be swapped.
 - The source site must be a modern team site (STS#3), a communication site (SITEPAGEPUBLISHING#0), or a classic team site (STS#0).
 - All subsites contained with the source and target sites will be swapped.
-- The source and target sites can't be connected to an Office 365 group or associated with a hub. 
-- If a site is associated with a hub, disassociate the site, perform the swap, and then reassociate the site.
+- The source and target sites can't be connected to an Office 365 group. They also can't be hub sites or associated with a hub. 
+- If a site is a hub site, unregister it as a hub site, perform the swap, and then register it again. If the site is associated with a hub, disassociate the site, perform the swap, and then reassociate the site. 
 - Any sharing links or bookmarks will no longer work. 
   
 ### Run the PowerShell cmdlet
@@ -78,7 +78,7 @@ For more info about using this cmdlet and what happens with the previous root si
 ### Known issues with swapping sites
 
 - The target site may return a "not found" (HTTP 404) error for a short period of time.
-- Content will need to be recrawled to update the search index for the sites that have been swapped. This may take a period of time depending on various factors such as the amount of content in these sites. Anything dependent on the search index, may return incomplete results until the swapped sites have been recrawled.
+- Content will need to be recrawled to update the search index for the sites that have been swapped. This may take a period of time depending on various factors such as the amount of content in these sites. Anything dependent on the search index may return incomplete results until the swapped sites have been recrawled.
 - Anything dependent on "static" links (such as File Sync and OneNote files) will need to be manually corrected.
 - If the source site was an organizational news site, update the URL. [Get a list of all organizational news sites](/powershell/module/sharepoint-online/get-spoorgnewssite?view=sharepoint-ps)
 - Project Server sites may need to be validated to ensure that they are still associated correctly.
