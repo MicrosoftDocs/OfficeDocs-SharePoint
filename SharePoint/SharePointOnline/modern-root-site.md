@@ -23,12 +23,12 @@ description: "Learn about modernizing the root site for your organization."
   
 When SharePoint is set up for an organization, a root (or top-level) site is created. Before April 2019, the site was created as a classic team site. Now, a communication site is set up as the root site for new organizations. If your environment was set up before April 2019, you can modernize your root site three ways:
 
+- If you have a different site that you want to use as your root site, or if you want to use a modern team site, [replace (swap) the root site](#swap-your-root-site) with it.
+- If you want the content on your classic team site to be displayed with the layout of a communication site, [apply the communication site experience](#apply-the-communication-site-experience-to-the-root-site) to the root site.
 - If you want to continue using the classic team site, [enable the modern site pages library experience](/sharepoint/dev/transform/modernize-userinterface-lists-and-libraries) and [set a modern page as the home page](/sharepoint/dev/transform/modernize-userinterface-site-pages) of the root site. This gives users a modern team site experience with the left navigation.
-- If you have a different site that you want to use as your root site, or you want to use a modern team site instead of a communication site, replace (swap) the root site with it.
-- If you want the content on your classic team site to be displayed with the layout of a communication site, apply the communication site experience to the root site.
 
-> [!NOTE]
-> Typically, organizations launch their intranet landing page at the root site location. It's a clear choice for a portal since it has the shortest URL that is easiest to remember. We strongly encourage you to [review performance considerations and other guidance](/sharepoint/dev/solution-guidance/portal-overview) before launching portals at the root site location. 
+> [!IMPORTANT]
+> Before you launch an intranet landing page at your root site location, we strongly encourage you to [review the guidance about optimizing SharePoint performance](/sharepoint/dev/solution-guidance/portal-overview).
 
 ## What's the root site?
 
