@@ -53,7 +53,7 @@ You control access to Delve from the SharePoint admin center. By default, users 
 If you disable Delve, users will no longer see:
 - The Delve app tile in the app launcher
 - The "Suggested" list on the SharePoint start page
-- The "Discover" list in OneDrive and on the Microsoft Office Home page
+- The "Discover" list in OneDrive, in the Outlook mobile app, and on the Microsoft Office Home page
 - Documents on other users' profile cards and pages
 
  See [What is the effect of enabling or disabling Delve and related features?](delve-for-office-365-admins.md#BKMK_EffectOfficegraphOnOff) for more information. 
