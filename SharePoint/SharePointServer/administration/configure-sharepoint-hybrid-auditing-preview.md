@@ -4,7 +4,6 @@ ms.reviewer:
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
-ms.date: 9/11/2017
 audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
@@ -20,7 +19,8 @@ description: "Learn about how SharePoint Auditing generates reports for on-premi
 
 [!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]
 
-Learn about how SharePoint 2016 Auditing generates reports for on-premises server users' file access logs for viewing in Office 365.
+> [!IMPORTANT]
+> Microsoft will be ending support for the Hybrid Auditing in SharePoint 2016 preview in the near future. After support ends, no new logs will be sent to the Security and Compliance Center in Office 365.
   
 ## Microsoft SharePoint Auditing (Preview)
 

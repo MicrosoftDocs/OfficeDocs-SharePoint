@@ -48,7 +48,7 @@ The following table details SharePoint List templates and which ones are support
 |116|MasterPageCatalog|Master Page gallery. Value = 116|No|
 |117|NoCodeWorkflows|No Code Workflows. Value = 117|No|
 |118|WorkflowProcess|Custom Workflow Process. Value = 118|No|
-|119|WebPageLibrary|Wiki Page Library. Value = 119|No|
+|119|WebPageLibrary|Wiki Page Library. Value = 119|Yes|
 |120|CustomGrid|Custom grid for a list. Value = 120|Yes|
 |121|SolutionCatalog|Solutions. Value = 121|No|
 |122|NoCodePublic|No Code Public Workflow. Value = 122|No|
@@ -60,8 +60,8 @@ The following table details SharePoint List templates and which ones are support
 |150|GanttTasks|Project Tasks. Value = 150|Yes|
 |151|HelpLibrary|Help Library. Value = 151|No|
 |160|AccessRequest|Access Request List. Value = 160|No|
-|170|Promoted Link list||No|
-|171|TasksWithTimelineAndHierarchy|Tasks with Timeline and Hierarchy. Value = 171|No|
+|170|Promoted Link list|ListTemplateType. Value = 170|Yes|
+|171|TasksWithTimelineAndHierarchy|Tasks with Timeline and Hierarchy. Value = 171|Yes|
 |175|MaintenanceLogs|Maintenance Logs Library. Value = 175|No|
 |200|Meetings|Meeting Series (Meeting). Value = 200|No|
 |201|Agenda|Agenda (Meeting). Value = 201|No|
@@ -82,9 +82,10 @@ The following table details SharePoint List templates and which ones are support
 |421|Holidays|Holidays. Value = 421|No|
 |433|Report Library||No|
 |499|IMEDic|IME (Input Method Editor) Dictionary. Value = 499|No|
+|500|Categories List|ListTemplateType.  Value = 500|Yes
 |600|ExternalList|External. Value = 600|No|
 |700|MySiteDocumentLibrary|MySiteDocumentLibrary.Value = 700|Yes|
-|851|Asset Library||No|
+|851|Asset Library|ListTemplateType.  Value = 851|Yes|
 |1100|IssueTracking|Issue tracking. Value = 1100|Yes|
 |1200|AdminTasks|Administrator Tasks. Value = 1200|No|
 |1220|HealthRules|Health Rules. Value = 1220|No|

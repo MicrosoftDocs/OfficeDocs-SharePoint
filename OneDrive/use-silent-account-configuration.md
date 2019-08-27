@@ -39,6 +39,8 @@ If you have an on-premises environment that uses Active Directory, you can enabl
 - Windows 8.1 
     
 - Windows 7 
+
+- Windows Server 2019
     
 - Windows Server 2016 
     

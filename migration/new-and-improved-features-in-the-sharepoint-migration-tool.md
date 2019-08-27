@@ -25,10 +25,15 @@ Learn about the new features and updates to existing features in SharePoint Migr
 >[!NOTE]
 >**NEW**: To download the new public preview release: [SharePoint Migration Tool Public Preview](https://spmtreleasescus.blob.core.windows.net/betainstall/default.htm)
 
-### SPMT Public Preview 3.0.111.1 
+### SPMT Public Preview 3.2.113.6
 
+- Support for SharePoint Server subfolder selection
 - Support for SharePoint Server 2010 site migration
-
+- Support for Government cloud (U.S.)
+- Support for the following list templates:
+    - Promoted Link list (ListTemplateType. Value = 170)
+    - Categories List (ListTemplateType. Value = 500)
+    - Asset Library (ListTemplateType. Value = 851) 
 
 ### SPMT V3.1.110.1 (Current release)
 
