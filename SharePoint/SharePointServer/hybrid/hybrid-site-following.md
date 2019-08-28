@@ -32,7 +32,7 @@ When you enable hybrid site following:
   
 - The **Sites** link in a SharePoint Server site is redirected to Office 365 (SharePoint Server 2013). 
     
-- The **Sites** tile in the app launcher ![Office 365 app launcher icon](../media/0aaa6945-f9a4-4b13-bf5f-d5c5dbe978fb.png) is redirected to Office 365 (SharePoint Server 2016). 
+- The **Sites** tile in the app launcher ![Office 365 app launcher icon](../media/0aaa6945-f9a4-4b13-bf5f-d5c5dbe978fb.png) is redirected to Office 365 (SharePoint Server 2016 and SharePoint Server 2019). 
     
 - When a user follows a site in SharePoint Server, it is added to the followed list in both SharePoint Server and Office 365.
     
