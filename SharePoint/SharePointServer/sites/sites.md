@@ -1,8 +1,8 @@
 ---
 title: "Sites"
 ms.reviewer: 
-ms.author: stevhord
-author: bentoncity
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 3/12/2018
 audience: ITPro

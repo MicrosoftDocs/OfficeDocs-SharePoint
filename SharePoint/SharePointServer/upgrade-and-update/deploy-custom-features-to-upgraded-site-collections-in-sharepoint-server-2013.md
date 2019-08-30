@@ -1,8 +1,8 @@
 ---
 title: "Deploy custom features to upgraded site collections in SharePoint Server 2013"
 ms.reviewer: 
-ms.author: kirks
-author: Techwriter40
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 2/21/2018
 audience: ITPro

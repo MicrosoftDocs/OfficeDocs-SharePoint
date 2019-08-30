@@ -1,9 +1,9 @@
 ---
 title: "Change how search results look by using result types and display templates"
 ms.reviewer: 
-ms.author: tlarsen
-author: tklarsen
-manager: arnek
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: pamgreen
 ms.date: 4/5/2018
 audience: Admin
 ms.topic: article

@@ -1,9 +1,9 @@
 ---
 title: "View search usage reports"
 ms.reviewer: 
-ms.author: tlarsen
-author: tklarsen
-manager: arnek
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: pamgreen
 audience: End User
 ms.topic: article
 ms.service: sharepoint-online
