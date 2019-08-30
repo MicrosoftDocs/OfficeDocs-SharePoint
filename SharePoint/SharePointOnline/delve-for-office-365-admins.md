@@ -125,7 +125,7 @@ There are a few things you should check if one or more users in your organizatio
 - Check that you've assigned the correct user licenses
     
  **Check that you allow your organization to access Delve**
-<a name="#BKMK_OfficeGraphAccess"></a>
+<a name="BKMK_OfficeGraphAccess"></a>
   
 1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
