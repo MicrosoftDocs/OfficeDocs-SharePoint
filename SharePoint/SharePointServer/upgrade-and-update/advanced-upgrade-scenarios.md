@@ -1,8 +1,8 @@
 ---
 title: "Advanced upgrade scenarios for SharePoint 2013"
 ms.reviewer: 
-ms.author: kirks
-author: Techwriter40
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 8/2/2017
 audience: ITPro

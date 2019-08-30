@@ -1,8 +1,8 @@
 ---
 title: "Restrict or enable access to a service application in SharePoint Server"
 ms.reviewer: 
-ms.author: stevhord
-author: bentoncity
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
 ms.topic: article

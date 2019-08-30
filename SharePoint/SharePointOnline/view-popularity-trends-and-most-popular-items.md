@@ -1,9 +1,9 @@
 ---
 title: "View Popularity Trends and Most Popular Items"
 ms.reviewer: 
-ms.author: tlarsen
-author: tklarsen
-manager: arnek
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: pamgreen
 ms.date: 6/21/2018
 audience: End User
 ms.topic: article

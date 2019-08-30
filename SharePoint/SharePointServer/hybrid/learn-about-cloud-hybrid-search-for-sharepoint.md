@@ -1,9 +1,9 @@
 ---
 title: "Learn about cloud hybrid search for SharePoint"
 ms.reviewer: 
-ms.author: tlarsen
-author: tklarsen
-manager: arnek
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: pamgreen
 ms.date: 10/4/2017
 audience: ITPro
 ms.topic: concetpual

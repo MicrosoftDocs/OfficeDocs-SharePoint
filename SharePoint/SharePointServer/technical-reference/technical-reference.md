@@ -1,8 +1,8 @@
 ---
 title: "Technical reference for SharePoint Server"
 ms.reviewer: 
-ms.author: kirks
-author: Techwriter40
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 11/16/2017
 audience: ITPro

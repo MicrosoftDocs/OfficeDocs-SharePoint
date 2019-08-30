@@ -1,8 +1,8 @@
 ---
 title: "The Application Discovery and Load Balancer Service is not running in this farm (SharePoint Server)"
 ms.reviewer: 
-ms.author: stevhord
-author: bentoncity
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 12/5/2017
 audience: ITPro

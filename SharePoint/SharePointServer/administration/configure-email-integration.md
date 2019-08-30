@@ -1,8 +1,8 @@
 ---
 title: "Configure email integration for a SharePoint Server farm"
 ms.reviewer: 
-ms.author: stevhord
-author: bentoncity
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 8/11/2017
 audience: ITPro

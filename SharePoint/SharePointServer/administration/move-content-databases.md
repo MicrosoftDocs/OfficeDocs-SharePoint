@@ -1,8 +1,8 @@
 ---
 title: "Move content databases in SharePoint Server"
 ms.reviewer: 
-ms.author: stevhord
-author: bentoncity
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 3/7/2018
 audience: ITPro

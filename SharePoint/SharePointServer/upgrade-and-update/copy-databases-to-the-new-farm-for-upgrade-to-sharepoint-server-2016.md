@@ -1,8 +1,8 @@
 ---
 title: "Copy databases to the new farm for upgrade to SharePoint Server 2016"
 ms.reviewer: 
-ms.author: kirks
-author: Techwriter40
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 5/30/2017
 audience: ITPro

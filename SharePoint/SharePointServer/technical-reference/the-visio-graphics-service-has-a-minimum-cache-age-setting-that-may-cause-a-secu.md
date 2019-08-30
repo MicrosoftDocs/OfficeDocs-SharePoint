@@ -1,8 +1,8 @@
 ---
 title: "The Visio Graphics Service has a minimum cache age setting that may cause a security issue ((SharePoint Server)"
 ms.reviewer: 
-ms.author: stevhord
-author: bentoncity
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 12/5/2017
 audience: ITPro

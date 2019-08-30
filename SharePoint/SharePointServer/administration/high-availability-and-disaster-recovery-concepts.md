@@ -1,8 +1,8 @@
 ---
 title: "High availability and disaster recovery concepts in SharePoint Server"
 ms.reviewer: 
-ms.author: stevhord
-author: bentoncity
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 8/2/2017
 audience: ITPro

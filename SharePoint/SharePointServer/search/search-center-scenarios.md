@@ -1,8 +1,8 @@
 ---
 title: "Search center scenarios in SharePoint Server"
 ms.reviewer: 
-ms.author: tlarsen
-author: tklarsen
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 7/26/2017
 audience: ITPro

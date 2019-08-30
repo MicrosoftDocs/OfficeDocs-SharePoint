@@ -1,8 +1,8 @@
 ---
 title: "Best practices for using fine-grained permissions in SharePoint Server"
 ms.reviewer: 
-ms.author: kirks
-author: Techwriter40
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 9/27/2017
 audience: ITPro

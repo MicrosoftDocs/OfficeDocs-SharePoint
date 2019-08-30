@@ -1,8 +1,8 @@
 ---
 title: "Prepare to deploy software updates for SharePoint 2013"
 ms.reviewer: 
-ms.author: kirks
-author: Techwriter40
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 9/27/2017
 audience: ITPro

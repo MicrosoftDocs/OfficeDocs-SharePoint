@@ -1,8 +1,8 @@
 ---
 title: "Enable TLS 1.1 and TLS 1.2 support in SharePoint Server 2016"
 ms.reviewer: 
-ms.author: kirks
-author: Techwriter40
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 6/29/2017
 audience: ITPro

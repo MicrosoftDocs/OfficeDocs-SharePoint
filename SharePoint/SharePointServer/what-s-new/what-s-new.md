@@ -1,8 +1,8 @@
 ---
 title: "What's new"
 ms.reviewer: 
-ms.author: kirks
-author: Techwriter40
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
 ms.topic: hub-page

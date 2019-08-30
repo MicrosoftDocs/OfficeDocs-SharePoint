@@ -1,8 +1,8 @@
 ---
 title: "Create the SharePoint Server 2019 farm for a database attach upgrade"
 ms.reviewer: 
-ms.author: kirks
-author: Techwriter40
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 07/24/2018
 audience: ITPro

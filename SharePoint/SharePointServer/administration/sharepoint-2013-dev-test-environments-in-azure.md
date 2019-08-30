@@ -1,8 +1,8 @@
 ---
 title: "SharePoint 2013 dev/test environments in Azure"
 ms.reviewer: 
-ms.author: kirks
-author: Techwriter40
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 03/15/2019
 audience: ITPro
