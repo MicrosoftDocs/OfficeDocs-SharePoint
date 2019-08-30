@@ -31,19 +31,10 @@ For information about how conditional access works, see:
     
 - [Configure hybrid Azure Active Directory join for managed domains](/azure/active-directory/devices/hybrid-azuread-join-managed-domains)
     
-## Getting started
+## Recommendations
 
-Use the following steps on each computer.
-  
- **To enable conditional access support on the OneDrive sync client**
-  
-1. [Download and install](https://go.microsoft.com/fwlink/?linkid=844652) the OneDrive sync client. 
-    
-2. Download and open [EnableCAPreview.reg](http://go.microsoft.com/fwlink/?LinkId=824970) to enable the conditional access feature. 
-    
-3. Restart the sync client.
-    
-If you want to disable this feature, you can delete the registry key by running [DisableCAPreview.reg](http://go.microsoft.com/fwlink/?LinkId=828724). You need to restart the sync client for the change to take effect.
+We recommend using this feature together with [silent account configuration](use-silent-account-configuration.md) for the best experience. The OneDrive sync client will automatically use ADAL, and will support both device-based and location-based conditional access policies.
+If you set up the OneDrive sync client without using the [OneDrive Group Policy objects](use-group-policy.md) or changing the corresponding registry keys, it won't support device-based conditional access. Multi-factor authentication policies will work, but the sync client won't display an explanation to users who are blocked by location-based policies.
   
 ## Known issues
 
