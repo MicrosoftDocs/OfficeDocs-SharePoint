@@ -1,8 +1,8 @@
 ---
 title: "Use a trial upgrade to SharePoint 2013 to find potential issues"
 ms.reviewer: 
-ms.author: kirks
-author: Techwriter40
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 2/20/2018
 audience: ITPro

@@ -3,7 +3,7 @@ title: "Customize query suggestions in SharePoint search"
 ms.reviewer: 
 ms.author: arnek
 author: arnek
-manager: arnek
+manager: pamgreen
 audience: Admin
 ms.topic: article
 ms.service: sharepoint-online

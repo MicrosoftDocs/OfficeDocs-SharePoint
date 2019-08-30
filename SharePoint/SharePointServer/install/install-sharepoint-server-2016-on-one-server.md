@@ -1,8 +1,8 @@
 ---
 title: "Install SharePoint Servers 2016 or 2019 on one server"
 ms.reviewer: 
-ms.author: kirks
-author: Techwriter40
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 7/124/2018
 audience: ITPro

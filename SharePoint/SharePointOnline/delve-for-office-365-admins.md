@@ -3,7 +3,7 @@ title: "Office Delve for Office 365 admins"
 ms.reviewer: 
 ms.author: gretel
 author: gretel
-manager: arnek
+manager: pamgreen
 audience: Admin
 ms.topic: overview
 ms.service: sharepoint-online

@@ -1,8 +1,8 @@
 ---
 title: "Connect to a server farm"
 ms.reviewer: 
-ms.author: kirks
-author: Techwriter40
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 3/1/2018
 audience: ITPro

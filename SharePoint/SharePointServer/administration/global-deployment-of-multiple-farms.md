@@ -1,8 +1,8 @@
 ---
 title: "Global deployment of multiple farms (SharePoint 2013)"
 ms.reviewer: 
-ms.author: stevhord
-author: bentoncity
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 9/6/2017
 audience: ITPro

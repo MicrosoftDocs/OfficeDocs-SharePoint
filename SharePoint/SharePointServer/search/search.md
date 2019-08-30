@@ -1,8 +1,8 @@
 ---
 title: "Search"
 ms.reviewer: 
-ms.author: tlarsen
-author: tklarsen
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 3/12/2018
 audience: ITPro

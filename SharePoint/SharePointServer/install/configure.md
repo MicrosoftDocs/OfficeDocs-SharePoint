@@ -1,8 +1,8 @@
 ---
 title: "Configure SharePoint Server"
 ms.reviewer: 
-ms.author: stevhord
-author: bentoncity
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 12/20/2017
 audience: ITPro

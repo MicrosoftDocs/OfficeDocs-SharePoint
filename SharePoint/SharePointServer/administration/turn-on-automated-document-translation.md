@@ -1,8 +1,8 @@
 ---
 title: "Turn on automated document translation in SharePoint Server"
 ms.reviewer: 
-ms.author: stevhord
-author: bentoncity
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 3/10/2018
 audience: ITPro

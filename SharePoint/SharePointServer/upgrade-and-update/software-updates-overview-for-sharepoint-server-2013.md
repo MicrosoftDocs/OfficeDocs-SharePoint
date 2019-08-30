@@ -1,8 +1,8 @@
 ---
 title: "Software updates overview for SharePoint Server 2013"
 ms.reviewer: 
-ms.author: kirks
-author: Techwriter40
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 2/22/2018
 audience: ITPro

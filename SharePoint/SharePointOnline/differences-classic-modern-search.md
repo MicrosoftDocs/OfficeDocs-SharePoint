@@ -1,9 +1,9 @@
 ---
 title: "Differences between the classic and modern search experiences in SharePoint Online"
 ms.reviewer: 
-author: tklarsen
-ms.author: tlarsen
-manager: arnek
+author: MikePlumleyMSFT
+ms.author: mikeplum
+manager: pamgreen
 audience: Admin
 ms.topic: article
 ms.service: sharepoint-online

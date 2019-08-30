@@ -1,8 +1,8 @@
 ---
 title: "Configure and deploy web parts in SharePoint Server"
 ms.reviewer: 
-ms.author: stevhord
-author: bentoncity
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 2/8/2018
 audience: ITPro
