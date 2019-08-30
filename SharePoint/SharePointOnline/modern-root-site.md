@@ -24,7 +24,7 @@ description: "Learn about modernizing the root site for your organization."
 When SharePoint is set up for an organization, a root (or top-level) site is created. Before April 2019, the site was created as a classic team site. Now, a communication site is set up as the root site for new organizations. If your environment was set up before April 2019, you can modernize your root site three ways:
 
 - If you have a different site that you want to use as your root site, or if you want to use a modern team site, [replace (swap) the root site](#swap-your-root-site) with it.
-- If you want the content on your classic team site to be displayed with the layout of a communication site, [apply the communication site experience](#apply-the-communication-site-experience-to-the-root-site) to the root site.
+- If you want the content on your classic team site to be displayed with the layout of a communication site, [apply the communication site experience](#apply-the-communication-site-experience-to-the-root-site) to the root site. This feature is not yet available, but is coming soon.
 - If you want to continue using the classic team site, [enable the modern site pages library experience](/sharepoint/dev/transform/modernize-userinterface-lists-and-libraries) and [set a modern page as the home page](/sharepoint/dev/transform/modernize-userinterface-site-pages) of the root site. This gives users a modern team site experience with the left navigation.
 
 > [!IMPORTANT]
@@ -42,7 +42,7 @@ The root site for your organization is one of the sites that's provisioned autom
 Before you begin, make sure you:
 
 1. Note any "Featured links" that have been added on the SharePoint start page. You'll need to add them again after the swap. [Learn how](change-links-list-on-sharepoint-home-page.md)
-2. Review your source site to make sure it has the same policies, permissions, and external sharing settings as your current root site.
+2. In the new SharePoint admin center, review your source site to make sure it has the same policies, permissions, and external sharing settings as your current root site.
 
 If you've [turned on audit log search](/office365/securitycompliance/turn-audit-log-search-on-or-off), the following events can be recorded:
 
@@ -56,8 +56,8 @@ If you've [turned on audit log search](/office365/securitycompliance/turn-audit-
 - The source site must be a modern team site (STS#3), a communication site (SITEPAGEPUBLISHING#0), or a classic team site (STS#0).
 - All subsites contained with the source and target sites will be swapped.
 - The source and target sites can't be connected to an Office 365 group. They also can't be hub sites or associated with a hub. 
-- If a site is a hub site, unregister it as a hub site, perform the swap, and then register it again. If the site is associated with a hub, disassociate the site, perform the swap, and then reassociate the site. 
-- Any sharing links or bookmarks will no longer work. 
+- If a site is a hub site, unregister it as a hub site, perform the swap, and then register it again. If the site is associated with a hub, disassociate the site, perform the swap, and then reassociate the site. [Learn how to manage hubs in the new SharePoint admin center](manage-sites-in-new-admin-center.md#change-a-sites-hub-site-association)
+- Any sharing links or bookmarks will need to be recreated after the site swap.
   
 ### Run the PowerShell cmdlet
 
@@ -83,7 +83,7 @@ For more info about using this cmdlet and what happens with the previous root si
 - If the source site was an organizational news site, update the URL. [Get a list of all organizational news sites](/powershell/module/sharepoint-online/get-spoorgnewssite?view=sharepoint-ps)
 - Project Server sites may need to be validated to ensure that they are still associated correctly.
 
-## Apply the communication site experience to the root site
+## Apply the communication site experience to the root site (coming soon)
 
 When you apply the communication site experience to the root site:
 
