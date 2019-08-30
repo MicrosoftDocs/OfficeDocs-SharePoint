@@ -2,8 +2,8 @@
 title: "Configure enterprise search in SharePoint Server"
 ms.reviewer: 
 manager: 
-ms.author: tlarsen
-author: tklarsen
+ms.author: mikeplum
+author: MikePlumleyMSFT
 ms.date: 3/9/2018
 audience: ITPro
 ms.topic: article

@@ -1,8 +1,8 @@
 ---
 title: "SharePoint site inaccessible in SharePoint Server"
 ms.reviewer: 
-ms.author: stevhord
-author: bentoncity
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 8/21/2017
 audience: ITPro

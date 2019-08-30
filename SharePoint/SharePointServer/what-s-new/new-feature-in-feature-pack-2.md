@@ -1,8 +1,8 @@
 ---
 title: "New features in September 2017 PU for SharePoint Server 2016 (Feature Pack 2)"
 ms.reviewer: 
-ms.author: stevhord
-author: bentoncity
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 12/6/2017
 audience: ITPro

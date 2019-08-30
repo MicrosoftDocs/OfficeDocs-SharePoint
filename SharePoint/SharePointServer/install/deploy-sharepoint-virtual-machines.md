@@ -1,7 +1,7 @@
 ---
 title: "Deploying SharePoint Server on virtual machines"
-ms.author: kirks
-author: Techwriter40
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.audience: ITPro
 ms.topic: article

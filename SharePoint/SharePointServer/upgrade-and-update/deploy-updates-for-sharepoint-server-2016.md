@@ -1,8 +1,8 @@
 ---
 title: "Deploy software updates for SharePoint Server 2016 and 2019"
 ms.reviewer: 
-ms.author: kirks
-author: Techwriter40
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 9/17/2016
 audience: ITPro

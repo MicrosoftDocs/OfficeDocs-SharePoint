@@ -1,8 +1,8 @@
 ---
 title: "Databases within this farm are set to read only and will fail to upgrade unless it is set to a read-write state (SharePoint Server)"
 ms.reviewer: 
-ms.author: stevhord
-author: bentoncity
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 8/28/2017
 audience: ITPro

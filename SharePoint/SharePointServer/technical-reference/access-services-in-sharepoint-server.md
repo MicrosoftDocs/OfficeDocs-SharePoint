@@ -1,8 +1,8 @@
 ---
 title: "Access Services in SharePoint Server knowledge articles"
 ms.reviewer: 
-ms.author: stevhord
-author: bentoncity
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
 ms.topic: troubleshooting

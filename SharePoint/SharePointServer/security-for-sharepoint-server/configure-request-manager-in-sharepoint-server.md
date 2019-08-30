@@ -1,7 +1,7 @@
 ---
 title: "Configure Request Manager in SharePoint Server"
-ms.author: kirks
-author: Techwriter40
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 6/24/2019
 ms.audience: ITPro

@@ -1,8 +1,8 @@
 ---
 title: "Install SharePoint 2013 across multiple servers for a three-tier farm"
 ms.reviewer: 
-ms.author: kirks
-author: Techwriter40
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 9/27/2017
 audience: ITPro

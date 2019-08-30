@@ -1,8 +1,8 @@
 ---
 title: "Overview of the upgrade process to SharePoint Server 2019"
 ms.reviewer: 
-ms.author: kirks
-author: Techwriter40
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 07/24/2018
 audience: ITPro

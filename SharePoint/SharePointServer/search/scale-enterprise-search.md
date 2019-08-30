@@ -1,8 +1,8 @@
 ---
 title: "Scale enterprise search in SharePoint Server"
 ms.reviewer: 
-ms.author: tlarsen
-author: tklarsen
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 11/23/2016
 audience: ITPro
