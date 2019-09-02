@@ -52,7 +52,7 @@ This article describes how to pre-provision OneDrive for your users by using Pow
 3. Connect to SharePoint Online as a global admin or SharePoint admin in Office 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
     > [!NOTE]
-    > To be able to run the Pre-provision PowerShell command all effective users needs to be allowed for sign-in.
+    > To be able to run the Pre-provision PowerShell command, all effective users need to be allowed for sign-in.
     
 4. Run the PowerShell command [Request-SPOPersonalSite](/powershell/module/sharepoint-online/request-spopersonalsite?view=sharepoint-ps), consuming the text file you previously created in Step 1.
 
