@@ -37,7 +37,7 @@ description: "Learn about sharing and permissions in the SharePoint modern exper
 
 ## SharePoint and OneDrive integration with Azure AD B2B (Preview)
 
-[SharePoint and OneDrive integration with Azure AD B2B (Preview)](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview)
+[SharePoint and OneDrive integration with Azure AD B2B (Preview)](sharepoint-azureb2b-integration-preview.md)
 
 ## See also
 
