@@ -34,6 +34,9 @@ By default, the first time that a user browses to their OneDrive it's automatica
     
 This article describes how to pre-provision OneDrive for your users by using PowerShell. 
   
+> [!IMPORTANT]
+> The user accounts that you are pre-provisioning must be allowed to sign in.
+
 ## Pre-provision OneDrive for users
 
 1. If you're pre-provisioning OneDrive for many users, create a list of these users and save it as a file. For example, create a text file named Users.txt that contains:
