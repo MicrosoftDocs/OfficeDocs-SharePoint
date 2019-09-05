@@ -22,7 +22,7 @@ Configuring profile synchronization (or profile sync) is a process that involves
 User profiles and groups are used by SharePoint Server 2013 through server-to-server authentication to access and request resources from one another on behalf of users. For more information about server-to-server authentication, see [Server-to-server authentication and user profiles in SharePoint Server](../security-for-sharepoint-server/server-to-server-authentication-and-user-profiles.md).
   
 > [!IMPORTANT]
-> This article applies to only SharePoint Server 2013. 
+> This article applies to only SharePoint Server 2013.  
   
     
 ## Before you begin
