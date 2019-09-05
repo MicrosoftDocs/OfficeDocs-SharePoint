@@ -35,7 +35,7 @@ By default, the first time that a user browses to their OneDrive it's automatica
 This article describes how to pre-provision OneDrive for your users by using PowerShell. 
   
 > [!IMPORTANT]
-> Pre-provisioning Onedrive for Business for a user accounts must be allowed to sign-in.
+> To pre-provision OneDrive for Business, user accounts must be allowed to sign-in.
 
 ## Pre-provision OneDrive for users
 
