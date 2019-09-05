@@ -35,7 +35,7 @@ Regardless of which of these Office 365 plans you have, you need to activate the
   
 Delve is designed to work with the current or immediately previous version of Internet Explorer or Firefox, or the latest version of Chrome or Safari.
 
-Delve O365 app is also enabled for modern authentication, for more information, see [Office 365 Client app Support - Modern Authentication](https://docs.microsoft.com/office365/enterprise/office-365-client-support-modern-authentication).
+The Delve O365 app is also enabled for modern authentication. For more information, see [Office 365 Client app Support - Modern Authentication](https://docs.microsoft.com/office365/enterprise/office-365-client-support-modern-authentication).
   
 ## Get new Delve features quicker
 <a name="BKMK_DelveFirstRelease"> </a>
