@@ -1,8 +1,8 @@
 ---
 title: "Get started with upgrades to SharePoint 2013"
 ms.reviewer: 
-ms.author: kirks
-author: Techwriter40
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 7/24/2017
 audience: ITPro

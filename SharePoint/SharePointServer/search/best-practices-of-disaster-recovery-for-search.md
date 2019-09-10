@@ -1,8 +1,8 @@
 ---
 title: "Disaster recovery best practices and strategies for SharePoint 2016 search"
 ms.reviewer: 
-ms.author: tlarsen
-author: tklarsen
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 01/3/2018
 audience: ITPro

@@ -1,8 +1,8 @@
 ---
 title: "Setup.exe command-line switches for SharePoint Products"
 ms.reviewer: 
-ms.author: kirks
-author: Techwriter40
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 3/8/2018
 audience: ITPro

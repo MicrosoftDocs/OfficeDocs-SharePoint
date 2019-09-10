@@ -1,9 +1,9 @@
 ---
 title: "SharePoint Online search administration overview"
 ms.reviewer: 
-ms.author: tlarsen
-author: tklarsen
-manager: arnek
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: pamgreen
 audience: Admin
 ms.topic: overview
 ms.service: sharepoint-online

@@ -1,8 +1,8 @@
 ---
 title: "Configure properties of the Search Box Web Part in SharePoint Server"
 ms.reviewer: 
-ms.author: tlarsen
-author: tklarsen
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 3/9/2018
 audience: ITPro

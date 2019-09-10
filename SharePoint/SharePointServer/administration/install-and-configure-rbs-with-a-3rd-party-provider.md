@@ -1,8 +1,8 @@
 ---
 title: "Install and configure RBS with a 3rd party provider for SharePoint Server"
 ms.reviewer: 
-ms.author: stevhord
-author: bentoncity
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 3/9/2018
 audience: ITPro

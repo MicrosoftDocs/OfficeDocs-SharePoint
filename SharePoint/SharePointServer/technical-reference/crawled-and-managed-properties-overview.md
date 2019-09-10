@@ -1,8 +1,8 @@
 ---
 title: "Overview of crawled and managed properties in SharePoint Server"
 ms.reviewer: 
-ms.author: tlarsen
-author: tklarsen
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 9/8/2017
 audience: ITPro
@@ -22,580 +22,802 @@ A  *crawled property*  is content and metadata that is extracted from an item, s
 ## Managed properties overview
 
 The following table lists the default managed properties and their attributes. For each managed property that by default is mapped to one or several crawled properties, these crawled properties are listed in the **Mapped Crawled Properties** column. 
+
+### Managed properties in SharePoint Server 2013 through 2019
   
 |||||||||||
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|**Property name** <br/> |**Type** <br/> |**Multi-valued** <br/> |**Queryable** <br/> |**Searchable** <br/> |**Retrievable** <br/> |**Refinable** <br/> |**Sortable** <br/> |**Mapped crawled properties** <br/> |**Aliases** <br/> |
-|AboutMe  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |People:AboutMe, ows_Notes  <br/> ||
-|Account  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_Name  <br/> ||
-|AccountName  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |No  <br/> |People:AccountName  <br/> ||
-|acronym  <br/> |Text  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|acronymaggre  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|acronymexpansion  <br/> |Text  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|acronymexpansionaggre  <br/> |Text  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|AnchorText  <br/> |Text  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |Basic:28  <br/> ||
-|AssignedTo  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_AssignedTo, ows_Assigned_x0020_To  <br/> ||
-|AttachmentDescription  <br/> |Text  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_MediaLinkDescription  <br/> ||
-|AttachmentType  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |ows_MediaLinkType  <br/> ||
-|AttachmentURI  <br/> |Text  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_MediaLinkURI  <br/> ||
-|Author  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |MetadataExtractorAuthor, Author, MailFrom, Mail:6  <br/> |DocAuthor, urn:schemas-microsoft-com:office:office#Author  <br/> |
-|BaseOfficeLocation  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |People:SPS-Location  <br/> ||
-|BasicScope  <br/> |Binary Data  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|body  <br/> |Text  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|CategoryNavigationUrl  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |Basic:CategoryUrlNavigation  <br/> ||
-|CCAMetadata  <br/> |Text  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|charset  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|clickdistance  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |||
-|CollapsingStatus  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|Colleagues  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |People:Colleagues  <br/> ||
-|CombinedName  <br/> |Text  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |No  <br/> |People:CombinedName  <br/> ||
-|CombinedUserProfileNames  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |||
-|companies  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|contentclass  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |DAV:contentclass, DAV:contentclass, DAV:contentclass  <br/> |DAV:contentclass  <br/> |
-|ContentModifiedTime  <br/> |Date and Time  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|Contents  <br/> |Text  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |ows_VideoSetDescription, ows_DocumentSetDescription, Basic:19  <br/> ||
-|ContentsHidden  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |People:SPS-Location, People:Office, People:SPS-PastProjects  <br/> ||
-|ContentSource  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|ContentType  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Basic:5, ows_ContentType  <br/> |MimeType, DAV:getcontenttype  <br/> |
-|ContentTypeId  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |ows_ContentTypeId  <br/> ||
-|Created  <br/> |Date and Time  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Office:12, Basic:15  <br/> |DocCreatedTm, urn:schemas-microsoft-com:office:office#Created, DAV:creationdate  <br/> |
-|CreatedBy  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_Created_x0020_By  <br/> ||
-|Date00  <br/> |Date and Time  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Date01  <br/> |Date and Time  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Date02  <br/> |Date and Time  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Date03  <br/> |Date and Time  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Date04  <br/> |Date and Time  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Date05  <br/> |Date and Time  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Date06  <br/> |Date and Time  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Date07  <br/> |Date and Time  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Date08  <br/> |Date and Time  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Date09  <br/> |Date and Time  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Decimal00  <br/> |Decimal  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Decimal01  <br/> |Decimal  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Decimal02  <br/> |Decimal  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Decimal03  <br/> |Decimal  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Decimal04  <br/> |Decimal  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Decimal05  <br/> |Decimal  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Decimal06  <br/> |Decimal  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Decimal07  <br/> |Decimal  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Decimal08  <br/> |Decimal  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Decimal09  <br/> |Decimal  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|deeplinks  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|def  <br/> |Text  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|defaggre  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|DefaultEncodingURL  <br/> |Text  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_VideoSetDefaultEncoding, ows_EncodedAbsUrl  <br/> ||
-|definitioncontent  <br/> |Text  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|definitioncontentaggre  <br/> |Text  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|Department  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |People:Department, ows_Department  <br/> |urn:schemas-microsoft-com:sharepoint:portal:profile:Department  <br/> |
-|Description  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |Description, Office:6, DESCRIPTION  <br/> |urn:schemas.microsoft.com:fulltextqueryinfo:description  <br/> |
-|DetectedLanguage  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_q_TEXT_TranslationLanguage  <br/> ||
-|DetectedLanguageRanking  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |||
-|DiscoveredTime  <br/> |Date and Time  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|DisplayAuthor  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |||
-|DisplayDate  <br/> |Date and Time  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_ImageCreateDate, ows_Image_x0020_CreateDate  <br/> |DatePictureTaken, ImageCreateDate  <br/> |
-|DMSDocAccessRight  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |ows_DMSDocAccessRight  <br/> ||
-|DMSDocAuthor  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |ows_DMSDocAuthor  <br/> ||
-|DMSDocTitle  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |ows_DMSDocTitle  <br/> ||
-|DMSLeaseTerm  <br/> |Text  <br/> |No  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_DMSLeaseTerm  <br/> ||
-|docacl  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|docaclmeta  <br/> |Text  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|DocComments  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |Description, Office:6  <br/> ||
-|DocId  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows__dlc_DocId  <br/> ||
-|DocKeywords  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |Office:5  <br/> |urn:schemas-microsoft-com:office:office#Keywords  <br/> |
-|docrank  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |||
-|DocSignature  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |Basic:6  <br/> |urn:schemas.microsoft.com:fulltextqueryinfo:docsignature  <br/> |
-|DocSubject  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |Subject, Office:3  <br/> ||
-|DocumentSignature  <br/> |Integer  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |||
-|DocumentSummary  <br/> |Binary Data  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|DocumentSummarySize  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|docvector  <br/> |Text  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|domain  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|Double00  <br/> |Double precision float  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Double01  <br/> |Double precision float  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Double02  <br/> |Double precision float  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Double03  <br/> |Double precision float  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Double04  <br/> |Double precision float  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Double05  <br/> |Double precision float  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Double06  <br/> |Double precision float  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Double07  <br/> |Double precision float  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Double08  <br/> |Double precision float  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Double09  <br/> |Double precision float  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|DuplicateHash  <br/> |Integer  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|Duplicates  <br/> |Text  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|EduAssignmentCategory  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_EduAssignmentCategory  <br/> ||
-|EduAssignmentFormat  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_EduAssignmentFormat  <br/> ||
-|EduEntityId  <br/> |Text  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_EduEntityId  <br/> ||
-|EduMaximumScore  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_EduMaximumScore  <br/> ||
-|EndDate  <br/> |Date and Time  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_End_x0020_Date  <br/> ||
-|EventRate  <br/> |Double precision float  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |||
-|ExcludeFromSummary  <br/> |Text  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |EmbeddedContent, LINK.OFFICECHILD, Description  <br/> ||
-|ExpirationTime  <br/> |Date and Time  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |ows_Announcement_x0020_Expires, ows_Expires  <br/> ||
-|ExternalMediaURL  <br/> |Text  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_VideoSetExternalLink  <br/> ||
-|ExtractedAuthor  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|ExtractedDate  <br/> |Date and Time  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|fcocount  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|FileExtension  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |FileExtension, ows_File_x0020_Type, ows_FileType  <br/> ||
-|Filename  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Basic:10  <br/> |DAV:displayname  <br/> |
-|FileType  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |FileType  <br/> ||
-|FirstLevelColleagues  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|FirstLevelMutualFollowings  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|FirstName  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |People:FirstName, People:SPS-PhoneticFirstName  <br/> ||
-|FollowAllAnchor  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |Basic:31  <br/> ||
-|format  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |||
-|FullPostBody  <br/> |Text  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_SearchContent  <br/> ||
-|FullPostTitle  <br/> |Text  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_SearchTitle  <br/> ||
-|GeneratedTitle  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|Genre  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|HierarchyUrl  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |People:ProfileHierarchyViewUrl  <br/> ||
-|HitHighlightedProperties  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|HitHighlightedSummary  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|HostingPartition  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |||
-|hwboost  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |||
-|ImageDateCreated  <br/> |Date and Time  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_ImageCreateDate, ows_Image_x0020_CreateDate  <br/> ||
-|importance  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |||
-|Int00  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Int01  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Int02  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Int03  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Int04  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Int05  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Int06  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Int07  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Int08  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Int09  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Int10  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Int11  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Int12  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Int13  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Int14  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Int15  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Int16  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Int17  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Int18  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Int19  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Int20  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Int21  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Int22  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Int23  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Int24  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Int25  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Int26  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Int27  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Int28  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Int29  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Int30  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Int31  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Int32  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Int33  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Int34  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Int35  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Int36  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Int37  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Int38  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Int39  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Int40  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Int41  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Int42  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Int43  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Int44  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Int45  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Int46  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Int47  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Int48  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Int49  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Interests  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |People:SPS-Interests  <br/> ||
-|InternalFileType  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |||
-|IsContainer  <br/> |Yes/No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |Basic:7  <br/> ||
-|IsData  <br/> |Yes/No  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_IsData, IsData  <br/> ||
-|IsDefaultView  <br/> |Yes/No  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_IsDefaultView  <br/> ||
-|IsDocument  <br/> |Yes/No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |SharePoint:isdocument, SharePoint:isdocument, Basic:22  <br/> |urn:schemas.microsoft.com:sharepoint:portal:isdocument  <br/> |
-|IsEmptyList  <br/> |Yes/No  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_IsEmptyList  <br/> ||
-|IsListItem  <br/> |Yes/No  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_isItem  <br/> ||
-|IsMyDocuments  <br/> |Yes/No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_IsMyDocuments  <br/> ||
-|IsPublishingCatalog  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |IsPublishingCatalog  <br/> ||
-|IsReport  <br/> |Yes/No  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_IsReport, IsReport  <br/> ||
-|ItemCategoryText  <br/> |Text  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |ProductCatalogItemCategory  <br/> ||
-|JobTitle  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |People:SPS-JobTitle, People:Title, ows_JobTitle  <br/> |urn:schemas-microsoft-com:sharepoint:portal:profile:Title  <br/> |
-|Keywords  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_Keywords  <br/> ||
-|language  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_ProductCatalogLanguageTag  <br/> ||
-|languages  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |||
-|LastAnalyticsUpdateTime  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|LastModifiedTime  <br/> |Date and Time  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |LastSavedDateTime, Basic:14, Basic:16  <br/> |Write, FileWrite, DAV:getlastmodified  <br/> |
-|LastName  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |People:LastName, People:SPS-PhoneticLastName  <br/> ||
-|LevelsToTop  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |People:LevelsToTop  <br/> ||
-|LikesCount  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_LikesCount  <br/> ||
-|ListID  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_ListID  <br/> ||
-|ListItemID  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_ListItemID  <br/> ||
-|ListUrl  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ListUrl  <br/> ||
-|Location  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |ows_Location  <br/> ||
-|ManagedProperties  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |||
-|MediaDuration  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |ows_MediaLengthInSeconds  <br/> ||
-|Memberships  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |No  <br/> |People:QuickLinks  <br/> ||
-|MetadataAuthor  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |Author, MailFrom, Mail:6  <br/> ||
-|MicroBlogType  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_MicroBlogType  <br/> ||
-|MobilePhone  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |People:CellPhone, ows_CellPhone, ows_Cell_x0020_Phone  <br/> ||
-|ModifiedBy  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |ows_ModifiedBy, ows_Modified_x0020_By, LastModifiedBy  <br/> ||
-|NLCodePage  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |Web:4  <br/> ||
-|Notes  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_Note, ows_Notes  <br/> ||
-|NumItemsInCollection  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|OfficeNumber  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |People:Office  <br/> ||
-|OrgNames  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |People:OrganizationNames, ows_Company  <br/> |Company  <br/> |
-|OrgParentNames  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |People:OrganizationParentNames  <br/> ||
-|OrgParentUrls  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |People:OrganizationParentURLs  <br/> ||
-|OrgUrls  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |People:OrganizationURLs  <br/> ||
-|OriginalPath  <br/> |Text  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |Basic:11, Basic:9, Web:2  <br/> ||
-|OWS_ItemURL  <br/> |Text  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|OWS_URL  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |ows_URL  <br/> ||
-|owsmetadatafacetinfo  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |ows_MetadataFacetInfo  <br/> ||
-|owstaxidmetadataalltagsinfo  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |ows_taxId_MetadataAllTagsInfo  <br/> ||
-|owstaxIdProductCatalogItemCategory  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |ows_taxId_ProductCatalogItemCategory  <br/> ||
-|ParentLink  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_ParentURL  <br/> ||
-|PastProjects  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |People:SPS-PastProjects  <br/> ||
-|Path  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |Basic:11, Basic:9, Web:2  <br/> |DAV:href, VPath, DocAddress, ...  <br/> |
-|People  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |ows_People, Author, MailFrom  <br/> ||
-|PeopleInMedia  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |ows_PeopleInMedia  <br/> ||
-|PeopleKeywords  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |People:SPS-Responsibility, People:SPS-Skills, People:SPS-Interests  <br/> ||
-|PhoneNumber  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|PictureHeight  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_ImageHeight, ows_VideoHeightInPixels  <br/> |ImageHeight, urn:schemas-microsoft-com:office:office#ows_ImageHeight  <br/> |
-|PictureThumbnailURL  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_AlternateThumbnailUrl, ows_EncodedAbsThumbnailUrl, ows_DMSCoverImage  <br/> ||
-|PictureURL  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_PictureURL, People:PictureURL  <br/> |urn:schemas.microsoft.com:fulltextqueryinfo:PictureURL  <br/> |
-|PictureWidth  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_ImageWidth, ows_VideoWidthInPixels  <br/> |ImageWidth, urn:schemas-microsoft-com:office:office#ows_ImageWidth  <br/> |
-|PopularSocialTags  <br/> |Text  <br/> |Yes  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|PostAuthor  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |ows_PostAuthor  <br/> ||
-|PreferredName  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |No  <br/> |People:PreferredName  <br/> |urn:schemas-microsoft-com:sharepoint:portal:profile:PreferredName  <br/> |
-|Priority  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_Priority  <br/> ||
-|PrivateColleagues  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |People:ColleaguesNonPublic  <br/> ||
-|processingtime  <br/> |Date and Time  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |||
-|ProductCatalogGroupNumberOWSTEXT  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |ows_ProductCatalogGroupNumber  <br/> ||
-|ProfileExpertise  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |People:SPS-Responsibility, People:SPS-PastProjects, People:SPS-Skills  <br/> ||
-|ProfileName  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |People:PreferredName, People:FirstName, People:LastName  <br/> ||
-|Pronunciations  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |No  <br/> |People:FirstName, People:LastName, People:PreferredName  <br/> ||
-|PublishingCatalogSettings  <br/> |Text  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |PublishingCatalogSettings  <br/> ||
-|PublishingImage  <br/> |Text  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|Purpose  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |ows_Purpose  <br/> ||
-|QueryTerms  <br/> |Text  <br/> |Yes  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|Rank  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |urn:schemas.microsoft.com:fulltextqueryinfo:rank  <br/> ||
-|RankDetail  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|RankingWeightHigh  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |People:OrganizationNames, People:Department  <br/> ||
-|RankingWeightLow  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |People:SPS-Skills, People:SPS-Interests  <br/> ||
-|RankingWeightName  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |People:CombinedName, People:UserName, People:WorkEmail  <br/> ||
-|Rating  <br/> |Double precision float  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|recommendedfor  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |||
-|RecsClickedLifeTime  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |||
-|RecsClickedRecent  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |||
-|RefinableDate00  <br/> |Date and Time  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableDate01  <br/> |Date and Time  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableDate02  <br/> |Date and Time  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableDate03  <br/> |Date and Time  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableDate04  <br/> |Date and Time  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableDate05  <br/> |Date and Time  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableDate06  <br/> |Date and Time  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableDate07  <br/> |Date and Time  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableDate08  <br/> |Date and Time  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableDate09  <br/> |Date and Time  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableDate10  <br/> |Date and Time  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableDate11  <br/> |Date and Time  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableDate12  <br/> |Date and Time  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableDate13  <br/> |Date and Time  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableDate14  <br/> |Date and Time  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableDate15  <br/> |Date and Time  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableDate16  <br/> |Date and Time  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableDate17  <br/> |Date and Time  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableDate18  <br/> |Date and Time  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableDate19  <br/> |Date and Time  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableDecimal00  <br/> |Decimal  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableDecimal01  <br/> |Decimal  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableDecimal02  <br/> |Decimal  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableDecimal03  <br/> |Decimal  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableDecimal04  <br/> |Decimal  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableDecimal05  <br/> |Decimal  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableDecimal06  <br/> |Decimal  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableDecimal07  <br/> |Decimal  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableDecimal08  <br/> |Decimal  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableDecimal09  <br/> |Decimal  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableDouble00  <br/> |Double precision float  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableDouble01  <br/> |Double precision float  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableDouble02  <br/> |Double precision float  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableDouble03  <br/> |Double precision float  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableDouble04  <br/> |Double precision float  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableDouble05  <br/> |Double precision float  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableDouble06  <br/> |Double precision float  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableDouble07  <br/> |Double precision float  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableDouble08  <br/> |Double precision float  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableDouble09  <br/> |Double precision float  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableInt00  <br/> |Integer  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableInt01  <br/> |Integer  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableInt02  <br/> |Integer  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableInt03  <br/> |Integer  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableInt04  <br/> |Integer  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableInt05  <br/> |Integer  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableInt06  <br/> |Integer  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableInt07  <br/> |Integer  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableInt08  <br/> |Integer  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableInt09  <br/> |Integer  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableInt10  <br/> |Integer  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableInt11  <br/> |Integer  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableInt12  <br/> |Integer  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableInt13  <br/> |Integer  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableInt14  <br/> |Integer  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableInt15  <br/> |Integer  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableInt16  <br/> |Integer  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableInt17  <br/> |Integer  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableInt18  <br/> |Integer  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableInt19  <br/> |Integer  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableInt20  <br/> |Integer  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableInt21  <br/> |Integer  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableInt22  <br/> |Integer  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableInt23  <br/> |Integer  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableInt24  <br/> |Integer  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableInt25  <br/> |Integer  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableInt26  <br/> |Integer  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableInt27  <br/> |Integer  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableInt28  <br/> |Integer  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableInt29  <br/> |Integer  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableInt30  <br/> |Integer  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableInt31  <br/> |Integer  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableInt32  <br/> |Integer  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableInt33  <br/> |Integer  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableInt34  <br/> |Integer  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableInt35  <br/> |Integer  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableInt36  <br/> |Integer  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableInt37  <br/> |Integer  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableInt38  <br/> |Integer  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableInt39  <br/> |Integer  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableInt40  <br/> |Integer  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableInt41  <br/> |Integer  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableInt42  <br/> |Integer  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableInt43  <br/> |Integer  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableInt44  <br/> |Integer  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableInt45  <br/> |Integer  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableInt46  <br/> |Integer  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableInt47  <br/> |Integer  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableInt48  <br/> |Integer  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableInt49  <br/> |Integer  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString00  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString01  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString02  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString03  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString04  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString05  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString06  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString07  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString08  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString09  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString10  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString11  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString12  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString13  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString14  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString15  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString16  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString17  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString18  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString19  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString20  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString21  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString22  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString23  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString24  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString25  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString26  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString27  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString28  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString29  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString30  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString31  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString32  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString33  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString34  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString35  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString36  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString37  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString38  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString39  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString40  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString41  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString42  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString43  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString44  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString45  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString46  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString47  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString48  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString49  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString50  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString51  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString52  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString53  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString54  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString55  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString56  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString57  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString58  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString59  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString60  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString61  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString62  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString63  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString64  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString65  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString66  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString67  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString68  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString69  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString70  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString71  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString72  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString73  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString74  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString75  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString76  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString77  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString78  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString79  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString80  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString81  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString82  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString83  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString84  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString85  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString86  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString87  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString88  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString89  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString90  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString91  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString92  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString93  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString94  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString95  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString96  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString97  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString98  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|RefinableString99  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|ReplyCount  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_ReplyCount  <br/> ||
-|Responsibilities  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |People:SPS-Responsibility  <br/> |Responsibility  <br/> |
-|RobotsNoIndex  <br/> |Yes/No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |ows_RobotsNoIndex  <br/> ||
-|RootPostID  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_RootPostID  <br/> ||
-|RootPostOwnerID  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_RootPostOwnerID  <br/> ||
-|RootPostUniqueID  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_RootPostUniqueID  <br/> ||
-|Schools  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |People:SPS-School  <br/> ||
-|SecondaryFileExtension  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_FileType, ows_File_x0020_Type  <br/> ||
-|SecondLevelColleagues  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|SectionIndexes  <br/> |Text  <br/> |Yes  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|SectionNames  <br/> |Text  <br/> |Yes  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|ServerRedirectedEmbedURL  <br/> |Text  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_ServerRedirectedEmbedUrl  <br/> ||
-|ServerRedirectedPreviewURL  <br/> |Text  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_ServerRedirectedPreviewUrl  <br/> ||
-|ServerRedirectedURL  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_ServerRedirectedUrl  <br/> ||
-|ServiceApplicationID  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|SharedWithInternal  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |ows_SharedWithInternal  <br/> ||
-|SipAddress  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |No  <br/> |People:SPS-SipAddress  <br/> ||
-|Site  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |urn:schemas.microsoft.com:fulltextqueryinfo:sitename  <br/> ||
-|SiteClosed  <br/> |Yes/No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|SiteDescription  <br/> |Text  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_SiteDescription  <br/> ||
-|SiteID  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_SiteID  <br/> ||
-|SiteLogo  <br/> |Text  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |LogoURL  <br/> ||
-|SitemapChangeFrequency  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|SitemapPriority  <br/> |Double precision float  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|SiteMembers  <br/> |Text  <br/> |Yes  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|sitename  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |||
-|SiteOwners  <br/> |Text  <br/> |Yes  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|siterank  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |||
-|SiteTitle  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_SiteName  <br/> |urn:schemas-microsoft-com:office:office#ows_SiteName  <br/> |
-|Size  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Basic:12, ows_ImageSize  <br/> |DAV:getcontentlength, PictureSize, ImageSize  <br/> |
-|Skills  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |People:SPS-Skills  <br/> ||
-|SocialTag  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|SocialTagTextUrl  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |People:SocialTagTextUrl  <br/> ||
-|SPContentType  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |ows_ContentType  <br/> ||
-|SpellingTerms  <br/> |Text  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|SPSiteURL  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |ows_SPSiteURL  <br/> ||
-|SPVersion  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_SPVersion  <br/> ||
-|StartDate  <br/> |Date and Time  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_Start_x0020_date, ows_DMSReleaseDate  <br/> ||
-|Status  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_Issue_x0020_Status, ows_Task_x0020_Status  <br/> ||
-|Tags  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |ows_SearchTag1, ows_SearchTag2, ows_SearchTag3  <br/> ||
-|teaser  <br/> |Text  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|Text1  <br/> |Text  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Text2  <br/> |Text  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Text3  <br/> |Text  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|Title  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |No  <br/> |MetadataExtractorTitle, Office:2, ows_BaseName, Title  <br/> |DocTitle, urn:schemas.microsoft.com:fulltextqueryinfo:displaytitle  <br/> |
-|tld  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|UniqueID  <br/> |Text  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_UniqueID  <br/> ||
-|url  <br/> |Text  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_DMSDocAuthorURL  <br/> ||
-|UrlDepth  <br/> |Integer  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|urlkeywords  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |||
-|urls  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|UsageAnalyticsId  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_ProductCatalogItemNumber  <br/> ||
-|UsageEvent10LifeTime  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |||
-|UsageEvent10Recent  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |||
-|UsageEvent11LifeTime  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |||
-|UsageEvent11Recent  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |||
-|UsageEvent12LifeTime  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |||
-|UsageEvent12Recent  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |||
-|UsageEvent1LifeTime  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |||
-|UsageEvent1Recent  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |||
-|UsageEvent2LifeTime  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |||
-|UsageEvent2Recent  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |||
-|UsageEvent3LifeTime  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |||
-|UsageEvent3Recent  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |||
-|UsageEvent4LifeTime  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |||
-|UsageEvent4Recent  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |||
-|UsageEvent5LifeTime  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |||
-|UsageEvent5Recent  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |||
-|UsageEvent6LifeTime  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |||
-|UsageEvent6Recent  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |||
-|UsageEvent7LifeTime  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |||
-|UsageEvent7Recent  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |||
-|UsageEvent8LifeTime  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |||
-|UsageEvent8Recent  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |||
-|UsageEvent9LifeTime  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |||
-|UsageEvent9Recent  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |||
-|UsageEventItemId  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |ows_ProductCatalogItemNumber  <br/> ||
-|UserEncodingURL  <br/> |Text  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_VideoSetUserOverrideEncoding  <br/> ||
-|UserName  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |No  <br/> |People:UserName, ows_FullName, ows_Full_x0020_Name  <br/> ||
-|UserProfile_GUID  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |People:UserProfile_GUID  <br/> ||
-|ViewsLast1Days  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|ViewsLast1DaysUniqueUsers  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|ViewsLast2Days  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|ViewsLast2DaysUniqueUsers  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|ViewsLast3Days  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|ViewsLast3DaysUniqueUsers  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|ViewsLast4Days  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|ViewsLast4DaysUniqueUsers  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|ViewsLast5Days  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|ViewsLast5DaysUniqueUsers  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|ViewsLast6Days  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|ViewsLast6DaysUniqueUsers  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|ViewsLast7Days  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|ViewsLast7DaysUniqueUsers  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|ViewsLastMonths1  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|ViewsLastMonths1Unique  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|ViewsLastMonths2  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|ViewsLastMonths2Unique  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|ViewsLastMonths3  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|ViewsLastMonths3Unique  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|ViewsLifeTime  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |||
-|ViewsLifeTimeUniqueUsers  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |||
-|ViewsRecent  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |||
-|ViewsRecentUniqueUsers  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |||
-|WebId  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_WebId  <br/> ||
-|WebTemplate  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |WebTemplate  <br/> ||
-|WeightedMemberships  <br/> |Text  <br/> |Yes  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |People:WeightedMemberships  <br/> ||
-|WikiCategory  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |ows_Wiki_x0020_Page_x0020_Categories  <br/> ||
-|WordCustomRefiner1  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|WordCustomRefiner2  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|WordCustomRefiner3  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|WordCustomRefiner4  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|WordCustomRefiner5  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|WordExactCustomRefiner  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|WordPartCustomRefiner1  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|WordPartCustomRefiner2  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|WordPartCustomRefiner3  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|WordPartCustomRefiner4  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|WordPartCustomRefiner5  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|WordPartExactCustomRefiner  <br/> |Text  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |||
-|WorkEmail  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |No  <br/> |People:WorkEmail, ows_EMail, ows_EMail_x0020_  <br/> |urn:schemas-microsoft-com:sharepoint:portal:profile:WorkEmail  <br/> |
-|WorkId  <br/> |Integer  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |||
-|WorkPhone  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |People:WorkPhone, ows_WorkPhone, ows_Work_x0020_Phone  <br/> |urn:schemas-microsoft-com:sharepoint:portal:profile:WorkPhone  <br/> |
-|YomiDisplayName  <br/> |Text  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |People:SPS-PhoneticDisplayName  <br/> ||
+|**Property name**  |**Type**  |**Multi-valued**  |**Queryable**  |**Searchable**  |**Retrievable**  |**Refinable**  |**Sortable**  |**Mapped crawled properties**  |**Aliases**  |
+|AboutMe   |Text   |No   |Yes   |No   |Yes   |No   |No   |People:AboutMe, ows_Notes   ||
+|Account   |Text   |No   |Yes   |No   |Yes   |No   |No   |ows_Name   ||
+|AccountName   |Text   |No   |Yes   |Yes   |Yes   |No   |No   |People:AccountName   ||
+|acronym   |Text   |No   |No   |No   |Yes   |No   |No   |||
+|acronymaggre   |Text   |No   |Yes   |Yes   |Yes   |No   |No   |||
+|acronymexpansion   |Text   |No   |No   |No   |Yes   |No   |No   |||
+|acronymexpansionaggre   |Text   |No   |No   |No   |Yes   |No   |No   |||
+|AnchorText   |Text   |No   |No   |Yes   |No   |No   |No   |Basic:28   ||
+|AssignedTo   |Text   |No   |Yes   |No   |Yes   |No   |No   |ows_AssignedTo, ows_Assigned_x0020_To   ||
+|AttachmentDescription   |Text   |No   |No   |No   |Yes   |No   |No   |ows_MediaLinkDescription   ||
+|AttachmentType   |Integer   |No   |Yes   |No   |Yes   |Yes   |No   |ows_MediaLinkType   ||
+|AttachmentURI   |Text   |No   |No   |No   |Yes   |No   |No   |ows_MediaLinkURI   ||
+|Author   |Text   |Yes   |Yes   |Yes   |Yes   |No   |Yes   |MetadataExtractorAuthor, Author, MailFrom, Mail:6   |DocAuthor, urn:schemas-microsoft-com:office:office#Author   |
+|BaseOfficeLocation   |Text   |No   |Yes   |No   |Yes   |Yes   |No   |People:SPS-Location   ||
+|BasicScope   |Binary Data   |No   |No   |No   |Yes   |No   |No   |||
+|body   |Text   |No   |No   |Yes   |No   |No   |No   |||
+|CategoryNavigationUrl   |Text   |No   |Yes   |No   |No   |No   |No   |Basic:CategoryUrlNavigation   ||
+|CCAMetadata   |Text   |No   |No   |No   |Yes   |No   |No   |||
+|charset   |Text   |No   |Yes   |No   |Yes   |No   |No   |||
+|clickdistance   |Integer   |No   |No   |No   |No   |No   |Yes   |||
+|CollapsingStatus   |Integer   |No   |No   |No   |Yes   |No   |No   |||
+|Colleagues   |Text   |Yes   |Yes   |No   |No   |No   |No   |People:Colleagues   ||
+|CombinedName   |Text   |Yes   |No   |Yes   |Yes   |No   |No   |People:CombinedName   ||
+|CombinedUserProfileNames   |Text   |No   |Yes   |No   |No   |Yes   |No   |||
+|companies   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|contentclass   |Text   |No   |Yes   |No   |Yes   |Yes   |No   |DAV:contentclass, DAV:contentclass, DAV:contentclass   |DAV:contentclass   |
+|ContentModifiedTime   |Date and Time   |No   |No   |No   |Yes   |No   |No   |||
+|Contents   |Text   |No   |No   |Yes   |No   |No   |No   |ows_VideoSetDescription, ows_DocumentSetDescription, Basic:19   ||
+|ContentsHidden   |Text   |Yes   |Yes   |Yes   |No   |No   |No   |People:SPS-Location, People:Office, People:SPS-PastProjects   ||
+|ContentSource   |Text   |No   |Yes   |No   |Yes   |No   |No   |||
+|ContentType   |Text   |No   |Yes   |No   |Yes   |Yes   |No   |Basic:5, ows_ContentType   |MimeType, DAV:getcontenttype   |
+|ContentTypeId   |Text   |No   |Yes   |No   |Yes   |Yes   |No   |ows_ContentTypeId   ||
+|Created   |Date and Time   |No   |Yes   |No   |Yes   |Yes   |Yes   |Office:12, Basic:15   |DocCreatedTm, urn:schemas-microsoft-com:office:office#Created, DAV:creationdate   |
+|CreatedBy   |Text   |No   |Yes   |No   |Yes   |No   |No   |ows_Created_x0020_By   ||
+|Date00   |Date and Time   |No   |Yes   |No   |No   |No   |No   |||
+|Date01   |Date and Time   |No   |Yes   |No   |No   |No   |No   |||
+|Date02   |Date and Time   |No   |Yes   |No   |No   |No   |No   |||
+|Date03   |Date and Time   |No   |Yes   |No   |No   |No   |No   |||
+|Date04   |Date and Time   |No   |Yes   |No   |No   |No   |No   |||
+|Date05   |Date and Time   |No   |Yes   |No   |No   |No   |No   |||
+|Date06   |Date and Time   |No   |Yes   |No   |No   |No   |No   |||
+|Date07   |Date and Time   |No   |Yes   |No   |No   |No   |No   |||
+|Date08   |Date and Time   |No   |Yes   |No   |No   |No   |No   |||
+|Date09   |Date and Time   |No   |Yes   |No   |No   |No   |No   |||
+|Decimal00   |Decimal   |No   |Yes   |No   |No   |No   |No   |||
+|Decimal01   |Decimal   |No   |Yes   |No   |No   |No   |No   |||
+|Decimal02   |Decimal   |No   |Yes   |No   |No   |No   |No   |||
+|Decimal03   |Decimal   |No   |Yes   |No   |No   |No   |No   |||
+|Decimal04   |Decimal   |No   |Yes   |No   |No   |No   |No   |||
+|Decimal05   |Decimal   |No   |Yes   |No   |No   |No   |No   |||
+|Decimal06   |Decimal   |No   |Yes   |No   |No   |No   |No   |||
+|Decimal07   |Decimal   |No   |Yes   |No   |No   |No   |No   |||
+|Decimal08   |Decimal   |No   |Yes   |No   |No   |No   |No   |||
+|Decimal09   |Decimal   |No   |Yes   |No   |No   |No   |No   |||
+|deeplinks   |Text   |No   |Yes   |No   |Yes   |No   |No   |||
+|def   |Text   |No   |No   |No   |Yes   |No   |No   |||
+|defaggre   |Text   |No   |Yes   |Yes   |Yes   |No   |No   |||
+|DefaultEncodingURL   |Text   |No   |No   |No   |Yes   |No   |No   |ows_VideoSetDefaultEncoding, ows_EncodedAbsUrl   ||
+|definitioncontent   |Text   |No   |No   |No   |Yes   |No   |No   |||
+|definitioncontentaggre   |Text   |No   |No   |No   |Yes   |No   |No   |||
+|Department   |Text   |No   |Yes   |No   |Yes   |Yes   |No   |People:Department, ows_Department   |urn:schemas-microsoft-com:sharepoint:portal:profile:Department   |
+|Description   |Text   |No   |Yes   |No   |Yes   |No   |No   |Description, Office:6, DESCRIPTION   |urn:schemas.microsoft.com:fulltextqueryinfo:description   |
+|DetectedLanguage   |Text   |No   |Yes   |No   |Yes   |No   |No   |ows_q_TEXT_TranslationLanguage   ||
+|DetectedLanguageRanking   |Integer   |No   |No   |No   |No   |No   |Yes   |||
+|DiscoveredTime   |Date and Time   |No   |No   |No   |Yes   |No   |No   |||
+|DisplayAuthor   |Text   |Yes   |Yes   |No   |Yes   |Yes   |No   |||
+|DisplayDate   |Date and Time   |No   |Yes   |No   |Yes   |No   |No   |ows_ImageCreateDate, ows_Image_x0020_CreateDate   |DatePictureTaken, ImageCreateDate   |
+|DMSDocAccessRight   |Text   |No   |Yes   |No   |Yes   |No   |Yes   |ows_DMSDocAccessRight   ||
+|DMSDocAuthor   |Text   |No   |Yes   |Yes   |Yes   |Yes   |Yes   |ows_DMSDocAuthor   ||
+|DMSDocTitle   |Text   |No   |Yes   |Yes   |Yes   |No   |Yes   |ows_DMSDocTitle   ||
+|DMSLeaseTerm   |Text   |No   |No   |Yes   |Yes   |No   |No   |ows_DMSLeaseTerm   ||
+|docacl   |Text   |No   |Yes   |No   |No   |No   |No   |||
+|docaclmeta   |Text   |No   |No   |No   |Yes   |No   |No   |||
+|DocComments   |Text   |No   |Yes   |No   |No   |No   |No   |Description, Office:6   ||
+|DocId   |Text   |No   |Yes   |No   |Yes   |No   |No   |ows__dlc_DocId   ||
+|DocKeywords   |Text   |No   |Yes   |No   |No   |No   |No   |Office:5   |urn:schemas-microsoft-com:office:office#Keywords   |
+|docrank   |Integer   |No   |No   |No   |Yes   |No   |Yes   |||
+|DocSignature   |Text   |No   |Yes   |No   |No   |No   |No   |Basic:6   |urn:schemas.microsoft.com:fulltextqueryinfo:docsignature   |
+|DocSubject   |Text   |No   |Yes   |No   |Yes   |No   |No   |Subject, Office:3   ||
+|DocumentSignature   |Integer   |Yes   |Yes   |No   |Yes   |No   |Yes   |||
+|DocumentSummary   |Binary Data   |No   |No   |No   |Yes   |No   |No   |||
+|DocumentSummarySize   |Integer   |No   |No   |No   |Yes   |No   |No   |||
+|docvector   |Text   |No   |No   |No   |Yes   |No   |No   |||
+|domain   |Text   |No   |Yes   |No   |Yes   |No   |No   |||
+|Double00   |Double precision float   |No   |Yes   |No   |No   |No   |No   |||
+|Double01   |Double precision float   |No   |Yes   |No   |No   |No   |No   |||
+|Double02   |Double precision float   |No   |Yes   |No   |No   |No   |No   |||
+|Double03   |Double precision float   |No   |Yes   |No   |No   |No   |No   |||
+|Double04   |Double precision float   |No   |Yes   |No   |No   |No   |No   |||
+|Double05   |Double precision float   |No   |Yes   |No   |No   |No   |No   |||
+|Double06   |Double precision float   |No   |Yes   |No   |No   |No   |No   |||
+|Double07   |Double precision float   |No   |Yes   |No   |No   |No   |No   |||
+|Double08   |Double precision float   |No   |Yes   |No   |No   |No   |No   |||
+|Double09   |Double precision float   |No   |Yes   |No   |No   |No   |No   |||
+|DuplicateHash   |Integer   |Yes   |Yes   |No   |Yes   |No   |No   |||
+|Duplicates   |Text   |No   |No   |No   |Yes   |No   |No   |||
+|EduAssignmentCategory   |Text   |No   |Yes   |No   |Yes   |No   |No   |ows_EduAssignmentCategory   ||
+|EduAssignmentFormat   |Text   |No   |Yes   |No   |Yes   |No   |No   |ows_EduAssignmentFormat   ||
+|EduEntityId   |Text   |No   |No   |No   |Yes   |No   |No   |ows_EduEntityId   ||
+|EduMaximumScore   |Text   |No   |Yes   |No   |Yes   |No   |No   |ows_EduMaximumScore   ||
+|EndDate   |Date and Time   |No   |Yes   |No   |Yes   |No   |No   |ows_End_x0020_Date   ||
+|EventRate   |Double precision float   |No   |No   |No   |No   |No   |Yes   |||
+|ExcludeFromSummary   |Text   |No   |No   |No   |Yes   |No   |No   |EmbeddedContent, LINK.OFFICECHILD, Description   ||
+|ExpirationTime   |Date and Time   |No   |Yes   |No   |No   |No   |Yes   |ows_Announcement_x0020_Expires, ows_Expires   ||
+|ExternalMediaURL   |Text   |No   |No   |No   |Yes   |No   |No   |ows_VideoSetExternalLink   ||
+|ExtractedAuthor   |Text   |No   |Yes   |No   |Yes   |No   |No   |||
+|ExtractedDate   |Date and Time   |No   |Yes   |No   |Yes   |No   |No   |||
+|fcocount   |Integer   |No   |No   |No   |Yes   |No   |No   |||
+|FileExtension   |Text   |No   |Yes   |No   |Yes   |Yes   |Yes   |FileExtension, ows_File_x0020_Type, ows_FileType   ||
+|Filename   |Text   |No   |Yes   |Yes   |Yes   |No   |Yes   |Basic:10   |DAV:displayname   |
+|FileType   |Text   |No   |Yes   |No   |Yes   |Yes   |No   |FileType   ||
+|FirstLevelColleagues   |Text   |Yes   |Yes   |No   |Yes   |No   |No   |||
+|FirstLevelMutualFollowings   |Text   |Yes   |Yes   |No   |Yes   |No   |No   |||
+|FirstName   |Text   |Yes   |Yes   |No   |Yes   |No   |Yes   |People:FirstName, People:SPS-PhoneticFirstName   ||
+|FollowAllAnchor   |Text   |No   |Yes   |No   |No   |No   |No   |Basic:31   ||
+|format   |Text   |No   |Yes   |No   |Yes   |Yes   |No   |||
+|FullPostBody   |Text   |No   |No   |No   |Yes   |No   |No   |ows_SearchContent   ||
+|FullPostTitle   |Text   |No   |No   |No   |Yes   |No   |No   |ows_SearchTitle   ||
+|GeneratedTitle   |Text   |No   |Yes   |Yes   |Yes   |No   |No   |||
+|Genre   |Text   |No   |Yes   |No   |Yes   |No   |No   |||
+|HierarchyUrl   |Text   |No   |Yes   |No   |Yes   |No   |No   |People:ProfileHierarchyViewUrl   ||
+|HitHighlightedProperties   |Text   |No   |Yes   |No   |Yes   |No   |No   |||
+|HitHighlightedSummary   |Text   |No   |Yes   |No   |Yes   |No   |No   |||
+|HostingPartition   |Text   |No   |Yes   |No   |No   |Yes   |No   |||
+|hwboost   |Integer   |No   |Yes   |No   |No   |No   |Yes   |||
+|ImageDateCreated   |Date and Time   |No   |Yes   |No   |Yes   |No   |No   |ows_ImageCreateDate, ows_Image_x0020_CreateDate   ||
+|importance   |Integer   |No   |Yes   |No   |Yes   |No   |Yes   |||
+|Int00   |Integer   |No   |Yes   |No   |No   |No   |No   |||
+|Int01   |Integer   |No   |Yes   |No   |No   |No   |No   |||
+|Int02   |Integer   |No   |Yes   |No   |No   |No   |No   |||
+|Int03   |Integer   |No   |Yes   |No   |No   |No   |No   |||
+|Int04   |Integer   |No   |Yes   |No   |No   |No   |No   |||
+|Int05   |Integer   |No   |Yes   |No   |No   |No   |No   |||
+|Int06   |Integer   |No   |Yes   |No   |No   |No   |No   |||
+|Int07   |Integer   |No   |Yes   |No   |No   |No   |No   |||
+|Int08   |Integer   |No   |Yes   |No   |No   |No   |No   |||
+|Int09   |Integer   |No   |Yes   |No   |No   |No   |No   |||
+|Int10   |Integer   |No   |Yes   |No   |No   |No   |No   |||
+|Int11   |Integer   |No   |Yes   |No   |No   |No   |No   |||
+|Int12   |Integer   |No   |Yes   |No   |No   |No   |No   |||
+|Int13   |Integer   |No   |Yes   |No   |No   |No   |No   |||
+|Int14   |Integer   |No   |Yes   |No   |No   |No   |No   |||
+|Int15   |Integer   |No   |Yes   |No   |No   |No   |No   |||
+|Int16   |Integer   |No   |Yes   |No   |No   |No   |No   |||
+|Int17   |Integer   |No   |Yes   |No   |No   |No   |No   |||
+|Int18   |Integer   |No   |Yes   |No   |No   |No   |No   |||
+|Int19   |Integer   |No   |Yes   |No   |No   |No   |No   |||
+|Int20   |Integer   |No   |Yes   |No   |No   |No   |No   |||
+|Int21   |Integer   |No   |Yes   |No   |No   |No   |No   |||
+|Int22   |Integer   |No   |Yes   |No   |No   |No   |No   |||
+|Int23   |Integer   |No   |Yes   |No   |No   |No   |No   |||
+|Int24   |Integer   |No   |Yes   |No   |No   |No   |No   |||
+|Int25   |Integer   |No   |Yes   |No   |No   |No   |No   |||
+|Int26   |Integer   |No   |Yes   |No   |No   |No   |No   |||
+|Int27   |Integer   |No   |Yes   |No   |No   |No   |No   |||
+|Int28   |Integer   |No   |Yes   |No   |No   |No   |No   |||
+|Int29   |Integer   |No   |Yes   |No   |No   |No   |No   |||
+|Int30   |Integer   |No   |Yes   |No   |No   |No   |No   |||
+|Int31   |Integer   |No   |Yes   |No   |No   |No   |No   |||
+|Int32   |Integer   |No   |Yes   |No   |No   |No   |No   |||
+|Int33   |Integer   |No   |Yes   |No   |No   |No   |No   |||
+|Int34   |Integer   |No   |Yes   |No   |No   |No   |No   |||
+|Int35   |Integer   |No   |Yes   |No   |No   |No   |No   |||
+|Int36   |Integer   |No   |Yes   |No   |No   |No   |No   |||
+|Int37   |Integer   |No   |Yes   |No   |No   |No   |No   |||
+|Int38   |Integer   |No   |Yes   |No   |No   |No   |No   |||
+|Int39   |Integer   |No   |Yes   |No   |No   |No   |No   |||
+|Int40   |Integer   |No   |Yes   |No   |No   |No   |No   |||
+|Int41   |Integer   |No   |Yes   |No   |No   |No   |No   |||
+|Int42   |Integer   |No   |Yes   |No   |No   |No   |No   |||
+|Int43   |Integer   |No   |Yes   |No   |No   |No   |No   |||
+|Int44   |Integer   |No   |Yes   |No   |No   |No   |No   |||
+|Int45   |Integer   |No   |Yes   |No   |No   |No   |No   |||
+|Int46   |Integer   |No   |Yes   |No   |No   |No   |No   |||
+|Int47   |Integer   |No   |Yes   |No   |No   |No   |No   |||
+|Int48   |Integer   |No   |Yes   |No   |No   |No   |No   |||
+|Int49   |Integer   |No   |Yes   |No   |No   |No   |No   |||
+|Interests   |Text   |Yes   |Yes   |No   |Yes   |No   |No   |People:SPS-Interests   ||
+|InternalFileType   |Integer   |No   |No   |No   |Yes   |No   |Yes   |||
+|IsContainer   |Yes/No   |No   |Yes   |No   |Yes   |No   |No   |Basic:7   ||
+|IsData   |Yes/No   |No   |Yes   |Yes   |Yes   |No   |No   |ows_IsData, IsData   ||
+|IsDefaultView   |Yes/No   |No   |No   |No   |Yes   |No   |No   |ows_IsDefaultView   ||
+|IsDocument   |Yes/No   |No   |Yes   |No   |Yes   |No   |No   |SharePoint:isdocument, SharePoint:isdocument, Basic:22   |urn:schemas.microsoft.com:sharepoint:portal:isdocument   |
+|IsEmptyList   |Yes/No   |No   |No   |No   |Yes   |No   |No   |ows_IsEmptyList   ||
+|IsListItem   |Yes/No   |No   |No   |No   |Yes   |No   |No   |ows_isItem   ||
+|IsMyDocuments   |Yes/No   |No   |Yes   |No   |Yes   |No   |No   |ows_IsMyDocuments   ||
+|IsPublishingCatalog   |Text   |No   |Yes   |No   |Yes   |No   |No   |IsPublishingCatalog   ||
+|IsReport   |Yes/No   |No   |Yes   |Yes   |Yes   |No   |No   |ows_IsReport, IsReport   ||
+|ItemCategoryText   |Text   |No   |No   |Yes   |No   |No   |No   |ProductCatalogItemCategory   ||
+|JobTitle   |Text   |No   |Yes   |Yes   |Yes   |Yes   |No   |People:SPS-JobTitle, People:Title, ows_JobTitle   |urn:schemas-microsoft-com:sharepoint:portal:profile:Title   |
+|Keywords   |Text   |No   |Yes   |No   |Yes   |No   |No   |ows_Keywords   ||
+|language   |Text   |No   |Yes   |No   |Yes   |No   |No   |ows_ProductCatalogLanguageTag   ||
+|languages   |Text   |Yes   |Yes   |No   |Yes   |Yes   |No   |||
+|LastAnalyticsUpdateTime   |Integer   |No   |No   |No   |Yes   |No   |No   |||
+|LastModifiedTime   |Date and Time   |No   |Yes   |No   |Yes   |Yes   |Yes   |LastSavedDateTime, Basic:14, Basic:16   |Write, FileWrite, DAV:getlastmodified   |
+|LastName   |Text   |No   |Yes   |No   |Yes   |No   |No   |People:LastName, People:SPS-PhoneticLastName   ||
+|LevelsToTop   |Integer   |No   |No   |No   |Yes   |No   |Yes   |People:LevelsToTop   ||
+|LikesCount   |Integer   |No   |No   |No   |Yes   |No   |No   |ows_LikesCount   ||
+|ListID   |Text   |No   |Yes   |No   |Yes   |No   |No   |ows_ListID   ||
+|ListItemID   |Text   |No   |Yes   |No   |Yes   |No   |No   |ows_ListItemID   ||
+|ListUrl   |Text   |No   |Yes   |No   |Yes   |No   |No   |ListUrl   ||
+|Location   |Text   |No   |Yes   |No   |Yes   |Yes   |No   |ows_Location   ||
+|ManagedProperties   |Text   |Yes   |Yes   |No   |No   |Yes   |No   |||
+|MediaDuration   |Integer   |No   |Yes   |No   |Yes   |Yes   |No   |ows_MediaLengthInSeconds   ||
+|Memberships   |Text   |Yes   |Yes   |Yes   |Yes   |No   |No   |People:QuickLinks   ||
+|MetadataAuthor   |Text   |No   |Yes   |No   |Yes   |No   |No   |Author, MailFrom, Mail:6   ||
+|MicroBlogType   |Integer   |No   |Yes   |No   |Yes   |No   |No   |ows_MicroBlogType   ||
+|MobilePhone   |Text   |No   |Yes   |No   |Yes   |No   |No   |People:CellPhone, ows_CellPhone, ows_Cell_x0020_Phone   ||
+|ModifiedBy   |Text   |No   |Yes   |No   |Yes   |No   |Yes   |ows_ModifiedBy, ows_Modified_x0020_By, LastModifiedBy   ||
+|NLCodePage   |Integer   |No   |Yes   |No   |No   |No   |No   |Web:4   ||
+|Notes   |Text   |No   |Yes   |No   |Yes   |No   |No   |ows_Note, ows_Notes   ||
+|NumItemsInCollection   |Integer   |No   |No   |No   |Yes   |No   |No   |||
+|OfficeNumber   |Text   |No   |Yes   |No   |Yes   |No   |No   |People:Office   ||
+|OrgNames   |Text   |Yes   |Yes   |No   |Yes   |No   |No   |People:OrganizationNames, ows_Company   |Company   |
+|OrgParentNames   |Text   |Yes   |Yes   |No   |Yes   |No   |No   |People:OrganizationParentNames   ||
+|OrgParentUrls   |Text   |Yes   |Yes   |No   |Yes   |No   |No   |People:OrganizationParentURLs   ||
+|OrgUrls   |Text   |Yes   |Yes   |No   |Yes   |No   |No   |People:OrganizationURLs   ||
+|OriginalPath   |Text   |No   |No   |No   |Yes   |No   |No   |Basic:11, Basic:9, Web:2   ||
+|OWS_ItemURL   |Text   |No   |No   |No   |Yes   |No   |No   |||
+|OWS_URL   |Text   |No   |Yes   |No   |No   |No   |No   |ows_URL   ||
+|owsmetadatafacetinfo   |Text   |No   |Yes   |No   |Yes   |Yes   |No   |ows_MetadataFacetInfo   ||
+|owstaxidmetadataalltagsinfo   |Text   |Yes   |Yes   |No   |Yes   |Yes   |No   |ows_taxId_MetadataAllTagsInfo   ||
+|owstaxIdProductCatalogItemCategory   |Text   |Yes   |Yes   |Yes   |Yes   |Yes   |No   |ows_taxId_ProductCatalogItemCategory   ||
+|ParentLink   |Text   |No   |Yes   |No   |Yes   |No   |No   |ows_ParentURL   ||
+|PastProjects   |Text   |Yes   |Yes   |No   |Yes   |No   |No   |People:SPS-PastProjects   ||
+|Path   |Text   |No   |Yes   |No   |Yes   |No   |No   |Basic:11, Basic:9, Web:2   |DAV:href, VPath, DocAddress, ...   |
+|People   |Text   |Yes   |Yes   |No   |Yes   |Yes   |No   |ows_People, Author, MailFrom   ||
+|PeopleInMedia   |Text   |Yes   |Yes   |No   |Yes   |Yes   |No   |ows_PeopleInMedia   ||
+|PeopleKeywords   |Text   |Yes   |Yes   |No   |Yes   |Yes   |No   |People:SPS-Responsibility, People:SPS-Skills, People:SPS-Interests   ||
+|PhoneNumber   |Text   |Yes   |Yes   |No   |Yes   |No   |No   |||
+|PictureHeight   |Integer   |No   |Yes   |No   |Yes   |No   |No   |ows_ImageHeight, ows_VideoHeightInPixels   |ImageHeight, urn:schemas-microsoft-com:office:office#ows_ImageHeight   |
+|PictureThumbnailURL   |Text   |No   |Yes   |No   |Yes   |No   |No   |ows_AlternateThumbnailUrl, ows_EncodedAbsThumbnailUrl, ows_DMSCoverImage   ||
+|PictureURL   |Text   |No   |Yes   |No   |Yes   |No   |No   |ows_PictureURL, People:PictureURL   |urn:schemas.microsoft.com:fulltextqueryinfo:PictureURL   |
+|PictureWidth   |Integer   |No   |Yes   |No   |Yes   |No   |No   |ows_ImageWidth, ows_VideoWidthInPixels   |ImageWidth, urn:schemas-microsoft-com:office:office#ows_ImageWidth   |
+|PopularSocialTags   |Text   |Yes   |No   |No   |Yes   |No   |No   |||
+|PostAuthor   |Text   |No   |Yes   |No   |Yes   |Yes   |No   |ows_PostAuthor   ||
+|PreferredName   |Text   |No   |Yes   |Yes   |Yes   |No   |No   |People:PreferredName   |urn:schemas-microsoft-com:sharepoint:portal:profile:PreferredName   |
+|Priority   |Text   |No   |Yes   |No   |Yes   |No   |No   |ows_Priority   ||
+|PrivateColleagues   |Text   |Yes   |Yes   |No   |No   |No   |No   |People:ColleaguesNonPublic   ||
+|processingtime   |Date and Time   |No   |Yes   |No   |Yes   |No   |Yes   |||
+|ProductCatalogGroupNumberOWSTEXT   |Text   |No   |Yes   |No   |Yes   |No   |Yes   |ows_ProductCatalogGroupNumber   ||
+|ProfileExpertise   |Text   |No   |Yes   |No   |No   |No   |No   |People:SPS-Responsibility, People:SPS-PastProjects, People:SPS-Skills   ||
+|ProfileName   |Text   |No   |Yes   |No   |No   |No   |No   |People:PreferredName, People:FirstName, People:LastName   ||
+|Pronunciations   |Text   |No   |Yes   |Yes   |Yes   |No   |No   |People:FirstName, People:LastName, People:PreferredName   ||
+|PublishingCatalogSettings   |Text   |No   |No   |No   |Yes   |No   |No   |PublishingCatalogSettings   ||
+|PublishingImage   |Text   |No   |No   |No   |Yes   |No   |No   |||
+|Purpose   |Text   |No   |Yes   |No   |No   |No   |No   |ows_Purpose   ||
+|QueryTerms   |Text   |Yes   |No   |No   |Yes   |No   |No   |||
+|Rank   |Integer   |No   |No   |No   |Yes   |No   |No   |urn:schemas.microsoft.com:fulltextqueryinfo:rank   ||
+|RankDetail   |Text   |No   |Yes   |No   |Yes   |No   |No   |||
+|RankingWeightHigh   |Text   |Yes   |Yes   |Yes   |No   |No   |No   |People:OrganizationNames, People:Department   ||
+|RankingWeightLow   |Text   |Yes   |Yes   |Yes   |No   |No   |No   |People:SPS-Skills, People:SPS-Interests   ||
+|RankingWeightName   |Text   |Yes   |Yes   |Yes   |No   |No   |No   |People:CombinedName, People:UserName, People:WorkEmail   ||
+|Rating   |Double precision float   |No   |No   |No   |Yes   |No   |No   |||
+|recommendedfor   |Text   |Yes   |Yes   |No   |No   |Yes   |Yes   |||
+|RecsClickedLifeTime   |Integer   |No   |No   |No   |Yes   |No   |Yes   |||
+|RecsClickedRecent   |Integer   |No   |No   |No   |Yes   |No   |Yes   |||
+|RefinableDate00   |Date and Time   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableDate01   |Date and Time   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableDate02   |Date and Time   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableDate03   |Date and Time   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableDate04   |Date and Time   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableDate05   |Date and Time   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableDate06   |Date and Time   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableDate07   |Date and Time   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableDate08   |Date and Time   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableDate09   |Date and Time   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableDate10   |Date and Time   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableDate11   |Date and Time   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableDate12   |Date and Time   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableDate13   |Date and Time   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableDate14   |Date and Time   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableDate15   |Date and Time   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableDate16   |Date and Time   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableDate17   |Date and Time   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableDate18   |Date and Time   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableDate19   |Date and Time   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableDecimal00   |Decimal   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableDecimal01   |Decimal   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableDecimal02   |Decimal   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableDecimal03   |Decimal   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableDecimal04   |Decimal   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableDecimal05   |Decimal   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableDecimal06   |Decimal   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableDecimal07   |Decimal   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableDecimal08   |Decimal   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableDecimal09   |Decimal   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableDouble00   |Double precision float   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableDouble01   |Double precision float   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableDouble02   |Double precision float   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableDouble03   |Double precision float   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableDouble04   |Double precision float   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableDouble05   |Double precision float   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableDouble06   |Double precision float   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableDouble07   |Double precision float   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableDouble08   |Double precision float   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableDouble09   |Double precision float   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableInt00   |Integer   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableInt01   |Integer   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableInt02   |Integer   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableInt03   |Integer   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableInt04   |Integer   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableInt05   |Integer   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableInt06   |Integer   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableInt07   |Integer   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableInt08   |Integer   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableInt09   |Integer   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableInt10   |Integer   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableInt11   |Integer   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableInt12   |Integer   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableInt13   |Integer   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableInt14   |Integer   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableInt15   |Integer   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableInt16   |Integer   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableInt17   |Integer   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableInt18   |Integer   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableInt19   |Integer   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableInt20   |Integer   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableInt21   |Integer   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableInt22   |Integer   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableInt23   |Integer   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableInt24   |Integer   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableInt25   |Integer   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableInt26   |Integer   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableInt27   |Integer   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableInt28   |Integer   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableInt29   |Integer   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableInt30   |Integer   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableInt31   |Integer   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableInt32   |Integer   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableInt33   |Integer   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableInt34   |Integer   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableInt35   |Integer   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableInt36   |Integer   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableInt37   |Integer   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableInt38   |Integer   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableInt39   |Integer   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableInt40   |Integer   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableInt41   |Integer   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableInt42   |Integer   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableInt43   |Integer   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableInt44   |Integer   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableInt45   |Integer   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableInt46   |Integer   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableInt47   |Integer   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableInt48   |Integer   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableInt49   |Integer   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString00   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString01   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString02   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString03   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString04   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString05   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString06   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString07   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString08   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString09   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString10   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString11   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString12   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString13   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString14   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString15   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString16   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString17   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString18   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString19   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString20   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString21   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString22   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString23   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString24   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString25   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString26   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString27   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString28   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString29   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString30   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString31   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString32   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString33   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString34   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString35   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString36   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString37   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString38   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString39   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString40   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString41   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString42   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString43   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString44   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString45   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString46   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString47   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString48   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString49   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString50   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString51   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString52   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString53   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString54   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString55   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString56   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString57   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString58   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString59   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString60   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString61   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString62   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString63   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString64   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString65   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString66   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString67   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString68   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString69   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString70   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString71   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString72   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString73   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString74   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString75   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString76   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString77   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString78   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString79   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString80   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString81   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString82   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString83   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString84   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString85   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString86   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString87   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString88   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString89   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString90   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString91   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString92   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString93   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString94   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString95   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString96   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString97   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString98   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|RefinableString99   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|ReplyCount   |Integer   |No   |No   |No   |Yes   |No   |No   |ows_ReplyCount   ||
+|Responsibilities   |Text   |Yes   |Yes   |Yes   |Yes   |Yes   |No   |People:SPS-Responsibility   |Responsibility   |
+|RobotsNoIndex   |Yes/No   |No   |Yes   |No   |No   |No   |No   |ows_RobotsNoIndex   ||
+|RootPostID   |Text   |No   |Yes   |No   |Yes   |No   |No   |ows_RootPostID   ||
+|RootPostOwnerID   |Text   |No   |Yes   |No   |Yes   |No   |No   |ows_RootPostOwnerID   ||
+|RootPostUniqueID   |Text   |No   |Yes   |No   |Yes   |No   |No   |ows_RootPostUniqueID   ||
+|Schools   |Text   |Yes   |Yes   |No   |Yes   |No   |No   |People:SPS-School   ||
+|SecondaryFileExtension   |Text   |No   |Yes   |No   |Yes   |No   |No   |ows_FileType, ows_File_x0020_Type   ||
+|SecondLevelColleagues   |Text   |Yes   |Yes   |No   |Yes   |No   |No   |||
+|SectionIndexes   |Text   |Yes   |No   |No   |Yes   |No   |No   |||
+|SectionNames   |Text   |Yes   |No   |No   |Yes   |No   |No   |||
+|ServerRedirectedEmbedURL   |Text   |No   |No   |No   |Yes   |No   |No   |ows_ServerRedirectedEmbedUrl   ||
+|ServerRedirectedPreviewURL   |Text   |No   |No   |No   |Yes   |No   |No   |ows_ServerRedirectedPreviewUrl   ||
+|ServerRedirectedURL   |Text   |No   |Yes   |No   |Yes   |No   |No   |ows_ServerRedirectedUrl   ||
+|ServiceApplicationID   |Text   |No   |Yes   |No   |Yes   |No   |No   |||
+|SharedWithInternal   |Text   |Yes   |Yes   |No   |Yes   |Yes   |No   |ows_SharedWithInternal   ||
+|SipAddress   |Text   |No   |Yes   |Yes   |Yes   |No   |No   |People:SPS-SipAddress   ||
+|Site   |Text   |No   |Yes   |No   |Yes   |Yes   |No   |urn:schemas.microsoft.com:fulltextqueryinfo:sitename   ||
+|SiteClosed   |Yes/No   |No   |Yes   |No   |No   |No   |No   |||
+|SiteDescription   |Text   |No   |No   |No   |Yes   |No   |No   |ows_SiteDescription   ||
+|SiteID   |Text   |No   |Yes   |No   |Yes   |No   |No   |ows_SiteID   ||
+|SiteLogo   |Text   |No   |No   |No   |Yes   |No   |No   |LogoURL   ||
+|SitemapChangeFrequency   |Integer   |No   |No   |No   |Yes   |No   |No   |||
+|SitemapPriority   |Double precision float   |No   |No   |No   |Yes   |No   |No   |||
+|SiteMembers   |Text   |Yes   |No   |No   |Yes   |No   |No   |||
+|sitename   |Text   |No   |Yes   |No   |Yes   |Yes   |No   |||
+|SiteOwners   |Text   |Yes   |No   |No   |Yes   |No   |No   |||
+|siterank   |Integer   |No   |No   |No   |No   |No   |Yes   |||
+|SiteTitle   |Text   |No   |Yes   |No   |Yes   |No   |No   |ows_SiteName   |urn:schemas-microsoft-com:office:office#ows_SiteName   |
+|Size   |Integer   |No   |Yes   |No   |Yes   |Yes   |Yes   |Basic:12, ows_ImageSize   |DAV:getcontentlength, PictureSize, ImageSize   |
+|Skills   |Text   |Yes   |Yes   |No   |Yes   |No   |No   |People:SPS-Skills   ||
+|SocialTag   |Text   |No   |Yes   |Yes   |Yes   |No   |No   |||
+|SocialTagTextUrl   |Text   |Yes   |Yes   |No   |No   |No   |No   |People:SocialTagTextUrl   ||
+|SPContentType   |Text   |No   |Yes   |No   |No   |Yes   |No   |ows_ContentType   ||
+|SpellingTerms   |Text   |No   |No   |Yes   |No   |No   |No   |||
+|SPSiteURL   |Text   |No   |Yes   |No   |Yes   |No   |Yes   |ows_SPSiteURL   ||
+|SPVersion   |Integer   |No   |No   |No   |Yes   |No   |No   |ows_SPVersion   ||
+|StartDate   |Date and Time   |No   |Yes   |No   |Yes   |No   |No   |ows_Start_x0020_date, ows_DMSReleaseDate   ||
+|Status   |Text   |No   |Yes   |No   |Yes   |No   |No   |ows_Issue_x0020_Status, ows_Task_x0020_Status   ||
+|Tags   |Text   |Yes   |Yes   |No   |Yes   |Yes   |No   |ows_SearchTag1, ows_SearchTag2, ows_SearchTag3   ||
+|teaser   |Text   |No   |No   |No   |Yes   |No   |No   |||
+|Text1   |Text   |No   |No   |Yes   |No   |No   |No   |||
+|Text2   |Text   |No   |No   |Yes   |No   |No   |No   |||
+|Text3   |Text   |No   |No   |Yes   |No   |No   |No   |||
+|Title   |Text   |No   |Yes   |Yes   |Yes   |No   |No   |MetadataExtractorTitle, Office:2, ows_BaseName, Title   |DocTitle, urn:schemas.microsoft.com:fulltextqueryinfo:displaytitle   |
+|tld   |Text   |No   |Yes   |No   |Yes   |No   |No   |||
+|UniqueID   |Text   |No   |No   |No   |Yes   |No   |No   |ows_UniqueID   ||
+|url   |Text   |No   |No   |No   |Yes   |No   |No   |ows_DMSDocAuthorURL   ||
+|UrlDepth   |Integer   |No   |Yes   |No   |Yes   |Yes   |Yes   |||
+|urlkeywords   |Text   |No   |Yes   |Yes   |No   |No   |No   |||
+|urls   |Text   |Yes   |Yes   |No   |Yes   |No   |No   |||
+|UsageAnalyticsId   |Text   |No   |Yes   |No   |Yes   |No   |No   |ows_ProductCatalogItemNumber   ||
+|UsageEvent10LifeTime   |Integer   |No   |No   |No   |Yes   |No   |Yes   |||
+|UsageEvent10Recent   |Integer   |No   |No   |No   |Yes   |No   |Yes   |||
+|UsageEvent11LifeTime   |Integer   |No   |No   |No   |Yes   |No   |Yes   |||
+|UsageEvent11Recent   |Integer   |No   |No   |No   |Yes   |No   |Yes   |||
+|UsageEvent12LifeTime   |Integer   |No   |No   |No   |Yes   |No   |Yes   |||
+|UsageEvent12Recent   |Integer   |No   |No   |No   |Yes   |No   |Yes   |||
+|UsageEvent1LifeTime   |Integer   |No   |No   |No   |Yes   |No   |Yes   |||
+|UsageEvent1Recent   |Integer   |No   |No   |No   |Yes   |No   |Yes   |||
+|UsageEvent2LifeTime   |Integer   |No   |No   |No   |Yes   |No   |Yes   |||
+|UsageEvent2Recent   |Integer   |No   |No   |No   |Yes   |No   |Yes   |||
+|UsageEvent3LifeTime   |Integer   |No   |No   |No   |Yes   |No   |Yes   |||
+|UsageEvent3Recent   |Integer   |No   |No   |No   |Yes   |No   |Yes   |||
+|UsageEvent4LifeTime   |Integer   |No   |No   |No   |Yes   |No   |Yes   |||
+|UsageEvent4Recent   |Integer   |No   |No   |No   |Yes   |No   |Yes   |||
+|UsageEvent5LifeTime   |Integer   |No   |No   |No   |Yes   |No   |Yes   |||
+|UsageEvent5Recent   |Integer   |No   |No   |No   |Yes   |No   |Yes   |||
+|UsageEvent6LifeTime   |Integer   |No   |No   |No   |Yes   |No   |Yes   |||
+|UsageEvent6Recent   |Integer   |No   |No   |No   |Yes   |No   |Yes   |||
+|UsageEvent7LifeTime   |Integer   |No   |No   |No   |Yes   |No   |Yes   |||
+|UsageEvent7Recent   |Integer   |No   |No   |No   |Yes   |No   |Yes   |||
+|UsageEvent8LifeTime   |Integer   |No   |No   |No   |Yes   |No   |Yes   |||
+|UsageEvent8Recent   |Integer   |No   |No   |No   |Yes   |No   |Yes   |||
+|UsageEvent9LifeTime   |Integer   |No   |No   |No   |Yes   |No   |Yes   |||
+|UsageEvent9Recent   |Integer   |No   |No   |No   |Yes   |No   |Yes   |||
+|UsageEventItemId   |Text   |No   |Yes   |No   |Yes   |Yes   |No   |ows_ProductCatalogItemNumber   ||
+|UserEncodingURL   |Text   |No   |No   |No   |Yes   |No   |No   |ows_VideoSetUserOverrideEncoding   ||
+|UserName   |Text   |No   |Yes   |Yes   |Yes   |No   |No   |People:UserName, ows_FullName, ows_Full_x0020_Name   ||
+|UserProfile_GUID   |Text   |No   |Yes   |No   |Yes   |No   |No   |People:UserProfile_GUID   ||
+|ViewsLast1Days   |Integer   |No   |No   |No   |Yes   |No   |No   |||
+|ViewsLast1DaysUniqueUsers   |Integer   |No   |No   |No   |Yes   |No   |No   |||
+|ViewsLast2Days   |Integer   |No   |No   |No   |Yes   |No   |No   |||
+|ViewsLast2DaysUniqueUsers   |Integer   |No   |No   |No   |Yes   |No   |No   |||
+|ViewsLast3Days   |Integer   |No   |No   |No   |Yes   |No   |No   |||
+|ViewsLast3DaysUniqueUsers   |Integer   |No   |No   |No   |Yes   |No   |No   |||
+|ViewsLast4Days   |Integer   |No   |No   |No   |Yes   |No   |No   |||
+|ViewsLast4DaysUniqueUsers   |Integer   |No   |No   |No   |Yes   |No   |No   |||
+|ViewsLast5Days   |Integer   |No   |No   |No   |Yes   |No   |No   |||
+|ViewsLast5DaysUniqueUsers   |Integer   |No   |No   |No   |Yes   |No   |No   |||
+|ViewsLast6Days   |Integer   |No   |No   |No   |Yes   |No   |No   |||
+|ViewsLast6DaysUniqueUsers   |Integer   |No   |No   |No   |Yes   |No   |No   |||
+|ViewsLast7Days   |Integer   |No   |No   |No   |Yes   |No   |No   |||
+|ViewsLast7DaysUniqueUsers   |Integer   |No   |No   |No   |Yes   |No   |No   |||
+|ViewsLastMonths1   |Integer   |No   |No   |No   |Yes   |No   |No   |||
+|ViewsLastMonths1Unique   |Integer   |No   |No   |No   |Yes   |No   |No   |||
+|ViewsLastMonths2   |Integer   |No   |No   |No   |Yes   |No   |No   |||
+|ViewsLastMonths2Unique   |Integer   |No   |No   |No   |Yes   |No   |No   |||
+|ViewsLastMonths3   |Integer   |No   |No   |No   |Yes   |No   |No   |||
+|ViewsLastMonths3Unique   |Integer   |No   |No   |No   |Yes   |No   |No   |||
+|ViewsLifeTime   |Integer   |No   |No   |No   |Yes   |No   |Yes   |||
+|ViewsLifeTimeUniqueUsers   |Integer   |No   |No   |No   |Yes   |No   |Yes   |||
+|ViewsRecent   |Integer   |No   |No   |No   |Yes   |No   |Yes   |||
+|ViewsRecentUniqueUsers   |Integer   |No   |No   |No   |Yes   |No   |Yes   |||
+|WebId   |Text   |No   |Yes   |No   |Yes   |No   |No   |ows_WebId   ||
+|WebTemplate   |Text   |No   |Yes   |No   |No   |Yes   |No   |WebTemplate   ||
+|WeightedMemberships   |Text   |Yes   |No   |No   |Yes   |No   |No   |People:WeightedMemberships   ||
+|WikiCategory   |Text   |No   |Yes   |No   |Yes   |No   |No   |ows_Wiki_x0020_Page_x0020_Categories   ||
+|WordCustomRefiner1   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|WordCustomRefiner2   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|WordCustomRefiner3   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|WordCustomRefiner4   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|WordCustomRefiner5   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|WordExactCustomRefiner   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|WordPartCustomRefiner1   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|WordPartCustomRefiner2   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|WordPartCustomRefiner3   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|WordPartCustomRefiner4   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|WordPartCustomRefiner5   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|WordPartExactCustomRefiner   |Text   |Yes   |Yes   |No   |Yes   |Yes   |Yes   |||
+|WorkEmail   |Text   |No   |Yes   |Yes   |Yes   |No   |No   |People:WorkEmail, ows_EMail, ows_EMail_x0020_   |urn:schemas-microsoft-com:sharepoint:portal:profile:WorkEmail   |
+|WorkId   |Integer   |No   |No   |No   |Yes   |No   |No   |||
+|WorkPhone   |Text   |No   |Yes   |No   |Yes   |No   |No   |People:WorkPhone, ows_WorkPhone, ows_Work_x0020_Phone   |urn:schemas-microsoft-com:sharepoint:portal:profile:WorkPhone   |
+|YomiDisplayName   |Text   |No   |Yes   |No   |Yes   |No   |No   |People:SPS-PhoneticDisplayName   ||
    
 
+### Managed Properties Added in SharePoint Server 2016
+|||||||||||
+|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
+|**Property name**  |**Type**  |**Multi-valued**  |**Queryable**  |**Searchable**  |**Retrievable**  |**Refinable**  |**Sortable**  |**Mapped crawled properties**  |**Aliases**  |
+|AADObjectID   |Text   |No   |Yes   |No   |Yes   |No   |No   |People:AboutMe, ows_Notes   ||
+|AnalyticsPath |Text   |No   |Yes  |No |Yes  |No  |No  |People:msOnline-ObjectId||
+|ChannelVersion |Text |No|No|No|Yes|No|No|ows_ChannelVersion||
+|ClassificationConfidence|Integer|Yes|Yes|No|Yes|No|No||SensitiveMatchConfidence;ClassificationConfidenceCreditCardNumber;ClassificationConfidenceEUDebitCardNumber;ClassificationConfidenceUSSocialSecurityNumberSSN;ClassificationConfidenceUSIndividualTaxpayerIdentificationNumberITIN;ClassificationConfidenceCanadaSocialInsuranceNumber;ClassificationConfidenceUKNationalInsuranceNumberNINO;ClassificationConfidenceUKDriversLicenseNumber;ClassificationConfidenceGermanDriversLicenseNumber;ClassificationConfidenceGermanPassportNumber;ClassificationConfidenceUKNationalHealthServiceNumber;ClassificationConfidenceFranceSocialSecurityNumberINSEE;ClassificationConfidenceFranceDriversLicenseNumber;ClassificationConfidenceCanadaDriversLicenseNumber;ClassificationConfidenceUSDriversLicenseNumber;ClassificationConfidenceJapanDriversLicenseNumber;ClassificationConfidenceJapanResidentRegistrationNumber;ClassificationConfidenceJapanSocialInsuranceNumberSIN;ClassificationConfidenceJapanPassportNumber;ClassificationConfidenceJapanBankAccountNumber;ClassificationConfidenceFrancePassportNumber;ClassificationConfidenceUSUKPassportNumber;ClassificationConfidenceSWIFTCode;ClassificationConfidenceUSBankAccountNumber;ClassificationConfidenceABARoutingNumber;ClassificationConfidenceDrugEnforcementAgencyDEANumber;ClassificationConfidenceAustraliaMedicalAccountNumber;ClassificationConfidenceAustraliaTaxFileNumber;ClassificationConfidenceIsraelNationalID;ClassificationConfidenceNewZealandMinistryofHealthNumber;ClassificationConfidenceSpainSocialSecurityNumberSSN;ClassificationConfidenceSwedenNationalID;ClassificationConfidenceAustraliaBankAccountNumber;ClassificationConfidenceAustraliaDriversLicenseNumber;ClassificationConfidenceAustraliaPassportNumber;ClassificationConfidenceCanadaBankAccountNumber;ClassificationConfidenceCanadaPassportNumber;ClassificationConfidenceCanadaPersonalHealthIdentificationNumberPHIN;ClassificationConfidenceCanadaHealthServiceNumber;ClassificationConfidenceFranceNationalIDCardCNI;ClassificationConfidenceIPAddress;ClassificationConfidenceInternationalBankingAccountNumberIBAN;ClassificationConfidenceIsraelBankAccountNumber;ClassificationConfidenceItalyDriversLicenseNumber;ClassificationConfidenceSaudiArabiaNationalID;ClassificationConfidenceSwedenPassportNumber;ClassificationConfidenceUKElectoralRollNumber;ClassificationConfidenceFinlandNationalID;ClassificationConfidenceTaiwanNationalID;ClassificationConfidencePolandNationalIDPESEL;ClassificationConfidencePolandIdentityCard;ClassificationConfidencePolandPassport|
+|ClassificationCount|Integer|Yes|Yes|No|Yes|No|No||SensitiveMatchCount;ClassificationCountCreditCardNumber;ClassificationCountEUDebitCardNumber;ClassificationCountUSSocialSecurityNumberSSN;ClassificationCountUSIndividualTaxpayerIdentificationNumberITIN;ClassificationCountCanadaSocialInsuranceNumber;ClassificationCountUKNationalInsuranceNumberNINO;ClassificationCountUKDriversLicenseNumber;ClassificationCountGermanDriversLicenseNumber;ClassificationCountGermanPassportNumber;ClassificationCountUKNationalHealthServiceNumber;ClassificationCountFranceSocialSecurityNumberINSEE;ClassificationCountFranceDriversLicenseNumber;ClassificationCountCanadaDriversLicenseNumber;ClassificationCountUSDriversLicenseNumber;ClassificationCountJapanDriversLicenseNumber;ClassificationCountJapanResidentRegistrationNumber;ClassificationCountJapanSocialInsuranceNumberSIN;ClassificationCountJapanPassportNumber;ClassificationCountJapanBankAccountNumber;ClassificationCountFrancePassportNumber;ClassificationCountUSUKPassportNumber;ClassificationCountSWIFTCode;ClassificationCountUSBankAccountNumber;ClassificationCountABARoutingNumber;ClassificationCountDrugEnforcementAgencyDEANumber;ClassificationCountAustraliaMedicalAccountNumber;ClassificationCountAustraliaTaxFileNumber;ClassificationCountIsraelNationalID;ClassificationCountNewZealandMinistryofHealthNumber;ClassificationCountSpainSocialSecurityNumberSSN;ClassificationCountSwedenNationalID;ClassificationCountAustraliaBankAccountNumber;ClassificationCountAustraliaDriversLicenseNumber;ClassificationCountAustraliaPassportNumber;ClassificationCountCanadaBankAccountNumber;ClassificationCountCanadaPassportNumber;ClassificationCountCanadaPersonalHealthIdentificationNumberPHIN;ClassificationCountCanadaHealthServiceNumber;ClassificationCountFranceNationalIDCardCNI;ClassificationCountIPAddress;ClassificationCountInternationalBankingAccountNumberIBAN;ClassificationCountIsraelBankAccountNumber;ClassificationCountItalyDriversLicenseNumber;ClassificationCountSaudiArabiaNationalID;ClassificationCountSwedenPassportNumber;ClassificationCountUKElectoralRollNumber;ClassificationCountFinlandNationalID;ClassificationCountTaiwanNationalID;ClassificationCountPolandNationalIDPESEL;ClassificationCountPolandIdentityCard;ClassificationCountPolandPassport|
+|ClassificationLastScan|Date and Time|Yes|Yes|No|Yes|Yes|Yes||LastSensitiveContentScan|
+|ClassificationType|Text|Yes|Yes|No|Yes|Yes|No||SensitiveType|
+|ClientUrl|Text|No|Yes|No|Yes|No|No|ClientUrl||
+|ContentDatabaseId|Text|No|Yes|No|Yes|No|No|ows_ContentDatabaseId||
+|CreatedById|Text|No|Yes|No|Yes|No|No|ows_AuthorUserId||
+|DlcDocId|Text|No|Yes|No|Yes|No|No|ows__dlc_DocId||
+|HideFromDelve|Yes/No|No|Yes|No|No|No|No|ows_HideFromDelve||
+|HtmlFileType|Text|No|Yes|No|Yes|No|No|ows_Html_x0020_File_x0020_Type||
+|IRMProtected|Yes/No|No|Yes|No|Yes|Yes|Yes|ows_IRMProtected||
+|IRMTemplateName|Text|No|Yes|No|Yes|Yes|Yes|ows_IRMTemplateName||
+|IsExternalContent|Yes/No|No|Yes|No|Yes|Yes|Yes|IsExternalContent||
+|IsInRecycleBin|Yes/No|No|Yes|No|Yes|No|No|InRecycleBin, ows_InRecycleBin||
+|IsOneNotePage|Yes/No|No|Yes|No|Yes|No|No|ows_IsOneNotePage||
+|ItemCategory|Text|No|Yes|No|Yes|No|No|ows_ItemCategory||
+|LastSharedByTime|Date and Time|No|No|No|Yes|No|No|ows_LastSharedByTime||
+|LastSharedByUser|Text|No|Yes|No|Yes|No|No|ows_lastSharedByUser||
+|LinkingUrl|Text|No|Yes|No|Yes|No|No|ows_LinkingUrl||
+|ModifiedById|Text|No|Yes|No|Yes|No|No|ows_q_USER_Editor||
+|OfficeGraphEnabled|Yes/No|No|Yes|No|Yes|No|No|People:OfficeGraphEnabled||
+|owstaxIdVideoPortalItemCategory|Text|Yes|Yes|Yes|Yes|Yes|No|ows_taxId|VideoCategory||
+|PageAppId|Text|No|Yes|No|Yes|No|No|AppId||
+|PageAuthorInitials|Text|No|No|No|Yes|No|No|AuthorInitials||
+|PageID|Text|No|Yes|No|Yes|No|No|PageId||
+|PageLastModifierInitials|Text|No|No|No|Yes|No|No|LastModifierInitials||
+|PageLevel|Text|No|No|No|Yes|No|No|PageLevel||
+|PageTags|Text|Yes|Yes|No|Yes|No|No|Tags||
+|ParentId|Text|No|Yes|No|Yes|No|No|ows_ParentUniqueId||
+|PolicyTags|Integer|Yes|Yes|No|No|No|No|||
+|PrivacyIndicator|Text|No|Yes|No|Yes|No|No|||
+|ProgID|Text|No|Yes|No|Yes|No|No|ows_ProgId||
+|Restricted|Yes/No|No|Yes|No|Yes|Yes|Yes|ows_Restricted||
+|SectionColor|Text|No|No|No|Yes|No|No|SectionColor||
+|SharedWithDetails|Text|No|No|No|Yes|No|No|ows_SharedWithDetails||
+|SiteGroup|Text|Yes|Yes|No|Yes|No|No|||
+|SiteTemplate|Text|No|Yes|No|Yes|Yes|Yes|ows_SiteTemplate||
+|SiteTemplateId|Integer|No|Yes|No|Yes|Yes|Yes|ows_SiteTemplateId||
+|SpotlightVideos|Text|No|No|No|Yes|No|No|ows_SpotlightVideos||
+|SPS-HideFromAddressLists|Integer|No|Yes|No|Yes|No|No|People:SPS-HideFromAddressLists||
+|SPS-RecipientTypeDetails|Integer|No|Yes|No|Yes|No|No|People:SPS-RecipientTypeDetails||
+|SPS-UserType|Integer|No|Yes|No|Yes|No|No|People:SPS-UserType||
+|SPWebUrl|Text|No|No|No|Yes|No|No|ows_taxId_SPLocationSite||
+|TileColor|Text|No|No|No|Yes|No|No|ows_TileColor||
+|VideoProcessingStatus|Text|No|Yes|No|Yes|No|No|ows_VideoProcessingStatus||
+|ViewableByAnonymousUsers|Yes/No|No|Yes|No|Yes|Yes|Yes|ows_ViewableByAnonymousUsers||
+|ViewableByExternalUsers|Yes/No|No|Yes|No|Yes|Yes|Yes|ows_ViewableByExternalUsers||
+|WebApplicationId|Text|No|Yes|No|Yes|No|No|ows_WebApplicationId||
+|WebUrl|Text|No|Yes|No|Yes|No|No|No|WebUrl||
+|XLDataConnCount|Decimal|No|No|No|Yes|No|No|XLDataConnCount||
+|XLDataConnCountRngID|Integer|No|Yes|No|Yes|Yes|Yes|XLDataConnCountRngID||
+|XLFormulaCount|Decimal|No|No|No|Yes|No|No|XLFormulaCount||
+|XLFormulaCountRngID|Integer|No|Yes|No|Yes|Yes|Yes|XLFormulaCountRngID||
+|XLLinkedWkbkCount|Decimal|No|No|No|Yes|No|No|XLLinkedWkbkCount||
+|XLLinkedWkbkCountRngID|Integer|No|Yes|No|Yes|Yes|Yes|XLLinkedWkbkCountRngID||
+|XLLinkedWorkbooksText|Text|Yes|Yes|No|Yes|No|No|XLLinkedWorkbooksText||
+|XLUniqueFormulaSetCount|Integer|No|No|No|Yes|No|No|XLUniqueFormulaSetCount||
+|XLUniqueFormulaSetCountRngID|Integer|No|Yes|No|Yes|Yes|Yes|XLUniqueFormulaSetCountRngID||
+|XLWorksheetCount|Decimal|No|No|No|Yes|No|No|XLWorksheetCount||
+|XLWorksheetCountRngID|Integer|No|Yes|No|Yes|Yes|Yes|XLWorksheetCountRngID||
+
+### Managed Properties Added in SharePoint Server 2019
+|||||||||||
+|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
+|**Property name**  |**Type**  |**Multi-valued**  |**Queryable**  |**Searchable**  |**Retrievable**  |**Refinable**  |**Sortable**  |**Mapped crawled properties**  |**Aliases**  |
+|AppVersion   |Text   |No   |No   |No   |Yes   |No   |No   |ows_AppVersion  ||
+|AutoTagClassificationId|Text|No|Yes|No|Yes|Yes|No|||
+|ClassificationContext|Text|Yes|No|No|Yes|No|No|||
+|Color|Text|No|No|No|Yes|No|No|ThemePrimary||
+|ComplianceAssetId|Text|No|Yes|No|Yes|No|No|ows_ComplianceAssetId||
+|ComplianceTag|Text|No|Yes|No|Yes|Yes|Yes|ows__ComplianceTag||
+|ComplianceTagWrittenTime|Date and Time|No|Yes|No|Yes|Yes|Yes|ows__ComplianceTagWrittenTime||
+|CultureName|Text|No|No|No|Yes|No|No|ows_CultureName||
+|DefaultSectionNames|Text|No|Yes|No|Yes|No|No|ows_DefaultSectionNames||
+|DepartmentId|Text|No|Yes|No|Yes|Yes|No|ows_DepartmentId||
+|FirstPublishedDate|Date and Time|No|Yes|No|Yes|Yes|Yes|ows_FirstPublishedDate||
+|FolderType|Text|No|No|No|Yes|No|No|ows_FolderType||
+|GeoLocation|Text|No|Yes|No|Yes|Yes|No|ows_GeoLocation||
+|GroupId|Text|No|Yes|No|Yes|No|No|ows_GroupId||
+|Has_Leader_Only_SectionGroup|Yes/No|No|No|No|Yes|No|No|ows_Has_Leader_Only_SectionGroup||
+|Has_Teacher_Only_SectionGroup|Yes/No|No|No|No|Yes|No|No|ows_Has_Teacher_Only_SectionGroup||
+|Is_Collaboration_Space_Locked|Yes/No|No|No|No|Yes|No|No|ows_Is_Collaboration_Space_Locked||
+|IsAllDayEvent|Yes/No|No|Yes|No|Yes|No|No|ows_fAllDayEvent||
+|IsClassificationProcessingLimitExceeded|Yes/No|No|Yes|No|Yes|No|No|||
+|IsHubSite|Yes/No|No|Yes|No|Yes|No|No|ows_IsHubSite||
+|LastModifiedTimeForRetention|Date and Time|No|Yes|No|Yes|Yes|Yes|ows_Modified||
+|Leaders|Text|Yes|No|No|Yes|No|No|ows_Leaders||
+|MediaServiceAutoTags|Text|No|Yes|Yes|Yes|No|No|ows_MediaServiceAutoTags||
+|MediaServiceLocation|Text|No|Yes|Yes|Yes|No|No|ows_MediaServiceLocation||
+|MediaServiceMetadata|Text|No|Yes|No|Yes|No|No|MediaServiceMetadata||
+|Member_Groups|Text|Yes|No|No|Yes|No|No|ows_Member_Groups||
+|Members|Text|Yes|No|No|Yes|No|No|ows_Members||
+|NotebookType|Text|No|Yes|No|Yes|No|No|ows_NotebookType||
+|ObjectEmbeddings|Text|Yes|Yes|No|Yes|No|No|NumberOfTables, NumberOfCharts, NumberOfSmartArt||
+|Owner|Text|No|No|No|Yes|No|No|ows_Owner||
+|PartitionKey|Text|No|Yes|No|Yes|No|No|||
+|policyacl|Text|No|Yes|No|No|No|No|||
+|policyacl2|Text|No|Yes|No|No|No|No|||
+|PromotedState|Integer|No|Yes|No|Yes|No|Yes|ows_PromotedState||
+|PublishingPageImageOWSIMGEX|Text|No|No|No|Yes|No|No|ows_r_IMGE_PublishingPageImage|PublishingPageImageOWSIMGE|
+|PublishingRollupImageOWSIMGEX|Text|No|No|No|Yes|No|No|ows_r_IMGE_PublishingRollupImage|PublishingRollupImageOWSIMGE|
+|RefinableDateInvariant00|Date and Time|No|Yes|No|Yes|Yes|Yes|||
+|RefinableDateInvariant01|Date and Time|No|Yes|No|Yes|Yes|Yes|||
+|RefinableDateSingle00|Date and Time|No|Yes|No|Yes|Yes|Yes|||
+|RefinableDateSingle01|Date and Time|No|Yes|No|Yes|Yes|Yes|||
+|RefinableDateSingle02|Date and Time|No|Yes|No|Yes|Yes|Yes|||
+|RefinableDateSingle03|Date and Time|No|Yes|No|Yes|Yes|Yes|||
+|RefinableDateSingle04|Date and Time|No|Yes|No|Yes|Yes|Yes|||
+|RefinableString100|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString101|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString102|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString103|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString104|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString105|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString106|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString107|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString108|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString109|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString110|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString111|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString112|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString113|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString114|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString115|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString116|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString117|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString118|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString119|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString120|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString121|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString122|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString123|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString124|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString125|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString126|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString127|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString128|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString129|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString130|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString131|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString132|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString133|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString134|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString135|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString136|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString137|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString138|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString139|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString140|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString141|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString142|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString143|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString144|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString145|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString146|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString147|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString148|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString149|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString150|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString151|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString152|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString153|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString154|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString155|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString156|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString157|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString158|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString159|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString160|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString161|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString162|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString163|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString164|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString165|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString166|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString167|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString168|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString169|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString170|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString171|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString172|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString173|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString174|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString175|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString176|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString177|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString178|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString179|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString180|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString181|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString182|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString183|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString184|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString185|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString186|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString187|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString188|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString189|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString190|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString191|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString192|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString193|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString194|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString195|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString196|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString197|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString198|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|RefinableString199|Text|Yes|Yes|No|Yes|Yes|Yes|||
+|SharedWithUsersOWSUSER|Text|No|Yes|No|Yes|No|No|ows_q_USER_SharedWithUsers||
+|Student_Groups|Text|Yes|No|No|Yes|No|No|ows_Student_Groups||
+|Students|Text|Yes|No|No|Yes|No|No|ows_Students||
+|TagEventDate|Date and Time|No|Yes|No|Yes|No|No|ows_TagEventDate||
+|Teachers|Text|Yes|No|No|Yes|No|No|ows_Teachers||

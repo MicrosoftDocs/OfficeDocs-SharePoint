@@ -1,8 +1,8 @@
 ---
 title: "Application pools recycle when memory limits are exceeded (SharePoint Server)"
 ms.reviewer: 
-ms.author: stevhord
-author: bentoncity
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 2/22/2018
 audience: ITPro

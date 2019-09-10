@@ -1,8 +1,8 @@
 ---
 title: "Manage databases in SharePoint Server"
 ms.reviewer: 
-ms.author: stevhord
-author: bentoncity
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 8/4/2017
 audience: ITPro

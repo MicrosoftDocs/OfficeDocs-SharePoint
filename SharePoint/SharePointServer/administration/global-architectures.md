@@ -1,8 +1,8 @@
 ---
 title: "Global architectures for SharePoint Server"
 ms.reviewer: 
-ms.author: kirks
-author: Techwriter40
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 9/5/2017
 audience: ITPro

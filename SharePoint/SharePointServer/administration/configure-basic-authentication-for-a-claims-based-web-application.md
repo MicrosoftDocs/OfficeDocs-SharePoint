@@ -1,8 +1,8 @@
 ---
 title: "Configure basic authentication for a claims-based web application in SharePoint Server"
 ms.reviewer: 
-ms.author: kirks
-author: Techwriter40
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 2/28/2018
 audience: ITPro

@@ -1,8 +1,8 @@
 ---
 title: "SharePoint Server design samples Corporate portal and extranet sites"
 ms.reviewer: 
-ms.author: kirks
-author: Techwriter40
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 8/21/2017
 audience: ITPro
