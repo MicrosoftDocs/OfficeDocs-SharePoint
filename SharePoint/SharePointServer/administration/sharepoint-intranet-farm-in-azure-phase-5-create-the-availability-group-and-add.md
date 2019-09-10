@@ -212,8 +212,6 @@ The Availability Group listener is an IP address and DNS name that the SQL Serve
   
   ```
 
- > [!TIP]
-    > For a text file that contains all of the PowerShell commands in this article, see the [SharePoint Server 2016 High Availability Farm in Azure Deployment Kit](https://gallery.technet.microsoft.com/SharePoint-Server-2016-3d3d9071). 
   
 Use these steps to configure the listener port:
   
