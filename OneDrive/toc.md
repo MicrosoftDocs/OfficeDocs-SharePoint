@@ -12,6 +12,7 @@
 ### [Use silent account configuration](use-silent-account-configuration.md)
 ### [Transition from previous sync client](transition-from-previous-sync-client.md)
 ### [Redirect known folders](redirect-known-folders.md)
+### [OneDrive for Business Known Folder Move (KFM) Workshop](known-folder-move-workshop.md)
 ### [B2B Sync](b2b-sync.md)
 ### [How sync works](sync-process.md)
 ### [Use Group Policy](use-group-policy.md)
